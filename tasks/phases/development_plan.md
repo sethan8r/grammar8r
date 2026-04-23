@@ -11,10 +11,21 @@
 | MenuScreen (UI) | ✅ готово |
 | Theory/Practice/Statistics | ⬜ заглушки |
 | Room, Hilt, слои data/domain | ⬜ не подключено |
-| Words8r ContentProvider | ⬜ не сделано |
+| Words8r ContentProvider (read) | ⬜ не сделано |
+| Words8r ContentProvider (write) | ⬜ не сделано |
 | Сервер (Ktor) | ⬜ пустой шаблон |
-| OAuth | ⬜ не сделано |
+| Авторизация (Яндекс OAuth + email) | ⬜ не сделано |
 | AI интеграция | ⬜ не сделано |
+
+## Порядок фаз
+
+```
+Фаза 1  — Теория (контент + UI)                     ← старт, нет внешних зависимостей
+Фаза 2а — Читаем слова из Words8r                   ← после/параллельно Фазе 1
+Фаза 2б — Пишем слова в Words8r                     ← после Фазы 2а, параллельно Фазе 3
+Фаза 3  — AI + Практика                             ← зависит от Фазы 2а (нужны слова)
+Фаза 4  — Сервер + Монетизация                      ← параллельно Фазе 3
+```
 
 ---
 
@@ -36,17 +47,35 @@
 
 ---
 
-## Фаза 2 — Слова из Words8r
+## Фаза 2а — Читаем слова из Words8r
 
-Параллельно с Фазой 1 или сразу после.
+Параллельно с Фазой 1 или сразу после. Нужна для Фазы 3 (AI-практика зависит от слов).
 
-> Детальный план: [phase2/phase2_words_sync.md](phase2/phase2_words_sync.md) (если не открывается — `tasks/phases/phase2/phase2_words_sync.md`)
+> Детальный план: [phase2/phase2a_words_read.md](phase2/phase2a_words_read.md)
 
-- [ ] ContentProvider read в Words8r (W1) — слова + qRep + неправильные глаголы
-- [ ] Room: `KnownWord` + `KnownIrregularVerb` + `DictionaryCache`
+- [ ] ContentProvider READ в Words8r (W1a) — слова + qRep + неправильные глаголы (V1/V2/V3)
+- [ ] Room: `KnownWord` + `KnownIrregularVerb`
 - [ ] Автосинхронизация при старте + ручная кнопка в меню
-- [ ] Перевод по тапу: LingvoLive (primary) + Yandex Dictionary (fallback) + кэш
-- [ ] Words8r sync BottomSheet после микротемы (заглушка, реальная отправка — Фаза 5)
+- [ ] DictionaryCache (Room) — кэш переводов
+- [ ] Перевод по тапу: LingvoLive (primary) + Yandex Dictionary (fallback) + попап UI
+- [ ] Кнопка "В мои слова" в попапе — **заглушка** (реальная отправка в Фазе 2б)
+- [ ] Words8r sync BottomSheet после микротемы — **заглушка**
+- [ ] Проверка минимума слов (50) перед стартом AI-практики
+
+---
+
+## Фаза 2б — Пишем слова в Words8r
+
+После Фазы 2а. Можно разрабатывать параллельно с Фазой 3.
+
+> Детальный план: [phase2/phase2b_words_write.md](phase2/phase2b_words_write.md)
+
+- [ ] ContentProvider WRITE в Words8r (W2a) — принять `{ word, translations[], transcription, category }`
+- [ ] Динамические категории в Words8r (W2b) — создавать по имени если нет
+- [ ] Реальная кнопка "В мои слова" → LingvoLive/Yandex кэш → Words8r, категория "Мои слова"
+- [ ] Реальный Words8r sync BottomSheet → категория = название микротемы
+- [ ] WordArrangement попап → Words8r, категория "Мои слова"
+- [ ] Deeplink / Intent: переход из Grammar8r в Words8r (изучение форм глаголов)
 
 ---
 
@@ -95,8 +124,6 @@
 
 ---
 
-## Фаза 5 — Добавление слов в Words8r
+---
 
-- [ ] ContentProvider write в Words8r (или Intent)
-- [ ] Кнопка "Добавить в словарь" в экране упражнения
-- [ ] Words8r получает слово → запрашивает Yandex.Dictionary → сохраняет
+> ~~Фаза 5~~ — объединена с Фазой 2б. Детали: [phase2/phase2b_words_write.md](phase2/phase2b_words_write.md)
