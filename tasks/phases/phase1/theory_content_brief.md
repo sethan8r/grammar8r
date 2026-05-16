@@ -209,6 +209,10 @@ Grammar8r — Android-приложение для изучения англий�
 14. **Предлог of** — генитивная конструкция: a cup of tea, the name of the city, a piece of music. Завершает блок предлогов.
 15. **Множественное число** — правило +s/+es, правила написания + топ неправильных форм (man→men, child→children, tooth→teeth и др.)
 16. **Числа** — паттерн: 1–12 уникальные, 13–19 = +teen, 20–90 = +ty, дальше комбинации (twenty-one и т.д.), 100/1000. Порядковые: first/second/third, далее +th. Идут после мн.числа: "I have 2 cats."
+17. **Дни недели** — Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.
+    Главное правило: в английском дни недели **всегда пишутся с заглавной буквы** — в отличие от русского.
+    Дополнительно: weekday (будний), weekend (выходной), разговорные сокращения (Mon, Tue, Wed...).
+    Слова синкаются в Words8r (категория "Grammar Basics") после микротемы.
 
 ### 2. Present Simple
 
@@ -236,7 +240,7 @@ Grammar8r — Android-приложение для изучения англий�
 4. **Маркеры времени** — now, right now, at the moment, today, this week
 5. **Глаголы, которые не используются в Continuous** — know, like, love, hate, want, need
 
-### 4. Глаголы: V1, V2, V3  ← идёт после Present Continuous, перед Past Simple
+### 4. Глаголы: V1, V2, V3  ← идёт после Present Continuous, перед инфинитивом
 
 Микротемы:
 1. **Что такое три формы глагола** — зачем они нужны, где используются
@@ -245,8 +249,16 @@ Grammar8r — Android-приложение для изучения англий�
 4. **Как запомнить** — связь с Words8r, советы по запоминанию
 
 После последней карточки темы:
-- Слить все 200+ глаголов в Words8r (категория "Verb Forms") — неправильные со всеми тремя формами, правильные без форм
+- Слить ~200 неправильных глаголов в Words8r (категория "Verb Forms") со всеми тремя формами (V1/V2/V3)
 - Кнопка → перейти в режим изучения форм глаголов в Words8r
+
+### 4.5. Инфинитив: с to и без to  ← после "Глаголы V1/V2/V3", перед Past Simple
+
+Микротемы:
+1. **Что такое инфинитив** — базовая форма глагола, to + V1
+2. **Глаголы которые требуют to** — want to, need to, like to, decide to, try to, plan to, agree to, refuse to, forget to, learn to...
+3. **Глаголы после которых to не нужен** — модальные (can, must, should, will, would, may, might) + let, make, help (в некоторых конструкциях)
+4. **Частые ошибки русскоговорящих** — "I want go" (нет), "I can to go" (нет). Объяснить почему интуитивно хочется добавить/убрать to там где не надо.
 
 ### 5. Past Simple
 
@@ -340,6 +352,50 @@ Grammar8r — Android-приложение для изучения англий�
 2. **Образование** — will have + Past Participle
 3. **Употребление** — действие завершится до определённого момента в будущем
 4. **Маркеры времени** — by tomorrow, by next year, by the time
+
+### 14. Разговорный английский
+
+Микротемы:
+1. **[глагол] + to → стяжения** — gonna, wanna, hafta, gotta, oughta, tryna
+2. **[modal] + have → стяжения** — coulda, woulda, shoulda, musta, mighta
+3. **Слияния и клиппинги** — dunno, lemme, gimme, kinda, sorta, ya
+4. **Вопросительные редукции** — whatcha, whaddya, howya, whataya
+5. **Современный слэнг — происхождение и значение**
+   Упор на этимологию — так запоминается лучше и интереснее.
+   Примеры: shawty (shorty → малышка), finesse (от фр. finesse — тонкость → двигаться плавно/без усилий),
+   slay (убивать → быть огонь/выглядеть потрясающе), lit (зажжённый → зажигательный/крутой),
+   vibe (вибрация → атмосфера/ощущение), flex (сгибать мышцы → хвастаться), cap/no cap (колпак → ложь/без лжи).
+   Слова синкаются в Words8r (категория "Informal English") после микротемы.
+
+### 15. Дополнительные конструкции
+
+Микротемы:
+1. **Pronoun one / ones** — замена существительного чтобы не повторять его дважды.
+   "The pink one was faster." = "The pink [car] was faster." В русском так не говорят — ловушка.
+2. **Have got** — разговорный синоним have: "I've got a problem" = "I have a problem"
+3. **Used to** — действие которое было в прошлом но больше не происходит: "I used to play football."
+4. **Got used to / Be used to** — привык к чему-то (не путать с used to!):
+   "I got used to waking up early." / "I'm used to the noise."
+5. **Be about to** — вот-вот произойдёт: "I'm about to leave."
+
+### 16. Устойчивые выражения и идиомы
+
+Микротемы:
+1. **Фразовые глаголы** — глагол + предлог = новый смысл.
+   give up (сдаться), make up (придумать / мириться), look for (искать),
+   come across (наткнуться), run out of (закончиться), put off (откладывать),
+   turn down (отказать), bring up (воспитать / поднять тему), carry on (продолжать)
+2. **Идиомы** — выражения непереводимые дословно.
+   it's raining cats and dogs, break the ice, hit the nail on the head,
+   bite the bullet, cost an arm and a leg, once in a blue moon,
+   spill the beans, under the weather, beat around the bush
+3. **Устойчивые конструкции** — фиксированные фразы с внутренней логикой.
+   by the way, one way or another, as long as, no matter what,
+   on the other hand, at the end of the day, to be honest, in other words,
+   sooner or later, for the time being
+
+Для каждой микротемы: теория (как образована, почему именно так), примеры в живом контексте,
+упражнения на распознавание и применение. Слова синкаются в Words8r (категория "Fixed Expressions").
 
 ---
 

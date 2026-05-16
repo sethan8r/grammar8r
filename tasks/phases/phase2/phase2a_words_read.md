@@ -124,6 +124,7 @@ Grammar8r использует все три формы при составле�
 | Глагол to be | am, is, are, was, were |
 | There is / There are | there |
 | Глагол have/has | have, has |
+| Дни недели | Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, weekend, weekday |
 
 > Артикли `a`, `an`, `the` — не добавляются (нет перевода, только теория).
 
