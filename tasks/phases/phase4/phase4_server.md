@@ -86,6 +86,35 @@ POST /limits/microtopic
   Логика: проверить лимит микротем, инкрементировать если разрешено
 ```
 
+### Стрик — активность
+
+```
+POST /streak/activity
+  Headers: Authorization: Bearer <jwt>
+  Body: {
+    source: "grammar8r" | "words8r",
+    activityType: "ai_exercise" | "repetition" | "wordly" | "maze" | "new_words"
+  }
+  → {
+      streakIncremented: bool,   ← true = стрик вырос сегодня, false = уже засчитано ранее
+      currentStreak: Int,
+      daysToNextMilestone: Int,  ← сколько дней до следующего milestone (0 если только что достигнут)
+      nextMilestone: Int,        ← номер следующего milestone (7/20/30/60/100)
+      nextMilestoneBonus: String ← "+2 запроса/день" — для отображения в баннере
+    }
+
+  Логика:
+    1. Проверить last_activity_msk == today_msk? → streakIncremented: false, вернуть текущие данные
+    2. Иначе → применить streak_logic (продолжить/сбросить/заморозка)
+    3. Вернуть актуальные данные стрика
+
+  Вызывается:
+    - Grammar8r: параллельно с POST /ai/exercise (не ждём ответа перед показом фидбека AI)
+    - Words8r: после завершения сессии/игры
+```
+
+**Важно:** шаг 9 в потоке `POST /ai/exercise` ("обновить стрик") теперь вынесен в отдельную функцию `streak_logic()`, которая используется и здесь, и там. Не дублировать логику.
+
 ### Синхронизация прогресса
 
 ```
@@ -215,9 +244,9 @@ POST /announcements/{id}/seen        → записать shown_at = now для 
    - feedback: непустая строка, ≤ 500 символов
    - Если невалидно → { error: "ai_error" }, не отдавать сырой ответ клиенту
 
-9. Обновить стрик:
-   - streak[uid].last_activity_date == today_msk? → ничего
-   - Иначе → стрик +1, проверить milestone, начислить bonus_requests
+9. Обновить стрик — вызвать streak_logic(uid):
+   - Та же функция что используется в POST /streak/activity
+   - Результат стрика в ответ /ai/exercise НЕ включается — клиент получает его отдельно через параллельный POST /streak/activity
 
 10. Вернуть клиенту:
     { score, correctedAnswer, feedback, aiRequestsToday, aiDailyLimit }
@@ -291,8 +320,9 @@ POST /announcements/{id}/seen        → записать shown_at = now для 
 |------|-----|----------|
 | uid | UUID PK FK | |
 | current_streak | Int | Текущий стрик (дней подряд) |
-| last_activity_msk | Date | Последний день с AI-заданием |
-| bonus_requests | Int | Текущие бонусные запросы/день |
+| last_activity_msk | Date | Последний день с засчитанным действием (из любого приложения) |
+| last_activity_source | Enum | grammar8r / words8r — какое приложение первым засчитало сегодня |
+| bonus_requests | Int | Текущие бонусные запросы/день (только Grammar8r AI-лимиты) |
 | freezes_used | Int | Заморозок использовано в текущем месяце |
 | freeze_month | String | "2026-04" — для сброса заморозок |
 
@@ -343,28 +373,70 @@ GET /announcements → список активных
 
 ## Стрик — серверная логика
 
+Общий стрик для Grammar8r и Words8r. Засчитывается первое квалифицирующее действие за день из любого приложения.
+
+**Квалифицирующие действия:**
+- Grammar8r: любой AI-запрос (упражнение, уточнение)
+- Words8r: завершена сессия повторения / игра Wordly / игра Maze / выучено 5 новых слов
+
+```python
+# streak_logic(uid) — вызывается из /streak/activity И из /ai/exercise
+def streak_logic(uid) -> StreakResult:
+    today = current_date_msk()
+    streak = db.get_streak(uid)
+    tier = db.get_tier(uid)
+
+    # Уже засчитано сегодня (из любого приложения)
+    if streak.last_activity_msk == today:
+        return StreakResult(
+            streakIncremented=False,
+            currentStreak=streak.current_streak,
+            daysToNextMilestone=days_to_next(streak.current_streak),
+            nextMilestone=next_milestone(streak.current_streak),
+            nextMilestoneBonus=bonus_label(tier, next_milestone(streak.current_streak))
+        )
+
+    milestone_reached = None
+
+    if streak.last_activity_msk == today - 1:
+        streak.current_streak += 1          # продолжаем серию
+    elif streak.last_activity_msk == today - 2 and freeze_available(uid):
+        streak.freezes_used += 1            # заморозка — стрик сохраняется
+    else:
+        streak.current_streak = 1           # сброс
+        streak.bonus_requests = 0
+
+    streak.last_activity_msk = today
+
+    # Проверить milestone
+    milestone_reached = check_milestone(uid, streak.current_streak, tier)
+
+    db.save_streak(uid, streak)
+
+    return StreakResult(
+        streakIncremented=True,
+        currentStreak=streak.current_streak,
+        daysToNextMilestone=days_to_next(streak.current_streak),
+        nextMilestone=next_milestone(streak.current_streak),
+        nextMilestoneBonus=bonus_label(tier, next_milestone(streak.current_streak)),
+        milestoneReached=milestone_reached  # None если не достигнут
+    )
+
+
+def days_to_next(current_streak) -> Int:
+    for m in [7, 20, 30, 60, 100]:
+        if current_streak < m:
+            return m - current_streak
+    return 0  # все milestones пройдены
+
+def next_milestone(current_streak) -> Int:
+    for m in [7, 20, 30, 60, 100]:
+        if current_streak < m:
+            return m
+    return 100  # уже за 100
 ```
-При каждом AI-запросе (шаг 9 выше):
 
-today = current_date_msk()
-
-if streak.last_activity_msk == today:
-    return  # уже засчитан сегодня
-
-if streak.last_activity_msk == today - 1 day:
-    streak.current_streak += 1  # продолжаем серию
-elif streak.last_activity_msk == today - 2 days AND freeze_available:
-    # заморозка — стрик сохраняется, заморозка тратится
-    streak.freezes_used += 1
-else:
-    streak.current_streak = 1  # сброс
-    streak.bonus_requests = 0
-
-streak.last_activity_msk = today
-
-# Проверить milestone и начислить бонус
-check_milestone(uid, streak.current_streak, tier)
-```
+**Атомарность:** `streak_logic` выполняется в одной транзакции БД — нет race condition если Grammar8r и Words8r шлют запросы одновременно.
 
 ### Milestone-бонусы (серверная таблица)
 
@@ -428,6 +500,7 @@ ADMIN_PASSWORD=...         # пароль веб-панели администр
 - [ ] **S12** Таблица `user_devices`: трекинг device_id → uid, автовыставление флага `multi_device` при > 3 устройствах
 - [ ] **S13** Поля `ban_status` / `ban_until` в таблице users: suspend/ban логика в потоке каждого запроса
 - [ ] **S14** FCM интеграция: регистрация токенов (`POST /fcm/register`), отправка push из панели (всем / одному)
+- [ ] **S14b** POST /streak/activity — общий стрик для Grammar8r и Words8r: принимает источник + тип действия, возвращает данные для баннера. Атомарная транзакция.
 - [ ] **S15** POST /progress/sync + GET /progress — синк прогресса по событию
 - [ ] **S16** GET /announcements — активные объявления с фильтром по TTL 24ч
 - [ ] **S17** Веб-панель: список пользователей с флагами, карточка пользователя, выдача подписки (тир + часы), suspend/ban/unban с персональным сообщением, персональные уведомления, создание объявлений, статистика

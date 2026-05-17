@@ -11,7 +11,7 @@
 - Примеры из реальной жизни (еда, работа, семья, путешествия) — не "The cat sat on the mat"
 - Упражнения проверяют именно это правило, а не что-то соседнее
 - При неправильном ответе объяснение конкретное: не "неправильно", а "для he/she/it глагол получает -s: goes, works, likes"
-- `aiExercisePlaceholder` описывает упражнение, которое невозможно заменить хардкодом — то, что требует живого понимания контекста
+- `aiExercise` описывает упражнение, которое невозможно заменить хардкодом — то, что требует живого понимания контекста. Имеет три поля: `title` (название для поиска и дерева Практики), `userInstruction` (что делать — показывается пользователю), `promptTemplate` (инструкции для AI — не показывается пользователю)
 
 ---
 
@@ -159,7 +159,11 @@ Grammar8r — Android-приложение для изучения англий�
           "explanation": "She — единственное число, нужно is, а не are. Верно: She is tired."
         }
       ],
-      "aiExercisePlaceholder": "AI генерирует предложение с пропуском на артикль — пользователь вписывает a/an/the/-. AI проверяет и объясняет ошибку.",
+      "aiExercise": {
+        "title": "Вставь артикль",
+        "userInstruction": "AI даст тебе предложение с пропуском. Вставь нужный артикль: a, an, the или —.",
+        "promptTemplate": "Сгенерируй 2–3 предложения на русском с пропуском на артикль. Пользователь вставляет a/an/the/—. Проверь выбор и объясни почему именно этот артикль."
+      },
       "clarificationOptions": [
         "Разница между a и an",
         "Когда артикль не нужен совсем",
@@ -175,7 +179,7 @@ Grammar8r — Android-приложение для изучения англий�
 - `theorySummary` — 2–3 предложения, суть правила. Подсказка по кнопке "?".
 - `examples` — минимум 3 пары RU → EN, разнообразные жизненные ситуации.
 - Упражнения на карточку — **минимум 3**, разных типов. Не повторять один тип подряд.
-- `aiExercisePlaceholder` — описание по-русски, какое AI-упражнение будет здесь. Промты разрабатываются отдельно.
+- `aiExercise` — обязательно. Объект с тремя полями: `title` (для поиска и дерева Практики), `userInstruction` (для пользователя), `promptTemplate` (для AI-модели).
 
 **Требования к упражнениям предтемы (пользователь почти не знает английский):**
 - Больше `REVERSE_CHOICE` и `FORWARD_CHOICE` — пользователь ориентируется на русский контекст.
@@ -190,7 +194,7 @@ Grammar8r — Android-приложение для изучения англий�
 ### 1. Предтема: "Основы" (isPretopic: true)
 
 Порядок выстроен по принципу "нужно знать раньше, чтобы понять следующее":
-личные местоимения → to be → артикли → притяжательные/указательные → вопросы → предлоги → мн.число → числа.
+личные местоимения → to be → артикли → притяжательные/указательные → вопросы → предлоги → мн.число → числа → дни → месяцы → время → счётные/несчётные → императив → порядок слов SVO.
 
 Микротемы:
 1. **Личные местоимения** — I, you, he, she, it, we, they + когда какое использовать. Фундамент: без них нельзя составить ни одного примера дальше.
@@ -213,6 +217,12 @@ Grammar8r — Android-приложение для изучения англий�
     Главное правило: в английском дни недели **всегда пишутся с заглавной буквы** — в отличие от русского.
     Дополнительно: weekday (будний), weekend (выходной), разговорные сокращения (Mon, Tue, Wed...).
     Слова синкаются в Words8r (категория "Grammar Basics") после микротемы.
+18. **Месяцы и сезоны** — January–December, spring/summer/autumn/winter. Правило заглавной буквы (как у дней). Предлоги: *in January, in spring, in 2024*. Как читать годы: 1995 = "nineteen ninety-five", 2024 = "two thousand and twenty-four". Слова синкаются в Words8r (категория "Grammar Basics").
+19. **Время на часах** — "What time is it?" / "It's...". Паттерны: 3:00 = three o'clock, 3:15 = a quarter past three, 3:30 = half past three, 3:45 = a quarter to four. 12:00 = noon / midnight. Предлоги: *at three o'clock, at half past five*. AM / PM. Связь с числами.
+20. **Счётные и несчётные существительные (введение)** — базовая концепция: одни существительные можно считать (*a cat / two cats*), другие — нельзя (*water, advice, information, furniture, news, luggage, money*). Ловушка для русских: в русском "информация/мебель/совет" считаются нормально, в английском — нет. "I need an advice" — ошибка, правильно "I need advice". Артикль a/an — только со счётными. Связь с артиклями (уже пройдено) и квантификаторами much/many (впереди).
+21. **Императив** — как давать команды, инструкции, просьбы. Образование: просто V1 без подлежащего: "Open the door!", "Listen!" Отрицание: Don't + V1: "Don't run!" Смягчение: "Please open..." / "Open..., please." Let's для приглашения: "Let's go!" / "Let's not argue." Встречается везде — инструкции, рецепты, знаки, просьбы.
+22. **Порядок слов: SVO (базовый)** — в русском порядок свободный ("Кошку я вижу" = "Я вижу кошку"). В английском жёсткий: Подлежащее → Сказуемое → Дополнение. "I see the cat" — нельзя переставить. Это фундамент всего что дальше. Дополнения к порядку слов (наречия, вопросы, отрицания) появятся в следующих темах — все они навигируются из дерева тем.
+    ⚠️ Связанные микротемы: "Порядок слов: наречия частотности" (в Present Simple), "Порядок слов: вопросы" (в каждом времени).
 
 ### 2. Present Simple
 
@@ -228,6 +238,7 @@ Grammar8r — Android-приложение для изучения англий�
 3. **Образование: вопрос** — Do / Does
 4. **Употребление** — привычки, факты, расписания
 5. **Маркеры времени** — always, usually, often, sometimes, never, every day/week
+6. **Порядок слов: наречия частотности** — где стоит always/usually/often/never в предложении. Правило: *перед основным глаголом* ("She **always** drinks coffee"), но *после to be* ("He **is** always late"). Ловушка для русских: хочется поставить в конец — "She drinks coffee always" — это ошибка. Связана с базовой карточкой SVO из предтемы.
 
 Все примеры и упражнения строятся только на глаголах из "Basic Verbs".
 
@@ -252,13 +263,24 @@ Grammar8r — Android-приложение для изучения англий�
 - Слить ~200 неправильных глаголов в Words8r (категория "Verb Forms") со всеми тремя формами (V1/V2/V3)
 - Кнопка → перейти в режим изучения форм глаголов в Words8r
 
-### 4.5. Инфинитив: с to и без to  ← после "Глаголы V1/V2/V3", перед Past Simple
+### 4.5. Инфинитив: с to и без to  ← после "Глаголы V1/V2/V3", перед наречиями
 
 Микротемы:
 1. **Что такое инфинитив** — базовая форма глагола, to + V1
 2. **Глаголы которые требуют to** — want to, need to, like to, decide to, try to, plan to, agree to, refuse to, forget to, learn to...
 3. **Глаголы после которых to не нужен** — модальные (can, must, should, will, would, may, might) + let, make, help (в некоторых конструкциях)
 4. **Частые ошибки русскоговорящих** — "I want go" (нет), "I can to go" (нет). Объяснить почему интуитивно хочется добавить/убрать to там где не надо.
+
+### 4.7. Наречия (Adverbs)  ← после инфинитива, перед Past Simple
+
+Вводная карточка: что такое наречие — слово которое уточняет глагол, прилагательное или другое наречие. Отвечает на вопросы "как?", "когда?", "где?", "насколько?".
+
+Микротемы:
+1. **Образование наречий** — правило: прилагательное + -ly (quick → quickly, careful → carefully). Исключения: good → well, fast → fast, hard → hard, late → late/lately. Слова на -ly которые НЕ наречия: friendly, lovely, lively.
+2. **Наречия образа действия (Manner)** — как что-то делается: slowly, quietly, carefully, badly, well. Позиция: после глагола / после дополнения. "She sings **beautifully**." / "He drives the car **carefully**." Ловушка: "She sings beautiful" (ошибка — нужно наречие).
+3. **Степени сравнения наречий** — short → shorter/fastest, carefully → more carefully / most carefully. Исключения: well → better → best, badly → worse → worst, far → further → furthest.
+4. **Наречия степени (Degree)** — very, quite, rather, fairly, extremely, incredibly + прилагательное/наречие. Разница: *very cold / quite cold / rather cold / fairly cold* — нюансы интенсивности. too = слишком, enough = достаточно (связано с конструкциями too/enough впереди).
+5. **Наречия места и времени** — here/there, everywhere/nowhere, now/then/soon/already/yet/still. Позиция в предложении. "**Still** waiting", "not **yet**", "**already** done".
 
 ### 5. Past Simple
 
@@ -314,6 +336,17 @@ Grammar8r — Android-приложение для изучения англий�
 3. **Употребление** — действие до другого действия в прошлом
 4. **Маркеры времени** — before, after, already, when, by the time
 
+### 9.5. Past Perfect Continuous
+
+Вводная карточка: глаголы из "Verb Forms" нужные для темы → кнопка приоритета
+
+Микротемы:
+1. **Что такое Past Perfect Continuous**
+2. **Образование** — had been + глагол-ing
+3. **Употребление** — длительное действие которое происходило вплоть до какого-то момента в прошлом ("She had been waiting for two hours when he finally arrived.")
+4. **Past Perfect vs Past Perfect Continuous** — разница: результат vs процесс ("He had read the book" vs "He had been reading")
+5. **Маркеры времени** — for, since, before, when, by the time
+
 ### 10. Future Simple (will)
 
 Вводная карточка: глаголы из "Verb Forms" нужные для темы → кнопка приоритета
@@ -353,7 +386,99 @@ Grammar8r — Android-приложение для изучения англий�
 3. **Употребление** — действие завершится до определённого момента в будущем
 4. **Маркеры времени** — by tomorrow, by next year, by the time
 
-### 14. Разговорный английский
+### 14. Модальные глаголы
+
+Вводная карточка: обзор всех модальных глаголов — зачем они, чем отличаются от обычных (нет -s в 3-м лице, нет to после них).
+
+Микротемы:
+1. **Что такое модальный глагол** — не спрягается, всегда стоит перед V1 без to. Список: can, could, may, might, must, should, ought to, will, would, shall
+2. **can / could** — способность ("I can swim") и возможность/вежливая просьба ("Could you help me?"). could — прошедшее can или смягчённая просьба
+3. **may / might** — разрешение ("May I leave?") и вероятность ("It might rain"). might — меньше уверенности чем may
+4. **must / have to** — обязанность: must — внутренняя (сам считаю нужным), have to — внешняя (правила, обстоятельства). Отрицания разные: mustn't (нельзя!) vs don't have to (не обязан)
+5. **should / ought to** — совет, рекомендация: "You should see a doctor." ought to = should, но чуть формальнее
+6. **will / would** — будущее и вежливые просьбы. would — мягче и вежливее: "Would you like some tea?"
+7. **Модальные + have + V3** — рассуждение о прошлом: "He must have forgotten." / "She could have called." / "You should have warned me."
+8. **Частые ловушки** — "I must to go" (нет), "I can to swim" (нет). Почему to не нужен. Разница must/have to/should для русскоговорящих которые всё это переводят как "надо"
+
+### 15. Passive Voice (Страдательный залог)
+
+Микротемы:
+1. **Что такое Passive** — деятель неважен, неизвестен или очевиден. "The letter was sent." vs "Someone sent the letter."
+2. **Образование** — to be (в нужном времени) + V3. Таблица форм: is done / was done / will be done / has been done / had been done
+3. **Passive в Present и Past Simple** — наиболее частые формы. Много примеров из жизни
+4. **Passive в Future и Perfect-временах** — will be done, has been done, had been done
+5. **by + деятель** — когда и зачем: "The Mona Lisa was painted by Leonardo da Vinci." Когда by опускается
+6. **Get-passive** — разговорный вариант: "He got fired." / "She got promoted." Отличие от be-passive
+7. **Частые ловушки** — "Меня зовут Иван" → "I am called Ivan" (Passive!). Конструкции где русский не чувствует Passive
+
+### 16. Conditionals (Условные предложения)
+
+Вводная карточка: все четыре типа в одной таблице — краткий обзор перед детальным изучением.
+
+Микротемы:
+1. **Zero Conditional** — факты и законы природы: "If you heat ice, it melts." Оба глагола в Present Simple
+2. **First Conditional** — реальное условие в будущем: "If it rains, I'll stay home." If + Present Simple → will + V1
+3. **Second Conditional** — нереальное/маловероятное: "If I were rich, I would travel." If + Past Simple → would + V1. Почему "were" а не "was" (даже для I)
+4. **Third Conditional** — нереальное прошлое: "If I had studied, I would have passed." If + Past Perfect → would have + V3
+5. **Mixed Conditional** — смешанный: прошлое условие → настоящий результат. "If I had slept more, I wouldn't be tired now."
+6. **Unless / as long as / provided that** — альтернативы слову if. unless = if not, as long as = при условии что
+7. **Частые ловушки** — "If I will go" (ошибка), "If I would" (ошибка). Почему will не идёт после if в придаточном
+
+### 17. Relative Clauses (Относительные придаточные)
+
+Микротемы:
+1. **Что такое Relative Clause** — уточнение к существительному. "The man who called you is my boss." who = какой именно человек
+2. **who / that для людей, which / that для предметов** — "The book which/that I read" / "The person who/that called"
+3. **where / when / whose** — место, время, чьё: "The city where I was born" / "The day when we met" / "The girl whose phone rang"
+4. **Defining vs Non-defining (с запятыми и без)** — без запятых: уточняет о каком предмете речь. С запятыми: просто добавляет информацию. "My sister who lives in London" (у меня несколько сестёр) vs "My sister, who lives in London," (одна сестра)
+5. **Пропуск who/which/that** — когда можно опустить: "The book (that) I read was great." Только когда местоимение — объект, не подлежащее
+
+### 18. Reported Speech (Косвенная речь)
+
+Микротемы:
+1. **Что такое Reported Speech** — пересказываем что кто-то сказал. "I'm tired" → He said he was tired. Не цитата, а пересказ
+2. **Сдвиг времён назад** — Present → Past, Past Simple → Past Perfect, will → would. Таблица сдвигов
+3. **Сдвиг местоимений и обстоятельств** — I → he/she, we → they, now → then, here → there, today → that day, tomorrow → the next day
+4. **say vs tell vs ask** — say (не называет кому), tell (обязательно кому), ask (вопрос/просьба). "He said that...", "He told me that...", "She asked if..."
+5. **Reported Questions** — порядок слов как в утверждении, без вспомогательного do/does: "Where do you live?" → He asked where I lived.
+6. **Reported Commands** — told/asked + to + V1: "Wait here!" → She told me to wait there.
+7. **Частые ловушки** — "He said me" (ошибка: нужно told me или said to me). Когда сдвиг времён не нужен (вечная истина)
+
+### 18.2. Make vs Do
+
+Микротемы:
+1. **Принцип разграничения** — make = создать/произвести результат, do = выполнить процесс/деятельность. Нет строгого правила — надо учить устойчивые сочетания.
+2. **Make: устойчивые сочетания** — make a decision, make a mistake, make an effort, make a plan, make a call, make money, make a noise, make a difference, make friends, make progress, make sense.
+3. **Do: устойчивые сочетания** — do homework, do the dishes, do the laundry, do sport/exercise, do business, do damage, do someone a favour, do well/badly, do nothing.
+4. **Ловушки и частые ошибки** — "make homework" (ошибка), "do a mistake" (ошибка). Упражнения на разграничение.
+
+### 18.3. So/Such и Too/Enough
+
+Микротемы:
+1. **so + прилагательное/наречие** vs **such + (a/an) + существительное** — одно значение, разная конструкция. "The film was **so** good." / "It was **such** a good film." Ловушка: "It was so a good film" (ошибка).
+2. **so/such...that** — результат: "It was **so** cold **that** I couldn't go out." / "It was **such** a long trip **that** we all fell asleep."
+3. **too + прилагательное/наречие** — слишком (негативно, проблема): "It's **too** cold to swim." / "He speaks **too** fast to understand." Конструкция: too + adj/adv + to + V1.
+4. **прилагательное/наречие + enough** — достаточно (позитивно): "She's old **enough** to drive." / "Is it warm **enough**?" Порядок важен: enough идёт ПОСЛЕ прилагательного/наречия. Конструкция: adj/adv + enough + to + V1.
+
+### 18.4. Глагол get — часть 1: базовые значения
+
+Микротемы:
+1. **get = получать / доставать** — get a letter, get a gift, get tickets, get information. Самое базовое значение.
+2. **get = становиться (+ прилагательное)** — get tired, get cold, get angry, get married, get better, get worse, get lost, get ready. Процесс изменения состояния. Ловушка: в русском используем "стать/становиться", в английском часто get.
+3. **get = добираться / приходить** — get home, get to work, get to the airport, get here/there. Как спросить: "How do you get to work?"
+4. **get + существительное/объект** — get a job, get a taxi, get dressed, get up. Устойчивые сочетания.
+
+### 18.5. Linking Words (Связующие слова)
+
+Микротемы:
+1. **Причина: because / since / as / due to / because of** — "I stayed home **because** it was raining." Разница структур: because + clause, because of + noun ("**because of** the rain").
+2. **Результат: so / therefore / as a result / consequently** — "It was raining, **so** I stayed home." therefore/as a result — более формально, в начале предложения.
+3. **Противопоставление: but / however / although / even though / whereas / while** — but (простое), however (формальное, с запятой), although/even though + clause, whereas/while = тогда как.
+4. **Despite / In spite of** — противопоставление с существительным или герундием. "**Despite** being tired, she finished." / "**In spite of** the rain, we went out." Разница с although: despite/in spite of + noun/-ing, although + clause.
+5. **Добавление: and / also / too / as well / moreover / furthermore / in addition** — разный регистр и позиция. also/too/as well — разговорные, moreover/furthermore — формальные.
+6. **Цель: in order to / so that** — "She woke up early **in order to** catch the train." (= to, но формальнее). "She woke up early **so that** she could catch the train." (так чтобы — + clause с could/would).
+
+### 19. Разговорный английский
 
 Микротемы:
 1. **[глагол] + to → стяжения** — gonna, wanna, hafta, gotta, oughta, tryna
@@ -367,7 +492,7 @@ Grammar8r — Android-приложение для изучения англий�
    vibe (вибрация → атмосфера/ощущение), flex (сгибать мышцы → хвастаться), cap/no cap (колпак → ложь/без лжи).
    Слова синкаются в Words8r (категория "Informal English") после микротемы.
 
-### 15. Дополнительные конструкции
+### 20. Дополнительные конструкции
 
 Микротемы:
 1. **Pronoun one / ones** — замена существительного чтобы не повторять его дважды.
@@ -377,8 +502,54 @@ Grammar8r — Android-приложение для изучения англий�
 4. **Got used to / Be used to** — привык к чему-то (не путать с used to!):
    "I got used to waking up early." / "I'm used to the noise."
 5. **Be about to** — вот-вот произойдёт: "I'm about to leave."
+6. **Предпочтения: would rather / prefer / rather than / had better**
+   - `would rather` — хочу скорее это, чем то: "I'd rather stay home than go out." После rather → V1 без to
+   - `prefer + V-ing / to + V` — общее устойчивое предпочтение: "I prefer cooking to eating out."
+   - `rather than` — вместо, а не: "Call me rather than texting." Противопоставление двух действий
+   - `had better` — совет с оттенком предупреждения: "You'd better hurry or we'll be late." Не о прошлом — несмотря на had!
+   Частая ловушка: "I'd rather to go" (нет), "I prefer cook" (нет) — правила разные для каждого
+7. **Герундий после глагола** — одни глаголы требуют -ing, другие to + V1, третьи принимают оба варианта с разным смыслом.
+   enjoy/finish/avoid/mind/consider + V-ing: "I enjoy swimming."
+   want/need/decide/hope/plan/afford + to: "I want to go."
+   remember/forget/try/stop — оба варианта, смысл разный: "I stopped smoking" (бросил) vs "I stopped to smoke" (остановился чтобы покурить)
+8. **Сравнение прилагательных** — comparative и superlative.
+   Короткие (1–2 слога): big → bigger → the biggest; правило удвоения согласной.
+   Длинные (3+ слога): beautiful → more beautiful → the most beautiful.
+   Исключения: good → better → the best, bad → worse → the worst, far → further → the furthest.
+   Частые ловушки: "more bigger" (ошибка), "the most best" (ошибка)
+9. **Квантификаторы** — сколько: much/many, a lot of, few/little, some/any.
+   much + несчётное ("much water"), many + счётное ("many cars").
+   few/little (мало, с оттенком "почти нет") vs a few/a little (немного, достаточно).
+   some (утверждения, предложения), any (вопросы, отрицания): "Do you have any questions?"
+10. **Возвратные местоимения** — myself/yourself/himself/herself/itself/ourselves/yourselves/themselves.
+    Когда подлежащее и объект — одно лицо: "She hurt herself." / "I did it myself." (сам, без помощи).
+    by myself/yourself... = в одиночку, без помощи: "He lives by himself."
+11. **Question Tags** — вопросительные хвостики. "You're coming, aren't you?" / "It's cold, isn't it?" / "He didn't call, did he?"
+    Правило: утверждение → отрицательный хвостик, отрицание → утверждающий. Вспомогательный глагол из основного предложения.
+    Частые ловушки: "I am right, aren't I?" (не "amn't I"). "Let's go, shall we?"
+12. **So / Neither / Either в ответах** — выражаем согласие кратко.
+    "I like coffee." — "So do I." (я тоже) / "Neither do I." (я тоже нет).
+    So + вспомогательный глагол + подлежащее. Neither/Nor — то же для отрицательных.
+13. **upon** — формальный и книжный вариант предлога on. Не для повседневной речи — встречается в текстах, официальных фразах и устойчивых выражениях.
+    Основные случаи: "upon arrival" (по прибытии), "once upon a time" (жили-были), "upon reflection" (поразмыслив), "upon hearing the news" (услышав новость). Смысл тот же что у on — но звучит торжественнее.
+    Показываем пассивное узнавание: пользователь должен понять when he sees it, а не активно использовать.
+14. **Прилагательные на -ing и -ed** — частая ошибка: boring vs bored, interesting vs interested, exciting vs excited, frightening vs frightened, confusing vs confused, surprising vs surprised, exhausting vs exhausted.
+    Правило: *-ing* описывает то, что вызывает чувство ("The film is **boring**" — фильм скучный). *-ed* описывает того, кто испытывает чувство ("I am **bored**" — мне скучно). "I am boring" = я сам скучный человек — совсем другой смысл. Ловушка для русских: в русском одно слово "скучный" — в английском два разных.
+15. **Глагол have — нестандартные употребления** — помимо "иметь" have означает действие или опыт. have breakfast/lunch/dinner, have a drink, have a rest, have a shower, have a look, have a good time, have a dream, have a party, have a conversation. Это не владение — нельзя заменить have got: "I've got breakfast" — ошибка.
+16. **Предлоги после глаголов** — глагол + предлог: устойчивое сочетание которое надо учить вместе с глаголом. Логически не угадывается.
+    *in*: interested in, believe in; *of*: think of, dream of, consist of; *on*: depend on, rely on, insist on; *for*: wait for, look for, pay for, ask for; *to*: listen to, belong to, talk to; *at*: look at, laugh at; *about*: think about, worry about, know about; *with*: agree with, deal with.
+17. **Предлоги после прилагательных** — тоже устойчивые сочетания:
+    *of*: afraid of, proud of, tired of, aware of, capable of; *in*: interested in, involved in; *at*: good at, bad at, amazed at; *with*: pleased with, satisfied with, bored with, angry with; *about*: worried about, excited about, upset about; *for*: responsible for, famous for, ready for, grateful for, sorry for.
+18. **Глагол get — часть 2: продвинутые значения** ← продолжение раздела 18.4 (базовые значения)
+    *get + V3 (causative)*: организовать чтобы кто-то сделал / сдать в работу: "I **got** my hair **cut**." / "She **got** her car **repaired**." Разница с make: "I made him do it" (заставил) vs "I got him to do it" (убедил).
+    *get + объект + to + V1*: убедить: "She got me to help her."
+    *get = понять* (разговорное): "Do you get it?" / "I don't get the joke."
+    *get = раздражать* (разговорное): "It really gets me when people are late."
+    Слова из get-сочетаний синкаются в Words8r (категория "Useful Verbs").
 
-### 16. Устойчивые выражения и идиомы
+> *(Пометка: тема «Дополнительные конструкции» может расти. Кандидаты на добавление: wish / if only, эмфатические конструкции It's...that, восклицания What!/How!)*
+
+### 21. Устойчивые выражения и идиомы
 
 Микротемы:
 1. **Фразовые глаголы** — глагол + предлог = новый смысл.
@@ -396,6 +567,20 @@ Grammar8r — Android-приложение для изучения англий�
 
 Для каждой микротемы: теория (как образована, почему именно так), примеры в живом контексте,
 упражнения на распознавание и применение. Слова синкаются в Words8r (категория "Fixed Expressions").
+
+### 22. Разное — полезные темы без строгого места
+
+Последняя тема. Сюда попадает то, что важно знать, но не вписывается в основную последовательность и ни на что критично не влияет. Пользователь пройдёт основной курс и может изучить это по желанию — или вернуться сюда когда встретит непонятое.
+
+Микротемы:
+1. **Национальности и языки** — Italy → Italian, France → French, Russia → Russian, Germany → German, Japan → Japanese, Spain → Spanish, China → Chinese. Правило заглавной буквы всегда (как у дней/месяцев). *the + национальность во мн.ч.*: the French, the Russians, the British (= этот народ в целом). Язык vs национальность: "I speak **French**" / "She is **French**." Ловушка: в русском иногда пишем строчную — в английском никогда.
+2. **Порядок прилагательных** — когда несколько прилагательных стоят подряд, порядок строгий: Мнение → Размер → Возраст → Форма → Цвет → Происхождение → Материал → Назначение + существительное. "A beautiful small old Italian leather bag" — не "an Italian old small beautiful leather bag." На практике: больше 2–3 прилагательных подряд бывает редко, но порядок нарушать нельзя.
+3. **Составные существительные (Compound Nouns)** — два существительных подряд: первое работает как прилагательное. coffee cup (чашка для кофе), bus stop, football player, toothbrush, sunglasses, birthday cake, traffic jam, washing machine. Ударение обычно на первом слове. Слитно/раздельно/через дефис — нет правила, надо запоминать.
+4. **The + прилагательное как существительное** — the + прилагательное = группа людей. "**The rich** get richer." / "**The poor** need help." / "**The elderly** deserve respect." / "**The homeless**." Без существительного, во множественном числе, с глаголом множественного числа.
+5. **Восклицательные предложения** — What! и How!. "**What** a beautiful day!" / "**What** an amazing story!" (What + a/an + adj + noun). "**How** beautiful!" / "**How** quickly she runs!" (How + adj/adv). Ловушка для русских: хочется "How a beautiful day!" — ошибка, с How артикль не нужен.
+6. **Отрицательные префиксы** — расширение словаря через приставки. un-: unhappy, unknown, unusual, uncomfortable, unclear. dis-: disagree, disappear, dishonest, disconnect. im-/in-/ir-/il-: impossible, incorrect, irregular, illogical. non-: non-stop, non-fiction. mis-: misunderstand, mistake, mislead. Правила выбора префикса частично угадываются по происхождению слова — латинские слова часто берут in-/im-/ir-/il-, германские — un-.
+7. **Wish / If only** — желания и сожаления. "I **wish** I knew the answer." (хочу, но не знаю — нереальное настоящее, Past Simple в придаточном). "I **wish** I had studied harder." (сожаление о прошлом — Past Perfect). "I **wish** it would stop raining." (хочу чтобы что-то изменилось — would). "**If only** I were taller!" = усиленное wish. Связь с conditionals (Second/Third) — та же логика нереальности.
+8. **Эмфатические конструкции** — выделение важного. "**It's** John **who** did it." (не кто-то, а именно Джон). "**What** I need **is** more time." (мне нужно именно это). "**The thing** I hate **is** waiting." Помогает расставить акцент там где в русском это делается интонацией.
 
 ---
 
@@ -478,6 +663,92 @@ IDs (карточек, примеров, упражнений) продолжа�
 ## Важные правила
 
 1. **Не сокращай.** Каждая карточка — полноценное объяснение одного правила, не в одну строчку. Теория должна быть настолько понятной, что её поймёт человек без знания английского.
+
+**⚠️ ОБЯЗАТЕЛЬНО для всех карточек "Образование" (утверждение / отрицание / вопрос):**
+
+Каждая такая карточка должна содержать явную **схему порядка слов** — не просто "добавь do/does" или "поставь -ed", а полную цепочку с позициями. Английский язык критически зависит от порядка слов, и пользователь должен видеть это наглядно каждый раз.
+
+**Обязательный формат схемы в theory-тексте:**
+
+```
+✅ Subject + Verb(+s) + Object
+   She      drinks      coffee.
+
+✅ Subject + do/does + not + Verb + Object
+   She      does  not   drink   coffee.
+
+✅ Do/Does + Subject + Verb + Object + ?
+   Does      she      drink  coffee?
+```
+
+Для вопросительных слов добавляем строку:
+```
+✅ Wh-word + Do/Does + Subject + Verb + ?
+   What     does      she      drink?
+```
+
+**Правила оформления схемы:**
+- Каждый элемент подписан (Subject, Verb, Object, Time, Place и т.д.)
+- Под схемой — сразу живой пример с теми же слотами
+- Если есть наречие (already, never, just) — показать его позицию отдельной строкой
+- Для сложных времён (Perfect, Continuous) — показать auxiliary отдельно от main verb.
+
+---
+
+**🔴 ОБЯЗАТЕЛЬНЫЙ ФОРМАТ таблицы порядка слов — использовать ВЕЗДЕ где объясняется структура предложения**
+
+Когда объясняем как строится утверждение, отрицание или вопрос — таблица всегда в этом формате: английские слова, английские грамматические термины, русские грамматические термины, и строка с дословным русским переводом В АНГЛИЙСКОМ ПОРЯДКЕ СЛОВ. Главный глагол переводить нормальным русским словом. Вспомогательный глагол — в квадратных скобках, чтобы было понятно что он служебный.
+
+**Формат одной таблицы:**
+```
+She      │ has        │ seen       │ this film?
+Subject  │ Auxiliary  │ Verb (V3)  │ Object
+Подлеж.  │ Вспом. гл. │ Глагол     │ Дополнен.
+─────────────────────────────────────────────
+Она      │ [имеет]    │ смотрела   │ этот фильм?
+```
+
+По-английски звучит нормально.
+По-русски буквально: **"Она [имеет] смотрела этот фильм"** — криво, но сразу видна логика: вспомогательный глагол стоит перед основным, порядок жёсткий.
+
+**Таких примеров давать 2–3 штуки подряд — разные подлежащие, разные глаголы, разные дополнения.** Не один и тот же пример перефразированный.
+
+**Пример блока из 3 таблиц для Present Perfect:**
+
+```
+She      │ has        │ seen       │ this film?
+Subject  │ Auxiliary  │ Verb (V3)  │ Object
+Подлеж.  │ Вспом. гл. │ Глагол     │ Дополнен.
+─────────────────────────────────────────────
+Она      │ [имеет]    │ смотрела   │ этот фильм?
+```
+**"Она [имеет] смотрела этот фильм"**
+
+```
+They     │ have       │ arrived    │ already
+Subject  │ Auxiliary  │ Verb (V3)  │ Adverb
+Подлеж.  │ Вспом. гл. │ Глагол     │ Наречие
+─────────────────────────────────────────────
+Они      │ [имеют]    │ приехали   │ уже
+```
+**"Они [имеют] приехали уже"**
+
+```
+Has      │ he         │ eaten      │ lunch      │ ?
+Auxiliary│ Subject    │ Verb (V3)  │ Object     │
+Вспом.гл.│ Подлеж.    │ Глагол     │ Дополнен.  │
+─────────────────────────────────────────────────
+[Имеет]  │ он         │ поел       │ обед       │ ?
+```
+**"[Имеет] он поел обед?"**
+
+**Почему именно так:**
+- Порядок слов в английском жёсткий, русские строят предложения "на слух" и ошибаются: "She drinks always coffee", "Does she drinks coffee?", "I have seen already the film."
+- Дословный "сломанный" перевод в английском порядке — не путает, а наоборот показывает логику. Пользователь видит скелет и запоминает структуру, а не набор правил.
+- Скобки вокруг вспомогательного глагола [имеет] / [делает] — сигнал: это служебное слово, не переводи буквально.
+- Таблица = якорь. Пользователь может вернуться к ней из кнопки "?" во время упражнений.
+
+**Это правило распространяется на ВСЕ темы:** каждое время, модальные глаголы, пассивный залог, условные предложения — везде где есть "Образование" или объяснение структуры предложения.
 2. **Примеры разнообразные.** Разные жизненные ситуации: еда, работа, школа, путешествия, семья, хобби. Не повторяй одни и те же слова.
 3. **Больше карточек, а не длиннее карточки.** Лучше разбить тему на 5 коротких карточек, чем делать одну длинную. Каждая карточка = одно правило или нюанс.
 4. **Максимум типов упражнений.** На одной карточке стараться использовать 2–3 разных типа упражнений. Не давать подряд одинаковые типы.
@@ -485,7 +756,10 @@ IDs (карточек, примеров, упражнений) продолжа�
 6. **Переводы слов в WordArrangement — только для незнакомой лексики.** Не переводить грамматические формы и конструкции, которые являются предметом проверки данной карточки — перевод таких слов превращает упражнение в механическое сопоставление, а не понимание правила. Переводить только лексику (существительные, глаголы, прилагательные), которую студент мог не знать. Пример: на карточке "how much vs how many" — `How much`, `How many`, `How long` идут **без перевода**; `jacket` — **с переводом** "куртка".
 7. **explanation в упражнениях — обязателен и показывается при НЕПРАВИЛЬНОМ ответе.** Объясняет конкретно, почему правильный вариант именно такой: не "неправильно", а "She — 3-е лицо ед.ч., поэтому to be = is, а не are." Без воды.
 8. **IDs сквозные** — id карточек, примеров, упражнений всех типов — уникальные числа по всему файлу, не повторяются.
-9. **aiExercisePlaceholder** — обязательно для каждой карточки. Описание по-русски, какое AI-упражнение будет логично здесь.
+9. **aiExercise** — обязательно для каждой карточки. Три поля:
+   - **`title`** — короткое название по-русски, 2–4 слова. Показывается в дереве «Упражнения из теории» во вкладке Практика и в поиске по теории. Примеры: "Вставь артикль", "Переведи предложение", "Составь вопрос в Past Simple", "Найди ошибку в форме глагола"
+   - **`userInstruction`** — что делать, показывается пользователю перед заданием. 1–2 предложения. Пример: "AI даст предложение с пропуском. Вставь нужный артикль: a, an, the или —."
+   - **`promptTemplate`** — инструкции для AI-модели на сервере. Не показывается пользователю. Что генерировать, на каком правиле, как проверять, какой фидбек давать. Пример: "Сгенерируй 2–3 предложения с пропуском на артикль. Пользователь вставляет a/an/the/—. Проверь и объясни почему именно этот артикль."
 10. **clarificationOptions** — 2–3 готовых варианта уточняющего вопроса для кнопки "Не совсем понял". Это самые частые точки непонимания по этому правилу. Формат: короткая фраза, не вопрос целиком ("Разница между a и an", "Когда артикль не нужен совсем"). Пользователь тапает — вопрос уходит в AI.
 
 11. **TrueFalse — формат таблицы и правила перевода.**
