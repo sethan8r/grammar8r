@@ -206,11 +206,18 @@ Grammar8r/
 │   ├── [modal] + have → [modal]a      (coulda, woulda, shoulda, musta, mighta)
 │   ├── Слияния и клиппинги            (dunno, lemme, gimme, tryna, kinda, sorta)
 │   ├── Вопросительные редукции        (whatcha, whaddya, howya, whataya)
-│   └── Современный слэнг — откуда берутся слова и что означают
-│       Примеры: shawty (shorty → малышка), finesse (двигаться плавно/без усилий),
-│       slay (убивать/быть огонь), lit (зажигательный/крутой), vibe (атмосфера/чувствовать)
-│       Акцент на происхождение слова — так запоминается лучше.
-│       Слова синкаются в Words8r (категория "Informal English").
+│   ├── Современный слэнг — откуда берутся слова и что означают
+│   │   Примеры: shawty (shorty → малышка), finesse (двигаться плавно/без усилий),
+│   │   slay (убивать/быть огонь), lit (зажигательный/крутой), vibe (атмосфера/чувствовать)
+│   │   Акцент на происхождение слова — так запоминается лучше.
+│   │   Слова синкаются в Words8r (категория "Informal English").
+│   └── Разговорные отрицательные стяжения
+│       ain't = am not / isn't / aren't — крайне распространено в музыке, сериалах, чатах.
+│       Неформальное, иногда считается грубоватым: в официальной речи и письме — ошибка.
+│       won't = will not — нейтральное стяжение, полностью нормальное в любом контексте.
+│       Полный список: can't, couldn't, shouldn't, wouldn't, don't, doesn't, didn't,
+│       isn't, aren't, wasn't, weren't, haven't, hasn't, hadn't.
+│       Ловушка: "I ain't going" — пользователь слышит это постоянно, но писать в эссе нельзя.
 │
 ├── Дополнительные конструкции  ← после "Разговорного английского"
 │   ├── Pronoun one / ones — "The pink one was faster." Аналога в русском нет.
@@ -244,7 +251,8 @@ Grammar8r/
 ├── Устойчивые выражения и идиомы
 │   ├── Фразовые глаголы (Phrasal Verbs) — глагол + предлог = новый смысл
 │   │   give up (сдаться), make up (придумать/мириться), look for (искать),
-│   │   come across (наткнуться), run out of (закончиться), put off (откладывать)
+│   │   come across (наткнуться), run out of (закончиться), put off (откладывать),
+│   │   step out (выйти на время / отойти ненадолго)
 │   ├── Идиомы — непереводимые дословно выражения
 │   │   it's raining cats and dogs, break the ice, hit the nail on the head,
 │   │   bite the bullet, cost an arm and a leg, once in a blue moon
@@ -261,6 +269,61 @@ Grammar8r/
     ├── Восклицательные предложения — What a beautiful day! / How amazing!
     ├── Отрицательные префиксы — un-, dis-, im-/in-/ir-/il-, non-, mis-
     ├── Wish / If only — нереальные желания о настоящем и прошлом; связь с conditionals
+    ├── Эмфатические конструкции — "It's John who did it." / "What I need is time."
+    │
+    ├── Словообразование: суффиксы  ← отдельный блок внутри «Разного»
+    │   ├── [Вводная карточка] Классы слов и почему суффиксы не взаимозаменяемы
+    │   │   Каждый суффикс питается от определённого класса слов.
+    │   │   -er/-est едят прилагательные → big (прилаг.) → bigger ✓, bigful — бессмыслица
+    │   │   -ful/-less/-ous/-ish едят существительные → care (сущ.) → careful ✓
+    │   │   -ness ест прилагательные → happy (прилаг.) → happiness ✓
+    │   │   -er (агент) ест глаголы → teach (глагол) → teacher ✓
+    │   │   -ment/-tion/-sion едят глаголы → enjoy (глагол) → enjoyment ✓
+    │   │   Эта вводная карточка — ключ ко всей теме. Напоминание повторяется в каждой микротеме.
+    │   │
+    │   ├── -er / -est — суффиксы сравнения (питаются от прилагательных и наречий)
+    │   │   big→bigger→biggest, sour→sourer, sweet→sweeter, hot→hotter (удвоение согласной)
+    │   │   happy→happier→happiest (-y → -ier), fast→faster (наречие)
+    │   │   AI-упражнение «угадай трансформацию»: ИИ смотрит слова пользователя из Words8r,
+    │   │   выбирает подходящее (например, bitter), задаёт вопрос по-русски НЕ называя базовое слово:
+    │   │   "Как одним словом сказать 'более горький'?" → пользователь пишет: bitterer
+    │   │
+    │   ├── -ful и -less — противоположные пары (питаются от существительных)
+    │   │   care→careful / careless, hope→hopeful / hopeless,
+    │   │   harm→harmful / harmless, pain→painful / painless
+    │   │   AI-упражнение: то же — "Как одним словом сказать 'полный надежды'?" → hopeful
+    │   │
+    │   ├── -ous и -ish (питаются от существительных)
+    │   │   danger→dangerous, fame→famous, mystery→mysterious
+    │   │   child→childish, fool→foolish, self→selfish
+    │   │   AI-упражнение: то же
+    │   │
+    │   ├── -able / -ible (питаются от глаголов и существительных)
+    │   │   comfort→comfortable, read→readable; access→accessible, flex→flexible
+    │   │   -able vs -ible: строгого правила нет — запоминаем. -able чаще у английских слов, -ible у латинских.
+    │   │   AI-упражнение: то же
+    │   │
+    │   ├── -ness (питается от прилагательных → делает существительное)
+    │   │   happy→happiness, kind→kindness, sad→sadness, dark→darkness, lonely→loneliness
+    │   │   Ловушка: busy→business — это исторически другое слово, не применяй правило
+    │   │   AI-упражнение: то же
+    │   │
+    │   ├── -ment и -tion/-sion (питаются от глаголов → называют действие или результат)
+    │   │   enjoy→enjoyment, develop→development, achieve→achievement
+    │   │   decide→decision, act→action, create→creation, discuss→discussion
+    │   │   AI-упражнение: другой формат — ИИ даёт базовый глагол по-русски:
+    │   │   "Есть глагол 'наслаждаться'. Как называется само это действие одним словом?" → enjoyment
+    │   │
+    │   └── -er как агент (питается от глаголов → "тот кто делает")
+    │       teach→teacher, write→writer, work→worker, drive→driver, run→runner (удвоение)
+    │       Не путать с -er сравнения: bigger — степень прилагательного; driver — агент от глагола.
+    │       AI-упражнение: "Кто водит машину — одним словом?" → driver
+    │
+    │   ⚠️ Место для расширения (добавляем по мере написания контента):
+    │      -ity (real→reality, active→activity), -ward/-wards (forward, backward, toward)
+    │      -ship (friend→friendship, leader→leadership), -hood (child→childhood, neighbour→neighbourhood)
+    │      -ify (simple→simplify, class→classify)
+    │
     └── Эмфатические конструкции — "It's John who did it." / "What I need is time."
     ├── Фразовые глаголы (Phrasal Verbs) — глагол + предлог = новый смысл
     │   give up (сдаться), make up (придумать/мириться), look for (искать),
