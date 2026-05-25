@@ -384,6 +384,21 @@ Sync предлагается **после завершения каждой м�
 
 ## БД — схема
 
+> ⚠️ **УСТАРЕЛО.** Таблицы ниже написаны до финализации схемы БД и расходятся с актуальным планом.  
+> **Актуальная схема:** [`tasks/db_schema.md`](../../db_schema.md) — единый источник правды по всем таблицам и ENUM-ам.  
+> Этот раздел оставлен как черновой reference, не удалять без команды. Не использовать для разработки.
+>
+> **Основные расхождения с актуальной схемой:**
+> - `AiExercise` — нет полей `inputMode`, `wordsSource`, `aiConfigProfile` (добавлены в `db_schema.md`)
+> - `UserCardHardcodeStats` — здесь `totalExercises/correctAnswers`, в актуальной — только `isCompleted`
+> - `WordArrangementExercise` и другие — здесь `cardId` FK напрямую, в актуальной — через `CardExerciseIndex`
+> - `UserCardAiStats` — заменена на `UserAiExerciseStats` с `qRep` (в `db_schema.md`)
+> - Нет `CardExerciseIndex`, `FavoriteAiExercise`, `HardcodedExerciseType` — они только в `db_schema.md`
+>
+> **⚠️ TODO: Перенумерация упражнений по типам.**  
+> Сейчас все упражнения нумеруются сквозно. После написания всего контента — перенумеровать каждый тип отдельно от 1.  
+> Подробнее: `1_basics.md` → раздел «⚠️ TODO: Перенумерация упражнений по типам».
+
 ### GrammarTopic
 | Поле | Тип | Описание |
 |------|-----|----------|
