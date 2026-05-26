@@ -3,6 +3,17 @@
 **ID:** 1 | **Order:** 1 | **isPretopic:** true  
 **Описание:** Личные местоимения, глагол to be, артикли, предлоги — фундамент перед временами
 
+> **Категория слов:** все слова предтемы "Основы" при открытии попадают в категорию **"Grammar Basics"** (раздел "Слова курса" → "Основы").
+
+
+## ✅ Эталонные таблицы для каждого типа упражнений
+
+Сделано. Шаблоны всех 14 типов + AI Exercise: [`tasks/phases/phase1/exercise_templates.md`](../../exercise_templates.md)
+
+
+## ✅ Перенумерация упражнений по типам — выполнено
+
+Каждый тип упражнения имеет свою нумерацию ID от 1. Глобальный `Ex N` в заголовках сохранён для навигации по файлу — только `(ID: N)` отражает реальный DB-ID внутри типа.
 ---
 
 > **Clarification Options — как работает:** Пользователь нажимает готовую фразу, она уходит в AI, AI генерирует объяснение в реальном времени. В файле — только тексты вопросов, не ответы.
@@ -92,7 +103,7 @@ I/you/he/she/it/we/they — слова-замены для имён и пред�
 
 ---
 
-**Ex 2 · MultipleChoice · REVERSE_CHOICE** *(ID: 2)*
+**Ex 2 · MultipleChoice · REVERSE_CHOICE** *(ID: 1)*
 
 Переведи предложение на русский:  
 "She works at a hospital."
@@ -105,7 +116,7 @@ I/you/he/she/it/we/they — слова-замены для имён и пред�
 
 ---
 
-**Ex 3 · MultipleChoice · FORWARD_CHOICE** *(ID: 3)*
+**Ex 3 · MultipleChoice · FORWARD_CHOICE** *(ID: 1)*
 
 Выбери английский перевод:  
 "Мой брат — программист."
@@ -118,7 +129,7 @@ I/you/he/she/it/we/they — слова-замены для имён и пред�
 
 ---
 
-**Ex 4 · TrueFalse** *(ID: 4)*
+**Ex 4 · TrueFalse** *(ID: 1)*
 
 Задание: отметь верные и неверные утверждения
 
@@ -134,7 +145,7 @@ I/you/he/she/it/we/they — слова-замены для имён и пред�
 
 ---
 
-**Ex 5 · MultipleChoice · FORWARD_CHOICE** *(ID: 5)*
+**Ex 5 · MultipleChoice · FORWARD_CHOICE** *(ID: 2)*
 
 Выбери английский перевод:  
 "Моя машина сломалась."
@@ -147,7 +158,7 @@ I/you/he/she/it/we/they — слова-замены для имён и пред�
 
 ---
 
-**Ex 6 · WordArrangement** *(ID: 6)*
+**Ex 6 · WordArrangement** *(ID: 1)*
 
 RU: Они живут в Москве.
 
@@ -266,7 +277,7 @@ am — только с I. is — с he/she/it. are — с you/we/they. В раз
 
 #### Exercises
 
-**Ex 7 · TableFill** *(ID: 7)*
+**Ex 7 · TableFill** *(ID: 2)*
 
 Задание: вставь нужную форму to be
 
@@ -284,7 +295,7 @@ am — только с I. is — с he/she/it. are — с you/we/they. В раз
 
 ---
 
-**Ex 8 · TextInput** *(ID: 8)*
+**Ex 8 · TextInput** *(ID: 1)*
 
 "She ___ tired after work."  
 Правильный ответ: **is**
@@ -293,7 +304,7 @@ am — только с I. is — с he/she/it. are — с you/we/they. В раз
 
 ---
 
-**Ex 9 · MultipleChoice · REVERSE_CHOICE** *(ID: 9)*
+**Ex 9 · MultipleChoice · REVERSE_CHOICE** *(ID: 2)*
 
 Переведи на русский:  
 "They're at school."
@@ -306,7 +317,7 @@ am — только с I. is — с he/she/it. are — с you/we/they. В раз
 
 ---
 
-**Ex 10 · TextInput** *(ID: 10)*
+**Ex 10 · TextInput** *(ID: 2)*
 
 "We ___ ready."  
 Правильный ответ: **are**
@@ -315,7 +326,7 @@ am — только с I. is — с he/she/it. are — с you/we/they. В раз
 
 ---
 
-**Ex 11 · TrueFalse** *(ID: 11)*
+**Ex 11 · TrueFalse** *(ID: 2)*
 
 Задание: отметь верные и неверные предложения
 
@@ -331,7 +342,7 @@ am — только с I. is — с he/she/it. are — с you/we/they. В раз
 
 ---
 
-**Ex 12 · WordArrangement** *(ID: 12)*
+**Ex 12 · WordArrangement** *(ID: 2)*
 
 RU: Она — моя сестра.
 
@@ -353,7 +364,7 @@ RU: Она — моя сестра.
 
 ---
 
-**Ex 13 · MultipleChoice · CHOICE** *(ID: 13)*
+**Ex 13 · MultipleChoice · CHOICE** *(ID: 1)*
 
 "___ very happy today."
 
@@ -422,7 +433,7 @@ not ставится сразу после am/is/are. Краткие формы:
 
 #### Exercises
 
-**Ex 14 · TextInput** *(ID: 14)*
+**Ex 14 · TextInput** *(ID: 3)*
 
 "He ___ at work today." *(сделай отрицание)*  
 Правильные ответы: **is not / isn't**
@@ -431,7 +442,7 @@ not ставится сразу после am/is/are. Краткие формы:
 
 ---
 
-**Ex 15 · MultipleChoice · CHOICE** *(ID: 15)*
+**Ex 15 · MultipleChoice · CHOICE** *(ID: 2)*
 
 "I ___ ready yet."
 
@@ -443,7 +454,7 @@ not ставится сразу после am/is/are. Краткие формы:
 
 ---
 
-**Ex 16 · TrueFalse** *(ID: 16)*
+**Ex 16 · TrueFalse** *(ID: 3)*
 
 Задание: отметь верные и неверные предложения
 
@@ -459,7 +470,7 @@ not ставится сразу после am/is/are. Краткие формы:
 
 ---
 
-**Ex 17 · WordArrangement** *(ID: 17)*
+**Ex 17 · WordArrangement** *(ID: 3)*
 
 RU: Её нет дома.
 
@@ -482,7 +493,7 @@ RU: Её нет дома.
 
 ---
 
-**Ex 18 · MultipleChoice · FORWARD_CHOICE** *(ID: 18)*
+**Ex 18 · MultipleChoice · FORWARD_CHOICE** *(ID: 3)*
 
 "Мы не студенты."
 
@@ -494,7 +505,7 @@ RU: Её нет дома.
 
 ---
 
-**Ex 19 · DialogRestore** *(ID: 19)*
+**Ex 19 · DialogRestore** *(ID: 1)*
 
 A: "Is your brother a doctor?"  
 B: ___
@@ -568,7 +579,7 @@ B: ___
 
 #### Exercises
 
-**Ex 20 · MultipleChoice · FORWARD_CHOICE** *(ID: 20)*
+**Ex 20 · MultipleChoice · FORWARD_CHOICE** *(ID: 4)*
 
 "Ты голоден?"
 
@@ -580,7 +591,7 @@ B: ___
 
 ---
 
-**Ex 21 · TextInput** *(ID: 21)*
+**Ex 21 · TextInput** *(ID: 4)*
 
 "___ she at school?"  
 Правильный ответ: **Is**
@@ -589,7 +600,7 @@ B: ___
 
 ---
 
-**Ex 22 · TrueFalse · Multi** *(ID: 22)* ⚠️ *Новый тип упражнения — несколько предложений*
+**Ex 22 · TrueFalse · Multi** *(ID: 4)* ⚠️ *Новый тип упражнения — несколько предложений*
 
 Задание: отметь все ВЕРНЫЕ предложения (их может быть несколько)
 
@@ -605,7 +616,7 @@ B: ___
 
 ---
 
-**Ex 23 · WordArrangement** *(ID: 23)*
+**Ex 23 · WordArrangement** *(ID: 4)*
 
 RU: Ты — учитель?
 
@@ -627,7 +638,7 @@ RU: Ты — учитель?
 
 ---
 
-**Ex 24 · MultipleChoice · CHOICE** *(ID: 24)*
+**Ex 24 · MultipleChoice · CHOICE** *(ID: 3)*
 
 "___ I in the right place?"
 
@@ -639,7 +650,7 @@ RU: Ты — учитель?
 
 ---
 
-**Ex 25 · DialogRestore** *(ID: 25)*
+**Ex 25 · DialogRestore** *(ID: 2)*
 
 A: "___ your parents at home?"  
 B: "Yes, they are. They're having dinner."
@@ -734,7 +745,7 @@ There is — для одного предмета или неисчисляем�
 
 #### Exercises
 
-**Ex 26 · MultipleChoice · CHOICE** *(ID: 26)*
+**Ex 26 · MultipleChoice · CHOICE** *(ID: 4)*
 
 "___ a hospital near here."
 
@@ -746,7 +757,7 @@ There is — для одного предмета или неисчисляем�
 
 ---
 
-**Ex 27 · MultipleChoice · REVERSE_CHOICE** *(ID: 27)*
+**Ex 27 · MultipleChoice · REVERSE_CHOICE** *(ID: 3)*
 
 Переведи на русский:  
 "There's a new café on my street."
@@ -759,7 +770,7 @@ There is — для одного предмета или неисчисляем�
 
 ---
 
-**Ex 28 · MultipleChoice · CHOICE** *(ID: 28)*
+**Ex 28 · MultipleChoice · CHOICE** *(ID: 5)*
 
 RU: В комнате пять человек.  
 "___ five people in the room."
@@ -772,7 +783,7 @@ RU: В комнате пять человек.
 
 ---
 
-**Ex 29 · TrueFalse** *(ID: 29)*
+**Ex 29 · TrueFalse** *(ID: 5)*
 
 Задание: отметь верные и неверные предложения
 
@@ -788,7 +799,7 @@ RU: В комнате пять человек.
 
 ---
 
-**Ex 30 · WordArrangement** *(ID: 30)*
+**Ex 30 · WordArrangement** *(ID: 5)*
 
 RU: На диване два кота.
 
@@ -884,7 +895,7 @@ RU: На диване два кота.
 
 #### Exercises
 
-**Ex 31 · MultipleChoice · CHOICE** *(ID: 31)*
+**Ex 31 · MultipleChoice · CHOICE** *(ID: 6)*
 
 RU: В холодильнике нет яиц.  
 "___ any eggs in the fridge."
@@ -897,7 +908,7 @@ RU: В холодильнике нет яиц.
 
 ---
 
-**Ex 32 · MultipleChoice · FORWARD_CHOICE** *(ID: 32)*
+**Ex 32 · MultipleChoice · FORWARD_CHOICE** *(ID: 5)*
 
 "Здесь нет парковки."
 
@@ -909,7 +920,7 @@ RU: В холодильнике нет яиц.
 
 ---
 
-**Ex 33 · TextInput** *(ID: 33)*
+**Ex 33 · TextInput** *(ID: 5)*
 
 RU: В классе есть студенты?  
 "___ there any students in the classroom?"  
@@ -920,7 +931,7 @@ RU: В классе есть студенты?
 
 ---
 
-**Ex 34 · MultipleChoice · FORWARD_CHOICE** *(ID: 34)*
+**Ex 34 · MultipleChoice · FORWARD_CHOICE** *(ID: 6)*
 
 "Здесь есть банкомат?"
 
@@ -932,7 +943,7 @@ RU: В классе есть студенты?
 
 ---
 
-**Ex 35 · DialogRestore** *(ID: 35)*
+**Ex 35 · DialogRestore** *(ID: 3)*
 
 RU: A: "Извините, здесь рядом есть аптека?" / B: "Да, есть. Она на следующей улице."
 
@@ -947,7 +958,7 @@ B: ___
 
 ---
 
-**Ex 36 · TrueFalse** *(ID: 36)*
+**Ex 36 · TrueFalse** *(ID: 6)*
 
 Задание: отметь верные и неверные предложения
 
@@ -1064,7 +1075,7 @@ have — с I/you/we/they. has — с he/she/it. По-русски: "У меня
 
 #### Exercises
 
-**Ex 37 · TableFill** *(ID: 37)*
+**Ex 37 · TableFill** *(ID: 3)*
 
 Задание: вставь нужную форму have или has
 
@@ -1082,7 +1093,7 @@ have — с I/you/we/they. has — с he/she/it. По-русски: "У меня
 
 ---
 
-**Ex 38 · MultipleChoice · CHOICE** *(ID: 38)*
+**Ex 38 · MultipleChoice · CHOICE** *(ID: 7)*
 
 "My sister ___ a new phone."
 
@@ -1094,7 +1105,7 @@ have — с I/you/we/they. has — с he/she/it. По-русски: "У меня
 
 ---
 
-**Ex 39 · MultipleChoice · FORWARD_CHOICE** *(ID: 39)*
+**Ex 39 · MultipleChoice · FORWARD_CHOICE** *(ID: 7)*
 
 "У нас есть план."
 
@@ -1106,7 +1117,7 @@ have — с I/you/we/they. has — с he/she/it. По-русски: "У меня
 
 ---
 
-**Ex 40 · TextInput** *(ID: 40)*
+**Ex 40 · TextInput** *(ID: 6)*
 
 "He ___ two brothers."  
 Правильный ответ: **has**
@@ -1115,7 +1126,7 @@ have — с I/you/we/they. has — с he/she/it. По-русски: "У меня
 
 ---
 
-**Ex 41 · TrueFalse** *(ID: 41)*
+**Ex 41 · TrueFalse** *(ID: 7)*
 
 Задание: отметь верные и неверные предложения
 
@@ -1131,7 +1142,7 @@ have — с I/you/we/they. has — с he/she/it. По-русски: "У меня
 
 ---
 
-**Ex 42 · WordArrangement** *(ID: 42)*
+**Ex 42 · WordArrangement** *(ID: 6)*
 
 RU: У него есть синяя машина.
 
@@ -1223,7 +1234,7 @@ don't have — с I/you/we/they. doesn't have — с he/she/it. После doesn
 
 #### Exercises
 
-**Ex 43 · MultipleChoice · CHOICE** *(ID: 43)*
+**Ex 43 · MultipleChoice · CHOICE** *(ID: 8)*
 
 "She ___ a car."
 
@@ -1235,7 +1246,7 @@ don't have — с I/you/we/they. doesn't have — с he/she/it. После doesn
 
 ---
 
-**Ex 44 · TextInput** *(ID: 44)*
+**Ex 44 · TextInput** *(ID: 7)*
 
 "We ___ enough money for the trip."  
 Правильный ответ: **don't have**  
@@ -1245,7 +1256,7 @@ don't have — с I/you/we/they. doesn't have — с he/she/it. После doesn
 
 ---
 
-**Ex 45 · MultipleChoice · FORWARD_CHOICE** *(ID: 45)*
+**Ex 45 · MultipleChoice · FORWARD_CHOICE** *(ID: 8)*
 
 "У него нет сестёр."
 
@@ -1257,7 +1268,7 @@ don't have — с I/you/we/they. doesn't have — с he/she/it. После doesn
 
 ---
 
-**Ex 46 · TrueFalse** *(ID: 46)*
+**Ex 46 · TrueFalse** *(ID: 8)*
 
 Задание: отметь верные и неверные предложения
 
@@ -1273,7 +1284,7 @@ don't have — с I/you/we/they. doesn't have — с he/she/it. После doesn
 
 ---
 
-**Ex 47 · WordArrangement** *(ID: 47)*
+**Ex 47 · WordArrangement** *(ID: 7)*
 
 RU: У неё нет домашних животных.
 
@@ -1295,7 +1306,7 @@ RU: У неё нет домашних животных.
 
 ---
 
-**Ex 48 · MultipleChoice · REVERSE_CHOICE** *(ID: 48)*
+**Ex 48 · MultipleChoice · REVERSE_CHOICE** *(ID: 4)*
 
 Переведи на русский:  
 "My brother doesn't have a bike."
@@ -1384,7 +1395,7 @@ RU: У неё нет домашних животных.
 
 #### Exercises
 
-**Ex 49 · MultipleChoice · CHOICE** *(ID: 49)*
+**Ex 49 · MultipleChoice · CHOICE** *(ID: 9)*
 
 "___ she have a driving licence?"
 
@@ -1396,7 +1407,7 @@ RU: У неё нет домашних животных.
 
 ---
 
-**Ex 50 · TextInput** *(ID: 50)*
+**Ex 50 · TextInput** *(ID: 8)*
 
 "___ your parents have a garden?"  
 Правильный ответ: **Do**  
@@ -1406,7 +1417,7 @@ RU: У неё нет домашних животных.
 
 ---
 
-**Ex 51 · MultipleChoice · FORWARD_CHOICE** *(ID: 51)*
+**Ex 51 · MultipleChoice · FORWARD_CHOICE** *(ID: 9)*
 
 "У него есть кредитная карта?"
 
@@ -1418,7 +1429,7 @@ RU: У неё нет домашних животных.
 
 ---
 
-**Ex 52 · MultipleChoice · REVERSE_CHOICE** *(ID: 52)*
+**Ex 52 · MultipleChoice · REVERSE_CHOICE** *(ID: 5)*
 
 Переведи на русский:  
 "Do they have a washing machine?"
@@ -1431,7 +1442,7 @@ RU: У неё нет домашних животных.
 
 ---
 
-**Ex 53 · TrueFalse** *(ID: 53)*
+**Ex 53 · TrueFalse** *(ID: 9)*
 
 Задание: отметь верные и неверные предложения
 
@@ -1447,7 +1458,7 @@ RU: У неё нет домашних животных.
 
 ---
 
-**Ex 54 · DialogRestore** *(ID: 54)*
+**Ex 54 · DialogRestore** *(ID: 4)*
 
 A: "___ you have a moment?"  
 B: "Yes, I do. What's up?"
@@ -1564,7 +1575,7 @@ a/an = "один какой-то". a — перед согласным звук�
 
 #### Exercises
 
-**Ex 55 · MultipleChoice · CHOICE** *(ID: 55)*
+**Ex 55 · MultipleChoice · CHOICE** *(ID: 10)*
 
 "She is ___ engineer."
 
@@ -1576,7 +1587,7 @@ a/an = "один какой-то". a — перед согласным звук�
 
 ---
 
-**Ex 56 · MultipleChoice · CHOICE** *(ID: 56)*
+**Ex 56 · MultipleChoice · CHOICE** *(ID: 11)*
 
 "I have ___ idea."
 
@@ -1588,7 +1599,7 @@ a/an = "один какой-то". a — перед согласным звук�
 
 ---
 
-**Ex 57 · MultipleChoice · FORWARD_CHOICE** *(ID: 57)*
+**Ex 57 · MultipleChoice · FORWARD_CHOICE** *(ID: 10)*
 
 "Я вижу (какую-то) собаку."
 
@@ -1600,7 +1611,7 @@ a/an = "один какой-то". a — перед согласным звук�
 
 ---
 
-**Ex 58 · TextInput** *(ID: 58)*
+**Ex 58 · TextInput** *(ID: 9)*
 
 "He is ___ artist."  
 Правильный ответ: **an**  
@@ -1610,7 +1621,7 @@ a/an = "один какой-то". a — перед согласным звук�
 
 ---
 
-**Ex 59 · TrueFalse** *(ID: 59)*
+**Ex 59 · TrueFalse** *(ID: 10)*
 
 Задание: отметь верные и неверные предложения
 
@@ -1626,7 +1637,7 @@ a/an = "один какой-то". a — перед согласным звук�
 
 ---
 
-**Ex 60 · WordArrangement** *(ID: 60)*
+**Ex 60 · WordArrangement** *(ID: 8)*
 
 RU: У него есть новый телефон.
 
@@ -1762,7 +1773,7 @@ an — перед гласным звуком, не буквой. university, un
 
 #### Exercises
 
-**Ex 61 · MultipleChoice · CHOICE** *(ID: 61)*
+**Ex 61 · MultipleChoice · CHOICE** *(ID: 12)*
 
 "She studies at ___ university."
 
@@ -1774,7 +1785,7 @@ an — перед гласным звуком, не буквой. university, un
 
 ---
 
-**Ex 62 · MultipleChoice · CHOICE** *(ID: 62)*
+**Ex 62 · MultipleChoice · CHOICE** *(ID: 13)*
 
 "I waited for ___ hour."
 
@@ -1786,7 +1797,7 @@ an — перед гласным звуком, не буквой. university, un
 
 ---
 
-**Ex 63 · MultipleChoice · FORWARD_CHOICE** *(ID: 63)*
+**Ex 63 · MultipleChoice · FORWARD_CHOICE** *(ID: 11)*
 
 "Это интересный фильм."
 
@@ -1798,7 +1809,7 @@ an — перед гласным звуком, не буквой. university, un
 
 ---
 
-**Ex 64 · MultipleChoice · CHOICE** *(ID: 64)*
+**Ex 64 · MultipleChoice · CHOICE** *(ID: 14)*
 
 "He is ___ honest person."
 
@@ -1810,7 +1821,7 @@ an — перед гласным звуком, не буквой. university, un
 
 ---
 
-**Ex 65 · TrueFalse** *(ID: 65)*
+**Ex 65 · TrueFalse** *(ID: 11)*
 
 Задание: отметь верные и неверные предложения
 
@@ -1826,7 +1837,7 @@ an — перед гласным звуком, не буквой. university, un
 
 ---
 
-**Ex 66 · WordArrangement** *(ID: 66)*
+**Ex 66 · WordArrangement** *(ID: 9)*
 
 RU: Это европейский город.
 
@@ -1930,7 +1941,7 @@ the = "тот самый, конкретный". Используй: когда 
 
 #### Exercises
 
-**Ex 67 · MultipleChoice · CHOICE** *(ID: 67)*
+**Ex 67 · MultipleChoice · CHOICE** *(ID: 15)*
 
 RU: Я купил книгу вчера. ___ книга очень интересная.  
 "I bought a book yesterday. ___ book is really interesting."
@@ -1943,7 +1954,7 @@ RU: Я купил книгу вчера. ___ книга очень интере�
 
 ---
 
-**Ex 68 · MultipleChoice · CHOICE** *(ID: 68)*
+**Ex 68 · MultipleChoice · CHOICE** *(ID: 16)*
 
 RU: Солнце встаёт на востоке.  
 "___ sun rises in the east."
@@ -1956,7 +1967,7 @@ RU: Солнце встаёт на востоке.
 
 ---
 
-**Ex 69 · MultipleChoice · FORWARD_CHOICE** *(ID: 69)*
+**Ex 69 · MultipleChoice · FORWARD_CHOICE** *(ID: 12)*
 
 "Передай, пожалуйста, соль."
 
@@ -1968,7 +1979,7 @@ RU: Солнце встаёт на востоке.
 
 ---
 
-**Ex 70 · TrueFalse** *(ID: 70)*
+**Ex 70 · TrueFalse** *(ID: 12)*
 
 Задание: отметь верные и неверные предложения
 
@@ -1984,7 +1995,7 @@ RU: Солнце встаёт на востоке.
 
 ---
 
-**Ex 71 · MultipleChoice · REVERSE_CHOICE** *(ID: 71)*
+**Ex 71 · MultipleChoice · REVERSE_CHOICE** *(ID: 6)*
 
 "She lives near the Nile."
 
@@ -1996,7 +2007,7 @@ RU: Солнце встаёт на востоке.
 
 ---
 
-**Ex 72 · WordArrangement** *(ID: 72)*
+**Ex 72 · WordArrangement** *(ID: 10)*
 
 RU: Закрой, пожалуйста, дверь.
 
@@ -2119,7 +2130,7 @@ my/your/his/her/its/our/their — стоят перед существитель
 
 #### Exercises
 
-**Ex 73 · TableFill** *(ID: 73)*
+**Ex 73 · TableFill** *(ID: 4)*
 
 Задание: вспомни и запиши притяжательное местоимение для каждого личного
 
@@ -2137,7 +2148,7 @@ my/your/his/her/its/our/their — стоят перед существитель
 
 ---
 
-**Ex 74 · MultipleChoice · CHOICE** *(ID: 74)*
+**Ex 74 · MultipleChoice · CHOICE** *(ID: 17)*
 
 "Егор забыл ___ телефон дома."
 
@@ -2149,7 +2160,7 @@ my/your/his/her/its/our/their — стоят перед существитель
 
 ---
 
-**Ex 75 · Matching** *(ID: 75)*
+**Ex 75 · Matching** *(ID: 1)*
 
 Задание: соедини владельца с правильным притяжательным в предложении
 
@@ -2164,7 +2175,7 @@ my/your/his/her/its/our/their — стоят перед существитель
 
 ---
 
-**Ex 76 · TrueFalse** *(ID: 76)*
+**Ex 76 · TrueFalse** *(ID: 13)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -2178,7 +2189,7 @@ my/your/his/her/its/our/their — стоят перед существитель
 
 ---
 
-**Ex 77 · WordArrangement** *(ID: 77)*
+**Ex 77 · WordArrangement** *(ID: 11)*
 
 RU: Их кошка спит на диване.
 
@@ -2271,7 +2282,7 @@ mine/yours/his/hers/ours/theirs — форма без существительн
 
 #### Exercises
 
-**Ex 78 · MultipleChoice · CHOICE** *(ID: 78)*
+**Ex 78 · MultipleChoice · CHOICE** *(ID: 18)*
 
 "Whose bag is this?" — "It's ___."
 
@@ -2283,21 +2294,21 @@ mine/yours/his/hers/ours/theirs — форма без существительн
 
 ---
 
-**Ex 79 · ErrorCorrection** *(ID: 79)*
+**Ex 79 · ErrorCorrection** *(ID: 1)*
 
 В предложении есть ошибка. Выбери правильный вариант:
 
-"Don't take that pen — it's ___."
+"Don't take that pen — it's my."
 
-- my ✗
-- **mine** ✓
-- me
+- Don't take that pen — it's me.
+- **Don't take that pen — it's mine.** ✓
+- Don't take that pen — it's my pen.
 
 *Explanation (при ошибке):* После "it's" (= it is) существительного нет → самостоятельная форма "mine". "my" всегда стоит перед существительным: "my pen". Без существительного — только "mine".
 
 ---
 
-**Ex 80 · ConstructionMeaning** *(ID: 80)*
+**Ex 80 · ConstructionMeaning** *(ID: 1)*
 
 Выбери правильный перевод:
 
@@ -2312,7 +2323,7 @@ mine/yours/his/hers/ours/theirs — форма без существительн
 
 ---
 
-**Ex 81 · WordArrangement** *(ID: 81)*
+**Ex 81 · WordArrangement** *(ID: 12)*
 
 RU: Чья это сумка? Моя.
 
@@ -2420,7 +2431,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 #### Exercises
 
-**Ex 102 · Transformation** *(ID: 102)*
+**Ex 102 · Transformation** *(ID: 1)*
 
 Задание: перепиши с использованием 's вместо of
 
@@ -2432,7 +2443,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 103 · MultipleChoice · CHOICE** *(ID: 103)*
+**Ex 103 · MultipleChoice · CHOICE** *(ID: 19)*
 
 "What is ___ this film?" (Как называется этот фильм?)
 
@@ -2444,7 +2455,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 104 · ErrorCorrection** *(ID: 104)*
+**Ex 104 · ErrorCorrection** *(ID: 2)*
 
 В предложении есть ошибка. Выбери правильный вариант:
 
@@ -2458,7 +2469,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 105 · TrueFalse** *(ID: 105)*
+**Ex 105 · TrueFalse** *(ID: 14)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -2472,7 +2483,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 106 · WordArrangement** *(ID: 106)*
+**Ex 106 · WordArrangement** *(ID: 13)*
 
 Ситуация: ты увидел красивую машину и хочешь сказать, что это машина твоего друга Глеба.
 
@@ -2613,7 +2624,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 #### Exercises
 
-**Ex 146 · MultipleChoice** *(ID: 146)*
+**Ex 146 · MultipleChoice · CHOICE** *(ID: 20)*
 
 "I really like ___. She's very funny." (Она мне очень нравится. Она очень смешная.)
 
@@ -2625,7 +2636,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 147 · MultipleChoice** *(ID: 147)*
+**Ex 147 · MultipleChoice · CHOICE** *(ID: 21)*
 
 "This present is from ___ and ___." (Этот подарок от неё и него.)
 
@@ -2637,7 +2648,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 148 · ErrorCorrection** *(ID: 148)*
+**Ex 148 · ErrorCorrection** *(ID: 3)*
 
 В предложении есть ошибка. Выбери правильный вариант:
 
@@ -2651,7 +2662,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 149 · ErrorCorrection** *(ID: 149)*
+**Ex 149 · ErrorCorrection** *(ID: 4)*
 
 В предложении есть ошибка. Выбери правильный вариант:
 
@@ -2665,7 +2676,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 150 · TextInput** *(ID: 150)*
+**Ex 150 · TextInput** *(ID: 10)*
 
 Вставь правильную объектную форму местоимения:
 
@@ -2678,7 +2689,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 151 · TrueFalse** *(ID: 151)*
+**Ex 151 · TrueFalse** *(ID: 15)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -2692,7 +2703,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-**Ex 152 · WordArrangement** *(ID: 152)*
+**Ex 152 · WordArrangement** *(ID: 14)*
 
 Ситуация: ты хочешь сказать, что этот подарок — для неё и для него.
 
@@ -2784,7 +2795,7 @@ this = этот/эта/это (рядом), that = тот/та/то (далек�
 
 #### Exercises
 
-**Ex 82 · Categorization** *(ID: 82)*
+**Ex 82 · Categorization** *(ID: 1)*
 
 Задание: перетащи каждую ситуацию в нужную колонку
 
@@ -2799,7 +2810,7 @@ this = этот/эта/это (рядом), that = тот/та/то (далек�
 
 ---
 
-**Ex 83 · MultipleChoice · CHOICE** *(ID: 83)*
+**Ex 83 · MultipleChoice · CHOICE** *(ID: 22)*
 
 "___ is my sister." (Сестра стоит рядом с тобой, представляешь её)
 
@@ -2811,7 +2822,7 @@ this = этот/эта/это (рядом), that = тот/та/то (далек�
 
 ---
 
-**Ex 84 · MultipleChoice · FORWARD_CHOICE** *(ID: 84)*
+**Ex 84 · MultipleChoice · FORWARD_CHOICE** *(ID: 13)*
 
 Смотришь в окно и говоришь про незнакомое высотное здание вдалеке: "Вон то здание — новое."
 
@@ -2823,7 +2834,7 @@ this = этот/эта/это (рядом), that = тот/та/то (далек�
 
 ---
 
-**Ex 85 · TrueFalse** *(ID: 85)*
+**Ex 85 · TrueFalse** *(ID: 16)*
 
 | # | Ситуация | EN | Верно? |
 |---|----------|----|--------|
@@ -2837,7 +2848,7 @@ this = этот/эта/это (рядом), that = тот/та/то (далек�
 
 ---
 
-**Ex 86 · WordArrangement** *(ID: 86)*
+**Ex 86 · WordArrangement** *(ID: 15)*
 
 Ситуация: видишь в конце коридора незнакомца и хочешь спросить друга — кто это.
 
@@ -2927,7 +2938,7 @@ these = эти (рядом, несколько), those = те (далеко, н�
 
 #### Exercises
 
-**Ex 87 · Transformation** *(ID: 87)*
+**Ex 87 · Transformation** *(ID: 2)*
 
 Задание: сделай предложение во множественном числе
 
@@ -2939,7 +2950,7 @@ these = эти (рядом, несколько), those = те (далеко, н�
 
 ---
 
-**Ex 88 · MultipleChoice · CHOICE** *(ID: 88)*
+**Ex 88 · MultipleChoice · CHOICE** *(ID: 23)*
 
 "___ are my glasses." (Очки лежат прямо передо мной на столе)
 
@@ -2952,7 +2963,7 @@ these = эти (рядом, несколько), those = те (далеко, н�
 
 ---
 
-**Ex 89 · ErrorCorrection** *(ID: 89)*
+**Ex 89 · ErrorCorrection** *(ID: 5)*
 
 В предложении есть ошибка. Выбери правильный вариант:
 
@@ -2966,7 +2977,7 @@ these = эти (рядом, несколько), those = те (далеко, н�
 
 ---
 
-**Ex 90 · WordArrangement** *(ID: 90)*
+**Ex 90 · WordArrangement** *(ID: 16)*
 
 Ситуация: ты с другом в незнакомом городе, вдалеке видите красивые здания.
 
@@ -3087,7 +3098,7 @@ What — что/какой, where — где/куда, when — когда, who 
 
 #### Exercises
 
-**Ex 91 · Matching** *(ID: 91)*
+**Ex 91 · Matching** *(ID: 2)*
 
 Задание: соедини тип вопроса с нужным вопросительным словом
 
@@ -3104,7 +3115,7 @@ What — что/какой, where — где/куда, when — когда, who 
 
 ---
 
-**Ex 92 · MultipleChoice · CHOICE** *(ID: 92)*
+**Ex 92 · MultipleChoice · CHOICE** *(ID: 24)*
 
 "___ is your sister?" (Хочу узнать, где находится сестра)
 
@@ -3117,7 +3128,7 @@ What — что/какой, where — где/куда, when — когда, who 
 
 ---
 
-**Ex 93 · MultipleChoice · FORWARD_CHOICE** *(ID: 93)*
+**Ex 93 · MultipleChoice · FORWARD_CHOICE** *(ID: 14)*
 
 "Почему ты опоздал?"
 
@@ -3130,7 +3141,7 @@ What — что/какой, where — где/куда, when — когда, who 
 
 ---
 
-**Ex 94 · FindTheOdd** *(ID: 94)*
+**Ex 94 · FindTheOdd** *(ID: 1)*
 
 Три слова связаны с местом. Найди лишнее — слово о времени, а не о месте:
 
@@ -3143,7 +3154,7 @@ What — что/какой, where — где/куда, when — когда, who 
 
 ---
 
-**Ex 95 · TrueFalse** *(ID: 95)*
+**Ex 95 · TrueFalse** *(ID: 17)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -3157,7 +3168,7 @@ What — что/какой, where — где/куда, when — когда, who 
 
 ---
 
-**Ex 96 · WordArrangement** *(ID: 96)*
+**Ex 96 · WordArrangement** *(ID: 17)*
 
 Ситуация: ты не можешь найти ключи. Что ты спросишь вслух?
 
@@ -3251,7 +3262,7 @@ how old — возраст, how many — счётные предметы, how mu
 
 #### Exercises
 
-**Ex 97 · FindTheOdd** *(ID: 97)*
+**Ex 97 · FindTheOdd** *(ID: 2)*
 
 Три конструкции ожидают в ответ число или сумму. Найди ту, что ожидает другой тип ответа:
 
@@ -3264,7 +3275,7 @@ how old — возраст, how many — счётные предметы, how mu
 
 ---
 
-**Ex 98 · MultipleChoice · CHOICE** *(ID: 98)*
+**Ex 98 · MultipleChoice · CHOICE** *(ID: 25)*
 
 "___ brothers do you have?"
 
@@ -3277,7 +3288,7 @@ how old — возраст, how many — счётные предметы, how mu
 
 ---
 
-**Ex 99 · MultipleChoice · REVERSE_CHOICE** *(ID: 99)*
+**Ex 99 · MultipleChoice · REVERSE_CHOICE** *(ID: 7)*
 
 "How much is it?"
 
@@ -3290,7 +3301,7 @@ how old — возраст, how many — счётные предметы, how mu
 
 ---
 
-**Ex 100 · TextInput** *(ID: 100)*
+**Ex 100 · TextInput** *(ID: 11)*
 
 Вставь нужную конструкцию:
 
@@ -3304,7 +3315,7 @@ how old — возраст, how many — счётные предметы, how mu
 
 ---
 
-**Ex 101 · WordArrangement** *(ID: 101)*
+**Ex 101 · WordArrangement** *(ID: 18)*
 
 Ситуация: ты в магазине, хочешь узнать цену куртки у продавца.
 
@@ -3441,7 +3452,7 @@ in = внутри замкнутого пространства (комната,
 
 #### Exercises
 
-**Ex 107 · Categorization** *(ID: 107)*
+**Ex 107 · Categorization** *(ID: 2)*
 
 Задание: распредели слова и фразы по колонкам in / on / at
 
@@ -3456,7 +3467,7 @@ in = внутри замкнутого пространства (комната,
 
 ---
 
-**Ex 108 · MultipleChoice · CHOICE** *(ID: 108)*
+**Ex 108 · MultipleChoice · CHOICE** *(ID: 26)*
 
 "She is ___ the kitchen."
 
@@ -3468,7 +3479,7 @@ in = внутри замкнутого пространства (комната,
 
 ---
 
-**Ex 109 · MultipleChoice · CHOICE** *(ID: 109)*
+**Ex 109 · MultipleChoice · CHOICE** *(ID: 27)*
 
 "The keys are ___ the table."
 
@@ -3480,7 +3491,7 @@ in = внутри замкнутого пространства (комната,
 
 ---
 
-**Ex 110 · TrueFalse** *(ID: 110)*
+**Ex 110 · TrueFalse** *(ID: 18)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -3494,7 +3505,7 @@ in = внутри замкнутого пространства (комната,
 
 ---
 
-**Ex 111 · ErrorCorrection** *(ID: 111)*
+**Ex 111 · ErrorCorrection** *(ID: 6)*
 
 "My sister is in school right now." *(Выбери правильный вариант)*
 
@@ -3506,7 +3517,7 @@ in = внутри замкнутого пространства (комната,
 
 ---
 
-**Ex 112 · MultipleChoice · CHOICE** *(ID: 112)*
+**Ex 112 · MultipleChoice · CHOICE** *(ID: 28)*
 
 "The passport ___ ___ the drawer."
 
@@ -3519,7 +3530,7 @@ in = внутри замкнутого пространства (комната,
 
 ---
 
-**Ex 113 · WordArrangement** *(ID: 113)*
+**Ex 113 · WordArrangement** *(ID: 19)*
 
 Ситуация: звонишь другу и спрашиваешь, где он сейчас работает.
 
@@ -3649,7 +3660,7 @@ under = под (физически ниже). near = рядом (в общем �
 
 #### Exercises
 
-**Ex 114 · Matching** *(ID: 114)*
+**Ex 114 · Matching** *(ID: 3)*
 
 Соедини RU ↔ EN:
 
@@ -3664,7 +3675,7 @@ under = под (физически ниже). near = рядом (в общем �
 
 ---
 
-**Ex 115 · MultipleChoice · CHOICE** *(ID: 115)*
+**Ex 115 · MultipleChoice · CHOICE** *(ID: 29)*
 
 "The café is ___ the bank and the bookshop."
 
@@ -3677,7 +3688,7 @@ under = под (физически ниже). near = рядом (в общем �
 
 ---
 
-**Ex 116 · MultipleChoice · FORWARD_CHOICE** *(ID: 116)*
+**Ex 116 · MultipleChoice · FORWARD_CHOICE** *(ID: 15)*
 
 "Глеб спрятался за диваном."
 
@@ -3689,7 +3700,7 @@ under = под (физически ниже). near = рядом (в общем �
 
 ---
 
-**Ex 117 · TrueFalse** *(ID: 117)*
+**Ex 117 · TrueFalse** *(ID: 19)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -3703,7 +3714,7 @@ under = под (физически ниже). near = рядом (в общем �
 
 ---
 
-**Ex 118 · WordArrangement** *(ID: 118)*
+**Ex 118 · WordArrangement** *(ID: 20)*
 
 Ситуация: ищешь пульт от телевизора и описываешь где он лежит.
 
@@ -3723,7 +3734,7 @@ under = под (физически ниже). near = рядом (в общем �
 
 ---
 
-**Ex 119 · ErrorCorrection** *(ID: 119)*
+**Ex 119 · ErrorCorrection** *(ID: 7)*
 
 "Igor is sitting between his three colleagues."  
 *(Выбери правильный вариант)*
@@ -3839,7 +3850,7 @@ nearby = наречие/прилагательное (без существит�
 
 #### Exercises
 
-**Ex 141 · MultipleChoice · CHOICE** *(ID: 141)*
+**Ex 141 · MultipleChoice · CHOICE** *(ID: 30)*
 
 "Is there a supermarket ___?" *(Есть ли здесь поблизости супермаркет?)*
 
@@ -3851,7 +3862,7 @@ nearby = наречие/прилагательное (без существит�
 
 ---
 
-**Ex 142 · MultipleChoice · CHOICE** *(ID: 142)*
+**Ex 142 · MultipleChoice · CHOICE** *(ID: 31)*
 
 "She was sitting ___ the window, watching the rain."
 
@@ -3863,7 +3874,7 @@ nearby = наречие/прилагательное (без существит�
 
 ---
 
-**Ex 143 · ErrorCorrection** *(ID: 143)*
+**Ex 143 · ErrorCorrection** *(ID: 8)*
 
 "There isn't a café near." *(Выбери правильный вариант)*
 
@@ -3875,7 +3886,7 @@ nearby = наречие/прилагательное (без существит�
 
 ---
 
-**Ex 144 · TrueFalse** *(ID: 144)*
+**Ex 144 · TrueFalse** *(ID: 20)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -3889,7 +3900,7 @@ nearby = наречие/прилагательное (без существит�
 
 ---
 
-**Ex 145 · WordArrangement** *(ID: 145)*
+**Ex 145 · WordArrangement** *(ID: 21)*
 
 Ситуация: описываешь, где стоит твой велосипед.
 
@@ -4037,7 +4048,7 @@ at = точное время на часах и ночь. on = конкретн�
 
 #### Exercises
 
-**Ex 120 · Categorization** *(ID: 120)*
+**Ex 120 · Categorization** *(ID: 3)*
 
 Задание: распредели в колонки at / on / in
 
@@ -4052,7 +4063,7 @@ at = точное время на часах и ночь. on = конкретн�
 
 ---
 
-**Ex 121 · MultipleChoice · CHOICE** *(ID: 121)*
+**Ex 121 · MultipleChoice · CHOICE** *(ID: 32)*
 
 "I usually wake up ___ 7 in the morning."
 
@@ -4064,7 +4075,7 @@ at = точное время на часах и ночь. on = конкретн�
 
 ---
 
-**Ex 122 · TrueFalse** *(ID: 122)*
+**Ex 122 · TrueFalse** *(ID: 21)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -4078,7 +4089,7 @@ at = точное время на часах и ночь. on = конкретн�
 
 ---
 
-**Ex 123 · TextInput** *(ID: 123)*
+**Ex 123 · TextInput** *(ID: 12)*
 
 Вставь предлог:
 
@@ -4092,7 +4103,7 @@ at = точное время на часах и ночь. on = конкретн�
 
 ---
 
-**Ex 124 · MultipleChoice · FORWARD_CHOICE** *(ID: 124)*
+**Ex 124 · MultipleChoice · FORWARD_CHOICE** *(ID: 16)*
 
 "Я не работаю по субботам."
 
@@ -4104,7 +4115,7 @@ at = точное время на часах и ночь. on = конкретн�
 
 ---
 
-**Ex 125 · WordArrangement** *(ID: 125)*
+**Ex 125 · WordArrangement** *(ID: 22)*
 
 Ситуация: говоришь другу когда начинается тренировка.
 
@@ -4194,7 +4205,7 @@ yesterday / today / tomorrow / last... / next... / this... / every... — без
 
 #### Exercises
 
-**Ex 126 · FindTheOdd** *(ID: 126)*
+**Ex 126 · FindTheOdd** *(ID: 3)*
 
 Три из четырёх слов требуют предлог at/on/in. Найди то, что предлога НЕ требует:
 
@@ -4207,7 +4218,7 @@ yesterday / today / tomorrow / last... / next... / this... / every... — без
 
 ---
 
-**Ex 127 · ErrorCorrection** *(ID: 127)*
+**Ex 127 · ErrorCorrection** *(ID: 9)*
 
 "I'll meet you on tomorrow at the café."  
 *(Выбери правильный вариант)*
@@ -4220,7 +4231,7 @@ yesterday / today / tomorrow / last... / next... / this... / every... — без
 
 ---
 
-**Ex 128 · TrueFalse** *(ID: 128)*
+**Ex 128 · TrueFalse** *(ID: 22)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -4234,7 +4245,7 @@ yesterday / today / tomorrow / last... / next... / this... / every... — без
 
 ---
 
-**Ex 129 · MultipleChoice · CHOICE** *(ID: 129)*
+**Ex 129 · MultipleChoice · CHOICE** *(ID: 33)*
 
 Выбери правильный вариант:
 
@@ -4350,7 +4361,7 @@ to = движение к цели (go to work, fly to Paris). from = источ�
 
 #### Exercises
 
-**Ex 130 · MultipleChoice · CHOICE** *(ID: 130)*
+**Ex 130 · MultipleChoice · CHOICE** *(ID: 34)*
 
 "She is going ___ the gym."
 
@@ -4362,7 +4373,7 @@ to = движение к цели (go to work, fly to Paris). from = источ�
 
 ---
 
-**Ex 131 · MultipleChoice · FORWARD_CHOICE** *(ID: 131)*
+**Ex 131 · MultipleChoice · FORWARD_CHOICE** *(ID: 17)*
 
 "Роман из Екатеринбурга."
 
@@ -4374,7 +4385,7 @@ to = движение к цели (go to work, fly to Paris). from = источ�
 
 ---
 
-**Ex 132 · TextInput** *(ID: 132)*
+**Ex 132 · TextInput** *(ID: 13)*
 
 "I'm going ___ home now."  
 *(Нужен ли здесь предлог?)*
@@ -4386,7 +4397,7 @@ to = движение к цели (go to work, fly to Paris). from = источ�
 
 ---
 
-**Ex 133 · TrueFalse** *(ID: 133)*
+**Ex 133 · TrueFalse** *(ID: 23)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -4400,7 +4411,7 @@ to = движение к цели (go to work, fly to Paris). from = источ�
 
 ---
 
-**Ex 134 · WordArrangement** *(ID: 134)*
+**Ex 134 · WordArrangement** *(ID: 23)*
 
 Ситуация: описываешь маршрут поезда.
 
@@ -4524,7 +4535,7 @@ into = движение внутрь (She walked into the room). out of = дви
 
 #### Exercises
 
-**Ex 135 · MultipleChoice · CHOICE** *(ID: 135)*
+**Ex 135 · MultipleChoice · CHOICE** *(ID: 35)*
 
 "He ran ___ the building when he heard the alarm."
 
@@ -4536,7 +4547,7 @@ into = движение внутрь (She walked into the room). out of = дви
 
 ---
 
-**Ex 136 · MultipleChoice · CHOICE** *(ID: 136)*
+**Ex 136 · MultipleChoice · CHOICE** *(ID: 36)*
 
 "She took her phone ___ her bag."
 
@@ -4548,7 +4559,7 @@ into = движение внутрь (She walked into the room). out of = дви
 
 ---
 
-**Ex 137 · ErrorCorrection** *(ID: 137)*
+**Ex 137 · ErrorCorrection** *(ID: 10)*
 
 "He got out the car and walked in the office."  
 *(Выбери правильный вариант)*
@@ -4561,7 +4572,7 @@ into = движение внутрь (She walked into the room). out of = дви
 
 ---
 
-**Ex 138 · TrueFalse** *(ID: 138)*
+**Ex 138 · TrueFalse** *(ID: 24)*
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
@@ -4575,7 +4586,7 @@ into = движение внутрь (She walked into the room). out of = дви
 
 ---
 
-**Ex 139 · Matching** *(ID: 139)*
+**Ex 139 · Matching** *(ID: 4)*
 
 Соедини ситуацию с правильным предлогом:
 
@@ -4590,7 +4601,7 @@ into = движение внутрь (She walked into the room). out of = дви
 
 ---
 
-**Ex 140 · WordArrangement** *(ID: 140)*
+**Ex 140 · WordArrangement** *(ID: 24)*
 
 Ситуация: котёнок выпрыгнул из коробки.
 
@@ -4654,74 +4665,27 @@ into = движение внутрь (She walked into the room). out of = дви
 
 ---
 
-## ⚠️ TODO: Перенумерация упражнений по типам
 
-**Текущее состояние:** все упражнения нумеруются единой сквозной последовательностью (Ex 1, Ex 2... Ex 152). Это временно.
 
-**Как будет правильно:** каждый тип упражнения живёт в своей таблице в БД (см. `db_schema.md` → `HardcodedExerciseType`, `CardExerciseIndex`). Значит ID должны быть уникальны внутри каждого типа, а не глобально.
-
-**Что нужно сделать (завтра или позже):**
-
-1. Пройтись по всем файлам теории (`1_basics.md` и будущим блокам) и перенумеровать каждый тип отдельно:
-   - `WordArrangement` → свои ID от 1
-   - `MultipleChoice` → свои ID от 1
-   - `TrueFalse` → свои ID от 1
-   - `ErrorCorrection` → свои ID от 1
-   - `TextInput` → свои ID от 1
-   - `Matching` → свои ID от 1
-   - `Transformation` → свои ID от 1
-   - `Categorization` → свои ID от 1
-   - `TableFill` → свои ID от 1
-   - `FindTheOdd` → свои ID от 1
-   - `ForwardChoice` → свои ID от 1
-   - `ReverseChoice` → свои ID от 1
-   - `ConstructionMeaning` → свои ID от 1
-   - `DialogRestore` → свои ID от 1
-   - `AiExercise` → свои ID от 1
-
-2. Обновить таблицу счётчиков — она должна хранить последний ID **для каждого типа**, а не один общий Exercise-счётчик:
+**Таблица счётчиков** (последний использованный ID в `1_basics.md` на момент перенумерации):
 
 | Тип | Последний ID | Следующий |
 |-----|-------------|-----------|
-| WordArrangement | ? | ? |
-| MultipleChoice | ? | ? |
-| TrueFalse | ? | ? |
-| ErrorCorrection | ? | ? |
-| TextInput | ? | ? |
-| Matching | ? | ? |
-| Transformation | ? | ? |
-| Categorization | ? | ? |
-| TableFill | ? | ? |
-| FindTheOdd | ? | ? |
-| ForwardChoice | ? | ? |
-| ReverseChoice | ? | ? |
-| ConstructionMeaning | ? | ? |
-| DialogRestore | ? | ? |
-| AiExercise | ? | ? |
+| WordArrangement | 24 | 25 |
+| MultipleChoice | 36 | 37 |
+| TrueFalse | 24 | 25 |
+| ErrorCorrection | 10 | 11 |
+| TextInput | 13 | 14 |
+| Matching | 4 | 5 |
+| Transformation | 2 | 3 |
+| Categorization | 3 | 4 |
+| TableFill | 4 | 5 |
+| FindTheOdd | 3 | 4 |
+| ForwardChoice | 17 | 18 |
+| ReverseChoice | 7 | 8 |
+| ConstructionMeaning | 1 | 2 |
+| DialogRestore | 4 | 5 |
+| AiExercise | 26 | 27 |
 | Microtopic | 12 | 13 |
 | Card | 26 | 27 |
 | Example | 166 | 167 |
-
-3. Обновить `db_schema.md` → добавить пометку что `CardExerciseIndex.exerciseId` — это ID внутри таблицы конкретного типа, не глобальный.
-
-4. Проверить `grammar8r_plan.md` → раздел «Типы хардкодных упражнений» — добавить пояснение что каждый тип имеет свою нумерацию.
-
-**Пока не делаем** — сначала пишем весь контент теории, потом перенумеруем за один проход по всем файлам.
-
----
-
-## ⚠️ TODO: Эталонные таблицы для каждого типа упражнений
-
-**Что нужно сделать (завтра):**
-
-Просмотреть все упражнения в существующих файлах теории (`1_basics.md` и последующих блоках), выписать по одному примеру каждого типа и составить **эталонную таблицу-шаблон** для каждого из 14 типов хардкодных упражнений + AI Exercise.
-
-Эталонная таблица = точный формат полей, обязательные поля, правила написания контента. По ней будем писать все упражнения дальше, и если в процессе написания теории найдётся нюанс который не покрывает шаблон — подправим шаблон.
-
-Хранить в отдельном файле, например `tasks/phases/phase1/exercise_templates.md`.
-
-Для каждого типа в шаблоне указать:
-- Название типа и его суть (1 строка)
-- Обязательные поля с примером заполнения
-- Что писать в `explanation` (при ошибке): правила, чего избегать
-- Типичные ошибки при написании этого типа упражнений (по опыту уже написанных)
