@@ -300,6 +300,17 @@ Grammar8r/
 │   │   В этих выражениях "at" не переводится как отдельный предлог — он часть фразы.
 │   └── После каждой микротемы → слова открываются (isView = true, категория "Fixed Expressions")
 │
+├── Фразы из жизни  ← ситуативные выражения, после "Устойчивых выражений"
+│   Слова после каждой микротемы → открываются (isView = true, категория "Everyday English").
+│   ├── Команды и пространство — pull over, stay where you are, watch out, step aside, hold on, keep going
+│   ├── Движение и следование — walk with me vs follow me vs come with me; after you, lead the way
+│   ├── Вежливость и разрешение — please proceed, go ahead, be my guest, if I may, I beg your pardon
+│   ├── Намерение: три регистра — I intend to (формально) / I'm going to (нейтрально) / I'm about to (вот-вот)
+│   ├── Расплывчатость и мягкость — a word or two, in a minute, sort of, more or less, "Could I have a word?"
+│   ├── Многозначные слова — cheers (5 значений), out there (место vs странный), right (3 значения), fair enough
+│   ├── Предлоги в жизненном контексте — via vs through vs by; регистры и контексты
+│   └── Разговорные связки с so — so they (= поэтому они), so what, so they say, so there, so far so good
+│
 └── Разное — полезные темы без строгого места  ← самая последняя тема
     ├── Национальности и языки — Italian/Italy, French/France; the French/the Russians (народ)
     ├── Порядок прилагательных — Opinion→Size→Age→Shape→Colour→Origin→Material
@@ -1129,6 +1140,7 @@ Yandex Dictionary (fallback)
 | Неправильные глаголы | Verb Forms |
 | Разговорный английский | Informal English |
 | Устойчивые выражения | Fixed Expressions |
+| Фразы из жизни | Everyday English |
 | Остальные темы | определить при написании контента |
 
 ### isHiding — точное поведение
