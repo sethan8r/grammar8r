@@ -4,7 +4,7 @@
 При любом изменении схемы — обновлять этот файл первым.
 
 **Связанные планы:**
-- [grammar8r_plan.md](grammar8r_plan.md) — общая архитектура, алгоритм выборки слов из Words8r, AI-экран UX
+- [grammar8r_plan.md](grammar8r_plan.md) — общая архитектура, алгоритм выборки слов, AI-экран UX
 - [practice_plan.md](practice_plan.md) — режимы Практики, где и как используются таблицы прогресса
 - [subscription.md](subscription.md) — лимиты по тирам, связь с AI-запросами
 - [tasks/phases/phase4/phase4_server.md](phases/phase4/phase4_server.md) — серверная сторона, AiConfigProfile на сервере
@@ -47,126 +47,127 @@ enum class AiExerciseInputMode {
 ### `AiExerciseWordsSource`
 
 > Используется в: `AiExercise.wordsSource`  
-> Влияет на: какие слова из Words8r тянуть перед стартом упражнения  
-> Подробнее: grammar8r_plan.md → «Алгоритм выборки слов из Words8r»
+> Влияет на: какие слова тянуть для AI-промта перед стартом упражнения  
+> Подробнее: grammar8r_plan.md → «Алгоритм выборки слов»
 
-Определяет откуда брать слова пользователя для формирования промта. Логика проверки минимума и формирования списка слов живёт в `WordsRepository` — он смотрит на `categoryName`, `minWords`, `targetWords` и делает нужный запрос к словарной таблице в той же БД Grammar8r (фильтр по categoryName + isView = true).
+Определяет откуда брать слова для промта. Логика живёт в `WordsRepository`.
 
-Если слов меньше `minWords` → упражнение заблокировано, пользователю показывается:  
-*«Начни учить больше слов из категории «{displayName}» в Words8r, чтобы открылось это упражнение»*
+Слова берутся из двух БД:
+- **Words8r DB** (`words` таблица) — личный словарь пользователя. Читаем, не трогаем.
+- **Grammar8r DB** (`course_words`, `irregular_verbs`) — слова курса, разблокированные по ходу теории.
 
-В случайном режиме Практики упражнения с недостаточным количеством слов фильтруются ещё до попадания в стопку карточек.
+Фильтр для AI-промта:
+- Words8r: `q_rep > 0`
+- course_words / irregular_verbs: `is_unlocked = true AND (is_hidden = true OR q_rep > 0)`
+  - `is_hidden = true` = пользователь отметил "уже знаю" → включаем даже при `q_rep = 0`
+  - `q_rep > 0` = хотя бы раз повторял → включаем
+
+Если слов меньше `minWords` → упражнение заблокировано:  
+*«Нужно больше слов из категории «{displayName}», чтобы открылось это упражнение»*
+
+В случайном режиме Практики упражнения с недостаточным количеством слов фильтруются ещё до попадания в стопку.
 
 ```kotlin
-// Расширяется при появлении новых источников слов из Words8r
-enum class AiExerciseWordsSource(
-    val categoryName: String?,
-    // Название категории в Words8r для фильтрации.
-    // null = брать из всех категорий (общий алгоритм выборки).
-    // String = брать только из этой конкретной категории.
+// Перечень таблиц-источников слов. Ровно 3 — фиксировано.
+enum class WordTable {
+    WORDS8R,          // Words8r DB, таблица `words` — личный словарь пользователя
+    COURSE_WORDS,     // Grammar8r DB, таблица `course_words` — слова курса
+    IRREGULAR_VERBS   // Grammar8r DB, таблица `irregular_verbs` — глаголы v1/v2/v3
+}
 
-    val displayName: String,
-    // Человекочитаемое название на русском — показывается пользователю в подсказке.
-    // Не внутреннее имя таблицы, а то что пользователь видит в Words8r.
+// Вспомогательный класс — один источник слов: таблица + категория + количество
+data class WordSource(
+    val table: WordTable,
+    // Из какой таблицы брать слова (см. WordTable выше).
+
+    val categoryId: String?,
+    // ID категории для фильтрации. null = вся таблица без фильтра по категории.
+    // WORDS8R: ID из таблицы `categories` в Words8r DB (String PK, через word_category join).
+    // COURSE_WORDS / IRREGULAR_VERBS: ID из `course_categories` в Grammar8r DB (String PK).
+    // String а не Int — потому что оба источника используют текстовые стабильные ID
+    // (например "basic_verbs", "informal_english"), заданные в assets JSON.
+
+    val targetCount: Int
+    // Сколько слов взять из этого источника (случайная выборка).
+)
+
+// Расширяется при появлении новых источников
+enum class AiExerciseWordsSource(
+    val sources: List<WordSource>,
+    // Список источников. Клиент делает запрос к каждому и объединяет результат.
 
     val minWords: Int,
-    // Минимальное количество слов с qRep > 0 в нужной категории.
-    // Если меньше — упражнение недоступно, показываем подсказку.
+    // Минимальное суммарное количество подходящих слов по всем источникам.
+    // Если меньше — упражнение недоступно.
 
-    val targetWords: Int
-    // Сколько слов тянуть в промт к AI.
-    // Алгоритм набирает случайную выборку до этого числа.
+    val displayName: String
+    // Человекочитаемое название — показывается в подсказке если упражнение заблокировано.
 ) {
     NONE(
-        categoryName = null,
-        displayName = "",
+        sources = emptyList(),
         minWords = 0,
-        targetWords = 0
+        displayName = ""
     ),
-    // Упражнение не использует слова из Words8r.
-    // Использовать для: AI-уточнение «Не совсем понял», режим «До/После».
+    // Упражнение не использует слова вообще.
+    // Использовать для: AI-уточнение «Не совсем понял».
 
     GENERAL(
-        categoryName = null,
-        displayName = "общий словарь",
+        sources = listOf(
+            WordSource("words8r", null, 70),
+            WordSource("course_words", null, 30)
+        ),
         minWords = 10,
-        targetWords = 100
+        displayName = "общий словарь"
     ),
-    // Общий алгоритм: случайная выборка из всего словаря пользователя (qRep > 0).
-    // Алгоритм подробно описан в grammar8r_plan.md → «Алгоритм выборки слов».
+    // Общий словарь: 70 слов из Words8r + 30 из course_words, без фильтра по категории.
     // Использовать для: большинство in-card упражнений и режимов Практики.
 
     INFORMAL_ENGLISH(
-        categoryName = "Informal English",
-        displayName = "Разговорный английский",
+        sources = listOf(
+            WordSource("words8r", "informal_english", 30)
+            // "informal_english" — ID категории в Words8r DB
+        ),
         minWords = 5,
-        targetWords = 30
+        displayName = "Разговорный английский"
     ),
     // Только слова из категории «Informal English» в Words8r.
-    // Эта категория заполняется после прохождения темы «Разговорный английский» в теории.
-    // Использовать для: упражнения микротем разговорного английского,
-    // режим «Разговорный» в Практике.
+    // Разблокируется после прохождения темы «Разговорный английский» в теории.
 
     VERB_FORMS(
-        categoryName = "Verb Forms",
-        displayName = "Формы глаголов",
+        sources = listOf(
+            WordSource("irregular_verbs", null, 50)
+        ),
         minWords = 10,
-        targetWords = 50
+        displayName = "Формы глаголов"
     )
-    // Только слова из категории «Verb Forms» в Words8r (неправильные глаголы V1/V2/V3).
-    // Эта категория заполняется после темы «Глаголы V1/V2/V3» в теории.
+    // Неправильные глаголы (v1/v2/v3) из Grammar8r DB.
+    // Разблокируются после темы «Глаголы V1/V2/V3» в теории.
     // Использовать для: режим «Заполни форму глагола» в Практике.
 }
 ```
 
 ---
 
-### `AiConfigProfile`
+### `AiConfigProfile` — только серверная концепция
 
-> Используется в: `AiExercise.aiConfigProfile`  
-> Влияет на: настройки вызова OpenAI на сервере  
-> Подробнее: phase4_server.md → настройки AI по профилям
+> ⚠️ Клиентского enum больше нет. Поле убрано из `AiExercise`.  
+> Хранится в: `ai_exercise_prompts.ai_config_profile` (VARCHAR)  
+> Подробнее: phase4_server.md → Хранилище промтов
 
-Клиент шлёт только имя профиля на сервер — сервер знает какие `maxTokens`, `temperature` и другие параметры применить. Если нужно подкрутить настройки AI — меняем только конфиг на сервере, приложение не трогаем.
+Профиль хранится на сервере в таблице `ai_exercise_prompts` рядом с промтом. Клиент его не шлёт и не знает — сервер сам определяет по `exercise_id` какие `maxTokens` и `temperature` применить.
 
-Число в названии HEAVY — ориентир на количество токенов выхода. Точные значения на сервере.  
-Не все профили используются сразу — часть зарезервирована на будущее.
+Число в названии HEAVY — ориентир на количество токенов выхода. Точные значения в серверном конфиге профилей.
 
-```kotlin
-// Расширяется при необходимости. Точные значения maxTokens и temperature — на сервере.
-enum class AiConfigProfile {
-
-    CLARIFICATION,
-    // AI-уточнение «Не совсем понял»: средний вход (текст карточки), очень короткий выход.
-    // Ответ: 2–4 предложения + 1 пример. Другой угол объяснения того же правила.
-
-    EXERCISE_LIGHT,
-    // Большинство in-card AI-упражнений: небольшой вход, короткий выход.
-    // Генерация 1–3 предложений задания + проверка ответа пользователя.
-
-    EVALUATION_ONLY,
-    // Только проверка ответа пользователя: малый вход, короткий JSON-фидбек.
-    // Использовать когда задание уже сгенерировано и нужно только оценить ответ.
-
-    EXERCISE_HEAVY_50,
-    // Короткая тяжёлая генерация.
-
-    EXERCISE_HEAVY_100,
-    // Средняя генерация.
-
-    EXERCISE_HEAVY_150,
-
-    EXERCISE_HEAVY_200,
-
-    EXERCISE_HEAVY_300,
-    // Длинные тексты: рассказы, абзацы с несколькими предложениями.
-    // Использовать для: режим «Перевод рассказа» (короткий/средний рассказ).
-
-    EXERCISE_HEAVY_500
-    // Очень жирная генерация. Запас на будущее.
-    // Использовать для: длинные рассказы, тяжёлые multi-step задания.
-}
-```
+Допустимые значения (строки в БД):
+- `CLARIFICATION` — уточнение «Не совсем понял»: короткий выход, 2–4 предложения
+- `EXERCISE_LIGHT` — большинство упражнений: короткая генерация + проверка ответа
+- `EVALUATION_ONLY` — только проверка ответа, без генерации задания
+- `EXERCISE_HEAVY_50` — короткая тяжёлая генерация
+- `EXERCISE_HEAVY_100` — средняя генерация
+- `EXERCISE_HEAVY_150`
+- `EXERCISE_HEAVY_200`
+- `EXERCISE_HEAVY_300` — длинные тексты: рассказы, абзацы
+- `EXERCISE_HEAVY_500` — очень длинная генерация, запас на будущее
 
 ---
 
@@ -205,23 +206,17 @@ data class AiExercise(
     // (до нажатия кнопки [Начать задание]).
     // Пример: «AI даст русское предложение — переведи его на английский»
 
-    val promptTemplate: String,
-    // Шаблон промта который уходит на сервер при нажатии [Начать задание].
-    // Может содержать плейсхолдеры: {{words}}, {{topics}}, {{theorySummary}}.
-    // Подробнее о структуре промта: grammar8r_plan.md → «Защита AI от манипуляций»
+    // promptTemplate убран — промты хранятся на сервере в таблице ai_exercise_prompts, ключ = id
+    // aiConfigProfile убран — тоже на сервере в ai_exercise_prompts, клиент его не шлёт
 
     val inputMode: AiExerciseInputMode,
     // Как пользователь вводит ответ. Определяет что рендерится в зоне ввода AI-экрана.
     // FREE_WRITE → обычный TextField снизу.
     // FILL_BLANKS → сервер парсит [___] из ответа AI и возвращает segments[].
 
-    val wordsSource: AiExerciseWordsSource,
+    val wordsSource: AiExerciseWordsSource
     // Откуда брать слова из Words8r для промта.
     // Проверяется ДО нажатия [Начать задание]: если minWords не выполнен → блокируем.
-
-    val aiConfigProfile: AiConfigProfile
-    // Какой профиль настроек AI использовать на сервере (maxTokens, temperature и др.).
-    // Клиент просто передаёт имя профиля — сервер применяет нужные параметры.
 )
 ```
 
@@ -454,71 +449,137 @@ data class DailyStats(
 
 ---
 
-### `KnownWord`
+### `course_categories`
 
-> Локальная копия слов пользователя из Words8r. Синкается при открытии приложения и вручную.  
-> Используется алгоритмом выборки слов для AI-упражнений.  
-> Источник: phase2a_words_read.md, grammar8r_plan.md → «Синхронизация с Words8r»
+> Таблица категорий слов курса Grammar8r. Только для `course_words` и `irregular_verbs`.  
+> Words8r `categories` — отдельная таблица в Words8r DB, сюда не дублируется.  
+> Загружается из assets при первом запуске (INSERT OR IGNORE).
 
 ```kotlin
-data class KnownWord(
+data class CourseCategory(
 
-    val word: String,
-    // PK. Слово в оригинальном регистре как в Words8r.
+    val id: String,
+    // PK. Уникальный идентификатор категории. Пример: "basic_verbs", "verb_forms"
 
-    val translation: String,
-    // Перевод слова.
+    val nameRus: String,
+    // Отображается пользователю в экране "Учить для Grammar8r".
+    // Пример: "Базовые глаголы", "Формы глаголов"
 
-    val transcription: String?,
-    // Транскрипция. Nullable — не у всех слов есть.
+    val source: String,
+    // Из какой таблицы слова этой категории: "course_words" или "irregular_verbs".
+    // Клиент использует это поле чтобы знать куда идти за словами.
 
-    val level: String?,
-    // Уровень сложности: "A1" / "A2" / "B1" / ... Nullable.
+    val isSelected: Boolean,
+    // true = категория активна в сессии "Учить для Grammar8r".
+    // Пользователь может включать/выключать галочкой.
 
-    val qRep: Int,
-    // Количество повторений в Words8r. Ключевой параметр алгоритма выборки:
-    // qRep = 0 → слово не изучалось → не включать в AI-промт.
-    // qRep 1–8 → новое слово. qRep 9+ → хорошо изученное.
-
-    val category: String?,
-    // Категория слова в Words8r ("Informal English", "Verb Forms", "Grammar Basics" и др.).
-    // Используется фильтрацией AiExerciseWordsSource.
-
-    val syncedAt: Long
-    // Unix timestamp последней синхронизации с Words8r.
+    val isPriority: Boolean
+    // ПРИОРИТЕТ УРОВНЯ КАТЕГОРИИ — вся категория идёт первой в сессии "Учить для Grammar8r".
+    // Выставляется когда нужно срочно выучить целый раздел (например, "Базовые глаголы" перед Present Simple).
+    // ⚠️ КРИТИЧНО: при смене — сначала UPDATE SET isPriority = false для ВСЕХ категорий,
+    // затем isPriority = true только для нужной. Одновременно активна только одна.
+    // Отличие от CourseWord.isPriority: здесь приоритет на уровне всей категории,
+    // там — на уровне конкретных слов внутри категории.
 )
 ```
 
 ---
 
-### `KnownIrregularVerb`
+### `course_words`
 
-> Локальная копия неправильных глаголов из Words8r (категория "Verb Forms").  
-> Хранит все три формы — AI получает их в промте ("go / went / gone").  
-> ⚠️ Words8r пока не хранит три формы — поддержка V1/V2/V3 появится в обновлении Words8r.  
-> До обновления Words8r эта таблица не заполняется.  
-> Источник: phase2a_words_read.md, grammar8r_plan.md → «Алгоритм выборки слов», words8r_plan.md → «Режим изучения форм глаголов»
+> Слова курса Grammar8r — одиночные слова с переводом.  
+> Загружаются из assets при первом запуске (INSERT OR IGNORE).  
+> Разблокируются по ходу прохождения теории (завершение микротемы → BottomSheet).
 
 ```kotlin
-data class KnownIrregularVerb(
+data class CourseWord(
 
-    val v1: String,
-    // PK. Базовая форма глагола. Пример: "go"
+    val id: Int = 0,
+    // PK, autoGenerate.
 
-    val v2: String,
-    // Past Simple форма. Пример: "went"
-
-    val v3: String,
-    // Past Participle форма. Пример: "gone"
+    val word: String,
+    // Английское слово. Пример: "go", "beautiful", "however"
 
     val translation: String,
-    // Перевод глагола.
+    // Перевод. Один или несколько через запятую. Пример: "идти", "красивый, прекрасный"
 
-    val qRep: Int,
-    // Количество повторений в Words8r. qRep = 0 → не включать в AI-промт.
+    val microtopicId: String,
+    // FK → GrammarMicrotopic.id. К какой микротеме относится слово.
+    // Используется при завершении микротемы: SELECT * FROM course_words WHERE microtopicId = X
+    // → показываем BottomSheet с чекбоксами для этих слов.
 
-    val syncedAt: Long
-    // Unix timestamp последней синхронизации.
+    val categoryId: String,
+    // FK → course_categories.id. К какой категории относится слово.
+    // Используется для фильтрации в AiExerciseWordsSource и сессии "Учить для Grammar8r".
+
+    val isUnlocked: Boolean,
+    // false = слово ещё не показывалось пользователю (микротема не пройдена).
+    // true = пользователь прошёл BottomSheet этой микротемы.
+    // Только unlocked слова участвуют в AI-промтах и сессиях повторения.
+
+    val isHidden: Boolean,
+    // true = пользователь снял галочку в BottomSheet ("уже знаю это слово").
+    // Такие слова пропускаются в сессиях повторения, но включаются в AI-промт.
+
+    val isPriority: Boolean,
+    // ПРИОРИТЕТ УРОВНЯ СЛОВА — конкретное слово идёт первым внутри своей категории.
+    // Выставляется Grammar8r автоматически при входе в тему (например, ключевые глаголы
+    // перед конкретным временем). Пользователь может менять вручную в словаре.
+    // Отличие от course_categories.isPriority: здесь приоритет на уровне отдельного слова,
+    // там — на уровне всей категории.
+    // ⚠️ При автовыставлении перед темой: сбрасывать предыдущие isPriority = false
+    // для слов той же категории, затем ставить на нужные.
+
+    val qRep: Int
+    // Количество повторений в сессии "Учить для Grammar8r". +1 за каждую сессию.
+    // Фильтр для AI-промта: isUnlocked = true AND (isHidden = true OR qRep > 0)
+)
+```
+
+---
+
+### `irregular_verbs`
+
+> Неправильные глаголы курса Grammar8r — три формы + перевод.  
+> Загружаются из assets при первом запуске (INSERT OR IGNORE).  
+> Структура отличается от course_words — отдельная таблица для корректной механики повторений (проверка всех трёх форм).
+
+```kotlin
+data class IrregularVerb(
+
+    val id: Int = 0,
+    // PK, autoGenerate.
+
+    val v1: String,
+    // Базовая форма. Пример: "go"
+
+    val v2: String,
+    // Past Simple. Пример: "went"
+
+    val v3: String,
+    // Past Participle. Пример: "gone"
+
+    val translation: String,
+    // Перевод глагола. Пример: "идти, ходить"
+
+    val microtopicId: String,
+    // FK → GrammarMicrotopic.id. Для разблокировки через BottomSheet.
+
+    val categoryId: String,
+    // FK → course_categories.id (source = "irregular_verbs").
+
+    val isUnlocked: Boolean,
+    // Аналогично course_words.isUnlocked.
+
+    val isHidden: Boolean,
+    // Аналогично course_words.isHidden.
+
+    val isPriority: Boolean,
+    // Аналогично course_words.isPriority — приоритет уровня слова.
+
+    val qRep: Int
+    // Количество повторений. Фильтр для AI-промта: тот же что в course_words.
+    // В AI-промт глагол идёт в формате "go / went / gone".
 )
 ```
 
@@ -557,15 +618,154 @@ data class DictionaryCache(
 
 ---
 
-## Таблицы с незафиксированной схемой
+## Таблицы теории
 
-Существуют в плане, схема будет добавляться по мере проектирования:
+Контент загружается из assets JSON при первом запуске (INSERT OR IGNORE).  
+Дерево навигации: **Тема → Микротема → Карточка**.  
+Все ID — глобальные целые числа, сквозные по всем файлам контента.
+
+---
+
+### `GrammarTopic`
+
+> Верхний уровень дерева. Пользователь видит список тем на вкладке Теория.  
+> Загружается из assets. Связан с: `GrammarMicrotopic`
+
+```kotlin
+data class GrammarTopic(
+
+    val id: Int,
+    // PK. Глобально уникальный ID темы. Пример: 1 = "Основы", 2 = "Present Simple"
+
+    val title: String,
+    // Название темы. Показывается в списке тем.
+    // Пример: "Основы", "Present Simple", "Past Simple"
+
+    val order: Int,
+    // Порядок в списке тем. Меньше = выше. "Основы" всегда первая (order = 1).
+
+    val isPretopic: Boolean,
+    // true только для предтемы "Основы".
+    // Предтема открыта для всех тиров без лимита микротем в день.
+
+    val description: String?
+    // Краткое описание темы. Показывается под названием в списке. (пока-что сомнительно, что показывается под названием темы, там уже решим как лучше)
+    // Пример: "Личные местоимения, глагол to be, артикли, предлоги — фундамент"
+)
+```
+
+---
+
+### `GrammarMicrotopic`
+
+> Второй уровень дерева. Раскрывается внутри темы.  
+> Загружается из assets. Связан с: `GrammarTopic`, `GrammarCard`, `UserMicrotopicProgress`
+
+```kotlin
+data class GrammarMicrotopic(
+
+    val id: Int,
+    // PK. Глобально уникальный ID микротемы. Сквозной по всем темам.
+
+    val topicId: Int,
+    // FK → GrammarTopic.id. К какой теме относится микротема.
+
+    val title: String,
+    // Название микротемы. Показывается внутри темы.
+    // Пример: "Личные местоимения", "Глагол to be"
+
+    val order: Int
+    // Порядок внутри темы. Определяет последовательность прохождения.
+)
+```
+
+---
+
+### `GrammarCard`
+
+> Третий уровень дерева — сама карточка с теорией и упражнениями.  
+> Загружается из assets. Связан с: `GrammarMicrotopic`, `CardExerciseIndex`, `AiExercise`, `UserCardProgress`
+
+```kotlin
+data class GrammarCard(
+
+    val id: Int,
+    // PK. Глобально уникальный ID карточки. Сквозной по всем темам и микротемам.
+
+    val microtopicId: Int,
+    // FK → GrammarMicrotopic.id. К какой микротеме относится карточка.
+
+    val title: String,
+    // Название карточки. Показывается в заголовке при листании.
+    // Пример: "I, you, he, she, it, we, they"
+
+    val order: Int,
+    // Порядок внутри микротемы. Определяет последовательность листания карточек.
+
+    val theory: String,
+    // Основной текст теории. Может содержать markdown-таблицы и форматирование.
+    // Показывается пользователю на карточке.
+
+    val theorySummary: String,
+    // Краткое резюме правила — 2–3 предложения. Показывается по кнопке "?".
+    // Также передаётся в AI-промт как cardTheory при генерации упражнений.
+
+    val examples: String,
+    // JSON: список пар RU → EN. Минимум 3 пары.
+    // Пример: [{"ru":"Я еду на работу.","en":"I am going to work."}]
+
+    val clarificationOptions: String
+    // JSON: список готовых вопросов для кнопки "Не совсем понял". 2–3 варианта.
+    // Пример: ["Разница между a и an","Когда артикль не нужен совсем"]
+)
+```
+
+---
+
+### `UserMicrotopicProgress`
+
+> Прогресс пользователя по микротеме.  
+> Создаётся при первом открытии карточки внутри микротемы (lazy).  
+> Связан с: `GrammarMicrotopic`  
+> Подробнее: CLAUDE.md → «Повторное прохождение в теории»
+
+```kotlin
+data class UserMicrotopicProgress(
+
+    val microtopicId: Int,
+    // PK, FK → GrammarMicrotopic.id.
+
+    val isCompleted: Boolean
+    // true = все карточки микротемы пройдены.
+    // Зелёный сегмент прогресса в списке микротем. НЕ сбрасывается при повторном прохождении.
+)
+```
+
+---
+
+### `UserCardProgress`
+
+> Прогресс пользователя по карточке.  
+> Создаётся при первом открытии карточки (lazy).  
+> Связан с: `GrammarCard`
+
+```kotlin
+data class UserCardProgress(
+
+    val cardId: Int,
+    // PK, FK → GrammarCard.id.
+
+    val isCompleted: Boolean
+    // true = пользователь долистал до конца карточки (прошёл все упражнения).
+    // Используется для подсчёта прогресса внутри микротемы.
+    // Сброс при повторном прохождении: UPDATE SET isCompleted = false.
+)
+```
+
+---
+
+## Таблицы с незафиксированной схемой
 
 | Таблица | Назначение | Где описана |
 |---------|-----------|-------------|
-| `GrammarTopic` | Темы теории из assets | grammar8r_plan.md → «Раздел Теория» |
-| `GrammarMicrotopic` | Микротемы теории из assets | grammar8r_plan.md → «Раздел Теория» |
-| `GrammarCard` | Карточки с теорией, theorySummary, clarificationOptions | grammar8r_plan.md → «Структура карточки» |
-| `UserMicrotopicProgress` | isCompleted по микротеме | grammar8r_plan.md → «Повторное прохождение» |
-| `UserCardProgress` | isCompleted по карточке | grammar8r_plan.md → «Прогресс» |
 | `AiRequestCounter` | Счётчик AI-запросов для дневного лимита | subscription.md |

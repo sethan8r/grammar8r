@@ -182,6 +182,7 @@ RU: Они живут в Москве.
 
 #### AI Exercise
 
+**ID:** basics_card1_ex1
 **Title:** "Вставь местоимение"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -378,6 +379,7 @@ RU: Она — моя сестра.
 
 #### AI Exercise
 
+**ID:** basics_card2_ex1
 **Title:** "Переведи предложение с to be"
 **Input Mode:** FREE_WRITE
 **Words Source:** NONE
@@ -520,6 +522,7 @@ B: ___
 
 #### AI Exercise
 
+**ID:** basics_card3_ex1
 **Title:** "Сделай отрицание с to be"
 **Input Mode:** FREE_WRITE
 **Words Source:** NONE
@@ -666,6 +669,7 @@ B: "Yes, they are. They're having dinner."
 
 #### AI Exercise
 
+**ID:** basics_card4_ex1
 **Title:** "Составь вопрос с to be"
 **Input Mode:** FREE_WRITE
 **Words Source:** NONE
@@ -825,6 +829,7 @@ RU: На диване два кота.
 
 #### AI Exercise
 
+**ID:** basics_card5_ex1
 **Title:** "There is или There are?"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -976,6 +981,7 @@ B: ___
 
 #### AI Exercise
 
+**ID:** basics_card6_ex1
 **Title:** "Отрицание и вопрос: There is/are"
 **Input Mode:** FREE_WRITE
 **Words Source:** NONE
@@ -1166,6 +1172,7 @@ RU: У него есть синяя машина.
 
 #### AI Exercise
 
+**ID:** basics_card7_ex1
 **Title:** "Составь предложение с have/has"
 **Input Mode:** FREE_WRITE
 **Words Source:** NONE
@@ -1321,6 +1328,7 @@ RU: У неё нет домашних животных.
 
 #### AI Exercise
 
+**ID:** basics_card8_ex1
 **Title:** "Сделай отрицание с have/has"
 **Input Mode:** FREE_WRITE
 **Words Source:** NONE
@@ -1474,6 +1482,7 @@ B: "Yes, I do. What's up?"
 
 #### AI Exercise
 
+**ID:** basics_card9_ex1
 **Title:** "Составь вопрос: Do/Does have?"
 **Input Mode:** FREE_WRITE
 **Words Source:** NONE
@@ -1661,6 +1670,7 @@ RU: У него есть новый телефон.
 
 #### AI Exercise
 
+**ID:** basics_card10_ex1
 **Title:** "a, an или прочерк?"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -1860,6 +1870,7 @@ RU: Это европейский город.
 
 #### AI Exercise
 
+**ID:** basics_card11_ex1
 **Title:** "a или an перед прилагательным?"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -2031,6 +2042,7 @@ RU: Закрой, пожалуйста, дверь.
 
 #### AI Exercise
 
+**ID:** basics_card12_ex1
 **Title:** "Вставь все артикли"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -2213,6 +2225,7 @@ RU: Их кошка спит на диване.
 
 #### AI Exercise
 
+**ID:** basics_card13_ex1
 **Title:** "Вставь притяжательное местоимение"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -2346,6 +2359,7 @@ RU: Чья это сумка? Моя.
 
 #### AI Exercise
 
+**ID:** basics_card14_ex1
 **Title:** "Мой или mine? Самостоятельные формы"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -2504,6 +2518,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 #### AI Exercise
 
+**ID:** basics_card19_ex1
 **Title:** "Притяжательный 's: чьё это?"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -2726,6 +2741,7 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 #### AI Exercise
 
+**ID:** basics_card20_ex1
 **Title:** "Субъект, объект или притяжательное?"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -2868,6 +2884,7 @@ this = этот/эта/это (рядом), that = тот/та/то (далек�
 
 #### AI Exercise
 
+**ID:** basics_card15_ex1
 **Title:** "This или that? Близко или далеко?"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -2999,6 +3016,7 @@ these = эти (рядом, несколько), those = те (далеко, н�
 
 #### AI Exercise
 
+**ID:** basics_card16_ex1
 **Title:** "These или those? Во множественном числе"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -3190,6 +3208,7 @@ What — что/какой, where — где/куда, when — когда, who 
 
 #### AI Exercise
 
+**ID:** basics_card17_ex1
 **Title:** "Вставь вопросительное слово"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -3336,6 +3355,7 @@ how old — возраст, how many — счётные предметы, how mu
 
 #### AI Exercise
 
+**ID:** basics_card18_ex1
 **Title:** "How much, how many или how long?"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -3384,9 +3404,9 @@ how old — возраст, how many — счётные предметы, how mu
 
 ---
 
-### Card 20 · in / on / at — главная тройка
+### Card 27 · in / on / at — главная тройка
 
-**ID:** 20 | **Order:** 1
+**ID:** 27 | **Order:** 1
 
 #### Theory
 
@@ -3551,6 +3571,7 @@ in = внутри замкнутого пространства (комната,
 
 #### AI Exercise
 
+**ID:** basics_card27_ex1
 **Title:** "Вставь in, on или at"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -3749,6 +3770,7 @@ under = под (физически ниже). near = рядом (в общем �
 
 #### AI Exercise
 
+**ID:** basics_card21_ex1
 **Title:** "Опиши где что находится"
 **Input Mode:** FREE_WRITE
 **Words Source:** NONE
@@ -3921,6 +3943,7 @@ nearby = наречие/прилагательное (без существит�
 
 #### AI Exercise
 
+**ID:** basics_card26_ex1
 **Title:** "near, nearby или by?"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -4137,6 +4160,7 @@ at = точное время на часах и ночь. on = конкретн�
 
 #### AI Exercise
 
+**ID:** basics_card22_ex1
 **Title:** "Вставь at, on или in — время"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -4261,6 +4285,7 @@ yesterday / today / tomorrow / last... / next... / this... / every... — без
 
 #### AI Exercise
 
+**ID:** basics_card23_ex1
 **Title:** "Нужен ли предлог?"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -4434,6 +4459,7 @@ to = движение к цели (go to work, fly to Paris). from = источ�
 
 #### AI Exercise
 
+**ID:** basics_card24_ex1
 **Title:** "to или from — куда и откуда"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -4623,6 +4649,7 @@ into = движение внутрь (She walked into the room). out of = дви
 
 #### AI Exercise
 
+**ID:** basics_card25_ex1
 **Title:** "into или out of — вход и выход"
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
@@ -4659,7 +4686,7 @@ into = движение внутрь (She walked into the room). out of = дви
 | Тип | Последний использованный ID | Следующий блок начинает с |
 |-----|-----------------------------|--------------------------|
 | Microtopic | 12 | 13 |
-| Card | 26 | 27 |
+| Card | 27 | 28 |
 | Example | 166 | 167 |
 | Exercise | 152 | 153 |
 
@@ -4685,7 +4712,7 @@ into = движение внутрь (She walked into the room). out of = дви
 | ReverseChoice | 7 | 8 |
 | ConstructionMeaning | 1 | 2 |
 | DialogRestore | 4 | 5 |
-| AiExercise | 26 | 27 |
+| AiExercise | 27 | 28 |
 | Microtopic | 12 | 13 |
-| Card | 26 | 27 |
+| Card | 27 | 28 |
 | Example | 166 | 167 |

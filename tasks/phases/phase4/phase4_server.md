@@ -22,20 +22,35 @@
 ```
 POST /auth/register
   Body: { email, password }
-  → { uid, jwt }
-  Логика: проверить email уникальность, bcrypt пароль, создать uid, выдать JWT
+  → { uid, accessToken, refreshToken }
+  Логика: проверить email уникальность, bcrypt пароль, создать uid, выдать оба токена
 
 POST /auth/login
   Body: { email, password }
-  → { uid, jwt }
-  Логика: найти по email, проверить bcrypt, выдать JWT
+  → { uid, accessToken, refreshToken }
+  Логика: найти по email, проверить bcrypt, выдать оба токена
 
 POST /auth/yandex
   Body: { yandexToken }
-  → { uid, jwt }
+  → { uid, accessToken, refreshToken }
   Логика: верифицировать токен у Яндекса, получить yandex_uid,
-          найти или создать пользователя, выдать JWT
+          найти или создать пользователя, выдать оба токена
+
+POST /auth/refresh
+  Body: { refreshToken }
+  → { accessToken, refreshToken }
+  Логика: проверить refreshToken в БД → если валиден:
+          1. Прочитать актуальный tier из таблицы subscriptions
+          2. Выдать новый accessToken (с актуальным tier внутри)
+          3. Выдать новый refreshToken (ротация — старый инвалидируется)
+          Если невалиден → 401
 ```
+
+**Access token** — живёт **1 час**. Содержит: `{ uid, tier, exp }`. Сервер верифицирует подпись без запроса к БД — tier читается прямо из токена.
+
+**Refresh token** — живёт **30 дней**. Хранится в таблице `refresh_tokens` в БД. Используется только для получения нового access token. При каждом /auth/refresh — ротация: старый удаляется, выдаётся новый.
+
+**Итог:** tier актуален с погрешностью до 1 часа (время жизни access token). Это приемлемо — при покупке подписки клиент сразу вызывает /auth/refresh чтобы получить токен с новым tier.
 
 ### Подписка
 
@@ -61,12 +76,25 @@ POST /webhook/yookassa
 ### AI-прокси
 
 ```
-POST /ai/exercise
+POST /ai/exercise/generate
   Headers: Authorization: Bearer <jwt>
          | X-Device-Id: <deviceId>   ← если не залогинен, tier = Free принудительно
-  Body: { cardId, userAnswer, exerciseType, cardTheory? }
-  → { score, correctedAnswer, feedback, aiRequestsToday, aiDailyLimit }
-  | { error: "limit_exceeded" | "ai_error" }
+  Body: { exerciseId, words[], cardTheory? }
+  ← exerciseId = AiExercise.id — сервер находит промт в ai_exercise_prompts
+  ← words[] — клиент собирает сам по WordSource из wordsSource упражнения
+  ← cardTheory — theorySummary карточки, подставляется в {{theorySummary}}
+  → { taskText }              ← сгенерированное задание, клиент показывает пользователю
+  | { error: "limit_exceeded" | "ai_error" | "prompt_not_found" }
+  ⚠️ Лимит daily_ai_requests списывается здесь — на генерации, не на проверке.
+
+POST /ai/exercise/evaluate
+  Headers: Authorization: Bearer <jwt> | X-Device-Id: <deviceId>
+  Body: { exerciseId, taskText, userAnswer }
+  ← taskText — то что вернул /generate, клиент хранил в ViewModel
+  ← userAnswer — ответ пользователя
+  → { score, correctedAnswer, feedback }
+  | { error: "ai_error" }
+  ⚠️ Лимит НЕ списывается. Стрик обновляется здесь (пользователь реально выполнил задание).
 
 POST /ai/clarification
   Headers: Authorization: Bearer <jwt> | X-Device-Id: <deviceId>
@@ -220,57 +248,125 @@ POST /announcements/{id}/seen        → записать shown_at = now для 
 
 ---
 
-## Поток AI-запроса (POST /ai/exercise)
+## Хранилище промтов (server-side)
+
+Промты AI-упражнений не хранятся в клиенте — только на сервере. Ключ = `AiExercise.id` клиента.
+
+### Таблица `ai_exercise_prompts`
+
+```sql
+CREATE TABLE ai_exercise_prompts (
+    exercise_id       VARCHAR(100) PRIMARY KEY,
+    -- Связующий ключ = AiExercise.id клиента ("present_simple_card2_ex1").
+    -- По нему сервер находит всё остальное при запросе POST /ai/exercise.
+
+    system_prompt     TEXT        NOT NULL,
+    -- Системный промт: правила для AI — как себя вести, как оценивать,
+    -- в каком JSON-формате отвечать. У каждого упражнения свой.
+    -- Пример: "Ты преподаватель английского. Оценивай строго.
+    --          Отвечай в JSON: {score, correctedAnswer, feedback}"
+
+    user_prompt       TEXT        NOT NULL,
+    -- Шаблон задания. Сервер подставляет плейсхолдеры перед отправкой в OpenAI:
+    --   {{theorySummary}} ← cardTheory из тела запроса (прислало приложение)
+    --   {{words}}         ← слова пользователя из тела запроса (клиент собирает сам по WordSource)
+    -- Приложение не собирает промт — только присылает сырые данные.
+    -- Пример: "Правило: {{theorySummary}}. Слова: {{words}}.
+    --          Дай русское предложение для перевода в Present Simple."
+
+    ai_config_profile VARCHAR(50) NOT NULL
+    -- Профиль настроек AI: имя из AiConfigProfile enum ("EXERCISE_LIGHT", "EXERCISE_HEAVY_300" и т.д.).
+    -- Сервер смотрит на это поле и применяет нужные maxTokens и temperature из конфига профилей.
+    -- Клиент это поле не шлёт — сервер сам знает по exercise_id.
+);
+```
+
+Обновление промта — один `UPDATE` в БД, без релиза приложения.
+
+---
+
+## Поток AI-запроса
+
+### POST /ai/exercise/generate
 
 ```
 1. Парсинг авторизации:
-   - Есть JWT → верифицировать подпись (без DB) → uid из токена
-   - Нет JWT → X-Device-Id → uid = deviceId, tier = Free принудительно
+   - Есть accessToken → верифицировать подпись (без DB) → читаем uid и tier прямо из токена
+   - Нет accessToken → X-Device-Id → uid = deviceId, tier = "free" принудительно
 
-1.5. Проверка бана:
+1.5. Проверка бана (единственный запрос к БД на этом шаге):
    - users[uid].ban_status == "ban" → вернуть 403 { error: "account_banned" }
-   - users[uid].ban_status == "suspend" → tier = Free принудительно (продолжаем)
+   - users[uid].ban_status == "suspend" → tier = "free" принудительно (продолжаем)
    - Обновить user_devices: сохранить device_id + uid + last_seen
    - Если уникальных device_id для uid > 3 → users[uid].multi_device = true
 
-2. Получить подписку из БД:
-   - subscriptions[uid] → { tier, expires }
-   - Если expires < now → tier = Free
+2. Если tier = "admin" → пропустить шаги 3–4 полностью, перейти к шагу 5.
 
-3. Определить лимит по тиру:
-   - Free: 3/день
-   - Tier1: 30/день + streak_bonus_requests
-   - Tier2: 50/день + streak_bonus_requests
+3. Определить лимит по тиру (из токена, без запроса к БД):
+   - free: 3/день
+   - tier1: 30/день + streak_bonus_requests
+   - tier2: 50/день + streak_bonus_requests
 
 4. Проверить + инкрементировать лимит (АТОМАРНО, один SQL):
    - daily_ai_requests[uid, date_msk]
    - Если count >= limit → вернуть 429 { error: "limit_exceeded" }
    - Иначе → count++
 
-5. Санитизация входа:
-   - userAnswer: обрезать до 500 символов, убрать управляющие символы
+5. Найти промт в ai_exercise_prompts по exerciseId:
+   - Не найден → { error: "prompt_not_found" }
+   - Подставить {{words}} из тела запроса и {{theorySummary}} из cardTheory
 
-6. Сформировать промт:
-   - System: инструкции + теория карточки (для clarification)
-   - User: USER_ANSWER: { userAnswer }
-   - response_format: Structured Outputs strict: true
-   - temperature: 0 (для упражнений) / 0.3 (для уточнений)
-   - max_tokens: 200 (упражнение) / 150 (уточнение)
+6. Сформировать запрос к OpenAI:
+   - System: system_prompt из таблицы
+   - User: user_prompt с подставленными плейсхолдерами
+   - temperature и max_tokens берутся из ai_config_profile записи в таблице
+   - response_format: plain text (задание для пользователя)
 
 7. POST → OpenAI API (ключ только на сервере, никогда в APK)
 
 8. Валидация ответа:
+   - Непустая строка ≤ 2000 символов
+   - Если невалидно → { error: "ai_error" }
+
+9. Вернуть клиенту:
+   { taskText, aiRequestsToday, aiDailyLimit }
+```
+
+### POST /ai/exercise/evaluate
+
+```
+1. Парсинг авторизации + проверка бана (те же шаги 1–1.5 что выше)
+
+2. Санитизация входа:
+   - userAnswer: обрезать до 500 символов, убрать управляющие символы
+   - taskText: обрезать до 2000 символов, убрать управляющие символы
+
+3. Найти промт в ai_exercise_prompts по exerciseId:
+   - Не найден → { error: "prompt_not_found" }
+
+4. Сформировать оценочный запрос к OpenAI:
+   - System: системный промт оценки (из ai_exercise_prompts или общий оценочный)
+   - User:
+       ЗАДАНИЕ: { taskText }
+       ОТВЕТ ПОЛЬЗОВАТЕЛЯ: { userAnswer }
+   - Метки ЗАДАНИЕ/ОТВЕТ ПОЛЬЗОВАТЕЛЯ защищают от prompt injection
+   - response_format: Structured Outputs strict: true
+     { score: Int 0–100, correctedAnswer: String, feedback: String }
+
+5. POST → OpenAI API
+
+6. Валидация ответа:
    - score: Int 0–100
-   - correctedAnswer: непустая строка, ≤ 500 символов
-   - feedback: непустая строка, ≤ 500 символов
-   - Если невалидно → { error: "ai_error" }, не отдавать сырой ответ клиенту
+   - correctedAnswer: непустая строка ≤ 500 символов
+   - feedback: непустая строка ≤ 500 символов
+   - Если невалидно → { error: "ai_error" }
 
-9. Обновить стрик — вызвать streak_logic(uid):
-   - Та же функция что используется в POST /streak/activity
-   - Результат стрика в ответ /ai/exercise НЕ включается — клиент получает его отдельно через параллельный POST /streak/activity
+7. Обновить стрик — вызвать streak_logic(uid):
+   - Та же функция что в POST /streak/activity
+   - Результат НЕ включается в ответ — клиент получает его отдельно через параллельный POST /streak/activity
 
-10. Вернуть клиенту:
-    { score, correctedAnswer, feedback, aiRequestsToday, aiDailyLimit }
+8. Вернуть клиенту:
+   { score, correctedAnswer, feedback }
 ```
 
 ---
@@ -315,10 +411,19 @@ POST /announcements/{id}/seen        → записать shown_at = now для 
 | Поле | Тип | Описание |
 |------|-----|----------|
 | uid | UUID PK FK | |
-| tier | Enum | free / tier1 / tier2 |
+| tier | Enum | free / tier1 / tier2 / admin |
 | expires | Timestamp? | Null = бессрочно (ручная выдача через панель) |
 | purchased_at | Timestamp? | Когда куплена (null для ручной выдачи) |
 | updated_at | Timestamp | |
+
+### refresh_tokens
+| Поле | Тип | Описание |
+|------|-----|----------|
+| token | String PK | Сам refresh token (случайный UUID или подписанная строка) |
+| uid | UUID FK | Какому пользователю принадлежит |
+| expires_at | Timestamp | Когда истекает (30 дней с момента выдачи) |
+| created_at | Timestamp | |
+Логика: при /auth/refresh — старый токен удаляется, выдаётся новый (ротация). Истёкшие токены можно чистить по крону.
 
 ### daily_ai_requests
 | Поле | Тип | Описание |
@@ -348,7 +453,8 @@ POST /announcements/{id}/seen        → записать shown_at = now для 
 | freeze_month | String | "2026-04" — для сброса заморозок |
 
 ### jwt_secrets
-Один секрет для подписи JWT, хранится в env переменной, не в БД.
+Секрет для подписи access token хранится в env переменной (`JWT_SECRET`), не в БД.
+Refresh token — случайный UUID, подпись не нужна, валидность проверяется по наличию в таблице `refresh_tokens`.
 
 ### fcm_tokens
 | Поле | Тип | Описание |
@@ -509,8 +615,9 @@ ADMIN_PASSWORD=...         # пароль веб-панели администр
 
 - [ ] **S1** Ktor проект, Docker, деплой на Hetzner
 - [ ] **S2** PostgreSQL подключение, схема БД (миграции через Flyway или Exposed)
-- [ ] **S3** POST /auth/register + /auth/login (email+пароль, bcrypt, JWT)
-- [ ] **S4** POST /auth/yandex (верификация Яндекс-токена)
+- [ ] **S3** POST /auth/register + /auth/login (email+пароль, bcrypt, accessToken + refreshToken)
+- [ ] **S3a** POST /auth/refresh (ротация refresh token, актуальный tier из БД в новый accessToken)
+- [ ] **S4** POST /auth/yandex (верификация Яндекс-токена, те же два токена на выходе)
 - [ ] **S5** GET /subscription — возвращает тир, лимиты, стрик
 - [ ] **S6** POST /ai/exercise — полный поток: лимит → OpenAI → валидация → стрик
 - [ ] **S7** POST /ai/clarification — уточнение по карточке

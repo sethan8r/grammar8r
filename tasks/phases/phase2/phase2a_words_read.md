@@ -1,8 +1,10 @@
 # Фаза 2 — Слова из Words8r
 
-> Всё о получении и использовании слов из Words8r в Grammar8r.
-> Отправка слов обратно в Words8r — в [Фазе 5](../development_plan.md#фаза-5).
-> Общий контекст — в [grammar8r_plan.md → Синхронизация](../../grammar8r_plan.md) и [words8r_plan.md](../../words8r_plan.md).
+> ⚠️ **УСТАРЕЛО.** Этот файл описывал ContentProvider-синхронизацию между двумя отдельными приложениями.
+> После объединения Words8r и Grammar8r в одно приложение ContentProvider не нужен.
+> Слова берутся напрямую из трёх таблиц: `words` (Words8r DB), `course_words`, `irregular_verbs` (Grammar8r DB).
+> Актуальная схема: `db_schema.md → AiExerciseWordsSource`, `grammar8r_plan.md → Алгоритм выборки слов`.
+> Таблицы `KnownWord` и `KnownIrregularVerb` упразднены.
 
 ---
 
