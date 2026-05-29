@@ -4677,6 +4677,277 @@ into = движение внутрь (She walked into the room). out of = дви
 | out of | из, наружу из (движение наружу) | [aʊt əv] |
 
 ---
+
+### Card 28 · over, across, along, past, through — движение через, вдоль и мимо
+
+**ID:** 28 | **Order:** 3
+
+#### Theory
+
+Пять предлогов движения — все переводятся как "через", "по" или "мимо", но каждый рисует свой маршрут. Разобрать их раз и запомнить навсегда.
+
+---
+
+**`over` — поверх препятствия**
+
+`over` = маршрут идёт поверх чего-то: вверх, через верхнюю точку, вниз. Само слово не говорит что именно делаешь — это говорит глагол.
+
+- "He climbed **over** the wall." — *Он перелез через стену.* (глагол climb = лезть, over = маршрут поверху)
+- "She jumped **over** the puddle." — *Она перепрыгнула через лужу.*
+- "They walked **over** a small hill." — *Они перешли через холм.* (вверх и вниз с другой стороны)
+- "We drove **over** the bridge." — *Мы переехали по мосту.*
+
+**`over` vs `above` — движение против статики:**
+
+| | Пример | Смысл |
+|---|---|---|
+| `above` | The lamp is **above** the table. | Статика — лампа просто висит выше стола, никуда не движется |
+| `over` | She jumped **over** the fence. | Движение — перепрыгнула через забор поверху |
+
+`above` = просто выше. `over` = движение поверх.
+
+---
+
+**`across` — по поверхности с одного края на другой**
+
+`across` = пересечь что-то вширину, двигаясь по поверхности. Ты не лезешь поверх и не идёшь насквозь — ты пересекаешь горизонтально.
+
+- "She swam **across** the river." — *Она переплыла реку.* (с берега на берег по поверхности воды)
+- "Walk **across** the road carefully." — *Переходи дорогу осторожно.*
+- "He ran **across** the field." — *Он пробежал через поле.*
+- "They sailed **across** the ocean." — *Они переплыли океан.*
+
+**`across` vs `over` — главная путаница:**
+
+Оба могут переводиться "через мост" — но смысл разный:
+
+| | Пример | Акцент |
+|---|---|---|
+| `over` | walk **over** the bridge | мост как препятствие, маршрут идёт поверху |
+| `across` | walk **across** the bridge | мост как поверхность, идёшь с одного конца на другой |
+
+На практике для моста оба варианта звучат нормально. Но для реки:
+- "swim **across** the river" ✓ — плыть по поверхности с берега на берег
+- "swim **over** the river" ✗ — нельзя плыть поверх реки
+
+Ключ: `over` требует чтобы маршрут шёл выше препятствия. `across` — горизонтальное пересечение по поверхности.
+
+---
+
+**`along` — вдоль, параллельно**
+
+`along` — полная противоположность `across`. Вместо того чтобы пересекать — движешься параллельно чему-то.
+
+- "We walked **along** the river." — *Мы шли вдоль реки.* (не через реку, а рядом с ней)
+- "She drove **along** the coast." — *Она ехала вдоль побережья.*
+- "Just go **along** this street and you'll see it." — *Иди по этой улице и увидишь.*
+- "He jogged **along** the path." — *Он бежал трусцой по дорожке.*
+
+**`along` vs `across` на примере реки:**
+
+| | Пример | Куда движешься |
+|---|---|---|
+| `across` | swim **across** the river | поперёк реки — с берега на берег |
+| `along` | walk **along** the river | вдоль берега — параллельно реке |
+
+---
+
+**`past` — движение мимо, не останавливаясь**
+
+`past` = проходишь рядом с чем-то и продолжаешь дальше. Не заходишь внутрь, не пересекаешь — просто мимо.
+
+- "Walk **past** the post office and turn left." — *Пройди мимо почты и поверни налево.*
+- "She drove **past** my house." — *Она проехала мимо моего дома.*
+- "He walked **past** me without saying hello." — *Он прошёл мимо не поздоровавшись.*
+
+---
+
+**`through` — насквозь через внутреннее пространство**
+
+`through` = ты внутри чего-то пока движешься. Лес, туннель, толпа, город — ты проходишь через внутренность.
+
+- "We drove **through** the tunnel." — *Мы проехали через туннель.*
+- "She walked **through** the forest." — *Она шла через лес.*
+- "He pushed **through** the crowd." — *Он протиснулся сквозь толпу.*
+- "Light comes **through** the window." — *Свет проходит сквозь окно.*
+
+---
+
+**Все пять рядом — итоговая таблица:**
+
+| Предлог | Образ движения | Пример |
+|---------|---------------|--------|
+| `over` | поверх препятствия — вверх и вниз | climb over a wall |
+| `across` | по поверхности — с одного края на другой | swim across the river |
+| `along` | вдоль — параллельно чему-то | walk along the river |
+| `past` | мимо — не заходя внутрь | walk past the shop |
+| `through` | насквозь — через внутреннее пространство | drive through the tunnel |
+
+**Тест-картинка: как пересечь реку?**
+- `over the river` — перепрыгнуть / перелететь поверху (мост как препятствие)
+- `across the river` — переплыть / переехать с берега на берег (по поверхности)
+- `along the river` — идти вдоль берега (параллельно реке, не пересекать)
+- `through the river` — идти вброд насквозь (через воду)
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+over = поверх препятствия (climb over a wall). across = по поверхности с одного края на другой (swim across the river). along = вдоль, параллельно (walk along the river). past = мимо не заходя (walk past the shop). through = насквозь через внутренность (drive through the tunnel). over ≠ above: above — статика, over — движение. across ≠ along: across — поперёк, along — вдоль.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 167 | Они перешли через мост. | They walked over the bridge. |
+| 168 | Он перелез через забор. | He climbed over the fence. |
+| 169 | Она переплыла реку. | She swam across the river. |
+| 170 | Осторожно переходи дорогу. | Walk across the road carefully. |
+| 171 | Мы шли вдоль побережья. | We walked along the coast. |
+| 172 | Просто иди по этой улице. | Just go along this street. |
+| 173 | Пройди мимо банка и поверни направо. | Walk past the bank and turn right. |
+| 174 | Она проехала мимо моего дома. | She drove past my house. |
+| 175 | Мы ехали через туннель. | We drove through the tunnel. |
+| 176 | Он протиснулся сквозь толпу. | He pushed through the crowd. |
+
+---
+
+#### Exercises
+
+**Ex 141 · FORWARD_CHOICE** *(ID: 18)*
+
+"Ей пришлось перелезть через забор."
+
+- She had to climb **over** the fence. ✓
+- She had to climb **across** the fence.
+- She had to climb **through** the fence.
+
+*Explanation: over = поверх препятствия (перелезть, прыгнуть). across = по поверхности горизонтально. through = насквозь (не то для забора).*
+
+---
+
+**Ex 142 · FORWARD_CHOICE** *(ID: 19)*
+
+"Они переплыли реку с одного берега на другой."
+
+- They swam **across** the river. ✓
+- They swam **over** the river.
+- They swam **along** the river.
+
+*Explanation: across = по поверхности с берега на берег. over = поверху (нельзя плыть над рекой). along = вдоль берега, а не через реку.*
+
+---
+
+**Ex 143 · FORWARD_CHOICE** *(ID: 20)*
+
+"После работы Дима шёл вдоль реки."
+
+- Dima walked **along** the river after work. ✓
+- Dima walked **across** the river after work.
+- Dima walked **through** the river after work.
+
+*Explanation: along = вдоль, параллельно реке. across = пересечь реку (с берега на берег). through = вброд насквозь.*
+
+---
+
+**Ex 144 · FORWARD_CHOICE** *(ID: 21)*
+
+"Просто пройди мимо кофейни — нам туда не нужно."
+
+- Just walk **past** the café. ✓
+- Just walk **along** the café.
+- Just walk **through** the café.
+
+*Explanation: past = пройти мимо не заходя. along = вдоль (не то значение). through = насквозь внутри (войти и выйти).*
+
+---
+
+**Ex 145 · FORWARD_CHOICE** *(ID: 22)*
+
+"Мы проехали через весь город."
+
+- We drove **through** the city. ✓
+- We drove **across** the city.
+- We drove **along** the city.
+
+*Explanation: through = насквозь через внутренность (город, лес, туннель). across тоже возможно, но through точнее когда находишься внутри городского пространства.*
+
+---
+
+**Ex 146 · FORWARD_CHOICE** *(ID: 23)*
+
+"Она ехала вдоль побережья."
+
+- She drove **along** the coast. ✓
+- She drove **across** the coast.
+- She drove **past** the coast.
+
+*Explanation: along = вдоль, параллельно побережью. across = поперёк (пересечь). past = проехать мимо одной точки, не вдоль всего побережья.*
+
+---
+
+**Ex 147 · FORWARD_CHOICE** *(ID: 24)*
+
+"Свет проходил сквозь окно."
+
+- Light came **through** the window. ✓
+- Light came **across** the window.
+- Light came **over** the window.
+
+*Explanation: through = насквозь (свет, воздух, звук проходят через материал). across = по поверхности. over = поверху.*
+
+---
+
+**Ex 148 · WordArrangement** *(ID: 25)*
+
+Ситуация: Рома и Лена шли домой вдоль реки через парк.
+
+Правильное предложение: **Roma and Lena walked along the river through the park.**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| Roma and Lena | Рома и Лена | — |
+| walked | шли | — |
+| along | вдоль | — |
+| the river | река | — |
+| through | через (насквозь) | — |
+| the park | парк | — |
+| across | поперёк | ✗ дистрактор |
+| past | мимо | ✗ дистрактор |
+
+*Explanation (при ошибке):* along the river = вдоль реки (параллельно, не пересекая). through the park = насквозь через парк. across = поперёк (пересечь реку), не то. past = мимо одной точки, не вдоль всего маршрута.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card28_ex1
+**Title:** "over, across, along, past или through?"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст предложения с пропусками. Вставь нужный предлог движения: over / across / along / past / through."
+**Prompt Template:** "Дай 4 английских предложения с пропусками на предлоги движения (over/across/along/past/through). Используй 4 разных предлога. Дай RU перевод рядом. Проверь и объясни ошибку с акцентом на разницу: over = поверх препятствия, across = по поверхности поперёк, along = вдоль параллельно, past = мимо не заходя, through = насквозь.
+
+Пример вывода AI: '1. She climbed ___ the wall to get into the garden. (Она перелезла ___ стену, чтобы попасть в сад.) 2. We drove ___ a long tunnel before reaching the city. (Мы ехали ___ длинный туннель, прежде чем добраться до города.) 3. He jogged ___ the beach every morning. (Он бегал ___ пляжу каждое утро.) 4. They walked ___ the bakery without stopping. (Они прошли ___ булочной не останавливаясь.)'"
+
+#### Clarification Options
+
+- Почему "swim across the river", а не "swim over the river"?
+- Разница along и across на примере реки?
+- Можно ли сказать и "over the bridge" и "across the bridge"?
+
+---
+
+### Words8r Sync · Предлоги движения: через, вдоль, мимо
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| over | через (поверх), поверх препятствия | [ˈoʊvər] |
+| across | через (поперёк), на другую сторону | [əˈkrɒs] |
+| along | вдоль, по | [əˈlɒŋ] |
+| past | мимо | [pæst] |
+| through | через (насквозь), сквозь | [θruː] |
+
+---
 ---
 
 ## Счётчики IDs для продолжения
@@ -4686,9 +4957,9 @@ into = движение внутрь (She walked into the room). out of = дви
 | Тип | Последний использованный ID | Следующий блок начинает с |
 |-----|-----------------------------|--------------------------|
 | Microtopic | 12 | 13 |
-| Card | 27 | 28 |
-| Example | 166 | 167 |
-| Exercise | 152 | 153 |
+| Card | 28 | 29 |
+| Example | 176 | 177 |
+| Exercise | 161 | 162 |
 
 ---
 
@@ -4698,7 +4969,7 @@ into = движение внутрь (She walked into the room). out of = дви
 
 | Тип | Последний ID | Следующий |
 |-----|-------------|-----------|
-| WordArrangement | 24 | 25 |
+| WordArrangement | 25 | 26 |
 | MultipleChoice | 36 | 37 |
 | TrueFalse | 24 | 25 |
 | ErrorCorrection | 10 | 11 |
@@ -4708,11 +4979,11 @@ into = движение внутрь (She walked into the room). out of = дви
 | Categorization | 3 | 4 |
 | TableFill | 4 | 5 |
 | FindTheOdd | 3 | 4 |
-| ForwardChoice | 17 | 18 |
+| FORWARD_CHOICE | 24 | 25 |
 | ReverseChoice | 7 | 8 |
 | ConstructionMeaning | 1 | 2 |
 | DialogRestore | 4 | 5 |
-| AiExercise | 27 | 28 |
+| AiExercise | 28 | 29 |
 | Microtopic | 12 | 13 |
-| Card | 27 | 28 |
-| Example | 166 | 167 |
+| Card | 28 | 29 |
+| Example | 176 | 177 |

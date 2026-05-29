@@ -91,8 +91,15 @@ Grammar8r/
 │   ├── Указательные местоимения (this / that / these / those)
 │   ├── Вопросительные слова (what, where, when, who, why, how)
 │   ├── Предлоги места, времени, направления, of
+│   │   └── Предлоги движения (отдельная карточка): into / out of / over / past / through
+│   │       over + движение = с одной стороны на другую через препятствие:
+│   │       walk over a hill (подняться и спуститься), climb over a wall (перелезть), go over a bridge (пересечь мост)
+│   │       over сам по себе не значит "взбираться" — это глагол задаёт действие, over задаёт путь
 │   ├── Множественное число существительных
 │   ├── Числа (cardinal + ordinal)
+│   │   └── Доп. инфо: one more + noun = "ещё один/одна/раз"
+│   │       one more time (ещё раз), one more coffee (ещё один кофе), one more chance (ещё один шанс)
+│   │       Не путать с "another" — one more подчёркивает что это следующий из того же
 │   ├── Дни недели — Monday–Sunday + правило заглавной буквы
 │   ├── Месяцы и сезоны — January–December, spring/summer/autumn/winter + правило заглавной
 │   │   Предлоги: in January / in spring / in 2024. Как читать годы.
@@ -431,7 +438,12 @@ Grammar8r/
 │   │   + отдельная карточка: also vs the same — частая путаница у русскоговорящих.
 │   │   "I also think so" (тоже думаю так) vs "I think the same" (думаю то же самое).
 │   │   "The same as" — конструкция сравнения. similarly / equally — формальные аналоги.
-│   └── Цель: in order to / so that
+│   └── Цель: три способа сказать "чтобы"
+│       to (infinitive): I went to the shop to buy milk. — самый простой, нейтральный
+│       in order to: He studied hard in order to pass the exam. — чуть формальнее, акцент на цели
+│       so (that) + subject + verb: She opened the window so they could breathe. — когда у цели свой субъект
+│       Ловушка: "so they can" = "чтобы они могли" — so здесь не "так", а союз цели
+│       Разница to vs so that: "I called her to talk" (я сам говорю) vs "I called her so that she could hear" (она слышит)
 │
 ├── Модальные глаголы  ← после всех времён, перед разговорным
 │   ├── Что такое модальный глагол — не спрягается, всегда + V1 без to
