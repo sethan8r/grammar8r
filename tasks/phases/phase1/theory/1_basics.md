@@ -8,7 +8,13 @@
 
 ## ✅ Эталонные таблицы для каждого типа упражнений
 
-Сделано. Шаблоны всех 14 типов + AI Exercise: [`tasks/phases/phase1/exercise_templates.md`](../../exercise_templates.md)
+Шаблоны всех 14 типов + AI Exercise + DB-схемы: [`tasks/phases/phase1/exercise_templates.md`](../../exercise_templates.md)
+
+> ⚠️ **КРИТИЧНО при написании упражнений:**
+> - Каждый тип имеет чёткое количество вопросов на один `Ex N` — смотри таблицу в начале exercise_templates.md
+> - **1 вопрос = 1 упражнение** для: MultipleChoice, FORWARD_CHOICE, REVERSE_CHOICE, ErrorCorrection, ConstructionMeaning, DialogRestore, FindTheOdd
+> - **Слипание нескольких вопросов в один Ex N — ошибка**, требующая разбивки и пересчёта всех ID
+> - Формат каждого упражнения — жёстко по шаблону из exercise_templates.md, без отступлений
 
 
 ## ✅ Перенумерация упражнений по типам — выполнено
@@ -603,7 +609,7 @@ B: ___
 
 ---
 
-**Ex 22 · TrueFalse · Multi** *(ID: 4)* ⚠️ *Новый тип упражнения — несколько предложений*
+**Ex 22 · TrueFalse** *(ID: 4)* ⚠️ *Новый тип упражнения — несколько предложений*
 
 Задание: отметь все ВЕРНЫЕ предложения (их может быть несколько)
 
@@ -4812,7 +4818,7 @@ over = поверх препятствия (climb over a wall). across = по п
 
 #### Exercises
 
-**Ex 141 · FORWARD_CHOICE** *(ID: 18)*
+**Ex 141 · MultipleChoice · FORWARD_CHOICE** *(ID: 18)*
 
 "Ей пришлось перелезть через забор."
 
@@ -4824,7 +4830,7 @@ over = поверх препятствия (climb over a wall). across = по п
 
 ---
 
-**Ex 142 · FORWARD_CHOICE** *(ID: 19)*
+**Ex 142 · MultipleChoice · FORWARD_CHOICE** *(ID: 19)*
 
 "Они переплыли реку с одного берега на другой."
 
@@ -4836,7 +4842,7 @@ over = поверх препятствия (climb over a wall). across = по п
 
 ---
 
-**Ex 143 · FORWARD_CHOICE** *(ID: 20)*
+**Ex 143 · MultipleChoice · FORWARD_CHOICE** *(ID: 20)*
 
 "После работы Дима шёл вдоль реки."
 
@@ -4848,7 +4854,7 @@ over = поверх препятствия (climb over a wall). across = по п
 
 ---
 
-**Ex 144 · FORWARD_CHOICE** *(ID: 21)*
+**Ex 144 · MultipleChoice · FORWARD_CHOICE** *(ID: 21)*
 
 "Просто пройди мимо кофейни — нам туда не нужно."
 
@@ -4860,7 +4866,7 @@ over = поверх препятствия (climb over a wall). across = по п
 
 ---
 
-**Ex 145 · FORWARD_CHOICE** *(ID: 22)*
+**Ex 145 · MultipleChoice · FORWARD_CHOICE** *(ID: 22)*
 
 "Мы проехали через весь город."
 
@@ -4872,7 +4878,7 @@ over = поверх препятствия (climb over a wall). across = по п
 
 ---
 
-**Ex 146 · FORWARD_CHOICE** *(ID: 23)*
+**Ex 146 · MultipleChoice · FORWARD_CHOICE** *(ID: 23)*
 
 "Она ехала вдоль побережья."
 
@@ -4884,7 +4890,7 @@ over = поверх препятствия (climb over a wall). across = по п
 
 ---
 
-**Ex 147 · FORWARD_CHOICE** *(ID: 24)*
+**Ex 147 · MultipleChoice · FORWARD_CHOICE** *(ID: 24)*
 
 "Свет проходил сквозь окно."
 
@@ -4950,40 +4956,1852 @@ over = поверх препятствия (climb over a wall). across = по п
 ---
 ---
 
+# БЛОК 5 · Микротемы 13–15
+
+---
+
+## Microtopic 13 — Plural of Nouns · Множественное число
+
+**ID:** 13 | **Order:** 13
+
+---
+
+### Card 29 · Правила образования множественного числа
+
+**ID:** 29 | **Order:** 1
+
+#### Theory
+
+В русском слова меняются постоянно: стол — стола — столу — столом. Английский куда скромнее — большинство существительных просто добавляют **-s** в конце. Но в деталях есть несколько нюансов.
+
+---
+
+**Правило 1: Большинство существительных → +s**
+
+Просто добавить -s. Это работает для большинства слов.
+
+- cat → **cats** *(кошки)*
+- phone → **phones** *(телефоны)*
+- table → **tables** *(столы)*
+- book → **books** *(книги)*
+
+---
+
+**Правило 2: Слова на -s, -sh, -ch, -x, -o → +es**
+
+Добавляем -es, потому что иначе окончание трудно произнести.
+
+- bus → **buses** *(автобусы)*
+- dish → **dishes** *(тарелки)*
+- watch → **watches** *(часы)*
+- box → **boxes** *(коробки)*
+- tomato → **tomatoes** *(помидоры)*
+
+**Но!** Слова-заимствования на -o чаще просто +s:
+photo → **photos**, piano → **pianos**, video → **videos**
+
+---
+
+**Правило 3: Слова на -y после согласной → -ies**
+
+- city → **cities** *(города)*
+- party → **parties** *(вечеринки)*
+- country → **countries** *(страны)*
+
+**Но!** Если перед -y стоит **гласная** — просто +s:
+- day → **days** *(дни)*
+- key → **keys** *(ключи)*
+- toy → **toys** *(игрушки)*
+
+---
+
+**Правило 4: Слова на -f / -fe → -ves**
+
+- leaf → **leaves** *(листья)*
+- knife → **knives** *(ножи)*
+- wife → **wives** *(жёны)*
+- life → **lives** *(жизни)*
+
+**Исключения** (просто +s): roof → **roofs**, chief → **chiefs**, belief → **beliefs**
+
+---
+
+**Сводная таблица:**
+
+| Правило | Пример | Мн. число |
+|---------|--------|-----------|
+| +s (стандарт) | cat, book | cats, books |
+| +es (-s/-sh/-ch/-x/-o) | bus, watch, box | buses, watches, boxes |
+| -y → -ies (согл. + y) | city, party | cities, parties |
+| -y → +s (гласн. + y) | day, key | days, keys |
+| -f/-fe → -ves | leaf, knife | leaves, knives |
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Большинство слов → +s. После -s/-sh/-ch/-x/-o → +es. -y после согласной → -ies (city→cities), после гласной просто +s (day→days). -f/-fe → -ves (leaf→leaves), кроме roof/chief/belief.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 177 | В парке много деревьев. | There are many trees in the park. |
+| 178 | Вера купила три коробки яблок. | Vera bought three boxes of apples. |
+| 179 | Дима потерял свои ключи. | Dima lost his keys. |
+| 180 | В этом городе много старых церквей. | There are many old churches in this city. |
+| 181 | Осенью листья желтеют. | In autumn the leaves turn yellow. |
+| 182 | У Коли два ножа на кухне. | Kolya has two knives in the kitchen. |
+
+---
+
+#### Exercises
+
+**Ex 162 · TableFill** *(ID: 5)*
+
+Задание: запиши правильную форму множественного числа
+
+| Единственное | Правило | Множественное |
+|---|---|---|
+| bus | -es | ___ |
+| city | -y → -ies | ___ |
+| leaf | -f → -ves | ___ |
+| photo | +s | ___ |
+| watch | -es | ___ |
+| key | +s | ___ |
+
+*Answers:* buses / cities / leaves / photos / watches / keys
+
+*Explanation:* bus → buses (-s+es), city → cities (согл.+y → ies), leaf → leaves (-f → ves), photo → photos (заимствование, +s), watch → watches (-ch+es), key → keys (гласн.+y, +s).
+
+---
+
+**Ex 163 · MultipleChoice · CHOICE** *(ID: 37)*
+
+"There are three ___ on the shelf." *(на полке три коробки)*
+
+- boxs
+- **boxes** ✓
+- boxies
+
+*Explanation (при ошибке):* box оканчивается на -x → +es = boxes.
+
+---
+
+**Ex 164 · MultipleChoice · CHOICE** *(ID: 38)*
+
+"She has two ___ in her garden." *(у неё в саду два...)*
+
+- babys
+- babyes
+- **babies** ✓
+
+*Explanation (при ошибке):* baby оканчивается на согласную + -y → y→i + es = babies.
+
+---
+
+**Ex 165 · MultipleChoice · CHOICE** *(ID: 39)*
+
+"The ___ are playing in the park." *(... играют в парке)*
+
+- childs
+- **children** ✓
+- childrens
+
+*Explanation (при ошибке):* child → children — исключение, правило +s не работает. Подробнее — следующая карточка.
+
+---
+
+**Ex 166 · TextInput** *(ID: 14)*
+
+Напиши правильную форму множественного числа:
+
+1. one knife → two ___ *(ножа)* → **knives**
+2. one party → three ___ *(вечеринки)* → **parties**
+3. one roof → five ___ *(крыш)* → **roofs**
+4. one dish → four ___ *(тарелки)* → **dishes**
+5. one day → seven ___ *(дней)* → **days**
+
+*Explanation (при ошибке):* knife → knives (-fe → ves). party → parties (согл.+y → ies). roof → roofs (исключение из правила -f). dish → dishes (-sh + es). day → days (гласн.+y → просто +s).
+
+---
+
+**Ex 167 · MultipleChoice · FORWARD_CHOICE** *(ID: 25)*
+
+"Коля купил два билета."
+
+- Kolya bought two ticket.
+- **Kolya bought two tickets.** ✓
+- Kolya bought two ticketes.
+
+*Explanation (при ошибке):* ticket → tickets, стандартное +s.
+
+---
+
+**Ex 168 · MultipleChoice · FORWARD_CHOICE** *(ID: 26)*
+
+"На столе три ножа."
+
+- There are three knifes on the table.
+- **There are three knives on the table.** ✓
+- There are three knife on the table.
+
+*Explanation (при ошибке):* knife → knives (-fe → ves).
+
+---
+
+**Ex 169 · MultipleChoice · FORWARD_CHOICE** *(ID: 27)*
+
+"В этом районе много заводов."
+
+- There are many factorys in this area.
+- **There are many factories in this area.** ✓
+- There are many factoris in this area.
+
+*Explanation (при ошибке):* factory (согл.+y) → factories.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card29_ex1
+**Title:** "Правильно ли мн.ч.?"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст 5 слов в единственном числе. Напиши каждое во множественном числе. Если ошибёшься — AI объяснит правило."
+**Prompt Template:** "Дай пользователю 5 английских существительных в единственном числе — по одному на строке с русским переводом. Выбери слова разных типов: 1) стандартное +s, 2) слово на -ch/-sh/-x/-o (+es), 3) слово на -y после согласной (-ies), 4) слово на -f/-fe (-ves), 5) слово-заимствование на -o (+s). Пользователь пишет форму мн.ч. для каждого. Проверь каждый ответ. При ошибке объясни правило кратко по-русски.
+
+Пример вывода AI: '1. box (коробка) → ? 2. party (вечеринка) → ? 3. knife (нож) → ? 4. photo (фото) → ? 5. city (город) → ?'"
+
+#### Clarification Options
+
+- Почему photo → photos, а tomato → tomatoes?
+- Как понять что перед -y стоит согласная, а не гласная?
+- Есть ли правило для слов на -o или это нужно просто помнить?
+
+---
+
+### Card 30 · Неправильные формы и особые случаи
+
+**ID:** 30 | **Order:** 2
+
+#### Theory
+
+Правила из предыдущей карточки покрывают 95% слов. Остальные 5% — исключения которые нужно просто запомнить. Их немного, но они очень частые.
+
+---
+
+**Исключения — уникальные формы множественного числа**
+
+| Ед. число | Мн. число | Перевод |
+|-----------|-----------|---------|
+| man | **men** | мужчина → мужчины |
+| woman | **women** | женщина → женщины |
+| child | **children** | ребёнок → дети |
+| tooth | **teeth** | зуб → зубы |
+| foot | **feet** | ступня → ступни |
+| goose | **geese** | гусь → гуси |
+| mouse | **mice** | мышь → мыши |
+| person | **people** | человек → люди |
+
+**Главные ловушки:**
+"two mans" ✗ → "two **men**" ✓
+"three childs" ✗ → "three **children**" ✓
+"several persons" — формально правильно, но звучит юридически; в разговоре всегда "people"
+
+---
+
+**Неизменяемые — одинаково в единственном и множественном числе**
+
+- one fish → three **fish** *(три рыбы)*
+- one sheep → many **sheep** *(много овец)*
+- one deer → five **deer** *(пять оленей)*
+- one series → two **series** *(две серии)*
+
+"I caught three **fish**." ✓ — три рыбы, не "three fishes".
+*(fishes используют только когда говорят о разных **видах** рыб: "The ocean has many fishes" = много видов)*
+
+---
+
+**Только во множественном числе**
+
+Некоторые предметы существуют только во мн.ч. Для одного предмета — "a pair of":
+
+| Слово | Перевод | Как сказать "одни" |
+|-------|---------|-------------------|
+| scissors | ножницы | a pair of scissors |
+| trousers | брюки | a pair of trousers |
+| jeans | джинсы | a pair of jeans |
+| glasses | очки | a pair of glasses |
+| headphones | наушники | a pair of headphones |
+
+"Where are my **glasses**?" ✓ — даже когда речь об одной паре, глагол всегда во мн.ч.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Неправильные: man→men, woman→women, child→children, tooth→teeth, foot→feet, mouse→mice, person→people. Неизменяемые: fish, sheep, deer — форма одна. Только мн.ч.: scissors, jeans, glasses — для одного предмета говорят "a pair of".
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 183 | Дети бегали по всему двору. | The children were running all around the yard. |
+| 184 | У Ромы болят зубы. | Roma's teeth hurt. |
+| 185 | В поле паслось стадо овец. | A flock of sheep was grazing in the field. |
+| 186 | Игорь не может найти свои очки. | Igor can't find his glasses. |
+| 187 | В Москве живут миллионы людей. | Millions of people live in Moscow. |
+
+---
+
+#### Exercises
+
+**Ex 170 · Matching** *(ID: 5)*
+
+Задание: соедини каждое слово с правильной формой множественного числа.
+
+| Ед. число | Мн. число |
+|-----------|-----------|
+| child | men |
+| man | mice |
+| mouse | geese |
+| goose | feet |
+| foot | children |
+
+*Explanation:* child→children, man→men, mouse→mice, goose→geese, foot→feet — все исключения, не подчиняются стандартным правилам.
+
+---
+
+**Ex 171 · Categorization** *(ID: 4)*
+
+Задание: перетащи слова в нужную колонку по типу мн.ч.
+
+**Слова:** fish, book, sheep, city, glasses, knife, jeans, dog, series, piano
+
+| Стандартное мн.ч. (+s/+es/-ies/-ves) | Неизменяемое (ед.=мн.) | Только мн.ч. |
+|---------------------------------------|------------------------|--------------|
+| books, cities, knives, dogs, pianos | fish, sheep, series | glasses, jeans |
+
+*Explanation:* piano → pianos (заимствование, +s). series не изменяется. glasses и jeans не имеют формы ед.ч.
+
+---
+
+**Ex 172 · FindTheOdd** *(ID: 4)*
+
+Три слова — правильные формы мн.ч., одно — с ошибкой:
+
+- cats
+- buses
+- **leafs** ✓
+- parties
+
+*Explanation (при ошибке):* leafs — ошибка: leaf → leaves (-f → -ves). Остальные правильны: cats (+s), buses (-s+es), parties (согл.+y → ies).
+
+---
+
+**Ex 173 · FindTheOdd** *(ID: 5)*
+
+Три слова — правильные формы мн.ч., одно — с ошибкой:
+
+- photos
+- pianos
+- **tomatos** ✓
+- videos
+
+*Explanation (при ошибке):* tomatos — ошибка: tomato → tomatoes (-o+es, не заимствование). Остальные — слова-заимствования на -o, берут просто +s: photos, pianos, videos.
+
+---
+
+**Ex 174 · ErrorCorrection** *(ID: 11)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"There are five childs in the park."
+
+- There are five childs in the park.
+- **There are five children in the park.** ✓
+- There are five childrens in the park.
+
+*Explanation (при ошибке):* child → children — неправильное мн.ч., правило +s не работает. Никакого -s или -ren добавить нельзя, форма уникальная.
+
+---
+
+**Ex 175 · ErrorCorrection** *(ID: 12)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"I need a new scissor for the project."
+
+- I need a new scissor for the project.
+- **I need a new pair of scissors for the project.** ✓
+- I need new scissors for the project.
+
+*Explanation (при ошибке):* scissors существует только во мн.ч. — "a scissor" невозможно. Для одного предмета — "a pair of scissors".
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card30_ex1
+**Title:** "Ед. число или мн.?"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI покажет предложения с существительными в скобках. Напиши правильную форму множественного числа для каждого."
+**Prompt Template:** "Дай 4 коротких английских предложения с пропуском. В каждом — существительное в скобках в форме ед.ч., пользователь должен написать его мн.ч. Включи: 1) исключение (man/child/tooth/foot/mouse), 2) неизменяемое (fish/sheep/deer), 3) только-мн.ч. слово — попроси написать фразу 'a pair of ___', 4) стандартное слово. Рядом с каждым — русский перевод контекста. Проверь, при ошибке объясни по-русски.
+
+Пример вывода AI: '1. I saw three (woman) at the café. (Я видел трёх женщин.) 2. We caught five (fish) yesterday. (Вчера мы поймали пять рыб.) 3. Как сказать «одна пара джинс»? 4. She found two (key) on the floor. (Она нашла два ключа.)'"
+
+#### Clarification Options
+
+- Почему scissors/jeans/glasses всегда во мн.ч.?
+- Когда можно сказать "fishes" вместо "fish"?
+- Почему person → people, а не persons?
+
+---
+
+### Words8r Sync · Множественное число: особые случаи
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| man / men | мужчина / мужчины | [mæn] / [men] |
+| woman / women | женщина / женщины | [ˈwʊmən] / [ˈwɪmɪn] |
+| child / children | ребёнок / дети | [tʃaɪld] / [ˈtʃɪldrən] |
+| tooth / teeth | зуб / зубы | [tuːθ] / [tiːθ] |
+| foot / feet | ступня / ступни | [fʊt] / [fiːt] |
+| mouse / mice | мышь / мыши | [maʊs] / [maɪs] |
+| scissors | ножницы | [ˈsɪzəz] |
+| jeans | джинсы | [dʒiːnz] |
+| glasses | очки | [ˈɡlɑːsɪz] |
+
+---
+---
+
+## Microtopic 14 — Numbers · Числа
+
+**ID:** 14 | **Order:** 14
+
+---
+
+### Card 31 · Cardinal Numbers · Кардинальные числа
+
+**ID:** 31 | **Order:** 1
+
+#### Theory
+
+Кардинальные числа — это обычные числа которыми мы считаем: один, два, три... В английском их нужно знать, потому что они используются буквально везде.
+
+---
+
+**1–12: уникальные слова, нужно запомнить**
+
+| 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|
+| one | two | three | four | five | six |
+
+| 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|
+| seven | eight | nine | ten | eleven | twelve |
+
+---
+
+**13–19: корень числа + -teen**
+
+thirteen (13), fourteen (14), **fifteen** (15), sixteen (16), seventeen (17), **eighteen** (18), **nineteen** (19)
+
+Ловушка: fifteen (не fiveteen), eighteen (не eightyteen), nineteen (не ninteen).
+
+---
+
+**20–90: десятки**
+
+twenty (20), thirty (30), **forty** (40), fifty (50), sixty (60), seventy (70), eighty (80), ninety (90)
+
+Ловушка: **forty** — не "fourty". Одна из самых частых орфографических ошибок в английском.
+
+---
+
+**21–99: десятки + единицы через дефис**
+
+twenty-**one** (21), thirty-**five** (35), forty-**eight** (48), ninety-**nine** (99)
+
+Дефис обязателен: "twenty one" без дефиса — ошибка в письме.
+
+---
+
+**Сотни, тысячи, миллионы**
+
+- 100 = a hundred / one hundred
+- 1,000 = a thousand / one thousand
+- 1,000,000 = a million
+- 1,000,000,000 = a billion
+
+**Важно:** hundred / thousand / million — без -s когда идут с числом!
+"two **hundred**" ✓ — не "two hundreds" ✗
+"five **thousand**" ✓ — не "five thousands" ✗
+
+Но: "**hundreds** of people" (сотни людей, без точного числа) — тогда -s нормально.
+
+---
+
+**Большие числа**
+
+1,234 = "one thousand two hundred and thirty-four" *(British: "and" перед последними двумя разрядами)*
+2,500 = "two thousand five hundred"
+15,000 = "fifteen thousand"
+250,000 = "two hundred and fifty thousand"
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+1–12: уникальные. 13–19: корень + -teen (fifteen, eighteen — особое написание). 20–90: twenty/thirty/forty (не fourty!). 21–99: дефис (twenty-one). hundred/thousand/million без -s после числа.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 188 | Ей сорок два года. | She is forty-two years old. |
+| 189 | В городе живут три миллиона человек. | Three million people live in the city. |
+| 190 | У Кати пятнадцать книг на полке. | Katya has fifteen books on the shelf. |
+| 191 | Билет стоит девятнадцать фунтов. | The ticket costs nineteen pounds. |
+| 192 | В нашей группе двадцать один студент. | There are twenty-one students in our group. |
+| 193 | Он выиграл сто тысяч рублей. | He won a hundred thousand roubles. |
+| 194 | На стадионе было восемьдесят тысяч зрителей. | There were eighty thousand spectators at the stadium. |
+
+---
+
+#### Exercises
+
+**Ex 176 · MultipleChoice · FORWARD_CHOICE** *(ID: 28)*
+
+"У Миши сорок пять книг."
+
+- Misha has fourty-five books.
+- **Misha has forty-five books.** ✓
+- Misha has forty five books.
+
+*Explanation (при ошибке):* forty — не fourty (частая ошибка!). Дефис обязателен между десятком и единицей: forty-five.
+
+---
+
+**Ex 177 · MultipleChoice · FORWARD_CHOICE** *(ID: 29)*
+
+"В зале было двести человек."
+
+- There were two hundreds people in the hall.
+- **There were two hundred people in the hall.** ✓
+- There were two-hundred people in the hall.
+
+*Explanation (при ошибке):* После числа hundred без -s. Дефис между числом и hundred не нужен.
+
+---
+
+**Ex 178 · MultipleChoice · FORWARD_CHOICE** *(ID: 30)*
+
+"Поезд прибывает через пятнадцать минут."
+
+- The train arrives in fiveteen minutes.
+- **The train arrives in fifteen minutes.** ✓
+- The train arrives in fifthteen minutes.
+
+*Explanation (при ошибке):* fifteen — особое написание, не fiveteen и не fifthteen.
+
+---
+
+**Ex 179 · TextInput** *(ID: 15)*
+
+Напиши число словами:
+
+1. 13 → **thirteen**
+2. 40 → **forty**
+3. 17 → **seventeen**
+4. 56 → **fifty-six**
+5. 100 → **a hundred** / **one hundred**
+6. 1,000 → **a thousand** / **one thousand**
+
+*Explanation (при ошибке):* 40 = forty (не fourty). 56 = fifty-six (дефис). 13 = thirteen (не thirtheen).
+
+---
+
+**Ex 180 · MultipleChoice · REVERSE_CHOICE** *(ID: 8)*
+
+Переведи на русский:
+"forty-eight"
+
+- 84
+- **48** ✓
+- 14
+
+*Explanation (при ошибке):* forty = 40, eight = 8. forty-eight = 48.
+
+---
+
+**Ex 181 · MultipleChoice · REVERSE_CHOICE** *(ID: 9)*
+
+Переведи на русский:
+"fifteen hundred"
+
+- **1,500** ✓
+- 150
+- 15,000
+
+*Explanation (при ошибке):* "fifteen hundred" = 15 × 100 = 1,500. Разговорный способ назвать числа от 1,100 до 1,900 — два блока по сотне.
+
+---
+
+**Ex 182 · MultipleChoice · REVERSE_CHOICE** *(ID: 10)*
+
+Переведи на русский:
+"two million three hundred thousand"
+
+- 2,030,000
+- **2,300,000** ✓
+- 23,000,000
+
+*Explanation (при ошибке):* two million = 2,000,000. three hundred thousand = 300,000. Итого: 2,300,000.
+
+---
+
+**Ex 183 · TrueFalse** *(ID: 25)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | "Forty" is the correct spelling, not "fourty". | "Forty" — правильное написание, не "fourty". | ✓ |
+| 2 | After a number, "hundred" doesn't get -s. | После числа к "hundred" не добавляют -s. | ✓ |
+| 3 | The number 21 is written "twenty one" without a hyphen. | Число 21 пишется "twenty one" без дефиса. | ✗ |
+| 4 | "Fifteen" comes from "five" with the suffix -teen. | "Fifteen" образовано от "five" + суффикс -teen. | ✓ |
+| 5 | "Hundreds of people" with -s is correct English. | "Hundreds of people" с -s — правильный английский. | ✓ |
+
+*Explanation (при ошибке):* Предл. 3 — ошибка: дефис обязателен: twenty-one. Предл. 1 — forty без u, это частая ошибка. Предл. 5 — без конкретного числа перед hundred/thousand/million -s допустимо: "hundreds of people".
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card31_ex1
+**Title:** "Числа в контексте"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст 4 задания: запиши число словами по-английски. Числа будут в контексте предложений."
+**Prompt Template:** "Дай 4 коротких предложения по-русски. В каждом — число цифрами. Пользователь должен написать число словами по-английски и вписать его в предложение уже по-английски. Включи: двузначное число с дефисом, число с -teen, слово forty (частая ошибка), большое число 100–1000. Проверь ответы. При ошибке с forty — особо подчеркни что там нет 'u'.
+
+Пример вывода AI: '1. У неё 18 кошек. → She has ___ cats. 2. В классе 40 парт. → There are ___ desks. 3. Ему 27 лет. → He is ___ years old. 4. В библиотеке 500 книг. → There are ___ books.'"
+
+#### Clarification Options
+
+- Почему forty, а не fourty?
+- Когда можно сказать "fifteen hundred" вместо "one thousand five hundred"?
+- Как читать числа типа 1,234,567?
+
+---
+
+### Card 32 · Ordinal Numbers · Порядковые числа
+
+**ID:** 32 | **Order:** 2
+
+#### Theory
+
+Порядковые числа отвечают на вопрос "который по счёту?": первый, второй, третий... Они нужны для этажей, дат, мест в соревновании, веков.
+
+---
+
+**Первые три — исключения, запомнить:**
+
+1st = **first**, 2nd = **second**, 3rd = **third**
+
+---
+
+**Остальные: кардинальное число + -th**
+
+4th = fourth, 5th = **fifth**\*, 6th = sixth, 7th = seventh, 8th = **eighth**\*, 9th = **ninth**\*, 10th = tenth
+
+\* Особое написание: **fifth** (не fiveth), **eighth** (не eighthth), **ninth** (не nineth). Одна буква меняется или убирается.
+
+11th = eleventh, 12th = **twelfth**\*, 13th = thirteenth...
+\* twelfth — запомнить написание (twelve → twelfth, v исчезает)
+
+---
+
+**Десятки: -y → -ieth**
+
+20th = twen**tieth**, 30th = thir**tieth**, 40th = for**tieth**, 50th = fif**tieth**
+
+---
+
+**Составные порядковые: дефис, последнее слово в порядковой форме**
+
+21st = twenty-**first**, 22nd = twenty-**second**, 23rd = twenty-**third**, 24th = twenty-**fourth**, 35th = thirty-**fifth**
+
+---
+
+**Суффиксы в записи цифрами:**
+
+Суффикс берётся от самого слова:
+- first → **1st**, second → **2nd**, third → **3rd**, fourth → **4th**
+- Правило для составных: смотрим на последнее слово: 21st (first), 22nd (second), 33rd (third), 44th (fourth)
+
+---
+
+**Где используются:**
+
+- **Этажи:** the 3rd floor *(третий этаж)*, the 1st floor *(первый этаж)*
+- **Даты:** on the 5th of May, on June 21st
+- **Места:** she finished 2nd *(она финишировала второй)*
+- **Века:** the 21st century *(двадцать первый век)*
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+1st/2nd/3rd — исключения. Остальные: +th (fifth/eighth/ninth — особое написание). -y → -ieth (twentieth). Суффикс в записи: -st/-nd/-rd/-th берётся от последнего слова. Используются для этажей, дат, мест, веков.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 195 | Офис находится на пятом этаже. | The office is on the fifth floor. |
+| 196 | Её день рождения — двадцать первого июня. | Her birthday is on the twenty-first of June. |
+| 197 | Тёма пришёл к финишу вторым. | Tyoma finished second. |
+| 198 | Мы живём в двадцать первом веке. | We live in the twenty-first century. |
+| 199 | Это мой второй визит в Лондон. | This is my second visit to London. |
+
+---
+
+#### Exercises
+
+**Ex 184 · TableFill** *(ID: 6)*
+
+Задание: запиши порядковое числительное для каждого кардинального
+
+| Кардинальное | Порядковое |
+|---|---|
+| one | ___ |
+| two | ___ |
+| three | ___ |
+| five | ___ |
+| eight | ___ |
+| twelve | ___ |
+| twenty | ___ |
+| twenty-three | ___ |
+
+*Answers:* first / second / third / fifth / eighth / twelfth / twentieth / twenty-third
+
+---
+
+**Ex 185 · MultipleChoice · CHOICE** *(ID: 40)*
+
+"She lives on the ___ floor." *(на третьем этаже)*
+
+- three
+- **third** ✓
+- thirteenth
+
+*Explanation (при ошибке):* этажи — порядковые числительные: the third floor. three — кардинальное, не подходит.
+
+---
+
+**Ex 186 · MultipleChoice · CHOICE** *(ID: 41)*
+
+"It's his ___ birthday today." *(сегодня ему исполняется тридцать лет)*
+
+- thirty
+- thirtyth
+- **thirtieth** ✓
+
+*Explanation (при ошибке):* thirty → thirtieth (-y → -ieth). thirtyth — несуществующая форма.
+
+---
+
+**Ex 187 · MultipleChoice · CHOICE** *(ID: 42)*
+
+"She finished ___ in the race." *(она финишировала второй)*
+
+- **second** ✓
+- two
+- secondly
+
+*Explanation (при ошибке):* места в соревновании — порядковые числительные. secondly — наречие, не число.
+
+---
+
+**Ex 188 · MultipleChoice · FORWARD_CHOICE** *(ID: 31)*
+
+"Его кабинет на двенадцатом этаже."
+
+- His office is on the twelve floor.
+- His office is on the twelvth floor.
+- **His office is on the twelfth floor.** ✓
+
+*Explanation (при ошибке):* twelve → twelfth — особое написание: v исчезает, добавляется -fth.
+
+---
+
+**Ex 189 · MultipleChoice · FORWARD_CHOICE** *(ID: 32)*
+
+"Это был её двадцать первый день рождения."
+
+- It was her twenty-oneth birthday.
+- **It was her twenty-first birthday.** ✓
+- It was her twentyfirst birthday.
+
+*Explanation (при ошибке):* twenty-first — дефис обязателен. Суффикс -st берётся от "first", не от "one".
+
+---
+
+**Ex 190 · WordArrangement** *(ID: 26)*
+
+Ситуация: Саша занял третье место на соревновании.
+
+Правильное предложение: **Sasha finished in third place.**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| Sasha | Саша | — |
+| finished | закончил | — |
+| in | — | — |
+| third | третьем | — |
+| place | месте | — |
+| three | три | ✗ дистрактор |
+| the | — | ✗ дистрактор |
+
+*Explanation (при ошибке):* места в соревновании — "finished in third place" или просто "finished third". Артикль здесь не нужен. three — кардинальное, здесь нужно порядковое third.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card32_ex1
+**Title:** "Порядковые в контексте"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст предложения с пропусками. Вставь правильное порядковое числительное."
+**Prompt Template:** "Дай 4 английских предложения с пропусками [___]. В каждом пропуске — порядковое числительное (напиши его словом или цифрой+суффикс). Дай русский перевод рядом. Включи: исключение (1st/2nd/3rd), пятое/восьмое (особое написание), двадцатое или двадцать первое, двенадцатое. Проверь ответы. При ошибке подчеркни правило написания.
+
+Пример вывода AI: '1. She won [___] prize. (Она выиграла первый приз.) 2. Turn left on the [___] street. (Повернй налево на пятой улице.) 3. His [___] birthday is in March. (Его двенадцатый день рождения в марте.) 4. We celebrate our [___] anniversary this year. (В этом году мы отмечаем наш двадцатый юбилей.)'"
+
+#### Clarification Options
+
+- Почему fifth, а не fiveth?
+- Как правильно писать даты по-английски?
+- Чем отличается "the first floor" в UK и в US?
+
+---
+
+### Card 33 · Как читать годы
+
+**ID:** 33 | **Order:** 3
+
+#### Theory
+
+Годы читаются по особым правилам. Это одна из частых ловушек для русскоязычных — потому что в русском мы просто говорим "тысяча девятьсот девяносто пять", а в английском другая логика.
+
+---
+
+**До 2000 года: делим на два блока по две цифры**
+
+Разбиваем год пополам и читаем каждую половину как обычное число:
+
+- **1985** → 19 + 85 → "**nineteen eighty-five**"
+- **1812** → 18 + 12 → "**eighteen twelve**"
+- **1776** → 17 + 76 → "**seventeen seventy-six**"
+- **1900** → 19 + 00 → "**nineteen hundred**" *(особый случай: ровный год)*
+- **1904** → 19 + 04 → "**nineteen oh four**" *(ноль = "oh" в разговоре)*
+
+---
+
+**2000 год: особый случай**
+
+- **2000** = "**two thousand**"
+
+---
+
+**2001–2009: два варианта**
+
+- **2005** = "**two thousand and five**" *(брит.)* / "**two thousand five**" *(амер.)*
+- **2001** = "**two thousand and one**" / "**two thousand one**"
+
+---
+
+**2010 и далее: снова два варианта, оба правильны**
+
+- **2010** = "**twenty ten**" ✓ или "**two thousand and ten**" ✓
+- **2024** = "**twenty twenty-four**" ✓ или "**two thousand and twenty-four**" ✓
+
+В разговоре чаще говорят "twenty twenty-four" — короче и привычнее.
+
+---
+
+**Шпаргалка:**
+
+| Год | Читается |
+|-----|---------|
+| 1984 | nineteen eighty-four |
+| 1900 | nineteen hundred |
+| 1907 | nineteen oh seven |
+| 2000 | two thousand |
+| 2003 | two thousand and three |
+| 2024 | twenty twenty-four |
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+До 2000: делим 19|84 = "nineteen eighty-four". 2000 = "two thousand". 2001–2009: "two thousand and five". 2010+: "twenty ten" или "two thousand and ten" — оба верны.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 200 | Игорь родился в 1991 году. | Igor was born in nineteen ninety-one. |
+| 201 | Компания основана в 2003 году. | The company was founded in two thousand and three. |
+| 202 | Сейчас 2024 год. | It's twenty twenty-four. |
+| 203 | Первая мировая война началась в 1914 году. | The First World War began in nineteen fourteen. |
+| 204 | Олимпиада прошла в 2000 году в Сиднее. | The Olympics took place in two thousand in Sydney. |
+
+---
+
+#### Exercises
+
+**Ex 191 · TextInput** *(ID: 16)*
+
+Напиши год словами по-английски:
+
+1. 1999 → **nineteen ninety-nine**
+2. 2000 → **two thousand**
+3. 1812 → **eighteen twelve**
+4. 2024 → **twenty twenty-four** / two thousand and twenty-four
+5. 1905 → **nineteen oh five**
+
+*Explanation (при ошибке):* 1999: nineteen + ninety-nine (две половины). 1905: ноль читается "oh". 2024: допустимы оба варианта.
+
+---
+
+**Ex 192 · MultipleChoice · REVERSE_CHOICE** *(ID: 11)*
+
+Переведи на русский:
+"nineteen eighty-four"
+
+- 1948
+- **1984** ✓
+- 1894
+
+*Explanation (при ошибке):* nineteen = 19, eighty-four = 84. Два блока: 19|84 = 1984.
+
+---
+
+**Ex 193 · MultipleChoice · REVERSE_CHOICE** *(ID: 12)*
+
+Переведи на русский:
+"twenty oh eight"
+
+- 2080
+- 2800
+- **2008** ✓
+
+*Explanation (при ошибке):* "oh" = ноль. twenty oh eight = 20|08 = 2008.
+
+---
+
+**Ex 194 · MultipleChoice · REVERSE_CHOICE** *(ID: 13)*
+
+Переведи на русский:
+"two thousand and twelve"
+
+- **2012** ✓
+- 2120
+- 2102
+
+*Explanation (при ошибке):* two thousand = 2000, and twelve = 12. Итого: 2012.
+
+---
+
+**Ex 195 · ErrorCorrection** *(ID: 13)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"She was born in one thousand nine hundred ninety-five."
+
+- She was born in one thousand nine hundred ninety-five.
+- **She was born in nineteen ninety-five.** ✓
+- She was born in nineteen hundred ninety-five.
+
+*Explanation (при ошибке):* Годы до 2000 читаются как два блока: 19|95 = "nineteen ninety-five". Формат "one thousand nine hundred..." грамматически не ошибка, но так не говорят.
+
+---
+
+**Ex 196 · ErrorCorrection** *(ID: 14)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"The game came out in twenty hundred and three."
+
+- The game came out in twenty hundred and three.
+- **The game came out in two thousand and three.** ✓
+- The game came out in twenty and three.
+
+*Explanation (при ошибке):* 2003 = "two thousand and three". "Twenty hundred" — несуществующий формат для годов после 2000.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card33_ex1
+**Title:** "Как читается этот год?"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст 4 года цифрами. Напиши как они читаются по-английски словами."
+**Prompt Template:** "Дай пользователю 4 года цифрами с небольшим контекстом по-русски. Включи: год из 1900-х (стандартный), год с нулём в середине (1907 / 1904), год 2000-х до 2010, год 2010+. Пользователь пишет как читается каждый год по-английски. Проверь. При ошибке объясни правило с примером.
+
+Пример вывода AI: '1. Чемпионат мира: 1966. 2. Катастрофа произошла в: 1906. 3. Фильм вышел в: 2007. 4. Сейчас идёт: 2024.'"
+
+#### Clarification Options
+
+- Как читать 2000-е годы (2001, 2005)?
+- Почему нельзя сказать "one thousand nine hundred eighty"?
+- Как читать годы типа 1900 или 1800?
+
+---
+
+### Card 34 · one more · Ещё один
+
+**ID:** 34 | **Order:** 4
+
+#### Theory
+
+**one more** + существительное = ещё один / ещё одна / ещё раз
+
+Это короткая конструкция, которую носители используют постоянно — и которую легко пропустить мимо.
+
+---
+
+**Примеры:**
+
+- "**One more** time!" — Ещё раз!
+- "Can I have **one more** coffee?" — Можно мне ещё один кофе?
+- "Give me **one more** chance." — Дай мне ещё один шанс.
+- "Just **one more** question." — Только ещё один вопрос.
+- "**One more** piece, please." — Ещё один кусочек, пожалуйста.
+
+---
+
+**one more vs another**
+
+Оба переводятся как "ещё один", но акцент разный:
+
+- **one more** — следующий из той же серии. Как будто ты продолжаешь счёт. "One more minute" = ещё одна минута из тех же минут.
+- **another** — просто ещё один, другой. "Another chance" = другой шанс (не обязательно из той же серии).
+
+В разговоре их часто используют взаимозаменяемо — разница скорее в оттенке, чем в правиле.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+one more + noun = ещё один. "One more time" — ещё раз. Разница с another: one more = следующий из тех же, another = просто ещё один. В разговоре часто взаимозаменяемы.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 205 | Ещё один вопрос — и мы закончим. | One more question and we're done. |
+| 206 | Дай мне ещё одну минуту. | Give me one more minute. |
+| 207 | Можно мне ещё один кусок торта? | Can I have one more piece of cake? |
+
+---
+
+#### Exercises
+
+**Ex 197 · ConstructionMeaning** *(ID: 2)*
+
+Выбери правильный перевод:
+
+"One more try."
+
+- **Ещё одна попытка.** ✓
+- Первая попытка.
+- Последняя попытка.
+- Одна попытка.
+
+*Explanation (при ошибке):* one more = ещё один/одна (следующий из той же серии). "One more try" = ещё одна попытка.
+
+---
+
+**Ex 198 · ConstructionMeaning** *(ID: 3)*
+
+Выбери правильный перевод:
+
+"Just one more minute."
+
+- Только одна минута.
+- Ещё целая минута.
+- **Всего ещё одна минута.** ✓
+- Последняя минута.
+
+*Explanation (при ошибке):* just смягчает — "буквально ещё одна минута". one more = ещё одна из той же серии, а не просто "одна".
+
+---
+
+**Ex 199 · MultipleChoice · FORWARD_CHOICE** *(ID: 33)*
+
+"Оля попросила официанта ещё один кофе."
+
+- Olya asked the waiter for one more coffees.
+- **Olya asked the waiter for one more coffee.** ✓
+- Olya asked the waiter for one another coffee.
+
+*Explanation (при ошибке):* one more + noun (ед.ч.). После "one more" существительное не меняется: one more coffee, не coffees. "One another" — несуществующая конструкция.
+
+---
+
+**Ex 200 · MultipleChoice · FORWARD_CHOICE** *(ID: 34)*
+
+"Повтори ещё раз, пожалуйста!"
+
+- Repeat one time more, please!
+- **Repeat one more time, please!** ✓
+- Repeat one more again, please!
+
+*Explanation (при ошибке):* "one more time" — устойчивая фраза. Порядок: one more + noun. "One more again" — дублирование (again уже значит "снова"). "One time more" — неправильный порядок слов.
+
+---
+
+#### Clarification Options
+
+- В чём реальная разница между one more и another?
+- Можно ли сказать "one more of" + существительное?
+- Как сказать "ещё немного"?
+
+---
+
+### Words8r Sync · Числа
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| eleven | одиннадцать | [ɪˈlevən] |
+| twelve | двенадцать | [twelv] |
+| fifteen | пятнадцать | [ˌfɪfˈtiːn] |
+| eighteen | восемнадцать | [ˌeɪˈtiːn] |
+| forty | сорок | [ˈfɔːti] |
+| fifty | пятьдесят | [ˈfɪfti] |
+| eighty | восемьдесят | [ˈeɪti] |
+| hundred | сто | [ˈhʌndrəd] |
+| thousand | тысяча | [ˈθaʊzənd] |
+| million | миллион | [ˈmɪljən] |
+| first | первый | [fɜːst] |
+| second | второй | [ˈsekənd] |
+| third | третий | [θɜːd] |
+| fifth | пятый | [fɪfθ] |
+| eighth | восьмой | [eɪtθ] |
+| twelfth | двенадцатый | [twelfθ] |
+| twentieth | двадцатый | [ˈtwentiəθ] |
+
+---
+---
+
+## Microtopic 15 — The Calendar · Календарь
+
+**ID:** 15 | **Order:** 15
+
+---
+
+### Card 35 · Заглавные буквы: дни, месяцы, сезоны
+
+**ID:** 35 | **Order:** 1
+
+#### Theory
+
+В русском языке дни недели и месяцы пишутся со строчной буквы: понедельник, январь, осень.
+
+В английском — другие правила. Важно понять не просто "так надо", а почему.
+
+---
+
+**Дни недели — ЗАГЛАВНАЯ буква**
+
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+
+---
+
+**Месяцы — ЗАГЛАВНАЯ буква**
+
+January, February, March, April, May, June, July, August, September, October, November, December
+
+---
+
+**Сезоны — строчная буква** ⚠️
+
+spring, summer, autumn, winter
+
+Это исключение которое путает всех русских.
+
+---
+
+**Почему такая разница?**
+
+В английском есть понятие "proper noun" — собственное имя. Это уникальные имена конкретных вещей: имена людей (Anna, Igor), названия городов (London, Moscow), названия стран (Russia, France).
+
+Дни недели и месяцы считаются собственными именами — у каждого есть своё уникальное "имя": Monday — это конкретный день, как имя человека. January — конкретный месяц с именем.
+
+Сезоны — нет. Spring — это описательное слово, оно описывает тип времени года, а не называет конкретную уникальную вещь. Поэтому строчная.
+
+Аналогия: мы пишем "река" (common noun — строчная) но "река Нева" или просто "Нева" (proper noun — заглавная). Так же: "season" строчная, но "Monday" — это как имя, заглавная.
+
+---
+
+**Ловушка:** в названиях событий сезон может стать собственным именем:
+"The Summer Olympics", "The Spring Festival" — здесь Summer и Spring как часть официального названия → заглавная. Это исключение из исключения.
+
+---
+
+**Сокращения тоже с заглавной:**
+
+Mon, Tue, Wed, Thu, Fri, Sat, Sun
+Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Дни недели и месяцы — заглавная (Monday, January): они собственные имена. Сезоны — строчная (spring, winter): описательные слова. Сокращения тоже с заглавной: Mon, Jan.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 208 | Встреча в понедельник. | The meeting is on **M**onday. |
+| 209 | Я родилась в январе. | I was born in **J**anuary. |
+| 210 | Летом жарко. | It's hot in **s**ummer. |
+| 211 | Весной цветут деревья. | Trees blossom in **s**pring. |
+
+---
+
+#### Clarification Options
+
+- Почему сезоны пишутся со строчной, а дни и месяцы — с заглавной?
+- Всегда ли Summer/Winter пишутся со строчной?
+- Правило заглавной распространяется на сокращения (Mon, Jan)?
+
+---
+
+### Card 36 · Days of the Week · Дни недели
+
+**ID:** 36 | **Order:** 2
+
+#### Theory
+
+**Monday** (пн) · **Tuesday** (вт) · **Wednesday** (ср) · **Thursday** (чт) · **Friday** (пт) · **Saturday** (сб) · **Sunday** (вс)
+
+---
+
+**Помогалки для запоминания:**
+
+- **Monday** — Moon day *(день Луны)*
+- **Saturday** — Saturn's day *(день Сатурна)*
+- **Wednesday** — произносится "**WENZday**" [ˈwenzdeɪ], буква d в середине не читается! Wed-nes-day → [ˈwenzdeɪ]. Это одна из самых частых ошибок произношения.
+
+---
+
+**Структура недели**
+
+- **Weekdays** — рабочие дни: Monday to Friday
+- **Weekend** — выходные: Saturday + Sunday
+
+В США неделя в большинстве календарей начинается с **Sunday**. В UK и большинстве стран — с **Monday**.
+
+---
+
+**Предлоги с днями недели**
+
+- **on** + день: "I have a meeting **on** Monday." *(в понедельник)*
+- **on** + день + **s** = каждый такой день: "I don't work **on** Mondays." *(по понедельникам)*
+- **at the weekend** (брит.) / **on the weekend** (амер.)
+
+**Ловушка:** "in Monday", "in Friday" — ошибка. Только **on**!
+
+По-русски мы говорим "в понедельник" — но это не "in". В английском день = конкретная дата на календаре → **on**.
+
+---
+
+**Полезные фразы:**
+
+- "What day is it today?" — Какой сегодня день?
+- "It's Monday." — Сегодня понедельник.
+- "See you on Friday!" — Увидимся в пятницу!
+- "I'll do it first thing Monday morning." — Сделаю первым делом в понедельник утром.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Monday–Sunday, все с заглавной. Wednesday произносится [ˈwenzdeɪ], d не читается. on + день (on Monday). on + день + s = каждую неделю (on Mondays). at the weekend (брит.) / on the weekend (амер.).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 212 | В пятницу у Лены важное собеседование. | Lena has an important interview on Friday. |
+| 213 | По средам я хожу в спортзал. | I go to the gym on Wednesdays. |
+| 214 | В эти выходные мы едем на дачу. | We're going to the dacha this weekend. |
+| 215 | Что ты делал в воскресенье? | What did you do on Sunday? |
+| 216 | В будни он встаёт в семь утра. | On weekdays he gets up at seven. |
+| 217 | Магазин закрыт по субботам. | The shop is closed on Saturdays. |
+
+---
+
+#### Exercises
+
+**Ex 201 · Matching** *(ID: 6)*
+
+Задание: соедини каждый день с русским переводом.
+
+| EN | RU |
+|----|----|
+| Monday | суббота |
+| Wednesday | пятница |
+| Friday | среда |
+| Saturday | понедельник |
+| Sunday | воскресенье |
+
+*Answers:* Monday→понедельник, Wednesday→среда, Friday→пятница, Saturday→суббота, Sunday→воскресенье
+
+---
+
+**Ex 202 · MultipleChoice · FORWARD_CHOICE** *(ID: 35)*
+
+"Встреча состоится в четверг."
+
+- The meeting will take place in Thursday.
+- **The meeting will take place on Thursday.** ✓
+- The meeting will take place at Thursday.
+
+*Explanation (при ошибке):* день недели → предлог on. По-русски "в четверг" — но в английском это on, не in.
+
+---
+
+**Ex 203 · MultipleChoice · FORWARD_CHOICE** *(ID: 36)*
+
+"По понедельникам я работаю из дома."
+
+- **I work from home on Mondays.** ✓
+- I work from home in Mondays.
+- I work from home at Monday.
+
+*Explanation (при ошибке):* "каждый понедельник" = on Mondays (с -s). Предлог on. in и at с днями недели — ошибка.
+
+---
+
+**Ex 204 · MultipleChoice · FORWARD_CHOICE** *(ID: 37)*
+
+"Что ты делаешь в эти выходные?"
+
+- **What are you doing at the weekend?** ✓
+- What are you doing in the weekend?
+- What are you doing on a weekend?
+
+*Explanation (при ошибке):* "at the weekend" — устойчивая британская фраза. "on the weekend" тоже корректно в американском. "in the weekend" — ошибка.
+
+---
+
+**Ex 205 · TextInput** *(ID: 17)*
+
+Вставь правильный предлог (on / at):
+
+1. "I'll see you ___ Friday." → **on**
+2. "She goes to the market ___ Sundays." → **on**
+3. "What do you usually do ___ the weekend?" → **at**
+4. "The game is ___ Saturday evening." → **on**
+5. "He never works ___ weekends." → **on**
+
+*Explanation (при ошибке):* Дни недели и даты — всегда on. "At the weekend" — устойчивое выражение с at (брит.).
+
+---
+
+**Ex 206 · Transformation** *(ID: 3)*
+
+Задание: сделай отрицание (Present Simple)
+
+1. "She works on Saturdays." → **"She doesn't work on Saturdays."**
+2. "They have classes on Wednesdays." → **"They don't have classes on Wednesdays."**
+3. "He visits his parents on Sundays." → **"He doesn't visit his parents on Sundays."**
+
+*Explanation (при ошибке):* Present Simple отрицание = don't / doesn't + V1 (инфинитив без to). She/he/it → doesn't. I/you/we/they → don't. Глагол возвращается в базовую форму: works → doesn't work.
+
+---
+
+**Ex 207 · FindTheOdd** *(ID: 6)*
+
+Три слова написаны правильно, одно — с ошибкой (строчная вместо заглавной):
+
+- Monday
+- **tuesday** ✓
+- Wednesday
+- Thursday
+
+*Explanation (при ошибке):* Все дни недели пишутся с заглавной буквы. tuesday → Tuesday.
+
+---
+
+**Ex 208 · FindTheOdd** *(ID: 7)*
+
+Три слова написаны правильно, одно — с опечаткой:
+
+- **Wensday** ✓
+- Tuesday
+- Friday
+- Sunday
+
+*Explanation (при ошибке):* Wednesday — не Wensday. Буква d в середине не читается, но пишется: Wed-nes-day.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card36_ex1
+**Title:** "Дни недели в контексте"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст предложения с пропусками. Вставь правильный предлог (on/at) или день недели."
+**Prompt Template:** "Дай 4 английских предложения с пропусками [___]. Чередуй задания: вставить предлог перед днём, вставить сам день по контексту, вставить 'at the weekend' vs 'on weekdays'. Дай русский перевод рядом. Проверь ответы. При ошибке объясни кратко по-русски.
+
+Пример вывода AI: '1. I have a dentist appointment [___] Tuesday. (У меня приём у зубного во вторник.) 2. She visits her parents every [___]. (Она навещает родителей каждое воскресенье.) 3. Do you usually work [___] the weekend? (Ты обычно работаешь в выходные?) 4. The gym is closed [___] Sundays. (Спортзал закрыт по воскресеньям.)'"
+
+#### Clarification Options
+
+- Почему "on Monday" а не "in Monday"?
+- Как правильно: "at the weekend" или "on the weekend"?
+- Как сказать "каждый вторник" по-английски?
+
+---
+
+### Card 37 · Months · Месяцы
+
+**ID:** 37 | **Order:** 3
+
+#### Theory
+
+**January** (янв) · **February** (фев) · **March** (мар) · **April** (апр) · **May** (май) · **June** (июн)
+**July** (июл) · **August** (авг) · **September** (сен) · **October** (окт) · **November** (ноя) · **December** (дек)
+
+---
+
+**Предлог с месяцами — всегда in**
+
+- "in **January**" — в январе
+- "in **July**" — в июле
+- "in **December**" — в декабре
+
+**Ловушка:** "on January" без числа — ошибка. Месяц как период → **in**.
+
+С числом:
+- "**on** the 5th of January" — 5 января *(брит. порядок: число + of + месяц)*
+- "**on** January 5th" — 5 января *(амер. порядок: месяц + число)*
+
+Оба варианта правильны. Запятая после года в американском стиле: "January 5th, 2024".
+
+---
+
+**Произношение-ловушки:**
+
+- **February** [ˈfebrʊəri] — первое "r" часто проглатывается в разговоре, звучит как "Febyuary". Это нормально — так говорят многие носители.
+- **August** [ˈɔːɡəst] — ударение на первый слог: **AU**-gust, не au-**GUST**.
+- **Wednesday** — уже знаешь *(из карточки про дни)*
+
+---
+
+**Сокращения:**
+
+Jan · Feb · Mar · Apr · May · Jun · Jul · Aug · Sep/Sept · Oct · Nov · Dec
+
+---
+
+**В каком месяце какой сезон** *(северное полушарие)*:
+
+| Сезон | Месяцы |
+|-------|--------|
+| Spring (весна) | March, April, May |
+| Summer (лето) | June, July, August |
+| Autumn/Fall (осень) | September, October, November |
+| Winter (зима) | December, January, February |
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+January–December, все с заглавной. Предлог: in + месяц (in March). С числом: on the 5th of March или on March 5th. February произносится часто как "Febyuary". August — ударение на первый слог.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 218 | Её день рождения в мае. | Her birthday is in May. |
+| 219 | Экзамены начинаются в июне. | Exams start in June. |
+| 220 | Концерт прошёл третьего октября. | The concert was on the 3rd of October. |
+| 221 | Саша приедет в декабре. | Sasha is coming in December. |
+| 222 | В феврале мало дней. | February has few days. |
+| 223 | Они поженились в августе 2019 года. | They got married in August 2019. |
+
+---
+
+#### Exercises
+
+**Ex 209 · Categorization** *(ID: 5)*
+
+Распредели месяцы по временам года:
+
+**Месяцы:** January, March, June, September, December, April, July, October, February, May, August, November
+
+| Spring | Summer | Autumn | Winter |
+|---|---|---|---|
+| March, April, May | June, July, August | September, October, November | December, January, February |
+
+---
+
+**Ex 210 · TextInput** *(ID: 18)*
+
+Вставь правильный месяц:
+
+1. Первый месяц года → **January**
+2. Самый короткий месяц → **February**
+3. Последний месяц года → **December**
+4. Месяц после July → **August**
+5. Месяц перед June → **May**
+
+---
+
+**Ex 211 · MultipleChoice · CHOICE** *(ID: 43)*
+
+"I was born ___ October." *(в октябре)*
+
+- at
+- on
+- **in** ✓
+
+*Explanation (при ошибке):* месяц как период времени → in. "In October" = в октябре.
+
+---
+
+**Ex 212 · MultipleChoice · CHOICE** *(ID: 44)*
+
+"The festival is ___ the 3rd of September." *(третьего сентября)*
+
+- in
+- **on** ✓
+- at
+
+*Explanation (при ошибке):* конкретная дата → on. "On the 3rd of September". Когда есть число — только on.
+
+---
+
+**Ex 213 · MultipleChoice · CHOICE** *(ID: 45)*
+
+"We're going on holiday ___ August." *(в августе)*
+
+- **in** ✓
+- on
+- at
+
+*Explanation (при ошибке):* месяц без конкретного числа → in. "In August".
+
+---
+
+**Ex 214 · WordArrangement** *(ID: 27)*
+
+Ситуация: День рождения Иры — третье апреля.
+
+Правильное предложение: **Ira's birthday is on the 3rd of April.**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| Ira's birthday | день рождения Иры | — |
+| is | — | — |
+| on | — | — |
+| the | — | — |
+| 3rd | третьего | — |
+| of April | апреля | — |
+| in | — | ✗ дистрактор |
+| at | — | ✗ дистрактор |
+
+*Explanation (при ошибке):* конкретная дата → on. "On the 3rd of April" — стандартная британская форма записи даты.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card37_ex1
+**Title:** "Месяцы и предлоги"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст предложения с пропусками. Вставь правильный предлог или месяц."
+**Prompt Template:** "Дай 4 английских предложения с пропусками [___]. Включи: 1) пропуск на предлог перед месяцем (in/on), 2) пропуск на название месяца по описанию или порядку, 3) пропуск на предлог перед датой с числом, 4) пропуск на название месяца по сезону. Дай русский перевод рядом. Проверь. При ошибке объясни.
+
+Пример вывода AI: '1. School starts [___] September. (Школа начинается в сентябре.) 2. The third month of the year is [___]. (Третий месяц года — ...) 3. Her wedding was [___] the 14th of June. (Её свадьба была четырнадцатого июня.) 4. Which month is the last month of summer? [___] (Какой месяц — последний летний?)'"
+
+#### Clarification Options
+
+- Почему "in January" но "on the 5th of January"?
+- Как правильно писать дату по-английски: британский и американский варианты?
+- Почему February часто произносят без первого r?
+
+---
+
+### Card 38 · Seasons · Времена года
+
+**ID:** 38 | **Order:** 4
+
+#### Theory
+
+**spring** (весна) · **summer** (лето) · **autumn** / **fall** (осень) · **winter** (зима)
+
+Все четыре — **строчными буквами** (помни из Card 35).
+
+---
+
+**Autumn или Fall?**
+
+Оба слова означают осень — это просто разные диалекты:
+- **autumn** — британский английский
+- **fall** — американский английский
+
+Оба абсолютно правильны. Если смотришь американское кино или сериалы — услышишь fall. Британские книги и BBC — autumn.
+
+---
+
+**Предлог с временами года — всегда in**
+
+- "in **spring**" — весной
+- "in **summer**" — летом
+- "in **autumn**" / "in **fall**" — осенью
+- "in **winter**" — зимой
+
+**Ловушка:** "on summer", "on spring" — ошибка.
+**Ловушка 2:** "in Summer" с заглавной — ошибка (если это не название события).
+
+В американском английском часто добавляют артикль: "in **the** spring", "in **the** fall" — тоже правильно.
+
+---
+
+**Полезные фразы:**
+
+- "What's your favourite season?" — Какое у тебя любимое время года?
+- "I love summer because..." — Я люблю лето, потому что...
+- "It gets cold in autumn." — Осенью становится холодно.
+- "Spring is in the air." — Весной пахнет. *(идиома: "весна в воздухе")*
+
+---
+
+**Сезоны и месяцы — напоминание:**
+
+| Сезон | Месяцы |
+|-------|--------|
+| spring | March · April · May |
+| summer | June · July · August |
+| autumn / fall | September · October · November |
+| winter | December · January · February |
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+spring / summer / autumn / fall / winter — строчными. Autumn (брит.) = fall (амер.). Предлог: in + сезон (in spring). В американском: in the spring тоже нормально.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 224 | Я обожаю осень за её цвета. | I love autumn for its colours. |
+| 225 | Летом мы ездим на море. | In summer we go to the seaside. |
+| 226 | Зимой в Москве очень холодно. | It's very cold in Moscow in winter. |
+| 227 | Весной день становится длиннее. | The days get longer in spring. |
+| 228 | Какое у тебя любимое время года? | What's your favourite season? |
+
+---
+
+#### Exercises
+
+**Ex 215 · ErrorCorrection** *(ID: 15)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"I love Summer — it's my favourite season."
+
+- I love Summer — it's my favourite season.
+- **I love summer — it's my favourite season.** ✓
+- I love a summer — it's my favourite season.
+
+*Explanation (при ошибке):* Сезоны пишутся со строчной буквы: summer, not Summer (если это не название мероприятия типа "The Summer Olympics").
+
+---
+
+**Ex 216 · ErrorCorrection** *(ID: 16)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"We always go skiing on winter."
+
+- We always go skiing on winter.
+- **We always go skiing in winter.** ✓
+- We always go skiing at winter.
+
+*Explanation (при ошибке):* Времена года → предлог in. "In winter" — единственный правильный вариант.
+
+---
+
+**Ex 217 · ErrorCorrection** *(ID: 17)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"At autumn the leaves turn red."
+
+- At autumn the leaves turn red.
+- On autumn the leaves turn red.
+- **In autumn the leaves turn red.** ✓
+
+*Explanation (при ошибке):* in autumn — единственный правильный предлог для сезонов. at и on с сезонами не используются.
+
+---
+
+**Ex 218 · MultipleChoice · FORWARD_CHOICE** *(ID: 38)*
+
+"Весной часто идут дожди."
+
+- It often rains on spring.
+- **It often rains in spring.** ✓
+- It often rains at spring.
+
+*Explanation (при ошибке):* сезон → предлог in.
+
+---
+
+**Ex 219 · MultipleChoice · FORWARD_CHOICE** *(ID: 39)*
+
+"Осенью листья падают с деревьев."
+
+- In Autumn the leaves fall from the trees.
+- **In autumn the leaves fall from the trees.** ✓
+- On autumn the leaves fall from the trees.
+
+*Explanation (при ошибке):* autumn — строчная (не Autumn, кроме названий событий). Предлог in.
+
+---
+
+**Ex 220 · MultipleChoice · FORWARD_CHOICE** *(ID: 40)*
+
+"Летом солнце садится поздно."
+
+- **In summer the sun sets late.** ✓
+- In Summer the sun sets late.
+- On summer the sun sets late.
+
+*Explanation (при ошибке):* summer — строчная. Предлог in.
+
+---
+
+**Ex 221 · TrueFalse** *(ID: 26)*
+
+| # | Утверждение | Верно? |
+|---|---|---|
+| 1 | Все четыре сезона пишутся со строчной буквы. | ✓ |
+| 2 | Autumn — американский вариант, fall — британский. | ✗ |
+| 3 | Предлог с временами года — всегда "in". | ✓ |
+| 4 | "In the summer" — ошибка, артикль не нужен. | ✗ |
+| 5 | Spring начинается в марте (северное полушарие). | ✓ |
+
+*Explanation (при ошибке):* 2) наоборот: autumn = брит., fall = амер. 4) "in the summer" — нейтральный американский вариант, ошибкой не является.
+
+---
+
+**Ex 222 · DialogRestore** *(ID: 5)*
+
+Диалог с пропуском — выбери правильную реплику:
+
+> — What time of year do you prefer?
+> — ___
+> — Really? I prefer winter. I love snow.
+
+Варианты:
+- a) "I like in summer. It's warm." ✗
+- b) "I prefer summer. It's warm and sunny." ✓
+- c) "I like the Summer better." ✗
+
+*Explanation:* b — правильно: prefer + существительное (prefer summer), строчная буква. a — ошибка: "like in summer" — лишний "in". c — ошибка: заглавная Summer.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card38_ex1
+**Title:** "Любимый сезон"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI задаст вопросы о сезонах. Отвечай по-английски. AI проверит правильность предлогов и заглавных букв."
+**Prompt Template:** "Задай пользователю 3 вопроса о временах года по-английски (с русским переводом). Вопросы должны требовать ответа с предлогом in + сезон, названиями месяцев и правильным регистром букв. После ответа проверь: 1) правильный предлог (in spring, не on spring), 2) строчная буква у сезонов, 3) осмысленность ответа. При ошибке исправь и объясни по-русски.
+
+Пример вывода AI: '1. What is your favourite season and why? (Какое твоё любимое время года и почему?) 2. What do you usually do in winter? (Что ты обычно делаешь зимой?) 3. What happens to nature in spring? (Что происходит с природой весной?)'"
+
+#### Clarification Options
+
+- Почему предлог "in" а не "on" перед сезоном?
+- В каких странах осень называют "fall"?
+- Можно ли сказать "in the winter" с артиклем?
+
+---
+
+### Words8r Sync · Календарь
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| Monday | понедельник | [ˈmʌndeɪ] |
+| Tuesday | вторник | [ˈtjuːzdeɪ] |
+| Wednesday | среда | [ˈwenzdeɪ] |
+| Thursday | четверг | [ˈθɜːzdeɪ] |
+| Friday | пятница | [ˈfraɪdeɪ] |
+| Saturday | суббота | [ˈsætədeɪ] |
+| Sunday | воскресенье | [ˈsʌndeɪ] |
+| January | январь | [ˈdʒænjʊəri] |
+| February | февраль | [ˈfebrʊəri] |
+| March | март | [mɑːtʃ] |
+| April | апрель | [ˈeɪprəl] |
+| June | июнь | [dʒuːn] |
+| July | июль | [dʒʊˈlaɪ] |
+| August | август | [ˈɔːɡəst] |
+| September | сентябрь | [sepˈtembə] |
+| October | октябрь | [ɒkˈtoʊbə] |
+| November | ноябрь | [noʊˈvembə] |
+| December | декабрь | [dɪˈsembə] |
+| spring | весна | [sprɪŋ] |
+| summer | лето | [ˈsʌmə] |
+| autumn | осень | [ˈɔːtəm] |
+| fall | осень (амер.) | [fɔːl] |
+| winter | зима | [ˈwɪntə] |
+| weekend | выходные | [ˌwiːkˈend] |
+| weekday | будний день | [ˈwiːkdeɪ] |
+
+---
+---
+
 ## Счётчики IDs для продолжения
 
 > Следующий блок начинает IDs с этих значений:
 
 | Тип | Последний использованный ID | Следующий блок начинает с |
 |-----|-----------------------------|--------------------------|
-| Microtopic | 12 | 13 |
-| Card | 28 | 29 |
-| Example | 176 | 177 |
-| Exercise | 161 | 162 |
+| Microtopic | 15 | 16 |
+| Card | 38 | 39 |
+| Example | 228 | 229 |
+| Exercise | 222 | 223 |
 
 ---
 
 
 
-**Таблица счётчиков** (последний использованный ID в `1_basics.md` на момент перенумерации):
+**Таблица счётчиков** (актуально после микротем 13–15):
 
 | Тип | Последний ID | Следующий |
 |-----|-------------|-----------|
-| WordArrangement | 25 | 26 |
-| MultipleChoice | 36 | 37 |
-| TrueFalse | 24 | 25 |
-| ErrorCorrection | 10 | 11 |
-| TextInput | 13 | 14 |
-| Matching | 4 | 5 |
-| Transformation | 2 | 3 |
-| Categorization | 3 | 4 |
-| TableFill | 4 | 5 |
-| FindTheOdd | 3 | 4 |
-| FORWARD_CHOICE | 24 | 25 |
-| ReverseChoice | 7 | 8 |
-| ConstructionMeaning | 1 | 2 |
-| DialogRestore | 4 | 5 |
-| AiExercise | 28 | 29 |
-| Microtopic | 12 | 13 |
-| Card | 28 | 29 |
-| Example | 176 | 177 |
+| WordArrangement | 27 | 28 |
+| MultipleChoice | 45 | 46 |
+| TrueFalse | 26 | 27 |
+| ErrorCorrection | 17 | 18 |
+| TextInput | 18 | 19 |
+| Matching | 6 | 7 |
+| Transformation | 3 | 4 |
+| Categorization | 5 | 6 |
+| TableFill | 6 | 7 |
+| FindTheOdd | 7 | 8 |
+| FORWARD_CHOICE | 40 | 41 |
+| ReverseChoice | 13 | 14 |
+| ConstructionMeaning | 3 | 4 |
+| DialogRestore | 5 | 6 |
+| AiExercise | 36 штук в файле | ID строковый: basics_card{N}_ex1 |
+| Microtopic | 15 | 16 |
+| Card | 38 | 39 |
+| Example | 228 | 229 |

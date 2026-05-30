@@ -1,7 +1,31 @@
 # Exercise Templates — Grammar8r
 
 Эталонные форматы для 14 типов хардкодных упражнений.  
-При написании нового упражнения — сверяться с этим файлом.
+При написании нового упражнения — **ЖЁСТКО** сверяться с этим файлом.
+
+---
+
+## ⚠️ КРИТИЧНО: количество вопросов на одно упражнение
+
+| Тип | Вопросов в одном Ex N | Комментарий |
+|-----|-----------------------|-------------|
+| MultipleChoice · CHOICE | **1** | 1 пропуск + 3 варианта |
+| MultipleChoice · FORWARD_CHOICE | **1** | 1 RU предложение + 3 EN варианта |
+| MultipleChoice · REVERSE_CHOICE | **1** | 1 EN предложение + 3 RU варианта |
+| ErrorCorrection | **1** | 1 сломанное предложение + 3 варианта |
+| ConstructionMeaning | **1** | 1 конструкция + 4 варианта |
+| DialogRestore | **1** | 1 диалог с пропуском + 3 варианта |
+| FindTheOdd | **1** | 4 элемента, найти 1 лишнее |
+| TableFill | **1** | 1 таблица, до 7 строк |
+| WordArrangement | **1** | 1 предложение собрать |
+| TextInput | **1** | 3–5 пунктов внутри одного блока |
+| TrueFalse | **1** | ровно 5 предложений |
+| Matching | **1** | 4–6 пар |
+| Categorization | **1** | 2–3 категории, 6–15 элементов |
+| Transformation | **1** | ровно 3 трансформации одного типа |
+| AI Exercise | **1** | 1 промт, всегда в конце карточки |
+
+> Нарушение этого правила — каждый вопрос должен быть отдельным Ex N с отдельным ID типа.
 
 ---
 
@@ -370,3 +394,325 @@ B: ___
 - Нет `Пример вывода AI:` — нельзя проверить что AI выдаст
 - User Instruction слишком техническая ("AI даст FILL_BLANKS...") — пользователь это не должен видеть
 - Prompt Template не указывает язык объяснения ошибки — AI может ответить по-английски
+
+---
+
+## DB-схемы таблиц упражнений
+
+> **Единый источник правды** для всех хардкодных типов.  
+> `db_schema.md` → раздел «Таблицы упражнений по типам» ссылается сюда.  
+> Контент загружается из assets JSON при первом запуске (`INSERT OR IGNORE`).  
+> ⚠️ `id` уникален **внутри типа**, не глобально: `WordArrangement(id=1)` и `TrueFalse(id=1)` — разные упражнения.
+
+---
+
+### `WordArrangementExercise`
+
+```kotlin
+data class WordArrangementExercise(
+
+    val id: Int,
+    // PK. Совпадает с exerciseId в CardExerciseIndex.
+
+    val situationRu: String,
+    // Контекст задания на русском. Начинается с "RU:" (прямой перевод) или "Ситуация:" (контекст).
+    // Пример: "Ситуация: котёнок выпрыгнул из коробки."
+
+    val correctSentence: String,
+    // Правильное предложение целиком. Показывается при второй ошибке.
+    // Пример: "The kitten jumped out of the box."
+
+    val words: String,
+    // JSON: слова для сборки — список объектов с text и translation.
+    // translation = "" если слово уже знакомо из предыдущих карточек (подсказка по нажатию).
+    // Пример: [{"text":"jumped","translation":"прыгнул"},{"text":"out of","translation":"из"}]
+
+    val distractors: String,
+    // JSON: лишние слова-ловушки с переводами. Минимум 2.
+    // Пример: [{"text":"into","translation":"в (внутрь)"},{"text":"over","translation":"поверх"}]
+
+    val explanation: String
+    // Объясняет только ошибочные части, не всё предложение.
+    // Почему каждый дистрактор не подходит.
+)
+```
+
+---
+
+### `MultipleChoiceExercise`
+
+Используется для типов **CHOICE**, **FORWARD_CHOICE**, **REVERSE_CHOICE**.  
+Различаются только полем `choiceType` — UI рендерит одинаково.
+
+```kotlin
+enum class ChoiceType { CHOICE, FORWARD_CHOICE, REVERSE_CHOICE }
+
+data class MultipleChoiceExercise(
+
+    val id: Int,
+    // PK. Уникален внутри своего choiceType.
+
+    val choiceType: ChoiceType,
+    // CHOICE — EN предложение с пропуском → вставить слово.
+    // FORWARD_CHOICE — RU предложение/ситуация → выбрать правильный EN вариант.
+    // REVERSE_CHOICE — EN предложение → выбрать правильный RU перевод.
+
+    val prompt: String,
+    // Основное условие задания.
+    // CHOICE: EN предложение с "___". Пример: "He is ___ honest person."
+    // FORWARD_CHOICE: RU предложение. Пример: "Мой брат — программист."
+    // REVERSE_CHOICE: EN предложение. Пример: "She works at a hospital."
+
+    val contextRu: String,
+    // Контекст/подсказка по-русски. Показывается в скобках после prompt.
+    // Для FORWARD_CHOICE: ситуационный контекст если нужен ("Предмет лежит рядом с тобой.").
+    // Для CHOICE/REVERSE_CHOICE: "" если не нужен.
+
+    val options: String,
+    // JSON: ровно 3 варианта. Один isCorrect = true.
+    // Пример: [{"text":"He is a programmer.","isCorrect":false},{"text":"He is a programmer.","isCorrect":true},...]
+    // ⚠️ Правильный ответ НЕ всегда на второй позиции — чередовать.
+
+    val explanation: String
+    // Почему правильный вариант правильный + почему каждый неправильный не подходит.
+)
+```
+
+---
+
+### `TextInputExercise`
+
+```kotlin
+data class TextInputExercise(
+
+    val id: Int,
+    // PK.
+
+    val items: String,
+    // JSON: 3–5 пунктов. Каждый пункт — одно задание внутри блока.
+    // Пример: [
+    //   {"sentence":"___ is the capital of France?","contextRu":"Спрашиваю о городе","answer":"What","alternatives":[]},
+    //   {"sentence":"___ are you late?","contextRu":"Хочу узнать причину","answer":"Why","alternatives":[]}
+    // ]
+    // alternatives: список дополнительно принятых ответов (регистр игнорируется).
+
+    val explanation: String
+    // Общее правило для серии + типичные ошибки (регистр, апостроф и т.д.).
+    // Не объяснять каждый пункт отдельно.
+)
+```
+
+---
+
+### `TrueFalseExercise`
+
+```kotlin
+data class TrueFalseExercise(
+
+    val id: Int,
+    // PK.
+
+    val statements: String,
+    // JSON: ровно 5 утверждений. Каждое содержит текст EN, перевод RU и флаг isTrue.
+    // Формат: [{"en":"He go to work.","ru":"Он ходит на работу.","isTrue":false}, ...]
+    // Стандарт: всегда ровно 5. Минимум 2 верных (isTrue=true) и 2 неверных.
+
+    val explanation: String
+    // Только неверные строки и ошибка в каждой. Верные не пересказывать.
+)
+```
+
+---
+
+### `ErrorCorrectionExercise`
+
+```kotlin
+data class ErrorCorrectionExercise(
+
+    val id: Int,
+    // PK.
+
+    val wrongSentence: String,
+    // Сломанное английское предложение. БЕЗ русского перевода в условии.
+    // Если нужен русский контекст → использовать FORWARD_CHOICE, не ErrorCorrection.
+    // Пример: "Don't take that pen — it's my."
+
+    val options: String,
+    // JSON: ровно 3 варианта. Один или два isCorrect = true.
+    // Неправильные — другие частые ошибки на то же правило, не бессмыслица.
+    // Пример: [{"text":"it's mine.","isCorrect":true},{"text":"it's me.","isCorrect":false},...]
+
+    val explanation: String
+    // Назвать конкретную ошибку в wrongSentence + объяснить правило.
+)
+```
+
+---
+
+### `TransformationExercise`
+
+```kotlin
+data class TransformationExercise(
+
+    val id: Int,
+    // PK.
+
+    val taskDescription: String,
+    // Одна строка — что именно трансформировать.
+    // Пример: "сделай предложение во множественном числе"
+    // Пример: "перепиши с использованием 's вместо of"
+
+    val items: String,
+    // JSON: ровно 3 пары. Каждая — исходное предложение и трансформированное.
+    // Пример: [{"original":"This is my book.","transformed":"These are my books."}, ...]
+    // ⚠️ Всегда ровно 3 — не меньше, не больше.
+
+    val explanation: String
+    // Назвать правило трансформации + что чаще всего упускают.
+)
+```
+
+---
+
+### `CategorizationExercise`
+
+```kotlin
+data class CategorizationExercise(
+
+    val id: Int,
+    // PK.
+
+    val taskDescription: String,
+    // Одна строка — что распределять и куда.
+    // Пример: "перетащи слова в нужную категорию по типу предлога"
+
+    val categories: String,
+    // JSON: 2–3 категории с элементами.
+    // Пример: [{"title":"at","items":["midnight","noon","7 pm"]},{"title":"on","items":["Monday","Christmas"]}]
+    // Итого 6–15 элементов по всем категориям.
+
+    val explanation: String
+    // Правило для каждой категории — одной строкой.
+)
+```
+
+---
+
+### `TableFillExercise`
+
+```kotlin
+data class TableFillExercise(
+
+    val id: Int,
+    // PK.
+
+    val taskDescription: String,
+    // Одна строка — что заполнять.
+    // Пример: "запиши правильную форму глагола для каждого подлежащего"
+
+    val rows: String,
+    // JSON: строки таблицы. Каждая — подсказка и правильный ответ.
+    // Пример: [{"hint":"I","answer":"am"},{"hint":"he / she / it","answer":"is"}]
+    // До 7 строк — если больше, разбить на два TableFill.
+
+    val explanation: String
+    // Полное правило группой, не каждый ответ отдельно.
+)
+```
+
+---
+
+### `MatchingExercise`
+
+```kotlin
+data class MatchingExercise(
+
+    val id: Int,
+    // PK.
+
+    val taskDescription: String,
+    // Одна строка — что с чем соединять.
+    // Пример: "соедини местоимение с правильным переводом"
+
+    val pairs: String,
+    // JSON: 4–6 пар. Каждая — левая и правая части.
+    // Пример: [{"left":"he","right":"он"},{"left":"she","right":"она"}]
+    // 4 пары — стандарт. До 6 когда нужно покрыть весь логический список.
+
+    val explanation: String
+    // Краткое правило по каждой паре.
+)
+```
+
+---
+
+### `FindTheOddExercise`
+
+```kotlin
+data class FindTheOddExercise(
+
+    val id: Int,
+    // PK.
+
+    val groupDescription: String,
+    // Что объединяет три из четырёх — одним предложением. Показывается в условии задания.
+    // Пример: "Три слова — правильные формы мн.ч., одно — с ошибкой"
+
+    val items: String,
+    // JSON: ровно 4 элемента. Один isOdd = true (лишнее).
+    // Пример: [{"text":"cats","isOdd":false},{"text":"buses","isOdd":false},{"text":"leafs","isOdd":true},...]
+    // ⚠️ Всегда ровно 4.
+
+    val explanation: String
+    // Принцип объединения трёх + почему четвёртое не подходит.
+)
+```
+
+---
+
+### `ConstructionMeaningExercise`
+
+```kotlin
+data class ConstructionMeaningExercise(
+
+    val id: Int,
+    // PK.
+
+    val construction: String,
+    // Грамматическая конструкция целиком на английском.
+    // Пример: "That laptop is hers, not yours."
+
+    val options: String,
+    // JSON: ровно 4 варианта русского перевода. Один isCorrect = true.
+    // Неправильные — правдоподобные ошибки (перепутать hers/his, not/isn't и т.д.).
+    // Пример: [{"text":"Тот ноутбук её, а не твой.","isCorrect":true},...]
+
+    val explanation: String
+    // Разобрать конструкцию пословно. Указать что именно перепутали неправильные варианты.
+)
+```
+
+---
+
+### `DialogRestoreExercise`
+
+```kotlin
+data class DialogRestoreExercise(
+
+    val id: Int,
+    // PK.
+
+    val lines: String,
+    // JSON: строки диалога. Каждая — speaker ("A"/"B") и text (null = пропуск).
+    // ⚠️ Ровно одна строка с text = null — это и есть задание.
+    // Пример: [{"speaker":"A","text":"What day is it today?"},{"speaker":"B","text":null}]
+
+    val options: String,
+    // JSON: ровно 3 варианта реплики. Один isCorrect = true.
+    // Неправильные — грамматически неверные формы, не просто другой смысл.
+    // Пример: [{"text":"It's Monday.","isCorrect":true},{"text":"It's on Monday.","isCorrect":false},...]
+
+    val explanation: String
+    // Почему именно эта грамматическая форма правильная.
+)
+```
