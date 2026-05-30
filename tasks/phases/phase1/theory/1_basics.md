@@ -6788,7 +6788,9 @@ spring / summer / autumn / fall / winter — строчными. Autumn (бри�
 | Тип | Последний ID | Следующий |
 |-----|-------------|-----------|
 | WordArrangement | 27 | 28 |
-| MultipleChoice | 45 | 46 |
+| MultipleChoice · CHOICE | 45 | 46 |
+| MultipleChoice · FORWARD_CHOICE | 40 | 41 |
+| MultipleChoice · REVERSE_CHOICE | 13 | 14 |
 | TrueFalse | 26 | 27 |
 | ErrorCorrection | 17 | 18 |
 | TextInput | 18 | 19 |
@@ -6797,8 +6799,6 @@ spring / summer / autumn / fall / winter — строчными. Autumn (бри�
 | Categorization | 5 | 6 |
 | TableFill | 6 | 7 |
 | FindTheOdd | 7 | 8 |
-| FORWARD_CHOICE | 40 | 41 |
-| ReverseChoice | 13 | 14 |
 | ConstructionMeaning | 3 | 4 |
 | DialogRestore | 5 | 6 |
 | AiExercise | 36 штук в файле | ID строковый: basics_card{N}_ex1 |
