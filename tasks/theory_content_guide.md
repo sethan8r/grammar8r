@@ -188,6 +188,35 @@ advice — несчётное, артикль a/an с ним невозможе�
 
 Там: форматы всех 14 типов, DB-схемы, правила explanation.
 
+### Формат заголовка упражнения
+
+```
+**Ex N · [Точное имя типа]** *(ID: X)*
+```
+
+Имя типа — **точно как в таблице счётчиков** в конце theory-файла:
+
+`WordArrangement` · `MultipleChoice · CHOICE` · `MultipleChoice · FORWARD_CHOICE` · `MultipleChoice · REVERSE_CHOICE` · `TrueFalse` · `ErrorCorrection` · `TextInput` · `Matching` · `Transformation` · `Categorization` · `TableFill` · `FindTheOdd` · `ConstructionMeaning` · `DialogRestore`
+
+Примеры правильных заголовков:
+```
+**Ex 47 · TrueFalse** *(ID: 26)*
+**Ex 48 · MultipleChoice · FORWARD_CHOICE** *(ID: 40)*
+**Ex 49 · WordArrangement** *(ID: 27)*
+```
+
+### TrueFalse — формат утверждений
+
+Каждое утверждение — **реальное предложение на английском** (+ русский перевод), часть из которых содержит грамматическую ошибку. Пользователь сам определяет: правильно или нет.
+
+**Запрещено** писать мета-утверждения вроде `"Please" is a correct answer to "Thank you."` или `"Many" is used with uncountable nouns.` — это не тест на понимание грамматики, а тест на знание правил в абстракции. Вместо этого — конкретное предложение, которое либо грамматически верно, либо содержит ошибку:
+
+❌ Плохо: `"I have some good news." is correct.`
+✓ Хорошо: `I have some good news.` — *У меня есть хорошие новости.* — ✓
+
+❌ Плохо: `"Please" is a correct answer to "Thank you."`
+✓ Хорошо: `— Thank you! — Please.` — *— Спасибо! — Пожалуйста.* — ✗
+
 ### Ключевые правила кратко
 
 **1 вопрос = 1 упражнение** для типов: `MultipleChoice · CHOICE`, `MultipleChoice · FORWARD_CHOICE`, `MultipleChoice · REVERSE_CHOICE`, `ErrorCorrection`, `ConstructionMeaning`, `DialogRestore`, `FindTheOdd`.

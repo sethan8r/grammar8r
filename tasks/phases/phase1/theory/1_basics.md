@@ -6805,3 +6805,1300 @@ spring / summer / autumn / fall / winter — строчными. Autumn (бри�
 | Microtopic | 15 | 16 |
 | Card | 38 | 39 |
 | Example | 228 | 229 |
+
+---
+---
+
+# БЛОК 6 · Микротемы 16–18
+
+---
+
+## Microtopic 16 — Clock Time · Время на часах
+
+**ID:** 16 | **Order:** 16
+
+---
+
+### Card 39 · Форматы времени: o'clock, am/pm
+
+**ID:** 39 | **Order:** 1
+
+#### Theory
+
+В английском время можно сказать двумя способами: **цифровым** и **разговорным**.
+
+**Цифровой формат** — как на экране телефона: `3:00`, `15:30`, `7:45`. Читается так:
+- `3:00` → "three o'clock" или просто "three"
+- `15:30` → "three thirty" или "half past three"
+- `7:45` → "seven forty-five" или "quarter to eight"
+
+**o'clock** — это сокращение `of the clock` ("по часам"). Важно: `o'clock` используется **только для ровных часов**: "It's three o'clock." — правильно. "It's three fifteen o'clock." — ошибка. Для неровного времени `o'clock` не добавляется.
+
+**am и pm** — обозначают половины суток:
+- **am** (*ante meridiem* — до полудня): с полуночи (00:00) до полудня (12:00) — ночь, утро
+- **pm** (*post meridiem* — после полудня): с полудня до полуночи — день, вечер, ночь
+
+| Время | Что это | Как сказать |
+|-------|---------|-------------|
+| 7:00 am | утро | seven o'clock / 7 am |
+| 12:00 pm | полдень | noon / twelve pm |
+| 3:00 pm | день | three o'clock / 3 pm |
+| 9:00 pm | вечер | nine o'clock / 9 pm |
+| 12:00 am | полночь | midnight / twelve am |
+
+**Предлог `at` — единственный правильный предлог для конкретного времени.**
+
+"The meeting is **at** 3 pm." *(Встреча в 15:00.)*
+"I wake up **at** 7 am." *(Я встаю в 7 утра.)*
+
+**Ловушка:** по-русски мы говорим "в три часа" — предлог "в". Мозг переносит "in" или "on" в английский:
+- "The class starts **in** 9 am." ✗
+- "See you **on** 6 pm." ✗
+- "The class starts **at** 9 am." ✓
+- "See you **at** 6 pm." ✓
+
+Правило простое: время — всегда `at`. Без исключений.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`o'clock` — только для ровных часов. `am` — утро/ночь до полудня, `pm` — день/вечер после полудня. Время требует предлога `at`: "at 3 pm", "at noon", "at midnight". Никаких "in 3 pm" или "on 7 am".
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 229 | Встреча в три часа дня. | The meeting is at 3 pm. |
+| 230 | Мой рейс в семь утра. | My flight is at 7 am. |
+| 231 | Фильм начинается в девять вечера. | The film starts at 9 pm. |
+| 232 | Я встаю в шесть. | I get up at six. |
+
+---
+
+#### Exercises
+
+**Ex 223 · FORWARD_CHOICE** *(ID: 41)*
+
+"Урок начинается в восемь утра."
+
+- The lesson starts in 8 am.
+- **The lesson starts at 8 am.** ✓
+- The lesson starts on 8 am.
+
+*Explanation:* Конкретное время → предлог `at`. `in` — для периодов (in the morning), `on` — для дней (on Monday). Для конкретного часа — только `at`.
+
+---
+
+**Ex 224 · TableFill** *(ID: 7)*
+
+Задание: запиши время по-английски — o'clock или просто цифры
+
+| Время | Ответ |
+|-------|-------|
+| 5:00 | five o'clock |
+| 11:00 | eleven o'clock |
+| 3:30 | three thirty |
+| 8:15 | eight fifteen |
+| 12:00 (полдень) | noon |
+
+*Explanation:* `o'clock` — только для ровных часов. Для 3:30 и 8:15 `o'clock` не добавляется — просто "three thirty", "eight fifteen". 12:00 дня = `noon`.
+
+---
+
+**Ex 225 · ErrorCorrection** *(ID: 18)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"The train arrives in 10 pm."
+
+- The train arrives at 10 am.
+- **The train arrives at 10 pm.** ✓
+- The train arrives on 10 pm.
+
+*Explanation:* Время → предлог `at`, не `in`. `in 10 pm` — неверно. `pm` (после полудня) верно: 22:00 — это вечер.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card39_ex1
+**Title:** "Скажи время с предлогом at"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI назовёт несколько событий. Скажи в котором часу они происходят — по-английски, с предлогом at."
+**Prompt Template:** "Дай пользователю 3 события с временем в цифровом формате — для каждого напиши и русское слово, и английский перевод в скобках (например: 'рейс (flight) — 14:00', 'урок (lesson) — 9:00 am', 'встреча (meeting) — 6 pm'). Попроси составить предложение с at для каждого. Проверь: 1) правильный предлог at (не in/on), 2) правильное чтение времени (o'clock только для ровных часов). При ошибке объясни по-русски.
+
+Пример вывода AI: 'Составь предложения с at: 1) Рейс (flight) — 7:00 am. 2) Обед (lunch) — 13:00. 3) Фильм (film) — 8 pm.'"
+
+#### Clarification Options
+
+- Почему "at" а не "in" перед временем?
+- Когда можно не говорить o'clock и просто сказать "three"?
+- Чем отличается "in the morning" от "at 7 am"?
+
+---
+
+### Card 40 · quarter / half / past / to — разговорное время
+
+**ID:** 40 | **Order:** 2
+
+#### Theory
+
+Разговорный формат времени делит часы на две половины:
+- первые 30 минут → **past** (прошло X минут после часа)
+- последние 30 минут → **to** (осталось X минут до следующего часа)
+
+Это работает **точно так же как в русском.** По-русски тоже два способа:
+- "двадцать минут третьего" → прошло 20 минут после двух → **twenty past two**
+- "без двадцати три" → осталось 20 минут до трёх → **twenty to three**
+
+Разница только в словах. Логика — одинаковая.
+
+**Полная таблица разговорного времени:**
+
+| Время | По-русски | По-английски |
+|-------|-----------|--------------|
+| 3:00 | три часа | three o'clock |
+| 3:05 | пять минут четвёртого | five past three |
+| 3:15 | четверть четвёртого | **quarter past three** |
+| 3:20 | двадцать минут четвёртого | twenty past three |
+| 3:30 | половина четвёртого | **half past three** |
+| 3:35 | без двадцати пяти четыре | twenty-five to four |
+| 3:45 | без четверти четыре | **quarter to four** |
+| 3:55 | без пяти четыре | five to four |
+
+**Ключевые слова:**
+- **quarter** = четверть часа = 15 минут
+- **half** = половина часа = 30 минут
+- **past** = прошло (первые 30 минут)
+- **to** = осталось (последние 30 минут)
+
+**Главная ловушка: half past и "пол X-го"**
+
+"Пол двенадцатого" по-русски = 11:30. По-английски то же самое: `half past eleven` = 11:30. **Не** "half past twelve" — ловушка! Мы говорим "пол двенадцатого" от двенадцати, но имеем в виду прошедшую половину одиннадцатого часа. В английском та же логика: `half past eleven` = прошло полчаса после одиннадцати.
+
+Правило: **"пол X-го"** → `half past [X минус 1]`
+- пол второго (1:30) → `half past one`
+- пол десятого (9:30) → `half past nine`
+- пол пятого (4:30) → `half past four`
+
+**noon и midnight:**
+- **noon** = полдень = 12:00 дня
+- **midnight** = полночь = 12:00 ночи
+
+"Let's meet at noon." *(Встретимся в полдень.)*
+"The last train leaves at midnight." *(Последний поезд уходит в полночь.)*
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+past = первые 30 минут часа (прошло X мин). to = последние 30 минут (осталось X мин). quarter = 15 мин, half = 30 мин. Ловушка: "пол двенадцатого" = half past eleven (прошло полчаса после одиннадцати, не двенадцати). noon = 12:00 дня, midnight = 12:00 ночи.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 233 | Уже половина девятого (8:30). | It's half past eight. |
+| 234 | Встреча в четверть пятого (4:15). | The meeting is at quarter past four. |
+| 235 | Без четверти семь (6:45). | It's quarter to seven. |
+| 236 | Без двадцати три (2:40). | It's twenty to three. |
+| 237 | Катя пришла ровно в полдень. | Katya came exactly at noon. |
+
+---
+
+#### Exercises
+
+**Ex 226 · Matching** *(ID: 7)*
+
+Задание: соедини разговорное время с цифровым форматом.
+
+| Разговорное время | Цифровой формат |
+|-------------------|-----------------|
+| half past six | 6:30 |
+| quarter to nine | 8:45 |
+| twenty past two | 2:20 |
+| five to eleven | 10:55 |
+
+*Explanation:* half past six = прошло 30 мин после 6 = 6:30. quarter to nine = 15 мин до 9 = 8:45. twenty past two = прошло 20 мин после 2 = 2:20. five to eleven = 5 мин до 11 = 10:55.
+
+---
+
+**Ex 227 · CHOICE** *(ID: 46)*
+
+"It's ___ past four." (4:20 на часах)
+
+- quarter
+- half
+- **twenty** ✓
+
+*Explanation:* 4:20 = прошло 20 минут после четырёх → twenty past four. quarter = 15 минут (4:15), half = 30 минут (4:30).
+
+---
+
+**Ex 228 · Categorization** *(ID: 6)*
+
+Задание: перетащи время в нужную колонку — "past" или "to".
+
+| past (прошло после часа) | to (осталось до часа) |
+|--------------------------|-----------------------|
+| 7:10 | 7:50 |
+| 3:15 | 11:45 |
+| 9:30 | 4:40 |
+| 1:20 | 6:55 |
+
+*Explanation:* past — первые 30 минут часа (00–30). to — последние 30 минут (31–59). 9:30 = half past nine (граница, использует past). 9:31 и далее — уже to.
+
+---
+
+**Ex 229 · TrueFalse** *(ID: 27)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | My alarm goes off at half past seven. | Мой будильник звенит в половине восьмого (7:30). | ✓ |
+| 2 | Let's meet at quarter past three. | Встретимся в без четверти три (2:45). | ✗ |
+| 3 | The train arrives at twenty to six. | Поезд прибывает без двадцати шесть (5:40). | ✓ |
+| 4 | Тёма called at half past twelve. | Тёма позвонил в пол двенадцатого (11:30). | ✗ |
+| 5 | The café opens at noon. | Кафе открывается в полдень. | ✓ |
+
+*Explanation:* 2 — ошибка: quarter past three = 15 минут после трёх = 3:15 (без четверти три — это quarter TO three = 2:45). 4 — ошибка: half past twelve = 12:30 (прошло полчаса после двенадцати). Пол двенадцатого (11:30) = half past eleven.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card40_ex1
+**Title:** "Разговорное время"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI покажет время в цифровом формате. Запиши его по-английски — в разговорном виде (quarter past / to / half past)."
+**Prompt Template:** "Дай пользователю 4 времени в цифровом формате (включи half past, quarter to, quarter past и произвольное). Попроси записать каждое в разговорном формате. Проверь точность: правильное число минут, правильное past/to, верный час. При ошибке объясни по-русски: past = прошло X минут после часа, to = осталось X минут до следующего.
+
+Пример вывода AI: 'Запиши по-английски: 1) 3:15 — ? 2) 8:30 — ? 3) 11:45 — ? 4) 6:20 — ?'"
+
+#### Clarification Options
+
+- Почему пол двенадцатого = half past eleven, а не half past twelve?
+- Когда говорят "half past" а когда просто "thirty"?
+- Как сказать 12:30 — это "half past noon" или "half past twelve"?
+
+---
+
+### Card 41 · What time is it? — Спрашиваем и называем время
+
+**ID:** 41 | **Order:** 3
+
+#### Theory
+
+Стандартный вопрос — "**What time is it?**" *(Который час?)* В разговоре часто добавляют "excuse me" (извините):
+
+"Excuse me, what time is it?" — "It's half past two." *(Извините, который час? — Половина третьего.)*
+
+Второй вариант: **"What's the time?"** — тоже правильно, чаще в британском варианте.
+
+**Как отвечать: "It's + время"**
+
+- "It's three o'clock." *(Три часа ровно.)*
+- "It's quarter past five." *(Четверть шестого.)*
+- "It's twenty to nine." *(Без двадцати девять.)*
+- "It's noon." / "It's midnight." *(Полдень / Полночь.)*
+
+При неточном ответе добавляют **"about"** (около):
+- "It's about six." *(Около шести.)*
+- "It's about half past three." *(Около половины четвёртого.)*
+
+**Ловушка 1: "three hours" вместо "three o'clock"**
+
+По-русски "три часа" — слово "часа" там есть. Мозг переводит дословно: "three hours". Но `hours` — это единица длительности (3 часа езды, 3 часа работы), не точка на циферблате.
+
+- "It's three hours." ✗ — бессмыслица в контексте времени суток
+- "It's three o'clock." ✓ — три часа на часах
+- "It's three." ✓ — тоже правильно, кратко
+
+**Ловушка 2: o'clock для неровного времени**
+
+- "It's three fifteen o'clock." ✗
+- "It's three fifteen." ✓
+- "It's quarter past three." ✓
+
+`o'clock` добавляется **только** когда минут нет вообще: 1:00, 2:00... 12:00.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Вопрос: "What time is it?" / "What's the time?" Ответ: "It's + время". Ловушка: "It's three hours" — неверно; "It's three o'clock" или просто "It's three". o'clock — только для ровных часов.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 238 | Который час? — Половина второго. | What time is it? — It's half past one. |
+| 239 | Сейчас без двадцати девять. | It's twenty to nine. |
+| 240 | Около шести вечера. | It's about six pm. |
+| 241 | Извините, который час? — Полдень. | Excuse me, what time is it? — It's noon. |
+
+---
+
+#### Exercises
+
+**Ex 230 · TextInput** *(ID: 19)*
+
+1. "___ time is it?" (Спрашиваю который час)
+   Ответ: **What**
+
+2. "It's quarter ___ three." (3:15 на часах)
+   Ответ: **past**
+
+3. "It's ten ___ eight." (7:50 на часах)
+   Ответ: **to**
+
+*Explanation:* "What time is it?" — стандартный вопрос. 3:15 → прошло 15 минут после трёх = quarter **past** three. 7:50 → осталось 10 минут до восьми = ten **to** eight.
+
+---
+
+**Ex 231 · ErrorCorrection** *(ID: 19)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"It's nine hours."
+
+- It's nine am.
+- It's nine hours time.
+- **It's nine o'clock.** ✓
+
+*Explanation:* `hours` — единица длительности ("три часа пути"), не время суток. Для ровного часа: "It's nine o'clock." или просто "It's nine." "It's nine am" — грамматически верно, но не исправляет ошибку с hours.
+
+---
+
+**Ex 232 · DialogRestore** *(ID: 6)*
+
+> — Excuse me, what time is it?
+> — ___
+> — Thanks!
+
+- "It's at half past two."
+- "It's two and half."
+- **"It's half past two."** ✓
+
+*Explanation:* "It's + время" — без лишних предлогов. "It's at half past two" — предлог `at` здесь лишний: `at` нужен когда говоришь во сколько что-то происходит, а не когда просто называешь время. "Two and half" — не английская идиома, так не говорят.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card41_ex1
+**Title:** "Диалог про время"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI сыграет прохожего на улице. Спроси который час, потом ответь на его встречный вопрос."
+**Prompt Template:** "Сыграй прохожего. Пользователь спрашивает который час — ответь разговорным временем (quarter/half/to/past). Потом сам спроси пользователя во сколько у него какое-то событие (встреча, урок, рейс). Проверь: 1) правильный вопрос (What time is it?), 2) ответ пользователя на твой вопрос (It's + время или at + время при указании события). При ошибке объясни по-русски.
+
+Пример вывода AI: 'It's quarter to five. And what time is your meeting?'"
+
+#### Clarification Options
+
+- Можно ли сказать "What is the time?" вместо "What time is it?"
+- Как сказать "около шести" — "about six" или "around six"?
+- Зачем добавлять "excuse me" перед вопросом о времени?
+
+---
+
+### Words8r Sync · Время
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| o'clock | ровно (в ... часов) | [əˈklɒk] |
+| noon | полдень | [nuːn] |
+| midnight | полночь | [ˈmɪdnaɪt] |
+| quarter | четверть, 15 минут | [ˈkwɔːtə] |
+| half | половина, 30 минут | [hɑːf] |
+| past | прошло (о времени) | [pɑːst] |
+| am | до полудня | [ˌeɪˈem] |
+| pm | после полудня | [ˌpiːˈem] |
+
+---
+---
+
+## Microtopic 17 — Countable & Uncountable Nouns · Счётные и несчётные существительные
+
+**ID:** 17 | **Order:** 17
+
+---
+
+### Card 42 · Счётные и несчётные: в чём разница
+
+**ID:** 42 | **Order:** 1
+
+#### Theory
+
+Представь что ты в магазине. Одни товары лежат штуками — яблоко, ручка, стул. Их можно посчитать: одно яблоко, два яблока, пять яблок. Это **счётные существительные** (countable nouns).
+
+Другие — на вес или объём: вода, сахар, мука. "Две воды" звучит странно в отрыве от "два стакана воды". Это **несчётные существительные** (uncountable nouns).
+
+В английском та же логика, только правила строже.
+
+**Счётные (Countable) — можно добавить число:**
+- one apple *(одно яблоко)* → two apples
+- one chair *(один стул)* → three chairs
+- one idea *(одна идея)* → four ideas
+
+Признаки: можно поставить `a/an` *(подробнее — Card 10, Card 11)*, можно добавить цифру, есть форма мн.ч.
+
+**Несчётные (Uncountable) — нельзя добавить число напрямую:**
+- water *(вода)* → ✗ "two waters" / ✓ "two glasses of water"
+- sugar *(сахар)* → ✗ "three sugars" / ✓ "three spoons of sugar"
+- music *(музыка)* → ✗ "a music" / ✓ "some music"
+- love *(любовь)* → ✗ "two loves" / ✓ "a lot of love"
+
+Признаки: нельзя поставить `a/an`, нет формы мн.ч., нужно `some` или `a piece of`.
+
+**Как считать несчётное — через "контейнер":**
+- `a cup of tea` *(чашка чая)*, `two cups of tea`
+- `a piece of cake` *(кусок торта)*, `three pieces of cake`
+- `a glass of water` *(стакан воды)*, `a bottle of water`
+- `a slice of bread` *(ломтик хлеба)*, `a loaf of bread` *(буханка)*
+
+**Ловушка: money — несчётное**
+
+В русском деньги — обычное слово. В английском `money` несчётное и формы множественного числа не имеет:
+- ✗ "I have three moneys." — так не говорят
+- ✓ "I have some money." *(У меня есть деньги.)*
+- ✓ "I have a lot of money." *(У меня много денег.)*
+- ✓ "I have 500 euros." *(Конкретная валюта — уже счётная: one euro, two euros.)*
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Счётные: можно посчитать → a/an, цифра, мн.ч. (apple/apples). Несчётные: нельзя посчитать напрямую → нет a/an, нет мн.ч. (water, music, love). Несчётное считают через контейнер: a glass of water, a piece of cake. money — несчётное, "moneys" не существует.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 242 | Два стакана воды, пожалуйста. | Two glasses of water, please. |
+| 243 | У меня есть идея! | I have an idea! |
+| 244 | Хочешь немного музыки? | Do you want some music? |
+| 245 | У Ромы нет денег на кофе. | Roma doesn't have any money for coffee. |
+
+---
+
+#### Exercises
+
+**Ex 233 · FindTheOdd** *(ID: 8)*
+
+Три слова — несчётные. Найди счётное (лишнее):
+
+- water
+- music
+- information
+- **chair** ✓
+
+*Explanation:* water, music, information — несчётные (нельзя сказать "a water", "a music", "an information"). chair — счётное: a chair / two chairs. Оно и есть лишнее.
+
+---
+
+**Ex 234 · Categorization** *(ID: 7)*
+
+Задание: перетащи слова в нужную колонку.
+
+| Счётные (Countable) | Несчётные (Uncountable) |
+|---------------------|------------------------|
+| book | water |
+| phone | money |
+| idea | music |
+| city | bread |
+| question | love |
+
+*Explanation:* Счётные — есть форма мн.ч. и a/an: a book, a phone, an idea, a city, a question. Несчётные — нельзя сказать "a water", "two breads", "three musics".
+
+---
+
+**Ex 235 · CHOICE** *(ID: 47)*
+
+"Can I have ___ water?" (прошу воды в кафе)
+
+- **some** ✓
+- a
+- an
+
+*Explanation:* water — несчётное. К несчётному нельзя поставить a/an — они только с счётными. `some` = немного, какое-то количество — правильный вариант для несчётного.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card42_ex1
+**Title:** "Счётное или несчётное?"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI назовёт слово. Ответь: счётное оно или несчётное — и составь пример с ним."
+**Prompt Template:** "Дай пользователю 5 слов (mix of countable and uncountable: например dog, tea, idea, furniture, apple). Для каждого попроси ответить: countable или uncountable — и составить пример (a/an для счётных, some / a glass of / a piece of для несчётных). Проверь правильность и объясни ошибки по-русски.
+
+Пример вывода AI: 'Ответь на каждое слово — countable или uncountable — и составь пример: 1) dog 2) tea 3) idea 4) furniture 5) apple'"
+
+#### Clarification Options
+
+- Почему money — несчётное, ведь деньги можно посчитать?
+- Как сказать "кусок торта" или "ломтик хлеба" по-английски?
+- Есть ли слова, которые могут быть и счётными и несчётными?
+
+---
+
+### Card 43 · Главные несчётные ловушки
+
+**ID:** 43 | **Order:** 2
+
+#### Theory
+
+Вот слова, которые **в русском ощущаются как обычные**, а в английском — несчётные. Здесь русскоязычные ошибаются чаще всего.
+
+| Слово | Перевод | Русская ловушка | Правильно |
+|-------|---------|-----------------|-----------|
+| **advice** | совет | "an advice" ✗ | some advice / a piece of advice |
+| **information** | информация | "an information" ✗ | some information |
+| **news** | новость / новости | "a news" ✗ | some news / a piece of news |
+| **furniture** | мебель | "a furniture" ✗ | some furniture / a piece of furniture |
+| **luggage** | багаж | "a luggage" ✗ | some luggage / a piece of luggage |
+| **progress** | прогресс | "a progress" ✗ | good progress / some progress |
+| **knowledge** | знание / знания | "a knowledge" ✗ | good knowledge / some knowledge |
+| **work** | работа | "a work" ✗ | some work / a lot of work |
+
+**Почему именно эти слова — ловушки?**
+
+По-русски "новость" счётная: одна новость, две новости. Поэтому мозг строит: "a news" — и это ошибка. В английском `news` — это масса, не штука.
+
+С `advice` та же история: по-русски "один совет", "два совета". По-английски это `a piece of advice` или просто `some advice`.
+
+**Особая ловушка: news с глаголом**
+
+`news` выглядит как мн.ч. (оканчивается на -s), но это несчётное существительное в единственном числе. Значит — глагол ед.ч.:
+
+- "The news **is** good." ✓ *(Новость хорошая.)*
+- "The news **are** good." ✗ — типичная ошибка
+- "Is there any news?" ✓ *(Есть какие-нибудь новости?)*
+
+**Как считать, если нужна конкретика:**
+- a **piece of** advice *(один совет)*, two **pieces of** advice
+- a **piece of** news *(одна новость)*
+- a **piece of** furniture *(предмет мебели)*
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+advice, information, news, furniture, luggage, progress, knowledge, work — все несчётные. Нельзя: an advice, a news, furnitures. Можно: some advice, a piece of news, some furniture. news + глагол в ед.ч.: "The news is good." (не are).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 246 | Мне нужен совет. | I need some advice. *(не "an advice")* |
+| 247 | У меня есть хорошая новость! | I have some good news! *(не "a good news")* |
+| 248 | В комнате много мебели. | There is a lot of furniture in the room. *(не "furnitures")* |
+
+---
+
+#### Exercises
+
+**Ex 236 · ErrorCorrection** *(ID: 20)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Can you give me an advice?"
+
+- Can you give me advices?
+- Can you give me a piece of advices?
+- **Can you give me some advice?** ✓
+
+*Explanation:* `advice` — несчётное, нельзя сказать "an advice" или "advices". Правильно: `some advice` (общее количество) или `a piece of advice` (один конкретный совет). "A piece of advices" — двойная ошибка: advice не имеет мн.ч.
+
+---
+
+**Ex 237 · TrueFalse** *(ID: 28)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | I need some advice about my job. | Мне нужен совет по работе. | ✓ |
+| 2 | She gave me a very good advice. | Она дала мне очень хороший совет. | ✗ |
+| 3 | The news is terrible today. | Сегодня ужасные новости. | ✓ |
+| 4 | Have you heard any new informations? | Ты слышал какую-нибудь новую информацию? | ✗ |
+| 5 | There is a lot of furniture in this room. | В этой комнате много мебели. | ✓ |
+
+*Explanation:* 2 — ошибка: advice несчётное, нельзя "a ... advice". Правильно: "good advice" или "a piece of advice". 4 — ошибка: information несчётное, "informations" не существует. Правильно: "any new information".
+
+---
+
+**Ex 238 · FORWARD_CHOICE** *(ID: 42)*
+
+"У Игоря совсем нет прогресса."
+
+- Igor doesn't have a progress.
+- Igor doesn't have progresses.
+- **Igor doesn't have any progress.** ✓
+
+*Explanation:* `progress` — несчётное. Нельзя: "a progress" (нет артикля), "progresses" (нет мн.ч.). В отрицании с несчётным: `any` → "doesn't have any progress."
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card43_ex1
+**Title:** "Исправь ошибку с несчётным"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст предложения с типичными ошибками. Найди ошибку и исправь."
+**Prompt Template:** "Дай 3 предложения с типичными ошибками на несчётные существительные (advice, news, information, furniture, luggage, progress). Например: 'I need an advice about my job.' Попроси исправить каждое и объяснить. Проверь исправления. При ошибке объясни по-русски какое слово несчётное и как правильно.
+
+Пример вывода AI: 'Найди и исправь ошибку: 1) She gave me a good advice. 2) Do you have any informations? 3) The news are terrible today.'"
+
+#### Clarification Options
+
+- Почему news выглядит как мн.ч., но используется с is?
+- Чем отличаются some advice и a piece of advice?
+- Слово work — тоже несчётное? Как тогда сказать "одна работа"?
+
+---
+
+### Card 44 · some / any / much / many
+
+**ID:** 44 | **Order:** 3
+
+#### Theory
+
+**much vs many — как сказать "много":**
+
+Оба переводятся как "много", но используются в разных ситуациях:
+- **many** → "много" для **счётных**: many books *(много книг)*, many people *(много людей)*
+- **much** → "много" для **несчётных**: much water *(много воды)*, much time *(много времени)*, much money *(много денег)*
+
+Быстрая проверка: можно ли поставить цифру? Если да — `many`. Если нет — `much`.
+
+В разговорной речи оба часто заменяют на `a lot of` — работает с обоими типами:
+- "I have a lot of books." *(много книг)*
+- "I have a lot of money." *(много денег)*
+
+`much` и `many` звучат чуть официальнее, `a lot of` — естественнее в разговоре.
+
+**some vs any — "немного" и "сколько-нибудь":**
+
+- **some** = немного, какое-то количество → в **утвердительных** предложениях
+  - "I have some bread." *(У меня есть хлеб.)*
+  - "There is some milk in the fridge." *(В холодильнике есть молоко.)*
+
+- **any** = сколько-нибудь → в **вопросах** и **отрицаниях**
+  - "Do you have **any** bread?" *(У тебя есть хлеб?)*
+  - "I don't have **any** money." *(У меня нет денег.)*
+  - "Is there **any** milk?" *(Есть молоко?)*
+
+**Нюанс: some в вопросах = предложение или вежливая просьба:**
+- "Do you have **any** tea?" — нейтральный вопрос (есть ли вообще?)
+- "Would you like **some** tea?" — предлагаю чай (хочешь?)
+- "Can I have **some** water?" — вежливо прошу
+
+some и any работают с обоими типами:
+- some books *(несколько книг)*, some water *(немного воды)*
+- any questions? *(есть вопросы?)*, any help? *(нужна помощь?)*
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+many = много (счётные), much = много (несчётные). В разговоре a lot of заменяет оба. some = немного (утверждения), any = сколько-нибудь (вопросы и отрицания). some в вопросах = предложение или просьба.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 249 | У неё много вопросов. | She has many questions. |
+| 250 | У нас не так много времени. | We don't have much time. |
+| 251 | Есть молоко в холодильнике? | Is there any milk in the fridge? |
+| 252 | Да, немного есть. | Yes, there is some. |
+
+---
+
+#### Exercises
+
+**Ex 239 · CHOICE** *(ID: 48)*
+
+"There are ___ students in the class." (в классе 30 человек)
+
+- much
+- **many** ✓
+- some
+
+*Explanation:* students — счётное (можно посчитать), "много" = `many`. `much` — с несчётными. `some` = несколько/немного, не "много".
+
+---
+
+**Ex 240 · FORWARD_CHOICE** *(ID: 43)*
+
+"У Вери нет никакой информации об этом."
+
+- Vera doesn't have some information about it.
+- Vera doesn't have much information about it.
+- **Vera doesn't have any information about it.** ✓
+
+*Explanation:* Отрицание → `any`. `some` — для утверждений, не для отрицаний. `much` тоже возможно ("doesn't have much info"), но `any` точнее передаёт "никакой".
+
+---
+
+**Ex 241 · Transformation** *(ID: 4)*
+
+Задание: замени "a lot of" на much или many
+
+1. "I have a lot of books at home." → **"I have many books at home."**
+2. "She doesn't have a lot of time today." → **"She doesn't have much time today."**
+3. "Are there a lot of people at the party?" → **"Are there many people at the party?"**
+
+*Explanation:* books, people — счётные → many. time — несчётное → much. Значение то же, но чуть официальнее.
+
+---
+
+**Ex 252 · ErrorCorrection** *(ID: 23)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"I don't have many money."
+
+- I don't have some money.
+- I don't have a lot moneys.
+- **I don't have much money.** ✓
+
+*Explanation:* `money` — несчётное. С несчётными → `much`, не `many`. "Some money" верно в утверждении, но не исправляет ошибку. "A lot moneys" — money не имеет мн.ч., и нужен "of": a lot of.
+
+---
+
+**Ex 253 · TrueFalse** *(ID: 30)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | There are many students in the hall. | В зале много студентов. | ✓ |
+| 2 | She doesn't have many time for this. | У неё нет много времени на это. | ✗ |
+| 3 | Do you have any questions? | У вас есть вопросы? | ✓ |
+| 4 | I have some good news for you. | У меня есть для тебя хорошая новость. | ✓ |
+| 5 | We need much chairs for the meeting. | Нам нужно много стульев для встречи. | ✗ |
+
+*Explanation:* 2 — ошибка: time — несчётное, нужно `much`: "doesn't have much time". 5 — ошибка: chairs — счётное, нужно `many`: "many chairs".
+
+---
+
+**Ex 254 · TextInput** *(ID: 20)*
+
+1. "Is there ___ coffee left?" (Спрашиваю есть ли кофе)
+   Ответ: **any**
+
+2. "She has ___ good friends in this city." (у неё несколько хороших друзей)
+   Ответ: **some**
+
+3. "How ___ water do you drink per day?" (Сколько воды?)
+   Ответ: **much**
+
+4. "How ___ people came to the party?" (Сколько человек пришло?)
+   Ответ: **many**
+
+*Explanation:* any — вопрос о наличии. some — утверждение (счётное мн.ч.). much — вопрос "сколько" для несчётного (water). many — вопрос "сколько" для счётного (people).
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card44_ex1
+**Title:** "much, many, some или any?"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст предложения с пропусками. Вставь much, many, some или any."
+**Prompt Template:** "Дай 5 предложений с пропусками на much/many/some/any (с переводом каждого). Включи: утверждение с some, отрицание с any, вопрос с any, предложение с much и предложение с many. Проверь ответы. При ошибке объясни по-русски: much для несчётных, many для счётных, some в утверждениях, any в вопросах и отрицаниях.
+
+Пример вывода AI: '1. Do you have [___] brothers? (У тебя есть братья?) 2. I don't have [___] money. (У меня нет денег.) 3. There is [___] milk in the glass. (В стакане есть молоко.) 4. She has [___] friends in this city. (У неё много друзей.) 5. We don't have [___] time. (У нас нет времени.)'"
+
+#### Clarification Options
+
+- Можно ли везде говорить "a lot of" вместо much/many?
+- Почему some используется в вопросе "Would you like some tea?"
+- Как сказать "несколько" для счётных — тоже some или a few?
+
+---
+
+### Words8r Sync · Счётные и несчётные
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| advice | совет (несчётное!) | [ədˈvaɪs] |
+| information | информация (несчётное!) | [ˌɪnfəˈmeɪʃən] |
+| news | новость/новости (несчётное!) | [njuːz] |
+| furniture | мебель (несчётное!) | [ˈfɜːnɪtʃə] |
+| luggage | багаж (несчётное!) | [ˈlʌɡɪdʒ] |
+| progress | прогресс (несчётное!) | [ˈprəʊɡres] |
+| knowledge | знание/знания (несчётное!) | [ˈnɒlɪdʒ] |
+| much | много (для несчётных) | [mʌtʃ] |
+| many | много (для счётных) | [ˈmeni] |
+| some | немного, какое-то количество | [sʌm] |
+| any | сколько-нибудь (вопросы/отрицания) | [ˈeni] |
+| a lot of | много (для всех) | [ə ˈlɒt əv] |
+| a piece of | кусок/единица чего-то | [ə piːs əv] |
+
+---
+---
+
+## Microtopic 18 — Imperative · Императив
+
+**ID:** 18 | **Order:** 18
+
+---
+
+### Card 45 · Команды и запреты: Open! Don't run!
+
+**ID:** 45 | **Order:** 1
+
+#### Theory
+
+Императив — форма глагола для команд, запретов, инструкций и призывов.
+
+**Утвердительный императив: просто глагол без подлежащего**
+
+В русском мы меняем форму глагола: "сядь", "открой", "возьми". В английском — ещё проще: берёшь глагол в базовой форме (V1) и ставишь в начало предложения. Без "you", без окончаний.
+
+- **Open** the door! *(Открой дверь!)*
+- **Come** here. *(Подойди сюда.)*
+- **Sit** down. *(Садись.)*
+- **Look** at this! *(Посмотри на это!)*
+- **Take** an umbrella. *(Возьми зонт.)*
+
+Почему без "you"? Потому что очевидно — ты обращаешься к человеку перед тобой, объяснять кому кто не нужно.
+
+**Отрицательный императив: Don't + глагол**
+
+Запрет: **Don't + V1**.
+
+- **Don't** run! *(Не беги!)*
+- **Don't** forget your keys. *(Не забудь ключи.)*
+- **Don't** touch that! *(Не трогай это!)*
+- **Don't** be late. *(Не опаздывай.)*
+
+`Don't` = `Do not` — полная форма используется в официальных знаках и инструкциях:
+- "Do not enter." *(Вход запрещён.)*
+- "Do not touch." *(Не касаться.)*
+
+**Ловушка: "You don't run" — это НЕ запрет**
+
+В английском тоже разница:
+- "You don't run in the hall." — утверждение: *Ты не бегаешь в коридоре.* (факт)
+- "Don't run in the hall!" — запрет: *Не беги в коридоре!* (команда)
+
+Добавление "you" превращает императив в обычное предложение.
+
+**Императив — не всегда грубо**
+
+Всё зависит от интонации и контекста:
+- "**Take** a seat." *(Присаживайтесь.)* — вежливое приглашение
+- "**Turn** left at the traffic light." — нейтральная инструкция
+- "**Call** me tonight." *(Позвони мне сегодня.)* — просьба между друзьями
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Императив = V1 без подлежащего: "Open!", "Sit down." Запрет = Don't + V1: "Don't run!", "Don't be late." "You don't run" — это утверждение (факт), не запрет. Do not = официальная форма Don't.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 253 | Закрой дверь! | Close the door! |
+| 254 | Не разговаривай по телефону во время урока! | Don't talk on the phone during the lesson! |
+| 255 | Поверни направо на перекрёстке. | Turn right at the crossroads. |
+| 256 | Не забудь взять паспорт. | Don't forget to take your passport. |
+
+---
+
+#### Exercises
+
+**Ex 242 · Transformation** *(ID: 5)*
+
+Задание: сделай запрет из утверждения (добавь Don't)
+
+1. "You run in the corridor." → **"Don't run in the corridor."**
+2. "You eat in the classroom." → **"Don't eat in the classroom."**
+3. "You use your phone here." → **"Don't use your phone here."**
+
+*Explanation:* Запрет = Don't + V1. "You + глагол" — обычное предложение. Убираем "You" и добавляем "Don't" в начало.
+
+---
+
+**Ex 243 · FORWARD_CHOICE** *(ID: 44)*
+
+"Позвони мне сегодня вечером!"
+
+- You call me tonight.
+- Calling me tonight!
+- **Call me tonight!** ✓
+
+*Explanation:* Императив — глагол в начале, без подлежащего: "Call me tonight!" "You call me tonight" — утверждение (ты звонишь мне), не просьба. "Calling me tonight" — причастие/-ing форма, неграмматично в роли команды.
+
+---
+
+**Ex 244 · ErrorCorrection** *(ID: 21)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Don't to be late!"
+
+- Not be late!
+- Don't being late!
+- **Don't be late!** ✓
+
+*Explanation:* После `Don't` — базовая форма глагола (V1) без `to`: "Don't **be** late." "Don't to be" — лишний `to`. "Don't being" — `-ing` форма не используется в запрете.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card45_ex1
+**Title:** "Дай команду или запрет"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI опишет ситуацию. Напиши подходящую команду или запрет по-английски."
+**Prompt Template:** "Опиши 3 ситуации с переводом и попроси пользователя написать подходящий императив. Включи: утвердительный императив, запрет (Don't) и мягкую просьбу. Проверь: 1) базовая форма глагола, 2) Don't для запрета (не 'You don't'), 3) нет лишнего 'you'. При ошибке объясни по-русски.
+
+Пример вывода AI: 'Напиши команду или запрет: 1) Ты шеф-повар, говоришь помощнику нарезать овощи. 2) Друг хочет уйти, а вы ещё не поговорили. 3) В библиотеке слишком громко разговаривают.'"
+
+#### Clarification Options
+
+- Почему в императиве нет подлежащего?
+- Как сказать "Не будь таким грубым" по-английски?
+- Чем отличается "Do not" от "Don't"?
+
+---
+
+### Card 46 · Please — вежливая просьба
+
+**ID:** 46 | **Order:** 2
+
+#### Theory
+
+Слово **please** превращает команду в вежливую просьбу. Оно не меняет структуру предложения — просто добавляется в начало или конец.
+
+**Две позиции please:**
+
+| Позиция | Пример | Перевод |
+|---------|--------|---------|
+| В начале | **Please** be quiet. | Пожалуйста, тише. |
+| В конце | Be quiet, **please**. | Тише, пожалуйста. |
+
+Обе позиции одинаково правильны. Запятая перед `please` в конце — обязательна.
+
+**С отрицательным императивом:**
+- **Please** don't be late. *(Пожалуйста, не опаздывай.)*
+- Don't smoke here, **please**. *(Не кури здесь, пожалуйста.)*
+
+**Спектр вежливости:**
+
+| Фраза | Степень | Контекст |
+|-------|---------|---------|
+| Sit down! | нейтральная команда | строгий учитель |
+| Sit down, please. | вежливая просьба | повседневная ситуация |
+| Please have a seat. | формально вежливо | деловая встреча |
+| Could you please sit down? | очень вежливо | официальная обстановка |
+
+**Ловушка: please ≠ "пожалуйста" в ответ на "спасибо"**
+
+В русском языке слово "пожалуйста" делает **две вещи**:
+1. Вежливая просьба: *"Откройте, пожалуйста, окно."*
+2. Ответ на благодарность: *"Спасибо! — Пожалуйста!"*
+
+В английском `please` делает только **одну** вещь — вежливую просьбу. Функции №2 у него нет вообще. Это два разных слова в английском:
+
+| Ситуация | По-русски | По-английски |
+|----------|-----------|--------------|
+| Просьба | Пожалуйста, подождите. | Please wait. |
+| Ответ на спасибо | Спасибо! — Пожалуйста! | Thank you! — **You're welcome.** |
+
+Если ты говоришь "Please!" в ответ на "Thank you" — по-английски это воспринимается как начало новой просьбы. Собеседник думает: "Please... что? Пожалуйста, что сделай?" Это сбивает с толку.
+
+**Как отвечать на "thank you":**
+- "**You're welcome.**" *(Пожалуйста — самый универсальный вариант)*
+- "**No problem.**" *(Не проблема — неформально)*
+- "**Sure!**" *(Конечно! — дружески)*
+- "**Don't mention it.**" *(Не стоит благодарности — вежливо)*
+- "**My pleasure.**" *(Рад помочь — официально)*
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+please — в начале или конце: "Please open the window." / "Open the window, please." С отрицанием: "Please don't be late." please ≠ ответ на "thank you" — для ответа используй "You're welcome" / "No problem".
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 257 | Пожалуйста, не шуми. | Please don't make noise. |
+| 258 | Открой окно, пожалуйста. | Open the window, please. |
+| 259 | Пожалуйста, позвони мне попозже. | Please call me later. |
+| 260 | Скажи мне, пожалуйста. | Tell me, please. |
+
+---
+
+#### Exercises
+
+**Ex 245 · CHOICE** *(ID: 49)*
+
+"___ don't be late for the meeting." (вежливая просьба)
+
+- Don't
+- You
+- **Please** ✓
+
+*Explanation:* `Please don't...` — стандартная вежливая просьба воздержаться от чего-то. "Don't don't be" — бессмысленный повтор. "You don't be" — неграмматично.
+
+---
+
+**Ex 246 · WordArrangement** *(ID: 28)*
+
+RU: Пожалуйста, не опаздывай!
+
+Правильное предложение: **Please don't be late!**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| Please | — | — |
+| don't | — | — |
+| be | быть | — |
+| late | с опозданием, поздно | — |
+| you | — | ✗ дистрактор |
+| not | — | ✗ дистрактор |
+
+*Explanation:* "Please don't be late!" — стандартный порядок. `you` — лишнее: в императиве подлежащего нет. `not` — в отрицательном императиве нужно именно `don't`, а не `not be`.
+
+---
+
+**Ex 247 · TrueFalse** *(ID: 29)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | Please be quiet in the library. | Пожалуйста, тише в библиотеке. | ✓ |
+| 2 | Open the door, please. | Открой дверь, пожалуйста. | ✓ |
+| 3 | — Thank you so much! — Please. | — Большое спасибо! — Пожалуйста. | ✗ |
+| 4 | Please don't run in the corridor. | Пожалуйста, не беги в коридоре. | ✓ |
+| 5 | You please sit down now. | Ты, пожалуйста, садись. | ✗ |
+
+*Explanation:* 3 — ошибка: "please" в английском — только просьба, не ответ на благодарность. На "thank you" отвечают "You're welcome" / "No problem". 5 — ошибка: "You please sit down" — неграмматично; вежливая просьба: "Please sit down." / "Sit down, please."
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card46_ex1
+**Title:** "Сделай просьбу вежливее"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст резкие команды. Добавь please и перепиши вежливо."
+**Prompt Template:** "Дай пользователю 3 резких команды по-английски с переводом. Попроси добавить please и переписать вежливее. Проверь позицию please (начало или конец), запятую перед please в конце. При ошибке объясни по-русски.
+
+Пример вывода AI: 'Сделай вежливее: 1) Stop talking! (Прекрати разговаривать!) 2) Send me the file. (Пришли мне файл.) 3) Don't park here. (Не паркуйся здесь.)'"
+
+#### Clarification Options
+
+- Есть ли разница между "Please come in" и "Come in, please"?
+- Как ответить на "Thank you" — почему нельзя сказать "Please"?
+- "Could you please..." — это тоже императив?
+
+---
+
+### Card 47 · Let's — предложение сделать вместе
+
+**ID:** 47 | **Order:** 3
+
+#### Theory
+
+**Let's = Let us** — конструкция для предложения сделать что-то **вместе**. Не команда кому-то, не запрет — а приглашение к совместному действию.
+
+- "**Let's go!**" *(Пошли! / Поехали!)*
+- "**Let's try** again." *(Давай попробуем ещё раз.)*
+- "**Let's eat** something." *(Давайте что-нибудь поедим.)*
+- "**Let's have** a break." *(Давайте сделаем перерыв.)*
+
+После `Let's` всегда стоит **базовая форма глагола (V1)**: "Let's **go**", "Let's **try**", "Let's **be** friends".
+
+**Главная ловушка: Let's — это НЕ сокращение "let + is"**
+
+Ты уже знаешь, что апостроф обычно сокращает вспомогательный глагол:
+- it**'s** = it **is**
+- he**'s** = he **is**
+- she**'s** = she **is**
+
+По этой логике кажется, что let**'s** = let **is**. Но нет. `Let's` = `Let **us**` — здесь `'s` сокращает `us`, а не `is`. Конструкция `let is` в английском вообще не существует — она бессмысленна.
+
+| Конструкция | Что означает | Правильно? |
+|-------------|--------------|-----------|
+| it's | it **is** | ✓ |
+| he's | he **is** | ✓ |
+| let's | let **us** | ✓ |
+| "let is" | — | ✗ не существует |
+
+**Отдельное слово "lets" без апострофа:**
+
+Есть слово `lets` — без апострофа. Это глагол третьего лица единственного числа ("he/she lets" — позволяет):
+- "She **lets** me use her car." *(Она позволяет мне пользоваться её машиной.)*
+- "He **lets** the dog out every morning." *(Он выпускает собаку каждое утро.)*
+
+Итог: `let's` (с апострофом) ≠ `lets` (без апострофа).
+- `let's` = let us = давайте вместе
+- `lets` = he/she/it lets = позволяет
+
+**Отрицание: Let's not**
+
+Чтобы предложить НЕ делать что-то вместе:
+- "**Let's not** argue." *(Давай не будем спорить.)*
+- "**Let's not** be late." *(Давайте не будем опаздывать.)*
+- "**Let's not** rush." *(Давайте не будем торопиться.)*
+
+**Let's vs Let him/her/them:**
+
+`Let` без `us` — команда разрешить что-то кому-то третьему:
+- "**Let him speak.**" *(Дай ему высказаться.)*
+- "**Let her decide.**" *(Пусть она решает.)*
+- "**Let them in.**" *(Впусти их.)*
+
+Сравни:
+- "**Let's go.**" = Пошли (мы идём вместе)
+- "**Let him go.**" = Отпусти его (ты разрешаешь ему уйти)
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Let's = Let us — предложение сделать вместе. После Let's — V1: "Let's go!", "Let's try." Ловушка: Let's ≠ "let + is"; `'s` здесь сокращает `us`. Отрицание: Let's not. Без апострофа — "lets" (he/she lets = позволяет).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 261 | Давайте сходим в кино! | Let's go to the cinema! |
+| 262 | Давай попробуем ещё раз. | Let's try again. |
+| 263 | Давайте не будем спорить. | Let's not argue. |
+| 264 | Она позволяет мне пользоваться её ноутбуком. | She lets me use her laptop. |
+
+---
+
+#### Exercises
+
+**Ex 248 · ErrorCorrection** *(ID: 22)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Lets go to the park!"
+
+- Let's go in the park!
+- Let us going to the park!
+- **Let's go to the park!** ✓
+
+*Explanation:* "Lets" без апострофа — глагол третьего лица (he/she lets = позволяет). Предложение сделать вместе требует апострофа: `Let's`. "Let us going" — неверно: после let's/let us нужна базовая форма (go), не `-ing`.
+
+---
+
+**Ex 249 · REVERSE_CHOICE** *(ID: 14)*
+
+Переведи на русский:
+
+"Let's not be late."
+
+- Пусть не опаздывают.
+- Не опаздывай!
+- **Давайте не будем опаздывать.** ✓
+
+*Explanation:* "Let's not" = предложение НЕ делать что-то вместе → "Давайте не будем...". "Пусть не опаздывают" — это "Let them not be late". "Не опаздывай!" — это запрет одному (Don't be late!).
+
+---
+
+**Ex 250 · ConstructionMeaning** *(ID: 4)*
+
+Выбери правильный перевод:
+
+"Let's not stay here."
+
+- **Давайте не будем здесь оставаться.** ✓
+- Не оставайся здесь.
+- Он не останется здесь.
+- Позволь ему не оставаться здесь.
+
+*Explanation:* Let's not = предложение НЕ делать вместе → "Давайте не будем". "Не оставайся" — это "Don't stay". "Он не останется" — это "He won't stay". "Позволь ему" — это "Let him not stay".
+
+---
+
+**Ex 251 · FindTheOdd** *(ID: 9)*
+
+Три конструкции Let's образованы правильно. Найди ошибочную:
+
+- Let's go to the park!
+- Let's not argue.
+- Let's have dinner together.
+- **Let's going to the cinema.** ✓
+
+*Explanation:* После Let's всегда стоит базовая форма глагола (V1): go, try, have. "Let's going" — ошибка: -ing форма после Let's невозможна. Правильно: "Let's go to the cinema."
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card47_ex1
+**Title:** "Предложи вместе"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI опишет ситуацию. Предложи что-нибудь сделать вместе — используй Let's."
+**Prompt Template:** "Опиши 3 ситуации с переводом и попроси пользователя предложить совместное действие через Let's. Включи одну ситуацию где нужно Let's not. Проверь: 1) апостроф в Let's (не Lets), 2) базовая форма глагола после Let's, 3) Let's not для отрицания. При ошибке объясни по-русски.
+
+Пример вывода AI: 'Предложи действие через Let's: 1) Вы с другом дома и вам скучно. 2) Вы опаздываете на встречу. 3) Вы начали спорить — предложи прекратить (нужно Let's not).'"
+
+#### Clarification Options
+
+- Почему Let's = Let us, а не Let is?
+- Чем отличается "Let's go" от "Let him go"?
+- Как ещё можно предложить что-то сделать вместе, кроме Let's?
+
+---
+
+### Words8r Sync · Императив
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| please | пожалуйста (просьба) | [pliːz] |
+| let's | давай(те) (+ V1) | [lets] |
+| don't | не (+ V1) — запрет | [doʊnt] |
+| wait | ждать, подождать | [weɪt] |
+| stop | остановиться, прекратить | [stɒp] |
+| try | пробовать, попробовать | [traɪ] |
+| hurry | торопиться, поспешить | [ˈhʌri] |
+| forget | забывать | [fəˈɡet] |
+| turn | повернуть | [tɜːn] |
+| follow | следовать, идти за | [ˈfɒloʊ] |
+
+---
+---
+
+## Счётчики IDs для продолжения
+
+> Следующий блок начинает IDs с этих значений:
+
+| Тип | Последний использованный ID | Следующий блок начинает с |
+|-----|-----------------------------|--------------------------|
+| Microtopic | 18 | 19 |
+| Card | 47 | 48 |
+| Example | 264 | 265 |
+| Exercise | 254 | 255 |
+
+**Таблица счётчиков** (актуально после микротем 16–18):
+
+| Тип | Последний ID | Следующий |
+|-----|-------------|-----------|
+| WordArrangement | 28 | 29 |
+| MultipleChoice · CHOICE | 49 | 50 |
+| MultipleChoice · FORWARD_CHOICE | 44 | 45 |
+| MultipleChoice · REVERSE_CHOICE | 14 | 15 |
+| TrueFalse | 30 | 31 |
+| ErrorCorrection | 23 | 24 |
+| TextInput | 20 | 21 |
+| Matching | 7 | 8 |
+| Transformation | 5 | 6 |
+| Categorization | 7 | 8 |
+| TableFill | 7 | 8 |
+| FindTheOdd | 9 | 10 |
+| ConstructionMeaning | 4 | 5 |
+| DialogRestore | 6 | 7 |
+| Microtopic | 18 | 19 |
+| Card | 47 | 48 |
+| Example | 264 | 265 |
