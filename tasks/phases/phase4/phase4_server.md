@@ -55,10 +55,10 @@ POST /auth/refresh
 ### Подписка
 
 ```
-GET /subscription?uid=X
+GET /subscription
   Headers: Authorization: Bearer <jwt>
   → {
-      tier: "free" | "tier1" | "tier2",
+      tier: "free" | "tier1" | "tier2" | "tester",
       expires: "2026-05-01" | null,
       aiRequestsToday: 2,
       aiDailyLimit: 3,
@@ -67,10 +67,48 @@ GET /subscription?uid=X
       streakCurrent: 14,
       streakBonusRequests: 1
     }
+  Лимиты берутся из таблицы subscription_limits по tier пользователя (кэш TTL ~5 мин).
+
+GET /tier-limits
+  Публичный, без авторизации.
+  → {
+      free:  { aiPerDay: 3,  microtopicsPerDay: 3,  wordsInPrompt: 50  },
+      tier1: { aiPerDay: 30, microtopicsPerDay: null, wordsInPrompt: 100 },
+      tier2: { aiPerDay: 50, microtopicsPerDay: null, wordsInPrompt: 150 }
+    }
+  Значения берутся из subscription_limits (кэш TTL ~5 мин). Тир tester не включается.
+  Используется на маркетинговом экране подписки — показывает актуальные лимиты без авторизации.
+
+```
+
+### Оплата и промокоды
+
+```
+POST /promo/validate
+  Headers: Authorization: Bearer <jwt>
+  Body: { code: "ABCD-1234" }
+  → { valid: true, discountPercent: 25, finalPrice: { tier1: 75, tier2: 134 } }
+  | { valid: false, reason: "not_found" | "expired" | "used_up" }
+  Логика: найти промокод → проверить expires_at и used_count < max_uses → вернуть скидку.
+  Промокод не списывается здесь — только при успешной оплате через вебхук.
+
+POST /payment/create
+  Headers: Authorization: Bearer <jwt>
+  Body: { tier: "tier1" | "tier2", promoCode?: "ABCD-1234" }
+  → { paymentUrl: "https://yookassa.ru/..." }
+  Логика:
+    1. Если promoCode передан — проверить валидность (те же проверки что в /promo/validate)
+    2. Рассчитать итоговую цену со скидкой (если есть промокод)
+    3. Создать платёж в YooKassa через их API: сумма, описание, metadata: { uid, tier, promoCode? }
+    4. Вернуть клиенту URL страницы оплаты — клиент открывает WebView/браузер
+  ⚠️ Цену устанавливает только сервер — клиент не может передать сумму.
 
 POST /webhook/yookassa
   ← Вебхук от YooKassa об успешной оплате
-  Логика: верифицировать подпись YooKassa, обновить tier и expires в БД
+  Логика: верифицировать подпись YooKassa → из metadata достать uid, tier, promoCode?
+          → обновить tier и expires в subscriptions
+          → если promoCode есть → инкрементировать promo_codes.used_count
+          → клиент узнаёт о смене тира при следующем /auth/refresh
 ```
 
 ### AI-прокси
@@ -223,6 +261,20 @@ GET /announcements
 
 Для suspend/ban указывается срок в часах (0 = бессрочно).
 
+**Раздел: Промокоды**
+
+Создание промокода: скидка в % (1–99), дата окончания (или бессрочно), максимальное число применений → сервер генерирует код вида `XXXX-NNNN`.
+
+Список промокодов — три фильтра: Активные / Неактивные / Все. Таблица:
+
+| Код | Скидка | Истекает | Применений | Использовано | Статус |
+|-----|--------|----------|------------|--------------|--------|
+
+Статус: `Активен` / `Истёк` (expires_at прошло) / `Исчерпан` (used_count == max_uses) / `Отключён` (is_active = false).
+Действие: кнопка "Отключить" / "Включить" — меняет is_active без удаления.
+
+Поток на клиенте: пользователь вводит промокод на экране подписки → `POST /promo/validate` → сервер возвращает скидку и итоговую цену → клиент отображает "Скидка 25%: было 100₽, стало 75₽" → при оплате клиент передаёт code в метаданных платежа YooKassa → сервер при получении вебхука об успешной оплате инкрементирует `used_count`.
+
 **Раздел: Статистика**
 - Активные пользователи за день / неделю / месяц
 - AI-запросы в день (суммарно)
@@ -241,6 +293,9 @@ POST /admin/users/{uid}/notify       → { type: "push"|"modal", message } → �
 GET  /admin/users/{uid}/notifications → история персональных уведомлений пользователя (текст, дата, shown_at)
 POST /admin/announcements            → { type, message, targetApp } → создать общее объявление (TTL 24ч)
 GET  /admin/stats                    → агрегированная статистика
+GET  /admin/promo                    → список всех промокодов (фильтр: active | inactive | all)
+POST /admin/promo                    → { discountPercent, expiresAt?, maxUses } → создать промокод, вернуть сгенерированный code
+PATCH /admin/promo/{code}/toggle     → включить / отключить промокод (is_active)
 
 # Клиентский эндпоинт (вызывается приложением после показа modal)
 POST /announcements/{id}/seen        → записать shown_at = now для этого объявления
@@ -302,10 +357,9 @@ CREATE TABLE ai_exercise_prompts (
 
 2. Если tier = "admin" → пропустить шаги 3–4 полностью, перейти к шагу 5.
 
-3. Определить лимит по тиру (из токена, без запроса к БД):
-   - free: 3/день
-   - tier1: 30/день + streak_bonus_requests
-   - tier2: 50/день + streak_bonus_requests
+3. Определить лимит по тиру (из кэша subscription_limits, TTL ~5 мин):
+   - free: ai_per_day из subscription_limits
+   - tier1/tier2/tester: ai_per_day + streak_bonus_requests
 
 4. Проверить + инкрементировать лимит (АТОМАРНО, один SQL):
    - daily_ai_requests[uid, date_msk]
@@ -411,10 +465,43 @@ CREATE TABLE ai_exercise_prompts (
 | Поле | Тип | Описание |
 |------|-----|----------|
 | uid | UUID PK FK | |
-| tier | Enum | free / tier1 / tier2 / admin |
+| tier | Enum | free / tier1 / tier2 / admin / tester |
 | expires | Timestamp? | Null = бессрочно (ручная выдача через панель) |
 | purchased_at | Timestamp? | Когда куплена (null для ручной выдачи) |
 | updated_at | Timestamp | |
+
+### subscription_limits
+Лимиты тиров. Читаются сервером с кэшем TTL ~5 минут — изменения вступают в силу без рестарта.
+
+| Поле | Тип | Описание |
+|------|-----|----------|
+| tier | VARCHAR(20) PK | free / tier1 / tier2 / tester |
+| ai_per_day | Int | AI-запросов в день. |
+| microtopics_per_day | Int? | Микротем в день. Null = безлимит. |
+| words_in_prompt | Int | Максимум слов из словаря в промте. |
+| updated_at | Timestamp | Когда последний раз менялось. |
+
+Начальные значения:
+
+| tier | ai_per_day | microtopics_per_day | words_in_prompt |
+|------|-----------|---------------------|-----------------|
+| free | 3 | 3 | 50 |
+| tier1 | 30 | null | 100 |
+| tier2 | 50 | null | 150 |
+| tester | 30 | null | 100 |
+
+### promo_codes
+| Поле | Тип | Описание |
+|------|-----|----------|
+| code | VARCHAR(20) PK | Сам промокод (например SUMMER25). Генерируется случайно: 4 буквы + дефис + 4 цифры. |
+| discount_percent | Int | Размер скидки в %, 1–99. |
+| expires_at | Timestamp? | Null = бессрочно. |
+| max_uses | Int | Максимальное количество применений. |
+| used_count | Int | Сколько раз уже применён (инкрементируется при успешной оплате через вебхук YooKassa). |
+| created_at | Timestamp | |
+| is_active | Boolean | Ручное отключение из панели без удаления. |
+
+**Логика генерации кода:** сервер генерирует `XXXX-NNNN` (4 случайных заглавных буквы + дефис + 4 случайных цифры), проверяет уникальность в БД, при коллизии генерирует заново.
 
 ### refresh_tokens
 | Поле | Тип | Описание |
@@ -634,3 +721,6 @@ ADMIN_PASSWORD=...         # пароль веб-панели администр
 - [ ] **S17** Веб-панель: список пользователей с флагами, карточка пользователя, выдача подписки (тир + часы), suspend/ban/unban с персональным сообщением, персональные уведомления, создание объявлений, статистика
 - [ ] **S18** Добавить FCM в оба приложения (Grammar8r + Words8r): регистрация токена при старте, обработка входящих push
 - [ ] **S19** Мини-сайт на том же сервере: лендинг + ссылки на RuStore + страницы с правовыми документами (политика конфиденциальности, пользовательское соглашение, условия подписки)
+- [ ] **S20** Таблица `subscription_limits`: начальные значения для free/tier1/tier2/tester, серверный кэш с TTL ~5 мин, использование в `/ai/exercise` и `/tier-limits`
+- [ ] **S21** `GET /tier-limits` — публичный эндпоинт, читает из кэша subscription_limits
+- [ ] **S22** Промокоды: таблица `promo_codes`, `POST /promo/validate`, вебхук YooKassa инкрементирует used_count, панель: создание / список / toggle
