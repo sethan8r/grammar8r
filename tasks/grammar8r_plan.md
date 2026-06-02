@@ -501,6 +501,10 @@ Grammar8r/
 │   │   Сравнение с русским: "что ли" → "чтоли", "сейчас" → "щас" — то же самое явление.
 │   │   Понимать редукции важно для восприятия на слух — без этого речь носителя звучит как каша.
 │   ├── [глагол] + to → [глагол]na/a  (gonna, wanna, hafta, gotta, oughta)
+│   │   ⚠️ Ловушка: wanna = want to, а не want + существительное.
+│   │   "I wanna go" ✓ (= I want to go) — wanna перед глаголом
+│   │   "I want a better body" ✓ — перед существительным только want, wanna здесь ошибка
+│   │   "I wanna better body" ✗ — wanna не может стоять перед noun, только перед V1
 │   ├── [modal] + have → [modal]a      (coulda, woulda, shoulda, musta, mighta)
 │   ├── Слияния и клиппинги            (dunno, lemme, gimme, tryna, kinda, sorta)
 │   ├── Вопросительные редукции        (whatcha, whaddya, howya, whataya)
@@ -530,6 +534,14 @@ Grammar8r/
 │   │   Глаголы с двумя вариантами разного смысла: stop/remember/forget/try
 │   ├── Сравнение прилагательных — big→bigger→biggest, more beautiful→most beautiful
 │   │   Исключения: good/bad/far. Ловушки: "more bigger", "the most best" (ошибки)
+│   ├── Сравнительные конструкции  ← расширяемая тема
+│   │   as...as — равное сравнение: "She's as tall as her brother", "not as fast as I thought"
+│   │   just like — точное сравнение/подобие: "He talks just like his father"
+│   │   the same as — тождество: "This is the same mistake as before"
+│   │   similar to — похожесть без тождества: "English is similar to German in some ways"
+│   │   as if / as though — нереальное сравнение: "He acts as if he owns the place"
+│   │   Ловушка: "the same like" (ошибка) — только "the same as"
+│   │   ⚠️ Тема расширяемая — при написании контента добавлять похожие конструкции сюда
 │   ├── Квантификаторы — much/many/a lot of, few/little/a few/a little, some/any
 │   ├── Возвратные местоимения — myself/yourself/himself...; by myself = в одиночку
 │   ├── Question Tags — "You're coming, aren't you?" правило вспомогательного глагола
@@ -550,7 +562,8 @@ Grammar8r/
 │   ├── Фразовые глаголы (Phrasal Verbs) — глагол + предлог = новый смысл
 │   │   give up (сдаться), make up (придумать/мириться), look for (искать),
 │   │   come across (наткнуться), run out of (закончиться), put off (откладывать),
-│   │   step out (выйти на время / отойти ненадолго)
+│   │   step out (выйти на время / отойти ненадолго),
+│   │   check out (выселиться из отеля / расплатиться на кассе / проверить / зацени это)
 │   ├── Идиомы — непереводимые дословно выражения
 │   │   it's raining cats and dogs, break the ice, hit the nail on the head,
 │   │   bite the bullet, cost an arm and a leg, once in a blue moon
@@ -561,7 +574,8 @@ Grammar8r/
 │   │   Чем больше блоков знаешь наизусть — тем быстрее и естественнее говоришь.
 │   │   Правила нужны чтобы понимать, блоки нужны чтобы говорить.
 │   │   by the way, one way or another, as long as, no matter what,
-│   │   on the other hand, at the end of the day, to be honest
+│   │   on the other hand, at the end of the day, to be honest,
+│   │   just like that (вот так просто / и всё, без усилий: "He disappeared, just like that")
 │   ├── at в устойчивых выражениях — предлог-участник фраз, не предлог места/времени
 │   │   at once (сразу / одновременно — два значения!), at last (наконец-то),
 │   │   at least (по крайней мере), at first (сначала), at all (вообще),
@@ -578,7 +592,9 @@ Grammar8r/
 │   ├── Намерение: три регистра — I intend to (формально) / I'm going to (нейтрально) / I'm about to (вот-вот)
 │   ├── Расплывчатость и мягкость — a word or two, in a minute, sort of, more or less, "Could I have a word?"
 │   ├── Многозначные слова — cheers (5 значений), out there (место vs странный), right (3 значения), fair enough
-│   ├── Предлоги в жизненном контексте — via vs through vs by; регистры и контексты
+│   ├── Предлоги в жизненном контексте — via vs through vs by; against; регистры и контексты
+│   │   against — три значения: противостояние (fight against, vote against), контакт/опора
+│   │   (lean against the wall, press against), несоответствие (against the rules, against the law)
 │   └── Разговорные связки с so — so they (= поэтому они), so what, so they say, so there, so far so good
 │
 ├── Социальное взаимодействие  ← после "Фраз из жизни", перед "Разным"
@@ -741,6 +757,47 @@ Grammar8r/
 │         I'm afraid I can't / I'd love to but... / Maybe some other time / Let me see what I can do
 │       Упражнение: ситуация (попросить незнакомца / коллегу / начальника) → выбрать правильную форму
 │
+├── Произношение  ← после "Социального взаимодействия", перед "Разным"
+│   Отдельная тема — не грамматика, а фонетика. Без неё речь носителя звучит как каша.
+│   │
+│   ├── [Вводная] Как читать транскрипцию
+│   │   Основные IPA-символы: гласные (æ, ɪ, iː, ʌ, ɒ, uː, ə, ɜː), согласные (θ, ð, ŋ, ʃ, ʒ, tʃ, dʒ)
+│   │   Ударение: символ ˈ перед ударным слогом (ˈhæpɪ = HA-ppy)
+│   │   Долгие гласные: двоеточие (iː, uː, ɑː) — тянутся дольше
+│   │   Цель карточки: пользователь умеет читать транскрипцию в словаре, а не угадывать
+│   │
+│   ├── Silent letters (буквы которые не читаются)
+│   │   kn- → /n/: know, knee, knife, knock, knight — k всегда молчит
+│   │   wr- → /r/: write, wrong, wrap, wrist — w молчит
+│   │   -mb → /m/: lamb, bomb, thumb, climb, comb — b молчит
+│   │   gh — три варианта: молчит (night, light, though), /f/ (enough, tough, laugh), /g/ (ghost, ghetto)
+│   │   Другие: psychology (p молчит), hour (h молчит), island (s молчит), castle (t молчит)
+│   │
+│   ├── -ough: одно написание — шесть звуков
+│   │   though /ðəʊ/ — хотя (как "оу")
+│   │   thought /θɔːt/ — думал (как "от")
+│   │   through /θruː/ — сквозь (как "ру")
+│   │   tough /tʌf/ — жёсткий (как "аф")
+│   │   cough /kɒf/ — кашель (как "оф")
+│   │   enough /ɪˈnʌf/ — достаточно (как "аф")
+│   │   Логики нет — только запоминать. Упражнения: слово → выбрать правильный звук из 3 вариантов
+│   │
+│   ├── Окончание -ed: три произношения
+│   │   /t/ — после глухих: worked, stopped, asked, laughed
+│   │   /d/ — после звонких: called, loved, played, opened
+│   │   /ɪd/ — после t и d: wanted, needed, waited, decided
+│   │   Правило: слышишь t или d в конце основы → /ɪd/, иначе ухо само выберет /t/ или /d/
+│   │
+│   ├── Ударение в словах
+│   │   Двусложные существительные/прилагательные — обычно на первый слог: TAble, HAppy, PEople
+│   │   Двусложные глаголы — часто на второй: reLAX, beGIN, deCIDE, preSENT (глагол) vs PREsent (сущ.)
+│   │   Пары сущ./глагол с разным ударением: REcord/reCORD, PERmit/perMIT, OBject/obJECT
+│   │
+│   └── Упражнения (много хардкодных карточек)
+│       Формат 1: слово → выбери правильную транскрипцию из 3 вариантов
+│       Формат 2: слово → какой звук даёт выделенное сочетание букв
+│       Формат 3: найди лишнее по произношению (например though/through/thought/dough — у одного другой звук)
+│
 └── Разное — полезные темы без строгого места  ← самая последняя тема
     ├── Национальности и языки — Italian/Italy, French/France; the French/the Russians (народ)
     ├── Порядок прилагательных — Opinion→Size→Age→Shape→Colour→Origin→Material
@@ -805,16 +862,6 @@ Grammar8r/
     │      -ify (simple→simplify, class→classify)
     │
     └── Эмфатические конструкции — "It's John who did it." / "What I need is time."
-    ├── Фразовые глаголы (Phrasal Verbs) — глагол + предлог = новый смысл
-    │   give up (сдаться), make up (придумать/мириться), look for (искать),
-    │   come across (наткнуться), run out of (закончиться), put off (откладывать)
-    ├── Идиомы — непереводимые дословно выражения
-    │   it's raining cats and dogs, break the ice, hit the nail on the head,
-    │   bite the bullet, cost an arm and a leg, once in a blue moon
-    ├── Устойчивые конструкции — фиксированные фразы с логикой
-    │   by the way, one way or another, as long as, no matter what,
-    │   on the other hand, at the end of the day, to be honest
-    └── После каждой микротемы → слова синкаются в Words8r (категория "Fixed Expressions")
 ```
 
 ### UX: микротема → карточки → экран упражнений
