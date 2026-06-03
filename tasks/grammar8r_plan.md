@@ -483,7 +483,12 @@ Grammar8r/
 │
 ├── So/Such и Too/Enough
 │   ├── so + adj/adv vs such + (a/an) + noun; so/such...that (результат)
-│   └── too + adj/adv + to + V1 (слишком); adj/adv + enough + to + V1 (достаточно)
+│   ├── too + adj/adv + to + V1 (слишком); adj/adv + enough + to + V1 (достаточно)
+│   └── ⚠️ Обязательно рассказать разницу so vs too как интенсификаторов:
+│       so = "так/настолько" — нейтральная интенсивность: "It's so cold!" (так холодно — просто акцент)
+│       too = "слишком" — негативный предел, "уже плохо/невозможно": "It's too cold to go out." (слишком холодно — нельзя выйти)
+│       Русскоязычные путают: "It's too beautiful" ✗ (если красота не мешает — это so, не too)
+│       too почти всегда несёт смысл "это проблема" — "too tired", "too late", "too expensive"
 │
 ├── Глагол get — часть 1: базовые значения
 │   ├── get = получать (get a letter, get a gift)
@@ -946,14 +951,23 @@ Grammar8r/
     │   │   AI-упражнение: другой формат — ИИ даёт базовый глагол по-русски:
     │   │   "Есть глагол 'наслаждаться'. Как называется само это действие одним словом?" → enjoyment
     │   │
-    │   └── -er как агент (питается от глаголов → "тот кто делает")
-    │       teach→teacher, write→writer, work→worker, drive→driver, run→runner (удвоение)
-    │       Не путать с -er сравнения: bigger — степень прилагательного; driver — агент от глагола.
-    │       AI-упражнение: "Кто водит машину — одним словом?" → driver
+    │   ├── -er как агент (питается от глаголов → "тот кто делает")
+    │   │   teach→teacher, write→writer, work→worker, drive→driver, run→runner (удвоение)
+    │   │   own→owner (тот кто владеет) — хороший живой пример
+    │   │   Не путать с -er сравнения: bigger — степень прилагательного; driver — агент от глагола.
+    │   │   AI-упражнение: "Кто водит машину — одним словом?" → driver
+    │   │
+    │   └── -ship (питается от существительных → абстрактное понятие/состояние/отношение)
+    │       friend→friendship, leader→leadership, owner→ownership, member→membership
+    │       Ключевая разница -er vs -ship на паре owner/ownership:
+    │       owner = конкретный человек (тот кто владеет): "He is the owner of this café."
+    │       ownership = абстрактное право/понятие владения: "Ownership has its privileges."
+    │       Аналогия с русским: владелец (-er) vs владение/собственность (-ship)
+    │       AI-упражнение: ИИ даёт ситуацию — нужно выбрать owner или ownership (и другие -er/-ship пары)
     │
     │   ⚠️ Место для расширения (добавляем по мере написания контента):
     │      -ity (real→reality, active→activity), -ward/-wards (forward, backward, toward)
-    │      -ship (friend→friendship, leader→leadership), -hood (child→childhood, neighbour→neighbourhood)
+    │      -hood (child→childhood, neighbour→neighbourhood)
     │      -ify (simple→simplify, class→classify)
     │
     └── Эмфатические конструкции — "It's John who did it." / "What I need is time."

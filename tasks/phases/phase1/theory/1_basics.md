@@ -2543,28 +2543,139 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 
 ---
 
-### Words8r Sync · Притяжательные местоимения
+### Card 53 · 's или of — живое против неживого
 
-| Слово | Переводы | Транскрипция |
-|-------|----------|-------------|
-| my | мой, моя, моё, мои | [maɪ] |
-| your | твой, ваш, твоя, ваша | [jɔːr] |
-| his | его | [hɪz] |
-| her | её | [hɜːr] |
-| its | его, её (для предметов/животных) | [ɪts] |
-| our | наш, наша, наше, наши | [aʊər] |
-| their | их | [ðer] |
-| mine | мой, моя (без сущ.) | [maɪn] |
-| yours | твой, ваш (без сущ.) | [jɔːrz] |
-| hers | её (без сущ.) | [hɜːrz] |
-| ours | наш, наша (без сущ.) | [aʊərz] |
-| theirs | их (без сущ.) | [ðerz] |
+**ID:** 53 | **Order:** 4
+
+#### Theory
+
+Ты уже знаешь `'s` из Card 19: "Lena's cat" = кошка Лены. Но в английском есть второй способ выразить принадлежность — предлог `of`. У каждого своя территория.
+
+**`'s` → одушевлённые: люди, животные, персонажи**
+- "the dragon's soul" *(душа дракона)* — дракон живой
+- "Lena's phone" *(телефон Лены)* — человек
+- "the cat's tail" *(хвост кошки)* — животное
+
+**`of` → неодушевлённые: предметы, места, абстракции**
+- "the leg of the table" *(ножка стола)* — стол неживой
+- "the capital of France" *(столица Франции)* — место
+- "the end of the film" *(конец фильма)* — абстракция
+- "the colour of the sky" *(цвет неба)* — явление природы
+
+**Исключения: время и организации берут `'s`**
+
+Они ведут себя как живые:
+- "Monday's meeting" *(встреча в понедельник)*
+- "the company's logo" *(логотип компании)*
+- "today's news" *(сегодняшние новости)*
+
+**Оба варианта иногда работают — с разным ощущением:**
+- "the dragon's soul" — естественно в обычной речи
+- "the soul of the dragon" — торжественнее, акцент смещается на дракона
+
+В обычной речи с одушевлёнными всегда берут `'s`.
+
+**Ловушки:**
+- "the table's leg" ✗ → стол неживой → "the leg of the table" ✓
+- "the film's end" ✗ → фильм неживой → "the end of the film" ✓
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+'s → одушевлённые (люди, животные, персонажи) + время + организации: "the dragon's soul", "Monday's meeting". of → неодушевлённые предметы, места, абстракции: "the leg of the table", "the capital of France". Ловушка: "the table's leg" ✗.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 292 | Душа дракона бессмертна. | The dragon's soul is immortal. |
+| 293 | Ножка стола сломана. | The leg of the table is broken. |
+| 294 | Столица Франции — Париж. | The capital of France is Paris. |
+| 295 | Логотип компании легко узнать. | The company's logo is easy to recognise. |
+
+---
+
+#### Exercises
+
+**Ex 280 · CHOICE** *(ID: 51)*
+
+"The colour ___ the sky is amazing today." (Восхищаюсь цветом неба)
+
+- 's
+- **of** ✓
+- for
+
+*Explanation:* sky — неодушевлённое явление природы → of. "The sky's colour" — ошибка: небо неодушевлённое, 's здесь не работает. for не показывает принадлежность.
+
+---
+
+**Ex 281 · ErrorCorrection** *(ID: 29)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"The table's legs are made of wood."
+
+- The tables legs are made of wood.
+- The leg's table are made of wood.
+- **The legs of the table are made of wood.** ✓
+
+*Explanation:* table — неодушевлённый предмет → нужен of, не 's. "The tables legs" — нет апострофа и конструкция всё равно неверная. "The leg's table" — 's прикреплён к неверному слову, порядок нарушен.
+
+---
+
+**Ex 282 · FORWARD_CHOICE** *(ID: 50)*
+
+"Конец фильма был неожиданным."
+
+- The film's end was unexpected.
+- The end's film was unexpected.
+- **The end of the film was unexpected.** ✓
+
+*Explanation:* film — неодушевлённый предмет → of. "The film's end" — ошибка: 's с неживыми предметами не работает. "The end's film" — бессмыслица: 's прикреплён к неверному слову.
+
+---
+
+**Ex 283 · WordArrangement** *(ID: 33)*
+
+RU: Это телефон Ромы.
+
+Правильное предложение: **This is Roma's phone.**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| This | — | — |
+| is | — | — |
+| Roma's | Ромы | — |
+| phone | телефон | — |
+| of | — | ✗ дистрактор |
+| the | — | ✗ дистрактор |
+
+*Explanation:* Roma — человек → 's. Дистракторы "of" и "the" предлагают конструкцию "the phone of Roma" — она не работает для людей, только 's. "This" и "is" знакомы из предыдущих карточек.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card53_ex1
+**Title:** "'s или of?"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст пары слов. Составь правильную конструкцию: с 's или с of."
+**Prompt Template:** "Дай пользователю 5 пар слов (например: dragon + soul, table + leg, company + name, Katya + cat, film + ending). Для каждой пары попроси составить конструкцию принадлежности — 's или of. Проверь выбор. При ошибке объясни по-русски: 's — для одушевлённых (люди, животные, персонажи, организации, время), of — для неодушевлённых предметов и мест.
+
+Пример вывода AI: 'Составь конструкцию: 1) dragon + soul 2) table + leg 3) company + name 4) Katya + cat 5) film + ending'"
+
+#### Clarification Options
+
+- Почему "the company's logo" с 's, если компания — неодушевлённая?
+- Когда "the soul of the dragon" звучит лучше чем "the dragon's soul"?
+- Можно ли сказать "France's capital" или только "the capital of France"?
 
 ---
 
 ### Card 20 · Объектные местоимения: me, him, her, us, them
 
-**ID:** 20 | **Order:** 4
+**ID:** 20 | **Order:** 5
 
 #### Theory
 
@@ -2761,6 +2872,28 @@ owner + 's + thing: "Lena's dog" = собака Лены. Порядок сло�
 - Почему нельзя сказать "I love she"
 - Когда her — это объектное, а когда — притяжательное
 - Почему "between her and me", а не "between she and I"
+
+### Words8r Sync · Притяжательные местоимения
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| my | мой, моя, моё, мои | [maɪ] |
+| your | твой, ваш, твоя, ваша | [jɔːr] |
+| his | его | [hɪz] |
+| her | её | [hɜːr] |
+| its | его, её (для предметов/животных) | [ɪts] |
+| our | наш, наша, наше, наши | [aʊər] |
+| their | их | [ðer] |
+| mine | мой, моя (без сущ.) | [maɪn] |
+| yours | твой, ваш (без сущ.) | [jɔːrz] |
+| hers | её (без сущ.) | [hɜːrz] |
+| ours | наш, наша (без сущ.) | [aʊərz] |
+| theirs | их (без сущ.) | [ðerz] |
+| soul | душа | [soʊl] |
+| immortal | бессмертный | [ɪˈmɔːrtəl] |
+| capital | столица | [ˈkæpɪtəl] |
+| logo | логотип | [ˈloʊɡoʊ] |
+| tail | хвост | [teɪl] |
 
 ---
 ---
@@ -8781,20 +8914,20 @@ RU: Мы читали книгу в парке.
 | Тип | Последний использованный ID | Следующий блок начинает с |
 |-----|-----------------------------|--------------------------|
 | Microtopic | 19 | 20 |
-| Card | 52 | 53 |
-| Example | 291 | 292 |
-| Exercise | 279 | 280 |
+| Card | 53 | 54 |
+| Example | 295 | 296 |
+| Exercise | 283 | 284 |
 
-**Таблица счётчиков** (актуально после MT17 Card 52 + микротем 18–19):
+**Таблица счётчиков** (актуально после MT7 Card 53 + MT17 Card 52 + микротем 18–19):
 
 | Тип | Последний ID | Следующий |
 |-----|-------------|-----------|
-| WordArrangement | 32 | 33 |
-| MultipleChoice · CHOICE | 50 | 51 |
-| MultipleChoice · FORWARD_CHOICE | 49 | 50 |
+| WordArrangement | 33 | 34 |
+| MultipleChoice · CHOICE | 51 | 52 |
+| MultipleChoice · FORWARD_CHOICE | 50 | 51 |
 | MultipleChoice · REVERSE_CHOICE | 14 | 15 |
 | TrueFalse | 33 | 34 |
-| ErrorCorrection | 28 | 29 |
+| ErrorCorrection | 29 | 30 |
 | TextInput | 21 | 22 |
 | Matching | 7 | 8 |
 | Transformation | 6 | 7 |
@@ -8804,5 +8937,5 @@ RU: Мы читали книгу в парке.
 | ConstructionMeaning | 4 | 5 |
 | DialogRestore | 6 | 7 |
 | Microtopic | 19 | 20 |
-| Card | 52 | 53 |
-| Example | 291 | 292 |
+| Card | 53 | 54 |
+| Example | 295 | 296 |
