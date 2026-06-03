@@ -7616,6 +7616,126 @@ many = много (счётные), much = много (несчётные). В �
 
 ---
 
+### Card 52 · a few / a little — несколько и немного
+
+**ID:** 52 | **Order:** 4
+
+#### Theory
+
+Ты уже знаешь `some` = немного и `a lot of` = много. Теперь два слова для более точной ситуации — когда важно сказать именно "несколько" или "немного".
+
+**a few** — "несколько" → только для **счётных** существительных:
+- "I have **a few** friends here." *(У меня здесь несколько друзей.)*
+- "Can you give me **a few** minutes?" *(Можешь дать мне несколько минут?)*
+- "There are **a few** messages for you." *(Для тебя есть несколько сообщений.)*
+
+**a little** — "немного" → только для **несчётных** существительных:
+- "I need **a little** time." *(Мне нужно немного времени.)*
+- "Add **a little** salt." *(Добавь немного соли.)*
+- "There is **a little** milk left." *(Осталось немного молока.)*
+
+**Быстрая проверка:** можно поставить цифру? Если да → `a few`. Если нет → `a little`.
+- friends → два друга, три друга → счётное → **a few friends** ✓
+- time → "два времени" не скажешь → несчётное → **a little time** ✓
+
+**Ловушки:**
+- "a few water" ✗ → water несчётное → **a little water** ✓
+- "a little chairs" ✗ → chairs счётное → **a few chairs** ✓
+- "a few information" ✗ → information несчётное → **a little information** ✓
+
+> Есть ещё `few` и `little` **без артикля** — они означают "почти ничего" с негативным оттенком. Разберём их подробно в теме "Квантификаторы".
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+a few = несколько → только со счётными (a few friends, a few minutes). a little = немного → только с несчётными (a little time, a little water, a little salt). Проверка: можно поставить цифру → a few; нельзя → a little.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 288 | У Кати есть несколько вопросов. | Katya has a few questions. |
+| 289 | Добавь немного соли. | Add a little salt. |
+| 290 | Мне нужно немного времени подумать. | I need a little time to think. |
+| 291 | В парке было несколько детей. | There were a few children in the park. |
+
+---
+
+#### Exercises
+
+**Ex 276 · Categorization** *(ID: 8)*
+
+Задание: перетащи слова в нужную колонку — с `a few` или с `a little`.
+
+| a few ___ (счётные) | a little ___ (несчётные) |
+|---------------------|--------------------------|
+| books | water |
+| ideas | money |
+| mistakes | sugar |
+| people | music |
+| questions | time |
+
+*Explanation:* a few — с теми у кого есть мн.ч. и можно поставить цифру: books, ideas, mistakes, people, questions. a little — с несчётными: water, money, sugar, music, time. Нельзя сказать "two musics" или "three moneys" → несчётные → a little.
+
+---
+
+**Ex 277 · CHOICE** *(ID: 50)*
+
+"I have ___ time before the meeting." (Есть немного времени до встречи)
+
+- a few
+- **a little** ✓
+- many
+
+*Explanation:* time — несчётное, нельзя сказать "два времени" → a little. a few — только со счётными. many — тоже для счётных и означает "много", а не "немного".
+
+---
+
+**Ex 278 · ErrorCorrection** *(ID: 28)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Can you give me a little advice and a little ideas?"
+
+- Can you give me a few advice and a few ideas?
+- **Can you give me a little advice and a few ideas?** ✓
+- Can you give me a few advice and a little idea?
+
+*Explanation:* advice — несчётное → a little advice ✓. ideas — счётное (одна идея, две идеи) → a few ideas ✓. "A few advice" — ошибка: advice несчётное. "A little idea" — ошибка: idea счётное, нужно мн.ч. и a few.
+
+---
+
+**Ex 279 · FORWARD_CHOICE** *(ID: 49)*
+
+"У Димы осталось несколько рублей."
+
+- Dima has a little rubles left.
+- **Dima has a few rubles left.** ✓
+- Dima has a little ruble left.
+
+*Explanation:* rubles — счётное (один рубль, два рубля) → a few. "A little rubles" — ошибка: a little с несчётными. "A little ruble" — двойная ошибка: неверный квантификатор и нет множественного числа.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card52_ex1
+**Title:** "a few или a little?"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст предложения с пропусками. Вставь a few или a little."
+**Prompt Template:** "Дай 5 предложений с пропусками на a few / a little (с переводом каждого). Перемешай счётные и несчётные существительные. Проверь ответы. При ошибке объясни по-русски: a few — для счётных (можно посчитать), a little — для несчётных (нельзя посчитать).
+
+Пример вывода AI: '1. I need [___] minutes. (Мне нужно несколько минут.) 2. Add [___] sugar. (Добавь немного сахара.) 3. She has [___] friends in this city. (У неё несколько друзей в этом городе.) 4. We have [___] time before the film. (У нас немного времени до фильма.) 5. There are [___] messages for you. (Для тебя несколько сообщений.)'"
+
+#### Clarification Options
+
+- Чем a few отличается от some для счётных?
+- Почему нельзя сказать "a few water"?
+- Есть ли разница между "a little" и "a bit of"?
+
+---
+
 ### Words8r Sync · Счётные и несчётные
 
 | Слово | Переводы | Транскрипция |
@@ -7633,6 +7753,10 @@ many = много (счётные), much = много (несчётные). В �
 | any | сколько-нибудь (вопросы/отрицания) | [ˈeni] |
 | a lot of | много (для всех) | [ə ˈlɒt əv] |
 | a piece of | кусок/единица чего-то | [ə piːs əv] |
+| a few | несколько (счётные) | [ə fjuː] |
+| a little | немного (несчётные) | [ə ˈlɪtəl] |
+| salt | соль | [sɔːlt] |
+| mistake | ошибка | [mɪˈsteɪk] |
 
 ---
 ---
@@ -8657,28 +8781,28 @@ RU: Мы читали книгу в парке.
 | Тип | Последний использованный ID | Следующий блок начинает с |
 |-----|-----------------------------|--------------------------|
 | Microtopic | 19 | 20 |
-| Card | 51 | 52 |
-| Example | 287 | 288 |
-| Exercise | 275 | 276 |
+| Card | 52 | 53 |
+| Example | 291 | 292 |
+| Exercise | 279 | 280 |
 
-**Таблица счётчиков** (актуально после микротем 16–19):
+**Таблица счётчиков** (актуально после MT17 Card 52 + микротем 18–19):
 
 | Тип | Последний ID | Следующий |
 |-----|-------------|-----------|
 | WordArrangement | 32 | 33 |
-| MultipleChoice · CHOICE | 49 | 50 |
-| MultipleChoice · FORWARD_CHOICE | 48 | 49 |
+| MultipleChoice · CHOICE | 50 | 51 |
+| MultipleChoice · FORWARD_CHOICE | 49 | 50 |
 | MultipleChoice · REVERSE_CHOICE | 14 | 15 |
 | TrueFalse | 33 | 34 |
-| ErrorCorrection | 27 | 28 |
+| ErrorCorrection | 28 | 29 |
 | TextInput | 21 | 22 |
 | Matching | 7 | 8 |
 | Transformation | 6 | 7 |
-| Categorization | 7 | 8 |
+| Categorization | 8 | 9 |
 | TableFill | 7 | 8 |
 | FindTheOdd | 10 | 11 |
 | ConstructionMeaning | 4 | 5 |
 | DialogRestore | 6 | 7 |
 | Microtopic | 19 | 20 |
-| Card | 51 | 52 |
-| Example | 287 | 288 |
+| Card | 52 | 53 |
+| Example | 291 | 292 |
