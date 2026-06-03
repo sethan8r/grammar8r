@@ -8070,35 +8070,615 @@ Let's = Let us — предложение сделать вместе. Посл�
 ---
 ---
 
+# БЛОК 7 · Микротемы 19–21
+
+---
+
+## Microtopic 19 — Word Order: SVO · Порядок слов: подлежащее-сказуемое-дополнение
+
+**ID:** 19 | **Order:** 19
+
+---
+
+### Card 48 · Subject, Verb, Object — что это
+
+**ID:** 48 | **Order:** 1
+
+#### Theory
+
+Прежде чем разбирать порядок слов в английском, познакомимся с тремя понятиями — они будут встречаться во всём курсе.
+
+**Subject (подлежащее)** — тот, кто совершает действие. Отвечает на вопрос *«кто?»* или *«что?»*.
+
+*Я* читаю книгу. → *I* read a book.
+Здесь Я / I — это Subject.
+
+**Verb (глагол/сказуемое)** — само действие. Отвечает на вопрос *«что делает?»*.
+
+Я *читаю* книгу. → I *read* a book.
+Здесь читаю / read — это Verb.
+
+**Object (дополнение)** — то, на кого или на что направлено действие. Отвечает на вопрос *«кого?»* или *«что?»*.
+
+Я читаю *книгу*. → I read *a book*.
+Здесь книгу / a book — это Object.
+
+Схема предложения:
+
+| Subject | Verb | Object |
+|---------|------|--------|
+| Я | люблю | кофе |
+| I | love | coffee |
+
+Эти три части — основа любого предложения. Запомни их: они будут часто встречаться в объяснениях на протяжении всего курса.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Subject (подлежащее) — кто совершает действие. Verb (глагол) — само действие. Object (дополнение) — кого или что затрагивает действие. Схема: S → V → O.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 265 | Я читаю книгу. | I read a book. |
+| 266 | Ты любишь кофе. | You love coffee. |
+| 267 | Мы видим машину. | We see a car. |
+| 268 | Они знают ответ. | They know the answer. |
+| 269 | Я слушаю музыку. | I listen to music. |
+
+---
+
+#### Clarification Options
+
+- Как понять кто Subject, а кто Object, если оба — существительные?
+- Бывают ли предложения без Object?
+- Что если одно лицо и Subject и Object одновременно — например "Я умылся"?
+
+---
+
+### Card 49 · Порядок слов фиксирован: S → V → O
+
+**ID:** 49 | **Order:** 2
+
+#### Theory
+
+В русском языке порядок слов свободный — и мы привыкли к этому с детства. Посмотри:
+
+*«Я люблю тебя.»*
+*«Тебя люблю я.»*
+*«Люблю я тебя.»*
+
+Все три предложения говорят одно и то же. Как русский понимает кто кого любит? По **окончаниям**: «я» — именительный падеж (Subject), «тебя» — винительный (Object). Падежи несут информацию о роли слова — поэтому слова можно переставлять как угодно.
+
+В английском **падежей нет**. Язык не знает «тебя» против «ты» через окончания — он смотрит на **позицию** в предложении. Кто стоит первым перед глаголом — тот и совершает действие.
+
+*"I love you."* ✓ — я люблю тебя
+*"You love me."* ✓ — ты любишь меня
+
+Поменял Subject и Object местами — и смысл изменился. Это не стиль, не акцент — это другое предложение. Именно поэтому порядок слов в английском **фиксирован**.
+
+**Сравни русский и английский — примеры из жизни:**
+
+❌ «Кофе я пью каждый день.» → нельзя: *"Coffee I drink every day."*
+✓ Правильно: *"I drink coffee every day."*
+
+❌ «Фильм мы смотрели вчера.» → нельзя: *"The film we watched yesterday."*
+✓ Правильно: *"We watched the film yesterday."*
+
+❌ «Маму мы навестили в воскресенье.» → нельзя: *"Our mum we visited on Sunday."*
+✓ Правильно: *"We visited our mum on Sunday."*
+
+❌ «Кота они гладят.» → нельзя: *"The cat they stroke."*
+✓ Правильно: *"They stroke the cat."*
+
+❌ «Правду вы знаете.» → нельзя: *"The truth you know."*
+✓ Правильно: *"You know the truth."*
+
+**Главное правило:** Subject — всегда первый, Verb — сразу после него, Object — после глагола. Нарушить порядок = изменить смысл или сломать предложение.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+В английском нет падежей, поэтому позиция слова = его роль в предложении. Subject → Verb → Object — порядок нельзя нарушить. «Кофе я люблю» по-английски невозможно — только "I love coffee".
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 270 | Я люблю тебя. | I love you. |
+| 271 | Я пью кофе каждый день. | I drink coffee every day. |
+| 272 | Мы смотрели фильм вчера. | We watched the film yesterday. |
+| 273 | Мы навестили маму в воскресенье. | We visited our mum on Sunday. |
+| 274 | Они гладят кота. | They stroke the cat. |
+| 275 | Вы знаете правду. | You know the truth. |
+
+---
+
+#### Exercises
+
+**Ex 255 · WordArrangement** *(ID: 29)*
+
+RU: Я люблю музыку.
+
+Правильное предложение: **I love music.**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| I | я | — |
+| love | люблю | — |
+| music | музыку | — |
+| Music | — | ✗ дистрактор |
+| like | нравится | ✗ дистрактор |
+
+*Explanation:* Subject (I) → Verb (love) → Object (music). "Music I love" — нарушение SVO: Object оказывается перед Subject. "Music" с заглавной — ловушка: буква заглавная, но это не делает слово Subject. "Like" — другой глагол, не подходит.
+
+---
+
+**Ex 256 · ErrorCorrection** *(ID: 24)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+*"The book I read every evening."*
+
+- I read every evening the book.
+- **I read the book every evening.** ✓
+- Every evening I the book read.
+
+*Explanation:* Object (the book) стоит перед Subject в начале предложения — нарушение SVO. Правильный порядок: Subject (I) → Verb (read) → Object (the book) → обстоятельство (every evening).
+
+---
+
+**Ex 257 · MultipleChoice · FORWARD_CHOICE** *(ID: 45)*
+
+«Мы видим кошку.»
+
+- Cat we see.
+- We the cat see.
+- **We see the cat.** ✓
+
+*Explanation:* Subject (We) → Verb (see) → Object (the cat). Вариант 1 ставит Object перед Subject — смысл ломается. Вариант 2 разрывает Verb и Object — нарушение SVO.
+
+---
+
+**Ex 258 · ErrorCorrection** *(ID: 25)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+*"Coffee we drink every morning."*
+
+- We every morning drink coffee.
+- We coffee drink every morning.
+- **We drink coffee every morning.** ✓
+
+*Explanation:* Object (coffee) стоит в начале вместо Subject. В английском нет падежей — позиция слова определяет его роль. Первое слово перед глаголом = Subject.
+
+---
+
+**Ex 259 · MultipleChoice · FORWARD_CHOICE** *(ID: 46)*
+
+«Я читаю письмо.»
+
+- The letter I read.
+- **I read the letter.** ✓
+- Read I the letter.
+
+*Explanation:* Subject (I) → Verb (read) → Object (the letter). Вариант 1 — Object перед Subject. Вариант 3 — глагол в начале предложения: это форма вопроса, а не утверждения.
+
+---
+
+**Ex 260 · WordArrangement** *(ID: 30)*
+
+RU: Вы знаете правду.
+
+Правильное предложение: **You know the truth.**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| You | вы / ты | — |
+| know | знаете / знаешь | — |
+| the truth | правду | — |
+| The truth | — | ✗ дистрактор |
+| a truth | — | ✗ дистрактор |
+
+*Explanation:* Subject (You) → Verb (know) → Object (the truth). "The truth" с заглавной буквы — ловушка: заглавная буква могла бы указывать на начало предложения, но Subject уже есть (You). "A truth" — неправильный артикль: "truth" — абстрактное понятие, берёт "the".
+
+---
+
+**Ex 261 · TrueFalse** *(ID: 31)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | I love music. | Я люблю музыку. | ✓ |
+| 2 | The coffee we drink. | Мы пьём кофе. | ✗ |
+| 3 | They see the car. | Они видят машину. | ✓ |
+| 4 | The book read we. | Мы читаем книгу. | ✗ |
+| 5 | You know the answer. | Вы знаете ответ. | ✓ |
+
+*Explanation:* №2 — Object (the coffee) стоит перед Subject (we): нарушение SVO, правильно "We drink the coffee." №4 — Object (the book) перед Verb (read) перед Subject (we): тройное нарушение, предложение неграмматично.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card49_ex1
+**Title:** "Восстанови порядок SVO"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст 3 русских предложения. Переведи каждое на английский, соблюдая порядок Subject → Verb → Object."
+**Prompt Template:** "Дай пользователю 3 простых русских предложения по схеме 'кто делает что', используй только субъекты я/ты/мы/вы/они. Попроси перевести на английский, соблюдая порядок Subject → Verb → Object. Используй простые глаголы (like, read, see, know, drink) и простые существительные. Проверь: 1) Subject стоит перед Verb, 2) Object стоит после Verb, 3) нет перестановок в стиле русского. При ошибке объясни по-русски кратко что именно нарушено. Пример вывода AI: 'Переведи на английский: 1. Я люблю чай. 2. Мы видим машину. 3. Вы знаете ответ.'"
+
+#### Clarification Options
+
+- Как понять кто Subject если в предложении два существительных?
+- Что если нужно сделать акцент — можно ли поставить Object в начало?
+- Почему нельзя сказать "The book reads Roma" как в русском "Книгу читает Рома"?
+
+---
+
+### Card 50 · Субъект обязателен: It is cold / It is raining
+
+**ID:** 50 | **Order:** 3
+
+#### Theory
+
+В русском языке есть целый класс предложений без подлежащего — **безличные**:
+
+*«Холодно.»*
+*«Темно.»*
+*«Идёт дождь.»*
+*«Уже пять часов.»*
+*«Говорят, что...»*
+
+По-русски это звучит естественно — мы понимаем смысл без всякого субъекта.
+
+В английском так **нельзя**. Каждое предложение обязано иметь Subject. Без него предложение грамматически неполноценно — непонятно кто или что описывается.
+
+Выход: **формальное подлежащее it**.
+
+| Русский | Английский |
+|---------|-----------|
+| Холодно. | **It** is cold. |
+| Темно. | **It** is dark. |
+| Идёт дождь. | **It** is raining. |
+| Уже пять часов. | **It** is five o'clock. |
+| Интересно. | **It** is interesting. |
+| Жарко. | **It** is hot. |
+
+Это «it» **не переводится** — оно просто занимает место Subject, потому что без него предложение невозможно. Носители используют такое «it» автоматически, не задумываясь.
+
+Для «говорят что...» — формальный субъект **they** (люди вообще, не конкретное «они»):
+*«Говорят, что...»* → *"They say that..."*
+
+**Самые частые ошибки:**
+
+*"Is cold."* ✗ — нет Subject
+*"Cold."* ✗ — не предложение: пропущены и Subject, и глагол
+→ *"It is cold."* ✓ / *"It's cold."* ✓
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+В английском нельзя обойтись без Subject. Для безличных предложений (погода, время, состояние) — формальное It: "It is cold / It is raining". "It" здесь не переводится — только заполняет позицию Subject.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 276 | Холодно. | It is cold. |
+| 277 | Идёт дождь. | It is raining. |
+| 278 | Темно. | It is dark. |
+| 279 | Уже пять часов. | It is five o'clock. |
+| 280 | Интересно. | It is interesting. |
+| 281 | Говорят, что он умный. | They say that he is smart. |
+
+---
+
+#### Exercises
+
+**Ex 263 · MultipleChoice · FORWARD_CHOICE** *(ID: 47)*
+
+«Холодно.»
+
+- Cold.
+- Is cold.
+- **It is cold.** ✓
+
+*Explanation:* "Cold." — не предложение: пропущены и Subject, и глагол. "Is cold." — Subject пропущен, начинать утверждение с глагола нельзя. Нужен формальный Subject It + глагол is.
+
+---
+
+**Ex 264 · ErrorCorrection** *(ID: 26)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+*"Is raining outside."*
+
+- Raining is outside.
+- Outside is raining.
+- **It is raining outside.** ✓
+
+*Explanation:* Пропущен Subject. В утверждении нельзя начинать с глагола — это форма вопроса. "It" — обязательный формальный субъект для безличных конструкций.
+
+---
+
+**Ex 265 · TextInput** *(ID: 21)*
+
+1. *"___ is dark outside."* (На улице темно)
+   Ответ: **It**
+
+2. *"___ is half past five."* (Уже половина шестого)
+   Ответ: **It**
+
+3. *"___ say that London is beautiful."* (Говорят, что Лондон красивый)
+   Ответ: **They**
+
+*Explanation:* Для погоды, времени, состояния среды — субъект "It". Для "говорят" (безликое множество людей) — субъект "They". Оба случая: реального субъекта нет, используем формальный чтобы заполнить позицию Subject.
+
+---
+
+**Ex 266 · TrueFalse** *(ID: 32)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | It is cold today. | Сегодня холодно. | ✓ |
+| 2 | Is raining. | Идёт дождь. | ✗ |
+| 3 | It is interesting. | Интересно. | ✓ |
+| 4 | Dark outside. | На улице темно. | ✗ |
+| 5 | It is seven o'clock. | Уже семь часов. | ✓ |
+
+*Explanation:* №2 — пропущен Subject: "It is raining." №4 — пропущены Subject "It" и глагол "is": "It is dark outside."
+
+---
+
+**Ex 267 · WordArrangement** *(ID: 31)*
+
+RU: Идёт снег.
+
+Правильное предложение: **It is snowing.**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| It | формальный субъект | — |
+| is | вспомогательный глагол | — |
+| snowing | идёт (о снеге) | — |
+| Snow | снег | ✗ дистрактор |
+| raining | идёт (о дожде) | ✗ дистрактор |
+
+*Explanation:* "It" — обязательный формальный субъект. "Is snowing" — конструкция для процесса прямо сейчас. "Snow" — существительное, не глагол, не подходит. "Raining" — про дождь, а не снег.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card50_ex1
+**Title:** "Переведи безличные предложения"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст 4 русских безличных предложения. Переведи каждое на английский — не забудь добавить нужный субъект."
+**Prompt Template:** "Дай пользователю 4 русских безличных предложения: одно про погоду, одно про время, одно про состояние (темно/жарко/интересно), одно 'говорят что'. Попроси перевести на английский с правильным субъектом. Проверь: 1) субъект присутствует в каждом предложении, 2) It — для погоды/времени/состояния, They say — для 'говорят'. При ошибке объясни по-русски кратко. Пример вывода AI: 'Переведи на английский: 1. Жарко. 2. Сейчас три часа. 3. Интересно. 4. Говорят, что она права.'"
+
+#### Clarification Options
+
+- Почему "it" — а не "this" или "there"?
+- Если хочу сказать "мне холодно" — тоже "it"?
+- Чем отличается "It is raining" от "It rains"?
+
+---
+
+### Card 51 · Место обстоятельства: конец или начало, не середина
+
+**ID:** 51 | **Order:** 4
+
+#### Theory
+
+Мы разобрали порядок S → V → O. Но в предложениях часто есть ещё одна часть — **обстоятельство**: *когда?* (yesterday, today, in the morning) и *где?* (here, at home, in the park).
+
+Куда его ставить?
+
+**Правило:** обстоятельство — в **конец** предложения или в самое **начало** для акцента. Никогда — в середину между Subject и Verb или между Verb и Object.
+
+Именно здесь русскоязычный делает самую частую ошибку:
+
+❌ «Я *вчера* видел его.» — по-русски обстоятельство в середине
+Русскоязычный пишет: *"I yesterday saw him."* ✗
+✓ Правильно: *"I saw him yesterday."* — обстоятельство в конце
+
+❌ «Я *дома* работаю.»
+Нельзя: *"I at home work."* ✗
+✓ Правильно: *"I work at home."*
+
+❌ «Мы *утром* пьём кофе.»
+Нельзя: *"We in the morning drink coffee."* ✗
+✓ Правильно: *"We drink coffee in the morning."*
+
+❌ «Тёма *там* был в пятницу.»
+Нельзя: *"Tyoma there was on Friday."* ✗
+✓ Правильно: *"Tyoma was there on Friday."*
+
+❌ «Коля *в парке* читал книгу.»
+Нельзя: *"Kolya in the park read a book."* ✗
+✓ Правильно: *"Kolya read a book in the park."*
+
+**Начало — для акцента:**
+Хочешь выделить «когда» или «где» — можно поставить в самое начало:
+*"Yesterday I saw him."* ✓ — акцент на «вчера»
+*"In the morning we drink coffee."* ✓ — акцент на «утром»
+
+Оба варианта правильны, разница только в акценте:
+*"I saw him yesterday."* = *"Yesterday I saw him."*
+
+**Что запрещено в любом случае:**
+*"I yesterday saw him."* ✗ — между Subject и Verb
+*"I at home work."* ✗ — между Subject и Verb
+*"We drink in the morning coffee."* ✗ — между Verb и Object
+
+**Запомни:** конец или начало — но никогда середина.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Обстоятельство (когда? где?) — в конец предложения или в начало для акцента. Никогда между Subject и Verb или между Verb и Object. "I yesterday saw him" — классическая ошибка под влиянием русского.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 282 | Я видел его вчера. | I saw him yesterday. |
+| 283 | Вчера я видел его. | Yesterday I saw him. |
+| 284 | Я работаю дома. | I work at home. |
+| 285 | Мы пьём кофе по утрам. | We drink coffee in the morning. |
+| 286 | Тёма был там в пятницу. | Tyoma was there on Friday. |
+| 287 | Коля читал книгу в парке. | Kolya read a book in the park. |
+
+---
+
+#### Exercises
+
+**Ex 269 · Transformation** *(ID: 6)*
+
+Задание: переставь обстоятельство на правильное место — в конец предложения
+
+1. *"I yesterday saw the film."* → **"I saw the film yesterday."**
+2. *"I at home work every day."* → **"I work at home every day."**
+3. *"They in the park walked."* → **"They walked in the park."**
+
+*Explanation:* Обстоятельство не может стоять между Subject и Verb ("I yesterday saw") или между Verb и Object ("I at home work"). Правильная позиция — после всего предложения (или перед Subject для акцента, но не в середину).
+
+---
+
+**Ex 270 · ErrorCorrection** *(ID: 27)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+*"We today read a book."*
+
+- Today read we a book.
+- We read today a book.
+- **We read a book today.** ✓
+
+*Explanation:* "Today" разрывает Verb (read) и Object (a book). Обстоятельство идёт после всего предложения: "We read a book today." Или в начало для акцента: "Today we read a book."
+
+---
+
+**Ex 271 · MultipleChoice · FORWARD_CHOICE** *(ID: 48)*
+
+«Мы смотрели фильм вчера вечером.»
+
+- We yesterday evening watched the film.
+- We watched yesterday the film in the evening.
+- **We watched the film yesterday evening.** ✓
+
+*Explanation:* Оба обстоятельства (yesterday + evening) идут в конец — после Object (the film). Вариант 1 ставит оба обстоятельства перед Verb. Вариант 2 разрывает Verb и Object обстоятельством "yesterday".
+
+---
+
+**Ex 272 · WordArrangement** *(ID: 32)*
+
+RU: Мы читали книгу в парке.
+
+Правильное предложение: **We read a book in the park.**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| We | мы | — |
+| read | читали | — |
+| a book | книгу | — |
+| in the park | в парке | — |
+| in park | — | ✗ дистрактор |
+| into the park | — | ✗ дистрактор |
+
+*Explanation:* Обстоятельство "in the park" — строго в конец, после Object. "In park" — ошибка: перед "park" нужен артикль "the". "Into the park" — "into" означает движение внутрь, а не нахождение; нужен предлог "in".
+
+---
+
+**Ex 273 · TrueFalse** *(ID: 33)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | I saw her yesterday. | Я видел её вчера. | ✓ |
+| 2 | We in the morning drink coffee. | Мы пьём кофе по утрам. | ✗ |
+| 3 | Yesterday we walked in the park. | Вчера мы гуляли в парке. | ✓ |
+| 4 | They work at home today. | Они сегодня работают дома. | ✓ |
+| 5 | I today read a letter. | Я сегодня читаю письмо. | ✗ |
+
+*Explanation:* №2 — "in the morning" между Subject (we) и Verb (drink). Правильно: "We drink coffee in the morning." №5 — "today" между Subject (I) и Verb (read). Правильно: "I read a letter today."
+
+---
+
+**Ex 274 · FindTheOdd** *(ID: 10)*
+
+Три предложения — обстоятельство стоит правильно. Одно — с ошибкой:
+
+- We visited our friend on Sunday.
+- We drink coffee in the morning.
+- Yesterday I saw the film.
+- **They at home work every day.** ✓
+
+*Explanation:* "They at home work every day" — обстоятельство "at home" вклинилось между Subject (They) и Verb (work). Правильно: "They work at home every day." В остальных трёх обстоятельство стоит в конце или в начале.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card51_ex1
+**Title:** "Поставь обстоятельство правильно"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст 3 предложения с неправильно стоящим обстоятельством. Перепиши каждое правильно."
+**Prompt Template:** "Дай пользователю 3 английских предложения где обстоятельство времени или места стоит неправильно — между Subject и Verb или между Verb и Object. Используй простую лексику. Попроси переписать каждое предложение с правильным порядком слов. Проверь: обстоятельство должно быть в конце предложения или в самом начале. При ошибке объясни по-русски кратко. Пример вывода AI: 'Исправь порядок слов: 1. I yesterday called her. 2. We at home eat lunch. 3. They in the park every day walk.'"
+
+#### Clarification Options
+
+- Если ставлю обстоятельство в начало — меняется ли смысл?
+- Что если в предложении два обстоятельства — как их расставить?
+- Можно ли ставить обстоятельство сразу после глагола, но до дополнения?
+
+---
+
+### Words8r Sync · Порядок слов
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| subject | подлежащее, субъект | [ˈsʌbdʒɪkt] |
+| verb | глагол, сказуемое | [vɜːrb] |
+| object | дополнение, объект | [ˈɒbdʒɪkt] |
+| order | порядок | [ˈɔːrdər] |
+| yesterday | вчера | [ˈjestərdeɪ] |
+| today | сегодня | [təˈdeɪ] |
+| outside | снаружи, на улице | [ˌaʊtˈsaɪd] |
+
+---
+---
+
 ## Счётчики IDs для продолжения
 
 > Следующий блок начинает IDs с этих значений:
 
 | Тип | Последний использованный ID | Следующий блок начинает с |
 |-----|-----------------------------|--------------------------|
-| Microtopic | 18 | 19 |
-| Card | 47 | 48 |
-| Example | 264 | 265 |
-| Exercise | 254 | 255 |
+| Microtopic | 19 | 20 |
+| Card | 51 | 52 |
+| Example | 287 | 288 |
+| Exercise | 275 | 276 |
 
-**Таблица счётчиков** (актуально после микротем 16–18):
+**Таблица счётчиков** (актуально после микротем 16–19):
 
 | Тип | Последний ID | Следующий |
 |-----|-------------|-----------|
-| WordArrangement | 28 | 29 |
+| WordArrangement | 32 | 33 |
 | MultipleChoice · CHOICE | 49 | 50 |
-| MultipleChoice · FORWARD_CHOICE | 44 | 45 |
+| MultipleChoice · FORWARD_CHOICE | 48 | 49 |
 | MultipleChoice · REVERSE_CHOICE | 14 | 15 |
-| TrueFalse | 30 | 31 |
-| ErrorCorrection | 23 | 24 |
-| TextInput | 20 | 21 |
+| TrueFalse | 33 | 34 |
+| ErrorCorrection | 27 | 28 |
+| TextInput | 21 | 22 |
 | Matching | 7 | 8 |
-| Transformation | 5 | 6 |
+| Transformation | 6 | 7 |
 | Categorization | 7 | 8 |
 | TableFill | 7 | 8 |
-| FindTheOdd | 9 | 10 |
+| FindTheOdd | 10 | 11 |
 | ConstructionMeaning | 4 | 5 |
 | DialogRestore | 6 | 7 |
-| Microtopic | 18 | 19 |
-| Card | 47 | 48 |
-| Example | 264 | 265 |
+| Microtopic | 19 | 20 |
+| Card | 51 | 52 |
+| Example | 287 | 288 |
