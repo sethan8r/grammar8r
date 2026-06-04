@@ -121,7 +121,7 @@ Grammar8r/
 │   │     "I like coffee but I don't like tea." "It is cold because it is winter."
 │   │   Не включать: степени сравнения, порядок нескольких прилагательных — это позже в курсе
 │   │
-│   ├── 🔜 Can / can't — MT21
+│   ├── 🔜 Can / can't — MT21  (ДОБАВЛЕНА)
 │   │   Карточки (минимум):
 │   │   - Что такое can: умею / могу / прошу разрешения — одно слово, три смысла
 │   │     "I can swim." / "Can you help me?" / "Can I open the window?"

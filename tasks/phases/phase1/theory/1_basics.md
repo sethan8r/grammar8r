@@ -6901,47 +6901,6 @@ spring / summer / autumn / fall / winter — строчными. Autumn (бри�
 ---
 ---
 
-## Счётчики IDs для продолжения
-
-> Следующий блок начинает IDs с этих значений:
-
-| Тип | Последний использованный ID | Следующий блок начинает с |
-|-----|-----------------------------|--------------------------|
-| Microtopic | 15 | 16 |
-| Card | 38 | 39 |
-| Example | 228 | 229 |
-| Exercise | 222 | 223 |
-
----
-
-
-
-**Таблица счётчиков** (актуально после микротем 13–15):
-
-| Тип | Последний ID | Следующий |
-|-----|-------------|-----------|
-| WordArrangement | 27 | 28 |
-| MultipleChoice · CHOICE | 45 | 46 |
-| MultipleChoice · FORWARD_CHOICE | 40 | 41 |
-| MultipleChoice · REVERSE_CHOICE | 13 | 14 |
-| TrueFalse | 26 | 27 |
-| ErrorCorrection | 17 | 18 |
-| TextInput | 18 | 19 |
-| Matching | 6 | 7 |
-| Transformation | 3 | 4 |
-| Categorization | 5 | 6 |
-| TableFill | 6 | 7 |
-| FindTheOdd | 7 | 8 |
-| ConstructionMeaning | 3 | 4 |
-| DialogRestore | 5 | 6 |
-| AiExercise | 36 штук в файле | ID строковый: basics_card{N}_ex1 |
-| Microtopic | 15 | 16 |
-| Card | 38 | 39 |
-| Example | 228 | 229 |
-
----
----
-
 # БЛОК 6 · Микротемы 16–18
 
 ---
@@ -9941,35 +9900,295 @@ B: ___
 ---
 ---
 
+# БЛОК 8 · Микротемы 22–24
+
+## Microtopic 22 — also / too / as well · Три способа сказать «тоже»
+
+**ID:** 22 | **Order:** 22
+
+---
+
+### Card 62 · also / too / as well
+
+**ID:** 62 | **Order:** 1
+
+#### Theory
+
+В русском языке у нас одно слово — "тоже" или "также". В английском таких слов три: **also**, **too** и **as well**. Смысл одинаковый, но каждое стоит строго на своём месте в предложении.
+
+**also — "также"**
+
+Стоит **перед основным глаголом**:
+- "I **also** drink coffee." *(Я тоже пью кофе.)*
+- "She **also** speaks French." *(Она тоже говорит по-французски.)*
+
+Если в предложении глагол to be — also идёт **после него**:
+- "Lena **is also** tired." *(Лена тоже устала.)*
+- "He **is also** a student." *(Он тоже студент.)*
+
+**too — "тоже"**
+
+Стоит **в конец предложения**, обычно с запятой:
+- "I drink coffee, **too**." *(Я тоже пью кофе.)*
+- "He is tired, **too**." *(Он тоже устал.)*
+
+Это самый разговорный и частый вариант из трёх.
+
+**as well — "тоже / также"**
+
+Тоже идёт **в конец**, но звучит чуть формальнее и нейтральнее чем too. Запятая не нужна:
+- "She speaks French **as well**." *(Она тоже говорит по-французски.)*
+- "I can help **as well**." *(Я тоже могу помочь.)*
+
+---
+
+**Сравнение трёх слов:**
+
+| Слово | Позиция | Стиль | Пример |
+|-------|---------|-------|--------|
+| also | перед глаголом / после to be | нейтральный | "I also like tea." |
+| too | в конец, с запятой | разговорный | "I like tea, too." |
+| as well | в конец, без запятой | чуть формальнее | "She speaks French as well." |
+
+---
+
+**Ловушка 1: too не стоит между субъектом и глаголом**
+
+Мозг хочет поставить "тоже" сразу после "я" — как по-русски. Но too в середине предложения — ошибка:
+
+"I **too** like pizza." ✗ → "I like pizza, **too**." ✓
+
+too всегда в конец. Если хочешь слово в середине — используй also:
+
+"I **also** like pizza." ✓
+
+**Ловушка 2: "Me also!" как короткий ответ — не существует**
+
+Кто-то говорит: "I love this film!" Ты согласен. Как ответить?
+
+- "**Me too!**" ✓ — правильно и естественно
+- "Me also!" ✗ — так не говорят. also не используется как отдельная реплика
+
+"Me too" — устойчивая форма. Запомни как единицу.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+also = перед глаголом / после to be. too = в конец с запятой. as well = в конец без запятой, формальнее. Ловушки: "I too like tea" ✗ (too только в конец) и "Me also!" ✗ (только "Me too!").
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 328 | Я тоже пью кофе. | I also drink coffee. |
+| 329 | Лена тоже устала. | Lena is also tired. |
+| 330 | Рома тоже там был. | Roma was there, too. |
+| 331 | Она тоже говорит по-французски. | She speaks French as well. |
+
+---
+
+#### Exercises
+
+**Ex 312 · CHOICE** *(ID: 57)*
+
+"She ___ speaks French." (Она тоже говорит по-французски; пропуск в середине предложения)
+
+- too
+- as well
+- **also** ✓
+
+*Explanation:* too и as well идут в конец предложения — в середину не встают. Только also стоит перед глаголом. "She speaks French, too." / "She speaks French as well." — тоже правильно, но с другим порядком слов.
+
+---
+
+**Ex 313 · FORWARD_CHOICE** *(ID: 54)*
+
+"Катя тоже устала."
+
+- Katya tired too.
+- Katya too is tired.
+- **Katya is also tired.** ✓
+
+*Explanation:* also стоит после to be: "is also tired". "Katya tired too" — нет глагола to be. "Katya too is tired" — too не стоит в середине предложения.
+
+---
+
+**Ex 314 · REVERSE_CHOICE** *(ID: 15)*
+
+Переведи на русский:
+
+"She speaks French as well."
+
+- Она говорит по-французски слишком много.
+- Она говорит по-французски или нет?
+- **Она тоже говорит по-французски.** ✓
+
+*Explanation:* "as well" в конце предложения = "тоже / также". Не путай с "too much" (слишком много) — это другое использование too. "as well" всегда означает "тоже", никогда "слишком".
+
+---
+
+**Ex 315 · ErrorCorrection** *(ID: 35)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"I too love pizza."
+
+- Too I love pizza.
+- I love pizza too often.
+- **I love pizza, too.** ✓
+
+*Explanation:* too не стоит в середине предложения между субъектом и глаголом. Правильная позиция — в конец: "I love pizza, too." "Too I love pizza" — тоже неправильная позиция, теперь в начале. "too often" — меняет смысл на "слишком часто".
+
+---
+
+**Ex 316 · WordArrangement** *(ID: 38)*
+
+RU: Она тоже изучает английский.
+
+Правильное предложение: **She also studies English.**
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| She | — | — |
+| also | также / тоже | — |
+| studies | — | — |
+| English | — | — |
+| too | тоже | ✗ дистрактор |
+| as well | тоже / также | ✗ дистрактор |
+
+*Explanation:* "She also studies English" — also перед глаголом. "too" и "as well" — оба идут в конец: "She studies English, too." / "She studies English as well." — тоже правильно, но это другое предложение с другим порядком.
+
+---
+
+**Ex 317 · DialogRestore** *(ID: 8)*
+
+A: "I love this film so much!"
+B: ___
+
+- Me also!
+- I too love it!
+- **Me too!** ✓
+
+*Explanation:* "Me too!" — единственная правильная форма короткого согласия. "Me also" — так не говорят, also не используется как отдельная реплика. "I too love it" — too в середине предложения, ошибка позиции.
+
+---
+
+**Ex 318 · TrueFalse** *(ID: 37)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | She speaks French as well. | Она тоже говорит по-французски. | ✓ |
+| 2 | I too love pizza. | Я тоже люблю пиццу. | ✗ |
+| 3 | He is also tired. | Он тоже устал. | ✓ |
+| 4 | Vera likes tea, too. | Вера тоже любит чай. | ✓ |
+| 5 | — I love this song! — Me also! | — Мне нравится эта песня! — Я тоже! | ✗ |
+
+*Explanation:* №2 — ошибка: too не стоит в середине предложения. Правильно: "I love pizza, too." №5 — ошибка: короткий ответ "Me also!" не существует. Только "Me too!"
+
+---
+
+**Ex 319 · TextInput** *(ID: 22)*
+
+1. "I ___ drink coffee." (Я тоже пью кофе; слово в середине предложения)
+   Ответ: **also**
+
+2. "Roma was there, ___." (Рома тоже там был; слово в конце)
+   Ответ: **too**
+
+3. "She is ___ a student." (Она тоже студентка; слово после to be)
+   Ответ: **also**
+
+4. "He speaks Spanish ___." (Он тоже говорит по-испански; в конце, без запятой, формально)
+   Ответ: **as well**
+
+*Explanation:* also стоит перед глаголом или после to be. too и as well идут в конец предложения. too — с запятой, as well — без.
+
+---
+
+**Ex 320 · Transformation** *(ID: 9)*
+
+Задание: перепиши предложение, заменив also на too.
+
+1. "I also like coffee." → **"I like coffee, too."**
+2. "She is also tired." → **"She is tired, too."**
+3. "Misha also studies English." → **"Misha studies English, too."**
+
+*Explanation:* also убираем из середины, too встаёт в конец с запятой. Оставлять оба сразу ("I also like coffee, too.") — нетипично и избыточно.
+
+---
+
+**Ex 321 · FindTheOdd** *(ID: 13)*
+
+Три предложения используют also/too/as well правильно. Найди то где есть ошибка:
+
+- I also drink tea every morning.
+- **She speaks too French.** ✓
+- He was there, too.
+- Olya can swim as well.
+
+*Explanation:* "She speaks too French" — ошибка: too не стоит между глаголом и дополнением. Правильно: "She also speaks French." или "She speaks French, too." В остальных трёх слова стоят на правильных позициях.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card62_ex1
+**Title:** "Перепиши с двумя другими словами"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст 3 предложения — в каждом уже есть also, too или as well. Перепиши каждое предложение дважды: используя два оставшихся слова."
+**Prompt Template:** "Дай 3 готовых английских предложения — одно с also, одно с too, одно с as well. Задача пользователя: переписать каждое предложение дважды, заменив слово двумя оставшимися вариантами. Все слова уже даны в предложении — нужно только переставить also/too/as well на правильное место (добавить/убрать запятую, переместить слово, поправить позицию). Проверь три версии каждого предложения. При ошибке объясни по-русски кратко: also — перед глаголом или после to be; too — в конец с запятой; as well — в конец без запятой.
+
+Пример вывода AI: 'Перепиши каждое предложение дважды — замени выделенное слово двумя другими: 1) I **also** drink coffee. → используй too → используй as well 2) She is tired, **too**. → используй also → используй as well 3) He speaks French **as well**. → используй also → используй too'"
+
+#### Clarification Options
+
+- Можно ли всегда использовать also вместо too и as well — они же все значат "тоже"?
+- Почему "I too like tea" — ошибка, разве нельзя поставить "тоже" сразу после "я"?
+- Есть ли разница между "too" и "as well" на практике, или это одно и то же?
+
+---
+
+### Words8r Sync · also / too / as well
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| also | также, тоже | [ˈɔːlsoʊ] |
+| too | тоже; слишком | [tuː] |
+| as well | тоже, также | [æz wɛl] |
+
+---
+---
+
 ## Счётчики IDs для продолжения
 
 > Следующий блок начинает IDs с этих значений:
 
 | Тип | Последний использованный ID | Следующий блок начинает с |
 |-----|-----------------------------|--------------------------|
-| Microtopic | 21 | 22 |
-| Card | 61 | 62 |
-| Example | 327 | 328 |
-| Exercise | 311 | 312 |
+| Microtopic | 22 | 23 |
+| Card | 62 | 63 |
+| Example | 331 | 332 |
+| Exercise | 321 | 322 |
 
-**Таблица счётчиков** (актуально после MT21):
+**Таблица счётчиков** (актуально после MT22):
 
 | Тип | Последний ID | Следующий |
 |-----|-------------|-----------|
-| WordArrangement | 37 | 38 |
-| MultipleChoice · CHOICE | 56 | 57 |
-| MultipleChoice · FORWARD_CHOICE | 53 | 54 |
-| MultipleChoice · REVERSE_CHOICE | 14 | 15 |
-| TrueFalse | 36 | 37 |
-| ErrorCorrection | 34 | 35 |
-| TextInput | 21 | 22 |
+| WordArrangement | 38 | 39 |
+| MultipleChoice · CHOICE | 57 | 58 |
+| MultipleChoice · FORWARD_CHOICE | 54 | 55 |
+| MultipleChoice · REVERSE_CHOICE | 15 | 16 |
+| TrueFalse | 37 | 38 |
+| ErrorCorrection | 35 | 36 |
+| TextInput | 22 | 23 |
 | Matching | 9 | 10 |
-| Transformation | 8 | 9 |
+| Transformation | 9 | 10 |
 | Categorization | 8 | 9 |
 | TableFill | 7 | 8 |
-| FindTheOdd | 12 | 13 |
+| FindTheOdd | 13 | 14 |
 | ConstructionMeaning | 5 | 6 |
-| DialogRestore | 7 | 8 |
-| Microtopic | 21 | 22 |
-| Card | 61 | 62 |
-| Example | 311 | 312 |
+| DialogRestore | 8 | 9 |
+| Microtopic | 22 | 23 |
+| Card | 62 | 63 |
+| Example | 331 | 332 |
