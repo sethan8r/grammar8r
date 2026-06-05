@@ -10160,35 +10160,989 @@ B: ___
 ---
 ---
 
+## Microtopic 23 — want to / need to / like to · want to / need to / like to
+
+**ID:** 23 | **Order:** 23
+
+---
+
+### Card 63 · Паттерн: глагол + to + действие
+
+**ID:** 63 | **Order:** 1
+
+#### Theory
+
+По-русски всё просто: "хочу пойти", "нужно поспать", "люблю читать" — два глагола стоят рядом, никакого соединителя нет. В английском так нельзя. Между первым глаголом и следующим действием нужен мостик — **to**.
+
+**Пять глаголов которые требуют этот мостик:**
+
+**want** *(хотеть)*, **need** *(нужно, нуждаться)*, **like** *(нравиться)*, **love** *(любить)*, **hate** *(ненавидеть)*
+
+**Формула:** [want / need / like / love / hate] + **to** + [базовая форма глагола]
+
+"I want to go." *(Я хочу пойти.)*
+"She needs to sleep." *(Ей нужно поспать.)*
+"I like to read." *(Мне нравится читать.)*
+"He loves to travel." *(Он любит путешествовать.)*
+"They hate to wait." *(Они ненавидят ждать.)*
+
+Этот **to** не переводится как отдельное слово — это просто соединитель. Запомни: после этих пяти глаголов **to** обязателен всегда.
+
+---
+
+**Ловушка 1: пропустить to**
+
+"I want go." ✗ → "I want to go." ✓
+"Dima needs sleep more." ✗ → "Dima needs to sleep more." ✓
+
+Без **to** предложение сломано.
+
+**Ловушка 2: поставить -ing после to**
+
+"I want to going." ✗ → "I want to go." ✓
+"She likes to reading." ✗ → "She likes to read." ✓
+
+После **to** всегда **базовая форма** глагола (V1). Никаких -ing.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+После want / need / like / love / hate — всегда "to + базовая форма": "I want to go", "She needs to sleep". Пропустить "to" нельзя. После "to" — только базовая форма, не -ing.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 332 | Я хочу выпить кофе. | I want to drink coffee. |
+| 333 | Ей нужно поспать. | She needs to sleep. |
+| 334 | Мне нравится читать. | I like to read. |
+| 335 | Он любит путешествовать. | He loves to travel. |
+| 336 | Они ненавидят ждать. | They hate to wait. |
+| 337 | Катя хочет выучить английский. | Katya wants to learn English. |
+
+---
+
+#### Exercises
+
+**Ex 322 · MultipleChoice · FORWARD_CHOICE** *(ID: 55)*
+
+"Рома хочет поехать на море."
+
+- Roma want to go to the sea.
+- Roma wants go to the sea.
+- **Roma wants to go to the sea.** ✓
+- Roma wants to going to the sea.
+
+*Explanation:* После wants — to + базовая форма: "wants to go". "wants go" — пропущен "to". "wants to going" — после to не -ing, а базовая форма. "want" без -s — ошибка: Roma = he, нужно wants.
+
+---
+
+**Ex 323 · TextInput** *(ID: 23)*
+
+Вставь правильную форму глагола в скобках:
+
+"Katya needs ___ (learn) English for work."
+
+**Ответ:** to learn
+
+*Explanation:* После needs — to + базовая форма: "needs to learn". Просто "learn" — пропущен "to". "learning" или "to learning" — ошибка: после to только базовая форма.
+
+---
+
+**Ex 324 · WordArrangement** *(ID: 39)*
+
+"Вера хочет купить новые кроссовки."
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| Vera | — | — |
+| wants | хочет | — |
+| to | — | — |
+| buy | купить | — |
+| new sneakers | новые кроссовки | — |
+| to buying | — | ✗ |
+| wanting | — | ✗ |
+
+*Explanation:* "Vera wants to buy new sneakers." Дистрактор "to buying" — ловушка: после to базовая форма, не -ing. "wanting" — здесь нужно wants (утвердительная форма), не причастие.
+
+---
+
+**Ex 325 · TrueFalse** *(ID: 38)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | I want to drink coffee. | Я хочу выпить кофе. | ✓ |
+| 2 | She needs sleep every night. | Ей нужно спать каждую ночь. | ✗ |
+| 3 | He likes to play football. | Ему нравится играть в футбол. | ✓ |
+| 4 | Lena wants to going home. | Лена хочет пойти домой. | ✗ |
+| 5 | They love to travel in summer. | Они любят путешествовать летом. | ✓ |
+
+*Explanation:* №2 — ошибка: после needs нужно to + базовая форма: "needs to sleep". №4 — ошибка: после to базовая форма: "wants to go", не "to going".
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card63_ex1
+**Title:** "Переведи на английский"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст русские предложения с «хочу», «нужно», «люблю», «ненавижу». Переведи каждое на английский."
+**Prompt Template:** "Дай пользователю 5 русских предложений где нужно использовать want to / need to / like to / love to / hate to. Разные глаголы, разные лица. Среди пяти: одно проверяет что to не пропускают, одно — что после to базовая форма а не -ing. После каждого предложения — словарик с английскими словами которые понадобятся для перевода (глагол действия + любые незнакомые слова). Попроси перевести каждое. Проверь ответы. При ошибке объясни по-русски кратко: после want/need/like/love/hate всегда to + базовая форма; to пропустить нельзя; после to не -ing.
+
+Пример вывода AI: 'Переведи на английский (слова для перевода даны): 1) Катя хочет купить новые кроссовки. [buy — купить, sneakers — кроссовки] 2) Нам нужно поговорить. [talk — поговорить] 3) Он любит готовить по вечерам. [cook — готовить, in the evenings — по вечерам] 4) Ты хочешь попробовать? [try — попробовать] 5) Они ненавидят просыпаться рано. [wake up — просыпаться, early — рано]'"
+
+#### Clarification Options
+
+- Почему после want нужно "to", а по-русски "хочу пойти" — без ничего?
+- Всегда ли после этих пяти глаголов идёт to, или есть исключения?
+- Почему нельзя сказать "I want to going" — ведь -ing тоже форма глагола?
+
+---
+
+### Card 64 · Отрицание, вопрос и ловушка с can
+
+**ID:** 64 | **Order:** 2
+
+#### Theory
+
+Мы знаем паттерн: want/need/like + **to** + базовая форма. Разберём как строить **отрицание и вопрос** — и где чаще всего ошибаются.
+
+**Главное правило: меняется только первый глагол. To-часть не трогаем.**
+
+---
+
+**Отрицание:**
+
+"I want to go." → "I **don't** want to go." *(Я не хочу идти.)*
+"She needs to sleep." → "She **doesn't** need to sleep." *(Ей не нужно спать.)*
+"He likes to cook." → "He **doesn't** like to cook." *(Ему не нравится готовить.)*
+
+Don't / doesn't встаёт **перед** первым глаголом. "To go" / "to sleep" / "to cook" остаются нетронутыми.
+
+**Ловушка:** "I want to don't go." ✗ → "I **don't** want to go." ✓
+
+По-русски можно "хочу не идти" — отрицание стоит внутри. По-английски don't/doesn't всегда **перед** want/need/like, никогда не внутрь паттерна.
+
+---
+
+**Вопрос:**
+
+"You want to go." → "**Do** you want to go?" *(Ты хочешь пойти?)*
+"She needs to sleep." → "**Does** she need to sleep?" *(Ей нужно поспать?)*
+"What do you want to do?" *(Что ты хочешь делать?)*
+"Where does he need to go?" *(Куда ему нужно идти?)*
+
+Do/does выходит вперёд. Глагол want/need/like возвращается в базовую форму (does she **need** — не "needs"). To-часть остаётся в конце — её не переворачиваем.
+
+---
+
+**Ловушка: can + to**
+
+"I can to swim." ✗ → "I can swim." ✓
+"She can to cook." ✗ → "She can cook." ✓
+
+После **can** слово "to" не нужен вообще. Want/need/like — это одни глаголы, can — другой тип. Почему именно так — разберём подробно в теме "Устройство языка". Сейчас запомни факт: **can + базовая форма без to**.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Отрицание: don't/doesn't перед первым глаголом — "I don't want to go". Вопрос: do/does выходит вперёд — "Do you want to go?" To-часть не меняется в обоих случаях. После can — to не нужен: "I can swim".
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 338 | Я не хочу идти домой. | I don't want to go home. |
+| 339 | Ей не нужно работать сегодня. | She doesn't need to work today. |
+| 340 | Ты хочешь пойти в кино? | Do you want to go to the cinema? |
+| 341 | Что ты хочешь делать? | What do you want to do? |
+| 342 | Куда ему нужно идти? | Where does he need to go? |
+
+---
+
+#### Exercises
+
+**Ex 326 · ErrorCorrection** *(ID: 36)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"He wants to don't eat meat."
+
+- He don't wants to eat meat.
+- He wants don't eat meat.
+- **He doesn't want to eat meat.** ✓
+
+*Explanation:* Отрицание строится через doesn't перед первым глаголом: "doesn't want". To-часть "to eat" остаётся нетронутой. "wants to don't" — don't нельзя вставлять внутрь паттерна. "don't wants" — с he/she/it нужен doesn't.
+
+---
+
+**Ex 327 · Transformation** *(ID: 10)*
+
+Дано: "Dima wants to learn English."
+
+Сделай **отрицание** и **вопрос**:
+
+**Отрицание:** Dima doesn't want to learn English.
+**Вопрос:** Does Dima want to learn English?
+
+*Explanation:* Отрицание: doesn't перед want (Dima = he → doesn't), "to learn" остаётся. Вопрос: Does выходит вперёд, want возвращается в базовую форму (не "wants"), "to learn" остаётся в конце.
+
+---
+
+**Ex 328 · MultipleChoice · FORWARD_CHOICE** *(ID: 56)*
+
+"Ей не нравится рано вставать."
+
+- She doesn't likes to wake up early.
+- She doesn't like to waking up early.
+- She don't like to wake up early.
+- **She doesn't like to wake up early.** ✓
+
+*Explanation:* После doesn't — базовая форма: "like", не "likes" — это общее правило doesn't. To-часть "to wake up" остаётся без изменений. "don't" — с she нужен doesn't.
+
+---
+
+**Ex 329 · DialogRestore** *(ID: 9)*
+
+— Do you want to come to the party on Friday?
+— [???]
+— Oh, that's a shame. Maybe next time!
+
+- Yes, I want. I love parties!
+- No, I don't want. I need work.
+- No, I can to go — I have plans.
+- **No, I don't want to go. I need to finish my project.** ✓
+
+*Explanation:* "I want" без продолжения незакончено — после want нужно to + действие. "I need work" — пропущен "to": "need to work". "I can to go" — после can "to" не нужен: "I can go". Только последний вариант строит оба глагола правильно.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card64_ex1
+**Title:** "Отрицание и вопрос"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст утвердительные предложения с want to / need to / like to. Сделай из каждого отрицание и вопрос."
+**Prompt Template:** "Дай 4 утвердительных предложения с want to / need to / like to / hate to — разные глаголы, разные лица (не только I). Попроси пользователя переделать каждое в отрицание и вопрос. Проверь. При ошибке объясни кратко по-русски: don't/doesn't встаёт перед первым глаголом; do/does выходит вперёд; глагол после does возвращается в базовую форму (без -s); to-часть не меняется.
+
+Пример вывода AI: 'Сделай отрицание и вопрос: 1) She wants to travel to Italy. 2) They need to wake up early. 3) Igor likes to cook on weekends. 4) Vera hates to wait.'"
+
+#### Clarification Options
+
+- Почему после doesn't глагол без -s: "doesn't like", а не "doesn't likes"?
+- В вопросе "Does she need to go?" — почему "need", а не "needs"?
+- Почему после can не нужен "to", ведь can тоже глагол?
+
+---
+
+### Words8r Sync · want to / need to
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| want | хотеть | [wɒnt] |
+| need | нужно, нуждаться | [niːd] |
+| love | любить | [lʌv] |
+| hate | ненавидеть | [heɪt] |
+| travel | путешествовать | [ˈtrævəl] |
+| learn | учить(ся), узнавать | [lɜːrn] |
+| try | пробовать, стараться | [traɪ] |
+| finish | заканчивать | [ˈfɪnɪʃ] |
+| start | начинать | [stɑːrt] |
+| help | помогать | [hɛlp] |
+
+---
+---
+
+## Microtopic 24 — as / as well as / such as · as / as well as / such as
+
+**ID:** 24 | **Order:** 24
+
+---
+
+### Card 65 · as — в роли и ловушка as vs like
+
+**ID:** 65 | **Order:** 1
+
+#### Theory
+
+Слово **as** встречается в нескольких значениях. Самое важное для начала — **as в роли / в качестве**.
+
+**as = в роли, в качестве кого-то или чего-то**
+
+Когда говоришь о профессии, функции или роли — используй `as`:
+
+"She works **as** a doctor." *(Она работает врачом.)*
+"He acts **as** a guide." *(Он выступает в роли гида.)*
+"I use my phone **as** a camera." *(Я использую телефон как фотоаппарат.)*
+"Lena started her career **as** a journalist." *(Лена начинала карьеру журналистом.)*
+
+Ключ: субъект **является** тем, о чём говоришь. Врач — это её профессия. Гид — это его роль.
+
+---
+
+**as = поскольку / когда** *(пассивное узнавание)*
+
+`as` встречается ещё в двух значениях — пока запомни на уровне узнавания:
+- "**As** it was cold, I put on a jacket." *(Поскольку было холодно, я надел куртку.)* — причина
+- "**As** I was walking home, it started to rain." *(Когда я шёл домой, начался дождь.)* — время
+
+Эти значения разберём подробно в темах "Linking Words" и временах.
+
+---
+
+**Ловушка: as vs like**
+
+`like` тоже переводится как "как" — но смысл другой:
+
+"She works **as** a doctor." — она и **есть** врач, это её профессия.
+"She works **like** a doctor." — работает **похоже** на врача, но врачом не является.
+
+"He acts **as** a guide." — он гид, выполняет эту функцию.
+"He acts **like** a guide." — ведёт себя как гид, но гидом не числится.
+
+`as` = субъект **является** тем, о чём говорим.
+`like` = субъект **похож** на то, о чём говорим, но не является им.
+
+> Подробно про `like` — "She sings like a pro", "What's he like?", look like / feel like — в теме **"Дополнительные конструкции"**.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`as` = в роли/в качестве: субъект и есть то, о чём говорим ("works as a doctor"). Не путай с `like` = похоже на, но не является ("works like a doctor").
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 343 | Она работает учителем. | She works as a teacher. |
+| 344 | Он выступает в роли переводчика. | He acts as a translator. |
+| 345 | Я использую телефон как будильник. | I use my phone as an alarm clock. |
+| 346 | Она поёт как профессионал. | She sings like a professional. |
+| 347 | Он готовит как шеф-повар, но работает программистом. | He cooks like a chef, but he works as a programmer. |
+
+---
+
+#### Exercises
+
+**Ex 330 · MultipleChoice · CHOICE** *(ID: 58)*
+
+"She works ___ a nurse at the local hospital."
+
+- like
+- **as** ✓
+- such as
+
+*Explanation:* Медсестра — это её профессия, она является ею. Значит as: "works as a nurse". "like a nurse" = работает похоже на медсестру, но не является ею — смысл другой.
+
+---
+
+**Ex 331 · Categorization** *(ID: 9)*
+
+Распредели предложения по двум колонкам:
+
+**as — является / в роли** | **like — похоже на**
+
+| Предложение | Колонка |
+|-------------|---------|
+| He works as a driver. | as |
+| She drives like a professional. | like |
+| Dima acts as a manager at his company. | as |
+| My cat sleeps like a log. | like |
+| Lena used her scarf as a blanket. | as |
+| He eats like a horse. | like |
+
+*Explanation:* as — субъект является тем, о чём говорим (профессия, роль, функция). like — субъект похож, сравнивается, но не является: "sleeps like a log" = спит как бревно (сравнение), "eats like a horse" = ест как лошадь (сравнение).
+
+---
+
+**Ex 332 · MultipleChoice · FORWARD_CHOICE** *(ID: 57)*
+
+"Рома работает гидом в музее."
+
+- Roma works like a guide in the museum.
+- **Roma works as a guide in the museum.** ✓
+- Roma works such as a guide in the museum.
+
+*Explanation:* Рома — гид по профессии. Значит as. "like a guide" = похож на гида, но гидом не является. "such as" — для перечисления примеров после существительного, не для роли.
+
+---
+
+**Ex 333 · TrueFalse** *(ID: 39)*
+
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | She works as a doctor. | Она работает врачом. | ✓ |
+| 2 | He sings like a professional singer. | Он поёт как профессиональный певец. | ✓ |
+| 3 | I use this bag like a suitcase on my trips. | Я использую эту сумку как чемодан в поездках. | ✗ |
+| 4 | Vera started her career as a designer. | Вера начинала карьеру дизайнером. | ✓ |
+| 5 | Igor cooks like a chef but works as an engineer. | Игорь готовит как шеф-повар, но работает инженером. | ✓ |
+
+*Explanation:* №3 — ошибка: сумка используется **в роли** чемодана — это функция, не сравнение. Правильно: "I use this bag **as** a suitcase." №5 — оба слова использованы верно: "as an engineer" = он инженер; "like a chef" = готовит похоже на шеф-повара.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card65_ex1
+**Title:** "as или like?"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст русские предложения. Переведи каждое — используй as или like."
+**Prompt Template:** "Дай 5 русских предложений — три требуют as (роль/функция), два требуют like (сравнение/похожесть). После каждого предложения — словарик с английскими словами для перевода. Попроси выбрать as или like и перевести. Проверь. При ошибке объясни по-русски кратко: as = субъект является тем, о чём говоришь (профессия, роль, функция); like = похоже на, но не является.
+
+Пример вывода AI: 'Переведи, используй as или like (слова даны): 1) Катя работает переводчиком. [work — работать, translator — переводчик] 2) Игорь готовит как шеф-повар. [cook — готовить, chef — шеф-повар] 3) Она использует телефон как фонарик. [use — использовать, flashlight — фонарик] 4) Дима плавает как рыба. [swim — плавать, fish — рыба] 5) Он действует как лидер команды. [act — действовать, team leader — лидер команды]'"
+
+#### Clarification Options
+
+- Почему "I use my phone as a camera" — as, а не like?
+- Как быстро понять: нужен as или like?
+- Что значит "As it was cold, I stayed home" — это то же самое as или другое?
+
+---
+
+### Card 66 · as well as + such as
+
+**ID:** 66 | **Order:** 2
+
+#### Theory
+
+**as well as = а также, в дополнение к**
+
+Ты уже знаешь `as well` из MT22 — оно стоит в конце предложения и значит "тоже":
+"She speaks French **as well**." *(Она тоже говорит по-французски.)*
+
+`as well as` — другая конструкция. Она **соединяет** два элемента:
+
+"She speaks English **as well as** French." *(Она говорит по-английски, а также по-французски.)*
+"I need a jacket **as well as** an umbrella." *(Мне нужна куртка, а также зонт.)*
+"Dima plays guitar **as well as** piano." *(Дима играет на гитаре, а также на пианино.)*
+
+Формула: [элемент A] + **as well as** + [элемент B]
+
+Разница с `and`: `and` — просто "и", нейтрально. `as well as` — акцент что B добавляется к A, "не только A, но и B":
+"She speaks English and French." *(нейтрально)*
+"She speaks English **as well as** French." *(акцент: плюс ещё и французский)*
+
+---
+
+**such as = например, такие как**
+
+Используется чтобы привести примеры — идёт **сразу после существительного**:
+
+"I like sports **such as** football and tennis." *(Мне нравятся виды спорта такие как футбол и теннис.)*
+"Fruits **such as** apples and bananas are healthy." *(Фрукты такие как яблоки и бананы полезны.)*
+"We visited cities **such as** Paris and Rome." *(Мы посетили города такие как Париж и Рим.)*
+
+Формула: [существительное] + **such as** + [примеры через запятую]
+
+**Ловушка: such as ≠ for example по позиции**
+
+`for example` — начало предложения или после запятой перед примером:
+"**For example**, apples are healthy."
+
+`such as` — только сразу после существительного которому относятся примеры:
+"fruits **such as** apples" ✓ — "fruits, **for example**, apples" ✗
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`as well as` = а также, соединяет два элемента: "English as well as French". `such as` = примеры сразу после существительного: "sports such as football". Не путай: `as well` (тоже, в конце) ≠ `as well as` (соединитель).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 348 | Она говорит по-английски, а также по-испански. | She speaks English as well as Spanish. |
+| 349 | Мне нужен ноутбук, а также мышь. | I need a laptop as well as a mouse. |
+| 350 | Мне нравятся фрукты такие как клубника и виноград. | I like fruits such as strawberries and grapes. |
+| 351 | Они посетили страны такие как Япония и Южная Корея. | They visited countries such as Japan and South Korea. |
+| 352 | Он играет на барабанах, а также на гитаре. | He plays drums as well as guitar. |
+
+---
+
+#### Exercises
+
+**Ex 334 · MultipleChoice · CHOICE** *(ID: 59)*
+
+"I like outdoor activities ___ hiking and cycling."
+
+- as well as
+- **such as** ✓
+- as
+
+*Explanation:* После "activities" идут примеры — hiking и cycling. "such as" = такие как, для примеров после существительного. "as well as" соединяет два равнозначных элемента, не вводит список примеров к одному слову.
+
+---
+
+**Ex 335 · WordArrangement** *(ID: 40)*
+
+"Катя говорит по-французски, а также по-итальянски."
+
+| Слово | Перевод | Лишнее? |
+|-------|---------|---------|
+| Katya | — | — |
+| speaks | говорит | — |
+| French | французский (язык) | — |
+| as well as | а также | — |
+| Italian | итальянский (язык) | — |
+| such as | — | ✗ |
+| as well | — | ✗ |
+
+*Explanation:* "Katya speaks French as well as Italian." Дистрактор "such as" — для примеров после noun, не для соединения двух равнозначных элементов. "as well" без "as" — другая конструкция: тоже (в конце предложения).
+
+---
+
+**Ex 336 · TextInput** *(ID: 24)*
+
+Вставь `as well as` или `such as`:
+
+"We sell electronics ___ laptops and tablets."
+
+**Ответ:** such as
+
+*Explanation:* Laptops и tablets — примеры электроники. "such as" идёт сразу после существительного и вводит примеры. "as well as" здесь не подходит — оно соединяет два отдельных равнозначных элемента.
+
+---
+
+**Ex 337 · ErrorCorrection** *(ID: 37)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"He is good at sports as well as football and tennis."
+
+- He is good at sports, for example such as football and tennis.
+- He is good at sports and football and tennis.
+- **He is good at sports such as football and tennis.** ✓
+
+*Explanation:* Football и tennis — примеры видов спорта. Для примеров после существительного — "such as". "as well as football and tennis" = хорош в спорте, А ТАКЖЕ в футболе и теннисе — как будто спорт и футбол это разные вещи. "for example such as" — два слова одновременно, так не говорят.
+
+---
+
+#### AI Exercise
+
+**ID:** basics_card66_ex1
+**Title:** "as well as и such as"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "AI даст русские предложения. Переведи, используя as well as или such as."
+**Prompt Template:** "Дай 5 русских предложений — три с 'а также' (as well as), два с 'такие как / например' (such as). После каждого — словарик с английскими словами. Попроси перевести, выбрав нужную конструкцию. Проверь. При ошибке объясни по-русски: such as = примеры сразу после существительного; as well as = соединяет два равнозначных элемента.
+
+Пример вывода AI: 'Переведи (слова даны): 1) Рома играет на гитаре, а также на барабанах. [play — играть, drums — барабаны] 2) Мне нравятся животные такие как кошки и собаки. [animals — животные] 3) Ей нужна сумка, а также кошелёк. [wallet — кошелёк] 4) Они изучают языки такие как японский и китайский. [study — изучать, Japanese — японский, Chinese — китайский] 5) Игорь говорит по-русски, а также по-немецки. [German — немецкий]'"
+
+#### Clarification Options
+
+- В чём разница между "as well as" и просто "and"?
+- Можно ли использовать "for example" вместо "such as"?
+- "as well as" и "as well" из MT22 — это одно и то же или разные вещи?
+
+---
+
+### Words8r Sync · as / as well as / such as
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| as well as | а также, вдобавок к | [æz wɛl æz] |
+| such as | например, такие как | [sʌtʃ æz] |
+| guide | гид, путеводитель | [ɡaɪd] |
+| translator | переводчик | [trænsˈleɪtər] |
+| professional | профессионал | [prəˈfɛʃənəl] |
+
+---
+---
+
+# БЛОК 9 · Микротема 25
+
+## Microtopic 25 — Ещё немного важного · A Few More Essentials
+
+**ID:** 25 | **Order:** 25
+
+Высокочастотные слова и конструкции, которые не тянут на отдельную тему — но без них не обойтись уже с первых занятий.
+
+---
+
+### Card 67 · whose и which — вопросительные слова
+
+**ID:** 67 | **Order:** 1
+
+#### Theory
+
+В MT8 мы разобрали `what / where / when / who / why / how`. Но у английского есть ещё два вопросительных слова которые нужны с самого начала.
+
+---
+
+**whose = чей / чья / чьё**
+
+Спрашиваем о принадлежности:
+
+"**Whose** bag is this?" *(Чья это сумка?)*
+"**Whose** phone is ringing?" *(Чей телефон звонит?)*
+"**Whose** idea was it?" *(Чья это была идея?)*
+
+Формула: **Whose** + существительное + глагол?
+
+---
+
+**which = который / какой** *(выбор из конкретного набора)*
+
+"**Which** bus goes to the city centre?" *(Какой автобус едет в центр?)*
+"**Which** one do you want — the red or the blue?" *(Какой хочешь — красный или синий?)*
+"**Which** day works for you?" *(Какой день тебе подходит?)*
+
+---
+
+**Разница `which` vs `what`**
+
+Это частая путаница. Ключ простой:
+
+`which` — выбор **из конкретного набора** (есть варианты перед глазами или в уме):
+"Which colour do you prefer?" *(синий, красный, зелёный — выбираешь из них)*
+
+`what` — **открытый вопрос**, вариантов нет:
+"What's your favourite colour?" *(вся палитра, никаких ограничений)*
+
+❌ "What bus goes there?" — возможно, но звучит странно: ты не знаешь что за автобусы вообще есть.
+✓ "Which bus goes there?" — есть конкретные маршруты, выбираешь один.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`whose` = чей/чья/чьё, о принадлежности: "Whose bag is this?" `which` = который/какой из конкретных вариантов: "Which one do you want?" Разница с `what`: which — выбор из набора, what — открытый вопрос.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 353 | Чья это куртка? | Whose jacket is this? |
+| 354 | Чей телефон звонит? | Whose phone is ringing? |
+| 355 | Какой автобус едет в центр? | Which bus goes to the city centre? |
+| 356 | Какой хочешь — большой или маленький? | Which one do you want — the big or the small one? |
+
+---
+
+#### Exercises
+
+**Ex 338 · MultipleChoice · CHOICE** *(ID: 60)*
+
+"___ bag is this? It's not mine."
+
+- Which
+- What
+- **Whose** ✓
+
+*Explanation:* Вопрос о принадлежности — чья сумка. "Whose" = чей/чья/чьё. "Which bag" — спрашивает какая именно из нескольких, не кому принадлежит. "What bag" — открытый вопрос о типе сумки, не о владельце.
+
+---
+
+**Ex 339 · Matching** *(ID: 10)*
+
+Соедини вопрос с правильным ответом:
+
+| Вопрос | Ответ |
+|--------|-------|
+| Whose coat is this? | It's Lena's. |
+| Which one do you want? | The red one, please. |
+| What's your name? | I'm Dima. |
+| Which day suits you? | Monday works for me. |
+
+*Explanation:* Whose → ответ о владельце (Lena's). Which one → выбор из вариантов (the red one). What's your name → открытый вопрос, ответ — имя. Which day → выбор из дней.
+
+---
+
+#### Clarification Options
+
+- В чём разница между "which" и "what" — когда что использовать?
+- Можно ли сказать "What is this bag?" вместо "Whose is this bag?"
+- Как образуется "whose" — это "who" + "'s"?
+
+---
+
+### Card 68 · every + each
+
+**ID:** 68 | **Order:** 2
+
+#### Theory
+
+Оба переводятся как "каждый" — но акцент разный.
+
+---
+
+**every = каждый** *(группа как единое целое)*
+
+Говоришь про всех/всё сразу, как про одно целое:
+
+"I go to the gym **every** day." *(Я хожу в зал каждый день.)*
+"**Every** morning I drink coffee." *(Каждое утро я пью кофе.)*
+"**Every** student has a laptop." *(У каждого студента есть ноутбук.)*
+"**Every** time I call, she doesn't answer." *(Каждый раз когда я звоню, она не отвечает.)*
+
+`every` + существительное **всегда в единственном числе**: "every day" (не "every days"), "every person" (не "every people").
+
+---
+
+**each = каждый** *(по отдельности, один за одним)*
+
+Акцент на отдельности, индивидуальности каждого:
+
+"**Each** student gets a card." *(Каждый студент получает карточку — по одной.)*
+"She kissed **each** child goodnight." *(Она поцеловала каждого ребёнка — по очереди.)*
+"**Each** time is different." *(Каждый раз по-разному.)*
+
+---
+
+**На практике:** в большинстве случаев они взаимозаменяемы и носители не делают строгого различия в разговорной речи. Главное — запомнить `every day / every morning / every time` как готовые блоки.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`every` = каждый (группа целиком): "every day", "every morning". `each` = каждый (по отдельности): "each student gets one". Оба + существительное в единственном числе. На практике часто взаимозаменяемы.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 357 | Я чищу зубы каждое утро. | I brush my teeth every morning. |
+| 358 | Каждый день я иду пешком на работу. | Every day I walk to work. |
+| 359 | Каждый студент получил задание. | Each student received a task. |
+| 360 | Каждый раз одно и то же. | Every time it's the same thing. |
+
+---
+
+#### Exercises
+
+**Ex 340 · MultipleChoice · CHOICE** *(ID: 61)*
+
+"She calls her mum ___ evening."
+
+- each
+- **every** ✓
+- all
+
+*Explanation:* "Every evening" — стандартный блок: каждый вечер как регулярная привычка. "Each evening" тоже допустимо, но "every" звучит естественнее для регулярных действий. "All evening" — значит "весь вечер", не "каждый вечер".
+
+---
+
+**Ex 341 · MultipleChoice · FORWARD_CHOICE** *(ID: 58)*
+
+"Каждый ученик получил свою карточку."
+
+- Every students got their card.
+- All student got a card.
+- **Each student got a card.** ✓
+
+*Explanation:* "Each student" — каждый по отдельности, одна карточка каждому. "Every students" — ошибка: после every существительное только в единственном числе: "every student". "All student" — ошибка: all + множественное: "all students".
+
+---
+
+#### Clarification Options
+
+- Когда точно нужен each, а не every — есть чёткое правило?
+- Почему "every days" — ошибка, ведь это много дней?
+- Можно ли сказать "each day" вместо "every day"?
+
+---
+
+### Card 69 · both + again
+
+**ID:** 69 | **Order:** 3
+
+#### Theory
+
+**both = оба / обе**
+
+Говоришь о двух вещах или людях сразу — и имеешь в виду **обоих**:
+
+"I like **both**." *(Мне нравится и то и другое.)*
+"**Both** options are good." *(Оба варианта хороши.)*
+"**Both** of them came." *(Оба пришли.)*
+"She speaks **both** English and French." *(Она говорит и на английском и на французском.)*
+
+Формулы:
+- **both** + существительное: "both options", "both friends"
+- **both of** + местоимение: "both of them", "both of us"
+- **both...and...** = и...и...: "both fast and cheap"
+
+❌ Частая ошибка: "all two of them" / "the two of them both" — по-русски так можно, по-английски нет. Просто **both of them**.
+
+---
+
+**again = снова, ещё раз**
+
+"Try **again**." *(Попробуй ещё раз.)*
+"Say it **again**, please." *(Скажи ещё раз, пожалуйста.)*
+"**Once again** — thank you." *(Ещё раз — спасибо.)*
+"**Never again**." *(Никогда больше.)*
+"**Again?!**" *(Опять?!)*
+
+`again` всегда стоит **в конце** предложения или в устойчивых сочетаниях (`once again`, `never again`, `try again`).
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`both` = оба/обе: "both of them", "both options", "both...and...". Не говори "all two" — только both. `again` = снова/ещё раз, стоит в конце: "try again", "say it again". Устойчивые блоки: once again, never again.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 361 | Оба варианта подходят. | Both options work. |
+| 362 | Оба пришли вовремя. | Both of them came on time. |
+| 363 | Попробуй ещё раз. | Try again. |
+| 364 | Она говорит и по-английски и по-испански. | She speaks both English and Spanish. |
+
+---
+
+#### Exercises
+
+**Ex 342 · MultipleChoice · CHOICE** *(ID: 62)*
+
+"I've seen ___ films — they were both great."
+
+- all two
+- the two
+- **both** ✓
+
+*Explanation:* Два фильма — и оба понравились. "Both" = оба/обе для двух элементов. "All two" и "the two" — не английские конструкции в этом значении.
+
+---
+
+#### Clarification Options
+
+- Можно ли сказать "both of the options" или только "both options"?
+- "Both...and..." — это то же самое что "and"?
+- Где стоит again в предложении — всегда в конце?
+
+---
+
+### Card 70 · with + about
+
+**ID:** 70 | **Order:** 4
+
+#### Theory
+
+**with = с** *(вместе, в составе, при наличии)*
+
+Три основных значения:
+
+1. **Вместе с кем-то:**
+"I'm **with** my friends." *(Я с друзьями.)*
+"Come **with** me!" *(Иди со мной!)*
+"She went to the cinema **with** Lena." *(Она пошла в кино с Леной.)*
+
+2. **В составе, с чем-то:**
+"Coffee **with** milk." *(Кофе с молоком.)*
+"A pizza **with** mushrooms." *(Пицца с грибами.)*
+"A room **with** a view." *(Комната с видом.)*
+
+3. **С помощью чего-то (инструмент):**
+"Write **with** a pen." *(Пиши ручкой.)*
+"Cut it **with** scissors." *(Разрежь ножницами.)*
+
+---
+
+**about = о / про / насчёт**
+
+"Tell me **about** yourself." *(Расскажи мне о себе.)*
+"What's this film **about**?" *(О чём этот фильм?)*
+"A book **about** space." *(Книга о космосе.)*
+"I'm thinking **about** it." *(Я думаю об этом.)*
+
+**What about...?** = А как насчёт...? *(предложение или уточнение)*
+"**What about** you?" *(А ты? А как насчёт тебя?)*
+"**What about** tomorrow?" *(А как насчёт завтра?)*
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`with` = с: вместе с кем-то ("with friends"), в составе ("with milk"), с помощью ("with a pen"). `about` = о/про: "a book about space", "tell me about it". Разговорная конструкция: "What about you?" = А ты?
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 365 | Я пришёл с другом. | I came with a friend. |
+| 366 | Чай с лимоном, пожалуйста. | Tea with lemon, please. |
+| 367 | О чём эта книга? | What's this book about? |
+| 368 | Расскажи мне о своей работе. | Tell me about your job. |
+
+---
+
+#### Exercises
+
+**Ex 343 · MultipleChoice · CHOICE** *(ID: 63)*
+
+"She's talking ___ her new project."
+
+- with
+- **about** ✓
+- for
+
+*Explanation:* "Talk about" = говорить о чём-то. "Talk with" = говорить с кем-то (собеседник). "She's talking about her project" — тема разговора. "She's talking with her colleague" — с кем говорит.
+
+---
+
+**Ex 344 · MultipleChoice · FORWARD_CHOICE** *(ID: 59)*
+
+"Кофе с сахаром, пожалуйста."
+
+- Coffee about sugar, please.
+- Coffee for sugar, please.
+- **Coffee with sugar, please.** ✓
+
+*Explanation:* "With" = с, в составе: кофе + сахар вместе. "Coffee about sugar" — бессмыслица, about = о/про, не для состава. "Coffee for sugar" — тоже не подходит: for = для, ради.
+
+---
+
+#### Clarification Options
+
+- Как понять когда нужен "with", а когда "by" — "written with a pen" vs "written by Pushkin"?
+- "What about" и "How about" — это одно и то же?
+- "Talk with" и "talk about" — как не перепутать?
+
+---
+
+### Words8r Sync · Ещё немного важного
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| whose | чей, чья, чьё | [huːz] |
+| which | который, какой | [wɪtʃ] |
+| every | каждый | [ˈɛvri] |
+| each | каждый (по отдельности) | [iːtʃ] |
+| both | оба, обе | [boʊθ] |
+| again | снова, ещё раз | [əˈɡɛn] |
+| with | с, вместе с | [wɪð] |
+| about | о, про, насчёт | [əˈbaʊt] |
+
+---
+---
+
 ## Счётчики IDs для продолжения
 
 > Следующий блок начинает IDs с этих значений:
 
 | Тип | Последний использованный ID | Следующий блок начинает с |
 |-----|-----------------------------|--------------------------|
-| Microtopic | 22 | 23 |
-| Card | 62 | 63 |
-| Example | 331 | 332 |
-| Exercise | 321 | 322 |
+| Microtopic | 25 | 26 |
+| Card | 70 | 71 |
+| Example | 368 | 369 |
+| Exercise | 344 | 345 |
 
-**Таблица счётчиков** (актуально после MT22):
+**Таблица счётчиков** (актуально после MT25):
 
 | Тип | Последний ID | Следующий |
 |-----|-------------|-----------|
-| WordArrangement | 38 | 39 |
-| MultipleChoice · CHOICE | 57 | 58 |
-| MultipleChoice · FORWARD_CHOICE | 54 | 55 |
+| WordArrangement | 40 | 41 |
+| MultipleChoice · CHOICE | 63 | 64 |
+| MultipleChoice · FORWARD_CHOICE | 59 | 60 |
 | MultipleChoice · REVERSE_CHOICE | 15 | 16 |
-| TrueFalse | 37 | 38 |
-| ErrorCorrection | 35 | 36 |
-| TextInput | 22 | 23 |
-| Matching | 9 | 10 |
-| Transformation | 9 | 10 |
-| Categorization | 8 | 9 |
+| TrueFalse | 39 | 40 |
+| ErrorCorrection | 37 | 38 |
+| TextInput | 24 | 25 |
+| Matching | 10 | 11 |
+| Transformation | 10 | 11 |
+| Categorization | 9 | 10 |
 | TableFill | 7 | 8 |
 | FindTheOdd | 13 | 14 |
 | ConstructionMeaning | 5 | 6 |
-| DialogRestore | 8 | 9 |
-| Microtopic | 22 | 23 |
-| Card | 62 | 63 |
-| Example | 331 | 332 |
+| DialogRestore | 9 | 10 |
+| Microtopic | 25 | 26 |
+| Card | 70 | 71 |
+| Example | 368 | 369 |

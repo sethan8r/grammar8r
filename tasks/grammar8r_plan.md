@@ -145,7 +145,7 @@ Grammar8r/
 │   │   Не включать: either (для отрицаний — это позже), so do I / neither do I — это позже
 │   │   Связь с MT19 (SVO): also = наречие, и его позиция подчиняется правилам порядка слов
 │   │
-│   ├── 🔜 want to / need to / like to — MT23
+│   ├── 🔜 want to / need to / like to — MT23  (ДОБАВЛЕНА)
 │   │   1–2 карточки. Только паттерн, без термина "инфинитив" — он будет в "Устройстве языка".
 │   │   Карточка 1 — паттерн:
 │   │   - После глаголов want / need / like / love / hate → всегда "to + глагол"
@@ -165,6 +165,24 @@ Grammar8r/
 │   │   Не включать: глаголы с -ing (enjoy, finish, avoid) — это тема инфинитива/герундия позже
 │   │   Связанная тема: "Устройство языка → Инфинитив: с to и без to" — полный разбор там
 │   │
+│   ├── 🔜 as / as well as / such as — MT24 (ДОБАВЛЕНА)
+│   │   2 карточки.
+│   │   Карточка 1 — as:
+│   │   - as = в роли/в качестве: "She works as a doctor." / "He acts as a guide." / "I use my phone as a camera."
+│   │   - as = поскольку/когда (пассивное узнавание, без глубины — времена ещё не прошли):
+│   │     "As it was cold, I put on a jacket." / "As I was walking home, it started to rain."
+│   │   - Ловушка as vs like:
+│   │     "She works as a doctor." (она и есть врач) vs "She works like a doctor." (похожа, но не врач)
+│   │     as = субъект является тем, о чём говорим. like = похоже на, но не является.
+│   │   - Пометка в конце: like ("She sings like a pro", "What's he like?") — подробно в "Дополнительных конструкциях"
+│   │   Карточка 2 — as well as + such as:
+│   │   - as well as = а также, в дополнение: "She speaks English as well as French."
+│   │     Связь с MT22: as well (тоже, в конце) ≠ as well as (соединяет два элемента)
+│   │     Оттенок vs and: "and" — нейтрально; "as well as" — акцент что второй элемент добавляется к первому
+│   │   - such as = например, такие как — сразу после существительного:
+│   │     "fruits such as apples and bananas" / "sports such as football and tennis"
+│   │   - Ловушка: such as ≠ for example по позиции: "such as" — после noun, "for example" — начало предложения
+│   │
 │   ├── 🔜 a few / a little — добавить карточку в MT17 (Countable/Uncountable), после Card 44 (ДОБАВЛЕНА)
 │   │   1 карточка. Логичное продолжение some/any/much/many.
 │   │   - a few = "несколько" → для счётных существительных (можно посчитать):
@@ -180,6 +198,27 @@ Grammar8r/
 │   │     "a few friends" = есть несколько (нейтрально/позитивно)
 │   │     Если перегружает — оставить только "a few / a little", без "few / little"
 │   │   Связь: вписывается в таблицу "сколько": many/much/some/any/a few/a little/a lot of
+│   │
+│   ├── 🔜 Ещё немного важного — MT25 (ДОБАВЛЕНА)
+│   │   Микротема-сборник: высокочастотные слова и конструкции которые не тянут на отдельную тему,
+│   │   но без них не обойтись уже с первых занятий. Упражнений минимум (1–2 на карточку),
+│   │   AI-упражнений нет — карточки справочного типа.
+│   │   Карточка 1 — whose + which (вопросительные слова, которых не было в MT8):
+│   │     whose = чей/чья/чьё: "Whose bag is this?" / "Whose phone is ringing?"
+│   │     which = который/какой (из ограниченного набора): "Which bus goes to the centre?" / "Which one do you want?"
+│   │     Разница which vs what: which — выбор из конкретного набора; what — открытый вопрос
+│   │   Карточка 2 — every + each:
+│   │     every = каждый (общая группа, все как одно целое): "every day", "every morning", "every person"
+│   │     each = каждый (по отдельности, один за другим): "each student gets a card", "each time"
+│   │     На практике часто взаимозаменяемы, нюанс тонкий — главное запомнить what + day/week/morning
+│   │   Карточка 3 — both + again:
+│   │     both = оба/обе: "both of them", "I like both", "both options are good"
+│   │     Ловушка: "all two" / "the two of" — не по-английски, нужно both
+│   │     again = снова, ещё раз: "try again", "say it again", "once again", "never again"
+│   │   Карточка 4 — with + about:
+│   │     with = с (вместе, в составе): "coffee with milk", "I'm with my friends", "a bag with a zip"
+│   │     about = о, про, насчёт: "tell me about it", "what's it about?", "a book about space"
+│   │     Бонус: "What about...?" = А как насчёт...? — частая разговорная конструкция
 │   │
 │   └── После каждой микротемы → предложение открыть слова этой микротемы (isView = true)
 │
@@ -603,7 +642,27 @@ Grammar8r/
 │       Ловушка: "I ain't going" — пользователь слышит это постоянно, но писать в эссе нельзя.
 │
 ├── Дополнительные конструкции  ← после "Разговорного английского"
-│   ├── Pronoun one / ones — "The pink one was faster." Аналога в русском нет.
+│   ├── Pronoun one / ones + обобщённый субъект one
+│   │   Карточек: 2. Оба — слово "one", но разные слова с разной функцией — объяснить это явно.
+│   │   Карточка 1 — замещающее one/ones (substitution pronoun):
+│   │   Заменяет уже упомянутый noun чтобы не повторяться. Аналога в русском нет —
+│   │   мы или повторяем существительное, или опускаем его, или говорим "этот/тот".
+│   │   "I like the blue one." *(Мне нравится синий.)* — one = shirt/bag/etc. что было в контексте
+│   │   "These shoes are nicer than those ones." *(Эти туфли лучше чем те.)*
+│   │   "Which phone do you want? — The cheap one." *(Дешёвый.)*
+│   │   ones = множественное: "I prefer the small ones." *(Предпочитаю маленькие.)*
+│   │   Всегда с определителем (the/this/that/which/a + adjective) — без него не работает:
+│   │   ❌ "Give me one." (без контекста — непонятно что) / ✓ "Give me the red one."
+│   │   Карточка 2 — обобщённый субъект one:
+│   │   Формальный/книжный способ сказать "любой человек / каждый / люди вообще".
+│   │   "One should always be honest." *(Нужно всегда быть честным.)*
+│   │   "One never knows what will happen." *(Никогда не знаешь что будет.)*
+│   │   "One can learn a lot from mistakes." *(Можно многому научиться на ошибках.)*
+│   │   В живой речи этот one заменяется на you — и звучит естественно:
+│   │   "You never know what will happen." / "You should always be honest."
+│   │   one здесь = официальный документ, эссе, философское высказывание. В разговоре — странно.
+│   │   Связь с возвратными: one → oneself ("to express oneself") — та же формальная традиция.
+│   │   ⚠️ Не путать с числительным one (1) и с замещающим one из карточки 1 — три разных слова.
 │   ├── Have got = have в разговорном: "I've got a problem" = "I have a problem"
 │   ├── Used to — действие которое было в прошлом но больше не происходит
 │   ├── Got used to / Be used to — привык к чему-то (не путать с used to!)
@@ -643,7 +702,90 @@ Grammar8r/
 │   │   - plenty of: "We have plenty of time" — много, с избытком, позитивный оттенок.
 │   │     Отличие от a lot of: plenty of = "хватает с запасом", a lot of = просто "много"
 │   │   Связь с Основами: a few/a little впервые даются в MT17 без оттенков — здесь полный разбор
-│   ├── Возвратные местоимения — myself/yourself/himself...; by myself = в одиночку
+│   ├── "I like it here" — формальный объект it
+│   │   1 карточка. Конструкция Subject + verb + it + наречие места/времени/ситуации.
+│   │   По-русски: "Мне тут нравится" / "Мне здесь хорошо" — нет объекта, всё через дательный.
+│   │   По-английски нужен it между глаголом и наречием — без него предложение сломано:
+│   │   "I like it here." *(Мне тут нравится.)* — it = заглушка на место ситуации
+│   │   "I hate it here." / "She loves it there." / "Do you like it there?"
+│   │   ❌ "I like here." — в английском глагол не может висеть без объекта перед наречием
+│   │   Расширение — it перед придаточным (anticipatory object):
+│   │   "I love it when it rains." *(Мне нравится когда идёт дождь.)*
+│   │   "I hate it when she's late." *(Ненавижу когда она опаздывает.)*
+│   │   "I find it strange that he never calls." *(Мне кажется странным что он не звонит.)*
+│   │   Формула: [verb] + it + [when/that + clause] — it = заглушка перед придаточным
+│   │   ❌ "I love when it rains." — грамматически допустимо в неформальной речи, но
+│   │     с find/consider/make + прилагательным без it нельзя: "I find strange that..." ✗
+│   │   Связь с "Устройством языка": там it = формальный субъект ("It is cold.") — здесь та же
+│   │   идея, но в позиции объекта. Один и тот же принцип: английский не терпит пустых мест.
+│   │
+│   ├── like — "как", подобие и описание  ← preview в MT24 (Основы), здесь полный разбор
+│   │   Карточек: 2–3.
+│   │   Карточка 1 — like + noun и глаголы восприятия:
+│   │   like + существительное = "как, похоже на": "She sings like a pro." / "He drives like a maniac."
+│   │   Пять глаголов восприятия + like (звучит / выглядит / ощущается / пахнет / на вкус):
+│   │     look like — "It looks like rain." / "She looks like her mother."
+│   │     sound like — "That sounds like a great idea." / "It sounds like music."
+│   │     feel like — "It feels like summer." / "I feel like a coffee." *(хочу кофе — разговорное)*
+│   │     taste like — "It tastes like chicken." / smell like — "It smells like flowers."
+│   │   Карточка 2 — What's he like? vs What does he look like?
+│   │   "What's he like?" = какой он по характеру/личности: добрый, смешной, серьёзный
+│   │   "What does he look like?" = как он выглядит внешне: высокий, темноволосый, в очках
+│   │   Ловушка: "How does he look?" — возможно, но значит "как он себя чувствует/выглядит сейчас"
+│   │   Карточка 3 — like vs as (полный разбор, preview был в MT24) + like как союз:
+│   │   as = субъект является тем, о чём говорит: "She works as a doctor." (она врач)
+│   │   like = субъект похож, но не является: "She works like a doctor." (похожа на врача)
+│   │   like как союз в разговорной речи: "Like I said, it's complicated." / "It's not like I care."
+│   │   В формальной речи "like I said" → "as I said". Разница регистров.
+│   │
+│   ├── Возвратные местоимения
+│   │   Карточек: 2
+│   │   Таблица форм (личное → возвратное):
+│   │     I → myself       | you (ед.) → yourself   | he → himself
+│   │     she → herself    | it → itself             | we → ourselves
+│   │     you (мн.) → yourselves | they → themselves
+│   │     one → oneself (только в формальных/обобщённых фразах)
+│   │   Ключ образования: my/your/him/her/it/our/your/them + self (ед.) / selves (мн.)
+│   │   him-self (не he-self), them-selves (не they-selves) — запомнить как исключения формы
+│   │
+│   │   Карточка 1 — таблица форм + возвратное значение:
+│   │   Смысл 1 — возвратное действие: субъект и объект — одно и то же лицо.
+│   │   "She cut herself." *(Она порезалась.)*
+│   │   "He looked at himself in the mirror." *(Он посмотрел на себя в зеркало.)*
+│   │   "They enjoyed themselves at the party." *(Они хорошо провели время.)*
+│   │   "I introduced myself." *(Я представился.)*
+│   │   Ключ: действие возвращается к субъекту, а не летит к кому-то другому.
+│   │   Ловушка 1: "I feel myself good." ✗ → "I feel good." — с feel/seem/look возвратное не нужно,
+│   │     в русском "чувствую себя" — но в английском этот "себя" не переводится как местоимение.
+│   │   Ловушка 2: "She washed herself hair." ✗ → "She washed her hair." — с частями тела
+│   │     и одеждой используется притяжательное (her/his), а не возвратное. В русском
+│   │     "она вымыла себе волосы" — но в английском так не работает.
+│   │   Ловушка 3: "We met ourselves in the park." ✗ → "We met each other." — "друг с другом"
+│   │     это each other, не возвратное. "Each other" = взаимное действие между несколькими.
+│   │
+│   │   Карточка 2 — усилительное значение + by myself + oneself:
+│   │   Смысл 2 — усилительное (emphatic): сделал лично, сам — никто другой, не помощник.
+│   │   "I fixed it myself." *(Я сам это починил.)*
+│   │   "The president himself signed the document." *(Сам президент подписал — это неожиданно!)*
+│   │   "She baked the cake herself." *(Сама испекла — не купила, не попросила.)*
+│   │   "Did you make this yourself?" *(Ты сам это сделал?)*
+│   │   Позиция: после глагола/дополнения ("I did it myself") или сразу после субъекта ("I myself did it")
+│   │   — второй вариант более торжественный, первый — обычный разговорный.
+│   │   Смысл 3 — by + возвратное = в одиночку, без посторонней помощи или в изоляции:
+│   │   "She lives by herself." *(Живёт одна / сама по себе.)*
+│   │   "He built the house by himself." *(Построил дом в одиночку.)*
+│   │   "Can you do it by yourself?" *(Ты можешь сделать это сам?)*
+│   │   Разница "myself" vs "by myself":
+│   │   "I fixed it myself." — акцент на личном участии (а не на одиночестве)
+│   │   "I fixed it by myself." — акцент на том, что без чужой помощи
+│   │   На практике часто взаимозаменяемы, нюанс тонкий — но понимать разницу важно.
+│   │   oneself — только в словарных/официальных/обобщённых фразах:
+│   │   "to push oneself" / "to express oneself" / "to be proud of oneself"
+│   │   В живой речи заменяется: "push yourself", "express yourself", "be proud of yourself/themselves"
+│   │   oneself = безличный оборот, как "one should..." — звучит как учебник, не как разговор.
+│   │   Ловушка (деловой английский): "Please contact myself if you have questions." ✗
+│   │   → "Please contact me." — myself не заменяет me. Это очень частая ошибка в официальных
+│   │   письмах. myself уместен только если субъект и объект — одно лицо, или для усиления.
 │   ├── Question Tags — "You're coming, aren't you?" правило вспомогательного глагола
 │   ├── So / Neither / Either в ответах — "So do I", "Neither do I"
 │   ├── upon — пассивное узнавание: "upon arrival", "once upon a time", "upon reflection"
