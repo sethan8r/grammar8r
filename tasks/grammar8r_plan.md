@@ -303,6 +303,18 @@ Grammar8r/
 │   │   ├── Что такое три формы глагола
 │   │   ├── Правильные глаголы: V2 и V3 = V1 + "-ed" (+ правила написания)
 │   │   ├── Неправильные глаголы: уникальные формы (go→went→gone) — нужно учить наизусть
+│   │   ├── ⚠️ Особый случай: be → was/were → been
+│   │   │   been — V3 от глагола be. Встречается в трёх ролях — объяснить все три на одной карточке:
+│   │   │   1. V3 в Perfect: "I have been sick." *(Я болел.)* — been = состояние в прошлом
+│   │   │   2. have/has been to = бывал где-то (и вернулся):
+│   │   │      "Have you ever been to Paris?" *(Ты бывал в Париже?)*
+│   │   │      "I've been to Italy twice." *(Я бывал в Италии дважды.)*
+│   │   │   3. Часть Continuous форм: "I have been waiting." / "She has been working."
+│   │   │      been здесь = связка между have и -ing глаголом
+│   │   │   ⚠️ been vs gone — классическая путаница в Present Perfect:
+│   │   │      "He has been to London." — бывал и вернулся (он здесь сейчас)
+│   │   │      "He has gone to London." — уехал и ещё там (его здесь нет)
+│   │   │      Подробный разбор been vs gone — в теме Present Perfect
 │   │   ├── Вывод: правильных тысячи — учим правило; неправильных ~200 — учим наизусть
 │   │   ├── Открыть ~200 неправильных глаголов (isView = true, категория "Verb Forms") с тремя формами (V1/V2/V3)
 │   │   └── Кнопка → перейти в режим изучения форм глаголов (вкладка "Слова")
@@ -312,6 +324,18 @@ Grammar8r/
 │       ├── Что такое инфинитив — базовая форма глагола
 │       ├── Глаголы которые требуют to: want to, need to, like to, decide to, try to, plan to...
 │       ├── Глаголы после которых to НЕ нужен: модальные (can, must, should, will) + let, make, help
+│       ├── Verb + object + infinitive — глагол + кто + что делать
+│       │   Паттерн: [глагол] + [объект] + to + V1
+│       │   "I want you to stay." *(Я хочу чтобы ты остался.)* — не "I want that you stay" (ошибка)
+│       │   "She asked him to help." / "He told me to wait." / "They expect us to be ready."
+│       │   Глаголы этого паттерна: want, need, ask, tell, expect, allow, help, teach, invite, remind
+│       │   Отдельная карточка — make/let/have + объект + V1 (без to!):
+│       │   "She made me laugh." *(Она заставила меня смеяться.)* — не "made me to laugh" (ошибка)
+│       │   "He let me go." *(Он позволил мне уйти.)* / "I'll have him fix it." *(Попрошу его починить.)*
+│       │   make = заставить (нет выбора), let = позволить, have = поручить/организовать
+│       │   Ловушка: после make/let — всегда голый инфинитив без to, даже если хочется добавить
+│       │   Связь с этой же темой: help + obj + V1 (без to) или help + obj + to V1 — оба варианта OK
+│       │   AI-упражнения: ситуация → составить предложение по паттерну; выбрать нужную форму (с to или без)
 │       ├── Частые ловушки: "I want go" (ошибка) vs "I want to go", "I can to go" (ошибка) vs "I can go"
 │       └── AI-упражнения: вставить to или убрать — пользователь определяет нужен ли инфинитив
 │
@@ -418,7 +442,15 @@ Grammar8r/
 │   ├── Почему русские ошибаются
 │   │   В русском нет такого разграничения. "Я потерял ключи" — и вчера, и только что, одно слово.
 │   │   Поэтому русские ставят Past Simple там где нужен Present Perfect и наоборот.
-│   └── Карточки: образование, have/has + V3, употребление, маркеры (ever/never/already/just/yet)
+│   ├── Карточки: образование, have/has + V3, употребление, маркеры (ever/never/already/just/yet)
+│   └── ⚠️ Отдельная карточка: been vs gone — главная путаница для русскоязычных
+│       "He has been to London." — бывал и вернулся, он здесь сейчас
+│       "He has gone to London." — уехал туда, его здесь нет
+│       По-русски оба случая = "он был в Лондоне" — разницы нет. В английском — принципиально разный смысл.
+│       been to = опыт + возврат. gone to = движение без возврата (он там сейчас).
+│       "Where's Dima?" — "He's gone to the shop." (ушёл, его нет)
+│       "Have you been to Japan?" — "Yes, twice." (бывал, спрашиваем об опыте)
+│       Preview этой карточки — в теме "Глаголы V1/V2/V3" (Устройство языка)
 │
 ├── Compare: Past Simple vs Present Perfect  ← главная боль русскоговорящих
 │   ├── Закрытое прошлое vs прошлое которое живёт сейчас
@@ -611,6 +643,33 @@ Grammar8r/
 │   ├── Reported Questions — порядок слов как в утверждении
 │   └── Reported Commands — told/asked + to + V1
 │
+├── Indirect Questions (Косвенные вопросы)
+│   Отдельная тема после Reported Speech — смежная идея, но другой паттерн и другая функция.
+│   Reported Speech = пересказываешь что кто-то сказал.
+│   Indirect Questions = встраиваешь вопрос внутрь своего предложения чтобы звучать вежливее или точнее.
+│   ├── Что такое косвенный вопрос и зачем он нужен
+│   │   Прямой вопрос: "Where is the station?" — прямо и коротко, но звучит грубовато в некоторых контекстах
+│   │   Косвенный: "Could you tell me where the station is?" — тот же смысл, но вежливее
+│   │   Две функции: вежливость (просьба к незнакомцу) и неуверенность ("I don't know what she wants")
+│   ├── Главное правило: порядок слов как в утверждении
+│   │   Прямой: "Where IS the station?" (вопросительный порядок: глагол перед подлежащим)
+│   │   Косвенный: "...where the station IS" (обычный порядок: подлежащее перед глаголом)
+│   │   "Do you know what time IT IS?" — не "what time IS IT" (ошибка)
+│   │   "Can you tell me where SHE LIVES?" — не "where DOES SHE LIVE" (do/does убирается)
+│   │   Ловушка: "Can you tell me where IS the station?" — самая частая ошибка русскоязычных.
+│   │   По-русски "скажи мне, где НАХОДИТСЯ станция?" — порядок слов совпадает с прямым вопросом.
+│   │   В английском так нельзя: вопросительный порядок внутри косвенного вопроса = ошибка.
+│   ├── Вводные фразы для косвенных вопросов
+│   │   Вопросительные: Could you tell me...? / Do you know...? / Can you explain...? / Would you mind telling me...?
+│   │   Утвердительные: I don't know... / I'm not sure... / I wonder... / I have no idea... / I can't remember...
+│   │   "I don't know where he went." / "I'm not sure what she wants." / "I wonder why they left."
+│   ├── If / whether — когда нет вопросительного слова
+│   │   Прямой вопрос без question word: "Is she coming?" — нет where/what/when
+│   │   Косвенный: "Do you know IF she is coming?" / "I don't know WHETHER he'll be there."
+│   │   if vs whether: оба OK, whether чуть формальнее. whether...or not — устойчивая конструкция.
+│   │   "I don't know whether to go or not." — whether + инфинитив (без субъекта) тоже возможно
+│   └── AI-упражнения: переформулировать прямой вопрос в косвенный; заполнить пропуск в косвенном вопросе
+│
 ├── Разговорный английский
 │   ├── Почему носители "съедают" слова — вводная карточка
 │   │   Английский — язык с ритмическим ударением. Ударные слова произносятся чётко,
@@ -797,8 +856,27 @@ Grammar8r/
 │   │   believe in, agree with — устойчивые сочетания, логически не угадываются
 │   ├── Предлоги после прилагательных — good at, afraid of, proud of, interested in,
 │   │   responsible for, worried about, pleased with — тоже устойчивые сочетания
-│   └── Глагол get — часть 2: продвинутые значения (causative get, get = понять/раздражать)
-│       Продолжение темы "get часть 1" (базовые значения) из блока до разговорного
+│   └── Глагол get — часть 2: продвинутые значения + Causative have/get
+│       Продолжение темы "get часть 1" (базовые значения) из блока до разговорного.
+│       Здесь разбираются два родственных паттерна — causative have и causative get.
+│       ├── get = понять / раздражать
+│       │   "I don't get it." *(Я не понимаю.)* / "It really gets me." *(Это меня раздражает.)*
+│       ├── Causative: have something done / get something done
+│       │   Главная идея: ты не делаешь сам — ты организуешь чтобы это сделали за тебя.
+│       │   have + объект + V3: "I had my hair cut." *(Я постригся — в парикмахерской.)*
+│       │   "She had the car repaired." *(Она отдала машину в ремонт.)*
+│       │   "We're having the apartment painted." *(Нам красят квартиру.)*
+│       │   get + объект + V3 — то же самое, но разговорнее:
+│       │   "I got my phone fixed." / "He got his suit cleaned." / "She got her nails done."
+│       │   Разница have vs get: have — нейтральный/формальный, get — разговорный, иногда с усилием
+│       │   Карточка с вопросами и отрицанием:
+│       │   "When did you last have your hair cut?" / "I need to get this fixed."
+│       │   "Have you had your eyes tested?" — с have + perfect: двойной have, объяснить отдельно
+│       │   Ловушка 1: "I had my car repair" ✗ → обязательно V3 (past participle), не инфинитив
+│       │   Ловушка 2: путаница с "I had him fix it" (verb+obj+inf — ты дал команду конкретному человеку)
+│       │   vs "I had my car fixed" (causative — машина отремонтирована, неважно кем)
+│       │   Связь с "Verb + object + infinitive" (Устройство языка): have/get + obj + V3 vs have + obj + V1 — разная форма, разный смысл
+│       └── AI-упражнения: переформулировать "я сам сделал" → "мне это сделали"; составить causative по ситуации
 │
 ├── Устойчивые выражения и идиомы
 │   ├── Фразовые глаголы (Phrasal Verbs) — глагол + предлог = новый смысл
