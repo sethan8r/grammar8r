@@ -1,0 +1,724 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+md_to_json.py — парсер теории Grammar8r: MD (строгий формат) -> JSON-сиды.
+
+Выходы (на тему):
+  seed/<тема>.json          — контент в content.db (теория+упражнения+AI-клиент+слова+категории)
+  seed/<тема>_prompts.json  — серверный (промты + AI Config Profile), в APK НЕ попадает
+
+Формат MD — tasks/theory_content_guide.md, раздел 8. Схема — tasks/db_schema.md.
+Запуск:  py md_to_json.py <path-to-theory.md> [--microtopic N] [--out DIR]
+
+ВНИМАНИЕ: build-инструмент, живёт в репо (не удалять). См. CLAUDE.md → «Конвейер контента».
+"""
+import re
+import os
+import sys
+import json
+import argparse
+
+# ---------- утилиты ----------
+
+def strip_md(text):
+    """Убрать инлайн-маркеры ** и * для полей-значений (опции, ответы)."""
+    return text.replace('**', '').replace('*', '').strip()
+
+def variant_for(label):
+    low = label.lower()
+    if 'ловушк' in low:
+        return 'trap'
+    if any(k in low for k in ('не путай', 'важно', 'осторожно')):
+        return 'warning'
+    if any(k in low for k in ('кстати', 'запомни', 'секрет')):
+        return 'tip'
+    if 'формул' in low:
+        return 'formula'
+    return 'note'
+
+def is_table_line(s):
+    return s.lstrip().startswith('|')
+
+def is_separator_row(s):
+    return bool(re.fullmatch(r'\|[\s:|-]+\|', s.strip()))
+
+def split_row(s):
+    cells = s.strip().strip('|').split('|')
+    return [c.strip() for c in cells]
+
+# ---------- сбор таблиц/списков ----------
+
+def collect_table(lines, j):
+    rows = []
+    while j < len(lines) and is_table_line(lines[j]):
+        if not is_separator_row(lines[j]):
+            rows.append(split_row(lines[j]))
+        j += 1
+    header = rows[0] if rows else []
+    body = rows[1:] if len(rows) > 1 else []
+    return header, body, j
+
+def collect_list(lines, j):
+    items = []
+    ordered = bool(re.match(r'^\s*\d+\.\s+', lines[j]))
+    while j < len(lines) and re.match(r'^\s*([-*]|\d+\.)\s+', lines[j]):
+        item = re.sub(r'^\s*([-*]|\d+\.)\s+', '', lines[j]).rstrip()
+        items.append(item)
+        j += 1
+    return {'type': 'list', 'ordered': ordered, 'items': items}, j
+
+# ---------- блоки теории ----------
+
+def parse_theory(body):
+    blocks = []
+    j = 0
+    while j < len(body):
+        raw = body[j]
+        s = raw.strip()
+        if not s:
+            j += 1
+            continue
+        if is_table_line(s):
+            header, rows, j = collect_table(body, j)
+            blocks.append({'type': 'table', 'header': header, 'rows': rows})
+            continue
+        if re.match(r'^\s*([-*]|\d+\.)\s+', raw):
+            lst, j = collect_list(body, j)
+            blocks.append(lst)
+            continue
+        # heading — вся строка в болде, тела после ** нет
+        if re.fullmatch(r'\*\*.+\*\*', s):
+            blocks.append({'type': 'heading', 'text': s[2:-2].strip()})
+            j += 1
+            continue
+        # callout — **Ярлык:** тело
+        m = re.match(r'^\*\*([^*]+?):\*\*\s+(.+)$', s)
+        if m:
+            label = m.group(1).strip()
+            blocks.append({'type': 'callout', 'variant': variant_for(label),
+                           'label': label, 'text': m.group(2).strip()})
+            j += 1
+            continue
+        blocks.append({'type': 'paragraph', 'text': s})
+        j += 1
+    return blocks
+
+# ---------- examples / clarification ----------
+
+def parse_examples(body):
+    out = []
+    for j, line in enumerate(body):
+        if not is_table_line(line) or is_separator_row(line):
+            continue
+        cells = split_row(line)
+        if len(cells) >= 3 and cells[0].strip('#').strip().isdigit():
+            out.append({'ru': cells[1], 'en': cells[2]})
+    return out
+
+def parse_clarification(body):
+    return [re.sub(r'^\s*[-*]\s+', '', l).strip()
+            for l in body if re.match(r'^\s*[-*]\s+', l)]
+
+# ---------- упражнения ----------
+
+def parse_explanation(body):
+    for l in body:
+        s = l.strip()
+        m = re.match(r'^\*Explanation[^:]*:\*\s*(.+)$', s)
+        if m:
+            return m.group(1).strip().rstrip('*').strip()
+    return ''
+
+def parse_options(body):
+    opts = []
+    for l in body:
+        s = l.strip()
+        if s.startswith('- '):
+            text = s[2:].strip()
+            correct = '✓' in text
+            text = strip_md(text.replace('✓', '').replace('✗', '').replace('❌', ''))
+            opts.append({'text': text, 'isCorrect': correct})
+    return opts
+
+CHOICE_INSTR = (
+    'Выбери правильный вариант:', 'Выбери правильный перевод:',
+    'Переведи предложение на русский:', 'Переведи на русский:',
+    'Выбери английский перевод:', 'В предложении есть ошибка. Выбери правильный вариант:',
+)
+
+def clean_prompt(body):
+    """prompt для MultipleChoice/ErrorCorrection/ConstructionMeaning:
+    снять инструкцию-префикс, italic-обёртку, кавычки; вынести хвостовой (контекст) в contextRu."""
+    text = ' '.join(parse_prompt_lines(body)).strip()
+    for p in CHOICE_INSTR:
+        if text.startswith(p):
+            text = text[len(p):].strip()
+    ctx = ''
+    m = re.search(r'\*?\(([^()]+)\)\*?\s*$', text)
+    if m:
+        ctx, text = m.group(1).strip(), text[:m.start()].strip()
+    text = text.strip().strip('*').strip().strip('"').strip()
+    return text, ctx
+
+INSTR_LINES = (
+    'Переведи предложение на русский:', 'Переведи на русский:',
+    'Выбери английский перевод:', 'В предложении есть ошибка. Выбери правильный вариант:',
+    'Выбери правильный перевод:',
+)
+
+def parse_prompt_lines(body):
+    out = []
+    for l in body:
+        s = l.strip()
+        if not s or s.startswith('- ') or s.startswith('*Explanation') or s.startswith('**Ex'):
+            continue
+        if re.fullmatch(r'-{3,}', s):       # `---` в MD — лишь визуальный разделитель автора;
+            continue                        # каждое упражнение = свой экран, в данных не нужен
+        if s in INSTR_LINES:
+            continue
+        out.append(s)
+    return out
+
+def ex_multiple_choice(body, type_id, subtype):
+    prompt, ctx = clean_prompt(body)
+    return {'id': type_id, 'choiceType': subtype, 'prompt': prompt,
+            'contextRu': ctx, 'options': parse_options(body),
+            'explanation': parse_explanation(body)}
+
+def ex_true_false(body, type_id):
+    statements = []
+    for l in body:
+        if not is_table_line(l) or is_separator_row(l):
+            continue
+        c = split_row(l)
+        if len(c) >= 4 and c[0].strip('#').strip().isdigit():
+            statements.append({'en': c[1], 'ru': c[2], 'isTrue': '✓' in c[3]})
+    return {'id': type_id, 'statements': statements, 'explanation': parse_explanation(body)}
+
+def ex_table_fill(body, type_id):
+    task = next((l.strip()[len('Задание:'):].strip()
+                 for l in body if l.strip().startswith('Задание:')), '')
+    header, rows = first_table(body)   # первая строка таблицы = заголовок, пропускается
+    out = [{'hint': r[0], 'answer': r[1]} for r in rows if len(r) >= 2]
+    return {'id': type_id, 'taskDescription': task, 'rows': out,
+            'explanation': parse_explanation(body)}
+
+def ex_word_arrangement(body, type_id):
+    situation = ''
+    correct = ''
+    words, distractors = [], []
+    for l in body:
+        s = l.strip()
+        if s.startswith('RU:') or s.startswith('Ситуация:'):
+            situation = s
+        elif s.startswith('Правильное предложение:'):
+            correct = strip_md(s.split(':', 1)[1])
+        elif is_table_line(l) and not is_separator_row(l):
+            c = split_row(l)
+            if len(c) >= 3 and c[0] not in ('Слово',):
+                entry = {'text': c[0], 'translation': '' if c[1] == '—' else c[1]}
+                if '✗' in c[2] or 'дистрактор' in c[2].lower():
+                    distractors.append(entry)
+                else:
+                    words.append(entry)
+    return {'id': type_id, 'situationRu': situation, 'correctSentence': correct,
+            'words': words, 'distractors': distractors,
+            'explanation': parse_explanation(body)}
+
+def first_table(body):
+    j = 0
+    while j < len(body) and not is_table_line(body[j]):
+        j += 1
+    if j >= len(body):
+        return [], []
+    header, rows, _ = collect_table(body, j)
+    return header, rows
+
+def _ti_split_ctx(txt):
+    """Вынести контекст из хвостовых (...) и убрать кавычки у предложения."""
+    txt = txt.strip()
+    ctx = ''
+    cm = re.search(r'\(([^()]+)\)\s*$', txt)
+    if cm:
+        ctx, txt = cm.group(1).strip(), txt[:cm.start()].strip()
+    return txt.strip().strip('"').strip(), ctx
+
+def ex_text_input(body, type_id):
+    # Таблица TextInputExercise разрешает только {sentence, contextRu, answer, alternatives}.
+    # Контент пишет 5 разными способами — парсер приводит всё к этим 4 полям.
+    # 'Подсказка:' в схеме НЕТ → выкидываем. Старый MD не переделываем.
+    items, cur = [], None
+    for l in body:
+        s = l.strip()
+        if not s or s.startswith('*Explanation') or s.startswith('Подсказка:'):
+            continue
+        # italic-only строка контекста:  *(нужен ли предлог?)*
+        ic = re.fullmatch(r'\*\((.+)\)\*', s)
+        if ic and cur is not None and not cur['answer']:
+            cur['contextRu'] = ic.group(1).strip()
+            continue
+        # строка ответа:  Ответ: / Правильный ответ:
+        ans = re.match(r'^(?:Правильный ответ|Ответ)\s*:\s*(.+)$', s)
+        if ans and cur is not None:
+            val = ans.group(1).strip()
+            if re.search(r'пуст', val):            # "*(пусто — предлог не нужен)*"
+                cur['answer'] = ''
+            else:
+                parts = [strip_md(a) for a in val.split('/')]
+                cur['answer'], cur['alternatives'] = parts[0], parts[1:]
+            continue
+        # формат-стрелка в одну строку:  prompt → **answer**
+        am = re.match(r'^(?:\d+\.\s*)?(.+?)\s*→\s*\*\*(.+?)\*\*\s*$', s)
+        if am:
+            if cur:
+                items.append(cur)
+            sent, ctx = _ti_split_ctx(am.group(1))
+            items.append({'sentence': sent, 'contextRu': ctx,
+                          'answer': strip_md(am.group(2)), 'alternatives': []})
+            cur = None
+            continue
+        # строка-предложение (есть ___, нумерация или кавычки)
+        if '___' in s or re.match(r'^\d+\.', s) or s.startswith('"'):
+            if cur:
+                items.append(cur)
+            sent, ctx = _ti_split_ctx(re.sub(r'^\d+\.\s*', '', s))
+            cur = {'sentence': sent, 'contextRu': ctx, 'answer': '', 'alternatives': []}
+            continue
+    if cur:
+        items.append(cur)
+    return {'id': type_id, 'items': items, 'explanation': parse_explanation(body)}
+
+def ex_dialog_restore(body, type_id):
+    dlg = []
+    for l in body:
+        m = re.match(r'^([AB]):\s*(.+)$', l.strip())
+        if m:
+            txt = m.group(2).strip()
+            blank = (txt.strip('_') == '')
+            dlg.append({'speaker': m.group(1),
+                        'text': None if blank else strip_md(txt.strip('"'))})
+    return {'id': type_id, 'lines': dlg, 'options': parse_options(body),
+            'explanation': parse_explanation(body)}
+
+def ex_matching(body, type_id):
+    task = next((l.strip()[len('Задание:'):].strip() for l in body
+                 if l.strip().startswith('Задание:')), '')
+    _, rows = first_table(body)
+    pairs = [{'left': r[0], 'right': r[1]} for r in rows if len(r) >= 2]
+    return {'id': type_id, 'taskDescription': task, 'pairs': pairs,
+            'explanation': parse_explanation(body)}
+
+def ex_categorization(body, type_id):
+    task = next((l.strip()[len('Задание:'):].strip() for l in body
+                 if l.strip().startswith('Задание:')), '')
+    header, rows = first_table(body)
+    cats = [{'title': h, 'items': []} for h in header]
+    for r in rows:
+        for idx, cell in enumerate(r):
+            if idx < len(cats) and cell and cell != '—':
+                for item in cell.split(','):
+                    item = item.strip()
+                    if item:
+                        cats[idx]['items'].append(item)
+    return {'id': type_id, 'taskDescription': task, 'categories': cats,
+            'explanation': parse_explanation(body)}
+
+def ex_error_correction(body, type_id):
+    prompt, _ = clean_prompt(body)
+    return {'id': type_id, 'wrongSentence': prompt, 'options': parse_options(body),
+            'explanation': parse_explanation(body)}
+
+def ex_construction_meaning(body, type_id):
+    prompt, _ = clean_prompt(body)
+    return {'id': type_id, 'construction': prompt, 'options': parse_options(body),
+            'explanation': parse_explanation(body)}
+
+def ex_transformation(body, type_id):
+    task = next((l.strip()[len('Задание:'):].strip() for l in body
+                 if l.strip().startswith('Задание:')), '')
+    items = []
+    for l in body:
+        m = re.match(r'^\d+\.\s+"?(.+?)"?\s*→\s*\*\*"?(.+?)"?\*\*\s*$', l.strip())
+        if m:
+            items.append({'original': m.group(1).strip().strip('"'),
+                          'transformed': strip_md(m.group(2)).strip('"')})
+    return {'id': type_id, 'taskDescription': task, 'items': items,
+            'explanation': parse_explanation(body)}
+
+def ex_find_the_odd(body, type_id):
+    group = ' '.join(parse_prompt_lines(body)).strip().rstrip(':').strip()
+    items = []
+    for l in body:
+        s = l.strip()
+        if s.startswith('- '):
+            t = s[2:].strip()
+            odd = ('✓' in t) or ('лишн' in t.lower())
+            t = re.sub(r'\(лишнее\)', '', t).replace('✓', '')
+            items.append({'text': strip_md(t).strip(), 'isOdd': odd})
+    return {'id': type_id, 'groupDescription': group, 'items': items,
+            'explanation': parse_explanation(body)}
+
+CHOICE_TYPES = {'CHOICE', 'FORWARD_CHOICE', 'REVERSE_CHOICE'}
+
+# 12 таблиц упражнений (MultipleChoice — одна таблица на 3 подтипа, обрабатывается отдельно).
+# базовый тип -> (ключ JSON, парсер, значение enum HardcodedExerciseType)
+EX_HANDLERS = {
+    'TableFill': ('table_fill_exercises', ex_table_fill, 'TABLE_FILL'),
+    'TrueFalse': ('true_false_exercises', ex_true_false, 'TRUE_FALSE'),
+    'WordArrangement': ('word_arrangement_exercises', ex_word_arrangement, 'WORD_ARRANGEMENT'),
+    'TextInput': ('text_input_exercises', ex_text_input, 'TEXT_INPUT'),
+    'DialogRestore': ('dialog_restore_exercises', ex_dialog_restore, 'DIALOG_RESTORE'),
+    'Matching': ('matching_exercises', ex_matching, 'MATCHING'),
+    'ErrorCorrection': ('error_correction_exercises', ex_error_correction, 'ERROR_CORRECTION'),
+    'ConstructionMeaning': ('construction_meaning_exercises', ex_construction_meaning, 'CONSTRUCTION_MEANING'),
+    'Transformation': ('transformation_exercises', ex_transformation, 'TRANSFORMATION'),
+    'Categorization': ('categorization_exercises', ex_categorization, 'CATEGORIZATION'),
+    'FindTheOdd': ('find_the_odd_exercises', ex_find_the_odd, 'FIND_THE_ODD'),
+}
+
+# ---------- AI exercise ----------
+
+def parse_ai(body, card_id):
+    f = {}
+    for l in body:
+        m = re.match(r'^\*\*([^*]+):\*\*\s*(.+)$', l.strip())
+        if m:
+            f[m.group(1).strip()] = m.group(2).strip().strip('"')
+    client = {
+        'id': f.get('ID', ''),
+        'cardId': card_id,
+        'title': f.get('Title', ''),
+        'userInstruction': f.get('User Instruction', ''),
+        'inputMode': f.get('Input Mode', ''),
+        'wordsSource': f.get('Words Source', ''),
+    }
+    server = {
+        'id': f.get('ID', ''),
+        'promptTemplate': f.get('Prompt Template', ''),
+        'aiConfigProfile': f.get('AI Config Profile', ''),
+    }
+    return client, server
+
+# ---------- words8r sync ----------
+
+def parse_words(body, microtopic_id, category_id, source, word_id_counter):
+    out = []
+    for l in body:
+        if not is_table_line(l) or is_separator_row(l):
+            continue
+        c = split_row(l)
+        if len(c) >= 3 and c[0] not in ('Слово', 'V1'):
+            word_id_counter[0] += 1
+            out.append({
+                'id': word_id_counter[0],
+                'word': c[0],
+                'translation': c[1],
+                'transcription': c[2] if c[2] else None,
+                'microtopicId': microtopic_id,
+                'categoryId': category_id,
+            })
+    return out
+
+# ---------- основной разбор ----------
+
+HDR_META = re.compile(r'\*\*ID:\*\*\s*([\w]+)\s*\|\s*\*\*Order:\*\*\s*(\d+)')
+EX_HDR = re.compile(r'^\*\*Ex\s+\d+\s*·\s*(.+?)\*\*\s*\*\(ID:\s*(\d+)\)\*')
+WORDS_HDR = re.compile(r'^###\s+Words8r Sync\s*·\s*(.+?)(?:\s*\[category:\s*(\w+)\])?\s*$')
+MT_CAT = re.compile(r'\*\*Категория слов:\*\*\s*(\w+)')
+
+
+def collect_section(lines, i):
+    """Собрать тело секции до следующего заголовка #/##/### /####/**Ex/---разделителя верхнего уровня."""
+    body = []
+    while i < len(lines):
+        l = lines[i]
+        if re.match(r'^#{1,4}\s', l) or l.startswith('### Words8r Sync') or EX_HDR.match(l):
+            break
+        body.append(l)
+        i += 1
+    return body, i
+
+
+def parse_file(path, only_mt=None):
+    with open(path, encoding='utf-8') as fh:
+        lines = fh.read().splitlines()
+
+    content = {
+        'grammar_topics': [], 'grammar_microtopics': [], 'grammar_cards': [],
+        'card_exercise_index': [], 'ai_exercises': [],
+        'course_word_groups': [], 'course_categories': [], 'course_words': [],
+        'table_fill_exercises': [], 'true_false_exercises': [],
+        'word_arrangement_exercises': [], 'multiple_choice_exercises': [],
+        'text_input_exercises': [], 'dialog_restore_exercises': [],
+        'matching_exercises': [], 'error_correction_exercises': [],
+        'construction_meaning_exercises': [], 'transformation_exercises': [],
+        'categorization_exercises': [], 'find_the_odd_exercises': [],
+    }
+    server = {'ai_exercise_prompts': []}
+    warnings = []
+    word_counter = [0]
+
+    topic_id = None
+    group = None
+    default_cat = None
+    cur_mt = None
+    cur_mt_cat = None
+    cur_card = None
+
+    i = 0
+    n = len(lines)
+    while i < n:
+        line = lines[i]
+
+        # --- навигационные разделители "# БЛОК N · ..." — пропускаем ---
+        if line.startswith('# БЛОК'):
+            i += 1
+            continue
+
+        # --- шапка темы (только первый "# " заголовок) ---
+        if re.match(r'^#\s+(?!#)', line) and topic_id is None:
+            title = line[1:].strip()
+            head, i = collect_section(lines, i + 1)
+            meta = HDR_META.search('\n'.join(head))
+            topic_id = int(meta.group(1)) if meta else None
+            order = int(meta.group(2)) if meta else 1
+            is_pre = 'isPretopic:** true' in '\n'.join(head)
+            desc = ''
+            for h in head:
+                if h.startswith('**Описание:**'):
+                    desc = h.split('**', 4)[-1].strip()
+                if h.startswith('**Группа слов:**'):
+                    gp = h.split('**', 2)[-1].split('·')
+                    group = {'id': gp[0].replace(':', '').strip(), 'nameRus': gp[1].strip(), 'order': 1}
+                if h.startswith('**Категория слов:**') and '·' in h and 'source=' in h:
+                    parts = h.split('**', 2)[-1].split('·')
+                    default_cat = {
+                        'id': parts[0].replace(':', '').strip(),
+                        'nameRus': parts[1].strip(),
+                        'groupId': group['id'] if group else '',
+                        'order': 1,
+                        'source': parts[2].replace('source=', '').strip(),
+                    }
+            content['grammar_topics'].append({
+                'id': topic_id, 'title': title.split('·')[-1].strip() if '·' in title else title,
+                'order': order, 'isPretopic': is_pre, 'description': desc,
+            })
+            if group:
+                content['course_word_groups'].append(group)
+            if default_cat:
+                content['course_categories'].append(default_cat)
+            continue
+
+        # --- микротема ---
+        if line.startswith('## Microtopic'):
+            mt_title = line.split('—', 1)[-1].strip()
+            head, i = collect_section(lines, i + 1)
+            meta = HDR_META.search('\n'.join(head))
+            mt_id = int(meta.group(1)) if meta else None
+            mt_order = int(meta.group(2)) if meta else 1
+            catm = MT_CAT.search('\n'.join(head))
+            cur_mt_cat = catm.group(1) if catm else (default_cat['id'] if default_cat else None)
+            cur_mt = mt_id
+            if only_mt is None or mt_id == only_mt:
+                content['grammar_microtopics'].append({
+                    'id': mt_id, 'topicId': topic_id,
+                    'title': mt_title.split('·')[0].strip() if '·' in mt_title else mt_title,
+                    'order': mt_order,
+                })
+            continue
+
+        # --- Words8r Sync ---
+        wm = WORDS_HDR.match(line)
+        if wm:
+            cat = wm.group(2) or cur_mt_cat
+            body, i = collect_section(lines, i + 1)
+            if only_mt is None or cur_mt == only_mt:
+                src = default_cat['source'] if default_cat else 'course_words'
+                content['course_words'].extend(
+                    parse_words(body, cur_mt, cat, src, word_counter))
+            continue
+
+        # --- карточка ---
+        if line.startswith('### Card'):
+            cm = re.match(r'^### Card\s+\d+\s*·\s*(.+)$', line)
+            card_title = cm.group(1).strip() if cm else ''
+            head, i = collect_section(lines, i + 1)
+            meta = HDR_META.search('\n'.join(head))
+            card_id = int(meta.group(1)) if meta else None
+            card_order = int(meta.group(2)) if meta else 1
+            cur_card = {'id': card_id, 'microtopicId': cur_mt, 'title': card_title,
+                        'order': card_order, 'theory': [], 'summary': '',
+                        'examples': [], 'clarificationOptions': []}
+            active = (only_mt is None or cur_mt == only_mt)
+            order_in_card = [0]
+            # парсим под-секции карточки
+            while i < n and not re.match(r'^#{1,3}\s', lines[i]) and not lines[i].startswith('### Card') and not lines[i].startswith('## Microtopic'):
+                sub = lines[i]
+                if sub.startswith('#### Theory'):
+                    body, i = collect_section(lines, i + 1)
+                    cur_card['theory'] = parse_theory(body)
+                elif sub.startswith('#### Summary'):
+                    body, i = collect_section(lines, i + 1)
+                    cur_card['summary'] = ' '.join(b.strip() for b in body if b.strip())
+                elif sub.startswith('#### Examples'):
+                    body, i = collect_section(lines, i + 1)
+                    cur_card['examples'] = parse_examples(body)
+                elif sub.startswith('#### Exercises'):
+                    i += 1  # сами упражнения — отдельными **Ex заголовками ниже
+                elif sub.startswith('#### Clarification Options'):
+                    body, i = collect_section(lines, i + 1)
+                    cur_card['clarificationOptions'] = parse_clarification(body)
+                elif sub.startswith('#### AI Exercise'):
+                    body, i = collect_section(lines, i + 1)
+                    client, srv = parse_ai(body, card_id)
+                    if active:
+                        content['ai_exercises'].append(client)
+                        server['ai_exercise_prompts'].append(srv)
+                elif EX_HDR.match(sub):
+                    m = EX_HDR.match(sub)
+                    type_str, type_id = m.group(1).strip(), int(m.group(2))
+                    body, i = collect_section(lines, i + 1)
+                    parts = [p.strip() for p in type_str.split('·')]
+                    base = parts[0]
+                    subtype = parts[1] if len(parts) > 1 else None
+                    if active:
+                        # MultipleChoice пишут двумя способами: "MultipleChoice · X" или просто "X"
+                        if base == 'MultipleChoice' or base in CHOICE_TYPES:
+                            st = (subtype if base == 'MultipleChoice' else base) or 'CHOICE'
+                            content['multiple_choice_exercises'].append(
+                                ex_multiple_choice(body, type_id, st))
+                            # enum HardcodedExerciseType: CHOICE→MULTIPLE_CHOICE,
+                            # FORWARD_CHOICE/REVERSE_CHOICE — отдельные значения (иначе id неоднозначен)
+                            key = 'MULTIPLE_CHOICE' if st == 'CHOICE' else st
+                        elif base in EX_HANDLERS:
+                            jkey, handler, enumkey = EX_HANDLERS[base]
+                            content[jkey].append(handler(body, type_id))
+                            key = enumkey
+                        else:
+                            warnings.append(f'НЕ РЕАЛИЗОВАН тип упражнения: {base} (card {card_id})')
+                            key = None
+                        if key:
+                            content['card_exercise_index'].append({
+                                'cardId': card_id, 'exerciseType': key,
+                                'exerciseId': type_id, 'orderInCard': order_in_card[0]})
+                            order_in_card[0] += 1
+                else:
+                    i += 1
+            if active and card_id is not None:
+                content['grammar_cards'].append(cur_card)
+            continue
+
+        i += 1
+
+    return content, server, warnings
+
+
+def validate(content):
+    """Санити-проверки упражнений против ограничений типов. Находит сломанный контент."""
+    idx = {(x['exerciseType'], x['exerciseId']): x['cardId'] for x in content['card_exercise_index']}
+
+    def card_of(enum, eid):
+        return idx.get((enum, eid), '?')
+
+    def n_correct(opts):
+        return sum(1 for o in opts if o.get('isCorrect'))
+
+    issues = []
+
+    def chk(cond, enum, eid, msg):
+        if not cond:
+            issues.append(f"[card {card_of(enum, eid)}] {enum} id={eid}: {msg}")
+
+    for e in content['find_the_odd_exercises']:
+        chk(len(e['items']) == 4, 'FIND_THE_ODD', e['id'], f"{len(e['items'])} элементов (нужно 4)")
+        odd = sum(1 for i in e['items'] if i['isOdd'])
+        chk(odd == 1, 'FIND_THE_ODD', e['id'], f"{odd} лишних (нужно ровно 1)")
+    for e in content['true_false_exercises']:
+        n = len(e['statements']); t = sum(1 for s in e['statements'] if s['isTrue'])
+        chk(n == 5, 'TRUE_FALSE', e['id'], f"{n} утверждений (нужно 5)")
+        # для НОВЫХ делаем мин 2/2, но легаси с другим балансом ОК — флагуем только если все одинаковые
+        chk(t >= 1 and (n - t) >= 1, 'TRUE_FALSE', e['id'], "все утверждения одинаковы (нужны и верные, и неверные)")
+    for e in content['transformation_exercises']:
+        chk(len(e['items']) == 3, 'TRANSFORMATION', e['id'], f"{len(e['items'])} пунктов (нужно 3)")
+        chk(all(i['original'] and i['transformed'] for i in e['items']), 'TRANSFORMATION', e['id'], "пустой original/transformed")
+    for e in content['matching_exercises']:
+        n = len(e['pairs'])
+        chk(4 <= n <= 6, 'MATCHING', e['id'], f"{n} пар (нужно 4-6)")
+        chk(all(p['left'] and p['right'] for p in e['pairs']), 'MATCHING', e['id'], "пустая часть пары")
+    for e in content['multiple_choice_exercises']:
+        enum = 'MULTIPLE_CHOICE' if e['choiceType'] == 'CHOICE' else e['choiceType']
+        chk(n_correct(e['options']) == 1, enum, e['id'], f"{n_correct(e['options'])} правильных (нужно 1)")
+        chk(len(e['options']) >= 2, enum, e['id'], f"{len(e['options'])} опций")
+        chk(bool(e['prompt']), enum, e['id'], "пустой prompt")
+    for e in content['error_correction_exercises']:
+        chk(n_correct(e['options']) >= 1, 'ERROR_CORRECTION', e['id'], "0 правильных опций")
+        chk(bool(e['wrongSentence']), 'ERROR_CORRECTION', e['id'], "пустое предложение")
+    for e in content['construction_meaning_exercises']:
+        chk(len(e['options']) == 4, 'CONSTRUCTION_MEANING', e['id'], f"{len(e['options'])} опций (нужно 4)")
+        chk(n_correct(e['options']) == 1, 'CONSTRUCTION_MEANING', e['id'], f"{n_correct(e['options'])} правильных (нужно 1)")
+    for e in content['dialog_restore_exercises']:
+        # пропуск = целиком пустая реплика (text=null) ИЛИ '___' внутри строки
+        blanks = sum(1 for l in e['lines'] if l['text'] is None or (l['text'] and '___' in l['text']))
+        chk(blanks == 1, 'DIALOG_RESTORE', e['id'], f"{blanks} пропусков (нужно 1)")
+        chk(n_correct(e['options']) == 1, 'DIALOG_RESTORE', e['id'], f"{n_correct(e['options'])} правильных (нужно 1)")
+    for e in content['categorization_exercises']:
+        chk(2 <= len(e['categories']) <= 4, 'CATEGORIZATION', e['id'], f"{len(e['categories'])} категорий (2-4)")
+        chk(all(c['items'] for c in e['categories']), 'CATEGORIZATION', e['id'], "пустая категория")
+    for e in content['text_input_exercises']:
+        chk(len(e['items']) >= 1, 'TEXT_INPUT', e['id'], "0 пунктов")
+        chk(all(it['sentence'] for it in e['items']), 'TEXT_INPUT', e['id'], "пункт без предложения")
+    for e in content['word_arrangement_exercises']:
+        chk(bool(e['correctSentence']), 'WORD_ARRANGEMENT', e['id'], "нет correctSentence")
+        chk(len(e['words']) >= 2, 'WORD_ARRANGEMENT', e['id'], f"{len(e['words'])} слов")
+        chk(len(e['distractors']) >= 1, 'WORD_ARRANGEMENT', e['id'], "нет дистракторов")
+    for e in content['table_fill_exercises']:
+        chk(len(e['rows']) >= 1, 'TABLE_FILL', e['id'], "0 строк")
+        chk(all(r['hint'] and r['answer'] for r in e['rows']), 'TABLE_FILL', e['id'], "пустой hint/answer")
+    for c in content['grammar_cards']:
+        chk(len(c['theory']) > 0, 'CARD', c['id'], "пустая теория")
+        chk(bool(c['summary']), 'CARD', c['id'], "пустой summary")
+    return issues
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('md')
+    ap.add_argument('--microtopic', type=int, default=None)
+    ap.add_argument('--out', default=os.path.join(os.path.dirname(__file__), 'seed'))
+    ap.add_argument('--name', default=None)
+    args = ap.parse_args()
+
+    content, server, warnings = parse_file(args.md, args.microtopic)
+    os.makedirs(args.out, exist_ok=True)
+    # имя сида = имя файла без номер-префикса (01-basics.md -> basics)
+    name = args.name or re.sub(r'^\d+[-_]', '', os.path.splitext(os.path.basename(args.md))[0])
+    if args.microtopic:
+        name += f'_mt{args.microtopic}'
+
+    cpath = os.path.join(args.out, f'{name}.json')
+    ppath = os.path.join(args.out, f'{name}_prompts.json')
+    with open(cpath, 'w', encoding='utf-8') as f:
+        json.dump(content, f, ensure_ascii=False, indent=2)
+    with open(ppath, 'w', encoding='utf-8') as f:
+        json.dump(server, f, ensure_ascii=False, indent=2)
+
+    print(f'OK  content -> {cpath}')
+    print(f'OK  server  -> {ppath}')
+    for k, v in content.items():
+        if v:
+            print(f'  {k}: {len(v)}')
+    if warnings:
+        print('WARNINGS:')
+        for w in warnings:
+            print('  !', w)
+    issues = validate(content)
+    if issues:
+        print(f'VALIDATION: {len(issues)} проблем')
+        for it in issues:
+            print('  x', it)
+    else:
+        print('VALIDATION: OK (0 проблем)')
+
+
+if __name__ == '__main__':
+    main()

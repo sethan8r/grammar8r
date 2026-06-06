@@ -2,6 +2,8 @@
 
 **ID:** 1 | **Order:** 1 | **isPretopic:** true  
 **Описание:** Личные местоимения, глагол to be, артикли, предлоги — фундамент перед временами
+**Группа слов:** basics · Основы
+**Категория слов:** grammar_basics · Grammar Basics · source=course_words
 
 > **Категория слов:** все слова предтемы "Основы" при открытии попадают в категорию **"Grammar Basics"** (раздел "Слова курса" → "Основы").
 
@@ -443,8 +445,8 @@ not ставится сразу после am/is/are. Краткие формы:
 
 **Ex 14 · TextInput** *(ID: 3)*
 
-"He ___ at work today." *(сделай отрицание)*  
-Правильные ответы: **is not / isn't**
+"He ___ at work today." (сделай отрицание)
+Ответ: **isn't** / **is not**
 
 *Explanation (при ошибке):* Отрицание с he: is + not = is not = isn't.
 
@@ -661,15 +663,14 @@ RU: Ты — учитель?
 
 **Ex 25 · DialogRestore** *(ID: 2)*
 
-A: "___ your parents at home?"  
-B: "Yes, they are. They're having dinner."
+A: "Are your parents at home?"
+B: ___
 
-Варианты для реплики A:
-- **Are** ✓
-- Is
-- Am
+- "Yes, they is. They're having dinner."
+- "Yes, they am. They're having dinner."
+- **"Yes, they are. They're having dinner."** ✓
 
-*Explanation (при ошибке):* Parents = родители = they. С they → вопрос: Are.
+*Explanation (при ошибке):* Parents = they → "Yes, they **are**". "they is" / "they am" — неверные формы to be для they.
 
 ---
 
@@ -782,8 +783,7 @@ There is — для одного предмета или неисчисляем�
 
 **Ex 28 · MultipleChoice · CHOICE** *(ID: 5)*
 
-RU: В комнате пять человек.  
-"___ five people in the room."
+"___ five people in the room." (В комнате пять человек.)
 
 - There is
 - **There are** ✓
@@ -1474,15 +1474,14 @@ RU: У неё нет домашних животных.
 
 **Ex 54 · DialogRestore** *(ID: 4)*
 
-A: "___ you have a moment?"  
-B: "Yes, I do. What's up?"
+A: "Do you have a moment?"
+B: ___
 
-Варианты для реплики A:
-- **Do** ✓
-- Does
-- Have
+- "Yes, I have. What's up?"
+- "Yes, I am. What's up?"
+- **"Yes, I do. What's up?"** ✓
 
-*Explanation (при ошибке):* You → Do. "Does" — для he/she/it. "Have you" — устаревший формальный стиль, в обычной речи не используется.
+*Explanation (при ошибке):* Вопрос с **Do you...?** → краткий ответ **Yes, I do**. "Yes, I have" — have не повторяет вспомогательный do. "Yes, I am" — am отвечает на вопрос с to be, а не с do.
 
 ---
 
@@ -2346,18 +2345,18 @@ mine/yours/his/hers/ours/theirs — форма без существительн
 
 RU: Чья это сумка? Моя.
 
-Правильные предложения: **Whose bag is this? It's mine.** /я думаю, что в таких заданиях не обязательно давать перевод this It's моё / моя / мой (самостоят.) моя (зависимая форма), ибо мы прошли эти слова в прошлой теме, да и можно же просто нажать на слово и задержать палец и тогда откроется перевод, ибо у нас есть аткая система. Примени эту инфу ко всем заданиям подобного рода, что были до и будут после, мол не надо давать сразу перевод того, что прошел пользователь в предыдущих темах/
+Правильное предложение: **Whose bag is this? It's mine.**
 
 | Слово | Перевод | Лишнее? |
 |-------|---------|---------|
 | Whose | Чей / Чья / Чьё | — |
 | bag | сумка | — |
-| is | (глагол to be) | — |
-| this | это / этот / эта | — |
-| It's | Это (= It is) | — |
+| is | — | — |
+| this | — | — |
+| It's | — | — |
 | mine | моё / моя / мой (самостоят.) | — |
 | my | моя (зависимая форма) | ✗ дистрактор |
-| That's | То (= That is) | ✗ дистрактор |
+| That's | — | ✗ дистрактор |
 
 *Explanation (при ошибке):* "It's mine" — без существительного → самостоятельная форма. "It's my" — неверно, "my" требует существительного после себя: "my bag".
 
@@ -3424,10 +3423,10 @@ how old — возраст, how many — счётные предметы, how mu
 
 Три конструкции ожидают в ответ число или сумму. Найди ту, что ожидает другой тип ответа:
 
-- how old → ответ: 25 years
-- how many → ответ: 3 cats
-- how much → ответ: 500 roubles
-- **how often** ✓ → ответ: every day / twice a week (не число, а наречие частоты)
+- how old
+- how many
+- how much
+- **how often** ✓
 
 *Explanation (при ошибке):* how old, how many, how much — все ожидают числовой ответ. how often ожидает наречие частоты: "every day", "sometimes", "twice a week". Это другой тип ответа.
 
@@ -4372,10 +4371,10 @@ yesterday / today / tomorrow / last... / next... / this... / every... — без
 
 Три из четырёх слов требуют предлог at/on/in. Найди то, что предлога НЕ требует:
 
-- Monday → on Monday ✓
-- July → in July ✓
-- **yesterday** → просто yesterday, предлог не нужен ✓ (это верный ответ)
-- 3 o'clock → at 3 o'clock ✓
+- Monday
+- July
+- **yesterday** ✓
+- 3 o'clock
 
 *Explanation (при ошибке):* Monday, July, 3 o'clock — конкретные временные ориентиры, которые требуют at/on/in. "Yesterday" — наречие времени, само по себе указывает на время. Добавлять к нему предлог — ошибка: "at yesterday", "on yesterday" не существуют.
 
@@ -4959,7 +4958,7 @@ over = поверх препятствия (climb over a wall). across = по п
 - She had to climb **across** the fence.
 - She had to climb **through** the fence.
 
-*Explanation: over = поверх препятствия (перелезть, прыгнуть). across = по поверхности горизонтально. through = насквозь (не то для забора).*
+*Explanation:* over = поверх препятствия (перелезть, прыгнуть). across = по поверхности горизонтально. through = насквозь (не то для забора).
 
 ---
 
@@ -4971,7 +4970,7 @@ over = поверх препятствия (climb over a wall). across = по п
 - They swam **over** the river.
 - They swam **along** the river.
 
-*Explanation: across = по поверхности с берега на берег. over = поверху (нельзя плыть над рекой). along = вдоль берега, а не через реку.*
+*Explanation:* across = по поверхности с берега на берег. over = поверху (нельзя плыть над рекой). along = вдоль берега, а не через реку.
 
 ---
 
@@ -4983,7 +4982,7 @@ over = поверх препятствия (climb over a wall). across = по п
 - Dima walked **across** the river after work.
 - Dima walked **through** the river after work.
 
-*Explanation: along = вдоль, параллельно реке. across = пересечь реку (с берега на берег). through = вброд насквозь.*
+*Explanation:* along = вдоль, параллельно реке. across = пересечь реку (с берега на берег). through = вброд насквозь.
 
 ---
 
@@ -4995,7 +4994,7 @@ over = поверх препятствия (climb over a wall). across = по п
 - Just walk **along** the café.
 - Just walk **through** the café.
 
-*Explanation: past = пройти мимо не заходя. along = вдоль (не то значение). through = насквозь внутри (войти и выйти).*
+*Explanation:* past = пройти мимо не заходя. along = вдоль (не то значение). through = насквозь внутри (войти и выйти).
 
 ---
 
@@ -5007,7 +5006,7 @@ over = поверх препятствия (climb over a wall). across = по п
 - We drove **across** the city.
 - We drove **along** the city.
 
-*Explanation: through = насквозь через внутренность (город, лес, туннель). across тоже возможно, но through точнее когда находишься внутри городского пространства.*
+*Explanation:* through = насквозь через внутренность (город, лес, туннель). across тоже возможно, но through точнее когда находишься внутри городского пространства.
 
 ---
 
@@ -5019,7 +5018,7 @@ over = поверх препятствия (climb over a wall). across = по п
 - She drove **across** the coast.
 - She drove **past** the coast.
 
-*Explanation: along = вдоль, параллельно побережью. across = поперёк (пересечь). past = проехать мимо одной точки, не вдоль всего побережья.*
+*Explanation:* along = вдоль, параллельно побережью. across = поперёк (пересечь). past = проехать мимо одной точки, не вдоль всего побережья.
 
 ---
 
@@ -5031,7 +5030,7 @@ over = поверх препятствия (climb over a wall). across = по п
 - Light came **across** the window.
 - Light came **over** the window.
 
-*Explanation: through = насквозь (свет, воздух, звук проходят через материал). across = по поверхности. over = поверху.*
+*Explanation:* through = насквозь (свет, воздух, звук проходят через материал). across = по поверхности. over = поверху.
 
 ---
 
@@ -5190,20 +5189,18 @@ photo → **photos**, piano → **pianos**, video → **videos**
 
 **Ex 162 · TableFill** *(ID: 5)*
 
-Задание: запиши правильную форму множественного числа
+Задание: запиши множественное число — осторожно, правила и исключения идут вперемешку
 
-| Единственное | Правило | Множественное |
-|---|---|---|
-| bus | -es | ___ |
-| city | -y → -ies | ___ |
-| leaf | -f → -ves | ___ |
-| photo | +s | ___ |
-| watch | -es | ___ |
-| key | +s | ___ |
+| Единственное | Множественное |
+|--------------|---------------|
+| tomato | tomatoes |
+| photo | photos |
+| party | parties |
+| day | days |
+| knife | knives |
+| roof | roofs |
 
-*Answers:* buses / cities / leaves / photos / watches / keys
-
-*Explanation:* bus → buses (-s+es), city → cities (согл.+y → ies), leaf → leaves (-f → ves), photo → photos (заимствование, +s), watch → watches (-ch+es), key → keys (гласн.+y, +s).
+*Explanation (при ошибке):* tomato → tomatoes (-o + es), но photo → photos (заимствование, просто +s). party → parties (согл. + y → ies), day → days (гласн. + y, просто +s). knife → knives (-fe → ves), но roof → roofs (исключение, просто +s).
 
 ---
 
@@ -5247,11 +5244,16 @@ photo → **photos**, piano → **pianos**, video → **videos**
 
 Напиши правильную форму множественного числа:
 
-1. one knife → two ___ *(ножа)* → **knives**
-2. one party → three ___ *(вечеринки)* → **parties**
-3. one roof → five ___ *(крыш)* → **roofs**
-4. one dish → four ___ *(тарелки)* → **dishes**
-5. one day → seven ___ *(дней)* → **days**
+1. "one knife → two ___" (ножа)
+   Ответ: **knives**
+2. "one party → three ___" (вечеринки)
+   Ответ: **parties**
+3. "one roof → five ___" (крыш)
+   Ответ: **roofs**
+4. "one dish → four ___" (тарелки)
+   Ответ: **dishes**
+5. "one day → seven ___" (дней)
+   Ответ: **days**
 
 *Explanation (при ошибке):* knife → knives (-fe → ves). party → parties (согл.+y → ies). roof → roofs (исключение из правила -f). dish → dishes (-sh + es). day → days (гласн.+y → просто +s).
 
@@ -5393,11 +5395,11 @@ photo → **photos**, piano → **pianos**, video → **videos**
 
 | Ед. число | Мн. число |
 |-----------|-----------|
-| child | men |
-| man | mice |
-| mouse | geese |
-| goose | feet |
-| foot | children |
+| child | children |
+| man | men |
+| mouse | mice |
+| goose | geese |
+| foot | feet |
 
 *Explanation:* child→children, man→men, mouse→mice, goose→geese, foot→feet — все исключения, не подчиняются стандартным правилам.
 
@@ -5696,13 +5698,13 @@ twenty-**one** (21), thirty-**five** (35), forty-**eight** (48), ninety-**nine**
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
-| 1 | "Forty" is the correct spelling, not "fourty". | "Forty" — правильное написание, не "fourty". | ✓ |
-| 2 | After a number, "hundred" doesn't get -s. | После числа к "hundred" не добавляют -s. | ✓ |
-| 3 | The number 21 is written "twenty one" without a hyphen. | Число 21 пишется "twenty one" без дефиса. | ✗ |
-| 4 | "Fifteen" comes from "five" with the suffix -teen. | "Fifteen" образовано от "five" + суффикс -teen. | ✓ |
-| 5 | "Hundreds of people" with -s is correct English. | "Hundreds of people" с -s — правильный английский. | ✓ |
+| 1 | I have forty books at home. | У меня дома сорок книг. | ✓ |
+| 2 | There are three hundred students here. | Здесь триста студентов. | ✓ |
+| 3 | She is twenty one years old. | Ей двадцать один год. | ✗ |
+| 4 | Hundreds of people came to the concert. | Сотни людей пришли на концерт. | ✓ |
+| 5 | He paid two hundreds dollars. | Он заплатил двести долларов. | ✗ |
 
-*Explanation (при ошибке):* Предл. 3 — ошибка: дефис обязателен: twenty-one. Предл. 1 — forty без u, это частая ошибка. Предл. 5 — без конкретного числа перед hundred/thousand/million -s допустимо: "hundreds of people".
+*Explanation (при ошибке):* №3 — между десятками и единицами дефис: twenty-one. №5 — после конкретного числа hundred без -s: "two hundred dollars" (-s только без числа: "hundreds of people").
 
 ---
 
@@ -5803,17 +5805,16 @@ twenty-**one** (21), thirty-**five** (35), forty-**eight** (48), ninety-**nine**
 Задание: запиши порядковое числительное для каждого кардинального
 
 | Кардинальное | Порядковое |
-|---|---|
-| one | ___ |
-| two | ___ |
-| three | ___ |
-| five | ___ |
-| eight | ___ |
-| twelve | ___ |
-| twenty | ___ |
-| twenty-three | ___ |
+|--------------|------------|
+| one | first |
+| three | third |
+| five | fifth |
+| eight | eighth |
+| twelve | twelfth |
+| twenty | twentieth |
+| twenty-three | twenty-third |
 
-*Answers:* first / second / third / fifth / eighth / twelfth / twentieth / twenty-third
+*Explanation:* one→first, three→third — особые формы. Остальные = число + -th: five→fifth, eight→eighth, twelve→twelfth, twenty→twentieth (y меняется на ie). В составных порядковое только последнее слово: twenty-third.
 
 ---
 
@@ -5994,11 +5995,16 @@ twenty-**one** (21), thirty-**five** (35), forty-**eight** (48), ninety-**nine**
 
 Напиши год словами по-английски:
 
-1. 1999 → **nineteen ninety-nine**
-2. 2000 → **two thousand**
-3. 1812 → **eighteen twelve**
-4. 2024 → **twenty twenty-four** / two thousand and twenty-four
-5. 1905 → **nineteen oh five**
+1. "1999"
+   Ответ: **nineteen ninety-nine**
+2. "2000"
+   Ответ: **two thousand**
+3. "1812"
+   Ответ: **eighteen twelve**
+4. "2024"
+   Ответ: **twenty twenty-four** / **two thousand and twenty-four**
+5. "1905"
+   Ответ: **nineteen oh five**
 
 *Explanation (при ошибке):* 1999: nineteen + ninety-nine (две половины). 1905: ноль читается "oh". 2024: допустимы оба варианта.
 
@@ -6379,13 +6385,13 @@ Monday–Sunday, все с заглавной. Wednesday произноситс�
 
 | EN | RU |
 |----|----|
-| Monday | суббота |
-| Wednesday | пятница |
-| Friday | среда |
-| Saturday | понедельник |
+| Monday | понедельник |
+| Wednesday | среда |
+| Friday | пятница |
+| Saturday | суббота |
 | Sunday | воскресенье |
 
-*Answers:* Monday→понедельник, Wednesday→среда, Friday→пятница, Saturday→суббота, Sunday→воскресенье
+*Explanation:* Monday=понедельник, Wednesday=среда, Friday=пятница, Saturday=суббота, Sunday=воскресенье. Дни недели в английском всегда пишутся с заглавной буквы.
 
 ---
 
@@ -6576,6 +6582,8 @@ January–December, все с заглавной. Предлог: in + меся�
 |---|---|---|---|
 | March, April, May | June, July, August | September, October, November | December, January, February |
 
+*Explanation:* Spring (весна): March, April, May. Summer (лето): June, July, August. Autumn (осень): September, October, November. Winter (зима): December, January, February.
+
 ---
 
 **Ex 210 · TextInput** *(ID: 18)*
@@ -6587,6 +6595,8 @@ January–December, все с заглавной. Предлог: in + меся�
 3. Последний месяц года → **December**
 4. Месяц после July → **August**
 5. Месяц перед June → **May**
+
+*Explanation:* January — первый месяц года, December — последний. February — самый короткий (28–29 дней). После July идёт August, перед June — May.
 
 ---
 
@@ -6819,15 +6829,15 @@ spring / summer / autumn / fall / winter — строчными. Autumn (бри�
 
 **Ex 221 · TrueFalse** *(ID: 26)*
 
-| # | Утверждение | Верно? |
-|---|---|---|
-| 1 | Все четыре сезона пишутся со строчной буквы. | ✓ |
-| 2 | Autumn — американский вариант, fall — британский. | ✗ |
-| 3 | Предлог с временами года — всегда "in". | ✓ |
-| 4 | "In the summer" — ошибка, артикль не нужен. | ✗ |
-| 5 | Spring начинается в марте (северное полушарие). | ✓ |
+| # | EN | RU | Верно? |
+|---|----|----|--------|
+| 1 | I always feel sleepy in winter. | Зимой мне всегда хочется спать. | ✓ |
+| 2 | We go to the lake in Summer. | Летом мы ездим на озеро. | ✗ |
+| 3 | The leaves turn yellow in autumn. | Осенью листья желтеют. | ✓ |
+| 4 | She was born in the spring. | Она родилась весной. | ✓ |
+| 5 | They visit us on summer. | Летом они нас навещают. | ✗ |
 
-*Explanation (при ошибке):* 2) наоборот: autumn = брит., fall = амер. 4) "in the summer" — нейтральный американский вариант, ошибкой не является.
+*Explanation (при ошибке):* №2 — сезоны пишутся со строчной буквы: "in summer", не "Summer". №5 — предлог с сезонами "in", не "on": "in summer".
 
 ---
 
@@ -6835,14 +6845,13 @@ spring / summer / autumn / fall / winter — строчными. Autumn (бри�
 
 Диалог с пропуском — выбери правильную реплику:
 
-> — What time of year do you prefer?
-> — ___
-> — Really? I prefer winter. I love snow.
+A: "What time of year do you prefer?"
+B: ___
+A: "Really? I prefer winter. I love snow."
 
-Варианты:
-- a) "I like in summer. It's warm." ✗
-- b) "I prefer summer. It's warm and sunny." ✓
-- c) "I like the Summer better." ✗
+- "I like in summer. It's warm."
+- **"I prefer summer. It's warm and sunny."** ✓
+- "I like the Summer better."
 
 *Explanation:* b — правильно: prefer + существительное (prefer summer), строчная буква. a — ошибка: "like in summer" — лишний "in". c — ошибка: заглавная Summer.
 
@@ -7262,9 +7271,9 @@ past = первые 30 минут часа (прошло X мин). to = пос�
 
 **Ex 232 · DialogRestore** *(ID: 6)*
 
-> — Excuse me, what time is it?
-> — ___
-> — Thanks!
+A: "Excuse me, what time is it?"
+B: ___
+A: "Thanks!"
 
 - "It's at half past two."
 - "It's two and half."
@@ -8618,13 +8627,13 @@ RU: Вы знаете правду.
 
 **Ex 265 · TextInput** *(ID: 21)*
 
-1. *"___ is dark outside."* (На улице темно)
+1. "___ is dark outside." (На улице темно)
    Ответ: **It**
 
-2. *"___ is half past five."* (Уже половина шестого)
+2. "___ is half past five." (Уже половина шестого)
    Ответ: **It**
 
-3. *"___ say that London is beautiful."* (Говорят, что Лондон красивый)
+3. "___ say that London is beautiful." (Говорят, что Лондон красивый)
    Ответ: **They**
 
 *Explanation:* Для погоды, времени, состояния среды — субъект "It". Для "говорят" (безликое множество людей) — субъект "They". Оба случая: реального субъекта нет, используем формальный чтобы заполнить позицию Subject.
@@ -8753,9 +8762,9 @@ RU: Идёт снег.
 
 Задание: переставь обстоятельство на правильное место — в конец предложения
 
-1. *"I yesterday saw the film."* → **"I saw the film yesterday."**
-2. *"I at home work every day."* → **"I work at home every day."**
-3. *"They in the park walked."* → **"They walked in the park."**
+1. "I yesterday saw the film." → **"I saw the film yesterday."**
+2. "I at home work every day." → **"I work at home every day."**
+3. "They in the park walked." → **"They walked in the park."**
 
 *Explanation:* Обстоятельство не может стоять между Subject и Verb ("I yesterday saw") или между Verb и Object ("I at home work"). Правильная позиция — после всего предложения (или перед Subject для акцента, но не в середину).
 
@@ -8859,8 +8868,6 @@ RU: Мы читали книгу в парке.
 | verb | глагол, сказуемое | [vɜːrb] |
 | object | дополнение, объект | [ˈɒbdʒɪkt] |
 | order | порядок | [ˈɔːrdər] |
-| yesterday | вчера | [ˈjestərdeɪ] |
-| today | сегодня | [təˈdeɪ] |
 | outside | снаружи, на улице | [ˌaʊtˈsaɪd] |
 
 ---
@@ -9334,13 +9341,11 @@ and = и (добавляет). but = но (противопоставляет). 
 
 **Ex 298 · Transformation** *(ID: 7)*
 
-Задание: соедини два предложения в одно, используя данный союз.
+Задание: соедини два предложения в одно подходящим союзом (and / but / because)
 
-1. [and] "He is tired." + "He is hungry." → **"He is tired and he is hungry."**
-
-2. [because] "I am cold." + "The window is open." → **"I am cold because the window is open."**
-
-3. [but] "He is tired." + "He is still working." → **"He is tired but he is still working."**
+1. "He is tired. He is hungry." → **"He is tired and he is hungry."**
+2. "I am cold. The window is open." → **"I am cold because the window is open."**
+3. "He is tired. He is still working." → **"He is tired but he is still working."**
 
 *Explanation:* and — соединяет два равнозначных факта (устал И голоден). because — вторая часть причина первой: холодно потому что окно открыто. but — противопоставление: устал, однако работает.
 
@@ -9893,7 +9898,6 @@ B: ___
 | cook | готовить (еду) | [kʊk] |
 | sing | петь | [sɪŋ] |
 | speak | говорить, разговаривать | [spiːk] |
-| wait | ждать | [weɪt] |
 | leave | уходить, уезжать | [liːv] |
 | park | парковать(ся) | [pɑːrk] |
 
@@ -10250,7 +10254,9 @@ B: ___
 
 **Ex 324 · WordArrangement** *(ID: 39)*
 
-"Вера хочет купить новые кроссовки."
+RU: Вера хочет купить новые кроссовки.
+
+Правильное предложение: **Vera wants to buy new sneakers.**
 
 | Слово | Перевод | Лишнее? |
 |-------|---------|---------|
@@ -10378,14 +10384,13 @@ Do/does выходит вперёд. Глагол want/need/like возвращ�
 
 **Ex 327 · Transformation** *(ID: 10)*
 
-Дано: "Dima wants to learn English."
+Задание: сделай отрицание (want / need / like + to)
 
-Сделай **отрицание** и **вопрос**:
+1. "Dima wants to learn English." → **"Dima doesn't want to learn English."**
+2. "They need to leave early." → **"They don't need to leave early."**
+3. "She likes to cook at home." → **"She doesn't like to cook at home."**
 
-**Отрицание:** Dima doesn't want to learn English.
-**Вопрос:** Does Dima want to learn English?
-
-*Explanation:* Отрицание: doesn't перед want (Dima = he → doesn't), "to learn" остаётся. Вопрос: Does выходит вперёд, want возвращается в базовую форму (не "wants"), "to learn" остаётся в конце.
+*Explanation:* Отрицание Present Simple: don't/doesn't + V1. Dima/she → doesn't, they → don't. Первый глагол (want/need/like) возвращается в базовую форму (wants → want), а "to + действие" остаётся неизменным.
 
 ---
 
@@ -10404,16 +10409,15 @@ Do/does выходит вперёд. Глагол want/need/like возвращ�
 
 **Ex 329 · DialogRestore** *(ID: 9)*
 
-— Do you want to come to the party on Friday?
-— [???]
-— Oh, that's a shame. Maybe next time!
+A: "Do you want to come to the party on Friday?"
+B: ___
+A: "Oh, that's a shame. Maybe next time!"
 
-- Yes, I want. I love parties!
-- No, I don't want. I need work.
-- No, I can to go — I have plans.
-- **No, I don't want to go. I need to finish my project.** ✓
+- "Yes, I want. I love parties!"
+- "No, I don't want. I need work."
+- **"No, I don't want to go. I need to finish my project."** ✓
 
-*Explanation:* "I want" без продолжения незакончено — после want нужно to + действие. "I need work" — пропущен "to": "need to work". "I can to go" — после can "to" не нужен: "I can go". Только последний вариант строит оба глагола правильно.
+*Explanation:* "I want" без продолжения незакончено — после want нужно to + действие. "I need work" — пропущен "to": "need to work". Только последний вариант строит оба глагола правильно: don't want **to go**, need **to finish**.
 
 ---
 
@@ -10447,7 +10451,6 @@ Do/does выходит вперёд. Глагол want/need/like возвращ�
 | hate | ненавидеть | [heɪt] |
 | travel | путешествовать | [ˈtrævəl] |
 | learn | учить(ся), узнавать | [lɜːrn] |
-| try | пробовать, стараться | [traɪ] |
 | finish | заканчивать | [ˈfɪnɪʃ] |
 | start | начинать | [stɑːrt] |
 | help | помогать | [hɛlp] |
@@ -10541,16 +10544,11 @@ Do/does выходит вперёд. Глагол want/need/like возвращ�
 
 Распредели предложения по двум колонкам:
 
-**as — является / в роли** | **like — похоже на**
-
-| Предложение | Колонка |
-|-------------|---------|
-| He works as a driver. | as |
-| She drives like a professional. | like |
-| Dima acts as a manager at his company. | as |
-| My cat sleeps like a log. | like |
-| Lena used her scarf as a blanket. | as |
-| He eats like a horse. | like |
+| as — является / в роли | like — похоже на |
+|------------------------|------------------|
+| He works as a driver. | She drives like a professional. |
+| Dima acts as a manager at his company. | My cat sleeps like a log. |
+| Lena used her scarf as a blanket. | He eats like a horse. |
 
 *Explanation:* as — субъект является тем, о чём говорим (профессия, роль, функция). like — субъект похож, сравнивается, но не является: "sleeps like a log" = спит как бревно (сравнение), "eats like a horse" = ест как лошадь (сравнение).
 
@@ -10677,7 +10675,9 @@ Do/does выходит вперёд. Глагол want/need/like возвращ�
 
 **Ex 335 · WordArrangement** *(ID: 40)*
 
-"Катя говорит по-французски, а также по-итальянски."
+RU: Катя говорит по-французски, а также по-итальянски.
+
+Правильное предложение: **Katya speaks French as well as Italian.**
 
 | Слово | Перевод | Лишнее? |
 |-------|---------|---------|
