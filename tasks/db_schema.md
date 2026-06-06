@@ -11,6 +11,107 @@
 
 ---
 
+## Архитектура хранения — две БД (content.db / user.db)
+
+> Зафиксировано в дизайн-сессии. Причина — `Room.createFromAsset` срабатывает только при
+> первой установке; на обновлении приложения он игнорирует .db из assets. Поэтому контент и
+> прогресс нельзя держать в одной БД — иначе теорию нельзя обновить после релиза без ручных
+> миграций и риска затереть прогресс пользователя.
+
+**content.db** — read-only, поставляется готовой в `assets/`, открывается через `createFromAsset`,
+**заменяется целиком при обновлении приложения**. Содержит только контент:
+- `GrammarTopic`, `GrammarMicrotopic`, `GrammarCard` (теория = массив типизированных блоков, см. ниже)
+- все 14 таблиц хардкодных упражнений, `CardExerciseIndex`, `AiExercise`
+- `course_words`, `irregular_verbs`, `course_categories` — **только определения** (word, translation, microtopicId, categoryId)
+- словарь Words8r (17 170 слов, 60 категорий, 4 группы — переносится из `tasks/words8r.db`)
+
+**user.db** — mutable, создаётся на телефоне, **НИКОГДА не перезаписывается** при обновлении. Содержит:
+- `UserCardProgress`, `UserMicrotopicProgress`, `UserCardHardcodeStats`, `UserAiExerciseStats`, `FavoriteAiExercise`
+- состояние слов обоих словарей: `isUnlocked` / `isHidden` / `qRep` / `isPriority` (ключ = `wordId`)
+- настройки категорий (`isSelected`), личные слова («Мои слова»), `DailyStats`, `AiRequestCounter`, `DictionaryCache`
+
+> ⚠️ Слово «расщепляется»: определение → content.db, состояние изучения → user.db.
+> Таблица прогресса слов в user.db имеет ключ = тот же `wordId`, что в content.db.
+
+### Два РАЗДЕЛЬНЫХ пула слов — не смешивать
+
+- **Слова курса** (`course_words` / `irregular_verbs`) — открываются теорией, кнопка «Учить слова курса».
+- **Слова Words8r + «Мои слова»** — отдельный пул, кнопка «Учить слова из Words8r».
+  - Шиппованный словарь Words8r (17170) — в content.db (read-only).
+  - **«Мои слова»** — личные слова пользователя: модель как в старом words8r.db (определение + состояние
+    в одной строке user.db, т.к. их создаёт пользователь). Учатся **только** на кнопке Words8r.
+  - Долгое нажатие на слово → «В мои слова» → строка в личных словах (user.db) → всплывает под кнопкой Words8r.
+  - ⚠️ Личные слова **никогда** не попадают в слова курса. Пулы строго раздельны.
+  - Детальная схема таблицы личных слов — стадия вкладки «Слова» (TBD), по образцу words8r `words`.
+
+### Конвейер контента
+
+```
+MD (источник правды) → md_to_json.py → JSON-сид (коммитим) → json_to_db.py → content.db (assets)
+                       [вручную, с ревью]                     [автоматом при сборке, Gradle]
+```
+
+**Два скрипта в `tasks/tools/`** (постоянный build-инструментарий, не удалять):
+
+1. **`md_to_json.py`** — один парсер на ВСЕ theory-файлы (вход = MD-файл аргументом).
+   `py md_to_json.py 1_basics.md` → `tasks/tools/seed/basics.json`.
+   ⚠️ **Запускать ВРУЧНУЮ при любой правке уже готовой теории**, для которой уже есть seed —
+   иначе JSON устареет относительно MD. Это шаг с ревью: глазами проверяем выхлоп.
+   JSON-сид **коммитится** в репо.
+
+2. **`json_to_db.py`** — собирает все `seed/*.json` → `content.db`.
+   ⚠️ **Запускается АВТОМАТИЧЕСКИ при сборке** через Gradle-таск (зависимость `mergeAssets`/`preBuild`),
+   кладёт `content.db` в `assets/`. Работает одинаково локально и в GitHub Actions
+   (в CI нужен шаг setup-python, т.к. Gradle вызывает `py`).
+
+**Что в репозитории:** MD (источник) + JSON-сиды (текст, diff-абельны). **content.db НЕ коммитим** —
+это build-артефакт, генерируется из JSON при каждой сборке.
+
+**⚠️ AI-упражнения делятся на два выхода** (промт — секрет, в APK его быть не должно):
+- **client seed → content.db `ai_exercises`:** `id, cardId, title, userInstruction, inputMode, wordsSource`.
+- **server seed → `prompts_seed.json` → серверная `ai_exercise_prompts`:** `id, promptTemplate, aiConfigProfile`.
+  В content.db / APK эти поля НЕ попадают. Связь по `id`; клиент шлёт серверу только `id`.
+  `md_to_json.py` парсит `#### AI Exercise` один раз и пишет в оба сида.
+
+**Рабочий цикл правки готовой теории:** правишь MD → `py md_to_json.py <файл>` → ревью JSON →
+коммит → сборка сама пересоберёт content.db через Gradle. На телефоне JSON/MD НЕ парсятся.
+
+### Восстановление бэкапа Words8r (стадия вкладки «Слова», TBD)
+
+Старый бэкап `words8r.db` восстанавливает **только слова** (`q_rep`, `is_hidden` + личные слова);
+стрики/статистика игнорируются. Требования к схеме, фиксируются уже сейчас:
+- при генерации content.db из words8r.db **СОХРАНЯТЬ оригинальные `id` слов** (1..17170) → `q_rep` ляжет 1:1;
+- запасной матчинг по english+категории; несовпавшие слова с прогрессом → импорт в «Мои слова», ничего не теряем.
+
+---
+
+## Блоки теории (`GrammarCard.theory`)
+
+> `theory` — это **массив типизированных блоков** (JSON), а не markdown-строка. Единый рендер
+> читает `type` и строит блок своими Composable (дизайн-токены + `TranslatableText`, без хаков).
+> Каталог покрывает 100% предтемы «Основы» (проверено по всему `1_basics.md`).
+
+| `type` | Назначение | Поля |
+|--------|-----------|------|
+| `paragraph` | Абзац прозы | `text` |
+| `heading` | Жирный мини-подзаголовок секции | `text` |
+| `list` | Список (маркир./нумер.) | `ordered: Bool`, `items: [String]` |
+| `table` | Таблица | `header: [String]`, `rows: [[String]]` |
+| `callout` | Плашка-врезка | `variant`, `label`, `text` |
+
+`callout.variant`: `trap` (Ловушка), `warning` (Не путай / Важно / Осторожно), `tip` (Кстати /
+Запомни / Маленький секрет), `formula` (Формула — выделенный/моноширинный бокс).
+
+**Инлайн внутри текста блока:** только `**жирный**` и `*курсив*` (для переводов) — не полный
+markdown; рендер превращает в `AnnotatedString`. Перевод по долгому тапу — весь текст блока в
+`TranslatableText`, реагирует **только на латиницу** (проверка скрипта слова под пальцем).
+
+**Детерминированное правило heading vs callout для скрипта:**
+- `**Ярлык:**` один на строке (тело ниже) → `heading`.
+- `**Ярлык:** текст на той же строке` → `callout`.
+
+---
+
 ## ENUM-ы
 
 ---
@@ -190,8 +291,10 @@ data class AiExercise(
     // PK. Уникальный идентификатор упражнения. Совпадает с id в assets JSON.
     // Пример: "present_simple_card2_ex1"
 
-    val cardId: String,
-    // FK → GrammarCard.id. К какой карточке теории относится это упражнение.
+    val cardId: Int,
+    // FK → GrammarCard.id (Int). К какой карточке теории относится это упражнение.
+    // ⚠️ Int, не String: AiExercise.id остаётся строкой (серверный ключ промта), но FK на
+    //    карточку — числовой, как GrammarCard.id. Натуральный строковый ключ + числовой FK.
     // Используется для:
     //   1. Кнопка «?» на AI-экране — JOIN с GrammarCard → показываем theorySummary.
     //   2. Случайный режим Практики — фильтрация по пройденным микротемам.
@@ -311,8 +414,8 @@ data class CardExerciseIndex(
     val id: Int = 0,
     // PK, autoGenerate. Не несёт смыслового значения.
 
-    val cardId: String,
-    // FK → GrammarCard.id. К какой карточке относится упражнение.
+    val cardId: Int,
+    // FK → GrammarCard.id (Int). К какой карточке относится упражнение.
 
     val exerciseType: HardcodedExerciseType,
     // Enum — в какой таблице искать упражнение.
@@ -340,8 +443,8 @@ data class CardExerciseIndex(
 ```kotlin
 data class UserCardHardcodeStats(
 
-    val cardId: String,
-    // PK, FK → GrammarCard.id. Одна запись на карточку.
+    val cardId: Int,
+    // PK, FK → GrammarCard.id (Int). Одна запись на карточку.
 
     val isCompleted: Boolean
     // true = все упражнения карточки пройдены (достигнуто N/N).
@@ -398,25 +501,52 @@ data class DailyStats(
 
 ---
 
+### `course_word_groups` (content.db)
+
+> Верхний уровень дерева Словаря «Слова курса» — раздел. Зеркалит `word_groups` в words8r.db.
+> Дерево: `course_word_groups` → `course_categories` → `course_words`.
+> Загружается из assets (генерируется конвертером из заголовков theory-файлов).
+
+```kotlin
+data class CourseWordGroup(
+    val id: String,       // PK. Пример: "basics", "tenses", "informal"
+    val nameRus: String,  // Раздел в Словаре. Пример: "Основы", "Времена", "Разговорный"
+    val order: Int        // Порядок разделов в дереве
+)
+```
+
+---
+
 ### `course_categories`
 
 > Таблица категорий слов курса Grammar8r. Только для `course_words` и `irregular_verbs`.  
-> Words8r `categories` — отдельная таблица в Words8r DB, сюда не дублируется.  
-> Загружается из assets при первом запуске (INSERT OR IGNORE).
+> Words8r `categories` — отдельная таблица (словарь Words8r), сюда не дублируется.  
+> Контентная часть (`id`/`groupId`/`order`/`nameRus`/`source`) — в content.db.  
+> ⚠️ Поля состояния (`isSelected`/`isPriority`) физически живут в **user.db**
+> (`UserCategorySettings`), но описаны здесь рядом, чтобы поведение не потерялось.
 
 ```kotlin
 data class CourseCategory(
 
     val id: String,
-    // PK. Уникальный идентификатор категории. Пример: "basic_verbs", "verb_forms"
+    // PK. Уникальный идентификатор категории. Пример: "grammar_basics", "basic_verbs", "verb_forms"
+
+    val groupId: String,
+    // FK → course_word_groups.id. Раздел Словаря верхнего уровня. Пример: "basics".
+    // Дерево Словаря: course_word_groups → course_categories → course_words.
+
+    val order: Int,
+    // Порядок категории внутри группы.
 
     val nameRus: String,
-    // Отображается пользователю в экране "Учить для Grammar8r".
-    // Пример: "Базовые глаголы", "Формы глаголов"
+    // Отображается пользователю в Словаре и в экране "Учить слова курса".
+    // Пример: "Grammar Basics", "Базовые глаголы", "Формы глаголов"
 
     val source: String,
     // Из какой таблицы слова этой категории: "course_words" или "irregular_verbs".
     // Клиент использует это поле чтобы знать куда идти за словами.
+
+    // ↓↓↓ ПОЛЯ СОСТОЯНИЯ — хранятся в user.db (UserCategorySettings.categoryId = id выше) ↓↓↓
 
     val isSelected: Boolean,
     // true = категория активна в сессии "Учить для Grammar8r".
@@ -434,17 +564,19 @@ data class CourseCategory(
 
 ---
 
-### `course_words`
+### `course_words` (content.db)
 
-> Слова курса Grammar8r — одиночные слова с переводом.  
-> Загружаются из assets при первом запуске (INSERT OR IGNORE).  
+> Слова курса Grammar8r — одиночные слова с переводом. Только контент (read-only).  
+> **Сидируются конвертером** из таблиц `### Words8r Sync · …` в theory-файлах — слова
+> попадают в БД-заготовку автоматически при написании теории, искать их потом не нужно.  
 > Разблокируются по ходу прохождения теории (завершение микротемы → BottomSheet).
 
 ```kotlin
 data class CourseWord(
 
-    val id: Int = 0,
-    // PK, autoGenerate.
+    val id: Int,
+    // PK. ⚠️ Должен быть СТАБИЛЬНЫМ между пересборками content.db — иначе осиротеет
+    // прогресс в user.db (UserWordProgress.wordId). Конвертер присваивает детерминированно.
 
     val word: String,
     // Английское слово. Пример: "go", "beautiful", "however"
@@ -452,84 +584,122 @@ data class CourseWord(
     val translation: String,
     // Перевод. Один или несколько через запятую. Пример: "идти", "красивый, прекрасный"
 
-    val microtopicId: String,
-    // FK → GrammarMicrotopic.id. К какой микротеме относится слово.
-    // Используется при завершении микротемы: SELECT * FROM course_words WHERE microtopicId = X
-    // → показываем BottomSheet с чекбоксами для этих слов.
+    val transcription: String?,
+    // Транскрипция из Words8r Sync. Пример: "[gəʊ]". Nullable.
 
-    val categoryId: String,
-    // FK → course_categories.id. К какой категории относится слово.
-    // Используется для фильтрации в AiExerciseWordsSource и сессии "Учить для Grammar8r".
+    val microtopicId: Int,
+    // FK → GrammarMicrotopic.id (Int). К какой микротеме относится слово = ключ ВЫБОРКИ.
+    // При завершении микротемы: SELECT * FROM course_words WHERE microtopicId = X
+    // → BottomSheet с чекбоксами. Сам по себе слово НЕ открывает — состояние пишется в user.db.
+
+    val categoryId: String
+    // FK → course_categories.id. Категория слова (вшита в контент). Слова одной микротемы
+    // могут быть в РАЗНЫХ категориях — открытие это не волнует, каждое всплывёт в своей.
+    // Используется для дерева Словаря и фильтрации в AiExerciseWordsSource.
+)
+```
+
+> ⚠️ Поля состояния `isUnlocked` / `isHidden` / `qRep` / `isPriority` перенесены в **user.db**
+> → `UserWordProgress` (см. ниже). Их смысл (сохранён дословно):
+> - `isUnlocked` — слово открыто (прошёл BottomSheet микротемы). Только unlocked участвуют в сессиях/AI.
+> - `isHidden` — снял галочку в BottomSheet («уже знаю»): пропускается в повторениях, но идёт в AI-промт.
+> - `isPriority` — ПРИОРИТЕТ УРОВНЯ СЛОВА: идёт первым внутри своей категории. Grammar8r ставит
+>   автоматически при входе в тему (ключевые глаголы перед временем); юзер может менять вручную.
+>   ⚠️ При автовыставлении: сбросить isPriority=false словам той же категории, затем ставить нужным.
+> - `qRep` — кол-во повторений (+1 за сессию). Фильтр AI-промта: `isUnlocked AND (isHidden OR qRep>0)`.
+
+---
+
+### `UserWordProgress` (user.db)
+
+> Прогресс/состояние слова. Создаётся **лениво** — при открытии слова. Нет строки = слово закрыто.  
+> Один источник правды по состоянию для всех трёх словарей (course/irregular/words8r).
+
+```kotlin
+data class UserWordProgress(
+
+    val source: WordTable,
+    // COURSE_WORDS / IRREGULAR_VERBS / WORDS8R — дискриминатор: id в этих таблицах нумеруются
+    // независимо, без него были бы коллизии. PK = (source, wordId).
+
+    val wordId: Int,
+    // = id слова в соответствующей таблице content.db.
 
     val isUnlocked: Boolean,
-    // false = слово ещё не показывалось пользователю (микротема не пройдена).
-    // true = пользователь прошёл BottomSheet этой микротемы.
-    // Только unlocked слова участвуют в AI-промтах и сессиях повторения.
-
     val isHidden: Boolean,
-    // true = пользователь снял галочку в BottomSheet ("уже знаю это слово").
-    // Такие слова пропускаются в сессиях повторения, но включаются в AI-промт.
+    val qRep: Int,
+    val isPriority: Boolean
+    // Семантика полей — см. блок ⚠️ под course_words выше.
+)
+```
 
-    val isPriority: Boolean,
-    // ПРИОРИТЕТ УРОВНЯ СЛОВА — конкретное слово идёт первым внутри своей категории.
-    // Выставляется Grammar8r автоматически при входе в тему (например, ключевые глаголы
-    // перед конкретным временем). Пользователь может менять вручную в словаре.
-    // Отличие от course_categories.isPriority: здесь приоритет на уровне отдельного слова,
-    // там — на уровне всей категории.
-    // ⚠️ При автовыставлении перед темой: сбрасывать предыдущие isPriority = false
-    // для слов той же категории, затем ставить на нужные.
+**Логика открытия слов (BottomSheet после микротемы):**
+```kotlin
+val words = courseWordsDao.getByMicrotopic(X)          // content.db, выборка по microtopicId
+// BottomSheet: все чекбоксы предвыбраны; юзер снимает галки со «знакомых»
+words.forEach { w ->
+    userWordProgressDao.upsert(UserWordProgress(
+        source = COURSE_WORDS, wordId = w.id,
+        isUnlocked = true,                  // открыто всегда
+        isHidden   = !checked[w.id],        // снял галку → true = «уже знаю»
+        qRep = 0, isPriority = false))
+}
+```
+Иконка `Download` у микротемы (переоткрыть): микротема «открыта», если все её `course_words`
+имеют строку `UserWordProgress(isUnlocked=true)` — выводим из данных, отдельный флаг не нужен.
 
-    val qRep: Int
-    // Количество повторений в сессии "Учить для Grammar8r". +1 за каждую сессию.
-    // Фильтр для AI-промта: isUnlocked = true AND (isHidden = true OR qRep > 0)
+---
+
+### `UserCategorySettings` (user.db)
+
+> Пользовательские настройки категории слов курса. Создаётся лениво при изменении.  
+> Поля перенесены из `course_categories` (там они описаны с полными комментариями).
+
+```kotlin
+data class UserCategorySettings(
+
+    val categoryId: String,
+    // PK, FK → course_categories.id (content.db).
+
+    val isSelected: Boolean,
+    // true = категория активна в очереди "Учить слова курса". Дефолт при отсутствии строки — см. контент.
+
+    val isPriority: Boolean
+    // ПРИОРИТЕТ УРОВНЯ КАТЕГОРИИ. ⚠️ При смене: UPDATE isPriority=false ВСЕМ, затем true нужной.
+    // Одновременно активна только одна. Полное описание — course_categories выше.
 )
 ```
 
 ---
 
-### `irregular_verbs`
+### `irregular_verbs` (content.db)
 
-> Неправильные глаголы курса Grammar8r — три формы + перевод.  
-> Загружаются из assets при первом запуске (INSERT OR IGNORE).  
-> Структура отличается от course_words — отдельная таблица для корректной механики повторений (проверка всех трёх форм).
+> Неправильные глаголы курса — три формы + перевод. Только контент (read-only).  
+> Отдельная таблица от course_words (механика повторений проверяет все три формы).  
+> ⚠️ Появляются в теме «Устройство языка → Глаголы V1/V2/V3», в «Основах» их нет.  
+> Sync-формат для них (3 формы) фиксируется при написании той темы.
 
 ```kotlin
 data class IrregularVerb(
 
-    val id: Int = 0,
-    // PK, autoGenerate.
+    val id: Int,
+    // PK. Стабильный (как course_words.id) — иначе осиротеет прогресс в user.db.
 
-    val v1: String,
-    // Базовая форма. Пример: "go"
+    val v1: String,            // Базовая форма. Пример: "go"
+    val v2: String,            // Past Simple. Пример: "went"
+    val v3: String,            // Past Participle. Пример: "gone"
+    val translation: String,   // Перевод. Пример: "идти, ходить"
+    val transcription: String?,// Транскрипция. Nullable.
 
-    val v2: String,
-    // Past Simple. Пример: "went"
+    val microtopicId: Int,
+    // FK → GrammarMicrotopic.id (Int). Ключ выборки для BottomSheet открытия.
 
-    val v3: String,
-    // Past Participle. Пример: "gone"
-
-    val translation: String,
-    // Перевод глагола. Пример: "идти, ходить"
-
-    val microtopicId: String,
-    // FK → GrammarMicrotopic.id. Для разблокировки через BottomSheet.
-
-    val categoryId: String,
+    val categoryId: String
     // FK → course_categories.id (source = "irregular_verbs").
-
-    val isUnlocked: Boolean,
-    // Аналогично course_words.isUnlocked.
-
-    val isHidden: Boolean,
-    // Аналогично course_words.isHidden.
-
-    val isPriority: Boolean,
-    // Аналогично course_words.isPriority — приоритет уровня слова.
-
-    val qRep: Int
-    // Количество повторений. Фильтр для AI-промта: тот же что в course_words.
-    // В AI-промт глагол идёт в формате "go / went / gone".
 )
+// ⚠️ Состояние (isUnlocked/isHidden/isPriority/qRep) — в user.db → UserWordProgress
+//    с source = IRREGULAR_VERBS. Семантика та же, что у course_words.
+//    В AI-промт глагол идёт в формате "go / went / gone".
 ```
 
 ---
@@ -652,8 +822,8 @@ data class GrammarCard(
     // Порядок внутри микротемы. Определяет последовательность листания карточек.
 
     val theory: String,
-    // Основной текст теории. Может содержать markdown-таблицы и форматирование.
-    // Показывается пользователю на карточке.
+    // JSON: массив типизированных блоков теории (paragraph/heading/list/table/callout).
+    // Единый рендер строит экран по блокам. Подробно — раздел «Блоки теории» выше.
 
     val theorySummary: String,
     // Краткое резюме правила — 2–3 предложения. Показывается по кнопке "?".
