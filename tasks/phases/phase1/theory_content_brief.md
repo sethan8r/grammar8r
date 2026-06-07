@@ -625,7 +625,9 @@ Grammar8r — Android-приложение для изучения англий�
 2. **Идиомы** — выражения непереводимые дословно.
    it's raining cats and dogs, break the ice, hit the nail on the head,
    bite the bullet, cost an arm and a leg, once in a blue moon,
-   spill the beans, under the weather, beat around the bush
+   spill the beans, under the weather, beat around the bush,
+   break a leg (ловушка: дословно звучит как угроза "сломай ногу", а на деле — пожелание удачи
+   перед выступлением, театральное суеверие; русский аналог — "ни пуха ни пера")
 3. **Устойчивые конструкции** — фиксированные фразы с внутренней логикой.
    by the way, one way or another, as long as, no matter what,
    on the other hand, at the end of the day, to be honest, in other words,

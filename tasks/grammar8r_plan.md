@@ -886,7 +886,9 @@ Grammar8r/
 │   │   check out (выселиться из отеля / расплатиться на кассе / проверить / зацени это)
 │   ├── Идиомы — непереводимые дословно выражения
 │   │   it's raining cats and dogs, break the ice, hit the nail on the head,
-│   │   bite the bullet, cost an arm and a leg, once in a blue moon
+│   │   bite the bullet, cost an arm and a leg, once in a blue moon,
+│   │   break a leg (ловушка: дословно звучит как угроза "сломай ногу", а на деле —
+│   │   пожелание удачи перед выступлением, театральное суеверие; русский аналог — "ни пуха ни пера")
 │   ├── Устойчивые конструкции — фиксированные фразы с логикой
 │   │   Вводная карточка: как носители реально строят речь
 │   │   Носители не собирают каждое предложение из правил пословно — они думают готовыми блоками.
@@ -942,7 +944,9 @@ Grammar8r/
 │   │   ├── "How are you?" — это ритуал, не вопрос
 │   │   │   Культурный момент: в английском "How are you?" = "привет" с ответом "Good, thanks"
 │   │   │   Полный спектр ответов: Pretty good / Not bad / Can't complain / Could be worse /
-│   │   │   Hanging in there / Never better / Living the dream (ирония) / Same old same old
+│   │   │   Hanging in there / Never better / Living the dream (ирония) / Same old same old / So-so
+│   │   │   So-so = так себе, ничего особенного — нейтрально-сниженная оценка. Не только про
+│   │   │   самочувствие: "How was the movie?" — "So-so." — универсальная оценочная реплика
 │   │   │   Ловушка: отвечать развёрнуто на "How are you?" у незнакомца = awkward
 │   │   ├── Приветствия по времени суток
 │   │   │   Good morning / Good afternoon / Good evening — приветствия
