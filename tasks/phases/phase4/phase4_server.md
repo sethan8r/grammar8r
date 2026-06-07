@@ -498,17 +498,16 @@ CREATE TABLE ai_exercise_prompts (
 | tier | VARCHAR(20) PK | free / tier1 / tier2 / tester |
 | ai_per_day | Int | AI-запросов в день. |
 | microtopics_per_day | Int? | Микротем в день. Null = безлимит. |
-| words_in_prompt | Int | Максимум слов из словаря в промте. |
 | updated_at | Timestamp | Когда последний раз менялось. |
 
 Начальные значения:
 
-| tier | ai_per_day | microtopics_per_day | words_in_prompt |
-|------|-----------|---------------------|-----------------|
-| free | 3 | 3 | 50 |
-| tier1 | 30 | null | 100 |
-| tier2 | 50 | null | 150 |
-| tester | 30 | null | 100 |
+| tier | ai_per_day | microtopics_per_day |
+|------|-----------|---------------------|
+| free | 3 | 3 |
+| tier1 | 30 | null |
+| tier2 | 50 | null |
+| tester | 30 | null |
 
 ### promo_codes
 | Поле | Тип | Описание |
