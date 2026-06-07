@@ -22,6 +22,7 @@ files = sorted(f for f in glob.glob(os.path.join(SEED, '*.json')) if not f.endsw
 tracks = defaultdict(list)                          # track -> [(theme, id)]
 per_theme = defaultdict(lambda: defaultdict(list))  # theme -> track -> [ids]
 themes = []
+category_decls = defaultdict(list)                  # categoryId -> [(theme, {id,title,description,order})]
 
 for f in files:
     theme = os.path.splitext(os.path.basename(f))[0]
@@ -34,6 +35,9 @@ for f in files:
             per_theme[theme][track].append(i)
 
     add('Topic', [t['id'] for t in d.get('grammar_topics', [])])
+    add('Category', [c['id'] for c in d.get('grammar_topic_categories', [])])
+    for c in d.get('grammar_topic_categories', []):
+        category_decls[c['id']].append((theme, c))
     add('Microtopic', [m['id'] for m in d.get('grammar_microtopics', [])])
     add('Card', [c['id'] for c in d.get('grammar_cards', [])])
     add('course_word', [w['id'] for w in d.get('course_words', [])])
@@ -47,14 +51,32 @@ for f in files:
     add('AiExercise', [a['id'] for a in d.get('ai_exercises', [])])   # строковые id
 
 # коллизии: один id встречается в треке более одного раза (между темами или внутри)
+# ⚠️ Category — исключение: один и тот же раздел сознательно объявляется в шапке
+# КАЖДОЙ темы-пакета (см. theory_content_guide.md) — для него своя проверка ниже (mismatch).
 collisions = []
 for track, entries in sorted(tracks.items()):
+    if track == 'Category':
+        continue
     seen = defaultdict(list)
     for theme, i in entries:
         seen[i].append(theme)
     for i, ths in sorted(seen.items(), key=lambda kv: str(kv[0])):
         if len(ths) > 1:
             collisions.append(f'{track}: id={i!r} встречается {len(ths)}× (темы: {ths})')
+
+# несовпадения объявлений раздела: одно id раздела должно везде иметь одинаковые
+# title/description/order — иначе в БД при мёрже останется только одна (случайная) версия
+cat_mismatches = []
+for cid, decls in sorted(category_decls.items()):
+    first_theme, first = decls[0]
+    for theme, c in decls[1:]:
+        for field in ('title', 'description', 'order'):
+            if c[field] != first[field]:
+                cat_mismatches.append(
+                    f"Category id={cid}: поле '{field}' расходится — "
+                    f"{first_theme}={first[field]!r} vs {theme}={c[field]!r}"
+                )
+collisions.extend(cat_mismatches)
 
 # пропуски: дыры в нумерации (информационно — на дубли не влияет, но видно)
 gaps = []

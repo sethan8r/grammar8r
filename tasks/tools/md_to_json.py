@@ -425,6 +425,8 @@ HDR_META = re.compile(r'\*\*ID:\*\*\s*([\w]+)\s*\|\s*\*\*Order:\*\*\s*(\d+)')
 EX_HDR = re.compile(r'^\*\*Ex\s+\d+\s*·\s*(.+?)\*\*\s*\*\(ID:\s*(\d+)\)\*')
 WORDS_HDR = re.compile(r'^###\s+Words8r Sync\s*·\s*(.+?)(?:\s*\[category:\s*(\w+)\])?\s*$')
 MT_CAT = re.compile(r'\*\*Категория слов:\*\*\s*(\w+)')
+TOPIC_CATEGORY = re.compile(r'\*\*Раздел:\*\*\s*(\d+)\s*·\s*(.+?)\s*·\s*order=(\d+)\s*$')
+TOPIC_CATEGORY_DESC = re.compile(r'\*\*Раздел\s*·\s*Описание:\*\*\s*(.+)$')
 
 
 def collect_section(lines, i):
@@ -444,7 +446,8 @@ def parse_file(path, only_mt=None):
         lines = fh.read().splitlines()
 
     content = {
-        'grammar_topics': [], 'grammar_microtopics': [], 'grammar_cards': [],
+        'grammar_topics': [], 'grammar_topic_categories': [],
+        'grammar_microtopics': [], 'grammar_cards': [],
         'card_exercise_index': [], 'ai_exercises': [],
         'course_word_groups': [], 'course_categories': [], 'course_words': [],
         'table_fill_exercises': [], 'true_false_exercises': [],
@@ -484,6 +487,9 @@ def parse_file(path, only_mt=None):
             order = int(meta.group(2)) if meta else 1
             is_pre = 'isPretopic:** true' in '\n'.join(head)
             desc = ''
+            topic_category = None
+            category_id = None
+            category_desc = ''
             for h in head:
                 if h.startswith('**Описание:**'):
                     desc = h.split('**', 4)[-1].strip()
@@ -499,14 +505,29 @@ def parse_file(path, only_mt=None):
                         'order': 1,
                         'source': parts[2].replace('source=', '').strip(),
                     }
+                tc = TOPIC_CATEGORY.search(h)
+                if tc:
+                    category_id = int(tc.group(1))
+                    topic_category = {
+                        'id': category_id, 'title': tc.group(2).strip(),
+                        'description': '', 'order': int(tc.group(3)),
+                    }
+                tcd = TOPIC_CATEGORY_DESC.search(h)
+                if tcd:
+                    category_desc = tcd.group(1).strip()
+            if topic_category:
+                topic_category['description'] = category_desc
             content['grammar_topics'].append({
                 'id': topic_id, 'title': title.split('·')[-1].strip() if '·' in title else title,
                 'order': order, 'isPretopic': is_pre, 'description': desc,
+                'categoryId': category_id,
             })
             if group:
                 content['course_word_groups'].append(group)
             if default_cat:
                 content['course_categories'].append(default_cat)
+            if topic_category:
+                content['grammar_topic_categories'].append(topic_category)
             continue
 
         # --- микротема ---
