@@ -141,6 +141,70 @@ POST /ai/clarification
   | { error: "limit_exceeded" | "ai_error" }
 ```
 
+### AI-диалог (режим практики «Диалог»)
+
+> Контекст и UX — `practice_plan.md` → «Режим: Диалог». Здесь — серверная механика хранения сессии и потока обмена репликами.
+>
+> **Главный принцип:** в отличие от остальных AI-режимов (одношаговые: запрос → ответ), диалог — многошаговый и стейтфул. История переписки и срез слов пользователя хранятся **на сервере** в одной сессии, фиксируются один раз при старте — клиент при каждом обмене шлёт только новую реплику + `sessionId`, не пересылая ни историю, ни слова заново.
+
+```
+POST /ai/dialog/start
+  Headers: Authorization: Bearer <jwt> | X-Device-Id: <deviceId>
+  Body: { difficulty: "simple" | "medium" | "hard", words[] }
+  ← words[] — срез слов пользователя, клиент собирает один раз по алгоритму выборки
+  → { sessionId, reply, translation, expiresAt }
+  | { error: "limit_exceeded" | "ai_error" }
+  Логика:
+    1. Сформировать system_prompt: фиксирует уровень сложности + срез слов (на весь диалог, неизменно)
+    2. Создать запись в ai_dialog_sessions (history = пустой массив, turn_count = 0, expires_at = now + 1 час)
+    3. Запросить у LLM открывающую реплику (первый вопрос соответствующего уровня)
+    4. Записать реплику в history, вернуть клиенту { sessionId, reply, translation, expiresAt }
+  ⚠️ Лимит daily_ai_requests списывается здесь — это первый AI-запрос сессии (генерация открывающей реплики)
+
+POST /ai/dialog/message
+  Headers: Authorization: Bearer <jwt> | X-Device-Id: <deviceId>
+  Body: { sessionId, userMessage }
+  → { feedback: { hasErrors, errors[] }, reply, translation, turnCount }
+  | { isFinal: true, summary }                         ← если turnCount достиг 5 — диалог завершён
+  | { error: "session_not_found" | "session_expired" | "limit_exceeded" | "ai_error" }
+  Логика:
+    1. Загрузить сессию по sessionId; если expires_at < now → удалить, вернуть session_expired
+    2. Собрать полный промт = system_prompt (из сессии, без изменений) + history + userMessage
+    3. Один запрос к LLM — модель одновременно оценивает грамматику userMessage
+       (errors[] с original/correction/explanation) И формирует следующую реплику с учётом
+       уровня сложности и контекста беседы — единый JSON-ответ { feedback, reply, translation }
+    4. Дописать обмен (userMessage + ответ ИИ) в history, turn_count += 1
+    5. Если turn_count == 5 → запросить у LLM финальную сводку по всему диалогу,
+       удалить сессию, вернуть { isFinal: true, summary }
+    6. Иначе сохранить сессию, вернуть { feedback, reply, translation, turnCount }
+  ⚠️ Лимит списывается на каждый вызов — один LLM-запрос даёт сразу фидбек ПРЕДЫДУЩЕЙ реплики
+     и саму следующую реплику, поэтому 1 обмен = 1 единица лимита, не 2
+
+POST /ai/dialog/end
+  Headers: Authorization: Bearer <jwt> | X-Device-Id: <deviceId>
+  Body: { sessionId }
+  → { ok: true }
+  Логика: немедленное удаление сессии по кнопке [Завершить диалог] на экране клиента —
+          без сводки, невзирая на expires_at. Лимит не списывается и не возвращается.
+```
+
+**Формат ответа LLM на каждый обмен** (то, что сервер просит у модели и парсит из её ответа):
+```json
+{
+  "feedback": {
+    "hasErrors": true,
+    "errors": [
+      { "original": "I goes there", "correction": "I go there", "explanation": "I — не 3-е лицо, окончание -s не нужно" }
+    ]
+  },
+  "reply": "That's interesting! How often do you go there?",
+  "translation": "Интересно! Как часто ты туда ходишь?"
+}
+```
+Если ошибок не было — `hasErrors: false`, `errors: []`. `translation` — перевод реплики ИИ на русский, чтобы вопрос/реакция ИИ не были барьером для понимания.
+
+**Очистка просроченных сессий:** фоновая задача удаляет записи `ai_dialog_sessions` где `expires_at < now` — раз в несколько минут (например, каждые 5). Это покрывает случай «бросил диалог на середине» — сессия исчезает сама, без сводки.
+
 ### Лимиты (для микротем — трекинг на сервере)
 
 ```
@@ -538,6 +602,24 @@ CREATE TABLE ai_exercise_prompts (
 | date_msk | Date | Дата по МСК (UTC+3) |
 | count | Int | Количество запросов за день |
 | PRIMARY KEY | (uid, date_msk) | |
+
+### ai_dialog_sessions
+
+> Хранилище сессий режима практики «Диалог» (см. `practice_plan.md` → «Режим: Диалог» и раздел «AI-диалог» выше — там же поток обмена и формат JSON).
+
+| Поле | Тип | Описание |
+|------|-----|----------|
+| session_id | UUID PK | |
+| uid | UUID FK | |
+| difficulty | Enum | simple / medium / hard |
+| system_prompt | TEXT | Системный промт, сформирован и зафиксирован при старте: уровень сложности + срез слов пользователя. Не пересчитывается и не запрашивается у клиента повторно ни на одном следующем обмене — экономит токены и трафик |
+| history | TEXT (JSON) | Массив реплик `[{ role: "user"\|"assistant", content, feedback? }, ...]`, накапливается с каждым обменом |
+| turn_count | Int | Счётчик завершённых обменов, максимум 5 — на 5-м диалог завершается сводкой |
+| created_at | Timestamp | |
+| expires_at | Timestamp | `created_at + 1 час`. По истечении сессия удаляется фоновой задачей без сводки — пользователь её бросил |
+
+Логика очистки: фоновая задача удаляет записи где `expires_at < now`, периодичность — раз в несколько минут.
+Удаление также происходит мгновенно по `POST /ai/dialog/end` (кнопка [Завершить диалог]) и по достижении `turn_count == 5` (после отдачи финальной сводки).
 
 ### daily_microtopics
 | Поле | Тип | Описание |
