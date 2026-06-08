@@ -29,12 +29,14 @@ o1 = run(os.path.join(HERE, 'md_to_json.py'), md)
 o2 = run(os.path.join(HERE, 'test', 'deepcheck.py'))
 o3 = run(os.path.join(HERE, 'test', 'smell.py'))
 o4 = run(os.path.join(HERE, 'test', 'id_report.py'))
+o5 = run(os.path.join(HERE, 'test', 'word_dup_report.py'))
 
 val = 0 if 'VALIDATION: OK' in o1 else num(o1, r'VALIDATION:\s*(\d+)')
 deep = num(o2, r'deep issues:\s*(\d+)')
 smell = num(o3, r':\s*(\d+)')          # "запахов: N"
 coll = num(o4, r'collisions:\s*(\d+)')
 gaps = num(o4, r'gaps[^:]*:\s*(\d+)')
+worddup = num(o5, r'word duplicates[^:]*:\s*(\d+)')
 
 
 def mark(n):
@@ -49,10 +51,13 @@ print(f'  DEEP (дубли/enum/explanation) : {mark(deep)}')
 print(f'  ID collisions                 : {mark(coll)}')
 print(f'  SMELL (мусор)                 : {smell}  (легит-стрелки/слэши допустимы — глянуть глазами)')
 print(f'  GAPS (инфо, не баг)           : {gaps}')
+print(f'  WORD DUPLICATES (по курсу)    : {mark(worddup)}')
 print('-' * 44)
-hard_ok = (val == 0 and deep == 0 and coll == 0)
+hard_ok = (val == 0 and deep == 0 and coll == 0 and worddup == 0)
 print('  =>', 'ALL GREEN ✓' if hard_ok else 'НУЖНЫ ПРАВКИ ✗')
 if not hard_ok:
     print('\n--- детали валидатора ---'); print(o1[-800:])
     print('--- детали deep ---'); print(o2)
     print('--- детали id ---'); print(o4)
+    if worddup:
+        print('--- детали дублей слов ---'); print(o5)

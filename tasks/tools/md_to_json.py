@@ -378,12 +378,36 @@ EX_HANDLERS = {
 
 # ---------- AI exercise ----------
 
+EXAMPLE_LINE = re.compile(r"^Пример вывода AI:\s*'(.+)'\s*$")
+
+# Дописывается к Prompt Template вместе с примером — явно говорит AI, что это ОБРАЗЕЦ
+# структуры/формата, а не готовый текст для копирования. Так пример одновременно:
+# 1) помогает AI с форматом вывода (особенно для FILL_BLANKS), 2) виден человеку при
+# ревью прямо в MD (раздел 5 → «Критичные правила»), 3) не приводит к дословным повторам.
+EXAMPLE_FRAME = (
+    "\n\nПример формата вывода (это ОБРАЗЕЦ СТРУКТУРЫ — не повторяй его дословно, "
+    "придумай свою ситуацию со своими словами и числами, сохранив только формат): '{example}'"
+)
+
+# Канон пропусков — db_schema.md → AiExerciseInputMode.FILL_BLANKS: сервер парсит именно [___].
+FILL_BLANKS_NOTE = (
+    "\n\nЕсли в задании нужны пропуски — оформляй их СТРОГО как [___] (с квадратными скобками). "
+    "Это формат, который понимает наш парсер ответов, и именно он считается приоритетным."
+)
+
+
 def parse_ai(body, card_id):
     f = {}
+    example = None
     for l in body:
-        m = re.match(r'^\*\*([^*]+):\*\*\s*(.+)$', l.strip())
+        l = l.strip()
+        m = re.match(r'^\*\*([^*]+):\*\*\s*(.+)$', l)
         if m:
             f[m.group(1).strip()] = m.group(2).strip().strip('"')
+            continue
+        em = EXAMPLE_LINE.match(l)
+        if em:
+            example = em.group(1).strip()
     client = {
         'id': f.get('ID', ''),
         'cardId': card_id,
@@ -392,12 +416,17 @@ def parse_ai(body, card_id):
         'inputMode': f.get('Input Mode', ''),
         'wordsSource': f.get('Words Source', ''),
     }
+    prompt = f.get('Prompt Template', '')
+    if example:
+        prompt = prompt.rstrip() + EXAMPLE_FRAME.format(example=example)
+    if client['inputMode'] == 'FILL_BLANKS':
+        prompt = prompt.rstrip() + FILL_BLANKS_NOTE
     server = {
         'id': f.get('ID', ''),
-        'promptTemplate': f.get('Prompt Template', ''),
+        'promptTemplate': prompt,
         'aiConfigProfile': f.get('AI Config Profile', ''),
     }
-    return client, server
+    return client, server, (example is not None)
 
 # ---------- words8r sync ----------
 
@@ -425,6 +454,7 @@ HDR_META = re.compile(r'\*\*ID:\*\*\s*([\w]+)\s*\|\s*\*\*Order:\*\*\s*(\d+)')
 EX_HDR = re.compile(r'^\*\*Ex\s+\d+\s*·\s*(.+?)\*\*\s*\*\(ID:\s*(\d+)\)\*')
 WORDS_HDR = re.compile(r'^###\s+Words8r Sync\s*·\s*(.+?)(?:\s*\[category:\s*(\w+)\])?\s*$')
 MT_CAT = re.compile(r'\*\*Категория слов:\*\*\s*(\w+)')
+WORD_START_HDR = re.compile(r'\*\*Слова курса\s*—\s*стартовый ID:\*\*\s*(\d+)')
 TOPIC_CATEGORY = re.compile(r'\*\*Раздел:\*\*\s*(\d+)\s*·\s*(.+?)\s*·\s*order=(\d+)\s*$')
 TOPIC_CATEGORY_DESC = re.compile(r'\*\*Раздел\s*·\s*Описание:\*\*\s*(.+)$')
 
@@ -441,7 +471,7 @@ def collect_section(lines, i):
     return body, i
 
 
-def parse_file(path, only_mt=None):
+def parse_file(path, only_mt=None, word_start=1):
     with open(path, encoding='utf-8') as fh:
         lines = fh.read().splitlines()
 
@@ -459,7 +489,7 @@ def parse_file(path, only_mt=None):
     }
     server = {'ai_exercise_prompts': []}
     warnings = []
-    word_counter = [0]
+    word_counter = [word_start - 1]
 
     topic_id = None
     group = None
@@ -515,6 +545,9 @@ def parse_file(path, only_mt=None):
                 tcd = TOPIC_CATEGORY_DESC.search(h)
                 if tcd:
                     category_desc = tcd.group(1).strip()
+                ws = WORD_START_HDR.search(h)
+                if ws:
+                    word_counter[0] = int(ws.group(1)) - 1
             if topic_category:
                 topic_category['description'] = category_desc
             content['grammar_topics'].append({
@@ -591,7 +624,11 @@ def parse_file(path, only_mt=None):
                     cur_card['clarificationOptions'] = parse_clarification(body)
                 elif sub.startswith('#### AI Exercise'):
                     body, i = collect_section(lines, i + 1)
-                    client, srv = parse_ai(body, card_id)
+                    client, srv, has_example = parse_ai(body, card_id)
+                    if not has_example:
+                        warnings.append(
+                            f"AI Exercise {client['id'] or '?'} (card {card_id}): "
+                            f"нет строки 'Пример вывода AI' — нельзя оценить задание при ревью")
                     if active:
                         content['ai_exercises'].append(client)
                         server['ai_exercise_prompts'].append(srv)
@@ -701,6 +738,20 @@ def validate(content):
     return issues
 
 
+def package_subdir(md_path):
+    """Если MD лежит в подпапке-пакете theory/<package>/file.md (см. theory_content_guide.md →
+    «Структура файлов — пакет на раздел», напр. theory/02-language-structure/...) — вернуть
+    '<package>', чтобы повторить ту же структуру в seed/. Так темы и их сиды видно рядом —
+    легче ориентироваться, когда тем много. Файлы прямо в theory/ (как 01-basics.md) — без подпапки."""
+    parts = os.path.normpath(os.path.abspath(md_path)).split(os.sep)
+    try:
+        idx = len(parts) - 1 - parts[::-1].index('theory')
+    except ValueError:
+        return None
+    sub = parts[idx + 1:-1]   # всё между 'theory' и именем файла
+    return os.path.join(*sub) if sub else None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('md')
@@ -709,15 +760,25 @@ def main():
     ap.add_argument('--name', default=None)
     args = ap.parse_args()
 
-    content, server, warnings = parse_file(args.md, args.microtopic)
-    os.makedirs(args.out, exist_ok=True)
+    # Стартовый course_word.id берётся из шапки темы (**Слова курса — стартовый ID:**) —
+    # см. theory_content_guide.md → раздел 2. word_start=1 — запасной вариант для файлов
+    # без Words8r Sync вообще (поле в шапке тогда не нужно и не парсится).
+    content, server, warnings = parse_file(args.md, args.microtopic, word_start=1)
+
+    # пакеты в seed/ повторяют структуру пакетов в theory/ (theory/02-lang.../X.md -> seed/02-lang.../X.json)
+    out_dir = args.out
+    sub = package_subdir(args.md)
+    if sub:
+        out_dir = os.path.join(out_dir, sub)
+    os.makedirs(out_dir, exist_ok=True)
+
     # имя сида = имя файла без номер-префикса (01-basics.md -> basics)
     name = args.name or re.sub(r'^\d+[-_]', '', os.path.splitext(os.path.basename(args.md))[0])
     if args.microtopic:
         name += f'_mt{args.microtopic}'
 
-    cpath = os.path.join(args.out, f'{name}.json')
-    ppath = os.path.join(args.out, f'{name}_prompts.json')
+    cpath = os.path.join(out_dir, f'{name}.json')
+    ppath = os.path.join(out_dir, f'{name}_prompts.json')
     with open(cpath, 'w', encoding='utf-8') as f:
         json.dump(content, f, ensure_ascii=False, indent=2)
     with open(ppath, 'w', encoding='utf-8') as f:

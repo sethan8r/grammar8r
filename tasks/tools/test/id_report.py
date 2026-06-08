@@ -18,7 +18,7 @@ EX = {
     'find_the_odd_exercises': 'FindTheOdd',
 }
 
-files = sorted(f for f in glob.glob(os.path.join(SEED, '*.json')) if not f.endswith('_prompts.json'))
+files = sorted(f for f in glob.glob(os.path.join(SEED, '**', '*.json'), recursive=True) if not f.endswith('_prompts.json'))
 tracks = defaultdict(list)                          # track -> [(theme, id)]
 per_theme = defaultdict(lambda: defaultdict(list))  # theme -> track -> [ids]
 themes = []
