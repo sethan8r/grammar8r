@@ -41,6 +41,12 @@
       "topicId": 3,
       "title": "Adverb",
       "order": 4
+    },
+    {
+      "id": 33,
+      "topicId": 3,
+      "title": "Pronoun",
+      "order": 5
     }
   ],
   "grammar_cards": [
@@ -1014,6 +1020,282 @@
         "Можно ли поставить наречие образа действия в начало предложения для акцента?",
         "Что если в предложении несколько наречий разных видов — какой порядок?"
       ]
+    },
+    {
+      "id": 90,
+      "microtopicId": 33,
+      "title": "Местоимение: замена существительного",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Представь что тебе нужно рассказать о Диме:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"Дима работает программистом. Дима любит кофе. Дима уехал в Питер.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три раза \"Дима\" — звучит неловко. Именно поэтому появились местоимения: они **заменяют существительное**, чтобы не повторять его снова и снова."
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"Дима работает программистом. **Он** любит кофе. **Он** уехал в Питер.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Он** — местоимение. Оно встало на место \"Дима\" и несёт тот же смысл: мы всё ещё говорим о Диме."
+        },
+        {
+          "type": "paragraph",
+          "text": "В структуре предложения местоимение занимает ровно ту же позицию, что и существительное — субъекта или объекта:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Роль",
+            "Существительное",
+            "Местоимение"
+          ],
+          "rows": [
+            [
+              "Субъект (перед глаголом)",
+              "Dima works here. — *Дима работает здесь.*",
+              "**He** works here. — *Он работает здесь.*"
+            ],
+            [
+              "Объект (после глагола)",
+              "I know Dima. — *Я знаю Диму.*",
+              "I know **him**. — *Я знаю его.*"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Местоимение не добавляет нового смысла — оно лишь указывает на того, о ком уже шла речь."
+        }
+      ],
+      "summary": "Местоимение заменяет существительное, чтобы не повторять его снова. Оно встаёт на то же место в предложении: субъект (перед глаголом) или объект (после глагола). He, she, they заменяют существительное-субъект; him, her, them — существительное-объект.",
+      "examples": [
+        {
+          "ru": "Лена — врач. Она работает в больнице.",
+          "en": "Lena is a doctor. She works at a hospital."
+        },
+        {
+          "ru": "Я знаю Игоря. Он мой друг.",
+          "en": "I know Igor. He is my friend."
+        },
+        {
+          "ru": "Катя потеряла ключи. Рома нашёл их вчера.",
+          "en": "Katya lost her keys. Roma found them yesterday."
+        }
+      ],
+      "clarificationOptions": [
+        "Местоимение всегда ссылается на ближайшее существительное?",
+        "Как понять на кого ссылается \"they\" в длинном тексте?",
+        "Можно ли использовать местоимение до того как назвали существительное?"
+      ]
+    },
+    {
+      "id": 91,
+      "microtopicId": 33,
+      "title": "Три формы = три роли",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Одно и то же местоимение меняет форму в зависимости от роли в предложении. Три роли — три формы."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Субъектная** — местоимение *делает* действие (стоит перед глаголом):"
+        },
+        {
+          "type": "paragraph",
+          "text": "*She called. — Она позвонила.* / *We arrived. — Мы приехали.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Объектная** — местоимение *получает* действие (стоит после глагола или предлога):"
+        },
+        {
+          "type": "paragraph",
+          "text": "*I saw him. — Я увидел его.* / *Call me. — Позвони мне.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Притяжательная** — местоимение *владеет* чем-то (стоит перед существительным):"
+        },
+        {
+          "type": "paragraph",
+          "text": "*His car is fast. — Его машина быстрая.* / *I lost my keys. — Я потерял свои ключи.*"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Субъект",
+            "Объект",
+            "Притяжательное"
+          ],
+          "rows": [
+            [
+              "I",
+              "me",
+              "my"
+            ],
+            [
+              "you",
+              "you",
+              "your"
+            ],
+            [
+              "he",
+              "him",
+              "his"
+            ],
+            [
+              "she",
+              "her",
+              "her"
+            ],
+            [
+              "it",
+              "it",
+              "its"
+            ],
+            [
+              "we",
+              "us",
+              "our"
+            ],
+            [
+              "they",
+              "them",
+              "their"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "После любого предлога — только объектная форма. \"for him\" ✓, \"for he\" ✗. \"between you and me\" ✓, \"between you and I\" ✗."
+        }
+      ],
+      "summary": "Каждое местоимение имеет три формы под три роли: субъектная (I / he / she — делает действие), объектная (me / him / her — получает действие или стоит после предлога), притяжательная (my / his / her — показывает владение). Выбор формы определяется позицией в предложении.",
+      "examples": [
+        {
+          "ru": "Она позвонила мне.",
+          "en": "She called me."
+        },
+        {
+          "ru": "Я слышу её каждый день.",
+          "en": "I hear her every day."
+        },
+        {
+          "ru": "Это её книга.",
+          "en": "This is her book."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему \"you\" и \"it\" не меняются в зависимости от роли?",
+        "\"her\" — как понять, притяжательное это или объектное?",
+        "\"It was me\" или \"It was I\" — что правильно?"
+      ]
+    },
+    {
+      "id": 92,
+      "microtopicId": 33,
+      "title": "Другие местоимения: неопределённые",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Личные местоимения (I, he, she...) — не единственный вид. Любое слово, которое замещает существительное или указывает на него, — местоимение."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Указательные** ты уже знаешь: this, that, these, those. В предложении они занимают позицию субъекта или объекта — точно как существительное:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*This is interesting. — Это интересно.* — \"this\" = субъект"
+        },
+        {
+          "type": "paragraph",
+          "text": "*I want that. — Я хочу то.* — \"that\" = объект"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Неопределённые** говорят \"кто-то / что-то\" без конкретного имени — когда не знаем или не уточняем, кто именно:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Перевод",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "someone",
+              "кто-то",
+              "Someone called me. — *Кто-то мне позвонил.*"
+            ],
+            [
+              "something",
+              "что-то",
+              "I heard something. — *Я что-то услышал.*"
+            ],
+            [
+              "everyone",
+              "все, каждый",
+              "Everyone knows this. — *Все это знают.*"
+            ],
+            [
+              "nobody",
+              "никто",
+              "Nobody answered. — *Никто не ответил.*"
+            ],
+            [
+              "nothing",
+              "ничто, ничего",
+              "Nothing happened. — *Ничего не произошло.*"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Все они занимают позицию существительного — субъекта или объекта. Именно это делает их местоимениями."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "text": "В английском \"nobody\" и \"nothing\" уже содержат отрицание. Второго \"not\" не нужно: *\"Nobody knows.\" ✓*, \"Nobody doesn't know.\" ✗ — двойное отрицание в английском не работает так же как в русском."
+        }
+      ],
+      "summary": "Местоимения бывают разных видов. Указательные (this / that / these / those) — уже знакомы. Неопределённые (someone, something, everyone, nobody, nothing) — говорят \"кто-то / что-то\" без конкретного имени. Все они замещают существительное и стоят на его позиции в предложении.",
+      "examples": [
+        {
+          "ru": "Кто-то постучал в дверь.",
+          "en": "Someone knocked on the door."
+        },
+        {
+          "ru": "Он ничего не сказал.",
+          "en": "He said nothing."
+        },
+        {
+          "ru": "Все думают по-разному.",
+          "en": "Everyone thinks differently."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем \"someone\" отличается от \"anyone\"?",
+        "Почему нельзя \"Nobody doesn't know\" — ведь по-русски \"никто не знает\"?",
+        "\"Something\" и \"anything\" — когда что использовать?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1159,6 +1441,42 @@
       "cardId": 89,
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 44,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 90,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 12,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 90,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 61,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 91,
+      "exerciseType": "MATCHING",
+      "exerciseId": 15,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 91,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 45,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 92,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 13,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 92,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 68,
       "orderInCard": 1
     }
   ],
@@ -1467,6 +1785,78 @@
       "transcription": "[dʒʌst]",
       "microtopicId": 32,
       "categoryId": "language_structure"
+    },
+    {
+      "id": 273,
+      "word": "me",
+      "translation": "меня, мне",
+      "transcription": "[miː]",
+      "microtopicId": 33,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 274,
+      "word": "him",
+      "translation": "его, ему",
+      "transcription": "[hɪm]",
+      "microtopicId": 33,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 275,
+      "word": "us",
+      "translation": "нас, нам",
+      "transcription": "[ʌs]",
+      "microtopicId": 33,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 276,
+      "word": "them",
+      "translation": "их, им",
+      "transcription": "[ðem]",
+      "microtopicId": 33,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 277,
+      "word": "someone, somebody",
+      "translation": "кто-то",
+      "transcription": "[ˈsʌmwʌn] / [ˈsʌmbədi]",
+      "microtopicId": 33,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 278,
+      "word": "something",
+      "translation": "что-то",
+      "transcription": "[ˈsʌmθɪŋ]",
+      "microtopicId": 33,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 279,
+      "word": "everyone",
+      "translation": "все, каждый",
+      "transcription": "[ˈevriwʌn]",
+      "microtopicId": 33,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 280,
+      "word": "nobody",
+      "translation": "никто",
+      "transcription": "[ˈnoʊbədi]",
+      "microtopicId": 33,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 281,
+      "word": "nothing",
+      "translation": "ничто, ничего",
+      "transcription": "[ˈnʌθɪŋ]",
+      "microtopicId": 33,
+      "categoryId": "language_structure"
     }
   ],
   "table_fill_exercises": [],
@@ -1563,6 +1953,37 @@
         }
       ],
       "explanation": "№2 — «very» (наречие степени) стоит перед тем, что усиливает: должно быть «very quickly», а не «quickly very». №4 — «beautiful» — прилагательное, а не наречие: для описания глагола нужно «beautifully»."
+    },
+    {
+      "id": 45,
+      "statements": [
+        {
+          "en": "She told me the whole story.",
+          "ru": "Она рассказала мне всю историю.",
+          "isTrue": true
+        },
+        {
+          "en": "I see she every day at work.",
+          "ru": "Я вижу её каждый день на работе.",
+          "isTrue": false
+        },
+        {
+          "en": "This is his jacket, not mine.",
+          "ru": "Это его куртка, а не моя.",
+          "isTrue": true
+        },
+        {
+          "en": "Between you and I, this is a secret.",
+          "ru": "Между нами говоря, это секрет.",
+          "isTrue": false
+        },
+        {
+          "en": "They invited us to the party.",
+          "ru": "Они пригласили нас на вечеринку.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — после глагола \"see\" нужна объектная форма: \"see her\", не \"see she\". №4 — после предлога \"between\" всегда объектная форма: \"between you and me\", не \"between you and I\"."
     }
   ],
   "word_arrangement_exercises": [
@@ -1766,6 +2187,48 @@
         }
       ],
       "explanation": "«beautifully» — наречие, описывает глагол «sings» (как поёт?). «very» — наречие степени, усиливает «beautifully» (насколько красиво?). Если бы речь шла о существительном, было бы «a beautiful song» или «a beautiful singer» — с прилагательным."
+    },
+    {
+      "id": 61,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Рома — мой лучший друг. ___ живёт в соседнем доме.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Him",
+          "isCorrect": false
+        },
+        {
+          "text": "His",
+          "isCorrect": false
+        },
+        {
+          "text": "He",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Местоимение стоит перед глаголом \"lives\" — это позиция субъекта. Субъектная форма для мужчины — he. \"Him\" — объектная форма (после глагола или предлога). \"His\" — притяжательная (показывает владение)."
+    },
+    {
+      "id": 68,
+      "choiceType": "CHOICE",
+      "prompt": "___ called me this morning, but didn't leave a name.",
+      "contextRu": "Кто-то позвонил утром, но не оставил имени.",
+      "options": [
+        {
+          "text": "nobody",
+          "isCorrect": false
+        },
+        {
+          "text": "nothing",
+          "isCorrect": false
+        },
+        {
+          "text": "Someone",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "\"Someone\" (кто-то) — неопределённое местоимение для человека, когда не знаем кто. \"Nobody\" (никто) даёт противоположный смысл — отрицание. \"Nothing\" (ничего) — для событий и предметов, не для людей."
     }
   ],
   "text_input_exercises": [
@@ -1842,6 +2305,33 @@
         }
       ],
       "explanation": "«I love» — love стоит после субъекта и описывает действие/состояние: глагол. «Love is» — love стоит перед глаголом is, занимает позицию субъекта: существительное. «Had a run» — run стоит после артикля «a», занимает позицию объекта: существительное. «They run» — run стоит после субъекта, описывает действие: глагол."
+    },
+    {
+      "id": 15,
+      "taskDescription": "соедини субъектную форму местоимения с его объектной",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "me"
+        },
+        {
+          "left": "he",
+          "right": "him"
+        },
+        {
+          "left": "she",
+          "right": "her"
+        },
+        {
+          "left": "we",
+          "right": "us"
+        },
+        {
+          "left": "they",
+          "right": "them"
+        }
+      ],
+      "explanation": "Субъектная форма стоит перед глаголом: I, he, she, we, they. Объектная — после глагола или предлога: me, him, her, us, them. You и it одинаковы в обоих позициях."
     }
   ],
   "error_correction_exercises": [
@@ -1923,6 +2413,25 @@
         }
       ],
       "explanation": "К прилагательному добавляем -ly — получаем наречие. Смысл меняется: «quick» описывает существительное (a quick runner), «quickly» описывает глагол (he runs quickly). Одна операция, другая роль."
+    },
+    {
+      "id": 12,
+      "taskDescription": "замени существительное-субъект правильной формой местоимения",
+      "items": [
+        {
+          "original": "**Vera** is very talented.",
+          "transformed": "She is very talented."
+        },
+        {
+          "original": "**Igor and Olya** live in the same city.",
+          "transformed": "They live in the same city."
+        },
+        {
+          "original": "**The cat** sleeps all day.",
+          "transformed": "It sleeps all day."
+        }
+      ],
+      "explanation": "Местоимение встаёт на место существительного-субъекта. Женщина → she. Несколько людей или предметов → they. Предмет или животное → it. Форма зависит от того, кого или что заменяем."
     }
   ],
   "categorization_exercises": [
@@ -2002,6 +2511,29 @@
         }
       ],
       "explanation": "Прилагательные описывают существительное и отвечают на «какой?»: beautiful city, slow car. Наречия описывают глагол или прилагательное и отвечают на «как?»: she sings beautifully, he drives quickly. Многие наречия — это прилагательное + -ly."
+    },
+    {
+      "id": 13,
+      "taskDescription": "раздели слова по виду местоимения",
+      "categories": [
+        {
+          "title": "Личные",
+          "items": [
+            "she",
+            "us",
+            "they"
+          ]
+        },
+        {
+          "title": "Неопределённые",
+          "items": [
+            "someone",
+            "nobody",
+            "nothing"
+          ]
+        }
+      ],
+      "explanation": "Личные местоимения указывают на конкретного человека или предмет: she (она), us (нас), they (они). Неопределённые говорят \"кто-то / что-то\" без конкретики: someone (кто-то), nobody (никто), nothing (ничего)."
     }
   ],
   "find_the_odd_exercises": [
