@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 # Глубокий чек сида: дубли опций, enum'ы, ширина таблиц, пустые поля, порядок, explanation.
-import json, io, os
+# Запуск: py test/deepcheck.py [seed_name]   (по умолчанию — basics)
+import json, io, os, sys
 from collections import defaultdict
 
 SEED = os.path.join(os.path.dirname(__file__), '..', 'seed')
-d = json.load(open(os.path.join(SEED, 'basics.json'), encoding='utf-8'))
-prompts = json.load(open(os.path.join(SEED, 'basics_prompts.json'), encoding='utf-8'))['ai_exercise_prompts']
+_name = sys.argv[1] if len(sys.argv) > 1 else 'basics'
+d = json.load(open(os.path.normpath(os.path.join(SEED, _name + '.json')), encoding='utf-8'))
+prompts = json.load(open(os.path.normpath(os.path.join(SEED, _name + '_prompts.json')), encoding='utf-8'))['ai_exercise_prompts']
 
 idx = {(x['exerciseType'], x['exerciseId']): x['cardId'] for x in d['card_exercise_index']}
 issues = []

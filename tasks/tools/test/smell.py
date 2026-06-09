@@ -2,10 +2,12 @@
 # Авто-сканер «запахов»: ищет мусор в текстовых полях упражнений сида,
 # который парсер мог протащить (остатки разметки, инструкции, заметки).
 # Поля 'explanation' и теорию НЕ трогаем — там ✗/→/** легитимны.
-import json, re, io, os
+# Запуск: py test/smell.py [seed_name]   (по умолчанию — basics)
+import json, re, io, os, sys
 
 SEED = os.path.join(os.path.dirname(__file__), '..', 'seed')
-d = json.load(open(os.path.join(SEED, 'basics.json'), encoding='utf-8'))
+_name = sys.argv[1] if len(sys.argv) > 1 else 'basics'
+d = json.load(open(os.path.normpath(os.path.join(SEED, _name + '.json')), encoding='utf-8'))
 SUS = [
     (re.compile(r'[✗❌]'), 'маркер ✗/❌'),
     (re.compile(r'→'), 'стрелка →'),

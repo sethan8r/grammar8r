@@ -1,0 +1,762 @@
+{
+  "grammar_topics": [
+    {
+      "id": 4,
+      "title": "Служебные глаголы",
+      "order": 3,
+      "isPretopic": false,
+      "description": "do, be, have, will — слова-сигналы грамматики: они строят вопросы, отрицания, времена и залог, но не переводятся напрямую",
+      "categoryId": 1
+    }
+  ],
+  "grammar_topic_categories": [
+    {
+      "id": 1,
+      "title": "Устройство языка",
+      "description": "Как устроен английский язык на уровне логики — структура, части речи, служебные элементы",
+      "order": 2
+    }
+  ],
+  "grammar_microtopics": [
+    {
+      "id": 36,
+      "topicId": 4,
+      "title": "do / does / did",
+      "order": 1
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 100,
+      "microtopicId": 36,
+      "title": "do и does: маркер вопроса",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В Основах мы уже встречали do и does — они появлялись в конструкции с глаголом have: «Do you have a pen?» и «Does she have a job?». Теперь главное открытие: **do и does работают с любым глаголом**, не только с have."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский не строит вопросы через интонацию — он выносит вспомогательный глагол **do** или **does** перед подлежащим:"
+        },
+        {
+          "type": "heading",
+          "text": "Формула вопроса:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Для кого",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "**do**",
+              "I, you, we, they",
+              "Do you work here?",
+              "Ты работаешь здесь?"
+            ],
+            [
+              "**does**",
+              "he, she, it",
+              "Does she speak English?",
+              "Она говорит по-английски?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После do/does глагол всегда в **базовой форме** — без окончаний:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*Does Dima like football?* *(Дима любит футбол?)* — не «likes»."
+        },
+        {
+          "type": "paragraph",
+          "text": "*Do they understand the question?* *(Они понимают вопрос?)* — просто «understand»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 1",
+          "text": "«Work you here?» ✗ — в английском нельзя поставить глагол вперёд, как иногда делают по аналогии с немецким. Нужен маркер: «Do you work here?» ✓"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 2",
+          "text": "«Does she likes coffee?» ✗ — does уже отвечает за 3-е лицо. Глагол остаётся в базовой форме: «Does she like coffee?» ✓"
+        }
+      ],
+      "summary": "Вопрос строится через do (I/you/we/they) или does (he/she/it), который встаёт перед подлежащим. После do/does — глагол в базовой форме. «Does she like» (не «likes»), «Do they know» (не «knows»).",
+      "examples": [
+        {
+          "ru": "Ты работаешь по выходным?",
+          "en": "Do you work on weekends?"
+        },
+        {
+          "ru": "Рома любит кофе?",
+          "en": "Does Roma like coffee?"
+        },
+        {
+          "ru": "Они понимают задание?",
+          "en": "Do they understand the task?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после does глагол без -s, если does уже отвечает за 3-е лицо?",
+        "Можно ли задать вопрос просто интонацией, без do/does — как в русском?",
+        "Do или does — как быстро понять, какой нужен?"
+      ]
+    },
+    {
+      "id": 101,
+      "microtopicId": 36,
+      "title": "don't и doesn't: маркер отрицания",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы помним из Основ: «I don't have» и «She doesn't have». Та же система работает с **любым** глаголом."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание строится не через окончание глагола, а через отдельные слова **don't** и **doesn't**:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Для кого",
+            "Расшифровка"
+          ],
+          "rows": [
+            [
+              "**don't**",
+              "I, you, we, they",
+              "do + not"
+            ],
+            [
+              "**doesn't**",
+              "he, she, it",
+              "does + not"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После doesn't глагол всегда в **базовой форме** — так же, как после does в вопросе:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*She doesn't work here.* *(Она не работает здесь.)* — не «works»."
+        },
+        {
+          "type": "paragraph",
+          "text": "*They don't understand.* *(Они не понимают.)* — просто «understand»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 1",
+          "text": "«She not work.» ✗ — нельзя вставить not прямо перед глаголом. Нужен doesn't: «She doesn't work.» ✓"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 2",
+          "text": "«She doesn't works.» ✗ — doesn't уже несёт форму 3-го лица. Глагол не получает -s: «She doesn't work.» ✓"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "text": "полные формы «do not» и «does not» используются в официальных текстах или для особого акцента: *«I do not agree.»* *(Я категорически не согласен.)*"
+        }
+      ],
+      "summary": "Отрицание: don't (I/you/we/they) или doesn't (he/she/it) + глагол в базовой форме. «She doesn't work» (не «works», не «She not work»). don't = do + not, doesn't = does + not.",
+      "examples": [
+        {
+          "ru": "Я не понимаю это правило.",
+          "en": "I don't understand this rule."
+        },
+        {
+          "ru": "Катя не работает по субботам.",
+          "en": "Katya doesn't work on Saturdays."
+        },
+        {
+          "ru": "Они не знают её адрес.",
+          "en": "They don't know her address."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем don't отличается от doesn't — когда какой?",
+        "Почему после doesn't глагол без -s, если речь про she/he/it?",
+        "Можно ли сказать «She not works» или «She is not working» — это одно и то же?"
+      ]
+    },
+    {
+      "id": 102,
+      "microtopicId": 36,
+      "title": "does и did: форма меняется, роль та же",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "do, does, did — три формы одного маркера. Роль всегда одна: сигнал вопроса или отрицания. Меняется только форма — в зависимости от субъекта и времени."
+        },
+        {
+          "type": "paragraph",
+          "text": "**В настоящем** — форма зависит от субъекта:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Субъект",
+            "Форма",
+            "Вопрос",
+            "Отрицание"
+          ],
+          "rows": [
+            [
+              "I, you, we, they",
+              "**do**",
+              "Do they work?",
+              "They don't work."
+            ],
+            [
+              "he, she, it",
+              "**does**",
+              "Does she work?",
+              "She doesn't work."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**В прошлом** — одна форма для всех субъектов:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Субъект",
+            "Форма",
+            "Вопрос",
+            "Отрицание"
+          ],
+          "rows": [
+            [
+              "все",
+              "**did**",
+              "Did she work?",
+              "She didn't work."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "*didn't = did + not*"
+        },
+        {
+          "type": "paragraph",
+          "text": "После **did** глагол всегда в **базовой форме** — did уже несёт прошедшее время:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*Did Katya come to the party?* *(Катя пришла на вечеринку?)* — не «came»."
+        },
+        {
+          "type": "paragraph",
+          "text": "*He didn't know.* *(Он не знал.)* — не «knowed» (такой формы в английском вообще нет)."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "«Did she worked?» ✗ → «Did she work?» ✓ — did уже означает прошлое. Второй раз обозначать его через форму глагола не нужно — это двойное прошлое, которого в английском не бывает."
+        }
+      ],
+      "summary": "Настоящее: do (I/you/we/they) / does (he/she/it). Прошлое: did — для всех субъектов без исключений. После did — глагол в базовой форме: «Did she work?» (не «worked»), «I didn't know» (не «knowed»).",
+      "examples": [
+        {
+          "ru": "Она вчера закончила работу?",
+          "en": "Did she finish work yesterday?"
+        },
+        {
+          "ru": "Они не поняли задание.",
+          "en": "They didn't understand the task."
+        },
+        {
+          "ru": "Игорь работает в банке?",
+          "en": "Does Igor work at a bank?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после did нельзя ставить глагол в прошедшем времени?",
+        "did используется только в вопросах или тоже в отрицаниях?",
+        "Как отличить did-вспомогательный от did основного: «I did it» — это одно и то же did?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 100,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 70,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 100,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 63,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 100,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 48,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 100,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 47,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 101,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 45,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 101,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 64,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 101,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 14,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 101,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 30,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 102,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 71,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 102,
+      "exerciseType": "MATCHING",
+      "exerciseId": 17,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 102,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 49,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 102,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 65,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "auxiliary_card100_ex1",
+      "cardId": 100,
+      "title": "Вопрос с do или does",
+      "userInstruction": "Составь вопрос на английском к ситуации, которую я дам.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "auxiliary_card101_ex1",
+      "cardId": 101,
+      "title": "Отрицание с don't / doesn't",
+      "userInstruction": "Преобразуй утвердительное предложение в отрицательное.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "auxiliary_card102_ex1",
+      "cardId": 102,
+      "title": "Вопрос и отрицание с did",
+      "userInstruction": "Составь вопрос или отрицание о прошедшем событии.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    }
+  ],
+  "course_word_groups": [
+    {
+      "id": "language_structure",
+      "nameRus": "Устройство языка",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "language_structure",
+      "nameRus": "Language Structure",
+      "groupId": "language_structure",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 289,
+      "word": "to do",
+      "translation": "делать",
+      "transcription": "[duː]",
+      "microtopicId": 36,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 290,
+      "word": "to work",
+      "translation": "работать",
+      "transcription": "[wɜːk]",
+      "microtopicId": 36,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 291,
+      "word": "to like",
+      "translation": "нравиться, любить",
+      "transcription": "[laɪk]",
+      "microtopicId": 36,
+      "categoryId": "language_structure"
+    }
+  ],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 48,
+      "statements": [
+        {
+          "en": "Do you work on weekdays?",
+          "ru": "Ты работаешь в будни?",
+          "isTrue": true
+        },
+        {
+          "en": "Does she likes basketball?",
+          "ru": "Она любит баскетбол?",
+          "isTrue": false
+        },
+        {
+          "en": "Work they in this office?",
+          "ru": "Они работают в этом офисе?",
+          "isTrue": false
+        },
+        {
+          "en": "Does Kolya know the answer?",
+          "ru": "Коля знает ответ?",
+          "isTrue": true
+        },
+        {
+          "en": "Do we need tickets?",
+          "ru": "Нам нужны билеты?",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2: does + базовая форма → «like» (не «likes»). 3: нельзя начинать вопрос с основного глагола — нужен маркер: «Do they work...?». 1, 4, 5 — правильные формы."
+    },
+    {
+      "id": 49,
+      "statements": [
+        {
+          "en": "Did she finish the report?",
+          "ru": "Она закончила отчёт?",
+          "isTrue": true
+        },
+        {
+          "en": "He did works yesterday.",
+          "ru": "Он работал вчера.",
+          "isTrue": false
+        },
+        {
+          "en": "Did they understand the question?",
+          "ru": "Они поняли вопрос?",
+          "isTrue": true
+        },
+        {
+          "en": "Did Lena comed to the party?",
+          "ru": "Лена пришла на вечеринку?",
+          "isTrue": false
+        },
+        {
+          "en": "I didn't see him last week.",
+          "ru": "Я не видел его на прошлой неделе.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2: после did — базовая форма «work» (не «works»). 4: «comed» не существует, базовая форма от to come — просто «come»: «Did Lena come to the party?». 1, 3, 5 — правильные."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 47,
+      "situationRu": "RU: Рома любит кофе?",
+      "correctSentence": "Does Roma like coffee?",
+      "words": [
+        {
+          "text": "Does",
+          "translation": ""
+        },
+        {
+          "text": "Roma",
+          "translation": ""
+        },
+        {
+          "text": "like",
+          "translation": "нравиться, любить"
+        },
+        {
+          "text": "coffee?",
+          "translation": "кофе?"
+        }
+      ],
+      "distractors": [
+        {
+          "text": "likes",
+          "translation": ""
+        },
+        {
+          "text": "Do",
+          "translation": ""
+        }
+      ],
+      "explanation": "Roma — он, 3-е лицо → Does. После does — базовая форма «like» (не «likes»). «Do» — дистрактор: подходит для I/you/we/they, но не для Roma."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 70,
+      "choiceType": "CHOICE",
+      "prompt": "___ she speak Spanish?",
+      "contextRu": "Она говорит по-испански?",
+      "options": [
+        {
+          "text": "Do",
+          "isCorrect": false
+        },
+        {
+          "text": "Does",
+          "isCorrect": true
+        },
+        {
+          "text": "Did",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "She — 3-е лицо единственного числа (he/she/it). Для he/she/it в вопросе — does. Do — для I/you/we/they. Did — маркер прошедшего."
+    },
+    {
+      "id": 63,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Они живут в Москве?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Does they live in Moscow?",
+          "isCorrect": false
+        },
+        {
+          "text": "They live in Moscow?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do they live in Moscow?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "They — множественное число, группа I/you/we/they → do. «Does they» — ошибка: does только для he/she/it. «They live in Moscow?» — вопрос без do/does в английском невозможен."
+    },
+    {
+      "id": 64,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Лена не знает ответ.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Lena not know the answer.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena doesn't knows the answer.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena doesn't know the answer.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Lena = she → doesn't. После doesn't — базовая форма «know» (не «knows»). «Lena not know» — нет doesn't, так нельзя строить отрицание."
+    },
+    {
+      "id": 71,
+      "choiceType": "CHOICE",
+      "prompt": "___ Katya come to the party last night?",
+      "contextRu": "Катя вчера вечером пришла на вечеринку?",
+      "options": [
+        {
+          "text": "Do",
+          "isCorrect": false
+        },
+        {
+          "text": "Does",
+          "isCorrect": false
+        },
+        {
+          "text": "Did",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«last night» — вчера вечером, это прошлое время. Для прошлого — did, независимо от субъекта. Do — настоящее для I/you/we/they. Does — настоящее для he/she/it."
+    },
+    {
+      "id": 65,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вы вчера работали?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "You worked yesterday?",
+          "isCorrect": false
+        },
+        {
+          "text": "Did you worked yesterday?",
+          "isCorrect": false
+        },
+        {
+          "text": "Did you work yesterday?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Прошлое время → did. После did — базовая форма «work» (не «worked»: did уже отвечает за прошлое). «You worked yesterday?» — вопрос без did в английском невозможен."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 30,
+      "items": [
+        {
+          "sentence": "I ___ understand this question.",
+          "contextRu": "Я не понимаю этот вопрос.",
+          "answer": "don't",
+          "alternatives": []
+        },
+        {
+          "sentence": "She ___ work on weekends.",
+          "contextRu": "Она не работает по выходным.",
+          "answer": "doesn't",
+          "alternatives": []
+        },
+        {
+          "sentence": "We ___ know his phone number.",
+          "contextRu": "Мы не знаем его номер телефона.",
+          "answer": "don't",
+          "alternatives": []
+        },
+        {
+          "sentence": "He ___ like cold weather.",
+          "contextRu": "Ему не нравится холодная погода.",
+          "answer": "doesn't",
+          "alternatives": []
+        }
+      ],
+      "explanation": "I/we → don't. She/He → doesn't. Правило: don't для I/you/we/they, doesn't для he/she/it."
+    }
+  ],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 17,
+      "taskDescription": "Соедини русское предложение с английским",
+      "pairs": [
+        {
+          "left": "Она знает ответ?",
+          "right": "Does she know the answer?"
+        },
+        {
+          "left": "Коля вчера пришёл?",
+          "right": "Did Kolya come yesterday?"
+        },
+        {
+          "left": "Они работают здесь?",
+          "right": "Do they work here?"
+        },
+        {
+          "left": "Тёма вчера не пришёл.",
+          "right": "Tema didn't come yesterday."
+        },
+        {
+          "left": "Вера знает твой адрес?",
+          "right": "Does Vera know your address?"
+        }
+      ],
+      "explanation": "Настоящее + she/Vera → Does. Настоящее + they → Do. Прошлое → did/didn't для любого субъекта. После did/didn't — базовая форма: «come» (не «came»)."
+    }
+  ],
+  "error_correction_exercises": [
+    {
+      "id": 45,
+      "wrongSentence": "Igor not work today.",
+      "options": [
+        {
+          "text": "Igor not works today.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor no work today.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor doesn't work today.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Отрицание строится только через don't/doesn't — нельзя вставить «not» или «no» прямо перед основным глаголом. Igor = he → doesn't. После doesn't — базовая форма «work»."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 14,
+      "taskDescription": "Преобразуй утвердительные предложения в отрицательные",
+      "items": [
+        {
+          "original": "Vera works in a café.",
+          "transformed": "Vera doesn't work in a café."
+        },
+        {
+          "original": "They speak Spanish.",
+          "transformed": "They don't speak Spanish."
+        },
+        {
+          "original": "Tema likes action films.",
+          "transformed": "Tema doesn't like action films."
+        }
+      ],
+      "explanation": "Vera, Tema = he/she → doesn't + базовая форма (work, like — без -s). They → don't + базовая форма (speak). В отрицании -s убирается с глагола: «works» → «doesn't work»."
+    }
+  ],
+  "categorization_exercises": [],
+  "find_the_odd_exercises": []
+}

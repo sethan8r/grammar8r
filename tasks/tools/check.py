@@ -10,7 +10,7 @@ except Exception:
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT = os.path.join(HERE, '..', 'phases', 'phase1', 'theory', '01-basics.md')
-md = sys.argv[1] if len(sys.argv) > 1 else DEFAULT
+md = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else DEFAULT)
 ENV = dict(os.environ, PYTHONIOENCODING='utf-8')
 
 
@@ -26,8 +26,20 @@ def num(text, pat, default=-1):
 
 
 o1 = run(os.path.join(HERE, 'md_to_json.py'), md)
-o2 = run(os.path.join(HERE, 'test', 'deepcheck.py'))
-o3 = run(os.path.join(HERE, 'test', 'smell.py'))
+
+# Берём путь сида из вывода md_to_json ("OK  content -> /abs/path.json"),
+# вычисляем относительный путь внутри seed/ — чтобы deepcheck/smell нашли файл
+# даже если тема лежит в подпапке (например seed/02-language-structure/name.json).
+SEED_DIR = os.path.join(HERE, 'seed')
+_m = re.search(r'OK\s+content\s*->\s*(.+\.json)', o1)
+if _m:
+    _rel = os.path.splitext(os.path.relpath(_m.group(1).strip(), SEED_DIR))[0]
+    seed_name = _rel.replace('\\', '/')
+else:
+    seed_name = re.sub(r'^\d+[-_]', '', os.path.splitext(os.path.basename(md))[0])
+
+o2 = run(os.path.join(HERE, 'test', 'deepcheck.py'), seed_name)
+o3 = run(os.path.join(HERE, 'test', 'smell.py'), seed_name)
 o4 = run(os.path.join(HERE, 'test', 'id_report.py'))
 o5 = run(os.path.join(HERE, 'test', 'word_dup_report.py'))
 

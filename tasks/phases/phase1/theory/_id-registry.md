@@ -7,27 +7,42 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 100 |
+| Card | 103 |
 | Categorization | 16 |
 | Category | 2 |
 | ConstructionMeaning | 8 |
 | DialogRestore | 10 |
-| ErrorCorrection | 45 |
+| ErrorCorrection | 46 |
 | FindTheOdd | 20 |
-| Matching | 17 |
-| Microtopic | 36 |
-| MultipleChoice·CHOICE | 70 |
-| MultipleChoice·FORWARD_CHOICE | 63 |
+| Matching | 18 |
+| Microtopic | 37 |
+| MultipleChoice·CHOICE | 72 |
+| MultipleChoice·FORWARD_CHOICE | 66 |
 | MultipleChoice·REVERSE_CHOICE | 20 |
 | TableFill | 9 |
-| TextInput | 30 |
-| Topic | 4 |
-| Transformation | 14 |
-| TrueFalse | 48 |
-| WordArrangement | 47 |
-| course_word | 289 |
+| TextInput | 31 |
+| Topic | 5 |
+| Transformation | 15 |
+| TrueFalse | 50 |
+| WordArrangement | 48 |
+| course_word | 292 |
 
 ## Диапазоны по темам
+
+### auxiliary-verbs
+- Card: 100–102 (3)
+- Category: 1–1 (1)
+- ErrorCorrection: 45–45 (1)
+- Matching: 17–17 (1)
+- Microtopic: 36–36 (1)
+- MultipleChoice·CHOICE: 70–71 (2)
+- MultipleChoice·FORWARD_CHOICE: 63–65 (3)
+- TextInput: 30–30 (1)
+- Topic: 4–4 (1)
+- Transformation: 14–14 (1)
+- TrueFalse: 48–49 (2)
+- WordArrangement: 47–47 (1)
+- course_word: 289–291 (3)
 
 ### how-english-thinks
 - Card: 71–77 (7)
