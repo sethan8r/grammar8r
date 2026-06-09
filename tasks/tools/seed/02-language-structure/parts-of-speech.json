@@ -29,6 +29,12 @@
       "topicId": 3,
       "title": "Verb",
       "order": 2
+    },
+    {
+      "id": 31,
+      "topicId": 3,
+      "title": "Adjective",
+      "order": 3
     }
   ],
   "grammar_cards": [
@@ -517,6 +523,225 @@
         "Есть ли правило, по которому можно предсказать, у каких слов бывает двойная роль?",
         "Это только у глаголов и существительных так, или у прилагательных тоже?"
       ]
+    },
+    {
+      "id": 84,
+      "microtopicId": 31,
+      "title": "Прилагательное: описывает существительное",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Прилагательное отвечает на вопрос «какой?» / «какая?» / «какое?» и всегда привязано к существительному — само по себе оно не несёт смысла."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Существительное",
+            "Прилагательное + существительное"
+          ],
+          "rows": [
+            [
+              "a city *(город)*",
+              "a **beautiful** city *(красивый город)*"
+            ],
+            [
+              "a book *(книга)*",
+              "an **interesting** book *(интересная книга)*"
+            ],
+            [
+              "a sky *(небо)*",
+              "a **dark** sky *(тёмное небо)*"
+            ],
+            [
+              "a road *(дорога)*",
+              "a **long** road *(длинная дорога)*"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Прилагательное + существительное — это «пакет», который целиком занимает позицию субъекта или объекта в предложении. Вспомни MT29: субъект и объект — это существительные. Прилагательное просто добавляет к ним уточнение."
+        },
+        {
+          "type": "paragraph",
+          "text": "*A **tall** man lives here.* — «A tall man» целиком — субъект."
+        },
+        {
+          "type": "paragraph",
+          "text": "*She bought a **red** dress.* — «a red dress» целиком — объект."
+        }
+      ],
+      "summary": "Прилагательное отвечает на «какой?» и описывает существительное. Само по себе смысла не несёт — всегда привязано к существительному. Прилагательное + существительное вместе образуют «пакет», который занимает позицию субъекта или объекта.",
+      "examples": [
+        {
+          "ru": "Это интересная книга.",
+          "en": "This is an interesting book."
+        },
+        {
+          "ru": "У Димы большой рыжий кот.",
+          "en": "Dima has a big red cat."
+        },
+        {
+          "ru": "На улице тёмное небо.",
+          "en": "There is a dark sky outside."
+        }
+      ],
+      "clarificationOptions": [
+        "Может ли одно существительное иметь сразу несколько прилагательных?",
+        "Прилагательное отвечает только на «какой?» или ещё на что-то?",
+        "Как прилагательное связано с наречием?"
+      ]
+    },
+    {
+      "id": 85,
+      "microtopicId": 31,
+      "title": "Позиция: прилагательное стоит перед существительным",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В английском прилагательное всегда стоит **перед** существительным. Это жёсткое правило без исключений."
+        },
+        {
+          "type": "table",
+          "header": [
+            "✓ Правильно",
+            "✗ Неправильно"
+          ],
+          "rows": [
+            [
+              "a **beautiful** city",
+              "a city **beautiful**"
+            ],
+            [
+              "a **long** road",
+              "a road **long**"
+            ],
+            [
+              "a **clean** room",
+              "a room **clean**"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском оба варианта звучат нормально: «красивый город» и «город красивый» — оба работают, второй просто с акцентом. В английском вариант «a city beautiful» не существует."
+        },
+        {
+          "type": "heading",
+          "text": "Второй паттерн — прилагательное после `to be`:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прилагательное также может стоять после глагола `to be` — тогда оно описывает субъект через связку:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*The city is **beautiful**.* ← прилагательное после `to be`"
+        },
+        {
+          "type": "paragraph",
+          "text": "*It is a **beautiful** city.* ← прилагательное перед существительным"
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба варианта правильные — это просто две разные позиции, и в обоих прилагательное на своём месте. Запомни оба паттерна — они встречаются постоянно."
+        }
+      ],
+      "summary": "Прилагательное в английском стоит строго перед существительным: «a red dress», никогда «a dress red». Второй паттерн: после `to be` — «The dress is red». Оба правильны, оба фиксированы.",
+      "examples": [
+        {
+          "ru": "Он купил красное платье.",
+          "en": "He bought a red dress."
+        },
+        {
+          "ru": "Платье красное.",
+          "en": "The dress is red."
+        },
+        {
+          "ru": "Длинная дорога ведёт к морю.",
+          "en": "A long road leads to the sea."
+        }
+      ],
+      "clarificationOptions": [
+        "А как быть, если перед существительным несколько прилагательных — есть ли между ними порядок?",
+        "Можно ли когда-нибудь поставить прилагательное после существительного в английском?",
+        "Паттерн «after to be» — это уже знакомо из темы про to be?"
+      ]
+    },
+    {
+      "id": 86,
+      "microtopicId": 31,
+      "title": "Прилагательное не меняет форму",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В русском прилагательное согласуется с существительным — меняется в зависимости от рода, числа и падежа:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*красив**ый** город — красив**ая** улица — красив**ое** небо — красив**ые** дома*"
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском ничего этого нет. Прилагательное всегда выглядит одинаково — независимо от того, кого или что описывает:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "RU",
+            "EN"
+          ],
+          "rows": [
+            [
+              "высокий мужчина",
+              "a **tall** man"
+            ],
+            [
+              "высокая женщина",
+              "a **tall** woman"
+            ],
+            [
+              "высокое дерево",
+              "a **tall** tree"
+            ],
+            [
+              "высокие деревья",
+              "**tall** trees"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Всегда `tall` — никакого `talls`, `talle` или `talles` не существует."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это одно из мест, где английский объективно проще русского: выучил одну форму прилагательного — и она работает везде. Никакого согласования запоминать не нужно."
+        }
+      ],
+      "summary": "Английское прилагательное не меняется — ни по роду, ни по числу, ни по падежу. Одна форма для всего: «a tall man», «a tall woman», «tall trees» — всегда «tall». Это проще, чем в русском.",
+      "examples": [
+        {
+          "ru": "Высокий мужчина.",
+          "en": "A tall man."
+        },
+        {
+          "ru": "Высокая женщина.",
+          "en": "A tall woman."
+        },
+        {
+          "ru": "Высокие деревья.",
+          "en": "Tall trees."
+        }
+      ],
+      "clarificationOptions": [
+        "А степени сравнения прилагательных — bigger, biggest — это уже другое правило?",
+        "Получается, прилагательные вообще никогда не меняются?",
+        "Как понять, что слово — прилагательное, а не наречие?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -590,6 +815,42 @@
       "cardId": 83,
       "exerciseType": "MATCHING",
       "exerciseId": 14,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 84,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 17,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 84,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 67,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 85,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 41,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 85,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 45,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 86,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 43,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 86,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 26,
       "orderInCard": 1
     }
   ],
@@ -754,6 +1015,70 @@
       "transcription": "[lʊk]",
       "microtopicId": 30,
       "categoryId": "language_structure"
+    },
+    {
+      "id": 255,
+      "word": "beautiful",
+      "translation": "красивый, красивая, красивое",
+      "transcription": "[ˈbjuːtɪfl]",
+      "microtopicId": 31,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 256,
+      "word": "interesting",
+      "translation": "интересный",
+      "transcription": "[ˈɪntrəstɪŋ]",
+      "microtopicId": 31,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 257,
+      "word": "red",
+      "translation": "красный",
+      "transcription": "[red]",
+      "microtopicId": 31,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 258,
+      "word": "tall",
+      "translation": "высокий",
+      "transcription": "[tɔːl]",
+      "microtopicId": 31,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 259,
+      "word": "long",
+      "translation": "длинный",
+      "transcription": "[lɒŋ]",
+      "microtopicId": 31,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 260,
+      "word": "clean",
+      "translation": "чистый",
+      "transcription": "[kliːn]",
+      "microtopicId": 31,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 261,
+      "word": "dark",
+      "translation": "тёмный",
+      "transcription": "[dɑːrk]",
+      "microtopicId": 31,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 262,
+      "word": "bright",
+      "translation": "яркий",
+      "transcription": "[braɪt]",
+      "microtopicId": 31,
+      "categoryId": "language_structure"
     }
   ],
   "table_fill_exercises": [],
@@ -788,6 +1113,37 @@
         }
       ],
       "explanation": "№2 — нет глагола: непонятно, что кот делает на столе (сидит? лежит? стоит?). Нужно добавить, например, «sits». №4 — в английском нельзя опустить глагол-связку: должно быть «It is cold outside today»."
+    },
+    {
+      "id": 43,
+      "statements": [
+        {
+          "en": "She has a tall dog.",
+          "ru": "У неё высокая собака.",
+          "isTrue": true
+        },
+        {
+          "en": "They live in beautifuls houses.",
+          "ru": "Они живут в красивых домах.",
+          "isTrue": false
+        },
+        {
+          "en": "He is a smart student.",
+          "ru": "Он умный студент.",
+          "isTrue": true
+        },
+        {
+          "en": "The trees are talls and greens.",
+          "ru": "Деревья высокие и зелёные.",
+          "isTrue": false
+        },
+        {
+          "en": "I have a clean room.",
+          "ru": "У меня чистая комната.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — «beautifuls» не существует: прилагательное не добавляет -s во множественном числе. Правильно: «beautiful houses». №4 — та же ошибка: «talls» и «greens» — несуществующие формы. Правильно: «The trees are tall and green»."
     }
   ],
   "word_arrangement_exercises": [
@@ -854,6 +1210,36 @@
         }
       ],
       "explanation": "Subject (Masha) → Verb (writes) → Object (a letter) → обстоятельство (every evening). «letter a» — артикль идёт перед существительным. «writing every» — неверная форма глагола: для утвердительного предложения в простом настоящем нужен «writes»."
+    },
+    {
+      "id": 45,
+      "situationRu": "RU: Дима купил длинный шарф.",
+      "correctSentence": "Dima bought a long scarf.",
+      "words": [
+        {
+          "text": "Dima",
+          "translation": ""
+        },
+        {
+          "text": "bought",
+          "translation": ""
+        },
+        {
+          "text": "a long scarf",
+          "translation": "длинный шарф"
+        }
+      ],
+      "distractors": [
+        {
+          "text": "scarf long",
+          "translation": ""
+        },
+        {
+          "text": "a longest",
+          "translation": ""
+        }
+      ],
+      "explanation": "Прилагательное «long» стоит перед существительным «scarf»: «a long scarf», не «a scarf long». «scarf long» — неверный порядок. «a longest» — это превосходная степень (самый длинный), а не обычная форма прилагательного."
     }
   ],
   "multiple_choice_exercises": [
@@ -919,9 +1305,55 @@
         }
       ],
       "explanation": "«to know» — глагол состояния: знание существует как факт, а не как процесс. «Я знаю» — это состояние прямо сейчас. «Узнаю» подразумевало бы процесс узнавания, а «узнал» — завершённое действие в прошлом. Правильный перевод — «знаю»."
+    },
+    {
+      "id": 67,
+      "choiceType": "CHOICE",
+      "prompt": "She lives in a ___ house.",
+      "contextRu": "Она живёт в красивом доме.",
+      "options": [
+        {
+          "text": "beautiful",
+          "isCorrect": true
+        },
+        {
+          "text": "beauty",
+          "isCorrect": false
+        },
+        {
+          "text": "beautifully",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«beautiful» — прилагательное, описывает существительное «house» (какой дом?). «beauty» — существительное (красота), «beautifully» — наречие (красиво). Существительное и наречие не могут стоять перед существительным и описывать его."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 26,
+      "items": [
+        {
+          "sentence": "One ___ cat, two ___ cats.",
+          "contextRu": "красивый",
+          "answer": "beautiful",
+          "alternatives": []
+        },
+        {
+          "sentence": "A ___ man and a ___ woman.",
+          "contextRu": "высокий",
+          "answer": "tall",
+          "alternatives": []
+        },
+        {
+          "sentence": "The room is ___, and the rooms are ___.",
+          "contextRu": "чистый",
+          "answer": "clean",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Прилагательное в английском не меняется — одна форма работает и для единственного, и для множественного числа, и для любого рода. «beautiful», «tall», «clean» одинаковы в обоих пропусках."
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [
     {
@@ -967,6 +1399,25 @@
         }
       ],
       "explanation": "«kate», «london» и «monday» — собственные существительные (имя человека, название города, день недели). В английском они все пишутся с заглавной буквы: «Kate», «London», «Monday». Первые два варианта оставляют что-то строчным — оба неверны."
+    },
+    {
+      "id": 41,
+      "wrongSentence": "She bought a dress red.",
+      "options": [
+        {
+          "text": "She bought dress a red.",
+          "isCorrect": false
+        },
+        {
+          "text": "She bought a red dress.",
+          "isCorrect": true
+        },
+        {
+          "text": "She red bought a dress.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Прилагательное в английском стоит перед существительным: «a red dress», а не «a dress red». Порядок «существительное + прилагательное» — распространённая калька с русского, но в английском так не работает."
     }
   ],
   "construction_meaning_exercises": [],
@@ -1071,6 +1522,29 @@
         }
       ],
       "explanation": "В третьем предложении «run» стоит после глагола «had» на месте объекта — это существительное («пробежка»). В остальных трёх «run» само является глаголом предложения и описывает действие."
+    },
+    {
+      "id": 17,
+      "groupDescription": "Три слова — прилагательные. Одно — нет. Найди его",
+      "items": [
+        {
+          "text": "beautiful",
+          "isOdd": false
+        },
+        {
+          "text": "interesting",
+          "isOdd": false
+        },
+        {
+          "text": "city",
+          "isOdd": true
+        },
+        {
+          "text": "dark",
+          "isOdd": false
+        }
+      ],
+      "explanation": "«city» — существительное (называет место), оно отвечает на «что?». «beautiful», «interesting», «dark» — прилагательные: они отвечают на «какой?» и описывают существительное, а не называют что-то сами по себе."
     }
   ]
 }
