@@ -35,6 +35,12 @@
       "topicId": 3,
       "title": "Adjective",
       "order": 3
+    },
+    {
+      "id": 32,
+      "topicId": 3,
+      "title": "Adverb",
+      "order": 4
     }
   ],
   "grammar_cards": [
@@ -742,6 +748,272 @@
         "Получается, прилагательные вообще никогда не меняются?",
         "Как понять, что слово — прилагательное, а не наречие?"
       ]
+    },
+    {
+      "id": 87,
+      "microtopicId": 32,
+      "title": "Наречие: описывает всё кроме существительного",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Наречие отвечает на вопросы «как?», «где?», «когда?», «насколько?» — и описывает глагол, прилагательное или другое наречие. Но не существительное: это работа прилагательного."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что описывает",
+            "Пример",
+            "Вопрос"
+          ],
+          "rows": [
+            [
+              "Глагол",
+              "She runs **quickly**.",
+              "Как бежит?"
+            ],
+            [
+              "Прилагательное",
+              "It is **very** beautiful.",
+              "Насколько красивый?"
+            ],
+            [
+              "Другое наречие",
+              "She runs **very** quickly.",
+              "Насколько быстро?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ключевое отличие от прилагательного:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Прилагательное",
+            "Наречие"
+          ],
+          "rows": [
+            [
+              "Описывает существительное",
+              "Описывает глагол / прилагательное / наречие"
+            ],
+            [
+              "a **quick** runner *(какой бегун?)*",
+              "She runs **quickly** *(как бежит?)*"
+            ],
+            [
+              "a **beautiful** city *(какой город?)*",
+              "It is **very** beautiful *(насколько красивый?)*"
+            ]
+          ]
+        }
+      ],
+      "summary": "Наречие описывает глагол (как? где? когда?), прилагательное или другое наречие (насколько?). В отличие от прилагательного, наречие никогда не описывает существительное.",
+      "examples": [
+        {
+          "ru": "Она бежит быстро.",
+          "en": "She runs quickly."
+        },
+        {
+          "ru": "Это очень красивый город.",
+          "en": "It is a very beautiful city."
+        },
+        {
+          "ru": "Она бежит очень быстро.",
+          "en": "She runs very quickly."
+        }
+      ],
+      "clarificationOptions": [
+        "Наречие «well» — это то же самое что прилагательное «good»?",
+        "Как понять, к чему относится наречие в длинном предложении?",
+        "Наречие всегда стоит рядом со словом, которое описывает?"
+      ]
+    },
+    {
+      "id": 88,
+      "microtopicId": 32,
+      "title": "Прилагательное + -ly = наречие",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Большинство английских наречий образуются от прилагательного добавлением `-ly`. Это удобно: выучил прилагательное — сразу получил и наречие."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Прилагательное",
+            "Наречие"
+          ],
+          "rows": [
+            [
+              "quick *(быстрый)*",
+              "quickly *(быстро)*"
+            ],
+            [
+              "slow *(медленный)*",
+              "slowly *(медленно)*"
+            ],
+            [
+              "loud *(громкий)*",
+              "loudly *(громко)*"
+            ],
+            [
+              "careful *(осторожный)*",
+              "carefully *(осторожно)*"
+            ],
+            [
+              "beautiful *(красивый)*",
+              "beautifully *(красиво)*"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Практический инструмент",
+          "text": "видишь слово с `-ly` на конце — скорее всего наречие."
+        },
+        {
+          "type": "heading",
+          "text": "Исключения, которые надо запомнить:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Прилагательное",
+            "Наречие",
+            "Почему иначе"
+          ],
+          "rows": [
+            [
+              "fast *(быстрый)*",
+              "fast *(быстро)*",
+              "Форма не меняется"
+            ],
+            [
+              "hard *(тяжёлый, усердный)*",
+              "hard *(тяжело, усердно)*",
+              "Форма не меняется"
+            ],
+            [
+              "good *(хороший)*",
+              "well *(хорошо)*",
+              "Неправильное"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "⚠️ «Hardly» существует, но означает «едва» — совсем другое слово, не наречие от «hard»."
+        }
+      ],
+      "summary": "Большинство наречий = прилагательное + -ly: quick → quickly, slow → slowly, careful → carefully. Исключения: fast → fast, hard → hard (без изменений), good → well (неправильное). Видишь -ly — скорее всего наречие.",
+      "examples": [
+        {
+          "ru": "Он водит осторожно.",
+          "en": "He drives carefully."
+        },
+        {
+          "ru": "Она говорит громко.",
+          "en": "She speaks loudly."
+        },
+        {
+          "ru": "Они идут медленно.",
+          "en": "They walk slowly."
+        }
+      ],
+      "clarificationOptions": [
+        "Если прилагательное заканчивается на -ly (например, friendly) — это уже наречие?",
+        "Почему «hardly» не значит «усердно», хотя «hard» = «усердный»?",
+        "Есть ли правила написания при добавлении -ly (например, happy → happily)?"
+      ]
+    },
+    {
+      "id": 89,
+      "microtopicId": 32,
+      "title": "Где стоит наречие в предложении",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У каждого вида наречий — своя позиция в предложении."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Наречия образа действия** *(как?)* — `quickly`, `carefully`, `loudly` — стоят **после глагола** или после объекта, если он есть:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*She sings **beautifully**.* — после глагола"
+        },
+        {
+          "type": "paragraph",
+          "text": "*He reads books **carefully**.* — после объекта (books)"
+        },
+        {
+          "type": "paragraph",
+          "text": "⚠️ Не ставить между глаголом и объектом: «He reads **carefully** books» ✗ — так не говорят."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Наречия степени** *(насколько?)* — `very`, `quite`, `really` — стоят **перед** прилагательным или другим наречием:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*It is **very** dark outside.* — перед прилагательным"
+        },
+        {
+          "type": "paragraph",
+          "text": "*She runs **quite** quickly.* — перед наречием"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Наречия частоты** *(как часто?)* — `always`, `often`, `never`, `still` — стоят **перед главным глаголом**, но после `to be`:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*She **always** arrives on time.* — перед глаголом arrives"
+        },
+        {
+          "type": "paragraph",
+          "text": "*He is **always** late.* — после to be"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Наречия времени и места** *(когда? где?)* — `yesterday`, `here`, `outside` — в начале или в конце предложения:"
+        },
+        {
+          "type": "paragraph",
+          "text": "***Yesterday** we visited the park.* — в начале"
+        },
+        {
+          "type": "paragraph",
+          "text": "*We visited the park **yesterday**.* — в конце"
+        }
+      ],
+      "summary": "Образ действия (quickly) — после глагола/объекта. Степень (very) — перед прилагательным/наречием. Частота (always) — перед главным глаголом, после to be. Время/место (yesterday, here) — в начале или конце предложения.",
+      "examples": [
+        {
+          "ru": "Она всегда приходит вовремя.",
+          "en": "She always arrives on time."
+        },
+        {
+          "ru": "Вчера мы посетили парк.",
+          "en": "Yesterday we visited the park."
+        },
+        {
+          "ru": "На улице очень темно.",
+          "en": "It is very dark outside."
+        }
+      ],
+      "clarificationOptions": [
+        "Наречие частоты всегда стоит перед глаголом — а в вопросах?",
+        "Можно ли поставить наречие образа действия в начало предложения для акцента?",
+        "Что если в предложении несколько наречий разных видов — какой порядок?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -851,6 +1123,42 @@
       "cardId": 86,
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 26,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 87,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 12,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 87,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 19,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 88,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 11,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 88,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 42,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 89,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 27,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 89,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 44,
       "orderInCard": 1
     }
   ],
@@ -1079,6 +1387,86 @@
       "transcription": "[braɪt]",
       "microtopicId": 31,
       "categoryId": "language_structure"
+    },
+    {
+      "id": 263,
+      "word": "quickly",
+      "translation": "быстро",
+      "transcription": "[ˈkwɪkli]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 264,
+      "word": "slowly",
+      "translation": "медленно",
+      "transcription": "[ˈsloʊli]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 265,
+      "word": "loudly",
+      "translation": "громко",
+      "transcription": "[ˈlaʊdli]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 266,
+      "word": "carefully",
+      "translation": "осторожно, аккуратно",
+      "transcription": "[ˈkeərfəli]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 267,
+      "word": "well",
+      "translation": "хорошо",
+      "transcription": "[wel]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 268,
+      "word": "often",
+      "translation": "часто",
+      "transcription": "[ˈɒfən]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 269,
+      "word": "always",
+      "translation": "всегда",
+      "transcription": "[ˈɔːlweɪz]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 270,
+      "word": "never",
+      "translation": "никогда",
+      "transcription": "[ˈnevər]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 271,
+      "word": "still",
+      "translation": "всё ещё",
+      "transcription": "[stɪl]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 272,
+      "word": "just",
+      "translation": "только что, просто",
+      "transcription": "[dʒʌst]",
+      "microtopicId": 32,
+      "categoryId": "language_structure"
     }
   ],
   "table_fill_exercises": [],
@@ -1144,6 +1532,37 @@
         }
       ],
       "explanation": "№2 — «beautifuls» не существует: прилагательное не добавляет -s во множественном числе. Правильно: «beautiful houses». №4 — та же ошибка: «talls» и «greens» — несуществующие формы. Правильно: «The trees are tall and green»."
+    },
+    {
+      "id": 44,
+      "statements": [
+        {
+          "en": "She always arrives on time.",
+          "ru": "Она всегда приходит вовремя.",
+          "isTrue": true
+        },
+        {
+          "en": "He reads books quickly very.",
+          "ru": "Он читает книги очень быстро.",
+          "isTrue": false
+        },
+        {
+          "en": "Yesterday we visited the park.",
+          "ru": "Вчера мы посетили парк.",
+          "isTrue": true
+        },
+        {
+          "en": "She sings beautiful.",
+          "ru": "Она красиво поёт.",
+          "isTrue": false
+        },
+        {
+          "en": "They often travel together.",
+          "ru": "Они часто путешествуют вместе.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — «very» (наречие степени) стоит перед тем, что усиливает: должно быть «very quickly», а не «quickly very». №4 — «beautiful» — прилагательное, а не наречие: для описания глагола нужно «beautifully»."
     }
   ],
   "word_arrangement_exercises": [
@@ -1326,6 +1745,27 @@
         }
       ],
       "explanation": "«beautiful» — прилагательное, описывает существительное «house» (какой дом?). «beauty» — существительное (красота), «beautifully» — наречие (красиво). Существительное и наречие не могут стоять перед существительным и описывать его."
+    },
+    {
+      "id": 19,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "She sings very beautifully.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Она поёт очень красивую песню.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она поёт очень красиво.",
+          "isCorrect": true
+        },
+        {
+          "text": "Она очень красивая певица.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«beautifully» — наречие, описывает глагол «sings» (как поёт?). «very» — наречие степени, усиливает «beautifully» (насколько красиво?). Если бы речь шла о существительном, было бы «a beautiful song» или «a beautiful singer» — с прилагательным."
     }
   ],
   "text_input_exercises": [
@@ -1352,6 +1792,30 @@
         }
       ],
       "explanation": "Прилагательное в английском не меняется — одна форма работает и для единственного, и для множественного числа, и для любого рода. «beautiful», «tall», «clean» одинаковы в обоих пропусках."
+    },
+    {
+      "id": 27,
+      "items": [
+        {
+          "sentence": "He reads the book ___.",
+          "contextRu": "медленно — slowly",
+          "answer": "slowly",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ we visited the park.",
+          "contextRu": "вчера — yesterday",
+          "answer": "Yesterday",
+          "alternatives": []
+        },
+        {
+          "sentence": "It is ___ dark outside.",
+          "contextRu": "очень — very",
+          "answer": "very",
+          "alternatives": []
+        }
+      ],
+      "explanation": "«slowly» — наречие образа действия, стоит после объекта. «Yesterday» — наречие времени, может стоять в начале предложения. «very» — наречие степени, стоит перед прилагательным «dark»."
     }
   ],
   "dialog_restore_exercises": [],
@@ -1418,10 +1882,49 @@
         }
       ],
       "explanation": "Прилагательное в английском стоит перед существительным: «a red dress», а не «a dress red». Порядок «существительное + прилагательное» — распространённая калька с русского, но в английском так не работает."
+    },
+    {
+      "id": 42,
+      "wrongSentence": "She sings beautiful.",
+      "options": [
+        {
+          "text": "She beautiful sings.",
+          "isCorrect": false
+        },
+        {
+          "text": "She sings beautifully.",
+          "isCorrect": true
+        },
+        {
+          "text": "She sings a beautiful.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«beautiful» — прилагательное, оно описывает существительное («a beautiful song»). Для описания глагола «sings» нужно наречие: «beautifully». «She sings beautiful» — распространённая ошибка: прилагательное поставили на место наречия."
     }
   ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 11,
+      "taskDescription": "Образуй наречие от прилагательного по правилу +ly",
+      "items": [
+        {
+          "original": "quick",
+          "transformed": "quickly"
+        },
+        {
+          "original": "slow",
+          "transformed": "slowly"
+        },
+        {
+          "original": "loud",
+          "transformed": "loudly"
+        }
+      ],
+      "explanation": "К прилагательному добавляем -ly — получаем наречие. Смысл меняется: «quick» описывает существительное (a quick runner), «quickly» описывает глагол (he runs quickly). Одна операция, другая роль."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 10,
@@ -1474,6 +1977,31 @@
         }
       ],
       "explanation": "Глаголы действия описывают то, что происходит или совершается: to run, to eat, to write, to sleep — всё это процессы. Глаголы состояния описывают факт, который просто существует: to be, to seem, to know, to feel — это не «происходит», оно просто «есть»."
+    },
+    {
+      "id": 12,
+      "taskDescription": "Разложи слова — прилагательное или наречие",
+      "categories": [
+        {
+          "title": "Прилагательное",
+          "items": [
+            "beautiful",
+            "slow",
+            "dark",
+            "tall"
+          ]
+        },
+        {
+          "title": "Наречие",
+          "items": [
+            "beautifully",
+            "quickly",
+            "loudly",
+            "carefully"
+          ]
+        }
+      ],
+      "explanation": "Прилагательные описывают существительное и отвечают на «какой?»: beautiful city, slow car. Наречия описывают глагол или прилагательное и отвечают на «как?»: she sings beautifully, he drives quickly. Многие наречия — это прилагательное + -ly."
     }
   ],
   "find_the_odd_exercises": [
