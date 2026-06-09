@@ -35,6 +35,7 @@
 - `tasks/phases/development_plan.md` — фазы разработки
 - `tasks/phases/phase1/` — теория, упражнения, контент
 - `tasks/phases/phase3/` — AI-упражнения, практика
+- `tasks/phases/phase3/ai_base_prompt.md` — базовый системный промт (составной, правила сборки по `basics_` prefix и `words[]`)
 - `tasks/phases/phase4/phase4_server.md` — сервер
 - `tasks/words8r_plan.md` — интеграция с Words8r
 - `tasks/practice_plan.md` — подробный план вкладки Практика

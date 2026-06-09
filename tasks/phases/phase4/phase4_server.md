@@ -391,6 +391,13 @@ POST /announcements/{id}/seen        → записать shown_at = now для 
 
 Промты AI-упражнений не хранятся в клиенте — только на сервере. Ключ = `AiExercise.id` клиента.
 
+> ⚠️ **Базовый системный промт** — перед `system_prompt` каждого упражнения сервер
+> автоматически подставляет базовый промт. Он составной: собирается из блоков по двум
+> условиям — prefix `basics_` у `exercise_id` и наличие `words[]` в запросе.
+> Полное описание блоков и правила сборки — [phase3/ai_base_prompt.md](../phase3/ai_base_prompt.md).
+>
+> Итоговый system prompt для OpenAI = `базовый промт` + `\n\n` + `system_prompt из таблицы`.
+
 ### Таблица `ai_exercise_prompts`
 
 ```sql
