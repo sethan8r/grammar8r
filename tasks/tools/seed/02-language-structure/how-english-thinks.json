@@ -21,8 +21,20 @@
     {
       "id": 26,
       "topicId": 2,
-      "title": "Fixed Word Order",
+      "title": "Synthetic and Analytic Languages",
       "order": 1
+    },
+    {
+      "id": 27,
+      "topicId": 2,
+      "title": "Accent and Predictability",
+      "order": 2
+    },
+    {
+      "id": 28,
+      "topicId": 2,
+      "title": "Reading Algorithm and Translation Traps",
+      "order": 3
     }
   ],
   "grammar_cards": [
@@ -264,9 +276,9 @@
     },
     {
       "id": 74,
-      "microtopicId": 26,
+      "microtopicId": 27,
       "title": "Порядок слов как преимущество: почему жёсткость — это удобство, а не наказание",
-      "order": 4,
+      "order": 1,
       "theory": [
         {
           "type": "paragraph",
@@ -314,9 +326,9 @@
     },
     {
       "id": 75,
-      "microtopicId": 26,
+      "microtopicId": 27,
       "title": "Если словами двигать нельзя — как расставить акцент?",
-      "order": 5,
+      "order": 2,
       "theory": [
         {
           "type": "paragraph",
@@ -397,9 +409,9 @@
     },
     {
       "id": 76,
-      "microtopicId": 26,
+      "microtopicId": 28,
       "title": "Алгоритм чтения английского предложения: с чего начинать разбор",
-      "order": 6,
+      "order": 1,
       "theory": [
         {
           "type": "paragraph",
@@ -471,9 +483,9 @@
     },
     {
       "id": 77,
-      "microtopicId": 26,
+      "microtopicId": 28,
       "title": "Ловушка дословного перевода: как калька со структуры русского ломает английское предложение",
-      "order": 7,
+      "order": 2,
       "theory": [
         {
           "type": "paragraph",
@@ -710,7 +722,7 @@
       "word": "neighbour",
       "translation": "сосед, соседка",
       "transcription": "[ˈneɪbə]",
-      "microtopicId": 26,
+      "microtopicId": 28,
       "categoryId": "language_structure"
     },
     {
@@ -718,7 +730,7 @@
       "word": "grandparents",
       "translation": "бабушка и дедушка",
       "transcription": "[ˈɡrænpeərənts]",
-      "microtopicId": 26,
+      "microtopicId": 28,
       "categoryId": "language_structure"
     },
     {
@@ -726,7 +738,7 @@
       "word": "café",
       "translation": "кафе",
       "transcription": "[ˈkæfeɪ]",
-      "microtopicId": 26,
+      "microtopicId": 28,
       "categoryId": "language_structure"
     },
     {
@@ -734,7 +746,7 @@
       "word": "garden",
       "translation": "сад",
       "transcription": "[ˈɡɑːdn]",
-      "microtopicId": 26,
+      "microtopicId": 28,
       "categoryId": "language_structure"
     },
     {
@@ -742,7 +754,7 @@
       "word": "favourite",
       "translation": "любимый",
       "transcription": "[ˈfeɪvərɪt]",
-      "microtopicId": 26,
+      "microtopicId": 28,
       "categoryId": "language_structure"
     },
     {
@@ -750,7 +762,7 @@
       "word": "tasty",
       "translation": "вкусный",
       "transcription": "[ˈteɪsti]",
-      "microtopicId": 26,
+      "microtopicId": 28,
       "categoryId": "language_structure"
     }
   ],

@@ -15,7 +15,7 @@
 | ErrorCorrection | 40 |
 | FindTheOdd | 15 |
 | Matching | 14 |
-| Microtopic | 27 |
+| Microtopic | 29 |
 | MultipleChoice·CHOICE | 66 |
 | MultipleChoice·FORWARD_CHOICE | 61 |
 | MultipleChoice·REVERSE_CHOICE | 17 |
@@ -36,7 +36,7 @@
 - ErrorCorrection: 38–39 (2)
 - FindTheOdd: 14–14 (1)
 - Matching: 11–13 (3)
-- Microtopic: 26–26 (1)
+- Microtopic: 26–28 (3)
 - MultipleChoice·CHOICE: 64–65 (2)
 - MultipleChoice·FORWARD_CHOICE: 60–60 (1)
 - MultipleChoice·REVERSE_CHOICE: 16–16 (1)
