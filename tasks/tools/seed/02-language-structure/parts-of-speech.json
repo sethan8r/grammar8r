@@ -47,6 +47,12 @@
       "topicId": 3,
       "title": "Pronoun",
       "order": 5
+    },
+    {
+      "id": 34,
+      "topicId": 3,
+      "title": "Preposition",
+      "order": 6
     }
   ],
   "grammar_cards": [
@@ -1296,6 +1302,276 @@
         "Почему нельзя \"Nobody doesn't know\" — ведь по-русски \"никто не знает\"?",
         "\"Something\" и \"anything\" — когда что использовать?"
       ]
+    },
+    {
+      "id": 93,
+      "microtopicId": 34,
+      "title": "Предлог: связывает слово с остальным предложением",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В русском языке отношение между словами кодируется **в самом слове** через падежное окончание: \"на стол**е**\", \"со стол**а**\", \"к стол**у**\" — одно слово, три разных смысла. В английском слова не меняют окончаний. Чтобы показать то же самое отношение, английский использует отдельное слово — **предлог**."
+        },
+        {
+          "type": "paragraph",
+          "text": "*Книга на столе. — The book is **on** the table.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*Книга со стола. — He took the book **from** the table.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*Книга к столу. — Bring the book **to** the table.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово \"table\" не изменилось. Изменился предлог перед ним."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Предлог + существительное = единый смысловой блок.** В предложении этот блок работает как одна деталь и отвечает на один вопрос — \"где?\", \"когда?\", \"куда?\", \"о чём?\":"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Предложная группа",
+            "Вопрос"
+          ],
+          "rows": [
+            [
+              "in the morning — *утром*",
+              "Когда?"
+            ],
+            [
+              "at work — *на работе*",
+              "Где?"
+            ],
+            [
+              "from Moscow — *из Москвы*",
+              "Откуда?"
+            ],
+            [
+              "about the film — *о фильме*",
+              "О чём?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Предлог без существительного после него — неполный. Это всегда пара."
+        }
+      ],
+      "summary": "Предлог — слово, которое связывает существительное с остальным предложением. Там, где в русском меняется окончание (\"на столе\", \"со стола\"), в английском меняется предлог. Предлог + существительное образуют единый смысловой блок.",
+      "examples": [
+        {
+          "ru": "Ключи лежат на столе.",
+          "en": "The keys are on the table."
+        },
+        {
+          "ru": "Рома уехал из Петербурга.",
+          "en": "Roma left from Saint Petersburg."
+        },
+        {
+          "ru": "Катя думает о работе.",
+          "en": "Katya is thinking about work."
+        }
+      ],
+      "clarificationOptions": [
+        "Предложная группа может содержать местоимение вместо существительного?",
+        "Предлог всегда стоит строго перед существительным?",
+        "Чем предложная группа отличается от наречия?"
+      ]
+    },
+    {
+      "id": 94,
+      "microtopicId": 34,
+      "title": "for / with / about / of — предлоги отношения",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В Основах ты разбирал предлоги места (in/on/at), времени и направления (to/from). Все они отвечают на физические вопросы — где, когда, куда."
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть ещё одна группа — предлоги **отношения**: не про место и не про время, а про связь между людьми, вещами и событиями."
+        },
+        {
+          "type": "heading",
+          "text": "`for` — цель, назначение, причина, длительность"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "*This coffee is **for** you. — Этот кофе для тебя.* (для кого?)",
+            "*Thank you **for** your help. — Спасибо за помощь.* (за что?)",
+            "*We waited **for** two hours. — Мы ждали два часа.* (как долго?)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "`with` — вместе с, при помощи"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "*I came **with** my sister. — Я пришёл с сестрой.* (с кем?)",
+            "*She wrote **with** a pencil. — Она писала карандашом.* (чем?)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "`about` — на тему, насчёт"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "*We talked **about** the plan. — Мы говорили о плане.* (о чём?)",
+            "*I'm worried **about** you. — Я беспокоюсь о тебе.* (о ком?)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "`of` — принадлежность, состав, часть целого"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "*a cup **of** coffee — чашка кофе* (что внутри?)",
+            "*the capital **of** France — столица Франции* (чего?)",
+            "*She's afraid **of** dogs. — Она боится собак.* (чего именно?)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`of` показывает что одно принадлежит другому, является его частью или связано с ним."
+        }
+      ],
+      "summary": "for (для, за, ради, в течение), with (с, вместе с, при помощи), about (о, про, насчёт), of (принадлежность, состав, часть) — предлоги отношения. Они не про место и не про время, а про связь между людьми, вещами и событиями.",
+      "examples": [
+        {
+          "ru": "Это подарок для Лены.",
+          "en": "This is a gift for Lena."
+        },
+        {
+          "ru": "Игорь говорил о своей семье.",
+          "en": "Igor was talking about his family."
+        },
+        {
+          "ru": "Дай мне стакан воды.",
+          "en": "Give me a glass of water."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему \"for two hours\" это \"в течение двух часов\", а не \"для двух часов\"?",
+        "Чем \"of\" отличается от \"'s\": \"a friend of mine\" vs \"my friend\"?",
+        "\"with\" — это всегда с человеком или с предметом тоже?"
+      ]
+    },
+    {
+      "id": 95,
+      "microtopicId": 34,
+      "title": "Предлог не переводится сам по себе — учить фразой",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Главная ловушка с предлогами: попытка найти один правильный перевод и подставлять его везде."
+        },
+        {
+          "type": "paragraph",
+          "text": "Возьмём предлог `on`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "*The book is **on** the table. — Книга **на** столе.*",
+            "*She's **on** the phone. — Она разговаривает **по** телефону.*",
+            "***On** Monday I start work. — **В** понедельник начинаю работу.*",
+            "*The train is **on** time. — Поезд **по** графику.*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Один предлог — четыре разных русских слова. Никакого \"правильного\" перевода нет. Смысл рождается только в паре со словом рядом."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Особенно важно для устойчивых сочетаний.** После многих глаголов и прилагательных идёт фиксированный предлог — не логичный, а просто такой, какой он есть:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Сочетание",
+            "Перевод",
+            "Ловушка"
+          ],
+          "rows": [
+            [
+              "interested **in**",
+              "интересоваться чем-то",
+              "✗ interested **about**"
+            ],
+            [
+              "good **at**",
+              "хорошо делать что-то",
+              "✗ good **in**"
+            ],
+            [
+              "afraid **of**",
+              "бояться чего-то",
+              "✗ afraid **from**"
+            ],
+            [
+              "wait **for**",
+              "ждать кого-то",
+              "✗ wait **to**"
+            ],
+            [
+              "listen **to**",
+              "слушать что-то",
+              "✗ listen **at**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "Русский тянет не туда. \"Интересоваться\" по-русски без предлога — мозг хочет поставить \"interested about\" (о чём). Не выйдет: в английском это \"interested **in**\", и по-другому не бывает."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вывод: предлоги в таких сочетаниях учить **целиком** — \"afraid of\", \"good at\", \"wait for\" — как одно слово, без поиска логики."
+        }
+      ],
+      "summary": "У предлога нет фиксированного перевода: \"on\" = \"на\", \"по\", \"в\" или вообще не переводится — зависит от контекста. После многих глаголов и прилагательных предлог фиксирован: interested in, good at, afraid of, wait for, listen to. Эти сочетания учить целиком, не пытаясь вывести предлог из русского.",
+      "examples": [
+        {
+          "ru": "Вера интересуется живописью.",
+          "en": "Vera is interested in painting."
+        },
+        {
+          "ru": "Саша очень хорошо играет в теннис.",
+          "en": "Sasha is very good at tennis."
+        },
+        {
+          "ru": "Они ждут результатов уже час.",
+          "en": "They have been waiting for the results for an hour."
+        }
+      ],
+      "clarificationOptions": [
+        "Если предлог нельзя перевести отдельно — как вообще его учить?",
+        "\"Think about\" и \"think of\" — это одно и то же или разное?",
+        "Откуда узнать правильный предлог в новом сочетании?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1477,6 +1753,42 @@
       "cardId": 92,
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 68,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 93,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 14,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 93,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 18,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 94,
+      "exerciseType": "MATCHING",
+      "exerciseId": 16,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 94,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 28,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 95,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 46,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 95,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 43,
       "orderInCard": 1
     }
   ],
@@ -1857,6 +2169,30 @@
       "transcription": "[ˈnʌθɪŋ]",
       "microtopicId": 33,
       "categoryId": "language_structure"
+    },
+    {
+      "id": 282,
+      "word": "for",
+      "translation": "для, за, ради; в течение (о времени)",
+      "transcription": "[fɔːr]",
+      "microtopicId": 34,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 283,
+      "word": "of",
+      "translation": "принадлежность, состав (a cup of coffee)",
+      "transcription": "[əv]",
+      "microtopicId": 34,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 284,
+      "word": "afraid",
+      "translation": "испуганный; afraid of — бояться чего-то",
+      "transcription": "[əˈfreɪd]",
+      "microtopicId": 34,
+      "categoryId": "language_structure"
     }
   ],
   "table_fill_exercises": [],
@@ -1984,6 +2320,37 @@
         }
       ],
       "explanation": "№2 — после глагола \"see\" нужна объектная форма: \"see her\", не \"see she\". №4 — после предлога \"between\" всегда объектная форма: \"between you and me\", не \"between you and I\"."
+    },
+    {
+      "id": 46,
+      "statements": [
+        {
+          "en": "She is afraid of spiders.",
+          "ru": "Она боится пауков.",
+          "isTrue": true
+        },
+        {
+          "en": "He is interested about history.",
+          "ru": "Он интересуется историей.",
+          "isTrue": false
+        },
+        {
+          "en": "We listened to the news.",
+          "ru": "Мы слушали новости.",
+          "isTrue": true
+        },
+        {
+          "en": "I'm very good in cooking.",
+          "ru": "Я хорошо готовлю.",
+          "isTrue": false
+        },
+        {
+          "en": "They waited for the bus for an hour.",
+          "ru": "Они ждали автобус час.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — \"interested in\", не \"interested about\": фиксированное сочетание. №4 — \"good at\", не \"good in\": тоже устойчивое сочетание, которое не выводится из русского."
     }
   ],
   "word_arrangement_exercises": [
@@ -2279,6 +2646,30 @@
         }
       ],
       "explanation": "«slowly» — наречие образа действия, стоит после объекта. «Yesterday» — наречие времени, может стоять в начале предложения. «very» — наречие степени, стоит перед прилагательным «dark»."
+    },
+    {
+      "id": 28,
+      "items": [
+        {
+          "sentence": "I'm thinking ___ my trip.",
+          "contextRu": "о поездке",
+          "answer": "about",
+          "alternatives": []
+        },
+        {
+          "sentence": "Misha came ___ his friend.",
+          "contextRu": "с другом",
+          "answer": "with",
+          "alternatives": []
+        },
+        {
+          "sentence": "She ordered a glass ___ juice.",
+          "contextRu": "сока",
+          "answer": "of",
+          "alternatives": []
+        }
+      ],
+      "explanation": "\"think about\" — думать о чём-то (about = тема). \"come with\" — прийти с кем-то (with = вместе). \"a glass of juice\" — стакан сока (of = состав/содержимое)."
     }
   ],
   "dialog_restore_exercises": [],
@@ -2332,6 +2723,33 @@
         }
       ],
       "explanation": "Субъектная форма стоит перед глаголом: I, he, she, we, they. Объектная — после глагола или предлога: me, him, her, us, them. You и it одинаковы в обоих позициях."
+    },
+    {
+      "id": 16,
+      "taskDescription": "соедини предложный блок с русским переводом",
+      "pairs": [
+        {
+          "left": "for me",
+          "right": "для меня"
+        },
+        {
+          "left": "with a pen",
+          "right": "с ручкой"
+        },
+        {
+          "left": "about the film",
+          "right": "о фильме"
+        },
+        {
+          "left": "a cup of coffee",
+          "right": "чашка кофе"
+        },
+        {
+          "left": "afraid of dogs",
+          "right": "боится собак"
+        }
+      ],
+      "explanation": "for — цель/назначение (для меня). with — вместе с / при помощи (с ручкой). about — на тему (о фильме). of — состав (чашка кофе) или объект чувства (боится собак)."
     }
   ],
   "error_correction_exercises": [
@@ -2391,6 +2809,25 @@
         }
       ],
       "explanation": "«beautiful» — прилагательное, оно описывает существительное («a beautiful song»). Для описания глагола «sings» нужно наречие: «beautifully». «She sings beautiful» — распространённая ошибка: прилагательное поставили на место наречия."
+    },
+    {
+      "id": 43,
+      "wrongSentence": "He's very interested about this topic.",
+      "options": [
+        {
+          "text": "He's very interesting about this topic.",
+          "isCorrect": false
+        },
+        {
+          "text": "He's very interested in this topic.",
+          "isCorrect": true
+        },
+        {
+          "text": "He's very interested for this topic.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "\"interested\" требует предлог \"in\": \"interested in something\" — интересоваться чем-то. \"interested about\" не существует как устойчивое сочетание. \"interesting\" — другое слово: это прилагательное \"интересный\", описывает предмет, а не человека."
     }
   ],
   "construction_meaning_exercises": [],
@@ -2534,6 +2971,37 @@
         }
       ],
       "explanation": "Личные местоимения указывают на конкретного человека или предмет: she (она), us (нас), they (они). Неопределённые говорят \"кто-то / что-то\" без конкретики: someone (кто-то), nobody (никто), nothing (ничего)."
+    },
+    {
+      "id": 14,
+      "taskDescription": "раздели предложные блоки по смыслу — место, время или направление",
+      "categories": [
+        {
+          "title": "Место (где?)",
+          "items": [
+            "in the room",
+            "at work",
+            "under the table"
+          ]
+        },
+        {
+          "title": "Время (когда?)",
+          "items": [
+            "on Monday",
+            "at 5 pm",
+            "in summer"
+          ]
+        },
+        {
+          "title": "Направление (куда?/откуда?)",
+          "items": [
+            "to the park",
+            "from home",
+            "into the car"
+          ]
+        }
+      ],
+      "explanation": "\"In the room\", \"at work\", \"under the table\" — где? (место). \"On Monday\", \"at 5 pm\", \"in summer\" — когда? (время). \"To the park\", \"from home\", \"into the car\" — куда или откуда? (направление). Каждая предложная группа отвечает ровно на один вопрос."
     }
   ],
   "find_the_odd_exercises": [
@@ -2605,6 +3073,29 @@
         }
       ],
       "explanation": "«city» — существительное (называет место), оно отвечает на «что?». «beautiful», «interesting», «dark» — прилагательные: они отвечают на «какой?» и описывают существительное, а не называют что-то сами по себе."
+    },
+    {
+      "id": 18,
+      "groupDescription": "Три варианта — предложные блоки (предлог + существительное). Один — нет",
+      "items": [
+        {
+          "text": "in the morning",
+          "isOdd": false
+        },
+        {
+          "text": "at work",
+          "isOdd": false
+        },
+        {
+          "text": "quickly",
+          "isOdd": true
+        },
+        {
+          "text": "on the table",
+          "isOdd": false
+        }
+      ],
+      "explanation": "\"in the morning\", \"at work\", \"on the table\" — предложные блоки: предлог + существительное. \"quickly\" — наречие, самостоятельное слово без предлога. Оно не образует предложной группы и описывает глагол напрямую."
     }
   ]
 }
