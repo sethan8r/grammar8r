@@ -1,0 +1,1076 @@
+{
+  "grammar_topics": [
+    {
+      "id": 3,
+      "title": "Части речи",
+      "order": 2,
+      "isPretopic": false,
+      "description": "Что делает каждое слово в предложении — обзор основных частей речи через их функцию, а не академическое определение",
+      "categoryId": 1
+    }
+  ],
+  "grammar_topic_categories": [
+    {
+      "id": 1,
+      "title": "Устройство языка",
+      "description": "Как устроен английский язык на уровне логики — структура, части речи, служебные элементы",
+      "order": 2
+    }
+  ],
+  "grammar_microtopics": [
+    {
+      "id": 29,
+      "topicId": 3,
+      "title": "Noun",
+      "order": 1
+    },
+    {
+      "id": 30,
+      "topicId": 3,
+      "title": "Verb",
+      "order": 2
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 78,
+      "microtopicId": 29,
+      "title": "Существительное: слово, которое что-то называет",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Существительное — это слово, которое **называет**. Оно даёт имя всему, о чём вообще можно говорить: вещам, людям, местам, явлениям, идеям и чувствам."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что называет",
+            "Примеры"
+          ],
+          "rows": [
+            [
+              "Вещи",
+              "table *(стол)*, door *(дверь)*, book *(книга)*"
+            ],
+            [
+              "Явления природы",
+              "rain *(дождь)*, sun *(солнце)*"
+            ],
+            [
+              "Люди",
+              "teacher *(учитель)*, friend *(друг)*"
+            ],
+            [
+              "Места",
+              "city *(город)*, park *(парк)*"
+            ],
+            [
+              "Идеи и чувства",
+              "love *(любовь)*, freedom *(свобода)*, idea *(идея)*, dream *(мечта)*"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Главный вопрос для проверки",
+          "text": "отвечает ли слово на «кто?» или «что?»? Если да — перед тобой существительное."
+        },
+        {
+          "type": "paragraph",
+          "text": "*Дождь (что?) — существительное. Идея (что?) — существительное. Учитель (кто?) — существительное.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "С русским здесь много общего: там существительное тоже называет и отвечает на «кто?»/«что?». Но есть одно важное различие: в русском слово меняет форму в зависимости от роли — «стол → стол**а** → стол**у** → стол**ом**». В английском форма не меняется: «table» — всегда «table» независимо от того, где оно стоит в предложении. Роль показывает не окончание, а место — это мы уже разбирали в теме «Как думает английский язык»."
+        }
+      ],
+      "summary": "Существительное называет всё, о чём можно говорить: вещи (table, rain), людей (friend, teacher), места (city, park), идеи и чувства (love, freedom, idea). Отвечает на «кто?» или «что?». В отличие от русского, в английском форма существительного не меняется от его роли в предложении.",
+      "examples": [
+        {
+          "ru": "Солнце светит ярко.",
+          "en": "The sun shines brightly."
+        },
+        {
+          "ru": "Любовь — сильное чувство.",
+          "en": "Love is a strong feeling."
+        },
+        {
+          "ru": "Город полон жизни.",
+          "en": "The city is full of life."
+        }
+      ],
+      "clarificationOptions": [
+        "Может ли одно и то же слово быть и существительным, и глаголом?",
+        "Как понять, что перед тобой абстрактное существительное, если его нельзя увидеть?",
+        "Слово «love» — это всегда существительное?"
+      ]
+    },
+    {
+      "id": 79,
+      "microtopicId": 29,
+      "title": "Роль в предложении: субъект и объект",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Ты уже знаешь схему Subject → Verb → Object из «Основ». Так вот: именно существительные обычно занимают позиции S и O — это и есть их главная работа в предложении."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Subject** — кто или что действует. Стоит **до** глагола. Отвечает на «кто?»/«что?» делает."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Object** — на кого или что направлено действие. Стоит **после** глагола. Отвечает на «кого?»/«что?» делают."
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотри, как одни и те же слова меняют роль в зависимости от позиции:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "RU",
+            "EN",
+            "S",
+            "O"
+          ],
+          "rows": [
+            [
+              "Дождь мочит землю.",
+              "The rain soaks the ground.",
+              "rain",
+              "ground"
+            ],
+            [
+              "Земля впитывает дождь.",
+              "The ground absorbs the rain.",
+              "ground",
+              "rain"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слова «rain» и «ground» одинаковые в обоих предложениях. Меняется только их место: кто стоит перед глаголом — Subject, кто после — Object."
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском подсказкой служит окончание: «дождь → дождём», «земля → землю» — форма меняется, и ты сразу чувствуешь роль. В английском у слова нет окончания-подсказки — только место. Именно поэтому порядок в английском нельзя нарушать."
+        }
+      ],
+      "summary": "Существительное работает субъектом (кто/что действует — стоит перед глаголом) или объектом (на кого/что направлено действие — стоит после глагола). Одно и то же существительное может быть и субъектом, и объектом — всё решает позиция.",
+      "examples": [
+        {
+          "ru": "Дождь мочит землю.",
+          "en": "The rain soaks the ground."
+        },
+        {
+          "ru": "Земля впитывает дождь.",
+          "en": "The ground absorbs the rain."
+        },
+        {
+          "ru": "Друг знает правду.",
+          "en": "A friend knows the truth."
+        }
+      ],
+      "clarificationOptions": [
+        "Что если Subject — не существительное, а местоимение вроде «I» или «he»?",
+        "Может ли в предложении вообще не быть Object?",
+        "Откуда брать артикль перед существительным — «a» или «the»?"
+      ]
+    },
+    {
+      "id": 80,
+      "microtopicId": 29,
+      "title": "Три вида существительных",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Все существительные делятся на три вида — по тому, что именно они называют."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Конкретные (concrete nouns)** — вещи и явления, которые можно почувствовать: потрогать, увидеть, услышать:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*table, door, rain, sun, book, city*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Абстрактные (abstract nouns)** — то, что существует в мыслях и чувствах, но нельзя потрогать:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*love, freedom, idea, dream, friendship*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Собственные (proper nouns)** — конкретные имена: людей, городов, стран, языков, дней недели:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*John, London, Monday, Russia, English*"
+        },
+        {
+          "type": "paragraph",
+          "text": "⚠️ **Важное правило:** собственные существительные в английском **всегда** пишутся с заглавной буквы. Это строже, чем в русском — правило распространяется не только на имена людей, но и на:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что",
+            "Примеры"
+          ],
+          "rows": [
+            [
+              "Дни недели",
+              "Monday, Tuesday, Wednesday..."
+            ],
+            [
+              "Месяцы",
+              "January, February, March..."
+            ],
+            [
+              "Языки и национальности",
+              "English, Russian, French"
+            ],
+            [
+              "Города, страны",
+              "London, Moscow, Italy"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Зачем знать виды?** Пока это просто знакомство. Но дальше в курсе встретятся артикли (*a / the*) — и там у конкретных и абстрактных существительных окажутся разные правила. Сейчас важно понять: не все существительные одинаковые."
+        }
+      ],
+      "summary": "Конкретные существительные называют то, что можно почувствовать (table, rain). Абстрактные — идеи и чувства (love, freedom, idea). Собственные — имена, всегда с заглавной буквы (John, London, Monday). Деление важно для артиклей — разберём позже.",
+      "examples": [
+        {
+          "ru": "Джон живёт в Лондоне.",
+          "en": "John lives in London."
+        },
+        {
+          "ru": "Свобода — важная идея.",
+          "en": "Freedom is an important idea."
+        },
+        {
+          "ru": "Дверь ведёт в сад.",
+          "en": "The door leads to the garden."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему дни недели и месяцы — собственные? Они же не «имена»?",
+        "«English» в значении «английский язык» — это тоже собственное?",
+        "Названия продуктов и брендов тоже всегда с заглавной?"
+      ]
+    },
+    {
+      "id": 81,
+      "microtopicId": 30,
+      "title": "Глагол: без него нет предложения",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Глагол — обязательный центр любого предложения. Без него набор слов остаётся просто набором слов, а не предложением."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравни:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Набор слов (не предложение)",
+            "Предложение"
+          ],
+          "rows": [
+            [
+              "The cat on the table.",
+              "The cat **sits** on the table."
+            ],
+            [
+              "Maria every evening.",
+              "Maria **reads** every evening."
+            ],
+            [
+              "Cold outside today.",
+              "It **is** cold outside today."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В первом столбце что-то явно не так — и причина одна: нет глагола. Добавь глагол — и сразу понятно, что происходит."
+        },
+        {
+          "type": "paragraph",
+          "text": "Функциональный вопрос для проверки: «что делает?» / «что происходит?» — если есть ответ на этот вопрос, значит глагол есть."
+        },
+        {
+          "type": "paragraph",
+          "text": "Именно поэтому в алгоритме разбора предложения из темы «Как думает английский язык» первый шаг — найди глагол. Всё остальное (субъект, объект, обстоятельства) строится вокруг него."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Сравнение с русским",
+          "text": "в русском тоже нельзя убрать глагол — «Кот на столе» без контекста звучит неполно. Но есть разница: русский иногда опускает глагол-связку («Он устал»), а английский — никогда: «He **is** tired» — `is` обязателен всегда."
+        }
+      ],
+      "summary": "Глагол — обязательный центр предложения. Без него слова не складываются в смысл. Функциональный вопрос: «что делает?» / «что происходит?». В отличие от русского, английский никогда не опускает глагол-связку: «He is tired», а не просто «He tired».",
+      "examples": [
+        {
+          "ru": "Кот сидит на столе.",
+          "en": "The cat sits on the table."
+        },
+        {
+          "ru": "Мария читает каждый вечер.",
+          "en": "Maria reads every evening."
+        },
+        {
+          "ru": "На улице сегодня холодно.",
+          "en": "It is cold outside today."
+        }
+      ],
+      "clarificationOptions": [
+        "Что такое глагол-связка и почему его нельзя опустить в английском?",
+        "Может ли в предложении быть два глагола?",
+        "Как отличить глагол от существительного с похожим написанием?"
+      ]
+    },
+    {
+      "id": 82,
+      "microtopicId": 30,
+      "title": "Два вида глаголов: действие и состояние",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Все глаголы делятся на два функциональных вида."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Глаголы действия (dynamic verbs)** — описывают то, что происходит: движение, изменение, процесс. Что-то меняется или совершается."
+        },
+        {
+          "type": "paragraph",
+          "text": "*to run *(бегать)*, to eat *(есть)*, to write *(писать)*, to sleep *(спать)*, to call *(звонить)*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Глаголы состояния (stative verbs)** — описывают то, что просто существует: положение вещей, ощущение, знание. Ничего не происходит — оно просто есть."
+        },
+        {
+          "type": "paragraph",
+          "text": "*to be *(быть)*, to seem *(казаться)*, to know *(знать)*, to feel *(чувствовать)*, to love *(любить)*"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Как проверить",
+          "text": "попробуй поставить вопрос «прямо сейчас это происходит?» Если да — скорее всего глагол действия. Если это просто факт, который существует, — глагол состояния."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Тип",
+            "Примеры",
+            "Вопрос"
+          ],
+          "rows": [
+            [
+              "Действие",
+              "She **runs** to school.",
+              "Что она делает прямо сейчас? Бежит."
+            ],
+            [
+              "Состояние",
+              "She **knows** three languages.",
+              "Прямо сейчас происходит «знание»? Нет — это просто факт."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Зачем знать это деление?** Позже в курсе встретятся времена Continuous — и там это деление окажется важным: глаголы действия в Continuous используются свободно, а глаголы состояния — нет. Сейчас просто запоминаем: глаголы бывают разных «характеров»."
+        }
+      ],
+      "summary": "Глаголы действия описывают то, что происходит: to run, to eat, to write. Глаголы состояния описывают то, что просто существует: to be, to know, to seem, to feel. Деление важно для времён Continuous — разберём позже.",
+      "examples": [
+        {
+          "ru": "Он бежит в школу каждое утро.",
+          "en": "He runs to school every morning."
+        },
+        {
+          "ru": "Она знает три языка.",
+          "en": "She knows three languages."
+        },
+        {
+          "ru": "Они выглядят уставшими после поездки.",
+          "en": "They seem tired after the trip."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быть с глаголами, которые могут быть и действием, и состоянием — например, to think?",
+        "Почему to love — состояние, а не действие?",
+        "Это деление важно прямо сейчас или только позже?"
+      ]
+    },
+    {
+      "id": 83,
+      "microtopicId": 30,
+      "title": "Одно слово — глагол или существительное?",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Многие английские слова могут быть и глаголом, и существительным — в зависимости от позиции в предложении. Это прямое следствие того, что английский не меняет форму слова: нет окончания — нет подсказки."
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотри на слово **love**:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "RU",
+            "EN",
+            "Роль"
+          ],
+          "rows": [
+            [
+              "Я люблю этот город.",
+              "I **love** this city.",
+              "глагол (что делаю?)"
+            ],
+            [
+              "Их любовь сильна.",
+              "Their **love** is strong.",
+              "существительное (что?)"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И слово **run**:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "RU",
+            "EN",
+            "Роль"
+          ],
+          "rows": [
+            [
+              "Они бегают каждое утро.",
+              "They **run** every morning.",
+              "глагол (что делают?)"
+            ],
+            [
+              "У нас была долгая пробежка.",
+              "We had a long **run**.",
+              "существительное (что у нас было?)"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Как определить роль",
+          "text": "посмотри, где стоит слово. Если оно перед глаголом или занимает место субъекта/объекта — скорее всего существительное. Если оно само и есть глагол (описывает действие или состояние) — глагол."
+        },
+        {
+          "type": "paragraph",
+          "text": "Именно поэтому важно понимать части речи: не само слово определяет роль, а его место и функция в предложении."
+        }
+      ],
+      "summary": "Одно английское слово может быть и глаголом, и существительным — форма не меняется. Роль определяет позиция: глагол стоит там, где описывает действие или состояние; существительное — там, где называет что-то (субъект или объект).",
+      "examples": [
+        {
+          "ru": "Я люблю этот город.",
+          "en": "I love this city."
+        },
+        {
+          "ru": "Их любовь сильна.",
+          "en": "Their love is strong."
+        },
+        {
+          "ru": "Они бегают каждое утро.",
+          "en": "They run every morning."
+        },
+        {
+          "ru": "У нас была долгая пробежка.",
+          "en": "We had a long run."
+        }
+      ],
+      "clarificationOptions": [
+        "Как не запутаться, если слово стоит в начале предложения — оно субъект (существительное) или глагол?",
+        "Есть ли правило, по которому можно предсказать, у каких слов бывает двойная роль?",
+        "Это только у глаголов и существительных так, или у прилагательных тоже?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 78,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 10,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 78,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 66,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 79,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 43,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 79,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 17,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 80,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 15,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 80,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 40,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 81,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 42,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 81,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 44,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 82,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 11,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 82,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 18,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 83,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 16,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 83,
+      "exerciseType": "MATCHING",
+      "exerciseId": 14,
+      "orderInCard": 1
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "language_structure",
+      "nameRus": "Устройство языка",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "language_structure",
+      "nameRus": "Language Structure",
+      "groupId": "language_structure",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 237,
+      "word": "sun",
+      "translation": "солнце",
+      "transcription": "[sʌn]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 238,
+      "word": "rain",
+      "translation": "дождь",
+      "transcription": "[reɪn]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 239,
+      "word": "city",
+      "translation": "город",
+      "transcription": "[ˈsɪti]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 240,
+      "word": "table",
+      "translation": "стол",
+      "transcription": "[ˈteɪbl]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 241,
+      "word": "door",
+      "translation": "дверь",
+      "transcription": "[dɔː]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 242,
+      "word": "love",
+      "translation": "любовь",
+      "transcription": "[lʌv]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 243,
+      "word": "freedom",
+      "translation": "свобода",
+      "transcription": "[ˈfriːdəm]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 244,
+      "word": "idea",
+      "translation": "идея",
+      "transcription": "[aɪˈdɪə]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 245,
+      "word": "dream",
+      "translation": "мечта",
+      "transcription": "[driːm]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 246,
+      "word": "truth",
+      "translation": "правда",
+      "transcription": "[truːθ]",
+      "microtopicId": 29,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 247,
+      "word": "to run",
+      "translation": "бегать, бежать",
+      "transcription": "[rʌn]",
+      "microtopicId": 30,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 248,
+      "word": "to eat",
+      "translation": "есть, кушать",
+      "transcription": "[iːt]",
+      "microtopicId": 30,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 249,
+      "word": "to write",
+      "translation": "писать",
+      "transcription": "[raɪt]",
+      "microtopicId": 30,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 250,
+      "word": "to sleep",
+      "translation": "спать",
+      "transcription": "[sliːp]",
+      "microtopicId": 30,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 251,
+      "word": "to seem",
+      "translation": "казаться, выглядеть",
+      "transcription": "[siːm]",
+      "microtopicId": 30,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 252,
+      "word": "to know",
+      "translation": "знать",
+      "transcription": "[noʊ]",
+      "microtopicId": 30,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 253,
+      "word": "to feel",
+      "translation": "чувствовать",
+      "transcription": "[fiːl]",
+      "microtopicId": 30,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 254,
+      "word": "to look",
+      "translation": "смотреть, выглядеть",
+      "transcription": "[lʊk]",
+      "microtopicId": 30,
+      "categoryId": "language_structure"
+    }
+  ],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 42,
+      "statements": [
+        {
+          "en": "The dog runs in the park.",
+          "ru": "Собака бежит в парке.",
+          "isTrue": true
+        },
+        {
+          "en": "The cat on the table.",
+          "ru": "Кот на столе.",
+          "isTrue": false
+        },
+        {
+          "en": "Maria reads every evening.",
+          "ru": "Мария читает каждый вечер.",
+          "isTrue": true
+        },
+        {
+          "en": "Cold outside today.",
+          "ru": "На улице сегодня холодно.",
+          "isTrue": false
+        },
+        {
+          "en": "The children play football after school.",
+          "ru": "Дети играют в футбол после школы.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — нет глагола: непонятно, что кот делает на столе (сидит? лежит? стоит?). Нужно добавить, например, «sits». №4 — в английском нельзя опустить глагол-связку: должно быть «It is cold outside today»."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 43,
+      "situationRu": "RU: Мечта вдохновляет команду.",
+      "correctSentence": "A dream inspires the team.",
+      "words": [
+        {
+          "text": "A dream",
+          "translation": "Мечта"
+        },
+        {
+          "text": "inspires",
+          "translation": "вдохновляет"
+        },
+        {
+          "text": "the team",
+          "translation": "команду"
+        }
+      ],
+      "distractors": [
+        {
+          "text": "team the",
+          "translation": ""
+        },
+        {
+          "text": "a inspiring",
+          "translation": ""
+        }
+      ],
+      "explanation": "Subject (A dream) → Verb (inspires) → Object (the team). «team the» — артикль всегда идёт перед существительным: «the team», а не «team the». «a inspiring» — неверная форма глагола для единственного числа и к тому же форма причастия — здесь нужен простой глагол «inspires»."
+    },
+    {
+      "id": 44,
+      "situationRu": "RU: Маша пишет письмо каждый вечер.",
+      "correctSentence": "Masha writes a letter every evening.",
+      "words": [
+        {
+          "text": "Masha",
+          "translation": ""
+        },
+        {
+          "text": "writes",
+          "translation": "пишет"
+        },
+        {
+          "text": "a letter",
+          "translation": "письмо"
+        },
+        {
+          "text": "every evening",
+          "translation": "каждый вечер"
+        }
+      ],
+      "distractors": [
+        {
+          "text": "letter a",
+          "translation": ""
+        },
+        {
+          "text": "writing every",
+          "translation": ""
+        }
+      ],
+      "explanation": "Subject (Masha) → Verb (writes) → Object (a letter) → обстоятельство (every evening). «letter a» — артикль идёт перед существительным. «writing every» — неверная форма глагола: для утвердительного предложения в простом настоящем нужен «writes»."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 66,
+      "choiceType": "CHOICE",
+      "prompt": "The ___ shines in the sky.",
+      "contextRu": "Солнце светит в небе.",
+      "options": [
+        {
+          "text": "sun",
+          "isCorrect": true
+        },
+        {
+          "text": "quickly",
+          "isCorrect": false
+        },
+        {
+          "text": "beautiful",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В позиции Subject нужно слово, отвечающее на «что?» — то есть существительное. «sun» (солнце) — существительное. «quickly» — наречие, «beautiful» — прилагательное; занять место Subject они не могут."
+    },
+    {
+      "id": 17,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The rain soaks the ground.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Земля мочит дождь.",
+          "isCorrect": false
+        },
+        {
+          "text": "Дождь мочит землю.",
+          "isCorrect": true
+        },
+        {
+          "text": "Дождь и земля промокают.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«The rain» стоит перед глаголом «soaks» — это Subject (именно дождь действует). «The ground» стоит после — это Object (земля получает действие). Поменяй их местами — получится противоположный смысл."
+    },
+    {
+      "id": 18,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I know this city well.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я хорошо узнаю этот город.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я хорошо знаю этот город.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я хорошо узнал этот город.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«to know» — глагол состояния: знание существует как факт, а не как процесс. «Я знаю» — это состояние прямо сейчас. «Узнаю» подразумевало бы процесс узнавания, а «узнал» — завершённое действие в прошлом. Правильный перевод — «знаю»."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 14,
+      "taskDescription": "Определи роль выделенного слова в каждом предложении",
+      "pairs": [
+        {
+          "left": "I **love** this place.",
+          "right": "глагол"
+        },
+        {
+          "left": "**Love** is patient.",
+          "right": "существительное"
+        },
+        {
+          "left": "We had a great **run**.",
+          "right": "существительное"
+        },
+        {
+          "left": "They **run** every day.",
+          "right": "глагол"
+        }
+      ],
+      "explanation": "«I love» — love стоит после субъекта и описывает действие/состояние: глагол. «Love is» — love стоит перед глаголом is, занимает позицию субъекта: существительное. «Had a run» — run стоит после артикля «a», занимает позицию объекта: существительное. «They run» — run стоит после субъекта, описывает действие: глагол."
+    }
+  ],
+  "error_correction_exercises": [
+    {
+      "id": 40,
+      "wrongSentence": "kate moved to london last monday.",
+      "options": [
+        {
+          "text": "Kate moved to london last Monday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kate moved to London last Monday.",
+          "isCorrect": true
+        },
+        {
+          "text": "Kate moved to London last monday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«kate», «london» и «monday» — собственные существительные (имя человека, название города, день недели). В английском они все пишутся с заглавной буквы: «Kate», «London», «Monday». Первые два варианта оставляют что-то строчным — оба неверны."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 10,
+      "taskDescription": "Определи, какие слова — существительные, а какие — нет",
+      "categories": [
+        {
+          "title": "Существительное",
+          "items": [
+            "sun",
+            "table",
+            "love",
+            "city",
+            "rain",
+            "freedom"
+          ]
+        },
+        {
+          "title": "Не существительное",
+          "items": [
+            "quickly",
+            "beautiful",
+            "slowly",
+            "happy"
+          ]
+        }
+      ],
+      "explanation": "Существительное называет кого-то или что-то: «sun» (что?), «love» (что?), «city» (что?) — все проходят проверку. «quickly», «slowly» — наречия (как?), «beautiful», «happy» — прилагательные (какой?) — они описывают или уточняют, но не называют."
+    },
+    {
+      "id": 11,
+      "taskDescription": "Разложи глаголы по видам — действие или состояние",
+      "categories": [
+        {
+          "title": "Действие",
+          "items": [
+            "to run",
+            "to eat",
+            "to write",
+            "to sleep"
+          ]
+        },
+        {
+          "title": "Состояние",
+          "items": [
+            "to be",
+            "to seem",
+            "to know",
+            "to feel"
+          ]
+        }
+      ],
+      "explanation": "Глаголы действия описывают то, что происходит или совершается: to run, to eat, to write, to sleep — всё это процессы. Глаголы состояния описывают факт, который просто существует: to be, to seem, to know, to feel — это не «происходит», оно просто «есть»."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 15,
+      "groupDescription": "Три слова — абстрактные существительные. Одно — конкретное. Найди его",
+      "items": [
+        {
+          "text": "love",
+          "isOdd": false
+        },
+        {
+          "text": "freedom",
+          "isOdd": false
+        },
+        {
+          "text": "city",
+          "isOdd": true
+        },
+        {
+          "text": "dream",
+          "isOdd": false
+        }
+      ],
+      "explanation": "«city» — конкретное существительное: это реальное место, которое можно увидеть и попасть туда. «love», «freedom», «dream» — абстрактные: они существуют как идеи и чувства, но потрогать их нельзя."
+    },
+    {
+      "id": 16,
+      "groupDescription": "В трёх предложениях «run» — глагол. В одном — существительное. Найди его",
+      "items": [
+        {
+          "text": "They run every morning.",
+          "isOdd": false
+        },
+        {
+          "text": "The children run in the garden.",
+          "isOdd": false
+        },
+        {
+          "text": "We had a short run yesterday.",
+          "isOdd": true
+        },
+        {
+          "text": "She runs to the station.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В третьем предложении «run» стоит после глагола «had» на месте объекта — это существительное («пробежка»). В остальных трёх «run» само является глаголом предложения и описывает действие."
+    }
+  ]
+}
