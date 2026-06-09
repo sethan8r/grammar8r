@@ -53,6 +53,12 @@
       "topicId": 3,
       "title": "Preposition",
       "order": 6
+    },
+    {
+      "id": 35,
+      "topicId": 3,
+      "title": "Conjunction",
+      "order": 7
     }
   ],
   "grammar_cards": [
@@ -1392,7 +1398,7 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "В Основах ты разбирал предлоги места (in/on/at), времени и направления (to/from). Все они отвечают на физические вопросы — где, когда, куда."
+          "text": "В Основах мы разбирали предлоги места (in/on/at), времени и направления (to/from). Все они отвечают на физические вопросы — где, когда, куда."
         },
         {
           "type": "paragraph",
@@ -1571,6 +1577,384 @@
         "Если предлог нельзя перевести отдельно — как вообще его учить?",
         "\"Think about\" и \"think of\" — это одно и то же или разное?",
         "Откуда узнать правильный предлог в новом сочетании?"
+      ]
+    },
+    {
+      "id": 96,
+      "microtopicId": 35,
+      "title": "Союз: соединяет, а не называет и не описывает",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Каждая часть речи выполняет свою работу. Существительное называет. Глагол описывает действие. Прилагательное описывает существительное. А союз **соединяет** — слова, фразы или целые предложения."
+        },
+        {
+          "type": "paragraph",
+          "text": "Без союзов речь рассыпается на короткие рубленые куски:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"I was tired. I went to bed. I couldn't sleep.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "С союзами — складывается в связную мысль:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"I was tired **but** I couldn't sleep, **so** I just lay there.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском союзы делятся на два вида по тому, как они соединяют:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Сочинительные** — соединяют равные части. Обе части независимы и могут стоять сами по себе:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "*I like coffee **and** I like tea.* — два равных факта",
+            "*She is tired **but** she is working.* — два равных, но противоположных факта"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Подчинительные** — одна часть объясняет, обусловливает или уточняет другую. Зависимая часть без главной — неполная мысль:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "*I stayed home **because** it was raining.* — причина",
+            "*Call me **when** you arrive.* — условие во времени",
+            "*I'll help **if** you need me.* — условие"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Союзы which, and, but, because, or, when — мы уже встречали в Основах. Сейчас добавим новые."
+        }
+      ],
+      "summary": "Союз соединяет части предложения. Сочинительные (and, but, or) — соединяют равные части, обе стоят самостоятельно. Подчинительные (because, when, if, that) — одна часть зависит от другой: объясняет, обусловливает или уточняет.",
+      "examples": [
+        {
+          "ru": "Я устал, но не мог заснуть.",
+          "en": "I was tired but I couldn't sleep."
+        },
+        {
+          "ru": "Позвони мне, когда приедешь.",
+          "en": "Call me when you arrive."
+        },
+        {
+          "ru": "Я остался дома, потому что шёл дождь.",
+          "en": "I stayed home because it was raining."
+        }
+      ],
+      "clarificationOptions": [
+        "Сочинительный союз всегда стоит между частями или может быть в начале?",
+        "Подчинительная часть всегда стоит после главной?",
+        "Чем союз отличается от предлога — оба же \"соединяют\"?"
+      ]
+    },
+    {
+      "id": 97,
+      "microtopicId": 35,
+      "title": "when / if / so / that — четыре новых союза",
+      "order": 2,
+      "theory": [
+        {
+          "type": "heading",
+          "text": "`when` — когда (как союз, не как вопрос)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `when` мы уже знаем как вопросительное слово: *\"When did you arrive?\" — Когда ты приехал?* Но то же слово работает и как союз — тогда оно не спрашивает, а связывает два события:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"I drink coffee **when** I wake up.\" — Я пью кофе, когда просыпаюсь.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"**When** it rains, I stay home.\" — Когда идёт дождь, я остаюсь дома.*"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "\"When did you arrive?\" — вопрос (when в начале, инверсия). \"I'll call when I arrive.\" — союз (when в середине, порядок прямой)."
+        },
+        {
+          "type": "heading",
+          "text": "`if` — если"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"I'll help you **if** you need me.\" — Я помогу тебе, если понадоблюсь.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"**If** it's cold, wear a jacket.\" — Если холодно, надень куртку.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "`if` вводит условие. Без условия — действие не происходит или неизвестно."
+        },
+        {
+          "type": "heading",
+          "text": "`so` — поэтому, так что"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"I was tired, **so** I went to bed.\" — Я устал, поэтому лёг спать.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"It was raining, **so** we stayed inside.\" — Шёл дождь, так что мы остались дома.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "`so` вводит следствие: первая часть — причина, вторая — результат. В отличие от `because`, здесь причина идёт первой."
+        },
+        {
+          "type": "heading",
+          "text": "`that` — что (вводит придаточное)"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"I know **that** he is right.\" — Я знаю, что он прав.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"She said **that** she was tired.\" — Она сказала, что устала.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "`that` вводит новую часть предложения после глаголов мысли и речи: know, think, say, believe, hear, understand. Важный нюанс: `that` в этой роли часто опускают — предложение остаётся правильным:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"I know he is right.\"* = *\"I know **that** he is right.\"* — оба варианта верны."
+        }
+      ],
+      "summary": "when (когда) как союз связывает два события — в отличие от вопросительного when. if (если) вводит условие. so (поэтому) вводит следствие: сначала причина, потом результат. that (что) вводит придаточное после глаголов мысли и речи; часто опускается.",
+      "examples": [
+        {
+          "ru": "Лена думает, что это хорошая идея.",
+          "en": "Lena thinks that this is a good idea."
+        },
+        {
+          "ru": "Если будет дождь, мы останемся дома.",
+          "en": "If it rains, we will stay home."
+        },
+        {
+          "ru": "Он устал, поэтому рано лёг.",
+          "en": "He was tired, so he went to bed early."
+        }
+      ],
+      "clarificationOptions": [
+        "Можно ли начинать предложение с \"so\"?",
+        "\"that\" можно всегда опускать или только в определённых случаях?",
+        "Чем \"when\" как союз отличается от \"when\" как вопроса — по структуре предложения?"
+      ]
+    },
+    {
+      "id": 98,
+      "microtopicId": 35,
+      "title": "than — союз сравнения",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`than` — союз, который завершает сравнение. Сам по себе он пустой: смысл рождается только в паре с прилагательным в сравнительной форме."
+        },
+        {
+          "type": "heading",
+          "text": "Как строится сравнение:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Короткое прилагательное (1–2 слога) добавляет `-er`:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Обычная форма",
+            "Сравнительная",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "tall — высокий",
+              "tall**er**",
+              "She is tall**er** **than** me. — *Она выше меня.*"
+            ],
+            [
+              "fast — быстрый",
+              "fast**er**",
+              "He runs fast**er** **than** I do. — *Он бегает быстрее меня.*"
+            ],
+            [
+              "old — старый",
+              "old**er**",
+              "This building is old**er** **than** that one. — *Это здание старше того.*"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Длинное прилагательное (3+ слога) использует `more`:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*This film is **more** interesting **than** that one. — Этот фильм интереснее того.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*English is **more** difficult **than** I thought. — Английский сложнее, чем я думал.*"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "`than` как союз",
+          "text": "он соединяет две части сравнения — то что больше/быстрее/старше, и то с чем сравниваем. Уберёшь `than` — сравнение обрывается на полуслове: *\"She is taller...\"* — тaller чем что?"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "text": "Два особых случая — `good → better` и `bad → worse`. Они не по правилу, просто запомнить:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"This coffee is **better than** yesterday's.\" — Этот кофе лучше вчерашнего.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"Today's weather is **worse than** yesterday's.\" — Сегодняшняя погода хуже вчерашней.*"
+        }
+      ],
+      "summary": "than — союз сравнения: завершает конструкцию \"прилагательное + than\". Короткие прилагательные: tall → taller than. Длинные: more interesting than. Исключения: good → better than, bad → worse than. Без than сравнение не закончено.",
+      "examples": [
+        {
+          "ru": "Саша бегает быстрее Димы.",
+          "en": "Sasha runs faster than Dima."
+        },
+        {
+          "ru": "Этот фильм интереснее того.",
+          "en": "This film is more interesting than that one."
+        },
+        {
+          "ru": "Сегодня хуже, чем вчера.",
+          "en": "Today is worse than yesterday."
+        }
+      ],
+      "clarificationOptions": [
+        "\"more big\" или \"bigger\" — как понять когда что?",
+        "Почему \"good\" → \"better\", а не \"gooder\"?",
+        "\"than me\" или \"than I\" — что правильно?"
+      ]
+    },
+    {
+      "id": 99,
+      "microtopicId": 35,
+      "title": "Подчинительный союз: зависимая часть может быть в начале",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "С подчинительными союзами (because, when, if) зависимая часть может стоять как в конце, так и в начале предложения — оба варианта правильные:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Зависимая часть в конце** — самый частый порядок:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"I stay home **if it rains**.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"Call me **when you arrive**.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "*\"She left early **because she was tired**.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Зависимая часть в начале** — акцент на условии или времени:"
+        },
+        {
+          "type": "paragraph",
+          "text": "***\"If it rains**, I stay home.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "***\"When you arrive**, call me.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "***\"Because she was tired**, she left early.*\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница только в акценте — смысл одинаковый."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Правило запятой",
+          "text": "когда зависимая часть стоит **в начале** — после неё ставится запятая. Когда в конце — запятая не нужна."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Порядок",
+            "Пример",
+            "Запятая"
+          ],
+          "rows": [
+            [
+              "Главная + зависимая",
+              "I stay home if it rains.",
+              "Нет"
+            ],
+            [
+              "Зависимая + главная",
+              "If it rains, I stay home.",
+              "Да"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском тот же принцип: \"Если дождь — остаюсь дома\" / \"Остаюсь дома, если дождь\". Так что здесь интуиция не подведёт."
+        }
+      ],
+      "summary": "Зависимая часть с because/when/if может стоять в начале или в конце — смысл одинаковый. Когда зависимая часть в начале — после неё запятая. Когда в конце — запятой нет.",
+      "examples": [
+        {
+          "ru": "Я остаюсь дома, если идёт дождь.",
+          "en": "I stay home if it rains."
+        },
+        {
+          "ru": "Если идёт дождь, я остаюсь дома.",
+          "en": "If it rains, I stay home."
+        },
+        {
+          "ru": "Позвони мне, когда придёшь домой.",
+          "en": "Call me when you get home."
+        }
+      ],
+      "clarificationOptions": [
+        "Правило запятой работает только с if/when/because или со всеми подчинительными союзами?",
+        "Можно ли начинать предложение с \"because\" в разговорной речи?",
+        "\"So\" тоже может стоять в начале предложения?"
       ]
     }
   ],
@@ -1789,6 +2173,60 @@
       "cardId": 95,
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 43,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 96,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 15,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 96,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 19,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 97,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 62,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 97,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 29,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 98,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 13,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 98,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 69,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 98,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 46,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 99,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 47,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 99,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 44,
       "orderInCard": 1
     }
   ],
@@ -2193,6 +2631,38 @@
       "transcription": "[əˈfreɪd]",
       "microtopicId": 34,
       "categoryId": "language_structure"
+    },
+    {
+      "id": 285,
+      "word": "if",
+      "translation": "если",
+      "transcription": "[ɪf]",
+      "microtopicId": 35,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 286,
+      "word": "so",
+      "translation": "поэтому, так что",
+      "transcription": "[soʊ]",
+      "microtopicId": 35,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 287,
+      "word": "than",
+      "translation": "чем (в сравнениях)",
+      "transcription": "[ðæn]",
+      "microtopicId": 35,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 288,
+      "word": "that",
+      "translation": "что (союз: I know that...)",
+      "transcription": "[ðæt]",
+      "microtopicId": 35,
+      "categoryId": "language_structure"
     }
   ],
   "table_fill_exercises": [],
@@ -2351,6 +2821,37 @@
         }
       ],
       "explanation": "№2 — \"interested in\", не \"interested about\": фиксированное сочетание. №4 — \"good at\", не \"good in\": тоже устойчивое сочетание, которое не выводится из русского."
+    },
+    {
+      "id": 47,
+      "statements": [
+        {
+          "en": "I'll call you when I arrive.",
+          "ru": "Я позвоню тебе, когда приеду.",
+          "isTrue": true
+        },
+        {
+          "en": "When I arrive I'll call you.",
+          "ru": "Когда приеду, позвоню тебе.",
+          "isTrue": false
+        },
+        {
+          "en": "If it rains, we stay inside.",
+          "ru": "Если дождь, мы остаёмся дома.",
+          "isTrue": true
+        },
+        {
+          "en": "Because she was tired she left early.",
+          "ru": "Потому что устала, она ушла рано.",
+          "isTrue": false
+        },
+        {
+          "en": "She left early because she was tired.",
+          "ru": "Она ушла рано, потому что устала.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — зависимая часть \"When I arrive\" стоит в начале, нужна запятая: \"When I arrive, I'll call you.\" №4 — то же: \"Because she was tired, she left early.\""
     }
   ],
   "word_arrangement_exercises": [
@@ -2447,6 +2948,40 @@
         }
       ],
       "explanation": "Прилагательное «long» стоит перед существительным «scarf»: «a long scarf», не «a scarf long». «scarf long» — неверный порядок. «a longest» — это превосходная степень (самый длинный), а не обычная форма прилагательного."
+    },
+    {
+      "id": 46,
+      "situationRu": "RU: Игорь старше меня на три года.",
+      "correctSentence": "Igor is three years older than me.",
+      "words": [
+        {
+          "text": "Igor",
+          "translation": ""
+        },
+        {
+          "text": "is",
+          "translation": ""
+        },
+        {
+          "text": "three years older",
+          "translation": "на три года старше"
+        },
+        {
+          "text": "than me",
+          "translation": "чем я"
+        }
+      ],
+      "distractors": [
+        {
+          "text": "more old",
+          "translation": ""
+        },
+        {
+          "text": "as me",
+          "translation": ""
+        }
+      ],
+      "explanation": "\"old\" — короткое прилагательное, сравнительная форма: older (не \"more old\"). Союз сравнения — than (не as). \"three years older than\" — стандартная конструкция для разницы в возрасте/размере/расстоянии."
     }
   ],
   "multiple_choice_exercises": [
@@ -2596,6 +3131,48 @@
         }
       ],
       "explanation": "\"Someone\" (кто-то) — неопределённое местоимение для человека, когда не знаем кто. \"Nobody\" (никто) даёт противоположный смысл — отрицание. \"Nothing\" (ничего) — для событий и предметов, не для людей."
+    },
+    {
+      "id": 62,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я помогу тебе, ___ ты попросишь.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "so",
+          "isCorrect": false
+        },
+        {
+          "text": "that",
+          "isCorrect": false
+        },
+        {
+          "text": "if",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "\"если ты попросишь\" — условие: действие произойдёт при определённом условии. if = если. \"so\" вводит следствие (поэтому), \"that\" вводит придаточное после глаголов мысли/речи — здесь ни то, ни другое."
+    },
+    {
+      "id": 69,
+      "choiceType": "CHOICE",
+      "prompt": "Moscow is ___ Saint Petersburg.",
+      "contextRu": "Москва больше Санкт-Петербурга.",
+      "options": [
+        {
+          "text": "more big than",
+          "isCorrect": false
+        },
+        {
+          "text": "bigger as",
+          "isCorrect": false
+        },
+        {
+          "text": "bigger than",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "\"big\" — короткое прилагательное (1 слог), поэтому сравнительная форма: bigger (удвоение g). Союз сравнения — than, не as. \"more big\" — ошибка: с короткими прилагательными more не используют."
     }
   ],
   "text_input_exercises": [
@@ -2670,6 +3247,30 @@
         }
       ],
       "explanation": "\"think about\" — думать о чём-то (about = тема). \"come with\" — прийти с кем-то (with = вместе). \"a glass of juice\" — стакан сока (of = состав/содержимое)."
+    },
+    {
+      "id": 29,
+      "items": [
+        {
+          "sentence": "I believe ___ you are right.",
+          "contextRu": "что ты прав",
+          "answer": "that",
+          "alternatives": []
+        },
+        {
+          "sentence": "It was very hot, ___ we opened the window.",
+          "contextRu": "поэтому",
+          "answer": "so",
+          "alternatives": []
+        },
+        {
+          "sentence": "I always feel happy ___ I listen to music.",
+          "contextRu": "когда",
+          "answer": "when",
+          "alternatives": []
+        }
+      ],
+      "explanation": "\"believe that\" — глагол убеждения вводит придаточное через that. \"It was hot, so...\" — причина и следствие: so вводит результат. \"feel happy when\" — событие во времени: when = когда (не вопрос, а связка двух действий)."
     }
   ],
   "dialog_restore_exercises": [],
@@ -2828,6 +3429,25 @@
         }
       ],
       "explanation": "\"interested\" требует предлог \"in\": \"interested in something\" — интересоваться чем-то. \"interested about\" не существует как устойчивое сочетание. \"interesting\" — другое слово: это прилагательное \"интересный\", описывает предмет, а не человека."
+    },
+    {
+      "id": 44,
+      "wrongSentence": "If it rains I stay home.",
+      "options": [
+        {
+          "text": "When it rains I stay home.",
+          "isCorrect": false
+        },
+        {
+          "text": "If it rains, I stay home.",
+          "isCorrect": true
+        },
+        {
+          "text": "If it rains: I stay home.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Зависимая часть \"If it rains\" стоит в начале предложения — после неё нужна запятая. Двоеточие в этой конструкции не используется."
     }
   ],
   "construction_meaning_exercises": [],
@@ -2869,6 +3489,25 @@
         }
       ],
       "explanation": "Местоимение встаёт на место существительного-субъекта. Женщина → she. Несколько людей или предметов → they. Предмет или животное → it. Форма зависит от того, кого или что заменяем."
+    },
+    {
+      "id": 13,
+      "taskDescription": "составь сравнение по образцу: [A] is [прилагательное-er / more + прилагательное] than [B]",
+      "items": [
+        {
+          "original": "Vera / tall / Olya",
+          "transformed": "Vera is taller than Olya."
+        },
+        {
+          "original": "This road / long / that road",
+          "transformed": "This road is longer than that road."
+        },
+        {
+          "original": "English / difficult / Spanish",
+          "transformed": "English is more difficult than Spanish."
+        }
+      ],
+      "explanation": "Короткие прилагательные (tall, long) — добавляем -er + than. Длинные (difficult, interesting) — more + прилагательное + than. Форма самого прилагательного не меняется в конструкции с more."
     }
   ],
   "categorization_exercises": [
@@ -3002,6 +3641,29 @@
         }
       ],
       "explanation": "\"In the room\", \"at work\", \"under the table\" — где? (место). \"On Monday\", \"at 5 pm\", \"in summer\" — когда? (время). \"To the park\", \"from home\", \"into the car\" — куда или откуда? (направление). Каждая предложная группа отвечает ровно на один вопрос."
+    },
+    {
+      "id": 15,
+      "taskDescription": "раздели союзы на сочинительные и подчинительные",
+      "categories": [
+        {
+          "title": "Сочинительные",
+          "items": [
+            "and",
+            "but",
+            "or"
+          ]
+        },
+        {
+          "title": "Подчинительные",
+          "items": [
+            "because",
+            "when",
+            "if"
+          ]
+        }
+      ],
+      "explanation": "Сочинительные (and, but, or) соединяют равные части — каждая часть самостоятельна. Подчинительные (because, when, if) вводят зависимую часть: она объясняет или обусловливает главную и не стоит отдельно без неё."
     }
   ],
   "find_the_odd_exercises": [
@@ -3096,6 +3758,29 @@
         }
       ],
       "explanation": "\"in the morning\", \"at work\", \"on the table\" — предложные блоки: предлог + существительное. \"quickly\" — наречие, самостоятельное слово без предлога. Оно не образует предложной группы и описывает глагол напрямую."
+    },
+    {
+      "id": 19,
+      "groupDescription": "Три слова — союзы. Одно — нет",
+      "items": [
+        {
+          "text": "because",
+          "isOdd": false
+        },
+        {
+          "text": "when",
+          "isOdd": false
+        },
+        {
+          "text": "quickly",
+          "isOdd": true
+        },
+        {
+          "text": "if",
+          "isOdd": false
+        }
+      ],
+      "explanation": "\"because\", \"when\", \"if\" — союзы: они соединяют части предложения. \"quickly\" — наречие: оно описывает глагол (как?) и ничего не соединяет."
     }
   ]
 }
