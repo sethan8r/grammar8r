@@ -63,7 +63,7 @@ ID **сквозные по всему курсу** и не должны пере
 
 > 🗝️ **Структурный канон (запомни перед написанием любой темы):**
 > - **Один файл = одна GrammarTopic.** В одном файле может быть несколько микротем — это норма.
-> - **Папка-пакет (`02-language-structure/`) = один GrammarTopicCategory (раздел).** У раздела нет
+> - **Папка-пакет (`03-language-structure/`) = один GrammarTopicCategory (раздел).** У раздела нет
 >   своего файла — он объявляется в шапке каждого файла-темы внутри папки.
 > - **Дерево в UI:** раздел → темы → микротемы → карточки. Нельзя пропускать уровни.
 > - **Сколько микротем в теме?** Ориентир: 2–6. Если одна — пользователь проваливается в список
@@ -147,12 +147,13 @@ ID **сквозные по всему курсу** и не должны пере
 ```
 theory/
 ├── 01-basics.md                          (Topic id=1, без раздела)
-└── 02-language-structure/                ← пакет = раздел "Устройство языка" (id=1)
+├── 02-transcription.md                   (Topic id=5, без раздела, order=2)
+└── 03-language-structure/                ← пакет = раздел "Устройство языка" (id=1, order=3)
     ├── 01-how-english-thinks.md          (Topic id=2, Раздел: 1, order=1)
     ├── 02-parts-of-speech.md             (Topic id=3, Раздел: 1, order=2)
-    ├── 03-helper-verbs.md                (Topic id=4, Раздел: 1, order=3)
-    ├── 04-verb-forms.md                  (Topic id=5, Раздел: 1, order=4)
-    └── 05-infinitive.md                  (Topic id=6, Раздел: 1, order=5)
+    ├── 03-auxiliary-verbs.md             (Topic id=4, Раздел: 1, order=3)
+    ├── 04-verb-forms.md                  (Topic id=6, Раздел: 1, order=4)
+    └── 05-infinitive.md                  (Topic id=7, Раздел: 1, order=5)
 ```
 Имя папки пакета — `NN-slug`, где `NN` = `order` раздела в общем списке (для той же навигационной
 читаемости, что и у файлов внутри). `py check.py <файл>` по-прежнему работает на одном файле —
@@ -161,8 +162,8 @@ theory/
 > ⚙️ **Пакеты в `seed/` зеркалят пакеты в `theory/` — автоматически.** `md_to_json.py` сам видит,
 > что MD лежит в `theory/<package>/...`, и кладёт сид в `seed/<package>/...` с той же структурой:
 > ```
-> theory/02-language-structure/01-how-english-thinks.md
->   -> seed/02-language-structure/how-english-thinks.json (+ _prompts.json)
+> theory/03-language-structure/01-how-english-thinks.md
+>   -> seed/03-language-structure/how-english-thinks.json (+ _prompts.json)
 > ```
 > Файлы прямо в `theory/` (как `01-basics.md`) — без подпапки, как раньше (`seed/basics.json`).
 > Ничего настраивать не нужно — конвертер определяет это по самому пути MD-файла. Раз тем будет
@@ -495,7 +496,7 @@ advice — несчётное, артикль a/an с ним невозможе�
 (AI начинает натягивать лексику на структуру). Поэтому в `Prompt Template` карточек — мягкий
 кивок в сторону словаря пользователя, а структурный фокус остаётся приоритетом.
 
-Эталон — AI Exercises карточек 72–77 в `theory/02-language-structure/01-how-english-thinks.md`.
+Эталон — AI Exercises карточек 72–77 в `theory/03-language-structure/01-how-english-thinks.md`.
 
 ---
 

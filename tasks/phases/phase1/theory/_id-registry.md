@@ -7,21 +7,21 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 103 |
-| Categorization | 16 |
+| Card | 109 |
+| Categorization | 18 |
 | Category | 2 |
 | ConstructionMeaning | 8 |
 | DialogRestore | 10 |
 | ErrorCorrection | 46 |
-| FindTheOdd | 20 |
-| Matching | 18 |
-| Microtopic | 37 |
+| FindTheOdd | 22 |
+| Matching | 21 |
+| Microtopic | 39 |
 | MultipleChoice·CHOICE | 72 |
-| MultipleChoice·FORWARD_CHOICE | 66 |
+| MultipleChoice·FORWARD_CHOICE | 71 |
 | MultipleChoice·REVERSE_CHOICE | 20 |
 | TableFill | 9 |
 | TextInput | 31 |
-| Topic | 5 |
+| Topic | 6 |
 | Transformation | 15 |
 | TrueFalse | 50 |
 | WordArrangement | 48 |
@@ -99,6 +99,15 @@
 - TrueFalse: 1–39 (39)
 - WordArrangement: 1–40 (40)
 - course_word: 1–230 (230)
+
+### transcription
+- Card: 103–108 (6)
+- Categorization: 16–17 (2)
+- FindTheOdd: 20–21 (2)
+- Matching: 18–20 (3)
+- Microtopic: 37–38 (2)
+- MultipleChoice·FORWARD_CHOICE: 66–70 (5)
+- Topic: 5–5 (1)
 
 ## Коллизии ID (КРИТИЧНО — должно быть пусто)
 
