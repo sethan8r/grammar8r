@@ -29,6 +29,18 @@
       "topicId": 4,
       "title": "be (am/is/are/was/were)",
       "order": 2
+    },
+    {
+      "id": 40,
+      "topicId": 4,
+      "title": "have / has / had",
+      "order": 3
+    },
+    {
+      "id": 41,
+      "topicId": 4,
+      "title": "will",
+      "order": 4
     }
   ],
   "grammar_cards": [
@@ -746,6 +758,799 @@
         "Что если после be идёт слово, которое можно принять и за прилагательное, и за V3?",
         "Когда мы будем подробно изучать Present Continuous, Past Continuous и Passive Voice?"
       ]
+    },
+    {
+      "id": 113,
+      "microtopicId": 40,
+      "title": "had — прошедшая форма have/has",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В Основах (микротема «Глагол have/has») мы разобрали have/has в значении «иметь, обладать»: have — для I/you/we/they, has — для he/she/it. Отрицание и вопрос строятся через do/does (don't have / doesn't have, Do/Does...have?), потому что have — обычный глагол, как мы уже разбирали в теме «do/does/did»."
+        },
+        {
+          "type": "paragraph",
+          "text": "У have/has есть форма прошедшего времени — **had**. И вот что приятно: в отличие от to be (где was — для одних, were — для других), у have/has **одна форма прошлого для ВСЕХ лиц**: had."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кто",
+            "Настоящее",
+            "Прошлое",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "I",
+              "have",
+              "had",
+              "I had a bicycle as a kid.",
+              "В детстве у меня был велосипед."
+            ],
+            [
+              "you",
+              "have",
+              "had",
+              "You had a good idea.",
+              "У тебя была хорошая идея."
+            ],
+            [
+              "he",
+              "has",
+              "had",
+              "He had a meeting yesterday.",
+              "Вчера у него была встреча."
+            ],
+            [
+              "she",
+              "has",
+              "had",
+              "She had a headache last night.",
+              "Вчера вечером у неё болела голова."
+            ],
+            [
+              "we",
+              "have",
+              "had",
+              "We had a great time.",
+              "Мы отлично провели время."
+            ],
+            [
+              "they",
+              "have",
+              "had",
+              "They had two dogs.",
+              "У них было две собаки."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "had — как остальные глаголы, не как be"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомни карточку про was/were (микротема «be») — там мы удивлялись, что be — единственный глагол с двумя формами прошлого. have/has — обычный глагол: одна форма прошлого для всех, точно как did в теме «do/does/did» (тоже одна форма для всех лиц)."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос — через did, как и в настоящем через do/does:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "",
+            "Настоящее",
+            "Прошлое"
+          ],
+          "rows": [
+            [
+              "Отрицание",
+              "doesn't have / don't have",
+              "didn't have"
+            ],
+            [
+              "Вопрос",
+              "Does/Do...have?",
+              "Did...have?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "«I didn't have time yesterday.» *(У меня вчера не было времени.)*"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Did you have a good weekend?» *(У тебя были хорошие выходные?)*"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "«Did you had a dog?» ✗ — did уже несёт прошедшее время (мы разбирали это в теме do/does/did), глагол после него — в базовой форме: «Did you **have** a dog?» ✓"
+        }
+      ],
+      "summary": "had — единственная форма прошлого have/has, для всех лиц без исключений. Отрицание: didn't have. Вопрос: Did...have? После did — базовая форма \"have\", не \"had\" (did уже несёт прошлое).",
+      "examples": [
+        {
+          "ru": "В детстве у Кати была собака.",
+          "en": "Katya had a dog as a kid."
+        },
+        {
+          "ru": "У нас вчера была встреча.",
+          "en": "We had a meeting yesterday."
+        },
+        {
+          "ru": "У Ромы не было времени на обед.",
+          "en": "Roma didn't have time for lunch."
+        },
+        {
+          "ru": "У тебя были хорошие выходные?",
+          "en": "Did you have a good weekend?"
+        },
+        {
+          "ru": "У них была большая квартира в Москве.",
+          "en": "They had a big apartment in Moscow."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему \"haved\" — неправильная форма?",
+        "Чем \"didn't have\" отличается от \"hasn't/hadn't\"?",
+        "В чём разница между had (прошлое владение) и had + V3 (которое мы разберём дальше)?"
+      ]
+    },
+    {
+      "id": 114,
+      "microtopicId": 40,
+      "title": "have/has + V3 — сигнал «уже сделано» (Present Perfect)",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор have/has была обычным глаголом «иметь, обладать»: после неё шло существительное — «I have a key.» *(У меня есть ключ.)*"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь у have/has появляется вторая работа. Если сразу после have/has стоит **V3** (третья форма глагола — у правильных глаголов это та же форма, что V1+ed) — have/has больше НЕ переводится как «иметь». Вместе они образуют конструкцию со значением «уже сделал(а) это» — действие завершено, и это важно ПРЯМО СЕЙЧАС."
+        },
+        {
+          "type": "paragraph",
+          "text": "«I have locked the door.» — не «у меня есть запертая дверь», а **«Я запер дверь (и сейчас она заперта)».**"
+        },
+        {
+          "type": "paragraph",
+          "text": "«She has missed the bus.» — **«Она опоздала на автобус (и теперь стоит и ждёт следующий)».**"
+        },
+        {
+          "type": "heading",
+          "text": "Формула:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Лицо",
+            "Формула",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "I/you/we/they",
+              "have + V3",
+              "We have arrived.",
+              "Мы приехали (уже здесь)."
+            ],
+            [
+              "he/she/it",
+              "has + V3",
+              "Igor has fixed the car.",
+              "Игорь починил машину (уже готова)."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "text": "превью, как и у be. Полный разбор Present Perfect — когда употреблять, маркеры already/just/yet/ever/never, отличие от Past Simple — отдельная тема впереди. Сейчас — узнаём сигнал."
+        },
+        {
+          "type": "heading",
+          "text": "Не путай с владением:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«I have a car.» — после have существительное → владение. У меня есть машина.",
+            "«I have fixed the car.» — после have V3 → Perfect-маркер. Я починил машину (уже сделано)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "«fixed» может выглядеть и как V2 (просто прошедшее: «I fixed the car yesterday» — Past Simple, отдельная тема), и как V3 (часть Perfect: «I have fixed the car»). У правильных глаголов V2 и V3 — одна и та же форма (-ed); различить их можно только по тому, есть ли перед ними have/has. Подробнее это разберём в теме «Глаголы V1/V2/V3»."
+        }
+      ],
+      "summary": "have/has + V3 (у правильных глаголов = V1+ed) = маркер Present Perfect: действие уже завершено, само have/has не переводится как «иметь». «I have locked the door» = «Я запер дверь (уже)», не «У меня есть запертая дверь».",
+      "examples": [
+        {
+          "ru": "Тёма уже запер дверь.",
+          "en": "Tema has already locked the door."
+        },
+        {
+          "ru": "Мы только что приехали.",
+          "en": "We have just arrived."
+        },
+        {
+          "ru": "У Иры есть машина.",
+          "en": "Ira has a car."
+        },
+        {
+          "ru": "Вера уже проверила почту.",
+          "en": "Vera has already checked her email."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить \"have + существительное\" (владение) от \"have + V3\" (Perfect)?",
+        "В чём разница между \"I fixed the car\" и \"I have fixed the car\"?",
+        "Когда будем разбирать полный Present Perfect — already/just/yet/ever/never?"
+      ]
+    },
+    {
+      "id": 115,
+      "microtopicId": 40,
+      "title": "had + V3 — сигнал «уже было сделано до» (Past Perfect)",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "had тоже получает вторую работу — точно как have/has, только в прошлом. **had + V3** сигналит: это действие завершилось ДО другого момента в прошлом — раньше, чем произошло что-то ещё."
+        },
+        {
+          "type": "paragraph",
+          "text": "«By the time we arrived, she had already locked the door.» — **«К тому моменту, когда мы приехали, она уже заперла дверь»** *(заперла раньше, чем мы приехали).*"
+        },
+        {
+          "type": "heading",
+          "text": "Формула:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Формула",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "had + V3",
+              "The train had departed before we got to the station.",
+              "Поезд уже отправился до того, как мы добрались до станции."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "text": "превью — полный разбор Past Perfect (порядок двух действий в прошлом, маркеры before/after/by the time) будет в отдельной теме. Сейчас — узнаём сигнал: had + V3 = «уже произошло ДО другого прошлого момента»."
+        },
+        {
+          "type": "heading",
+          "text": "Сравни с обычным прошлым:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«I locked the door.» — просто одно действие в прошлом (Past Simple). Я запер дверь.",
+            "«I had locked the door before I left.» — ДВА действия в прошлом, и одно произошло раньше другого. had locked = произошло первым."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай с владением",
+          "text": "had сам по себе тоже может быть владением в прошлом (Card 113: «I had a dog»). Разница та же, что у have/has: «had + существительное» → владение, «had + V3» → Past Perfect-маркер."
+        }
+      ],
+      "summary": "had + V3 (у правильных глаголов = V1+ed) = маркер Past Perfect: действие завершилось ДО другого момента в прошлом. «She had locked the door before we arrived» = «Она заперла дверь до того, как мы приехали» — два действия, locked было первым.",
+      "examples": [
+        {
+          "ru": "К тому моменту, когда мы пришли, Коля уже почистил квартиру.",
+          "en": "By the time we came, Kolya had already cleaned the apartment."
+        },
+        {
+          "ru": "Поезд уже отправился, когда Саша добрался до станции.",
+          "en": "The train had already departed when Sasha got to the station."
+        },
+        {
+          "ru": "Когда я был маленьким, у меня была собака.",
+          "en": "When I was little, I had a dog."
+        },
+        {
+          "ru": "Перед тем как уйти, Лена заперла все окна.",
+          "en": "Before she left, Lena had locked all the windows."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что одно действие произошло раньше другого, если оба в прошлом?",
+        "Чем \"had + V3\" отличается от \"had + существительное\" (владение)?",
+        "Когда будем подробно разбирать Past Perfect — before/after/by the time?"
+      ]
+    },
+    {
+      "id": 116,
+      "microtopicId": 40,
+      "title": "Две роли have — как распознать",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы увидели, что have/has/had выполняет две совершенно разные работы — но сами слова при этом не меняются. Роль определяется тем, что стоит СРАЗУ ПОСЛЕ have/has/had — точно так же, как у be (карточка «Три роли be»)."
+        },
+        {
+          "type": "heading",
+          "text": "Две роли — одна таблица:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Конструкция",
+            "Что после have/has/had",
+            "Роль",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "Misha has a car.",
+              "существительное",
+              "владение",
+              "У Миши есть машина."
+            ],
+            [
+              "Misha has fixed the car.",
+              "V3",
+              "Present Perfect-маркер",
+              "Миша починил машину (уже)."
+            ],
+            [
+              "Misha had a car.",
+              "существительное",
+              "владение (прошлое)",
+              "У Миши была машина."
+            ],
+            [
+              "Misha had fixed the car.",
+              "V3",
+              "Past Perfect-маркер",
+              "Миша уже починил машину (до чего-то ещё)."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Алгоритм распознавания:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Найди have/has/had в предложении.",
+            "Посмотри, что стоит сразу после.",
+            "Существительное → владение. Переводи как «у [кого-то] есть/было [что-то]».",
+            "V3 (у правильных глаголов = глагол + -ed) → Perfect-маркер. Переводи одним глаголом — «уже сделал» (have/has) или «уже сделал ДО чего-то ещё» (had)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "text": "так же как be, have/has/had сам не несёт смысл действия в роли маркера — смысл даёт V3. Теперь у нас есть ДВА таких «переключателя»: be (для Continuous и Passive) и have (для Perfect)."
+        }
+      ],
+      "summary": "have/has/had — два слова, две роли. После них существительное → владение («есть/было»). После них V3 → Perfect-маркер («уже сделал»: have/has — сейчас, had — до другого прошлого момента). Роль определяет то, что идёт ПОСЛЕ, а не само have/has/had.",
+      "examples": [
+        {
+          "ru": "У Веры есть брат.",
+          "en": "Vera has a brother."
+        },
+        {
+          "ru": "Вера уже позвонила брату.",
+          "en": "Vera has already called her brother."
+        },
+        {
+          "ru": "У Димы была встреча в понедельник.",
+          "en": "Dima had a meeting on Monday."
+        },
+        {
+          "ru": "Дима уже закончил отчёт до встречи.",
+          "en": "Dima had already finished the report before the meeting."
+        },
+        {
+          "ru": "У нас есть час до поезда.",
+          "en": "We have an hour before the train."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, какую роль играет have/has/had в конкретном предложении?",
+        "Чем Present Perfect (have/has + V3) отличается от Past Perfect (had + V3)?",
+        "Когда будем подробно изучать Present Perfect и Past Perfect?"
+      ]
+    },
+    {
+      "id": 117,
+      "microtopicId": 41,
+      "title": "will — маркер будущего",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В Основах will пару раз мелькал в примерах («She will call tomorrow.») и был упомянут в карточке про can — в списке модальных глаголов (can, must, should, will), после которых to не нужен. Теперь разберём will подробно — это последний и самый простой служебный глагол в этой теме."
+        },
+        {
+          "type": "paragraph",
+          "text": "**will + V1** (база, без -s, без to) сигналит: это ещё не произошло, но произойдёт/предсказано/решено. will — ОДНА форма для ВСЕХ лиц, и она вообще никогда не меняется — ни для he/she/it, ни в зависимости от времени (в отличие от do → does → did, у will нет «форм»)."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кто",
+            "Формула",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "I",
+              "will + V1",
+              "I will call you tonight.",
+              "Я позвоню тебе вечером."
+            ],
+            [
+              "she",
+              "will + V1",
+              "She will travel to Spain next year.",
+              "В следующем году она поедет в Испанию."
+            ],
+            [
+              "they",
+              "will + V1",
+              "They will arrive tomorrow.",
+              "Они приедут завтра."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "will не значит «хотеть»"
+        },
+        {
+          "type": "paragraph",
+          "text": "will — чистый маркер времени, не глагол желания. «I will go» = «Я пойду» (просто факт о будущем), не «Я хочу пойти» (это совсем другая конструкция)."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Краткая форма",
+          "text": "I'll, you'll, he'll, she'll, we'll, they'll — 'll вместо will, в разговоре почти всегда так."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Полная форма",
+            "Краткая",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "will not",
+              "won't",
+              "She won't be late.",
+              "Она не опоздает."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос: **Will + подлежащее + V1?** «Will you help me?» *(Ты мне поможешь?)*"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "«I will to call you.» ✗ — как и после can/must/should, после will не нужен to: «I will call you.» ✓ *(вспомни карточку про can в Основах).*"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "«He will calls.» ✗ — will уже сигналит будущее, глагол остаётся в базовой форме без -s, даже для he/she/it: «He will call.» ✓ *(как и с does/did в теме do/does/did — после служебного глагола основной глагол теряет личные окончания).*"
+        }
+      ],
+      "summary": "will + V1 (без to, без -s даже для he/she/it) = маркер будущего, одна форма для всех. Не значит «хотеть» — просто «это произойдёт». Отрицание: won't. Вопрос: Will + подлежащее + V1?",
+      "examples": [
+        {
+          "ru": "Я позвоню тебе вечером.",
+          "en": "I will call you tonight."
+        },
+        {
+          "ru": "В следующем году Оля поедет в Испанию.",
+          "en": "Olya will travel to Spain next year."
+        },
+        {
+          "ru": "Они не опоздают.",
+          "en": "They won't be late."
+        },
+        {
+          "ru": "Ты мне поможешь?",
+          "en": "Will you help me?"
+        },
+        {
+          "ru": "Дима обещает, что он позвонит завтра.",
+          "en": "Dima promises he will call tomorrow."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему will не значит \"хотеть\"?",
+        "Будет ли у will когда-нибудь форма \"wills\" или \"willed\"?",
+        "Краткая форма 'll — когда уместна, а когда лучше полная?"
+      ]
+    },
+    {
+      "id": 118,
+      "microtopicId": 41,
+      "title": "will + be + V-ing — Future Continuous (превью)",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Помнишь карточку про be + V-ing (микротема «be») — сигнал «происходит прямо сейчас» (Continuous)? Теперь добавим will спереди — и получим «будет происходить в конкретный момент в будущем»."
+        },
+        {
+          "type": "paragraph",
+          "text": "«This time tomorrow, I will be flying to Madrid.» — **«Завтра в это же время я буду лететь в Мадрид».**"
+        },
+        {
+          "type": "heading",
+          "text": "Формула:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Формула",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "will + be + V-ing",
+              "At 8 pm, Sasha will be cooking dinner.",
+              "В 8 вечера Саша будет готовить ужин."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "text": "обрати внимание — после will всегда базовая форма (V1), поэтому здесь именно **be** (база глагола to be), а не is/are/was. will задаёт правило «после меня — V1», и be — это V1 формы to be."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это превью: полный разбор Future Continuous — отдельная тема впереди. Сейчас — увидеть, как служебные глаголы СКЛАДЫВАЮТСЯ: will (будущее) + be+V-ing (происходит в процессе) = «будет происходить в момент в будущем»."
+        }
+      ],
+      "summary": "will + be + V-ing = Future Continuous: действие будет в процессе в конкретный момент будущего. be — в базовой форме (после will всегда V1). «I will be flying» = «Я буду лететь (в этот момент)».",
+      "examples": [
+        {
+          "ru": "Завтра в это же время Игорь будет лететь в Берлин.",
+          "en": "This time tomorrow, Igor will be flying to Berlin."
+        },
+        {
+          "ru": "В 8 вечера Саша будет готовить ужин.",
+          "en": "At 8 pm, Sasha will be cooking dinner."
+        },
+        {
+          "ru": "Не звони в полдень — Катя будет работать.",
+          "en": "Don't call at noon — Katya will be working."
+        },
+        {
+          "ru": "Завтра они поедут в Берлин.",
+          "en": "Tomorrow they will travel to Berlin."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после will всегда be, а не is/are/was?",
+        "Чем \"I will travel\" отличается от \"I will be travelling\"?",
+        "Когда будем подробно разбирать Future Continuous?"
+      ]
+    },
+    {
+      "id": 119,
+      "microtopicId": 41,
+      "title": "will + have + V3 — Future Perfect (превью)",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "А теперь вспомним have/has + V3 (микротема «have/has/had») — сигнал «уже сделано» (Perfect). Добавим will спереди — получим «БУДЕТ уже сделано к определённому моменту в будущем»."
+        },
+        {
+          "type": "paragraph",
+          "text": "«By next year, she will have graduated.» — **«К следующему году она уже закончит учёбу»** *(закончит раньше, чем наступит этот момент в будущем).*"
+        },
+        {
+          "type": "heading",
+          "text": "Формула:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Формула",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "will + have + V3",
+              "By 6 pm, Roma will have finished his homework.",
+              "К 6 вечера Рома уже закончит домашку."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "text": "опять же — после will всегда V1, поэтому **have** (база), не has/had. will задаёт правило «дальше — базовая форма», а have+V3 целиком — это и есть Perfect-маркер, который теперь стоит в базовой форме после will."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это превью: полный разбор Future Perfect — отдельная тема впереди. Сейчас — видим ещё одну комбинацию служебных глаголов: will (будущее) + have+V3 (уже сделано) = «к моменту в будущем уже будет сделано»."
+        }
+      ],
+      "summary": "will + have + V3 = Future Perfect: действие будет завершено К определённому моменту в будущем. have — в базовой форме (после will всегда V1). «She will have graduated» = «Она уже закончит учёбу (к тому моменту)».",
+      "examples": [
+        {
+          "ru": "К 6 вечера Рома уже закончит домашку.",
+          "en": "By 6 pm, Roma will have finished his homework."
+        },
+        {
+          "ru": "К следующему году Оля уже закончит учёбу.",
+          "en": "By next year, Olya will have graduated."
+        },
+        {
+          "ru": "К тому времени, как ты приедешь, мы уже уберёмся.",
+          "en": "By the time you arrive, we will have cleaned up."
+        },
+        {
+          "ru": "Завтра Тёма закончит проект.",
+          "en": "Tomorrow Tema will finish the project."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем \"will + V1\" отличается от \"will + have + V3\"?",
+        "Почему после will всегда have, а не has/had?",
+        "Когда будем подробно разбирать Future Perfect?"
+      ]
+    },
+    {
+      "id": 120,
+      "microtopicId": 41,
+      "title": "Итог: служебные глаголы — кодировщики грамматики",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы прошли пять служебных глаголов: do/does/did, be (am/is/are/was/were), have/has/had, will. У всех — общая идея: **это не слова со своим смыслом, это сигналы конструкции**. Сам служебный глагол либо не переводится вообще (do/does/did), либо переводится как часть целой конструкции вместе со вторым компонентом (be+V-ing, be+V3, have+V3, will+V1)."
+        },
+        {
+          "type": "heading",
+          "text": "Сводная таблица сигналов:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Конструкция",
+            "Сигнал",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "Do/Does/Did + V1",
+              "вопрос/отрицание в простых временах",
+              "\"Does she work?\" — Она работает?"
+            ],
+            [
+              "be + V-ing",
+              "Continuous — происходит в процессе",
+              "\"He is working.\" — Он работает (сейчас)."
+            ],
+            [
+              "be + V3",
+              "Passive — сделано С подлежащим",
+              "\"The wall was painted.\" — Стену покрасили."
+            ],
+            [
+              "have/has/had + V3",
+              "Perfect — уже сделано (к моменту)",
+              "\"She has finished.\" — Она уже закончила."
+            ],
+            [
+              "will + V1",
+              "Future — произойдёт",
+              "\"It will rain.\" — Будет дождь."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Они складываются друг с другом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое красивое — эти сигналы комбинируются. will + be + V-ing = Future Continuous. will + have + V3 = Future Perfect. Можно пойти ещё дальше: will + have + been + V-ing = Future Perfect Continuous («к моменту в будущем действие будет уже какое-то время в процессе») — мы не будем разбирать это сейчас, но конструкция строится по той же логике: каждый служебный глагол добавляет свой слой смысла."
+        },
+        {
+          "type": "heading",
+          "text": "Финальный алгоритм:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Видишь do/does/did/be/have/will перед глаголом — не переводи его отдельно как «делать/быть/иметь/хотеть».",
+            "Посмотри, что идёт ПОСЛЕ него.",
+            "По тому, что после — определяешь конструкцию (вопрос/отрицание, Continuous, Passive, Perfect, Future) и переводишь её ЦЕЛИКОМ."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "text": "в полных темах времён (Present Continuous, Passive Voice, Present Perfect, Future Simple и т.д.) мы вернёмся к каждой из этих конструкций — но уже не с нуля: распознавать сигнал ты уже умеешь."
+        }
+      ],
+      "summary": "do/does/did, be, have/has/had, will — служебные глаголы, сигналы конструкций, не переводятся как отдельные слова со своим смыслом (кроме их «обычных» ролей — связка be, владение have). Они складываются: will+be+V-ing, will+have+V3 и т.д. Алгоритм: увидел служебный → не переводи отдельно → смотри что после → переводи конструкцию целиком.",
+      "examples": [
+        {
+          "ru": "Она работает по выходным?",
+          "en": "Does she work on weekends?"
+        },
+        {
+          "ru": "Миша сейчас готовит ужин.",
+          "en": "Misha is cooking dinner now."
+        },
+        {
+          "ru": "Письмо отправили вчера.",
+          "en": "The letter was sent yesterday."
+        },
+        {
+          "ru": "Вера уже позвонила в банк.",
+          "en": "Vera has already called the bank."
+        },
+        {
+          "ru": "Завтра Коля будет работать весь день.",
+          "en": "Tomorrow Kolya will be working all day."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро вспомнить, какую роль играет каждый служебный глагол?",
+        "Что такое \"Future Perfect Continuous\" и зачем он нужен?",
+        "Где мы будем подробно изучать каждую из этих конструкций дальше?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -904,6 +1709,174 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 71,
       "orderInCard": 3
+    },
+    {
+      "cardId": 113,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 47,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 113,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 31,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 113,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 53,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 113,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 49,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 114,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 21,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 114,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 22,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 114,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 54,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 115,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 23,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 115,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 23,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 115,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 55,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 116,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 22,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 116,
+      "exerciseType": "MATCHING",
+      "exerciseId": 22,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 116,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 56,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 116,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 72,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 117,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 72,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 117,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 48,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 117,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 57,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 117,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 50,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 118,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 24,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 118,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 23,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 118,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 58,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 119,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 25,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 119,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 24,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 119,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 59,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 120,
+      "exerciseType": "MATCHING",
+      "exerciseId": 23,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 120,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 24,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 120,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 60,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 120,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 73,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -944,6 +1917,38 @@
       "cardId": 112,
       "title": "Переведи предложение с be",
       "userInstruction": "AI даст предложение на английском с am/is/are/was/were. Переведи его на русский — твой перевод покажет, правильно ли ты понял роль be в этом предложении.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "auxiliary_card113_ex1",
+      "cardId": 113,
+      "title": "Переведи в прошлое с had",
+      "userInstruction": "AI даст предложение на русском о том, что у кого-то было (или не было) в прошлом. Переведи на английский, используя had / didn't have / Did...have?",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "auxiliary_card116_ex1",
+      "cardId": 116,
+      "title": "Переведи предложение с have/has/had",
+      "userInstruction": "AI даст предложение на английском с have/has/had. Переведи его на русский — твой перевод покажет, правильно ли ты понял роль have/has/had в этом предложении.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "auxiliary_card117_ex1",
+      "cardId": 117,
+      "title": "Переведи в будущее с will",
+      "userInstruction": "AI даст предложение на русском о будущем. Переведи на английский, используя will / won't / Will...?",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "auxiliary_card120_ex1",
+      "cardId": 120,
+      "title": "Переведи предложение со служебным глаголом",
+      "userInstruction": "AI даст предложение на английском с одним из служебных глаголов (do/does/did, be, have/has/had, will) — возможно, в комбинации. Переведи на русский — перевод покажет, понял ли ты конструкцию.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -1035,6 +2040,70 @@
       "translation": "занятый",
       "transcription": "[ˈbɪzi]",
       "microtopicId": 39,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 298,
+      "word": "had",
+      "translation": "имел(а)/было (форма have/has в прошлом, для всех лиц)",
+      "transcription": "[hæd]",
+      "microtopicId": 40,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 299,
+      "word": "to lock",
+      "translation": "запирать",
+      "transcription": "[lɒk]",
+      "microtopicId": 40,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 300,
+      "word": "to arrive",
+      "translation": "приезжать, прибывать",
+      "transcription": "[əˈraɪv]",
+      "microtopicId": 40,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 301,
+      "word": "to miss",
+      "translation": "пропустить, опоздать на (транспорт); скучать",
+      "transcription": "[mɪs]",
+      "microtopicId": 40,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 302,
+      "word": "will",
+      "translation": "вспомогательный глагол будущего времени",
+      "transcription": "[wɪl]",
+      "microtopicId": 41,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 303,
+      "word": "won't",
+      "translation": "не (форма will not)",
+      "transcription": "[wəʊnt]",
+      "microtopicId": 41,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 304,
+      "word": "to promise",
+      "translation": "обещать",
+      "transcription": "[ˈprɒmɪs]",
+      "microtopicId": 41,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 305,
+      "word": "to graduate",
+      "translation": "заканчивать обучение, выпускаться",
+      "transcription": "[ˈɡrædʒueɪt]",
+      "microtopicId": 41,
       "categoryId": "language_structure"
     }
   ],
@@ -1230,6 +2299,254 @@
         }
       ],
       "explanation": "2: «is study» — нет V-ing, нужно «is studying» (Continuous-маркер требует -ing). 5: «was open by Dima» — «open» здесь прилагательное (связка), а для Passive нужен V3: «The window was opened by Dima.»"
+    },
+    {
+      "id": 53,
+      "statements": [
+        {
+          "en": "She had a car last year.",
+          "ru": "В прошлом году у неё была машина.",
+          "isTrue": true
+        },
+        {
+          "en": "I haved a lot of homework yesterday.",
+          "ru": "Вчера у меня было много домашней работы.",
+          "isTrue": false
+        },
+        {
+          "en": "They didn't have any plans for the weekend.",
+          "ru": "У них не было планов на выходные.",
+          "isTrue": true
+        },
+        {
+          "en": "Did she had a good trip?",
+          "ru": "У неё была хорошая поездка?",
+          "isTrue": false
+        },
+        {
+          "en": "We had a nice dinner with our friends.",
+          "ru": "Мы хорошо поужинали с друзьями.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2: «haved» не существует — нужно «had». 4: после did — базовая форма «have» (не «had»): «Did she have a good trip?»"
+    },
+    {
+      "id": 54,
+      "statements": [
+        {
+          "en": "Vera has cleaned the kitchen.",
+          "ru": "Вера убралась на кухне.",
+          "isTrue": true
+        },
+        {
+          "en": "I have a sister.",
+          "ru": "У меня есть сестра.",
+          "isTrue": true
+        },
+        {
+          "en": "They have arrived at the hotel.",
+          "ru": "У них есть приехавшие в отель.",
+          "isTrue": false
+        },
+        {
+          "en": "She has checked her messages.",
+          "ru": "У неё есть проверенные сообщения.",
+          "isTrue": false
+        },
+        {
+          "en": "We have visited this café before.",
+          "ru": "Мы уже бывали в этом кафе.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "3: «have arrived» — Perfect-маркер, переводится «приехали» (одним глаголом), а не «есть приехавшие». 4: «has checked» — Perfect-маркер = «проверила» (действие), а не «есть проверенные» (описание состояния)."
+    },
+    {
+      "id": 55,
+      "statements": [
+        {
+          "en": "When Dima arrived, the film had already started.",
+          "ru": "Когда Дима пришёл, фильм уже начался.",
+          "isTrue": true
+        },
+        {
+          "en": "She had a meeting at 9 yesterday.",
+          "ru": "Вчера у неё была встреча в 9.",
+          "isTrue": true
+        },
+        {
+          "en": "By the time we called, they had finish the project.",
+          "ru": "К тому времени, когда мы позвонили, они уже закончили проект.",
+          "isTrue": false
+        },
+        {
+          "en": "The shop had closed before we got there.",
+          "ru": "Магазин закрылся до того, как мы туда добрались.",
+          "isTrue": true
+        },
+        {
+          "en": "We had visit Paris before that trip.",
+          "ru": "Мы уже бывали в Париже до той поездки.",
+          "isTrue": false
+        }
+      ],
+      "explanation": "3: после had нужен V3 — «had finished» (не «had finish»). 5: то же самое — «had visited» (не «had visit»)."
+    },
+    {
+      "id": 56,
+      "statements": [
+        {
+          "en": "Tema has a brother.",
+          "ru": "У Тёмы есть брат.",
+          "isTrue": true
+        },
+        {
+          "en": "Tema has visit London.",
+          "ru": "Тёма уже бывал в Лондоне.",
+          "isTrue": false
+        },
+        {
+          "en": "We had checked the tickets before the flight.",
+          "ru": "Мы проверили билеты до рейса.",
+          "isTrue": true
+        },
+        {
+          "en": "She had a great idea.",
+          "ru": "У неё была отличная идея.",
+          "isTrue": true
+        },
+        {
+          "en": "They has arrived.",
+          "ru": "Они приехали.",
+          "isTrue": false
+        }
+      ],
+      "explanation": "2: после has нужен V3 — «has visited» (не «has visit»). 5: they → have, не has — «They have arrived.»"
+    },
+    {
+      "id": 57,
+      "statements": [
+        {
+          "en": "He will graduate next summer.",
+          "ru": "Он закончит учёбу следующим летом.",
+          "isTrue": true
+        },
+        {
+          "en": "I will to call her later.",
+          "ru": "Я позвоню ей позже.",
+          "isTrue": false
+        },
+        {
+          "en": "They won't be at home tonight.",
+          "ru": "Их не будет дома сегодня вечером.",
+          "isTrue": true
+        },
+        {
+          "en": "She will travels to Italy.",
+          "ru": "Она поедет в Италию.",
+          "isTrue": false
+        },
+        {
+          "en": "Will you join us for dinner?",
+          "ru": "Ты присоединишься к нам на ужин?",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2: после will не нужен to — «I will call». 4: после will — базовая форма без -s — «will travel»."
+    },
+    {
+      "id": 58,
+      "statements": [
+        {
+          "en": "At 9 am tomorrow, I will be travelling to the airport.",
+          "ru": "Завтра в 9 утра я буду ехать в аэропорт.",
+          "isTrue": true
+        },
+        {
+          "en": "She will be call you later.",
+          "ru": "Она будет звонить тебе позже.",
+          "isTrue": false
+        },
+        {
+          "en": "This time next week, they will be relaxing on the beach.",
+          "ru": "В это же время на следующей неделе они будут отдыхать на пляже.",
+          "isTrue": true
+        },
+        {
+          "en": "We will working on the project tomorrow.",
+          "ru": "Завтра мы будем работать над проектом.",
+          "isTrue": false
+        },
+        {
+          "en": "He will be sleeping when you arrive.",
+          "ru": "Он будет спать, когда ты приедешь.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2: нужен V-ing после be — «will be calling» (не «will be call»). 4: пропущен be — «will be working» (не «will working»)."
+    },
+    {
+      "id": 59,
+      "statements": [
+        {
+          "en": "By 9 pm, we will have arrived at the hotel.",
+          "ru": "К 9 вечера мы уже приедем в отель.",
+          "isTrue": true
+        },
+        {
+          "en": "She will has finished the report by Friday.",
+          "ru": "Она уже закончит отчёт к пятнице.",
+          "isTrue": false
+        },
+        {
+          "en": "By next month, he will have finished the course.",
+          "ru": "К следующему месяцу он закончит курс.",
+          "isTrue": true
+        },
+        {
+          "en": "They will have arrive by midnight.",
+          "ru": "Они приедут к полуночи.",
+          "isTrue": false
+        },
+        {
+          "en": "By the time we call, Igor will have locked the office.",
+          "ru": "К тому времени, когда мы позвоним, Игорь уже запрёт офис.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2: после will — базовая форма «have» (не «has»): «will have finished». 4: после have нужен V3 — «will have arrived» (не «will have arrive»)."
+    },
+    {
+      "id": 60,
+      "statements": [
+        {
+          "en": "Does Misha work at a bank?",
+          "ru": "Миша работает в банке?",
+          "isTrue": true
+        },
+        {
+          "en": "Vera is cook dinner now.",
+          "ru": "Вера сейчас готовит ужин.",
+          "isTrue": false
+        },
+        {
+          "en": "The room was clean by Vera yesterday.",
+          "ru": "Комнату убрала Вера вчера.",
+          "isTrue": false
+        },
+        {
+          "en": "They have visit Paris twice.",
+          "ru": "Они уже дважды бывали в Париже.",
+          "isTrue": false
+        },
+        {
+          "en": "We will be travelling to Rome next week.",
+          "ru": "На следующей неделе мы будем ехать в Рим.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2: Continuous требует V-ing — «is cooking» (не «is cook»). 3: Passive с «by» требует V3 — «was cleaned by Vera» (не «was clean by Vera»). 4: Perfect требует V3 — «have visited» (не «have visit»)."
     }
   ],
   "word_arrangement_exercises": [
@@ -1304,6 +2621,90 @@
         }
       ],
       "explanation": "Kolya = he → was (не were). «were» и «is» — дистракторы: were подходит для you/we/they, is — для настоящего времени."
+    },
+    {
+      "id": 49,
+      "situationRu": "RU: В прошлом году у Оли было много работы.",
+      "correctSentence": "Last year Olya had a lot of work.",
+      "words": [
+        {
+          "text": "Last year",
+          "translation": "в прошлом году"
+        },
+        {
+          "text": "Olya",
+          "translation": ""
+        },
+        {
+          "text": "had",
+          "translation": "было"
+        },
+        {
+          "text": "a lot of",
+          "translation": "много"
+        },
+        {
+          "text": "work",
+          "translation": "работы"
+        }
+      ],
+      "distractors": [
+        {
+          "text": "has",
+          "translation": ""
+        },
+        {
+          "text": "haved",
+          "translation": ""
+        }
+      ],
+      "explanation": "Olya = she, но в прошлом форма одна для всех — had (не has). «haved» — не существует."
+    },
+    {
+      "id": 50,
+      "situationRu": "RU: Завтра Коля приедет в офис рано.",
+      "correctSentence": "Tomorrow Kolya will arrive at the office early.",
+      "words": [
+        {
+          "text": "Tomorrow",
+          "translation": ""
+        },
+        {
+          "text": "Kolya",
+          "translation": ""
+        },
+        {
+          "text": "will",
+          "translation": ""
+        },
+        {
+          "text": "arrive",
+          "translation": ""
+        },
+        {
+          "text": "at",
+          "translation": ""
+        },
+        {
+          "text": "the office",
+          "translation": "офис"
+        },
+        {
+          "text": "early",
+          "translation": "рано"
+        }
+      ],
+      "distractors": [
+        {
+          "text": "arrives",
+          "translation": ""
+        },
+        {
+          "text": "to arrive",
+          "translation": ""
+        }
+      ],
+      "explanation": "will + базовая форма «arrive» (не «arrives», не «to arrive») — will уже сигналит будущее, дополнительные окончания и to не нужны."
     }
   ],
   "multiple_choice_exercises": [
@@ -1474,6 +2875,153 @@
         }
       ],
       "explanation": "«сейчас читает» = действие в процессе сейчас → is + V-ing (Continuous). «is a reader» — связка, неверный смысл («читатель» как профессия — так не говорят). «was reading» — прошлое, не подходит для «сейчас»."
+    },
+    {
+      "id": 22,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Roma has locked the door.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "У Ромы есть запертая дверь.",
+          "isCorrect": false
+        },
+        {
+          "text": "Рома запер дверь.",
+          "isCorrect": true
+        },
+        {
+          "text": "Рома есть запирающий дверь.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«has locked» — have/has + V3 = Perfect-маркер, переводится одним глаголом в прошедшем «запер» (действие уже сделано). Не переводи has отдельно как «имеет/есть»."
+    },
+    {
+      "id": 23,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "By the time the guests arrived, Oksana had already cleaned the house.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "К тому времени, когда гости приехали, у Оксаны был уже чистый дом.",
+          "isCorrect": false
+        },
+        {
+          "text": "К тому времени, когда гости приехали, Оксана уже убралась в доме.",
+          "isCorrect": true
+        },
+        {
+          "text": "К тому времени, когда гости приехали, Оксана есть убравшаяся в доме.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«had already cleaned» — had + V3 = Past Perfect-маркер, переводится «уже убралась» (действие, которое произошло раньше приезда гостей). Не переводи had отдельно как «был»."
+    },
+    {
+      "id": 72,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Оля уже убралась в комнате.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Olya has a clean room.",
+          "isCorrect": false
+        },
+        {
+          "text": "Olya has cleaned the room.",
+          "isCorrect": true
+        },
+        {
+          "text": "Olya had cleaned the room.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«уже убралась» = действие завершено к настоящему моменту → has + V3 (Present Perfect). «has a clean room» — владение, неверный смысл (описывает комнату, а не действие). «had cleaned» — Past Perfect, нужен для прошлого момента, а не «сейчас уже»."
+    },
+    {
+      "id": 72,
+      "choiceType": "CHOICE",
+      "prompt": "She ___ call you tomorrow.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will calls",
+          "isCorrect": false
+        },
+        {
+          "text": "will call",
+          "isCorrect": true
+        },
+        {
+          "text": "will to call",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "will — одна форма для всех лиц, без -s и без to. После will глагол всегда в базовой форме: «will call»."
+    },
+    {
+      "id": 24,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "This time next week, we will be travelling to Italy.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "В это же время на следующей неделе мы поедем в Италию.",
+          "isCorrect": false
+        },
+        {
+          "text": "В это же время на следующей неделе мы будем ехать в Италию (в процессе).",
+          "isCorrect": true
+        },
+        {
+          "text": "В это же время на следующей неделе мы есть едущие в Италию.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«will be travelling» — will + be + V-ing = Future Continuous, переводится «будем ехать (в процессе)» — действие в разгаре в указанный момент будущего, не просто факт «поедем»."
+    },
+    {
+      "id": 25,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "By the time the guests arrive, Vera will have cooked dinner.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "К тому времени, когда приедут гости, Вера будет готовить ужин.",
+          "isCorrect": false
+        },
+        {
+          "text": "К тому времени, когда приедут гости, Вера уже приготовит ужин.",
+          "isCorrect": true
+        },
+        {
+          "text": "К тому времени, когда приедут гости, у Веры будет приготовленный ужин.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«will have cooked» — will + have + V3 = Future Perfect, переводится «уже приготовит» (действие завершится К моменту приезда гостей). Не «будет готовить» — это было бы Future Continuous: will be cooking."
+    },
+    {
+      "id": 73,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "К пятнице Оля уже закончит проект.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Olya finishes the project by Friday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Olya has finished the project by Friday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Olya will have finished the project by Friday.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«к пятнице уже закончит» = действие завершится К будущему моменту → will + have + V3 (Future Perfect). «finishes» — Present Simple, не подходит для будущего. «has finished» — Present Perfect, не указывает на будущий момент «к пятнице»."
     }
   ],
   "text_input_exercises": [
@@ -1506,6 +3054,30 @@
         }
       ],
       "explanation": "I/we → don't. She/He → doesn't. Правило: don't для I/you/we/they, doesn't для he/she/it."
+    },
+    {
+      "id": 31,
+      "items": [
+        {
+          "sentence": "Last year, Igor ___ a bicycle.",
+          "contextRu": "В прошлом году у Игоря был велосипед.",
+          "answer": "had",
+          "alternatives": []
+        },
+        {
+          "sentence": "We ___ time to visit the museum yesterday.",
+          "contextRu": "У нас вчера не было времени посетить музей.",
+          "answer": "didn't have",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ you have a pet when you were little?",
+          "contextRu": "У тебя был питомец, когда ты был маленьким?",
+          "answer": "Did",
+          "alternatives": []
+        }
+      ],
+      "explanation": "had — одна форма прошлого для всех лиц. Отрицание прошлого — didn't have. Вопрос — Did + подлежащее + have (не «Did...had»)."
     }
   ],
   "dialog_restore_exercises": [],
@@ -1563,6 +3135,60 @@
         }
       ],
       "explanation": "«is a mechanic» — связка (профессия). «is fixing» — Continuous (действие сейчас). «was fixed» — Passive (с машиной сделали). «was tired» — связка (состояние в прошлом). «was finishing» — Continuous в прошлом (действие было в процессе тогда)."
+    },
+    {
+      "id": 22,
+      "taskDescription": "соедини английское предложение с русским переводом.",
+      "pairs": [
+        {
+          "left": "Igor has a new laptop.",
+          "right": "У Игоря новый ноутбук."
+        },
+        {
+          "left": "Igor has fixed his laptop.",
+          "right": "Игорь починил ноутбук."
+        },
+        {
+          "left": "Sveta had a deadline on Friday.",
+          "right": "У Светы был дедлайн в пятницу."
+        },
+        {
+          "left": "Sveta had finished the work before the deadline.",
+          "right": "Света закончила работу до дедлайна."
+        },
+        {
+          "left": "We have arrived at the hotel.",
+          "right": "Мы приехали в отель."
+        }
+      ],
+      "explanation": "«has a laptop» / «had a deadline» — владение. «has fixed» / «had finished» / «have arrived» — Perfect-маркер: действие уже совершено (had finished — до другого момента в прошлом)."
+    },
+    {
+      "id": 23,
+      "taskDescription": "соедини конструкцию с тем, что она сигналит.",
+      "pairs": [
+        {
+          "left": "Does he live here?",
+          "right": "Вопрос в настоящем времени"
+        },
+        {
+          "left": "She is reading a book.",
+          "right": "Действие происходит сейчас (Continuous)"
+        },
+        {
+          "left": "The car was washed.",
+          "right": "С машиной что-то сделали (Passive)"
+        },
+        {
+          "left": "They have already locked the office.",
+          "right": "Действие уже завершено (Perfect)"
+        },
+        {
+          "left": "He will call you tomorrow.",
+          "right": "Это произойдёт в будущем (Future)"
+        }
+      ],
+      "explanation": "Does — маркер вопроса (do/does/did). is + V-ing — Continuous. was + V3 — Passive. have + V3 — Perfect. will + V1 — Future. Каждый служебный глагол даёт свой «слой» смысла."
     }
   ],
   "error_correction_exercises": [
@@ -1603,6 +3229,44 @@
         }
       ],
       "explanation": "you всегда берёт were, даже для одного человека: «You were late». «lately» — наречие «недавно», здесь нужно прилагательное «late» (опоздавший). «weren't» меняет смысл на отрицание, которого не было в исходном предложении."
+    },
+    {
+      "id": 47,
+      "wrongSentence": "I haved a cat when I was a kid.",
+      "options": [
+        {
+          "text": "I have a cat when I was a kid.",
+          "isCorrect": false
+        },
+        {
+          "text": "I had a cat when I was a kid.",
+          "isCorrect": true
+        },
+        {
+          "text": "I did had a cat when I was a kid.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«haved» — несуществующая форма; прошлое от have/has — had (одна форма для всех). «did had» — двойное прошлое: did уже несёт прошедшее время, после него нужна базовая форма «have»."
+    },
+    {
+      "id": 48,
+      "wrongSentence": "I will to visit my grandmother next week.",
+      "options": [
+        {
+          "text": "I will visiting my grandmother next week.",
+          "isCorrect": false
+        },
+        {
+          "text": "I will visit my grandmother next week.",
+          "isCorrect": true
+        },
+        {
+          "text": "I will visited my grandmother next week.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после will не нужен to (как и после can/must/should) — глагол сразу в базовой форме: «will visit». «visiting»/«visited» — неверные формы, will требует именно V1."
     }
   ],
   "construction_meaning_exercises": [],
@@ -1708,6 +3372,106 @@
         }
       ],
       "explanation": "связка — после be существительное/прилагательное/место (a nurse, delicious, at the airport). Continuous — после be V-ing, действие в процессе (helping, eating, waiting). Passive — после be V3, с подлежащим что-то сделали (examined, delivered, checked)."
+    },
+    {
+      "id": 21,
+      "taskDescription": "распредели предложения по тому, какую роль играет have/has.",
+      "categories": [
+        {
+          "title": "have/has — владение",
+          "items": [
+            "Sasha has a new phone.",
+            "We have a meeting at 5.",
+            "They have a house in the country.",
+            "Igor has a lot of friends."
+          ]
+        },
+        {
+          "title": "have/has — Perfect-маркер",
+          "items": [
+            "Sasha has fixed her phone.",
+            "We have checked the schedule.",
+            "They have arrived at the airport.",
+            "Igor has missed his flight."
+          ]
+        }
+      ],
+      "explanation": "владение — после have/has существительное (a phone, a meeting, a house, friends). Perfect-маркер — после have/has V3, обозначающий уже завершённое действие (fixed, checked, arrived, missed)."
+    },
+    {
+      "id": 22,
+      "taskDescription": "распредели предложения по тому, какую роль играет have/has/had.",
+      "categories": [
+        {
+          "title": "have/has/had — владение",
+          "items": [
+            "Oleg has a new job.",
+            "We had a long meeting.",
+            "Katya has a lot of homework.",
+            "They had a small house."
+          ]
+        },
+        {
+          "title": "have/has/had — Perfect-маркер",
+          "items": [
+            "Oleg has started a new job.",
+            "We had finished the meeting before lunch.",
+            "Katya has checked her homework.",
+            "They had locked the house before the trip."
+          ]
+        }
+      ],
+      "explanation": "владение — после have/has/had существительное (a job, a meeting, homework, a house). Perfect-маркер — после have/has/had V3, обозначающий уже завершённое действие (started, finished, checked, locked)."
+    },
+    {
+      "id": 23,
+      "taskDescription": "распредели предложения по конструкции с will.",
+      "categories": [
+        {
+          "title": "will + V1 (Future Simple)",
+          "items": [
+            "Vera will call you tomorrow.",
+            "They will arrive on Friday.",
+            "I will visit my parents next month.",
+            "She will graduate next year."
+          ]
+        },
+        {
+          "title": "will + be + V-ing (Future Continuous)",
+          "items": [
+            "Vera will be cooking at 7 pm.",
+            "They will be travelling all day on Friday.",
+            "I will be working when you arrive.",
+            "She will be studying for exams next week."
+          ]
+        }
+      ],
+      "explanation": "will + V1 (Future Simple) — просто факт о будущем (call, arrive, visit, graduate). will + be + V-ing (Future Continuous) — действие будет В ПРОЦЕССЕ в конкретный момент (cooking, travelling, working, studying)."
+    },
+    {
+      "id": 24,
+      "taskDescription": "распредели предложения по тому, переводится ли служебный глагол отдельно.",
+      "categories": [
+        {
+          "title": "Переводится отдельно (связка/владение)",
+          "items": [
+            "She is a doctor.",
+            "He has a car.",
+            "They had a meeting yesterday.",
+            "I am tired."
+          ]
+        },
+        {
+          "title": "НЕ переводится отдельно — часть конструкции",
+          "items": [
+            "She is working now.",
+            "He has fixed the car.",
+            "The window was opened.",
+            "He will call tomorrow."
+          ]
+        }
+      ],
+      "explanation": "левая колонка — be/have в обычной роли (связка/владение), переводятся как «быть/иметь». Правая — be/have/will создают конструкцию (Continuous/Perfect/Passive/Future): сами по себе не переводятся, смысл несёт второй компонент или вся конструкция целиком."
     }
   ],
   "find_the_odd_exercises": [
@@ -1733,6 +3497,52 @@
         }
       ],
       "explanation": "в первых трёх is/was + V3 (washed, painted, cleaned) = с предметом что-то сделали — Passive. В «The soup is hot» — hot — прилагательное, это просто связка: суп горячий (состояние, никто ничего не «сделал»)."
+    },
+    {
+      "id": 23,
+      "groupDescription": "В трёх предложениях had — маркер Past Perfect (действие произошло раньше другого прошлого момента). В одном had — просто владение в прошлом.",
+      "items": [
+        {
+          "text": "She had finished the report before the meeting started.",
+          "isOdd": false
+        },
+        {
+          "text": "They had already locked the office when the alarm went off.",
+          "isOdd": false
+        },
+        {
+          "text": "We had checked the tickets before we boarded the plane.",
+          "isOdd": false
+        },
+        {
+          "text": "He had a big garden behind his house.",
+          "isOdd": true
+        }
+      ],
+      "explanation": "в первых трёх had + V3 (finished, locked, checked) = действие случилось раньше другого момента — Past Perfect. В «He had a big garden» — garden — существительное, had здесь просто владение в прошлом."
+    },
+    {
+      "id": 24,
+      "groupDescription": "В трёх предложениях will + have + V3 — действие завершится К определённому моменту в будущем. В одном — просто will + V1 (факт о будущем, без указания \"к какому моменту\").",
+      "items": [
+        {
+          "text": "By 6 pm, Roma will have finished his homework.",
+          "isOdd": false
+        },
+        {
+          "text": "By next year, Olya will have graduated.",
+          "isOdd": false
+        },
+        {
+          "text": "By the time you arrive, we will have cleaned up.",
+          "isOdd": false
+        },
+        {
+          "text": "Tomorrow Tema will finish the project.",
+          "isOdd": true
+        }
+      ],
+      "explanation": "в первых трёх will + have + V3 (finished, graduated, cleaned up) — Future Perfect, действие завершится к указанному моменту. В «Tema will finish the project» — просто will + V1, факт о будущем без привязки «к моменту»."
     }
   ]
 }
