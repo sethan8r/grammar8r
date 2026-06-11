@@ -7,42 +7,46 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 109 |
-| Categorization | 18 |
+| Card | 113 |
+| Categorization | 21 |
 | Category | 2 |
 | ConstructionMeaning | 8 |
 | DialogRestore | 10 |
-| ErrorCorrection | 46 |
-| FindTheOdd | 22 |
-| Matching | 21 |
-| Microtopic | 39 |
+| ErrorCorrection | 47 |
+| FindTheOdd | 23 |
+| Matching | 22 |
+| Microtopic | 40 |
 | MultipleChoice·CHOICE | 72 |
-| MultipleChoice·FORWARD_CHOICE | 71 |
-| MultipleChoice·REVERSE_CHOICE | 20 |
-| TableFill | 9 |
+| MultipleChoice·FORWARD_CHOICE | 72 |
+| MultipleChoice·REVERSE_CHOICE | 22 |
+| TableFill | 10 |
 | TextInput | 31 |
 | Topic | 6 |
 | Transformation | 15 |
-| TrueFalse | 50 |
-| WordArrangement | 48 |
-| course_word | 292 |
+| TrueFalse | 53 |
+| WordArrangement | 49 |
+| course_word | 298 |
 
 ## Диапазоны по темам
 
 ### auxiliary-verbs
-- Card: 100–102 (3)
+- Card: 100–112 (7)
+- Categorization: 18–20 (3)
 - Category: 1–1 (1)
-- ErrorCorrection: 45–45 (1)
-- Matching: 17–17 (1)
-- Microtopic: 36–36 (1)
+- ErrorCorrection: 45–46 (2)
+- FindTheOdd: 22–22 (1)
+- Matching: 17–21 (2)
+- Microtopic: 36–39 (2)
 - MultipleChoice·CHOICE: 70–71 (2)
-- MultipleChoice·FORWARD_CHOICE: 63–65 (3)
+- MultipleChoice·FORWARD_CHOICE: 63–71 (4)
+- MultipleChoice·REVERSE_CHOICE: 20–21 (2)
+- TableFill: 9–9 (1)
 - TextInput: 30–30 (1)
 - Topic: 4–4 (1)
 - Transformation: 14–14 (1)
-- TrueFalse: 48–49 (2)
-- WordArrangement: 47–47 (1)
-- course_word: 289–291 (3)
+- TrueFalse: 48–52 (5)
+- WordArrangement: 47–48 (2)
+- course_word: 289–297 (9)
 
 ### how-english-thinks
 - Card: 71–77 (7)

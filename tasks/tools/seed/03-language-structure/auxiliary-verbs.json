@@ -23,6 +23,12 @@
       "topicId": 4,
       "title": "do / does / did",
       "order": 1
+    },
+    {
+      "id": 39,
+      "topicId": 4,
+      "title": "be (am/is/are/was/were)",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -300,6 +306,446 @@
         "did используется только в вопросах или тоже в отрицаниях?",
         "Как отличить did-вспомогательный от did основного: «I did it» — это одно и то же did?"
       ]
+    },
+    {
+      "id": 109,
+      "microtopicId": 39,
+      "title": "was / were — to be в прошлом",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В Основах (микротема «Глагол to be») мы разобрали am/is/are — три формы to be в настоящем — и упомянули, что у to be есть ещё формы для прошлого: was и were. Вот они."
+        },
+        {
+          "type": "heading",
+          "text": "Формы to be в прошлом:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кто",
+            "Форма",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "I",
+              "**was**",
+              "I was tired yesterday.",
+              "Вчера я устал."
+            ],
+            [
+              "you",
+              "**were**",
+              "You were right.",
+              "Ты был прав."
+            ],
+            [
+              "he",
+              "**was**",
+              "He was at the gym.",
+              "Он был в спортзале."
+            ],
+            [
+              "she",
+              "**was**",
+              "She was a student.",
+              "Она была студенткой."
+            ],
+            [
+              "it",
+              "**was**",
+              "It was cold last winter.",
+              "Прошлой зимой было холодно."
+            ],
+            [
+              "we",
+              "**were**",
+              "We were friends at school.",
+              "В школе мы были друзьями."
+            ],
+            [
+              "they",
+              "**were**",
+              "They were at home.",
+              "Они были дома."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "was/were работают точно так же как am/is/are — связывают подлежащее с тем, кем/каким/где оно БЫЛО. Меняется только форма: те же три роли (кто/какой/где), только в прошлом."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "«You was late.» ✗ — кажется логичным: you = один человек, значит форма как у he/she/it (was). Но **you в английском всегда берёт were** — даже когда речь об одном человеке. «You were late.» ✓"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "text": "«We was» / «They was» ✗ — were ✓. Множественное число всегда берёт were, как и you."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос — по уже знакомой схеме:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Полная форма",
+            "Краткая",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "was not",
+              "wasn't",
+              "She wasn't ready.",
+              "Она не была готова."
+            ],
+            [
+              "were not",
+              "weren't",
+              "They weren't home.",
+              "Их не было дома."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос: **Was/Were + подлежащее + ...?** «Was she at the party?» *(Она была на вечеринке?)* «Were they ready?» *(Они были готовы?)*"
+        },
+        {
+          "type": "heading",
+          "text": "Кстати:** be — единственный глагол в английском, у которого ДВЕ формы прошедшего времени в зависимости от подлежащего. Все остальные глаголы (и правильные, и неправильные) имеют ОДНУ форму прошлого для всех лиц: «I worked, you worked, he worked, we worked» — везде worked. А у be: «I was, you were, he was, we were» — две разные формы. Исключение, но запомнить легко: **I/he/she/it → was, you/we/they → were."
+        }
+      ],
+      "summary": "was — для I/he/she/it. were — для you/we/they (даже если you = один человек!). Отрицание: wasn't/weren't. Вопрос: Was/Were + подлежащее? be — единственный глагол с двумя формами прошлого.",
+      "examples": [
+        {
+          "ru": "Вчера Лена была на работе.",
+          "en": "Lena was at work yesterday."
+        },
+        {
+          "ru": "Ты был прав.",
+          "en": "You were right."
+        },
+        {
+          "ru": "В субботу мы были на концерте.",
+          "en": "We were at a concert on Saturday."
+        },
+        {
+          "ru": "Игорь не был готов.",
+          "en": "Igor wasn't ready."
+        },
+        {
+          "ru": "Вчера вечером они были дома?",
+          "en": "Were they at home last night?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему \"you\" всегда берёт were, даже если речь об одном человеке?",
+        "В чём разница между \"wasn't\" и \"weren't\"?",
+        "Можно ли сказать \"Was you...?\" вместо \"Were you...?\""
+      ]
+    },
+    {
+      "id": 110,
+      "microtopicId": 39,
+      "title": "be + V-ing — сигнал «происходит сейчас» (Continuous)",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор be (am/is/are/was/were) была связкой: после неё шло существительное («She is a teacher»), прилагательное («She is tired») или место («She is at home») — и be переводилась как «быть/являться/находиться»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь у be появляется вторая работа. Если сразу после be стоит глагол с окончанием **-ing** (V-ing) — be больше НЕ переводится отдельно. Вместе они образуют одну конструкцию со значением «делает/делал это прямо сейчас»."
+        },
+        {
+          "type": "paragraph",
+          "text": "«Vera is cooking.» — не «Вера есть готовящая», а **«Вера готовит (прямо сейчас)».**"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Igor was working when I called.» — **«Игорь работал (в тот момент), когда я позвонил».**"
+        },
+        {
+          "type": "heading",
+          "text": "Формы:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Время",
+            "Формула",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "Настоящее",
+              "am/is/are + V-ing",
+              "She is reading.",
+              "Она читает (сейчас)."
+            ],
+            [
+              "Прошлое",
+              "was/were + V-ing",
+              "They were watching TV.",
+              "Они смотрели телевизор (в тот момент)."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "text": "это пока превью. Полные правила Present Continuous и Past Continuous (когда употреблять, какие глаголы НЕ используются с -ing, отрицание и вопрос) — отдельные темы впереди. Сейчас задача — научиться УЗНАВАТЬ эту конструкцию и не путать be-связку с be-маркером."
+        },
+        {
+          "type": "heading",
+          "text": "Как отличить связку от маркера"
+        },
+        {
+          "type": "paragraph",
+          "text": "Само be (is/was/...) выглядит одинаково в обеих ролях. Разница — в том, что идёт ПОСЛЕ него."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«He **is** tired.» — после is прилагательное → связка. Он устал (состояние).",
+            "«He **is** working.» — после is глагол+ing → маркер. Он работает (действие сейчас).",
+            "«Sasha **is** a singer.» — после is существительное → связка. Саша — певица (профессия).",
+            "«Sasha **is** singing.» — после is глагол+ing → маркер. Саша поёт (сейчас)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "text": "-ing бывает не только у глагола в Continuous — иногда это существительное (герундий): «Reading is fun.» *(Чтение — это весело.)* Здесь is — связка, а «reading» — подлежащее (существительное), не часть сказуемого. Отличить просто: если -ing стоит СРАЗУ после be и обозначает действие подлежащего — это Continuous. Если -ing — само подлежащее (стоит ДО be) — это существительное."
+        }
+      ],
+      "summary": "be + V-ing = одна конструкция со значением «происходит/происходило прямо сейчас» — be здесь не переводится отдельно. Само be (is/was...) выглядит так же, как связка — роль определяет то, что идёт после: прилагательное/существительное → связка, V-ing → Continuous-маркер.",
+      "examples": [
+        {
+          "ru": "Тёма сейчас работает над проектом.",
+          "en": "Tema is working on the project now."
+        },
+        {
+          "ru": "Когда я пришёл, Ира готовила ужин.",
+          "en": "When I arrived, Ira was cooking dinner."
+        },
+        {
+          "ru": "Он спортсмен.",
+          "en": "He is an athlete."
+        },
+        {
+          "ru": "Он сейчас тренируется.",
+          "en": "He is training right now."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить \"is + прилагательное\" (связка) от \"is + V-ing\" (Continuous)?",
+        "Бывает ли -ing существительным, а не глаголом?",
+        "Когда мы будем разбирать полные правила Present Continuous?"
+      ]
+    },
+    {
+      "id": 111,
+      "microtopicId": 39,
+      "title": "be + V3 — сигнал «это сделали с подлежащим» (Passive)",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У be есть и третья работа. Если сразу после be стоит **V3** (третья форма глагола — у правильных глаголов это та же форма, что и V2: invite → invited, clean → cleaned, finish → finished) — be снова не переводится отдельно. Вместе они сигналят: подлежащее НЕ делает действие, а ПОЛУЧАЕТ его."
+        },
+        {
+          "type": "paragraph",
+          "text": "«Igor painted the wall.» — **Игорь покрасил стену.** *(Игорь — деятель, активный залог.)*"
+        },
+        {
+          "type": "paragraph",
+          "text": "«The wall was painted.» — **Стену покрасили.** *(стена получает действие; кто красил — не важно/не сказано, пассивный залог.)*"
+        },
+        {
+          "type": "heading",
+          "text": "Формы:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Время",
+            "Формула",
+            "Пример",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "Настоящее",
+              "am/is/are + V3",
+              "Fresh coffee is prepared here every morning.",
+              "Здесь каждое утро готовят свежий кофе."
+            ],
+            [
+              "Прошлое",
+              "was/were + V3",
+              "The report was finished yesterday.",
+              "Отчёт закончили вчера."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "text": "полную таблицу форм V1/V2/V3 (включая неправильные глаголы, у которых V3 не равен V1+ed) разберём в теме «Глаголы V1/V2/V3». Пока используем глаголы, у которых V3 = V1 + ed: prepared, finished, painted, organized, closed, washed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это тоже превью — полный разбор Passive Voice (когда используется, «by + деятель», get-passive) будет в отдельной теме позже. Сейчас — научиться узнавать сигнал."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай с прилагательным",
+          "text": "некоторые V3-формы выглядят как обычные прилагательные, описывающие состояние, а не действие. «The door is closed.» может означать: 1) состояние — дверь сейчас в закрытом виде (как «the door is open» — связка + прилагательное), ИЛИ 2) пассив — дверь закрыли (кто-то совершил действие). По одному предложению иногда не отличить — нужен контекст. Это нормально, даже носители не всегда замечают разницу — пока просто знай, что так бывает."
+        }
+      ],
+      "summary": "be + V3 (у правильных глаголов = V1+ed) = маркер Passive: с подлежащим что-то СДЕЛАЛИ, само be не переводится отдельно. «The wall was painted» = «Стену покрасили», не «Стена была покрашенной». Некоторые V3-формы совпадают с прилагательными — различай по контексту.",
+      "examples": [
+        {
+          "ru": "В этом кафе каждое утро готовят свежий кофе.",
+          "en": "Fresh coffee is prepared in this café every morning."
+        },
+        {
+          "ru": "Отчёт закончили вчера.",
+          "en": "The report was finished yesterday."
+        },
+        {
+          "ru": "Эту вечеринку организовала Лена.",
+          "en": "This party was organized by Lena."
+        },
+        {
+          "ru": "Дверь закрыта.",
+          "en": "The door is closed."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить \"be + прилагательное\" от \"be + V3\" — они же иногда выглядят одинаково?",
+        "Что такое V3 и почему оно совпадает с V2 у некоторых глаголов?",
+        "Когда разберём полный Passive Voice — с \"by\" и другими временами?"
+      ]
+    },
+    {
+      "id": 112,
+      "microtopicId": 39,
+      "title": "Три роли be — как распознать",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы увидели, что be (am/is/are/was/were) выполняет три совершенно разные работы — но сами слова при этом не меняются. Роль определяется только тем, что стоит СРАЗУ ПОСЛЕ be."
+        },
+        {
+          "type": "heading",
+          "text": "Три роли — одна таблица:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Конструкция",
+            "Что после be",
+            "Роль",
+            "Перевод"
+          ],
+          "rows": [
+            [
+              "He is a doctor.",
+              "существительное",
+              "связка",
+              "Он врач."
+            ],
+            [
+              "He is tired.",
+              "прилагательное",
+              "связка",
+              "Он устал."
+            ],
+            [
+              "He is working.",
+              "глагол + -ing",
+              "Continuous-маркер",
+              "Он работает (сейчас)."
+            ],
+            [
+              "He is invited.",
+              "V3",
+              "Passive-маркер",
+              "Его пригласили."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Алгоритм распознавания:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Найди am/is/are/was/were в предложении.",
+            "Посмотри, что стоит сразу после.",
+            "Существительное, прилагательное или место → связка. Переводи как «быть/являться/находиться» — или вообще без отдельного слова, если по-русски так не говорят («Он врач», не «Он есть врач»).",
+            "Глагол с -ing → Continuous-маркер. Переводи be + V-ing одним глаголом — «делает» / «делал».",
+            "V3 (у правильных глаголов = глагол + -ed) → Passive-маркер. Переводи как «с подлежащим что-то сделали» — «его пригласили», «стену покрасили»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "text": "be сам никогда не несёт смысл действия. Смысл действия даёт второй компонент (V-ing или V3). be просто «включает» нужный режим — как переключатель."
+        }
+      ],
+      "summary": "be (am/is/are/was/were) — одно слово, три роли. После него существительное/прилагательное/место → связка («быть»). После него V-ing → «делает/делал» (Continuous). После него V3 → «с ним сделали» (Passive). Роль определяет то, что идёт ПОСЛЕ be, а не само be.",
+      "examples": [
+        {
+          "ru": "Коля — водитель.",
+          "en": "Kolya is a driver."
+        },
+        {
+          "ru": "Коля сейчас ведёт машину.",
+          "en": "Kolya is driving the car."
+        },
+        {
+          "ru": "Машину помыли вчера.",
+          "en": "The car was washed yesterday."
+        },
+        {
+          "ru": "Вера была занята весь день.",
+          "en": "Vera was busy all day."
+        },
+        {
+          "ru": "Вера готовила ужин, когда я позвонил.",
+          "en": "Vera was cooking dinner when I called."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, какую роль играет be в конкретном предложении?",
+        "Что если после be идёт слово, которое можно принять и за прилагательное, и за V3?",
+        "Когда мы будем подробно изучать Present Continuous, Past Continuous и Passive Voice?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -374,6 +820,90 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 65,
       "orderInCard": 3
+    },
+    {
+      "cardId": 109,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 9,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 109,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 46,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 109,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 50,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 109,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 48,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 110,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 18,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 110,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 20,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 110,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 51,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 111,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 19,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 111,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 21,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 111,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 22,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 112,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 20,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 112,
+      "exerciseType": "MATCHING",
+      "exerciseId": 21,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 112,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 52,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 112,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 71,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -398,6 +928,22 @@
       "cardId": 102,
       "title": "Вопрос и отрицание с did",
       "userInstruction": "Составь вопрос или отрицание о прошедшем событии.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "auxiliary_card109_ex1",
+      "cardId": 109,
+      "title": "Переведи в прошлое с was/were",
+      "userInstruction": "AI даст предложение на русском о прошлом. Переведи его на английский, используя was или were.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "auxiliary_card112_ex1",
+      "cardId": 112,
+      "title": "Переведи предложение с be",
+      "userInstruction": "AI даст предложение на английском с am/is/are/was/were. Переведи его на русский — твой перевод покажет, правильно ли ты понял роль be в этом предложении.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -442,9 +988,93 @@
       "transcription": "[laɪk]",
       "microtopicId": 36,
       "categoryId": "language_structure"
+    },
+    {
+      "id": 292,
+      "word": "was",
+      "translation": "был, была, было (форма to be для I/he/she/it в прошлом)",
+      "transcription": "[wɒz]",
+      "microtopicId": 39,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 293,
+      "word": "were",
+      "translation": "были, был (форма to be для you/we/they в прошлом)",
+      "transcription": "[wɜː]",
+      "microtopicId": 39,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 294,
+      "word": "to check",
+      "translation": "проверять",
+      "transcription": "[tʃek]",
+      "microtopicId": 39,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 295,
+      "word": "to fix",
+      "translation": "чинить, ремонтировать",
+      "transcription": "[fɪks]",
+      "microtopicId": 39,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 296,
+      "word": "to clean",
+      "translation": "убирать, чистить",
+      "transcription": "[kliːn]",
+      "microtopicId": 39,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 297,
+      "word": "busy",
+      "translation": "занятый",
+      "transcription": "[ˈbɪzi]",
+      "microtopicId": 39,
+      "categoryId": "language_structure"
     }
   ],
-  "table_fill_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 9,
+      "taskDescription": "вставь was или were",
+      "rows": [
+        {
+          "hint": "I ___",
+          "answer": "was"
+        },
+        {
+          "hint": "you ___",
+          "answer": "were"
+        },
+        {
+          "hint": "he ___",
+          "answer": "was"
+        },
+        {
+          "hint": "she ___",
+          "answer": "was"
+        },
+        {
+          "hint": "it ___",
+          "answer": "was"
+        },
+        {
+          "hint": "we ___",
+          "answer": "were"
+        },
+        {
+          "hint": "they ___",
+          "answer": "were"
+        }
+      ],
+      "explanation": "was — для I/he/she/it (единственное число, кроме you). were — для you/we/they. you — всегда were, даже про одного человека."
+    }
+  ],
   "true_false_exercises": [
     {
       "id": 48,
@@ -507,6 +1137,99 @@
         }
       ],
       "explanation": "2: после did — базовая форма «work» (не «works»). 4: «comed» не существует, базовая форма от to come — просто «come»: «Did Lena come to the party?». 1, 3, 5 — правильные."
+    },
+    {
+      "id": 50,
+      "statements": [
+        {
+          "en": "I were busy yesterday.",
+          "ru": "Вчера я был занят.",
+          "isTrue": false
+        },
+        {
+          "en": "She was at the dentist this morning.",
+          "ru": "Сегодня утром она была у стоматолога.",
+          "isTrue": true
+        },
+        {
+          "en": "We was at the cinema on Friday.",
+          "ru": "В пятницу мы были в кино.",
+          "isTrue": false
+        },
+        {
+          "en": "They were happy with the result.",
+          "ru": "Они были довольны результатом.",
+          "isTrue": true
+        },
+        {
+          "en": "You were great in the meeting.",
+          "ru": "Ты был отличен на встрече.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "1: I → was (не were): «I was busy». 3: we → were (не was): «We were at the cinema». 2, 4, 5 — правильные формы."
+    },
+    {
+      "id": 51,
+      "statements": [
+        {
+          "en": "Katya is reading a book now.",
+          "ru": "Катя сейчас читает книгу.",
+          "isTrue": true
+        },
+        {
+          "en": "He is a teacher who is explaining the rule.",
+          "ru": "Он учитель, который объясняет правило.",
+          "isTrue": true
+        },
+        {
+          "en": "We were watching a film when you called.",
+          "ru": "Мы есть смотрящие фильм, когда ты позвонил.",
+          "isTrue": false
+        },
+        {
+          "en": "Reading is my favourite hobby.",
+          "ru": "Чтение — моё любимое хобби.",
+          "isTrue": true
+        },
+        {
+          "en": "Oleg is tired today.",
+          "ru": "Олег сегодня работает.",
+          "isTrue": false
+        }
+      ],
+      "explanation": "3: «were watching» — Continuous-маркер, переводится «смотрели» (одним глаголом), а не «есть смотрящие». 5: «is tired» — связка + прилагательное = «устал» (состояние), а не «работает»."
+    },
+    {
+      "id": 52,
+      "statements": [
+        {
+          "en": "Misha is a student.",
+          "ru": "Миша — студент.",
+          "isTrue": true
+        },
+        {
+          "en": "Misha is study English now.",
+          "ru": "Миша сейчас изучает английский.",
+          "isTrue": false
+        },
+        {
+          "en": "The homework was checked by the teacher.",
+          "ru": "Домашку проверил учитель.",
+          "isTrue": true
+        },
+        {
+          "en": "Oksana was tired after the trip.",
+          "ru": "Оксана устала после поездки.",
+          "isTrue": true
+        },
+        {
+          "en": "The window was open by Dima.",
+          "ru": "Окно было открыто Димой.",
+          "isTrue": false
+        }
+      ],
+      "explanation": "2: «is study» — нет V-ing, нужно «is studying» (Continuous-маркер требует -ing). 5: «was open by Dima» — «open» здесь прилагательное (связка), а для Passive нужен V3: «The window was opened by Dima.»"
     }
   ],
   "word_arrangement_exercises": [
@@ -543,6 +1266,44 @@
         }
       ],
       "explanation": "Roma — он, 3-е лицо → Does. После does — базовая форма «like» (не «likes»). «Do» — дистрактор: подходит для I/you/we/they, но не для Roma."
+    },
+    {
+      "id": 48,
+      "situationRu": "RU: На прошлой неделе Коля был в Лондоне.",
+      "correctSentence": "Last week Kolya was in London.",
+      "words": [
+        {
+          "text": "Last week",
+          "translation": "на прошлой неделе"
+        },
+        {
+          "text": "Kolya",
+          "translation": ""
+        },
+        {
+          "text": "was",
+          "translation": "был"
+        },
+        {
+          "text": "in",
+          "translation": ""
+        },
+        {
+          "text": "London",
+          "translation": "Лондон"
+        }
+      ],
+      "distractors": [
+        {
+          "text": "were",
+          "translation": ""
+        },
+        {
+          "text": "is",
+          "translation": ""
+        }
+      ],
+      "explanation": "Kolya = he → was (не were). «were» и «is» — дистракторы: were подходит для you/we/they, is — для настоящего времени."
     }
   ],
   "multiple_choice_exercises": [
@@ -650,6 +1411,69 @@
         }
       ],
       "explanation": "Прошлое время → did. После did — базовая форма «work» (не «worked»: did уже отвечает за прошлое). «You worked yesterday?» — вопрос без did в английском невозможен."
+    },
+    {
+      "id": 20,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Dima is calling his mom right now.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Дима — звонящий маме прямо сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Дима звонит маме прямо сейчас.",
+          "isCorrect": true
+        },
+        {
+          "text": "Дима есть звонок маме прямо сейчас.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«is calling» — be + V-ing = маркер Continuous, переводится одним глаголом в настоящем «звонит» (сейчас, в процессе). Не переводи is отдельно как «есть/является»."
+    },
+    {
+      "id": 21,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The cake was finished before dinner.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Торт был законченным перед ужином.",
+          "isCorrect": false
+        },
+        {
+          "text": "Торт доели до ужина.",
+          "isCorrect": true
+        },
+        {
+          "text": "Торт есть законченный перед ужином.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«was finished» — be + V3 = маркер Passive, переводится одним глаголом «доели/закончили» (с тортом что-то СДЕЛАЛИ). Не переводи was отдельно как «был»."
+    },
+    {
+      "id": 71,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Рома сейчас читает газету.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Roma is a reader of newspaper.",
+          "isCorrect": false
+        },
+        {
+          "text": "Roma is reading a newspaper.",
+          "isCorrect": true
+        },
+        {
+          "text": "Roma was reading a newspaper.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«сейчас читает» = действие в процессе сейчас → is + V-ing (Continuous). «is a reader» — связка, неверный смысл («читатель» как профессия — так не говорят). «was reading» — прошлое, не подходит для «сейчас»."
     }
   ],
   "text_input_exercises": [
@@ -712,6 +1536,33 @@
         }
       ],
       "explanation": "Настоящее + she/Vera → Does. Настоящее + they → Do. Прошлое → did/didn't для любого субъекта. После did/didn't — базовая форма: «come» (не «came»)."
+    },
+    {
+      "id": 21,
+      "taskDescription": "соедини английское предложение с русским переводом.",
+      "pairs": [
+        {
+          "left": "Igor is a mechanic.",
+          "right": "Игорь — механик."
+        },
+        {
+          "left": "Igor is fixing the car.",
+          "right": "Игорь чинит машину (сейчас)."
+        },
+        {
+          "left": "The car was fixed yesterday.",
+          "right": "Машину починили вчера."
+        },
+        {
+          "left": "Sveta was tired after work.",
+          "right": "Света устала после работы."
+        },
+        {
+          "left": "Sveta was finishing her report when I arrived.",
+          "right": "Света заканчивала отчёт, когда я пришёл."
+        }
+      ],
+      "explanation": "«is a mechanic» — связка (профессия). «is fixing» — Continuous (действие сейчас). «was fixed» — Passive (с машиной сделали). «was tired» — связка (состояние в прошлом). «was finishing» — Continuous в прошлом (действие было в процессе тогда)."
     }
   ],
   "error_correction_exercises": [
@@ -733,6 +1584,25 @@
         }
       ],
       "explanation": "Отрицание строится только через don't/doesn't — нельзя вставить «not» или «no» прямо перед основным глаголом. Igor = he → doesn't. После doesn't — базовая форма «work»."
+    },
+    {
+      "id": 46,
+      "wrongSentence": "You was late for the meeting.",
+      "options": [
+        {
+          "text": "You was lately for the meeting.",
+          "isCorrect": false
+        },
+        {
+          "text": "You were late for the meeting.",
+          "isCorrect": true
+        },
+        {
+          "text": "You weren't late for the meeting.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "you всегда берёт were, даже для одного человека: «You were late». «lately» — наречие «недавно», здесь нужно прилагательное «late» (опоздавший). «weren't» меняет смысл на отрицание, которого не было в исходном предложении."
     }
   ],
   "construction_meaning_exercises": [],
@@ -757,6 +1627,112 @@
       "explanation": "Vera, Tema = he/she → doesn't + базовая форма (work, like — без -s). They → don't + базовая форма (speak). В отрицании -s убирается с глагола: «works» → «doesn't work»."
     }
   ],
-  "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "categorization_exercises": [
+    {
+      "id": 18,
+      "taskDescription": "распредели предложения по тому, какую роль играет be (is/are/was/were).",
+      "categories": [
+        {
+          "title": "be — связка",
+          "items": [
+            "Misha is a doctor.",
+            "The soup is hot.",
+            "They were tired.",
+            "Roma was at home."
+          ]
+        },
+        {
+          "title": "be — маркер Continuous",
+          "items": [
+            "Misha is calling a patient.",
+            "Vera is cooking the soup.",
+            "They were running in the park.",
+            "Roma was reading a book."
+          ]
+        }
+      ],
+      "explanation": "связка — после be прилагательное/существительное/место (a doctor, hot, tired, at home). Маркер Continuous — после be глагол+ing, обозначающий действие подлежащего (calling, cooking, running, reading)."
+    },
+    {
+      "id": 19,
+      "taskDescription": "распредели предложения по тому, какую роль играет be (is/are/was/were).",
+      "categories": [
+        {
+          "title": "be — связка + прилагательное (состояние)",
+          "items": [
+            "The window is open.",
+            "Sasha is busy.",
+            "The shop is closed now.",
+            "The food is cold."
+          ]
+        },
+        {
+          "title": "be — маркер Passive (действие сделано)",
+          "items": [
+            "The window was washed.",
+            "The report was finished by Sasha.",
+            "The shop was opened at 9.",
+            "The food was prepared by Vera."
+          ]
+        }
+      ],
+      "explanation": "связка + прилагательное — описывает состояние «как есть» (open, busy, closed, cold). Маркер Passive — после be стоит V3, обозначающий действие, которое СДЕЛАЛИ с подлежащим (washed, finished, opened, prepared)."
+    },
+    {
+      "id": 20,
+      "taskDescription": "распредели предложения по роли be (is/are/was/were).",
+      "categories": [
+        {
+          "title": "be — связка",
+          "items": [
+            "Oksana is a nurse.",
+            "The pizza is delicious.",
+            "They were at the airport."
+          ]
+        },
+        {
+          "title": "be — Continuous",
+          "items": [
+            "Oksana is helping a patient.",
+            "Tema is eating pizza.",
+            "They were waiting for a taxi."
+          ]
+        },
+        {
+          "title": "be — Passive",
+          "items": [
+            "The patient was examined by Oksana.",
+            "The pizza was delivered an hour ago.",
+            "Their luggage was checked at the airport."
+          ]
+        }
+      ],
+      "explanation": "связка — после be существительное/прилагательное/место (a nurse, delicious, at the airport). Continuous — после be V-ing, действие в процессе (helping, eating, waiting). Passive — после be V3, с подлежащим что-то сделали (examined, delivered, checked)."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 22,
+      "groupDescription": "В трёх предложениях is/was — маркер пассивного залога (с подлежащим что-то СДЕЛАЛИ). В одном — is/was просто связка с прилагательным (описывает состояние).",
+      "items": [
+        {
+          "text": "The car was washed yesterday.",
+          "isOdd": false
+        },
+        {
+          "text": "The wall was painted last week.",
+          "isOdd": false
+        },
+        {
+          "text": "The room was cleaned this morning.",
+          "isOdd": false
+        },
+        {
+          "text": "The soup is hot.",
+          "isOdd": true
+        }
+      ],
+      "explanation": "в первых трёх is/was + V3 (washed, painted, cleaned) = с предметом что-то сделали — Passive. В «The soup is hot» — hot — прилагательное, это просто связка: суп горячий (состояние, никто ничего не «сделал»)."
+    }
+  ]
 }

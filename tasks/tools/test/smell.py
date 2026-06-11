@@ -11,7 +11,6 @@ d = json.load(open(os.path.normpath(os.path.join(SEED, _name + '.json')), encodi
 SUS = [
     (re.compile(r'[✗❌]'), 'маркер ✗/❌'),
     (re.compile(r'→'), 'стрелка →'),
-    (re.compile(r'\*'), 'звёздочка * (markdown-утечка)'),
     (re.compile(r'(?:^|\s)[a-dA-Dа-гА-Г]\)\s'), 'буквенная опция a)/b)'),
     (re.compile(r'\[\?{2,}|\?{3,}|\[___\]'), 'пропуск [???]/[___]'),
     (re.compile(r'\b(Подсказка|Правильн\w*\s+предложени|Дано)\b'), 'инструкция в данных'),
@@ -21,6 +20,11 @@ SUS = [
 ]
 # поля-инструкции пропускаем — там →, /, (лишнее) и т.п. легитимны
 SKIP_KEYS = {'explanation', 'userInstruction', 'title', 'taskDescription', 'groupDescription'}
+
+# Парное **…** в текстах упражнений — ЛЕГИТИМНОЕ выделение жирным (канон: guide §8,
+# exercise_templates «Общие правила»; UI рендерит Bold). Запах — только НЕПАРНЫЕ звёздочки,
+# оставшиеся после вычитания парных: опечатки вида "I **love this place."
+BOLD = re.compile(r'\*\*[^*\n]+?\*\*')
 
 hits = []
 
@@ -41,6 +45,8 @@ def scan(val, path):
                 continue
             if rx.search(val):
                 hits.append(f'[{name}] {path} = {val!r}')
+        if '*' in BOLD.sub('', val):
+            hits.append(f'[непарная звёздочка * (markdown-утечка)] {path} = {val!r}')
 
 # сканируем только упражнения и AI-клиент (не теорию)
 for key in d:

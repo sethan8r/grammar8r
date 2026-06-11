@@ -32,6 +32,7 @@
 Самая независимая фича, нет внешних зависимостей.
 
 - [ ] Подключить Room + Hilt в `grammar-app`
+- [ ] Серверные заглушки: интерфейсы `AuthRepository` / `EntitlementsProvider` / `AiExerciseRepository` + фейковые реализации через Hilt; их DTO — сразу в модуль `grammar-shared` (контракт клиент↔сервер, см. kickoff_context.md §3.1 и CLAUDE.md)
 - [ ] Спроектировать схему БД: `GrammarTopic` → `GrammarSection` → контент
 - [ ] Написать контент теории (тексты, примеры) — засеять из assets JSON
   - Включает тему "Формы глаголов (V1/V2/V3)" — вводная между "Основами" и временами
@@ -101,6 +102,7 @@
 - [ ] Блокировка микротем при исчерпании дневного лимита (Free)
 
 **Сервер (Ktor на Hetzner):**
+- [ ] Эндпоинты реализуют DTO-контракт из модуля `grammar-shared` (создан в Фазе 1, не дублировать модели на сервере)
 - [ ] Авторизация: email+пароль + Яндекс OAuth → JWT
 - [ ] GET /subscription, POST /webhook/yookassa
 - [ ] POST /ai/exercise + /ai/clarification (AI-прокси через OpenAI gpt-5-nano)
