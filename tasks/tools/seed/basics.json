@@ -239,7 +239,7 @@
           "text": "\"it\" для животных. Если пол неизвестен или неважен — it. Если знаешь пол — можно he или she: \"This is my dog Max. He loves to run.\""
         }
       ],
-      "summary": "I/you/he/she/it/we/they — слова-замены для имён и предметов. I — всегда с заглавной. you — и ты, и вы (вежливого \"Вы\" в английском нет). it — для предметов и животных неизвестного пола.",
+      "theorySummary": "I/you/he/she/it/we/they — слова-замены для имён и предметов. I — всегда с заглавной. you — и ты, и вы (вежливого \"Вы\" в английском нет). it — для предметов и животных неизвестного пола.",
       "examples": [
         {
           "ru": "Я еду на работу.",
@@ -379,7 +379,7 @@
           "text": "Кстати: у to be есть прошедшие формы — was и were. Они понадобятся позже, когда будем изучать прошедшие времена. Пока работаем с am/is/are."
         }
       ],
-      "summary": "am — только с I. is — с he/she/it. are — с you/we/they. В разговоре сокращай: I'm, he's, they're. Без to be предложение на английском не работает — даже если в русском он не звучит.",
+      "theorySummary": "am — только с I. is — с he/she/it. are — с you/we/they. В разговоре сокращай: I'm, he's, they're. Без to be предложение на английском не работает — даже если в русском он не звучит.",
       "examples": [
         {
           "ru": "Я студент.",
@@ -482,7 +482,7 @@
           "text": "В разговорной речи почти всегда используем краткие формы: \"He isn't ready.\" / \"We aren't home.\""
         }
       ],
-      "summary": "not ставится сразу после am/is/are. Краткие формы: I'm not (не \"I amn't\"!), isn't, aren't. В разговоре — всегда краткие.",
+      "theorySummary": "not ставится сразу после am/is/are. Краткие формы: I'm not (не \"I amn't\"!), isn't, aren't. В разговоре — всегда краткие.",
       "examples": [
         {
           "ru": "Я не дома.",
@@ -581,7 +581,7 @@
           "text": "в кратком положительном ответе сокращать нельзя. \"Yes, she **is**.\" — правильно. \"Yes, she's.\" — так не говорят. Сокращение делает ответ незавершённым."
         }
       ],
-      "summary": "Вопрос: am/is/are ставится перед подлежащим. Am I? Is he/she/it? Are you/we/they? Краткий ответ: Yes, she is. / No, she isn't. В положительном кратком ответе сокращение не используется.",
+      "theorySummary": "Вопрос: am/is/are ставится перед подлежащим. Am I? Is he/she/it? Are you/we/they? Краткий ответ: Yes, she is. / No, she isn't. В положительном кратком ответе сокращение не используется.",
       "examples": [
         {
           "ru": "Он дома?",
@@ -668,7 +668,7 @@
           "text": "\"there\" в этой конструкции — **НЕ \"там\"** в значении места. \"There is a problem.\" — не \"там есть проблема\", а просто \"есть проблема\". Не путай с \"over there\" (вон там)."
         }
       ],
-      "summary": "There is — для одного предмета или неисчисляемого. There are — для нескольких. \"There\" здесь — не \"там\", а конструкция \"есть/находится\". There's = there is.",
+      "theorySummary": "There is — для одного предмета или неисчисляемого. There are — для нескольких. \"There\" здесь — не \"там\", а конструкция \"есть/находится\". There's = there is.",
       "examples": [
         {
           "ru": "В холодильнике есть молоко.",
@@ -784,7 +784,7 @@
           ]
         }
       ],
-      "summary": "Отрицание: there isn't (один), there aren't (несколько). Вопрос: Is there? (один), Are there? (несколько). any заменяет \"a/some\" в отрицаниях и вопросах — значит \"хоть один/совсем нет\". Краткий ответ: Yes, there is. / No, there aren't.",
+      "theorySummary": "Отрицание: there isn't (один), there aren't (несколько). Вопрос: Is there? (один), Are there? (несколько). any заменяет \"a/some\" в отрицаниях и вопросах — значит \"хоть один/совсем нет\". Краткий ответ: Yes, there is. / No, there aren't.",
       "examples": [
         {
           "ru": "Молока нет.",
@@ -919,7 +919,7 @@
           "text": "Краткой формы у have/has в значении \"владения\" нет — только полная. \"I've\" существует, но это часть других конструкций (Present Perfect) — не простого \"у меня есть\"."
         }
       ],
-      "summary": "have — с I/you/we/they. has — с he/she/it. По-русски: \"У меня есть\" = \"I have\". Краткой формы для \"владения\" нет.",
+      "theorySummary": "have — с I/you/we/they. has — с he/she/it. По-русски: \"У меня есть\" = \"I have\". Краткой формы для \"владения\" нет.",
       "examples": [
         {
           "ru": "У меня есть собака.",
@@ -1048,7 +1048,7 @@
           "text": "В разговоре всегда используй краткие формы: \"I don't have\", \"she doesn't have\". Полные (do not have, does not have) — для официального текста или для особого акцента: \"I do **not** have time for this!\" — *У меня реально нет на это времени!*"
         }
       ],
-      "summary": "don't have — с I/you/we/they. doesn't have — с he/she/it. После doesn't — всегда \"have\", не \"has\".",
+      "theorySummary": "don't have — с I/you/we/they. doesn't have — с he/she/it. После doesn't — всегда \"have\", не \"has\".",
       "examples": [
         {
           "ru": "У меня нет машины.",
@@ -1177,7 +1177,7 @@
           "text": "И снова: после does в вопросе — \"have\", не \"has\". \"Does she have?\" — правильно. \"Does she has?\" — ошибка."
         }
       ],
-      "summary": "Вопрос: Do/Does + подлежащее + have? Does — для he/she/it. После does — have (не has). Краткий ответ: Yes, I do. / No, she doesn't.",
+      "theorySummary": "Вопрос: Do/Does + подлежащее + have? Does — для he/she/it. После does — have (не has). Краткий ответ: Yes, I do. / No, she doesn't.",
       "examples": [
         {
           "ru": "У тебя есть брат?",
@@ -1324,7 +1324,7 @@
           ]
         }
       ],
-      "summary": "a/an = \"один какой-то\". a — перед согласным звуком, an — перед гласным. Только с исчисляемыми существительными: \"a cat\", но не \"a water\".",
+      "theorySummary": "a/an = \"один какой-то\". a — перед согласным звуком, an — перед гласным. Только с исчисляемыми существительными: \"a cat\", но не \"a water\".",
       "examples": [
         {
           "ru": "Я хочу яблоко.",
@@ -1604,7 +1604,7 @@
           ]
         }
       ],
-      "summary": "an — перед гласным звуком, не буквой. university, union, European → a (звук \"ю\"). hour, honest → an (h молчит). С прилагательным: артикль согласуется со звуком прилагательного.",
+      "theorySummary": "an — перед гласным звуком, не буквой. university, union, European → a (звук \"ю\"). hour, honest → an (h молчит). С прилагательным: артикль согласуется со звуком прилагательного.",
       "examples": [
         {
           "ru": "Это хороший университет.",
@@ -1722,7 +1722,7 @@
           "text": "в русском \"тот самый\" можно выразить интонацией или указательным словом \"эта/та\". В английском для этого есть the — и предложение без него прозвучит как будто это впервые упоминается или ничего конкретного."
         }
       ],
-      "summary": "the = \"тот самый, конкретный\". Используй: когда уже упомянуто, когда ясно из контекста, когда единственный в своём роде. Реки, океаны, моря — всегда the.",
+      "theorySummary": "the = \"тот самый, конкретный\". Используй: когда уже упомянуто, когда ясно из контекста, когда единственный в своём роде. Реки, океаны, моря — всегда the.",
       "examples": [
         {
           "ru": "Закрой окно, пожалуйста.",
@@ -1876,7 +1876,7 @@
           "text": "Пока просто запомни: если говоришь о владении — пишем `their`."
         }
       ],
-      "summary": "my/your/his/her/its/our/their — стоят перед существительным, показывают кому оно принадлежит. his = мужской, her = женский. its (без апострофа) = принадлежность предмета; it's = it is.",
+      "theorySummary": "my/your/his/her/its/our/their — стоят перед существительным, показывают кому оно принадлежит. his = мужской, her = женский. its (без апострофа) = принадлежность предмета; it's = it is.",
       "examples": [
         {
           "ru": "Это моя сумка.",
@@ -2001,7 +2001,7 @@
           "text": "(Чья это ручка? — Моя. / Её. / Не моя.)"
         }
       ],
-      "summary": "mine/yours/his/hers/ours/theirs — форма без существительного. Используй после глагола to be: \"This is mine.\" his не меняется в обеих формах. Чьё это? → \"Whose is this?\"",
+      "theorySummary": "mine/yours/his/hers/ours/theirs — форма без существительного. Используй после глагола to be: \"This is mine.\" his не меняется в обеих формах. Чьё это? → \"Whose is this?\"",
       "examples": [
         {
           "ru": "Эта машина моя.",
@@ -2143,7 +2143,7 @@
           "text": "Как отличить: после притяжательного 's идёт **существительное** (\"Katya's **cat**\"). После сокращения is/has идёт **прилагательное или глагол** (\"Katya's **tired**\")."
         }
       ],
-      "summary": "owner + 's + thing: \"Lena's dog\" = собака Лены. Порядок слов обратный русскому — сначала владелец. Для людей/животных → 's, для предметов/мест → of (the name of the city). 's = is/has когда после него прилагательное или глагол.",
+      "theorySummary": "owner + 's + thing: \"Lena's dog\" = собака Лены. Порядок слов обратный русскому — сначала владелец. Для людей/животных → 's, для предметов/мест → of (the name of the city). 's = is/has когда после него прилагательное или глагол.",
       "examples": [
         {
           "ru": "Это кошка Кирилла.",
@@ -2259,7 +2259,7 @@
           ]
         }
       ],
-      "summary": "'s → одушевлённые (люди, животные, персонажи) + время + организации: \"the dragon's soul\", \"Monday's meeting\". of → неодушевлённые предметы, места, абстракции: \"the leg of the table\", \"the capital of France\". Ловушка: \"the table's leg\" ✗.",
+      "theorySummary": "'s → одушевлённые (люди, животные, персонажи) + время + организации: \"the dragon's soul\", \"Monday's meeting\". of → неодушевлённые предметы, места, абстракции: \"the leg of the table\", \"the capital of France\". Ловушка: \"the table's leg\" ✗.",
       "examples": [
         {
           "ru": "Душа дракона бессмертна.",
@@ -2454,7 +2454,7 @@
           "text": "Если после **his/her** стоит существительное — это притяжательное. Если нет — либо объектное (her), либо притяжательное местоимение (his/her)."
         }
       ],
-      "summary": "Три формы: субъект (he/she/we) → объект (him/her/us) → притяжательное (his/her/our). Объектную форму используем после глагола (\"I see him\") и после предлога (\"for her\", \"with us\"). Ловушка: \"between her and me\" — не \"between she and I\". his и her работают в двух ролях — определяй по контексту.",
+      "theorySummary": "Три формы: субъект (he/she/we) → объект (him/her/us) → притяжательное (his/her/our). Объектную форму используем после глагола (\"I see him\") и после предлога (\"for her\", \"with us\"). Ловушка: \"between her and me\" — не \"between she and I\". his и her работают в двух ролях — определяй по контексту.",
       "examples": [
         {
           "ru": "Я вижу его каждый день.",
@@ -2555,7 +2555,7 @@
           "text": "слово `that` ещё используется как союз (\"Я знаю, что он устал\" → \"I know **that** he is tired\"). Это другое \"that\" — не указательное. Здесь мы изучаем только указательное."
         }
       ],
-      "summary": "this = этот/эта/это (рядом), that = тот/та/то (далеко). Оба — один предмет. \"This is...\" — представить близкое. \"That is...\" — указать на далёкое или спросить: \"What is that?\"",
+      "theorySummary": "this = этот/эта/это (рядом), that = тот/та/то (далеко). Оба — один предмет. \"This is...\" — представить близкое. \"That is...\" — указать на далёкое или спросить: \"What is that?\"",
       "examples": [
         {
           "ru": "Это мой телефон. (держу в руке)",
@@ -2667,7 +2667,7 @@
           "text": "В магазине, выбирая: \"I'll take **these**.\" (Я возьму вот эти.)"
         }
       ],
-      "summary": "these = эти (рядом, несколько), those = те (далеко, несколько). После these/those — всегда are. this is → these are, that is → those are.",
+      "theorySummary": "these = эти (рядом, несколько), those = те (далеко, несколько). После these/those — всегда are. this is → these are, that is → those are.",
       "examples": [
         {
           "ru": "Эти ключи мои.",
@@ -2832,7 +2832,7 @@
           "text": "Разные вопросы — разные ответы."
         }
       ],
-      "summary": "What — что/какой, where — где/куда, when — когда, who — кто, why — почему, how — как. Порядок: вопросительное слово + to be + остальное. What — о вещах и фактах, who — только о людях.",
+      "theorySummary": "What — что/какой, where — где/куда, when — когда, who — кто, why — почему, how — как. Порядок: вопросительное слово + to be + остальное. What — о вещах и фактах, who — только о людях.",
       "examples": [
         {
           "ru": "Что это такое?",
@@ -2960,7 +2960,7 @@
           "text": "**\"How long\"** работает и про время (\"How long is the meeting?\" — Сколько длится встреча?), и про размер (\"How long is this rope?\" — Какой длины эта верёвка?). Контекст подскажет."
         }
       ],
-      "summary": "how old — возраст, how many — счётные предметы, how much — несчётные + цена (\"How much is it?\"), how long — длительность/длина, how far — расстояние, how often — частота.",
+      "theorySummary": "how old — возраст, how many — счётные предметы, how much — несчётные + цена (\"How much is it?\"), how long — длительность/длина, how far — расстояние, how often — частота.",
       "examples": [
         {
           "ru": "Сколько тебе лет?",
@@ -3088,7 +3088,7 @@
           "text": "Логика: в машине ты *внутри*. В автобусе — ты *едешь на* маршруте, ты *на* нём."
         }
       ],
-      "summary": "in = внутри замкнутого пространства (комната, сумка, город). on = на поверхности (стол, стена, пол). at = присутствие в точке/месте назначения (at work, at school, at the airport). Транспорт: in a car / on a bus.",
+      "theorySummary": "in = внутри замкнутого пространства (комната, сумка, город). on = на поверхности (стол, стена, пол). at = присутствие в точке/месте назначения (at work, at school, at the airport). Транспорт: in a car / on a bus.",
       "examples": [
         {
           "ru": "Книга лежит на полке.",
@@ -3293,7 +3293,7 @@
           "text": "Не путай с `on`: книга лежит **on** the table (касается), лампа висит **above** the table (не касается). Контакт или нет — вот в чём разница."
         }
       ],
-      "summary": "under = под (физически ниже). near = рядом (в общем районе). next to = вплотную, бок о бок. between = между ровно двумя. in front of = перед. behind = за, позади. above = над без касания (в отличие от on — с контактом).",
+      "theorySummary": "under = под (физически ниже). near = рядом (в общем районе). next to = вплотную, бок о бок. between = между ровно двумя. in front of = перед. behind = за, позади. above = над без касания (в отличие от on — с контактом).",
       "examples": [
         {
           "ru": "Кот под кроватью.",
@@ -3484,7 +3484,7 @@
           ]
         }
       ],
-      "summary": "nearby = наречие/прилагательное (без существительного после или перед существительным). by = рядом с (у реки, у окна). beside = рядом с = next to, но чуть формальнее. Не путай beside (место) и besides (кроме того).",
+      "theorySummary": "nearby = наречие/прилагательное (без существительного после или перед существительным). by = рядом с (у реки, у окна). beside = рядом с = next to, но чуть формальнее. Не путай beside (место) и besides (кроме того).",
       "examples": [
         {
           "ru": "Есть ли здесь поблизости аптека?",
@@ -3656,7 +3656,7 @@
           ]
         }
       ],
-      "summary": "at = точное время на часах и ночь. on = конкретный день недели или дата. in = период: месяц, год, сезон, утро/вечер. Исключение: at night (не \"in night\").",
+      "theorySummary": "at = точное время на часах и ночь. on = конкретный день недели или дата. in = период: месяц, год, сезон, утро/вечер. Исключение: at night (не \"in night\").",
       "examples": [
         {
           "ru": "Самолёт вылетает в 14:00.",
@@ -3795,7 +3795,7 @@
           "text": "Эти два сочетания просто запоминаем как целые фразы."
         }
       ],
-      "summary": "yesterday / today / tomorrow / last... / next... / this... / every... — без предлога. Добавлять at/on/in к ним — ошибка. Фразы-исключения: \"on time\" (вовремя по расписанию) и \"in time\" (успел).",
+      "theorySummary": "yesterday / today / tomorrow / last... / next... / this... / every... — без предлога. Добавлять at/on/in к ним — ошибка. Фразы-исключения: \"on time\" (вовремя по расписанию) и \"in time\" (успел).",
       "examples": [
         {
           "ru": "Вчера была хорошая погода.",
@@ -3905,7 +3905,7 @@
           "text": "\"**Arrive to**\" — ошибка! Глагол \"arrive\" уже содержит идею прибытия, добавлять `to` не нужно."
         }
       ],
-      "summary": "to = движение к цели (go to work, fly to Paris). from = источник/начало (from Italy, from my friend). \"Go home\" — без to. \"Arrive in London / at the station\" — не \"arrive to\".",
+      "theorySummary": "to = движение к цели (go to work, fly to Paris). from = источник/начало (from Italy, from my friend). \"Go home\" — без to. \"Arrive in London / at the station\" — не \"arrive to\".",
       "examples": [
         {
           "ru": "Я иду в библиотеку.",
@@ -4079,7 +4079,7 @@
           "text": "`upon` — пассивное знание. Не нужно его использовать в речи, но нужно понимать, когда видишь. Видишь `upon` — знай: это торжественное `on`, скорее всего официальный или литературный текст."
         }
       ],
-      "summary": "into = движение внутрь (She walked into the room). out of = движение наружу (She walked out of the room). in vs into: нахождение vs движение. upon = торжественное on в книгах и формулах; \"once upon a time\" = жили-были.",
+      "theorySummary": "into = движение внутрь (She walked into the room). out of = движение наружу (She walked out of the room). in vs into: нахождение vs движение. upon = торжественное on в книгах и формулах; \"once upon a time\" = жили-были.",
       "examples": [
         {
           "ru": "Она вошла в кафе.",
@@ -4385,7 +4385,7 @@
           ]
         }
       ],
-      "summary": "over = поверх препятствия (climb over a wall). across = по поверхности с одного края на другой (swim across the river). along = вдоль, параллельно (walk along the river). past = мимо не заходя (walk past the shop). through = насквозь через внутренность (drive through the tunnel). over ≠ above: above — статика, over — движение. across ≠ along: across — поперёк, along — вдоль.",
+      "theorySummary": "over = поверх препятствия (climb over a wall). across = по поверхности с одного края на другой (swim across the river). along = вдоль, параллельно (walk along the river). past = мимо не заходя (walk past the shop). through = насквозь через внутренность (drive through the tunnel). over ≠ above: above — статика, over — движение. across ≠ along: across — поперёк, along — вдоль.",
       "examples": [
         {
           "ru": "Они перешли через мост.",
@@ -4593,7 +4593,7 @@
           ]
         }
       ],
-      "summary": "Большинство слов → +s. После -s/-sh/-ch/-x/-o → +es. -y после согласной → -ies (city→cities), после гласной просто +s (day→days). -f/-fe → -ves (leaf→leaves), кроме roof/chief/belief.",
+      "theorySummary": "Большинство слов → +s. После -s/-sh/-ch/-x/-o → +es. -y после согласной → -ies (city→cities), после гласной просто +s (day→days). -f/-fe → -ves (leaf→leaves), кроме roof/chief/belief.",
       "examples": [
         {
           "ru": "В парке много деревьев.",
@@ -4788,7 +4788,7 @@
           "text": "\"Where are my **glasses**?\" ✓ — даже когда речь об одной паре, глагол всегда во мн.ч."
         }
       ],
-      "summary": "Неправильные: man→men, woman→women, child→children, tooth→teeth, foot→feet, mouse→mice, person→people. Неизменяемые: fish, sheep, deer — форма одна. Только мн.ч.: scissors, jeans, glasses — для одного предмета говорят \"a pair of\".",
+      "theorySummary": "Неправильные: man→men, woman→women, child→children, tooth→teeth, foot→feet, mouse→mice, person→people. Неизменяемые: fish, sheep, deer — форма одна. Только мн.ч.: scissors, jeans, glasses — для одного предмета говорят \"a pair of\".",
       "examples": [
         {
           "ru": "Дети бегали по всему двору.",
@@ -4986,7 +4986,7 @@
           "text": "250,000 = \"two hundred and fifty thousand\""
         }
       ],
-      "summary": "1–12: уникальные. 13–19: корень + -teen (fifteen, eighteen — особое написание). 20–90: twenty/thirty/forty (не fourty!). 21–99: дефис (twenty-one). hundred/thousand/million без -s после числа.",
+      "theorySummary": "1–12: уникальные. 13–19: корень + -teen (fifteen, eighteen — особое написание). 20–90: twenty/thirty/forty (не fourty!). 21–99: дефис (twenty-one). hundred/thousand/million без -s после числа.",
       "examples": [
         {
           "ru": "Ей сорок два года.",
@@ -5132,7 +5132,7 @@
           ]
         }
       ],
-      "summary": "1st/2nd/3rd — исключения. Остальные: +th (fifth/eighth/ninth — особое написание). -y → -ieth (twentieth). Суффикс в записи: -st/-nd/-rd/-th берётся от последнего слова. Используются для этажей, дат, мест, веков.",
+      "theorySummary": "1st/2nd/3rd — исключения. Остальные: +th (fifth/eighth/ninth — особое написание). -y → -ieth (twentieth). Суффикс в записи: -st/-nd/-rd/-th берётся от последнего слова. Используются для этажей, дат, мест, веков.",
       "examples": [
         {
           "ru": "Офис находится на пятом этаже.",
@@ -5287,7 +5287,7 @@
           ]
         }
       ],
-      "summary": "До 2000: делим 19|84 = \"nineteen eighty-four\". 2000 = \"two thousand\". 2001–2009: \"two thousand and five\". 2010+: \"twenty ten\" или \"two thousand and ten\" — оба верны.",
+      "theorySummary": "До 2000: делим 19|84 = \"nineteen eighty-four\". 2000 = \"two thousand\". 2001–2009: \"two thousand and five\". 2010+: \"twenty ten\" или \"two thousand and ten\" — оба верны.",
       "examples": [
         {
           "ru": "Игорь родился в 1991 году.",
@@ -5374,7 +5374,7 @@
           "text": "В разговоре их часто используют взаимозаменяемо — разница скорее в оттенке, чем в правиле."
         }
       ],
-      "summary": "one more + noun = ещё один. \"One more time\" — ещё раз. Разница с another: one more = следующий из тех же, another = просто ещё один. В разговоре часто взаимозаменяемы.",
+      "theorySummary": "one more + noun = ещё один. \"One more time\" — ещё раз. Разница с another: one more = следующий из тех же, another = просто ещё один. В разговоре часто взаимозаменяемы.",
       "examples": [
         {
           "ru": "Ещё один вопрос — и мы закончим.",
@@ -5504,7 +5504,7 @@
           "text": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
         }
       ],
-      "summary": "Дни недели и месяцы — заглавная (Monday, January): они собственные имена. Сезоны — строчная (spring, winter): описательные слова. Сокращения тоже с заглавной: Mon, Jan.",
+      "theorySummary": "Дни недели и месяцы — заглавная (Monday, January): они собственные имена. Сезоны — строчная (spring, winter): описательные слова. Сокращения тоже с заглавной: Mon, Jan.",
       "examples": [
         {
           "ru": "Встреча в понедельник.",
@@ -5622,7 +5622,7 @@
           ]
         }
       ],
-      "summary": "Monday–Sunday, все с заглавной. Wednesday произносится [ˈwenzdeɪ], d не читается. on + день (on Monday). on + день + s = каждую неделю (on Mondays). at the weekend (брит.) / on the weekend (амер.).",
+      "theorySummary": "Monday–Sunday, все с заглавной. Wednesday произносится [ˈwenzdeɪ], d не читается. on + день (on Monday). on + день + s = каждую неделю (on Mondays). at the weekend (брит.) / on the weekend (амер.).",
       "examples": [
         {
           "ru": "В пятницу у Лены важное собеседование.",
@@ -5771,7 +5771,7 @@
           ]
         }
       ],
-      "summary": "January–December, все с заглавной. Предлог: in + месяц (in March). С числом: on the 5th of March или on March 5th. February произносится часто как \"Febyuary\". August — ударение на первый слог.",
+      "theorySummary": "January–December, все с заглавной. Предлог: in + месяц (in March). С числом: on the 5th of March или on March 5th. February произносится часто как \"Febyuary\". August — ударение на первый слог.",
       "examples": [
         {
           "ru": "Её день рождения в мае.",
@@ -5928,7 +5928,7 @@
           ]
         }
       ],
-      "summary": "spring / summer / autumn / fall / winter — строчными. Autumn (брит.) = fall (амер.). Предлог: in + сезон (in spring). В американском: in the spring тоже нормально.",
+      "theorySummary": "spring / summer / autumn / fall / winter — строчными. Autumn (брит.) = fall (амер.). Предлог: in + сезон (in spring). В американском: in the spring тоже нормально.",
       "examples": [
         {
           "ru": "Я обожаю осень за её цвета.",
@@ -6064,7 +6064,7 @@
           "text": "Правило простое: время — всегда `at`. Без исключений."
         }
       ],
-      "summary": "`o'clock` — только для ровных часов. `am` — утро/ночь до полудня, `pm` — день/вечер после полудня. Время требует предлога `at`: \"at 3 pm\", \"at noon\", \"at midnight\". Никаких \"in 3 pm\" или \"on 7 am\".",
+      "theorySummary": "`o'clock` — только для ровных часов. `am` — утро/ночь до полудня, `pm` — день/вечер после полудня. Время требует предлога `at`: \"at 3 pm\", \"at noon\", \"at midnight\". Никаких \"in 3 pm\" или \"on 7 am\".",
       "examples": [
         {
           "ru": "Встреча в три часа дня.",
@@ -6233,7 +6233,7 @@
           "text": "\"The last train leaves at midnight.\" *(Последний поезд уходит в полночь.)*"
         }
       ],
-      "summary": "past = первые 30 минут часа (прошло X мин). to = последние 30 минут (осталось X мин). quarter = 15 мин, half = 30 мин. Ловушка: \"пол двенадцатого\" = half past eleven (прошло полчаса после одиннадцати, не двенадцати). noon = 12:00 дня, midnight = 12:00 ночи.",
+      "theorySummary": "past = первые 30 минут часа (прошло X мин). to = последние 30 минут (осталось X мин). quarter = 15 мин, half = 30 мин. Ловушка: \"пол двенадцатого\" = half past eleven (прошло полчаса после одиннадцати, не двенадцати). noon = 12:00 дня, midnight = 12:00 ночи.",
       "examples": [
         {
           "ru": "Уже половина девятого (8:30).",
@@ -6341,7 +6341,7 @@
           "text": "`o'clock` добавляется **только** когда минут нет вообще: 1:00, 2:00... 12:00."
         }
       ],
-      "summary": "Вопрос: \"What time is it?\" / \"What's the time?\" Ответ: \"It's + время\". Ловушка: \"It's three hours\" — неверно; \"It's three o'clock\" или просто \"It's three\". o'clock — только для ровных часов.",
+      "theorySummary": "Вопрос: \"What time is it?\" / \"What's the time?\" Ответ: \"It's + время\". Ловушка: \"It's three hours\" — неверно; \"It's three o'clock\" или просто \"It's three\". o'clock — только для ровных часов.",
       "examples": [
         {
           "ru": "Который час? — Половина второго.",
@@ -6452,7 +6452,7 @@
           ]
         }
       ],
-      "summary": "Счётные: можно посчитать → a/an, цифра, мн.ч. (apple/apples). Несчётные: нельзя посчитать напрямую → нет a/an, нет мн.ч. (water, music, love). Несчётное считают через контейнер: a glass of water, a piece of cake. money — несчётное, \"moneys\" не существует.",
+      "theorySummary": "Счётные: можно посчитать → a/an, цифра, мн.ч. (apple/apples). Несчётные: нельзя посчитать напрямую → нет a/an, нет мн.ч. (water, music, love). Несчётное считают через контейнер: a glass of water, a piece of cake. money — несчётное, \"moneys\" не существует.",
       "examples": [
         {
           "ru": "Два стакана воды, пожалуйста.",
@@ -6589,7 +6589,7 @@
           ]
         }
       ],
-      "summary": "advice, information, news, furniture, luggage, progress, knowledge, work — все несчётные. Нельзя: an advice, a news, furnitures. Можно: some advice, a piece of news, some furniture. news + глагол в ед.ч.: \"The news is good.\" (не are).",
+      "theorySummary": "advice, information, news, furniture, luggage, progress, knowledge, work — все несчётные. Нельзя: an advice, a news, furnitures. Можно: some advice, a piece of news, some furniture. news + глагол в ед.ч.: \"The news is good.\" (не are).",
       "examples": [
         {
           "ru": "Мне нужен совет.",
@@ -6701,7 +6701,7 @@
           ]
         }
       ],
-      "summary": "many = много (счётные), much = много (несчётные). В разговоре a lot of заменяет оба. some = немного (утверждения), any = сколько-нибудь (вопросы и отрицания). some в вопросах = предложение или просьба.",
+      "theorySummary": "many = много (счётные), much = много (несчётные). В разговоре a lot of заменяет оба. some = немного (утверждения), any = сколько-нибудь (вопросы и отрицания). some в вопросах = предложение или просьба.",
       "examples": [
         {
           "ru": "У неё много вопросов.",
@@ -6794,7 +6794,7 @@
           "text": "> Есть ещё `few` и `little` **без артикля** — они означают \"почти ничего\" с негативным оттенком. Разберём их подробно в теме \"Квантификаторы\"."
         }
       ],
-      "summary": "a few = несколько → только со счётными (a few friends, a few minutes). a little = немного → только с несчётными (a little time, a little water, a little salt). Проверка: можно поставить цифру → a few; нельзя → a little.",
+      "theorySummary": "a few = несколько → только со счётными (a few friends, a few minutes). a little = немного → только с несчётными (a little time, a little water, a little salt). Проверка: можно поставить цифру → a few; нельзя → a little.",
       "examples": [
         {
           "ru": "У Кати есть несколько вопросов.",
@@ -6920,7 +6920,7 @@
           ]
         }
       ],
-      "summary": "Императив = V1 без подлежащего: \"Open!\", \"Sit down.\" Запрет = Don't + V1: \"Don't run!\", \"Don't be late.\" \"You don't run\" — это утверждение (факт), не запрет. Do not = официальная форма Don't.",
+      "theorySummary": "Императив = V1 без подлежащего: \"Open!\", \"Sit down.\" Запрет = Don't + V1: \"Don't run!\", \"Don't be late.\" \"You don't run\" — это утверждение (факт), не запрет. Do not = официальная форма Don't.",
       "examples": [
         {
           "ru": "Закрой дверь!",
@@ -7089,7 +7089,7 @@
           ]
         }
       ],
-      "summary": "please — в начале или конце: \"Please open the window.\" / \"Open the window, please.\" С отрицанием: \"Please don't be late.\" please ≠ ответ на \"thank you\" — для ответа используй \"You're welcome\" / \"No problem\".",
+      "theorySummary": "please — в начале или конце: \"Please open the window.\" / \"Open the window, please.\" С отрицанием: \"Please don't be late.\" please ≠ ответ на \"thank you\" — для ответа используй \"You're welcome\" / \"No problem\".",
       "examples": [
         {
           "ru": "Пожалуйста, не шуми.",
@@ -7264,7 +7264,7 @@
           ]
         }
       ],
-      "summary": "Let's = Let us — предложение сделать вместе. После Let's — V1: \"Let's go!\", \"Let's try.\" Ловушка: Let's ≠ \"let + is\"; `'s` здесь сокращает `us`. Отрицание: Let's not. Без апострофа — \"lets\" (he/she lets = позволяет).",
+      "theorySummary": "Let's = Let us — предложение сделать вместе. После Let's — V1: \"Let's go!\", \"Let's try.\" Ловушка: Let's ≠ \"let + is\"; `'s` здесь сокращает `us`. Отрицание: Let's not. Без апострофа — \"lets\" (he/she lets = позволяет).",
       "examples": [
         {
           "ru": "Давайте сходим в кино!",
@@ -7364,7 +7364,7 @@
           "text": "Эти три части — основа любого предложения. Запомни их: они будут часто встречаться в объяснениях на протяжении всего курса."
         }
       ],
-      "summary": "Subject (подлежащее) — кто совершает действие. Verb (глагол) — само действие. Object (дополнение) — кого или что затрагивает действие. Схема: S → V → O.",
+      "theorySummary": "Subject (подлежащее) — кто совершает действие. Verb (глагол) — само действие. Object (дополнение) — кого или что затрагивает действие. Схема: S → V → O.",
       "examples": [
         {
           "ru": "Я читаю книгу.",
@@ -7486,7 +7486,7 @@
           "text": "Subject — всегда первый, Verb — сразу после него, Object — после глагола. Нарушить порядок = изменить смысл или сломать предложение."
         }
       ],
-      "summary": "В английском нет падежей, поэтому позиция слова = его роль в предложении. Subject → Verb → Object — порядок нельзя нарушить. «Кофе я люблю» по-английски невозможно — только \"I love coffee\".",
+      "theorySummary": "В английском нет падежей, поэтому позиция слова = его роль в предложении. Subject → Verb → Object — порядок нельзя нарушить. «Кофе я люблю» по-английски невозможно — только \"I love coffee\".",
       "examples": [
         {
           "ru": "Я люблю тебя.",
@@ -7623,7 +7623,7 @@
           "text": "→ *\"It is cold.\"* ✓ / *\"It's cold.\"* ✓"
         }
       ],
-      "summary": "В английском нельзя обойтись без Subject. Для безличных предложений (погода, время, состояние) — формальное It: \"It is cold / It is raining\". \"It\" здесь не переводится — только заполняет позицию Subject.",
+      "theorySummary": "В английском нельзя обойтись без Subject. Для безличных предложений (погода, время, состояние) — формальное It: \"It is cold / It is raining\". \"It\" здесь не переводится — только заполняет позицию Subject.",
       "examples": [
         {
           "ru": "Холодно.",
@@ -7787,7 +7787,7 @@
           "text": "конец или начало — но никогда середина."
         }
       ],
-      "summary": "Обстоятельство (когда? где?) — в конец предложения или в начало для акцента. Никогда между Subject и Verb или между Verb и Object. \"I yesterday saw him\" — классическая ошибка под влиянием русского.",
+      "theorySummary": "Обстоятельство (когда? где?) — в конец предложения или в начало для акцента. Никогда между Subject и Verb или между Verb и Object. \"I yesterday saw him\" — классическая ошибка под влиянием русского.",
       "examples": [
         {
           "ru": "Я видел его вчера.",
@@ -7900,7 +7900,7 @@
           ]
         }
       ],
-      "summary": "Прилагательное описывает noun. Две позиции: перед noun (\"a cold day\") и после to be (\"The day is cold\"). Нельзя: \"a day cold\" ✗. Артикль — перед прилагательным, не после него.",
+      "theorySummary": "Прилагательное описывает noun. Две позиции: перед noun (\"a cold day\") и после to be (\"The day is cold\"). Нельзя: \"a day cold\" ✗. Артикль — перед прилагательным, не после него.",
       "examples": [
         {
           "ru": "Это большой город.",
@@ -8013,7 +8013,7 @@
           "text": "каждая пара — два конца одной шкалы. Учи сразу оба — левый и правый. Big ↔ small, good ↔ bad, hot ↔ cold..."
         }
       ],
-      "summary": "14 базовых прилагательных парами: big/small, good/bad, hot/cold, happy/sad, old/new, fast/slow, easy/hard. Перед гласным звуком: an old, an easy. Перед остальными: a big, a good, a hot.",
+      "theorySummary": "14 базовых прилагательных парами: big/small, good/bad, hot/cold, happy/sad, old/new, fast/slow, easy/hard. Перед гласным звуком: an old, an easy. Перед остальными: a big, a good, a hot.",
       "examples": [
         {
           "ru": "Это лёгкое задание.",
@@ -8112,7 +8112,7 @@
           ]
         }
       ],
-      "summary": "very = нейтральное усиление (\"very cold\"), really = разговорное с эмоцией (\"really good!\"). Оба стоят перед прилагательным. Нельзя: \"cold very\" ✗, \"very very cold\" ✗.",
+      "theorySummary": "very = нейтральное усиление (\"very cold\"), really = разговорное с эмоцией (\"really good!\"). Оба стоят перед прилагательным. Нельзя: \"cold very\" ✗, \"very very cold\" ✗.",
       "examples": [
         {
           "ru": "На улице очень холодно.",
@@ -8209,7 +8209,7 @@
           ]
         }
       ],
-      "summary": "and = и (добавляет). but = но (противопоставляет). because = потому что (причина). or = или (выбор). Главная ловушка: but ≠ because — совершенно разные союзы.",
+      "theorySummary": "and = и (добавляет). but = но (противопоставляет). because = потому что (причина). or = или (выбор). Главная ловушка: but ≠ because — совершенно разные союзы.",
       "examples": [
         {
           "ru": "Я люблю кофе, но не люблю чай.",
@@ -8306,7 +8306,7 @@
           "text": "\"I can swim.\" / \"She can swim.\" / \"They can swim.\" — can не спрягается. В третьем лице никакого -s: \"She **can** swim.\" ✓, не \"She **cans** swim.\" ✗"
         }
       ],
-      "summary": "can = одно слово, три смысла: умею (способность), могу (возможность), можно (разрешение). Структура: Subject + can + базовая форма. can не спрягается — \"she can\", не \"she cans\".",
+      "theorySummary": "can = одно слово, три смысла: умею (способность), могу (возможность), можно (разрешение). Структура: Subject + can + базовая форма. can не спрягается — \"she can\", не \"she cans\".",
       "examples": [
         {
           "ru": "Я умею плавать.",
@@ -8391,7 +8391,7 @@
           ]
         }
       ],
-      "summary": "can't = cannot = не умею / не могу. Никакого don't: \"I don't can swim\" ✗ → \"I can't swim\" ✓. Структура: Subject + can't + базовая форма.",
+      "theorySummary": "can't = cannot = не умею / не могу. Никакого don't: \"I don't can swim\" ✗ → \"I can't swim\" ✓. Структура: Subject + can't + базовая форма.",
       "examples": [
         {
           "ru": "Я не умею водить машину.",
@@ -8519,7 +8519,7 @@
           "text": "Вопросительное слово стоит первым, дальше — тот же порядок: can + subject + глагол."
         }
       ],
-      "summary": "Вопрос с can: Can + Subject + базовая форма? Никакого do/does. \"Do you can swim?\" ✗ → \"Can you swim?\" ✓. Короткий ответ: \"Yes, I can.\" / \"No, I can't.\"",
+      "theorySummary": "Вопрос с can: Can + Subject + базовая форма? Никакого do/does. \"Do you can swim?\" ✗ → \"Can you swim?\" ✓. Короткий ответ: \"Yes, I can.\" / \"No, I can't.\"",
       "examples": [
         {
           "ru": "Ты умеешь плавать?",
@@ -8646,7 +8646,7 @@
           ]
         }
       ],
-      "summary": "После can — только базовая форма. Никакого \"to\": \"I can to swim\" ✗. Никакого -s: \"She can swims\" ✗. Правило: can swim / can drive / can help — и ничего лишнего.",
+      "theorySummary": "После can — только базовая форма. Никакого \"to\": \"I can to swim\" ✗. Никакого -s: \"She can swims\" ✗. Правило: can swim / can drive / can help — и ничего лишнего.",
       "examples": [
         {
           "ru": "Вера умеет петь.",
@@ -8827,7 +8827,7 @@
           "text": "\"Me too\" — устойчивая форма. Запомни как единицу."
         }
       ],
-      "summary": "also = перед глаголом / после to be. too = в конец с запятой. as well = в конец без запятой, формальнее. Ловушки: \"I too like tea\" ✗ (too только в конец) и \"Me also!\" ✗ (только \"Me too!\").",
+      "theorySummary": "also = перед глаголом / после to be. too = в конец с запятой. as well = в конец без запятой, формальнее. Ловушки: \"I too like tea\" ✗ (too только в конец) и \"Me also!\" ✗ (только \"Me too!\").",
       "examples": [
         {
           "ru": "Я тоже пью кофе.",
@@ -8937,7 +8937,7 @@
           "text": "После **to** всегда **базовая форма** глагола (V1). Никаких -ing."
         }
       ],
-      "summary": "После want / need / like / love / hate — всегда \"to + базовая форма\": \"I want to go\", \"She needs to sleep\". Пропустить \"to\" нельзя. После \"to\" — только базовая форма, не -ing.",
+      "theorySummary": "После want / need / like / love / hate — всегда \"to + базовая форма\": \"I want to go\", \"She needs to sleep\". Пропустить \"to\" нельзя. После \"to\" — только базовая форма, не -ing.",
       "examples": [
         {
           "ru": "Я хочу выпить кофе.",
@@ -9067,7 +9067,7 @@
           "text": "После **can** слово \"to\" не нужен вообще. Want/need/like — это одни глаголы, can — другой тип. Почему именно так — разберём подробно в теме \"Устройство языка\". Сейчас запомни факт: **can + базовая форма без to**."
         }
       ],
-      "summary": "Отрицание: don't/doesn't перед первым глаголом — \"I don't want to go\". Вопрос: do/does выходит вперёд — \"Do you want to go?\" To-часть не меняется в обоих случаях. После can — to не нужен: \"I can swim\".",
+      "theorySummary": "Отрицание: don't/doesn't перед первым глаголом — \"I don't want to go\". Вопрос: do/does выходит вперёд — \"Do you want to go?\" To-часть не меняется в обоих случаях. После can — to не нужен: \"I can swim\".",
       "examples": [
         {
           "ru": "Я не хочу идти домой.",
@@ -9199,7 +9199,7 @@
           "text": "> Подробно про `like` — \"She sings like a pro\", \"What's he like?\", look like / feel like — в теме **\"Дополнительные конструкции\"**."
         }
       ],
-      "summary": "`as` = в роли/в качестве: субъект и есть то, о чём говорим (\"works as a doctor\"). Не путай с `like` = похоже на, но не является (\"works like a doctor\").",
+      "theorySummary": "`as` = в роли/в качестве: субъект и есть то, о чём говорим (\"works as a doctor\"). Не путай с `like` = похоже на, но не является (\"works like a doctor\").",
       "examples": [
         {
           "ru": "Она работает учителем.",
@@ -9327,7 +9327,7 @@
           "text": "\"fruits **such as** apples\" ✓ — \"fruits, **for example**, apples\" ✗"
         }
       ],
-      "summary": "`as well as` = а также, соединяет два элемента: \"English as well as French\". `such as` = примеры сразу после существительного: \"sports such as football\". Не путай: `as well` (тоже, в конце) ≠ `as well as` (соединитель).",
+      "theorySummary": "`as well as` = а также, соединяет два элемента: \"English as well as French\". `such as` = примеры сразу после существительного: \"sports such as football\". Не путай: `as well` (тоже, в конце) ≠ `as well as` (соединитель).",
       "examples": [
         {
           "ru": "Она говорит по-английски, а также по-испански.",
@@ -9451,7 +9451,7 @@
           "text": "✓ \"Which bus goes there?\" — есть конкретные маршруты, выбираешь один."
         }
       ],
-      "summary": "`whose` = чей/чья/чьё, о принадлежности: \"Whose bag is this?\" `which` = который/какой из конкретных вариантов: \"Which one do you want?\" Разница с `what`: which — выбор из набора, what — открытый вопрос.",
+      "theorySummary": "`whose` = чей/чья/чьё, о принадлежности: \"Whose bag is this?\" `which` = который/какой из конкретных вариантов: \"Which one do you want?\" Разница с `what`: which — выбор из набора, what — открытый вопрос.",
       "examples": [
         {
           "ru": "Чья это куртка?",
@@ -9553,7 +9553,7 @@
           "text": "в большинстве случаев они взаимозаменяемы и носители не делают строгого различия в разговорной речи. Главное — запомнить `every day / every morning / every time` как готовые блоки."
         }
       ],
-      "summary": "`every` = каждый (группа целиком): \"every day\", \"every morning\". `each` = каждый (по отдельности): \"each student gets one\". Оба + существительное в единственном числе. На практике часто взаимозаменяемы.",
+      "theorySummary": "`every` = каждый (группа целиком): \"every day\", \"every morning\". `each` = каждый (по отдельности): \"each student gets one\". Оба + существительное в единственном числе. На практике часто взаимозаменяемы.",
       "examples": [
         {
           "ru": "Я чищу зубы каждое утро.",
@@ -9658,7 +9658,7 @@
           "text": "`again` всегда стоит **в конце** предложения или в устойчивых сочетаниях (`once again`, `never again`, `try again`)."
         }
       ],
-      "summary": "`both` = оба/обе: \"both of them\", \"both options\", \"both...and...\". Не говори \"all two\" — только both. `again` = снова/ещё раз, стоит в конце: \"try again\", \"say it again\". Устойчивые блоки: once again, never again.",
+      "theorySummary": "`both` = оба/обе: \"both of them\", \"both options\", \"both...and...\". Не говори \"all two\" — только both. `again` = снова/ещё раз, стоит в конце: \"try again\", \"say it again\". Устойчивые блоки: once again, never again.",
       "examples": [
         {
           "ru": "Оба варианта подходят.",
@@ -9787,7 +9787,7 @@
           "text": "\"**What about** tomorrow?\" *(А как насчёт завтра?)*"
         }
       ],
-      "summary": "`with` = с: вместе с кем-то (\"with friends\"), в составе (\"with milk\"), с помощью (\"with a pen\"). `about` = о/про: \"a book about space\", \"tell me about it\". Разговорная конструкция: \"What about you?\" = А ты?",
+      "theorySummary": "`with` = с: вместе с кем-то (\"with friends\"), в составе (\"with milk\"), с помощью (\"with a pen\"). `about` = о/про: \"a book about space\", \"tell me about it\". Разговорная конструкция: \"What about you?\" = А ты?",
       "examples": [
         {
           "ru": "Я пришёл с другом.",

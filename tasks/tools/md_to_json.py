@@ -601,7 +601,7 @@ def parse_file(path, only_mt=None, word_start=1):
             card_id = int(meta.group(1)) if meta else None
             card_order = int(meta.group(2)) if meta else 1
             cur_card = {'id': card_id, 'microtopicId': cur_mt, 'title': card_title,
-                        'order': card_order, 'theory': [], 'summary': '',
+                        'order': card_order, 'theory': [], 'theorySummary': '',
                         'examples': [], 'clarificationOptions': []}
             active = (only_mt is None or cur_mt == only_mt)
             order_in_card = [0]
@@ -613,7 +613,7 @@ def parse_file(path, only_mt=None, word_start=1):
                     cur_card['theory'] = parse_theory(body)
                 elif sub.startswith('#### Summary'):
                     body, i = collect_section(lines, i + 1)
-                    cur_card['summary'] = ' '.join(b.strip() for b in body if b.strip())
+                    cur_card['theorySummary'] = ' '.join(b.strip() for b in body if b.strip())
                 elif sub.startswith('#### Examples'):
                     body, i = collect_section(lines, i + 1)
                     cur_card['examples'] = parse_examples(body)
@@ -734,7 +734,7 @@ def validate(content):
         chk(all(r['hint'] and r['answer'] for r in e['rows']), 'TABLE_FILL', e['id'], "пустой hint/answer")
     for c in content['grammar_cards']:
         chk(len(c['theory']) > 0, 'CARD', c['id'], "пустая теория")
-        chk(bool(c['summary']), 'CARD', c['id'], "пустой summary")
+        chk(bool(c['theorySummary']), 'CARD', c['id'], "пустой theorySummary")
     return issues
 
 

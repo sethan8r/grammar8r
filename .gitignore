@@ -14,3 +14,6 @@
 grammar-app/.idea/
 grammar-server/.idea/
 grammar-shared/.idea/
+
+# content.db — build-артефакт, собирается json_to_db.py из JSON-сидов (Шаг C). Схемы — коммитим.
+grammar-app/src/main/assets/content.db

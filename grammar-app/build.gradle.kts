@@ -46,6 +46,46 @@ ksp {
     arg("room.schemaLocation", "$projectDir/schemas")
 }
 
+// Шаг C: сборка content.db из JSON-сидов перед упаковкой assets.
+// json_to_db.py берёт структуру из экспортированной Room-схемы (identity hash обязан совпасть),
+// данные — из tasks/tools/seed/**/*.json. Результат — build-артефакт, в VCS не коммитим (см. .gitignore).
+val contentDbSchema = file(
+    "schemas/dev.sethan8r.grammar.app.data.local.content.ContentDatabase/1.json"
+)
+val contentDbOutput = file("src/main/assets/content.db")
+val seedDir = rootProject.file("tasks/tools/seed")
+val seedScript = rootProject.file("tasks/tools/json_to_db.py")
+
+val generateContentDb by tasks.registering(Exec::class) {
+    group = "build"
+    description = "Собирает content.db из JSON-сидов по Room-схеме (Шаг C)."
+
+    inputs.file(seedScript)
+    inputs.file(contentDbSchema)
+    inputs.dir(seedDir)
+    outputs.file(contentDbOutput)
+
+    // Windows — лаунчер `py`, CI/Linux/macOS — `python3`.
+    val python = if (System.getProperty("os.name").startsWith("Windows", ignoreCase = true)) "py" else "python3"
+    commandLine(
+        python, seedScript.absolutePath,
+        "--schema", contentDbSchema.absolutePath,
+        "--out", contentDbOutput.absolutePath,
+    )
+
+    doFirst { contentDbOutput.parentFile.mkdirs() }
+
+    // content.db строится ИЗ экспортированной Room-схемы (её пишет ksp<Variant>Kotlin),
+    // поэтому генерируем БД ПОСЛЕ KSP. Живая коллекция упорядочивает только активный вариант
+    // (в debug-сборке release-ksp не запускается, mustRunAfter для него инертен).
+    mustRunAfter(tasks.matching { it.name.startsWith("ksp") && it.name.endsWith("Kotlin") })
+}
+
+// ...и ДО упаковки ассетов: merge<Variant>Assets ждёт генерацию БД.
+tasks.matching { it.name.startsWith("merge") && it.name.endsWith("Assets") }.configureEach {
+    dependsOn(generateContentDb)
+}
+
 dependencies {
     implementation(project(":grammar-shared"))
 

@@ -16,6 +16,7 @@ import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TextInputExer
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TransformationExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TrueFalseExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.WordArrangementExercise
+import dev.sethan8r.grammar.app.domain.model.ChoiceType
 
 /**
  * Чтение упражнений из content.db (read-only). По индексу карточки [getExercisesForCard] код
@@ -34,8 +35,8 @@ interface ExerciseDao {
     @Query("SELECT * FROM word_arrangement_exercises WHERE id = :id")
     suspend fun getWordArrangement(id: Int): WordArrangementExercise?
 
-    @Query("SELECT * FROM multiple_choice_exercises WHERE id = :id")
-    suspend fun getMultipleChoice(id: Int): MultipleChoiceExercise?
+    @Query("SELECT * FROM multiple_choice_exercises WHERE id = :id AND choiceType = :choiceType")
+    suspend fun getMultipleChoice(id: Int, choiceType: ChoiceType): MultipleChoiceExercise?
 
     @Query("SELECT * FROM text_input_exercises WHERE id = :id")
     suspend fun getTextInput(id: Int): TextInputExercise?

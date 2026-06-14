@@ -111,14 +111,29 @@
 - **DoD C:** приложение открывает content.db без краха identity; тест-запрос читает темы/карточки.
 - Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
 
-### ⬜ Шаг C. Конвейер сидинга content.db  🟡
-- `json_to_db.py`: `CREATE TABLE` генерируется ИЗ экспортированной Room-схемы (identity hash
-  обязан совпасть). Gradle-таск: `py json_to_db.py` → `content.db` в `assets/` → зависимость на
-  mergeAssets. content.db НЕ коммитим.
-- `createFromAsset` в `DatabaseModule` + bump-версия (destructive fallback только для content.db).
-- **DoD:** приложение открывает content.db без краха identity, тест-запрос читает темы/карточки.
-- **Очистка контекста:** ✅ да. **decision_log.**
-- **Self-prompt:** _<…>_
+### ✅ Шаг C. Конвейер сидинга content.db  🟡 — ГОТОВО (14.06.2026)
+- `tasks/tools/json_to_db.py`: DDL/индексы/identity из экспортированной схемы; данные из
+  `seed/**/*.json` (кроме `*_prompts.json`); вставка по пересечению колонок; `INSERT OR IGNORE`
+  для общих таблиц-разделов; list/dict→JSON-строка; в файл пишутся `room_master_table`+`user_version`.
+- Gradle: `generateContentDb` (`Exec`, `mustRunAfter ksp*`, `merge*Assets dependsOn`) → content.db
+  в `src/main/assets/`. content.db в `.gitignore` (build-артефакт), схемы — в VCS.
+- ⚠️ **Пересмотр Шага B:** `MultipleChoiceExercise` PK → составной `(id, choiceType)`, схема
+  ре-экспортирована (новый identityHash). Сид-ключ `summary→theorySummary` (правка md_to_json).
+- **DoD выполнен:** `assembleDebug` зелёный, content.db (1.06 МБ, 1492 строки, 22 таблицы) в APK;
+  offline-проверка sqlite (identity_hash + user_version + структура совпали со схемой); on-device
+  подтверждено логом `Grammar8rDbCheck: тем=5, микротем(тема 1)=25` (Room открыл БД без краха).
+  Временный зонд из MainActivity удалён.
+- **decision_log:** 7 записей Шага C. **notes_for_fable:** раздел «Шаг C».
+
+**Self-prompt для следующей сессии (Шаг D1 — навигация type-safe + строки + TranslatableText):**
+- content.db собирается автоматически при сборке (Gradle `generateContentDb`). MainActivity — чистый
+  (временный зонд БД уже удалён).
+- D1: переписать строковую навигацию `MainActivity` (`Screen(route:String)` + `navigate(route)`)
+  на type-safe `@Serializable`-роуты (Navigation Compose 2.8). Белый список корневых вкладок для
+  видимости навбара. Все интерфейсные строки → `strings.xml` (на «Вы»). Создать
+  `ui/components/TranslatableText.kt` — тонкую обёртку-пустышку над `Text` (тот же API).
+- **DoD D1:** 4 таба на type-safe навигации; контентный текст готов идти через `TranslatableText`.
+- Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
 
 ### ⬜ Шаг D1. Навигация type-safe + строки + TranslatableText  🟢
 - Переписать строковую навигацию `MainActivity` на `@Serializable`-роуты; белый список навбара.

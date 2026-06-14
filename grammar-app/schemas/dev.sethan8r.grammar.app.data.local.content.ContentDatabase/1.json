@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "ec3ae84f71a29e4cf2a3449a77172526",
+    "identityHash": "10739e65a00ee7e3480a765fb3cbdf0a",
     "entities": [
       {
         "tableName": "grammar_topic_categories",
@@ -365,7 +365,7 @@
       },
       {
         "tableName": "multiple_choice_exercises",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `choiceType` TEXT NOT NULL, `prompt` TEXT NOT NULL, `contextRu` TEXT NOT NULL, `options` TEXT NOT NULL, `explanation` TEXT NOT NULL, PRIMARY KEY(`id`))",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `choiceType` TEXT NOT NULL, `prompt` TEXT NOT NULL, `contextRu` TEXT NOT NULL, `options` TEXT NOT NULL, `explanation` TEXT NOT NULL, PRIMARY KEY(`id`, `choiceType`))",
         "fields": [
           {
             "fieldPath": "id",
@@ -407,7 +407,8 @@
         "primaryKey": {
           "autoGenerate": false,
           "columnNames": [
-            "id"
+            "id",
+            "choiceType"
           ]
         }
       },
@@ -991,7 +992,7 @@
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'ec3ae84f71a29e4cf2a3449a77172526')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '10739e65a00ee7e3480a765fb3cbdf0a')"
     ]
   }
 }

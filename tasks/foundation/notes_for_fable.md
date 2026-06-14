@@ -64,6 +64,26 @@ user.db = 10. Все решения — в `decision_log.md` (7 записей �
 Идентичность схемы ↔ генерация content.db скриптом (`json_to_db.py`) проверяется на Шаге C —
 там identity hash обязан совпасть с экспортированной схемой.
 
+### Шаг C (сидинг content.db) — сделано 14.06.2026, provisional
+
+`json_to_db.py` собирает `seed/**/*.json` (кроме `*_prompts.json`) → `content.db` из assets,
+DDL/индексы/identity берёт из экспортированной Room-схемы. Gradle: `generateContentDb`
+(`mustRunAfter ksp*`, `merge*Assets dependsOn`). Сборка зелёная, content.db (1.06 МБ, 1492 строки,
+22 таблицы) лежит в APK; offline-проверка sqlite: identity_hash + user_version + структура совпали.
+Решения — в `decision_log.md` (7 записей Шага C). **Смотри в первую очередь:**
+
+- ⚠️ **Пересмотрел твоё/Шага-B решение: `MultipleChoiceExercise` PK → составной `(id, choiceType)`**
+  (был одиночный `id`). Причина: канон ID ведёт 3 трека `MultipleChoice·*`, истинный ключ — пара.
+  Схема ре-экспортирована, новый identityHash. Проверь, что это верная трактовка модели и что
+  DAO-lookup по `(id, choiceType)` с маппингом `HardcodedExerciseType→ChoiceType` (Шаг F) корректен.
+- **Gradle-обвязка (средняя уверенность):** `mustRunAfter(ksp*)` + `merge*Assets.dependsOn`. Работает,
+  но идиоматичнее может быть `variant.sources.assets.addGeneratedSourceDirectory` (AGP variant API) —
+  глянь, не стоит ли переписать так (per-variant, явная связь output→merge).
+- **identity без бампа версии:** правка схемы (PK) сделана БЕЗ bump версии content.db (БД не выпущена,
+  user.db не затронут). Если к моменту аудита БД уже у юзеров — так больше нельзя.
+- Остальное: room_master_table+user_version в файле, вставка по пересечению колонок, INSERT OR IGNORE
+  для общих таблиц-разделов, JSON list/dict→строка, сид-ключ `summary→theorySummary` — в decision_log.
+
 ## 4. Куда смотреть (источники правды, не переписаны здесь)
 
 - `tasks/foundation/foundation_plan.md` — план, который Opus выполняет.

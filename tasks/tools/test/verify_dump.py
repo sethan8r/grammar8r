@@ -43,7 +43,7 @@ for cid in [int(x) for x in sys.argv[1:]]:
             out.write(f'  [callout {b["variant"]}|{b["label"]}] {b["text"]}\n')
         else:
             out.write(f'  [{b["type"]}] {b["text"]}\n')
-    out.write(f'SUMMARY: {c["summary"]}\n')
+    out.write(f'SUMMARY: {c["theorySummary"]}\n')
     out.write(f'EXAMPLES: {c["examples"]}\n')
     out.write(f'CLARIF: {c["clarificationOptions"]}\n')
     exs = sorted([x for x in d['card_exercise_index'] if x['cardId'] == cid], key=lambda x: x['orderInCard'])
