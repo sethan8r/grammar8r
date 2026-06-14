@@ -167,14 +167,37 @@
 - Перед кодом — описать план в чате, дождаться «пиши». Вести `decision_log.md` + `notes_for_fable.md`.
 - Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
 
-### ⬜ Шаг D2. Серверные заглушки + DTO  🟡 Fable-review
-- domain-интерфейсы: `AuthRepository`, `EntitlementsProvider` (полный, без лимита «слов в
-  промте»), `AiExerciseRepository`, `DictionaryRepository`, синк прогресса.
-- `Fake*`-реализации + Hilt-биндинги; dev/prod через BuildConfig, не комментарии.
-- DTO запросов/ответов в `grammar-shared` (`@Serializable`); удалить пустой `Models.kt`.
-- **DoD:** компилируется, биндинги поднимаются Hilt'ом.
-- **Очистка контекста:** ✅ да. **decision_log + notes_for_fable.**
-- **Self-prompt:** _<…>_
+### ✅ Шаг D2. Серверные заглушки + DTO  🟡 Fable-review — ГОТОВО (14.06.2026)
+- domain-интерфейсы (`domain/repository/`): `AuthRepository`, `EntitlementsProvider` (полный, без лимита
+  «слов в промте»), `AiExerciseRepository` (generate/evaluate/**clarify**), `DictionaryRepository`,
+  `ProgressSyncRepository`.
+- доменные модели (`domain/model/`): `Entitlements` (+`hasAiQuota`), `AuthSession`, `GeneratedExercise`/
+  `ExerciseEvaluation`/`ClarificationAnswer`, `WordTranslation`, `ProgressEvent`/`ProgressSnapshot`,
+  `ApiResult<T>`+`RequestError`. Даты — `java.time`.
+- `Fake*` (`data/repository/fake/`, 5 шт) + `@Binds @Singleton` в `RepositoryModule`. dev/prod —
+  `@DebugBuild Boolean` из `AppConfigModule` (BuildConfig.DEBUG в одном месте); `FakeEntitlementsProvider`
+  debug→ADMIN, release→FREE. Включён `buildFeatures.buildConfig=true`.
+- DTO в `grammar-shared` (`@Serializable`): `SubscriptionTier`(+`userVisible`), auth, `SubscriptionDto`,
+  AI-упражнения (generate/evaluate/clarification), `ProgressEventType`/прогресс. `Models.kt` удалён.
+- ⚠️ Контрактный enum кодов ошибок + маппер — отложены до remote-слоя (Фаза 4), чтобы не было мёртвого кода.
+  `DictionaryRepository` — без DTO в shared (внешние словари, не наш контракт). Отложены (YAGNI):
+  промо/оплата/AI-диалог/админ/голоса/FCM/announcements.
+- **DoD выполнен:** `:grammar-app:assembleDebug` зелёный, Hilt-граф поднимается, `Models.kt` удалён, варнингов нет.
+- **decision_log:** 5 записей D2. **notes_for_fable:** раздел «Шаг D2». **Очистка контекста:** ✅ да.
+
+**Self-prompt для следующей сессии (Шаг E — читалка теории) ⭐ ГЛАВНЫЙ РИСК:**
+- Заглушки сервера готовы (5 интерфейсов + Fake + DI). `EntitlementsProvider` в debug = топ-тир (всё открыто).
+  Контентный текст уже идёт через `TranslatableText`-пустышку (D1). content.db собирается при сборке.
+- E: `TheoryScreen` (темы+прогресс) → `TopicScreen` (микротемы) → `MicrotopicScreen` (листание карточек).
+  Рендер блоков теории `paragraph/heading/list/table/callout` + инлайн `**жирное**`/`*курсив*` →
+  `AnnotatedString`. Контентный текст — через `TranslatableText`. `TheoryRepository` (combine content+user),
+  use cases, тонкие ViewModel (`@HiltViewModel`).
+- ⚠️ ГЛАВНОЕ: **обкатать реальный `tasks/tools/seed/basics.json`** — как блоки теории парсятся из сырого
+  JSON-`String` в `GrammarCard.theory` (разбор в domain-маппере, решение Шага B). Правки `md_to_json.py`/
+  формата — совместно с пользователем. По итогу пометить в планах: формат обкатан / что поправили.
+- Источник по формату блоков: `tasks/theory_content_guide.md` (§8 формат), `db_schema.md` (`GrammarCard`).
+- Перед кодом — план в чате, дождаться «пиши». Вести `decision_log.md`.
+- Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
 
 ### ⬜ Шаг E. Читалка теории  🟡 Fable-only (по provisional)  ⭐
 - TheoryScreen (темы + прогресс) → TopicScreen (микротемы) → MicrotopicScreen (листание

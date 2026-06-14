@@ -84,6 +84,26 @@ DDL/индексы/identity берёт из экспортированной Roo
 - Остальное: room_master_table+user_version в файле, вставка по пересечению колонок, INSERT OR IGNORE
   для общих таблиц-разделов, JSON list/dict→строка, сид-ключ `summary→theorySummary` — в decision_log.
 
+### Шаг D2 (серверные заглушки + DTO) — сделано 14.06.2026, provisional
+
+Сборка зелёная (`:grammar-app:assembleDebug`), Hilt-граф поднимается (5 биндингов), `Models.kt` удалён.
+DTO/контракт — в `grammar-shared`; интерфейсы — `domain/repository/`; Fake — `data/repository/fake/`;
+доменные модели — `domain/model/`. Решения — в `decision_log.md` (5 записей D2). **Смотри первым делом:**
+
+- **`SubscriptionTier` в shared, domain ссылается напрямую (средняя уверенность).** Тир — один и тот же
+  набор на клиенте/сервере, поэтому не раздваивал (Правило №0, прецедент `AiExerciseInputMode`). DTO↔domain
+  всё равно разные классы (`SubscriptionDto`→`Entitlements`). Вопрос к тебе: ок ли domain→shared-контракт
+  зависимость по enum'у, или нужен отдельный доменный enum + маппер. Видимость: `userVisible`-флаг, UI
+  итерирует `userVisibleTiers` (FREE/TIER1/TIER2); ADMIN/TESTER скрыты (продуктовое требование пользователя).
+- **Ошибки: доменный `ApiResult<T>`/`RequestError` сейчас; контрактный enum кодов + маппер — позже (с remote).**
+  Набор ошибок НЕ совпадает (domain знает NETWORK/UNKNOWN) → отдельный тип оправдан. Контрактный код без
+  десериализатора был бы мёртвым кодом. Проверь, что граница «код сервера → RequestError» в Фазе 4 ляжет чисто.
+- **dev/prod через `@DebugBuild Boolean`** (BuildConfig.DEBUG, проброшен из единственного `AppConfigModule`).
+  `FakeEntitlementsProvider`: debug→ADMIN, release→FREE. Реальные реализации в Фазе 4 меняют только @Binds.
+- **Объём:** включён `clarify()` (по просьбе пользователя). Отложены (YAGNI): промо/оплата/AI-диалог/админ/
+  голоса/FCM/announcements. Проверь, не нужен ли какой-то из них раньше, чем появится его фича.
+- `DictionaryRepository`/`WordTranslation` — БЕЗ DTO в shared (внешние словари, не наш контракт).
+
 ## 4. Куда смотреть (источники правды, не переписаны здесь)
 
 - `tasks/foundation/foundation_plan.md` — план, который Opus выполняет.
