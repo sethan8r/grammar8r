@@ -44,6 +44,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import dagger.hilt.android.AndroidEntryPoint
 import dev.sethan8r.grammar.app.ui.screens.menu.MenuScreen
 import dev.sethan8r.grammar.app.ui.screens.practice.PracticeScreen
 import dev.sethan8r.grammar.app.ui.screens.statistics.StatisticsScreen
@@ -54,6 +55,7 @@ import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Grammar8rTheme
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

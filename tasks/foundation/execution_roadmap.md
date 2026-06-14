@@ -51,17 +51,35 @@
 
 Легенда статуса: ⬜ не начато · 🟦 в работе · ✅ готово.
 
-### ⬜ Шаг A. Каркас сборки + DI  🟢
-- version catalog: добавить Hilt, KSP, Room, kotlinx.serialization (navigation-compose уже есть),
-  поднять `composeBom`.
-- `build.gradle.kts`: grammar-app (плагины + зависимости), grammar-shared (kotlin/jvm +
-  serialization). grammar-server не трогаем.
-- `@HiltAndroidApp` Application, `@AndroidEntryPoint` MainActivity, пустые DI-модули
-  (`DatabaseModule`, `RepositoryModule`).
-- Дерево пакетов по `foundation_plan.md` §2 (пустые папки/placeholder).
-- **DoD:** приложение запускается как раньше (4 таба).
-- **Очистка контекста:** ✅ да.
-- **Self-prompt (заполнить по завершении):** _<тут что знать следующей сессии>_
+### ✅ Шаг A. Каркас сборки + DI  🟢 — ГОТОВО (14.06.2026)
+- version catalog: добавлены Hilt, KSP, Room, kotlinx.serialization; `composeBom` поднят.
+- `build.gradle.kts`: grammar-app (плагины ksp/hilt/serialization + зависимости + подключён
+  `:grammar-shared`), grammar-shared (serialization-ready). grammar-server не трогали.
+- `@HiltAndroidApp Grammar8rApp` (в манифесте `android:name=".Grammar8rApp"`),
+  `@AndroidEntryPoint` MainActivity, пустые DI-модули `di/DatabaseModule` (object, под @Provides
+  Room) и `di/RepositoryModule` (abstract, под @Binds).
+- **DoD выполнен:** `:grammar-app:assembleDebug` зелёный, Hilt-граф генерируется, KSP работает.
+
+**Self-prompt для следующей сессии (Шаг B):**
+- Тулчейн проекта — июнь 2026, версии ушли далеко вперёд. **Зафиксированные рабочие версии**
+  (в `gradle/libs.versions.toml`): AGP 9.1.1, Kotlin 2.2.10, Gradle 9.3.1, **Hilt 2.59.2**,
+  **KSP 2.3.9** (KSP2, версионируется независимо от Kotlin — НЕ старый формат `2.2.10-x`),
+  **Room 2.8.4**, composeBom 2026.05.01, kotlinx-serialization-json 1.11.0,
+  hilt-navigation-compose 1.3.0, navigation-compose 2.8.0.
+- ⚠️ **AGP 9 убрал старый `BaseExtension`** — Hilt < 2.59 падает с «Android BaseExtension not
+  found». Нужен Hilt ≥ 2.59. Если версия библиотеки не резолвится — проверять реальные версии
+  через maven-metadata.xml (Google Maven `dl.google.com/dl/android/maven2/...`, Maven Central
+  `repo1.maven.org/maven2/...`), не гадать.
+- AGP 9 имеет **встроенную поддержку Kotlin** — отдельный плагин `kotlin-android` не нужен и не
+  подключён. Не добавлять.
+- Пакеты создаём по мере появления файлов (git не хранит пустые папки). Сейчас есть только
+  `di/`, `ui/` (theme, screens, components). Дерево-ориентир — `foundation_plan.md` §2.
+- Дальше — Шаг B: Entity обеих БД по `db_schema.md` + DAO + TypeConverters + `exportSchema=true`
+  (ksp arg `room.schemaLocation` → `$projectDir/schemas`). Полные схемы упражнений —
+  `tasks/phases/phase1/exercise_templates.md`. Это 🟡 Fable-review: вести `decision_log.md` и
+  `notes_for_fable.md`.
+- **Сборку запускать так:** `.\gradlew.bat :grammar-app:assembleDebug --console=plain`
+  (PowerShell, из корня; первый прогон ~3 мин).
 
 ### ⬜ Шаг B. Схема Room — 2 БД  🟡 Fable-review
 - Все Entity content.db (теория + GrammarCard.theory как JSON-блоки + 14 таблиц упражнений +
