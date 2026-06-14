@@ -23,13 +23,17 @@ import dagger.hilt.android.AndroidEntryPoint
 import dev.sethan8r.grammar.app.ui.components.Grammar8rBottomBar
 import dev.sethan8r.grammar.app.ui.navigation.LearnRoute
 import dev.sethan8r.grammar.app.ui.navigation.MenuRoute
+import dev.sethan8r.grammar.app.ui.navigation.MicrotopicRoute
 import dev.sethan8r.grammar.app.ui.navigation.PracticeRoute
 import dev.sethan8r.grammar.app.ui.navigation.StatisticsRoute
 import dev.sethan8r.grammar.app.ui.navigation.TopLevelDestination
+import dev.sethan8r.grammar.app.ui.navigation.TopicRoute
 import dev.sethan8r.grammar.app.ui.screens.menu.MenuScreen
 import dev.sethan8r.grammar.app.ui.screens.practice.PracticeScreen
 import dev.sethan8r.grammar.app.ui.screens.statistics.StatisticsScreen
+import dev.sethan8r.grammar.app.ui.screens.theory.MicrotopicScreen
 import dev.sethan8r.grammar.app.ui.screens.theory.TheoryScreen
+import dev.sethan8r.grammar.app.ui.screens.theory.TopicScreen
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.Grammar8rTheme
 
@@ -86,10 +90,22 @@ fun MainScreen() {
             enterTransition = { EnterTransition.None },
             exitTransition = { ExitTransition.None },
         ) {
-            composable<LearnRoute> { TheoryScreen() }
+            composable<LearnRoute> {
+                TheoryScreen(onTopicClick = { topicId -> navController.navigate(TopicRoute(topicId)) })
+            }
             composable<PracticeRoute> { PracticeScreen() }
             composable<StatisticsRoute> { StatisticsScreen() }
             composable<MenuRoute> { MenuScreen() }
+
+            composable<TopicRoute> {
+                TopicScreen(
+                    onMicrotopicClick = { id -> navController.navigate(MicrotopicRoute(id)) },
+                    onBack = { navController.popBackStack() },
+                )
+            }
+            composable<MicrotopicRoute> {
+                MicrotopicScreen(onBack = { navController.popBackStack() })
+            }
         }
     }
 }

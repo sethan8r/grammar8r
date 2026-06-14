@@ -8,9 +8,21 @@
     <string name="tab_menu">МЕНЮ</string>
 
     <!-- Временные заглушки экранов -->
-    <string name="learn_placeholder">Учить</string>
     <string name="practice_placeholder">Практика</string>
     <string name="statistics_placeholder">Статистика</string>
+
+    <!-- Теория -->
+    <string name="theory_title">Теория</string>
+    <string name="theory_loading">Загрузка…</string>
+    <string name="theory_empty">Теория появится позже</string>
+    <string name="theory_progress_format">%1$d из %2$d микротем</string>
+    <string name="theory_examples_title">Примеры</string>
+    <string name="theory_clarify_button">Не совсем понял</string>
+    <string name="theory_go_to_exercises">Перейти к заданиям</string>
+    <string name="theory_go_to_ai_exercise">Перейти к умному заданию</string>
+    <string name="info_show">Показать описание</string>
+    <string name="theory_card_id">ID %1$d</string>
+    <string name="back">Назад</string>
 
     <!-- Меню -->
     <string name="menu_title">МЕНЮ</string>

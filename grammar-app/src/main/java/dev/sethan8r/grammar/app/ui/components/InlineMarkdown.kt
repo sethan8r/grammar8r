@@ -1,0 +1,111 @@
+package dev.sethan8r.grammar.app.ui.components
+
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.text.InlineTextContent
+import androidx.compose.foundation.text.appendInlineContent
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowRightAlt
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material3.Icon
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.Placeholder
+import androidx.compose.ui.text.PlaceholderVerticalAlign
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.em
+
+/** Результат разбора: текст + карта инлайн-иконок (вердикт ✓/✗) для [TranslatableText]. */
+data class ParsedMarkdown(
+    val text: AnnotatedString,
+    val inlineContent: Map<String, InlineTextContent>,
+)
+
+private const val INLINE_CHECK = "inline_check"
+private const val INLINE_CROSS = "inline_cross"
+private const val INLINE_ARROW = "inline_arrow"
+
+/**
+ * Единая утилита инлайн-разметки контента (правило №0 — её же переиспользует движок упражнений).
+ * Разбирает только два текстовых маркера (канон theory_content_guide §8):
+ *  - `**жирный**`  → [FontWeight.Bold]
+ *  - `*курсив*`    → [FontStyle.Italic] (так размечены переводы английских примеров)
+ *
+ * Символы-глифы в данных заменяются на **векторные иконки Material** через официальный
+ * `InlineTextContent` (в текст эмодзи не попадают, размер — в `em`, тянется за шрифтом):
+ *  - `✓` → [Icons.Filled.Check] (зелёный), `✗`/`❌` → [Icons.Filled.Close] (красный);
+ *  - `→` → [Icons.AutoMirrored.Filled.ArrowRightAlt] (цветом текста [arrowColor]).
+ * Карту иконок отдаём в [TranslatableText] вместе с текстом.
+ */
+fun parseInlineMarkdown(
+    raw: String,
+    correctColor: Color,
+    incorrectColor: Color,
+    arrowColor: Color,
+): ParsedMarkdown {
+    val text = buildAnnotatedString {
+        var index = 0
+        var boldDepth = 0
+        var italicDepth = 0
+
+        while (index < raw.length) {
+            when {
+                raw.startsWith("**", index) -> {
+                    if (boldDepth == 0) pushStyle(SpanStyle(fontWeight = FontWeight.Bold)) else pop()
+                    boldDepth = if (boldDepth == 0) 1 else 0
+                    index += 2
+                }
+
+                raw[index] == '*' -> {
+                    if (italicDepth == 0) pushStyle(SpanStyle(fontStyle = FontStyle.Italic)) else pop()
+                    italicDepth = if (italicDepth == 0) 1 else 0
+                    index += 1
+                }
+
+                else -> {
+                    when (raw[index]) {
+                        '✓' -> appendInlineContent(INLINE_CHECK, "✓")
+                        '✗', '❌' -> appendInlineContent(INLINE_CROSS, "✗")
+                        '→' -> appendInlineContent(INLINE_ARROW, "→")
+                        else -> append(raw[index])
+                    }
+                    index += 1
+                }
+            }
+        }
+
+        // Подстраховка от непарных маркеров в данных — закрываем открытые стили.
+        repeat(boldDepth + italicDepth) { pop() }
+    }
+
+    val inlineContent = mapOf(
+        INLINE_CHECK to inlineIcon(Icons.Filled.Check, correctColor),
+        INLINE_CROSS to inlineIcon(Icons.Filled.Close, incorrectColor),
+        INLINE_ARROW to inlineIcon(Icons.AutoMirrored.Filled.ArrowRightAlt, arrowColor),
+    )
+
+    return ParsedMarkdown(text, inlineContent)
+}
+
+/** Иконка размером с текущую строку текста (em-единицы), выровненная по центру строки. */
+private fun inlineIcon(icon: ImageVector, tint: Color): InlineTextContent =
+    InlineTextContent(
+        placeholder = Placeholder(
+            width = 1.2.em,
+            height = 1.2.em,
+            placeholderVerticalAlign = PlaceholderVerticalAlign.TextCenter,
+        ),
+    ) {
+        Icon(
+            imageVector = icon,
+            contentDescription = null,
+            tint = tint,
+            modifier = Modifier.fillMaxSize(),
+        )
+    }

@@ -715,7 +715,7 @@ B: ___
 ---
 ---
 
-## Microtopic 3 — There is / There are
+## Microtopic 3 — There is / There are · Оборот there is / there are
 
 **ID:** 3 | **Order:** 3
 
@@ -3552,7 +3552,7 @@ how old — возраст, how many — счётные предметы, how mu
 
 ---
 
-## Microtopic 10 — Предлоги места · Basic Place Prepositions
+## Microtopic 10 — Basic Place Prepositions · Предлоги места
 
 **ID:** 10 | **Order:** 10
 
@@ -4136,7 +4136,7 @@ nearby = наречие/прилагательное (без существит�
 ---
 ---
 
-## Microtopic 11 — Предлоги времени · Time Prepositions
+## Microtopic 11 — Time Prepositions · Предлоги времени
 
 **ID:** 11 | **Order:** 11
 
@@ -4475,7 +4475,7 @@ yesterday / today / tomorrow / last... / next... / this... / every... — без
 ---
 ---
 
-## Microtopic 12 — Предлоги направления · Direction Prepositions
+## Microtopic 12 — Direction Prepositions · Предлоги направления
 
 **ID:** 12 | **Order:** 12
 
@@ -10776,7 +10776,7 @@ RU: Катя говорит по-французски, а также по-ита
 
 # БЛОК 9 · Микротема 25
 
-## Microtopic 25 — Ещё немного важного · A Few More Essentials
+## Microtopic 25 — A Few More Essentials · Ещё немного важного
 
 **ID:** 25 | **Order:** 25
 

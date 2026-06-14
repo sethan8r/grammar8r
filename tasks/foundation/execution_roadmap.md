@@ -199,16 +199,23 @@
 - Перед кодом — план в чате, дождаться «пиши». Вести `decision_log.md`.
 - Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
 
-### ⬜ Шаг E. Читалка теории  🟡 Fable-only (по provisional)  ⭐
-- TheoryScreen (темы + прогресс) → TopicScreen (микротемы) → MicrotopicScreen (листание
-  карточек). Рендер всех блоков: `paragraph / heading / list / table / callout` + инлайн
-  `**жирный**`/`*курсив*` → `AnnotatedString`. Контентный текст — через `TranslatableText`.
-- TheoryRepository (combine content+user), use cases, тонкие ViewModel.
-- **ОБКАТКА реального `basics.json`** → правки `md_to_json.py` совместно с пользователем
-  (главный риск проекта). По итогу — пометить в планах: формат обкатан / нужны правки.
+### 🟦 Шаг E. Читалка теории  🟡 Fable-only (по provisional)  ⭐ — КОД ГОТОВ, идёт ОБКАТКА
+- ✅ Реализовано (сборка зелёная, без варнингов, 2026-06-14):
+  - domain-модели: `TheoryBlock`(sealed)+`CalloutVariant`, `TheoryCard`/`Example`, `TheoryListItem`/
+    `TopicSummary`/`MicrotopicSummary`+`MicrotopicState`(enum), `TheoryData`.
+  - data: `TheoryJsonModels`(суррогаты)+`TheoryContentMapper`(разбор JSON), `SerializationModule`(Json).
+  - `TheoryRepository`(+Impl, combine content+user) · `GetTheoryListUseCase`(чистая группировка).
+  - DAO: `getAllMicrotopics`/`observeMicrotopic`. Биндинг в `RepositoryModule`.
+  - UI: `TheoryScreen`/`TopicScreen`/`MicrotopicScreen` (+3 тонких VM), роуты `TopicRoute`/
+    `MicrotopicRoute` в `MainActivity`. Рендер блоков — `ui/components/TheoryBlockView.kt`; инлайн
+    `**…**`/`*…*` + вердикт ✓/✗ векторными иконками — `ui/components/InlineMarkdown.kt`. `BackTopBar`.
+  - токены `ui/theme/Dimens.kt` + `IncorrectRed`; dep `lifecycle-runtime-compose`. Слоты Фазы 3 — задизейблены.
+- ⏳ ОСТАЛОСЬ (DoD): **обкатка реального `basics.json` на устройстве вместе с пользователем** —
+  смотреть рендер 70 карточек; где формат не бьётся → правки `md_to_json.py`/формата + напомнить
+  пересобрать сид (`py check.py`). По итогу — пометить «формат обкатан».
 - **DoD:** теория из реального сида рендерится корректно; пользователь посмотрел карточки.
-- **Очистка контекста:** ✅ да. **decision_log.**
-- **Self-prompt:** _<…>_
+- **Очистка контекста:** после обкатки. **decision_log:** ✅ записан (раздел «Шаг E»).
+- **Self-prompt:** обновить под F1 в конце обкатки.
 
 ### ⬜ Шаг F1. Ядро движка упражнений  🟡 Fable-only (по provisional)  ⭐
 - Экран упражнения: scaffold (X из N, кнопка `?` с theorySummary, ID упражнения в углу, слот

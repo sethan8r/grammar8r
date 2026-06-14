@@ -21,8 +21,14 @@ interface TheoryDao {
     @Query("SELECT * FROM grammar_topics ORDER BY `order`")
     fun getTopics(): Flow<List<GrammarTopic>>
 
+    @Query("SELECT * FROM grammar_microtopics ORDER BY `order`")
+    fun getAllMicrotopics(): Flow<List<GrammarMicrotopic>>
+
     @Query("SELECT * FROM grammar_microtopics WHERE topicId = :topicId ORDER BY `order`")
     fun getMicrotopics(topicId: Int): Flow<List<GrammarMicrotopic>>
+
+    @Query("SELECT * FROM grammar_microtopics WHERE id = :microtopicId")
+    fun observeMicrotopic(microtopicId: Int): Flow<GrammarMicrotopic?>
 
     @Query("SELECT * FROM grammar_cards WHERE microtopicId = :microtopicId ORDER BY `order`")
     fun getCards(microtopicId: Int): Flow<List<GrammarCard>>

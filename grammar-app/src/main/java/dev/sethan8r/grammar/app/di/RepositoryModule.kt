@@ -4,12 +4,14 @@ import dev.sethan8r.grammar.app.data.repository.fake.FakeAiExerciseRepository
 import dev.sethan8r.grammar.app.data.repository.fake.FakeAuthRepository
 import dev.sethan8r.grammar.app.data.repository.fake.FakeDictionaryRepository
 import dev.sethan8r.grammar.app.data.repository.fake.FakeEntitlementsProvider
+import dev.sethan8r.grammar.app.data.repository.TheoryRepositoryImpl
 import dev.sethan8r.grammar.app.data.repository.fake.FakeProgressSyncRepository
 import dev.sethan8r.grammar.app.domain.repository.AiExerciseRepository
 import dev.sethan8r.grammar.app.domain.repository.AuthRepository
 import dev.sethan8r.grammar.app.domain.repository.DictionaryRepository
 import dev.sethan8r.grammar.app.domain.repository.EntitlementsProvider
 import dev.sethan8r.grammar.app.domain.repository.ProgressSyncRepository
+import dev.sethan8r.grammar.app.domain.repository.TheoryRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -45,4 +47,9 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindProgressSyncRepository(impl: FakeProgressSyncRepository): ProgressSyncRepository
+
+    /** Реальный репозиторий теории (Шаг E): combine content.db + user.db. Не Fake. */
+    @Binds
+    @Singleton
+    abstract fun bindTheoryRepository(impl: TheoryRepositoryImpl): TheoryRepository
 }

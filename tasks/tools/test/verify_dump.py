@@ -40,9 +40,21 @@ for cid in [int(x) for x in sys.argv[1:]]:
             for it in b['items']:
                 out.write(f'      - {it}\n')
         elif b['type'] == 'callout':
-            out.write(f'  [callout {b["variant"]}|{b["label"]}] {b["text"]}\n')
+            out.write(f'  [callout {b["variant"]}|{b["label"]}]\n')
+            for cb in b.get('blocks', []):
+                if cb['type'] == 'list':
+                    for it in cb['items']:
+                        out.write(f'      - {it}\n')
+                elif cb['type'] == 'table':
+                    out.write(f'      [table] {cb["header"]}\n')
+                    for r in cb['rows']:
+                        out.write(f'        {r}\n')
+                else:
+                    out.write(f'      {cb.get("text", "")}\n')
+        elif b['type'] == 'divider':
+            out.write('  [divider]\n')
         else:
-            out.write(f'  [{b["type"]}] {b["text"]}\n')
+            out.write(f'  [{b["type"]}] {b.get("text", "")}\n')
     out.write(f'SUMMARY: {c["theorySummary"]}\n')
     out.write(f'EXAMPLES: {c["examples"]}\n')
     out.write(f'CLARIF: {c["clarificationOptions"]}\n')

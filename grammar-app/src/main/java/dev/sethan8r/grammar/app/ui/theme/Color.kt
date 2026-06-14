@@ -9,3 +9,4 @@ val TextSecondary  = Color(0xFFB0B0B0)
 val Accent         = Color(0xFFFF9B27)
 val Inactive       = Color(0xFF404040)
 val CorrectGreen   = Color(0xFF4CAF50)
+val IncorrectRed   = Color(0xFFE5484D)  // ошибка, ✗, плашка-ловушка

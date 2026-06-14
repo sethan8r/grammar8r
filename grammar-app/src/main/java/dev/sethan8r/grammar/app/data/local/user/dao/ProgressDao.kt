@@ -25,6 +25,10 @@ interface ProgressDao {
     @Query("SELECT * FROM user_card_progress WHERE cardId = :cardId")
     suspend fun getCardProgress(cardId: Int): UserCardProgress?
 
+    /** ID карточек, помеченных пройденными — для слота «умное задание» (показывается только им). */
+    @Query("SELECT cardId FROM user_card_progress WHERE isCompleted = 1")
+    fun getCompletedCardIds(): Flow<List<Int>>
+
     @Upsert
     suspend fun upsertMicrotopicProgress(progress: UserMicrotopicProgress)
 

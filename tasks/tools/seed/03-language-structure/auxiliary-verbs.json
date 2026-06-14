@@ -21,25 +21,25 @@
     {
       "id": 36,
       "topicId": 4,
-      "title": "do / does / did",
+      "title": "do / does / did · Сигнал вопроса и отрицания",
       "order": 1
     },
     {
       "id": 39,
       "topicId": 4,
-      "title": "be (am/is/are/was/were)",
+      "title": "be (am/is/are/was/were) · be: связка, Continuous, Passive",
       "order": 2
     },
     {
       "id": 40,
       "topicId": 4,
-      "title": "have / has / had",
+      "title": "have / has / had · have/has/had: владение и Perfect",
       "order": 3
     },
     {
       "id": 41,
       "topicId": 4,
-      "title": "will",
+      "title": "will · will: маркер будущего",
       "order": 4
     }
   ],
@@ -59,30 +59,33 @@
           "text": "Английский не строит вопросы через интонацию — он выносит вспомогательный глагол **do** или **does** перед подлежащим:"
         },
         {
-          "type": "heading",
-          "text": "Формула вопроса:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Форма",
-            "Для кого",
-            "Пример",
-            "Перевод"
-          ],
-          "rows": [
-            [
-              "**do**",
-              "I, you, we, they",
-              "Do you work here?",
-              "Ты работаешь здесь?"
-            ],
-            [
-              "**does**",
-              "he, she, it",
-              "Does she speak English?",
-              "Она говорит по-английски?"
-            ]
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула вопроса",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Форма",
+                "Для кого",
+                "Пример",
+                "Перевод"
+              ],
+              "rows": [
+                [
+                  "**do**",
+                  "I, you, we, they",
+                  "Do you work here?",
+                  "Ты работаешь здесь?"
+                ],
+                [
+                  "**does**",
+                  "he, she, it",
+                  "Does she speak English?",
+                  "Она говорит по-английски?"
+                ]
+              ]
+            }
           ]
         },
         {
@@ -101,13 +104,23 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка 1",
-          "text": "«Work you here?» ✗ — в английском нельзя поставить глагол вперёд, как иногда делают по аналогии с немецким. Нужен маркер: «Do you work here?» ✓"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Work you here?» ✗ — в английском нельзя поставить глагол вперёд, как иногда делают по аналогии с немецким. Нужен маркер: «Do you work here?» ✓"
+            }
+          ]
         },
         {
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка 2",
-          "text": "«Does she likes coffee?» ✗ — does уже отвечает за 3-е лицо. Глагол остаётся в базовой форме: «Does she like coffee?» ✓"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Does she likes coffee?» ✗ — does уже отвечает за 3-е лицо. Глагол остаётся в базовой форме: «Does she like coffee?» ✓"
+            }
+          ]
         }
       ],
       "theorySummary": "Вопрос строится через do (I/you/we/they) или does (he/she/it), который встаёт перед подлежащим. После do/does — глагол в базовой форме. «Does she like» (не «likes»), «Do they know» (не «knows»).",
@@ -181,19 +194,34 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка 1",
-          "text": "«She not work.» ✗ — нельзя вставить not прямо перед глаголом. Нужен doesn't: «She doesn't work.» ✓"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«She not work.» ✗ — нельзя вставить not прямо перед глаголом. Нужен doesn't: «She doesn't work.» ✓"
+            }
+          ]
         },
         {
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка 2",
-          "text": "«She doesn't works.» ✗ — doesn't уже несёт форму 3-го лица. Глагол не получает -s: «She doesn't work.» ✓"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«She doesn't works.» ✗ — doesn't уже несёт форму 3-го лица. Глагол не получает -s: «She doesn't work.» ✓"
+            }
+          ]
         },
         {
           "type": "callout",
           "variant": "tip",
           "label": "Кстати",
-          "text": "полные формы «do not» и «does not» используются в официальных текстах или для особого акцента: *«I do not agree.»* *(Я категорически не согласен.)*"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "полные формы «do not» и «does not» используются в официальных текстах или для особого акцента: *«I do not agree.»* *(Я категорически не согласен.)*"
+            }
+          ]
         }
       ],
       "theorySummary": "Отрицание: don't (I/you/we/they) или doesn't (he/she/it) + глагол в базовой форме. «She doesn't work» (не «works», не «She not work»). don't = do + not, doesn't = does + not.",
@@ -295,7 +323,12 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "«Did she worked?» ✗ → «Did she work?» ✓ — did уже означает прошлое. Второй раз обозначать его через форму глагола не нужно — это двойное прошлое, которого в английском не бывает."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Did she worked?» ✗ → «Did she work?» ✓ — did уже означает прошлое. Второй раз обозначать его через форму глагола не нужно — это двойное прошлое, которого в английском не бывает."
+            }
+          ]
         }
       ],
       "theorySummary": "Настоящее: do (I/you/we/they) / does (he/she/it). Прошлое: did — для всех субъектов без исключений. После did — глагол в базовой форме: «Did she work?» (не «worked»), «I didn't know» (не «knowed»).",
@@ -394,13 +427,23 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "«You was late.» ✗ — кажется логичным: you = один человек, значит форма как у he/she/it (was). Но **you в английском всегда берёт were** — даже когда речь об одном человеке. «You were late.» ✓"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«You was late.» ✗ — кажется логичным: you = один человек, значит форма как у he/she/it (was). Но **you в английском всегда берёт were** — даже когда речь об одном человеке. «You were late.» ✓"
+            }
+          ]
         },
         {
           "type": "callout",
           "variant": "warning",
           "label": "Не путай",
-          "text": "«We was» / «They was» ✗ — were ✓. Множественное число всегда берёт were, как и you."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«We was» / «They was» ✗ — were ✓. Множественное число всегда берёт were, как и you."
+            }
+          ]
         },
         {
           "type": "heading",
@@ -434,8 +477,15 @@
           "text": "Вопрос: **Was/Were + подлежащее + ...?** «Was she at the party?» *(Она была на вечеринке?)* «Were they ready?» *(Они были готовы?)*"
         },
         {
-          "type": "heading",
-          "text": "Кстати:** be — единственный глагол в английском, у которого ДВЕ формы прошедшего времени в зависимости от подлежащего. Все остальные глаголы (и правильные, и неправильные) имеют ОДНУ форму прошлого для всех лиц: «I worked, you worked, he worked, we worked» — везде worked. А у be: «I was, you were, he was, we were» — две разные формы. Исключение, но запомнить легко: **I/he/she/it → was, you/we/they → were."
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "be — единственный глагол в английском, у которого ДВЕ формы прошедшего времени в зависимости от подлежащего. Все остальные глаголы (и правильные, и неправильные) имеют ОДНУ форму прошлого для всех лиц: «I worked, you worked, he worked, we worked» — везде worked. А у be: «I was, you were, he was, we were» — две разные формы. Исключение, но запомнить легко: **I/he/she/it → was, you/we/they → were.**"
+            }
+          ]
         }
       ],
       "theorySummary": "was — для I/he/she/it. were — для you/we/they (даже если you = один человек!). Отрицание: wasn't/weren't. Вопрос: Was/Were + подлежащее? be — единственный глагол с двумя формами прошлого.",
@@ -520,7 +570,12 @@
           "type": "callout",
           "variant": "tip",
           "label": "Кстати",
-          "text": "это пока превью. Полные правила Present Continuous и Past Continuous (когда употреблять, какие глаголы НЕ используются с -ing, отрицание и вопрос) — отдельные темы впереди. Сейчас задача — научиться УЗНАВАТЬ эту конструкцию и не путать be-связку с be-маркером."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "это пока превью. Полные правила Present Continuous и Past Continuous (когда употреблять, какие глаголы НЕ используются с -ing, отрицание и вопрос) — отдельные темы впереди. Сейчас задача — научиться УЗНАВАТЬ эту конструкцию и не путать be-связку с be-маркером."
+            }
+          ]
         },
         {
           "type": "heading",
@@ -544,7 +599,12 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "-ing бывает не только у глагола в Continuous — иногда это существительное (герундий): «Reading is fun.» *(Чтение — это весело.)* Здесь is — связка, а «reading» — подлежащее (существительное), не часть сказуемого. Отличить просто: если -ing стоит СРАЗУ после be и обозначает действие подлежащего — это Continuous. Если -ing — само подлежащее (стоит ДО be) — это существительное."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "-ing бывает не только у глагола в Continuous — иногда это существительное (герундий): «Reading is fun.» *(Чтение — это весело.)* Здесь is — связка, а «reading» — подлежащее (существительное), не часть сказуемого. Отличить просто: если -ing стоит СРАЗУ после be и обозначает действие подлежащего — это Continuous. Если -ing — само подлежащее (стоит ДО be) — это существительное."
+            }
+          ]
         }
       ],
       "theorySummary": "be + V-ing = одна конструкция со значением «происходит/происходило прямо сейчас» — be здесь не переводится отдельно. Само be (is/was...) выглядит так же, как связка — роль определяет то, что идёт после: прилагательное/существительное → связка, V-ing → Continuous-маркер.",
@@ -621,7 +681,12 @@
           "type": "callout",
           "variant": "tip",
           "label": "Кстати",
-          "text": "полную таблицу форм V1/V2/V3 (включая неправильные глаголы, у которых V3 не равен V1+ed) разберём в теме «Глаголы V1/V2/V3». Пока используем глаголы, у которых V3 = V1 + ed: prepared, finished, painted, organized, closed, washed."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "полную таблицу форм V1/V2/V3 (включая неправильные глаголы, у которых V3 не равен V1+ed) разберём в теме «Глаголы V1/V2/V3». Пока используем глаголы, у которых V3 = V1 + ed: prepared, finished, painted, organized, closed, washed."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -631,7 +696,12 @@
           "type": "callout",
           "variant": "warning",
           "label": "Не путай с прилагательным",
-          "text": "некоторые V3-формы выглядят как обычные прилагательные, описывающие состояние, а не действие. «The door is closed.» может означать: 1) состояние — дверь сейчас в закрытом виде (как «the door is open» — связка + прилагательное), ИЛИ 2) пассив — дверь закрыли (кто-то совершил действие). По одному предложению иногда не отличить — нужен контекст. Это нормально, даже носители не всегда замечают разницу — пока просто знай, что так бывает."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "некоторые V3-формы выглядят как обычные прилагательные, описывающие состояние, а не действие. «The door is closed.» может означать: 1) состояние — дверь сейчас в закрытом виде (как «the door is open» — связка + прилагательное), ИЛИ 2) пассив — дверь закрыли (кто-то совершил действие). По одному предложению иногда не отличить — нужен контекст. Это нормально, даже носители не всегда замечают разницу — пока просто знай, что так бывает."
+            }
+          ]
         }
       ],
       "theorySummary": "be + V3 (у правильных глаголов = V1+ed) = маркер Passive: с подлежащим что-то СДЕЛАЛИ, само be не переводится отдельно. «The wall was painted» = «Стену покрасили», не «Стена была покрашенной». Некоторые V3-формы совпадают с прилагательными — различай по контексту.",
@@ -727,7 +797,12 @@
           "type": "callout",
           "variant": "tip",
           "label": "Запомни",
-          "text": "be сам никогда не несёт смысл действия. Смысл действия даёт второй компонент (V-ing или V3). be просто «включает» нужный режим — как переключатель."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "be сам никогда не несёт смысл действия. Смысл действия даёт второй компонент (V-ing или V3). be просто «включает» нужный режим — как переключатель."
+            }
+          ]
         }
       ],
       "theorySummary": "be (am/is/are/was/were) — одно слово, три роли. После него существительное/прилагательное/место → связка («быть»). После него V-ing → «делает/делал» (Continuous). После него V3 → «с ним сделали» (Passive). Роль определяет то, что идёт ПОСЛЕ be, а не само be.",
@@ -871,7 +946,12 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "«Did you had a dog?» ✗ — did уже несёт прошедшее время (мы разбирали это в теме do/does/did), глагол после него — в базовой форме: «Did you **have** a dog?» ✓"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Did you had a dog?» ✗ — did уже несёт прошедшее время (мы разбирали это в теме do/does/did), глагол после него — в базовой форме: «Did you **have** a dog?» ✓"
+            }
+          ]
         }
       ],
       "theorySummary": "had — единственная форма прошлого have/has, для всех лиц без исключений. Отрицание: didn't have. Вопрос: Did...have? После did — базовая форма \"have\", не \"had\" (did уже несёт прошлое).",
@@ -926,55 +1006,71 @@
           "text": "«She has missed the bus.» — **«Она опоздала на автобус (и теперь стоит и ждёт следующий)».**"
         },
         {
-          "type": "heading",
-          "text": "Формула:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Лицо",
-            "Формула",
-            "Пример",
-            "Перевод"
-          ],
-          "rows": [
-            [
-              "I/you/we/they",
-              "have + V3",
-              "We have arrived.",
-              "Мы приехали (уже здесь)."
-            ],
-            [
-              "he/she/it",
-              "has + V3",
-              "Igor has fixed the car.",
-              "Игорь починил машину (уже готова)."
-            ]
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Лицо",
+                "Формула",
+                "Пример",
+                "Перевод"
+              ],
+              "rows": [
+                [
+                  "I/you/we/they",
+                  "have + V3",
+                  "We have arrived.",
+                  "Мы приехали (уже здесь)."
+                ],
+                [
+                  "he/she/it",
+                  "has + V3",
+                  "Igor has fixed the car.",
+                  "Игорь починил машину (уже готова)."
+                ]
+              ]
+            }
           ]
         },
         {
           "type": "callout",
           "variant": "tip",
           "label": "Кстати",
-          "text": "превью, как и у be. Полный разбор Present Perfect — когда употреблять, маркеры already/just/yet/ever/never, отличие от Past Simple — отдельная тема впереди. Сейчас — узнаём сигнал."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "превью, как и у be. Полный разбор Present Perfect — когда употреблять, маркеры already/just/yet/ever/never, отличие от Past Simple — отдельная тема впереди. Сейчас — узнаём сигнал."
+            }
+          ]
         },
         {
-          "type": "heading",
-          "text": "Не путай с владением:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "«I have a car.» — после have существительное → владение. У меня есть машина.",
-            "«I have fixed the car.» — после have V3 → Perfect-маркер. Я починил машину (уже сделано)."
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай с владением",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "«I have a car.» — после have существительное → владение. У меня есть машина.",
+                "«I have fixed the car.» — после have V3 → Perfect-маркер. Я починил машину (уже сделано)."
+              ]
+            }
           ]
         },
         {
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "«fixed» может выглядеть и как V2 (просто прошедшее: «I fixed the car yesterday» — Past Simple, отдельная тема), и как V3 (часть Perfect: «I have fixed the car»). У правильных глаголов V2 и V3 — одна и та же форма (-ed); различить их можно только по тому, есть ли перед ними have/has. Подробнее это разберём в теме «Глаголы V1/V2/V3»."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«fixed» может выглядеть и как V2 (просто прошедшее: «I fixed the car yesterday» — Past Simple, отдельная тема), и как V3 (часть Perfect: «I have fixed the car»). У правильных глаголов V2 и V3 — одна и та же форма (-ed); различить их можно только по тому, есть ли перед ними have/has. Подробнее это разберём в теме «Глаголы V1/V2/V3»."
+            }
+          ]
         }
       ],
       "theorySummary": "have/has + V3 (у правильных глаголов = V1+ed) = маркер Present Perfect: действие уже завершено, само have/has не переводится как «иметь». «I have locked the door» = «Я запер дверь (уже)», не «У меня есть запертая дверь».",
@@ -1017,29 +1113,37 @@
           "text": "«By the time we arrived, she had already locked the door.» — **«К тому моменту, когда мы приехали, она уже заперла дверь»** *(заперла раньше, чем мы приехали).*"
         },
         {
-          "type": "heading",
-          "text": "Формула:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Формула",
-            "Пример",
-            "Перевод"
-          ],
-          "rows": [
-            [
-              "had + V3",
-              "The train had departed before we got to the station.",
-              "Поезд уже отправился до того, как мы добрались до станции."
-            ]
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Формула",
+                "Пример",
+                "Перевод"
+              ],
+              "rows": [
+                [
+                  "had + V3",
+                  "The train had departed before we got to the station.",
+                  "Поезд уже отправился до того, как мы добрались до станции."
+                ]
+              ]
+            }
           ]
         },
         {
           "type": "callout",
           "variant": "tip",
           "label": "Кстати",
-          "text": "превью — полный разбор Past Perfect (порядок двух действий в прошлом, маркеры before/after/by the time) будет в отдельной теме. Сейчас — узнаём сигнал: had + V3 = «уже произошло ДО другого прошлого момента»."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "превью — полный разбор Past Perfect (порядок двух действий в прошлом, маркеры before/after/by the time) будет в отдельной теме. Сейчас — узнаём сигнал: had + V3 = «уже произошло ДО другого прошлого момента»."
+            }
+          ]
         },
         {
           "type": "heading",
@@ -1057,7 +1161,12 @@
           "type": "callout",
           "variant": "warning",
           "label": "Не путай с владением",
-          "text": "had сам по себе тоже может быть владением в прошлом (Card 113: «I had a dog»). Разница та же, что у have/has: «had + существительное» → владение, «had + V3» → Past Perfect-маркер."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "had сам по себе тоже может быть владением в прошлом (Card 113: «I had a dog»). Разница та же, что у have/has: «had + существительное» → владение, «had + V3» → Past Perfect-маркер."
+            }
+          ]
         }
       ],
       "theorySummary": "had + V3 (у правильных глаголов = V1+ed) = маркер Past Perfect: действие завершилось ДО другого момента в прошлом. «She had locked the door before we arrived» = «Она заперла дверь до того, как мы приехали» — два действия, locked было первым.",
@@ -1152,7 +1261,12 @@
           "type": "callout",
           "variant": "tip",
           "label": "Запомни",
-          "text": "так же как be, have/has/had сам не несёт смысл действия в роли маркера — смысл даёт V3. Теперь у нас есть ДВА таких «переключателя»: be (для Continuous и Passive) и have (для Perfect)."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "так же как be, have/has/had сам не несёт смысл действия в роли маркера — смысл даёт V3. Теперь у нас есть ДВА таких «переключателя»: be (для Continuous и Passive) и have (для Perfect)."
+            }
+          ]
         }
       ],
       "theorySummary": "have/has/had — два слова, две роли. После них существительное → владение («есть/было»). После них V3 → Perfect-маркер («уже сделал»: have/has — сейчас, had — до другого прошлого момента). Роль определяет то, что идёт ПОСЛЕ, а не само have/has/had.",
@@ -1236,10 +1350,8 @@
           "text": "will — чистый маркер времени, не глагол желания. «I will go» = «Я пойду» (просто факт о будущем), не «Я хочу пойти» (это совсем другая конструкция)."
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Краткая форма",
-          "text": "I'll, you'll, he'll, she'll, we'll, they'll — 'll вместо will, в разговоре почти всегда так."
+          "type": "paragraph",
+          "text": "**Краткая форма:** I'll, you'll, he'll, she'll, we'll, they'll — 'll вместо will, в разговоре почти всегда так."
         },
         {
           "type": "heading",
@@ -1270,13 +1382,23 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "«I will to call you.» ✗ — как и после can/must/should, после will не нужен to: «I will call you.» ✓ *(вспомни карточку про can в Основах).*"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«I will to call you.» ✗ — как и после can/must/should, после will не нужен to: «I will call you.» ✓ *(вспомни карточку про can в Основах).*"
+            }
+          ]
         },
         {
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "«He will calls.» ✗ — will уже сигналит будущее, глагол остаётся в базовой форме без -s, даже для he/she/it: «He will call.» ✓ *(как и с does/did в теме do/does/did — после служебного глагола основной глагол теряет личные окончания).*"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«He will calls.» ✗ — will уже сигналит будущее, глагол остаётся в базовой форме без -s, даже для he/she/it: «He will call.» ✓ *(как и с does/did в теме do/does/did — после служебного глагола основной глагол теряет личные окончания).*"
+            }
+          ]
         }
       ],
       "theorySummary": "will + V1 (без to, без -s даже для he/she/it) = маркер будущего, одна форма для всех. Не значит «хотеть» — просто «это произойдёт». Отрицание: won't. Вопрос: Will + подлежащее + V1?",
@@ -1323,29 +1445,37 @@
           "text": "«This time tomorrow, I will be flying to Madrid.» — **«Завтра в это же время я буду лететь в Мадрид».**"
         },
         {
-          "type": "heading",
-          "text": "Формула:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Формула",
-            "Пример",
-            "Перевод"
-          ],
-          "rows": [
-            [
-              "will + be + V-ing",
-              "At 8 pm, Sasha will be cooking dinner.",
-              "В 8 вечера Саша будет готовить ужин."
-            ]
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Формула",
+                "Пример",
+                "Перевод"
+              ],
+              "rows": [
+                [
+                  "will + be + V-ing",
+                  "At 8 pm, Sasha will be cooking dinner.",
+                  "В 8 вечера Саша будет готовить ужин."
+                ]
+              ]
+            }
           ]
         },
         {
           "type": "callout",
           "variant": "tip",
           "label": "Кстати",
-          "text": "обрати внимание — после will всегда базовая форма (V1), поэтому здесь именно **be** (база глагола to be), а не is/are/was. will задаёт правило «после меня — V1», и be — это V1 формы to be."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "обрати внимание — после will всегда базовая форма (V1), поэтому здесь именно **be** (база глагола to be), а не is/are/was. will задаёт правило «после меня — V1», и be — это V1 формы to be."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -1392,29 +1522,37 @@
           "text": "«By next year, she will have graduated.» — **«К следующему году она уже закончит учёбу»** *(закончит раньше, чем наступит этот момент в будущем).*"
         },
         {
-          "type": "heading",
-          "text": "Формула:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Формула",
-            "Пример",
-            "Перевод"
-          ],
-          "rows": [
-            [
-              "will + have + V3",
-              "By 6 pm, Roma will have finished his homework.",
-              "К 6 вечера Рома уже закончит домашку."
-            ]
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Формула",
+                "Пример",
+                "Перевод"
+              ],
+              "rows": [
+                [
+                  "will + have + V3",
+                  "By 6 pm, Roma will have finished his homework.",
+                  "К 6 вечера Рома уже закончит домашку."
+                ]
+              ]
+            }
           ]
         },
         {
           "type": "callout",
           "variant": "tip",
           "label": "Кстати",
-          "text": "опять же — после will всегда V1, поэтому **have** (база), не has/had. will задаёт правило «дальше — базовая форма», а have+V3 целиком — это и есть Perfect-маркер, который теперь стоит в базовой форме после will."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "опять же — после will всегда V1, поэтому **have** (база), не has/had. will задаёт правило «дальше — базовая форма», а have+V3 целиком — это и есть Perfect-маркер, который теперь стоит в базовой форме после will."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -1520,7 +1658,12 @@
           "type": "callout",
           "variant": "tip",
           "label": "Запомни",
-          "text": "в полных темах времён (Present Continuous, Passive Voice, Present Perfect, Future Simple и т.д.) мы вернёмся к каждой из этих конструкций — но уже не с нуля: распознавать сигнал ты уже умеешь."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "в полных темах времён (Present Continuous, Passive Voice, Present Perfect, Future Simple и т.д.) мы вернёмся к каждой из этих конструкций — но уже не с нуля: распознавать сигнал ты уже умеешь."
+            }
+          ]
         }
       ],
       "theorySummary": "do/does/did, be, have/has/had, will — служебные глаголы, сигналы конструкций, не переводятся как отдельные слова со своим смыслом (кроме их «обычных» ролей — связка be, владение have). Они складываются: will+be+V-ing, will+have+V3 и т.д. Алгоритм: увидел служебный → не переводи отдельно → смотри что после → переводи конструкцию целиком.",

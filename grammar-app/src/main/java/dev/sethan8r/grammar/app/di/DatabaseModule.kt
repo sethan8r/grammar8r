@@ -16,6 +16,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
+import java.io.File
 import javax.inject.Singleton
 
 /**
@@ -34,11 +35,26 @@ object DatabaseModule {
 
     @Provides
     @Singleton
-    fun provideContentDatabase(@ApplicationContext context: Context): ContentDatabase =
-        Room.databaseBuilder(context, ContentDatabase::class.java, "content.db")
+    fun provideContentDatabase(
+        @ApplicationContext context: Context,
+        @DebugBuild debug: Boolean,
+    ): ContentDatabase {
+        // Dev-обкатка контента: content.db часто пересобирается, но `createFromAsset` копирует ассет
+        // лишь при первом создании файла — без смены версии новый контент на устройство не попадает.
+        // В debug удаляем старый файл, чтобы Room всегда копировал свежий ассет. В release не трогаем
+        // (БД read-only, заменяется штатно при апдейте версии content.db).
+        if (debug) {
+            context.getDatabasePath("content.db").let { file ->
+                file.delete()
+                File("${file.path}-wal").delete()
+                File("${file.path}-shm").delete()
+            }
+        }
+        return Room.databaseBuilder(context, ContentDatabase::class.java, "content.db")
             .createFromAsset("content.db")
             .fallbackToDestructiveMigration(dropAllTables = true)
             .build()
+    }
 
     @Provides
     @Singleton

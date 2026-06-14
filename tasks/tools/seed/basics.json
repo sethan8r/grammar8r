@@ -14,151 +14,151 @@
     {
       "id": 1,
       "topicId": 1,
-      "title": "Personal Pronouns",
+      "title": "Personal Pronouns · Личные местоимения",
       "order": 1
     },
     {
       "id": 2,
       "topicId": 1,
-      "title": "Verb \"to be\"",
+      "title": "Verb \"to be\" · Глагол to be",
       "order": 2
     },
     {
       "id": 3,
       "topicId": 1,
-      "title": "There is / There are",
+      "title": "There is / There are · Оборот there is / there are",
       "order": 3
     },
     {
       "id": 4,
       "topicId": 1,
-      "title": "Have / Has",
+      "title": "Have / Has · Глагол have / has",
       "order": 4
     },
     {
       "id": 5,
       "topicId": 1,
-      "title": "Articles a / an",
+      "title": "Articles a / an · Артикли a / an",
       "order": 5
     },
     {
       "id": 6,
       "topicId": 1,
-      "title": "Article the",
+      "title": "Article the · Артикль the",
       "order": 6
     },
     {
       "id": 7,
       "topicId": 1,
-      "title": "Possessive Pronouns",
+      "title": "Possessive Pronouns · Притяжательные местоимения",
       "order": 7
     },
     {
       "id": 8,
       "topicId": 1,
-      "title": "Demonstrative Pronouns",
+      "title": "Demonstrative Pronouns · Указательные местоимения",
       "order": 8
     },
     {
       "id": 9,
       "topicId": 1,
-      "title": "Question Words",
+      "title": "Question Words · Вопросительные слова",
       "order": 9
     },
     {
       "id": 10,
       "topicId": 1,
-      "title": "Предлоги места",
+      "title": "Basic Place Prepositions · Предлоги места",
       "order": 10
     },
     {
       "id": 11,
       "topicId": 1,
-      "title": "Предлоги времени",
+      "title": "Time Prepositions · Предлоги времени",
       "order": 11
     },
     {
       "id": 12,
       "topicId": 1,
-      "title": "Предлоги направления",
+      "title": "Direction Prepositions · Предлоги направления",
       "order": 12
     },
     {
       "id": 13,
       "topicId": 1,
-      "title": "Plural of Nouns",
+      "title": "Plural of Nouns · Множественное число",
       "order": 13
     },
     {
       "id": 14,
       "topicId": 1,
-      "title": "Numbers",
+      "title": "Numbers · Числа",
       "order": 14
     },
     {
       "id": 15,
       "topicId": 1,
-      "title": "The Calendar",
+      "title": "The Calendar · Календарь",
       "order": 15
     },
     {
       "id": 16,
       "topicId": 1,
-      "title": "Clock Time",
+      "title": "Clock Time · Время на часах",
       "order": 16
     },
     {
       "id": 17,
       "topicId": 1,
-      "title": "Countable & Uncountable Nouns",
+      "title": "Countable & Uncountable Nouns · Счётные и несчётные существительные",
       "order": 17
     },
     {
       "id": 18,
       "topicId": 1,
-      "title": "Imperative",
+      "title": "Imperative · Императив",
       "order": 18
     },
     {
       "id": 19,
       "topicId": 1,
-      "title": "Word Order: SVO",
+      "title": "Word Order: SVO · Порядок слов: подлежащее-сказуемое-дополнение",
       "order": 19
     },
     {
       "id": 20,
       "topicId": 1,
-      "title": "Adjectives",
+      "title": "Adjectives · Прилагательные (базовое введение)",
       "order": 20
     },
     {
       "id": 21,
       "topicId": 1,
-      "title": "Can / can't",
+      "title": "Can / can't · Модальный глагол can",
       "order": 21
     },
     {
       "id": 22,
       "topicId": 1,
-      "title": "also / too / as well",
+      "title": "also / too / as well · Три способа сказать «тоже»",
       "order": 22
     },
     {
       "id": 23,
       "topicId": 1,
-      "title": "want to / need to / like to",
+      "title": "want to / need to / like to · want to / need to / like to",
       "order": 23
     },
     {
       "id": 24,
       "topicId": 1,
-      "title": "as / as well as / such as",
+      "title": "as / as well as / such as · as / as well as / such as",
       "order": 24
     },
     {
       "id": 25,
       "topicId": 1,
-      "title": "Ещё немного важного",
+      "title": "A Few More Essentials · Ещё немного важного",
       "order": 25
     }
   ],
@@ -230,13 +230,23 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка 1",
-          "text": "По-русски \"Вы\" — это вежливое обращение к одному человеку. В английском такого нет. \"You\" — просто ты или вы, без особой вежливости."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "По-русски \"Вы\" — это вежливое обращение к одному человеку. В английском такого нет. \"You\" — просто ты или вы, без особой вежливости."
+            }
+          ]
         },
         {
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка 2",
-          "text": "\"it\" для животных. Если пол неизвестен или неважен — it. Если знаешь пол — можно he или she: \"This is my dog Max. He loves to run.\""
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "\"it\" для животных. Если пол неизвестен или неважен — it. Если знаешь пол — можно he или she: \"This is my dog Max. He loves to run.\""
+            }
+          ]
         }
       ],
       "theorySummary": "I/you/he/she/it/we/they — слова-замены для имён и предметов. I — всегда с заглавной. you — и ты, и вы (вежливого \"Вы\" в английском нет). it — для предметов и животных неизвестного пола.",
@@ -372,11 +382,23 @@
           "type": "callout",
           "variant": "warning",
           "label": "Не путай",
-          "text": "**it's** = it is. А **its** (без апострофа) — притяжательное: \"The cat licked its paw.\" Апостроф — это пропущенная буква \"i\". Запомни: если можно сказать \"it is\" — пишем \"it's\". Если нельзя — пишем \"its\"."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**it's** = it is. А **its** (без апострофа) — притяжательное: \"The cat licked its paw.\" Апостроф — это пропущенная буква \"i\". Запомни: если можно сказать \"it is\" — пишем \"it's\". Если нельзя — пишем \"its\"."
+            }
+          ]
         },
         {
-          "type": "paragraph",
-          "text": "Кстати: у to be есть прошедшие формы — was и were. Они понадобятся позже, когда будем изучать прошедшие времена. Пока работаем с am/is/are."
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "у to be есть прошедшие формы — was и were. Они понадобятся позже, когда будем изучать прошедшие времена. Пока работаем с am/is/are."
+            }
+          ]
         }
       ],
       "theorySummary": "am — только с I. is — с he/she/it. are — с you/we/they. В разговоре сокращай: I'm, he's, they're. Без to be предложение на английском не работает — даже если в русском он не звучит.",
@@ -475,7 +497,12 @@
           "type": "callout",
           "variant": "warning",
           "label": "Важно",
-          "text": "форма для I — только **I'm not**. Слова \"I amn't\" не существует в английском — никогда не использовалось и не используется. Для всех остальных: **isn't** (is not) и **aren't** (are not)."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "форма для I — только **I'm not**. Слова \"I amn't\" не существует в английском — никогда не использовалось и не используется. Для всех остальных: **isn't** (is not) и **aren't** (are not)."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -534,8 +561,15 @@
           "text": "Утверждение: I **am** late. → Вопрос: **Am** I late?"
         },
         {
-          "type": "paragraph",
-          "text": "Формула: **Am/Is/Are + подлежащее + остальное + ?**"
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Am/Is/Are + подлежащее + остальное + ?**"
+            }
+          ]
         },
         {
           "type": "heading",
@@ -578,7 +612,12 @@
           "type": "callout",
           "variant": "warning",
           "label": "Важно",
-          "text": "в кратком положительном ответе сокращать нельзя. \"Yes, she **is**.\" — правильно. \"Yes, she's.\" — так не говорят. Сокращение делает ответ незавершённым."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "в кратком положительном ответе сокращать нельзя. \"Yes, she **is**.\" — правильно. \"Yes, she's.\" — так не говорят. Сокращение делает ответ незавершённым."
+            }
+          ]
         }
       ],
       "theorySummary": "Вопрос: am/is/are ставится перед подлежащим. Am I? Is he/she/it? Are you/we/they? Краткий ответ: Yes, she is. / No, she isn't. В положительном кратком ответе сокращение не используется.",
@@ -665,7 +704,12 @@
           "type": "callout",
           "variant": "warning",
           "label": "Важно",
-          "text": "\"there\" в этой конструкции — **НЕ \"там\"** в значении места. \"There is a problem.\" — не \"там есть проблема\", а просто \"есть проблема\". Не путай с \"over there\" (вон там)."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "\"there\" в этой конструкции — **НЕ \"там\"** в значении места. \"There is a problem.\" — не \"там есть проблема\", а просто \"есть проблема\". Не путай с \"over there\" (вон там)."
+            }
+          ]
         }
       ],
       "theorySummary": "There is — для одного предмета или неисчисляемого. There are — для нескольких. \"There\" здесь — не \"там\", а конструкция \"есть/находится\". There's = there is.",
@@ -848,14 +892,26 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Пока запомни главное: для владения, отношений и состояний — have/has. Остальные значения встретятся в примерах и отложатся сами."
+          "type": "callout",
+          "variant": "tip",
+          "label": "Пока запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "для владения, отношений и состояний — have/has. Остальные значения встретятся в примерах и отложатся сами."
+            }
+          ]
         },
         {
           "type": "callout",
           "variant": "trap",
           "label": "Одна важная ловушка",
-          "text": "have в значении \"владения\" **не используется в форме Continuous**. Нельзя сказать \"I am having a car\" — только \"I have a car\". Про Continuous мы ещё не дошли, но запомни уже сейчас: \"у меня есть\" — это всегда have, без am/is/are."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "have в значении \"владения\" **не используется в форме Continuous**. Нельзя сказать \"I am having a car\" — только \"I have a car\". Про Continuous мы ещё не дошли, но запомни уже сейчас: \"у меня есть\" — это всегда have, без am/is/are."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -1035,13 +1091,16 @@
           "type": "callout",
           "variant": "trap",
           "label": "Главная ловушка",
-          "text": "когда добавляем **doesn't** (для he/she/it), сам глагол have НЕ получает -s. Отрицание уже несёт форму для 3-го лица: \"She doesn't **have**\" — не \"she doesn't has\". Ошибка \"doesn't has\" — очень распространённая."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "когда добавляем **doesn't** (для he/she/it), сам глагол have НЕ получает -s. Отрицание уже несёт форму для 3-го лица: \"She doesn't **have**\" — не \"she doesn't has\". Ошибка \"doesn't has\" — очень распространённая."
+            }
+          ]
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Почему так",
-          "text": "\"doesn't\" уже \"отвечает\" за 3-е лицо (он/она/оно). Если добавить ещё \"-s\" к have, получится двойное обозначение одного и того же — в английском такого не бывает. Запомни: doesn't = does + not, и does уже несёт всю нагрузку."
+          "type": "paragraph",
+          "text": "**Почему так:** \"doesn't\" уже \"отвечает\" за 3-е лицо (он/она/оно). Если добавить ещё \"-s\" к have, получится двойное обозначение одного и того же — в английском такого не бывает. Запомни: doesn't = does + not, и does уже несёт всю нагрузку."
         },
         {
           "type": "paragraph",
@@ -1096,8 +1155,15 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Формула: **Do/Does + подлежащее + have + остальное + ?**"
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Do/Does + подлежащее + have + остальное + ?**"
+            }
+          ]
         },
         {
           "type": "table",
@@ -1149,16 +1215,12 @@
           ]
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Сокращать do/does в кратком положительном ответе нельзя",
-          "text": "\"Yes, I do.\" — правильно. Сокращение внутри предложения работает: \"I don't have\", \"She doesn't have\" — но не в конце краткого ответа."
+          "type": "paragraph",
+          "text": "**Сокращать do/does в кратком положительном ответе нельзя:** \"Yes, I do.\" — правильно. Сокращение внутри предложения работает: \"I don't have\", \"She doesn't have\" — но не в конце краткого ответа."
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Акцентное \"do\"",
-          "text": "иногда do используется для подчёркивания:"
+          "type": "paragraph",
+          "text": "**Акцентное \"do\":** иногда do используется для подчёркивания:"
         },
         {
           "type": "list",
@@ -1261,7 +1323,12 @@
           "type": "callout",
           "variant": "warning",
           "label": "Осторожно",
-          "text": "с национальностями артикль не нужен. \"She is Russian.\" — *Она русская.* Не \"She is a Russian\" (это звучит иначе — \"одна русская\"). Но \"She is **a** Russian teacher.\" — *Она русская учительница* (teacher = профессия → артикль нужен)."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "с национальностями артикль не нужен. \"She is Russian.\" — *Она русская.* Не \"She is a Russian\" (это звучит иначе — \"одна русская\"). Но \"She is **a** Russian teacher.\" — *Она русская учительница* (teacher = профессия → артикль нужен)."
+            }
+          ]
         },
         {
           "type": "heading",
@@ -1310,10 +1377,8 @@
           ]
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Множественное число",
-          "text": "если слов несколько — артикль a/an исчезает. Появляется или ничего, или \"some\":"
+          "type": "paragraph",
+          "text": "**Множественное число:** если слов несколько — артикль a/an исчезает. Появляется или ничего, или \"some\":"
         },
         {
           "type": "list",
@@ -1368,18 +1433,19 @@
           "text": "Правило \"an перед гласным звуком\" работает безотказно — но есть слова, где буква и звук расходятся. Это главный источник ошибок даже у людей с хорошим уровнем."
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Вспомни суть",
-          "text": "артикль a/an стоит перед первым словом, которое ты произносишь вслух. Твой рот открывается для гласного? Нужен an. Начинаешь с согласного? Нужен a. Всё просто — пока не встречаешь слова-ловушки."
-        },
-        {
-          "type": "heading",
-          "text": "Слова-ловушки группа 1 — буква гласная, звук согласный:"
-        },
-        {
           "type": "paragraph",
-          "text": "Слова на U и E, которые произносятся через \"ю\" или \"й\":"
+          "text": "**Вспомни суть:** артикль a/an стоит перед первым словом, которое ты произносишь вслух. Твой рот открывается для гласного? Нужен an. Начинаешь с согласного? Нужен a. Всё просто — пока не встречаешь слова-ловушки."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Слова-ловушки группа 1 — буква гласная, звук согласный",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Слова на U и E, которые произносятся через \"ю\" или \"й\":"
+            }
+          ]
         },
         {
           "type": "table",
@@ -1437,42 +1503,45 @@
           "text": "*a European city — европейский город*"
         },
         {
-          "type": "heading",
-          "text": "Слова-ловушки группа 2 — буква H не произносится:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Слово",
-            "Звучание",
-            "Артикль",
-            "Пример"
-          ],
-          "rows": [
-            [
-              "hour",
-              "\"аур\"",
-              "**an**",
-              "an hour"
-            ],
-            [
-              "honest",
-              "\"онист\"",
-              "**an**",
-              "an honest answer"
-            ],
-            [
-              "heir",
-              "\"эр\"",
-              "**an**",
-              "an heir"
-            ],
-            [
-              "honour",
-              "\"онэ\"",
-              "**an**",
-              "an honour"
-            ]
+          "type": "callout",
+          "variant": "trap",
+          "label": "Слова-ловушки группа 2 — буква H не произносится",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Слово",
+                "Звучание",
+                "Артикль",
+                "Пример"
+              ],
+              "rows": [
+                [
+                  "hour",
+                  "\"аур\"",
+                  "**an**",
+                  "an hour"
+                ],
+                [
+                  "honest",
+                  "\"онист\"",
+                  "**an**",
+                  "an honest answer"
+                ],
+                [
+                  "heir",
+                  "\"эр\"",
+                  "**an**",
+                  "an heir"
+                ],
+                [
+                  "honour",
+                  "\"онэ\"",
+                  "**an**",
+                  "an honour"
+                ]
+              ]
+            }
           ]
         },
         {
@@ -1487,7 +1556,12 @@
           "type": "callout",
           "variant": "warning",
           "label": "Осторожно",
-          "text": "не все слова на H молчат! \"Hotel\", \"history\", \"happy\" — H произносится: **a** hotel, **a** history lesson, **a** happy day."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "не все слова на H молчат! \"Hotel\", \"history\", \"happy\" — H произносится: **a** hotel, **a** history lesson, **a** happy day."
+            }
+          ]
         },
         {
           "type": "heading",
@@ -1508,10 +1582,8 @@
           ]
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Числа",
-          "text": "артикль согласуется с тем, как число звучит при прочтении:"
+          "type": "paragraph",
+          "text": "**Числа:** артикль согласуется с тем, как число звучит при прочтении:"
         },
         {
           "type": "list",
@@ -1522,76 +1594,80 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Слова-ловушки группа 3 — аббревиатуры:"
-        },
-        {
-          "type": "paragraph",
-          "text": "Буква по алфавиту может начинаться с гласного звука:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "\"**an** MBA degree\" — M звучит как \"эм\" → an",
-            "\"**an** MP\" — M звучит как \"эм\" → an *(MP = Member of Parliament)*",
-            "\"**a** PhD\" — P звучит как \"пи\" → a"
-          ]
-        },
-        {
-          "type": "heading",
-          "text": "Слова-ловушки:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Слово",
-            "Артикль",
-            "Почему"
-          ],
-          "rows": [
-            [
-              "university",
-              "**a** university",
-              "звучит как \"ю...\" — согласный"
-            ],
-            [
-              "union",
-              "**a** union",
-              "звучит как \"ю...\" — согласный"
-            ],
-            [
-              "European",
-              "**a** European",
-              "звучит как \"юро...\" — согласный"
-            ],
-            [
-              "useful",
-              "**a** useful tool",
-              "звучит как \"юс...\" — согласный"
-            ],
-            [
-              "hour",
-              "**an** hour",
-              "h не произносится, слышится \"аур\" — гласный"
-            ],
-            [
-              "honest",
-              "**an** honest",
-              "h не произносится, слышится \"они...\" — гласный"
-            ],
-            [
-              "heir",
-              "**an** heir",
-              "h не произносится, слышится \"эр\" — гласный"
-            ]
+          "type": "callout",
+          "variant": "trap",
+          "label": "Слова-ловушки группа 3 — аббревиатуры",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Буква по алфавиту может начинаться с гласного звука:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"**an** MBA degree\" — M звучит как \"эм\" → an",
+                "\"**an** MP\" — M звучит как \"эм\" → an *(MP = Member of Parliament)*",
+                "\"**a** PhD\" — P звучит как \"пи\" → a"
+              ]
+            }
           ]
         },
         {
           "type": "callout",
-          "variant": "note",
-          "label": "Правило с прилагательными",
-          "text": "артикль согласуется со звуком первого слова, которое слышишь. Если перед существительным стоит прилагательное — артикль зависит от звука этого прилагательного."
+          "variant": "trap",
+          "label": "Слова-ловушки",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Слово",
+                "Артикль",
+                "Почему"
+              ],
+              "rows": [
+                [
+                  "university",
+                  "**a** university",
+                  "звучит как \"ю...\" — согласный"
+                ],
+                [
+                  "union",
+                  "**a** union",
+                  "звучит как \"ю...\" — согласный"
+                ],
+                [
+                  "European",
+                  "**a** European",
+                  "звучит как \"юро...\" — согласный"
+                ],
+                [
+                  "useful",
+                  "**a** useful tool",
+                  "звучит как \"юс...\" — согласный"
+                ],
+                [
+                  "hour",
+                  "**an** hour",
+                  "h не произносится, слышится \"аур\" — гласный"
+                ],
+                [
+                  "honest",
+                  "**an** honest",
+                  "h не произносится, слышится \"они...\" — гласный"
+                ],
+                [
+                  "heir",
+                  "**an** heir",
+                  "h не произносится, слышится \"эр\" — гласный"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Правило с прилагательными:** артикль согласуется со звуком первого слова, которое слышишь. Если перед существительным стоит прилагательное — артикль зависит от звука этого прилагательного."
         },
         {
           "type": "list",
@@ -1716,10 +1792,8 @@
           "text": "\"**The** UK\", \"**the** USA\", \"**the** Netherlands\" — с the. Обычные страны — без: \"Russia\", \"France\", \"Japan\"."
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Чего нет в русском",
-          "text": "в русском \"тот самый\" можно выразить интонацией или указательным словом \"эта/та\". В английском для этого есть the — и предложение без него прозвучит как будто это впервые упоминается или ничего конкретного."
+          "type": "paragraph",
+          "text": "**Чего нет в русском:** в русском \"тот самый\" можно выразить интонацией или указательным словом \"эта/та\". В английском для этого есть the — и предложение без него прозвучит как будто это впервые упоминается или ничего конкретного."
         }
       ],
       "theorySummary": "the = \"тот самый, конкретный\". Используй: когда уже упомянуто, когда ясно из контекста, когда единственный в своём роде. Реки, океаны, моря — всегда the.",
@@ -1827,8 +1901,15 @@
           "text": "Притяжательное всегда стоит **перед** существительным. Нельзя сказать \"bag my\" — только \"my bag\"."
         },
         {
-          "type": "paragraph",
-          "text": "**Ловушка 1: his и her.** В русском \"его\" и \"её\" — противоположности, и в английском тоже: `his` = мужской, `her` = женский. Если перепутать — предложение меняет смысл."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**his и her.** В русском \"его\" и \"её\" — противоположности, и в английском тоже: `his` = мужской, `her` = женский. Если перепутать — предложение меняет смысл."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -1843,8 +1924,15 @@
           "text": "Если сказать \"Anna's car is **his**\" — это будет значить, что машина Анны принадлежит какому-то мужчине. Совсем другой смысл."
         },
         {
-          "type": "paragraph",
-          "text": "**Ловушка 2: its vs. it's.** Это разные слова, хотя звучат одинаково!"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 2",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**its vs. it's.** Это разные слова, хотя звучат одинаково!"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1859,8 +1947,15 @@
           "text": "Простая проверка: попробуй заменить на \"it is\". Звучит нормально? Тогда `it's`. Нет? Тогда `its`."
         },
         {
-          "type": "paragraph",
-          "text": "**Ловушка 3: their, there, they're.** Три слова — одно произношение [ðer], три разных значения:"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 3",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**their, there, they're.** Три слова — одно произношение [ðer], три разных значения:"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1872,8 +1967,15 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Пока просто запомни: если говоришь о владении — пишем `their`."
+          "type": "callout",
+          "variant": "tip",
+          "label": "Пока просто запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "если говоришь о владении — пишем `their`."
+            }
+          ]
         }
       ],
       "theorySummary": "my/your/his/her/its/our/their — стоят перед существительным, показывают кому оно принадлежит. his = мужской, her = женский. its (без апострофа) = принадлежность предмета; it's = it is.",
@@ -1961,10 +2063,8 @@
           ]
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Главное правило",
-          "text": "после глагола `to be` — всегда самостоятельная форма."
+          "type": "paragraph",
+          "text": "**Главное правило:** после глагола `to be` — всегда самостоятельная форма."
         },
         {
           "type": "paragraph",
@@ -1983,14 +2083,19 @@
           "text": "✓ \"Is this jacket yours?\" — правильно"
         },
         {
-          "type": "paragraph",
-          "text": "**Важно: `his` не меняется.** В зависимой форме \"his car\", и в самостоятельной \"That car is his.\" Не добавляй -s!"
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**`his` не меняется.** В зависимой форме \"his car\", и в самостоятельной \"That car is his.\" Не добавляй -s!"
+            }
+          ]
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Самый частый контекст",
-          "text": "вопрос \"Чьё это?\" — \"Whose is this?\""
+          "type": "paragraph",
+          "text": "**Самый частый контекст:** вопрос \"Чьё это?\" — \"Whose is this?\""
         },
         {
           "type": "paragraph",
@@ -2041,8 +2146,15 @@
           "text": "Ты уже знаешь как показать владение через местоимение: \"my cat\", \"her bag\", \"his car\". Но что если владелец — конкретный человек по имени или существительное? Для этого в английском есть специальный знак — апостроф с буквой s: **'s**"
         },
         {
-          "type": "paragraph",
-          "text": "Формула: **[владелец] + 's + [то чем владеет]**"
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**[владелец] + 's + [то чем владеет]**"
+            }
+          ]
         },
         {
           "type": "list",
@@ -2122,8 +2234,15 @@
           "text": "В повседневной речи чаще пишут Denis's."
         },
         {
-          "type": "heading",
-          "text": "Ловушка: 's не всегда означает владение."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**'s не всегда означает владение.**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -2247,15 +2366,18 @@
           "text": "В обычной речи с одушевлёнными всегда берут `'s`."
         },
         {
-          "type": "heading",
-          "text": "Ловушки:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "\"the table's leg\" ✗ → стол неживой → \"the leg of the table\" ✓",
-            "\"the film's end\" ✗ → фильм неживой → \"the end of the film\" ✓"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"the table's leg\" ✗ → стол неживой → \"the leg of the table\" ✓",
+                "\"the film's end\" ✗ → фильм неживой → \"the end of the film\" ✓"
+              ]
+            }
           ]
         }
       ],
@@ -2530,7 +2652,12 @@
           "type": "callout",
           "variant": "formula",
           "label": "Формула для представления",
-          "text": "`This is...` и `That is...` используются когда нужно что-то или кого-то назвать/представить."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`This is...` и `That is...` используются когда нужно что-то или кого-то назвать/представить."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -2545,14 +2672,26 @@
           "text": "\"**What is that?**\" (Что это там такое?) — о чём-то непонятном вдали."
         },
         {
-          "type": "paragraph",
-          "text": "**Ловушка: \"это\" и \"вот это\".** В русском оба случая — \"это\". В английском ты обязан выбрать: \"this\" (рядом) или \"that\" (далеко). Сказать \"this\" о далёком предмете — носители поймут, но звучит странно, как будто предмет вдруг прыгнул к тебе."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**\"это\" и \"вот это\".** В русском оба случая — \"это\". В английском ты обязан выбрать: \"this\" (рядом) или \"that\" (далеко). Сказать \"this\" о далёком предмете — носители поймут, но звучит странно, как будто предмет вдруг прыгнул к тебе."
+            }
+          ]
         },
         {
           "type": "callout",
           "variant": "trap",
           "label": "Ещё одна ловушка",
-          "text": "слово `that` ещё используется как союз (\"Я знаю, что он устал\" → \"I know **that** he is tired\"). Это другое \"that\" — не указательное. Здесь мы изучаем только указательное."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "слово `that` ещё используется как союз (\"Я знаю, что он устал\" → \"I know **that** he is tired\"). Это другое \"that\" — не указательное. Здесь мы изучаем только указательное."
+            }
+          ]
         }
       ],
       "theorySummary": "this = этот/эта/это (рядом), that = тот/та/то (далеко). Оба — один предмет. \"This is...\" — представить близкое. \"That is...\" — указать на далёкое или спросить: \"What is that?\"",
@@ -2623,12 +2762,26 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Запомнить просто: `this` и `these` оба начинаются с \"th\" и содержат \"is\"/\"ese\". `that` → `those` (похожи по звуку)."
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомнить просто",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`this` и `these` оба начинаются с \"th\" и содержат \"is\"/\"ese\". `that` → `those` (похожи по звуку)."
+            }
+          ]
         },
         {
-          "type": "heading",
-          "text": "Важно: когда предметов несколько, глагол to be меняется!"
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**когда предметов несколько, глагол to be меняется!**"
+            }
+          ]
         },
         {
           "type": "list",
@@ -2758,10 +2911,8 @@
           ]
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Порядок слов",
-          "text": "вопросительное слово → глагол to be → подлежащее (всё остальное)."
+          "type": "paragraph",
+          "text": "**Порядок слов:** вопросительное слово → глагол to be → подлежащее (всё остальное)."
         },
         {
           "type": "paragraph",
@@ -2780,8 +2931,15 @@
           "text": "Обрати внимание: по-русски мы говорим \"**Как** тебя зовут?\", а по-английски буквально спрашивают \"**Что** твоё имя?\" — \"**What** is your name?\" Дословный перевод (\"How is your name?\") — неправильно. Это один из случаев, когда русский и английский работают по-разному."
         },
         {
-          "type": "heading",
-          "text": "Ловушка 1: what vs. who."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**what vs. who.**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -2796,8 +2954,15 @@
           "text": "Мысленная проверка: как будет звучать ответ? Если ответ — человек (\"Мой начальник — Иван\") → `who`. Если ответ — вещь или факт (\"Я менеджер\") → `what`."
         },
         {
-          "type": "heading",
-          "text": "Ловушка 2: where vs. when."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 2",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**where vs. when.**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -2816,8 +2981,15 @@
           "text": "Подсказка: `where` содержит слово `here` (здесь) — оба о месте."
         },
         {
-          "type": "paragraph",
-          "text": "**Ловушка 3: how vs. what** в вопросах о состоянии."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 3",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**how vs. what** в вопросах о состоянии."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -2920,8 +3092,15 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Главная ловушка: how many vs. how much."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Главная ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**how many vs. how much.**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -3056,8 +3235,15 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Главная ловушка: `at school` vs `in school`"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Главная ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**`at school` vs `in school`**"
+            }
+          ]
         },
         {
           "type": "list",
@@ -3216,8 +3402,15 @@
           "text": "\"The café is **between** the bank and the bookshop.\" — кафе стоит между банком и книжным: слева банк, справа книжный."
         },
         {
-          "type": "paragraph",
-          "text": "Важно: **between** — только когда объектов ровно два. Если их три и больше — \"among\":"
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**between** — только когда объектов ровно два. Если их три и больше — \"among\":"
+            }
+          ]
         },
         {
           "type": "list",
@@ -3358,8 +3551,15 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Ловушка: \"There is a shop near.\" — ошибка. Если нет существительного после — используй `nearby`, не `near`."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "\"There is a shop near.\" — ошибка. Если нет существительного после — используй `nearby`, не `near`."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -3424,7 +3624,12 @@
           "type": "callout",
           "variant": "warning",
           "label": "Не путай `beside` и `besides`",
-          "text": "это разные слова!"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "это разные слова!"
+            }
+          ]
         },
         {
           "type": "list",
@@ -3531,7 +3736,12 @@
           "type": "callout",
           "variant": "tip",
           "label": "Маленький секрет",
-          "text": "логика всё равно есть. Представь, что время \"приближается\" к точке: большие периоды требуют `in`, конкретные дни — `on`, а точные моменты — `at`."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "логика всё равно есть. Представь, что время \"приближается\" к точке: большие периоды требуют `in`, конкретные дни — `on`, а точные моменты — `at`."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -3639,8 +3849,15 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Главная ловушка: at night vs in the evening/morning"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Главная ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**at night vs in the evening/morning**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -3773,10 +3990,8 @@
           "text": "В русском мы говорим \"вчера\", \"сегодня\" — без предлога. В английском — то же самое. Ошибка появляется потому, что только что выучили правила `at`, `on`, `in` — и начинают применять везде. Эти слова предлога не требуют — они сами наречия времени."
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Логика",
-          "text": "если к слову уже добавлено уточнение `this`, `last`, `next`, `every` — предлог лишний. Уточнение само по себе указывает на время."
+          "type": "paragraph",
+          "text": "**Логика:** если к слову уже добавлено уточнение `this`, `last`, `next`, `every` — предлог лишний. Уточнение само по себе указывает на время."
         },
         {
           "type": "heading",
@@ -3853,10 +4068,8 @@
           ]
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Исключение — домой",
-          "text": "\"I'm going **home**.\" — никогда не \"to home\". Слово `home` уже само несёт идею направления. Так же: \"I'm going **there**\" (не \"to there\")."
+          "type": "paragraph",
+          "text": "**Исключение — домой:** \"I'm going **home**.\" — никогда не \"to home\". Слово `home` уже само несёт идею направления. Так же: \"I'm going **there**\" (не \"to there\")."
         },
         {
           "type": "heading",
@@ -3885,19 +4098,22 @@
           "text": "\"I travel **from** Moscow **to** London.\" — *Я еду из Москвы в Лондон.* Из А → в Б."
         },
         {
-          "type": "heading",
-          "text": "Ловушка — глагол \"arrive\":"
-        },
-        {
-          "type": "paragraph",
-          "text": "В русском: \"приехать *в* место\". В английском arrive работает иначе:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "\"arrive **in** Moscow\" — прибываем в большой город или страну (in, не to)",
-            "\"arrive **at** the station\" — прибываем в конкретную точку (at the station, at the airport)"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка — глагол \"arrive\"",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В русском: \"приехать *в* место\". В английском arrive работает иначе:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"arrive **in** Moscow\" — прибываем в большой город или страну (in, не to)",
+                "\"arrive **at** the station\" — прибываем в конкретную точку (at the station, at the airport)"
+              ]
+            }
           ]
         },
         {
@@ -4056,10 +4272,8 @@
           "text": "Ты уже знаешь предлог `on`. У него есть старший брат — `upon`. Значение то же самое, но звучит гораздо торжественнее. В разговорной речи его не используют — он живёт в книгах, официальных документах и устойчивых выражениях."
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Самое знаменитое",
-          "text": "**\"Once upon a time...\"** — *Жили-были...* Дословно: \"однажды, в некое время\". Именно с этой фразы начинается большинство английских сказок — и так было несколько столетий подряд. Если слышишь \"once upon a time\" — ты в сказке."
+          "type": "paragraph",
+          "text": "**Самое знаменитое:** **\"Once upon a time...\"** — *Жили-были...* Дословно: \"однажды, в некое время\". Именно с этой фразы начинается большинство английских сказок — и так было несколько столетий подряд. Если слышишь \"once upon a time\" — ты в сказке."
         },
         {
           "type": "paragraph",
@@ -4546,8 +4760,8 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Исключения** (просто +s): roof → **roofs**, chief → **chiefs**, belief → **beliefs"
+          "type": "paragraph",
+          "text": "**Исключения** (просто +s): roof → **roofs**, chief → **chiefs**, belief → **beliefs**"
         },
         {
           "type": "paragraph",
@@ -4695,20 +4909,23 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Главные ловушки:"
-        },
-        {
-          "type": "paragraph",
-          "text": "\"two mans\" ✗ → \"two **men**\" ✓"
-        },
-        {
-          "type": "paragraph",
-          "text": "\"three childs\" ✗ → \"three **children**\" ✓"
-        },
-        {
-          "type": "paragraph",
-          "text": "\"several persons\" — формально правильно, но звучит юридически; в разговоре всегда \"people\""
+          "type": "callout",
+          "variant": "trap",
+          "label": "Главные ловушки",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "\"two mans\" ✗ → \"two **men**\" ✓"
+            },
+            {
+              "type": "paragraph",
+              "text": "\"three childs\" ✗ → \"three **children**\" ✓"
+            },
+            {
+              "type": "paragraph",
+              "text": "\"several persons\" — формально правильно, но звучит юридически; в разговоре всегда \"people\""
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -4890,8 +5107,15 @@
           "text": "thirteen (13), fourteen (14), **fifteen** (15), sixteen (16), seventeen (17), **eighteen** (18), **nineteen** (19)"
         },
         {
-          "type": "paragraph",
-          "text": "Ловушка: fifteen (не fiveteen), eighteen (не eightyteen), nineteen (не ninteen)."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "fifteen (не fiveteen), eighteen (не eightyteen), nineteen (не ninteen)."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -4906,8 +5130,15 @@
           "text": "twenty (20), thirty (30), **forty** (40), fifty (50), sixty (60), seventy (70), eighty (80), ninety (90)"
         },
         {
-          "type": "paragraph",
-          "text": "Ловушка: **forty** — не \"fourty\". Одна из самых частых орфографических ошибок в английском."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**forty** — не \"fourty\". Одна из самых частых орфографических ошибок в английском."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -4947,7 +5178,12 @@
           "type": "callout",
           "variant": "warning",
           "label": "Важно",
-          "text": "hundred / thousand / million — без -s когда идут с числом!"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "hundred / thousand / million — без -s когда идут с числом!"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -5038,12 +5274,15 @@
           "text": "---"
         },
         {
-          "type": "heading",
-          "text": "Первые три — исключения, запомнить:"
-        },
-        {
-          "type": "paragraph",
-          "text": "1st = **first**, 2nd = **second**, 3rd = **third**"
+          "type": "callout",
+          "variant": "tip",
+          "label": "Первые три — исключения, запомнить",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "1st = **first**, 2nd = **second**, 3rd = **third**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -5481,7 +5720,12 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "в названиях событий сезон может стать собственным именем:"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "в названиях событий сезон может стать собственным именем:"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -5597,7 +5841,12 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "\"in Monday\", \"in Friday\" — ошибка. Только **on**!"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "\"in Monday\", \"in Friday\" — ошибка. Только **on**!"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -5690,7 +5939,12 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "\"on January\" без числа — ошибка. Месяц как период → **in**."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "\"on January\" без числа — ошибка. Месяц как период → **in**."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -5713,16 +5967,19 @@
           "text": "---"
         },
         {
-          "type": "heading",
-          "text": "Произношение-ловушки:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**February** [ˈfebrʊəri] — первое \"r\" часто проглатывается в разговоре, звучит как \"Febyuary\". Это нормально — так говорят многие носители.",
-            "**August** [ˈɔːɡəst] — ударение на первый слог: **AU**-gust, не au-**GUST**.",
-            "**Wednesday** — уже знаешь *(из карточки про дни)*"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Произношение-ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**February** [ˈfebrʊəri] — первое \"r\" часто проглатывается в разговоре, звучит как \"Febyuary\". Это нормально — так говорят многие носители.",
+                "**August** [ˈɔːɡəst] — ударение на первый слог: **AU**-gust, не au-**GUST**.",
+                "**Wednesday** — уже знаешь *(из карточки про дни)*"
+              ]
+            }
           ]
         },
         {
@@ -5864,13 +6121,23 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "\"on summer\", \"on spring\" — ошибка."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "\"on summer\", \"on spring\" — ошибка."
+            }
+          ]
         },
         {
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка 2",
-          "text": "\"in Summer\" с заглавной — ошибка (если это не название события)."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "\"in Summer\" с заглавной — ошибка (если это не название события)."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -6047,7 +6314,12 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "по-русски мы говорим \"в три часа\" — предлог \"в\". Мозг переносит \"in\" или \"on\" в английский:"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "по-русски мы говорим \"в три часа\" — предлог \"в\". Мозг переносит \"in\" или \"on\" в английский:"
+            }
+          ]
         },
         {
           "type": "list",
@@ -6192,8 +6464,15 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Главная ловушка: half past и \"пол X-го\""
+          "type": "callout",
+          "variant": "trap",
+          "label": "Главная ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**half past и \"пол X-го\"**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -6307,8 +6586,15 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Ловушка 1: \"three hours\" вместо \"three o'clock\""
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**\"three hours\" вместо \"three o'clock\"**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -6324,8 +6610,15 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Ловушка 2: o'clock для неровного времени"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 2",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**o'clock для неровного времени**"
+            }
+          ]
         },
         {
           "type": "list",
@@ -6434,8 +6727,15 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Ловушка: money — несчётное"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**money — несчётное**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -6559,8 +6859,15 @@
           "text": "С `advice` та же история: по-русски \"один совет\", \"два совета\". По-английски это `a piece of advice` или просто `some advice`."
         },
         {
-          "type": "heading",
-          "text": "Особая ловушка: news с глаголом"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Особая ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**news с глаголом**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -6763,10 +7070,8 @@
           ]
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Быстрая проверка",
-          "text": "можно поставить цифру? Если да → `a few`. Если нет → `a little`."
+          "type": "paragraph",
+          "text": "**Быстрая проверка:** можно поставить цифру? Если да → `a few`. Если нет → `a little`."
         },
         {
           "type": "list",
@@ -6777,16 +7082,19 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Ловушки:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "\"a few water\" ✗ → water несчётное → **a little water** ✓",
-            "\"a little chairs\" ✗ → chairs счётное → **a few chairs** ✓",
-            "\"a few information\" ✗ → information несчётное → **a little information** ✓"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"a few water\" ✗ → water несчётное → **a little water** ✓",
+                "\"a little chairs\" ✗ → chairs счётное → **a few chairs** ✓",
+                "\"a few information\" ✗ → information несчётное → **a little information** ✓"
+              ]
+            }
           ]
         },
         {
@@ -6883,8 +7191,15 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Ловушка: \"You don't run\" — это НЕ запрет"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**\"You don't run\" — это НЕ запрет**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -7030,8 +7345,15 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Ловушка: please ≠ \"пожалуйста\" в ответ на \"спасибо\""
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**please ≠ \"пожалуйста\" в ответ на \"спасибо\"**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -7139,8 +7461,15 @@
           "text": "После `Let's` всегда стоит **базовая форма глагола (V1)**: \"Let's **go**\", \"Let's **try**\", \"Let's **be** friends\"."
         },
         {
-          "type": "heading",
-          "text": "Главная ловушка: Let's — это НЕ сокращение \"let + is\""
+          "type": "callout",
+          "variant": "trap",
+          "label": "Главная ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Let's — это НЕ сокращение \"let + is\"**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -7480,10 +7809,8 @@
           "text": "✓ Правильно: *\"You know the truth.\"*"
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Главное правило",
-          "text": "Subject — всегда первый, Verb — сразу после него, Object — после глагола. Нарушить порядок = изменить смысл или сломать предложение."
+          "type": "paragraph",
+          "text": "**Главное правило:** Subject — всегда первый, Verb — сразу после него, Object — после глагола. Нарушить порядок = изменить смысл или сломать предложение."
         }
       ],
       "theorySummary": "В английском нет падежей, поэтому позиция слова = его роль в предложении. Subject → Verb → Object — порядок нельзя нарушить. «Кофе я люблю» по-английски невозможно — только \"I love coffee\".",
@@ -7671,10 +7998,8 @@
           "text": "Куда его ставить?"
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Правило",
-          "text": "обстоятельство — в **конец** предложения или в самое **начало** для акцента. Никогда — в середину между Subject и Verb или между Verb и Object."
+          "type": "paragraph",
+          "text": "**Правило:** обстоятельство — в **конец** предложения или в самое **начало** для акцента. Никогда — в середину между Subject и Verb или между Verb и Object."
         },
         {
           "type": "paragraph",
@@ -7784,7 +8109,12 @@
           "type": "callout",
           "variant": "tip",
           "label": "Запомни",
-          "text": "конец или начало — но никогда середина."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "конец или начало — но никогда середина."
+            }
+          ]
         }
       ],
       "theorySummary": "Обстоятельство (когда? где?) — в конец предложения или в начало для акцента. Никогда между Subject и Verb или между Verb и Object. \"I yesterday saw him\" — классическая ошибка под влиянием русского.",
@@ -7843,8 +8173,15 @@
           "text": "Позиция 1: прямо перед существительным"
         },
         {
-          "type": "paragraph",
-          "text": "Формула: артикль → прилагательное → существительное"
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "артикль → прилагательное → существительное"
+            }
+          ]
         },
         {
           "type": "list",
@@ -7883,20 +8220,30 @@
           "text": "В русском прилагательное может стоять после существительного **без глагола** — \"день холодный\" — и это нормальная фраза. В английском так нельзя: \"the day cold\" ✗ — нужен to be между ними: \"the day **is** cold\" ✓. Без глагола прилагательное после noun не висит."
         },
         {
-          "type": "paragraph",
-          "text": "Вторая ловушка: в русском прилагательное может отлететь далеко от существительного — \"купил я телефон старый\", \"позвонил другу новому\". В английском прилагательное перед noun стоит **вплотную**, сразу после артикля. Разорвать нельзя."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Вторая ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "в русском прилагательное может отлететь далеко от существительного — \"купил я телефон старый\", \"позвонил другу новому\". В английском прилагательное перед noun стоит **вплотную**, сразу после артикля. Разорвать нельзя."
+            }
+          ]
         },
         {
-          "type": "heading",
-          "text": "Ловушки:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "\"a day cold\" ✗ → прилагательное ПЕРЕД существительным: \"a cold day\" ✓",
-            "\"She is a happy.\" ✗ → после to be артикль не нужен: \"She is happy.\" ✓",
-            "\"This is good a idea.\" ✗ → артикль стоит перед прилагательным: \"This is a good idea.\" ✓"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"a day cold\" ✗ → прилагательное ПЕРЕД существительным: \"a cold day\" ✓",
+                "\"She is a happy.\" ✗ → после to be артикль не нужен: \"She is happy.\" ✓",
+                "\"This is good a idea.\" ✗ → артикль стоит перед прилагательным: \"This is a good idea.\" ✓"
+              ]
+            }
           ]
         }
       ],
@@ -8010,7 +8357,12 @@
           "type": "callout",
           "variant": "tip",
           "label": "Как запомнить",
-          "text": "каждая пара — два конца одной шкалы. Учи сразу оба — левый и правый. Big ↔ small, good ↔ bad, hot ↔ cold..."
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "каждая пара — два конца одной шкалы. Учи сразу оба — левый и правый. Big ↔ small, good ↔ bad, hot ↔ cold..."
+            }
+          ]
         }
       ],
       "theorySummary": "14 базовых прилагательных парами: big/small, good/bad, hot/cold, happy/sad, old/new, fast/slow, easy/hard. Перед гласным звуком: an old, an easy. Перед остальными: a big, a good, a hot.",
@@ -8099,16 +8451,19 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Ловушки:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "\"very very cold\" ✗ — усилитель не удваивают. Хочешь сильнее? Другое слово: \"extremely cold\" *(крайне холодно)* — разберём позже.",
-            "\"cold very\" ✗ — усилитель всегда ПЕРЕД прилагательным.",
-            "\"really very good\" ✗ — два усилителя подряд не используют."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"very very cold\" ✗ — усилитель не удваивают. Хочешь сильнее? Другое слово: \"extremely cold\" *(крайне холодно)* — разберём позже.",
+                "\"cold very\" ✗ — усилитель всегда ПЕРЕД прилагательным.",
+                "\"really very good\" ✗ — два усилителя подряд не используют."
+              ]
+            }
           ]
         }
       ],
@@ -8196,16 +8551,19 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Ловушки:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**but** и **because** — разные: \"I am tired, but I didn't sleep.\" ✗ → but = противопоставление, не причина. \"I am tired **because** I didn't sleep.\" ✓",
-            "По-русски иногда путают \"ну потому что\" и \"но\" — в английском это разные слова с разной функцией",
-            "**or** в утверждениях = выбор между вариантами; не путать с **any** в вопросах (наличие)"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**but** и **because** — разные: \"I am tired, but I didn't sleep.\" ✗ → but = противопоставление, не причина. \"I am tired **because** I didn't sleep.\" ✓",
+                "По-русски иногда путают \"ну потому что\" и \"но\" — в английском это разные слова с разной функцией",
+                "**or** в утверждениях = выбор между вариантами; не путать с **any** в вопросах (наличие)"
+              ]
+            }
           ]
         }
       ],
@@ -8298,8 +8656,15 @@
           "text": "Структура: Subject + can + базовый глагол"
         },
         {
-          "type": "paragraph",
-          "text": "Важно: после can глагол всегда в **базовой форме** — без окончаний, без изменений."
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "после can глагол всегда в **базовой форме** — без окончаний, без изменений."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -8555,8 +8920,15 @@
           "text": "Это самая частая ошибка с can. Две ловушки — запомни обе."
         },
         {
-          "type": "heading",
-          "text": "Ловушка 1: \"to\" после can — нельзя"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**\"to\" после can — нельзя**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -8587,8 +8959,15 @@
           "text": "**can — модальный глагол.** После модальных глаголов (can, must, should, will) **to** не нужен никогда. Глагол идёт сразу после can — без всего."
         },
         {
-          "type": "heading",
-          "text": "Ловушка 2: -s в третьем лице — нельзя"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 2",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**-s в третьем лице — нельзя**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -8615,10 +8994,8 @@
           "text": "После can всегда базовая форма — без -s, без -ing, без -ed. Глагол \"замирает\"."
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "Итого — правило одно",
-          "text": "после can → только **чистая базовая форма**. Никакого to, никаких окончаний."
+          "type": "paragraph",
+          "text": "**Итого — правило одно:** после can → только **чистая базовая форма**. Никакого to, никаких окончаний."
         },
         {
           "type": "table",
@@ -8787,8 +9164,15 @@
           "text": "---"
         },
         {
-          "type": "heading",
-          "text": "Ловушка 1: too не стоит между субъектом и глаголом"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**too не стоит между субъектом и глаголом**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -8807,8 +9191,15 @@
           "text": "\"I **also** like pizza.\" ✓"
         },
         {
-          "type": "heading",
-          "text": "Ловушка 2: \"Me also!\" как короткий ответ — не существует"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 2",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**\"Me also!\" как короткий ответ — не существует**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -8874,7 +9265,12 @@
           "type": "callout",
           "variant": "formula",
           "label": "Формула",
-          "text": "[want / need / like / love / hate] + **to** + [базовая форма глагола]"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "[want / need / like / love / hate] + **to** + [базовая форма глагола]"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -8905,8 +9301,15 @@
           "text": "---"
         },
         {
-          "type": "heading",
-          "text": "Ловушка 1: пропустить to"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**пропустить to**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -8921,8 +9324,15 @@
           "text": "Без **to** предложение сломано."
         },
         {
-          "type": "heading",
-          "text": "Ловушка 2: поставить -ing после to"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 2",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**поставить -ing после to**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -9012,7 +9422,12 @@
           "type": "callout",
           "variant": "trap",
           "label": "Ловушка",
-          "text": "\"I want to don't go.\" ✗ → \"I **don't** want to go.\" ✓"
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "\"I want to don't go.\" ✗ → \"I **don't** want to go.\" ✓"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -9051,8 +9466,15 @@
           "text": "---"
         },
         {
-          "type": "heading",
-          "text": "Ловушка: can + to"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**can + to**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -9163,8 +9585,15 @@
           "text": "---"
         },
         {
-          "type": "heading",
-          "text": "Ловушка: as vs like"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**as vs like**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -9263,8 +9692,15 @@
           "text": "\"Dima plays guitar **as well as** piano.\" *(Дима играет на гитаре, а также на пианино.)*"
         },
         {
-          "type": "paragraph",
-          "text": "Формула: [элемент A] + **as well as** + [элемент B]"
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "[элемент A] + **as well as** + [элемент B]"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -9303,12 +9739,26 @@
           "text": "\"We visited cities **such as** Paris and Rome.\" *(Мы посетили города такие как Париж и Рим.)*"
         },
         {
-          "type": "paragraph",
-          "text": "Формула: [существительное] + **such as** + [примеры через запятую]"
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "[существительное] + **such as** + [примеры через запятую]"
+            }
+          ]
         },
         {
-          "type": "heading",
-          "text": "Ловушка: such as ≠ for example по позиции"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**such as ≠ for example по позиции**"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -9391,8 +9841,15 @@
           "text": "\"**Whose** idea was it?\" *(Чья это была идея?)*"
         },
         {
-          "type": "paragraph",
-          "text": "Формула: **Whose** + существительное + глагол?"
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Whose** + существительное + глагол?"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -9547,10 +10004,8 @@
           "text": "---"
         },
         {
-          "type": "callout",
-          "variant": "note",
-          "label": "На практике",
-          "text": "в большинстве случаев они взаимозаменяемы и носители не делают строгого различия в разговорной речи. Главное — запомнить `every day / every morning / every time` как готовые блоки."
+          "type": "paragraph",
+          "text": "**На практике:** в большинстве случаев они взаимозаменяемы и носители не делают строгого различия в разговорной речи. Главное — запомнить `every day / every morning / every time` как готовые блоки."
         }
       ],
       "theorySummary": "`every` = каждый (группа целиком): \"every day\", \"every morning\". `each` = каждый (по отдельности): \"each student gets one\". Оба + существительное в единственном числе. На практике часто взаимозаменяемы.",

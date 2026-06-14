@@ -30,7 +30,7 @@ def variant_for(label):
         return 'trap'
     if any(k in low for k in ('не путай', 'важно', 'осторожно')):
         return 'warning'
-    if any(k in low for k in ('кстати', 'запомни', 'секрет')):
+    if any(k in low for k in ('кстати', 'запомни', 'секрет', 'совет', 'лайфхак')):
         return 'tip'
     if 'формул' in low:
         return 'formula'
@@ -86,22 +86,71 @@ def parse_theory(body):
             lst, j = collect_list(body, j)
             blocks.append(lst)
             continue
-        # heading — вся строка в болде, тела после ** нет
-        if re.fullmatch(r'\*\*.+\*\*', s):
-            blocks.append({'type': 'heading', 'text': s[2:-2].strip()})
+        # строка начинается с жирного фрагмента: heading / callout / обычный параграф.
+        # Покрывает все формы плашек (автор оформляет ловушки по-разному):
+        #   **Ловушка:** тело                          (ярлык в болде, тело после)
+        #   **Ловушка 1: what vs. who.**               (вся строка в болде)
+        #   **Ловушка 1: his и her.** тело             (ярлык+мини-заголовок в болде, тело после)
+        bm = re.match(r'^\*\*(.+?)\*\*\s*(.*)$', s)
+        if bm:
+            bold_inner = bm.group(1).strip()
+            after = bm.group(2).strip()
+            lm = re.match(r'^([^:]+):\s*(.*)$', bold_inner)
+            if lm and variant_for(lm.group(1)) != 'note':
+                label = lm.group(1).strip()
+                title = lm.group(2).strip()          # мини-заголовок (был внутри болда)
+                inline_parts = []
+                if title:
+                    inline_parts.append(f'**{title}**')  # сохраняем жирный мини-заголовок в теле
+                if after:
+                    inline_parts.append(after)
+                j += 1
+                if inline_parts:
+                    # тело прямо в строке -> один абзац
+                    body_blocks = [{'type': 'paragraph', 'text': ' '.join(inline_parts).strip()}]
+                else:
+                    # ярлык на отдельной строке (**Ловушки:** / **Формула:**) — впитываем следующий
+                    # блок (список/таблицу/абзац, в т.ч. жирный) и парсим его как тело плашки.
+                    body_blocks, j = absorb_block(body, j)
+                blocks.append({'type': 'callout', 'variant': variant_for(label),
+                               'label': label, 'blocks': body_blocks})
+                continue
+            if not after:
+                # вся строка в болде, не плашка → подзаголовок секции
+                blocks.append({'type': 'heading', 'text': bold_inner})
+                j += 1
+                continue
+            # жирный фрагмент в начале + проза дальше → обычный абзац (жирный остаётся инлайном)
+            blocks.append({'type': 'paragraph', 'text': s})
             j += 1
             continue
-        # callout — **Ярлык:** тело
-        m = re.match(r'^\*\*([^*]+?):\*\*\s+(.+)$', s)
-        if m:
-            label = m.group(1).strip()
-            blocks.append({'type': 'callout', 'variant': variant_for(label),
-                           'label': label, 'text': m.group(2).strip()})
+        # callout без болда: короткий ярлык-ключевое-слово + ":" (автор забыл **).
+        # Ярлык ≤ 3 слов и относится к плашке (Кстати/Ловушка/Важно/...), иначе это проза с двоеточием.
+        pm = re.match(r'^([^:*]{1,40}?):\s+(.+)$', s)
+        if pm and variant_for(pm.group(1)) != 'note' and len(pm.group(1).split()) <= 3:
+            label = pm.group(1).strip()
+            blocks.append({'type': 'callout', 'variant': variant_for(label), 'label': label,
+                           'blocks': [{'type': 'paragraph', 'text': pm.group(2).strip()}]})
             j += 1
             continue
         blocks.append({'type': 'paragraph', 'text': s})
         j += 1
     return blocks
+
+
+def absorb_block(body, j):
+    """Собрать ОДИН следующий блок (после ярлыка плашки на отдельной строке) как тело callout:
+    пропустить ведущие пустые строки, забрать смежные непустые строки до пустой/разделителя,
+    распарсить их как блоки. Возвращает (список блоков, новый индекс j)."""
+    while j < len(body) and not body[j].strip():
+        j += 1
+    raw = []
+    while j < len(body) and body[j].strip():
+        if re.fullmatch(r'(-{3,}|\*{3,}|_{3,})', body[j].strip()):
+            break
+        raw.append(body[j])
+        j += 1
+    return (parse_theory(raw) if raw else []), j
 
 # ---------- examples / clarification ----------
 
@@ -576,7 +625,9 @@ def parse_file(path, only_mt=None, word_start=1):
             if only_mt is None or mt_id == only_mt:
                 content['grammar_microtopics'].append({
                     'id': mt_id, 'topicId': topic_id,
-                    'title': mt_title.split('·')[0].strip() if '·' in mt_title else mt_title,
+                    # Полное двойное название "EN · RU" (UI рисует его как две строки). Нормализуем
+                    # пробелы вокруг разделителя к ровно " · ".
+                    'title': re.sub(r'\s*·\s*', ' · ', mt_title).strip(),
                     'order': mt_order,
                 })
             continue
