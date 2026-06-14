@@ -1,0 +1,79 @@
+package dev.sethan8r.grammar.app.data.local.content
+
+import androidx.room.Database
+import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
+import dev.sethan8r.grammar.app.data.local.content.dao.CourseWordDao
+import dev.sethan8r.grammar.app.data.local.content.dao.ExerciseDao
+import dev.sethan8r.grammar.app.data.local.content.dao.TheoryDao
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.AiExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.CardExerciseIndex
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.CategorizationExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.ConstructionMeaningExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.word.CourseCategory
+import dev.sethan8r.grammar.app.data.local.content.entity.word.CourseWord
+import dev.sethan8r.grammar.app.data.local.content.entity.word.CourseWordGroup
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.DialogRestoreExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.ErrorCorrectionExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.FindTheOddExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarCard
+import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarMicrotopic
+import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarTopic
+import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarTopicCategory
+import dev.sethan8r.grammar.app.data.local.content.entity.word.IrregularVerb
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.MatchingExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.MultipleChoiceExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TableFillExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TextInputExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TransformationExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TrueFalseExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.WordArrangementExercise
+import dev.sethan8r.grammar.app.data.local.converter.Converters
+
+/**
+ * content.db — read-only БД контента, поставляется готовой в assets и открывается через
+ * `createFromAsset`. ЗАМЕНЯЕТСЯ ЦЕЛИКОМ при обновлении приложения: версия БД = версия контента,
+ * на релизе с новым контентом — bump версии + destructive fallback ТОЛЬКО для этой БД (легально:
+ * пользовательских данных тут нет). Прогресс живёт отдельно в user.db; JOIN/FK между БД нет.
+ *
+ * Источник правды по схеме и архитектуре двух БД — db_schema.md.
+ * 🟡 provisional (Шаг B) — каждое решение зафиксировано в tasks/foundation/decision_log.md.
+ */
+@Database(
+    entities = [
+        // Теория
+        GrammarTopicCategory::class,
+        GrammarTopic::class,
+        GrammarMicrotopic::class,
+        GrammarCard::class,
+        // Индекс + AI
+        CardExerciseIndex::class,
+        AiExercise::class,
+        // 12 таблиц хардкодных упражнений
+        WordArrangementExercise::class,
+        MultipleChoiceExercise::class,
+        TextInputExercise::class,
+        TrueFalseExercise::class,
+        ErrorCorrectionExercise::class,
+        TransformationExercise::class,
+        CategorizationExercise::class,
+        TableFillExercise::class,
+        MatchingExercise::class,
+        FindTheOddExercise::class,
+        ConstructionMeaningExercise::class,
+        DialogRestoreExercise::class,
+        // Слова курса
+        CourseWordGroup::class,
+        CourseCategory::class,
+        CourseWord::class,
+        IrregularVerb::class
+    ],
+    version = 1,
+    exportSchema = true
+)
+@TypeConverters(Converters::class)
+abstract class ContentDatabase : RoomDatabase() {
+    abstract fun theoryDao(): TheoryDao
+    abstract fun exerciseDao(): ExerciseDao
+    abstract fun courseWordDao(): CourseWordDao
+}

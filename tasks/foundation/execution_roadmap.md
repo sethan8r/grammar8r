@@ -81,14 +81,35 @@
 - **Сборку запускать так:** `.\gradlew.bat :grammar-app:assembleDebug --console=plain`
   (PowerShell, из корня; первый прогон ~3 мин).
 
-### ⬜ Шаг B. Схема Room — 2 БД  🟡 Fable-review
-- Все Entity content.db (теория + GrammarCard.theory как JSON-блоки + 14 таблиц упражнений +
-  CardExerciseIndex + AiExercise + слова курса) и user.db (прогресс) по `db_schema.md`.
-- DAO теории и прогресса, TypeConverters (enum↔string, блоки/JSON-поля на границе data).
-- `exportSchema = true`, схемы в VCS. user.db — честные миграции, без destructive fallback.
-- **DoD:** компилируется, схемы экспортированы; данных пока нет (content.db ещё не сидим).
-- **Очистка контекста:** ✅ да. **decision_log + notes_for_fable обязательны.**
-- **Self-prompt:** _<…>_
+### ✅ Шаг B. Схема Room — 2 БД  🟡 Fable-review — ГОТОВО (14.06.2026)
+- content.db (22 Entity): теория (4), упражнения (12 типов + `CardExerciseIndex` + `AiExercise`),
+  слова курса (`course_word_groups/categories/words`, `irregular_verbs`). Entity разнесены по
+  подпакетам `entity/{theory,exercise,word}/`. Словарь Words8r отложен в Фазу 2 (по kickoff §6.2).
+- user.db (10 Entity): весь прогресс/настройки/кэш. `AiRequestCounter` — провизорная `(date,count)`.
+- DAO: content — `TheoryDao`/`ExerciseDao`/`CourseWordDao` (read-only); user —
+  `ProgressDao`/`WordProgressDao`/`StatsDao`/`DictionaryCacheDao` (`@Upsert`).
+- `Converters` (enum↔String) на обе БД; JSON-поля хранятся `String`, разбор — в маппере (Шаг E).
+- `AiExerciseInputMode` → `grammar-shared`; клиентские enum-ы → `domain/model`.
+- `exportSchema=true`, ksp arg `room.schemaLocation=$projectDir/schemas`; схемы в VCS
+  (`grammar-app/schemas/…/1.json`). content.db — destructive fallback + `createFromAsset`
+  (открытие ленивое, файл будет в C); user.db — без destructive fallback.
+- **DoD выполнен:** `:grammar-app:assembleDebug` зелёный, схемы экспортированы (22+10 таблиц).
+- **decision_log:** 7 записей от 2026-06-14. **notes_for_fable:** раздел «Шаг B».
+
+**Self-prompt для следующей сессии (Шаг C — сидинг content.db):**
+- Схема Room уже экспортирована в `grammar-app/schemas/`: `ContentDatabase/1.json` (22 таблицы),
+  `UserDatabase/1.json` (10). Имена таблиц/колонок там — ИСТОЧНИК для генерации `CREATE TABLE`.
+- Задача C: `json_to_db.py` собирает `seed/*.json` → `content.db`, **CREATE TABLE генерируется
+  ИЗ экспортированной схемы** (не вручную) — identity hash обязан совпасть, иначе краш при
+  `createFromAsset`. Сиды: `tasks/tools/seed/basics.json`, `transcription.json` (ключи верхнего
+  уровня = имена таблиц: `grammar_topics`, `grammar_cards`, …, `course_words` и т.д.).
+- Enum-поля в колонках — строкой `.name` (`WORD_ARRANGEMENT`, `FREE_WRITE`, `CHOICE`, `GENERAL`),
+  иначе `Converters.valueOf` упадёт. Bool — 0/1, nullable — NULL.
+- Gradle-таск зовёт `py json_to_db.py`, кладёт `content.db` в `grammar-app/src/main/assets/`,
+  зависимость на `mergeDebugAssets`/`preBuild`. **content.db НЕ коммитим** (build-артефакт).
+  В CI нужен setup-python.
+- **DoD C:** приложение открывает content.db без краха identity; тест-запрос читает темы/карточки.
+- Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
 
 ### ⬜ Шаг C. Конвейер сидинга content.db  🟡
 - `json_to_db.py`: `CREATE TABLE` генерируется ИЗ экспортированной Room-схемы (identity hash

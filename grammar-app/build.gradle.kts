@@ -41,6 +41,11 @@ android {
     }
 }
 
+// Room: экспорт схем в VCS (identity hash) — json_to_db.py (Шаг C) генерирует content.db из них.
+ksp {
+    arg("room.schemaLocation", "$projectDir/schemas")
+}
+
 dependencies {
     implementation(project(":grammar-shared"))
 

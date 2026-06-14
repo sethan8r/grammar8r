@@ -1,13 +1,73 @@
 package dev.sethan8r.grammar.app.di
 
+import android.content.Context
+import androidx.room.Room
+import dev.sethan8r.grammar.app.data.local.content.ContentDatabase
+import dev.sethan8r.grammar.app.data.local.content.dao.CourseWordDao
+import dev.sethan8r.grammar.app.data.local.content.dao.ExerciseDao
+import dev.sethan8r.grammar.app.data.local.content.dao.TheoryDao
+import dev.sethan8r.grammar.app.data.local.user.UserDatabase
+import dev.sethan8r.grammar.app.data.local.user.dao.DictionaryCacheDao
+import dev.sethan8r.grammar.app.data.local.user.dao.ProgressDao
+import dev.sethan8r.grammar.app.data.local.user.dao.StatsDao
+import dev.sethan8r.grammar.app.data.local.user.dao.WordProgressDao
 import dagger.Module
+import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
+import javax.inject.Singleton
 
 /**
- * Провайдеры Room: ContentDatabase (content.db, read-only) и UserDatabase (user.db, mutable)
- * плюс их DAO. Наполняется в шаге B (схема Room) и C (сидинг). Сейчас — пустой скелет.
+ * Провайдеры Room: ContentDatabase (content.db, read-only) и UserDatabase (user.db, mutable) + их DAO.
+ *
+ * content.db: открывается из assets через `createFromAsset`; destructive fallback разрешён ТОЛЬКО
+ * здесь (БД заменяется целиком при обновлении приложения, пользовательских данных нет).
+ * ⚠️ Сам файл content.db появится в Шаге C (сидинг). Открытие у Room ленивое — до первого
+ * обращения к DAO БД не вскрывается, поэтому отсутствие файла на Шаге B приложение не роняет.
+ *
+ * user.db: обычная databaseBuilder, БЕЗ destructive fallback (миграции честные, прогресс беречь).
  */
 @Module
 @InstallIn(SingletonComponent::class)
-object DatabaseModule
+object DatabaseModule {
+
+    @Provides
+    @Singleton
+    fun provideContentDatabase(@ApplicationContext context: Context): ContentDatabase =
+        Room.databaseBuilder(context, ContentDatabase::class.java, "content.db")
+            .createFromAsset("content.db")
+            .fallbackToDestructiveMigration(dropAllTables = true)
+            .build()
+
+    @Provides
+    @Singleton
+    fun provideUserDatabase(@ApplicationContext context: Context): UserDatabase =
+        Room.databaseBuilder(context, UserDatabase::class.java, "user.db")
+            .build()
+
+    // --- content.db DAO ---
+
+    @Provides
+    fun provideTheoryDao(db: ContentDatabase): TheoryDao = db.theoryDao()
+
+    @Provides
+    fun provideExerciseDao(db: ContentDatabase): ExerciseDao = db.exerciseDao()
+
+    @Provides
+    fun provideCourseWordDao(db: ContentDatabase): CourseWordDao = db.courseWordDao()
+
+    // --- user.db DAO ---
+
+    @Provides
+    fun provideProgressDao(db: UserDatabase): ProgressDao = db.progressDao()
+
+    @Provides
+    fun provideWordProgressDao(db: UserDatabase): WordProgressDao = db.wordProgressDao()
+
+    @Provides
+    fun provideStatsDao(db: UserDatabase): StatsDao = db.statsDao()
+
+    @Provides
+    fun provideDictionaryCacheDao(db: UserDatabase): DictionaryCacheDao = db.dictionaryCacheDao()
+}
