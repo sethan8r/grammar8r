@@ -135,12 +135,37 @@
 - **DoD D1:** 4 таба на type-safe навигации; контентный текст готов идти через `TranslatableText`.
 - Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
 
-### ⬜ Шаг D1. Навигация type-safe + строки + TranslatableText  🟢
-- Переписать строковую навигацию `MainActivity` на `@Serializable`-роуты; белый список навбара.
-- `strings.xml` (весь интерфейс, на «Вы»). `TranslatableText`-пустышка в `ui/components/`.
-- **DoD:** 4 таба работают на type-safe навигации; контентный текст готов идти через обёртку.
+### ✅ Шаг D1. Навигация type-safe + строки + TranslatableText  🟢 — ГОТОВО (14.06.2026)
+- `ui/navigation/TopLevelDestination.kt`: `sealed interface TopLevelRoute` + 4 `@Serializable data object`
+  (`LearnRoute/PracticeRoute/StatisticsRoute/MenuRoute`) + `enum TopLevelDestination(route,labelRes,icon)`
+  — единый источник правды (навбар и белый список итерируют `entries`).
+- `MainActivity`: `NavHost(startDestination=LearnRoute)`, `composable<LearnRoute>{…}` и т.д.;
+  навигация `navController.navigate(destination.route){popUpTo(startDest){saveState};launchSingleTop;restoreState}`;
+  выбранность/видимость через `hasRoute(route::class)`. Навбар вынесен в `ui/components/Grammar8rBottomBar.kt`
+  (insets там же, как было). `BackHandler` не вводился.
+- Белый список: `bottomBar` рисуется только если текущий роут ∈ `TopLevelDestination.entries`.
+- ⚠️ **Решение по структуре навбара (фидбек 14.06):** было 6 табов в `grammar8r_plan.md`, сведено к 4 —
+  **Учить** (теория+слова) · **Практика** (AI) · **Статистика** · **Меню** (профиль+словарь). «Теория»→«Учить»
+  (`LearnRoute`, рендерит пока `TheoryScreen`-заглушку). План обновлён, фидбек — в памяти `project_nav_tabs`.
+- `strings.xml`: все интерфейсные строки (табы, заглушки, всё меню) на «Вы»; экраны на `stringResource`,
+  github-URL — `private const` в `MenuScreen`.
+- `ui/components/TranslatableText.kt`: пустышка-обёртка над `Text`, 2 перегрузки (`String` + `AnnotatedString`
+  с `inlineContent` под читалку). ⚠️ Грабли: у `Text(AnnotatedString)` `onTextLayout` non-null → в той
+  перегрузке параметр `(TextLayoutResult)->Unit = {}`, не nullable.
+- Побочно: `.idea/deviceManager.xml` (локальный файл AS) убран из стейджа + добавлен в `.gitignore`.
+- **DoD выполнен:** `:grammar-app:assembleDebug` зелёный; 4 таба на type-safe навигации; контентный текст
+  готов идти через `TranslatableText`.
 - **Очистка контекста:** ✅ да.
-- **Self-prompt:** _<…>_
+
+**Self-prompt для следующей сессии (Шаг D2 — серверные заглушки + DTO):**
+- Навигация/строки/`TranslatableText` готовы. Корневой пакет `dev.sethan8r.grammar.app`. `grammar-shared`
+  пока с пустым `Models.kt`-плейсхолдером (удалить при наполнении DTO).
+- D2 (🟡 Fable-review): domain-интерфейсы заглушек сервера — `AuthRepository`, `EntitlementsProvider`
+  (полный, без лимита «слов в промте»), `AiExerciseRepository`, `DictionaryRepository`, синк прогресса;
+  `Fake*`-реализации + Hilt-биндинги (в `RepositoryModule`); dev/prod через `BuildConfig`, не комментарии.
+  DTO запросов/ответов → `grammar-shared` (`@Serializable`), удалить `Models.kt`.
+- Перед кодом — описать план в чате, дождаться «пиши». Вести `decision_log.md` + `notes_for_fable.md`.
+- Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
 
 ### ⬜ Шаг D2. Серверные заглушки + DTO  🟡 Fable-review
 - domain-интерфейсы: `AuthRepository`, `EntitlementsProvider` (полный, без лимита «слов в
