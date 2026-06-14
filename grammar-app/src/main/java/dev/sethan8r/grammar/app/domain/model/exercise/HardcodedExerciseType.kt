@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model
+package dev.sethan8r.grammar.app.domain.model.exercise
 
 /**
  * Тип хардкодного упражнения. Хранится в `CardExerciseIndex.exerciseType` и определяет, в какой

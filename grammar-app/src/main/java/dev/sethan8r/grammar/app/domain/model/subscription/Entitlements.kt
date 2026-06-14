@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model
+package dev.sethan8r.grammar.app.domain.model.subscription
 
 import dev.sethan8r.grammar.shared.SubscriptionTier
 import java.time.Instant

@@ -1,8 +1,8 @@
 package dev.sethan8r.grammar.app.domain.repository
 
-import dev.sethan8r.grammar.app.domain.model.MicrotopicCards
-import dev.sethan8r.grammar.app.domain.model.TheoryData
-import dev.sethan8r.grammar.app.domain.model.TopicMicrotopics
+import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicCards
+import dev.sethan8r.grammar.app.domain.model.theory.TheoryData
+import dev.sethan8r.grammar.app.domain.model.theory.TopicMicrotopics
 import kotlinx.coroutines.flow.Flow
 
 /**

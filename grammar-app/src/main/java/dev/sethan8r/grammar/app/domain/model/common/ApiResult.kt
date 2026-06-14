@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model
+package dev.sethan8r.grammar.app.domain.model.common
 
 /**
  * Результат запроса к серверу: успех с данными либо типизированная ошибка.

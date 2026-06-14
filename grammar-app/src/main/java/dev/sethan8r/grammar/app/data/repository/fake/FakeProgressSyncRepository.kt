@@ -1,7 +1,7 @@
 package dev.sethan8r.grammar.app.data.repository.fake
 
-import dev.sethan8r.grammar.app.domain.model.ProgressEvent
-import dev.sethan8r.grammar.app.domain.model.ProgressSnapshot
+import dev.sethan8r.grammar.app.domain.model.progress.ProgressEvent
+import dev.sethan8r.grammar.app.domain.model.progress.ProgressSnapshot
 import dev.sethan8r.grammar.app.domain.repository.ProgressSyncRepository
 import javax.inject.Inject
 import javax.inject.Singleton

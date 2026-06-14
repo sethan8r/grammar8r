@@ -1,6 +1,6 @@
 package dev.sethan8r.grammar.app.domain.repository
 
-import dev.sethan8r.grammar.app.domain.model.WordTranslation
+import dev.sethan8r.grammar.app.domain.model.dictionary.WordTranslation
 
 /**
  * Перевод слова по долгому нажатию (`TranslatableText`): LingvoLive → Yandex → кэш `DictionaryCache`

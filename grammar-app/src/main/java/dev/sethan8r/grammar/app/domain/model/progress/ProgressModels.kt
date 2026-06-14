@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model
+package dev.sethan8r.grammar.app.domain.model.progress
 
 import dev.sethan8r.grammar.shared.ProgressEventType
 import java.time.Instant

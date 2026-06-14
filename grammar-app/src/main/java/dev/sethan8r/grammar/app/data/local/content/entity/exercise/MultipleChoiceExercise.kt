@@ -1,7 +1,7 @@
 package dev.sethan8r.grammar.app.data.local.content.entity.exercise
 
 import androidx.room.Entity
-import dev.sethan8r.grammar.app.domain.model.ChoiceType
+import dev.sethan8r.grammar.app.domain.model.exercise.ChoiceType
 
 /**
  * Упражнение с выбором варианта: CHOICE / FORWARD_CHOICE / REVERSE_CHOICE (различает `choiceType`).

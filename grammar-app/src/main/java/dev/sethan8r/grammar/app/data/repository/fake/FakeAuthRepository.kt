@@ -1,7 +1,7 @@
 package dev.sethan8r.grammar.app.data.repository.fake
 
-import dev.sethan8r.grammar.app.domain.model.ApiResult
-import dev.sethan8r.grammar.app.domain.model.AuthSession
+import dev.sethan8r.grammar.app.domain.model.common.ApiResult
+import dev.sethan8r.grammar.app.domain.model.auth.AuthSession
 import dev.sethan8r.grammar.app.domain.repository.AuthRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

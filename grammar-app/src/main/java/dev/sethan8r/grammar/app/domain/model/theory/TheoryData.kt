@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model
+package dev.sethan8r.grammar.app.domain.model.theory
 
 /**
  * Сырое объединение источников дерева теории (content.db + прогресс из user.db), которое

@@ -1,7 +1,7 @@
 package dev.sethan8r.grammar.app.data.local.user.entity
 
 import androidx.room.Entity
-import dev.sethan8r.grammar.app.domain.model.WordTable
+import dev.sethan8r.grammar.app.domain.model.exercise.WordTable
 
 /**
  * Состояние изучения слова — единый источник правды для всех трёх словарей (course/irregular/words8r).

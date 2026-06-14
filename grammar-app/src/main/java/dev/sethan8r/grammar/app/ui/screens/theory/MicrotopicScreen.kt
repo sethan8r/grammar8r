@@ -31,8 +31,8 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.R
-import dev.sethan8r.grammar.app.domain.model.Example
-import dev.sethan8r.grammar.app.domain.model.TheoryCard
+import dev.sethan8r.grammar.app.domain.model.theory.Example
+import dev.sethan8r.grammar.app.domain.model.theory.TheoryCard
 import dev.sethan8r.grammar.app.ui.components.BackTopBar
 import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.components.SegmentedProgressBar

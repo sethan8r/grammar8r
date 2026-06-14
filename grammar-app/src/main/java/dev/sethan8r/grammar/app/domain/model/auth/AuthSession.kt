@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model
+package dev.sethan8r.grammar.app.domain.model.auth
 
 /**
  * Доменная сессия пользователя — то, что хранит

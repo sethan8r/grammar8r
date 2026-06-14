@@ -1,9 +1,9 @@
 package dev.sethan8r.grammar.app.data.repository.fake
 
-import dev.sethan8r.grammar.app.domain.model.ApiResult
-import dev.sethan8r.grammar.app.domain.model.ClarificationAnswer
-import dev.sethan8r.grammar.app.domain.model.ExerciseEvaluation
-import dev.sethan8r.grammar.app.domain.model.GeneratedExercise
+import dev.sethan8r.grammar.app.domain.model.common.ApiResult
+import dev.sethan8r.grammar.app.domain.model.exercise.ClarificationAnswer
+import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseEvaluation
+import dev.sethan8r.grammar.app.domain.model.exercise.GeneratedExercise
 import dev.sethan8r.grammar.app.domain.repository.AiExerciseRepository
 import javax.inject.Inject
 import javax.inject.Singleton

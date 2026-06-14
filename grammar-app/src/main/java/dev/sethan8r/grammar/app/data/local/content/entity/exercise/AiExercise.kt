@@ -3,7 +3,7 @@ package dev.sethan8r.grammar.app.data.local.content.entity.exercise
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import dev.sethan8r.grammar.app.domain.model.AiExerciseWordsSource
+import dev.sethan8r.grammar.app.domain.model.exercise.AiExerciseWordsSource
 import dev.sethan8r.grammar.shared.AiExerciseInputMode
 
 /**

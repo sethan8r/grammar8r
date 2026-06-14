@@ -20,8 +20,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import dev.sethan8r.grammar.app.domain.model.CalloutVariant
-import dev.sethan8r.grammar.app.domain.model.TheoryBlock
+import dev.sethan8r.grammar.app.domain.model.theory.CalloutVariant
+import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen

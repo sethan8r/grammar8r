@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model
+package dev.sethan8r.grammar.app.domain.model.theory
 
 /**
  * Карточка теории в доменном виде — то, что листает пользователь внутри микротемы.

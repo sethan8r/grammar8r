@@ -1,7 +1,7 @@
 package dev.sethan8r.grammar.app.domain.repository
 
-import dev.sethan8r.grammar.app.domain.model.ApiResult
-import dev.sethan8r.grammar.app.domain.model.AuthSession
+import dev.sethan8r.grammar.app.domain.model.common.ApiResult
+import dev.sethan8r.grammar.app.domain.model.auth.AuthSession
 import kotlinx.coroutines.flow.Flow
 
 /**

@@ -3,7 +3,7 @@ package dev.sethan8r.grammar.app.data.local.content.entity.exercise
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import dev.sethan8r.grammar.app.domain.model.HardcodedExerciseType
+import dev.sethan8r.grammar.app.domain.model.exercise.HardcodedExerciseType
 
 /**
  * Индекс упражнений карточки: какие упражнения и в каком порядке показывать.

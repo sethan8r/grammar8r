@@ -34,8 +34,8 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.R
-import dev.sethan8r.grammar.app.domain.model.TheoryListItem
-import dev.sethan8r.grammar.app.domain.model.TopicSummary
+import dev.sethan8r.grammar.app.domain.model.theory.TheoryListItem
+import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
 import dev.sethan8r.grammar.app.ui.components.DualTitle
 import dev.sethan8r.grammar.app.ui.components.InfoBubble
 import dev.sethan8r.grammar.app.ui.theme.Accent

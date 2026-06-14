@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model
+package dev.sethan8r.grammar.app.domain.model.exercise
 
 /**
  * Подтип упражнения с выбором варианта внутри таблицы `multiple_choice_exercises`.

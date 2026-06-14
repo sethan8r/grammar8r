@@ -1,9 +1,9 @@
 package dev.sethan8r.grammar.app.domain.usecase
 
-import dev.sethan8r.grammar.app.domain.model.TheoryData
-import dev.sethan8r.grammar.app.domain.model.TheoryListItem
-import dev.sethan8r.grammar.app.domain.model.TheoryTopic
-import dev.sethan8r.grammar.app.domain.model.TopicSummary
+import dev.sethan8r.grammar.app.domain.model.theory.TheoryData
+import dev.sethan8r.grammar.app.domain.model.theory.TheoryListItem
+import dev.sethan8r.grammar.app.domain.model.theory.TheoryTopic
+import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
 import dev.sethan8r.grammar.app.domain.repository.TheoryRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map

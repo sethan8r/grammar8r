@@ -1,6 +1,6 @@
 package dev.sethan8r.grammar.app.domain.repository
 
-import dev.sethan8r.grammar.app.domain.model.Entitlements
+import dev.sethan8r.grammar.app.domain.model.subscription.Entitlements
 import kotlinx.coroutines.flow.Flow
 
 /**
