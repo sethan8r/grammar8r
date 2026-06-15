@@ -135,7 +135,7 @@ private fun CardPage(card: TheoryCard, isCompleted: Boolean, onPrimary: () -> Un
         MarkdownText(
             text = card.title,
             modifier = Modifier.fillMaxWidth(),
-            color = Accent,
+            color = TextPrimary,
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center,

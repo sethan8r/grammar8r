@@ -40,7 +40,7 @@ object Dimens {
     val tableCellMinWidth = 96.dp
 
     /** Высота сегмента полосы прогресса карточек. */
-    val progressBarHeight = 6.dp
+    val progressBarHeight = 4.dp
 
     /** Максимальная ширина всплывающего облачка с описанием. */
     val bubbleMaxWidth = 280.dp

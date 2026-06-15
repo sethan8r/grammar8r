@@ -1931,15 +1931,15 @@
             {
               "type": "paragraph",
               "text": "**Its vs. it's.** Это разные слова, хотя звучат одинаково!"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "`Its` (без апострофа) — притяжательное: \"The cat licks **its** paws.\" (Кот лижет свои лапы.)",
+                "`It's` (с апострофом) = it is: \"**It's** cold today.\" (Сегодня холодно.)"
+              ]
             }
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "`its` (без апострофа) — притяжательное: \"The cat licks **its** paws.\" (Кот лижет свои лапы.)",
-            "`it's` (с апострофом) = it is: \"**It's** cold today.\" (Сегодня холодно.)"
           ]
         },
         {
@@ -1954,16 +1954,16 @@
             {
               "type": "paragraph",
               "text": "**Their, there, they're.** Три слова — одно произношение [ðer], три разных значения:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "`Their` — притяжательное: \"**their** house\" (их дом)",
+                "`There` — место: \"over **there**\" (вон там)",
+                "`They're` — they are: \"**They're** at home.\" (Они дома.)"
+              ]
             }
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "`their` — притяжательное: \"**their** house\" (их дом)",
-            "`there` — место: \"over **there**\" (вон там)",
-            "`they're` — they are: \"**They're** at home.\" (Они дома.)"
           ]
         },
         {
@@ -3628,15 +3628,15 @@
             {
               "type": "paragraph",
               "text": "Это разные слова!"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"**Beside** the door\" = рядом с дверью (место)",
+                "\"**Besides** that\" = кроме того, помимо этого (связующее слово)"
+              ]
             }
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "\"**beside** the door\" = рядом с дверью (место)",
-            "\"**besides** that\" = кроме того, помимо этого (связующее слово)"
           ]
         },
         {
@@ -6318,17 +6318,17 @@
             {
               "type": "paragraph",
               "text": "По-русски мы говорим \"в три часа\" — предлог \"в\". Мозг переносит \"in\" или \"on\" в английский:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"The class starts **in** 9 am.\" ✗",
+                "\"See you **on** 6 pm.\" ✗",
+                "\"The class starts **at** 9 am.\" ✓",
+                "\"See you **at** 6 pm.\" ✓"
+              ]
             }
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "\"The class starts **in** 9 am.\" ✗",
-            "\"See you **on** 6 pm.\" ✗",
-            "\"The class starts **at** 9 am.\" ✓",
-            "\"See you **at** 6 pm.\" ✓"
           ]
         },
         {

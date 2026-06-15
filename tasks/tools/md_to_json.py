@@ -127,8 +127,16 @@ def parse_theory(body):
                     inline_parts.append(after)
                 j += 1
                 if inline_parts:
-                    # тело прямо в строке -> один абзац
+                    # тело прямо в строке -> абзац. Плюс: если СРАЗУ под ярлыком (без пустой
+                    # строки) идёт список или таблица — это продолжение тела плашки, впитываем
+                    # её в тот же callout (иначе список «вываливается» из фрейма). Обычный абзац
+                    # после пустой строки сюда не попадает — он остаётся отдельным блоком.
                     body_blocks = [{'type': 'paragraph', 'text': ' '.join(inline_parts).strip()}]
+                    if j < len(body) and body[j].strip() and (
+                        is_table_line(body[j]) or re.match(r'^\s*([-*]|\d+\.)\s+', body[j])
+                    ):
+                        more_blocks, j = absorb_block(body, j)
+                        body_blocks.extend(more_blocks)
                 else:
                     # ярлык на отдельной строке (**Ловушки:** / **Формула:**) — впитываем следующий
                     # блок (список/таблицу/абзац, в т.ч. жирный) и парсим его как тело плашки.
