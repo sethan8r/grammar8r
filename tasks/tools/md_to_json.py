@@ -36,6 +36,27 @@ def variant_for(label):
         return 'formula'
     return 'note'
 
+def cap_first(text):
+    """Поднять в заглавную первую БУКВУ (рус/лат), пропустив ведущие markdown-маркеры
+    (`*`, `_`), пробелы, пунктуацию и символы (`≠`, `→` и т.п.). Остальной текст не трогаем.
+    Идемпотентно: уже заглавная остаётся заглавной."""
+    for i, ch in enumerate(text):
+        if ch.isalpha():
+            return text[:i] + ch.upper() + text[i + 1:]
+    return text
+
+def capitalize_body(blocks):
+    """Капитализировать первую букву в теле плашки: абзацы, мини-заголовки и КАЖДЫЙ пункт
+    списка. Ячейки таблиц и вложенные плашки не трогаем (структурные данные). Мутирует и
+    возвращает тот же список (удобно оборачивать прямо в месте сборки callout)."""
+    for b in blocks:
+        t = b.get('type')
+        if t in ('paragraph', 'heading'):
+            b['text'] = cap_first(b['text'])
+        elif t == 'list':
+            b['items'] = [cap_first(it) for it in b['items']]
+    return blocks
+
 def is_table_line(s):
     return s.lstrip().startswith('|')
 
@@ -97,7 +118,7 @@ def parse_theory(body):
             after = bm.group(2).strip()
             lm = re.match(r'^([^:]+):\s*(.*)$', bold_inner)
             if lm and variant_for(lm.group(1)) != 'note':
-                label = lm.group(1).strip()
+                label = cap_first(lm.group(1).strip())
                 title = lm.group(2).strip()          # мини-заголовок (был внутри болда)
                 inline_parts = []
                 if title:
@@ -113,7 +134,7 @@ def parse_theory(body):
                     # блок (список/таблицу/абзац, в т.ч. жирный) и парсим его как тело плашки.
                     body_blocks, j = absorb_block(body, j)
                 blocks.append({'type': 'callout', 'variant': variant_for(label),
-                               'label': label, 'blocks': body_blocks})
+                               'label': label, 'blocks': capitalize_body(body_blocks)})
                 continue
             if not after:
                 # вся строка в болде, не плашка → подзаголовок секции
@@ -128,9 +149,10 @@ def parse_theory(body):
         # Ярлык ≤ 3 слов и относится к плашке (Кстати/Ловушка/Важно/...), иначе это проза с двоеточием.
         pm = re.match(r'^([^:*]{1,40}?):\s+(.+)$', s)
         if pm and variant_for(pm.group(1)) != 'note' and len(pm.group(1).split()) <= 3:
-            label = pm.group(1).strip()
+            label = cap_first(pm.group(1).strip())
             blocks.append({'type': 'callout', 'variant': variant_for(label), 'label': label,
-                           'blocks': [{'type': 'paragraph', 'text': pm.group(2).strip()}]})
+                           'blocks': capitalize_body(
+                               [{'type': 'paragraph', 'text': pm.group(2).strip()}])})
             j += 1
             continue
         blocks.append({'type': 'paragraph', 'text': s})

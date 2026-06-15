@@ -4,13 +4,10 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
@@ -19,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.domain.model.theory.CalloutVariant
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
@@ -140,32 +138,39 @@ private fun CalloutBlock(block: TheoryBlock.Callout) {
     }
     val monospace = if (block.variant == CalloutVariant.FORMULA) FontFamily.Monospace else null
 
-    Row(
+    Column(
         modifier = Modifier
             .fillMaxWidth()
-            .height(IntrinsicSize.Min)
             .clip(RoundedCornerShape(Dimens.cornerCard))
             .background(CardBackground),
     ) {
-        Box(
-            modifier = Modifier
-                .width(Dimens.calloutAccentBar)
-                .fillMaxHeight()
-                .background(accentColor),
-        )
+        // Шапка плашки: ярлык по центру + цветная полоса-разделитель (того же цвета варианта).
+        if (block.label.isNotBlank()) {
+            MarkdownText(
+                text = block.label,
+                color = accentColor,
+                fontWeight = FontWeight.Bold,
+                fontSize = 16.sp,
+                textAlign = TextAlign.Center,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = Dimens.cardPadding)
+                    .padding(top = Dimens.cardPadding, bottom = Dimens.spaceSmall),
+            )
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = Dimens.calloutDividerInset)
+                    .height(Dimens.calloutDividerThickness)
+                    .clip(RoundedCornerShape(percent = 50))
+                    .background(accentColor),
+            )
+        }
+        // Тело плашки — вложенные блоки (абзацы/список/таблица).
         Column(
-            modifier = Modifier.weight(1f).padding(Dimens.cardPadding),
+            modifier = Modifier.fillMaxWidth().padding(Dimens.cardPadding),
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
         ) {
-            if (block.label.isNotBlank()) {
-                MarkdownText(
-                    text = block.label,
-                    color = accentColor,
-                    fontWeight = FontWeight.Bold,
-                    fontSize = 14.sp,
-                )
-            }
-            // Тело плашки — вложенные блоки (абзацы/список/таблица).
             block.blocks.forEach { CalloutBodyBlock(it, monospace) }
         }
     }
