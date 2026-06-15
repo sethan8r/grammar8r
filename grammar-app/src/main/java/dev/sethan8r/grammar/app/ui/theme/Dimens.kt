@@ -9,6 +9,8 @@ import androidx.compose.ui.unit.dp
 object Dimens {
 
     // Отступы (8-point grid)
+    /** Плотный инсет вне 8-grid (осознанно) — для тесных чипов/бейджей (фрейм ID карточки). */
+    val spaceMicro = 2.dp
     val spaceTiny = 4.dp
     val spaceSmall = 8.dp
     val spaceMedium = 12.dp
@@ -23,6 +25,7 @@ object Dimens {
     val cardPadding = 16.dp
 
     // Скругления
+    val cornerSmall = 4.dp
     val cornerButton = 12.dp
     val cornerCard = 16.dp
     val cornerLarge = 24.dp
@@ -41,6 +44,12 @@ object Dimens {
 
     /** Высота сегмента полосы прогресса карточек. */
     val progressBarHeight = 4.dp
+
+    /** Высота зоны тапа по полосе прогресса (вся полоса = одна тач-область, индекс — из X). */
+    val progressBarTouchHeight = 22.dp
+
+    /** Диаметр точки-маркера текущей карточки (у левого края её деления, как stop-indicator). */
+    val progressBarDot = 4.dp
 
     /** Максимальная ширина всплывающего облачка с описанием. */
     val bubbleMaxWidth = 280.dp

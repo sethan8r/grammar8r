@@ -9,15 +9,20 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Subject
+import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Bookmarks
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.GetApp
+import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Publish
+import androidx.compose.material.icons.filled.Tune
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -42,7 +47,13 @@ fun MenuScreen() {
         )
         Spacer(Modifier.height(24.dp))
 
+        MenuButton(stringResource(R.string.menu_profile), Icons.Filled.AccountCircle) {}
+        Spacer(Modifier.height(12.dp))
+
         MenuButton(stringResource(R.string.menu_add_word), Icons.Filled.Add) {}
+        Spacer(Modifier.height(12.dp))
+
+        MenuButton(stringResource(R.string.menu_dictionary), ImageVector.vectorResource(R.drawable.ic_book_5)) {}
         Spacer(Modifier.height(12.dp))
 
         MenuButton(stringResource(R.string.menu_backup), Icons.Filled.Publish) {}
@@ -51,7 +62,13 @@ fun MenuScreen() {
         MenuButton(stringResource(R.string.menu_restore), Icons.Filled.GetApp) {}
         Spacer(Modifier.height(12.dp))
 
-        MenuButton(stringResource(R.string.menu_my_words), Icons.Filled.Bookmarks) {}
+        MenuButton(stringResource(R.string.menu_hint_limit), Icons.Filled.Edit) {}
+        Spacer(Modifier.height(12.dp))
+
+        MenuButton(stringResource(R.string.menu_notifications), Icons.Filled.Notifications) {}
+        Spacer(Modifier.height(12.dp))
+
+        MenuButton(stringResource(R.string.menu_settings), Icons.Filled.Tune) {}
         Spacer(Modifier.height(12.dp))
 
         MenuButton(stringResource(R.string.menu_support), Icons.Filled.Email) {}

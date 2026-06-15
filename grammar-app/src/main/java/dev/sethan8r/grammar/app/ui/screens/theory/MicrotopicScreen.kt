@@ -24,6 +24,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.PlatformTextStyle
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -34,12 +36,15 @@ import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.theory.Example
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryCard
 import dev.sethan8r.grammar.app.ui.components.BackTopBar
+import dev.sethan8r.grammar.app.ui.components.CenteredHint
+import dev.sethan8r.grammar.app.ui.components.LoadingIndicator
 import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.components.SegmentedProgressBar
 import dev.sethan8r.grammar.app.ui.components.TheoryBlocks
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
+import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
@@ -62,8 +67,11 @@ fun MicrotopicScreen(
         BackTopBar(title = uiState.title.substringBefore(" · "), onBack = onBack)
 
         when {
-            uiState.isLoading -> CenteredHint(stringResource(R.string.theory_loading))
-            uiState.cards.isEmpty() -> CenteredHint(stringResource(R.string.theory_empty))
+            uiState.isLoading -> LoadingIndicator(Modifier.fillMaxSize())
+            uiState.cards.isEmpty() -> CenteredHint(
+                stringResource(R.string.theory_empty),
+                Modifier.fillMaxSize(),
+            )
             else -> CardPager(
                 cards = uiState.cards,
                 completedCardIds = uiState.completedCardIds,
@@ -92,15 +100,38 @@ private fun CardPager(
         ) {
             SegmentedProgressBar(
                 total = cards.size,
-                filledCount = pagerState.currentPage + 1,
+                currentIndex = pagerState.currentPage,
                 modifier = Modifier.weight(1f),
+                // Тап — мгновенный переход (без анимации). Запрет перепрыгивания (completion-based):
+                // доступна любая ПРОЙДЕННАЯ карточка (назад) + первая непройденная («следующая на
+                // очереди»). Дальше неё — нельзя, пока карточка не засчитана в БД (Шаг F).
+                onSegmentClick = { index ->
+                    val frontier = cards.indexOfFirst { it.id !in completedCardIds }
+                    val reachable = cards[index].id in completedCardIds || index == frontier
+                    if (reachable) {
+                        scope.launch { pagerState.scrollToPage(index) }
+                    }
+                },
             )
-            // ID текущей карточки — ненавязчиво, для тестирования и фидбека по конкретной карточке.
-            Text(
-                text = stringResource(R.string.theory_card_id, cards[pagerState.currentPage].id),
-                color = TextSecondary,
-                fontSize = 12.sp,
-            )
+            // ID текущей карточки — в маленьком закруглённом фрейме (фон как у таблиц).
+            // Пройденная карточка → фрейм зелёный.
+            val currentId = cards[pagerState.currentPage].id
+            val idCompleted = currentId in completedCardIds
+            Box(
+                modifier = Modifier
+                    .clip(RoundedCornerShape(Dimens.cornerSmall))
+                    .background(if (idCompleted) CorrectGreen else CardBackground)
+                    .padding(horizontal = Dimens.spaceTiny, vertical = Dimens.spaceMicro),
+            ) {
+                Text(
+                    text = stringResource(R.string.theory_card_id, currentId),
+                    color = if (idCompleted) TextPrimary else TextSecondary,
+                    fontSize = 12.sp,
+                    lineHeight = 12.sp,
+                    // Убираем «свинцовый» отступ шрифта — фрейм по высоте облегает текст плотнее.
+                    style = TextStyle(platformStyle = PlatformTextStyle(includeFontPadding = false)),
+                )
+            }
         }
         HorizontalPager(
             state = pagerState,
@@ -208,12 +239,5 @@ private fun CardActions(isCompleted: Boolean, onPrimary: () -> Unit) {
                 Text(text = stringResource(R.string.theory_go_to_ai_exercise))
             }
         }
-    }
-}
-
-@Composable
-private fun CenteredHint(text: String) {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text(text = text, color = TextSecondary)
     }
 }

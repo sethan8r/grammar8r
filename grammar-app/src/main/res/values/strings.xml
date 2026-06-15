@@ -26,10 +26,14 @@
 
     <!-- Меню -->
     <string name="menu_title">МЕНЮ</string>
+    <string name="menu_profile">ПРОФИЛЬ</string>
     <string name="menu_add_word">ДОБАВИТЬ СЛОВО</string>
     <string name="menu_backup">СДЕЛАТЬ БЕКАП</string>
     <string name="menu_restore">ВОССТАНОВИТЬ ПРОГРЕСС</string>
-    <string name="menu_my_words">МОИ СЛОВА</string>
+    <string name="menu_dictionary">СЛОВАРЬ</string>
+    <string name="menu_hint_limit">ОГРАНИЧЕНИЕ ПОДСКАЗОК</string>
+    <string name="menu_notifications">УВЕДОМЛЕНИЯ</string>
+    <string name="menu_settings">НАСТРОЙКИ</string>
     <string name="menu_support">ПОДДЕРЖКА</string>
     <string name="menu_about">О ПРИЛОЖЕНИИ</string>
 </resources>
