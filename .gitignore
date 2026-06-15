@@ -16,5 +16,15 @@ grammar-app/.idea/
 grammar-server/.idea/
 grammar-shared/.idea/
 
-# content.db — build-артефакт, собирается json_to_db.py из JSON-сидов (Шаг C). Схемы — коммитим.
-grammar-app/src/main/assets/content.db
+# Kotlin compiler caches
+.kotlin/
+
+# Python: байткод-кэш и временные дампы скриптов-проверок (tasks/tools)
+**/__pycache__/
+*.pyc
+_smell.txt
+_deep.txt
+
+# Локальные базы. content.db — build-артефакт (собирается json_to_db.py из JSON-сидов,
+# Шаг C). words8r.db — локальный дамп слов. Схемы Room коммитим, сами .db — нет.
+*.db

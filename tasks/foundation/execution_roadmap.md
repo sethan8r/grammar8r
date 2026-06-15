@@ -199,7 +199,7 @@
 - Перед кодом — план в чате, дождаться «пиши». Вести `decision_log.md`.
 - Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
 
-### 🟦 Шаг E. Читалка теории  🟡 Fable-only (по provisional)  ⭐ — КОД ГОТОВ, идёт ОБКАТКА
+### ✅ Шаг E. Читалка теории  🟡 Fable-only (по provisional)  ⭐ — ГОТОВО (обкатано 14.06.2026)
 - ✅ Реализовано (сборка зелёная, без варнингов, 2026-06-14):
   - domain-модели: `TheoryBlock`(sealed)+`CalloutVariant`, `TheoryCard`/`Example`, `TheoryListItem`/
     `TopicSummary`/`MicrotopicSummary`+`MicrotopicState`(enum), `TheoryData`.
@@ -210,12 +210,22 @@
     `MicrotopicRoute` в `MainActivity`. Рендер блоков — `ui/components/TheoryBlockView.kt`; инлайн
     `**…**`/`*…*` + вердикт ✓/✗ векторными иконками — `ui/components/InlineMarkdown.kt`. `BackTopBar`.
   - токены `ui/theme/Dimens.kt` + `IncorrectRed`; dep `lifecycle-runtime-compose`. Слоты Фазы 3 — задизейблены.
-- ⏳ ОСТАЛОСЬ (DoD): **обкатка реального `basics.json` на устройстве вместе с пользователем** —
-  смотреть рендер 70 карточек; где формат не бьётся → правки `md_to_json.py`/формата + напомнить
-  пересобрать сид (`py check.py`). По итогу — пометить «формат обкатан».
-- **DoD:** теория из реального сида рендерится корректно; пользователь посмотрел карточки.
-- **Очистка контекста:** после обкатки. **decision_log:** ✅ записан (раздел «Шаг E»).
-- **Self-prompt:** обновить под F1 в конце обкатки.
+- ✅ ОБКАТАНО на устройстве (правки по фидбеку, всё в коде + планах):
+  - **callout = вложенные блоки** (`Callout.blocks`, не строка) — в плашку лезут списки/таблицы; 3 формы
+    записи + plain-text «Кстати:». **`divider`** из `paragraph "---"` (в маппере). Вердикт ✓/✗ и стрелки
+    `→` — векторные иконки Material (`InlineMarkdown`/`MarkdownText`).
+  - двойные имена микротем `EN · RU` (`DualTitle`; в шапке карточки — только EN); раздел = сворачиваемый
+    фрейм + `InfoBubble` (попап-описание); `SegmentedProgressBar`; стрелка «Назад» белая; ID карточки в углу.
+  - карточки НЕ свайпаются; низ карточки — система кнопок (Не совсем понял / Перейти к заданиям /
+    Перейти к умному заданию); content.db debug-авто-рефреш в `DatabaseModule`.
+  - `domain/model/` разнесён по подпакетам (theory/exercise/auth/subscription/progress/dictionary/common);
+    правило «пакеты по смыслу» добавлено в CLAUDE.md.
+  - конвейер `md_to_json.py` (3 формы плашек), `theory_content_guide.md` §8/§2, `db_schema.md`,
+    `exercise_templates.md`, `verify_dump.py` — синхронизированы. `check.py` зелёный по всем 5 темам.
+- **DoD выполнен:** теория из реального сида рендерится корректно; пользователь прошёлся по карточкам.
+- **decision_log:** раздел «Шаг E» (включая callout→blocks, divider в маппере). **Очистка контекста:** ✅ да.
+
+**Self-prompt для следующей сессии (Шаг F1):** развёрнут в `_next_session_prompt.md` (переписан под F1).
 
 ### ⬜ Шаг F1. Ядро движка упражнений  🟡 Fable-only (по provisional)  ⭐
 - Экран упражнения: scaffold (X из N, кнопка `?` с theorySummary, ID упражнения в углу, слот
