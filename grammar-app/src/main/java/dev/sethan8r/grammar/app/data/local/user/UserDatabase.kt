@@ -13,9 +13,9 @@ import dev.sethan8r.grammar.app.data.local.user.entity.DailyStats
 import dev.sethan8r.grammar.app.data.local.user.entity.DictionaryCache
 import dev.sethan8r.grammar.app.data.local.user.entity.FavoriteAiExercise
 import dev.sethan8r.grammar.app.data.local.user.entity.UserAiExerciseStats
-import dev.sethan8r.grammar.app.data.local.user.entity.UserCardHardcodeStats
 import dev.sethan8r.grammar.app.data.local.user.entity.UserCardProgress
 import dev.sethan8r.grammar.app.data.local.user.entity.UserCategorySettings
+import dev.sethan8r.grammar.app.data.local.user.entity.UserExerciseResult
 import dev.sethan8r.grammar.app.data.local.user.entity.UserMicrotopicProgress
 import dev.sethan8r.grammar.app.data.local.user.entity.UserWordProgress
 
@@ -32,7 +32,7 @@ import dev.sethan8r.grammar.app.data.local.user.entity.UserWordProgress
     entities = [
         UserCardProgress::class,
         UserMicrotopicProgress::class,
-        UserCardHardcodeStats::class,
+        UserExerciseResult::class,
         UserAiExerciseStats::class,
         FavoriteAiExercise::class,
         UserWordProgress::class,

@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavDestination.Companion.hasRoute
@@ -19,15 +20,20 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.toRoute
 import dagger.hilt.android.AndroidEntryPoint
 import dev.sethan8r.grammar.app.ui.components.Grammar8rBottomBar
+import dev.sethan8r.grammar.app.ui.navigation.ExerciseSessionRoute
 import dev.sethan8r.grammar.app.ui.navigation.LearnRoute
 import dev.sethan8r.grammar.app.ui.navigation.MenuRoute
 import dev.sethan8r.grammar.app.ui.navigation.MicrotopicRoute
+import dev.sethan8r.grammar.app.ui.navigation.MicrotopicSummaryRoute
 import dev.sethan8r.grammar.app.ui.navigation.PracticeRoute
 import dev.sethan8r.grammar.app.ui.navigation.StatisticsRoute
 import dev.sethan8r.grammar.app.ui.navigation.TopLevelDestination
 import dev.sethan8r.grammar.app.ui.navigation.TopicRoute
+import dev.sethan8r.grammar.app.ui.screens.exercise.ExerciseSessionScreen
+import dev.sethan8r.grammar.app.ui.screens.exercise.MicrotopicSummaryScreen
 import dev.sethan8r.grammar.app.ui.screens.menu.MenuScreen
 import dev.sethan8r.grammar.app.ui.screens.practice.PracticeScreen
 import dev.sethan8r.grammar.app.ui.screens.statistics.StatisticsScreen
@@ -36,6 +42,9 @@ import dev.sethan8r.grammar.app.ui.screens.theory.TheoryScreen
 import dev.sethan8r.grammar.app.ui.screens.theory.TopicScreen
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.Grammar8rTheme
+
+/** Ключ savedStateHandle: id микротемы, к которой нужно проскроллить список после её завершения. */
+private const val FOCUS_MICROTOPIC_KEY = "focusMicrotopicId"
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -97,14 +106,48 @@ fun MainScreen() {
             composable<StatisticsRoute> { StatisticsScreen() }
             composable<MenuRoute> { MenuScreen() }
 
-            composable<TopicRoute> {
+            composable<TopicRoute> { entry ->
+                val focusId by entry.savedStateHandle
+                    .getStateFlow<Int?>(FOCUS_MICROTOPIC_KEY, null)
+                    .collectAsState()
                 TopicScreen(
                     onMicrotopicClick = { id -> navController.navigate(MicrotopicRoute(id)) },
                     onBack = { navController.popBackStack() },
+                    focusMicrotopicId = focusId,
+                    onFocusConsumed = { entry.savedStateHandle[FOCUS_MICROTOPIC_KEY] = null },
                 )
             }
             composable<MicrotopicRoute> {
-                MicrotopicScreen(onBack = { navController.popBackStack() })
+                MicrotopicScreen(
+                    onBack = { navController.popBackStack() },
+                    onStartExercises = { cardId -> navController.navigate(ExerciseSessionRoute(cardId)) },
+                )
+            }
+            composable<ExerciseSessionRoute> {
+                ExerciseSessionScreen(
+                    onFinished = { completion ->
+                        if (completion.microtopicCompleted) {
+                            // Микротема пройдена → экран сводки; сессию и список карточек убираем из стека.
+                            navController.navigate(MicrotopicSummaryRoute(completion.microtopicId)) {
+                                popUpTo<MicrotopicRoute> { inclusive = true }
+                            }
+                        } else {
+                            navController.popBackStack()
+                        }
+                    },
+                    onExit = { navController.popBackStack() },
+                )
+            }
+            composable<MicrotopicSummaryRoute> { entry ->
+                MicrotopicSummaryScreen(
+                    onContinue = {
+                        // Назад в список микротем, наведённый на пройденную (запрос — соседней записи стека).
+                        val microtopicId = entry.toRoute<MicrotopicSummaryRoute>().microtopicId
+                        navController.previousBackStackEntry
+                            ?.savedStateHandle?.set(FOCUS_MICROTOPIC_KEY, microtopicId)
+                        navController.popBackStack()
+                    },
+                )
             }
         }
     }

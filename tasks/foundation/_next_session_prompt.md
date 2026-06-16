@@ -2,131 +2,92 @@
 
 > Скормить в начало новой сессии: «прочитай `tasks/foundation/_next_session_prompt.md` и
 > действуй по нему». Цель — поднять весь контекст без переразбора с нуля.
-> Файл живой: в конце **Шага F1** обновить «что сделано / что дальше» (или заменить на промт F2).
-> **Сейчас на очереди — Шаг F1: ЯДРО движка упражнений (scaffold + делегат-механика ответа +
-> запись прогресса + переход «теория → упражнения») + 1–2 простых типа для сквозного прогона.** ⭐
+> Файл живой: в конце шага обновить «что сделано / что дальше» (или заменить на промт следующего шага).
+> **Сейчас на очереди — Шаг F2: группа «выбор варианта» (остальные типы на готовом движке F1).** ⭐
+> Перед F2 — убедиться, что сборка F1 зелёная и сквозной флоу работает (см. §0.1).
 
 ---
 
 ## 0. Первым делом прочитай (именно в этом порядке)
 
 1. `CLAUDE.md` (корень) — правила: **код только по явной команде «пиши»**, общение по-русски на «Вы».
-   Для F1 критично: **«Навигация» → guard-диалог `PredictiveBackHandler`** (единственное разрешённое
-   исключение перехвата «Назад» — для подтверждения выхода из начатой сессии); **«Повторное
-   прохождение в теории» (АНТИ-ЧИТ)** — статистику/статусы НЕ обнулять; **архитектура/слои** (тонкие
-   ViewModel, логика в UseCase/Repository, общая механика — делегат, не копипаста); **`TranslatableText`**
-   для контентного текста; строки в `strings.xml`; **пакеты группировать по смыслу сразу**.
-2. `tasks/foundation/execution_roadmap.md` — карта A→F, статусы, DoD. A–E помечены ✅; блок **F1** —
-   подробности (+ ключевое: «14 типов сводятся к ~8–9 UI-механикам делегатом, не 14 копипастами»).
-3. `tasks/foundation/decision_log.md` — 🟡-решения. Важное для F1: **Шаг C — `MultipleChoiceExercise`
-   PK составной `(id, choiceType)`** (три трека CHOICE/FORWARD_CHOICE/REVERSE_CHOICE); решения Шага E.
-   **F1 — 🟡, каждое неочевидное решение писать сюда.**
-4. `tasks/phases/phase1/exercise_templates.md` — **ГЛАВНЫЙ источник F1**: форматы всех 14 типов,
-   их DB-схемы, правила `explanation`, и раздел **«❌ Антипаттерны»**.
-5. `tasks/db_schema.md` — `CardExerciseIndex` (порядок упражнений в карточке, `orderInCard`), таблицы
-   12 типов упражнений + `AiExercise`, `UserCardProgress` / `UserMicrotopicProgress` /
-   `UserCardHardcodeStats`, ENUM `HardcodedExerciseType` / `ChoiceType` / `AiExerciseInputMode`.
-6. `tasks/foundation/foundation_plan.md` §7 — закладки: **п.4 (ЕДИНАЯ точка записи прогресса)**,
-   **п.5 (scaffold экрана упражнения)**, п.6 (слоты карточки под Фазу 3).
+   Критично для движка: **«Навигация» → guard `PredictiveBackHandler`** (уже есть общий
+   `ui/components/ExitConfirmationHandler`); **«Повторное прохождение» (АНТИ-ЧИТ)** — `isCompleted` не
+   снимать, счёт `UserCardHardcodeStats` не перезаписывать; **архитектура** (тонкий VM, логика в
+   repo/usecase, общая механика — делегат, не копипаста); `TranslatableText`/`MarkdownText` для контента;
+   **только векторные иконки, никаких символов-текстом**.
+2. `tasks/foundation/execution_roadmap.md` — карта A→F, статусы. **F1 ✅ (написан 16.06)**, блок F2 —
+   список типов. Ключевое: «14 типов сводятся к ~8–9 UI-механикам делегатом, не 14 копипастами».
+3. `tasks/foundation/decision_log.md` — раздел «Шаг F1» (7 решений: дубль `isCompleted` убран;
+   `UserCardHardcodeStats`→`correctFirstTry/total` write-once; `ProgressRepository` — единая запись;
+   `Unsupported`-плашка; делегат+`ChoiceExerciseView` на 3 трека; `AnswerNormalizer`; экран сводки).
+   **F2 — 🟡, каждое неочевидное решение писать сюда.**
+4. `tasks/phases/phase1/exercise_templates.md` — форматы типов + DB-схемы + «❌ Антипаттерны».
+5. `tasks/db_schema.md` — таблицы упражнений, `CardExerciseIndex`, `UserCardProgress`,
+   `UserCardHardcodeStats` (обновлены), ENUM `HardcodedExerciseType`/`ChoiceType`.
 
-Память (MEMORY.md) подтянется сама. Релевантное: вкладка Практика = только AI (не сейчас); тиры —
-разница в лимите/день; «Перейти к умному заданию» — Фаза 3.
+Память (MEMORY.md) подтянется сама.
+
+## 0.1 ⏳ Перед F2 — проверить, что F1 действительно работает
+
+F1 написан, но сборку/прогон делает пользователь сам. В начале сессии спроси/убедись:
+- Сборка `:grammar-app:assembleDebug` зелёная. ⚠️ user.db переэкспортирован (поля
+  `UserCardHardcodeStats` изменены) → на устройстве **снести данные приложения**, иначе Room упадёт
+  (у user.db нет destructive fallback).
+- Сквозной флоу на `basics.json`: теория → «Перейти к заданиям» → выбор варианта / ввод → 2 попытки
+  (1-я ошибка «попробуйте ещё раз»; 2-я — правильный ответ БЕЗ удаления ответа юзера + explanation) →
+  «Далее» → прогресс записан (бар/зелёный фрейм/галочка) → при полном завершении микротемы экран сводки
+  «верно X из N» → «Далее» возвращает в список, наведённый на микротему.
+- Если что-то не так — чинить ДО F2.
 
 ## 1. Что это за проект (коротко)
 
-Grammar8r — Android-приложение для английской грамматики (Compose, Room, Hilt), продакшен-уровень.
-Контент data-driven: теория/упражнения в `content.db` из assets (read-only, собирается при сборке),
-прогресс — в `user.db`. Идёт **Фаза 1 / фундамент**. Реальный AI, Words8r, перевод по тапу,
-монетизация — пока заглушки.
+Grammar8r — Android (Compose, Room, Hilt), продакшен-уровень. Контент data-driven: теория/упражнения в
+`content.db` (read-only, из assets), прогресс — в `user.db`. Идёт **Фаза 1 / фундамент**. Реальный AI,
+Words8r, перевод по тапу, монетизация — заглушки. Корневой пакет `dev.sethan8r.grammar.app`.
 
 ## 2. Дисциплина работы (важно)
 
 - **Никакого кода без явной команды «пиши»/«давай».** Сначала план/описание в чате → ждать.
 - Архитектурные развилки обсуждать с мнением/рекомендацией, **НЕ давать multiple-choice**.
-- Диагностические read-only скрипты — кратко описать и сразу запускать (не ждать «да»).
-- В конце шага: зелёная сборка → отметить в roadmap → обновить ЭТОТ файл → decision_log (🟡) →
-  «контекст можно чистить».
+- Диагностические read-only скрипты — кратко описать и сразу запускать.
+- **Только векторные иконки** (Material, `material-icons-extended` подключён) — никаких символов текстом.
+- Сборку гонит пользователь сам (не запускать gradle assemble автоматически).
+- В конце шага: roadmap → этот файл → decision_log (🟡) → «контекст можно чистить».
 
-## 3. Что УЖЕ СДЕЛАНО — Шаги A, B, C, D1, D2, E ✅
+## 3. Что готово к F2 — движок F1 (на нём сидят все типы)
 
-- **A–D2** — каркас+DI; Room 2 БД (content.db 22 Entity `entity/{theory,exercise,word}/`, user.db 10);
-  сидинг `json_to_db.py` + Gradle `generateContentDb`; type-safe навигация (4 таба, белый список);
-  `TranslatableText`; серверные заглушки (`Fake*`) + DTO в `grammar-shared`, dev/prod через `@DebugBuild`.
-  Корневой пакет `dev.sethan8r.grammar.app`.
-- **E — читалка теории ✅ (написана и плотно обкатана):**
-  - Экраны: `TheoryScreen` (разделы/темы + прогресс, раздел = **сворачиваемый фрейм** + кнопка «i»
-    `InfoBubble` с попапом-описанием) → `TopicScreen` (микротемы) → `MicrotopicScreen` (карточки).
-    Роуты `TopicRoute(topicId)` / `MicrotopicRoute(microtopicId)` в `MainActivity`.
-  - Рендер блоков — `ui/components/TheoryBlockView.kt`: `paragraph/heading/list/table/callout/divider`.
-    **`callout` тело = вложенные блоки** (`Callout.blocks`), **`divider`** — из `paragraph "---"` в маппере.
-    Инлайн `**`/`*` + вердикт `✓/✗` и стрелки `→` — **векторные иконки Material** через
-    `ui/components/{InlineMarkdown,MarkdownText}.kt` (правило №0 — эту же утилиту переиспользует движок
-    упражнений!).
-  - Данные: `TheoryRepository`(+Impl, combine content+user) · `GetTheoryListUseCase` · `TheoryContentMapper`
-    (разбор JSON; callout→blocks; `---`→Divider).
-  - Компоненты: `BackTopBar` (стрелка белая), `DualTitle` (двойное имя `EN · RU`, EN жирным/RU серым),
-    `SegmentedProgressBar`, `InfoBubble`. Микротемы — двойные имена `EN · RU` (в шапке карточки — **только EN**).
-  - **Карточки НЕ свайпаются.** Низ карточки — система кнопок: «Не совсем понял» (Фаза 3, disabled) →
-    **«Перейти к заданиям»** (СЕЙЧАС просто листает к следующей карточке — заглушка, F1 заменит на
-    переход в упражнения) → «Перейти к умному заданию» (только если карточка пройдена; Фаза 3, disabled).
-    ID карточки — мелким серым в углу (`theory_card_id`).
-  - `domain/model/` разнесён по подпакетам: `theory/ exercise/ auth/ subscription/ progress/ dictionary/ common/`.
-  - `ui/theme/Dimens.kt` (8-grid токены) + `IncorrectRed`; dep `lifecycle-runtime-compose`;
-    **`DatabaseModule` в debug удаляет старый `content.db`** (авто-рефреш контента без переустановки).
-  - Конвейер: `md_to_json.py` распознаёт 3 формы плашек + plain-text «Кстати:»; правила в
-    `theory_content_guide.md` §8 (плашки — активно использовать) + §2 (двойные имена). `check.py`
-    зелёный по всем 5 theory-файлам. `db_schema.md`/`exercise_templates.md`/`verify_dump.py` синхронизированы.
-  - decision_log: раздел «Шаг E» (callout→blocks; divider в маппере; и др.).
+- **Сессия:** `ui/screens/exercise/ExerciseSessionScreen` + `ExerciseSessionViewModel` (тонкий) +
+  `AnswerDelegate` (фазы ANSWERING/WRONG_FIRST/CORRECT/REVEALED, 2 попытки). Роут `ExerciseSessionRoute`.
+- **Рендереры:** `ui/components/exercise/` — `ChoiceExerciseView` (3 трека выбора варианта),
+  `TextInputExerciseView`, `UnsupportedExerciseView` (плашка). **F2 добавляет новые рендереры сюда** и
+  заводит их в `when(exercise)` сессии + в `ExerciseRepositoryImpl` (маппинг типа).
+- **Домен:** `Exercise` (sealed) в `domain/model/exercise/` — добавлять варианты тут. `ExerciseAnswer`
+  (SingleChoice/TextAnswers — при новых механиках расширять). `ExerciseEvaluator` (проверка),
+  `AnswerNormalizer` (сокращения).
+- **Данные:** `ExerciseRepository`(+Impl), `ExerciseContentMapper` (JSON→domain).
+- **Прогресс:** `ProgressRepository.completeCard(...)` — единая запись, не трогать в обход.
+- **Сводка:** `MicrotopicSummaryScreen` (хардкод «X из N»; AI — Фаза 3).
 
-## 4. Что делать ДАЛЬШЕ — Шаг F1 (ядро движка упражнений) 🟡 ⭐
+## 4. Что делать ДАЛЬШЕ — Шаг F2 (группа «выбор варианта») 🟡 ⭐
 
-Сначала **описать план в чате и дождаться «пиши»**. Суть F1 — общий каркас и механика упражнения,
-на которые потом сядут все 14 типов; + 1–2 простых типа для сквозного прогона на реальном `basics.json`.
-
-### 4.1 Экран/сессия упражнений (scaffold — закладка §7 п.5)
-- Новый **type-safe роут сессии** (полноэкранный, без навбара), аргумент — id карточки (или микротемы).
-- Scaffold: прогресс «X из N», кнопка **`?`** → `theorySummary` карточки (поповер/`AlertDialog`),
-  **ID упражнения** мелким курсивом в углу, слот **«объяснение при неверном ответе»**.
-- **Guard-диалог выхода** (CLAUDE «Навигация», единственное исключение): начатая сессия = несохранённый
-  прогресс → `PredictiveBackHandler` + **общий компонент-обёртка в `ui/components/`** (реализовать ОДИН раз,
-  переиспользовать). Подтвердил → обычный `popBackStack()`.
-
-### 4.2 Делегат-механика «ответ на карточку-задание»
-- Общий класс-делегат со своим `StateFlow` (попытки, состояние ответа, верно/неверно, фидбек), который
-  **включается композицией** во ViewModel сессии и переиспользуется всеми типами — НЕ копипаста между
-  типами и не наследование. «Далее» открывается ТОЛЬКО после ответа. Решения принимает ViewModel, UI отображает.
-
-### 4.3 Данные упражнений
-- Читать через `ExerciseDao` + `CardExerciseIndex` (`orderInCard` — порядок в карточке), маппить
-  Entity→domain по `HardcodedExerciseType`. ⚠️ `MultipleChoice` — составной PK `(id, choiceType)`
-  (три трека). Сырые JSON-поля (`options/items/...`) разбирать в маппере (как теорию в E).
-
-### 4.4 Запись прогресса — ЕДИНАЯ точка (закладка §7 п.4)
-- Один use case/repository, через который идут ВСЕ записи: `UserCardProgress.isCompleted`,
-  `UserMicrotopicProgress` (когда все карточки пройдены), `UserCardHardcodeStats` (инкремент
-  правильных/неправильных). Разрозненные `dao.update()` из ViewModel — запрещены.
-- ⚠️ **АНТИ-ЧИТ при повторном прохождении** (CLAUDE): статистику и `isCompleted` НЕ обнулять — только
-  инкремент. Диалог «пройти заново» завершённой микротемы — на экране списка карточек (можно заложить здесь).
-
-### 4.5 Переход «теория → упражнения» + первые типы
-- Кнопка **«Перейти к заданиям»** в `MicrotopicScreen` (сейчас заглушка-листание в `CardActions`) →
-  навигация на роут сессии упражнений карточки.
-- Сделать **1–2 простых типа** для сквозного прогона: `MultipleChoice` (CHOICE / FORWARD_CHOICE — выбор
-  варианта) + `TextInput`. Остальные 12 — на F2–F4. Базовый компонент выбора варианта — переиспользуемый.
-
-### DoD / прочее
-- **DoD F1:** сквозной флоу работает на реальном `basics.json`: теория → «Перейти к заданиям» → ответил →
-  фидбек (верно/неверно + объяснение при ошибке) → «Далее» → прогресс записан в user.db.
-- Модели не текут между слоями. ViewModel тонкий. Логика тестируема без Android.
-- **Очистка контекста:** ✅ да. **decision_log.md** (каждое 🟡-решение). **В конце F1:** roadmap (F1 ✅ +
-  self-prompt F2), обновить ЭТОТ файл под **F2**, сказать «контекст можно чистить».
+Сначала **описать план в чате и дождаться «пиши»**. Суть: на готовом движке F1 добавить типы, которые
+сводятся к выбору варианта / близким механикам, переиспользуя `ChoiceExerciseView` где можно:
+**ERROR_CORRECTION** (сломанное EN + 3 варианта — как Choice), **CONSTRUCTION_MEANING** (конструкция +
+4 RU-перевода — Choice), **DIALOG_RESTORE** (диалог + 3 реплики — Choice с особой подачей условия),
+**FIND_THE_ODD** (4 элемента, выбрать лишний — single-select без «prompt с пропуском»).
+- Где можно — тот же `ChoiceExerciseView`/single-select делегат; различие только в подаче условия
+  (Правило №0, не плодить копии). Маппинг типов — в `ExerciseRepositoryImpl`, доменные варианты — в `Exercise`.
+- Проверить на реальном `basics.json` (там есть ERROR_CORRECTION 37, FIND_THE_ODD 13, DIALOG_RESTORE 9,
+  CONSTRUCTION_MEANING 5).
+- **DoD F2:** эти типы проходятся в сессии вживую; плашка `Unsupported` для них больше не появляется.
+- **decision_log** (каждое 🟡). В конце — обновить roadmap (F2 ✅), этот файл под **F3**, «контекст можно чистить».
 
 ## 5. Полезные команды
-- Сборка: `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
-- Python — через `py` (Windows). Тесты теории (`py tools/check.py <файл>`) — ТОЛЬКО по явной команде пользователя.
-- content.db в debug обновляется сам (DatabaseModule чистит старый файл) — переустанавливать не нужно.
+- Сборка (пользователь): `Set-Location E:\AndroidProjects\Grammar8r; .\gradlew.bat :grammar-app:assembleDebug --console=plain`.
+- content.db в debug пересобирается сам; user.db при смене схемы — снести данные приложения.
 
-## 6. Маршрут дальше (детали — в `execution_roadmap.md`)
-E ✅ → **F1** (ядро движка + 1–2 типа) → **F2** (выбор варианта: MULTIPLE_CHOICE/FORWARD_CHOICE/
-REVERSE_CHOICE/ERROR_CORRECTION/CONSTRUCTION_MEANING/DIALOG_RESTORE/FIND_THE_ODD) → **F3** (ввод/сборка:
-WORD_ARRANGEMENT/TRANSFORMATION/TABLE_FILL) → **F4** (интерактивные: MATCHING/TRUE_FALSE/CATEGORIZATION).
+## 6. Маршрут дальше (детали — `execution_roadmap.md`)
+F1 ✅ → **F2** (выбор варианта: ERROR_CORRECTION/CONSTRUCTION_MEANING/DIALOG_RESTORE/FIND_THE_ODD) →
+**F3** (ввод/сборка: WORD_ARRANGEMENT/TRANSFORMATION/TABLE_FILL) → **F4** (интерактивные:
+MATCHING/TRUE_FALSE/CATEGORIZATION — жесты официальным API).

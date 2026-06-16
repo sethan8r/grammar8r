@@ -7,8 +7,8 @@ import androidx.room.Query
 import androidx.room.Upsert
 import dev.sethan8r.grammar.app.data.local.user.entity.FavoriteAiExercise
 import dev.sethan8r.grammar.app.data.local.user.entity.UserAiExerciseStats
-import dev.sethan8r.grammar.app.data.local.user.entity.UserCardHardcodeStats
 import dev.sethan8r.grammar.app.data.local.user.entity.UserCardProgress
+import dev.sethan8r.grammar.app.data.local.user.entity.UserExerciseResult
 import dev.sethan8r.grammar.app.data.local.user.entity.UserMicrotopicProgress
 import kotlinx.coroutines.flow.Flow
 
@@ -35,11 +35,20 @@ interface ProgressDao {
     @Query("SELECT * FROM user_microtopic_progress")
     fun getAllMicrotopicProgress(): Flow<List<UserMicrotopicProgress>>
 
-    @Upsert
-    suspend fun upsertHardcodeStats(stats: UserCardHardcodeStats)
+    /**
+     * Результат упражнения. IGNORE — пишется при ПЕРВОМ ответе и не перезаписывается (анти-чит:
+     * перезаход в карточку не сбрасывает результат первой попытки).
+     */
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun recordExerciseResult(result: UserExerciseResult)
 
-    @Query("SELECT * FROM user_card_hardcode_stats WHERE cardId = :cardId")
-    suspend fun getHardcodeStats(cardId: Int): UserCardHardcodeStats?
+    /** Результаты упражнений карточки — для зелёного ID (пройдено) текущей сессии. */
+    @Query("SELECT * FROM user_exercise_results WHERE cardId = :cardId")
+    suspend fun getExerciseResults(cardId: Int): List<UserExerciseResult>
+
+    /** Результаты по карточкам микротемы — для сводки «верно X из N» на экране завершения. */
+    @Query("SELECT * FROM user_exercise_results WHERE cardId IN (:cardIds)")
+    suspend fun getExerciseResultsForCards(cardIds: List<Int>): List<UserExerciseResult>
 
     @Upsert
     suspend fun upsertAiExerciseStats(stats: UserAiExerciseStats)

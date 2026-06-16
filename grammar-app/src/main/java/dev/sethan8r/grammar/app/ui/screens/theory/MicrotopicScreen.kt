@@ -58,6 +58,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun MicrotopicScreen(
     onBack: () -> Unit,
+    onStartExercises: (cardId: Int) -> Unit,
     viewModel: MicrotopicViewModel = hiltViewModel(),
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
@@ -75,7 +76,7 @@ fun MicrotopicScreen(
             else -> CardPager(
                 cards = uiState.cards,
                 completedCardIds = uiState.completedCardIds,
-                onFinish = onBack,
+                onStartExercises = onStartExercises,
             )
         }
     }
@@ -85,7 +86,7 @@ fun MicrotopicScreen(
 private fun CardPager(
     cards: List<TheoryCard>,
     completedCardIds: Set<Int>,
-    onFinish: () -> Unit,
+    onStartExercises: (cardId: Int) -> Unit,
 ) {
     val pagerState = rememberPagerState(pageCount = { cards.size })
     val scope = rememberCoroutineScope()
@@ -141,13 +142,10 @@ private fun CardPager(
             CardPage(
                 card = cards[page],
                 isCompleted = cards[page].id in completedCardIds,
-                onPrimary = {
-                    if (pagerState.currentPage < cards.lastIndex) {
-                        scope.launch { pagerState.animateScrollToPage(pagerState.currentPage + 1) }
-                    } else {
-                        onFinish()
-                    }
-                },
+                // «Перейти к заданиям» открывает сессию упражнений ЭТОЙ карточки. Перелистнуть к
+                // следующей карточке можно полосой прогресса (после прохождения текущей — frontier
+                // сдвигается). Свайпов нет (CLAUDE → «Поиск и повторное прохождение»).
+                onPrimary = { onStartExercises(cards[page].id) },
             )
         }
     }

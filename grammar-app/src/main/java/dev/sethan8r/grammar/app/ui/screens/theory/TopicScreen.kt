@@ -12,11 +12,13 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -39,13 +41,27 @@ import dev.sethan8r.grammar.app.ui.theme.Dimens
 fun TopicScreen(
     onMicrotopicClick: (Int) -> Unit,
     onBack: () -> Unit,
+    focusMicrotopicId: Int? = null,
+    onFocusConsumed: () -> Unit = {},
     viewModel: TopicViewModel = hiltViewModel(),
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+    val listState = rememberLazyListState()
+
+    // Возврат с экрана сводки: проскроллить к только что пройденной микротеме и сбросить запрос.
+    LaunchedEffect(focusMicrotopicId, uiState.microtopics) {
+        val id = focusMicrotopicId ?: return@LaunchedEffect
+        val index = uiState.microtopics.indexOfFirst { it.id == id }
+        if (index >= 0) {
+            listState.animateScrollToItem(index)
+            onFocusConsumed()
+        }
+    }
 
     Column(modifier = Modifier.fillMaxSize()) {
         BackTopBar(title = uiState.title, onBack = onBack)
         LazyColumn(
+            state = listState,
             modifier = Modifier
                 .fillMaxSize()
                 .padding(horizontal = Dimens.screenPadding),

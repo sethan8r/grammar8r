@@ -227,25 +227,36 @@
 
 **Self-prompt для следующей сессии (Шаг F1):** развёрнут в `_next_session_prompt.md` (переписан под F1).
 
-### ⬜ Шаг F1. Ядро движка упражнений  🟡 Fable-only (по provisional)  ⭐
-- Экран упражнения: scaffold (X из N, кнопка `?` с theorySummary, ID упражнения в углу, слот
-  «объяснение при ошибке»). Делегат-механика «ответ на карточку» (попытки, фидбек, «Далее»
-  открывается после ответа). Логика прогресса/`isCompleted`. Переход «теория → упражнения».
-- ⚠️ **TODO (ждёт реальной записи `isCompleted` в БД) — подтянуть UI читалки теории, который уже
-  написан в Шаге E, но «спит», пока прогресс не пишется:**
-  - **Бар микротемы — навигация completion-based** (`MicrotopicScreen.CardPager.onSegmentClick`):
-    тап разрешён только на ПРОЙДЕННЫЕ карточки + первую непройденную (frontier), дальше — нельзя.
-    Сейчас `completedCardIds` пуст → бар пускает только на 1-ю. После записи прогресса проверить,
-    что реально пускает на пройденные/следующую и блокирует перепрыгивание.
-  - **Зелёный фрейм ID карточки** (`MicrotopicScreen`, `idCompleted = currentId in completedCardIds`) —
-    временная заглушка `|| currentPage == 0` уже убрана; проверить, что фрейм реально зеленеет на
-    пройденной карточке после записи прогресса.
-  - **Проверить галочку пройденной микротемы** (`TopicScreen.MicrotopicRow`, условие
-    `state == COMPLETED`) — оживёт на реальных данных.
-- + 1–2 простых типа (выбор варианта + TextInput) для сквозного прогона на реальных данных.
-- **DoD:** сквозной флоу упражнения работает на реальном `basics.json`.
-- **Очистка контекста:** ✅ да. **decision_log.**
-- **Self-prompt:** _<…>_
+### ✅ Шаг F1. Ядро движка упражнений  🟡 Fable-only (по provisional)  ⭐ — НАПИСАНО (2026-06-16, сборку гонит пользователь)
+- ✅ Реализовано:
+  - **Движок/сессия:** `ExerciseSessionScreen` (+ тонкий VM) — scaffold (X из N, кнопка `?` с
+    `theorySummary` векторной иконкой, ID упражнения в углу, слот `explanation`). Роут
+    `ExerciseSessionRoute(cardId)` (полноэкранный). Делегат-механика `AnswerDelegate` (свой `StateFlow`,
+    2 попытки, «Далее» после ответа) — включается композицией, переиспользуема всеми типами.
+  - **Типы (2):** «выбор варианта» `ChoiceExerciseView` (покрывает MULTIPLE_CHOICE/FORWARD_CHOICE/
+    REVERSE_CHOICE — одна таблица, один UI) + `TextInputExerciseView`. Остальные 11 → плашка
+    `UnsupportedExerciseView` (F2–F4). Проверка — чистый `ExerciseEvaluator` + `AnswerNormalizer`
+    (сокращения don't=do not и т.п.).
+  - **Данные:** `ExerciseRepository`(+Impl) читает `CardExerciseIndex` (orderInCard) → упражнение по
+    типу (CHOICE-трек по составному PK) → `ExerciseContentMapper` (JSON→domain). `Exercise` sealed.
+  - **Прогресс — единая точка `ProgressRepository`(+Impl):** `completeCard()` пишет
+    `UserCardProgress.isCompleted` + write-once счёт `UserCardHardcodeStats(correctFirstTry,total)`,
+    отмечает микротему при N/N. Дубль `isCompleted` убран; `UserCardHardcodeStats` переформована.
+  - **Guard выхода:** общий `ExitConfirmationHandler` (`PredictiveBackHandler` + диалог), 1 раз.
+  - **Экран сводки микротемы** `MicrotopicSummaryScreen` (+VM, роут `MicrotopicSummaryRoute`):
+    «верно X из N» по хардкоду (AI — Фаза 3, скрыта), «Далее» → список микротем, наведённый на
+    пройденную (`focusMicrotopicId` через savedStateHandle, `TopicScreen` скроллит).
+  - **Переход:** `MicrotopicScreen` «Перейти к заданиям» → сессия карточки; между карточками — полоса
+    прогресса (frontier по `completedCardIds`).
+  - Спавшие в Шаге E элементы (бар completion-based, зелёный фрейм, галочка микротемы) теперь оживают
+    реальной записью `isCompleted`.
+- **⏳ Осталось пользователю:** собрать (`assembleDebug`) — **снести данные приложения** (user.db
+  переэкспортирован: удалён `isCompleted` из `UserCardHardcodeStats`, добавлены поля), пройти сквозной
+  флоу на `basics.json` и подтвердить. На устройстве проверить: 2 попытки → показ правильного без
+  удаления ответа; запись прогресса (бар/фрейм/галочка); экран сводки только при полном завершении
+  микротемы + наведение списка.
+- **decision_log:** раздел «Шаг F1» (7 записей). **CLAUDE/db_schema/grammar8r_plan** синхронизированы.
+- **Self-prompt:** переписан в `_next_session_prompt.md` под **F2**.
 
 ### ⬜ Шаг F2. Группа «выбор варианта»  🟡
 MULTIPLE_CHOICE / FORWARD_CHOICE / REVERSE_CHOICE / ERROR_CORRECTION / CONSTRUCTION_MEANING /

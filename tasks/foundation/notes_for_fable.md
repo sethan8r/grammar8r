@@ -104,6 +104,24 @@ DTO/контракт — в `grammar-shared`; интерфейсы — `domain/r
   голоса/FCM/announcements. Проверь, не нужен ли какой-то из них раньше, чем появится его фича.
 - `DictionaryRepository`/`WordTranslation` — БЕЗ DTO в shared (внешние словари, не наш контракт).
 
+## 3a. Шаг F1 — ядро движка упражнений (что проверить)
+
+- **Дубль `isCompleted` убран:** завершение карточки теперь ТОЛЬКО в `UserCardProgress`.
+  `UserCardHardcodeStats` переформована в счёт `(cardId, correctFirstTry, total)`, пишется write-once
+  (`INSERT OR IGNORE`) — для сводки «верно X из N». Проверь, что это согласуется с будущей статистикой
+  и нет ли потребности в per-exercise гранулярности (сейчас per-card). user.db переэкспортирован (v1, без bump).
+- **`ProgressRepository`** — единая точка записи (метод-репозиторий, не use case с DAO, чтобы не тянуть
+  data в domain). Несёт логику «все карточки микротемы пройдены». Проверь границы слоёв на твой вкус.
+- **Делегат `AnswerDelegate`** — механика ответа (2 попытки, фазы) со своим `StateFlow`, композиция во
+  VM. На него сядут все типы F2–F4. Проверь, что это масштабируется на механики со сложным вводом
+  (MATCHING/CATEGORIZATION — там ответ не SingleChoice/TextAnswers; `ExerciseAnswer` придётся расширять).
+- **`Unsupported`-плашка** для нереализованных типов — транзиторное решение F1; в счёт не идёт.
+- **`AnswerNormalizer`** (раскрытие сокращений) — проверь полноту карты и неоднозначные раскрытия (`'s`→is,
+  `'d`→would): не ловит ли ложные совпадения; альтернативы — через `alternatives` упражнения.
+- **Навигация сводки** через `savedStateHandle` (`focusMicrotopicId`) + `popUpTo<MicrotopicRoute>` —
+  проверь поток на edge-кейсах (process death, повторное завершение уже пройденной микротемы).
+- decision_log → «Шаг F1» (7 записей).
+
 ## 4. Куда смотреть (источники правды, не переписаны здесь)
 
 - `tasks/foundation/foundation_plan.md` — план, который Opus выполняет.

@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "d10c8cde848f3dac01a0666365751dfc",
+    "identityHash": "920acaf8afacf725237cdb5a3db0b3be",
     "entities": [
       {
         "tableName": "user_card_progress",
@@ -53,8 +53,8 @@
         }
       },
       {
-        "tableName": "user_card_hardcode_stats",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`cardId` INTEGER NOT NULL, `isCompleted` INTEGER NOT NULL, PRIMARY KEY(`cardId`))",
+        "tableName": "user_exercise_results",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`cardId` INTEGER NOT NULL, `exerciseType` TEXT NOT NULL, `exerciseId` INTEGER NOT NULL, `correctFirstTry` INTEGER NOT NULL, PRIMARY KEY(`cardId`, `exerciseType`, `exerciseId`))",
         "fields": [
           {
             "fieldPath": "cardId",
@@ -63,8 +63,20 @@
             "notNull": true
           },
           {
-            "fieldPath": "isCompleted",
-            "columnName": "isCompleted",
+            "fieldPath": "exerciseType",
+            "columnName": "exerciseType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "exerciseId",
+            "columnName": "exerciseId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "correctFirstTry",
+            "columnName": "correctFirstTry",
             "affinity": "INTEGER",
             "notNull": true
           }
@@ -72,7 +84,9 @@
         "primaryKey": {
           "autoGenerate": false,
           "columnNames": [
-            "cardId"
+            "cardId",
+            "exerciseType",
+            "exerciseId"
           ]
         }
       },
@@ -330,7 +344,7 @@
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd10c8cde848f3dac01a0666365751dfc')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '920acaf8afacf725237cdb5a3db0b3be')"
     ]
   }
 }

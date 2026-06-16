@@ -24,6 +24,36 @@
     <string name="theory_card_id">ID %1$d</string>
     <string name="back">Назад</string>
 
+    <!-- Упражнения (движок, Шаг F) -->
+    <string name="exercise_id_short">ID %1$d</string>
+    <string name="exercise_ai_short">AI</string>
+    <string name="exercise_ai_title">Умное задание</string>
+    <string name="exercise_help">Краткое правило</string>
+    <string name="exercise_check">Проверить</string>
+    <string name="exercise_next">Далее</string>
+    <string name="exercise_finish">Завершить</string>
+    <string name="exercise_wrong_try_again">Неправильно, попробуйте ещё раз</string>
+    <string name="exercise_wrong_final">Неправильно</string>
+    <string name="exercise_correct_answer">Правильно: %1$s</string>
+    <string name="exercise_empty">Упражнений в этой карточке пока нет</string>
+    <string name="exercise_type_in_development">Этот тип задания скоро появится</string>
+    <string name="exercise_ai_placeholder">Здесь будет ИИ-упражнение</string>
+    <string name="exercise_theory_summary_title">Краткое правило</string>
+    <string name="exercise_summary_close">Закрыть</string>
+
+    <!-- Подтверждение выхода из начатой сессии -->
+    <string name="exercise_exit_title">Выйти из заданий?</string>
+    <string name="exercise_exit_message">Прогресс этого прохождения не сохранится.</string>
+    <string name="exercise_exit_confirm">Выйти</string>
+    <string name="exercise_exit_cancel">Остаться</string>
+
+    <!-- Экран завершения микротемы -->
+    <string name="microtopic_done_title">Вы прошли микротему</string>
+    <string name="microtopic_done_hardcoded">Упражнения</string>
+    <string name="microtopic_done_correct_of">Верно %1$d из %2$d</string>
+    <string name="microtopic_done_ai">Умные задания</string>
+    <string name="microtopic_done_ai_value">Тренировок: %1$d · точность %2$d%%</string>
+
     <!-- Меню -->
     <string name="menu_title">МЕНЮ</string>
     <string name="menu_profile">ПРОФИЛЬ</string>

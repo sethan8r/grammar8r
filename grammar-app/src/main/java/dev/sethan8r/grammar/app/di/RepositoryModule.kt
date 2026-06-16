@@ -4,12 +4,16 @@ import dev.sethan8r.grammar.app.data.repository.fake.FakeAiExerciseRepository
 import dev.sethan8r.grammar.app.data.repository.fake.FakeAuthRepository
 import dev.sethan8r.grammar.app.data.repository.fake.FakeDictionaryRepository
 import dev.sethan8r.grammar.app.data.repository.fake.FakeEntitlementsProvider
+import dev.sethan8r.grammar.app.data.repository.ExerciseRepositoryImpl
+import dev.sethan8r.grammar.app.data.repository.ProgressRepositoryImpl
 import dev.sethan8r.grammar.app.data.repository.TheoryRepositoryImpl
 import dev.sethan8r.grammar.app.data.repository.fake.FakeProgressSyncRepository
 import dev.sethan8r.grammar.app.domain.repository.AiExerciseRepository
 import dev.sethan8r.grammar.app.domain.repository.AuthRepository
 import dev.sethan8r.grammar.app.domain.repository.DictionaryRepository
 import dev.sethan8r.grammar.app.domain.repository.EntitlementsProvider
+import dev.sethan8r.grammar.app.domain.repository.ExerciseRepository
+import dev.sethan8r.grammar.app.domain.repository.ProgressRepository
 import dev.sethan8r.grammar.app.domain.repository.ProgressSyncRepository
 import dev.sethan8r.grammar.app.domain.repository.TheoryRepository
 import dagger.Binds
@@ -52,4 +56,14 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindTheoryRepository(impl: TheoryRepositoryImpl): TheoryRepository
+
+    /** Упражнения карточки из content.db (Шаг F1). */
+    @Binds
+    @Singleton
+    abstract fun bindExerciseRepository(impl: ExerciseRepositoryImpl): ExerciseRepository
+
+    /** Единая точка записи прогресса прохождения (Шаг F1): карточка/микротема + счёт. */
+    @Binds
+    @Singleton
+    abstract fun bindProgressRepository(impl: ProgressRepositoryImpl): ProgressRepository
 }
