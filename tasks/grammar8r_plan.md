@@ -1220,7 +1220,7 @@ theory/
 │   │   Ловушка (деловой английский): "Please contact myself if you have questions." ✗
 │   │   → "Please contact me." — myself не заменяет me. Это очень частая ошибка в официальных
 │   │   письмах. myself уместен только если субъект и объект — одно лицо, или для усиления.
-│   ├── Question Tags — "You're coming, aren't you?" правило вспомогательного глагола
+│   ├── Question Tags — "You're coming, aren't you?" правило вспомогательного глагола "You're not English, are you?"
 │   ├── So / Neither / Either в ответах — "So do I", "Neither do I"
 │   ├── upon — пассивное узнавание: "upon arrival", "once upon a time", "upon reflection"
 │   ├── Прилагательные на -ing/-ed — boring/bored, interesting/interested, exciting/excited
@@ -1442,6 +1442,12 @@ theory/
 │   │   │   whatever — "да пофиг / как угодно". Часто пренебрежительно: брошенное "Whatever." в споре =
 │   │   │     "отстань, мне плевать" — может обидеть. Ловушка для русскоязычного, который слышит просто "любой".
 │   │   │   forget it — близко к never mind, но жёстче: "забудь, проехали".
+│   │   │   it doesn't matter / that doesn't matter — "это неважно / не имеет значения".
+│   │   │     Оттенок отличается от соседей: never mind / forget it закрывают ТЕМУ или сказанное
+│   │   │     ("проехали"), а doesn't matter обесценивает САМ ФАКТ / проблему ("это не имеет значения").
+│   │   │     "Sorry I'm late." — "It doesn't matter." / "I broke the cup." — "That doesn't matter."
+│   │   │     Через глагол to matter (иметь значение); родственник no matter what из "Устойчивых выражений".
+│   │   │     Слово to matter → в Words8r (Social English).
 │   │   │   Связь: never mind через глагол to mind (возражать) — разбирается в разделе
 │   │   │   "Многозначные слова" (МТ mind). Здесь — только живая реакция, без грамматики.
 │   │   │   Упражнение: реплика собеседника → выбрать подходящую отмашку из кластера
