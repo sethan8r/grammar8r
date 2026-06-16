@@ -4,11 +4,12 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -53,15 +54,20 @@ fun ChoiceExerciseView(
             modifier = Modifier.padding(horizontal = Dimens.cardPadding),
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceTiny),
         ) {
-            MarkdownText(text = exercise.prompt, fontSize = 18.sp)
+            MarkdownText(text = exercise.prompt, fontSize = 18.sp, renderBlanks = true)
             if (exercise.contextRu.isNotBlank()) {
                 MarkdownText(text = exercise.contextRu, color = TextSecondary, fontSize = 14.sp)
             }
         }
 
-        HorizontalDivider(
-            modifier = Modifier.padding(vertical = Dimens.cardPadding),
-            color = Inactive,
+        // Разделитель в стиле плашек «Кстати»: толстая скруглённая полоса с отступом от краёв.
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(vertical = Dimens.cardPadding, horizontal = Dimens.calloutDividerInset)
+                .height(Dimens.calloutDividerThickness)
+                .clip(RoundedCornerShape(percent = 50))
+                .background(Inactive),
         )
 
         Column(

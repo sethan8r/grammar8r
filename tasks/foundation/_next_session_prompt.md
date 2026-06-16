@@ -13,26 +13,27 @@
 1. `CLAUDE.md` (корень) — правила: **код только по явной команде «пиши»**, общение по-русски на «Вы».
    Критично для движка: **«Навигация» → guard `PredictiveBackHandler`** (уже есть общий
    `ui/components/ExitConfirmationHandler`); **«Повторное прохождение» (АНТИ-ЧИТ)** — `isCompleted` не
-   снимать, счёт `UserCardHardcodeStats` не перезаписывать; **архитектура** (тонкий VM, логика в
+   снимать, `UserExerciseResult` (результат упражнения) не перезаписывать; **архитектура** (тонкий VM, логика в
    repo/usecase, общая механика — делегат, не копипаста); `TranslatableText`/`MarkdownText` для контента;
    **только векторные иконки, никаких символов-текстом**.
 2. `tasks/foundation/execution_roadmap.md` — карта A→F, статусы. **F1 ✅ (написан 16.06)**, блок F2 —
    список типов. Ключевое: «14 типов сводятся к ~8–9 UI-механикам делегатом, не 14 копипастами».
-3. `tasks/foundation/decision_log.md` — раздел «Шаг F1» (7 решений: дубль `isCompleted` убран;
-   `UserCardHardcodeStats`→`correctFirstTry/total` write-once; `ProgressRepository` — единая запись;
-   `Unsupported`-плашка; делегат+`ChoiceExerciseView` на 3 трека; `AnswerNormalizer`; экран сводки).
+3. `tasks/foundation/decision_log.md` — раздел «Шаг F1»: дубль `isCompleted` убран;
+   **`UserExerciseResult` (пер-упражнённый write-once результат)** заменил `UserCardHardcodeStats`;
+   `ProgressRepository` — единая запись; `Unsupported`/`AiPlaceholder`-плашки; делегат+`ChoiceExerciseView`
+   на 3 трека; `AnswerNormalizer`; снекбар-фидбэк/фрейм-тряска; экран сводки.
    **F2 — 🟡, каждое неочевидное решение писать сюда.**
 4. `tasks/phases/phase1/exercise_templates.md` — форматы типов + DB-схемы + «❌ Антипаттерны».
 5. `tasks/db_schema.md` — таблицы упражнений, `CardExerciseIndex`, `UserCardProgress`,
-   `UserCardHardcodeStats` (обновлены), ENUM `HardcodedExerciseType`/`ChoiceType`.
+   `UserExerciseResult` (обновлены), ENUM `HardcodedExerciseType`/`ChoiceType`.
 
 Память (MEMORY.md) подтянется сама.
 
 ## 0.1 ⏳ Перед F2 — проверить, что F1 действительно работает
 
 F1 написан, но сборку/прогон делает пользователь сам. В начале сессии спроси/убедись:
-- Сборка `:grammar-app:assembleDebug` зелёная. ⚠️ user.db переэкспортирован (поля
-  `UserCardHardcodeStats` изменены) → на устройстве **снести данные приложения**, иначе Room упадёт
+- Сборка `:grammar-app:assembleDebug` зелёная. ⚠️ user.db переэкспортирован (добавлена
+  `UserExerciseResult`) → на устройстве **снести данные приложения**, иначе Room упадёт
   (у user.db нет destructive fallback).
 - Сквозной флоу на `basics.json`: теория → «Перейти к заданиям» → выбор варианта / ввод → 2 попытки
   (1-я ошибка «попробуйте ещё раз»; 2-я — правильный ответ БЕЗ удаления ответа юзера + explanation) →

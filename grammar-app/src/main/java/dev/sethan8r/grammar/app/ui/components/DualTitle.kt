@@ -12,6 +12,15 @@ import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 
+/** Разделитель двойного имени «EN · RU». */
+private const val DUAL_TITLE_SEPARATOR = " · "
+
+/**
+ * Английская часть двойного имени «EN · RU» (для шапок, где RU не нужен — карточки микротемы,
+ * сессия упражнений). Если разделителя нет — возвращает строку как есть.
+ */
+fun String.titleEn(): String = substringBefore(DUAL_TITLE_SEPARATOR)
+
 /**
  * Двойное название «EN · RU» (канон микротем): EN — основным цветом и жирным, RU — мельче и серым
  * под ним. Если ` · ` в строке нет — рендерит одну строку (тема ещё не приведена к формату).

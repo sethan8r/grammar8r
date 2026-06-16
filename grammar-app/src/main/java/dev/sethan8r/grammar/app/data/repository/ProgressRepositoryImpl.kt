@@ -50,7 +50,7 @@ class ProgressRepositoryImpl @Inject constructor(
         progressDao.upsertCardProgress(UserCardProgress(cardId = cardId, isCompleted = true))
 
         val microtopicId = theoryDao.getCard(cardId)?.microtopicId
-            ?: return CardCompletion(microtopicId = -1, microtopicCompleted = false)
+            ?: return CardCompletion(cardId = cardId, microtopicId = -1, microtopicCompleted = false)
 
         val cardIds = theoryDao.getCards(microtopicId).first().map { it.id }
         val completedIds = progressDao.getCompletedCardIds().first().toSet()
@@ -60,7 +60,7 @@ class ProgressRepositoryImpl @Inject constructor(
                 UserMicrotopicProgress(microtopicId = microtopicId, isCompleted = true),
             )
         }
-        return CardCompletion(microtopicId = microtopicId, microtopicCompleted = microtopicCompleted)
+        return CardCompletion(cardId = cardId, microtopicId = microtopicId, microtopicCompleted = microtopicCompleted)
     }
 
     override suspend fun getMicrotopicSummary(microtopicId: Int): MicrotopicCompletionSummary {

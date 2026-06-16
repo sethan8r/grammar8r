@@ -28,6 +28,12 @@
     <string name="exercise_id_short">ID %1$d</string>
     <string name="exercise_ai_short">AI</string>
     <string name="exercise_ai_title">Умное задание</string>
+    <!-- Краткие описания «что делать» по типу задания (рядом с названием) -->
+    <string name="exercise_desc_multiple_choice">ВЫБЕРИТЕ СЛОВО</string>
+    <string name="exercise_desc_forward_choice">ВЫБЕРИТЕ ПЕРЕВОД</string>
+    <string name="exercise_desc_reverse_choice">ВЫБЕРИТЕ ПЕРЕВОД</string>
+    <string name="exercise_desc_text_input">ЗАПОЛНИТЕ ПРОПУСК</string>
+
     <string name="exercise_help">Краткое правило</string>
     <string name="exercise_check">Проверить</string>
     <string name="exercise_next">Далее</string>

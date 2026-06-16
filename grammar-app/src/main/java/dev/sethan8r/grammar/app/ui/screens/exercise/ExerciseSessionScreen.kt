@@ -1,8 +1,6 @@
 package dev.sethan8r.grammar.app.ui.screens.exercise
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -29,26 +27,25 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.PlatformTextStyle
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.sp
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.R
+import dev.sethan8r.grammar.app.domain.model.exercise.ChoiceType
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
 import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
 import dev.sethan8r.grammar.app.ui.components.CenteredHint
 import dev.sethan8r.grammar.app.ui.components.ExitConfirmationHandler
 import dev.sethan8r.grammar.app.ui.components.FeedbackSnackbarHost
+import dev.sethan8r.grammar.app.ui.components.IdBadge
 import dev.sethan8r.grammar.app.ui.components.LoadingIndicator
 import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.components.SegmentedProgressBar
+import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.components.exercise.AiPlaceholderView
 import dev.sethan8r.grammar.app.ui.components.exercise.ChoiceExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.TextInputExerciseView
@@ -56,7 +53,6 @@ import dev.sethan8r.grammar.app.ui.components.exercise.UnsupportedExerciseView
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
-import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
@@ -104,7 +100,8 @@ fun ExerciseSessionScreen(
 
     Column(modifier = Modifier.fillMaxSize()) {
         SessionTopBar(
-            title = state.microtopicTitle,
+            // Только английская часть двойного имени (как в шапке карточек микротемы).
+            title = state.microtopicTitle.titleEn(),
             onBack = { showExitDialog = true },
             onHelp = { showSummaryDialog = true },
             helpEnabled = state.theorySummary.isNotBlank(),
@@ -242,10 +239,18 @@ private fun SessionContent(
 }
 
 /** Подпись типа задания (приглушённая). У хардкода — имя типа, у плашки умного задания — «Умное задание». */
+/** Подпись задания: «ТИП · краткое описание что делать» (описание захардкожено по типу). */
 @Composable
 private fun exerciseTypeLabel(exercise: Exercise): String = when (exercise) {
-    is Exercise.Choice -> exercise.type.name
-    is Exercise.TextInput -> exercise.type.name
+    is Exercise.Choice -> {
+        val descRes = when (exercise.choiceType) {
+            ChoiceType.CHOICE -> R.string.exercise_desc_multiple_choice
+            ChoiceType.FORWARD_CHOICE -> R.string.exercise_desc_forward_choice
+            ChoiceType.REVERSE_CHOICE -> R.string.exercise_desc_reverse_choice
+        }
+        exercise.type.name + " · " + stringResource(descRes)
+    }
+    is Exercise.TextInput -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_text_input)
     is Exercise.Unsupported -> exercise.type.name
     // У умного задания вместо типа — его (длинный) строковый ID; в маленький бокс он не влезает.
     is Exercise.AiPlaceholder -> exercise.exerciseId
@@ -273,23 +278,13 @@ private fun ProgressRow(
             modifier = Modifier.weight(1f),
             onSegmentClick = onSegmentClick,
         )
-        Box(
-            modifier = Modifier
-                .clip(RoundedCornerShape(Dimens.cornerSmall))
-                .background(if (answered) CorrectGreen else CardBackground)
-                .padding(horizontal = Dimens.spaceTiny, vertical = Dimens.spaceMicro),
-        ) {
-            Text(
-                text = when (exercise) {
-                    is Exercise.AiPlaceholder -> stringResource(R.string.exercise_ai_short)
-                    else -> stringResource(R.string.exercise_id_short, exercise.id)
-                },
-                color = if (answered) TextPrimary else TextSecondary,
-                fontSize = 12.sp,
-                lineHeight = 12.sp,
-                style = TextStyle(platformStyle = PlatformTextStyle(includeFontPadding = false)),
-            )
-        }
+        IdBadge(
+            text = when (exercise) {
+                is Exercise.AiPlaceholder -> stringResource(R.string.exercise_ai_short)
+                else -> stringResource(R.string.exercise_id_short, exercise.id)
+            },
+            highlighted = answered,
+        )
     }
 }
 

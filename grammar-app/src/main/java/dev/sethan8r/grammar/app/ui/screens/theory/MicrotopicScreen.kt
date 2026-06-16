@@ -2,7 +2,6 @@ package dev.sethan8r.grammar.app.ui.screens.theory
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,14 +17,13 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.PlatformTextStyle
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -37,14 +35,15 @@ import dev.sethan8r.grammar.app.domain.model.theory.Example
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryCard
 import dev.sethan8r.grammar.app.ui.components.BackTopBar
 import dev.sethan8r.grammar.app.ui.components.CenteredHint
+import dev.sethan8r.grammar.app.ui.components.IdBadge
 import dev.sethan8r.grammar.app.ui.components.LoadingIndicator
 import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.components.SegmentedProgressBar
 import dev.sethan8r.grammar.app.ui.components.TheoryBlocks
+import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
-import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
@@ -59,13 +58,15 @@ import kotlinx.coroutines.launch
 fun MicrotopicScreen(
     onBack: () -> Unit,
     onStartExercises: (cardId: Int) -> Unit,
+    advanceAfterCardId: Int? = null,
+    onAdvanceConsumed: () -> Unit = {},
     viewModel: MicrotopicViewModel = hiltViewModel(),
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
 
     Column(modifier = Modifier.fillMaxSize()) {
         // В шапке карточки — только английское название микротемы (RU-часть двойного имени убираем).
-        BackTopBar(title = uiState.title.substringBefore(" · "), onBack = onBack)
+        BackTopBar(title = uiState.title.titleEn(), onBack = onBack)
 
         when {
             uiState.isLoading -> LoadingIndicator(Modifier.fillMaxSize())
@@ -77,6 +78,8 @@ fun MicrotopicScreen(
                 cards = uiState.cards,
                 completedCardIds = uiState.completedCardIds,
                 onStartExercises = onStartExercises,
+                advanceAfterCardId = advanceAfterCardId,
+                onAdvanceConsumed = onAdvanceConsumed,
             )
         }
     }
@@ -87,9 +90,21 @@ private fun CardPager(
     cards: List<TheoryCard>,
     completedCardIds: Set<Int>,
     onStartExercises: (cardId: Int) -> Unit,
+    advanceAfterCardId: Int?,
+    onAdvanceConsumed: () -> Unit,
 ) {
     val pagerState = rememberPagerState(pageCount = { cards.size })
     val scope = rememberCoroutineScope()
+
+    // Вернулись из сессии с прохождением карточки (микротема не закончена) → листаем на следующую.
+    LaunchedEffect(advanceAfterCardId, cards) {
+        val cardId = advanceAfterCardId ?: return@LaunchedEffect
+        val index = cards.indexOfFirst { it.id == cardId }
+        if (index in 0 until cards.lastIndex) {
+            pagerState.animateScrollToPage(index + 1)
+        }
+        onAdvanceConsumed()
+    }
 
     Column(modifier = Modifier.fillMaxSize()) {
         Row(
@@ -114,25 +129,12 @@ private fun CardPager(
                     }
                 },
             )
-            // ID текущей карточки — в маленьком закруглённом фрейме (фон как у таблиц).
-            // Пройденная карточка → фрейм зелёный.
+            // ID текущей карточки — общий бокс; пройденная карточка → зелёный.
             val currentId = cards[pagerState.currentPage].id
-            val idCompleted = currentId in completedCardIds
-            Box(
-                modifier = Modifier
-                    .clip(RoundedCornerShape(Dimens.cornerSmall))
-                    .background(if (idCompleted) CorrectGreen else CardBackground)
-                    .padding(horizontal = Dimens.spaceTiny, vertical = Dimens.spaceMicro),
-            ) {
-                Text(
-                    text = stringResource(R.string.theory_card_id, currentId),
-                    color = if (idCompleted) TextPrimary else TextSecondary,
-                    fontSize = 12.sp,
-                    lineHeight = 12.sp,
-                    // Убираем «свинцовый» отступ шрифта — фрейм по высоте облегает текст плотнее.
-                    style = TextStyle(platformStyle = PlatformTextStyle(includeFontPadding = false)),
-                )
-            }
+            IdBadge(
+                text = stringResource(R.string.theory_card_id, currentId),
+                highlighted = currentId in completedCardIds,
+            )
         }
         HorizontalPager(
             state = pagerState,

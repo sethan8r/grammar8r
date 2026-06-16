@@ -27,12 +27,14 @@ fun MarkdownText(
     fontSize: TextUnit = 16.sp,
     lineHeight: TextUnit = 24.sp,
     textAlign: TextAlign? = null,
+    renderBlanks: Boolean = false,
 ) {
     val parsed = parseInlineMarkdown(
         raw = text,
         correctColor = CorrectGreen,
         incorrectColor = IncorrectRed,
         arrowColor = color,
+        renderBlanks = renderBlanks,
     )
     TranslatableText(
         text = parsed.text,

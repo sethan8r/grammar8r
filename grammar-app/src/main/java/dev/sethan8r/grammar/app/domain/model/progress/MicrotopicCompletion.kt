@@ -5,6 +5,7 @@ package dev.sethan8r.grammar.app.domain.model.progress
  * пройденной этим прохождением. По [microtopicCompleted] движок решает, показать ли экран сводки.
  */
 data class CardCompletion(
+    val cardId: Int,
     val microtopicId: Int,
     val microtopicCompleted: Boolean,
 )

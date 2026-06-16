@@ -26,7 +26,7 @@
 - словарь Words8r (17 170 слов, 60 категорий, 4 группы — переносится из `tasks/words8r.db`)
 
 **user.db** — mutable, создаётся на телефоне, **НИКОГДА не перезаписывается** при обновлении. Содержит:
-- `UserCardProgress`, `UserMicrotopicProgress`, `UserCardHardcodeStats`, `UserAiExerciseStats`, `FavoriteAiExercise`
+- `UserCardProgress`, `UserMicrotopicProgress`, `UserExerciseResult`, `UserAiExerciseStats`, `FavoriteAiExercise`
 - состояние слов обоих словарей: `isUnlocked` / `isHidden` / `qRep` / `isPriority` (ключ = `wordId`)
 - настройки категорий (`isSelected`), личные слова («Мои слова»), `DailyStats`, `AiRequestCounter`, `DictionaryCache`
 
@@ -490,30 +490,36 @@ data class CardExerciseIndex(
 
 ---
 
-### `UserCardHardcodeStats`
+### `UserExerciseResult`
 
-> Счёт по хардкодным упражнениям карточки — для сводки по завершении микротемы («верно X из N»).  
-> ⚠️ `isCompleted` здесь НЕ хранится: флаг завершения карточки живёт ТОЛЬКО в `UserCardProgress`
-> (дубль убран на Шаге F1, decision_log). Счётчик попыток (2 попытки) — UI-стейт сессии, в БД не пишется.  
-> Подробнее: grammar8r_plan.md → «Логика попыток в хардкодных упражнениях».
+> Результат КАЖДОГО хардкод-упражнения карточки. Источник правды для зелёного ID упражнения и для
+> сводки «верно X из N» (агрегируется по карточкам микротемы).  
+> ⚠️ Заменил прежнюю `UserCardHardcodeStats` (Шаг F1): пер-упражнённо, а не агрегатом по карточке —
+> чтобы анти-чит работал и зелёный ID восстанавливался при заходе. Счётчик попыток (2 попытки) —
+> UI-стейт сессии, в БД не пишется.
 
 ```kotlin
-data class UserCardHardcodeStats(
+data class UserExerciseResult(
 
     val cardId: Int,
-    // PK, FK → GrammarCard.id (Int). Одна запись на карточку.
+    // Часть составного PK. FK → GrammarCard.id (Int).
 
-    val correctFirstTry: Int,
-    // Сколько упражнений карточки решено ВЕРНО С ПЕРВОЙ попытки (на первом прохождении).
+    val exerciseType: HardcodedExerciseType,
+    // Часть составного PK. exerciseId уникален лишь ВНУТРИ своего типа → тип нужен в ключе.
 
-    val total: Int
-    // Всего реальных упражнений в карточке (плашки-заглушки нереализованных типов не считаются).
+    val exerciseId: Int,
+    // Часть составного PK. ID упражнения в таблице своего типа.
+
+    val correctFirstTry: Boolean
+    // true = решено верно С ПЕРВОЙ попытки.
 )
+// PK составной: (cardId, exerciseType, exerciseId).
 ```
 
-> **Анти-чит:** строка пишется ОДИН раз при первом прохождении (`INSERT OR IGNORE`) и на повторе
-> НЕ перезаписывается — нельзя переиграть и накрутить себе результат. Сброс микротемы (если появится)
-> = `DELETE`. Точность по хардкоду больше нигде не хранится (у AI она отдельно: `DailyStats.avgScore`).
+> **Анти-чит:** строка пишется ОДИН раз в момент ПЕРВОГО ответа (`INSERT OR IGNORE`) и не
+> перезаписывается — перезаход в карточку не сбрасывает результат первой попытки, накрутить нельзя.
+> Плашки (нереализованный тип / умное задание) сюда НЕ пишутся. Точность по хардкоду больше нигде
+> не хранится (у AI она отдельно: `DailyStats.avgScore`).
 
 ---
 
@@ -975,7 +981,7 @@ data class UserMicrotopicProgress(
 
 > Прогресс пользователя по карточке.  
 > Создаётся при прохождении упражнений карточки.  
-> ⚠️ ЕДИНСТВЕННЫЙ флаг завершения карточки (дубль в `UserCardHardcodeStats` убран на Шаге F1).  
+> ⚠️ ЕДИНСТВЕННЫЙ флаг завершения карточки (счёт/пройденность упражнений — в `UserExerciseResult`).  
 > Связан с: `GrammarCard`
 
 ```kotlin

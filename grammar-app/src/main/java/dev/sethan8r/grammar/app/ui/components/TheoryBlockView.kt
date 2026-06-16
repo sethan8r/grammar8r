@@ -3,21 +3,33 @@ package dev.sethan8r.grammar.app.ui.components
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.TextMeasurer
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.Density
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import kotlin.math.ceil
 import dev.sethan8r.grammar.app.domain.model.theory.CalloutVariant
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
 import dev.sethan8r.grammar.app.ui.theme.Accent
@@ -87,40 +99,111 @@ private fun ListBlock(block: TheoryBlock.BulletList) {
     }
 }
 
+private val WHITESPACE = Regex("\\s+")
+
+// Одиночное слово-ярлык длиннее — режем сбалансированно (≈ пополам), чтобы колонка под короткий
+// контент не была широкой из-за длинного заголовка. Переноса по слогам в Compose нет → делим по символам.
+private const val MAX_WORD_LEN = 9
+
 @Composable
 private fun TableBlock(block: TheoryBlock.Table) {
-    Column(
+    val columnCount = maxOf(block.header.size, block.rows.maxOfOrNull { it.size } ?: 0)
+    val measurer = rememberTextMeasurer()
+    val density = LocalDensity.current
+
+    BoxWithConstraints(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(Dimens.cornerCard))
             .background(CardBackground),
     ) {
-        if (block.header.isNotEmpty()) {
-            TableRow(cells = block.header, isHeader = true)
-            HorizontalDivider(color = Inactive)
+        val totalWidth = maxWidth
+        // Готовим текст (перенос длинных слов) и ширины колонок один раз на (таблица + ширина).
+        val table = remember(block, totalWidth) {
+            val header = block.header.map(::wrapLongWords)
+            val rows = block.rows.map { row -> row.map(::wrapLongWords) }
+            val widths = columnWidths(header, rows, columnCount, totalWidth, measurer, density)
+            Triple(header, rows, widths)
         }
-        block.rows.forEachIndexed { index, row ->
-            TableRow(cells = row, isHeader = false)
-            if (index < block.rows.lastIndex) HorizontalDivider(color = Inactive)
+        val (header, rows, widths) = table
+
+        Column(modifier = Modifier.fillMaxWidth()) {
+            if (header.isNotEmpty()) {
+                TableRow(cells = header, isHeader = true, widths = widths)
+                HorizontalDivider(color = Inactive)
+            }
+            rows.forEachIndexed { index, row ->
+                TableRow(cells = row, isHeader = false, widths = widths)
+                if (index < rows.lastIndex) HorizontalDivider(color = Inactive)
+            }
         }
     }
 }
 
+/**
+ * Делит ОДИНОЧНОЕ слово-ярлык длиннее [MAX_WORD_LEN] на сбалансированные части (через `\n`). В
+ * многословных ячейках (предложениях) слова не трогаем — они переносятся по пробелам. `*` не трогаем.
+ */
+private fun wrapLongWords(cell: String): String {
+    val trimmed = cell.trim()
+    val isSingleWord = trimmed.isNotEmpty() && trimmed.none { it.isWhitespace() }
+    if (!isSingleWord || trimmed.length <= MAX_WORD_LEN || trimmed.contains('*')) return cell
+    val parts = ceil(trimmed.length / MAX_WORD_LEN.toDouble()).toInt()
+    val size = ceil(trimmed.length / parts.toDouble()).toInt()
+    return trimmed.chunked(size).joinToString("\n")
+}
+
+/**
+ * Реальные ширины колонок: каждая ≥ ширины своего самого длинного слова (измеряем [TextMeasurer]
+ * жирным — худший случай), поэтому слова НЕ рвутся по буквам. Остаток ширины раздаём пропорционально.
+ */
+private fun columnWidths(
+    header: List<String>,
+    rows: List<List<String>>,
+    columnCount: Int,
+    totalWidth: Dp,
+    measurer: TextMeasurer,
+    density: Density,
+): List<Dp> {
+    val style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Bold)
+    val cellPadding = Dimens.spaceSmall * 2
+    val minWidths = (0 until columnCount).map { column ->
+        val longestToken = (listOf(header) + rows)
+            .mapNotNull { it.getOrNull(column) }
+            .flatMap { it.replace("*", "").split(WHITESPACE) }
+            .maxByOrNull { it.length }
+            .orEmpty()
+        val tokenPx = measurer.measure(AnnotatedString(longestToken), style).size.width
+        with(density) { tokenPx.toDp() } + cellPadding
+    }
+    val totalMin = minWidths.fold(0.dp) { acc, w -> acc + w }
+    // Контент шире экрана (редко) — масштабируем пропорционально, чтобы не было переполнения.
+    if (totalMin >= totalWidth) {
+        val factor = totalWidth.value / totalMin.value
+        return minWidths.map { (it.value * factor).dp }
+    }
+    val extra = totalWidth - totalMin
+    val sumMin = minWidths.fold(0f) { acc, w -> acc + w.value }
+    return minWidths.map { it + extra * (it.value / sumMin) }
+}
+
 @Composable
-private fun TableRow(cells: List<String>, isHeader: Boolean) {
+private fun TableRow(cells: List<String>, isHeader: Boolean, widths: List<Dp>) {
     Row(modifier = Modifier.fillMaxWidth()) {
-        cells.forEach { cell ->
+        cells.forEachIndexed { index, cell ->
             Box(
                 modifier = Modifier
-                    .weight(1f)
-                    .padding(horizontal = Dimens.spaceMedium, vertical = Dimens.spaceSmall),
+                    .width(widths.getOrElse(index) { 0.dp })
+                    .padding(horizontal = Dimens.spaceSmall, vertical = Dimens.spaceSmall),
             ) {
                 MarkdownText(
                     text = cell,
+                    modifier = Modifier.fillMaxWidth(),
                     color = if (isHeader) Accent else TextPrimary,
                     fontWeight = if (isHeader) FontWeight.Bold else null,
                     fontSize = 14.sp,
                     lineHeight = 20.sp,
+                    textAlign = TextAlign.Center,
                 )
             }
         }

@@ -1,6 +1,11 @@
 package dev.sethan8r.grammar.app.ui.components
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.InlineTextContent
 import androidx.compose.foundation.text.appendInlineContent
 import androidx.compose.material.icons.Icons
@@ -8,6 +13,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowRightAlt
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.Icon
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -19,6 +25,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 
 /** Результат разбора: текст + карта инлайн-иконок (вердикт ✓/✗) для [TranslatableText]. */
@@ -30,6 +37,7 @@ data class ParsedMarkdown(
 private const val INLINE_CHECK = "inline_check"
 private const val INLINE_CROSS = "inline_cross"
 private const val INLINE_ARROW = "inline_arrow"
+private const val INLINE_BLANK = "inline_blank"
 
 /**
  * Единая утилита инлайн-разметки контента (правило №0 — её же переиспользует движок упражнений).
@@ -48,6 +56,7 @@ fun parseInlineMarkdown(
     correctColor: Color,
     incorrectColor: Color,
     arrowColor: Color,
+    renderBlanks: Boolean = false,
 ): ParsedMarkdown {
     val text = buildAnnotatedString {
         var index = 0
@@ -66,6 +75,15 @@ fun parseInlineMarkdown(
                     if (italicDepth == 0) pushStyle(SpanStyle(fontStyle = FontStyle.Italic)) else pop()
                     italicDepth = if (italicDepth == 0) 1 else 0
                     index += 1
+                }
+
+                // Пропуск в условии (`__`+) → сплошная инлайн-линия, а не символы подчёркивания.
+                // Только в упражнениях ([renderBlanks]); в теории подчёркивания остаются текстом.
+                renderBlanks && raw.startsWith("__", index) -> {
+                    var end = index
+                    while (end < raw.length && raw[end] == '_') end++
+                    appendInlineContent(INLINE_BLANK, "___")
+                    index = end
                 }
 
                 else -> {
@@ -88,10 +106,31 @@ fun parseInlineMarkdown(
         INLINE_CHECK to inlineIcon(Icons.Filled.Check, correctColor),
         INLINE_CROSS to inlineIcon(Icons.Filled.Close, incorrectColor),
         INLINE_ARROW to inlineIcon(Icons.AutoMirrored.Filled.ArrowRightAlt, arrowColor),
+        INLINE_BLANK to inlineBlank(arrowColor),
     )
 
     return ParsedMarkdown(text, inlineContent)
 }
+
+/** Пропуск в условии — сплошная линия по низу строки (вместо символов `___`). */
+private fun inlineBlank(color: Color): InlineTextContent =
+    InlineTextContent(
+        placeholder = Placeholder(
+            width = 2.6.em,
+            height = 1.2.em,
+            placeholderVerticalAlign = PlaceholderVerticalAlign.TextBottom,
+        ),
+    ) {
+        Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.BottomCenter) {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 2.dp, vertical = 3.dp)
+                    .height(2.dp)
+                    .background(color),
+            )
+        }
+    }
 
 /** Иконка размером с текущую строку текста (em-единицы), выровненная по центру строки. */
 private fun inlineIcon(icon: ImageVector, tint: Color): InlineTextContent =

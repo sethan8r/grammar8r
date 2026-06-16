@@ -46,6 +46,9 @@ import dev.sethan8r.grammar.app.ui.theme.Grammar8rTheme
 /** Ключ savedStateHandle: id микротемы, к которой нужно проскроллить список после её завершения. */
 private const val FOCUS_MICROTOPIC_KEY = "focusMicrotopicId"
 
+/** Ключ savedStateHandle: id только что пройденной карточки — листалка микротемы перейдёт на следующую. */
+private const val ADVANCE_AFTER_CARD_KEY = "advanceAfterCardId"
+
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -117,10 +120,15 @@ fun MainScreen() {
                     onFocusConsumed = { entry.savedStateHandle[FOCUS_MICROTOPIC_KEY] = null },
                 )
             }
-            composable<MicrotopicRoute> {
+            composable<MicrotopicRoute> { entry ->
+                val advanceAfterCardId by entry.savedStateHandle
+                    .getStateFlow<Int?>(ADVANCE_AFTER_CARD_KEY, null)
+                    .collectAsState()
                 MicrotopicScreen(
                     onBack = { navController.popBackStack() },
                     onStartExercises = { cardId -> navController.navigate(ExerciseSessionRoute(cardId)) },
+                    advanceAfterCardId = advanceAfterCardId,
+                    onAdvanceConsumed = { entry.savedStateHandle[ADVANCE_AFTER_CARD_KEY] = null },
                 )
             }
             composable<ExerciseSessionRoute> {
@@ -132,6 +140,9 @@ fun MainScreen() {
                                 popUpTo<MicrotopicRoute> { inclusive = true }
                             }
                         } else {
+                            // Ещё есть карточки → возвращаемся в микротему и листаем на следующую.
+                            navController.previousBackStackEntry
+                                ?.savedStateHandle?.set(ADVANCE_AFTER_CARD_KEY, completion.cardId)
                             navController.popBackStack()
                         }
                     },
