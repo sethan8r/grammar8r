@@ -6,6 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -13,9 +15,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
+import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
@@ -102,14 +106,14 @@ fun MainScreen() {
             enterTransition = { EnterTransition.None },
             exitTransition = { ExitTransition.None },
         ) {
-            composable<LearnRoute> {
+            opaqueComposable<LearnRoute> {
                 TheoryScreen(onTopicClick = { topicId -> navController.navigate(TopicRoute(topicId)) })
             }
-            composable<PracticeRoute> { PracticeScreen() }
-            composable<StatisticsRoute> { StatisticsScreen() }
-            composable<MenuRoute> { MenuScreen() }
+            opaqueComposable<PracticeRoute> { PracticeScreen() }
+            opaqueComposable<StatisticsRoute> { StatisticsScreen() }
+            opaqueComposable<MenuRoute> { MenuScreen() }
 
-            composable<TopicRoute> { entry ->
+            opaqueComposable<TopicRoute> { entry ->
                 val focusId by entry.savedStateHandle
                     .getStateFlow<Int?>(FOCUS_MICROTOPIC_KEY, null)
                     .collectAsState()
@@ -120,7 +124,7 @@ fun MainScreen() {
                     onFocusConsumed = { entry.savedStateHandle[FOCUS_MICROTOPIC_KEY] = null },
                 )
             }
-            composable<MicrotopicRoute> { entry ->
+            opaqueComposable<MicrotopicRoute> { entry ->
                 val advanceAfterCardId by entry.savedStateHandle
                     .getStateFlow<Int?>(ADVANCE_AFTER_CARD_KEY, null)
                     .collectAsState()
@@ -131,7 +135,7 @@ fun MainScreen() {
                     onAdvanceConsumed = { entry.savedStateHandle[ADVANCE_AFTER_CARD_KEY] = null },
                 )
             }
-            composable<ExerciseSessionRoute> {
+            opaqueComposable<ExerciseSessionRoute> {
                 ExerciseSessionScreen(
                     onFinished = { completion ->
                         if (completion.microtopicCompleted) {
@@ -149,7 +153,7 @@ fun MainScreen() {
                     onExit = { navController.popBackStack() },
                 )
             }
-            composable<MicrotopicSummaryRoute> { entry ->
+            opaqueComposable<MicrotopicSummaryRoute> { entry ->
                 MicrotopicSummaryScreen(
                     onContinue = {
                         // Назад в список микротем, наведённый на пройденную (запрос — соседней записи стека).
@@ -161,5 +165,19 @@ fun MainScreen() {
                 )
             }
         }
+    }
+}
+
+/**
+ * Регистрирует полноэкранный destination с НЕПРОЗРАЧНЫМ фоном. Во время жеста «назад» (predictive
+ * back) Navigation Compose держит в композиции сразу два экрана; без своего фона верхний экран
+ * просвечивал бы и сквозь него был бы виден нижний (наложение). Непрозрачный [Background] под
+ * каждым экраном убирает просвечивание — единая точка, новые экраны защищены автоматически.
+ */
+private inline fun <reified T : Any> NavGraphBuilder.opaqueComposable(
+    noinline content: @Composable (NavBackStackEntry) -> Unit,
+) = composable<T> { entry ->
+    Box(modifier = Modifier.fillMaxSize().background(Background)) {
+        content(entry)
     }
 }

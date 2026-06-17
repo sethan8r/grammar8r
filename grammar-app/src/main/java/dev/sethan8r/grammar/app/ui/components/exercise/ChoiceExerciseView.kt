@@ -4,10 +4,8 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
@@ -42,13 +40,14 @@ fun ChoiceExerciseView(
     answer: ExerciseAnswer.SingleChoice?,
     phase: AnswerPhase,
     shakeKey: Int,
+    pulseKey: Int,
     onSelect: (Int) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val selected = answer?.selectedIndex ?: -1
     val correctIndex = exercise.options.indexOfFirst { it.isCorrect }
 
-    ExerciseFrame(shakeKey = shakeKey, modifier = modifier) {
+    ExerciseFrame(shakeKey = shakeKey, pulseKey = pulseKey, modifier = modifier) {
         // Шапка-условие (с горизонтальным отступом — разделитель ниже идёт от края до края).
         Column(
             modifier = Modifier.padding(horizontal = Dimens.cardPadding),
@@ -60,15 +59,8 @@ fun ChoiceExerciseView(
             }
         }
 
-        // Разделитель в стиле плашек «Кстати»: толстая скруглённая полоса с отступом от краёв.
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(vertical = Dimens.cardPadding, horizontal = Dimens.calloutDividerInset)
-                .height(Dimens.calloutDividerThickness)
-                .clip(RoundedCornerShape(percent = 50))
-                .background(Inactive),
-        )
+        // Разделитель «шапка ↔ варианты» (единый компонент, от края до края фрейма).
+        ExerciseDivider()
 
         Column(
             modifier = Modifier.padding(horizontal = Dimens.cardPadding),
@@ -82,13 +74,17 @@ fun ChoiceExerciseView(
                     onClick = { onSelect(index) },
                 )
             }
-            if (phase == AnswerPhase.REVEALED && exercise.explanation.isNotBlank()) {
-                MarkdownText(
-                    text = exercise.explanation,
-                    color = TextSecondary,
-                    fontSize = 14.sp,
-                )
-            }
+        }
+
+        // Объяснение (при показе правильного ответа) — за такой же линией, как «шапка ↔ варианты».
+        if (phase == AnswerPhase.REVEALED && exercise.explanation.isNotBlank()) {
+            ExerciseDivider()
+            MarkdownText(
+                text = exercise.explanation,
+                modifier = Modifier.padding(horizontal = Dimens.cardPadding),
+                color = TextSecondary,
+                fontSize = 14.sp,
+            )
         }
     }
 }

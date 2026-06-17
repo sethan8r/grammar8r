@@ -21,6 +21,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -45,6 +46,8 @@ data class ExerciseSessionUiState(
     val cardCompleted: Boolean = false,
     /** Счётчик тряски фрейма: растёт на каждый неверный ответ (фрейм реагирует на изменение). */
     val shakeKey: Int = 0,
+    /** Счётчик пульса фрейма: растёт на каждый верный ответ (фрейм увеличивается и возвращается). */
+    val pulseKey: Int = 0,
 )
 
 /** Одноразовое событие завершения сессии (карточка пройдена) — навигацию делает экран. */
@@ -72,10 +75,13 @@ class ExerciseSessionViewModel @Inject constructor(
         val passed: Set<ExerciseRef> = emptySet(),
     )
 
+    /** Триггеры анимации-фидбэка фрейма (растут на ответ): тряска — на неверный, пульс — на верный. */
+    private data class FeedbackTriggers(val shakeKey: Int = 0, val pulseKey: Int = 0)
+
     private val content = MutableStateFlow(Content())
     private val currentIndex = MutableStateFlow(0)
     private val answer = MutableStateFlow<ExerciseAnswer?>(null)
-    private val shakeKey = MutableStateFlow(0)
+    private val feedback = MutableStateFlow(FeedbackTriggers())
     private val answerDelegate = AnswerDelegate()
 
     private val _finished = Channel<ExerciseSessionFinished>(Channel.BUFFERED)
@@ -85,7 +91,7 @@ class ExerciseSessionViewModel @Inject constructor(
     val wrongAnswer: Flow<WrongAnswerEvent> = _wrongAnswer.receiveAsFlow()
 
     val uiState: StateFlow<ExerciseSessionUiState> =
-        combine(content, currentIndex, answer, answerDelegate.state, shakeKey) { content, index, answer, delegate, shake ->
+        combine(content, currentIndex, answer, answerDelegate.state, feedback) { content, index, answer, delegate, feedback ->
             val current = content.exercises.getOrNull(index)
             val ref = refOf(current)
             ExerciseSessionUiState(
@@ -103,7 +109,8 @@ class ExerciseSessionViewModel @Inject constructor(
                 isLastExercise = index >= content.exercises.lastIndex,
                 currentPassed = delegate.canProceed || content.cardCompleted || (ref != null && ref in content.passed),
                 cardCompleted = content.cardCompleted,
-                shakeKey = shake,
+                shakeKey = feedback.shakeKey,
+                pulseKey = feedback.pulseKey,
             )
         }.stateIn(
             scope = viewModelScope,
@@ -158,8 +165,10 @@ class ExerciseSessionViewModel @Inject constructor(
                 }
             }
         }
-        if (!correct) {
-            shakeKey.value += 1
+        if (correct) {
+            feedback.update { it.copy(pulseKey = it.pulseKey + 1) }
+        } else {
+            feedback.update { it.copy(shakeKey = it.shakeKey + 1) }
             viewModelScope.launch { _wrongAnswer.send(WrongAnswerEvent(firstAttempt = firstAttempt)) }
         }
     }
@@ -200,9 +209,9 @@ class ExerciseSessionViewModel @Inject constructor(
 
     /** Сбрасывает ввод, фазу и тряску под упражнение [index]; плашки-сегменты сразу проходимы. */
     private fun prepareForIndex(index: Int) {
-        // Сброс тряски на новом упражнении: иначе свежесмонтированный фрейм другого типа увидел бы
-        // shakeKey>0 и тряхнулся бы на входе (баг при переходе после неверного ответа).
-        shakeKey.value = 0
+        // Сброс триггеров тряски/пульса на новом упражнении: иначе свежесмонтированный фрейм другого
+        // типа увидел бы ключ>0 и проиграл бы анимацию на входе (баг при переходе после ответа).
+        feedback.value = FeedbackTriggers()
         val exercise = content.value.exercises.getOrNull(index)
         answer.value = when (exercise) {
             is Exercise.Choice -> ExerciseAnswer.SingleChoice()

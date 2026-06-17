@@ -3,8 +3,11 @@ package dev.sethan8r.grammar.app.ui.screens.exercise
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.ime
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -27,9 +30,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -174,7 +179,13 @@ private fun SessionContent(
 ) {
     val exercise = state.current ?: return
 
-    Column(modifier = Modifier.fillMaxSize()) {
+    // imePadding: при открытой клавиатуре (ввод в TEXT_INPUT) низ контента поднимается над ней —
+    // прокручиваемая часть ужимается, а кнопка «Проверить» остаётся видимой над клавиатурой.
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .imePadding(),
+    ) {
         ProgressRow(
             exercise = exercise,
             answered = state.currentPassed,
@@ -206,6 +217,7 @@ private fun SessionContent(
                     answer = state.answer as? ExerciseAnswer.SingleChoice,
                     phase = state.phase,
                     shakeKey = state.shakeKey,
+                    pulseKey = state.pulseKey,
                     onSelect = onSelectOption,
                 )
                 is Exercise.TextInput -> TextInputExerciseView(
@@ -213,6 +225,7 @@ private fun SessionContent(
                     answer = state.answer as? ExerciseAnswer.TextAnswers,
                     phase = state.phase,
                     shakeKey = state.shakeKey,
+                    pulseKey = state.pulseKey,
                     onChange = onTextChanged,
                 )
                 is Exercise.Unsupported -> UnsupportedExerciseView(exercise)
@@ -296,7 +309,19 @@ private fun SessionFooter(
     onCheck: () -> Unit,
     onNext: () -> Unit,
 ) {
-    Column(modifier = Modifier.padding(Dimens.screenPadding)) {
+    // Нижний зазор: над клавиатурой — нулевой (0dp), в покое — обычный (16dp). imePadding на
+    // контейнере поднимает футер над клавиатурой; здесь регулируем только величину зазора по факту
+    // видимости IME, чтобы покой остался прежним.
+    val imeVisible = WindowInsets.ime.getBottom(LocalDensity.current) > 0
+    val bottomGap = if (imeVisible) 0.dp else Dimens.screenPadding
+    Column(
+        modifier = Modifier.padding(
+            start = Dimens.screenPadding,
+            top = Dimens.screenPadding,
+            end = Dimens.screenPadding,
+            bottom = bottomGap,
+        ),
+    ) {
         if (canProceed) {
             Button(
                 onClick = onNext,

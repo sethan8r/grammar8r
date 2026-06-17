@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.text.InlineTextContent
 import androidx.compose.foundation.text.appendInlineContent
 import androidx.compose.material3.Text
@@ -25,6 +26,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
@@ -57,13 +59,14 @@ fun TextInputExerciseView(
     answer: ExerciseAnswer.TextAnswers?,
     phase: AnswerPhase,
     shakeKey: Int,
+    pulseKey: Int,
     onChange: (itemIndex: Int, value: String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val editable = phase == AnswerPhase.ANSWERING || phase == AnswerPhase.WRONG_FIRST
     val inputs = answer?.inputs.orEmpty()
 
-    ExerciseFrame(shakeKey = shakeKey, modifier = modifier) {
+    ExerciseFrame(shakeKey = shakeKey, pulseKey = pulseKey, modifier = modifier) {
         Column(
             modifier = Modifier.padding(horizontal = Dimens.cardPadding),
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceLarge),
@@ -89,9 +92,18 @@ fun TextInputExerciseView(
                     }
                 }
             }
-            if (phase == AnswerPhase.REVEALED && exercise.explanation.isNotBlank()) {
-                MarkdownText(text = exercise.explanation, color = TextSecondary, fontSize = 14.sp)
-            }
+        }
+
+        // Объяснение (при показе правильного ответа) — за такой же линией, как «шапка ↔ варианты»
+        // в заданиях с выбором (единый разделитель от края до края фрейма).
+        if (phase == AnswerPhase.REVEALED && exercise.explanation.isNotBlank()) {
+            ExerciseDivider()
+            MarkdownText(
+                text = exercise.explanation,
+                modifier = Modifier.padding(horizontal = Dimens.cardPadding),
+                color = TextSecondary,
+                fontSize = 14.sp,
+            )
         }
     }
 }
@@ -140,7 +152,13 @@ private fun SentenceWithBlank(
     )
 }
 
-/** Поле ввода в пропуске: свой фрейм (рамка), ввод по центру, курсор-акцент. */
+/**
+ * Поле ввода в пропуске: свой фрейм (рамка), ввод по центру, курсор-акцент. Автоподсказки/Т9
+ * выключены: в хардкод-задании подсказка клавиатуры = подсказка ответа (чит). Надёжно глушит
+ * подсказки `KeyboardType.Password` (Gboard игнорит один `autoCorrectEnabled`) — как в Words8r;
+ * текст при этом остаётся видимым, т.к. маскирует не тип клавиатуры, а `VisualTransformation`,
+ * а у [BasicTextField] она по умолчанию `None`. В AI-заданиях (Фаза 3) Т9 оставляем включённым.
+ */
 @Composable
 private fun BlankInputField(value: String, enabled: Boolean, onValueChange: (String) -> Unit) {
     Box(
@@ -157,6 +175,10 @@ private fun BlankInputField(value: String, enabled: Boolean, onValueChange: (Str
             enabled = enabled,
             singleLine = true,
             textStyle = TextStyle(color = TextPrimary, fontSize = 18.sp, textAlign = TextAlign.Center),
+            keyboardOptions = KeyboardOptions(
+                autoCorrectEnabled = false,
+                keyboardType = KeyboardType.Password,
+            ),
             cursorBrush = SolidColor(Accent),
             modifier = Modifier
                 .fillMaxWidth()

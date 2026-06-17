@@ -40,8 +40,8 @@ fun AiPlaceholderView(modifier: Modifier = Modifier) {
 
 @Composable
 private fun PlaceholderBody(message: String, sub: String?, modifier: Modifier = Modifier) {
-    // shakeKey = 0 — плашки не трясутся (неверного ответа на них не бывает).
-    ExerciseFrame(shakeKey = 0, modifier = modifier) {
+    // shakeKey/pulseKey = 0 — плашки не трясутся и не пульсируют (ответа на них не бывает).
+    ExerciseFrame(shakeKey = 0, pulseKey = 0, modifier = modifier) {
         Text(
             text = message,
             modifier = Modifier

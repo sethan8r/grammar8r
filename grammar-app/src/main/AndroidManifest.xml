@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Тактильный отклик на неверный ответ в упражнениях (вибрация «в такт» тряске карточки). -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:name=".Grammar8rApp"
         android:allowBackup="true"
