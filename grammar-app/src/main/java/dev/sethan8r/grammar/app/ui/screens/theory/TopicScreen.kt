@@ -32,6 +32,7 @@ import dev.sethan8r.grammar.app.ui.components.DualTitle
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
+import dev.sethan8r.grammar.app.ui.util.scrollBottomInset
 
 /**
  * Экран темы — список её микротем. Тап ведёт на листание карточек ([onMicrotopicClick]).
@@ -66,7 +67,10 @@ fun TopicScreen(
                 .fillMaxSize()
                 .padding(horizontal = Dimens.screenPadding),
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
-            contentPadding = PaddingValues(vertical = Dimens.spaceMedium),
+            contentPadding = PaddingValues(
+                top = Dimens.spaceMedium,
+                bottom = scrollBottomInset(),
+            ),
         ) {
             items(items = uiState.microtopics, key = { it.id }) { microtopic ->
                 MicrotopicRow(microtopic, onMicrotopicClick)

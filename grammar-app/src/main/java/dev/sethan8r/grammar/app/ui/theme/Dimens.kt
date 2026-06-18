@@ -28,7 +28,11 @@ object Dimens {
      * Тонкий тёмный зазор скроллящегося контента перед нижней кнопкой/навбаром (и под кнопкой).
      * Конвенция Words8r: ровный 16dp оставляет толстую тёмную полосу, 8dp — тонко и аккуратно.
      */
-    val bottomBarGap = 8.dp
+    val bottomBarGap8 = 8.dp
+    val bottomBarGap12 = 12.dp
+
+    /** Компенсация скролла. */
+    val bottomBarGap24 = 24.dp
 
     // Скругления
     val cornerSmall = 4.dp

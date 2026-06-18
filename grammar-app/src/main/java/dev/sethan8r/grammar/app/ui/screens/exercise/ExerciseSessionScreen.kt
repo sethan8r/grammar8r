@@ -1,6 +1,5 @@
 package dev.sethan8r.grammar.app.ui.screens.exercise
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -9,8 +8,10 @@ import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.ime
-import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.union
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -59,12 +60,12 @@ import dev.sethan8r.grammar.app.ui.components.exercise.ChoiceExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.TextInputExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.UnsupportedExerciseView
 import dev.sethan8r.grammar.app.ui.theme.Accent
-import dev.sethan8r.grammar.app.ui.theme.Alphas
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
+import dev.sethan8r.grammar.app.ui.util.bottomScrim
 
 /**
  * Экран-сессия упражнений карточки (полноэкранный, без навбара). Верх: название микротемы + кнопка
@@ -187,12 +188,13 @@ private fun SessionContent(
     // выше кнопки; под кнопку контент заходит только при прокрутке (там его затемняет подложка).
     var footerHeight by remember { mutableStateOf(0.dp) }
 
-    // imePadding: при открытой клавиатуре (ввод в TEXT_INPUT) низ контента поднимается над ней —
-    // прокручиваемая часть ужимается, а кнопка «Проверить» остаётся видимой над клавиатурой.
+    // Низ = max(клавиатура, системная полоса навигации): клавиатура скрыта → отступ держит футер над
+    // навбаром; открыта → контент ужимается, кнопка «Проверить» встаёт вплотную к клавиатуре. Навбар
+    // тут резервируем сами — NavHost на полноэкранных роутах его не добавляет (edge-to-edge).
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .imePadding(),
+            .windowInsetsPadding(WindowInsets.ime.union(WindowInsets.navigationBars)),
     ) {
         ProgressRow(
             exercise = exercise,
@@ -251,7 +253,7 @@ private fun SessionContent(
                     .align(Alignment.BottomCenter)
                     .fillMaxWidth()
                     .onGloballyPositioned { footerHeight = with(density) { it.size.height.toDp() } }
-                    .background(Background.copy(alpha = Alphas.footerScrim)),
+                    .bottomScrim(),
             ) {
                 // Уведомление — НАД кнопкой (не перекрывает «Проверить»).
                 FeedbackSnackbarHost(
@@ -331,17 +333,13 @@ private fun SessionFooter(
     onCheck: () -> Unit,
     onNext: () -> Unit,
 ) {
-    // Нижний зазор: над клавиатурой — нулевой (0dp), в покое — тонкий (bottomBarGap). imePadding на
-    // контейнере поднимает футер над клавиатурой; здесь регулируем только величину зазора по факту
-    // видимости IME, чтобы покой остался прежним.
-    val imeVisible = WindowInsets.ime.getBottom(LocalDensity.current) > 0
-    val bottomGap = if (imeVisible) 0.dp else Dimens.bottomBarGap
+
     Column(
         modifier = Modifier.padding(
             start = Dimens.screenPadding,
-            top = 0.dp,
+            top = 20.dp,
             end = Dimens.screenPadding,
-            bottom = Dimens.bottomBarGap,
+            bottom = Dimens.bottomBarGap12,
         ),
     ) {
         if (canProceed) {

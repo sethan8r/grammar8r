@@ -273,12 +273,29 @@ grammar-shared  ← общий КОНТРАКТ API между ними (чис�
 
 ### System navigation bar (insets)
 
-`enableEdgeToEdge()` включён в Activity. Insets обрабатываются один раз на уровне `MainActivity`:
+`enableEdgeToEdge()` включён в Activity. Базовая обработка — один раз на уровне `MainActivity`:
 
-- Нижний nav bar: внешний `Box` с `.navigationBarsPadding()` + `NavigationBar(windowInsets = WindowInsets(0))`  
-- Scaffold прокидывает `innerPadding` в `NavHost` через `.padding(innerPadding)`
+- Нижний nav bar: внешний `Box` с `.navigationBarsPadding()` + `NavigationBar(windowInsets = WindowInsets(0))`
+- Scaffold прокидывает `innerPadding` в `NavHost`, но **низ инсета применяется ТОЛЬКО на вкладках**
+  (там его держит боттом-бар): `bottom = if (showBottomBar) innerPadding.calculateBottomPadding() else 0.dp`.
+  Верх/бока — всегда.
 
-**Следствие:** экраны (MenuScreen, TheoryScreen и т.д.) не занимаются insets самостоятельно. Никаких `navigationBarsPadding()` или `statusBarsPadding()` внутри экранов — Scaffold уже обо всём позаботился. Работает и с gesture navigation, и с 3-кнопочной.
+**Вкладки** (корневые destination с боттом-баром): insets самостоятельно НЕ трогают — низ держит
+боттом-бар, верх/бока приходят из `innerPadding`. Никаких `navigationBarsPadding()`/`statusBarsPadding()`
+внутри таких экранов.
+
+**Полноэкранные роуты** (подэкраны теории, список карточек, сессия упражнений): низ НЕ резервируется —
+контент уходит edge-to-edge под прозрачную системную полосу. Поэтому **низ держит сам экран**:
+
+- Скроллящийся контент (`LazyColumn` `contentPadding` / `Column + verticalScroll` `padding(bottom=…)`) —
+  через общий хелпер `ui/util/scrollBottomInset()` (= высота навбар-инсета + единый зазор `Dimens.bottomBarGap`).
+  Любой новый полноэкранный скролл подключается им одной строкой — не считать инсет руками по экранам (Правило №0).
+- Экран с прибитой к низу кнопкой/футером (как сессия упражнений) — корневой контейнер берёт
+  `.windowInsetsPadding(WindowInsets.ime.union(WindowInsets.navigationBars))`: клавиатура скрыта → отступ над
+  навбаром, открыта → вплотную к клавиатуре (`union` = max, без двойного отступа и без дыры).
+
+Работает и с gesture navigation, и с 3-кнопочной (инсет берётся фактический). Голый `imePadding()`
+на полноэкранном экране НЕ использовать — он не учитывает навбар (см. `union` выше).
 
 ## Поиск и повторное прохождение в теории
 

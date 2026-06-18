@@ -8,7 +8,8 @@ import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.consumeWindowInsets
+import androidx.compose.foundation.layout.calculateEndPadding
+import androidx.compose.foundation.layout.calculateStartPadding
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -16,6 +17,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavDestination.Companion.hierarchy
@@ -78,6 +81,7 @@ fun MainScreen() {
     val showBottomBar = currentDestination?.hierarchy?.any { navDestination ->
         TopLevelDestination.entries.any { navDestination.hasRoute(it.route::class) }
     } == true
+    val layoutDirection = LocalLayoutDirection.current
 
     Scaffold(
         containerColor = Background,
@@ -103,10 +107,15 @@ fun MainScreen() {
             startDestination = LearnRoute,
             modifier = Modifier
                 .fillMaxSize()
-                .padding(innerPadding)
-                // Помечаем инсеты применёнными, иначе imePadding на экранах сложится с нижним
-                // навбар-инсетом → дыра между кнопкой и клавиатурой. Стандартный паттерн Scaffold+NavHost.
-                .consumeWindowInsets(innerPadding),
+                // Низ системного инсета применяем ТОЛЬКО на вкладках (там его держит боттом-бар). На
+                // полноэкранных роутах низ не резервируем → контент уходит edge-to-edge под прозрачную
+                // системную полосу; свой нижний отступ экран добавляет сам ([scrollBottomInset]).
+                .padding(
+                    top = innerPadding.calculateTopPadding(),
+                    start = innerPadding.calculateStartPadding(layoutDirection),
+                    end = innerPadding.calculateEndPadding(layoutDirection),
+                    bottom = if (showBottomBar) innerPadding.calculateBottomPadding() else 0.dp,
+                ),
             enterTransition = { EnterTransition.None },
             exitTransition = { ExitTransition.None },
         ) {

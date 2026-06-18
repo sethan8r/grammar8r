@@ -47,6 +47,7 @@ import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
+import dev.sethan8r.grammar.app.ui.util.scrollBottomInset
 import kotlinx.coroutines.launch
 
 /**
@@ -160,7 +161,7 @@ private fun CardPage(card: TheoryCard, isCompleted: Boolean, onPrimary: () -> Un
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
             .padding(horizontal = Dimens.screenPadding)
-            .padding(bottom = Dimens.spaceLarge),
+            .padding(bottom = scrollBottomInset()),
         verticalArrangement = Arrangement.spacedBy(Dimens.spaceLarge),
     ) {
         MarkdownText(
