@@ -1,6 +1,8 @@
 package dev.sethan8r.grammar.app.ui.screens.exercise
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.WindowInsets
@@ -30,6 +32,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -56,6 +59,7 @@ import dev.sethan8r.grammar.app.ui.components.exercise.ChoiceExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.TextInputExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.UnsupportedExerciseView
 import dev.sethan8r.grammar.app.ui.theme.Accent
+import dev.sethan8r.grammar.app.ui.theme.Alphas
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
@@ -178,6 +182,10 @@ private fun SessionContent(
     onNext: () -> Unit,
 ) {
     val exercise = state.current ?: return
+    val density = LocalDensity.current
+    // Высота плавающего футера → нижний отступ скролла: последняя строка задания может уехать
+    // выше кнопки; под кнопку контент заходит только при прокрутке (там его затемняет подложка).
+    var footerHeight by remember { mutableStateOf(0.dp) }
 
     // imePadding: при открытой клавиатуре (ввод в TEXT_INPUT) низ контента поднимается над ней —
     // прокручиваемая часть ужимается, а кнопка «Проверить» остаётся видимой над клавиатурой.
@@ -204,50 +212,64 @@ private fun SessionContent(
             fontSize = 11.sp,
         )
 
-        Column(
-            modifier = Modifier
-                .weight(1f)
-                .verticalScroll(rememberScrollState())
-                .padding(horizontal = Dimens.screenPadding)
-                .padding(top = Dimens.spaceSmall, bottom = Dimens.spaceLarge),
-        ) {
-            when (exercise) {
-                is Exercise.Choice -> ChoiceExerciseView(
-                    exercise = exercise,
-                    answer = state.answer as? ExerciseAnswer.SingleChoice,
-                    phase = state.phase,
-                    shakeKey = state.shakeKey,
-                    pulseKey = state.pulseKey,
-                    onSelect = onSelectOption,
+        // Тело: задание скроллится на всю высоту, кнопка плавает поверх него — полупрозрачная
+        // подложка затемняет уезжающий под неё контент, а не закрывает сплошной чёрной плашкой.
+        Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .verticalScroll(rememberScrollState())
+                    .padding(horizontal = Dimens.screenPadding)
+                    .padding(top = Dimens.spaceSmall)
+                    .padding(bottom = footerHeight),
+            ) {
+                when (exercise) {
+                    is Exercise.Choice -> ChoiceExerciseView(
+                        exercise = exercise,
+                        answer = state.answer as? ExerciseAnswer.SingleChoice,
+                        phase = state.phase,
+                        shakeKey = state.shakeKey,
+                        pulseKey = state.pulseKey,
+                        onSelect = onSelectOption,
+                    )
+                    is Exercise.TextInput -> TextInputExerciseView(
+                        exercise = exercise,
+                        answer = state.answer as? ExerciseAnswer.TextAnswers,
+                        phase = state.phase,
+                        shakeKey = state.shakeKey,
+                        pulseKey = state.pulseKey,
+                        onChange = onTextChanged,
+                    )
+                    is Exercise.Unsupported -> UnsupportedExerciseView(exercise)
+                    is Exercise.AiPlaceholder -> AiPlaceholderView()
+                }
+            }
+
+            // Плавающий футер: снекбар-фидбэк + кнопка на полупрозрачной подложке.
+            Column(
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .fillMaxWidth()
+                    .onGloballyPositioned { footerHeight = with(density) { it.size.height.toDp() } }
+                    .background(Background.copy(alpha = Alphas.footerScrim)),
+            ) {
+                // Уведомление — НАД кнопкой (не перекрывает «Проверить»).
+                FeedbackSnackbarHost(
+                    hostState = snackbarHostState,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = Dimens.screenPadding),
                 )
-                is Exercise.TextInput -> TextInputExerciseView(
-                    exercise = exercise,
-                    answer = state.answer as? ExerciseAnswer.TextAnswers,
-                    phase = state.phase,
-                    shakeKey = state.shakeKey,
-                    pulseKey = state.pulseKey,
-                    onChange = onTextChanged,
+
+                SessionFooter(
+                    canProceed = state.canProceed,
+                    canCheck = state.canCheck,
+                    isLast = state.isLastExercise,
+                    onCheck = onCheck,
+                    onNext = onNext,
                 )
-                is Exercise.Unsupported -> UnsupportedExerciseView(exercise)
-                is Exercise.AiPlaceholder -> AiPlaceholderView()
             }
         }
-
-        // Уведомление — НАД кнопкой (в потоке, не перекрывает «Проверить»).
-        FeedbackSnackbarHost(
-            hostState = snackbarHostState,
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = Dimens.screenPadding),
-        )
-
-        SessionFooter(
-            canProceed = state.canProceed,
-            canCheck = state.canCheck,
-            isLast = state.isLastExercise,
-            onCheck = onCheck,
-            onNext = onNext,
-        )
     }
 }
 
@@ -309,17 +331,17 @@ private fun SessionFooter(
     onCheck: () -> Unit,
     onNext: () -> Unit,
 ) {
-    // Нижний зазор: над клавиатурой — нулевой (0dp), в покое — обычный (16dp). imePadding на
+    // Нижний зазор: над клавиатурой — нулевой (0dp), в покое — тонкий (bottomBarGap). imePadding на
     // контейнере поднимает футер над клавиатурой; здесь регулируем только величину зазора по факту
     // видимости IME, чтобы покой остался прежним.
     val imeVisible = WindowInsets.ime.getBottom(LocalDensity.current) > 0
-    val bottomGap = if (imeVisible) 0.dp else Dimens.screenPadding
+    val bottomGap = if (imeVisible) 0.dp else Dimens.bottomBarGap
     Column(
         modifier = Modifier.padding(
             start = Dimens.screenPadding,
-            top = Dimens.screenPadding,
+            top = 0.dp,
             end = Dimens.screenPadding,
-            bottom = bottomGap,
+            bottom = Dimens.bottomBarGap,
         ),
     ) {
         if (canProceed) {

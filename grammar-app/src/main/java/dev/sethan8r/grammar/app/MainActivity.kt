@@ -8,6 +8,7 @@ import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -102,7 +103,10 @@ fun MainScreen() {
             startDestination = LearnRoute,
             modifier = Modifier
                 .fillMaxSize()
-                .padding(innerPadding),
+                .padding(innerPadding)
+                // Помечаем инсеты применёнными, иначе imePadding на экранах сложится с нижним
+                // навбар-инсетом → дыра между кнопкой и клавиатурой. Стандартный паттерн Scaffold+NavHost.
+                .consumeWindowInsets(innerPadding),
             enterTransition = { EnterTransition.None },
             exitTransition = { ExitTransition.None },
         ) {
