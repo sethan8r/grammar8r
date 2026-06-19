@@ -20,6 +20,13 @@ enum class AnswerPhase {
 }
 
 /**
+ * Можно ли сейчас редактировать ответ (выбирать вариант / печатать). Единственное определение правила
+ * (Правило №0) — используется и делегатом ([AnswerDelegate.State.isEditable]), и рендерерами заданий.
+ */
+val AnswerPhase.isEditable: Boolean
+    get() = this == AnswerPhase.ANSWERING || this == AnswerPhase.WRONG_FIRST
+
+/**
  * Делегат-механика «ответ на карточку-задание» (foundation_plan §7, roadmap F1): 2 попытки, фидбэк,
  * «Далее» открывается только после ответа. Свой [StateFlow] — включается КОМПОЗИЦИЕЙ во ViewModel
  * сессии и переиспользуется всеми типами упражнений (НЕ копипаста по типам, НЕ наследование).
@@ -33,7 +40,7 @@ class AnswerDelegate {
         val attemptsUsed: Int = 0,
     ) {
         /** Ответ можно редактировать (выбирать вариант / печатать). */
-        val isEditable: Boolean get() = phase == AnswerPhase.ANSWERING || phase == AnswerPhase.WRONG_FIRST
+        val isEditable: Boolean get() = phase.isEditable
         /** Доступна кнопка «Далее» (ответ завершён — верно или показан правильный). */
         val canProceed: Boolean get() = phase == AnswerPhase.CORRECT || phase == AnswerPhase.REVEALED
     }

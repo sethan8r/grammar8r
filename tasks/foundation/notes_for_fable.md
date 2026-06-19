@@ -122,6 +122,24 @@ DTO/контракт — в `grammar-shared`; интерфейсы — `domain/r
   проверь поток на edge-кейсах (process death, повторное завершение уже пройденной микротемы).
 - decision_log → «Шаг F1» (7 записей).
 
+## 3b. Шаг F2 — группа «выбор варианта» (что проверить)
+
+- **Зонтик `Exercise.SingleSelect`** (sealed sub-interface) объединил 7 типов с выбором одного варианта:
+  3 трека Choice + ERROR_CORRECTION + CONSTRUCTION_MEANING + DIALOG_RESTORE + FIND_THE_ODD. Несёт общий
+  контракт `options/explanation/type`. Движок (evaluator, `refOf`, `prepareForIndex`, `canCheck`, рендер-ветка)
+  работает с зонтиком, а не с каждым типом — добавление родственного типа = только новый вариант + шапка.
+  Проверь, что зонтик не «протёк» (всё, что в нём, реально single-select-one-correct) и FIND_THE_ODD как
+  «выбери лишний» корректно ложится на «выбери правильный» (лишний → `isCorrect`, маппинг в `ExerciseContentMapper`).
+- **`SingleSelectExerciseView` + `SingleSelectHeader`** — один рендерер + слот-шапка; типы отличаются ТОЛЬКО
+  подачей условия. Проверь, что это не превратится в свалку при росте (сейчас 5 шапок в одном `when`).
+- **Multi-correct у ERROR_CORRECTION:** db_schema допускает 1–2 правильных. Evaluator уже корректен (выбран
+  правильный → верно), reveal подсвечивает зелёным ВСЕ `isCorrect`. В `basics.json` все ErrorCorrection —
+  с одним правильным; проверь, нужен ли реально multi-select где-то (тогда `ExerciseAnswer` расширять).
+- **Чистка дублей (Правило №0):** правило «можно отвечать» → `AnswerPhase.isEditable` (один источник, три
+  бывшие копии заменены); reveal-блок объяснения → общий `ExerciseExplanation` (Choice/новые + TextInput);
+  разбор `options` → `ExerciseContentMapper.parseOptions`. Проверь, что не осталось расхождений.
+- decision_log → «Шаг F2».
+
 ## 4. Куда смотреть (источники правды, не переписаны здесь)
 
 - `tasks/foundation/foundation_plan.md` — план, который Opus выполняет.

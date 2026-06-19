@@ -35,8 +35,8 @@ import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
 import dev.sethan8r.grammar.app.domain.model.exercise.TextItem
-import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
+import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
@@ -63,7 +63,7 @@ fun TextInputExerciseView(
     onChange: (itemIndex: Int, value: String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    val editable = phase == AnswerPhase.ANSWERING || phase == AnswerPhase.WRONG_FIRST
+    val editable = phase.isEditable
     val inputs = answer?.inputs.orEmpty()
 
     ExerciseFrame(shakeKey = shakeKey, pulseKey = pulseKey, modifier = modifier) {
@@ -94,17 +94,8 @@ fun TextInputExerciseView(
             }
         }
 
-        // Объяснение (при показе правильного ответа) — за такой же линией, как «шапка ↔ варианты»
-        // в заданиях с выбором (единый разделитель от края до края фрейма).
-        if (phase == AnswerPhase.REVEALED && exercise.explanation.isNotBlank()) {
-            ExerciseDivider()
-            MarkdownText(
-                text = exercise.explanation,
-                modifier = Modifier.padding(horizontal = Dimens.cardPadding),
-                color = TextSecondary,
-                fontSize = 14.sp,
-            )
-        }
+        // Объяснение на реванше — единый блок (линия + текст), общий с заданиями выбора варианта.
+        ExerciseExplanation(phase = phase, text = exercise.explanation)
     }
 }
 

@@ -202,7 +202,7 @@ class ExerciseSessionViewModel @Inject constructor(
 
     /** Ссылка на хардкод-упражнение (для записи результата / зелёного ID); у плашек её нет. */
     private fun refOf(exercise: Exercise?): ExerciseRef? = when (exercise) {
-        is Exercise.Choice -> ExerciseRef(exercise.type, exercise.id)
+        is Exercise.SingleSelect -> ExerciseRef(exercise.type, exercise.id)
         is Exercise.TextInput -> ExerciseRef(exercise.type, exercise.id)
         else -> null
     }
@@ -214,7 +214,7 @@ class ExerciseSessionViewModel @Inject constructor(
         feedback.value = FeedbackTriggers()
         val exercise = content.value.exercises.getOrNull(index)
         answer.value = when (exercise) {
-            is Exercise.Choice -> ExerciseAnswer.SingleChoice()
+            is Exercise.SingleSelect -> ExerciseAnswer.SingleChoice()
             is Exercise.TextInput -> ExerciseAnswer.TextAnswers(List(exercise.items.size) { "" })
             else -> null
         }
@@ -223,7 +223,7 @@ class ExerciseSessionViewModel @Inject constructor(
 
     private fun canCheck(exercise: Exercise?, answer: ExerciseAnswer?): Boolean = when (exercise) {
         // Нужен выбранный вариант.
-        is Exercise.Choice -> (answer as? ExerciseAnswer.SingleChoice)?.selectedIndex?.let { it >= 0 } == true
+        is Exercise.SingleSelect -> (answer as? ExerciseAnswer.SingleChoice)?.selectedIndex?.let { it >= 0 } == true
         // Пустой ответ бывает валиден (Ответ: «—»), поэтому проверку разрешаем всегда.
         is Exercise.TextInput -> true
         else -> false

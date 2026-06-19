@@ -46,7 +46,19 @@ class ExerciseRepositoryImpl @Inject constructor(
                 HardcodedExerciseType.TEXT_INPUT ->
                     exerciseDao.getTextInput(index.exerciseId)?.let(mapper::toTextInput)
 
-                // Остальные типы — пока заглушка (реализуются в F2–F4).
+                HardcodedExerciseType.ERROR_CORRECTION ->
+                    exerciseDao.getErrorCorrection(index.exerciseId)?.let(mapper::toErrorCorrection)
+
+                HardcodedExerciseType.CONSTRUCTION_MEANING ->
+                    exerciseDao.getConstructionMeaning(index.exerciseId)?.let(mapper::toConstructionMeaning)
+
+                HardcodedExerciseType.DIALOG_RESTORE ->
+                    exerciseDao.getDialogRestore(index.exerciseId)?.let(mapper::toDialogRestore)
+
+                HardcodedExerciseType.FIND_THE_ODD ->
+                    exerciseDao.getFindTheOdd(index.exerciseId)?.let(mapper::toFindTheOdd)
+
+                // Остальные типы — пока заглушка (реализуются в F3–F4).
                 else -> null
             }
             exercise ?: Exercise.Unsupported(index.exerciseId, index.exerciseType)

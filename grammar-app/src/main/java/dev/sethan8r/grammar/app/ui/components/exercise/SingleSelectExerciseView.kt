@@ -13,51 +13,50 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
+import dev.sethan8r.grammar.app.domain.model.exercise.Option
 import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
+import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.IncorrectRed
-import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 
 /** Визуальное состояние варианта ответа. */
 private enum class OptionVisual { NORMAL, SELECTED, CORRECT, WRONG_PICK }
 
 /**
- * Рендерер упражнений с выбором варианта (MULTIPLE_CHOICE / FORWARD_CHOICE / REVERSE_CHOICE — один
- * UI, см. exercise_templates.md). На реализации F2 (ErrorCorrection и др.) сядет этот же компонент.
- * Внутри [ExerciseFrame]: шапка-условие → линия-разделитель от края до края → варианты →
- * объяснение на реванше. Контентный текст — через [MarkdownText].
+ * Единый рендерер заданий с выбором одного варианта ([dev.sethan8r.grammar.app.domain.model.exercise.Exercise.SingleSelect]):
+ * MULTIPLE_CHOICE / FORWARD_CHOICE / REVERSE_CHOICE / ERROR_CORRECTION / CONSTRUCTION_MEANING /
+ * DIALOG_RESTORE / FIND_THE_ODD. Внутри [ExerciseFrame]: шапка-условие (слот [header]) →
+ * линия-разделитель от края до края → варианты → объяснение на реванше. Типы отличаются ТОЛЬКО
+ * содержимым шапки (Правило №0) — её даёт вызывающий через [SingleSelectHeader].
  */
 @Composable
-fun ChoiceExerciseView(
-    exercise: Exercise.Choice,
-    answer: ExerciseAnswer.SingleChoice?,
+fun SingleSelectExerciseView(
+    options: List<Option>,
+    selectedIndex: Int,
     phase: AnswerPhase,
     shakeKey: Int,
     pulseKey: Int,
+    explanation: String,
     onSelect: (Int) -> Unit,
     modifier: Modifier = Modifier,
+    header: @Composable () -> Unit,
 ) {
-    val selected = answer?.selectedIndex ?: -1
-    val correctIndex = exercise.options.indexOfFirst { it.isCorrect }
+    // Все правильные варианты (db_schema допускает 2+ у ErrorCorrection) — на реванше подсвечиваем зелёным все.
+    val correctIndices = options.indices.filter { options[it].isCorrect }.toSet()
+    val editable = phase.isEditable
 
     ExerciseFrame(shakeKey = shakeKey, pulseKey = pulseKey, modifier = modifier) {
         // Шапка-условие (с горизонтальным отступом — разделитель ниже идёт от края до края).
         Column(
             modifier = Modifier.padding(horizontal = Dimens.cardPadding),
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceTiny),
-        ) {
-            MarkdownText(text = exercise.prompt, fontSize = 18.sp, renderBlanks = true)
-            if (exercise.contextRu.isNotBlank()) {
-                MarkdownText(text = exercise.contextRu, color = TextSecondary, fontSize = 14.sp)
-            }
-        }
+            content = { header() },
+        )
 
         // Разделитель «шапка ↔ варианты» (единый компонент, от края до края фрейма).
         ExerciseDivider()
@@ -66,37 +65,33 @@ fun ChoiceExerciseView(
             modifier = Modifier.padding(horizontal = Dimens.cardPadding),
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
         ) {
-            exercise.options.forEachIndexed { index, option ->
+            options.forEachIndexed { index, option ->
                 OptionRow(
                     text = option.text,
-                    visual = visualFor(phase, index, selected, correctIndex),
-                    enabled = phase == AnswerPhase.ANSWERING || phase == AnswerPhase.WRONG_FIRST,
+                    visual = visualFor(phase, index, selectedIndex, correctIndices),
+                    enabled = editable,
                     onClick = { onSelect(index) },
                 )
             }
         }
 
-        // Объяснение (при показе правильного ответа) — за такой же линией, как «шапка ↔ варианты».
-        if (phase == AnswerPhase.REVEALED && exercise.explanation.isNotBlank()) {
-            ExerciseDivider()
-            MarkdownText(
-                text = exercise.explanation,
-                modifier = Modifier.padding(horizontal = Dimens.cardPadding),
-                color = TextSecondary,
-                fontSize = 14.sp,
-            )
-        }
+        ExerciseExplanation(phase = phase, text = explanation)
     }
 }
 
-private fun visualFor(phase: AnswerPhase, index: Int, selected: Int, correctIndex: Int): OptionVisual = when (phase) {
+private fun visualFor(
+    phase: AnswerPhase,
+    index: Int,
+    selected: Int,
+    correctIndices: Set<Int>,
+): OptionVisual = when (phase) {
     AnswerPhase.ANSWERING, AnswerPhase.WRONG_FIRST ->
         if (index == selected) OptionVisual.SELECTED else OptionVisual.NORMAL
     AnswerPhase.CORRECT ->
         if (index == selected) OptionVisual.CORRECT else OptionVisual.NORMAL
-    AnswerPhase.REVEALED -> when (index) {
-        correctIndex -> OptionVisual.CORRECT
-        selected -> OptionVisual.WRONG_PICK
+    AnswerPhase.REVEALED -> when {
+        index in correctIndices -> OptionVisual.CORRECT
+        index == selected -> OptionVisual.WRONG_PICK
         else -> OptionVisual.NORMAL
     }
 }

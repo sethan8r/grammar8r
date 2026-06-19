@@ -11,7 +11,8 @@ import dev.sethan8r.grammar.app.domain.model.exercise.TextItem
 object ExerciseEvaluator {
 
     fun isCorrect(exercise: Exercise, answer: ExerciseAnswer?): Boolean = when (exercise) {
-        is Exercise.Choice -> {
+        // Все типы с выбором варианта: верно, если выбранный вариант помечен правильным.
+        is Exercise.SingleSelect -> {
             val picked = (answer as? ExerciseAnswer.SingleChoice)?.selectedIndex ?: -1
             exercise.options.getOrNull(picked)?.isCorrect == true
         }

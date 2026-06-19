@@ -47,7 +47,7 @@
 
 ---
 
-## Маршрут: A → B → C → D1 → D2 → E → F1 → F2 → F3 → F4
+## Маршрут: A✅ → B✅ → C✅ → D1✅ → D2✅ → E✅ → F1✅ → F2✅ → **F3** → F4
 
 Легенда статуса: ⬜ не начато · 🟦 в работе · ✅ готово.
 
@@ -258,11 +258,29 @@
 - **decision_log:** раздел «Шаг F1» (7 записей). **CLAUDE/db_schema/grammar8r_plan** синхронизированы.
 - **Self-prompt:** переписан в `_next_session_prompt.md` под **F2**.
 
-### ⬜ Шаг F2. Группа «выбор варианта»  🟡
+### ✅ Шаг F2. Группа «выбор варианта»  🟡 — ГОТОВО (2026-06-19, сборку гонит пользователь)
 MULTIPLE_CHOICE / FORWARD_CHOICE / REVERSE_CHOICE / ERROR_CORRECTION / CONSTRUCTION_MEANING /
 DIALOG_RESTORE / FIND_THE_ODD — на одном базовом компоненте выбора, различие в подаче условия.
-- **Очистка контекста:** ✅ да (нужны: готовый движок F1 + db_schema + exercise_templates).
-- **Self-prompt:** _<…>_
+- ✅ Реализовано:
+  - **Зонтик `Exercise.SingleSelect`** (sealed sub-interface, `options/explanation/type`): `Choice` его
+    реализует, добавлены `ErrorCorrection`/`ConstructionMeaning`/`DialogRestore`/`FindTheOdd`. Движок
+    (evaluator, VM `refOf`/`prepareForIndex`/`canCheck`, рендер-ветка) свёрнут на `is SingleSelect` —
+    одна ветка на все 7 типов.
+  - **Маппер** (+4 метода, общий `parseOptions`), **репозиторий** (+4 ветки; DAO-геттеры уже были).
+    FIND_THE_ODD: `items[{text,isOdd}]` → `Option(text, isCorrect=isOdd)`.
+  - **UI:** `SingleSelectExerciseView` (бывш. `ChoiceExerciseView`, обобщён слотом-шапкой) +
+    `SingleSelectHeader` (5 шапок: Choice / Statement / Instruction / Dialog). reveal красит зелёным
+    ВСЕ верные (multi-correct у ErrorCorrection). Строки `exercise_desc_*` (+4).
+  - **Чистка дублей (Правило №0):** `AnswerPhase.isEditable` (1 источник, 3 копии убраны),
+    `ExerciseExplanation` (общий reveal-блок, 2 копии убраны), `parseOptions`. `ChoiceExerciseView` удалён.
+  - Плашка `Unsupported` для этих 4 типов больше не появляется (остаются TABLE_FILL/WORD_ARRANGEMENT/
+    TRANSFORMATION/MATCHING/TRUE_FALSE/CATEGORIZATION → F3–F4).
+- **⏳ Осталось пользователю:** собрать (`assembleDebug`), пройти на `basics.json` 4 новых типа
+  (ERROR_CORRECTION 37, FIND_THE_ODD 13, DIALOG_RESTORE 9, CONSTRUCTION_MEANING 5). user.db НЕ менялась —
+  сносить данные не нужно.
+- **decision_log:** раздел «Шаг F2». **notes_for_fable:** раздел «3b Шаг F2».
+- **Self-prompt:** переписан в `_next_session_prompt.md` под **F3**.
+- **Очистка контекста:** ✅ да.
 
 ### ⬜ Шаг F3. Группа «ввод / сборка»  🟡
 WORD_ARRANGEMENT (чипы + попап перевода), TRANSFORMATION (двойной ввод: отрицание+вопрос),

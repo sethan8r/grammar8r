@@ -56,7 +56,8 @@ import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.components.SegmentedProgressBar
 import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.components.exercise.AiPlaceholderView
-import dev.sethan8r.grammar.app.ui.components.exercise.ChoiceExerciseView
+import dev.sethan8r.grammar.app.ui.components.exercise.SingleSelectExerciseView
+import dev.sethan8r.grammar.app.ui.components.exercise.SingleSelectHeader
 import dev.sethan8r.grammar.app.ui.components.exercise.TextInputExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.UnsupportedExerciseView
 import dev.sethan8r.grammar.app.ui.theme.Accent
@@ -226,13 +227,15 @@ private fun SessionContent(
                     .padding(bottom = footerHeight),
             ) {
                 when (exercise) {
-                    is Exercise.Choice -> ChoiceExerciseView(
-                        exercise = exercise,
-                        answer = state.answer as? ExerciseAnswer.SingleChoice,
+                    is Exercise.SingleSelect -> SingleSelectExerciseView(
+                        options = exercise.options,
+                        selectedIndex = (state.answer as? ExerciseAnswer.SingleChoice)?.selectedIndex ?: -1,
                         phase = state.phase,
                         shakeKey = state.shakeKey,
                         pulseKey = state.pulseKey,
+                        explanation = exercise.explanation,
                         onSelect = onSelectOption,
+                        header = { SingleSelectHeader(exercise) },
                     )
                     is Exercise.TextInput -> TextInputExerciseView(
                         exercise = exercise,
@@ -275,22 +278,26 @@ private fun SessionContent(
     }
 }
 
-/** Подпись типа задания (приглушённая). У хардкода — имя типа, у плашки умного задания — «Умное задание». */
-/** Подпись задания: «ТИП · краткое описание что делать» (описание захардкожено по типу). */
+/** Подпись задания: «ТИП · краткое описание что делать» (описание по типу, из strings.xml). */
 @Composable
 private fun exerciseTypeLabel(exercise: Exercise): String = when (exercise) {
-    is Exercise.Choice -> {
-        val descRes = when (exercise.choiceType) {
-            ChoiceType.CHOICE -> R.string.exercise_desc_multiple_choice
-            ChoiceType.FORWARD_CHOICE -> R.string.exercise_desc_forward_choice
-            ChoiceType.REVERSE_CHOICE -> R.string.exercise_desc_reverse_choice
-        }
-        exercise.type.name + " · " + stringResource(descRes)
-    }
+    is Exercise.SingleSelect -> exercise.type.name + " · " + stringResource(singleSelectDescRes(exercise))
     is Exercise.TextInput -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_text_input)
     is Exercise.Unsupported -> exercise.type.name
     // У умного задания вместо типа — его (длинный) строковый ID; в маленький бокс он не влезает.
     is Exercise.AiPlaceholder -> exercise.exerciseId
+}
+
+private fun singleSelectDescRes(exercise: Exercise.SingleSelect): Int = when (exercise) {
+    is Exercise.Choice -> when (exercise.choiceType) {
+        ChoiceType.CHOICE -> R.string.exercise_desc_multiple_choice
+        ChoiceType.FORWARD_CHOICE -> R.string.exercise_desc_forward_choice
+        ChoiceType.REVERSE_CHOICE -> R.string.exercise_desc_reverse_choice
+    }
+    is Exercise.ErrorCorrection -> R.string.exercise_desc_error_correction
+    is Exercise.ConstructionMeaning -> R.string.exercise_desc_construction_meaning
+    is Exercise.DialogRestore -> R.string.exercise_desc_dialog_restore
+    is Exercise.FindTheOdd -> R.string.exercise_desc_find_the_odd
 }
 
 /** Полоса прогресса по сегментам + зелёный бокс ID СПРАВА (как в карточках микротемы). */

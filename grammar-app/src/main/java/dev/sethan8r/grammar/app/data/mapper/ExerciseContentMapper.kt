@@ -1,7 +1,12 @@
 package dev.sethan8r.grammar.app.data.mapper
 
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.ConstructionMeaningExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.DialogRestoreExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.ErrorCorrectionExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.FindTheOddExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.MultipleChoiceExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TextInputExercise
+import dev.sethan8r.grammar.app.domain.model.exercise.DialogLine
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.Option
 import dev.sethan8r.grammar.app.domain.model.exercise.TextItem
@@ -21,8 +26,7 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
         choiceType = entity.choiceType,
         prompt = entity.prompt,
         contextRu = entity.contextRu,
-        options = json.decodeFromString<List<OptionJson>>(entity.options)
-            .map { Option(text = it.text, isCorrect = it.isCorrect) },
+        options = parseOptions(entity.options),
         explanation = entity.explanation,
     )
 
@@ -32,6 +36,42 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
             .map { TextItem(it.sentence, it.contextRu, it.answer, it.alternatives) },
         explanation = entity.explanation,
     )
+
+    fun toErrorCorrection(entity: ErrorCorrectionExercise): Exercise.ErrorCorrection = Exercise.ErrorCorrection(
+        id = entity.id,
+        wrongSentence = entity.wrongSentence,
+        options = parseOptions(entity.options),
+        explanation = entity.explanation,
+    )
+
+    fun toConstructionMeaning(entity: ConstructionMeaningExercise): Exercise.ConstructionMeaning =
+        Exercise.ConstructionMeaning(
+            id = entity.id,
+            construction = entity.construction,
+            options = parseOptions(entity.options),
+            explanation = entity.explanation,
+        )
+
+    fun toDialogRestore(entity: DialogRestoreExercise): Exercise.DialogRestore = Exercise.DialogRestore(
+        id = entity.id,
+        lines = json.decodeFromString<List<DialogLineJson>>(entity.lines)
+            .map { DialogLine(speaker = it.speaker, text = it.text) },
+        options = parseOptions(entity.options),
+        explanation = entity.explanation,
+    )
+
+    /** FIND_THE_ODD: элементы ложатся в общие [Option] — лишний (`isOdd`) становится правильным выбором. */
+    fun toFindTheOdd(entity: FindTheOddExercise): Exercise.FindTheOdd = Exercise.FindTheOdd(
+        id = entity.id,
+        groupDescription = entity.groupDescription,
+        options = json.decodeFromString<List<OddItemJson>>(entity.items)
+            .map { Option(text = it.text, isCorrect = it.isOdd) },
+        explanation = entity.explanation,
+    )
+
+    /** Общий разбор поля `options` (одинаков у всех типов с выбором варианта) — Правило №0. */
+    private fun parseOptions(raw: String): List<Option> =
+        json.decodeFromString<List<OptionJson>>(raw).map { Option(text = it.text, isCorrect = it.isCorrect) }
 
     @Serializable
     private data class OptionJson(val text: String = "", val isCorrect: Boolean = false)
@@ -43,4 +83,10 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
         val answer: String = "",
         val alternatives: List<String> = emptyList(),
     )
+
+    @Serializable
+    private data class DialogLineJson(val speaker: String = "", val text: String? = null)
+
+    @Serializable
+    private data class OddItemJson(val text: String = "", val isOdd: Boolean = false)
 }
