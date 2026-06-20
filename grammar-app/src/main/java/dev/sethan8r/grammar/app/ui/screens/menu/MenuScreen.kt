@@ -1,9 +1,8 @@
 package dev.sethan8r.grammar.app.ui.screens.menu
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -24,11 +23,16 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.R
-import dev.sethan8r.grammar.app.ui.components.MenuButton
+import dev.sethan8r.grammar.app.ui.components.menu.MenuAccountCard
+import dev.sethan8r.grammar.app.ui.components.menu.MenuGroup
+import dev.sethan8r.grammar.app.ui.components.menu.MenuItem
 import dev.sethan8r.grammar.app.ui.theme.Accent
+import dev.sethan8r.grammar.app.ui.theme.Dimens
+
+/** Серия заходов в карточке аккаунта — плейсхолдер до подключения реального стрика (Фаза 4). */
+private const val PLACEHOLDER_STREAK_DAYS = 7
 
 @Composable
 fun MenuScreen() {
@@ -36,45 +40,59 @@ fun MenuScreen() {
         modifier = Modifier
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
-            .padding(horizontal = 16.dp),
+            .padding(horizontal = Dimens.screenPadding)
+            .padding(bottom = Dimens.spaceXLarge),
+        verticalArrangement = Arrangement.spacedBy(Dimens.spaceXLarge),
     ) {
-        Spacer(Modifier.height(16.dp))
         Text(
             text = stringResource(R.string.menu_title),
+            modifier = Modifier.padding(top = Dimens.spaceLarge),
             color = Accent,
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
         )
-        Spacer(Modifier.height(24.dp))
 
-        MenuButton(stringResource(R.string.menu_profile), Icons.Filled.AccountCircle) {}
-        Spacer(Modifier.height(12.dp))
+        MenuAccountCard(
+            name = stringResource(R.string.menu_account_name),
+            streakDays = PLACEHOLDER_STREAK_DAYS,
+            onClick = {},
+        )
 
-        MenuButton(stringResource(R.string.menu_add_word), Icons.Filled.Add) {}
-        Spacer(Modifier.height(12.dp))
+        MenuGroup(
+            title = stringResource(R.string.menu_section_account),
+            items = listOf(
+                MenuItem(stringResource(R.string.menu_profile), Icons.Filled.AccountCircle) {},
+                MenuItem(stringResource(R.string.menu_add_word), Icons.Filled.Add) {},
+                MenuItem(stringResource(R.string.menu_dictionary), bookIcon()) {},
+            ),
+        )
 
-        MenuButton(stringResource(R.string.menu_dictionary), ImageVector.vectorResource(R.drawable.ic_book_5)) {}
-        Spacer(Modifier.height(12.dp))
+        MenuGroup(
+            title = stringResource(R.string.menu_section_data),
+            items = listOf(
+                MenuItem(stringResource(R.string.menu_backup), Icons.Filled.Publish) {},
+                MenuItem(stringResource(R.string.menu_restore), Icons.Filled.GetApp) {},
+            ),
+        )
 
-        MenuButton(stringResource(R.string.menu_backup), Icons.Filled.Publish) {}
-        Spacer(Modifier.height(12.dp))
+        MenuGroup(
+            title = stringResource(R.string.menu_section_settings),
+            items = listOf(
+                MenuItem(stringResource(R.string.menu_notifications), Icons.Filled.Notifications) {},
+                MenuItem(stringResource(R.string.menu_hint_limit), Icons.Filled.Edit) {},
+                MenuItem(stringResource(R.string.menu_settings), Icons.Filled.Tune) {},
+            ),
+        )
 
-        MenuButton(stringResource(R.string.menu_restore), Icons.Filled.GetApp) {}
-        Spacer(Modifier.height(12.dp))
-
-        MenuButton(stringResource(R.string.menu_hint_limit), Icons.Filled.Edit) {}
-        Spacer(Modifier.height(12.dp))
-
-        MenuButton(stringResource(R.string.menu_notifications), Icons.Filled.Notifications) {}
-        Spacer(Modifier.height(12.dp))
-
-        MenuButton(stringResource(R.string.menu_settings), Icons.Filled.Tune) {}
-        Spacer(Modifier.height(12.dp))
-
-        MenuButton(stringResource(R.string.menu_support), Icons.Filled.Email) {}
-        Spacer(Modifier.height(12.dp))
-
-        MenuButton(stringResource(R.string.menu_about), Icons.AutoMirrored.Filled.Subject) {}
-        Spacer(Modifier.height(24.dp))
+        MenuGroup(
+            title = stringResource(R.string.menu_section_help),
+            items = listOf(
+                MenuItem(stringResource(R.string.menu_support), Icons.Filled.Email) {},
+                MenuItem(stringResource(R.string.menu_about), Icons.AutoMirrored.Filled.Subject) {},
+            ),
+        )
     }
 }
+
+@Composable
+private fun bookIcon(): ImageVector = ImageVector.vectorResource(R.drawable.ic_book_5)

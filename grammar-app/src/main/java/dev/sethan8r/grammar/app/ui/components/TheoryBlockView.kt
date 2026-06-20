@@ -33,6 +33,7 @@ import kotlin.math.ceil
 import dev.sethan8r.grammar.app.domain.model.theory.CalloutVariant
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
 import dev.sethan8r.grammar.app.ui.theme.Accent
+import dev.sethan8r.grammar.app.ui.theme.Highlight
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
@@ -214,8 +215,8 @@ private fun TableRow(cells: List<String>, isHeader: Boolean, widths: List<Dp>) {
 private fun CalloutBlock(block: TheoryBlock.Callout) {
     val accentColor = when (block.variant) {
         CalloutVariant.TRAP -> IncorrectRed
-        CalloutVariant.WARNING -> Accent
-        CalloutVariant.FORMULA -> Accent
+        CalloutVariant.WARNING -> Highlight
+        CalloutVariant.FORMULA -> Highlight
         CalloutVariant.TIP -> CorrectGreen
         CalloutVariant.NOTE -> TextSecondary
     }

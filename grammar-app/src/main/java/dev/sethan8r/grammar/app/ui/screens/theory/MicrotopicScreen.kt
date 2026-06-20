@@ -2,11 +2,16 @@ package dev.sethan8r.grammar.app.ui.screens.theory
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.rememberScrollState
@@ -43,7 +48,6 @@ import dev.sethan8r.grammar.app.ui.components.TheoryBlocks
 import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background
-import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
@@ -193,16 +197,21 @@ private fun ExamplesSection(examples: List<Example>) {
             fontWeight = FontWeight.Bold,
         )
         examples.forEach { example ->
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(Dimens.cornerCard))
-                    .background(CardBackground)
-                    .padding(Dimens.cardPadding),
-                verticalArrangement = Arrangement.spacedBy(Dimens.spaceTiny),
-            ) {
-                MarkdownText(text = example.en, color = TextPrimary, fontSize = 16.sp)
-                Text(text = example.ru, color = TextSecondary, fontSize = 14.sp, fontStyle = FontStyle.Italic)
+            Row(modifier = Modifier.height(IntrinsicSize.Min)) {
+                Box(
+                    modifier = Modifier
+                        .width(Dimens.exampleStripeWidth)
+                        .fillMaxHeight()
+                        .clip(RoundedCornerShape(Dimens.cornerSmall))
+                        .background(Accent),
+                )
+                Column(
+                    modifier = Modifier.padding(start = Dimens.spaceMedium),
+                    verticalArrangement = Arrangement.spacedBy(Dimens.spaceTiny),
+                ) {
+                    MarkdownText(text = example.en, color = TextPrimary, fontSize = 16.sp)
+                    Text(text = example.ru, color = TextSecondary, fontSize = 14.sp, fontStyle = FontStyle.Italic)
+                }
             }
         }
     }

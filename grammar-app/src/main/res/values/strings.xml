@@ -48,7 +48,6 @@
     <string name="exercise_empty">Упражнений в этой карточке пока нет</string>
     <string name="exercise_type_in_development">Этот тип задания скоро появится</string>
     <string name="exercise_ai_placeholder">Здесь будет ИИ-упражнение</string>
-    <string name="exercise_theory_summary_title">Краткое правило</string>
     <string name="exercise_summary_close">Закрыть</string>
 
     <!-- Подтверждение выхода из начатой сессии -->
@@ -66,14 +65,30 @@
 
     <!-- Меню -->
     <string name="menu_title">МЕНЮ</string>
-    <string name="menu_profile">ПРОФИЛЬ</string>
-    <string name="menu_add_word">ДОБАВИТЬ СЛОВО</string>
-    <string name="menu_backup">СДЕЛАТЬ БЕКАП</string>
-    <string name="menu_restore">ВОССТАНОВИТЬ ПРОГРЕСС</string>
-    <string name="menu_dictionary">СЛОВАРЬ</string>
-    <string name="menu_hint_limit">ОГРАНИЧЕНИЕ ПОДСКАЗОК</string>
-    <string name="menu_notifications">УВЕДОМЛЕНИЯ</string>
-    <string name="menu_settings">НАСТРОЙКИ</string>
-    <string name="menu_support">ПОДДЕРЖКА</string>
-    <string name="menu_about">О ПРИЛОЖЕНИИ</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="menu_add_word">Добавить слово</string>
+    <string name="menu_backup">Сделать бекап</string>
+    <string name="menu_restore">Восстановить прогресс</string>
+    <string name="menu_dictionary">Словарь</string>
+    <string name="menu_hint_limit">Лимит подсказок</string>
+    <string name="menu_notifications">Уведомления</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_support">Поддержка</string>
+    <string name="menu_about">О приложении</string>
+
+    <!-- Меню: заголовки секций -->
+    <string name="menu_section_account">АККАУНТ</string>
+    <string name="menu_section_data">ДАННЫЕ</string>
+    <string name="menu_section_settings">НАСТРОЙКИ ПРИЛОЖЕНИЯ</string>
+    <string name="menu_section_help">ПОМОЩЬ</string>
+
+    <!-- Меню: карточка аккаунта (плейсхолдер до подключения сервера, Фаза 4) -->
+    <string name="menu_account_name">Алексей Кравченко</string>
+    <plurals name="menu_streak_days">
+        <item quantity="one">%d день подряд</item>
+        <item quantity="few">%d дня подряд</item>
+        <item quantity="many">%d дней подряд</item>
+        <item quantity="other">%d дней подряд</item>
+    </plurals>
+    <string name="menu_account_cd">Аккаунт пользователя</string>
 </resources>

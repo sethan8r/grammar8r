@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.outlined.HelpOutline
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
@@ -36,8 +35,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
@@ -47,9 +44,11 @@ import dev.sethan8r.grammar.app.domain.model.exercise.ChoiceType
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
 import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
+import dev.sethan8r.grammar.app.ui.components.BackTopBar
 import dev.sethan8r.grammar.app.ui.components.CenteredHint
 import dev.sethan8r.grammar.app.ui.components.ExitConfirmationHandler
 import dev.sethan8r.grammar.app.ui.components.FeedbackSnackbarHost
+import dev.sethan8r.grammar.app.ui.components.rememberFeedbackSnackbarController
 import dev.sethan8r.grammar.app.ui.components.IdBadge
 import dev.sethan8r.grammar.app.ui.components.LoadingIndicator
 import dev.sethan8r.grammar.app.ui.components.MarkdownText
@@ -64,6 +63,7 @@ import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
+import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 import dev.sethan8r.grammar.app.ui.util.bottomScrim
@@ -83,7 +83,7 @@ fun ExerciseSessionScreen(
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     var showExitDialog by remember { mutableStateOf(false) }
     var showSummaryDialog by remember { mutableStateOf(false) }
-    val snackbarHostState = remember { SnackbarHostState() }
+    val snackbar = rememberFeedbackSnackbarController()
 
     val wrongFirstMsg = stringResource(R.string.exercise_wrong_try_again)
     val wrongFinalMsg = stringResource(R.string.exercise_wrong_final)
@@ -92,9 +92,9 @@ fun ExerciseSessionScreen(
         viewModel.finished.collect { onFinished(it.completion) }
     }
     LaunchedEffect(Unit) {
+        // Новый «Неправильно» сразу затирает «Попробуйте ещё раз» — без очереди (см. контроллер).
         viewModel.wrongAnswer.collect { event ->
-            snackbarHostState.currentSnackbarData?.dismiss()
-            snackbarHostState.showSnackbar(if (event.firstAttempt) wrongFirstMsg else wrongFinalMsg)
+            snackbar.show(if (event.firstAttempt) wrongFirstMsg else wrongFinalMsg, Durations.wrongAnswerSnackbarMs)
         }
     }
 
@@ -110,12 +110,20 @@ fun ExerciseSessionScreen(
     )
 
     Column(modifier = Modifier.fillMaxSize()) {
-        SessionTopBar(
+        BackTopBar(
             // Только английская часть двойного имени (как в шапке карточек микротемы).
             title = state.microtopicTitle.titleEn(),
             onBack = { showExitDialog = true },
-            onHelp = { showSummaryDialog = true },
-            helpEnabled = state.theorySummary.isNotBlank(),
+            actions = {
+                val helpEnabled = state.theorySummary.isNotBlank()
+                IconButton(onClick = { showSummaryDialog = true }, enabled = helpEnabled) {
+                    Icon(
+                        Icons.Outlined.HelpOutline,
+                        stringResource(R.string.exercise_help),
+                        tint = if (helpEnabled) TextPrimary else TextSecondary,
+                    )
+                }
+            },
         )
 
         when {
@@ -123,7 +131,7 @@ fun ExerciseSessionScreen(
             state.total == 0 -> EmptySession(onFinish = viewModel::onNext)
             else -> SessionContent(
                 state = state,
-                snackbarHostState = snackbarHostState,
+                snackbarHostState = snackbar.hostState,
                 onSegmentClick = if (state.cardCompleted) viewModel::onSegmentSelected else null,
                 onSelectOption = viewModel::onOptionSelected,
                 onTextChanged = viewModel::onTextChanged,
@@ -142,34 +150,9 @@ fun ExerciseSessionScreen(
                     Text(stringResource(R.string.exercise_summary_close))
                 }
             },
-            title = { Text(stringResource(R.string.exercise_theory_summary_title)) },
+            title = { Text(stringResource(R.string.exercise_help), color = Accent) },
             text = { MarkdownText(text = state.theorySummary) },
         )
-    }
-}
-
-@Composable
-private fun SessionTopBar(title: String, onBack: () -> Unit, onHelp: () -> Unit, helpEnabled: Boolean) {
-    Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-        IconButton(onClick = onBack) {
-            Icon(Icons.AutoMirrored.Filled.ArrowBack, stringResource(R.string.back), tint = TextPrimary)
-        }
-        Text(
-            text = title,
-            modifier = Modifier.weight(1f),
-            color = TextPrimary,
-            fontSize = 18.sp,
-            fontWeight = FontWeight.Bold,
-            maxLines = 1,
-            overflow = TextOverflow.Ellipsis,
-        )
-        IconButton(onClick = onHelp, enabled = helpEnabled) {
-            Icon(
-                Icons.Outlined.HelpOutline,
-                stringResource(R.string.exercise_help),
-                tint = if (helpEnabled) TextPrimary else TextSecondary,
-            )
-        }
     }
 }
 

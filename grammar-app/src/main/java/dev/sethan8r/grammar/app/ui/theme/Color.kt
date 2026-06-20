@@ -2,11 +2,19 @@ package dev.sethan8r.grammar.app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Background     = Color(0xFF121212)
-val CardBackground = Color(0xFF1E1E1E)
+val Background     = Color(0xFF15171C)
+val CardBackground = Color(0xFF1D2027)
+val Elevated       = Color(0xFF2E3440)  // поверхность НАД карточкой (снекбары/уведомления) — светлее фрейма, чтобы не сливаться
 val TextPrimary    = Color(0xFFFFFFFF)
 val TextSecondary  = Color(0xFFB0B0B0)
-val Accent         = Color(0xFFFF9B27)
+val Accent         = Color(0xFF7E9BFF)  // основной акцент: кнопки, прогресс, активные элементы
 val Inactive       = Color(0xFF404040)
-val CorrectGreen   = Color(0xFF4CAF50)
-val IncorrectRed   = Color(0xFFE5484D)  // ошибка, ✗, плашка-ловушка
+val CorrectGreen   = Color(0xFF5BC98A)
+val IncorrectRed   = Color(0xFFF46E72)  // ошибка, ✗, плашка-ловушка
+
+/**
+ * Оранжевый «маркер внимания» — больше НЕ акцент приложения (акцент теперь [Accent], синий).
+ * Используется точечно и только для врезок-callout WARNING/FORMULA в теории (CalloutVariant).
+ * Не применять для кнопок/прогресса/активных элементов — там [Accent].
+ */
+val Highlight      = Color(0xFFFF9B27)

@@ -13,9 +13,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ExpandLess
-import androidx.compose.material.icons.filled.ExpandMore
+import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
@@ -28,6 +28,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
@@ -37,17 +38,21 @@ import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryListItem
 import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
 import dev.sethan8r.grammar.app.ui.components.DualTitle
-import dev.sethan8r.grammar.app.ui.components.InfoBubble
+import dev.sethan8r.grammar.app.ui.components.FeedbackSnackbarHost
+import dev.sethan8r.grammar.app.ui.components.InfoButton
+import dev.sethan8r.grammar.app.ui.components.rememberFeedbackSnackbarController
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
+import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 
 /**
  * Вкладка «Учить» — список разделов и тем теории с прогрессом по микротемам. Раздел сворачивается;
- * описания скрыты под кнопкой «i» ([InfoBubble]). Только UI: данные из [TheoryViewModel].
+ * описания скрыты под кнопкой «i» ([InfoButton]) — по тапу всплывают нижним снекбаром. Только UI:
+ * данные из [TheoryViewModel].
  */
 @Composable
 fun TheoryScreen(
@@ -55,16 +60,34 @@ fun TheoryScreen(
     viewModel: TheoryViewModel = hiltViewModel(),
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+    val snackbar = rememberFeedbackSnackbarController()
 
-    when {
-        uiState.isLoading -> CenteredText(stringResource(R.string.theory_loading))
-        uiState.items.isEmpty() -> CenteredText(stringResource(R.string.theory_empty))
-        else -> TheoryList(items = uiState.items, onTopicClick = onTopicClick)
+    Box(modifier = Modifier.fillMaxSize()) {
+        when {
+            uiState.isLoading -> CenteredText(stringResource(R.string.theory_loading))
+            uiState.items.isEmpty() -> CenteredText(stringResource(R.string.theory_empty))
+            else -> TheoryList(
+                items = uiState.items,
+                onTopicClick = onTopicClick,
+                onShowInfo = { snackbar.show(it, Durations.infoSnackbarMs) },
+            )
+        }
+        FeedbackSnackbarHost(
+            hostState = snackbar.hostState,
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .fillMaxWidth()
+                .padding(horizontal = Dimens.screenPadding, vertical = Dimens.spaceLarge),
+        )
     }
 }
 
 @Composable
-private fun TheoryList(items: List<TheoryListItem>, onTopicClick: (Int) -> Unit) {
+private fun TheoryList(
+    items: List<TheoryListItem>,
+    onTopicClick: (Int) -> Unit,
+    onShowInfo: (String) -> Unit,
+) {
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
@@ -86,11 +109,12 @@ private fun TheoryList(items: List<TheoryListItem>, onTopicClick: (Int) -> Unit)
                 is TheoryListItem.TopicItem -> TopicBody(
                     topic = item.topic,
                     onTopicClick = onTopicClick,
+                    onShowInfo = onShowInfo,
                     modifier = Modifier
                         .clip(RoundedCornerShape(Dimens.cornerCard))
                         .background(CardBackground),
                 )
-                is TheoryListItem.SectionItem -> SectionGroup(item, onTopicClick)
+                is TheoryListItem.SectionItem -> SectionGroup(item, onTopicClick, onShowInfo)
             }
         }
     }
@@ -106,7 +130,11 @@ private fun TheoryListItem.itemKey(): String = when (this) {
  * стрелкой ▾/▸ и кнопкой «i», а раскрытые темы лежат внутри того же фрейма, разделённые линиями.
  */
 @Composable
-private fun SectionGroup(section: TheoryListItem.SectionItem, onTopicClick: (Int) -> Unit) {
+private fun SectionGroup(
+    section: TheoryListItem.SectionItem,
+    onTopicClick: (Int) -> Unit,
+    onShowInfo: (String) -> Unit,
+) {
     var expanded by rememberSaveable(section.id) { mutableStateOf(false) }
 
     Column(
@@ -122,23 +150,28 @@ private fun SectionGroup(section: TheoryListItem.SectionItem, onTopicClick: (Int
                 .padding(Dimens.cardPadding),
             verticalAlignment = Alignment.CenterVertically,
         ) {
+            val rotation by animateFloatAsState(
+                targetValue = if (expanded) 180f else 0f,
+                label = "section_arrow",
+            )
             Icon(
-                imageVector = if (expanded) Icons.Filled.ExpandLess else Icons.Filled.ExpandMore,
+                imageVector = Icons.Filled.KeyboardArrowDown,
                 contentDescription = null,
                 tint = Accent,
+                modifier = Modifier.rotate(rotation),
             )
             DualTitle(
                 title = section.title,
                 modifier = Modifier.weight(1f).padding(start = Dimens.spaceSmall),
                 primarySize = 18.sp,
             )
-            section.description?.let { InfoBubble(description = it) }
+            section.description?.let { description -> InfoButton(onClick = { onShowInfo(description) }) }
         }
         AnimatedVisibility(visible = expanded) {
             Column {
                 section.topics.forEach { topic ->
                     HorizontalDivider(color = Inactive)
-                    TopicBody(topic, onTopicClick)
+                    TopicBody(topic, onTopicClick, onShowInfo)
                 }
             }
         }
@@ -153,6 +186,7 @@ private fun SectionGroup(section: TheoryListItem.SectionItem, onTopicClick: (Int
 private fun TopicBody(
     topic: TopicSummary,
     onTopicClick: (Int) -> Unit,
+    onShowInfo: (String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     Column(
@@ -164,7 +198,7 @@ private fun TopicBody(
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             DualTitle(title = topic.title, modifier = Modifier.weight(1f), primarySize = 18.sp)
-            topic.description?.let { InfoBubble(description = it) }
+            topic.description?.let { description -> InfoButton(onClick = { onShowInfo(description) }) }
         }
         if (topic.totalMicrotopics > 0) {
             LinearProgressIndicator(

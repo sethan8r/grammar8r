@@ -16,8 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
+import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 
 /**
@@ -45,12 +45,14 @@ fun FeedbackSnackbarHost(hostState: SnackbarHostState, modifier: Modifier = Modi
             enableDismissFromStartToEnd = true,
             enableDismissFromEndToStart = true,
         ) {
-            // Свайп-зона на всю ширину, но сама плашка — по ширине текста и по ЦЕНТРУ.
+            // Свайп-зона на всю ширину, но сама плашка — по ширине текста и по ЦЕНТРУ. Кеп ширины
+            // не задаём: плашку ограничивает сам хост (его ширина = ширине фрейма темы, screenPadding),
+            // поэтому длинный текст переносится по ширине фрейма, а короткий жмётся к своей ширине.
             Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
                 Box(
                     modifier = Modifier
                         .clip(RoundedCornerShape(Dimens.cornerCard))
-                        .background(CardBackground)
+                        .background(Elevated)
                         .padding(horizontal = Dimens.spaceXLarge, vertical = Dimens.spaceMedium),
                     contentAlignment = Alignment.Center,
                 ) {

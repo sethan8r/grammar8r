@@ -18,6 +18,7 @@ import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Accent
+import dev.sethan8r.grammar.app.ui.theme.Alphas
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
@@ -98,18 +99,20 @@ private fun visualFor(
 
 @Composable
 private fun OptionRow(text: String, visual: OptionVisual, enabled: Boolean, onClick: () -> Unit) {
-    val borderColor = when (visual) {
+    // Цвет выделения: NORMAL — нейтральная обводка без заливки; остальные — заливка центра тем же цветом.
+    val accentColor = when (visual) {
         OptionVisual.NORMAL -> Inactive
         OptionVisual.SELECTED -> Accent
         OptionVisual.CORRECT -> CorrectGreen
         OptionVisual.WRONG_PICK -> IncorrectRed
     }
+    val fillColor = if (visual == OptionVisual.NORMAL) Background else accentColor.copy(alpha = Alphas.answerFill)
     Column(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(Dimens.cornerButton))
-            .background(Background)
-            .border(2.dp, borderColor, RoundedCornerShape(Dimens.cornerButton))
+            .background(fillColor)
+            .border(2.dp, accentColor, RoundedCornerShape(Dimens.cornerButton))
             .clickable(enabled = enabled, onClick = onClick)
             .padding(Dimens.cardPadding),
     ) {

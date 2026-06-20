@@ -99,14 +99,21 @@ Words8r как референс — **только тема**. Архитект�
 Файл: `grammar-app/ui/theme/Color.kt`
 
 ```kotlin
-val Background     = Color(0xFF121212)  // фон приложения
-val CardBackground = Color(0xFF1E1E1E)  // фон карточек и поверхностей
+val Background     = Color(0xFF15171C)  // фон приложения
+val CardBackground = Color(0xFF1D2027)  // фон карточек и поверхностей
+val Elevated       = Color(0xFF2E3440)  // поверхность НАД карточкой (снекбары/уведомления) — светлее фрейма
 val TextPrimary    = Color(0xFFFFFFFF)  // основной текст
 val TextSecondary  = Color(0xFFB0B0B0)  // второстепенный текст, подписи
-val Accent         = Color(0xFFFF9B27)  // акцент: кнопки, прогресс, активные элементы
+val Accent         = Color(0xFF7E9BFF)  // акцент: кнопки, прогресс, активные элементы
 val Inactive       = Color(0xFF404040)  // неактивные/задизейбленные элементы
-val CorrectGreen   = Color(0xFF4CAF50)  // правильный ответ, позитивный фидбек
+val CorrectGreen   = Color(0xFF5BC98A)  // правильный ответ, позитивный фидбек
+val IncorrectRed   = Color(0xFFF46E72)  // ошибка, ✗, плашка-ловушка
+val Highlight      = Color(0xFFFF9B27)  // оранжевый «маркер внимания» — ТОЛЬКО врезки-callout WARNING/FORMULA в теории, НЕ акцент
 ```
+
+> Оранжевый `Highlight` — это **не** акцент приложения. Акцент — синий `Accent`. Оранжевый
+> применяется точечно только для врезок-callout WARNING/FORMULA. Кнопки, прогресс, активные
+> элементы, стрелки, иконки — всегда `Accent`.
 
 ### Material 3 цветовая схема
 
