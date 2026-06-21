@@ -140,13 +140,19 @@ class ExerciseSessionViewModel @Inject constructor(
         }
     }
 
-    /** Изменение текста в пункте TextInput. */
+    /** Изменение текста в ячейке/пункте (TextInput, TableFill, Transformation — все на [ExerciseAnswer.TextAnswers]). */
     fun onTextChanged(itemIndex: Int, value: String) {
         if (!answerDelegate.state.value.isEditable) return
         val current = (answer.value as? ExerciseAnswer.TextAnswers)?.inputs ?: return
         answer.value = ExerciseAnswer.TextAnswers(
             current.toMutableList().also { it[itemIndex] = value },
         )
+    }
+
+    /** Изменение собранного предложения (WORD_ARRANGEMENT): рендерер шлёт текущий порядок текстов чипов. */
+    fun onArrangementChanged(tokens: List<String>) {
+        if (!answerDelegate.state.value.isEditable) return
+        answer.value = ExerciseAnswer.WordOrder(tokens)
     }
 
     /**
@@ -204,6 +210,9 @@ class ExerciseSessionViewModel @Inject constructor(
     private fun refOf(exercise: Exercise?): ExerciseRef? = when (exercise) {
         is Exercise.SingleSelect -> ExerciseRef(exercise.type, exercise.id)
         is Exercise.TextInput -> ExerciseRef(exercise.type, exercise.id)
+        is Exercise.TableFill -> ExerciseRef(exercise.type, exercise.id)
+        is Exercise.Transformation -> ExerciseRef(exercise.type, exercise.id)
+        is Exercise.WordArrangement -> ExerciseRef(exercise.type, exercise.id)
         else -> null
     }
 
@@ -216,6 +225,9 @@ class ExerciseSessionViewModel @Inject constructor(
         answer.value = when (exercise) {
             is Exercise.SingleSelect -> ExerciseAnswer.SingleChoice()
             is Exercise.TextInput -> ExerciseAnswer.TextAnswers(List(exercise.items.size) { "" })
+            is Exercise.TableFill -> ExerciseAnswer.TextAnswers(List(exercise.rows.size) { "" })
+            is Exercise.Transformation -> ExerciseAnswer.TextAnswers(List(exercise.items.size) { "" })
+            is Exercise.WordArrangement -> ExerciseAnswer.WordOrder(emptyList())
             else -> null
         }
         answerDelegate.start(skipAnswering = exercise is Exercise.Placeholder)
@@ -224,8 +236,17 @@ class ExerciseSessionViewModel @Inject constructor(
     private fun canCheck(exercise: Exercise?, answer: ExerciseAnswer?): Boolean = when (exercise) {
         // Нужен выбранный вариант.
         is Exercise.SingleSelect -> (answer as? ExerciseAnswer.SingleChoice)?.selectedIndex?.let { it >= 0 } == true
-        // Пустой ответ бывает валиден (Ответ: «—»), поэтому проверку разрешаем всегда.
-        is Exercise.TextInput -> true
+        // Нельзя проверять, пока не заполнены все пункты (исключение — пункт с пустым ответом «—»).
+        is Exercise.TextInput -> {
+            val inputs = (answer as? ExerciseAnswer.TextAnswers)?.inputs
+            inputs != null && inputs.size == exercise.items.size &&
+                exercise.items.indices.all { i -> inputs[i].isNotBlank() || exercise.items[i].answer.isBlank() }
+        }
+        // All-or-nothing: проверка доступна, когда заполнены все ячейки/примеры.
+        is Exercise.TableFill -> (answer as? ExerciseAnswer.TextAnswers)?.inputs?.all { it.isNotBlank() } == true
+        is Exercise.Transformation -> (answer as? ExerciseAnswer.TextAnswers)?.inputs?.all { it.isNotBlank() } == true
+        // Хотя бы одно слово собрано.
+        is Exercise.WordArrangement -> (answer as? ExerciseAnswer.WordOrder)?.tokens?.isNotEmpty() == true
         else -> false
     }
 }

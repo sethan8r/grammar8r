@@ -11,4 +11,7 @@ object Durations {
 
     /** Снекбар-описание темы/раздела по кнопке «i» (мс) — как было у всплывающего облачка. */
     const val infoSnackbarMs = 5_000L
+
+    /** Возврат слова-чипа в пул, если отпустили не на поле сборки (WORD_ARRANGEMENT), мс. */
+    const val dragReturnMs = 200
 }

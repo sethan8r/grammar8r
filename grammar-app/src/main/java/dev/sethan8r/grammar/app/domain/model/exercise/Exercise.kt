@@ -98,6 +98,42 @@ sealed interface Exercise {
         val type: HardcodedExerciseType get() = HardcodedExerciseType.TEXT_INPUT
     }
 
+    /** TABLE_FILL — таблица «подсказка → ответ» (до 7 строк), вписать ответ в каждую строку. */
+    data class TableFill(
+        override val id: Int,
+        val taskDescription: String,
+        val rows: List<TableFillRow>,
+        val explanation: String,
+    ) : Exercise {
+        val type: HardcodedExerciseType get() = HardcodedExerciseType.TABLE_FILL
+    }
+
+    /** TRANSFORMATION — одна трансформация на ровно 3 примера: дано [TransformItem.original] → вписать преобразованное. */
+    data class Transformation(
+        override val id: Int,
+        val taskDescription: String,
+        val items: List<TransformItem>,
+        val explanation: String,
+    ) : Exercise {
+        val type: HardcodedExerciseType get() = HardcodedExerciseType.TRANSFORMATION
+    }
+
+    /**
+     * WORD_ARRANGEMENT — собрать предложение из чипов (слова + дистракторы-ловушки), перетаскиванием.
+     * Сборка сравнивается с [correctSentence] через [AnswerNormalizer]. Банк (что показать) = [words] +
+     * [distractors]; перемешивание — на стороне рендерера (презентационная случайность).
+     */
+    data class WordArrangement(
+        override val id: Int,
+        val situationRu: String,
+        val correctSentence: String,
+        val words: List<WordToken>,
+        val distractors: List<WordToken>,
+        val explanation: String,
+    ) : Exercise {
+        val type: HardcodedExerciseType get() = HardcodedExerciseType.WORD_ARRANGEMENT
+    }
+
     /** Тип, который движок ещё не реализовал (появится в F2–F4) — показывается плашка «в разработке». */
     data class Unsupported(
         override val id: Int,
@@ -128,3 +164,12 @@ data class TextItem(
     val answer: String,
     val alternatives: List<String>,
 )
+
+/** Одна строка [Exercise.TableFill]: подсказка слева, правильный ответ для поля справа. */
+data class TableFillRow(val hint: String, val answer: String)
+
+/** Один пример [Exercise.Transformation]: исходное предложение и его правильная трансформация. */
+data class TransformItem(val original: String, val transformed: String)
+
+/** Слово-чип в [Exercise.WordArrangement]: текст + перевод (пустой — слово уже знакомо). */
+data class WordToken(val text: String, val translation: String)

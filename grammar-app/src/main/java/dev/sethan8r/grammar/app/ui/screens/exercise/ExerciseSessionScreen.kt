@@ -27,6 +27,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -57,8 +58,11 @@ import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.components.exercise.AiPlaceholderView
 import dev.sethan8r.grammar.app.ui.components.exercise.SingleSelectExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.SingleSelectHeader
+import dev.sethan8r.grammar.app.ui.components.exercise.TableFillExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.TextInputExerciseView
+import dev.sethan8r.grammar.app.ui.components.exercise.TransformationExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.UnsupportedExerciseView
+import dev.sethan8r.grammar.app.ui.components.exercise.WordArrangementExerciseView
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
@@ -135,6 +139,7 @@ fun ExerciseSessionScreen(
                 onSegmentClick = if (state.cardCompleted) viewModel::onSegmentSelected else null,
                 onSelectOption = viewModel::onOptionSelected,
                 onTextChanged = viewModel::onTextChanged,
+                onArrangementChanged = viewModel::onArrangementChanged,
                 onCheck = viewModel::onCheck,
                 onNext = viewModel::onNext,
             )
@@ -163,6 +168,7 @@ private fun SessionContent(
     onSegmentClick: ((Int) -> Unit)?,
     onSelectOption: (Int) -> Unit,
     onTextChanged: (Int, String) -> Unit,
+    onArrangementChanged: (List<String>) -> Unit,
     onCheck: () -> Unit,
     onNext: () -> Unit,
 ) {
@@ -209,27 +215,54 @@ private fun SessionContent(
                     .padding(top = Dimens.spaceSmall)
                     .padding(bottom = footerHeight),
             ) {
-                when (exercise) {
-                    is Exercise.SingleSelect -> SingleSelectExerciseView(
-                        options = exercise.options,
-                        selectedIndex = (state.answer as? ExerciseAnswer.SingleChoice)?.selectedIndex ?: -1,
-                        phase = state.phase,
-                        shakeKey = state.shakeKey,
-                        pulseKey = state.pulseKey,
-                        explanation = exercise.explanation,
-                        onSelect = onSelectOption,
-                        header = { SingleSelectHeader(exercise) },
-                    )
-                    is Exercise.TextInput -> TextInputExerciseView(
-                        exercise = exercise,
-                        answer = state.answer as? ExerciseAnswer.TextAnswers,
-                        phase = state.phase,
-                        shakeKey = state.shakeKey,
-                        pulseKey = state.pulseKey,
-                        onChange = onTextChanged,
-                    )
-                    is Exercise.Unsupported -> UnsupportedExerciseView(exercise)
-                    is Exercise.AiPlaceholder -> AiPlaceholderView()
+                // key(currentIndex): каждый шаг сессии — свежий поддерев (сброс ввода/фокуса и
+                // локального состояния сборки WORD_ARRANGEMENT при переходе между упражнениями).
+                key(state.currentIndex) {
+                    when (exercise) {
+                        is Exercise.SingleSelect -> SingleSelectExerciseView(
+                            options = exercise.options,
+                            selectedIndex = (state.answer as? ExerciseAnswer.SingleChoice)?.selectedIndex ?: -1,
+                            phase = state.phase,
+                            shakeKey = state.shakeKey,
+                            pulseKey = state.pulseKey,
+                            explanation = exercise.explanation,
+                            onSelect = onSelectOption,
+                            header = { SingleSelectHeader(exercise) },
+                        )
+                        is Exercise.TextInput -> TextInputExerciseView(
+                            exercise = exercise,
+                            answer = state.answer as? ExerciseAnswer.TextAnswers,
+                            phase = state.phase,
+                            shakeKey = state.shakeKey,
+                            pulseKey = state.pulseKey,
+                            onChange = onTextChanged,
+                        )
+                        is Exercise.TableFill -> TableFillExerciseView(
+                            exercise = exercise,
+                            answer = state.answer as? ExerciseAnswer.TextAnswers,
+                            phase = state.phase,
+                            shakeKey = state.shakeKey,
+                            pulseKey = state.pulseKey,
+                            onChange = onTextChanged,
+                        )
+                        is Exercise.Transformation -> TransformationExerciseView(
+                            exercise = exercise,
+                            answer = state.answer as? ExerciseAnswer.TextAnswers,
+                            phase = state.phase,
+                            shakeKey = state.shakeKey,
+                            pulseKey = state.pulseKey,
+                            onChange = onTextChanged,
+                        )
+                        is Exercise.WordArrangement -> WordArrangementExerciseView(
+                            exercise = exercise,
+                            phase = state.phase,
+                            shakeKey = state.shakeKey,
+                            pulseKey = state.pulseKey,
+                            onArrangementChanged = onArrangementChanged,
+                        )
+                        is Exercise.Unsupported -> UnsupportedExerciseView(exercise)
+                        is Exercise.AiPlaceholder -> AiPlaceholderView()
+                    }
                 }
             }
 
@@ -266,6 +299,9 @@ private fun SessionContent(
 private fun exerciseTypeLabel(exercise: Exercise): String = when (exercise) {
     is Exercise.SingleSelect -> exercise.type.name + " · " + stringResource(singleSelectDescRes(exercise))
     is Exercise.TextInput -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_text_input)
+    is Exercise.TableFill -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_table_fill)
+    is Exercise.Transformation -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_transformation)
+    is Exercise.WordArrangement -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_word_arrangement)
     is Exercise.Unsupported -> exercise.type.name
     // У умного задания вместо типа — его (длинный) строковый ID; в маленький бокс он не влезает.
     is Exercise.AiPlaceholder -> exercise.exerciseId

@@ -1,34 +1,20 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.text.InlineTextContent
 import androidx.compose.foundation.text.appendInlineContent
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.Placeholder
 import androidx.compose.ui.text.PlaceholderVerticalAlign
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.input.KeyboardType
-import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.R
@@ -37,11 +23,8 @@ import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
 import dev.sethan8r.grammar.app.domain.model.exercise.TextItem
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
-import dev.sethan8r.grammar.app.ui.theme.Accent
-import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
-import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 
@@ -131,7 +114,12 @@ private fun SentenceWithBlank(
                 placeholderVerticalAlign = PlaceholderVerticalAlign.Center,
             ),
         ) {
-            BlankInputField(value = value, enabled = enabled, onValueChange = onValueChange)
+            ExerciseInputField(
+                value = value,
+                enabled = enabled,
+                onValueChange = onValueChange,
+                modifier = Modifier.fillMaxSize(),
+            )
         },
     )
     Text(
@@ -141,39 +129,4 @@ private fun SentenceWithBlank(
         fontSize = 20.sp,
         lineHeight = 34.sp,
     )
-}
-
-/**
- * Поле ввода в пропуске: свой фрейм (рамка), ввод по центру, курсор-акцент. Автоподсказки/Т9
- * выключены: в хардкод-задании подсказка клавиатуры = подсказка ответа (чит). Надёжно глушит
- * подсказки `KeyboardType.Password` (Gboard игнорит один `autoCorrectEnabled`) — как в Words8r;
- * текст при этом остаётся видимым, т.к. маскирует не тип клавиатуры, а `VisualTransformation`,
- * а у [BasicTextField] она по умолчанию `None`. В AI-заданиях (Фаза 3) Т9 оставляем включённым.
- */
-@Composable
-private fun BlankInputField(value: String, enabled: Boolean, onValueChange: (String) -> Unit) {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .clip(RoundedCornerShape(Dimens.cornerSmall))
-            .background(Background)
-            .border(1.dp, Inactive, RoundedCornerShape(Dimens.cornerSmall)),
-        contentAlignment = Alignment.Center,
-    ) {
-        BasicTextField(
-            value = value,
-            onValueChange = onValueChange,
-            enabled = enabled,
-            singleLine = true,
-            textStyle = TextStyle(color = TextPrimary, fontSize = 18.sp, textAlign = TextAlign.Center),
-            keyboardOptions = KeyboardOptions(
-                autoCorrectEnabled = false,
-                keyboardType = KeyboardType.Password,
-            ),
-            cursorBrush = SolidColor(Accent),
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = Dimens.spaceTiny),
-        )
-    }
 }

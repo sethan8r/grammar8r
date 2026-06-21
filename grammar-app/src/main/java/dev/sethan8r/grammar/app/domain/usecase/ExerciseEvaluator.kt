@@ -24,18 +24,37 @@ object ExerciseEvaluator {
                 exercise.items.indices.all { i -> matches(exercise.items[i], inputs[i]) }
         }
 
+        // TABLE_FILL — все ячейки верны разом (вердикт all-or-nothing на уровне экрана).
+        is Exercise.TableFill -> {
+            val inputs = (answer as? ExerciseAnswer.TextAnswers)?.inputs
+            inputs != null &&
+                inputs.size == exercise.rows.size &&
+                exercise.rows.indices.all { i -> AnswerNormalizer.matches(exercise.rows[i].answer, inputs[i]) }
+        }
+
+        // TRANSFORMATION — все 3 примера верны разом.
+        is Exercise.Transformation -> {
+            val inputs = (answer as? ExerciseAnswer.TextAnswers)?.inputs
+            inputs != null &&
+                inputs.size == exercise.items.size &&
+                exercise.items.indices.all { i -> AnswerNormalizer.matches(exercise.items[i].transformed, inputs[i]) }
+        }
+
+        // WORD_ARRANGEMENT — собранное предложение совпадает с эталоном (нормализация: регистр/пунктуация/пробелы).
+        is Exercise.WordArrangement -> {
+            val tokens = (answer as? ExerciseAnswer.WordOrder)?.tokens
+            tokens != null && AnswerNormalizer.matches(exercise.correctSentence, tokens.joinToString(" "))
+        }
+
         // Плашки-сегменты (нереализованный тип / умное задание) отвечать не требуют.
         is Exercise.Placeholder -> true
     }
 
     /**
      * Пункт TextInput засчитан, если нормализованный ввод совпал с нормализованным ответом или любой
-     * альтернативой. Нормализация ([AnswerNormalizer]) гасит регистр, апострофы и форму сокращений
-     * (don't = do not), поэтому полная и сокращённая записи равнозначны.
+     * альтернативой. Нормализация ([AnswerNormalizer]) гасит регистр, апострофы, форму сокращений
+     * (don't = do not) и пунктуацию, поэтому полная и сокращённая записи равнозначны.
      */
-    private fun matches(item: TextItem, input: String): Boolean {
-        val normalizedInput = AnswerNormalizer.normalize(input)
-        return (listOf(item.answer) + item.alternatives)
-            .any { AnswerNormalizer.normalize(it) == normalizedInput }
-    }
+    private fun matches(item: TextItem, input: String): Boolean =
+        (listOf(item.answer) + item.alternatives).any { AnswerNormalizer.matches(it, input) }
 }

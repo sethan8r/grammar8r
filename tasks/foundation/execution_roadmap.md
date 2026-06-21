@@ -282,15 +282,25 @@ DIALOG_RESTORE / FIND_THE_ODD — на одном базовом компоне�
 - **Self-prompt:** переписан в `_next_session_prompt.md` под **F3**.
 - **Очистка контекста:** ✅ да.
 
-### ⬜ Шаг F3. Группа «ввод / сборка»  🟡
-WORD_ARRANGEMENT (чипы + попап перевода), TRANSFORMATION (двойной ввод: отрицание+вопрос),
-TABLE_FILL (таблица с пропусками).
-- **Очистка контекста:** ✅ да.
-- **Self-prompt:** _<…>_
+### 🟦 Шаг F3. Группа «ввод / сборка»  🟡 — НАПИСАН 2026-06-21 (на проверке у пользователя)
+WORD_ARRANGEMENT (Duolingo-style drag-сборка с рефлоу чипов), TRANSFORMATION (3 поля ввода),
+TABLE_FILL (плавающие поля как в TextInput).
+- ✅ Реализовано: домен (`Exercise.TableFill/Transformation/WordArrangement` + модели,
+  `ExerciseAnswer.WordOrder`), `ExerciseEvaluator` (вердикт all-or-nothing), `ExerciseContentMapper`
+  (+3), `ExerciseRepositoryImpl` (+3 ветки), VM (prepareForIndex/refOf/canCheck/`onArrangementChanged`),
+  `AnswerNormalizer` (игнор пунктуации + `matches()`), общий `ExerciseInputField` (Правило №0, TextInput
+  переведён), рендереры `TableFillExerciseView`/`TransformationExerciseView`/`WordArrangementExerciseView`
+  (drag+рефлоу через `ui/util/AnimatePlacement.kt`), `ExerciseSessionScreen` (ветки + `key(currentIndex)`),
+  строки. Плашка `Unsupported` для этих 3 типов больше не появляется.
+- ⏳ **Осталось пользователю:** собрать (`assembleDebug`, user.db НЕ менялась — сносить не нужно), пройти
+  на сидах (WORD_ARRANGEMENT 50, TRANSFORMATION 14, TABLE_FILL 9), оценить drag-ощущения и вердикт.
+- **decision_log:** раздел «Шаг F3». **Self-prompt:** `_next_session_prompt.md` (под F4 после обкатки).
 
 ### ⬜ Шаг F4. Группа «интерактивные»  🟡
-MATCHING (соединение пар), TRUE_FALSE (тоггл 5 предложений), CATEGORIZATION (перетаскивание в
-колонки — жесты только официальными API: `AnchoredDraggable` и т.п.).
+TRUE_FALSE (multi-select «отметь верные», НЕ тоггл), MATCHING (две колонки, левая закреплена, правую
+переставляют вертикальным drag-reorder — БЕЗ ниточек), CATEGORIZATION (drag из пула в колонки и обратно,
+пресайз элементов под колонку). Жесты — официальными кирпичами; reorderable-flow в Compose нет → ручной
+drag с рефлоу по протоколу костылей (см. `_next_session_prompt.md` §4.2). Габариты «всё на один экран».
 - **DoD после F4:** все 14 типов работают на реальном сиде; формат карточек-заданий обкатан.
 - **Очистка контекста:** ✅ да.
 - **Self-prompt:** _<…>_

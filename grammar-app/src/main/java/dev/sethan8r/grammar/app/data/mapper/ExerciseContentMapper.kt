@@ -5,11 +5,17 @@ import dev.sethan8r.grammar.app.data.local.content.entity.exercise.DialogRestore
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.ErrorCorrectionExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.FindTheOddExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.MultipleChoiceExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TableFillExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TextInputExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TransformationExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.WordArrangementExercise
 import dev.sethan8r.grammar.app.domain.model.exercise.DialogLine
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.Option
+import dev.sethan8r.grammar.app.domain.model.exercise.TableFillRow
 import dev.sethan8r.grammar.app.domain.model.exercise.TextItem
+import dev.sethan8r.grammar.app.domain.model.exercise.TransformItem
+import dev.sethan8r.grammar.app.domain.model.exercise.WordToken
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import javax.inject.Inject
@@ -69,6 +75,34 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
         explanation = entity.explanation,
     )
 
+    fun toTableFill(entity: TableFillExercise): Exercise.TableFill = Exercise.TableFill(
+        id = entity.id,
+        taskDescription = entity.taskDescription,
+        rows = json.decodeFromString<List<TableRowJson>>(entity.rows)
+            .map { TableFillRow(hint = it.hint, answer = it.answer) },
+        explanation = entity.explanation,
+    )
+
+    fun toTransformation(entity: TransformationExercise): Exercise.Transformation = Exercise.Transformation(
+        id = entity.id,
+        taskDescription = entity.taskDescription,
+        items = json.decodeFromString<List<TransformItemJson>>(entity.items)
+            .map { TransformItem(original = it.original, transformed = it.transformed) },
+        explanation = entity.explanation,
+    )
+
+    fun toWordArrangement(entity: WordArrangementExercise): Exercise.WordArrangement = Exercise.WordArrangement(
+        id = entity.id,
+        situationRu = entity.situationRu,
+        correctSentence = entity.correctSentence,
+        words = parseTokens(entity.words),
+        distractors = parseTokens(entity.distractors),
+        explanation = entity.explanation,
+    )
+
+    private fun parseTokens(raw: String): List<WordToken> =
+        json.decodeFromString<List<WordTokenJson>>(raw).map { WordToken(text = it.text, translation = it.translation) }
+
     /** Общий разбор поля `options` (одинаков у всех типов с выбором варианта) — Правило №0. */
     private fun parseOptions(raw: String): List<Option> =
         json.decodeFromString<List<OptionJson>>(raw).map { Option(text = it.text, isCorrect = it.isCorrect) }
@@ -89,4 +123,13 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
 
     @Serializable
     private data class OddItemJson(val text: String = "", val isOdd: Boolean = false)
+
+    @Serializable
+    private data class TableRowJson(val hint: String = "", val answer: String = "")
+
+    @Serializable
+    private data class TransformItemJson(val original: String = "", val transformed: String = "")
+
+    @Serializable
+    private data class WordTokenJson(val text: String = "", val translation: String = "")
 }

@@ -58,7 +58,16 @@ class ExerciseRepositoryImpl @Inject constructor(
                 HardcodedExerciseType.FIND_THE_ODD ->
                     exerciseDao.getFindTheOdd(index.exerciseId)?.let(mapper::toFindTheOdd)
 
-                // Остальные типы — пока заглушка (реализуются в F3–F4).
+                HardcodedExerciseType.TABLE_FILL ->
+                    exerciseDao.getTableFill(index.exerciseId)?.let(mapper::toTableFill)
+
+                HardcodedExerciseType.TRANSFORMATION ->
+                    exerciseDao.getTransformation(index.exerciseId)?.let(mapper::toTransformation)
+
+                HardcodedExerciseType.WORD_ARRANGEMENT ->
+                    exerciseDao.getWordArrangement(index.exerciseId)?.let(mapper::toWordArrangement)
+
+                // Остальные типы — пока заглушка (реализуются в F4: MATCHING/TRUE_FALSE/CATEGORIZATION).
                 else -> null
             }
             exercise ?: Exercise.Unsupported(index.exerciseId, index.exerciseType)
