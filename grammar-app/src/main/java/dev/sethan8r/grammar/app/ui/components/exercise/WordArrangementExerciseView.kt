@@ -62,7 +62,6 @@ import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.IncorrectRed
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
-import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 import dev.sethan8r.grammar.app.ui.util.animatePlacement
 import kotlinx.coroutines.launch
 import kotlin.math.abs
@@ -237,13 +236,6 @@ fun WordArrangementExerciseView(
                         .padding(Dimens.spaceSmall),
                     contentAlignment = Alignment.CenterStart,
                 ) {
-                    if (sentence.isEmpty() && dragging == null) {
-                        Text(
-                            text = stringResource(R.string.exercise_word_arrangement_hint),
-                            color = TextSecondary,
-                            fontSize = 14.sp,
-                        )
-                    }
                     FlowRow(
                         horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
                         verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),

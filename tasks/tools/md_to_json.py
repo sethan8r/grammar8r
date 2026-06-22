@@ -227,15 +227,25 @@ CHOICE_INSTR = (
 
 def clean_prompt(body):
     """prompt для MultipleChoice/ErrorCorrection/ConstructionMeaning:
-    снять инструкцию-префикс, italic-обёртку, кавычки; вынести хвостовой (контекст) в contextRu."""
-    text = ' '.join(parse_prompt_lines(body)).strip()
+    снять инструкцию-префикс, italic-обёртку, кавычки; вынести русский контекст в contextRu.
+    Контекст берётся из строки `RU: …` (приоритет — единый маркер «русская строка», как в
+    WordArrangement) либо, если её нет, из хвостовых скобок `(...)` (легаси-форма)."""
+    ru_parts, en_parts = [], []
+    for line in parse_prompt_lines(body):
+        m = re.match(r'^RU:\s*(.+)$', line)
+        if m:
+            ru_parts.append(m.group(1).strip())
+        else:
+            en_parts.append(line)
+    text = ' '.join(en_parts).strip()
     for p in CHOICE_INSTR:
         if text.startswith(p):
             text = text[len(p):].strip()
-    ctx = ''
-    m = re.search(r'\*?\(([^()]+)\)\*?\s*$', text)
-    if m:
-        ctx, text = m.group(1).strip(), text[:m.start()].strip()
+    ctx = ' '.join(ru_parts).strip()
+    if not ctx:
+        m = re.search(r'\*?\(([^()]+)\)\*?\s*$', text)
+        if m:
+            ctx, text = m.group(1).strip(), text[:m.start()].strip()
     text = text.strip().strip('*').strip().strip('"').strip()
     return text, ctx
 

@@ -17862,8 +17862,8 @@
     {
       "id": 6,
       "choiceType": "CHOICE",
-      "prompt": "RU: В холодильнике нет яиц. \"___ any eggs in the fridge.",
-      "contextRu": "",
+      "prompt": "___ any eggs in the fridge.",
+      "contextRu": "В холодильнике нет яиц.",
       "options": [
         {
           "text": "There isn't",
@@ -18240,8 +18240,8 @@
     {
       "id": 15,
       "choiceType": "CHOICE",
-      "prompt": "RU: Я купил книгу вчера. ___ книга очень интересная. \"I bought a book yesterday. ___ book is really interesting.",
-      "contextRu": "",
+      "prompt": "I bought a book yesterday. ___ book is really interesting.",
+      "contextRu": "Я купил книгу вчера. ___ книга очень интересная.",
       "options": [
         {
           "text": "A",
@@ -18261,8 +18261,8 @@
     {
       "id": 16,
       "choiceType": "CHOICE",
-      "prompt": "RU: Солнце встаёт на востоке. \"___ sun rises in the east.",
-      "contextRu": "",
+      "prompt": "___ sun rises in the east.",
+      "contextRu": "Солнце встаёт на востоке.",
       "options": [
         {
           "text": "A",
@@ -20981,25 +20981,25 @@
       "items": [
         {
           "sentence": "I ___ drink coffee.",
-          "contextRu": "Я тоже пью кофе; слово в середине предложения",
+          "contextRu": "Я тоже пью кофе",
           "answer": "also",
           "alternatives": []
         },
         {
           "sentence": "Roma was there, ___.",
-          "contextRu": "Рома тоже там был; слово в конце",
+          "contextRu": "Рома тоже там был",
           "answer": "too",
           "alternatives": []
         },
         {
           "sentence": "She is ___ a student.",
-          "contextRu": "Она тоже студентка; слово после to be",
+          "contextRu": "Она тоже студентка",
           "answer": "also",
           "alternatives": []
         },
         {
           "sentence": "He speaks Spanish ___.",
-          "contextRu": "Он тоже говорит по-испански; в конце, без запятой, формально",
+          "contextRu": "Он тоже говорит по-испански",
           "answer": "as well",
           "alternatives": []
         }
