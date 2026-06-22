@@ -47,7 +47,7 @@
 
 ---
 
-## Маршрут: A✅ → B✅ → C✅ → D1✅ → D2✅ → E✅ → F1✅ → F2✅ → **F3** → F4
+## Маршрут: A✅ → B✅ → C✅ → D1✅ → D2✅ → E✅ → F1✅ → F2✅ → F3✅ → F4✅  — ФУНДАМЕНТ ЗАВЕРШЁН
 
 Легенда статуса: ⬜ не начато · 🟦 в работе · ✅ готово.
 
@@ -282,7 +282,7 @@ DIALOG_RESTORE / FIND_THE_ODD — на одном базовом компоне�
 - **Self-prompt:** переписан в `_next_session_prompt.md` под **F3**.
 - **Очистка контекста:** ✅ да.
 
-### 🟦 Шаг F3. Группа «ввод / сборка»  🟡 — НАПИСАН 2026-06-21 (на проверке у пользователя)
+### 🟩 Шаг F3. Группа «ввод / сборка»  ✅ — ОБКАТАН И ОДОБРЕН пользователем (2026-06-22)
 WORD_ARRANGEMENT (Duolingo-style drag-сборка с рефлоу чипов), TRANSFORMATION (3 поля ввода),
 TABLE_FILL (плавающие поля как в TextInput).
 - ✅ Реализовано: домен (`Exercise.TableFill/Transformation/WordArrangement` + модели,
@@ -296,14 +296,34 @@ TABLE_FILL (плавающие поля как в TextInput).
   на сидах (WORD_ARRANGEMENT 50, TRANSFORMATION 14, TABLE_FILL 9), оценить drag-ощущения и вердикт.
 - **decision_log:** раздел «Шаг F3». **Self-prompt:** `_next_session_prompt.md` (под F4 после обкатки).
 
-### ⬜ Шаг F4. Группа «интерактивные»  🟡
+### 🟩 Шаг F4. Группа «интерактивные»  ✅ — ОБКАТАН И ОДОБРЕН (2026-06-22)
 TRUE_FALSE (multi-select «отметь верные», НЕ тоггл), MATCHING (две колонки, левая закреплена, правую
 переставляют вертикальным drag-reorder — БЕЗ ниточек), CATEGORIZATION (drag из пула в колонки и обратно,
-пресайз элементов под колонку). Жесты — официальными кирпичами; reorderable-flow в Compose нет → ручной
-drag с рефлоу по протоколу костылей (см. `_next_session_prompt.md` §4.2). Габариты «всё на один экран».
-- **DoD после F4:** все 14 типов работают на реальном сиде; формат карточек-заданий обкатан.
-- **Очистка контекста:** ✅ да.
-- **Self-prompt:** _<…>_
+пресайз элементов под колонку).
+- ✅ Реализовано: домен (`Exercise.TrueFalse/Matching/Categorization` + модели `Statement/MatchPair/Category`,
+  `ExerciseAnswer.MultiChoice/Pairing/Buckets`), `ExerciseEvaluator` (+3 ветки, all-or-nothing),
+  `ExerciseContentMapper` (+3 `toTrueFalse/toMatching/toCategorization` + DTO), `ExerciseRepositoryImpl`
+  (+3 ветки → `when` стал ИСЧЕРПЫВАЮЩИМ, все 14 типов, `else` убран), VM
+  (refOf/prepareForIndex/canCheck/`onStatementToggled`/`onPairingChanged`/`onCategorizationChanged`),
+  `ExerciseSessionScreen` (ветки + лейблы), строки. **Анти-дубль:** вынесены общий `AnswerOptionSurface`
+  (single+multi-select) и `ExerciseChip`+`hitTest` — `SingleSelectExerciseView` и
+  `WordArrangementExerciseView` переведены на них.
+- ✅ Рендереры: `TrueFalseExerciseView` (multi-select), `MatchingExerciseView` (вертикальный
+  drag-reorder), `CategorizationExerciseView` (drag пул↔колонки, пресайз через `BoxWithConstraints`).
+  Жесты — официальными кирпичами + ручной drag с рефлоу (`AnimatePlacement`) по протоколу костылей.
+  Плашка `Unsupported` для этих 3 типов больше не появляется.
+- ✅ **Обкатано на устройстве (2026-06-22):** все 3 типа проходятся на basics-сиде; по фидбэку
+  допилены drag-со-скроллом (общий `detectChipDrag`, скролл длинных заданий) и плавный «переезд»
+  чипа CATEGORIZATION (оверлей-анимация при сбросе). Заодно починен баг навигации (сводка показывалась
+  после первой карточки на повторном проходе → теперь по последней карточке, `CardCompletion.isLastCard`).
+- ✅ **DoD достигнут:** все 14 типов работают на реальном сиде; формат карточек-заданий обкатан.
+- **decision_log:** раздел «Шаг F4».
+
+> **🏁 ФУНДАМЕНТ A→F ЗАВЕРШЁН.** Движок упражнений (все 14 типов) + читалка теории + конвейер
+> MD→JSON→content.db обкатаны. Дальше — НЕ шаги фундамента, а основная работа: писать теорию/упражнения
+> (контент) на готовом движке. Точка входа — `_next_session_prompt.md` (раздел «Дальше»),
+> `tasks/theory_content_guide.md`, `tasks/grammar8r_plan.md`. Отложенные фазы (реальный AI, Words8r-синк,
+> перевод по тапу, подписка) — это Фазы 2–4, не «следующий шаг».
 
 ---
 

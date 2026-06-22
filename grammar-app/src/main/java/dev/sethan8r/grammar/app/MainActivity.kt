@@ -151,8 +151,8 @@ fun MainScreen() {
             opaqueComposable<ExerciseSessionRoute> {
                 ExerciseSessionScreen(
                     onFinished = { completion ->
-                        if (completion.microtopicCompleted) {
-                            // Микротема пройдена → экран сводки; сессию и список карточек убираем из стека.
+                        if (completion.isLastCard) {
+                            // Последняя карточка микротемы → экран сводки; сессию и список карточек убираем из стека.
                             navController.navigate(MicrotopicSummaryRoute(completion.microtopicId)) {
                                 popUpTo<MicrotopicRoute> { inclusive = true }
                             }

@@ -50,17 +50,20 @@ class ProgressRepositoryImpl @Inject constructor(
         progressDao.upsertCardProgress(UserCardProgress(cardId = cardId, isCompleted = true))
 
         val microtopicId = theoryDao.getCard(cardId)?.microtopicId
-            ?: return CardCompletion(cardId = cardId, microtopicId = -1, microtopicCompleted = false)
+            ?: return CardCompletion(cardId = cardId, microtopicId = -1, isLastCard = false)
 
         val cardIds = theoryDao.getCards(microtopicId).first().map { it.id }
         val completedIds = progressDao.getCompletedCardIds().first().toSet()
-        val microtopicCompleted = cardIds.isNotEmpty() && cardIds.all { it in completedIds }
-        if (microtopicCompleted) {
+        // Флаг «вся микротема пройдена» (зелёный сегмент) — когда пройдены ВСЕ карточки (идемпотентно на повторе).
+        if (cardIds.isNotEmpty() && cardIds.all { it in completedIds }) {
             progressDao.upsertMicrotopicProgress(
                 UserMicrotopicProgress(microtopicId = microtopicId, isCompleted = true),
             )
         }
-        return CardCompletion(cardId = cardId, microtopicId = microtopicId, microtopicCompleted = microtopicCompleted)
+        // Сводку показываем по завершении ПОСЛЕДНЕЙ карточки (по порядку `order`), а не «всё пройдено» —
+        // иначе на повторном прохождении сводка вылезала бы уже после первой карточки (cardIds упорядочены).
+        val isLastCard = cardIds.lastOrNull() == cardId
+        return CardCompletion(cardId = cardId, microtopicId = microtopicId, isLastCard = isLastCard)
     }
 
     override suspend fun getMicrotopicSummary(microtopicId: Int): MicrotopicCompletionSummary {

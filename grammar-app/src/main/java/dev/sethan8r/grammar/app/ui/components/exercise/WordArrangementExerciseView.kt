@@ -5,8 +5,6 @@ import androidx.compose.animation.core.VectorConverter
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.gestures.detectDragGestures
-import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -32,7 +30,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Rect
@@ -50,7 +47,6 @@ import androidx.compose.ui.zIndex
 import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.WordToken
-import dev.sethan8r.grammar.app.ui.components.TranslatableText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Alphas
@@ -74,8 +70,8 @@ private data class WordSlot(val id: Int, val token: WordToken)
  * Рендерер WORD_ARRANGEMENT во [ExerciseFrame]. Поле сборки (сверху) + банк слов (снизу), drag-and-drop
  * между ними. Жест — на КОНТЕЙНЕРЕ (а не на чипе): по нажатию хит-тестим слово под пальцем и таскаем
  * его. Так чип может свободно мигрировать между пулом и строкой, не выпадая из композиции (иначе drag
- * рвётся). Оверлей перетаскиваемого чипа рисуется поверх всего (zIndex). Перетаскивание мгновенное
- * (`detectDragGestures`, без задержки long-press).
+ * рвётся). Оверлей перетаскиваемого чипа рисуется поверх всего (zIndex). Жест — общий [detectChipDrag]
+ * (drag стартует на чипе по slop, тап добавляет/возвращает слово; на пустом месте — скролл страницы).
  *
  * Слово «в предложении» ⟺ отпущено НАД полем сборки; иначе — возвращается в пул (с анимацией).
  * Источник правды отрисовки — локальный [sentence]; в VM уходят тексты по порядку для проверки.
@@ -187,17 +183,16 @@ fun WordArrangementExerciseView(
         modifier = modifier
             .fillMaxWidth()
             .onGloballyPositioned { wrapperCoords = it }
+            // Единый жест чипа, дружащий со скроллом: drag стартует только на чипе (slop), тап —
+            // добавляет/возвращает слово; на пустом месте фрейма жест уходит родительскому скроллу.
             .pointerInput(exercise.id, editable) {
                 if (!editable) return@pointerInput
-                detectTapGestures(onTap = { pos -> slotAt(pos)?.let { toggle(it) } })
-            }
-            .pointerInput(exercise.id, editable) {
-                if (!editable) return@pointerInput
-                detectDragGestures(
-                    onDragStart = { startPos -> slotAt(startPos)?.let { startDrag(it) } },
-                    onDrag = { change, delta -> if (dragging != null) { change.consume(); onDragMove(delta) } },
-                    onDragEnd = { if (dragging != null) endDrag() },
-                    onDragCancel = { if (dragging != null) endDrag() },
+                detectChipDrag(
+                    hitTest = { slotAt(it) },
+                    onStart = { startDrag(it) },
+                    onDrag = { delta -> onDragMove(delta) },
+                    onEnd = { endDrag() },
+                    onTap = { toggle(it) },
                 )
             },
     ) {
@@ -245,7 +240,7 @@ fun WordArrangementExerciseView(
                             // Слова — обычные; результат показывает РАМКА ПОЛЯ (выше). Перетаскиваемое
                             // место — пустой слот-индикатор (рамка размером со слово, текст скрыт).
                             key(slot.id) {
-                                WordChip(
+                                ExerciseChip(
                                     text = slot.token.text,
                                     // Когда поле окрашено результатом (верно — зелёное / 2-я ошибка —
                                     // красное), фон чипа прозрачный: заливка ПОЛЯ просвечивает сквозь
@@ -283,7 +278,7 @@ fun WordArrangementExerciseView(
                 ) {
                     bank.forEach { slot ->
                         val hidden = slot in sentence || slot == dragging || slot == releasing
-                        WordChip(
+                        ExerciseChip(
                             text = slot.token.text,
                             background = if (hidden) Background else Elevated,
                             border = Inactive,
@@ -323,7 +318,7 @@ fun WordArrangementExerciseView(
         val shown = dragging ?: releasing
         shown?.let { slot ->
             val pos = if (dragging != null) pointer else releaseAnim.value
-            WordChip(
+            ExerciseChip(
                 text = slot.token.text,
                 background = Elevated,
                 border = Inactive,
@@ -339,37 +334,6 @@ fun WordArrangementExerciseView(
         }
     }
 }
-
-/** Чип слова: контентный EN ([TranslatableText]), текст по центру. Фон/рамку/прозрачность задаёт вызывающий. */
-@Composable
-private fun WordChip(
-    text: String,
-    background: Color,
-    modifier: Modifier = Modifier,
-    border: Color = Inactive,
-    contentAlpha: Float = 1f,
-) {
-    Box(
-        modifier = modifier
-            .clip(RoundedCornerShape(Dimens.cornerButton))
-            .background(background)
-            .border(1.dp, border, RoundedCornerShape(Dimens.cornerButton))
-            .padding(horizontal = Dimens.spaceMedium, vertical = Dimens.spaceSmall),
-        contentAlignment = Alignment.Center,
-    ) {
-        // Текст всегда занимает место (alpha 0 у плейсхолдера) — раскладка не прыгает.
-        TranslatableText(
-            text = text,
-            color = TextPrimary,
-            fontSize = 16.sp,
-            modifier = Modifier.alpha(contentAlpha),
-        )
-    }
-}
-
-/** Лежит ли точка [p] внутри прямоугольника чипа с центром [c] и размером [s]. */
-private fun hitTest(c: Offset, s: IntSize, p: Offset): Boolean =
-    abs(p.x - c.x) <= s.width / 2f && abs(p.y - c.y) <= s.height / 2f
 
 /** Индекс вставки в поле сборки по позиции пальца: число чипов, стоящих «до» точки (по строкам). */
 private fun computeInsert(

@@ -155,6 +155,27 @@ class ExerciseSessionViewModel @Inject constructor(
         answer.value = ExerciseAnswer.WordOrder(tokens)
     }
 
+    /** Тоггл утверждения (TRUE_FALSE multi-select): добавить/убрать индекс из набора выбранных. */
+    fun onStatementToggled(index: Int) {
+        if (!answerDelegate.state.value.isEditable) return
+        val current = (answer.value as? ExerciseAnswer.MultiChoice)?.selectedIndices ?: emptySet()
+        answer.value = ExerciseAnswer.MultiChoice(
+            if (index in current) current - index else current + index,
+        )
+    }
+
+    /** Изменение порядка правой колонки (MATCHING): рендерер шлёт тексты правых элементов сверху вниз. */
+    fun onPairingChanged(rightOrder: List<String>) {
+        if (!answerDelegate.state.value.isEditable) return
+        answer.value = ExerciseAnswer.Pairing(rightOrder)
+    }
+
+    /** Изменение раскладки по колонкам (CATEGORIZATION): рендерер шлёт карту «элемент → индекс колонки». */
+    fun onCategorizationChanged(placement: Map<String, Int>) {
+        if (!answerDelegate.state.value.isEditable) return
+        answer.value = ExerciseAnswer.Buckets(placement)
+    }
+
     /**
      * Проверка ответа: верный — молча; неверный — тряска + событие уведомления. Результат упражнения
      * фиксируется в БД в момент ПЕРВОГО ответа (write-once, анти-чит) — независимо от верности.
@@ -213,6 +234,9 @@ class ExerciseSessionViewModel @Inject constructor(
         is Exercise.TableFill -> ExerciseRef(exercise.type, exercise.id)
         is Exercise.Transformation -> ExerciseRef(exercise.type, exercise.id)
         is Exercise.WordArrangement -> ExerciseRef(exercise.type, exercise.id)
+        is Exercise.TrueFalse -> ExerciseRef(exercise.type, exercise.id)
+        is Exercise.Matching -> ExerciseRef(exercise.type, exercise.id)
+        is Exercise.Categorization -> ExerciseRef(exercise.type, exercise.id)
         else -> null
     }
 
@@ -228,6 +252,10 @@ class ExerciseSessionViewModel @Inject constructor(
             is Exercise.TableFill -> ExerciseAnswer.TextAnswers(List(exercise.rows.size) { "" })
             is Exercise.Transformation -> ExerciseAnswer.TextAnswers(List(exercise.items.size) { "" })
             is Exercise.WordArrangement -> ExerciseAnswer.WordOrder(emptyList())
+            is Exercise.TrueFalse -> ExerciseAnswer.MultiChoice()
+            // Matching/Categorization стартуют пустыми — стартовую раскладку (шафл) пришлёт рендерер.
+            is Exercise.Matching -> ExerciseAnswer.Pairing(emptyList())
+            is Exercise.Categorization -> ExerciseAnswer.Buckets(emptyMap())
             else -> null
         }
         answerDelegate.start(skipAnswering = exercise is Exercise.Placeholder)
@@ -247,6 +275,15 @@ class ExerciseSessionViewModel @Inject constructor(
         is Exercise.Transformation -> (answer as? ExerciseAnswer.TextAnswers)?.inputs?.all { it.isNotBlank() } == true
         // Хотя бы одно слово собрано.
         is Exercise.WordArrangement -> (answer as? ExerciseAnswer.WordOrder)?.tokens?.isNotEmpty() == true
+        // Хотя бы одно утверждение отмечено.
+        is Exercise.TrueFalse -> (answer as? ExerciseAnswer.MultiChoice)?.selectedIndices?.isNotEmpty() == true
+        // Стартовая раскладка правой колонки получена (переставлять можно всегда).
+        is Exercise.Matching -> (answer as? ExerciseAnswer.Pairing)?.rightOrder?.size == exercise.pairs.size
+        // Все элементы разложены по колонкам (пул пуст).
+        is Exercise.Categorization -> {
+            val placement = (answer as? ExerciseAnswer.Buckets)?.placement
+            placement != null && placement.size == exercise.categories.sumOf { it.items.size }
+        }
         else -> false
     }
 }

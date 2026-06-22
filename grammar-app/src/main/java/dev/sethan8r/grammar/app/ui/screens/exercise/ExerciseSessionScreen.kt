@@ -56,11 +56,14 @@ import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.components.SegmentedProgressBar
 import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.components.exercise.AiPlaceholderView
+import dev.sethan8r.grammar.app.ui.components.exercise.CategorizationExerciseView
+import dev.sethan8r.grammar.app.ui.components.exercise.MatchingExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.SingleSelectExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.SingleSelectHeader
 import dev.sethan8r.grammar.app.ui.components.exercise.TableFillExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.TextInputExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.TransformationExerciseView
+import dev.sethan8r.grammar.app.ui.components.exercise.TrueFalseExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.UnsupportedExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.WordArrangementExerciseView
 import dev.sethan8r.grammar.app.ui.theme.Accent
@@ -140,6 +143,9 @@ fun ExerciseSessionScreen(
                 onSelectOption = viewModel::onOptionSelected,
                 onTextChanged = viewModel::onTextChanged,
                 onArrangementChanged = viewModel::onArrangementChanged,
+                onStatementToggled = viewModel::onStatementToggled,
+                onPairingChanged = viewModel::onPairingChanged,
+                onCategorizationChanged = viewModel::onCategorizationChanged,
                 onCheck = viewModel::onCheck,
                 onNext = viewModel::onNext,
             )
@@ -169,6 +175,9 @@ private fun SessionContent(
     onSelectOption: (Int) -> Unit,
     onTextChanged: (Int, String) -> Unit,
     onArrangementChanged: (List<String>) -> Unit,
+    onStatementToggled: (Int) -> Unit,
+    onPairingChanged: (List<String>) -> Unit,
+    onCategorizationChanged: (Map<String, Int>) -> Unit,
     onCheck: () -> Unit,
     onNext: () -> Unit,
 ) {
@@ -260,6 +269,28 @@ private fun SessionContent(
                             pulseKey = state.pulseKey,
                             onArrangementChanged = onArrangementChanged,
                         )
+                        is Exercise.TrueFalse -> TrueFalseExerciseView(
+                            exercise = exercise,
+                            selectedIndices = (state.answer as? ExerciseAnswer.MultiChoice)?.selectedIndices ?: emptySet(),
+                            phase = state.phase,
+                            shakeKey = state.shakeKey,
+                            pulseKey = state.pulseKey,
+                            onToggle = onStatementToggled,
+                        )
+                        is Exercise.Matching -> MatchingExerciseView(
+                            exercise = exercise,
+                            phase = state.phase,
+                            shakeKey = state.shakeKey,
+                            pulseKey = state.pulseKey,
+                            onOrderChanged = onPairingChanged,
+                        )
+                        is Exercise.Categorization -> CategorizationExerciseView(
+                            exercise = exercise,
+                            phase = state.phase,
+                            shakeKey = state.shakeKey,
+                            pulseKey = state.pulseKey,
+                            onPlacementChanged = onCategorizationChanged,
+                        )
                         is Exercise.Unsupported -> UnsupportedExerciseView(exercise)
                         is Exercise.AiPlaceholder -> AiPlaceholderView()
                     }
@@ -302,6 +333,9 @@ private fun exerciseTypeLabel(exercise: Exercise): String = when (exercise) {
     is Exercise.TableFill -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_table_fill)
     is Exercise.Transformation -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_transformation)
     is Exercise.WordArrangement -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_word_arrangement)
+    is Exercise.TrueFalse -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_true_false)
+    is Exercise.Matching -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_matching)
+    is Exercise.Categorization -> exercise.type.name + " · " + stringResource(R.string.exercise_desc_categorization)
     is Exercise.Unsupported -> exercise.type.name
     // У умного задания вместо типа — его (длинный) строковый ID; в маленький бокс он не влезает.
     is Exercise.AiPlaceholder -> exercise.exerciseId

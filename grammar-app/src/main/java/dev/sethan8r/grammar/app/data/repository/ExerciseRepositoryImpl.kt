@@ -17,8 +17,8 @@ import javax.inject.Inject
  * В конец добавляются сегменты умных заданий карточки (0, 1 или несколько — по числу `ai_exercises`).
  *
  * Три CHOICE-подтипа лежат в одной таблице с составным PK `(id, choiceType)` — нужный трек выбираем
- * по типу из индекса. Типы, которых движок ещё не умеет (F2–F4), и пропавшие строки (осиротевший
- * индекс) отдаём как [Exercise.Unsupported]; умные задания — как [Exercise.AiPlaceholder] (Фаза 3).
+ * по типу из индекса. Движок умеет все 14 хардкод-типов (F1–F4); пропавшие строки (осиротевший индекс)
+ * отдаём как [Exercise.Unsupported]; умные задания — как [Exercise.AiPlaceholder] (Фаза 3).
  */
 class ExerciseRepositoryImpl @Inject constructor(
     private val exerciseDao: ExerciseDao,
@@ -67,8 +67,14 @@ class ExerciseRepositoryImpl @Inject constructor(
                 HardcodedExerciseType.WORD_ARRANGEMENT ->
                     exerciseDao.getWordArrangement(index.exerciseId)?.let(mapper::toWordArrangement)
 
-                // Остальные типы — пока заглушка (реализуются в F4: MATCHING/TRUE_FALSE/CATEGORIZATION).
-                else -> null
+                HardcodedExerciseType.TRUE_FALSE ->
+                    exerciseDao.getTrueFalse(index.exerciseId)?.let(mapper::toTrueFalse)
+
+                HardcodedExerciseType.MATCHING ->
+                    exerciseDao.getMatching(index.exerciseId)?.let(mapper::toMatching)
+
+                HardcodedExerciseType.CATEGORIZATION ->
+                    exerciseDao.getCategorization(index.exerciseId)?.let(mapper::toCategorization)
             }
             exercise ?: Exercise.Unsupported(index.exerciseId, index.exerciseType)
         }

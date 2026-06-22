@@ -1,17 +1,23 @@
 package dev.sethan8r.grammar.app.data.mapper
 
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.CategorizationExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.ConstructionMeaningExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.DialogRestoreExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.ErrorCorrectionExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.FindTheOddExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.MatchingExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.MultipleChoiceExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TableFillExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TextInputExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TransformationExercise
+import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TrueFalseExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.WordArrangementExercise
+import dev.sethan8r.grammar.app.domain.model.exercise.Category
 import dev.sethan8r.grammar.app.domain.model.exercise.DialogLine
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
+import dev.sethan8r.grammar.app.domain.model.exercise.MatchPair
 import dev.sethan8r.grammar.app.domain.model.exercise.Option
+import dev.sethan8r.grammar.app.domain.model.exercise.Statement
 import dev.sethan8r.grammar.app.domain.model.exercise.TableFillRow
 import dev.sethan8r.grammar.app.domain.model.exercise.TextItem
 import dev.sethan8r.grammar.app.domain.model.exercise.TransformItem
@@ -100,6 +106,29 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
         explanation = entity.explanation,
     )
 
+    fun toTrueFalse(entity: TrueFalseExercise): Exercise.TrueFalse = Exercise.TrueFalse(
+        id = entity.id,
+        statements = json.decodeFromString<List<StatementJson>>(entity.statements)
+            .map { Statement(en = it.en, ru = it.ru, isTrue = it.isTrue) },
+        explanation = entity.explanation,
+    )
+
+    fun toMatching(entity: MatchingExercise): Exercise.Matching = Exercise.Matching(
+        id = entity.id,
+        taskDescription = entity.taskDescription,
+        pairs = json.decodeFromString<List<PairJson>>(entity.pairs)
+            .map { MatchPair(left = it.left, right = it.right) },
+        explanation = entity.explanation,
+    )
+
+    fun toCategorization(entity: CategorizationExercise): Exercise.Categorization = Exercise.Categorization(
+        id = entity.id,
+        taskDescription = entity.taskDescription,
+        categories = json.decodeFromString<List<CategoryJson>>(entity.categories)
+            .map { Category(title = it.title, items = it.items) },
+        explanation = entity.explanation,
+    )
+
     private fun parseTokens(raw: String): List<WordToken> =
         json.decodeFromString<List<WordTokenJson>>(raw).map { WordToken(text = it.text, translation = it.translation) }
 
@@ -132,4 +161,13 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
 
     @Serializable
     private data class WordTokenJson(val text: String = "", val translation: String = "")
+
+    @Serializable
+    private data class StatementJson(val en: String = "", val ru: String = "", val isTrue: Boolean = false)
+
+    @Serializable
+    private data class PairJson(val left: String = "", val right: String = "")
+
+    @Serializable
+    private data class CategoryJson(val title: String = "", val items: List<String> = emptyList())
 }

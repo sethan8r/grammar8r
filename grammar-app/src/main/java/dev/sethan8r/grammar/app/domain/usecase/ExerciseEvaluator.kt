@@ -46,6 +46,29 @@ object ExerciseEvaluator {
             tokens != null && AnswerNormalizer.matches(exercise.correctSentence, tokens.joinToString(" "))
         }
 
+        // TRUE_FALSE — выбраны РОВНО все истинные утверждения (ни одного ложного, ни одного пропуска).
+        is Exercise.TrueFalse -> {
+            val picked = (answer as? ExerciseAnswer.MultiChoice)?.selectedIndices ?: emptySet()
+            val truthful = exercise.statements.indices.filter { exercise.statements[it].isTrue }.toSet()
+            picked == truthful
+        }
+
+        // MATCHING — против каждого левого стоит его правое (позиционная сверка текстов правой колонки).
+        is Exercise.Matching -> {
+            val order = (answer as? ExerciseAnswer.Pairing)?.rightOrder
+            order != null &&
+                order.size == exercise.pairs.size &&
+                exercise.pairs.indices.all { i -> order[i] == exercise.pairs[i].right }
+        }
+
+        // CATEGORIZATION — каждый элемент разложен в свою категорию (вердикт all-or-nothing).
+        is Exercise.Categorization -> {
+            val placement = (answer as? ExerciseAnswer.Buckets)?.placement ?: emptyMap()
+            exercise.categories.withIndex().all { (col, category) ->
+                category.items.all { item -> placement[item] == col }
+            }
+        }
+
         // Плашки-сегменты (нереализованный тип / умное задание) отвечать не требуют.
         is Exercise.Placeholder -> true
     }

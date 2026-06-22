@@ -1,39 +1,23 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.domain.model.exercise.Option
 import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
-import dev.sethan8r.grammar.app.ui.theme.Accent
-import dev.sethan8r.grammar.app.ui.theme.Alphas
-import dev.sethan8r.grammar.app.ui.theme.Background
-import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
-import dev.sethan8r.grammar.app.ui.theme.Inactive
-import dev.sethan8r.grammar.app.ui.theme.IncorrectRed
-
-/** Визуальное состояние варианта ответа. */
-private enum class OptionVisual { NORMAL, SELECTED, CORRECT, WRONG_PICK }
 
 /**
  * Единый рендерер заданий с выбором одного варианта ([dev.sethan8r.grammar.app.domain.model.exercise.Exercise.SingleSelect]):
  * MULTIPLE_CHOICE / FORWARD_CHOICE / REVERSE_CHOICE / ERROR_CORRECTION / CONSTRUCTION_MEANING /
  * DIALOG_RESTORE / FIND_THE_ODD. Внутри [ExerciseFrame]: шапка-условие (слот [header]) →
- * линия-разделитель от края до края → варианты → объяснение на реванше. Типы отличаются ТОЛЬКО
- * содержимым шапки (Правило №0) — её даёт вызывающий через [SingleSelectHeader].
+ * линия-разделитель от края до края → варианты ([AnswerOptionSurface]) → объяснение на реванше. Типы
+ * отличаются ТОЛЬКО содержимым шапки (Правило №0) — её даёт вызывающий через [SingleSelectHeader].
  */
 @Composable
 fun SingleSelectExerciseView(
@@ -67,12 +51,13 @@ fun SingleSelectExerciseView(
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
         ) {
             options.forEachIndexed { index, option ->
-                OptionRow(
-                    text = option.text,
+                AnswerOptionSurface(
                     visual = visualFor(phase, index, selectedIndex, correctIndices),
                     enabled = editable,
                     onClick = { onSelect(index) },
-                )
+                ) {
+                    MarkdownText(text = option.text, fontSize = 16.sp)
+                }
             }
         }
 
@@ -85,37 +70,14 @@ private fun visualFor(
     index: Int,
     selected: Int,
     correctIndices: Set<Int>,
-): OptionVisual = when (phase) {
+): AnswerOptionVisual = when (phase) {
     AnswerPhase.ANSWERING, AnswerPhase.WRONG_FIRST ->
-        if (index == selected) OptionVisual.SELECTED else OptionVisual.NORMAL
+        if (index == selected) AnswerOptionVisual.SELECTED else AnswerOptionVisual.NORMAL
     AnswerPhase.CORRECT ->
-        if (index == selected) OptionVisual.CORRECT else OptionVisual.NORMAL
+        if (index == selected) AnswerOptionVisual.CORRECT else AnswerOptionVisual.NORMAL
     AnswerPhase.REVEALED -> when {
-        index in correctIndices -> OptionVisual.CORRECT
-        index == selected -> OptionVisual.WRONG_PICK
-        else -> OptionVisual.NORMAL
-    }
-}
-
-@Composable
-private fun OptionRow(text: String, visual: OptionVisual, enabled: Boolean, onClick: () -> Unit) {
-    // Цвет выделения: NORMAL — нейтральная обводка без заливки; остальные — заливка центра тем же цветом.
-    val accentColor = when (visual) {
-        OptionVisual.NORMAL -> Inactive
-        OptionVisual.SELECTED -> Accent
-        OptionVisual.CORRECT -> CorrectGreen
-        OptionVisual.WRONG_PICK -> IncorrectRed
-    }
-    val fillColor = if (visual == OptionVisual.NORMAL) Background else accentColor.copy(alpha = Alphas.answerFill)
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(Dimens.cornerButton))
-            .background(fillColor)
-            .border(2.dp, accentColor, RoundedCornerShape(Dimens.cornerButton))
-            .clickable(enabled = enabled, onClick = onClick)
-            .padding(Dimens.cardPadding),
-    ) {
-        MarkdownText(text = text, fontSize = 16.sp)
+        index in correctIndices -> AnswerOptionVisual.CORRECT
+        index == selected -> AnswerOptionVisual.WRONG_PICK
+        else -> AnswerOptionVisual.NORMAL
     }
 }

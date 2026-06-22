@@ -134,6 +134,48 @@ sealed interface Exercise {
         val type: HardcodedExerciseType get() = HardcodedExerciseType.WORD_ARRANGEMENT
     }
 
+    /**
+     * TRUE_FALSE — ровно 5 утверждений, отметить ВСЕ верные (multi-select «отметь верные», НЕ тоггл
+     * ✓/✗). Ответ — набор выбранных индексов ([ExerciseAnswer.MultiChoice]); верно, если выбраны ровно
+     * все [Statement.isTrue] (ни одного ложного, ни одного пропуска). Утверждение — EN + RU-перевод.
+     */
+    data class TrueFalse(
+        override val id: Int,
+        val statements: List<Statement>,
+        val explanation: String,
+    ) : Exercise {
+        val type: HardcodedExerciseType get() = HardcodedExerciseType.TRUE_FALSE
+    }
+
+    /**
+     * MATCHING — 4–6 пар «левое ↔ правое». Левая колонка закреплена (порядок [pairs]); правую
+     * пользователь переставляет вертикальным drag-reorder. Верно, если против каждого левого стоит его
+     * правое ([ExerciseAnswer.Pairing] — порядок правых текстов сверяется позиционно). Перемешивание
+     * правой колонки — презентационная случайность рендерера (как банк в [WordArrangement]).
+     */
+    data class Matching(
+        override val id: Int,
+        val taskDescription: String,
+        val pairs: List<MatchPair>,
+        val explanation: String,
+    ) : Exercise {
+        val type: HardcodedExerciseType get() = HardcodedExerciseType.MATCHING
+    }
+
+    /**
+     * CATEGORIZATION — распределить 6–15 элементов по 2–3 колонкам-категориям перетаскиванием
+     * (пул ↔ колонки, туда-обратно). Верно, если каждый элемент лежит в своей категории
+     * ([ExerciseAnswer.Buckets] — карта «элемент → индекс колонки»). Пул и порядок — состояние рендерера.
+     */
+    data class Categorization(
+        override val id: Int,
+        val taskDescription: String,
+        val categories: List<Category>,
+        val explanation: String,
+    ) : Exercise {
+        val type: HardcodedExerciseType get() = HardcodedExerciseType.CATEGORIZATION
+    }
+
     /** Тип, который движок ещё не реализовал (появится в F2–F4) — показывается плашка «в разработке». */
     data class Unsupported(
         override val id: Int,
@@ -173,3 +215,12 @@ data class TransformItem(val original: String, val transformed: String)
 
 /** Слово-чип в [Exercise.WordArrangement]: текст + перевод (пустой — слово уже знакомо). */
 data class WordToken(val text: String, val translation: String)
+
+/** Одно утверждение [Exercise.TrueFalse]: EN-предложение, его RU-перевод и истинность. */
+data class Statement(val en: String, val ru: String, val isTrue: Boolean)
+
+/** Одна пара [Exercise.Matching]: закреплённое левое и сопоставляемое правое. */
+data class MatchPair(val left: String, val right: String)
+
+/** Одна категория [Exercise.Categorization]: заголовок-колонка и относящиеся к ней элементы. */
+data class Category(val title: String, val items: List<String>)
