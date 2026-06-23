@@ -9,7 +9,7 @@ import dev.sethan8r.grammar.app.domain.model.exercise.WordTable
 import kotlinx.coroutines.flow.Flow
 
 /**
- * Состояние слов и настройки категорий в user.db. Базовый набор — расширяется в Фазе 2 (блок слов).
+ * Состояние слов и настройки категорий в user.db.
  */
 @Dao
 interface WordProgressDao {

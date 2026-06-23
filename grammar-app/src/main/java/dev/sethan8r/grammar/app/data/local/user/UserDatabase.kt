@@ -26,7 +26,6 @@ import dev.sethan8r.grammar.app.data.local.user.entity.UserWordProgress
  * «контент + прогресс» склеивается в репозитории через combine().
  *
  * Источник правды по схеме — db_schema.md.
- * 🟡 provisional (Шаг B) — решения зафиксированы в tasks/foundation/decision_log.md.
  */
 @Database(
     entities = [

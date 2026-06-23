@@ -6,8 +6,8 @@ import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
 import dev.sethan8r.grammar.app.domain.model.progress.MicrotopicCompletionSummary
 
 /**
- * ЕДИНАЯ точка записи прогресса прохождения (закладка foundation_plan §7 п.4): все отметки идут
- * только сюда — разрозненные `dao.update()` из ViewModel запрещены. Несёт логику (две БД, проверка
+ * ЕДИНАЯ точка записи прогресса прохождения: все отметки идут только сюда — разрозненные
+ * `dao.update()` из ViewModel запрещены. Несёт логику (две БД, проверка
  * «все карточки пройдены», write-once результатов), поэтому это репозиторий, а не анемичный прокси.
  *
  * Анти-чит (CLAUDE → «Повторное прохождение»): результат упражнения фиксируется при ПЕРВОМ ответе и

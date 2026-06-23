@@ -37,7 +37,6 @@ import dev.sethan8r.grammar.app.data.local.converter.Converters
  * пользовательских данных тут нет). Прогресс живёт отдельно в user.db; JOIN/FK между БД нет.
  *
  * Источник правды по схеме и архитектуре двух БД — db_schema.md.
- * 🟡 provisional (Шаг B) — каждое решение зафиксировано в tasks/foundation/decision_log.md.
  */
 @Database(
     entities = [

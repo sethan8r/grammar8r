@@ -13,7 +13,7 @@ import dev.sethan8r.grammar.app.ui.theme.Dimens
  * над жестами/кнопками: высота навбар-инсета + единый визуальный зазор [Dimens.bottomBarGap]
  * (чтобы «воздух» не разъезжался по экранам). Кладётся в `contentPadding` (LazyColumn) или в
  * `padding(bottom = …)` (Column + verticalScroll).
- * "extra" = сколько добавляем дял компенсации
+ * "extra" = сколько добавляем для компенсации
  */
 @Composable
 fun scrollBottomInset(extra: Dp = Dimens.bottomBarGap24): Dp =

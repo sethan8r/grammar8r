@@ -10,7 +10,7 @@ import javax.inject.Inject
 
 /**
  * Маппер `GrammarCard` (Entity, сырой JSON-`String`) → [TheoryCard] (домен, типизированные блоки).
- * Здесь и только здесь живёт разбор JSON теории (решение Шага B: разбор в маппере, не в Room).
+ * Здесь и только здесь живёт разбор JSON теории — в маппере, не в Room.
  */
 class TheoryContentMapper @Inject constructor(
     private val json: Json,

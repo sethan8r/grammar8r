@@ -9,8 +9,7 @@ import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarTopicCat
 import kotlinx.coroutines.flow.Flow
 
 /**
- * Чтение дерева теории из content.db (read-only). Базовый набор запросов — расширяется в Шаге E
- * (читалка) по мере появления экранов. Запись отсутствует: content.db сидируется из assets.
+ * Чтение дерева теории из content.db (read-only). Запись отсутствует: content.db сидируется из assets.
  */
 @Dao
 interface TheoryDao {
@@ -35,4 +34,18 @@ interface TheoryDao {
 
     @Query("SELECT * FROM grammar_cards WHERE id = :cardId")
     suspend fun getCard(cardId: Int): GrammarCard?
+
+    /** id карточек микротемы, у которых есть хотя бы одно хардкод-упражнение. */
+    @Query(
+        "SELECT DISTINCT cardId FROM card_exercise_index " +
+            "WHERE cardId IN (SELECT id FROM grammar_cards WHERE microtopicId = :microtopicId)"
+    )
+    fun getCardIdsWithHardcodedExercises(microtopicId: Int): Flow<List<Int>>
+
+    /** id карточек микротемы, у которых есть умное (AI) задание. */
+    @Query(
+        "SELECT DISTINCT cardId FROM ai_exercises " +
+            "WHERE cardId IN (SELECT id FROM grammar_cards WHERE microtopicId = :microtopicId)"
+    )
+    fun getCardIdsWithAiExercise(microtopicId: Int): Flow<List<Int>>
 }

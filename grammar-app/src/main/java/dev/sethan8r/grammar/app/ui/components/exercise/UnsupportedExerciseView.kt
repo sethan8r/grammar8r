@@ -17,16 +17,18 @@ import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 
 /**
- * Заглушка типа упражнения, который движок ещё не реализовал (F2–F4). Отвечать нечего — «Далее»
- * (в скаффолде) сразу активна; сегмент проходится, в счёт «верно X из N» не идёт. Уберётся сама,
- * когда все 14 типов получат рендереры.
+ * Аварийная плашка для [Exercise.Unsupported]: задание есть в индексе карточки, но его строки нет в
+ * таблице своего типа (осиротевший индекс — рассинхрон content.db / баг конвейера). Показываем вместо
+ * краша: тип + ID для диагностики и просьбу прислать скрин в поддержку. Отвечать нечего — «Далее»
+ * сразу активна, сегмент в счёт «верно X из N» не идёт. В корректных данных пользователь её не видит.
  */
 @Composable
 fun UnsupportedExerciseView(exercise: Exercise.Unsupported, modifier: Modifier = Modifier) {
     PlaceholderBody(
         modifier = modifier,
-        message = stringResource(R.string.exercise_type_in_development),
-        sub = exercise.type.name,
+        message = stringResource(R.string.exercise_load_failed),
+        sub = stringResource(R.string.exercise_load_failed_ref, exercise.type.name, exercise.id),
+        hint = stringResource(R.string.exercise_load_failed_support),
     )
 }
 
@@ -40,8 +42,17 @@ fun AiPlaceholderView(modifier: Modifier = Modifier) {
     )
 }
 
+/**
+ * Тело плашки-заглушки: основной текст [message], опциональная техническая подпись [sub]
+ * (тип · ID) и опциональная просьба-подсказка [hint] (только у аварийной плашки — у AI-заглушки null).
+ */
 @Composable
-private fun PlaceholderBody(message: String, sub: String?, modifier: Modifier = Modifier) {
+private fun PlaceholderBody(
+    message: String,
+    sub: String?,
+    modifier: Modifier = Modifier,
+    hint: String? = null,
+) {
     // shakeKey/pulseKey = 0 — плашки не трясутся и не пульсируют (ответа на них не бывает).
     ExerciseFrame(shakeKey = 0, pulseKey = 0, modifier = modifier) {
         Text(
@@ -61,6 +72,17 @@ private fun PlaceholderBody(message: String, sub: String?, modifier: Modifier = 
                     .padding(top = Dimens.spaceSmall, start = Dimens.cardPadding, end = Dimens.cardPadding),
                 color = TextSecondary,
                 fontSize = 13.sp,
+                textAlign = TextAlign.Center,
+            )
+        }
+        if (hint != null) {
+            Text(
+                text = hint,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = Dimens.spaceMedium, start = Dimens.cardPadding, end = Dimens.cardPadding),
+                color = TextSecondary,
+                fontSize = 14.sp,
                 textAlign = TextAlign.Center,
             )
         }

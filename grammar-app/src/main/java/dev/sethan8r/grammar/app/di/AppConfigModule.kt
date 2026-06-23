@@ -8,9 +8,8 @@ import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
 /**
- * Конфигурация сборки через DI. Единственное место, где код обращается к `BuildConfig`, —
- * dev/prod-различие пробрасывается как зависимость (правило CLAUDE.md: dev/prod через
- * BuildConfig-поле, не «TODO раскомментировать»; getInstance/static в логике — нет).
+ * Конфигурация сборки через DI: единственное место, где код обращается к `BuildConfig`.
+ * dev/prod-различие пробрасывается как зависимость, а не через static/getInstance в логике.
  */
 @Module
 @InstallIn(SingletonComponent::class)

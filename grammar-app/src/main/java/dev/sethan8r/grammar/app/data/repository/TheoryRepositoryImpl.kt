@@ -67,11 +67,20 @@ class TheoryRepositoryImpl @Inject constructor(
     override fun observeMicrotopicCards(microtopicId: Int): Flow<MicrotopicCards> = combine(
         theoryDao.observeMicrotopic(microtopicId),
         theoryDao.getCards(microtopicId),
+        theoryDao.getCardIdsWithHardcodedExercises(microtopicId),
+        theoryDao.getCardIdsWithAiExercise(microtopicId),
         progressDao.getCompletedCardIds(),
-    ) { microtopic, cards, completedCardIds ->
+    ) { microtopic, cards, hardcodedIds, aiIds, completedCardIds ->
+        val withHardcoded = hardcodedIds.toSet()
+        val withAi = aiIds.toSet()
         MicrotopicCards(
             microtopicTitle = microtopic?.title.orEmpty(),
-            cards = cards.map(mapper::toTheoryCard),
+            cards = cards.map { card ->
+                mapper.toTheoryCard(card).copy(
+                    hasExercises = card.id in withHardcoded || card.id in withAi,
+                    hasAiExercise = card.id in withAi,
+                )
+            },
             completedCardIds = completedCardIds.toSet(),
         )
     }

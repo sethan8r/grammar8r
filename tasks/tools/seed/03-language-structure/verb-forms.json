@@ -1,0 +1,445 @@
+{
+  "grammar_topics": [
+    {
+      "id": 6,
+      "title": "Глаголы: V1, V2, V3",
+      "order": 4,
+      "isPretopic": false,
+      "description": "Три формы глагола (V1/V2/V3) — кирпичики всех времён: какая форма что значит и где используется",
+      "categoryId": 1
+    }
+  ],
+  "grammar_topic_categories": [
+    {
+      "id": 1,
+      "title": "Устройство языка",
+      "description": "Как устроен английский язык на уровне логики — структура, части речи, служебные элементы",
+      "order": 3
+    }
+  ],
+  "grammar_microtopics": [
+    {
+      "id": 42,
+      "topicId": 6,
+      "title": "Three verb forms · Что такое три формы глагола",
+      "order": 1
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 121,
+      "microtopicId": 42,
+      "title": "Что такое три формы глагола — зачем они нужны",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "По-русски глагол гнётся окончаниями и приставками, но остаётся «тем же словом»: *делать — сделал — сделанный* — корень -дел- виден везде. Английский поступает иначе: у многих глаголов прошлое и причастие — это **другие слова**, с виду вообще не похожие на исходное."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому у английского глагола различают до **трёх форм** — их коротко называют V1, V2, V3 (V — от *verb*, «глагол»):"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Что это",
+            "go",
+            "see",
+            "do"
+          ],
+          "rows": [
+            [
+              "V1",
+              "базовая (словарная)",
+              "go",
+              "see",
+              "do"
+            ],
+            [
+              "V2",
+              "прошедшее",
+              "went",
+              "saw",
+              "did"
+            ],
+            [
+              "V3",
+              "причастие",
+              "gone",
+              "seen",
+              "done"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотри на go → went → gone: ни went, ни gone не похожи на go — это приходится знать заранее. Зачем три формы? Это **кирпичики, из которых собираются все времена**. Мы уже встречали их в «Служебных глаголах», просто не называли по номерам: *have + V3* (have **done**) и *be + V3* (was **done**) — там и пряталась V3."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Буквы V1/V2/V3 — это не строгий термин из учебников, а удобные «номера полок». Запомнив, что у глагола три полки, дальше ты просто берёшь нужную форму с нужной полки под нужное время."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У английского глагола до трёх форм: V1 — базовая (go), V2 — прошедшее (went), V3 — причастие (gone). Часто это разные слова, не похожие друг на друга. Эти три формы — кирпичики, из которых строятся все времена.",
+      "examples": [
+        {
+          "ru": "Я часто хожу в спортзал.",
+          "en": "I often go to the gym."
+        },
+        {
+          "ru": "Вчера Лена ходила в спортзал.",
+          "en": "Yesterday Lena went to the gym."
+        },
+        {
+          "ru": "Работа уже сделана.",
+          "en": "The work is done."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему у одних глаголов формы похожи, а у go — совсем разные слова?",
+        "Зачем вообще нужны три формы, если в русском хватает одного глагола?",
+        "Что значит «причастие» (V3) простыми словами?"
+      ]
+    },
+    {
+      "id": 122,
+      "microtopicId": 42,
+      "title": "V1 — базовая форма (её мы уже знаем)",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "**V1 — это словарная форма**, та самая, что мы учили с самого начала: *to go, to work, to eat*. Когда открываешь словарь, глагол стоит именно в V1. Это «глагол в чистом виде», без времени и без лица."
+        },
+        {
+          "type": "paragraph",
+          "text": "V1 работает во многих местах, и почти все нам уже знакомы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Present Simple для I/you/we/they: *I work here.* *(Я работаю здесь.)*",
+            "после do/does/did: *Does she work here?* *(Она здесь работает?)* — глагол вернулся в V1",
+            "после модальных (can, must, will): *I can swim.* *(Я умею плавать.)*",
+            "после to (инфинитив): *I want to go.* *(Я хочу пойти.)*"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Для he/she/it в Present Simple к V1 добавляется -s (*she works*), но это всё ещё V1 с окончанием, а не отдельная форма. Полки V2/V3 тут ни при чём."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "V1 — базовая словарная форма глагола (go, work). Она живёт в Present Simple, после do/does/did, после модальных и после to. Для he/she/it добавляется -s (works) — но это та же V1, просто с окончанием.",
+      "examples": [
+        {
+          "ru": "Они живут в Казани.",
+          "en": "They live in Kazan."
+        },
+        {
+          "ru": "Ты любишь чай?",
+          "en": "Do you like tea?"
+        },
+        {
+          "ru": "Игорь должен позвонить врачу.",
+          "en": "Igor must call a doctor."
+        }
+      ],
+      "clarificationOptions": [
+        "Если для he/she/it пишем works, это V1 или другая форма?",
+        "Почему после did глагол снова становится V1 (did go, а не did went)?",
+        "Чем V1 отличается от инфинитива с to?"
+      ]
+    },
+    {
+      "id": 123,
+      "microtopicId": 42,
+      "title": "V2 — простое прошедшее",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "**V2 — это форма прошедшего времени.** Её главная особенность: она работает **сама по себе**, без помощников. Хочешь сказать о прошлом — просто берёшь V2: *I went home.* *(Я пошёл домой.)* Никаких have, be, did рядом не нужно."
+        },
+        {
+          "type": "paragraph",
+          "text": "Именно V2 живёт в Past Simple — времени, которое мы скоро будем разбирать подробно. Сравни две полки:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "*I go home.* *(Я иду домой.)* — V1, настоящее",
+            "*I went home.* *(Я пошёл домой.)* — V2, прошлое"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "V2 — для **утвердительного** прошлого. Как только появляется отрицание или вопрос, прошлое «переезжает» в did (мы видели это в «Служебных глаголах»), а глагол возвращается на полку V1: *Did you go?* ✓ — не *Did you went?* ✗. Прошлое уже выражено словом did, показывать его второй раз не нужно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "V2 — форма прошедшего времени, работает самостоятельно, без помощников: I went, she saw. Это основа Past Simple. Но в вопросах и отрицаниях прошлое берёт на себя did, а глагол возвращается в V1: «Did you go?», не «Did you went».",
+      "examples": [
+        {
+          "ru": "Вчера Катя пошла в кино.",
+          "en": "Yesterday Katya went to the cinema."
+        },
+        {
+          "ru": "Мы видели этот фильм на прошлой неделе.",
+          "en": "We saw this film last week."
+        },
+        {
+          "ru": "Ты ходил вчера на работу?",
+          "en": "Did you go to work yesterday?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «I went» можно сказать без did, а «Did you went?» — нельзя?",
+        "Как отличить V2 от V3, если у некоторых глаголов они похожи?",
+        "Когда мы будем подробно проходить Past Simple?"
+      ]
+    },
+    {
+      "id": 124,
+      "microtopicId": 42,
+      "title": "V3 — причастие, само не ходит",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "**V3 — форма-причастие** (в учебниках её называют Past Participle). Характер у неё противоположный V2: **сама по себе V3 не употребляется** — ей всегда нужен глагол-помощник рядом."
+        },
+        {
+          "type": "paragraph",
+          "text": "Двух помощников мы уже встречали в «Служебных глаголах»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**have + V3** — времена группы Perfect: *I have done it.* *(Я это сделал.)* — done = V3 от do",
+            "**be + V3** — страдательный залог (Passive): *The work was done.* *(Работу сделали.)* — done после was"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "V3 нельзя поставить как простое прошлое. *I gone home.* ✗ — звучит сломанно, потому что у gone нет помощника. Правильно либо *I went home.* ✓ (V2, простое прошлое), либо *I have gone home.* ✓ (have + V3, Perfect). Полку V3 всегда «держит» have или be."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Подробно have + V3 и be + V3 мы разберём в темах Perfect и Passive — сейчас важно одно: **увидел V3 — ищи рядом помощника.**"
+        }
+      ],
+      "theorySummary": "V3 (причастие, Past Participle) сама не употребляется — ей нужен помощник: have + V3 (Perfect: have done) или be + V3 (Passive: was done). «I gone» — ошибка: либо «I went» (V2), либо «I have gone» (have + V3).",
+      "examples": [
+        {
+          "ru": "Я уже сделал домашнее задание.",
+          "en": "I have done my homework."
+        },
+        {
+          "ru": "Письмо было отправлено вчера.",
+          "en": "The letter was sent yesterday."
+        },
+        {
+          "ru": "Ты когда-нибудь видел этот фильм?",
+          "en": "Have you seen this film?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «I gone» — ошибка, а «I have gone» — правильно?",
+        "Чем V3 отличается от V2, если оба про прошлое?",
+        "Что значит «причастие» и почему оно не может стоять без have или be?"
+      ]
+    },
+    {
+      "id": 125,
+      "microtopicId": 42,
+      "title": "Сводка: какая форма где",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Соберём три полки в одну картину. Главное, что нужно унести из этой микротемы: **форма — это не время.** Форма — деталь, а время решает, какую форму и с каким помощником взять."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Сама по себе?",
+            "Где используется",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "V1",
+              "да",
+              "Present Simple, после do/does/did, модальных, to",
+              "I **go** / Did you **go**?"
+            ],
+            [
+              "V2",
+              "да",
+              "Past Simple (утверждение)",
+              "I **went**"
+            ],
+            [
+              "V3",
+              "нет, нужен have/be",
+              "Perfect (have + V3), Passive (be + V3)",
+              "I have **gone** / It was **done**"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда простое правило-навигатор: V1 и V2 умеют стоять одни, V3 — всегда с помощником. Поэтому, увидев *gone, done, seen* без have или be, ты сразу чувствуешь: предложение сломано."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Три формы — это три полки одного глагола. Дальше весь курс времён — это просто «возьми такую-то форму и поставь рядом такого-то помощника». Сами полки больше не меняются."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "V1 и V2 работают самостоятельно (I go / I went), V3 — только с помощником (have gone / was done). Форма — это не время: время выбирает, какую форму и с каким помощником взять. Это фундамент для всех времён курса.",
+      "examples": [
+        {
+          "ru": "Я работаю по будням.",
+          "en": "I work on weekdays."
+        },
+        {
+          "ru": "Вчера я работал из дома.",
+          "en": "Yesterday I worked from home."
+        },
+        {
+          "ru": "Эта песня написана Лёшей.",
+          "en": "This song was written by Lesha."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, какую форму выбрать в конкретном предложении?",
+        "Почему форму V3 нельзя поставить без have или be?",
+        "Какие времена мы соберём из этих трёх форм дальше?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 123,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 73,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 125,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 25,
+      "orderInCard": 0
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [],
+  "course_categories": [],
+  "course_words": [],
+  "table_fill_exercises": [],
+  "true_false_exercises": [],
+  "word_arrangement_exercises": [],
+  "multiple_choice_exercises": [
+    {
+      "id": 73,
+      "choiceType": "CHOICE",
+      "prompt": "Yesterday Dima ___ to the gym.",
+      "contextRu": "Вчера Дима ходил в спортзал.",
+      "options": [
+        {
+          "text": "go",
+          "isCorrect": false
+        },
+        {
+          "text": "went",
+          "isCorrect": true
+        },
+        {
+          "text": "gone",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Действие в прошлом и стоит само по себе, без помощника → нужна V2: went. «go» — это V1 (настоящее). «gone» — V3, она не ходит одна, ей нужен have или be (have gone)."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [],
+  "error_correction_exercises": [],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 25,
+      "taskDescription": "разложи формы трёх знакомых глаголов по полкам V1, V2, V3.",
+      "categories": [
+        {
+          "title": "V1",
+          "items": [
+            "go",
+            "see",
+            "do"
+          ]
+        },
+        {
+          "title": "V2",
+          "items": [
+            "went",
+            "saw",
+            "did"
+          ]
+        },
+        {
+          "title": "V3",
+          "items": [
+            "gone",
+            "seen",
+            "done"
+          ]
+        }
+      ],
+      "explanation": "V1 — базовая словарная форма (go, see, do). V2 — простое прошедшее, ходит само (went, saw, did). V3 — причастие, только с помощником have/be (gone, seen, done)."
+    }
+  ],
+  "find_the_odd_exercises": []
+}

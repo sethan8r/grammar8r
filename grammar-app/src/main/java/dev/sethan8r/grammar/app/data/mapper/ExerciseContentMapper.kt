@@ -28,7 +28,7 @@ import javax.inject.Inject
 
 /**
  * Разбор сырых JSON-полей упражнений (Entity content.db) в типизированные доменные [Exercise].
- * Граница data→domain: kotlinx.serialization не утекает в domain (как в [TheoryContentMapper], Шаг E).
+ * Граница data→domain: kotlinx.serialization не утекает в domain (как в [TheoryContentMapper]).
  * [Json] инжектится из [dev.sethan8r.grammar.app.di.SerializationModule] (`ignoreUnknownKeys = true`).
  */
 class ExerciseContentMapper @Inject constructor(private val json: Json) {

@@ -21,6 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -32,6 +33,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.R
+import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
 import dev.sethan8r.grammar.app.domain.model.theory.Example
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryCard
 import dev.sethan8r.grammar.app.ui.components.CenteredHint
@@ -49,12 +51,14 @@ import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 import dev.sethan8r.grammar.app.ui.util.scrollBottomInset
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 
 /**
- * Экран микротемы — карточки теории. Свайпы отключены: листание — кнопкой «Перейти к заданиям»
- * (на Шаге E она просто двигает к следующей карточке; в Фазе F поведёт в упражнения). Прогресс
- * сверху — сегментная полоса по числу карточек. Шаг E — только чтение, прогресс не пишется.
+ * Экран микротемы — карточки теории. Свайпы отключены: вперёд двигает нижняя кнопка. У карточки с
+ * заданиями это «Перейти к заданиям» (ведёт в сессию, прохождение пишет она). У карточки без заданий —
+ * «Завершить карточку»: отмечает её пройденной и листает на следующую, а если она последняя — выходит
+ * назад в список. Прогресс сверху — сегментная полоса по числу карточек.
  */
 @Composable
 fun MicrotopicScreen(
@@ -81,6 +85,9 @@ fun MicrotopicScreen(
                 cards = uiState.cards,
                 completedCardIds = uiState.completedCardIds,
                 onStartExercises = onStartExercises,
+                onCompleteCard = viewModel::completeCard,
+                cardCompleted = viewModel.cardCompleted,
+                onExit = onBack,
                 advanceAfterCardId = advanceAfterCardId,
                 onAdvanceConsumed = onAdvanceConsumed,
             )
@@ -93,6 +100,9 @@ private fun CardPager(
     cards: List<TheoryCard>,
     completedCardIds: Set<Int>,
     onStartExercises: (cardId: Int) -> Unit,
+    onCompleteCard: (cardId: Int) -> Unit,
+    cardCompleted: Flow<CardCompletion>,
+    onExit: () -> Unit,
     advanceAfterCardId: Int?,
     onAdvanceConsumed: () -> Unit,
 ) {
@@ -109,6 +119,23 @@ private fun CardPager(
         onAdvanceConsumed()
     }
 
+    // Кнопка «Завершить карточку» (карточка без заданий) отметила прохождение: не последняя — листаем
+    // на следующую; последняя — выходим назад в список (экрана сводки на этом пути нет).
+    val latestCards = rememberUpdatedState(cards)
+    LaunchedEffect(Unit) {
+        cardCompleted.collect { completion ->
+            if (completion.isLastCard) {
+                onExit()
+            } else {
+                val list = latestCards.value
+                val index = list.indexOfFirst { it.id == completion.cardId }
+                if (index in 0 until list.lastIndex) {
+                    pagerState.animateScrollToPage(index + 1)
+                }
+            }
+        }
+    }
+
     Column(modifier = Modifier.fillMaxSize()) {
         Row(
             modifier = Modifier
@@ -121,9 +148,9 @@ private fun CardPager(
                 total = cards.size,
                 currentIndex = pagerState.currentPage,
                 modifier = Modifier.weight(1f),
-                // Тап — мгновенный переход (без анимации). Запрет перепрыгивания (completion-based):
-                // доступна любая ПРОЙДЕННАЯ карточка (назад) + первая непройденная («следующая на
-                // очереди»). Дальше неё — нельзя, пока карточка не засчитана в БД (Шаг F).
+                // Тап — мгновенный переход. Запрет перепрыгивания (completion-based): доступна любая
+                // пройденная карточка (назад) + первая непройденная («следующая на очереди»). Дальше
+                // неё — нельзя, пока карточка не засчитана в БД.
                 onSegmentClick = { index ->
                     val frontier = cards.indexOfFirst { it.id !in completedCardIds }
                     val reachable = cards[index].id in completedCardIds || index == frontier
@@ -144,20 +171,27 @@ private fun CardPager(
             modifier = Modifier.fillMaxSize(),
             userScrollEnabled = false,
         ) { page ->
+            val card = cards[page]
+            // Основная кнопка зависит от наличия заданий: есть → открыть сессию ЭТОЙ карточки;
+            // нет → отметить пройденной и листнуть дальше/выйти. Свайпов нет (CLAUDE → «Поиск и
+            // повторное прохождение»); листание — кнопкой и полосой прогресса.
             CardPage(
-                card = cards[page],
-                isCompleted = cards[page].id in completedCardIds,
-                // «Перейти к заданиям» открывает сессию упражнений ЭТОЙ карточки. Перелистнуть к
-                // следующей карточке можно полосой прогресса (после прохождения текущей — frontier
-                // сдвигается). Свайпов нет (CLAUDE → «Поиск и повторное прохождение»).
-                onPrimary = { onStartExercises(cards[page].id) },
+                card = card,
+                isCompleted = card.id in completedCardIds,
+                onStartExercises = { onStartExercises(card.id) },
+                onCompleteCard = { onCompleteCard(card.id) },
             )
         }
     }
 }
 
 @Composable
-private fun CardPage(card: TheoryCard, isCompleted: Boolean, onPrimary: () -> Unit) {
+private fun CardPage(
+    card: TheoryCard,
+    isCompleted: Boolean,
+    onStartExercises: () -> Unit,
+    onCompleteCard: () -> Unit,
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -181,7 +215,13 @@ private fun CardPage(card: TheoryCard, isCompleted: Boolean, onPrimary: () -> Un
             ExamplesSection(card.examples)
         }
 
-        CardActions(isCompleted = isCompleted, onPrimary = onPrimary)
+        CardActions(
+            isCompleted = isCompleted,
+            hasExercises = card.hasExercises,
+            hasAiExercise = card.hasAiExercise,
+            onStartExercises = onStartExercises,
+            onCompleteCard = onCompleteCard,
+        )
     }
 }
 
@@ -236,13 +276,19 @@ private fun exampleFrameShape(index: Int, count: Int): RoundedCornerShape {
 }
 
 /**
- * Кнопки внизу карточки (закладка system пользователя): «Не совсем понял» (всегда сверху, Фаза 3 —
- * задизейблено), «Перейти к заданиям» (основная), и «Перейти к умному заданию» — только если
- * карточка уже пройдена (Фаза 3 — задизейблено). На Шаге E пройденных карточек нет → третья кнопка
- * не показывается; основная просто листает дальше.
+ * Кнопки внизу карточки: «Не совсем понял» (всегда сверху, Фаза 3 — задизейблено); основная — либо
+ * «Перейти к заданиям» (если у карточки есть задания → сессия), либо «Завершить карточку» (если
+ * заданий нет → отметка пройденной); и «Перейти к умному заданию» — только если карточка уже
+ * пройдена И у неё есть AI-задание (Фаза 3 — задизейблено).
  */
 @Composable
-private fun CardActions(isCompleted: Boolean, onPrimary: () -> Unit) {
+private fun CardActions(
+    isCompleted: Boolean,
+    hasExercises: Boolean,
+    hasAiExercise: Boolean,
+    onStartExercises: () -> Unit,
+    onCompleteCard: () -> Unit,
+) {
     Column(verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall)) {
         OutlinedButton(
             onClick = {},
@@ -252,16 +298,21 @@ private fun CardActions(isCompleted: Boolean, onPrimary: () -> Unit) {
             Text(text = stringResource(R.string.theory_clarify_button))
         }
         Button(
-            onClick = onPrimary,
+            onClick = if (hasExercises) onStartExercises else onCompleteCard,
             modifier = Modifier.fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Accent,
                 contentColor = Background
             ),
         ) {
-            Text(text = stringResource(R.string.theory_go_to_exercises))
+            Text(
+                text = stringResource(
+                    if (hasExercises) R.string.theory_go_to_exercises
+                    else R.string.theory_complete_card
+                ),
+            )
         }
-        if (isCompleted) {
+        if (isCompleted && hasAiExercise) {
             OutlinedButton(
                 onClick = {},
                 enabled = false,

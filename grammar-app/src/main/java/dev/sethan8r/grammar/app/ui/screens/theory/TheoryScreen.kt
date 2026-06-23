@@ -6,6 +6,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -92,6 +93,8 @@ private fun TheoryList(
         modifier = Modifier
             .fillMaxSize()
             .padding(horizontal = Dimens.screenPadding),
+        // Зазор под последним фреймом, чтобы он не упирался в нижнюю панель.
+        contentPadding = PaddingValues(bottom = Dimens.spaceXXLarge),
         verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
     ) {
         item {

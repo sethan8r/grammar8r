@@ -21,7 +21,6 @@ import dev.sethan8r.grammar.app.domain.model.exercise.ChoiceType
 /**
  * Чтение упражнений из content.db (read-only). По индексу карточки [getExercisesForCard] код
  * узнаёт тип и id, затем тянет конкретное упражнение из таблицы своего типа.
- * Базовый набор — расширяется в Шаге F (движок упражнений).
  */
 @Dao
 interface ExerciseDao {

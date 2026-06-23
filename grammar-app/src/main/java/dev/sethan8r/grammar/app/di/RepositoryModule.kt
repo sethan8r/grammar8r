@@ -23,10 +23,9 @@ import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
 /**
- * Биндинги domain-интерфейсов к реализациям (@Binds). Фаза 1 — серверные интерфейсы привязаны к
- * Fake-заглушкам ([dev.sethan8r.grammar.app.data.repository.fake]). При появлении реальных
+ * Биндинги domain-интерфейсов к реализациям (@Binds). Серверные интерфейсы пока привязаны к
+ * Fake-заглушкам ([dev.sethan8r.grammar.app.data.repository.fake]); при появлении реальных
  * реализаций (Фаза 4) меняется только правая часть биндинга — потребители не трогаются.
- * Репозитории теории (combine content+user) добавятся в шаге E.
  */
 @Module
 @InstallIn(SingletonComponent::class)
@@ -52,17 +51,17 @@ abstract class RepositoryModule {
     @Singleton
     abstract fun bindProgressSyncRepository(impl: FakeProgressSyncRepository): ProgressSyncRepository
 
-    /** Реальный репозиторий теории (Шаг E): combine content.db + user.db. Не Fake. */
+    /** Репозиторий теории: combine content.db + user.db. */
     @Binds
     @Singleton
     abstract fun bindTheoryRepository(impl: TheoryRepositoryImpl): TheoryRepository
 
-    /** Упражнения карточки из content.db (Шаг F1). */
+    /** Упражнения карточки из content.db. */
     @Binds
     @Singleton
     abstract fun bindExerciseRepository(impl: ExerciseRepositoryImpl): ExerciseRepository
 
-    /** Единая точка записи прогресса прохождения (Шаг F1): карточка/микротема + счёт. */
+    /** Единая точка записи прогресса прохождения: карточка/микротема + счёт. */
     @Binds
     @Singleton
     abstract fun bindProgressRepository(impl: ProgressRepositoryImpl): ProgressRepository

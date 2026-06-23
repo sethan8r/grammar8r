@@ -20,7 +20,7 @@ data class WordSource(
  * Источник правды по составу/семантике — db_schema.md → ENUM `AiExerciseWordsSource`.
  *
  * ⚠️ `displayName` пока живёт здесь как доменный атрибут; при появлении экрана блокировки
- * упражнения текст уедет в strings.xml (помечено в decision_log Шага B).
+ * упражнения текст уедет в strings.xml.
  */
 enum class AiExerciseWordsSource(
     val sources: List<WordSource>,

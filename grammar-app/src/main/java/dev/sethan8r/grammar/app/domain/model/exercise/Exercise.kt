@@ -1,7 +1,7 @@
 package dev.sethan8r.grammar.app.domain.model.exercise
 
 /**
- * Доменное упражнение карточки — то, что показывает движок (Шаг F). Получается из Entity content.db
+ * Доменное упражнение карточки — то, что показывает движок. Получается из Entity content.db
  * маппером ([dev.sethan8r.grammar.app.data.mapper.ExerciseContentMapper]): сырой JSON полей
  * (`options`/`items`) уже разобран в типизированные списки.
  *
@@ -176,7 +176,11 @@ sealed interface Exercise {
         val type: HardcodedExerciseType get() = HardcodedExerciseType.CATEGORIZATION
     }
 
-    /** Тип, который движок ещё не реализовал (появится в F2–F4) — показывается плашка «в разработке». */
+    /**
+     * Упражнение есть в индексе карточки, но его строки нет в таблице своего типа (осиротевший
+     * индекс — рассинхрон content.db / баг конвейера). Аварийный fallback: показываем плашку
+     * с типом и [id] вместо краша. В корректных данных не возникает.
+     */
     data class Unsupported(
         override val id: Int,
         val type: HardcodedExerciseType,

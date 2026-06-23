@@ -19,6 +19,7 @@
     <string name="theory_examples_title">Примеры</string>
     <string name="theory_clarify_button">Не совсем понял</string>
     <string name="theory_go_to_exercises">Перейти к заданиям</string>
+    <string name="theory_complete_card">Завершить карточку</string>
     <string name="theory_go_to_ai_exercise">Перейти к умному заданию</string>
     <string name="info_show">Показать описание</string>
     <string name="theory_card_id">ID %1$d</string>
@@ -27,7 +28,6 @@
     <!-- Упражнения (движок, Шаг F) -->
     <string name="exercise_id_short">ID %1$d</string>
     <string name="exercise_ai_short">AI</string>
-    <string name="exercise_ai_title">Умное задание</string>
     <!-- Краткие описания «что делать» по типу задания (рядом с названием) -->
     <string name="exercise_desc_multiple_choice">ВЫБЕРИТЕ СЛОВО</string>
     <string name="exercise_desc_forward_choice">ВЫБЕРИТЕ ПЕРЕВОД</string>
@@ -52,7 +52,9 @@
     <string name="exercise_wrong_final">Неправильно</string>
     <string name="exercise_correct_answer">Правильно: %1$s</string>
     <string name="exercise_empty">Упражнений в этой карточке пока нет</string>
-    <string name="exercise_type_in_development">Этот тип задания скоро появится</string>
+    <string name="exercise_load_failed">Не удалось загрузить это задание</string>
+    <string name="exercise_load_failed_ref">%1$s · ID %2$d</string>
+    <string name="exercise_load_failed_support">Пожалуйста, сделайте скриншот этого экрана и напишите в поддержку — контакты есть на экране «Меню». Спасибо, что помогаете нам стать лучше!</string>
     <string name="exercise_ai_placeholder">Здесь будет ИИ-упражнение</string>
     <string name="exercise_summary_close">Закрыть</string>
 
