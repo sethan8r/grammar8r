@@ -1,5 +1,9 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.AnswerOptionSurface
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.AnswerOptionVisual
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -8,7 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.ui.components.TranslatableText
+import dev.sethan8r.grammar.app.ui.components.text.TranslatableText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Dimens

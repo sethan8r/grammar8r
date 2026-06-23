@@ -1,5 +1,7 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding

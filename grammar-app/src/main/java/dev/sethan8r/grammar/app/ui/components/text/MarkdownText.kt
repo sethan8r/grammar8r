@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.ui.components
+package dev.sethan8r.grammar.app.ui.components.text
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

@@ -30,7 +30,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import dagger.hilt.android.AndroidEntryPoint
-import dev.sethan8r.grammar.app.ui.components.Grammar8rBottomBar
+import dev.sethan8r.grammar.app.ui.components.scaffold.Grammar8rBottomBar
 import dev.sethan8r.grammar.app.ui.navigation.ExerciseSessionRoute
 import dev.sethan8r.grammar.app.ui.navigation.LearnRoute
 import dev.sethan8r.grammar.app.ui.navigation.MenuRoute

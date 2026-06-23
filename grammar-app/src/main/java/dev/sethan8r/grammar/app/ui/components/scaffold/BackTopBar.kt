@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.ui.components
+package dev.sethan8r.grammar.app.ui.components.scaffold
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope

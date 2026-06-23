@@ -1,5 +1,12 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseContentText
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseInputField
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.InputFieldVisual
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -21,7 +28,6 @@ import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
 import dev.sethan8r.grammar.app.domain.model.exercise.TransformItem
 import dev.sethan8r.grammar.app.domain.usecase.AnswerNormalizer
-import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Accent
@@ -71,7 +77,7 @@ fun TransformationExerciseView(
                 val visual = visualFor(phase, item, input)
                 Column(verticalArrangement = Arrangement.spacedBy(Dimens.spaceTiny)) {
                     // Исходное предложение — контентный EN.
-                    MarkdownText(text = item.original, fontSize = 18.sp)
+                    ExerciseContentText(text = item.original, fontSize = 18.sp)
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),

@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.ui.components
+package dev.sethan8r.grammar.app.ui.components.feedback
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary

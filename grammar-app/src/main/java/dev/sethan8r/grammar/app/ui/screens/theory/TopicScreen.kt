@@ -28,8 +28,8 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicState
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicSummary
-import dev.sethan8r.grammar.app.ui.components.BackTopBar
 import dev.sethan8r.grammar.app.ui.components.DualTitle
+import dev.sethan8r.grammar.app.ui.components.scaffold.BackTopBar
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens

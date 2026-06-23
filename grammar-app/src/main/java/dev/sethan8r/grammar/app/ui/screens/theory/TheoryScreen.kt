@@ -38,9 +38,9 @@ import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryListItem
 import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
 import dev.sethan8r.grammar.app.ui.components.DualTitle
-import dev.sethan8r.grammar.app.ui.components.FeedbackSnackbarHost
 import dev.sethan8r.grammar.app.ui.components.InfoButton
-import dev.sethan8r.grammar.app.ui.components.rememberFeedbackSnackbarController
+import dev.sethan8r.grammar.app.ui.components.feedback.FeedbackSnackbarHost
+import dev.sethan8r.grammar.app.ui.components.feedback.rememberFeedbackSnackbarController
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens

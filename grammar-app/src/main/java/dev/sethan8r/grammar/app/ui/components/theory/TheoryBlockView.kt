@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.ui.components
+package dev.sethan8r.grammar.app.ui.components.theory
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -32,6 +32,7 @@ import androidx.compose.ui.unit.sp
 import kotlin.math.ceil
 import dev.sethan8r.grammar.app.domain.model.theory.CalloutVariant
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
+import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Highlight
 import dev.sethan8r.grammar.app.ui.theme.CardBackground

@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.ui.components
+package dev.sethan8r.grammar.app.ui.components.feedback
 
 import androidx.compose.material3.SnackbarDuration
 import androidx.compose.material3.SnackbarHostState

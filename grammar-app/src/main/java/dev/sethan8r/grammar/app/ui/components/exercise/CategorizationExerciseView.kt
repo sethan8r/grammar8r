@@ -1,5 +1,12 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseChip
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.detectChipDrag
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.hitTest
+
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.VectorConverter
 import androidx.compose.animation.core.tween
@@ -109,6 +116,13 @@ fun CategorizationExerciseView(
     // Раскладка: id элемента → индекс колонки. Отсутствует в карте ⟺ элемент в пуле.
     val placement = remember(exercise.id) { mutableStateMapOf<Int, Int>() }
 
+    // Порядок отображения внутри зоны (колонки/пула): меньше — раньше. Изначально = индекс в перемешанном
+    // пуле; при каждом сбросе элемент получает следующий по величине номер → встаёт В КОНЕЦ зоны-назначения.
+    val order = remember(exercise.id) {
+        mutableStateMapOf<Int, Int>().apply { items.forEachIndexed { i, item -> put(item.id, i) } }
+    }
+    var nextSeq by remember(exercise.id) { mutableStateOf(items.size) }
+
     // Геометрия в координатах внешней обёртки.
     var wrapperCoords by remember(exercise.id) { mutableStateOf<LayoutCoordinates?>(null) }
     val zoneBounds = remember(exercise.id) { mutableStateMapOf<Int, Rect>() } // ключ: индекс колонки (пул — не зона)
@@ -122,6 +136,8 @@ fun CategorizationExerciseView(
     // Плавный «переезд» оверлея к новому месту чипа после сброса (колонка/пул — разные родители, поэтому
     // animatePlacement тут не срабатывает; анимируем оверлей, как возврат в пул в WORD_ARRANGEMENT).
     var releasing by remember(exercise.id) { mutableStateOf<CatItem?>(null) }
+    // Был ли это переезд в ДРУГУЮ зону: при возврате в ту же зону слот остаётся тёмным плейсхолдером.
+    var releaseZoneChanged by remember(exercise.id) { mutableStateOf(false) }
     val releaseAnim = remember(exercise.id) { Animatable(Offset.Zero, Offset.VectorConverter) }
     val scope = rememberCoroutineScope()
 
@@ -150,13 +166,17 @@ fun CategorizationExerciseView(
             solved -> CorrectGreen
             revealed && wasWrong -> IncorrectRed
             revealed -> CorrectGreen
+            // Приземление в ДРУГУЮ зону — без рамки (место не помечаем).
+            item == releasing && releaseZoneChanged -> Color.Transparent
             else -> Inactive
         }
         val fill = when {
             solved -> CorrectGreen.copy(alpha = Alphas.answerFill)
             revealed && wasWrong -> IncorrectRed.copy(alpha = Alphas.answerFill)
             revealed -> CorrectGreen.copy(alpha = Alphas.answerFill)
-            // Перетаскиваемый/«переезжающий» — пустой плейсхолдер на своём месте (его рисует оверлей).
+            // Приземление в другую зону — пусто: карточку «привозит» оверлей, место не помечаем.
+            item == releasing && releaseZoneChanged -> Color.Transparent
+            // Тёмный плейсхолдер: пока тащим (откуда взяли) И пока возвращается в ту же зону (остаётся на месте).
             item == dragging || item == releasing -> Background
             else -> Elevated
         }
@@ -188,14 +208,21 @@ fun CategorizationExerciseView(
                             // Брошено на колонку → в неё; иначе (мимо колонок) → возврат в пул (как WORD_ARRANGEMENT).
                             val fromCol = placement[item.id]
                             val toCol = zoneAt(pointer)
+                            val zoneChanged = toCol != fromCol
                             val preCenter = centers[item.id] ?: pointer
                             if (toCol != null) placement[item.id] = toCol else placement.remove(item.id)
+                            // В конец зоны-назначения — ТОЛЬКО при смене зоны (пул↔колонка, колонка↔колонка).
+                            // Брошен туда же, откуда взят (в т.ч. пул→пул) → сохраняет своё прежнее место.
+                            if (zoneChanged) {
+                                order[item.id] = nextSeq
+                                nextSeq += 1
+                            }
                             commit()
                             // Плавно «довозим» оверлей до места, где чип осядет. Сменилась зона → ждём новый
                             // центр после перераскладки (snapshotFlow); та же зона → центр прежний (preCenter).
                             releasing = item
+                            releaseZoneChanged = zoneChanged
                             val from = pointer
-                            val zoneChanged = toCol != fromCol
                             scope.launch {
                                 releaseAnim.snapTo(from)
                                 val target = if (zoneChanged) {
@@ -245,7 +272,9 @@ fun CategorizationExerciseView(
                                     onBoundsChanged = { rect -> zoneBounds[col] = rect },
                                     wrapperCoords = wrapperCoords,
                                 ) {
-                                    items.filter { placement[it.id] == col }.forEach { item ->
+                                    items.filter { placement[it.id] == col }
+                                        .sortedBy { order[it.id] ?: 0 }
+                                        .forEach { item ->
                                         val (border, fill) = chipVisual(item)
                                         key(item.id) {
                                             CatChip(
@@ -272,7 +301,9 @@ fun CategorizationExerciseView(
                             horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
                             verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
                         ) {
-                            items.filter { placement[it.id] == null }.forEach { item ->
+                            items.filter { placement[it.id] == null }
+                                .sortedBy { order[it.id] ?: 0 }
+                                .forEach { item ->
                                 val (border, fill) = chipVisual(item)
                                 key(item.id) {
                                     CatChip(
@@ -348,7 +379,7 @@ private fun CategoryColumn(
     ) {
         Text(
             text = title,
-            color = Accent,
+            color = TextSecondary,
             fontSize = 13.sp,
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center,

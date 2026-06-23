@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.ui.components.exercise
+package dev.sethan8r.grammar.app.ui.components.exercise.parts
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween

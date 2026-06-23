@@ -10,7 +10,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -40,7 +42,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.ui.components.TranslatableText
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.detectChipDrag
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.hitTest
+import dev.sethan8r.grammar.app.ui.components.text.TranslatableText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Alphas
@@ -177,7 +184,13 @@ fun MatchingExerciseView(
                     verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
                 ) {
                     exercise.pairs.forEach { pair ->
-                        MatchCell(text = pair.left, background = Background, border = Inactive)
+                        MatchCell(
+                            text = pair.left,
+                            background = Background,
+                            border = Inactive,
+                            framed = false,
+                            alignStart = true,
+                        )
                     }
                 }
                 // Правая колонка — переставляемая.
@@ -206,6 +219,7 @@ fun MatchingExerciseView(
                                 text = slot.text,
                                 background = fill,
                                 border = border,
+                                dragHandle = true,
                                 contentAlpha = if (isDragged) 0f else 1f,
                                 modifier = Modifier
                                     .animatePlacement()
@@ -232,6 +246,7 @@ fun MatchingExerciseView(
                 text = slot.text,
                 background = Elevated,
                 border = Inactive,
+                dragHandle = true,
                 modifier = Modifier
                     .zIndex(1f)
                     .width(with(density) { draggedSize.width.toDp() })
@@ -246,7 +261,11 @@ fun MatchingExerciseView(
     }
 }
 
-/** Ячейка matching: фикс. высота, контентный EN/RU ([TranslatableText]) по центру. Фон/рамку задаёт вызывающий. */
+/**
+ * Ячейка matching фикс. высоты, контентный EN/RU ([TranslatableText]).
+ * - [framed] = `false` (левый столбец): без фона/рамки, текст к левому краю ([alignStart]).
+ * - [dragHandle] = `true` (правый, переставляемый): 2 точки в углу — намёк «перетаскивается».
+ */
 @Composable
 private fun MatchCell(
     text: String,
@@ -254,23 +273,59 @@ private fun MatchCell(
     border: Color,
     modifier: Modifier = Modifier,
     contentAlpha: Float = 1f,
+    framed: Boolean = true,
+    alignStart: Boolean = false,
+    dragHandle: Boolean = false,
 ) {
     Box(
         modifier = modifier
             .fillMaxWidth()
             .height(Dimens.matchRowHeight)
-            .clip(RoundedCornerShape(Dimens.cornerButton))
-            .background(background)
-            .border(1.dp, border, RoundedCornerShape(Dimens.cornerButton))
-            .padding(horizontal = Dimens.spaceMedium),
-        contentAlignment = Alignment.Center,
+            .then(
+                if (framed) {
+                    Modifier
+                        .clip(RoundedCornerShape(Dimens.cornerButton))
+                        .background(background)
+                        .border(1.dp, border, RoundedCornerShape(Dimens.cornerButton))
+                } else {
+                    Modifier
+                }
+            ),
+        contentAlignment = if (alignStart) Alignment.CenterStart else Alignment.Center,
     ) {
+        // Горизонтальный отступ — на самом тексте (не на Box), чтобы точки-хэндл отмерялись от рамки.
         TranslatableText(
             text = text,
             color = TextPrimary,
             fontSize = 16.sp,
-            modifier = Modifier.alpha(contentAlpha),
+            modifier = Modifier
+                .padding(horizontal = if (framed) Dimens.spaceMedium else 0.dp)
+                .alpha(contentAlpha),
         )
+        if (dragHandle) {
+            DragHandleDots(
+                color = border,
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .padding(Dimens.spaceSmall)
+                    .alpha(contentAlpha),
+            )
+        }
+    }
+}
+
+/** Две точки-«ручка» цвета обводки ячейки — намёк, что правый элемент можно перетаскивать. */
+@Composable
+private fun DragHandleDots(color: Color, modifier: Modifier = Modifier) {
+    Row(modifier = modifier, horizontalArrangement = Arrangement.spacedBy(Dimens.spaceMicro)) {
+        repeat(2) {
+            Box(
+                Modifier
+                    .size(Dimens.matchDragHandleDot)
+                    .clip(CircleShape)
+                    .background(color),
+            )
+        }
     }
 }
 

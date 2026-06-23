@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.ui.components.exercise
+package dev.sethan8r.grammar.app.ui.components.exercise.parts
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -15,7 +15,7 @@ import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 
 /**
  * Полоска-пропуск: место под пропущенный ответ/реплику (вместо символов `____`). Блочный аналог
- * inline-пропуска из [dev.sethan8r.grammar.app.ui.components.parseInlineMarkdown] — тот живёт ВНУТРИ
+ * inline-пропуска из [dev.sethan8r.grammar.app.ui.components.text.parseInlineMarkdown] — тот живёт ВНУТРИ
  * `Text` (`InlineTextContent`, em-размер), а этот стоит самостоятельным элементом строки/слота.
  * Переиспользуемый (Правило №0): длина фиксирована ([width], как `____` — чтобы пропуск одинаково
  * выглядел и в середине предложения, и отдельной репликой); толщину/скругление/цвет даёт компонент.

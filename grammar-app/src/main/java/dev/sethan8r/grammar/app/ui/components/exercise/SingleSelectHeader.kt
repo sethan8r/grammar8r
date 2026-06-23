@@ -1,5 +1,8 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.BlankBar
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseContentText
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -14,7 +17,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.domain.model.exercise.DialogLine
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
@@ -39,22 +41,22 @@ fun SingleSelectHeader(exercise: Exercise.SingleSelect) {
 /** CHOICE/FORWARD/REVERSE: предложение-условие (с пропусками) + опц. русский контекст. */
 @Composable
 private fun ChoiceHeader(exercise: Exercise.Choice) {
-    MarkdownText(text = exercise.prompt, fontSize = 18.sp, renderBlanks = true)
+    ExerciseContentText(text = exercise.prompt, fontSize = 18.sp)
     if (exercise.contextRu.isNotBlank()) {
-        MarkdownText(text = exercise.contextRu, color = TextSecondary, fontSize = 14.sp)
+        ExerciseContentText(text = exercise.contextRu, color = TextSecondary, fontSize = 14.sp)
     }
 }
 
 /** ERROR_CORRECTION / CONSTRUCTION_MEANING: одно EN-предложение/конструкция-условие. */
 @Composable
 private fun StatementHeader(text: String) {
-    MarkdownText(text = text, fontSize = 18.sp)
+    ExerciseContentText(text = text, fontSize = 18.sp)
 }
 
 /** FIND_THE_ODD: русская инструкция «что объединяет три из четырёх». */
 @Composable
 private fun InstructionHeader(text: String) {
-    MarkdownText(text = text, color = TextPrimary, fontSize = 16.sp)
+    ExerciseContentText(text = text, color = TextPrimary, fontSize = 16.sp)
 }
 
 /** DIALOG_RESTORE: реплики диалога; пропуск (`text == null`) — полоска на месте восстанавливаемой реплики. */
@@ -72,7 +74,7 @@ private fun DialogHeader(lines: List<DialogLine>) {
                 )
                 Spacer(Modifier.width(Dimens.spaceSmall))
                 if (line.text != null) {
-                    MarkdownText(text = line.text, fontSize = 18.sp, modifier = Modifier.weight(1f))
+                    ExerciseContentText(text = line.text, fontSize = 18.sp, modifier = Modifier.weight(1f))
                 } else {
                     // Полоска-пропуск фиксированной длины; чуть приподнята от низа строки (на уровень базовой линии).
                     BlankBar(modifier = Modifier.padding(bottom = Dimens.spaceTiny))

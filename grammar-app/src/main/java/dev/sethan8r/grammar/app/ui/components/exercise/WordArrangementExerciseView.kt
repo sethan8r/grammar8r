@@ -1,5 +1,12 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseChip
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.detectChipDrag
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.hitTest
+
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.VectorConverter
 import androidx.compose.animation.core.tween
@@ -278,10 +285,12 @@ fun WordArrangementExerciseView(
                 ) {
                     bank.forEach { slot ->
                         val hidden = slot in sentence || slot == dragging || slot == releasing
+                        // Спрятанный слот — полностью прозрачный (без тёмного фрейма), но держит место
+                        // в раскладке (банк не сжимается): ширина чипа сохраняется, текст уже alpha 0.
                         ExerciseChip(
                             text = slot.token.text,
-                            background = if (hidden) Background else Elevated,
-                            border = Inactive,
+                            background = if (hidden) Color.Transparent else Elevated,
+                            border = if (hidden) Color.Transparent else Inactive,
                             contentAlpha = if (hidden) 0f else 1f,
                             modifier = Modifier.onGloballyPositioned { coords ->
                                 val w = wrapperCoords ?: return@onGloballyPositioned

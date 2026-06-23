@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.ui.components
+package dev.sethan8r.grammar.app.ui.components.progress
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

@@ -1,10 +1,9 @@
-package dev.sethan8r.grammar.app.ui.components.exercise
+package dev.sethan8r.grammar.app.ui.components.exercise.parts
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
-import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
@@ -18,7 +17,7 @@ import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 fun ExerciseExplanation(phase: AnswerPhase, text: String, modifier: Modifier = Modifier) {
     if (phase != AnswerPhase.REVEALED || text.isBlank()) return
     ExerciseDivider()
-    MarkdownText(
+    ExerciseContentText(
         text = text,
         modifier = modifier.padding(horizontal = Dimens.cardPadding),
         color = TextSecondary,

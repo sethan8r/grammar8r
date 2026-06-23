@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.ui.components.exercise
+package dev.sethan8r.grammar.app.ui.components.exercise.parts
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -21,7 +21,7 @@ import androidx.compose.ui.input.pointer.positionChange
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import dev.sethan8r.grammar.app.ui.components.TranslatableText
+import dev.sethan8r.grammar.app.ui.components.text.TranslatableText
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary

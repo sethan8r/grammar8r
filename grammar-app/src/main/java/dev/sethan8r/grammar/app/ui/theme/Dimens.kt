@@ -62,6 +62,9 @@ object Dimens {
     /** Фиксированная высота строки MATCHING — выравнивает закреплённую левую и переставляемую правую колонки. */
     val matchRowHeight = 52.dp
 
+    /** Диаметр точки drag-хэндла в углу переставляемой ячейки MATCHING (намёк «перетаскивается»). */
+    val matchDragHandleDot = 4.dp
+
     /** Минимальная высота колонки-категории CATEGORIZATION (видна как зона сброса даже пустой). */
     val categoryColumnMinHeight = 96.dp
 

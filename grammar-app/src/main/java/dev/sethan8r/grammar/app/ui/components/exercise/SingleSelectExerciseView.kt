@@ -1,5 +1,12 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.AnswerOptionSurface
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.AnswerOptionVisual
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseContentText
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -7,7 +14,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.domain.model.exercise.Option
-import dev.sethan8r.grammar.app.ui.components.MarkdownText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Dimens
@@ -56,7 +62,7 @@ fun SingleSelectExerciseView(
                     enabled = editable,
                     onClick = { onSelect(index) },
                 ) {
-                    MarkdownText(text = option.text, fontSize = 16.sp)
+                    ExerciseContentText(text = option.text, fontSize = 16.sp)
                 }
             }
         }
