@@ -156,7 +156,7 @@ theory/
 
 ```
 Теория
-├── Предтема: "Основы"   ← идёт первой, особая категория
+├── Предтема: "Основы"   ← идёт первой, особая категория ✅ ТЕМА НАПИСАНА
 │   ├── Личные местоимения (I, you, he, she, it, we, they)
 │   ├── Глагол to be (am / is / are + отрицание и вопрос)
 │   ├── There is / There are
@@ -681,6 +681,11 @@ theory/
 │   ├── Длинные прилагательные: more / most + beautiful, interesting, expensive
 │   │   Граница: 1 слог → -er; 3+ слога → more; 2 слога — чаще more, кроме -y (happier)
 │   ├── Исключения: good→better→best, bad→worse→worst, far→farther/further
+│   ├── Конструкция сравнения: something + is/am/are + better than + something —
+│   │   готовый речевой шаблон "X лучше чем Y" (а не только правило образования -er).
+│   │   subject + be + сравнит.форма + than + объект: "My phone is better than yours",
+│   │   "These shoes are cheaper than those", "She is taller than me". Правило = как
+│   │   образовать форму; шаблон = как построить ВСЁ предложение сравнения.
 │   ├── Superlative: the biggest / the most beautiful — почему с the
 │   ├── as...as — равное сравнение: "She's as tall as her brother", "not as fast as I thought"
 │   ├── Ловушки: "more bigger" ✗, "the most best" ✗, "the same like" ✗ → "the same as" ✓
@@ -692,7 +697,9 @@ theory/
 │   ├── Наречия образа действия — slowly, carefully, badly, well. Позиция после глагола/дополнения
 │   ├── Степени сравнения наречий — fast→faster→fastest, carefully→more carefully→most carefully
 │   ├── Наречия степени — very, quite, rather, fairly, extremely; too (слишком) / enough (достаточно)
-│   └── Наречия места и времени — here/there, now/then/soon/already/yet/still; позиция в предложении
+│   ├── Наречия места и времени — here/there, now/then/soon/already/yet/still; позиция в предложении
+│   └── Расстояние — far / far away (далеко) / far from / nearby (рядом):
+│       "It's far away", "not far from here", "Is it far?". far away = "далеко" о расстоянии
 │
 ├── Past Simple
 │   ├── Карточка приоритета: 10-20 глаголов (V1 / V2 / V3) нужных для темы
@@ -712,6 +719,10 @@ theory/
 │   │   Расширение There is/are из Основ на прошлое: "There was a queue." *(Там была очередь.)*
 │   │   "There were many people." Отрицание: There wasn't/weren't; вопрос: Was there...?
 │   │   Ловушка: "There was many people" ✗ — число согласуется с существительным.
+│   │   ⚠️ TODO (временно, удалить когда сделаем): впихнуть beneath ПРИМЕРОМ в одно из
+│   │   предложений этой карточки (формальный синоним under/below: "There was a tunnel
+│   │   beneath the city"). Своей карточки/теории beneath не получает — после темы слово
+│   │   сливается в «слова» (isView), чтобы пользователь его выучил. Как вставим пример — строку удалить.
 │   └── 🆕 Карточка-анонс: used to (добавлена июнь 2026)
 │       Одна карточка-preview (как been vs gone в V1/V2/V3): "I used to smoke." = раньше
 │       курил, теперь нет. Просто узнавание конструкции — полный разбор (отрицание, вопрос,
