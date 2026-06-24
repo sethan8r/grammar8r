@@ -23,6 +23,12 @@
       "topicId": 6,
       "title": "Three verb forms · Что такое три формы глагола",
       "order": 1
+    },
+    {
+      "id": 43,
+      "topicId": 6,
+      "title": "Regular verbs · Правильные глаголы (-ed)",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -356,6 +362,363 @@
         "Почему форму V3 нельзя поставить без have или be?",
         "Какие времена мы соберём из этих трёх форм дальше?"
       ]
+    },
+    {
+      "id": 126,
+      "microtopicId": 43,
+      "title": "Правильные глаголы: V2 = V3 = V1 + -ed",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой микротеме go → went → gone напугал: три разных слова, которые надо знать заранее. Спокойно — это **не норма, а исключение**. У подавляющего большинства глаголов всё устроено намного проще."
+        },
+        {
+          "type": "paragraph",
+          "text": "Такие «удобные» глаголы называют **правильными** (regular). У них V2 и V3 делаются одним движением — к базовой форме (V1) добавляется **-ed**. И, что особенно приятно, **обе формы получаются одинаковыми**:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "rows": [
+            [
+              "work",
+              "worked",
+              "worked"
+            ],
+            [
+              "play",
+              "played",
+              "played"
+            ],
+            [
+              "clean",
+              "cleaned",
+              "cleaned"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравни с неправильным go → went → gone (три разных слова) — у правильного work → worked → worked всё одно и то же. Одно окончание закрывает сразу обе полки: и прошедшее, и причастие."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Правильных глаголов — тысячи, а неправильных — всего около 200. Получается, страшный список из прошлой карточки — это маленькое меньшинство, а основная масса глаголов послушно берёт -ed. Сами ~200 неправильных мы соберём отдельным списком в самом конце темы."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не пытайся пока угадывать, какой глагол правильный, а какой нет — список неправильных ты получишь позже. Сейчас задача проще: понять, что именно -ed превращает глагол в прошедшее (и в причастие), и научиться писать это -ed без ошибок."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Большинство английских глаголов — правильные: их V2 и V3 делаются одинаково, добавлением -ed к V1, и обе формы совпадают (work → worked → worked). Пугающие go → went → gone — это меньшинство (~200 неправильных), их соберём отдельным списком в конце темы.",
+      "examples": [
+        {
+          "ru": "Вчера Дима работал из дома.",
+          "en": "Yesterday Dima worked from home."
+        },
+        {
+          "ru": "Катя посмотрела этот фильм на прошлой неделе.",
+          "en": "Katya watched this film last week."
+        },
+        {
+          "ru": "Я уже убрал свою комнату.",
+          "en": "I have already cleaned my room."
+        }
+      ],
+      "clarificationOptions": [
+        "Если go превратился в went, почему work не становится новым словом, а просто worked?",
+        "Раз V2 и V3 у worked одинаковые, зачем тогда вообще различать V2 и V3?",
+        "Как я узнаю, правильный передо мной глагол или один из тех ~200 неправильных?"
+      ]
+    },
+    {
+      "id": 127,
+      "microtopicId": 43,
+      "title": "Правописание -ed: немое -e и -y",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Само правило простое — V1 + -ed. Но в написании есть пара аккуратных нюансов, иначе ошибёшься в буквах."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Глагол кончается на…",
+            "Что делаем",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "немое -e",
+              "добавляем только -d",
+              "live → lived"
+            ],
+            [
+              "согласная + y",
+              "y превращается в -ied",
+              "study → studied"
+            ],
+            [
+              "гласная + y",
+              "ничего не меняем, просто +ed",
+              "play → played"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "С немым -e всё логично: второе -e писать незачем, поэтому live → lived *(жил)*, like → liked *(нравился)* — добавляем одну -d."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Случаи с -y легко перепутать. Смотри на букву ПЕРЕД y. У study перед y стоит согласная t → меняем на -ied (studied). У play перед y стоит гласная a → y остаётся на месте, просто добавляем -ed (played). Та же разница: try → tried *(пытался)*, но stay → stayed *(оставался)*."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "При добавлении -ed есть мелкие правила написания: на немое -e добавляем только -d (live → lived); согласная + y превращается в -ied (study → studied); но гласная + y остаётся и берёт обычное -ed (play → played).",
+      "examples": [
+        {
+          "ru": "Рома жил в Москве два года.",
+          "en": "Roma lived in Moscow for two years."
+        },
+        {
+          "ru": "Оля изучала французский в школе.",
+          "en": "Olya studied French at school."
+        },
+        {
+          "ru": "Дети играли во дворе весь день.",
+          "en": "The kids played in the yard all day."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему study → studied, а play → played, хотя оба кончаются на -y?",
+        "Почему к live добавляем только -d, а не полное -ed?",
+        "Меняется ли произношение из-за этих правил написания?"
+      ]
+    },
+    {
+      "id": 128,
+      "microtopicId": 43,
+      "title": "Удвоение согласной: stop → stopped",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Ещё один случай написания — **удвоение согласной**. Иногда перед -ed последняя буква удваивается: stop → sto**pp**ed, plan → pla**nn**ed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда так происходит? Когда глагол **короткий (один слог) и кончается на «согласная — гласная — согласная»**, и на этот слог падает ударение:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "stop → stopped *(остановился)*",
+            "plan → planned *(спланировал)*",
+            "shop → shopped *(ходил по магазинам)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Зачем вторая буква? Она «держит» короткий гласный звук. Без удвоения глаз прочитал бы stoped как «стоупд» — удвоение сохраняет короткое «о»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если ударение НЕ на последнем слоге, удвоения нет. open → opened *(открыл)*, а не «openned»: ударение в open на первом слоге, так что вторая n не нужна. То же с listen → listened, visit → visited."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Если правильный глагол короткий и кончается на «согласная-гласная-согласная» под ударением, последняя согласная удваивается перед -ed: stop → stopped, plan → planned. Если ударение не на последнем слоге — удвоения нет: open → opened.",
+      "examples": [
+        {
+          "ru": "Автобус остановился у нашего дома.",
+          "en": "The bus stopped near our house."
+        },
+        {
+          "ru": "Игорь спланировал всю поездку сам.",
+          "en": "Igor planned the whole trip himself."
+        },
+        {
+          "ru": "Вера открыла окно на кухне.",
+          "en": "Vera opened the kitchen window."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему stop → stopped (две p), а open → opened (одна p)?",
+        "Как понять, последний слог ударный или нет?",
+        "Всегда ли короткий глагол удваивает согласную перед -ed?"
+      ]
+    },
+    {
+      "id": 129,
+      "microtopicId": 43,
+      "title": "Форма одна — роль разная",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У правильного глагола V2 и V3 — это одно и то же слово: worked и worked. Возникает вопрос: если форма одинаковая, как понять, прошедшее это (V2) или причастие (V3)?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ответ мы уже знаем из прошлой микротемы: **различает помощник**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Стоит **сама, без помощника** → это V2, простое прошедшее: *I worked yesterday.* *(Я работал вчера.)*",
+            "Стоит **с have или be** → это V3, причастие: *I have worked here for a year.* *(Я работаю здесь уже год.)* / *The room was cleaned.* *(Комнату убрали.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово одно — worked — а роль задаёт окружение. В этом и удобство правильных глаголов: не нужно помнить две разные формы, как у go (went/gone); -ed подходит на обе полки сразу."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Помощник не отменяет -ed. После have всё равно нужна форма с -ed, а не голый V1: *I have worked* ✓ — не *I have work* ✗. Окончание -ed и есть та самая V3, убрать его нельзя."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У правильного глагола V2 и V3 — одно и то же слово с -ed (worked). Какую роль оно играет, показывает помощник: стоит само → прошедшее (V2: I worked); стоит с have или be → причастие (V3: I have worked, it was cleaned).",
+      "examples": [
+        {
+          "ru": "Вчера Саша позвонил врачу.",
+          "en": "Yesterday Sasha called a doctor."
+        },
+        {
+          "ru": "Я звонил врачу уже два раза.",
+          "en": "I have called the doctor twice."
+        },
+        {
+          "ru": "Кухню убрали час назад.",
+          "en": "The kitchen was cleaned an hour ago."
+        }
+      ],
+      "clarificationOptions": [
+        "Если worked — это и V2, и V3, как понять, какую роль она играет в предложении?",
+        "Почему после have нельзя сказать «I have work», ведь и так понятно, что речь о прошлом?",
+        "Чем «I cleaned» отличается по смыслу от «I have cleaned»?"
+      ]
+    },
+    {
+      "id": 130,
+      "microtopicId": 43,
+      "title": "Произношение -ed: [t] · [d] · [ɪd]",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пишется -ed всегда одинаково, а вот **читается тремя способами**. Для письма это знать не обязательно, но полезно — чтобы тебя понимали и чтобы ты узнавал -ed на слух."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Окончание звучит как",
+            "После каких звуков",
+            "Примеры"
+          ],
+          "rows": [
+            [
+              "[ɪd] (лишний слог)",
+              "после [t] и [d]",
+              "wanted, needed, started"
+            ],
+            [
+              "[t]",
+              "после глухих ([k], [p], [s], [ʃ], [tʃ], [f])",
+              "worked, stopped, watched"
+            ],
+            [
+              "[d]",
+              "после звонких и гласных",
+              "played, opened, cleaned"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Реально важен только первый случай. После [t] и [d] окончание -ed добавляет **целый лишний слог** [ɪd]: want → wan-ted (два слога), need → nee-ded. В остальных случаях -ed лишнего слога не даёт — это просто короткий [t] или [d] на самом конце."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Разницу между [t] и [d] специально учить не нужно — язык сам подставит нужный звук, как удобнее. Попробуй сказать «worked» со звонким [d] на конце — почувствуешь, что неудобно, само просится глухое [t]. А вот лишний слог [ɪd] после [t]/[d] стоит запомнить осознанно: его часто забывают и говорят «wanted» в один слог — звучит неправильно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Пишется всегда -ed, но читается тремя способами: после [t]/[d] — как лишний слог [ɪd] (wanted); после глухих звуков — как [t] (worked); после звонких и гласных — как [d] (played). Заучивать не нужно — само ляжет на слух, важно лишь [ɪd] после [t]/[d].",
+      "examples": [
+        {
+          "ru": "Тёма хотел новый телефон.",
+          "en": "Tyoma wanted a new phone."
+        },
+        {
+          "ru": "Мы посмотрели матч вчера.",
+          "en": "We watched the match yesterday."
+        },
+        {
+          "ru": "Коля открыл дверь.",
+          "en": "Kolya opened the door."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему wanted читается в два слога, а worked — в один?",
+        "Если я произнесу -ed не тем звуком, меня не поймут?",
+        "Как на ходу понять, окончание прозвучит как /t/ или как /d/?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -370,14 +733,138 @@
       "exerciseType": "CATEGORIZATION",
       "exerciseId": 25,
       "orderInCard": 0
+    },
+    {
+      "cardId": 126,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 61,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 126,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 15,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 127,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 10,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 127,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 26,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 128,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 25,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 128,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 32,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 129,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 49,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 129,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 74,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 130,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 27,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 130,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 26,
+      "orderInCard": 1
     }
   ],
   "ai_exercises": [],
   "course_word_groups": [],
   "course_categories": [],
   "course_words": [],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 10,
+      "taskDescription": "эти глаголы правильные — запиши их форму с -ed.",
+      "rows": [
+        {
+          "hint": "to live",
+          "answer": "lived"
+        },
+        {
+          "hint": "to like",
+          "answer": "liked"
+        },
+        {
+          "hint": "to study",
+          "answer": "studied"
+        },
+        {
+          "hint": "to try",
+          "answer": "tried"
+        },
+        {
+          "hint": "to play",
+          "answer": "played"
+        },
+        {
+          "hint": "to stay",
+          "answer": "stayed"
+        }
+      ],
+      "explanation": "Немое -e → только +d (live → lived, like → liked). Согласная + y → -ied (study → studied, try → tried). Гласная + y → просто +ed, y остаётся (play → played, stay → stayed)."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 61,
+      "statements": [
+        {
+          "en": "Yesterday Katya watched a good film.",
+          "ru": "Вчера Катя посмотрела хороший фильм.",
+          "isTrue": true
+        },
+        {
+          "en": "Last week we work from home.",
+          "ru": "На прошлой неделе мы работали из дома.",
+          "isTrue": false
+        },
+        {
+          "en": "Igor called me two hours ago.",
+          "ru": "Игорь звонил мне два часа назад.",
+          "isTrue": true
+        },
+        {
+          "en": "She cook dinner an hour ago.",
+          "ru": "Она готовила ужин час назад.",
+          "isTrue": false
+        },
+        {
+          "en": "They cleaned the kitchen yesterday.",
+          "ru": "Они убрали кухню вчера.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: «на прошлой неделе» — это прошлое, нужна форма с -ed: worked, а не work. Строка 4: «час назад» — тоже прошлое, нужно cooked, а не cook."
+    }
+  ],
   "word_arrangement_exercises": [],
   "multiple_choice_exercises": [
     {
@@ -400,14 +887,100 @@
         }
       ],
       "explanation": "Действие в прошлом и стоит само по себе, без помощника → нужна V2: went. «go» — это V1 (настоящее). «gone» — V3, она не ходит одна, ей нужен have или be (have gone)."
+    },
+    {
+      "id": 74,
+      "choiceType": "CHOICE",
+      "prompt": "Yesterday Vera ___ a new song.",
+      "contextRu": "Вчера Вера сыграла новую песню.",
+      "options": [
+        {
+          "text": "played",
+          "isCorrect": true
+        },
+        {
+          "text": "play",
+          "isCorrect": false
+        },
+        {
+          "text": "playing",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Действие в прошлом и глагол стоит сам по себе → нужна V2. У правильного глагола V2 = -ed → played. «play» — настоящее (V1), «playing» — форма с -ing, для простого прошлого не годятся."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 32,
+      "items": [
+        {
+          "sentence": "Yesterday the bus ___ near our house.",
+          "contextRu": "stop",
+          "answer": "stopped",
+          "alternatives": []
+        },
+        {
+          "sentence": "Last week Igor ___ the whole trip.",
+          "contextRu": "plan",
+          "answer": "planned",
+          "alternatives": []
+        },
+        {
+          "sentence": "This morning Vera ___ the window.",
+          "contextRu": "open",
+          "answer": "opened",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Короткий ударный слог удваивает согласную: stop → stopped, plan → planned. Но open → opened — без удвоения (ударение не на последнем слоге)."
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 49,
+      "wrongSentence": "I have work here for a year.",
+      "options": [
+        {
+          "text": "I have worked here for a year.",
+          "isCorrect": true
+        },
+        {
+          "text": "I have work here for a year.",
+          "isCorrect": false
+        },
+        {
+          "text": "I have working here for a year.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После have нужна форма V3. У правильного глагола V3 = V1 + -ed → worked. Голый V1 «work» и форма с -ing «working» после have не ставятся."
+    }
+  ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 15,
+      "taskDescription": "перепиши предложение в прошедшем времени — поставь правильный глагол в форму с -ed.",
+      "items": [
+        {
+          "original": "Today Dima cooks pasta.",
+          "transformed": "Yesterday Dima cooked pasta."
+        },
+        {
+          "original": "Every morning Olya opens the café.",
+          "transformed": "Yesterday morning Olya opened the café."
+        },
+        {
+          "original": "Roma works late every day.",
+          "transformed": "Roma worked late yesterday."
+        }
+      ],
+      "explanation": "Правильный глагол в прошедшем берёт -ed: cook → cooked, open → opened, work → worked. Окончание -s (3-е лицо настоящего) при этом уходит."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 25,
@@ -439,7 +1012,116 @@
         }
       ],
       "explanation": "V1 — базовая словарная форма (go, see, do). V2 — простое прошедшее, ходит само (went, saw, did). V3 — причастие, только с помощником have/be (gone, seen, done)."
+    },
+    {
+      "id": 26,
+      "taskDescription": "распредели правильные глаголы по правилу написания -ed.",
+      "categories": [
+        {
+          "title": "+d (немое -e)",
+          "items": [
+            "like",
+            "hope",
+            "live"
+          ]
+        },
+        {
+          "title": "-y → -ied",
+          "items": [
+            "study",
+            "try",
+            "carry"
+          ]
+        },
+        {
+          "title": "просто +ed",
+          "items": [
+            "play",
+            "stay",
+            "work"
+          ]
+        }
+      ],
+      "explanation": "На немое -e добавляем только -d (liked, hoped, lived). Согласная перед -y → -ied (studied, tried, carried). Гласная перед -y или обычная согласная → просто +ed (played, stayed, worked)."
+    },
+    {
+      "id": 27,
+      "taskDescription": "распредели глаголы по звучанию окончания -ed.",
+      "categories": [
+        {
+          "title": "[ɪd] (лишний слог)",
+          "items": [
+            "started",
+            "painted",
+            "decided"
+          ]
+        },
+        {
+          "title": "[t]",
+          "items": [
+            "watched",
+            "asked",
+            "washed"
+          ]
+        },
+        {
+          "title": "[d]",
+          "items": [
+            "played",
+            "loved",
+            "enjoyed"
+          ]
+        }
+      ],
+      "explanation": "После [t] и [d] окончание читается [ɪd] и добавляет слог (started, painted, decided). После глухих звуков — [t] (watched, asked, washed). После звонких и гласных — [d] (played, loved, enjoyed)."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 25,
+      "groupDescription": "Три глагола удваивают последнюю согласную перед -ed, один — нет",
+      "items": [
+        {
+          "text": "stop",
+          "isOdd": false
+        },
+        {
+          "text": "plan",
+          "isOdd": false
+        },
+        {
+          "text": "shop",
+          "isOdd": false
+        },
+        {
+          "text": "open",
+          "isOdd": true
+        }
+      ],
+      "explanation": "stop → stopped, plan → planned, shop → shopped — короткий ударный слог «согласная-гласная-согласная», поэтому согласная удваивается. open → opened: ударение на первом слоге, удвоения нет."
+    },
+    {
+      "id": 26,
+      "groupDescription": "Три глагола читаются с лишним слогом [ɪd], одно — нет",
+      "items": [
+        {
+          "text": "visited",
+          "isOdd": false
+        },
+        {
+          "text": "invited",
+          "isOdd": false
+        },
+        {
+          "text": "ended",
+          "isOdd": false
+        },
+        {
+          "text": "helped",
+          "isOdd": true
+        }
+      ],
+      "explanation": "После [t]/[d] окончание -ed звучит как отдельный слог [ɪd]: vi-si-ted, in-vi-ted, en-ded. helped кончается на [p] → -ed читается просто [t], без лишнего слога."
+    }
+  ]
 }
