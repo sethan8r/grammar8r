@@ -25,6 +25,8 @@ def strip_md(text):
     return text.replace('**', '').replace('*', '').strip()
 
 def variant_for(label):
+    """Вариант плашки по ключевому слову ярлыка. None — ярлык НЕ плашка
+    (строка целиком в болде станет heading, болд+проза → paragraph)."""
     low = label.lower()
     if 'ловушк' in low:
         return 'trap'
@@ -34,7 +36,9 @@ def variant_for(label):
         return 'tip'
     if 'формул' in low:
         return 'formula'
-    return 'note'
+    if any(k in low for k in ('примечани', 'заметк')):
+        return 'note'
+    return None
 
 def cap_first(text):
     """Поднять в заглавную первую БУКВУ (рус/лат), пропустив ведущие markdown-маркеры
@@ -117,7 +121,7 @@ def parse_theory(body):
             bold_inner = bm.group(1).strip()
             after = bm.group(2).strip()
             lm = re.match(r'^([^:]+):\s*(.*)$', bold_inner)
-            if lm and variant_for(lm.group(1)) != 'note':
+            if lm and variant_for(lm.group(1)) is not None:
                 label = cap_first(lm.group(1).strip())
                 title = lm.group(2).strip()          # мини-заголовок (был внутри болда)
                 inline_parts = []
@@ -156,7 +160,7 @@ def parse_theory(body):
         # callout без болда: короткий ярлык-ключевое-слово + ":" (автор забыл **).
         # Ярлык ≤ 3 слов и относится к плашке (Кстати/Ловушка/Важно/...), иначе это проза с двоеточием.
         pm = re.match(r'^([^:*]{1,40}?):\s+(.+)$', s)
-        if pm and variant_for(pm.group(1)) != 'note' and len(pm.group(1).split()) <= 3:
+        if pm and variant_for(pm.group(1)) is not None and len(pm.group(1).split()) <= 3:
             label = cap_first(pm.group(1).strip())
             blocks.append({'type': 'callout', 'variant': variant_for(label), 'label': label,
                            'blocks': capitalize_body(

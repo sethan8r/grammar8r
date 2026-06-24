@@ -1,0 +1,1086 @@
+{
+  "grammar_topics": [
+    {
+      "id": 7,
+      "title": "Инфинитив: с to и без to",
+      "order": 5,
+      "isPretopic": false,
+      "description": "Что такое инфинитив (to + глагол), когда после глагола нужен to, а когда нет",
+      "categoryId": 1
+    }
+  ],
+  "grammar_topic_categories": [
+    {
+      "id": 1,
+      "title": "Устройство языка",
+      "description": "Как устроен английский язык на уровне логики — структура, части речи, служебные элементы",
+      "order": 3
+    }
+  ],
+  "grammar_microtopics": [
+    {
+      "id": 45,
+      "topicId": 7,
+      "title": "What Is an Infinitive · Что такое инфинитив",
+      "order": 1
+    },
+    {
+      "id": 46,
+      "topicId": 7,
+      "title": "Verbs That Take to · Глаголы, требующие to",
+      "order": 2
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 135,
+      "microtopicId": 45,
+      "title": "Что такое инфинитив",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "По-русски у глагола есть «назывная» форма — та, что отвечает на вопрос **«что делать?»**: *бежать, есть, читать, спать*. Это глагол в чистом виде, ещё не привязанный ни к лицу, ни ко времени — просто название действия. Именно её ты видишь в словаре."
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском у этой формы тоже есть имя — **инфинитив**. И выглядит он просто: частичка **to** + глагол. `to run` *(бежать)*, `to eat` *(есть)*, `to read` *(читать)*."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ты эту форму уже знаешь. Весь курс мы записывали глаголы в словаре именно так — `to have`, `to go`, `to dress`. Это и был инфинитив, словарная форма глагола. Просто раньше мы не называли его по имени."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**To здесь — не предлог.** Раньше мы разбирали `to` как предлог направления — «к, в» (`to school` — *в школу*). В инфинитиве `to` **ничего не значит отдельно** и никуда не ведёт — это просто маркер того, что перед нами назывная форма. `to go` — это не «к go», а просто «идти». Переводить этот `to` отдельным словом нельзя."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Инфинитив — назывная (словарная) форма глагола, отвечает на вопрос «что делать?». В английском выглядит как **to + глагол**: to go, to eat, to read. Частичка to здесь не предлог «к» — это просто маркер назывной формы, отдельно не переводится.",
+      "examples": [
+        {
+          "ru": "Бежать",
+          "en": "to run"
+        },
+        {
+          "ru": "Приятно познакомиться.",
+          "en": "Nice to meet you."
+        },
+        {
+          "ru": "Я люблю читать.",
+          "en": "I like to read."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в словаре глагол всегда пишется с to?",
+        "to go — это «идти» или «к go»?",
+        "Чем инфинитив отличается от обычного глагола в предложении?"
+      ]
+    },
+    {
+      "id": 136,
+      "microtopicId": 45,
+      "title": "Инфинитив — это to + V1",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Только что, в «Глаголах V1/V2/V3», мы разложили глагол на три полки: **V1** (базовая — go), **V2** (прошедшее — went), **V3** (причастие — gone). Так вот: инфинитив всегда строится из **первой полки**. `to + V1`. Берём базовую форму и ставим перед ней `to`: `to go`, `to see`, `to do`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**To дружит только с V1.** Никаких `to went`, `to gone`, `to seen` — это ошибка. Даже у самых «неправильных» глаголов инфинитив берётся от V1: `go → to go` ✓, не `to went` ✗. Прошедшее и причастие в инфинитив не лезут никогда."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Почему так?** Инфинитив — назывная форма, в ней нет времени. А V2 (went) и V3 (gone) — это уже про прошлое. Соединить «название действия» и «прошлое» в одной форме нельзя — поэтому `to` берёт только чистую, безвременную V1."
+        }
+      ],
+      "theorySummary": "Инфинитив строится только из первой формы глагола: **to + V1** (to go, to see). Формы V2 и V3 (went, gone) после to не ставятся — это ошибка. Инфинитив — назывная форма без времени, поэтому берёт только чистую V1.",
+      "examples": [
+        {
+          "ru": "Я хочу пойти домой.",
+          "en": "I want to go home."
+        },
+        {
+          "ru": "Мне нужно это увидеть.",
+          "en": "I need to see it."
+        },
+        {
+          "ru": "Он любит готовить.",
+          "en": "He likes to cook."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать to went?",
+        "Чем V1 отличается от V2 и V3?",
+        "to play и play — это одно и то же?"
+      ]
+    },
+    {
+      "id": 137,
+      "microtopicId": 45,
+      "title": "Инфинитив идёт после другого глагола",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Сам по себе инфинитив редко бывает «двигателем» предложения. Чаще он стоит **вторым глаголом — после другого глагола**: `I want to eat` *(Я хочу есть)*, `I need to go` *(Мне нужно идти)*, `She likes to read` *(Она любит читать)*."
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотри, как делится работа: первый глагол (`want`, `need`, `like`) несёт **лицо и время** — меняется под `he/she`, уходит в прошлое. А второй стоит в инфинитиве и не меняется — он просто называет действие."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Кстати, в русском так же.** «Я **хочу спать**» — два глагола подряд: *хочу* (несёт лицо и время) + *спать* (назывная форма). Английский строит цепочку по той же логике: `I want to sleep`. Привычка из русского тут помогает."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Какой именно глагол требует после себя `to`, а после какого `to` не нужно (как у `can`) — самое интересное в этой теме, разберём дальше. Сейчас главное — увидеть саму цепочку: **глагол + to + глагол**."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Инфинитив обычно стоит вторым глаголом — после другого глагола: I want to eat, She likes to read. Первый глагол несёт лицо и время, второй (инфинитив) просто называет действие и не меняется. В русском та же логика: «хочу спать».",
+      "examples": [
+        {
+          "ru": "Я хочу есть.",
+          "en": "I want to eat."
+        },
+        {
+          "ru": "Она любит читать.",
+          "en": "She likes to read."
+        },
+        {
+          "ru": "Нам нужно идти.",
+          "en": "We need to go."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему I want to go, а не I want go?",
+        "Меняется ли второй глагол под he / she?",
+        "Можно ли поставить два глагола подряд без to?"
+      ]
+    },
+    {
+      "id": 138,
+      "microtopicId": 46,
+      "title": "Зачем нужен to: глагол тянет за собой инфинитив",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть глаголы, которые будто «смотрят вперёд» — после них почти всегда идёт **второе действие**: *хочу — что сделать?*, *решил — что сделать?*, *планирую — что сделать?*. К таким относятся `want` *(хотеть)*, `need` *(нуждаться)*, `like` *(нравиться)*, `love` *(любить)* и многие другие. И вот правило: чтобы прицепить к ним второй глагол, английский **требует** `to + V1`. Этот `to` — не украшение, без него предложение разваливается."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Почему именно `to`? Откуда он берётся.** Вспомни русский: «Я **хочу пойти** домой». Здесь два глагола стоят впритык, и между ними ничего нет. Почему нам хватает? Потому что *пойти* само себя помечает — окончание **-ти** кричит: «я назывная форма, я второе действие». Русский глагол носит эту метку прямо в себе, в окончании."
+        },
+        {
+          "type": "paragraph",
+          "text": "А у английского глагола окончаний почти нет — мы это видели и в формах V1/V2/V3, и в служебных глаголах: английский работает не окончаниями, а **отдельными словечками-маркерами**. Голый `go` ничего о себе не «кричит»: это и команда, и настоящее, и назывная форма — не разобрать. Поэтому языку нужен отдельный указатель: «дальше — второе действие в назывной форме». Этот указатель и есть `to`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`[Глагол] + to + V1`. Первый глагол несёт лицо и время (`want`, `wants`, `wanted`), а `to` — это **сцепка**, которая цепляет к нему второе действие. Русский сваривает два глагола окончанием — английский скрепляет их словом `to`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Главная ошибка русскоязычных.** Раз в русском между глаголами пусто, рука копирует эту пустоту и в английский: `I want go` ✗. Но английскую «пустоту» нужно заполнить сцепкой: `I want to go` ✓ *(Я хочу пойти)*. Без `to` фраза звучит сломанно — будто два вагона состыковали без сцепки, и слушатель спотыкается. Потерять `to` здесь — ошибка №1, лови себя на ней."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "После глаголов вроде want, need, like, love второй глагол обязан стоять как **to + V1**: I want to go. В русском два глагола стоят без связки (окончание -ти само метит инфинитив), а у английского глагола окончаний нет — поэтому роль связки берёт на себя `to`. Главная ошибка — потерять его: «I want go» ✗ → «I want to go» ✓.",
+      "examples": [
+        {
+          "ru": "Я хочу пойти домой.",
+          "en": "I want to go home."
+        },
+        {
+          "ru": "Ей нужно увидеть врача.",
+          "en": "She needs to see a doctor."
+        },
+        {
+          "ru": "Мы любим путешествовать.",
+          "en": "We love to travel."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в русском to не нужно, а в английском обязательно?",
+        "Что слышит англичанин, когда я говорю «I want go»?",
+        "to go — это будущее («собираюсь идти») или просто «идти»?"
+      ]
+    },
+    {
+      "id": 139,
+      "microtopicId": 46,
+      "title": "Тех же глаголов много — формула одна",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Хорошая новость: правило `[глагол] + to + V1` работает не только с want и like. Таких глаголов много, и **все они подчиняются одной формуле** — выучил модель один раз, и она ложится на десятки глаголов. Новых правил запоминать не нужно, только новые слова в ту же конструкцию."
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы не учить плоский список, сгруппируем по смыслу:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Смысл",
+            "Глаголы",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "планы, намерения",
+              "plan to, hope to, decide to",
+              "He decided to stay. *(Он решил остаться.)*"
+            ],
+            [
+              "попытка, обучение",
+              "try to, learn to",
+              "She learns to drive. *(Она учится водить.)*"
+            ],
+            [
+              "обещание, согласие, отказ",
+              "promise to, agree to, refuse to",
+              "They refused to help. *(Они отказались помочь.)*"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сюда же относится `forget to` — «забыть сделать»: `I forgot to call him.` *(Я забыл ему позвонить.)* Логика та же: forget «смотрит вперёд» на второе действие, и оно цепляется через to."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не нужно зубрить, у какого глагола какая «особая форма». Форма у всех одна — `to + V1`. Видишь глагол намерения, решения или попытки — смело ставь после него `to` и базовый глагол."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Глаголов с конструкцией to + V1 много: decide to, plan to, hope to, try to, learn to, promise to, agree to, refuse to, forget to… Все работают по одной формуле — никаких особых форм запоминать не нужно. Увидел глагол намерения или решения — ставь после него to + базовый глагол.",
+      "examples": [
+        {
+          "ru": "Дима решил остаться дома.",
+          "en": "Dima decided to stay home."
+        },
+        {
+          "ru": "Они планируют переехать.",
+          "en": "They plan to move."
+        },
+        {
+          "ru": "Катя пообещала помочь.",
+          "en": "Katya promised to help."
+        }
+      ],
+      "clarificationOptions": [
+        "Это правило работает со всеми глаголами подряд или только с этими?",
+        "Почему I forgot to call, а не I forgot call?",
+        "Как заранее понять, что после глагола нужен to?"
+      ]
+    },
+    {
+      "id": 140,
+      "microtopicId": 46,
+      "title": "would like — вежливое «хочу»",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть очень частый вежливый способ сказать «хочу» — `would like`. Это то же «хочу», только мягче и культурнее: в кафе, в гостях, с незнакомыми людьми говорят не `I want`, а `I would like`. Русский аналог — **«я хотел бы»** / «мне хотелось бы»: та же вежливая, смягчённая форма желания."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сам глагол `would` мы здесь подробно не разбираем — берём готовый паттерн, как когда-то взяли `can`. Полностью `would` разложим в теме «Модальные глаголы»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Две формы would like"
+        },
+        {
+          "type": "paragraph",
+          "text": "Работают ровно как у обычного «хочу» — хотеть можно вещь или действие:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**would like + существительное** — хочу *что-то*: `I'd like a coffee, please.` *(Я бы хотел кофе, пожалуйста.)*",
+            "**would like to + V1** — хочу *что-то сделать*: `I'd like to book a table.` *(Я бы хотел забронировать столик.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`I'd` — это короткая форма от `I would` (так же `she'd`, `we'd`). А вопрос `Would you like…?` — самое частое вежливое предложение в английском: `Would you like some tea?` *(Хотите чаю?)*."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай по регистру",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Конструкция",
+                "Звучит",
+                "Пример"
+              ],
+              "rows": [
+                [
+                  "want",
+                  "прямо, нейтрально (порой резко)",
+                  "I want a coffee."
+                ],
+                [
+                  "would like",
+                  "вежливо, мягко",
+                  "I'd like a coffee."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**To всё равно обязателен.** Перед глаголом после `would like` нужен `to` — как и у want/need: `I'd like go` ✗ → `I'd like to go` ✓. Не путай с `can`, где `to` не нужно (`I can go`). Поэтому `would like` спокойно встаёт в общий ряд: `want to / need to / like to / would like to`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "would like — вежливое «хочу» (русский аналог — «я хотел бы»). Две формы: would like + существительное (I'd like a coffee) и would like to + V1 (I'd like to book a table). I'd = I would. Вопрос Would you like…? — частое вежливое предложение. Перед глаголом to обязателен: «I'd like to go», не «I'd like go».",
+      "examples": [
+        {
+          "ru": "Я бы хотел кофе, пожалуйста.",
+          "en": "I'd like a coffee, please."
+        },
+        {
+          "ru": "Она хотела бы забронировать столик.",
+          "en": "She'd like to book a table."
+        },
+        {
+          "ru": "Хотите чаю?",
+          "en": "Would you like some tea?"
+        }
+      ],
+      "clarificationOptions": [
+        "Чем would like отличается от want?",
+        "I'd — это «I would» или «I had»?",
+        "Почему Would you like some tea, а не Do you want tea?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 136,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 74,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 136,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 27,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 136,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 51,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 136,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 33,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 137,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 75,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 137,
+      "exerciseType": "MATCHING",
+      "exerciseId": 25,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 137,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 51,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 137,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 63,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 138,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 76,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 138,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 52,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 138,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 16,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 138,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 64,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 139,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 77,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 139,
+      "exerciseType": "MATCHING",
+      "exerciseId": 26,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 139,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 52,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 140,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 78,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 140,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 8,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 140,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 10,
+      "orderInCard": 2
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "infinitive_card139_ex1",
+      "cardId": 139,
+      "title": "Не теряй to",
+      "userInstruction": "AI даст русскую фразу с двумя глаголами (решил уйти, планирует учиться). Переведи на английский, не забыв to перед вторым глаголом.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    }
+  ],
+  "course_word_groups": [
+    {
+      "id": "language_structure",
+      "nameRus": "Устройство языка",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "language_structure",
+      "nameRus": "Language Structure",
+      "groupId": "language_structure",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 306,
+      "word": "to decide",
+      "translation": "решать, решить",
+      "transcription": "[dɪˈsaɪd]",
+      "microtopicId": 46,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 307,
+      "word": "to plan",
+      "translation": "планировать",
+      "transcription": "[plæn]",
+      "microtopicId": 46,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 308,
+      "word": "to hope",
+      "translation": "надеяться",
+      "transcription": "[həʊp]",
+      "microtopicId": 46,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 309,
+      "word": "to agree",
+      "translation": "соглашаться",
+      "transcription": "[əˈɡriː]",
+      "microtopicId": 46,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 310,
+      "word": "to refuse",
+      "translation": "отказываться",
+      "transcription": "[rɪˈfjuːz]",
+      "microtopicId": 46,
+      "categoryId": "language_structure"
+    }
+  ],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 63,
+      "statements": [
+        {
+          "en": "I want to sleep.",
+          "ru": "Я хочу спать.",
+          "isTrue": true
+        },
+        {
+          "en": "She likes read books.",
+          "ru": "Она любит читать книги.",
+          "isTrue": false
+        },
+        {
+          "en": "We need to go now.",
+          "ru": "Нам нужно идти сейчас.",
+          "isTrue": true
+        },
+        {
+          "en": "He wants to eats.",
+          "ru": "Он хочет есть.",
+          "isTrue": false
+        },
+        {
+          "en": "They like to cook.",
+          "ru": "Они любят готовить.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — пропущен to: нужно She likes to read books. №4 — после to только V1: He wants to eat, а не to eats."
+    },
+    {
+      "id": 64,
+      "statements": [
+        {
+          "en": "I want to sleep.",
+          "ru": "Я хочу спать.",
+          "isTrue": true
+        },
+        {
+          "en": "She needs go home.",
+          "ru": "Ей нужно идти домой.",
+          "isTrue": false
+        },
+        {
+          "en": "They like to cook together.",
+          "ru": "Они любят готовить вместе.",
+          "isTrue": true
+        },
+        {
+          "en": "We love watch films.",
+          "ru": "Мы любим смотреть фильмы.",
+          "isTrue": false
+        },
+        {
+          "en": "He needs to call his mom.",
+          "ru": "Ему нужно позвонить маме.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — пропущен to: She needs to go home. №4 — тоже нет to: We love to watch films. После want/need/like/love второй глагол всегда с to."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 51,
+      "situationRu": "RU: Дима хочет читать книгу.",
+      "correctSentence": "Dima wants to read a book.",
+      "words": [
+        {
+          "text": "Dima",
+          "translation": ""
+        },
+        {
+          "text": "wants",
+          "translation": "хочет"
+        },
+        {
+          "text": "to read",
+          "translation": "читать"
+        },
+        {
+          "text": "a book",
+          "translation": ""
+        }
+      ],
+      "distractors": [
+        {
+          "text": "reads",
+          "translation": ""
+        },
+        {
+          "text": "to reading",
+          "translation": ""
+        },
+        {
+          "text": "reading",
+          "translation": ""
+        }
+      ],
+      "explanation": "После wants идёт инфинитив to read (to + V1). reads — форма для he/she без to, reading / to reading — это не инфинитив. Цепочка: wants + to read."
+    },
+    {
+      "id": 52,
+      "situationRu": "RU: Лена надеется выучить французский.",
+      "correctSentence": "Lena hopes to learn French.",
+      "words": [
+        {
+          "text": "Lena",
+          "translation": ""
+        },
+        {
+          "text": "hopes",
+          "translation": "надеется"
+        },
+        {
+          "text": "to learn",
+          "translation": "выучить"
+        },
+        {
+          "text": "French",
+          "translation": ""
+        }
+      ],
+      "distractors": [
+        {
+          "text": "learn",
+          "translation": ""
+        },
+        {
+          "text": "learning",
+          "translation": ""
+        },
+        {
+          "text": "to learning",
+          "translation": ""
+        },
+        {
+          "text": "to learned",
+          "translation": ""
+        }
+      ],
+      "explanation": "После hopes — инфинитив to learn (to + V1). «learn» и «learning» без to обрывают сцепку; «to learning» и «to learned» — не инфинитив (после to только чистая V1). Цепочка: hopes + to learn."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 74,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я хочу пойти домой.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I want to went home.",
+          "isCorrect": false
+        },
+        {
+          "text": "I want to go home.",
+          "isCorrect": true
+        },
+        {
+          "text": "I want to gone home.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Инфинитив — это to + V1 (первая форма): to go. went — это V2 (прошедшее), gone — V3 (причастие); после to они не ставятся."
+    },
+    {
+      "id": 75,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Она любит готовить.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "She likes cook.",
+          "isCorrect": false
+        },
+        {
+          "text": "She to likes cook.",
+          "isCorrect": false
+        },
+        {
+          "text": "She likes to cook.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "После первого глагола (likes) второй стоит в инфинитиве — to + V1: to cook. Без to (likes cook) или с переставленным to (to likes cook) — ошибка."
+    },
+    {
+      "id": 76,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мы любим путешествовать.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We love travel.",
+          "isCorrect": false
+        },
+        {
+          "text": "We love to travel.",
+          "isCorrect": true
+        },
+        {
+          "text": "We love traveling.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После love второе действие — to + V1: to travel. «love travel» — потеряна сцепка to (калька с русского). «love traveling» — это -ing форма, не инфинитив."
+    },
+    {
+      "id": 77,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Он отказался отвечать.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "He refused answer.",
+          "isCorrect": false
+        },
+        {
+          "text": "He refused answering.",
+          "isCorrect": false
+        },
+        {
+          "text": "He refused to answer.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "refuse работает по той же формуле — to + V1: refused to answer. «refused answer» — потерян to; «refused answering» — -ing форма, не инфинитив."
+    },
+    {
+      "id": 78,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я бы хотел забронировать столик.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I'd like book a table.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'd like booking a table.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'd like to book a table.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "После would like перед глаголом нужен to — I'd like to book. «I'd like book» — потерян to; «I'd like booking» — -ing форма, не инфинитив."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 33,
+      "items": [
+        {
+          "sentence": "She likes ___ books.",
+          "contextRu": "читать",
+          "answer": "to read",
+          "alternatives": []
+        },
+        {
+          "sentence": "We want ___ pizza.",
+          "contextRu": "есть",
+          "answer": "to eat",
+          "alternatives": []
+        },
+        {
+          "sentence": "He needs ___ a letter.",
+          "contextRu": "написать",
+          "answer": "to write",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Инфинитив = to + первая форма глагола (V1): to read, to eat, to write. Частичку to не теряем и форму не меняем — никаких to reads / to ate."
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 10,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm a little thirsty."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Would you like some water?",
+          "isCorrect": true
+        },
+        {
+          "text": "Would you like some water to?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you would like water?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вежливое предложение строится как Would you like + существительное: «Would you like some water?». «…water to» — лишний to (он нужен перед глаголом, а не существительным). «Do you would like» — would сам образует вопрос, do не нужен."
+    }
+  ],
+  "matching_exercises": [
+    {
+      "id": 25,
+      "taskDescription": "соедини русскую фразу с английским переводом.",
+      "pairs": [
+        {
+          "left": "Я хочу спать",
+          "right": "I want to sleep"
+        },
+        {
+          "left": "Она любит читать",
+          "right": "She likes to read"
+        },
+        {
+          "left": "Нам нужно идти",
+          "right": "We need to go"
+        },
+        {
+          "left": "Ты хочешь есть",
+          "right": "You want to eat"
+        }
+      ],
+      "explanation": "В каждой паре — цепочка «глагол + to + глагол»: первый глагол несёт лицо, второй стоит в инфинитиве (to sleep, to read, to go, to eat)."
+    },
+    {
+      "id": 26,
+      "taskDescription": "соедини русскую фразу с английским переводом.",
+      "pairs": [
+        {
+          "left": "Он решил остаться",
+          "right": "He decided to stay"
+        },
+        {
+          "left": "Они планируют переехать",
+          "right": "They plan to move"
+        },
+        {
+          "left": "Она учится водить",
+          "right": "She learns to drive"
+        },
+        {
+          "left": "Мы согласились помочь",
+          "right": "We agreed to help"
+        }
+      ],
+      "explanation": "У всех глаголов одна формула — to + V1: decided to stay, plan to move, learns to drive, agreed to help."
+    }
+  ],
+  "error_correction_exercises": [
+    {
+      "id": 51,
+      "wrongSentence": "She wants to bought a new phone.",
+      "options": [
+        {
+          "text": "to buy",
+          "isCorrect": true
+        },
+        {
+          "text": "to buying",
+          "isCorrect": false
+        },
+        {
+          "text": "to bought",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После to идёт только V1 — to buy. bought это V2 (прошедшее), buying — это -ing форма; в инфинитив они не ставятся."
+    },
+    {
+      "id": 52,
+      "wrongSentence": "I like read books in the evening.",
+      "options": [
+        {
+          "text": "like to read",
+          "isCorrect": true
+        },
+        {
+          "text": "like reading",
+          "isCorrect": false
+        },
+        {
+          "text": "likes read",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После like нужен инфинитив с to — like to read. В исходном предложении to потерян (калька с русского «люблю читать»). «like reading» — это -ing форма; «likes read» — лишнее -s и всё ещё без to."
+    }
+  ],
+  "construction_meaning_exercises": [
+    {
+      "id": 8,
+      "construction": "I'd like to leave now.",
+      "options": [
+        {
+          "text": "Я бы хотел уйти сейчас.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мне нравится уходить сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я ушёл сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я хотел уйти, но передумал.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "I'd = I would, would like = вежливое «бы хотел». to leave — инфинитив. Это не «нравится» (would like ≠ like) и не прошедшее (I'd здесь = I would, а не I had)."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 16,
+      "taskDescription": "вставь пропущенный to — почини фразу-кальку.",
+      "items": [
+        {
+          "original": "I want go home.",
+          "transformed": "I want to go home."
+        },
+        {
+          "original": "She needs see a doctor.",
+          "transformed": "She needs to see a doctor."
+        },
+        {
+          "original": "We need buy bread.",
+          "transformed": "We need to buy bread."
+        }
+      ],
+      "explanation": "После want/need второй глагол идёт как to + V1. В каждой фразе была пропущена сцепка to — самая частая ошибка русскоязычных."
+    }
+  ],
+  "categorization_exercises": [],
+  "find_the_odd_exercises": [
+    {
+      "id": 27,
+      "groupDescription": "Три инфинитива собраны правильно, один — с ошибкой в форме",
+      "items": [
+        {
+          "text": "to read",
+          "isOdd": false
+        },
+        {
+          "text": "to eat",
+          "isOdd": false
+        },
+        {
+          "text": "to write",
+          "isOdd": false
+        },
+        {
+          "text": "to ate",
+          "isOdd": true
+        }
+      ],
+      "explanation": "to ate — ошибка: ate это V2 (прошедшее от eat). Инфинитив берёт только V1 — to eat. Остальные три — правильные to + V1."
+    }
+  ]
+}
