@@ -7,23 +7,23 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 131 |
-| Categorization | 28 |
+| Card | 135 |
+| Categorization | 29 |
 | Category | 2 |
 | ConstructionMeaning | 8 |
 | DialogRestore | 10 |
-| ErrorCorrection | 50 |
+| ErrorCorrection | 51 |
 | FindTheOdd | 27 |
-| Matching | 24 |
-| Microtopic | 44 |
-| MultipleChoice·CHOICE | 75 |
+| Matching | 25 |
+| Microtopic | 45 |
+| MultipleChoice·CHOICE | 76 |
 | MultipleChoice·FORWARD_CHOICE | 74 |
 | MultipleChoice·REVERSE_CHOICE | 26 |
-| TableFill | 11 |
+| TableFill | 12 |
 | TextInput | 33 |
 | Topic | 7 |
 | Transformation | 16 |
-| TrueFalse | 62 |
+| TrueFalse | 63 |
 | WordArrangement | 51 |
 | course_word | 306 |
 
@@ -85,18 +85,19 @@
 - course_word: 237–288 (52)
 
 ### verb-forms
-- Card: 121–130 (10)
-- Categorization: 25–27 (3)
+- Card: 121–134 (14)
+- Categorization: 25–28 (4)
 - Category: 1–1 (1)
-- ErrorCorrection: 49–49 (1)
+- ErrorCorrection: 49–50 (2)
 - FindTheOdd: 25–26 (2)
-- Microtopic: 42–43 (2)
-- MultipleChoice·CHOICE: 73–74 (2)
-- TableFill: 10–10 (1)
+- Matching: 24–24 (1)
+- Microtopic: 42–44 (3)
+- MultipleChoice·CHOICE: 73–75 (3)
+- TableFill: 10–11 (2)
 - TextInput: 32–32 (1)
 - Topic: 6–6 (1)
 - Transformation: 15–15 (1)
-- TrueFalse: 61–61 (1)
+- TrueFalse: 61–62 (2)
 
 ### basics
 - Card: 1–70 (70)
