@@ -9,12 +9,7 @@ val TextPrimary    = Color(0xFFFFFFFF)
 val TextSecondary  = Color(0xFFB0B0B0)
 val Accent         = Color(0xFF5B79E0)      // основной акцент: кнопки, прогресс, активные элементы
 val Inactive       = Color(0xFF404040)
+val InlineCode     = Color(0xFF7EABEC)      // инлайн-вставки английского в теории (бэктики `...`) — приглушённый, не акцент 0xFF7EABEC
 val CorrectGreen   = Color(0xFF42B374)
 val IncorrectRed   = Color(0xFFD8585B)      // ошибка, ✗, плашка-ловушка
-
-/**
- * Оранжевый «маркер внимания» — больше НЕ акцент приложения (акцент теперь [Accent], синий).
- * Используется точечно и только для врезок-callout WARNING/FORMULA в теории (CalloutVariant).
- * Не применять для кнопок/прогресса/активных элементов — там [Accent].
- */
-val Highlight      = Color(0xFFFF9B27)
+val Highlight      = Color(0xFFFF9B27)      // оранжевый «маркер внимания»

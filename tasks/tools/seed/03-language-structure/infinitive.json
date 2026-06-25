@@ -35,6 +35,12 @@
       "topicId": 7,
       "title": "Verbs Without to · Глаголы, после которых to не нужен",
       "order": 3
+    },
+    {
+      "id": 48,
+      "topicId": 7,
+      "title": "Verb + Object + Infinitive · Глагол + объект + инфинитив",
+      "order": 4
     }
   ],
   "grammar_cards": [
@@ -633,6 +639,332 @@
         "Почему обе фразы — I want go и I can to go — ошибки?",
         "Какие глаголы тянут за собой to, а какие нет?"
       ]
+    },
+    {
+      "id": 144,
+      "microtopicId": 48,
+      "title": "Глагол + объект + инфинитив",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор инфинитив цеплялся прямо к первому глаголу, и действие выполнял **тот же**, кто его хотел: `I want to go` — *я хочу* и *я* же *иду*. Но сплошь и рядом действие адресовано **другому** человеку: я хочу, чтобы что-то сделал кто-то другой. Тогда между первым глаголом и инфинитивом встаёт ещё одно звено — **объект, тот, КОМУ адресовано действие**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула простая",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`[Глагол] + [кого] + to + V1`. Смотри: `I want you to stay` *(Я хочу, чтобы ты остался)*, `He told me to wait` *(Он сказал мне подождать)*, `She asked him to help` *(Она попросила его помочь)*."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Кто что делает в этой цепочке"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разложим `I want you to stay` по звеньям:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`I want` — что хочет подлежащее (несёт лицо и время);",
+            "`you` — **кому** адресовано действие (объект);",
+            "`to stay` — что должен сделать этот объект (инфинитив, не меняется)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Три звена, каждое на своём месте. Первый глагол спрягается, инфинитив — нет, а между ними стоит тот, на кого направлено желание."
+        },
+        {
+          "type": "heading",
+          "text": "Русское «чтобы» сбивает с толку"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим «Я хочу, **чтобы** ты остался» — это фактически два предложения, сшитых союзом «чтобы», и во второй части свой полноценный глагол с лицом и временем («остался»). Рука по привычке строит то же самое и по-английски: `I want that you stay` ✗. Это самая частая ошибка в этой теме."
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском в такой конструкции **нет ни «that», ни второго спрягаемого глагола**. Целое придаточное сворачивается в два коротких звена — объект + инфинитив: не «хочу, чтобы ты остался», а буквально «хочу тебя — остаться»: `I want you to stay` ✓."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Никакого that.** `I want that you come home` ✗ → `I want you to come home` ✓ *(Я хочу, чтобы ты пришёл домой)*. Забудь про «that + новое предложение» — только `объект + to + V1`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Местоимение — в объектной форме"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз перед инфинитивом стоит именно **объект**, местоимение берётся в объектной форме — `me, you, him, her, us, them`, — как после любого объекта. Мы разбирали эти формы ещё в «Основах»: `She asked him to help` ✓ *(Она попросила его помочь)*, а не `She asked he to help` ✗. Ставить сюда форму подлежащего (`he/she/I`) — ошибка."
+        }
+      ],
+      "theorySummary": "Если действие адресовано другому лицу, между глаголом и инфинитивом встаёт объект: глагол + кого + to + V1 (I want you to stay, He told me to wait). Главная ошибка — калька с русского «чтобы»: I want that you stay ✗ → I want you to stay ✓ (никакого that и второго спрягаемого глагола). Местоимение — в объектной форме: him, не he.",
+      "examples": [
+        {
+          "ru": "Я хочу, чтобы ты остался.",
+          "en": "I want you to stay."
+        },
+        {
+          "ru": "Он сказал мне подождать.",
+          "en": "He told me to wait."
+        },
+        {
+          "ru": "Она попросила его помочь.",
+          "en": "She asked him to help."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему I want you to stay, а не I want that you stay?",
+        "Почему me, а не I после told / asked?",
+        "Можно ли вообще сказать «I want that…»?"
+      ]
+    },
+    {
+      "id": 145,
+      "microtopicId": 48,
+      "title": "Таких глаголов много — формула одна",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Как и с глаголами из прошлой микротемы, конструкция `глагол + объект + to + V1` работает **не только с want**. Целая группа глаголов «направляет» действие на другого человека — и все они ложатся в **одну и ту же формулу**. Выучил модель — новых правил нет, только новые глаголы."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сгруппируем по смыслу:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Смысл",
+            "Глаголы",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "просьба, приказ",
+              "ask, tell",
+              "She asked me to wait. *(Она попросила меня подождать.)*"
+            ],
+            [
+              "ожидание, разрешение",
+              "expect, allow",
+              "They allow us to park here. *(Они разрешают нам парковаться здесь.)*"
+            ],
+            [
+              "приглашение, напоминание",
+              "invite, remind",
+              "He invited me to join. *(Он пригласил меня присоединиться.)*"
+            ],
+            [
+              "обучение",
+              "teach",
+              "She taught me to drive. *(Она научила меня водить.)*"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Логика везде одна"
+        },
+        {
+          "type": "paragraph",
+          "text": "В каждом примере три звена — глагол, объект, инфинитив с `to`. Меняется только первый глагол и кому адресовано действие; `to + V1` в конце остаётся неизменным: `He reminded her to call` *(Он напомнил ей позвонить)*, `They expect us to be ready` *(Они ожидают, что мы будем готовы)*."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не нужно зубрить, какой глагол как себя ведёт — у всей группы одна форма. Видишь глагол, направленный на другого человека (попросил кого-то, сказал кому-то, научил кого-то), — смело строй `глагол + объект + to + V1`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Не теряй to.** `She asked me wait` ✗ → `She asked me to wait` ✓. Объект (`me`) сцепку не отменяет — `to` перед вторым глаголом всё равно нужен."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Конструкция «глагол + объект + to + V1» работает с целой группой глаголов: ask, tell, expect, allow, invite, remind, teach. Все по одной формуле — She asked me to wait, They allow us to park, She taught me to drive. Меняется первый глагол и объект, а to + V1 в конце неизменно.",
+      "examples": [
+        {
+          "ru": "Она попросила меня подождать.",
+          "en": "She asked me to wait."
+        },
+        {
+          "ru": "Они разрешают нам парковаться здесь.",
+          "en": "They allow us to park here."
+        },
+        {
+          "ru": "Она научила меня водить.",
+          "en": "She taught me to drive."
+        }
+      ],
+      "clarificationOptions": [
+        "Это работает со всеми глаголами подряд или только с этими?",
+        "Почему They expect us to be ready, а не us be ready?",
+        "Чем ask отличается от tell в этой конструкции?"
+      ]
+    },
+    {
+      "id": 146,
+      "microtopicId": 48,
+      "title": "make / let + объект + V1 — без to",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "А теперь — поворот, как в прошлой микротеме с модальными. Есть глаголы, которые тоже ставят после себя объект и второе действие, но инфинитив у них идёт **без `to`** — голый V1. Главные двое — `make` и `let`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`make` = **заставить** (выбора нет): `She made me laugh` *(Она заставила меня смеяться)*.",
+            "`let` = **позволить, разрешить**: `He let me go` *(Он позволил мне уйти)*."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметь: `made me laugh`, `let me go` — после объекта сразу голый глагол, никакого `to`."
+        },
+        {
+          "type": "heading",
+          "text": "Связь с модальными"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомни прошлую микротему: после модальных (`can`, `must`) идёт голый инфинитив без `to`. `make` и `let` в этой конструкции ведут себя так же — объект + чистая V1. Поэтому держи в голове две полки:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`want / ask / tell / allow + объект + to + V1` — **с** `to`;",
+            "`make / let + объект + V1` — **без** `to`."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**После make/let — никакого to.** `She made me to laugh` ✗ → `She made me laugh` ✓. `He let me to go` ✗ → `He let me go` ✓. Рука после `want to`, `ask to` по инерции лепит `to` и сюда — но make и let его не терпят."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "help — можно и так, и так"
+        },
+        {
+          "type": "paragraph",
+          "text": "Глагол `help` *(помогать)* — добрый: после него `to` **можно поставить, а можно опустить**, оба варианта правильны. `He helped me carry the bags` = `He helped me to carry the bags` *(Он помог мне нести сумки)*. Ошибиться трудно."
+        },
+        {
+          "type": "heading",
+          "text": "А ещё есть have — но это позже"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сюда же относится глагол `have` в значении «поручить, организовать, чтобы кто-то что-то сделал»: `I'll have him fix it` *(Я поручу ему починить это)* — тоже без `to`. Пока просто запомни, что такая конструкция существует: **подробно разберём её позже**, в теме про глагол `have / get`. Сейчас держим в фокусе `make` и `let`."
+        }
+      ],
+      "theorySummary": "После make (заставить) и let (позволить) идёт объект + голый инфинитив, без to: She made me laugh, He let me go (не made me to laugh ✗). Это зеркало модальных из прошлой микротемы. help допускает оба варианта: help me carry = help me to carry. Глагол have в значении «поручить» (I'll have him fix it) — тоже без to, но подробно разберём позже.",
+      "examples": [
+        {
+          "ru": "Она заставила меня смеяться.",
+          "en": "She made me laugh."
+        },
+        {
+          "ru": "Он позволил мне уйти.",
+          "en": "He let me go."
+        },
+        {
+          "ru": "Дима помог мне нести сумки.",
+          "en": "Dima helped me carry the bags."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему make me laugh без to, а ask me to wait с to?",
+        "help me carry или help me to carry — как правильно?",
+        "Почему made me, а не made I?"
+      ]
+    },
+    {
+      "id": 147,
+      "microtopicId": 48,
+      "title": "Не все глаголы берут to",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Напоследок — важное предупреждение, чтобы потом не запутаться. Мы разобрали, что после одних глаголов идёт `to + V1`, а после других (модальные, make, let) — голый V1. Но есть и **третья группа**, и про неё стоит знать заранее."
+        },
+        {
+          "type": "paragraph",
+          "text": "После некоторых глаголов второе действие идёт не в инфинитиве вообще, а в форме на **-ing**: `enjoy` *(наслаждаться)*, `finish` *(заканчивать)*, `stop` *(прекращать)*, `avoid` *(избегать)*. Например: `I enjoy reading` *(Я люблю читать)* — **не** `I enjoy to read` ✗. `She finished working` *(Она закончила работать)*, `He avoids driving at night` *(Он избегает водить ночью)*."
+        },
+        {
+          "type": "heading",
+          "text": "Пока — просто знать, что они есть"
+        },
+        {
+          "type": "paragraph",
+          "text": "Не нужно сейчас запоминать список или правила — это анонс, а не разбор. Цель одна: когда увидишь `enjoy reading` вместо `enjoy to read`, не считай это ошибкой и не «чини» — у этих глаголов своя форма."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Полный разбор — впереди.** Эту группу (когда `-ing`, когда `to`, а когда оба варианта с разным смыслом) мы подробно пройдём в отдельной теме — «Герундий после глагола», уже после блока времён. Там всё встанет по местам. А пока про инфинитив у нас собрана полная картина: `to + V1`, голый `V1` и — для общего кругозора — `-ing`."
+        }
+      ],
+      "theorySummary": "Кроме «to + V1» и голого «V1» есть третья группа: после enjoy, finish, stop, avoid второе действие идёт в форме -ing (I enjoy reading, не I enjoy to read ✗). Сейчас это только анонс — достаточно знать, что такие глаголы есть и их -ing не ошибка. Полный разбор — в теме «Герундий после глагола» после блока времён.",
+      "examples": [
+        {
+          "ru": "Я люблю читать.",
+          "en": "I enjoy reading."
+        },
+        {
+          "ru": "Она закончила работать.",
+          "en": "She finished working."
+        },
+        {
+          "ru": "Он избегает водить ночью.",
+          "en": "He avoids driving at night."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему I enjoy reading, а не I enjoy to read?",
+        "Как заранее понять, что после глагола идёт -ing, а не to?",
+        "Где подробно разбирают глаголы с -ing?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -797,6 +1129,60 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 81,
       "orderInCard": 2
+    },
+    {
+      "cardId": 144,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 82,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 144,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 54,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 144,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 66,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 145,
+      "exerciseType": "MATCHING",
+      "exerciseId": 27,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 145,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 54,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 145,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 11,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 146,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 83,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 146,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 30,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 146,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 18,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -814,6 +1200,14 @@
       "title": "to нужен или нет?",
       "userInstruction": "AI даст предложения с пропуском между двумя глаголами. Сам реши, нужен ли там to: впиши to, где он нужен, а где не нужен — поставь прочерк «—».",
       "inputMode": "FILL_BLANKS",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "infinitive_card146_ex1",
+      "cardId": 146,
+      "title": "С to или без to?",
+      "userInstruction": "AI даст русскую фразу, где действие адресовано другому человеку (попросил кого-то, заставил кого-то…). Переведи на английский и сам реши, нужен ли to перед вторым глаголом.",
+      "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
   ],
@@ -872,6 +1266,78 @@
       "translation": "отказываться",
       "transcription": "[rɪˈfjuːz]",
       "microtopicId": 46,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 311,
+      "word": "to ask",
+      "translation": "просить, спрашивать",
+      "transcription": "[ɑːsk]",
+      "microtopicId": 48,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 312,
+      "word": "to tell",
+      "translation": "говорить, сказать (кому-то)",
+      "transcription": "[tel]",
+      "microtopicId": 48,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 313,
+      "word": "to expect",
+      "translation": "ожидать",
+      "transcription": "[ɪkˈspekt]",
+      "microtopicId": 48,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 314,
+      "word": "to allow",
+      "translation": "разрешать, позволять",
+      "transcription": "[əˈlaʊ]",
+      "microtopicId": 48,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 315,
+      "word": "to invite",
+      "translation": "приглашать",
+      "transcription": "[ɪnˈvaɪt]",
+      "microtopicId": 48,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 316,
+      "word": "to remind",
+      "translation": "напоминать",
+      "transcription": "[rɪˈmaɪnd]",
+      "microtopicId": 48,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 317,
+      "word": "to teach",
+      "translation": "учить, преподавать",
+      "transcription": "[tiːtʃ]",
+      "microtopicId": 48,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 318,
+      "word": "to make",
+      "translation": "делать, заставлять",
+      "transcription": "[meɪk]",
+      "microtopicId": 48,
+      "categoryId": "language_structure"
+    },
+    {
+      "id": 319,
+      "word": "to let",
+      "translation": "позволять, пускать",
+      "transcription": "[let]",
+      "microtopicId": 48,
       "categoryId": "language_structure"
     }
   ],
@@ -969,6 +1435,37 @@
         }
       ],
       "explanation": "№2 и №4 — лишний to: после can глагол идёт без него (can drive, can cook). Остальные верны."
+    },
+    {
+      "id": 66,
+      "statements": [
+        {
+          "en": "I want you to stay.",
+          "ru": "Я хочу, чтобы ты остался.",
+          "isTrue": true
+        },
+        {
+          "en": "He told me to wait.",
+          "ru": "Он сказал мне подождать.",
+          "isTrue": true
+        },
+        {
+          "en": "She wants that I come.",
+          "ru": "Она хочет, чтобы я пришёл.",
+          "isTrue": false
+        },
+        {
+          "en": "They asked us to help.",
+          "ru": "Они попросили нас помочь.",
+          "isTrue": true
+        },
+        {
+          "en": "He told I to call him.",
+          "ru": "Он сказал мне позвонить ему.",
+          "isTrue": false
+        }
+      ],
+      "explanation": "№3 — нет конструкции «want that I come»: нужно She wants me to come. №5 — после told объектная форма me, а не I: He told me to call him."
     }
   ],
   "word_arrangement_exercises": [
@@ -1089,6 +1586,44 @@
         }
       ],
       "explanation": "После модального must — голый глагол call (V1, без to). «to call» — лишний to; «calling» — -ing форма; «musts» — у модальных нет -s."
+    },
+    {
+      "id": 54,
+      "situationRu": "RU: Лена попросила меня помочь.",
+      "correctSentence": "Lena asked me to help.",
+      "words": [
+        {
+          "text": "Lena",
+          "translation": ""
+        },
+        {
+          "text": "asked",
+          "translation": "попросила"
+        },
+        {
+          "text": "me",
+          "translation": ""
+        },
+        {
+          "text": "to help",
+          "translation": ""
+        }
+      ],
+      "distractors": [
+        {
+          "text": "I",
+          "translation": ""
+        },
+        {
+          "text": "help",
+          "translation": ""
+        },
+        {
+          "text": "that",
+          "translation": ""
+        }
+      ],
+      "explanation": "Цепочка «глагол + объект + to + V1»: asked + me + to help. «I» — форма подлежащего (нужна объектная me); «help» без to и «that» — лишние."
     }
   ],
   "multiple_choice_exercises": [
@@ -1259,6 +1794,48 @@
         }
       ],
       "explanation": "can — модальный, после него голый глагол: can help. «can to help» — лишний to; «can helping» — -ing форма, не нужна."
+    },
+    {
+      "id": 82,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я хочу, чтобы ты остался.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I want that you stay.",
+          "isCorrect": false
+        },
+        {
+          "text": "I want you to stay.",
+          "isCorrect": true
+        },
+        {
+          "text": "I want you stay.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В английском нет «that + предложение» — только объект + to + V1: want you to stay. «that you stay» — калька с русского «чтобы»; «you stay» — потерян to."
+    },
+    {
+      "id": 83,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Она заставила меня смеяться.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "She made me to laugh.",
+          "isCorrect": false
+        },
+        {
+          "text": "She made me laugh.",
+          "isCorrect": true
+        },
+        {
+          "text": "She made I laugh.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После make — объект + голый глагол без to: made me laugh. «made me to laugh» — лишний to (make его не терпит); «made I» — нужна объектная форма me."
     }
   ],
   "text_input_exercises": [
@@ -1315,6 +1892,34 @@
         }
       ],
       "explanation": "Вежливое предложение строится как Would you like + существительное: «Would you like some water?». «…water to» — лишний to (он нужен перед глаголом, а не существительным). «Do you would like» — would сам образует вопрос, do не нужен."
+    },
+    {
+      "id": 11,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why did you come so early?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "My boss told me to come at eight.",
+          "isCorrect": true
+        },
+        {
+          "text": "My boss told me come at eight.",
+          "isCorrect": false
+        },
+        {
+          "text": "My boss told to me come at eight.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Конструкция «told + объект + to + V1»: told me to come. «told me come» — потерян to; «told to me come» — to не на месте (оно перед глаголом, а не перед объектом)."
     }
   ],
   "matching_exercises": [
@@ -1363,6 +1968,29 @@
         }
       ],
       "explanation": "У всех глаголов одна формула — to + V1: decided to stay, plan to move, learns to drive, agreed to help."
+    },
+    {
+      "id": 27,
+      "taskDescription": "соедини русскую фразу с английским переводом.",
+      "pairs": [
+        {
+          "left": "Она попросила меня подождать",
+          "right": "She asked me to wait"
+        },
+        {
+          "left": "Он пригласил меня присоединиться",
+          "right": "He invited me to join"
+        },
+        {
+          "left": "Они ожидают, что мы будем готовы",
+          "right": "They expect us to be ready"
+        },
+        {
+          "left": "Она научила меня водить",
+          "right": "She taught me to drive"
+        }
+      ],
+      "explanation": "У всех одна формула — глагол + объект + to + V1: asked me to wait, invited me to join, expect us to be ready, taught me to drive."
     }
   ],
   "error_correction_exercises": [
@@ -1422,6 +2050,25 @@
         }
       ],
       "explanation": "После модального can основной глагол идёт без to — can play. to здесь лишний; «can plays» (у модальных нет -s) и «can playing» (-ing форма) тоже неверны."
+    },
+    {
+      "id": 54,
+      "wrongSentence": "They expect us be ready.",
+      "options": [
+        {
+          "text": "expect us to be ready",
+          "isCorrect": true
+        },
+        {
+          "text": "expect we to be ready",
+          "isCorrect": false
+        },
+        {
+          "text": "expect us being ready",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В конструкции нужен to перед инфинитивом: expect us to be ready. «us be» — потерян to; «we» — нужна объектная форма us; «being» — не инфинитив."
     }
   ],
   "construction_meaning_exercises": [
@@ -1487,6 +2134,25 @@
         }
       ],
       "explanation": "После модальных (can, must, should) основной глагол идёт без to — голый V1. Лишний to здесь — ошибка-гиперкоррекция."
+    },
+    {
+      "id": 18,
+      "taskDescription": "убери лишний to — после make и let он не нужен.",
+      "items": [
+        {
+          "original": "She made me to laugh.",
+          "transformed": "She made me laugh."
+        },
+        {
+          "original": "He let me to go.",
+          "transformed": "He let me go."
+        },
+        {
+          "original": "They made us to wait.",
+          "transformed": "They made us wait."
+        }
+      ],
+      "explanation": "После make и let идёт голый инфинитив без to. Лишний to здесь — ошибка (калька с want to / ask to)."
     }
   ],
   "categorization_exercises": [
@@ -1514,6 +2180,29 @@
         }
       ],
       "explanation": "После обычных глаголов (want, need, like, decide) идёт to + V1. Модальные (can, must, should, will) — служебные, идут без to."
+    },
+    {
+      "id": 30,
+      "taskDescription": "распредели глаголы — после объекта нужен to или нет.",
+      "categories": [
+        {
+          "title": "Нужен to",
+          "items": [
+            "want",
+            "ask",
+            "tell",
+            "allow"
+          ]
+        },
+        {
+          "title": "Без to",
+          "items": [
+            "make",
+            "let"
+          ]
+        }
+      ],
+      "explanation": "После want/ask/tell/allow — объект + to + V1. После make/let — объект + голый V1 без to."
     }
   ],
   "find_the_odd_exercises": [

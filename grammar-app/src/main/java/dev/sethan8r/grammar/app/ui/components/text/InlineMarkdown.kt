@@ -27,6 +27,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
+import dev.sethan8r.grammar.app.ui.theme.InlineCode
 
 /** Результат разбора: текст + карта инлайн-иконок (вердикт ✓/✗) для [TranslatableText]. */
 data class ParsedMarkdown(
@@ -41,9 +42,10 @@ private const val INLINE_BLANK = "inline_blank"
 
 /**
  * Единая утилита инлайн-разметки контента (правило №0 — её же переиспользует движок упражнений).
- * Разбирает только два текстовых маркера (канон theory_content_guide §8):
+ * Разбирает текстовые маркеры (канон theory_content_guide §8):
  *  - `**жирный**`  → [FontWeight.Bold]
  *  - `*курсив*`    → [FontStyle.Italic] (так размечены переводы английских примеров)
+ *  - `` `код` ``   → цвет [inlineCodeColor] (инлайн-вставки английского; бэктики в текст не идут)
  *
  * Символы-глифы в данных заменяются на **векторные иконки Material** через официальный
  * `InlineTextContent` (в текст эмодзи не попадают, размер — в `em`, тянется за шрифтом):
@@ -56,12 +58,14 @@ fun parseInlineMarkdown(
     correctColor: Color,
     incorrectColor: Color,
     arrowColor: Color,
+    inlineCodeColor: Color = InlineCode,
     renderBlanks: Boolean = false,
 ): ParsedMarkdown {
     val text = buildAnnotatedString {
         var index = 0
         var boldDepth = 0
         var italicDepth = 0
+        var codeDepth = 0
 
         while (index < raw.length) {
             when {
@@ -74,6 +78,24 @@ fun parseInlineMarkdown(
                 raw[index] == '*' -> {
                     if (italicDepth == 0) pushStyle(SpanStyle(fontStyle = FontStyle.Italic)) else pop()
                     italicDepth = if (italicDepth == 0) 1 else 0
+                    index += 1
+                }
+
+                // Бэктик-вставка `...` → цвет [inlineCodeColor] + Medium-вес + курсив (без них
+                // выделение блёклое); сами бэктики в текст не попадают.
+                raw[index] == '`' -> {
+                    if (codeDepth == 0) {
+                        pushStyle(
+                            SpanStyle(
+                                color = inlineCodeColor,
+                                fontWeight = FontWeight.Medium,
+                                fontStyle = FontStyle.Italic,
+                            ),
+                        )
+                    } else {
+                        pop()
+                    }
+                    codeDepth = if (codeDepth == 0) 1 else 0
                     index += 1
                 }
 
@@ -99,7 +121,7 @@ fun parseInlineMarkdown(
         }
 
         // Подстраховка от непарных маркеров в данных — закрываем открытые стили.
-        repeat(boldDepth + italicDepth) { pop() }
+        repeat(boldDepth + italicDepth + codeDepth) { pop() }
     }
 
     val inlineContent = mapOf(
