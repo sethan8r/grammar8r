@@ -352,10 +352,10 @@
         },
         {
           "type": "paragraph",
-          "text": "В русском тоже нельзя убрать глагол — «Кот на столе» без контекста звучит неполно. Но есть разница: русский иногда опускает глагол-связку («Он устал»), а английский — никогда: `He **is** tired` — `is` обязателен всегда."
+          "text": "В русском тоже нельзя убрать глагол — «Кот на столе» без контекста звучит неполно. Но есть разница: русский иногда опускает глагол-связку («Он устал»), а английский — никогда: He **is** tired — `is` обязателен всегда."
         }
       ],
-      "theorySummary": "Глагол — обязательный центр предложения. Без него слова не складываются в смысл. Функциональный вопрос: «что делает?» / «что происходит?». В отличие от русского, английский никогда не опускает глагол-связку: `He is tired`, а не просто `He tired`.",
+      "theorySummary": "Глагол — обязательный центр предложения. Без него слова не складываются в смысл. Функциональный вопрос: «что делает?» / «что происходит?». В отличие от русского, английский никогда не опускает глагол-связку: He is tired, а не просто `He tired`.",
       "examples": [
         {
           "ru": "Кот сидит на столе.",
@@ -585,11 +585,11 @@
         },
         {
           "type": "paragraph",
-          "text": "*A **tall** man lives here.* — `A tall man` целиком — субъект."
+          "text": "*A **tall** man lives here.* — A tall man целиком — субъект."
         },
         {
           "type": "paragraph",
-          "text": "*She bought a **red** dress.* — `a red dress` целиком — объект."
+          "text": "*She bought a **red** dress.* — a red dress целиком — объект."
         }
       ],
       "theorySummary": "Прилагательное отвечает на «какой?» и описывает существительное. Само по себе смысла не несёт — всегда привязано к существительному. Прилагательное + существительное вместе образуют «пакет», который занимает позицию субъекта или объекта.",
@@ -646,7 +646,7 @@
         },
         {
           "type": "paragraph",
-          "text": "В русском оба варианта звучат нормально: «красивый город» и «город красивый» — оба работают, второй просто с акцентом. В английском вариант `a city beautiful` не существует."
+          "text": "В русском оба варианта звучат нормально: «красивый город» и «город красивый» — оба работают, второй просто с акцентом. В английском вариант a city beautiful не существует."
         },
         {
           "type": "heading",
@@ -669,7 +669,7 @@
           "text": "Оба варианта правильные — это просто две разные позиции, и в обоих прилагательное на своём месте. Запомни оба паттерна — они встречаются постоянно."
         }
       ],
-      "theorySummary": "Прилагательное в английском стоит строго перед существительным: `a red dress`, никогда `a dress red`. Второй паттерн: после `to be` — `The dress is red`. Оба правильны, оба фиксированы.",
+      "theorySummary": "Прилагательное в английском стоит строго перед существительным: a red dress, никогда a dress red. Второй паттерн: после `to be` — The dress is red. Оба правильны, оба фиксированы.",
       "examples": [
         {
           "ru": "Он купил красное платье.",
@@ -742,7 +742,7 @@
           "text": "Это одно из мест, где английский объективно проще русского: выучил одну форму прилагательного — и она работает везде. Никакого согласования запоминать не нужно."
         }
       ],
-      "theorySummary": "Английское прилагательное не меняется — ни по роду, ни по числу, ни по падежу. Одна форма для всего: `a tall man`, `a tall woman`, `tall trees` — всегда `tall`. Это проще, чем в русском.",
+      "theorySummary": "Английское прилагательное не меняется — ни по роду, ни по числу, ни по падежу. Одна форма для всего: a tall man, a tall woman, `tall trees` — всегда `tall`. Это проще, чем в русском.",
       "examples": [
         {
           "ru": "Высокий мужчина.",
@@ -970,7 +970,7 @@
         },
         {
           "type": "paragraph",
-          "text": "⚠️ Не ставить между глаголом и объектом: `He reads **carefully** books` ✗ — так не говорят."
+          "text": "⚠️ Не ставить между глаголом и объектом: He reads **carefully** books ✗ — так не говорят."
         },
         {
           "type": "paragraph",
@@ -1192,7 +1192,7 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "После любого предлога — только объектная форма. `for him` ✓, `for he` ✗. `between you and me` ✓, `between you and I` ✗."
+              "text": "После любого предлога — только объектная форма. `for him` ✓, `for he` ✗. between you and me ✓, between you and I ✗."
             }
           ]
         }
@@ -1290,7 +1290,7 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "В английском `nobody` и `nothing` уже содержат отрицание. Второго `not` не нужно: *`Nobody knows.` ✓*, `Nobody doesn't know.` ✗ — двойное отрицание в английском не работает так же как в русском."
+              "text": "В английском `nobody` и `nothing` уже содержат отрицание. Второго `not` не нужно: *`Nobody knows.` ✓*, Nobody doesn't know. ✗ — двойное отрицание в английском не работает так же как в русском."
             }
           ]
         }
@@ -1607,7 +1607,7 @@
         },
         {
           "type": "paragraph",
-          "text": "*`I was tired. I went to bed. I couldn't sleep.`*"
+          "text": "*I was tired. I went to bed. I couldn't sleep.*"
         },
         {
           "type": "paragraph",
@@ -1615,7 +1615,7 @@
         },
         {
           "type": "paragraph",
-          "text": "*`I was tired **but** I couldn't sleep, **so** I just lay there.`*"
+          "text": "*I was tired **but** I couldn't sleep, **so** I just lay there.*"
         },
         {
           "type": "paragraph",
@@ -1684,15 +1684,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Слово `when` мы уже знаем как вопросительное слово: *`When did you arrive?` — Когда ты приехал?* Но то же слово работает и как союз — тогда оно не спрашивает, а связывает два события:"
+          "text": "Слово `when` мы уже знаем как вопросительное слово: *When did you arrive? — Когда ты приехал?* Но то же слово работает и как союз — тогда оно не спрашивает, а связывает два события:"
         },
         {
           "type": "paragraph",
-          "text": "*`I drink coffee **when** I wake up.` — Я пью кофе, когда просыпаюсь.*"
+          "text": "*I drink coffee **when** I wake up. — Я пью кофе, когда просыпаюсь.*"
         },
         {
           "type": "paragraph",
-          "text": "*`**When** it rains, I stay home.` — Когда идёт дождь, я остаюсь дома.*"
+          "text": "***When** it rains, I stay home. — Когда идёт дождь, я остаюсь дома.*"
         },
         {
           "type": "callout",
@@ -1701,7 +1701,7 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "`When did you arrive?` — вопрос (when в начале, инверсия). `I'll call when I arrive.` — союз (when в середине, порядок прямой)."
+              "text": "When did you arrive? — вопрос (when в начале, инверсия). I'll call when I arrive. — союз (when в середине, порядок прямой)."
             }
           ]
         },
@@ -1711,11 +1711,11 @@
         },
         {
           "type": "paragraph",
-          "text": "*`I'll help you **if** you need me.` — Я помогу тебе, если понадоблюсь.*"
+          "text": "*I'll help you **if** you need me. — Я помогу тебе, если понадоблюсь.*"
         },
         {
           "type": "paragraph",
-          "text": "*`**If** it's cold, wear a jacket.` — Если холодно, надень куртку.*"
+          "text": "***If** it's cold, wear a jacket. — Если холодно, надень куртку.*"
         },
         {
           "type": "paragraph",
@@ -1727,11 +1727,11 @@
         },
         {
           "type": "paragraph",
-          "text": "*`I was tired, **so** I went to bed.` — Я устал, поэтому лёг спать.*"
+          "text": "*I was tired, **so** I went to bed. — Я устал, поэтому лёг спать.*"
         },
         {
           "type": "paragraph",
-          "text": "*`It was raining, **so** we stayed inside.` — Шёл дождь, так что мы остались дома.*"
+          "text": "*It was raining, **so** we stayed inside. — Шёл дождь, так что мы остались дома.*"
         },
         {
           "type": "paragraph",
@@ -1743,11 +1743,11 @@
         },
         {
           "type": "paragraph",
-          "text": "*`I know **that** he is right.` — Я знаю, что он прав.*"
+          "text": "*I know **that** he is right. — Я знаю, что он прав.*"
         },
         {
           "type": "paragraph",
-          "text": "*`She said **that** she was tired.` — Она сказала, что устала.*"
+          "text": "*She said **that** she was tired. — Она сказала, что устала.*"
         },
         {
           "type": "paragraph",
@@ -1755,7 +1755,7 @@
         },
         {
           "type": "paragraph",
-          "text": "*`I know he is right.`* = *`I know **that** he is right.`* — оба варианта верны."
+          "text": "*I know he is right.* = *I know **that** he is right.* — оба варианта верны."
         }
       ],
       "theorySummary": "when (когда) как союз связывает два события — в отличие от вопросительного when. if (если) вводит условие. so (поэтому) вводит следствие: сначала причина, потом результат. that (что) вводит придаточное после глаголов мысли и речи; часто опускается.",
@@ -1836,7 +1836,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**`than` как союз:** он соединяет две части сравнения — то что больше/быстрее/старше, и то с чем сравниваем. Уберёшь `than` — сравнение обрывается на полуслове: *`She is taller...`* — тaller чем что?"
+          "text": "**`than` как союз:** он соединяет две части сравнения — то что больше/быстрее/старше, и то с чем сравниваем. Уберёшь `than` — сравнение обрывается на полуслове: *She is taller...* — тaller чем что?"
         },
         {
           "type": "callout",
@@ -1845,17 +1845,17 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "Два особых случая — `good → better` и `bad → worse`. Они не по правилу, просто запомнить:"
+              "text": "Два особых случая — good → better и bad → worse. Они не по правилу, просто запомнить:"
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "*`This coffee is **better than** yesterday's.` — Этот кофе лучше вчерашнего.*"
+          "text": "*This coffee is **better than** yesterday's. — Этот кофе лучше вчерашнего.*"
         },
         {
           "type": "paragraph",
-          "text": "*`Today's weather is **worse than** yesterday's.` — Сегодняшняя погода хуже вчерашней.*"
+          "text": "*Today's weather is **worse than** yesterday's. — Сегодняшняя погода хуже вчерашней.*"
         }
       ],
       "theorySummary": "than — союз сравнения: завершает конструкцию «прилагательное + `than`». Короткие прилагательные: tall → taller than. Длинные: more interesting than. Исключения: good → better than, bad → worse than. Без than сравнение не закончено.",
@@ -1895,15 +1895,15 @@
         },
         {
           "type": "paragraph",
-          "text": "*`I stay home **if it rains**.`*"
+          "text": "*I stay home **if it rains**.*"
         },
         {
           "type": "paragraph",
-          "text": "*`Call me **when you arrive**.`*"
+          "text": "*Call me **when you arrive**.*"
         },
         {
           "type": "paragraph",
-          "text": "*`She left early **because she was tired**.`*"
+          "text": "*She left early **because she was tired**.*"
         },
         {
           "type": "paragraph",
@@ -1911,15 +1911,15 @@
         },
         {
           "type": "paragraph",
-          "text": "***`If it rains**, I stay home.`*"
+          "text": "***If it rains**, I stay home.*"
         },
         {
           "type": "paragraph",
-          "text": "***`When you arrive**, call me.`*"
+          "text": "***When you arrive**, call me.*"
         },
         {
           "type": "paragraph",
-          "text": "***`Because she was tired**, she left early.*`"
+          "text": "***Because she was tired**, she left early.*"
         },
         {
           "type": "paragraph",

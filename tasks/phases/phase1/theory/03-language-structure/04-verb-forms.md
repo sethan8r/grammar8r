@@ -121,7 +121,7 @@ V1 — базовая словарная форма глагола (go, work). �
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-V2 — форма прошедшего времени, работает самостоятельно, без помощников: I went, she saw. Это основа Past Simple. Но в вопросах и отрицаниях прошлое берёт на себя did, а глагол возвращается в V1: `Did you go?`, не `Did you went`.
+V2 — форма прошедшего времени, работает самостоятельно, без помощников: I went, she saw. Это основа Past Simple. Но в вопросах и отрицаниях прошлое берёт на себя did, а глагол возвращается в V1: Did you go?, не Did you went.
 
 #### Examples
 
@@ -174,7 +174,7 @@ V2 — форма прошедшего времени, работает само
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-V3 (причастие, Past Participle) сама не употребляется — ей нужен помощник: have + V3 (Perfect: have done) или be + V3 (Passive: was done). `I gone` — ошибка: либо `I went` (V2), либо `I have gone` (have + V3).
+V3 (причастие, Past Participle) сама не употребляется — ей нужен помощник: have + V3 (Perfect: have done) или be + V3 (Passive: was done). `I gone` — ошибка: либо `I went` (V2), либо I have gone (have + V3).
 
 #### Examples
 
