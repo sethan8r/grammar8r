@@ -29,6 +29,12 @@
       "topicId": 7,
       "title": "Verbs That Take to · Глаголы, требующие to",
       "order": 2
+    },
+    {
+      "id": 47,
+      "topicId": 7,
+      "title": "Verbs Without to · Глаголы, после которых to не нужен",
+      "order": 3
     }
   ],
   "grammar_cards": [
@@ -433,6 +439,200 @@
         "I'd — это «I would» или «I had»?",
         "Почему Would you like some tea, а не Do you want tea?"
       ]
+    },
+    {
+      "id": 141,
+      "microtopicId": 47,
+      "title": "После модальных — голый инфинитив",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой микротеме мы вбили намертво: после `want`, `need`, `like` второй глагол держится на сцепке `to` — `I want to go` *(Я хочу пойти)*. А теперь — поворот: есть глаголы, после которых `to`, наоборот, **лишний**. Поставишь его — получишь ошибку."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Главный из них уже знаком — это `can`.** Мы пользовались им ещё в «Основах»: `I can swim` *(Я умею плавать)*, `She can drive` *(Она умеет водить)*. Заметь: никакого `to`. Не `I can to swim`, а просто `I can swim` — основной глагол идёт сразу, в чистой форме V1."
+        },
+        {
+          "type": "heading",
+          "text": "Почему у can нет to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомни «Служебные глаголы»: `can` — не обычный глагол, а **служебный спутник**. Он не называет собственное действие, а помогает соседнему глаголу — добавляет смысл «умею / могу». А раз `can` и так прижат вплотную к основному глаголу, сцепка между ними не нужна — они и без `to` единое целое. `to` выручает там, где один полноценный глагол тянет за собой второй (`want to go`); у служебного `can` такого зазора просто нет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Гиперкоррекция.** Главная ошибка здесь — обратная сторона из прошлой карточки. Только что выучили «всегда ставь to» — и рука по инерции лепит его и после `can`: `I can to swim` ✗. Стоп: после `can` — голый глагол: `I can swim` ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "После can второй глагол идёт без to — голый V1: I can swim (не I can to swim). can — служебный спутник глагола, сцепка to ему не нужна. Частая ошибка — гиперкоррекция: выучил «всегда to» и ставишь его и сюда, но после can это ошибка.",
+      "examples": [
+        {
+          "ru": "Я умею плавать.",
+          "en": "I can swim."
+        },
+        {
+          "ru": "Она умеет водить машину.",
+          "en": "She can drive a car."
+        },
+        {
+          "ru": "Мы можем тебе помочь.",
+          "en": "We can help you."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему I can swim, а не I can to swim?",
+        "can — это обычный глагол или особенный?",
+        "Если после want нужен to, почему после can нет?"
+      ]
+    },
+    {
+      "id": 142,
+      "microtopicId": 47,
+      "title": "Модальных несколько — все без to",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`can` в этой компании не один. Есть целая группа таких служебных глаголов — их называют **модальными** — и все они работают по одной модели: встают прямо перед основным глаголом, **без `to`**. Самые частые:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`must` *(должен)* — `You must go now.` *(Ты должен идти сейчас.)*",
+            "`should` *(стоит, следует)* — `You should rest.` *(Тебе стоит отдохнуть.)*",
+            "`will` *(буду — про будущее)* — `I will help you.` *(Я тебе помогу.)*"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Все — по одной модели"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни в одном нет `to`: не `must to go`, не `should to rest`, не `will to help`. Запомнил один `I can swim` — и вся группа ложится по тому же образцу. Сюда же относятся `may`, `might`, `would` — тоже голый глагол без `to`."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сами эти глаголы — большая отдельная тема. У каждого свой оттенок (`must` — строгая обязанность, `should` — совет, `will` — будущее), и ведут они себя необычно (например, не получают `-s` в третьем лице: `he can`, а не `he cans`). Всё это подробно разберём в теме «Модальные глаголы». Сейчас берём их как готовый шаблон — нам важно одно: после модального глагола `to` не ставится."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Модальных глаголов несколько — can, must, should, will (+ may, might, would), и все идут без to: you must go, you should rest, I will help. Это готовый шаблон, полный разбор каждого — в теме «Модальные глаголы». Главное сейчас: после модального глагола to не ставится.",
+      "examples": [
+        {
+          "ru": "Тебе стоит позвонить маме.",
+          "en": "You should call your mom."
+        },
+        {
+          "ru": "Я помогу тебе завтра.",
+          "en": "I will help you tomorrow."
+        },
+        {
+          "ru": "Мы должны идти.",
+          "en": "We must go."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему у модальных глаголов нет to?",
+        "must, should, will — они все идут без to?",
+        "Что вообще значит «модальный глагол»?"
+      ]
+    },
+    {
+      "id": 143,
+      "microtopicId": 47,
+      "title": "С to или без to — две группы рядом",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Соберём обе микротемы в одну картину — это снимет главную путаницу темы. Всё сводится к двум полкам:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Группа глаголов",
+            "После неё",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "обычные (want, need, like, decide, hope…)",
+              "`to` + V1",
+              "I want **to** go."
+            ],
+            [
+              "модальные (can, must, should, will…)",
+              "просто V1, без to",
+              "I can go."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Две зеркальные ловушки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибиться можно в обе стороны, и обе ошибки — калька привычки:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`I want go` ✗ → `I want to go` ✓ — потерял `to` после обычного глагола (в русском между глаголами пусто, рука копирует эту пустоту).",
+            "`I can to go` ✗ → `I can go` ✓ — наоборот, влепил лишний `to` после модального (выучил «всегда to» и перестарался)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Совет",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Как различить за секунду.** Спроси себя — глагол перед вторым действием обычный или служебный? `want, need, like, decide` — обычные, тянут за собой `to`. `can, must, should, will` — служебные спутники, идут вплотную, без `to`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Две группы рядом: после обычных глаголов (want, need, like, decide) — to + V1; после модальных (can, must, should, will) — голый V1 без to. Две зеркальные ошибки: «I want go» ✗ (потерял to) и «I can to go» ✗ (лишний to). Различить просто: обычный глагол тянет to, модальный (служебный) — нет.",
+      "examples": [
+        {
+          "ru": "Мне нужно идти, но я могу остаться.",
+          "en": "I need to go, but I can stay."
+        },
+        {
+          "ru": "Ты должен решить сейчас.",
+          "en": "You must decide now."
+        },
+        {
+          "ru": "Они хотят помочь, и они могут помочь.",
+          "en": "They want to help, and they can help."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, нужен to или нет?",
+        "Почему обе фразы — I want go и I can to go — ошибки?",
+        "Какие глаголы тянут за собой to, а какие нет?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -543,6 +743,60 @@
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 10,
       "orderInCard": 2
+    },
+    {
+      "cardId": 141,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 79,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 141,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 53,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 141,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 65,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 142,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 80,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 142,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 28,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 142,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 53,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 143,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 29,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 143,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 17,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 143,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 81,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -552,6 +806,14 @@
       "title": "Не теряй to",
       "userInstruction": "AI даст русскую фразу с двумя глаголами (решил уйти, планирует учиться). Переведи на английский, не забыв to перед вторым глаголом.",
       "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "infinitive_card143_ex1",
+      "cardId": 143,
+      "title": "to нужен или нет?",
+      "userInstruction": "AI даст предложения с пропуском между двумя глаголами. Сам реши, нужен ли там to: впиши to, где он нужен, а где не нужен — поставь прочерк «—».",
+      "inputMode": "FILL_BLANKS",
       "wordsSource": "GENERAL"
     }
   ],
@@ -676,6 +938,37 @@
         }
       ],
       "explanation": "№2 — пропущен to: She needs to go home. №4 — тоже нет to: We love to watch films. После want/need/like/love второй глагол всегда с to."
+    },
+    {
+      "id": 65,
+      "statements": [
+        {
+          "en": "I can swim.",
+          "ru": "Я умею плавать.",
+          "isTrue": true
+        },
+        {
+          "en": "She can to drive.",
+          "ru": "Она умеет водить.",
+          "isTrue": false
+        },
+        {
+          "en": "We can help you.",
+          "ru": "Мы можем тебе помочь.",
+          "isTrue": true
+        },
+        {
+          "en": "He can to cook.",
+          "ru": "Он умеет готовить.",
+          "isTrue": false
+        },
+        {
+          "en": "They can read English.",
+          "ru": "Они умеют читать по-английски.",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 и №4 — лишний to: после can глагол идёт без него (can drive, can cook). Остальные верны."
     }
   ],
   "word_arrangement_exercises": [
@@ -758,6 +1051,44 @@
         }
       ],
       "explanation": "После hopes — инфинитив to learn (to + V1). «learn» и «learning» без to обрывают сцепку; «to learning» и «to learned» — не инфинитив (после to только чистая V1). Цепочка: hopes + to learn."
+    },
+    {
+      "id": 53,
+      "situationRu": "RU: Ты должен позвонить врачу.",
+      "correctSentence": "You must call a doctor.",
+      "words": [
+        {
+          "text": "You",
+          "translation": ""
+        },
+        {
+          "text": "must",
+          "translation": "должен"
+        },
+        {
+          "text": "call",
+          "translation": ""
+        },
+        {
+          "text": "a doctor",
+          "translation": ""
+        }
+      ],
+      "distractors": [
+        {
+          "text": "to call",
+          "translation": ""
+        },
+        {
+          "text": "calling",
+          "translation": ""
+        },
+        {
+          "text": "musts",
+          "translation": ""
+        }
+      ],
+      "explanation": "После модального must — голый глагол call (V1, без to). «to call» — лишний to; «calling» — -ing форма; «musts» — у модальных нет -s."
     }
   ],
   "multiple_choice_exercises": [
@@ -865,6 +1196,69 @@
         }
       ],
       "explanation": "После would like перед глаголом нужен to — I'd like to book. «I'd like book» — потерян to; «I'd like booking» — -ing форма, не инфинитив."
+    },
+    {
+      "id": 79,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Она умеет водить машину.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "She can to drive a car.",
+          "isCorrect": false
+        },
+        {
+          "text": "She can drive a car.",
+          "isCorrect": true
+        },
+        {
+          "text": "She can drives a car.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "can — модальный глагол, после него идёт V1 без to: can drive. «can to drive» — лишний to (гиперкоррекция); «can drives» — у модальных нет -s в третьем лице."
+    },
+    {
+      "id": 80,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Тебе стоит отдохнуть.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "You should to rest.",
+          "isCorrect": false
+        },
+        {
+          "text": "You should rest.",
+          "isCorrect": true
+        },
+        {
+          "text": "You should resting.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "should — модальный глагол, после него V1 без to: should rest. «should to rest» — лишний to; «should resting» — -ing форма, не нужна."
+    },
+    {
+      "id": 81,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я могу тебе помочь.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I can to help you.",
+          "isCorrect": false
+        },
+        {
+          "text": "I can help you.",
+          "isCorrect": true
+        },
+        {
+          "text": "I can helping you.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "can — модальный, после него голый глагол: can help. «can to help» — лишний to; «can helping» — -ing форма, не нужна."
     }
   ],
   "text_input_exercises": [
@@ -1009,6 +1403,25 @@
         }
       ],
       "explanation": "После like нужен инфинитив с to — like to read. В исходном предложении to потерян (калька с русского «люблю читать»). «like reading» — это -ing форма; «likes read» — лишнее -s и всё ещё без to."
+    },
+    {
+      "id": 53,
+      "wrongSentence": "He can to play the guitar.",
+      "options": [
+        {
+          "text": "can play",
+          "isCorrect": true
+        },
+        {
+          "text": "can plays",
+          "isCorrect": false
+        },
+        {
+          "text": "can playing",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После модального can основной глагол идёт без to — can play. to здесь лишний; «can plays» (у модальных нет -s) и «can playing» (-ing форма) тоже неверны."
     }
   ],
   "construction_meaning_exercises": [
@@ -1055,9 +1468,54 @@
         }
       ],
       "explanation": "После want/need второй глагол идёт как to + V1. В каждой фразе была пропущена сцепка to — самая частая ошибка русскоязычных."
+    },
+    {
+      "id": 17,
+      "taskDescription": "убери лишний to — после модального глагола он не нужен.",
+      "items": [
+        {
+          "original": "I can to swim.",
+          "transformed": "I can swim."
+        },
+        {
+          "original": "She must to go now.",
+          "transformed": "She must go now."
+        },
+        {
+          "original": "We should to rest.",
+          "transformed": "We should rest."
+        }
+      ],
+      "explanation": "После модальных (can, must, should) основной глагол идёт без to — голый V1. Лишний to здесь — ошибка-гиперкоррекция."
     }
   ],
-  "categorization_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 29,
+      "taskDescription": "распредели глаголы — после каких нужен to, а после каких нет.",
+      "categories": [
+        {
+          "title": "Нужен to",
+          "items": [
+            "want",
+            "need",
+            "like",
+            "decide"
+          ]
+        },
+        {
+          "title": "Без to (модальные)",
+          "items": [
+            "can",
+            "must",
+            "should",
+            "will"
+          ]
+        }
+      ],
+      "explanation": "После обычных глаголов (want, need, like, decide) идёт to + V1. Модальные (can, must, should, will) — служебные, идут без to."
+    }
+  ],
   "find_the_odd_exercises": [
     {
       "id": 27,
@@ -1081,6 +1539,29 @@
         }
       ],
       "explanation": "to ate — ошибка: ate это V2 (прошедшее от eat). Инфинитив берёт только V1 — to eat. Остальные три — правильные to + V1."
+    },
+    {
+      "id": 28,
+      "groupDescription": "Три модальных глагола стоят правильно (без to), один — с лишним to",
+      "items": [
+        {
+          "text": "I can swim",
+          "isOdd": false
+        },
+        {
+          "text": "You must go",
+          "isOdd": false
+        },
+        {
+          "text": "We will help",
+          "isOdd": false
+        },
+        {
+          "text": "She should to rest",
+          "isOdd": true
+        }
+      ],
+      "explanation": "«She should to rest» — ошибка: после модального should нет to (нужно should rest). Остальные три — правильные «модальный + V1» без to."
     }
   ]
 }
