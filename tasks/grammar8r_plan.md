@@ -748,7 +748,7 @@ theory/
 │   │   └── Card · Чтение окончания -s: [s] / [z] / [ɪz] — прямая параллель с правилом мн.числа из
 │   │       Основ (works[s], plays[z], watches[ɪz]). «Уже умеем — то же правило».
 │   │
-│   ├── MT51 · Negative · Образование: отрицание (слить слова и использовать в примерах: often, rarely и другие)
+│   ├── MT51 · Negative · Образование: отрицание
 │   │   ├── Card · don't / doesn't + V1. do/does + not. I don't work / He doesn't work.
 │   │   └── Card · Ловушка: после doesn't глагол ТЕРЯЕТ -s («He doesn't works» ✗ → «doesn't work» ✓).
 │   │       Корень: -s уже «ушёл» в does — двойного быть не может. Разжевать почему.
@@ -860,7 +860,7 @@ theory/
 │   └── Остальные сравнительные конструкции (just like, similar to, as if/as though) —
 │       остаются в «Доп. конструкциях» как расширение, здесь только база + as...as
 │
-├── Наречия (Adverbs)  ← после Сравнения прилагательных, перед Past Simple
+├── Наречия (Adverbs)  ← после Сравнения прилагательных, перед Past Simple  (В утверждениях never, а в вопросах ever) (слить слова и использовать в примерах: often, rarely и другие)
 │   ├── Образование: прилагательное + -ly; исключения: good→well, fast→fast, hard→hard
 │   ├── Наречия образа действия — slowly, carefully, badly, well. Позиция после глагола/дополнения
 │   ├── Степени сравнения наречий — fast→faster→fastest, carefully→more carefully→most carefully

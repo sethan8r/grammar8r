@@ -273,7 +273,7 @@ RU: Мы пьём кофе каждое утро.
 - **The train leaves** at six.
 - **Coffee helps** in the morning.
 
-**Dima**, **my brother**, **the cat**, **coffee** — всё это «он/она/оно», поэтому глагол получает `-s` так же, как с `he`. Самая частая засада — поставить `-s` после `he`, но забыть после имени: **Dima work** ✗ → **Dima works** ✓.
+**Tom**, **my brother**, **the cat**, **coffee** — всё это «он/она/оно», поэтому глагол получает `-s` так же, как с `he`. Самая частая засада — поставить `-s` после `he`, но забыть после имени: **Tom work** ✗ → **Tom works** ✓.
 
 **Откуда это окончание и почему его роняют**
 
@@ -285,7 +285,7 @@ RU: Мы пьём кофе каждое утро.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Для 3-го лица единственного числа (`he`, `she`, `it` и любое одно лицо/предмет — **Dima**, **my sister**, **the cat**) глагол получает окончание `-s`: **he works**, **she lives**. Это единственное изменение в утверждении и последнее уцелевшее личное окончание английского глагола — потому русские его и забывают (**He work** ✗ → **He works** ✓).
+Для 3-го лица единственного числа (`he`, `she`, `it` и любое одно лицо/предмет — **Tom**, **my sister**, **the cat**) глагол получает окончание `-s`: **he works**, **she lives**. Это единственное изменение в утверждении и последнее уцелевшее личное окончание английского глагола — потому русские его и забывают (**He work** ✗ → **He works** ✓).
 
 #### Examples
 
@@ -302,13 +302,13 @@ RU: Мы пьём кофе каждое утро.
 
 **Ex 5 · Transformation** *(ID: 19)*
 
-Задание: поставь подлежащее в 3-е лицо ед. ч. и добавь к глаголу `-s`.
+Задание: перепиши каждое предложение про he.
 
-1. "I work in a bank." → **"She works in a bank."**
+1. "I work in a bank." → **"He works in a bank."**
 2. "You live in Moscow." → **"He lives in Moscow."**
-3. "We read every evening." → **"My sister reads every evening."**
+3. "We read every evening." → **"He reads every evening."**
 
-*Explanation:* При смене подлежащего на he/she/it (или имя в ед. ч.) глагол получает `-s`: `work → works`, `live → lives`, `read → reads`. Чаще всего забывают именно это окончание.
+*Explanation:* У 3-го лица he глагол получает `-s`: `work → works`, `live → lives`, `read → reads`. Чаще всего забывают именно это окончание.
 
 ---
 
@@ -323,7 +323,7 @@ RU: Мы пьём кофе каждое утро.
 3. "He ___ TV in the evening." (смотрит)
    Ответ: **watches**
 
-4. "Dima ___ English." (учит)
+4. "Nick ___ English." (учит)
    Ответ: **studies**
 
 *Explanation:* Подлежащее he/she/it (и имя в ед. ч.) → глагол с `-s`. Правописание подстраивается: `watch → watches` (шипящая), `study → studies` (согласная + y). Подробно — в следующей карточке.
@@ -349,10 +349,10 @@ RU: Мы пьём кофе каждое утро.
 | 1 | She plays football on Sundays. | ✓ |
 | 2 | He work in a bank. | ✗ |
 | 3 | My sister knows Igor. | ✓ |
-| 4 | Dima live in Kazan. | ✗ |
+| 4 | Mark live in Kazan. | ✗ |
 | 5 | The train leaves at six. | ✓ |
 
-*Explanation:* №2 — `he` требует `-s`: нужно `he works`. №4 — `Dima` это «он», тоже `-s`: нужно `Dima lives`. После любого единственного третьего лица глагол получает окончание.
+*Explanation:* №2 — `he` требует `-s`: нужно `he works`. №4 — `Mark` это «он», тоже `-s`: нужно `Mark lives`. После любого единственного третьего лица глагол получает окончание.
 
 ---
 
@@ -397,7 +397,7 @@ RU: Мы пьём кофе каждое утро.
 #### Clarification Options
 
 - Почему именно he, she, it получают -s, а другие лица нет?
-- Нужно ли добавлять -s, если подлежащее — имя, например Dima?
+- Нужно ли добавлять -s, если подлежащее — имя, например Oleg?
 - Если забыть -s — это сильная ошибка или мелочь?
 
 ---
@@ -431,7 +431,7 @@ RU: Мы пьём кофе каждое утро.
 
 | # | RU | EN |
 |---|----|----|
-| 637 | Дима учит английский. | Dima studies English. |
+| 637 | Рома учит английский. | Roma studies English. |
 | 638 | Она смотрит телевизор по вечерам. | She watches TV in the evening. |
 | 639 | Он ходит на работу пешком. | He goes to work on foot. |
 | 640 | Лена играет на гитаре. | Lena plays the guitar. |
@@ -602,26 +602,375 @@ RU: Мы пьём кофе каждое утро.
 
 ---
 
+## Microtopic 51 — Negative · Образование: отрицание
+
+**ID:** 51 | **Order:** 3
+
+---
+
+### Card 154 · don't для I/you/we/they — нужен помощник
+
+**ID:** 154 | **Order:** 1
+
+#### Theory
+
+Научились говорить, что что-то происходит, — теперь научимся говорить, что чего-то **не** происходит. И вот первое большое отличие от русского: в английском одного «не» для этого мало.
+
+По-русски отрицание — это просто «не» перед глаголом: «я работаю» → «я не работаю». Приклеил одно слово — готово. Английский так **не умеет**: сказать **I not work** ✗ нельзя, фраза сломана. Ему нужен глагол-помощник `do`: он берёт отрицание на себя, а смысловой глагол остаётся нетронутым.
+
+**Формула:** I / you / we / they + `don't` (= `do` + `not`) + глагол в базовой форме V1.
+
+**Почему нельзя просто «не»**
+
+Голый глагол в Present Simple не может удержать на себе `not` — английскому нужен «носитель» отрицания, и эту роль играет служебный `do` (мы знакомились с ним в «Служебных глаголах»). Поэтому `not` цепляется не к смысловому глаголу, а к помощнику: `do` + `not` → `don't`. Сам глагол при этом в покое — **work**, в базовой форме.
+
+**Ловушка:** **I not work today** ✗ → **I don't work today** ✓. Русский мозг тянет приклеить «не» прямо к глаголу, как дома. В английском между «не» и глаголом обязателен помощник `do`.
+
+**Краткая и полная форма**
+
+`do not` и `don't` — одно и то же. В обычной речи почти всегда `don't`; полное `do not` звучит подчёркнуто или строго (**I do not agree**).
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Чтобы сказать «не делаю», английскому мало «не» — нужен помощник `do`: `do` + `not` = `don't`, дальше глагол в базовой форме V1. Для `I/you/we/they` это `don't`: **I don't work**. Приклеить «не» прямо к глаголу (**I not work** ✗) нельзя.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 645 | Я не пью кофе вечером. | I don't drink coffee in the evening. |
+| 646 | Мы не смотрим телевизор. | We don't watch TV. |
+| 647 | Они не живут здесь. | They don't live here. |
+| 648 | Ты его не знаешь. | You don't know him. |
+
+---
+
+#### Exercises
+
+**Ex 16 · MultipleChoice · CHOICE** *(ID: 78)*
+
+"I ___ drink coffee in the evening."
+
+- doesn't
+- **don't** ✓
+- not
+
+*Explanation:* Для `I` помощник — `don't` (`do` + `not`). `doesn't` — только для he/she/it; `not` без помощника `do` поставить нельзя.
+
+---
+
+**Ex 17 · MultipleChoice · FORWARD_CHOICE** *(ID: 85)*
+
+"Мы не живём в Москве."
+
+- We not live in Moscow.
+- We doesn't live in Moscow.
+- **We don't live in Moscow.** ✓
+
+*Explanation:* `we` → `don't` + глагол V1. `We not live` — без помощника, `We doesn't` — `doesn't` только для 3-го лица ед. ч.
+
+---
+
+**Ex 18 · WordArrangement** *(ID: 56)*
+
+RU: Они не смотрят телевизор по утрам.
+
+Правильное предложение: **They don't watch TV in the morning.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| They | — |
+| don't | — |
+| watch | — |
+| TV | — |
+| in the morning | — |
+| doesn't | ✗ |
+| not | ✗ |
+| watches | ✗ |
+
+*Explanation:* `they` → `don't` + базовая форма `watch`. `doesn't` — для 3-го лица, `not` без `do` не ставят, `watches` — форма с `-s` (после `don't` глагол голый).
+
+---
+
+**Ex 19 · ErrorCorrection** *(ID: 57)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"You not know him."
+
+- You don't knows him.
+- **You don't know him.** ✓
+- You doesn't know him.
+
+*Explanation:* Нужен помощник: `you` → `don't` + базовая форма `know`. `doesn't` — для 3-го лица, `don't knows` — лишний `-s` на глаголе.
+
+---
+
+#### AI Exercise
+
+**ID:** present_simple_card154_ex1
+**Title:** "Сделай отрицание"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст утвердительное предложение. Сделайте его отрицательным."
+**Prompt Template:** "Дай пользователю короткое ПРОСТОЕ утвердительное предложение в Present Simple с подлежащим I/you/we/they. Каждый раз бери разные глаголы и ситуации, не повторяйся; предложения держи лёгкими. Попроси сделать его отрицательным. Проверь, что пользователь поставил don't и глагол в базовой форме (без -s, без лишнего not). При ошибке по-русски исправь и объясни, что для отрицания нужен помощник do и форма don't."
+
+Пример вывода AI: 'Сделайте отрицательным: We live near the park.'
+
+#### Clarification Options
+
+- Почему нельзя просто сказать I not work?
+- Зачем в отрицании нужен do, если в утверждении его нет?
+- don't и do not — это одно и то же?
+
+---
+
+### Card 155 · doesn't для he/she/it — помощник забирает -s
+
+**ID:** 155 | **Order:** 2
+
+#### Theory
+
+Для I/you/we/they помощник — `do`. А для 3-го лица (he/she/it и любое одно лицо или предмет) он меняется так же, как менялся глагол в утверждении: получает `-s`. `do` + `-s` = `does`, дальше `does` + `not` = `doesn't`.
+
+**Куда делось -s**
+
+Вспомни прошлую микротему: в утверждении 3-е лицо вешало `-s` на глагол — **he works**. В отрицании этот `-s` достаётся **помощнику**: **he doesn't work**. Окончание никуда не пропало — оно просто переехало на `does`.
+
+**Ловушка: don't вместо doesn't**
+
+Самая частая ошибка — поставить `don't` там, где нужно `doesn't`: **He don't work** ✗ → **He doesn't work** ✓. Ты наверняка слышал **he don't** в песнях и сленге, но это не норма: в обычной речи и на письме для he/she/it всегда `doesn't`. То же с именами: **Jack don't know** ✗ → **Jack doesn't know** ✓.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Для he/she/it (и любого одного лица/предмета) помощник получает `-s`: `do` → `does`, отрицание — `doesn't`. Окончание `-s` переезжает с глагола на помощника: было **he works**, стало **he doesn't work**. Ставить `don't` для 3-го лица (**He don't work** ✗) — частая ошибка, норма — `doesn't`.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 649 | Он не пьёт кофе. | He doesn't drink coffee. |
+| 650 | Она не смотрит телевизор. | She doesn't watch TV. |
+| 651 | Моя сестра не живёт здесь. | My sister doesn't live here. |
+| 652 | Бен не знает ответа. | Ben doesn't know the answer. |
+
+---
+
+#### Exercises
+
+**Ex 20 · MultipleChoice · CHOICE** *(ID: 79)*
+
+"She ___ like tea."
+
+- don't
+- **doesn't** ✓
+- isn't
+
+*Explanation:* `she` → `doesn't` (`does` + `not`). `don't` — для I/you/we/they; `isn't` — это отрицание `to be`, а здесь смысловой глагол `like`.
+
+---
+
+**Ex 21 · Transformation** *(ID: 20)*
+
+Задание: сделай предложение отрицательным.
+
+1. "He works in a bank." → **"He doesn't work in a bank."**
+2. "She lives in Moscow." → **"She doesn't live in Moscow."**
+3. "My brother reads in the evening." → **"My brother doesn't read in the evening."**
+
+*Explanation:* 3-е лицо → `doesn't` + базовая форма. Окончание `-s` уходит на помощника (`does`), поэтому глагол его теряет: `works` → `work`.
+
+---
+
+**Ex 22 · TrueFalse** *(ID: 69)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | She doesn't drink coffee. | ✓ |
+| 2 | He don't live here. | ✗ |
+| 3 | They don't watch TV. | ✓ |
+| 4 | My sister doesn't know him. | ✓ |
+| 5 | Sam don't play football. | ✗ |
+
+*Explanation:* №2 — для `he` нужен `doesn't`: He doesn't live here. №5 — `Sam` это «он», тоже `doesn't`: Sam doesn't play.
+
+---
+
+**Ex 23 · ErrorCorrection** *(ID: 58)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"My brother don't drink coffee."
+
+- My brother don't drinks coffee.
+- **My brother doesn't drink coffee.** ✓
+- My brother doesn't drinks coffee.
+
+*Explanation:* `my brother` — 3-е лицо, нужен `doesn't`. Глагол при этом в базовой форме: `drink`, не `drinks`.
+
+---
+
+#### AI Exercise
+
+**ID:** present_simple_card155_ex1
+**Title:** "Вставь don't или doesn't"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Вставьте don't или doesn't — смотрите на подлежащее."
+**Prompt Template:** "Сгенерируй 3–4 коротких ПРОСТЫХ отрицательных предложения в Present Simple с пропуском на месте помощника (don't или doesn't). Каждый раз бери разные глаголы, подлежащие и ситуации, не повторяйся. Обязательно смешай лица: часть с I/you/we/they (don't), часть с he/she/it или именем (doesn't). Глагол после пропуска — в базовой форме. Принимай ответ без учёта регистра. При ошибке по-русски объясни, какой помощник нужен по подлежащему."
+
+Пример вывода AI: '1. She [___] drink tea. 2. We [___] live here. 3. My brother [___] watch TV.'
+
+#### Clarification Options
+
+- Почему для he нужен doesn't, а не don't?
+- Куда девается -s у глагола в отрицании?
+- Можно ли говорить he don't, раз так поют в песнях?
+
+---
+
+### Card 156 · Ловушка: после doesn't глагол без -s
+
+**ID:** 156 | **Order:** 3
+
+#### Theory
+
+Главная ловушка отрицания — оставить `-s` на глаголе после `doesn't`. **He doesn't works** ✗ — здесь `-s` стоит **дважды**: и на помощнике (`does`), и на глаголе (`works`). Так нельзя.
+
+**Почему -s только один раз**
+
+Окончание 3-го лица — одно, и оно уже сидит на помощнике: `doesn't` это `does` + `not`, а `does` это `do` + `-s`. Раз помощник уже сказал «3-е лицо», глаголу повторять это незачем — он возвращается к голой базовой форме: **He doesn't work** ✓. Два `-s` — это как сказать одно и то же дважды.
+
+**Не путай с утверждением.** В утверждении `-s` нужен: **he works**. В отрицании — категорически нет: **he doesn't work**. Разница в помощнике: как только появился `does`/`doesn't`, `-s` уже на нём.
+
+**Полная и краткая форма**
+
+Как и `don't` = `do not`, краткая `doesn't` = полная `does not`. В обычной речи — `doesn't`; полное `does not` звучит подчёркнуто (**She does not live here**).
+
+Естественно отрицание звучит с уже знакомыми наречиями частотности: **He doesn't often call.** / **I don't usually drink coffee.**
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+После `doesn't` глагол всегда в базовой форме — `-s` уже переехал на помощника, дублировать его нельзя: **He doesn't works** ✗ → **He doesn't work** ✓. Это зеркало утверждения (там `-s` нужен: **he works**). Краткая `doesn't` = полная `does not`.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 653 | Он не работает по выходным. | He doesn't work on weekends. |
+| 654 | Она обычно не пьёт чай. | She doesn't usually drink tea. |
+| 655 | Мой друг не играет в футбол. | My friend doesn't play football. |
+| 656 | Катя не часто готовит дома. | Katya doesn't often cook at home. |
+
+---
+
+#### Exercises
+
+**Ex 24 · ErrorCorrection** *(ID: 59)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"He doesn't works here."
+
+- He don't work here.
+- **He doesn't work here.** ✓
+- He doesn't working here.
+
+*Explanation:* После `doesn't` глагол в базовой форме: `work`, не `works` (`-s` уже на помощнике `does`). `don't` — неверный помощник для `he`, `working` — другая форма.
+
+---
+
+**Ex 25 · FindTheOdd** *(ID: 31)*
+
+Три предложения построены верно, одно — с ошибкой:
+
+- She doesn't live here.
+- He doesn't drink coffee.
+- **My sister doesn't works here.** ✓
+- They don't watch TV.
+
+*Explanation:* В «My sister doesn't works» глагол лишний раз получил `-s`. После `doesn't` нужна базовая форма: doesn't work. Остальные три предложения верные.
+
+---
+
+**Ex 26 · TableFill** *(ID: 13)*
+
+Задание: запиши краткую форму отрицания.
+
+| Полная форма | Ответ |
+|--------------|-------|
+| do not | don't |
+| does not | doesn't |
+| I do not work | I don't work |
+| she does not live | she doesn't live |
+
+*Explanation:* Краткая форма склеивает помощник с `not`: `do not` → `don't`, `does not` → `doesn't`. Сам глагол при этом не меняется.
+
+---
+
+**Ex 27 · MultipleChoice · CHOICE** *(ID: 80)*
+
+"She doesn't ___ on Sundays."
+
+- works
+- **work** ✓
+- working
+
+*Explanation:* После `doesn't` глагол в базовой форме — `work`. `works` дублирует `-s` (он уже на `does`); `working` — другая форма.
+
+---
+
+#### AI Exercise
+
+**ID:** present_simple_card156_ex1
+**Title:** "Найди и исправь ошибку"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст отрицательное предложение с ошибкой. Перепишите его правильно."
+**Prompt Template:** "Дай пользователю одно ПРОСТОЕ отрицательное предложение в Present Simple с типовой ошибкой — на выбор: лишний -s после doesn't (He doesn't works), don't вместо doesn't для 3-го лица (She don't), или «не» без помощника (I not work). Каждый раз бери разные глаголы и ситуации. Попроси переписать верно. Проверь форму помощника (don't/doesn't по лицу) и базовую форму глагола без -s. При ошибке по-русски объясни, в чём была ошибка."
+
+Пример вывода AI: 'Исправьте ошибку: She doesn't works on weekends.'
+
+#### Clarification Options
+
+- Почему He doesn't works — ошибка, ведь he требует -s?
+- Когда глаголу нужен -s, а когда нет?
+- doesn't и does not — в чём разница?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| usually | обычно | [ˈjuːʒuəli] |
+| tea | чай | [tiː] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 8 | 9 |
-| Microtopic | 50 | 51 |
-| Card | 153 | 154 |
-| Example | 644 | 645 |
-| MultipleChoice · CHOICE | 77 | 78 |
-| MultipleChoice · FORWARD_CHOICE | 84 | 85 |
+| Microtopic | 51 | 52 |
+| Card | 156 | 157 |
+| Example | 656 | 657 |
+| MultipleChoice · CHOICE | 80 | 81 |
+| MultipleChoice · FORWARD_CHOICE | 85 | 86 |
 | MultipleChoice · REVERSE_CHOICE | — | 26 |
-| TrueFalse | 68 | 69 |
-| WordArrangement | 55 | 56 |
+| TrueFalse | 69 | 70 |
+| WordArrangement | 56 | 57 |
 | TextInput | 34 | 35 |
 | Matching | 27 | 28 |
-| Transformation | 19 | 20 |
-| ErrorCorrection | 56 | 57 |
-| TableFill | 12 | 13 |
-| FindTheOdd | 30 | 31 |
+| Transformation | 20 | 21 |
+| ErrorCorrection | 59 | 60 |
+| TableFill | 13 | 14 |
+| FindTheOdd | 31 | 32 |
 | ConstructionMeaning | 8 | 9 |
 | Categorization | 32 | 33 |
 | DialogRestore | 11 | 12 |
-| course_word | 328 | 329 |
+| course_word | 330 | 331 |
