@@ -64,6 +64,7 @@ import kotlinx.coroutines.launch
 fun MicrotopicScreen(
     onBack: () -> Unit,
     onStartExercises: (cardId: Int) -> Unit,
+    onMicrotopicCompleted: (microtopicId: Int) -> Unit,
     advanceAfterCardId: Int? = null,
     onAdvanceConsumed: () -> Unit = {},
     viewModel: MicrotopicViewModel = hiltViewModel(),
@@ -87,7 +88,7 @@ fun MicrotopicScreen(
                 onStartExercises = onStartExercises,
                 onCompleteCard = viewModel::completeCard,
                 cardCompleted = viewModel.cardCompleted,
-                onExit = onBack,
+                onMicrotopicCompleted = onMicrotopicCompleted,
                 advanceAfterCardId = advanceAfterCardId,
                 onAdvanceConsumed = onAdvanceConsumed,
             )
@@ -102,7 +103,7 @@ private fun CardPager(
     onStartExercises: (cardId: Int) -> Unit,
     onCompleteCard: (cardId: Int) -> Unit,
     cardCompleted: Flow<CardCompletion>,
-    onExit: () -> Unit,
+    onMicrotopicCompleted: (microtopicId: Int) -> Unit,
     advanceAfterCardId: Int?,
     onAdvanceConsumed: () -> Unit,
 ) {
@@ -119,13 +120,12 @@ private fun CardPager(
         onAdvanceConsumed()
     }
 
-    // Кнопка «Завершить карточку» (карточка без заданий) отметила прохождение: не последняя — листаем
-    // на следующую; последняя — выходим назад в список (экрана сводки на этом пути нет).
+    // «Завершить карточку»: не последняя — листаем дальше; последняя — сводка микротемы.
     val latestCards = rememberUpdatedState(cards)
     LaunchedEffect(Unit) {
         cardCompleted.collect { completion ->
             if (completion.isLastCard) {
-                onExit()
+                onMicrotopicCompleted(completion.microtopicId)
             } else {
                 val list = latestCards.value
                 val index = list.indexOfFirst { it.id == completion.cardId }

@@ -144,6 +144,12 @@ fun MainScreen() {
                 MicrotopicScreen(
                     onBack = { navController.popBackStack() },
                     onStartExercises = { cardId -> navController.navigate(ExerciseSessionRoute(cardId)) },
+                    // Последняя карточка без заданий → сводка (как из сессии).
+                    onMicrotopicCompleted = { microtopicId ->
+                        navController.navigate(MicrotopicSummaryRoute(microtopicId)) {
+                            popUpTo<MicrotopicRoute> { inclusive = true }
+                        }
+                    },
                     advanceAfterCardId = advanceAfterCardId,
                     onAdvanceConsumed = { entry.savedStateHandle[ADVANCE_AFTER_CARD_KEY] = null },
                 )

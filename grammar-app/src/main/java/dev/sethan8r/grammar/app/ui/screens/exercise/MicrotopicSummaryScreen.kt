@@ -86,15 +86,18 @@ private fun SummaryContent(summary: MicrotopicCompletionSummary, onContinue: () 
             textAlign = TextAlign.Center,
         )
 
-        StatRow(
-            label = stringResource(R.string.microtopic_done_hardcoded),
-            value = stringResource(
-                R.string.microtopic_done_correct_of,
-                summary.hardcodedCorrect,
-                summary.hardcodedTotal,
-            ),
-            modifier = Modifier.padding(top = Dimens.spaceXLarge),
-        )
+        // Хардкод-сводка — только если в микротеме были задания.
+        if (summary.hardcodedTotal > 0) {
+            StatRow(
+                label = stringResource(R.string.microtopic_done_hardcoded),
+                value = stringResource(
+                    R.string.microtopic_done_correct_of,
+                    summary.hardcodedCorrect,
+                    summary.hardcodedTotal,
+                ),
+                modifier = Modifier.padding(top = Dimens.spaceXLarge),
+            )
+        }
         // AI-сводка (умные задания) — Фаза 3: показываем только когда есть тренировки.
         if (summary.aiAttempts > 0) {
             StatRow(
