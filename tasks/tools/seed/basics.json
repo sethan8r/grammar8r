@@ -16126,36 +16126,15 @@
       "situationRu": "RU: Они живут в Москве.",
       "correctSentence": "They live in Moscow.",
       "words": [
-        {
-          "text": "They",
-          "translation": "Они"
-        },
-        {
-          "text": "live",
-          "translation": "живут"
-        },
-        {
-          "text": "in",
-          "translation": "в"
-        },
-        {
-          "text": "Moscow",
-          "translation": "Москве"
-        }
+        "They",
+        "live",
+        "in",
+        "Moscow"
       ],
       "distractors": [
-        {
-          "text": "I",
-          "translation": "Я"
-        },
-        {
-          "text": "She",
-          "translation": "Она"
-        },
-        {
-          "text": "He",
-          "translation": "Он"
-        }
+        "I",
+        "She",
+        "He"
       ],
       "explanation": "They = они. Live = живут. In = в (предлог для городов). Moscow = Москва. I/She/He — лишние, речь идёт о группе (они)."
     },
@@ -16164,36 +16143,15 @@
       "situationRu": "RU: Она — моя сестра.",
       "correctSentence": "She is my sister.",
       "words": [
-        {
-          "text": "She",
-          "translation": "Она"
-        },
-        {
-          "text": "is",
-          "translation": "есть (является)"
-        },
-        {
-          "text": "my",
-          "translation": "моя"
-        },
-        {
-          "text": "sister",
-          "translation": "сестра"
-        }
+        "She",
+        "is",
+        "my",
+        "sister"
       ],
       "distractors": [
-        {
-          "text": "He",
-          "translation": "Он"
-        },
-        {
-          "text": "am",
-          "translation": "есть (только для I)"
-        },
-        {
-          "text": "are",
-          "translation": "есть (мн.ч.)"
-        }
+        "He",
+        "am",
+        "are"
       ],
       "explanation": "She = она → форма to be = is. My = моя. Sister = сестра. He — не подходит (мужской род), am — только с I, are — для you/we/they."
     },
@@ -16202,40 +16160,16 @@
       "situationRu": "RU: Её нет дома.",
       "correctSentence": "She isn't at home.",
       "words": [
-        {
-          "text": "She",
-          "translation": "Она"
-        },
-        {
-          "text": "isn't",
-          "translation": "не (is not)"
-        },
-        {
-          "text": "at",
-          "translation": "предлог места"
-        },
-        {
-          "text": "home",
-          "translation": "дом"
-        }
+        "She",
+        "isn't",
+        "at",
+        "home"
       ],
       "distractors": [
-        {
-          "text": "He",
-          "translation": "Он"
-        },
-        {
-          "text": "I",
-          "translation": "Я"
-        },
-        {
-          "text": "am not",
-          "translation": "не (только для I)"
-        },
-        {
-          "text": "aren't",
-          "translation": "не (мн.ч.)"
-        }
+        "He",
+        "I",
+        "am not",
+        "aren't"
       ],
       "explanation": "She isn't = she is not = она не. At home = дома. He/I — неверные местоимения. Am not — только с I. Aren't — с you/we/they."
     },
@@ -16244,36 +16178,15 @@
       "situationRu": "RU: Ты — учитель?",
       "correctSentence": "Are you a teacher?",
       "words": [
-        {
-          "text": "Are",
-          "translation": "вопрос (являешься ли)"
-        },
-        {
-          "text": "you",
-          "translation": "ты"
-        },
-        {
-          "text": "a teacher",
-          "translation": "учитель"
-        }
+        "Are",
+        "you",
+        "a teacher"
       ],
       "distractors": [
-        {
-          "text": "I",
-          "translation": "Я"
-        },
-        {
-          "text": "She",
-          "translation": "Она"
-        },
-        {
-          "text": "is",
-          "translation": "есть (для he/she/it)"
-        },
-        {
-          "text": "am",
-          "translation": "есть (для I)"
-        }
+        "I",
+        "She",
+        "is",
+        "am"
       ],
       "explanation": "В вопросе are/is/am стоит первым. Are you = вопрос для \"ты/вы\". A teacher — одна карточка (артикль изучим позже). Is и am — неверные формы для you."
     },
@@ -16282,44 +16195,17 @@
       "situationRu": "RU: На диване два кота.",
       "correctSentence": "There are two cats on the sofa.",
       "words": [
-        {
-          "text": "There",
-          "translation": "конструкция «есть»"
-        },
-        {
-          "text": "are",
-          "translation": "есть (мн.ч.)"
-        },
-        {
-          "text": "two",
-          "translation": "два"
-        },
-        {
-          "text": "cats",
-          "translation": "кота"
-        },
-        {
-          "text": "on",
-          "translation": "на"
-        },
-        {
-          "text": "the sofa",
-          "translation": "диване"
-        }
+        "There",
+        "are",
+        "two",
+        "cats",
+        "on",
+        "the sofa"
       ],
       "distractors": [
-        {
-          "text": "is",
-          "translation": "есть (ед.ч.)"
-        },
-        {
-          "text": "There's",
-          "translation": "есть (сокр.)"
-        },
-        {
-          "text": "a cat",
-          "translation": "кот (ед.ч.)"
-        }
+        "is",
+        "There's",
+        "a cat"
       ],
       "explanation": "There are = есть (несколько). Two cats = два кота. On the sofa = на диване. \"is\" и \"There's\" — для единственного числа. \"A cat\" — один кот, нам нужно \"two cats\"."
     },
@@ -16328,36 +16214,15 @@
       "situationRu": "RU: У него есть синяя машина.",
       "correctSentence": "He has a blue car.",
       "words": [
-        {
-          "text": "He",
-          "translation": "Он"
-        },
-        {
-          "text": "has",
-          "translation": "имеет / у него есть"
-        },
-        {
-          "text": "a",
-          "translation": "артикль"
-        },
-        {
-          "text": "blue",
-          "translation": "синяя"
-        },
-        {
-          "text": "car",
-          "translation": "машина"
-        }
+        "He",
+        "has",
+        "a",
+        "blue",
+        "car"
       ],
       "distractors": [
-        {
-          "text": "have",
-          "translation": "имеет (для I/you/we/they)"
-        },
-        {
-          "text": "She",
-          "translation": "Она"
-        }
+        "have",
+        "She"
       ],
       "explanation": "He → has (не have). A blue car = синяя машина. She/have — неверные формы для he."
     },
@@ -16366,36 +16231,15 @@
       "situationRu": "RU: У неё нет домашних животных.",
       "correctSentence": "She doesn't have any pets.",
       "words": [
-        {
-          "text": "She",
-          "translation": "Она"
-        },
-        {
-          "text": "doesn't",
-          "translation": "не (для he/she/it)"
-        },
-        {
-          "text": "have",
-          "translation": "иметь"
-        },
-        {
-          "text": "any",
-          "translation": "никаких"
-        },
-        {
-          "text": "pets",
-          "translation": "домашних животных"
-        }
+        "She",
+        "doesn't",
+        "have",
+        "any",
+        "pets"
       ],
       "distractors": [
-        {
-          "text": "don't",
-          "translation": "не (для I/you/we/they)"
-        },
-        {
-          "text": "has",
-          "translation": "имеет (для he/she/it)"
-        }
+        "don't",
+        "has"
       ],
       "explanation": "She → doesn't have (не \"don't have\", не \"doesn't has\"). Any pets = домашних животных. \"Don't\" — для I/you/we/they. \"Has\" — в отрицании с doesn't использовать нельзя."
     },
@@ -16404,36 +16248,15 @@
       "situationRu": "RU: У него есть новый телефон.",
       "correctSentence": "He has a new phone.",
       "words": [
-        {
-          "text": "He",
-          "translation": "Он"
-        },
-        {
-          "text": "has",
-          "translation": "у него есть"
-        },
-        {
-          "text": "a",
-          "translation": "артикль"
-        },
-        {
-          "text": "new",
-          "translation": "новый"
-        },
-        {
-          "text": "phone",
-          "translation": "телефон"
-        }
+        "He",
+        "has",
+        "a",
+        "new",
+        "phone"
       ],
       "distractors": [
-        {
-          "text": "an",
-          "translation": "артикль (перед гласным)"
-        },
-        {
-          "text": "the",
-          "translation": "определённый артикль"
-        }
+        "an",
+        "the"
       ],
       "explanation": "phone начинается с согласного звука \"ф\" → a phone. \"an\" — для гласных звуков. \"the\" — определённый артикль (здесь не нужен)."
     },
@@ -16442,32 +16265,14 @@
       "situationRu": "RU: Это европейский город.",
       "correctSentence": "It's a European city.",
       "words": [
-        {
-          "text": "It's",
-          "translation": "Это"
-        },
-        {
-          "text": "a",
-          "translation": "артикль"
-        },
-        {
-          "text": "European",
-          "translation": "европейский"
-        },
-        {
-          "text": "city",
-          "translation": "город"
-        }
+        "It's",
+        "a",
+        "European",
+        "city"
       ],
       "distractors": [
-        {
-          "text": "an",
-          "translation": "артикль (перед гласным звуком)"
-        },
-        {
-          "text": "the",
-          "translation": "определённый артикль"
-        }
+        "an",
+        "the"
       ],
       "explanation": "European звучит как \"юро...\" — первый звук \"ю\" (согласный) → a. \"an\" — перед настоящим гласным звуком."
     },
@@ -16476,36 +16281,15 @@
       "situationRu": "RU: Закрой, пожалуйста, дверь.",
       "correctSentence": "Close the door, please.",
       "words": [
-        {
-          "text": "Close",
-          "translation": "Закрой"
-        },
-        {
-          "text": "the",
-          "translation": "определённый артикль"
-        },
-        {
-          "text": "door",
-          "translation": "дверь"
-        },
-        {
-          "text": "please",
-          "translation": "пожалуйста"
-        }
+        "Close",
+        "the",
+        "door",
+        "please"
       ],
       "distractors": [
-        {
-          "text": "a",
-          "translation": "неопределённый артикль"
-        },
-        {
-          "text": "an",
-          "translation": "артикль (перед гласным)"
-        },
-        {
-          "text": "Open",
-          "translation": "Открой"
-        }
+        "a",
+        "an",
+        "Open"
       ],
       "explanation": "\"The door\" — конкретная дверь в этой комнате, ясно о какой → the. \"a door\" / \"an door\" — неверно: говорим о конкретной двери."
     },
@@ -16514,44 +16298,17 @@
       "situationRu": "RU: Их кошка спит на диване.",
       "correctSentence": "Their cat is sleeping on the sofa.",
       "words": [
-        {
-          "text": "Their",
-          "translation": "Их"
-        },
-        {
-          "text": "cat",
-          "translation": "кошка"
-        },
-        {
-          "text": "is",
-          "translation": "(глагол to be)"
-        },
-        {
-          "text": "sleeping",
-          "translation": "спит (сейчас)"
-        },
-        {
-          "text": "on",
-          "translation": "на"
-        },
-        {
-          "text": "the",
-          "translation": "определённый артикль"
-        },
-        {
-          "text": "sofa",
-          "translation": "диван"
-        }
+        "Their",
+        "cat",
+        "is",
+        "sleeping",
+        "on",
+        "the",
+        "sofa"
       ],
       "distractors": [
-        {
-          "text": "His",
-          "translation": "Его (муж.)"
-        },
-        {
-          "text": "Her",
-          "translation": "Её (жен.)"
-        }
+        "His",
+        "Her"
       ],
       "explanation": "\"Their\" — для нескольких владельцев (они). His/Her — для одного конкретного человека."
     },
@@ -16560,40 +16317,16 @@
       "situationRu": "RU: Чья это сумка? Моя.",
       "correctSentence": "Whose bag is this? It's mine.",
       "words": [
-        {
-          "text": "Whose",
-          "translation": "Чей / Чья / Чьё"
-        },
-        {
-          "text": "bag",
-          "translation": "сумка"
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "this",
-          "translation": ""
-        },
-        {
-          "text": "It's",
-          "translation": ""
-        },
-        {
-          "text": "mine",
-          "translation": "моё / моя / мой (самостоят.)"
-        }
+        "Whose",
+        "bag",
+        "is",
+        "this",
+        "It's",
+        "mine"
       ],
       "distractors": [
-        {
-          "text": "my",
-          "translation": "моя (зависимая форма)"
-        },
-        {
-          "text": "That's",
-          "translation": ""
-        }
+        "my",
+        "That's"
       ],
       "explanation": "\"It's mine\" — без существительного → самостоятельная форма. \"It's my\" — неверно, \"my\" требует существительного после себя: \"my bag\"."
     },
@@ -16602,32 +16335,14 @@
       "situationRu": "Ситуация: ты увидел красивую машину и хочешь сказать, что это машина твоего друга Глеба.",
       "correctSentence": "This is Gleb's car.",
       "words": [
-        {
-          "text": "This",
-          "translation": ""
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "Gleb's",
-          "translation": ""
-        },
-        {
-          "text": "car",
-          "translation": "машина"
-        }
+        "This",
+        "is",
+        "Gleb's",
+        "car"
       ],
       "distractors": [
-        {
-          "text": "of Gleb",
-          "translation": ""
-        },
-        {
-          "text": "car's Gleb",
-          "translation": ""
-        }
+        "of Gleb",
+        "car's Gleb"
       ],
       "explanation": "Владелец — человек → 's. Порядок: Gleb's car (сначала владелец). \"of Gleb\" — используется для предметов, не для людей. \"car's Gleb\" — такого в английском нет."
     },
@@ -16636,32 +16351,14 @@
       "situationRu": "RU: Это телефон Ромы.",
       "correctSentence": "This is Roma's phone.",
       "words": [
-        {
-          "text": "This",
-          "translation": ""
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "Roma's",
-          "translation": "Ромы"
-        },
-        {
-          "text": "phone",
-          "translation": "телефон"
-        }
+        "This",
+        "is",
+        "Roma's",
+        "phone"
       ],
       "distractors": [
-        {
-          "text": "of",
-          "translation": ""
-        },
-        {
-          "text": "the",
-          "translation": ""
-        }
+        "of",
+        "the"
       ],
       "explanation": "Roma — человек → 's. Дистракторы \"of\" и \"the\" предлагают конструкцию \"the phone of Roma\" — она не работает для людей, только 's. \"This\" и \"is\" знакомы из предыдущих карточек."
     },
@@ -16670,40 +16367,16 @@
       "situationRu": "Ситуация: ты хочешь сказать, что этот подарок — для неё и для него.",
       "correctSentence": "This present is for her and him.",
       "words": [
-        {
-          "text": "This present",
-          "translation": "этот подарок"
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "for",
-          "translation": "для"
-        },
-        {
-          "text": "her",
-          "translation": "её"
-        },
-        {
-          "text": "and",
-          "translation": "и"
-        },
-        {
-          "text": "him",
-          "translation": "него"
-        }
+        "This present",
+        "is",
+        "for",
+        "her",
+        "and",
+        "him"
       ],
       "distractors": [
-        {
-          "text": "she",
-          "translation": "она"
-        },
-        {
-          "text": "he",
-          "translation": "он"
-        }
+        "she",
+        "he"
       ],
       "explanation": "После предлога \"for\" — объектная форма: \"her\" и \"him\". \"she\" и \"he\" — субъектные формы, ставятся только перед глаголом."
     },
@@ -16712,28 +16385,13 @@
       "situationRu": "Ситуация: видишь в конце коридора незнакомца и хочешь спросить друга — кто это.",
       "correctSentence": "Who is that?",
       "words": [
-        {
-          "text": "Who",
-          "translation": "Кто"
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "that",
-          "translation": ""
-        }
+        "Who",
+        "is",
+        "that"
       ],
       "distractors": [
-        {
-          "text": "this",
-          "translation": ""
-        },
-        {
-          "text": "What",
-          "translation": ""
-        }
+        "this",
+        "What"
       ],
       "explanation": "Незнакомец вдалеке → \"that\". \"Who\" — спрашиваем о человеке (а не \"What\"). \"Who is that?\" = \"Кто это там?\""
     },
@@ -16742,36 +16400,15 @@
       "situationRu": "Ситуация: ты с другом в незнакомом городе, вдалеке видите красивые здания.",
       "correctSentence": "Those buildings are very beautiful.",
       "words": [
-        {
-          "text": "Those",
-          "translation": ""
-        },
-        {
-          "text": "buildings",
-          "translation": "здания"
-        },
-        {
-          "text": "are",
-          "translation": ""
-        },
-        {
-          "text": "very",
-          "translation": "очень"
-        },
-        {
-          "text": "beautiful",
-          "translation": "красивые"
-        }
+        "Those",
+        "buildings",
+        "are",
+        "very",
+        "beautiful"
       ],
       "distractors": [
-        {
-          "text": "These",
-          "translation": ""
-        },
-        {
-          "text": "is",
-          "translation": ""
-        }
+        "These",
+        "is"
       ],
       "explanation": "Вдали → those (не these). Несколько зданий → are (не is)."
     },
@@ -16780,36 +16417,15 @@
       "situationRu": "Ситуация: ты не можешь найти ключи. Что ты спросишь вслух?",
       "correctSentence": "Where are my keys?",
       "words": [
-        {
-          "text": "Where",
-          "translation": ""
-        },
-        {
-          "text": "are",
-          "translation": ""
-        },
-        {
-          "text": "my",
-          "translation": "мои"
-        },
-        {
-          "text": "keys",
-          "translation": "ключи"
-        }
+        "Where",
+        "are",
+        "my",
+        "keys"
       ],
       "distractors": [
-        {
-          "text": "When",
-          "translation": ""
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "What",
-          "translation": ""
-        }
+        "When",
+        "is",
+        "What"
       ],
       "explanation": "Место → where (не when, не what). Ключей несколько → are (не is)."
     },
@@ -16818,32 +16434,14 @@
       "situationRu": "Ситуация: ты в магазине, хочешь узнать цену куртки у продавца.",
       "correctSentence": "How much is this jacket?",
       "words": [
-        {
-          "text": "How much",
-          "translation": ""
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "this",
-          "translation": ""
-        },
-        {
-          "text": "jacket",
-          "translation": "куртка"
-        }
+        "How much",
+        "is",
+        "this",
+        "jacket"
       ],
       "distractors": [
-        {
-          "text": "How many",
-          "translation": ""
-        },
-        {
-          "text": "How long",
-          "translation": ""
-        }
+        "How many",
+        "How long"
       ],
       "explanation": "Цена → how much (не how many — оно для счётных предметов: \"How many jackets?\"). Конструкция: \"How much is [предмет]?\""
     },
@@ -16852,32 +16450,14 @@
       "situationRu": "Ситуация: звонишь другу и спрашиваешь, где он сейчас работает.",
       "correctSentence": "Are you at the office?",
       "words": [
-        {
-          "text": "Are",
-          "translation": ""
-        },
-        {
-          "text": "you",
-          "translation": "ты"
-        },
-        {
-          "text": "at",
-          "translation": "предлог (точка присутствия)"
-        },
-        {
-          "text": "the office",
-          "translation": "офис"
-        }
+        "Are",
+        "you",
+        "at",
+        "the office"
       ],
       "distractors": [
-        {
-          "text": "in",
-          "translation": "предлог (внутри)"
-        },
-        {
-          "text": "on",
-          "translation": "предлог (поверхность)"
-        }
+        "in",
+        "on"
       ],
       "explanation": "Офис как место работы, точка функционального присутствия → at the office. \"In the office\" тоже встречается и означает \"внутри помещения\", но \"at the office\" — стандартный ответ на вопрос \"ты на работе?\". \"On the office\" — не существует."
     },
@@ -16886,36 +16466,15 @@
       "situationRu": "Ситуация: ищешь пульт от телевизора и описываешь где он лежит.",
       "correctSentence": "The remote is under the sofa.",
       "words": [
-        {
-          "text": "The remote",
-          "translation": "пульт"
-        },
-        {
-          "text": "is",
-          "translation": "находится"
-        },
-        {
-          "text": "under",
-          "translation": "под"
-        },
-        {
-          "text": "the sofa",
-          "translation": "диван"
-        }
+        "The remote",
+        "is",
+        "under",
+        "the sofa"
       ],
       "distractors": [
-        {
-          "text": "behind",
-          "translation": "за (позади)"
-        },
-        {
-          "text": "between",
-          "translation": "между"
-        },
-        {
-          "text": "near",
-          "translation": "рядом"
-        }
+        "behind",
+        "between",
+        "near"
       ],
       "explanation": "\"Under\" = под — ровно то, что нужно. \"Behind\" = за, позади. \"Between\" = между. \"Near\" = рядом. Пульт лежит под диваном, снизу."
     },
@@ -16924,32 +16483,14 @@
       "situationRu": "Ситуация: описываешь, где стоит твой велосипед.",
       "correctSentence": "My bike is by the entrance.",
       "words": [
-        {
-          "text": "My bike",
-          "translation": "мой велосипед"
-        },
-        {
-          "text": "is",
-          "translation": "стоит"
-        },
-        {
-          "text": "by",
-          "translation": "у (рядом с)"
-        },
-        {
-          "text": "the entrance",
-          "translation": "вход"
-        }
+        "My bike",
+        "is",
+        "by",
+        "the entrance"
       ],
       "distractors": [
-        {
-          "text": "near",
-          "translation": "рядом с (предлог)"
-        },
-        {
-          "text": "nearby",
-          "translation": "поблизости"
-        }
+        "near",
+        "nearby"
       ],
       "explanation": "\"By the entrance\" — у входа, рядом с ним. \"Near the entrance\" тоже возможно и означает \"поблизости от входа\". \"Nearby\" — без существительного после, но тут после идёт \"the entrance\" → не подходит."
     },
@@ -16958,36 +16499,15 @@
       "situationRu": "Ситуация: говоришь другу когда начинается тренировка.",
       "correctSentence": "The training starts at six in the evening.",
       "words": [
-        {
-          "text": "The training",
-          "translation": "тренировка"
-        },
-        {
-          "text": "starts",
-          "translation": "начинается"
-        },
-        {
-          "text": "at",
-          "translation": "предлог (точное время)"
-        },
-        {
-          "text": "six",
-          "translation": "шесть"
-        },
-        {
-          "text": "in",
-          "translation": "предлог (часть суток)"
-        },
-        {
-          "text": "the evening",
-          "translation": "вечер"
-        }
+        "The training",
+        "starts",
+        "at",
+        "six",
+        "in",
+        "the evening"
       ],
       "distractors": [
-        {
-          "text": "on",
-          "translation": "предлог (дни/даты)"
-        }
+        "on"
       ],
       "explanation": "\"At six\" — точное время на часах. \"In the evening\" — часть суток. \"On\" — для дней недели и конкретных дат, здесь не нужен."
     },
@@ -16996,40 +16516,16 @@
       "situationRu": "Ситуация: описываешь маршрут поезда.",
       "correctSentence": "The train goes from Kazan to Moscow.",
       "words": [
-        {
-          "text": "The train",
-          "translation": "поезд"
-        },
-        {
-          "text": "goes",
-          "translation": "едет"
-        },
-        {
-          "text": "from",
-          "translation": "из"
-        },
-        {
-          "text": "Kazan",
-          "translation": "Казань"
-        },
-        {
-          "text": "to",
-          "translation": "в (направление)"
-        },
-        {
-          "text": "Moscow",
-          "translation": "Москва"
-        }
+        "The train",
+        "goes",
+        "from",
+        "Kazan",
+        "to",
+        "Moscow"
       ],
       "distractors": [
-        {
-          "text": "at",
-          "translation": "предлог места"
-        },
-        {
-          "text": "in",
-          "translation": "предлог внутри"
-        }
+        "at",
+        "in"
       ],
       "explanation": "from [начало] + to [цель] — из Казани в Москву. \"At\" и \"in\" — для мест нахождения, не для описания маршрута."
     },
@@ -17038,36 +16534,15 @@
       "situationRu": "Ситуация: котёнок выпрыгнул из коробки.",
       "correctSentence": "The kitten jumped out of the box.",
       "words": [
-        {
-          "text": "The kitten",
-          "translation": "котёнок"
-        },
-        {
-          "text": "jumped",
-          "translation": "прыгнул"
-        },
-        {
-          "text": "out of",
-          "translation": "из (наружу)"
-        },
-        {
-          "text": "the box",
-          "translation": "коробка"
-        }
+        "The kitten",
+        "jumped",
+        "out of",
+        "the box"
       ],
       "distractors": [
-        {
-          "text": "into",
-          "translation": "в (внутрь)"
-        },
-        {
-          "text": "from",
-          "translation": "от (источник)"
-        },
-        {
-          "text": "out",
-          "translation": "наружу"
-        }
+        "into",
+        "from",
+        "out"
       ],
       "explanation": "\"Out of\" = движение изнутри наружу из замкнутого пространства. \"Into\" — противоположное движение (внутрь). \"From\" — источник без акцента на пересечение пространства. Просто \"out\" — без существительного после него."
     },
@@ -17076,40 +16551,16 @@
       "situationRu": "Ситуация: Рома и Лена шли домой вдоль реки через парк.",
       "correctSentence": "Roma and Lena walked along the river through the park.",
       "words": [
-        {
-          "text": "Roma and Lena",
-          "translation": "Рома и Лена"
-        },
-        {
-          "text": "walked",
-          "translation": "шли"
-        },
-        {
-          "text": "along",
-          "translation": "вдоль"
-        },
-        {
-          "text": "the river",
-          "translation": "река"
-        },
-        {
-          "text": "through",
-          "translation": "через (насквозь)"
-        },
-        {
-          "text": "the park",
-          "translation": "парк"
-        }
+        "Roma and Lena",
+        "walked",
+        "along",
+        "the river",
+        "through",
+        "the park"
       ],
       "distractors": [
-        {
-          "text": "across",
-          "translation": "поперёк"
-        },
-        {
-          "text": "past",
-          "translation": "мимо"
-        }
+        "across",
+        "past"
       ],
       "explanation": "along the river = вдоль реки (параллельно, не пересекая). through the park = насквозь через парк. across = поперёк (пересечь реку), не то. past = мимо одной точки, не вдоль всего маршрута."
     },
@@ -17118,36 +16569,15 @@
       "situationRu": "Ситуация: Саша занял третье место на соревновании.",
       "correctSentence": "Sasha finished in third place.",
       "words": [
-        {
-          "text": "Sasha",
-          "translation": "Саша"
-        },
-        {
-          "text": "finished",
-          "translation": "закончил"
-        },
-        {
-          "text": "in",
-          "translation": ""
-        },
-        {
-          "text": "third",
-          "translation": "третьем"
-        },
-        {
-          "text": "place",
-          "translation": "месте"
-        }
+        "Sasha",
+        "finished",
+        "in",
+        "third",
+        "place"
       ],
       "distractors": [
-        {
-          "text": "three",
-          "translation": "три"
-        },
-        {
-          "text": "the",
-          "translation": ""
-        }
+        "three",
+        "the"
       ],
       "explanation": "места в соревновании — \"finished in third place\" или просто \"finished third\". Артикль здесь не нужен. three — кардинальное, здесь нужно порядковое third."
     },
@@ -17156,40 +16586,16 @@
       "situationRu": "Ситуация: День рождения Иры — третье апреля.",
       "correctSentence": "Ira's birthday is on the 3rd of April.",
       "words": [
-        {
-          "text": "Ira's birthday",
-          "translation": "день рождения Иры"
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "on",
-          "translation": ""
-        },
-        {
-          "text": "the",
-          "translation": ""
-        },
-        {
-          "text": "3rd",
-          "translation": "третьего"
-        },
-        {
-          "text": "of April",
-          "translation": "апреля"
-        }
+        "Ira's birthday",
+        "is",
+        "on",
+        "the",
+        "3rd",
+        "of April"
       ],
       "distractors": [
-        {
-          "text": "in",
-          "translation": ""
-        },
-        {
-          "text": "at",
-          "translation": ""
-        }
+        "in",
+        "at"
       ],
       "explanation": "конкретная дата → on. \"On the 3rd of April\" — стандартная британская форма записи даты."
     },
@@ -17198,32 +16604,14 @@
       "situationRu": "RU: Пожалуйста, не опаздывай!",
       "correctSentence": "Please don't be late!",
       "words": [
-        {
-          "text": "Please",
-          "translation": ""
-        },
-        {
-          "text": "don't",
-          "translation": ""
-        },
-        {
-          "text": "be",
-          "translation": "быть"
-        },
-        {
-          "text": "late",
-          "translation": "с опозданием, поздно"
-        }
+        "Please",
+        "don't",
+        "be",
+        "late"
       ],
       "distractors": [
-        {
-          "text": "you",
-          "translation": ""
-        },
-        {
-          "text": "not",
-          "translation": ""
-        }
+        "you",
+        "not"
       ],
       "explanation": "\"Please don't be late!\" — стандартный порядок. `you` — лишнее: в императиве подлежащего нет. `not` — в отрицательном императиве нужно именно `don't`, а не `not be`."
     },
@@ -17232,28 +16620,13 @@
       "situationRu": "RU: Я люблю музыку.",
       "correctSentence": "I love music.",
       "words": [
-        {
-          "text": "I",
-          "translation": "я"
-        },
-        {
-          "text": "love",
-          "translation": "люблю"
-        },
-        {
-          "text": "music",
-          "translation": "музыку"
-        }
+        "I",
+        "love",
+        "music"
       ],
       "distractors": [
-        {
-          "text": "Music",
-          "translation": ""
-        },
-        {
-          "text": "like",
-          "translation": "нравится"
-        }
+        "Music",
+        "like"
       ],
       "explanation": "Subject (I) → Verb (love) → Object (music). \"Music I love\" — нарушение SVO: Object оказывается перед Subject. \"Music\" с заглавной — ловушка: буква заглавная, но это не делает слово Subject. \"Like\" — другой глагол, не подходит."
     },
@@ -17262,28 +16635,13 @@
       "situationRu": "RU: Вы знаете правду.",
       "correctSentence": "You know the truth.",
       "words": [
-        {
-          "text": "You",
-          "translation": "вы / ты"
-        },
-        {
-          "text": "know",
-          "translation": "знаете / знаешь"
-        },
-        {
-          "text": "the truth",
-          "translation": "правду"
-        }
+        "You",
+        "know",
+        "the truth"
       ],
       "distractors": [
-        {
-          "text": "The truth",
-          "translation": ""
-        },
-        {
-          "text": "a truth",
-          "translation": ""
-        }
+        "The truth",
+        "a truth"
       ],
       "explanation": "Subject (You) → Verb (know) → Object (the truth). \"The truth\" с заглавной буквы — ловушка: заглавная буква могла бы указывать на начало предложения, но Subject уже есть (You). \"A truth\" — неправильный артикль: \"truth\" — абстрактное понятие, берёт \"the\"."
     },
@@ -17292,28 +16650,13 @@
       "situationRu": "RU: Идёт снег.",
       "correctSentence": "It is snowing.",
       "words": [
-        {
-          "text": "It",
-          "translation": "формальный субъект"
-        },
-        {
-          "text": "is",
-          "translation": "вспомогательный глагол"
-        },
-        {
-          "text": "snowing",
-          "translation": "идёт (о снеге)"
-        }
+        "It",
+        "is",
+        "snowing"
       ],
       "distractors": [
-        {
-          "text": "Snow",
-          "translation": "снег"
-        },
-        {
-          "text": "raining",
-          "translation": "идёт (о дожде)"
-        }
+        "Snow",
+        "raining"
       ],
       "explanation": "\"It\" — обязательный формальный субъект. \"Is snowing\" — конструкция для процесса прямо сейчас. \"Snow\" — существительное, не глагол, не подходит. \"Raining\" — про дождь, а не снег."
     },
@@ -17322,32 +16665,14 @@
       "situationRu": "RU: Мы читали книгу в парке.",
       "correctSentence": "We read a book in the park.",
       "words": [
-        {
-          "text": "We",
-          "translation": "мы"
-        },
-        {
-          "text": "read",
-          "translation": "читали"
-        },
-        {
-          "text": "a book",
-          "translation": "книгу"
-        },
-        {
-          "text": "in the park",
-          "translation": "в парке"
-        }
+        "We",
+        "read",
+        "a book",
+        "in the park"
       ],
       "distractors": [
-        {
-          "text": "in park",
-          "translation": ""
-        },
-        {
-          "text": "into the park",
-          "translation": ""
-        }
+        "in park",
+        "into the park"
       ],
       "explanation": "Обстоятельство \"in the park\" — строго в конец, после Object. \"In park\" — ошибка: перед \"park\" нужен артикль \"the\". \"Into the park\" — \"into\" означает движение внутрь, а не нахождение; нужен предлог \"in\"."
     },
@@ -17356,36 +16681,15 @@
       "situationRu": "RU: У Лены маленькая кошка.",
       "correctSentence": "Lena has a small cat.",
       "words": [
-        {
-          "text": "Lena",
-          "translation": ""
-        },
-        {
-          "text": "has",
-          "translation": ""
-        },
-        {
-          "text": "a",
-          "translation": ""
-        },
-        {
-          "text": "small",
-          "translation": "маленькая"
-        },
-        {
-          "text": "cat",
-          "translation": "кошка"
-        }
+        "Lena",
+        "has",
+        "a",
+        "small",
+        "cat"
       ],
       "distractors": [
-        {
-          "text": "big",
-          "translation": "большая"
-        },
-        {
-          "text": "the",
-          "translation": ""
-        }
+        "big",
+        "the"
       ],
       "explanation": "Порядок: Lena has + \"a\" + small + cat. \"big\" — другое прилагательное, не подходит по смыслу. \"the\" — дистрактор: первое упоминание кошки требует \"a\", не \"the\"."
     },
@@ -17394,36 +16698,15 @@
       "situationRu": "RU: Сегодня горячий день.",
       "correctSentence": "Today is a hot day.",
       "words": [
-        {
-          "text": "Today",
-          "translation": ""
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "a",
-          "translation": ""
-        },
-        {
-          "text": "hot",
-          "translation": "горячий"
-        },
-        {
-          "text": "day",
-          "translation": "день"
-        }
+        "Today",
+        "is",
+        "a",
+        "hot",
+        "day"
       ],
       "distractors": [
-        {
-          "text": "cold",
-          "translation": "холодный"
-        },
-        {
-          "text": "an",
-          "translation": ""
-        }
+        "cold",
+        "an"
       ],
       "explanation": "Порядок: Today is + \"a\" + hot + day. \"cold\" — антоним hot (дистрактор по смыслу). \"an\" — дистрактор: hot начинается на согласный звук [h], нужен \"a\", не \"an\"."
     },
@@ -17432,36 +16715,15 @@
       "situationRu": "RU: Сегодня очень холодно на улице.",
       "correctSentence": "It is very cold outside.",
       "words": [
-        {
-          "text": "It",
-          "translation": ""
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "very",
-          "translation": "очень"
-        },
-        {
-          "text": "cold",
-          "translation": "холодный"
-        },
-        {
-          "text": "outside",
-          "translation": ""
-        }
+        "It",
+        "is",
+        "very",
+        "cold",
+        "outside"
       ],
       "distractors": [
-        {
-          "text": "cold very",
-          "translation": ""
-        },
-        {
-          "text": "really very",
-          "translation": ""
-        }
+        "cold very",
+        "really very"
       ],
       "explanation": "Порядок: It is + very + cold + outside. Усилитель very стоит ПЕРЕД прилагательным cold. \"cold very\" — усилитель после прилагательного, ошибка. \"really very\" — два усилителя подряд не используют."
     },
@@ -17470,28 +16732,13 @@
       "situationRu": "RU: Катя не умеет петь.",
       "correctSentence": "Katya can't sing.",
       "words": [
-        {
-          "text": "Katya",
-          "translation": ""
-        },
-        {
-          "text": "can't",
-          "translation": "не умеет / не может"
-        },
-        {
-          "text": "sing",
-          "translation": "петь"
-        }
+        "Katya",
+        "can't",
+        "sing"
       ],
       "distractors": [
-        {
-          "text": "doesn't",
-          "translation": ""
-        },
-        {
-          "text": "to",
-          "translation": ""
-        }
+        "doesn't",
+        "to"
       ],
       "explanation": "Katya can't sing — Subject + can't + базовая форма. \"doesn't\" — дистрактор: для модальных do/does не нужен. \"to\" — дистрактор: после can't глагол без to."
     },
@@ -17500,32 +16747,14 @@
       "situationRu": "RU: Она тоже изучает английский.",
       "correctSentence": "She also studies English.",
       "words": [
-        {
-          "text": "She",
-          "translation": ""
-        },
-        {
-          "text": "also",
-          "translation": "также / тоже"
-        },
-        {
-          "text": "studies",
-          "translation": ""
-        },
-        {
-          "text": "English",
-          "translation": ""
-        }
+        "She",
+        "also",
+        "studies",
+        "English"
       ],
       "distractors": [
-        {
-          "text": "too",
-          "translation": "тоже"
-        },
-        {
-          "text": "as well",
-          "translation": "тоже / также"
-        }
+        "too",
+        "as well"
       ],
       "explanation": "\"She also studies English\" — also перед глаголом. \"too\" и \"as well\" — оба идут в конец: \"She studies English, too.\" / \"She studies English as well.\" — тоже правильно, но это другое предложение с другим порядком."
     },
@@ -17534,36 +16763,15 @@
       "situationRu": "RU: Вера хочет купить новые кроссовки.",
       "correctSentence": "Vera wants to buy new sneakers.",
       "words": [
-        {
-          "text": "Vera",
-          "translation": ""
-        },
-        {
-          "text": "wants",
-          "translation": "хочет"
-        },
-        {
-          "text": "to",
-          "translation": ""
-        },
-        {
-          "text": "buy",
-          "translation": "купить"
-        },
-        {
-          "text": "new sneakers",
-          "translation": "новые кроссовки"
-        }
+        "Vera",
+        "wants",
+        "to",
+        "buy",
+        "new sneakers"
       ],
       "distractors": [
-        {
-          "text": "to buying",
-          "translation": ""
-        },
-        {
-          "text": "wanting",
-          "translation": ""
-        }
+        "to buying",
+        "wanting"
       ],
       "explanation": "\"Vera wants to buy new sneakers.\" Дистрактор \"to buying\" — ловушка: после to базовая форма, не -ing. \"wanting\" — здесь нужно wants (утвердительная форма), не причастие."
     },
@@ -17572,36 +16780,15 @@
       "situationRu": "RU: Катя говорит по-французски, а также по-итальянски.",
       "correctSentence": "Katya speaks French as well as Italian.",
       "words": [
-        {
-          "text": "Katya",
-          "translation": ""
-        },
-        {
-          "text": "speaks",
-          "translation": "говорит"
-        },
-        {
-          "text": "French",
-          "translation": "французский (язык)"
-        },
-        {
-          "text": "as well as",
-          "translation": "а также"
-        },
-        {
-          "text": "Italian",
-          "translation": "итальянский (язык)"
-        }
+        "Katya",
+        "speaks",
+        "French",
+        "as well as",
+        "Italian"
       ],
       "distractors": [
-        {
-          "text": "such as",
-          "translation": ""
-        },
-        {
-          "text": "as well",
-          "translation": ""
-        }
+        "such as",
+        "as well"
       ],
       "explanation": "\"Katya speaks French as well as Italian.\" Дистрактор \"such as\" — для примеров после noun, не для соединения двух равнозначных элементов. \"as well\" без \"as\" — другая конструкция: тоже (в конце предложения)."
     }

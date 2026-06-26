@@ -16,6 +16,12 @@
       "topicId": 8,
       "title": "What Is Present Simple · Что такое Present Simple",
       "order": 1
+    },
+    {
+      "id": 50,
+      "topicId": 8,
+      "title": "Affirmative & the -s · Образование: утверждение и -s",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -189,10 +195,450 @@
         "А когда тогда нужно «I am working»?",
         "Почему именно he/she/it получают окончание -s?"
       ]
+    },
+    {
+      "id": 150,
+      "microtopicId": 50,
+      "title": "I/you/we/they + глагол как из словаря",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Начинаем собирать Present Simple по кирпичику — и первый кирпич самый лёгкий. Для четырёх лиц из шести — `I`, `you`, `we`, `they` — глагол берётся **прямо из словаря**, в базовой форме (та самая V1, «первая полка», с которой мы знакомились в теме форм глагола). Ничего к нему не добавляем и ничего не меняем."
+        },
+        {
+          "type": "heading",
+          "text": "Подлежащее + глагол, и всё"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ставим подлежащее, за ним — голый глагол. Порядок ровно тот же SVO, что в «Основах»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I work** in IT.",
+            "**You know** the answer.",
+            "**We live** near the park.",
+            "**They eat** together every day."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему это проще, чем кажется"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски глагол под каждое лицо меняет хвост: «я работа-ю», «ты работа-ешь», «мы работа-ем», «они работа-ют» — четыре разных окончания. Английскому это не нужно: для `I/you/we/they` форма **одна и та же** — **work**. Выучил одно слово — закрыл сразу четыре лица."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Именно поэтому английский глагол часто называют «голым» — он стоит как в словаре, без личных хвостиков."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский мозг иногда пытается прилепить к глаголу `to be` — **I am work** ✗. Связка тут не нужна: **work** само по себе уже действие. Правильно **I work** ✓. Форма **I am working** существует, но это другое время — про «прямо сейчас», разберём его в Present Continuous."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше — единственное лицо, которое всё-таки требует изменения."
+        }
+      ],
+      "theorySummary": "Для `I`, `you`, `we`, `they` глагол в Present Simple стоит в базовой форме (V1) — как в словаре, без изменений: **I work**, **we live**. По-русски у глагола под каждое лицо своё окончание, в английском для этих четырёх лиц форма одна. Лишнюю связку `am/is/are` к смысловому глаголу не добавляем (**I work**, не **I am work**).",
+      "examples": [
+        {
+          "ru": "Я работаю в IT.",
+          "en": "I work in IT."
+        },
+        {
+          "ru": "Ты знаешь ответ.",
+          "en": "You know the answer."
+        },
+        {
+          "ru": "Мы живём рядом с парком.",
+          "en": "We live near the park."
+        },
+        {
+          "ru": "Они едят вместе каждый день.",
+          "en": "They eat together every day."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему для I, you, we, they глагол совсем не меняется?",
+        "В чём разница между I work и I am working?",
+        "Можно ли сказать просто I in IT, без глагола?"
+      ]
+    },
+    {
+      "id": 151,
+      "microtopicId": 50,
+      "title": "he/she/it + глагол +s",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "А вот и единственное изменение во всём утверждении. Как только подлежащее — `he`, `she` или `it`, глагол получает окончание `-s`: **he works**, **she lives**, **it rains**. Это последний кирпич — и самый коварный для русских."
+        },
+        {
+          "type": "heading",
+          "text": "Кто такие «he / she / it»"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Сразу важное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`-S` берёт не только три местоимения, а **любое единственное третье лицо** — одно лицо или предмет, о котором мы говорим со стороны:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He works** in a bank.",
+            "**My sister knows** Igor.",
+            "**The train leaves** at six.",
+            "**Coffee helps** in the morning."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Dima**, **my brother**, **the cat**, **coffee** — всё это «он/она/оно», поэтому глагол получает `-s` так же, как с `he`. Самая частая засада — поставить `-s` после `he`, но забыть после имени: **Dima work** ✗ → **Dima works** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда это окончание и почему его роняют"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски у глагола личное окончание есть **всегда**: «работа-ю», «работа-ешь», «работа-ет» — целых шесть хвостиков. Они так привычны, что кажется: в английском окончаний нет вовсе. Английский и правда почти все их выбросил — **I work**, **you work**, **we work** стоят голыми. Но одно уцелело: `-s` у `he/she/it`. Это **последний осколок** старой системы личных окончаний — потому он один и «торчит», и потому рука по привычке его роняет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He work here** ✗ → **He works here** ✓. Корень ошибки — ощущение «в английском же нет окончаний». Окончание одно, но оно есть, и без него предложение неправильное."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В следующей карточке разберём, как это `-s` правильно **писать** (не всегда это чистая буква `s`), а потом — как его **читать**."
+        }
+      ],
+      "theorySummary": "Для 3-го лица единственного числа (`he`, `she`, `it` и любое одно лицо/предмет — **Dima**, **my sister**, **the cat**) глагол получает окончание `-s`: **he works**, **she lives**. Это единственное изменение в утверждении и последнее уцелевшее личное окончание английского глагола — потому русские его и забывают (**He work** ✗ → **He works** ✓).",
+      "examples": [
+        {
+          "ru": "Она работает в банке.",
+          "en": "She works in a bank."
+        },
+        {
+          "ru": "Он встаёт рано.",
+          "en": "He gets up early."
+        },
+        {
+          "ru": "Моя сестра знает Игоря.",
+          "en": "My sister knows Igor."
+        },
+        {
+          "ru": "Поезд отправляется в шесть.",
+          "en": "The train leaves at six."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему именно he, she, it получают -s, а другие лица нет?",
+        "Нужно ли добавлять -s, если подлежащее — имя, например Dima?",
+        "Если забыть -s — это сильная ошибка или мелочь?"
+      ]
+    },
+    {
+      "id": 152,
+      "microtopicId": 50,
+      "title": "Правописание: -s, -es, -ies",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Окончание 3-го лица — не всегда чистая буква `s`. Как и у множественного числа существительных в «Основах», написание чуть подстраивается под конец слова. Хорошая новость: **правило ровно то же самое**, что мы разбирали для **cat → cats**, **box → boxes**. Переносим его на глаголы."
+        },
+        {
+          "type": "heading",
+          "text": "Четыре случая"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Обычный глагол — просто `+s`:** **work → works**, **live → lives**, **read → reads**.",
+            "**Свистит или шипит на конце (-s, -ss, -sh, -ch, -x) либо кончается на -o — `+es`:** **watch → watches**, **miss → misses**, **go → goes**, **do → does**. Лишний `e` нужен, чтобы окончание звучало отдельным слогом.",
+            "**Согласная + y → y меняется на `ies`:** **study → studies**, **try → tries**, **hurry → hurries**.",
+            "**Гласная + y → y не трогаем, просто `+s`:** **play → plays**, **say → says**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Не путай study и play.** Оба кончаются на **y**, но перед **y** у **study** — согласная (**d**), а у **play** — гласная (**a**). Поэтому **studies**, но **plays** (не **plaies**). Всегда смотри на букву ПЕРЕД **y**."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Глагол **have** ведёт себя особо — **he has** (не **haves**). Это единственный нестандарт, просто выучи его отдельно."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А звучит это окончание тремя разными способами — разберём в следующей карточке."
+        }
+      ],
+      "theorySummary": "К глаголу для he/she/it добавляем: обычно `-s` (**works**); после свистящих/шипящих и **-o** — `-es` (**watches**, **goes**); согласная + **y** → `-ies` (**study → studies**), но гласная + **y** → просто `-s` (**play → plays**). Особый случай — **have → has**. Это то же правило, что для множественного числа существительных.",
+      "examples": [
+        {
+          "ru": "Дима учит английский.",
+          "en": "Dima studies English."
+        },
+        {
+          "ru": "Она смотрит телевизор по вечерам.",
+          "en": "She watches TV in the evening."
+        },
+        {
+          "ru": "Он ходит на работу пешком.",
+          "en": "He goes to work on foot."
+        },
+        {
+          "ru": "Лена играет на гитаре.",
+          "en": "Lena plays the guitar."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему study → studies, но play → plays?",
+        "Почему go и do получают -es, а не просто -s?",
+        "Есть ли ещё особые глаголы кроме have → has?"
+      ]
+    },
+    {
+      "id": 153,
+      "microtopicId": 50,
+      "title": "Чтение окончания: [s], [z], [ɪz]",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Написали `-s` — теперь научимся его **читать**. И снова ничего нового: это **то же правило чтения**, что у множественного числа из «Основ» (**cats** `[s]`, **dogs** `[z]`, **boxes** `[ɪz]`). Тело само выбирает, как удобнее произнести окончание — в зависимости от последнего звука глагола."
+        },
+        {
+          "type": "heading",
+          "text": "Три варианта"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**После глухого звука [p t k f θ] → `[s]`:** **works [wɜːks]**, **eats [iːts]**, **drinks [drɪŋks]**. Глухой звук тянет за собой глухой `[s]`.",
+            "**После звонкого звука и гласных → `[z]`:** **lives [lɪvz]**, **plays [pleɪz]**, **goes [gəʊz]**, **reads [riːdz]**. Звонкому удобнее звонкий `[z]`.",
+            "**После свистящих и шипящих [s z ʃ tʃ dʒ] → лишний слог `[ɪz]`:** **watches [ˈwɒtʃɪz]**, **misses [ˈmɪsɪz]**. Без слога-разделителя два свиста слиплись бы."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Секрет",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Специально запоминать ничего не нужно — рот сам подберёт удобный звук, если произнести слово вслух. Правило лишь описывает то, что и так получается естественно."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "На письме буква всегда одна и та же (`-s`/`-es`), меняется только **звук**. Поэтому эта карточка — про произношение, а написание мы разобрали в предыдущей."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Окончание `-s` читается тремя способами: после глухих **[p t k f θ]** — `[s]` (**works**); после звонких и гласных — `[z]` (**plays**, **lives**); после свистящих/шипящих — лишний слог `[ɪz]` (**watches**). Это то же правило чтения, что у множественного числа существительных. На письме окончание одно — меняется только звук.",
+      "examples": [
+        {
+          "ru": "Он читает книги каждый вечер.",
+          "en": "He reads books every evening."
+        },
+        {
+          "ru": "Катя пьёт кофе по утрам.",
+          "en": "Katya drinks coffee in the morning."
+        },
+        {
+          "ru": "Она смотрит фильм.",
+          "en": "She watches a film."
+        },
+        {
+          "ru": "Игорь работает дома.",
+          "en": "Igor works at home."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему works читается с [s], а plays с [z]?",
+        "Откуда берётся лишний слог в watches?",
+        "Это правило только для глаголов или для множественного числа тоже?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 150,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 55,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 150,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 84,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 150,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 67,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 150,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 55,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 151,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 19,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 151,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 34,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 151,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 76,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 151,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 68,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 151,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 56,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 152,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 31,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 152,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 12,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 152,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 77,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 152,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 29,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 153,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 32,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 153,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 30,
+      "orderInCard": 1
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "present_simple_card150_ex1",
+      "cardId": 150,
+      "title": "Расскажи о себе",
+      "userInstruction": "Напишите 2–3 предложения о себе в настоящем времени: где работаете, где живёте, что делаете каждый день.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card151_ex1",
+      "cardId": 151,
+      "title": "Поставь глагол в нужную форму",
+      "userInstruction": "Вставьте глагол в правильной форме. Помните: he, she, it и любое единственное третье лицо получают -s.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_simple_card151_ex2",
+      "cardId": 151,
+      "title": "Опиши друга",
+      "userInstruction": "Напишите 2–3 предложения о друге или коллеге: где он работает, где живёт, что делает каждый день.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card152_ex1",
+      "cardId": 152,
+      "title": "Запиши форму с -s правильно",
+      "userInstruction": "Запишите глагол в форме для he/she/it — следите за правописанием: -s, -es или -ies.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "tenses",
@@ -209,17 +655,468 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
+  "course_words": [
+    {
+      "id": 320,
+      "word": "to live",
+      "translation": "жить",
+      "transcription": "[lɪv]",
+      "microtopicId": 50,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 321,
+      "word": "to play",
+      "translation": "играть",
+      "transcription": "[pleɪ]",
+      "microtopicId": 50,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 322,
+      "word": "to watch",
+      "translation": "смотреть",
+      "transcription": "[wɒtʃ]",
+      "microtopicId": 50,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 323,
+      "word": "to study",
+      "translation": "учить, изучать",
+      "transcription": "[ˈstʌdi]",
+      "microtopicId": 50,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 324,
+      "word": "to drink",
+      "translation": "пить",
+      "transcription": "[drɪŋk]",
+      "microtopicId": 50,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 325,
+      "word": "to read",
+      "translation": "читать",
+      "transcription": "[riːd]",
+      "microtopicId": 50,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 326,
+      "word": "coffee",
+      "translation": "кофе",
+      "transcription": "[ˈkɒfi]",
+      "microtopicId": 50,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 327,
+      "word": "morning",
+      "translation": "утро",
+      "transcription": "[ˈmɔːnɪŋ]",
+      "microtopicId": 50,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 328,
+      "word": "early",
+      "translation": "рано",
+      "transcription": "[ˈɜːli]",
+      "microtopicId": 50,
+      "categoryId": "tenses"
+    }
+  ],
+  "table_fill_exercises": [
+    {
+      "id": 12,
+      "taskDescription": "запиши форму глагола для he/she/it.",
+      "rows": [
+        {
+          "hint": "go",
+          "answer": "goes"
+        },
+        {
+          "hint": "fix",
+          "answer": "fixes"
+        },
+        {
+          "hint": "study",
+          "answer": "studies"
+        },
+        {
+          "hint": "hurry",
+          "answer": "hurries"
+        },
+        {
+          "hint": "teach",
+          "answer": "teaches"
+        },
+        {
+          "hint": "have",
+          "answer": "has"
+        }
+      ],
+      "explanation": "`+es` после `-o` и свистящих/шипящих (`goes`, `fixes`, `teaches`); `-ies` после согласной + y (`studies`, `hurries`); особый случай — `have → has` (не `haves`)."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 67,
+      "statements": [
+        {
+          "en": "I work in IT.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "You knows the answer.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We live near the park.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They eats together.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I work as a teacher.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — `you` не берёт `-s`: нужно `you know`. №4 — `they` не берёт `-s`: нужно `they eat`. Окончание `-s` бывает только у he/she/it."
+    },
+    {
+      "id": 68,
+      "statements": [
+        {
+          "en": "She plays football on Sundays.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He work in a bank.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My sister knows Igor.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Dima live in Kazan.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The train leaves at six.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — `he` требует `-s`: нужно `he works`. №4 — `Dima` это «он», тоже `-s`: нужно `Dima lives`. После любого единственного третьего лица глагол получает окончание."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 55,
+      "situationRu": "RU: Мы пьём кофе каждое утро.",
+      "correctSentence": "We drink coffee every morning.",
+      "words": [
+        "We",
+        "drink",
+        "coffee",
+        "every",
+        "morning"
+      ],
+      "distractors": [
+        "drinks",
+        "drinking",
+        "evening"
+      ],
+      "explanation": "Подлежащее `we` → глагол в базовой форме `drink`, без `-s` (окончание `-s` только у he/she/it). `drinks` — форма 3-го лица, `drinking` — форма для другого времени, `evening` — ловушка вместо `morning`."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 84,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я работаю программистом.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I am work as a programmer.",
+          "isCorrect": false
+        },
+        {
+          "text": "I work as a programmer.",
+          "isCorrect": true
+        },
+        {
+          "text": "I working as a programmer.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После `I` глагол стоит в базовой форме без связки: `I work`. Вариант `I am work` лепит лишний `am` к смысловому глаголу, `I working` — пропущенное время без вспомогательного глагола."
+    },
+    {
+      "id": 76,
+      "choiceType": "CHOICE",
+      "prompt": "My brother ___ in a bank.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "work",
+          "isCorrect": false
+        },
+        {
+          "text": "works",
+          "isCorrect": true
+        },
+        {
+          "text": "working",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`my brother` — это «он», 3-е лицо ед. ч., поэтому глагол получает `-s`: `works`. `work` — форма без окончания (для he/she/it неверна), `working` — форма другого времени."
+    },
+    {
+      "id": 77,
+      "choiceType": "CHOICE",
+      "prompt": "She ___ TV after work.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "watchs",
+          "isCorrect": false
+        },
+        {
+          "text": "watches",
+          "isCorrect": true
+        },
+        {
+          "text": "watch",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`watch` кончается на `-ch` (шипящая), поэтому форма 3-го лица — `+es`: `watches`. `watchs` — без нужного `e`, `watch` — без окончания вообще."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 34,
+      "items": [
+        {
+          "sentence": "She ___ coffee every morning.",
+          "contextRu": "пьёт",
+          "answer": "drinks",
+          "alternatives": []
+        },
+        {
+          "sentence": "My brother ___ in London.",
+          "contextRu": "живёт",
+          "answer": "lives",
+          "alternatives": []
+        },
+        {
+          "sentence": "He ___ TV in the evening.",
+          "contextRu": "смотрит",
+          "answer": "watches",
+          "alternatives": []
+        },
+        {
+          "sentence": "Dima ___ English.",
+          "contextRu": "учит",
+          "answer": "studies",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Подлежащее he/she/it (и имя в ед. ч.) → глагол с `-s`. Правописание подстраивается: `watch → watches` (шипящая), `study → studies` (согласная + y). Подробно — в следующей карточке."
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 55,
+      "wrongSentence": "I working in IT.",
+      "options": [
+        {
+          "text": "I works in IT.",
+          "isCorrect": false
+        },
+        {
+          "text": "I work in IT.",
+          "isCorrect": true
+        },
+        {
+          "text": "I am work in IT.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После `I` нужен голый глагол `work`. `working` — форма без вспомогательного глагола, `works` — окончание 3-го лица (для `I` не нужно), `am work` — лишняя связка."
+    },
+    {
+      "id": 56,
+      "wrongSentence": "My brother live in Kazan.",
+      "options": [
+        {
+          "text": "My brother are live in Kazan.",
+          "isCorrect": false
+        },
+        {
+          "text": "My brother lives in Kazan.",
+          "isCorrect": true
+        },
+        {
+          "text": "My brother living in Kazan.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`my brother` — 3-е лицо ед. ч., глагол получает `-s`: `lives`. Вариант с `are` лепит лишнюю связку, `living` — форма без вспомогательного глагола."
+    }
+  ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
-  "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "transformation_exercises": [
+    {
+      "id": 19,
+      "taskDescription": "поставь подлежащее в 3-е лицо ед. ч. и добавь к глаголу `-s`.",
+      "items": [
+        {
+          "original": "I work in a bank.",
+          "transformed": "She works in a bank."
+        },
+        {
+          "original": "You live in Moscow.",
+          "transformed": "He lives in Moscow."
+        },
+        {
+          "original": "We read every evening.",
+          "transformed": "My sister reads every evening."
+        }
+      ],
+      "explanation": "При смене подлежащего на he/she/it (или имя в ед. ч.) глагол получает `-s`: `work → works`, `live → lives`, `read → reads`. Чаще всего забывают именно это окончание."
+    }
+  ],
+  "categorization_exercises": [
+    {
+      "id": 31,
+      "taskDescription": "реши, какое окончание получит глагол в 3-м лице, и положи его в нужный столбик.",
+      "categories": [
+        {
+          "title": "+s",
+          "items": [
+            "cook",
+            "help",
+            "read"
+          ]
+        },
+        {
+          "title": "+es",
+          "items": [
+            "watch",
+            "fix",
+            "teach"
+          ]
+        },
+        {
+          "title": "+ies",
+          "items": [
+            "study",
+            "try",
+            "hurry"
+          ]
+        }
+      ],
+      "explanation": "`+s` — обычные глаголы (`cook → cooks`). `+es` — после свистящих/шипящих и `-o` (`watch → watches`, `fix → fixes`, `teach → teaches`). `+ies` — согласная + y (`study → studies`, `try → tries`, `hurry → hurries`)."
+    },
+    {
+      "id": 32,
+      "taskDescription": "распредели глаголы по звучанию окончания `-s`.",
+      "categories": [
+        {
+          "title": "[s]",
+          "items": [
+            "works",
+            "sleeps",
+            "helps"
+          ]
+        },
+        {
+          "title": "[z]",
+          "items": [
+            "plays",
+            "runs",
+            "sings"
+          ]
+        },
+        {
+          "title": "[ɪz]",
+          "items": [
+            "watches",
+            "teaches",
+            "fixes"
+          ]
+        }
+      ],
+      "explanation": "`[s]` — после глухого звука (`works`, `sleeps`, `helps`). `[z]` — после звонкого и гласных (`plays`, `runs`, `sings`). `[ɪz]` — лишний слог после свистящих/шипящих (`watches`, `teaches`, `fixes`)."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 29,
+      "groupDescription": "Три глагола меняют `-y` на `-ies`, один — нет",
+      "items": [
+        {
+          "text": "studies",
+          "isOdd": false
+        },
+        {
+          "text": "tries",
+          "isOdd": false
+        },
+        {
+          "text": "hurries",
+          "isOdd": false
+        },
+        {
+          "text": "plays",
+          "isOdd": true
+        }
+      ],
+      "explanation": "`study`, `try`, `hurry` имеют согласную перед `y` → `y` меняется на `ies`. У `play` перед `y` гласная (`a`), поэтому `y` не трогаем — просто `plays`."
+    },
+    {
+      "id": 30,
+      "groupDescription": "Три слова получают лишний слог `[ɪz]`, одно — нет",
+      "items": [
+        {
+          "text": "watches",
+          "isOdd": false
+        },
+        {
+          "text": "misses",
+          "isOdd": false
+        },
+        {
+          "text": "teaches",
+          "isOdd": false
+        },
+        {
+          "text": "works",
+          "isOdd": true
+        }
+      ],
+      "explanation": "`watch`, `miss`, `teach` кончаются на свистящий/шипящий → окончание звучит отдельным слогом `[ɪz]`. `work` кончается на глухой `[k]`, поэтому окончание — короткое `[s]`, без лишнего слога."
+    }
+  ]
 }

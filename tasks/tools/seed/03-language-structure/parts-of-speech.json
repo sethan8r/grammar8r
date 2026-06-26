@@ -2878,28 +2878,13 @@
       "situationRu": "RU: Мечта вдохновляет команду.",
       "correctSentence": "A dream inspires the team.",
       "words": [
-        {
-          "text": "A dream",
-          "translation": "Мечта"
-        },
-        {
-          "text": "inspires",
-          "translation": "вдохновляет"
-        },
-        {
-          "text": "the team",
-          "translation": "команду"
-        }
+        "A dream",
+        "inspires",
+        "the team"
       ],
       "distractors": [
-        {
-          "text": "team the",
-          "translation": ""
-        },
-        {
-          "text": "a inspiring",
-          "translation": ""
-        }
+        "team the",
+        "a inspiring"
       ],
       "explanation": "Subject (A dream) → Verb (inspires) → Object (the team). «team the» — артикль всегда идёт перед существительным: «the team», а не «team the». «a inspiring» — неверная форма глагола для единственного числа и к тому же форма причастия — здесь нужен простой глагол «inspires»."
     },
@@ -2908,32 +2893,14 @@
       "situationRu": "RU: Маша пишет письмо каждый вечер.",
       "correctSentence": "Masha writes a letter every evening.",
       "words": [
-        {
-          "text": "Masha",
-          "translation": ""
-        },
-        {
-          "text": "writes",
-          "translation": "пишет"
-        },
-        {
-          "text": "a letter",
-          "translation": "письмо"
-        },
-        {
-          "text": "every evening",
-          "translation": "каждый вечер"
-        }
+        "Masha",
+        "writes",
+        "a letter",
+        "every evening"
       ],
       "distractors": [
-        {
-          "text": "letter a",
-          "translation": ""
-        },
-        {
-          "text": "writing every",
-          "translation": ""
-        }
+        "letter a",
+        "writing every"
       ],
       "explanation": "Subject (Masha) → Verb (writes) → Object (a letter) → обстоятельство (every evening). «letter a» — артикль идёт перед существительным. «writing every» — неверная форма глагола: для утвердительного предложения в простом настоящем нужен «writes»."
     },
@@ -2942,28 +2909,13 @@
       "situationRu": "RU: Дима купил длинный шарф.",
       "correctSentence": "Dima bought a long scarf.",
       "words": [
-        {
-          "text": "Dima",
-          "translation": ""
-        },
-        {
-          "text": "bought",
-          "translation": ""
-        },
-        {
-          "text": "a long scarf",
-          "translation": "длинный шарф"
-        }
+        "Dima",
+        "bought",
+        "a long scarf"
       ],
       "distractors": [
-        {
-          "text": "scarf long",
-          "translation": ""
-        },
-        {
-          "text": "a longest",
-          "translation": ""
-        }
+        "scarf long",
+        "a longest"
       ],
       "explanation": "Прилагательное «long» стоит перед существительным «scarf»: «a long scarf», не «a scarf long». «scarf long» — неверный порядок. «a longest» — это превосходная степень (самый длинный), а не обычная форма прилагательного."
     },
@@ -2972,32 +2924,14 @@
       "situationRu": "RU: Игорь старше меня на три года.",
       "correctSentence": "Igor is three years older than me.",
       "words": [
-        {
-          "text": "Igor",
-          "translation": ""
-        },
-        {
-          "text": "is",
-          "translation": ""
-        },
-        {
-          "text": "three years older",
-          "translation": "на три года старше"
-        },
-        {
-          "text": "than me",
-          "translation": "чем я"
-        }
+        "Igor",
+        "is",
+        "three years older",
+        "than me"
       ],
       "distractors": [
-        {
-          "text": "more old",
-          "translation": ""
-        },
-        {
-          "text": "as me",
-          "translation": ""
-        }
+        "more old",
+        "as me"
       ],
       "explanation": "\"old\" — короткое прилагательное, сравнительная форма: older (не \"more old\"). Союз сравнения — than (не as). \"three years older than\" — стандартная конструкция для разницы в возрасте/размере/расстоянии."
     }

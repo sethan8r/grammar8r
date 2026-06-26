@@ -134,13 +134,13 @@ RU: Мечта вдохновляет команду.
 
 Правильное предложение: **A dream inspires the team.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| A dream | Мечта | — |
-| inspires | вдохновляет | — |
-| the team | команду | — |
-| team the | — | ✗ |
-| a inspiring | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| A dream | — |
+| inspires | — |
+| the team | — |
+| team the | ✗ |
+| a inspiring | ✗ |
 
 *Explanation:* Subject (A dream) → Verb (inspires) → Object (the team). «team the» — артикль всегда идёт перед существительным: «the team», а не «team the». «a inspiring» — неверная форма глагола для единственного числа и к тому же форма причастия — здесь нужен простой глагол «inspires».
 
@@ -334,14 +334,14 @@ RU: Маша пишет письмо каждый вечер.
 
 Правильное предложение: **Masha writes a letter every evening.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| Masha | — | — |
-| writes | пишет | — |
-| a letter | письмо | — |
-| every evening | каждый вечер | — |
-| letter a | — | ✗ |
-| writing every | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| Masha | — |
+| writes | — |
+| a letter | — |
+| every evening | — |
+| letter a | ✗ |
+| writing every | ✗ |
 
 *Explanation:* Subject (Masha) → Verb (writes) → Object (a letter) → обстоятельство (every evening). «letter a» — артикль идёт перед существительным. «writing every» — неверная форма глагола: для утвердительного предложения в простом настоящем нужен «writes».
 
@@ -662,13 +662,13 @@ RU: Дима купил длинный шарф.
 
 Правильное предложение: **Dima bought a long scarf.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| Dima | — | — |
-| bought | — | — |
-| a long scarf | длинный шарф | — |
-| scarf long | — | ✗ |
-| a longest | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| Dima | — |
+| bought | — |
+| a long scarf | — |
+| scarf long | ✗ |
+| a longest | ✗ |
 
 *Explanation:* Прилагательное «long» стоит перед существительным «scarf»: «a long scarf», не «a scarf long». «scarf long» — неверный порядок. «a longest» — это превосходная степень (самый длинный), а не обычная форма прилагательного.
 
@@ -1859,14 +1859,14 @@ RU: Игорь старше меня на три года.
 
 Правильное предложение: **Igor is three years older than me.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| Igor | — | — |
-| is | — | — |
-| three years older | на три года старше | — |
-| than me | чем я | — |
-| more old | — | ✗ |
-| as me | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| Igor | — |
+| is | — |
+| three years older | — |
+| than me | — |
+| more old | ✗ |
+| as me | ✗ |
 
 *Explanation:* "old" — короткое прилагательное, сравнительная форма: older (не "more old"). Союз сравнения — than (не as). "three years older than" — стандартная конструкция для разницы в возрасте/размере/расстоянии.
 

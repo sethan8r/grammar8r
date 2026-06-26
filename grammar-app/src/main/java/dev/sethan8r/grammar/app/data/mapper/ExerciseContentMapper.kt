@@ -21,7 +21,6 @@ import dev.sethan8r.grammar.app.domain.model.exercise.Statement
 import dev.sethan8r.grammar.app.domain.model.exercise.TableFillRow
 import dev.sethan8r.grammar.app.domain.model.exercise.TextItem
 import dev.sethan8r.grammar.app.domain.model.exercise.TransformItem
-import dev.sethan8r.grammar.app.domain.model.exercise.WordToken
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import javax.inject.Inject
@@ -101,8 +100,8 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
         id = entity.id,
         situationRu = entity.situationRu,
         correctSentence = entity.correctSentence,
-        words = parseTokens(entity.words),
-        distractors = parseTokens(entity.distractors),
+        words = parseWords(entity.words),
+        distractors = parseWords(entity.distractors),
         explanation = entity.explanation,
     )
 
@@ -129,8 +128,7 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
         explanation = entity.explanation,
     )
 
-    private fun parseTokens(raw: String): List<WordToken> =
-        json.decodeFromString<List<WordTokenJson>>(raw).map { WordToken(text = it.text, translation = it.translation) }
+    private fun parseWords(raw: String): List<String> = json.decodeFromString(raw)
 
     /** Общий разбор поля `options` (одинаков у всех типов с выбором варианта) — Правило №0. */
     private fun parseOptions(raw: String): List<Option> =
@@ -158,9 +156,6 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
 
     @Serializable
     private data class TransformItemJson(val original: String = "", val transformed: String = "")
-
-    @Serializable
-    private data class WordTokenJson(val text: String = "", val translation: String = "")
 
     @Serializable
     private data class StatementJson(val en: String = "", val ru: String = "", val isTrue: Boolean = false)

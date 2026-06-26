@@ -37,12 +37,13 @@ for e in d['dialog_restore_exercises']:
     chk(not dups(e['options']), 'DIALOG_RESTORE', e['id'], "дублирующиеся опции")
     chk(all(o['text'] for o in e['options']), 'DIALOG_RESTORE', e['id'], "пустая опция")
 for e in d['true_false_exercises']:
-    chk(all(s['en'] and s['ru'] for s in e['statements']), 'TRUE_FALSE', e['id'], "пустой en/ru")
+    # ru может быть пустым: с Present Simple колонка RU убрана (canon, guide §4). en обязателен.
+    chk(all(s['en'] for s in e['statements']), 'TRUE_FALSE', e['id'], "пустой en")
 for e in d['matching_exercises']:
     chk(all(p['left'] != p['right'] for p in e['pairs']), 'MATCHING', e['id'], "left == right")
 for e in d['word_arrangement_exercises']:
-    chk(all(w['text'] for w in e['words']), 'WORD_ARRANGEMENT', e['id'], "пустое слово")
-    chk(all(dd['text'] for dd in e['distractors']), 'WORD_ARRANGEMENT', e['id'], "пустой дистрактор")
+    chk(all(w for w in e['words']), 'WORD_ARRANGEMENT', e['id'], "пустое слово")
+    chk(all(dd for dd in e['distractors']), 'WORD_ARRANGEMENT', e['id'], "пустой дистрактор")
 for e in d['categorization_exercises']:
     allitems = [it for c in e['categories'] for it in c['items']]
     chk(len(allitems) == len(set(allitems)), 'CATEGORIZATION', e['id'], "дублирующиеся элементы между колонками")

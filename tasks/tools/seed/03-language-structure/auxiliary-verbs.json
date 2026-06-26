@@ -2698,32 +2698,14 @@
       "situationRu": "RU: Рома любит кофе?",
       "correctSentence": "Does Roma like coffee?",
       "words": [
-        {
-          "text": "Does",
-          "translation": ""
-        },
-        {
-          "text": "Roma",
-          "translation": ""
-        },
-        {
-          "text": "like",
-          "translation": "нравиться, любить"
-        },
-        {
-          "text": "coffee?",
-          "translation": "кофе?"
-        }
+        "Does",
+        "Roma",
+        "like",
+        "coffee?"
       ],
       "distractors": [
-        {
-          "text": "likes",
-          "translation": ""
-        },
-        {
-          "text": "Do",
-          "translation": ""
-        }
+        "likes",
+        "Do"
       ],
       "explanation": "Roma — он, 3-е лицо → Does. После does — базовая форма «like» (не «likes»). «Do» — дистрактор: подходит для I/you/we/they, но не для Roma."
     },
@@ -2732,36 +2714,15 @@
       "situationRu": "RU: На прошлой неделе Коля был в Лондоне.",
       "correctSentence": "Last week Kolya was in London.",
       "words": [
-        {
-          "text": "Last week",
-          "translation": "на прошлой неделе"
-        },
-        {
-          "text": "Kolya",
-          "translation": ""
-        },
-        {
-          "text": "was",
-          "translation": "был"
-        },
-        {
-          "text": "in",
-          "translation": ""
-        },
-        {
-          "text": "London",
-          "translation": "Лондон"
-        }
+        "Last week",
+        "Kolya",
+        "was",
+        "in",
+        "London"
       ],
       "distractors": [
-        {
-          "text": "were",
-          "translation": ""
-        },
-        {
-          "text": "is",
-          "translation": ""
-        }
+        "were",
+        "is"
       ],
       "explanation": "Kolya = he → was (не were). «were» и «is» — дистракторы: were подходит для you/we/they, is — для настоящего времени."
     },
@@ -2770,36 +2731,15 @@
       "situationRu": "RU: В прошлом году у Оли было много работы.",
       "correctSentence": "Last year Olya had a lot of work.",
       "words": [
-        {
-          "text": "Last year",
-          "translation": "в прошлом году"
-        },
-        {
-          "text": "Olya",
-          "translation": ""
-        },
-        {
-          "text": "had",
-          "translation": "было"
-        },
-        {
-          "text": "a lot of",
-          "translation": "много"
-        },
-        {
-          "text": "work",
-          "translation": "работы"
-        }
+        "Last year",
+        "Olya",
+        "had",
+        "a lot of",
+        "work"
       ],
       "distractors": [
-        {
-          "text": "has",
-          "translation": ""
-        },
-        {
-          "text": "haved",
-          "translation": ""
-        }
+        "has",
+        "haved"
       ],
       "explanation": "Olya = she, но в прошлом форма одна для всех — had (не has). «haved» — не существует."
     },
@@ -2808,44 +2748,17 @@
       "situationRu": "RU: Завтра Коля приедет в офис рано.",
       "correctSentence": "Tomorrow Kolya will arrive at the office early.",
       "words": [
-        {
-          "text": "Tomorrow",
-          "translation": ""
-        },
-        {
-          "text": "Kolya",
-          "translation": ""
-        },
-        {
-          "text": "will",
-          "translation": ""
-        },
-        {
-          "text": "arrive",
-          "translation": ""
-        },
-        {
-          "text": "at",
-          "translation": ""
-        },
-        {
-          "text": "the office",
-          "translation": "офис"
-        },
-        {
-          "text": "early",
-          "translation": "рано"
-        }
+        "Tomorrow",
+        "Kolya",
+        "will",
+        "arrive",
+        "at",
+        "the office",
+        "early"
       ],
       "distractors": [
-        {
-          "text": "arrives",
-          "translation": ""
-        },
-        {
-          "text": "to arrive",
-          "translation": ""
-        }
+        "arrives",
+        "to arrive"
       ],
       "explanation": "will + базовая форма «arrive» (не «arrives», не «to arrive») — will уже сигналит будущее, дополнительные окончания и to не нужны."
     }

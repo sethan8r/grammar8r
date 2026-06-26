@@ -53,7 +53,6 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
 import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.domain.model.exercise.WordToken
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Alphas
@@ -71,7 +70,7 @@ import kotlin.math.abs
 import kotlin.math.roundToInt
 
 /** Слот: стабильный id (ключ анимации/хит-тест) + слово. */
-private data class WordSlot(val id: Int, val token: WordToken)
+private data class WordSlot(val id: Int, val token: String)
 
 /**
  * Рендерер WORD_ARRANGEMENT во [ExerciseFrame]. Поле сборки (сверху) + банк слов (снизу), drag-and-drop
@@ -121,7 +120,7 @@ fun WordArrangementExerciseView(
     var overSentence by remember(exercise.id) { mutableStateOf(false) }
     val releaseAnim = remember(exercise.id) { Animatable(Offset.Zero, Offset.VectorConverter) }
 
-    fun commit() = onArrangementChanged(sentence.map { it.token.text })
+    fun commit() = onArrangementChanged(sentence.map { it.token })
 
     fun slotAt(pos: Offset): WordSlot? {
         sentence.forEach { slot ->
@@ -248,7 +247,7 @@ fun WordArrangementExerciseView(
                             // место — пустой слот-индикатор (рамка размером со слово, текст скрыт).
                             key(slot.id) {
                                 ExerciseChip(
-                                    text = slot.token.text,
+                                    text = slot.token,
                                     // Когда поле окрашено результатом (верно — зелёное / 2-я ошибка —
                                     // красное), фон чипа прозрачный: заливка ПОЛЯ просвечивает сквозь
                                     // карточки (буквы остаются белыми). Тест — можно откатить.
@@ -288,7 +287,7 @@ fun WordArrangementExerciseView(
                         // Спрятанный слот — полностью прозрачный (без тёмного фрейма), но держит место
                         // в раскладке (банк не сжимается): ширина чипа сохраняется, текст уже alpha 0.
                         ExerciseChip(
-                            text = slot.token.text,
+                            text = slot.token,
                             background = if (hidden) Color.Transparent else Elevated,
                             border = if (hidden) Color.Transparent else Inactive,
                             contentAlpha = if (hidden) 0f else 1f,
@@ -328,7 +327,7 @@ fun WordArrangementExerciseView(
         shown?.let { slot ->
             val pos = if (dragging != null) pointer else releaseAnim.value
             ExerciseChip(
-                text = slot.token.text,
+                text = slot.token,
                 background = Elevated,
                 border = Inactive,
                 modifier = Modifier

@@ -5,7 +5,8 @@ import androidx.room.PrimaryKey
 
 /**
  * WORD_ARRANGEMENT — собрать предложение из перемешанных слов (есть дистракторы).
- * `words`/`distractors` — JSON-`String` (список объектов text+translation), разбор в domain.
+ * `words`/`distractors` — JSON-`String` (список слов-строк), разбор в domain. Перевод в чипах не
+ * показывается (есть глобальный long-press), поэтому слова хранятся просто строками.
  * Схема — exercise_templates.md → `WordArrangementExercise`. `id` уникален внутри типа.
  */
 @Entity(tableName = "word_arrangement_exercises")

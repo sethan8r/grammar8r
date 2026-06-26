@@ -119,7 +119,7 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**To дружит только с V1.** Никаких `to went`, `to gone`, `to seen` — это ошибка. Даже у самых «неправильных» глаголов инфинитив берётся от V1: `go → to go` ✓, не `to went` ✗. Прошедшее и причастие в инфинитив не лезут никогда."
+              "text": "**`To` дружит только с V1.** Никаких `to went`, `to gone`, `to seen` — это ошибка. Даже у самых «неправильных» глаголов инфинитив берётся от V1: `go → to go` ✓, не `to went` ✗. Прошедшее и причастие в инфинитив не лезут никогда."
             }
           ]
         },
@@ -1474,36 +1474,15 @@
       "situationRu": "RU: Дима хочет читать книгу.",
       "correctSentence": "Dima wants to read a book.",
       "words": [
-        {
-          "text": "Dima",
-          "translation": ""
-        },
-        {
-          "text": "wants",
-          "translation": "хочет"
-        },
-        {
-          "text": "to read",
-          "translation": "читать"
-        },
-        {
-          "text": "a book",
-          "translation": ""
-        }
+        "Dima",
+        "wants",
+        "to read",
+        "a book"
       ],
       "distractors": [
-        {
-          "text": "reads",
-          "translation": ""
-        },
-        {
-          "text": "to reading",
-          "translation": ""
-        },
-        {
-          "text": "reading",
-          "translation": ""
-        }
+        "reads",
+        "to reading",
+        "reading"
       ],
       "explanation": "После wants идёт инфинитив to read (to + V1). reads — форма для he/she без to, reading / to reading — это не инфинитив. Цепочка: wants + to read."
     },
@@ -1512,40 +1491,16 @@
       "situationRu": "RU: Лена надеется выучить французский.",
       "correctSentence": "Lena hopes to learn French.",
       "words": [
-        {
-          "text": "Lena",
-          "translation": ""
-        },
-        {
-          "text": "hopes",
-          "translation": "надеется"
-        },
-        {
-          "text": "to learn",
-          "translation": "выучить"
-        },
-        {
-          "text": "French",
-          "translation": ""
-        }
+        "Lena",
+        "hopes",
+        "to learn",
+        "French"
       ],
       "distractors": [
-        {
-          "text": "learn",
-          "translation": ""
-        },
-        {
-          "text": "learning",
-          "translation": ""
-        },
-        {
-          "text": "to learning",
-          "translation": ""
-        },
-        {
-          "text": "to learned",
-          "translation": ""
-        }
+        "learn",
+        "learning",
+        "to learning",
+        "to learned"
       ],
       "explanation": "После hopes — инфинитив to learn (to + V1). «learn» и «learning» без to обрывают сцепку; «to learning» и «to learned» — не инфинитив (после to только чистая V1). Цепочка: hopes + to learn."
     },
@@ -1554,36 +1509,15 @@
       "situationRu": "RU: Ты должен позвонить врачу.",
       "correctSentence": "You must call a doctor.",
       "words": [
-        {
-          "text": "You",
-          "translation": ""
-        },
-        {
-          "text": "must",
-          "translation": "должен"
-        },
-        {
-          "text": "call",
-          "translation": ""
-        },
-        {
-          "text": "a doctor",
-          "translation": ""
-        }
+        "You",
+        "must",
+        "call",
+        "a doctor"
       ],
       "distractors": [
-        {
-          "text": "to call",
-          "translation": ""
-        },
-        {
-          "text": "calling",
-          "translation": ""
-        },
-        {
-          "text": "musts",
-          "translation": ""
-        }
+        "to call",
+        "calling",
+        "musts"
       ],
       "explanation": "После модального must — голый глагол call (V1, без to). «to call» — лишний to; «calling» — -ing форма; «musts» — у модальных нет -s."
     },
@@ -1592,36 +1526,15 @@
       "situationRu": "RU: Лена попросила меня помочь.",
       "correctSentence": "Lena asked me to help.",
       "words": [
-        {
-          "text": "Lena",
-          "translation": ""
-        },
-        {
-          "text": "asked",
-          "translation": "попросила"
-        },
-        {
-          "text": "me",
-          "translation": ""
-        },
-        {
-          "text": "to help",
-          "translation": ""
-        }
+        "Lena",
+        "asked",
+        "me",
+        "to help"
       ],
       "distractors": [
-        {
-          "text": "I",
-          "translation": ""
-        },
-        {
-          "text": "help",
-          "translation": ""
-        },
-        {
-          "text": "that",
-          "translation": ""
-        }
+        "I",
+        "help",
+        "that"
       ],
       "explanation": "Цепочка «глагол + объект + to + V1»: asked + me + to help. «I» — форма подлежащего (нужна объектная me); «help» без to и «that» — лишние."
     }

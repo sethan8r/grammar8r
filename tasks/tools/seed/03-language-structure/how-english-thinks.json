@@ -909,32 +909,14 @@
       "situationRu": "RU: Саша помогает своей сестре по выходным.",
       "correctSentence": "Sasha helps his sister on weekends.",
       "words": [
-        {
-          "text": "Sasha",
-          "translation": "Саша"
-        },
-        {
-          "text": "helps",
-          "translation": "помогает"
-        },
-        {
-          "text": "his sister",
-          "translation": "своей сестре"
-        },
-        {
-          "text": "on weekends",
-          "translation": "по выходным"
-        }
+        "Sasha",
+        "helps",
+        "his sister",
+        "on weekends"
       ],
       "distractors": [
-        {
-          "text": "sister his",
-          "translation": ""
-        },
-        {
-          "text": "at weekends",
-          "translation": ""
-        }
+        "sister his",
+        "at weekends"
       ],
       "explanation": "Subject (Sasha) → Verb (helps) → Object (his sister) → обстоятельство (on weekends) — в самом конце. «sister his» — неправильный порядок притяжательного местоимения (нужно «his sister»). «at weekends» — неверный предлог: с понятием «по выходным» используется «on»."
     },
@@ -943,36 +925,15 @@
       "situationRu": "RU: По вечерам Оля готовит ужин для своей семьи.",
       "correctSentence": "In the evenings Olya cooks dinner for her family.",
       "words": [
-        {
-          "text": "In the evenings",
-          "translation": "по вечерам"
-        },
-        {
-          "text": "Olya",
-          "translation": "Оля"
-        },
-        {
-          "text": "cooks",
-          "translation": "готовит"
-        },
-        {
-          "text": "dinner",
-          "translation": "ужин"
-        },
-        {
-          "text": "for her family",
-          "translation": "для своей семьи"
-        }
+        "In the evenings",
+        "Olya",
+        "cooks",
+        "dinner",
+        "for her family"
       ],
       "distractors": [
-        {
-          "text": "for she family",
-          "translation": ""
-        },
-        {
-          "text": "at the evenings",
-          "translation": ""
-        }
+        "for she family",
+        "at the evenings"
       ],
       "explanation": "Порядок: обстоятельство (вынесенное в начало для акцента) → Subject → Verb → Object → ещё одно обстоятельство. «for she family» — ошибка формы притяжательного местоимения (нужно «her»). «at the evenings» — неверный предлог: с понятием периода времени вроде «evenings» нужен «in»."
     }

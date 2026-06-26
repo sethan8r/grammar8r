@@ -127,8 +127,8 @@ sealed interface Exercise {
         override val id: Int,
         val situationRu: String,
         val correctSentence: String,
-        val words: List<WordToken>,
-        val distractors: List<WordToken>,
+        val words: List<String>,
+        val distractors: List<String>,
         val explanation: String,
     ) : Exercise {
         val type: HardcodedExerciseType get() = HardcodedExerciseType.WORD_ARRANGEMENT
@@ -216,9 +216,6 @@ data class TableFillRow(val hint: String, val answer: String)
 
 /** Один пример [Exercise.Transformation]: исходное предложение и его правильная трансформация. */
 data class TransformItem(val original: String, val transformed: String)
-
-/** Слово-чип в [Exercise.WordArrangement]: текст + перевод (пустой — слово уже знакомо). */
-data class WordToken(val text: String, val translation: String)
 
 /** Одно утверждение [Exercise.TrueFalse]: EN-предложение, его RU-перевод и истинность. */
 data class Statement(val en: String, val ru: String, val isTrue: Boolean)

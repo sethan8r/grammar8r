@@ -284,8 +284,11 @@ def ex_true_false(body, type_id):
         if not is_table_line(l) or is_separator_row(l):
             continue
         c = split_row(l)
-        if len(c) >= 4 and c[0].strip('#').strip().isdigit():
-            statements.append({'en': c[1], 'ru': c[2], 'isTrue': '✓' in c[3]})
+        # Два формата: 4 кол. `# | EN | RU | Верно?` (до Present Simple) и 3 кол. `# | EN | Верно?`
+        # (с Present Simple RU убран, guide §4). Флаг — всегда последняя колонка.
+        if len(c) >= 3 and c[0].strip('#').strip().isdigit():
+            ru = c[2] if len(c) >= 4 else ''
+            statements.append({'en': c[1], 'ru': ru, 'isTrue': '✓' in c[-1]})
     return {'id': type_id, 'statements': statements, 'explanation': parse_explanation(body)}
 
 def ex_table_fill(body, type_id):
@@ -308,12 +311,12 @@ def ex_word_arrangement(body, type_id):
             correct = strip_md(s.split(':', 1)[1])
         elif is_table_line(l) and not is_separator_row(l):
             c = split_row(l)
-            if len(c) >= 3 and c[0] not in ('Слово',):
-                entry = {'text': c[0], 'translation': '' if c[1] == '—' else c[1]}
-                if '✗' in c[2] or 'дистрактор' in c[2].lower():
-                    distractors.append(entry)
+            if len(c) >= 2 and c[0] not in ('Слово',):
+                flag = c[-1]
+                if '✗' in flag or 'дистрактор' in flag.lower():
+                    distractors.append(c[0])
                 else:
-                    words.append(entry)
+                    words.append(c[0])
     return {'id': type_id, 'situationRu': situation, 'correctSentence': correct,
             'words': words, 'distractors': distractors,
             'explanation': parse_explanation(body)}

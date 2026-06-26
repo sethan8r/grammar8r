@@ -212,15 +212,15 @@
 RU: Дима хочет читать книгу.
 Правильное предложение: **Dima wants to read a book.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| Dima | — | — |
-| wants | хочет | — |
-| to read | читать | — |
-| a book | — | — |
-| reads | — | ✗ |
-| to reading | — | ✗ |
-| reading | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| Dima | — |
+| wants | — |
+| to read | — |
+| a book | — |
+| reads | ✗ |
+| to reading | ✗ |
+| reading | ✗ |
 
 *Explanation:* После wants идёт инфинитив to read (to + V1). reads — форма для he/she без to, reading / to reading — это не инфинитив. Цепочка: wants + to read.
 
@@ -414,16 +414,16 @@ RU: Дима хочет читать книгу.
 RU: Лена надеется выучить французский.
 Правильное предложение: **Lena hopes to learn French.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| Lena | — | — |
-| hopes | надеется | — |
-| to learn | выучить | — |
-| French | — | — |
-| learn | — | ✗ |
-| learning | — | ✗ |
-| to learning | — | ✗ |
-| to learned | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| Lena | — |
+| hopes | — |
+| to learn | — |
+| French | — |
+| learn | ✗ |
+| learning | ✗ |
+| to learning | ✗ |
+| to learned | ✗ |
 
 *Explanation:* После hopes — инфинитив to learn (to + V1). «learn» и «learning» без to обрывают сцепку; «to learning» и «to learned» — не инфинитив (после to только чистая V1). Цепочка: hopes + to learn.
 
@@ -705,15 +705,15 @@ B: ___
 RU: Ты должен позвонить врачу.
 Правильное предложение: **You must call a doctor.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| You | — | — |
-| must | должен | — |
-| call | — | — |
-| a doctor | — | — |
-| to call | — | ✗ |
-| calling | — | ✗ |
-| musts | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| You | — |
+| must | — |
+| call | — |
+| a doctor | — |
+| to call | ✗ |
+| calling | ✗ |
+| musts | ✗ |
 
 *Explanation:* После модального must — голый глагол call (V1, без to). «to call» — лишний to; «calling» — -ing форма; «musts» — у модальных нет -s.
 
@@ -895,15 +895,15 @@ RU: Ты должен позвонить врачу.
 RU: Лена попросила меня помочь.
 Правильное предложение: **Lena asked me to help.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| Lena | — | — |
-| asked | попросила | — |
-| me | — | — |
-| to help | — | — |
-| I | — | ✗ |
-| help | — | ✗ |
-| that | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| Lena | — |
+| asked | — |
+| me | — |
+| to help | — |
+| I | ✗ |
+| help | ✗ |
+| that | ✗ |
 
 *Explanation:* Цепочка «глагол + объект + to + V1»: asked + me + to help. «I» — форма подлежащего (нужна объектная me); «help» без to и «that» — лишние.
 

@@ -249,14 +249,14 @@ RU: Саша помогает своей сестре по выходным.
 
 Правильное предложение: **Sasha helps his sister on weekends.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| Sasha | Саша | — |
-| helps | помогает | — |
-| his sister | своей сестре | — |
-| on weekends | по выходным | — |
-| sister his | — | ✗ |
-| at weekends | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| Sasha | — |
+| helps | — |
+| his sister | — |
+| on weekends | — |
+| sister his | ✗ |
+| at weekends | ✗ |
 
 *Explanation:* Subject (Sasha) → Verb (helps) → Object (his sister) → обстоятельство (on weekends) — в самом конце. «sister his» — неправильный порядок притяжательного местоимения (нужно «his sister»). «at weekends» — неверный предлог: с понятием «по выходным» используется «on».
 
@@ -575,15 +575,15 @@ RU: По вечерам Оля готовит ужин для своей сем�
 
 Правильное предложение: **In the evenings Olya cooks dinner for her family.**
 
-| Слово | Перевод | Лишнее? |
-|-------|---------|---------|
-| In the evenings | по вечерам | — |
-| Olya | Оля | — |
-| cooks | готовит | — |
-| dinner | ужин | — |
-| for her family | для своей семьи | — |
-| for she family | — | ✗ |
-| at the evenings | — | ✗ |
+| Слово | Лишнее? |
+| ------- | --------- |
+| In the evenings | — |
+| Olya | — |
+| cooks | — |
+| dinner | — |
+| for her family | — |
+| for she family | ✗ |
+| at the evenings | ✗ |
 
 *Explanation:* Порядок: обстоятельство (вынесенное в начало для акцента) → Subject → Verb → Object → ещё одно обстоятельство. «for she family» — ошибка формы притяжательного местоимения (нужно «her»). «at the evenings» — неверный предлог: с понятием периода времени вроде «evenings» нужен «in».
 
