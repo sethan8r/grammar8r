@@ -779,7 +779,7 @@ theory/
 │   │   └── Card · Мнения, вкусы, чувства: like/know/want/love — мягкий заход на state verbs (полный
 │   │       разбор «глаголы без Continuous» — в Present Continuous; здесь только что они идут в Simple).
 │   │
-│   ├── MT54 · Time markers & frequency adverbs · Маркеры времени и наречия частотности
+│   ├── MT54 · Time markers & frequency adverbs · Маркеры времени и наречия частотности ✅ (написана, ALL GREEN 27.06; cards 168–171)
 │   │   ├── Card · Шкала частотности: always/usually/often/sometimes/rarely/never (100%→0%).
 │   │   ├── Card · Выражения времени: every day/week, on Mondays, in the morning, twice a week.
 │   │   ├── Card · Порядок слов: наречие ПЕРЕД смысловым глаголом, но ПОСЛЕ to be.

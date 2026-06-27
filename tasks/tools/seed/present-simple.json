@@ -40,6 +40,12 @@
       "topicId": 8,
       "title": "Usage · Употребление",
       "order": 5
+    },
+    {
+      "id": 54,
+      "topicId": 8,
+      "title": "Time Markers & Frequency Adverbs · Маркеры времени и наречия частотности",
+      "order": 6
     }
   ],
   "grammar_cards": [
@@ -1477,6 +1483,318 @@
         "Какие ещё глаголы так себя ведут?",
         "Чем состояние отличается от действия-процесса?"
       ]
+    },
+    {
+      "id": 168,
+      "microtopicId": 54,
+      "title": "Шкала частотности: always, often, sometimes, never",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Present Simple собран, и мы знаем, **когда** его берут. Теперь добавим к нему слова, которые отвечают на вопрос «**как часто**?». Это **наречия частотности** — `always`, `usually`, `often`, `sometimes`, `rarely`, `never`. Они показывают, насколько регулярно происходит действие, и идут с Present Simple рука об руку: привычка почти всегда хочет уточнения «как часто»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Удобнее всего держать их в голове как **шкалу от 100% до 0%** — от «каждый раз» до «ни разу»."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Наречие",
+            "Как часто (примерно)"
+          ],
+          "rows": [
+            [
+              "always",
+              "100% — каждый раз, без исключений"
+            ],
+            [
+              "usually",
+              "~90% — почти всегда, как правило"
+            ],
+            [
+              "often",
+              "~70% — часто"
+            ],
+            [
+              "sometimes",
+              "~50% — время от времени"
+            ],
+            [
+              "rarely",
+              "~10% — редко, почти никогда"
+            ],
+            [
+              "never",
+              "0% — никогда, ни разу"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`always`, `often` и `never` мы уже мельком встречали в «Частях речи», а `usually` — в отрицаниях этой темы (**I don't usually drink coffee**). Теперь собираем их в одну систему."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рядом с `rarely` есть книжное `seldom` — то же «редко», но звучит формально; в живой речи чаще берут `rarely`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Never` — это **уже само по себе отрицание** («ни разу»), второй раз отрицать не нужно. По-русски мы говорим «я **никогда не** курю» — целых два отрицания, «никогда» и «не». Английский так не делает: одно `never` закрывает весь смысл. **I don't never drink coffee at night** ✗ → **I never drink coffee at night** ✓. Двойное отрицание здесь — прямой след русской привычки."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И ещё: само наречие частоты глагол в 3-м лице не отменяет — `-s` остаётся на месте: **He often works late** ✓, не **He often work** ✗."
+        }
+      ],
+      "theorySummary": "Наречия частотности — `always` (100%), `usually`, `often`, `sometimes`, `rarely`, `never` (0%) — отвечают на вопрос «как часто» и идут с Present Simple. Главная ловушка: `never` уже само по себе отрицание, второй `don't`/`doesn't` не нужен (**I never drink coffee at night**, не **I don't never…**).",
+      "examples": [
+        {
+          "ru": "Я всегда пью кофе по утрам.",
+          "en": "I always drink coffee in the morning."
+        },
+        {
+          "ru": "Она часто читает газету.",
+          "en": "She often reads a newspaper."
+        },
+        {
+          "ru": "Мы иногда завтракаем вместе.",
+          "en": "We sometimes have breakfast together."
+        },
+        {
+          "ru": "Я никогда не пью кофе на ночь.",
+          "en": "I never drink coffee at night."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем наречие частотности отличается от выражения «every day»?",
+        "Почему «I don't never» — это ошибка?",
+        "Где на шкале стоит «sometimes»?"
+      ]
+    },
+    {
+      "id": 169,
+      "microtopicId": 54,
+      "title": "Выражения времени: every day, twice a week",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Кроме наречий-одиночек, частоту и время описывают целые **выражения** — `every day`, `on Mondays`, `twice a week`, `in the morning`. Это не одно слово, а оборот из нескольких, и ведёт он себя немного иначе."
+        },
+        {
+          "type": "heading",
+          "text": "Сколько раз: once, twice, three times"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы сказать, сколько раз за период что-то происходит, есть готовый шаблон: `once a week` (раз в неделю), `twice a month` (два раза в месяц), `three times a day` (три раза в день). «Раз» — `once`, «два раза» — отдельное слово `twice` (не `two times`), а дальше уже обычным числом + `times`."
+        },
+        {
+          "type": "heading",
+          "text": "every + единственное число"
+        },
+        {
+          "type": "paragraph",
+          "text": "После `every` существительное стоит в единственном числе: `every day`, `every week`, `every morning` — не `every days`. `every` уже значит «каждый», и слово после него остаётся одно: **every days** ✗ → **every day** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "on + день во множественном = регулярно"
+        },
+        {
+          "type": "paragraph",
+          "text": "`on Mondays` (во множественном) значит «по понедельникам, каждый понедельник» — регулярную привычку. Это то самое «по…», что в русском: «по выходным», «по средам». А `on Monday` (без `-s`) — это уже один конкретный понедельник."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "На вопрос «как часто» русский тянет вставить лишний предлог: **in every morning** ✗ → **every morning** ✓. С `every` предлог не ставят — оборот самодостаточный."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Время описывают не только наречия, но и выражения: `every day`, `twice a week`, `on Mondays`, `in the morning`. «Раз/два раза» — `once`/`twice` + `a week`. После `every` — единственное число (`every day`, не `every days`). `on Mondays` (с `-s`) = регулярно, по понедельникам.",
+      "examples": [
+        {
+          "ru": "Я хожу в спортзал два раза в неделю.",
+          "en": "I go to the gym twice a week."
+        },
+        {
+          "ru": "Она читает новости каждое утро.",
+          "en": "She reads the news every morning."
+        },
+        {
+          "ru": "Мы навещаем бабушку раз в месяц.",
+          "en": "We visit grandma once a month."
+        },
+        {
+          "ru": "Они играют в футбол по субботам.",
+          "en": "They play football on Saturdays."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «twice», а не «two times»?",
+        "Почему «every day», а не «every days»?",
+        "Чем «on Mondays» отличается от «on Monday»?"
+      ]
+    },
+    {
+      "id": 170,
+      "microtopicId": 54,
+      "title": "Порядок слов: наречие перед глаголом, после to be",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Наречия знаем — теперь главный вопрос: **куда** их ставить в предложении? В русском наречие гуляет свободно («Она **всегда** пьёт кофе» = «Она пьёт кофе **всегда**»), а в английском у него **строгое место**. Правило в две половины."
+        },
+        {
+          "type": "heading",
+          "text": "Перед смысловым глаголом"
+        },
+        {
+          "type": "paragraph",
+          "text": "С обычным глаголом-действием наречие встаёт **прямо перед ним**: **She always drinks coffee**, **He never eats meat**, **They often watch films**. Порядок: подлежащее → наречие → глагол. Наречие как бы «прилипает» к глаголу спереди."
+        },
+        {
+          "type": "heading",
+          "text": "После to be"
+        },
+        {
+          "type": "paragraph",
+          "text": "А с `to be` (am/is/are) всё наоборот — наречие идёт **после** него: **He is always late**, **I am never busy on Sundays**, **They are often tired**."
+        },
+        {
+          "type": "heading",
+          "text": "Почему так"
+        },
+        {
+          "type": "paragraph",
+          "text": "`to be` — очень «лёгкий» глагол: он не несёт действия, а только связывает. Наречие проскакивает за него и встаёт следом. Простой признак: видишь `is`/`are`/`am` → наречие **после** него; видишь обычный глагол → наречие **перед** ним. Это прямое продолжение жёсткого порядка слов SVO из «Основ»: в английском место слова и есть его смысл, поэтому наречие нельзя кинуть куда попало."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She drinks always coffee** ✗ — нельзя втиснуть наречие между глаголом и дополнением. Перед глаголом: `She always drinks coffee` ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Наречие частотности ставят **перед смысловым глаголом** (**She always drinks coffee**), но **после to be** (**He is always late**). Признак: есть `is/are/am` → наречие после него; обычный глагол → наречие перед ним. Это продолжение жёсткого порядка слов SVO.",
+      "examples": [
+        {
+          "ru": "Она всегда пьёт кофе по утрам.",
+          "en": "She always drinks coffee in the morning."
+        },
+        {
+          "ru": "Он всегда опаздывает.",
+          "en": "He is always late."
+        },
+        {
+          "ru": "Они часто смотрят фильмы вечером.",
+          "en": "They often watch films in the evening."
+        },
+        {
+          "ru": "По воскресеньям я никогда не занят.",
+          "en": "I am never busy on Sundays."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «She always drinks», но «He is always late»?",
+        "Куда ставить наречие, если в предложении есть to be?",
+        "Можно ли поставить наречие между глаголом и дополнением?"
+      ]
+    },
+    {
+      "id": 171,
+      "microtopicId": 54,
+      "title": "Ловушка: наречие не ставят в конец",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Отдельно остановимся на самой частой ошибке русскоязычных с наречиями — и разберём её в корне."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда берётся ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски порядок слов **свободный**: «Она всегда читает», «Она читает всегда», «Всегда она читает» — все три варианта живые, смысл держат падежи и окончания, а не порядок слов. Поэтому русскому уху совершенно естественно сказать наречие в конце: «Она пьёт кофе всегда». Рука по привычке тянет `always` в хвост — и получается **She drinks coffee always** ✗."
+        },
+        {
+          "type": "paragraph",
+          "text": "А в английском порядок слов **жёсткий**: смысл несёт именно расстановка слов (мы видели это в SVO). Наречие частотности привязано к глаголу и обязано стоять у него — перед смысловым глаголом или после `to be`. Брошенное в конец, оно звучит неправильно: **She drinks coffee always** ✗ → **She always drinks coffee** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Не путай с выражениями времени"
+        },
+        {
+          "type": "paragraph",
+          "text": "Важный нюанс: это правило про **наречия-одиночки** (`always`, `often`, `never`…). А вот **выражения времени** из прошлой карточки (`every day`, `on Mondays`, `in the morning`) как раз в конец ставить **можно** и нормально: **She reads the news every morning** ✓, **We play football on Saturdays** ✓. Разница простая: одно слово-наречие (`always`) живёт у глагола, а оборот (`every morning`) свободнее и чаще стоит в конце."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He drinks never tea** ✗ и **He drinks tea never** ✗ — оба не годятся. Наречие к глаголу спереди: `He never drinks tea` ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Главная ошибка — кинуть наречие в конец: **She drinks coffee always** ✗ → **She always drinks coffee** ✓. Корень — свободный порядок слов в русском против жёсткого в английском. Важно: это про наречия-одиночки; выражения времени (`every day`, `on Mondays`) в конец ставить как раз можно.",
+      "examples": [
+        {
+          "ru": "Она всегда читает перед сном.",
+          "en": "She always reads before bed."
+        },
+        {
+          "ru": "Он никогда не пьёт чай.",
+          "en": "He never drinks tea."
+        },
+        {
+          "ru": "Я обычно встаю рано.",
+          "en": "I usually get up early."
+        },
+        {
+          "ru": "Мы часто гуляем по пятницам.",
+          "en": "We often go out on Fridays."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «She drinks coffee always» — ошибка?",
+        "Почему «every day» в конце можно, а «always» нельзя?",
+        "Где должно стоять «never»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1845,6 +2163,78 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 92,
       "orderInCard": 2
+    },
+    {
+      "cardId": 168,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 88,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 168,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 72,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 168,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 34,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 169,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 60,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 169,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 93,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 169,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 37,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 170,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 94,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 170,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 21,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 170,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 61,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 171,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 64,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 171,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 73,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 171,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 34,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1941,6 +2331,30 @@
       "cardId": 162,
       "title": "Найди и исправь ошибку",
       "userInstruction": "ИИ даст вопрос с ошибкой. Перепишите его правильно.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card169_ex1",
+      "cardId": 169,
+      "title": "Добавь выражение времени",
+      "userInstruction": "Напишите предложение о своём распорядке, добавив выражение времени: every day, twice a week, on Mondays, in the morning и т. п.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card170_ex1",
+      "cardId": 170,
+      "title": "Поставь наречие на место",
+      "userInstruction": "ИИ даст предложение и наречие. Перепишите предложение, вставив наречие на правильное место.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card171_ex1",
+      "cardId": 171,
+      "title": "Найди и исправь порядок слов",
+      "userInstruction": "ИИ даст предложение с наречием не на своём месте. Перепишите его правильно.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -2120,6 +2534,54 @@
       "translation": "концерт",
       "transcription": "[ˈkɒnsət]",
       "microtopicId": 53,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 340,
+      "word": "sometimes",
+      "translation": "иногда",
+      "transcription": "[ˈsʌmtaɪmz]",
+      "microtopicId": 54,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 341,
+      "word": "rarely",
+      "translation": "редко",
+      "transcription": "[ˈreəli]",
+      "microtopicId": 54,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 342,
+      "word": "breakfast",
+      "translation": "завтрак",
+      "transcription": "[ˈbrekfəst]",
+      "microtopicId": 54,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 343,
+      "word": "newspaper",
+      "translation": "газета",
+      "transcription": "[ˈnjuːzpeɪpə]",
+      "microtopicId": 54,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 344,
+      "word": "twice",
+      "translation": "дважды, два раза",
+      "transcription": "[twaɪs]",
+      "microtopicId": 54,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 345,
+      "word": "late",
+      "translation": "поздно; опоздавший",
+      "transcription": "[leɪt]",
+      "microtopicId": 54,
       "categoryId": "tenses"
     }
   ],
@@ -2334,6 +2796,68 @@
         }
       ],
       "explanation": "№2 — у 3-го лица нужен `-s`: He reads the news. №5 — после `Does` глагол без `-s`: Does she play tennis?"
+    },
+    {
+      "id": 72,
+      "statements": [
+        {
+          "en": "I sometimes work on Saturdays.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He doesn't never call me.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She often reads in the evening.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We never eat fast food.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They rarely watches films.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "№2 — `never` уже отрицание, второй `doesn't` лишний: `He never calls me`. №5 — `they` берёт глагол без `-s`: `they watch` (наречие `rarely` тут ни при чём, ошибка в форме глагола)."
+    },
+    {
+      "id": 73,
+      "statements": [
+        {
+          "en": "He never drinks coffee at night.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I eat rarely fast food.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They are always busy.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We go often to the park.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She usually walks to work.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — наречие перед глаголом: `I rarely eat fast food`. №4 — то же: `We often go to the park` (нельзя ставить наречие после глагола перед `to`)."
     }
   ],
   "word_arrangement_exercises": [
@@ -2425,6 +2949,41 @@
         "speaks"
       ],
       "explanation": "Устойчивое «знает» → Present Simple, `Olya` → `knows`. `know` — без `-s`, `two` — неверное число, `speaks` — другой глагол."
+    },
+    {
+      "id": 60,
+      "situationRu": "RU: Мы убираем дом раз в неделю.",
+      "correctSentence": "We clean the house once a week.",
+      "words": [
+        "We",
+        "clean",
+        "the house",
+        "once a week"
+      ],
+      "distractors": [
+        "cleans",
+        "twice a day",
+        "are"
+      ],
+      "explanation": "`we` → глагол без `-s`: `clean`. `cleans` — лишний `-s`, `twice a day` — другая частота, `are` — это `to be` (здесь смысловой глагол)."
+    },
+    {
+      "id": 61,
+      "situationRu": "RU: Они часто заняты по вечерам.",
+      "correctSentence": "They are often busy in the evening.",
+      "words": [
+        "They",
+        "are",
+        "often",
+        "busy",
+        "in the evening"
+      ],
+      "distractors": [
+        "is",
+        "do",
+        "always"
+      ],
+      "explanation": "`to be` → наречие после него: `are often busy`. `is` — не то лицо (нужно `are` для `they`), `do` — `to be` не берёт помощника, `always` — лишнее слово (наёбка вместо `often`)."
     }
   ],
   "multiple_choice_exercises": [
@@ -2889,6 +3448,69 @@
         }
       ],
       "explanation": "Чувство → Present Simple; отрицание для `Denis` → `doesn't` + базовая форма `like`. `isn't liking` — `like` не идёт в форму «сейчас»; `doesn't likes` — лишний `-s` после `doesn't`."
+    },
+    {
+      "id": 88,
+      "choiceType": "CHOICE",
+      "prompt": "Nick works from Monday to Friday every week. He ___ works on weekdays.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "always",
+          "isCorrect": true
+        },
+        {
+          "text": "sometimes",
+          "isCorrect": false
+        },
+        {
+          "text": "never",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Работает каждую неделю с понедельника по пятницу → по будням это происходит каждый раз: `always` (100%). `sometimes` (~50%) и `never` (0%) противоречат «every week»."
+    },
+    {
+      "id": 93,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я читаю газету каждое утро.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I read a newspaper in every morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "I read a newspaper every morning.",
+          "isCorrect": true
+        },
+        {
+          "text": "I reads a newspaper every morning.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "С `every` предлог не нужен: `every morning`. `in every morning` — лишний предлог; `I reads` — лишний `-s` для `I`."
+    },
+    {
+      "id": 94,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Он часто ест вне дома.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "He eats often out.",
+          "isCorrect": false
+        },
+        {
+          "text": "Often he eats out.",
+          "isCorrect": false
+        },
+        {
+          "text": "He often eats out.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Наречие частотности идёт перед смысловым глаголом: `He often eats out`. `eats often out` — наречие после глагола (неверно); `Often he eats out` — наречие в начале (для частотности не норма)."
     }
   ],
   "text_input_exercises": [
@@ -2969,6 +3591,30 @@
         }
       ],
       "explanation": "Расписание → Present Simple, у 3-го лица ед. ч. глагол получает `-s`: leaves, closes, starts."
+    },
+    {
+      "id": 37,
+      "items": [
+        {
+          "sentence": "She visits her parents ___ a month.",
+          "contextRu": "раз в",
+          "answer": "once",
+          "alternatives": []
+        },
+        {
+          "sentence": "I clean my room ___ a week.",
+          "contextRu": "два раза в",
+          "answer": "twice",
+          "alternatives": []
+        },
+        {
+          "sentence": "We have a meeting ___ Mondays.",
+          "contextRu": "по",
+          "answer": "on",
+          "alternatives": []
+        }
+      ],
+      "explanation": "«раз в» → `once a month`; «два раза в» → `twice a week` (`twice`, не `two times`); «по понедельникам» → `on Mondays`."
     }
   ],
   "dialog_restore_exercises": [
@@ -3225,6 +3871,25 @@
         }
       ],
       "explanation": "`want` — глагол состояния, в форму «сейчас» (`am wanting`) не идёт: **I want**. `wants` — лишний `-s` для `I`; `am want` — сломанная форма."
+    },
+    {
+      "id": 64,
+      "wrongSentence": "She watches TV always.",
+      "options": [
+        {
+          "text": "She always watches TV.",
+          "isCorrect": true
+        },
+        {
+          "text": "She watch always TV.",
+          "isCorrect": false
+        },
+        {
+          "text": "Always watches she TV.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Наречие частотности не ставят в конец — оно идёт перед смысловым глаголом: `She always watches TV`. `watch always` теряет `-s` и ломает порядок; `Always watches she` — перевёрнутый порядок слов."
     }
   ],
   "construction_meaning_exercises": [
@@ -3313,6 +3978,25 @@
         }
       ],
       "explanation": "3-е лицо → `doesn't` + базовая форма. Окончание `-s` уходит на помощника (`does`), поэтому глагол его теряет: `works` → `work`."
+    },
+    {
+      "id": 21,
+      "taskDescription": "вставь `usually` в каждое предложение.",
+      "items": [
+        {
+          "original": "I get up at seven.",
+          "transformed": "I usually get up at seven."
+        },
+        {
+          "original": "She is busy on Mondays.",
+          "transformed": "She is usually busy on Mondays."
+        },
+        {
+          "original": "We watch films at night.",
+          "transformed": "We usually watch films at night."
+        }
+      ],
+      "explanation": "Перед смысловым глаголом (`get up`, `watch`) наречие ставится спереди; с `to be` (`is`) — после него: `is usually busy`."
     }
   ],
   "categorization_exercises": [
@@ -3402,6 +4086,29 @@
         }
       ],
       "explanation": "Смысловой глагол-действие (speak, read, take, wash) → вопрос с `Do`/`Does`. Описание «кто/какой/откуда» строится на `to be` → вопрос с `Is`/`Are`."
+    },
+    {
+      "id": 34,
+      "taskDescription": "распредели наречия по половинам шкалы частотности.",
+      "categories": [
+        {
+          "title": "Чаще (верх шкалы)",
+          "items": [
+            "always",
+            "usually",
+            "often"
+          ]
+        },
+        {
+          "title": "Реже (низ шкалы)",
+          "items": [
+            "sometimes",
+            "rarely",
+            "never"
+          ]
+        }
+      ],
+      "explanation": "`always`/`usually`/`often` — верхняя половина шкалы, действие происходит часто. `sometimes`/`rarely`/`never` — нижняя половина, действие происходит время от времени, редко или не происходит вовсе."
     }
   ],
   "find_the_odd_exercises": [
@@ -3519,6 +4226,29 @@
         }
       ],
       "explanation": "Общие истины идут в Present Simple. «The sun is rising» — форма «сейчас», для вечного закона не годится (да и солнце встаёт на востоке). Остальные три — верные."
+    },
+    {
+      "id": 34,
+      "groupDescription": "Три предложения построены верно, одно — с ошибкой в порядке слов",
+      "items": [
+        {
+          "text": "I always have breakfast at home.",
+          "isOdd": false
+        },
+        {
+          "text": "She is often tired after work.",
+          "isOdd": false
+        },
+        {
+          "text": "They watch sometimes films in English.",
+          "isOdd": true
+        },
+        {
+          "text": "We never argue about money.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В «They watch sometimes films» наречие стоит между глаголом и дополнением — так нельзя: `They sometimes watch films`. Остальные три предложения верные."
     }
   ]
 }
