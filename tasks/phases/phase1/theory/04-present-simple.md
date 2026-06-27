@@ -951,26 +951,643 @@ RU: Они не смотрят телевизор по утрам.
 
 ---
 
+## Microtopic 52 — Questions · Образование: вопрос
+
+**ID:** 52 | **Order:** 4
+
+---
+
+### Card 157 · Вопрос: помощник Do/Does выходит вперёд
+
+**ID:** 157 | **Order:** 1
+
+#### Theory
+
+Мы научились утверждать и отрицать — осталось научиться **спрашивать**. И снова английский ведёт себя не так, как русский.
+
+По-русски, чтобы превратить утверждение в вопрос, обычно хватает интонации: «Ты работаешь» → «Ты работаешь?». Слова те же самые, просто голос пошёл вверх. Английский так почти не умеет — на одну интонацию он не полагается. Ему нужен всё тот же глагол-помощник `do`, только теперь он выходит **в самое начало** предложения и поднимает флажок: «дальше будет вопрос».
+
+**Формула:** `Do` / `Does` + подлежащее + глагол в базовой форме V1 + ?
+
+- I / you / we / they → `Do`: **Do you work here?**
+- he / she / it → `Does`: **Does she live in Moscow?**
+
+**Почему помощник, а не сам глагол**
+
+Вспомни SVO из «Основ»: в английском жёсткий порядок слов, и просто так переставить глагол вперёд (как в русском «Работаешь ли ты?») нельзя — фраза сломается. Поэтому английский не двигает смысловой глагол, а ставит спереди помощника `do`/`does`. Глагол при этом остаётся на своём месте и в базовой форме — он не меняется вообще.
+
+**Ловушка:** **You work here?** — только интонацией — звучит в быту, но это не норма; в правильном вопросе впереди обязателен `Do`: **Do you work here?** ✓. Русский мозг хочет обойтись «той же фразой с вопросом в голосе» — английскому этого мало.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Чтобы задать вопрос в Present Simple, английскому мало интонации — вперёд выходит помощник `do`/`does`: `Do` для I/you/we/they, `Does` для he/she/it. Дальше — подлежащее и глагол в базовой форме V1: **Do you work here?**, **Does she live here?**. Сам глагол не двигается и не меняется.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 657 | Ты работаешь здесь? | Do you work here? |
+| 658 | Они живут рядом? | Do they live nearby? |
+| 659 | Она пьёт кофе по утрам? | Does she drink coffee in the morning? |
+| 660 | Твой брат играет в футбол? | Does your brother play football? |
+
+---
+
+#### Exercises
+
+**Ex 28 · MultipleChoice · FORWARD_CHOICE** *(ID: 86)*
+
+"Вы говорите по-французски?"
+
+- You speak French?
+- **Do you speak French?** ✓
+- Does you speak French?
+
+*Explanation:* Вопрос строится с помощником впереди: `you` → `Do`. Без помощника (`You speak French?`) — не норма; `Does` — только для he/she/it.
+
+---
+
+**Ex 29 · MultipleChoice · CHOICE** *(ID: 81)*
+
+"___ Lily live in Prague?"
+
+- Do
+- **Does** ✓
+- Is
+
+*Explanation:* `Lily` — это «она», 3-е лицо → помощник `Does`. `Do` — для I/you/we/they; `Is` — это `to be`, а здесь смысловой глагол `live`.
+
+---
+
+**Ex 30 · WordArrangement** *(ID: 57)*
+
+RU: Твои родители смотрят новости по вечерам?
+
+Правильное предложение: **Do your parents watch the news in the evening?**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Do | — |
+| your parents | — |
+| watch | — |
+| the news | — |
+| in the evening | — |
+| Does | ✗ |
+| watches | ✗ |
+| are | ✗ |
+
+*Explanation:* `your parents` — мн. число → помощник `Do` + базовая форма `watch`. `Does` — для 3-го лица ед. ч., `watches` — форма с `-s` (после помощника глагол голый), `are` — это `to be`.
+
+---
+
+**Ex 31 · TrueFalse** *(ID: 70)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Do your friends play tennis? | ✓ |
+| 2 | Does Megan speaks Spanish? | ✗ |
+| 3 | Do we need a ticket? | ✓ |
+| 4 | Does the shop open at nine? | ✓ |
+| 5 | Cooks he dinner? | ✗ |
+
+*Explanation:* №2 — после `Does` глагол без `-s`: Does Megan speak Spanish. №5 — смысловой глагол вперёд не двигают, нужен помощник: Does he cook dinner?
+
+---
+
+#### AI Exercise
+
+**ID:** present_simple_card157_ex1
+**Title:** "Задай вопрос"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст утвердительное предложение. Задайте к нему вопрос (да/нет)."
+**Prompt Template:** "Дай пользователю короткое ПРОСТОЕ утвердительное предложение в Present Simple с подлежащим I/you/we/they или he/she/it. Каждый раз бери разные глаголы, подлежащие и ситуации, не повторяйся. Попроси превратить его в общий вопрос (да/нет). Проверь, что пользователь поставил Do/Does впереди по лицу и глагол в базовой форме (без -s). При ошибке по-русски исправь и объясни, какой помощник нужен и почему глагол без -s."
+
+Пример вывода AI: 'Задайте вопрос: She works in a bank.'
+
+#### Clarification Options
+
+- Почему нельзя задать вопрос одной интонацией, как в русском?
+- Откуда в вопросе берётся do, если в утверждении его не было?
+- Почему говорят «Do you work?», а не «Work you?»
+
+---
+
+### Card 158 · Ловушка: после Does — голый глагол
+
+**ID:** 158 | **Order:** 2
+
+#### Theory
+
+Та же ловушка, что и в отрицании, поджидает в вопросе. Хочется сказать **Does she works?** ✗ — и здесь `-s` снова стоит **дважды**: и на помощнике (`does`), и на глаголе (`works`). Так нельзя.
+
+**Почему -s только один раз**
+
+`Does` — это уже `do` + `-s`. Помощник вышел вперёд и забрал окончание 3-го лица себе. Раз он уже сказал «это про he/she/it», глаголу повторять то же самое незачем — он возвращается к чистой базовой форме: **Does she work?** ✓. Это ровно то же правило, что в отрицании (**She doesn't work**): как только появился `does`/`doesn't`, `-s` сидит на нём, а не на глаголе.
+
+**Не путай с утверждением.** В утверждении `-s` нужен: **she works**. В вопросе — нет: **Does she work?**. Разница — в помощнике: появился `Does` → глагол голый.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+После `Does` глагол всегда в базовой форме — `-s` уже переехал на помощника, дублировать нельзя: **Does she works?** ✗ → **Does she work?** ✓. Это то же правило, что с `doesn't`. В утверждении `-s` нужен (**she works**), в вопросе — нет.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 661 | Он знает ответ? | Does he know the answer? |
+| 662 | Катя готовит дома? | Does Katya cook at home? |
+| 663 | Твоя сестра водит машину? | Does your sister drive a car? |
+| 664 | Бен играет на гитаре? | Does Ben play the guitar? |
+
+---
+
+#### Exercises
+
+**Ex 32 · ErrorCorrection** *(ID: 60)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Does Emma teaches English?"
+
+- Do Emma teach English?
+- **Does Emma teach English?** ✓
+- Does Emma teaching English?
+
+*Explanation:* После `Does` глагол в базовой форме: `teach`, не `teaches` (`-s` уже на помощнике). `Do` — неверный помощник для `Emma` (= «она»), `teaching` — другая форма.
+
+---
+
+**Ex 33 · MultipleChoice · CHOICE** *(ID: 82)*
+
+"Does the train ___ at six?"
+
+- leaves
+- **leave** ✓
+- leaving
+
+*Explanation:* После `Does` глагол голый — `leave`. `leaves` дублирует `-s` (он уже на `does`); `leaving` — другая форма.
+
+---
+
+**Ex 34 · FindTheOdd** *(ID: 32)*
+
+Три вопроса построены верно, один — с ошибкой:
+
+- Does Paul drink juice?
+- Do the kids watch cartoons?
+- **Does your teacher knows it?** ✓
+- Do we start at noon?
+
+*Explanation:* В «Does your teacher knows it» глагол лишний раз получил `-s`. После `Does` нужна базовая форма: knows → know. Остальные три вопроса верные.
+
+---
+
+#### AI Exercise
+
+**ID:** present_simple_card158_ex1
+**Title:** "Найди и исправь ошибку"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст вопрос с ошибкой. Перепишите его правильно."
+**Prompt Template:** "Дай пользователю один ПРОСТОЙ вопрос в Present Simple с 3-м лицом и типовой ошибкой: лишний -s после Does (Does she works?) или неверный помощник (Do he live here?). Каждый раз бери разные глаголы и ситуации. Попроси переписать верно. Проверь форму помощника (Do/Does по лицу) и базовую форму глагола без -s. При ошибке по-русски объясни, в чём была ошибка."
+
+Пример вывода AI: 'Исправьте ошибку: Does he likes coffee?'
+
+#### Clarification Options
+
+- Почему Does she works — ошибка, ведь she требует -s?
+- Куда девается -s у глагола в вопросе?
+- Это то же правило, что с doesn't?
+
+---
+
+### Card 159 · Краткие ответы: Yes, I do / No, she doesn't
+
+**ID:** 159 | **Order:** 3
+
+#### Theory
+
+На такой вопрос редко отвечают полным предложением. Англичанин ответит коротко — и для этого есть аккуратный шаблон.
+
+По-русски мы отвечаем «Да» / «Нет» или повторяем глагол: «Ты пьёшь чай?» — «Пью». В английском повторять смысловой глагол (**Yes, I drink**) звучит тяжело и неестественно. Вместо этого отвечают тем самым помощником, который и строил вопрос:
+
+**Формула:** `Yes` / `No` + подлежащее + помощник (`do`/`does` для «да», `don't`/`doesn't` для «нет»).
+
+- **Do you like coffee?** → **Yes, I do.** / **No, I don't.**
+- **Does she work here?** → **Yes, she does.** / **No, she doesn't.**
+
+**Почему именно помощник**
+
+Помощник в английском заменяет собой всё действие целиком — он как «местоимение для глагола». Сказал `I do` — и это уже значит «да, я делаю (то, о чём спросили)», повторять `like` не нужно.
+
+Это не совсем новое: в «Основах» мы так же коротко отвечали про `to be` (**Are you tired? — Yes, I am.**) и про `have`. Теперь распространяем тот же приём на **любой** смысловой глагол — через `do`/`does`.
+
+**Ловушка:** **Yes, I like.** ✗ как краткий ответ — недосказано, нужен помощник: **Yes, I do.** ✓. И помощник должен совпасть с лицом: **Do you…? — Yes, I does.** ✗ → **Yes, I do.** ✓
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Кратко отвечаем помощником, а не повторяя глагол: `Yes/No` + подлежащее + `do`/`does` (или `don't`/`doesn't`). **Do you like tea? — Yes, I do.** / **Does he work here? — No, he doesn't.** Помощник заменяет всё действие; повторять смысловой глагол (**Yes, I like**) не нужно.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 665 | — Ты пьёшь чай? — Да. | — Do you drink tea? — Yes, I do. |
+| 666 | — Она живёт здесь? — Нет. | — Does she live here? — No, she doesn't. |
+| 667 | — Они работают по выходным? — Да. | — Do they work on weekends? — Yes, they do. |
+| 668 | — Твой друг знает её? — Нет. | — Does your friend know her? — No, he doesn't. |
+
+---
+
+#### Exercises
+
+**Ex 35 · DialogRestore** *(ID: 12)*
+
+A: "Do you play chess?"
+B: ___
+
+- Yes, I play.
+- Yes, I am.
+- **Yes, I do.** ✓
+
+*Explanation:* На вопрос с `Do` отвечают помощником `do`: **Yes, I do.** `Yes, I play` — без помощника (недосказано); `Yes, I am` — это ответ для `to be`, а вопрос был со смысловым глаголом.
+
+---
+
+**Ex 36 · Matching** *(ID: 28)*
+
+Задание: соедини вопрос с верным кратким ответом.
+
+| Вопрос | Ответ |
+|--------|-------|
+| Do you speak Italian? | Yes, I do. |
+| Does Nick like jazz? | Yes, he does. |
+| Do the shops close early? | No, they don't. |
+| Does Sara drive? | No, she doesn't. |
+
+*Explanation:* Краткий ответ берёт помощник по лицу подлежащего: `I/you/they` → do/don't, `he/she` → does/doesn't.
+
+---
+
+**Ex 37 · MultipleChoice · FORWARD_CHOICE** *(ID: 87)*
+
+"— Тёма любит спорт? — Да."
+
+- Yes, he do.
+- **Yes, he does.** ✓
+- Yes, he is.
+
+*Explanation:* `Тёма` = «он» → помощник `does`. `he do` — не то лицо; `he is` — это `to be`, а вопрос был про `like`.
+
+---
+
+#### AI Exercise
+
+**ID:** present_simple_card159_ex1
+**Title:** "Ответь кратко"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ задаст вопрос. Ответьте кратко — «да» или «нет»."
+**Prompt Template:** "Задай пользователю один ПРОСТОЙ вопрос в Present Simple (да/нет) с помощником Do или Does — каждый раз разные глаголы, подлежащие и ситуации, не повторяйся. Попроси ответить кратко (Yes, … / No, …). Проверь, что в ответе правильный помощник по лицу (do/does/don't/doesn't), а смысловой глагол не повторяется. При ошибке по-русски объясни, какой помощник нужен."
+
+Пример вывода AI: 'Ответьте кратко: Does your brother play football?'
+
+#### Clarification Options
+
+- Почему нельзя ответить «Yes, I like»?
+- Откуда в ответе берётся do, если в вопросе спрашивали про другой глагол?
+- Чем краткий ответ с do отличается от ответа с to be (Yes, I am)?
+
+---
+
+### Card 160 · WH-вопросы: where / what / when впереди
+
+**ID:** 160 | **Order:** 4
+
+#### Theory
+
+До этого мы спрашивали так, что ответом было «да» или «нет». Но часто нам нужно узнать **что именно** — где, что, когда. Для этого впереди встаёт вопросительное слово (мы знакомились с ними в «Основах»: where, what, when, who, why, how).
+
+**Формула:** вопросительное слово + `do`/`does` + подлежащее + глагол V1.
+
+- **Where do you live?** — Где ты живёшь?
+- **What does he read?** — Что он читает?
+- **When do they start?** — Когда они начинают?
+
+**Почему это уже знакомо**
+
+Вся «машинка» из `do`/`does` остаётся ровно той же, что и в вопросе да/нет. Мы лишь приписываем спереди слово, которое говорит, **какую именно информацию** хотим. То есть строить ничего нового не нужно: взял обычный вопрос с `do`/`does` и поставил перед ним where/what/when.
+
+**Ловушка:** **Where you live?** ✗ — забыли помощника. Вопросительное слово его не отменяет: **Where do you live?** ✓. И второе: **Where does he lives?** ✗ — после `does` глагол всё так же голый: **Where does he live?** ✓
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+WH-вопрос = вопросительное слово впереди + обычная машинка `do`/`does` + подлежащее + V1: **Where do you live?**, **What does she do?**, **When do they start?**. Помощник никуда не девается (не **Where you live?**), и после `does` глагол без `-s`.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 669 | Где ты живёшь? | Where do you live? |
+| 670 | Когда они начинают? | When do they start? |
+| 671 | Где она работает? | Where does she work? |
+| 672 | Что он читает? | What does he read? |
+
+---
+
+#### Exercises
+
+**Ex 38 · TextInput** *(ID: 35)*
+
+1. "___ does this bus go?" (Спрашиваю о месте)
+   Ответ: **Where**
+
+2. "___ do you want for dinner?" (Спрашиваю о вещи)
+   Ответ: **What**
+
+3. "___ does the film begin?" (Спрашиваю о времени)
+   Ответ: **When**
+
+*Explanation:* Вопросительное слово выбирается по смыслу: место → Where, предмет/вещь → What, время → When. Помощник `do`/`does` идёт сразу за ним.
+
+---
+
+**Ex 39 · WordArrangement** *(ID: 58)*
+
+RU: Что они едят на завтрак?
+
+Правильное предложение: **What do they eat for breakfast?**
+
+| Слово | Лишнее? |
+|-------|---------|
+| What | — |
+| do | — |
+| they | — |
+| eat | — |
+| for breakfast | — |
+| does | ✗ |
+| eats | ✗ |
+| are | ✗ |
+
+*Explanation:* `they` → помощник `do` + базовая форма `eat`. `does` — для 3-го лица ед. ч., `eats` — лишний `-s`, `are` — это `to be`.
+
+---
+
+**Ex 40 · MultipleChoice · CHOICE** *(ID: 83)*
+
+"___ does the lesson start?" (Спрашиваю о времени)
+
+- Where
+- **When** ✓
+- What
+
+*Explanation:* Спрашиваем о времени → `When`. `Where` — о месте, `What` — о предмете.
+
+---
+
+#### AI Exercise
+
+**ID:** present_simple_card160_ex1
+**Title:** "Ответь на вопрос"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ задаст вопрос со словом where/what/when. Ответьте на него полным предложением."
+**Prompt Template:** "Задай пользователю один ПРОСТОЙ WH-вопрос в Present Simple (со словом where, what или when) — каждый раз разное вопросительное слово, разные глаголы и ситуации, не повторяйся. Если в присланном списке слов пользователя есть подходящие — желательно строить вопрос вокруг них: фокус задания на построении и понимании WH-вопроса, а не на конкретной лексике. Попроси ответить полным предложением в Present Simple. Проверь, что ответ по смыслу подходит вопросу и глагол в правильной форме (с -s для he/she/it). При ошибке по-русски объясни."
+
+Пример вывода AI: 'Ответьте полным предложением: Where do you work?'
+
+#### Clarification Options
+
+- Зачем в WH-вопросе всё равно нужен do, если есть where/what?
+- Почему «Where does he live?», а не «Where does he lives?»
+- Чем WH-вопрос отличается от вопроса с ответом да/нет?
+
+---
+
+### Card 161 · «Двойное do»: What do you do?
+
+**ID:** 161 | **Order:** 5
+
+#### Theory
+
+Есть один вопрос, который ставит новичков в тупик: **What do you do?** Два `do` подряд — это не опечатка и не заикание.
+
+Дело в том, что `do` в английском живёт сразу в двух ролях, и здесь они встретились в одной фразе:
+
+- первый `do` — **помощник**, который строит вопрос (как `Do you…?`);
+- второй `do` — **смысловой глагол** «делать / заниматься».
+
+Получается дословно «Что ты делаешь (по жизни)?» — а по смыслу это вопрос о профессии: **«Чем ты занимаешься? Кем работаешь?»**. Отвечают на него обычно через `to be` или род занятий: **I'm a doctor.** / **I work in a bank.**
+
+**Кстати:** это одна из самых частых фраз при знакомстве. Услышав **What do you do?**, человек спрашивает не «что ты делаешь сейчас», а «кем ты работаешь». Для 3-го лица — **What does she do?**
+
+Чтобы увидеть обе роли `do` рядом ещё нагляднее: **Does he do his homework?** *(Он делает домашнюю работу?)* — `does` (помощник) + `do` (глагол «делать»). Один и тот же `do`, но работает дважды.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+В **What do you do?** первый `do` — помощник (строит вопрос), второй — смысловой глагол «делать/заниматься». По смыслу это вопрос о профессии: «Кем работаешь?». Ответ — **I'm a teacher.** / **I work in IT.** Для he/she/it — **What does she do?**
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 673 | Чем ты занимаешься? (кем работаешь) | What do you do? |
+| 674 | Чем она занимается? | What does she do? |
+| 675 | — Чем ты занимаешься? — Я врач. | — What do you do? — I'm a doctor. |
+| 676 | Что ты делаешь по выходным? | What do you do on weekends? |
+
+---
+
+#### Exercises
+
+**Ex 41 · ConstructionMeaning** *(ID: 9)*
+
+Выбери правильный перевод:
+
+"What does your brother do?"
+
+- **Чем занимается твой брат?** ✓
+- Что твой брат сейчас делает?
+- Что твой брат будет делать?
+- Твой брат вообще что-нибудь делает?
+
+*Explanation:* Первый `does` — помощник вопроса, второй `do` — глагол «заниматься/работать». Это вопрос о профессии вообще, а не о действии в текущий момент (то было бы Present Continuous).
+
+---
+
+**Ex 42 · MultipleChoice · FORWARD_CHOICE** *(ID: 88)*
+
+"Чем занимается твоя сестра?"
+
+- What does your sister does?
+- **What does your sister do?** ✓
+- What is your sister do?
+
+*Explanation:* `your sister` = «она» → помощник `does` + смысловой глагол `do` в базовой форме. `does … does` — `-s` дважды; `is … do` — смешали `to be` и `do`.
+
+---
+
+**Ex 43 · DialogRestore** *(ID: 13)*
+
+A: "What do you do?"
+B: ___
+
+- I do an engineer.
+- **I'm an engineer.** ✓
+- I'm engineer.
+
+*Explanation:* На вопрос о профессии отвечают через `to be` + название профессии: **I'm an engineer.** `I do an engineer` — бессмыслица; `I'm engineer` — без артикля `an`.
+
+---
+
+#### Clarification Options
+
+- Почему в «What do you do?» два раза do?
+- Это вопрос про сейчас или про работу вообще?
+- Как ответить на «What do you do?»
+
+---
+
+### Card 162 · to be не берёт do/does
+
+**ID:** 162 | **Order:** 6
+
+#### Theory
+
+Важный поворот. Все вопросы выше были про **смысловые** глаголы (work, live, like, know) — им нужен помощник `do`/`does`. Но есть глагол, который ведёт себя иначе, — наш старый знакомый `to be` (am / is / are).
+
+`to be` **сам себе помощник**. Чтобы спросить с ним, не нужен никакой `do` — просто ставим `is`/`are`/`am` вперёд:
+
+- **Is he a doctor?** — Он врач?
+- **Are you tired?** — Ты устал?
+
+**Откуда берётся ошибка**
+
+Выучив `do`/`does`, русскоговорящий начинает лепить помощника вообще ко всему: **Does he is a doctor?** ✗, **Does he be a doctor?** ✗. Корень в том, что `to be` не нуждается в подмоге — он умеет вставать в начало сам (мы это уже делали в «Основах»: **Is she happy?**). Помощник `do` нужен только тем глаголам, которые сами двигаться вперёд не умеют.
+
+**Как не запутаться — простой признак**
+
+Посмотри на утверждение:
+
+- есть `is`/`are`/`am` (**he is a doctor**) → вопрос делаем перестановкой `to be`: **Is he a doctor?**
+- есть смысловой глагол (**he works**) → вопрос делаем через `do`/`does`: **Does he work?**
+
+**Ловушка:** **Is he works?** ✗ и **Does he be?** ✗ — это попытка включить обе системы сразу. Выбираем одну: либо `to be` вперёд, либо помощник `do` — но не вместе.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`to be` (am/is/are) сам себе помощник — для вопроса его просто ставят вперёд: **Is he a doctor?**, **Are you tired?**. Помощник `do`/`does` к нему не добавляют (**Does he is…** ✗). Признак: в утверждении `is/are` → вопрос перестановкой `to be`; смысловой глагол (`works`) → вопрос через `do`/`does`.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 677 | Он врач? | Is he a doctor? |
+| 678 | Ты устал? | Are you tired? |
+| 679 | Она дома? | Is she at home? |
+| 680 | Они счастливы? | Are they happy? |
+
+---
+
+#### Exercises
+
+**Ex 44 · ErrorCorrection** *(ID: 61)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Does she be at the office?"
+
+- Do she at the office?
+- **Is she at the office?** ✓
+- Does she is at the office?
+
+*Explanation:* С `to be` помощник `do`/`does` не нужен — глагол `is` сам встаёт вперёд: **Is she at the office?** `Does she is` и `Does she be` смешивают две системы сразу.
+
+---
+
+**Ex 45 · MultipleChoice · CHOICE** *(ID: 84)*
+
+"___ they ready?"
+
+- Do
+- **Are** ✓
+- Does
+
+*Explanation:* `ready` — прилагательное, сказуемое строится на `to be`: **Are they ready?**. `Do`/`Does` нужны только смысловым глаголам (work, live), а не `to be`.
+
+---
+
+**Ex 46 · Categorization** *(ID: 33)*
+
+Задание: распредели, через что задаётся вопрос — через помощника Do/Does или через to be (Is/Are).
+
+| Do/Does | Is/Are |
+|---------|--------|
+| speak English | a student |
+| read books | hungry |
+| take the bus | from Spain |
+| wash the car | afraid |
+
+*Explanation:* Смысловой глагол-действие (speak, read, take, wash) → вопрос с `Do`/`Does`. Описание «кто/какой/откуда» строится на `to be` → вопрос с `Is`/`Are`.
+
+---
+
+#### AI Exercise
+
+**ID:** present_simple_card162_ex1
+**Title:** "Найди и исправь ошибку"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст вопрос с ошибкой. Перепишите его правильно."
+**Prompt Template:** "Дай пользователю один ПРОСТОЙ вопрос в Present Simple, где помощник do/does ошибочно прилеплен к глаголу to be (например Does he is a doctor? или Do you are tired?). Каждый раз бери разные подлежащие и ситуации. Попроси переписать верно. Правильный вопрос с to be строится перестановкой is/are/am вперёд, без do/does. При ошибке по-русски объясни, почему to be не берёт помощника."
+
+Пример вывода AI: 'Исправьте ошибку: Does she is at home?'
+
+#### Clarification Options
+
+- Почему to be не нужен помощник do?
+- Как понять, когда вопрос с Do/Does, а когда с Is/Are?
+- Почему «Does he is a doctor?» — ошибка?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| job | работа, должность | [dʒɒb] |
+| doctor | врач, доктор | [ˈdɒktə] |
+| answer | ответ | [ˈɑːnsə] |
+| question | вопрос | [ˈkwestʃən] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 8 | 9 |
-| Microtopic | 51 | 52 |
-| Card | 156 | 157 |
-| Example | 656 | 657 |
-| MultipleChoice · CHOICE | 80 | 81 |
-| MultipleChoice · FORWARD_CHOICE | 85 | 86 |
+| Microtopic | 52 | 53 |
+| Card | 162 | 163 |
+| Example | 680 | 681 |
+| MultipleChoice · CHOICE | 84 | 85 |
+| MultipleChoice · FORWARD_CHOICE | 88 | 89 |
 | MultipleChoice · REVERSE_CHOICE | — | 26 |
-| TrueFalse | 69 | 70 |
-| WordArrangement | 56 | 57 |
-| TextInput | 34 | 35 |
-| Matching | 27 | 28 |
+| TrueFalse | 70 | 71 |
+| WordArrangement | 58 | 59 |
+| TextInput | 35 | 36 |
+| Matching | 28 | 29 |
 | Transformation | 20 | 21 |
-| ErrorCorrection | 59 | 60 |
+| ErrorCorrection | 61 | 62 |
 | TableFill | 13 | 14 |
-| FindTheOdd | 31 | 32 |
-| ConstructionMeaning | 8 | 9 |
-| Categorization | 32 | 33 |
-| DialogRestore | 11 | 12 |
-| course_word | 330 | 331 |
+| FindTheOdd | 32 | 33 |
+| ConstructionMeaning | 9 | 10 |
+| Categorization | 33 | 34 |
+| DialogRestore | 13 | 14 |
+| course_word | 334 | 335 |

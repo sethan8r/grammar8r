@@ -28,6 +28,12 @@
       "topicId": 8,
       "title": "Negative · Образование: отрицание",
       "order": 3
+    },
+    {
+      "id": 52,
+      "topicId": 8,
+      "title": "Questions · Образование: вопрос",
+      "order": 4
     }
   ],
   "grammar_cards": [
@@ -714,6 +720,439 @@
         "Когда глаголу нужен -s, а когда нет?",
         "doesn't и does not — в чём разница?"
       ]
+    },
+    {
+      "id": 157,
+      "microtopicId": 52,
+      "title": "Вопрос: помощник Do/Does выходит вперёд",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы научились утверждать и отрицать — осталось научиться **спрашивать**. И снова английский ведёт себя не так, как русский."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски, чтобы превратить утверждение в вопрос, обычно хватает интонации: «Ты работаешь» → «Ты работаешь?». Слова те же самые, просто голос пошёл вверх. Английский так почти не умеет — на одну интонацию он не полагается. Ему нужен всё тот же глагол-помощник `do`, только теперь он выходит **в самое начало** предложения и поднимает флажок: «дальше будет вопрос»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Do` / `Does` + подлежащее + глагол в базовой форме V1 + ?"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "I / you / we / they → `Do`: **Do you work here?**",
+            "he / she / it → `Does`: **Does she live in Moscow?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему помощник, а не сам глагол"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомни SVO из «Основ»: в английском жёсткий порядок слов, и просто так переставить глагол вперёд (как в русском «Работаешь ли ты?») нельзя — фраза сломается. Поэтому английский не двигает смысловой глагол, а ставит спереди помощника `do`/`does`. Глагол при этом остаётся на своём месте и в базовой форме — он не меняется вообще."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**You work here?** — только интонацией — звучит в быту, но это не норма; в правильном вопросе впереди обязателен `Do`: **Do you work here?** ✓. Русский мозг хочет обойтись «той же фразой с вопросом в голосе» — английскому этого мало."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Чтобы задать вопрос в Present Simple, английскому мало интонации — вперёд выходит помощник `do`/`does`: `Do` для I/you/we/they, `Does` для he/she/it. Дальше — подлежащее и глагол в базовой форме V1: **Do you work here?**, **Does she live here?**. Сам глагол не двигается и не меняется.",
+      "examples": [
+        {
+          "ru": "Ты работаешь здесь?",
+          "en": "Do you work here?"
+        },
+        {
+          "ru": "Они живут рядом?",
+          "en": "Do they live nearby?"
+        },
+        {
+          "ru": "Она пьёт кофе по утрам?",
+          "en": "Does she drink coffee in the morning?"
+        },
+        {
+          "ru": "Твой брат играет в футбол?",
+          "en": "Does your brother play football?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя задать вопрос одной интонацией, как в русском?",
+        "Откуда в вопросе берётся do, если в утверждении его не было?",
+        "Почему говорят «Do you work?», а не «Work you?»"
+      ]
+    },
+    {
+      "id": 158,
+      "microtopicId": 52,
+      "title": "Ловушка: после Does — голый глагол",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Та же ловушка, что и в отрицании, поджидает в вопросе. Хочется сказать **Does she works?** ✗ — и здесь `-s` снова стоит **дважды**: и на помощнике (`does`), и на глаголе (`works`). Так нельзя."
+        },
+        {
+          "type": "heading",
+          "text": "Почему -s только один раз"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Does` — это уже `do` + `-s`. Помощник вышел вперёд и забрал окончание 3-го лица себе. Раз он уже сказал «это про he/she/it», глаголу повторять то же самое незачем — он возвращается к чистой базовой форме: **Does she work?** ✓. Это ровно то же правило, что в отрицании (**She doesn't work**): как только появился `does`/`doesn't`, `-s` сидит на нём, а не на глаголе."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Не путай с утверждением.** В утверждении `-s` нужен: **she works**. В вопросе — нет: **Does she work?**. Разница — в помощнике: появился `Does` → глагол голый."
+        }
+      ],
+      "theorySummary": "После `Does` глагол всегда в базовой форме — `-s` уже переехал на помощника, дублировать нельзя: **Does she works?** ✗ → **Does she work?** ✓. Это то же правило, что с `doesn't`. В утверждении `-s` нужен (**she works**), в вопросе — нет.",
+      "examples": [
+        {
+          "ru": "Он знает ответ?",
+          "en": "Does he know the answer?"
+        },
+        {
+          "ru": "Катя готовит дома?",
+          "en": "Does Katya cook at home?"
+        },
+        {
+          "ru": "Твоя сестра водит машину?",
+          "en": "Does your sister drive a car?"
+        },
+        {
+          "ru": "Бен играет на гитаре?",
+          "en": "Does Ben play the guitar?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему Does she works — ошибка, ведь she требует -s?",
+        "Куда девается -s у глагола в вопросе?",
+        "Это то же правило, что с doesn't?"
+      ]
+    },
+    {
+      "id": 159,
+      "microtopicId": 52,
+      "title": "Краткие ответы: Yes, I do / No, she doesn't",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "На такой вопрос редко отвечают полным предложением. Англичанин ответит коротко — и для этого есть аккуратный шаблон."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы отвечаем «Да» / «Нет» или повторяем глагол: «Ты пьёшь чай?» — «Пью». В английском повторять смысловой глагол (**Yes, I drink**) звучит тяжело и неестественно. Вместо этого отвечают тем самым помощником, который и строил вопрос:"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Yes` / `No` + подлежащее + помощник (`do`/`does` для «да», `don't`/`doesn't` для «нет»)."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Do you like coffee?** → **Yes, I do.** / **No, I don't.**",
+            "**Does she work here?** → **Yes, she does.** / **No, she doesn't.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему именно помощник"
+        },
+        {
+          "type": "paragraph",
+          "text": "Помощник в английском заменяет собой всё действие целиком — он как «местоимение для глагола». Сказал `I do` — и это уже значит «да, я делаю (то, о чём спросили)», повторять `like` не нужно."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это не совсем новое: в «Основах» мы так же коротко отвечали про `to be` (**Are you tired? — Yes, I am.**) и про `have`. Теперь распространяем тот же приём на **любой** смысловой глагол — через `do`/`does`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Yes, I like.** ✗ как краткий ответ — недосказано, нужен помощник: **Yes, I do.** ✓. И помощник должен совпасть с лицом: **Do you…? — Yes, I does.** ✗ → **Yes, I do.** ✓"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Кратко отвечаем помощником, а не повторяя глагол: `Yes/No` + подлежащее + `do`/`does` (или `don't`/`doesn't`). **Do you like tea? — Yes, I do.** / **Does he work here? — No, he doesn't.** Помощник заменяет всё действие; повторять смысловой глагол (**Yes, I like**) не нужно.",
+      "examples": [
+        {
+          "ru": "— Ты пьёшь чай? — Да.",
+          "en": "— Do you drink tea? — Yes, I do."
+        },
+        {
+          "ru": "— Она живёт здесь? — Нет.",
+          "en": "— Does she live here? — No, she doesn't."
+        },
+        {
+          "ru": "— Они работают по выходным? — Да.",
+          "en": "— Do they work on weekends? — Yes, they do."
+        },
+        {
+          "ru": "— Твой друг знает её? — Нет.",
+          "en": "— Does your friend know her? — No, he doesn't."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя ответить «Yes, I like»?",
+        "Откуда в ответе берётся do, если в вопросе спрашивали про другой глагол?",
+        "Чем краткий ответ с do отличается от ответа с to be (Yes, I am)?"
+      ]
+    },
+    {
+      "id": 160,
+      "microtopicId": 52,
+      "title": "WH-вопросы: where / what / when впереди",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До этого мы спрашивали так, что ответом было «да» или «нет». Но часто нам нужно узнать **что именно** — где, что, когда. Для этого впереди встаёт вопросительное слово (мы знакомились с ними в «Основах»: where, what, when, who, why, how)."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вопросительное слово + `do`/`does` + подлежащее + глагол V1."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Where do you live?** — Где ты живёшь?",
+            "**What does he read?** — Что он читает?",
+            "**When do they start?** — Когда они начинают?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему это уже знакомо"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вся «машинка» из `do`/`does` остаётся ровно той же, что и в вопросе да/нет. Мы лишь приписываем спереди слово, которое говорит, **какую именно информацию** хотим. То есть строить ничего нового не нужно: взял обычный вопрос с `do`/`does` и поставил перед ним where/what/when."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Where you live?** ✗ — забыли помощника. Вопросительное слово его не отменяет: **Where do you live?** ✓. И второе: **Where does he lives?** ✗ — после `does` глагол всё так же голый: **Where does he live?** ✓"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "WH-вопрос = вопросительное слово впереди + обычная машинка `do`/`does` + подлежащее + V1: **Where do you live?**, **What does she do?**, **When do they start?**. Помощник никуда не девается (не **Where you live?**), и после `does` глагол без `-s`.",
+      "examples": [
+        {
+          "ru": "Где ты живёшь?",
+          "en": "Where do you live?"
+        },
+        {
+          "ru": "Когда они начинают?",
+          "en": "When do they start?"
+        },
+        {
+          "ru": "Где она работает?",
+          "en": "Where does she work?"
+        },
+        {
+          "ru": "Что он читает?",
+          "en": "What does he read?"
+        }
+      ],
+      "clarificationOptions": [
+        "Зачем в WH-вопросе всё равно нужен do, если есть where/what?",
+        "Почему «Where does he live?», а не «Where does he lives?»",
+        "Чем WH-вопрос отличается от вопроса с ответом да/нет?"
+      ]
+    },
+    {
+      "id": 161,
+      "microtopicId": 52,
+      "title": "«Двойное do»: What do you do?",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть один вопрос, который ставит новичков в тупик: **What do you do?** Два `do` подряд — это не опечатка и не заикание."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дело в том, что `do` в английском живёт сразу в двух ролях, и здесь они встретились в одной фразе:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "первый `do` — **помощник**, который строит вопрос (как `Do you…?`);",
+            "второй `do` — **смысловой глагол** «делать / заниматься»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Получается дословно «Что ты делаешь (по жизни)?» — а по смыслу это вопрос о профессии: **«Чем ты занимаешься? Кем работаешь?»**. Отвечают на него обычно через `to be` или род занятий: **I'm a doctor.** / **I work in a bank.**"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это одна из самых частых фраз при знакомстве. Услышав **What do you do?**, человек спрашивает не «что ты делаешь сейчас», а «кем ты работаешь». Для 3-го лица — **What does she do?**"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы увидеть обе роли `do` рядом ещё нагляднее: **Does he do his homework?** *(Он делает домашнюю работу?)* — `does` (помощник) + `do` (глагол «делать»). Один и тот же `do`, но работает дважды."
+        }
+      ],
+      "theorySummary": "В **What do you do?** первый `do` — помощник (строит вопрос), второй — смысловой глагол «делать/заниматься». По смыслу это вопрос о профессии: «Кем работаешь?». Ответ — **I'm a teacher.** / **I work in IT.** Для he/she/it — **What does she do?**",
+      "examples": [
+        {
+          "ru": "Чем ты занимаешься? (кем работаешь)",
+          "en": "What do you do?"
+        },
+        {
+          "ru": "Чем она занимается?",
+          "en": "What does she do?"
+        },
+        {
+          "ru": "— Чем ты занимаешься? — Я врач.",
+          "en": "— What do you do? — I'm a doctor."
+        },
+        {
+          "ru": "Что ты делаешь по выходным?",
+          "en": "What do you do on weekends?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в «What do you do?» два раза do?",
+        "Это вопрос про сейчас или про работу вообще?",
+        "Как ответить на «What do you do?»"
+      ]
+    },
+    {
+      "id": 162,
+      "microtopicId": 52,
+      "title": "to be не берёт do/does",
+      "order": 6,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Важный поворот. Все вопросы выше были про **смысловые** глаголы (work, live, like, know) — им нужен помощник `do`/`does`. Но есть глагол, который ведёт себя иначе, — наш старый знакомый `to be` (am / is / are)."
+        },
+        {
+          "type": "paragraph",
+          "text": "`to be` **сам себе помощник**. Чтобы спросить с ним, не нужен никакой `do` — просто ставим `is`/`are`/`am` вперёд:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Is he a doctor?** — Он врач?",
+            "**Are you tired?** — Ты устал?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда берётся ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Выучив `do`/`does`, русскоговорящий начинает лепить помощника вообще ко всему: **Does he is a doctor?** ✗, **Does he be a doctor?** ✗. Корень в том, что `to be` не нуждается в подмоге — он умеет вставать в начало сам (мы это уже делали в «Основах»: **Is she happy?**). Помощник `do` нужен только тем глаголам, которые сами двигаться вперёд не умеют."
+        },
+        {
+          "type": "heading",
+          "text": "Как не запутаться — простой признак"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотри на утверждение:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "есть `is`/`are`/`am` (**he is a doctor**) → вопрос делаем перестановкой `to be`: **Is he a doctor?**",
+            "есть смысловой глагол (**he works**) → вопрос делаем через `do`/`does`: **Does he work?**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Is he works?** ✗ и **Does he be?** ✗ — это попытка включить обе системы сразу. Выбираем одну: либо `to be` вперёд, либо помощник `do` — но не вместе."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`to be` (am/is/are) сам себе помощник — для вопроса его просто ставят вперёд: **Is he a doctor?**, **Are you tired?**. Помощник `do`/`does` к нему не добавляют (**Does he is…** ✗). Признак: в утверждении `is/are` → вопрос перестановкой `to be`; смысловой глагол (`works`) → вопрос через `do`/`does`.",
+      "examples": [
+        {
+          "ru": "Он врач?",
+          "en": "Is he a doctor?"
+        },
+        {
+          "ru": "Ты устал?",
+          "en": "Are you tired?"
+        },
+        {
+          "ru": "Она дома?",
+          "en": "Is she at home?"
+        },
+        {
+          "ru": "Они счастливы?",
+          "en": "Are they happy?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему to be не нужен помощник do?",
+        "Как понять, когда вопрос с Do/Does, а когда с Is/Are?",
+        "Почему «Does he is a doctor?» — ошибка?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -878,6 +1317,120 @@
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 80,
       "orderInCard": 3
+    },
+    {
+      "cardId": 157,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 86,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 157,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 81,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 157,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 57,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 157,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 70,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 158,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 60,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 158,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 82,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 158,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 32,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 159,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 12,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 159,
+      "exerciseType": "MATCHING",
+      "exerciseId": 28,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 159,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 87,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 160,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 35,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 160,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 58,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 160,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 83,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 161,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 9,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 161,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 88,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 161,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 13,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 162,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 61,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 162,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 84,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 162,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 33,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -934,6 +1487,46 @@
       "cardId": 156,
       "title": "Найди и исправь ошибку",
       "userInstruction": "ИИ даст отрицательное предложение с ошибкой. Перепишите его правильно.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card157_ex1",
+      "cardId": 157,
+      "title": "Задай вопрос",
+      "userInstruction": "ИИ даст утвердительное предложение. Задайте к нему вопрос (да/нет).",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card158_ex1",
+      "cardId": 158,
+      "title": "Найди и исправь ошибку",
+      "userInstruction": "ИИ даст вопрос с ошибкой. Перепишите его правильно.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card159_ex1",
+      "cardId": 159,
+      "title": "Ответь кратко",
+      "userInstruction": "ИИ задаст вопрос. Ответьте кратко — «да» или «нет».",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card160_ex1",
+      "cardId": 160,
+      "title": "Ответь на вопрос",
+      "userInstruction": "ИИ задаст вопрос со словом where/what/when. Ответьте на него полным предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_simple_card162_ex1",
+      "cardId": 162,
+      "title": "Найди и исправь ошибку",
+      "userInstruction": "ИИ даст вопрос с ошибкой. Перепишите его правильно.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -1041,6 +1634,38 @@
       "translation": "чай",
       "transcription": "[tiː]",
       "microtopicId": 51,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 331,
+      "word": "job",
+      "translation": "работа, должность",
+      "transcription": "[dʒɒb]",
+      "microtopicId": 52,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 332,
+      "word": "doctor",
+      "translation": "врач, доктор",
+      "transcription": "[ˈdɒktə]",
+      "microtopicId": 52,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 333,
+      "word": "answer",
+      "translation": "ответ",
+      "transcription": "[ˈɑːnsə]",
+      "microtopicId": 52,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 334,
+      "word": "question",
+      "translation": "вопрос",
+      "transcription": "[ˈkwestʃən]",
+      "microtopicId": 52,
       "categoryId": "tenses"
     }
   ],
@@ -1193,6 +1818,37 @@
         }
       ],
       "explanation": "№2 — для `he` нужен `doesn't`: He doesn't live here. №5 — `Sam` это «он», тоже `doesn't`: Sam doesn't play."
+    },
+    {
+      "id": 70,
+      "statements": [
+        {
+          "en": "Do your friends play tennis?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Does Megan speaks Spanish?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Do we need a ticket?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Does the shop open at nine?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Cooks he dinner?",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "№2 — после `Does` глагол без `-s`: Does Megan speak Spanish. №5 — смысловой глагол вперёд не двигают, нужен помощник: Does he cook dinner?"
     }
   ],
   "word_arrangement_exercises": [
@@ -1231,6 +1887,42 @@
         "watches"
       ],
       "explanation": "`they` → `don't` + базовая форма `watch`. `doesn't` — для 3-го лица, `not` без `do` не ставят, `watches` — форма с `-s` (после `don't` глагол голый)."
+    },
+    {
+      "id": 57,
+      "situationRu": "RU: Твои родители смотрят новости по вечерам?",
+      "correctSentence": "Do your parents watch the news in the evening?",
+      "words": [
+        "Do",
+        "your parents",
+        "watch",
+        "the news",
+        "in the evening"
+      ],
+      "distractors": [
+        "Does",
+        "watches",
+        "are"
+      ],
+      "explanation": "`your parents` — мн. число → помощник `Do` + базовая форма `watch`. `Does` — для 3-го лица ед. ч., `watches` — форма с `-s` (после помощника глагол голый), `are` — это `to be`."
+    },
+    {
+      "id": 58,
+      "situationRu": "RU: Что они едят на завтрак?",
+      "correctSentence": "What do they eat for breakfast?",
+      "words": [
+        "What",
+        "do",
+        "they",
+        "eat",
+        "for breakfast"
+      ],
+      "distractors": [
+        "does",
+        "eats",
+        "are"
+      ],
+      "explanation": "`they` → помощник `do` + базовая форма `eat`. `does` — для 3-го лица ед. ч., `eats` — лишний `-s`, `are` — это `to be`."
     }
   ],
   "multiple_choice_exercises": [
@@ -1380,6 +2072,153 @@
         }
       ],
       "explanation": "После `doesn't` глагол в базовой форме — `work`. `works` дублирует `-s` (он уже на `does`); `working` — другая форма."
+    },
+    {
+      "id": 86,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вы говорите по-французски?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "You speak French?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you speak French?",
+          "isCorrect": true
+        },
+        {
+          "text": "Does you speak French?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вопрос строится с помощником впереди: `you` → `Do`. Без помощника (`You speak French?`) — не норма; `Does` — только для he/she/it."
+    },
+    {
+      "id": 81,
+      "choiceType": "CHOICE",
+      "prompt": "___ Lily live in Prague?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Do",
+          "isCorrect": false
+        },
+        {
+          "text": "Does",
+          "isCorrect": true
+        },
+        {
+          "text": "Is",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`Lily` — это «она», 3-е лицо → помощник `Does`. `Do` — для I/you/we/they; `Is` — это `to be`, а здесь смысловой глагол `live`."
+    },
+    {
+      "id": 82,
+      "choiceType": "CHOICE",
+      "prompt": "Does the train ___ at six?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "leaves",
+          "isCorrect": false
+        },
+        {
+          "text": "leave",
+          "isCorrect": true
+        },
+        {
+          "text": "leaving",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После `Does` глагол голый — `leave`. `leaves` дублирует `-s` (он уже на `does`); `leaving` — другая форма."
+    },
+    {
+      "id": 87,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "— Тёма любит спорт? — Да.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Yes, he do.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, he does.",
+          "isCorrect": true
+        },
+        {
+          "text": "Yes, he is.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`Тёма` = «он» → помощник `does`. `he do` — не то лицо; `he is` — это `to be`, а вопрос был про `like`."
+    },
+    {
+      "id": 83,
+      "choiceType": "CHOICE",
+      "prompt": "___ does the lesson start?",
+      "contextRu": "Спрашиваю о времени",
+      "options": [
+        {
+          "text": "Where",
+          "isCorrect": false
+        },
+        {
+          "text": "When",
+          "isCorrect": true
+        },
+        {
+          "text": "What",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Спрашиваем о времени → `When`. `Where` — о месте, `What` — о предмете."
+    },
+    {
+      "id": 88,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Чем занимается твоя сестра?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "What does your sister does?",
+          "isCorrect": false
+        },
+        {
+          "text": "What does your sister do?",
+          "isCorrect": true
+        },
+        {
+          "text": "What is your sister do?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`your sister` = «она» → помощник `does` + смысловой глагол `do` в базовой форме. `does … does` — `-s` дважды; `is … do` — смешали `to be` и `do`."
+    },
+    {
+      "id": 84,
+      "choiceType": "CHOICE",
+      "prompt": "___ they ready?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Do",
+          "isCorrect": false
+        },
+        {
+          "text": "Are",
+          "isCorrect": true
+        },
+        {
+          "text": "Does",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`ready` — прилагательное, сказуемое строится на `to be`: **Are they ready?**. `Do`/`Does` нужны только смысловым глаголам (work, live), а не `to be`."
     }
   ],
   "text_input_exercises": [
@@ -1412,10 +2251,115 @@
         }
       ],
       "explanation": "Подлежащее he/she/it (и имя в ед. ч.) → глагол с `-s`. Правописание подстраивается: `watch → watches` (шипящая), `study → studies` (согласная + y). Подробно — в следующей карточке."
+    },
+    {
+      "id": 35,
+      "items": [
+        {
+          "sentence": "___ does this bus go?",
+          "contextRu": "Спрашиваю о месте",
+          "answer": "Where",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ do you want for dinner?",
+          "contextRu": "Спрашиваю о вещи",
+          "answer": "What",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ does the film begin?",
+          "contextRu": "Спрашиваю о времени",
+          "answer": "When",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Вопросительное слово выбирается по смыслу: место → Where, предмет/вещь → What, время → When. Помощник `do`/`does` идёт сразу за ним."
     }
   ],
-  "dialog_restore_exercises": [],
-  "matching_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 12,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Do you play chess?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I play.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I am.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I do.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "На вопрос с `Do` отвечают помощником `do`: **Yes, I do.** `Yes, I play` — без помощника (недосказано); `Yes, I am` — это ответ для `to be`, а вопрос был со смысловым глаголом."
+    },
+    {
+      "id": 13,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What do you do?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "I do an engineer.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm an engineer.",
+          "isCorrect": true
+        },
+        {
+          "text": "I'm engineer.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "На вопрос о профессии отвечают через `to be` + название профессии: **I'm an engineer.** `I do an engineer` — бессмыслица; `I'm engineer` — без артикля `an`."
+    }
+  ],
+  "matching_exercises": [
+    {
+      "id": 28,
+      "taskDescription": "соедини вопрос с верным кратким ответом.",
+      "pairs": [
+        {
+          "left": "Do you speak Italian?",
+          "right": "Yes, I do."
+        },
+        {
+          "left": "Does Nick like jazz?",
+          "right": "Yes, he does."
+        },
+        {
+          "left": "Do the shops close early?",
+          "right": "No, they don't."
+        },
+        {
+          "left": "Does Sara drive?",
+          "right": "No, she doesn't."
+        }
+      ],
+      "explanation": "Краткий ответ берёт помощник по лицу подлежащего: `I/you/they` → do/don't, `he/she` → does/doesn't."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 55,
@@ -1511,9 +2455,71 @@
         }
       ],
       "explanation": "После `doesn't` глагол в базовой форме: `work`, не `works` (`-s` уже на помощнике `does`). `don't` — неверный помощник для `he`, `working` — другая форма."
+    },
+    {
+      "id": 60,
+      "wrongSentence": "Does Emma teaches English?",
+      "options": [
+        {
+          "text": "Do Emma teach English?",
+          "isCorrect": false
+        },
+        {
+          "text": "Does Emma teach English?",
+          "isCorrect": true
+        },
+        {
+          "text": "Does Emma teaching English?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После `Does` глагол в базовой форме: `teach`, не `teaches` (`-s` уже на помощнике). `Do` — неверный помощник для `Emma` (= «она»), `teaching` — другая форма."
+    },
+    {
+      "id": 61,
+      "wrongSentence": "Does she be at the office?",
+      "options": [
+        {
+          "text": "Do she at the office?",
+          "isCorrect": false
+        },
+        {
+          "text": "Is she at the office?",
+          "isCorrect": true
+        },
+        {
+          "text": "Does she is at the office?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "С `to be` помощник `do`/`does` не нужен — глагол `is` сам встаёт вперёд: **Is she at the office?** `Does she is` и `Does she be` смешивают две системы сразу."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 9,
+      "construction": "What does your brother do?",
+      "options": [
+        {
+          "text": "Чем занимается твой брат?",
+          "isCorrect": true
+        },
+        {
+          "text": "Что твой брат сейчас делает?",
+          "isCorrect": false
+        },
+        {
+          "text": "Что твой брат будет делать?",
+          "isCorrect": false
+        },
+        {
+          "text": "Твой брат вообще что-нибудь делает?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Первый `does` — помощник вопроса, второй `do` — глагол «заниматься/работать». Это вопрос о профессии вообще, а не о действии в текущий момент (то было бы Present Continuous)."
+    }
+  ],
   "transformation_exercises": [
     {
       "id": 19,
@@ -1616,6 +2622,31 @@
         }
       ],
       "explanation": "`[s]` — после глухого звука (`works`, `sleeps`, `helps`). `[z]` — после звонкого и гласных (`plays`, `runs`, `sings`). `[ɪz]` — лишний слог после свистящих/шипящих (`watches`, `teaches`, `fixes`)."
+    },
+    {
+      "id": 33,
+      "taskDescription": "распредели, через что задаётся вопрос — через помощника Do/Does или через to be (Is/Are).",
+      "categories": [
+        {
+          "title": "Do/Does",
+          "items": [
+            "speak English",
+            "read books",
+            "take the bus",
+            "wash the car"
+          ]
+        },
+        {
+          "title": "Is/Are",
+          "items": [
+            "a student",
+            "hungry",
+            "from Spain",
+            "afraid"
+          ]
+        }
+      ],
+      "explanation": "Смысловой глагол-действие (speak, read, take, wash) → вопрос с `Do`/`Does`. Описание «кто/какой/откуда» строится на `to be` → вопрос с `Is`/`Are`."
     }
   ],
   "find_the_odd_exercises": [
@@ -1687,6 +2718,29 @@
         }
       ],
       "explanation": "В «My sister doesn't works» глагол лишний раз получил `-s`. После `doesn't` нужна базовая форма: doesn't work. Остальные три предложения верные."
+    },
+    {
+      "id": 32,
+      "groupDescription": "Три вопроса построены верно, один — с ошибкой",
+      "items": [
+        {
+          "text": "Does Paul drink juice?",
+          "isOdd": false
+        },
+        {
+          "text": "Do the kids watch cartoons?",
+          "isOdd": false
+        },
+        {
+          "text": "Does your teacher knows it?",
+          "isOdd": true
+        },
+        {
+          "text": "Do we start at noon?",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В «Does your teacher knows it» глагол лишний раз получил `-s`. После `Does` нужна базовая форма: knows → know. Остальные три вопроса верные."
     }
   ]
 }
