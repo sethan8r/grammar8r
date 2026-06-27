@@ -771,7 +771,7 @@ theory/
 │   │   └── Card · Контраст: to be НЕ берёт do/does. «Is he a doctor?» (не «Does he be»). Корень:
 │   │       to be сам себе вспомогательный — разжевать, чтобы не лепили do к нему.
 │   │
-│   ├── MT53 · Usage · Употребление
+│   ├── MT53 · Usage · Употребление ✅ (написана, ALL GREEN 27.06; cards 163–167)
 │   │   ├── Card · Привычки и распорядок (every day, on Mondays).
 │   │   ├── Card · Постоянные факты и состояния («I live in Moscow», «She works in a bank»).
 │   │   ├── Card · Общие истины / законы природы («Water boils at 100°», «The sun rises in the east»).

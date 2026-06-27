@@ -34,6 +34,12 @@
       "topicId": 8,
       "title": "Questions · Образование: вопрос",
       "order": 4
+    },
+    {
+      "id": 53,
+      "topicId": 8,
+      "title": "Usage · Употребление",
+      "order": 5
     }
   ],
   "grammar_cards": [
@@ -1153,6 +1159,324 @@
         "Как понять, когда вопрос с Do/Does, а когда с Is/Are?",
         "Почему «Does he is a doctor?» — ошибка?"
       ]
+    },
+    {
+      "id": 163,
+      "microtopicId": 53,
+      "title": "Привычки и распорядок",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы научились строить Present Simple во всех видах — утверждение, отрицание, вопрос. Осталось понять самое главное: **когда** его вообще берут. И первый, самый частый случай — **привычки и распорядок**: то, что человек делает регулярно, раз за разом, изо дня в день."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим «я встаю в семь», «Лена бегает по утрам», «мы ужинаем всей семьёй по воскресеньям» — и не задумываемся, что описываем **повторяющееся** действие. Английский для ровно этого и держит Present Simple: он говорит не про один конкретный момент, а про то, что происходит **вообще, по привычке**."
+        },
+        {
+          "type": "heading",
+          "text": "Почему именно Present Simple, а не «сейчас»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тут легко споткнуться, потому что впереди нас ждёт второе настоящее время — Present Continuous («прямо сейчас, в эту секунду»). Так вот привычка — это **не** «сейчас». Когда мы говорим **I go to the gym on Mondays**, мы не имеем в виду, что человек идёт в зал в этот момент, — мы описываем его расписание жизни. Действие как бы вынуто из конкретной минуты и показано как повторяющийся узор. Для такого узора и нужен Present Simple."
+        },
+        {
+          "type": "heading",
+          "text": "Слова-подсказки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом с привычкой почти всегда стоят слова, которые прямо кричат «это повторяется»: `every day` (каждый день), `every morning`, `on Mondays` (по понедельникам), `usually`, `often`, `in the evening`. Увидел такое слово — почти наверняка нужен Present Simple. (Подробную шкалу `always`/`usually`/`often`/`never` мы разберём в отдельной микротеме — здесь просто замечаем эти маркеры.)"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I am going to work every day** ✗ → **I go to work every day** ✓. Русскому хочется сказать «я иду на работу» через форму «сейчас», но `every day` — это привычка, а не текущий момент. Для повторяющегося — всегда Present Simple."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Present Simple описывает **привычки и распорядок** — то, что повторяется регулярно: **I get up at seven every day**, **Lena drinks coffee in the morning**. Это не «прямо сейчас», а «вообще, по привычке». Рядом часто стоят маркеры повторения: `every day`, `on Mondays`, `usually`, `often`.",
+      "examples": [
+        {
+          "ru": "Я встаю в семь каждый день.",
+          "en": "I get up at seven every day."
+        },
+        {
+          "ru": "Лена пьёт кофе по утрам.",
+          "en": "Lena drinks coffee in the morning."
+        },
+        {
+          "ru": "Мы играем в футбол по субботам.",
+          "en": "We play football on Saturdays."
+        },
+        {
+          "ru": "Игорь ходит в спортзал по вторникам.",
+          "en": "Igor goes to the gym on Tuesdays."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем привычка отличается от того, что происходит прямо сейчас?",
+        "Почему «I go to work every day», а не «I am going»?",
+        "Какие слова подсказывают, что нужно Present Simple?"
+      ]
+    },
+    {
+      "id": 164,
+      "microtopicId": 53,
+      "title": "Постоянные факты о тебе и состояния",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Второй случай очень близок к привычке, но всё же другой. Present Simple описывает не только то, что **повторяется**, но и то, что **постоянно верно** — факты о человеке и его жизни: где он живёт, кем работает, на каких языках говорит, какой он по характеру."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомни метафору анкеты из самого начала темы: имя, город, профессия — это не действия, которые ты «делаешь каждый день», это твоё устойчивое положение дел. **Emma works in a hospital**, **Ben speaks three languages**, **I come from a small town** — всё это про долгое, стабильное состояние, а не про конкретную минуту."
+        },
+        {
+          "type": "heading",
+          "text": "В чём разница с привычкой"
+        },
+        {
+          "type": "paragraph",
+          "text": "Привычка — это повторяющееся **действие** (бегает по утрам, ужинает в семь). Факт — это устойчивое **положение дел**, которое просто верно и всё (живёт в Праге, работает врачом). Хорошая новость: грамматика у них **одна и та же** — Present Simple. Поэтому отдельно подстраиваться не нужно: и «бегает по утрам», и «работает в банке» строятся одинаково."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She is working in a bank** как факт о её профессии — звучит так, будто она работает в банке **прямо сейчас, временно**. Если мы говорим про её постоянную работу — нужен Present Simple: **She works in a bank** ✓. Форма «сейчас» сужает смысл до текущего момента, и факт превращается во временную картинку."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Present Simple описывает **постоянные факты и состояния** — то, что стабильно верно: **She works in a hospital**, **He speaks three languages**, **I live in Prague**. Грамматика та же, что у привычек. Форма «сейчас» (`is working`) сместила бы смысл на временное действие в текущий момент.",
+      "examples": [
+        {
+          "ru": "Эмма работает в больнице.",
+          "en": "Emma works in a hospital."
+        },
+        {
+          "ru": "Я живу в Праге.",
+          "en": "I live in Prague."
+        },
+        {
+          "ru": "Бен говорит на трёх языках.",
+          "en": "Ben speaks three languages."
+        },
+        {
+          "ru": "Мои родители держат небольшой магазин.",
+          "en": "My parents keep a small shop."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем факт о человеке отличается от привычки?",
+        "Почему «She works in a bank», а не «She is working»?",
+        "Как сказать, откуда я родом?"
+      ]
+    },
+    {
+      "id": 165,
+      "microtopicId": 53,
+      "title": "Общие истины и законы природы",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Третий случай — самый «вечный». Present Simple используют для **общих истин**: того, что верно всегда и для всех, независимо от момента. Наука, природа, устройство мира: **Water boils at 100 degrees**, **The sun rises in the east**, **Ice melts in the heat**."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим «вода кипит при ста градусах» — и это не про какую-то конкретную воду в конкретную минуту, а про закон, который работает всегда. Английский чувствует это так же: раз утверждение верно вне времени, оно идёт в Present Simple."
+        },
+        {
+          "type": "heading",
+          "text": "Почему это та же логика, что и с фактами"
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметь: и «я живу в Праге» (факт о тебе), и «вода кипит при ста градусах» (закон природы) — это всё про то, что **стабильно верно**. Разница только в масштабе: одно верно про тебя, другое — про весь мир. Грамматика снова одна — Present Simple. Поэтому новый случай не требует ничего учить заново, лишь расширяет уже знакомую идею «постоянно верно» на факты о мире."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Именно поэтому пословицы и правила тоже в Present Simple — **Actions speak louder than words**, **Honey attracts bees**. Это «истины», и язык подаёт их вне времени."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Present Simple используют для **общих истин и законов природы** — того, что верно всегда: **Water boils at 100 degrees**, **The sun rises in the east**, **Bees make honey**. Это та же логика «постоянно верно», что и у фактов о человеке, только про весь мир.",
+      "examples": [
+        {
+          "ru": "Вода кипит при ста градусах.",
+          "en": "Water boils at 100 degrees."
+        },
+        {
+          "ru": "Солнце встаёт на востоке.",
+          "en": "The sun rises in the east."
+        },
+        {
+          "ru": "Лёд тает в тепле.",
+          "en": "Ice melts in the heat."
+        },
+        {
+          "ru": "Пчёлы делают мёд.",
+          "en": "Bees make honey."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему закон природы — это Present Simple, а не «сейчас»?",
+        "Чем общая истина похожа на факт о человеке?",
+        "Почему пословицы тоже в Present Simple?"
+      ]
+    },
+    {
+      "id": 166,
+      "microtopicId": 53,
+      "title": "Расписания: настоящее про будущее",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "А вот случай, который удивляет почти всех. Present Simple умеет говорить **о будущем** — но только в одном особом смысле: когда речь про **расписание, график, программу**. **The train leaves at six tomorrow**, **The shop opens at nine**, **The film starts at eight**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое странное для русского уха: **The train leaves at six tomorrow** — слово `tomorrow` ясно показывает будущее, а глагол стоит в **настоящем** времени. Как так?"
+        },
+        {
+          "type": "heading",
+          "text": "Почему расписание — это настоящее"
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский смотрит на расписание не как на чей-то личный план, а как на **зафиксированный, регулярный факт**: так заведено, так напечатано в табло, так работает всегда. А всё, что «зафиксировано и регулярно», для языка — Present Simple (та же идея, что в общих истинах). Поезд уходит в шесть не потому, что кто-то решил это сейчас, — это его постоянное свойство по графику. Поэтому форма настоящая, даже если событие случится завтра."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Не путай с личными планами.** «Я завтра встречаюсь с другом» — это **твой** план, а не расписание автобуса, и для него английский возьмёт другое время (Present Continuous / `going to` — разберём позже). Признак расписания простой: есть официальный график (транспорт, кино, магазин, занятия) → Present Simple."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The plane will leave at noon** там, где это рейс по расписанию, — звучит как спонтанное предсказание, а не как факт из расписания. Про график естественнее **The plane leaves at noon** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Present Simple описывает **будущее по расписанию** — транспорт, кино, магазины, занятия: **The train leaves at six tomorrow**, **The shop opens at nine**. Событие в будущем, а форма настоящая, потому что расписание — зафиксированный регулярный факт. Личные планы (не график) — это другое время (позже).",
+      "examples": [
+        {
+          "ru": "Поезд отходит в шесть утра.",
+          "en": "The train leaves at six in the morning."
+        },
+        {
+          "ru": "Магазин открывается в девять.",
+          "en": "The shop opens at nine."
+        },
+        {
+          "ru": "Фильм начинается в восемь вечера.",
+          "en": "The film starts at eight in the evening."
+        },
+        {
+          "ru": "Наш самолёт вылетает завтра в полдень.",
+          "en": "Our plane leaves tomorrow at noon."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «The train leaves tomorrow» в настоящем времени, если это завтра?",
+        "Чем расписание отличается от моего личного плана?",
+        "Когда о будущем можно говорить через Present Simple?"
+      ]
+    },
+    {
+      "id": 167,
+      "microtopicId": 53,
+      "title": "Мнения, вкусы и чувства",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последний случай — про целую группу глаголов, которые почти всегда живут в Present Simple, даже когда чувство происходит будто бы «прямо сейчас». Это глаголы **мнения, вкуса, знания и чувства**: `like`, `love`, `know`, `want`, `understand`, `feel`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотри: **I like this song**, **She knows the answer**, **We want some coffee** — по смыслу это про «сейчас» (мне нравится песня в эту минуту), но английский всё равно ставит Present Simple, а **не** форму «сейчас»."
+        },
+        {
+          "type": "heading",
+          "text": "Почему не «сейчас»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма «сейчас» (Present Continuous) создана для **действий-процессов** — того, что разворачивается во времени: бежать, готовить, читать. А `like`, `know`, `want` — это не действия, а **состояния**: они не «происходят» и не «делаются», они просто есть. Нельзя «знать активнее» или «хотеть в процессе» — поэтому такие глаголы и не идут в форму процесса."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I am knowing the answer** ✗ → **I know the answer** ✓. И **I am wanting coffee** ✗ → **I want coffee** ✓. Русскому это не мешает (у нас «я знаю» и так одно слово), но по-английски тянет добавить форму «сейчас» к сильному чувству — а этим глаголам она не нужна."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Такие глаголы называют **state verbs** («глаголы состояния»), и их полный список и разбор — впереди, в теме «Present Continuous». Здесь достаточно запомнить главное: чувства, мнения и знание идут в Present Simple."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Глаголы мнения, вкуса и чувства — `like`, `love`, `know`, `want`, `understand`, `feel` — идут в Present Simple, даже когда чувство «прямо сейчас»: **I like this song**, **She knows the answer**. Это состояния, а не действия-процессы, поэтому форму «сейчас» (`am liking`, `am knowing`) к ним не ставят.",
+      "examples": [
+        {
+          "ru": "Я люблю эту песню.",
+          "en": "I like this song."
+        },
+        {
+          "ru": "Она знает ответ.",
+          "en": "She knows the answer."
+        },
+        {
+          "ru": "Мы хотим кофе.",
+          "en": "We want some coffee."
+        },
+        {
+          "ru": "Гриша не понимает вопрос.",
+          "en": "Grisha doesn't understand the question."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «I know», а не «I am knowing», ведь я знаю это сейчас?",
+        "Какие ещё глаголы так себя ведут?",
+        "Чем состояние отличается от действия-процесса?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1431,6 +1755,96 @@
       "exerciseType": "CATEGORIZATION",
       "exerciseId": 33,
       "orderInCard": 2
+    },
+    {
+      "cardId": 163,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 89,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 163,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 85,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 163,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 71,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 164,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 90,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 164,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 59,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 164,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 62,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 165,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 86,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 165,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 33,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 165,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 26,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 166,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 91,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 166,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 36,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 166,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 10,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 167,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 63,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 167,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 87,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 167,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 92,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1667,6 +2081,46 @@
       "transcription": "[ˈkwestʃən]",
       "microtopicId": 52,
       "categoryId": "tenses"
+    },
+    {
+      "id": 335,
+      "word": "hospital",
+      "translation": "больница",
+      "transcription": "[ˈhɒspɪtl]",
+      "microtopicId": 53,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 336,
+      "word": "language",
+      "translation": "язык (речь)",
+      "transcription": "[ˈlæŋgwɪdʒ]",
+      "microtopicId": 53,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 337,
+      "word": "gym",
+      "translation": "спортзал",
+      "transcription": "[dʒɪm]",
+      "microtopicId": 53,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 338,
+      "word": "museum",
+      "translation": "музей",
+      "transcription": "[mjuːˈziːəm]",
+      "microtopicId": 53,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 339,
+      "word": "concert",
+      "translation": "концерт",
+      "transcription": "[ˈkɒnsət]",
+      "microtopicId": 53,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -1849,6 +2303,37 @@
         }
       ],
       "explanation": "№2 — после `Does` глагол без `-s`: Does Megan speak Spanish. №5 — смысловой глагол вперёд не двигают, нужен помощник: Does he cook dinner?"
+    },
+    {
+      "id": 71,
+      "statements": [
+        {
+          "en": "We start work at nine every day.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He read the news every evening.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They visit their grandmother on Sundays.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Mia gets up early on weekdays.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Does she plays tennis on Mondays?",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "№2 — у 3-го лица нужен `-s`: He reads the news. №5 — после `Does` глагол без `-s`: Does she play tennis?"
     }
   ],
   "word_arrangement_exercises": [
@@ -1923,6 +2408,23 @@
         "are"
       ],
       "explanation": "`they` → помощник `do` + базовая форма `eat`. `does` — для 3-го лица ед. ч., `eats` — лишний `-s`, `are` — это `to be`."
+    },
+    {
+      "id": 59,
+      "situationRu": "RU: Оля знает четыре языка.",
+      "correctSentence": "Olya knows four languages.",
+      "words": [
+        "Olya",
+        "knows",
+        "four",
+        "languages"
+      ],
+      "distractors": [
+        "know",
+        "two",
+        "speaks"
+      ],
+      "explanation": "Устойчивое «знает» → Present Simple, `Olya` → `knows`. `know` — без `-s`, `two` — неверное число, `speaks` — другой глагол."
     }
   ],
   "multiple_choice_exercises": [
@@ -2219,6 +2721,174 @@
         }
       ],
       "explanation": "`ready` — прилагательное, сказуемое строится на `to be`: **Are they ready?**. `Do`/`Does` нужны только смысловым глаголам (work, live), а не `to be`."
+    },
+    {
+      "id": 89,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Катя каждое утро бегает в парке.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Katya runs in the park every morning.",
+          "isCorrect": true
+        },
+        {
+          "text": "Katya is running in the park every morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "Katya run in the park every morning.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`every morning` — привычка → Present Simple. `is running` — это «прямо сейчас» (не привычка); `run` — без `-s` для 3-го лица."
+    },
+    {
+      "id": 85,
+      "choiceType": "CHOICE",
+      "prompt": "Sara ___ breakfast at eight every day.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "is having",
+          "isCorrect": false
+        },
+        {
+          "text": "has",
+          "isCorrect": true
+        },
+        {
+          "text": "have",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`every day` — привычка, нужен Present Simple; `Sara` — 3-е лицо → `has`. `is having` — момент «сейчас»; `have` — без `-s`."
+    },
+    {
+      "id": 90,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мой брат работает инженером в Берлине.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "My brother is working as an engineer in Berlin.",
+          "isCorrect": false
+        },
+        {
+          "text": "My brother works as an engineer in Berlin.",
+          "isCorrect": true
+        },
+        {
+          "text": "My brother work as an engineer in Berlin.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Постоянная профессия → Present Simple, `brother` → `works`. `is working` сузило бы до «сейчас, временно»; `work` — без `-s`."
+    },
+    {
+      "id": 86,
+      "choiceType": "CHOICE",
+      "prompt": "Water ___ at zero degrees.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "freeze",
+          "isCorrect": false
+        },
+        {
+          "text": "is freezing",
+          "isCorrect": false
+        },
+        {
+          "text": "freezes",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Закон природы → Present Simple; подлежащее `water` → `freezes`. `freeze` — без `-s`; `is freezing` — форма «сейчас», а это вечная истина."
+    },
+    {
+      "id": 26,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The Earth goes around the Sun.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Земля вращается вокруг Солнца.",
+          "isCorrect": true
+        },
+        {
+          "text": "Земля вращалась вокруг Солнца.",
+          "isCorrect": false
+        },
+        {
+          "text": "Земля будет вращаться вокруг Солнца.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Present Simple здесь — вечная истина, то есть «вообще, всегда». Прошедшее («вращалась») и будущее («будет вращаться») искажают смысл закона."
+    },
+    {
+      "id": 91,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Концерт начинается сегодня в семь.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The concert is starting at seven tonight.",
+          "isCorrect": false
+        },
+        {
+          "text": "The concert start at seven tonight.",
+          "isCorrect": false
+        },
+        {
+          "text": "The concert starts at seven tonight.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Расписание события → Present Simple, `the concert` → `starts`. `is starting` — момент «сейчас»; `start` — без `-s`."
+    },
+    {
+      "id": 87,
+      "choiceType": "CHOICE",
+      "prompt": "I ___ this film a lot.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "am liking",
+          "isCorrect": false
+        },
+        {
+          "text": "like",
+          "isCorrect": true
+        },
+        {
+          "text": "likes",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`like` — чувство, идёт в Present Simple, а не в форму «сейчас» (`am liking`). Для `I` — без `-s`, поэтому не `likes`."
+    },
+    {
+      "id": 92,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Денис не любит горячий чай.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Denis isn't liking hot tea.",
+          "isCorrect": false
+        },
+        {
+          "text": "Denis doesn't likes hot tea.",
+          "isCorrect": false
+        },
+        {
+          "text": "Denis doesn't like hot tea.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Чувство → Present Simple; отрицание для `Denis` → `doesn't` + базовая форма `like`. `isn't liking` — `like` не идёт в форму «сейчас»; `doesn't likes` — лишний `-s` после `doesn't`."
     }
   ],
   "text_input_exercises": [
@@ -2275,6 +2945,30 @@
         }
       ],
       "explanation": "Вопросительное слово выбирается по смыслу: место → Where, предмет/вещь → What, время → When. Помощник `do`/`does` идёт сразу за ним."
+    },
+    {
+      "id": 36,
+      "items": [
+        {
+          "sentence": "The first bus ___ at five thirty.",
+          "contextRu": "отходит",
+          "answer": "leaves",
+          "alternatives": []
+        },
+        {
+          "sentence": "The shop ___ at eight in the evening.",
+          "contextRu": "закрывается",
+          "answer": "closes",
+          "alternatives": []
+        },
+        {
+          "sentence": "The lesson ___ at nine sharp.",
+          "contextRu": "начинается",
+          "answer": "starts",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Расписание → Present Simple, у 3-го лица ед. ч. глагол получает `-s`: leaves, closes, starts."
     }
   ],
   "dialog_restore_exercises": [
@@ -2493,6 +3187,44 @@
         }
       ],
       "explanation": "С `to be` помощник `do`/`does` не нужен — глагол `is` сам встаёт вперёд: **Is she at the office?** `Does she is` и `Does she be` смешивают две системы сразу."
+    },
+    {
+      "id": 62,
+      "wrongSentence": "She live in Lisbon with her family.",
+      "options": [
+        {
+          "text": "She living in Lisbon with her family.",
+          "isCorrect": false
+        },
+        {
+          "text": "She lives in Lisbon with her family.",
+          "isCorrect": true
+        },
+        {
+          "text": "She is live in Lisbon with her family.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Факт о месте жизни → Present Simple, `she` → `lives` (с `-s`). `living` и `is live` — сломанные формы."
+    },
+    {
+      "id": 63,
+      "wrongSentence": "I am wanting a cup of tea.",
+      "options": [
+        {
+          "text": "I want a cup of tea.",
+          "isCorrect": true
+        },
+        {
+          "text": "I wants a cup of tea.",
+          "isCorrect": false
+        },
+        {
+          "text": "I am want a cup of tea.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`want` — глагол состояния, в форму «сейчас» (`am wanting`) не идёт: **I want**. `wants` — лишний `-s` для `I`; `am want` — сломанная форма."
     }
   ],
   "construction_meaning_exercises": [
@@ -2518,6 +3250,29 @@
         }
       ],
       "explanation": "Первый `does` — помощник вопроса, второй `do` — глагол «заниматься/работать». Это вопрос о профессии вообще, а не о действии в текущий момент (то было бы Present Continuous)."
+    },
+    {
+      "id": 10,
+      "construction": "The museum opens at ten tomorrow.",
+      "options": [
+        {
+          "text": "Музей открывается завтра в десять.",
+          "isCorrect": true
+        },
+        {
+          "text": "Музей открылся в десять.",
+          "isCorrect": false
+        },
+        {
+          "text": "Музей сейчас открывается.",
+          "isCorrect": false
+        },
+        {
+          "text": "Музей, может быть, откроется в десять.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Present Simple + `tomorrow` = будущее по расписанию: форма настоящая, но событие завтра. Это не прошедшее, не «прямо сейчас» и не предположение."
     }
   ],
   "transformation_exercises": [
@@ -2741,6 +3496,29 @@
         }
       ],
       "explanation": "В «Does your teacher knows it» глагол лишний раз получил `-s`. После `Does` нужна базовая форма: knows → know. Остальные три вопроса верные."
+    },
+    {
+      "id": 33,
+      "groupDescription": "Три предложения — общие истины в Present Simple, одно построено неверно",
+      "items": [
+        {
+          "text": "The moon goes around the Earth.",
+          "isOdd": false
+        },
+        {
+          "text": "Plants need water and light.",
+          "isOdd": false
+        },
+        {
+          "text": "The sun is rising in the west.",
+          "isOdd": true
+        },
+        {
+          "text": "Cows eat grass.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Общие истины идут в Present Simple. «The sun is rising» — форма «сейчас», для вечного закона не годится (да и солнце встаёт на востоке). Остальные три — верные."
     }
   ]
 }

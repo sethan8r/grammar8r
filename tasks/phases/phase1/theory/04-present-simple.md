@@ -1568,26 +1568,458 @@ B: ___
 
 ---
 
+## Microtopic 53 — Usage · Употребление
+
+**ID:** 53 | **Order:** 5
+
+---
+
+### Card 163 · Привычки и распорядок
+
+**ID:** 163 | **Order:** 1
+
+#### Theory
+
+Мы научились строить Present Simple во всех видах — утверждение, отрицание, вопрос. Осталось понять самое главное: **когда** его вообще берут. И первый, самый частый случай — **привычки и распорядок**: то, что человек делает регулярно, раз за разом, изо дня в день.
+
+По-русски мы говорим «я встаю в семь», «Лена бегает по утрам», «мы ужинаем всей семьёй по воскресеньям» — и не задумываемся, что описываем **повторяющееся** действие. Английский для ровно этого и держит Present Simple: он говорит не про один конкретный момент, а про то, что происходит **вообще, по привычке**.
+
+**Почему именно Present Simple, а не «сейчас»**
+
+Тут легко споткнуться, потому что впереди нас ждёт второе настоящее время — Present Continuous («прямо сейчас, в эту секунду»). Так вот привычка — это **не** «сейчас». Когда мы говорим **I go to the gym on Mondays**, мы не имеем в виду, что человек идёт в зал в этот момент, — мы описываем его расписание жизни. Действие как бы вынуто из конкретной минуты и показано как повторяющийся узор. Для такого узора и нужен Present Simple.
+
+**Слова-подсказки**
+
+Рядом с привычкой почти всегда стоят слова, которые прямо кричат «это повторяется»: `every day` (каждый день), `every morning`, `on Mondays` (по понедельникам), `usually`, `often`, `in the evening`. Увидел такое слово — почти наверняка нужен Present Simple. (Подробную шкалу `always`/`usually`/`often`/`never` мы разберём в отдельной микротеме — здесь просто замечаем эти маркеры.)
+
+**Ловушка:** **I am going to work every day** ✗ → **I go to work every day** ✓. Русскому хочется сказать «я иду на работу» через форму «сейчас», но `every day` — это привычка, а не текущий момент. Для повторяющегося — всегда Present Simple.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Present Simple описывает **привычки и распорядок** — то, что повторяется регулярно: **I get up at seven every day**, **Lena drinks coffee in the morning**. Это не «прямо сейчас», а «вообще, по привычке». Рядом часто стоят маркеры повторения: `every day`, `on Mondays`, `usually`, `often`.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 681 | Я встаю в семь каждый день. | I get up at seven every day. |
+| 682 | Лена пьёт кофе по утрам. | Lena drinks coffee in the morning. |
+| 683 | Мы играем в футбол по субботам. | We play football on Saturdays. |
+| 684 | Игорь ходит в спортзал по вторникам. | Igor goes to the gym on Tuesdays. |
+
+---
+
+#### Exercises
+
+**Ex 47 · MultipleChoice · FORWARD_CHOICE** *(ID: 89)*
+
+"Катя каждое утро бегает в парке."
+
+- **Katya runs in the park every morning.** ✓
+- Katya is running in the park every morning.
+- Katya run in the park every morning.
+
+*Explanation:* `every morning` — привычка → Present Simple. `is running` — это «прямо сейчас» (не привычка); `run` — без `-s` для 3-го лица.
+
+---
+
+**Ex 48 · MultipleChoice · CHOICE** *(ID: 85)*
+
+"Sara ___ breakfast at eight every day."
+
+- is having
+- **has** ✓
+- have
+
+*Explanation:* `every day` — привычка, нужен Present Simple; `Sara` — 3-е лицо → `has`. `is having` — момент «сейчас»; `have` — без `-s`.
+
+---
+
+**Ex 49 · TrueFalse** *(ID: 71)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | We start work at nine every day. | ✓ |
+| 2 | He read the news every evening. | ✗ |
+| 3 | They visit their grandmother on Sundays. | ✓ |
+| 4 | Mia gets up early on weekdays. | ✓ |
+| 5 | Does she plays tennis on Mondays? | ✗ |
+
+*Explanation:* №2 — у 3-го лица нужен `-s`: He reads the news. №5 — после `Does` глагол без `-s`: Does she play tennis?
+
+---
+
+#### Clarification Options
+
+- Чем привычка отличается от того, что происходит прямо сейчас?
+- Почему «I go to work every day», а не «I am going»?
+- Какие слова подсказывают, что нужно Present Simple?
+
+---
+
+### Card 164 · Постоянные факты о тебе и состояния
+
+**ID:** 164 | **Order:** 2
+
+#### Theory
+
+Второй случай очень близок к привычке, но всё же другой. Present Simple описывает не только то, что **повторяется**, но и то, что **постоянно верно** — факты о человеке и его жизни: где он живёт, кем работает, на каких языках говорит, какой он по характеру.
+
+Вспомни метафору анкеты из самого начала темы: имя, город, профессия — это не действия, которые ты «делаешь каждый день», это твоё устойчивое положение дел. **Emma works in a hospital**, **Ben speaks three languages**, **I come from a small town** — всё это про долгое, стабильное состояние, а не про конкретную минуту.
+
+**В чём разница с привычкой**
+
+Привычка — это повторяющееся **действие** (бегает по утрам, ужинает в семь). Факт — это устойчивое **положение дел**, которое просто верно и всё (живёт в Праге, работает врачом). Хорошая новость: грамматика у них **одна и та же** — Present Simple. Поэтому отдельно подстраиваться не нужно: и «бегает по утрам», и «работает в банке» строятся одинаково.
+
+**Ловушка:** **She is working in a bank** как факт о её профессии — звучит так, будто она работает в банке **прямо сейчас, временно**. Если мы говорим про её постоянную работу — нужен Present Simple: **She works in a bank** ✓. Форма «сейчас» сужает смысл до текущего момента, и факт превращается во временную картинку.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Present Simple описывает **постоянные факты и состояния** — то, что стабильно верно: **She works in a hospital**, **He speaks three languages**, **I live in Prague**. Грамматика та же, что у привычек. Форма «сейчас» (`is working`) сместила бы смысл на временное действие в текущий момент.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 685 | Эмма работает в больнице. | Emma works in a hospital. |
+| 686 | Я живу в Праге. | I live in Prague. |
+| 687 | Бен говорит на трёх языках. | Ben speaks three languages. |
+| 688 | Мои родители держат небольшой магазин. | My parents keep a small shop. |
+
+---
+
+#### Exercises
+
+**Ex 50 · MultipleChoice · FORWARD_CHOICE** *(ID: 90)*
+
+"Мой брат работает инженером в Берлине."
+
+- My brother is working as an engineer in Berlin.
+- **My brother works as an engineer in Berlin.** ✓
+- My brother work as an engineer in Berlin.
+
+*Explanation:* Постоянная профессия → Present Simple, `brother` → `works`. `is working` сузило бы до «сейчас, временно»; `work` — без `-s`.
+
+---
+
+**Ex 51 · WordArrangement** *(ID: 59)*
+
+RU: Оля знает четыре языка.
+
+Правильное предложение: **Olya knows four languages.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Olya | — |
+| knows | — |
+| four | — |
+| languages | — |
+| know | ✗ |
+| two | ✗ |
+| speaks | ✗ |
+
+*Explanation:* Устойчивое «знает» → Present Simple, `Olya` → `knows`. `know` — без `-s`, `two` — неверное число, `speaks` — другой глагол.
+
+---
+
+**Ex 52 · ErrorCorrection** *(ID: 62)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"She live in Lisbon with her family."
+
+- She living in Lisbon with her family.
+- **She lives in Lisbon with her family.** ✓
+- She is live in Lisbon with her family.
+
+*Explanation:* Факт о месте жизни → Present Simple, `she` → `lives` (с `-s`). `living` и `is live` — сломанные формы.
+
+---
+
+#### Clarification Options
+
+- Чем факт о человеке отличается от привычки?
+- Почему «She works in a bank», а не «She is working»?
+- Как сказать, откуда я родом?
+
+---
+
+### Card 165 · Общие истины и законы природы
+
+**ID:** 165 | **Order:** 3
+
+#### Theory
+
+Третий случай — самый «вечный». Present Simple используют для **общих истин**: того, что верно всегда и для всех, независимо от момента. Наука, природа, устройство мира: **Water boils at 100 degrees**, **The sun rises in the east**, **Ice melts in the heat**.
+
+По-русски мы говорим «вода кипит при ста градусах» — и это не про какую-то конкретную воду в конкретную минуту, а про закон, который работает всегда. Английский чувствует это так же: раз утверждение верно вне времени, оно идёт в Present Simple.
+
+**Почему это та же логика, что и с фактами**
+
+Заметь: и «я живу в Праге» (факт о тебе), и «вода кипит при ста градусах» (закон природы) — это всё про то, что **стабильно верно**. Разница только в масштабе: одно верно про тебя, другое — про весь мир. Грамматика снова одна — Present Simple. Поэтому новый случай не требует ничего учить заново, лишь расширяет уже знакомую идею «постоянно верно» на факты о мире.
+
+**Кстати:** именно поэтому пословицы и правила тоже в Present Simple — **Actions speak louder than words**, **Honey attracts bees**. Это «истины», и язык подаёт их вне времени.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Present Simple используют для **общих истин и законов природы** — того, что верно всегда: **Water boils at 100 degrees**, **The sun rises in the east**, **Bees make honey**. Это та же логика «постоянно верно», что и у фактов о человеке, только про весь мир.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 689 | Вода кипит при ста градусах. | Water boils at 100 degrees. |
+| 690 | Солнце встаёт на востоке. | The sun rises in the east. |
+| 691 | Лёд тает в тепле. | Ice melts in the heat. |
+| 692 | Пчёлы делают мёд. | Bees make honey. |
+
+---
+
+#### Exercises
+
+**Ex 53 · MultipleChoice · CHOICE** *(ID: 86)*
+
+"Water ___ at zero degrees."
+
+- freeze
+- is freezing
+- **freezes** ✓
+
+*Explanation:* Закон природы → Present Simple; подлежащее `water` → `freezes`. `freeze` — без `-s`; `is freezing` — форма «сейчас», а это вечная истина.
+
+---
+
+**Ex 54 · FindTheOdd** *(ID: 33)*
+
+Три предложения — общие истины в Present Simple, одно построено неверно:
+
+- The moon goes around the Earth.
+- Plants need water and light.
+- **The sun is rising in the west.** ✓
+- Cows eat grass.
+
+*Explanation:* Общие истины идут в Present Simple. «The sun is rising» — форма «сейчас», для вечного закона не годится (да и солнце встаёт на востоке). Остальные три — верные.
+
+---
+
+**Ex 55 · MultipleChoice · REVERSE_CHOICE** *(ID: 26)*
+
+"The Earth goes around the Sun."
+
+- **Земля вращается вокруг Солнца.** ✓
+- Земля вращалась вокруг Солнца.
+- Земля будет вращаться вокруг Солнца.
+
+*Explanation:* Present Simple здесь — вечная истина, то есть «вообще, всегда». Прошедшее («вращалась») и будущее («будет вращаться») искажают смысл закона.
+
+---
+
+#### Clarification Options
+
+- Почему закон природы — это Present Simple, а не «сейчас»?
+- Чем общая истина похожа на факт о человеке?
+- Почему пословицы тоже в Present Simple?
+
+---
+
+### Card 166 · Расписания: настоящее про будущее
+
+**ID:** 166 | **Order:** 4
+
+#### Theory
+
+А вот случай, который удивляет почти всех. Present Simple умеет говорить **о будущем** — но только в одном особом смысле: когда речь про **расписание, график, программу**. **The train leaves at six tomorrow**, **The shop opens at nine**, **The film starts at eight**.
+
+Самое странное для русского уха: **The train leaves at six tomorrow** — слово `tomorrow` ясно показывает будущее, а глагол стоит в **настоящем** времени. Как так?
+
+**Почему расписание — это настоящее**
+
+Английский смотрит на расписание не как на чей-то личный план, а как на **зафиксированный, регулярный факт**: так заведено, так напечатано в табло, так работает всегда. А всё, что «зафиксировано и регулярно», для языка — Present Simple (та же идея, что в общих истинах). Поезд уходит в шесть не потому, что кто-то решил это сейчас, — это его постоянное свойство по графику. Поэтому форма настоящая, даже если событие случится завтра.
+
+**Не путай с личными планами.** «Я завтра встречаюсь с другом» — это **твой** план, а не расписание автобуса, и для него английский возьмёт другое время (Present Continuous / `going to` — разберём позже). Признак расписания простой: есть официальный график (транспорт, кино, магазин, занятия) → Present Simple.
+
+**Ловушка:** **The plane will leave at noon** там, где это рейс по расписанию, — звучит как спонтанное предсказание, а не как факт из расписания. Про график естественнее **The plane leaves at noon** ✓.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Present Simple описывает **будущее по расписанию** — транспорт, кино, магазины, занятия: **The train leaves at six tomorrow**, **The shop opens at nine**. Событие в будущем, а форма настоящая, потому что расписание — зафиксированный регулярный факт. Личные планы (не график) — это другое время (позже).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 693 | Поезд отходит в шесть утра. | The train leaves at six in the morning. |
+| 694 | Магазин открывается в девять. | The shop opens at nine. |
+| 695 | Фильм начинается в восемь вечера. | The film starts at eight in the evening. |
+| 696 | Наш самолёт вылетает завтра в полдень. | Our plane leaves tomorrow at noon. |
+
+---
+
+#### Exercises
+
+**Ex 56 · MultipleChoice · FORWARD_CHOICE** *(ID: 91)*
+
+"Концерт начинается сегодня в семь."
+
+- The concert is starting at seven tonight.
+- The concert start at seven tonight.
+- **The concert starts at seven tonight.** ✓
+
+*Explanation:* Расписание события → Present Simple, `the concert` → `starts`. `is starting` — момент «сейчас»; `start` — без `-s`.
+
+---
+
+**Ex 57 · TextInput** *(ID: 36)*
+
+1. "The first bus ___ at five thirty." (отходит)
+   Ответ: **leaves**
+
+2. "The shop ___ at eight in the evening." (закрывается)
+   Ответ: **closes**
+
+3. "The lesson ___ at nine sharp." (начинается)
+   Ответ: **starts**
+
+*Explanation:* Расписание → Present Simple, у 3-го лица ед. ч. глагол получает `-s`: leaves, closes, starts.
+
+---
+
+**Ex 58 · ConstructionMeaning** *(ID: 10)*
+
+Выбери правильный перевод:
+
+"The museum opens at ten tomorrow."
+
+- **Музей открывается завтра в десять.** ✓
+- Музей открылся в десять.
+- Музей сейчас открывается.
+- Музей, может быть, откроется в десять.
+
+*Explanation:* Present Simple + `tomorrow` = будущее по расписанию: форма настоящая, но событие завтра. Это не прошедшее, не «прямо сейчас» и не предположение.
+
+---
+
+#### Clarification Options
+
+- Почему «The train leaves tomorrow» в настоящем времени, если это завтра?
+- Чем расписание отличается от моего личного плана?
+- Когда о будущем можно говорить через Present Simple?
+
+---
+
+### Card 167 · Мнения, вкусы и чувства
+
+**ID:** 167 | **Order:** 5
+
+#### Theory
+
+Последний случай — про целую группу глаголов, которые почти всегда живут в Present Simple, даже когда чувство происходит будто бы «прямо сейчас». Это глаголы **мнения, вкуса, знания и чувства**: `like`, `love`, `know`, `want`, `understand`, `feel`.
+
+Смотри: **I like this song**, **She knows the answer**, **We want some coffee** — по смыслу это про «сейчас» (мне нравится песня в эту минуту), но английский всё равно ставит Present Simple, а **не** форму «сейчас».
+
+**Почему не «сейчас»**
+
+Форма «сейчас» (Present Continuous) создана для **действий-процессов** — того, что разворачивается во времени: бежать, готовить, читать. А `like`, `know`, `want` — это не действия, а **состояния**: они не «происходят» и не «делаются», они просто есть. Нельзя «знать активнее» или «хотеть в процессе» — поэтому такие глаголы и не идут в форму процесса.
+
+**Ловушка:** **I am knowing the answer** ✗ → **I know the answer** ✓. И **I am wanting coffee** ✗ → **I want coffee** ✓. Русскому это не мешает (у нас «я знаю» и так одно слово), но по-английски тянет добавить форму «сейчас» к сильному чувству — а этим глаголам она не нужна.
+
+**Примечание:** такие глаголы называют **state verbs** («глаголы состояния»), и их полный список и разбор — впереди, в теме «Present Continuous». Здесь достаточно запомнить главное: чувства, мнения и знание идут в Present Simple.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Глаголы мнения, вкуса и чувства — `like`, `love`, `know`, `want`, `understand`, `feel` — идут в Present Simple, даже когда чувство «прямо сейчас»: **I like this song**, **She knows the answer**. Это состояния, а не действия-процессы, поэтому форму «сейчас» (`am liking`, `am knowing`) к ним не ставят.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 697 | Я люблю эту песню. | I like this song. |
+| 698 | Она знает ответ. | She knows the answer. |
+| 699 | Мы хотим кофе. | We want some coffee. |
+| 700 | Гриша не понимает вопрос. | Grisha doesn't understand the question. |
+
+---
+
+#### Exercises
+
+**Ex 59 · ErrorCorrection** *(ID: 63)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"I am wanting a cup of tea."
+
+- **I want a cup of tea.** ✓
+- I wants a cup of tea.
+- I am want a cup of tea.
+
+*Explanation:* `want` — глагол состояния, в форму «сейчас» (`am wanting`) не идёт: **I want**. `wants` — лишний `-s` для `I`; `am want` — сломанная форма.
+
+---
+
+**Ex 60 · MultipleChoice · CHOICE** *(ID: 87)*
+
+"I ___ this film a lot."
+
+- am liking
+- **like** ✓
+- likes
+
+*Explanation:* `like` — чувство, идёт в Present Simple, а не в форму «сейчас» (`am liking`). Для `I` — без `-s`, поэтому не `likes`.
+
+---
+
+**Ex 61 · MultipleChoice · FORWARD_CHOICE** *(ID: 92)*
+
+"Денис не любит горячий чай."
+
+- Denis isn't liking hot tea.
+- Denis doesn't likes hot tea.
+- **Denis doesn't like hot tea.** ✓
+
+*Explanation:* Чувство → Present Simple; отрицание для `Denis` → `doesn't` + базовая форма `like`. `isn't liking` — `like` не идёт в форму «сейчас»; `doesn't likes` — лишний `-s` после `doesn't`.
+
+---
+
+#### Clarification Options
+
+- Почему «I know», а не «I am knowing», ведь я знаю это сейчас?
+- Какие ещё глаголы так себя ведут?
+- Чем состояние отличается от действия-процесса?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| hospital | больница | [ˈhɒspɪtl] |
+| language | язык (речь) | [ˈlæŋgwɪdʒ] |
+| gym | спортзал | [dʒɪm] |
+| museum | музей | [mjuːˈziːəm] |
+| concert | концерт | [ˈkɒnsət] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 8 | 9 |
-| Microtopic | 52 | 53 |
-| Card | 162 | 163 |
-| Example | 680 | 681 |
-| MultipleChoice · CHOICE | 84 | 85 |
-| MultipleChoice · FORWARD_CHOICE | 88 | 89 |
-| MultipleChoice · REVERSE_CHOICE | — | 26 |
-| TrueFalse | 70 | 71 |
-| WordArrangement | 58 | 59 |
-| TextInput | 35 | 36 |
+| Microtopic | 53 | 54 |
+| Card | 167 | 168 |
+| Example | 700 | 701 |
+| MultipleChoice · CHOICE | 87 | 88 |
+| MultipleChoice · FORWARD_CHOICE | 92 | 93 |
+| MultipleChoice · REVERSE_CHOICE | 26 | 27 |
+| TrueFalse | 71 | 72 |
+| WordArrangement | 59 | 60 |
+| TextInput | 36 | 37 |
 | Matching | 28 | 29 |
 | Transformation | 20 | 21 |
-| ErrorCorrection | 61 | 62 |
+| ErrorCorrection | 63 | 64 |
 | TableFill | 13 | 14 |
-| FindTheOdd | 32 | 33 |
-| ConstructionMeaning | 9 | 10 |
+| FindTheOdd | 33 | 34 |
+| ConstructionMeaning | 10 | 11 |
 | Categorization | 33 | 34 |
 | DialogRestore | 13 | 14 |
-| course_word | 334 | 335 |
+| course_word | 339 | 340 |
