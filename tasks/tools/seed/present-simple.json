@@ -46,6 +46,12 @@
       "topicId": 8,
       "title": "Time Markers & Frequency Adverbs · Маркеры времени и наречия частотности",
       "order": 6
+    },
+    {
+      "id": 55,
+      "topicId": 8,
+      "title": "Have to · Должен / приходится",
+      "order": 7
     }
   ],
   "grammar_cards": [
@@ -1795,6 +1801,252 @@
         "Почему «every day» в конце можно, а «always» нельзя?",
         "Где должно стоять «never»?"
       ]
+    },
+    {
+      "id": 172,
+      "microtopicId": 55,
+      "title": "have to / has to — «приходится, так надо»",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Часто нужно сказать не «я хочу», а «я **вынужден**»: так надо, иначе нельзя, обстоятельства заставляют. Для этого в английском есть `have to` — «должен, приходится». **I have to work tomorrow** — «мне приходится завтра работать» (не моё желание, просто так вышло)."
+        },
+        {
+          "type": "heading",
+          "text": "Как это устроено в русском — и где ловушка"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим **безлично**: «**мне** надо», «**мне** приходится». Человек стоит в стороне (в дательном падеже), а необходимость как будто валится на него сверху. В английском всё крутится вокруг **подлежащего**: не «мне надо», а «**я** имею это сделать» — `I have to`. Поэтому первое, что нужно перестроить в голове: тот, кто вынужден, — это обычное подлежащее `I`, `you`, `she`, а не «мне»."
+        },
+        {
+          "type": "heading",
+          "text": "Главное: have to — обычный глагол"
+        },
+        {
+          "type": "paragraph",
+          "text": "И вот зачем мы взяли его сразу после `do/does`: `have to` склоняется как **любой** глагол в Present Simple. Для `I`, `you`, `we`, `they` — **have to**. А для `he`, `she`, `it` — тот самый `-s`, который мы только что разбирали: `have` превращается в **has** → **has to**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I have to get up early.**",
+            "**We have to wait here.**",
+            "**She has to work on Saturday.**",
+            "**He has to stay late.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "То есть это не какая-то новая конструкция, а идеальная тренировка `-s` третьего лица на живой, постоянно нужной фразе."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He have to work tomorrow** ✗ — забыли `-s` третьего лица. Правильно: `He has to work tomorrow` ✓. **have to** подчиняется тому же правилу, что и `works`, `lives`, `goes`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`have to` значит «должен, приходится» — про вынужденность извне. Главное: это обычный глагол Present Simple, поэтому для `he/she/it` он получает `-s` → `has to` (`She has to work`), а для `I/you/we/they` — `have to`. По-русски «мне надо» безлично, в английском вынужден всегда подлежащее: `I have to`, не «to me».",
+      "examples": [
+        {
+          "ru": "Мне приходится рано вставать.",
+          "en": "I have to get up early."
+        },
+        {
+          "ru": "Ей приходится работать в субботу.",
+          "en": "She has to work on Saturday."
+        },
+        {
+          "ru": "Нам приходится ждать здесь.",
+          "en": "We have to wait here."
+        },
+        {
+          "ru": "Ему приходится оставаться допоздна.",
+          "en": "He has to stay late."
+        },
+        {
+          "ru": "Тёме приходится платить за квартиру.",
+          "en": "Tyoma has to pay for the flat."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «She has to», а не «She have to»?",
+        "Чем «have to» отличается от простого «I work»?",
+        "Почему по-русски «мне надо», а по-английски «I have to»?"
+      ]
+    },
+    {
+      "id": 173,
+      "microtopicId": 55,
+      "title": "don't / doesn't have to — «не обязан» (а не «нельзя!»)",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Раз `have to` — обычный глагол, отрицание и вопрос строятся **штатно**, через `do/does`, без всяких хитростей: **I don't have to go**, **Does she have to work?**. Никакой особой формы запоминать не нужно — те же `don't/doesn't` и `Do/Does`, что и со всеми глаголами."
+        },
+        {
+          "type": "heading",
+          "text": "Главное здесь — не грамматика, а смысл"
+        },
+        {
+          "type": "paragraph",
+          "text": "`don't have to` означает «**не обязан**, можно не делать» — а вовсе **не** «нельзя». Это разные вещи, и русский мозг их легко путает: слышит «не должен» и думает «запрещено». Сравни:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You don't have to come.** — Можешь не приходить, никто не заставляет (но если хочешь — приходи).",
+            "«Тебе нельзя приходить» — это **запрет**, совсем другое (для запрета есть `mustn't` — разберём в «Модальных глаголах»)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни связку",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Don't have to` = свобода («не обязан»), а не стена («нельзя»)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос — тоже через do/does"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос строится как с любым глаголом: помощник `Do`/`Does` выходит вперёд, за ним подлежащее и `have to` + глагол. Для `he/she/it` берём `Does` — и здесь та же логика, что в отрицании: `Does` уже забрал `-s`, поэтому `have to` остаётся голым (**Does she have to…?**, не **Does she has to…?**)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Do you have to work tomorrow?** — Тебе обязательно завтра работать?",
+            "**Does he have to pay now?** — Ему обязательно платить сейчас?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He have to call** ✗ → в утверждении третье лицо берёт `has to`: **He has to call** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка 2",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She doesn't has to work** ✗ — здесь наоборот, `-s` лишний. Помощник `does` **уже забрал** `-s` себе (как мы видели с `doesn't work` в отрицании), поэтому дальше идёт голый `have to`: **She doesn't have to work** ✓. Двух `-s` сразу не бывает."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Отрицание и вопрос с `have to` строятся обычно — через `do/does`: `I don't have to go`, `Does she have to work?`. Ключевой смысл: `don't have to` = «не обязан, можно не делать», а **не** «нельзя» (запрет — это `mustn't`, впереди). Ловушка: после `doesn't` идёт `have to`, а не `has to` — `does` уже забрал `-s`.",
+      "examples": [
+        {
+          "ru": "Тебе не обязательно приходить рано.",
+          "en": "You don't have to come early."
+        },
+        {
+          "ru": "Ей не нужно работать в выходные.",
+          "en": "She doesn't have to work at the weekend."
+        },
+        {
+          "ru": "Тебе обязательно за это платить?",
+          "en": "Do you have to pay for this?"
+        },
+        {
+          "ru": "Ему обязательно туда идти?",
+          "en": "Does he have to go there?"
+        },
+        {
+          "ru": "Нам не обязательно ждать.",
+          "en": "We don't have to wait."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «don't have to» — это не «нельзя»?",
+        "Как тогда сказать «нельзя» по-английски?",
+        "Почему после «doesn't» идёт «have to», а не «has to»?"
+      ]
+    },
+    {
+      "id": 174,
+      "microtopicId": 55,
+      "title": "Пока это только паттерн — must разберём позже",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Подытожим. Мы взяли `have to` не случайно: это обычный глагол, и на нём удобно закрепить `do/does` и `-s` третьего лица, которые только что прошли. Теперь ты умеешь строить его во всех трёх формах:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Утверждение:** I have to / She has to",
+            "**Отрицание:** I don't have to / She doesn't have to",
+            "**Вопрос:** Do you have to…? / Does she have to…?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Но у `have to` есть «старший брат» — `must`. Оба передают долженствование, но с разным оттенком (внутреннее «я сам так решил» против внешнего «обстоятельства заставляют»), и в отрицании они расходятся особенно сильно: `mustn't` — это «нельзя», а `don't have to` — «не обязан». Всё это — отдельная большая тема."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сейчас знать это не нужно. Мы намеренно берём только рабочий паттерн `have to`, ровно как в «Основах» взяли `can`, не разбирая всю модальность сразу. Так новая конструкция входит маленькими порциями, а не сваливается целиком."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Полное сравнение `must` vs `have to`, а также разница «нельзя» (`mustn't`) и «не обязан» (`don't have to`) — впереди, в теме «Модальные глаголы». Здесь достаточно уверенно строить `have to` / `has to` в утверждении, отрицании и вопросе."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`have to` мы взяли как обычный глагол, чтобы потренировать `do/does` и `-s`: `I have to` / `She has to`, отрицание `don't/doesn't have to`, вопрос `Do/Does … have to`. Полное сравнение с `must` и разница «нельзя» (`mustn't`) vs «не обязан» (`don't have to`) — отдельная тема «Модальные глаголы».",
+      "examples": [
+        {
+          "ru": "Мне приходится много работать.",
+          "en": "I have to work a lot."
+        },
+        {
+          "ru": "Ему не обязательно туда идти.",
+          "en": "He doesn't have to go there."
+        },
+        {
+          "ru": "Тебе обязательно платить сейчас?",
+          "en": "Do you have to pay now?"
+        }
+      ],
+      "clarificationOptions": [
+        "Чем `have to` отличается от `must`?",
+        "«Не обязан» и «нельзя» — это правда разные вещи?",
+        "Почему `have to` ведёт себя как обычный глагол, а `can` — нет?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2235,6 +2487,42 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 34,
       "orderInCard": 2
+    },
+    {
+      "cardId": 172,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 95,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 172,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 22,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 172,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 74,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 173,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 27,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 173,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 65,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 173,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 62,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2355,6 +2643,22 @@
       "cardId": 171,
       "title": "Найди и исправь порядок слов",
       "userInstruction": "ИИ даст предложение с наречием не на своём месте. Перепишите его правильно.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_simple_card172_ex1",
+      "cardId": 172,
+      "title": "Скажи о вынужденности",
+      "userInstruction": "ИИ даст русское предложение про обязанность. Напишите его по-английски в Present Simple с have to или has to.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_simple_card173_ex1",
+      "cardId": 173,
+      "title": "Отрицание и вопрос",
+      "userInstruction": "ИИ даст утвердительное предложение с have to. Сделайте из него отрицание и вопрос.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -2582,6 +2886,46 @@
       "translation": "поздно; опоздавший",
       "transcription": "[leɪt]",
       "microtopicId": 54,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 346,
+      "word": "to stay",
+      "translation": "оставаться",
+      "transcription": "[steɪ]",
+      "microtopicId": 55,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 347,
+      "word": "money",
+      "translation": "деньги",
+      "transcription": "[ˈmʌni]",
+      "microtopicId": 55,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 348,
+      "word": "rule",
+      "translation": "правило",
+      "transcription": "[ruːl]",
+      "microtopicId": 55,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 349,
+      "word": "soon",
+      "translation": "скоро",
+      "transcription": "[suːn]",
+      "microtopicId": 55,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 350,
+      "word": "tonight",
+      "translation": "сегодня вечером",
+      "transcription": "[təˈnaɪt]",
+      "microtopicId": 55,
       "categoryId": "tenses"
     }
   ],
@@ -2858,6 +3202,37 @@
         }
       ],
       "explanation": "№2 — наречие перед глаголом: `I rarely eat fast food`. №4 — то же: `We often go to the park` (нельзя ставить наречие после глагола перед `to`)."
+    },
+    {
+      "id": 74,
+      "statements": [
+        {
+          "en": "She has to go to work every day.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He have to call his boss.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I have to stay home tonight.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We has to leave soon.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Mark has to save money.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "№2 — `he` → `has to`, а не `have to`. №4 — `we` → `have to`, а не `has to` (`-s` только у `he/she/it`)."
     }
   ],
   "word_arrangement_exercises": [
@@ -2984,6 +3359,25 @@
         "always"
       ],
       "explanation": "`to be` → наречие после него: `are often busy`. `is` — не то лицо (нужно `are` для `they`), `do` — `to be` не берёт помощника, `always` — лишнее слово (наёбка вместо `often`)."
+    },
+    {
+      "id": 62,
+      "situationRu": "RU: Тебе обязательно работать сегодня вечером?",
+      "correctSentence": "Do you have to work tonight?",
+      "words": [
+        "Do",
+        "you",
+        "have",
+        "to",
+        "work",
+        "tonight"
+      ],
+      "distractors": [
+        "does",
+        "has",
+        "works"
+      ],
+      "explanation": "вопрос с `have to` строится через `do` (для `you` — `Do`, а `does` — для `he/she/it`). Само `have to` не меняется (`has` лишнее), глагол `work` — без `-s` (`works` лишнее)."
     }
   ],
   "multiple_choice_exercises": [
@@ -3511,6 +3905,48 @@
         }
       ],
       "explanation": "Наречие частотности идёт перед смысловым глаголом: `He often eats out`. `eats often out` — наречие после глагола (неверно); `Often he eats out` — наречие в начале (для частотности не норма)."
+    },
+    {
+      "id": 95,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Кате приходится учить новые правила.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Katya have to learn new rules.",
+          "isCorrect": false
+        },
+        {
+          "text": "Katya has to learn new rules.",
+          "isCorrect": true
+        },
+        {
+          "text": "Katya has to learns new rules.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`Katya` — третье лицо → `has to`. Глагол после `has to` остаётся в базовой форме (`learn`, не `learns`); `have to` — только для `I/you/we/they`."
+    },
+    {
+      "id": 27,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "You don't have to stay.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Ты обязан остаться.",
+          "isCorrect": false
+        },
+        {
+          "text": "Тебе нельзя оставаться.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты можешь не оставаться.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "`don't have to` = «не обязан, можно не делать». Это не запрет: «нельзя» передаётся другим словом (`mustn't`), которое разберём позже."
     }
   ],
   "text_input_exercises": [
@@ -3890,6 +4326,25 @@
         }
       ],
       "explanation": "Наречие частотности не ставят в конец — оно идёт перед смысловым глаголом: `She always watches TV`. `watch always` теряет `-s` и ломает порядок; `Always watches she` — перевёрнутый порядок слов."
+    },
+    {
+      "id": 65,
+      "wrongSentence": "He doesn't has to leave early.",
+      "options": [
+        {
+          "text": "He doesn't have to leave early.",
+          "isCorrect": true
+        },
+        {
+          "text": "He don't have to leave early.",
+          "isCorrect": false
+        },
+        {
+          "text": "He doesn't has to leaves early.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "помощник `does` уже забрал `-s`, поэтому дальше голый `have to`, а не `has to`. Для `he` нужен `doesn't` (не `don't`), а глагол `leave` — в базовой форме."
     }
   ],
   "construction_meaning_exercises": [
@@ -3997,6 +4452,25 @@
         }
       ],
       "explanation": "Перед смысловым глаголом (`get up`, `watch`) наречие ставится спереди; с `to be` (`is`) — после него: `is usually busy`."
+    },
+    {
+      "id": 22,
+      "taskDescription": "перепиши каждое предложение про `he`.",
+      "items": [
+        {
+          "original": "I have to clean the kitchen.",
+          "transformed": "He has to clean the kitchen."
+        },
+        {
+          "original": "We have to pay for the tickets.",
+          "transformed": "He has to pay for the tickets."
+        },
+        {
+          "original": "They have to study tonight.",
+          "transformed": "He has to study tonight."
+        }
+      ],
+      "explanation": "для `he` глагол `have` превращается в `has` → `has to`. Сам глагол действия (`clean`, `pay`, `study`) при этом остаётся в базовой форме."
     }
   ],
   "categorization_exercises": [

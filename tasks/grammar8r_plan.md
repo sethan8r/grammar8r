@@ -786,7 +786,7 @@ theory/
 │   │   │   «She always drinks coffee» / «He is always late». Связь с базовой SVO из Основ.
 │   │   └── Card · Ловушка: «She drinks coffee always» ✗ — рус. тянет наречие в конец. Корень разжевать.
 │   │
-│   ├── MT55 · have to · «должен / приходится»  (🆕 добавлена июнь 2026)
+│   ├── MT55 · have to · «должен / приходится»  ✅ (написана, ALL GREEN 30.06; cards 172–174)
 │   │   ├── Card · have to ведёт себя как ОБЫЧНЫЙ глагол → идеальная тренировка только что выученных
 │   │   │   do/does. «I have to work tomorrow.» / «She has to get up early.» (has to для he/she/it).
 │   │   ├── Card · Отрицание/вопрос: «I don't have to go.» = НЕ обязан (НЕ «нельзя»!); «Do you have to…?».
