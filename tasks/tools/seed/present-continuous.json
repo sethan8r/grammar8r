@@ -1,0 +1,302 @@
+{
+  "grammar_topics": [
+    {
+      "id": 9,
+      "title": "Present Continuous",
+      "order": 5,
+      "isPretopic": false,
+      "description": "Время процесса прямо сейчас — действий, которые идут в момент речи или временно, но не навсегда",
+      "categoryId": null
+    }
+  ],
+  "grammar_topic_categories": [],
+  "grammar_microtopics": [
+    {
+      "id": 57,
+      "topicId": 9,
+      "title": "What Is Present Continuous · Что такое Present Continuous",
+      "order": 1
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 176,
+      "microtopicId": 57,
+      "title": "Камера включена — снимаем прямо сейчас",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы разобрали Present Simple — время «вообще»: привычки, факты, то, что верно всегда. Теперь берём его полную противоположность — **Present Continuous**, время «прямо сейчас». Это второе из самых частых времён английского: без него не описать ни один момент, который разворачивается у тебя на глазах."
+        },
+        {
+          "type": "paragraph",
+          "text": "Главная идея одной фразой: **Present Continuous показывает действие в процессе** — оно идёт прямо в эту секунду, пока ты говоришь."
+        },
+        {
+          "type": "heading",
+          "text": "Метафора камеры"
+        },
+        {
+          "type": "paragraph",
+          "text": "Представь, что на действие направлена камера прямого эфира. Present Simple — это запись в анкете («работаю в IT», факт о тебе вообще). Present Continuous — это live-трансляция: видно, как действие происходит здесь и сейчас, кадр за кадром. Ты **внутри** действия, оно разворачивается вокруг тебя в этот момент."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I am working.** — я прямо сейчас за работой, а не «вообще работаю».",
+            "**She is sleeping.** — она спит в эту секунду.",
+            "**They are playing.** — они играют прямо сейчас."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как выглядит форма (пока просто образ)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Present Continuous всегда состоит из двух частей: форма `to be` (`am` / `is` / `are`) + глагол с хвостиком `-ing`. Как именно собирать эту форму — разберём по кирпичику в следующих карточках; сейчас важно одно: узнавать её в лицо и чувствовать смысл «идёт прямо сейчас»."
+        },
+        {
+          "type": "heading",
+          "text": "Один глагол — два кадра"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравни на одном и том же глаголе, как меняется смысл:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I work in IT.** — кем работаю вообще, моя профессия (Present Simple).",
+            "**I am working now.** — что делаю в эту секунду: сижу за работой (Present Continuous)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слова почти те же, а смысл разный: первое предложение про «по жизни», второе — про «вот сейчас». Это и есть граница, которую английский всегда помечает формой глагола, а русский — нет."
+        },
+        {
+          "type": "heading",
+          "text": "Не только «в эту секунду»"
+        },
+        {
+          "type": "paragraph",
+          "text": "У Present Continuous есть и второй оттенок — **временная ситуация**, которая идёт сейчас, но не навсегда. Действие может не происходить буквально в момент речи, но охватывать «этот период жизни»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I am living in Moscow.** — сейчас живу в Москве, но это временно (могу скоро уехать).",
+            "**I am reading a great book.** — взялся за книгу, читаю её в эти дни, ещё не дочитал."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница с Present Simple та же: **I live in Moscow** — постоянное место жительства (факт обо мне), **I am living in Moscow** — где обитаю сейчас, но без гарантии «навсегда»."
+        }
+      ],
+      "theorySummary": "Present Continuous — время «прямо сейчас»: действие в процессе, в момент речи (`I am working` — сижу за работой именно сейчас). Форма — `am/is/are` + глагол с `-ing`. Второй смысл — временная ситуация, которая идёт сейчас, но не навсегда (`I am living in Moscow`). Главный контраст с Present Simple: `I work` — вообще, по жизни; `I am working` — в эту секунду.",
+      "examples": [
+        {
+          "ru": "Я сейчас работаю, не мешай.",
+          "en": "I am working now, don't bother me."
+        },
+        {
+          "ru": "Смотри! Идёт дождь.",
+          "en": "Look! It is raining."
+        },
+        {
+          "ru": "Люди несут зонты по улице.",
+          "en": "People are carrying umbrellas in the street."
+        },
+        {
+          "ru": "Сейчас я живу в Москве, но это временно.",
+          "en": "I am living in Moscow now, but it's temporary."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем Present Continuous отличается от Present Simple?",
+        "Почему «I am living in Moscow» — это сейчас, но не навсегда?",
+        "Обязательно ли действие происходит прямо в секунду речи?"
+      ]
+    },
+    {
+      "id": 177,
+      "microtopicId": 57,
+      "title": "Почему русский говорит «I read now» вместо «I am reading»",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У Present Continuous есть ошибка, которую русскоязычные делают снова и снова — и корень, как всегда, в родном языке. Разберём её сейчас, чтобы дальше строить время уже без этой ловушки."
+        },
+        {
+          "type": "heading",
+          "text": "Зеркальная ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "В Present Simple мы разбирали обратный случай: русский тянул сказать `I am working` там, где нужно простое `I work` (профессия, вообще). Здесь всё наоборот: для действия, которое идёт **прямо сейчас**, английскому нужен Continuous, а русский по привычке хватает простой глагол — `I read` вместо `I am reading`."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда это берётся"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски форма «я читаю» — **одна на всё**. «Я читаю книги по вечерам» (вообще, привычка) и «Не мешай, я читаю» (прямо сейчас) — глагол выглядит одинаково. Русскому не нужно выбирать: одна форма закрывает обе ситуации. Поэтому, когда надо сказать про «вот сейчас», мозг и здесь берёт ту же простую форму — и получается `I read now` ✗ вместо `I am reading now` ✓."
+        },
+        {
+          "type": "paragraph",
+          "text": "А в английском это **два разных времени**, и спутать их нельзя:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I read every evening.** — читаю по вечерам, привычка (Present Simple).",
+            "**I am reading now.** — читаю прямо сейчас, в эту секунду (Present Continuous)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I read now** ✗ → **I am reading now** ✓. Для действия в момент речи простого глагола мало — нужен `am/is/are` + глагол с `-ing`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Слова-подсказки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Часто рядом стоят слова, которые прямо кричат «это происходит сейчас» — увидел их, почти наверняка Continuous: `now` (сейчас), `right now` (прямо сейчас), `at the moment` (в данный момент), а ещё призывы посмотреть или послушать — `Look!` и `Listen!`. Подробно маркеры разберём отдельно, а пока просто запомни: появилось `now` или `Look!` — скорее всего, нужен Continuous."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Look! The bus comes.** ✗ → **Look! The bus is coming.** ✓. Слово `Look!` зовёт смотреть на то, что разворачивается прямо перед глазами, — а значит, это процесс, значит Continuous."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "По-русски «я читаю» — одна форма и для привычки, и для «прямо сейчас», поэтому русские говорят `I read now` вместо нужного `I am reading now`. Для действия в момент речи английскому мало простого глагола — нужен Present Continuous (`am/is/are` + `-ing`). Слова-сигналы `now`, `right now`, `at the moment`, `Look!`, `Listen!` подсказывают, что нужно именно это время.",
+      "examples": [
+        {
+          "ru": "Не мешай, я сейчас читаю.",
+          "en": "Don't bother me, I am reading now."
+        },
+        {
+          "ru": "Смотри! Автобус подъезжает.",
+          "en": "Look! The bus is coming."
+        },
+        {
+          "ru": "Послушай! Кто-то поёт.",
+          "en": "Listen! Someone is singing."
+        },
+        {
+          "ru": "Дорога мокрая — идёт дождь.",
+          "en": "The street is wet — it is raining."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «I read now» — ошибка, если я правда сейчас читаю?",
+        "Как понять, нужен Present Simple или Present Continuous?",
+        "Что за слова now, Look!, Listen! и почему они важны?"
+      ]
+    }
+  ],
+  "card_exercise_index": [],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "tenses",
+      "nameRus": "Времена",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "tenses",
+      "nameRus": "Слова из времён",
+      "groupId": "tenses",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 351,
+      "word": "to rain",
+      "translation": "идти (о дожде)",
+      "transcription": "[reɪn]",
+      "microtopicId": 57,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 352,
+      "word": "to carry",
+      "translation": "нести",
+      "transcription": "[ˈkæri]",
+      "microtopicId": 57,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 353,
+      "word": "umbrella",
+      "translation": "зонт",
+      "transcription": "[ʌmˈbrelə]",
+      "microtopicId": 57,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 354,
+      "word": "street",
+      "translation": "улица",
+      "transcription": "[striːt]",
+      "microtopicId": 57,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 355,
+      "word": "wet",
+      "translation": "мокрый",
+      "transcription": "[wet]",
+      "microtopicId": 57,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 356,
+      "word": "now",
+      "translation": "сейчас",
+      "transcription": "[naʊ]",
+      "microtopicId": 57,
+      "categoryId": "tenses"
+    }
+  ],
+  "table_fill_exercises": [],
+  "true_false_exercises": [],
+  "word_arrangement_exercises": [],
+  "multiple_choice_exercises": [],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [],
+  "error_correction_exercises": [],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [],
+  "find_the_odd_exercises": []
+}

@@ -7,7 +7,7 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 176 |
+| Card | 178 |
 | Categorization | 35 |
 | Category | 2 |
 | ConstructionMeaning | 11 |
@@ -15,17 +15,17 @@
 | ErrorCorrection | 66 |
 | FindTheOdd | 35 |
 | Matching | 29 |
-| Microtopic | 57 |
+| Microtopic | 58 |
 | MultipleChoice·CHOICE | 89 |
 | MultipleChoice·FORWARD_CHOICE | 96 |
 | MultipleChoice·REVERSE_CHOICE | 28 |
 | TableFill | 14 |
 | TextInput | 38 |
-| Topic | 9 |
+| Topic | 10 |
 | Transformation | 23 |
 | TrueFalse | 75 |
 | WordArrangement | 63 |
-| course_word | 351 |
+| course_word | 357 |
 
 ## Диапазоны по темам
 
@@ -136,6 +136,12 @@
 - TrueFalse: 1–39 (39)
 - WordArrangement: 1–40 (40)
 - course_word: 1–230 (230)
+
+### present-continuous
+- Card: 176–177 (2)
+- Microtopic: 57–57 (1)
+- Topic: 9–9 (1)
+- course_word: 351–356 (6)
 
 ### present-simple
 - Card: 148–175 (28)
