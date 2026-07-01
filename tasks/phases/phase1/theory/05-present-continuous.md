@@ -546,7 +546,7 @@ RU: Она красит свою комнату.
 **Words Source:** NONE
 **AI Config Profile:** EXERCISE_LIGHT
 **User Instruction:** "Опишите 2–3 предложениями, что прямо сейчас происходит вокруг вас: что делаете вы и что делают люди рядом."
-**Prompt Template:** "Попроси пользователя описать 2–3 предложениями, что происходит вокруг него прямо сейчас (что делает он сам и люди рядом), в Present Continuous. Проверь, что в каждом предложении есть связка am/is/are, согласованная с подлежащим, и смысловой глагол с -ing. При ошибке кратко по-русски исправь и покажи, где потерялась связка или -ing."
+**Prompt Template:** "Попроси пользователя описать 2–3 предложениями, что происходит вокруг него прямо сейчас (что делает он сам и люди рядом), в Present Continuous. Проверь, что в каждом предложении есть связка am/is/are, согласованная с подлежащим, и смысловой глагол с -ing. При ошибке кратко по-русски исправь и покажи, где потерялась связка или -ing. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
 
 Пример вывода AI: 'Опишите, что происходит вокруг вас прямо сейчас. Например: что делаете вы, что делает человек рядом, что происходит за окном.'
 
@@ -821,7 +821,7 @@ RU: Она сейчас не читает книгу.
 **Words Source:** NONE
 **AI Config Profile:** EXERCISE_LIGHT
 **User Instruction:** "Напишите 2–3 предложения о том, что вы прямо сейчас НЕ делаете."
-**Prompt Template:** "Попроси пользователя написать 2–3 отрицательных предложения в Present Continuous о том, что он сейчас не делает. Проверь, что отрицание построено через be + not (am not / isn't / aren't) и глагол с -ing, и что нет лишнего do/does. При ошибке кратко по-русски исправь и объясни, где ошибка."
+**Prompt Template:** "Попроси пользователя написать 2–3 отрицательных предложения в Present Continuous о том, что он сейчас не делает. Проверь, что отрицание построено через be + not (am not / isn't / aren't) и глагол с -ing, и что нет лишнего do/does. При ошибке кратко по-русски исправь и объясни, где ошибка. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
 
 Пример вывода AI: 'Напишите 2–3 предложения о том, что вы сейчас НЕ делаете. Например: чем вы не занимаетесь прямо в эту минуту.'
 
@@ -947,26 +947,288 @@ RU: Она сейчас не читает книгу.
 
 ---
 
+## Microtopic 61 — Question · Вопрос
+
+**ID:** 61 | **Order:** 5
+
+---
+
+### Card 184 · be выходит вперёд
+
+**ID:** 184 | **Order:** 1
+
+#### Theory
+
+Утверждать и отрицать мы уже умеем — осталось научиться спрашивать. И снова это проще некуда: никаких новых слов учить не надо, достаточно поменять порядок.
+
+**Как задать вопрос: be вперёд**
+
+Чтобы превратить утверждение в вопрос, связка `be` просто перепрыгивает в начало — перед подлежащее. Всё остальное остаётся на местах.
+
+- **You are working.** → **Are you working?**
+- **She is sleeping.** → **Is she sleeping?**
+- **They are eating.** → **Are they eating?**
+
+Меняется только порядок первых двух слов: `be` встаёт впереди подлежащего, а глагол с `-ing` не трогаем.
+
+**Схема по лицам**
+
+Впереди — нужная форма связки, за ней подлежащее, потом глагол с `-ing`:
+
+- **Am I** singing too loud?
+- **Is he** driving the car?
+- **Are you** drinking coffee?
+
+**Снова без do — зеркало Present Simple**
+
+В Present Simple, чтобы спросить, приходилось ставить впереди помощника `Do`/`Does` (**Do you work?**) — глагол-то стоял голый, и выносить вперёд было нечего. В Present Continuous помощник `be` **уже стоит** в предложении, поэтому вопрос строится вообще без `do`: просто выносим `be` вперёд.
+
+**Ловушка:** **Do you working?** ✗ → **Are you working?** ✓. Есть глагол с `-ing` — значит, в предложении есть `be`, и именно `be` выходит вперёд для вопроса, а `do`/`does` не нужен.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Вопрос в Present Continuous строится выносом связки вперёд: утверждение `You are working` → вопрос `Are you working?`. Схема: `am/is/are` + подлежащее + глагол с `-ing` (**Is she sleeping?**, **Are they eating?**). Помощник `do`/`does` не нужен — его роль, как в Present Simple, здесь играет сам `be`, который встаёт перед подлежащим. **Do you working?** ✗ → **Are you working?** ✓.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 765 | Ты плывёшь слишком быстро? | Are you swimming too fast? |
+| 766 | Она готовит ужин на кухне? | Is she cooking dinner in the kitchen? |
+| 767 | Они танцуют на вечеринке? | Are they dancing at the party? |
+| 768 | Я слишком громко пою? | Am I singing too loud? |
+| 769 | Твой брат ведёт машину? | Is your brother driving the car? |
+
+---
+
+#### Exercises
+
+**Ex 26 · WordArrangement** *(ID: 66)*
+
+RU: Ты сейчас пьёшь чай?
+
+Правильное предложение: **Are you drinking tea now?**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Are | — |
+| you | — |
+| drinking | — |
+| tea | — |
+| now | — |
+| Do | ✗ |
+| Is | ✗ |
+| drinks | ✗ |
+| eating | ✗ |
+
+*Explanation:* вопрос = `be` вперёд: `Are you drinking …?` Для `you` — `are`, не `is`. `Do` — лишний помощник из Present Simple, `drinks` — форма Present Simple, `eating` — не тот глагол.
+
+---
+
+**Ex 27 · MultipleChoice · FORWARD_CHOICE** *(ID: 98)*
+
+"Он сейчас ведёт машину?"
+
+- Does he driving the car now?
+- **Is he driving the car now?** ✓
+- He is driving the car now?
+
+*Explanation:* вопрос строится выносом `be` вперёд: `Is he driving …?` `Does he driving` — лишний помощник `do`; третий вариант — это утверждение со знаком вопроса, порядок слов не вопросительный.
+
+---
+
+**Ex 28 · ErrorCorrection** *(ID: 69)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Do they swimming now?"
+
+- **Are they swimming now?** ✓
+- Are they swim now?
+- Do they swimming now?
+
+*Explanation:* в вопросе Present Continuous вперёд выходит `be`: `Are they swimming …?` Помощник `do` здесь не нужен; `Are they swim` — потеряно `-ing`.
+
+---
+
+**Ex 29 · TrueFalse** *(ID: 80)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Are you drinking coffee now? | ✓ |
+| 2 | Do she cooking dinner? | ✗ |
+| 3 | Is he knocking on the door? | ✓ |
+| 4 | Are they dance at the party? | ✗ |
+| 5 | Am I singing too loud? | ✓ |
+
+*Explanation:* Строка 2: вопрос через `be`, не `do` — верно `Is she cooking dinner?`. Строка 4: пропущен `-ing` — верно `Are they dancing at the party?`.
+
+---
+
+#### Clarification Options
+
+- Почему в вопросе не нужен Do/Does?
+- Что выходит вперёд, если подлежащее — I?
+- Чем «Are you working?» отличается от «Do you work?»?
+
+---
+
+### Card 185 · Краткие ответы + WH
+
+**ID:** 185 | **Order:** 2
+
+#### Theory
+
+Вопрос задавать научились — теперь как на него отвечать и как спросить не «да/нет», а «что» и «где».
+
+**Краткие ответы — через be**
+
+На вопрос в Present Continuous коротко отвечают тем же `be`, а не помощником `do`. Глагол с `-ing` в ответе повторять не нужно:
+
+- **Are you working?** — **Yes, I am.** / **No, I'm not.**
+- **Is she sleeping?** — **Yes, she is.** / **No, she isn't.**
+- **Are they eating?** — **Yes, they are.** / **No, they aren't.**
+
+Ответ работает как эхо: берём ту же связку, что стояла в вопросе.
+
+**Ловушка:** на **Are you listening?** отвечаем **Yes, I am** ✓, а не **Yes, I do** ✗. `do` — привычка из Present Simple; здесь ответ несёт `be`.
+
+**Положительный ответ не сокращают**
+
+**Важно:** короткий положительный ответ нельзя ужимать — **Yes, I am** ✓, но не **Yes, I'm** ✗. А отрицательный сокращают свободно: **No, I'm not**, **No, she isn't**. Причина: сокращение всегда просит продолжения, а в коротком ответе после `am` ничего не стоит.
+
+**WH-вопросы: слово-вопрос впереди**
+
+Если спрашиваем не «да/нет», а «что / где / почему», вопросительное слово ставим в самое начало, а дальше идёт та же схема `be` + подлежащее + `-ing`:
+
+- **What are you doing?** — Что ты делаешь?
+- **Where is she going?** — Куда она идёт?
+- **Why are they laughing?** — Почему они смеются?
+
+Фразу **What are you doing?** запомни целиком, готовым блоком, — это, пожалуй, самый частый бытовой вопрос в английском.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+На вопрос отвечаем кратко тем же `be`: `Are you working?` → `Yes, I am` / `No, I'm not` (не `Yes, I do`). Положительный краткий ответ не сокращают (**Yes, I am** ✓, не **Yes, I'm**), отрицательный — можно (**No, she isn't**). WH-вопрос: вопросительное слово + `am/is/are` + подлежащее + глагол с `-ing` (**What are you doing?**, **Where is she going?**).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 770 | — Ты пьёшь кофе? — Да. | — Are you drinking coffee? — Yes, I am. |
+| 771 | — Она бежит? — Нет. | — Is she running? — No, she isn't. |
+| 772 | Что ты сейчас делаешь? | What are you doing now? |
+| 773 | Куда они идут? | Where are they going? |
+| 774 | Почему малыш смеётся? | Why is the baby laughing? |
+
+---
+
+#### Exercises
+
+**Ex 30 · Matching** *(ID: 29)*
+
+Задание: подбери к вопросу краткий ответ.
+
+| Вопрос | Ответ |
+|--------|-------|
+| Are you swimming? | Yes, I am. |
+| Is she singing? | No, she isn't. |
+| Are they dancing? | Yes, they are. |
+| Is he knocking? | No, he isn't. |
+
+*Explanation:* краткий ответ повторяет связку вопроса: `you → I am`, `she → she isn't`, `they → they are`, `he → he isn't`. Глагол с `-ing` в ответе не нужен.
+
+---
+
+**Ex 31 · MultipleChoice · CHOICE** *(ID: 90)*
+
+"— Is your sister studying now? — ___"
+
+- Yes, she does.
+- **Yes, she is.** ✓
+- Yes, she studying.
+
+*Explanation:* краткий ответ несёт `be`: `Yes, she is`. `Yes, she does` — из Present Simple; `Yes, she studying` — так не отвечают.
+
+---
+
+**Ex 32 · Transformation** *(ID: 25)*
+
+Задание: сделай из предложения вопрос.
+
+1. "She is drinking tea." → **"Is she drinking tea?"**
+2. "They are running in the park." → **"Are they running in the park?"**
+3. "You are knocking on the door." → **"Are you knocking on the door?"**
+
+*Explanation:* вопрос = вынести `be` вперёд, перед подлежащее: `is → Is she …?`, `are → Are they …? / Are you …?`. Глагол с `-ing` остаётся, `do` не добавляем.
+
+---
+
+**Ex 33 · FindTheOdd** *(ID: 38)*
+
+Три вопроса построены верно, один — с ошибкой:
+
+- Is she cooking dinner?
+- Why is he swimming?
+- **Do they playing outside?** ✓
+- Is she writing a letter?
+
+*Explanation:* «Do they playing» тащит лишний `do` из Present Simple — верно `Are they playing outside?`. Вопрос в Present Continuous строится выносом `be` вперёд.
+
+---
+
+#### AI Exercise
+
+**ID:** present_continuous_card185_ex1
+**Title:** "Спроси и ответь по-английски"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст русский вопрос про то, что происходит прямо сейчас. Напишите его по-английски в Present Continuous и сразу дайте на него краткий ответ."
+**Prompt Template:** "Дай пользователю ОДИН короткий русский yes/no-вопрос про действие прямо сейчас (Present Continuous), построенный из знакомых пользователю слов — если в присланном списке слов есть подходящие, желательно строить вопрос вокруг них, чтобы трудность была в грамматике, а не в незнакомой лексике. Пользователь должен: (1) написать этот вопрос по-английски в Present Continuous — be вперёд + глагол с -ing; (2) сразу дать краткий ответ через be (Yes, I am / No, she isn't и т.п.), а не через do. Проверь порядок слов, форму be и -ing и правильность краткого ответа. При ошибке кратко по-русски исправь и объясни. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Твоя сестра сейчас готовит ужин? Напишите этот вопрос по-английски и дайте краткий ответ.'
+
+#### Clarification Options
+
+- Почему на «Are you…?» отвечаем «Yes, I am», а не «Yes, I do»?
+- Почему нельзя сказать «Yes, I'm»?
+- Как строить вопросы с what, where, why?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| to dance | танцевать | [dɑːns] |
+| to knock | стучать | [nɒk] |
+| dinner | ужин | [ˈdɪnə] |
+| party | вечеринка | [ˈpɑːti] |
+| loud | громкий | [laʊd] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 9 | 10 |
-| Microtopic | 60 | 61 |
-| Card | 183 | 184 |
-| Example | 764 | 765 |
-| MultipleChoice · CHOICE | 89 | 90 |
-| MultipleChoice · FORWARD_CHOICE | 97 | 98 |
+| Microtopic | 61 | 62 |
+| Card | 185 | 186 |
+| Example | 774 | 775 |
+| MultipleChoice · CHOICE | 90 | 91 |
+| MultipleChoice · FORWARD_CHOICE | 98 | 99 |
 | MultipleChoice · REVERSE_CHOICE | 27 | 28 |
-| TrueFalse | 79 | 80 |
-| WordArrangement | 65 | 66 |
+| TrueFalse | 80 | 81 |
+| WordArrangement | 66 | 67 |
 | TextInput | 38 | 39 |
-| Matching | 28 | 29 |
-| Transformation | 24 | 25 |
-| ErrorCorrection | 68 | 69 |
+| Matching | 29 | 30 |
+| Transformation | 25 | 26 |
+| ErrorCorrection | 69 | 70 |
 | TableFill | 17 | 18 |
-| FindTheOdd | 37 | 38 |
+| FindTheOdd | 38 | 39 |
 | ConstructionMeaning | 10 | 11 |
 | Categorization | 35 | 36 |
 | DialogRestore | 13 | 14 |
-| course_word | 372 | 373 |
+| course_word | 377 | 378 |

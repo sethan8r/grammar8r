@@ -878,9 +878,9 @@ theory/
 │   │   └── Card 183 · Никакого do — be сам несёт отрицание. Ловушка «I don't working» ✗ →
 │   │       «I'm not working» ✓ (зеркало don't/doesn't из Present Simple, do и be не встречаются вместе).
 │   │
-│   ├── MT61 · Question · Вопрос (2 карточки)
-│   │   ├── Card · be выходит вперёд — Am I…? / Is she…? / Are you…? + V-ing. Снова без do (контраст с Do/Does).
-│   │   └── Card · Краткие ответы + WH — Yes, I am / No, I'm not; What are you doing?
+│   ├── MT61 · Question · Вопрос (2 карточки) ✅ (написана, ALL GREEN 01.07; cards 184–185, 1 AI на card185)
+│   │   ├── Card 184 · be выходит вперёд — Am I…? / Is she…? / Are you…? + V-ing. Снова без do (контраст с Do/Does).
+│   │   └── Card 185 · Краткие ответы + WH — Yes, I am / No, I'm not (положит. не сокращаем); What are you doing?
 │   │
 │   ├── MT62 · Usage · Употребление (3–4 карточки)
 │   │   ├── Card · Прямо сейчас — Look! Listen!, момент речи.
