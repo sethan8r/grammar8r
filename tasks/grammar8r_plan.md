@@ -866,7 +866,7 @@ theory/
 │   │       согласные удвоения не требуют (open→opening, help→helping).
 │   │       Слив: to smile, to cry, kitchen, hungry, together (course_word 357–361).
 │   │
-│   ├── MT59 · Affirmative · Утверждение: am/is/are + V-ing (2 карточки)
+│   ├── MT59 · Affirmative · Утверждение: am/is/are + V-ing (2 карточки) ✅ (написана, ALL GREEN 01.07; cards 180–181, 1 AI на card180)
 │   │   ├── Card · be-помощник + глагол-ing — формы be по лицам (повтор из Основ) + V-ing;
 │   │   │   сокращения I'm / he's / they're.
 │   │   └── Card · Ловушка: без be нельзя — «I working» ✗ → «I am working» ✓. В Present Simple связка

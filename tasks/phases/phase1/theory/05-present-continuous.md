@@ -413,26 +413,307 @@ RU: Кот спит на кровати.
 
 ---
 
+## Microtopic 59 — Affirmative · Утверждение
+
+**ID:** 59 | **Order:** 3
+
+---
+
+### Card 180 · be-помощник + глагол-ing
+
+**ID:** 180 | **Order:** 1
+
+#### Theory
+
+Две прошлые карточки дали нам обе детали Present Continuous по отдельности: смысл «прямо сейчас» (что это за время) и как приклеить хвостик `-ing`. Пора соединить их в живое предложение. Хорошая новость — вторую деталь, связку `am/is/are`, мы знаем ещё с Основ, так что собирать почти нечего: нужно лишь поставить кирпичи в правильном порядке.
+
+**Формула: подлежащее + `am/is/are` + глагол с `-ing`**
+
+Любое утверждение в Present Continuous — это три части подряд: сначала **кто** (подлежащее), потом связка `be` в нужной форме (`am`, `is` или `are`), и только потом смысловой глагол с хвостиком `-ing`. Пропустишь любую из частей — предложение развалится.
+
+- **I am working.** — я сейчас работаю.
+- **She is reading.** — она сейчас читает.
+- **They are playing.** — они сейчас играют.
+
+**Какую форму `be` брать — по лицу подлежащего**
+
+Связка меняется ровно так же, как в теме «Глагол to be» из Основ, — ничего нового учить не надо, просто вспоминаем:
+
+| Подлежащее | Форма be | Пример |
+|------------|-----------|--------|
+| I | am | I am painting |
+| he / she / it | is | She is painting |
+| you / we / they | are | We are painting |
+
+Обрати внимание: меняется **только связка**, а сам глагол с `-ing` для всех лиц одинаковый — `painting`. Всю подстройку под лицо берёт на себя `be`, а смысловой глагол остаётся неизменным. Это и удобно: выучил три формы связки — и закрыл все шесть лиц.
+
+**Сокращения — как говорят на самом деле**
+
+В живой речи `be` почти всегда сливают с подлежащим в короткую форму. Это не сленг и не небрежность — так говорят все и постоянно:
+
+- **I'm** working (= I am)
+- **You're** working (= you are)
+- **He's** / **She's** / **It's** working (= he is …)
+- **We're** / **They're** working (= we are …)
+
+**Кстати:** полные формы (`I am`, `she is`) — не ошибка, их используют, когда говорят твёрдо или официально. Но в обычном разговоре естественнее звучит сокращение: **I'm cooking** вместо **I am cooking**.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Утверждение в Present Continuous строится по формуле: подлежащее + `am/is/are` + глагол с `-ing`. Форму `be` выбираем по лицу: `I am`, `he/she/it is`, `you/we/they are`; сам глагол с `-ing` при этом не меняется (**I am working**, **she is working**). В живой речи связку сливают с подлежащим: **I'm**, **he's**, **they're** + глагол с `-ing`.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 747 | Я сейчас крашу стену. | I am painting the wall now. |
+| 748 | Дети громко смеются в саду. | The children are laughing loudly in the garden. |
+| 749 | Она моет посуду на кухне. | She is washing the dishes in the kitchen. |
+| 750 | Мы сидим на полу и играем. | We are sitting on the floor and playing. |
+| 751 | Я стою у окна и смотрю на дождь. | I'm standing at the window, watching the rain. |
+
+---
+
+#### Exercises
+
+**Ex 9 · WordArrangement** *(ID: 64)*
+
+RU: Она красит свою комнату.
+
+Правильное предложение: **She is painting her room.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| She | — |
+| is | — |
+| painting | — |
+| her room | — |
+| are | ✗ |
+| paints | ✗ |
+| paint | ✗ |
+
+*Explanation:* `she` — 3-е лицо, связка `is`, а не `are`. Смысловой глагол в Present Continuous стоит с `-ing`: `painting` (не `paints` из Present Simple и не голое `paint`).
+
+---
+
+**Ex 10 · TableFill** *(ID: 16)*
+
+Задание: собери форму Present Continuous.
+
+| Подлежащее + глагол | Present Continuous |
+|---------------------|--------------------|
+| I + to work | I am working |
+| She + to read | She is reading |
+| They + to play | They are playing |
+| We + to wash | We are washing |
+| He + to laugh | He is laughing |
+
+*Explanation:* связка по лицу (`I am`, `she is`, `they are`, `we are`, `he is`) + глагол с `-ing`; `wash → washing`, `laugh → laughing` — просто добавляем `-ing`.
+
+---
+
+**Ex 11 · MultipleChoice · FORWARD_CHOICE** *(ID: 96)*
+
+"Мальчики играют в футбол в парке."
+
+- The boys is playing football in the park.
+- The boys are play football in the park.
+- **The boys are playing football in the park.** ✓
+
+*Explanation:* `the boys` — множественное число, значит связка `are`. И связка, и `-ing` обязательны: `are playing`. `is` не идёт ко множественному, `are play` — без `-ing`.
+
+---
+
+**Ex 12 · TrueFalse** *(ID: 77)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | The children are laughing in the garden. | ✓ |
+| 2 | He are washing the car. | ✗ |
+| 3 | I'm sitting near the window. | ✓ |
+| 4 | She are reading a book. | ✗ |
+| 5 | We are painting the floor. | ✓ |
+
+*Explanation:* Строка 2: `he` берёт `is`, а не `are` — верно `He is washing`. Строка 4: `she` → `is` — верно `She is reading`. Связка `be` согласуется с подлежащим.
+
+---
+
+#### AI Exercise
+
+**ID:** present_continuous_card180_ex1
+**Title:** "Что происходит прямо сейчас"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Опишите 2–3 предложениями, что прямо сейчас происходит вокруг вас: что делаете вы и что делают люди рядом."
+**Prompt Template:** "Попроси пользователя описать 2–3 предложениями, что происходит вокруг него прямо сейчас (что делает он сам и люди рядом), в Present Continuous. Проверь, что в каждом предложении есть связка am/is/are, согласованная с подлежащим, и смысловой глагол с -ing. При ошибке кратко по-русски исправь и покажи, где потерялась связка или -ing."
+
+Пример вывода AI: 'Опишите, что происходит вокруг вас прямо сейчас. Например: что делаете вы, что делает человек рядом, что происходит за окном.'
+
+#### Clarification Options
+
+- Почему для he/she/it нужен is, а для we/they — are?
+- Обязательно ли говорить I am, или можно просто I'm?
+- Зачем вообще нужен am/is/are, если глагол уже стоит с -ing?
+
+---
+
+### Card 181 · Ловушка: без be нельзя
+
+**ID:** 181 | **Order:** 2
+
+#### Theory
+
+Формулу мы собрали — а теперь про главную ошибку, на которой спотыкается почти каждый русскоязычный. Она такая частая, что разберём её отдельной карточкой и с корнем: поймёшь, откуда она растёт, — и повторять перестанешь.
+
+Ошибка одна: **выбросить `be`**. Русский мозг доходит до глагола с `-ing` и на этом останавливается — получается **I working** ✗, **She reading** ✗, **They playing** ✗. Кажется, будто `-ing`-глагол уже сам всё сказал. Но нет: без связки `am/is/are` это ещё не предложение.
+
+**Откуда берётся пропуск**
+
+Смотрим в русский. Фраза «я работаю» — это **одно слово**, глагол и всё. Отдельного «быть» в настоящем времени в русском просто нет: мы не говорим «я есть работающий». Поэтому, когда надо сказать «я работаю сейчас», мозгу неоткуда взять `am` — в родном языке на этом месте пусто. Он честно переводит «работаю» → `working` и ставит точку, а связка теряется по дороге.
+
+**Зеркало Present Simple**
+
+Тут интересный поворот. В Present Simple мы разбирали ровно обратную ошибку: там русский пытался **добавить** лишнюю связку — **I am work** ✗, хотя правильно просто **I work**. А здесь наоборот — связку надо **вернуть**. Сравни две системы бок о бок:
+
+| Present Simple — «вообще» | Present Continuous — «сейчас» |
+|---------------------------|-------------------------------|
+| I work | I am working |
+| She reads | She is reading |
+| They play | They are playing |
+
+Видишь закономерность: в левой колонке `be` не нужен вовсе, в правой — обязателен. То же подлежащее, тот же глагол, а связка то лишняя, то необходимая — всё решает время. Поэтому нельзя ставить `be` на автомате: сначала реши, какое время, а потом добавляй или убирай связку.
+
+**Ловушка:** **I working now** ✗ → **I am working now** ✓. Глагол с `-ing` не живёт в одиночку — Present Continuous всегда состоит из двух частей: `be` + `-ing`. Убрал связку — сломал время.
+
+Проверяй себя простым вопросом: «есть ли в предложении `am`, `is` или `are`?» Если действие идёт прямо сейчас, а связки нет — предложение недостроено.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Самая частая ошибка в Present Continuous — выбросить связку: **I working** ✗ вместо **I am working** ✓. Корень в русском: «я работаю» — одно слово, отдельного «быть» в настоящем нет, поэтому мозгу неоткуда взять `am/is/are`. Зеркало Present Simple: там лишний `be` убирали (**I am work** ✗ → **I work**), здесь его обязательно ставим (**I working** ✗ → **I am working**). Present Continuous всегда две части: `am/is/are` + глагол с `-ing`.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 752 | Тихо! Малыш спит. | Be quiet! The baby is sleeping. |
+| 753 | Я сейчас жду автобус. | I am waiting for the bus now. |
+| 754 | Смотри! Дети моют собаку. | Look! The children are washing the dog. |
+| 755 | Девочки смеются и рисуют. | The girls are laughing and painting. |
+
+---
+
+#### Exercises
+
+**Ex 13 · ErrorCorrection** *(ID: 67)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"They playing in the garden after lunch."
+
+- They plays in the garden after lunch.
+- **They are playing in the garden after lunch.** ✓
+- They is playing in the garden after lunch.
+
+*Explanation:* без связки предложение неполное; для `they` нужна форма `are` + глагол с `-ing`: `are playing`. `plays` — это Present Simple 3-го лица (другое время и лицо), `is` не подходит ко множественному `they`.
+
+---
+
+**Ex 14 · Transformation** *(ID: 23)*
+
+Задание: перепиши предложение в Present Continuous — действие идёт прямо сейчас.
+
+1. "She washes the car." → **"She is washing the car."**
+2. "They read a book." → **"They are reading a book."**
+3. "I cook dinner." → **"I am cooking dinner."**
+
+*Explanation:* Present Continuous = `am/is/are` + глагол с `-ing`. Ставим связку по лицу (she → `is`, they → `are`, I → `am`) и добавляем `-ing`: `washes → washing`, `read → reading`, `cook → cooking`.
+
+---
+
+**Ex 15 · TextInput** *(ID: 38)*
+
+Вставь пропущенную связку.
+
+1. "Look! It ___ raining outside."
+   Ответ: **is**
+2. "Listen! The girls ___ laughing."
+   Ответ: **are**
+3. "Right now I ___ painting my room."
+   Ответ: **am**
+
+*Explanation:* пропущена связка `be`: `it` → `is`, `the girls` (мн. ч.) → `are`, `I` → `am`. Без неё глагол с `-ing` не образует Present Continuous.
+
+---
+
+**Ex 16 · TrueFalse** *(ID: 78)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | She is drinking tea. | ✓ |
+| 2 | They playing in the garden. | ✗ |
+| 3 | I am watching TV. | ✓ |
+| 4 | He reading a book now. | ✗ |
+| 5 | We are laughing together. | ✓ |
+
+*Explanation:* Строка 2: пропущена связка — верно `They are playing`. Строка 4: пропущена связка — верно `He is reading`. Present Continuous всегда `am/is/are` + глагол с `-ing`.
+
+---
+
+**Ex 17 · FindTheOdd** *(ID: 36)*
+
+Три предложения построены верно, в одном пропущена связка:
+
+- She is making tea.
+- We are waiting for the train.
+- **He painting the window.** ✓
+- I am reading a book.
+
+*Explanation:* в «He painting the window» нет связки — верно `He is painting the window`. В остальных предложениях связка на месте: `is`/`are`/`am` + глагол с `-ing`.
+
+---
+
+#### Clarification Options
+
+- Почему «I working» — ошибка, если глагол уже стоит с -ing?
+- В Present Simple было «I work» без am, а тут «I am working» — почему разница?
+- Может ли предложение Present Continuous обойтись без am/is/are?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| to wash | мыть, стирать | [wɒʃ] |
+| to paint | красить, рисовать | [peɪnt] |
+| to laugh | смеяться | [lɑːf] |
+| window | окно | [ˈwɪndəʊ] |
+| floor | пол | [flɔː] |
+| quiet | тихий | [ˈkwaɪət] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 9 | 10 |
-| Microtopic | 58 | 59 |
-| Card | 179 | 180 |
-| Example | 746 | 747 |
+| Microtopic | 59 | 60 |
+| Card | 181 | 182 |
+| Example | 755 | 756 |
 | MultipleChoice · CHOICE | 88 | 89 |
-| MultipleChoice · FORWARD_CHOICE | 95 | 96 |
+| MultipleChoice · FORWARD_CHOICE | 96 | 97 |
 | MultipleChoice · REVERSE_CHOICE | 27 | 28 |
-| TrueFalse | 76 | 77 |
-| WordArrangement | 63 | 64 |
-| TextInput | 37 | 38 |
+| TrueFalse | 78 | 79 |
+| WordArrangement | 64 | 65 |
+| TextInput | 38 | 39 |
 | Matching | 28 | 29 |
-| Transformation | 22 | 23 |
-| ErrorCorrection | 66 | 67 |
-| TableFill | 15 | 16 |
-| FindTheOdd | 35 | 36 |
+| Transformation | 23 | 24 |
+| ErrorCorrection | 67 | 68 |
+| TableFill | 16 | 17 |
+| FindTheOdd | 36 | 37 |
 | ConstructionMeaning | 10 | 11 |
 | Categorization | 35 | 36 |
 | DialogRestore | 13 | 14 |
-| course_word | 361 | 362 |
+| course_word | 367 | 368 |

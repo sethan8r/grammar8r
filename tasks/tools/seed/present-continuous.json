@@ -22,6 +22,12 @@
       "topicId": 9,
       "title": "The -ing Form · Форма -ing",
       "order": 2
+    },
+    {
+      "id": 59,
+      "topicId": 9,
+      "title": "Affirmative · Утверждение",
+      "order": 3
     }
   ],
   "grammar_cards": [
@@ -458,6 +464,232 @@
         "Почему у lie форма lying, а не lieing?",
         "Куда девается -e в make и write?"
       ]
+    },
+    {
+      "id": 180,
+      "microtopicId": 59,
+      "title": "be-помощник + глагол-ing",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Две прошлые карточки дали нам обе детали Present Continuous по отдельности: смысл «прямо сейчас» (что это за время) и как приклеить хвостик `-ing`. Пора соединить их в живое предложение. Хорошая новость — вторую деталь, связку `am/is/are`, мы знаем ещё с Основ, так что собирать почти нечего: нужно лишь поставить кирпичи в правильном порядке."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Подлежащее + `am/is/are` + глагол с `-ing`**"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Любое утверждение в Present Continuous — это три части подряд: сначала **кто** (подлежащее), потом связка `be` в нужной форме (`am`, `is` или `are`), и только потом смысловой глагол с хвостиком `-ing`. Пропустишь любую из частей — предложение развалится."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I am working.** — я сейчас работаю.",
+            "**She is reading.** — она сейчас читает.",
+            "**They are playing.** — они сейчас играют."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Какую форму `be` брать — по лицу подлежащего"
+        },
+        {
+          "type": "paragraph",
+          "text": "Связка меняется ровно так же, как в теме «Глагол to be» из Основ, — ничего нового учить не надо, просто вспоминаем:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Подлежащее",
+            "Форма be",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "I",
+              "am",
+              "I am painting"
+            ],
+            [
+              "he / she / it",
+              "is",
+              "She is painting"
+            ],
+            [
+              "you / we / they",
+              "are",
+              "We are painting"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание: меняется **только связка**, а сам глагол с `-ing` для всех лиц одинаковый — `painting`. Всю подстройку под лицо берёт на себя `be`, а смысловой глагол остаётся неизменным. Это и удобно: выучил три формы связки — и закрыл все шесть лиц."
+        },
+        {
+          "type": "heading",
+          "text": "Сокращения — как говорят на самом деле"
+        },
+        {
+          "type": "paragraph",
+          "text": "В живой речи `be` почти всегда сливают с подлежащим в короткую форму. Это не сленг и не небрежность — так говорят все и постоянно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm** working (= I am)",
+            "**You're** working (= you are)",
+            "**He's** / **She's** / **It's** working (= he is …)",
+            "**We're** / **They're** working (= we are …)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Полные формы (`I am`, `she is`) — не ошибка, их используют, когда говорят твёрдо или официально. Но в обычном разговоре естественнее звучит сокращение: **I'm cooking** вместо **I am cooking**."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Утверждение в Present Continuous строится по формуле: подлежащее + `am/is/are` + глагол с `-ing`. Форму `be` выбираем по лицу: `I am`, `he/she/it is`, `you/we/they are`; сам глагол с `-ing` при этом не меняется (**I am working**, **she is working**). В живой речи связку сливают с подлежащим: **I'm**, **he's**, **they're** + глагол с `-ing`.",
+      "examples": [
+        {
+          "ru": "Я сейчас крашу стену.",
+          "en": "I am painting the wall now."
+        },
+        {
+          "ru": "Дети громко смеются в саду.",
+          "en": "The children are laughing loudly in the garden."
+        },
+        {
+          "ru": "Она моет посуду на кухне.",
+          "en": "She is washing the dishes in the kitchen."
+        },
+        {
+          "ru": "Мы сидим на полу и играем.",
+          "en": "We are sitting on the floor and playing."
+        },
+        {
+          "ru": "Я стою у окна и смотрю на дождь.",
+          "en": "I'm standing at the window, watching the rain."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему для he/she/it нужен is, а для we/they — are?",
+        "Обязательно ли говорить I am, или можно просто I'm?",
+        "Зачем вообще нужен am/is/are, если глагол уже стоит с -ing?"
+      ]
+    },
+    {
+      "id": 181,
+      "microtopicId": 59,
+      "title": "Ловушка: без be нельзя",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Формулу мы собрали — а теперь про главную ошибку, на которой спотыкается почти каждый русскоязычный. Она такая частая, что разберём её отдельной карточкой и с корнем: поймёшь, откуда она растёт, — и повторять перестанешь."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибка одна: **выбросить `be`**. Русский мозг доходит до глагола с `-ing` и на этом останавливается — получается **I working** ✗, **She reading** ✗, **They playing** ✗. Кажется, будто `-ing`-глагол уже сам всё сказал. Но нет: без связки `am/is/are` это ещё не предложение."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда берётся пропуск"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотрим в русский. Фраза «я работаю» — это **одно слово**, глагол и всё. Отдельного «быть» в настоящем времени в русском просто нет: мы не говорим «я есть работающий». Поэтому, когда надо сказать «я работаю сейчас», мозгу неоткуда взять `am` — в родном языке на этом месте пусто. Он честно переводит «работаю» → `working` и ставит точку, а связка теряется по дороге."
+        },
+        {
+          "type": "heading",
+          "text": "Зеркало Present Simple"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тут интересный поворот. В Present Simple мы разбирали ровно обратную ошибку: там русский пытался **добавить** лишнюю связку — **I am work** ✗, хотя правильно просто **I work**. А здесь наоборот — связку надо **вернуть**. Сравни две системы бок о бок:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Present Simple — «вообще»",
+            "Present Continuous — «сейчас»"
+          ],
+          "rows": [
+            [
+              "I work",
+              "I am working"
+            ],
+            [
+              "She reads",
+              "She is reading"
+            ],
+            [
+              "They play",
+              "They are playing"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Видишь закономерность: в левой колонке `be` не нужен вовсе, в правой — обязателен. То же подлежащее, тот же глагол, а связка то лишняя, то необходимая — всё решает время. Поэтому нельзя ставить `be` на автомате: сначала реши, какое время, а потом добавляй или убирай связку."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I working now** ✗ → **I am working now** ✓. Глагол с `-ing` не живёт в одиночку — Present Continuous всегда состоит из двух частей: `be` + `-ing`. Убрал связку — сломал время."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверяй себя простым вопросом: «есть ли в предложении `am`, `is` или `are`?» Если действие идёт прямо сейчас, а связки нет — предложение недостроено."
+        }
+      ],
+      "theorySummary": "Самая частая ошибка в Present Continuous — выбросить связку: **I working** ✗ вместо **I am working** ✓. Корень в русском: «я работаю» — одно слово, отдельного «быть» в настоящем нет, поэтому мозгу неоткуда взять `am/is/are`. Зеркало Present Simple: там лишний `be` убирали (**I am work** ✗ → **I work**), здесь его обязательно ставим (**I working** ✗ → **I am working**). Present Continuous всегда две части: `am/is/are` + глагол с `-ing`.",
+      "examples": [
+        {
+          "ru": "Тихо! Малыш спит.",
+          "en": "Be quiet! The baby is sleeping."
+        },
+        {
+          "ru": "Я сейчас жду автобус.",
+          "en": "I am waiting for the bus now."
+        },
+        {
+          "ru": "Смотри! Дети моют собаку.",
+          "en": "Look! The children are washing the dog."
+        },
+        {
+          "ru": "Девочки смеются и рисуют.",
+          "en": "The girls are laughing and painting."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «I working» — ошибка, если глагол уже стоит с -ing?",
+        "В Present Simple было «I work» без am, а тут «I am working» — почему разница?",
+        "Может ли предложение Present Continuous обойтись без am/is/are?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -508,9 +740,72 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 76,
       "orderInCard": 4
+    },
+    {
+      "cardId": 180,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 64,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 180,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 16,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 180,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 96,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 180,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 77,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 181,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 67,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 181,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 23,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 181,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 38,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 181,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 78,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 181,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 36,
+      "orderInCard": 4
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "present_continuous_card180_ex1",
+      "cardId": 180,
+      "title": "Что происходит прямо сейчас",
+      "userInstruction": "Опишите 2–3 предложениями, что прямо сейчас происходит вокруг вас: что делаете вы и что делают люди рядом.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "tenses",
@@ -615,6 +910,54 @@
       "transcription": "[təˈɡeðə]",
       "microtopicId": 58,
       "categoryId": "tenses"
+    },
+    {
+      "id": 362,
+      "word": "to wash",
+      "translation": "мыть, стирать",
+      "transcription": "[wɒʃ]",
+      "microtopicId": 59,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 363,
+      "word": "to paint",
+      "translation": "красить, рисовать",
+      "transcription": "[peɪnt]",
+      "microtopicId": 59,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 364,
+      "word": "to laugh",
+      "translation": "смеяться",
+      "transcription": "[lɑːf]",
+      "microtopicId": 59,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 365,
+      "word": "window",
+      "translation": "окно",
+      "transcription": "[ˈwɪndəʊ]",
+      "microtopicId": 59,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 366,
+      "word": "floor",
+      "translation": "пол",
+      "transcription": "[flɔː]",
+      "microtopicId": 59,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 367,
+      "word": "quiet",
+      "translation": "тихий",
+      "transcription": "[ˈkwaɪət]",
+      "microtopicId": 59,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -671,6 +1014,33 @@
         }
       ],
       "explanation": "немая e уходит (ride → riding, smile → smiling); согласная после ударной гласной удваивается (plan → planning, put → putting); -ie меняется на -y (tie → tying)."
+    },
+    {
+      "id": 16,
+      "taskDescription": "собери форму Present Continuous.",
+      "rows": [
+        {
+          "hint": "I + to work",
+          "answer": "I am working"
+        },
+        {
+          "hint": "She + to read",
+          "answer": "She is reading"
+        },
+        {
+          "hint": "They + to play",
+          "answer": "They are playing"
+        },
+        {
+          "hint": "We + to wash",
+          "answer": "We are washing"
+        },
+        {
+          "hint": "He + to laugh",
+          "answer": "He is laughing"
+        }
+      ],
+      "explanation": "связка по лицу (`I am`, `she is`, `they are`, `we are`, `he is`) + глагол с `-ing`; `wash → washing`, `laugh → laughing` — просто добавляем `-ing`."
     }
   ],
   "true_false_exercises": [
@@ -735,6 +1105,68 @@
         }
       ],
       "explanation": "Строка 2: верно running — согласная после ударной гласной удваивается. Строка 4: верно writing — немая e перед -ing уходит."
+    },
+    {
+      "id": 77,
+      "statements": [
+        {
+          "en": "The children are laughing in the garden.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He are washing the car.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I'm sitting near the window.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She are reading a book.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We are painting the floor.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: `he` берёт `is`, а не `are` — верно `He is washing`. Строка 4: `she` → `is` — верно `She is reading`. Связка `be` согласуется с подлежащим."
+    },
+    {
+      "id": 78,
+      "statements": [
+        {
+          "en": "She is drinking tea.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They playing in the garden.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I am watching TV.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He reading a book now.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We are laughing together.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: пропущена связка — верно `They are playing`. Строка 4: пропущена связка — верно `He is reading`. Present Continuous всегда `am/is/are` + глагол с `-ing`."
     }
   ],
   "word_arrangement_exercises": [
@@ -754,10 +1186,74 @@
         "sleep"
       ],
       "explanation": "the cat — единственное число, нужна форма is, а не are. sleeping пишется с одной p (удвоения тут нет), а не sleepping. Без -ing (sleep) в Present Continuous нельзя."
+    },
+    {
+      "id": 64,
+      "situationRu": "RU: Она красит свою комнату.",
+      "correctSentence": "She is painting her room.",
+      "words": [
+        "She",
+        "is",
+        "painting",
+        "her room"
+      ],
+      "distractors": [
+        "are",
+        "paints",
+        "paint"
+      ],
+      "explanation": "`she` — 3-е лицо, связка `is`, а не `are`. Смысловой глагол в Present Continuous стоит с `-ing`: `painting` (не `paints` из Present Simple и не голое `paint`)."
     }
   ],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
+  "multiple_choice_exercises": [
+    {
+      "id": 96,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мальчики играют в футбол в парке.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The boys is playing football in the park.",
+          "isCorrect": false
+        },
+        {
+          "text": "The boys are play football in the park.",
+          "isCorrect": false
+        },
+        {
+          "text": "The boys are playing football in the park.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "`the boys` — множественное число, значит связка `are`. И связка, и `-ing` обязательны: `are playing`. `is` не идёт ко множественному, `are play` — без `-ing`."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 38,
+      "items": [
+        {
+          "sentence": "Look! It ___ raining outside.",
+          "contextRu": "",
+          "answer": "is",
+          "alternatives": []
+        },
+        {
+          "sentence": "Listen! The girls ___ laughing.",
+          "contextRu": "",
+          "answer": "are",
+          "alternatives": []
+        },
+        {
+          "sentence": "Right now I ___ painting my room.",
+          "contextRu": "",
+          "answer": "am",
+          "alternatives": []
+        }
+      ],
+      "explanation": "пропущена связка `be`: `it` → `is`, `the girls` (мн. ч.) → `are`, `I` → `am`. Без неё глагол с `-ing` не образует Present Continuous."
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [],
   "error_correction_exercises": [
@@ -779,10 +1275,49 @@
         }
       ],
       "explanation": "write кончается на немую e — перед -ing она уходит: writing. Вариант writeing оставляет лишнюю e, а writting добавляет ненужное удвоение."
+    },
+    {
+      "id": 67,
+      "wrongSentence": "They playing in the garden after lunch.",
+      "options": [
+        {
+          "text": "They plays in the garden after lunch.",
+          "isCorrect": false
+        },
+        {
+          "text": "They are playing in the garden after lunch.",
+          "isCorrect": true
+        },
+        {
+          "text": "They is playing in the garden after lunch.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "без связки предложение неполное; для `they` нужна форма `are` + глагол с `-ing`: `are playing`. `plays` — это Present Simple 3-го лица (другое время и лицо), `is` не подходит ко множественному `they`."
     }
   ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 23,
+      "taskDescription": "перепиши предложение в Present Continuous — действие идёт прямо сейчас.",
+      "items": [
+        {
+          "original": "She washes the car.",
+          "transformed": "She is washing the car."
+        },
+        {
+          "original": "They read a book.",
+          "transformed": "They are reading a book."
+        },
+        {
+          "original": "I cook dinner.",
+          "transformed": "I am cooking dinner."
+        }
+      ],
+      "explanation": "Present Continuous = `am/is/are` + глагол с `-ing`. Ставим связку по лицу (she → `is`, they → `are`, I → `am`) и добавляем `-ing`: `washes → washing`, `read → reading`, `cook → cooking`."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 35,
@@ -839,6 +1374,29 @@
         }
       ],
       "explanation": "run кончается на ударную гласную + одну согласную, поэтому согласная удваивается: running. А making, coming, taking верно убрали немую e."
+    },
+    {
+      "id": 36,
+      "groupDescription": "Три предложения построены верно, в одном пропущена связка",
+      "items": [
+        {
+          "text": "She is making tea.",
+          "isOdd": false
+        },
+        {
+          "text": "We are waiting for the train.",
+          "isOdd": false
+        },
+        {
+          "text": "He painting the window.",
+          "isOdd": true
+        },
+        {
+          "text": "I am reading a book.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "в «He painting the window» нет связки — верно `He is painting the window`. В остальных предложениях связка на месте: `is`/`are`/`am` + глагол с `-ing`."
     }
   ]
 }
