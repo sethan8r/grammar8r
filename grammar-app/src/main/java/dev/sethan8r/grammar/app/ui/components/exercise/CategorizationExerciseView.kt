@@ -10,14 +10,11 @@ import dev.sethan8r.grammar.app.ui.components.exercise.parts.hitTest
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.VectorConverter
 import androidx.compose.animation.core.tween
-import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -30,8 +27,11 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -69,7 +69,6 @@ import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.IncorrectRed
-import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.util.animatePlacement
@@ -89,7 +88,6 @@ private data class CatItem(val id: Int, val text: String, val correctCol: Int)
  * all-or-nothing: на реванше каждый элемент уезжает в свою колонку (показ ответа), при этом изначально
  * верно лежавшие — зелёные, ошибочные — красные (видно и правильный ответ, и где была ошибка).
  */
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun CategorizationExerciseView(
     exercise: Exercise.Categorization,
@@ -116,12 +114,20 @@ fun CategorizationExerciseView(
     // Раскладка: id элемента → индекс колонки. Отсутствует в карте ⟺ элемент в пуле.
     val placement = remember(exercise.id) { mutableStateMapOf<Int, Int>() }
 
-    // Порядок отображения внутри зоны (колонки/пула): меньше — раньше. Изначально = индекс в перемешанном
-    // пуле; при каждом сбросе элемент получает следующий по величине номер → встаёт В КОНЕЦ зоны-назначения.
+    // Ячейки пула (id или null-дыра). Изъятый в колонку → дыра на его месте (соседи не съезжают);
+    // вернувшийся → в первую дыру видимой строки, а если таких нет (строка схлопнулась) — в конец (снизу).
+    val poolCells = remember(exercise.id) {
+        mutableStateListOf<Int?>().apply { items.forEach { add(it.id) } }
+    }
+    val itemById = remember(exercise.id) { items.associateBy { it.id } }
+    // Чипов в строке пула — считается в BoxWithConstraints, публикуется сюда для onEnd (см. возврат).
+    var perRow by remember(exercise.id) { mutableIntStateOf(1) }
+
+    // Порядок внутри колонки: новый сброшенный элемент — в конец.
     val order = remember(exercise.id) {
         mutableStateMapOf<Int, Int>().apply { items.forEachIndexed { i, item -> put(item.id, i) } }
     }
-    var nextSeq by remember(exercise.id) { mutableStateOf(items.size) }
+    var nextSeq by remember(exercise.id) { mutableIntStateOf(items.size) }
 
     // Геометрия в координатах внешней обёртки.
     var wrapperCoords by remember(exercise.id) { mutableStateOf<LayoutCoordinates?>(null) }
@@ -211,11 +217,23 @@ fun CategorizationExerciseView(
                             val zoneChanged = toCol != fromCol
                             val preCenter = centers[item.id] ?: pointer
                             if (toCol != null) placement[item.id] = toCol else placement.remove(item.id)
-                            // В конец зоны-назначения — ТОЛЬКО при смене зоны (пул↔колонка, колонка↔колонка).
-                            // Брошен туда же, откуда взят (в т.ч. пул→пул) → сохраняет своё прежнее место.
-                            if (zoneChanged) {
+                            // В конец колонки — только при заходе в колонку.
+                            if (zoneChanged && toCol != null) {
                                 order[item.id] = nextSeq
                                 nextSeq += 1
+                            }
+                            // Поле пула: ушёл в колонку → дыра на его месте; вернулся в пул → в первую дыру
+                            // видимой (непустой) строки, иначе — в конец (снизу).
+                            if (fromCol == null && toCol != null) {
+                                val idx = poolCells.indexOf(item.id)
+                                if (idx >= 0) poolCells[idx] = null
+                            } else if (fromCol != null && toCol == null) {
+                                val hole = poolCells.indices.firstOrNull { i ->
+                                    poolCells[i] == null &&
+                                        poolCells.subList((i / perRow) * perRow, minOf((i / perRow) * perRow + perRow, poolCells.size))
+                                            .any { it != null }
+                                }
+                                if (hole != null) poolCells[hole] = item.id else poolCells.add(item.id)
                             }
                             commit()
                             // Плавно «довозим» оверлей до места, где чип осядет. Сменилась зона → ждём новый
@@ -260,6 +278,12 @@ fun CategorizationExerciseView(
                     // Ширина чипа = ширина внутренней области колонки (общая для колонок и пула — пресайз).
                     val columnWidth = (maxWidth - Dimens.spaceSmall * (n - 1)) / n
                     val chipWidth = columnWidth - Dimens.spaceSmall * 2
+                    // Сколько чипов помещается в строку пула при фикс. ширине чипа.
+                    val cols = maxOf(
+                        1,
+                        ((maxWidth + Dimens.spaceSmall).value / (chipWidth + Dimens.spaceSmall).value).toInt(),
+                    )
+                    SideEffect { perRow = cols }
 
                     Column {
                         // --- Колонки-категории ---
@@ -294,27 +318,40 @@ fun CategorizationExerciseView(
 
                         Spacer(Modifier.height(Dimens.spaceXLarge))
 
-                        // --- Пул (нераспределённые) — без рамки (как банк в WORD_ARRANGEMENT). Брошенный
-                        // мимо колонок элемент возвращается сюда, поэтому пул как «зона» не регистрируется.
-                        FlowRow(
+                        // --- Пул (нераспределённые) — фикс. сетка по poolCells: у каждого свой слот, по
+                        // горизонтали ничего не съезжает. Изъятый оставляет ДЫРУ (Spacer той же ширины),
+                        // целиком пустая строка не рендерится. Пул как «зона» не регистрируется: брошенный
+                        // мимо колонок возвращается сюда.
+                        Column(
                             modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
                             verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
                         ) {
-                            items.filter { placement[it.id] == null }
-                                .sortedBy { order[it.id] ?: 0 }
-                                .forEach { item ->
-                                val (border, fill) = chipVisual(item)
-                                key(item.id) {
-                                    CatChip(
-                                        text = item.text,
-                                        width = chipWidth,
-                                        background = fill,
-                                        border = border,
-                                        contentAlpha = if (item == dragging || item == releasing) 0f else 1f,
-                                        onGeometry = { c, s -> centers[item.id] = c; sizes[item.id] = s },
-                                        wrapperCoords = wrapperCoords,
-                                    )
+                            poolCells.chunked(cols).forEachIndexed { rowIndex, rowCells ->
+                                // Пустая строка не рендерится. Ячейка = дыра, если пусто или элемент уже в
+                                // колонке (на реванше placement проставлен всем — пул схлопывается целиком).
+                                if (rowCells.all { it == null || placement[it] != null }) return@forEachIndexed
+                                key(rowIndex) {
+                                    Row(horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall)) {
+                                        rowCells.forEach { id ->
+                                            val item = id?.let { itemById[it] }?.takeIf { placement[it.id] == null }
+                                            if (item == null) {
+                                                Spacer(Modifier.width(chipWidth))
+                                            } else {
+                                                val (border, fill) = chipVisual(item)
+                                                key(item.id) {
+                                                    CatChip(
+                                                        text = item.text,
+                                                        width = chipWidth,
+                                                        background = fill,
+                                                        border = border,
+                                                        contentAlpha = if (item == dragging || item == releasing) 0f else 1f,
+                                                        onGeometry = { c, s -> centers[item.id] = c; sizes[item.id] = s },
+                                                        wrapperCoords = wrapperCoords,
+                                                    )
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }
