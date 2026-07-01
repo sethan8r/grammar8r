@@ -867,14 +867,16 @@ theory/
 │   │       Слив: to smile, to cry, kitchen, hungry, together (course_word 357–361).
 │   │
 │   ├── MT59 · Affirmative · Утверждение: am/is/are + V-ing (2 карточки) ✅ (написана, ALL GREEN 01.07; cards 180–181, 1 AI на card180)
-│   │   ├── Card · be-помощник + глагол-ing — формы be по лицам (повтор из Основ) + V-ing;
+│   │   ├── Card 180 · be-помощник + глагол-ing — формы be по лицам (повтор из Основ) + V-ing;
 │   │   │   сокращения I'm / he's / they're.
-│   │   └── Card · Ловушка: без be нельзя — «I working» ✗ → «I am working» ✓. В Present Simple связка
+│   │   └── Card 181 · Ловушка: без be нельзя — «I working» ✗ → «I am working» ✓. В Present Simple связка
 │   │       была лишней, здесь обязательна (зеркало карточки 150 PS).
 │   │
-│   ├── MT60 · Negative · Отрицание (1 карточка)
-│   │   └── Card · not после be — I'm not / isn't / aren't + V-ing. Помощник do НЕ нужен — be сам
-│   │       несёт отрицание (явный контраст с don't/doesn't из Present Simple).
+│   ├── MT60 · Negative · Отрицание (2 карточки) ✅ (написана, ALL GREEN 01.07; cards 182–183, 1 AI на card182)
+│   │   ├── Card 182 · not после be — I'm not / isn't / aren't + V-ing; not сразу после связки,
+│   │   │   два способа сокращения (isn't/aren't и he's not/they're not), у am краткой формы нет.
+│   │   └── Card 183 · Никакого do — be сам несёт отрицание. Ловушка «I don't working» ✗ →
+│   │       «I'm not working» ✓ (зеркало don't/doesn't из Present Simple, do и be не встречаются вместе).
 │   │
 │   ├── MT61 · Question · Вопрос (2 карточки)
 │   │   ├── Card · be выходит вперёд — Am I…? / Is she…? / Are you…? + V-ing. Снова без do (контраст с Do/Does).

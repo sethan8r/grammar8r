@@ -28,6 +28,12 @@
       "topicId": 9,
       "title": "Affirmative · Утверждение",
       "order": 3
+    },
+    {
+      "id": 60,
+      "topicId": 9,
+      "title": "Negative · Отрицание",
+      "order": 4
     }
   ],
   "grammar_cards": [
@@ -690,6 +696,205 @@
         "В Present Simple было «I work» без am, а тут «I am working» — почему разница?",
         "Может ли предложение Present Continuous обойтись без am/is/are?"
       ]
+    },
+    {
+      "id": 182,
+      "microtopicId": 60,
+      "title": "not после be",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Утверждение мы собирать научились — переходим к отрицанию. И тут хорошая новость: отрицание в Present Continuous, пожалуй, самое простое из всех времён. Связка `be` уже стоит в предложении, а значит, звать никаких помощников не нужно — достаточно добавить одно слово."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**`Not` сразу после be**"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Берём утвердительное предложение и вставляем `not` между связкой и глаголом: подлежащее + `am/is/are` + `not` + глагол с `-ing`. Больше ничего не меняется."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I am not working.** — я сейчас не работаю.",
+            "**She is not sleeping.** — она сейчас не спит.",
+            "**They are not eating.** — они сейчас не едят."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`not` просто цепляется к связке — она и берёт на себя всё отрицание, а глагол с `-ing` остаётся как был."
+        },
+        {
+          "type": "heading",
+          "text": "Сокращения — два способа, оба верные"
+        },
+        {
+          "type": "paragraph",
+          "text": "В речи полное `is not` / `are not` почти всегда сокращают, причём двумя равноправными способами:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Полная форма",
+            "be + not слитно",
+            "подлежащее + be слитно"
+          ],
+          "rows": [
+            [
+              "he is not working",
+              "he isn't working",
+              "he's not working"
+            ],
+            [
+              "they are not working",
+              "they aren't working",
+              "they're not working"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба варианта одинаково правильны и звучат естественно — бери любой. `isn't`/`aren't` чуть чаще встречаются на письме, а `he's not`/`they're not` — в живой речи, когда голосом давят на «не»."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У связки `am` слитной формы с `not` нет — «amn't» в английском не существует. Поэтому для `I` остаётся один вариант: **I'm not listening** ✓, а не **I amn't listening** ✗."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Отрицание в Present Continuous — это утверждение плюс `not` сразу после связки: подлежащее + `am/is/are` + `not` + глагол с `-ing` (**I am not working**, **she is not reading**). Сокращают двумя равноправными способами: `isn't`/`aren't` (**he isn't working**) или **he's not** / **they're not**. У `am` краткой формы с `not` нет — для `I` только **I'm not**.",
+      "examples": [
+        {
+          "ru": "Я сейчас не слушаю музыку.",
+          "en": "I am not listening to music now."
+        },
+        {
+          "ru": "Она не пишет письмо, она читает.",
+          "en": "She isn't writing a letter, she is reading."
+        },
+        {
+          "ru": "Мы сейчас не разговариваем.",
+          "en": "We aren't talking right now."
+        },
+        {
+          "ru": "Малыш не плачет — он спит.",
+          "en": "The baby isn't crying — he is asleep."
+        },
+        {
+          "ru": "Они сейчас не смотрят телевизор.",
+          "en": "They aren't watching TV now."
+        }
+      ],
+      "clarificationOptions": [
+        "Куда ставить not — до или после am/is/are?",
+        "В чём разница между he isn't и he's not?",
+        "Почему нельзя сказать I amn't?"
+      ]
+    },
+    {
+      "id": 183,
+      "microtopicId": 60,
+      "title": "Никакого do — be сам несёт отрицание",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форму отрицания мы разобрали — она лёгкая. А теперь ловушка, и растёт она прямо из прошлой темы. В Present Simple мы совсем недавно учили отрицание через помощника `don't`/`doesn't`. Привычка свежая, и мозг тащит её сюда: **I don't working** ✗, **She doesn't playing** ✗. Это самая частая ошибка в отрицании Present Continuous."
+        },
+        {
+          "type": "heading",
+          "text": "Почему do здесь лишний"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомни, зачем `do` вообще был нужен в Present Simple. Там глагол стоял голый (**I work**), и отрицанию не за что было зацепиться — приходилось звать помощника: `I do not work` → `I don't work`. А в Present Continuous помощник **уже есть** — это связка `be`. Она и так стоит в каждом предложении и сама прекрасно отрицается: добавил `not` — и готово. Второй помощник не нужен и только мешает."
+        },
+        {
+          "type": "heading",
+          "text": "Зеркало Present Simple"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Present Simple — «вообще»",
+            "Present Continuous — «сейчас»"
+          ],
+          "rows": [
+            [
+              "I don't work",
+              "I'm not working"
+            ],
+            [
+              "She doesn't read",
+              "She isn't reading"
+            ],
+            [
+              "They don't play",
+              "They aren't playing"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слева отрицание несёт `do`/`does`, справа — `be`. В одном предложении они не встречаются никогда: есть `am/is/are` — значит, `do` уже не нужен."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I don't working** ✗ → **I'm not working** ✓. Увидел глагол с `-ing` — значит, в предложении есть `be`, а раз есть `be`, то `do`/`does` в отрицании не место."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка простая: в отрицании Present Continuous должны стоять `be` + `not` (`isn't`, `aren't`, `'m not`) и ни одного `don't`/`doesn't`."
+        }
+      ],
+      "theorySummary": "Главная ошибка в отрицании Present Continuous — по привычке из Present Simple прилепить `don't`/`doesn't` (**I don't working** ✗). Помощник `do` здесь не нужен: связка `be` уже в предложении и сама несёт отрицание — просто ставим `not` после неё (**I'm not working** ✓). `do/does` и `be` в одном отрицании не встречаются: **I don't work** (Present Simple) vs **I'm not working** (Present Continuous).",
+      "examples": [
+        {
+          "ru": "Он сейчас не готовит ужин.",
+          "en": "He isn't making dinner now."
+        },
+        {
+          "ru": "Мы сейчас не едим.",
+          "en": "We aren't eating right now."
+        },
+        {
+          "ru": "Она не идёт в школу — сегодня выходной.",
+          "en": "She isn't going to school — it's the weekend."
+        },
+        {
+          "ru": "Я не разговариваю по телефону.",
+          "en": "I'm not talking on the phone."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в Present Simple нужен don't, а тут нет?",
+        "Можно ли сказать I don't working?",
+        "Как быстро понять, что do в отрицании лишний?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -794,6 +999,54 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 36,
       "orderInCard": 4
+    },
+    {
+      "cardId": 182,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 65,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 182,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 17,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 182,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 97,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 182,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 79,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 183,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 68,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 183,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 24,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 183,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 89,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 183,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 37,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -802,6 +1055,14 @@
       "cardId": 180,
       "title": "Что происходит прямо сейчас",
       "userInstruction": "Опишите 2–3 предложениями, что прямо сейчас происходит вокруг вас: что делаете вы и что делают люди рядом.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_continuous_card182_ex1",
+      "cardId": 182,
+      "title": "Что ты сейчас НЕ делаешь",
+      "userInstruction": "Напишите 2–3 предложения о том, что вы прямо сейчас НЕ делаете.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -958,6 +1219,46 @@
       "transcription": "[ˈkwaɪət]",
       "microtopicId": 59,
       "categoryId": "tenses"
+    },
+    {
+      "id": 368,
+      "word": "to listen",
+      "translation": "слушать",
+      "transcription": "[ˈlɪsn]",
+      "microtopicId": 60,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 369,
+      "word": "to talk",
+      "translation": "говорить, разговаривать",
+      "transcription": "[tɔːk]",
+      "microtopicId": 60,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 370,
+      "word": "music",
+      "translation": "музыка",
+      "transcription": "[ˈmjuːzɪk]",
+      "microtopicId": 60,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 371,
+      "word": "letter",
+      "translation": "письмо",
+      "transcription": "[ˈletə]",
+      "microtopicId": 60,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 372,
+      "word": "asleep",
+      "translation": "спящий, спит",
+      "transcription": "[əˈsliːp]",
+      "microtopicId": 60,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -1041,6 +1342,33 @@
         }
       ],
       "explanation": "связка по лицу (`I am`, `she is`, `they are`, `we are`, `he is`) + глагол с `-ing`; `wash → washing`, `laugh → laughing` — просто добавляем `-ing`."
+    },
+    {
+      "id": 17,
+      "taskDescription": "запиши краткую форму отрицания.",
+      "rows": [
+        {
+          "hint": "is not",
+          "answer": "isn't"
+        },
+        {
+          "hint": "are not",
+          "answer": "aren't"
+        },
+        {
+          "hint": "he is not",
+          "answer": "he isn't"
+        },
+        {
+          "hint": "they are not",
+          "answer": "they aren't"
+        },
+        {
+          "hint": "I am not",
+          "answer": "I'm not"
+        }
+      ],
+      "explanation": "`is not → isn't`, `are not → aren't`; у `am not` слитной формы нет — для `I` только `I'm not`."
     }
   ],
   "true_false_exercises": [
@@ -1167,6 +1495,37 @@
         }
       ],
       "explanation": "Строка 2: пропущена связка — верно `They are playing`. Строка 4: пропущена связка — верно `He is reading`. Present Continuous всегда `am/is/are` + глагол с `-ing`."
+    },
+    {
+      "id": 79,
+      "statements": [
+        {
+          "en": "The girls aren't listening to music.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She aren't reading a letter.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They aren't talking now.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He not sleeping.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We are not eating now.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: `she` берёт `isn't`, а не `aren't`. Строка 4: пропущена связка — верно `He is not sleeping` / `He isn't sleeping`. Без `be` отрицание не строится."
     }
   ],
   "word_arrangement_exercises": [
@@ -1203,6 +1562,25 @@
         "paint"
       ],
       "explanation": "`she` — 3-е лицо, связка `is`, а не `are`. Смысловой глагол в Present Continuous стоит с `-ing`: `painting` (не `paints` из Present Simple и не голое `paint`)."
+    },
+    {
+      "id": 65,
+      "situationRu": "RU: Она сейчас не читает книгу.",
+      "correctSentence": "She isn't reading a book now.",
+      "words": [
+        "She",
+        "isn't",
+        "reading",
+        "a book",
+        "now"
+      ],
+      "distractors": [
+        "aren't",
+        "reads",
+        "doesn't",
+        "writing"
+      ],
+      "explanation": "`she` — 3-е лицо, отрицание `isn't` (не `aren't`); глагол с `-ing` — `reading`. `reads` — форма Present Simple, `doesn't` — лишний помощник `do`, `writing` — не тот глагол."
     }
   ],
   "multiple_choice_exercises": [
@@ -1226,6 +1604,48 @@
         }
       ],
       "explanation": "`the boys` — множественное число, значит связка `are`. И связка, и `-ing` обязательны: `are playing`. `is` не идёт ко множественному, `are play` — без `-ing`."
+    },
+    {
+      "id": 97,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Дети сейчас не спят.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The children isn't sleeping now.",
+          "isCorrect": false
+        },
+        {
+          "text": "The children don't sleeping now.",
+          "isCorrect": false
+        },
+        {
+          "text": "The children aren't sleeping now.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "`the children` — множественное число → `aren't`. `isn't` — для единственного числа; `don't sleeping` тащит лишний помощник `do`, которого в Present Continuous нет."
+    },
+    {
+      "id": 89,
+      "choiceType": "CHOICE",
+      "prompt": "Look! The dog ___ running now, it is sitting.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "doesn't",
+          "isCorrect": false
+        },
+        {
+          "text": "don't",
+          "isCorrect": false
+        },
+        {
+          "text": "isn't",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "у Present Continuous отрицание через `be`: `the dog` (ед. ч.) → `isn't`. `doesn't`/`don't` — помощник Present Simple, в этом времени не используется."
     }
   ],
   "text_input_exercises": [
@@ -1294,6 +1714,25 @@
         }
       ],
       "explanation": "без связки предложение неполное; для `they` нужна форма `are` + глагол с `-ing`: `are playing`. `plays` — это Present Simple 3-го лица (другое время и лицо), `is` не подходит ко множественному `they`."
+    },
+    {
+      "id": 68,
+      "wrongSentence": "He doesn't watching TV right now.",
+      "options": [
+        {
+          "text": "He don't watching TV right now.",
+          "isCorrect": false
+        },
+        {
+          "text": "He isn't watching TV right now.",
+          "isCorrect": true
+        },
+        {
+          "text": "He not watching TV right now.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в Present Continuous отрицание несёт `be`, а не `do`: `He isn't watching`. `doesn't`/`don't` — помощник из Present Simple, здесь лишний; `He not watching` — пропущена связка."
     }
   ],
   "construction_meaning_exercises": [],
@@ -1316,6 +1755,25 @@
         }
       ],
       "explanation": "Present Continuous = `am/is/are` + глагол с `-ing`. Ставим связку по лицу (she → `is`, they → `are`, I → `am`) и добавляем `-ing`: `washes → washing`, `read → reading`, `cook → cooking`."
+    },
+    {
+      "id": 24,
+      "taskDescription": "сделай предложение отрицательным.",
+      "items": [
+        {
+          "original": "She is cooking dinner.",
+          "transformed": "She isn't cooking dinner."
+        },
+        {
+          "original": "They are playing football.",
+          "transformed": "They aren't playing football."
+        },
+        {
+          "original": "I am watching TV.",
+          "transformed": "I'm not watching TV."
+        }
+      ],
+      "explanation": "отрицание = `be` + `not`: `is → isn't`, `are → aren't`, `am → 'm not`. Помощник `do` не добавляем — связка уже несёт отрицание."
     }
   ],
   "categorization_exercises": [
@@ -1397,6 +1855,29 @@
         }
       ],
       "explanation": "в «He painting the window» нет связки — верно `He is painting the window`. В остальных предложениях связка на месте: `is`/`are`/`am` + глагол с `-ing`."
+    },
+    {
+      "id": 37,
+      "groupDescription": "Три отрицания построены верно, одно — с лишним помощником do",
+      "items": [
+        {
+          "text": "She isn't reading now.",
+          "isOdd": false
+        },
+        {
+          "text": "We aren't eating.",
+          "isOdd": false
+        },
+        {
+          "text": "He doesn't playing football.",
+          "isOdd": true
+        },
+        {
+          "text": "I'm not sleeping.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "«He doesn't playing» тащит лишний `do` из Present Simple — верно `He isn't playing`. В Present Continuous отрицание несёт только `be` + `not`."
     }
   ]
 }
