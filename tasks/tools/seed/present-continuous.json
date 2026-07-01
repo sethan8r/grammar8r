@@ -40,6 +40,12 @@
       "topicId": 9,
       "title": "Question · Вопрос",
       "order": 5
+    },
+    {
+      "id": 62,
+      "topicId": 9,
+      "title": "Usage · Употребление",
+      "order": 6
     }
   ],
   "grammar_cards": [
@@ -1106,6 +1112,403 @@
         "Почему нельзя сказать «Yes, I'm»?",
         "Как строить вопросы с what, where, why?"
       ]
+    },
+    {
+      "id": 186,
+      "microtopicId": 62,
+      "title": "Прямо сейчас — момент речи",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Всю механику Present Continuous мы уже собрали: что это за время, как приклеить `-ing`, как построить утверждение, отрицание и вопрос. Осталось главное — разобрать, **когда это время вообще нужно**. У Present Continuous четыре типичных случая употребления; в этой микротеме пройдём их по одному, от самого очевидного к самому неожиданному для русского. Начнём с того, ради чего это время придумано в первую очередь."
+        },
+        {
+          "type": "heading",
+          "text": "Первое употребление: действие в момент речи"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самый прямой случай — действие происходит **прямо сейчас**, пока ты говоришь, и его видно или слышно. Вернись к метафоре камеры: объектив направлен на действие, и оно разворачивается в кадре здесь и сейчас, кадр за кадром."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My sister is making coffee in the kitchen.**",
+            "**The kids are eating breakfast.**",
+            "**Nick is talking on the phone right now.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни одно из этих действий не «по жизни» — все они идут в эту самую секунду. Ровно для таких моментов английскому и нужен Continuous: простое Present Simple сказало бы про привычку («вообще делает»), а нам надо «делает сейчас»."
+        },
+        {
+          "type": "heading",
+          "text": "Слова-сигналы: now, Look!, Listen!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом с таким действием часто стоят слова, которые прямо кричат «это происходит в этот момент». Их полезно знать в лицо — увидел, почти наверняка нужен Continuous:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**now, right now, at the moment** — «сейчас», «прямо сейчас», «в данный момент»;",
+            "призывы посмотреть или прислушаться — `Look!` и `Listen!`: они зовут стать свидетелем того, что разворачивается прямо перед тобой."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Look! The dog runs after the cat.** ✗ → **Look! The dog is running after the cat.** ✓. Слово `Look!` зовёт смотреть на происходящее в эту секунду — значит, это процесс, значит Continuous, а не простое `runs`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Это не «вообще»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравни два предложения с одним и тем же глаголом — разница только во времени, а смысл меняется полностью:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Kate works at a hospital.** — кем работает по жизни, её профессия (Present Simple).",
+            "**Kate is working in the garden right now.** — что делает именно в эту секунду (Present Continuous)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Граница та же, что мы проводили с самого начала темы: Present Simple — про «по жизни, вообще», Present Continuous — про «вот сейчас, на моих глазах»."
+        }
+      ],
+      "theorySummary": "Первое и самое частое употребление Present Continuous — действие прямо в момент речи, которое видно или слышно сейчас (**She is making coffee** — готовит в эту секунду). Слова-сигналы: `now`, `right now`, `at the moment`, а также призывы `Look!` и `Listen!`. Контраст с Present Simple: **He works here** (вообще, факт о человеке) — **He is working now** (в эту секунду).",
+      "examples": [
+        {
+          "ru": "Моя сестра готовит кофе на кухне.",
+          "en": "My sister is making coffee in the kitchen."
+        },
+        {
+          "ru": "Смотри! Собака бежит за котом.",
+          "en": "Look! The dog is running after the cat."
+        },
+        {
+          "ru": "Ник сейчас говорит по телефону.",
+          "en": "Nick is talking on the phone right now."
+        },
+        {
+          "ru": "Кейт работает в саду прямо сейчас.",
+          "en": "Kate is working in the garden right now."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что нужен Present Continuous, а не Present Simple?",
+        "Почему после Look! и Listen! почти всегда идёт Continuous?",
+        "Обязательно ли действие происходит ровно в секунду речи?"
+      ]
+    },
+    {
+      "id": 187,
+      "microtopicId": 62,
+      "title": "Временная ситуация — сейчас, но не навсегда",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Первый случай — «прямо в секунду речи» — самый очевидный. Но у Present Continuous есть второй смысл, чуть шире: **временная ситуация**. Действие может не происходить буквально в эту секунду, но охватывать «этот период жизни» — то, что идёт сейчас, но не навсегда."
+        },
+        {
+          "type": "heading",
+          "text": "Второе употребление: временная ситуация"
+        },
+        {
+          "type": "paragraph",
+          "text": "Представь, что камеру мы отвели чуть дальше и сняли не одну секунду, а целую полосу жизни — неделю, месяц, «в последнее время». Действие тянется через этот отрезок и когда-нибудь закончится:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This month I am staying at a friend's flat.** — живу у друга временно, только этот месяц.",
+            "**These days I am reading a lot.** — взялся читать в эти дни, потом, может, брошу.",
+            "**Everything is changing at my work now.** — на работе идёт полоса перемен, но не вечная."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Действие не обязано происходить прямо сейчас, пока ты произносишь фразу (ты можешь говорить это, лёжа на диване). Важно другое — что это **временный** кусок жизни, а не то, как устроено всё вообще."
+        },
+        {
+          "type": "heading",
+          "text": "Сравни с русским и с Present Simple"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот тут русскоязычному особенно легко ошибиться — и корень, как всегда, в родном языке. По-русски форма «живу» одна и та же и для постоянного, и для временного: «Я живу в Москве» (вообще, моё место жительства) и «Я пока живу в Москве» (сейчас, но скоро уеду) — глагол не меняется, только словечко «пока» намекает на временность. Английский же делит это самой формой глагола:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I live in a small flat.** — постоянно, это моё жильё вообще (Present Simple).",
+            "**I am living in a small flat.** — сейчас снимаю, но это временно, скоро перееду (Present Continuous)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слова почти те же, а смысл разный: первое — факт обо мне «по жизни», второе — «где обитаю в этот период». Русский с непривычки берёт на оба случая простое `live` — и теряет оттенок «временно», который англичанин слышит сразу."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Слова-подсказки:** `these days` (в эти дни), `this week` / `this month` (на этой неделе / в этом месяце), `at the moment`, `currently` (в настоящее время) — все они очерчивают временной отрезок, а не «всегда»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Временность — это выбор говорящего. Одну и ту же ситуацию можно подать в Present Simple, если считаешь её постоянной, или в Present Continuous, если чувствуешь как временную. **He works at a café** — он официант, это его работа. **He is working at a café this summer** — просто подрабатывает летом. Форма показывает, как ты смотришь на ситуацию."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Второе употребление Present Continuous — временная ситуация: действие охватывает «этот период» и происходит сейчас, но не навсегда, даже если не буквально в секунду речи (**I am living in a flat this month**). Маркеры: `these days`, `this week`, `at the moment`, `currently`. Контраст с Present Simple: **I live in a flat** (постоянно, моё жильё) — **I am living in a flat** (временно снимаю). Выбор времени показывает, считаешь ли ты ситуацию постоянной или временной.",
+      "examples": [
+        {
+          "ru": "В этом месяце я живу у друга.",
+          "en": "This month I am staying at a friend's flat."
+        },
+        {
+          "ru": "В последнее время я много читаю.",
+          "en": "These days I am reading a lot."
+        },
+        {
+          "ru": "Всё сейчас меняется у меня на работе.",
+          "en": "Everything is changing at my work now."
+        },
+        {
+          "ru": "В этом месяце я переезжаю в новую квартиру.",
+          "en": "I am moving to a new flat this month."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем «I am living here» отличается от «I live here»?",
+        "Как понять, ситуация постоянная или временная?",
+        "Обязательно ли временное действие происходит прямо в момент речи?"
+      ]
+    },
+    {
+      "id": 188,
+      "microtopicId": 62,
+      "title": "Запланированное будущее — договорённость есть",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "А теперь самый неожиданный поворот. Present Continuous — время настоящего, но им можно говорить и о **будущем**. Не о любом, а о конкретной **договорённости**: когда встреча или поездка уже назначена, время и место определены."
+        },
+        {
+          "type": "heading",
+          "text": "Третье употребление: запланированная договорённость"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если что-то уже решено и «стоит в календаре», англичанин описывает это в Present Continuous, будто действие уже пошло:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I am meeting Tom at six tomorrow.** — мы договорились, встреча назначена.",
+            "**She is going to Berlin on Friday.** — билет куплен, поездка запланирована.",
+            "**We are having a party tonight.** — вечеринка организована, гости приглашены."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика вот в чём: договорённость — это уже запущенный процесс. Пусть само действие ещё впереди, но «механизм» уже крутится: время выбрано, люди предупреждены, обратного хода нет. Поэтому английский и берёт форму процесса."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Тут родной язык впервые на твоей стороне. По-русски мы точно так же говорим о назначенном будущем настоящим временем: «Завтра **встречаюсь** с Томом», «В пятницу **еду** в Берлин». Никто не скажет «завтра буду встречаться» — звучит натужно. Английское `I am meeting Tom tomorrow` устроено абсолютно так же, так что здесь просто доверься русской интуиции."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это работает только для **запланированного с конкретикой** — есть договорённость, время, место. Спонтанное решение («ладно, позвоню ему») или прогноз («завтра будет дождь») сюда не относятся — для них есть другие способы сказать о будущем."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Слова-подсказки:** `tomorrow`, `tonight`, `next week`, а также точное время и день — `at six`, `on Friday`. Если рядом с Continuous стоит такой указатель на будущее, речь именно о плане."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Полноценно будущее время мы разберём позже — в темах Future будут `will` и `going to` со своими оттенками. Present Continuous закрывает только один, но очень частый случай — твёрдую договорённость на ближайшее время."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Третье употребление Present Continuous — запланированное будущее с конкретной договорённостью: время и место назначены (**I am meeting Tom tomorrow** — встреча условлена). Логика: договорённость — уже запущенный процесс, поэтому форма процесса. Русская интуиция помогает: мы тоже говорим «завтра встречаюсь». Маркеры: `tomorrow`, `tonight`, `next week`, `on Friday`. Только для твёрдых планов — не для спонтанных решений и прогнозов (их закроют темы Future).",
+      "examples": [
+        {
+          "ru": "Завтра в шесть я встречаюсь с Томом.",
+          "en": "I am meeting Tom at six tomorrow."
+        },
+        {
+          "ru": "Сегодня вечером мы устраиваем вечеринку.",
+          "en": "We are having a party tonight."
+        },
+        {
+          "ru": "В пятницу она едет в Берлин.",
+          "en": "She is going to Berlin on Friday."
+        },
+        {
+          "ru": "Мой брат завтра сдаёт экзамен.",
+          "en": "My brother is taking an exam tomorrow."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему о будущем можно сказать настоящим временем?",
+        "Чем «I am meeting Tom tomorrow» отличается от «I meet Tom tomorrow»?",
+        "Когда так говорить нельзя — про какое будущее это не работает?"
+      ]
+    },
+    {
+      "id": 189,
+      "microtopicId": 62,
+      "title": "always + раздражение — эмоция, а не частота",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последнее употребление стоит особняком: тут Present Continuous передаёт не действие, а **чувство** — раздражение, упрёк, лёгкую жалобу. И включается оно через слово, которое ты знаешь совсем в другом смысле, — `always`."
+        },
+        {
+          "type": "heading",
+          "text": "Четвёртое употребление: always + раздражающая привычка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда `always` (и его собратья `constantly`, `forever`) ставят внутрь Present Continuous, «всегда» перестаёт быть точной частотой и превращается в эмоциональное преувеличение «да сколько можно, вечно ты…»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He is always losing his keys!** — вечно теряет ключи, и это бесит.",
+            "**You are always complaining about work.** — да ты только и делаешь, что жалуешься.",
+            "**My neighbours are always making noise at night.** — соседи достали своим шумом."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Буквально «всегда» тут никто не имеет в виду — ключи теряются не каждую секунду. `always` в Continuous — это жалоба с оттенком «слишком часто, надоело»."
+        },
+        {
+          "type": "heading",
+          "text": "Сравни две формы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Одно и то же наречие `always` даёт совершенно разную окраску в двух временах:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She always drinks tea in the morning.** — нейтральный факт: у неё такая привычка (Present Simple).",
+            "**She is always losing her phone.** — упрёк: вечно она теряет телефон, раздражает (Present Continuous)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Present Simple с `always` просто сообщает о регулярности, без эмоций. Present Continuous с `always` — почти всегда жалоба или упрёк. Выбор времени решает, звучишь ты как справочник или как раздражённый человек."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда русскому трудно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Для нас «всегда» — это стопроцентный факт: «он всегда опаздывает» звучит как ровная констатация. Идея, что «всегда» можно сказать с досадой и преувеличением, у русского не на поверхности — мы для этого добавили бы «вечно», «постоянно», «да сколько можно». Английский же прячет всю эту эмоцию в саму форму `always + is/are + -ing`, отдельных слов не нужно — поэтому её легко не расслышать и принять за обычное «всегда»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Этот приём — только для жалобы. Нейтральную регулярную привычку по-прежнему говорим в Present Simple: **He is always drinking coffee** прозвучит как упрёк «да он от кофе не отлипает», а спокойное «он пьёт кофе по утрам» — это **He drinks coffee in the morning**."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Место `always` не меняется — оно стоит между связкой и глаголом: **She is always arriving late**, а не «She always is arriving». Порядок тот же, что мы учили для наречий частотности: наречие цепляется сразу за `be`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Четвёртое употребление Present Continuous — раздражающая привычка: `always` (или `constantly`, `forever`) внутри Continuous означает не частоту, а упрёк/жалобу на слишком частое действие (**He is always losing his keys!** — вечно теряет, бесит). Контраст: **She always drinks tea** (нейтральный факт, Present Simple) — **She is always complaining** (упрёк, Present Continuous). Наречие стоит между `be` и глаголом с `-ing`: **She is always arriving late**.",
+      "examples": [
+        {
+          "ru": "Ты вечно теряешь свои ключи!",
+          "en": "You are always losing your keys!"
+        },
+        {
+          "ru": "Он постоянно жалуется на погоду.",
+          "en": "He is always complaining about the weather."
+        },
+        {
+          "ru": "Мои соседи вечно шумят по ночам.",
+          "en": "My neighbours are always making noise at night."
+        },
+        {
+          "ru": "Она вечно опаздывает на встречи.",
+          "en": "She is always arriving late for meetings."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «always» здесь не значит «всегда»?",
+        "Чем «She is always losing it» отличается от «She always loses it»?",
+        "Где в предложении ставить always?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1306,6 +1709,78 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 38,
       "orderInCard": 3
+    },
+    {
+      "cardId": 186,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 99,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 186,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 67,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 186,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 81,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 187,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 28,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 187,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 36,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 187,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 70,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 188,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 100,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 188,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 14,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 188,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 82,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 189,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 29,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 189,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 11,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 189,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 39,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1332,6 +1807,22 @@
       "userInstruction": "ИИ даст русский вопрос про то, что происходит прямо сейчас. Напишите его по-английски в Present Continuous и сразу дайте на него краткий ответ.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_continuous_card188_ex1",
+      "cardId": 188,
+      "title": "Скажи по-английски: планы",
+      "userInstruction": "ИИ даст русское предложение про запланированную встречу или поездку. Напишите его по-английски в Present Continuous.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_continuous_card189_ex1",
+      "cardId": 189,
+      "title": "Пожалуйся через always",
+      "userInstruction": "Пожалуйтесь на привычку друга или родственника: напишите 2–3 предложения с always про то, что вас раздражает.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -1565,6 +2056,54 @@
       "translation": "громкий",
       "transcription": "[laʊd]",
       "microtopicId": 61,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 378,
+      "word": "phone",
+      "translation": "телефон",
+      "transcription": "[fəʊn]",
+      "microtopicId": 62,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 379,
+      "word": "key",
+      "translation": "ключ",
+      "transcription": "[kiː]",
+      "microtopicId": 62,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 380,
+      "word": "flat",
+      "translation": "квартира",
+      "transcription": "[flæt]",
+      "microtopicId": 62,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 381,
+      "word": "to move",
+      "translation": "двигать(ся), переезжать",
+      "transcription": "[muːv]",
+      "microtopicId": 62,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 382,
+      "word": "to change",
+      "translation": "менять, меняться",
+      "transcription": "[tʃeɪndʒ]",
+      "microtopicId": 62,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 383,
+      "word": "to complain",
+      "translation": "жаловаться",
+      "transcription": "[kəmˈpleɪn]",
+      "microtopicId": 62,
       "categoryId": "tenses"
     }
   ],
@@ -1864,6 +2403,68 @@
         }
       ],
       "explanation": "Строка 2: вопрос через `be`, не `do` — верно `Is she cooking dinner?`. Строка 4: пропущен `-ing` — верно `Are they dancing at the party?`."
+    },
+    {
+      "id": 81,
+      "statements": [
+        {
+          "en": "Look! Kate is leaving the office.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Listen! The boys singing now.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Be quiet! Grandpa is sleeping.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Right now she cooks dinner.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The children are drinking tea at the moment.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: пропущена связка — верно `The boys are singing`. Строка 4: действие идёт прямо сейчас (`right now`), нужен Continuous — верно `she is cooking dinner`, а не простое `cooks`."
+    },
+    {
+      "id": 82,
+      "statements": [
+        {
+          "en": "We are leaving for Prague tomorrow morning.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She is meet her boss on Friday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They are having a party tonight.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I am see the doctor next week.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "He is cooking dinner for us on Saturday.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: пропущено `-ing` — верно `She is meeting her boss`. Строка 4: пропущено `-ing` — верно `I am seeing the doctor`. В договорённости о будущем глагол так же стоит с `-ing`."
     }
   ],
   "word_arrangement_exercises": [
@@ -1938,6 +2539,24 @@
         "eating"
       ],
       "explanation": "вопрос = `be` вперёд: `Are you drinking …?` Для `you` — `are`, не `is`. `Do` — лишний помощник из Present Simple, `drinks` — форма Present Simple, `eating` — не тот глагол."
+    },
+    {
+      "id": 67,
+      "situationRu": "Ситуация: указываешь другу на то, что слышно прямо сейчас.",
+      "correctSentence": "Listen! The girls are singing in the garden.",
+      "words": [
+        "Listen!",
+        "The girls",
+        "are",
+        "singing",
+        "in the garden"
+      ],
+      "distractors": [
+        "is",
+        "sing",
+        "sings"
+      ],
+      "explanation": "`the girls` — множественное число, связка `are`, не `is`. Глагол стоит с `-ing`: `singing`, а не голое `sing` (без связки) и не `sings` из Present Simple."
     }
   ],
   "multiple_choice_exercises": [
@@ -2045,6 +2664,90 @@
         }
       ],
       "explanation": "краткий ответ несёт `be`: `Yes, she is`. `Yes, she does` — из Present Simple; `Yes, she studying` — так не отвечают."
+    },
+    {
+      "id": 99,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Не звони ему — он сейчас ведёт машину.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Don't call him — he drives now.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't call him — he is driving now.",
+          "isCorrect": true
+        },
+        {
+          "text": "Don't call him — he is drive now.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "действие идёт прямо сейчас (`now`) → Present Continuous: `is driving`. `drives` — Present Simple (вообще, привычка), а `is drive` — потеряно окончание `-ing`."
+    },
+    {
+      "id": 28,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I am living with my grandparents these days.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Сейчас я временно живу у бабушки с дедушкой.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я всегда жил у бабушки с дедушкой.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я живу у бабушки с дедушкой каждое лето.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`am living` + `these days` = временно, в эти дни. Present Continuous здесь про текущий период, а не про «всегда» (это был бы Present Simple) и не про регулярную привычку «каждое лето»."
+    },
+    {
+      "id": 100,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Завтра я встречаюсь с врачом в три часа.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Tomorrow I meet the doctor at three.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tomorrow I am meeting the doctor at three.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tomorrow I meeting the doctor at three.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "назначенная встреча на завтра → Present Continuous: `am meeting`. Простое `meet` тут звучит как расписание-факт, а `I meeting` — без связки, предложение недостроено."
+    },
+    {
+      "id": 29,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "You are always losing your phone!",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Ну вечно ты теряешь свой телефон!",
+          "isCorrect": true
+        },
+        {
+          "text": "Ты всегда находишь свой телефон.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты никогда не теряешь свой телефон.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`always` + Present Continuous — это не ровный факт, а упрёк «вечно, сколько можно». Остальные варианты меняют смысл глагола (находишь / не теряешь), а не передают жалобу."
     }
   ],
   "text_input_exercises": [
@@ -2073,7 +2776,36 @@
       "explanation": "пропущена связка `be`: `it` → `is`, `the girls` (мн. ч.) → `are`, `I` → `am`. Без неё глагол с `-ing` не образует Present Continuous."
     }
   ],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 14,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What are you doing this weekend?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "I staying at home this weekend.",
+          "isCorrect": false
+        },
+        {
+          "text": "I am stay at home this weekend.",
+          "isCorrect": false
+        },
+        {
+          "text": "I am staying at home this weekend.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "про план на выходные отвечаем в Present Continuous: `am staying`. Первый вариант без связки, во втором `am stay` — потеряно `-ing`."
+    }
+  ],
   "matching_exercises": [
     {
       "id": 29,
@@ -2175,9 +2907,52 @@
         }
       ],
       "explanation": "в вопросе Present Continuous вперёд выходит `be`: `Are they swimming …?` Помощник `do` здесь не нужен; `Are they swim` — потеряно `-ing`."
+    },
+    {
+      "id": 70,
+      "wrongSentence": "He works at a café this month, but usually he studies.",
+      "options": [
+        {
+          "text": "He work at a café this month, but usually he studies.",
+          "isCorrect": false
+        },
+        {
+          "text": "He is working at a café this month, but usually he studies.",
+          "isCorrect": true
+        },
+        {
+          "text": "He is work at a café this month, but usually he studies.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`this month` = временная ситуация → Present Continuous `is working`. Вторая часть про привычку (`usually`) верно осталась в Present Simple `studies`. `is work` — потеряно `-ing`."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 11,
+      "construction": "My brother is always leaving the door open.",
+      "options": [
+        {
+          "text": "Мой брат постоянно оставляет дверь открытой.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мой брат прямо сейчас открывает дверь.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мой брат иногда закрывает дверь.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мой брат оставил дверь открытой один раз.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`is always leaving` = раздражённый упрёк на повторяющуюся привычку. Не «прямо сейчас» (тогда без `always`), не «иногда» и не однократное действие в прошлом."
+    }
+  ],
   "transformation_exercises": [
     {
       "id": 23,
@@ -2268,6 +3043,29 @@
         }
       ],
       "explanation": "«просто + -ing» — слово не меняется (read → reading); «убрать -e» — немая e на конце выпадает (make → making); «удвоить согласную» — одна согласная после ударной гласной удваивается (run → running)."
+    },
+    {
+      "id": 36,
+      "taskDescription": "распредели маркеры времени по временам.",
+      "categories": [
+        {
+          "title": "Present Simple (вообще)",
+          "items": [
+            "every day",
+            "usually",
+            "on Fridays"
+          ]
+        },
+        {
+          "title": "Present Continuous (сейчас)",
+          "items": [
+            "right now",
+            "at the moment",
+            "these days"
+          ]
+        }
+      ],
+      "explanation": "`every day`, `usually`, `on Fridays` описывают привычку/регулярность → Present Simple. `right now`, `at the moment`, `these days` очерчивают текущий момент или временный период → Present Continuous."
     }
   ],
   "find_the_odd_exercises": [
@@ -2362,6 +3160,29 @@
         }
       ],
       "explanation": "«Do they playing» тащит лишний `do` из Present Simple — верно `Are they playing outside?`. Вопрос в Present Continuous строится выносом `be` вперёд."
+    },
+    {
+      "id": 39,
+      "groupDescription": "Три предложения построены верно, в одном — ошибка",
+      "items": [
+        {
+          "text": "He is always forgetting his umbrella.",
+          "isOdd": false
+        },
+        {
+          "text": "You are always interrupting me.",
+          "isOdd": false
+        },
+        {
+          "text": "She always is checking her phone.",
+          "isOdd": true
+        },
+        {
+          "text": "They are always coming home late.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "`always` стоит между связкой и глаголом с `-ing` — верно `She is always checking her phone`, а не `She always is checking`. В остальных предложениях порядок правильный."
     }
   ]
 }

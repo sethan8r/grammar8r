@@ -885,12 +885,12 @@ theory/
 │   │   ├── Card 184 · be выходит вперёд — Am I…? / Is she…? / Are you…? + V-ing. Снова без do (контраст с Do/Does).
 │   │   └── Card 185 · Краткие ответы + WH — Yes, I am / No, I'm not (положит. не сокращаем); What are you doing?
 │   │
-│   ├── MT62 · Usage · Употребление (3–4 карточки)
-│   │   ├── Card · Прямо сейчас — Look! Listen!, момент речи.
-│   │   ├── Card · Временная ситуация — «I'm living in Moscow these days» (сейчас, но не навсегда).
-│   │   ├── Card · Запланированное ближайшее будущее — «I'm meeting Tom tomorrow» (договорённость есть);
-│   │   │   анонс будущих времён.
-│   │   └── Card · Раздражающая привычка с always — «He's always losing his keys» (эмоция/упрёк).
+│   ├── MT62 · Usage · Употребление (4 карточки) ✅ (написана, ALL GREEN 01.07; cards 186–189, 2 AI: card188 RU→EN, card189 always-упрёк)
+│   │   ├── Card 186 · Прямо сейчас — Look! Listen!, момент речи.
+│   │   ├── Card 187 · Временная ситуация — «I am living in a flat this month» (сейчас, но не навсегда).
+│   │   ├── Card 188 · Запланированное ближайшее будущее — «I am meeting Tom tomorrow» (договорённость есть);
+│   │   │   анонс будущих времён. AI: RU→EN перевод плана (GENERAL).
+│   │   └── Card 189 · Раздражающая привычка с always — «He is always losing his keys» (эмоция/упрёк). AI: пожаловаться через always (NONE).
 │   │
 │   ├── MT63 · State verbs · Глаголы без Continuous (2–3 карточки) — обещано в Present Simple MT53
 │   │   ├── Card · Состояния, не действия — know/understand/want/like/love/need/belong/seem;
