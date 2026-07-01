@@ -58,6 +58,7 @@
 - `tasks/phases/phase4/phase4_server.md` — сервер
 - `tasks/words8r_plan.md` — интеграция с Words8r
 - `tasks/practice_plan.md` — подробный план вкладки Практика
+- `tasks/phases/phase3/practice_ai_ideas.md` — копилка сырых идей по самостоятельным AI-режимам Практики (не привязанным к теории), откуда они дозревают в `practice_plan.md`
 - `tasks/db_schema.md` — схемы всех таблиц Room и ENUM-ов (единый источник правды по БД)
 - `tasks/theory_content_guide.md` — правила написания теории: стиль, ID, упражнения, чеклист (**читать перед написанием любой микротемы**)
 - `tasks/ui_table_rendering.md` — спека рендера таблиц теории (плавающие колонки, деление длинных слов, запрет сиротских 1–2 букв) — **читать перед правками `TheoryBlockView` таблиц**

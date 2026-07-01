@@ -638,3 +638,4 @@ don't think about when they compare the two?         учитывают, ког�
 - Подписки и лимиты: [subscription.md](subscription.md)
 - Интеграция с Words8r: [words8r_plan.md](words8r_plan.md)
 - Схемы таблиц и ENUM-ов: [db_schema.md](db_schema.md) → `AiExercise`, `UserAiExerciseStats`, `FavoriteAiExercise`, `AiExerciseWordsSource`
+- Черновики идей по новым самостоятельным режимам Практики: [phases/phase3/practice_ai_ideas.md](phases/phase3/practice_ai_ideas.md)
