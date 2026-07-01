@@ -16,6 +16,12 @@
       "topicId": 9,
       "title": "What Is Present Continuous · Что такое Present Continuous",
       "order": 1
+    },
+    {
+      "id": 58,
+      "topicId": 9,
+      "title": "The -ing Form · Форма -ing",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -217,9 +223,293 @@
         "Как понять, нужен Present Simple или Present Continuous?",
         "Что за слова now, Look!, Listen! и почему они важны?"
       ]
+    },
+    {
+      "id": 178,
+      "microtopicId": 58,
+      "title": "-ing — хвостик процесса",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой микротеме мы познакомились с формой Present Continuous: `to be` (`am` / `is` / `are`) плюс глагол с хвостиком `-ing`. Со связкой `am/is/are` мы давно на «ты» ещё из Основ, а вот вторая часть — глагол с `-ing` — новая. Разберёмся, как её собрать."
+        },
+        {
+          "type": "heading",
+          "text": "Базовое правило: просто добавь `-ing`"
+        },
+        {
+          "type": "paragraph",
+          "text": "Хорошая новость: в большинстве случаев ничего хитрого нет — берёшь глагол и лепишь `-ing` к концу, само слово при этом не меняется."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**work → working**",
+            "**play → playing**",
+            "**read → reading**",
+            "**go → going**",
+            "**do → doing**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Взял глагол — приклеил `-ing` — форма готова. Именно этот хвостик и превращает глагол в «действие в процессе»: не «работать вообще», а «работаю прямо сейчас»."
+        },
+        {
+          "type": "heading",
+          "text": "Буква `y` на конце остаётся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тут английский делает нам подарок. Когда мы учили 3-е лицо (окончание `-s`), а позже возьмёмся за прошедшее (`-ed`), конечная `y` капризничала и превращалась в `i`: **study → studies**. С `-ing` такого нет никогда — `y` спокойно остаётся на месте:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**study → studying**",
+            "**cry → crying**",
+            "**stay → staying**",
+            "**fly → flying**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Studiing** ✗ → **studying** ✓. Не переноси привычку из `-s`/`-ed`: перед `-ing` буква `y` в `i` не превращается."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Заметка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Этот же хвостик `-ing` встретится позже в теме «Герундий» — там глагол с `-ing` работает как существительное («чтение», «плавание»). Пока нам важна другая его роль — часть времени Present Continuous. Роли разные, хвостик один."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Форма Present Continuous — `am/is/are` + глагол с `-ing`. В большинстве случаев `-ing` просто приклеивается к глаголу без изменений: **work → working**, **go → going**, **read → reading**. Конечная буква `y`, в отличие от `-s`/`-ed`, перед `-ing` всегда остаётся: **study → studying**, **cry → crying**. Особые случаи правописания — в следующей карточке.",
+      "examples": [
+        {
+          "ru": "Малыш плачет — он голодный.",
+          "en": "The baby is crying — he is hungry."
+        },
+        {
+          "ru": "Мы вместе читаем эту книгу.",
+          "en": "We are reading this book together."
+        },
+        {
+          "ru": "Мама готовит на кухне.",
+          "en": "Mom is cooking in the kitchen."
+        },
+        {
+          "ru": "Она учит новые слова прямо сейчас.",
+          "en": "She is studying new words right now."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему у study форма studying, а не studiing?",
+        "Чем -ing отличается от окончаний -s и -ed?",
+        "Что это за -ing, который ещё будет в «Герундии»?"
+      ]
+    },
+    {
+      "id": 179,
+      "microtopicId": 58,
+      "title": "Правописание: три особых случая",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`-ing` почти всегда просто приклеивается — но есть три случая, когда перед хвостиком слово чуть меняется. Логика похожа на правила `-ed` из темы «Формы глаголов», но правила для `-ing` свои — не путай их."
+        },
+        {
+          "type": "heading",
+          "text": "Случай 1: немая `-e` уходит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если глагол кончается на немую `-e` (ту, что сама не читается), перед `-ing` она пропадает:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**make → making**",
+            "**write → writing**",
+            "**live → living**",
+            "**smile → smiling**",
+            "**dance → dancing**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему: `-e` на конце и так не звучит, а `-ing` начинается с гласной — держать немую `-e` незачем, она просто выпадает."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Makeing** ✗ → **making** ✓. Немую `-e` перед `-ing` не оставляй."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Случай 2: удвоение последней согласной"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если глагол кончается на «одна гласная + одна согласная» под ударением, эту согласную удваиваем:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**run → running**",
+            "**sit → sitting**",
+            "**swim → swimming**",
+            "**get → getting**",
+            "**stop → stopping**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Зачем удвоение: одинокая согласная «растянула» бы гласный звук, а вторая согласная держит его коротким — так слово звучит правильно. Ту же руку мы уже видели в прошедшем: **stop → stopped**, здесь — **stop → stopping**."
+        },
+        {
+          "type": "heading",
+          "text": "Случай 3: `-ie` превращается в `-y`"
+        },
+        {
+          "type": "paragraph",
+          "text": "Случай редкий, но слова частотные. Если глагол кончается на `-ie`, оно меняется на `-y` перед `-ing`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**lie → lying**",
+            "**die → dying**",
+            "**tie → tying**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Lieing** ✗ → **lying** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Удвоение работает НЕ всегда — легко перегнуть палку и удваивать где попало. Согласную НЕ удваиваем, если ударение падает не на последний слог или глагол кончается на две согласные — тогда действует базовое правило из прошлой карточки: **open → opening**, **visit → visiting** (ударение на первом слоге), **help → helping** (две согласные)."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Три особых случая при добавлении `-ing`: немая `-e` на конце уходит (**make → making**, **write → writing**); одна согласная после ударной гласной удваивается (**run → running**, **sit → sitting**); окончание `-ie` меняется на `-y` (**lie → lying**, **die → dying**). Во всех остальных случаях действует базовое правило — `-ing` просто добавляется.",
+      "examples": [
+        {
+          "ru": "Она улыбается мне прямо сейчас.",
+          "en": "She is smiling at me right now."
+        },
+        {
+          "ru": "Они танцуют вместе на кухне.",
+          "en": "They are dancing together in the kitchen."
+        },
+        {
+          "ru": "Малыш лежит на кровати.",
+          "en": "The baby is lying on the bed."
+        },
+        {
+          "ru": "Он бежит к автобусу.",
+          "en": "He is running to the bus."
+        },
+        {
+          "ru": "Не мешай, я пишу письмо.",
+          "en": "Don't bother me, I am writing a letter."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, надо удваивать согласную или нет?",
+        "Почему у lie форма lying, а не lieing?",
+        "Куда девается -e в make и write?"
+      ]
     }
   ],
-  "card_exercise_index": [],
+  "card_exercise_index": [
+    {
+      "cardId": 178,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 14,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 178,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 75,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 178,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 63,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 179,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 35,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 179,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 15,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 179,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 66,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 179,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 35,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 179,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 76,
+      "orderInCard": 4
+    }
+  ],
   "ai_exercises": [],
   "course_word_groups": [
     {
@@ -285,18 +575,270 @@
       "transcription": "[naʊ]",
       "microtopicId": 57,
       "categoryId": "tenses"
+    },
+    {
+      "id": 357,
+      "word": "to smile",
+      "translation": "улыбаться",
+      "transcription": "[smaɪl]",
+      "microtopicId": 58,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 358,
+      "word": "to cry",
+      "translation": "плакать",
+      "transcription": "[kraɪ]",
+      "microtopicId": 58,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 359,
+      "word": "kitchen",
+      "translation": "кухня",
+      "transcription": "[ˈkɪtʃɪn]",
+      "microtopicId": 58,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 360,
+      "word": "hungry",
+      "translation": "голодный",
+      "transcription": "[ˈhʌŋɡri]",
+      "microtopicId": 58,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 361,
+      "word": "together",
+      "translation": "вместе",
+      "transcription": "[təˈɡeðə]",
+      "microtopicId": 58,
+      "categoryId": "tenses"
     }
   ],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 14,
+      "taskDescription": "образуй форму с -ing.",
+      "rows": [
+        {
+          "hint": "to eat",
+          "answer": "eating"
+        },
+        {
+          "hint": "to fly",
+          "answer": "flying"
+        },
+        {
+          "hint": "to do",
+          "answer": "doing"
+        },
+        {
+          "hint": "to sleep",
+          "answer": "sleeping"
+        },
+        {
+          "hint": "to enjoy",
+          "answer": "enjoying"
+        }
+      ],
+      "explanation": "к большинству глаголов -ing просто добавляется, слово не меняется; конечная y остаётся на месте (fly → flying), в i не превращается."
+    },
+    {
+      "id": 15,
+      "taskDescription": "образуй форму с -ing.",
+      "rows": [
+        {
+          "hint": "to ride",
+          "answer": "riding"
+        },
+        {
+          "hint": "to plan",
+          "answer": "planning"
+        },
+        {
+          "hint": "to tie",
+          "answer": "tying"
+        },
+        {
+          "hint": "to smile",
+          "answer": "smiling"
+        },
+        {
+          "hint": "to put",
+          "answer": "putting"
+        }
+      ],
+      "explanation": "немая e уходит (ride → riding, smile → smiling); согласная после ударной гласной удваивается (plan → planning, put → putting); -ie меняется на -y (tie → tying)."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 75,
+      "statements": [
+        {
+          "en": "The dog is eating now.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I am studiing English today.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They are crying in the car.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She is goeing to the shop.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We are reading together.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: верно studying — буква y остаётся, в i не меняется. Строка 4: верно going — к go просто добавляем -ing, лишняя e не нужна."
+    },
+    {
+      "id": 76,
+      "statements": [
+        {
+          "en": "He is making dinner for us.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They are runing in the park.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She is lying on the grass.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I am writeing an email.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The dog is swimming in the lake.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: верно running — согласная после ударной гласной удваивается. Строка 4: верно writing — немая e перед -ing уходит."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 63,
+      "situationRu": "RU: Кот спит на кровати.",
+      "correctSentence": "The cat is sleeping on the bed.",
+      "words": [
+        "The cat",
+        "is",
+        "sleeping",
+        "on the bed"
+      ],
+      "distractors": [
+        "are",
+        "sleepping",
+        "sleep"
+      ],
+      "explanation": "the cat — единственное число, нужна форма is, а не are. sleeping пишется с одной p (удвоения тут нет), а не sleepping. Без -ing (sleep) в Present Continuous нельзя."
+    }
+  ],
   "multiple_choice_exercises": [],
   "text_input_exercises": [],
   "dialog_restore_exercises": [],
   "matching_exercises": [],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 66,
+      "wrongSentence": "She is writeing a message to her boss.",
+      "options": [
+        {
+          "text": "She is writting a message to her boss.",
+          "isCorrect": false
+        },
+        {
+          "text": "She is writeing a message to her boss.",
+          "isCorrect": false
+        },
+        {
+          "text": "She is writing a message to her boss.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "write кончается на немую e — перед -ing она уходит: writing. Вариант writeing оставляет лишнюю e, а writting добавляет ненужное удвоение."
+    }
+  ],
   "construction_meaning_exercises": [],
   "transformation_exercises": [],
-  "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "categorization_exercises": [
+    {
+      "id": 35,
+      "taskDescription": "распредели глаголы по тому, как у них образуется форма с -ing.",
+      "categories": [
+        {
+          "title": "Просто + -ing",
+          "items": [
+            "read",
+            "sleep",
+            "wait"
+          ]
+        },
+        {
+          "title": "Убрать -e",
+          "items": [
+            "make",
+            "close",
+            "ride"
+          ]
+        },
+        {
+          "title": "Удвоить согласную",
+          "items": [
+            "run",
+            "shop",
+            "put"
+          ]
+        }
+      ],
+      "explanation": "«просто + -ing» — слово не меняется (read → reading); «убрать -e» — немая e на конце выпадает (make → making); «удвоить согласную» — одна согласная после ударной гласной удваивается (run → running)."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 35,
+      "groupDescription": "Три формы -ing записаны верно, одна — с ошибкой",
+      "items": [
+        {
+          "text": "making",
+          "isOdd": false
+        },
+        {
+          "text": "coming",
+          "isOdd": false
+        },
+        {
+          "text": "taking",
+          "isOdd": false
+        },
+        {
+          "text": "runing",
+          "isOdd": true
+        }
+      ],
+      "explanation": "run кончается на ударную гласную + одну согласную, поэтому согласная удваивается: running. А making, coming, taking верно убрали немую e."
+    }
+  ]
 }

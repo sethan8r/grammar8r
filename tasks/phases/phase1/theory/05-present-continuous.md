@@ -144,26 +144,295 @@ Present Continuous — время «прямо сейчас»: действие 
 
 ---
 
+## Microtopic 58 — The -ing Form · Форма -ing
+
+**ID:** 58 | **Order:** 2
+
+---
+
+### Card 178 · -ing — хвостик процесса
+
+**ID:** 178 | **Order:** 1
+
+#### Theory
+
+В прошлой микротеме мы познакомились с формой Present Continuous: `to be` (`am` / `is` / `are`) плюс глагол с хвостиком `-ing`. Со связкой `am/is/are` мы давно на «ты» ещё из Основ, а вот вторая часть — глагол с `-ing` — новая. Разберёмся, как её собрать.
+
+**Базовое правило: просто добавь `-ing`**
+
+Хорошая новость: в большинстве случаев ничего хитрого нет — берёшь глагол и лепишь `-ing` к концу, само слово при этом не меняется.
+
+- **work → working**
+- **play → playing**
+- **read → reading**
+- **go → going**
+- **do → doing**
+
+Взял глагол — приклеил `-ing` — форма готова. Именно этот хвостик и превращает глагол в «действие в процессе»: не «работать вообще», а «работаю прямо сейчас».
+
+**Буква `y` на конце остаётся**
+
+Тут английский делает нам подарок. Когда мы учили 3-е лицо (окончание `-s`), а позже возьмёмся за прошедшее (`-ed`), конечная `y` капризничала и превращалась в `i`: **study → studies**. С `-ing` такого нет никогда — `y` спокойно остаётся на месте:
+
+- **study → studying**
+- **cry → crying**
+- **stay → staying**
+- **fly → flying**
+
+**Ловушка:** **studiing** ✗ → **studying** ✓. Не переноси привычку из `-s`/`-ed`: перед `-ing` буква `y` в `i` не превращается.
+
+**Заметка:** этот же хвостик `-ing` встретится позже в теме «Герундий» — там глагол с `-ing` работает как существительное («чтение», «плавание»). Пока нам важна другая его роль — часть времени Present Continuous. Роли разные, хвостик один.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Форма Present Continuous — `am/is/are` + глагол с `-ing`. В большинстве случаев `-ing` просто приклеивается к глаголу без изменений: **work → working**, **go → going**, **read → reading**. Конечная буква `y`, в отличие от `-s`/`-ed`, перед `-ing` всегда остаётся: **study → studying**, **cry → crying**. Особые случаи правописания — в следующей карточке.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 738 | Малыш плачет — он голодный. | The baby is crying — he is hungry. |
+| 739 | Мы вместе читаем эту книгу. | We are reading this book together. |
+| 740 | Мама готовит на кухне. | Mom is cooking in the kitchen. |
+| 741 | Она учит новые слова прямо сейчас. | She is studying new words right now. |
+
+---
+
+#### Exercises
+
+**Ex 1 · TableFill** *(ID: 14)*
+
+Задание: образуй форму с -ing.
+
+| Глагол | Форма с -ing |
+|--------|--------------|
+| to eat | eating |
+| to fly | flying |
+| to do | doing |
+| to sleep | sleeping |
+| to enjoy | enjoying |
+
+*Explanation:* к большинству глаголов -ing просто добавляется, слово не меняется; конечная y остаётся на месте (fly → flying), в i не превращается.
+
+---
+
+**Ex 2 · TrueFalse** *(ID: 75)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | The dog is eating now. | ✓ |
+| 2 | I am studiing English today. | ✗ |
+| 3 | They are crying in the car. | ✓ |
+| 4 | She is goeing to the shop. | ✗ |
+| 5 | We are reading together. | ✓ |
+
+*Explanation:* Строка 2: верно studying — буква y остаётся, в i не меняется. Строка 4: верно going — к go просто добавляем -ing, лишняя e не нужна.
+
+---
+
+**Ex 3 · WordArrangement** *(ID: 63)*
+
+RU: Кот спит на кровати.
+
+Правильное предложение: **The cat is sleeping on the bed.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| The cat | — |
+| is | — |
+| sleeping | — |
+| on the bed | — |
+| are | ✗ |
+| sleepping | ✗ |
+| sleep | ✗ |
+
+*Explanation:* the cat — единственное число, нужна форма is, а не are. sleeping пишется с одной p (удвоения тут нет), а не sleepping. Без -ing (sleep) в Present Continuous нельзя.
+
+---
+
+#### Clarification Options
+
+- Почему у study форма studying, а не studiing?
+- Чем -ing отличается от окончаний -s и -ed?
+- Что это за -ing, который ещё будет в «Герундии»?
+
+---
+
+### Card 179 · Правописание: три особых случая
+
+**ID:** 179 | **Order:** 2
+
+#### Theory
+
+`-ing` почти всегда просто приклеивается — но есть три случая, когда перед хвостиком слово чуть меняется. Логика похожа на правила `-ed` из темы «Формы глаголов», но правила для `-ing` свои — не путай их.
+
+**Случай 1: немая `-e` уходит**
+
+Если глагол кончается на немую `-e` (ту, что сама не читается), перед `-ing` она пропадает:
+
+- **make → making**
+- **write → writing**
+- **live → living**
+- **smile → smiling**
+- **dance → dancing**
+
+Почему: `-e` на конце и так не звучит, а `-ing` начинается с гласной — держать немую `-e` незачем, она просто выпадает.
+
+**Ловушка:** **makeing** ✗ → **making** ✓. Немую `-e` перед `-ing` не оставляй.
+
+**Случай 2: удвоение последней согласной**
+
+Если глагол кончается на «одна гласная + одна согласная» под ударением, эту согласную удваиваем:
+
+- **run → running**
+- **sit → sitting**
+- **swim → swimming**
+- **get → getting**
+- **stop → stopping**
+
+Зачем удвоение: одинокая согласная «растянула» бы гласный звук, а вторая согласная держит его коротким — так слово звучит правильно. Ту же руку мы уже видели в прошедшем: **stop → stopped**, здесь — **stop → stopping**.
+
+**Случай 3: `-ie` превращается в `-y`**
+
+Случай редкий, но слова частотные. Если глагол кончается на `-ie`, оно меняется на `-y` перед `-ing`:
+
+- **lie → lying**
+- **die → dying**
+- **tie → tying**
+
+**Ловушка:** **lieing** ✗ → **lying** ✓.
+
+**Важно:** удвоение работает НЕ всегда — легко перегнуть палку и удваивать где попало. Согласную НЕ удваиваем, если ударение падает не на последний слог или глагол кончается на две согласные — тогда действует базовое правило из прошлой карточки: **open → opening**, **visit → visiting** (ударение на первом слоге), **help → helping** (две согласные).
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Три особых случая при добавлении `-ing`: немая `-e` на конце уходит (**make → making**, **write → writing**); одна согласная после ударной гласной удваивается (**run → running**, **sit → sitting**); окончание `-ie` меняется на `-y` (**lie → lying**, **die → dying**). Во всех остальных случаях действует базовое правило — `-ing` просто добавляется.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 742 | Она улыбается мне прямо сейчас. | She is smiling at me right now. |
+| 743 | Они танцуют вместе на кухне. | They are dancing together in the kitchen. |
+| 744 | Малыш лежит на кровати. | The baby is lying on the bed. |
+| 745 | Он бежит к автобусу. | He is running to the bus. |
+| 746 | Не мешай, я пишу письмо. | Don't bother me, I am writing a letter. |
+
+---
+
+#### Exercises
+
+**Ex 4 · Categorization** *(ID: 35)*
+
+Задание: распредели глаголы по тому, как у них образуется форма с -ing.
+
+| Просто + -ing | Убрать -e | Удвоить согласную |
+|---------------|-----------|-------------------|
+| read | make | run |
+| sleep | close | shop |
+| wait | ride | put |
+
+*Explanation:* «просто + -ing» — слово не меняется (read → reading); «убрать -e» — немая e на конце выпадает (make → making); «удвоить согласную» — одна согласная после ударной гласной удваивается (run → running).
+
+---
+
+**Ex 5 · TableFill** *(ID: 15)*
+
+Задание: образуй форму с -ing.
+
+| Глагол | Форма с -ing |
+|--------|--------------|
+| to ride | riding |
+| to plan | planning |
+| to tie | tying |
+| to smile | smiling |
+| to put | putting |
+
+*Explanation:* немая e уходит (ride → riding, smile → smiling); согласная после ударной гласной удваивается (plan → planning, put → putting); -ie меняется на -y (tie → tying).
+
+---
+
+**Ex 6 · ErrorCorrection** *(ID: 66)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"She is writeing a message to her boss."
+
+- She is writting a message to her boss.
+- She is writeing a message to her boss.
+- **She is writing a message to her boss.** ✓
+
+*Explanation:* write кончается на немую e — перед -ing она уходит: writing. Вариант writeing оставляет лишнюю e, а writting добавляет ненужное удвоение.
+
+---
+
+**Ex 7 · FindTheOdd** *(ID: 35)*
+
+Три формы -ing записаны верно, одна — с ошибкой:
+
+- making
+- coming
+- taking
+- **runing** ✓
+
+*Explanation:* run кончается на ударную гласную + одну согласную, поэтому согласная удваивается: running. А making, coming, taking верно убрали немую e.
+
+---
+
+**Ex 8 · TrueFalse** *(ID: 76)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | He is making dinner for us. | ✓ |
+| 2 | They are runing in the park. | ✗ |
+| 3 | She is lying on the grass. | ✓ |
+| 4 | I am writeing an email. | ✗ |
+| 5 | The dog is swimming in the lake. | ✓ |
+
+*Explanation:* Строка 2: верно running — согласная после ударной гласной удваивается. Строка 4: верно writing — немая e перед -ing уходит.
+
+---
+
+#### Clarification Options
+
+- Как понять, надо удваивать согласную или нет?
+- Почему у lie форма lying, а не lieing?
+- Куда девается -e в make и write?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| to smile | улыбаться | [smaɪl] |
+| to cry | плакать | [kraɪ] |
+| kitchen | кухня | [ˈkɪtʃɪn] |
+| hungry | голодный | [ˈhʌŋɡri] |
+| together | вместе | [təˈɡeðə] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 9 | 10 |
-| Microtopic | 57 | 58 |
-| Card | 177 | 178 |
-| Example | 737 | 738 |
+| Microtopic | 58 | 59 |
+| Card | 179 | 180 |
+| Example | 746 | 747 |
 | MultipleChoice · CHOICE | 88 | 89 |
 | MultipleChoice · FORWARD_CHOICE | 95 | 96 |
 | MultipleChoice · REVERSE_CHOICE | 27 | 28 |
-| TrueFalse | 74 | 75 |
-| WordArrangement | 62 | 63 |
+| TrueFalse | 76 | 77 |
+| WordArrangement | 63 | 64 |
 | TextInput | 37 | 38 |
 | Matching | 28 | 29 |
 | Transformation | 22 | 23 |
-| ErrorCorrection | 65 | 66 |
-| TableFill | 13 | 14 |
-| FindTheOdd | 34 | 35 |
+| ErrorCorrection | 66 | 67 |
+| TableFill | 15 | 16 |
+| FindTheOdd | 35 | 36 |
 | ConstructionMeaning | 10 | 11 |
-| Categorization | 34 | 35 |
+| Categorization | 35 | 36 |
 | DialogRestore | 13 | 14 |
-| course_word | 356 | 357 |
+| course_word | 361 | 362 |
