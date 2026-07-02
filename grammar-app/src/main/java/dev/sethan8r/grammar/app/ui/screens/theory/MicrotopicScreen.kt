@@ -121,11 +121,14 @@ private fun CardPager(
     }
 
     // «Завершить карточку»: не последняя — листаем дальше; последняя — сводка микротемы.
+    // microtopicId == null (карточки нет в content.db) сюда не попадает: isLastCard тогда false,
+    // а ветка листания просто не найдёт карточку в списке.
     val latestCards = rememberUpdatedState(cards)
     LaunchedEffect(Unit) {
         cardCompleted.collect { completion ->
-            if (completion.isLastCard) {
-                onMicrotopicCompleted(completion.microtopicId)
+            val microtopicId = completion.microtopicId
+            if (completion.isLastCard && microtopicId != null) {
+                onMicrotopicCompleted(microtopicId)
             } else {
                 val list = latestCards.value
                 val index = list.indexOfFirst { it.id == completion.cardId }

@@ -38,6 +38,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryListItem
 import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
+import dev.sethan8r.grammar.app.ui.components.CenteredHint
 import dev.sethan8r.grammar.app.ui.components.DualTitle
 import dev.sethan8r.grammar.app.ui.components.InfoButton
 import dev.sethan8r.grammar.app.ui.components.feedback.FeedbackSnackbarHost
@@ -65,8 +66,8 @@ fun TheoryScreen(
 
     Box(modifier = Modifier.fillMaxSize()) {
         when {
-            uiState.isLoading -> CenteredText(stringResource(R.string.theory_loading))
-            uiState.items.isEmpty() -> CenteredText(stringResource(R.string.theory_empty))
+            uiState.isLoading -> CenteredHint(stringResource(R.string.theory_loading), Modifier.fillMaxSize())
+            uiState.items.isEmpty() -> CenteredHint(stringResource(R.string.theory_empty), Modifier.fillMaxSize())
             else -> TheoryList(
                 items = uiState.items,
                 onTopicClick = onTopicClick,
@@ -220,12 +221,5 @@ private fun TopicBody(
                 fontSize = 13.sp,
             )
         }
-    }
-}
-
-@Composable
-private fun CenteredText(text: String) {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text(text = text, color = TextSecondary)
     }
 }

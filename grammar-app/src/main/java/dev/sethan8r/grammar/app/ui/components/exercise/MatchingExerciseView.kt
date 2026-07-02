@@ -329,12 +329,16 @@ private fun DragHandleDots(color: Color, modifier: Modifier = Modifier) {
     }
 }
 
-/** Перемешивает список так, чтобы он по возможности не совпал с эталонным порядком [correct]. */
+/**
+ * Дерандж-шафл: НИ ОДИН элемент не стартует на своём правильном месте [correct] — иначе часть
+ * задания решена ещё до касания. Подбор перебором: при 4–6 парах доля деранджей ~37%, так что
+ * 32 попыток хватает практически всегда (вероятность фолбэка ~4e-7).
+ */
 private fun List<RightSlot>.shuffledDeranged(correct: List<String>): List<RightSlot> {
     if (size < 2) return this
-    repeat(8) {
+    repeat(32) {
         val s = shuffled()
-        if (s.indices.any { s[it].text != correct[it] }) return s
+        if (s.indices.all { s[it].text != correct[it] }) return s
     }
     return shuffled()
 }

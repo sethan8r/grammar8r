@@ -41,6 +41,11 @@ for e in d['true_false_exercises']:
     chk(all(s['en'] for s in e['statements']), 'TRUE_FALSE', e['id'], "пустой en")
 for e in d['matching_exercises']:
     chk(all(p['left'] != p['right'] for p in e['pairs']), 'MATCHING', e['id'], "left == right")
+    # Рендер различает правые ячейки ПО ТЕКСТУ (реванш/дерандж) — дубли справа ломают показ ответа.
+    rights = [p['right'] for p in e['pairs']]
+    chk(len(rights) == len(set(rights)), 'MATCHING', e['id'], "дублирующиеся right-тексты")
+    lefts = [p['left'] for p in e['pairs']]
+    chk(len(lefts) == len(set(lefts)), 'MATCHING', e['id'], "дублирующиеся left-тексты")
 for e in d['word_arrangement_exercises']:
     chk(all(w for w in e['words']), 'WORD_ARRANGEMENT', e['id'], "пустое слово")
     chk(all(dd for dd in e['distractors']), 'WORD_ARRANGEMENT', e['id'], "пустой дистрактор")

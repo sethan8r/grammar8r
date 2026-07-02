@@ -65,12 +65,12 @@
 - Интерфейсы в domain: `AuthRepository` (JWT/OAuth), `EntitlementsProvider` (тир подписки,
   AI-лимиты), `AiExerciseRepository`, синк прогресса.
 - Фейковые реализации (`Fake*`/`Local*`) биндятся через Hilt-модули. Когда появится
-  Ktor-сервер (Фаза 4) — меняется только биндинг, ни строчки в фичах.
+  сервер (Spring Boot на Java, Фаза 4) — меняется только биндинг, ни строчки в фичах.
 - Поведение dev/prod — через BuildConfig-поля, не через комментарии в коде.
 
 ### 3.1. Модуль `grammar-shared` — контракт клиент↔сервер
 
-В проекте три Gradle-модуля: `grammar-app` (приложение), `grammar-server` (Ktor, Фаза 4)
+В проекте три Gradle-модуля: `grammar-app` (приложение), `grammar-server` (Spring Boot на Java, Фаза 4)
 и `grammar-shared`. Сейчас shared — пустой плейсхолдер (`Models.kt` с пустым классом),
 но удалять его НЕ надо — это стандартный паттерн для монорепо «клиент + сервер».
 

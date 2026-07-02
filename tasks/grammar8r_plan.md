@@ -33,7 +33,7 @@ Grammar8r строится вокруг трёх вещей: **словарь** 
 ```
 Grammar8r/
 ├── grammar-app/     ← Android-приложение (Grammar + Words в одном)
-├── grammar-server/  ← Ktor backend (сервер подписок + AI-прокси)
+├── grammar-server/  ← Spring Boot (Java) backend (сервер подписок + AI-прокси; решение 02.07.2026, было Ktor)
 ├── grammar-shared/  ← общие Kotlin-модели (SubscriptionStatus, UserInfo и т.д.)
 └── settings.gradle.kts
 ```
@@ -2759,21 +2759,22 @@ Yandex Dictionary (fallback)
 
 ## Сервер (подписки + AI-прокси)
 
-**Стек:** Kotlin + Ktor, Docker (~50–80 MB образ)
-**Хостинг:** Hetzner (Финляндия / Германия) ~€3.5/мес (~340₽). Выбрать зарубежный хостинг обязательно — OpenAI блокирует российские IP.
+**Стек:** Java + Spring Boot, Docker (решение 02.07.2026, было Ktor — Spring пользователь знает и может ревьюить;
+шероховатости Java-сервера с Kotlin-контрактом `grammar-shared` — `phases/phase4/phase4_server.md` → «Шероховатости»)
+**Хостинг:** Hetzner (Финляндия / Германия), VPS 2 ГБ RAM. Выбрать зарубежный хостинг обязательно — OpenAI блокирует российские IP.
 
 ```
-Hetzner VPS ~€3.5/мес
+Hetzner VPS
 └── Docker
-    ├── Ktor
+    ├── Spring Boot (Java)
     │   ├── GET  /subscription?uid=X     → { tier, expires }
     │   ├── POST /webhook/yookassa       ← YooKassa об оплате
-    │   └── POST /ai/exercise            ← Android → Ktor → OpenAI API
+    │   └── POST /ai/exercise            ← Android → сервер → OpenAI API
     └── SQLite / PostgreSQL (uid → { tier, expires })
 ```
 
 **Почему AI через сервер, а не напрямую из приложения:**
-API-ключ OpenAI нельзя хранить в APK — его можно вытащить за 5 минут. Все AI-запросы идут через Ktor, сервер держит ключ.
+API-ключ OpenAI нельзя хранить в APK — его можно вытащить за 5 минут. Все AI-запросы идут через сервер, он держит ключ.
 
 Эндпоинты:
 - `GET /subscription?uid=X` → `{ tier: "free"|"tier1"|"tier2", expires: "2026-05-01"|null, aiRequestsToday: 2, aiDailyLimit: 3 }`

@@ -157,16 +157,23 @@ fun MainScreen() {
             opaqueComposable<ExerciseSessionRoute> {
                 ExerciseSessionScreen(
                     onFinished = { completion ->
-                        if (completion.isLastCard) {
-                            // Последняя карточка микротемы → экран сводки; сессию и список карточек убираем из стека.
-                            navController.navigate(MicrotopicSummaryRoute(completion.microtopicId)) {
-                                popUpTo<MicrotopicRoute> { inclusive = true }
+                        val microtopicId = completion.microtopicId
+                        when {
+                            // Карточки нет в content.db (рассинхрон контента) — сводки не будет, просто назад.
+                            microtopicId == null -> navController.popBackStack()
+
+                            completion.isLastCard ->
+                                // Последняя карточка микротемы → экран сводки; сессию и список карточек убираем из стека.
+                                navController.navigate(MicrotopicSummaryRoute(microtopicId)) {
+                                    popUpTo<MicrotopicRoute> { inclusive = true }
+                                }
+
+                            else -> {
+                                // Ещё есть карточки → возвращаемся в микротему и листаем на следующую.
+                                navController.previousBackStackEntry
+                                    ?.savedStateHandle?.set(ADVANCE_AFTER_CARD_KEY, completion.cardId)
+                                navController.popBackStack()
                             }
-                        } else {
-                            // Ещё есть карточки → возвращаемся в микротему и листаем на следующую.
-                            navController.previousBackStackEntry
-                                ?.savedStateHandle?.set(ADVANCE_AFTER_CARD_KEY, completion.cardId)
-                            navController.popBackStack()
                         }
                     },
                     onExit = { navController.popBackStack() },

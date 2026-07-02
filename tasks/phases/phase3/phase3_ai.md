@@ -23,7 +23,7 @@ AI-упражнения — главная причина платить под�
 
 - **Модель:** `gpt-5-nano` ($0.05/1M input, $0.40/1M output)
 - **Все запросы идут через сервер** — API-ключ никогда не хранится в APK
-- **Android → Ktor-сервер → OpenAI API → Ktor → Android**
+- **Android → сервер (Spring Boot, Java) → OpenAI API → сервер → Android**
 - Авторизация: JWT (залогинен) или X-Device-Id (анонимно, Free принудительно)
 
 ---

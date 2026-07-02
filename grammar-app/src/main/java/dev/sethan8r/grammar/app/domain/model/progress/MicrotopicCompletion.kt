@@ -5,10 +5,13 @@ package dev.sethan8r.grammar.app.domain.model.progress
  * микротемы (по порядку). По [isLastCard] движок решает: показать экран сводки (последняя) или
  * пролистать на следующую карточку. Намеренно НЕ «вся микротема пройдена» — иначе при повторном
  * прохождении уже пройденной микротемы сводка появлялась бы уже после первой карточки.
+ *
+ * [microtopicId] = null — карточки нет в content.db (рассинхрон контента, например после его
+ * обновления с сервера): сводку не показывать, экран просто возвращается назад.
  */
 data class CardCompletion(
     val cardId: Int,
-    val microtopicId: Int,
+    val microtopicId: Int?,
     val isLastCard: Boolean,
 )
 

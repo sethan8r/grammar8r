@@ -30,7 +30,7 @@
 ```
 Grammar8r/
 ├── grammar-app/      ← Android-приложение (Compose, Room, Hilt)
-├── grammar-server/   ← Ktor (Фаза 4) — сейчас пустой шаблон, не трогаем
+├── grammar-server/   ← Spring Boot на Java (Фаза 4; решение 02.07.2026, было Ktor) — сейчас пустой шаблон, не трогаем
 └── grammar-shared/   ← 🟡 контракт API клиент↔сервер (чистый Kotlin/JVM)
 ```
 

@@ -225,7 +225,7 @@ fun WordArrangementExerciseView(
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .heightIn(min = 100.dp)
+                        .heightIn(min = Dimens.arrangementFieldMinHeight)
                         .onGloballyPositioned { ac ->
                             val w = wrapperCoords ?: return@onGloballyPositioned
                             val topLeft = w.localPositionOf(ac, Offset.Zero)

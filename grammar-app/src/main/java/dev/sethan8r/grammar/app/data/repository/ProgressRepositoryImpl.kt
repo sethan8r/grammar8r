@@ -1,5 +1,6 @@
 package dev.sethan8r.grammar.app.data.repository
 
+import android.util.Log
 import dev.sethan8r.grammar.app.data.local.content.dao.TheoryDao
 import dev.sethan8r.grammar.app.data.local.user.dao.ProgressDao
 import dev.sethan8r.grammar.app.data.local.user.entity.UserCardProgress
@@ -50,7 +51,13 @@ class ProgressRepositoryImpl @Inject constructor(
         progressDao.upsertCardProgress(UserCardProgress(cardId = cardId, isCompleted = true))
 
         val microtopicId = theoryDao.getCard(cardId)?.microtopicId
-            ?: return CardCompletion(cardId = cardId, microtopicId = -1, isLastCard = false)
+        if (microtopicId == null) {
+            // Карточка пройдена, но в content.db её нет — битый/разъехавшийся контент.
+            // TODO(metrics): отправлять это состояние в метрику (Analytics), когда она появится, —
+            //  сигнал рассинхрона контента после обновления с сервера.
+            Log.w(TAG, "completeCard: card $cardId отсутствует в content.db (рассинхрон контента)")
+            return CardCompletion(cardId = cardId, microtopicId = null, isLastCard = false)
+        }
 
         val cardIds = theoryDao.getCards(microtopicId).first().map { it.id }
         val completedIds = progressDao.getCompletedCardIds().first().toSet()
@@ -82,4 +89,8 @@ class ProgressRepositoryImpl @Inject constructor(
 
     override suspend fun isCardCompleted(cardId: Int): Boolean =
         progressDao.getCardProgress(cardId)?.isCompleted == true
+
+    private companion object {
+        const val TAG = "ProgressRepository"
+    }
 }

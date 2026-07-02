@@ -397,7 +397,7 @@ private fun SessionFooter(
     Column(
         modifier = Modifier.padding(
             start = Dimens.screenPadding,
-            top = 20.dp,
+            top = Dimens.sessionFooterTopGap,
             end = Dimens.screenPadding,
             bottom = Dimens.bottomBarGap12,
         ),

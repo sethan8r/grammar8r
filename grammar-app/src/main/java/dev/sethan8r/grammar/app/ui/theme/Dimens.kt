@@ -34,6 +34,9 @@ object Dimens {
     /** Компенсация скролла. */
     val bottomBarGap24 = 24.dp
 
+    /** Зазор между контентом сессии и кнопкой «Проверить»/«Далее» (осознанно вне 8-grid, обкатано). */
+    val sessionFooterTopGap = 20.dp
+
     // Скругления
     val cornerSmall = 4.dp
     val cornerButton = 12.dp
@@ -67,6 +70,9 @@ object Dimens {
 
     /** Минимальная высота колонки-категории CATEGORIZATION (видна как зона сброса даже пустой). */
     val categoryColumnMinHeight = 96.dp
+
+    /** Минимальная высота поля сборки WORD_ARRANGEMENT (~2 строки чипов — видно зону сброса пустой). */
+    val arrangementFieldMinHeight = 100.dp
 
     /** Ширина вертикальной полосы-статуса слева в строке микротемы (зелёная — пройдена, серая — нет). */
     val microtopicStripeWidth = 4.dp

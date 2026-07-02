@@ -15,10 +15,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Grammar8r">
+        <!-- Только портрет: drag-задания держат состояние сборки в UI, поворот его сбрасывает. -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Grammar8r">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
