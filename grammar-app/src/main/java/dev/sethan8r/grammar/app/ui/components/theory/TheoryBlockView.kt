@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -107,11 +108,18 @@ private val WHITESPACE = Regex("\\s+")
 // контент не была широкой из-за длинного заголовка. Переноса по слогам в Compose нет → делим по символам.
 private const val MAX_WORD_LEN = 9
 
+// Запас к замеренной ширине колонки: гасит округления px↔dp (замер → Dp → обратно в px в
+// Modifier.width), из-за которых слову могло не хватить долей пикселя и последняя буква переносилась.
+private val MEASURE_SLACK = 1.dp
+
 @Composable
 private fun TableBlock(block: TheoryBlock.Table) {
     val columnCount = maxOf(block.header.size, block.rows.maxOfOrNull { it.size } ?: 0)
     val measurer = rememberTextMeasurer()
     val density = LocalDensity.current
+    // Измерять надо ТЕМ ЖЕ стилем, каким рендерит Text (LocalTextStyle несёт шрифт/letterSpacing
+    // темы) — «голый» TextStyle мерил уже, слово выходило на экране шире замера и рвалось.
+    val baseStyle = LocalTextStyle.current
 
     BoxWithConstraints(
         modifier = Modifier
@@ -121,10 +129,10 @@ private fun TableBlock(block: TheoryBlock.Table) {
     ) {
         val totalWidth = maxWidth
         // Готовим текст (перенос длинных слов) и ширины колонок один раз на (таблица + ширина).
-        val table = remember(block, totalWidth) {
+        val table = remember(block, totalWidth, baseStyle) {
             val header = block.header.map(::wrapLongWords)
             val rows = block.rows.map { row -> row.map(::wrapLongWords) }
-            val widths = columnWidths(header, rows, columnCount, totalWidth, measurer, density)
+            val widths = columnWidths(header, rows, columnCount, totalWidth, baseStyle, measurer, density)
             Triple(header, rows, widths)
         }
         val (header, rows, widths) = table
@@ -156,37 +164,64 @@ private fun wrapLongWords(cell: String): String {
 }
 
 /**
- * Реальные ширины колонок: каждая ≥ ширины своего самого длинного слова (измеряем [TextMeasurer]
- * жирным — худший случай), поэтому слова НЕ рвутся по буквам. Остаток ширины раздаём пропорционально.
+ * Реальные ширины колонок в два замера ([TextMeasurer], как auto-layout таблиц в браузерах):
+ * min — самое длинное слово (гарантия, что слова НЕ рвутся по буквам), ideal — самая длинная
+ * строка ячейки целиком (шире колонке уже не нужно). Остаток ширины раздаётся пропорционально
+ * дефициту (ideal − min) с потолком ideal: колонка, чей контент уже влезает, лишнего не забирает.
+ * Заголовок меряется жирным, тело — обычным, оба — поверх [baseStyle] рендера (шрифт/letterSpacing
+ * темы), иначе замер уже реальной ширины и слово рвётся посреди букв. Плюс [MEASURE_SLACK] на
+ * округления px↔dp при обратной конверсии замера в `Modifier.width`.
  */
 private fun columnWidths(
     header: List<String>,
     rows: List<List<String>>,
     columnCount: Int,
     totalWidth: Dp,
+    baseStyle: TextStyle,
     measurer: TextMeasurer,
     density: Density,
 ): List<Dp> {
-    val style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Bold)
+    val bodyStyle = baseStyle.merge(TextStyle(fontSize = 14.sp, lineHeight = 20.sp))
+    val headerStyle = bodyStyle.merge(TextStyle(fontWeight = FontWeight.Bold))
     val cellPadding = Dimens.spaceSmall * 2
-    val minWidths = (0 until columnCount).map { column ->
-        val longestToken = (listOf(header) + rows)
-            .mapNotNull { it.getOrNull(column) }
-            .flatMap { it.replace("*", "").split(WHITESPACE) }
-            .maxByOrNull { it.length }
-            .orEmpty()
-        val tokenPx = measurer.measure(AnnotatedString(longestToken), style).size.width
-        with(density) { tokenPx.toDp() } + cellPadding
+    val styledRows = listOf(header to headerStyle) + rows.map { it to bodyStyle }
+
+    // Ширина самого широкого куска ячеек колонки; куски задаёт split (слова либо готовые строки).
+    // Кусок с `*` рендерится жирным спаном — меряем его жирным, иначе недомер и перенос букв.
+    fun widestPiece(column: Int, split: (String) -> List<String>): Dp {
+        val maxPx = styledRows.maxOf { (row, style) ->
+            val cell = row.getOrNull(column) ?: return@maxOf 0
+            split(cell).maxOfOrNull { piece ->
+                val pieceStyle = if ('*' in piece) headerStyle else style
+                measurer.measure(AnnotatedString(piece.replace("*", "").trim()), pieceStyle).size.width
+            } ?: 0
+        }
+        return with(density) { maxPx.toDp() } + cellPadding + MEASURE_SLACK
     }
+
+    val minWidths = (0 until columnCount).map { widestPiece(it) { cell -> cell.split(WHITESPACE) } }
+    val idealWidths = (0 until columnCount).map { widestPiece(it) { cell -> cell.split('\n') } }
+
     val totalMin = minWidths.fold(0.dp) { acc, w -> acc + w }
     // Контент шире экрана (редко) — масштабируем пропорционально, чтобы не было переполнения.
     if (totalMin >= totalWidth) {
         val factor = totalWidth.value / totalMin.value
         return minWidths.map { (it.value * factor).dp }
     }
+
     val extra = totalWidth - totalMin
-    val sumMin = minWidths.fold(0f) { acc, w -> acc + w.value }
-    return minWidths.map { it + extra * (it.value / sumMin) }
+    val deficits = minWidths.indices.map { (idealWidths[it] - minWidths[it]).coerceAtLeast(0.dp) }
+    val totalDeficit = deficits.fold(0.dp) { acc, w -> acc + w }
+    // Места меньше суммарного дефицита — делим по дефициту (доля каждой ≤ её дефицита, потолок соблюдён).
+    if (extra <= totalDeficit && totalDeficit > 0.dp) {
+        return minWidths.mapIndexed { i, w -> w + extra * (deficits[i].value / totalDeficit.value) }
+    }
+    // Всем хватает до ideal (каждая ячейка в одну строку) — излишек добиваем пропорционально ideal,
+    // чтобы таблица по-прежнему занимала всю ширину.
+    val leftover = extra - totalDeficit
+    val sumIdeal = idealWidths.fold(0f) { acc, w -> acc + w.value }
+    if (sumIdeal <= 0f) return minWidths
+    return idealWidths.map { it + leftover * (it.value / sumIdeal) }
 }
 
 @Composable
