@@ -836,7 +836,7 @@ theory/
 │       id микротемы = 56; card и AI id (present_simple_card<N>_ex1..3) присвоить ПРИ НАПИСАНИИ —
 │       после MT51–55, продолжив со счётчиков (card-id заранее НЕ фиксируем: MT51–55 ещё займут номера).
 │
-├── Present Continuous  ← идёт после Present Simple; Topic id=9, order=5, файл theory/05-present-continuous.md
+├── Present Continuous  ← идёт после Present Simple; Topic id=9, order=5, файл theory/05-present-continuous.md ✅ (написана 06.07)
 │   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 30.06.2026). Структура зеркалит Present Simple (концепт →
 │      образование по 3 формам → употребление → state verbs → капстоун). Эталон — Present Simple
 │      (theory/04-present-simple.md), читать перед написанием. Предполагаем, что пользователь знает
@@ -900,8 +900,10 @@ theory/
 │   │   └── Card 192 · Глаголы-хамелеоны — have / think / see меняют смысл: I think=считаю /
 │   │       I'm thinking=размышляю; I have a car / I'm having lunch.
 │   │
-│   └── MT64 · Live Practice · Закрепление Present Continuous с ИИ — финальная AI-микротема
+│   └── MT64 · Live Practice · Закрепление Present Continuous с ИИ — финальная AI-микротема ✅ (написана 06.07; card 193, 3 AI)
 │       (ОДНА карточка, 3 AI; структура как Present Simple MT56; см. ⚠️-канон «ФИНАЛЬНАЯ AI-МИКРОТЕМА» выше)
+│       Card 193 · Живая практика с ИИ — капстоун темы: Theory + Summary + Clarification + 3 AI
+│       (EN→RU перевод, RU→EN, найди-и-исправь), Words Source GENERAL, все 4 ситуации PC вокруг слов юзера.
 │
 ├── Compare: Present Simple vs Present Continuous
 │   ├── Факт о тебе vs процесс прямо сейчас
