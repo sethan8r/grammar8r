@@ -46,6 +46,12 @@
       "topicId": 9,
       "title": "Usage · Употребление",
       "order": 6
+    },
+    {
+      "id": 63,
+      "topicId": 9,
+      "title": "State Verbs · Глаголы без Continuous",
+      "order": 7
     }
   ],
   "grammar_cards": [
@@ -1541,6 +1547,298 @@
         "Чем «She is always losing it» отличается от «She always loses it»?",
         "Где в предложении ставить always?"
       ]
+    },
+    {
+      "id": 190,
+      "microtopicId": 63,
+      "title": "Состояния, а не действия",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой микротеме мы прошли все четыре случая, когда Present Continuous нужен, — и по ходу мелькало предупреждение: не каждый глагол умеет вставать в это время. Пора разобрать это исключение целиком. Есть группа глаголов, которые почти никогда не идут в Continuous, даже когда речь про «прямо сейчас». Их называют глаголами состояния — `state verbs`."
+        },
+        {
+          "type": "heading",
+          "text": "Почему их нельзя «снять на камеру»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вернись к нашей метафоре камеры. Continuous снимает процесс — то, что видно в кадре: как человек бежит, готовит, печатает. А теперь попробуй навести камеру на `know` (знать). Что покажет объектив? Ничего — знание не движется и не разворачивается, оно просто есть в голове. То же с `love`, `want`, `belong`: это не действия-процессы, а состояния — ума, чувства, положения дел. Снимать нечего — значит, и форма процесса (`am/is/are` + `-ing`) им не нужна."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому такие глаголы остаются в Present Simple даже там, где по смыслу «сейчас». **I know the answer** — знаю прямо в эту секунду, но говорим простым Simple, а не «сейчас»-формой."
+        },
+        {
+          "type": "heading",
+          "text": "Полный список — по семьям смысла"
+        },
+        {
+          "type": "paragraph",
+          "text": "Глаголов-состояний немного, и почти все они попадают в пять смысловых семей. Не заучивай списком — пойми логику «тут нечего снимать», и они узнаются сами:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Мнение и знание:** know, understand, believe, remember, mean, agree",
+            "**Чувства и желания:** like, love, hate, want, need, prefer",
+            "**Обладание:** have, own, belong",
+            "**Впечатление и бытие:** be, seem, look (в значении «выглядеть»)",
+            "**Восприятие:** see, hear"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметь: `prefer` (предпочитать), `own` (владеть) и `belong` (принадлежать) — тоже про состояние: предпочтение и владение просто существуют, они не «происходят». Поэтому **I prefer tea** ✓, а не **I am preferring tea** ✗."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I am knowing the answer** ✗ → **I know the answer** ✓. И **She is wanting a new phone** ✗ → **She wants a new phone** ✓. Сильное чувство или знание тянет добавить «сейчас»-форму, но этим глаголам она не нужна — им хватает простого Simple."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда у русского эта ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "В родном языке у нас одна форма настоящего на все случаи, и «я знаю», «я хочу» звучат одинаково и для «вообще», и для «прямо сейчас». Проблема приходит с другой стороны: выучив, что для «сейчас» нужен Continuous, мозг по инерции лепит его ко всему подряд — в том числе к чувствам, где особенно хочется сказать «вот прямо в эту минуту люблю/хочу». А именно здесь Continuous и запрещён. Правило простое: чувства, мнение, знание и обладание — всегда Present Simple."
+        }
+      ],
+      "theorySummary": "Глаголы состояния (`state verbs`) описывают не действие-процесс, а состояние ума, чувство или положение дел — их нельзя «снять на камеру», поэтому в Present Continuous они не идут даже про «сейчас»: **I know** ✓, не **I am knowing** ✗. Пять семей: мнение/знание (know, understand, believe), чувства/желания (like, love, want, need, prefer), обладание (have, own, belong), впечатление/бытие (be, seem, look), восприятие (see, hear). Все они остаются в Present Simple.",
+      "examples": [
+        {
+          "ru": "Эта сумка принадлежит Кейт.",
+          "en": "This bag belongs to Kate."
+        },
+        {
+          "ru": "Я предпочитаю чай, а не кофе.",
+          "en": "I prefer tea, not coffee."
+        },
+        {
+          "ru": "Он владеет двумя маленькими магазинами.",
+          "en": "He owns two small shops."
+        },
+        {
+          "ru": "Ты уверен, что понимаешь причину?",
+          "en": "Are you sure you understand the reason?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему know и want нельзя ставить в Continuous, если я знаю и хочу прямо сейчас?",
+        "Как отличить глагол-состояние от глагола-действия?",
+        "Все ли глаголы состояния попадают в эти пять групп?"
+      ]
+    },
+    {
+      "id": 191,
+      "microtopicId": 63,
+      "title": "«Очень люблю» — very vs really с глаголами",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Раз уж мы говорим про глаголы чувств — `like`, `love`, `want`, — заодно закроем ещё одну ошибку, которая липнет ровно к ним. Она не про время, а про одно маленькое слово: `very`."
+        },
+        {
+          "type": "heading",
+          "text": "Слово very не дружит с глаголами"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «очень» цепляется к чему угодно: очень холодно, очень быстро, очень люблю, очень хочу — одно слово на все случаи. Английское `very` так не умеет. Оно усиливает только **прилагательные** и **наречия**: `very cold` (очень холодно), `very fast` (очень быстро), `very tired` (очень уставший). А вот к глаголу `very` прицепить нельзя."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I very like it** ✗ → **I really like it** ✓ / **I like it a lot** ✓. И **I very want to go** ✗ → **I really want to go** ✓. «Очень» рядом с глаголом — это не `very`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чем усиливать глагол"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вместо `very` глагол усиливают три способа:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`really` — ставится перед глаголом: **I really like this song.**",
+            "`a lot` — ставится после глагола или дополнения: **I like this song a lot.**",
+            "`very much` — тоже после, звучит чуть формальнее: **I like it very much.**"
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что усиливаем",
+            "Чем",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "прилагательное / наречие",
+              "very",
+              "very cold, very fast"
+            ],
+            [
+              "глагол",
+              "really / a lot / very much",
+              "I really want it"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Really` — гибкое слово: оно усиливает и глаголы (**I really like it**), и прилагательные (`really cold` = `very cold`). А `very` работает только с прилагательными и наречиями. Сомневаешься — `really` почти всегда безопасно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Русское «очень» переводится по-разному в зависимости от того, что усиливаем. С прилагательными и наречиями — `very` (**very cold**, **very fast**). С глаголами `very` не работает: **I very like it** ✗. Глагол усиливают `really` (перед глаголом: **I really like it**), `a lot` или `very much` (после: **I like it a lot**). `really` подходит и к прилагательным, поэтому его труднее всего поставить неправильно.",
+      "examples": [
+        {
+          "ru": "Мне очень нравится эта песня.",
+          "en": "I really like this song."
+        },
+        {
+          "ru": "Я очень хочу тебе помочь.",
+          "en": "I really want to help you."
+        },
+        {
+          "ru": "Она мне очень нравится.",
+          "en": "I like her a lot."
+        },
+        {
+          "ru": "Здесь очень холодно, я очень хочу домой.",
+          "en": "It's very cold here, I really want to go home."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать «I very like it»?",
+        "В чём разница между really и a lot?",
+        "Можно ли усилить глагол через very much?"
+      ]
+    },
+    {
+      "id": 192,
+      "microtopicId": 63,
+      "title": "Глаголы-хамелеоны — have, think, see",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Напоследок — самые хитрые глаголы. Некоторые слова умеют быть и состоянием, и действием, и смысл у них при этом разный. В одном значении глагол — состояние (только Simple), в другом — настоящее действие-процесс (можно Continuous). Всё решает, что именно ты имеешь в виду."
+        },
+        {
+          "type": "heading",
+          "text": "have, think, see меняют смысл"
+        },
+        {
+          "type": "paragraph",
+          "text": "`have` — про владение это состояние: **I have a car** (машина у меня есть). Но `have` умеет значить и действие — «есть», «принимать», «проводить»: **I'm having lunch** (обедаю), **I'm having a shower** (принимаю душ), **We're having a great time** (отлично проводим время). Владение — Simple, действие — Continuous."
+        },
+        {
+          "type": "paragraph",
+          "text": "`think` — «считать, иметь мнение» это состояние: **I think you're right** (я так считаю). А «обдумывать» — уже процесс: **I'm thinking about it** (сижу и размышляю прямо сейчас)."
+        },
+        {
+          "type": "paragraph",
+          "text": "`see` — «понимать» и «видеть глазами» это состояние: **I see what you mean** (понимаю). А «встречаться, ходить на приём» — действие: **I'm seeing the doctor at five** (иду к врачу)."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'm having a car** ✗ → **I have a car** ✓. В значении «владеть» `have` — состояние, Continuous запрещён. А вот **I'm having lunch** ✓ — тут `have` значит «есть», это действие, и форма «сейчас» уместна."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Правило не «глагол запрещён в Continuous», а «в значении-состоянии — запрещён, в значении-действии — можно». Сначала пойми, что глагол значит в этой фразе, — потом выбирай время."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Глагол",
+            "Состояние → Simple",
+            "Действие → Continuous"
+          ],
+          "rows": [
+            [
+              "have",
+              "I have a car (владею)",
+              "I'm having lunch (ем)"
+            ],
+            [
+              "think",
+              "I think so (считаю)",
+              "I'm thinking (размышляю)"
+            ],
+            [
+              "see",
+              "I see (понимаю)",
+              "I'm seeing him (встречаюсь)"
+            ]
+          ]
+        }
+      ],
+      "theorySummary": "Некоторые глаголы меняют смысл — и потому попадают то в состояния, то в действия. `have` = «владеть» это состояние (**I have a car**, только Simple), но `have` = «есть/принимать/проводить» это действие (**I'm having lunch** ✓). `think` = «считать» (Simple) vs «обдумывать» (**I'm thinking**). `see` = «понимать/видеть» (Simple) vs «встречаться» (**I'm seeing the doctor**). Правило: в значении-состоянии — Simple, в значении-действии — Continuous. Сначала реши, что глагол значит, потом выбирай время.",
+      "examples": [
+        {
+          "ru": "У меня есть машина.",
+          "en": "I have a car."
+        },
+        {
+          "ru": "Я сейчас обедаю, перезвоню позже.",
+          "en": "I'm having lunch now, I'll call you later."
+        },
+        {
+          "ru": "Я думаю, это отличная идея.",
+          "en": "I think it's a great idea."
+        },
+        {
+          "ru": "Тихо, я обдумываю твой вопрос.",
+          "en": "Be quiet, I'm thinking about your question."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, в каком значении стоит have — владение или действие?",
+        "Почему «I'm having lunch» можно, а «I'm having a car» нельзя?",
+        "Чем «I think» отличается от «I'm thinking»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1813,6 +2111,66 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 39,
       "orderInCard": 2
+    },
+    {
+      "cardId": 190,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 83,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 190,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 91,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 190,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 71,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 190,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 37,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 191,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 101,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 191,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 72,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 191,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 68,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 192,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 12,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 192,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 92,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 192,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 84,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1855,6 +2213,22 @@
       "userInstruction": "Пожалуйтесь на привычку друга или родственника: напишите 2–3 предложения с always про то, что вас раздражает.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "present_continuous_card190_ex1",
+      "cardId": 190,
+      "title": "Поставь глагол в нужную форму",
+      "userInstruction": "ИИ даст простые предложения с пропуском и глаголом в скобках в конце. Впишите глагол в правильной форме — где-то это Present Simple, а где-то Present Continuous.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_continuous_card192_ex1",
+      "cardId": 192,
+      "title": "Вставь have, think или see",
+      "userInstruction": "ИИ даст простые предложения с пропусками. Впишите в каждый пропуск глагол have, think или see в правильной форме — где-то это Present Simple, а где-то Present Continuous.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -2136,6 +2510,46 @@
       "translation": "жаловаться",
       "transcription": "[kəmˈpleɪn]",
       "microtopicId": 62,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 384,
+      "word": "to belong",
+      "translation": "принадлежать",
+      "transcription": "[bɪˈlɒŋ]",
+      "microtopicId": 63,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 385,
+      "word": "to own",
+      "translation": "владеть, иметь в собственности",
+      "transcription": "[əʊn]",
+      "microtopicId": 63,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 386,
+      "word": "to prefer",
+      "translation": "предпочитать",
+      "transcription": "[prɪˈfɜː]",
+      "microtopicId": 63,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 387,
+      "word": "sure",
+      "translation": "уверенный",
+      "transcription": "[ʃʊə]",
+      "microtopicId": 63,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 388,
+      "word": "reason",
+      "translation": "причина",
+      "transcription": "[ˈriːzn]",
+      "microtopicId": 63,
       "categoryId": "tenses"
     }
   ],
@@ -2497,6 +2911,68 @@
         }
       ],
       "explanation": "Строка 2: пропущено `-ing` — верно `She is meeting her boss`. Строка 4: пропущено `-ing` — верно `I am seeing the doctor`. В договорённости о будущем глагол так же стоит с `-ing`."
+    },
+    {
+      "id": 83,
+      "statements": [
+        {
+          "en": "I remember your name.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She is wanting a cup of tea.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "This umbrella belongs to Nick.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Do you understand the rule?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They are liking the new song.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "Строка 2: `want` — глагол состояния, в Continuous не идёт — верно `She wants a cup of tea`. Строка 5: `like` тоже состояние — верно `They like the new song`."
+    },
+    {
+      "id": 84,
+      "statements": [
+        {
+          "en": "I'm having lunch with Sara.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I am having a new laptop.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She is thinking about her plans.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Now I see the problem.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I am knowing the answer.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "Строка 2: `have` в значении «владеть» — состояние, верно `I have a new laptop`. Строка 5: `know` — глагол состояния, верно `I know the answer`. Остальные глаголы стоят в значении-действии или в Simple правильно."
     }
   ],
   "word_arrangement_exercises": [
@@ -2589,6 +3065,23 @@
         "sings"
       ],
       "explanation": "`the girls` — множественное число, связка `are`, не `is`. Глагол стоит с `-ing`: `singing`, а не голое `sing` (без связки) и не `sings` из Present Simple."
+    },
+    {
+      "id": 68,
+      "situationRu": "RU: Мне очень нравится эта книга.",
+      "correctSentence": "I like this book a lot.",
+      "words": [
+        "I",
+        "like",
+        "this book",
+        "a lot"
+      ],
+      "distractors": [
+        "very",
+        "likes",
+        "love"
+      ],
+      "explanation": "«очень нравится» с глаголом — это `a lot` (или `really`), не `very`. `likes` — лишний `-s` (у `I` его нет), `love` меняет смысл на «люблю»."
     }
   ],
   "multiple_choice_exercises": [
@@ -2780,6 +3273,69 @@
         }
       ],
       "explanation": "`always` + Present Continuous — это не ровный факт, а упрёк «вечно, сколько можно». Остальные варианты меняют смысл глагола (находишь / не теряешь), а не передают жалобу."
+    },
+    {
+      "id": 91,
+      "choiceType": "CHOICE",
+      "prompt": "My sister ___ our neighbour well.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "is knowing",
+          "isCorrect": false
+        },
+        {
+          "text": "know",
+          "isCorrect": false
+        },
+        {
+          "text": "knows",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "`know` — глагол состояния, форму с `-ing` не берёт, всегда Present Simple. Для `my sister` (3-е лицо) — `knows`; голое `know` без `-s` не подходит."
+    },
+    {
+      "id": 101,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мне очень нравится этот фильм.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I very like this film.",
+          "isCorrect": false
+        },
+        {
+          "text": "I like this film very.",
+          "isCorrect": false
+        },
+        {
+          "text": "I really like this film.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "`very` глаголы не усиливает — «очень нравится» → `really like` (или `like … a lot`). `I like this film very` обрывается — `very` в конце без прилагательного не стоит."
+    },
+    {
+      "id": 92,
+      "choiceType": "CHOICE",
+      "prompt": "Wait a moment, I ___ about your offer right now.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "think",
+          "isCorrect": false
+        },
+        {
+          "text": "am thinking",
+          "isCorrect": true
+        },
+        {
+          "text": "thinks",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "тут `think` значит «обдумывать» — это процесс прямо сейчас (`right now`), поэтому Continuous: `am thinking`. Значение «считать, иметь мнение» было бы Simple, но здесь речь про активное размышление."
     }
   ],
   "text_input_exercises": [
@@ -2958,6 +3514,44 @@
         }
       ],
       "explanation": "`this month` = временная ситуация → Present Continuous `is working`. Вторая часть про привычку (`usually`) верно осталась в Present Simple `studies`. `is work` — потеряно `-ing`."
+    },
+    {
+      "id": 71,
+      "wrongSentence": "He is believing every word she says.",
+      "options": [
+        {
+          "text": "He believes every word she says.",
+          "isCorrect": true
+        },
+        {
+          "text": "He believe every word she says.",
+          "isCorrect": false
+        },
+        {
+          "text": "He is believe every word she says.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`believe` — глагол состояния, Continuous ему не нужен: `He believes` (Present Simple, 3-е лицо с `-s`). `He believe` — потерян `-s`, `He is believe` — лишняя связка без смысла."
+    },
+    {
+      "id": 72,
+      "wrongSentence": "I very want to visit Prague.",
+      "options": [
+        {
+          "text": "I want very to visit Prague.",
+          "isCorrect": false
+        },
+        {
+          "text": "I really want to visit Prague.",
+          "isCorrect": true
+        },
+        {
+          "text": "I want to visit Prague very.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "с глаголом `want` слово `very` не работает — нужно `really` (или `want … very much`). Оба варианта с `very` невозможны: рядом с глаголом ему места нет."
     }
   ],
   "construction_meaning_exercises": [
@@ -2983,6 +3577,29 @@
         }
       ],
       "explanation": "`is always leaving` = раздражённый упрёк на повторяющуюся привычку. Не «прямо сейчас» (тогда без `always`), не «иногда» и не однократное действие в прошлом."
+    },
+    {
+      "id": 12,
+      "construction": "They are having dinner in the garden.",
+      "options": [
+        {
+          "text": "Они сейчас ужинают в саду.",
+          "isCorrect": true
+        },
+        {
+          "text": "У них есть ужин в саду.",
+          "isCorrect": false
+        },
+        {
+          "text": "Они обычно ужинают в саду.",
+          "isCorrect": false
+        },
+        {
+          "text": "Им нужен ужин в саду.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "здесь `have` значит «ужинать» (приём пищи) — это действие, поэтому Continuous и «сейчас ужинают». Значение «владеть» («у них есть») к `have dinner` не подходит; «обычно» было бы Present Simple."
     }
   ],
   "transformation_exercises": [
@@ -3098,6 +3715,29 @@
         }
       ],
       "explanation": "`every day`, `usually`, `on Fridays` описывают привычку/регулярность → Present Simple. `right now`, `at the moment`, `these days` очерчивают текущий момент или временный период → Present Continuous."
+    },
+    {
+      "id": 37,
+      "taskDescription": "распредели глаголы — какие описывают действие (можно поставить в -ing), а какие состояние (только Simple).",
+      "categories": [
+        {
+          "title": "Действие — можно -ing",
+          "items": [
+            "to run",
+            "to cook",
+            "to drink"
+          ]
+        },
+        {
+          "title": "Состояние — только Simple",
+          "items": [
+            "to need",
+            "to belong",
+            "to prefer"
+          ]
+        }
+      ],
+      "explanation": "`run`, `cook`, `drink` — процессы, их видно в кадре, можно сказать `is running` и т.д. `need`, `belong`, `prefer` — состояния (нужда, принадлежность, предпочтение), они не «происходят» и в Continuous не идут."
     }
   ],
   "find_the_odd_exercises": [

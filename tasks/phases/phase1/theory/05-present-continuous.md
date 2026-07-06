@@ -1662,26 +1662,371 @@ Present Simple с `always` просто сообщает о регулярнос
 
 ---
 
+## Microtopic 63 — State Verbs · Глаголы без Continuous
+
+**ID:** 63 | **Order:** 7
+
+---
+
+### Card 190 · Состояния, а не действия
+
+**ID:** 190 | **Order:** 1
+
+#### Theory
+
+В прошлой микротеме мы прошли все четыре случая, когда Present Continuous нужен, — и по ходу мелькало предупреждение: не каждый глагол умеет вставать в это время. Пора разобрать это исключение целиком. Есть группа глаголов, которые почти никогда не идут в Continuous, даже когда речь про «прямо сейчас». Их называют глаголами состояния — `state verbs`.
+
+**Почему их нельзя «снять на камеру»**
+
+Вернись к нашей метафоре камеры. Continuous снимает процесс — то, что видно в кадре: как человек бежит, готовит, печатает. А теперь попробуй навести камеру на `know` (знать). Что покажет объектив? Ничего — знание не движется и не разворачивается, оно просто есть в голове. То же с `love`, `want`, `belong`: это не действия-процессы, а состояния — ума, чувства, положения дел. Снимать нечего — значит, и форма процесса (`am/is/are` + `-ing`) им не нужна.
+
+Поэтому такие глаголы остаются в Present Simple даже там, где по смыслу «сейчас». **I know the answer** — знаю прямо в эту секунду, но говорим простым Simple, а не «сейчас»-формой.
+
+**Полный список — по семьям смысла**
+
+Глаголов-состояний немного, и почти все они попадают в пять смысловых семей. Не заучивай списком — пойми логику «тут нечего снимать», и они узнаются сами:
+
+- **Мнение и знание:** know, understand, believe, remember, mean, agree
+- **Чувства и желания:** like, love, hate, want, need, prefer
+- **Обладание:** have, own, belong
+- **Впечатление и бытие:** be, seem, look (в значении «выглядеть»)
+- **Восприятие:** see, hear
+
+Заметь: `prefer` (предпочитать), `own` (владеть) и `belong` (принадлежать) — тоже про состояние: предпочтение и владение просто существуют, они не «происходят». Поэтому **I prefer tea** ✓, а не **I am preferring tea** ✗.
+
+**Ловушка:** **I am knowing the answer** ✗ → **I know the answer** ✓. И **She is wanting a new phone** ✗ → **She wants a new phone** ✓. Сильное чувство или знание тянет добавить «сейчас»-форму, но этим глаголам она не нужна — им хватает простого Simple.
+
+**Откуда у русского эта ошибка**
+
+В родном языке у нас одна форма настоящего на все случаи, и «я знаю», «я хочу» звучат одинаково и для «вообще», и для «прямо сейчас». Проблема приходит с другой стороны: выучив, что для «сейчас» нужен Continuous, мозг по инерции лепит его ко всему подряд — в том числе к чувствам, где особенно хочется сказать «вот прямо в эту минуту люблю/хочу». А именно здесь Continuous и запрещён. Правило простое: чувства, мнение, знание и обладание — всегда Present Simple.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Глаголы состояния (`state verbs`) описывают не действие-процесс, а состояние ума, чувство или положение дел — их нельзя «снять на камеру», поэтому в Present Continuous они не идут даже про «сейчас»: **I know** ✓, не **I am knowing** ✗. Пять семей: мнение/знание (know, understand, believe), чувства/желания (like, love, want, need, prefer), обладание (have, own, belong), впечатление/бытие (be, seem, look), восприятие (see, hear). Все они остаются в Present Simple.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 791 | Эта сумка принадлежит Кейт. | This bag belongs to Kate. |
+| 792 | Я предпочитаю чай, а не кофе. | I prefer tea, not coffee. |
+| 793 | Он владеет двумя маленькими магазинами. | He owns two small shops. |
+| 794 | Ты уверен, что понимаешь причину? | Are you sure you understand the reason? |
+
+---
+
+#### Exercises
+
+**Ex 46 · TrueFalse** *(ID: 83)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I remember your name. | ✓ |
+| 2 | She is wanting a cup of tea. | ✗ |
+| 3 | This umbrella belongs to Nick. | ✓ |
+| 4 | Do you understand the rule? | ✓ |
+| 5 | They are liking the new song. | ✗ |
+
+*Explanation:* Строка 2: `want` — глагол состояния, в Continuous не идёт — верно `She wants a cup of tea`. Строка 5: `like` тоже состояние — верно `They like the new song`.
+
+---
+
+**Ex 47 · MultipleChoice · CHOICE** *(ID: 91)*
+
+"My sister ___ our neighbour well."
+
+- is knowing
+- know
+- **knows** ✓
+
+*Explanation:* `know` — глагол состояния, форму с `-ing` не берёт, всегда Present Simple. Для `my sister` (3-е лицо) — `knows`; голое `know` без `-s` не подходит.
+
+---
+
+**Ex 48 · ErrorCorrection** *(ID: 71)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"He is believing every word she says."
+
+- **He believes every word she says.** ✓
+- He believe every word she says.
+- He is believe every word she says.
+
+*Explanation:* `believe` — глагол состояния, Continuous ему не нужен: `He believes` (Present Simple, 3-е лицо с `-s`). `He believe` — потерян `-s`, `He is believe` — лишняя связка без смысла.
+
+---
+
+**Ex 49 · Categorization** *(ID: 37)*
+
+Задание: распредели глаголы — какие описывают действие (можно поставить в -ing), а какие состояние (только Simple).
+
+| Действие — можно -ing | Состояние — только Simple |
+|-----------------------|---------------------------|
+| to run | to need |
+| to cook | to belong |
+| to drink | to prefer |
+
+*Explanation:* `run`, `cook`, `drink` — процессы, их видно в кадре, можно сказать `is running` и т.д. `need`, `belong`, `prefer` — состояния (нужда, принадлежность, предпочтение), они не «происходят» и в Continuous не идут.
+
+---
+
+#### AI Exercise
+
+**ID:** present_continuous_card190_ex1
+**Title:** "Поставь глагол в нужную форму"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст простые предложения с пропуском и глаголом в скобках в конце. Впишите глагол в правильной форме — где-то это Present Simple, а где-то Present Continuous."
+**Prompt Template:** "Дай пользователю 3–4 ОЧЕНЬ ПРОСТЫХ коротких предложения. В каждом — один пропуск [___], а в конце в скобках базовая форма глагола, который надо туда вписать: например 'She [___] a new bike. (want)'. Пользователь ставит этот глагол в правильную форму. Обязательно СМЕШИВАЙ два типа глаголов, чтобы ответ был не всегда без -ing: (1) глаголы состояния (know, want, like, love, need, understand, believe, belong, prefer, seem) — их пользователь ставит в Present Simple, БЕЗ -ing, даже если рядом стоит 'now' (She [___] a new bike. (want) → 'wants'); (2) обычные глаголы действия (play, run, cook, read, write, sing) в контексте 'прямо сейчас' (со словами Look!, Listen!, now) — их надо поставить в Present Continuous, am/is/are + -ing (Look! The kids [___] football. (play) → 'are playing'). Так пользователь тренируется отличать состояние от действия, а не механически что-то дописывает. Проверь форму: в Present Simple для he/she/it нужен -s; в Present Continuous — связка по лицу плюс -ing. Каждый раз бери РАЗНЫЕ глаголы и ситуации, не повторяй одни и те же. При ошибке кратко по-русски исправь и объясни, почему этот глагол идёт в Simple или в Continuous. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: '1. I [___] this song. (like) 2. Look! She [___] to the bus stop. (run) 3. He [___] three languages. (know) 4. Listen! The baby [___]. (cry)'
+
+#### Clarification Options
+
+- Почему know и want нельзя ставить в Continuous, если я знаю и хочу прямо сейчас?
+- Как отличить глагол-состояние от глагола-действия?
+- Все ли глаголы состояния попадают в эти пять групп?
+
+---
+
+### Card 191 · «Очень люблю» — very vs really с глаголами
+
+**ID:** 191 | **Order:** 2
+
+#### Theory
+
+Раз уж мы говорим про глаголы чувств — `like`, `love`, `want`, — заодно закроем ещё одну ошибку, которая липнет ровно к ним. Она не про время, а про одно маленькое слово: `very`.
+
+**Слово very не дружит с глаголами**
+
+По-русски «очень» цепляется к чему угодно: очень холодно, очень быстро, очень люблю, очень хочу — одно слово на все случаи. Английское `very` так не умеет. Оно усиливает только **прилагательные** и **наречия**: `very cold` (очень холодно), `very fast` (очень быстро), `very tired` (очень уставший). А вот к глаголу `very` прицепить нельзя.
+
+**Ловушка:** **I very like it** ✗ → **I really like it** ✓ / **I like it a lot** ✓. И **I very want to go** ✗ → **I really want to go** ✓. «Очень» рядом с глаголом — это не `very`.
+
+**Чем усиливать глагол**
+
+Вместо `very` глагол усиливают три способа:
+
+- `really` — ставится перед глаголом: **I really like this song.**
+- `a lot` — ставится после глагола или дополнения: **I like this song a lot.**
+- `very much` — тоже после, звучит чуть формальнее: **I like it very much.**
+
+| Что усиливаем | Чем | Пример |
+|---------------|-----|--------|
+| прилагательное / наречие | very | very cold, very fast |
+| глагол | really / a lot / very much | I really want it |
+
+**Кстати:** `really` — гибкое слово: оно усиливает и глаголы (**I really like it**), и прилагательные (`really cold` = `very cold`). А `very` работает только с прилагательными и наречиями. Сомневаешься — `really` почти всегда безопасно.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Русское «очень» переводится по-разному в зависимости от того, что усиливаем. С прилагательными и наречиями — `very` (**very cold**, **very fast**). С глаголами `very` не работает: **I very like it** ✗. Глагол усиливают `really` (перед глаголом: **I really like it**), `a lot` или `very much` (после: **I like it a lot**). `really` подходит и к прилагательным, поэтому его труднее всего поставить неправильно.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 795 | Мне очень нравится эта песня. | I really like this song. |
+| 796 | Я очень хочу тебе помочь. | I really want to help you. |
+| 797 | Она мне очень нравится. | I like her a lot. |
+| 798 | Здесь очень холодно, я очень хочу домой. | It's very cold here, I really want to go home. |
+
+---
+
+#### Exercises
+
+**Ex 50 · MultipleChoice · FORWARD_CHOICE** *(ID: 101)*
+
+"Мне очень нравится этот фильм."
+
+- I very like this film.
+- I like this film very.
+- **I really like this film.** ✓
+
+*Explanation:* `very` глаголы не усиливает — «очень нравится» → `really like` (или `like … a lot`). `I like this film very` обрывается — `very` в конце без прилагательного не стоит.
+
+---
+
+**Ex 51 · ErrorCorrection** *(ID: 72)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"I very want to visit Prague."
+
+- I want very to visit Prague.
+- **I really want to visit Prague.** ✓
+- I want to visit Prague very.
+
+*Explanation:* с глаголом `want` слово `very` не работает — нужно `really` (или `want … very much`). Оба варианта с `very` невозможны: рядом с глаголом ему места нет.
+
+---
+
+**Ex 52 · WordArrangement** *(ID: 68)*
+
+RU: Мне очень нравится эта книга.
+
+Правильное предложение: **I like this book a lot.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| I | — |
+| like | — |
+| this book | — |
+| a lot | — |
+| very | ✗ |
+| likes | ✗ |
+| love | ✗ |
+
+*Explanation:* «очень нравится» с глаголом — это `a lot` (или `really`), не `very`. `likes` — лишний `-s` (у `I` его нет), `love` меняет смысл на «люблю».
+
+---
+
+#### Clarification Options
+
+- Почему нельзя сказать «I very like it»?
+- В чём разница между really и a lot?
+- Можно ли усилить глагол через very much?
+
+---
+
+### Card 192 · Глаголы-хамелеоны — have, think, see
+
+**ID:** 192 | **Order:** 3
+
+#### Theory
+
+Напоследок — самые хитрые глаголы. Некоторые слова умеют быть и состоянием, и действием, и смысл у них при этом разный. В одном значении глагол — состояние (только Simple), в другом — настоящее действие-процесс (можно Continuous). Всё решает, что именно ты имеешь в виду.
+
+**have, think, see меняют смысл**
+
+`have` — про владение это состояние: **I have a car** (машина у меня есть). Но `have` умеет значить и действие — «есть», «принимать», «проводить»: **I'm having lunch** (обедаю), **I'm having a shower** (принимаю душ), **We're having a great time** (отлично проводим время). Владение — Simple, действие — Continuous.
+
+`think` — «считать, иметь мнение» это состояние: **I think you're right** (я так считаю). А «обдумывать» — уже процесс: **I'm thinking about it** (сижу и размышляю прямо сейчас).
+
+`see` — «понимать» и «видеть глазами» это состояние: **I see what you mean** (понимаю). А «встречаться, ходить на приём» — действие: **I'm seeing the doctor at five** (иду к врачу).
+
+**Ловушка:** **I'm having a car** ✗ → **I have a car** ✓. В значении «владеть» `have` — состояние, Continuous запрещён. А вот **I'm having lunch** ✓ — тут `have` значит «есть», это действие, и форма «сейчас» уместна.
+
+**Важно:** правило не «глагол запрещён в Continuous», а «в значении-состоянии — запрещён, в значении-действии — можно». Сначала пойми, что глагол значит в этой фразе, — потом выбирай время.
+
+| Глагол | Состояние → Simple | Действие → Continuous |
+|--------|--------------------|-----------------------|
+| have | I have a car (владею) | I'm having lunch (ем) |
+| think | I think so (считаю) | I'm thinking (размышляю) |
+| see | I see (понимаю) | I'm seeing him (встречаюсь) |
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Некоторые глаголы меняют смысл — и потому попадают то в состояния, то в действия. `have` = «владеть» это состояние (**I have a car**, только Simple), но `have` = «есть/принимать/проводить» это действие (**I'm having lunch** ✓). `think` = «считать» (Simple) vs «обдумывать» (**I'm thinking**). `see` = «понимать/видеть» (Simple) vs «встречаться» (**I'm seeing the doctor**). Правило: в значении-состоянии — Simple, в значении-действии — Continuous. Сначала реши, что глагол значит, потом выбирай время.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 799 | У меня есть машина. | I have a car. |
+| 800 | Я сейчас обедаю, перезвоню позже. | I'm having lunch now, I'll call you later. |
+| 801 | Я думаю, это отличная идея. | I think it's a great idea. |
+| 802 | Тихо, я обдумываю твой вопрос. | Be quiet, I'm thinking about your question. |
+
+---
+
+#### Exercises
+
+**Ex 53 · ConstructionMeaning** *(ID: 12)*
+
+Выбери правильный перевод:
+
+"They are having dinner in the garden."
+
+- **Они сейчас ужинают в саду.** ✓
+- У них есть ужин в саду.
+- Они обычно ужинают в саду.
+- Им нужен ужин в саду.
+
+*Explanation:* здесь `have` значит «ужинать» (приём пищи) — это действие, поэтому Continuous и «сейчас ужинают». Значение «владеть» («у них есть») к `have dinner` не подходит; «обычно» было бы Present Simple.
+
+---
+
+**Ex 54 · MultipleChoice · CHOICE** *(ID: 92)*
+
+"Wait a moment, I ___ about your offer right now."
+
+- think
+- **am thinking** ✓
+- thinks
+
+*Explanation:* тут `think` значит «обдумывать» — это процесс прямо сейчас (`right now`), поэтому Continuous: `am thinking`. Значение «считать, иметь мнение» было бы Simple, но здесь речь про активное размышление.
+
+---
+
+**Ex 55 · TrueFalse** *(ID: 84)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I'm having lunch with Sara. | ✓ |
+| 2 | I am having a new laptop. | ✗ |
+| 3 | She is thinking about her plans. | ✓ |
+| 4 | Now I see the problem. | ✓ |
+| 5 | I am knowing the answer. | ✗ |
+
+*Explanation:* Строка 2: `have` в значении «владеть» — состояние, верно `I have a new laptop`. Строка 5: `know` — глагол состояния, верно `I know the answer`. Остальные глаголы стоят в значении-действии или в Simple правильно.
+
+---
+
+#### AI Exercise
+
+**ID:** present_continuous_card192_ex1
+**Title:** "Вставь have, think или see"
+**Input Mode:** FILL_BLANKS
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст простые предложения с пропусками. Впишите в каждый пропуск глагол have, think или see в правильной форме — где-то это Present Simple, а где-то Present Continuous."
+**Prompt Template:** "Дай пользователю 3 коротких простых предложения, в каждом — один пропуск [___], который надо заполнить глаголом have, think или see в правильной форме. НЕ подписывай, какой именно глагол нужен, — пользователь выбирает сам по смыслу. НЕ обязательно задействовать все три глагола: пусть, например, в двух пропусках будет have, а в одном think, или любое другое сочетание — главное, чтобы пользователь думал, а не механически подставлял три разных слова. Обязательно смешивай значения, чтобы часть ответов была в Simple, а часть в Continuous: в значении-состоянии глагол идёт в Present Simple (I have a car — владение; I think it's good — мнение; I see what you mean — понимаю), а в значении-действии — в Present Continuous (I'm having lunch — ем; I'm thinking about it — обдумываю сейчас; I'm seeing the doctor — иду на приём). Строй предложения из знакомых пользователю слов — если в присланном списке слов есть подходящие, желательно строить фразы вокруг них, чтобы трудность была в выборе глагола и его формы, а не в незнакомой лексике. Проверь и выбор глагола, и его форму (Simple или Continuous по смыслу; для he/she/it в Simple — с -s). При ошибке кратко по-русски объясни, в каком значении стоит глагол и почему такая форма. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: '1. She [___] two cats. 2. I [___] you are right. 3. Look, they [___] dinner in the kitchen.'
+
+#### Clarification Options
+
+- Как понять, в каком значении стоит have — владение или действие?
+- Почему «I'm having lunch» можно, а «I'm having a car» нельзя?
+- Чем «I think» отличается от «I'm thinking»?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| to belong | принадлежать | [bɪˈlɒŋ] |
+| to own | владеть, иметь в собственности | [əʊn] |
+| to prefer | предпочитать | [prɪˈfɜː] |
+| sure | уверенный | [ʃʊə] |
+| reason | причина | [ˈriːzn] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 9 | 10 |
-| Microtopic | 62 | 63 |
-| Card | 189 | 190 |
-| Example | 790 | 791 |
-| MultipleChoice · CHOICE | 90 | 91 |
-| MultipleChoice · FORWARD_CHOICE | 100 | 101 |
+| Microtopic | 63 | 64 |
+| Card | 192 | 193 |
+| Example | 802 | 803 |
+| MultipleChoice · CHOICE | 92 | 93 |
+| MultipleChoice · FORWARD_CHOICE | 101 | 102 |
 | MultipleChoice · REVERSE_CHOICE | 29 | 30 |
-| TrueFalse | 82 | 83 |
-| WordArrangement | 67 | 68 |
+| TrueFalse | 84 | 85 |
+| WordArrangement | 68 | 69 |
 | TextInput | 38 | 39 |
 | Matching | 29 | 30 |
 | Transformation | 25 | 26 |
-| ErrorCorrection | 70 | 71 |
+| ErrorCorrection | 72 | 73 |
 | TableFill | 17 | 18 |
 | FindTheOdd | 39 | 40 |
-| ConstructionMeaning | 11 | 12 |
-| Categorization | 36 | 37 |
+| ConstructionMeaning | 12 | 13 |
+| Categorization | 37 | 38 |
 | DialogRestore | 14 | 15 |
-| course_word | 383 | 384 |
+| course_word | 388 | 389 |
