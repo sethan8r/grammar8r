@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 197 |
+| Card | 200 |
 | Categorization | 38 |
 | Category | 2 |
 | ConstructionMeaning | 14 |
 | DialogRestore | 15 |
-| ErrorCorrection | 74 |
+| ErrorCorrection | 76 |
 | FindTheOdd | 40 |
 | Matching | 30 |
-| Microtopic | 67 |
-| MultipleChoice·CHOICE | 93 |
-| MultipleChoice·FORWARD_CHOICE | 104 |
+| Microtopic | 68 |
+| MultipleChoice·CHOICE | 95 |
+| MultipleChoice·FORWARD_CHOICE | 106 |
 | MultipleChoice·REVERSE_CHOICE | 32 |
 | TableFill | 18 |
 | TextInput | 39 |
-| Topic | 11 |
+| Topic | 12 |
 | Transformation | 27 |
-| TrueFalse | 85 |
-| WordArrangement | 70 |
-| course_word | 395 |
+| TrueFalse | 87 |
+| WordArrangement | 72 |
+| course_word | 402 |
 
 ## Диапазоны по темам
 
@@ -197,6 +197,17 @@
 - Microtopic: 37–38 (2)
 - MultipleChoice·FORWARD_CHOICE: 66–70 (5)
 - Topic: 5–5 (1)
+
+### verb-adjective-preposition
+- Card: 197–199 (3)
+- ErrorCorrection: 74–75 (2)
+- Microtopic: 67–67 (1)
+- MultipleChoice·CHOICE: 93–94 (2)
+- MultipleChoice·FORWARD_CHOICE: 104–105 (2)
+- Topic: 11–11 (1)
+- TrueFalse: 85–86 (2)
+- WordArrangement: 70–71 (2)
+- course_word: 395–401 (7)
 
 ## Коллизии ID (КРИТИЧНО — должно быть пусто)
 

@@ -1,0 +1,754 @@
+{
+  "grammar_topics": [
+    {
+      "id": 11,
+      "title": "Глагол/прилагательное + предлог",
+      "order": 7,
+      "isPretopic": false,
+      "description": "Почему в английском предлог приклеен к глаголу или прилагательному: самые ходовые связки, которые нельзя переводить с русского в лоб",
+      "categoryId": null
+    }
+  ],
+  "grammar_topic_categories": [],
+  "grammar_microtopics": [
+    {
+      "id": 67,
+      "topicId": 11,
+      "title": "Verb + Preposition · Глагол + предлог (и без него)",
+      "order": 1
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 197,
+      "microtopicId": 67,
+      "title": "Связка — это глагол и предлог как одно целое",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В русском мы показываем, как глагол связан с предметом, **окончанием** — падежом. «Жду автобус**а**», «слуша**ю** музык**у**», «помог**и** мн**е**» — предмет меняет хвост, и всё понятно без лишних слов."
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском слова не склоняются: у **bus** нет падежных окончаний, оно всегда просто **bus**. Поэтому связь между глаголом и предметом английский показывает **предлогом** — маленьким служебным словом перед объектом. Там, где у русского падеж, у англичанина часто стоит предлог. И наоборот."
+        },
+        {
+          "type": "heading",
+          "text": "Предлог — это хвост глагола, а не перевод русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "Главная мысль всей темы: предлог в связке нельзя перевести с русского. Он не значит «за», «на» или «о» — он просто прицеплен к конкретному глаголу, как его часть. Сравни:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**to wait for** — ждать. Предлог `for` тут не «для» и не «за» — это просто то, что всегда идёт после **wait**.",
+            "**to listen to** — слушать. После **listen** всегда стоит `to`, хотя по-русски мы слушаем без всякого предлога.",
+            "**to depend on** — зависеть. После **depend** идёт `on`, а вовсе не то «от», которое напрашивается из русского."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому связку учат **целиком, одним куском**: не «глагол плюс подумаю, какой предлог», а сразу **listen to**, **wait for**, **depend on** — как будто это одно длинное слово. Угадать предлог логикой нельзя, его можно только запомнить в паре с глаголом."
+        },
+        {
+          "type": "heading",
+          "text": "Somebody и something — заглушки «кто-то» и «что-то»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда показывают связку, вместо конкретного предмета часто пишут **somebody** (кто-то, любой человек) или **something** (что-то, любая вещь) — это просто заглушка, на её место встаёт нужное слово:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**help somebody** = помочь кому угодно: **help me**, **help Tom**, **help my sister**.",
+            "**discuss something** = обсудить что угодно: **discuss the plan**, **discuss the price**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В словарях эти заглушки часто сокращают до **somebody → sb** и **something → sth**. Увидишь **look for sth** — читай «look for something», искать что-то."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Как только начинаешь переводить предлог по смыслу с русского — получаешь ошибку-кальку. Дальше две зеркальные ловушки: там, где английский **требует** предлог, а рука его роняет, и там, где английский идёт **без** предлога, а рука лишний вставляет."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В английском слова не склоняются, поэтому связь глагола с объектом держит **предлог**, а не падеж. Предлог в связке нельзя перевести с русского — он просто прицеплен к конкретному глаголу (**wait for**, **listen to**, **depend on**), поэтому связку учат целиком, одним куском. **somebody / something** (сокращённо **sb / sth**) — это заглушки «кто-то / что-то», на их место встаёт нужное слово.",
+      "examples": [
+        {
+          "ru": "Я жду друга у входа.",
+          "en": "I am waiting for my friend at the entrance."
+        },
+        {
+          "ru": "Послушай эту песню.",
+          "en": "Listen to this song."
+        },
+        {
+          "ru": "Всё зависит от погоды.",
+          "en": "It all depends on the weather."
+        },
+        {
+          "ru": "Помоги мне, пожалуйста.",
+          "en": "Help me, please."
+        },
+        {
+          "ru": "Давай обсудим план завтра.",
+          "en": "Let's discuss the plan tomorrow."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя просто перевести русский предлог на английский?",
+        "Что значат somebody и something в описании связки?",
+        "Как проще всего запоминать такие связки?"
+      ]
+    },
+    {
+      "id": 198,
+      "microtopicId": 67,
+      "title": "Ловушка А — английский требует предлог",
+      "order": 2,
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Первая ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский говорит **без предлога** — прямо «слушаю музыку», «жду автобус», — и рука по привычке ставит английский глагол голым. А ему нужен предлог."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русский роняет предлог"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски объект стоит в винительном падеже без предлога, поэтому мозг тянет сказать так же и по-английски. Но у этих глаголов предлог обязателен:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**to listen to** — слушать: **She is listening to the radio.**",
+            "**to wait for** — ждать: **We are waiting for the bus.**",
+            "**to look for** — искать: **He is looking for his glasses.**",
+            "**to ask for** — просить (что-то): **She asked for the bill.**",
+            "**to pay for** — платить (за что-то): **I always pay for the taxi.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая частая — уронить предлог у **listen** и **wait**. **Listen music** ✗, **wait the bus** ✗ — так мозг переносит русский винительный падеж. Правильно **listen to music** ✓ и **wait for the bus** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русский ставит НЕ ТОТ предлог"
+        },
+        {
+          "type": "paragraph",
+          "text": "Бывает хуже: русский предлог есть, но он подсказывает **неправильный** английский. Тут кальки особенно живучие:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**to depend on** — зависеть **от**: **It depends on you.** Русское «от» тянет сказать **depend from** ✗ — но это не тот предлог.",
+            "**to worry about** — переживать **о / из-за**: **Don't worry about money.**",
+            "**to think about** — думать **о**: **I'm thinking about my holiday.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Depend from** ✗ — прямая калька с «зависеть **от**». Английский тут берёт **on**, а не **from**: **depend on** ✓. Русское «от» здесь просто не работает."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда предлог НЕ нужен: watch и see"
+        },
+        {
+          "type": "paragraph",
+          "text": "Важный нюанс, чтобы не переобобщить. Кажется: раз «смотреть на» — это **look at**, то любое «смотреть» просит предлог. Нет. **to watch** (смотреть телевизор, фильм, матч) и **to see** (видеть) идут **без предлога**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I watch TV every evening.** — без предлога.",
+            "**Let's watch a film.** / **Did you see the game?** — без предлога.",
+            "Но: **Look at this photo!** — «направить взгляд на» требует `at`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница простая: **look** — это «навести глаза, повернуться взглядом», ему нужен **at** (куда навести). А **watch** и **see** уже несут «смотреть/видеть» внутри себя — предмет цепляется прямо, без предлога."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У **ask** тоже две дорожки. **ask somebody** — спросить кого-то (без предлога): **Ask the waiter.** А **ask for something** — попросить что-то (с **for**): **Ask for the menu.** Спрашиваешь человека — без предлога; просишь вещь — с **for**."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Часть английских глаголов требует предлог там, где русский идёт без него: **listen to** (слушать), **wait for** (ждать), **look for** (искать), **ask for** (просить), **pay for** (платить за). Ещё опаснее калька с русским предлогом: «зависеть **от**» → не **depend from** ✗, а **depend on** ✓; переживать/думать **о** → **worry about**, **think about**. Но **watch** и **see** идут **без** предлога (**watch TV**), в отличие от **look at**.",
+      "examples": [
+        {
+          "ru": "Дети слушают учителя.",
+          "en": "The children are listening to the teacher."
+        },
+        {
+          "ru": "Мы ждём автобус.",
+          "en": "We are waiting for the bus."
+        },
+        {
+          "ru": "Успех зависит от тебя.",
+          "en": "Success depends on you."
+        },
+        {
+          "ru": "Не переживай из-за экзамена.",
+          "en": "Don't worry about the exam."
+        },
+        {
+          "ru": "Мы смотрим футбол каждые выходные.",
+          "en": "We watch football every weekend."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему depend идёт с on, а не с from?",
+        "Почему watch без предлога, а look — с at?",
+        "Когда после ask нужен for, а когда нет?"
+      ]
+    },
+    {
+      "id": 199,
+      "microtopicId": 67,
+      "title": "Ловушка Б — английский идёт без предлога",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая ловушка — зеркало первой и самая злая. Русский тянет **вставить** предлог (потому что у нас тут дательный падеж «кому» или предлог «на», «о», «в»), а английскому глаголу предлог не нужен вовсе. Предмет цепляется прямо."
+        },
+        {
+          "type": "heading",
+          "text": "Лишний предлог из русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эти глаголы берут объект напрямую, без всякого предлога:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**to help somebody** — помочь (кому): **Help me.** / **She helped her brother.** Русское «мне», «ему» подсказывает **to** — но **help to me** ✗.",
+            "**to answer something** — ответить (на что): **Answer the question.** / **He answered my email.** Русское «на вопрос» тянет **to** или **on** — но **answer to the question** ✗.",
+            "**to call somebody** — позвонить (кому): **Call me tonight.** Русское «мне» снова подсовывает **to** — но **call to me** ✗. То же и с **to phone somebody**: **Phone me.**",
+            "**to discuss something** — обсудить (что): **Let's discuss the budget.** Русское «поговорить **о**» тянет **about** — но **discuss about** ✗.",
+            "**to enter somewhere** — войти (в): **Enter the room quietly.** Русское «в комнату» подсовывает **into** — но **enter into the room** ✗."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самые живучие кальки — **answer to the question** ✗ (из «ответить **на**») и **call to me** ✗ (из «позвонить **мне**»). Правильно **answer the question** ✓ и **call me** ✓ — предмет и человек цепляются прямо."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Discuss about** ✗ и **enter into the room** ✗. По-русски мы «говорим **о**» и входим «**в**», но **discuss** и **enter** уже несут это внутри себя: **discuss the plan** ✓, **enter the room** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда предлог всё-таки появляется"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы не перегнуть в другую сторону — пара честных нюансов:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**discuss** vs **talk about**. Сам **discuss** — без предлога. Но у похожего по смыслу **talk** предлог **about** обязателен: **talk about the plan** ✓, а **discuss the plan** ✓ без него. Одна идея «обсудить/поговорить о» — две разные конструкции.",
+            "**answer the door / answer the phone** — устойчивое «открыть дверь на звонок / взять трубку», тоже без предлога: **Can you answer the phone?**",
+            "**enter into** существует, но только для **абстрактного**: **enter into an agreement** (заключить соглашение), **enter into a discussion**. Про физический вход в комнату — всегда просто **enter the room**."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Проговори про себя русскую фразу и поймай в ней предлог «мне», «на», «о», «в» — именно он и есть источник ошибки. У **help**, **answer**, **call**, **discuss**, **enter** этот предлог по-английски исчезает."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Зеркальная ловушка: русский тянет вставить предлог там, где английский идёт без него. **help somebody** (не **help to** ✗), **answer something** (не **answer to** ✗), **call somebody** (не **call to** ✗), **discuss something** (не **discuss about** ✗), **enter somewhere** (не **enter into** ✗). Источник ошибки — русские «мне / на / о / в». Нюансы: **talk about** предлог всё же берёт (в отличие от **discuss**), а **enter into** годится только для абстрактного (**enter into an agreement**), не для комнаты.",
+      "examples": [
+        {
+          "ru": "Позвони мне после обеда.",
+          "en": "Call me after lunch."
+        },
+        {
+          "ru": "Ответь на моё сообщение, пожалуйста.",
+          "en": "Answer my message, please."
+        },
+        {
+          "ru": "Давай обсудим этот проект вместе.",
+          "en": "Let's discuss this project together."
+        },
+        {
+          "ru": "Он тихо вошёл в кабинет.",
+          "en": "He entered the office quietly."
+        },
+        {
+          "ru": "Ты можешь помочь сестре с уроками?",
+          "en": "Can you help your sister with her homework?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему answer идёт без предлога, хотя по-русски «ответить на»?",
+        "Чем discuss отличается от talk about?",
+        "Когда после enter всё-таки ставят into?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 198,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 93,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 198,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 85,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 198,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 70,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 198,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 74,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 198,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 104,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 199,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 94,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 199,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 105,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 199,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 86,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 199,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 71,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 199,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 75,
+      "orderInCard": 4
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "verb_prep_card198_ex1",
+      "cardId": 198,
+      "title": "Предлог или прочерк — глаголы с предлогом",
+      "userInstruction": "ИИ пришлёт предложения с пропуском после глагола. Впишите нужный предлог — или поставьте прочерк, если предлог тут не нужен.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "verb_prep_card199_ex1",
+      "cardId": 199,
+      "title": "Предлог или прочерк — глаголы без предлога",
+      "userInstruction": "ИИ пришлёт предложения с пропуском после глагола. Впишите предлог, если он нужен, — или поставьте прочерк, если глагол идёт без предлога.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    }
+  ],
+  "course_word_groups": [
+    {
+      "id": "tenses",
+      "nameRus": "Времена",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "tenses",
+      "nameRus": "Слова из времён",
+      "groupId": "tenses",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 395,
+      "word": "bus",
+      "translation": "автобус",
+      "transcription": "[bʌs]",
+      "microtopicId": 67,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 396,
+      "word": "to depend",
+      "translation": "зависеть",
+      "transcription": "[dɪˈpend]",
+      "microtopicId": 67,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 397,
+      "word": "to worry",
+      "translation": "беспокоиться, переживать",
+      "transcription": "[ˈwʌri]",
+      "microtopicId": 67,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 398,
+      "word": "to answer",
+      "translation": "отвечать",
+      "transcription": "[ˈɑːnsə]",
+      "microtopicId": 67,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 399,
+      "word": "to call",
+      "translation": "звонить, звать",
+      "transcription": "[kɔːl]",
+      "microtopicId": 67,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 400,
+      "word": "to discuss",
+      "translation": "обсуждать",
+      "transcription": "[dɪˈskʌs]",
+      "microtopicId": 67,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 401,
+      "word": "to enter",
+      "translation": "входить",
+      "transcription": "[ˈentə]",
+      "microtopicId": 67,
+      "categoryId": "tenses"
+    }
+  ],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 85,
+      "statements": [
+        {
+          "en": "I am listening to the news.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We waited the bus for an hour.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "It depends on your mood.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She is looking her keys.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Please pay for the tickets.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — нужен **wait for the bus**; 4 — нужен **look for her keys**. Остальные верны: **listen to**, **depend on**, **pay for** стоят с правильными предлогами."
+    },
+    {
+      "id": 86,
+      "statements": [
+        {
+          "en": "Can you help me with this box?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He answered to all my questions.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Let's discuss the results tomorrow.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I'll call to you after work.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She entered the room without a word.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — нужно **answered all my questions** (без **to**); 4 — нужно **call you** (без **to**). Остальные верны: **help**, **discuss**, **enter** идут без предлога."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 70,
+      "situationRu": "Ситуация: Лена и Рома сидят в приёмной и ждут врача.",
+      "correctSentence": "We are waiting for the doctor.",
+      "words": [
+        "We",
+        "are waiting",
+        "for",
+        "the doctor"
+      ],
+      "distractors": [
+        "at",
+        "to",
+        "on",
+        "the nurse",
+        "the bus"
+      ],
+      "explanation": "После **wait** идёт **for**. **at**, **to**, **on** — лишние предлоги-ловушки, а **the nurse** и **the bus** не из этой ситуации (ждут врача)."
+    },
+    {
+      "id": 71,
+      "situationRu": "Ситуация: Катя тихо зашла на кухню и села за стол.",
+      "correctSentence": "She entered the kitchen.",
+      "words": [
+        "She",
+        "entered",
+        "the kitchen"
+      ],
+      "distractors": [
+        "into",
+        "to",
+        "at"
+      ],
+      "explanation": "**enter** берёт место напрямую: **enter the kitchen**. **into** — классическая калька с «войти **в**»; **to** и **at** тоже лишние."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 93,
+      "choiceType": "CHOICE",
+      "prompt": "My little brother never listens ___ me.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "to",
+          "isCorrect": true
+        },
+        {
+          "text": "at",
+          "isCorrect": false
+        },
+        {
+          "text": "—",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После **listen** всегда идёт **to**: **listen to me**. Прочерк дал бы **listen me** ✗, **at** — не тот предлог."
+    },
+    {
+      "id": 104,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Сколько мне заплатить за кофе?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "How much do I pay the coffee?",
+          "isCorrect": false
+        },
+        {
+          "text": "How much do I pay of the coffee?",
+          "isCorrect": false
+        },
+        {
+          "text": "How much do I pay for the coffee?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«Платить за» — это **pay for**. Без предлога (**pay the coffee**) или с **of** — калька, английский требует именно **for**."
+    },
+    {
+      "id": 94,
+      "choiceType": "CHOICE",
+      "prompt": "Can you help ___ me with these bags?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "—",
+          "isCorrect": true
+        },
+        {
+          "text": "to",
+          "isCorrect": false
+        },
+        {
+          "text": "for",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**help** берёт человека напрямую: **help me**. Русское «мне» подсовывает **to**, но **help to me** ✗; **for** тоже лишний."
+    },
+    {
+      "id": 105,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Давай обсудим это позже.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Let's discuss about it later.",
+          "isCorrect": false
+        },
+        {
+          "text": "Let's discuss on it later.",
+          "isCorrect": false
+        },
+        {
+          "text": "Let's discuss it later.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "**discuss** идёт без предлога. **discuss about** — калька с «поговорить о»; **on** тут вообще не к месту."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 74,
+      "wrongSentence": "Please look this map carefully.",
+      "options": [
+        {
+          "text": "Please look on this map carefully.",
+          "isCorrect": false
+        },
+        {
+          "text": "Please look at this map carefully.",
+          "isCorrect": true
+        },
+        {
+          "text": "Please look for this map carefully.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«Смотреть на» — это **look at**. **look on** — не тот предлог, а **look for** значит «искать», меняет смысл."
+    },
+    {
+      "id": 75,
+      "wrongSentence": "I will call to you tomorrow.",
+      "options": [
+        {
+          "text": "I will call for you tomorrow.",
+          "isCorrect": false
+        },
+        {
+          "text": "I will call you tomorrow.",
+          "isCorrect": true
+        },
+        {
+          "text": "I will call at you tomorrow.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**call** берёт человека напрямую: **call you**. Русское «позвонить **мне/тебе**» тянет **to**, но **call to you** ✗; **for** и **at** меняют смысл или ломают фразу."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [],
+  "find_the_odd_exercises": []
+}
