@@ -1,0 +1,530 @@
+{
+  "grammar_topics": [
+    {
+      "id": 10,
+      "title": "Present Simple или Present Continuous",
+      "order": 6,
+      "isPretopic": false,
+      "description": "Как выбрать между двумя настоящими временами: факт/привычка против процесса прямо сейчас, плюс оборот be being для временного поведения",
+      "categoryId": null
+    }
+  ],
+  "grammar_topic_categories": [],
+  "grammar_microtopics": [
+    {
+      "id": 65,
+      "topicId": 10,
+      "title": "One Verb, Two Tenses · Один глагол — два времени",
+      "order": 1
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 194,
+      "microtopicId": 65,
+      "title": "Задай себе один вопрос",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Present Simple и Present Continuous мы уже разобрали по отдельности — каждое со своей формой, своими случаями. Теперь самое важное: научиться **выбирать** между ними на лету. Оба времени — про настоящее, но смотрят на него по-разному, и вся разница держится на одном вопросе."
+        },
+        {
+          "type": "heading",
+          "text": "Задай себе один вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Перед тем как выбрать время, спроси: это про **вообще** — или про **этот момент**?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Про то, что верно **вообще** (привычка, факт, характеристика, что-то регулярное) → **Present Simple**.",
+            "Про то, что идёт **прямо сейчас** или **временно, в этот период** → **Present Continuous**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Один и тот же глагол легко встаёт в оба времени — меняется только этот угол зрения."
+        },
+        {
+          "type": "heading",
+          "text": "Один глагол — два времени"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Present Simple — вообще",
+            "Present Continuous — сейчас / временно"
+          ],
+          "rows": [
+            [
+              "Nick plays tennis.",
+              "Nick is playing tennis."
+            ],
+            [
+              "It often rains here.",
+              "It is raining now."
+            ],
+            [
+              "Kate studies medicine.",
+              "Kate is studying for an exam."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слова в паре почти одни и те же, а смысл разный. **Nick plays tennis** — он умеет, играет по жизни (хоть сейчас, может, спит). **Nick is playing tennis** — вот прямо сейчас на корте, с ракеткой в руке. **Kate studies medicine** — она студентка-медик вообще; **Kate is studying for an exam** — засела за учебники в эти дни, скоро экзамен."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский на оба смысла берёт одну форму — «Ник играет в теннис» звучит одинаково и про увлечение, и про «сейчас на корте». Поэтому рука сама тянет простое **Nick plays** даже туда, где нужно **Nick is playing**. Английский же всегда помечает разницу формой глагола — выбор времени и есть выбор смысла."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Несколько глаголов (know, want, like, understand…) в это сравнение вообще не играют — они всегда стоят в Present Simple, даже про «прямо сейчас»: **I want it now**, а не **I am wanting** ✗. Мы уже разбирали их в Present Continuous — здесь просто держим в уме."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Выбор между временами держится на одном вопросе: это про **вообще** (привычка, факт, характеристика → Present Simple) или про **этот момент / временно** (идёт прямо сейчас или в этот период → Present Continuous)? Один глагол легко встаёт в оба времени: **Kate studies medicine** (вообще) — **Kate is studying for an exam** (сейчас). Русский берёт одну форму на оба смысла, поэтому легко ставит простое время туда, где нужно «сейчас».",
+      "examples": [
+        {
+          "ru": "Ник играет в теннис по выходным.",
+          "en": "Nick plays tennis at weekends."
+        },
+        {
+          "ru": "Смотри: Ник сейчас играет в теннис.",
+          "en": "Look — Nick is playing tennis now."
+        },
+        {
+          "ru": "Осенью здесь часто идёт дождь.",
+          "en": "It often rains here in autumn."
+        },
+        {
+          "ru": "Сейчас идёт дождь, возьми зонт.",
+          "en": "It is raining now, take an umbrella."
+        },
+        {
+          "ru": "Кейт в эти дни готовится к экзаменам.",
+          "en": "Kate is studying for her exams these days."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, какое время выбрать?",
+        "Почему «It rains» и «It is raining» — это разное?",
+        "Можно ли одну ситуацию сказать в обоих временах?"
+      ]
+    },
+    {
+      "id": 195,
+      "microtopicId": 65,
+      "title": "be being — характер или поведение прямо сейчас",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Обычно глагол `to be` описывает **постоянное свойство**: **Jack is polite** — Джек вежливый по натуре, такой всегда. Но у `to be` есть и форма процесса — `is/are being`, — и она делает с прилагательным ровно то же, что Present Continuous делает с обычным глаголом: переносит его в «**прямо сейчас, временно**»."
+        },
+        {
+          "type": "heading",
+          "text": "Форма is/are being"
+        },
+        {
+          "type": "paragraph",
+          "text": "Собирается как любой Present Continuous, только вместо глагола с `-ing` идёт прилагательное: **am/is/are being** + прилагательное характера. Смысл — не «какой человек вообще», а «как он **ведёт себя** в этот момент»."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Всегда такой (характер)",
+            "Ведёт себя так сейчас"
+          ],
+          "rows": [
+            [
+              "She is polite.",
+              "She is being polite."
+            ],
+            [
+              "Tom is selfish.",
+              "Tom is being selfish."
+            ],
+            [
+              "You are kind.",
+              "You are being kind."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**She is rude** — грубая по характеру, черта. **She is being rude** — вообще-то нормальная, но именно сейчас грубит. Форма `is being` подчёркивает: это временно, поведение в моменте, а не суть человека. Часто за этим стоит настроение: **Tom is in a bad mood, so he is being selfish** — обычно щедрый, но сегодня из-за настроения ведёт себя эгоистично."
+        },
+        {
+          "type": "paragraph",
+          "text": "По сути `is being` + прилагательное = как человек `behaves` (ведёт себя) прямо сейчас. Можно сказать и через сам глагол — **He is behaving badly**, — но с прилагательным характера англичанин чаще берёт именно `is being`: **He is being rude**."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Оборот работает **только с прилагательными поведения** (rude, polite, kind, selfish, lazy, silly, brave). С внешностью, ростом, чувствами и просто состояниями — нельзя: **She is being tall** ✗, **I am being hungry** ✗, **He is being late** ✗. Рост, голод, опоздание — это не то, «как человек себя ведёт», их нельзя «включить» на минутку. Поэтому только простое: **She is tall**, **I am hungry**, **He is late**."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "По-русски «она грубая» — одна форма и на характер, и на «сейчас грубит». Русскоязычный на автомате говорит **She is rude** в обоих случаях и теряет оттенок «именно в этот момент так себя ведёт». Чтобы передать «сейчас ведёт себя грубо» — нужна форма `is being`: **She is being rude**."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`am/is/are being` + прилагательное характера = человек **ведёт себя так прямо сейчас**, временно, а не всегда: **He is kind** (добрый по натуре) — **He is being kind today** (сегодня ведёт себя по-доброму). Работает только с прилагательными поведения (rude, polite, selfish, lazy…), но не с внешностью/состояниями (**is being hungry** ✗). Русский берёт одну форму на оба смысла, поэтому оттенок «именно сейчас» легко теряется.",
+      "examples": [
+        {
+          "ru": "Джек обычно вежливый.",
+          "en": "Jack is usually polite."
+        },
+        {
+          "ru": "Почему Джек сегодня так грубит?",
+          "en": "Why is Jack being so rude today?"
+        },
+        {
+          "ru": "Ты сегодня такой добрый!",
+          "en": "You are being so kind today!"
+        },
+        {
+          "ru": "У Тома плохое настроение, поэтому он ведёт себя эгоистично.",
+          "en": "Tom is in a bad mood, so he is being selfish."
+        },
+        {
+          "ru": "Хватит, ты ведёшь себя глупо.",
+          "en": "Stop it — you are being silly."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем «He is kind» отличается от «He is being kind»?",
+        "Почему нельзя сказать «I am being hungry»?",
+        "С какими прилагательными можно использовать «is being»?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 194,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 102,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 194,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 30,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 194,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 13,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 194,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 69,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 195,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 103,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 195,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 31,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 195,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 73,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 195,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 26,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "tenses",
+      "nameRus": "Времена",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "tenses",
+      "nameRus": "Слова из времён",
+      "groupId": "tenses",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 389,
+      "word": "rude",
+      "translation": "грубый, невежливый",
+      "transcription": "[ruːd]",
+      "microtopicId": 65,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 390,
+      "word": "polite",
+      "translation": "вежливый",
+      "transcription": "[pəˈlaɪt]",
+      "microtopicId": 65,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 391,
+      "word": "selfish",
+      "translation": "эгоистичный",
+      "transcription": "[ˈselfɪʃ]",
+      "microtopicId": 65,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 392,
+      "word": "lazy",
+      "translation": "ленивый",
+      "transcription": "[ˈleɪzi]",
+      "microtopicId": 65,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 393,
+      "word": "to behave",
+      "translation": "вести себя",
+      "transcription": "[bɪˈheɪv]",
+      "microtopicId": 65,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 394,
+      "word": "mood",
+      "translation": "настроение",
+      "transcription": "[muːd]",
+      "microtopicId": 65,
+      "categoryId": "tenses"
+    }
+  ],
+  "table_fill_exercises": [],
+  "true_false_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 69,
+      "situationRu": "Ситуация: Игорь каждый день ходит на работу пешком.",
+      "correctSentence": "Igor walks to work every day.",
+      "words": [
+        "Igor",
+        "walks",
+        "to work",
+        "every day"
+      ],
+      "distractors": [
+        "is walking",
+        "walk",
+        "the office",
+        "by bus"
+      ],
+      "explanation": "«Каждый день» = регулярная привычка → Present Simple `walks`. `is walking` — это «идёт прямо сейчас», не подходит по смыслу; `walk` — без `-s` для he; `the office` и `by bus` не из этого предложения (Игорь идёт на работу пешком)."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 102,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "В эту минуту Лена готовит ужин на кухне.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Lena cooks dinner in the kitchen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena is cooking dinner in the kitchen.",
+          "isCorrect": true
+        },
+        {
+          "text": "Lena cook dinner in the kitchen.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«В эту минуту» = действие идёт прямо сейчас → Present Continuous `is cooking`. Простое `cooks` сказало бы «готовит вообще, обычно»; `cook` — без нужной формы."
+    },
+    {
+      "id": 30,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Ben is living in Lisbon this year.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Бен всегда живёт в Лиссабоне.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бен родом из Лиссабона.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бен в этом году живёт в Лиссабоне, это временно.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "`is living` + `this year` = временная ситуация, «сейчас, в этот период». Не «всегда» (было бы `Ben lives`) и не «родом откуда-то» (это был бы факт-происхождение)."
+    },
+    {
+      "id": 103,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Обычно Марк щедрый, но сегодня он ведёт себя эгоистично.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Mark is selfish today.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mark is being selfish today.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mark being selfish today.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«Сегодня ведёт себя», а не «такой всегда» → `is being selfish` (временное поведение). Простое `is selfish` описало бы характер вообще; `being` без связки — сломанная форма без `is`."
+    },
+    {
+      "id": 31,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "You are being very polite today.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Ты всегда очень вежливый.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты был вежлив вчера.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты сегодня ведёшь себя очень вежливо.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "`are being` + `today` = поведение именно сейчас, временно. «Всегда вежливый» — это был бы `You are very polite`; про вчера — прошедшее время."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 73,
+      "wrongSentence": "Right now the children are being hungry.",
+      "options": [
+        {
+          "text": "Right now the children are hungry.",
+          "isCorrect": true
+        },
+        {
+          "text": "Right now the children are being hungrily.",
+          "isCorrect": false
+        },
+        {
+          "text": "Right now the children is being hungry.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`hungry` — это состояние, а не поведение, поэтому форма `are being` с ним невозможна — только `are hungry`. `hungrily` — вообще наречие; `is` — неверная связка для `children` (мн. ч.)."
+    }
+  ],
+  "construction_meaning_exercises": [
+    {
+      "id": 13,
+      "construction": "My sister is working at a café this summer.",
+      "options": [
+        {
+          "text": "Этим летом моя сестра подрабатывает в кафе, временно.",
+          "isCorrect": true
+        },
+        {
+          "text": "Моя сестра всегда работает в кафе.",
+          "isCorrect": false
+        },
+        {
+          "text": "Моя сестра — официантка по профессии.",
+          "isCorrect": false
+        },
+        {
+          "text": "Моя сестра прямо сейчас идёт в кафе.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "`is working` + `this summer` = временная работа на этот период. Постоянная профессия была бы `My sister works at a café`; «идёт в кафе» — вообще другой глагол движения."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 26,
+      "taskDescription": "перепиши так, будто человек ведёт себя так именно сейчас, а не всегда.",
+      "items": [
+        {
+          "original": "Tom is polite.",
+          "transformed": "Tom is being polite."
+        },
+        {
+          "original": "You are lazy.",
+          "transformed": "You are being lazy."
+        },
+        {
+          "original": "She is kind.",
+          "transformed": "She is being kind."
+        }
+      ],
+      "explanation": "`am/is/are being` + прилагательное характера переносит смысл в «ведёт себя так прямо сейчас, временно». Связку `to be` не выкидываем — она остаётся и получает `being`."
+    }
+  ],
+  "categorization_exercises": [],
+  "find_the_odd_exercises": []
+}
