@@ -905,7 +905,7 @@ theory/
 │       Card 193 · Живая практика с ИИ — капстоун темы: Theory + Summary + Clarification + 3 AI
 │       (EN→RU перевод, RU→EN, найди-и-исправь), Words Source GENERAL, все 4 ситуации PC вокруг слов юзера.
 │
-├── Compare: Present Simple vs Present Continuous  ← Topic id=10, order=6, файл theory/06-compare-present.md
+├── Compare: Present Simple vs Present Continuous  ← Topic id=10, order=6, файл theory/06-compare-present.md ✅ ТЕМА НАПИСАНА (ALL GREEN 07.07; MT65–66, cards 194–196)
 │   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 07.07.2026). Тема идёт ПЛОСКО (GrammarTopic.categoryId = null), раздела не занимает.
 │      Старт ID при написании: Microtopic 65, Card 194 (после PC card 193); course_word — продолжить со счётчика
 │      «Слова из времён» (Next free 389). ID финально присвоить при написании.
@@ -932,7 +932,7 @@ theory/
 │   │       to be уходит в Continuous = «временно так себя ведёт, не натура». Русский говорит просто «она
 │   │       грубая» → не чувствует разницы. + AI.
 │   │
-│   └── MT66 · Make the Choice · Выбери время (капстоун с ИИ) — 1 карточка, 3 AI (сердце темы, как MT56/MT64)
+│   └── MT66 · Make the Choice · Выбери время (капстоун с ИИ) — 1 карточка, 3 AI (сердце темы, как MT56/MT64) ✅ (написана, ALL GREEN 07.07; card 196, 3 AI: ex1 RU→EN выбор времени, ex2 выбор из двух, ex3 найди-и-исправь)
 │       Card 196 · Живая практика выбора. Короткое интро-Theory: мини-чеклист («всегда/факт → Simple;
 │       этот момент/временно → Continuous; глагол-состояние → всегда Simple», отсылка на PC MT63 строкой).
 │       3 AI, Words Source GENERAL, всё вокруг слов пользователя:
