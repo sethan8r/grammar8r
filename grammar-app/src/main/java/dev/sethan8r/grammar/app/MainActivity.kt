@@ -8,6 +8,7 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -18,9 +19,12 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.calculateEndPadding
 import androidx.compose.foundation.layout.calculateStartPadding
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -40,6 +44,9 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import dagger.hilt.android.AndroidEntryPoint
+import dev.sethan8r.grammar.app.ui.components.feedback.FeedbackSnackbarHost
+import dev.sethan8r.grammar.app.ui.components.feedback.LocalTabSnackbarController
+import dev.sethan8r.grammar.app.ui.components.feedback.rememberFeedbackSnackbarController
 import dev.sethan8r.grammar.app.ui.components.scaffold.Grammar8rBottomBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.TopStatusScrim
 import dev.sethan8r.grammar.app.ui.components.scaffold.rememberBottomBarScrollBehavior
@@ -61,6 +68,7 @@ import dev.sethan8r.grammar.app.ui.screens.theory.MicrotopicScreen
 import dev.sethan8r.grammar.app.ui.screens.theory.TheoryScreen
 import dev.sethan8r.grammar.app.ui.screens.theory.TopicScreen
 import dev.sethan8r.grammar.app.ui.theme.Background
+import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.theme.Grammar8rTheme
 
@@ -100,6 +108,9 @@ fun MainScreen() {
     val bottomBarScroll = rememberBottomBarScrollBehavior()
     LaunchedEffect(currentDestination) { bottomBarScroll.forceShow() }
 
+    // Общий снекбар вкладок (описания тем из «i»): висит над капсулой и едет вместе с ней.
+    val tabSnackbar = rememberFeedbackSnackbarController()
+
     Scaffold(containerColor = Background) { innerPadding ->
         Box(
             modifier = Modifier
@@ -113,6 +124,7 @@ fun MainScreen() {
                     end = innerPadding.calculateEndPadding(layoutDirection),
                 ),
         ) {
+          CompositionLocalProvider(LocalTabSnackbarController provides tabSnackbar) {
             NavHost(
                 navController = navController,
                 startDestination = LearnRoute,
@@ -193,7 +205,31 @@ fun MainScreen() {
                     },
                 )
             }
-        }
+            }
+          }
+
+            // Общий снекбар вкладок — над капсулой. Нижний отступ анимируется тем же спеком/флагом,
+            // что и капсула: она видна → снекбар над ней; спрятана → съезжает к низу экрана (не за него).
+            val capsuleShown = showBottomBar && bottomBarScroll.isVisible.value
+            val snackbarLift by animateDpAsState(
+                targetValue = if (capsuleShown) {
+                    Dimens.bottomBarFloatingHeight + Dimens.bottomBarFloatingBottomGap
+                } else {
+                    0.dp
+                },
+                animationSpec = tween(Durations.bottomBarShowHideMs, easing = FastOutSlowInEasing),
+                label = "tabSnackbarLift",
+            )
+            FeedbackSnackbarHost(
+                hostState = tabSnackbar.hostState,
+                onHoldChanged = tabSnackbar::setHeld,
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .fillMaxWidth()
+                    .navigationBarsPadding()
+                    .padding(horizontal = Dimens.screenPadding)
+                    .padding(bottom = Dimens.spaceLarge + snackbarLift),
+            )
 
             // Градиент-скрим над строкой состояния — только на вкладках (где контент уходит под неё).
             if (showBottomBar) {

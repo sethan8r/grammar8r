@@ -1,6 +1,7 @@
 package dev.sethan8r.grammar.app.ui.components.feedback
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.awaitFirstDown
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -14,6 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
@@ -26,9 +28,16 @@ import dev.sethan8r.grammar.app.ui.theme.TextPrimary
  * смахиваемый через [SwipeToDismissBox] (как в Words8r, но без самопального хоста и таймера).
  * Текст всегда обычный ([TextPrimary]). Используется для ошибок хардкод-упражнений
  * («Неправильно…»); на верный ответ ничего не показываем.
+ *
+ * [onHoldChanged] дёргается при зажатии/отпускании плашки (для паузы авто-таймера в контроллере).
+ * Жест наблюдается без потребления событий — свайп-дисмисс продолжает работать.
  */
 @Composable
-fun FeedbackSnackbarHost(hostState: SnackbarHostState, modifier: Modifier = Modifier) {
+fun FeedbackSnackbarHost(
+    hostState: SnackbarHostState,
+    modifier: Modifier = Modifier,
+    onHoldChanged: (Boolean) -> Unit = {},
+) {
     SnackbarHost(hostState, modifier) { data ->
         val dismissState = rememberSwipeToDismissBoxState(
             confirmValueChange = { value ->
@@ -54,6 +63,19 @@ fun FeedbackSnackbarHost(hostState: SnackbarHostState, modifier: Modifier = Modi
                     modifier = Modifier
                         .clip(RoundedCornerShape(Dimens.cornerCard))
                         .background(Elevated)
+                        // Наблюдаем зажатие плашки, НЕ потребляя события (swipe-dismiss не ломаем).
+                        .pointerInput(Unit) {
+                            awaitPointerEventScope {
+                                while (true) {
+                                    awaitFirstDown(requireUnconsumed = false)
+                                    onHoldChanged(true)
+                                    do {
+                                        val event = awaitPointerEvent()
+                                    } while (event.changes.any { it.pressed })
+                                    onHoldChanged(false)
+                                }
+                            }
+                        }
                         .padding(horizontal = Dimens.spaceXLarge, vertical = Dimens.spaceMedium),
                     contentAlignment = Alignment.Center,
                 ) {

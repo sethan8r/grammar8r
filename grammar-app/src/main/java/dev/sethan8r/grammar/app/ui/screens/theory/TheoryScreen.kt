@@ -41,8 +41,7 @@ import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
 import dev.sethan8r.grammar.app.ui.components.CenteredHint
 import dev.sethan8r.grammar.app.ui.components.DualTitle
 import dev.sethan8r.grammar.app.ui.components.InfoButton
-import dev.sethan8r.grammar.app.ui.components.feedback.FeedbackSnackbarHost
-import dev.sethan8r.grammar.app.ui.components.feedback.rememberFeedbackSnackbarController
+import dev.sethan8r.grammar.app.ui.components.feedback.LocalTabSnackbarController
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
@@ -64,7 +63,8 @@ fun TheoryScreen(
     viewModel: TheoryViewModel = hiltViewModel(),
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
-    val snackbar = rememberFeedbackSnackbarController()
+    // Снекбар вкладок общий (висит над капсулой навигации в MainScreen) — берём из CompositionLocal.
+    val snackbar = LocalTabSnackbarController.current
 
     Box(modifier = Modifier.fillMaxSize()) {
         when {
@@ -73,16 +73,9 @@ fun TheoryScreen(
             else -> TheoryList(
                 items = uiState.items,
                 onTopicClick = onTopicClick,
-                onShowInfo = { snackbar.show(it, Durations.infoSnackbarMs) },
+                onShowInfo = { snackbar?.show(it, Durations.infoSnackbarMs) },
             )
         }
-        FeedbackSnackbarHost(
-            hostState = snackbar.hostState,
-            modifier = Modifier
-                .align(Alignment.BottomCenter)
-                .fillMaxWidth()
-                .padding(horizontal = Dimens.screenPadding, vertical = Dimens.spaceLarge),
-        )
     }
 }
 
