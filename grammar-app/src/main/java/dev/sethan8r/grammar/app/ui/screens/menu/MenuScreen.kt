@@ -30,6 +30,8 @@ import dev.sethan8r.grammar.app.ui.components.menu.MenuGroup
 import dev.sethan8r.grammar.app.ui.components.menu.MenuItem
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Dimens
+import dev.sethan8r.grammar.app.ui.util.floatingBarBottomInset
+import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 
 /** Серия заходов в карточке аккаунта — плейсхолдер до подключения реального стрика (Фаза 4). */
 private const val PLACEHOLDER_STREAK_DAYS = 7
@@ -41,7 +43,9 @@ fun MenuScreen() {
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
             .padding(horizontal = Dimens.screenPadding)
-            .padding(bottom = Dimens.spaceXLarge),
+            // Верх — под строку состояния (первый элемент на месте, при скролле проезжает под неё);
+            // низ — клиренс под плавающей капсулой навигации (она парит поверх, места не резервирует).
+            .padding(top = statusBarTopInset(), bottom = floatingBarBottomInset()),
         verticalArrangement = Arrangement.spacedBy(Dimens.spaceXLarge),
     ) {
         Text(

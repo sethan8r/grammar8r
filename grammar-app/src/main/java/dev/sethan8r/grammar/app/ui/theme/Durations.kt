@@ -14,4 +14,10 @@ object Durations {
 
     /** Возврат слова-чипа в пул, если отпустили не на поле сборки (WORD_ARRANGEMENT), мс. */
     const val dragReturnMs = 200
+
+    /** Рост/сужение активного чипа нижней навигации при переключении таба, мс. */
+    const val bottomBarChipGrowMs = 280
+
+    /** Slide+fade показа/скрытия плавающей капсулы навигации при скролле, мс. */
+    const val bottomBarShowHideMs = 280
 }

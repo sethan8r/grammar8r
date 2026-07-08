@@ -50,6 +50,8 @@ import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
+import dev.sethan8r.grammar.app.ui.util.floatingBarBottomInset
+import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 
 /**
  * Вкладка «Учить» — список разделов и тем теории с прогрессом по микротемам. Раздел сворачивается;
@@ -94,8 +96,12 @@ private fun TheoryList(
         modifier = Modifier
             .fillMaxSize()
             .padding(horizontal = Dimens.screenPadding),
-        // Зазор под последним фреймом, чтобы он не упирался в нижнюю панель.
-        contentPadding = PaddingValues(bottom = Dimens.spaceXXLarge),
+        // Верх: под строку состояния (первый элемент на месте, при скролле проезжает под неё).
+        // Низ: клиренс под плавающей капсулой навигации (она парит поверх, места не резервирует).
+        contentPadding = PaddingValues(
+            top = statusBarTopInset(),
+            bottom = floatingBarBottomInset(),
+        ),
         verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
     ) {
         item {

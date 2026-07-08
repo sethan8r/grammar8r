@@ -4,8 +4,15 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.calculateEndPadding
@@ -14,9 +21,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavBackStackEntry
@@ -31,6 +41,8 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import dagger.hilt.android.AndroidEntryPoint
 import dev.sethan8r.grammar.app.ui.components.scaffold.Grammar8rBottomBar
+import dev.sethan8r.grammar.app.ui.components.scaffold.TopStatusScrim
+import dev.sethan8r.grammar.app.ui.components.scaffold.rememberBottomBarScrollBehavior
 import dev.sethan8r.grammar.app.ui.navigation.ExerciseSessionRoute
 import dev.sethan8r.grammar.app.ui.navigation.LearnRoute
 import dev.sethan8r.grammar.app.ui.navigation.MenuRoute
@@ -49,6 +61,7 @@ import dev.sethan8r.grammar.app.ui.screens.theory.MicrotopicScreen
 import dev.sethan8r.grammar.app.ui.screens.theory.TheoryScreen
 import dev.sethan8r.grammar.app.ui.screens.theory.TopicScreen
 import dev.sethan8r.grammar.app.ui.theme.Background
+import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.theme.Grammar8rTheme
 
 /** Ключ savedStateHandle: id микротемы, к которой нужно проскроллить список после её завершения. */
@@ -83,42 +96,32 @@ fun MainScreen() {
     } == true
     val layoutDirection = LocalLayoutDirection.current
 
-    Scaffold(
-        containerColor = Background,
-        bottomBar = {
-            if (showBottomBar) {
-                Grammar8rBottomBar(
-                    currentDestination = currentDestination,
-                    onNavigate = { destination ->
-                        navController.navigate(destination.route) {
-                            popUpTo(navController.graph.findStartDestination().id) {
-                                saveState = true
-                            }
-                            launchSingleTop = true
-                            restoreState = true
-                        }
-                    },
-                )
-            }
-        },
-    ) { innerPadding ->
-        NavHost(
-            navController = navController,
-            startDestination = LearnRoute,
+    // Плавающая капсула навигации парит поверх контента — прячется/показывается при скролле.
+    val bottomBarScroll = rememberBottomBarScrollBehavior()
+    LaunchedEffect(currentDestination) { bottomBarScroll.forceShow() }
+
+    Scaffold(containerColor = Background) { innerPadding ->
+        Box(
             modifier = Modifier
                 .fillMaxSize()
-                // Низ системного инсета применяем ТОЛЬКО на вкладках (там его держит боттом-бар). На
-                // полноэкранных роутах низ не резервируем → контент уходит edge-to-edge под прозрачную
-                // системную полосу; свой нижний отступ экран добавляет сам ([scrollBottomInset]).
+                // Низ не резервируется (капсула не в Scaffold). Верх: на вкладках 0 → контент уходит
+                // edge-to-edge под строку состояния (её перекрывает [TopStatusScrim], первый элемент
+                // держит [statusBarTopInset]); на полноэкранных роутах верхний инсет оставляем.
                 .padding(
-                    top = innerPadding.calculateTopPadding(),
+                    top = if (showBottomBar) 0.dp else innerPadding.calculateTopPadding(),
                     start = innerPadding.calculateStartPadding(layoutDirection),
                     end = innerPadding.calculateEndPadding(layoutDirection),
-                    bottom = if (showBottomBar) innerPadding.calculateBottomPadding() else 0.dp,
                 ),
-            enterTransition = { EnterTransition.None },
-            exitTransition = { ExitTransition.None },
         ) {
+            NavHost(
+                navController = navController,
+                startDestination = LearnRoute,
+                modifier = Modifier
+                    .fillMaxSize()
+                    .nestedScroll(bottomBarScroll.nestedScrollConnection),
+                enterTransition = { EnterTransition.None },
+                exitTransition = { ExitTransition.None },
+            ) {
             opaqueComposable<LearnRoute> {
                 TheoryScreen(onTopicClick = { topicId -> navController.navigate(TopicRoute(topicId)) })
             }
@@ -189,6 +192,40 @@ fun MainScreen() {
                         navController.popBackStack()
                     },
                 )
+            }
+        }
+
+            // Градиент-скрим над строкой состояния — только на вкладках (где контент уходит под неё).
+            if (showBottomBar) {
+                TopStatusScrim(modifier = Modifier.align(Alignment.TopCenter))
+            }
+
+            // Плавающая капсула — оверлей поверх контента (только на корневых вкладках),
+            // slide+fade при скролле. Один источник видимости — [bottomBarScroll].
+            if (showBottomBar) {
+                AnimatedVisibility(
+                    visible = bottomBarScroll.isVisible.value,
+                    modifier = Modifier.align(Alignment.BottomCenter),
+                    enter = slideInVertically(
+                        animationSpec = tween(Durations.bottomBarShowHideMs, easing = FastOutSlowInEasing),
+                    ) { it } + fadeIn(tween(Durations.bottomBarShowHideMs)),
+                    exit = slideOutVertically(
+                        animationSpec = tween(Durations.bottomBarShowHideMs, easing = FastOutSlowInEasing),
+                    ) { it } + fadeOut(tween(Durations.bottomBarShowHideMs)),
+                ) {
+                    Grammar8rBottomBar(
+                        currentDestination = currentDestination,
+                        onNavigate = { destination ->
+                            navController.navigate(destination.route) {
+                                popUpTo(navController.graph.findStartDestination().id) {
+                                    saveState = true
+                                }
+                                launchSingleTop = true
+                                restoreState = true
+                            }
+                        },
+                    )
+                }
             }
         }
     }

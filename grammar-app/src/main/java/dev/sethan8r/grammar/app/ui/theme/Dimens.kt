@@ -88,4 +88,44 @@ object Dimens {
 
     /** Диаметр точки-маркера текущей карточки (у левого края её деления, как stop-indicator). */
     val progressBarDot = 4.dp
+
+    // Нижняя навигация — плавающая капсула (вариант 2a). Спека: tasks/README.md.
+    /** Горизонтальный отступ капсулы от краёв экрана. */
+    val bottomBarFloatingMargin = 14.dp
+
+    /** Зазор капсулы над системным nav bar. */
+    val bottomBarFloatingBottomGap = 18.dp
+
+    /** Скругление контейнера-капсулы (все углы). */
+    val bottomBarContainerRadius = 26.dp
+
+    /** Внутренний padding контейнера-капсулы. */
+    val bottomBarContainerPadding = 8.dp
+
+    /** Скругление активного чипа (залитый акцентом таб). */
+    val bottomBarChipRadius = 20.dp
+
+    /** Фиксированная высота чипа таба — закреплена, чтобы высота капсулы не дёргалась при переключении. */
+    val bottomBarChipHeight = 40.dp
+
+    /** Горизонтальный padding содержимого чипа (воздух вокруг иконки/подписи). */
+    val bottomBarChipHorizontalPadding = 12.dp
+
+    /** Зазор иконка ↔ подпись внутри активного чипа. */
+    val bottomBarChipGap = 6.dp
+
+    /** Размер иконки таба (оба состояния). */
+    val bottomBarIconSize = 20.dp
+
+    /** Радиус размытия ореола-тени вокруг капсулы (толщина чёрной рамки, растекающейся в прозрачность). */
+    val bottomBarHaloBlur = 4.dp
+
+    /** Мёртвая зона скролла для анти-дребезга показа/скрытия бара. */
+    val bottomBarScrollDeadZone = 4.dp
+
+    /** Порог «у самого верха»: ниже него бар всегда показан. */
+    val bottomBarScrollTopThreshold = 48.dp
+
+    /** Оценка высоты капсулы — для нижнего клиренса скроллящихся вкладок (контент не под баром). */
+    val bottomBarFloatingHeight = 52.dp
 }
