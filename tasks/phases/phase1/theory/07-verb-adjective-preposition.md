@@ -2,11 +2,11 @@
 
 **ID:** 11 | **Order:** 7
 **Описание:** Почему в английском предлог приклеен к глаголу или прилагательному: самые ходовые связки, которые нельзя переводить с русского в лоб
-**Группа слов:** tenses · Времена
-**Категория слов:** tenses · Слова из времён · source=course_words
+**Группа слов:** collocations · Связки
+**Категория слов:** collocations · Слова из связок · source=course_words
 **Слова курса — стартовый ID:** 395
 
-> **Категория слов:** новые слова этой темы при открытии попадают в общую категорию **"Слова из времён"** (`tenses`, раздел Словаря «Слова курса» → «Времена») — ту же, что у Present Simple / Continuous. Отдельную категорию под связки не заводим.
+> **Категория слов:** новые слова этой темы (MT67 + MT68) при открытии попадают в отдельную категорию **«Слова из связок»** (`collocations`, раздел Словаря «Связки») — НЕ в «Слова из времён» (решение 08.07.2026: по смыслу это лексика связок, а не времён). Здесь копится словарь устойчивых связок глагол/прилагательное + предлог; позже эту же категорию дополняют микротемы «Предлоги после глаголов» и «Предлоги после прилагательных» из темы «Дополнительные конструкции» — держать в синхроне, не дублировать слова (Правило №0).
 
 ---
 
@@ -376,26 +376,346 @@
 
 ---
 
+## Microtopic 68 — Adjective + Preposition · Прилагательное + предлог
+
+**ID:** 68 | **Order:** 2
+
+---
+
+### Card 200 · Прилагательное тоже держит свой предлог
+
+**ID:** 200 | **Order:** 1
+
+#### Theory
+
+В MT67 мы разобрали: глагол держит при себе фиксированный предлог (**wait for**, **listen to**), и связку учат целиком. С прилагательными всё так же — только предлог цепляется к признаку: «горжусь **чем**», «боюсь **чего**», «готов **к чему**». Прилагательное почти всегда стоит после `to be`: сначала `am/is/are`, потом прилагательное, за ним предлог с объектом — **I am proud of my sister.**
+
+Сразу честно: **логики, по которой предлог можно вычислить, нет.** Почему «боюсь» просит **of**, а «хорош» — **at**, объяснить нельзя — так закрепилось в языке. Поэтому пару **запоминают целиком**, как одно слово. Но у каждой группы предлогов есть зацепка для памяти — не правило, а костыль, чтобы предлог не вылетал из головы.
+
+**of — чувство о ком-то или о чём-то**
+
+Прилагательные-эмоции, направленные на объект, чаще берут **of** (будто «касательно»):
+
+- **afraid of** — бояться: **Lucy is afraid of spiders.**
+- **proud of** — гордиться: **We are proud of our team.**
+- **tired of** — устал от: **I'm tired of this noise.**
+
+**at — точка, в которой ты силён или слаб**
+
+Умение англичанин видит как точку приложения — тот же **at**, что в **at school**, **at work**:
+
+- **good at** — хорош в: **Nick is good at chess.**
+- **bad at** — плох в: **I'm really bad at cooking.**
+
+**in, to, for — ещё три ходовые пары**
+
+- **interested in** — интересоваться, будто «погружён в тему»: **She is interested in art.**
+- **married to** — женат/замужем за, «связан узами к человеку»: **Emma is married to a doctor.**
+- **ready for** — готов к, навстречу событию: **Are you ready for the exam?**
+
+**Ловушка:** русское «хорош **в** математике» тянет **good in** ✗. По-английски — **good at math** ✓ (и **bad at**, не **bad in**).
+
+**Ловушка:** «женат **на** ней» подсказывает **married with** или **married on** ✗ — обе кальки. Правильно только **married to her** ✓.
+
+**Ловушка:** **afraid from** ✗ — из «боюсь» мозг лепит то «от», то вообще ничего. Английское прилагательное требует **of**: **afraid of the dark** ✓.
+
+**Предлог — перед предметом. Перед целой мыслью его НЕТ**
+
+Вот тут прячется главное правило (а не просто «зубри»). Предлог связывает прилагательное с **предметом** — существительным или действием-как-предметом (глагол на `-ing`): **afraid of the dark**, **tired of waiting**, **good at drawing** — предлог на месте.
+
+Но если после прилагательного идёт **целая мысль** (подлежащее + глагол), предлог **не нужен вовсе**:
+
+- **I'm afraid of the storm.** — предмет (буря) → нужен `of`.
+- **I'm afraid the storm will start soon.** — целая мысль (буря начнётся) → `предлога нет`.
+- **She's proud of her son.** — предмет → `of`; **She's proud her son passed.** — мысль → `без предлога`.
+
+Так что прежде чем ставить предлог, глянь, что дальше: **вещь → предлог, целое предложение → ничего.**
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Прилагательное, как и глагол, держит при себе фиксированный предлог и учится парой: **afraid of**, **proud of**, **tired of**, **good at**, **bad at**, **interested in**, **married to**, **ready for**. Стоит после `to be`. Предлог ставится перед **предметом** (**afraid of the dark**); если дальше идёт целая мысль (подлежащее + глагол), предлога нет вовсе (**afraid the dog will bite**). Кальки-ловушки: не **good in** ✗, а **good at**; не **married with/on** ✗, а **married to**; не **afraid from** ✗, а **afraid of**.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 828 | Игорь боится высоты. | Igor is afraid of heights. |
+| 829 | Мы гордимся своим городом. | We are proud of our city. |
+| 830 | Катя замужем за инженером. | Katya is married to an engineer. |
+| 831 | Ты готов к поездке? | Are you ready for the trip? |
+| 832 | Ей интересна история. | She is interested in history. |
+
+---
+
+#### Exercises
+
+**Ex 11 · MultipleChoice · CHOICE** *(ID: 95)*
+
+"My sister is really good ___ languages."
+
+- **at** ✓
+- in
+- for
+
+*Explanation:* **good at** — быть способным в чём-то. Русское «хорош **в**» тянет **in**, но по-английски всегда **good at**.
+
+---
+
+**Ex 12 · MultipleChoice · FORWARD_CHOICE** *(ID: 106)*
+
+"Она замужем за учителем."
+
+- She is married with a teacher.
+- She is married on a teacher.
+- **She is married to a teacher.** ✓
+
+*Explanation:* «Женат/замужем за» — **married to**. **married with** и **married on** — кальки с русского «на / с».
+
+---
+
+**Ex 13 · Matching** *(ID: 30)*
+
+Задание: соедини прилагательное с его предлогом.
+
+| Прилагательное | Предлог |
+|----------------|---------|
+| afraid | of |
+| good | at |
+| interested | in |
+| ready | for |
+| married | to |
+
+*Explanation:* Каждое прилагательное держит свой предлог: **afraid of**, **good at**, **interested in**, **ready for**, **married to**. Угадать нельзя — только запомнить парой.
+
+---
+
+**Ex 14 · TrueFalse** *(ID: 87)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I'm proud of my daughter. | ✓ |
+| 2 | She is good in tennis. | ✗ |
+| 3 | Are you ready for the meeting? | ✓ |
+| 4 | Tom is afraid from dogs. | ✗ |
+| 5 | We are interested in old films. | ✓ |
+
+*Explanation:* 2 — нужен **good at tennis**; 4 — нужен **afraid of dogs**. Остальные верны: **proud of**, **ready for**, **interested in** стоят с правильными предлогами.
+
+---
+
+**Ex 15 · WordArrangement** *(ID: 72)*
+
+Ситуация: Мия обожает слушать музыку в любую свободную минуту.
+
+Правильное предложение: **She is interested in music.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| She | — |
+| is | — |
+| interested | — |
+| in | — |
+| music | — |
+| of | ✗ |
+| at | ✗ |
+| on | ✗ |
+
+*Explanation:* После **interested** идёт **in**: **interested in music**. **of**, **at**, **on** — чужие предлоги, английский тут берёт только **in**.
+
+---
+
+#### AI Exercise
+
+**ID:** adj_prep_card200_ex1
+**Title:** "Предлог после прилагательного"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложения с пропуском после прилагательного. Впишите нужный предлог — или поставьте прочерк, если предлог тут не нужен."
+**Prompt Template:** "Дай пользователю по одному короткому английскому предложению за раз (всего 3-4), в каждом — прилагательное после to be и пропуск сразу за ним. Используй ТОЛЬКО эти пары, которые пользователь уже разобрал в этой карточке: afraid of (бояться), proud of (гордиться), tired of (устать от), good at (хорош в), bad at (плох в), interested in (интересоваться), married to (женат/замужем за), ready for (готов к). Никаких других прилагательных не бери — только эти восемь. Чередуй два вида пропусков, чтобы пользователь каждый раз сам решал, нужен предлог или нет: (1) после прилагательного идёт ПРЕДМЕТ — существительное (good — chemistry, afraid — dogs) — тогда верен предлог из пары; (2) после afraid или proud идёт ЦЕЛАЯ МЫСЛЬ — подлежащее с глаголом (afraid — the dog will bite, proud — my son passed) — тогда предлог НЕ нужен, верный ответ прочерк. Подсовывай типичные кальки с русского как приманку, но верным всегда остаётся правильный ответ: у good/bad тянет [in], верно at; у married тянет [with] или [on], верно to; у afraid тянет [from], верно of; у interested тянет [of], верно in; а там, где после прилагательного идёт целая мысль, — тянет вставить предлог, хотя верен прочерк. Случайно чередуй пары. Попроси вписать нужный предлог или прочерк, если предлог не нужен. Если ошибка — покажи правильный вариант и в одном-двух предложениях объясни по-русски, почему у этого прилагательного такой предлог (или почему предлога нет — после целой мысли он не ставится). Не придирайся к знакам препинания и заглавным буквам — оценивай только предлог."
+
+Пример вывода AI: 'Впишите предлог или прочерк: 1. She is good [___] chemistry. 2. I am afraid [___] the storm will start. 3. Emma is married [___] a pilot. 4. Are you proud [___] your work?'
+
+#### Clarification Options
+
+- Почему good at, а не good in?
+- Почему married to, а не married with?
+- Когда после прилагательного предлог НЕ нужен?
+
+---
+
+### Card 201 · Человек или ситуация — предлог меняется
+
+**ID:** 201 | **Order:** 2
+
+#### Theory
+
+У части прилагательных предлог не один — он меняется в зависимости от того, за что цепляется: за **человека** или за **ситуацию**. Русский тут особенно подводит, потому что говорит одинаково, а английский требует разное.
+
+**angry — на кого или из-за чего**
+
+- **angry with somebody** — злиться на человека: **I'm angry with my brother.**
+- **angry about something** — злиться из-за ситуации: **She is angry about the delay.**
+
+**Ловушка:** русское «зол **на**» тянет **angry on** ✗ — такого нет. На человека — **with**, на ситуацию — **about**.
+
+**sorry — жалко кого или сожалею о чём**
+
+- **sorry for somebody** — жалко кого-то: **I feel sorry for him.**
+- **sorry about something** — сожалеть о чём-то: **I'm sorry about the mistake.**
+
+**Ещё ходовые пары**
+
+- **pleased with** — доволен: **The boss is pleased with our work.**
+- **worried about** — переживать из-за: **Ben is worried about his exam.**
+- **excited about** — в предвкушении: **We are excited about the trip.**
+- **famous for** — знаменит чем-то: **Prague is famous for its old bridges.**
+
+**Ловушка:** **famous with** ✗ и **worried for** ✗ — обе кальки. Верно **famous for** и **worried about**.
+
+**Зацепка для памяти: with — человек, about — тема, for — за что**
+
+Логики тут снова нет, но группировка помогает: **with** — про того, кто рядом, с кем у тебя дело (**angry with**, **pleased with**); **about** — про тему, вокруг которой крутятся мысли (**worried about**, **excited about**, **angry about**); **for** — про то, ЗА что (**famous for** — знаменит за что-то).
+
+**Важно:** здесь работает то же правило, что в прошлой карточке — предлог нужен перед **предметом**. Если после прилагательного идёт целая мысль (подлежащее + глагол), предлог исчезает: **I'm worried about the exam.** (предмет), но **I'm worried the exam is too hard.** (мысль — без предлога). То же с **sorry**, **angry**, **excited**, **pleased**.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+У ряда прилагательных предлог зависит от того, что дальше — человек или ситуация: **angry with** (на человека) vs **angry about** (из-за ситуации); **sorry for** (жалко кого-то) vs **sorry about** (сожалеть о чём-то). Плюс ходовые: **pleased with**, **worried about**, **excited about**, **famous for**. Перед предметом предлог есть, перед целой мыслью (подлежащее + глагол) — нет: **worried the exam is hard**. Кальки: не **angry on** ✗, не **famous with** ✗, не **worried for** ✗.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 833 | Я злюсь на соседа. | I'm angry with my neighbour. |
+| 834 | Босс доволен результатом. | The boss is pleased with the result. |
+| 835 | Лиссабон знаменит своими трамваями. | Lisbon is famous for its trams. |
+| 836 | Дети в предвкушении вечеринки. | The kids are excited about the party. |
+| 837 | Мне жаль твою сестру. | I feel sorry for your sister. |
+
+---
+
+#### Exercises
+
+**Ex 16 · MultipleChoice · CHOICE** *(ID: 96)*
+
+"Vienna is famous ___ its coffee houses."
+
+- with
+- **for** ✓
+- about
+
+*Explanation:* **famous for** — знаменит чем-то. **famous with** — калька, такого сочетания нет; **about** тут не к месту.
+
+---
+
+**Ex 17 · MultipleChoice · FORWARD_CHOICE** *(ID: 107)*
+
+"Я злюсь на официанта."
+
+- **I'm angry with the waiter.** ✓
+- I'm angry on the waiter.
+- I'm angry for the waiter.
+
+*Explanation:* Злиться на человека — **angry with**. Русское «на» → **on** — калька, так не говорят.
+
+---
+
+**Ex 18 · Categorization** *(ID: 38)*
+
+Задание: разложи прилагательные по их предлогу.
+
+| of | at | for |
+|----|----|-----|
+| proud | good | ready |
+| afraid | bad | famous |
+
+*Explanation:* **proud of / afraid of**, **good at / bad at**, **ready for / famous for**. Предлог у каждого свой — распределяем по парам, а не по смыслу.
+
+---
+
+**Ex 19 · TrueFalse** *(ID: 88)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | She is pleased with her new job. | ✓ |
+| 2 | I'm angry on my sister. | ✗ |
+| 3 | They are excited about the holiday. | ✓ |
+| 4 | He is famous with his paintings. | ✗ |
+| 5 | We are worried about the weather. | ✓ |
+
+*Explanation:* 2 — нужен **angry with my sister**; 4 — нужен **famous for his paintings**. Остальные верны: **pleased with**, **excited about**, **worried about**.
+
+---
+
+**Ex 20 · ErrorCorrection** *(ID: 76)*
+
+"I'm really worried for my job interview."
+
+- I'm really worried of my job interview.
+- **I'm really worried about my job interview.** ✓
+- I'm really worried on my job interview.
+
+*Explanation:* Переживать из-за чего-то — **worried about**. **worried for** и **worried of** — кальки, английский берёт **about**.
+
+---
+
+#### AI Exercise
+
+**ID:** adj_prep_card201_ex1
+**Title:** "Человек или ситуация — какой предлог"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложения с пропуском после прилагательного. Впишите нужный предлог — или прочерк, если предлог тут не нужен."
+**Prompt Template:** "Дай пользователю по одному короткому английскому предложению за раз (всего 3-4), в каждом — прилагательное после to be и пропуск за ним. Используй ТОЛЬКО эти пары, которые пользователь разобрал в этой карточке: angry with somebody (злиться на человека) и angry about something (злиться из-за ситуации), sorry for somebody (жалко кого-то) и sorry about something (сожалеть о чём-то), pleased with (доволен), worried about (переживать из-за), excited about (в предвкушении), famous for (знаменит чем-то). Никаких других прилагательных не бери. Чередуй три вида пропусков: (1) для angry и sorry ставь после пропуска то человека, то ситуацию, чтобы пользователь сам выбрал with/about или for/about по смыслу; (2) обычные пары pleased with, worried about, excited about, famous for — перед предметом (существительным); (3) иногда после angry, sorry, worried, pleased или excited ставь ЦЕЛУЮ МЫСЛЬ — подлежащее с глаголом (worried — the train is late, sorry — I am late) — тогда предлог НЕ нужен, верный ответ прочерк. Подсовывай кальки с русского как приманку, но верным остаётся правильный ответ: у angry тянет [on] («зол на»), верно with или about; у famous тянет [with], верно for; у worried тянет [for], верно about; а там, где идёт целая мысль, — тянет вставить предлог, хотя верен прочерк. Случайно чередуй пары. Попроси вписать нужный предлог или прочерк. Если ошибка — покажи правильный вариант и в одном-двух предложениях объясни по-русски, почему здесь такой предлог или почему предлога нет. Не придирайся к знакам препинания и заглавным буквам — оценивай только предлог."
+
+Пример вывода AI: 'Впишите предлог или прочерк: 1. I am angry [___] my brother. 2. Prague is famous [___] its bridges. 3. She is worried [___] the train is late. 4. I feel sorry [___] him.'
+
+#### Clarification Options
+
+- Когда angry with, а когда angry about?
+- Почему famous for, а не famous with?
+- В чём разница sorry for и sorry about?
+
+---
+
+### Words8r Sync · Прилагательное + предлог
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| proud | гордый | [praʊd] |
+| interested | заинтересованный | [ˈɪntrəstɪd] |
+| married | женатый, замужем | [ˈmærɪd] |
+| ready | готовый | [ˈredi] |
+| angry | злой, сердитый | [ˈæŋɡri] |
+| famous | знаменитый | [ˈfeɪməs] |
+| pleased | довольный | [pliːzd] |
+| excited | взволнованный, в предвкушении | [ɪkˈsaɪtɪd] |
+| sorry | сожалеющий; жаль | [ˈsɒri] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 11 | 12 |
-| Microtopic | 67 | 68 |
-| Card | 199 | 200 |
-| Example | 827 | 828 |
-| Слова курса (course_word) | 401 | 402 |
-| MultipleChoice · CHOICE | 94 | 95 |
-| MultipleChoice · FORWARD_CHOICE | 105 | 106 |
+| Microtopic | 68 | 69 |
+| Card | 201 | 202 |
+| Example | 837 | 838 |
+| Слова курса (course_word) | 410 | 411 |
+| MultipleChoice · CHOICE | 96 | 97 |
+| MultipleChoice · FORWARD_CHOICE | 107 | 108 |
 | MultipleChoice · REVERSE_CHOICE | 31 | 32 |
-| TrueFalse | 86 | 87 |
-| WordArrangement | 71 | 72 |
+| TrueFalse | 88 | 89 |
+| WordArrangement | 72 | 73 |
 | TextInput | 38 | 39 |
-| Matching | 29 | 30 |
+| Matching | 30 | 31 |
 | Transformation | 26 | 27 |
-| ErrorCorrection | 75 | 76 |
+| ErrorCorrection | 76 | 77 |
 | TableFill | 17 | 18 |
 | FindTheOdd | 39 | 40 |
 | ConstructionMeaning | 13 | 14 |
-| Categorization | 37 | 38 |
+| Categorization | 38 | 39 |
 | DialogRestore | 14 | 15 |

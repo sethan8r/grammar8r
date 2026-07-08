@@ -16,6 +16,12 @@
       "topicId": 11,
       "title": "Verb + Preposition · Глагол + предлог (и без него)",
       "order": 1
+    },
+    {
+      "id": 68,
+      "topicId": 11,
+      "title": "Adjective + Preposition · Прилагательное + предлог",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -360,6 +366,273 @@
         "Чем discuss отличается от talk about?",
         "Когда после enter всё-таки ставят into?"
       ]
+    },
+    {
+      "id": 200,
+      "microtopicId": 68,
+      "title": "Прилагательное тоже держит свой предлог",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В MT67 мы разобрали: глагол держит при себе фиксированный предлог (**wait for**, **listen to**), и связку учат целиком. С прилагательными всё так же — только предлог цепляется к признаку: «горжусь **чем**», «боюсь **чего**», «готов **к чему**». Прилагательное почти всегда стоит после `to be`: сначала `am/is/are`, потом прилагательное, за ним предлог с объектом — **I am proud of my sister.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сразу честно: **логики, по которой предлог можно вычислить, нет.** Почему «боюсь» просит **of**, а «хорош» — **at**, объяснить нельзя — так закрепилось в языке. Поэтому пару **запоминают целиком**, как одно слово. Но у каждой группы предлогов есть зацепка для памяти — не правило, а костыль, чтобы предлог не вылетал из головы."
+        },
+        {
+          "type": "heading",
+          "text": "of — чувство о ком-то или о чём-то"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прилагательные-эмоции, направленные на объект, чаще берут **of** (будто «касательно»):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**afraid of** — бояться: **Lucy is afraid of spiders.**",
+            "**proud of** — гордиться: **We are proud of our team.**",
+            "**tired of** — устал от: **I'm tired of this noise.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "at — точка, в которой ты силён или слаб"
+        },
+        {
+          "type": "paragraph",
+          "text": "Умение англичанин видит как точку приложения — тот же **at**, что в **at school**, **at work**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**good at** — хорош в: **Nick is good at chess.**",
+            "**bad at** — плох в: **I'm really bad at cooking.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "in, to, for — ещё три ходовые пары"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**interested in** — интересоваться, будто «погружён в тему»: **She is interested in art.**",
+            "**married to** — женат/замужем за, «связан узами к человеку»: **Emma is married to a doctor.**",
+            "**ready for** — готов к, навстречу событию: **Are you ready for the exam?**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «хорош **в** математике» тянет **good in** ✗. По-английски — **good at math** ✓ (и **bad at**, не **bad in**)."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Женат **на** ней» подсказывает **married with** или **married on** ✗ — обе кальки. Правильно только **married to her** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Afraid from** ✗ — из «боюсь» мозг лепит то «от», то вообще ничего. Английское прилагательное требует **of**: **afraid of the dark** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Предлог — перед предметом. Перед целой мыслью его НЕТ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот тут прячется главное правило (а не просто «зубри»). Предлог связывает прилагательное с **предметом** — существительным или действием-как-предметом (глагол на `-ing`): **afraid of the dark**, **tired of waiting**, **good at drawing** — предлог на месте."
+        },
+        {
+          "type": "paragraph",
+          "text": "Но если после прилагательного идёт **целая мысль** (подлежащее + глагол), предлог **не нужен вовсе**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm afraid of the storm.** — предмет (буря) → нужен `of`.",
+            "**I'm afraid the storm will start soon.** — целая мысль (буря начнётся) → `предлога нет`.",
+            "**She's proud of her son.** — предмет → `of`; **She's proud her son passed.** — мысль → `без предлога`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Так что прежде чем ставить предлог, глянь, что дальше: **вещь → предлог, целое предложение → ничего.**"
+        }
+      ],
+      "theorySummary": "Прилагательное, как и глагол, держит при себе фиксированный предлог и учится парой: **afraid of**, **proud of**, **tired of**, **good at**, **bad at**, **interested in**, **married to**, **ready for**. Стоит после `to be`. Предлог ставится перед **предметом** (**afraid of the dark**); если дальше идёт целая мысль (подлежащее + глагол), предлога нет вовсе (**afraid the dog will bite**). Кальки-ловушки: не **good in** ✗, а **good at**; не **married with/on** ✗, а **married to**; не **afraid from** ✗, а **afraid of**.",
+      "examples": [
+        {
+          "ru": "Игорь боится высоты.",
+          "en": "Igor is afraid of heights."
+        },
+        {
+          "ru": "Мы гордимся своим городом.",
+          "en": "We are proud of our city."
+        },
+        {
+          "ru": "Катя замужем за инженером.",
+          "en": "Katya is married to an engineer."
+        },
+        {
+          "ru": "Ты готов к поездке?",
+          "en": "Are you ready for the trip?"
+        },
+        {
+          "ru": "Ей интересна история.",
+          "en": "She is interested in history."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему good at, а не good in?",
+        "Почему married to, а не married with?",
+        "Когда после прилагательного предлог НЕ нужен?"
+      ]
+    },
+    {
+      "id": 201,
+      "microtopicId": 68,
+      "title": "Человек или ситуация — предлог меняется",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У части прилагательных предлог не один — он меняется в зависимости от того, за что цепляется: за **человека** или за **ситуацию**. Русский тут особенно подводит, потому что говорит одинаково, а английский требует разное."
+        },
+        {
+          "type": "heading",
+          "text": "angry — на кого или из-за чего"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**angry with somebody** — злиться на человека: **I'm angry with my brother.**",
+            "**angry about something** — злиться из-за ситуации: **She is angry about the delay.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «зол **на**» тянет **angry on** ✗ — такого нет. На человека — **with**, на ситуацию — **about**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "sorry — жалко кого или сожалею о чём"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**sorry for somebody** — жалко кого-то: **I feel sorry for him.**",
+            "**sorry about something** — сожалеть о чём-то: **I'm sorry about the mistake.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ещё ходовые пары"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**pleased with** — доволен: **The boss is pleased with our work.**",
+            "**worried about** — переживать из-за: **Ben is worried about his exam.**",
+            "**excited about** — в предвкушении: **We are excited about the trip.**",
+            "**famous for** — знаменит чем-то: **Prague is famous for its old bridges.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Famous with** ✗ и **worried for** ✗ — обе кальки. Верно **famous for** и **worried about**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Зацепка для памяти: with — человек, about — тема, for — за что"
+        },
+        {
+          "type": "paragraph",
+          "text": "Логики тут снова нет, но группировка помогает: **with** — про того, кто рядом, с кем у тебя дело (**angry with**, **pleased with**); **about** — про тему, вокруг которой крутятся мысли (**worried about**, **excited about**, **angry about**); **for** — про то, ЗА что (**famous for** — знаменит за что-то)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Здесь работает то же правило, что в прошлой карточке — предлог нужен перед **предметом**. Если после прилагательного идёт целая мысль (подлежащее + глагол), предлог исчезает: **I'm worried about the exam.** (предмет), но **I'm worried the exam is too hard.** (мысль — без предлога). То же с **sorry**, **angry**, **excited**, **pleased**."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У ряда прилагательных предлог зависит от того, что дальше — человек или ситуация: **angry with** (на человека) vs **angry about** (из-за ситуации); **sorry for** (жалко кого-то) vs **sorry about** (сожалеть о чём-то). Плюс ходовые: **pleased with**, **worried about**, **excited about**, **famous for**. Перед предметом предлог есть, перед целой мыслью (подлежащее + глагол) — нет: **worried the exam is hard**. Кальки: не **angry on** ✗, не **famous with** ✗, не **worried for** ✗.",
+      "examples": [
+        {
+          "ru": "Я злюсь на соседа.",
+          "en": "I'm angry with my neighbour."
+        },
+        {
+          "ru": "Босс доволен результатом.",
+          "en": "The boss is pleased with the result."
+        },
+        {
+          "ru": "Лиссабон знаменит своими трамваями.",
+          "en": "Lisbon is famous for its trams."
+        },
+        {
+          "ru": "Дети в предвкушении вечеринки.",
+          "en": "The kids are excited about the party."
+        },
+        {
+          "ru": "Мне жаль твою сестру.",
+          "en": "I feel sorry for your sister."
+        }
+      ],
+      "clarificationOptions": [
+        "Когда angry with, а когда angry about?",
+        "Почему famous for, а не famous with?",
+        "В чём разница sorry for и sorry about?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -422,6 +695,66 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 75,
       "orderInCard": 4
+    },
+    {
+      "cardId": 200,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 95,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 200,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 106,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 200,
+      "exerciseType": "MATCHING",
+      "exerciseId": 30,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 200,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 87,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 200,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 72,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 201,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 96,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 201,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 107,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 201,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 38,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 201,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 88,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 201,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 76,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -440,20 +773,36 @@
       "userInstruction": "ИИ пришлёт предложения с пропуском после глагола. Впишите предлог, если он нужен, — или поставьте прочерк, если глагол идёт без предлога.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "adj_prep_card200_ex1",
+      "cardId": 200,
+      "title": "Предлог после прилагательного",
+      "userInstruction": "ИИ пришлёт предложения с пропуском после прилагательного. Впишите нужный предлог — или поставьте прочерк, если предлог тут не нужен.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "adj_prep_card201_ex1",
+      "cardId": 201,
+      "title": "Человек или ситуация — какой предлог",
+      "userInstruction": "ИИ пришлёт предложения с пропуском после прилагательного. Впишите нужный предлог — или прочерк, если предлог тут не нужен.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
     {
-      "id": "tenses",
-      "nameRus": "Времена",
+      "id": "collocations",
+      "nameRus": "Связки",
       "order": 1
     }
   ],
   "course_categories": [
     {
-      "id": "tenses",
-      "nameRus": "Слова из времён",
-      "groupId": "tenses",
+      "id": "collocations",
+      "nameRus": "Слова из связок",
+      "groupId": "collocations",
       "order": 1,
       "source": "course_words"
     }
@@ -465,7 +814,7 @@
       "translation": "автобус",
       "transcription": "[bʌs]",
       "microtopicId": 67,
-      "categoryId": "tenses"
+      "categoryId": "collocations"
     },
     {
       "id": 396,
@@ -473,7 +822,7 @@
       "translation": "зависеть",
       "transcription": "[dɪˈpend]",
       "microtopicId": 67,
-      "categoryId": "tenses"
+      "categoryId": "collocations"
     },
     {
       "id": 397,
@@ -481,7 +830,7 @@
       "translation": "беспокоиться, переживать",
       "transcription": "[ˈwʌri]",
       "microtopicId": 67,
-      "categoryId": "tenses"
+      "categoryId": "collocations"
     },
     {
       "id": 398,
@@ -489,7 +838,7 @@
       "translation": "отвечать",
       "transcription": "[ˈɑːnsə]",
       "microtopicId": 67,
-      "categoryId": "tenses"
+      "categoryId": "collocations"
     },
     {
       "id": 399,
@@ -497,7 +846,7 @@
       "translation": "звонить, звать",
       "transcription": "[kɔːl]",
       "microtopicId": 67,
-      "categoryId": "tenses"
+      "categoryId": "collocations"
     },
     {
       "id": 400,
@@ -505,7 +854,7 @@
       "translation": "обсуждать",
       "transcription": "[dɪˈskʌs]",
       "microtopicId": 67,
-      "categoryId": "tenses"
+      "categoryId": "collocations"
     },
     {
       "id": 401,
@@ -513,7 +862,79 @@
       "translation": "входить",
       "transcription": "[ˈentə]",
       "microtopicId": 67,
-      "categoryId": "tenses"
+      "categoryId": "collocations"
+    },
+    {
+      "id": 402,
+      "word": "proud",
+      "translation": "гордый",
+      "transcription": "[praʊd]",
+      "microtopicId": 68,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 403,
+      "word": "interested",
+      "translation": "заинтересованный",
+      "transcription": "[ˈɪntrəstɪd]",
+      "microtopicId": 68,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 404,
+      "word": "married",
+      "translation": "женатый, замужем",
+      "transcription": "[ˈmærɪd]",
+      "microtopicId": 68,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 405,
+      "word": "ready",
+      "translation": "готовый",
+      "transcription": "[ˈredi]",
+      "microtopicId": 68,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 406,
+      "word": "angry",
+      "translation": "злой, сердитый",
+      "transcription": "[ˈæŋɡri]",
+      "microtopicId": 68,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 407,
+      "word": "famous",
+      "translation": "знаменитый",
+      "transcription": "[ˈfeɪməs]",
+      "microtopicId": 68,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 408,
+      "word": "pleased",
+      "translation": "довольный",
+      "transcription": "[pliːzd]",
+      "microtopicId": 68,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 409,
+      "word": "excited",
+      "translation": "взволнованный, в предвкушении",
+      "transcription": "[ɪkˈsaɪtɪd]",
+      "microtopicId": 68,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 410,
+      "word": "sorry",
+      "translation": "сожалеющий; жаль",
+      "transcription": "[ˈsɒri]",
+      "microtopicId": 68,
+      "categoryId": "collocations"
     }
   ],
   "table_fill_exercises": [],
@@ -579,6 +1000,68 @@
         }
       ],
       "explanation": "2 — нужно **answered all my questions** (без **to**); 4 — нужно **call you** (без **to**). Остальные верны: **help**, **discuss**, **enter** идут без предлога."
+    },
+    {
+      "id": 87,
+      "statements": [
+        {
+          "en": "I'm proud of my daughter.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She is good in tennis.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Are you ready for the meeting?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Tom is afraid from dogs.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We are interested in old films.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — нужен **good at tennis**; 4 — нужен **afraid of dogs**. Остальные верны: **proud of**, **ready for**, **interested in** стоят с правильными предлогами."
+    },
+    {
+      "id": 88,
+      "statements": [
+        {
+          "en": "She is pleased with her new job.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I'm angry on my sister.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They are excited about the holiday.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He is famous with his paintings.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We are worried about the weather.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — нужен **angry with my sister**; 4 — нужен **famous for his paintings**. Остальные верны: **pleased with**, **excited about**, **worried about**."
     }
   ],
   "word_arrangement_exercises": [
@@ -616,6 +1099,24 @@
         "at"
       ],
       "explanation": "**enter** берёт место напрямую: **enter the kitchen**. **into** — классическая калька с «войти **в**»; **to** и **at** тоже лишние."
+    },
+    {
+      "id": 72,
+      "situationRu": "Ситуация: Мия обожает слушать музыку в любую свободную минуту.",
+      "correctSentence": "She is interested in music.",
+      "words": [
+        "She",
+        "is",
+        "interested",
+        "in",
+        "music"
+      ],
+      "distractors": [
+        "of",
+        "at",
+        "on"
+      ],
+      "explanation": "После **interested** идёт **in**: **interested in music**. **of**, **at**, **on** — чужие предлоги, английский тут берёт только **in**."
     }
   ],
   "multiple_choice_exercises": [
@@ -702,11 +1203,123 @@
         }
       ],
       "explanation": "**discuss** идёт без предлога. **discuss about** — калька с «поговорить о»; **on** тут вообще не к месту."
+    },
+    {
+      "id": 95,
+      "choiceType": "CHOICE",
+      "prompt": "My sister is really good ___ languages.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "at",
+          "isCorrect": true
+        },
+        {
+          "text": "in",
+          "isCorrect": false
+        },
+        {
+          "text": "for",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**good at** — быть способным в чём-то. Русское «хорош **в**» тянет **in**, но по-английски всегда **good at**."
+    },
+    {
+      "id": 106,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Она замужем за учителем.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "She is married with a teacher.",
+          "isCorrect": false
+        },
+        {
+          "text": "She is married on a teacher.",
+          "isCorrect": false
+        },
+        {
+          "text": "She is married to a teacher.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«Женат/замужем за» — **married to**. **married with** и **married on** — кальки с русского «на / с»."
+    },
+    {
+      "id": 96,
+      "choiceType": "CHOICE",
+      "prompt": "Vienna is famous ___ its coffee houses.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "with",
+          "isCorrect": false
+        },
+        {
+          "text": "for",
+          "isCorrect": true
+        },
+        {
+          "text": "about",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**famous for** — знаменит чем-то. **famous with** — калька, такого сочетания нет; **about** тут не к месту."
+    },
+    {
+      "id": 107,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я злюсь на официанта.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I'm angry with the waiter.",
+          "isCorrect": true
+        },
+        {
+          "text": "I'm angry on the waiter.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm angry for the waiter.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Злиться на человека — **angry with**. Русское «на» → **on** — калька, так не говорят."
     }
   ],
   "text_input_exercises": [],
   "dialog_restore_exercises": [],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 30,
+      "taskDescription": "соедини прилагательное с его предлогом.",
+      "pairs": [
+        {
+          "left": "afraid",
+          "right": "of"
+        },
+        {
+          "left": "good",
+          "right": "at"
+        },
+        {
+          "left": "interested",
+          "right": "in"
+        },
+        {
+          "left": "ready",
+          "right": "for"
+        },
+        {
+          "left": "married",
+          "right": "to"
+        }
+      ],
+      "explanation": "Каждое прилагательное держит свой предлог: **afraid of**, **good at**, **interested in**, **ready for**, **married to**. Угадать нельзя — только запомнить парой."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 74,
@@ -745,10 +1358,58 @@
         }
       ],
       "explanation": "**call** берёт человека напрямую: **call you**. Русское «позвонить **мне/тебе**» тянет **to**, но **call to you** ✗; **for** и **at** меняют смысл или ломают фразу."
+    },
+    {
+      "id": 76,
+      "wrongSentence": "I'm really worried for my job interview.",
+      "options": [
+        {
+          "text": "I'm really worried of my job interview.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm really worried about my job interview.",
+          "isCorrect": true
+        },
+        {
+          "text": "I'm really worried on my job interview.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Переживать из-за чего-то — **worried about**. **worried for** и **worried of** — кальки, английский берёт **about**."
     }
   ],
   "construction_meaning_exercises": [],
   "transformation_exercises": [],
-  "categorization_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 38,
+      "taskDescription": "разложи прилагательные по их предлогу.",
+      "categories": [
+        {
+          "title": "of",
+          "items": [
+            "proud",
+            "afraid"
+          ]
+        },
+        {
+          "title": "at",
+          "items": [
+            "good",
+            "bad"
+          ]
+        },
+        {
+          "title": "for",
+          "items": [
+            "ready",
+            "famous"
+          ]
+        }
+      ],
+      "explanation": "**proud of / afraid of**, **good at / bad at**, **ready for / famous for**. Предлог у каждого свой — распределяем по парам, а не по смыслу."
+    }
+  ],
   "find_the_odd_exercises": []
 }
