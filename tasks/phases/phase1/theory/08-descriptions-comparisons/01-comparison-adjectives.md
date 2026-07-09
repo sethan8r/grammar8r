@@ -143,7 +143,7 @@ RU: Моя сестра старше меня.
 
 В прошлой карточке мы строили предложение и брали готовые формы (**taller**, **better**). Теперь — **как самому сделать сравнительную форму** из короткого прилагательного.
 
-**Главный принцип: приклей `-er`**
+**Главный принцип: приклей -er**
 
 Русский, чтобы сравнить, обычно ставит впереди «более» или меняет слово целиком: «дешёвый → деше́вле». Английский с короткими прилагательными не мудрит — просто добавляет в конец `-er`:
 
@@ -161,13 +161,13 @@ RU: Моя сестра старше меня.
 
 - **big** → **bigger**, **hot** → **hotter**, **thin** → **thinner**.
 
-**Слово на `-y` → меняем на `-ier`**
+**Слово на -y → меняем на -ier**
 
 - **happy** → **happier**, **easy** → **easier**, **busy** → **busier**.
 
 Буква `y` после согласной уходит в `-ier` — ровно то же правило, что у глаголов (**study** → **studies**).
 
-**Слово на `-e` → добавляем только `-r`**
+**Слово на -e → добавляем только -r**
 
 Раз `e` уже на конце, второе не нужно:
 
@@ -297,7 +297,7 @@ RU: Моя сестра старше меня.
 - **3 слога и больше** → всегда `more`: **more important**, **more expensive**, **more comfortable**.
 - **2 слога** → чаще `more` (**more modern**, **more careful**), НО слова на `-y` берут `-ier`: **happy** → **happier**, **easy** → **easier**.
 
-**less — обратная сторона `more`**
+**less — обратная сторона more**
 
 Если `more` — это «более», то `less` — «менее». Строится точно так же, впереди слова:
 
@@ -544,27 +544,437 @@ RU: Этот диван удобнее того.
 
 ---
 
+## Microtopic 70 — Superlatives · Превосходная степень
+
+**ID:** 70 | **Order:** 2
+
+---
+
+### Card 206 · Самый из всех: the + -est
+
+**ID:** 206 | **Order:** 1
+
+#### Theory
+
+В прошлой микротеме мы сравнивали **две** вещи: «этот телефон лучше того», `X больше, чем Y`. Но часто нужно другое — выделить **одну вещь из всех**: не «выше брата», а «самый высокий в классе»; не «дешевле», а «самое дешёвое кафе в городе». Это и есть **превосходная степень** — «самый такой-то».
+
+**Почему перед превосходной всегда стоит the**
+
+По-русски мы говорим просто «самый высокий» — никакого артикля, его в русском вообще нет. И вот тут русскоязычный роняет маленькое, но обязательное слово. В английском перед превосходной формой **всегда** стоит `the`: **the tallest**, **the biggest**, **the best**.
+
+Логика простая, и мы её уже проходили в «Основах». `the` — это артикль **уникальности**: он ставится, когда объект единственный, конкретный, тот самый. А «самый высокий» — он и есть один-единственный: выше него в классе нет никого. Поэтому превосходная степень и `the` неразлучны: сама идея «самый» означает «тот самый, единственный», а это ровно работа `the`. Не зубрёжка «ставь the» — а понятная связь: единственный → `the`.
+
+**Ловушка:** уронить `the`. Русское «он самый высокий» тянет за собой **He is tallest** ✗. Без артикля фраза звучит для англичанина оборванной. Правильно — **He is the tallest**.
+
+**Как образовать форму: короткое слово + -est**
+
+С короткими прилагательными англичанин снова не мудрит: как для сравнения он вешал `-er`, так для превосходной вешает `-est`:
+
+- **tall** → **the tallest** (самый высокий)
+- **old** → **the oldest** (самый старший)
+- **cheap** → **the cheapest** (самый дешёвый)
+- **young** → **the youngest** (самый младший)
+
+Орфография хвоста меняется **по тем же трём правилам, что и у `-er`** (мы разбирали их в карточке про короткие сравнительные) — просто на конце теперь `-est`:
+
+- одна гласная + одна согласная → согласную **удваиваем**: **big** → **the biggest**, **hot** → **the hottest**;
+- слово на `-y` → **-iest**: **happy** → **the happiest**, **easy** → **the easiest**;
+- слово на `-e` → добавляем только **-st**: **nice** → **the nicest**, **large** → **the largest**.
+
+**Куда встаёт превосходная форма в предложении**
+
+Скелет тот же, что был у сравнения, только вместо `than Y` в конце обычно уточняют, **среди кого** он самый. Формула: **X + be + the + превосходная форма (+ in / of ...)**.
+
+- **She is the tallest in the class.**
+- **This is the highest mountain in the world.**
+- **Today is the warmest day of the year.**
+
+Подсказка по `in` / `of`: «самый ... где-то» (в классе, в мире, в городе) → берём `in`; «самый ... из какого-то набора» (из всех, из троих) → берём `of`: **the best of all**, **the tallest of the three**.
+
+**Кстати:** ты часто будешь встречать оборот вроде **the best film I've ever seen** — «лучший фильм, что я когда-либо видел». Он соединяет превосходную степень (**the best**) со временем Present Perfect (**I've seen** — «видел за всю жизнь»), которого мы ещё не проходили. Пока просто запомни, что такой оборот есть и он очень частый; разберём его целиком, когда дойдём до Present Perfect.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Превосходная степень — «самый такой-то», выделяет одну вещь из всех, и перед ней ВСЕГДА стоит `the` (артикль уникальности: самый — значит единственный): **the tallest**, а не **tallest** ✗. Короткое слово получает `-est` по тем же орфографическим правилам, что и `-er`: **big** → **the biggest**, **happy** → **the happiest**, **nice** → **the nicest**. Формула: **X + be + the + форма (+ in / of ...)**: **She is the tallest in the class.**
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 858 | Она самая высокая в классе. | She is the tallest in the class. |
+| 859 | Это самая высокая гора в мире. | This is the highest mountain in the world. |
+| 860 | Сегодня самый тёплый день года. | Today is the warmest day of the year. |
+| 861 | Она самая младшая в команде. | She is the youngest on the team. |
+| 862 | Это самое дешёвое кафе в городе. | This is the cheapest café in town. |
+
+---
+
+#### Exercises
+
+**Ex 17 · MultipleChoice · FORWARD_CHOICE** *(ID: 110)*
+
+"Он самый старший в семье."
+
+- **He is the oldest in the family.** ✓
+- He is the most old in the family.
+- He is oldest in the family.
+
+*Explanation:* Короткое слово **old** → **the oldest** (не **the most old**). И нужен **the** — превосходная всегда с артиклем (**He is oldest** ✗).
+
+---
+
+**Ex 18 · TableFill** *(ID: 19)*
+
+Задание: запиши превосходную форму каждого прилагательного.
+
+| Прилагательное | Превосходная форма |
+|----------------|--------------------|
+| big | the biggest |
+| cold | the coldest |
+| happy | the happiest |
+| nice | the nicest |
+| thin | the thinnest |
+| clean | the cleanest |
+
+*Explanation:* Обычно `the` + слово + **-est** (**cold** → **the coldest**, **clean** → **the cleanest**). Особые случаи: удвоение согласной после одной гласной (**big** → **the biggest**, **thin** → **the thinnest**), `y` → **-iest** (**happy** → **the happiest**), `e` → только **-st** (**nice** → **the nicest**).
+
+---
+
+**Ex 19 · WordArrangement** *(ID: 77)*
+
+Ситуация: Гриша жалуется, что сегодня невозможная жара — жарче за всё лето.
+
+Правильное предложение: **This is the hottest day of summer.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| This | — |
+| is | — |
+| the hottest | — |
+| day | — |
+| of | — |
+| summer | — |
+| most hot | ✗ |
+| hoter | ✗ |
+| hotter | ✗ |
+| than | ✗ |
+
+*Explanation:* **hot** кончается на одну гласную + согласную → удвоение: **the hottest**. **hoter** — потерянное удвоение, **most hot** так не строится, **hotter** — это сравнительная форма (для двух вещей), а **than** тут не нужен.
+
+---
+
+**Ex 20 · TrueFalse** *(ID: 91)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | This is the biggest room in the house. | ✓ |
+| 2 | He is fastest in the team. | ✗ |
+| 3 | This is the coldest winter in years. | ✓ |
+| 4 | She is the most young in the office. | ✗ |
+| 5 | It's the cleanest café in town. | ✓ |
+
+*Explanation:* 2 — пропущен **the**, нужно **the fastest**; 4 — **young** короткое, поэтому **the youngest**, а не **the most young**. Остальные собраны верно.
+
+---
+
+#### AI Exercise
+
+**ID:** comp_card206_ex1
+**Title:** "Образуй превосходную форму (-est)"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложения с пропуском и коротким прилагательным в скобках. Впишите его превосходную форму."
+**Prompt Template:** "Дай пользователю по одному короткому английскому предложению за раз (всего 3-4), в каждом — пропуск [___] и рядом в скобках базовое КОРОТКОЕ прилагательное. Пропуск заменяет ЦЕЛИКОМ «the + превосходную форму на -est», то есть верный ответ выглядит как the tallest, the biggest, the happiest — пользователь должен сам поставить и the, и окончание -est. Бери одно-двусложные слова, образующие форму через -est: tall, cheap, old, young, short, cold, big, hot, thin, happy, easy, busy, nice, large. Обязательно чередуй три орфографических случая: (1) просто the + -est (tall → the tallest); (2) удвоение согласной после одной гласной (big → the biggest, hot → the hottest); (3) y → -iest (happy → the happiest) и e → только -st (nice → the nicest). Проверяй две вещи: есть ли the и верна ли орфография формы -est. Если ошибка — покажи правильный ответ и в одном предложении объясни по-русски, что не так (забыл the / удвоение согласной / y меняется на iest / просто -st). Не придирайся к знакам препинания и заглавным буквам — оценивай только превосходную форму."
+
+Пример вывода AI: 'Впишите превосходную форму: 1. This is [___] (big) room in the house. 2. Today is [___] (hot) day of the year. 3. She is [___] (happy) person here. 4. This is [___] (nice) café in town.'
+
+#### Clarification Options
+
+- Почему перед превосходной всегда the, а по-русски артикля нет?
+- Чем -est отличается от -er?
+- Когда после превосходной идёт in, а когда of?
+
+---
+
+### Card 207 · Длинные слова: the most и the least
+
+**ID:** 207 | **Order:** 2
+
+#### Theory
+
+Короткие слова берут `-est`. Но попробуй приклеить его к длинному прилагательному — **beautifulest**? **importantest**? Язык об это спотыкается, ровно как со сравнением. И решение то же самое: у длинных слов впереди ставят отдельное слово — только теперь не `more`, а **`the most`**:
+
+- **the most beautiful** — самый красивый
+- **the most important** — самый важный
+- **the most popular** — самый популярный
+- **the most expensive** — самый дорогой
+
+Заметь: `the` никуда не делся — он по-прежнему первым, потому что «самый» всё так же означает «единственный, тот самый».
+
+**Где граница — короткое слово или длинное**
+
+Считаем слоги, правило зеркалит сравнительную степень:
+
+- **1 слог** → `-est`: **cheap** → **the cheapest**, **high** → **the highest**;
+- **3 слога и больше** → `the most`: **the most important**, **the most dangerous**;
+- **2 слога** → чаще `the most` (**the most modern**), но слова на `-y` берут `-iest`: **happy** → **the happiest**.
+
+**the least — обратная сторона the most**
+
+Как у сравнения рядом с `more` жил `less` («менее»), так у превосходной рядом с `the most` живёт **`the least`** — «наименее, самый не-». Иногда одну и ту же мысль удобнее сказать «с другого конца»:
+
+- **This is the least expensive option.** — Это наименее дорогой вариант (то есть самый дешёвый, но взгляд с обратной стороны).
+- **He is the least patient person here.** — Он наименее терпеливый здесь.
+
+**Ловушка (очень частая):** русское «самый лучший», «самый дешёвый» толкает воткнуть `the most` **и** форму на `-est` разом: **the most cheapest** ✗, **the most best** ✗. Так нельзя — способ выбирают **один**: либо `the most` (для длинных слов), либо `-est` (для коротких). **the cheapest** ✓ или **the most expensive** ✓ — но не два механизма в одном слове.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Длинные прилагательные образуют превосходную степень через `the most` (не `-est`): **the most important**, **the most popular**. Граница по слогам, как у сравнения: 1 слог → `-est`, 3+ → `the most`, 2 слога — чаще `the most`, кроме слов на `-y`. `the least` — «наименее», зеркало `the most`: **the least expensive**. Ловушка — смешать оба способа: **the most cheapest** ✗ (либо `the most`, либо `-est`).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 863 | Это самый популярный фильм года. | This is the most popular film of the year. |
+| 864 | Это самая важная часть работы. | This is the most important part of the work. |
+| 865 | Это самое опасное животное здесь. | This is the most dangerous animal here. |
+| 866 | Это наименее дорогой вариант. | This is the least expensive option. |
+| 867 | Она самый интересный человек в офисе. | She is the most interesting person in the office. |
+
+---
+
+#### Exercises
+
+**Ex 21 · Categorization** *(ID: 40)*
+
+Задание: разложи прилагательные по способу образования превосходной степени.
+
+| -est | the most |
+|------|----------|
+| cheap | important |
+| warm | delicious |
+| strong | difficult |
+| cold | wonderful |
+
+*Explanation:* Короткие (1 слог) идут через **the ...-est**: the cheapest, the warmest. Длинные (3+ слога) — через **the most**: the most important, the most delicious.
+
+---
+
+**Ex 22 · MultipleChoice · CHOICE** *(ID: 100)*
+
+"This is the ___ interesting book of all."
+
+- more
+- **most** ✓
+- interestingest
+
+*Explanation:* **interesting** длинное → **the most interesting**. **more** дало бы сравнительную степень (для двух), а **interestingest** так не строится.
+
+---
+
+**Ex 23 · ErrorCorrection** *(ID: 79)*
+
+"This is the most cheapest phone in the shop."
+
+- This is the most cheap phone in the shop.
+- This is most cheapest phone in the shop.
+- **This is the cheapest phone in the shop.** ✓
+
+*Explanation:* Нельзя лепить **the most** и **-est** разом (**the most cheapest** ✗). **cheap** короткое → **the cheapest**.
+
+---
+
+**Ex 24 · WordArrangement** *(ID: 78)*
+
+Ситуация: Настя говорит про начальника — важнее него в офисе никого нет.
+
+Правильное предложение: **He is the most important person here.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| He | — |
+| is | — |
+| the most important | — |
+| person | — |
+| here | — |
+| importantest | ✗ |
+| more important | ✗ |
+| the most importantest | ✗ |
+| than | ✗ |
+| importanter | ✗ |
+
+*Explanation:* **important** длинное → **the most important**. **importantest** и **importanter** так не строятся (у длинного слова только **the most**), **more important** — сравнительная степень, **the most importantest** — двойная форма разом, **than** тут не нужен.
+
+---
+
+#### AI Exercise
+
+**ID:** comp_card207_ex1
+**Title:** "-est или the most"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложения с пропуском и прилагательным в скобках. Впишите превосходную форму — через -est или через the most."
+**Prompt Template:** "Дай пользователю по одному короткому английскому предложению за раз (всего 3-4), в каждом — пропуск [___] и в скобках базовое прилагательное. Пропуск заменяет ЦЕЛИКОМ превосходную форму вместе с the: короткое слово (1 слог или двусложное на -y) → the + -est/-iest (cheap → the cheapest, happy → the happiest), длинное (3+ слога или двусложное не на -y) → the most + слово (expensive → the most expensive, popular → the most popular, important → the most important). Чередуй короткие и длинные так, чтобы верный ответ был то -est, то the most. Бери прилагательные: cheap, tall, big, high, young, happy (короткие) и expensive, popular, important, dangerous, beautiful, interesting (длинные). Проверяй: верно ли выбран способ (-est или the most), есть ли the и нет ли смешения двух способов (the most cheapest ✗). Если ошибка — покажи правильный ответ и в одном предложении объясни по-русски, почему тут -est или the most (по числу слогов). Не придирайся к знакам препинания и заглавным буквам — оценивай только форму превосходной степени."
+
+Пример вывода AI: 'Впишите превосходную форму: 1. This is [___] (popular) film of the year. 2. He is [___] (young) in the group. 3. This is [___] (dangerous) road in the area. 4. Today is [___] (cheap) day for tickets.'
+
+#### Clarification Options
+
+- Как понять, когда -est, а когда the most?
+- Почему «the most cheapest» — ошибка?
+- Что значит the least и когда он нужен?
+
+---
+
+### Card 208 · Исключения: good, bad, far
+
+**ID:** 208 | **Order:** 3
+
+#### Theory
+
+Почти все прилагательные образуют степени по правилам, которые мы разобрали: `-er` / `-est` для коротких, `more` / `the most` для длинных. Но три очень частых слова живут по-своему — их формы надо просто **запомнить**, как неправильные глаголы. Русскому это как раз близко: у нас ведь тоже «хороший → **лучше** → **лучший**», а не «хорошее» — корень меняется целиком. Английский делает то же самое, так что бояться нечего.
+
+**Три неправильных — сразу обе степени (сравнительная и превосходная):**
+
+- **good** → **better** → **the best** (хороший → лучше → лучший)
+- **bad** → **worse** → **the worst** (плохой → хуже → худший)
+- **far** → **farther** → **the farthest** (далёкий → дальше → самый дальний)
+
+Первые две мы уже мельком видели: `better` и `worse` попадались ещё в «Частях речи» и в карточке про шаблон сравнения. Теперь закрываем тройку целиком и добавляем превосходную вершину — **the best**, **the worst**.
+
+**Про far — коротко.** 
+
+У него две сравнительные формы: **farther** и **further**. Пока держи простое правило: **farther** — про **расстояние** (ещё дальше по дороге), а **further** тоже существует и используется шире (в том числе в значении «дополнительный»). Полную разницу разберём отдельно; сейчас достаточно знать, что `far` неправильное и что про расстояние чаще берут **farther / the farthest**.
+
+**Ловушки:** мозг хочет применить обычное правило и лепит формы, которых не существует:
+- **the goodest** ✗ → **the best** ✓
+- **the baddest** ✗ → **the worst** ✓
+- **more better** ✗ → **better** ✓ (слово уже само несёт сравнение, второй раз усиливать нечем)
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Три частых прилагательных образуют степени не по правилу — их учат наизусть, как неправильные глаголы (в русском так же: хороший → лучше → лучший): **good** → **better** → **the best**; **bad** → **worse** → **the worst**; **far** → **farther** → **the farthest**. Ловушки: **goodest** ✗, **baddest** ✗, **more better** ✗ — таких форм нет.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 868 | Это лучший день в моей жизни. | This is the best day of my life. |
+| 869 | Сегодня погода хуже, чем вчера. | Today the weather is worse than yesterday. |
+| 870 | Это худшее кафе в городе. | This is the worst café in town. |
+| 871 | Какой магазин дальше отсюда? | Which shop is farther from here? |
+| 872 | Он лучший учитель в школе. | He is the best teacher in the school. |
+
+---
+
+#### Exercises
+
+**Ex 25 · TableFill** *(ID: 20)*
+
+Задание: запиши превосходную форму каждого прилагательного. Осторожно — не все по правилу.
+
+| Прилагательное | Превосходная форма |
+|----------------|--------------------|
+| good | the best |
+| bad | the worst |
+| far | the farthest |
+| big | the biggest |
+| happy | the happiest |
+
+*Explanation:* **good**, **bad**, **far** — неправильные, форму учат наизусть: **the best**, **the worst**, **the farthest**. А **big** и **happy** идут по обычному правилу: **the biggest**, **the happiest**.
+
+---
+
+**Ex 26 · MultipleChoice · FORWARD_CHOICE** *(ID: 111)*
+
+"Это худший фильм года."
+
+- **This is the worst film of the year.** ✓
+- This is the baddest film of the year.
+- This is the most bad film of the year.
+
+*Explanation:* **bad** неправильное → **the worst** (не **the baddest** и не **the most bad**).
+
+---
+
+**Ex 27 · ErrorCorrection** *(ID: 80)*
+
+"This is the goodest pizza in town."
+
+- This is the most good pizza in town.
+- **This is the best pizza in town.** ✓
+- This is the better pizza in town.
+
+*Explanation:* **good** неправильное → **the best** (не **goodest** и не **the most good**). **the better** — сравнительная форма (для двух), а тут превосходная — **the best**.
+
+---
+
+**Ex 28 · WordArrangement** *(ID: 79)*
+
+Ситуация: Коля уверяет, что лучше кофе, чем в этой кофейне, в городе не найти.
+
+Правильное предложение: **This is the best coffee in town.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| This | — |
+| is | — |
+| the best | — |
+| coffee | — |
+| in town | — |
+| the goodest | ✗ |
+| the most best | ✗ |
+| better | ✗ |
+
+*Explanation:* **good** неправильное → **the best**. **the goodest** не существует, **the most best** — двойная форма разом, **better** — сравнительная (для двух вещей).
+
+---
+
+#### Clarification Options
+
+- Почему good → best, а не goodest?
+- Чем worse отличается от the worst?
+- В чём разница farther и further?
+
+---
+
+### Words8r Sync · Слова описаний
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| high | высокий | [haɪ] |
+| strong | сильный | [strɒŋ] |
+| warm | тёплый | [wɔːm] |
+| popular | популярный | [ˈpɒpjələ] |
+| important | важный | [ɪmˈpɔːtənt] |
+| dangerous | опасный | [ˈdeɪndʒərəs] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 12 | 13 |
 | Category | 2 | 3 |
-| Microtopic | 69 | 70 |
-| Card | 205 | 206 |
-| Example | 857 | 858 |
-| Слова курса (course_word) | 416 | 417 |
-| MultipleChoice · CHOICE | 99 | 100 |
-| MultipleChoice · FORWARD_CHOICE | 109 | 110 |
+| Microtopic | 70 | 71 |
+| Card | 208 | 209 |
+| Example | 872 | 873 |
+| Слова курса (course_word) | 422 | 423 |
+| MultipleChoice · CHOICE | 100 | 101 |
+| MultipleChoice · FORWARD_CHOICE | 111 | 112 |
 | MultipleChoice · REVERSE_CHOICE | 31 | 32 |
-| TrueFalse | 90 | 91 |
-| WordArrangement | 76 | 77 |
+| TrueFalse | 91 | 92 |
+| WordArrangement | 79 | 80 |
 | TextInput | 38 | 39 |
 | Matching | 30 | 31 |
 | Transformation | 26 | 27 |
-| ErrorCorrection | 78 | 79 |
-| TableFill | 18 | 19 |
+| ErrorCorrection | 80 | 81 |
+| TableFill | 20 | 21 |
 | FindTheOdd | 40 | 41 |
 | ConstructionMeaning | 13 | 14 |
-| Categorization | 39 | 40 |
+| Categorization | 40 | 41 |
 | DialogRestore | 14 | 15 |
