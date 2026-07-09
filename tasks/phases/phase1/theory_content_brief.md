@@ -517,6 +517,9 @@ Grammar8r — Android-приложение для изучения англий�
 
 ### 18.2. Make vs Do
 
+> ⚠️ ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026): тема теперь в «🌿 отдыхе от времён №3» (после Compare PP vs PPC,
+> перед Past Perfect) — см. `grammar8r_plan.md`. Бриф ниже актуален, позиция в §18 устарела.
+
 Микротемы:
 1. **Принцип разграничения** — make = создать/произвести результат, do = выполнить процесс/деятельность. Нет строгого правила — надо учить устойчивые сочетания.
 2. **Make: устойчивые сочетания** — make a decision, make a mistake, make an effort, make a plan, make a call, make money, make a noise, make a difference, make friends, make progress, make sense.
@@ -524,6 +527,9 @@ Grammar8r — Android-приложение для изучения англий�
 4. **Ловушки и частые ошибки** — "make homework" (ошибка), "do a mistake" (ошибка). Упражнения на разграничение.
 
 ### 18.3. So/Such и Too/Enough
+
+> ⚠️ ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026): тема теперь в «🌿 отдыхе от времён №3» (вместе с Make vs Do,
+> перед Past Perfect) — см. `grammar8r_plan.md`. Бриф ниже актуален, позиция в §18 устарела.
 
 Микротемы:
 1. **so + прилагательное/наречие** vs **such + (a/an) + существительное** — одно значение, разная конструкция. "The film was **so** good." / "It was **such** a good film." Ловушка: "It was so a good film" (ошибка).
@@ -533,6 +539,9 @@ Grammar8r — Android-приложение для изучения англий�
 
 ### 18.4. Глагол get — часть 1: базовые значения
 
+> ⚠️ ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026): тема теперь в «🌿 отдыхе от времён №4» (после Past Perfect
+> Continuous, перед Future Continuous) — см. `grammar8r_plan.md`. Бриф ниже актуален, позиция в §18 устарела.
+
 Микротемы:
 1. **get = получать / доставать** — get a letter, get a gift, get tickets, get information. Самое базовое значение.
 2. **get = становиться (+ прилагательное)** — get tired, get cold, get angry, get married, get better, get worse, get lost, get ready. Процесс изменения состояния. Ловушка: в русском используем "стать/становиться", в английском часто get.
@@ -540,6 +549,11 @@ Grammar8r — Android-приложение для изучения англий�
 4. **get + существительное/объект** — get a job, get a taxi, get dressed, get up. Устойчивые сочетания.
 
 ### 18.5. Linking Words (Связующие слова)
+
+> ⚠️ ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026): тема теперь в «🌿 отдыхе от времён №1» (после Past Continuous,
+> перед Future Simple) — см. `grammar8r_plan.md`. Там же две содержательные пометки для автора темы:
+> could в примерах цели — превью-строкой (could = прошедшая форма can, разбор в Модальных глаголах);
+> "It's been a while!" — застывшая фраза с плашкой про Present Perfect. Бриф ниже актуален, позиция в §18 устарела.
 
 Микротемы:
 1. **Причина: because / since / as / due to / because of** — "I stayed home **because** it was raining." Разница структур: because + clause, because of + noun ("**because of** the rain").

@@ -1119,8 +1119,56 @@ theory/
 │   │   "I was cooking dinner. Just then, the phone rang." — типичная структура фон→вторжение
 │   └── 🆕 Live Practice · Закрепление Past Continuous с ИИ — финальная AI-микротема (структура как Present Simple MT56; см. ⚠️-канон «ФИНАЛЬНАЯ AI-МИКРОТЕМА» выше)
 │
+├── 🌿 ОТДЫХ ОТ ВРЕМЁН №1 (после Past-пары, перед Future) — Linking Words: «свяжи то, что уже
+│   умеешь» — связная речь/нарратив из настоящего и прошлого; карточка `while` (`While I was
+│   cooking...`) закрепляется на свежем Past Continuous. Осознанно жертвуем одной темой перед
+│   будущим ради связной речи (future-early замысел в основном сохранён).
+│
+├── Linking Words (Связующие слова)  ← ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) из блока «после всех времён»
+│   ├── Причина: because / since / as / due to / because of
+│   ├── Результат: so / therefore / as a result
+│   ├── Противопоставление: but / however / although / even though / whereas
+│   ├── Despite / In spite of — противопоставление с noun/-ing (не путать с although)
+│   ├── while — отдельная карточка (три значения одного слова)
+│   │   1. Союз времени — два действия происходят одновременно
+│   │      "While I was cooking, he was watching TV." (пока / в то время как)
+│   │      Ключ: оба действия идут параллельно. Часто с Past Continuous.
+│   │   2. Союз уступки — противопоставление идей (формальный регистр)
+│   │      "While I agree with you, I think there's more to it." (хотя / несмотря на то что)
+│   │      Ключ: замена although в официальной речи, письме, деловом английском.
+│   │      "Although" и "while" здесь взаимозаменяемы — but "while" звучит формальнее.
+│   │   3. Существительное — a while = некоторое время (совсем другая часть речи!)
+│   │      "Wait a while." / "It's been a while!" / "once in a while" / "for a while" / "in a while"
+│   │      Ловушка: "Wait while" (ошибка) — без артикля "while" не существительное.
+│   │      for a while (продолжительность: я делал это некоторое время) vs
+│   │      in a while (момент в будущем: увидимся через некоторое время)
+│   │      ⚠️ "It's been a while!" — давать как ЗАСТЫВШУЮ фразу-приветствие («давно не виделись!»)
+│   │      с кратким «почему так»: внутри спряталось время Present Perfect (it has been = «прошло
+│   │      [с тех пор, как виделись]»), оно ещё не пройдено — за него отвечает тема Present Perfect,
+│   │      там и разберём. Конвенция превью — как used to / would like (Card 140).
+│   │   Упражнение: 5 предложений — пользователь определяет значение (время / уступка / существительное)
+│   │   + трансформация: "Although it was late, we continued." → переписать с while
+│   ├── Добавление: also / too / as well / moreover / furthermore
+│   │   + отдельная карточка: also vs the same — частая путаница у русскоговорящих.
+│   │   "I also think so" (тоже думаю так) vs "I think the same" (думаю то же самое).
+│   │   "The same as" — конструкция сравнения. similarly / equally — формальные аналоги.
+│   └── Цель: три способа сказать "чтобы"
+│       to (infinitive): I went to the shop to buy milk. — самый простой, нейтральный
+│       in order to: He studied hard in order to pass the exam. — чуть формальнее, акцент на цели
+│       so (that) + subject + verb: She opened the window so they could breathe. — когда у цели свой субъект
+│       Ловушка: "so they can" = "чтобы они могли" — so здесь не "так", а союз цели
+│       Разница to vs so that: "I called her to talk" (я сам говорю) vs "I called her so that she could hear" (она слышит)
+│
+│   ⚠️ could в примерах цели (`so they could breathe`, `so that she could hear`) — ещё НЕ пройден:
+│   Основы (MT21) дали только can, тема «Модальные глаголы» — в конце курса. В карточке «Цель»
+│   дать could превью-строкой с кратким «почему»: could = прошедшая форма can («мог/могла») —
+│   Past-пара только что пройдена, форма встаёт органично; подробный разбор — в «Модальных
+│   глаголах». Конвенция превью — как used to / would like (Card 140).
+│
 │   ⚠️ ПЕРЕНОС (июнь 2026): блок будущего (Future Simple, going to, Compare) поднят СЮДА —
-│   раньше стоял после Past Perfect Continuous. Причины: (1) до этого места пользователь
+│   раньше стоял после Past Perfect Continuous. NB (09.07.2026): между Past Continuous и будущим
+│   теперь стоит «🌿 отдых №1 · Linking Words» — будущее отодвинуто на одну тему, замысел в основном цел.
+│   Причины: (1) до этого места пользователь
 │   не умеет говорить о будущем вообще — а это одна из первых потребностей реальной речи;
 │   (2) классическая прогрессия A1→A2: will/going to дают ДО перфектов; (3) going to
 │   опирается на be + -ing — Present/Past Continuous уже отработаны. Future Continuous и
@@ -1160,6 +1208,47 @@ theory/
 │   │   "Look at those clouds — it's going to rain" (вижу признаки прямо сейчас)
 │   ├── Ловушка: "Tomorrow I will meet him" (если встреча запланирована → going to)
 │   └── Упражнение: ситуации → выбрать will или going to и объяснить
+│
+├── 🌿 ОТДЫХ ОТ ВРЕМЁН №2 (после future-блока, перед Present Perfect) — методический сброс перед
+│   самой тяжёлой для русскоязычных темой. Тема ниже почти не зависит от времён и рано полезна на практике.
+│
+├── Indirect Questions (Косвенные вопросы)  ← ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) из низа курса (стояли
+│   после Reported Speech). Причины: (1) ядро («порядок слов как в утверждении») держится только на
+│   Present + to be + уже пройденных Past/Future — от Reported Speech НЕ зависит (зависимость обратная:
+│   все времена нужны Reported Speech); (2) A2-выживание — вежливо спросить дорогу у незнакомца, нужно
+│   рано; (3) сброс перед Present Perfect. Все embed-примеры («where he went», «whether he'll be there»)
+│   к этому месту доступны — Past Simple и will уже пройдены.
+│   Indirect Questions = встраиваешь вопрос внутрь своего предложения чтобы звучать вежливее или точнее.
+│   ├── Что такое косвенный вопрос и зачем он нужен
+│   │   Прямой вопрос: "Where is the station?" — прямо и коротко, но звучит грубовато в некоторых контекстах
+│   │   Косвенный: "Could you tell me where the station is?" — тот же смысл, но вежливее
+│   │   Две функции: вежливость (просьба к незнакомцу) и неуверенность ("I don't know what she wants")
+│   ├── Главное правило: порядок слов как в утверждении
+│   │   Прямой: "Where IS the station?" (вопросительный порядок: глагол перед подлежащим)
+│   │   Косвенный: "...where the station IS" (обычный порядок: подлежащее перед глаголом)
+│   │   "Do you know what time IT IS?" — не "what time IS IT" (ошибка)
+│   │   "Can you tell me where SHE LIVES?" — не "where DOES SHE LIVE" (do/does убирается)
+│   │   Ловушка: "Can you tell me where IS the station?" — самая частая ошибка русскоязычных.
+│   │   По-русски "скажи мне, где НАХОДИТСЯ станция?" — порядок слов совпадает с прямым вопросом.
+│   │   В английском так нельзя: вопросительный порядок внутри косвенного вопроса = ошибка.
+│   │   Ловушка №2 (выброс глагола — отдельно от порядка слов): "I forget where my glasses" ✗
+│   │   → "I forget where my glasses ARE" ✓. Русское "где мои очки" — БЕЗ глагола (нулевая связка),
+│   │   поэтому мозг ставит точку после существительного. Но придаточное после where/what/who —
+│   │   это полноценное предложение, ему обязателен свой глагол (обычно be): "...where my glasses are",
+│   │   "...what the problem is", "...who he is". Это тот же корень "английский требует глагол там,
+│   │   где в русском его нет", что и в Основах (to be) и в Present Continuous Card 181 ("I working" ✗) —
+│   │   при написании темы подать callback'ом к нему. Работает при любом времени главной части
+│   │   (I forget / I am always forgetting / I don't know — везде придаточному нужен are/is).
+│   ├── Вводные фразы для косвенных вопросов
+│   │   Вопросительные: Could you tell me...? / Do you know...? / Can you explain...? / Would you mind telling me...?
+│   │   Утвердительные: I don't know... / I'm not sure... / I wonder... / I have no idea... / I can't remember...
+│   │   "I don't know where he went." / "I'm not sure what she wants." / "I wonder why they left."
+│   ├── If / whether — когда нет вопросительного слова
+│   │   Прямой вопрос без question word: "Is she coming?" — нет where/what/when
+│   │   Косвенный: "Do you know IF she is coming?" / "I don't know WHETHER he'll be there."
+│   │   if vs whether: оба OK, whether чуть формальнее. whether...or not — устойчивая конструкция.
+│   │   "I don't know whether to go or not." — whether + инфинитив (без субъекта) тоже возможно
+│   └── AI-упражнения: переформулировать прямой вопрос в косвенный; заполнить пропуск в косвенном вопросе
 │
 ├── Present Perfect  (Кстати: ты часто будешь встречать оборот вроде the best film I've ever seen — «лучший фильм, что я когда-либо видел». 
 │   │                  Он соединяет превосходную степень (the best) со временем Present Perfect (I've seen — «видел за всю жизнь»), которого мы ещё не проходили. 
@@ -1220,6 +1309,21 @@ theory/
 │   │   PPC + for/since: непрерывный процесс ("I've been waiting for an hour")
 │   └── Глаголы состояния (know/love/want) не идут в Continuous — только PP
 │
+├── 🌿 ОТДЫХ ОТ ВРЕМЁН №3 (после Present Perfect Continuous, перед Past Perfect) — две лёгкие
+│   лексические темы, чтобы разгрузить мозг в середине перфектного марафона. Обе почти не зависят от времён.
+│
+├── Make vs Do  ← ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) из блока «после всех времён» в «отдых от времён»
+│   └── make: create/produce result; do: perform activity/process; устойчивые сочетания обоих
+│
+├── So/Such и Too/Enough  ← ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) в «отдых от времён» (нужен только to+V1)
+│   ├── so + adj/adv vs such + (a/an) + noun; so/such...that (результат)
+│   ├── too + adj/adv + to + V1 (слишком); adj/adv + enough + to + V1 (достаточно)
+│   └── ⚠️ Обязательно рассказать разницу so vs too как интенсификаторов:
+│       so = "так/настолько" — нейтральная интенсивность: "It's so cold!" (так холодно — просто акцент)
+│       too = "слишком" — негативный предел, "уже плохо/невозможно": "It's too cold to go out." (слишком холодно — нельзя выйти)
+│       Русскоязычные путают: "It's too beautiful" ✗ (если красота не мешает — это so, не too)
+│       too почти всегда несёт смысл "это проблема" — "too tired", "too late", "too expensive"
+│
 ├── Past Perfect
 │   ├── Карточка приоритета: глаголы (V1 / V2 / V3)
 │   ├── Ощущение времени: что это для носителя
@@ -1246,6 +1350,13 @@ theory/
 │   ⚠️ Здесь раньше стояли Future Simple (will), Future (going to) и Compare: will vs going to —
 │   перенесены ВЫШЕ, после Past Continuous (июнь 2026). Полное содержание блоков — там.
 │
+├── 🌿 ОТДЫХ ОТ ВРЕМЁН №4 (после Past Perfect Continuous, перед Future Continuous) — лёгкая лексика.
+│
+├── Глагол get — часть 1: базовые значения  ← ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) в «отдых от времён»
+│   ├── get = получать (get a letter, get a gift)
+│   ├── get = становиться (get tired, get cold, get married, get better)
+│   └── get = добираться (get home, get to work)
+│
 ├── Future Continuous  ← остаётся здесь: требует логики Continuous, после перфектов
 │   ├── Карточка приоритета: глаголы (V1 / V2 / V3)
 │   ├── Ощущение времени: что это для носителя
@@ -1266,13 +1377,13 @@ theory/
 │   ├── Карточки: will have + V3, употребление, by + время
 │   └── 🆕 Live Practice · Закрепление Future Perfect с ИИ — финальная AI-микротема (структура как Present Simple MT56; см. ⚠️-канон «ФИНАЛЬНАЯ AI-МИКРОТЕМА» выше)
 │
-├── Make vs Do  ← после всех времён
-│   └── make: create/produce result; do: perform activity/process; устойчивые сочетания обоих
+│   ⚠️ Make vs Do — ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) в «🌿 отдых от времён №3» (перед Past Perfect).
 │
 ├── 🆕 Герундий после глагола  ← перенесено из «Доп. конструкций» (июнь 2026)
 │   ⚠️ Причина переноса: тема «Инфинитив» (Устройство языка) обещает разбор глаголов с -ing,
 │   а лежала она через 20+ тем, после Разговорного английского. Здесь -ing форма уже родная
-│   (все Continuous пройдены), и тема встаёт рядом с другими глагольными (Make vs Do, get).
+│   (все Continuous пройдены), и тема встаёт в блоке глагольных тем (рядом с Linking Words,
+│   Модальными). Make vs Do и get при этом вынесены выше — в «🌿 отдых от времён».
 │   В «Инфинитиве» есть карточка-анонс, ссылающаяся сюда.
 │   ├── Глаголы + V-ing: enjoy, finish, avoid, keep, mind, suggest — "I enjoy reading."
 │   │   Ловушка: "I enjoy to read" ✗ — эти глаголы инфинитив не принимают
@@ -1282,50 +1393,14 @@ theory/
 │   │   "Remember to call her." (не забудь) vs "I remember calling her." (помню как звонил)
 │   └── Герундий после предлогов: good at swimming, interested in learning, before leaving
 │
-├── So/Such и Too/Enough
-│   ├── so + adj/adv vs such + (a/an) + noun; so/such...that (результат)
-│   ├── too + adj/adv + to + V1 (слишком); adj/adv + enough + to + V1 (достаточно)
-│   └── ⚠️ Обязательно рассказать разницу so vs too как интенсификаторов:
-│       so = "так/настолько" — нейтральная интенсивность: "It's so cold!" (так холодно — просто акцент)
-│       too = "слишком" — негативный предел, "уже плохо/невозможно": "It's too cold to go out." (слишком холодно — нельзя выйти)
-│       Русскоязычные путают: "It's too beautiful" ✗ (если красота не мешает — это so, не too)
-│       too почти всегда несёт смысл "это проблема" — "too tired", "too late", "too expensive"
+│   ⚠️ So/Such и Too/Enough — ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) в «🌿 отдых от времён №3» (перед Past Perfect).
 │
-├── Глагол get — часть 1: базовые значения
-│   ├── get = получать (get a letter, get a gift)
-│   ├── get = становиться (get tired, get cold, get married, get better)
-│   └── get = добираться (get home, get to work)
+│   ⚠️ Глагол get — часть 1 — ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) в «🌿 отдых от времён №4» (перед Future Continuous).
 │
-├── Linking Words (Связующие слова)
-│   ├── Причина: because / since / as / due to / because of
-│   ├── Результат: so / therefore / as a result
-│   ├── Противопоставление: but / however / although / even though / whereas
-│   ├── Despite / In spite of — противопоставление с noun/-ing (не путать с although)
-│   ├── while — отдельная карточка (три значения одного слова)
-│   │   1. Союз времени — два действия происходят одновременно
-│   │      "While I was cooking, he was watching TV." (пока / в то время как)
-│   │      Ключ: оба действия идут параллельно. Часто с Past Continuous.
-│   │   2. Союз уступки — противопоставление идей (формальный регистр)
-│   │      "While I agree with you, I think there's more to it." (хотя / несмотря на то что)
-│   │      Ключ: замена although в официальной речи, письме, деловом английском.
-│   │      "Although" и "while" здесь взаимозаменяемы — but "while" звучит формальнее.
-│   │   3. Существительное — a while = некоторое время (совсем другая часть речи!)
-│   │      "Wait a while." / "It's been a while!" / "once in a while" / "for a while" / "in a while"
-│   │      Ловушка: "Wait while" (ошибка) — без артикля "while" не существительное.
-│   │      for a while (продолжительность: я делал это некоторое время) vs
-│   │      in a while (момент в будущем: увидимся через некоторое время)
-│   │   Упражнение: 5 предложений — пользователь определяет значение (время / уступка / существительное)
-│   │   + трансформация: "Although it was late, we continued." → переписать с while
-│   ├── Добавление: also / too / as well / moreover / furthermore
-│   │   + отдельная карточка: also vs the same — частая путаница у русскоговорящих.
-│   │   "I also think so" (тоже думаю так) vs "I think the same" (думаю то же самое).
-│   │   "The same as" — конструкция сравнения. similarly / equally — формальные аналоги.
-│   └── Цель: три способа сказать "чтобы"
-│       to (infinitive): I went to the shop to buy milk. — самый простой, нейтральный
-│       in order to: He studied hard in order to pass the exam. — чуть формальнее, акцент на цели
-│       so (that) + subject + verb: She opened the window so they could breathe. — когда у цели свой субъект
-│       Ловушка: "so they can" = "чтобы они могли" — so здесь не "так", а союз цели
-│       Разница to vs so that: "I called her to talk" (я сам говорю) vs "I called her so that she could hear" (она слышит)
+│   ⚠️ Linking Words (Связующие слова) — ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) в «🌿 отдых от времён №1»
+│   между Past Continuous и Future Simple (полное содержание — там). Причина: карточка `while`
+│   (`While I was cooking...`) опирается на Past Continuous, а связки дают связную речь/нарратив
+│   сразу, как только юзер умеет описывать настоящее и прошлое.
 │
 ├── Модальные глаголы  ← после всех времён, перед разговорным
 │   ├── Что такое модальный глагол — не спрягается, всегда + V1 без to
@@ -1373,40 +1448,10 @@ theory/
 │   ├── Reported Questions — порядок слов как в утверждении
 │   └── Reported Commands — told/asked + to + V1
 │
-├── Indirect Questions (Косвенные вопросы)
-│   Отдельная тема после Reported Speech — смежная идея, но другой паттерн и другая функция.
-│   Reported Speech = пересказываешь что кто-то сказал.
-│   Indirect Questions = встраиваешь вопрос внутрь своего предложения чтобы звучать вежливее или точнее.
-│   ├── Что такое косвенный вопрос и зачем он нужен
-│   │   Прямой вопрос: "Where is the station?" — прямо и коротко, но звучит грубовато в некоторых контекстах
-│   │   Косвенный: "Could you tell me where the station is?" — тот же смысл, но вежливее
-│   │   Две функции: вежливость (просьба к незнакомцу) и неуверенность ("I don't know what she wants")
-│   ├── Главное правило: порядок слов как в утверждении
-│   │   Прямой: "Where IS the station?" (вопросительный порядок: глагол перед подлежащим)
-│   │   Косвенный: "...where the station IS" (обычный порядок: подлежащее перед глаголом)
-│   │   "Do you know what time IT IS?" — не "what time IS IT" (ошибка)
-│   │   "Can you tell me where SHE LIVES?" — не "where DOES SHE LIVE" (do/does убирается)
-│   │   Ловушка: "Can you tell me where IS the station?" — самая частая ошибка русскоязычных.
-│   │   По-русски "скажи мне, где НАХОДИТСЯ станция?" — порядок слов совпадает с прямым вопросом.
-│   │   В английском так нельзя: вопросительный порядок внутри косвенного вопроса = ошибка.
-│   │   Ловушка №2 (выброс глагола — отдельно от порядка слов): "I forget where my glasses" ✗
-│   │   → "I forget where my glasses ARE" ✓. Русское "где мои очки" — БЕЗ глагола (нулевая связка),
-│   │   поэтому мозг ставит точку после существительного. Но придаточное после where/what/who —
-│   │   это полноценное предложение, ему обязателен свой глагол (обычно be): "...where my glasses are",
-│   │   "...what the problem is", "...who he is". Это тот же корень "английский требует глагол там,
-│   │   где в русском его нет", что и в Основах (to be) и в Present Continuous Card 181 ("I working" ✗) —
-│   │   при написании темы подать callback'ом к нему. Работает при любом времени главной части
-│   │   (I forget / I am always forgetting / I don't know — везде придаточному нужен are/is).
-│   ├── Вводные фразы для косвенных вопросов
-│   │   Вопросительные: Could you tell me...? / Do you know...? / Can you explain...? / Would you mind telling me...?
-│   │   Утвердительные: I don't know... / I'm not sure... / I wonder... / I have no idea... / I can't remember...
-│   │   "I don't know where he went." / "I'm not sure what she wants." / "I wonder why they left."
-│   ├── If / whether — когда нет вопросительного слова
-│   │   Прямой вопрос без question word: "Is she coming?" — нет where/what/when
-│   │   Косвенный: "Do you know IF she is coming?" / "I don't know WHETHER he'll be there."
-│   │   if vs whether: оба OK, whether чуть формальнее. whether...or not — устойчивая конструкция.
-│   │   "I don't know whether to go or not." — whether + инфинитив (без субъекта) тоже возможно
-│   └── AI-упражнения: переформулировать прямой вопрос в косвенный; заполнить пропуск в косвенном вопросе
+│   ⚠️ Indirect Questions (Косвенные вопросы) — ПЕРЕНЕСЕНЫ ВВЕРХ (09.07.2026): теперь «🌿 отдых от
+│   времён №2» перед Present Perfect (полное содержание темы — там). Стояли здесь после Reported
+│   Speech как «смежная идея», но зависимость обратная — все времена нужны Reported Speech, а не
+│   косвенным вопросам.
 │
 ├── 📁 Многозначные слова  ← перед "Разговорным английским" — РАЗДЕЛ (GrammarTopicCategory)
 │   │
