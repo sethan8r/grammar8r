@@ -1,0 +1,1009 @@
+{
+  "grammar_topics": [
+    {
+      "id": 12,
+      "title": "Сравнение прилагательных",
+      "order": 1,
+      "isPretopic": false,
+      "description": "Как сказать, что одна вещь больше, лучше или дешевле другой — сравнительная степень прилагательных, шаблон с than, формы на -er и more, усилители",
+      "categoryId": 2
+    }
+  ],
+  "grammar_topic_categories": [
+    {
+      "id": 2,
+      "title": "Описания и сравнения",
+      "description": "Как описывать и сравнивать: степени сравнения прилагательных и наречия",
+      "order": 8
+    }
+  ],
+  "grammar_microtopics": [
+    {
+      "id": 69,
+      "topicId": 12,
+      "title": "Comparatives · Сравнительная степень",
+      "order": 1
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 202,
+      "microtopicId": 69,
+      "title": "Шаблон сравнения: X больше, чем Y",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Ещё в «Частях речи» мы мельком видели словечко `than` — «чем» — и то, что у прилагательного бывает форма на `-er` (**good** → **better**). Теперь соберём это в систему: как из двух вещей сказать, что одна **больше, выше, дешевле** другой."
+        },
+        {
+          "type": "heading",
+          "text": "Как сравнивает русский — и где он спотыкается"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски сравнение звучит коротко: «он выше меня», «этот телефон лучше твоего». Обрати внимание на две вещи. Во-первых, в русском **нет глагола** — «он ___ выше меня», связка «есть» выпадает сама. Во-вторых, с чем сравниваем («меня», «твоего») стоит в родительном падеже — окончание само показывает связь."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский устроен иначе, и оба этих русских рефлекса — прямой источник ошибок:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Английскому предложению **всегда нужна связка** `to be` (`am/is/are`). «Он выше меня» → **He is taller than me**, а не **He taller than me** ✗. Уронишь `is` — предложение развалится, как и в любом времени, что мы уже прошли.",
+            "Вместо падежного окончания английский ставит слово `than` — «чем». То, с чем сравниваем, идёт **после** `than`: **taller than me**, **better than yours**."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**X + be + сравнит.форма + than + Y** — «X более-такой-то, чем Y»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём по кубикам на живом примере — **My phone is better than yours**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My phone** — X, о ком речь;",
+            "**is** — обязательная связка `to be`;",
+            "**better** — сравнительная форма (**good** → **better**);",
+            "**than yours** — «чем твой»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Как именно получить форму **better**, **taller**, **cheaper** — разберём в следующих карточках. Сейчас главное — **скелет всего предложения**: без `be` и без `than` сравнение не собрать."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «чем» так и тянет написать `that` — они похожи на слух и на вид. Но `that` — это «что / который», а сравнение держит только `than`. **She is older that me** ✗ → **She is older than me** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После `than` местоимение-человек идёт в объектной форме — `than me`, `than him`, `than us` (как мы разбирали в «Местоимениях»), а не `than I`. В живой речи это норма: **He runs faster than me.**"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Сравнение строится по формуле `X + be + сравнит.форма + than + Y`: **My phone is better than yours.** Два обязательных кубика, которые роняет русский: связка `to be` (**He is taller**, не **He taller** ✗) и слово `than` — «чем» (не путать с `that`). После `than` местоимение в объектной форме: `than me`, `than him`.",
+      "examples": [
+        {
+          "ru": "Мой телефон лучше твоего.",
+          "en": "My phone is better than yours."
+        },
+        {
+          "ru": "Моя сестра моложе меня.",
+          "en": "My sister is younger than me."
+        },
+        {
+          "ru": "Этот кофе дешевле чая.",
+          "en": "This coffee is cheaper than tea."
+        },
+        {
+          "ru": "Машина быстрее автобуса.",
+          "en": "The car is faster than the bus."
+        },
+        {
+          "ru": "Ты выше своего брата.",
+          "en": "You are taller than your brother."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать «He taller than me» без is?",
+        "Чем than отличается от that?",
+        "Почему after than говорят «than me», а не «than I»?"
+      ]
+    },
+    {
+      "id": 203,
+      "microtopicId": 69,
+      "title": "Форма на -er: короткие прилагательные",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой карточке мы строили предложение и брали готовые формы (**taller**, **better**). Теперь — **как самому сделать сравнительную форму** из короткого прилагательного."
+        },
+        {
+          "type": "heading",
+          "text": "Главный принцип: приклей `-er`"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский, чтобы сравнить, обычно ставит впереди «более» или меняет слово целиком: «дешёвый → деше́вле». Английский с короткими прилагательными не мудрит — просто добавляет в конец `-er`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**cheap** → **cheaper** (дешевле)",
+            "**old** → **older** (старше)",
+            "**fast** → **faster** (быстрее)",
+            "**young** → **younger** (моложе)",
+            "**short** → **shorter** (короче)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Но хвост слова иногда чуть меняется по орфографии — три случая, и все три мы уже встречали у глаголов."
+        },
+        {
+          "type": "heading",
+          "text": "Одна гласная + одна согласная → согласную удваиваем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если короткое слово кончается на **одну гласную + одну согласную**, эту согласную удваиваем — чтобы гласная осталась короткой:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**big** → **bigger**, **hot** → **hotter**, **thin** → **thinner**."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Слово на `-y` → меняем на `-ier`"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**happy** → **happier**, **easy** → **easier**, **busy** → **busier**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Буква `y` после согласной уходит в `-ier` — ровно то же правило, что у глаголов (**study** → **studies**)."
+        },
+        {
+          "type": "heading",
+          "text": "Слово на `-e` → добавляем только `-r`"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз `e` уже на конце, второе не нужно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**nice** → **nicer**, **late** → **later**."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Орфографию легко проглотить — **biger** ✗, **hoter** ✗, **happyer** ✗. Правильно **bigger**, **hotter**, **happier**. Удвоение и `-ier` — не украшение: без них слово выглядит неграмотно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У короткого прилагательного сравнительная форма = слово + `-er`: **cheap** → **cheaper**, **old** → **older**. Три орфографических случая: одна гласная + согласная → удвоение (**big** → **bigger**, **hot** → **hotter**); слово на `-y` → `-ier` (**happy** → **happier**); слово на `-e` → только `-r` (**nice** → **nicer**). Ловушка — проглотить орфографию: **biger** ✗, **happyer** ✗.",
+      "examples": [
+        {
+          "ru": "Сегодня жарче, чем вчера.",
+          "en": "Today is hotter than yesterday."
+        },
+        {
+          "ru": "Этот сад больше того.",
+          "en": "This garden is bigger than that one."
+        },
+        {
+          "ru": "Новое кафе приятнее старого.",
+          "en": "The new café is nicer than the old one."
+        },
+        {
+          "ru": "Зимой дни короче.",
+          "en": "In winter the days are shorter."
+        },
+        {
+          "ru": "Она счастливее, чем раньше.",
+          "en": "She is happier than before."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему big → bigger с двумя g, а cheap → cheaper с одной p?",
+        "Почему happy превращается в happier, а не happyer?",
+        "Когда добавляют только -r, а не -er?"
+      ]
+    },
+    {
+      "id": 204,
+      "microtopicId": 69,
+      "title": "Длинные прилагательные: more и less",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`-er` хорош для коротких слов. Но попробуй приклеить его к длинному прилагательному — **beautifuler**? **interestinger**? Язык об это спотыкается. Поэтому у длинных слов сравнение строят по-другому — впереди ставят отдельное слово `more` («более»):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**more beautiful** (красивее)",
+            "**more expensive** (дороже)",
+            "**more interesting** (интереснее)",
+            "**more comfortable** (удобнее)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это как раз тот случай, где английский поступает «по-русски»: `more` = наше «более»."
+        },
+        {
+          "type": "heading",
+          "text": "Где граница: считаем слоги"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**1 слог** → почти всегда `-er`: **cheap** → **cheaper**, **tall** → **taller**, **big** → **bigger**.",
+            "**3 слога и больше** → всегда `more`: **more important**, **more expensive**, **more comfortable**.",
+            "**2 слога** → чаще `more` (**more modern**, **more careful**), НО слова на `-y` берут `-ier`: **happy** → **happier**, **easy** → **easier**."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "less — обратная сторона `more`"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если `more` — это «более», то `less` — «менее». Строится точно так же, впереди слова:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This phone is less expensive than that one.** — этот телефон менее дорогой (то есть дешевле).",
+            "**Today I'm less busy than yesterday.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Пара `more` / `less` покрывает обе стороны: можно идти вверх (дороже) или вниз (менее дорого)."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Нельзя лепить `-er` и `more` **одновременно**. **more cheaper** ✗, **more bigger** ✗ — выбери что-то одно: либо **cheaper**, либо **more expensive**. Двойное сравнение — самая частая ошибка на этой теме."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Длинные прилагательные сравнивают через `more` (не `-er`): **more expensive**, **more interesting**. Граница по слогам: 1 слог → `-er`; 3+ → `more`; 2 слога — чаще `more`, кроме слов на `-y` (**happy** → **happier**). `less` — «менее», обратная сторона `more`: **less expensive**. Ловушка — двойное сравнение: **more cheaper** ✗ (либо **cheaper**, либо **more expensive**).",
+      "examples": [
+        {
+          "ru": "Эта квартира удобнее старой.",
+          "en": "This flat is more comfortable than the old one."
+        },
+        {
+          "ru": "Кофе дороже чая.",
+          "en": "Coffee is more expensive than tea."
+        },
+        {
+          "ru": "Этот концерт интереснее вечеринки.",
+          "en": "This concert is more interesting than the party."
+        },
+        {
+          "ru": "Этот телефон менее дорогой, чем тот.",
+          "en": "This phone is less expensive than that one."
+        },
+        {
+          "ru": "Её сад красивее моего.",
+          "en": "Her garden is more beautiful than mine."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, когда -er, а когда more?",
+        "Почему нельзя сказать «more cheaper»?",
+        "Чем less отличается от more?"
+      ]
+    },
+    {
+      "id": 205,
+      "microtopicId": 69,
+      "title": "Насколько больше: much, a bit и ловушка «very better»",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы умеем сказать, что одна вещь лучше другой. Теперь — **насколько** лучше: чуть-чуть или намного? По-русски мы говорим «намного лучше», «чуть дороже», «гораздо быстрее». В английском для этого перед сравнительной формой ставят усилитель."
+        },
+        {
+          "type": "heading",
+          "text": "Усилители: much / a lot / far — «намного»; a bit / a little — «чуть-чуть»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**much better** — намного лучше",
+            "**a lot cheaper** — намного дешевле",
+            "**far more interesting** — гораздо интереснее",
+            "**a bit older** — чуть старше",
+            "**a little slower** — немного медленнее"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ставятся они прямо перед сравнительной формой: **This laptop is much faster than mine.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка (главная!)",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «намного лучше» толкает сказать **very better** ✗ — и это ошибка, которую делают почти все. **`very` не дружит со сравнительной степенью.** `very` усиливает только обычное прилагательное: **very good**, **very fast**. А как только появилось сравнение (**better**, **faster**), нужен `much` / `a lot` / `far`: **much better** ✓, не **very better** ✗."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравни в лоб:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This coffee is very hot.** — просто «очень горячий» (обычное прилагательное) → `very` на месте.",
+            "**This coffee is much hotter than tea.** — «намного горячее» (сравнение) → **much**, а **very hotter** ✗."
+          ]
+        }
+      ],
+      "theorySummary": "Чтобы показать, НАСКОЛЬКО больше, перед сравнительной формой ставят усилитель: `much` / `a lot` / `far` (намного), `a bit` / `a little` (чуть-чуть): **much better**, **a bit older**. Главная ловушка — `very` со сравнительной степенью не работает: **very better** ✗ → **much better** ✓. `very` усиливает только обычное прилагательное (**very good**), но не сравнительное.",
+      "examples": [
+        {
+          "ru": "Эта машина намного быстрее моей.",
+          "en": "This car is much faster than mine."
+        },
+        {
+          "ru": "Сегодня чуть холоднее, чем вчера.",
+          "en": "Today is a bit colder than yesterday."
+        },
+        {
+          "ru": "Кофе тут гораздо дешевле, чем в кафе.",
+          "en": "Coffee here is far cheaper than in the café."
+        },
+        {
+          "ru": "Её новая работа намного лучше старой.",
+          "en": "Her new job is much better than the old one."
+        },
+        {
+          "ru": "Эта улица немного длиннее той.",
+          "en": "This street is a little longer than that one."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «very better» — ошибка, а «very good» — нет?",
+        "В чём разница между much и a bit перед сравнением?",
+        "Можно ли сказать «far cheaper»?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 202,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 108,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 202,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 89,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 202,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 73,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 202,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 77,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 203,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 18,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 203,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 97,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 203,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 74,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 203,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 40,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 204,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 39,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 204,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 109,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 204,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 98,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 204,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 75,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 205,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 78,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 205,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 99,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 205,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 76,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 205,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 90,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "comp_card203_ex1",
+      "cardId": 203,
+      "title": "Образуй форму на -er",
+      "userInstruction": "ИИ пришлёт предложения с пропуском и прилагательным в скобках. Впишите его сравнительную форму.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "comp_card204_ex1",
+      "cardId": 204,
+      "title": "-er или more",
+      "userInstruction": "ИИ пришлёт предложения с пропуском и прилагательным в скобках. Впишите правильную сравнительную форму — через -er или через more.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "comp_card205_ex1",
+      "cardId": 205,
+      "title": "Переведи сравнение с усилителем",
+      "userInstruction": "ИИ даст русское предложение со сравнением. Переведите его на английский.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    }
+  ],
+  "course_word_groups": [
+    {
+      "id": "descriptions",
+      "nameRus": "Описания",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "descriptions",
+      "nameRus": "Слова описаний",
+      "groupId": "descriptions",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 411,
+      "word": "cheap",
+      "translation": "дешёвый",
+      "transcription": "[tʃiːp]",
+      "microtopicId": 69,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 412,
+      "word": "expensive",
+      "translation": "дорогой",
+      "transcription": "[ɪkˈspensɪv]",
+      "microtopicId": 69,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 413,
+      "word": "young",
+      "translation": "молодой",
+      "transcription": "[jʌŋ]",
+      "microtopicId": 69,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 414,
+      "word": "short",
+      "translation": "короткий; невысокий",
+      "transcription": "[ʃɔːt]",
+      "microtopicId": 69,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 415,
+      "word": "comfortable",
+      "translation": "удобный",
+      "transcription": "[ˈkʌmftəbl]",
+      "microtopicId": 69,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 416,
+      "word": "nice",
+      "translation": "приятный, милый, хороший",
+      "transcription": "[naɪs]",
+      "microtopicId": 69,
+      "categoryId": "descriptions"
+    }
+  ],
+  "table_fill_exercises": [
+    {
+      "id": 18,
+      "taskDescription": "запиши сравнительную форму каждого прилагательного.",
+      "rows": [
+        {
+          "hint": "big",
+          "answer": "bigger"
+        },
+        {
+          "hint": "nice",
+          "answer": "nicer"
+        },
+        {
+          "hint": "happy",
+          "answer": "happier"
+        },
+        {
+          "hint": "cold",
+          "answer": "colder"
+        },
+        {
+          "hint": "clean",
+          "answer": "cleaner"
+        },
+        {
+          "hint": "wet",
+          "answer": "wetter"
+        }
+      ],
+      "explanation": "Обычно просто +`-er` (**cold** → **colder**, **clean** → **cleaner**). Особые случаи: удвоение согласной после одной гласной (**big** → **bigger**, **wet** → **wetter**), `y` → `-ier` (**happy** → **happier**), `e` → только `-r` (**nice** → **nicer**)."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 89,
+      "statements": [
+        {
+          "en": "This café is cheaper than that one.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He taller than his father.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Your car is faster than mine.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She is younger that her brother.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I am older than you.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — пропущена связка, нужно **He is taller than his father**; 4 — «чем» это **than**, а не **that**. Остальные собраны верно."
+    },
+    {
+      "id": 90,
+      "statements": [
+        {
+          "en": "This bag is much heavier than mine.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Prague is very cheaper than London.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Today is a bit warmer than yesterday.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My phone is a lot better than yours.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "This film is very more interesting.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "2 — со сравнением нужен **much cheaper**, не **very**; 5 — **very** не сочетается с **more interesting**, нужно **much more interesting** или просто **more interesting**. Остальные верны."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 73,
+      "situationRu": "RU: Моя сестра старше меня.",
+      "correctSentence": "My sister is older than me.",
+      "words": [
+        "My sister",
+        "is",
+        "older",
+        "than",
+        "me"
+      ],
+      "distractors": [
+        "that",
+        "more old",
+        "than I",
+        "she"
+      ],
+      "explanation": "Сравнение держит **than** (не **that**), а после него — объектная форма **me** (не **than I**). **more old** — так сравнительная форма не строится, у короткого слова это **older**."
+    },
+    {
+      "id": 74,
+      "situationRu": "Ситуация: Тёма выбирает стул и берёт тот, что удобнее и симпатичнее старого.",
+      "correctSentence": "This chair is nicer than that one.",
+      "words": [
+        "This chair",
+        "is",
+        "nicer",
+        "than",
+        "that one"
+      ],
+      "distractors": [
+        "more nice",
+        "niceer",
+        "then"
+      ],
+      "explanation": "**nice** кончается на `-e`, поэтому только +**-r** → **nicer**. **niceer** — лишняя буква, **more nice** так не строится, **then** — это «затем», а не «чем»."
+    },
+    {
+      "id": 75,
+      "situationRu": "RU: Этот диван удобнее того.",
+      "correctSentence": "This sofa is more comfortable than that one.",
+      "words": [
+        "This sofa",
+        "is",
+        "more comfortable",
+        "than",
+        "that one"
+      ],
+      "distractors": [
+        "comfortabler",
+        "more comfortabler",
+        "most comfortable",
+        "then",
+        "that"
+      ],
+      "explanation": "**comfortable** длинное → только **more comfortable**. **comfortabler** так не строится, **more comfortabler** — двойное сравнение, **most comfortable** — превосходная степень, **then** и **that** — не «чем»."
+    },
+    {
+      "id": 76,
+      "situationRu": "Ситуация: Оля сравнивает свою улицу с соседней — её чуть длиннее.",
+      "correctSentence": "This street is a bit longer than that one.",
+      "words": [
+        "This street",
+        "is",
+        "a bit",
+        "longer",
+        "than",
+        "that one"
+      ],
+      "distractors": [
+        "very",
+        "more longer",
+        "then"
+      ],
+      "explanation": "«Чуть длиннее» — **a bit longer**. **very** со сравнительной формой не ставят, **more longer** — двойное сравнение, **then** — «затем», а не «чем»."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 108,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Моя комната больше твоей.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "My room is bigger than yours.",
+          "isCorrect": true
+        },
+        {
+          "text": "My room bigger than yours.",
+          "isCorrect": false
+        },
+        {
+          "text": "My room is bigger that yours.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Нужны оба кубика: связка **is** (без неё — **My room bigger** ✗) и слово **than** — «чем» (не **that**)."
+    },
+    {
+      "id": 97,
+      "choiceType": "CHOICE",
+      "prompt": "It is much ___ today than yesterday.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "more hot",
+          "isCorrect": false
+        },
+        {
+          "text": "hotter",
+          "isCorrect": true
+        },
+        {
+          "text": "hoter",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**hot** кончается на одну гласную + согласную → согласную удваиваем: **hotter**. **hoter** — потерянное удвоение, **more hot** у короткого слова не строится."
+    },
+    {
+      "id": 109,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Этот фильм интереснее книги.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "This film is interestinger than the book.",
+          "isCorrect": false
+        },
+        {
+          "text": "This film is more interesting than the book.",
+          "isCorrect": true
+        },
+        {
+          "text": "This film is more interestinger than the book.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**interesting** длинное → сравнение через **more interesting**. **interestinger** так не строится, а **more interestinger** — двойное сравнение сразу."
+    },
+    {
+      "id": 98,
+      "choiceType": "CHOICE",
+      "prompt": "This phone is ___ expensive than that one — it costs less.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "most",
+          "isCorrect": false
+        },
+        {
+          "text": "more",
+          "isCorrect": false
+        },
+        {
+          "text": "less",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Раз телефон стоит меньше, он **less expensive** — «менее дорогой». **more** дало бы обратный смысл, а **most** — это уже превосходная степень."
+    },
+    {
+      "id": 99,
+      "choiceType": "CHOICE",
+      "prompt": "This road is ___ longer — about ten kilometres more.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "much",
+          "isCorrect": true
+        },
+        {
+          "text": "very",
+          "isCorrect": false
+        },
+        {
+          "text": "so",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«Намного длиннее» со сравнительной формой — **much longer**. **very** со сравнением не сочетается, **so** тут не к месту."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 77,
+      "wrongSentence": "She is tall than her sister.",
+      "options": [
+        {
+          "text": "She is more tall than her sister.",
+          "isCorrect": false
+        },
+        {
+          "text": "She is taller than her sister.",
+          "isCorrect": true
+        },
+        {
+          "text": "She is taller that her sister.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В сравнении нужна сравнительная форма — **taller**, а не просто **tall**. **more tall** так не строится (у короткого слова — **-er**), а **that** тут не «чем»."
+    },
+    {
+      "id": 78,
+      "wrongSentence": "My new laptop is very faster than the old one.",
+      "options": [
+        {
+          "text": "My new laptop is much faster than the old one.",
+          "isCorrect": true
+        },
+        {
+          "text": "My new laptop is very fast than the old one.",
+          "isCorrect": false
+        },
+        {
+          "text": "My new laptop is more faster than the old one.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Со сравнительной формой **faster** усилитель — **much**, а не **very** (very дружит только с обычным прилагательным). **more faster** — двойное сравнение."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 39,
+      "taskDescription": "разложи прилагательные по способу сравнения.",
+      "categories": [
+        {
+          "title": "-er",
+          "items": [
+            "slow",
+            "dark",
+            "clean",
+            "loud"
+          ]
+        },
+        {
+          "title": "more",
+          "items": [
+            "dangerous",
+            "important",
+            "popular",
+            "difficult"
+          ]
+        }
+      ],
+      "explanation": "Короткие (1 слог) идут через **-er**: slower, cleaner. Длинные (3+ слога) — через **more**: more dangerous, more important."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 40,
+      "groupDescription": "Три сравнительные формы записаны верно, одна — с орфографической ошибкой",
+      "items": [
+        {
+          "text": "older",
+          "isOdd": false
+        },
+        {
+          "text": "happier",
+          "isOdd": false
+        },
+        {
+          "text": "bigger",
+          "isOdd": false
+        },
+        {
+          "text": "cheapper",
+          "isOdd": true
+        }
+      ],
+      "explanation": "**cheap** — обычное слово, просто +**-er** → **cheaper**, удваивать `p` не нужно. Удвоение бывает только после одной ударной гласной (**big** → **bigger**)."
+    }
+  ]
+}
