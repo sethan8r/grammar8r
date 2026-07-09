@@ -32,6 +32,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavDestination.Companion.hasRoute
@@ -112,14 +113,18 @@ fun MainScreen() {
     val tabSnackbar = rememberFeedbackSnackbarController()
 
     Scaffold(containerColor = Background) { innerPadding ->
+        // Верхний инсет строки состояния для полноэкранных роутов. НЕ вешаем его на общий контейнер
+        // ниже: контейнер держит оба экрана во время перехода/предиктив-бэка, и смена top при смене
+        // роута дёргала бы вёрстку соседнего экрана (визуальный скачок). Поэтому его берёт каждый
+        // полноэкранный экран сам — через [fullScreenComposable]. Значение то же, что раньше.
+        val topInset = innerPadding.calculateTopPadding()
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                // Низ не резервируется (капсула не в Scaffold). Верх: на вкладках 0 → контент уходит
-                // edge-to-edge под строку состояния (её перекрывает [TopStatusScrim], первый элемент
-                // держит [statusBarTopInset]); на полноэкранных роутах верхний инсет оставляем.
+                // Низ не резервируется (капсула не в Scaffold). Верх на общий контейнер не вешаем (см.
+                // выше): вкладки уходят edge-to-edge под строку состояния (её перекрывает [TopStatusScrim]),
+                // полноэкранные роуты держат верхний инсет сами.
                 .padding(
-                    top = if (showBottomBar) 0.dp else innerPadding.calculateTopPadding(),
                     start = innerPadding.calculateStartPadding(layoutDirection),
                     end = innerPadding.calculateEndPadding(layoutDirection),
                 ),
@@ -141,7 +146,7 @@ fun MainScreen() {
             opaqueComposable<StatisticsRoute> { StatisticsScreen() }
             opaqueComposable<MenuRoute> { MenuScreen() }
 
-            opaqueComposable<TopicRoute> { entry ->
+            fullScreenComposable<TopicRoute>(topInset) { entry ->
                 val focusId by entry.savedStateHandle
                     .getStateFlow<Int?>(FOCUS_MICROTOPIC_KEY, null)
                     .collectAsState()
@@ -152,7 +157,7 @@ fun MainScreen() {
                     onFocusConsumed = { entry.savedStateHandle[FOCUS_MICROTOPIC_KEY] = null },
                 )
             }
-            opaqueComposable<MicrotopicRoute> { entry ->
+            fullScreenComposable<MicrotopicRoute>(topInset) { entry ->
                 val advanceAfterCardId by entry.savedStateHandle
                     .getStateFlow<Int?>(ADVANCE_AFTER_CARD_KEY, null)
                     .collectAsState()
@@ -169,7 +174,7 @@ fun MainScreen() {
                     onAdvanceConsumed = { entry.savedStateHandle[ADVANCE_AFTER_CARD_KEY] = null },
                 )
             }
-            opaqueComposable<ExerciseSessionRoute> {
+            fullScreenComposable<ExerciseSessionRoute>(topInset) {
                 ExerciseSessionScreen(
                     onFinished = { completion ->
                         val microtopicId = completion.microtopicId
@@ -194,7 +199,7 @@ fun MainScreen() {
                     onExit = { navController.popBackStack() },
                 )
             }
-            opaqueComposable<MicrotopicSummaryRoute> { entry ->
+            fullScreenComposable<MicrotopicSummaryRoute>(topInset) { entry ->
                 MicrotopicSummaryScreen(
                     onContinue = {
                         // Назад в список микротем, наведённый на пройденную (запрос — соседней записи стека).
@@ -277,6 +282,26 @@ private inline fun <reified T : Any> NavGraphBuilder.opaqueComposable(
     noinline content: @Composable (NavBackStackEntry) -> Unit,
 ) = composable<T> { entry ->
     Box(modifier = Modifier.fillMaxSize().background(Background)) {
+        content(entry)
+    }
+}
+
+/**
+ * Полноэкранный destination с непрозрачным фоном И собственным верхним инсетом ([topInset] = высота
+ * строки состояния). Инсет держит КАЖДЫЙ экран сам, а не общий родитель NavHost'а — иначе при
+ * переходе/предиктив-бэке смена инсета дёргала бы вёрстку соседнего экрана (скачок). Значение то же,
+ * что раньше давал общий контейнер, просто применено пер-экранно, поэтому вёрстка не прыгает.
+ */
+private inline fun <reified T : Any> NavGraphBuilder.fullScreenComposable(
+    topInset: Dp,
+    noinline content: @Composable (NavBackStackEntry) -> Unit,
+) = composable<T> { entry ->
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Background)
+            .padding(top = topInset),
+    ) {
         content(entry)
     }
 }
