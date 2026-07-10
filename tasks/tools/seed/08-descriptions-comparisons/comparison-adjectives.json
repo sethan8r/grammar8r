@@ -29,6 +29,12 @@
       "topicId": 12,
       "title": "Superlatives · Превосходная степень",
       "order": 2
+    },
+    {
+      "id": 71,
+      "topicId": 12,
+      "title": "Equal Comparison · Равное сравнение",
+      "order": 3
     }
   ],
   "grammar_cards": [
@@ -750,6 +756,238 @@
         "Чем worse отличается от the worst?",
         "В чём разница farther и further?"
       ]
+    },
+    {
+      "id": 209,
+      "microtopicId": 71,
+      "title": "as … as: такой же, как (и not as … as = меньше)",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлых микротемах мы сравнивали **неравное**: одна вещь больше другой («X больше, чем Y» — сравнительная степень) или выделялась из всех («самый X» — превосходная). Но часто вещи равны: рост одинаковый, скорость не отличается, сумки весят одинаково. Как сказать, что X **такой же**, как Y?"
+        },
+        {
+          "type": "heading",
+          "text": "Как это делает русский"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим «она **такая же** высокая, **как** её брат». Смотри на каркас: «такой же … как». Слева — «такой же», справа — «как» и то, с чем сравниваем. Английский устроен на удивление похоже — только вместо «такой же … как» он с обеих сторон ставит одно и то же словечко `as`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "X + be + as + прилагательное + as + Y — «X такой же ..., как Y»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём по кубикам на примере — **She is as tall as her brother**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**as** — первое «такой же»;",
+            "**tall** — прилагательное в **базовой** форме;",
+            "**as her brother** — «как её брат»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Прилагательное сидит между двумя `as`, как начинка в бутерброде."
+        },
+        {
+          "type": "heading",
+          "text": "Главное — форма прилагательного"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы только что учили сравнительную степень (`-er`, `than`), и мозг по инерции тащит её сюда. Но внутри `as … as` прилагательное стоит в **обычной, базовой** форме. Логика простая: `-er` и `than` — это про «больше, чем» (неравенство), а `as … as` — ровно наоборот, про равенство. Смешивать их нельзя."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She is as tall as her brother** ✓ → **as taller as** ✗, **as tall than** ✗. Внутри as … as — базовое прилагательное, без -er и без than."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "not as … as — способ сказать «меньше»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Поставь перед конструкцией `not` — и равенство превращается в «меньше»:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**This café is not as busy as the old one.** — это кафе **не такое** оживлённое, **как** старое (то есть менее оживлённое)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это частый и естественный способ сказать «меньше», не строя сравнительную форму: вместо «less busy» англичанин запросто скажет «not as busy as»."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Книжный вариант — `not so … as` (**not so busy as**); в живой речи почти всегда `not as … as`, на него и ориентируйся."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Равное сравнение — прилагательное в **базовой** форме между двумя `as`: **She is as tall as her brother** («такая же высокая, как»). Не путать со сравнительной степенью: внутри `as … as` нет ни `-er`, ни `than` (**as taller as** ✗, **as tall than** ✗). `not as … as` = «меньше»: **not as busy as** — менее оживлённый.",
+      "examples": [
+        {
+          "ru": "Она такая же высокая, как её брат.",
+          "en": "She is as tall as her brother."
+        },
+        {
+          "ru": "Лена такая же умная, как её сестра.",
+          "en": "Lena is as clever as her sister."
+        },
+        {
+          "ru": "Сегодня не так холодно, как вчера.",
+          "en": "Today is not as cold as yesterday."
+        },
+        {
+          "ru": "Эта сумка такая же тяжёлая, как та.",
+          "en": "This bag is as heavy as that one."
+        },
+        {
+          "ru": "Этот пёс не такой смелый, как выглядит.",
+          "en": "This dog is not as brave as it looks."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему внутри as … as прилагательное без -er?",
+        "not as … as — это больше или меньше?",
+        "Можно ли сказать «as tall than»?"
+      ]
+    },
+    {
+      "id": 210,
+      "microtopicId": 71,
+      "title": "the same as: тот же самый",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`as … as` сравнивает **качество**: насколько кто-то высокий, быстрый, тяжёлый. Но иногда нужно сказать не «такой же высокий», а «**тот же самый**, точно такой же» — тождество предмета целиком. Для этого есть другая конструкция — **the same as**."
+        },
+        {
+          "type": "heading",
+          "text": "the same as — «тот же самый, что и»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Строится вокруг существительного или местоимения, а не прилагательного:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**My phone is the same as yours.** — мой телефон такой же, как твой (та же модель)."
+        },
+        {
+          "type": "paragraph",
+          "text": "**This is the same mistake as before.** — это та же ошибка, что и раньше."
+        },
+        {
+          "type": "heading",
+          "text": "the same + существительное — «одинаковый по …»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Часто `the same` ставят прямо перед существительным-параметром, по которому вещи совпадают (возраст, размер, вес):"
+        },
+        {
+          "type": "paragraph",
+          "text": "**My sister and I are the same age.** — мы с сестрой одного возраста."
+        },
+        {
+          "type": "paragraph",
+          "text": "**These two boxes are the same weight.** — эти две коробки одного веса."
+        },
+        {
+          "type": "heading",
+          "text": "They are the same size."
+        },
+        {
+          "type": "heading",
+          "text": "После the same — только as"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «такой же, **как**» толкает поставить сюда `like` — и это ошибка. После `the same` идёт только `as`, никогда `like`. Запомни пару целиком: **the same as** — как единое сцепление."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**This is the same as before** ✓ → **the same like before** ✗. После the same всегда as, не like."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Не путай с as … as.** Про качество (высокий, быстрый) — `as … as` (**He is as tall as me**); про «тот же самый» или параметр — `the same as` (**His phone is the same as mine**)."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это не все способы сравнить. Есть ещё точное подобие `just like` (**He talks just like his father**), похожесть без тождества `similar to`, нереальное сравнение `as if`, а также обороты вроде `twice as … as` («вдвое дороже»). Их мы разберём отдельно в теме «Сравнительные конструкции» — здесь держим базу."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Тождество выражает **the same as** — «тот же самый, что и», вокруг существительного или местоимения: **My phone is the same as yours**. Часто `the same` стоит прямо перед параметром: **We are the same age**, **the same size**. Ловушка — после `the same` идёт только `as`, никогда `like`: **the same as** ✓, **the same like** ✗. Не путать с `as … as` (то — про качество: **as tall as**).",
+      "examples": [
+        {
+          "ru": "Мой телефон такой же, как твой.",
+          "en": "My phone is the same as yours."
+        },
+        {
+          "ru": "Мы с сестрой одного возраста.",
+          "en": "My sister and I are the same age."
+        },
+        {
+          "ru": "Эти две коробки одного веса.",
+          "en": "These two boxes are the same weight."
+        },
+        {
+          "ru": "Это та же ошибка, что и раньше.",
+          "en": "This is the same mistake as before."
+        },
+        {
+          "ru": "Эти две сумки одного размера.",
+          "en": "These two bags are the same size."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему the same as, а не the same like?",
+        "В чём разница между as … as и the same as?",
+        "Как сказать «мы одного возраста»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -920,6 +1158,66 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 79,
       "orderInCard": 3
+    },
+    {
+      "cardId": 209,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 112,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 209,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 101,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 209,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 92,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 209,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 81,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 209,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 80,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 210,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 113,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 210,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 82,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 210,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 14,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 210,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 93,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 210,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 81,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -962,6 +1260,14 @@
       "userInstruction": "ИИ пришлёт предложения с пропуском и прилагательным в скобках. Впишите превосходную форму — через -est или через the most.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "comp_card209_ex1",
+      "cardId": 209,
+      "title": "Переведи равное сравнение",
+      "userInstruction": "ИИ даст русское предложение с равным сравнением. Переведите его на английский.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -1075,6 +1381,30 @@
       "translation": "опасный",
       "transcription": "[ˈdeɪndʒərəs]",
       "microtopicId": 70,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 423,
+      "word": "clever",
+      "translation": "умный",
+      "transcription": "[ˈklevə]",
+      "microtopicId": 71,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 424,
+      "word": "heavy",
+      "translation": "тяжёлый",
+      "transcription": "[ˈhevi]",
+      "microtopicId": 71,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 425,
+      "word": "brave",
+      "translation": "смелый",
+      "transcription": "[breɪv]",
+      "microtopicId": 71,
       "categoryId": "descriptions"
     }
   ],
@@ -1262,6 +1592,68 @@
         }
       ],
       "explanation": "2 — пропущен **the**, нужно **the fastest**; 4 — **young** короткое, поэтому **the youngest**, а не **the most young**. Остальные собраны верно."
+    },
+    {
+      "id": 92,
+      "statements": [
+        {
+          "en": "My car is as fast as yours.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She is as taller as her friend.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "This film is not as long as the last one.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "This book is as interesting than that one.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Tom is as strong as his father.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — внутри as … as базовая форма, нужно **as tall as** (не **taller**); 4 — там **as**, а не **than** (**as interesting as**). Остальные собраны верно."
+    },
+    {
+      "id": 93,
+      "statements": [
+        {
+          "en": "My car is the same as yours.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "This shirt is the same size like before.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They are the same age.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Your watch is the same as mine.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "This café is the same like that one.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "2 и 5 — после **the same** нужно **as**, а не **like** (**the same size as**, **the same as**). Остальные собраны верно."
     }
   ],
   "word_arrangement_exercises": [
@@ -1398,6 +1790,44 @@
         "better"
       ],
       "explanation": "**good** неправильное → **the best**. **the goodest** не существует, **the most best** — двойная форма разом, **better** — сравнительная (для двух вещей)."
+    },
+    {
+      "id": 80,
+      "situationRu": "Ситуация: Оля выбрала новый стул — он не хуже старого, такой же удобный.",
+      "correctSentence": "This chair is as comfortable as that one.",
+      "words": [
+        "This chair",
+        "is",
+        "as",
+        "comfortable",
+        "as"
+      ],
+      "distractors": [
+        "comfortabler",
+        "more comfortable",
+        "than",
+        "so"
+      ],
+      "explanation": "Равное сравнение — **as comfortable as** (прилагательное базовое, обрамлено двумя **as**, — даже у длинного слова внутри as … as никакого **more**). **comfortabler** так вообще не строится. **more comfortable** — это сравнительная степень, **than** из неё же, **so** тут ни к чему."
+    },
+    {
+      "id": 81,
+      "situationRu": "Ситуация: Настя показывает две пары обуви — цвет у них одинаковый.",
+      "correctSentence": "These shoes are the same colour.",
+      "words": [
+        "These shoes",
+        "are",
+        "the same",
+        "colour"
+      ],
+      "distractors": [
+        "like",
+        "as",
+        "same",
+        "as dark",
+        "darker"
+      ],
+      "explanation": "Одинаковый параметр — **the same colour** (the same + существительное). **like** и лишний **as** тут не нужны, **same** без **the** не годится, а **as dark** / **darker** — это сравнение качества, а не тождество."
     }
   ],
   "multiple_choice_exercises": [
@@ -1568,6 +1998,69 @@
         }
       ],
       "explanation": "**bad** неправильное → **the worst** (не **the baddest** и не **the most bad**)."
+    },
+    {
+      "id": 112,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Моя комната такая же большая, как твоя.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "My room is as big as yours.",
+          "isCorrect": true
+        },
+        {
+          "text": "My room is as bigger as yours.",
+          "isCorrect": false
+        },
+        {
+          "text": "My room is as big than yours.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Внутри as … as прилагательное в базовой форме — **as big as**. **as bigger as** (лишний -er) и **as big than** (than из сравнения) так не строятся."
+    },
+    {
+      "id": 101,
+      "choiceType": "CHOICE",
+      "prompt": "Prague is not as expensive ___ London.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "than",
+          "isCorrect": false
+        },
+        {
+          "text": "as",
+          "isCorrect": true
+        },
+        {
+          "text": "like",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В конструкции not as … as второе слово — **as** (не **than** из сравнения и не **like**)."
+    },
+    {
+      "id": 113,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Твоя куртка такая же, как моя.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Your jacket is the same like mine.",
+          "isCorrect": false
+        },
+        {
+          "text": "Your jacket is as same mine.",
+          "isCorrect": false
+        },
+        {
+          "text": "Your jacket is the same as mine.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Тождество — **the same as**. После **the same** идёт только **as** (не **like**), и это не as … as (там прилагательное)."
     }
   ],
   "text_input_exercises": [],
@@ -1649,9 +2142,71 @@
         }
       ],
       "explanation": "**good** неправильное → **the best** (не **goodest** и не **the most good**). **the better** — сравнительная форма (для двух), а тут превосходная — **the best**."
+    },
+    {
+      "id": 81,
+      "wrongSentence": "My new laptop is as faster as the old one.",
+      "options": [
+        {
+          "text": "My new laptop is as fast than the old one.",
+          "isCorrect": false
+        },
+        {
+          "text": "My new laptop is as fast as the old one.",
+          "isCorrect": true
+        },
+        {
+          "text": "My new laptop is more fast as the old one.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Внутри as … as прилагательное базовое — **as fast as** (не **faster**). **as fast than** мешает than из сравнения, **more fast** так не строится."
+    },
+    {
+      "id": 82,
+      "wrongSentence": "Her dress is the same like yours.",
+      "options": [
+        {
+          "text": "Her dress is same as yours.",
+          "isCorrect": false
+        },
+        {
+          "text": "Her dress is the same as yours.",
+          "isCorrect": true
+        },
+        {
+          "text": "Her dress is the same than yours.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После **the same** — только **as**, не **like** (**the same as**). Артикль **the** нужен, а **than** тут ни при чём."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 14,
+      "construction": "My bike is the same as yours.",
+      "options": [
+        {
+          "text": "У меня такой же велосипед, как у тебя.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мой велосипед лучше твоего.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мой велосипед быстрее твоего.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мой велосипед стоит рядом с твоим.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**the same as** — тождество, «точно такой же, что и». Это не сравнение «лучше/быстрее» (as … as или -er) и не про место рядом."
+    }
+  ],
   "transformation_exercises": [],
   "categorization_exercises": [
     {

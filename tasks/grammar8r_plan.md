@@ -1009,7 +1009,7 @@ theory/
 │   │   На диске — пакет theory/NN-descriptions-comparisons/ с двумя файлами:
 │   │   01-comparison-adjectives.md (order=1) и 02-adverbs.md (order=2); сиды зеркалят в seed/.
 │   │
-│   ├── Сравнение прилагательных (Comparison of adjectives)  ← тема 1 раздела, ПЕРЕД «Наречиями»
+│   ├── Сравнение прилагательных (Comparison of adjectives)  ← тема 1 раздела, ПЕРЕД «Наречиями»  ✅ ТЕМА НАПИСАНА (10.07.26)
 │   │   🎯 ОБЪЁМ: 3 микротемы / 8 карточек — база, которой хватит до тем-расширений (см. «оставляем
 │   │      в Доп. конструкции» ниже). Дробить дальше не нужно.
 │   │   │
@@ -1046,11 +1046,15 @@ theory/
 │   │   │       расширение). Учим как неправильные глаголы, не по правилу (в русском так же: хороший→лучше→
 │   │   │       лучший). good→better / bad→worse уже мелькали в MT35 — тут полная тройка + best/worst. + AI.
 │   │   │
-│   │   └── МТ · Equal comparison · Равное сравнение (as...as) — 1 карточка
-│   │       └── Card 7 · as ... as (равенство) + not as ... as (= меньше) + the same as. Формула:
-│   │           прилагательное обрамлено as-ами с двух сторон (рус. «такой же… как»). Ловушки:
-│   │           "the same like" ✗ → "the same as" ✓; "as tall than" ✗. just like / similar to / as if —
-│   │           сюда НЕ тащим (остаются в «Доп. конструкциях» → «Сравнительные конструкции»). + AI.
+│   │   └── МТ71 · Equal comparison · Равное сравнение (as...as) — 2 карточки ✅ (написана, ALL GREEN 10.07.26)
+│   │       ├── Card 209 · as … as (равенство) + not as … as (= меньше). Прилагательное в БАЗОВОЙ
+│   │       │   форме между двумя as (рус. «такой же… как»); ловушка-калька от только что пройденных
+│   │       │   comparatives: "as taller as" ✗ / "as tall than" ✗. not as … as = «меньше» без less. + AI.
+│   │       └── Card 210 · the same as (тождество) + the same + параметр (age/size/weight). Другая
+│   │           конструкция — вокруг существительного, не прилагательного. Ловушка "the same like" ✗
+│   │           → "the same as" ✓; разведение с as … as. Примечание в карточке: just like / similar to /
+│   │           as if / twice as … as — в «Доп. конструкциях» → «Сравнительные конструкции». + AI.
+│   │           just like / similar to / as if — сюда НЕ тащим (остаются в «Сравнительных конструкциях»).
 │   │   │
 │   │   📌 Осознанно ОСТАВЛЯЕМ в «Доп. конструкции» (граница база↔расширение — редкое / идиоматичное /
 │   │      требует непройденной грамматики; итемизировано в «Сравнительные конструкции» там):
@@ -1590,6 +1594,9 @@ theory/
 │   │   the same as — тождество: "This is the same mistake as before"
 │   │   similar to — похожесть без тождества: "English is similar to German in some ways"
 │   │   as if / as though — нереальное сравнение: "He acts as if he owns the place"
+│   │   twice as … as / half as … as — кратность: "twice as expensive", "half as fast" (идиоматичнее, кандидат)
+│   │   as much … as / as many … as — равное количество (требует much/many из квантификаторов): "as much time as", "as many books as"
+│   │   not so … as — книжный вариант not as … as: "not so busy as before" (в живой речи почти не используется)
 │   │   Ловушка: "the same like" (ошибка) — только "the same as"
 │   │   ── Отложено из базовой темы «Сравнение прилагательных» (расширения степеней сравнения):
 │   │   the more..., the better — двойное сравнение (идиоматика): "The more you practise, the better you get"
