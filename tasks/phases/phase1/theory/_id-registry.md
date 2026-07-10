@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 211 |
-| Categorization | 41 |
+| Card | 215 |
+| Categorization | 43 |
 | Category | 3 |
 | ConstructionMeaning | 15 |
 | DialogRestore | 15 |
-| ErrorCorrection | 83 |
-| FindTheOdd | 41 |
-| Matching | 31 |
-| Microtopic | 72 |
-| MultipleChoice·CHOICE | 102 |
-| MultipleChoice·FORWARD_CHOICE | 114 |
+| ErrorCorrection | 84 |
+| FindTheOdd | 44 |
+| Matching | 33 |
+| Microtopic | 73 |
+| MultipleChoice·CHOICE | 104 |
+| MultipleChoice·FORWARD_CHOICE | 116 |
 | MultipleChoice·REVERSE_CHOICE | 32 |
-| TableFill | 21 |
+| TableFill | 22 |
 | TextInput | 39 |
-| Topic | 13 |
+| Topic | 14 |
 | Transformation | 27 |
-| TrueFalse | 94 |
+| TrueFalse | 96 |
 | WordArrangement | 82 |
-| course_word | 426 |
+| course_word | 435 |
 
 ## Диапазоны по темам
 
@@ -116,6 +116,21 @@
 - Topic: 6–6 (1)
 - Transformation: 15–15 (1)
 - TrueFalse: 61–62 (2)
+
+### adverbs
+- Card: 211–214 (4)
+- Categorization: 41–42 (2)
+- Category: 2–2 (1)
+- ErrorCorrection: 83–83 (1)
+- FindTheOdd: 41–43 (3)
+- Matching: 31–32 (2)
+- Microtopic: 72–72 (1)
+- MultipleChoice·CHOICE: 102–103 (2)
+- MultipleChoice·FORWARD_CHOICE: 114–115 (2)
+- TableFill: 21–21 (1)
+- Topic: 13–13 (1)
+- TrueFalse: 94–95 (2)
+- course_word: 426–434 (9)
 
 ### comparison-adjectives
 - Card: 202–210 (9)

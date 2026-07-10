@@ -16,7 +16,10 @@ import androidx.compose.material3.Icon
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.Placeholder
 import androidx.compose.ui.text.PlaceholderVerticalAlign
@@ -38,6 +41,7 @@ data class ParsedMarkdown(
 private const val INLINE_CHECK = "inline_check"
 private const val INLINE_CROSS = "inline_cross"
 private const val INLINE_ARROW = "inline_arrow"
+private const val INLINE_NEQ = "inline_neq"
 private const val INLINE_BLANK = "inline_blank"
 
 /**
@@ -50,7 +54,9 @@ private const val INLINE_BLANK = "inline_blank"
  * Символы-глифы в данных заменяются на **векторные иконки Material** через официальный
  * `InlineTextContent` (в текст эмодзи не попадают, размер — в `em`, тянется за шрифтом):
  *  - `✓` → [Icons.Filled.Check] (зелёный), `✗`/`❌` → [Icons.Filled.Close] (красный);
- *  - `→` → [Icons.AutoMirrored.Filled.ArrowRightAlt] (цветом текста [arrowColor]).
+ *  - `→` → [Icons.AutoMirrored.Filled.ArrowRightAlt] (цветом текста [arrowColor]);
+ *  - `≠` → [NotEqualIcon] (цветом текста [arrowColor]) — в наборе Material такого значка нет,
+ *    поэтому вектор нарисован здесь.
  * Карту иконок отдаём в [TranslatableText] вместе с текстом.
  */
 fun parseInlineMarkdown(
@@ -113,6 +119,7 @@ fun parseInlineMarkdown(
                         '✓' -> appendInlineContent(INLINE_CHECK, "✓")
                         '✗', '❌' -> appendInlineContent(INLINE_CROSS, "✗")
                         '→' -> appendInlineContent(INLINE_ARROW, "→")
+                        '≠' -> appendInlineContent(INLINE_NEQ, "≠")
                         else -> append(raw[index])
                     }
                     index += 1
@@ -128,6 +135,7 @@ fun parseInlineMarkdown(
         INLINE_CHECK to inlineIcon(Icons.Filled.Check, correctColor),
         INLINE_CROSS to inlineIcon(Icons.Filled.Close, incorrectColor),
         INLINE_ARROW to inlineIcon(Icons.AutoMirrored.Filled.ArrowRightAlt, arrowColor),
+        INLINE_NEQ to inlineIcon(NotEqualIcon, arrowColor),
         INLINE_BLANK to inlineBlank(arrowColor),
     )
 
@@ -153,6 +161,30 @@ private fun inlineBlank(color: Color): InlineTextContent =
             )
         }
     }
+
+/**
+ * Значок «не равно» (`≠`): две горизонтали равенства + косая черта. В наборе Material его нет,
+ * поэтому рисуем вектором. Цвет штрихов неважен — [Icon] перекрашивает через `tint`.
+ */
+private val NotEqualIcon: ImageVector = ImageVector.Builder(
+    name = "NotEqual",
+    defaultWidth = 24.dp,
+    defaultHeight = 24.dp,
+    viewportWidth = 24f,
+    viewportHeight = 24f,
+).apply {
+    val stroke = SolidColor(Color.Black)
+    val strokeWidth = 2.2f
+    path(stroke = stroke, strokeLineWidth = strokeWidth, strokeLineCap = StrokeCap.Round) {
+        moveTo(5f, 10f); lineTo(19f, 10f)
+    }
+    path(stroke = stroke, strokeLineWidth = strokeWidth, strokeLineCap = StrokeCap.Round) {
+        moveTo(5f, 14f); lineTo(19f, 14f)
+    }
+    path(stroke = stroke, strokeLineWidth = strokeWidth, strokeLineCap = StrokeCap.Round) {
+        moveTo(16f, 5f); lineTo(8f, 19f)
+    }
+}.build()
 
 /** Иконка размером с текущую строку текста (em-единицы), выровненная по центру строки. */
 private fun inlineIcon(icon: ImageVector, tint: Color): InlineTextContent =

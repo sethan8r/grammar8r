@@ -1,0 +1,1037 @@
+{
+  "grammar_topics": [
+    {
+      "id": 13,
+      "title": "Наречия",
+      "order": 2,
+      "isPretopic": false,
+      "description": "Что такое наречие и как оно работает: образование на -ly и его орфография, плоские наречия, наречия образа действия, степени сравнения, наречия степени, места и времени",
+      "categoryId": 2
+    }
+  ],
+  "grammar_topic_categories": [
+    {
+      "id": 2,
+      "title": "Описания и сравнения",
+      "description": "Как описывать и сравнивать: степени сравнения прилагательных и наречия",
+      "order": 8
+    }
+  ],
+  "grammar_microtopics": [
+    {
+      "id": 72,
+      "topicId": 13,
+      "title": "Adverb Basics & Formation · Наречие и его образование",
+      "order": 1
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 211,
+      "microtopicId": 72,
+      "title": "Что такое наречие: короткое напоминание",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Наречие мы уже встречали в «Частях речи», но было это давно — поэтому освежим, прежде чем копать глубже. Здесь только напоминание, без новых правил."
+        },
+        {
+          "type": "paragraph",
+          "text": "Наречие — это слово, которое описывает **не существительное**, а всё остальное: чаще всего глагол (как происходит действие), а иногда прилагательное или другое наречие (насколько). В русском это привычные «быстро», «тихо», «вчера», «очень» — они отвечают на вопросы «как? где? когда? насколько? как часто?»."
+        },
+        {
+          "type": "heading",
+          "text": "Чем наречие отличается от прилагательного"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прилагательное описывает **предмет** и отвечает на «какой?»: «быстрая машина». Наречие описывает **действие** и отвечает на «как?»: «едет быстро». По-английски это видно сразу: **a quick car** (какая машина — прилагательное) и **he drives quickly** (как ведёт — наречие). Одно слово про предмет, другое — про действие, и в этом вся суть."
+        },
+        {
+          "type": "heading",
+          "text": "Пять видов наречий"
+        },
+        {
+          "type": "paragraph",
+          "text": "Наречия делятся на группы по тому, о чём именно они уточняют:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Вид наречия",
+            "Отвечает на вопрос",
+            "Примеры"
+          ],
+          "rows": [
+            [
+              "образа действия",
+              "как?",
+              "slowly, well"
+            ],
+            [
+              "степени",
+              "насколько?",
+              "very, quite"
+            ],
+            [
+              "частоты",
+              "как часто?",
+              "often, never"
+            ],
+            [
+              "места",
+              "где?",
+              "here, outside"
+            ],
+            [
+              "времени",
+              "когда?",
+              "now, soon"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вид «частоты» (**always**, **often**, **never**) мы уже подробно разбирали в Present Simple — там же выяснили, где такое наречие стоит в предложении. Так что этот вид нам уже знаком; в этой теме займёмся остальными."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что впереди"
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше разберём, как наречия образуются (и где орфография подкидывает сюрпризы), где они встают в предложении, как меняются по степеням («быстрее», «быстрее всех») и познакомимся с наречиями степени, места и времени."
+        }
+      ],
+      "theorySummary": "Наречие описывает глагол, прилагательное или другое наречие (но не существительное) и отвечает на «как? где? когда? насколько? как часто?». Прилагательное — про предмет («какой?»), наречие — про действие («как?»): **a quick car** → **he drives quickly**. Виды: образа действия, степени, частоты (её проходили в Present Simple), места и времени.",
+      "examples": [
+        {
+          "ru": "Кейт говорит очень тихо.",
+          "en": "Kate speaks very quietly."
+        },
+        {
+          "ru": "Мы часто обедаем здесь.",
+          "en": "We often have lunch here."
+        },
+        {
+          "ru": "Сегодня на улице холодно.",
+          "en": "It is cold outside today."
+        },
+        {
+          "ru": "Он всегда приходит рано.",
+          "en": "He always comes early."
+        },
+        {
+          "ru": "Мой друг сейчас далеко.",
+          "en": "My friend is far away now."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем наречие отличается от прилагательного?",
+        "На какие вопросы отвечают наречия?",
+        "Наречие всегда описывает только глагол?"
+      ]
+    },
+    {
+      "id": 212,
+      "microtopicId": 72,
+      "title": "Правописание при -ly",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Из «Частей речи» мы помним главное правило: большинство наречий — это прилагательное плюс `-ly` (**quick** → **quickly**, **slow** → **slowly**). Приклеили — и готово. Но при склейке хвост слова иногда чуть меняется, и вот на письме русскоязычный тут спотыкается. Разберём три случая — и все три нам уже знакомы по другим темам."
+        },
+        {
+          "type": "heading",
+          "text": "Слово на -y → меняем на -ily"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если прилагательное кончается на `-y`, эта `y` превращается в `i`, а дальше идёт `-ly` — выходит `-ily`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**happy** → **happily** (счастливо)",
+            "**easy** → **easily** (легко)",
+            "**lucky** → **luckily** (к счастью)",
+            "**angry** → **angrily** (сердито)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это ровно та же замена `y → i`, что мы делали во множественном числе (**city** → **cities**) и в Present Simple (**study** → **studies**). Приём знакомый — просто применяем его к наречиям."
+        },
+        {
+          "type": "heading",
+          "text": "Слово на -le → меняем на -ly"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если прилагательное кончается на согласную и немой `-le`, то `-le` уступает место `-ly` (а не превращается в «-lely»):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**terrible** → **terribly** (ужасно)",
+            "**gentle** → **gently** (мягко, нежно)",
+            "**simple** → **simply** (просто)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь два новых слова: **terrible** — «ужасный» и **gentle** — «нежный, мягкий»."
+        },
+        {
+          "type": "heading",
+          "text": "Слово на -ic → добавляем -ally"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если прилагательное кончается на `-ic`, приклеивается не просто `-ly`, а `-ally`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**basic** → **basically** (в основном, по сути)",
+            "**automatic** → **automatically** (автоматически)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Орфографию легко проглотить — **happyly** ✗, **terriblely** ✗, **basicly** ✗. Правильно — **happily**, **terribly**, **basically**. Это не мелочь: с такой ошибкой слово выглядит неграмотно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "При образовании наречия на `-ly` хвост прилагательного иногда меняется: `-y` → `-ily` (**happy** → **happily**, **lucky** → **luckily**), `-le` → `-ly` (**terrible** → **terribly**, **gentle** → **gently**), `-ic` → `-ally` (**basic** → **basically**). Ловушки — проглотить перестройку: **happyly** ✗, **terriblely** ✗, **basicly** ✗.",
+      "examples": [
+        {
+          "ru": "К счастью, магазин ещё открыт.",
+          "en": "Luckily, the shop is still open."
+        },
+        {
+          "ru": "Сегодня ужасно холодно.",
+          "en": "Today it is terribly cold."
+        },
+        {
+          "ru": "Он мягко закрывает дверь.",
+          "en": "He closes the door gently."
+        },
+        {
+          "ru": "Она легко читает по-английски.",
+          "en": "She reads English easily."
+        },
+        {
+          "ru": "По сути, это одно и то же.",
+          "en": "It is basically the same thing."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему happy превращается в happily, а не в happyly?",
+        "Почему basic → basically, а не basicly?",
+        "Есть ли слова, где -ly вообще не добавляют?"
+      ]
+    },
+    {
+      "id": 213,
+      "microtopicId": 72,
+      "title": "Плоские наречия: fast, hard, late",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы привыкли: наречие — это прилагательное плюс `-ly`. Но есть небольшая группа слов, которые работают наречием **без всякого -ly** — их форма один в один совпадает с прилагательным. Это **fast**, **hard**, **late**, **early**, **high**, **near**. Одно и то же слово играет обе роли:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**a fast car** — быстрая машина (прилагательное, «какая?»)",
+            "**he drives fast** — он водит быстро (наречие, «как?»)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему русскому это неудобно"
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском «быстрый» и «быстро» — два разных слова, поэтому рука сама тянется прилепить `-ly` и сюда: **fastly** ✗. Такого слова нет. Запомни: у этой горстки слов наречие выглядит как прилагательное, и `-ly` им не нужен."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**У некоторых из них -ly даёт СОВСЕМ ДРУГОЕ слово.** Форма с `-ly` у части этих слов всё-таки существует — но означает она не «наречие от прилагательного», а нечто другое. Три пары, которые надо развести:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**hard** (усердно, сильно) → **hardly** (едва, почти не): **He works hard** (много работает) ≠ **He hardly works** (почти не работает) — смысл почти противоположный!",
+            "**late** (поздно) → **lately** (в последнее время): **She works late** ≠ **She is very busy lately**.",
+            "**near** (близко) → **nearly** (почти): **They live near** ≠ **Dinner is nearly ready**."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Hardly** само по себе уже почти отрицание («едва, почти не»), поэтому отрицать второй раз не нужно: **I can hardly hear you** (я едва тебя слышу), а не **I can't hardly hear you** ✗. Это та же история, что с **never** в Present Simple, — одно отрицание, не два."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Слова **fast**, **hard**, **late**, **early**, **high**, **near** работают наречием без `-ly` — форма как у прилагательного: **he drives fast** (не **fastly** ✗). У части из них форма с `-ly` существует, но значит другое: **hard** (усердно) / **hardly** (едва), **late** (поздно) / **lately** (в последнее время), **near** (близко) / **nearly** (почти). И **hardly** уже само отрицание: **I can hardly hear you**, не **can't hardly** ✗.",
+      "examples": [
+        {
+          "ru": "Ты говоришь слишком быстро.",
+          "en": "You speak too fast."
+        },
+        {
+          "ru": "Ник усердно учится каждое утро.",
+          "en": "Nick studies hard every morning."
+        },
+        {
+          "ru": "В последнее время я почти не сплю.",
+          "en": "I hardly sleep lately."
+        },
+        {
+          "ru": "Кафе совсем близко.",
+          "en": "The café is very near."
+        },
+        {
+          "ru": "Работа почти готова.",
+          "en": "The work is nearly ready."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем hard отличается от hardly?",
+        "Почему нельзя сказать fastly?",
+        "Почему «can't hardly» — ошибка?"
+      ]
+    },
+    {
+      "id": 214,
+      "microtopicId": 72,
+      "title": "Слова на -ly, которые НЕ наречия",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлых карточках мы усвоили удобный сигнал: видишь `-ly` на конце — скорее всего перед тобой наречие. Обычно так и есть. Но существует коварная группа слов на `-ly`, которые, наоборот, — **прилагательные**, а не наречия. Они описывают существительное («какой?»), а не действие:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**a friendly dog** — дружелюбная собака",
+            "**a lovely day** — чудесный день",
+            "**a silly mistake** — глупая ошибка",
+            "**a lonely man** — одинокий человек"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда они взялись"
+        },
+        {
+          "type": "paragraph",
+          "text": "Секрет в том, что эти слова образованы не от глагола или прилагательного, а от **существительного**: **friend** (друг) → **friendly**, **love** (любовь) → **lovely**. Здесь `-ly` значит не «как делается действие», а «подобный, свойственный» — поэтому и выходит прилагательное. Русская опора: «дружелюбный», «прелестный» — это ведь тоже прилагательные, отвечают на «какой?»."
+        },
+        {
+          "type": "heading",
+          "text": "Как же сказать «дружелюбно»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз **friendly** — прилагательное, наречие из него через ещё один `-ly` не сделать (**friendlily** звучит дико и почти не используется). Англичанин выходит из положения оборотом **in a friendly way** («дружелюбным образом»):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She smiled in a friendly way.** — Она улыбнулась дружелюбно.",
+            "**He talks to us in a friendly way.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Нельзя ставить эти слова на место наречия. **She smiled friendly** ✗ → **She smiled in a friendly way** ✓. Перед существительным они, наоборот, на месте: **a friendly dog** ✓ — тут это обычное прилагательное."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Практический вывод"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сигнал «`-ly` = наречие» рабочий, но с проверкой: если слово описывает **существительное** и отвечает на «какой?» — это прилагательное-исключение (**friendly**, **lovely**, **silly**, **lonely**, **ugly**), а не наречие."
+        }
+      ],
+      "theorySummary": "Не всё, что кончается на `-ly`, — наречие. Слова **friendly**, **lovely**, **silly**, **lonely**, **ugly** — это **прилагательные** (описывают существительное, «какой?»): **a friendly dog**, **a lovely day**. Они образованы от существительного (**friend** → **friendly**), поэтому наречия из них не делают, а говорят **in a friendly way**: **She smiled in a friendly way** (не **smiled friendly** ✗).",
+      "examples": [
+        {
+          "ru": "У них очень дружелюбная собака.",
+          "en": "They have a very friendly dog."
+        },
+        {
+          "ru": "Сегодня чудесный день.",
+          "en": "Today is a lovely day."
+        },
+        {
+          "ru": "Это глупая ошибка.",
+          "en": "It is a silly mistake."
+        },
+        {
+          "ru": "Он чувствует себя одиноким в новом городе.",
+          "en": "He feels lonely in a new city."
+        },
+        {
+          "ru": "Она всегда говорит с нами дружелюбно.",
+          "en": "She always talks to us in a friendly way."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что слово на -ly — прилагательное, а не наречие?",
+        "Как сказать «дружелюбно», если friendly — прилагательное?",
+        "Почему friendly — прилагательное, ведь на конце -ly?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 211,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 41,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 211,
+      "exerciseType": "MATCHING",
+      "exerciseId": 31,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 211,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 41,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 212,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 102,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 212,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 42,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 212,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 21,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 212,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 42,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 213,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 114,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 213,
+      "exerciseType": "MATCHING",
+      "exerciseId": 32,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 213,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 83,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 213,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 94,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 214,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 115,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 214,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 103,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 214,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 95,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 214,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 43,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "adverbs_card212_ex1",
+      "cardId": 212,
+      "title": "Образуй наречие",
+      "userInstruction": "ИИ пришлёт предложения с пропуском и прилагательным в скобках. Впишите наречие, образованное от него.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "adverbs_card213_ex1",
+      "cardId": 213,
+      "title": "hard или hardly?",
+      "userInstruction": "ИИ пришлёт предложения с пропуском. Впишите нужное наречие по смыслу.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    }
+  ],
+  "course_word_groups": [
+    {
+      "id": "descriptions",
+      "nameRus": "Описания",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "descriptions",
+      "nameRus": "Слова описаний",
+      "groupId": "descriptions",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 426,
+      "word": "terrible",
+      "translation": "ужасный",
+      "transcription": "[ˈterəbl]",
+      "microtopicId": 72,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 427,
+      "word": "gentle",
+      "translation": "нежный, мягкий",
+      "transcription": "[ˈdʒentl]",
+      "microtopicId": 72,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 428,
+      "word": "lucky",
+      "translation": "везучий, удачливый",
+      "transcription": "[ˈlʌki]",
+      "microtopicId": 72,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 429,
+      "word": "hardly",
+      "translation": "едва, почти не",
+      "transcription": "[ˈhɑːdli]",
+      "microtopicId": 72,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 430,
+      "word": "lately",
+      "translation": "в последнее время",
+      "transcription": "[ˈleɪtli]",
+      "microtopicId": 72,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 431,
+      "word": "nearly",
+      "translation": "почти",
+      "transcription": "[ˈnɪəli]",
+      "microtopicId": 72,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 432,
+      "word": "friendly",
+      "translation": "дружелюбный",
+      "transcription": "[ˈfrendli]",
+      "microtopicId": 72,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 433,
+      "word": "lovely",
+      "translation": "милый, прелестный, чудесный",
+      "transcription": "[ˈlʌvli]",
+      "microtopicId": 72,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 434,
+      "word": "lonely",
+      "translation": "одинокий",
+      "transcription": "[ˈləʊnli]",
+      "microtopicId": 72,
+      "categoryId": "descriptions"
+    }
+  ],
+  "table_fill_exercises": [
+    {
+      "id": 21,
+      "taskDescription": "запиши наречие от каждого прилагательного — следи за орфографией.",
+      "rows": [
+        {
+          "hint": "gentle",
+          "answer": "gently"
+        },
+        {
+          "hint": "comfortable",
+          "answer": "comfortably"
+        },
+        {
+          "hint": "possible",
+          "answer": "possibly"
+        },
+        {
+          "hint": "lazy",
+          "answer": "lazily"
+        },
+        {
+          "hint": "basic",
+          "answer": "basically"
+        },
+        {
+          "hint": "terrible",
+          "answer": "terribly"
+        }
+      ],
+      "explanation": "немой `-le` уступает `-ly` (gentle → gently, comfortable → comfortably, possible → possibly, terrible → terribly); `-y` → `-ily` (lazy → lazily); `-ic` → `-ally` (basic → basically)."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 94,
+      "statements": [
+        {
+          "en": "He works very hard every day.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The bus comes very fastly.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I can hardly see in the dark.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She can't hardly walk after the gym.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The train is nearly here.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — у **fast** нет формы с `-ly`: **comes very fast**; 4 — **hardly** уже отрицание, «can't hardly» — двойное, нужно **can hardly walk**."
+    },
+    {
+      "id": 95,
+      "statements": [
+        {
+          "en": "We have a friendly cat.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She looked at me friendly.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "This is a lovely garden.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He sings lovely every morning.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "This is a silly question.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — **friendly** прилагательное, «посмотрела дружелюбно» = **looked at me in a friendly way**; 4 — **lovely** тоже прилагательное, для «поёт красиво» нужно наречие (**sings beautifully**)."
+    }
+  ],
+  "word_arrangement_exercises": [],
+  "multiple_choice_exercises": [
+    {
+      "id": 102,
+      "choiceType": "CHOICE",
+      "prompt": "Try to explain it ___ so everyone can understand.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "simplely",
+          "isCorrect": false
+        },
+        {
+          "text": "simpley",
+          "isCorrect": false
+        },
+        {
+          "text": "simply",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "**simple** кончается на `-le`, поэтому оно уступает место `-ly`: **simply**. **simplely** — лишний слог, **simpley** — потерянная буква."
+    },
+    {
+      "id": 114,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Он ленится и почти не занимается.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "He studies hard.",
+          "isCorrect": false
+        },
+        {
+          "text": "He hardly studies.",
+          "isCorrect": true
+        },
+        {
+          "text": "He studies hardly.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«Почти не» — это **hardly**, и оно встаёт перед глаголом: **He hardly studies**. **He studies hard** — обратный смысл («усердно»), а **He studies hardly** так не говорят."
+    },
+    {
+      "id": 115,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Она дружелюбно поздоровалась с нами.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "She said hello friendly.",
+          "isCorrect": false
+        },
+        {
+          "text": "She said hello friendlily.",
+          "isCorrect": false
+        },
+        {
+          "text": "She said hello in a friendly way.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "**friendly** — прилагательное, наречие из него не делают: «дружелюбно» = **in a friendly way**. **friendly** на месте наречия и выдуманное **friendlily** не годятся."
+    },
+    {
+      "id": 103,
+      "choiceType": "CHOICE",
+      "prompt": "Their new neighbour is very ___ — he always says hello and helps everyone.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "friendly",
+          "isCorrect": true
+        },
+        {
+          "text": "friendlily",
+          "isCorrect": false
+        },
+        {
+          "text": "in a friendly way",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Описываем человека («какой сосед?») → нужно прилагательное **friendly**. **friendlily** не существует, а **in a friendly way** — оборот для наречия (как что-то делается), тут он не к месту."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 31,
+      "taskDescription": "соедини наречие с вопросом, на который оно отвечает.",
+      "pairs": [
+        {
+          "left": "carefully",
+          "right": "как?"
+        },
+        {
+          "left": "always",
+          "right": "как часто?"
+        },
+        {
+          "left": "here",
+          "right": "где?"
+        },
+        {
+          "left": "yesterday",
+          "right": "когда?"
+        },
+        {
+          "left": "very",
+          "right": "насколько?"
+        }
+      ],
+      "explanation": "carefully — как? (образ действия), always — как часто? (частота), here — где? (место), yesterday — когда? (время), very — насколько? (степень)."
+    },
+    {
+      "id": 32,
+      "taskDescription": "соедини наречие с его значением.",
+      "pairs": [
+        {
+          "left": "hard",
+          "right": "усердно"
+        },
+        {
+          "left": "hardly",
+          "right": "едва, почти не"
+        },
+        {
+          "left": "late",
+          "right": "поздно"
+        },
+        {
+          "left": "lately",
+          "right": "в последнее время"
+        },
+        {
+          "left": "near",
+          "right": "близко"
+        },
+        {
+          "left": "nearly",
+          "right": "почти"
+        }
+      ],
+      "explanation": "Эти пары легко перепутать: hard (усердно) vs hardly (едва), late (поздно) vs lately (в последнее время), near (близко) vs nearly (почти)."
+    }
+  ],
+  "error_correction_exercises": [
+    {
+      "id": 83,
+      "wrongSentence": "My brother runs very fastly in the mornings.",
+      "options": [
+        {
+          "text": "My brother runs very fast in the mornings.",
+          "isCorrect": true
+        },
+        {
+          "text": "My brother runs very hard in the mornings.",
+          "isCorrect": false
+        },
+        {
+          "text": "My brother runs very hardly in the mornings.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "У **fast** нет формы с `-ly` — наречие тоже **fast** (**fastly** ✗). **hard** (усердно) и **hardly** (едва) сюда по смыслу не подходят."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 41,
+      "taskDescription": "распредели наречия по вопросу, на который они отвечают.",
+      "categories": [
+        {
+          "title": "как?",
+          "items": [
+            "slowly",
+            "quickly",
+            "loudly"
+          ]
+        },
+        {
+          "title": "когда?",
+          "items": [
+            "soon",
+            "later",
+            "then"
+          ]
+        },
+        {
+          "title": "где?",
+          "items": [
+            "there",
+            "inside",
+            "upstairs"
+          ]
+        }
+      ],
+      "explanation": "Наречия образа действия отвечают «как?» (slowly, loudly), времени — «когда?» (soon, then), места — «где?» (there, upstairs)."
+    },
+    {
+      "id": 42,
+      "taskDescription": "распредели прилагательные по тому, как из них образуется наречие.",
+      "categories": [
+        {
+          "title": "-y → -ily",
+          "items": [
+            "noisy",
+            "hungry",
+            "heavy"
+          ]
+        },
+        {
+          "title": "-le → -ly",
+          "items": [
+            "horrible",
+            "simple",
+            "gentle"
+          ]
+        },
+        {
+          "title": "-ic → -ally",
+          "items": [
+            "tragic",
+            "basic"
+          ]
+        }
+      ],
+      "explanation": "`-y` меняется на `-ily` (noisy → noisily, hungry → hungrily), немой `-le` уступает `-ly` (horrible → horribly, gentle → gently), `-ic` берёт `-ally` (tragic → tragically, basic → basically)."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 41,
+      "groupDescription": "Три слова — наречия (описывают действие), одно — прилагательное (описывает предмет)",
+      "items": [
+        {
+          "text": "quickly",
+          "isOdd": false
+        },
+        {
+          "text": "slowly",
+          "isOdd": false
+        },
+        {
+          "text": "loudly",
+          "isOdd": false
+        },
+        {
+          "text": "quiet",
+          "isOdd": true
+        }
+      ],
+      "explanation": "quickly, slowly, loudly — наречия, отвечают на «как?». quiet — прилагательное, отвечает на «какой?»; его наречие — quietly."
+    },
+    {
+      "id": 42,
+      "groupDescription": "Три наречия записаны верно, одно — с орфографической ошибкой",
+      "items": [
+        {
+          "text": "happily",
+          "isOdd": false
+        },
+        {
+          "text": "basicly",
+          "isOdd": true
+        },
+        {
+          "text": "easily",
+          "isOdd": false
+        },
+        {
+          "text": "gently",
+          "isOdd": false
+        }
+      ],
+      "explanation": "**basic** кончается на `-ic`, поэтому наречие — **basically** (с `-ally`), а не **basicly**."
+    },
+    {
+      "id": 43,
+      "groupDescription": "Три слова — настоящие наречия, одно — прилагательное на -ly",
+      "items": [
+        {
+          "text": "lovely",
+          "isOdd": true
+        },
+        {
+          "text": "quickly",
+          "isOdd": false
+        },
+        {
+          "text": "slowly",
+          "isOdd": false
+        },
+        {
+          "text": "carefully",
+          "isOdd": false
+        }
+      ],
+      "explanation": "quickly, slowly, carefully — наречия (описывают действие, «как?»). **lovely** — прилагательное (описывает предмет, «какой?»), несмотря на `-ly`."
+    }
+  ]
+}

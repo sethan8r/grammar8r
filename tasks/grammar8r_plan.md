@@ -1067,20 +1067,74 @@ theory/
 │   │      • just like / similar to / as if / as though — уже лежат в «Сравнительных конструкциях».
 │   │
 │   └── Наречия (Adverbs)  ← тема 2 раздела, после «Сравнения прилагательных», перед Past Simple
-│       (В утверждениях never, а в вопросах ever) (слить слова, использовать в примерах: often, rarely и др.)
-│       ⚠️ ДЕДУП: образование -ly и good→well / fast/hard уже частично даны в MT32 Card 88 (Части речи) —
-│          здесь углубляем (роль, позиция, степени), не пересказываем с нуля.
-│       ℹ️ К этой теме мы УЖЕ слили заметно больше наречий, чем в ней встречается: по канону слива
-│          (guide §6) наречия открываем как лексику СРАЗУ по ходу курса, не дожидаясь этой темы. Здесь
-│          разбираем их РОЛЬ и систему (образование -ly, позиция, степени), а часть слов-наречий
-│          пользователь уже знает. Это нормально и желательно — не считать «забеганием вперёд».
-│       ├── Образование: прилагательное + -ly; исключения: good→well, fast→fast, hard→hard
-│       ├── Наречия образа действия — slowly, carefully, badly, well. Позиция после глагола/дополнения
-│       ├── Степени сравнения наречий — fast→faster→fastest, carefully→more carefully→most carefully
-│       ├── Наречия степени — very, quite, rather, fairly, extremely; too (слишком) / enough (достаточно)
-│       ├── Наречия места и времени — here/there, now/then/soon/already/yet/still; позиция в предложении
-│       └── Расстояние — far / far away (далеко) / far from / nearby (рядом):
-│           "It's far away", "not far from here", "Is it far?". far away = "далеко" о расстоянии
+│       (Topic id=13, order=2; Раздел 2 «Описания и сравнения». Next free при написании: Microtopic 72,
+│        Card 211, course_word 426 — сверить по _id-registry.md на момент старта.)
+│       🎯 ОБЪЁМ: 5 микротем / 17 карточек — база, которой хватит до тем-расширений. Тема шире
+│          «Сравнения прилагательных» (там 3/8): охватывает образование + образ действия + степени +
+│          два лексических пласта (степень, место/время/расстояние).
+│       ⚠️ ДЕДУП: наречия уже введены обзорно в MT32 «Части речи» (Card 87 — что такое / роль; Card 88 —
+│          образование +-ly, fast/hard, good→well, ловушка hardly; Card 89 — обзор позиций всех видов).
+│          Позиция наречий ЧАСТОТНОСТИ (always/often/never) детально разобрана в Present Simple. Здесь НЕ
+│          пересказываем с нуля — УГЛУБЛЯЕМ: орфография -ly, flat adverbs, linking verbs, СТЕПЕНИ наречий
+│          (опора на свежие MT69–71), лексические группы. Вводная — только короткое НАПОМИНАНИЕ (роль/виды).
+│       ℹ️ never — уже подробно дан (Present Simple, частотность): здесь только напоминаем в обзоре видов.
+│          ever — НЕ давали, зарезервирован под Present Perfect (already/just/yet/ever/never) — сюда не тащим.
+│       🔤 СЛИВ СЛОВ (строго): сливаем ТОЛЬКО наречия (или прилагательные, от которых они образуются),
+│          которые пользователь ЕЩЁ НЕ ЗНАЕТ и которых мы НЕ сливали раньше. Наречий уже слито много по
+│          курсу (often, rarely, always, slowly, carefully…) — их НЕ дублировать (check.py → WORD DUPLICATES).
+│          Доложат в общую категорию «Слова описаний» (descriptions), как и «Сравнение прилагательных».
+│       │
+│       ├── МТ72 · Adverb Basics & Formation · Наречие и его образование — 4 карточки ✅ (написана, ALL GREEN 10.07.26)
+│       │   ├── Card 211 · Напоминание: что такое наречие (роль + виды: образа действия/степени/частоты/
+│       │   │   места/времени). Короткий рефреш со ссылкой «подробнее было в Частях речи» — освежаем, т.к.
+│       │   │   было давно. Вводная, БЕЗ AI.
+│       │   ├── Card 212 · Правописание при -ly: happy→happily (-y→-ily), terrible→terribly / gentle→gently
+│       │   │   (-le→-ly), basic→basically (-ic→-ically). Отвечает на вопрос, оставленный в Clarification Card 88. + AI.
+│       │   ├── Card 213 · Плоские наречия (flat adverbs): fast, hard, late, early, high, near — форма как у
+│       │   │   прилагательного, без -ly. Пары, где -ly МЕНЯЕТ смысл: hard/hardly (едва), late/lately (в
+│       │   │   последнее время), near/nearly (почти). + AI.
+│       │   └── Card 214 · Слова на -ly, которые НЕ наречия: friendly, lovely, silly, lonely — это
+│       │       прилагательные. «Дружелюбно» = in a friendly way. Ловушка: не всё на -ly — наречие. (без AI)
+│       │
+│       ├── МТ73 · Adverbs of Manner · Наречия образа действия — 4 карточки
+│       │   ├── Card 215 · Наречие vs прилагательное после глагола: She sings beautifully (как поёт) vs
+│       │   │   She is beautiful. Ловушка «She sings beautiful» ✗ — глубже обзора Card 89: почему и откуда
+│       │   │   калька из русского. + AI.
+│       │   ├── Card 216 · well — наречие от good: I speak English well; ловушка «I speak good» ✗. + well =
+│       │   │   «здоров» (How are you? — I'm well). + AI.
+│       │   ├── Card 217 · Глаголы-исключения (linking verbs): look/feel/smell/taste/sound + ПРИЛАГАТЕЛЬНОЕ,
+│       │   │   не наречие. «It smells good» (не smells well), «You look tired». Ломает только что выученное
+│       │   │   «после глагола → наречие» — важнейшая ловушка русского. + AI.
+│       │   └── Card 218 · Позиция наречия образа действия: после глагола / после дополнения, но НЕ между
+│       │       глаголом и дополнением: «He speaks English well» ✓ / «He speaks well English» ✗. + AI.
+│       │
+│       ├── МТ74 · Comparison of Adverbs · Степени сравнения наречий — 3 карточки
+│       │   (мост к свежим MT69–71: у наречий всё так же, как у прилагательных)
+│       │   ├── Card 219 · Короткие/flat: -er/-est — fast→faster→fastest, hard→harder→hardest,
+│       │   │   early→earlier→earliest. + AI.
+│       │   ├── Card 220 · На -ly: more/most — quickly→more quickly→most quickly, carefully→more carefully.
+│       │   │   Ловушка «quicklier» ✗ (зеркало more/most из Card 204/207). + AI.
+│       │   └── Card 221 · Исключения + as…as: well→better→best, badly→worse→worst, far→further→furthest,
+│       │       little→less→least; «run as fast as» (связь с MT71). + AI.
+│       │
+│       ├── МТ75 · Adverbs of Degree · Наречия степени — 2 карточки
+│       │   ├── Card 222 · Усилители: very/quite/rather/fairly/extremely/really + прил./наречие. Таблица
+│       │   │   оттенков интенсивности и регистра (fairly < quite < rather < very). Ловушка «very better» ✗
+│       │   │   → сослаться на Card 205. + AI.
+│       │   └── Card 223 · too vs enough: too cold (слишком, перебор — негатив) vs warm enough (enough ПОСЛЕ
+│       │       слова). Разведение too/very. Полную конструкцию too…to / enough…to только АНОНСИРУЕМ —
+│       │       она в теме «So/Such и Too/Enough». + AI.
+│       │
+│       └── МТ76 · Place, Time & Distance · Наречия места, времени и расстояния — 4 карточки
+│           ├── Card 224 · Место: here/there, everywhere/somewhere/nowhere, inside/outside, upstairs, home.
+│           │   Ловушка «go to home» ✗ (go home — без предлога). Позиция — в конце. + AI.
+│           ├── Card 225 · Время: now/then/soon/today/tonight/tomorrow; позиция (начало/конец). + AI.
+│           ├── Card 226 · already / yet / still. still — полноценно (работает сейчас). already/yet — даём
+│           │   базово на простых временах + плашка-анонс «полный разбор придёт в Present Perfect» (конвенция
+│           │   превью, как used to / been vs gone). + AI.
+│           └── Card 227 · Расстояние: far / far away / far from / nearby / a long way. «Is it far?»,
+│               «It's far away», «not far from here», «There's a shop nearby». Ловушка: far в утверждениях
+│               звучит странно → a long way / far away; свободно в вопросах/отрицаниях. + AI.
 │
 ├── Past Simple
 │   ├── Карточка приоритета: 10-20 глаголов (V1 / V2 / V3) нужных для темы
