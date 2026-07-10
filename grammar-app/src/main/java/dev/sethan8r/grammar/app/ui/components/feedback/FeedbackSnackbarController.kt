@@ -44,9 +44,7 @@ class FeedbackSnackbarController(
      * после отпускания добавляется [Durations.snackbarHoldGraceMs] и снекбар уходит.
      */
     fun show(message: String, durationMs: Long) {
-        job?.cancel()
-        hostState.currentSnackbarData?.dismiss()
-        held = false
+        dismiss()
         job = scope.launch {
             // Indefinite + ручной таймер: точная длительность в мс (штатный enum даёт лишь Short/Long).
             // showSnackbar — дочерняя корутина job: при следующем show() job отменяется → плашка уходит.
@@ -63,6 +61,13 @@ class FeedbackSnackbarController(
             }
             hostState.currentSnackbarData?.dismiss()
         }
+    }
+
+    /** Снять текущий снекбар сразу (не дожидаясь таймера) — например, при навигации на другой экран. */
+    fun dismiss() {
+        job?.cancel()
+        hostState.currentSnackbarData?.dismiss()
+        held = false
     }
 
     private companion object {

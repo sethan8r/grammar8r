@@ -48,6 +48,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import dev.sethan8r.grammar.app.ui.components.feedback.FeedbackSnackbarHost
 import dev.sethan8r.grammar.app.ui.components.feedback.LocalTabSnackbarController
 import dev.sethan8r.grammar.app.ui.components.feedback.rememberFeedbackSnackbarController
+import dev.sethan8r.grammar.app.ui.components.scaffold.BottomNavScrim
 import dev.sethan8r.grammar.app.ui.components.scaffold.Grammar8rBottomBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.TopStatusScrim
 import dev.sethan8r.grammar.app.ui.components.scaffold.rememberBottomBarScrollBehavior
@@ -107,10 +108,16 @@ fun MainScreen() {
 
     // Плавающая капсула навигации парит поверх контента — прячется/показывается при скролле.
     val bottomBarScroll = rememberBottomBarScrollBehavior()
-    LaunchedEffect(currentDestination) { bottomBarScroll.forceShow() }
 
     // Общий снекбар вкладок (описания тем из «i»): висит над капсулой и едет вместе с ней.
     val tabSnackbar = rememberFeedbackSnackbarController()
+
+    // Смена роута: капсулу показать (чтобы не «залипла» скрытой), снекбар снять
+    // (описание темы не должно доживать таймер поверх чужого экрана).
+    LaunchedEffect(currentDestination) {
+        bottomBarScroll.forceShow()
+        tabSnackbar.dismiss()
+    }
 
     Scaffold(containerColor = Background) { innerPadding ->
         // Верхний инсет строки состояния для полноэкранных роутов. НЕ вешаем его на общий контейнер
@@ -212,6 +219,14 @@ fun MainScreen() {
             }
             }
           }
+
+            // Градиент-скрим над системной полосой навигации — на всех экранах, кроме сессии
+            // упражнений (там низ держит футер с кнопкой, контент под полосу не заезжает).
+            // Под снекбаром и капсулой — они рисуются позже.
+            val isExerciseSession = currentDestination?.hasRoute(ExerciseSessionRoute::class) == true
+            if (!isExerciseSession) {
+                BottomNavScrim(modifier = Modifier.align(Alignment.BottomCenter))
+            }
 
             // Общий снекбар вкладок — над капсулой. Нижний отступ анимируется тем же спеком/флагом,
             // что и капсула: она видна → снекбар над ней; спрятана → съезжает к низу экрана (не за него).

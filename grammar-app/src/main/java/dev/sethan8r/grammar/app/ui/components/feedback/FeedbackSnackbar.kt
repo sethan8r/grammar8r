@@ -65,15 +65,22 @@ fun FeedbackSnackbarHost(
                         .background(Elevated)
                         // Наблюдаем зажатие плашки, НЕ потребляя события (swipe-dismiss не ломаем).
                         .pointerInput(Unit) {
-                            awaitPointerEventScope {
-                                while (true) {
-                                    awaitFirstDown(requireUnconsumed = false)
-                                    onHoldChanged(true)
-                                    do {
-                                        val event = awaitPointerEvent()
-                                    } while (event.changes.any { it.pressed })
-                                    onHoldChanged(false)
+                            try {
+                                awaitPointerEventScope {
+                                    while (true) {
+                                        awaitFirstDown(requireUnconsumed = false)
+                                        onHoldChanged(true)
+                                        do {
+                                            val event = awaitPointerEvent()
+                                        } while (event.changes.any { it.pressed })
+                                        onHoldChanged(false)
+                                    }
                                 }
+                            } finally {
+                                // Плашка ушла из композиции с зажатым пальцем (свайп-дисмисс): корутина
+                                // отменяется без события отпускания — снимаем «зажато», иначе таймер
+                                // контроллера навсегда останется на паузе.
+                                onHoldChanged(false)
                             }
                         }
                         .padding(horizontal = Dimens.spaceXLarge, vertical = Dimens.spaceMedium),

@@ -24,14 +24,14 @@ fun scrollBottomInset(extra: Dp = Dimens.bottomBarGap24): Dp =
  * Нижний отступ скроллящегося контента КОРНЕВОЙ вкладки. Плавающая капсула навигации
  * ([dev.sethan8r.grammar.app.ui.components.scaffold.Grammar8rBottomBar]) парит поверх контента и не
  * резервирует высоту, поэтому последний элемент списка держим над ней сами: навбар-инсет + высота
- * капсулы + её плавающий зазор + тонкий воздух.
+ * капсулы + её плавающий зазор + воздух [Dimens.spaceMedium] (= зазору между темами в дереве теории).
  */
 @Composable
 fun floatingBarBottomInset(): Dp =
     WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding() +
         Dimens.bottomBarFloatingHeight +
         Dimens.bottomBarFloatingBottomGap +
-        Dimens.bottomBarGap8
+        Dimens.spaceMedium
 
 /**
  * Верхний отступ скроллящегося контента КОРНЕВОЙ вкладки = высота строки состояния. На вкладках

@@ -18,9 +18,12 @@ import dev.sethan8r.grammar.app.ui.theme.Dimens
  * (единый коннект, нулевой ретрофит).
  *
  * Порог срабатывания — по НАКОПЛЕННОМУ пути пальца в одном направлении (сбрасывается при развороте),
- * а НЕ по дельте одного кадра. Поэтому медленный скролл прячет/показывает так же, как быстрый — не
- * зависит от скорости. Показ требует меньший путь, чем скрытие ([showDistancePx] ≪ [hideDistancePx]);
- * у самого верха ([topThresholdPx]) бар всегда показан.
+ * а НЕ по дельте одного кадра: медленный скролл прячет/показывает так же, как быстрый. Пороги
+ * показа/скрытия ([showDistancePx]/[hideDistancePx]) независимы. У самого верха ([topThresholdPx])
+ * бар всегда показан.
+ *
+ * Скролл считается в [NestedScrollConnection.onPostScroll] по `consumed` — реально проскроленному
+ * списком (тяга «в стену» на границах в счётчик не попадает).
  */
 class BottomBarScrollBehavior(
     private val showDistancePx: Float,
@@ -38,8 +41,8 @@ class BottomBarScrollBehavior(
     private var directionalDrag = 0f
 
     val nestedScrollConnection = object : NestedScrollConnection {
-        override fun onPreScroll(available: Offset, source: NestedScrollSource): Offset {
-            val delta = available.y // палец вверх → delta < 0; палец вниз → delta > 0
+        override fun onPostScroll(consumed: Offset, available: Offset, source: NestedScrollSource): Offset {
+            val delta = consumed.y // палец вверх → delta < 0; палец вниз → delta > 0
             offsetFromTop = (offsetFromTop - delta).coerceAtLeast(0f)
 
             // У самого верха — всегда показан, накопитель сброшен.
