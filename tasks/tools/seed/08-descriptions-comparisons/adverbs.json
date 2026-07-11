@@ -23,6 +23,12 @@
       "topicId": 13,
       "title": "Adverb Basics & Formation · Наречие и его образование",
       "order": 1
+    },
+    {
+      "id": 73,
+      "topicId": 13,
+      "title": "Adverbs of Manner · Наречия образа действия",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -429,6 +435,423 @@
         "Как сказать «дружелюбно», если friendly — прилагательное?",
         "Почему friendly — прилагательное, ведь на конце -ly?"
       ]
+    },
+    {
+      "id": 215,
+      "microtopicId": 73,
+      "title": "Наречие или прилагательное после глагола",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой микротеме мы разобрали наречие снаружи — окончание `-ly`, орфографию, слова-исключения. Теперь — самое важное: как выбрать между прилагательным и наречием, когда рядом стоит глагол. Именно здесь русскоязычный ошибается чаще всего, и ошибка не случайная — у неё есть чёткий корень."
+        },
+        {
+          "type": "heading",
+          "text": "Два разных слова описывают две разные вещи"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прилагательное описывает **предмет** — отвечает на «какой?». Наречие описывает **действие** — отвечает на «как?». Сравни две опоры:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She is beautiful.** — здесь глагол `to be` (is), и слово **beautiful** описывает саму девушку: какая она. Это прилагательное.",
+            "**She sings beautifully.** — здесь глагол действия **sing**, и слово **beautifully** описывает пение: как она поёт. Это наречие."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Один корень, но при `to be` — прилагательное про предмет, а при глаголе действия — наречие про действие. Как только меняем `to be` на настоящий глагол, слово обязано надеть окончание `-ly`."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда ошибка в голове русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот что удивительно: в русском мы это различие **слышим**. «Красивая» и «красиво», «медленный» и «медленно» — для нас это разные слова, и мы никогда не скажем «она поёт красивая». Значит, чувство различия у нас есть. Почему же по-английски рука упорно пишет **She sings beautiful**?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причин две. Первая: слово **beautiful** мы выучили первым, как «главное» удобное, и мозг тянет его во все дырки. Вторая, и главная: с `to be` прилагательное — правильный выбор (**She is beautiful** ✓), и мозг по инерции переносит ту же форму на глагол действия, не заметив, что глагол сменился. Ошибка рождается не от незнания, а от невнимания к тому, какой глагол стоит рядом."
+        },
+        {
+          "type": "heading",
+          "text": "Почему язык устроен именно так"
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском кто на кого влияет, часто видно по окончанию, и слова можно тасовать. В английском порядок слов жёсткий, окончаний мало — поэтому язык помечает роль слова его **формой**. Окончание `-ly` работает как маленький флажок: «я описываю действие, а не предмет». Убери флажок — и слово снова про предмет. Форма тут не украшение, а способ показать, к чему слово относится."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She sings beautiful** ✗ → **She sings beautifully** ✓. Тот же промах: **He speaks slow** ✗ → **He speaks slowly** ✓ (хотя **The train is slow** ✓ — при `to be` прилагательное на месте)."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Наречие описывает действие («как?»), прилагательное — предмет («какой?»). После `to be` идёт прилагательное (**She is beautiful** — какая она), после глагола действия — наречие (**She sings beautifully** — как поёт). Русский различает «красивая/красиво», но ошибается, потому что переносит прилагательное с `to be` на глагол действия. Ловушка: **She sings beautiful** ✗ → **beautifully** ✓.",
+      "examples": [
+        {
+          "ru": "Джейк говорит тихо.",
+          "en": "Jake speaks quietly."
+        },
+        {
+          "ru": "Она красивая — и поёт красиво.",
+          "en": "She is beautiful, and she sings beautifully."
+        },
+        {
+          "ru": "Этот парень умный и отвечает умно.",
+          "en": "This guy is clever and answers cleverly."
+        },
+        {
+          "ru": "Мой брат водит осторожно.",
+          "en": "My brother drives carefully."
+        },
+        {
+          "ru": "Ты печатаешь слишком медленно.",
+          "en": "You type too slowly."
+        }
+      ],
+      "clarificationOptions": [
+        "В чём разница между beautiful и beautifully?",
+        "Как понять, когда нужна форма на -ly, а когда без неё?",
+        "Почему после to be остаётся прилагательное, а после глагола действия — наречие?"
+      ]
+    },
+    {
+      "id": 216,
+      "microtopicId": 73,
+      "title": "well — наречие от good",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Из «Частей речи» мы помним пример-исключение: наречие от прилагательного **good** — это не **goodly**, а совсем другое слово, **well**. Слово частое, и ошибка на нём тоже частая, поэтому разберём его отдельно и до конца."
+        },
+        {
+          "type": "heading",
+          "text": "good — про предмет, well — про действие"
+        },
+        {
+          "type": "paragraph",
+          "text": "**good** — прилагательное: описывает предмет или подлежащее при `to be`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**a good restaurant** — хороший ресторан",
+            "**The coffee is good.** — кофе хороший"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Как только речь заходит о **действии** («как ты это делаешь?»), вместо **good** нужен его напарник-наречие **well**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Nick cooks well.** — Ник хорошо готовит",
+            "**She speaks Spanish well.** — она хорошо говорит по-испански"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика та же, что в прошлой карточке: предмет → прилагательное, действие → наречие. Просто у **good** наречие не по правилу с `-ly`, а своё, неправильное — **well** (как у **fast** наречие тоже особое). Эту пару придётся запомнить отдельно, но принцип знакомый."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «хорошо» (наречие) и «хороший» (прилагательное) — разные слова, и мы их не путаем. Но по-английски **good** настолько примелькалось, что рука ставит его и к действию: **I speak English good** ✗. А действие требует наречия: **I speak English well** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Вторая жизнь слова well: «здоров»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть нюанс, который многих сбивает: **well** бывает и **прилагательным** — тогда оно значит не «хорошо», а «здоров, в добром здравии». Это ответ про самочувствие:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How are you? — I'm well, thanks.** — …я здоров, в порядке.",
+            "**I don't feel well today.** — я неважно себя чувствую (нездоров)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Не путай с разговорным **I'm good** — это «у меня всё нормально» (про дела и настроение), а **I'm well** — именно «я здоров» (про самочувствие). Так что **well** носит две шляпы: наречие «хорошо» при глаголе действия и прилагательное «здоров» при глаголе `to be` или **feel**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I speak English good** ✗ → **well** ✓. И **She sings good** ✗ → **She sings well** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Наречие от прилагательного **good** — неправильное **well**: предмет — **good** (**a good film**), действие — **well** (**she sings well**). Русский путает, потому что тянет привычное **good** и к действию: **I speak good** ✗ → **well** ✓. Отдельно: **well** бывает прилагательным «здоров» (**How are you? — I'm well**), не путать с разговорным **I'm good** («всё ок»).",
+      "examples": [
+        {
+          "ru": "Ник хорошо готовит.",
+          "en": "Nick cooks well."
+        },
+        {
+          "ru": "Это хороший ресторан.",
+          "en": "This is a good restaurant."
+        },
+        {
+          "ru": "— Как дела? — Спасибо, я здоров.",
+          "en": "— How are you? — I'm well, thanks."
+        },
+        {
+          "ru": "Эмма хорошо говорит по-испански.",
+          "en": "Emma speaks Spanish well."
+        },
+        {
+          "ru": "Он хороший врач и лечит людей хорошо.",
+          "en": "He is a good doctor and treats people well."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I speak good?",
+        "В чём разница между I'm good и I'm well?",
+        "well — это наречие или прилагательное?"
+      ]
+    },
+    {
+      "id": 217,
+      "microtopicId": 73,
+      "title": "Глаголы восприятия: после них прилагательное",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Только что мы усвоили железное правило: после глагола — наречие. А теперь честно предупредим: есть группа глаголов, которая это правило **ломает**. После них ставится не наречие, а **прилагательное**. Пропустить эту карточку нельзя — здесь прячется одна из самых частых ошибок русскоязычных."
+        },
+        {
+          "type": "heading",
+          "text": "Глаголы-связки: look, feel, smell, taste, sound"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотри, что это за глаголы: **look** (выглядеть), **feel** (ощущаться), **smell** (пахнуть), **taste** (быть на вкус, ощущаться на вкус), **sound** (звучать). Все они — про **восприятие**, а не про действие. Они не рассказывают, что подлежащее делает, — они соединяют подлежащее с его же описанием. Поэтому их называют **связывающими** (linking): по сути они работают как `to be`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This soup tastes delicious.** — суп восхитительный (**delicious** — вкусный, восхитительный)",
+            "**You look tired.** — ты выглядишь усталым",
+            "**The flowers smell fresh.** — цветы пахнут свежо (**fresh** — свежий)",
+            "**That sounds great!** — звучит здорово",
+            "**I feel awful today.** — я ужасно себя чувствую (**awful** — ужасный, отвратительный)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверь логику подстановкой `to be`: **The soup tastes delicious** ≈ **The soup is delicious**. Прилагательное **delicious** описывает сам суп, а не то, «как» суп пробуют на вкус. Вот почему `-ly` тут не нужен — мы описываем предмет, а не действие. Так же ведёт себя глагол **seem** (казаться): **She seems happy** — после него тоже прилагательное."
+        },
+        {
+          "type": "heading",
+          "text": "Почему это важнейшая ловушка русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь русский толкает ровно в **обратную** сторону. «Суп пахнет вкусно», «Звучит здорово», «Пахнет свежо» — по-русски эти слова ощущаются наречиями, и рука сама тянется прибавить `-ly`: **smells deliciously** ✗, **sounds greatly** ✗. Плюс мы только что вбили себе «после глагола → наречие» — и оно подначивает сделать то же самое. А по-английски эти глаголы описывают сам предмет, поэтому — прилагательное."
+        },
+        {
+          "type": "heading",
+          "text": "Пара, которая всё расставляет по местам"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравни два предложения с одним глаголом **smell**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It smells good.** — оно приятно пахнет (**good** описывает запах самого предмета — связывающий глагол)",
+            "**The dog smells well.** — собака хорошо чует (**well** описывает, как пёс нюхает — тут **smell** = реальное действие «нюхать»)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Видишь разницу? Прилагательное **good** — про качество предмета, наречие **well** — про то, насколько хорошо выполняется действие. То же с **look**: **You look good** (выглядишь хорошо, привлекательно) и **You look well** (выглядишь здоровым — здесь **well** то самое прилагательное «здоров» из прошлой карточки)."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**It smells well** ✗ в значении «приятно пахнет» → **It smells good** ✓. **You look tiredly** ✗ → **You look tired** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Глаголы восприятия **look, feel, smell, taste, sound** (и **seem**) — связывающие: после них идёт ПРИЛАГАТЕЛЬНОЕ, а не наречие, потому что они описывают сам предмет (**It smells good** ≈ **It is good**), а не действие. Русский ошибается наоборот — тянет наречие (**smells deliciously** ✗), ведь по-русски «пахнет вкусно» звучит как наречие. Контраст: **It smells good** (приятно пахнет) vs **The dog smells well** (хорошо чует).",
+      "examples": [
+        {
+          "ru": "Этот суп пахнет восхитительно.",
+          "en": "This soup smells delicious."
+        },
+        {
+          "ru": "Ты выглядишь усталым.",
+          "en": "You look tired."
+        },
+        {
+          "ru": "Звучит здорово!",
+          "en": "That sounds great!"
+        },
+        {
+          "ru": "Цветы пахнут свежо.",
+          "en": "The flowers smell fresh."
+        },
+        {
+          "ru": "Она сегодня выглядит великолепно.",
+          "en": "She looks gorgeous today."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после smell идёт прилагательное, а после sing — наречие?",
+        "Чем smells good отличается от smells well?",
+        "Как понять, что глагол — связывающий, а не действие?"
+      ]
+    },
+    {
+      "id": 218,
+      "microtopicId": 73,
+      "title": "Позиция наречия: после дополнения, не между",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы знаем, какую форму выбрать. Осталось разобраться, **куда** её поставить. У наречия образа действия есть любимое место — и одно строго запретное."
+        },
+        {
+          "type": "heading",
+          "text": "Правило: после глагола или после дополнения, но не между ними"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если у глагола нет дополнения, наречие встаёт сразу после глагола:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He runs fast.** — он быстро бегает",
+            "**They work quietly.** — они работают тихо"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Если дополнение есть, наречие уходит **за него**, в конец, и ни в коем случае не влезает между глаголом и дополнением:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He speaks English well.** ✓ — а не **He speaks well English** ✗",
+            "**She reads books quickly.** ✓ — а не **She reads quickly books** ✗"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему нельзя между"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомни SVO из «Основ»: в английском подлежащее — глагол — дополнение стоят жёсткой связкой, и глагол с дополнением словно склеены (**speaks English** — единый смысловой кусок «говорит по-английски»). Наречие — гость: оно не имеет права разрывать эту склейку и встаёт после неё."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда ошибка русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском порядок слов свободный: «Он хорошо говорит по-английски», «Он говорит по-английски хорошо», «Он говорит хорошо по-английски» — все три звучат нормально, и «хорошо» спокойно встаёт в середину. Рука по привычке переносит это в английский — и выходит **He speaks well English** ✗. Надёжный приём: сомневаешься — ставь наречие образа действия **в конец предложения**, там оно почти всегда на месте."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She speaks English fluently.** — бегло (**fluent** — беглый, свободный о речи; наречие **fluently**)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He speaks well English** ✗ → **He speaks English well** ✓. **She plays well the guitar** ✗ → **She plays the guitar well** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Некоторые наречия могут вставать и перед глаголом (**She quietly closed the door**). Но у наречия образа действия самое безопасное и всегда верное место — после дополнения или в конце; между глаголом и дополнением — никогда."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Наречие образа действия стоит после глагола (если дополнения нет: **He runs fast**) или после всего дополнения (**He speaks English well**), но НИКОГДА между глаголом и дополнением (**He speaks well English** ✗). Причина — жёсткая связка глагол+дополнение из SVO. В русском порядок свободный, отсюда ошибка; надёжно ставить наречие в конец.",
+      "examples": [
+        {
+          "ru": "Он бегло говорит по-французски.",
+          "en": "He speaks French fluently."
+        },
+        {
+          "ru": "Катя аккуратно закрыла дверь.",
+          "en": "Kate closed the door carefully."
+        },
+        {
+          "ru": "Они внимательно слушают учителя.",
+          "en": "They listen to the teacher carefully."
+        },
+        {
+          "ru": "Ребёнок тихо ест кашу.",
+          "en": "The child eats porridge quietly."
+        },
+        {
+          "ru": "Пожалуйста, читай инструкцию внимательно.",
+          "en": "Please read the instructions carefully."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему наречие нельзя ставить между глаголом и дополнением?",
+        "Куда ставить наречие, если у глагола нет дополнения?",
+        "Можно ли поставить наречие образа действия в начало предложения?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -521,6 +944,78 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 43,
       "orderInCard": 3
+    },
+    {
+      "cardId": 215,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 116,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 215,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 96,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 215,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 84,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 216,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 104,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 216,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 43,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 216,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 82,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 217,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 117,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 217,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 97,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 217,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 44,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 218,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 85,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 218,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 83,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 218,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 118,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -537,6 +1032,14 @@
       "cardId": 213,
       "title": "hard или hardly?",
       "userInstruction": "ИИ пришлёт предложения с пропуском. Впишите нужное наречие по смыслу.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "adverbs_card215_ex1",
+      "cardId": 215,
+      "title": "Наречие или прилагательное?",
+      "userInstruction": "ИИ пришлёт предложения с пропуском и словом в скобках. Впишите нужную форму — прилагательное или наречие.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     }
@@ -628,6 +1131,46 @@
       "translation": "одинокий",
       "transcription": "[ˈləʊnli]",
       "microtopicId": 72,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 435,
+      "word": "delicious",
+      "translation": "вкусный, восхитительный",
+      "transcription": "[dɪˈlɪʃəs]",
+      "microtopicId": 73,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 436,
+      "word": "fresh",
+      "translation": "свежий",
+      "transcription": "[freʃ]",
+      "microtopicId": 73,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 437,
+      "word": "awful",
+      "translation": "ужасный, отвратительный",
+      "transcription": "[ˈɔːfl]",
+      "microtopicId": 73,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 438,
+      "word": "gorgeous",
+      "translation": "великолепный, шикарный",
+      "transcription": "[ˈɡɔːdʒəs]",
+      "microtopicId": 73,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 439,
+      "word": "fluent",
+      "translation": "беглый, свободный (о речи)",
+      "transcription": "[ˈfluːənt]",
+      "microtopicId": 73,
       "categoryId": "descriptions"
     }
   ],
@@ -726,9 +1269,109 @@
         }
       ],
       "explanation": "2 — **friendly** прилагательное, «посмотрела дружелюбно» = **looked at me in a friendly way**; 4 — **lovely** тоже прилагательное, для «поёт красиво» нужно наречие (**sings beautifully**)."
+    },
+    {
+      "id": 96,
+      "statements": [
+        {
+          "en": "Emma dances beautifully.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He drives very careful.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The children play quietly in the garden.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She speaks English perfect.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My grandfather walks slowly.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — к глаголу drives нужно наречие carefully; 4 — speaks описываем наречием perfectly (perfect — прилагательное)."
+    },
+    {
+      "id": 97,
+      "statements": [
+        {
+          "en": "Your new haircut looks great.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The bread smells freshly.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "This song sounds amazing.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The cheese tastes strongly.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "He feels nervous before the exam.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — после smell идёт прилагательное fresh (не freshly); 4 — после taste прилагательное strong (не strongly)."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 82,
+      "situationRu": "RU: Она хорошо играет на пианино.",
+      "correctSentence": "She plays the piano well.",
+      "words": [
+        "She",
+        "plays",
+        "the piano",
+        "well"
+      ],
+      "distractors": [
+        "good",
+        "beautiful",
+        "nicely",
+        "is"
+      ],
+      "explanation": "Действие «plays» описываем наречием well. good и beautiful — прилагательные, к глаголу не подходят; nicely и is — лишние по смыслу."
+    },
+    {
+      "id": 83,
+      "situationRu": "Ситуация: Работа была сделана без задержек.",
+      "correctSentence": "They finished the work quickly.",
+      "words": [
+        "They",
+        "finished",
+        "the work",
+        "quickly"
+      ],
+      "distractors": [
+        "quick",
+        "slowly",
+        "well",
+        "busy",
+        "nicely"
+      ],
+      "explanation": "Наречие quickly встаёт после дополнения «the work», в конец. quick — прилагательное; slowly и nicely — по смыслу не те; well и busy — лишние."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 102,
@@ -813,6 +1456,90 @@
         }
       ],
       "explanation": "Описываем человека («какой сосед?») → нужно прилагательное **friendly**. **friendlily** не существует, а **in a friendly way** — оборот для наречия (как что-то делается), тут он не к месту."
+    },
+    {
+      "id": 116,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мальчик тихо закрывает дверь.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The boy closes the door quietly.",
+          "isCorrect": true
+        },
+        {
+          "text": "The boy closes the door quiet.",
+          "isCorrect": false
+        },
+        {
+          "text": "The boy closes the quiet door.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Действие «closes» описываем наречием quietly. quiet — прилагательное, к глаголу не подходит; «the quiet door» — это уже про саму дверь (тихая дверь), а не про то, как он её закрывает."
+    },
+    {
+      "id": 104,
+      "choiceType": "CHOICE",
+      "prompt": "Lucy is a talented singer — she sings ___.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "good",
+          "isCorrect": false
+        },
+        {
+          "text": "goodly",
+          "isCorrect": false
+        },
+        {
+          "text": "well",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "sings — глагол действия, описываем наречием well (неправильное наречие от good). good — прилагательное (a good singer), а goodly не существует."
+    },
+    {
+      "id": 117,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Этот суп на вкус ужасен.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The soup tastes awfully.",
+          "isCorrect": false
+        },
+        {
+          "text": "The soup tastes awful.",
+          "isCorrect": true
+        },
+        {
+          "text": "The soup looks awful.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "taste — связывающий глагол, описываем сам суп прилагательным awful. awfully (наречие) сказало бы «как суп пробует на вкус» — бессмыслица; looks awful — про внешний вид, а не про вкус."
+    },
+    {
+      "id": 118,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Она аккуратно рисует портрет.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "She draws carefully the portrait.",
+          "isCorrect": false
+        },
+        {
+          "text": "She draws the portrait good.",
+          "isCorrect": false
+        },
+        {
+          "text": "She draws the portrait carefully.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Наречие carefully ставится после дополнения (the portrait), а не между глаголом draws и дополнением. good — прилагательное, к действию нужно наречие."
     }
   ],
   "text_input_exercises": [],
@@ -896,6 +1623,44 @@
         }
       ],
       "explanation": "У **fast** нет формы с `-ly` — наречие тоже **fast** (**fastly** ✗). **hard** (усердно) и **hardly** (едва) сюда по смыслу не подходят."
+    },
+    {
+      "id": 84,
+      "wrongSentence": "My sister sings really beautiful.",
+      "options": [
+        {
+          "text": "My sister sings really beautiful.",
+          "isCorrect": false
+        },
+        {
+          "text": "My sister sings really beautifully.",
+          "isCorrect": true
+        },
+        {
+          "text": "My sister sings really good.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Глагол sings описываем наречием beautifully. beautiful — прилагательное, а good — тоже прилагательное (к действию нужно было бы well): к глаголу sings ни то, ни другое не подходит."
+    },
+    {
+      "id": 85,
+      "wrongSentence": "They speak well Spanish at home.",
+      "options": [
+        {
+          "text": "They speak Spanish well at home.",
+          "isCorrect": true
+        },
+        {
+          "text": "They well speak Spanish at home.",
+          "isCorrect": false
+        },
+        {
+          "text": "They speak Spanish good at home.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Наречие well не встаёт между глаголом speak и дополнением Spanish — уходит после дополнения. Перед глаголом (well speak) тоже неверно; good — прилагательное, к действию не подходит."
     }
   ],
   "construction_meaning_exercises": [],
@@ -961,6 +1726,29 @@
         }
       ],
       "explanation": "`-y` меняется на `-ily` (noisy → noisily, hungry → hungrily), немой `-le` уступает `-ly` (horrible → horribly, gentle → gently), `-ic` берёт `-ally` (tragic → tragically, basic → basically)."
+    },
+    {
+      "id": 43,
+      "taskDescription": "реши, что подходит в пропуск — good или well.",
+      "categories": [
+        {
+          "title": "good",
+          "items": [
+            "a ___ film",
+            "a ___ teacher",
+            "the soup is ___"
+          ]
+        },
+        {
+          "title": "well",
+          "items": [
+            "to dance ___",
+            "to work ___",
+            "to speak French ___"
+          ]
+        }
+      ],
+      "explanation": "good — прилагательное, описывает предмет или подлежащее (a good film, a good teacher, the soup is good). well — наречие, описывает действие (dance well, work well, speak French well)."
     }
   ],
   "find_the_odd_exercises": [
@@ -1032,6 +1820,29 @@
         }
       ],
       "explanation": "quickly, slowly, carefully — наречия (описывают действие, «как?»). **lovely** — прилагательное (описывает предмет, «какой?»), несмотря на `-ly`."
+    },
+    {
+      "id": 44,
+      "groupDescription": "Три предложения верные, в одном — ошибка",
+      "items": [
+        {
+          "text": "This coffee smells wonderful.",
+          "isOdd": false
+        },
+        {
+          "text": "Your plan sounds perfect.",
+          "isOdd": false
+        },
+        {
+          "text": "The cake tastes sweetly.",
+          "isOdd": true
+        },
+        {
+          "text": "The perfume smells lovely.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "После глаголов восприятия идёт прилагательное — wonderful, perfect, lovely верны. «tastes sweetly» — ошибка: нужно прилагательное sweet (торт сладкий, а не «пробует сладко»)."
     }
   ]
 }

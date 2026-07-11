@@ -825,6 +825,7 @@ def validate(content):
         chk(all(it['sentence'] for it in e['items']), 'TEXT_INPUT', e['id'], "пункт без предложения")
     for e in content['word_arrangement_exercises']:
         chk(bool(e['correctSentence']), 'WORD_ARRANGEMENT', e['id'], "нет correctSentence")
+        chk(bool(e['situationRu']), 'WORD_ARRANGEMENT', e['id'], "нет задания (строка RU:/Ситуация:)")
         chk(len(e['words']) >= 2, 'WORD_ARRANGEMENT', e['id'], f"{len(e['words'])} слов")
         chk(len(e['distractors']) >= 1, 'WORD_ARRANGEMENT', e['id'], "нет дистракторов")
     for e in content['table_fill_exercises']:

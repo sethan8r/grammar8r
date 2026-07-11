@@ -1096,7 +1096,7 @@ theory/
 │       │   └── Card 214 · Слова на -ly, которые НЕ наречия: friendly, lovely, silly, lonely — это
 │       │       прилагательные. «Дружелюбно» = in a friendly way. Ловушка: не всё на -ly — наречие. (без AI)
 │       │
-│       ├── МТ73 · Adverbs of Manner · Наречия образа действия — 4 карточки
+│       ├── МТ73 · Adverbs of Manner · Наречия образа действия — 4 карточки ✅ (написана, ALL GREEN 11.07.26)
 │       │   ├── Card 215 · Наречие vs прилагательное после глагола: She sings beautifully (как поёт) vs
 │       │   │   She is beautiful. Ловушка «She sings beautiful» ✗ — глубже обзора Card 89: почему и откуда
 │       │   │   калька из русского. + AI.

@@ -42,6 +42,7 @@ private const val INLINE_CHECK = "inline_check"
 private const val INLINE_CROSS = "inline_cross"
 private const val INLINE_ARROW = "inline_arrow"
 private const val INLINE_NEQ = "inline_neq"
+private const val INLINE_APPROX = "inline_approx"
 private const val INLINE_BLANK = "inline_blank"
 
 /**
@@ -55,8 +56,8 @@ private const val INLINE_BLANK = "inline_blank"
  * `InlineTextContent` (в текст эмодзи не попадают, размер — в `em`, тянется за шрифтом):
  *  - `✓` → [Icons.Filled.Check] (зелёный), `✗`/`❌` → [Icons.Filled.Close] (красный);
  *  - `→` → [Icons.AutoMirrored.Filled.ArrowRightAlt] (цветом текста [arrowColor]);
- *  - `≠` → [NotEqualIcon] (цветом текста [arrowColor]) — в наборе Material такого значка нет,
- *    поэтому вектор нарисован здесь.
+ *  - `≠` → [NotEqualIcon], `≈` → [ApproxEqualIcon] (цветом текста [arrowColor]) — в наборе
+ *    Material таких значков нет, поэтому векторы нарисованы здесь.
  * Карту иконок отдаём в [TranslatableText] вместе с текстом.
  */
 fun parseInlineMarkdown(
@@ -120,6 +121,7 @@ fun parseInlineMarkdown(
                         '✗', '❌' -> appendInlineContent(INLINE_CROSS, "✗")
                         '→' -> appendInlineContent(INLINE_ARROW, "→")
                         '≠' -> appendInlineContent(INLINE_NEQ, "≠")
+                        '≈' -> appendInlineContent(INLINE_APPROX, "≈")
                         else -> append(raw[index])
                     }
                     index += 1
@@ -136,6 +138,7 @@ fun parseInlineMarkdown(
         INLINE_CROSS to inlineIcon(Icons.Filled.Close, incorrectColor),
         INLINE_ARROW to inlineIcon(Icons.AutoMirrored.Filled.ArrowRightAlt, arrowColor),
         INLINE_NEQ to inlineIcon(NotEqualIcon, arrowColor),
+        INLINE_APPROX to inlineIcon(ApproxEqualIcon, arrowColor),
         INLINE_BLANK to inlineBlank(arrowColor),
     )
 
@@ -183,6 +186,27 @@ private val NotEqualIcon: ImageVector = ImageVector.Builder(
     }
     path(stroke = stroke, strokeLineWidth = strokeWidth, strokeLineCap = StrokeCap.Round) {
         moveTo(16f, 5f); lineTo(8f, 19f)
+    }
+}.build()
+
+/**
+ * Значок «приблизительно равно» (`≈`): две волнистые линии (тильды) друг над другом. В наборе
+ * Material его нет, поэтому рисуем вектором. Цвет штрихов неважен — [Icon] перекрашивает через `tint`.
+ */
+private val ApproxEqualIcon: ImageVector = ImageVector.Builder(
+    name = "ApproxEqual",
+    defaultWidth = 24.dp,
+    defaultHeight = 24.dp,
+    viewportWidth = 24f,
+    viewportHeight = 24f,
+).apply {
+    val stroke = SolidColor(Color.Black)
+    val strokeWidth = 2.2f
+    path(stroke = stroke, strokeLineWidth = strokeWidth, strokeLineCap = StrokeCap.Round) {
+        moveTo(5f, 11f); curveTo(7f, 8f, 10f, 8f, 12f, 10f); curveTo(14f, 12f, 17f, 12f, 19f, 9f)
+    }
+    path(stroke = stroke, strokeLineWidth = strokeWidth, strokeLineCap = StrokeCap.Round) {
+        moveTo(5f, 15f); curveTo(7f, 12f, 10f, 12f, 12f, 14f); curveTo(14f, 16f, 17f, 16f, 19f, 13f)
     }
 }.build()
 
