@@ -1108,14 +1108,15 @@ theory/
 │       │   └── Card 218 · Позиция наречия образа действия: после глагола / после дополнения, но НЕ между
 │       │       глаголом и дополнением: «He speaks English well» ✓ / «He speaks well English» ✗. + AI.
 │       │
-│       ├── МТ74 · Comparison of Adverbs · Степени сравнения наречий — 3 карточки
+│       ├── ✅ МТ74 · Comparison of Adverbs · Степени сравнения наречий — 3 карточки
 │       │   (мост к свежим MT69–71: у наречий всё так же, как у прилагательных)
 │       │   ├── Card 219 · Короткие/flat: -er/-est — fast→faster→fastest, hard→harder→hardest,
-│       │   │   early→earlier→earliest. + AI.
+│       │   │   early→earlier→earliest. Превосходная у наречий часто без the.
 │       │   ├── Card 220 · На -ly: more/most — quickly→more quickly→most quickly, carefully→more carefully.
-│       │   │   Ловушка «quicklier» ✗ (зеркало more/most из Card 204/207). + AI.
+│       │   │   Граница по -ly (не по слогам). Ловушка «quicklier» ✗ (зеркало Card 204/207). + AI.
 │       │   └── Card 221 · Исключения + as…as: well→better→best, badly→worse→worst, far→further→furthest,
-│       │       little→less→least; «run as fast as» (связь с MT71). + AI.
+│       │       little→less→least; формы общие с прил. good/bad; «run as fast as» (связь с MT71). + AI.
+│       │   Слив (descriptions, 440–443): far, little, careful, serious.
 │       │
 │       ├── МТ75 · Adverbs of Degree · Наречия степени — 2 карточки
 │       │   ├── Card 222 · Усилители: very/quite/rather/fairly/extremely/really + прил./наречие. Таблица

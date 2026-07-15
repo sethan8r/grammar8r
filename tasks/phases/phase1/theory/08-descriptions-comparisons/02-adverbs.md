@@ -929,27 +929,374 @@ RU: Она хорошо играет на пианино.
 
 ---
 
+## Microtopic 74 — Comparison of Adverbs · Степени сравнения наречий
+
+**ID:** 74 | **Order:** 4
+
+---
+
+### Card 219 · Короткие (flat) наречия: -er / -est
+
+**ID:** 219 | **Order:** 1
+
+#### Theory
+
+Мы только что научились сравнивать прилагательные — «выше», «дешевле», «самый быстрый». У наречий всё устроено так же: действие тоже можно сравнить — «бежит быстре́е», «встаёт ра́ньше всех». Начнём с самой простой группы.
+
+**Плоские наречия сравниваются как короткие прилагательные**
+
+Помнишь плоские наречия из начала темы — **fast**, **hard**, **late**, **early**, **high**, **near**? Те, что работают наречием без `-ly` и по форме совпадают с прилагательным. Раз по форме они как короткое прилагательное, то и сравниваются так же — просто вешаем `-er`, а для превосходной `-est`:
+
+- **fast → faster → fastest** (быстро → быстрее → быстрее всех)
+- **hard → harder → hardest** (усердно → усерднее → усерднее всех)
+- **early → earlier → earliest** (рано → раньше → раньше всех)
+
+По-русски мы для этого меняем само наречие: «быстро → быстре́е», «рано → ра́ньше» — и не говорим «более быстро». Английский с этой горсткой слов поступает ровно так же коротко, и это удачно совпадает с нашим чутьём.
+
+**Орфография — та же, что мы уже знаем**
+
+Хвост меняется по тем же правилам, что мы разбирали у коротких прилагательных: **early** кончается на `-y`, поэтому `y` уходит в `-i` перед окончанием — **early → earlier → earliest** (ровно как **happy → happier**). Остальные плоские наречия короткие и ровные — просто `+er` / `+est`.
+
+**Превосходная — часто без the**
+
+У прилагательного превосходная всегда шла с `the` (**the tallest**). У наречия `the` перед превосходной формой обычно опускают, потому что мы описываем действие, а не выделяем один предмет из многих: **He runs fastest** — «бегает быстрее всех». Поставить `the` не ошибка, но в живой речи его чаще нет.
+
+**Ловушка:** по образцу длинных слов тянет сказать **more fast** ✗, **more early** ✗ — но раз наречие короткое, форма только **faster**, **earlier**. И **more faster** ✗ — двойное сравнение, как мы уже видели у прилагательных.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Плоские наречия (**fast**, **hard**, **late**, **early**, **high**, **near**) сравниваются как короткие прилагательные — `+er` / `+est`: **fast → faster → fastest**, **early → earlier → earliest** (`y` → `-ier`). Русский меняет само наречие («быстрее», «раньше»), а не «более быстро», — и английский тут так же. У наречия превосходную форму часто пишут без `the`: **He runs fastest**. Ловушка: **more fast** ✗, **more faster** ✗.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 923 | Ник бегает быстрее меня. | Nick runs faster than me. |
+| 924 | Лена встаёт раньше всех в семье. | Lena gets up earliest in the family. |
+| 925 | Сегодня самолёт летит выше обычного. | Today the plane flies higher than usual. |
+| 926 | Мой брат работает усерднее, чем я. | My brother works harder than me. |
+| 927 | Автобус пришёл позже, чем вчера. | The bus arrived later than yesterday. |
+
+---
+
+#### Exercises
+
+**Ex 28 · MultipleChoice · CHOICE** *(ID: 105)*
+
+"My sister gets up ___ than everyone else."
+
+- **earlier** ✓
+- more early
+- earlyer
+
+*Explanation:* **early** плоское → сравнительная форма **earlier** (`y` меняется на `-i`). **more early** у короткого наречия не строится, а **earlyer** — потерянная замена `y` на `i`.
+
+---
+
+**Ex 29 · TrueFalse** *(ID: 98)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Nick runs faster than his friend. | ✓ |
+| 2 | She works more hard than me. | ✗ |
+| 3 | Today the bus came later than usual. | ✓ |
+| 4 | Birds fly more high in summer. | ✗ |
+| 5 | He gets up earliest in the family. | ✓ |
+
+*Explanation:* 2 — **hard** плоское, форма **harder** (**more hard** ✗); 4 — **high** плоское, форма **higher** (**more high** ✗).
+
+---
+
+**Ex 30 · WordArrangement** *(ID: 84)*
+
+RU: Лена встаёт раньше меня.
+
+Правильное предложение: **Lena gets up earlier than me.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Lena | — |
+| gets up | — |
+| earlier | — |
+| than | — |
+| me | — |
+| more early | ✗ |
+| earlyer | ✗ |
+| then | ✗ |
+| than I | ✗ |
+
+*Explanation:* **early → earlier** (`y` → `-ier`); **more early** и **earlyer** так не строятся. Сравнение держит **than** (не **then** — «затем»), а после него — объектная форма **me**, не **than I**.
+
+---
+
+#### Clarification Options
+
+- Почему early → earlier, а не earlyer?
+- Почему нельзя сказать «more fast»?
+- Почему у наречия превосходная форма часто без the?
+
+---
+
+### Card 220 · Наречия на -ly: more / most
+
+**ID:** 220 | **Order:** 2
+
+#### Theory
+
+Плоских наречий немного. А вот наречий на `-ly` — большинство: **quickly**, **carefully**, **slowly**, **seriously**. С ними история другая.
+
+**Наречие на -ly сравнивается через more / most**
+
+Приклеить `-er` к наречию на `-ly` язык не может — выходит **quicklier**, **carefullier**, обо что язык спотыкается ровно как об **beautifuler** у прилагательных. Поэтому такие наречия сравнивают отдельным словом впереди — `more` для сравнительной степени и `most` для превосходной:
+
+- **carefully → more carefully → most carefully** (осторожно → осторожнее → осторожнее всех)
+- **seriously → more seriously → most seriously** (серьёзно → серьёзнее → серьёзнее всех)
+- **slowly → more slowly → most slowly** (медленно → медленнее → медленнее всех)
+
+Тут английский снова поступает «по-русски»: мы ведь и говорим «более осторожно», «наиболее серьёзно» — ставим «более/наиболее» впереди. Английские `more` / `most` — это ровно наши «более/наиболее».
+
+**Граница проще, чем у прилагательных: смотрим на -ly**
+
+У прилагательных мы считали слоги (1 слог → `-er`, 3+ → `more`). У наречий считать не нужно — ориентир один: есть `-ly` → `more` / `most`; плоское наречие без `-ly` (**fast**, **hard**, **early**) → `-er` / `-est` (прошлая карточка). Вот и всё правило.
+
+Напомним заодно, откуда берётся само `-ly`-наречие: **careful → carefully**, **serious → seriously** — прилагательное плюс `-ly` (мы разбирали это в начале темы): осторожный → осторожно. А дальше это наречие на `-ly` сравнивается через `more`.
+
+**Ловушка:** **quicklier** ✗, **more quicklier** ✗ — нельзя ни вешать `-er` на `-ly`, ни городить `more` и `-er` разом. Правильно только **more quickly**. Это прямое зеркало ловушки **more cheaper** у прилагательных.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Наречия на `-ly` (а их большинство: **carefully**, **slowly**, **seriously**) сравниваются через `more` / `most`, а не окончанием: **carefully → more carefully → most carefully**. Русские «более/наиболее» = английские `more` / `most`. Граница у наречий простая: есть `-ly` → `more` / `most`, плоское наречие без `-ly` → `-er` / `-est` — слоги считать не нужно. Ловушка: **quicklier** ✗, **more quicklier** ✗ → только **more quickly**.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 928 | Катя водит осторожнее, чем её муж. | Kate drives more carefully than her husband. |
+| 929 | Объясни, пожалуйста, помедленнее. | Please explain more slowly. |
+| 930 | Из всех он относится к работе серьёзнее всех. | Of everyone, he takes his work the most seriously. |
+| 931 | Дети сегодня играют тише, чем обычно. | The children play more quietly today than usual. |
+| 932 | Из троих Эмма отвечает быстрее всех. | Of the three, Emma answers the most quickly. |
+
+---
+
+#### Exercises
+
+**Ex 31 · MultipleChoice · FORWARD_CHOICE** *(ID: 119)*
+
+"Веди машину осторожнее на этой дороге."
+
+- Drive carefullier on this road.
+- **Drive more carefully on this road.** ✓
+- Drive more carefullier on this road.
+
+*Explanation:* **carefully** на `-ly` → сравнение через **more carefully**. **carefullier** так не строится, а **more carefullier** — двойное сравнение сразу.
+
+---
+
+**Ex 32 · Categorization** *(ID: 44)*
+
+Задание: разложи наречия по способу сравнения.
+
+| -er / -est | more / most |
+|-----------|-------------|
+| fast | quickly |
+| high | quietly |
+| hard | loudly |
+
+*Explanation:* Плоские наречия без `-ly` идут через окончание — **faster**, **higher**, **harder**. Наречия на `-ly` — через **more** / **most**: more quickly, more quietly, more loudly.
+
+---
+
+**Ex 33 · ErrorCorrection** *(ID: 86)*
+
+"He speaks English quicklier than me."
+
+- He speaks English quicklier than me.
+- He speaks English more quicklier than me.
+- **He speaks English more quickly than me.** ✓
+
+*Explanation:* **quickly** на `-ly` → **more quickly**. **quicklier** так не строится, а **more quicklier** — двойное сравнение.
+
+---
+
+#### AI Exercise
+
+**ID:** adverbs_card220_ex1
+**Title:** "-er или more у наречия"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложения с пропуском и наречием в скобках. Впишите его сравнительную форму — через -er или через more."
+**Prompt Template:** "Дай пользователю сразу несколько коротких английских предложений (всего 2-3), в каждом — пропуск [___] и в скобках наречие. Пользователь сам решает, как строить сравнительную форму: плоское наречие без -ly (fast, hard, early, late, high) → форма на -er/-ier (fast → faster, early → earlier); наречие на -ly (quickly, carefully, slowly, seriously, quietly, loudly) → more + наречие (carefully → more carefully). Чередуй так, чтобы верный ответ был то -er, то more. Проверяй: верно ли выбран способ (по наличию -ly) и нет ли двойного сравнения (more faster, quicklier ✗). Если ошибка — покажи правильную форму и одним предложением объясни по-русски, почему тут -er или more (есть -ly → more; нет -ly → -er). Не придирайся к знакам препинания и заглавным буквам — оценивай только форму сравнения."
+
+Пример вывода AI: 'Впишите сравнительную форму: 1. Kate drives [___] (carefully) than her husband. 2. Nick runs [___] (fast) than me. 3. Please speak [___] (slowly). 4. He gets up [___] (early) than before.'
+
+#### Clarification Options
+
+- Как понять, когда -er, а когда more у наречия?
+- Почему «quicklier» — ошибка?
+- Почему у наречий не нужно считать слоги, как у прилагательных?
+
+---
+
+### Card 221 · Исключения и равное сравнение: better, worse, as … as
+
+**ID:** 221 | **Order:** 3
+
+#### Theory
+
+Осталась горстка наречий, которые сравниваются не по правилам, — и хорошая новость: почти все они нам уже знакомы.
+
+**Неправильные наречия — учим наизусть**
+
+Как у прилагательных были **good → better → best** и **bad → worse → worst**, так и у наречий есть свои неправильные формы. Причём часть из них — те же самые слова:
+
+- **well → better → best** (хорошо → лучше → лучше всех)
+- **badly → worse → worst** (плохо → хуже → хуже всех)
+- **far → further → furthest** (далеко → дальше → дальше всех)
+- **little → less → least** (мало → меньше → меньше всех)
+
+**Формы общие с прилагательными — учить заново не нужно**
+
+Заметь: у прилагательного **good** и у наречия **well** сравнительная форма **одна и та же — better**. То же с **bad** и **badly** → **worse**. Мозгу легче: это не новые слова, а те же вершины, что мы уже брали у прилагательных. Отдельно держи в голове **well → better** (а не **weller** ✗) — мы уже знаем, что **well** само по себе неправильное наречие от **good**.
+
+Слово **far** мы тоже встречали у прилагательных (**far → farther / further**). У наречия про расстояние берём **further → furthest**: **Who lives further from here?** — «кто живёт дальше отсюда».
+
+**Равное сравнение наречий: as … as**
+
+Помнишь `as … as` из сравнения прилагательных — «такой же, как»? С наречиями это работает точно так же, только между двумя `as` стоит наречие в базовой форме — «так же ..., как»:
+
+- **Roma runs as fast as his brother.** — Рома бегает так же быстро, как его брат.
+- **She sings as beautifully as her mother.**
+
+`not as … as` = «хуже, меньше»: **He doesn't play as well as before** — играет не так хорошо, как раньше.
+
+**Ловушки:** **weller** ✗ → **better**; **more badly** ✗, **baddlier** ✗ → **worse**; **farer** ✗ → **further**. И внутри `as … as` наречие базовое: **as faster as** ✗ → **as fast as**.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Неправильные наречия учат наизусть, как у прилагательных: **well → better → best**, **badly → worse → worst**, **far → further → furthest**, **little → less → least**. Формы общие со словами good/bad — заново не учим (**well** и **good** дают одно **better**). Равное сравнение — наречие в базовой форме между двумя `as`: **runs as fast as** (не **as faster as** ✗); `not as … as` = «хуже». Ловушки: **weller** ✗, **more badly** ✗, **farer** ✗.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 933 | Сегодня Настя спала хуже, чем вчера. | Today Nastya slept worse than yesterday. |
+| 934 | Из всей команды он играет лучше всех. | Of the whole team, he plays best. |
+| 935 | Кто из вас живёт дальше от центра? | Who of you lives further from the centre? |
+| 936 | Я сплю меньше, чем раньше. | I sleep less than before. |
+| 937 | Рома бегает так же быстро, как его брат. | Roma runs as fast as his brother. |
+
+---
+
+#### Exercises
+
+**Ex 34 · TableFill** *(ID: 22)*
+
+Задание: запиши сравнительную форму каждого наречия. Осторожно — не все по правилу.
+
+| Наречие | Сравнительная форма |
+|---------|---------------------|
+| well | better |
+| badly | worse |
+| far | further |
+| early | earlier |
+| slowly | more slowly |
+
+*Explanation:* **well**, **badly**, **far** — неправильные, форму учат наизусть: **better**, **worse**, **further**. А **early** плоское (`y` → `-ier`): **earlier**; **slowly** на `-ly` → **more slowly**.
+
+---
+
+**Ex 35 · MultipleChoice · CHOICE** *(ID: 106)*
+
+"Tom did ___ in the test than last time — he made a lot of mistakes."
+
+- more badly
+- badlier
+- **worse** ✓
+
+*Explanation:* **badly** неправильное → **worse**. Формы **more badly** и **badlier** так не строятся.
+
+---
+
+**Ex 36 · TrueFalse** *(ID: 99)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | She cooks better than her mother. | ✓ |
+| 2 | He did the exam more badly than before. | ✗ |
+| 3 | Who lives further from the centre? | ✓ |
+| 4 | I sleep lesser than before. | ✗ |
+| 5 | Roma runs as fast as his brother. | ✓ |
+
+*Explanation:* 2 — **badly** неправильное → **worse** (**more badly** ✗); 4 — **little** → **less** (нужно **less**, а не **lesser**).
+
+---
+
+**Ex 37 · MultipleChoice · FORWARD_CHOICE** *(ID: 120)*
+
+"Она поёт так же красиво, как её сестра."
+
+- She sings as beautiful as her sister.
+- **She sings as beautifully as her sister.** ✓
+- She sings as more beautifully as her sister.
+
+*Explanation:* Внутри as … as наречие в базовой форме — **as beautifully as** (действие «поёт» описываем наречием). **as beautiful** — прилагательное, к глаголу не подходит; **as more beautifully** — лишний **more**.
+
+---
+
+#### AI Exercise
+
+**ID:** adverbs_card221_ex1
+**Title:** "Переведи сравнение с наречием"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст русское предложение со сравнением. Переведите его на английский."
+**Prompt Template:** "Дай пользователю ОДНО русское предложение со сравнением того, КАК кто-то делает действие, — через неправильное наречие (лучше / хуже / дальше / меньше) либо через равное сравнение «так же ..., как» (например «Он готовит лучше меня», «Она бегает так же быстро, как её брат», «Я сплю меньше, чем раньше»). Пользователь переводит его на английский. Составляй предложение ТОЛЬКО из простых, знакомых пользователю слов, чтобы трудность была в грамматике сравнения, а не в незнакомой лексике; если в присланном списке слов пользователя есть подходящие — желательно строить предложение вокруг них. Проверяй главное: (1) верно ли образована неправильная форма (well → better, badly → worse, far → further, little → less), а не weller / more badly ✗; (2) внутри as … as наречие в базовой форме, без -er и без than. Если ошибка — покажи правильный вариант и в одном-двух предложениях объясни по-русски, что не так. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику сравнения."
+
+Пример вывода AI: 'Переведите на английский: Он бегает так же быстро, как его брат.'
+
+#### Clarification Options
+
+- Почему у good и well сравнительная форма одна — better?
+- Почему «weller» — ошибка?
+- Чем «as fast as» отличается от «faster»?
+
+---
+
+### Words8r Sync · Слова описаний
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| far | далеко; далёкий | [fɑː] |
+| little | маленький; мало | [ˈlɪtl] |
+| careful | осторожный, внимательный | [ˈkeəfl] |
+| serious | серьёзный | [ˈsɪəriəs] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 13 | 14 |
 | Category | 2 | 3 |
-| Microtopic | 73 | 74 |
-| Card | 218 | 219 |
-| Example | 922 | 923 |
-| Слова курса (course_word) | 439 | 440 |
-| MultipleChoice · CHOICE | 104 | 105 |
-| MultipleChoice · FORWARD_CHOICE | 118 | 119 |
+| Microtopic | 74 | 75 |
+| Card | 221 | 222 |
+| Example | 937 | 938 |
+| Слова курса (course_word) | 443 | 444 |
+| MultipleChoice · CHOICE | 106 | 107 |
+| MultipleChoice · FORWARD_CHOICE | 120 | 121 |
 | MultipleChoice · REVERSE_CHOICE | 31 | 32 |
-| TrueFalse | 97 | 98 |
-| WordArrangement | 83 | 84 |
+| TrueFalse | 99 | 100 |
+| WordArrangement | 84 | 85 |
 | TextInput | 38 | 39 |
 | Matching | 32 | 33 |
 | Transformation | 26 | 27 |
-| ErrorCorrection | 85 | 86 |
-| TableFill | 21 | 22 |
+| ErrorCorrection | 86 | 87 |
+| TableFill | 22 | 23 |
 | FindTheOdd | 44 | 45 |
 | ConstructionMeaning | 14 | 15 |
-| Categorization | 43 | 44 |
+| Categorization | 44 | 45 |
 | DialogRestore | 14 | 15 |
