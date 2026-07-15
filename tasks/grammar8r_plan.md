@@ -1413,12 +1413,74 @@ theory/
 │   ⚠️ Здесь раньше стояли Future Simple (will), Future (going to) и Compare: will vs going to —
 │   перенесены ВЫШЕ, после Past Continuous (июнь 2026). Полное содержание блоков — там.
 │
-├── 🌿 ОТДЫХ ОТ ВРЕМЁН №4 (после Past Perfect Continuous, перед Future Continuous) — лёгкая лексика.
+├── 🌿 ОТДЫХ ОТ ВРЕМЁН №4 (после Past Perfect Continuous, перед Future Continuous) — лёгкая лексика:
+│   две темы подряд — «Глагол get — часть 1» и «Погода (Weather)» (обе опираются на уже пройденные времена).
 │
 ├── Глагол get — часть 1: базовые значения  ← ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) в «отдых от времён»
 │   ├── get = получать (get a letter, get a gift)
 │   ├── get = становиться (get tired, get cold, get married, get better)
 │   └── get = добираться (get home, get to work)
+│
+├── 🆕 Погода (Weather) — «всё о погоде в одном месте»  ← отдых от времён №4, после get часть 1, перед Future Continuous
+│   🎯 КОНСОЛИДИРУЮЩАЯ тема (не грамматика с нуля): к этому месту пройдены все нужные времена
+│      (Present/Past Simple+Continuous, Future will/going to, Present/Past Perfect) — тема сшивает их в одну
+│      «карту погоды» + даёт свою лексику, ловушки и выражения. Capstone-формат, как «Многозначные слова».
+│   ⚠️ ПРАВИЛО №0 — тема ССЫЛАЕТСЯ на уже пройденное, НЕ переучивает: формальное it → «Устройство языка»;
+│      will/going to → темы будущего; so/too cold → so/too; getting colder → Comparatives; raining cats and dogs →
+│      «Устойчивые выражения». НОВОЕ, ради чего тема: фрейм «три упаковки», -y морфология, неисчисляемое weather,
+│      трио cold, язык прогноза, погодные идиомы-не-про-погоду, small talk о погоде.
+│   🇷🇺 Красная нить (взгляд от русского): русский про погоду говорит БЕЗ подлежащего («холодно», «идёт дождь»)
+│      и путает «холодно / мне холодно / простыл» — на этих кальках строим ловушки по всей теме.
+│   🔤 Слив слов: осадки/небо/температура/явления → категория "Weather" (isView после микротем).
+│      ⚠️ при написании проверить words8r_plan.md, что категория "Weather" там есть.
+│   ⚠️ Номера МТ и card ID — при написании по _id-registry.md → Next free.
+│   │
+│   ├── МТ-A · Погода без подлежащего — как английский вообще говорит о погоде
+│   │   ├── Card · Пустое it — двигатель погоды: «холодно» → It's cold, «идёт дождь» → It's raining. В русском у погоды
+│   │   │   нет подлежащего, в английском оно ОБЯЗАТЕЛЬНО (it = формальный субъект). Ловушка русского: пропуск it —
+│   │   │   «Is raining» ✗ / «Cold today» ✗ → «It's raining» / «It's cold today». Кросс-ссылка: формальное it — «Устройство языка».
+│   │   ├── Card · Три упаковки одной погоды (карточка-схема, таблица):
+│   │   │   • it's + прилагательное → It's sunny / cloudy / windy / cold / hot
+│   │   │   • it's + V-ing → It's raining / snowing / pouring / freezing
+│   │   │   • there's + существительное → There's a storm / There's fog / There's a lot of wind
+│   │   │   Одна и та же погода, три грамматические упаковки — учим выбирать нужную. AI: описать погоду за окном (NONE).
+│   │   ├── Card · weather — неисчисляемое: «a weather» ✗, «weathers» ✗, «a nice weather» ✗ → «nice weather». Ловушка
+│   │   │   русского («погоды» бывает во мн.ч.). + it vs the weather: It's nice today = The weather is nice today
+│   │   │   (it — по умолчанию/разговорно, the weather is… — явно/чуть формальнее).
+│   │   └── Card · Спросить о погоде: What's the weather like? / What's it like outside? / How's the weather? + как ответить
+│   │       (It's lovely / It's awful / Not bad). Ловушка: «How is the weather?» ок, но «What is the weather?» ✗ — нужен like.
+│   │
+│   ├── МТ-B · Погода во времени — сегодня, обычно, завтра, вчера
+│   │   ├── Card · Сейчас vs вообще: It's raining (сейчас, PC) vs It rains a lot here in autumn (обычно, PS). Классическая
+│   │   │   развилка PS/PC на погоде: момент против регулярности. Русское «идёт дождь» одинаково для обоих — отсюда путаница.
+│   │   ├── Card · Завтра — прогноз: It's going to rain (вижу тучи, признаки) vs It'll be sunny tomorrow (предсказание/ощущение).
+│   │   │   might rain — превью-строкой (возможность; подробно в «Модальных»). Кросс-ссылка на темы будущего.
+│   │   ├── Card · Вчера/итог: It was cold yesterday / It rained all day / It's been raining since morning (PPC, свежее из
+│   │   │   соседней темы). Собираем всю ось времени на одном сюжете погоды.
+│   │   └── Card · Язык прогноза: The forecast says… / It's supposed to rain / There's a chance of rain (showers) / highs of,
+│   │       lows of. Реальная речь из приложений и новостей. AI: RU→EN перевод прогноза «завтра будет…» (GENERAL).
+│   │
+│   ├── МТ-C · Словарь погоды — лексика, которой описываешь любой день
+│   │   ├── Card · -y морфология: существительное + y = погодное прилагательное — rain→rainy, sun→sunny, wind→windy,
+│   │   │   cloud→cloudy, fog→foggy, snow→snowy, ice→icy, storm→stormy. Приём, которым юзер сам строит прилагательные.
+│   │   │   Орфография: удвоение (sun→sunny), ice→icy (немая e уходит) — мостик к удвоению в hot→hotter (Comparatives).
+│   │   ├── Card · Осадки и небо: rain, drizzle, shower, downpour, snow, sleet, hail; sunny, clear, cloudy, overcast, grey.
+│   │   │   + rain/snow — и существительное, и глагол: the rain (сущ.) / it's raining (глагол). Одно слово, две роли.
+│   │   ├── Card · Ветер, температура, явления: windy/breezy/still; freezing/chilly/cool/mild/warm/hot/boiling; fog/mist,
+│   │   │   thunder, lightning, rainbow, frost, ice. + getting + adj: It's getting dark / getting cold (наступление).
+│   │   │   Заметка о произношении: windy /ˈwɪndi/ (не /waɪ/, как to wind — заводить часы).
+│   │   └── Card · Температура предметно: It's 20 degrees / below zero / minus five; Celsius vs Fahrenheit — США меряют в F
+│   │       (ловушка при путешествии: «It's 90» там = жара +32 °C, а не бред). + fall (US) vs autumn (UK).
+│   │
+│   └── МТ-D · Погодные ловушки и идиомы — где русский спотыкается и где погода не про погоду
+│       ├── Card · Трио «холодно»: It's cold (погода) / I'm cold (я мёрзну) / I have a cold (я простыл — БОЛЕЗНЬ, не погода!).
+│       │   Одно русское слово тянет три разные конструкции. «It's cold to me» ✗ → «I'm cold». Главная ловушка темы.
+│       │   Параллель: I'm hot / it's hot; I'm warm / it's warm.
+│       ├── Card · Погодные идиомы НЕ про погоду: under the weather (приболеть), take a rain check (перенести встречу),
+│       │   come rain or shine (при любом раскладе), a fair-weather friend (друг до первой беды), weather the storm (пережить
+│       │   трудность), calm before the storm. Ссылка на raining cats and dogs («Устойчивые выражения»).
+│       └── Card · Погода как small talk: Lovely day, isn't it? / Bit cold today / What awful weather! — социальный клей,
+│           особенно у британцев. Живой пример tag-question (isn't it?) — превью. Ссылка на «Социальное взаимодействие».
 │
 ├── Future Continuous  ← остаётся здесь: требует логики Continuous, после перфектов
 │   ├── Карточка приоритета: глаголы (V1 / V2 / V3)
