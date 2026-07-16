@@ -7,17 +7,17 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 222 |
-| Categorization | 45 |
+| Card | 223 |
+| Categorization | 46 |
 | Category | 3 |
 | ConstructionMeaning | 15 |
 | DialogRestore | 15 |
-| ErrorCorrection | 87 |
+| ErrorCorrection | 88 |
 | FindTheOdd | 45 |
 | Matching | 33 |
 | Microtopic | 75 |
 | MultipleChoice·CHOICE | 107 |
-| MultipleChoice·FORWARD_CHOICE | 121 |
+| MultipleChoice·FORWARD_CHOICE | 122 |
 | MultipleChoice·REVERSE_CHOICE | 32 |
 | TableFill | 23 |
 | TextInput | 39 |
@@ -85,15 +85,15 @@
 - course_word: 306–319 (14)
 
 ### parts-of-speech
-- Card: 78–99 (22)
-- Categorization: 10–15 (6)
+- Card: 78–222 (23)
+- Categorization: 10–45 (7)
 - Category: 1–1 (1)
-- ErrorCorrection: 40–44 (5)
+- ErrorCorrection: 40–87 (6)
 - FindTheOdd: 15–19 (5)
 - Matching: 14–16 (3)
 - Microtopic: 29–35 (7)
 - MultipleChoice·CHOICE: 66–69 (4)
-- MultipleChoice·FORWARD_CHOICE: 61–62 (2)
+- MultipleChoice·FORWARD_CHOICE: 61–121 (3)
 - MultipleChoice·REVERSE_CHOICE: 17–19 (3)
 - TextInput: 26–29 (4)
 - Topic: 3–3 (1)

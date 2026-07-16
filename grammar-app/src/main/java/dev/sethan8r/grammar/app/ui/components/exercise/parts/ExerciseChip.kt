@@ -21,14 +21,13 @@ import androidx.compose.ui.input.pointer.positionChange
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import dev.sethan8r.grammar.app.ui.components.text.TranslatableText
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import kotlin.math.abs
 
 /**
- * Перетаскиваемый чип контентного EN-текста ([TranslatableText]) — общий «кирпич» drag-заданий
+ * Перетаскиваемый чип контентного EN-текста ([ExerciseContentText]) — общий «кирпич» drag-заданий
  * (WORD_ARRANGEMENT / CATEGORIZATION / MATCHING). Фон/рамку/прозрачность задаёт вызывающий (состояние
  * выбора/результата). Текст всегда занимает место (alpha 0 у плейсхолдера) — раскладка не прыгает.
  */
@@ -48,7 +47,7 @@ fun ExerciseChip(
             .padding(horizontal = Dimens.spaceMedium, vertical = Dimens.spaceSmall),
         contentAlignment = Alignment.Center,
     ) {
-        TranslatableText(
+        ExerciseContentText(
             text = text,
             color = TextPrimary,
             fontSize = 16.sp,

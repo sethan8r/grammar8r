@@ -1283,20 +1283,20 @@ RU: Лена встаёт раньше меня.
 | Topic | 13 | 14 |
 | Category | 2 | 3 |
 | Microtopic | 74 | 75 |
-| Card | 221 | 222 |
-| Example | 937 | 938 |
+| Card | 222 | 223 |
+| Example | 941 | 942 |
 | Слова курса (course_word) | 443 | 444 |
 | MultipleChoice · CHOICE | 106 | 107 |
-| MultipleChoice · FORWARD_CHOICE | 120 | 121 |
+| MultipleChoice · FORWARD_CHOICE | 121 | 122 |
 | MultipleChoice · REVERSE_CHOICE | 31 | 32 |
 | TrueFalse | 99 | 100 |
 | WordArrangement | 84 | 85 |
 | TextInput | 38 | 39 |
 | Matching | 32 | 33 |
 | Transformation | 26 | 27 |
-| ErrorCorrection | 86 | 87 |
+| ErrorCorrection | 87 | 88 |
 | TableFill | 22 | 23 |
 | FindTheOdd | 44 | 45 |
 | ConstructionMeaning | 14 | 15 |
-| Categorization | 44 | 45 |
+| Categorization | 45 | 46 |
 | DialogRestore | 14 | 15 |

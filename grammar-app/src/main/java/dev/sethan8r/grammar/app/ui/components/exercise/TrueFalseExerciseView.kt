@@ -2,6 +2,7 @@ package dev.sethan8r.grammar.app.ui.components.exercise
 
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.AnswerOptionSurface
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.AnswerOptionVisual
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseContentText
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
 import androidx.compose.foundation.layout.Arrangement
@@ -12,7 +13,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.ui.components.text.TranslatableText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Dimens
@@ -22,7 +22,7 @@ import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 /**
  * Рендерер TRUE_FALSE во [ExerciseFrame] — multi-select «отметьте верные» (НЕ тоггл ✓/✗): тап по
  * утверждению выделяет его (как выбор варианта), верно — когда отмечены РОВНО все истинные. Каждое
- * утверждение — EN-предложение ([TranslatableText]) + RU-перевод под ним. Условие («ОТМЕТЬТЕ ВЕРНЫЕ»)
+ * утверждение — EN-предложение ([ExerciseContentText]) + RU-перевод под ним. Условие («ОТМЕТЬТЕ ВЕРНЫЕ»)
  * показывает подпись типа НАД фреймом (`exerciseTypeLabel`), поэтому своей шапки тут нет. Вердикт
  * all-or-nothing: до [AnswerPhase.REVEALED] подсветки нет (1-я ошибка — анти-спойлер); на реванше
  * истинные — зелёные (это и есть верный набор), ложные отмеченные — красные. Выделение/цвета — общий
@@ -51,7 +51,7 @@ fun TrueFalseExerciseView(
                     enabled = editable,
                     onClick = { onToggle(index) },
                 ) {
-                    TranslatableText(text = statement.en, color = TextPrimary, fontSize = 16.sp)
+                    ExerciseContentText(text = statement.en, color = TextPrimary, fontSize = 16.sp)
                     Text(
                         text = statement.ru,
                         color = TextSecondary,

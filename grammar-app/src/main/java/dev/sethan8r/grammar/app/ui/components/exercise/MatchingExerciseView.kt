@@ -44,10 +44,10 @@ import androidx.compose.ui.zIndex
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseContentText
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.detectChipDrag
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.hitTest
-import dev.sethan8r.grammar.app.ui.components.text.TranslatableText
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Alphas
@@ -262,7 +262,7 @@ fun MatchingExerciseView(
 }
 
 /**
- * Ячейка matching фикс. высоты, контентный EN/RU ([TranslatableText]).
+ * Ячейка matching фикс. высоты, контентный EN/RU ([ExerciseContentText] — рендерит `**жирный**`).
  * - [framed] = `false` (левый столбец): без фона/рамки, текст к левому краю ([alignStart]).
  * - [dragHandle] = `true` (правый, переставляемый): 2 точки в углу — намёк «перетаскивается».
  */
@@ -294,7 +294,7 @@ private fun MatchCell(
         contentAlignment = if (alignStart) Alignment.CenterStart else Alignment.Center,
     ) {
         // Горизонтальный отступ — на самом тексте (не на Box), чтобы точки-хэндл отмерялись от рамки.
-        TranslatableText(
+        ExerciseContentText(
             text = text,
             color = TextPrimary,
             fontSize = 16.sp,
