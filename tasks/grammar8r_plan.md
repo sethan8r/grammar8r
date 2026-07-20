@@ -1126,22 +1126,22 @@ theory/
 │       │       little→less→least; формы общие с прил. good/bad; «run as fast as» (связь с MT71). + AI.
 │       │   Слив (descriptions, 440–443): far, little, careful, serious.
 │       │
-│       ├── МТ75 · Adverbs of Degree · Наречия степени — 2 карточки
-│       │   ├── Card 222 · Усилители: very/quite/rather/fairly/extremely/really + прил./наречие. Таблица
+│       ├── МТ75 · Adverbs of Degree · Наречия степени — 2 карточки ✅ (написана, ALL GREEN 20.07.26)
+│       │   ├── Card 223 · Усилители: very/quite/rather/fairly/extremely/really + прил./наречие. Таблица
 │       │   │   оттенков интенсивности и регистра (fairly < quite < rather < very). Ловушка «very better» ✗
-│       │   │   → сослаться на Card 205. + AI.
-│       │   └── Card 223 · too vs enough: too cold (слишком, перебор — негатив) vs warm enough (enough ПОСЛЕ
-│       │       слова). Разведение too/very. Полную конструкцию too…to / enough…to только АНОНСИРУЕМ —
-│       │       она в теме «So/Such и Too/Enough». + AI.
+│       │   │   → сослаться на Card 205. Без AI. Слив: quite, rather, enough (444–446).
+│       │   └── Card 224 · too vs enough: too cold (слишком, перебор — негатив) vs warm enough (enough ПОСЛЕ
+│       │       слова). Разведение too/very. Полную конструкцию too…to / enough…to только АНОНСИРУЕМ
+│       │       (плашка «Кстати») — она в теме «So/Such и Too/Enough». Без AI.
 │       │
 │       └── МТ76 · Place, Time & Distance · Наречия места, времени и расстояния — 4 карточки
-│           ├── Card 224 · Место: here/there, everywhere/somewhere/nowhere, inside/outside, upstairs, home.
+│           ├── Card 225 · Место: here/there, everywhere/somewhere/nowhere, inside/outside, upstairs, home.
 │           │   Ловушка «go to home» ✗ (go home — без предлога). Позиция — в конце. + AI.
-│           ├── Card 225 · Время: now/then/soon/today/tonight/tomorrow; позиция (начало/конец). + AI.
-│           ├── Card 226 · already / yet / still. still — полноценно (работает сейчас). already/yet — даём
+│           ├── Card 226 · Время: now/then/soon/today/tonight/tomorrow; позиция (начало/конец). + AI.
+│           ├── Card 227 · already / yet / still. still — полноценно (работает сейчас). already/yet — даём
 │           │   базово на простых временах + плашка-анонс «полный разбор придёт в Present Perfect» (конвенция
 │           │   превью, как used to / been vs gone). + AI.
-│           └── Card 227 · Расстояние: far / far away / far from / nearby / a long way. «Is it far?»,
+│           └── Card 228 · Расстояние: far / far away / far from / nearby / a long way. «Is it far?»,
 │               «It's far away», «not far from here», «There's a shop nearby». Ловушка: far в утверждениях
 │               звучит странно → a long way / far away; свободно в вопросах/отрицаниях. + AI.
 │

@@ -35,6 +35,12 @@
       "topicId": 13,
       "title": "Comparison of Adverbs · Степени сравнения наречий",
       "order": 4
+    },
+    {
+      "id": 75,
+      "topicId": 13,
+      "title": "Adverbs of Degree · Наречия степени",
+      "order": 5
     }
   ],
   "grammar_cards": [
@@ -1131,6 +1137,234 @@
         "Почему «weller» — ошибка?",
         "Чем «as fast as» отличается от «faster»?"
       ]
+    },
+    {
+      "id": 223,
+      "microtopicId": 75,
+      "title": "Усилители: very, quite, rather, extremely",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До этого наречия у нас описывали, **как** идёт действие (бежит быстро, говорит тихо). Наречие степени работает иначе: оно не про действие, а про **силу признака** — насколько холодно, насколько устал, насколько дорого. Такое наречие крутит «громкость» прилагательного (или другого наречия) и всегда стоит **перед** ним: **cold** → **very cold**, **tired** → **quite tired**. По-русски это наши «очень / довольно / весьма / крайне»."
+        },
+        {
+          "type": "heading",
+          "text": "Два усилителя нам уже знакомы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Само **very** («очень») мы слили ещё в «Основах» — это самый ходовой сильный усилитель: **very cold**, **very happy**. Рядом с ним разговорное **really** («реально, прям») — тоже из «Основ»: **really good**, **really tired**. Оба про сильную степень; держим их в уме как «верхнюю полку громкости»."
+        },
+        {
+          "type": "heading",
+          "text": "Новые — это «середина шкалы»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Между «чуть-чуть» и «очень» у английского есть свои слова, и вот их стоит добавить:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**fairly** — слабое усиление, «вполне, сносно»: **fairly easy** — «в общем-то несложно».",
+            "**quite** — среднее, «довольно»: **quite tired** — «довольно уставший».",
+            "**rather** — тоже «довольно», но с оттенком «сильнее, чем хотелось бы», часто про неприятное: **rather cold** — «холодновато, и это не радует».",
+            "**extremely** — самый верх, «крайне»: **extremely dangerous** — «крайне опасно»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметь: **fairly** и **extremely** — это прилагательные **fair** и **extreme** плюс `-ly` (ровно как наречия образа действия, которые мы уже собирали). Поэтому отдельно их учить почти не нужно — узнаёшь корень и понимаешь смысл."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот вся шкала разом, от слабого к сильному:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Усилитель",
+            "Сила",
+            "Оттенок"
+          ],
+          "rows": [
+            [
+              "fairly",
+              "слабая",
+              "нейтрально, «вполне»"
+            ],
+            [
+              "quite",
+              "средняя",
+              "«довольно»"
+            ],
+            [
+              "rather",
+              "средняя",
+              "«довольно» + лёгкий минус"
+            ],
+            [
+              "very / really",
+              "сильная",
+              "нейтрально (really — разговорнее)"
+            ],
+            [
+              "extremely",
+              "предельная",
+              "«крайне», с эмоцией"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Усилитель цепляется к обычному прилагательному, но **не** к сравнительной форме. Хочется сказать **very better** ✗ — но так нельзя, для сравнительной степени усилитель другой: **much better** ✓ (мы уже отмечали это в теме «Сравнение прилагательных»)."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Very** не усиливает глагол. Русское «я очень хочу» тянет за собой **I very want** ✗ — но **very** живёт только при прилагательном или наречии. С глаголом ставим **really** впереди или **very much** в конце: **I really want it** ✓, **I want it very much** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Наречие степени показывает силу признака и стоит **перед** прилагательным/наречием: **very cold**, **quite tired**. Знакомые сильные — **very**, **really** (из «Основ»); новые по нарастанию — **fairly** (вполне) < **quite** / **rather** (довольно, у rather лёгкий минус) < **extremely** (крайне). Ловушки: усилитель не идёт со сравнительной формой (**very better** ✗ → **much better** ✓) и **very** не цепляется к глаголу (**I very want** ✗ → **I really want** / **want it very much**).",
+      "examples": [
+        {
+          "ru": "Этот отель довольно дорогой.",
+          "en": "This hotel is quite expensive."
+        },
+        {
+          "ru": "Задача оказалась вполне простой.",
+          "en": "The task was fairly simple."
+        },
+        {
+          "ru": "Ночью этот район крайне опасен.",
+          "en": "This area is extremely dangerous at night."
+        },
+        {
+          "ru": "В Праге сегодня довольно холодно.",
+          "en": "It's rather cold in Prague today."
+        },
+        {
+          "ru": "Денис сегодня очень занят.",
+          "en": "Denis is really busy today."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем «quite» отличается от «very»?",
+        "Почему нельзя сказать «very better»?",
+        "Почему «I very want» — ошибка, а «I really want» — нет?"
+      ]
+    },
+    {
+      "id": 224,
+      "microtopicId": 75,
+      "title": "too и enough: перебор и достаточность",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Ещё два слова про меру — но теперь не про «громкость», а про **границу**. **too** — это «за пределом» (перебор, и он мешает), **enough** — «ровно сколько нужно» (хватает)."
+        },
+        {
+          "type": "heading",
+          "text": "too = слишком (перебор, всегда с минусом)"
+        },
+        {
+          "type": "paragraph",
+          "text": "**too** ставится перед прилагательным или наречием и значит «слишком» — больше, чем надо, и это создаёт проблему: **too cold**, **too expensive**, **too late**. Само слово **too** нам знакомо из «Основ» в значении «тоже» (**me too**) — здесь у него вторая работа, «слишком». По контексту их не спутать: «тоже» стоит в конце фразы, «слишком» — перед признаком."
+        },
+        {
+          "type": "heading",
+          "text": "Не путай too и very"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это разные вещи, хотя по-русски оба хочется перевести «очень/слишком». **very hot** — просто «очень горячий» (сильно, но нормально). **too hot** — «настолько горячий, что нельзя пить/держать» — в **too** всегда сидит «перебор, мешает». Поэтому «чай слишком горячий, не могу пить» — это **The tea is too hot**, а не **very hot**."
+        },
+        {
+          "type": "heading",
+          "text": "enough = достаточно, и стоит ПОСЛЕ слова"
+        },
+        {
+          "type": "paragraph",
+          "text": "**enough** значит «достаточно» — нужного уровня хватает. Главная засада — место: **enough** встаёт **после** прилагательного или наречия, а не перед: **warm enough** ✓, **fast enough** ✓, **old enough** ✓."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "По-русски «достаточно тёплый» — «достаточно» впереди, и рука сама пишет **enough warm** ✗. По-английски порядок обратный — **warm enough** ✓. Признак сначала, **enough** после него."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Перед **существительным** всё наоборот — **enough** стоит впереди: **enough money** («достаточно денег»), **enough time** («достаточно времени»). Правило короткое: **enough** после прилагательного/наречия, но перед существительным."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У **too** и **enough** есть продолжение с частицей **to** — **too cold to swim** («слишком холодно, чтобы плавать»), **old enough to drive** («достаточно взрослый, чтобы водить»). Эту полную конструкцию разберём отдельно в теме «So/Such и Too/Enough» — пока достаточно её узнавать."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "**too** = «слишком» — перебор, который мешает (**too cold**, **too late**); это не то же, что **very** («очень», просто сильно): **too hot** = нельзя пить, **very hot** = просто горячо. **enough** = «достаточно» и стоит **после** прилагательного/наречия: **warm enough**, **fast enough** (не **enough warm** ✗). Перед существительным — наоборот, впереди: **enough time**. Конструкция **too … to** / **enough … to** — позже, в «So/Such и Too/Enough».",
+      "examples": [
+        {
+          "ru": "Эта сумка слишком тяжёлая.",
+          "en": "This bag is too heavy."
+        },
+        {
+          "ru": "Куртка недостаточно тёплая для зимы.",
+          "en": "The jacket isn't warm enough for winter."
+        },
+        {
+          "ru": "Мы вышли слишком рано.",
+          "en": "We left too early."
+        },
+        {
+          "ru": "Ты уже достаточно взрослый.",
+          "en": "You are old enough now."
+        },
+        {
+          "ru": "Тут хватит еды на всех?",
+          "en": "Is there enough food for everyone?"
+        }
+      ],
+      "clarificationOptions": [
+        "Чем «too» отличается от «very»?",
+        "Почему «enough» стоит после слова, а «enough money» — перед?",
+        "Почему «enough warm» — ошибка?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1355,6 +1589,54 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 120,
       "orderInCard": 3
+    },
+    {
+      "cardId": 223,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 122,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 223,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 100,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 223,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 88,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 223,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 85,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 224,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 107,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 224,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 123,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 224,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 101,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 224,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 86,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1558,6 +1840,30 @@
       "translation": "серьёзный",
       "transcription": "[ˈsɪəriəs]",
       "microtopicId": 74,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 444,
+      "word": "quite",
+      "translation": "довольно, вполне",
+      "transcription": "[kwaɪt]",
+      "microtopicId": 75,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 445,
+      "word": "rather",
+      "translation": "довольно (с оттенком «слишком»); скорее",
+      "transcription": "[ˈrɑːðə]",
+      "microtopicId": 75,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 446,
+      "word": "enough",
+      "translation": "достаточно",
+      "transcription": "[ɪˈnʌf]",
+      "microtopicId": 75,
       "categoryId": "descriptions"
     }
   ],
@@ -1807,6 +2113,68 @@
         }
       ],
       "explanation": "2 — **badly** неправильное → **worse** (**more badly** ✗); 4 — **little** → **less** (нужно **less**, а не **lesser**)."
+    },
+    {
+      "id": 100,
+      "statements": [
+        {
+          "en": "This coffee is quite strong.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Denis is very tired after work.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My new phone is very better than the old one.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I very need a holiday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The lecture was extremely boring.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "3 — усилитель не идёт со сравнительной формой: нужно **much better**, не **very better**. 4 — **very** не цепляется к глаголу → **I really need a holiday**."
+    },
+    {
+      "id": 101,
+      "statements": [
+        {
+          "en": "This coffee is too strong for me.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The soup is enough warm now.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "He is tall enough for the team.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "This film is too long.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The music is enough loud.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "2 и 5 — **enough** ставится после прилагательного: **warm enough**, **loud enough** (не **enough warm** / **enough loud**)."
     }
   ],
   "word_arrangement_exercises": [
@@ -1865,6 +2233,45 @@
         "than I"
       ],
       "explanation": "**early → earlier** (`y` → `-ier`); **more early** и **earlyer** так не строятся. Сравнение держит **than** (не **then** — «затем»), а после него — объектная форма **me**, не **than I**."
+    },
+    {
+      "id": 85,
+      "situationRu": "RU: Настя сегодня довольно занята.",
+      "correctSentence": "Nastya is quite busy today.",
+      "words": [
+        "Nastya",
+        "is",
+        "quite",
+        "busy",
+        "today"
+      ],
+      "distractors": [
+        "quiet",
+        "busily",
+        "very much",
+        "more"
+      ],
+      "explanation": "усилитель **quite** («довольно») стоит перед прилагательным **busy**. **quiet** — «тихий», другое слово (не путать с **quite**); **busily** — наречие, а после **is** нужно прилагательное; **very much** и **more** сюда не подходят."
+    },
+    {
+      "id": 86,
+      "situationRu": "RU: Этот ответ достаточно хороший.",
+      "correctSentence": "This answer is good enough.",
+      "words": [
+        "This",
+        "answer",
+        "is",
+        "good",
+        "enough"
+      ],
+      "distractors": [
+        "enough good",
+        "too",
+        "quite",
+        "well",
+        "more"
+      ],
+      "explanation": "**enough** идёт после прилагательного **good** → **good enough**. **enough good** — обратный, русский порядок; **too** и **quite** меняют смысл («слишком/довольно хороший»); **well** — наречие, а тут нужно прилагательное; **more** лишнее."
     }
   ],
   "multiple_choice_exercises": [
@@ -2119,6 +2526,69 @@
         }
       ],
       "explanation": "Внутри as … as наречие в базовой форме — **as beautifully as** (действие «поёт» описываем наречием). **as beautiful** — прилагательное, к глаголу не подходит; **as more beautifully** — лишний **more**."
+    },
+    {
+      "id": 122,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я очень хочу увидеть этот фильм.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I very want to see this film.",
+          "isCorrect": false
+        },
+        {
+          "text": "I am very want to see this film.",
+          "isCorrect": false
+        },
+        {
+          "text": "I really want to see this film.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "**very** не усиливает глагол, а «хочу» — это глагол. К действию подходит **really** впереди (или **very much** в конце). **I am very want** — лишний **am**, а **want** не прилагательное."
+    },
+    {
+      "id": 107,
+      "choiceType": "CHOICE",
+      "prompt": "This box is ___ heavy — I can't lift it.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "too",
+          "isCorrect": true
+        },
+        {
+          "text": "very",
+          "isCorrect": false
+        },
+        {
+          "text": "enough",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«не могу поднять» — это перебор, помеха, поэтому **too heavy** («слишком тяжёлая»). **very heavy** — просто «очень», без оттенка «мешает»; **enough** тут не по смыслу."
+    },
+    {
+      "id": 123,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Эта комната достаточно большая для нас.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "This room is enough big for us.",
+          "isCorrect": false
+        },
+        {
+          "text": "This room is too big for us.",
+          "isCorrect": false
+        },
+        {
+          "text": "This room is big enough for us.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "**enough** стоит после прилагательного **big** → **big enough**. **enough big** — калька с русского порядка «достаточно большая»; **too big** — «слишком большая», другой смысл (перебор), а не «достаточно»."
     }
   ],
   "text_input_exercises": [],
@@ -2259,6 +2729,25 @@
         }
       ],
       "explanation": "**quickly** на `-ly` → **more quickly**. **quicklier** так не строится, а **more quicklier** — двойное сравнение."
+    },
+    {
+      "id": 88,
+      "wrongSentence": "The exam was very harder than last year.",
+      "options": [
+        {
+          "text": "The exam was very harder than last year.",
+          "isCorrect": false
+        },
+        {
+          "text": "The exam was much harder than last year.",
+          "isCorrect": true
+        },
+        {
+          "text": "The exam was very more hard than last year.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**very** не усиливает сравнительную форму **harder** → **much harder**. Вариант **very more hard** — сразу две ошибки: и лишний **very**, и **more** при коротком прилагательном."
     }
   ],
   "construction_meaning_exercises": [],
