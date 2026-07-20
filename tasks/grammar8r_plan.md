@@ -1626,6 +1626,17 @@ theory/
 │   └── Тема: Многозначные слова  (GrammarTopic)           — состав микротем TBD
 │       ├── МТ: mind  → разум / to mind (возражать: "Do you mind?") / never mind / lose your mind / make up your mind
 │       ├── МТ: right → правильно / направо / право (a right) / right away / "right?" (да?)
+│       ├── МТ: away → capstone-сборка: ядро «прочь / в сторону / до отдаления и пропадания»,
+│       │   из него растут все ветки. Уже пройденное — только НАПОМИНАЕМ указателем (Правило №0,
+│       │   без дубля): go away (прочь — «Соц. взаимодействие»), far away (далеко — МТ76),
+│       │   right away (сразу — МТ right выше). Полноценно даём НОВЫЕ значения:
+│       │   • отсутствие / в отъезде — «I'll be away next week», «She's away from her desk»
+│       │     (ловушка: русский тянет be absent / not be here → живое = be away);
+│       │   • мерка расстояния во времени/пространстве — «The exam is two weeks away», «5 km away»;
+│       │   • исчезновение / устранение до конца — melt away, fade away, throw away, give away;
+│       │   • увлечённое непрерывное действие — «Fire away!» (валяй, спрашивай), work away, chat away;
+│       │   • идиомы-выкрики — «Take it away!» (объявляя выступление/музыку — «понеслась!»),
+│       │     away game (на выезде, спорт). + AI.
 │       └── МТ: ...  (TBD)
 │
 ├── Разговорный английский
