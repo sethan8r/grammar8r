@@ -41,6 +41,12 @@
       "topicId": 13,
       "title": "Adverbs of Degree · Наречия степени",
       "order": 5
+    },
+    {
+      "id": 76,
+      "topicId": 13,
+      "title": "Place, Time & Distance · Наречия места, времени и расстояния",
+      "order": 6
     }
   ],
   "grammar_cards": [
@@ -1365,6 +1371,534 @@
         "Почему «enough» стоит после слова, а «enough money» — перед?",
         "Почему «enough warm» — ошибка?"
       ]
+    },
+    {
+      "id": 225,
+      "microtopicId": 76,
+      "title": "Наречия места: here, inside, home",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Наречия места отвечают на вопросы «где?» и «куда?». Мы весь курс подсовывали их в примеры — **here**, **there**, **outside**, — а теперь соберём вместе и разберём главное: куда такое наречие ставить и где прячется ловушка с предлогом."
+        },
+        {
+          "type": "heading",
+          "text": "Частые наречия места"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот те, что нужны каждый день:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**here** — здесь, сюда; **there** — там, туда",
+            "**inside** — внутри, внутрь; **outside** — снаружи, на улице",
+            "**upstairs** — наверху, наверх (этажом выше); **downstairs** — внизу, вниз",
+            "**somewhere** — где-то, куда-то; **nowhere** — нигде, никуда"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметь: **inside**, **outside**, **upstairs** уже несут в себе смысл «в/на», поэтому предлог им не нужен — не **in inside**, а просто **inside**."
+        },
+        {
+          "type": "heading",
+          "text": "Где они стоят: обычно в конце"
+        },
+        {
+          "type": "paragraph",
+          "text": "Наречие места почти всегда уходит в конец предложения — после глагола и дополнения:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The kids are playing outside.** — дети играют на улице",
+            "**I left my bag somewhere.** — я где-то оставил сумку",
+            "**Come here!** — иди сюда"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски место гуляет свободно («Сумку я где-то оставил», «Где-то я оставил сумку»), а в английском его законное место — хвост фразы."
+        },
+        {
+          "type": "heading",
+          "text": "Семья some / any / every / no + where"
+        },
+        {
+          "type": "paragraph",
+          "text": "Помнишь **some**, **any**, **every**, **no** из местоимений? Приклей к ним `-where` — получишь наречие места, ровно как **someone** / **anyone** про людей:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**somewhere** — где-то, куда-то (в утверждении): **It's somewhere in the kitchen.**",
+            "**anywhere** — где угодно / где-нибудь (в вопросе и отрицании): **I can't find it anywhere.**",
+            "**everywhere** — везде: **I looked everywhere.**",
+            "**nowhere** — нигде, никуда"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Nowhere** уже само по себе отрицание, поэтому отрицать второй раз нельзя: **The keys are nowhere** ✓, а не **aren't nowhere** ✗. Та же логика, что у **never** и **hardly**, — одно отрицание, не два."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Home** в роли наречия значит «домой» и «дома» — и идёт **без** предлога **to** или **in**. Русское «домой» ощущается как направление «куда → в дом», поэтому рука тянет предлог: **go to home** ✗. Но **home** уже само «домой», предлог лишний:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Go home** ✓",
+                "**Come home** ✓",
+                "**Get home** ✓",
+                "**Drive home** ✓"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравни с обычным существительным: **go to the office** ✓ (перед **office** предлог нужен), но **go home** ✓ (**home** — наречие, предлог не нужен)."
+        }
+      ],
+      "theorySummary": "Наречия места (**here** / **there**, **inside** / **outside**, **upstairs** / **downstairs**, **somewhere** / **anywhere** / **everywhere** / **nowhere**, **home**) отвечают на «где?/куда?» и стоят обычно в конце предложения. Семья `-where` строится на **some** / **any** / **every** / **no**, а **nowhere** уже само отрицание (не **aren't nowhere** ✗). Главная ловушка — **home**: это наречие «домой/дома», предлог не нужен — **go home**, не **go to home** ✗.",
+      "examples": [
+        {
+          "ru": "На улице холодно, дети играют внутри.",
+          "en": "It's cold outside, so the kids play inside."
+        },
+        {
+          "ru": "Я где-то видел этого человека.",
+          "en": "I saw this man somewhere."
+        },
+        {
+          "ru": "Мы едем домой на такси.",
+          "en": "We are going home by taxi."
+        },
+        {
+          "ru": "Ты здесь живёшь?",
+          "en": "Do you live here?"
+        },
+        {
+          "ru": "Я искал очки везде.",
+          "en": "I looked for my glasses everywhere."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему go home, а не go to home?",
+        "Чем somewhere отличается от anywhere?",
+        "Почему nowhere нельзя использовать со вторым отрицанием?"
+      ]
+    },
+    {
+      "id": 226,
+      "microtopicId": 76,
+      "title": "Наречия времени: now, then, soon",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Наречия времени отвечают на вопрос «когда?». Многие уже мелькали весь курс — **now**, **today**, **tomorrow**. Соберём их и разберём позицию: у времени она свободнее, чем у других наречий."
+        },
+        {
+          "type": "heading",
+          "text": "Знакомые слова и одно новое — then"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**now** — сейчас; **soon** — скоро",
+            "**today** — сегодня; **tonight** — сегодня вечером/ночью; **tomorrow** — завтра; **yesterday** — вчера"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Новое здесь — **then**. У него два близких смысла, и оба про «другой момент, не сейчас»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«тогда, в тот момент»: **We lived in Prague then.** — тогда мы жили в Праге",
+            "«потом, затем (следующим шагом)»: **First we eat, then we go.** — сначала едим, потом идём"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Позиция: начало или конец, но не в середине"
+        },
+        {
+          "type": "paragraph",
+          "text": "Наречие времени любит два места — **начало** предложения (если хотим подчеркнуть время) или **конец** (нейтрально). Оба варианта верны:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Tomorrow we have an exam.** = **We have an exam tomorrow.**",
+            "**Now I'm busy.** = **I'm busy now.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Но между подлежащим и глаголом оно не влезает: **We tomorrow have an exam** ✗. Тут виден контраст с наречиями частоты: **always** / **often** как раз живут **в середине** (**She always works**), а наречия времени — **по краям**."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Наречие времени по краям, наречие частоты в середине. **I work today** ✓ / **Today I work** ✓ (время — по краям), но **I today work** ✗. А вот **I always work** ✓ (частота — перед глаголом). Один тип наречия — в середину нельзя, другой — только в середину."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Then** (тогда, потом) и **than** (чем — для сравнения) звучат почти одинаково, но это два разных слова. **than** мы уже встречали в степенях сравнения:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**She is taller than me.** — сравнение (чем)",
+                "**Call me first, then come.** — время (потом)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "На письме их легко перепутать — держи в голове, что **than** живёт только рядом со сравнением."
+        }
+      ],
+      "theorySummary": "Наречия времени (**now**, **then**, **soon**, **today**, **tonight**, **tomorrow**, **yesterday**) отвечают на «когда?» и стоят в **начале** или в **конце** предложения, но не между подлежащим и глаголом (**We tomorrow have** ✗). Этим они отличаются от наречий частоты (**always**, **often**), которые как раз в середине. Новое слово **then** = «тогда» или «потом»; не путать с **than** («чем», для сравнения).",
+      "examples": [
+        {
+          "ru": "Позвони мне сейчас, это срочно.",
+          "en": "Call me now, it's urgent."
+        },
+        {
+          "ru": "Сначала мы ужинаем, потом смотрим кино.",
+          "en": "First we have dinner, then we watch a film."
+        },
+        {
+          "ru": "Ты сегодня вечером дома?",
+          "en": "Are you home tonight?"
+        },
+        {
+          "ru": "Автобус скоро приедет.",
+          "en": "The bus is coming soon."
+        },
+        {
+          "ru": "Тогда мы жили в Берлине.",
+          "en": "We lived in Berlin then."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем then отличается от than?",
+        "Можно ли поставить наречие времени в начало предложения?",
+        "Почему «We tomorrow go» — ошибка?"
+      ]
+    },
+    {
+      "id": 227,
+      "microtopicId": 76,
+      "title": "already, yet, still",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Три коротких слова, которые русскоязычный вечно тасует, потому что все три крутятся вокруг «уже / ещё». Разведём их по местам. **still** разберём полностью, а **already** и **yet** дадим базово — их главный дом впереди, в Present Perfect."
+        },
+        {
+          "type": "heading",
+          "text": "still — всё ещё продолжается"
+        },
+        {
+          "type": "paragraph",
+          "text": "**still** значит «(всё) ещё»: действие или состояние тянется и не закончилось."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He is still asleep.** — он всё ещё спит",
+            "**Are you still at work?** — ты всё ещё на работе?",
+            "**I still don't understand.** — я всё ещё не понимаю"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Позиция — как у наречий частоты: перед смысловым глаголом (**I still live here**), но после глагола-связки (**She is still busy**). Место знакомое по **always** / **often**."
+        },
+        {
+          "type": "heading",
+          "text": "already — уже (часто раньше, чем ждали)"
+        },
+        {
+          "type": "paragraph",
+          "text": "**already** значит «уже»: что-то случилось или готово — нередко раньше ожидаемого."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Dinner is already ready.** — ужин уже готов",
+            "**I already know this.** — я уже это знаю"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Стоит обычно в середине (перед глаголом / после глагола-связки) или в конце для нажима: **I know that already.**"
+        },
+        {
+          "type": "heading",
+          "text": "yet — «ещё (не)» и «уже?»: только в вопросе и отрицании"
+        },
+        {
+          "type": "paragraph",
+          "text": "**yet** работает **в отрицании и вопросе** и садится в конец предложения:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "отрицание: **The bus isn't here yet.** — автобуса ещё нет",
+            "вопрос: **Are you ready yet?** — ты уже готов?",
+            "короткий ответ: **Not yet.** — ещё нет"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одно русское «ещё» — два английских слова"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «ещё» разбегается на два: «ещё продолжается» = **still** (**I'm still eating**), а «ещё не / пока не» = **yet** (**I'm not ready yet**). И «уже» тоже двоится: в утверждении это **already** (**It's already done**), а в вопросе — **yet** (**Is it done yet?**). Русский лепит **already** во все дырки — но **Are you ready already?** звучит уже как удивление («как, уже?!»), а не нейтральный вопрос."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот вся тройка разом:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Смысл",
+            "Где стоит"
+          ],
+          "rows": [
+            [
+              "still",
+              "всё ещё длится",
+              "перед глаголом / после to be"
+            ],
+            [
+              "already",
+              "уже (случилось)",
+              "середина или конец"
+            ],
+            [
+              "yet",
+              "ещё не / уже? (вопрос, отрицание)",
+              "конец"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "По-настоящему **already** и **yet** раскроются в Present Perfect (**I have already eaten**, **I haven't eaten yet**) — там их родной дом. Пока достаточно узнавать их на простых предложениях и не путать со **still**. Полный разбор придёт, когда дойдём до Present Perfect."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "**still** = «всё ещё» (длится): **He is still asleep** — стоит как наречия частоты (перед глаголом, после глагола-связки). **already** = «уже» (случилось, часто раньше ждали): **I already know** — середина или конец. **yet** = «ещё не / уже?» — только в вопросах и отрицаниях, в конце: **not ready yet**, **ready yet?**. Русское «ещё» = **still** (длится) или **yet** (не/пока); «уже» = **already** (утверждение) или **yet** (вопрос). Полный разбор **already** / **yet** — в Present Perfect.",
+      "examples": [
+        {
+          "ru": "Не буди его, он всё ещё спит.",
+          "en": "Don't wake him up, he is still asleep."
+        },
+        {
+          "ru": "Я уже знаю эту новость.",
+          "en": "I already know this news."
+        },
+        {
+          "ru": "Ты уже готов?",
+          "en": "Are you ready yet?"
+        },
+        {
+          "ru": "Нас ещё нет дома.",
+          "en": "We aren't home yet."
+        },
+        {
+          "ru": "Магазин всё ещё открыт?",
+          "en": "Is the shop still open?"
+        }
+      ],
+      "clarificationOptions": [
+        "Чем still отличается от yet?",
+        "Почему «Are you ready already?» звучит странно?",
+        "Когда «ещё» — это still, а когда yet?"
+      ]
+    },
+    {
+      "id": 228,
+      "microtopicId": 76,
+      "title": "Расстояние: far, far away, nearby",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Как сказать, что что-то далеко или близко. Тут прячется тонкая, но частая ошибка: слово **far** ведёт себя по-разному в утверждении и в вопросе."
+        },
+        {
+          "type": "heading",
+          "text": "far — свободно в вопросах и отрицаниях"
+        },
+        {
+          "type": "paragraph",
+          "text": "В вопросе и отрицании **far** («далеко») звучит совершенно естественно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Is it far?** — это далеко?",
+            "**Is the station far from here?** — станция далеко отсюда?",
+            "**It isn't far.** — это недалеко"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**far from** = «далеко от» (+ место): **far from the centre**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В простом утверждении «X далеко» англичанин почти не говорит **X is far**. Вместо этого — **far away** или **a long way (away)**:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**My house is far.** ✗ → **My house is far away.** ✓ / **My house is a long way from here.** ✓"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «мой дом далеко» — обычное утверждение, поэтому рука пишет **is far**. Но **far** любит вопрос и отрицание; в утверждении бери **far away** или **a long way**."
+        },
+        {
+          "type": "heading",
+          "text": "nearby — рядом, поблизости"
+        },
+        {
+          "type": "paragraph",
+          "text": "Про «близко» есть готовое наречие **nearby** — «рядом, поблизости»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There is a shop nearby.** — рядом есть магазин",
+            "**They live nearby.** — они живут поблизости"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы уже сливали **near** («близко») и **nearby** («поблизости») в «Основах» — тут просто освежаем."
+        },
+        {
+          "type": "heading",
+          "text": "away — прочь, в отдалении"
+        },
+        {
+          "type": "paragraph",
+          "text": "**away** показывает удалённость или движение прочь:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**far away** — далеко (в отдалении)",
+            "**The beach is ten minutes away.** — пляж в десяти минутах",
+            "**Go away!** — уйди!"
+          ]
+        }
+      ],
+      "theorySummary": "**far** свободно живёт в вопросах и отрицаниях (**Is it far?** / **not far**), но в простом утверждении звучит неестественно — там **far away** или **a long way** (**My house is far** ✗ → **far away** / **a long way** ✓). **far from** = «далеко от» (+ место). Близко — **nearby** («рядом»): **a shop nearby**. **away** = «прочь, в отдалении»: **far away**, **ten minutes away**.",
+      "examples": [
+        {
+          "ru": "Это далеко?",
+          "en": "Is it far?"
+        },
+        {
+          "ru": "Аэропорт далеко от центра.",
+          "en": "The airport is far from the centre."
+        },
+        {
+          "ru": "Наш дом далеко отсюда.",
+          "en": "Our house is a long way from here."
+        },
+        {
+          "ru": "Рядом есть небольшой парк.",
+          "en": "There is a small park nearby."
+        },
+        {
+          "ru": "Пляж всего в десяти минутах отсюда.",
+          "en": "The beach is only ten minutes away."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «My house is far» звучит неестественно?",
+        "Чем far away отличается от far from?",
+        "Когда far нормально, а когда лучше far away?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1637,6 +2171,90 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 86,
       "orderInCard": 3
+    },
+    {
+      "cardId": 225,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 124,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 225,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 89,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 225,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 102,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 225,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 87,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 226,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 125,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 226,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 103,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 226,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 88,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 227,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 108,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 227,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 126,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 227,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 104,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 228,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 127,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 228,
+      "exerciseType": "MATCHING",
+      "exerciseId": 33,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 228,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 105,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 228,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 89,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1679,6 +2297,38 @@
       "userInstruction": "ИИ даст русское предложение со сравнением. Переведите его на английский.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "adverbs_card225_ex1",
+      "cardId": 225,
+      "title": "Наречие места",
+      "userInstruction": "ИИ пришлёт предложения с пропуском. Впишите подходящее по смыслу наречие места.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "adverbs_card226_ex1",
+      "cardId": 226,
+      "title": "Скажи, когда",
+      "userInstruction": "ИИ даст русское предложение с указанием времени. Переведите его на английский.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "adverbs_card227_ex1",
+      "cardId": 227,
+      "title": "still, already или yet?",
+      "userInstruction": "ИИ пришлёт предложения с пропуском. Впишите still, already или yet по смыслу.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "adverbs_card228_ex1",
+      "cardId": 228,
+      "title": "Далеко или рядом?",
+      "userInstruction": "ИИ пришлёт предложения с пропуском. Впишите far, far away или nearby по смыслу.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -1864,6 +2514,54 @@
       "translation": "достаточно",
       "transcription": "[ɪˈnʌf]",
       "microtopicId": 75,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 447,
+      "word": "here",
+      "translation": "здесь, сюда",
+      "transcription": "[hɪə]",
+      "microtopicId": 76,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 448,
+      "word": "inside",
+      "translation": "внутри, внутрь",
+      "transcription": "[ɪnˈsaɪd]",
+      "microtopicId": 76,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 449,
+      "word": "somewhere",
+      "translation": "где-то, куда-то",
+      "transcription": "[ˈsʌmweə]",
+      "microtopicId": 76,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 450,
+      "word": "then",
+      "translation": "тогда, потом",
+      "transcription": "[ðen]",
+      "microtopicId": 76,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 451,
+      "word": "already",
+      "translation": "уже",
+      "transcription": "[ɔːlˈredi]",
+      "microtopicId": 76,
+      "categoryId": "descriptions"
+    },
+    {
+      "id": 452,
+      "word": "away",
+      "translation": "прочь, в отдалении",
+      "transcription": "[əˈweɪ]",
+      "microtopicId": 76,
       "categoryId": "descriptions"
     }
   ],
@@ -2175,6 +2873,130 @@
         }
       ],
       "explanation": "2 и 5 — **enough** ставится после прилагательного: **warm enough**, **loud enough** (не **enough warm** / **enough loud**)."
+    },
+    {
+      "id": 102,
+      "statements": [
+        {
+          "en": "I can't find my glasses anywhere.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Please come to home before dark.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The cat is hiding somewhere in the garden.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We couldn't see the dog nowhere.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The children are playing upstairs.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — **home** идёт без предлога: **come home**; 4 — **nowhere** уже отрицание, «couldn't see nowhere» — двойное, нужно **couldn't see it anywhere**."
+    },
+    {
+      "id": 103,
+      "statements": [
+        {
+          "en": "I'm really busy now.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We tomorrow visit our grandparents.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "First we finish the work, then we relax.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He is taller then his brother.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The train is coming soon.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2 — наречие времени не встаёт между подлежащим и глаголом: **We visit … tomorrow** / **Tomorrow we visit**; 4 — для сравнения нужно **than** (чем), а не **then** (тогда): **taller than his brother**."
+    },
+    {
+      "id": 104,
+      "statements": [
+        {
+          "en": "Are you still learning English?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My sister isn't ready already.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "It's only 6 a.m. and he is already awake.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We still don't have any news.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I already don't understand this rule.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "2 — в отрицании «ещё не» → **yet** (**isn't ready yet**); 5 — «всё ещё не понимаю» = **still** (**I still don't understand**), **already** тут не по смыслу."
+    },
+    {
+      "id": 105,
+      "statements": [
+        {
+          "en": "Is the beach far from the hotel?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My office is far.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "There is a nice park nearby.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The shop isn't far, just five minutes away.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Our school is very far, near the river.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "2 — в утверждении голое **far** звучит неестественно: **My office is far away** / **a long way**; 5 — то же самое, **very far** в утверждении → **very far away**."
     }
   ],
   "word_arrangement_exercises": [
@@ -2272,6 +3094,60 @@
         "more"
       ],
       "explanation": "**enough** идёт после прилагательного **good** → **good enough**. **enough good** — обратный, русский порядок; **too** и **quite** меняют смысл («слишком/довольно хороший»); **well** — наречие, а тут нужно прилагательное; **more** лишнее."
+    },
+    {
+      "id": 87,
+      "situationRu": "RU: Я где-то оставил зонт.",
+      "correctSentence": "I left my umbrella somewhere.",
+      "words": [
+        "I",
+        "left",
+        "my umbrella",
+        "somewhere"
+      ],
+      "distractors": [
+        "anywhere",
+        "here",
+        "to",
+        "outside"
+      ],
+      "explanation": "наречие места **somewhere** («где-то») встаёт в конец. **anywhere** — для вопросов и отрицаний; **here** / **outside** — другое место по смыслу; **to** — лишний предлог."
+    },
+    {
+      "id": 88,
+      "situationRu": "RU: Тогда я работал в школе.",
+      "correctSentence": "I worked in a school then.",
+      "words": [
+        "I",
+        "worked",
+        "in a school",
+        "then"
+      ],
+      "distractors": [
+        "than",
+        "now",
+        "there"
+      ],
+      "explanation": "наречие времени **then** («тогда») встаёт в конец. **than** — «чем» (сравнение), не время; **now** — «сейчас», обратный смысл; **there** — место, а не время."
+    },
+    {
+      "id": 89,
+      "situationRu": "RU: Рядом есть автобусная остановка.",
+      "correctSentence": "There is a bus stop nearby.",
+      "words": [
+        "There",
+        "is",
+        "a bus stop",
+        "nearby"
+      ],
+      "distractors": [
+        "far",
+        "away",
+        "near from",
+        "a long way",
+        "here"
+      ],
+      "explanation": "**nearby** — «рядом, поблизости». **far** и **a long way** — «далеко», обратный смысл; **away** и **here** по смыслу не те; **near from** так не говорят (**near** без **from**)."
     }
   ],
   "multiple_choice_exercises": [
@@ -2589,6 +3465,111 @@
         }
       ],
       "explanation": "**enough** стоит после прилагательного **big** → **big enough**. **enough big** — калька с русского порядка «достаточно большая»; **too big** — «слишком большая», другой смысл (перебор), а не «достаточно»."
+    },
+    {
+      "id": 124,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Каждый вечер Лена возвращается домой поздно.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Every evening Lena comes home late.",
+          "isCorrect": true
+        },
+        {
+          "text": "Every evening Lena comes to home late.",
+          "isCorrect": false
+        },
+        {
+          "text": "Every evening Lena comes at home late.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**home** — наречие «домой», предлог не нужен: **come home**. **to home** — калька с русского «в дом»; **at home** значит «дома» (место), а не «домой»."
+    },
+    {
+      "id": 125,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Завтра у нас важная встреча.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We have an important meeting tomorrow.",
+          "isCorrect": true
+        },
+        {
+          "text": "We tomorrow have an important meeting.",
+          "isCorrect": false
+        },
+        {
+          "text": "We have tomorrow an important meeting.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "наречие времени **tomorrow** — в начале (**Tomorrow we have an important meeting**) или в конце, но не между подлежащим и глаголом (**We tomorrow have** ✗) и не между глаголом и дополнением (**have tomorrow an important meeting** ✗)."
+    },
+    {
+      "id": 108,
+      "choiceType": "CHOICE",
+      "prompt": "Don't turn off the TV, I'm ___ watching it.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "yet",
+          "isCorrect": false
+        },
+        {
+          "text": "still",
+          "isCorrect": true
+        },
+        {
+          "text": "already",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "действие длится прямо сейчас (смотрю) → **still**. **yet** бывает только в вопросе/отрицании; **already** — «уже» (о законченном), тут не по смыслу."
+    },
+    {
+      "id": 126,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Автобуса ещё нет.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The bus is here already.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bus is still here.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bus isn't here yet.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«ещё нет» — это отрицание, поэтому **yet** в конце: **isn't here yet**. **still** («всё ещё») и **already** («уже») по смыслу не подходят."
+    },
+    {
+      "id": 127,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Автобусная остановка далеко.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The bus stop is far.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bus stop is a far.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bus stop is far away.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "в утверждении «далеко» → **far away** (или **a long way**); голое **is far** звучит неестественно, а **a far** так не говорят."
     }
   ],
   "text_input_exercises": [],
@@ -2651,6 +3632,33 @@
         }
       ],
       "explanation": "Эти пары легко перепутать: hard (усердно) vs hardly (едва), late (поздно) vs lately (в последнее время), near (близко) vs nearly (почти)."
+    },
+    {
+      "id": 33,
+      "taskDescription": "соедини выражение с его значением.",
+      "pairs": [
+        {
+          "left": "far away",
+          "right": "далеко (в утверждении)"
+        },
+        {
+          "left": "far from",
+          "right": "далеко от (+ место)"
+        },
+        {
+          "left": "nearby",
+          "right": "рядом, поблизости"
+        },
+        {
+          "left": "a long way",
+          "right": "далеко (большое расстояние)"
+        },
+        {
+          "left": "away",
+          "right": "прочь, в отдалении"
+        }
+      ],
+      "explanation": "far away — «далеко» для утверждения; far from — «далеко от» + место (far from the centre); nearby — «рядом»; a long way — «далеко» (большое расстояние); away — «прочь, в отдалении»."
     }
   ],
   "error_correction_exercises": [
@@ -2748,6 +3756,25 @@
         }
       ],
       "explanation": "**very** не усиливает сравнительную форму **harder** → **much harder**. Вариант **very more hard** — сразу две ошибки: и лишний **very**, и **more** при коротком прилагательном."
+    },
+    {
+      "id": 89,
+      "wrongSentence": "The dog wants to come in inside because it's raining.",
+      "options": [
+        {
+          "text": "The dog wants to come to inside because it's raining.",
+          "isCorrect": false
+        },
+        {
+          "text": "The dog wants to come inside because it's raining.",
+          "isCorrect": true
+        },
+        {
+          "text": "The dog wants to come at inside because it's raining.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**inside** уже значит «внутрь», предлог не нужен: **come inside** — не **in / to / at inside**."
     }
   ],
   "construction_meaning_exercises": [],

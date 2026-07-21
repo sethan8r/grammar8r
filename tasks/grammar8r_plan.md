@@ -1134,7 +1134,7 @@ theory/
 │       │       слова). Разведение too/very. Полную конструкцию too…to / enough…to только АНОНСИРУЕМ
 │       │       (плашка «Кстати») — она в теме «So/Such и Too/Enough». Без AI.
 │       │
-│       └── МТ76 · Place, Time & Distance · Наречия места, времени и расстояния — 4 карточки
+│       └── МТ76 · Place, Time & Distance · Наречия места, времени и расстояния — 4 карточки ✅ (написана, ALL GREEN 21.07.26)
 │           ├── Card 225 · Место: here/there, everywhere/somewhere/nowhere, inside/outside, upstairs, home.
 │           │   Ловушка «go to home» ✗ (go home — без предлога). Позиция — в конце. + AI.
 │           ├── Card 226 · Время: now/then/soon/today/tonight/tomorrow; позиция (начало/конец). + AI.
@@ -1357,6 +1357,11 @@ theory/
 │   │   В русском нет такого разграничения. "Я потерял ключи" — и вчера, и только что, одно слово.
 │   │   Поэтому русские ставят Past Simple там где нужен Present Perfect и наоборот.
 │   ├── Карточки: образование, have/has + V3, употребление, маркеры (ever/never/already/just/yet)
+│   │   ⚠️ ДОЛГ ПЕРЕД ЧИТАТЕЛЕМ: already и yet тут разобрать ПОЛНО. В теме «Наречия» (МТ76, Card 227)
+│   │   мы дали их только базово (на простых временах) и повесили плашку-анонс «полный разбор придёт
+│   │   в Present Perfect». Значит здесь обязаны раскрыть: already (I've already done it), yet в
+│   │   отрицании/вопросе (I haven't done it yet / Have you done it yet?), позиция already между
+│   │   have и V3. Не забыть — это обещано пользователю.
 │   ├── ⚠️ Отдельная карточка: been vs gone — главная путаница для русскоязычных
 │   │   "He has been to London." — бывал и вернулся, он здесь сейчас
 │   │   "He has gone to London." — уехал туда, его здесь нет

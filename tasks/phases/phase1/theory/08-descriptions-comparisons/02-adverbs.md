@@ -1528,25 +1528,575 @@ RU: Этот ответ достаточно хороший.
 
 ---
 
+## Microtopic 76 — Place, Time & Distance · Наречия места, времени и расстояния
+
+**ID:** 76 | **Order:** 6
+
+---
+
+### Card 225 · Наречия места: here, inside, home
+
+**ID:** 225 | **Order:** 1
+
+#### Theory
+
+Наречия места отвечают на вопросы «где?» и «куда?». Мы весь курс подсовывали их в примеры — **here**, **there**, **outside**, — а теперь соберём вместе и разберём главное: куда такое наречие ставить и где прячется ловушка с предлогом.
+
+**Частые наречия места**
+
+Вот те, что нужны каждый день:
+
+- **here** — здесь, сюда; **there** — там, туда
+- **inside** — внутри, внутрь; **outside** — снаружи, на улице
+- **upstairs** — наверху, наверх (этажом выше); **downstairs** — внизу, вниз
+- **somewhere** — где-то, куда-то; **nowhere** — нигде, никуда
+
+Заметь: **inside**, **outside**, **upstairs** уже несут в себе смысл «в/на», поэтому предлог им не нужен — не **in inside**, а просто **inside**.
+
+**Где они стоят: обычно в конце**
+
+Наречие места почти всегда уходит в конец предложения — после глагола и дополнения:
+
+- **The kids are playing outside.** — дети играют на улице
+- **I left my bag somewhere.** — я где-то оставил сумку
+- **Come here!** — иди сюда
+
+По-русски место гуляет свободно («Сумку я где-то оставил», «Где-то я оставил сумку»), а в английском его законное место — хвост фразы.
+
+**Семья some / any / every / no + where**
+
+Помнишь **some**, **any**, **every**, **no** из местоимений? Приклей к ним `-where` — получишь наречие места, ровно как **someone** / **anyone** про людей:
+
+- **somewhere** — где-то, куда-то (в утверждении): **It's somewhere in the kitchen.**
+- **anywhere** — где угодно / где-нибудь (в вопросе и отрицании): **I can't find it anywhere.**
+- **everywhere** — везде: **I looked everywhere.**
+- **nowhere** — нигде, никуда
+
+**Важно:** **nowhere** уже само по себе отрицание, поэтому отрицать второй раз нельзя: **The keys are nowhere** ✓, а не **aren't nowhere** ✗. Та же логика, что у **never** и **hardly**, — одно отрицание, не два.
+
+**Ловушка:** **home** в роли наречия значит «домой» и «дома» — и идёт **без** предлога **to** или **in**. Русское «домой» ощущается как направление «куда → в дом», поэтому рука тянет предлог: **go to home** ✗. Но **home** уже само «домой», предлог лишний:
+- **go home** ✓
+- **come home** ✓
+- **get home** ✓
+- **drive home** ✓
+
+Сравни с обычным существительным: **go to the office** ✓ (перед **office** предлог нужен), но **go home** ✓ (**home** — наречие, предлог не нужен).
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Наречия места (**here** / **there**, **inside** / **outside**, **upstairs** / **downstairs**, **somewhere** / **anywhere** / **everywhere** / **nowhere**, **home**) отвечают на «где?/куда?» и стоят обычно в конце предложения. Семья `-where` строится на **some** / **any** / **every** / **no**, а **nowhere** уже само отрицание (не **aren't nowhere** ✗). Главная ловушка — **home**: это наречие «домой/дома», предлог не нужен — **go home**, не **go to home** ✗.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 952 | На улице холодно, дети играют внутри. | It's cold outside, so the kids play inside. |
+| 953 | Я где-то видел этого человека. | I saw this man somewhere. |
+| 954 | Мы едем домой на такси. | We are going home by taxi. |
+| 955 | Ты здесь живёшь? | Do you live here? |
+| 956 | Я искал очки везде. | I looked for my glasses everywhere. |
+
+---
+
+#### Exercises
+
+**Ex 46 · MultipleChoice · FORWARD_CHOICE** *(ID: 124)*
+
+"Каждый вечер Лена возвращается домой поздно."
+
+- **Every evening Lena comes home late.** ✓
+- Every evening Lena comes to home late.
+- Every evening Lena comes at home late.
+
+*Explanation:* **home** — наречие «домой», предлог не нужен: **come home**. **to home** — калька с русского «в дом»; **at home** значит «дома» (место), а не «домой».
+
+---
+
+**Ex 47 · ErrorCorrection** *(ID: 89)*
+
+"The dog wants to come in inside because it's raining."
+
+- The dog wants to come to inside because it's raining.
+- **The dog wants to come inside because it's raining.** ✓
+- The dog wants to come at inside because it's raining.
+
+*Explanation:* **inside** уже значит «внутрь», предлог не нужен: **come inside** — не **in / to / at inside**.
+
+---
+
+**Ex 48 · TrueFalse** *(ID: 102)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I can't find my glasses anywhere. | ✓ |
+| 2 | Please come to home before dark. | ✗ |
+| 3 | The cat is hiding somewhere in the garden. | ✓ |
+| 4 | We couldn't see the dog nowhere. | ✗ |
+| 5 | The children are playing upstairs. | ✓ |
+
+*Explanation:* 2 — **home** идёт без предлога: **come home**; 4 — **nowhere** уже отрицание, «couldn't see nowhere» — двойное, нужно **couldn't see it anywhere**.
+
+---
+
+**Ex 49 · WordArrangement** *(ID: 87)*
+
+RU: Я где-то оставил зонт.
+
+Правильное предложение: **I left my umbrella somewhere.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| I | — |
+| left | — |
+| my umbrella | — |
+| somewhere | — |
+| anywhere | ✗ |
+| here | ✗ |
+| to | ✗ |
+| outside | ✗ |
+
+*Explanation:* наречие места **somewhere** («где-то») встаёт в конец. **anywhere** — для вопросов и отрицаний; **here** / **outside** — другое место по смыслу; **to** — лишний предлог.
+
+---
+
+#### AI Exercise
+
+**ID:** adverbs_card225_ex1
+**Title:** "Наречие места"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложения с пропуском. Впишите подходящее по смыслу наречие места."
+**Prompt Template:** "Дай пользователю сразу несколько коротких английских предложений (всего 3-4), в каждом — пропуск [___], куда по смыслу встаёт наречие места (here, there, inside, outside, upstairs, downstairs, somewhere, anywhere, everywhere, nowhere, home). Давай простые предложения из простых слов. Делай контекст таким, чтобы подходило ровно одно наречие. Обязательно включи одно предложение с движением домой, где верный ответ — home БЕЗ предлога (например «After the party they all went [___]» → home). Проверяй, верно ли выбрано наречие места и не добавил ли пользователь лишний предлог (to home ✗). Если ошибка — покажи правильный вариант и одним предложением объясни по-русски (например: home — наречие, предлог не нужен). Не придирайся к знакам препинания и заглавным буквам — оценивай только наречие места."
+
+Пример вывода AI: 'Впишите наречие места: 1. I can't find my keys [___]. 2. It's cold, let's stay [___]. 3. After the party they all went [___]. 4. Her office is [___], on the third floor.'
+
+#### Clarification Options
+
+- Почему go home, а не go to home?
+- Чем somewhere отличается от anywhere?
+- Почему nowhere нельзя использовать со вторым отрицанием?
+
+---
+
+### Card 226 · Наречия времени: now, then, soon
+
+**ID:** 226 | **Order:** 2
+
+#### Theory
+
+Наречия времени отвечают на вопрос «когда?». Многие уже мелькали весь курс — **now**, **today**, **tomorrow**. Соберём их и разберём позицию: у времени она свободнее, чем у других наречий.
+
+**Знакомые слова и одно новое — then**
+
+- **now** — сейчас; **soon** — скоро
+- **today** — сегодня; **tonight** — сегодня вечером/ночью; **tomorrow** — завтра; **yesterday** — вчера
+
+Новое здесь — **then**. У него два близких смысла, и оба про «другой момент, не сейчас»:
+
+- «тогда, в тот момент»: **We lived in Prague then.** — тогда мы жили в Праге
+- «потом, затем (следующим шагом)»: **First we eat, then we go.** — сначала едим, потом идём
+
+**Позиция: начало или конец, но не в середине**
+
+Наречие времени любит два места — **начало** предложения (если хотим подчеркнуть время) или **конец** (нейтрально). Оба варианта верны:
+
+- **Tomorrow we have an exam.** = **We have an exam tomorrow.**
+- **Now I'm busy.** = **I'm busy now.**
+
+Но между подлежащим и глаголом оно не влезает: **We tomorrow have an exam** ✗. Тут виден контраст с наречиями частоты: **always** / **often** как раз живут **в середине** (**She always works**), а наречия времени — **по краям**.
+
+**Важно:** наречие времени по краям, наречие частоты в середине. **I work today** ✓ / **Today I work** ✓ (время — по краям), но **I today work** ✗. А вот **I always work** ✓ (частота — перед глаголом). Один тип наречия — в середину нельзя, другой — только в середину.
+
+**Ловушка:** **then** (тогда, потом) и **than** (чем — для сравнения) звучат почти одинаково, но это два разных слова. **than** мы уже встречали в степенях сравнения:
+- **She is taller than me.** — сравнение (чем)
+- **Call me first, then come.** — время (потом)
+
+На письме их легко перепутать — держи в голове, что **than** живёт только рядом со сравнением.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Наречия времени (**now**, **then**, **soon**, **today**, **tonight**, **tomorrow**, **yesterday**) отвечают на «когда?» и стоят в **начале** или в **конце** предложения, но не между подлежащим и глаголом (**We tomorrow have** ✗). Этим они отличаются от наречий частоты (**always**, **often**), которые как раз в середине. Новое слово **then** = «тогда» или «потом»; не путать с **than** («чем», для сравнения).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 957 | Позвони мне сейчас, это срочно. | Call me now, it's urgent. |
+| 958 | Сначала мы ужинаем, потом смотрим кино. | First we have dinner, then we watch a film. |
+| 959 | Ты сегодня вечером дома? | Are you home tonight? |
+| 960 | Автобус скоро приедет. | The bus is coming soon. |
+| 961 | Тогда мы жили в Берлине. | We lived in Berlin then. |
+
+---
+
+#### Exercises
+
+**Ex 50 · MultipleChoice · FORWARD_CHOICE** *(ID: 125)*
+
+"Завтра у нас важная встреча."
+
+- **We have an important meeting tomorrow.** ✓
+- We tomorrow have an important meeting.
+- We have tomorrow an important meeting.
+
+*Explanation:* наречие времени **tomorrow** — в начале (**Tomorrow we have an important meeting**) или в конце, но не между подлежащим и глаголом (**We tomorrow have** ✗) и не между глаголом и дополнением (**have tomorrow an important meeting** ✗).
+
+---
+
+**Ex 51 · TrueFalse** *(ID: 103)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I'm really busy now. | ✓ |
+| 2 | We tomorrow visit our grandparents. | ✗ |
+| 3 | First we finish the work, then we relax. | ✓ |
+| 4 | He is taller then his brother. | ✗ |
+| 5 | The train is coming soon. | ✓ |
+
+*Explanation:* 2 — наречие времени не встаёт между подлежащим и глаголом: **We visit … tomorrow** / **Tomorrow we visit**; 4 — для сравнения нужно **than** (чем), а не **then** (тогда): **taller than his brother**.
+
+---
+
+**Ex 52 · WordArrangement** *(ID: 88)*
+
+RU: Тогда я работал в школе.
+
+Правильное предложение: **I worked in a school then.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| I | — |
+| worked | — |
+| in a school | — |
+| then | — |
+| than | ✗ |
+| now | ✗ |
+| there | ✗ |
+
+*Explanation:* наречие времени **then** («тогда») встаёт в конец. **than** — «чем» (сравнение), не время; **now** — «сейчас», обратный смысл; **there** — место, а не время.
+
+---
+
+#### AI Exercise
+
+**ID:** adverbs_card226_ex1
+**Title:** "Скажи, когда"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст русское предложение с указанием времени. Переведите его на английский."
+**Prompt Template:** "Дай пользователю ОДНО русское предложение, в котором есть указание времени (now, then, soon, today, tonight, tomorrow, yesterday). Пользователь переводит его на английский. Составляй русское предложение из слов, которые пользователь уже знает — если в присланном списке слов есть подходящие, желательно строить фразу вокруг них: фокус задания на месте наречия времени (в начале или в конце, но не между подлежащим и глаголом), а не на редкой лексике. Проверь, стоит ли наречие времени на верном месте и верно ли выбрано слово. Если ошибка — дай правильный перевод и одним предложением объясни по-русски. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Переведите на английский: «Мы едем к бабушке завтра».'
+
+#### Clarification Options
+
+- Чем then отличается от than?
+- Можно ли поставить наречие времени в начало предложения?
+- Почему «We tomorrow go» — ошибка?
+
+---
+
+### Card 227 · already, yet, still
+
+**ID:** 227 | **Order:** 3
+
+#### Theory
+
+Три коротких слова, которые русскоязычный вечно тасует, потому что все три крутятся вокруг «уже / ещё». Разведём их по местам. **still** разберём полностью, а **already** и **yet** дадим базово — их главный дом впереди, в Present Perfect.
+
+**still — всё ещё продолжается**
+
+**still** значит «(всё) ещё»: действие или состояние тянется и не закончилось.
+
+- **He is still asleep.** — он всё ещё спит
+- **Are you still at work?** — ты всё ещё на работе?
+- **I still don't understand.** — я всё ещё не понимаю
+
+Позиция — как у наречий частоты: перед смысловым глаголом (**I still live here**), но после глагола-связки (**She is still busy**). Место знакомое по **always** / **often**.
+
+**already — уже (часто раньше, чем ждали)**
+
+**already** значит «уже»: что-то случилось или готово — нередко раньше ожидаемого.
+
+- **Dinner is already ready.** — ужин уже готов
+- **I already know this.** — я уже это знаю
+
+Стоит обычно в середине (перед глаголом / после глагола-связки) или в конце для нажима: **I know that already.**
+
+**yet — «ещё (не)» и «уже?»: только в вопросе и отрицании**
+
+**yet** работает **в отрицании и вопросе** и садится в конец предложения:
+
+- отрицание: **The bus isn't here yet.** — автобуса ещё нет
+- вопрос: **Are you ready yet?** — ты уже готов?
+- короткий ответ: **Not yet.** — ещё нет
+
+**Одно русское «ещё» — два английских слова**
+
+**Ловушка:** русское «ещё» разбегается на два: «ещё продолжается» = **still** (**I'm still eating**), а «ещё не / пока не» = **yet** (**I'm not ready yet**). И «уже» тоже двоится: в утверждении это **already** (**It's already done**), а в вопросе — **yet** (**Is it done yet?**). Русский лепит **already** во все дырки — но **Are you ready already?** звучит уже как удивление («как, уже?!»), а не нейтральный вопрос.
+
+Вот вся тройка разом:
+
+| Слово | Смысл | Где стоит |
+|-------|-------|-----------|
+| still | всё ещё длится | перед глаголом / после to be |
+| already | уже (случилось) | середина или конец |
+| yet | ещё не / уже? (вопрос, отрицание) | конец |
+
+**Кстати:** по-настоящему **already** и **yet** раскроются в Present Perfect (**I have already eaten**, **I haven't eaten yet**) — там их родной дом. Пока достаточно узнавать их на простых предложениях и не путать со **still**. Полный разбор придёт, когда дойдём до Present Perfect.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+**still** = «всё ещё» (длится): **He is still asleep** — стоит как наречия частоты (перед глаголом, после глагола-связки). **already** = «уже» (случилось, часто раньше ждали): **I already know** — середина или конец. **yet** = «ещё не / уже?» — только в вопросах и отрицаниях, в конце: **not ready yet**, **ready yet?**. Русское «ещё» = **still** (длится) или **yet** (не/пока); «уже» = **already** (утверждение) или **yet** (вопрос). Полный разбор **already** / **yet** — в Present Perfect.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 962 | Не буди его, он всё ещё спит. | Don't wake him up, he is still asleep. |
+| 963 | Я уже знаю эту новость. | I already know this news. |
+| 964 | Ты уже готов? | Are you ready yet? |
+| 965 | Нас ещё нет дома. | We aren't home yet. |
+| 966 | Магазин всё ещё открыт? | Is the shop still open? |
+
+---
+
+#### Exercises
+
+**Ex 53 · MultipleChoice · CHOICE** *(ID: 108)*
+
+"Don't turn off the TV, I'm ___ watching it."
+
+- yet
+- **still** ✓
+- already
+
+*Explanation:* действие длится прямо сейчас (смотрю) → **still**. **yet** бывает только в вопросе/отрицании; **already** — «уже» (о законченном), тут не по смыслу.
+
+---
+
+**Ex 54 · MultipleChoice · FORWARD_CHOICE** *(ID: 126)*
+
+"Автобуса ещё нет."
+
+- The bus is here already.
+- The bus is still here.
+- **The bus isn't here yet.** ✓
+
+*Explanation:* «ещё нет» — это отрицание, поэтому **yet** в конце: **isn't here yet**. **still** («всё ещё») и **already** («уже») по смыслу не подходят.
+
+---
+
+**Ex 55 · TrueFalse** *(ID: 104)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Are you still learning English? | ✓ |
+| 2 | My sister isn't ready already. | ✗ |
+| 3 | It's only 6 a.m. and he is already awake. | ✓ |
+| 4 | We still don't have any news. | ✓ |
+| 5 | I already don't understand this rule. | ✗ |
+
+*Explanation:* 2 — в отрицании «ещё не» → **yet** (**isn't ready yet**); 5 — «всё ещё не понимаю» = **still** (**I still don't understand**), **already** тут не по смыслу.
+
+---
+
+#### AI Exercise
+
+**ID:** adverbs_card227_ex1
+**Title:** "still, already или yet?"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложения с пропуском. Впишите still, already или yet по смыслу."
+**Prompt Template:** "Дай пользователю сразу несколько коротких английских предложений в настоящем времени (всего 3-4), в каждом — пропуск [___], куда по смыслу встаёт ровно одно из слов still, already или yet. Давай предложения из простых слов. Обязательно чередуй все три: still — про длящееся сейчас (утверждение), already — «уже» (утверждение), yet — «ещё (не)» только в отрицании или вопросе (в конце). Включи хотя бы одно отрицание и один вопрос с yet. Проверяй, верно ли выбрано слово и на своём ли оно месте. Если ошибка — покажи правильный вариант и одним предложением объясни по-русски разницу (still — всё ещё длится; already — уже случилось; yet — ещё не / уже? в вопросе и отрицании). Не придирайся к знакам препинания и заглавным буквам — оценивай только выбор слова."
+
+Пример вывода AI: 'Впишите still, already или yet: 1. It's late, but the shops are [___] open. 2. Is your brother home [___]? 3. I don't need the recipe, I [___] know it. 4. The soup isn't cool enough to eat [___].'
+
+#### Clarification Options
+
+- Чем still отличается от yet?
+- Почему «Are you ready already?» звучит странно?
+- Когда «ещё» — это still, а когда yet?
+
+---
+
+### Card 228 · Расстояние: far, far away, nearby
+
+**ID:** 228 | **Order:** 4
+
+#### Theory
+
+Как сказать, что что-то далеко или близко. Тут прячется тонкая, но частая ошибка: слово **far** ведёт себя по-разному в утверждении и в вопросе.
+
+**far — свободно в вопросах и отрицаниях**
+
+В вопросе и отрицании **far** («далеко») звучит совершенно естественно:
+
+- **Is it far?** — это далеко?
+- **Is the station far from here?** — станция далеко отсюда?
+- **It isn't far.** — это недалеко
+
+**far from** = «далеко от» (+ место): **far from the centre**.
+
+**Ловушка:** в простом утверждении «X далеко» англичанин почти не говорит **X is far**. Вместо этого — **far away** или **a long way (away)**:
+- **My house is far.** ✗ → **My house is far away.** ✓ / **My house is a long way from here.** ✓
+
+По-русски «мой дом далеко» — обычное утверждение, поэтому рука пишет **is far**. Но **far** любит вопрос и отрицание; в утверждении бери **far away** или **a long way**.
+
+**nearby — рядом, поблизости**
+
+Про «близко» есть готовое наречие **nearby** — «рядом, поблизости»:
+
+- **There is a shop nearby.** — рядом есть магазин
+- **They live nearby.** — они живут поблизости
+
+Мы уже сливали **near** («близко») и **nearby** («поблизости») в «Основах» — тут просто освежаем.
+
+**away — прочь, в отдалении**
+
+**away** показывает удалённость или движение прочь:
+
+- **far away** — далеко (в отдалении)
+- **The beach is ten minutes away.** — пляж в десяти минутах
+- **Go away!** — уйди!
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+**far** свободно живёт в вопросах и отрицаниях (**Is it far?** / **not far**), но в простом утверждении звучит неестественно — там **far away** или **a long way** (**My house is far** ✗ → **far away** / **a long way** ✓). **far from** = «далеко от» (+ место). Близко — **nearby** («рядом»): **a shop nearby**. **away** = «прочь, в отдалении»: **far away**, **ten minutes away**.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 967 | Это далеко? | Is it far? |
+| 968 | Аэропорт далеко от центра. | The airport is far from the centre. |
+| 969 | Наш дом далеко отсюда. | Our house is a long way from here. |
+| 970 | Рядом есть небольшой парк. | There is a small park nearby. |
+| 971 | Пляж всего в десяти минутах отсюда. | The beach is only ten minutes away. |
+
+---
+
+#### Exercises
+
+**Ex 56 · MultipleChoice · FORWARD_CHOICE** *(ID: 127)*
+
+"Автобусная остановка далеко."
+
+- The bus stop is far.
+- The bus stop is a far.
+- **The bus stop is far away.** ✓
+
+*Explanation:* в утверждении «далеко» → **far away** (или **a long way**); голое **is far** звучит неестественно, а **a far** так не говорят.
+
+---
+
+**Ex 57 · Matching** *(ID: 33)*
+
+Задание: соедини выражение с его значением.
+
+| Выражение | Значение |
+|-----------|----------|
+| far away | далеко (в утверждении) |
+| far from | далеко от (+ место) |
+| nearby | рядом, поблизости |
+| a long way | далеко (большое расстояние) |
+| away | прочь, в отдалении |
+
+*Explanation:* far away — «далеко» для утверждения; far from — «далеко от» + место (far from the centre); nearby — «рядом»; a long way — «далеко» (большое расстояние); away — «прочь, в отдалении».
+
+---
+
+**Ex 58 · TrueFalse** *(ID: 105)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Is the beach far from the hotel? | ✓ |
+| 2 | My office is far. | ✗ |
+| 3 | There is a nice park nearby. | ✓ |
+| 4 | The shop isn't far, just five minutes away. | ✓ |
+| 5 | Our school is very far, near the river. | ✗ |
+
+*Explanation:* 2 — в утверждении голое **far** звучит неестественно: **My office is far away** / **a long way**; 5 — то же самое, **very far** в утверждении → **very far away**.
+
+---
+
+**Ex 59 · WordArrangement** *(ID: 89)*
+
+RU: Рядом есть автобусная остановка.
+
+Правильное предложение: **There is a bus stop nearby.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| There | — |
+| is | — |
+| a bus stop | — |
+| nearby | — |
+| far | ✗ |
+| away | ✗ |
+| near from | ✗ |
+| a long way | ✗ |
+| here | ✗ |
+
+*Explanation:* **nearby** — «рядом, поблизости». **far** и **a long way** — «далеко», обратный смысл; **away** и **here** по смыслу не те; **near from** так не говорят (**near** без **from**).
+
+---
+
+#### AI Exercise
+
+**ID:** adverbs_card228_ex1
+**Title:** "Далеко или рядом?"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложения с пропуском. Впишите far, far away или nearby по смыслу."
+**Prompt Template:** "Дай пользователю сразу несколько коротких английских предложений (всего 3-4), в каждом — пропуск [___], куда по смыслу встаёт far, far away или nearby. Давай предложения из простых слов. Обязательно покажи разницу: в вопросе или отрицании естественно far (Is the station [___] from here? → far); в простом утверждении «далеко» — far away или a long way (голое is far там звучит неестественно); nearby — «рядом, поблизости». Проверяй выбор по смыслу и по типу предложения (вопрос/отрицание/утверждение). Если ошибка — покажи правильный вариант и одним предложением объясни по-русски (far любит вопрос и отрицание; в утверждении — far away; nearby — рядом). Не придирайся к знакам препинания и заглавным буквам — оценивай только выбор слова."
+
+Пример вывода AI: 'Впишите far, far away или nearby: 1. Is the museum [___] from the hotel? 2. Don't worry, the pharmacy is [___], just around the corner. 3. Their farm is [___], about fifty miles from the city.'
+
+#### Clarification Options
+
+- Почему «My house is far» звучит неестественно?
+- Чем far away отличается от far from?
+- Когда far нормально, а когда лучше far away?
+
+---
+
+### Words8r Sync · Слова описаний
+
+| Слово | Переводы           | Транскрипция |
+|-------|--------------------|-------------|
+| here | здесь, сюда        | [hɪə] |
+| inside | внутри, внутрь     | [ɪnˈsaɪd] |
+| somewhere | где-то, куда-то    | [ˈsʌmweə] |
+| then | тогда, потом       | [ðen] |
+| already | уже                | [ɔːlˈredi] |
+| away | прочь, в отдалении | [əˈweɪ] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 13 | 14 |
 | Category | 2 | 3 |
-| Microtopic | 75 | 76 |
-| Card | 224 | 225 |
-| Example | 951 | 952 |
-| Слова курса (course_word) | 446 | 447 |
-| MultipleChoice · CHOICE | 107 | 108 |
-| MultipleChoice · FORWARD_CHOICE | 123 | 124 |
+| Microtopic | 76 | 77 |
+| Card | 228 | 229 |
+| Example | 971 | 972 |
+| Слова курса (course_word) | 452 | 453 |
+| MultipleChoice · CHOICE | 108 | 109 |
+| MultipleChoice · FORWARD_CHOICE | 127 | 128 |
 | MultipleChoice · REVERSE_CHOICE | 31 | 32 |
-| TrueFalse | 101 | 102 |
-| WordArrangement | 86 | 87 |
+| TrueFalse | 105 | 106 |
+| WordArrangement | 89 | 90 |
 | TextInput | 38 | 39 |
-| Matching | 32 | 33 |
+| Matching | 33 | 34 |
 | Transformation | 26 | 27 |
-| ErrorCorrection | 88 | 89 |
+| ErrorCorrection | 89 | 90 |
 | TableFill | 22 | 23 |
 | FindTheOdd | 44 | 45 |
 | ConstructionMeaning | 14 | 15 |
