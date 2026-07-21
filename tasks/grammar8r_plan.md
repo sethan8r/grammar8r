@@ -1412,6 +1412,10 @@ theory/
 │
 ├── So/Such и Too/Enough  ← ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) в «отдых от времён» (нужен только to+V1)
 │   ├── so + adj/adv vs such + (a/an) + noun; so/such...that (результат)
+│   │   ⚠️ Обязательная плашка-ловушка: перед прилагательным+существительным (исчисляемое, ед.ч.)
+│   │   нужна конструкция such a: «such a strange name» ✓, а НЕ «a so strange name» ✗. Русскоязычный
+│   │   тянет «так странное имя» → лепит so + пихает артикль не туда. Развести жёстко:
+│   │   so + прил. БЕЗ сущ. («so strange» — так странно) vs such a + прил. + сущ. («such a strange name»).
 │   ├── too + adj/adv + to + V1 (слишком); adj/adv + enough + to + V1 (достаточно)
 │   └── ⚠️ Обязательно рассказать разницу so vs too как интенсификаторов:
 │       so = "так/настолько" — нейтральная интенсивность: "It's so cold!" (так холодно — просто акцент)
@@ -1661,6 +1665,18 @@ theory/
 │       │   • увлечённое непрерывное действие — «Fire away!» (валяй, спрашивай), work away, chat away;
 │       │   • идиомы-выкрики — «Take it away!» (объявляя выступление/музыку — «понеслась!»),
 │       │     away game (на выезде, спорт). + AI.
+│       ├── МТ: way → capstone-сборка: ядро «путь / способ», из него растут ветки. Уже встречалось
+│       │   по курсу — только НАПОМИНАЕМ указателем (Правило №0, без дубля): in a friendly way (МТ
+│       │   наречий), by the way / one way or another / lead the way (Устойчивые выражения), No way!
+│       │   как реакция удивления (Соц. взаимодействие). Полноценно даём значения:
+│       │   • путь / дорога — «the way home», «on my way», «Which way?», «this way / that way»
+│       │     (ловушка: русский тянет road/road home → живое = way);
+│       │   • способ / манера — «the best way to learn», «my way», «in a different way», «no other way»;
+│       │   • намного (усилитель перед сравнением, разговорное) — «way better», «way too much»,
+│       │     «way more» (ловушка: не «very better» ✗, усилитель сравнения = way / much, см. Card 205);
+│       │   • no way — два значения: (1) «ни за что, никак» — «There's no way I'm doing that»,
+│       │     «No way!» как отказ; (2) реакция-недоверие «да ладно?!» (указать на Соц. взаимодействие).
+│       │   + AI.
 │       └── МТ: ...  (TBD)
 │
 ├── Разговорный английский
@@ -1716,6 +1732,122 @@ theory/
 │       Полный список: can't, couldn't, shouldn't, wouldn't, don't, doesn't, didn't,
 │       isn't, aren't, wasn't, weren't, haven't, hasn't, hadn't.
 │       Ловушка: "I ain't going" — пользователь слышит это постоянно, но писать в эссе нельзя.
+│
+├── 📁 Сказать то же, но круче · Как говорят люди  ← после «Разговорного английского», перед «Доп. конструкциями» — РАЗДЕЛ (GrammarTopicCategory)
+│   │
+│   │   ⚠️ Это РАЗДЕЛ — сворачиваемая группа тем (как «Устройство языка» / «Описания и сравнения»),
+│   │   а не одна тема. Пользователь видит «Сказать то же, но круче» одной строкой → тап →
+│   │   разворачивается список тем-ситуаций → тема → микротемы → карточки. На диске — отдельная
+│   │   папка-пакет (напр. 0X-real-life-english/), по канону структуры файлов теории.
+│   │
+│   │   ИДЕЯ РАЗДЕЛА: ОТДЕЛЬНЫЙ СЛОЙ от «Разговорного английского». Там — ФОНЕТИКА (как звук
+│   │   съедается: gonna/wanna/ain't). Здесь — ЛЕКСИКА: какое живое слово/фразу носитель говорит
+│   │   ВМЕСТО нейтральной учебниковой. Механика карточки: слева нейтральное «как в учебнике» →
+│   │   справа семья того, как реально говорят между своими, + краткий разбор «когда говорят / где
+│   │   услышишь» + ловушка. Зерно карточки — НЕ одна фраза, а ОДИН бытовой смысл с кластером
+│   │   синонимов (2–4 варианта). Не зубрёжка списков, а «у любой бытовой мысли есть разговорный дубль».
+│   │
+│   │   ⚠️ РЕГИСТР — сквозная плашка раздела: всё это только НЕФОРМАЛЬНО, между своими. В эссе, с
+│   │   начальником, в официальном письме — нейтральный вариант. Даётся один раз во вводной карточке
+│   │   раздела + точечные ловушки там, где слово легко принять за грубость/по прямому значению.
+│   │
+│   │   ⚠️ ПРАВИЛО №0 (без дублей): уже разобранное только НАПОМИНАЕМ указателем, не переписываем —
+│   │   mate / dude / bro (обращения, «Разговорный английский»); No way! / You're kidding! / Seriously? /
+│   │   catch you later / see ya (реакции и прощания, «Социальное взаимодействие»); I'm off (МТ off,
+│   │   «Многозначные предлоги»).
+│   │
+│   │   ⚠️ СЛИВ — целыми ФРАЗАМИ, не словами. Фраза-семья с русским смыслом («I'm down → согласен /
+│   │   я в деле») открывается (isView = true) после своей микротемы в НОВУЮ категорию — напр.
+│   │   «Informal Phrases» / «Разговорные фразы» (отдельно от «Informal English», где одиночные слова).
+│   │   ⚠️ ENUM-консистентность (CLAUDE.md): новую категорию завести согласованно — words8r_plan.md
+│   │   (категория должна там появиться) + WordSource (db_schema.md) + вариант AiExerciseWordsSource,
+│   │   если делаем AI-практику по фразам. Открытый вопрос при написании: фраза как флешка qRep/приоритет
+│   │   ведёт себя иначе, чем слово — решить механику повторения тогда же.
+│   │
+│   │   ⚠️ ОБЪЁМ / ПРИОРИТЕТ: раздел стоит в самом конце курса → на MVP-срок не давит. Для MVP стартуем
+│   │   с 3–4 тем (Разговор и реакции · Согласие/отказ · Состояние · Оценки), «Косяки» и «Быт» добиваем
+│   │   позже — темы добавляются в раздел по одной. Ниже зафиксирован полный состав (6 тем), чтобы не потерять.
+│   │
+│   │   Вводная карточка раздела (в первой теме): что это за слой, зачем (понимать не учебник, а живых
+│   │   людей — сериалы, чаты, музыка), сквозная плашка про регистр. Долгое нажатие переводит любую фразу.
+│   │
+│   ├── Тема: Разговор и реакции
+│   │   ├── МТ: Завязать и вести разговор
+│   │   │   ├── Card · Начнём — Let's get started / get the ball rolling / kick things off
+│   │   │   ├── Card · Не тормози, дальше — keep going / carry on / go on
+│   │   │   ├── Card · Секунду — hang on / hold on / give me a sec / give me a minute
+│   │   │   └── Card · Выкладывай — shoot / go ahead / fire away.  ⚠️ Ловушка: shoot здесь = «говори», не «стреляй». + AI.
+│   │   ├── МТ: Удивление и недоверие
+│   │   │   ├── Card · Да ладно?! — seriously? / for real?  (No way! — указатель на «Соц. взаимодействие»)
+│   │   │   ├── Card · Ты шутишь — you're kidding / you're joking / you've got to be kidding
+│   │   │   └── Card · Это дичь — that's crazy / that's wild / that's insane / that's nuts. + AI.
+│   │   └── МТ: Понял / не понял / забыл
+│   │       ├── Card · Дошло — I get it / I see / makes sense / gotcha
+│   │       ├── Card · Не улавливаю — I'm lost / I'm confused / you lost me
+│   │       ├── Card · Без понятия — no idea / no clue / beats me
+│   │       └── Card · Вылетело из головы — it slipped my mind / doesn't ring a bell. + AI.
+│   │
+│   ├── Тема: Согласие, отказ, решения
+│   │   ├── МТ: Я за / договорились
+│   │   │   ├── Card · Я в деле — I'm down / I'm in / count me in.  ⚠️ Ловушка: I'm down = «я за», не «мне плохо».
+│   │   │   ├── Card · Идёт — sounds good / sounds great / works for me
+│   │   │   └── Card · Полностью согласен — absolutely / exactly / 100% / you nailed it. + AI.
+│   │   ├── МТ: Нет, пас
+│   │   │   ├── Card · Мягкий отказ — I'm gonna pass / I'll pass / maybe some other time
+│   │   │   ├── Card · Не смогу прийти — I can't make it / I'm tied up
+│   │   │   └── Card · Не — nah / nope / not really into it. + AI.
+│   │   └── МТ: Тебе решать
+│   │       ├── Card · Как хочешь — it's up to you / your call / whatever you want
+│   │       └── Card · Мне без разницы — whatever / I don't mind / I couldn't care less. + AI.
+│   │
+│   ├── Тема: Состояние и эмоции
+│   │   ├── МТ: Устал / вымотан
+│   │   │   ├── Card · Я выжат — I'm beat / I'm wiped / I'm drained / I'm exhausted
+│   │   │   └── Card · Пойду вырублюсь — I'm gonna crash / hit the sack / hit the hay. + AI.
+│   │   ├── МТ: Радость / нерв / злость
+│   │   │   ├── Card · В восторге — I'm excited / I'm thrilled / I'm pumped
+│   │   │   ├── Card · Психую — I'm freaking out / I'm losing it
+│   │   │   └── Card · Бешусь — I'm pissed / I'm ticked off.  ⚠️ Ловушка: pissed = злой (US), но пьяный (UK). + AI.
+│   │   └── МТ: Занят / закончил
+│   │       ├── Card · Завален — I'm swamped / I'm buried in work / I'm slammed
+│   │       └── Card · Всё, готово — I'm done / I'm all set / all wrapped up. + AI.
+│   │
+│   ├── Тема: Оценки — вещи, дела, люди
+│   │   ├── МТ: Круто ↔ отстой
+│   │   │   ├── Card · Огонь — it's awesome / it's cool / it's sick / it's dope / it's lit.  ⚠️ Ловушка: sick/dope = «клёво», не по прямому значению.
+│   │   │   └── Card · Отстой — it sucks / it's rough / it's trash. + AI.
+│   │   ├── МТ: Легко ↔ сложно
+│   │   │   ├── Card · Проще простого — a piece of cake / a breeze / no sweat
+│   │   │   └── Card · Кошмар / морока — it's a nightmare / it's a pain / it's a hassle. + AI.
+│   │   └── МТ: Про людей
+│   │       ├── Card · Нравится ↔ терпеть не могу — I'm into him/her ↔ I can't stand him/her
+│   │       ├── Card · С приветом / достал — he's nuts / he's insane / he's a pain
+│   │       └── Card · Сойтись, поладить — hit it off / we click / we get along. + AI.
+│   │
+│   ├── Тема: Косяки, правда, ложь  (после MVP)
+│   │   ├── МТ: Ошибся / сломалось
+│   │   │   ├── Card · Накосячил — I messed up / I screwed up / my bad
+│   │   │   └── Card · Не пашет — it's not working / it's broken / it's acting up. + AI.
+│   │   ├── МТ: Честно / врёшь
+│   │   │   ├── Card · Колись, будь честен — come clean / be straight with me
+│   │   │   ├── Card · Заливаешь — you're making that up / you're pulling my leg
+│   │   │   └── Card · (Не) верю — I buy it / I don't buy it / I call BS. + AI.
+│   │   └── МТ: Забей / не парься
+│   │       ├── Card · Проехали — never mind / forget about it / drop it
+│   │       └── Card · Не парься — no worries / no big deal / it's all good / you're good. + AI.
+│   │
+│   └── Тема: Быт — деньги, еда, темп  (после MVP)
+│       ├── МТ: Деньги
+│       │   ├── Card · Бабки — cash / bucks / dough
+│       │   ├── Card · На мели — I'm broke / I'm strapped / tight on cash
+│       │   └── Card · Дёшево ↔ дорого — a bargain / dirt cheap ↔ pricey / costs a fortune. + AI.
+│       ├── МТ: Еда и голод
+│       │   ├── Card · Голоден ↔ объелся — I'm starving ↔ I'm stuffed
+│       │   └── Card · Перекусить / кофе — let's grab a bite / grab a coffee
+│       └── МТ: Быстро / медленно / уйти
+│           ├── Card · Мигом — right away / ASAP / in a sec / in no time
+│           ├── Card · Не спеши — take your time / no rush
+│           └── Card · Валим — let's bounce / let's roll / let's head out / I'm out. + AI.
 │
 ├── Дополнительные конструкции  ← после "Разговорного английского"
 │   ├── Pronoun one / ones + обобщённый субъект one
