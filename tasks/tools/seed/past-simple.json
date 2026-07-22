@@ -16,6 +16,12 @@
       "topicId": 14,
       "title": "What Is Past Simple · Что такое Past Simple",
       "order": 1
+    },
+    {
+      "id": 78,
+      "topicId": 14,
+      "title": "Regular verbs · Правильные глаголы: -ed",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -392,9 +398,315 @@
         "Почему у to be два варианта прошедшего, а у всех остальных глаголов один?",
         "Если форма одна на всех, как понять, кто именно совершил действие?"
       ]
+    },
+    {
+      "id": 232,
+      "microtopicId": 78,
+      "title": "Одно окончание на всё прошлое",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "С самим окончанием мы уже знакомы: в теме «Формы глагола» мы разбирали, что у большинства английских глаголов вторая форма делается одним движением — к базовой форме добавляется `-ed`. Тогда мы смотрели на него как на **форму в таблице** (**work → worked → worked**). Теперь эта форма выходит на работу: именно `-ed` переводит всё предложение в прошедшее время."
+        },
+        {
+          "type": "paragraph",
+          "text": "Освежим написание — правила те же, просто собраны в одну памятку."
+        },
+        {
+          "type": "heading",
+          "text": "Шпаргалка: как пишется -ed"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Глагол кончается на…",
+            "Что делаем",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "обычная согласная",
+              "просто добавляем -ed",
+              "walk → walked"
+            ],
+            [
+              "немое -e",
+              "добавляем только -d",
+              "close → closed"
+            ],
+            [
+              "согласная + y",
+              "y меняется на `ied`",
+              "study → studied"
+            ],
+            [
+              "гласная + y",
+              "ничего не трогаем, +ed",
+              "play → played"
+            ],
+            [
+              "короткий ударный слог",
+              "удваиваем согласную",
+              "stop → stopped"
+            ],
+            [
+              "ударение не на конце",
+              "ничего не удваиваем",
+              "open → opened, visit → visited"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Пишется всегда одинаково, а читается тремя способами — [t], [d] и [ɪd]. Подробно мы это разбирали там же, в «Формах глагола»; здесь достаточно помнить главное: после звуков [t] и [d] окончание даёт **лишний слог** — vi-si-ted, wan-ted. В остальных случаях никакого лишнего слога нет."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Форма одна — лицо не важно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше начинается то, чего в «Формах глагола» не было, потому что там мы формы только называли, а не ставили в предложение. И первое приятное: окончание вообще не реагирует на подлежащее."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I walked to work.** *(Я шёл на работу пешком.)*",
+            "**She walked to work.** *(Она шла на работу пешком.)*",
+            "**They walked to work.** *(Они шли на работу пешком.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравни с Present Simple, где `he/she/it` требовали `-s` и за этим приходилось следить каждое предложение. Здесь следить не за чем: поставил `-ed` — и подставляй кого угодно."
+        },
+        {
+          "type": "heading",
+          "text": "Окончание само по себе уже означает прошлое"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Второе важное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`-Ed` **не нуждается в подпорках**. Многие думают, что прошедшее время «включается» словом вроде `yesterday`, а глагол — так, за компанию. На самом деле наоборот."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I closed the door.** *(Я закрыл дверь.)* — прошлое, хотя никакого «вчера» тут нет.",
+            "**I close the door every evening.** *(Я закрываю дверь каждый вечер.)* — настоящее, хотя оба предложения выглядят почти одинаково."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разницу между ними делает **одна буква на конце глагола**. Слова времени (**yesterday**, **last week**) только уточняют, **когда** именно это было, — но само время предложения они не задают."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда и главная ошибка русскоязычного. **Yesterday I open the window** ✗ → **Yesterday I opened the window** ✓. По-русски слово «вчера» действительно вытягивает всю фразу в прошлое, и глагол можно почти не трогать. По-английски «вчера» — только уточнение, а работу времени выполняет `-ed`. Забыли окончание — предложение осталось в настоящем, каким бы «вчерашним» оно ни было по смыслу."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`-Ed` берут только **правильные** глаголы. У самых частых (**to go, to write, to meet, to buy**) есть своя особая форма прошедшего, и приклеивать к ним `-ed` нельзя. Мы вспоминали это в «Формах глагола» — а в следующей микротеме разберём, как эти глаголы ведут себя именно в Past Simple."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Правильные глаголы образуют прошедшее одним окончанием `-ed`: **walked**, **closed**, **studied**, **stopped**. Форма одна на все лица — никакого `-s`, как в Present Simple. Само окончание и есть время: **I closed the door** — уже прошлое без всяких «вчера», а слова вроде yesterday только уточняют момент.",
+      "examples": [
+        {
+          "ru": "Я открыл окно, потому что было жарко.",
+          "en": "I opened the window because it was hot."
+        },
+        {
+          "ru": "Кафе закрылось в десять.",
+          "en": "The café closed at ten."
+        },
+        {
+          "ru": "Мы гуляли в парке два часа.",
+          "en": "We walked in the park for two hours."
+        },
+        {
+          "ru": "Поездка закончилась вчера.",
+          "en": "The trip finished yesterday."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что предложение в прошедшем, если слова вроде yesterday нет?",
+        "Почему в прошедшем не нужно окончание -s для he и she?",
+        "Что будет, если добавить -ed к неправильному глаголу?"
+      ]
+    },
+    {
+      "id": 233,
+      "microtopicId": 78,
+      "title": "Две тонкости написания, которых мы не разбирали",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Правило удвоения мы уже знаем из «Форм глагола»: короткий ударный слог удваивает последнюю согласную (**plan → planned**), а если ударение не на конце — не удваивает ничего (**open → opened**). Но есть два случая, которые в эту логику не укладываются. Их немного, зато встречаются они постоянно."
+        },
+        {
+          "type": "heading",
+          "text": "Буква l удваивается даже без ударения"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если глагол кончается на `l`, британское письмо удваивает её **всегда** — независимо от ударения:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**to travel** → travelled *(путешествовал)*",
+            "**to cancel** → cancelled *(отменил)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По общему правилу удвоения тут быть не должно: ударение в обоих словах на первом слоге, как в `open`. Честный ответ, почему так, — никакой грамматической причины нет, это **орфографическая традиция британского письма**. Правило запоминаем как есть: видим `l` на конце — удваиваем."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В американском написании эти же слова идут с одной `l` — traveled, canceled. Это **не ошибка**, а разница между странами: оба варианта правильные. Наш курс держится британского варианта, поэтому пишем `travelled` и `cancelled`, а встретив в интернете `traveled`, помни — это просто американский текст, а не чья-то опечатка."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Глаголы на -c получают букву k"
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй случай — глаголы, которые кончаются на `c`. Перед окончанием у них появляется `k`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**to panic** → panicked *(запаниковал)*",
+            "**to picnic** → picnicked *(устроил пикник)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот здесь причина как раз есть, и очень наглядная. Мы разбирали в «Транскрипции», что буква `c` перед `e` читается как [s]. Значит, написание `paniced` язык прочитал бы как «панисед» — звук [k] пропал бы. Буква `k` встаёт на защиту произношения и удерживает твёрдый [k]: **panicked**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание, это тот же принцип, что и удвоение согласной в **stop → stopped**: английская орфография добавляет лишнюю букву не из вредности, а чтобы **слово продолжало звучать как раньше**."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обе тонкости укладываются в две короткие строчки. Глагол кончается на `l` → удваиваем её (**travelled**). Глагол кончается на `c` → добавляем `k` (**panicked**)."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Два исключения из правила удвоения. Первое: конечная `l` в британском написании удваивается всегда, даже без ударения — **travelled**, **cancelled** (в американском варианте одна l, и это тоже верно). Второе: глаголы на `c` получают перед окончанием букву `k` — **panicked**, **picnicked**, иначе `c` перед `e` прочиталось бы как [s].",
+      "examples": [
+        {
+          "ru": "Мы отменили поездку из-за дождя.",
+          "en": "We cancelled the trip because of the rain."
+        },
+        {
+          "ru": "Прошлым летом Соня путешествовала по Италии.",
+          "en": "Last summer Sonya travelled around Italy."
+        },
+        {
+          "ru": "Он запаниковал, когда потерял ключи.",
+          "en": "He panicked when he lost his keys."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в travelled две буквы l, если ударение не на конце?",
+        "Traveled с одной l — это ошибка или нет?",
+        "Зачем в panicked нужна буква k?"
+      ]
     }
   ],
-  "card_exercise_index": [],
+  "card_exercise_index": [
+    {
+      "cardId": 232,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 27,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 232,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 39,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 232,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 106,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 232,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 90,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 233,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 45,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 233,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 46,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 233,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 109,
+      "orderInCard": 2
+    }
+  ],
   "ai_exercises": [],
   "course_word_groups": [
     {
@@ -444,18 +756,233 @@
       "transcription": "[ˈstɔːri]",
       "microtopicId": 77,
       "categoryId": "tenses"
+    },
+    {
+      "id": 457,
+      "word": "to open",
+      "translation": "открывать, открыть",
+      "transcription": "[ˈəʊpən]",
+      "microtopicId": 78,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 458,
+      "word": "to close",
+      "translation": "закрывать, закрыть",
+      "transcription": "[kləʊz]",
+      "microtopicId": 78,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 459,
+      "word": "to walk",
+      "translation": "ходить пешком, гулять",
+      "transcription": "[wɔːk]",
+      "microtopicId": 78,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 460,
+      "word": "to visit",
+      "translation": "навещать, посещать, побывать",
+      "transcription": "[ˈvɪzɪt]",
+      "microtopicId": 78,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 461,
+      "word": "trip",
+      "translation": "поездка, путешествие",
+      "transcription": "[trɪp]",
+      "microtopicId": 78,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 106,
+      "statements": [
+        {
+          "en": "Last Friday we walk to the office.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Nastya opened her shop two years ago.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The train stopped at a small station.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Yesterday Timur studyed all evening.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We visited Prague last spring.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 1: last Friday — прошлое, нужна форма walked, а не walk. Строка 4: согласная перед y меняет её на -ied, поэтому studied, а не studyed."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 90,
+      "situationRu": "RU: Вчера Полина открыла кафе в восемь.",
+      "correctSentence": "Polina opened the café at eight yesterday.",
+      "words": [
+        "Polina",
+        "opened",
+        "the café",
+        "at eight",
+        "yesterday"
+      ],
+      "distractors": [
+        "opens",
+        "openned",
+        "open",
+        "this morning"
+      ],
+      "explanation": "Прошедшее у правильного глагола — opened; opens это настоящее для he/she/it, open — базовая форма, а openned — ошибка написания (ударение в open на первом слоге, согласная не удваивается). Слово времени стоит в конце и не заменяет форму глагола."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 109,
+      "choiceType": "CHOICE",
+      "prompt": "The dog ___ when it heard the fireworks.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "panicced",
+          "isCorrect": false
+        },
+        {
+          "text": "paniced",
+          "isCorrect": false
+        },
+        {
+          "text": "panicked",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Глаголы на -c получают k перед окончанием: panic → panicked. Вариант paniced прочитался бы через [s] («панисед»), а panicced — просто выдуманное написание: удваивается не c, а добавляется k."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 39,
+      "items": [
+        {
+          "sentence": "Yesterday Larisa ___ her laptop and went to bed.",
+          "contextRu": "закрыла",
+          "answer": "closed",
+          "alternatives": []
+        },
+        {
+          "sentence": "Last night we ___ a new film at home.",
+          "contextRu": "посмотрели",
+          "answer": "watched",
+          "alternatives": []
+        },
+        {
+          "sentence": "Two days ago Ruslan ___ his grandmother in Tver.",
+          "contextRu": "навестил",
+          "answer": "visited",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Все три глагола правильные, поэтому берут -ed: close → closed (немое -e, только -d), watch → watched, visit → visited (ударение на первом слоге — согласная не удваивается)."
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [],
   "error_correction_exercises": [],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
-  "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "transformation_exercises": [
+    {
+      "id": 27,
+      "taskDescription": "перепиши предложение в прошедшем времени.",
+      "items": [
+        {
+          "original": "Anton washes his car.",
+          "transformed": "Anton washed his car."
+        },
+        {
+          "original": "The kids paint a poster.",
+          "transformed": "The kids painted a poster."
+        },
+        {
+          "original": "We invite Marina to dinner.",
+          "transformed": "We invited Marina to dinner."
+        }
+      ],
+      "explanation": "Правильный глагол уходит в прошедшее через -ed: wash → washed, paint → painted, invite → invited (немое -e даёт только -d). Окончание -s третьего лица при этом исчезает — оно живёт только в настоящем."
+    }
+  ],
+  "categorization_exercises": [
+    {
+      "id": 46,
+      "taskDescription": "распредели глаголы по способу написания в прошедшем времени.",
+      "categories": [
+        {
+          "title": "Просто +ed",
+          "items": [
+            "to cook",
+            "to help",
+            "to answer"
+          ]
+        },
+        {
+          "title": "Удваиваем букву",
+          "items": [
+            "to plan",
+            "to travel",
+            "to cancel"
+          ]
+        },
+        {
+          "title": "y меняется на ied",
+          "items": [
+            "to study",
+            "to try",
+            "to carry"
+          ]
+        }
+      ],
+      "explanation": "cook → cooked, help → helped, answer → answered — ничего не меняется. plan → planned (короткий ударный слог), travel → travelled и cancel → cancelled (конечная l удваивается всегда). study → studied, try → tried, carry → carried — согласная перед y превращает её в -ied."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 45,
+      "groupDescription": "Три глагола удваивают последнюю согласную перед -ed, один — нет",
+      "items": [
+        {
+          "text": "to stop",
+          "isOdd": false
+        },
+        {
+          "text": "to shop",
+          "isOdd": false
+        },
+        {
+          "text": "to drop",
+          "isOdd": false
+        },
+        {
+          "text": "to visit",
+          "isOdd": true
+        }
+      ],
+      "explanation": "stop → stopped, shop → shopped, drop → dropped — короткий ударный слог удваивает согласную. В visit ударение на первом слоге, поэтому удвоения нет: visited."
+    }
+  ]
 }
