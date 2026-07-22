@@ -27,6 +27,7 @@ import androidx.compose.ui.text.Placeholder
 import androidx.compose.ui.text.PlaceholderVerticalAlign
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
@@ -50,12 +51,18 @@ private const val INLINE_PLUS = "inline_plus"
 private const val INLINE_EQUAL = "inline_equal"
 private const val INLINE_BLANK = "inline_blank"
 
+/** Во сколько раз транскрипция крупнее окружающего текста: мелкие значки IPA иначе не читаются. */
+private const val PHONETIC_SCALE = 1.1f
+
 /**
  * Единая утилита инлайн-разметки контента (правило №0 — её же переиспользует движок упражнений).
  * Разбирает текстовые маркеры (канон theory_content_guide §8):
  *  - `**жирный**`  → [FontWeight.Bold]
  *  - `*курсив*`    → [FontStyle.Italic] (так размечены переводы английских примеров)
  *  - `` `код` ``   → цвет [inlineCodeColor] (инлайн-вставки английского; бэктики в текст не идут)
+ *  - `[[wɜːk]]`   → транскрипция: серифный шрифт, крупнее на [PHONETIC_SCALE]; пользователь видит
+ *    одинарные скобки. Двойные — авторский маркер: по одинарным транскрипцию не отличить от
+ *    слота-шаблона (`[предмет]`) и пропуска, см. theory_content_guide §8
  *
  * Символы-глифы в данных заменяются на **векторные иконки Material** через официальный
  * `InlineTextContent` (в текст эмодзи не попадают, размер — в `em`, тянется за шрифтом):
@@ -111,6 +118,23 @@ fun parseInlineMarkdown(
                     }
                     codeDepth = if (codeDepth == 0) 1 else 0
                     index += 1
+                }
+
+                // Транскрипция `[[wɜːk]]` → серифный шрифт покрупнее; пользователь видит [wɜːk]
+                // (внешние скобки — авторский маркер, внутренние остаются как привычная запись).
+                raw.startsWith("[[", index) && raw.indexOf("]]", index + 2) > 0 -> {
+                    val end = raw.indexOf("]]", index + 2)
+                    withStyle(
+                        SpanStyle(
+                            fontFamily = FontFamily.Serif,
+                            fontSize = PHONETIC_SCALE.em,
+                        ),
+                    ) {
+                        append("[")
+                        append(raw.substring(index + 2, end))
+                        append("]")
+                    }
+                    index = end + 2
                 }
 
                 // Пропуск в условии (`__`+) → сплошная инлайн-линия, а не символы подчёркивания.

@@ -26,17 +26,39 @@ SKIP_KEYS = {'explanation', 'userInstruction', 'title', 'taskDescription', 'grou
 # оставшиеся после вычитания парных: опечатки вида "I **love this place."
 BOLD = re.compile(r'\*\*[^*\n]+?\*\*')
 
+# --- Транскрипция: только двойные скобки [[wɜːk]] (канон guide §8) -------------------------------
+# Одинарные [...] заняты пропусками ([___]) и слотами ([предмет]) — по содержимому транскрипцию от
+# них не отличить, поэтому маркер ставит автор, а скрипт стережёт обе стороны правила.
+IPA_MARKS = 'ˈˌːəɪʊæʌɜɑɒɔθðʃʒŋɡʤʧɹɐɛʔ'
+IPA_ALLOWED = set('abcdefghijklmnopqrstuvwxyz' + IPA_MARKS + ' .-') | {'г'}
+DOUBLE_BRACKET = re.compile(r'\[\[([^\[\]]*)\]\]')
+SINGLE_BRACKET = re.compile(r'(?<!\[)\[([^\[\]]+)\](?!\])')
+# Поле-транскрипция карточки слова — структурное, маркер там не нужен (и был бы мусором в БД).
+PHONETIC_SKIP_KEYS = {'transcription'}
+
+def scan_phonetics(val, path, key):
+    """Две стороны канона: мусор внутри [[…]] и забытый маркер у «голой» […]."""
+    if key in PHONETIC_SKIP_KEYS:
+        return
+    for body in DOUBLE_BRACKET.findall(val):
+        if not body or not set(body) <= IPA_ALLOWED:
+            hits.append(f'[в [[…]] не транскрипция] {path} = {body!r}')
+    for body in SINGLE_BRACKET.findall(val):
+        looks_phonetic = any(ch in IPA_MARKS for ch in body) or (len(body) == 1 and body.islower())
+        if looks_phonetic:
+            hits.append(f'[транскрипция без двойных скобок] {path} = {body!r}')
+
 hits = []
 
-def scan(val, path):
+def scan(val, path, key=''):
     if isinstance(val, dict):
         for k, v in val.items():
             if k in SKIP_KEYS:
                 continue
-            scan(v, f'{path}.{k}')
+            scan(v, f'{path}.{k}', k)
     elif isinstance(val, list):
         for i, v in enumerate(val):
-            scan(v, f'{path}[{i}]')
+            scan(v, f'{path}[{i}]', key)
     elif isinstance(val, str):
         # → легитимна как подсказка в предложении TextInput ("one knife → two ___")
         skip_arrow = path.endswith('sentence') and 'text_input_exercises' in path
@@ -48,10 +70,23 @@ def scan(val, path):
         if '*' in BOLD.sub('', val):
             hits.append(f'[непарная звёздочка * (markdown-утечка)] {path} = {val!r}')
 
+def walk_phonetics(val, path, key=''):
+    """Транскрипцию проверяем по ВСЕМУ сиду: правило одно для теории, примеров и упражнений."""
+    if isinstance(val, dict):
+        for k, v in val.items():
+            walk_phonetics(v, f'{path}.{k}', k)
+    elif isinstance(val, list):
+        for i, v in enumerate(val):
+            walk_phonetics(v, f'{path}[{i}]', key)
+    elif isinstance(val, str):
+        scan_phonetics(val, path, key)
+
 # сканируем только упражнения и AI-клиент (не теорию)
 for key in d:
     if key.endswith('_exercises') or key == 'ai_exercises':
         scan(d[key], key)
+
+walk_phonetics(d, 'seed')
 
 io.open('_smell.txt', 'w', encoding='utf-8').write(
     f'ВСЕГО ЗАПАХОВ: {len(hits)}\n\n' + '\n'.join(hits) if hits else 'ЧИСТО — 0 запахов')

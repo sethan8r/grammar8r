@@ -840,8 +840,8 @@
         },
         {
           "type": "callout",
-          "variant": "note",
-          "label": "Примечание",
+          "variant": "tip",
+          "label": "Кстати",
           "blocks": [
             {
               "type": "paragraph",

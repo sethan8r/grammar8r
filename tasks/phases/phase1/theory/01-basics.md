@@ -2139,7 +2139,7 @@ RU: Закрой, пожалуйста, дверь.
 
 Простая проверка: попробуй заменить на `it is`. Звучит нормально? Тогда `it's`. Нет? Тогда `its`.
 
-**Ловушка 3: their, there, they're.** Три слова — одно произношение [ðer], три разных значения:
+**Ловушка 3: their, there, they're.** Три слова — одно произношение [[ðer]], три разных значения:
 - `their` — притяжательное: `**their** house` (их дом)
 - `there` — место: `over **there**` (вон там)
 - `they're` — they are: **They're** at home. (Они дома.)
@@ -6344,7 +6344,7 @@ Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
 
 - **Monday** — Moon day *(день Луны)*
 - **Saturday** — Saturn's day *(день Сатурна)*
-- **Wednesday** — произносится `**WENZday**` [ˈwenzdeɪ], буква d в середине не читается! Wed-nes-day → [ˈwenzdeɪ]. Это одна из самых частых ошибок произношения.
+- **Wednesday** — произносится `**WENZday**` [[ˈwenzdeɪ]], буква d в середине не читается! Wed-nes-day → [[ˈwenzdeɪ]]. Это одна из самых частых ошибок произношения.
 
 ---
 
@@ -6378,7 +6378,7 @@ Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Monday–Sunday, все с заглавной. Wednesday произносится [ˈwenzdeɪ], d не читается. on + день (on Monday). on + день + s = каждую неделю (on Mondays). at the weekend (брит.) / on the weekend (амер.).
+Monday–Sunday, все с заглавной. Wednesday произносится [[ˈwenzdeɪ]], d не читается. on + день (on Monday). on + день + s = каждую неделю (on Mondays). at the weekend (брит.) / on the weekend (амер.).
 
 #### Examples
 
@@ -6548,8 +6548,8 @@ Monday–Sunday, все с заглавной. Wednesday произноситс�
 
 **Произношение-ловушки:**
 
-- **February** [ˈfebrʊəri] — первое `r` часто проглатывается в разговоре, звучит как `Febyuary`. Это нормально — так говорят многие носители.
-- **August** [ˈɔːɡəst] — ударение на первый слог: **AU**-gust, не au-**GUST**.
+- **February** [[ˈfebrʊəri]] — первое `r` часто проглатывается в разговоре, звучит как `Febyuary`. Это нормально — так говорят многие носители.
+- **August** [[ˈɔːɡəst]] — ударение на первый слог: **AU**-gust, не au-**GUST**.
 - **Wednesday** — уже знаешь *(из карточки про дни)*
 
 ---
@@ -9140,7 +9140,7 @@ RU: Сегодня горячий день.
 | cold | ✗ дистрактор |
 | an | ✗ дистрактор |
 
-*Explanation:* Порядок: Today is + "a" + hot + day. "cold" — антоним hot (дистрактор по смыслу). "an" — дистрактор: hot начинается на согласный звук [h], нужен "a", не "an".
+*Explanation:* Порядок: Today is + "a" + hot + day. "cold" — антоним hot (дистрактор по смыслу). "an" — дистрактор: hot начинается на согласный звук [[h]], нужен "a", не "an".
 
 ---
 
@@ -10639,7 +10639,7 @@ She speaks English **as well as** French. *(Она говорит по-англ�
 I need a jacket **as well as** an umbrella. *(Мне нужна куртка, а также зонт.)*
 Dima plays guitar **as well as** piano. *(Дима играет на гитаре, а также на пианино.)*
 
-Формула: [элемент A] + **as well as** + [элемент B]
+Формула: X + **as well as** + Y
 
 Разница с `and`: `and` — просто «и», нейтрально. as well as — акцент что B добавляется к A, «не только A, но и B»:
 She speaks English and French. *(нейтрально)*
