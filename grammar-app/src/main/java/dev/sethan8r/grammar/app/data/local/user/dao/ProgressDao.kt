@@ -10,6 +10,7 @@ import dev.sethan8r.grammar.app.data.local.user.entity.UserAiExerciseStats
 import dev.sethan8r.grammar.app.data.local.user.entity.UserCardProgress
 import dev.sethan8r.grammar.app.data.local.user.entity.UserExerciseResult
 import dev.sethan8r.grammar.app.data.local.user.entity.UserMicrotopicProgress
+import dev.sethan8r.grammar.app.domain.model.exercise.HardcodedExerciseType
 import kotlinx.coroutines.flow.Flow
 
 /**
@@ -36,11 +37,22 @@ interface ProgressDao {
     fun getAllMicrotopicProgress(): Flow<List<UserMicrotopicProgress>>
 
     /**
-     * Результат упражнения. IGNORE — пишется при ПЕРВОМ ответе и не перезаписывается (анти-чит:
-     * перезаход в карточку не сбрасывает результат первой попытки).
+     * Результат упражнения. IGNORE — строку создаёт ПЕРВЫЙ ответ, повторные заходы её не трогают
+     * (анти-чит: перепройти упражнение и переписать статистику нельзя).
      */
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun recordExerciseResult(result: UserExerciseResult)
+
+    /**
+     * Подъём результата «неверно → верно»: верный ответ со второй попытки в том же заходе.
+     * Только в одну сторону — понизить результат нельзя. Право на вызов держит ViewModel сессии
+     * (обновляет лишь те строки, которые создала сама).
+     */
+    @Query(
+        "UPDATE user_exercise_results SET correctFirstTry = 1 " +
+            "WHERE cardId = :cardId AND exerciseType = :type AND exerciseId = :exerciseId",
+    )
+    suspend fun markExerciseCorrect(cardId: Int, type: HardcodedExerciseType, exerciseId: Int)
 
     /** Результаты упражнений карточки — для зелёного ID (пройдено) текущей сессии. */
     @Query("SELECT * FROM user_exercise_results WHERE cardId = :cardId")

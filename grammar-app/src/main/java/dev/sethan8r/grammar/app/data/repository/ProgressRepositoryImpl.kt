@@ -16,7 +16,8 @@ import javax.inject.Inject
 
 /**
  * Запись прогресса в user.db + склейка с деревом из content.db (между БД нет JOIN/FK — собираем в коде).
- * Анти-чит: результат упражнения write-once (DAO `INSERT OR IGNORE`); флаги завершения не снимаются.
+ * Анти-чит: строку результата создаёт первый ответ (DAO `INSERT OR IGNORE`), поднять её до верной
+ * может только второй ответ того же захода; флаги завершения не снимаются.
  *
  * Источник правды по пройденности/счёту — пер-упражнённые `UserExerciseResult` (зелёный ID и сводка
  * считаются из них). `UserCardProgress.isCompleted` — только флаг «вся карточка пройдена».
@@ -40,6 +41,14 @@ class ProgressRepositoryImpl @Inject constructor(
                 correctFirstTry = correctFirstTry,
             ),
         )
+    }
+
+    override suspend fun markExerciseCorrect(
+        cardId: Int,
+        type: HardcodedExerciseType,
+        exerciseId: Int,
+    ) {
+        progressDao.markExerciseCorrect(cardId, type, exerciseId)
     }
 
     override suspend fun getPassedExercises(cardId: Int): Set<ExerciseRef> =

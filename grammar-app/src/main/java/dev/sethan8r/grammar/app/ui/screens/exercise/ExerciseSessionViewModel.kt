@@ -84,6 +84,13 @@ class ExerciseSessionViewModel @Inject constructor(
     private val feedback = MutableStateFlow(FeedbackTriggers())
     private val answerDelegate = AnswerDelegate()
 
+    /**
+     * Упражнения, чью строку результата завёл ИМЕННО этот заход, — только их верный второй ответ
+     * имеет право поднять до верного. Живёт в памяти сессии: ушёл с экрана — право потеряно, поэтому
+     * перезаход не даёт переиграть результат.
+     */
+    private val recordedHere = mutableSetOf<ExerciseRef>()
+
     private val _finished = Channel<ExerciseSessionFinished>(Channel.BUFFERED)
     val finished: Flow<ExerciseSessionFinished> = _finished.receiveAsFlow()
 
@@ -177,18 +184,29 @@ class ExerciseSessionViewModel @Inject constructor(
     }
 
     /**
-     * Проверка ответа: верный — молча; неверный — тряска + событие уведомления. Результат упражнения
-     * фиксируется в БД в момент ПЕРВОГО ответа (write-once, анти-чит) — независимо от верности.
+     * Проверка ответа: верный — молча; неверный — тряска + событие уведомления.
+     *
+     * Запись результата принадлежит первому заходу на упражнение: первый ответ создаёт строку (в т.ч.
+     * неверную — чтобы выход из карточки её не отменил), верный второй ответ поднимает её до верной.
+     * Упражнение, пройденное в прошлый заход, статистику уже не меняет (анти-чит) — обе попытки
+     * работают как тренировка.
      */
     fun onCheck() {
         val current = uiState.value.current ?: return
         val firstAttempt = answerDelegate.state.value.attemptsUsed == 0
         val correct = ExerciseEvaluator.isCorrect(current, answer.value)
         answerDelegate.submit(correct)
-        if (firstAttempt) {
-            refOf(current)?.let { ref ->
-                viewModelScope.launch {
-                    progressRepository.recordExerciseResult(cardId, ref.type, ref.id, correctFirstTry = correct)
+        refOf(current)?.let { ref ->
+            when {
+                ref in content.value.passed -> Unit // результат уже принадлежит прошлому заходу
+                firstAttempt -> {
+                    recordedHere += ref
+                    viewModelScope.launch {
+                        progressRepository.recordExerciseResult(cardId, ref.type, ref.id, correctFirstTry = correct)
+                    }
+                }
+                correct && ref in recordedHere -> viewModelScope.launch {
+                    progressRepository.markExerciseCorrect(cardId, ref.type, ref.id)
                 }
             }
         }
