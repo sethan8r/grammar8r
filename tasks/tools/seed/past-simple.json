@@ -22,6 +22,12 @@
       "topicId": 14,
       "title": "Regular verbs · Правильные глаголы: -ed",
       "order": 2
+    },
+    {
+      "id": 79,
+      "topicId": 14,
+      "title": "Irregular verbs in the past · Неправильные: берём V2",
+      "order": 3
     }
   ],
   "grammar_cards": [
@@ -661,6 +667,422 @@
         "Traveled с одной l — это ошибка или нет?",
         "Зачем в panicked нужна буква k?"
       ]
+    },
+    {
+      "id": 234,
+      "microtopicId": 79,
+      "title": "Вторая полка: берём V2 и ничего сверху",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вот и настал тот момент, ради которого мы просили выучить три формы глагола. В теме «Формы глагола» мы раскладывали каждый неправильный глагол на три колонки — **to go / went / gone**, **to buy / bought / bought** — и честно говорили: пока это выглядит как зубрёжка ради зубрёжки, но однажды окупится целиком. Окупается прямо здесь."
+        },
+        {
+          "type": "paragraph",
+          "text": "Правильные глаголы, как мы разобрали в прошлой микротеме, требуют от нас работы: посмотреть на конец слова, вспомнить про немое `-e`, про `y`, про удвоение — и только потом дописать окончание. С неправильными глаголами работы нет вообще. Форма уже выучена, её не нужно строить — её нужно просто **достать со второй полки** и поставить в предложение."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Past Simple неправильного глагола = **вторая форма (V2)**, целиком, как она записана в колоде."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I went to Lisbon in May.** *(Я ездил в Лиссабон в мае.)*",
+            "**She bought two tickets.** *(Она купила два билета.)*",
+            "**We met at the station.** *(Мы встретились на вокзале.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И здесь работает тот же подарок, что и у правильных глаголов: форма **одна на все лица**. `I went`, `he went`, `they went` — никакого `-s`, никакой оглядки на подлежащее. Лицо в прошедшем времени не решает вообще ничего."
+        },
+        {
+          "type": "heading",
+          "text": "Освежим, как выглядят вторые формы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Подробно группы неправильных глаголов мы разбирали в «Формах глагола» — пересказывать их заново не будем. Пробежимся глазами по знакомым глаголам из колоды, чтобы форма всплыла в памяти именно как **рабочая форма прошедшего**, а не как строчка в таблице:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Как меняется глагол",
+            "Примеры"
+          ],
+          "rows": [
+            [
+              "хвост -ought / -aught",
+              "buy → bought, bring → brought, teach → taught"
+            ],
+            [
+              "гласная меняется на a",
+              "begin → began, sit → sat, run → ran"
+            ],
+            [
+              "форма кончается на -t",
+              "mean → meant, sleep → slept, build → built"
+            ],
+            [
+              "форма не меняется совсем",
+              "put → put, cut → cut, set → set"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Последняя строка выглядит странно — как будто глагол «не пошёл» в прошедшее. С ней разберёмся в следующей карточке, там есть свой подвох."
+        },
+        {
+          "type": "heading",
+          "text": "Никакого -ed сверху"
+        },
+        {
+          "type": "paragraph",
+          "text": "Главное техническое правило этой карточки: вторая форма **уже прошедшая**, и добавлять к ней что-то ещё не нужно. Это звучит очевидно, пока не увидишь, как рука сама дописывает окончание для надёжности:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Yesterday Oleg wented home early.** ✗ → **Yesterday Oleg went home early.** ✓",
+            "**She broughted her laptop.** ✗ → **She brought her laptop.** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика ошибки понятна: пользователь помнит, что прошедшее время «делается окончанием `-ed`», и ставит окончание поверх готовой формы. Но время в предложении выражается **ровно один раз**. Форма `went` — это и есть прошедшее целиком, ей не нужна подпорка. Мы ещё встретимся с этим же принципом в отрицаниях (**didn't went** ✗) — двойного прошедшего в английском не бывает нигде."
+        },
+        {
+          "type": "heading",
+          "text": "Берём ВТОРУЮ колонку, а не третью"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая частая путаница у тех, кто колоду выучил: формы помнятся, но не помнится, какая из них куда. В прошедшем времени работает **только V2**. Третья форма в Past Simple не приходит вообще — у неё другая работа и другое время."
+        },
+        {
+          "type": "table",
+          "header": [
+            "V1 (базовая)",
+            "V2 — прошедшее время",
+            "V3 — сюда НЕ ходит"
+          ],
+          "rows": [
+            [
+              "to write",
+              "wrote",
+              "written"
+            ],
+            [
+              "to break",
+              "broke",
+              "broken"
+            ],
+            [
+              "to speak",
+              "spoke",
+              "spoken"
+            ],
+            [
+              "to see",
+              "saw",
+              "seen"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Yesterday I wrote a long letter.** ✓ — вторая форма, прошедшее время.",
+            "**Yesterday I written a long letter.** ✗ — третья форма сама по себе предложение не держит."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Третья форма не бесполезна — она ждёт своей темы. Она работает в связке с помощником: **I have written the letter** — и это уже не Past Simple, а другое время, Present Perfect, со своим смыслом «важен результат сейчас». Мы обещали эту развилку в начале темы и разберём её полностью в своё время; пока достаточно правила «в прошедшем — вторая колонка, третья приходит с have»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая живучая ошибка русскоязычного — **выдуманный правильный глагол**. Мозг знает красивое универсальное правило `-ed` и с удовольствием тянет его туда, где его нет: **I goed** ✗, **I buyed** ✗, **I catched** ✗, **I thinked** ✗. Ошибка не от глупости — она от логики: правило-то отличное, просто эти глаголы ему не подчиняются. Верно: **I went**, **I bought**, **I caught**, **I thought**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему исключения именно у самых частых глаголов"
+        },
+        {
+          "type": "paragraph",
+          "text": "Может показаться, что английский издевается: неправильными оказались как раз те глаголы, без которых не сказать ни фразы — идти, брать, дать, сказать, купить, увидеть. Но это не случайность, и понимание причины помогает не злиться на список."
+        },
+        {
+          "type": "paragraph",
+          "text": "Эти глаголы — самые древние в языке, их формы старше правила `-ed`. Когда окончание стало общим стандартом, все слова постепенно перешли под него — **кроме** тех, что произносятся тысячи раз в день. Ходовая форма живёт в памяти носителя целиком, как отдельное слово, и переучивать её незачем: `went` все и так знают. А редкий глагол в памяти целиком не держится, и его спокойно строят по общему правилу."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда практический вывод: неправильных глаголов конечное число, они самые частые, и учить их — самая выгодная работа в языке. Один выученный `went` окупается в каждом втором предложении о прошлом."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если колода неправильных глаголов выучена наполовину — **сейчас лучший момент её подтянуть**. Мы стоим ровно в том месте курса, ради которого её просили выучить: дальше в этой теме будут отрицания, вопросы и рассказы о вчерашнем дне, а следующая тема — тоже про прошлое. Без второй формы любой рассказ рассыпается на первом же глаголе: сказать **I go there yesterday** — значит не сказать про прошлое вообще. Загляните в свой словарь и прогоните формы прямо сейчас — дальше будет только легче."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У неправильного глагола прошедшее время — это **вторая форма из колоды**, взятая как есть: **went**, **bought**, **met**, **began**. Никакого `-ed` сверху (**wented** ✗) и никакой третьей формы (**I written** ✗ — она работает с have в другом времени). Форма одна на все лица, а главная ошибка — выдумать правильный глагол там, где его нет: **I goed** ✗ → **I went** ✓.",
+      "examples": [
+        {
+          "ru": "Прошлой зимой мы ездили в Ригу.",
+          "en": "Last winter we went to Riga."
+        },
+        {
+          "ru": "Рита купила билеты в понедельник.",
+          "en": "Rita bought the tickets on Monday."
+        },
+        {
+          "ru": "Он принёс кофе и сел у окна.",
+          "en": "He brought the coffee and sat by the window."
+        },
+        {
+          "ru": "Концерт начался в восемь.",
+          "en": "The concert began at eight."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему особые формы именно у самых частых глаголов?",
+        "Как понять, нужна вторая форма или третья?",
+        "Что делать, если я забыл вторую форму глагола?"
+      ]
+    },
+    {
+      "id": 235,
+      "microtopicId": 79,
+      "title": "Коварные V2: не видно и не слышно",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Обычно вторая форма видна сразу: **go → went**, **break → broke** — слово изменилось, ни с чем не спутаешь. Но есть глаголы, у которых прошедшее время **маскируется**: на письме его не видно, а на слух — не узнаёшь. Их немного, зато они из самых ходовых, и без предупреждения они сбивают."
+        },
+        {
+          "type": "heading",
+          "text": "read → read: буквы те же, звук другой"
+        },
+        {
+          "type": "paragraph",
+          "text": "Начнём с самого коварного глагола в языке. У `to read` все три формы пишутся **одинаково** — read / read / read. Разница только в звучании: базовая форма читается [[riːd]], а прошедшее — [[red]], точь-в-точь как цвет `red`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I read the news every morning.** — [[riːd]], настоящее время, привычка.",
+            "**I read the news last night.** — [[red]], прошедшее время, конкретный вечер."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Написано одно и то же, а времена разные. Что тогда подсказывает читателю, какое время перед ним? **Всё остальное предложение:** слово-маркер (**every morning** против **last night**), соседние глаголы, общий смысл рассказа. Мы разбирали в «Транскрипции», что одна и та же цепочка букв в английском может звучать по-разному, — вот живой случай, где от звука зависит целое время."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Читая вслух, русскоязычный автоматически произносит [[riːd]] везде — и предложение о прошлом звучит как рассказ о привычке. Носитель услышит именно ту форму, которую вы произнесли, а не ту, которую имели в виду. Поэтому у `to read` полезно проговаривать про себя: прошлое — «ред»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Глаголы, у которых форма вообще не меняется"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая группа маскировщиков — глаголы, у которых прошедшее совпадает с базовой формой полностью, и на письме, и на слух:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "rows": [
+            [
+              "to put",
+              "put",
+              "put"
+            ],
+            [
+              "to cut",
+              "cut",
+              "cut"
+            ],
+            [
+              "to set",
+              "set",
+              "set"
+            ],
+            [
+              "to let",
+              "let",
+              "let"
+            ],
+            [
+              "to cost",
+              "cost",
+              "cost"
+            ],
+            [
+              "to hurt",
+              "hurt",
+              "hurt"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскоязычному это кажется недоделкой: где же форма прошедшего? Её и правда нет — и это не пробел в вашей памяти, а свойство глагола. Отсюда рождается ошибка «достроить» недостающее: **She putted the box on the table** ✗, **He cutted the bread** ✗. Верно — **She put the box on the table** ✓, **He cut the bread** ✓."
+        },
+        {
+          "type": "paragraph",
+          "text": "Как же тогда понять, что речь о прошлом? Двумя способами, и оба уже знакомы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**по слову-маркеру** — **We put the tent near the river yesterday**: `yesterday` не делает время, но показывает момент;",
+            "**по помощнику в вопросе и отрицании** — **Did you put the keys here?**, **I didn't cut the cake**. Здесь прошедшее берёт на себя `did`, и никакой двусмысленности не остаётся. Как именно работает этот помощник — разберём в микротемах про отрицание и вопрос."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Для англоговорящего в этом нет никакой беды: половина смысла в языке и так держится на контексте. Ему достаточно **I cut my finger yesterday**, чтобы услышать прошлое, — так же как нам достаточно «вчера» в русском «я иду вчера домой…» в разговорном пересказе."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Пишется одно, слышится другое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Третья группа — формы, которые читаются совсем не так, как выглядят. Прочитанные «по буквам», они превращаются в несуществующие слова, и собеседник их не узнаёт:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Как читается",
+            "Как читают по ошибке"
+          ],
+          "rows": [
+            [
+              "heard",
+              "[[hɜːd]]",
+              "«хеард»"
+            ],
+            [
+              "said",
+              "[[sed]]",
+              "«сэйд»"
+            ],
+            [
+              "meant",
+              "[[ment]]",
+              "«миант»"
+            ],
+            [
+              "bought",
+              "[[bɔːt]]",
+              "«боугхт»"
+            ],
+            [
+              "caught",
+              "[[kɔːt]]",
+              "«каугхт»"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на пару **to hear** [[hɪə]] → **heard** [[hɜːd]]: меняется не только хвост, а весь гласный звук в середине. То же с **to say** [[seɪ]] → **said** [[sed]]. Написание подсказывает тут очень мало — именно поэтому в колоде рядом с каждой формой стоит транскрипция."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Транскрипция в колоде неправильных глаголов — не украшение. Форму, выученную только глазами, вы напишете верно, но не узнаете в чужой речи и не произнесёте сами. Учить вторую форму стоит парой «написание + звучание»: **bought** [[bɔːt]], **said** [[sed]], **read** [[red]]."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Часть вторых форм маскируется. У `to read` написание не меняется вообще, меняется только звук: [[riːd]] в настоящем и [[red]] в прошедшем, а время читается из контекста. У **put, cut, set, let, cost, hurt** форма совпадает с базовой — достраивать `-ed` не нужно (**putted** ✗), прошлое видно по маркеру и по did. А **heard** [[hɜːd]], **said** [[sed]], **meant** [[ment]] звучат не так, как выглядят, — их учат вместе с транскрипцией.",
+      "examples": [
+        {
+          "ru": "Вчера вечером я прочитал две главы.",
+          "en": "I read two chapters last night."
+        },
+        {
+          "ru": "Жанна положила ключи под коврик.",
+          "en": "Zhanna put the keys under the mat."
+        },
+        {
+          "ru": "Мы услышали странный звук ночью.",
+          "en": "We heard a strange sound at night."
+        },
+        {
+          "ru": "Поездка стоила дороже, чем мы думали.",
+          "en": "The trip cost more than we thought."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, read в предложении — это настоящее или прошедшее?",
+        "Почему у put и cut прошедшее не отличается от базовой формы?",
+        "Зачем учить транскрипцию второй формы, если написание простое?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -705,9 +1127,66 @@
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 109,
       "orderInCard": 2
+    },
+    {
+      "cardId": 234,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 47,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 234,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 90,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 234,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 107,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 234,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 91,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 235,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 32,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 235,
+      "exerciseType": "MATCHING",
+      "exerciseId": 34,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 235,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 46,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 235,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 40,
+      "orderInCard": 3
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "past_simple_card235_ex1",
+      "cardId": 235,
+      "title": "Прошлое или настоящее",
+      "userInstruction": "ИИ пришлёт английское предложение с глаголом-маскировщиком. Ответьте, о прошлом оно или о настоящем, и объясните, по чему это видно.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "tenses",
@@ -830,6 +1309,37 @@
         }
       ],
       "explanation": "Строка 1: last Friday — прошлое, нужна форма walked, а не walk. Строка 4: согласная перед y меняет её на -ied, поэтому studied, а не studyed."
+    },
+    {
+      "id": 107,
+      "statements": [
+        {
+          "en": "Rita catched the last bus.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We sold our old car in spring.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Grisha telled me about the party.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They built a new bridge near the river.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Lily found her ring under the sofa.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 1: to catch неправильный, прошедшее — caught, а не catched. Строка 3: to tell тоже неправильный, нужна форма told. В строках 2, 4 и 5 стоят верные вторые формы: sold, built, found."
     }
   ],
   "word_arrangement_exercises": [
@@ -851,6 +1361,26 @@
         "this morning"
       ],
       "explanation": "Прошедшее у правильного глагола — opened; opens это настоящее для he/she/it, open — базовая форма, а openned — ошибка написания (ударение в open на первом слоге, согласная не удваивается). Слово времени стоит в конце и не заменяет форму глагола."
+    },
+    {
+      "id": 91,
+      "situationRu": "RU: Мия потеряла телефон в поезде вчера вечером.",
+      "correctSentence": "Mia lost her phone on the train last night.",
+      "words": [
+        "Mia",
+        "lost",
+        "her phone",
+        "on the train",
+        "last night"
+      ],
+      "distractors": [
+        "losed",
+        "has lost",
+        "loses",
+        "in the train",
+        "this morning"
+      ],
+      "explanation": "Прошедшее у to lose — форма lost; losed выдумано по правилу -ed, loses это настоящее время, а has lost — другое время, не Past Simple. Про транспорт говорят on the train, а не in the train, и время события здесь вечернее — last night."
     }
   ],
   "multiple_choice_exercises": [
@@ -874,6 +1404,27 @@
         }
       ],
       "explanation": "Глаголы на -c получают k перед окончанием: panic → panicked. Вариант paniced прочитался бы через [[s]] («панисед»), а panicced — просто выдуманное написание: удваивается не c, а добавляется k."
+    },
+    {
+      "id": 32,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Denis read the whole book on Sunday.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "В воскресенье Денис прочитал всю книгу.",
+          "isCorrect": true
+        },
+        {
+          "text": "По воскресеньям Денис читает целую книгу.",
+          "isCorrect": false
+        },
+        {
+          "text": "В воскресенье Денис читает всю книгу.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Форма read здесь прошедшая и читается [[red]] — на это указывает on Sunday, разовый момент в прошлом. Если бы речь шла о привычке, стояло бы every Sunday и форма читалась бы [[riːd]]."
     }
   ],
   "text_input_exercises": [
@@ -900,11 +1451,83 @@
         }
       ],
       "explanation": "Все три глагола правильные, поэтому берут -ed: close → closed (немое -e, только -d), watch → watched, visit → visited (ударение на первом слоге — согласная не удваивается)."
+    },
+    {
+      "id": 40,
+      "items": [
+        {
+          "sentence": "Yesterday Kira ___ her bag on the empty chair.",
+          "contextRu": "положила",
+          "answer": "put",
+          "alternatives": []
+        },
+        {
+          "sentence": "Last month the shop ___ the prices before the holidays.",
+          "contextRu": "снизил",
+          "answer": "cut",
+          "alternatives": []
+        },
+        {
+          "sentence": "Rustam ___ a strange noise in the corridor at night.",
+          "contextRu": "услышал",
+          "answer": "heard",
+          "alternatives": []
+        }
+      ],
+      "explanation": "У to put и to cut форма прошедшего совпадает с базовой — putted и cutted не существуют. У to hear форма меняется целиком: heard [[hɜːd]]."
     }
   ],
   "dialog_restore_exercises": [],
-  "matching_exercises": [],
-  "error_correction_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 34,
+      "taskDescription": "соедини форму прошедшего времени с её чтением.",
+      "pairs": [
+        {
+          "left": "heard",
+          "right": "[[hɜːd]]"
+        },
+        {
+          "left": "said",
+          "right": "[[sed]]"
+        },
+        {
+          "left": "meant",
+          "right": "[[ment]]"
+        },
+        {
+          "left": "bought",
+          "right": "[[bɔːt]]"
+        },
+        {
+          "left": "read",
+          "right": "[[red]]"
+        }
+      ],
+      "explanation": "Все пять форм читаются не так, как выглядят: в heard и said меняется весь гласный звук, meant теряет долготу из to mean [[miːn]], в bought буквы -ough дают [[ɔː]], а read в прошедшем звучит как цвет red."
+    }
+  ],
+  "error_correction_exercises": [
+    {
+      "id": 90,
+      "wrongSentence": "Last winter Vadim buyed a warm jacket in Vienna.",
+      "options": [
+        {
+          "text": "Last winter Vadim buy a warm jacket in Vienna.",
+          "isCorrect": false
+        },
+        {
+          "text": "Last winter Vadim boughted a warm jacket in Vienna.",
+          "isCorrect": false
+        },
+        {
+          "text": "Last winter Vadim bought a warm jacket in Vienna.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "to buy — неправильный глагол, окончание -ed он не берёт: форма прошедшего — bought. Вариант buy оставляет предложение в настоящем, а boughted — двойное прошедшее: время уже выражено самой формой."
+    }
+  ],
   "construction_meaning_exercises": [],
   "transformation_exercises": [
     {
@@ -958,6 +1581,37 @@
         }
       ],
       "explanation": "cook → cooked, help → helped, answer → answered — ничего не меняется. plan → planned (короткий ударный слог), travel → travelled и cancel → cancelled (конечная l удваивается всегда). study → studied, try → tried, carry → carried — согласная перед y превращает её в -ied."
+    },
+    {
+      "id": 47,
+      "taskDescription": "распредели глаголы по тому, как выглядит их форма прошедшего времени.",
+      "categories": [
+        {
+          "title": "Хвост -ought / -aught",
+          "items": [
+            "to catch",
+            "to fight",
+            "to think"
+          ]
+        },
+        {
+          "title": "Гласная меняется на a",
+          "items": [
+            "to run",
+            "to give",
+            "to sit"
+          ]
+        },
+        {
+          "title": "Форма кончается на -t",
+          "items": [
+            "to build",
+            "to send",
+            "to spend"
+          ]
+        }
+      ],
+      "explanation": "catch → caught, fight → fought, think → thought — общий хвост -ought/-aught. run → ran, give → gave, sit → sat — внутри слова гласная меняется на a. build → built, send → sent, spend → spent — форма заканчивается на -t."
     }
   ],
   "find_the_odd_exercises": [
@@ -983,6 +1637,29 @@
         }
       ],
       "explanation": "stop → stopped, shop → shopped, drop → dropped — короткий ударный слог удваивает согласную. В visit ударение на первом слоге, поэтому удвоения нет: visited."
+    },
+    {
+      "id": 46,
+      "groupDescription": "Три глагола в прошедшем времени выглядят так же, как в базовой форме, один — нет",
+      "items": [
+        {
+          "text": "to cost",
+          "isOdd": false
+        },
+        {
+          "text": "to speak",
+          "isOdd": true
+        },
+        {
+          "text": "to let",
+          "isOdd": false
+        },
+        {
+          "text": "to hurt",
+          "isOdd": false
+        }
+      ],
+      "explanation": "cost, let и hurt в прошедшем времени выглядят точно так же, как в базовой форме, а to speak меняется: spoke."
     }
   ]
 }
