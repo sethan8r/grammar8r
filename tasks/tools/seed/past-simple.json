@@ -28,6 +28,12 @@
       "topicId": 14,
       "title": "Irregular verbs in the past · Неправильные: берём V2",
       "order": 3
+    },
+    {
+      "id": 80,
+      "topicId": 14,
+      "title": "was / were · Глагол to be в прошлом",
+      "order": 4
     }
   ],
   "grammar_cards": [
@@ -1083,6 +1089,452 @@
         "Почему у put и cut прошедшее не отличается от базовой формы?",
         "Зачем учить транскрипцию второй формы, если написание простое?"
       ]
+    },
+    {
+      "id": 236,
+      "microtopicId": 80,
+      "title": "Две формы на всё прошлое: was и were",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Две микротемы подряд мы радовались одному и тому же: в прошедшем времени форма глагола не зависит от лица. **I worked**, **he worked**, **they worked**; **I went**, **he went**, **they went**. И вот появляется глагол, который это правило нарушает, — единственный на всю тему. Это `to be`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего удивительного в этом нет: `to be` вёл себя особенно и в настоящем времени. Мы разбирали его в «Основах» — там он и вовсе разошёлся на три формы: `am`, `is`, `are`. В прошедшем времени их осталось **две**. То есть по сравнению с настоящим стало не сложнее, а **проще**."
+        },
+        {
+          "type": "heading",
+          "text": "Кто берёт was, а кто were"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Подлежащее",
+            "Форма",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "I",
+              "was",
+              "I was at work."
+            ],
+            [
+              "he / she / it",
+              "was",
+              "She was tired."
+            ],
+            [
+              "you",
+              "were",
+              "You were right."
+            ],
+            [
+              "we / they",
+              "were",
+              "They were at the café."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило запоминается одной картинкой: **was** — там же, где в настоящем стояли `am` и `is`; **were** — там же, где стояло `are`. Никакой новой логики учить не нужно, старая просто съезжает в прошлое."
+        },
+        {
+          "type": "paragraph",
+          "text": "С существительными работает то же самое, только смотрим на число: один предмет — **was**, много — **were**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The café was empty.** *(Кафе было пустым.)*",
+            "**The streets were empty.** *(Улицы были пустыми.)*"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что вообще выражают was и were"
+        },
+        {
+          "type": "paragraph",
+          "text": "Важно понимать, что `to be` — глагол не про действие, а про **состояние**. Он не рассказывает, что человек делал; он рассказывает, **каким он был, где был и кем был**. По-русски это наше «был / была / было / были»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The bus was crowded in the morning.** *(Автобус утром был переполненный.)* — какой был.",
+            "**We were at the airport at six.** *(Мы были в аэропорту в шесть.)* — где были.",
+            "**My grandfather was a doctor.** *(Мой дед был врачом.)* — кем был."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому `was/were` появляются буквально в каждом рассказе о прошлом: «было холодно», «народу было много», «я был уставший» — всё это они."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая частая ошибка на `you`. **You was late** ✗ → **You were late** ✓. Русский смотрит на смысл: если обращаемся к одному человеку, хочется единственное число. Но английский `you` **грамматически всегда множественный** — точно так же, как в настоящем мы говорим **you are**, а не «you is», сколько бы человек перед нами ни стояло. Форма `were` держится за само слово `you`, а не за количество людей."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вторая ошибка приезжает прямиком из русского — **пропущенная связка**. По-русски в настоящем времени глагола просто нет: «я усталый», «она врач». Рука привыкает к этой пустоте и роняет глагол и в прошлом: **Yesterday I tired** ✗, **She a doctor ten years ago** ✗. Верно: **Yesterday I was tired** ✓, **She was a doctor ten years ago** ✓. Английское предложение без глагола не существует — а здесь глагол ровно один, и это `to be`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сокращений в утверждении нет — вообще"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельно про сокращения, потому что здесь пользователь регулярно изобретает несуществующее. В настоящем времени `to be` сокращается на каждом шагу: **I'm**, **he's**, **you're**, **we're**. Логично ожидать чего-то похожего и в прошлом — но в прошедшем времени **утвердительных сокращений у `to be` нет**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was at home.** ✓ — и никак иначе.",
+            "**I'was at home.** ✗ — такой формы в языке не существует."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сокращается только **отрицание**: `was not` → **wasn't**, `were not` → **weren't**. О нём — следующая карточка."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В живой речи `was` и `were` всё же «съедаются», но не на письме, а в произношении: под ударением это [[wɒz]] и [[wɜː]], а в потоке речи они ослабевают до [[wəz]] и [[wə]]. Именно поэтому на слух `was` часто почти не различим — но записывается он всегда полностью."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У `to be` в прошедшем две формы: **was** для `I`, `he`, `she`, `it` и одного предмета, **were** для `you`, `we`, `they` и множества. Они говорят не о действии, а о состоянии: каким, где и кем кто-то был. Главные ошибки — **you was** ✗ (у `you` всегда `were`) и пропуск глагола: **I tired** ✗ → **I was tired** ✓. Утвердительных сокращений нет: **I was** не сокращается никак.",
+      "examples": [
+        {
+          "ru": "Вчера вечером кафе было пустым.",
+          "en": "The café was empty last night."
+        },
+        {
+          "ru": "Утром поезд был переполненный.",
+          "en": "The train was crowded in the morning."
+        },
+        {
+          "ru": "Мы были в аэропорту в шесть.",
+          "en": "We were at the airport at six."
+        },
+        {
+          "ru": "Ты был прав насчёт погоды.",
+          "en": "You were right about the weather."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему с you всегда were, даже если человек один?",
+        "Можно ли сократить was или were, как I'm в настоящем?",
+        "Почему в предложении «Я был уставший» глагол нельзя пропустить?"
+      ]
+    },
+    {
+      "id": 237,
+      "microtopicId": 80,
+      "title": "Отрицание и вопрос: did здесь не нужен",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Дальше в теме нас ждёт помощник `did`: он будет делать все отрицания и вопросы прошедшего времени. Но `to be` в этот механизм не входит, и разобраться с этим лучше заранее — иначе ошибка появится сама собой."
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина простая и уже знакомая по «Вспомогательным глаголам»: **`to be` сам себе помощник**. Другим глаголам нужен кто-то, кто возьмёт на себя вопрос и отрицание, — `to be` умеет это сам. А двух помощников в одном предложении не бывает."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: not сразу после глагола"
+        },
+        {
+          "type": "paragraph",
+          "text": "Никаких дополнительных слов не добавляем — просто ставим `not` следом за `was` или `were`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop was not open.** → **The shop wasn't open.** *(Магазин был закрыт.)*",
+            "**We were not ready.** → **We weren't ready.** *(Мы не были готовы.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот здесь и живёт то самое сокращение, которого не было в утверждении: **wasn't** [[wɒznt]] и **weren't** [[wɜːnt]]. В обычной речи и в переписке используют почти всегда именно их, полную форму `was not` берегут для тех случаев, когда хотят надавить голосом: **I was not happy about it.**"
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос: ничего не добавляем, а переставляем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос строится тем же движением, что и с `to be` в настоящем: глагол выходит вперёд, подлежащее уходит на второе место."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You were at home.** → **Were you at home?** *(Ты был дома?)*",
+            "**The film was good.** → **Was the film good?** *(Фильм был хороший?)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакого `did` тут нет и быть не может. Мы просто поменяли местами два слова."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая частая ошибка русскоязычного на этой карточке — **притащить did**. **Did you was tired?** ✗, **I didn't was at work** ✗. Логика ошибки понятна: только что выучили, что в прошедшем всё делается через помощника, и правило переносится на все глаголы подряд. Но помощник нужен тем, у кого своего нет; `to be` — сам помощник, ему подмога не требуется. Верно: **Were you tired?** ✓, **I wasn't at work** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Краткие ответы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отвечать полным предложением необязательно — хватает подлежащего и формы `to be`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Were you at the party?** — **Yes, I was.** / **No, I wasn't.**",
+            "**Was the food good?** — **Yes, it was.** / **No, it wasn't.**",
+            "**Was the concert loud?** — **Yes, it was, but we enjoyed it.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В последнем примере рядом стоят оба прошедших времени темы: `to be` даёт **was**, а обычный правильный глагол — своё `-ed`: **enjoyed**. Так они и живут в живой речи бок о бок."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В положительном кратком ответе сокращать нельзя — только **Yes, I was**, никаких попыток слепить что-то короче. А в отрицательном, наоборот, почти всегда сокращают: **No, I wasn't** звучит естественно, полное **No, I was not** — подчёркнуто и веско, как отрезание."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос: «разве не…?»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос бывает и отрицательным — тогда вперёд выходит уже сокращённая форма:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Wasn't it cold there?** *(Разве там не было холодно?)*",
+            "**Weren't they at the concert?** *(Разве их не было на концерте?)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл такого вопроса — удивление или проверка: говорящий ожидал обратного. Мы, кстати, обычно строим его точно так же — «разве ты не был дома?», — так что сама конструкция русскому понятна."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "А вот **ответ** на отрицательный вопрос русские путают постоянно. По-русски мы отвечаем на форму вопроса: «Разве тебя там не было?» — «Да, не было». По-английски отвечают **на факт**, а не на вежливость: если ты там был — **Yes, I was**, даже если вопрос был отрицательным; если не был — **No, I wasn't**. Простое правило: `Yes` всегда означает «было», `No` — «не было», как бы ни звучал вопрос."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`to be` сам себе помощник, поэтому `did` с ним не появляется никогда. Отрицание — `not` сразу после глагола: **wasn't**, **weren't**. Вопрос — перестановка: **Were you at home?** Краткие ответы: **Yes, I was** (без сокращения) / **No, he wasn't**. Главная ошибка — **Did you was tired?** ✗ → **Were you tired?** ✓.",
+      "examples": [
+        {
+          "ru": "Магазин вчера был закрыт.",
+          "en": "The shop wasn't open yesterday."
+        },
+        {
+          "ru": "Мы не были готовы к такому вопросу.",
+          "en": "We weren't ready for such a question."
+        },
+        {
+          "ru": "Ты был на встрече в понедельник?",
+          "en": "Were you at the meeting on Monday?"
+        },
+        {
+          "ru": "Разве вечер не был отличный?",
+          "en": "Wasn't the evening great?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему с was и were нельзя использовать did?",
+        "Как ответить на вопрос «Weren't you there?», если я там был?",
+        "Когда говорят was not, а когда wasn't?"
+      ]
+    },
+    {
+      "id": 238,
+      "microtopicId": 80,
+      "title": "There was / There were: что где находилось",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Конструкцию `There is / There are` мы разбирали в «Основах»: ею говорят, что где-то что-то **есть** — «в комнате есть стол», «на улице люди». В прошедшем времени она работает ровно так же, меняется только форма глагола: **there was** и **there were**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There was a queue at the entrance.** *(У входа была очередь.)*",
+            "**There were two free tables near the window.** *(У окна было два свободных столика.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский здесь говорит безлично — «была очередь», «было два столика», — и на этой безличности спотыкается, потому что английский требует выбрать форму."
+        },
+        {
+          "type": "heading",
+          "text": "Число берётся от существительного, а не от there"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это главное правило карточки. Слово `there` в этой конструкции — не подлежащее, а пустышка, которая просто занимает место в начале. Настоящий хозяин предложения стоит **после** глагола, и именно на него мы смотрим:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There was a shop on the corner.** — один магазин → **was**.",
+            "**There were shops on both sides.** — много магазинов → **were**."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «было» не меняется по числу — «было много народу», «было два стула», — и рука ставит `was` везде. **There was many people inside** ✗ → **There were many people inside** ✓. Проверять нужно не свой русский перевод, а английское существительное сразу за глаголом: оно во множественном числе — значит `were`, и никакое «было» этого не отменяет."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Несчётные — всегда was"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельный случай — несчётные существительные, которые мы разбирали в «Основах»: **snow, water, information, money, traffic**. Посчитать их нельзя, множественного числа у них нет, поэтому они всегда идут с `was` — даже когда речь про «очень много»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There was a lot of snow that winter.** *(В ту зиму было много снега.)*",
+            "**There wasn't much information on the website.** *(На сайте было мало информации.)*"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос — по знакомой схеме"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего нового учить не нужно: `to be` и здесь сам себе помощник."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There wasn't a single free seat.** *(Не было ни одного свободного места.)*",
+            "**There weren't any tickets left.** *(Билетов не осталось.)*",
+            "**Was there a café nearby?** *(Поблизости было кафе?)*",
+            "**Were there many guests at the wedding?** *(На свадьбе было много гостей?)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В вопросе вперёд выходит глагол, а `there` уходит за него — точно так же, как подлежащее в обычном вопросе."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Про сокращения:** в настоящем времени есть разговорное **there's** (**There's a problem**), а вот `there was` не сокращается — только отрицательные **wasn't** и **weren't**. Это ровно та же картина, что и в прошлой карточке: сокращается отрицание, а не утверждение."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В примерах вам может встретиться предлог **beneath** — это книжный вариант привычного `under`: **There was a tunnel beneath the city** *(Под городом был тоннель)*. В разговоре так почти не говорят, зато в текстах, статьях и описаниях он попадается регулярно, поэтому узнавать его полезно. Смысл тот же самый, что у `under`, — просто звучит торжественнее."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`There was` и `There were` говорят, что где-то что-то было. Форму выбираем по существительному **после** глагола, а не по русскому «было»: **There was a queue** — один предмет, **There were many people** — много. Несчётные всегда берут `was` (**There was a lot of snow**). Отрицание и вопрос строятся без `did`: **There wasn't a free seat**, **Was there a café nearby?**",
+      "examples": [
+        {
+          "ru": "У входа была большая очередь.",
+          "en": "There was a long queue at the entrance."
+        },
+        {
+          "ru": "В зале было много людей.",
+          "en": "There were many people in the hall."
+        },
+        {
+          "ru": "В ту зиму было много снега.",
+          "en": "There was a lot of snow that winter."
+        },
+        {
+          "ru": "Под городом был старый тоннель.",
+          "en": "There was an old tunnel beneath the city."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «было много людей» — это There were, а не There was?",
+        "Почему несчётные существительные всегда идут с was?",
+        "Чем beneath отличается от under?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1175,6 +1627,78 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 40,
       "orderInCard": 3
+    },
+    {
+      "cardId": 236,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 23,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 236,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 110,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 236,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 108,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 236,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 92,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 237,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 28,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 237,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 91,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 237,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 15,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 237,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 128,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 238,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 48,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 238,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 41,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 238,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 109,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 238,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 47,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1183,6 +1707,22 @@
       "cardId": 235,
       "title": "Прошлое или настоящее",
       "userInstruction": "ИИ пришлёт английское предложение с глаголом-маскировщиком. Ответьте, о прошлом оно или о настоящем, и объясните, по чему это видно.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_simple_card236_ex1",
+      "cardId": 236,
+      "title": "Вставь was или were",
+      "userInstruction": "ИИ пришлёт предложения о прошлом с пропуском. Впишите нужную форму глагола to be.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_simple_card237_ex1",
+      "cardId": 237,
+      "title": "Сделай отрицание и вопрос",
+      "userInstruction": "ИИ пришлёт утвердительное предложение о прошлом и попросит переделать его. Напишите свой вариант одной строкой.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -1275,9 +1815,81 @@
       "transcription": "[trɪp]",
       "microtopicId": 78,
       "categoryId": "tenses"
+    },
+    {
+      "id": 462,
+      "word": "empty",
+      "translation": "пустой, порожний",
+      "transcription": "[ˈempti]",
+      "microtopicId": 80,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 463,
+      "word": "crowded",
+      "translation": "переполненный, людный",
+      "transcription": "[ˈkraʊdɪd]",
+      "microtopicId": 80,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 464,
+      "word": "queue",
+      "translation": "очередь",
+      "transcription": "[kjuː]",
+      "microtopicId": 80,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 465,
+      "word": "to enjoy",
+      "translation": "наслаждаться, получать удовольствие",
+      "transcription": "[ɪnˈdʒɔɪ]",
+      "microtopicId": 80,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 466,
+      "word": "beneath",
+      "translation": "под, ниже",
+      "transcription": "[bɪˈniːθ]",
+      "microtopicId": 80,
+      "categoryId": "tenses"
     }
   ],
-  "table_fill_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 23,
+      "taskDescription": "впиши форму глагола to be в прошедшем времени.",
+      "rows": [
+        {
+          "hint": "she",
+          "answer": "was"
+        },
+        {
+          "hint": "you",
+          "answer": "were"
+        },
+        {
+          "hint": "the children",
+          "answer": "were"
+        },
+        {
+          "hint": "it",
+          "answer": "was"
+        },
+        {
+          "hint": "my brother",
+          "answer": "was"
+        },
+        {
+          "hint": "we",
+          "answer": "were"
+        }
+      ],
+      "explanation": "was идёт с I, he, she, it и одним предметом или человеком; were — с you, we, they и любым множеством. У you форма всегда were, даже если речь об одном человеке."
+    }
+  ],
   "true_false_exercises": [
     {
       "id": 106,
@@ -1340,6 +1952,68 @@
         }
       ],
       "explanation": "Строка 1: to catch неправильный, прошедшее — caught, а не catched. Строка 3: to tell тоже неправильный, нужна форма told. В строках 2, 4 и 5 стоят верные вторые формы: sold, built, found."
+    },
+    {
+      "id": 108,
+      "statements": [
+        {
+          "en": "You was very kind to us.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The museum was closed on Monday.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My parents were at the concert.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Yesterday Vera tired after work.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "It was cold and dark outside.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 1: с you всегда идёт were. Строка 4: в предложении вообще нет глагола — нужно Yesterday Vera was tired after work. Остальные предложения верны: was с одним предметом, were с множественным подлежащим."
+    },
+    {
+      "id": 109,
+      "statements": [
+        {
+          "en": "There was many people at the station.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "There were two cafés on that street.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "There wasn't any bread in the kitchen.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Did there was a shop near the hotel?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Were there any free rooms in the hotel?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 1: people во множественном числе, нужно There were many people. Строка 4: с to be помощник did не используется — верно Was there a shop near the hotel? Остальные предложения построены правильно."
     }
   ],
   "word_arrangement_exercises": [
@@ -1381,6 +2055,24 @@
         "this morning"
       ],
       "explanation": "Прошедшее у to lose — форма lost; losed выдумано по правилу -ed, loses это настоящее время, а has lost — другое время, не Past Simple. Про транспорт говорят on the train, а не in the train, и время события здесь вечернее — last night."
+    },
+    {
+      "id": 92,
+      "situationRu": "Ситуация: рассказываешь, что вчера в спортзале было мало народу.",
+      "correctSentence": "The gym was almost empty yesterday.",
+      "words": [
+        "The gym",
+        "was",
+        "almost",
+        "empty",
+        "yesterday"
+      ],
+      "distractors": [
+        "were",
+        "is",
+        "crowded"
+      ],
+      "explanation": "Подлежащее the gym в единственном числе, поэтому was, а не were; is оставило бы предложение в настоящем времени. Слово crowded по смыслу противоположно: зал был почти пустой, а не переполненный."
     }
   ],
   "multiple_choice_exercises": [
@@ -1425,6 +2117,48 @@
         }
       ],
       "explanation": "Форма read здесь прошедшая и читается [[red]] — на это указывает on Sunday, разовый момент в прошлом. Если бы речь шла о привычке, стояло бы every Sunday и форма читалась бы [[riːd]]."
+    },
+    {
+      "id": 110,
+      "choiceType": "CHOICE",
+      "prompt": "The tickets ___ cheap last spring.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "was",
+          "isCorrect": false
+        },
+        {
+          "text": "were",
+          "isCorrect": true
+        },
+        {
+          "text": "be",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Подлежащее tickets стоит во множественном числе, поэтому нужна форма were. Форма was идёт только с одним предметом, а be — базовая форма, временем она не является."
+    },
+    {
+      "id": 128,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Разве утром улицы не были пустыми?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Wasn't the streets empty in the morning?",
+          "isCorrect": false
+        },
+        {
+          "text": "Weren't in the morning the streets empty?",
+          "isCorrect": false
+        },
+        {
+          "text": "Weren't the streets empty in the morning?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Подлежащее the streets стоит во множественном числе, поэтому нужна форма weren't, а не wasn't. В вопросе глагол выходит на первое место, сразу за ним идёт подлежащее, а обстоятельство времени остаётся в конце."
     }
   ],
   "text_input_exercises": [
@@ -1475,9 +2209,66 @@
         }
       ],
       "explanation": "У to put и to cut форма прошедшего совпадает с базовой — putted и cutted не существуют. У to hear форма меняется целиком: heard [[hɜːd]]."
+    },
+    {
+      "id": 41,
+      "items": [
+        {
+          "sentence": "There ___ a queue at the ticket office this morning.",
+          "contextRu": "",
+          "answer": "was",
+          "alternatives": []
+        },
+        {
+          "sentence": "There ___ no clean glasses in the kitchen.",
+          "contextRu": "",
+          "answer": "were",
+          "alternatives": []
+        },
+        {
+          "sentence": "There ___ a lot of noise in the street last night.",
+          "contextRu": "",
+          "answer": "was",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Смотрим на существительное после глагола: a queue — один предмет, поэтому was; glasses стоит во множественном числе, поэтому were; noise — несчётное, у него множественного числа нет, значит снова was."
     }
   ],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 15,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Were you at Rita's party on Saturday?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "A pity, we really enjoyed it."
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I did.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, I wasn't. I was ill.",
+          "isCorrect": true
+        },
+        {
+          "text": "No, I didn't was.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "На вопрос с were отвечают той же формой глагола to be: No, I wasn't. Варианты с did сюда не подходят — этот помощник работает с другими глаголами, а не с to be. Ответ должен быть отрицательным: собеседник жалеет, что человека не было."
+    }
+  ],
   "matching_exercises": [
     {
       "id": 34,
@@ -1526,6 +2317,25 @@
         }
       ],
       "explanation": "to buy — неправильный глагол, окончание -ed он не берёт: форма прошедшего — bought. Вариант buy оставляет предложение в настоящем, а boughted — двойное прошедшее: время уже выражено самой формой."
+    },
+    {
+      "id": 91,
+      "wrongSentence": "Did you was at the office on Tuesday?",
+      "options": [
+        {
+          "text": "Were you at the office on Tuesday?",
+          "isCorrect": true
+        },
+        {
+          "text": "Did you were at the office on Tuesday?",
+          "isCorrect": false
+        },
+        {
+          "text": "Was you at the office on Tuesday?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Глагол to be сам себе помощник, поэтому did с ним не ставится вообще — вопрос строится перестановкой. С подлежащим you нужна форма were, а не was."
     }
   ],
   "construction_meaning_exercises": [],
@@ -1548,6 +2358,25 @@
         }
       ],
       "explanation": "Правильный глагол уходит в прошедшее через -ed: wash → washed, paint → painted, invite → invited (немое -e даёт только -d). Окончание -s третьего лица при этом исчезает — оно живёт только в настоящем."
+    },
+    {
+      "id": 28,
+      "taskDescription": "сделай предложение отрицательным, используя краткую форму.",
+      "items": [
+        {
+          "original": "The room was warm.",
+          "transformed": "The room wasn't warm."
+        },
+        {
+          "original": "They were at the station.",
+          "transformed": "They weren't at the station."
+        },
+        {
+          "original": "I was free on Friday.",
+          "transformed": "I wasn't free on Friday."
+        }
+      ],
+      "explanation": "Отрицание у to be строится без помощника: not встаёт сразу после was или were, а в краткой форме сливается с ним — wasn't, weren't."
     }
   ],
   "categorization_exercises": [
@@ -1612,6 +2441,29 @@
         }
       ],
       "explanation": "catch → caught, fight → fought, think → thought — общий хвост -ought/-aught. run → ran, give → gave, sit → sat — внутри слова гласная меняется на a. build → built, send → sent, spend → spent — форма заканчивается на -t."
+    },
+    {
+      "id": 48,
+      "taskDescription": "распредели окончания предложений по нужной форме глагола.",
+      "categories": [
+        {
+          "title": "There was…",
+          "items": [
+            "a small mistake",
+            "a lot of traffic",
+            "no time for coffee"
+          ]
+        },
+        {
+          "title": "There were…",
+          "items": [
+            "two policemen outside",
+            "some old photos on the wall",
+            "three empty seats"
+          ]
+        }
+      ],
+      "explanation": "was идёт с одним предметом (a small mistake, no time) и с несчётными существительными (traffic). were — там, где существительное во множественном числе: policemen, photos, seats."
     }
   ],
   "find_the_odd_exercises": [
@@ -1660,6 +2512,29 @@
         }
       ],
       "explanation": "cost, let и hurt в прошедшем времени выглядят точно так же, как в базовой форме, а to speak меняется: spoke."
+    },
+    {
+      "id": 47,
+      "groupDescription": "Три существительных требуют формы were, одно — was",
+      "items": [
+        {
+          "text": "letters",
+          "isOdd": false
+        },
+        {
+          "text": "money",
+          "isOdd": true
+        },
+        {
+          "text": "keys",
+          "isOdd": false
+        },
+        {
+          "text": "neighbours",
+          "isOdd": false
+        }
+      ],
+      "explanation": "letters, keys и neighbours стоят во множественном числе, поэтому There were… А money — несчётное существительное, множественного числа у него нет, и оно всегда идёт с There was…"
     }
   ]
 }
