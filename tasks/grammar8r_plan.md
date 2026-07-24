@@ -1223,7 +1223,7 @@ theory/
 │   │       (формальный синоним under/below: «There was a tunnel beneath the city»). Своей карточки
 │   │       beneath не получает — после темы слово сливается в «слова» (isView). + AI.
 │   │
-│   ├── МТ81 · Negative · Отрицание: didn't (2 карточки)
+│   ├── МТ81 · Negative · Отрицание: didn't (2 карточки) ✅ (написана, ALL GREEN 24.07.26)
 │   │   ├── Card 239 · did not / didn't + V1 — помощник did забирает прошлое себе, смысловой глагол
 │   │   │   возвращается на первую полку: worked → didn't work, went → didn't go. Зеркало don't/doesn't:
 │   │   │   механика та же, изменился помощник. + AI.

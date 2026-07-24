@@ -34,6 +34,12 @@
       "topicId": 14,
       "title": "was / were · Глагол to be в прошлом",
       "order": 4
+    },
+    {
+      "id": 81,
+      "topicId": 14,
+      "title": "Negative · Отрицание: didn't",
+      "order": 5
     }
   ],
   "grammar_cards": [
@@ -1569,6 +1575,272 @@
         "Почему несчётные существительные всегда идут с was?",
         "Чем beneath отличается от under?"
       ]
+    },
+    {
+      "id": 239,
+      "microtopicId": 81,
+      "title": "did not / didn't: помощник забирает прошлое себе",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Рассказывать о прошлом утвердительно мы уже умеем во всех вариантах: правильный глагол берёт `-ed`, неправильный — вторую форму, а `to be` — `was/were`. Осталось научиться говорить «нет»: **я не пошёл**, **она не позвонила**, **мы не купили**. И вот тут на сцену выходит новый помощник — `did`."
+        },
+        {
+          "type": "heading",
+          "text": "did забирает прошлое себе"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило одно на всё прошедшее время. Отрицание строится помощником `did` и словом `not`, а сам смысловой глагол возвращается на первую полку — в голую базовую форму, ту же, что в словаре."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Did + not + V1 (базовая форма)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрим, как это работает, на правильном и неправильном глаголе сразу:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I worked on Saturday.** → **I didn't work on Saturday.**",
+            "**She bought a car.** → **She didn't buy a car.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание на главное: правильный `work` и неправильный `buy` в отрицании ведут себя **одинаково**. Оба сбросили форму прошедшего и стали голыми — `work`, `buy`. Всё прошлое переехало на `did`, и глаголу больше нечего нести: помощник держит время за двоих."
+        },
+        {
+          "type": "heading",
+          "text": "Зеркало don't / doesn't из настоящего"
+        },
+        {
+          "type": "paragraph",
+          "text": "Механику ты уже видел — она копирует Present Simple, сменился только помощник. В настоящем времени отрицание делают `do`/`does`, в прошедшем — один `did`:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Present Simple",
+            "Past Simple"
+          ],
+          "rows": [
+            [
+              "I don't work",
+              "I didn't work"
+            ],
+            [
+              "he doesn't work",
+              "he didn't work"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И здесь снова подарок прошедшего времени: `did` **один на все лица**. В настоящем приходилось выбирать между `don't` и `doesn't` и следить за `he/she/it` — в прошлом выбирать не из чего: `I didn't`, `he didn't`, `they didn't` — всюду одно и то же слово."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Did not` в живой речи почти всегда сжимается в `didn't` [[dɪdnt]]. Полную форму берегут для нажима голосом, когда возражают: **I did not say that.** — с ударением на каждом слове."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему did нужен только смысловым глаголам: два лагеря"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы `did` не превратился в заклинание «лепим его на любой глагол в прошлом», разберём в корне, кому он вообще нужен. Вопрос и отрицание в английском всегда несёт **служебный** глагол-помощник — «не» само из воздуха не возьмётся. И по этому признаку все глаголы делятся на два лагеря."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Лагерь первый — смысловые глаголы:** `to work`, `to go`, `to buy`, `to call`. Они называют действие и только его; своей служебной силы у них нет. Поэтому для отрицания они зовут помощника — в прошедшем это `did`, и `not` цепляется к нему, а не к глаголу: **Lena didn't call.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Лагерь второй — глагол `to be`.** Он не про действие, а про состояние (**I was tired**, **The café was empty**), и при этом **сам является служебным**, той же природы, что и `did`. Помощник ему не нужен — он принимает `not` прямо на себя: **I wasn't tired.** Позвать к нему `did` — всё равно что приставить помощника к помощнику."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда вывод, который убережёт от половины ошибок темы: `did` работает **только со смысловыми глаголами**. С `was/were` он не появляется никогда — эту развилку подробно разберём в следующей карточке."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "По-русски отрицание — это одно словечко «не» перед глаголом: «я не работал». Рука тянется сделать так же и по-английски — **I not worked** ✗, **I no work** ✗. Но голого «не» английскому мало: отрицание смыслового глагола обязано опираться на помощника. Нет `did` — нет отрицания. Верно: **I didn't work** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Отрицание смыслового глагола в прошедшем строится помощником: `did` + `not` + голый глагол в базовой форме. `did` забирает прошлое на себя, поэтому глагол теряет форму прошедшего: **worked → didn't work**, **bought → didn't buy** — правильный и неправильный ведут себя одинаково. Это зеркало `don't/doesn't` из Present Simple, только помощник один на все лица — `didn't`. Глагол `to be` сюда не входит: он сам себе служебный, и `did` с ним не используется.",
+      "examples": [
+        {
+          "ru": "В субботу Игорь не работал.",
+          "en": "Igor didn't work on Saturday."
+        },
+        {
+          "ru": "Лена не позвонила мне вчера вечером.",
+          "en": "Lena didn't call me last night."
+        },
+        {
+          "ru": "Мы не купили билеты заранее.",
+          "en": "We didn't buy the tickets in advance."
+        },
+        {
+          "ru": "Дети не заметили ошибку.",
+          "en": "The kids didn't notice the mistake."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после didn't глагол стоит в базовой форме, а не в прошедшем?",
+        "Чем did отличается от do и does?",
+        "Можно ли построить отрицание в прошлом без did, одним словом «not»?"
+      ]
+    },
+    {
+      "id": 240,
+      "microtopicId": 81,
+      "title": "«I didn't went» — двойного прошлого не бывает",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Правило прошлой карточки простое: `did` + `not` + голый глагол. Но именно на слове «голый» спотыкается почти каждый русскоязычный, и ошибка эта настолько частая и живучая, что заслуживает отдельной карточки. Разберём её в самый корень — чтобы она у тебя не появилась вообще."
+        },
+        {
+          "type": "heading",
+          "text": "Прошлое уже сказано — один раз"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая частая ошибка темы выглядит так: **I didn't went home.** ✗ Глагол `go` честно поставили в прошедшую форму `went` — и всё равно неверно. Правильно: **I didn't go home.** ✓"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина в одном принципе: **время в английском предложении выражается ровно один раз.** Помощник `did` — это уже прошедшая форма (прошлое от `do`). Он унёс всё прошлое на себя, и договаривать его второй раз в глаголе незачем. `didn't went` — это два прошедших подряд, «был-пошёл»; язык такого не терпит. Бьёт это одинаково по обоим типам глаголов:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "правильный: **I didn't worked** ✗ → **I didn't work** ✓",
+            "неправильный: **She didn't went** ✗ → **She didn't go** ✓"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Этот же принцип мы уже встречали дважды. В утверждении нельзя **wented** (форма уже прошедшая, `-ed` сверху лишний), а в Present Simple нельзя **He doesn't works** (помощник `does` уже взял третье лицо, `-s` на глаголе — перебор). Везде одно и то же: грамматический признак ставится один раз, а не дублируется."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда эта ошибка у русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски отрицание прошлого **сохраняет** глагол в прошедшей форме: «я не **ходил**», «она не **позвонила**» — глагол так и остаётся с прошедшим окончанием. Английский поступает наоборот: он снимает прошлое с глагола и перекладывает его на `did`. Рука, привыкшая к русскому, дописывает `-ed` или вторую форму «для надёжности» — и получается двойное прошлое. Понимать корень важнее, чем зубрить: как только видишь `didn't`, глагол автоматически раздевается до базовой формы."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После `didn't` — всегда голая база, что бы ни подсказывал русский. **I didn't bought it** ✗, **He didn't came** ✗, **We didn't saw them** ✗ → **I didn't buy it** ✓, **He didn't come** ✓, **We didn't see them** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "А с was / were всё наоборот — did не приходит вообще"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть и зеркальная ошибка: затащить `did` туда, где его быть не должно. **I didn't was tired** ✗ — так не говорят. Вспомни два лагеря: `to be` сам себе служебный, помощник ему не нужен. Прошлое у него уже сидит в самой форме `was/were`, поэтому отрицание он делает своими силами: **I wasn't tired.** ✓"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда простое действие в голове — прежде чем строить отрицание, спроси себя: какой у меня глагол?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Смысловой (`work`, `go`, `buy`, `call`) → **didn't + V1**: **We didn't go.**",
+            "`to be` (`was`/`were`) → **wasn't / weren't**, без `did`: **We weren't there.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Прошлое живёт ровно в одном месте — либо в помощнике `did` (у смыслового глагола), либо в самой форме `was/were` (у `to be`). Два прошедших в одном сказуемом — всегда ошибка: **didn't went** ✗, **didn't was** ✗."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "После `didn't` глагол всегда стоит в голой базовой форме: прошлое уже выражено в самом `did`, а двойного прошлого в английском не бывает — **I didn't went** ✗ → **I didn't go** ✓ (тот же принцип, что **wented** ✗ и **He doesn't works** ✗). Обратная ошибка — притащить `did` к `to be`: **I didn't was** ✗ → **I wasn't** ✓. Правило выбора простое: смысловой глагол → `didn't + V1`, `to be` → `wasn't/weren't` без `did`.",
+      "examples": [
+        {
+          "ru": "Настя не ответила на моё сообщение.",
+          "en": "Nastya didn't reply to my message."
+        },
+        {
+          "ru": "Я не сделал это специально.",
+          "en": "I didn't do it on purpose."
+        },
+        {
+          "ru": "Мы вчера совсем не устали.",
+          "en": "We weren't tired at all yesterday."
+        },
+        {
+          "ru": "Вообще-то, Олег не опоздал.",
+          "en": "Actually, Oleg wasn't late."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать «I didn't went», ведь went — это правильное прошедшее?",
+        "Почему с was и were не используют did в отрицании?",
+        "Как быстро понять, что ставить — didn't или wasn't?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1733,6 +2005,54 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 47,
       "orderInCard": 3
+    },
+    {
+      "cardId": 239,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 129,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 239,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 110,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 239,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 29,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 239,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 93,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 240,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 92,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 240,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 111,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 240,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 49,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 240,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 111,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1757,6 +2077,14 @@
       "cardId": 237,
       "title": "Сделай отрицание и вопрос",
       "userInstruction": "ИИ пришлёт утвердительное предложение о прошлом и попросит переделать его. Напишите свой вариант одной строкой.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_simple_card239_ex1",
+      "cardId": 239,
+      "title": "Сделай отрицание",
+      "userInstruction": "ИИ пришлёт утвердительное предложение о прошлом. Сделайте его отрицательным и напишите свой вариант одной строкой.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -1888,6 +2216,46 @@
       "translation": "под, ниже",
       "transcription": "[bɪˈniːθ]",
       "microtopicId": 80,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 467,
+      "word": "to notice",
+      "translation": "замечать, заметить",
+      "transcription": "[ˈnəʊtɪs]",
+      "microtopicId": 81,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 468,
+      "word": "to reply",
+      "translation": "отвечать, ответить",
+      "transcription": "[rɪˈplaɪ]",
+      "microtopicId": 81,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 469,
+      "word": "fault",
+      "translation": "вина",
+      "transcription": "[fɔːlt]",
+      "microtopicId": 81,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 470,
+      "word": "actually",
+      "translation": "на самом деле, вообще-то",
+      "transcription": "[ˈæktʃuəli]",
+      "microtopicId": 81,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 471,
+      "word": "on purpose",
+      "translation": "нарочно, специально",
+      "transcription": "[ɒn ˈpɜːpəs]",
+      "microtopicId": 81,
       "categoryId": "tenses"
     }
   ],
@@ -2048,6 +2416,68 @@
         }
       ],
       "explanation": "Строка 1: people во множественном числе, нужно There were many people. Строка 4: с to be помощник did не используется — верно Was there a shop near the hotel? Остальные предложения построены правильно."
+    },
+    {
+      "id": 110,
+      "statements": [
+        {
+          "en": "Vera didn't answer the phone.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We not visited the museum.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Tom didn't finished his lunch.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The train didn't stop at our station.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They didn't play football on Sunday.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: без помощника отрицания нет — нужно We didn't visit the museum. Строка 3: после didn't глагол голый, поэтому didn't finish, а не didn't finished. Остальные построены верно."
+    },
+    {
+      "id": 111,
+      "statements": [
+        {
+          "en": "I didn't saw the message.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "It wasn't my fault.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We didn't was at the party.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Sonya didn't call back.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They weren't ready for the trip.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 1: после didn't форма голая — didn't see, а не didn't saw. Строка 3: у to be помощник не нужен, нужно weren't at the party, а не didn't was. Остальные предложения верны."
     }
   ],
   "word_arrangement_exercises": [
@@ -2107,6 +2537,25 @@
         "crowded"
       ],
       "explanation": "Подлежащее the gym в единственном числе, поэтому was, а не were; is оставило бы предложение в настоящем времени. Слово crowded по смыслу противоположно: зал был почти пустой, а не переполненный."
+    },
+    {
+      "id": 93,
+      "situationRu": "RU: Игорь вчера вечером не закрыл окно.",
+      "correctSentence": "Igor didn't close the window last night.",
+      "words": [
+        "Igor",
+        "didn't",
+        "close",
+        "the window",
+        "last night"
+      ],
+      "distractors": [
+        "closed",
+        "didn't closed",
+        "doesn't close",
+        "this morning"
+      ],
+      "explanation": "После didn't глагол голый — close, поэтому closed и didn't closed лишние (двойное прошедшее). doesn't close оставило бы предложение в настоящем времени, а this morning не совпадает по смыслу с «вчера вечером»."
     }
   ],
   "multiple_choice_exercises": [
@@ -2193,6 +2642,48 @@
         }
       ],
       "explanation": "Подлежащее the streets стоит во множественном числе, поэтому нужна форма weren't, а не wasn't. В вопросе глагол выходит на первое место, сразу за ним идёт подлежащее, а обстоятельство времени остаётся в конце."
+    },
+    {
+      "id": 129,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Марк не понял вопрос учителя.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Mark not understood the teacher's question.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mark didn't understand the teacher's question.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mark didn't understood the teacher's question.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Отрицание смыслового глагола держится на помощнике did, а сам глагол стоит в голой форме: didn't understand. Вариант без did (not understood) отрицанием в английском не является, а didn't understood — двойное прошедшее."
+    },
+    {
+      "id": 111,
+      "choiceType": "CHOICE",
+      "prompt": "Roma ___ us about the change of plans.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "didn't told",
+          "isCorrect": false
+        },
+        {
+          "text": "didn't telled",
+          "isCorrect": false
+        },
+        {
+          "text": "didn't tell",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "to tell в отрицании возвращается в базовую форму: didn't tell. Форма told (вторая) и выдуманное telled после didn't не ставятся — время уже выражено помощником."
     }
   ],
   "text_input_exercises": [
@@ -2370,6 +2861,25 @@
         }
       ],
       "explanation": "Глагол to be сам себе помощник, поэтому did с ним не ставится вообще — вопрос строится перестановкой. С подлежащим you нужна форма were, а не was."
+    },
+    {
+      "id": 92,
+      "wrongSentence": "Larisa didn't bought milk on her way home.",
+      "options": [
+        {
+          "text": "Larisa didn't buy milk on her way home.",
+          "isCorrect": true
+        },
+        {
+          "text": "Larisa not bought milk on her way home.",
+          "isCorrect": false
+        },
+        {
+          "text": "Larisa didn't buyed milk on her way home.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После didn't глагол стоит в базовой форме — buy, потому что прошлое уже несёт did. Вариант not bought остался без помощника, а didn't buyed — двойное прошедшее да ещё и выдуманная форма buyed."
     }
   ],
   "construction_meaning_exercises": [],
@@ -2411,6 +2921,25 @@
         }
       ],
       "explanation": "Отрицание у to be строится без помощника: not встаёт сразу после was или were, а в краткой форме сливается с ним — wasn't, weren't."
+    },
+    {
+      "id": 29,
+      "taskDescription": "сделай предложение отрицательным, используя краткую форму.",
+      "items": [
+        {
+          "original": "Sveta cooked dinner for us.",
+          "transformed": "Sveta didn't cook dinner for us."
+        },
+        {
+          "original": "The boys broke the window.",
+          "transformed": "The boys didn't break the window."
+        },
+        {
+          "original": "I heard the alarm in the morning.",
+          "transformed": "I didn't hear the alarm in the morning."
+        }
+      ],
+      "explanation": "Отрицание строится через didn't, а глагол возвращается в базовую форму — и у правильного (cook), и у неправильного (break, hear). Вторая форма broke и heard из утверждения в отрицании не остаётся: всё прошлое уже держит did."
     }
   ],
   "categorization_exercises": [
@@ -2498,6 +3027,29 @@
         }
       ],
       "explanation": "was идёт с одним предметом (a small mistake, no time) и с несчётными существительными (traffic). were — там, где существительное во множественном числе: policemen, photos, seats."
+    },
+    {
+      "id": 49,
+      "taskDescription": "распредели, чем строится отрицание в прошедшем времени.",
+      "categories": [
+        {
+          "title": "Отрицание через didn't + глагол",
+          "items": [
+            "to go to school",
+            "to see the film",
+            "to lose the keys"
+          ]
+        },
+        {
+          "title": "Отрицание через wasn't / weren't",
+          "items": [
+            "to be tired",
+            "to be at work",
+            "to be happy"
+          ]
+        }
+      ],
+      "explanation": "Смысловые глаголы (действие) отрицаются помощником did: didn't go, didn't see, didn't lose. А to be — сам себе служебный, помощник ему не нужен: wasn't tired, weren't at work, wasn't happy."
     }
   ],
   "find_the_odd_exercises": [
