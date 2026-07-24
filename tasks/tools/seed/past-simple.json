@@ -46,6 +46,12 @@
       "topicId": 14,
       "title": "Questions · Вопрос: Did…?",
       "order": 6
+    },
+    {
+      "id": 83,
+      "topicId": 14,
+      "title": "Usage · Все ситуации употребления",
+      "order": 7
     }
   ],
   "grammar_cards": [
@@ -2171,6 +2177,544 @@
         "Чем «Who called you?» отличается от «Who did you call?»",
         "Когда в WH-вопросе did вообще не нужен?"
       ]
+    },
+    {
+      "id": 244,
+      "microtopicId": 83,
+      "title": "Точка на линии времени: одно законченное действие",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Механику Past Simple мы разобрали до последнего винтика: как строить утверждение, отрицание и вопрос. Осталось главное — **понять, когда это время вообще включается**. Начнём с самого частого, «домашнего» случая, ради которого Past Simple и существует."
+        },
+        {
+          "type": "heading",
+          "text": "Одно действие — случилось и закончилось"
+        },
+        {
+          "type": "paragraph",
+          "text": "Базовое значение простое: **одно завершённое действие в конкретный момент прошлого**. Оно произошло, закрылось и осталось там."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I bought a new phone last week.** *(Я купил новый телефон на прошлой неделе.)*",
+            "**Rita sent the email this morning.** *(Рита отправила письмо сегодня утром.)*",
+            "**We booked a table for eight.** *(Мы забронировали столик на восемь.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Представь линию времени. Такое действие — не отрезок и не облако, а **одна точка**: щёлкнуло — и всё. Купил. Отправила. Забронировали. Ровно для этих «щелчков» в прошлом и берут Past Simple."
+        },
+        {
+          "type": "heading",
+          "text": "Здесь английский совпадает с русским"
+        },
+        {
+          "type": "paragraph",
+          "text": "Приятная новость на старте: в этом случае русский совершенный вид ложится на Past Simple один в один."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«купил» → **bought**",
+            "«отправила» → **sent**",
+            "«забронировали» → **booked**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы говорим «я **купил** телефон» — законченное, с результатом; англичанин говорит **I bought a phone** — та же законченная точка. Пока интуиция русского и английское время смотрят в одну сторону. Дальше, в следующих карточках, Past Simple заберёт и то, что по-русски на «точку» не похоже, — но фундамент именно этот."
+        },
+        {
+          "type": "heading",
+          "text": "Момент можно назвать, а можно и не называть"
+        },
+        {
+          "type": "paragraph",
+          "text": "Часто рядом стоит слово, которое показывает, когда именно щёлкнуло: **last week**, **yesterday**, **at six**, **two days ago**. Но это не обязательно — время держит сам глагол, а не обстоятельство (мы разбирали это в самом начале темы)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I broke my glasses.** — когда, не сказано, но действие явно закрыто → Past Simple.",
+            "Момент ясен из разговора: **— Nice bag! — Thanks, I got it in Milan.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский «результат сейчас» тянет к другому времени. Мы говорим «я купил телефон» и подразумеваем «он у меня» — и рука хочет что-то вроде «have bought». Пока держим простое правило: **если сказано (или ясно) КОГДА это случилось — это Past Simple**. Есть привязка к моменту прошлого → Past Simple, даже если по-русски чувствуется результат. Случай, когда важен именно результат «сейчас», а момент не назван, — это уже другое время, и мы отдельно очертим границу в конце микротемы."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Главное значение Past Simple — одно завершённое действие в конкретный момент прошлого, «точка на линии времени»: **I bought a new phone last week**, **She sent the email this morning**. Русский совершенный вид («купил», «отправила») здесь ложится на него один в один. Момент может быть назван (yesterday, last week) или ясен из контекста — время всё равно несёт глагол. Ориентир: сказано или понятно, КОГДА это случилось → Past Simple.",
+      "examples": [
+        {
+          "ru": "Вчера я потерял зонт в автобусе.",
+          "en": "Yesterday I lost my umbrella on the bus."
+        },
+        {
+          "ru": "Соня забронировала два билета в Прагу.",
+          "en": "Sonya booked two tickets to Prague."
+        },
+        {
+          "ru": "Настя нашла работу в мае.",
+          "en": "Nastya found a job in May."
+        },
+        {
+          "ru": "Он разбил чашку сегодня утром.",
+          "en": "He broke a cup this morning."
+        }
+      ],
+      "clarificationOptions": [
+        "Обязательно ли в предложении есть слово вроде yesterday?",
+        "Почему «я купил телефон» — это Past Simple, если он у меня и сейчас?",
+        "Чем «I bought» отличается от «I have bought»?"
+      ]
+    },
+    {
+      "id": 245,
+      "microtopicId": 83,
+      "title": "Цепочка событий: язык рассказа",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Одно действие мы разобрали. Но в жизни мы редко говорим одним предложением — мы **рассказываем**: сначала одно, потом другое, потом третье. И вот тут Past Simple раскрывается как **главное время историй**."
+        },
+        {
+          "type": "heading",
+          "text": "Действия идут цепочкой, по порядку"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда мы перечисляем события, каждое из них — та же «точка», что в прошлой карточке, а вместе они выстраиваются в цепочку. Причём **порядок предложений = порядок событий**: что сказали раньше, то раньше и случилось."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I got up, made coffee, checked my email and left.** *(Я встал, сварил кофе, проверил почту и ушёл.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сначала встал, потом кофе, потом почта, потом ушёл — ровно в том порядке, как стоят глаголы. Никаких специальных «времён для рассказа» не нужно: цепочка Past Simple и есть язык истории."
+        },
+        {
+          "type": "heading",
+          "text": "Почему Simple, а не что-то «длительное»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тут важно понять логику, а не заучивать. В рассказе мы говорим **что произошло** — щёлк, щёлк, щёлк, — а не рисуем, как действие тянулось. Каждое событие мы берём как готовую точку и ставим следующую за ней. Поэтому язык событийной цепочки — именно Past Simple. Время, которое рисует процесс «в этот момент я как раз готовил…», существует отдельно — про него в конце микротемы."
+        },
+        {
+          "type": "heading",
+          "text": "Здесь снова помогает русский"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы рассказываем точно так же — цепочкой глаголов совершенного вида: «встал, умылся, оделся, вышел». Английская цепочка **got up, washed, dressed, left** устроена один в один. Это тот случай, где не надо переучиваться — надо просто ставить глаголы в прошедшую форму и держать порядок."
+        },
+        {
+          "type": "heading",
+          "text": "Слова-связки двигают рассказ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы история не выглядела сухим списком, между событиями ставят связки. Их стоит узнавать и использовать самому:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**first** — сначала, первым делом",
+            "**then** / **after that** — потом, после этого",
+            "**later** — позже",
+            "**finally** / **in the end** — наконец, в итоге",
+            "**suddenly** — вдруг, и тут неожиданно"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `suddenly` — особое: оно вводит **неожиданный поворот**, слом ровного хода событий: **We were at dinner. Suddenly, the lights went off.** А обычная цепочка со связками выглядит так: **First I called a taxi, then I grabbed my bag, and finally I ran to the door.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самый частый сбой русскоязычного в рассказе — **соскользнуть в настоящее время** посреди истории. Начал в прошлом, увлёкся — и договаривает будто сейчас: **I woke up late, so I run to the bus and buy a ticket…** ✗. В английском рассказе **все звенья цепочки стоят в прошедшем**: **I woke up late, so I ran to the bus and bought a ticket…** ✓. Держи всю историю в одном времени, не перескакивай."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Past Simple — время рассказа: события идут цепочкой, и порядок предложений = порядок событий (**I got up, made coffee and left**). Каждое действие — готовая «точка», поэтому язык истории именно Simple. Между звеньями ставят связки: **first**, **then**, **after that**, **later**, **finally**, **suddenly** (вводит неожиданный поворот). Главная ошибка — соскользнуть в настоящее посреди рассказа: всю историю держим в прошедшем.",
+      "examples": [
+        {
+          "ru": "Я закончил учёбу в 2016-м, а потом уехал за границу.",
+          "en": "I graduated in 2016, then went abroad."
+        },
+        {
+          "ru": "Она открыла ноутбук, проверила почту и начала работать.",
+          "en": "She opened her laptop, checked her email and started to work."
+        },
+        {
+          "ru": "Мы поужинали, и тут вдруг отключили свет.",
+          "en": "We finished dinner, and then suddenly the lights went off."
+        },
+        {
+          "ru": "Сначала Тёма позвонил другу, потом заказал такси.",
+          "en": "First Tyoma called a friend, then ordered a taxi."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, в каком порядке произошли события в рассказе?",
+        "Зачем нужны слова first, then, finally, если и так всё в прошедшем?",
+        "Почему нельзя рассказывать историю в настоящем времени?"
+      ]
+    },
+    {
+      "id": 246,
+      "microtopicId": 83,
+      "title": "Привычки прошлого: «раньше — регулярно»",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы видели Past Simple для одной точки и для цепочки точек. Теперь — случай, который русского особенно путает: **повторяющееся, привычное действие в прошлом**."
+        },
+        {
+          "type": "heading",
+          "text": "Регулярно — но в прошлом и закрыто"
+        },
+        {
+          "type": "paragraph",
+          "text": "Past Simple описывает не только разовое, но и то, что происходило **много раз, регулярно**, — при условии, что этот период **закрыт**, остался в прошлом."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I played football every day when I was a child.** *(В детстве я играл в футбол каждый день.)*",
+            "**We often went to the sea in summer.** *(Летом мы часто ездили на море.)*",
+            "**She always took the same bus to work.** *(Она всегда ездила на работу на одном автобусе.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Действие повторялось хоть тысячу раз — но окно, в котором оно повторялось (детство, те годы, та работа), **захлопнулось**. Поэтому Past Simple."
+        },
+        {
+          "type": "heading",
+          "text": "Те же маркеры, что в Present Simple, — но окно закрыто"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот где легко споткнуться. Слова регулярности — **every day**, **often**, **usually**, **always**, **sometimes** — те же самые, что в Present Simple. Разница не в них, а в том, **открыто окно или закрыто**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I play football every day.** — окно открыто: я и сейчас так делаю (Present Simple).",
+            "**I played football every day when I was a child.** — окно закрыто: было в детстве, сейчас нет (Past Simple)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Что закрывает окно? Обычно маркер прошлого рядом: **when I was a child**, **in those days**, **back then**, **at university**. Он и переводит привычку из «вообще» в «тогда»."
+        },
+        {
+          "type": "heading",
+          "text": "Сравнение с русским"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски привычка прошлого — это несовершенный вид: «я **играл** каждый день», «мы часто **ездили**». Русский тут не даёт подсказки-времени в самом глаголе — только контекст («в детстве»). Английский же обязан поставить глагол в Past Simple. Русскому кажется, что «регулярно» = «вообще» = настоящее, — и отсюда тянет **I play** про детство."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**In my childhood I play football every day.** ✗ → **In my childhood I played football every day.** ✓. Маркер `in my childhood` уже закрыл окно — значит и глагол обязан уйти в прошедшее. Регулярность действия не делает его настоящим: раз период кончился, привычка стоит в Past Simple."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Для оттенка «раньше делал регулярно, а теперь перестал» в английском есть отдельная конструкция — `used to` (**I used to play football**). Она специально подчёркивает «было и прошло». Разберём её в своей микротеме. Пока достаточно знать, что привычку прошлого прекрасно передаёт и обычный Past Simple."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Past Simple описывает и регулярные, привычные действия в прошлом — если период закрыт: **I played football every day when I was a child**, **We often went to the sea**. Маркеры регулярности те же, что в Present Simple (every day, often, always), разница — открыто окно или нет: **I play** (сейчас) ↔ **I played … when I was a child** (тогда). Ошибка — оставить настоящее из-за «регулярности»: маркер прошлого (in my childhood, back then) закрывает окно и требует Past Simple.",
+      "examples": [
+        {
+          "ru": "В детстве Катя читала перед сном каждый вечер.",
+          "en": "In her childhood Katya read before bed every evening."
+        },
+        {
+          "ru": "Мы часто гуляли в этом парке по выходным.",
+          "en": "We often walked in this park at weekends."
+        },
+        {
+          "ru": "В те годы он всегда вставал в шесть.",
+          "en": "In those days he always got up at six."
+        },
+        {
+          "ru": "Студентами мы иногда работали по ночам.",
+          "en": "As students we sometimes worked at night."
+        }
+      ],
+      "clarificationOptions": [
+        "Если действие повторялось каждый день, почему это не настоящее время?",
+        "Как понять, что привычка в прошлом, а не сейчас?",
+        "Чем Past Simple для привычки отличается от used to?"
+      ]
+    },
+    {
+      "id": 247,
+      "microtopicId": 83,
+      "title": "Долгие состояния и периоды: «длилось, но закончилось»",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Осталась ещё одна большая группа случаев — и снова та, где русский боится простого глагола. Past Simple годится не только для короткого «щелчка», но и для **долгого состояния или целого периода жизни**."
+        },
+        {
+          "type": "heading",
+          "text": "Длилось долго — но период закрыт"
+        },
+        {
+          "type": "paragraph",
+          "text": "Действие могло тянуться годами. Если оно **закончилось**, это Past Simple."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I lived in Kazan for five years.** *(Я прожил в Казани пять лет.)*",
+            "**She worked there from 2015 to 2019.** *(Она работала там с 2015 по 2019.)*",
+            "**I knew him well.** *(Я хорошо его знал.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Пять лет — это не точка, это длинный отрезок. Но отрезок **закрытый**: прожил и уехал, работала и уволилась. А для закрытого отрезка в прошлом — Past Simple, каким бы длинным он ни был."
+        },
+        {
+          "type": "heading",
+          "text": "«Долго» не значит «нужно длительное время»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот главное недоразумение этой карточки. Русскому кажется: раз действие тянулось — надо какое-то «длительное» время. Но мы уже говорили в начале темы: **английскому важна не длительность, а закрытость**. Секунда или пять лет — если отрезок закрыт, это Past Simple."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I broke my phone.** — одна секунда → Past Simple.",
+            "**I lived abroad for ten years.** — десять лет → всё равно Past Simple."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разницу «долго/коротко» английский тут просто не различает. Он различает «закрыто / не закрыто»."
+        },
+        {
+          "type": "heading",
+          "text": "Маркеры длительности: for и from … to"
+        },
+        {
+          "type": "paragraph",
+          "text": "У периодов свои слова-подсказки, не такие, как у точки:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**for** + срок: **for five years**, **for a while**, **for two months** — как долго длилось.",
+            "**from … to**: **from 2015 to 2019**, **from Monday to Friday** — с какого по какое."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Они показывают протяжённость, но время всё равно остаётся Past Simple: **He earned a good salary for many years.**"
+        },
+        {
+          "type": "heading",
+          "text": "Глаголы-состояния остаются в Simple"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельно про глаголы вроде **know**, **love**, **like**, **want**, **understand**, **remember**. В теме «Present Continuous» мы разбирали, что они описывают **состояние**, а не действие, и в длительное время не идут. То же и в прошлом: их долгое состояние выражается **простым** Past Simple, а не «был + -ing»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I knew her for years.** ✓ — не **I was knowing her** ✗.",
+            "**He loved that city.** ✓ — не **He was loving that city** ✗."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I was living in Kazan for five years** — русскому кажется солиднее, «жил же долго». Но если период просто **закрыт** и назван целиком (`for five years`), нужен обычный **I lived in Kazan for five years** ✓. «Длительное» время рисует процесс в один конкретный момент («я как раз жил там, когда…»), а не подводит итог целого закрытого отрезка. Итог закрытого периода — всегда Past Simple."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Past Simple выражает и долгие состояния/периоды прошлого — если период закрыт: **I lived in Kazan for five years**, **She worked there from 2015 to 2019**, **I knew him well**. Важна не длительность, а закрытость отрезка — секунда или пять лет всё равно Past Simple. Маркеры периода — **for** (for five years) и **from … to**. Глаголы-состояния (know, love, want) и в прошлом остаются в Simple: **I knew her for years** ✓, не «was knowing».",
+      "examples": [
+        {
+          "ru": "Олег работал в той компании пять лет.",
+          "en": "Oleg worked at that company for five years."
+        },
+        {
+          "ru": "Она получала хорошую зарплату с 2018 по 2021.",
+          "en": "She earned a good salary from 2018 to 2021."
+        },
+        {
+          "ru": "Я долго знал его как честного человека.",
+          "en": "I knew him as an honest man for a long time."
+        },
+        {
+          "ru": "В детстве мы жили за границей.",
+          "en": "In our childhood we lived abroad."
+        }
+      ],
+      "clarificationOptions": [
+        "Если я жил там пять лет, почему это не «длительное» время?",
+        "Почему нельзя сказать «I was knowing him»?",
+        "Чем for отличается от from … to при указании периода?"
+      ]
+    },
+    {
+      "id": 248,
+      "microtopicId": 83,
+      "title": "Где Past Simple не работает: два указателя",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы прошли все ситуации, где Past Simple — верный выбор. Но чтобы не выучить его как «единственное прошедшее» и не пихать во всё подряд, честно очертим **границу**: два случая, где нужно **другое** время. Заучивать их сейчас не надо — это указатели на будущее, чтобы ты узнавал такие ситуации и не путался."
+        },
+        {
+          "type": "heading",
+          "text": "Указатель 1 — тянущийся процесс в момент прошлого (Past Continuous)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если мы не ставим точку, а рисуем **процесс, который тянулся** в какой-то момент прошлого (и часто в него что-то врывается), — это не Past Simple."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was cooking dinner when he called.** *(Я готовил ужин, когда он позвонил.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь `was cooking` — фон, тянущийся процесс, а `called` — точка, которая в него вошла. Для такого «шёл процесс» есть отдельное время — **Past Continuous**, и мы разберём его сразу после этой темы. Пока достаточно узнавать: «я как раз что-то делал в тот момент» — это не простое прошедшее."
+        },
+        {
+          "type": "heading",
+          "text": "Указатель 2 — важен результат сейчас, а момент не назван (Present Perfect)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если мы говорим о прошлом действии, но **не привязываем его к моменту** и упираем на **результат прямо сейчас**, — это тоже не Past Simple."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I have lost my keys.** *(Я потерял ключи — и сейчас их у меня нет.)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница тонкая, но важная:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I lost my keys yesterday.** — назван момент (`yesterday`), взгляд в прошлое → Past Simple.",
+            "**I have lost my keys.** — момент не назван, важно, что ключей нет **сейчас** → Present Perfect."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это то самое время, которое мы обещали ещё в начале темы (помнишь развилку «я потерял ключи»?). Его разберём подробно в своей теме; сейчас — просто флажок: момент не назван, но важен результат сейчас — скорее всего, это не Past Simple."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Past Simple — это про **закрытый момент или период прошлого, на который мы смотрим со стороны**. Как только появляется «процесс прямо в тот миг» или «результат важен сейчас, а когда — неважно», — это сигнал, что нужно другое время. Мы к ним подойдём; пока держим в голове саму границу."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Past Simple — не единственное прошедшее. Два случая, где нужно другое время: (1) тянущийся процесс в момент прошлого — **I was cooking when he called** — это Past Continuous (сразу после этой темы); (2) важен результат сейчас, а момент не назван — **I have lost my keys** — это Present Perfect. Ориентир: назван или ясен момент и взгляд в прошлое → Past Simple; «шёл процесс в тот миг» или «результат важен сейчас» → другое время.",
+      "examples": [
+        {
+          "ru": "Я готовил ужин, когда он позвонил.",
+          "en": "I was cooking dinner when he called."
+        },
+        {
+          "ru": "Когда ты вошёл, я читал книгу.",
+          "en": "When you came in, I was reading a book."
+        },
+        {
+          "ru": "Я потерял ключи — и сейчас их нет.",
+          "en": "I have lost my keys."
+        },
+        {
+          "ru": "Она уже уехала в аэропорт.",
+          "en": "She has already left for the airport."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить «шёл процесс» от законченного действия?",
+        "Почему «I have lost my keys» — без слова «когда»?",
+        "Если прошлых времён несколько, как выбрать нужное?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2449,6 +2993,90 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 95,
       "orderInCard": 3
+    },
+    {
+      "cardId": 244,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 133,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 244,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 114,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 244,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 96,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 244,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 33,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 245,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 97,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 245,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 31,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 245,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 48,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 246,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 134,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 246,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 115,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 246,
+      "exerciseType": "MATCHING",
+      "exerciseId": 35,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 247,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 135,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 247,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 116,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 247,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 42,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 247,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 98,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2700,6 +3328,46 @@
       "translation": "всё равно, в любом случае",
       "transcription": "[ˈeniweɪ]",
       "microtopicId": 82,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 477,
+      "word": "to earn",
+      "translation": "зарабатывать, заработать",
+      "transcription": "[ɜːn]",
+      "microtopicId": 83,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 478,
+      "word": "to graduate",
+      "translation": "оканчивать учёбу, выпускаться",
+      "transcription": "[ˈɡrædʒueɪt]",
+      "microtopicId": 83,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 479,
+      "word": "childhood",
+      "translation": "детство",
+      "transcription": "[ˈtʃaɪldhʊd]",
+      "microtopicId": 83,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 480,
+      "word": "abroad",
+      "translation": "за границей, за границу",
+      "transcription": "[əˈbrɔːd]",
+      "microtopicId": 83,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 481,
+      "word": "salary",
+      "translation": "зарплата, оклад",
+      "transcription": "[ˈsæləri]",
+      "microtopicId": 83,
       "categoryId": "tenses"
     }
   ],
@@ -2984,6 +3652,99 @@
         }
       ],
       "explanation": "Строка 4: после подлежащего глагол голый — Did he finish…? Строка 5: смешаны два лагеря — либо No, I didn't (+ глагол), либо No, I wasn't there для to be. Остальные верны."
+    },
+    {
+      "id": 114,
+      "statements": [
+        {
+          "en": "Last night we watched a film at home.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I buy a new laptop two days ago.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Kolya paid for the coffee.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She sended the parcel yesterday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They arrived at nine.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: two days ago — прошлое, нужна форма bought, а не buy. Строка 4: to send неправильный, форма прошедшего — sent, а не sended. Остальные предложения верны."
+    },
+    {
+      "id": 115,
+      "statements": [
+        {
+          "en": "When I was a child, I hated vegetables.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "In those days we go to the cinema every week.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She always walked to school as a kid.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My grandfather worked at the factory for years.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Back then Nick play football every Sunday.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "Строка 2: in those days закрыл окно, нужно went, а не go. Строка 5: back then — прошлое, нужна форма played. Остальные предложения верны."
+    },
+    {
+      "id": 116,
+      "statements": [
+        {
+          "en": "We lived in that house for twelve years.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She was knowing him since school.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I loved that job from the very first day.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They worked abroad from 2010 to 2014.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He was wanting a dog for a long time.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "Строки 2 и 5: know и want — глаголы-состояния, в длительное время они не идут, нужно knew и wanted. Остальные предложения верны: закрытые периоды стоят в простом прошедшем."
     }
   ],
   "word_arrangement_exercises": [
@@ -3099,6 +3860,62 @@
         "this evening"
       ],
       "explanation": "Схема WH + did + подлежащее + голый глагол cook. Форма cooked дала бы двойное прошлое, does увело бы в настоящее, а this evening не совпадает по смыслу с «вчера»."
+    },
+    {
+      "id": 96,
+      "situationRu": "RU: Рома нашёл ключи под диваном вчера вечером.",
+      "correctSentence": "Roma found the keys under the sofa last night.",
+      "words": [
+        "Roma",
+        "found",
+        "the keys",
+        "under the sofa",
+        "last night"
+      ],
+      "distractors": [
+        "finds",
+        "has found",
+        "finded",
+        "this morning"
+      ],
+      "explanation": "Разовое законченное действие в прошлом — форма found; finds это настоящее, finded выдумано по правилу -ed (глагол неправильный), а has found — другое время. Время события вечернее — last night."
+    },
+    {
+      "id": 97,
+      "situationRu": "RU: Утром Лена проснулась, оделась и вышла из дома.",
+      "correctSentence": "In the morning Lena woke up, got dressed and left the house.",
+      "words": [
+        "In the morning",
+        "Lena",
+        "woke up",
+        "got dressed",
+        "left the house"
+      ],
+      "distractors": [
+        "wakes up",
+        "leaves",
+        "in the evening"
+      ],
+      "explanation": "Все звенья цепочки стоят в прошедшем: woke up, got dressed, left. Настоящие формы wakes up / leaves рушат рассказ, а действие происходит утром, а не вечером."
+    },
+    {
+      "id": 98,
+      "situationRu": "RU: Мы прожили в этом городе почти двадцать лет.",
+      "correctSentence": "We lived in this city for almost twenty years.",
+      "words": [
+        "We",
+        "lived",
+        "in this city",
+        "for",
+        "almost twenty years"
+      ],
+      "distractors": [
+        "live",
+        "were living",
+        "since",
+        "this week"
+      ],
+      "explanation": "Закрытый период → простое lived; live это настоящее, were living рисует процесс, а не итог. Длительность даёт for + срок, поэтому since лишнее, а this week не про долгий отрезок."
     }
   ],
   "multiple_choice_exercises": [
@@ -3290,6 +4107,90 @@
         }
       ],
       "explanation": "WH-слово впереди, дальше did + голый глагол: Where did you go…? Без did (where you went) вопрос не строится, а did + went — двойное прошлое."
+    },
+    {
+      "id": 133,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Марк вчера продал свою машину.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Mark sells his car yesterday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mark sold his car yesterday.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mark has sold his car yesterday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Есть привязка к моменту прошлого (yesterday) → Past Simple, форма sold. Настоящее sells к «вчера» не подходит, а вариант с has sold и названным моментом не сочетается."
+    },
+    {
+      "id": 33,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I saw Emma at the station yesterday.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Вчера я видел Эмму на вокзале.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я часто вижу Эмму на вокзале.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я увижу Эмму на вокзале.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "saw + yesterday — одно законченное действие в прошлом, разовая точка. Вариант про «часто вижу» — это настоящее (привычка), а «увижу» — будущее."
+    },
+    {
+      "id": 134,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "В детстве Игорь играл на гитаре каждый день.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Igor played the guitar every day in his childhood.",
+          "isCorrect": true
+        },
+        {
+          "text": "Igor plays the guitar every day in his childhood.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor is playing the guitar every day in his childhood.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Маркер in his childhood закрыл окно — привычка осталась в прошлом → played. Настоящее plays говорило бы «сейчас так делает», а is playing рисует процесс в один момент."
+    },
+    {
+      "id": 135,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Настя работала в Берлине три года.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Nastya works in Berlin for three years.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nastya was working in Berlin for three years.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nastya worked in Berlin for three years.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Период закрыт (три года, и он закончился) → Past Simple worked. Слово for показывает длительность, но время остаётся простым; works — настоящее, а was working рисовало бы процесс в один момент."
     }
   ],
   "text_input_exercises": [
@@ -3364,6 +4265,30 @@
         }
       ],
       "explanation": "Смотрим на существительное после глагола: a queue — один предмет, поэтому was; glasses стоит во множественном числе, поэтому were; noise — несчётное, у него множественного числа нет, значит снова was."
+    },
+    {
+      "id": 42,
+      "items": [
+        {
+          "sentence": "Igor ___ in London for six years and then moved back.",
+          "contextRu": "жил",
+          "answer": "lived",
+          "alternatives": []
+        },
+        {
+          "sentence": "As a child I ___ my grandmother very much.",
+          "contextRu": "любил",
+          "answer": "loved",
+          "alternatives": []
+        },
+        {
+          "sentence": "She ___ a good salary at her old job.",
+          "contextRu": "получала",
+          "answer": "earned",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Закрытые периоды и состояния прошлого — простой Past Simple: live → lived, love → loved (глагол-состояние, но форма всё равно простая), earn → earned."
     }
   ],
   "dialog_restore_exercises": [
@@ -3459,6 +4384,29 @@
         }
       ],
       "explanation": "Все пять форм читаются не так, как выглядят: в heard и said меняется весь гласный звук, meant теряет долготу из to mean [[miːn]], в bought буквы -ough дают [[ɔː]], а read в прошедшем звучит как цвет red."
+    },
+    {
+      "id": 35,
+      "taskDescription": "соедини русскую фразу с её английским переводом.",
+      "pairs": [
+        {
+          "left": "В детстве я боялся темноты.",
+          "right": "As a child I was afraid of the dark."
+        },
+        {
+          "left": "Мы часто ужинали всей семьёй.",
+          "right": "We often had dinner as a family."
+        },
+        {
+          "left": "Она всегда опаздывала на уроки.",
+          "right": "She was always late for classes."
+        },
+        {
+          "left": "В студенчестве Рома много читал.",
+          "right": "As a student Roma read a lot."
+        }
+      ],
+      "explanation": "Все четыре фразы — привычки и состояния прошлого, поэтому Past Simple: was, had, read. Окно закрыто маркером (as a child, as a student, often в прошлом)."
     }
   ],
   "error_correction_exercises": [
@@ -3616,6 +4564,25 @@
         }
       ],
       "explanation": "did выходит вперёд, а глагол возвращается в базовую форму — и у правильного (book), и у неправильного (lose, hear). Вторая форма (lost, heard) и окончание -ed в вопросе не остаются: время держит did."
+    },
+    {
+      "id": 31,
+      "taskDescription": "перепиши рассказ в прошедшем времени.",
+      "items": [
+        {
+          "original": "I get up early, make breakfast and go to work.",
+          "transformed": "I got up early, made breakfast and went to work."
+        },
+        {
+          "original": "She calls a taxi, waits ten minutes and leaves.",
+          "transformed": "She called a taxi, waited ten minutes and left."
+        },
+        {
+          "original": "We finish the meeting, have lunch and drive home.",
+          "transformed": "We finished the meeting, had lunch and drove home."
+        }
+      ],
+      "explanation": "В прошедшее уходит вся цепочка целиком — каждое звено меняет форму (get→got, make→made, go→went; call→called, wait→waited; finish→finished, have→had, drive→drove). Переводить только первый глагол нельзя — рассказ должен стоять в одном времени."
     }
   ],
   "categorization_exercises": [
@@ -3820,6 +4787,29 @@
         }
       ],
       "explanation": "letters, keys и neighbours стоят во множественном числе, поэтому There were… А money — несчётное существительное, множественного числа у него нет, и оно всегда идёт с There was…"
+    },
+    {
+      "id": 48,
+      "groupDescription": "Три предложения — звенья одного рассказа в прошедшем, одно выпадает",
+      "items": [
+        {
+          "text": "Anton opened the door.",
+          "isOdd": false
+        },
+        {
+          "text": "He turned on the light.",
+          "isOdd": false
+        },
+        {
+          "text": "He puts his bag on the table.",
+          "isOdd": true
+        },
+        {
+          "text": "Then he sat down.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "opened, turned и sat — прошедшее время, звенья рассказа о прошлом. А puts — настоящее время, оно выпадает из цепочки; по смыслу нужно put."
     }
   ]
 }
