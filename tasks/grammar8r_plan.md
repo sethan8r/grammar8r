@@ -1238,7 +1238,7 @@ theory/
 │   │       что «He doesn't works» ✗). Плюс развилка: с was/were did не появляется вообще
 │   │       («I didn't was tired» ✗ → «I wasn't tired»). + AI (2 задания).
 │   │
-│   ├── МТ82 · Questions · Вопрос: Did…? (3 карточки)
+│   ├── МТ82 · Questions · Вопрос: Did…? (3 карточки) ✅ (написана, ALL GREEN 24.07.26)
 │   │   ├── Card 241 · Did + подлежащее + V1: «Did you see him?», «Did she call?» — глагол снова голый V1.
 │   │   │   did впереди = сигнал вопроса (мост к схеме вопроса из «Вспомогательных глаголов»).
 │   │   │   Ловушка «Did you saw?» ✗. + AI.
