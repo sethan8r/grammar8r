@@ -19769,7 +19769,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "\"Students\" — множественное число. Вопрос для нескольких: Are there...?"
+      "explanation": "\"Students\" — множественное число. Вопрос для нескольких: Are there...?",
+      "taskDescription": "RU: В классе есть студенты?"
     },
     {
       "id": 6,
@@ -19847,7 +19848,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "После глагола и после предлога — всегда объектная форма: me / you / him / her / it / us / them."
+      "explanation": "После глагола и после предлога — всегда объектная форма: me / you / him / her / it / us / them.",
+      "taskDescription": "Вставь правильную объектную форму местоимения:"
     },
     {
       "id": 11,
@@ -19865,7 +19867,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "How long — длительность (фильма, поездки, урока). How old — возраст человека. Нельзя поменять местами: \"How old is the film?\" — странный вопрос о возрасте фильма, не о его продолжительности."
+      "explanation": "How long — длительность (фильма, поездки, урока). How old — возраст человека. Нельзя поменять местами: \"How old is the film?\" — странный вопрос о возрасте фильма, не о его продолжительности.",
+      "taskDescription": "Вставь нужную конструкцию:"
     },
     {
       "id": 12,
@@ -19883,7 +19886,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "8 o'clock — точное время → at. The afternoon — часть суток (не ночь) → in."
+      "explanation": "8 o'clock — точное время → at. The afternoon — часть суток (не ночь) → in.",
+      "taskDescription": "Вставь предлог:"
     },
     {
       "id": 13,
@@ -19931,7 +19935,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "knife → knives (-fe → ves). party → parties (согл.+y → ies). roof → roofs (исключение из правила -f). dish → dishes (-sh + es). day → days (гласн.+y → просто +s)."
+      "explanation": "knife → knives (-fe → ves). party → parties (согл.+y → ies). roof → roofs (исключение из правила -f). dish → dishes (-sh + es). day → days (гласн.+y → просто +s).",
+      "taskDescription": "Напиши правильную форму множественного числа:"
     },
     {
       "id": 15,
@@ -19973,7 +19978,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "40 = forty (не fourty). 56 = fifty-six (дефис). 13 = thirteen (не thirtheen)."
+      "explanation": "40 = forty (не fourty). 56 = fifty-six (дефис). 13 = thirteen (не thirtheen).",
+      "taskDescription": "Напиши число словами:"
     },
     {
       "id": 16,
@@ -20011,7 +20017,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "1999: nineteen + ninety-nine (две половины). 1905: ноль читается \"oh\". 2024: допустимы оба варианта."
+      "explanation": "1999: nineteen + ninety-nine (две половины). 1905: ноль читается \"oh\". 2024: допустимы оба варианта.",
+      "taskDescription": "Напиши год словами по-английски:"
     },
     {
       "id": 17,
@@ -20047,7 +20054,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "Дни недели и даты — всегда on. \"At the weekend\" — устойчивое выражение с at (брит.)."
+      "explanation": "Дни недели и даты — всегда on. \"At the weekend\" — устойчивое выражение с at (брит.).",
+      "taskDescription": "Вставь правильный предлог (on / at):"
     },
     {
       "id": 18,
@@ -20083,7 +20091,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "January — первый месяц года, December — последний. February — самый короткий (28–29 дней). После July идёт August, перед June — May."
+      "explanation": "January — первый месяц года, December — последний. February — самый короткий (28–29 дней). После July идёт August, перед June — May.",
+      "taskDescription": "Вставь правильный месяц:"
     },
     {
       "id": 19,
@@ -20203,7 +20212,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "После needs — to + базовая форма: \"needs to learn\". Просто \"learn\" — пропущен \"to\". \"learning\" или \"to learning\" — ошибка: после to только базовая форма."
+      "explanation": "После needs — to + базовая форма: \"needs to learn\". Просто \"learn\" — пропущен \"to\". \"learning\" или \"to learning\" — ошибка: после to только базовая форма.",
+      "taskDescription": "Вставь правильную форму глагола в скобках:"
     },
     {
       "id": 24,
@@ -20215,7 +20225,8 @@
           "alternatives": []
         }
       ],
-      "explanation": "Laptops и tablets — примеры электроники. \"such as\" идёт сразу после существительного и вводит примеры. \"as well as\" здесь не подходит — оно соединяет два отдельных равнозначных элемента."
+      "explanation": "Laptops и tablets — примеры электроники. \"such as\" идёт сразу после существительного и вводит примеры. \"as well as\" здесь не подходит — оно соединяет два отдельных равнозначных элемента.",
+      "taskDescription": "Вставь `as well as` или `such as`:"
     }
   ],
   "dialog_restore_exercises": [

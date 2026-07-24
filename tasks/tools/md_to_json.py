@@ -345,13 +345,19 @@ def _ti_split_ctx(txt):
     return txt.strip().strip('"').strip(), ctx
 
 def ex_text_input(body, type_id):
-    # Таблица TextInputExercise разрешает только {sentence, contextRu, answer, alternatives}.
-    # Контент пишет 5 разными способами — парсер приводит всё к этим 4 полям.
-    # 'Подсказка:' в схеме НЕТ → выкидываем. Старый MD не переделываем.
-    items, cur = [], None
+    # items: таблица разрешает {sentence, contextRu, answer, alternatives}.
+    # Опц. «банк слов»: строка `Банк: w1, w2, …` -> wordBank (пул статичных чипов),
+    # а первая не-пунктовая строка -> taskDescription (шапка-задание). Обе NULL у обычных
+    # заданий -> вид не меняется. 'Подсказка:' в схеме НЕТ -> выкидываем. Старый MD не переделываем.
+    items, cur, task, bank = [], None, None, None
     for l in body:
         s = l.strip()
         if not s or s.startswith('*Explanation') or s.startswith('Подсказка:'):
+            continue
+        # строка банка слов:  Банк: жил, любил, получала
+        mb = re.match(r'^Банк\s*:\s*(.+)$', s)
+        if mb:
+            bank = [strip_md(w.strip()) for w in mb.group(1).split(',') if w.strip()]
             continue
         # italic-only строка контекста:  *(нужен ли предлог?)*
         ic = re.fullmatch(r'\*\((.+)\)\*', s)
@@ -385,9 +391,17 @@ def ex_text_input(body, type_id):
             sent, ctx = _ti_split_ctx(re.sub(r'^\d+\.\s*', '', s))
             cur = {'sentence': sent, 'contextRu': ctx, 'answer': '', 'alternatives': []}
             continue
+        # первая не-пунктовая строка ДО пунктов = задание-шапка (напр. «Впиши глагол…»)
+        if cur is None and not items and task is None:
+            task = strip_md(s)
     if cur:
         items.append(cur)
-    return {'id': type_id, 'items': items, 'explanation': parse_explanation(body)}
+    out = {'id': type_id, 'items': items, 'explanation': parse_explanation(body)}
+    if task:
+        out['taskDescription'] = task
+    if bank:
+        out['wordBank'] = bank
+    return out
 
 def ex_dialog_restore(body, type_id):
     dlg = []
@@ -828,6 +842,13 @@ def validate(content):
     for e in content['text_input_exercises']:
         chk(len(e['items']) >= 1, 'TEXT_INPUT', e['id'], "0 пунктов")
         chk(all(it['sentence'] for it in e['items']), 'TEXT_INPUT', e['id'], "пункт без предложения")
+        if e.get('wordBank'):
+            chk(bool(e.get('taskDescription')), 'TEXT_INPUT', e['id'], "есть Банк, но нет строки-задания (шапки)")
+            chk(len(e['wordBank']) >= 1, 'TEXT_INPUT', e['id'], "пустой Банк")
+            chk(len(e['wordBank']) <= 3, 'TEXT_INPUT', e['id'],
+                f"в Банке {len(e['wordBank'])} слов — держим ≤3 (капсула компактная, раскрытие не двигает layout)")
+            chk(not any(it['contextRu'] for it in e['items']), 'TEXT_INPUT', e['id'],
+                "у банк-задания не должно быть пер-пунктовых глоссов (contextRu) — слова только в Банке")
     for e in content['word_arrangement_exercises']:
         chk(bool(e['correctSentence']), 'WORD_ARRANGEMENT', e['id'], "нет correctSentence")
         chk(bool(e['situationRu']), 'WORD_ARRANGEMENT', e['id'], "нет задания (строка RU:/Ситуация:)")

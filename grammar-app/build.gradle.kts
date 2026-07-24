@@ -50,8 +50,10 @@ ksp {
 // Шаг C: сборка content.db из JSON-сидов перед упаковкой assets.
 // json_to_db.py берёт структуру из экспортированной Room-схемы (identity hash обязан совпасть),
 // данные — из tasks/tools/seed/**/*.json. Результат — build-артефакт, в VCS не коммитим (см. .gitignore).
-val contentDbSchema = file(
-    "schemas/dev.sethan8r.grammar.app.data.local.content.ContentDatabase/1.json"
+// Папка экспортированных Room-схем content.db. Конкретную версию (последний N.json) выбирает
+// json_to_db.py в рантайме — так bump версии БД не требует правки этого пути.
+val contentDbSchemaDir = file(
+    "schemas/dev.sethan8r.grammar.app.data.local.content.ContentDatabase"
 )
 val contentDbOutput = file("src/main/assets/content.db")
 val seedDir = rootProject.file("tasks/tools/seed")
@@ -62,15 +64,16 @@ val generateContentDb by tasks.registering(Exec::class) {
     description = "Собирает content.db из JSON-сидов по Room-схеме (Шаг C)."
 
     inputs.file(seedScript)
-    inputs.file(contentDbSchema)
+    inputs.dir(contentDbSchemaDir)
     inputs.dir(seedDir)
     outputs.file(contentDbOutput)
 
     // Windows — лаунчер `py`, CI/Linux/macOS — `python3`.
     val python = if (System.getProperty("os.name").startsWith("Windows", ignoreCase = true)) "py" else "python3"
+    // Без --schema: json_to_db.py сам берёт последнюю версию схемы из папки ContentDatabase
+    // (в рантайме, после ksp — так свежий N.json уже на месте).
     commandLine(
         python, seedScript.absolutePath,
-        "--schema", contentDbSchema.absolutePath,
         "--out", contentDbOutput.absolutePath,
     )
 

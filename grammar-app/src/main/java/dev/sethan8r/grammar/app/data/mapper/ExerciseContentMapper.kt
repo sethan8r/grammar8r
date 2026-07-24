@@ -46,6 +46,8 @@ class ExerciseContentMapper @Inject constructor(private val json: Json) {
         items = json.decodeFromString<List<TextItemJson>>(entity.items)
             .map { TextItem(it.sentence, it.contextRu, it.answer, it.alternatives) },
         explanation = entity.explanation,
+        taskDescription = entity.taskDescription,
+        wordBank = entity.wordBank?.let { json.decodeFromString<List<String>>(it) }.orEmpty(),
     )
 
     fun toErrorCorrection(entity: ErrorCorrectionExercise): Exercise.ErrorCorrection = Exercise.ErrorCorrection(

@@ -314,16 +314,16 @@ RU: Мы пьём кофе каждое утро.
 
 **Ex 6 · TextInput** *(ID: 34)*
 
-1. "She ___ coffee every morning." (пьёт)
+Впиши глагол в подходящее по смыслу предложение в настоящем времени.
+Банк: смотрит, учит, пьёт
+
+1. "She ___ coffee every morning."
    Ответ: **drinks**
 
-2. "My brother ___ in London." (живёт)
-   Ответ: **lives**
-
-3. "He ___ TV in the evening." (смотрит)
+2. "He ___ TV in the evening."
    Ответ: **watches**
 
-4. "Nick ___ English." (учит)
+3. "Nick ___ English."
    Ответ: **studies**
 
 *Explanation:* Подлежащее he/she/it (и имя в ед. ч.) → глагол с `-s`. Правописание подстраивается: `watch → watches` (шипящая), `study → studies` (согласная + y). Подробно — в следующей карточке.
@@ -1871,13 +1871,16 @@ Present Simple описывает **будущее по расписанию** �
 
 **Ex 57 · TextInput** *(ID: 36)*
 
-1. "The first bus ___ at five thirty." (отходит)
+Впиши глагол в подходящее по смыслу предложение в настоящем времени.
+Банк: закрывается, начинается, отходит
+
+1. "The first bus ___ at five thirty."
    Ответ: **leaves**
 
-2. "The shop ___ at eight in the evening." (закрывается)
+2. "The shop ___ at eight in the evening."
    Ответ: **closes**
 
-3. "The lesson ___ at nine sharp." (начинается)
+3. "The lesson ___ at nine sharp."
    Ответ: **starts**
 
 *Explanation:* Расписание → Present Simple, у 3-го лица ед. ч. глагол получает `-s`: leaves, closes, starts.

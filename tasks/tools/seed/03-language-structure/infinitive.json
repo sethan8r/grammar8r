@@ -1757,24 +1757,30 @@
       "items": [
         {
           "sentence": "She likes ___ books.",
-          "contextRu": "читать",
+          "contextRu": "",
           "answer": "to read",
           "alternatives": []
         },
         {
           "sentence": "We want ___ pizza.",
-          "contextRu": "есть",
+          "contextRu": "",
           "answer": "to eat",
           "alternatives": []
         },
         {
           "sentence": "He needs ___ a letter.",
-          "contextRu": "написать",
+          "contextRu": "",
           "answer": "to write",
           "alternatives": []
         }
       ],
-      "explanation": "Инфинитив = to + первая форма глагола (V1): to read, to eat, to write. Частичку to не теряем и форму не меняем — никаких to reads / to ate."
+      "explanation": "Инфинитив = to + первая форма глагола (V1): to read, to eat, to write. Частичку to не теряем и форму не меняем — никаких to reads / to ate.",
+      "taskDescription": "Впиши глагол с частицей to в подходящее по смыслу предложение.",
+      "wordBank": [
+        "написать",
+        "читать",
+        "есть"
+      ]
     }
   ],
   "dialog_restore_exercises": [

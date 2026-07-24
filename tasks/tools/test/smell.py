@@ -19,7 +19,7 @@ SUS = [
     (re.compile(r'^\s|\s$'), 'лидирующий/хвостовой пробел'),
 ]
 # поля-инструкции пропускаем — там →, /, (лишнее) и т.п. легитимны
-SKIP_KEYS = {'explanation', 'userInstruction', 'title', 'taskDescription', 'groupDescription'}
+SKIP_KEYS = {'explanation', 'userInstruction', 'title', 'taskDescription', 'groupDescription', 'wordBank'}
 
 # Парное **…** в текстах упражнений — ЛЕГИТИМНОЕ выделение жирным (канон: guide §8,
 # exercise_templates «Общие правила»; UI рендерит Bold). Запах — только НЕПАРНЫЕ звёздочки,

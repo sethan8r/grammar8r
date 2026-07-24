@@ -89,11 +89,17 @@ sealed interface Exercise {
         override val type: HardcodedExerciseType get() = HardcodedExerciseType.FIND_THE_ODD
     }
 
-    /** Ввод ответа вручную (case-insensitive), 1–5 пунктов в одном блоке. */
+    /**
+     * Ввод ответа вручную (case-insensitive), 1–5 пунктов в одном блоке.
+     * Режим «банк слов» (опц.): [taskDescription] — шапка-задание, [wordBank] — пул русских
+     * глоссов статичными чипами. Оба пусты у обычных заданий — вид без изменений.
+     */
     data class TextInput(
         override val id: Int,
         val items: List<TextItem>,
         val explanation: String,
+        val taskDescription: String? = null,
+        val wordBank: List<String> = emptyList(),
     ) : Exercise {
         val type: HardcodedExerciseType get() = HardcodedExerciseType.TEXT_INPUT
     }

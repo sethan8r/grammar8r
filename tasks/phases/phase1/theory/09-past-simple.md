@@ -309,15 +309,16 @@ Past Simple — время закрытого прошлого: действие
 
 **Ex 2 · TextInput** *(ID: 39)*
 
-Впиши глагол в форме прошедшего времени.
+Впиши глагол в подходящее по смыслу предложение в форме прошедшего времени.
+Банк: навестил, закрыла, посмотрели
 
-1. "Yesterday Larisa ___ her laptop and went to bed." (закрыла)
+1. "Yesterday Larisa ___ her laptop and went to bed."
    Ответ: **closed**
 
-2. "Last night we ___ a new film at home." (посмотрели)
+2. "Last night we ___ a new film at home."
    Ответ: **watched**
 
-3. "Two days ago Ruslan ___ his grandmother in Tver." (навестил)
+3. "Two days ago Ruslan ___ his grandmother in Tver."
    Ответ: **visited**
 
 *Explanation:* Все три глагола правильные, поэтому берут -ed: close → closed (немое -e, только -d), watch → watched, visit → visited (ударение на первом слоге — согласная не удваивается).
@@ -756,15 +757,16 @@ RU: Мия потеряла телефон в поезде вчера вечер
 
 **Ex 15 · TextInput** *(ID: 40)*
 
-Впиши глагол в форме прошедшего времени.
+Впиши глагол в подходящее по смыслу предложение в форме прошедшего времени.
+Банк: услышал, положила, снизил
 
-1. "Yesterday Kira ___ her bag on the empty chair." (положила)
+1. "Yesterday Kira ___ her bag on the empty chair."
    Ответ: **put**
 
-2. "Last month the shop ___ the prices before the holidays." (снизил)
+2. "Last month the shop ___ the prices before the holidays."
    Ответ: **cut**
 
-3. "Rustam ___ a strange noise in the corridor at night." (услышал)
+3. "Rustam ___ a strange noise in the corridor at night."
    Ответ: **heard**
 
 *Explanation:* У to put и to cut форма прошедшего совпадает с базовой — putted и cutted не существуют. У to hear форма меняется целиком: heard [[hɜːd]].
@@ -2313,15 +2315,16 @@ Past Simple выражает и долгие состояния/периоды �
 
 **Ex 59 · TextInput** *(ID: 42)*
 
-Впиши глагол в форме прошедшего времени.
+Впиши глагол в подходящее по смыслу предложение в форме прошедшего времени.
+Банк: любил, получала, жил
 
-1. "Igor ___ in London for six years and then moved back." (жил)
+1. "Igor ___ in London for six years and then moved back."
    Ответ: **lived**
 
-2. "As a child I ___ my grandmother very much." (любил)
+2. "As a child I ___ my grandmother very much."
    Ответ: **loved**
 
-3. "She ___ a good salary at her old job." (получала)
+3. "She ___ a good salary at her old job."
    Ответ: **earned**
 
 *Explanation:* Закрытые периоды и состояния прошлого — простой Past Simple: live → lived, love → loved (глагол-состояние, но форма всё равно простая), earn → earned.

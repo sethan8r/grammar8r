@@ -4044,30 +4044,30 @@
       "items": [
         {
           "sentence": "She ___ coffee every morning.",
-          "contextRu": "пьёт",
+          "contextRu": "",
           "answer": "drinks",
           "alternatives": []
         },
         {
-          "sentence": "My brother ___ in London.",
-          "contextRu": "живёт",
-          "answer": "lives",
-          "alternatives": []
-        },
-        {
           "sentence": "He ___ TV in the evening.",
-          "contextRu": "смотрит",
+          "contextRu": "",
           "answer": "watches",
           "alternatives": []
         },
         {
           "sentence": "Nick ___ English.",
-          "contextRu": "учит",
+          "contextRu": "",
           "answer": "studies",
           "alternatives": []
         }
       ],
-      "explanation": "Подлежащее he/she/it (и имя в ед. ч.) → глагол с `-s`. Правописание подстраивается: `watch → watches` (шипящая), `study → studies` (согласная + y). Подробно — в следующей карточке."
+      "explanation": "Подлежащее he/she/it (и имя в ед. ч.) → глагол с `-s`. Правописание подстраивается: `watch → watches` (шипящая), `study → studies` (согласная + y). Подробно — в следующей карточке.",
+      "taskDescription": "Впиши глагол в подходящее по смыслу предложение в настоящем времени.",
+      "wordBank": [
+        "смотрит",
+        "учит",
+        "пьёт"
+      ]
     },
     {
       "id": 35,
@@ -4098,24 +4098,30 @@
       "items": [
         {
           "sentence": "The first bus ___ at five thirty.",
-          "contextRu": "отходит",
+          "contextRu": "",
           "answer": "leaves",
           "alternatives": []
         },
         {
           "sentence": "The shop ___ at eight in the evening.",
-          "contextRu": "закрывается",
+          "contextRu": "",
           "answer": "closes",
           "alternatives": []
         },
         {
           "sentence": "The lesson ___ at nine sharp.",
-          "contextRu": "начинается",
+          "contextRu": "",
           "answer": "starts",
           "alternatives": []
         }
       ],
-      "explanation": "Расписание → Present Simple, у 3-го лица ед. ч. глагол получает `-s`: leaves, closes, starts."
+      "explanation": "Расписание → Present Simple, у 3-го лица ед. ч. глагол получает `-s`: leaves, closes, starts.",
+      "taskDescription": "Впиши глагол в подходящее по смыслу предложение в настоящем времени.",
+      "wordBank": [
+        "закрывается",
+        "начинается",
+        "отходит"
+      ]
     },
     {
       "id": 37,

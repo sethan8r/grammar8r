@@ -67,7 +67,13 @@ import dev.sethan8r.grammar.app.data.local.converter.Converters
         CourseWord::class,
         IrregularVerb::class
     ],
-    version = 1,
+    // TODO(dev-versioning): во время обкатки контента КАЖДОЕ изменение схемы content.db (новая
+    //   колонка/таблица) = +1 к version. Ручных Migration НЕ пишем — БД read-only и пересобирается
+    //   из сидов, а destructive fallback (DatabaseModule) при смене версии просто перекопирует
+    //   свежий ассет (пользовательских данных тут нет). ПЕРЕД РЕЛИЗОМ: схлопнуть все dev-бампы
+    //   обратно в version = 1 и удалить лишние schemas/ContentDatabase/*.json — выпускаемся с чистой v1.
+    // v2: TextInputExercise + taskDescription/wordBank («банк слов»).
+    version = 2,
     exportSchema = true
 )
 @TypeConverters(Converters::class)

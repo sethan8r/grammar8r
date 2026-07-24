@@ -4199,48 +4199,60 @@
       "items": [
         {
           "sentence": "Yesterday Larisa ___ her laptop and went to bed.",
-          "contextRu": "закрыла",
+          "contextRu": "",
           "answer": "closed",
           "alternatives": []
         },
         {
           "sentence": "Last night we ___ a new film at home.",
-          "contextRu": "посмотрели",
+          "contextRu": "",
           "answer": "watched",
           "alternatives": []
         },
         {
           "sentence": "Two days ago Ruslan ___ his grandmother in Tver.",
-          "contextRu": "навестил",
+          "contextRu": "",
           "answer": "visited",
           "alternatives": []
         }
       ],
-      "explanation": "Все три глагола правильные, поэтому берут -ed: close → closed (немое -e, только -d), watch → watched, visit → visited (ударение на первом слоге — согласная не удваивается)."
+      "explanation": "Все три глагола правильные, поэтому берут -ed: close → closed (немое -e, только -d), watch → watched, visit → visited (ударение на первом слоге — согласная не удваивается).",
+      "taskDescription": "Впиши глагол в подходящее по смыслу предложение в форме прошедшего времени.",
+      "wordBank": [
+        "навестил",
+        "закрыла",
+        "посмотрели"
+      ]
     },
     {
       "id": 40,
       "items": [
         {
           "sentence": "Yesterday Kira ___ her bag on the empty chair.",
-          "contextRu": "положила",
+          "contextRu": "",
           "answer": "put",
           "alternatives": []
         },
         {
           "sentence": "Last month the shop ___ the prices before the holidays.",
-          "contextRu": "снизил",
+          "contextRu": "",
           "answer": "cut",
           "alternatives": []
         },
         {
           "sentence": "Rustam ___ a strange noise in the corridor at night.",
-          "contextRu": "услышал",
+          "contextRu": "",
           "answer": "heard",
           "alternatives": []
         }
       ],
-      "explanation": "У to put и to cut форма прошедшего совпадает с базовой — putted и cutted не существуют. У to hear форма меняется целиком: heard [[hɜːd]]."
+      "explanation": "У to put и to cut форма прошедшего совпадает с базовой — putted и cutted не существуют. У to hear форма меняется целиком: heard [[hɜːd]].",
+      "taskDescription": "Впиши глагол в подходящее по смыслу предложение в форме прошедшего времени.",
+      "wordBank": [
+        "услышал",
+        "положила",
+        "снизил"
+      ]
     },
     {
       "id": 41,
@@ -4264,31 +4276,38 @@
           "alternatives": []
         }
       ],
-      "explanation": "Смотрим на существительное после глагола: a queue — один предмет, поэтому was; glasses стоит во множественном числе, поэтому were; noise — несчётное, у него множественного числа нет, значит снова was."
+      "explanation": "Смотрим на существительное после глагола: a queue — один предмет, поэтому was; glasses стоит во множественном числе, поэтому were; noise — несчётное, у него множественного числа нет, значит снова was.",
+      "taskDescription": "Впиши нужную форму глагола to be."
     },
     {
       "id": 42,
       "items": [
         {
           "sentence": "Igor ___ in London for six years and then moved back.",
-          "contextRu": "жил",
+          "contextRu": "",
           "answer": "lived",
           "alternatives": []
         },
         {
           "sentence": "As a child I ___ my grandmother very much.",
-          "contextRu": "любил",
+          "contextRu": "",
           "answer": "loved",
           "alternatives": []
         },
         {
           "sentence": "She ___ a good salary at her old job.",
-          "contextRu": "получала",
+          "contextRu": "",
           "answer": "earned",
           "alternatives": []
         }
       ],
-      "explanation": "Закрытые периоды и состояния прошлого — простой Past Simple: live → lived, love → loved (глагол-состояние, но форма всё равно простая), earn → earned."
+      "explanation": "Закрытые периоды и состояния прошлого — простой Past Simple: live → lived, love → loved (глагол-состояние, но форма всё равно простая), earn → earned.",
+      "taskDescription": "Впиши глагол в подходящее по смыслу предложение в форме прошедшего времени.",
+      "wordBank": [
+        "любил",
+        "получала",
+        "жил"
+      ]
     }
   ],
   "dialog_restore_exercises": [

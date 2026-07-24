@@ -31,10 +31,26 @@ except Exception:
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.normpath(os.path.join(HERE, "..", ".."))
 
-DEFAULT_SCHEMA = os.path.join(
+_CONTENT_SCHEMA_DIR = os.path.join(
     REPO, "grammar-app", "schemas",
-    "dev.sethan8r.grammar.app.data.local.content.ContentDatabase", "1.json",
+    "dev.sethan8r.grammar.app.data.local.content.ContentDatabase",
 )
+
+
+def _latest_content_schema():
+    """Последняя версия Room-схемы content.db (макс. N.json). При bump версии БД путь не правим —
+    берём свежий N.json автоматически. Вызывается в рантайме (после ksp N.json уже на месте)."""
+    versions = []
+    for f in glob.glob(os.path.join(_CONTENT_SCHEMA_DIR, "*.json")):
+        stem = os.path.splitext(os.path.basename(f))[0]
+        if stem.isdigit():
+            versions.append((int(stem), f))
+    if not versions:
+        return os.path.join(_CONTENT_SCHEMA_DIR, "1.json")  # запасной путь (пусть упадёт понятно ниже)
+    return max(versions)[1]
+
+
+DEFAULT_SCHEMA = _latest_content_schema()
 DEFAULT_OUT = os.path.join(REPO, "grammar-app", "src", "main", "assets", "content.db")
 SEED_DIR = os.path.join(HERE, "seed")
 

@@ -129,13 +129,14 @@
 
 **Ex 348 · TextInput** *(ID: 33)*
 
-Впиши глагол в форме инфинитива (to + V1):
+Впиши глагол с частицей to в подходящее по смыслу предложение.
+Банк: написать, читать, есть
 
-1. "She likes ___ books." (читать)
+1. "She likes ___ books."
    Ответ: **to read**
-2. "We want ___ pizza." (есть)
+2. "We want ___ pizza."
    Ответ: **to eat**
-3. "He needs ___ a letter." (написать)
+3. "He needs ___ a letter."
    Ответ: **to write**
 
 *Explanation:* Инфинитив = to + первая форма глагола (V1): to read, to eat, to write. Частичку to не теряем и форму не меняем — никаких to reads / to ate.
