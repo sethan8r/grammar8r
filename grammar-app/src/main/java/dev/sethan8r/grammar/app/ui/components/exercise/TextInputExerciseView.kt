@@ -98,9 +98,6 @@ private const val BANK_STRIP_SY = 0.16f
 /** Морф пункта «свёрнут ↔ в фокусе»: размер и цвета плашки, мс. */
 private const val ITEM_MORPH_MS = 240
 
-/** Диаметр точки-индикатора заполненности у свёрнутого пункта. */
-private val ITEM_DOT = 6.dp
-
 /**
  * Рендерер TEXT_INPUT во [ExerciseFrame] (трясётся на ошибке). Пропуск `___` — это инлайн-поле ввода
  * прямо в предложении (пользователь печатает в него, а не в отдельное поле), ширина — по длине
@@ -316,7 +313,7 @@ private fun CollapsedItem(sentence: String, value: String, accent: Color) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
     ) {
-        Box(Modifier.size(ITEM_DOT).background(if (filled) accent else Inactive, CircleShape))
+        Box(Modifier.size(Dimens.exerciseItemDot).background(if (filled) accent else Inactive, CircleShape))
         ExerciseContentText(
             text = previewSentence(sentence, value),
             color = TextSecondary,

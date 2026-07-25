@@ -68,6 +68,9 @@ object Dimens {
     /** Диаметр точки drag-хэндла в углу переставляемой ячейки MATCHING (намёк «перетаскивается»). */
     val matchDragHandleDot = 4.dp
 
+    /** Диаметр точки-индикатора свёрнутого пункта TEXT_INPUT (заполнен — акцент, пуст — серый). */
+    val exerciseItemDot = 6.dp
+
     /** Минимальная высота колонки-категории CATEGORIZATION (видна как зона сброса даже пустой). */
     val categoryColumnMinHeight = 96.dp
 
@@ -89,7 +92,6 @@ object Dimens {
     /** Диаметр точки-маркера текущей карточки (у левого края её деления, как stop-indicator). */
     val progressBarDot = 4.dp
 
-    // Нижняя навигация — плавающая капсула (вариант 2a). Спека: tasks/README.md.
     /** Горизонтальный отступ капсулы от краёв экрана. */
     val bottomBarFloatingMargin = 14.dp
 
