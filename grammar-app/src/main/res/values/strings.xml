@@ -51,6 +51,7 @@
     <string name="exercise_wrong_try_again">Неправильно, попробуйте ещё раз</string>
     <string name="exercise_wrong_final">Неправильно</string>
     <string name="exercise_correct_answer">%1$s</string>
+    <string name="exercise_correct_answer_empty">—</string>
     <string name="exercise_empty">Упражнений в этой карточке пока нет</string>
     <string name="exercise_load_failed">Не удалось загрузить это задание</string>
     <string name="exercise_load_failed_ref">%1$s · ID %2$d</string>

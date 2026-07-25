@@ -6,6 +6,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
@@ -32,6 +33,8 @@ fun ExerciseContentText(
     fontSize: TextUnit = 16.sp,
     lineHeight: TextUnit = 24.sp,
     textAlign: TextAlign? = null,
+    maxLines: Int = Int.MAX_VALUE,
+    overflow: TextOverflow = TextOverflow.Clip,
 ) = MarkdownText(
     text = text,
     modifier = modifier,
@@ -41,5 +44,7 @@ fun ExerciseContentText(
     fontSize = fontSize,
     lineHeight = lineHeight,
     textAlign = textAlign,
+    maxLines = maxLines,
+    overflow = overflow,
     renderBlanks = true,
 )

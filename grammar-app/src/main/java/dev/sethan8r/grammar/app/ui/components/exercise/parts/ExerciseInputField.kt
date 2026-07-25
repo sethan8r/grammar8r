@@ -9,12 +9,18 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -59,6 +65,14 @@ fun ExerciseInputField(
         InputFieldVisual.CORRECT -> CorrectGreen.copy(alpha = Alphas.answerFill)
         InputFieldVisual.WRONG -> IncorrectRed.copy(alpha = Alphas.answerFill)
     }
+    // Каретка живёт внутри: наружу отдаём только текст, а позицию курсора держим сами — иначе поле,
+    // пересозданное при возврате к пункту, ставит каретку в начало уже вписанного слова.
+    var field by remember { mutableStateOf(TextFieldValue(value, TextRange(value.length))) }
+    // Текст пришёл извне (сброс/восстановление ответа) — принимаем его с кареткой в конце.
+    if (field.text != value) {
+        field = TextFieldValue(value, TextRange(value.length))
+    }
+
     Box(
         modifier = modifier
             .clip(RoundedCornerShape(Dimens.cornerSmall))
@@ -67,8 +81,11 @@ fun ExerciseInputField(
         contentAlignment = Alignment.Center,
     ) {
         BasicTextField(
-            value = value,
-            onValueChange = onValueChange,
+            value = field,
+            onValueChange = {
+                field = it
+                onValueChange(it.text)
+            },
             enabled = enabled,
             singleLine = true,
             textStyle = TextStyle(color = TextPrimary, fontSize = 18.sp, textAlign = TextAlign.Center),

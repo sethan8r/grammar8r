@@ -21,7 +21,7 @@ object ExerciseEvaluator {
             val inputs = (answer as? ExerciseAnswer.TextAnswers)?.inputs
             inputs != null &&
                 inputs.size == exercise.items.size &&
-                exercise.items.indices.all { i -> matches(exercise.items[i], inputs[i]) }
+                exercise.items.indices.all { i -> matchesTextItem(exercise.items[i], inputs[i]) }
         }
 
         // TABLE_FILL — все ячейки верны разом (вердикт all-or-nothing на уровне экрана).
@@ -77,7 +77,10 @@ object ExerciseEvaluator {
      * Пункт TextInput засчитан, если нормализованный ввод совпал с нормализованным ответом или любой
      * альтернативой. Нормализация ([AnswerNormalizer]) гасит регистр, апострофы, форму сокращений
      * (don't = do not) и пунктуацию, поэтому полная и сокращённая записи равнозначны.
+     *
+     * Публичный, потому что рендерер задания красит на реванше КАЖДОЕ поле по отдельности (вердикт
+     * задания при этом остаётся all-or-nothing) — правило «пункт верен» живёт здесь одно (Правило №0).
      */
-    private fun matches(item: TextItem, input: String): Boolean =
+    fun matchesTextItem(item: TextItem, input: String): Boolean =
         (listOf(item.answer) + item.alternatives).any { AnswerNormalizer.matches(it, input) }
 }

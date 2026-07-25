@@ -6,6 +6,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
@@ -27,6 +28,8 @@ fun MarkdownText(
     fontSize: TextUnit = 16.sp,
     lineHeight: TextUnit = 24.sp,
     textAlign: TextAlign? = null,
+    maxLines: Int = Int.MAX_VALUE,
+    overflow: TextOverflow = TextOverflow.Clip,
     renderBlanks: Boolean = false,
 ) {
     val parsed = parseInlineMarkdown(
@@ -46,5 +49,7 @@ fun MarkdownText(
         fontSize = fontSize,
         lineHeight = lineHeight,
         textAlign = textAlign,
+        maxLines = maxLines,
+        overflow = overflow,
     )
 }
