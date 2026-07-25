@@ -52,6 +52,12 @@
       "topicId": 14,
       "title": "Usage · Все ситуации употребления",
       "order": 7
+    },
+    {
+      "id": 84,
+      "topicId": 14,
+      "title": "Time markers · Маркеры прошлого",
+      "order": 8
     }
   ],
   "grammar_cards": [
@@ -2715,6 +2721,330 @@
         "Почему «I have lost my keys» — без слова «когда»?",
         "Если прошлых времён несколько, как выбрать нужное?"
       ]
+    },
+    {
+      "id": 249,
+      "microtopicId": 84,
+      "title": "Маркеры прошлого: словарь и слово ago",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Механику прошедшего мы разобрали до винтика, ситуации употребления — тоже. Осталась деталь, без которой живая речь о прошлом не звучит: **слова, которые называют момент**. Глагол уже сказал «это прошлое» — а маркер отвечает на другой вопрос: **когда именно это было**."
+        },
+        {
+          "type": "heading",
+          "text": "Пять групп маркеров"
+        },
+        {
+          "type": "paragraph",
+          "text": "Их удобно держать в голове не сплошным списком, а группами — внутри каждой они устроены одинаково."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Группа",
+            "Примеры"
+          ],
+          "rows": [
+            [
+              "Вчерашнее",
+              "yesterday, yesterday morning, yesterday afternoon, last night"
+            ],
+            [
+              "last + отрезок",
+              "last week, last month, last year, last summer, last Friday"
+            ],
+            [
+              "Отрезок + ago",
+              "two days ago, a week ago, ten minutes ago, a long time ago"
+            ],
+            [
+              "Точная привязка",
+              "in 2019, in May, on Monday, at six"
+            ],
+            [
+              "Расплывчатое прошлое",
+              "then, at that time, the other day, when I was a child"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `last` здесь значит не «последний в очереди», а «прошлый, ближайший позади»: **last week** — та неделя, что только что закончилась, **last Friday** — пятница, которая уже была. Отсюда и вся вторая группа: берём отрезок (**week**, **month**, **year**, **summer**) и ставим перед ним `last`."
+        },
+        {
+          "type": "heading",
+          "text": "Почему yesterday и last week идут без предлога"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот главный узел этой карточки, и он весь — про русский. По-русски мы говорим «**на** прошлой неделе», «**в** прошлом году», «**в** мае» — почти везде предлог. Рука по привычке тащит его и в английский, и рождается **in last week** ✗ или **on yesterday** ✗."
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика простая, и она есть. Сравни две вещи:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**yesterday**, **last week**, **last Friday** — это уже **готовое указание на момент**. Слово `last` внутри само делает работу предлога: оно говорит «та, что позади». Добавлять сверху `in` или `on` нечего — указание уже полное.",
+            "**Monday**, **May**, **2019**, **six** — это **просто названия**: день, месяц, год, цифра на часах. Сами по себе они ничего не говорят про «когда» — им нужен указатель, и его дают знакомые нам по «Основам» `in/on/at`: **in May**, **on Monday**, **at six**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Кстати, и в русском «вчера» стоит без предлога — мы не говорим «в вчера». То есть интуиция у нас есть, просто она не дотягивается до «на прошлой неделе»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Предлог перед `yesterday` и `last …` — самая частая ошибка этой темы:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**In last week** ✗ → **last week** ✓",
+                "**On yesterday** ✗ → **yesterday** ✓",
+                "**On last Friday** ✗ → **last Friday** ✓"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "ago — это шаги назад от «сейчас»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Третья группа устроена иначе, и её стоит разобрать отдельно. Слово `ago` значит «назад» и всегда отсчитывает от **текущего момента**: **two days ago** — два дня назад от сегодня, **a week ago** — неделю назад от этой минуты."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Отрезок времени + ago**. Сначала сколько, потом `ago`:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**ten minutes ago** ✓, **three weeks ago** ✓, **five years ago** ✓",
+            "**ago three weeks** ✗ — так не говорят"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок запомнить легко, потому что в русском он ровно такой же: «три недели **назад**» — «назад» стоит хвостом, а не впереди. Здесь язык нам помогает, а не мешает."
+        },
+        {
+          "type": "paragraph",
+          "text": "И ещё одно следствие: раз `ago` считает от «сейчас» назад, оно живёт **только с прошедшим временем**. Фраза **I will call you two days ago** ✗ — бессмыслица, туда нужно другое слово."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Ago и before.** Русское «раньше» покрывает оба слова, и они склеиваются в голове:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "`Ago` — назад **от момента «сейчас»**: **I moved here three years ago.**",
+                "`Before` — раньше **какого-то другого момента** или «когда-то раньше вообще»: **We met before the concert.** / **I saw this film before.**"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вчерашний вечер и ночь — это **last night**, а не **yesterday night** ✗. Утро и день ведут себя нормально (**yesterday morning**, **yesterday afternoon**), а у вечерне-ночного времени своё выражение — просто запомнить. Заодно: **this morning** тоже может быть прошлым, если утро уже прошло: **I called the bank this morning.**"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Маркер не создаёт прошлое, а называет момент. Готовые указания времени идут **без предлога**: **yesterday**, **last night**, **last week**, **last Friday**; а голым названиям нужен указатель `in/on/at`: **in 2019**, **on Monday**, **at six**. Слово `ago` значит «назад от сейчас» и стоит **после** отрезка: **two days ago** ✓, **ago two days** ✗. Не путать с `before` — оно отсчитывает не от «сейчас», а от другого момента.",
+      "examples": [
+        {
+          "ru": "Мы отпраздновали её день рождения на прошлой неделе.",
+          "en": "We celebrated her birthday last week."
+        },
+        {
+          "ru": "Я переехал в Лиссабон три года назад.",
+          "en": "I moved to Lisbon three years ago."
+        },
+        {
+          "ru": "Вчера вечером Лена позвонила мне из аэропорта.",
+          "en": "Last night Lena called me from the airport."
+        },
+        {
+          "ru": "Мы виделись однажды, ещё до концерта.",
+          "en": "We met once, before the concert."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему on yesterday нельзя, а on Monday можно?",
+        "Чем ago отличается от before?",
+        "Почему вчерашний вечер — это last night, а не yesterday night?"
+      ]
+    },
+    {
+      "id": 250,
+      "microtopicId": 84,
+      "title": "Куда ставить маркер и почему его одного мало",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Словарь маркеров у нас есть. Теперь два практических вопроса: **куда** маркер ставится в предложении и — самое важное в этой теме — **чего он НЕ делает**."
+        },
+        {
+          "type": "heading",
+          "text": "Начало или конец, но не середина"
+        },
+        {
+          "type": "paragraph",
+          "text": "У выражения времени в английском два законных места: **в начале** предложения или **в конце**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Yesterday Grisha met Kate at the station.** ✓",
+            "**Grisha met Kate at the station yesterday.** ✓",
+            "**Grisha yesterday met Kate at the station.** ✗"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему середина закрыта: подлежащее и глагол в английском стоят вплотную — это тот самый жёсткий порядок SVO из «Основ», на котором держится всё предложение. Между «кто» и «что делает» чужому обстоятельству места нет, его выносят наружу — вперёд или назад."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между двумя законными местами — только в акценте. В конце — нейтрально, обычный порядок по умолчанию. В начале — маркер задаёт **рамку**: «вчера вечером… — и дальше история». Поэтому рассказы часто и начинают с маркера."
+        },
+        {
+          "type": "heading",
+          "text": "Если рядом и место, и время"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда в предложении есть и «где», и «когда», порядок такой: **сначала место, потом время**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I lost my card at the airport last week.** ✓",
+            "**I lost my card last week at the airport.** ✗ — звучит как перечисление через запятую, а не как нормальная фраза"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Наречия частоты — **often**, **always**, **never**, **sometimes** — как раз садятся в середину, перед смысловым глаголом: **I often went there as a child.** Это разные вещи: наречие частоты живёт при глаголе, а выражение времени — при всём предложении, поэтому и стоит по краям. Подробно наречия мы разбирали в теме «Наречия»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Время несёт глагол, а не маркер"
+        },
+        {
+          "type": "paragraph",
+          "text": "А это — главное в микротеме, и здесь русскоязычный ошибается чаще всего."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I go there yesterday** ✗ → **I went there yesterday** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Откуда это берётся в голове? Из живого русского. Мы совершенно спокойно говорим: «Вчера **иду** я по улице и **вижу** Тёму». Глагол стоит в настоящем — а понимаем мы прошлое, потому что время держит наречие «вчера». Русскому языку так можно, и мы этим пользуемся каждый день, не замечая."
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском такой фокус не проходит. Форма глагола **обязана** совпасть с моментом, а маркер только уточняет. Проверить это можно двумя мысленными опытами:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Уберём `yesterday`: **I went there** — предложение всё равно о прошлом. Прошлое никуда не делось, потому что оно в глаголе.",
+            "Вернём `yesterday`, но глагол оставим в настоящем: **I go there yesterday** — предложение сломано. Маркер один вытянуть время не может."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И обратная сторона того же правила: **маркер вообще не обязателен**. Половина реальных фраз о прошлом идёт без него — **I lost my card**, **She called twice** — и это полноценное прошедшее. Маркер добавляют, когда важно сказать когда; не важно — не говорят."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Точный маркер прошлого не сочетается с конструкцией have + третья форма: **I have seen him last week** ✗ → **I saw him last week** ✓. Как только назван конкретный момент прошлого, работает Past Simple. Это тот самый флажок в сторону Present Perfect, о котором мы говорили в конце прошлой микротемы, — разберём его в своей теме."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Выражение времени стоит **в начале или в конце** предложения, но не между подлежащим и глаголом: **Yesterday I met Kate** ✓ / **I met Kate yesterday** ✓ / **I yesterday met Kate** ✗. Если рядом есть и место, и время — сначала место: **I lost my card at the airport last week**. Главное: маркер только называет момент, а прошлое несёт **глагол** — **I go there yesterday** ✗ → **I went there yesterday** ✓. Без маркера предложение о прошлом тоже полноценно.",
+      "examples": [
+        {
+          "ru": "Вчера Гриша встретил Катю на вокзале.",
+          "en": "Yesterday Grisha met Kate at the station."
+        },
+        {
+          "ru": "Мы поужинали в том кафе в прошлую пятницу.",
+          "en": "We had dinner at that café last Friday."
+        },
+        {
+          "ru": "Мы отпраздновали Новый год у друзей.",
+          "en": "We celebrated New Year at our friends' place."
+        },
+        {
+          "ru": "Она позвонила мне час назад.",
+          "en": "She called me an hour ago."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему по-русски можно «вчера иду я по улице», а по-английски нельзя?",
+        "Можно ли поставить yesterday в середину предложения?",
+        "Обязательно ли вообще указывать, когда это было?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3077,6 +3407,54 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 98,
       "orderInCard": 3
+    },
+    {
+      "cardId": 249,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 51,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 249,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 112,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 249,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 94,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 249,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 117,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 250,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 136,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 250,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 95,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 250,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 99,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 250,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 49,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -3117,6 +3495,22 @@
       "cardId": 241,
       "title": "Сделай вопрос",
       "userInstruction": "ИИ пришлёт утвердительное предложение о прошлом. Превратите его в вопрос и напишите свой вариант одной строкой.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_simple_card249_ex1",
+      "cardId": 249,
+      "title": "Нужен ли здесь предлог",
+      "userInstruction": "ИИ пришлёт предложения о прошлом с пропуском перед выражением времени. Впишите нужный предлог, а если предлог не нужен — поставьте прочерк.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_simple_card250_ex1",
+      "cardId": 250,
+      "title": "Найди ошибку во времени",
+      "userInstruction": "ИИ пришлёт английское предложение с ошибкой. Исправьте его и напишите верный вариант одной строкой.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -3368,6 +3762,46 @@
       "translation": "зарплата, оклад",
       "transcription": "[ˈsæləri]",
       "microtopicId": 83,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 482,
+      "word": "ago",
+      "translation": "назад (о времени)",
+      "transcription": "[əˈɡəʊ]",
+      "microtopicId": 84,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 483,
+      "word": "last",
+      "translation": "прошлый, последний",
+      "transcription": "[lɑːst]",
+      "microtopicId": 84,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 484,
+      "word": "before",
+      "translation": "раньше, до этого, прежде",
+      "transcription": "[bɪˈfɔː]",
+      "microtopicId": 84,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 485,
+      "word": "week",
+      "translation": "неделя",
+      "transcription": "[wiːk]",
+      "microtopicId": 84,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 486,
+      "word": "to celebrate",
+      "translation": "праздновать, отпраздновать",
+      "transcription": "[ˈselɪbreɪt]",
+      "microtopicId": 84,
       "categoryId": "tenses"
     }
   ],
@@ -3745,6 +4179,37 @@
         }
       ],
       "explanation": "Строки 2 и 5: know и want — глаголы-состояния, в длительное время они не идут, нужно knew и wanted. Остальные предложения верны: закрытые периоды стоят в простом прошедшем."
+    },
+    {
+      "id": 117,
+      "statements": [
+        {
+          "en": "Kate finished her project two days ago.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They moved to Vienna in last year.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We celebrated my sister's wedding last month.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I called the office ago ten minutes.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Nick was at the dentist yesterday morning.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: перед last year предлог не ставится — нужно they moved to Vienna last year. Строка 4: ago стоит после отрезка — ten minutes ago, а не ago ten minutes. Остальные предложения верны."
     }
   ],
   "word_arrangement_exercises": [
@@ -3916,6 +4381,25 @@
         "this week"
       ],
       "explanation": "Закрытый период → простое lived; live это настоящее, were living рисует процесс, а не итог. Длительность даёт for + срок, поэтому since лишнее, а this week не про долгий отрезок."
+    },
+    {
+      "id": 99,
+      "situationRu": "RU: Денис починил мою машину в гараже на прошлой неделе.",
+      "correctSentence": "Denis fixed my car in the garage last week.",
+      "words": [
+        "Denis",
+        "fixed",
+        "my car",
+        "in the garage",
+        "last week"
+      ],
+      "distractors": [
+        "fixes",
+        "on last week",
+        "next week",
+        "was fixing"
+      ],
+      "explanation": "Прошлое несёт глагол fixed; настоящее fixes сюда не подходит, а was fixing рисовало бы процесс. Перед last week предлог не ставится, поэтому on last week лишнее; чинил он машину на прошлой неделе, а не на следующей. Место стоит раньше времени: in the garage, потом last week."
     }
   ],
   "multiple_choice_exercises": [
@@ -4191,6 +4675,48 @@
         }
       ],
       "explanation": "Период закрыт (три года, и он закончился) → Past Simple worked. Слово for показывает длительность, но время остаётся простым; works — настоящее, а was working рисовало бы процесс в один момент."
+    },
+    {
+      "id": 112,
+      "choiceType": "CHOICE",
+      "prompt": "Vera came back from Dublin ___.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "ago two weeks",
+          "isCorrect": false
+        },
+        {
+          "text": "before two weeks",
+          "isCorrect": false
+        },
+        {
+          "text": "two weeks ago",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Отрезок стоит первым, ago — хвостом: two weeks ago. Вариант ago two weeks переставляет слова местами, а before считает не от «сейчас», а от другого момента, поэтому сюда не подходит."
+    },
+    {
+      "id": 136,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Соня продала свой велосипед три дня назад.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Sonya sells her bike three days ago.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sonya sold her bike three days ago.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sonya sold three days ago her bike.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Прошлое несёт глагол — sold, поэтому настоящее sells не подходит, даже со словами three days ago. Выражение времени ставится в конце, а не между глаголом и дополнением."
     }
   ],
   "text_input_exercises": [
@@ -4504,6 +5030,44 @@
         }
       ],
       "explanation": "Это вопрос к подлежащему — who само и есть тот, кто звонил, поэтому did не нужен, а глагол сохраняет форму: Who called you? Вариант с did лишний, а «Who you called» ломает порядок слов."
+    },
+    {
+      "id": 94,
+      "wrongSentence": "We had a big party in last Saturday.",
+      "options": [
+        {
+          "text": "We had a big party last Saturday.",
+          "isCorrect": true
+        },
+        {
+          "text": "We had a big party on last Saturday.",
+          "isCorrect": false
+        },
+        {
+          "text": "We had a big party in the last Saturday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Выражение last Saturday уже само указывает на момент, предлог ему не нужен — ни in, ни on. Артикль the тоже лишний: last Saturday работает как готовое обстоятельство времени."
+    },
+    {
+      "id": 95,
+      "wrongSentence": "I go to the dentist two days ago.",
+      "options": [
+        {
+          "text": "I gone to the dentist two days ago.",
+          "isCorrect": false
+        },
+        {
+          "text": "I go to the dentist two days before.",
+          "isCorrect": false
+        },
+        {
+          "text": "I went to the dentist two days ago.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Время держит глагол: нужна форма went, а не настоящее go. Форма gone сюда не ставится сама по себе, а before считает не от «сейчас», поэтому заменить им ago нельзя."
     }
   ],
   "construction_meaning_exercises": [],
@@ -4735,6 +5299,31 @@
         }
       ],
       "explanation": "did не нужен, когда спрашиваем о самом деятеле (кто/что сделал) — вопросительное слово само подлежащее, переставлять нечего: Who called you?, What happened?, Who won the race? А когда спрашиваем о дополнении или обстоятельстве (кому, куда, почему), подлежащее уходит назад — и возвращается did: Who did you call?, Where did you go?, Why did they leave?"
+    },
+    {
+      "id": 51,
+      "taskDescription": "распредели выражения времени по колонкам.",
+      "categories": [
+        {
+          "title": "Ставим предлог in / on / at",
+          "items": [
+            "2018",
+            "Tuesday",
+            "April",
+            "half past seven"
+          ]
+        },
+        {
+          "title": "Идут без предлога",
+          "items": [
+            "yesterday morning",
+            "last Friday",
+            "ten minutes ago",
+            "last summer"
+          ]
+        }
+      ],
+      "explanation": "Голым названиям — году, дню недели, месяцу, времени на часах — нужен указатель времени: in 2018, on Tuesday, in April, at half past seven. А yesterday morning, last Friday, ten minutes ago и last summer уже сами указывают на момент, поэтому предлог перед ними не ставится."
     }
   ],
   "find_the_odd_exercises": [
@@ -4829,6 +5418,29 @@
         }
       ],
       "explanation": "opened, turned и sat — прошедшее время, звенья рассказа о прошлом. А puts — настоящее время, оно выпадает из цепочки; по смыслу нужно put."
+    },
+    {
+      "id": 49,
+      "groupDescription": "Три предложения о прошлом построены верно, одно выпадает",
+      "items": [
+        {
+          "text": "We visited the museum last Sunday.",
+          "isOdd": false
+        },
+        {
+          "text": "They go to the airport yesterday.",
+          "isOdd": true
+        },
+        {
+          "text": "She called me ten minutes ago.",
+          "isOdd": false
+        },
+        {
+          "text": "Oleg finished work early last night.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В трёх предложениях глагол стоит в прошедшем времени: visited, called, finished. В предложении про аэропорт глагол остался в настоящем — go, хотя маркер yesterday говорит о прошлом; нужно went."
     }
   ]
 }

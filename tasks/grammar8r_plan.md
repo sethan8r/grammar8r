@@ -1265,7 +1265,7 @@ theory/
 │   │       как «единственное прошедшее». Шёл процесс в момент прошлого → Past Continuous; важен результат
 │   │       сейчас / нет маркера времени → Present Perfect. Не правило, а два анонса. БЕЗ AI.
 │   │
-│   ├── МТ84 · Time markers · Маркеры прошлого (2 карточки)
+│   ├── МТ84 · Time markers · Маркеры прошлого (2 карточки) ✅ (написана, ALL GREEN 25.07.26)
 │   │   ├── Card 249 · Словарь маркеров: yesterday, last night/week/year, … ago, in 2019, then, at that
 │   │   │   time, when I was a child, the other day. Отдельно ago: считается назад от «сейчас» и стоит
 │   │   │   ПОСЛЕ отрезка — «two years ago» ✓, «ago two years» ✗. + AI.
