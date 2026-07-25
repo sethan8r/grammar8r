@@ -58,6 +58,12 @@
       "topicId": 14,
       "title": "Time markers · Маркеры прошлого",
       "order": 8
+    },
+    {
+      "id": 85,
+      "topicId": 14,
+      "title": "used to · Раньше было, а теперь нет",
+      "order": 9
     }
   ],
   "grammar_cards": [
@@ -3045,6 +3051,309 @@
         "Можно ли поставить yesterday в середину предложения?",
         "Обязательно ли вообще указывать, когда это было?"
       ]
+    },
+    {
+      "id": 251,
+      "microtopicId": 85,
+      "title": "used to: раньше было, а теперь нет",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Рассказывать о прошлом мы уже умеем: **I smoked**, **I didn't smoke**, **Did you smoke?**. Но у русского «раньше» есть оттенок, который простым прошедшим не передать. Скажи «**раньше** я курил» — и слышно не только про прошлое, а ещё и то, что **сейчас уже нет**. Для этого оттенка в английском есть отдельная конструкция — `used to`."
+        },
+        {
+          "type": "heading",
+          "text": "Что она значит: два слоя в одной фразе"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I used to smoke.** — здесь упаковано сразу два смысла:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "раньше это было **регулярно**, привычно, долго — не разовый случай;",
+            "**сейчас этого нет**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй слой и есть главный. Ради контраста «тогда так — а теперь иначе» конструкцию и выбирают. Нет контраста — `used to` не нужен."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I used to smoke, but I don't smoke anymore.**",
+            "**We used to live near the sea.**",
+            "**Rita used to be very shy.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Форма: used to плюс голый глагол"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Used to + V1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`used to` не меняется **вообще** — ни по лицам, ни по числам: **I used to**, **he used to**, **we used to**, **they used to**. Это разом снимает вопрос, который мучил нас в Present Simple: никакого `-s` для третьего лица здесь нет и быть не может."
+        },
+        {
+          "type": "paragraph",
+          "text": "А глагол после конструкции стоит в базовой форме, без окончаний:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I used to smoke** ✓",
+            "**I used to smoked** ✗",
+            "**I used to smoking** ✗"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика знакомая. Прошлое в этой фразе уже выражено ОДИН раз — в самом `used`, — и выражать его второй раз нечем. Ровно тот же принцип, по которому **didn't worked** ✗ превращается в **didn't work** ✓: двойного прошедшего в английском не бывает."
+        },
+        {
+          "type": "heading",
+          "text": "Русское «раньше» против английской конструкции"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски сигнал живёт в отдельных словах: «**раньше** я курил», «мы, **бывало**, ходили в горы», «**когда-то** тут был магазин». Глагол при этом самый обычный. Английский поступил иначе — вшил сигнал прямо в конструкцию."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда практический вывод: услышал в русской фразе «раньше / бывало / когда-то» и почувствовал за ней «а теперь нет» — это кандидат на `used to`."
+        },
+        {
+          "type": "heading",
+          "text": "There used to be — про то, чего больше нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Оборот `There was / There were` мы разбирали в микротеме про was и were. С `used to` он работает так же, только добавляет тот самый контраст:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There used to be a small café here.** — кафе было, сейчас его нет.",
+            "**There used to be a lot of trees in this street.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Used to` — это **не** «использовал». Слово `use` знакомо нам как «использовать», поэтому фраза **I used to drive a taxi** сама собой читается как «я использовал вождение такси». Опознавательный знак простой: если сразу за `used to` идёт голый глагол — перед нами конструкция «раньше…», и никакого «использовать» в ней нет."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос: снова did"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь английский ничего нового не изобрёл — работает та же схема, что и со всеми смысловыми глаголами в прошлом: за прошлое отвечает помощник `did`, а остальное отдаёт ему форму прошедшего."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Отрицание — **didn't use to** + глагол: **I didn't use to like fish.**",
+            "Вопрос — **Did** + подлежащее + **use to** + глагол: **Did you use to play football at school?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотри, что случилось с `used`: буква `-d` исчезла, осталось `use`. Причина та же самая, по которой **didn't went** ✗ становится **didn't go** ✓ — прошлое забрал себе `did`, и всё после него стоит в базовой форме. На слух разницы почти нет (`used to` и `use to` звучат одинаково), а на письме она есть."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Краткие ответы** — как у любого вопроса с `did`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "— **Did you use to smoke?** — **Yes, I did.** / — **No, I didn't.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Отрицательный вопрос** — когда мы удивлены или уточняем то, в чём были уверены: **Didn't you use to work at that café?** Отвечаем, как всегда в английском, по факту: было — **Yes, I did**, не было — **No, I didn't**."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В живой речи вместо `didn't use to` часто говорят проще — **I never smoked** или **I never used to smoke**. Отрицание через `didn't use to` встречается реже, но узнавать его нужно, а строить — уметь."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть похожая с виду конструкция `be used to` / `get used to` — **I'm used to getting up early**. Она значит совсем другое: «привык к чему-то», и к нашему «раньше…» отношения не имеет. Её, а заодно `would` для повторявшихся действий прошлого, разберём в теме «Дополнительные конструкции» — там же, где доберём тонкости самого `used to`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`used to + V1` — «раньше делал регулярно, а сейчас нет»: **I used to smoke**, **There used to be a café here**. Конструкция не меняется по лицам, а глагол после неё стоит в базовой форме: **I used to smoked** ✗. Отрицание и вопрос строит помощник `did`, и `-d` при нём пропадает: **I didn't use to like fish**, **Did you use to play football?**, краткий ответ — **Yes, I did** / **No, I didn't**.",
+      "examples": [
+        {
+          "ru": "Раньше я курил, но больше не курю.",
+          "en": "I used to smoke, but I don't smoke anymore."
+        },
+        {
+          "ru": "Раньше рядом с нашим домом было маленькое кафе.",
+          "en": "There used to be a small café near our house."
+        },
+        {
+          "ru": "Раньше я не любил рыбу.",
+          "en": "I didn't use to like fish."
+        },
+        {
+          "ru": "Ты раньше играл в футбол в школе?",
+          "en": "Did you use to play football at school?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в didn't use to пропадает буква d?",
+        "Чем I used to smoke отличается от I smoked?",
+        "Что значит I'm used to it — это та же конструкция?"
+      ]
+    },
+    {
+      "id": 252,
+      "microtopicId": 85,
+      "title": "used to или простое прошедшее: когда что",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Конструкцию мы узнаём и умеем строить. Осталось понять, **когда её вообще стоит брать** — иначе легко удариться в другую крайность и начать лепить `used to` во все предложения о прошлом подряд."
+        },
+        {
+          "type": "heading",
+          "text": "Простой тест: есть ли контраст с «сейчас»"
+        },
+        {
+          "type": "paragraph",
+          "text": "`used to` уместен, когда сходятся два условия:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "в прошлом это было **регулярно или долго** — привычка (`habit`), состояние, положение вещей;",
+            "**сейчас это не так**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка одной фразой: подставь мысленно «…, а теперь нет». Встало — бери `used to`. Не встало — обычное прошедшее."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I used to go to the gym.** — ходил регулярно, сейчас нет ✓",
+            "**I went to the gym yesterday.** — один раз, вчера ✓ — здесь `used to` не подходит"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Used to` и названный момент несовместимы: **I used to go there yesterday** ✗ → **I went there yesterday** ✓. Причина в самой сути конструкции: она описывает не событие, а то, как было **вообще**. А точный момент (**yesterday**, **last Friday**, **at six**, **two days ago**) всегда указывает на одно конкретное событие. Это прямая противоположность прошлой микротеме: там маркер уточнял, когда именно щёлкнуло, — здесь щелчка нет вовсе."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Конструкция бывает **только про прошлое**: **I use to work at night** ✗ → **I usually work at night** ✓. Для регулярного настоящего есть `usually` и Present Simple. Русский подталкивает к этой ошибке, потому что «раньше» и «обычно» стоят рядом по смыслу, а в английском это два разных инструмента для двух разных времён."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "used to можно почти всегда заменить, а наоборот — нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Почти любую фразу с `used to` можно сказать и обычным прошедшим: **I used to smoke** и **I smoked when I was younger** сообщают примерно одно и то же. А вот наоборот не работает: разовое **I bought a phone last week** в `used to` не переделаешь никак."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда правильное отношение к конструкции: `used to` — **не обязанность, а выразительный инструмент**. Он не заменяет прошедшее время, а добавляет к нему контраст «а теперь иначе». Не уверен, нужен ли он в конкретной фразе, — обычное прошедшее не будет ошибкой."
+        },
+        {
+          "type": "heading",
+          "text": "А если действие в прошлом длилось долго?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы разбирали фразы вроде **I lived in Kazan for five years** — почему там не `used to`? Потому что там мы просто сообщаем факт периода: столько-то лет, и всё. `used to` появляется, когда важно именно противопоставление: **I used to live in Kazan** — жил, а сейчас живу в другом месте. Факт один и тот же, а акцент разный — и выбирает его говорящий."
+        }
+      ],
+      "theorySummary": "`used to` берут, когда в прошлом это было регулярно или долго И сейчас это не так; проверка — подставить «а теперь нет». Разовое событие и названный момент требуют обычного прошедшего: **I used to go there yesterday** ✗ → **I went there yesterday** ✓. Конструкция бывает только про прошлое: **I use to work at night** ✗ → **I usually work at night** ✓. Обычное прошедшее вместо `used to` ошибкой не будет — конструкция только добавляет контраст.",
+      "examples": [
+        {
+          "ru": "В детстве Гриша играл в футбол каждый день.",
+          "en": "Grisha used to play football every day as a child."
+        },
+        {
+          "ru": "Это была просто старая привычка.",
+          "en": "It was just an old habit."
+        },
+        {
+          "ru": "Раньше Юля жила в Казани, а теперь в Праге.",
+          "en": "Yulia used to live in Kazan, and now she lives in Prague."
+        },
+        {
+          "ru": "Мы навестили их в прошлую пятницу.",
+          "en": "We visited them last Friday."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, когда нужен used to, а когда обычное прошедшее?",
+        "Почему нельзя сказать I used to go there yesterday?",
+        "Можно ли сказать use to про то, что я делаю сейчас?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3455,6 +3764,66 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 49,
       "orderInCard": 3
+    },
+    {
+      "cardId": 251,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 15,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 251,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 113,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 251,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 43,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 251,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 17,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 251,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 100,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 252,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 137,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 252,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 96,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 252,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 52,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 252,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 118,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 252,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 32,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -3511,6 +3880,30 @@
       "cardId": 250,
       "title": "Найди ошибку во времени",
       "userInstruction": "ИИ пришлёт английское предложение с ошибкой. Исправьте его и напишите верный вариант одной строкой.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_simple_card251_ex1",
+      "cardId": 251,
+      "title": "Скажи про «раньше»",
+      "userInstruction": "ИИ пришлёт одно русское предложение про то, что было раньше. Напишите его по-английски одной строкой.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "past_simple_card251_ex2",
+      "cardId": 251,
+      "title": "Отрицание и вопрос с used to",
+      "userInstruction": "ИИ пришлёт утвердительное предложение с used to и попросит сделать из него отрицание или вопрос. Напишите свой вариант одной строкой.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_simple_card252_ex1",
+      "cardId": 252,
+      "title": "Что было раньше, а теперь нет",
+      "userInstruction": "Напишите одно английское предложение о том, что вы делали раньше, а сейчас не делаете.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -3802,6 +4195,30 @@
       "translation": "праздновать, отпраздновать",
       "transcription": "[ˈselɪbreɪt]",
       "microtopicId": 84,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 487,
+      "word": "to smoke",
+      "translation": "курить",
+      "transcription": "[sməʊk]",
+      "microtopicId": 85,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 488,
+      "word": "habit",
+      "translation": "привычка",
+      "transcription": "[ˈhæbɪt]",
+      "microtopicId": 85,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 489,
+      "word": "anymore",
+      "translation": "больше не, уже не",
+      "transcription": "[ˌeniˈmɔː]",
+      "microtopicId": 85,
       "categoryId": "tenses"
     }
   ],
@@ -4210,6 +4627,37 @@
         }
       ],
       "explanation": "Строка 2: перед last year предлог не ставится — нужно they moved to Vienna last year. Строка 4: ago стоит после отрезка — ten minutes ago, а не ago ten minutes. Остальные предложения верны."
+    },
+    {
+      "id": 118,
+      "statements": [
+        {
+          "en": "Sara used to have long hair.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We used to meet them last Friday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My father used to work as a driver.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I use to get up at six now.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They used to live in a small village.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: назван конкретный момент last Friday, поэтому нужно we met them last Friday. Строка 4: конструкция бывает только про прошлое, а речь о настоящем — нужно I usually get up at six. Остальные предложения верны."
     }
   ],
   "word_arrangement_exercises": [
@@ -4400,6 +4848,24 @@
         "was fixing"
       ],
       "explanation": "Прошлое несёт глагол fixed; настоящее fixes сюда не подходит, а was fixing рисовало бы процесс. Перед last week предлог не ставится, поэтому on last week лишнее; чинил он машину на прошлой неделе, а не на следующей. Место стоит раньше времени: in the garage, потом last week."
+    },
+    {
+      "id": 100,
+      "situationRu": "Ситуация: Расскажите, что раньше в конце этой улицы был книжный магазин.",
+      "correctSentence": "There used to be a bookshop at the end of this street.",
+      "words": [
+        "There",
+        "used to be",
+        "a bookshop",
+        "at the end",
+        "of this street"
+      ],
+      "distractors": [
+        "was",
+        "used to being",
+        "is"
+      ],
+      "explanation": "Оборот There was получает used to и превращается в There used to be — «раньше был, а сейчас нет». Форма was здесь лишняя, used to being невозможна (после конструкции идёт базовая форма), а is оставило бы предложение в настоящем."
     }
   ],
   "multiple_choice_exercises": [
@@ -4717,6 +5183,48 @@
         }
       ],
       "explanation": "Прошлое несёт глагол — sold, поэтому настоящее sells не подходит, даже со словами three days ago. Выражение времени ставится в конце, а не между глаголом и дополнением."
+    },
+    {
+      "id": 113,
+      "choiceType": "CHOICE",
+      "prompt": "Nina ___ a lot of coffee, but now she drinks only tea.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "used to drink",
+          "isCorrect": true
+        },
+        {
+          "text": "used to drank",
+          "isCorrect": false
+        },
+        {
+          "text": "uses to drink",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После used to глагол стоит в базовой форме — used to drink; форма прошедшего drank дала бы прошлое дважды. Вариант uses to drink невозможен: конструкция не меняется по лицам и не бывает в настоящем времени."
+    },
+    {
+      "id": 137,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Раньше Игорь много путешествовал, а сейчас почти никуда не ездит.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Igor uses to travel a lot.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor travelled a lot last Friday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor used to travel a lot.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Регулярное занятие в прошлом, которого сейчас нет, — это used to travel. Форма uses to не существует, а вариант с last Friday говорит об одном разе в конкретный день и контраста с настоящим не даёт."
     }
   ],
   "text_input_exercises": [
@@ -4834,6 +5342,31 @@
         "получала",
         "жил"
       ]
+    },
+    {
+      "id": 43,
+      "items": [
+        {
+          "sentence": "I didn't ___ to eat vegetables when I was a child.",
+          "contextRu": "",
+          "answer": "use",
+          "alternatives": []
+        },
+        {
+          "sentence": "Did you ___ to live in Warsaw?",
+          "contextRu": "",
+          "answer": "use",
+          "alternatives": []
+        },
+        {
+          "sentence": "My grandfather ___ to work as a driver.",
+          "contextRu": "",
+          "answer": "used",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Рядом с помощником did прошлое уже выражено, поэтому остаётся голое use — и в отрицании, и в вопросе. В утвердительном предложении помощника нет, прошлое несёт сама конструкция: used to work.",
+      "taskDescription": "Впиши подходящую форму."
     }
   ],
   "dialog_restore_exercises": [
@@ -4900,6 +5433,34 @@
         }
       ],
       "explanation": "На вопрос с did отвечают той же формой — Yes, I did. Was здесь чужой помощник (он для to be), а по реакции A («отлично, отправим сегодня») ответ должен быть положительным."
+    },
+    {
+      "id": 17,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Did you use to wear glasses?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I used.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I did.",
+          "isCorrect": true
+        },
+        {
+          "text": "Yes, I use to.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вопрос начинается с did, поэтому и краткий ответ повторяет именно did: Yes, I did. Ответы с used и use to для краткого ответа не используются — в нём остаётся только помощник."
     }
   ],
   "matching_exercises": [
@@ -5068,9 +5629,52 @@
         }
       ],
       "explanation": "Время держит глагол: нужна форма went, а не настоящее go. Форма gone сюда не ставится сама по себе, а before считает не от «сейчас», поэтому заменить им ago нельзя."
+    },
+    {
+      "id": 96,
+      "wrongSentence": "They used to open a new café in 2019.",
+      "options": [
+        {
+          "text": "They opened a new café in 2019.",
+          "isCorrect": true
+        },
+        {
+          "text": "They used to opened a new café in 2019.",
+          "isCorrect": false
+        },
+        {
+          "text": "They use to open a new café in 2019.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Назван конкретный год, и открытие кафе — одно событие, поэтому нужна обычная форма прошедшего opened. Ни форма прошедшего после used to, ни вариант use to проблему не решают — сама конструкция здесь не к месту."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 15,
+      "construction": "I used to work at a bank.",
+      "options": [
+        {
+          "text": "Я привык работать в банке.",
+          "isCorrect": false
+        },
+        {
+          "text": "Раньше я работал в банке, а сейчас нет.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я использовал работу в банке.",
+          "isCorrect": false
+        },
+        {
+          "text": "Обычно я работаю в банке.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Конструкция used to + глагол значит «раньше это было регулярно, а сейчас нет». Перевод «привык» относится к другой конструкции — be used to, «использовал» — это буквальное чтение слова use, а «обычно» описывает настоящее."
+    }
+  ],
   "transformation_exercises": [
     {
       "id": 27,
@@ -5166,6 +5770,25 @@
         }
       ],
       "explanation": "В прошедшее уходит вся цепочка целиком — каждое звено меняет форму (close→closed, go→went; buy→bought, take→took; find→found, start→started). Переводить только первый глагол нельзя — рассказ должен стоять в одном времени."
+    },
+    {
+      "id": 32,
+      "taskDescription": "перепиши предложение через used to.",
+      "items": [
+        {
+          "original": "Nick played the guitar as a child.",
+          "transformed": "Nick used to play the guitar."
+        },
+        {
+          "original": "Marina smoked, but she stopped.",
+          "transformed": "Marina used to smoke."
+        },
+        {
+          "original": "There was a cinema on this street.",
+          "transformed": "There used to be a cinema here."
+        }
+      ],
+      "explanation": "Регулярное занятие, брошенная привычка и исчезнувшее положение вещей — три классические ситуации для used to. Глагол после конструкции везде стоит в базовой форме, а оборот There was превращается в There used to be."
     }
   ],
   "categorization_exercises": [
@@ -5324,6 +5947,32 @@
         }
       ],
       "explanation": "Голым названиям — году, дню недели, месяцу, времени на часах — нужен указатель времени: in 2018, on Tuesday, in April, at half past seven. А yesterday morning, last Friday, ten minutes ago и last summer уже сами указывают на момент, поэтому предлог перед ними не ставится."
+    },
+    {
+      "id": 52,
+      "taskDescription": "распредели ситуации по колонкам.",
+      "categories": [
+        {
+          "title": "Скажем used to",
+          "items": [
+            "раньше курил",
+            "в детстве играл в футбол",
+            "когда-то жил у моря",
+            "был стеснительным",
+            "теперь нет"
+          ]
+        },
+        {
+          "title": "Скажем обычное прошедшее",
+          "items": [
+            "вчера позвонил другу",
+            "продал машину в мае",
+            "утром разбил чашку",
+            "в пятницу забронировал столик"
+          ]
+        }
+      ],
+      "explanation": "Слева — привычки и состояния прошлого, которых сейчас нет: тут работает used to. Справа — разовые события в названный момент (вчера, в мае, утром, в пятницу): для них берут обычное прошедшее, а used to с точным моментом не сочетается."
     }
   ],
   "find_the_odd_exercises": [
