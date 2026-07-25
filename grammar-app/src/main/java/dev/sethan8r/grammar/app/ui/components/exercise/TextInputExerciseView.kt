@@ -360,8 +360,8 @@ private fun BankWordsText(words: List<String>, modifier: Modifier = Modifier) {
 /**
  * Предложение с инлайн-полем на месте `___`; ширина поля — по длине правильного ответа.
  * [focusRequester] висит над полем — им пункт забирает системный фокус при переключении (см.
- * `grabKeyboard` в [TextInputItem]). При [showPeek] сразу за полем встаёт инлайн-глазок (тем же
- * потоком текста, поэтому предложение не разъезжается) — он переключает поле «ответ ↔ эталон».
+ * `grabKeyboard` в [TextInputItem]). При [showPeek] в самом конце предложения встаёт инлайн-глазок
+ * (тем же потоком текста, поэтому предложение не разъезжается) — он переключает поле «ответ ↔ эталон».
  */
 @Composable
 private fun SentenceWithBlank(
@@ -380,7 +380,6 @@ private fun SentenceWithBlank(
         if (marker >= 0) {
             append(item.sentence.substring(0, marker))
             appendInlineContent(BLANK_ID, " ")
-            if (showPeek) appendInlineContent(PEEK_ID, " ")
             var end = marker
             while (end < item.sentence.length && item.sentence[end] == '_') end++
             append(item.sentence.substring(end))
@@ -388,8 +387,9 @@ private fun SentenceWithBlank(
             append(item.sentence)
             append(" ")
             appendInlineContent(BLANK_ID, " ")
-            if (showPeek) appendInlineContent(PEEK_ID, " ")
         }
+        // Глазок — последним, после точки: он про весь пункт, а не про конкретное слово.
+        if (showPeek) appendInlineContent(PEEK_ID, " ")
     }
     // Ширина поля растёт от длины ожидаемого ответа (em — тянется за шрифтом).
     val widthEm = (item.answer.length.coerceAtLeast(3) * 0.62f + 1.6f).em
