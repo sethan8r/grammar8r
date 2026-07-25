@@ -131,8 +131,8 @@ private fun visualFor(revealed: Boolean, item: TransformItem, input: String): In
 
 /**
  * Один пример: свёрнут — строка-превью «исходное → вписанное» (общий [ExerciseAccordionItem]),
- * раскрыт — исходное предложение, под ним стрелка и поле преобразованного. У ошибочного примера
- * стрелка уступает место полю, а справа встаёт глазок ([ExercisePeekButton]).
+ * раскрыт — исходное предложение, под ним стрелка, поле преобразованного и слот глазка
+ * ([ExercisePeekButton]) — слот занят всегда, кнопка в нём появляется у ошибочного примера.
  */
 @Composable
 private fun TransformItemRow(
@@ -166,16 +166,11 @@ private fun TransformItemRow(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
         ) {
-            // У ошибочного примера стрелку убираем: её место отдаём полю, чтобы длинный ответ влез
-            // рядом с глазком (в раскрытом примере роль стрелки уже играет само расположение под
-            // исходным предложением).
-            if (!wrong) {
-                Icon(
-                    imageVector = Icons.AutoMirrored.Filled.ArrowForward,
-                    contentDescription = null,
-                    tint = accent,
-                )
-            }
+            Icon(
+                imageVector = Icons.AutoMirrored.Filled.ArrowForward,
+                contentDescription = null,
+                tint = accent,
+            )
             ExerciseInputField(
                 value = if (wrong && peekCorrect) item.transformed else value,
                 enabled = editable,
@@ -188,9 +183,13 @@ private fun TransformItemRow(
                     .heightIn(min = FIELD_MIN_HEIGHT)
                     .focusRequester(fieldFocus),
             )
-            if (wrong) {
-                ExercisePeekButton(peeking = peekCorrect, onToggle = { peekCorrect = !peekCorrect })
-            }
+            // Слот глазка занят всегда (кнопка — только у ошибочного примера): ширина поля одинакова
+            // до и после проверки, поэтому вердикт не переверстывает пример.
+            ExercisePeekButton(
+                visible = wrong,
+                peeking = peekCorrect,
+                onToggle = { peekCorrect = !peekCorrect },
+            )
         }
     }
 }

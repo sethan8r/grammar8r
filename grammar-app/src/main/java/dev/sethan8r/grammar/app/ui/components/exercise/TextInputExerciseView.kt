@@ -360,8 +360,9 @@ private fun BankWordsText(words: List<String>, modifier: Modifier = Modifier) {
 /**
  * Предложение с инлайн-полем на месте `___`; ширина поля — по длине правильного ответа.
  * [focusRequester] висит над полем — им пункт забирает системный фокус при переключении (см.
- * `grabKeyboard` в [TextInputItem]). При [showPeek] в самом конце предложения встаёт инлайн-глазок
- * (тем же потоком текста, поэтому предложение не разъезжается) — он переключает поле «ответ ↔ эталон».
+ * `grabKeyboard` в [TextInputItem]). В самом конце предложения стоит инлайн-слот глазка — место под
+ * него занято всегда (иначе вердикт переносил бы предложение), а кнопка в нём появляется по
+ * [showPeek] и переключает поле «ответ ↔ эталон».
  */
 @Composable
 private fun SentenceWithBlank(
@@ -388,8 +389,9 @@ private fun SentenceWithBlank(
             append(" ")
             appendInlineContent(BLANK_ID, " ")
         }
-        // Глазок — последним, после точки: он про весь пункт, а не про конкретное слово.
-        if (showPeek) appendInlineContent(PEEK_ID, " ")
+        // Глазок — последним, после точки: он про весь пункт, а не про конкретное слово. Слот стоит
+        // ВСЕГДА (кнопка в нём появляется по [showPeek]) — иначе вердикт переносил бы предложение.
+        appendInlineContent(PEEK_ID, " ")
     }
     // Ширина поля растёт от длины ожидаемого ответа (em — тянется за шрифтом).
     val widthEm = (item.answer.length.coerceAtLeast(3) * 0.62f + 1.6f).em
@@ -418,7 +420,12 @@ private fun SentenceWithBlank(
                 placeholderVerticalAlign = PlaceholderVerticalAlign.Center,
             ),
         ) {
-            ExercisePeekButton(peeking = peeking, onToggle = onPeekToggle, modifier = Modifier.fillMaxSize())
+            ExercisePeekButton(
+                visible = showPeek,
+                peeking = peeking,
+                onToggle = onPeekToggle,
+                modifier = Modifier.fillMaxSize(),
+            )
         },
     )
     Text(

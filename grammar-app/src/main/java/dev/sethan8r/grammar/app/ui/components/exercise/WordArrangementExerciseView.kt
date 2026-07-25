@@ -18,8 +18,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
@@ -294,8 +292,21 @@ fun WordArrangementExerciseView(
                     }
                 }
 
-                // Увеличенный зазор между полем сборки и пулом.
-                Spacer(Modifier.height(Dimens.spaceXXLarge))
+                // Зазор между полем сборки и пулом — он же место под глазок (появляется на реванше).
+                // Высота зарезервирована всегда: вердикт не сдвигает банк, а карточки пула не могут
+                // заехать под кнопку.
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(Dimens.spaceXXLarge),
+                    contentAlignment = Alignment.CenterEnd,
+                ) {
+                    ExercisePeekButton(
+                        visible = revealed,
+                        peeking = peekCorrect,
+                        onToggle = { peekCorrect = !peekCorrect },
+                    )
+                }
 
                 // --- Банк слов (использованные/перетаскиваемые — тёмный плейсхолдер той же ширины) ---
                 FlowRow(
@@ -321,20 +332,6 @@ fun WordArrangementExerciseView(
                             },
                         )
                     }
-                }
-            }
-
-            // Реванш: правильное предложение отдельной строкой НЕ печатаем — его показывает глазок
-            // прямо в поле сборки (там слова уже разложены по порядку, читать удобнее).
-            if (revealed) {
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(horizontal = Dimens.cardPadding)
-                        .padding(top = Dimens.spaceSmall),
-                    horizontalArrangement = Arrangement.End,
-                ) {
-                    ExercisePeekButton(peeking = peekCorrect, onToggle = { peekCorrect = !peekCorrect })
                 }
             }
 

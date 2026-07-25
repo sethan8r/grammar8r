@@ -27,25 +27,40 @@ private val PEEK_ICON = 20.dp
  * один вид и одно поведение для TEXT_INPUT, TRANSFORMATION и WORD_ARRANGEMENT). Сам глазок ничего не
  * знает про ответ — он только переключает [peeking], а подмену содержимого делает задание.
  *
+ * **Место занято всегда, кнопка появляется по [visible].** Пока задание отвечают, слот пустой, но
+ * размер держит — поэтому вердикт («Проверить») не сдвигает раскладку задания.
+ *
  * Ripple выключен (как у остальных тапов в заданиях). Зона тапа — минимум [PEEK_BUTTON]; инлайн-вставке
  * в предложение передают `fillMaxSize()`, и тогда размер держит слот.
  */
 @Composable
-fun ExercisePeekButton(peeking: Boolean, onToggle: () -> Unit, modifier: Modifier = Modifier) {
+fun ExercisePeekButton(
+    visible: Boolean,
+    peeking: Boolean,
+    onToggle: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
     val interaction = remember { MutableInteractionSource() }
     Box(
         modifier = modifier
             .defaultMinSize(minWidth = PEEK_BUTTON, minHeight = PEEK_BUTTON)
-            .clickable(interactionSource = interaction, indication = null, onClick = onToggle),
+            .clickable(
+                interactionSource = interaction,
+                indication = null,
+                enabled = visible,
+                onClick = onToggle,
+            ),
         contentAlignment = Alignment.Center,
     ) {
-        Icon(
-            imageVector = if (peeking) Icons.Filled.VisibilityOff else Icons.Filled.Visibility,
-            contentDescription = stringResource(
-                if (peeking) R.string.exercise_peek_own else R.string.exercise_peek_correct,
-            ),
-            tint = Accent,
-            modifier = Modifier.size(PEEK_ICON),
-        )
+        if (visible) {
+            Icon(
+                imageVector = if (peeking) Icons.Filled.VisibilityOff else Icons.Filled.Visibility,
+                contentDescription = stringResource(
+                    if (peeking) R.string.exercise_peek_own else R.string.exercise_peek_correct,
+                ),
+                tint = Accent,
+                modifier = Modifier.size(PEEK_ICON),
+            )
+        }
     }
 }
