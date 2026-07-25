@@ -2095,11 +2095,11 @@ RU: Утром Лена проснулась, оделась и вышла из 
 
 Задание: перепиши рассказ в прошедшем времени.
 
-1. "I get up early, make breakfast and go to work." → **"I got up early, made breakfast and went to work."**
-2. "She calls a taxi, waits ten minutes and leaves." → **"She called a taxi, waited ten minutes and left."**
-3. "We finish the meeting, have lunch and drive home." → **"We finished the meeting, had lunch and drove home."**
+1. "Ira closes the shop and goes home." → **"Ira closed the shop and went home."**
+2. "We buy tickets and take the bus." → **"We bought tickets and took the bus."**
+3. "He finds his keys and starts the car." → **"He found his keys and started the car."**
 
-*Explanation:* В прошедшее уходит вся цепочка целиком — каждое звено меняет форму (get→got, make→made, go→went; call→called, wait→waited; finish→finished, have→had, drive→drove). Переводить только первый глагол нельзя — рассказ должен стоять в одном времени.
+*Explanation:* В прошедшее уходит вся цепочка целиком — каждое звено меняет форму (close→closed, go→went; buy→bought, take→took; find→found, start→started). Переводить только первый глагол нельзя — рассказ должен стоять в одном времени.
 
 ---
 

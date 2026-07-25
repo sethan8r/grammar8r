@@ -2,9 +2,11 @@ package dev.sethan8r.grammar.app.ui.util
 
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
+import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.statusBars
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Dp
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 
@@ -32,6 +34,14 @@ fun floatingBarBottomInset(): Dp =
         Dimens.bottomBarFloatingHeight +
         Dimens.bottomBarFloatingBottomGap +
         Dimens.spaceMedium
+
+/**
+ * Видна ли сейчас экранная клавиатура. Единственная проверка этого в приложении (Правило №0):
+ * задания с несколькими полями по ней решают, переносить ли фокус на новое поле — чтобы клавиатура
+ * не мигала вниз-вверх и не всплывала сама, когда её не было.
+ */
+@Composable
+fun isImeVisible(): Boolean = WindowInsets.ime.getBottom(LocalDensity.current) > 0
 
 /**
  * Верхний отступ скроллящегося контента КОРНЕВОЙ вкладки = высота строки состояния. На вкладках

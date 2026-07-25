@@ -1,20 +1,16 @@
 package dev.sethan8r.grammar.app.ui.components.exercise
 
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseAccordionItem
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseContentText
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseInputField
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExercisePeekButton
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.InputFieldVisual
 
-import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.SizeTransform
-import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
-import androidx.compose.animation.ContentTransform
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -22,12 +18,9 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
@@ -46,21 +39,17 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.lerp as colorLerp
-import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.Placeholder
 import androidx.compose.ui.text.PlaceholderVerticalAlign
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
@@ -75,14 +64,18 @@ import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
-import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
+import dev.sethan8r.grammar.app.ui.util.isImeVisible
 import kotlinx.coroutines.delay
 
 private const val BLANK_ID = "blank"
 private const val BANK_DOT_ID = "bankDot"
+private const val PEEK_ID = "peek"
+
+/** Инлайн-слот глазка сразу за полем: ширина в em — тянется за шрифтом предложения, как и поле. */
+private val PEEK_SLOT_EM = 1.8.em
 
 /** Банк-подсказка: держится раскрытым, мс; длительность морфа, мс. */
 private const val BANK_PEEK_MS = 5_000L
@@ -95,21 +88,20 @@ private val BANK_CAPSULE_H = 32.dp
 private const val BANK_STRIP_SX = 0.30f
 private const val BANK_STRIP_SY = 0.16f
 
-/** Морф пункта «свёрнут ↔ в фокусе»: размер и цвета плашки, мс. */
-private const val ITEM_MORPH_MS = 240
-
 /**
  * Рендерер TEXT_INPUT во [ExerciseFrame] (трясётся на ошибке). Пропуск `___` — это инлайн-поле ввода
  * прямо в предложении (пользователь печатает в него, а не в отдельное поле), ширина — по длине
  * правильного ответа. Проверка ввода — case-insensitive с учётом сокращений
  * ([dev.sethan8r.grammar.app.domain.usecase.AnswerNormalizer]).
  *
- * Раскладка — аккордеон-фокус: пока идёт ответ, раскрыт ровно ОДИН пункт (предложение с полем +
- * контекст), остальные свёрнуты в строку «точка-индикатор + приглушённое превью». Тап по свёрнутой
- * строке переводит фокус на неё, прошлая сворачивается — так задание из 4–5 пунктов не растёт в
- * простыню. На реванше ([AnswerPhase.REVEALED]) аккордеон выключается: раскрыты все пункты, поле
- * каждого окрашено по своему результату (зелёная/красная рамка), под неверным — правильное слово
- * зелёным. Вердикт задания при этом остаётся all-or-nothing (его держит экран сессии).
+ * Раскладка — аккордеон-фокус на общем [ExerciseAccordionItem]: пока идёт ответ, раскрыт ровно ОДИН
+ * пункт (предложение с полем + контекст), остальные свёрнуты в строку «точка-индикатор + приглушённое
+ * превью, где вписанное слово стоит на месте пропуска». Тап по свёрнутой строке переводит фокус на
+ * неё — так задание из 4–5 пунктов не растёт в простыню. Когда всё верно, акцент пунктов становится
+ * зелёным. На реванше ([AnswerPhase.REVEALED]) аккордеон выключается: раскрыты все пункты, поле
+ * каждого окрашено по своему результату (зелёная/красная рамка), а у ошибочного рядом с полем стоит
+ * глазок — он подменяет в поле ответ пользователя эталоном и обратно (отдельной строки с правильным
+ * ответом больше нет). Вердикт задания при этом остаётся all-or-nothing (его держит экран сессии).
  *
  * Режим «банк слов» (когда есть [Exercise.TextInput.wordBank]): сверху — шапка-задание +
  * [ExerciseDivider], а В САМОМ НИЗУ — [WordBankPeek]: голубая полоска, которая по тапу «разъезжается»
@@ -138,7 +130,7 @@ fun TextInputExerciseView(
     var focusedIndex by rememberSaveable { mutableIntStateOf(0) }
     // Состояние клавиатуры при смене пункта не меняется: идёт ввод (IME на экране) — фокус переезжает
     // на поле нового пункта и клавиатура остаётся; клавиатуры нет — фокус не запрашиваем вообще.
-    val imeVisible = WindowInsets.ime.getBottom(LocalDensity.current) > 0
+    val imeVisible = isImeVisible()
 
     ExerciseFrame(shakeKey = shakeKey, pulseKey = pulseKey, modifier = modifier) {
         if (!task.isNullOrBlank()) {
@@ -199,15 +191,9 @@ private fun visualFor(revealed: Boolean, item: TextItem, input: String): InputFi
 }
 
 /**
- * Один пункт задания в двух состояниях: [focused] — предложение с инлайн-полем (+ контекст, + на
- * реванше правильное слово под неверным полем), иначе — свёрнутая строка-превью. Плашка вокруг
- * пункта проявляется вместе с фокусом ([Elevated] + рамка цветом [accent]), содержимое сменяется через
- * [AnimatedContent] (перекрёстное затухание + плавная смена высоты, `SizeTransform`) — поэтому
- * соседние пункты разъезжаются анимированно, а не прыжком. Тап работает только на свёрнутом
- * пункте: фокус нельзя «снять», в задании всегда раскрыт ровно один (или все — на реванше).
- *
- * [grabKeyboard] — пункт раскрывается, когда ввод уже идёт: поле сразу забирает системный фокус, чтобы
- * клавиатура не мигнула вниз-вверх. Без него фокус не запрашивается и клавиатура не всплывает сама.
+ * Один пункт задания: свёрнут — строка-превью предложения (общий [ExerciseAccordionItem]), раскрыт —
+ * предложение с инлайн-полем и контекстом ([showContext]) под ним. У ошибочного пункта на реванше
+ * рядом с полем встаёт глазок: он подменяет в поле ответ пользователя правильным и обратно.
  */
 @Composable
 private fun TextInputItem(
@@ -222,107 +208,36 @@ private fun TextInputItem(
     onValueChange: (String) -> Unit,
     onFocus: () -> Unit,
 ) {
-    val fieldFocus = remember { FocusRequester() }
-    val shape = RoundedCornerShape(Dimens.cornerButton)
-    val fill by animateColorAsState(
-        targetValue = if (focused) Elevated else Color.Transparent,
-        animationSpec = tween(ITEM_MORPH_MS),
-        label = "itemFill",
-    )
-    // Рамка-акцент — признак «сюда печатать». На реванше результат держит само поле, рамку гасим.
-    val borderColor by animateColorAsState(
-        targetValue = if (focused && visual == InputFieldVisual.NEUTRAL) accent else Color.Transparent,
-        animationSpec = tween(ITEM_MORPH_MS),
-        label = "itemBorder",
-    )
-    val interaction = remember { MutableInteractionSource() }
+    ExerciseAccordionItem(
+        focused = focused,
+        filled = value.isNotBlank(),
+        accent = accent,
+        outlined = visual == InputFieldVisual.NEUTRAL,
+        grabKeyboard = grabKeyboard,
+        preview = previewSentence(item.sentence, value),
+        onFocus = onFocus,
+    ) { fieldFocus ->
+        var peekCorrect by remember { mutableStateOf(false) }
+        val wrong = visual == InputFieldVisual.WRONG
+        // Пункт с пустым правильным ответом («предлог не нужен») показываем прочерком.
+        val dash = stringResource(R.string.exercise_correct_answer_empty)
+        val peeking = wrong && peekCorrect
 
-    Box(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(shape)
-            .background(fill)
-            .border(1.dp, borderColor, shape)
-            .clickable(
-                interactionSource = interaction,
-                indication = null,
-                enabled = !focused,
-                onClick = onFocus,
-            )
-            .padding(horizontal = Dimens.spaceMedium, vertical = Dimens.spaceSmall),
-    ) {
-        AnimatedContent(
-            targetState = focused,
-            transitionSpec = {
-                ContentTransform(
-                    // Новое содержимое всплывает после того, как ушло старое — без наложения текстов.
-                    targetContentEnter = fadeIn(tween(ITEM_MORPH_MS, delayMillis = ITEM_MORPH_MS / 2)),
-                    initialContentExit = fadeOut(tween(ITEM_MORPH_MS / 2)),
-                    sizeTransform = SizeTransform(clip = false) { _, _ -> tween(ITEM_MORPH_MS) },
-                )
-            },
-            label = "itemMorph",
-        ) { isFocused ->
-            if (isFocused) {
-                // Ввод уже шёл — новое поле подхватывает фокус в кадре появления (клавиатура не мигает).
-                if (grabKeyboard) {
-                    LaunchedEffect(Unit) { fieldFocus.requestFocus() }
-                }
-                Column(verticalArrangement = Arrangement.spacedBy(Dimens.spaceTiny)) {
-                    SentenceWithBlank(
-                        item = item,
-                        value = value,
-                        enabled = editable,
-                        visual = visual,
-                        focusRequester = fieldFocus,
-                        onValueChange = onValueChange,
-                    )
-                    if (showContext && item.contextRu.isNotBlank()) {
-                        Text(item.contextRu, color = TextSecondary, fontSize = 14.sp, fontStyle = FontStyle.Italic)
-                    }
-                    // Верный пункт не подписываем — зелёного поля достаточно; у неверного печатаем ответ.
-                    if (visual == InputFieldVisual.WRONG) {
-                        // Пункт с пустым правильным ответом («предлог не нужен») печатаем прочерком.
-                        val dash = stringResource(R.string.exercise_correct_answer_empty)
-                        ExerciseContentText(
-                            text = item.answer.ifBlank { dash },
-                            color = CorrectGreen,
-                            fontSize = 13.sp,
-                            lineHeight = 18.sp,
-                            fontWeight = FontWeight.Medium,
-                        )
-                    }
-                }
-            } else {
-                CollapsedItem(sentence = item.sentence, value = value, accent = accent)
-            }
-        }
-    }
-}
-
-/**
- * Свёрнутый пункт: точка-индикатор (заполнен — цветом [accent], пуст — [Inactive]) и превью
- * предложения в одну строку с эллипсисом. Уже вписанный ответ стоит в превью на месте пропуска
- * (жирным), пустой пропуск рисуется линией — как во всём задании ([ExerciseContentText]).
- */
-@Composable
-private fun CollapsedItem(sentence: String, value: String, accent: Color) {
-    val filled = value.isNotBlank()
-    Row(
-        modifier = Modifier.fillMaxWidth(),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
-    ) {
-        Box(Modifier.size(Dimens.exerciseItemDot).background(if (filled) accent else Inactive, CircleShape))
-        ExerciseContentText(
-            text = previewSentence(sentence, value),
-            color = TextSecondary,
-            fontSize = 14.sp,
-            lineHeight = 20.sp,
-            maxLines = 1,
-            overflow = TextOverflow.Ellipsis,
-            modifier = Modifier.weight(1f),
+        SentenceWithBlank(
+            item = item,
+            value = if (peeking) item.answer.ifBlank { dash } else value,
+            enabled = editable,
+            // Пока показан правильный ответ, поле зелёное — видно, что это эталон, а не твой ввод.
+            visual = if (peeking) InputFieldVisual.CORRECT else visual,
+            showPeek = wrong,
+            peeking = peekCorrect,
+            focusRequester = fieldFocus,
+            onValueChange = onValueChange,
+            onPeekToggle = { peekCorrect = !peekCorrect },
         )
+        if (showContext && item.contextRu.isNotBlank()) {
+            Text(item.contextRu, color = TextSecondary, fontSize = 14.sp, fontStyle = FontStyle.Italic)
+        }
     }
 }
 
@@ -445,7 +360,8 @@ private fun BankWordsText(words: List<String>, modifier: Modifier = Modifier) {
 /**
  * Предложение с инлайн-полем на месте `___`; ширина поля — по длине правильного ответа.
  * [focusRequester] висит над полем — им пункт забирает системный фокус при переключении (см.
- * `grabKeyboard` в [TextInputItem]).
+ * `grabKeyboard` в [TextInputItem]). При [showPeek] сразу за полем встаёт инлайн-глазок (тем же
+ * потоком текста, поэтому предложение не разъезжается) — он переключает поле «ответ ↔ эталон».
  */
 @Composable
 private fun SentenceWithBlank(
@@ -453,14 +369,18 @@ private fun SentenceWithBlank(
     value: String,
     enabled: Boolean,
     visual: InputFieldVisual,
+    showPeek: Boolean,
+    peeking: Boolean,
     focusRequester: FocusRequester,
     onValueChange: (String) -> Unit,
+    onPeekToggle: () -> Unit,
 ) {
     val annotated = buildAnnotatedString {
         val marker = item.sentence.indexOf("___")
         if (marker >= 0) {
             append(item.sentence.substring(0, marker))
             appendInlineContent(BLANK_ID, " ")
+            if (showPeek) appendInlineContent(PEEK_ID, " ")
             var end = marker
             while (end < item.sentence.length && item.sentence[end] == '_') end++
             append(item.sentence.substring(end))
@@ -468,6 +388,7 @@ private fun SentenceWithBlank(
             append(item.sentence)
             append(" ")
             appendInlineContent(BLANK_ID, " ")
+            if (showPeek) appendInlineContent(PEEK_ID, " ")
         }
     }
     // Ширина поля растёт от длины ожидаемого ответа (em — тянется за шрифтом).
@@ -489,6 +410,15 @@ private fun SentenceWithBlank(
                     .fillMaxSize()
                     .focusRequester(focusRequester),
             )
+        },
+        PEEK_ID to InlineTextContent(
+            placeholder = Placeholder(
+                width = PEEK_SLOT_EM,
+                height = 1.7.em,
+                placeholderVerticalAlign = PlaceholderVerticalAlign.Center,
+            ),
+        ) {
+            ExercisePeekButton(peeking = peeking, onToggle = onPeekToggle, modifier = Modifier.fillMaxSize())
         },
     )
     Text(

@@ -45,6 +45,11 @@ enum class InputFieldVisual { NEUTRAL, CORRECT, WRONG }
  * глушит подсказки `KeyboardType.Password` (Gboard игнорит один `autoCorrectEnabled`) — как в Words8r;
  * текст при этом остаётся видимым, т.к. маскирует не тип клавиатуры, а `VisualTransformation`, а у
  * [BasicTextField] она по умолчанию `None`. В AI-вводе (Фаза 3, отдельный компонент) Т9 оставляем.
+ *
+ * [maxLines] — сколько строк максимум занимает ответ. По умолчанию одна (инлайн-пропуск, ячейка
+ * таблицы). Больше одной — текст переносится сам по фактической ширине поля, а поле растёт в высоту;
+ * вызывающий тогда задаёт высоту через `heightIn(min = …)`, а не фиксированную. Перевод строки с
+ * клавиатуры не вставляется ни в одном режиме — ответ остаётся одним абзацем.
  */
 @Composable
 fun ExerciseInputField(
@@ -53,6 +58,7 @@ fun ExerciseInputField(
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
     visual: InputFieldVisual = InputFieldVisual.NEUTRAL,
+    maxLines: Int = 1,
 ) {
     val borderColor = when (visual) {
         InputFieldVisual.NEUTRAL -> Inactive
@@ -82,12 +88,19 @@ fun ExerciseInputField(
     ) {
         BasicTextField(
             value = field,
-            onValueChange = {
-                field = it
-                onValueChange(it.text)
+            onValueChange = { typed ->
+                // Enter в ответе не нужен: перенос строки — только автоматический, по ширине поля.
+                val flat = if (typed.text.contains('\n')) {
+                    typed.copy(text = typed.text.replace('\n', ' '))
+                } else {
+                    typed
+                }
+                field = flat
+                onValueChange(flat.text)
             },
             enabled = enabled,
-            singleLine = true,
+            singleLine = maxLines == 1,
+            maxLines = maxLines,
             textStyle = TextStyle(color = TextPrimary, fontSize = 18.sp, textAlign = TextAlign.Center),
             keyboardOptions = KeyboardOptions(
                 autoCorrectEnabled = false,

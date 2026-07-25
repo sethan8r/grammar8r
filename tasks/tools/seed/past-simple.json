@@ -4589,19 +4589,19 @@
       "taskDescription": "перепиши рассказ в прошедшем времени.",
       "items": [
         {
-          "original": "I get up early, make breakfast and go to work.",
-          "transformed": "I got up early, made breakfast and went to work."
+          "original": "Ira closes the shop and goes home.",
+          "transformed": "Ira closed the shop and went home."
         },
         {
-          "original": "She calls a taxi, waits ten minutes and leaves.",
-          "transformed": "She called a taxi, waited ten minutes and left."
+          "original": "We buy tickets and take the bus.",
+          "transformed": "We bought tickets and took the bus."
         },
         {
-          "original": "We finish the meeting, have lunch and drive home.",
-          "transformed": "We finished the meeting, had lunch and drove home."
+          "original": "He finds his keys and starts the car.",
+          "transformed": "He found his keys and started the car."
         }
       ],
-      "explanation": "В прошедшее уходит вся цепочка целиком — каждое звено меняет форму (get→got, make→made, go→went; call→called, wait→waited; finish→finished, have→had, drive→drove). Переводить только первый глагол нельзя — рассказ должен стоять в одном времени."
+      "explanation": "В прошедшее уходит вся цепочка целиком — каждое звено меняет форму (close→closed, go→went; buy→bought, take→took; find→found, start→started). Переводить только первый глагол нельзя — рассказ должен стоять в одном времени."
     }
   ],
   "categorization_exercises": [

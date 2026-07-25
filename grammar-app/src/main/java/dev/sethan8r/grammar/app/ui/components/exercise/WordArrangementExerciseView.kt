@@ -4,6 +4,7 @@ import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseChip
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExercisePeekButton
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.detectChipDrag
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.hitTest
 
@@ -17,6 +18,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -37,6 +39,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Rect
@@ -45,13 +48,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
-import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
@@ -81,6 +82,10 @@ private data class WordSlot(val id: Int, val token: String)
  *
  * Слово «в предложении» ⟺ отпущено НАД полем сборки; иначе — возвращается в пул (с анимацией).
  * Источник правды отрисовки — локальный [sentence]; в VM уходят тексты по порядку для проверки.
+ *
+ * На реванше ([AnswerPhase.REVEALED]) правильное предложение отдельной строкой не печатается: под полем
+ * появляется глазок ([ExercisePeekButton]), который раскладывает в самом поле эталон (и красит поле
+ * зелёным) вместо собранного пользователем — повторный тап возвращает его сборку.
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -94,7 +99,11 @@ fun WordArrangementExerciseView(
 ) {
     val editable = phase.isEditable
     val solved = phase == AnswerPhase.CORRECT
+    val revealed = phase == AnswerPhase.REVEALED
     val scope = rememberCoroutineScope()
+    // Реванш: глазок подменяет собранное пользователем предложение эталоном и обратно.
+    var peekCorrect by remember(exercise.id) { mutableStateOf(false) }
+    val peeking = revealed && peekCorrect
 
     // Банк: слова + дистракторы, перемешан один раз (стабильные id).
     val bank = remember(exercise.id) {
@@ -211,14 +220,15 @@ fun WordArrangementExerciseView(
 
             Column(modifier = Modifier.padding(horizontal = Dimens.cardPadding)) {
                 // Цвет поля сборки по результату: верно — зелёное, 2-я ошибка (reveal) — красное.
+                // Пока в поле показан эталон, оно зелёное — видно, что это не твоя сборка.
                 val fieldBorder = when {
-                    solved -> CorrectGreen
-                    phase == AnswerPhase.REVEALED -> IncorrectRed
+                    solved || peeking -> CorrectGreen
+                    revealed -> IncorrectRed
                     else -> Inactive
                 }
                 val fieldFill = when {
-                    solved -> CorrectGreen.copy(alpha = Alphas.answerFill)
-                    phase == AnswerPhase.REVEALED -> IncorrectRed.copy(alpha = Alphas.answerFill)
+                    solved || peeking -> CorrectGreen.copy(alpha = Alphas.answerFill)
+                    revealed -> IncorrectRed.copy(alpha = Alphas.answerFill)
                     else -> Color.Transparent
                 }
                 // --- Поле сборки (минимум ~2 строки, дальше растёт) ---
@@ -240,6 +250,7 @@ fun WordArrangementExerciseView(
                     FlowRow(
                         horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
                         verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
+                        modifier = Modifier.alpha(if (peeking) 0f else 1f),
                     ) {
                         sentence.forEach { slot ->
                             val isDragged = slot == dragging
@@ -248,14 +259,9 @@ fun WordArrangementExerciseView(
                             key(slot.id) {
                                 ExerciseChip(
                                     text = slot.token,
-                                    // Когда поле окрашено результатом (верно — зелёное / 2-я ошибка —
-                                    // красное), фон чипа прозрачный: заливка ПОЛЯ просвечивает сквозь
-                                    // карточки (буквы остаются белыми). Тест — можно откатить.
-                                    background = when {
-                                        isDragged -> Background
-                                        solved || phase == AnswerPhase.REVEALED -> Color.Transparent
-                                        else -> Elevated
-                                    },
+                                    // Карточки выглядят одинаково всегда: результат показывает ПОЛЕ
+                                    // (зелёное/красное), сами чипы цвет не меняют.
+                                    background = if (isDragged) Background else Elevated,
                                     border = Inactive,
                                     contentAlpha = if (isDragged) 0f else 1f,
                                     modifier = Modifier
@@ -268,6 +274,21 @@ fun WordArrangementExerciseView(
                                                 w.localPositionOf(coords, Offset(s.width / 2f, s.height / 2f))
                                         },
                                 )
+                            }
+                        }
+                    }
+
+                    // Слой эталона — только на реванше, лежит В ТОМ ЖЕ боксе поверх сборки. Поэтому
+                    // высота поля = максимум из двух раскладок и НЕ меняется от глазка: сколько бы
+                    // рядов ни вышло у пользователя и в эталоне, экран при переключении не скачет.
+                    if (revealed) {
+                        FlowRow(
+                            horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
+                            verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
+                            modifier = Modifier.alpha(if (peeking) 1f else 0f),
+                        ) {
+                            exercise.words.forEach { token ->
+                                ExerciseChip(text = token, background = Elevated, border = Inactive)
                             }
                         }
                     }
@@ -303,19 +324,17 @@ fun WordArrangementExerciseView(
                 }
             }
 
-            // Правильное предложение — на реванше (слитые попытки). Верхний отступ = нижнему (до
-            // разделителя объяснения, у него тоже cardPadding) — текст «Правильно» по центру зазора.
-            if (phase == AnswerPhase.REVEALED) {
-                Column(
+            // Реванш: правильное предложение отдельной строкой НЕ печатаем — его показывает глазок
+            // прямо в поле сборки (там слова уже разложены по порядку, читать удобнее).
+            if (revealed) {
+                Row(
                     modifier = Modifier
+                        .fillMaxWidth()
                         .padding(horizontal = Dimens.cardPadding)
-                        .padding(top = Dimens.cardPadding),
+                        .padding(top = Dimens.spaceSmall),
+                    horizontalArrangement = Arrangement.End,
                 ) {
-                    Text(
-                        text = stringResource(R.string.exercise_correct_answer, exercise.correctSentence),
-                        color = CorrectGreen,
-                        fontSize = 16.sp,
-                    )
+                    ExercisePeekButton(peeking = peekCorrect, onToggle = { peekCorrect = !peekCorrect })
                 }
             }
 
