@@ -1956,6 +1956,8 @@ theory/
 │   │   ⚠️ СЛИВ — целыми ФРАЗАМИ, не словами. Фраза-семья с русским смыслом («I'm down → согласен /
 │   │   я в деле») открывается (isView = true) после своей микротемы в НОВУЮ категорию — напр.
 │   │   «Informal Phrases» / «Разговорные фразы» (отдельно от «Informal English», где одиночные слова).
+│   │   Одиночные слэнг-слова из карточек раздела (ride, booze, lame, rip-off, chicken, wimp) льём
+│   │   в уже существующую «Informal English» — новую категорию под них не заводить.
 │   │   ⚠️ ENUM-консистентность (CLAUDE.md): новую категорию завести согласованно — words8r_plan.md
 │   │   (категория должна там появиться) + WordSource (db_schema.md) + вариант AiExerciseWordsSource,
 │   │   если делаем AI-практику по фразам. Открытый вопрос при написании: фраза как флешка qRep/приоритет
@@ -1979,7 +1981,10 @@ theory/
 │   │   │   ├── Card · Ты шутишь — you're kidding / you're joking / you've got to be kidding
 │   │   │   └── Card · Это дичь — that's crazy / that's wild / that's insane / that's nuts. + AI.
 │   │   └── МТ: Понял / не понял / забыл
-│   │       ├── Card · Дошло — I get it / I see / makes sense / gotcha
+│   │       ├── Card · Дошло — I get it / I see / makes sense / gotcha / I got you (I gotchu)
+│   │       │   ⚠️ У «I got you» два смысла: «понял тебя» И «я тебя прикрою / я с тобой»
+│   │       │   («Don't worry, I got you»). Фонетика got you → gotcha разобрана в «Разговорном
+│   │       │   английском» (слияния) — здесь только указатель, не переписывать.
 │   │       ├── Card · Не улавливаю — I'm lost / I'm confused / you lost me
 │   │       ├── Card · Без понятия — no idea / no clue / beats me
 │   │       └── Card · Вылетело из головы — it slipped my mind / doesn't ring a bell. + AI.
@@ -1988,7 +1993,14 @@ theory/
 │   │   ├── МТ: Я за / договорились
 │   │   │   ├── Card · Я в деле — I'm down / I'm in / count me in.  ⚠️ Ловушка: I'm down = «я за», не «мне плохо».
 │   │   │   ├── Card · Идёт — sounds good / sounds great / works for me
-│   │   │   └── Card · Полностью согласен — absolutely / exactly / 100% / you nailed it. + AI.
+│   │   │   ├── Card · Полностью согласен — absolutely / exactly / 100% / you nailed it
+│   │   │   └── Card · Я тоже — me too / same / same here / likewise / ditto. + AI.
+│   │   │       После отрицательной реплики — me neither / same here: «I don't like it» →
+│   │   │       «Me neither» (не «Me too»). ⚠️ Ловушки: same здесь голое, без the («Same!»);
+│   │   │       ditto = «то же самое, повторяю за тобой», лёгкий шуточный оттенок.
+│   │   │       Указатель ВПЕРЁД: полная грамматическая форма So do I / Neither do I — в
+│   │   │       «Дополнительных конструкциях» (раздел идёт позже). Likewise как ответ при
+│   │   │       знакомстве уже был в «Социальном взаимодействии» — не переписывать.
 │   │   ├── МТ: Нет, пас
 │   │   │   ├── Card · Мягкий отказ — I'm gonna pass / I'll pass / maybe some other time
 │   │   │   ├── Card · Не смогу прийти — I can't make it / I'm tied up
@@ -2012,13 +2024,19 @@ theory/
 │   ├── Тема: Оценки — вещи, дела, люди
 │   │   ├── МТ: Круто ↔ отстой
 │   │   │   ├── Card · Огонь — it's awesome / it's cool / it's sick / it's dope / it's lit.  ⚠️ Ловушка: sick/dope = «клёво», не по прямому значению.
-│   │   │   └── Card · Отстой — it sucks / it's rough / it's trash. + AI.
+│   │   │   └── Card · Отстой — it sucks / it's rough / it's trash / it's lame. + AI.
+│   │   │       ⚠️ Ловушка: lame буквально «хромой», в слэнге — «убого / скучно / жалко».
+│   │   │       Чаще про идею, отмазку, вечеринку, чем про вещь: «That's a lame excuse.»
 │   │   ├── МТ: Легко ↔ сложно
 │   │   │   ├── Card · Проще простого — a piece of cake / a breeze / no sweat
 │   │   │   └── Card · Кошмар / морока — it's a nightmare / it's a pain / it's a hassle. + AI.
 │   │   └── МТ: Про людей
 │   │       ├── Card · Нравится ↔ терпеть не могу — I'm into him/her ↔ I can't stand him/her
 │   │       ├── Card · С приветом / достал — he's nuts / he's insane / he's a pain
+│   │       ├── Card · Трусит — he's a chicken / he's a wimp / don't be a chicken
+│   │       │   + to chicken out = «сдрейфить, соскочить в последний момент» («He chickened
+│   │       │   out at the last minute»). ⚠️ Ловушка: chicken здесь — человек, а не курица;
+│   │       │   chicken out — фразовый глагол, не «выйти».
 │   │       └── Card · Сойтись, поладить — hit it off / we click / we get along. + AI.
 │   │
 │   ├── Тема: Косяки, правда, ложь  (после MVP)
@@ -2037,13 +2055,23 @@ theory/
 │       ├── МТ: Деньги
 │       │   ├── Card · Бабки — cash / bucks / dough
 │       │   ├── Card · На мели — I'm broke / I'm strapped / tight on cash
-│       │   └── Card · Дёшево ↔ дорого — a bargain / dirt cheap ↔ pricey / costs a fortune. + AI.
-│       ├── МТ: Еда и голод
+│       │   └── Card · Дёшево ↔ дорого — a bargain / dirt cheap ↔ pricey / costs a fortune /
+│       │       it's a rip-off / highway robbery. + AI.
+│       │       ⚠️ Ловушка: rip-off — СУЩЕСТВИТЕЛЬНОЕ («обдираловка, развод»), не синоним
+│       │       expensive: «It's a rip-off» ✓, «It's rip-off» ✗, «a rip-off price» ✓.
+│       │       Глагол — to rip somebody off («меня обули»): «They ripped me off.»
+│       ├── МТ: Еда и напитки
 │       │   ├── Card · Голоден ↔ объелся — I'm starving ↔ I'm stuffed
-│       │   └── Card · Перекусить / кофе — let's grab a bite / grab a coffee
+│       │   ├── Card · Перекусить / кофе — let's grab a bite / grab a coffee
+│       │   └── Card · Бухло — booze / drinks / let's grab a beer (+ boozy). + AI.
+│       │       ⚠️ Регистр: booze — грубовато-бытовое, между своими; в приличном контексте
+│       │       нейтральное drinks («Let's grab a drink»).
 │       └── МТ: Быстро / медленно / уйти
 │           ├── Card · Мигом — right away / ASAP / in a sec / in no time
 │           ├── Card · Не спеши — take your time / no rush
+│           ├── Card · Тачка — my ride / my wheels / hop in / give me a lift (a ride)
+│           │   ⚠️ Ловушка: ride — и «тачка» (сущ.), и «подвезти»: «Need a ride?» = «Подвезти?»,
+│           │   не «хочешь покататься».
 │           └── Card · Валим — let's bounce / let's roll / let's head out / I'm out. + AI.
 │
 ├── Дополнительные конструкции  ← после "Разговорного английского"
@@ -2565,81 +2593,230 @@ theory/
 │       Формат 2: слово → какой звук даёт выделенное сочетание букв
 │       Формат 3: найди лишнее по произношению (например though/through/thought/dough — у одного другой звук)
 │
-└── Разное — полезные темы без строгого места  ← самая последняя тема
-    ├── Национальности и языки — Italian/Italy, French/France; the French/the Russians (народ)
-    ├── Порядок прилагательных — Opinion→Size→Age→Shape→Colour→Origin→Material
-    │   🔤 → Слова описаний: новые прилагательные (цвета/размеры/материалы) → ОБЩАЯ «Слова описаний» (source=course_words).
-    ├── Составные существительные — coffee cup, bus stop, toothbrush, traffic jam
-    ├── The + прилагательное как существительное — the rich, the poor, the elderly
-    │   🔤 → Слова описаний: прилагательные-слова (rich, poor, elderly…) → ОБЩАЯ «Слова описаний» (source=course_words).
-    ├── Восклицательные предложения — What a beautiful day! / How amazing!
-    ├── Отрицательные префиксы — un-, dis-, im-/in-/ir-/il-, non-, mis-
-    ├── Wish / If only — нереальные желания о настоящем и прошлом; связь с conditionals
-    ├── Эмфатические конструкции — "It's John who did it." / "What I need is time."
+├── Разное — полезные темы без строгого места  ← предпоследняя; за ней раздел «Пунктуация и орфография»
+│   ├── Национальности и языки — Italian/Italy, French/France; the French/the Russians (народ)
+│   ├── Порядок прилагательных — Opinion→Size→Age→Shape→Colour→Origin→Material
+│   │   🔤 → Слова описаний: новые прилагательные (цвета/размеры/материалы) → ОБЩАЯ «Слова описаний» (source=course_words).
+│   ├── Составные существительные — coffee cup, bus stop, toothbrush, traffic jam
+│   ├── The + прилагательное как существительное — the rich, the poor, the elderly
+│   │   🔤 → Слова описаний: прилагательные-слова (rich, poor, elderly…) → ОБЩАЯ «Слова описаний» (source=course_words).
+│   ├── Восклицательные предложения — What a beautiful day! / How amazing!
+│   ├── Отрицательные префиксы — un-, dis-, im-/in-/ir-/il-, non-, mis-
+│   ├── Wish / If only — нереальные желания о настоящем и прошлом; связь с conditionals
+│   ├── Эмфатические конструкции — "It's John who did it." / "What I need is time."
+│   │
+│   ├── Словообразование: суффиксы  ← отдельный блок внутри «Разного»
+│   │   ├── [Вводная карточка] Классы слов и почему суффиксы не взаимозаменяемы
+│   │   │   Каждый суффикс питается от определённого класса слов.
+│   │   │   -er/-est едят прилагательные → big (прилаг.) → bigger ✓, bigful — бессмыслица
+│   │   │   -ful/-less/-ous/-ish едят существительные → care (сущ.) → careful ✓
+│   │   │   -ness ест прилагательные → happy (прилаг.) → happiness ✓
+│   │   │   -er (агент) ест глаголы → teach (глагол) → teacher ✓
+│   │   │   -ment/-tion/-sion едят глаголы → enjoy (глагол) → enjoyment ✓
+│   │   │   Эта вводная карточка — ключ ко всей теме. Напоминание повторяется в каждой микротеме.
+│   │   │
+│   │   ├── -er / -est — суффиксы сравнения (питаются от прилагательных и наречий)
+│   │   │   big→bigger→biggest, sour→sourer, sweet→sweeter, hot→hotter (удвоение согласной)
+│   │   │   happy→happier→happiest (-y → -ier), fast→faster (наречие)
+│   │   │   AI-упражнение «угадай трансформацию»: ИИ смотрит слова пользователя из Words8r,
+│   │   │   выбирает подходящее (например, bitter), задаёт вопрос по-русски НЕ называя базовое слово:
+│   │   │   "Как одним словом сказать 'более горький'?" → пользователь пишет: bitterer
+│   │   │
+│   │   ├── -ful и -less — противоположные пары (питаются от существительных)
+│   │   │   care→careful / careless, hope→hopeful / hopeless,
+│   │   │   harm→harmful / harmless, pain→painful / painless
+│   │   │   AI-упражнение: то же — "Как одним словом сказать 'полный надежды'?" → hopeful
+│   │   │
+│   │   ├── -ous и -ish (питаются от существительных)
+│   │   │   danger→dangerous, fame→famous, mystery→mysterious
+│   │   │   child→childish, fool→foolish, self→selfish
+│   │   │   AI-упражнение: то же
+│   │   │
+│   │   ├── -able / -ible (питаются от глаголов и существительных)
+│   │   │   comfort→comfortable, read→readable; access→accessible, flex→flexible
+│   │   │   -able vs -ible: строгого правила нет — запоминаем. -able чаще у английских слов, -ible у латинских.
+│   │   │   AI-упражнение: то же
+│   │   │
+│   │   ├── -ness (питается от прилагательных → делает существительное)
+│   │   │   happy→happiness, kind→kindness, sad→sadness, dark→darkness, lonely→loneliness
+│   │   │   Ловушка: busy→business — это исторически другое слово, не применяй правило
+│   │   │   AI-упражнение: то же
+│   │   │
+│   │   ├── -ment и -tion/-sion (питаются от глаголов → называют действие или результат)
+│   │   │   enjoy→enjoyment, develop→development, achieve→achievement
+│   │   │   decide→decision, act→action, create→creation, discuss→discussion
+│   │   │   AI-упражнение: другой формат — ИИ даёт базовый глагол по-русски:
+│   │   │   "Есть глагол 'наслаждаться'. Как называется само это действие одним словом?" → enjoyment
+│   │   │
+│   │   ├── -er как агент (питается от глаголов → "тот кто делает")
+│   │   │   teach→teacher, write→writer, work→worker, drive→driver, run→runner (удвоение)
+│   │   │   own→owner (тот кто владеет) — хороший живой пример
+│   │   │   Не путать с -er сравнения: bigger — степень прилагательного; driver — агент от глагола.
+│   │   │   AI-упражнение: "Кто водит машину — одним словом?" → driver
+│   │   │
+│   │   └── -ship (питается от существительных → абстрактное понятие/состояние/отношение)
+│   │       friend→friendship, leader→leadership, owner→ownership, member→membership
+│   │       Ключевая разница -er vs -ship на паре owner/ownership:
+│   │       owner = конкретный человек (тот кто владеет): "He is the owner of this café."
+│   │       ownership = абстрактное право/понятие владения: "Ownership has its privileges."
+│   │       Аналогия с русским: владелец (-er) vs владение/собственность (-ship)
+│   │       AI-упражнение: ИИ даёт ситуацию — нужно выбрать owner или ownership (и другие -er/-ship пары)
+│   │
+│   │   ⚠️ Место для расширения (добавляем по мере написания контента):
+│   │      -ity (real→reality, active→activity), -ward/-wards (forward, backward, toward)
+│   │      -hood (child→childhood, neighbour→neighbourhood)
+│   │      -ify (simple→simplify, class→classify)
+│   │
+│   └── Эмфатические конструкции — "It's John who did it." / "What I need is time."
+│
+└── 📁 Пунктуация и орфография · Как это пишется   ← САМЫЙ КОНЕЦ курса, после «Разного» — РАЗДЕЛ (GrammarTopicCategory)
     │
-    ├── Словообразование: суффиксы  ← отдельный блок внутри «Разного»
-    │   ├── [Вводная карточка] Классы слов и почему суффиксы не взаимозаменяемы
-    │   │   Каждый суффикс питается от определённого класса слов.
-    │   │   -er/-est едят прилагательные → big (прилаг.) → bigger ✓, bigful — бессмыслица
-    │   │   -ful/-less/-ous/-ish едят существительные → care (сущ.) → careful ✓
-    │   │   -ness ест прилагательные → happy (прилаг.) → happiness ✓
-    │   │   -er (агент) ест глаголы → teach (глагол) → teacher ✓
-    │   │   -ment/-tion/-sion едят глаголы → enjoy (глагол) → enjoyment ✓
-    │   │   Эта вводная карточка — ключ ко всей теме. Напоминание повторяется в каждой микротеме.
-    │   │
-    │   ├── -er / -est — суффиксы сравнения (питаются от прилагательных и наречий)
-    │   │   big→bigger→biggest, sour→sourer, sweet→sweeter, hot→hotter (удвоение согласной)
-    │   │   happy→happier→happiest (-y → -ier), fast→faster (наречие)
-    │   │   AI-упражнение «угадай трансформацию»: ИИ смотрит слова пользователя из Words8r,
-    │   │   выбирает подходящее (например, bitter), задаёт вопрос по-русски НЕ называя базовое слово:
-    │   │   "Как одним словом сказать 'более горький'?" → пользователь пишет: bitterer
-    │   │
-    │   ├── -ful и -less — противоположные пары (питаются от существительных)
-    │   │   care→careful / careless, hope→hopeful / hopeless,
-    │   │   harm→harmful / harmless, pain→painful / painless
-    │   │   AI-упражнение: то же — "Как одним словом сказать 'полный надежды'?" → hopeful
-    │   │
-    │   ├── -ous и -ish (питаются от существительных)
-    │   │   danger→dangerous, fame→famous, mystery→mysterious
-    │   │   child→childish, fool→foolish, self→selfish
-    │   │   AI-упражнение: то же
-    │   │
-    │   ├── -able / -ible (питаются от глаголов и существительных)
-    │   │   comfort→comfortable, read→readable; access→accessible, flex→flexible
-    │   │   -able vs -ible: строгого правила нет — запоминаем. -able чаще у английских слов, -ible у латинских.
-    │   │   AI-упражнение: то же
-    │   │
-    │   ├── -ness (питается от прилагательных → делает существительное)
-    │   │   happy→happiness, kind→kindness, sad→sadness, dark→darkness, lonely→loneliness
-    │   │   Ловушка: busy→business — это исторически другое слово, не применяй правило
-    │   │   AI-упражнение: то же
-    │   │
-    │   ├── -ment и -tion/-sion (питаются от глаголов → называют действие или результат)
-    │   │   enjoy→enjoyment, develop→development, achieve→achievement
-    │   │   decide→decision, act→action, create→creation, discuss→discussion
-    │   │   AI-упражнение: другой формат — ИИ даёт базовый глагол по-русски:
-    │   │   "Есть глагол 'наслаждаться'. Как называется само это действие одним словом?" → enjoyment
-    │   │
-    │   ├── -er как агент (питается от глаголов → "тот кто делает")
-    │   │   teach→teacher, write→writer, work→worker, drive→driver, run→runner (удвоение)
-    │   │   own→owner (тот кто владеет) — хороший живой пример
-    │   │   Не путать с -er сравнения: bigger — степень прилагательного; driver — агент от глагола.
-    │   │   AI-упражнение: "Кто водит машину — одним словом?" → driver
-    │   │
-    │   └── -ship (питается от существительных → абстрактное понятие/состояние/отношение)
-    │       friend→friendship, leader→leadership, owner→ownership, member→membership
-    │       Ключевая разница -er vs -ship на паре owner/ownership:
-    │       owner = конкретный человек (тот кто владеет): "He is the owner of this café."
-    │       ownership = абстрактное право/понятие владения: "Ownership has its privileges."
-    │       Аналогия с русским: владелец (-er) vs владение/собственность (-ship)
-    │       AI-упражнение: ИИ даёт ситуацию — нужно выбрать owner или ownership (и другие -er/-ship пары)
+    │   ИДЕЯ РАЗДЕЛА: до сюда мы учили, как английский ЗВУЧИТ и как он УСТРОЕН. Здесь — как он
+    │   ПИШЕТСЯ. Стоит в самом конце не «по остаточному принципу»: чтобы объяснить запятую,
+    │   нужны придаточные, союзы, Relative Clauses, косвенная речь — всё это уже пройдено.
+    │   Раньше эта тема была бы зубрёжкой значков без понимания, зачем они.
     │
-    │   ⚠️ Место для расширения (добавляем по мере написания контента):
-    │      -ity (real→reality, active→activity), -ward/-wards (forward, backward, toward)
-    │      -hood (child→childhood, neighbour→neighbourhood)
-    │      -ify (simple→simplify, class→classify)
+    │   ⚠️ Это РАЗДЕЛ — сворачиваемая группа тем (как «Устройство языка» / «Сказать то же, но
+    │   круче»), а не одна тема. На диске — отдельная папка-пакет (напр. XX-punctuation/),
+    │   по канону структуры файлов теории (1 файл = 1 тема).
     │
-    └── Эмфатические конструкции — "It's John who did it." / "What I need is time."
+    │   ⚠️ СКВОЗНОЙ ТЕЗИС РАЗДЕЛА: русская пунктуация ГРАММАТИЧЕСКАЯ (есть «который» → ставь
+    │   запятую), английская — СМЫСЛОВАЯ И ИНТОНАЦИОННАЯ (запятая = пауза + изменение смысла).
+    │   Поэтому главный источник ошибок — калька: русский ставит запятые «по чутью», и в
+    │   английском это чутьё врёт почти всегда. Плашка повторяется в каждой теме раздела.
+    │
+    │   ⚠️ ПРАВИЛО №0 (без дублей): апостроф-стяжения ('cause, hangin') — «Разговорный английский»;
+    │   defining vs non-defining — «Relative Clauses»; правописание -ed / -er / -est / -ing —
+    │   Past Simple и «Описания и сравнения»; косвенный вопрос без «?» — Indirect Questions.
+    │   Здесь только пунктуационная/сводная сторона + указатель, НЕ пересказ.
+    │
+    │   ⚠️ СЛИВ СЛОВ: раздел почти без лексики — это нормально. Слить можно только названия
+    │   знаков (comma, period, semicolon, hyphen, dash, brackets) одной пачкой в «Grammar Basics».
+    │
+    │   ⚠️ ТИПЫ УПРАЖНЕНИЙ: новых механик не требуется. ErrorCorrection («выбери правильно
+    │   расставленный вариант»), MULTIPLE_CHOICE (запятая нужна / не нужна), CATEGORIZATION
+    │   (раскидать предложения на «запятая есть / нет»), TEXT_INPUT (вписать нужный омофон).
+    │
+    │   ⚠️ ОБЪЁМ / ПРИОРИТЕТ: 9 тем, ~22 МТ, ~55 карточек. Для MVP берём первые 4 темы
+    │   (Введение · End marks · Запятая · Апостроф) — они закрывают ~90% реальных ошибок;
+    │   остальные помечены «после MVP» и добиваются по одной.
+    │
+    ├── Тема: Введение — почему английские запятые не как русские
+    │   ├── МТ: Два разных подхода к пунктуации
+    │   │   ├── Card · Русская логика vs английская — почему нельзя переносить привычку
+    │   │   ├── Card · Знак = пауза и интонация: прочитай вслух, услышишь запятую
+    │   │   └── Card · Топ-5 ошибок русскоязычного (анонс раздела: запятая перед that,
+    │   │       запятая-склейка двух предложений, тире вместо is, кавычки-ёлочки, its/it's). + AI.
+    │   └── МТ: Заглавные буквы (Capitalization)
+    │       ├── Card · I всегда заглавная — где бы ни стояла
+    │       ├── Card · То, что в русском строчное, а в английском заглавное — дни недели (Monday),
+    │       │   месяцы (July), национальности и языки (Russian, English), страны, праздники
+    │       └── Card · Заголовки и названия — Title Case, служебные слова строчные. + AI.
+    │
+    ├── Тема: Точка, вопросительный, восклицательный  (End marks)
+    │   ├── МТ: Точка и граница предложения
+    │   │   ├── Card · Где кончается мысль — точка. Разбор run-on sentence
+    │   │   ├── Card · ⚠️ Comma splice — два полных предложения нельзя склеить запятой:
+    │   │   │   «I was tired, I went home» ✗ → точка / точка с запятой / `, so`. Русский так пишет постоянно.
+    │   │   └── Card · Точка в сокращениях — Mr. / Dr. / etc. (US) vs Mr / Dr (UK); e.g. и i.e.. + AI.
+    │   ├── МТ: Вопросительный знак
+    │   │   ├── Card · Только настоящий вопрос. ⚠️ «I wonder what time it is.» — точка
+    │   │   │   (указатель на Indirect Questions, не переписывать)
+    │   │   └── Card · Знак в tag questions и в вежливых просьбах («Could you open the window.»). + AI.
+    │   └── МТ: Восклицательный знак
+    │       └── Card · Регистр: живая речь и чат — да; деловое письмо и эссе — нет. Один знак, не «!!!».
+    │
+    ├── Тема: Запятая  ← самая большая тема раздела
+    │   ├── МТ: Перечисления
+    │   │   ├── Card · Список из трёх и больше + Oxford comma (US ставит, UK часто нет)
+    │   │   └── Card · Почему Oxford comma меняет смысл — классические примеры двусмысленности. + AI.
+    │   ├── МТ: Запятая и союзы  ← ключевая механика, аналога в русском нет
+    │   │   ├── Card · FANBOYS (and, but, or, so, for, nor, yet): запятая ПЕРЕД союзом, если
+    │   │   │   с обеих сторон полные предложения. «I called him, but he didn't answer.» ✓
+    │   │   ├── Card · Нет второго подлежащего — нет запятой: «I called him but didn't wait.» ✓
+    │   │   └── Card · ⚠️ Главная русская ошибка: перед `that` запятая НЕ ставится.
+    │   │       «I know, that he is right» ✗ → «I know that he is right.» + AI.
+    │   ├── МТ: Запятая в начале и в середине предложения
+    │   │   ├── Card · Вводный элемент впереди — запятая: «However, …», «In 1999, …», «After the meeting, …»
+    │   │   ├── Card · Придаточное впереди — запятая; сзади — нет: «When I get home, I'll call you.» ↔
+    │   │   │   «I'll call you when I get home.» (указатель на Linking Words)
+    │   │   └── Card · Вставка с двух сторон — «My brother, a doctor, lives in Prague.». + AI.
+    │   ├── МТ: Запятая и придаточные с who / which / that
+    │   │   └── Card · Defining vs non-defining — запятая меняет СМЫСЛ, а не оформление.
+    │   │       ⚠️ Правило №0: сама конструкция разобрана в «Relative Clauses» — здесь только
+    │   │       пунктуационная сторона + упражнения на смысл. + AI.
+    │   └── МТ: Запятая в быту — даты, обращения, речь
+    │       ├── Card · Обращение — «Thanks, Anna.» / «Anna, come here.»
+    │       ├── Card · Даты и адреса — «July 4, 2026» (US) vs «4 July 2026» (UK)
+    │       └── Card · Прямая речь — «"I'm late," he said.» (запятая ВНУТРИ кавычек, US). + AI.
+    │
+    ├── Тема: Апостроф
+    │   ├── МТ: Апостроф принадлежности
+    │   │   ├── Card · 's и s' — the boy's book ↔ the boys' books (указатель: 's был в «Основах», Card 19)
+    │   │   ├── Card · Неправильное мн. ч. и имена на -s — children's, James's / James'
+    │   │   └── Card · ⚠️ its vs it's — самая частая ошибка носителей и русских: it's = it is,
+    │   │       its = его/её (притяжательное, БЕЗ апострофа). + AI.
+    │   └── МТ: Где апострофа быть не должно
+    │       ├── Card · Множественное число без апострофа — «photo's» ✗ (greengrocer's apostrophe)
+    │       └── Card · Указатель: апостроф как знак проглоченных букв ('cause, hangin') —
+    │           уже разобран в «Разговорном английском», здесь не переписываем.
+    │
+    ├── Тема: Дефис и тире  (после MVP)
+    │   ├── МТ: Дефис (hyphen)
+    │   │   ├── Card · Составное прилагательное ПЕРЕД существительным — a well-known actor ↔
+    │   │   │   the actor is well known (после — без дефиса)
+    │   │   ├── Card · Числа и возраст — twenty-one, a five-year-old boy
+    │   │   └── Card · Дефис меняет слово — re-cover (перекрыть) ≠ recover (выздороветь). + AI.
+    │   └── МТ: Тире (dash)
+    │       ├── Card · Em dash — резкая пауза, вставка, обрыв мысли: аналог русского тире по «настроению»
+    │       ├── Card · En dash — диапазоны: 1990–2000, pages 10–15, Moscow–Berlin
+    │       └── Card · ⚠️ ЛОВУШКА РУССКОГО: в русском тире заменяет «есть» («Он — учитель»),
+    │           в английском НЕТ: «He — a teacher» ✗ → «He is a teacher.» + AI.
+    │
+    ├── Тема: Двоеточие и точка с запятой  (после MVP)
+    │   ├── МТ: Двоеточие (colon)
+    │   │   ├── Card · Перед списком/пояснением, но слева — полное предложение
+    │   │   └── Card · ⚠️ «I bought: milk and bread» ✗ — левая часть не предложение. + AI.
+    │   └── МТ: Точка с запятой (semicolon)
+    │       ├── Card · Связывает два самостоятельных предложения вместо точки (когда мысли близки)
+    │       └── Card · Спасает списки, внутри которых уже есть запятые. + AI.
+    │
+    ├── Тема: Кавычки и скобки  (после MVP)
+    │   ├── МТ: Кавычки
+    │   │   ├── Card · ⚠️ Никаких «ёлочек» и „лапок“ — только "double" (US) / 'single' (UK)
+    │   │   ├── Card · Точка и запятая внутри кавычек (US) ↔ снаружи (UK)
+    │   │   └── Card · Кавычки как «так называемый» — ирония и дистанция. + AI.
+    │   └── МТ: Скобки и многоточие
+    │       └── Card · () — пояснение на полях; … — недосказанность/пропуск. Ловушка чата:
+    │           многоточие носитель читает как «мне неловко / я недоволен», не как паузу.
+    │
+    ├── Тема: Орфография — как пишутся слова
+    │   ├── МТ: Британское и американское написание
+    │   │   ├── Card · -our/-or, -re/-er — colour/color, centre/center
+    │   │   ├── Card · -ise/-ize, удвоение l — realise/realize, travelling/traveling
+    │   │   └── Card · Правило одного текста: выбери вариант и держись его. + AI.
+    │   ├── МТ: Свод правил написания при суффиксах  ← СВОДНАЯ, не заново
+    │   │   └── Card · Одна таблица: немая -e, y→i, удвоение согласной в CVC.
+    │   │       ⚠️ Правило №0: правила давались точечно (-ed в Past Simple, cards 127–128;
+    │   │       -er/-est в «Описаниях», card 203; -ing) — здесь ТОЛЬКО сведение в одну
+    │   │       шпаргалку + упражнения.
+    │   ├── МТ: Слова, которые все путают (омофоны)
+    │   │   ├── Card · their / there / they're
+    │   │   ├── Card · your / you're · to / too / two
+    │   │   ├── Card · then / than · lose / loose
+    │   │   └── Card · affect / effect. + AI (диктант-подстановка).
+    │   └── МТ: Слитно, раздельно, через дефис
+    │       ├── Card · every day (наречие) ≠ everyday (прилагательное); may be ≠ maybe
+    │       └── Card · a lot (не «alot»), cannot / can not, no one (не «noone»). + AI.
+    │
+    └── Тема: Пунктуация в реальной жизни  ← финал курса, «а теперь по-живому» (после MVP)
+        ├── МТ: Чат и мессенджеры
+        │   ├── Card · ⚠️ Точка в конце короткого сообщения читается как раздражение («Ok.» ≠ «Ok»)
+        │   └── Card · CAPS = крик; отсутствие знаков — норма неформальной переписки. + AI.
+        └── МТ: Письмо и документ
+            ├── Card · Приветствие и подпись — «Dear Mr. Smith,» / «Best regards,» (запятая обязательна)
+            └── Card · Чек-лист «перечитай перед отправкой»: comma splice, its/it's, that без запятой,
+                ёлочки, тире вместо is. Финальная карточка курса. + AI.
 ```
 
 ### UX: микротема → карточки → экран упражнений
