@@ -1145,7 +1145,7 @@ theory/
 │               «It's far away», «not far from here», «There's a shop nearby». Ловушка: far в утверждениях
 │               звучит странно → a long way / far away; свободно в вопросах/отрицаниях. + AI.
 │
-├── Past Simple  ← идёт после раздела «Описания и сравнения»; Topic id=14, order=9, файл theory/09-past-simple.md
+├── Past Simple  ← идёт после раздела «Описания и сравнения»; Topic id=14, order=9, файл theory/09-past-simple.md ✅ ТЕМА НАПИСАНА
 │   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 22.07.2026). Тема идёт ПЛОСКО (GrammarTopic.categoryId = null),
 │      раздела не занимает. Старт ID при написании: Microtopic 77, Card 229, course_word 453
 │      (сверить по _id-registry.md на момент старта; card-id ниже — ориентир, финально присвоить при написании).
@@ -1287,7 +1287,7 @@ theory/
 │   │       момент). Ловушки: «I used to go there yesterday» ✗ (used to не дружит с конкретной точкой);
 │   │       used to бывает ТОЛЬКО про прошлое — «I use to work» ✗ про настоящее → usually. + AI.
 │   │
-│   └── МТ86 · Live Practice · Закрепление Past Simple с ИИ — финальная AI-микротема
+│   └── МТ86 · Live Practice · Закрепление Past Simple с ИИ — финальная AI-микротема ✅ (написана, ALL GREEN 26.07.26)
 │       (ОДНА карточка 253, 3 AI; структура как Present Simple MT56 — см. ⚠️-канон «ФИНАЛЬНАЯ
 │       AI-МИКРОТЕМА» выше; Words Source: GENERAL, FREE_WRITE, без Examples и хардкод-упражнений)
 │       ├── AI ex1 · EN→RU: ИИ даёт одно предложение Past Simple (утверждение/отрицание/вопрос
