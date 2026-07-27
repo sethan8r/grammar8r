@@ -1342,7 +1342,7 @@ theory/
 │      (кандидаты, подобрать при написании из ещё не слитых: noise, suddenly, upstairs, outside,
 │      umbrella, to knock, to shout, meanwhile) — прогонять check.py → WORD DUPLICATES.
 │
-│   ├── МТ87 · What Is Past Continuous · Что такое Past Continuous (концепт-интро, 3 карточки, БЕЗ упражнений и AI)
+│   ├── МТ87 · What Is Past Continuous · Что такое Past Continuous (концепт-интро, 3 карточки, БЕЗ упражнений и AI) ✅ (написана, ALL GREEN 27.07.26)
 │   │   ├── Card 254 · Видео на паузе — ощущение времени. «At seven I was cooking dinner» — не
 │   │   │   «приготовил», а «процесс шёл». Здесь же полный ряд из четырёх метафор (см. 🎬 выше) —
 │   │   │   карта всего, что юзер уже прошёл, и место нового времени в ней.
