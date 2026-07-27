@@ -54,6 +54,9 @@ private const val INLINE_BLANK = "inline_blank"
 /** Во сколько раз транскрипция крупнее окружающего текста: мелкие значки IPA иначе не читаются. */
 private const val PHONETIC_SCALE = 1.1f
 
+/** Значок символа `→` по умолчанию — длинная стрелка, как в тексте теории и условий заданий. */
+val InlineArrowIcon: ImageVector get() = Icons.AutoMirrored.Filled.ArrowRightAlt
+
 /**
  * Единая утилита инлайн-разметки контента (правило №0 — её же переиспользует движок упражнений).
  * Разбирает текстовые маркеры (канон theory_content_guide §8):
@@ -67,7 +70,7 @@ private const val PHONETIC_SCALE = 1.1f
  * Символы-глифы в данных заменяются на **векторные иконки Material** через официальный
  * `InlineTextContent` (в текст эмодзи не попадают, размер — в `em`, тянется за шрифтом):
  *  - `✓` → [Icons.Filled.Check] (зелёный), `✗`/`❌` → [Icons.Filled.Close] (красный);
- *  - `→` → [Icons.AutoMirrored.Filled.ArrowRightAlt] (цветом текста [arrowColor]),
+ *  - `→` → [arrowIcon] (по умолчанию [InlineArrowIcon], цветом [arrowIconColor]),
  *    `←` — та же иконка, отражённая по горизонтали;
  *  - `≠` → [NotEqualIcon], `≈` → [ApproxEqualIcon], `=` → [EqualIcon] (цветом текста
  *    [arrowColor]) — в наборе Material таких значков нет, поэтому векторы нарисованы здесь;
@@ -81,6 +84,8 @@ fun parseInlineMarkdown(
     arrowColor: Color,
     inlineCodeColor: Color = InlineCode,
     renderBlanks: Boolean = false,
+    arrowIcon: ImageVector = InlineArrowIcon,
+    arrowIconColor: Color = arrowColor,
 ): ParsedMarkdown {
     val text = buildAnnotatedString {
         var index = 0
@@ -170,8 +175,8 @@ fun parseInlineMarkdown(
     val inlineContent = mapOf(
         INLINE_CHECK to inlineIcon(Icons.Filled.Check, correctColor),
         INLINE_CROSS to inlineIcon(Icons.Filled.Close, incorrectColor),
-        INLINE_ARROW to inlineIcon(Icons.AutoMirrored.Filled.ArrowRightAlt, arrowColor),
-        INLINE_ARROW_LEFT to inlineIcon(Icons.AutoMirrored.Filled.ArrowRightAlt, arrowColor, mirror = true),
+        INLINE_ARROW to inlineIcon(arrowIcon, arrowIconColor),
+        INLINE_ARROW_LEFT to inlineIcon(arrowIcon, arrowIconColor, mirror = true),
         INLINE_NEQ to inlineIcon(NotEqualIcon, arrowColor),
         INLINE_APPROX to inlineIcon(ApproxEqualIcon, arrowColor),
         INLINE_PLUS to inlineIcon(Icons.Filled.Add, arrowColor),

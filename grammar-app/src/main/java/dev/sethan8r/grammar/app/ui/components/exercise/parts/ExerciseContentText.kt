@@ -3,12 +3,14 @@ package dev.sethan8r.grammar.app.ui.components.exercise.parts
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
+import dev.sethan8r.grammar.app.ui.components.text.InlineArrowIcon
 import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 
@@ -35,6 +37,8 @@ fun ExerciseContentText(
     textAlign: TextAlign? = null,
     maxLines: Int = Int.MAX_VALUE,
     overflow: TextOverflow = TextOverflow.Clip,
+    arrowIcon: ImageVector = InlineArrowIcon,
+    arrowIconColor: Color = color,
 ) = MarkdownText(
     text = text,
     modifier = modifier,
@@ -47,4 +51,6 @@ fun ExerciseContentText(
     maxLines = maxLines,
     overflow = overflow,
     renderBlanks = true,
+    arrowIcon = arrowIcon,
+    arrowIconColor = arrowIconColor,
 )

@@ -154,6 +154,7 @@ private fun TransformItemRow(
         grabKeyboard = grabKeyboard,
         preview = previewTransform(item.original, value),
         previewMaxLines = PREVIEW_LINES,
+        previewArrowAccent = true,
         onFocus = onFocus,
     ) { fieldFocus ->
         // Ошибочный пример на реванше: глазок подменяет в поле ответ пользователя правильным и обратно.

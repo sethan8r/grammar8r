@@ -21,6 +21,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -33,6 +35,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.sethan8r.grammar.app.ui.components.text.InlineArrowIcon
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.Inactive
@@ -58,6 +61,8 @@ private const val ITEM_MORPH_MS = 240
  *   клавиатура не мигнула вниз-вверх. Иначе фокус не запрашивается и клавиатура не всплывает сама.
  * - [preview] — строка-превью свёрнутого пункта (разметка [ExerciseContentText]: `**жирный**`,
  *   стрелки, `___` как линия-пропуск), [previewMaxLines] — сколько строк ей отведено.
+ * - [previewArrowAccent] — стрелка `→` в превью рисуется тем же значком и цветом [accent], что и
+ *   стрелка перед полем в раскрытом пункте (для заданий, где превью — «условие → ответ»).
  */
 @Composable
 fun ExerciseAccordionItem(
@@ -70,6 +75,7 @@ fun ExerciseAccordionItem(
     onFocus: () -> Unit,
     modifier: Modifier = Modifier,
     previewMaxLines: Int = 1,
+    previewArrowAccent: Boolean = false,
     content: @Composable ColumnScope.(fieldFocus: FocusRequester) -> Unit,
 ) {
     val fieldFocus = remember { FocusRequester() }
@@ -126,15 +132,26 @@ fun ExerciseAccordionItem(
                     filled = filled,
                     accent = accent,
                     maxLines = previewMaxLines,
+                    arrowAccent = previewArrowAccent,
                 )
             }
         }
     }
 }
 
-/** Свёрнутый пункт: точка-индикатор (заполнен — [accent], пуст — [Inactive]) и превью с эллипсисом. */
+/**
+ * Свёрнутый пункт: точка-индикатор (заполнен — [accent], пуст — [Inactive]) и превью с эллипсисом.
+ * При [arrowAccent] стрелка в превью — тот же значок и цвет, что перед полем в раскрытом пункте
+ * (размер тянется за шрифтом превью, поэтому она мельче).
+ */
 @Composable
-private fun CollapsedPreview(preview: String, filled: Boolean, accent: Color, maxLines: Int) {
+private fun CollapsedPreview(
+    preview: String,
+    filled: Boolean,
+    accent: Color,
+    maxLines: Int,
+    arrowAccent: Boolean,
+) {
     Row(
         modifier = Modifier.fillMaxWidth(),
         verticalAlignment = Alignment.CenterVertically,
@@ -152,6 +169,8 @@ private fun CollapsedPreview(preview: String, filled: Boolean, accent: Color, ma
             lineHeight = 20.sp,
             maxLines = maxLines,
             overflow = TextOverflow.Ellipsis,
+            arrowIcon = if (arrowAccent) Icons.AutoMirrored.Filled.ArrowForward else InlineArrowIcon,
+            arrowIconColor = if (arrowAccent) accent else TextSecondary,
             modifier = Modifier.weight(1f),
         )
     }

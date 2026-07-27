@@ -3,6 +3,7 @@ package dev.sethan8r.grammar.app.ui.components.text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -31,6 +32,8 @@ fun MarkdownText(
     maxLines: Int = Int.MAX_VALUE,
     overflow: TextOverflow = TextOverflow.Clip,
     renderBlanks: Boolean = false,
+    arrowIcon: ImageVector = InlineArrowIcon,
+    arrowIconColor: Color = color,
 ) {
     val parsed = parseInlineMarkdown(
         raw = text,
@@ -38,6 +41,8 @@ fun MarkdownText(
         incorrectColor = IncorrectRed,
         arrowColor = color,
         renderBlanks = renderBlanks,
+        arrowIcon = arrowIcon,
+        arrowIconColor = arrowIconColor,
     )
     TranslatableText(
         text = parsed.text,
