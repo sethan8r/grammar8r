@@ -28,6 +28,12 @@
       "topicId": 15,
       "title": "Negative & Question · Отрицание и вопрос",
       "order": 3
+    },
+    {
+      "id": 90,
+      "topicId": 15,
+      "title": "Usage · Что этим временем говорят",
+      "order": 4
     }
   ],
   "grammar_cards": [
@@ -1002,6 +1008,539 @@
         "Почему нельзя ответить Yes, I did, если вопрос был о прошлом?",
         "Чем Was Jack awake отличается от Was Jack waking up?"
       ]
+    },
+    {
+      "id": 261,
+      "microtopicId": 90,
+      "title": "Момент, в который мы жмём паузу",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форму мы собрали, дальше начинается самое важное — смысл. И первое, что надо понять про это время: оно почти никогда не работает в пустоте. Ему нужна **точка**, в которой мы остановили плёнку."
+        },
+        {
+          "type": "heading",
+          "text": "Чем эта точка задаётся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Способов три, и все они одинаково рабочие:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**время на часах или время суток** — **At eight I was still working.**",
+            "**другое событие** — **When Sara came in, I was writing a message.**",
+            "**отрезок, внутри которого лежит момент** — **All evening the kids were shouting upstairs.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Момент можно назвать и совсем прямо: **At that moment I was waiting at the station.** Слово `moment` в этой теме будет попадаться часто — оно и есть та самая точка, в которой мы жмём паузу."
+        },
+        {
+          "type": "heading",
+          "text": "Мы всегда смотрим на середину"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот в чём разница с простым прошедшим. Past Simple сообщает, что действие **случилось**: у него есть начало и конец, оно закрыто. Past Continuous показывает действие **изнутри**: в названный момент оно уже шло и ещё не кончилось, а где оно началось и чем закончилось — за кадром, и нас это сейчас не интересует."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому **At eight I was cooking dinner** не говорит, приготовил ли я ужин вообще. Оно говорит только одно: в восемь процесс был в разгаре."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Без момента фраза повисает. **I was working** ✗ звучит оборванно — собеседник ждёт продолжения: когда? а что случилось? По-русски «я работал» самодостаточно, поэтому рука спокойно ставит точку. Английский Continuous так не умеет: он всегда просит либо указания момента, либо второй половины фразы."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не каждый глагол вообще ходит в это время. Глаголы-состояния (`to know`, `to want`, `to like`) описывают не действие, а состояние, и в прошлом остаются простыми: **I knew him well** ✓, а не **I was knowing him well** ✗. Подробно мы разбирали это в микротеме «State verbs» темы «Present Continuous» — здесь достаточно помнить, что правило работает и в прошлом."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Past Continuous показывает действие изнутри, в середине: в названный момент оно уже шло и ещё не кончилось, а начало и конец остаются за кадром. Момент задаётся временем (**At eight I was still working**), другим событием (**When Sara came in, I was writing a message**) или отрезком (**All evening the kids were shouting**). Без такого указания фраза звучит оборванно. Глаголы-состояния (`to know`, `to want`, `to like`) в это время не ставятся и в прошлом остаются простыми.",
+      "examples": [
+        {
+          "ru": "В восемь я всё ещё работал.",
+          "en": "At eight I was still working."
+        },
+        {
+          "ru": "В тот момент я ждал на вокзале.",
+          "en": "At that moment I was waiting at the station."
+        },
+        {
+          "ru": "Вчера в это же время мы летели в Прагу.",
+          "en": "This time yesterday we were flying to Prague."
+        },
+        {
+          "ru": "Когда Сара вошла, я писал сообщение.",
+          "en": "When Sara came in, I was writing a message."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя просто сказать I was working, без указания времени?",
+        "Чем At eight I was cooking отличается от At eight I cooked?",
+        "Почему нельзя сказать I was knowing him, если речь о прошлом?"
+      ]
+    },
+    {
+      "id": 262,
+      "microtopicId": 90,
+      "title": "Фон и вторжение",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Это главная конструкция всей темы. Ради неё Past Continuous и существует, и именно здесь русскоязычный чаще всего ошибается."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ситуация простая: одно действие тянулось, а другое в него врезалось."
+        },
+        {
+          "type": "heading",
+          "text": "I was waiting at the station when your message came."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём по ролям:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Часть предложения",
+            "Время",
+            "Роль"
+          ],
+          "rows": [
+            [
+              "I was waiting at the station",
+              "Past Continuous",
+              "фон — тянулось"
+            ],
+            [
+              "when your message came",
+              "Past Simple",
+              "событие — вклинилось"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Длинное берёт форму процесса, короткое — простую прошедшую. Фон отвечает на вопрос «что уже шло?», событие — «что случилось?»."
+        },
+        {
+          "type": "heading",
+          "text": "Язык выбирает не длину, а роль"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот тут важная тонкость, ради которой стоит остановиться. Кажется, что всё решает продолжительность: что дольше — то и Continuous. На самом деле решает **роль в кадре**: что мы подаём как обстановку, а что как происшествие."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поменяем роли местами — и предложение поменяет смысл:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was reading when Olya called.** — я сидел с книгой, и тут раздался звонок. Главное здесь звонок.",
+            "**Olya was calling when I finished my book.** — она названивала, а я в этот момент дочитал. Теперь фон — её звонки."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба предложения грамматически верны, и выбирает не грамматика, а рассказчик: что для него декорация, а что — событие."
+        },
+        {
+          "type": "heading",
+          "text": "Порядок частей свободный"
+        },
+        {
+          "type": "paragraph",
+          "text": "Части можно поставить в любом порядке, смысл не изменится:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was cooking when he called.**",
+            "**When he called, I was cooking.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница только в пунктуации: если часть с `when` идёт первой, после неё ставится запятая."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Оба действия в форме процесса. **I was cooking when he was calling** ✗ → **I was cooking when he called** ✓. Вторжение на то и вторжение, что оно короткое и точечное, — растягивать его незачем. Форма процесса у обеих частей значит совсем другое (два параллельных процесса), и об этом следующая карточка."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Оба действия в простом прошедшем. **I cooked when he called** ✗ в нужном нам смысле не работает: так получается цепочка событий — сначала он позвонил, а потом я приготовил ужин. Фона в этом предложении нет вообще."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский эту развилку не видит"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски обе части стоят в одной и той же прошедшей форме: «я **готовил**, когда он **позвонил**». Выбор мы вроде бы и делаем — глаголы-то разного вида, — но делаем его внутри слова, не задумываясь. Английский вытаскивает этот выбор наружу и заставляет назвать его вслух: фон → форма процесса, событие → простое прошедшее. Отсюда и типичная ошибка — русскоязычный ставит оба глагола одинаково, потому что в родном языке ему за это ничего не было."
+        }
+      ],
+      "theorySummary": "Фон и вторжение — главная конструкция темы: длинное действие идёт в Past Continuous, короткое врезавшееся событие — в Past Simple (**I was waiting at the station when your message came**). Выбор зависит не от длительности, а от роли: что обстановка, а что происшествие. Порядок частей свободный, и после части с `when` в начале ставится запятая. Оба глагола в форме процесса дают два параллельных действия, оба в простом прошедшем — цепочку событий одно за другим.",
+      "examples": [
+        {
+          "ru": "Я ждал на вокзале, когда пришло твоё сообщение.",
+          "en": "I was waiting at the station when your message came."
+        },
+        {
+          "ru": "Когда Настя вошла, мы обедали.",
+          "en": "When Nastya came in, we were having dinner."
+        },
+        {
+          "ru": "Я читал, и тут позвонила Оля.",
+          "en": "I was reading when Olya called."
+        },
+        {
+          "ru": "Шёл дождь, когда мы вышли из дома.",
+          "en": "It was raining when we left the house."
+        },
+        {
+          "ru": "Коля мыл машину, когда начался дождь.",
+          "en": "Kolya was washing his car when the rain started."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, какое действие сделать фоном, а какое событием?",
+        "Почему нельзя поставить оба глагола в форму процесса?",
+        "Что меняется, если поставить оба глагола в простое прошедшее?"
+      ]
+    },
+    {
+      "id": 263,
+      "microtopicId": 90,
+      "title": "Два процесса рядом",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой карточке линия и укол: одно тянулось, другое врезалось. Но бывает и по-другому — два действия шли **одновременно**, и никто никого не прерывал."
+        },
+        {
+          "type": "heading",
+          "text": "While I was cooking, Kate was doing her homework."
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь обе части в форме процесса, потому что обе тянулись. Никакого события в кадре нет — есть две параллельные полосы, которые какое-то время шли рядом."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравним две картинки:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что в кадре",
+            "Как выглядит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Фон и вторжение",
+              "линия и укол",
+              "I was cooking when he called."
+            ],
+            [
+              "Два процесса",
+              "две параллельные линии",
+              "While I was cooking, he was watching TV."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Союз while"
+        },
+        {
+          "type": "paragraph",
+          "text": "Для параллельных процессов естественнее всего звучит `while` — «пока, в то время как». Он прямо говорит: обе части тянулись."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**While Tyoma was rushing to the station, his train was already leaving.**",
+            "**The kids were playing outside while we were talking in the kitchen.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок частей опять свободный: часть с `while` может стоять и первой, и второй. Если она первая — после неё запятая."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разницу между `when` и `while` мы разберём отдельно в следующей микротеме — пока достаточно рабочего ориентира: `while` ведёт то, что тянется."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Одна часть съехала в простое прошедшее. **While I was cooking, Kate did her homework** ✗ в нужном смысле не работает: получается, что она успела сделать уроки целиком и закрыть вопрос, а мы хотели сказать, что дело просто шло рядом. Обе полосы параллельны — значит обе в форме процесса."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Когда два действия шли одновременно и не прерывали друг друга, обе части ставятся в Past Continuous: **While I was cooking, Kate was doing her homework**. Это вторая картинка темы: не линия и укол, как в фоне с вторжением, а две параллельные линии. Союз `while` — «пока» — естественно ведёт то, что тянется; порядок частей свободный, после первой части с `while` ставится запятая. Если одну часть поставить в простое прошедшее, действие закроется и параллельность пропадёт.",
+      "examples": [
+        {
+          "ru": "Пока я готовил, Кейт делала уроки.",
+          "en": "While I was cooking, Kate was doing her homework."
+        },
+        {
+          "ru": "Дети играли на улице, пока мы разговаривали на кухне.",
+          "en": "The kids were playing outside while we were talking in the kitchen."
+        },
+        {
+          "ru": "Пока Тёма нёсся на вокзал, его поезд уже отходил.",
+          "en": "While Tyoma was rushing to the station, his train was already leaving."
+        },
+        {
+          "ru": "Я мыл посуду, пока Лили смотрела фильм.",
+          "en": "I was washing the dishes while Lily was watching a film."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем While I was cooking, Kate was reading отличается от I was cooking when Kate called?",
+        "Обязательно ли ставить запятую после части с while?",
+        "Можно ли сказать While I was cooking, Kate read a book?"
+      ]
+    },
+    {
+      "id": 264,
+      "microtopicId": 90,
+      "title": "Декорации рассказа",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Теперь соберём всё вместе — так, как это работает в живом рассказе. Когда мы что-то рассказываем, нам нужны две вещи: **обстановка** и **события**. Английский раздаёт их разным временам."
+        },
+        {
+          "type": "paragraph",
+          "text": "Обстановку ставит Past Continuous:"
+        },
+        {
+          "type": "heading",
+          "text": "It was raining, people were rushing to the metro, and I was standing there alone without an umbrella."
+        },
+        {
+          "type": "paragraph",
+          "text": "Три формы процесса подряд — это не перебор и не ошибка. Это нормальный способ описать кадр: всё вокруг шло одновременно, и мы просто перечисляем, что было в этом кадре."
+        },
+        {
+          "type": "paragraph",
+          "text": "А дальше, когда декорации расставлены, рассказ переключается на простое прошедшее и начинает двигать сюжет: **Then a car stopped near me, and Mark opened the door.** Мы разбирали эту цепочку событий в теме «Past Simple» — здесь она наконец получает фон, на котором происходит."
+        },
+        {
+          "type": "heading",
+          "text": "Схема любого рассказа"
+        },
+        {
+          "type": "paragraph",
+          "text": "Получается простое разделение труда, и его стоит запомнить:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Continuous** — что уже шло вокруг, декорация, ответ на вопрос «какая была обстановка?»;",
+            "**Simple** — что произошло дальше, сюжет, ответ на вопрос «и что случилось?»."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Оборот just then"
+        },
+        {
+          "type": "paragraph",
+          "text": "Фон и вторжение не обязательно паковать в одно предложение через `when`. В рассказе их чаще разносят на два предложения, а связку берёт на себя оборот `just then` — «как раз в этот момент», «и тут»:"
+        },
+        {
+          "type": "heading",
+          "text": "I was cooking dinner. Just then, the phone rang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл ровно тот же, что у **I was cooking dinner when the phone rang**, но звучит это живее: сначала мы даём собеседнику увидеть картинку, а потом ломаем её событием. Так устроен обычный устный рассказ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ровно ту же работу делает наречие `suddenly` — «вдруг, внезапно»: **We were walking home. Suddenly it started to rain.** Оно выросло из прилагательного `sudden` (внезапный) и в рассказе служит сигналом «здесь картинка ломается»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was standing at the station alone. Suddenly somebody called my name.**",
+            "**The kids were playing outside. Just then, the rain started.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба оборота взаимозаменяемы, оба ставятся в начало предложения-события и отделяются запятой (у `suddenly` запятая необязательна)."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Весь рассказ в формах процесса. **I was coming home, I was seeing Mark, we were going to a café** ✗ — так рассказ не двигается, всё зависает в декорациях. Как только пошли события, идущие одно за другим, нужен Past Simple: **I was coming home when I saw Mark, and we went to a café** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В рассказе у двух времён разная работа: Past Continuous ставит декорации (**It was raining, people were rushing to the metro**), а Past Simple ведёт события одно за другим (**Then a car stopped, and Mark opened the door**). Несколько форм процесса подряд — нормально: так описывают один кадр. Фон и вторжение можно разнести на два предложения через оборот `just then` или наречие `suddenly`: **I was cooking dinner. Just then, the phone rang.** Если весь рассказ оставить в формах процесса, сюжет перестанет двигаться.",
+      "examples": [
+        {
+          "ru": "Шёл дождь, люди неслись к метро, а я стоял там один без зонта.",
+          "en": "It was raining, people were rushing to the metro, and I was standing there alone without an umbrella."
+        },
+        {
+          "ru": "Потом рядом со мной остановилась машина, и Марк открыл дверь.",
+          "en": "Then a car stopped near me, and Mark opened the door."
+        },
+        {
+          "ru": "Я готовил ужин. И тут зазвонил телефон.",
+          "en": "I was cooking dinner. Just then, the phone rang."
+        },
+        {
+          "ru": "Мы шли домой. Вдруг начался дождь.",
+          "en": "We were walking home. Suddenly it started to rain."
+        }
+      ],
+      "clarificationOptions": [
+        "Нормально ли ставить три глагола в форме процесса подряд?",
+        "Чем just then отличается от when?",
+        "Как понять, где заканчивается описание обстановки и начинаются события?"
+      ]
+    },
+    {
+      "id": 265,
+      "microtopicId": 90,
+      "title": "Оттенки: упрёк и вежливость",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У этого времени есть два употребления, которые про эмоции, а не про процесс. Знать их полезно: они очень частые в живой речи, а по учебной логике «действие в процессе» не выводятся."
+        },
+        {
+          "type": "heading",
+          "text": "always + форма процесса = раздражение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если рядом с формой процесса стоит `always`, речь обычно не о времени, а о претензии:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He was always losing his keys.** — вечно он терял ключи, сколько можно.",
+            "**My old boss was always calling me at night.** — вечно звонил по ночам, это выводило из себя."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Механика простая: говорящий раздувает частоту до «постоянно» — и в этом преувеличении и сидит эмоция. Мы уже видели этот приём в настоящем времени, в теме «Present Continuous»; здесь то же самое, только про прошлое."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Нейтральная частота так не выражается. Если мы просто сообщаем факт «он часто терял ключи», без упрёка, нужна простая прошедшая форма: **He often lost his keys** ✓. Сказать **He was often losing his keys** ✗ в нейтральном смысле нельзя — собеседник услышит раздражение, которого мы не имели в виду."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Прошедшая форма умеет ещё и смягчать. Фраза **I was wondering if you could help me** говорит о настоящем моменте — человек просит о помощи прямо сейчас, — но стоит в прошедшем. Работает это так: чем «дальше» форма от настоящего, тем менее прямой и более вежливой звучит просьба. Пока просто узнавай эту фразу в чужой речи как готовый вежливый оборот — конструкцию с `could` мы разберём в теме «Модальные глаголы»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У Past Continuous есть два эмоциональных употребления. Первое — `always` рядом с формой процесса, и это уже не про время, а про упрёк: **He was always losing his keys** значит «вечно терял, надоело». Нейтральный факт о частоте выражается простым прошедшим: **He often lost his keys**. Второе — вежливое смягчение: **I was wondering if you could help me** говорит про настоящий момент, а прошедшая форма делает просьбу менее прямой.",
+      "examples": [
+        {
+          "ru": "Он вечно терял ключи.",
+          "en": "He was always losing his keys."
+        },
+        {
+          "ru": "Мой прежний начальник вечно звонил мне по ночам.",
+          "en": "My old boss was always calling me at night."
+        },
+        {
+          "ru": "Он часто терял ключи.",
+          "en": "He often lost his keys."
+        },
+        {
+          "ru": "Я хотел спросить, не могли бы вы мне помочь.",
+          "en": "I was wondering if you could help me."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему He was always losing his keys — это упрёк, а не просто частота?",
+        "Как сказать про частое действие в прошлом без упрёка?",
+        "Почему I was wondering стоит в прошедшем, если просьба про сейчас?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1106,6 +1645,102 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 138,
       "orderInCard": 4
+    },
+    {
+      "cardId": 261,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 116,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 261,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 45,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 261,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 120,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 262,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 139,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 262,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 54,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 262,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 103,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 262,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 99,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 263,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 35,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 263,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 19,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 263,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 51,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 264,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 34,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 264,
+      "exerciseType": "MATCHING",
+      "exerciseId": 37,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 264,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 104,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 265,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 17,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 265,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 140,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 265,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 100,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1130,6 +1765,30 @@
       "cardId": 260,
       "title": "Спроси с удивлением",
       "userInstruction": "ИИ опишет ситуацию по-русски. Напишите отрицательный вопрос по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "past_continuous_card263_ex1",
+      "cardId": 263,
+      "title": "Соедини два процесса",
+      "userInstruction": "ИИ пришлёт два английских предложения. Соедините их в одно.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_continuous_card264_ex1",
+      "cardId": 264,
+      "title": "Опиши кадр",
+      "userInstruction": "ИИ опишет ситуацию. Напишите два-три предложения о том, что происходило вокруг.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_continuous_card265_ex1",
+      "cardId": 265,
+      "title": "Скажи с упрёком",
+      "userInstruction": "ИИ опишет ситуацию. Напишите по-английски фразу с упрёком.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -1214,6 +1873,46 @@
       "transcription": "[əˈweɪk]",
       "microtopicId": 89,
       "categoryId": "tenses"
+    },
+    {
+      "id": 498,
+      "word": "moment",
+      "translation": "момент, миг",
+      "transcription": "[ˈməʊmənt]",
+      "microtopicId": 90,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 499,
+      "word": "station",
+      "translation": "вокзал, станция",
+      "transcription": "[ˈsteɪʃn]",
+      "microtopicId": 90,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 500,
+      "word": "to rush",
+      "translation": "нестись, торопиться",
+      "transcription": "[rʌʃ]",
+      "microtopicId": 90,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 501,
+      "word": "sudden",
+      "translation": "внезапный, неожиданный",
+      "transcription": "[ˈsʌdn]",
+      "microtopicId": 90,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 502,
+      "word": "alone",
+      "translation": "один, в одиночку",
+      "transcription": "[əˈləʊn]",
+      "microtopicId": 90,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -1280,6 +1979,37 @@
         }
       ],
       "explanation": "Строка 2: с I идёт was, форма were здесь не подходит. Строка 4: у глагола потерян хвостик -ing — нужно was working. Остальные предложения собраны верно: связка выбрана по подлежащему, глагол стоит с -ing."
+    },
+    {
+      "id": 120,
+      "statements": [
+        {
+          "en": "At nine Lily was still working at home.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "At that moment I was knowing the answer.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "This time yesterday we were flying to Lisbon.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "All morning the workers were making noise outside.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "At six Jake was wait for the bus.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "Строка 2: to know — глагол состояния, в этом времени он не ставится, верно I knew the answer. Строка 5: потерян хвостик -ing — нужно was waiting. Остальные предложения называют момент и показывают действие в процессе."
     }
   ],
   "word_arrangement_exercises": [
@@ -1321,6 +2051,43 @@
         "at nine"
       ],
       "explanation": "Megan — один человек, поэтому wasn't, а не weren't. Помощник didn't в этом времени не появляется, форма answer оставила бы предложение без процесса, а isn't перенесло бы его в настоящее."
+    },
+    {
+      "id": 103,
+      "situationRu": "Ситуация: рассказываешь, что мыл машину, и в этот момент начался дождь.",
+      "correctSentence": "I was washing my car when the rain started.",
+      "words": [
+        "I",
+        "was washing",
+        "my car",
+        "when",
+        "the rain",
+        "started"
+      ],
+      "distractors": [
+        "washed",
+        "was starting",
+        "while"
+      ],
+      "explanation": "Мытьё машины тянулось и служит фоном, поэтому was washing; дождь начался в одну точку и врезался в этот фон, поэтому started. Форма was starting растянула бы событие, а washed убрало бы фон и превратило фразу в цепочку."
+    },
+    {
+      "id": 104,
+      "situationRu": "Ситуация: описываешь кадр — люди под дождём неслись к метро.",
+      "correctSentence": "People were rushing to the metro in the rain.",
+      "words": [
+        "People",
+        "were rushing",
+        "to the metro",
+        "in the rain"
+      ],
+      "distractors": [
+        "rushed",
+        "was rushing",
+        "are rushing",
+        "while"
+      ],
+      "explanation": "Мы описываем обстановку, поэтому действие показано изнутри: were rushing. Подлежащее people во множественном числе, значит were, а не was; rushed закрыло бы действие и превратило декорацию в событие."
     }
   ],
   "multiple_choice_exercises": [
@@ -1386,6 +2153,90 @@
         }
       ],
       "explanation": "После вопросительного слова идёт связка was, затем подлежащее и глагол с -ing. Помощник did здесь не нужен, а вариант was Ira cook оставляет глагол без окончания -ing и теряет процесс."
+    },
+    {
+      "id": 116,
+      "choiceType": "CHOICE",
+      "prompt": "At seven Mark ___ at the station.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "waited",
+          "isCorrect": false
+        },
+        {
+          "text": "was waiting",
+          "isCorrect": true
+        },
+        {
+          "text": "was wait",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Момент назван прямо — at seven, и в этот момент действие было в разгаре, поэтому нужна форма процесса was waiting. Форма waited закрыла бы действие целиком, а was wait оставляет глагол без окончания -ing."
+    },
+    {
+      "id": 139,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я обедал, когда Джейк написал мне.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I was having dinner when Jake texted me.",
+          "isCorrect": true
+        },
+        {
+          "text": "I had dinner when Jake was texting me.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was having dinner when Jake was texting me.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Обед тянулся и был фоном, поэтому он в форме процесса; сообщение пришло в один момент и врезалось в этот фон, поэтому оно в простом прошедшем. Оба глагола в форме процесса дали бы два параллельных действия, а простое прошедшее в первой части превратило бы фразу в цепочку событий."
+    },
+    {
+      "id": 34,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I was walking home. Just then, I heard a loud noise.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я пришёл домой и потом услышал громкий шум.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я слышал громкий шум, пока шёл домой.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я шёл домой, и как раз в этот момент услышал громкий шум.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Первая часть даёт картинку — дорога домой уже шла. Оборот just then указывает точку внутри этой картинки, а простое прошедшее heard показывает событие, которое в неё врезалось."
+    },
+    {
+      "id": 140,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мой сосед часто работал по выходным.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "My neighbour was often working at weekends.",
+          "isCorrect": false
+        },
+        {
+          "text": "My neighbour was always working at weekends.",
+          "isCorrect": false
+        },
+        {
+          "text": "My neighbour often worked at weekends.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Здесь мы просто сообщаем факт о частоте, без упрёка, поэтому нужна простая прошедшая форма. Варианты с формой процесса добавили бы раздражение, которого в русском предложении нет."
     }
   ],
   "text_input_exercises": [
@@ -1413,6 +2264,36 @@
       ],
       "explanation": "Связка выбирается по подлежащему: Yulia — один человек, поэтому wasn't; we и you берут weren't. Форма краткая, потому что предложение обычное, без нажима на отрицание.",
       "taskDescription": "Впиши отрицательную форму связки."
+    },
+    {
+      "id": 45,
+      "items": [
+        {
+          "sentence": "At midnight Olya ___ in the car.",
+          "contextRu": "",
+          "answer": "was sleeping",
+          "alternatives": []
+        },
+        {
+          "sentence": "All evening the neighbours ___ upstairs.",
+          "contextRu": "",
+          "answer": "were shouting",
+          "alternatives": []
+        },
+        {
+          "sentence": "At that moment we ___ to the airport.",
+          "contextRu": "",
+          "answer": "were driving",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Каждое предложение называет момент, поэтому действие показано в процессе: связка по подлежащему плюс глагол с -ing. У Olya один человек — was, у neighbours и we — were.",
+      "taskDescription": "Впиши глагол в подходящее по смыслу предложение в форме процесса в прошлом.",
+      "wordBank": [
+        "ехали",
+        "спала",
+        "кричали"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -1447,6 +2328,38 @@
         }
       ],
       "explanation": "На отрицательный вопрос отвечают от факта: человек не ждал, поэтому No, I wasn't. Вариант Yes, I didn't противоречит сам себе и тащит помощника did, которого в вопросе не было."
+    },
+    {
+      "id": 19,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What were you doing while your sister was cleaning the flat?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "So she did everything alone again."
+        }
+      ],
+      "options": [
+        {
+          "text": "I did my homework in my room.",
+          "isCorrect": false
+        },
+        {
+          "text": "While I cleaned the kitchen.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was doing my homework in my room.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Вопрос спрашивает о том, что шло одновременно с уборкой, поэтому ответ тоже стоит в форме процесса. Простое прошедшее закрыло бы действие и потеряло параллельность."
     }
   ],
   "matching_exercises": [
@@ -1476,6 +2389,33 @@
         }
       ],
       "explanation": "Краткий ответ повторяет связку из вопроса и заменяет подлежащее местоимением: Lucy — she, the boys — they, Roma — he. Помощник did в ответ не подставляется, потому что в вопросе его не было."
+    },
+    {
+      "id": 37,
+      "taskDescription": "соедини русскую фразу с английской.",
+      "pairs": [
+        {
+          "left": "Играла музыка",
+          "right": "The music was playing"
+        },
+        {
+          "left": "Дети шумели наверху",
+          "right": "The kids were making noise upstairs"
+        },
+        {
+          "left": "Мы ждали друзей",
+          "right": "We were waiting for our friends"
+        },
+        {
+          "left": "Потом зазвонил телефон",
+          "right": "Then the phone rang"
+        },
+        {
+          "left": "Оля открыла окно",
+          "right": "Olya opened the window"
+        }
+      ],
+      "explanation": "Первые три фразы описывают обстановку и стоят в форме процесса, последние две двигают сюжет и стоят в простом прошедшем. Именно так рассказ и устроен: сначала кадр, потом события."
     }
   ],
   "error_correction_exercises": [
@@ -1516,6 +2456,44 @@
         }
       ],
       "explanation": "Рядом с was помощник did не ставится: to be служебный сам по себе, и второй помощник в предложении лишний. Вариант wasn't wait теряет окончание -ing, а вместе с ним и сам процесс."
+    },
+    {
+      "id": 99,
+      "wrongSentence": "Zhanna was reading a book when the lights were going out.",
+      "options": [
+        {
+          "text": "Zhanna read a book when the lights went out.",
+          "isCorrect": false
+        },
+        {
+          "text": "Zhanna was reading a book when the lights went out.",
+          "isCorrect": true
+        },
+        {
+          "text": "Zhanna was read a book when the lights went out.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Свет погас в одну точку — это событие, и оно идёт в простом прошедшем: went out. Чтение тянулось и остаётся фоном в форме процесса; вариант с read в простом прошедшем убирает фон, а was read теряет окончание -ing."
+    },
+    {
+      "id": 100,
+      "wrongSentence": "I was wonder if you could help me.",
+      "options": [
+        {
+          "text": "I was wondering if you could help me.",
+          "isCorrect": true
+        },
+        {
+          "text": "I was wondered if you could help me.",
+          "isCorrect": false
+        },
+        {
+          "text": "I didn't was wondering if you could help me.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Это готовый вежливый оборот, и в нём глагол стоит в форме процесса — was wondering. Форма was wondered ставит вместо процесса третью форму и меняет конструкцию, а помощник did рядом с was не появляется."
     }
   ],
   "construction_meaning_exercises": [
@@ -1541,6 +2519,29 @@
         }
       ],
       "explanation": "Форма weren't в начале вопроса даёт оттенок удивления: спрашивающий был уверен, что процесс шёл. Нейтральное «работал ли ты в тот момент» — это Were you working at that moment?, без отрицания."
+    },
+    {
+      "id": 17,
+      "construction": "She was always leaving her things everywhere.",
+      "options": [
+        {
+          "text": "Она вечно разбрасывала свои вещи где попало.",
+          "isCorrect": true
+        },
+        {
+          "text": "Она всегда убирала свои вещи на место.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она разбросала вещи один раз.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она сейчас разбрасывает свои вещи.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Слово always рядом с формой процесса передаёт не частоту, а раздражение говорящего: не просто «часто», а «вечно, сколько можно». Нейтральный факт звучал бы как She often left her things everywhere."
     }
   ],
   "transformation_exercises": [
@@ -1581,6 +2582,25 @@
         }
       ],
       "explanation": "Отрицание строится добавлением not к связке, в краткой форме — wasn't или weren't. Связка выбирается по подлежащему: у girls множественное число, поэтому weren't, и you тоже всегда берёт weren't. Глагол при этом сохраняет окончание -ing."
+    },
+    {
+      "id": 35,
+      "taskDescription": "соедини два предложения в одно с помощью while, поставив его в начало.",
+      "items": [
+        {
+          "original": "I was cooking. Kate was reading.",
+          "transformed": "While I was cooking, Kate was reading."
+        },
+        {
+          "original": "We were eating. Tom was working.",
+          "transformed": "While we were eating, Tom was working."
+        },
+        {
+          "original": "He was driving. Lily was sleeping.",
+          "transformed": "While he was driving, Lily was sleeping."
+        }
+      ],
+      "explanation": "Оба действия тянулись одновременно, поэтому обе части остаются в форме процесса. Союз while стоит в начале первой части, и после неё ставится запятая."
     }
   ],
   "categorization_exercises": [
@@ -1608,6 +2628,31 @@
         }
       ],
       "explanation": "Форма wasn't идёт с одним человеком или предметом, weren't — с несколькими. Местоимение you всегда берёт weren't, даже когда речь об одном собеседнике."
+    },
+    {
+      "id": 54,
+      "taskDescription": "распредели действия по их роли в рассказе.",
+      "categories": [
+        {
+          "title": "Фон — тянулось",
+          "items": [
+            "дети играли во дворе",
+            "соседи шумели наверху",
+            "мы ехали домой",
+            "играла музыка"
+          ]
+        },
+        {
+          "title": "Событие — случилось",
+          "items": [
+            "зазвонил телефон",
+            "дверь открылась",
+            "свет погас",
+            "Саша уронил чашку"
+          ]
+        }
+      ],
+      "explanation": "Фон — это обстановка, которая уже была на месте и тянулась какое-то время: она идёт в форме процесса. Событие происходит в одну точку и врезается в этот фон: оно идёт в простом прошедшем."
     }
   ],
   "find_the_odd_exercises": [
@@ -1633,6 +2678,29 @@
         }
       ],
       "explanation": "В трёх предложениях стоит связка was или were и глагол с -ing — действие показано изнутри, в процессе. У Emma глагол стоит в простом прошедшем: звонок случился и закончился, процесса там нет."
+    },
+    {
+      "id": 51,
+      "groupDescription": "В трёх предложениях два действия шли одновременно, в одном — второе врезалось в первое",
+      "items": [
+        {
+          "text": "While we were having dinner, the kids were watching TV.",
+          "isOdd": false
+        },
+        {
+          "text": "Sara was reading while her brother was cooking dinner.",
+          "isOdd": false
+        },
+        {
+          "text": "It was raining while we were driving home.",
+          "isOdd": false
+        },
+        {
+          "text": "I was sleeping when the phone rang.",
+          "isOdd": true
+        }
+      ],
+      "explanation": "В трёх предложениях обе части стоят в форме процесса — это две параллельные полосы. В последнем звонок случился в одну точку и прервал сон: это фон и вторжение, а не одновременность."
     }
   ]
 }

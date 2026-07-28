@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 261 |
-| Categorization | 54 |
+| Card | 266 |
+| Categorization | 55 |
 | Category | 3 |
-| ConstructionMeaning | 17 |
-| DialogRestore | 19 |
-| ErrorCorrection | 99 |
-| FindTheOdd | 51 |
-| Matching | 37 |
-| Microtopic | 90 |
-| MultipleChoice·CHOICE | 116 |
-| MultipleChoice·FORWARD_CHOICE | 139 |
-| MultipleChoice·REVERSE_CHOICE | 34 |
+| ConstructionMeaning | 18 |
+| DialogRestore | 20 |
+| ErrorCorrection | 101 |
+| FindTheOdd | 52 |
+| Matching | 38 |
+| Microtopic | 91 |
+| MultipleChoice·CHOICE | 117 |
+| MultipleChoice·FORWARD_CHOICE | 141 |
+| MultipleChoice·REVERSE_CHOICE | 35 |
 | TableFill | 25 |
-| TextInput | 45 |
+| TextInput | 46 |
 | Topic | 16 |
-| Transformation | 35 |
-| TrueFalse | 120 |
-| WordArrangement | 103 |
-| course_word | 498 |
+| Transformation | 36 |
+| TrueFalse | 121 |
+| WordArrangement | 105 |
+| course_word | 503 |
 
 ## Диапазоны по темам
 
@@ -182,23 +182,24 @@
 - course_word: 389–394 (6)
 
 ### past-continuous
-- Card: 254–260 (7)
-- Categorization: 53–53 (1)
-- ConstructionMeaning: 16–16 (1)
-- DialogRestore: 18–18 (1)
-- ErrorCorrection: 97–98 (2)
-- FindTheOdd: 50–50 (1)
-- Matching: 36–36 (1)
-- Microtopic: 87–89 (3)
-- MultipleChoice·CHOICE: 114–115 (2)
-- MultipleChoice·FORWARD_CHOICE: 138–138 (1)
+- Card: 254–265 (12)
+- Categorization: 53–54 (2)
+- ConstructionMeaning: 16–17 (2)
+- DialogRestore: 18–19 (2)
+- ErrorCorrection: 97–100 (4)
+- FindTheOdd: 50–51 (2)
+- Matching: 36–37 (2)
+- Microtopic: 87–90 (4)
+- MultipleChoice·CHOICE: 114–116 (3)
+- MultipleChoice·FORWARD_CHOICE: 138–140 (3)
+- MultipleChoice·REVERSE_CHOICE: 34–34 (1)
 - TableFill: 24–24 (1)
-- TextInput: 44–44 (1)
+- TextInput: 44–45 (2)
 - Topic: 15–15 (1)
-- Transformation: 33–34 (2)
-- TrueFalse: 119–119 (1)
-- WordArrangement: 101–102 (2)
-- course_word: 490–497 (8)
+- Transformation: 33–35 (3)
+- TrueFalse: 119–120 (2)
+- WordArrangement: 101–104 (4)
+- course_word: 490–502 (13)
 
 ### past-simple
 - Card: 229–253 (25)
