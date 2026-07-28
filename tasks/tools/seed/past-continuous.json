@@ -22,6 +22,12 @@
       "topicId": 15,
       "title": "Affirmative · Утверждение: was/were + V-ing",
       "order": 2
+    },
+    {
+      "id": 89,
+      "topicId": 15,
+      "title": "Negative & Question · Отрицание и вопрос",
+      "order": 3
     }
   ],
   "grammar_cards": [
@@ -668,6 +674,334 @@
         "Почему рядом с was нельзя поставить did, если предложение о прошлом?",
         "Чем was painted отличается от was painting?"
       ]
+    },
+    {
+      "id": 259,
+      "microtopicId": 89,
+      "title": "Отрицание: not приходит к связке",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Утверждение мы собирать научились — переходим к отрицанию. И тут Past Continuous почти ничего с нас не спрашивает: отрицание живёт ровно в одном месте, и это место уже знакомо по темам «Present Continuous» и «Past Simple»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Was/were + not + V-ing"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Берём готовое утвердительное предложение и вставляем `not` между связкой и глаголом. Больше не меняется ничего — ни порядок слов, ни хвостик `-ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Denis was reading a message.** → **Denis was not reading a message.**",
+            "**The guests were waiting outside.** → **The guests were not waiting outside.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание целиком берёт на себя связка. Глагол при этом остаётся ровно таким, каким был: он по-прежнему держит процесс, просто теперь мы говорим, что этот процесс не шёл."
+        },
+        {
+          "type": "heading",
+          "text": "Краткие формы: теперь есть что сокращать"
+        },
+        {
+          "type": "paragraph",
+          "text": "В карточке про утверждение мы отмечали, что у `was/were` сокращать нечего. В отрицании появляется что:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Полная форма",
+            "Краткая форма"
+          ],
+          "rows": [
+            [
+              "was not",
+              "wasn't"
+            ],
+            [
+              "were not",
+              "weren't"
+            ],
+            [
+              "I was not sleeping",
+              "I wasn't sleeping"
+            ],
+            [
+              "they were not sleeping",
+              "they weren't sleeping"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В обычной речи почти всегда звучит краткая. Полную оставляют для нажима, когда голосом давят на «не»: **I was not sleeping, I was working.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Второго способа сокращения, как в настоящем времени, здесь нет. Там было два равноправных варианта (**he isn't working** и **he's not working**), потому что связка умела слипаться с подлежащим. У `was/were` такой способности нет — остаётся один вариант, `wasn't/weren't`."
+        },
+        {
+          "type": "heading",
+          "text": "Почему здесь не появляется did"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это главная ошибка микротемы, и её стоит понять в корне, а не заучить. В прошедшем времени мы привыкли, что отрицание делает помощник `did`: **Katya didn't call me**. Рука сама тянется написать то же самое и здесь."
+        },
+        {
+          "type": "paragraph",
+          "text": "Но глаголы делятся на два лагеря. Смысловые глаголы (**to work**, **to call**, **to explain**) только называют действие — служебной силы у них нет, и отрицание с вопросом им приходится звать со стороны: приходит `did`. А `to be` служебный сам по себе, он и есть тот, кто держит конструкцию. В нашей форме `was/were` уже стоит в предложении — место помощника занято, и второму там просто негде встать."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Mia didn't was explaining the rule** ✗ → **Mia wasn't explaining the rule** ✓. Помощник и связка вдвоём не работают: кто-то один. Есть в предложении `was/were` — отрицание делает он."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отрицание съело `-ing`. **We weren't wait for you** ✗ → **We weren't waiting for you** ✓. Появилось второе служебное слово, внимание уехало на него — и хвостик потерялся. Процесс держит по-прежнему только `-ing`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отрицание не отменяет правило выбора связки — смотрим на подлежащее ровно так же, как в утверждении. **I weren't listening** ✗ → **I wasn't listening** ✓; **The kids wasn't playing** ✗ → **The kids weren't playing** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Зачем это время вообще отрицают"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание процесса редко живёт само по себе. Чаще всего им снимают чужое предположение, а следом ставят своё: **I wasn't sleeping, I was reading your message.** Собеседник решил, что шло одно, — мы отменяем это и говорим, что шло на самом деле."
+        }
+      ],
+      "theorySummary": "Отрицание в Past Continuous — это `not` сразу после связки: подлежащее + `was/were` + `not` + глагол с `-ing` (**I was not sleeping**). В речи почти всегда краткая форма — `wasn't/weren't`; второго способа сокращения, как **he's not** в настоящем, здесь нет. Помощник `did` не приходит: `to be` служебный сам, и место помощника уже занято (**I didn't was working** ✗ → **I wasn't working** ✓). Связка выбирается по подлежащему так же, как в утверждении, а глагол сохраняет `-ing`.",
+      "examples": [
+        {
+          "ru": "Денис не читал сообщение — он вёл машину.",
+          "en": "Denis wasn't reading the message — he was driving."
+        },
+        {
+          "ru": "Гости не ждали снаружи, они сидели в кафе.",
+          "en": "The guests weren't waiting outside, they were sitting in the café."
+        },
+        {
+          "ru": "Мия не объясняла правило, она читала его вслух.",
+          "en": "Mia wasn't explaining the rule, she was reading it aloud."
+        },
+        {
+          "ru": "Я не спал в десять, я работал.",
+          "en": "I wasn't sleeping at ten, I was working."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I didn't was working, если предложение о прошлом?",
+        "Чем wasn't working отличается от didn't work?",
+        "Почему у was и were нет второго способа сокращения, как he's not в настоящем времени?"
+      ]
+    },
+    {
+      "id": 260,
+      "microtopicId": 89,
+      "title": "Вопрос: связка выходит вперёд",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вопрос в этом времени строится даже проще отрицания: мы ничего не добавляем и ничего не убираем — только меняем порядок. Связка перепрыгивает через подлежащее и встаёт в начало."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Was/were + подлежащее + V-ing"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Утверждение",
+            "Вопрос"
+          ],
+          "rows": [
+            [
+              "Sam was working.",
+              "Was Sam working?"
+            ],
+            [
+              "The kids were shouting.",
+              "Were the kids shouting?"
+            ],
+            [
+              "You were sleeping.",
+              "Were you sleeping?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание: глагол с `-ing` не тронут вообще, дополнение стоит на своём месте. Сдвинулось ровно одно слово — и предложение перестало быть рассказом и стало вопросом."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос с вопросительным словом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если нужно спросить не «шло ли», а «что именно шло», перед связкой встаёт вопросительное слово, а дальше всё то же:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What were you doing at nine?**",
+            "**Where was Oliver going?**",
+            "**Why were they shouting?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок жёсткий: сначала вопросительное слово, потом связка, потом подлежащее, потом глагол. Помощник `did` сюда по-прежнему не приходит — по той же причине, что и в отрицании: `to be` служебный сам, а место помощника уже занято связкой."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Did you were sleeping?** ✗ и **What did you doing?** ✗ → **Were you sleeping?** ✓, **What were you doing?** ✓. Как только в предложении появилась форма `was/were`, вопрос строит она и никто другой."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Краткие ответы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отвечать целым предложением не нужно — хватает подлежащего и связки:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Were you waiting long?** — **Yes, I was.** / **No, I wasn't.**",
+            "**Was Katya explaining the task?** — **Yes, she was.** / **No, she wasn't.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В ответе повторяется та же связка, что стояла в вопросе. Вариант **Yes, I did** ✗ не подходит: `did` в этой конструкции не участвовал, значит и в ответе ему взяться неоткуда. И ещё мелочь: в утвердительном кратком ответе связка не сокращается — говорят **Yes, I was**, слепить её с местоимением не выйдет. Краткая форма живёт только в отрицательном ответе: **No, I wasn't**."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос: «разве не…?»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос бывает и отрицательным — когда мы были уверены в обратном и теперь удивляемся:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Weren't you listening?** — разве ты не слушал?",
+            "**Wasn't Mia waiting for us?** — разве Мия нас не ждала?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Строится он краткой формой: `not` уезжает вперёд вместе со связкой, одним куском `wasn't/weren't`. Полный вариант (**Were you not listening?**) тоже существует, но звучит книжно и жёстко — в живой речи берут краткий."
+        },
+        {
+          "type": "paragraph",
+          "text": "Оттенок у такого вопроса всегда один: спрашивающий ожидал другого. **Weren't you sleeping at midnight?** — «я же был уверен, что ты спишь»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ответ на отрицательный вопрос. Русский отвечает от согласия с собеседником: «Разве ты не спал?» — «Да, не спал». Английский отвечает от факта, а не от вопроса: не спал → **No, I wasn't** ✓; спал → **Yes, I was** ✓. Русское «да» в отрицательный ответ подставлять нельзя — **Yes, I wasn't** ✗ звучит как противоречие само себе."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ещё раз про хвостик -ing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос **Was Jack awake at midnight?** выглядит устроенным точно так же — связка впереди, подлежащее следом. Но `-ing` в нём нет: `awake` — это не действие, а состояние («бодрствующий»), и перед нами обычное прошедшее с `to be`, а не наше время. Форма вопроса у обеих конструкций одинаковая, различает их по-прежнему только хвостик на следующем слове."
+        }
+      ],
+      "theorySummary": "Вопрос в Past Continuous строится выносом связки вперёд: **You were sleeping** → **Were you sleeping?**; с вопросительным словом — **What were you doing at nine?**. Помощник `did` не участвует (**Did you were sleeping?** ✗). Краткий ответ повторяет связку: **Yes, I was** / **No, I wasn't**, вариант **Yes, I did** ✗ неверен. Отрицательный вопрос (**Weren't you listening?**) означает «разве не…?» и выражает удивление; отвечают на него от факта, а не от согласия с собеседником: не слушал → **No, I wasn't**.",
+      "examples": [
+        {
+          "ru": "Ты спал в полночь?",
+          "en": "Were you sleeping at midnight?"
+        },
+        {
+          "ru": "Что Лена делала в кафе?",
+          "en": "What was Lena doing in the café?"
+        },
+        {
+          "ru": "— Ты долго ждал? — Да.",
+          "en": "— Were you waiting long? — Yes, I was."
+        },
+        {
+          "ru": "Разве ты меня не слушал?",
+          "en": "Weren't you listening to me?"
+        },
+        {
+          "ru": "Джек бодрствовал в полночь?",
+          "en": "Was Jack awake at midnight?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему на вопрос Weren't you listening отвечают No, а по-русски получается «да, не слушал»?",
+        "Почему нельзя ответить Yes, I did, если вопрос был о прошлом?",
+        "Чем Was Jack awake отличается от Was Jack waking up?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -712,6 +1046,66 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 50,
       "orderInCard": 3
+    },
+    {
+      "cardId": 259,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 34,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 259,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 53,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 259,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 98,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 259,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 44,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 259,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 102,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 260,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 115,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 260,
+      "exerciseType": "MATCHING",
+      "exerciseId": 36,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 260,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 18,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 260,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 16,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 260,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 138,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -722,6 +1116,22 @@
       "userInstruction": "ИИ пришлёт английское предложение с ошибкой. Напишите его правильно.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "past_continuous_card259_ex1",
+      "cardId": 259,
+      "title": "Переведи в отрицание",
+      "userInstruction": "ИИ пришлёт английское предложение. Напишите его в отрицательной форме.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_continuous_card260_ex1",
+      "cardId": 260,
+      "title": "Спроси с удивлением",
+      "userInstruction": "ИИ опишет ситуацию по-русски. Напишите отрицательный вопрос по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -780,12 +1190,36 @@
       "transcription": "[ˌdaʊnˈsteəz]",
       "microtopicId": 88,
       "categoryId": "tenses"
+    },
+    {
+      "id": 495,
+      "word": "message",
+      "translation": "сообщение, послание",
+      "transcription": "[ˈmesɪdʒ]",
+      "microtopicId": 89,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 496,
+      "word": "to explain",
+      "translation": "объяснять, пояснять",
+      "transcription": "[ɪkˈspleɪn]",
+      "microtopicId": 89,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 497,
+      "word": "awake",
+      "translation": "бодрствующий, не спящий",
+      "transcription": "[əˈweɪk]",
+      "microtopicId": 89,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
     {
       "id": 24,
-      "taskDescription": "соедини подлежащее с глаголом в форме прошедшего процесса.",
+      "taskDescription": "соедини каждую пару в одну форму — действие в процессе в прошлом. Например: he + to read → was reading.",
       "rows": [
         {
           "hint": "the guests + to wait",
@@ -867,6 +1301,26 @@
         "at home"
       ],
       "explanation": "Подлежащее Lena — один человек, поэтому was, а не were. Форма read оставила бы предложение без процесса, а is перенесло бы его в настоящее время."
+    },
+    {
+      "id": 102,
+      "situationRu": "Ситуация: объясняешь, что в тот момент Меган не брала трубку.",
+      "correctSentence": "Megan wasn't answering her phone at that moment.",
+      "words": [
+        "Megan",
+        "wasn't",
+        "answering",
+        "her phone",
+        "at that moment"
+      ],
+      "distractors": [
+        "weren't",
+        "didn't",
+        "answer",
+        "isn't",
+        "at nine"
+      ],
+      "explanation": "Megan — один человек, поэтому wasn't, а не weren't. Помощник didn't в этом времени не появляется, форма answer оставила бы предложение без процесса, а isn't перенесло бы его в настоящее."
     }
   ],
   "multiple_choice_exercises": [
@@ -890,11 +1344,140 @@
         }
       ],
       "explanation": "Подлежащее the boys во множественном числе — значит were. Форма was идёт с одним человеком или предметом, а were play оставляет глагол без хвостика -ing, и процесс исчезает."
+    },
+    {
+      "id": 115,
+      "choiceType": "CHOICE",
+      "prompt": "___ the girls waiting outside at six?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Were",
+          "isCorrect": true
+        },
+        {
+          "text": "Did",
+          "isCorrect": false
+        },
+        {
+          "text": "Was",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вопрос строит сама связка, и выбирается она по подлежащему: the girls — множественное число, значит Were. Помощник Did в этом времени не участвует, потому что to be служебный сам по себе."
+    },
+    {
+      "id": 138,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Что Ира готовила вчера вечером?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "What did Ira cooking yesterday evening?",
+          "isCorrect": false
+        },
+        {
+          "text": "What was Ira cook yesterday evening?",
+          "isCorrect": false
+        },
+        {
+          "text": "What was Ira cooking yesterday evening?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "После вопросительного слова идёт связка was, затем подлежащее и глагол с -ing. Помощник did здесь не нужен, а вариант was Ira cook оставляет глагол без окончания -ing и теряет процесс."
     }
   ],
-  "text_input_exercises": [],
-  "dialog_restore_exercises": [],
-  "matching_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 44,
+      "items": [
+        {
+          "sentence": "Yulia ___ listening, she was talking on the phone.",
+          "contextRu": "",
+          "answer": "wasn't",
+          "alternatives": []
+        },
+        {
+          "sentence": "We ___ waiting outside, we were sitting in the café.",
+          "contextRu": "",
+          "answer": "weren't",
+          "alternatives": []
+        },
+        {
+          "sentence": "You ___ explaining the task, you were reading it aloud.",
+          "contextRu": "",
+          "answer": "weren't",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Связка выбирается по подлежащему: Yulia — один человек, поэтому wasn't; we и you берут weren't. Форма краткая, потому что предложение обычное, без нажима на отрицание.",
+      "taskDescription": "Впиши отрицательную форму связки."
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 18,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Weren't you waiting for me at the café?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Then why didn't I see you there?"
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I didn't.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, I wasn't. I was late.",
+          "isCorrect": true
+        },
+        {
+          "text": "No, I don't was.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "На отрицательный вопрос отвечают от факта: человек не ждал, поэтому No, I wasn't. Вариант Yes, I didn't противоречит сам себе и тащит помощника did, которого в вопросе не было."
+    }
+  ],
+  "matching_exercises": [
+    {
+      "id": 36,
+      "taskDescription": "соедини вопрос с утвердительным кратким ответом.",
+      "pairs": [
+        {
+          "left": "Was Lucy sleeping?",
+          "right": "Yes, she was."
+        },
+        {
+          "left": "Were the boys swimming?",
+          "right": "Yes, they were."
+        },
+        {
+          "left": "Were you cooking dinner?",
+          "right": "Yes, I was."
+        },
+        {
+          "left": "Was it raining?",
+          "right": "Yes, it was."
+        },
+        {
+          "left": "Was Roma driving?",
+          "right": "Yes, he was."
+        }
+      ],
+      "explanation": "Краткий ответ повторяет связку из вопроса и заменяет подлежащее местоимением: Lucy — she, the boys — they, Roma — he. Помощник did в ответ не подставляется, потому что в вопросе его не было."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 97,
@@ -914,9 +1497,52 @@
         }
       ],
       "explanation": "Sveta — один человек, поэтому нужна форма was. Вариант was watch теряет окончание -ing и вместе с ним сам процесс, а did рядом с was не ставится: to be служебный глагол сам по себе, помощник ему не нужен."
+    },
+    {
+      "id": 98,
+      "wrongSentence": "At six Grisha didn't was waiting for the bus.",
+      "options": [
+        {
+          "text": "At six Grisha didn't waiting for the bus.",
+          "isCorrect": false
+        },
+        {
+          "text": "At six Grisha wasn't wait for the bus.",
+          "isCorrect": false
+        },
+        {
+          "text": "At six Grisha wasn't waiting for the bus.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Рядом с was помощник did не ставится: to be служебный сам по себе, и второй помощник в предложении лишний. Вариант wasn't wait теряет окончание -ing, а вместе с ним и сам процесс."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 16,
+      "construction": "Weren't you working at that moment?",
+      "options": [
+        {
+          "text": "Ты не будешь работать в тот момент?",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты сейчас не работаешь?",
+          "isCorrect": false
+        },
+        {
+          "text": "Работал ли ты в тот момент?",
+          "isCorrect": false
+        },
+        {
+          "text": "Разве ты не работал в тот момент?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Форма weren't в начале вопроса даёт оттенок удивления: спрашивающий был уверен, что процесс шёл. Нейтральное «работал ли ты в тот момент» — это Were you working at that moment?, без отрицания."
+    }
+  ],
   "transformation_exercises": [
     {
       "id": 33,
@@ -936,9 +1562,54 @@
         }
       ],
       "explanation": "Законченное действие превращается в процесс заменой формы: вместо простого прошедшего ставим was или were по подлежащему и добавляем глаголу окончание -ing. У students подлежащее множественное, поэтому were."
+    },
+    {
+      "id": 34,
+      "taskDescription": "перепиши предложение в отрицательной форме.",
+      "items": [
+        {
+          "original": "Sonya was cleaning her room.",
+          "transformed": "Sonya wasn't cleaning her room."
+        },
+        {
+          "original": "The girls were dancing at the party.",
+          "transformed": "The girls weren't dancing at the party."
+        },
+        {
+          "original": "You were watching the news.",
+          "transformed": "You weren't watching the news."
+        }
+      ],
+      "explanation": "Отрицание строится добавлением not к связке, в краткой форме — wasn't или weren't. Связка выбирается по подлежащему: у girls множественное число, поэтому weren't, и you тоже всегда берёт weren't. Глагол при этом сохраняет окончание -ing."
     }
   ],
-  "categorization_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 53,
+      "taskDescription": "распредели подлежащие по нужной форме отрицания.",
+      "categories": [
+        {
+          "title": "wasn't",
+          "items": [
+            "I",
+            "my sister",
+            "the phone",
+            "it"
+          ]
+        },
+        {
+          "title": "weren't",
+          "items": [
+            "you",
+            "the guests",
+            "my parents",
+            "Mia and Sam"
+          ]
+        }
+      ],
+      "explanation": "Форма wasn't идёт с одним человеком или предметом, weren't — с несколькими. Местоимение you всегда берёт weren't, даже когда речь об одном собеседнике."
+    }
+  ],
   "find_the_odd_exercises": [
     {
       "id": 50,
