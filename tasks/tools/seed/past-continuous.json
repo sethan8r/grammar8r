@@ -34,6 +34,12 @@
       "topicId": 15,
       "title": "Usage · Что этим временем говорят",
       "order": 4
+    },
+    {
+      "id": 91,
+      "topicId": 15,
+      "title": "When vs While · Когда «когда» — не одно слово",
+      "order": 5
     }
   ],
   "grammar_cards": [
@@ -1541,6 +1547,281 @@
         "Как сказать про частое действие в прошлом без упрёка?",
         "Почему I was wondering стоит в прошедшем, если просьба про сейчас?"
       ]
+    },
+    {
+      "id": 266,
+      "microtopicId": 91,
+      "title": "Когда и пока — два разных союза",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русское «когда» — слово-универсал. «Когда я переходил дорогу, передо мной затормозила машина» и «Когда затормозила машина, я переходил дорогу» — в обеих фразах одно и то же «когда», хотя работы у него две разные: в первой оно ведёт то, что тянулось, во второй — то, что случилось. Английский так не экономит: на эти две роли у него два разных союза."
+        },
+        {
+          "type": "heading",
+          "text": "Рабочий ориентир"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`While` ведёт то, что тянулось; `when` — то, что случилось."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Возьмём одну сцену и переставим в ней союз:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**While I was crossing the road, a car stopped in front of me.**",
+            "**I was crossing the road when a car stopped in front of me.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл один и тот же, а союз переехал вместе с ролью — он всегда стоит при своей части. Метафора из карточки про фон и вторжение работает здесь напрямую: `while` сидит на линии, `when` — на уколе."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё одна такая же пара: **While Zhanna was waiting for her flight, she was getting nervous** — ожидание тянулось; **Zhanna was waiting for her flight when Pasha called her** — звонок случился в одну точку."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Союз прицепили к чужой части. **While Igor called me, I was cooking** ✗ — за `while` должно что-то тянуться, а звонок происходит мгновенно. Верно: **When Igor called me, I was cooking** ✓ или **While I was cooking, Igor called me** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Правило не железное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь стоит быть честным: это ориентир, а не закон. `when` умеет вести и процесс — тогда он значит не «в момент, когда», а «в тот период»:"
+        },
+        {
+          "type": "heading",
+          "text": "When I was living in Prague, I walked everywhere."
+        },
+        {
+          "type": "paragraph",
+          "text": "Целый кусок жизни подан как фон, и `while` тут тоже подошёл бы. А вот наоборот почти не бывает: `while` рядом с коротким событием звучит криво почти всегда."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибка получается несимметричной — отсюда простой вывод на каждый день: сомневаешься — бери `when`, он прощает. `while` бери тогда, когда хочешь подчеркнуть «пока это тянулось»."
+        },
+        {
+          "type": "heading",
+          "text": "Третье слово, которое лезет сюда же"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть ещё `during` — «во время, в течение». Для русского уха «пока шёл фильм» и «во время фильма» почти одно и то же, поэтому `during` регулярно оказывается там, где нужен `while`. Разводит их один-единственный признак — что стоит ПОСЛЕ:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Что идёт после",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "while",
+              "целая часть с подлежащим и глаголом",
+              "While the film was playing, Rita fell asleep."
+            ],
+            [
+              "when",
+              "целая часть с подлежащим и глаголом",
+              "When the film ended, Rita woke up."
+            ],
+            [
+              "during",
+              "существительное, без глагола",
+              "During the film Rita fell asleep."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**During I was watching the film, my phone rang** ✗ — после `during` часть с глаголом не ставится. Годится либо **While I was watching the film, my phone rang** ✓, либо **During the film my phone rang** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Для двух полос рядом есть ещё слово `meanwhile` — «тем временем». Это не союз, а связка между двумя отдельными предложениями: **I was packing my bag. Meanwhile, Ben was making sandwiches.** Работает как `just then` из прошлой микротемы, только показывает не вторжение, а вторую полосу."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Русское «когда» в английском разошлось на два союза: `while` ведёт то, что тянулось (**While I was crossing the road, a car stopped**), `when` — то, что случилось (**I was crossing the road when a car stopped**). Ориентир рабочий, но не железный: `when` умеет вести и процесс в значении «в тот период», а `while` рядом с коротким событием почти всегда звучит неверно — поэтому в сомнении надёжнее `when`. Отдельно стоит `during`: после него идёт только существительное (**During the film my phone rang**), а не часть с глаголом.",
+      "examples": [
+        {
+          "ru": "Пока я переходил дорогу, передо мной затормозила машина.",
+          "en": "While I was crossing the road, a car stopped in front of me."
+        },
+        {
+          "ru": "Жанна ждала свой рейс, когда ей позвонил Паша.",
+          "en": "Zhanna was waiting for her flight when Pasha called her."
+        },
+        {
+          "ru": "Во время фильма зазвонил мой телефон.",
+          "en": "During the film my phone rang."
+        },
+        {
+          "ru": "Я собирал сумку. Тем временем Бен делал бутерброды.",
+          "en": "I was packing my bag. Meanwhile, Ben was making sandwiches."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать While he called me?",
+        "Чем during отличается от while, если по-русски оба «во время»?",
+        "Можно ли поставить while во вторую половину предложения?"
+      ]
+    },
+    {
+      "id": 267,
+      "microtopicId": 91,
+      "title": "Одно when — два разных фильма",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "С союзами разобрались. Но у `when` есть вторая сторона, куда более коварная: одно и то же `when` открывает два совершенно разных фильма, и решает не сам союз, а форма глагола во второй части."
+        },
+        {
+          "type": "paragraph",
+          "text": "Два предложения, разница в одном слове:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When I came in, Lena was making tea.**",
+            "**When I came in, Lena made tea.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Разбираем по кадрам"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Предложение",
+            "Что было до моего прихода",
+            "Что после"
+          ],
+          "rows": [
+            [
+              "When I came in, Lena was making tea.",
+              "Лена уже возилась с чаем",
+              "я застал процесс в середине"
+            ],
+            [
+              "When I came in, Lena made tea.",
+              "Лена ничем таким не занималась",
+              "она взялась за чай после моего прихода"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма процесса говорит: действие уже шло. Простая прошедшая форма выстраивает цепочку: сначала одно, потом другое. Это те же два инструмента, что и раньше — фон и цепочка событий, — только здесь они спрятаны за одинаковым началом предложения."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский этого не видит"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы скажем «Когда я вошёл, Лена делала чай» и, скорее всего, будем иметь в виду первый вариант. Но сама русская фраза этого не гарантирует: второй смысл мы обычно выражаем другими словами — «стала делать», «сделала», «заварила». То есть у нас разницу тащит глагол, а в английском — выбор времени."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда и главная неприятность. Обе английские фразы грамматически правильные, поэтому собеседник не переспросит и не поправит — он просто увидит не тот фильм. Это самая обидная разновидность ошибки: не та, что ломает предложение, а та, что тихо подменяет смысл."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Совет",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Прежде чем выбрать форму, задай себе вопрос — это уже шло к моменту события или началось после него? Уже шло → форма процесса: **When Pasha arrived, we were having dinner** ✓ (мы сидели за столом, он застал нас). Началось после → простая прошедшая: **When Pasha arrived, we had dinner** ✓ (он пришёл, и мы сели ужинать)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему while здесь не выручит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Заманчиво решить так: раз путаница из-за `when`, возьмём вместо него `while`. Не выйдет — **While I came in, Lena was making tea** ✗. Мы помним из прошлой карточки: за `while` должно что-то тянуться, а «вошёл» происходит в одну точку. Развилка живёт именно у `when`, и разруливает её только форма глагола во второй части."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Бывает и третий вариант — обе части в форме процесса: **When I was coming home, it was raining.** Никакой развилки тут нет, это просто две декорации одного кадра рядом."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Одинаковое начало **When I came in…** открывает два разных сценария, и выбирает форма глагола во второй части: **Lena was making tea** значит, что она возилась с чаем ещё до моего прихода, а **Lena made tea** — что она взялась за него после. Проверочный вопрос: это уже шло к моменту события или началось после него? Союз `while` эту развилку не решает — **While I came in** ✗, потому что за `while` должно что-то тянуться.",
+      "examples": [
+        {
+          "ru": "Когда я вошёл, Лена заваривала чай.",
+          "en": "When I came in, Lena was making tea."
+        },
+        {
+          "ru": "Когда я вошёл, Лена заварила чай.",
+          "en": "When I came in, Lena made tea."
+        },
+        {
+          "ru": "Когда Паша приехал, мы ужинали.",
+          "en": "When Pasha arrived, we were having dinner."
+        },
+        {
+          "ru": "Когда я шёл домой, шёл дождь.",
+          "en": "When I was coming home, it was raining."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему When I came in, Lena made tea значит, что чай она заварила после?",
+        "Как понять, какой из двух смыслов нужен, если по-русски фраза одна?",
+        "Почему нельзя сказать While I came in?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1741,6 +2022,66 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 100,
       "orderInCard": 2
+    },
+    {
+      "cardId": 266,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 117,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 266,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 55,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 266,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 121,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 266,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 105,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 266,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 101,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 267,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 35,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 267,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 18,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 267,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 141,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 267,
+      "exerciseType": "MATCHING",
+      "exerciseId": 38,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 267,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 20,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -1790,6 +2131,22 @@
       "title": "Скажи с упрёком",
       "userInstruction": "ИИ опишет ситуацию. Напишите по-английски фразу с упрёком.",
       "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "past_continuous_card266_ex1",
+      "cardId": 266,
+      "title": "While, when или during",
+      "userInstruction": "ИИ пришлёт предложения с пропусками. Вставьте пропущенное слово.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_continuous_card267_ex1",
+      "cardId": 267,
+      "title": "Собери всю микротему",
+      "userInstruction": "ИИ пришлёт предложения с пропусками. Вставьте пропущенное слово или нужную форму глагола.",
+      "inputMode": "FILL_BLANKS",
       "wordsSource": "GENERAL"
     }
   ],
@@ -1913,6 +2270,46 @@
       "transcription": "[əˈləʊn]",
       "microtopicId": 90,
       "categoryId": "tenses"
+    },
+    {
+      "id": 503,
+      "word": "while",
+      "translation": "пока, в то время как",
+      "transcription": "[waɪl]",
+      "microtopicId": 91,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 504,
+      "word": "meanwhile",
+      "translation": "тем временем, между тем",
+      "transcription": "[ˈmiːnwaɪl]",
+      "microtopicId": 91,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 505,
+      "word": "during",
+      "translation": "во время, в течение",
+      "transcription": "[ˈdjʊərɪŋ]",
+      "microtopicId": 91,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 506,
+      "word": "to cross",
+      "translation": "переходить, пересекать",
+      "transcription": "[krɒs]",
+      "microtopicId": 91,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 507,
+      "word": "nervous",
+      "translation": "нервный, взволнованный",
+      "transcription": "[ˈnɜːvəs]",
+      "microtopicId": 91,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -2010,6 +2407,37 @@
         }
       ],
       "explanation": "Строка 2: to know — глагол состояния, в этом времени он не ставится, верно I knew the answer. Строка 5: потерян хвостик -ing — нужно was waiting. Остальные предложения называют момент и показывают действие в процессе."
+    },
+    {
+      "id": 121,
+      "statements": [
+        {
+          "en": "While Oliver was cooking, his phone rang.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "During I was waiting for the bus, it started to rain.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Vitya was reading in the garden when Lena came home.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "While the door opened, we were watching TV.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "During the party Mia was dancing all evening.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: после during не ставится часть с глаголом — верно While I was waiting for the bus. Строка 4: за while должно что-то тянуться, а дверь открылась в одну точку — верно When the door opened. В остальных строках союз стоит при своей роли."
     }
   ],
   "word_arrangement_exercises": [
@@ -2088,6 +2516,26 @@
         "while"
       ],
       "explanation": "Мы описываем обстановку, поэтому действие показано изнутри: were rushing. Подлежащее people во множественном числе, значит were, а не was; rushed закрыло бы действие и превратило декорацию в событие."
+    },
+    {
+      "id": 105,
+      "situationRu": "Ситуация: Ник работал в саду, и в этот момент пошёл дождь.",
+      "correctSentence": "Nick was working in the garden when the rain started.",
+      "words": [
+        "Nick",
+        "was working",
+        "in the garden",
+        "when",
+        "the rain started"
+      ],
+      "distractors": [
+        "while",
+        "during",
+        "worked",
+        "was work",
+        "is working"
+      ],
+      "explanation": "Работа в саду тянулась, поэтому она стоит в форме процесса. Дождь начался в одну точку, и такое событие вводит when: while к короткому событию не ставится, а during не может стоять перед частью с глаголом."
     }
   ],
   "multiple_choice_exercises": [
@@ -2237,6 +2685,69 @@
         }
       ],
       "explanation": "Здесь мы просто сообщаем факт о частоте, без упрёка, поэтому нужна простая прошедшая форма. Варианты с формой процесса добавили бы раздражение, которого в русском предложении нет."
+    },
+    {
+      "id": 117,
+      "choiceType": "CHOICE",
+      "prompt": "___ the concert we were standing at the back.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "While",
+          "isCorrect": false
+        },
+        {
+          "text": "During",
+          "isCorrect": true
+        },
+        {
+          "text": "When",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После пропуска стоит существительное the concert без глагола, а с существительным работает только during. Союзы while и when требуют после себя целую часть с подлежащим и глаголом."
+    },
+    {
+      "id": 35,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "When Mia opened the door, her brother was packing his bag.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Когда Миа открыла дверь, её брат собрал сумку.",
+          "isCorrect": false
+        },
+        {
+          "text": "Когда Миа открыла дверь, её брат стал собирать сумку.",
+          "isCorrect": false
+        },
+        {
+          "text": "Когда Миа открыла дверь, её брат уже собирал сумку.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Вторая часть стоит в форме процесса, значит сборы шли ещё до того, как дверь открылась. Варианты со «собрал» и «стал собирать» описывают цепочку событий, а для неё нужна простая прошедшая форма packed."
+    },
+    {
+      "id": 141,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Когда Игорь позвонил, Рома уже мыл посуду.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "When Igor called, Roma washed the dishes.",
+          "isCorrect": false
+        },
+        {
+          "text": "When Igor called, Roma was washing the dishes.",
+          "isCorrect": true
+        },
+        {
+          "text": "While Igor called, Roma was washing the dishes.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Мытьё посуды шло ещё до звонка, поэтому оно идёт в форме процесса. Вариант washed выстроил бы цепочку — сначала звонок, потом посуда, а while к мгновенному звонку не ставится."
     }
   ],
   "text_input_exercises": [
@@ -2360,6 +2871,38 @@
         }
       ],
       "explanation": "Вопрос спрашивает о том, что шло одновременно с уборкой, поэтому ответ тоже стоит в форме процесса. Простое прошедшее закрыло бы действие и потеряло параллельность."
+    },
+    {
+      "id": 20,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I called you at eight, but you didn't answer."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "No problem, I just wanted to say hello."
+        }
+      ],
+      "options": [
+        {
+          "text": "Sorry, when you called I took a shower.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sorry, while you called I was taking a shower.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sorry, when you called I was taking a shower.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Душ уже шёл в момент звонка, поэтому нужна форма процесса. Вариант took a shower означал бы, что человек пошёл в душ после звонка, а while к мгновенному звонку не ставится."
     }
   ],
   "matching_exercises": [
@@ -2416,6 +2959,29 @@
         }
       ],
       "explanation": "Первые три фразы описывают обстановку и стоят в форме процесса, последние две двигают сюжет и стоят в простом прошедшем. Именно так рассказ и устроен: сначала кадр, потом события."
+    },
+    {
+      "id": 38,
+      "taskDescription": "соедини английское предложение с его смыслом.",
+      "pairs": [
+        {
+          "left": "When Ben came home, Mia was cooking.",
+          "right": "Она готовила ещё до его прихода"
+        },
+        {
+          "left": "When Ben came home, Mia cooked.",
+          "right": "Она взялась за готовку после"
+        },
+        {
+          "left": "While Ben was driving home, Mia was cooking.",
+          "right": "Оба дела шли одновременно"
+        },
+        {
+          "left": "During dinner Mia told him the news.",
+          "right": "Всё случилось за ужином"
+        }
+      ],
+      "explanation": "Форма процесса во второй части значит, что дело уже шло; простая прошедшая выстраивает цепочку. Союз while соединяет два процесса, а during ставится перед существительным."
     }
   ],
   "error_correction_exercises": [
@@ -2494,6 +3060,25 @@
         }
       ],
       "explanation": "Это готовый вежливый оборот, и в нём глагол стоит в форме процесса — was wondering. Форма was wondered ставит вместо процесса третью форму и меняет конструкцию, а помощник did рядом с was не появляется."
+    },
+    {
+      "id": 101,
+      "wrongSentence": "During I was walking home, it started to snow.",
+      "options": [
+        {
+          "text": "While I was walking home, it started to snow.",
+          "isCorrect": true
+        },
+        {
+          "text": "During I walked home, it started to snow.",
+          "isCorrect": false
+        },
+        {
+          "text": "During I was walking home, it was starting to snow.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Ошибка в самом слове: после during идёт только существительное, а здесь за ним стоит целая часть с подлежащим и глаголом. Такую часть вводит союз while, и замена формы глагола ошибку не лечит."
     }
   ],
   "construction_meaning_exercises": [
@@ -2542,6 +3127,29 @@
         }
       ],
       "explanation": "Слово always рядом с формой процесса передаёт не частоту, а раздражение говорящего: не просто «часто», а «вечно, сколько можно». Нейтральный факт звучал бы как She often left her things everywhere."
+    },
+    {
+      "id": 18,
+      "construction": "When the guests arrived, Vera made coffee.",
+      "options": [
+        {
+          "text": "Гости пришли, и после этого Вера сварила кофе.",
+          "isCorrect": true
+        },
+        {
+          "text": "Вера варила кофе в тот момент, когда пришли гости.",
+          "isCorrect": false
+        },
+        {
+          "text": "Вера сварила кофе ещё до прихода гостей.",
+          "isCorrect": false
+        },
+        {
+          "text": "Вера варила кофе каждый раз, когда приходили гости.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вторая часть стоит в простой прошедшей форме, поэтому события идут одно за другим: сначала приход гостей, потом кофе. Смысл «уже варила в тот момент» дало бы was making coffee, а «каждый раз» — совсем другая конструкция про повторяющееся действие."
     }
   ],
   "transformation_exercises": [
@@ -2653,6 +3261,29 @@
         }
       ],
       "explanation": "Фон — это обстановка, которая уже была на месте и тянулась какое-то время: она идёт в форме процесса. Событие происходит в одну точку и врезается в этот фон: оно идёт в простом прошедшем."
+    },
+    {
+      "id": 55,
+      "taskDescription": "распредели куски по слову, с которым они сочетаются.",
+      "categories": [
+        {
+          "title": "while",
+          "items": [
+            "Mia was driving home",
+            "we were talking in the kitchen",
+            "the kids were sleeping"
+          ]
+        },
+        {
+          "title": "during",
+          "items": [
+            "the lesson",
+            "breakfast",
+            "the party"
+          ]
+        }
+      ],
+      "explanation": "Слева стоят целые части с подлежащим и глаголом — их вводит союз while. Справа одни существительные, и перед ними ставится during."
     }
   ],
   "find_the_odd_exercises": [
