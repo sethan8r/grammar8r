@@ -1726,27 +1726,330 @@ A: "No problem, I just wanted to say hello."
 
 ---
 
+## Microtopic 92 — Past Simple vs Past Continuous · Точка или процесс
+
+**ID:** 92 | **Order:** 6
+
+---
+
+### Card 268 · Один вопрос вместо всех правил
+
+**ID:** 268 | **Order:** 1
+
+#### Theory
+
+Механику мы прошли целиком: форму, отрицание, вопрос, фон и вторжение, развилку с `when`. Осталось собрать всё это в одну процедуру выбора — в живой речи решение принимается за долю секунды, перебирать правила там некогда.
+
+**Одна ситуация, один глагол, два времени**
+
+- **Denis read a book yesterday.** — прочитал, дело сделано, книга закрыта.
+- **Denis was reading a book yesterday.** — сидел с книгой; чем всё кончилось, не сказано и неважно.
+
+Русский на такую разницу тратит два разных глагола — «читал» и «прочитал», — а английский два времени. Мы это уже разбирали в начале темы; теперь превращаем в инструмент.
+
+**Совет:** перед выбором формы задай себе один вопрос — «мне важно, что это СЛУЧИЛОСЬ, или что это ШЛО?». Случилось → простая прошедшая форма. Шло → форма процесса. Всё остальное в этой теме — следствия этого вопроса.
+
+**Четыре типовых кадра**
+
+| Что мы говорим | Время | Пример |
+|---|---|---|
+| факт, дело закрыто | Past Simple | Sonya called me at eight. |
+| процесс в названный момент | Past Continuous | At eight Sonya was calling her mother. |
+| цепочка: одно за другим | Past Simple подряд | Grisha came in, took his keys and left. |
+| фон и вторжение | Continuous и Simple | Grisha was leaving when the phone rang. |
+
+Первые две строки — чистая развилка «точка или процесс», и решает её вопрос-тест. В двух нижних выбор сделан за нас ролью части в предложении: фон всегда идёт процессом, событие — простой формой.
+
+**Слова-подсказки помогают, но не решают**
+
+- к процессу тянут `at eight`, `at that moment`, `all evening`, `all day`, `while`;
+- к простой прошедшей — `yesterday`, `then`, `after that`, `last week`, `at once`.
+
+Полагаться на них слепо нельзя. **Yesterday I was working all day** ✓ — слово `yesterday` прекрасно уживается с процессом, потому что сказать мы хотим именно то, что работа ШЛА. Маркер подсказывает, решает вопрос.
+
+**Ловушка:** выбирать время по длине действия. Мозг рассуждает «действие долгое — значит процесс», и получается **I was living in Warsaw for three years** ✗ вместо **I lived in Warsaw for three years** ✓. Три года — длиннее некуда, но мы сообщаем закрытый факт, а не показываем разворачивающееся действие. Об этом подробно — в следующей карточке.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Выбор между двумя прошедшими временами держится на одном вопросе: важно, что действие СЛУЧИЛОСЬ, или что оно ШЛО? Случилось → простая прошедшая форма (**Denis read a book yesterday**), шло → форма процесса (**Denis was reading a book yesterday**). Слова вроде `at that moment`, `all evening` тянут к процессу, а `yesterday`, `then`, `after that` — к простой форме, но это только подсказка: **Yesterday I was working all day** тоже верно. Длина действия ничего не решает — **I lived in Warsaw for three years** ✓.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1125 | Денис вчера прочитал книгу. | Denis read a book yesterday. |
+| 1126 | Денис вчера читал книгу. | Denis was reading a book yesterday. |
+| 1127 | В восемь Соня звонила маме. | At eight Sonya was calling her mother. |
+| 1128 | Гриша вошёл, взял ключи и ушёл. | Grisha came in, took his keys and left. |
+
+---
+
+#### Exercises
+
+**Ex 44 · ConstructionMeaning** *(ID: 19)*
+
+Выбери правильный перевод:
+
+"Katya was writing a letter to her sister."
+
+- Катя написала письмо сестре.
+- **Катя писала письмо сестре.** ✓
+- Катя часто писала письма сестре.
+- Катя пишет письмо сестре прямо сейчас.
+
+*Explanation:* Форма процесса показывает действие изнутри: письмо писалось, а закончено оно или нет — вне кадра. Законченный результат дало бы wrote a letter, регулярность — often wrote, а настоящий момент — is writing.
+
+---
+
+**Ex 45 · MultipleChoice · CHOICE** *(ID: 118)*
+
+"Yesterday Kolya ___ his room and then went out."
+
+- **cleaned** ✓
+- was cleaning
+- did clean
+
+*Explanation:* Два действия идут одно за другим: сначала уборка закончилась, потом человек ушёл. Такая цепочка целиком идёт в простой прошедшей форме, а вариант с процессом подвесил бы уборку незаконченной.
+
+---
+
+**Ex 46 · TableFill** *(ID: 25)*
+
+Задание: поставь глагол из скобок в форму, которая подходит ситуации. Форму пиши целиком, вместе со связкой, если она нужна. Например: в тот момент Витя ещё красил дверь (to paint) → was painting, а вчера Витя покрасил дверь (to paint) → painted.
+
+| Ситуация и глагол | Ответ |
+|---|---|
+| в семь Ира ещё стояла на остановке (to wait) | was waiting |
+| Коля вчера посмотрел фильм и лёг спать (to watch) | watched |
+| весь вечер дети играли во дворе (to play) | were playing |
+| Настя написала письмо и отправила его (to write) | wrote |
+| в тот момент Люси мыла машину (to wash) | was washing |
+
+*Explanation:* Если действие в этот момент ШЛО, нужна связка was или were плюс глагол с -ing. Если оно СЛУЧИЛОСЬ и закрылось, тем более когда за ним идёт следующее действие, ставится простая прошедшая форма.
+
+---
+
+**Ex 47 · Categorization** *(ID: 56)*
+
+Задание: распредели ситуации по времени, которое им нужно.
+
+| Past Simple | Past Continuous |
+|---|---|
+| закрыл дверь и ушёл, вчера позвонил бабушке, прожил в Дублине два года | в шесть ещё готовил ужин, весь день шёл дождь, как раз ждал автобус |
+
+*Explanation:* Слева — закрытые факты и цепочка событий: важно, что это случилось. Справа — действия, показанные изнутри в какой-то момент: важно, что они шли.
+
+---
+
+**Ex 48 · TrueFalse** *(ID: 122)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Last week Sam fixed his bike. | ✓ |
+| 2 | At nine we was watching a film. | ✗ |
+| 3 | All morning the kids were playing in the yard. | ✓ |
+| 4 | I was living in Boston for two years. | ✗ |
+| 5 | Grisha was standing at the window when I came in. | ✓ |
+
+*Explanation:* Строка 2: с we идёт were, а не was. Строка 4: отрезок назван целиком, это закрытый факт — верно I lived in Boston for two years. В остальных строках форма выбрана по смыслу: факт, процесс в течение утра и фон под событие.
+
+---
+
+**Ex 49 · Transformation** *(ID: 36)*
+
+Задание: перепиши предложение так, чтобы действие было показано как процесс.
+
+1. "Sonya cooked dinner." → **"Sonya was cooking dinner."**
+2. "The boys played football." → **"The boys were playing football."**
+3. "I waited at the door." → **"I was waiting at the door."**
+
+*Explanation:* Чтобы показать действие изнутри, ставится связка по подлежащему и глагол с -ing: с одним человеком was, с несколькими were. Смысл при этом меняется с «сделал и закончил» на «было в разгаре».
+
+---
+
+#### Clarification Options
+
+- Как быстро выбрать время, если в предложении вообще нет слов-подсказок?
+- Почему Yesterday I was working all day — это верно?
+- Чем цепочка событий отличается от фона с вторжением?
+
+---
+
+### Card 269 · Где процесс не нужен
+
+**ID:** 269 | **Order:** 2
+
+#### Theory
+
+Три микротемы подряд мы учили форму процесса — и теперь легко начать ставить её везде. Эта карточка про обратное: три места, где процесс не нужен и звучит неправильно.
+
+**Состояния остаются в простой форме**
+
+Про глаголы-состояния мы говорили в теме «Present Continuous»: `to know`, `to want`, `to like`, `to believe`, `to understand` описывают не действие, а состояние, и в форму процесса не ставятся. В прошлом ровно то же самое:
+
+- **I was knowing him for years** ✗ → **I knew him for years** ✓
+- **She was wanting to help** ✗ → **She wanted to help** ✓
+
+Состояние не может «идти» — оно просто есть, и показывать изнутри там нечего.
+
+**Названный отрезок времени — простая форма**
+
+Когда отрезок назван целиком — `for five years`, `for two hours`, `all my life`, — мы его измерили и закрыли: **I lived in Kazan for five years** ✓, **We waited two hours and went home** ✓.
+
+**Ловушка:** «действие долгое — значит процесс». **I was living in Kazan for five years** ✗ — пять лет и правда долго, но мы сообщаем закрытый факт, а не показываем разворачивающееся действие. Длина тут ни при чём.
+
+И сразу оговорка, чтобы правило не выродилось в «после for всегда простая форма»: **I was waiting for two hours when he finally called** ✓. Отрезок тот же самый, а форма процесса на месте — потому что ожидание работает фоном под событие. Решает не слово `for`, а всё тот же вопрос: закрытый факт или фон.
+
+**Цепочка событий — простая форма**
+
+- **I was coming home, I was opening the door, I was making tea** ✗ — рассказ зависает в декорациях и никуда не двигается.
+- **I came home, opened the door and made tea** ✓ — события идут одно за другим.
+
+Форма процесса ставит ОДИН кадр — обстановку; дальше сюжет ведёт простая прошедшая. Мы разбирали это в карточке про декорации рассказа: несколько форм процесса подряд описывают один момент, а не последовательность.
+
+**Кстати:** фраза `I was born` («я родился») в этот список не попадает и устроена совсем иначе — это не описание и не процесс, а конструкция, где с подлежащим что-то делают. Разберём её уже следующей темой, а пока просто запомни как готовую формулу: **I was born in Dublin** ✓, но не **I born in Dublin** ✗.
+
+**Где процесс, наоборот, обязателен**
+
+Короткий контрольный список, чтобы не удариться в другую крайность:
+
+- процесс в названный момент: **At nine Katya was still working**;
+- фон под вторжение: **We were having dinner when the lights went out**;
+- два действия рядом: **While I was driving, Lucy was sleeping**.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Есть три места, где форма процесса не нужна. Глаголы-состояния и в прошлом остаются простыми: **I knew him for years** ✓, а не **I was knowing** ✗. Названный целиком отрезок времени — закрытый факт: **I lived in Kazan for five years** ✓; но тот же отрезок идёт процессом, когда работает фоном: **I was waiting for two hours when he finally called** ✓. Цепочка событий целиком идёт в простой прошедшей: **I came home, opened the door and made tea** ✓.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1129 | Я знал его много лет. | I knew him for years. |
+| 1130 | Я прожил в Казани пять лет. | I lived in Kazan for five years. |
+| 1131 | Я пришёл домой, открыл дверь и заварил чай. | I came home, opened the door and made tea. |
+| 1132 | Я родился в Дублине. | I was born in Dublin. |
+
+---
+
+#### Exercises
+
+**Ex 50 · ErrorCorrection** *(ID: 102)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"At that time I was knowing the answer."
+
+- I was know the answer at that time.
+- At that time I was knew the answer.
+- **At that time I knew the answer.** ✓
+
+*Explanation:* Глагол to know называет состояние, а состояние не идёт как процесс — значит связка was здесь лишняя вместе с окончанием -ing. Нужна простая прошедшая форма knew.
+
+---
+
+**Ex 51 · FindTheOdd** *(ID: 52)*
+
+В трёх предложениях форма процесса стоит по делу, в одном она лишняя:
+
+- **We were living in Boston for two years.** ✓
+- Sam was waiting for the bus at seven.
+- The rain was falling all night.
+- Lucy was cooking when I called her.
+
+*Explanation:* В трёх предложениях действие показано изнутри: момент на часах, вся ночь как один кадр и фон под звонок. В четвёртом отрезок назван целиком и подан как закрытый факт — нужна простая форма lived.
+
+---
+
+**Ex 52 · MultipleChoice · FORWARD_CHOICE** *(ID: 142)*
+
+"Мы прождали час и уехали домой."
+
+- We were waiting an hour and were going home.
+- We were waiting an hour and went home.
+- **We waited an hour and went home.** ✓
+
+*Explanation:* Два события идут одно за другим и оба закрыты: ожидание закончилось, потом состоялся отъезд. Цепочка целиком идёт в простой прошедшей форме, процесс её бы подвесил.
+
+---
+
+**Ex 53 · MultipleChoice · REVERSE_CHOICE** *(ID: 36)*
+
+Переведи на русский:
+
+"Ira understood the task at once."
+
+- **Ира сразу поняла задание.** ✓
+- Ира понимала задание в тот момент.
+- Ира разбиралась с заданием какое-то время.
+
+*Explanation:* Глагол to understand называет состояние и стоит в простой прошедшей форме, а слово at once подчёркивает мгновенность. Оттенок «понимала какое-то время» потребовал бы процесса, но такие глаголы в форму процесса не ставятся.
+
+---
+
+**Ex 54 · WordArrangement** *(ID: 106)*
+
+Ситуация: рассказываешь, что делал после работы — три действия одно за другим.
+
+Правильное предложение: **I came home, made dinner and watched a film.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| I came home | — |
+| made dinner | — |
+| and | — |
+| watched a film | — |
+| was coming home | ✗ |
+| was making dinner | ✗ |
+| was watching a film | ✗ |
+
+*Explanation:* Действия идут одно за другим и каждое закрывается, поэтому вся цепочка стоит в простой прошедшей форме. Формы процесса подвесили бы каждое действие незаконченным, и рассказ перестал бы двигаться.
+
+---
+
+**Ex 55 · DialogRestore** *(ID: 21)*
+
+A: "How long did you live in Riga?"
+B: ___
+A: "That's a long time. Do you miss it?"
+
+- I was living there for six years.
+- **I lived there for six years.** ✓
+- I was live there for six years.
+
+*Explanation:* Отрезок назван целиком — шесть лет, — и это закрытый факт, поэтому нужна простая прошедшая форма. Длина отрезка на выбор не влияет.
+
+---
+
+#### Clarification Options
+
+- Почему нельзя сказать I was knowing him for years?
+- Почему I lived in Kazan for five years, но I was waiting for two hours?
+- Как понять, что в рассказе пора переходить с процесса на простую форму?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 15 | 16 |
 | Category | 2 | 3 |
-| Microtopic | 91 | 92 |
-| Card | 267 | 268 |
-| Example | 1124 | 1125 |
+| Microtopic | 92 | 93 |
+| Card | 269 | 270 |
+| Example | 1132 | 1133 |
 | Слова курса (course_word) | 507 | 508 |
-| MultipleChoice · CHOICE | 117 | 118 |
-| MultipleChoice · FORWARD_CHOICE | 141 | 142 |
-| MultipleChoice · REVERSE_CHOICE | 35 | 36 |
-| TrueFalse | 121 | 122 |
-| WordArrangement | 105 | 106 |
+| MultipleChoice · CHOICE | 118 | 119 |
+| MultipleChoice · FORWARD_CHOICE | 142 | 143 |
+| MultipleChoice · REVERSE_CHOICE | 36 | 37 |
+| TrueFalse | 122 | 123 |
+| WordArrangement | 106 | 107 |
 | TextInput | 45 | 46 |
 | Matching | 38 | 39 |
-| Transformation | 35 | 36 |
-| ErrorCorrection | 101 | 102 |
-| TableFill | 24 | 25 |
-| FindTheOdd | 51 | 52 |
-| ConstructionMeaning | 18 | 19 |
-| Categorization | 55 | 56 |
-| DialogRestore | 20 | 21 |
+| Transformation | 36 | 37 |
+| ErrorCorrection | 102 | 103 |
+| TableFill | 25 | 26 |
+| FindTheOdd | 52 | 53 |
+| ConstructionMeaning | 19 | 20 |
+| Categorization | 56 | 57 |
+| DialogRestore | 21 | 22 |
