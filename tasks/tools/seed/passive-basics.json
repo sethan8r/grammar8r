@@ -16,6 +16,12 @@
       "topicId": 16,
       "title": "What Is Passive · Что такое страдательный залог",
       "order": 1
+    },
+    {
+      "id": 95,
+      "topicId": 16,
+      "title": "Form · Форма: be + V3",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -534,23 +540,868 @@
         "Чем `by` в **written by Tolstoy** отличается от обычного предлога?",
         "Почему на вывесках и упаковках почти всегда пассив?"
       ]
+    },
+    {
+      "id": 274,
+      "microtopicId": 95,
+      "title": "Формула be + V3",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Идею мы разобрали, теперь — как собрать пассив своими руками. И тут хорошая новость: обе детали конструкции у нас уже есть, ни одну не придётся учить с нуля."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Be + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Всего два элемента, и у каждого своя работа:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**be** — берёт на себя всю служебную часть: время (настоящее или прошедшее) и согласование с подлежащим. Это знакомые `am/is/are` и `was/were`, ничего нового.",
+            "**V3** — третья форма основного глагола, она несёт смысл. И она **не меняется никогда**: ни по лицам, ни по числам, ни по временам."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "То есть всё, что происходит в предложении, происходит со связкой. Третью форму поставил один раз — и забыл."
+        },
+        {
+          "type": "heading",
+          "text": "Как активное переворачивается в пассивное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Возьмём обычное активное предложение и развернём камеру по шагам:"
+        },
+        {
+          "type": "heading",
+          "text": "Someone stole my bike."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Дополнение (`my bike`) выходит вперёд и становится подлежащим.",
+            "Глагол превращается в `be + V3`, причём связка встаёт в **то же время**, в котором стоял активный глагол: `stole` — прошедшее, значит `was`.",
+            "Деятель (`someone`) исчезает — он и был причиной, по которой мы затеяли переворот."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**My bike was stolen.** ✓"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая частая ошибка на этом шаге — уронить время. **Someone stole my bike** ✗ → **My bike is stolen** — велосипед украли вчера, а получилось, что его крадут вообще-то регулярно. Прошедшее остаётся прошедшим: **My bike was stolen** ✓. Связка обязана взять то время, которое было у активного глагола."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Порядок слов"
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский держится на порядке слов, поэтому посмотрим на скелет конструкции. В нижней строке каждой таблицы — дословный русский перевод в английском порядке: звучит криво, зато сразу видно логику."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Подлежащее",
+            "Связка",
+            "Глагол V3",
+            "Остальное"
+          ],
+          "rows": [
+            [
+              "The house",
+              "was",
+              "built",
+              "in 1995"
+            ],
+            [
+              "Дом",
+              "(был)",
+              "построен",
+              "в 1995"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Подлежащее",
+            "Связка",
+            "Глагол V3",
+            "Остальное"
+          ],
+          "rows": [
+            [
+              "These letters",
+              "are",
+              "sent",
+              "every day"
+            ],
+            [
+              "Эти письма",
+              "(есть)",
+              "отправлены",
+              "каждый день"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Подлежащее",
+            "Связка",
+            "Глагол V3",
+            "Остальное"
+          ],
+          "rows": [
+            [
+              "My phone",
+              "was",
+              "found",
+              "in the car"
+            ],
+            [
+              "Мой телефон",
+              "(был)",
+              "найден",
+              "в машине"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Связка в скобках — сигнал: по-русски мы это слово не произносим, а по-английски выбросить его нельзя. Как раз тот случай, о котором предупреждала прошлая карточка: русское «письмо отправлено» обходится без связки, английское — никогда."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Выбросить `be` по русской привычке. **The house built in 1995** ✗ → **The house was built in 1995** ✓. Без связки фраза читается наоборот: получается, что дом сам что-то построил."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Второй раз окупается колода"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот теперь пригодится то, что копилось с начала курса. Откуда брать третью форму:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "у **правильных** глаголов она совпадает со второй — основа плюс `-ed`: **to clean → cleaned**, **to invite → invited**, **to wash → washed**;",
+            "у **неправильных** это отдельная, третья колонка колоды — та самая, которую в теме «Past Simple» мы просили не трогать со словами «`written` сюда не ходит». Вот сюда она и ходит."
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Начальная форма",
+            "Прошедшее (V2)",
+            "Третья форма (V3)"
+          ],
+          "rows": [
+            [
+              "to write",
+              "wrote",
+              "written"
+            ],
+            [
+              "to break",
+              "broke",
+              "broken"
+            ],
+            [
+              "to steal",
+              "stole",
+              "stolen"
+            ],
+            [
+              "to build",
+              "built",
+              "built"
+            ],
+            [
+              "to send",
+              "sent",
+              "sent"
+            ],
+            [
+              "to sell",
+              "sold",
+              "sold"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Поставить в пассив вторую форму вместо третьей — рука тянется к ней, потому что «раз прошедшее, значит `wrote`». **The letter was wrote** ✗ → **The letter was written** ✓. За прошедшее время здесь отвечает связка `was`, а основной глагол обязан стоять в третьей форме — на то она в колоде и третья."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У части глаголов вторая и третья формы совпадают (**built**, **sent**, **sold**, **paid**, **found**), и с ними ошибиться в принципе невозможно. Так что страшных случаев меньше, чем кажется, — по-настоящему ловушка работает только там, где формы разные."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Пассив собирается по формуле `be + V3`: связка берёт на себя время и лицо (`am/is/are`, `was/were`), а третья форма несёт смысл и не меняется никогда. Переворот активного идёт в три шага: дополнение становится подлежащим, глагол превращается в `be + V3` в том же времени, деятель исчезает — **Someone stole my bike** → **My bike was stolen**. Две главные ошибки: выбросить связку (**The house built in 1995** ✗) и поставить вторую форму вместо третьей (**The letter was wrote** ✗ → **was written** ✓).",
+      "examples": [
+        {
+          "ru": "Эти письма отправляют каждый день.",
+          "en": "These letters are sent every day."
+        },
+        {
+          "ru": "Мой телефон нашли в машине.",
+          "en": "My phone was found in the car."
+        },
+        {
+          "ru": "Стол сделан из дерева.",
+          "en": "The table is made of wood."
+        },
+        {
+          "ru": "Эту песню написали сто лет назад.",
+          "en": "This song was written a hundred years ago."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать The house built in 1995 — зачем там was?",
+        "Чем третья форма отличается от второй, если они часто одинаковые?",
+        "Как понять, ставить is или was, если в русском предложении времени не видно?"
+      ]
+    },
+    {
+      "id": 275,
+      "microtopicId": 95,
+      "title": "Отрицание и вопрос — без did",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пассив мы собрали. Осталось научиться его отрицать и спрашивать — и здесь пользователя ждёт приятный сюрприз, потому что работать почти не придётся."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомним разделение, которое мы вводили ещё в «Служебных глаголах»: английские глаголы живут в двух лагерях. Одним для отрицания и вопроса нужен помощник — `do/does/did`. Другие справляются сами, без всякой помощи: это `to be` и модальные."
+        },
+        {
+          "type": "paragraph",
+          "text": "Пассив целиком живёт **во втором лагере**. В его конструкции уже есть `be` — а значит, вся служебная работа достаётся ей, и никакой `did` тут не нужен."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: not после связки"
+        },
+        {
+          "type": "paragraph",
+          "text": "`not` встаёт сразу после связки, обычно в краткой форме:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The letter wasn't sent.** — письмо не отправили.",
+            "**These books aren't sold here.** — эти книги здесь не продают.",
+            "**The room isn't cleaned on Sundays.** — по воскресеньям комнату не убирают."
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Подлежащее",
+            "Связка + not",
+            "Глагол V3",
+            "Остальное"
+          ],
+          "rows": [
+            [
+              "The letter",
+              "wasn't",
+              "sent",
+              "on Monday"
+            ],
+            [
+              "Письмо",
+              "(не было)",
+              "отправлено",
+              "в понедельник"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос: связка выпрыгивает вперёд"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы получить вопрос, связку выносим перед подлежащим — ровно то же движение, что мы делали с `to be` в теме «Present Simple»:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Связка",
+            "Подлежащее",
+            "Глагол V3",
+            "Остальное"
+          ],
+          "rows": [
+            [
+              "Was",
+              "the house",
+              "built",
+              "in 1990?"
+            ],
+            [
+              "(Был)",
+              "дом",
+              "построен",
+              "в 1990?"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Are the rooms cleaned every day?** — комнаты убирают каждый день?",
+            "**Were the tickets sold online?** — билеты продавали онлайн?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Краткие ответы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отвечаем той же связкой, которая стояла в вопросе, — никакого `did`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Was the house built in 1990?** — **Yes, it was.** / **No, it wasn't.**",
+            "**Are the rooms cleaned every day?** — **Yes, they are.** / **No, they aren't.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос: разве не…?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если мы ожидали одного, а видим другое, в ход идёт отрицательный вопрос. Строится он просто: связка с `not` в краткой форме встаёт в начало, целиком:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Wasn't it sent yesterday?** — разве его не отправили вчера?",
+            "**Isn't this room cleaned every day?** — разве эту комнату не убирают каждый день?",
+            "**Weren't the tickets sold in one day?** — разве билеты не продали за день?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Оттенок здесь всегда один: удивление или проверка. Говорящий был уверен в обратном и теперь уточняет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Притащить `did` из активного прошедшего. **Did the shop was closed?** ✗ → **Was the shop closed?** ✓, **The letter didn't sent** ✗ → **The letter wasn't sent** ✓. Рука тянется к `did` по памяти, потому что в активе без него вопроса не построить. Но помощник и связка вместе не ходят: если в предложении есть `be`, всю работу делает она."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сравни два вопроса, они отличаются только залогом — **Did they close the shop?** (кто-то закрыл магазин?) и **Was the shop closed?** (магазин был закрыт?). В первом главный герой — люди, и там нужен `did`. Во втором главный герой — магазин, и там работает `was`. Один и тот же смысл, разные ракурсы и разная механика."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В пассиве отрицание и вопрос строятся без `did` — всю работу берёт на себя связка. Отрицание: `not` после связки — **The letter wasn't sent**, **These books aren't sold here**. Вопрос: связка выпрыгивает перед подлежащим — **Was the house built in 1990?**, ответ той же связкой: **Yes, it was**. Отрицательный вопрос («разве не?») ставит краткую форму целиком вперёд: **Wasn't it sent yesterday?** Главная ошибка — притащить помощника из актива: **Did the shop was closed?** ✗ → **Was the shop closed?** ✓.",
+      "examples": [
+        {
+          "ru": "В понедельник письмо не отправили.",
+          "en": "The letter wasn't sent on Monday."
+        },
+        {
+          "ru": "Дом построили в 1990 году?",
+          "en": "Was the house built in 1990?"
+        },
+        {
+          "ru": "Эти книги здесь не продают.",
+          "en": "These books aren't sold here."
+        },
+        {
+          "ru": "Разве билеты не продали за один день?",
+          "en": "Weren't the tickets sold in one day?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в пассиве нельзя сказать Did the shop was closed?",
+        "Чем Did they close the shop отличается от Was the shop closed?",
+        "Как отвечать на вопрос Was the house built in 1990 коротко?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 274,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 119,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 274,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 26,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 274,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 37,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 274,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 103,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 274,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 107,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 274,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 123,
+      "orderInCard": 5
+    },
+    {
+      "cardId": 275,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 143,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 275,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 38,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 275,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 22,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 275,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 46,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 275,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 57,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 275,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 124,
+      "orderInCard": 5
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "passive_card274_ex1",
+      "cardId": 274,
+      "title": "Переверни в пассив",
+      "userInstruction": "ИИ пришлёт английское предложение. Перепишите его так, чтобы главным стал предмет.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "passive_card275_ex1",
+      "cardId": 275,
+      "title": "Отрицание и вопрос",
+      "userInstruction": "ИИ пришлёт утвердительное предложение. Напишите к нему отрицание и вопрос.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [],
   "course_categories": [],
   "course_words": [],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 26,
+      "taskDescription": "Впиши третью форму глагола.",
+      "rows": [
+        {
+          "hint": "to close",
+          "answer": "closed"
+        },
+        {
+          "hint": "to give",
+          "answer": "given"
+        },
+        {
+          "hint": "to pay",
+          "answer": "paid"
+        },
+        {
+          "hint": "to open",
+          "answer": "opened"
+        },
+        {
+          "hint": "to take",
+          "answer": "taken"
+        },
+        {
+          "hint": "to help",
+          "answer": "helped"
+        }
+      ],
+      "explanation": "У правильных глаголов третья форма совпадает со второй и делается через -ed: closed, opened, helped. У неправильных её нужно брать из третьей колонки: to give — given, to take — taken; у to pay вторая и третья формы одинаковые — paid."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 123,
+      "statements": [
+        {
+          "en": "The floor was washed this morning.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "This song was wrote by her brother.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "These books are printed in Poland.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The shop closed by the manager at nine.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "These letters were written by hand.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: после связки нужна третья форма — was written. Строка 4: потеряна связка, поэтому получилось, что магазин сам кого-то закрыл — нужно was closed by the manager. Остальные собраны верно: связка согласована с подлежащим, глагол стоит в третьей форме."
+    },
+    {
+      "id": 124,
+      "statements": [
+        {
+          "en": "Were the photos taken in Prague?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Did the money was found in the garden?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "This bread isn't sold in the evening.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The car didn't washed last week.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Wasn't the window broken by the storm?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: связка и помощник вместе не ходят — верно Was the money found in the garden? Строка 4: то же самое в отрицании — нужно wasn't washed. Остальные собраны верно: вопрос строит вынесенная вперёд связка, отрицание — связка с not."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 107,
+      "situationRu": "Ситуация: Ты рассказываешь, что вчера твою машину помыли.",
+      "correctSentence": "My car was washed yesterday.",
+      "words": [
+        "My car",
+        "was",
+        "washed",
+        "yesterday"
+      ],
+      "distractors": [
+        "were",
+        "washing",
+        "did",
+        "wash"
+      ],
+      "explanation": "Подлежащее my car — один предмет, поэтому was, а не were. Дальше идёт третья форма washed: washing сделало бы машину той, кто моет, а did в пассиве не нужен."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 119,
+      "choiceType": "CHOICE",
+      "prompt": "The window ___ by the wind last night.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "was broke",
+          "isCorrect": false
+        },
+        {
+          "text": "was broken",
+          "isCorrect": true
+        },
+        {
+          "text": "broke",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "За прошедшее время отвечает связка was, а основной глагол стоит в третьей форме: was broken. Форма broke — вторая, в пассиве она не работает, а одиночное broke означало бы, что окно само что-то разбило."
+    },
+    {
+      "id": 143,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Эти письма отправили утром?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Did the letters sent in the morning?",
+          "isCorrect": false
+        },
+        {
+          "text": "Were the letters sending in the morning?",
+          "isCorrect": false
+        },
+        {
+          "text": "Were the letters sent in the morning?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "В пассиве вопрос строит сама связка: она выходит вперёд, а глагол остаётся в третьей форме — Were the letters sent. Помощник did тут не нужен, а форма sending сделала бы письма теми, кто отправляет."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 46,
+      "items": [
+        {
+          "sentence": "The parcel ___ yesterday.",
+          "contextRu": "",
+          "answer": "wasn't sent",
+          "alternatives": []
+        },
+        {
+          "sentence": "These rooms ___ every day.",
+          "contextRu": "",
+          "answer": "aren't cleaned",
+          "alternatives": []
+        },
+        {
+          "sentence": "The windows ___ last week.",
+          "contextRu": "",
+          "answer": "weren't washed",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Отрицание в пассиве строит связка: not встаёт сразу после неё, а глагол остаётся в третьей форме. Связка выбирается по подлежащему и времени: parcel — один предмет и yesterday, значит wasn't sent; rooms — множественное число и every day, значит aren't cleaned; windows — множественное число и last week, значит weren't washed.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "не помыли",
+        "не отправили",
+        "не убирают"
+      ]
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 22,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Where is my package?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Great, thank you!"
+        }
+      ],
+      "options": [
+        {
+          "text": "It was delivered this morning.",
+          "isCorrect": true
+        },
+        {
+          "text": "It did deliver this morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "It was deliver this morning.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Посылку доставили — действие совершили с ней, поэтому связка плюс третья форма: was delivered. Вариант с did в пассиве невозможен, а deliver после was осталось бы начальной формой."
+    }
+  ],
   "matching_exercises": [],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 103,
+      "wrongSentence": "The bridge was build in 1980.",
+      "options": [
+        {
+          "text": "The bridge was built in 1980.",
+          "isCorrect": true
+        },
+        {
+          "text": "The bridge was building in 1980.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bridge did built in 1980.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После связки стоит начальная форма build — а нужна третья, built. Вариант с building превратил бы мост в того, кто строит сам, а did в пассиве не нужен вообще: всю служебную работу уже делает was."
+    }
+  ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
-  "categorization_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 37,
+      "taskDescription": "Перепиши предложение в страдательном залоге, не называя деятеля.",
+      "items": [
+        {
+          "original": "Someone cleaned the kitchen.",
+          "transformed": "The kitchen was cleaned."
+        },
+        {
+          "original": "They paint the walls every year.",
+          "transformed": "The walls are painted every year."
+        },
+        {
+          "original": "My sister took this photo.",
+          "transformed": "This photo was taken."
+        }
+      ],
+      "explanation": "Дополнение выходит вперёд и становится подлежащим, глагол превращается в связку плюс третью форму, деятель убирается. Время сохраняется: cleaned и took стояли в прошедшем, поэтому was; paint стоит в настоящем, а walls во множественном числе — значит are."
+    },
+    {
+      "id": 38,
+      "taskDescription": "Сделай предложение отрицательным.",
+      "items": [
+        {
+          "original": "The garden was cleaned in May.",
+          "transformed": "The garden wasn't cleaned in May."
+        },
+        {
+          "original": "These cars are made in Japan.",
+          "transformed": "These cars aren't made in Japan."
+        },
+        {
+          "original": "The money was found.",
+          "transformed": "The money wasn't found."
+        }
+      ],
+      "explanation": "Отрицание в пассиве строит связка: not встаёт сразу после неё, обычно в краткой форме — wasn't, aren't. Третья форма при этом не меняется, а помощник didn't не нужен."
+    }
+  ],
+  "categorization_exercises": [
+    {
+      "id": 57,
+      "taskDescription": "Распредели предложения по тому, чем в них строится вопрос.",
+      "categories": [
+        {
+          "title": "Нужен did",
+          "items": [
+            "Nick cleaned the car",
+            "They sold the house",
+            "Emma paid the bill"
+          ]
+        },
+        {
+          "title": "Работает связка",
+          "items": [
+            "The car was cleaned",
+            "The house was sold",
+            "The bill was paid"
+          ]
+        }
+      ],
+      "explanation": "Слева действительный залог: подлежащее действует само, и вопрос без помощника did не построить. Справа страдательный: в предложении уже есть связка was, и всю служебную работу делает она — Was the car cleaned?"
+    }
+  ],
   "find_the_odd_exercises": []
 }
