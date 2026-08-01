@@ -1532,21 +1532,26 @@ theory/
 │   │       Card 237): работу берёт be. The letter wasn't sent / Was the house built in 1990? +
 │   │       обязательный отрицательный вопрос по канону гайда: Wasn't it sent yesterday?
 │   │       Ловушка: Did the shop was closed? ✗ — рука тянет did по памяти из актива.
-│   ├── МТ96 · Three Faces of Was · Три лица одного was (1 карточка) ⭐ ГЛАВНАЯ КАРТОЧКА ТЕМЫ
-│   │   └── Card 276 · Разведение: He was tired (связка + прилагательное, описание) / The shop was
-│   │       closed (пассив, be + V3) / He was working (Past Continuous, be + V-ing). Принцип «что
-│   │       идёт после be → определяет роль» вводился в «Служебных глаголах» (Card 111) — здесь
-│   │       закрывается полностью, все три случая на руках. Ловушка: «was + глагол» читается как
-│   │       «был» → was went ✗, was felt ✗. Плюс пара was painting / was painted — ровно та, что
-│   │       анонсирована в Live Practice Past Continuous (МТ93 Card 270).
+│   ├── МТ96 · Three Faces of Was · Три лица одного was (2 карточки) ⭐ ГЛАВНАЯ КАРТОЧКА ТЕМЫ ✅ (написана, ALL GREEN 01.08.26)
+│   │   ├── Card 276 · Что стоит после be — то и решает. Разведение трёх конструкций: связка +
+│   │   │   прилагательное (описание, Tom was busy) / связка + V-ing (процесс, Tom was cooking) /
+│   │   │   связка + V3 (пассив, The soup was cooked). Принцип «что идёт после be → определяет
+│   │   │   роль» вводился в «Служебных глаголах» (Card 111) — здесь закрывается полностью, все
+│   │   │   три случая на руках. Плюс то же правило на is/are (She is quiet / reading / The door
+│   │   │   is locked): правило не про was, а про be вообще.
+│   │   └── Card 277 · Русское «был» и пара painting — painted. Ловушка «was + глагол в прошедшем»
+│   │       (was went ✗, was felt ✗) и её корень в русском «был»; повтор ловушки V2 после связки
+│   │       (was wrote ✗). Пара Nick was painting the door / The door was painted — ровно та, что
+│   │       анонсирована в Live Practice Past Continuous (МТ93 Card 270). Таблица-алгоритм «увидел
+│   │       связку → смотри на следующее слово» + строка-брак (was broke).
 │   └── МТ97 · Passive in Real Life · Пассив в жизни (2 карточки)
-│       ├── Card 277 · Фразы, которые ты уже слышал: I was told, I was invited, I am called Ivan,
+│       ├── Card 278 · Фразы, которые ты уже слышал: I was told, I was invited, I am called Ivan,
 │       │   I was asked to wait — русский говорит безлично, поэтому юзер лепит They told me вместо
 │       │   I was told. ⭐ СЮДА ЖЕ «I was born» (передано из Past Continuous 26.07.2026, прямое
 │       │   обещание в МТ92 Card 269): фраза ходовая до предела и при этом чистый пассив — «меня
 │       │   родили», отсюда was. Подать как «ага!»-момент («так вот почему там was»), а не строкой
 │       │   в списке. Ловушки: I born ✗ / I am born ✗ (рождение уже случилось — только прошедшее).
-│       └── Card 278 · Пассив вокруг тебя + что дальше. Вывески/упаковки/инструкции: Made in Italy,
+│       └── Card 279 · Пассив вокруг тебя + что дальше. Вывески/упаковки/инструкции: Made in Italy,
 │           No parking allowed, Tickets are sold here, Payment is required — ради ЭТОГО тема и стоит
 │           так рано (пассив нужен для ЧТЕНИЯ раньше, чем для речи). Плашка-анонс: get-passive
 │           (He got fired), тонкости by и пассив с модальными — в полной теме «Passive Voice»;
