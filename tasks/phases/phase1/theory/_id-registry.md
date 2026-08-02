@@ -7,23 +7,23 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 278 |
+| Card | 280 |
 | Categorization | 59 |
 | Category | 3 |
 | ConstructionMeaning | 21 |
-| DialogRestore | 23 |
-| ErrorCorrection | 105 |
-| FindTheOdd | 54 |
-| Matching | 39 |
-| Microtopic | 97 |
+| DialogRestore | 24 |
+| ErrorCorrection | 106 |
+| FindTheOdd | 55 |
+| Matching | 40 |
+| Microtopic | 98 |
 | MultipleChoice·CHOICE | 121 |
-| MultipleChoice·FORWARD_CHOICE | 144 |
-| MultipleChoice·REVERSE_CHOICE | 38 |
+| MultipleChoice·FORWARD_CHOICE | 145 |
+| MultipleChoice·REVERSE_CHOICE | 39 |
 | TableFill | 27 |
-| TextInput | 47 |
+| TextInput | 48 |
 | Topic | 17 |
 | Transformation | 39 |
-| TrueFalse | 126 |
+| TrueFalse | 127 |
 | WordArrangement | 109 |
 | course_word | 508 |
 
@@ -182,21 +182,22 @@
 - course_word: 389–394 (6)
 
 ### passive-basics
-- Card: 271–277 (7)
+- Card: 271–279 (9)
 - Categorization: 57–58 (2)
 - ConstructionMeaning: 20–20 (1)
-- DialogRestore: 22–22 (1)
-- ErrorCorrection: 103–104 (2)
-- FindTheOdd: 53–53 (1)
-- Microtopic: 94–96 (3)
+- DialogRestore: 22–23 (2)
+- ErrorCorrection: 103–105 (3)
+- FindTheOdd: 53–54 (2)
+- Matching: 39–39 (1)
+- Microtopic: 94–97 (4)
 - MultipleChoice·CHOICE: 119–120 (2)
-- MultipleChoice·FORWARD_CHOICE: 143–143 (1)
-- MultipleChoice·REVERSE_CHOICE: 37–37 (1)
+- MultipleChoice·FORWARD_CHOICE: 143–144 (2)
+- MultipleChoice·REVERSE_CHOICE: 37–38 (2)
 - TableFill: 26–26 (1)
-- TextInput: 46–46 (1)
+- TextInput: 46–47 (2)
 - Topic: 16–16 (1)
 - Transformation: 37–38 (2)
-- TrueFalse: 123–125 (3)
+- TrueFalse: 123–126 (4)
 - WordArrangement: 107–108 (2)
 
 ### past-continuous

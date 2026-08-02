@@ -1466,7 +1466,7 @@ theory/
 │   карточка `while` (`While I was cooking...`) закрепляется на свежем Past Continuous. Осознанно
 │   жертвуем темами перед будущим ради связной речи (future-early замысел в основном сохранён).
 │
-├── Passive (базовый) · Страдательный залог: be + V3  ← ДОБАВЛЕНО 23.07.2026, идёт ПОСЛЕ Past Continuous,
+├── Passive (базовый) · Страдательный залог: be + V3 ✅ ТЕМА НАПИСАНА  ← ДОБАВЛЕНО 23.07.2026, идёт ПОСЛЕ Past Continuous,
 │   ПЕРЕД Linking Words. Тема плоская (categoryId = null). Topic id=16, order=11, файл
 │   theory/11-passive-basics.md. Старт ID: Microtopic 94, Card 271 (сверить по _id-registry.md).
 │   ⚠️ ОБЪЁМ ПЕРЕСМОТРЕН 31.07.2026: было «1–2 микротемы / 4 карточки» → стало **4 микротемы /
@@ -1544,7 +1544,7 @@ theory/
 │   │       (was wrote ✗). Пара Nick was painting the door / The door was painted — ровно та, что
 │   │       анонсирована в Live Practice Past Continuous (МТ93 Card 270). Таблица-алгоритм «увидел
 │   │       связку → смотри на следующее слово» + строка-брак (was broke).
-│   └── МТ97 · Passive in Real Life · Пассив в жизни (2 карточки)
+│   └── МТ97 · Passive in Real Life · Пассив в жизни (2 карточки) ✅ (написана, ALL GREEN 01.08.26)
 │       ├── Card 278 · Фразы, которые ты уже слышал: I was told, I was invited, I am called Ivan,
 │       │   I was asked to wait — русский говорит безлично, поэтому юзер лепит They told me вместо
 │       │   I was told. ⭐ СЮДА ЖЕ «I was born» (передано из Past Continuous 26.07.2026, прямое
