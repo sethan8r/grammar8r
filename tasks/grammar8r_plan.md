@@ -1635,15 +1635,17 @@ theory/
 │   │       despite / in order to). Одно правило объясняет 80% ошибок темы; вводится ОДИН раз здесь,
 │   │       дальше микротемы только ссылаются на него.
 │   │
-│   ├── MT99 · Reason · Причина  (3 карточки)
+│   ├── MT99 · Reason · Причина  (3 карточки) ✅ (написана, ALL GREEN 02.08.26)
 │   │   ├── Card 282 · because — освежение (см. канон выше: коротко «причина, соединяет две части»)
 │   │   │   + НОВОЕ: запятой перед because в английском НЕТ (русский ставит машинально);
 │   │   │   «Because I was tired.» отдельным предложением — в ответе на Why? ✓, в письме ✗.
 │   │   ├── Card 283 · because of / due to + существительное — левая половина оси Card 281.
 │   │   │   Ловушка: because of it was raining ✗.
-│   │   └── Card 284 · since / as = «раз уж, поскольку» ⚠️ КАРТОЧКА-ЛОВУШКА: оба слова у юзера уже
-│   │       заняты другими смыслами (since «с тех пор» — Past Simple; as «как / такой же как» —
-│   │       Сравнение прилагательных). Разводим явно, старые значения — строкой-напоминанием.
+│   │   └── Card 284 · since / as = «раз уж, поскольку» ⚠️ КАРТОЧКА-ЛОВУШКА.
+│   │       ⚠️ УТОЧНЕНО 02.08.2026 по сидам: since — ПЕРВОЕ знакомство (значение «с тех пор» в курсе
+│   │       не давалось, оно придёт в Present Perfect — дать плашкой-превью). У as разводим не «как»,
+│   │       а реально пройденное: as … as («такой же, как» — Сравнение прилагательных), as well,
+│   │       such as (Основы) — старые значения строкой-напоминанием.
 │   │
 │   ├── MT100 · Result · Результат  (2 карточки)
 │   │   ├── Card 285 · so = «поэтому» ⚠️ ЭТО ПЕРВОЕ ЗНАКОМСТВО, не освежение: so было только слито
@@ -1719,14 +1721,20 @@ theory/
 │       ИИ прямым текстом запрещено тащить nevertheless, hence, thus, consequently — не давали.
 │       AI 1 «Свяжи две части» · AI 2 «Расскажи цепочку событий» · AI 3 «Найди неверную связку».
 │
-│   🔤 СЛИВ (~24 конструкции в категорию linking · Связная речь, course_word 508+):
-│      however · although · even though · whereas · therefore · as a result · due to · because of ·
-│      despite · in spite of · instead of · instead · moreover · furthermore · in addition · besides ·
-│      similarly · equally · finally · next · after that · in order to · so that · a while · once in a while
-│   🚫 В СЛИВ НЕ ИДУТ (уже в словаре курса — проверено): and · but · because · or · so · then ·
-│      while · meanwhile · when · before · also · too · as well · as well as · such as · as · since ·
-│      first · both · still · anyway · actually. Плюс the same as — уедет в «Слова описаний»
-│      из «Сравнительных конструкций», второй раз не сливаем.
+│   🔤 СЛИВ (~26 конструкций в категорию linking · Связная речь, course_word 508+):
+│      since · as · however · although · even though · whereas · therefore · as a result · due to ·
+│      because of · despite · in spite of · instead of · instead · moreover · furthermore ·
+│      in addition · besides · similarly · equally · finally · next · after that · in order to ·
+│      so that · a while · once in a while
+│   🚫 В СЛИВ НЕ ИДУТ (уже в словаре курса): and · but · because · or · so · then · while ·
+│      meanwhile · when · before · also · too · as well · as well as · such as · first · both ·
+│      still · anyway · actually. Плюс the same as — уедет в «Слова описаний» из «Сравнительных
+│      конструкций», второй раз не сливаем.
+│   ⚠️ ИСПРАВЛЕНО 02.08.2026 (сверено по сидам): since и as стояли в 🚫-списке ошибочно — в
+│      course_words их НЕТ. since не разобран нигде (3 вхождения в курсе, все — дистрактор в
+│      упражнении Past Simple), одиночного as в словаре нет (есть as well, as well as, such as и
+│      конструкция as … as из «Сравнения прилагательных»). Оба слиты в MT99 со значением причины;
+│      since «с тех пор» уйдёт вторым сливом в Present Perfect (другой смысл — не дубль).
 │
 │   🌱 КАТЕГОРИЯ `linking` РАСШИРЯЕТСЯ ДАЛЬШЕ ПО КУРСУ (пометки проставлены в самих темах):
 │      • So/Such и Too/Enough → so…that / such…that

@@ -16,6 +16,12 @@
       "topicId": 17,
       "title": "How Speech Sticks Together · Как речь склеивается",
       "order": 1
+    },
+    {
+      "id": 99,
+      "topicId": 17,
+      "title": "Reason · Причина",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -312,10 +318,463 @@
         "Почему despite being tired, а не despite was tired?",
         "because и because of — это одно слово или два разных?"
       ]
+    },
+    {
+      "id": 282,
+      "microtopicId": 99,
+      "title": "because: причина без запятой",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Слово `because` — «потому что» — мы уже встречали в «Основах»: оно приклеивает к сказанному объяснение, почему так вышло. Порода у него первая: после `because` идёт целая часть — есть кто и есть что он делает: **The shop was closed because the owner was ill.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это всё, что о нём говорилось раньше. Дальше начинается то, чего мы не говорили, — и это ровно то место, где русскоязычный спотыкается каждый раз."
+        },
+        {
+          "type": "heading",
+          "text": "Запятой перед because нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски перед «потому что» запятая обязательна, и ставит её рука, а не голова: «Магазин был закрыт `,` потому что хозяин заболел». Английский в этом месте не ставит ничего:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop was closed because the owner was ill.** ✓",
+            "**The shop was closed, because the owner was ill.** ✗"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему так. Русская запятая отбивает придаточное всегда, где бы оно ни стояло. Английская работает иначе: она отбивает не «придаточное вообще», а **кусок, который забежал вперёд главного**. Пока причина стоит на своём естественном месте — второй, — отбивать нечего."
+        },
+        {
+          "type": "heading",
+          "text": "А если причина идёт первой, запятая появляется"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причину можно вынести вперёд, чтобы её подчеркнуть. Вот тут английский запятую и требует: **Because the owner was ill, the shop was closed.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всё правило укладывается в одну картинку: причина стоит второй — запятой нет; причина вынесена вперёд — запятая есть. Один знак и ровно один случай."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рука дописывает запятую по русской привычке — **I called Nick, because I needed help** ✗. Верно — **I called Nick because I needed help** ✓. Проверка за секунду: если предложение начинается НЕ с `because`, запятой перед ним быть не должно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Because отдельным предложением"
+        },
+        {
+          "type": "paragraph",
+          "text": "В разговоре `because` спокойно начинает самостоятельную фразу — когда это ответ на вопрос «почему?»:"
+        },
+        {
+          "type": "paragraph",
+          "text": "— Why were you late? — **Because the train was late.** ✓"
+        },
+        {
+          "type": "paragraph",
+          "text": "Звучит естественно, и русский ведёт себя точно так же («— Почему опоздал? — Потому что поезд опоздал»). А вот в письменном тексте такой обрубок выглядит ошибкой."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В письме причина не живёт отдельным предложением — **I didn't come. Because I was tired.** ✗. Её нужно приклеить к тому, что она объясняет: **I didn't come because I was tired.** ✓ В разговоре обрубок допустим только как прямой ответ на вопрос, в тексте — никогда."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`because` — «потому что», после него идёт целая часть (подлежащее плюс сказуемое). Главное отличие от русского — **запятая**: по-русски перед «потому что» она обязательна, по-английски перед `because` её нет — **I called Nick because I needed help** ✓. Запятая появляется только в одном случае: когда причину вынесли ВПЕРЁД главного — **Because the owner was ill, the shop was closed.** Проверка: предложение начинается не с `because` → запятой перед ним нет. Отдельным предложением `because` живёт только как устный ответ на вопрос «почему?» — в письменном тексте причину приклеивают к главной части.",
+      "examples": [
+        {
+          "ru": "Магазин был закрыт, потому что хозяин заболел.",
+          "en": "The shop was closed because the owner was ill."
+        },
+        {
+          "ru": "Так как хозяин заболел, магазин был закрыт.",
+          "en": "Because the owner was ill, the shop was closed."
+        },
+        {
+          "ru": "Я позвонил Нику, потому что мне нужна была помощь.",
+          "en": "I called Nick because I needed help."
+        },
+        {
+          "ru": "— Почему ты опоздал? — Потому что поезд опоздал.",
+          "en": "— Why were you late? — Because the train was late."
+        },
+        {
+          "ru": "Я не пришёл, потому что устал.",
+          "en": "I didn't come because I was tired."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему по-русски перед «потому что» запятая нужна, а перед because нет?",
+        "Когда причину лучше выносить вперёд, а когда оставлять второй?",
+        "Можно ли начинать предложение с Because в письме, если очень хочется?"
+      ]
+    },
+    {
+      "id": 283,
+      "microtopicId": 99,
+      "title": "because of и due to: причина одним куском",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`because` — «потому что» — держит после себя целую часть: **We stayed home because it was raining.** Но причину не всегда хочется разворачивать в отдельную мысль. Часто её удобно назвать одним словом — «из-за дождя», «из-за пробок», «из-за шума». Для этого у английского есть вторая упаковка."
+        },
+        {
+          "type": "heading",
+          "text": "because of + вещь"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскому «из-за» соответствует `because of` — и после него идёт вещь: существительное или действие в форме на `-ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The match was cancelled because of the rain.**",
+            "**I missed the train because of waking up late.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание: по-русски «из-за» — одно слово, по-английски `because of` — два, но это **одна неделимая связка**. Разорвать её или выбросить `of` нельзя."
+        },
+        {
+          "type": "heading",
+          "text": "due to — тот же смысл, другой ярус"
+        },
+        {
+          "type": "paragraph",
+          "text": "`due to` значит ровно то же самое, но звучит официальнее. Его место — объявления, табло в аэропорту, деловая переписка, новости:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The flight is delayed due to bad weather.**",
+            "**The delay was due to snow.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая фраза показывает любимую позицию `due to` — сразу после связки `be`. В разговоре с приятелем оно прозвучит слишком казённо: там живёт `because of`."
+        },
+        {
+          "type": "heading",
+          "text": "Одна причина — две упаковки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл у обеих связок один, разное только то, что стоит после:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что после связки",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "целая часть",
+              "The match was cancelled because it was raining."
+            ],
+            [
+              "вещь",
+              "The match was cancelled because of the rain."
+            ],
+            [
+              "вещь, официально",
+              "The match was cancelled due to heavy rain."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая частая ошибка всей темы — накормить `because of` целой частью: **The match was cancelled because of it was raining** ✗. Русский её не чувствует, потому что «потому что шёл дождь» и «из-за дождя» лежат в голове рядом. Выхода два, и оба правильные: **because it was raining** ✓ (часть) или **because of the rain** ✓ (вещь). Работает и в обратную сторону: **We stayed home because the noise** ✗ — тут вещь, значит нужно `because of the noise`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «из-за» тянет к плохому, а для хорошего у нас есть «благодаря» — «из-за дождя» против «благодаря Лене». У английского `because of` такого деления нет: оно спокойно вводит и беду, и удачу — **We won because of Lena** значит именно «благодаря Лене»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`because of` — русское «из-за»: после него идёт вещь, то есть существительное или действие в форме на `-ing` (**because of the rain**, **because of waking up late**). Это одна неделимая связка из двух слов, `of` не выбрасывается. `due to` значит то же самое, но принадлежит формальному ярусу — объявления, табло, деловые тексты, часто сразу после `be` (**The delay was due to snow**). Одна и та же причина упаковывается двумя способами: **because it was raining** (целая часть) = **because of the rain** (вещь). Главная ошибка — дать `because of` целую часть: **because of it was raining** ✗.",
+      "examples": [
+        {
+          "ru": "Матч отменили из-за дождя.",
+          "en": "The match was cancelled because of the rain."
+        },
+        {
+          "ru": "Я опоздал на поезд из-за того, что проспал.",
+          "en": "I missed the train because of waking up late."
+        },
+        {
+          "ru": "Рейс задерживают из-за плохой погоды.",
+          "en": "The flight is delayed due to bad weather."
+        },
+        {
+          "ru": "Задержка была из-за снега.",
+          "en": "The delay was due to snow."
+        },
+        {
+          "ru": "Мы выиграли благодаря Лене.",
+          "en": "We won because of Lena."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать because of it was raining, ведь смысл понятен?",
+        "Чем due to отличается от because of, если переводятся они одинаково?",
+        "Как превратить целую часть в вещь, если там глагол?"
+      ]
+    },
+    {
+      "id": 284,
+      "microtopicId": 99,
+      "title": "since и as: причина, которая и так известна",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Причину можно ввести не только словом `because` («потому что»), которое подаёт её как новость и отвечает на вопрос «почему?». Есть ещё два слова — `since` и `as`. Они значат примерно то же самое, но с другим оттенком: причина в них подаётся как **уже известная** собеседнику или как второстепенная, попутная."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски это «раз уж», «поскольку», «так как»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Since the shop was closed, we went to the market.**",
+            "**As Vera had no car, she took the bus.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порода у обоих первая — после них идёт целая часть с подлежащим и глаголом, как после `because`. А значит, привычная ошибка сюда тоже добирается: **since the rain** ✗ — вещь эти связки не держат, для вещи есть `because of`."
+        },
+        {
+          "type": "heading",
+          "text": "Где они обычно стоят"
+        },
+        {
+          "type": "paragraph",
+          "text": "`since` и `as` любят начало предложения — именно потому, что вводят фон, а не новость: сначала «раз уж дело обстоит так», а потом главное. `because` наоборот чаще стоит вторым, ведь он и есть главная информация. Не запрет, а сильная привычка языка."
+        },
+        {
+          "type": "paragraph",
+          "text": "`as` при этом звучит чуть книжнее: в разговоре его меньше, в статьях и деловых письмах — заметно больше."
+        },
+        {
+          "type": "heading",
+          "text": "На вопрос «почему?» отвечает только because"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот здесь разница из оттенка превращается в правило. Если собеседник прямо спросил `Why?`, он ждёт причину как новость — значит, нужен `because`:"
+        },
+        {
+          "type": "paragraph",
+          "text": "— Why did you sell the car? — **Because it was too expensive to keep.** ✓"
+        },
+        {
+          "type": "paragraph",
+          "text": "— Why did you sell the car? — **Since it was too expensive to keep.** ✗"
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй вариант звучит странно ровно потому, что `since` подаёт причину как «мы оба и так это знаем» — а человек только что признался, что не знает."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Слово `as` у нас уже занято тремя работами, и все три — не про причину: `as … as` — равенство (**She is as tall as her brother**), `as well` — «тоже», `such as` — «например». Здесь у него четвёртая работа, и отличить её легко по тому, что идёт следом: за причинным `as` стоит **целая часть** с подлежащим и глаголом, а не второй кусок сравнения и не список примеров."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `since` тоже есть второе значение — «с тех пор», про время, а не про причину. Мы его ещё не проходили: оно работает в паре с временем Present Perfect, до которого дойдём позже. Пока достаточно знать, что такое значение существует, — а в этой теме `since` для нас только «раз уж»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`since` и `as` — «раз уж, поскольку»: вводят причину, которая собеседнику уже известна или идёт фоном, и обычно стоят в начале предложения (**Since the shop was closed, we went to the market**). Порода у них первая, как у `because`: после них целая часть, а не вещь — **since the rain** ✗. Ключевое отличие: на прямой вопрос `Why?` отвечают только через `because`, потому что там причина — новость. `as` звучит чуть формальнее `since`. Не путать с уже знакомыми работами `as`: равенство `as … as`, `as well` («тоже»), `such as` («например») — у причинного `as` после себя всегда подлежащее с глаголом. У `since` есть и второе значение, «с тех пор», — оно придёт вместе с Present Perfect.",
+      "examples": [
+        {
+          "ru": "Раз магазин был закрыт, мы пошли на рынок.",
+          "en": "Since the shop was closed, we went to the market."
+        },
+        {
+          "ru": "Так как у Веры не было машины, она поехала на автобусе.",
+          "en": "As Vera had no car, she took the bus."
+        },
+        {
+          "ru": "Раз уж было воскресенье, банк не работал.",
+          "en": "Since it was Sunday, the bank was closed."
+        },
+        {
+          "ru": "— Почему ты продал машину? — Потому что содержать её было слишком дорого.",
+          "en": "— Why did you sell the car? — Because it was too expensive to keep."
+        },
+        {
+          "ru": "Так как денег у Ника не было, он пошёл домой пешком.",
+          "en": "As Nick had no money, he walked home."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем since отличается от because, если оба переводятся «потому что»?",
+        "Как понять, что as в предложении означает причину, а не сравнение?",
+        "Почему на вопрос Why нельзя ответить через since?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 282,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 121,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 282,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 127,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 282,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 39,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 282,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 109,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 283,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 145,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 283,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 59,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 283,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 106,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 283,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 48,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 284,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 122,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 284,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 55,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 284,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 128,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 284,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 110,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "linking_card282_ex1",
+      "cardId": 282,
+      "title": "Склей причину",
+      "userInstruction": "ИИ пришлёт две отдельные фразы. Составьте из них ДВА предложения: в первом причина стоит в конце, во втором — в начале.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "linking_card283_ex1",
+      "cardId": 283,
+      "title": "Переупакуй причину",
+      "userInstruction": "ИИ пришлёт предложение с причиной. Перепишите его так, чтобы причина была упакована по-другому.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "linking_card284_ex1",
+      "cardId": 284,
+      "title": "Выбери связку причины",
+      "userInstruction": "Вставьте в каждое предложение подходящую связку причины.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "linking",
@@ -332,17 +791,332 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 508,
+      "word": "because of",
+      "translation": "из-за",
+      "transcription": "[bɪˈkɒz əv]",
+      "microtopicId": 99,
+      "categoryId": "linking"
+    },
+    {
+      "id": 509,
+      "word": "due to",
+      "translation": "из-за, вследствие",
+      "transcription": "[ˈdjuː tuː]",
+      "microtopicId": 99,
+      "categoryId": "linking"
+    },
+    {
+      "id": 510,
+      "word": "since",
+      "translation": "поскольку, раз уж",
+      "transcription": "[sɪns]",
+      "microtopicId": 99,
+      "categoryId": "linking"
+    },
+    {
+      "id": 511,
+      "word": "as",
+      "translation": "поскольку, так как",
+      "transcription": "[æz]",
+      "microtopicId": 99,
+      "categoryId": "linking"
+    }
+  ],
   "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 127,
+      "statements": [
+        {
+          "en": "We went home because it was already dark.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Because the bus broke down, Nick missed his lesson.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Kate opened the window, because the room was hot.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Because the road was icy the driver went slowly.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Oleg took the job because the office was near his flat.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 3: причина стоит второй, поэтому запятая перед because лишняя. Строка 4: наоборот — причина вынесена вперёд, и после неё запятая обязательна. Строки 1, 2 и 5 расставлены верно: без запятой, когда причина вторая, и с запятой, когда она первая."
+    },
+    {
+      "id": 128,
+      "statements": [
+        {
+          "en": "Since the lift was broken, we walked up.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Since the heavy rain, the game was cancelled.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "As Sara knew the city well, she found the hotel fast.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Why are you at home? Since I feel sick.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Since it was my birthday, the girls made a cake.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: since держит целую часть, а тут после него вещь — нужно because of the heavy rain. Строка 4: на прямой вопрос отвечают через because, since подаёт причину как уже известную. В строках 1, 3 и 5 после связки идёт подлежащее с глаголом, и причина подана фоном — всё верно."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 109,
+      "situationRu": "Ситуация: Ты объясняешь, почему пропустил встречу.",
+      "correctSentence": "I missed the meeting because my phone died.",
+      "words": [
+        "I missed",
+        "the meeting",
+        "because",
+        "my phone",
+        "died"
+      ],
+      "distractors": [
+        "because of",
+        "so",
+        "dies",
+        "but"
+      ],
+      "explanation": "Причина здесь — целая часть с подлежащим и глаголом (my phone died), а такую часть держит только because. Because of взяло бы после себя вещь, so развернуло бы логику на результат, а dies — форма настоящего времени, встреча же уже прошла."
+    },
+    {
+      "id": 110,
+      "situationRu": "Ситуация: Ты объясняешь, что поехал на такси, и упоминаешь закрытое метро как известный факт.",
+      "correctSentence": "Since the metro was closed, I took a taxi.",
+      "words": [
+        "Since",
+        "the metro",
+        "was closed",
+        "I took",
+        "a taxi"
+      ],
+      "distractors": [
+        "because of",
+        "as well",
+        "so"
+      ],
+      "explanation": "Закрытое метро подано как известный фон, поэтому связка since, и стоит она в начале. Дальше идёт целая часть the metro was closed, поэтому because of не подходит; as well значит «тоже», а so развернуло бы фразу на результат."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 121,
+      "choiceType": "CHOICE",
+      "prompt": "Lena stayed at home ___ she felt sick.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "but",
+          "isCorrect": false
+        },
+        {
+          "text": "because",
+          "isCorrect": true
+        },
+        {
+          "text": "so",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вторая часть объясняет причину первой, а причину вводит because. Слово so сказало бы обратное — «заболела, поэтому осталась дома» звучало бы наоборот: сначала причина, потом результат. But вводит противопоставление, а тут его нет."
+    },
+    {
+      "id": 145,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Концерт отменили из-за сильного ветра.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The concert was cancelled because of the strong wind.",
+          "isCorrect": true
+        },
+        {
+          "text": "The concert was cancelled because of the wind was strong.",
+          "isCorrect": false
+        },
+        {
+          "text": "The concert was cancelled because the strong wind.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После because of идёт вещь — the strong wind. Второй вариант накормил because of целой частью, третий сделал наоборот: дал because вещь вместо части. Обе связки требуют своего."
+    },
+    {
+      "id": 122,
+      "choiceType": "CHOICE",
+      "prompt": "— Why is the office empty? — ___ everyone is at lunch.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Since",
+          "isCorrect": false
+        },
+        {
+          "text": "Because",
+          "isCorrect": true
+        },
+        {
+          "text": "As",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Собеседник спросил «почему?», то есть причина для него новость. Такую причину вводит только because. Since и as подали бы её как уже известную обоим — после прямого вопроса это звучит странно."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 48,
+      "items": [
+        {
+          "sentence": "The concert was cancelled ___ heavy rain.",
+          "contextRu": "",
+          "answer": "because of",
+          "alternatives": [
+            "due to"
+          ]
+        },
+        {
+          "sentence": "We took a taxi ___ we were already late.",
+          "contextRu": "",
+          "answer": "because",
+          "alternatives": []
+        },
+        {
+          "sentence": "Igor felt tired ___ working all night.",
+          "contextRu": "",
+          "answer": "because of",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом и третьем пунктах после пропуска стоит вещь — heavy rain и working all night, значит нужна связка на вещь. Во втором идёт целая часть we were already late, а её держит только because."
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 106,
+      "wrongSentence": "The road was closed because of the snow was heavy.",
+      "options": [
+        {
+          "text": "The road was closed because of the snow was heavy yesterday.",
+          "isCorrect": false
+        },
+        {
+          "text": "The road was closed because the heavy snow.",
+          "isCorrect": false
+        },
+        {
+          "text": "The road was closed because of the heavy snow.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "После because of должна стоять вещь, а в условии за ним идёт целая часть the snow was heavy. Верный ход — свернуть часть в вещь: the heavy snow. Вариант с because плюс вещь ломает предложение с другой стороны, а добавленное yesterday ошибку не убирает."
+    }
+  ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
-  "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "transformation_exercises": [
+    {
+      "id": 39,
+      "taskDescription": "Перепиши предложение так, чтобы причина стояла первой.",
+      "items": [
+        {
+          "original": "We left early because it rained.",
+          "transformed": "Because it rained, we left early."
+        },
+        {
+          "original": "Tom left early because he was tired.",
+          "transformed": "Because he was tired, Tom left early."
+        },
+        {
+          "original": "The café closed because it was late.",
+          "transformed": "Because it was late, the café closed."
+        }
+      ],
+      "explanation": "Часть с because целиком переезжает в начало, главная часть идёт после неё — и на стыке появляется запятая, которой в исходном варианте не было. Внутри самой части ничего не меняется: порядок слов там прежний."
+    }
+  ],
+  "categorization_exercises": [
+    {
+      "id": 59,
+      "taskDescription": "Распредели хвосты по тому, к какой связке они подходят.",
+      "categories": [
+        {
+          "title": "После because",
+          "items": [
+            "the bus was late",
+            "she felt sick",
+            "he lost the keys",
+            "the lift was broken"
+          ]
+        },
+        {
+          "title": "После because of",
+          "items": [
+            "bad weather",
+            "the noise",
+            "waking up late",
+            "the snow"
+          ]
+        }
+      ],
+      "explanation": "После because идёт целая часть — там есть подлежащее и свой глагол (the bus was late, she felt sick). После because of идёт вещь: существительное (bad weather, the noise) или действие в форме на -ing (waking up late). Глагол в хвосте — верный признак того, что нужна первая связка."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 55,
+      "groupDescription": "В трёх предложениях as вводит причину. Найди лишнее",
+      "items": [
+        {
+          "text": "As it was late, we took a taxi.",
+          "isOdd": false
+        },
+        {
+          "text": "As the shop was closed, Vera went home.",
+          "isOdd": false
+        },
+        {
+          "text": "This box is as heavy as the other one.",
+          "isOdd": true
+        },
+        {
+          "text": "As I have no car, I go to work by bus.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В лишнем предложении as работает в паре с самим собой — конструкция as … as означает равенство, «такой же тяжёлый, как». В остальных трёх после as идёт целая часть с подлежащим и глаголом, и это причина."
+    }
+  ]
 }
