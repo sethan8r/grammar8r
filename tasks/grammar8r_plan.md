@@ -1626,7 +1626,7 @@ theory/
 │      Simple, все три формы); в хвост (61+) не лезть, как в базовом Passive.
 │
 │   ├── MT98 · How Speech Sticks Together · Как речь склеивается  (2 карточки, концепт-интро,
-│   │   │   БЕЗ упражнений и AI — по образцу MT94 Passive)
+│   │   │   БЕЗ упражнений и AI — по образцу MT94 Passive) ✅ (написана, ALL GREEN 02.08.26)
 │   │   ├── Card 280 · Русский склеивает речь падежами, деепричастиями и свободным порядком
 │   │   │   («Устав, я ушёл») — английский ставит служебное слово на стык. Без него две мысли
 │   │   │   просто стоят рядом и не связаны.
@@ -1660,41 +1660,49 @@ theory/
 │   │   │   начале предложения в речи норм, в письме нежелательно — вот чем заменить.
 │   │   └── Card 289 · although / even though / whereas + целая часть (правая половина оси Card 281).
 │   │
-│   ├── MT102 · Despite / In spite of  (2 карточки)
-│   │   ├── Card 290 · + существительное / -ing. Ловушка: despite he was tired ✗.
-│   │   └── Card 291 · although ↔ despite — одна мысль, две упаковки; переписывание туда-обратно.
+│   ├── MT102 · Despite / Instead · Вопреки и вместо  (3 карточки)
+│   │   ├── Card 290 · despite / in spite of + существительное / -ing. Ловушка: despite he was tired ✗.
+│   │   ├── Card 291 · although ↔ despite — одна мысль, две упаковки; переписывание туда-обратно.
+│   │   └── Card 292 · instead of / instead ⚠️ ПЕРВОЕ ЗНАКОМСТВО (слова в курсе не было ни разу).
+│   │       instead of + существительное / -ing — та же порода, что despite (ось Card 281, правило
+│   │       заново НЕ выводить, только ссылка). Ловушка: instead без of дополнения не берёт —
+│   │       instead of tea ✓ / instead tea ✗ (русский говорит «вместо» одним словом в обоих случаях).
+│   │       instead наречием в хвосте: «I didn't take a taxi. I walked instead.»
+│   │       ⭐ РАДИ ЭТОЙ ПАРЫ КАРТОЧКА СТОИТ ИМЕННО ЗДЕСЬ: despite ↔ instead of грамматически
+│   │       близнецы (оба + noun/-ing), а смысл противоположный — «несмотря на» (действие ВСЁ РАВНО
+│   │       было) ↔ «вместо» (действия не было, было другое).
 │   │
 │   ├── MT103 · Three Lives of While · Три жизни одного while  (2 карточки) ⭐ ГЛАВНАЯ КАРТОЧКА ТЕМЫ
-│   │   ├── Card 292 · while-время ↔ while-уступка. ⚠️ Время — НЕ знакомство: слово слито в Past
+│   │   ├── Card 293 · while-время ↔ while-уступка. ⚠️ Время — НЕ знакомство: слово слито в Past
 │   │   │   Continuous и там же есть таблица «while vs when», здесь только строка-опора «ты это уже
 │   │   │   видел». Новое — уступка: формальная замена although («While I agree with you…»).
-│   │   └── Card 293 · a while — существительное, другая часть речи! Wait a while ✓ / Wait while ✗.
+│   │   └── Card 294 · a while — существительное, другая часть речи! Wait a while ✓ / Wait while ✗.
 │   │       for a while (длительность) ↔ in a while (момент в будущем), once in a while.
 │   │       ⚠️ «It's been a while!» — ЗАСТЫВШАЯ фраза-приветствие («давно не виделись!») + краткое
 │   │       «почему так»: внутри Present Perfect (it has been), тема ещё не пройдена — разберём там.
 │   │       Конвенция превью — как used to / would like (Card 140).
 │   │
 │   ├── MT104 · Addition · Добавление  (2 карточки)
-│   │   ├── Card 294 · ⚠️ НЕ ПЕРЕСКАЗ Основ Card 62 (там разбор ПОЛНЫЙ — см. канон освежения).
+│   │   ├── Card 295 · ⚠️ НЕ ПЕРЕСКАЗ Основ Card 62 (там разбор ПОЛНЫЙ — см. канон освежения).
 │   │   │   Здесь ТОЛЬКО недосказанное: too = «слишком» — второе значение одного слова, различается
 │   │   │   позицией (I like tea, too / It's too hot), готовит тему So/Such и Too/Enough · Me neither —
 │   │   │   отрицательная пара к Me too (согласиться с отрицанием юзер сейчас не умеет) · Also,
 │   │   │   в начале предложения — переход к формальному ярусу.
-│   │   └── Card 295 · moreover / furthermore / in addition / besides + similarly / equally.
+│   │   └── Card 296 · moreover / furthermore / in addition / besides + similarly / equally.
 │   │       Сюда же also vs the same: «Я тоже так думаю» (добавляю СЕБЯ) ↔ «Я думаю так же»
 │   │       (совпадает СОДЕРЖАНИЕ мысли) — ошибка «I think also». ⚠️ Только разведение СМЫСЛА;
 │   │       механика конструкции the same as (+ ловушка the same like ✗) — в «Сравнительных
 │   │       конструкциях», сюда не переписывать и в слив не брать.
 │   │
 │   ├── MT105 · Narrative · Рассказ по порядку  (2 карточки)
-│   │   ├── Card 296 · first → then → and then → after that → next → finally.
+│   │   ├── Card 297 · first → then → and then → after that → next → finally.
 │   │   │   ⚠️ and then = «и тут / и потом» (следующее событие во времени), НЕ «и там».
-│   │   └── Card 297 · связки в живом рассказе — собираем цепочку событий на Past Simple /
+│   │   └── Card 298 · связки в живом рассказе — собираем цепочку событий на Past Simple /
 │   │       Past Continuous (всё пройдено, лексика из накопленного словаря).
 │   │
 │   ├── MT106 · Purpose · Цель  (2 карточки)
-│   │   ├── Card 298 · to + V1 (нейтрально, самый простой) / in order to (формальнее, акцент на цели).
-│   │   └── Card 299 · so that + подлежащее + глагол — когда у цели СВОЙ субъект.
+│   │   ├── Card 299 · to + V1 (нейтрально, самый простой) / in order to (формальнее, акцент на цели).
+│   │   └── Card 300 · so that + подлежащее + глагол — когда у цели СВОЙ субъект.
 │   │       «I called her to talk» (говорю я) ↔ «I called her so that she could hear» (слышит она).
 │   │       Ловушка: so здесь союз цели, не «так».
 │   │       ⚠️ could ещё НЕ пройден (Основы MT21 дали только can, Модальные — в конце курса):
@@ -1702,18 +1710,19 @@ theory/
 │   │       Past-пара только что пройдена, форма встаёт органично; разбор — в «Модальных глаголах».
 │   │
 │   └── MT107 · Live Practice · Связная речь с ИИ  (1 карточка, 3 AI, Words Source GENERAL, FREE_WRITE)
-│       Card 300 · Theory + Summary + Clarification, БЕЗ Examples и хардкод-упражнений.
+│       Card 301 · Theory + Summary + Clarification, БЕЗ Examples и хардкод-упражнений.
 │       ⚠️ ПОЧЕМУ КАПСТОУН ЗДЕСЬ, хотя канон «финальной AI-микротемы» писался под времена: выбор
 │       связки проверяется ТОЛЬКО на связном тексте, хардкодом это не ловится в принципе.
 │       ⚠️⚠️ ОТЛИЧИЕ ОТ КАПСТОУНОВ ВРЕМЁН: в промт зашивается ЯВНЫЙ ИНВЕНТАРЬ темы по ярусам
-│       (причина / результат / противопоставление / despite / while / добавление / нарратив / цель).
+│       (причина / результат / противопоставление / despite и instead of / while / добавление /
+│       нарратив / цель).
 │       ИИ прямым текстом запрещено тащить nevertheless, hence, thus, consequently — не давали.
 │       AI 1 «Свяжи две части» · AI 2 «Расскажи цепочку событий» · AI 3 «Найди неверную связку».
 │
-│   🔤 СЛИВ (~22 конструкции в категорию linking · Связная речь, course_word 508+):
+│   🔤 СЛИВ (~24 конструкции в категорию linking · Связная речь, course_word 508+):
 │      however · although · even though · whereas · therefore · as a result · due to · because of ·
-│      despite · in spite of · moreover · furthermore · in addition · besides · similarly · equally ·
-│      finally · next · after that · in order to · so that · a while · once in a while
+│      despite · in spite of · instead of · instead · moreover · furthermore · in addition · besides ·
+│      similarly · equally · finally · next · after that · in order to · so that · a while · once in a while
 │   🚫 В СЛИВ НЕ ИДУТ (уже в словаре курса — проверено): and · but · because · or · so · then ·
 │      while · meanwhile · when · before · also · too · as well · as well as · such as · as · since ·
 │      first · both · still · anyway · actually. Плюс the same as — уедет в «Слова описаний»
@@ -1722,7 +1731,7 @@ theory/
 │   🌱 КАТЕГОРИЯ `linking` РАСШИРЯЕТСЯ ДАЛЬШЕ ПО КУРСУ (пометки проставлены в самих темах):
 │      • So/Such и Too/Enough → so…that / such…that
 │      • Conditionals → unless / as long as / provided that / even if / in case
-│      • Дополнительные конструкции → rather than / instead of
+│      • Дополнительные конструкции → rather than (instead of слит уже здесь, MT102 Card 292)
 │      ГРАНИЦА с `Fixed Expressions` (§21 «Устойчивые выражения»): в `linking` идёт то, что
 │      ГРАММАТИЧЕСКИ соединяет две части и меняет структуру (although, so that, unless);
 │      в `Fixed Expressions` — готовый речевой блок-вставка, который ничего не соединяет
@@ -1859,7 +1868,7 @@ theory/
 │   │   в Present Perfect». Значит здесь обязаны раскрыть: already (I've already done it), yet в
 │   │   отрицании/вопросе (I haven't done it yet / Have you done it yet?), позиция already между
 │   │   have и V3. Не забыть — это обещано пользователю.
-│   │   ⚠️ ВТОРОЙ ДОЛГ (обещано 02.08.2026, Linking Words MT103 Card 293): фраза-приветствие
+│   │   ⚠️ ВТОРОЙ ДОЛГ (обещано 02.08.2026, Linking Words MT103 Card 294): фраза-приветствие
 │   │   «It's been a while!» дана там как ЗАСТЫВШАЯ формула с плашкой «внутри спряталось время,
 │   │   которое мы ещё не проходили — разберём в Present Perfect». Здесь обязаны вернуться и
 │   │   показать разбор: it has been = «прошло [с тех пор, как виделись]». Дать как «ага!»-момент.
@@ -1936,7 +1945,7 @@ theory/
 │   ⚠️ УЖЕ ДАНО В Linking Words — НЕ ОБЪЯСНЯТЬ ЗАНОВО, только строка-опора:
 │      • so = «поэтому» (союз результата) и разведение so-результат ↔ so-«настолько» — MT100 Card 285.
 │        Здесь so…that — прямое продолжение: там «поэтому», здесь «настолько…что».
-│      • too = «слишком» как второе значение слова «тоже» (позиция решает) — MT104 Card 294.
+│      • too = «слишком» как второе значение слова «тоже» (позиция решает) — MT104 Card 295.
 │        Здесь конструкция too + adj + to + V1, а не знакомство со словом.
 │
 ├── Past Perfect
@@ -2090,7 +2099,7 @@ theory/
 │      Can you → Could you → I was wondering if you could, и что речь при этом про НАСТОЯЩЕЕ.
 │   ├── Что такое модальный глагол — не спрягается, всегда + V1 без to
 │   ├── can / could — способность и вежливая просьба
-│   │   ⚠️ ЕЩЁ ОДИН ДОЛГ (обещано 02.08.2026, Linking Words MT106 Card 299): в карточке «Цель»
+│   │   ⚠️ ЕЩЁ ОДИН ДОЛГ (обещано 02.08.2026, Linking Words MT106 Card 300): в карточке «Цель»
 │   │   в примерах so that … could («so that she could hear») could выдан ПРЕВЬЮ-строкой с кратким
 │   │   «это прошедшая форма can, подробно — в Модальных». Здесь обещание закрыть.
 │   ├── may / might — разрешение и вероятность
@@ -2472,9 +2481,14 @@ theory/
 │   │   would rather + V1, prefer + V-ing / to, rather than как противопоставление,
 │   │   had better + V1 (предупреждение). Частые ловушки: "I'd rather to go" (ошибка)
 │   │   🔤 СЛИВ → категория `linking` · Связная речь (СОЗДАНА в теме Linking Words, новую НЕ
-│   │      заводить): rather than · instead of — они соединяют/противопоставляют две части,
-│   │      а не описывают предпочтение как таковое. Остальное темы (would rather, prefer,
-│   │      had better) — по своим категориям, как и было.
+│   │      заводить): rather than — оно соединяет/противопоставляет две части, а не описывает
+│   │      предпочтение как таковое. Остальное темы (would rather, prefer, had better) — по
+│   │      своим категориям, как и было.
+│   │      ⬅️ instead of — УЖЕ ДАНО и УЖЕ СЛИТО в Linking Words (MT102 Card 292, решение 02.08.2026):
+│   │      разобрана порода (+ noun/-ing), ловушка «instead tea ✗» и instead наречием в хвосте,
+│   │      разведение с despite. Второй раз НЕ объяснять и НЕ сливать — только строка-опора.
+│   │      ГРАНИЦА: там instead of в роли ЗАМЕНЫ («вместо этого сделали другое»), здесь — пара
+│   │      к rather than в роли ПРЕДПОЧТЕНИЯ («лучше это, чем то»).
 │   ├── ⚠️ ПЕРЕНЕСЕНО (июнь 2026): «Герундий после глагола» — теперь отдельная тема сразу
 │   │   после Make vs Do (см. выше). Здесь не пишется.
 │   ├── ⚠️ ПЕРЕНЕСЕНО (июнь 2026): «Сравнение прилагательных» — теперь отдельная тема перед
@@ -2487,7 +2501,7 @@ theory/
 │   │   as...as — равное сравнение: "She's as tall as her brother", "not as fast as I thought"
 │   │   just like — точное сравнение/подобие: "He talks just like his father"
 │   │   the same as — тождество: "This is the same mistake as before"
-│   │   ⚠️ В «Linking Words» (MT104 Card 295) дано ТОЛЬКО разведение смысла «Я тоже так думаю»
+│   │   ⚠️ В «Linking Words» (MT104 Card 296) дано ТОЛЬКО разведение смысла «Я тоже так думаю»
 │   │      (I also think so — добавляю себя) ↔ «Я думаю так же» (I think the same — совпадает
 │   │      содержание мысли). Механика конструкции и ловушка «the same like» ✗ — здесь, и слив
 │   │      слова тоже здесь (в «Слова описаний»). В `linking` его НЕ сливали — дубля нет.
@@ -2613,7 +2627,7 @@ theory/
 │   ├── Question Tags — "You're coming, aren't you?" правило вспомогательного глагола "You're not English, are you?"
 │   ├── So / Neither / Either в ответах — "So do I", "Neither do I"
 │   │   ⬅️ УЖЕ ДАНО: `Me too` — Основы Card 62, `Me neither` (отрицательная пара) — Linking Words
-│   │   MT104 Card 294. Здесь НЕ знакомство, а расширение до полной формулы со вспомогательным
+│   │   MT104 Card 295. Здесь НЕ знакомство, а расширение до полной формулы со вспомогательным
 │   │   глаголом: So do I / Neither do I / Neither have I. Короткие формы — строкой-опорой.
 │   ├── upon — пассивное узнавание: "upon arrival", "once upon a time", "upon reflection"
 │   ├── Прилагательные на -ing/-ed — boring/bored, interesting/interested, exciting/excited
