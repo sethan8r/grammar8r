@@ -2414,11 +2414,32 @@ theory/
 │   ├── Тема: Косяки, правда, ложь  (после MVP)
 │   │   ├── МТ: Ошибся / сломалось
 │   │   │   ├── Card · Накосячил — I messed up / I screwed up / my bad
+│   │   │   │   + существительное a screw-up = сам косяк ("That was a big screw-up") и человек-
+│   │   │   │   растяпа ("He's a total screw-up"). ⚠️ Через дефис как СУЩ., раздельно как ГЛАГОЛ:
+│   │   │   │   "I screwed up" ✓ (действие) / "It was a screw-up" ✓ (событие). Та же пара, что
+│   │   │   │   уже видели у rip-off — механику дефиса напомнить строкой, не переписывать.
 │   │   │   └── Card · Не пашет — it's not working / it's broken / it's acting up. + AI.
 │   │   ├── МТ: Честно / врёшь
 │   │   │   ├── Card · Колись, будь честен — come clean / be straight with me
 │   │   │   ├── Card · Заливаешь — you're making that up / you're pulling my leg
-│   │   │   └── Card · (Не) верю — I buy it / I don't buy it / I call BS. + AI.
+│   │   │   ├── Card · (Не) верю — I buy it / I don't buy it / I call BS. + AI.
+│   │   │   └── Card · Чушь собачья — that's crap / a load of crap / cut the crap / it's nonsense
+│   │   │       crap = «фигня, чушь, барахло» — грубовато-бытовое вместо нейтрального nonsense
+│   │   │       (о словах) и junk / stuff (о вещах): "Don't talk crap." / "This phone is crap."
+│   │   │       cut the crap = «хватит нести чушь / давай ближе к делу» — резко, между своими.
+│   │   │       ⚠️ Регистр (жёстко): это не мат, но и не нейтральное слово. С начальником,
+│   │   │         в письме, с незнакомыми — nonsense / rubbish (BrE) / that's not true.
+│   │   │       ⚠️ Ловушка: crap НЕисчисляемое — "a crap" ✗, "a load of crap" ✓, "it's crap" ✓.
+│   │   │       + AI.
+│   │   ├── МТ: Тёрки и претензии
+│   │   │   └── Card · Наезд, тёрка — beef / to have beef with someone / what's your beef?
+│   │   │       beef = «претензия, конфликт, тёрка»: "They have beef." *(они не в ладах)* /
+│   │   │       "What's your beef with him?" *(что ты к нему имеешь?)* / "I got no beef with you."
+│   │   │       Часто про рэп/соцсети/сериалы — пользователь слышит постоянно.
+│   │   │       ⚠️ Ловушка: не «говядина». Прямое значение beef (мясо) остаётся, но в этой
+│   │   │         конструкции слово неисчисляемое и означает конфликт: "a beef" в смысле мяса ✗.
+│   │   │       Соседи нейтрально: an issue / a problem with someone / bad blood (тоже образное).
+│   │   │       + AI.
 │   │   └── МТ: Забей / не парься
 │   │       ├── Card · Проехали — never mind / forget about it / drop it
 │   │       └── Card · Не парься — no worries / no big deal / it's all good / you're good. + AI.
@@ -2434,7 +2455,12 @@ theory/
 │       │       Глагол — to rip somebody off («меня обули»): «They ripped me off.»
 │       ├── МТ: Еда и напитки
 │       │   ├── Card · Голоден ↔ объелся — I'm starving ↔ I'm stuffed
-│       │   ├── Card · Перекусить / кофе — let's grab a bite / grab a coffee
+│       │   ├── Card · Перекусить / кофе — let's grab a bite / grab a coffee / grab some grub
+│       │   │   grub = «жратва, хавчик» — бытовое слово вместо нейтрального food:
+│       │   │   "Let's get some grub" / "The grub was great." ⚠️ Регистр: между своими, грубовато-
+│       │   │   уютное (не оскорбительное); в меню, в гостях у чужих людей и в письме — food.
+│       │   │   ⚠️ Ловушка: grab a bite и grab some grub — про еду, а не про «схватить»;
+│       │   │     прямое значение grab уже разобрано, здесь только оборот.
 │       │   └── Card · Бухло — booze / drinks / let's grab a beer (+ boozy). + AI.
 │       │       ⚠️ Регистр: booze — грубовато-бытовое, между своими; в приличном контексте
 │       │       нейтральное drinks («Let's grab a drink»).
@@ -2632,7 +2658,44 @@ theory/
 │   │   Ловушка (деловой английский): "Please contact myself if you have questions." ✗
 │   │   → "Please contact me." — myself не заменяет me. Это очень частая ошибка в официальных
 │   │   письмах. myself уместен только если субъект и объект — одно лицо, или для усиления.
-│   ├── Question Tags — "You're coming, aren't you?" правило вспомогательного глагола "You're not English, are you?"
+│   ├── Question Tags · Разделительные вопросы («не так ли?»)
+│   │   Карточек: 3
+│   │   ⚠️ ГЛАВНАЯ ЛОВУШКА ТЕМЫ (ради неё микротема и существует): в русском хвостик ОДИН и
+│   │   неизменяемый — «не так ли? / да? / правда?». Русскоязычный берёт первый попавшийся
+│   │   английский («isn't it?») и лепит его ко всему подряд: "Were you searching for your
+│   │   glasses, isn't it?" ✗. В английском хвостик не фраза, а ЗЕРКАЛО главной части.
+│   │
+│   │   Карточка 1 — механика зеркала:
+│   │   Три шага: берём вспомогательный глагол из главной части → переворачиваем полярность →
+│   │   подставляем местоимение вместо подлежащего.
+│   │   "You were searching for your glasses, weren't you?" *(утверждение + отрицательный хвостик)*
+│   │   "You weren't searching for your glasses, were you?" *(отрицание + положительный хвостик)*
+│   │   Ловушка 1: главная часть — только УТВЕРЖДЕНИЕ/ОТРИЦАНИЕ, не вопрос. "Were you searching…,
+│   │     weren't you?" ✗ — вопрос уже задан, хвостик не нужен. Одна мысль — один вопрос.
+│   │   Ловушка 2: "isn't it?" — не универсальный хвостик, а частный случай для подлежащего it.
+│   │     "The film is boring, isn't it?" ✓ / "You are tired, isn't it?" ✗ → "aren't you?"
+│   │
+│   │   Карточка 2 — когда вспомогательного нет + аномалии:
+│   │   Present/Past Simple без вспомогательного → его берём из do/does/did:
+│   │   "You like coffee, don't you?" / "He works here, doesn't he?" / "She came late, didn't she?"
+│   │   Аномалии (запомнить как есть):
+│   │     "I'm late, aren't I?" — amn't не существует, стандартный хвостик к I'm — aren't I
+│   │     "Let's go, shall we?" — у let's свой хвостик
+│   │     "Open the window, will you?" / "Don't be late, will you?" — у повелительного тоже will you
+│   │     "There is a problem, isn't there?" — подхватывается there, а не it
+│   │     "Nobody called, did they?" / "Everyone knows, don't they?" — местоимения на -body/-one
+│   │       подхватываются как they
+│   │   Ловушка: слова nothing / never / hardly уже дают отрицание, поэтому хвостик положительный:
+│   │     "He never calls, does he?" ✓
+│   │
+│   │   Карточка 3 — зачем говорят и как отвечать:
+│   │   Интонация меняет смысл: падающая = «подтверди, я и так уверен» (small talk, поддержать
+│   │   разговор), восходящая = реальный вопрос, я правда не знаю.
+│   │   Живой контекст: "Lovely day, isn't it?" — превью уже дано в теме «Погода как small talk»,
+│   │     здесь опереться, не переписывать.
+│   │   Ответ по-английски идёт по ФАКТУ, а не по согласию с собеседником — та же логика, что
+│   │     уже разобрана на "Weren't you listening?" в Past Continuous; там ссылка, не дубль.
+│   │   🔤 → фразы-хвостики отдельным словарным сливом НЕ идут (это грамматика, не лексика).
 │   ├── So / Neither / Either в ответах — "So do I", "Neither do I"
 │   │   ⬅️ УЖЕ ДАНО: `Me too` — Основы Card 62, `Me neither` (отрицательная пара) — Linking Words
 │   │   MT104 Card 295. Здесь НЕ знакомство, а расширение до полной формулы со вспомогательным
@@ -2729,6 +2792,17 @@ theory/
 │   ├── Вежливость и разрешение — please proceed, go ahead, be my guest, if I may, I beg your pardon
 │   ├── Намерение: три регистра — I intend to (формально) / I'm going to (нейтрально) / I'm about to (вот-вот)
 │   ├── Расплывчатость и мягкость — a word or two, in a minute, sort of, more or less, "Could I have a word?"
+│   │   + ПАТТЕРН «X or two» (даём именно конструкцией, а не одной фразой a word or two):
+│   │     существительное в единственном + or two = «пара, чуть-чуть, не буду уточнять».
+│   │     a day or two *(денёк-другой)*, a minute or two, a drink or two, a beer or two,
+│   │     a question or two, a thing or two.
+│   │     Ключ: считается не количество, а нарочитая неточность — говорящий СПЕЦИАЛЬНО не уточняет.
+│   │     "I had a drink or two" — может, и пять; это скромность/смягчение, а не отчёт.
+│   │     Русская параллель ровная: «денёк-другой», «пару слов», «стаканчик-другой».
+│   │     ⚠️ Существительное стоит в ЕДИНСТВЕННОМ числе: a day or two ✓, days or two ✗ —
+│   │       русский тянет на множественное («пару дней»).
+│   │     Отдельно: a thing or two = «кое-что, и немало» ("She knows a thing or two about cars"
+│   │       = разбирается) — не буквально «одна-две вещи».
 │   │   + a bit / a little bit — бытовой смягчитель «чуть-чуть» (даём ПОЛНЫЙ разбор здесь):
 │   │     перед прилагательным ("I'm a bit tired", "It's a little bit expensive"), как наречие
 │   │     ("Wait a bit", "Move it a bit"), a little bit of + сущ. ("a little bit of sugar").
@@ -2940,6 +3014,24 @@ theory/
 │   │   Как вежливо отказать на просьбу:
 │   │     I'm afraid I can't / I'd love to but... / Maybe some other time / Let me see what I can do
 │   │   Упражнение: ситуация (попросить незнакомца / коллегу / начальника) → выбрать правильную форму
+│   │
+│   │   ├── Card · I'm afraid — «мне жаль это говорить» (смягчитель плохой новости)
+│   │   │   ⚠️ Это НЕ страх. Пользователь знает afraid как «боюсь» (afraid of the dark) и читает
+│   │   │   "I'm afraid we're closed" как «я боюсь, что мы закрыты» — а это просто вежливое
+│   │   │   «к сожалению, мы закрыты». Русский тут выручает: у нас есть ровно такое же «боюсь,
+│   │   │   что придётся отказать» — тоже без всякого страха. На эту параллель и опираемся.
+│   │   │   Смысл: заранее смягчаю то, что собеседнику не понравится (отказ, отмена, плохая новость).
+│   │   │   "I'm afraid we're closed." / "I'm afraid there are no tickets left."
+│   │   │   "I'm afraid I can't help you with that."
+│   │   │   Короткие ответы: I'm afraid so *(да, увы — подтверждаю плохое)* /
+│   │   │     I'm afraid not *(нет, увы — отказываю/отрицаю)*. Отвечают на чужой вопрос целиком,
+│   │   │     без повтора предложения: «Is the shop closed?» — «I'm afraid so.»
+│   │   │   Соседи по смыслу (шкала): sorry, but… (нейтрально) → unfortunately (нейтрально-письменно)
+│   │   │     → I'm afraid (мягко, устно, очень по-английски).
+│   │   │   ⚠️ Ловушка-граница: I'm afraid OF something = настоящий страх; I'm afraid (that) + мысль
+│   │   │     = сожаление. Отличаем по предлогу — разбор предлога уже был в теме «Глагол/
+│   │   │     прилагательное + предлог», здесь только напоминание строкой, не переписывать.
+│   │   │   + AI.
 │   │
 │   └── [Блок 10] Договорённости и планы
 │       ├── Предложить время / занятие
