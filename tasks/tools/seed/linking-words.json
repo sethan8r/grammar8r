@@ -22,6 +22,12 @@
       "topicId": 17,
       "title": "Reason · Причина",
       "order": 2
+    },
+    {
+      "id": 100,
+      "topicId": 17,
+      "title": "Result · Результат",
+      "order": 3
     }
   ],
   "grammar_cards": [
@@ -673,6 +679,297 @@
         "Как понять, что as в предложении означает причину, а не сравнение?",
         "Почему на вопрос Why нельзя ответить через since?"
       ]
+    },
+    {
+      "id": 285,
+      "microtopicId": 100,
+      "title": "so: результат, а не «настолько»",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`because` и `because of` отвечают на вопрос «почему?»: они цепляют к сказанному его причину. Но ту же самую пару мыслей можно рассказать с другого конца — сначала причина, потом то, что из неё вышло. Для этого нужна связка результата: `so`, по-русски «поэтому, так что»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово это не новое — оно давно слито в словаре курса, и в чужой речи мы его встречали. Разбирать же его отдельно не приходилось ни разу, а разбирать есть что: у `so` две разные работы, и русский их не различает."
+        },
+        {
+          "type": "heading",
+          "text": "Одна ситуация, два порядка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Поезд опоздал, встреча пропущена. Два способа уложить это в одно предложение:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I missed the meeting because the train was late.** — начинаем с результата, причину вешаем сзади;",
+            "**The train was late, so I missed the meeting.** — начинаем с причины, результат идёт следом."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Факты одни и те же, слова почти те же. Разное только одно — с какого конца мы заходим: `because` смотрит назад, к причине, `so` смотрит вперёд, к следствию. Поэтому и порядок частей у них зеркальный."
+        },
+        {
+          "type": "heading",
+          "text": "Перед so запятая есть — и это ровно наоборот к because"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы только что выучили: перед `because` запятой нет. Перед `so` — есть:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The lift was broken, so we walked up.** ✓",
+            "**The lift was broken so we walked up.** ✗"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дело не в капризе языка, а в разной работе двух связок. `because` **подчиняет**: он превращает вторую часть в хвост при главной, и хвост прирастает к главному вплотную. `so` **соединяет равных** — две самостоятельные части, ровно как это делают уже знакомые `and` и `but`. А на стыке двух равных полных частей английский ставит запятую. Отсюда простое правило: `so` ведёт себя как `but`, а не как `because`."
+        },
+        {
+          "type": "heading",
+          "text": "so нельзя вынести вперёд"
+        },
+        {
+          "type": "paragraph",
+          "text": "Часть с `because` мы свободно переставляли: **Because the owner was ill, the shop was closed.** С `so` этот фокус не проходит — результат всегда идёт вторым:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop was closed, so we went to the market.** ✓",
+            "**So we went to the market, the shop was closed.** ✗"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика прямая: `so` значит «а из этого вышло вот что». Ему просто нечего продолжать, если то, из чего вышло, ещё не прозвучало."
+        },
+        {
+          "type": "heading",
+          "text": "Второе so: «настолько, такой»"
+        },
+        {
+          "type": "paragraph",
+          "text": "То же короткое слово работает в английском ещё и совсем иначе, и эту его работу мы слышали сто раз: **I am so tired.** **It was so cold yesterday.** **Sonya speaks so fast.** Здесь `so` вообще не связка, оно ничего не соединяет — оно усиливает то, что стоит следом: «такой усталый», «так холодно», «так быстро»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Различаются две работы за секунду — по тому, **что идёт после `so`**:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что стоит после so",
+            "Работа so",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "целая часть: кто-то что-то делает",
+              "результат, «поэтому»",
+              "It was cold, so we went inside."
+            ],
+            [
+              "прилагательное или наречие",
+              "усиление, «настолько»",
+              "It was so cold."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «так» покрывает обе работы разом — «так холодно» и «так что мы ушли», — поэтому в голове они слипаются и оба `so` выходят в одном предложении: **I was so tired, so I went home** ✗. Грамматика тут формально цела, но звучит как заикание: одно слово подряд в двух разных смыслах. Живой язык так не говорит — либо **I was very tired, so I went home** ✓, либо просто без усиления: **I was tired, so I went home** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У усилительного `so` есть красивое продолжение — связка `so … that`: **I was so tired that I went home**, «настолько устал, что…». Одним ходом сказано и насколько, и что из этого вышло. Разбирать её будем в теме «So/Such и Too/Enough» — пока просто узнавай её в чужой речи."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Одинокое `so` («поэтому») и `so that` — разные вещи. Второе вводит цель, «чтобы», и до него мы доберёмся в конце этой темы. Пока держим в голове одно значение: `so` = «поэтому»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`so` — «поэтому, так что»: вводит результат, то есть смотрит вперёд, а `because` смотрит назад, к причине. Одна и та же пара мыслей укладывается двумя способами: **I missed the meeting because the train was late** = **The train was late, so I missed the meeting**. Перед `so` запятая **есть** — в отличие от `because`: `so` соединяет две равные части, как `and` и `but`, а `because` подчиняет. Вынести часть с `so` в начало нельзя — результат всегда идёт вторым. Второе значение того же слова — усиление «настолько, такой», и стоит оно перед прилагательным или наречием: **I am so tired**. Различаем по тому, что идёт после `so`: целая часть → «поэтому», прилагательное или наречие → «настолько». Криво звучит **I was so tired, so I went home** ✗ — два разных `so` в одном предложении.",
+      "examples": [
+        {
+          "ru": "Поезд опоздал, поэтому я пропустил встречу.",
+          "en": "The train was late, so I missed the meeting."
+        },
+        {
+          "ru": "Лифт сломался, поэтому мы пошли пешком.",
+          "en": "The lift was broken, so we walked up."
+        },
+        {
+          "ru": "Магазин был закрыт, так что мы пошли на рынок.",
+          "en": "The shop was closed, so we went to the market."
+        },
+        {
+          "ru": "Вчера было так холодно.",
+          "en": "It was so cold yesterday."
+        },
+        {
+          "ru": "Соня говорит так быстро.",
+          "en": "Sonya speaks so fast."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему перед so запятая нужна, а перед because нет?",
+        "Как понять, что so значит «настолько», а не «поэтому»?",
+        "Можно ли начать предложение со So, если очень хочется?"
+      ]
+    },
+    {
+      "id": 286,
+      "microtopicId": 100,
+      "title": "therefore и as a result: результат в письменном ярусе",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`so` — слово живого разговора. В отчёте, деловом письме, новости или объявлении на вокзале тот же результат называют иначе: `therefore` («поэтому, следовательно») и `as a result` («в результате»). Смысл тот же, ярус другой — ровно как `because of` и его официальный двойник `due to` в причине."
+        },
+        {
+          "type": "heading",
+          "text": "Главное: это не союзы"
+        },
+        {
+          "type": "paragraph",
+          "text": "`so` — союз: он склеивает две части в одно предложение. `therefore` и `as a result` — **вводные слова**: они ничего не склеивают, а только показывают, как новое предложение связано с предыдущим. Поэтому им нужна законченная фраза перед собой, то есть точка, а не запятая:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Prices went up. Therefore, we cancelled the trip.** ✓",
+            "**Prices went up, therefore we cancelled the trip.** ✗"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй вариант — та самая ошибка, с которой началась тема: два полных предложения, склеенных одной запятой. Слово `therefore` спасти её не может, потому что склеивать оно не умеет — оно только указывает на связь."
+        },
+        {
+          "type": "heading",
+          "text": "Позиция и запятая"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обычное место обеих связок — начало нового предложения, и после связки ставится запятая:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The road was closed. As a result, the buses were late.**",
+            "**Grisha didn't send the documents. Therefore, the meeting was moved.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`therefore` умеет вставать и в середину, между подлежащим и глаголом: **We therefore decided to wait.** Так пишут в документах и деловых письмах. Для начала хватит позиции в начале предложения — она уместна всегда."
+        },
+        {
+          "type": "heading",
+          "text": "as a result of + вещь"
+        },
+        {
+          "type": "paragraph",
+          "text": "У `as a result` есть близкий родственник, который ведёт себя как уже знакомое `because of`: `as a result of` требует после себя **вещь** — существительное или действие в форме на `-ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The flight was cancelled as a result of the storm.**",
+            "**As a result of the strike, the shops closed early.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порода определяется тем же вопросом, что и всегда. `as a result` без `of` — самостоятельная вводная связка, за ней идёт целое предложение. `as a result of` — вторая порода, как `because of`, и за ней идёт только вещь. Одна маленькая `of` переключает связку с одной породы на другую."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Therefore` в переписке с приятелем звучит как речь юриста в суде. Написать другу **I missed the bus. Therefore, I was late** — это по-русски примерно «Я опоздал на автобус. Следовательно, я задержался». В живой речи работает `so`, а формальный ярус остаётся документам, новостям и деловым письмам."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У разговора есть и своя вторая связка результата, кроме `so`, — оборот `that's why` («вот почему, поэтому»): **The metro was closed. That's why I took a taxi.** Ведёт он себя как `therefore` — начинает новое предложение после точки, — но звучит совершенно естественно в речи."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`therefore` («следовательно») и `as a result` («в результате») — формальный ярус результата: отчёты, новости, деловые письма; в разговоре там работает `so`. Ключевое отличие: это **не союзы**, а вводные слова — они не склеивают две части, а начинают новое самостоятельное предложение после точки, и после них ставится запятая: **Prices went up. Therefore, we cancelled the trip.** Склеить ими два предложения через запятую нельзя — **Prices went up, therefore we cancelled the trip** ✗. Оборот `as a result of` работает как `because of`: после него идёт вещь, а не целая часть — **as a result of the storm**. Разговорная замена `therefore` — оборот `that's why`.",
+      "examples": [
+        {
+          "ru": "Цены выросли. Поэтому мы отменили поездку.",
+          "en": "Prices went up. Therefore, we cancelled the trip."
+        },
+        {
+          "ru": "Дорогу закрыли. В результате автобусы опоздали.",
+          "en": "The road was closed. As a result, the buses were late."
+        },
+        {
+          "ru": "Рейс отменили из-за шторма.",
+          "en": "The flight was cancelled as a result of the storm."
+        },
+        {
+          "ru": "Гриша не отправил документы. Поэтому встречу перенесли.",
+          "en": "Grisha didn't send the documents. Therefore, the meeting was moved."
+        },
+        {
+          "ru": "Метро было закрыто. Вот почему я поехал на такси.",
+          "en": "The metro was closed. That's why I took a taxi."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя написать Prices went up, therefore we cancelled the trip через запятую?",
+        "Чем as a result отличается от as a result of?",
+        "Когда therefore уместно, а когда лучше обычное so?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -747,6 +1044,60 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 110,
       "orderInCard": 3
+    },
+    {
+      "cardId": 285,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 123,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 285,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 21,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 285,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 40,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 285,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 129,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 285,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 111,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 286,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 146,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 286,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 107,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 286,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 49,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 286,
+      "exerciseType": "MATCHING",
+      "exerciseId": 40,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -772,6 +1123,14 @@
       "title": "Выбери связку причины",
       "userInstruction": "Вставьте в каждое предложение подходящую связку причины.",
       "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "linking_card286_ex1",
+      "cardId": 286,
+      "title": "Скажи формально",
+      "userInstruction": "ИИ пришлёт разговорную фразу с so. Перепишите её формально ДВУМЯ способами — через therefore и через as a result of.",
+      "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
   ],
@@ -822,6 +1181,30 @@
       "translation": "поскольку, так как",
       "transcription": "[æz]",
       "microtopicId": 99,
+      "categoryId": "linking"
+    },
+    {
+      "id": 512,
+      "word": "therefore",
+      "translation": "поэтому, следовательно",
+      "transcription": "[ˈðeəfɔː]",
+      "microtopicId": 100,
+      "categoryId": "linking"
+    },
+    {
+      "id": 513,
+      "word": "as a result",
+      "translation": "в результате",
+      "transcription": "[əz ə rɪˈzʌlt]",
+      "microtopicId": 100,
+      "categoryId": "linking"
+    },
+    {
+      "id": 514,
+      "word": "that's why",
+      "translation": "вот почему, поэтому",
+      "transcription": "[ðæts waɪ]",
+      "microtopicId": 100,
       "categoryId": "linking"
     }
   ],
@@ -888,6 +1271,37 @@
         }
       ],
       "explanation": "Строка 2: since держит целую часть, а тут после него вещь — нужно because of the heavy rain. Строка 4: на прямой вопрос отвечают через because, since подаёт причину как уже известную. В строках 1, 3 и 5 после связки идёт подлежащее с глаголом, и причина подана фоном — всё верно."
+    },
+    {
+      "id": 129,
+      "statements": [
+        {
+          "en": "The shop was full, so we came back later.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It was raining so we stayed inside.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The coffee was so hot.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "So I called a taxi, my car didn't start.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The film was boring, so Ben left early.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: перед so на стыке двух полных частей нужна запятая. Строка 4: часть с so вынесена вперёд, а результат обязан идти вторым — верно было бы «My car didn't start, so I called a taxi». В строках 1 и 5 so соединяет причину и результат по всем правилам, а в строке 3 оно стоит перед наречием и значит «настолько»."
     }
   ],
   "word_arrangement_exercises": [
@@ -927,6 +1341,26 @@
         "so"
       ],
       "explanation": "Закрытое метро подано как известный фон, поэтому связка since, и стоит она в начале. Дальше идёт целая часть the metro was closed, поэтому because of не подходит; as well значит «тоже», а so развернуло бы фразу на результат."
+    },
+    {
+      "id": 111,
+      "situationRu": "Ситуация: Ты объясняешь, почему пришёл домой пешком.",
+      "correctSentence": "The last bus was gone, so I walked home.",
+      "words": [
+        "The last bus",
+        "was gone",
+        "so",
+        "I walked",
+        "home"
+      ],
+      "distractors": [
+        "because",
+        "because of",
+        "so that",
+        "walks",
+        "but"
+      ],
+      "explanation": "Причина стоит первой, результат вторым — такой порядок держит только so. Because развернуло бы предложение задом наперёд, because of не берёт целую часть, so that вводит цель, but противопоставление, а walks — форма настоящего времени, тогда как речь о том, что уже случилось."
     }
   ],
   "multiple_choice_exercises": [
@@ -992,6 +1426,48 @@
         }
       ],
       "explanation": "Собеседник спросил «почему?», то есть причина для него новость. Такую причину вводит только because. Since и as подали бы её как уже известную обоим — после прямого вопроса это звучит странно."
+    },
+    {
+      "id": 123,
+      "choiceType": "CHOICE",
+      "prompt": "It started to rain, ___ we took a taxi.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "so",
+          "isCorrect": true
+        },
+        {
+          "text": "because",
+          "isCorrect": false
+        },
+        {
+          "text": "because of",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Первая часть — причина, вторая — то, что из неё вышло, а результат вводит so. Because развернуло бы логику назад: тогда дождь должен был бы стоять вторым. Because of вообще не берёт после себя целую часть с подлежащим и глаголом."
+    },
+    {
+      "id": 146,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Многие магазины закрылись в результате снегопада.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Many shops closed as a result the snow.",
+          "isCorrect": false
+        },
+        {
+          "text": "Many shops closed as a result of the snow.",
+          "isCorrect": true
+        },
+        {
+          "text": "Many shops closed as a result of the snow was heavy.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Перед вещью связка звучит целиком — as a result of, и выбросить of нельзя. В третьем варианте после of стоит целая часть с подлежащим и глаголом, а такую эта связка не держит: её кормят только существительным или формой на -ing."
     }
   ],
   "text_input_exercises": [
@@ -1020,10 +1496,58 @@
         }
       ],
       "explanation": "В первом и третьем пунктах после пропуска стоит вещь — heavy rain и working all night, значит нужна связка на вещь. Во втором идёт целая часть we were already late, а её держит только because."
+    },
+    {
+      "id": 49,
+      "items": [
+        {
+          "sentence": "The road was icy, ___ the bus went slowly.",
+          "contextRu": "",
+          "answer": "so",
+          "alternatives": []
+        },
+        {
+          "sentence": "Nobody answered the phone. ___, Vera sent an email.",
+          "contextRu": "",
+          "answer": "Therefore",
+          "alternatives": []
+        },
+        {
+          "sentence": "Many trains were cancelled as a result ___ the storm.",
+          "contextRu": "",
+          "answer": "of",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом пункте две части стоят в одном предложении через запятую — там нужен союз so. Во втором перед пропуском точка, а значит начинается новое предложение и требуется вводное слово. В третьем после пропуска идёт вещь, и связка звучит целиком: as a result of."
     }
   ],
   "dialog_restore_exercises": [],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 40,
+      "taskDescription": "Соедини причину с её результатом.",
+      "pairs": [
+        {
+          "left": "The airport was closed",
+          "right": "As a result, all flights stopped."
+        },
+        {
+          "left": "Sales fell in June",
+          "right": "Therefore, the shop cut prices."
+        },
+        {
+          "left": "The road was wet",
+          "right": "As a result, the driver drove slowly."
+        },
+        {
+          "left": "Nick sent no email",
+          "right": "Therefore, nobody came."
+        }
+      ],
+      "explanation": "Каждая правая часть — самостоятельное предложение, которое начинается с вводной связки результата и объясняет, что вышло из левой части. Обе связки значат одно и то же и стоят в начале нового предложения, после точки."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 106,
@@ -1043,9 +1567,52 @@
         }
       ],
       "explanation": "После because of должна стоять вещь, а в условии за ним идёт целая часть the snow was heavy. Верный ход — свернуть часть в вещь: the heavy snow. Вариант с because плюс вещь ломает предложение с другой стороны, а добавленное yesterday ошибку не убирает."
+    },
+    {
+      "id": 107,
+      "wrongSentence": "The office was cold, therefore we went home early.",
+      "options": [
+        {
+          "text": "The office was cold therefore we went home early.",
+          "isCorrect": false
+        },
+        {
+          "text": "The office was cold, therefore, we went home early.",
+          "isCorrect": false
+        },
+        {
+          "text": "The office was cold. Therefore, we went home early.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Therefore не союз и склеить два полных предложения не может — перед ним нужна точка, а не запятая. Убрать запятую совсем или добавить вторую положение не спасает: части всё равно остаются склеенными без союза."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 21,
+      "construction": "The bus was late, so we walked.",
+      "options": [
+        {
+          "text": "Автобус так опаздывал, что мы пошли пешком.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мы пошли пешком, потому что автобус такой медленный.",
+          "isCorrect": false
+        },
+        {
+          "text": "Автобус опаздывал, но мы пошли пешком.",
+          "isCorrect": false
+        },
+        {
+          "text": "Автобус опаздывал, поэтому мы пошли пешком.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "После so здесь стоит целая часть с подлежащим и глаголом, значит so работает связкой результата и переводится «поэтому». Значение «настолько» у so появляется только перед прилагательным или наречием, а противопоставление даёт but, а не so."
+    }
+  ],
   "transformation_exercises": [
     {
       "id": 39,
@@ -1065,6 +1632,25 @@
         }
       ],
       "explanation": "Часть с because целиком переезжает в начало, главная часть идёт после неё — и на стыке появляется запятая, которой в исходном варианте не было. Внутри самой части ничего не меняется: порядок слов там прежний."
+    },
+    {
+      "id": 40,
+      "taskDescription": "Перепиши предложение через so.",
+      "items": [
+        {
+          "original": "We ate at home because the café was full.",
+          "transformed": "The café was full, so we ate at home."
+        },
+        {
+          "original": "Jack went to bed because he felt sick.",
+          "transformed": "Jack felt sick, so he went to bed."
+        },
+        {
+          "original": "Mia stayed in bed because she was ill.",
+          "transformed": "Mia was ill, so she stayed in bed."
+        }
+      ],
+      "explanation": "Части меняются местами: причина уходит вперёд, результат встаёт вторым — потому что so указывает вперёд, к следствию. На стыке появляется запятая, которой перед because не было, а слово because из предложения уходит совсем."
     }
   ],
   "categorization_exercises": [
