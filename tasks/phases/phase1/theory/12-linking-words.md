@@ -1259,27 +1259,448 @@
 
 ---
 
+## Microtopic 102 — Despite / Instead · Вопреки и вместо
+
+**ID:** 102 | **Order:** 5
+
+---
+
+### Card 290 · despite и in spite of: уступка одним куском
+
+**ID:** 290 | **Order:** 1
+
+#### Theory
+
+Уступку мы уже умеем говорить целой частью: **Although the shop was closed, we found bread nearby.** Но разворачивать помеху в отдельную мысль нужно далеко не всегда — часто она называется одним словом. По-русски это звучит так: «несмотря на дождь», «несмотря на цену», «несмотря на усталость». Помеха названа, а второго предложения не появилось.
+
+**despite + вещь**
+
+Английское `despite` — ровно это «несмотря на». Порода у него вторая, та же, что у `because of`: после связки идёт вещь, то есть существительное или действие в форме на `-ing`.
+
+- **Despite the rain, we walked to the station.**
+- **Despite feeling ill, Kirill finished the shift.**
+
+В устройстве ничего нового: знакомая развилка «целая часть или вещь» просто получила ещё одно слово во вторую колонку.
+
+**in spite of — то же самое, три слова вместо одного**
+
+`in spite of` значит абсолютно то же и требует после себя ту же вещь. Разница только в длине и лёгком оттенке: `despite` короче и чаще попадается на письме, `in spite of` звучит развёрнутее и живее в речи.
+
+- **In spite of the cold, the café put tables outside.**
+
+**Ловушка:** самая частая ошибка с этим словом — приделать `of` к `despite`: **despite of the rain** ✗. Рука тянет его по аналогии с `because of`, и логика вроде бы та же — но `of` живёт только внутри `in spite of`. Верных вариантов ровно два: **despite the rain** ✓ и **in spite of the rain** ✓. Ошибка бывает и зеркальная: **in spite the rain** ✗ — тут `of` наоборот потеряли.
+
+**Ловушка:** вторая ошибка — старая знакомая: накормить связку второй породы целой частью. **Despite he was tired, he finished the work** ✗. Выхода два, и оба правильные: сменить связку на первую породу — **Although he was tired, he finished the work** ✓ — или свернуть часть в вещь — **Despite being tired, he finished the work** ✓. Как сворачивать, разберём в следующей карточке.
+
+**Где стоит и где запятая**
+
+Место у `despite` свободное, как у `because` и `although`, и запятая работает по тому же правилу: помеха вынесена вперёд — на стыке запятая; стоит второй — запятой нет.
+
+- **Despite the noise, Nastya fell asleep quickly.**
+- **Nastya fell asleep quickly despite the noise.**
+
+**Кстати:** в текстах попадается длинный оборот `despite the fact that` — после него идёт целая часть: **Despite the fact that he was tired, he finished the work.** Это законный способ не сворачивать часть в вещь, но он тяжеловесный, и там, где можно поставить `although`, носитель ставит `although`. Достаточно узнавать оборот в чужой речи.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`despite` — «несмотря на». Порода вторая, как у `because of`: после связки идёт вещь — существительное или действие в форме на `-ing` (**despite the rain**, **despite feeling ill**). `in spite of` значит то же самое и держит ту же вещь, просто длиннее. Две главные ошибки: лишнее `of` после `despite` (**despite of the rain** ✗) и потерянное `of` внутри `in spite of` (**in spite the rain** ✗). Целую часть эти связки не берут: **despite he was tired** ✗ — верно либо **although he was tired**, либо **despite being tired**. Запятая по общему правилу: помеха стоит первой — запятая на стыке, стоит второй — запятой нет.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1219 | Несмотря на дождь, мы пошли до вокзала пешком. | Despite the rain, we walked to the station. |
+| 1220 | Несмотря на плохое самочувствие, Кирилл доработал смену. | Despite feeling ill, Kirill finished the shift. |
+| 1221 | Несмотря на холод, кафе выставило столики на улицу. | In spite of the cold, the café put tables outside. |
+| 1222 | Несмотря на шум, Настя быстро уснула. | Despite the noise, Nastya fell asleep quickly. |
+| 1223 | Настя быстро уснула, несмотря на шум. | Nastya fell asleep quickly despite the noise. |
+
+---
+
+#### Exercises
+
+**Ex 33 · MultipleChoice · CHOICE** *(ID: 125)*
+
+"___ the heavy traffic, Vera got to the airport on time."
+
+- Although
+- Because of
+- **Despite** ✓
+
+*Explanation:* После пропуска стоит вещь — the heavy traffic, без своего глагола. Такую вещь держит despite. Although требует целой части с подлежащим и глаголом, а because of назвало бы пробки причиной того, что Вера успела, — логика вышла бы обратной.
+
+---
+
+**Ex 34 · ErrorCorrection** *(ID: 110)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Despite of the storm, the players finished the match."
+
+- **Despite the storm, the players finished the match.** ✓
+- Despite the storm was strong, the players finished the match.
+- In spite the storm, the players finished the match.
+
+*Explanation:* У despite нет of — оно принадлежит только обороту in spite of. Второй вариант убирает of, но кормит связку целой частью, а третий делает обратную ошибку: теряет of там, где он обязателен.
+
+---
+
+**Ex 35 · Categorization** *(ID: 60)*
+
+Задание: Распредели хвосты по тому, к какой связке они подходят.
+
+| После although | После despite |
+|----------------|---------------|
+| the office was cold | the cold weather |
+| Sam had no map | losing the map |
+| the tickets were expensive | the high price |
+| it was getting dark | the late hour |
+
+*Explanation:* После although идёт целая часть — там есть подлежащее и свой глагол (the office was cold, Sam had no map). После despite идёт вещь: существительное (the cold weather, the high price) или действие в форме на -ing (losing the map). Глагол в хвосте — верный признак того, что нужна первая связка.
+
+---
+
+**Ex 36 · TrueFalse** *(ID: 132)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Despite the long walk, Sonya wasn't tired at all. | ✓ |
+| 2 | Despite of the snow, the train arrived on time. | ✗ |
+| 3 | In spite of the crowd, Gleb found his friends fast. | ✓ |
+| 4 | Despite the machine was old, it still worked well. | ✗ |
+| 5 | Jake went for a run in spite of the cold wind. | ✓ |
+
+*Explanation:* Строка 2: у despite нет of. Строка 4: после despite стоит целая часть с подлежащим и глаголом, а связка держит только вещь. В строках 1, 3 и 5 после связки стоит вещь, и обе формы записаны целиком, без потерянного и без лишнего of.
+
+---
+
+#### Clarification Options
+
+- Почему у because of есть of, а у despite нет — ведь связки похожи?
+- despite и in spite of — есть ли между ними хоть какая-то разница по смыслу?
+- Когда при despite нужна запятая, а когда нет?
+
+---
+
+### Card 291 · Одна мысль, две упаковки: although и despite
+
+**ID:** 291 | **Order:** 2
+
+#### Theory
+
+У нас теперь две связки уступки разной породы: `although` берёт целую часть, `despite` — вещь. Смысл у них один, и почти любую уступку можно записать и так, и так. Осталось научиться переключаться между упаковками — это и есть содержание карточки: новых слов тут нет, есть один навык.
+
+**Как свернуть целую часть в вещь**
+
+Ходов ровно три, и выбор зависит от того, что стоит внутри части:
+
+- в части уже есть готовое существительное — берём его: **it was raining** превращается в **the rain**, **the price was high** — в **the high price**;
+- в части действие — вешаем `-ing` на глагол: **Pasha lost the map** превращается в **losing the map**;
+- в части состояние со связкой be — берём `being` и всё, что стояло после неё: **she was tired** превращается в **being tired**.
+
+**Важно:** у формы на `-ing` нет собственного подлежащего — она забирает его из главной части. Поэтому сворачивать можно только тогда, когда обе части про одного и того же человека. **Although Mia was ill, she went to the lesson** сворачивается спокойно: **Despite being ill, Mia went to the lesson** ✓ — болела и пошла одна и та же Мия. А вот у **Although Mia was ill, the lesson was useful** подлежащие разные, и свернуть в `-ing` не выйдет: получится, что болел урок.
+
+**Обратный ход: из вещи в целую часть**
+
+Разворачивать проще, чем сворачивать: возвращаем вещи подлежащее и глагол. **Despite the heavy traffic** превращается в **Although the traffic was heavy**, **Despite being late** — в **Although he was late**.
+
+| Одна мысль | Запись |
+|---|---|
+| целая часть, нейтрально | Although the price was high, Grisha bought the tickets. |
+| целая часть, контраст сильнее | Even though the price was high, Grisha bought the tickets. |
+| вещь, коротко | Despite the high price, Grisha bought the tickets. |
+| вещь, развёрнутее | In spite of the high price, Grisha bought the tickets. |
+
+**Что выбрать в живой речи**
+
+Жёсткого правила нет, есть привычка языка. Если помеха называется одним словом, короткая запись через `despite` звучит естественнее и легче. Если внутри помехи есть своё действие и свой деятель, разворачивать её в целую часть с `although` проще и понятнее, чем городить длинную форму на `-ing`.
+
+**Ловушка:** при переупаковке от старой связки остаётся хвост, и предложение оказывается наполовину в одной упаковке, наполовину в другой: **Despite of being tired** ✗ (лишнее `of`) и **Although being tired** ✗ (связка первой породы получила вещь вместо части). Меняя связку, меняем и то, что стоит после неё, — иначе смена упаковки сделана только наполовину.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Одну и ту же уступку можно записать целой частью (`although`, `even though`) и вещью (`despite`, `in spite of`). Сворачиваем часть в вещь тремя ходами: берём готовое существительное (**the price was high** — **the high price**), вешаем `-ing` на глагол (**Pasha lost the map** — **losing the map**), либо ставим `being` при состоянии (**she was tired** — **being tired**). Свернуть в `-ing` можно только тогда, когда обе части про одного и того же деятеля: форма на `-ing` берёт подлежащее из главной части. Обратный ход — вернуть вещи подлежащее и глагол: **Despite the heavy traffic** — **Although the traffic was heavy**. Главная ошибка переупаковки — оставить хвост от прежней связки: **Despite of being tired** ✗, **Although being tired** ✗.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1224 | Хотя цена была высокой, Гриша купил билеты. | Although the price was high, Grisha bought the tickets. |
+| 1225 | Несмотря на высокую цену, Гриша купил билеты. | Despite the high price, Grisha bought the tickets. |
+| 1226 | Хотя Мия болела, она пошла на занятие. | Although Mia was ill, she went to the lesson. |
+| 1227 | Несмотря на болезнь, Мия пошла на занятие. | Despite being ill, Mia went to the lesson. |
+| 1228 | Несмотря на потерянную карту, Паша нашёл дорогу. | Despite losing the map, Pasha found the way. |
+
+---
+
+#### Exercises
+
+**Ex 37 · MultipleChoice · FORWARD_CHOICE** *(ID: 149)*
+
+"Несмотря на сломанный лифт, Денис поднялся на восьмой этаж."
+
+- Although the broken lift, Denis walked up to the eighth floor.
+- **Despite the broken lift, Denis walked up to the eighth floor.** ✓
+- Despite the lift was broken, Denis walked up to the eighth floor.
+
+*Explanation:* Помеха названа вещью — the broken lift, без своего глагола, и такую вещь берёт despite. В первом варианте вещь досталась although, которое держит только целую часть, а в третьем наоборот: despite получило целую часть с подлежащим и глаголом.
+
+---
+
+**Ex 38 · Transformation** *(ID: 41)*
+
+Задание: Перепиши предложение через despite.
+
+1. "Although it was snowing, we drove home." → **"Despite the snow, we drove home."**
+2. "Although Tom was busy, he called me back." → **"Despite being busy, Tom called me back."**
+3. "Although the room was small, we liked it." → **"Despite the small room, we liked it."**
+
+*Explanation:* Целая часть сворачивается в вещь: готовое существительное берётся как есть (it was snowing даёт the snow), состояние со связкой be превращается в форму с being, а признак переезжает к существительному (the room was small даёт the small room). Само although из предложения уходит совсем.
+
+---
+
+**Ex 39 · TextInput** *(ID: 51)*
+
+1. "In spite ___ the long queue, Pasha waited for his ticket."
+   Ответ: **of**
+2. "Despite ___ tired, Denis finished the report."
+   Ответ: **being**
+3. "___ of the heavy bags, Vitya walked home."
+   Ответ: **In spite**
+
+*Explanation:* В первом и третьем пунктах связка звучит целиком — in spite of, и разрывать её нельзя. Во втором после despite идёт состояние, а состояние сворачивается в вещь через being: was tired превращается в being tired.
+
+---
+
+**Ex 40 · WordArrangement** *(ID: 114)*
+
+Ситуация: Ты рассказываешь, что подруга приехала вовремя, хотя были пробки.
+
+Правильное предложение: **Despite the traffic, Ira arrived on time.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Despite | — |
+| the traffic | — |
+| Ira arrived | — |
+| on time | — |
+| Although | ✗ |
+| in spite | ✗ |
+| because of | ✗ |
+| was heavy | ✗ |
+
+*Explanation:* Помеха названа одной вещью, поэтому нужна связка второй породы — despite. Although взяло бы целую часть, in spite без of разорвано, because of назвало бы пробки причиной приезда вовремя, а хвост was heavy превратил бы вещь обратно в целую часть.
+
+---
+
+#### AI Exercise
+
+**ID:** linking_card291_ex1
+**Title:** "Переупакуй уступку"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложение с уступкой. Перепишите его так, чтобы уступка была упакована по-другому."
+**Prompt Template:** "Тема упражнения — две упаковки уступки. РОВНО ЧЕТЫРЕ средства, и вот всё, что пользователю про них рассказали, за эти рамки не выходи: although и even though — связки первой породы, после них идёт целая часть с подлежащим и глаголом; despite и in spite of — связки второй породы, после них идёт вещь, то есть существительное или действие в форме на -ing; у despite нет of, а внутри in spite of он обязателен; целая часть сворачивается в вещь тремя способами — берётся готовое существительное, на глагол вешается -ing, а состояние со связкой be превращается в being плюс то, что стояло после неё; свернуть в форму на -ing можно только тогда, когда обе части про одного и того же деятеля. Никаких других связок в этом упражнении НЕ существует: however, whereas, because, because of, so, therefore, though в конце фразы, despite the fact that и любые другие не используй ни в заданиях, ни в объяснениях. Что пользователь знает из грамматики: Present Simple, Present Continuous, Past Simple, Past Continuous, базовый пассив. Дай пользователю ОДНО короткое английское предложение с уступкой и попроси переписать его, поменяв упаковку: если в исходнике стоит although с целой частью, ответ должен быть с despite и вещью, и наоборот. Прямо укажи в задании, какую именно связку ждёшь в ответе. Чередуй направления переписывания, не давай два одинаковых подряд. Требования к предложению: 7-10 слов, обе части про одного и того же деятеля, ТОЛЬКО самые простые бытовые слова уровня начинающего (to rain, to snow, to close, to wait, to walk, to finish, to buy, a bus, a shop, a room, a queue, a ticket, the rain, the snow, the noise, the cold, the price, tired, ill, late, busy, cold, expensive), никаких перечислений, никаких редких и книжных слов. ВАЖНО: если направление переписывания идёт от целой части к вещи, часть обязана легко сворачиваться — либо в ней есть готовое простое существительное, либо это состояние со связкой be, которое превращается в being. Правильным считай ответ, где смысл сохранён и структура соответствует названной связке: после although стоит подлежащее с глаголом, после despite и in spite of — существительное или форма на -ing. Отдельно проверяй две ошибки и каждую показывай верным вариантом с объяснением по-русски одной фразой: лишнее of после despite и целая часть после despite вместо вещи. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Перепишите через despite: Although the queue was long, Emma waited for her coffee.'
+
+#### Clarification Options
+
+- Как понять, во что сворачивать часть — в существительное или в форму на -ing?
+- Почему нельзя сказать Although being tired, ведь смысл понятен?
+- Когда лучше despite, а когда although, если оба верны?
+
+---
+
+### Card 292 · instead of и instead: вместо
+
+**ID:** 292 | **Order:** 3
+
+#### Theory
+
+`despite` говорит: помеха была, а действие всё равно случилось. Теперь возьмём обратный случай — действия не было, вместо него произошло другое. Для этого нужно слово `instead of`, и в курсе оно встречается впервые.
+
+**instead of + вещь**
+
+Порода у него вторая, ровно как у `despite` и `because of`: после связки идёт вещь — существительное или действие в форме на `-ing`.
+
+- **Instead of coffee, Yulia ordered green tea.**
+- **Instead of taking a taxi, we walked to the station.**
+
+Никакого нового устройства опять нет — работает тот же вопрос, что и всю тему: что стоит после связки.
+
+**Ловушка:** русское «вместо» — одно слово, и рука ставит одно слово по-английски: **instead tea** ✗. Но `instead of` неделимо, как `because of`: если после связки названо то, что заменили, `of` обязателен — **instead of tea** ✓.
+
+**instead без of — это уже наречие**
+
+Когда заменённое названо раньше и повторять его незачем, `instead` работает в одиночку. Но тогда это уже не связка, а наречие со значением «вместо этого», и место у него в конце фразы:
+
+- **The lift was broken. We took the stairs instead.**
+- **Sara didn't want coffee. She had juice instead.**
+
+Проверка занимает секунду: посмотри, стоит ли после `instead` то, что заменили. Стоит — нужен `of`. Фраза на нём заканчивается — `of` не нужен.
+
+**Близнецы с противоположным смыслом**
+
+`despite` и `instead of` устроены одинаково: обе связки второй породы, обе берут после себя вещь, обе легко ставятся в начало предложения. А говорят они прямо противоположное:
+
+| Связка | Что случилось с действием |
+|---|---|
+| despite | помеха была, действие всё равно состоялось |
+| instead of | действия не было, вместо него случилось другое |
+
+- **Despite the rain, we walked in the park.** — дождь шёл, а гулять всё равно пошли.
+- **Instead of walking in the park, we sat in a café.** — гулять не пошли вовсе, сидели в кафе.
+
+Форма одна и та же, поэтому различать их приходится только по смыслу — и это единственное, что нужно запомнить про эту пару.
+
+**Кстати:** оборот `instead of` с формой на `-ing` — один из самых обиходных способов дать совет или упрекнуть: **Instead of watching videos, finish your homework.** По-русски это ровно «вместо того чтобы смотреть видео».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`instead of` — «вместо»: связка второй породы, после неё идёт вещь, то есть существительное или действие в форме на `-ing` (**instead of coffee**, **instead of taking a taxi**). Связка неделима: **instead tea** ✗, верно **instead of tea** ✓. Без `of` слово работает наречием «вместо этого» и стоит в конце фразы, когда заменённое названо раньше: **The lift was broken. We took the stairs instead.** Проверка: после `instead` названо то, что заменили, — нужен `of`; фраза на нём заканчивается — `of` не нужен. `despite` и `instead of` устроены одинаково, но говорят противоположное: при `despite` действие всё равно состоялось, при `instead of` его не было и случилось другое.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1229 | Вместо кофе Юля заказала зелёный чай. | Instead of coffee, Yulia ordered green tea. |
+| 1230 | Вместо того чтобы взять такси, мы дошли до вокзала пешком. | Instead of taking a taxi, we walked to the station. |
+| 1231 | Лифт не работал. Мы пошли по лестнице. | The lift was broken. We took the stairs instead. |
+| 1232 | Сара не хотела кофе. Она выпила сок. | Sara didn't want coffee. She had juice instead. |
+| 1233 | Вместо того чтобы смотреть видео, доделай домашнюю работу. | Instead of watching videos, finish your homework. |
+
+---
+
+#### Exercises
+
+**Ex 41 · MultipleChoice · CHOICE** *(ID: 126)*
+
+"The café had no green tea, so Katya ordered coffee ___."
+
+- **instead** ✓
+- instead of
+- despite
+
+*Explanation:* Заменённый напиток назван раньше, в первой части, поэтому повторять его не нужно — фраза заканчивается наречием instead. Форма instead of потребовала бы после себя вещь, а despite сказало бы, что чай был, но кофе заказали всё равно.
+
+---
+
+**Ex 42 · ConstructionMeaning** *(ID: 22)*
+
+Выбери правильный перевод:
+
+"Instead of taking the bus, Kolya walked to work."
+
+- Несмотря на автобус, Коля пошёл на работу пешком.
+- Коля доехал на автобусе, а дальше пошёл пешком.
+- **Вместо того чтобы поехать на автобусе, Коля пошёл на работу пешком.** ✓
+- Коля пошёл на работу пешком, потому что автобуса не было.
+
+*Explanation:* Instead of называет то, что заменили: автобуса не было в планах Коли вовсе, вместо поездки он пошёл пешком. Первый вариант подставляет смысл despite, второй соединяет оба действия, а третий превращает замену в причину.
+
+---
+
+**Ex 43 · DialogRestore** *(ID: 24)*
+
+A: "Did you take the bus to the museum?"
+B: ___
+
+- No, we walked instead of.
+- **No, we walked instead.** ✓
+- No, instead of we walked.
+
+*Explanation:* Автобус назван в вопросе, повторять его не нужно, поэтому фраза заканчивается наречием instead. В первом варианте of повис без вещи после себя, во втором связка instead of поставлена перед целой частью, а такую она не держит.
+
+---
+
+**Ex 44 · WordArrangement** *(ID: 115)*
+
+Ситуация: Ты рассказываешь, что в кино вы не пошли, а посидели в кафе.
+
+Правильное предложение: **Instead of going to the cinema, we sat in a café.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Instead of | — |
+| going | — |
+| to the cinema | — |
+| we sat | — |
+| in a café | — |
+| Instead | ✗ |
+| Despite | ✗ |
+| went | ✗ |
+
+*Explanation:* Заменённое действие названо прямо здесь, поэтому нужна полная связка instead of, а после неё действие превращается в вещь формой going. Одинокое Instead работает только в конце фразы, Despite сказало бы, что в кино вы всё-таки сходили, а went — личная форма глагола, которую связка второй породы не берёт.
+
+---
+
+**Ex 45 · FindTheOdd** *(ID: 57)*
+
+В трёх предложениях помеха не помешала действию. Найди лишнее:
+
+- Despite the cold, Lucy went for a walk.
+- **Instead of the bus, Vika took a taxi.** ✓
+- In spite of the noise, Roma fell asleep.
+- Despite the late hour, the shop was still open.
+
+*Explanation:* В лишнем предложении первое действие не состоялось вовсе: автобуса не было, вместо него было такси — это замена, работа instead of. В остальных трёх помеха была, но действие всё равно случилось, и это уступка.
+
+---
+
+#### AI Exercise
+
+**ID:** linking_card292_ex1
+**Title:** "Вопреки или вместо"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Вставьте в каждое предложение подходящую связку."
+**Prompt Template:** "Тема упражнения — выбор между уступкой и заменой. РОВНО ТРИ средства, и вот всё, что пользователю про них рассказали, за эти рамки не выходи: despite и in spite of — «несмотря на», помеха была, но действие всё равно состоялось, после связки идёт вещь, то есть существительное или действие в форме на -ing, причём у despite нет of, а внутри in spite of он обязателен; instead of — «вместо», первое действие не состоялось вовсе и вместо него случилось другое, после связки идёт такая же вещь; instead без of — наречие «вместо этого», оно ставится в конце фразы, когда заменённое уже названо раньше. Никаких других связок в этом упражнении НЕ существует: although, even though, however, whereas, because, because of, so, therefore и любые другие не используй ни в пропусках, ни в объяснениях. Что пользователь знает из грамматики: Present Simple, Present Continuous, Past Simple, Past Continuous, базовый пассив. Дай пользователю сразу несколько английских предложений с пропуском вместо связки, всего 3, и распредели их так: одно на уступку, одно на замену в начале предложения, одно на наречие в конце фразы. Каждое предложение строй так, чтобы верный ответ выводился однозначно: при уступке помеха и действие идут вразрез, при замене названы два действия или два предмета, из которых состоялось второе, а для наречия заменённое обязано быть названо в предыдущей части, и пропуск стоит в самом конце. Требования к предложениям: 7-10 слов, ТОЛЬКО самые простые бытовые слова уровня начинающего (to rain, to snow, to close, to walk, to wait, to open, to order, to take, a bus, a taxi, a shop, a lift, a queue, stairs, tea, coffee, juice, the rain, the snow, the noise, the cold, tired, ill, late, busy, closed), разные ситуации, никаких редких и книжных слов. Там, где верна уступка, засчитывай одинаково despite и in spite of. Там, где пропуск стоит в конце фразы, засчитывай только instead без of. Если пользователь поставил instead of в конце фразы или instead без of перед вещью, покажи верный вариант и объясни по-русски одной фразой, что связка требует вещи после себя, а наречие ставится в конец. Если пользователь перепутал уступку и замену, объясни по-русски одной фразой, состоялось действие или нет. Объясняй только тем, что перечислено выше, и не добавляй новых правил. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: '1. [___] the heavy snow, the shop opened at eight. 2. [___] ordering coffee, Vera asked for juice. 3. The bus didn't come, so we walked [___].'
+
+#### Clarification Options
+
+- Почему нельзя сказать instead tea, если по-русски «вместо» — одно слово?
+- Как отличить despite от instead of, если после обоих стоит одно и то же?
+- Когда instead ставится в конец фразы, а когда нужна полная связка?
+
+---
+
+### Words8r Sync · Вопреки и вместо
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| despite | несмотря на | [dɪˈspaɪt] |
+| in spite of | несмотря на, вопреки | [ɪn ˈspaɪt əv] |
+| instead of | вместо | [ɪnˈsted əv] |
+| instead | вместо этого, взамен | [ɪnˈsted] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 17 | 18 |
 | Category | 2 | 3 |
-| Microtopic | 101 | 102 |
-| Card | 289 | 290 |
-| Example | 1218 | 1219 |
-| Слова курса (course_word) | 518 | 519 |
-| MultipleChoice · CHOICE | 124 | 125 |
-| MultipleChoice · FORWARD_CHOICE | 148 | 149 |
+| Microtopic | 102 | 103 |
+| Card | 292 | 293 |
+| Example | 1233 | 1234 |
+| Слова курса (course_word) | 522 | 523 |
+| MultipleChoice · CHOICE | 126 | 127 |
+| MultipleChoice · FORWARD_CHOICE | 149 | 150 |
 | MultipleChoice · REVERSE_CHOICE | 38 | 39 |
-| TrueFalse | 131 | 132 |
-| WordArrangement | 113 | 114 |
-| TextInput | 50 | 51 |
+| TrueFalse | 132 | 133 |
+| WordArrangement | 115 | 116 |
+| TextInput | 51 | 52 |
 | Matching | 40 | 41 |
-| Transformation | 40 | 41 |
-| ErrorCorrection | 109 | 110 |
+| Transformation | 41 | 42 |
+| ErrorCorrection | 110 | 111 |
 | TableFill | 26 | 27 |
-| FindTheOdd | 56 | 57 |
-| ConstructionMeaning | 21 | 22 |
-| Categorization | 59 | 60 |
-| DialogRestore | 23 | 24 |
+| FindTheOdd | 57 | 58 |
+| ConstructionMeaning | 22 | 23 |
+| Categorization | 60 | 61 |
+| DialogRestore | 24 | 25 |

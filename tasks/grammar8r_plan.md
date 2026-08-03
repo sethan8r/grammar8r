@@ -1675,7 +1675,7 @@ theory/
 │   │       but · or · however · although/even though · whereas), связка выводится из знаков вокруг
 │   │       пропуска и смысла частей; although↔even though и but↔whereas засчитываются обоюдно.
 │   │
-│   ├── MT102 · Despite / Instead · Вопреки и вместо  (3 карточки)
+│   ├── MT102 · Despite / Instead · Вопреки и вместо  (3 карточки) ✅ (написана, ALL GREEN 03.08.26)
 │   │   ├── Card 290 · despite / in spite of + существительное / -ing. Ловушка: despite he was tired ✗.
 │   │   ├── Card 291 · although ↔ despite — одна мысль, две упаковки; переписывание туда-обратно.
 │   │   └── Card 292 · instead of / instead ⚠️ ПЕРВОЕ ЗНАКОМСТВО (слова в курсе не было ни разу).
