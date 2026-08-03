@@ -28,6 +28,12 @@
       "topicId": 17,
       "title": "Result · Результат",
       "order": 3
+    },
+    {
+      "id": 101,
+      "topicId": 17,
+      "title": "Contrast · Противопоставление",
+      "order": 4
     }
   ],
   "grammar_cards": [
@@ -970,6 +976,387 @@
         "Чем as a result отличается от as a result of?",
         "Когда therefore уместно, а когда лучше обычное so?"
       ]
+    },
+    {
+      "id": 287,
+      "microtopicId": 101,
+      "title": "but: одно английское слово на русские «но» и «а»",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Со связкой `but` мы знакомились в «Основах»: она соединяет две мысли, вторая из которых идёт вразрез с первой. Там же разбирали ловушку «but — это не because». Всё остальное про неё сказано не было, а сказать есть что: русскому здесь мешает не значение слова, а то, что в родном языке таких слов два."
+        },
+        {
+          "type": "heading",
+          "text": "Русских слов два, английское одно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский различает противопоставление по силе. «Но» — противоречие ожиданию: «Устал, но пошёл на работу» (ждали, что ляжет спать, — а он пошёл). «А» — простое сопоставление двух разных картинок: «Я работаю, а он спит» (никто ничего не нарушал, просто мы разные)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский обходится одним словом на оба случая:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was tired, but I went to work.** — русское «но»;",
+            "**I work, but he sleeps.** — русское «а»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда самая частая ошибка темы. Под «а» мозг ищет отдельное слово, `but` кажется слишком сильным — и рука ставит `and`. Противопоставление при этом испаряется: остаётся ровное перечисление, «и он спит»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Я люблю чай, а сестра — кофе» превращается в **I like tea and my sister likes coffee** ✗ — по-английски это звучит как список: сначала одно, потом другое, разницы между ними никакой. Верно — **I like tea, but my sister likes coffee** ✓. Правило простое: если по-русски стоит «а» в смысле «зато у другого иначе», по-английски там `but`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Запятая перед but — по тому же правилу, что перед so"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы вывели его в микротеме «Результат»: союз соединяет равных, и на стыке двух **полных** частей ставится запятая. `but` — тот же союз, значит и правило то же:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Kate called me, but I was busy.** ✓ — справа целая часть: есть `I`, есть `was`;",
+            "**Kate called me but said nothing.** ✓ — справа только второй глагол, подлежащее одно на двоих, стык неполный — запятая не нужна."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка за секунду: закрой всё до `but` и посмотри, стоит ли справа самостоятельное предложение. Стоит — запятая; не стоит — нет."
+        },
+        {
+          "type": "heading",
+          "text": "В отрицании работает не and, а or"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё одно место, где русское «и» уводит не туда. «Я не люблю чай и кофе» по-английски звучит так: **I don't like tea or coffee.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина в том, как отрицание накрывает список. `I don't like tea and coffee` понимается буквально: не люблю их **вместе**, в паре, — а по отдельности, выходит, люблю. Чтобы отрицание накрыло каждый предмет по одному, английский переключает союз на `or`: ни то, ни другое."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Nick doesn't have a car or a bike.** — нет ни машины, ни велосипеда."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Начинать предложение с `But` в живой речи совершенно нормально — так говорят постоянно. А вот в письменном тексте это считают небрежностью, и там у `but` есть официальный сменщик. Как раз о нём следующая карточка."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В русском два слова противопоставления — «но» (противоречие ожиданию) и «а» (сопоставление двух разных картинок), в английском на оба одно `but`: **I was tired, but I went to work** и **I work, but he sleeps**. Главная ошибка — ставить под русское «а» союз `and`: **I like tea and my sister likes coffee** ✗ звучит перечислением, верно **I like tea, but my sister likes coffee** ✓. Запятая перед `but` — по правилу союза, как перед `so`: справа целая часть с подлежащим и глаголом → запятая нужна (**Kate called me, but I was busy**), справа только второй глагол при том же подлежащем → не нужна (**Kate called me but said nothing**). В отрицании список соединяет `or`, а не `and`: **I don't like tea or coffee**.",
+      "examples": [
+        {
+          "ru": "Я устал, но пошёл на работу.",
+          "en": "I was tired, but I went to work."
+        },
+        {
+          "ru": "Я работаю, а он спит.",
+          "en": "I work, but he sleeps."
+        },
+        {
+          "ru": "Катя позвонила мне, но я был занят.",
+          "en": "Kate called me, but I was busy."
+        },
+        {
+          "ru": "Катя позвонила мне, но ничего не сказала.",
+          "en": "Kate called me but said nothing."
+        },
+        {
+          "ru": "Я не люблю чай и кофе.",
+          "en": "I don't like tea or coffee."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему под русское «а» нельзя поставить and, ведь смысл вроде бы понятен?",
+        "Как быстро понять, нужна запятая перед but или нет?",
+        "Почему в отрицании ставят or, если по-русски там «и»?"
+      ]
+    },
+    {
+      "id": 288,
+      "microtopicId": 101,
+      "title": "however: тот же but, но для письменного яруса",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "С результатом мы это уже проходили: разговорное `so` в письменном тексте меняется на `therefore` и `as a result`. С противопоставлением история ровно такая же: у разговорного `but` есть официальный сменщик — `however`, «однако»."
+        },
+        {
+          "type": "heading",
+          "text": "Порода знакомая: это не союз"
+        },
+        {
+          "type": "paragraph",
+          "text": "`however` ведёт себя не как `but`, а как `therefore`: это **вводное слово**, а не союз. Склеить им две части в одно предложение нельзя — ему нужна законченная фраза перед собой, то есть точка, а после самого слова ставится запятая:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The plan was good. However, nobody supported it.** ✓",
+            "**The plan was good, however nobody supported it.** ✗"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило заново выводить не нужно — это та же порода, что и в микротеме «Результат», просто вторая пара слов. `but` и `so` — союзы, соединяют части внутри предложения через запятую. `however` и `therefore` — вводные, начинают новое предложение после точки."
+        },
+        {
+          "type": "heading",
+          "text": "Где стоит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обычное место — начало нового предложения. Но `however` умеет вставать и в середину, между частями фразы, и тогда его выделяют запятыми с двух сторон: **We decided, however, to wait.** Так пишут в документах и деловых письмах; для начала достаточно позиции в начале — она уместна всегда."
+        },
+        {
+          "type": "heading",
+          "text": "Ради чего это слово нужно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот практическая причина держать `however` в голове. Начинать предложение с `But` в живой речи нормально — но в письме это выглядит небрежно, и то же самое касается `And` в начале. Хорошая новость: заменять их есть чем, и оба сменщика уже знакомы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "вместо `But` в начале предложения — **However,**",
+            "вместо `And so` в начале — **Therefore,** или **As a result,**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`However` в переписке с приятелем звучит так же чопорно, как `therefore`: написать другу **I wanted to come. However, I was busy** — это примерно русское «Я хотел прийти. Однако был занят». В разговоре живёт `but`, а `however` остаётся письму, отчётам и новостям."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У слова `however` есть и второе значение — «как бы ни, сколько бы ни»: **However hard he tried, nothing worked** («как бы он ни старался»). Это уже другая конструкция, и разбирать её мы будем позже; пока достаточно узнавать её в чужой речи и не путать с вводным «однако»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`however` — «однако», письменная замена `but`. Порода у него та же, что у `therefore`: это **не союз**, а вводное слово, поэтому оно не склеивает части, а начинает новое предложение после точки, и после него ставится запятая — **The plan was good. However, nobody supported it.** Склейка через запятую — ошибка: **The plan was good, however nobody supported it** ✗. Второе возможное место — середина фразы, с запятыми с двух сторон: **We decided, however, to wait.** Практическая польза: начинать письменный текст с `But` считается небрежностью, и `However,` — это то, чем `But` в начале предложения заменяют (как `Therefore,` заменяет `so`). В разговоре `however` звучит слишком официально — там работает `but`.",
+      "examples": [
+        {
+          "ru": "План был хороший. Однако никто его не поддержал.",
+          "en": "The plan was good. However, nobody supported it."
+        },
+        {
+          "ru": "Комната была маленькая. Однако она была очень чистая.",
+          "en": "The room was small. However, it was very clean."
+        },
+        {
+          "ru": "Мы решили, однако, подождать.",
+          "en": "We decided, however, to wait."
+        },
+        {
+          "ru": "Погода была холодная. Однако мы гуляли два часа.",
+          "en": "The weather was cold. However, we walked for two hours."
+        },
+        {
+          "ru": "Магазин был маленький. Однако там было всё, что нам нужно.",
+          "en": "The shop was small. However, it had everything we needed."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем however отличается от but, если переводятся они почти одинаково?",
+        "Почему перед however нужна точка, а перед but достаточно запятой?",
+        "Правда ли, что начинать предложение с But нельзя?"
+      ]
+    },
+    {
+      "id": 289,
+      "microtopicId": 101,
+      "title": "although, even though, whereas: уступка и сопоставление",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`but` и `however` ставятся на стык двух самостоятельных мыслей. Но противопоставление можно упаковать и иначе — сразу сказать «хотя», сделав одну из частей уступкой. Для этого есть `although` и его родня. Порода у всех первая: после них идёт **целая часть** с подлежащим и глаголом."
+        },
+        {
+          "type": "heading",
+          "text": "although — «хотя»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Уступка значит вот что: первая часть создаёт ожидание, а вторая всё равно происходит вопреки ему."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Although the shop was closed, we found bread nearby.**",
+            "**Ben went to work although he felt sick.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Место у `although` свободное, как у `because`: часть с ним может стоять первой, и тогда на стыке ставится запятая, а может второй — тогда запятой нет. Правило то же, что мы выводили на причине, и держать в голове второе не нужно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский строит уступку двумя словами сразу — «Хотя он устал, **но** он закончил работу». Обе половины кажутся обязательными, и по-английски выходит **Although he was tired, but he finished the work** ✗. Английскому хватает одной связки на один стык: либо **Although he was tired, he finished the work** ✓, либо **He was tired, but he finished the work** ✓. Это ровно та же болезнь, что «потому что… поэтому…»: два союза на одну связь."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "even though — то же самое, но сильнее"
+        },
+        {
+          "type": "paragraph",
+          "text": "`even though` — усиленное `although`, по-русски ближе к «даже несмотря на то, что». Смысл и порода те же, отличается только громкость: контраст подаётся как более неожиданный."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Even though it was raining, the children played outside.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`though` в разговорной речи работает и само по себе, в конце фразы, где значит «правда, всё-таки»: **It was expensive. I bought it, though.** Отдельно разбирать его не будем — достаточно узнавать."
+        },
+        {
+          "type": "heading",
+          "text": "whereas — не уступка, а сопоставление"
+        },
+        {
+          "type": "paragraph",
+          "text": "`whereas` («тогда как») выглядит соседом `although`, но делает другую работу. Уступка — это когда вторая часть нарушает ожидание. Сопоставление — когда никто ничего не нарушает, просто две разные картинки стоят рядом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Tom likes tea, whereas his sister prefers coffee.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Узнаёшь? Это та самая работа русского «а», которую в разговоре тянет на себе `but`. `whereas` делает то же самое, только на письменном ярусе, и звучит заметно официальнее."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Связка",
+            "Порода",
+            "Работа и ярус"
+          ],
+          "rows": [
+            [
+              "but",
+              "союз, запятая внутри предложения",
+              "«но» и «а», разговор и письмо"
+            ],
+            [
+              "however",
+              "вводное, точка перед, запятая после",
+              "то же противопоставление, письменный ярус"
+            ],
+            [
+              "although, even though",
+              "целая часть после связки",
+              "уступка: вопреки первой части"
+            ],
+            [
+              "whereas",
+              "целая часть после связки",
+              "сопоставление двух разных картинок, официально"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ту же уступку можно сказать и совсем коротко — не целой частью, а одной вещью: `despite` («несмотря на»). Это вторая порода, та же, что у `because of`, и ей посвящена следующая микротема."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`although` — «хотя»: вводит уступку, то есть вторая часть происходит вопреки ожиданию от первой. Порода первая, после связки идёт целая часть с подлежащим и глаголом, а место свободное, как у `because`: стоит первой — запятая на стыке (**Although the shop was closed, we found bread nearby**), стоит второй — запятой нет (**Ben went to work although he felt sick**). Главная ошибка русского — поставить обе связки сразу: **Although he was tired, but he finished the work** ✗; английскому хватает одной. `even though` — то же самое, но контраст сильнее. `though` в конце фразы — разговорное «правда, всё-таки». `whereas` («тогда как») — не уступка, а сопоставление двух разных картинок, письменный двойник русского «а»: **Tom likes tea, whereas his sister prefers coffee**.",
+      "examples": [
+        {
+          "ru": "Хотя магазин был закрыт, мы нашли хлеб рядом.",
+          "en": "Although the shop was closed, we found bread nearby."
+        },
+        {
+          "ru": "Бен пошёл на работу, хотя чувствовал себя плохо.",
+          "en": "Ben went to work although he felt sick."
+        },
+        {
+          "ru": "Хотя шёл дождь, дети играли на улице.",
+          "en": "Even though it was raining, the children played outside."
+        },
+        {
+          "ru": "Том любит чай, тогда как его сестра предпочитает кофе.",
+          "en": "Tom likes tea, whereas his sister prefers coffee."
+        },
+        {
+          "ru": "Это было дорого. Я всё-таки купил.",
+          "en": "It was expensive. I bought it, though."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать «Although he was tired, but he finished» — ведь по-русски так и говорят?",
+        "Чем whereas отличается от although, если оба про разницу?",
+        "Когда запятая при although нужна, а когда нет?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1098,6 +1485,72 @@
       "exerciseType": "MATCHING",
       "exerciseId": 40,
       "orderInCard": 3
+    },
+    {
+      "cardId": 287,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 147,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 287,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 108,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 287,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 112,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 287,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 130,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 288,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 124,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 288,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 50,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 288,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 109,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 289,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 148,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 289,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 56,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 289,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 131,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 289,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 113,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1131,6 +1584,14 @@
       "title": "Скажи формально",
       "userInstruction": "ИИ пришлёт разговорную фразу с so. Перепишите её формально ДВУМЯ способами — через therefore и через as a result of.",
       "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "linking_card289_ex1",
+      "cardId": 289,
+      "title": "Какая связка сюда встанет",
+      "userInstruction": "Вставьте в каждое предложение подходящую связку противопоставления.",
+      "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     }
   ],
@@ -1205,6 +1666,38 @@
       "translation": "вот почему, поэтому",
       "transcription": "[ðæts waɪ]",
       "microtopicId": 100,
+      "categoryId": "linking"
+    },
+    {
+      "id": 515,
+      "word": "however",
+      "translation": "однако, тем не менее",
+      "transcription": "[haʊˈevə]",
+      "microtopicId": 101,
+      "categoryId": "linking"
+    },
+    {
+      "id": 516,
+      "word": "although",
+      "translation": "хотя, несмотря на то что",
+      "transcription": "[ɔːlˈðəʊ]",
+      "microtopicId": 101,
+      "categoryId": "linking"
+    },
+    {
+      "id": 517,
+      "word": "even though",
+      "translation": "хотя, даже несмотря на то что",
+      "transcription": "[ˈiːvn ðəʊ]",
+      "microtopicId": 101,
+      "categoryId": "linking"
+    },
+    {
+      "id": 518,
+      "word": "whereas",
+      "translation": "тогда как, в то время как",
+      "transcription": "[weərˈæz]",
+      "microtopicId": 101,
       "categoryId": "linking"
     }
   ],
@@ -1302,6 +1795,68 @@
         }
       ],
       "explanation": "Строка 2: перед so на стыке двух полных частей нужна запятая. Строка 4: часть с so вынесена вперёд, а результат обязан идти вторым — верно было бы «My car didn't start, so I called a taxi». В строках 1 и 5 so соединяет причину и результат по всем правилам, а в строке 3 оно стоит перед наречием и значит «настолько»."
+    },
+    {
+      "id": 130,
+      "statements": [
+        {
+          "en": "Sara wanted to help, but she had no time.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I don't watch football and hockey.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Tom called me but said nothing.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Nick was ill but he went to school.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She doesn't like tea or coffee.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: в отрицании список соединяет or, а не and. Строка 4: справа от but стоит целая часть с подлежащим и глаголом, значит на стыке нужна запятая. В строке 3 запятой нет по делу — там одно подлежащее на два глагола, а строки 1 и 5 оформлены верно."
+    },
+    {
+      "id": 131,
+      "statements": [
+        {
+          "en": "Although Kate was ill, but she came to class.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Even though the bus was late, Mark got to work on time.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Whereas Lucy works at night, her husband works in the morning.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Although the heavy rain, the game continued.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Paul finished the report although he felt sick.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 1: на одном стыке стоят сразу две связки, although и but, — нужна одна. Строка 4: после although должна идти целая часть с подлежащим и глаголом, а стоит вещь — для вещи есть другие связки. В строках 2, 3 и 5 после связки идёт полноценная часть, и запятая расставлена по месту связки в предложении."
     }
   ],
   "word_arrangement_exercises": [
@@ -1361,6 +1916,43 @@
         "but"
       ],
       "explanation": "Причина стоит первой, результат вторым — такой порядок держит только so. Because развернуло бы предложение задом наперёд, because of не берёт целую часть, so that вводит цель, but противопоставление, а walks — форма настоящего времени, тогда как речь о том, что уже случилось."
+    },
+    {
+      "id": 112,
+      "situationRu": "Ситуация: Ты рассказываешь, что звонил другу, а он не ответил.",
+      "correctSentence": "I called Ben, but he didn't answer.",
+      "words": [
+        "I called",
+        "Ben",
+        "but",
+        "he didn't",
+        "answer"
+      ],
+      "distractors": [
+        "and",
+        "or",
+        "because"
+      ],
+      "explanation": "Вторая часть идёт вразрез с ожиданием от первой, поэтому нужен but. And сделал бы из этого простое перечисление, or предложил бы выбор, а because развернул бы логику на причину."
+    },
+    {
+      "id": 113,
+      "situationRu": "Ситуация: Ты пишешь в отчёте, что брат любит спорт, а ты предпочитаешь книги.",
+      "correctSentence": "My brother loves sport, whereas I prefer books.",
+      "words": [
+        "My brother loves",
+        "sport",
+        "whereas",
+        "I prefer",
+        "books"
+      ],
+      "distractors": [
+        "because",
+        "so",
+        "because of",
+        "however"
+      ],
+      "explanation": "Две разные картинки стоят рядом, никто ничего не нарушает — это сопоставление, и в письменном тексте его вводит whereas. Because развернул бы вторую часть в причину, so в следствие, because of не берёт целую часть, а however не союз и внутри одного предложения через запятую не ставится."
     }
   ],
   "multiple_choice_exercises": [
@@ -1468,6 +2060,69 @@
         }
       ],
       "explanation": "Перед вещью связка звучит целиком — as a result of, и выбросить of нельзя. В третьем варианте после of стоит целая часть с подлежащим и глаголом, а такую эта связка не держит: её кормят только существительным или формой на -ing."
+    },
+    {
+      "id": 147,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Игорь любит рыбу, а его жена — мясо.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Igor likes fish and his wife likes meat.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor likes fish, or his wife likes meat.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor likes fish, but his wife likes meat.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Русское «а» здесь противопоставляет двух людей, и такое противопоставление по-английски держит but. Вариант с and читается как ровное перечисление, без разницы между людьми, а or предложил бы выбор из двух: либо одно, либо другое."
+    },
+    {
+      "id": 124,
+      "choiceType": "CHOICE",
+      "prompt": "The hotel was cheap. ___, the rooms were clean and quiet.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Therefore",
+          "isCorrect": false
+        },
+        {
+          "text": "However",
+          "isCorrect": true
+        },
+        {
+          "text": "As a result",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вторая часть идёт вразрез с ожиданием от первой: дёшево, а всё равно чисто и тихо. Такое противопоставление вводит however. Therefore и as a result назвали бы вторую часть следствием первой, а чистые номера из низкой цены никак не вытекают."
+    },
+    {
+      "id": 148,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Хотя Оля устала, она закончила уборку.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Although Olya was tired, she finished the cleaning.",
+          "isCorrect": true
+        },
+        {
+          "text": "Although Olya was tired, but she finished the cleaning.",
+          "isCorrect": false
+        },
+        {
+          "text": "Although was tired Olya, she finished the cleaning.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "На один стык идёт одна связка: русское «хотя… но…» по-английски превращается в одно although. Третий вариант ломает порядок слов внутри части: после связки всё равно сначала подлежащее, потом глагол."
     }
   ],
   "text_input_exercises": [
@@ -1520,6 +2175,30 @@
         }
       ],
       "explanation": "В первом пункте две части стоят в одном предложении через запятую — там нужен союз so. Во втором перед пропуском точка, а значит начинается новое предложение и требуется вводное слово. В третьем после пропуска идёт вещь, и связка звучит целиком: as a result of."
+    },
+    {
+      "id": 50,
+      "items": [
+        {
+          "sentence": "The car was old, ___ it never broke down.",
+          "contextRu": "",
+          "answer": "but",
+          "alternatives": []
+        },
+        {
+          "sentence": "The team played well. ___, they lost the game.",
+          "contextRu": "",
+          "answer": "However",
+          "alternatives": []
+        },
+        {
+          "sentence": "It started to snow. ___, the match was cancelled.",
+          "contextRu": "",
+          "answer": "Therefore",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом пункте две части стоят внутри одного предложения через запятую, а там нужен союз — but. Во втором и третьем перед пропуском точка, значит начинается новое предложение и нужно вводное слово: however вводит противопоставление, therefore — следствие."
     }
   ],
   "dialog_restore_exercises": [],
@@ -1586,6 +2265,44 @@
         }
       ],
       "explanation": "Therefore не союз и склеить два полных предложения не может — перед ним нужна точка, а не запятая. Убрать запятую совсем или добавить вторую положение не спасает: части всё равно остаются склеенными без союза."
+    },
+    {
+      "id": 108,
+      "wrongSentence": "Grisha doesn't drink milk and juice.",
+      "options": [
+        {
+          "text": "Grisha doesn't drink milk or juice.",
+          "isCorrect": true
+        },
+        {
+          "text": "Grisha doesn't drink milk but juice.",
+          "isCorrect": false
+        },
+        {
+          "text": "Grisha doesn't drink milk and doesn't juice.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В отрицании список соединяет or: так отрицание накрывает каждый напиток по отдельности. С and фраза читается как «не пью их вместе», то есть по отдельности вроде бы пью. Третий вариант вообще оставляет вторую часть без глагола."
+    },
+    {
+      "id": 109,
+      "wrongSentence": "The road was long, however we finished the trip in one day.",
+      "options": [
+        {
+          "text": "The road was long however, we finished the trip in one day.",
+          "isCorrect": false
+        },
+        {
+          "text": "The road was long, however, we finished the trip in one day.",
+          "isCorrect": false
+        },
+        {
+          "text": "The road was long. However, we finished the trip in one day.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "However не союз, поэтому склеить им две части через запятую нельзя — перед ним нужна точка, а после него запятая. Переставить запятую или добавить вторую не помогает: части всё равно остаются в одном предложении без союза."
     }
   ],
   "construction_meaning_exercises": [
@@ -1703,6 +2420,29 @@
         }
       ],
       "explanation": "В лишнем предложении as работает в паре с самим собой — конструкция as … as означает равенство, «такой же тяжёлый, как». В остальных трёх после as идёт целая часть с подлежащим и глаголом, и это причина."
+    },
+    {
+      "id": 56,
+      "groupDescription": "В трёх предложениях связка вводит уступку. Найди лишнее",
+      "items": [
+        {
+          "text": "Although the film was long, nobody left.",
+          "isOdd": false
+        },
+        {
+          "text": "Denis likes winter, whereas his wife hates it.",
+          "isOdd": true
+        },
+        {
+          "text": "Even though the bus was full, Mia found a seat.",
+          "isOdd": false
+        },
+        {
+          "text": "Although the café was busy, we found a table.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В лишнем предложении никто ничего не нарушает: просто две разные картинки рядом, и это сопоставление, работа whereas. В остальных трёх вторая часть идёт вопреки ожиданию от первой — это уступка."
     }
   ]
 }
