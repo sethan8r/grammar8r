@@ -40,6 +40,12 @@
       "topicId": 17,
       "title": "Despite / Instead · Вопреки и вместо",
       "order": 5
+    },
+    {
+      "id": 103,
+      "topicId": 17,
+      "title": "Three Lives of While · Три жизни одного while",
+      "order": 6
     }
   ],
   "grammar_cards": [
@@ -1746,6 +1752,380 @@
         "Как отличить despite от instead of, если после обоих стоит одно и то же?",
         "Когда instead ставится в конец фразы, а когда нужна полная связка?"
       ]
+    },
+    {
+      "id": 293,
+      "microtopicId": 103,
+      "title": "while: пока и хотя",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Слово `while` в курсе не новое. В теме «Past Continuous» мы разбирали его как союз времени — «пока, в то время как», который ставится при том, что тянется: **I was cooking dinner while Nick was washing the car.** Там же мы развели `while`, `when` и `during`, и заново этот разбор давать не будем."
+        },
+        {
+          "type": "paragraph",
+          "text": "Новое здесь другое: у того же самого слова есть вторая работа, и она не про время вообще."
+        },
+        {
+          "type": "heading",
+          "text": "Вторая жизнь: while значит «хотя»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрим на фразу, которую легко услышать на рабочей встрече:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**While I agree with your plan, I think we need more time.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакой одновременности тут нет: двух тянущихся процессов не видно вовсе. Части не идут рядом во времени — они спорят друг с другом. Сначала согласие, потом возражение. По-русски это ровно «хотя»: «Хотя я согласен с твоим планом, думаю, нам нужно больше времени». Значит, `while` здесь делает работу `although` — вводит уступку."
+        },
+        {
+          "type": "heading",
+          "text": "Русский делает ровно то же самое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Может показаться, что английский тут выкидывает фокус, — но нет, русский устроен так же, просто мы этого не замечаем. Возьмём русское «в то время как» и поставим его в два разных предложения:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Он отдыхает, в то время как я работаю» — тут про одновременность: два процесса идут параллельно;",
+            "«Он считает задачу простой, в то время как мне она кажется сложной» — тут никакой одновременности нет, тут столкновение двух мнений."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Одно и то же русское выражение, два совершенно разных смысла, и никто ни разу не путается — смысл достаётся из контекста автоматически. С английским `while` нужно проделать ровно тот же трюк, только сознательно: язык взял одно слово на две работы, потому что для него это одна идея — «одно рядом с другим». Рядом во времени — получается «пока». Рядом вразрез — получается «хотя»."
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит после связки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Порода у `while` первая, причём в обоих значениях: после связки идёт **целая часть** с подлежащим и своим глаголом. Это то самое правило из карточки «Что стоит после связки — целая часть или вещь», и для нового значения в нём ничего не меняется:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**While the tickets were expensive, the concert was worth it.** — после `while` стоит **the tickets were expensive**: есть кто и есть что с ним происходит."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Часть с уступкой почти всегда идёт первой, и на стыке ставится запятая. Поставить её второй грамматика не запрещает, но звучит это тяжело и встречается редко — привыкать стоит к первому месту."
+        },
+        {
+          "type": "heading",
+          "text": "Как отличить два while в чужом тексте"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отличать приходится по смыслу, и подсказка почти всегда лежит рядом с самой связкой:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что вокруг связки",
+            "Значение",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "обе части тянутся, обычно стоят в форме процесса",
+              "пока",
+              "While Sonya was cooking, Ben was setting the table."
+            ],
+            [
+              "части не о времени, а о свойствах или мнениях, и вторая спорит с первой",
+              "хотя",
+              "While the hotel was cheap, the rooms were clean."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка на каждый день ещё проще: подставь вместо `while` русское «пока». Встало — значит время. Не встало, а просится «хотя» — значит уступка."
+        },
+        {
+          "type": "heading",
+          "text": "Зачем нужен ещё один способ сказать «хотя»"
+        },
+        {
+          "type": "paragraph",
+          "text": "У нас уже есть `although` и `even though` — казалось бы, зачем язык держит для той же работы ещё и `while`. Дело в ярусе и оттенке: `while`-уступка звучит сдержаннее и вежливее остальных, поэтому она любимая связка деловой переписки и всякого мягкого несогласия — «в целом я с вами, но есть нюанс»."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Связка",
+            "Ярус",
+            "Оттенок"
+          ],
+          "rows": [
+            [
+              "although",
+              "нейтральный, годится везде",
+              "обычная уступка"
+            ],
+            [
+              "even though",
+              "нейтральный, но громче",
+              "контраст подан как неожиданный"
+            ],
+            [
+              "while",
+              "письменный, вежливый",
+              "мягкое несогласие: согласен, и всё же"
+            ],
+            [
+              "whereas",
+              "письменный",
+              "сопоставление двух разных картинок"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В живом разговоре про кино и погоду `while`-уступку услышишь нечасто — там правят `but` и `although`. А вот в письме, в отчёте и в вежливом споре она на своём месте."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «хотя…, но…» тянет за собой вторую связку, и получается **While I agree with you, but the price is too high** ✗. Это та же болезнь, что мы разбирали на `although`: английскому хватает одной связки на один стык. Верно либо **While I agree with you, the price is too high** ✓, либо **I agree with you, but the price is too high** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Порода забыта, и `while` получает вещь вместо целой части — **While the loud music, I couldn't sleep** ✗. Связка первой породы держит только часть с подлежащим и глаголом: **While the music was loud, I couldn't sleep** ✓. Если очень хочется оставить вещь, для неё есть свои слова: **During the concert, I couldn't sleep** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не путай `while` с `meanwhile` — «тем временем», которое мы видели в теме «Past Continuous». `meanwhile` не союз, оно не соединяет две части внутри одного предложения и никакой уступки не вводит: это связка между двумя отдельными предложениями, и работает она только на времени."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У `while` две работы. Первая, знакомая по теме «Past Continuous», — время: «пока, в то время как» (**I was cooking dinner while Nick was washing the car**). Вторая — уступка, «хотя», та же работа, что у `although`: **While I agree with your plan, I think we need more time**. Порода в обоих значениях первая: после связки идёт целая часть с подлежащим и глаголом, вещь она не держит — **While the loud music** ✗, верно **While the music was loud** ✓. Часть с уступкой почти всегда стоит первой, на стыке запятая. Отличить значения помогает подстановка: встало русское «пока» — время, просится «хотя» — уступка. По ярусу `while`-уступка сдержаннее и вежливее `although`, поэтому живёт в письме и вежливом несогласии. Главная ошибка — вторая связка на том же стыке: **While I agree with you, but the price is too high** ✗.",
+      "examples": [
+        {
+          "ru": "Хотя я согласен с твоим планом, думаю, нам нужно больше времени.",
+          "en": "While I agree with your plan, I think we need more time."
+        },
+        {
+          "ru": "Хотя билеты были дорогие, концерт того стоил.",
+          "en": "While the tickets were expensive, the concert was worth it."
+        },
+        {
+          "ru": "Я готовил ужин, пока Ник мыл машину.",
+          "en": "I was cooking dinner while Nick was washing the car."
+        },
+        {
+          "ru": "Хотя работа хорошо оплачивается, она отнимает все выходные.",
+          "en": "While the job pays well, it takes all your weekends."
+        },
+        {
+          "ru": "Хотя телефон старый, снимает он отлично.",
+          "en": "While the phone is old, it takes great photos."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что while здесь «хотя», а не «пока»?",
+        "Чем while в значении «хотя» отличается от although?",
+        "Почему нельзя сказать While I agree with you, but the price is too high?"
+      ]
+    },
+    {
+      "id": 294,
+      "microtopicId": 103,
+      "title": "a while: то же слово, но существительное",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В первых двух жизнях `while` — служебное слово на стыке двух частей. Третья жизнь совсем другая: с артиклем перед ним это уже не связка, а **существительное** со значением «некоторое время, какое-то время»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Артикль и есть главный сигнал. Перед союзом артикль не поставишь никогда — союз не предмет. А `a while` — именно предмет: отрезок времени, который можно ждать, провести или переждать, ровно как отрезок дороги."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can you wait a while? The doctor is still busy.**",
+            "**Let's sit here a while and then go home.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «подожди немного» состоит из глагола и наречия, существительного там нет вовсе. Поэтому рука сама пишет **Wait while** ✗ — без артикля, будто это связка. Но без артикля `while` остаётся союзом, и язык ждёт после него целую часть, которая так и не приходит. Верно **Wait a while** ✓ — «подожди некоторое время»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сколько времени длилось: for a while"
+        },
+        {
+          "type": "paragraph",
+          "text": "`for` перед отрезком времени мы знаем с «Основ»: он отвечает на вопрос «как долго». С `a while` он работает так же и значит «какое-то время подряд, некоторое время»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We lived in Lisbon for a while and then moved to Porto.**",
+            "**Roma waited for a while and left without an answer.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Через сколько времени начнётся: in a while"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот `in` перед отрезком времени значит не «в течение», а «через» — это тоже из «Основ»: **in an hour** — «через час». Отсюда `in a while` — «через некоторое время», момент в будущем, а не длительность:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I am busy now. I will call you back in a while.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обе конструкции по-русски начинаются с предлога, и в голове они склеиваются — отсюда **We lived there in a while** ✗ вместо `for a while`. Разводить их проще всего вопросом: `for a while` отвечает на «как долго это длилось», `in a while` — на «через сколько это случится». Первое смотрит назад или тянется, второе смотрит вперёд."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как часто: once in a while"
+        },
+        {
+          "type": "paragraph",
+          "text": "Третье выражение отвечает уже на вопрос «как часто» и значит «время от времени, изредка»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Once in a while we order pizza instead of cooking.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По смыслу это `sometimes`, только реже и с оттенком «не каждый день, но случается». Обрати внимание: `once` тут не про «однажды» и не про счёт — вся тройка слов работает как одно наречие частоты, разбирать её по частям бесполезно."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Выражение",
+            "На какой вопрос отвечает",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "a while",
+              "сколько-то времени как отрезок",
+              "Let us rest a while."
+            ],
+            [
+              "for a while",
+              "как долго длилось",
+              "We lived in Lisbon for a while."
+            ],
+            [
+              "in a while",
+              "через сколько случится",
+              "I will call you back in a while."
+            ],
+            [
+              "once in a while",
+              "как часто",
+              "Once in a while we order pizza."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть готовая фраза-приветствие **It's been a while!** — «Давно не виделись!». Внутри неё спрятано время, которого мы ещё не проходили (буквально это «прошло некоторое время»), поэтому сейчас берём её целиком, как есть, и просто узнаём при встрече. Разберём устройство в теме «Present Perfect» — там станет видно, откуда взялось `been`, и фраза сложится сама."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "С артиклем `while` перестаёт быть связкой и становится существительным «некоторое время»: **Can you wait a while?** Артикль и есть сигнал — перед союзом его не бывает, поэтому **Wait while** ✗, верно **Wait a while** ✓. Дальше решают предлоги, знакомые с «Основ»: `for a while` — «какое-то время подряд», отвечает на вопрос «как долго» (**We lived in Lisbon for a while**); `in a while` — «через некоторое время», момент в будущем (**I will call you back in a while**); `once in a while` — «время от времени», отвечает на вопрос «как часто» (**Once in a while we order pizza**). Готовая фраза **It's been a while!** значит «Давно не виделись!» — берём её целиком, устройство разберём в теме «Present Perfect».",
+      "examples": [
+        {
+          "ru": "Подождёшь немного? Врач ещё занят.",
+          "en": "Can you wait a while? The doctor is still busy."
+        },
+        {
+          "ru": "Мы какое-то время жили в Лиссабоне, а потом переехали в Порту.",
+          "en": "We lived in Lisbon for a while and then moved to Porto."
+        },
+        {
+          "ru": "Я сейчас занят. Перезвоню через некоторое время.",
+          "en": "I am busy now. I will call you back in a while."
+        },
+        {
+          "ru": "Время от времени мы заказываем пиццу вместо готовки.",
+          "en": "Once in a while we order pizza instead of cooking."
+        },
+        {
+          "ru": "Привет! Давно не виделись!",
+          "en": "Hi! It's been a while!"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему Wait while нельзя, а Wait a while можно?",
+        "Как не перепутать for a while и in a while?",
+        "Что именно значит once in a while и чем оно отличается от sometimes?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2018,6 +2398,66 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 57,
       "orderInCard": 4
+    },
+    {
+      "cardId": 293,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 39,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 293,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 61,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 293,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 133,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 293,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 116,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 293,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 42,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 294,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 127,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 294,
+      "exerciseType": "MATCHING",
+      "exerciseId": 41,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 294,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 52,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 294,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 25,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 294,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 111,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -2074,6 +2514,14 @@
       "cardId": 292,
       "title": "Вопреки или вместо",
       "userInstruction": "Вставьте в каждое предложение подходящую связку.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "linking_card294_ex1",
+      "cardId": 294,
+      "title": "Как долго, через сколько, как часто",
+      "userInstruction": "Вставьте в каждое предложение подходящее выражение со словом while.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     }
@@ -2213,6 +2661,30 @@
       "translation": "вместо этого, взамен",
       "transcription": "[ɪnˈsted]",
       "microtopicId": 102,
+      "categoryId": "linking"
+    },
+    {
+      "id": 523,
+      "word": "a while",
+      "translation": "некоторое время, какое-то время",
+      "transcription": "[ə waɪl]",
+      "microtopicId": 103,
+      "categoryId": "linking"
+    },
+    {
+      "id": 524,
+      "word": "in a while",
+      "translation": "через некоторое время",
+      "transcription": "[ɪn ə waɪl]",
+      "microtopicId": 103,
+      "categoryId": "linking"
+    },
+    {
+      "id": 525,
+      "word": "once in a while",
+      "translation": "время от времени, изредка",
+      "transcription": "[wʌns ɪn ə waɪl]",
+      "microtopicId": 103,
       "categoryId": "linking"
     }
   ],
@@ -2403,6 +2875,37 @@
         }
       ],
       "explanation": "Строка 2: у despite нет of. Строка 4: после despite стоит целая часть с подлежащим и глаголом, а связка держит только вещь. В строках 1, 3 и 5 после связки стоит вещь, и обе формы записаны целиком, без потерянного и без лишнего of."
+    },
+    {
+      "id": 133,
+      "statements": [
+        {
+          "en": "While the room was cold, but Yulia slept well.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "While the coffee was cold, Vika drank it all.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "While the long queue, Nastya bought the tickets.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Lena was reading while her brother was playing the guitar.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "While Prague is not big, it has a lot of museums.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 1: на одном стыке стоят сразу две связки, while и but, — нужна одна. Строка 3: после while стоит вещь без своего глагола, а связка первой породы держит только целую часть. В строках 2, 4 и 5 после while идёт полноценная часть с подлежащим и глаголом."
     }
   ],
   "word_arrangement_exercises": [
@@ -2535,6 +3038,25 @@
         "went"
       ],
       "explanation": "Заменённое действие названо прямо здесь, поэтому нужна полная связка instead of, а после неё действие превращается в вещь формой going. Одинокое Instead работает только в конце фразы, Despite сказало бы, что в кино вы всё-таки сходили, а went — личная форма глагола, которую связка второй породы не берёт."
+    },
+    {
+      "id": 116,
+      "situationRu": "Ситуация: На встрече ты вежливо возражаешь: идея тебе нравится, но денег на неё нет.",
+      "correctSentence": "While I like the idea, we have no money for it.",
+      "words": [
+        "While",
+        "I like",
+        "the idea",
+        "we have",
+        "no money for it"
+      ],
+      "distractors": [
+        "but",
+        "Despite",
+        "During",
+        "I liked"
+      ],
+      "explanation": "Согласие и возражение стоят вразрез, поэтому нужна уступка, и вежливее всего её вводит while. Вторая связка but на том же стыке лишняя, Despite и During берут после себя вещь, а не целую часть, а форма liked увела бы всё в прошлое, хотя речь идёт о сейчас."
     }
   ],
   "multiple_choice_exercises": [
@@ -2768,6 +3290,48 @@
         }
       ],
       "explanation": "Заменённый напиток назван раньше, в первой части, поэтому повторять его не нужно — фраза заканчивается наречием instead. Форма instead of потребовала бы после себя вещь, а despite сказало бы, что чай был, но кофе заказали всё равно."
+    },
+    {
+      "id": 39,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "While the flat was small, it felt very comfortable.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Хотя квартира была маленькая, в ней было очень уютно.",
+          "isCorrect": true
+        },
+        {
+          "text": "Пока квартира была маленькая, в ней было очень уютно.",
+          "isCorrect": false
+        },
+        {
+          "text": "Квартира была маленькая, поэтому в ней было очень уютно.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Ни один процесс здесь не тянется, зато вторая часть идёт вразрез с первой: маленькая — и всё равно уютно. Это уступка, и переводится она как «хотя». Второй вариант тянет значение времени, где его нет, а третий превращает контраст в причину."
+    },
+    {
+      "id": 127,
+      "choiceType": "CHOICE",
+      "prompt": "The queue is very long. We will have to stand here ___.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "while",
+          "isCorrect": false
+        },
+        {
+          "text": "for while",
+          "isCorrect": false
+        },
+        {
+          "text": "a while",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "После глагола стоит не вторая часть предложения, а отрезок времени, и отрезок этот — существительное с артиклем. Голое while осталось бы союзом и потребовало бы после себя целую часть с подлежащим и глаголом, а в варианте for while потерян артикль, без которого существительного не получается."
     }
   ],
   "text_input_exercises": [
@@ -2868,6 +3432,30 @@
         }
       ],
       "explanation": "В первом и третьем пунктах связка звучит целиком — in spite of, и разрывать её нельзя. Во втором после despite идёт состояние, а состояние сворачивается в вещь через being: was tired превращается в being tired."
+    },
+    {
+      "id": 52,
+      "items": [
+        {
+          "sentence": "The doctor is with a patient. He will see you ___ a while.",
+          "contextRu": "",
+          "answer": "in",
+          "alternatives": []
+        },
+        {
+          "sentence": "Mia lived with her aunt ___ a while and then rented a flat.",
+          "contextRu": "",
+          "answer": "for",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ in a while Denis goes to the pool after work.",
+          "contextRu": "",
+          "answer": "Once",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом предложении приём случится через какое-то время в будущем — это in. Во втором жизнь у тёти длилась и потом кончилась, вопрос тут «как долго», — это for. В третьем речь о том, как часто это бывает, и вся тройка once in a while работает как одно выражение частоты."
     }
   ],
   "dialog_restore_exercises": [
@@ -2898,6 +3486,34 @@
         }
       ],
       "explanation": "Автобус назван в вопросе, повторять его не нужно, поэтому фраза заканчивается наречием instead. В первом варианте of повис без вещи после себя, во втором связка instead of поставлена перед целой частью, а такую она не держит."
+    },
+    {
+      "id": 25,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Sonya! I didn't see you all summer."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, it's been while!",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, it's been a while!",
+          "isCorrect": true
+        },
+        {
+          "text": "Yes, it's been once in a while!",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "При встрече со старым знакомым говорят готовую фразу It's been a while — «Давно не виделись». В первом варианте потерян артикль, без которого существительного не получается, а once in a while отвечает на вопрос «как часто» и в приветствие не встаёт."
     }
   ],
   "matching_exercises": [
@@ -2923,6 +3539,29 @@
         }
       ],
       "explanation": "Каждая правая часть — самостоятельное предложение, которое начинается с вводной связки результата и объясняет, что вышло из левой части. Обе связки значат одно и то же и стоят в начале нового предложения, после точки."
+    },
+    {
+      "id": 41,
+      "taskDescription": "Соедини выражение с его смыслом.",
+      "pairs": [
+        {
+          "left": "for a while",
+          "right": "какое-то время подряд"
+        },
+        {
+          "left": "in a while",
+          "right": "через некоторое время"
+        },
+        {
+          "left": "once in a while",
+          "right": "время от времени"
+        },
+        {
+          "left": "It's been a while!",
+          "right": "Давно не виделись!"
+        }
+      ],
+      "explanation": "Предлог решает всё: for отвечает на вопрос «как долго», in — на вопрос «через сколько». Once in a while отвечает уже на вопрос «как часто», а It's been a while — готовая фраза при встрече со старым знакомым."
     }
   ],
   "error_correction_exercises": [
@@ -3020,6 +3659,25 @@
         }
       ],
       "explanation": "У despite нет of — оно принадлежит только обороту in spite of. Второй вариант убирает of, но кормит связку целой частью, а третий делает обратную ошибку: теряет of там, где он обязателен."
+    },
+    {
+      "id": 111,
+      "wrongSentence": "Stay while, we will have tea together.",
+      "options": [
+        {
+          "text": "Stay a while, we will have tea together.",
+          "isCorrect": true
+        },
+        {
+          "text": "Stay in a while, we will have tea together.",
+          "isCorrect": false
+        },
+        {
+          "text": "Stay for while, we will have tea together.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Остаются не на связку, а на отрезок времени, и отрезок этот — существительное с артиклем: stay a while. Вариант in a while сказал бы, что остаться надо начать через некоторое время, а в for while снова потерян артикль."
     }
   ],
   "construction_meaning_exercises": [
@@ -3127,6 +3785,25 @@
         }
       ],
       "explanation": "Целая часть сворачивается в вещь: готовое существительное берётся как есть (it was snowing даёт the snow), состояние со связкой be превращается в форму с being, а признак переезжает к существительному (the room was small даёт the small room). Само although из предложения уходит совсем."
+    },
+    {
+      "id": 42,
+      "taskDescription": "Перепиши предложение, заменив although на while.",
+      "items": [
+        {
+          "original": "Although the car is old, it works.",
+          "transformed": "While the car is old, it works."
+        },
+        {
+          "original": "Although the book is long, it is easy.",
+          "transformed": "While the book is long, it is easy."
+        },
+        {
+          "original": "Although Vera is young, she teaches well.",
+          "transformed": "While Vera is young, she teaches well."
+        }
+      ],
+      "explanation": "В значении уступки while и although взаимозаменяемы: обе связки первой породы, обе берут после себя целую часть, и порядок слов внутри частей не меняется. Меняется только ярус — с while фраза звучит сдержаннее и письменнее."
     }
   ],
   "categorization_exercises": [
@@ -3179,6 +3856,32 @@
         }
       ],
       "explanation": "После although идёт целая часть — там есть подлежащее и свой глагол (the office was cold, Sam had no map). После despite идёт вещь: существительное (the cold weather, the high price) или действие в форме на -ing (losing the map). Глагол в хвосте — верный признак того, что нужна первая связка."
+    },
+    {
+      "id": 61,
+      "taskDescription": "Распредели предложения по тому, в каком значении в них стоит while.",
+      "categories": [
+        {
+          "title": "while = пока",
+          "items": [
+            "Kate slept while we were driving",
+            "It rained while we were walking",
+            "Sam cooked while Mia was working"
+          ]
+        },
+        {
+          "title": "while = хотя",
+          "items": [
+            "While the room is small",
+            "it is nice",
+            "While I agree",
+            "I have one question",
+            "While the film is old",
+            "it is great"
+          ]
+        }
+      ],
+      "explanation": "В левой колонке обе части тянутся и стоят рядом во времени — это значение «пока». В правой колонке времени нет вовсе: вторая часть спорит с первой, и связка работает как although."
     }
   ],
   "find_the_odd_exercises": [

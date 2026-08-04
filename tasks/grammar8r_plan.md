@@ -1687,7 +1687,7 @@ theory/
 │   │       близнецы (оба + noun/-ing), а смысл противоположный — «несмотря на» (действие ВСЁ РАВНО
 │   │       было) ↔ «вместо» (действия не было, было другое).
 │   │
-│   ├── MT103 · Three Lives of While · Три жизни одного while  (2 карточки) ⭐ ГЛАВНАЯ КАРТОЧКА ТЕМЫ
+│   ├── MT103 · Three Lives of While · Три жизни одного while  (2 карточки) ⭐ ГЛАВНАЯ КАРТОЧКА ТЕМЫ ✅ (написана, ALL GREEN 04.08.26)
 │   │   ├── Card 293 · while-время ↔ while-уступка. ⚠️ Время — НЕ знакомство: слово слито в Past
 │   │   │   Continuous и там же есть таблица «while vs when», здесь только строка-опора «ты это уже
 │   │   │   видел». Новое — уступка: формальная замена although («While I agree with you…»).
@@ -1738,7 +1738,7 @@ theory/
 │      since · as · however · although · even though · whereas · therefore · as a result · due to ·
 │      because of · despite · in spite of · instead of · instead · moreover · furthermore ·
 │      in addition · besides · similarly · equally · finally · next · after that · in order to ·
-│      so that · a while · once in a while
+│      so that · a while · in a while · once in a while
 │   🚫 В СЛИВ НЕ ИДУТ (уже в словаре курса): and · but · because · or · so · then · while ·
 │      meanwhile · when · before · also · too · as well · as well as · such as · first · both ·
 │      still · anyway · actually. Плюс the same as — уедет в «Слова описаний» из «Сравнительных
