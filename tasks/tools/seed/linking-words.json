@@ -58,6 +58,12 @@
       "topicId": 17,
       "title": "Narrative · Рассказ по порядку",
       "order": 8
+    },
+    {
+      "id": 106,
+      "topicId": 17,
+      "title": "Purpose · Цель",
+      "order": 9
     }
   ],
   "grammar_cards": [
@@ -2836,6 +2842,342 @@
         "Почему рассказ из одних then звучит плохо, если грамматика везде верная?",
         "Чем and then отличается от while в цепочке событий?"
       ]
+    },
+    {
+      "id": 299,
+      "microtopicId": 106,
+      "title": "Цель без единого союза: to + V1 и in order to",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Все связки, которые мы разбирали до сих пор, смотрели назад или в сторону: причина объясняла, отчего это вышло, результат — что из этого получилось, противопоставление — что пошло вразрез. Цель смотрит **вперёд**: она называет то, чего ещё не случилось и ради чего человек взялся за дело. Устроена она иначе, чем всё остальное в теме, — и именно на ней русский сбивает с толку сильнее всего."
+        },
+        {
+          "type": "heading",
+          "text": "Русскому нужен союз, английскому — нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски цель без союза не выразить. «Я вышел, **чтобы** купить хлеб» — уберём «чтобы», и фраза рассыплется: «Я вышел купить хлеб» ещё как-то держится, а «Я позвонил ей извиниться» уже звучит оборванно. Английский обходится без союза всегда: он ставит `to` и начальную форму глагола, и этого достаточно."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I went out to buy some bread.**",
+            "**She called the office to book a room.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакого слова-склейки на стыке нет вовсе. Формально это тот же `to`, который мы разбирали в теме «Инфинитив», но работа у него здесь другая — об этом чуть ниже."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «за хлебом», «для покупки» толкает искать предлог, и появляются сразу три калечных варианта: **I went out for buy bread** ✗, **I went out for to buy bread** ✗, **I went out for buying bread** ✗. Ни один из них не английский. Цель вводит один-единственный `to` без всякой добавки: **I went out to buy bread** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Тот же to, но другая работа"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это место стоит понять один раз и навсегда, иначе `to` так и останется загадочной частицей, которая «то нужна, то нет»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I want to buy a car.** — здесь `to` пришит к глаголу `want`: это он требует продолжения, и вопрос к инфинитиву — «чего хочу?»;",
+            "**I saved money to buy a car.** — здесь `to` не привязан к `saved` вообще. Копить можно и просто так. Инфинитив объясняет **зачем** копил."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверок две, и обе работают за секунду. Первая — вопрос: если к инфинитиву задаётся «зачем?», это цель. Вторая — перестановка: цель спокойно уезжает в начало предложения, а сцепка при глаголе — нет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**To buy a car, I saved money for two years.** ✓ — цель переставилась, смысл цел;",
+            "**To buy a car, I want.** ✗ — так не говорят вовсе, потому что `to buy` тут часть самого глагола `want`."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "in order to — тот же смысл на письменном ярусе"
+        },
+        {
+          "type": "paragraph",
+          "text": "`in order to` значит ровно то же «чтобы», но звучит официальнее и сильнее подчёркивает намерение — «специально ради того, чтобы». Это связка инструкций, деловых писем и объявлений; в живом разговоре её ставят редко, потому что она тяжеловата."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We left the house early in order to catch the first train.**"
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Связка",
+            "Ярус",
+            "Оттенок"
+          ],
+          "rows": [
+            [
+              "to",
+              "нейтральный, годится везде",
+              "обычная цель, самый частый вариант"
+            ],
+            [
+              "in order to",
+              "письменный, официальный",
+              "намерение подано как обдуманное решение"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Стоит заметить, чем цель выбивается из всей темы. В карточке «Что стоит после связки — целая часть или вещь» мы разобрали две породы: одни связки берут целую часть с подлежащим (`because`, `although`), другие — вещь (`because of`, `despite`). Цель не идёт ни туда, ни сюда: после `to` и `in order to` стоит **голый глагол в начальной форме** — ни подлежащего, ни существительного. Это единственная связка темы с таким устройством, и как раз поэтому её ни с чем не спутать."
+        },
+        {
+          "type": "heading",
+          "text": "Цель с «не»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельно стоит разобрать отрицательную цель — «чтобы **не** опоздать», «чтобы **не** разбудить». Русский просто вставляет «не» перед глаголом, и рука тянется сделать то же самое. В английском отрицание встаёт **перед `to`**, а не между ним и глаголом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We left early not to be late.**",
+            "**He closed the door quietly in order not to wake the baby.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок здесь и есть всё правило: сначала `not`, потом `to`, потом глагол."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Из русского выходит либо предлог, либо перевёрнутый порядок — **We left early for not be late** ✗, **We left early to not be late** ✗. Первый вариант неверен так же, как и в утвердительной цели, а второй звучит неуклюже и в письме читается как ошибка. Привыкать стоит к **not to be late** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Цель по-русски требует союза «чтобы» и целого глагола, а по-английски вводится голым `to` с начальной формой: **I went out to buy some bread**. Предлог сюда не ставится ни в каком виде — **for buy** ✗, **for to buy** ✗, **for buying** ✗. Это тот же `to`, что в теме «Инфинитив», но другая его работа: в **I want to buy a car** инфинитив требует сам глагол `want`, а в **I saved money to buy a car** он объясняет «зачем» и потому свободно уезжает в начало предложения (**To buy a car, I saved money** ✓). `in order to` значит то же самое, но звучит официально и подчёркивает намерение: **We left early in order to catch the first train**. Отрицательная цель ставит `not` ПЕРЕД `to`: **not to be late** ✓, а не **to not be late** ✗.",
+      "examples": [
+        {
+          "ru": "Я вышел, чтобы купить хлеба.",
+          "en": "I went out to buy some bread."
+        },
+        {
+          "ru": "Она позвонила в офис, чтобы забронировать комнату.",
+          "en": "She called the office to book a room."
+        },
+        {
+          "ru": "Я копил деньги, чтобы купить машину.",
+          "en": "I saved money to buy a car."
+        },
+        {
+          "ru": "Мы вышли из дома рано, чтобы успеть на первый поезд.",
+          "en": "We left the house early in order to catch the first train."
+        },
+        {
+          "ru": "Он тихо закрыл дверь, чтобы не разбудить ребёнка.",
+          "en": "He closed the door quietly in order not to wake the baby."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I went out for buy bread?",
+        "Чем to в I want to buy отличается от to в I saved money to buy?",
+        "Когда стоит писать in order to вместо простого to?"
+      ]
+    },
+    {
+      "id": 300,
+      "microtopicId": 106,
+      "title": "so that: когда цель выполняет другой человек",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Инфинитив цели работает отлично, пока действие выполняет **один и тот же человек**: я вышел — я и покупаю, она позвонила — она и бронирует. Но половина целей в жизни устроена иначе: я делаю что-то, чтобы получилось **у кого-то другого**. И вот тут `to + V1` ломается."
+        },
+        {
+          "type": "heading",
+          "text": "Почему инфинитив не тянет чужое действие"
+        },
+        {
+          "type": "paragraph",
+          "text": "У инфинитива нет своего подлежащего. `to get in` не сообщает, кто входит, — он автоматически цепляется к подлежащему предложения. Поэтому фразу «Я оставил ключи на столе, чтобы Тёма смог войти» через инфинитив не сказать: **I left the keys on the table to Tyoma get in** ✗ — получается набор слов, потому что вставить второго человека внутрь инфинитива физически некуда."
+        },
+        {
+          "type": "paragraph",
+          "text": "Как только у цели появляется **свой** исполнитель, нужна целая часть — с подлежащим и своим глаголом. Вводит её связка `so that`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I left the keys on the table so that Tyoma could get in.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порода у `so that` первая: после неё идёт целая часть. Это то же правило из карточки «Что стоит после связки — целая часть или вещь», заново мы его не выводим. Ещё одна фраза той же сборки — сначала главное действие, потом связка, потом чужая цель со своим подлежащим:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I sent Vera the address so that she could find the café.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверка на одну секунду"
+        },
+        {
+          "type": "paragraph",
+          "text": "Перед тем как выбрать связку, задаём себе один вопрос: **кто выполняет действие цели?**"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кто выполняет цель",
+            "Связка",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "тот же, кто и главное действие",
+              "to + V1",
+              "I called her to talk about the trip."
+            ],
+            [
+              "другой человек",
+              "so that + целая часть",
+              "I called her so that she could hear the news."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница видна на одной паре: в первом предложении говорю я, во втором слышит она. Русский в обоих случаях скажет «чтобы», и именно поэтому выбор приходится делать сознательно."
+        },
+        {
+          "type": "heading",
+          "text": "so и so that — разные слова"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы обещали вернуться к этому в карточке про результат — возвращаемся. Слова похожи до неразличимости, а смотрят в противоположные стороны:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The room was cold, so I closed the window.** — `so` смотрит НАЗАД: холод уже случился, закрытое окно — его результат;",
+            "**I closed the window so that the room would stay warm.** — `so that` смотрит ВПЕРЁД: тепла ещё нет, оно только цель."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`So that` — это не «поэтому» и не «настолько» из **so tired**, а отдельная связка цели. Отсюда и главная ошибка: **I closed the window so that to keep the room warm** ✗ — связку взяли верную, а после неё поставили инфинитив, которому там не место. После `so that` идёт целая часть: **so that the room would stay warm** ✓. Если же второго исполнителя нет, связка не нужна вовсе — хватит инфинитива: **I closed the window to keep the room warm** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит внутри части после so that"
+        },
+        {
+          "type": "paragraph",
+          "text": "Почти всегда там сидит модальный глагол — `can`, `could`, `will`, `would`. Логика простая: цель ещё не сбылась, поэтому мы говорим не «он вошёл», а «он **смог бы** войти»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "про настоящее и будущее — `can` и `will`: **I write everything down so that I can remember the details.**",
+            "про прошлое — `could` и `would`: **She spoke slowly so that everyone could understand her.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Could` — это прошедшая форма `can`, то самое «мог, смогла», а `would` — такая же пара к знакомому `will`. Больше о них знать пока не нужно: сами формы просто узнаём в этой конструкции, а как устроены модальные глаголы целиком, разберём в теме «Модальные глаголы»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В живой речи `that` часто выпадает, и остаётся голое `so`: **I left early so I could catch the train.** Формально это всё та же связка цели, просто в разговорном виде. Различать помогает то, что стоит дальше: модальный глагол и несбывшееся действие — цель, готовый факт — результат."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`to + V1` выражает цель, только когда её выполняет тот же человек, что и главное действие. Как только исполнитель другой, инфинитиву некуда вставить второго человека (**to Tyoma get in** ✗) — нужна связка `so that` и целая часть с подлежащим: **I left the keys on the table so that Tyoma could get in**. Проверка одна: кто выполняет действие цели — тот же (**I called her to talk**) или другой (**I called her so that she could hear the news**). Не путать `so` и `so that`: первое смотрит назад, на результат (**The room was cold, so I closed the window**), второе вперёд, на цель (**I closed the window so that the room would stay warm**). Внутри части после `so that` почти всегда стоит модальный глагол: `can` и `will` про настоящее и будущее, `could` и `would` про прошлое.",
+      "examples": [
+        {
+          "ru": "Я оставил ключи на столе, чтобы Тёма смог войти.",
+          "en": "I left the keys on the table so that Tyoma could get in."
+        },
+        {
+          "ru": "Я позвонил ей, чтобы поговорить о поездке.",
+          "en": "I called her to talk about the trip."
+        },
+        {
+          "ru": "Я позвонил ей, чтобы она услышала новость.",
+          "en": "I called her so that she could hear the news."
+        },
+        {
+          "ru": "Она говорила медленно, чтобы все её поняли.",
+          "en": "She spoke slowly so that everyone could understand her."
+        },
+        {
+          "ru": "Я всё записываю, чтобы помнить детали.",
+          "en": "I write everything down so that I can remember the details."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что нужно so that, а не просто to?",
+        "Чем so that отличается от so, если они так похожи?",
+        "Зачем внутри so that почти всегда стоит could или can?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3288,6 +3630,66 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 151,
       "orderInCard": 4
+    },
+    {
+      "cardId": 299,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 132,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 299,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 152,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 299,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 114,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 299,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 136,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 299,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 119,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 300,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 133,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 300,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 24,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 300,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 115,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 300,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 28,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 300,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 120,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -3368,6 +3770,22 @@
       "cardId": 298,
       "title": "Двигай рассказ",
       "userInstruction": "Вставьте в рассказ подходящие слова порядка.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "linking_card299_ex1",
+      "cardId": 299,
+      "title": "Скажи зачем",
+      "userInstruction": "Переведите предложение на английский.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "linking_card300_ex1",
+      "cardId": 300,
+      "title": "To или so that",
+      "userInstruction": "Вставьте в каждое предложение подходящую связку цели.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     }
@@ -3603,6 +4021,38 @@
       "translation": "после этого",
       "transcription": "[ˈɑːftə ðæt]",
       "microtopicId": 105,
+      "categoryId": "linking"
+    },
+    {
+      "id": 535,
+      "word": "in order to",
+      "translation": "чтобы, для того чтобы",
+      "transcription": "[ɪn ˈɔːdə tuː]",
+      "microtopicId": 106,
+      "categoryId": "linking"
+    },
+    {
+      "id": 536,
+      "word": "so that",
+      "translation": "чтобы, так чтобы",
+      "transcription": "[ˈsəʊ ðæt]",
+      "microtopicId": 106,
+      "categoryId": "linking"
+    },
+    {
+      "id": 537,
+      "word": "to save",
+      "translation": "копить, экономить, беречь",
+      "transcription": "[seɪv]",
+      "microtopicId": 106,
+      "categoryId": "linking"
+    },
+    {
+      "id": 538,
+      "word": "address",
+      "translation": "адрес",
+      "transcription": "[əˈdres]",
+      "microtopicId": 106,
       "categoryId": "linking"
     }
   ],
@@ -3886,6 +4336,37 @@
         }
       ],
       "explanation": "Строки 1 и 3: then и next не союзы, поэтому на одной запятой два целых предложения не держатся — нужен союз and или точка. В строках 2, 4 и 5 всё на месте: after that и finally открывают своё предложение и отделены запятой, а and then держит стык внутри одного предложения."
+    },
+    {
+      "id": 136,
+      "statements": [
+        {
+          "en": "Lucy came early to help with the tables.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I went to the bank for change some money.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We took a taxi in order to save time.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Denis wrote it down to not forget the number.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "To pay less, we booked the tickets in May.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строка 2: предлог for в цели не ставится — нужно to change. Строка 4: в отрицательной цели not стоит перед to — not to forget. В строках 1, 3 и 5 всё на месте: to finish и in order to save вводят цель, а в пятой цель просто вынесена в начало предложения, что для неё нормально."
     }
   ],
   "word_arrangement_exercises": [
@@ -4075,6 +4556,44 @@
         "goes"
       ],
       "explanation": "Связка after that открывает новое предложение целиком, поэтому союз ей не нужен, а голое after потребовало бы после себя целую часть или вещь. Next to значит «рядом с» и к порядку событий отношения не имеет, форма goes стоит в настоящем времени и из рассказа о прошлом выпадает."
+    },
+    {
+      "id": 119,
+      "situationRu": "Ситуация: Ты объясняешь, зачем остался дома в субботу: чтобы закончить отчёт.",
+      "correctSentence": "I stayed at home to finish the report.",
+      "words": [
+        "I",
+        "stayed",
+        "at home",
+        "to finish",
+        "the report"
+      ],
+      "distractors": [
+        "for finish",
+        "for finishing",
+        "so that"
+      ],
+      "explanation": "Цель держит одно короткое to с начальной формой глагола, поэтому формы с предлогом for не годятся. Связка so that тут тоже не подходит: после неё пришлось бы ставить целую часть с подлежащим и своим глаголом."
+    },
+    {
+      "id": 120,
+      "situationRu": "Ситуация: Ты объясняешь, зачем оставил коробку у двери: чтобы Вера смогла её забрать.",
+      "correctSentence": "I left the box near the door so that Vera could take it.",
+      "words": [
+        "I",
+        "left the box",
+        "near the door",
+        "so that",
+        "Vera",
+        "could take",
+        "it"
+      ],
+      "distractors": [
+        "to take",
+        "so",
+        "in order to"
+      ],
+      "explanation": "Забирает коробку Вера, а не рассказчик, поэтому цель требует целой части с подлежащим и модальным глаголом. Формы to take и in order to второго исполнителя внутрь не пускают, а одинокое so ввело бы результат, а не цель."
     }
   ],
   "multiple_choice_exercises": [
@@ -4497,6 +5016,69 @@
         }
       ],
       "explanation": "Союз and держит вторую часть, а finally показывает, что это последнее звено ожидания. Без союза запятая два предложения не склеит, а во второй части нельзя терять подлежащее — по-английски оно обязательно, даже когда речь о тех же людях."
+    },
+    {
+      "id": 132,
+      "choiceType": "CHOICE",
+      "prompt": "Sonya opened her laptop ___ the news.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "to check",
+          "isCorrect": true
+        },
+        {
+          "text": "for check",
+          "isCorrect": false
+        },
+        {
+          "text": "for checking",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Цель вводится одним to с начальной формой глагола, без всякого предлога. Предлог for в этой конструкции не ставится ни перед глаголом, ни перед формой на -ing — это калька с русского «для проверки»."
+    },
+    {
+      "id": 152,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мы вышли пораньше, чтобы не опоздать.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "\"We left early for not be late.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "\"We left early not to be late.\"",
+          "isCorrect": true
+        },
+        {
+          "text": "\"We left early to not be late.\"",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В отрицательной цели not встаёт перед to, а не между to и глаголом, и предлог сюда не нужен вовсе. Порядок слов здесь и есть всё правило: not to be late."
+    },
+    {
+      "id": 133,
+      "choiceType": "CHOICE",
+      "prompt": "Jake sent me the map ___ I could find the café.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "to",
+          "isCorrect": false
+        },
+        {
+          "text": "because of",
+          "isCorrect": false
+        },
+        {
+          "text": "so that",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Действие цели выполняет не Джейк, а собеседник, поэтому после связки идёт целая часть с подлежащим и глаголом. Инфинитив с to второго исполнителя внутрь не пускает, а because of вводило бы причину и потребовало после себя вещь."
     }
   ],
   "text_input_exercises": [
@@ -4743,6 +5325,34 @@
         }
       ],
       "explanation": "Собеседник спрашивает про следующее событие дня, а звено цепочки стоит в простом прошедшем. Форма процесса рисовала бы фон под другим событием, а настоящее время выпадает из рассказа о прошлом — всю историю держим в одном времени."
+    },
+    {
+      "id": 28,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why did you send everyone the link?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "\"So that everyone could see the photos.\"",
+          "isCorrect": true
+        },
+        {
+          "text": "\"So that everyone see the photos.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "\"For everyone see the photos.\"",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Собеседник спрашивает о цели, а её исполнитель — другие люди, поэтому после связки идёт целая часть с подлежащим и модальным глаголом. Без could часть остаётся без сказуемого в нужной форме, а предлог for цель по-английски не вводит."
     }
   ],
   "matching_exercises": [
@@ -4945,6 +5555,44 @@
         }
       ],
       "explanation": "Слово then не союз, а запятая сама по себе два целых предложения не склеивает — стык должен держать союз and. Расстановка запятых вокруг then этой ошибки не лечит, а без знаков вообще получается сплошная строка."
+    },
+    {
+      "id": 114,
+      "wrongSentence": "Grisha went to the station for buy a ticket.",
+      "options": [
+        {
+          "text": "\"Grisha went to the station for buying a ticket.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "\"Grisha went to the station for to buy a ticket.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "\"Grisha went to the station to buy a ticket.\"",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Цель по-английски вводит только to с начальной формой глагола. Предлог for в этой конструкции лишний в любом виде — ни for buy, ни for buying, ни for to buy английскими вариантами не являются."
+    },
+    {
+      "id": 115,
+      "wrongSentence": "I gave Ben my number so that he call me back.",
+      "options": [
+        {
+          "text": "\"I gave Ben my number so that he to call me back.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "\"I gave Ben my number so that he could call me back.\"",
+          "isCorrect": true
+        },
+        {
+          "text": "\"I gave Ben my number so that for he call me back.\"",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Цель ещё не сбылась, поэтому внутри части после связки нужен модальный глагол — про прошлое это could. Инфинитив с to и предлог перед подлежащим в эту конструкцию не ставятся вовсе."
     }
   ],
   "construction_meaning_exercises": [
@@ -5016,6 +5664,29 @@
         }
       ],
       "explanation": "Слово стоит в самом конце фразы, после запятой, и справа от него ничего нет — значит это «тоже», присоединение к тому, что сделал кто-то ещё. Значение «слишком» появилось бы только перед прилагательным."
+    },
+    {
+      "id": 24,
+      "construction": "Ira turned on the light so that Ben could read.",
+      "options": [
+        {
+          "text": "Ира включила свет, чтобы Бен мог читать.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ира включила свет, потому что Бен читал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ира включила свет, и поэтому Бен читал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ира включила свет, хотя Бен читал.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Связка so that вводит цель, а не причину и не результат: свет включили ради того, что ещё только должно случиться. Модальный глагол could здесь и показывает несбывшееся действие — «чтобы мог»."
     }
   ],
   "transformation_exercises": [

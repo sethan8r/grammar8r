@@ -51,6 +51,9 @@ private const val INLINE_PLUS = "inline_plus"
 private const val INLINE_EQUAL = "inline_equal"
 private const val INLINE_BLANK = "inline_blank"
 
+/** Суффикс ключа иконки-двойника, окрашенного как бэктик-вставка (`to + V1`). */
+private const val CODE_SUFFIX = "_code"
+
 /** Во сколько раз транскрипция крупнее окружающего текста: мелкие значки IPA иначе не читаются. */
 private const val PHONETIC_SCALE = 1.1f
 
@@ -75,6 +78,8 @@ val InlineArrowIcon: ImageVector get() = Icons.AutoMirrored.Filled.ArrowRightAlt
  *  - `≠` → [NotEqualIcon], `≈` → [ApproxEqualIcon], `=` → [EqualIcon] (цветом текста
  *    [arrowColor]) — в наборе Material таких значков нет, поэтому векторы нарисованы здесь;
  *  - `+` → [Icons.Filled.Add] (цветом текста [arrowColor]).
+ * Внутри бэктик-вставки нейтральные значки (`→ ← ≠ ≈ + =`) берут цвет [inlineCodeColor], чтобы
+ * формула вроде `to + V1` красилась целиком; вердикт `✓`/`✗` всюду держит свой цвет.
  * Карту иконок отдаём в [TranslatableText] вместе с текстом.
  */
 fun parseInlineMarkdown(
@@ -152,15 +157,18 @@ fun parseInlineMarkdown(
                 }
 
                 else -> {
+                    // Внутри бэктиков нейтральные значки берут цвет вставки — иначе в формуле
+                    // `to + V1` буквы синие, а плюс выпадает цветом обычного текста.
+                    val inCode = codeDepth == 1
                     when (raw[index]) {
                         '✓' -> appendInlineContent(INLINE_CHECK, "✓")
                         '✗', '❌' -> appendInlineContent(INLINE_CROSS, "✗")
-                        '→' -> appendInlineContent(INLINE_ARROW, "→")
-                        '←' -> appendInlineContent(INLINE_ARROW_LEFT, "←")
-                        '≠' -> appendInlineContent(INLINE_NEQ, "≠")
-                        '≈' -> appendInlineContent(INLINE_APPROX, "≈")
-                        '+' -> appendInlineContent(INLINE_PLUS, "+")
-                        '=' -> appendInlineContent(INLINE_EQUAL, "=")
+                        '→' -> appendInlineContent(iconKey(INLINE_ARROW, inCode), "→")
+                        '←' -> appendInlineContent(iconKey(INLINE_ARROW_LEFT, inCode), "←")
+                        '≠' -> appendInlineContent(iconKey(INLINE_NEQ, inCode), "≠")
+                        '≈' -> appendInlineContent(iconKey(INLINE_APPROX, inCode), "≈")
+                        '+' -> appendInlineContent(iconKey(INLINE_PLUS, inCode), "+")
+                        '=' -> appendInlineContent(iconKey(INLINE_EQUAL, inCode), "=")
                         else -> append(raw[index])
                     }
                     index += 1
@@ -172,19 +180,35 @@ fun parseInlineMarkdown(
         repeat(boldDepth + italicDepth + codeDepth) { pop() }
     }
 
-    val inlineContent = mapOf(
-        INLINE_CHECK to inlineIcon(Icons.Filled.Check, correctColor),
-        INLINE_CROSS to inlineIcon(Icons.Filled.Close, incorrectColor),
-        INLINE_ARROW to inlineIcon(arrowIcon, arrowIconColor),
-        INLINE_ARROW_LEFT to inlineIcon(arrowIcon, arrowIconColor, mirror = true),
-        INLINE_NEQ to inlineIcon(NotEqualIcon, arrowColor),
-        INLINE_APPROX to inlineIcon(ApproxEqualIcon, arrowColor),
-        INLINE_PLUS to inlineIcon(Icons.Filled.Add, arrowColor),
-        INLINE_EQUAL to inlineIcon(EqualIcon, arrowColor),
-        INLINE_BLANK to inlineBlank(arrowColor),
-    )
+    val inlineContent = buildMap<String, InlineTextContent> {
+        // Вердикт держит свой семантический цвет и внутри бэктиков — зелёный и красный не подменяем.
+        put(INLINE_CHECK, inlineIcon(Icons.Filled.Check, correctColor))
+        put(INLINE_CROSS, inlineIcon(Icons.Filled.Close, incorrectColor))
+        putIconPair(INLINE_ARROW, arrowIcon, arrowIconColor, inlineCodeColor)
+        putIconPair(INLINE_ARROW_LEFT, arrowIcon, arrowIconColor, inlineCodeColor, mirror = true)
+        putIconPair(INLINE_NEQ, NotEqualIcon, arrowColor, inlineCodeColor)
+        putIconPair(INLINE_APPROX, ApproxEqualIcon, arrowColor, inlineCodeColor)
+        putIconPair(INLINE_PLUS, Icons.Filled.Add, arrowColor, inlineCodeColor)
+        putIconPair(INLINE_EQUAL, EqualIcon, arrowColor, inlineCodeColor)
+        put(INLINE_BLANK, inlineBlank(arrowColor))
+    }
 
     return ParsedMarkdown(text, inlineContent)
+}
+
+/** Ключ иконки: внутри бэктик-вставки берётся её `_code`-двойник. */
+private fun iconKey(id: String, inCode: Boolean): String = if (inCode) id + CODE_SUFFIX else id
+
+/** Кладёт значок в двух цветах: обычный (цвет текста) и для бэктик-вставки. */
+private fun MutableMap<String, InlineTextContent>.putIconPair(
+    id: String,
+    icon: ImageVector,
+    color: Color,
+    codeColor: Color,
+    mirror: Boolean = false,
+) {
+    put(id, inlineIcon(icon, color, mirror))
+    put(id + CODE_SUFFIX, inlineIcon(icon, codeColor, mirror))
 }
 
 /** Пропуск в условии — сплошная линия по низу строки (вместо символов `___`). */
