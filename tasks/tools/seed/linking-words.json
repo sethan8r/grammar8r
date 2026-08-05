@@ -52,6 +52,12 @@
       "topicId": 17,
       "title": "Addition · Добавление",
       "order": 7
+    },
+    {
+      "id": 105,
+      "topicId": 17,
+      "title": "Narrative · Рассказ по порядку",
+      "order": 8
     }
   ],
   "grammar_cards": [
@@ -2527,6 +2533,309 @@
         "Чем in addition отличается от in addition to?",
         "Когда besides значит «к тому же», а когда «кроме»?"
       ]
+    },
+    {
+      "id": 297,
+      "microtopicId": 105,
+      "title": "Порядок событий: next, after that и ловушка одинокого then",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Рассказывать по порядку мы уже пробовали. В теме «Past Simple» была микротема про цепочку событий: история идёт звеньями, порядок предложений равен порядку событий, и вся цепочка стоит в прошедшем. Там же мелькнул список слов, которые эту цепочку двигают: **first**, **then**, **after that**, **later**, **finally**. Тогда нас занимала форма глагола, а слова на стыке шли фоном — просто список, который стоит узнавать."
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь очередь дошла до них самих, и вопрос совсем другой: **где такое слово стоит и какой знак идёт рядом с ним**. Именно на этом рассказ русскоязычного чаще всего и спотыкается — не на глаголах, а на знаках между звеньями."
+        },
+        {
+          "type": "heading",
+          "text": "Слова порядка — вводные, а не союзы"
+        },
+        {
+          "type": "paragraph",
+          "text": "В этой теме мы уже трижды натыкались на одну и ту же породу слов: `therefore` и `as a result` в результате, `however` в противопоставлении, `Also` в добавлении. Все они не союзы. Склеить две части они не умеют — они только объявляют, в какую сторону пошла мысль, а держать конструкцию должен кто-то другой."
+        },
+        {
+          "type": "paragraph",
+          "text": "`next`, `after that`, `finally` — та же семья, и правила у них те же самые: слово стоит в начале своего предложения, перед ним точка, после него запятая."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We locked the office. After that, we walked to the station.**",
+            "**We unpacked our bags. Next, we went for some food.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`next` тут значит «дальше, следующим шагом», `after that` — «после этого». Обе связки открывают своё собственное предложение, а не пришиваются к предыдущему."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «потом» спокойно живёт после запятой — «Я вымыл посуду, потом лёг спать». Рука переносит эту запятую в английский, и выходит **She cleaned the kitchen, then she washed the windows** ✗. Ошибка ровно та же, с которой начиналась тема: запятая не склеивает два целых предложения, а `then` не союз и помочь ей не может. Выходов два — разделить точкой (**She cleaned the kitchen. Then she washed the windows.** ✓) или поставить настоящий союз (**She cleaned the kitchen and then washed the windows.** ✓)."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Длинные связки (**after that, next, finally**) в начале предложения почти всегда отделяют запятой, а короткое `then` чаще пишут без неё — **Then we went home**. Запятая после него тоже встречается и ошибкой не считается, но привыкать проще к варианту без запятой."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "and then — стык живого разговора"
+        },
+        {
+          "type": "paragraph",
+          "text": "В живой речи история редко режется на отдельные предложения — она льётся. Поэтому самый частый стык рассказа выглядит так: союз `and` держит вторую часть, а `then` уточняет, что дальше идёт следующий шаг."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I paid the bill and then left.**",
+            "**Nick opened his laptop, and then he answered two messages.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Пара `and then` снимает проблему запятой сама собой: союз на месте, значит вторая часть пришита законно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "По-русски следующее событие часто вводят словом «и тут»: «Мы ждали автобус — и тут пошёл дождь». На слух это похоже на место («тут», «там»), а говорится о времени. Английское `there` сюда не годится ни в каком виде: **We were waiting for the bus, and there it started to rain** ✗. Нужно **and then** ✓ — «и тут, и потом», то есть следующее событие, а не другое место."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "next — не только «следующая неделя»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `next` мы уже встречали дважды: **next week** — «на следующей неделе», **next to** — «рядом с». В рассказе у него третья работа, и она ближе всего к русскому «дальше»: это слово инструкций, рецептов и объяснений «как что-то делается»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Next, add the eggs and mix everything.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь `next` уже не про соседство и не про календарь — про очередной шаг."
+        },
+        {
+          "type": "heading",
+          "text": "finally: место решает оттенок"
+        },
+        {
+          "type": "paragraph",
+          "text": "У `finally` два положения в предложении, и они говорят о разном:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Finally, the bus arrived.** — связка стоит в начале, речь о **порядке**: это последнее звено рассказа, история закончилась;",
+            "**We finally found the keys.** — слово стоит перед глаголом, речь о **чувстве**: ждали долго, устали ждать, и вот наконец-то."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Позиция перед глаголом нам знакома — там же стоят наречия частоты (**always**, **often**) из микротемы «Маркеры времени и наречия частотности». Русский, кстати, различает эти два смысла ровно так же: «Наконец подошёл автобус» — про порядок, «Мы наконец-то нашли ключи» — про облегчение. Так что переучиваться не нужно, нужно просто ставить слово в то место, которое соответствует смыслу."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше в микротеме мы соберём всё вместе: в живом рассказе слова порядка идут вперемешку со связками причины, результата и противопоставления, которые у нас уже на руках."
+        }
+      ],
+      "theorySummary": "Слова порядка `next`, `after that`, `finally` — вводные слова той же породы, что `however` и `therefore`: они не союзы, поэтому стоят в начале своего предложения, перед ними точка, после них запятая (**We locked the office. After that, we walked to the station**). Главная ошибка — русская запятая на стыке: **She cleaned the kitchen, then she washed the windows** ✗; верно либо точкой, либо через союз — **and then washed the windows** ✓. Пара `and then` и есть самый частый стык живого рассказа: `and` держит вторую часть, `then` показывает следующий шаг; при этом `and then` — это «и тут / и потом» во времени, а не «и там». У `finally` два места: в начале предложения это последнее звено цепочки (**Finally, the bus arrived**), а перед глаголом — «наконец-то» после долгого ожидания (**We finally found the keys**).",
+      "examples": [
+        {
+          "ru": "Мы заперли офис. После этого мы пошли на вокзал.",
+          "en": "We locked the office. After that, we walked to the station."
+        },
+        {
+          "ru": "Мы разобрали сумки. Дальше мы пошли за едой.",
+          "en": "We unpacked our bags. Next, we went for some food."
+        },
+        {
+          "ru": "Ник открыл ноутбук и потом ответил на два сообщения.",
+          "en": "Nick opened his laptop, and then he answered two messages."
+        },
+        {
+          "ru": "Мы искали ключи двадцать минут и наконец-то нашли их.",
+          "en": "We looked for the keys for twenty minutes and finally found them."
+        },
+        {
+          "ru": "Наконец подошёл автобус.",
+          "en": "Finally, the bus arrived."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя написать I finished my work, then I went home?",
+        "Чем next в рассказе отличается от next week?",
+        "Как понять, ставить Finally в начале предложения или перед глаголом?"
+      ]
+    },
+    {
+      "id": 298,
+      "microtopicId": 105,
+      "title": "Живой рассказ: порядок событий и логика вместе",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Слова порядка выстраивают события в линию: сначала это, потом то, потом третье. Но живой рассказ никогда не состоит из одной линии. Человек не просто перечисляет, что случилось, — он объясняет, почему случилось, чему это помешало и что шло фоном. И все нужные для этого связки у нас уже на руках: причина (**because, because of**), результат (**so**), противопоставление (**but, although**), одновременность (**while**)."
+        },
+        {
+          "type": "heading",
+          "text": "Два вида стыка делают разную работу"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между ними простая, и её стоит держать в голове осознанно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "связка порядка отвечает на вопрос **когда**: она сообщает, что дальше идёт следующее событие;",
+            "логическая связка отвечает на **почему** или **несмотря на что**: она сообщает, как события связаны между собой."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрим на одну и ту же историю в двух видах. Сначала голая цепочка:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I woke up late. Then I ran to the bus stop. Then I missed the bus. Then I took a taxi.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Всё правильно, все события на месте, но читать это тяжело: получился список, а не рассказ. Теперь та же история, где половина стыков занята логикой:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I woke up late, so I ran to the bus stop. I missed the bus because I stopped for coffee, and then I took a taxi.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Событий столько же, слов почти столько же — а слушать стало интересно. Причина названа, результат назван, и только один стык остался чисто временным."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Привычка ставить маркер порядка к каждому предложению приезжает из школьных пересказов на русском — «сначала… потом… потом… в конце». По-английски рассказ из одних `then` звучит как список покупок. Помнить стоит вот что: порядок предложений и так равен порядку событий, поэтому слово порядка нужно только там, где оно **что-то добавляет** — открывает историю, отмечает поворот или закрывает её. На каждое звено его вешать не надо."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Фон под событиями"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельный слой рассказа — то, что не случилось, а **шло**, пока случалось остальное. Мы разбирали это в теме «Past Continuous»: длинное действие идёт фоном, короткое врезается в него. В рассказе этот приём и держит объём — без фона получается плоская лента событий."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**While we were driving home, the rain got heavier.**",
+            "**We were sitting in the café when Kate called.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметь разницу с чисто временным стыком: `and then` ставит второе событие ПОСЛЕ первого, а `while` и `when` кладут его ВНУТРЬ уже идущего. Это не одно и то же, и подменять одно другим нельзя."
+        },
+        {
+          "type": "heading",
+          "text": "Чем закрыть рассказ"
+        },
+        {
+          "type": "paragraph",
+          "text": "У истории должен быть слышимый конец, иначе она обрывается на полуслове. Закрывают её теми же словами, что мы разобрали в прошлой карточке: `finally` — «наконец», `in the end` — «в итоге». Это последнее звено, дальше рассказчик замолкает."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Finally, we got home at midnight.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Порядок и логика прекрасно уживаются в одном стыке — **and then**, **but then**, **so finally** встречаются на каждом шагу: **We knocked for five minutes, but then we saw the note on the door.** Союз держит конструкцию, а слово порядка добавляет к ней время. Специально этому учиться не нужно — достаточно знать, что так можно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В живом рассказе работают два вида стыка: связка порядка отвечает на «когда» (**next, after that, and then, finally**), логическая связка — на «почему» и «несмотря на что» (**because, so, but, although**). Рассказ из одних слов порядка звучит как список: порядок предложений и так равен порядку событий, поэтому маркер ставят только там, где он что-то добавляет — в начале, на повороте и в конце. Отдельный слой — фон: `while` и `when` кладут событие ВНУТРЬ уже идущего действия (**While we were driving home, the rain got heavier**), тогда как `and then` ставит его ПОСЛЕ. Закрывают историю словами `finally` и `in the end`.",
+      "examples": [
+        {
+          "ru": "Я проспал, поэтому побежал на остановку.",
+          "en": "I woke up late, so I ran to the bus stop."
+        },
+        {
+          "ru": "Мы опоздали на автобус и потом взяли такси.",
+          "en": "We missed the bus, and then we took a taxi."
+        },
+        {
+          "ru": "Пока мы ехали домой, дождь усилился.",
+          "en": "While we were driving home, the rain got heavier."
+        },
+        {
+          "ru": "Мы сидели в кафе, когда позвонила Катя.",
+          "en": "We were sitting in the café when Kate called."
+        },
+        {
+          "ru": "В итоге мы добрались домой к полуночи.",
+          "en": "Finally, we got home at midnight."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что в рассказе нужна логическая связка, а не слово порядка?",
+        "Почему рассказ из одних then звучит плохо, если грамматика везде верная?",
+        "Чем and then отличается от while в цепочке событий?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2919,6 +3228,66 @@
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 129,
       "orderInCard": 4
+    },
+    {
+      "cardId": 297,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 130,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 297,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 113,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 297,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 40,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 297,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 135,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 297,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 118,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 298,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 131,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 298,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 62,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 298,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 44,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 298,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 27,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 298,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 151,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -2992,6 +3361,14 @@
       "title": "Добавь мысль по-письменному",
       "userInstruction": "Допишите к предложению вторую мысль, начав её с формальной связки добавления.",
       "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "linking_card298_ex1",
+      "cardId": 298,
+      "title": "Двигай рассказ",
+      "userInstruction": "Вставьте в рассказ подходящие слова порядка.",
+      "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     }
   ],
@@ -3202,6 +3579,30 @@
       "translation": "в равной мере, одинаково",
       "transcription": "[ˈiːkwəli]",
       "microtopicId": 104,
+      "categoryId": "linking"
+    },
+    {
+      "id": 532,
+      "word": "finally",
+      "translation": "наконец, в итоге",
+      "transcription": "[ˈfaɪnəli]",
+      "microtopicId": 105,
+      "categoryId": "linking"
+    },
+    {
+      "id": 533,
+      "word": "next",
+      "translation": "дальше, следующим шагом",
+      "transcription": "[nekst]",
+      "microtopicId": 105,
+      "categoryId": "linking"
+    },
+    {
+      "id": 534,
+      "word": "after that",
+      "translation": "после этого",
+      "transcription": "[ˈɑːftə ðæt]",
+      "microtopicId": 105,
       "categoryId": "linking"
     }
   ],
@@ -3454,6 +3855,37 @@
         }
       ],
       "explanation": "Строка 2: после отрицания присоединяются словом Me neither, а не Me too. Строка 3: смысл здесь «слишком мала», а значение «слишком» живёт перед прилагательным — нужно too small. В строках 1, 4 и 5 всё на месте: too стоит перед прилагательным в значении «слишком», as well — в конце фразы, а Also открывает новое предложение после точки."
+    },
+    {
+      "id": 135,
+      "statements": [
+        {
+          "en": "Emma paid for the tickets, then she looked for her seat.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "After that, we drove to the old harbour.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The film ended, next we called a taxi.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Oliver checked the map and then started the car.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We waited for an hour. Finally, a doctor came.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Строки 1 и 3: then и next не союзы, поэтому на одной запятой два целых предложения не держатся — нужен союз and или точка. В строках 2, 4 и 5 всё на месте: after that и finally открывают своё предложение и отделены запятой, а and then держит стык внутри одного предложения."
     }
   ],
   "word_arrangement_exercises": [
@@ -3624,6 +4056,25 @@
         "have"
       ],
       "explanation": "Связка открывает новое предложение, и после неё идёт целая часть, поэтому нужна форма без to: с In addition to пришлось бы поставить вещь. However противопоставило бы плюс минусу, Despite берёт вещь, too стоит в конце фразы, а форма have не годится для the hotel."
+    },
+    {
+      "id": 118,
+      "situationRu": "Ситуация: Ты рассказываешь, что было после ужина: вы пошли гулять вдоль реки.",
+      "correctSentence": "After that, we went for a walk by the river.",
+      "words": [
+        "After that",
+        "we",
+        "went",
+        "for a walk",
+        "by the river"
+      ],
+      "distractors": [
+        "After",
+        "Next to",
+        "and after that",
+        "goes"
+      ],
+      "explanation": "Связка after that открывает новое предложение целиком, поэтому союз ей не нужен, а голое after потребовало бы после себя целую часть или вещь. Next to значит «рядом с» и к порядку событий отношения не имеет, форма goes стоит в настоящем времени и из рассказа о прошлом выпадает."
     }
   ],
   "multiple_choice_exercises": [
@@ -3962,6 +4413,90 @@
         }
       ],
       "explanation": "Вторая мысль добавляет ещё один плюс в ту же сторону, что и первая, а это работа связки добавления. But развернул бы вторую часть против первой, а because of сделал бы из неё причину и потребовал после себя вещь."
+    },
+    {
+      "id": 130,
+      "choiceType": "CHOICE",
+      "prompt": "We finished the meeting. ___, everyone went for lunch.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "After that",
+          "isCorrect": true
+        },
+        {
+          "text": "However",
+          "isCorrect": false
+        },
+        {
+          "text": "Because of",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вторая мысль сообщает, что было дальше по времени, а это работа связки порядка. However развернуло бы вторую часть против первой, а because of сделало бы из неё причину и потребовало после себя вещь."
+    },
+    {
+      "id": 40,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Ben opened the door, and then the cat ran out.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Бен открыл дверь, и там кот выбежал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бен открыл дверь, потому что кот выбежал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бен открыл дверь, и тут кот выбежал.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Пара and then вводит следующее событие во времени — «и тут, и потом». Про место здесь речи нет вовсе, для места понадобилось бы there, а причины в этой фразе никто не называл."
+    },
+    {
+      "id": 131,
+      "choiceType": "CHOICE",
+      "prompt": "We were cooking dinner ___ the lights went off.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "when",
+          "isCorrect": true
+        },
+        {
+          "text": "after that",
+          "isCorrect": false
+        },
+        {
+          "text": "finally",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Две части стоят в одном предложении, а держать такой стык может только союз. Слова after that и finally союзами не работают — они открывают отдельное предложение и склеить эти части не могут."
+    },
+    {
+      "id": 151,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мы стояли в очереди час и наконец купили билеты.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "\"We stood in the queue for an hour, finally we bought the tickets.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "\"We stood in the queue for an hour. And finally, bought the tickets.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "\"We stood in the queue for an hour, and finally we bought the tickets.\"",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Союз and держит вторую часть, а finally показывает, что это последнее звено ожидания. Без союза запятая два предложения не склеит, а во второй части нельзя терять подлежащее — по-английски оно обязательно, даже когда речь о тех же людях."
     }
   ],
   "text_input_exercises": [
@@ -4172,6 +4707,42 @@
         }
       ],
       "explanation": "Собеседник сказал фразу в отрицании, а Me too присоединяет только к утверждению. Согласие с отрицанием звучит как Me neither, а формы Me also в английском нет вообще."
+    },
+    {
+      "id": 27,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "How did you spend Saturday?"
+        },
+        {
+          "speaker": "B",
+          "text": "We drove to the lake in the morning."
+        },
+        {
+          "speaker": "A",
+          "text": "And after lunch?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "\"After that, we were walking around the old town.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "\"After that, we walked around the old town.\"",
+          "isCorrect": true
+        },
+        {
+          "text": "\"After that, we walk around the old town.\"",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Собеседник спрашивает про следующее событие дня, а звено цепочки стоит в простом прошедшем. Форма процесса рисовала бы фон под другим событием, а настоящее время выпадает из рассказа о прошлом — всю историю держим в одном времени."
     }
   ],
   "matching_exercises": [
@@ -4355,6 +4926,25 @@
         }
       ],
       "explanation": "Also в начале второй мысли работает вводным словом, а не союзом, поэтому две части остаются отдельными предложениями: перед связкой точка, после неё запятая. Ни одна расстановка запятых без точки эту ошибку не лечит."
+    },
+    {
+      "id": 113,
+      "wrongSentence": "Vika washed the dishes, then she went to bed.",
+      "options": [
+        {
+          "text": "\"Vika washed the dishes then she went to bed.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "\"Vika washed the dishes and then went to bed.\"",
+          "isCorrect": true
+        },
+        {
+          "text": "\"Vika washed the dishes, then, she went to bed.\"",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Слово then не союз, а запятая сама по себе два целых предложения не склеивает — стык должен держать союз and. Расстановка запятых вокруг then этой ошибки не лечит, а без знаков вообще получается сплошная строка."
     }
   ],
   "construction_meaning_exercises": [
@@ -4523,6 +5113,25 @@
         }
       ],
       "explanation": "Разговорное too стоит в конце фразы, а формальная связка занимает начало предложения, и после неё ставится запятая. Порядок слов внутри самой мысли при этом не меняется."
+    },
+    {
+      "id": 44,
+      "taskDescription": "Соедини две мысли в одно предложение через and then.",
+      "items": [
+        {
+          "original": "Tom paid the bill. He left.",
+          "transformed": "Tom paid the bill and then left."
+        },
+        {
+          "original": "Kate read the letter. She smiled.",
+          "transformed": "Kate read the letter and then smiled."
+        },
+        {
+          "original": "We locked the car. We walked away.",
+          "transformed": "We locked the car and then walked away."
+        }
+      ],
+      "explanation": "Союз and держит вторую часть, поэтому подлежащее во второй мысли не повторяется, а then показывает, что действие идёт следующим шагом. Оба глагола при этом остаются в прошедшем — рассказ держится в одном времени."
     }
   ],
   "categorization_exercises": [
@@ -4601,6 +5210,31 @@
         }
       ],
       "explanation": "В левой колонке обе части тянутся и стоят рядом во времени — это значение «пока». В правой колонке времени нет вовсе: вторая часть спорит с первой, и связка работает как although."
+    },
+    {
+      "id": 62,
+      "taskDescription": "Распредели связки по тому, что они сообщают.",
+      "categories": [
+        {
+          "title": "Что было дальше",
+          "items": [
+            "next",
+            "after that",
+            "and then",
+            "finally"
+          ]
+        },
+        {
+          "title": "Почему или вопреки чему",
+          "items": [
+            "because",
+            "so",
+            "although",
+            "however"
+          ]
+        }
+      ],
+      "explanation": "Первая группа двигает рассказ по времени: она говорит только о том, какое событие идёт следующим. Вторая объясняет связь между событиями — причину, результат или несогласие частей друг с другом."
     }
   ],
   "find_the_odd_exercises": [
