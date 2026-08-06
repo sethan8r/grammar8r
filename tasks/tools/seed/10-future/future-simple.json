@@ -23,6 +23,12 @@
       "topicId": 18,
       "title": "What Is Future Simple · Что такое Future Simple",
       "order": 1
+    },
+    {
+      "id": 109,
+      "topicId": 18,
+      "title": "Form · Форма: will + V1",
+      "order": 2
     }
   ],
   "grammar_cards": [
@@ -436,10 +442,366 @@
         "Что значит «выбор по источнику знания», а не по времени?",
         "Чем договорённость с людьми отличается от плана, который я придумал сам?"
       ]
+    },
+    {
+      "id": 305,
+      "microtopicId": 109,
+      "title": "will + V1: одна форма на все лица",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы разобрались, **что** такое `will`. Теперь посмотрим, **из чего** собирается фраза. И тут вас ждёт подарок: это самая простая механика из всех времён, которые мы прошли. Учить придётся ровно одну строчку."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + V1 — сначала метка будущего, потом глагол в базовой форме."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`V1` — это та самая словарная форма, которую вы видите в Словаре: `to return` → `return`, `to check` → `check`, `to help` → `help`. Никаких окончаний, никаких изменений: глагол идёт после `will` голым, ровно в том виде, в каком он записан в словаре."
+        },
+        {
+          "type": "heading",
+          "text": "Одна форма на все лица — вообще на все"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомните, сколько сил уходило на лица в других временах. В Present Simple приходилось следить за `-s` (**he works**, но **we work**). У глагола `to be` вообще три формы — `am/is/are`, а в прошедшем ещё две — `was/were`. Здесь не так:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кто",
+            "Фраза"
+          ],
+          "rows": [
+            [
+              "I",
+              "I will return"
+            ],
+            [
+              "you",
+              "you will return"
+            ],
+            [
+              "he / she / it",
+              "he will return"
+            ],
+            [
+              "we",
+              "we will return"
+            ],
+            [
+              "they",
+              "they will return"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Один столбец, ни одного исключения. По-русски мы под каждое лицо перекраиваем сам глагол: «я вернусь», «ты вернёшься», «он вернётся», «мы вернёмся» — четыре разных окончания. Английскому это не нужно вовсе: он поставил впереди метку `will`, и на этом работа закончилась."
+        },
+        {
+          "type": "heading",
+          "text": "'ll — то, что вы реально услышите"
+        },
+        {
+          "type": "paragraph",
+          "text": "В интро мы уже сказали, что `will` сокращается. Вот полный ряд, и он тоже одинаковый для всех:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll** [[aɪl]]",
+            "**you'll** [[juːl]]",
+            "**he'll** [[hiːl]]",
+            "**she'll** [[ʃiːl]]",
+            "**we'll** [[wiːl]]",
+            "**they'll** [[ðeɪl]]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В живой речи сокращённая форма — не «допустимый вариант», а норма: полное `will` в разговоре звучит скорее как нажим («я **точно** это сделаю»). И `'ll` очень короткое — оно приклеивается к местоимению и почти теряется на слух."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда практический вывод для аудирования: если в фильме кажется, что человек говорит о будущем настоящим временем, — скорее всего, там проглоченное `'ll`. **I'll check the weather** на скорости звучит почти как **I check the weather**, и различает их только этот еле слышный хвостик."
+        },
+        {
+          "type": "heading",
+          "text": "Три ошибки формы"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He will returns the ticket** ✗ → **He will return the ticket** ✓. Окончание `-s` — это личный знак Present Simple, времени привычек. К будущему оно отношения не имеет: рука дописывает его по инерции, потому что подлежащее `he`. После `will` лицо не отмечается вообще ничем."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I will to return the ticket** ✗ → **I will return the ticket** ✓. Здесь работает то же правило, что и с модальными: `will` — помощник, а помощник забирает `to` себе. Мы это уже видели в теме «Инфинитив»: **I can to swim** ✗, **I must to go** ✗. `will` из той же семьи."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Третья ошибка — **I will be call** ✗ — нам уже знакома по микротеме «Что такое Future Simple»: русское «буду» тянет за собой `be`. Здесь просто держим её в голове: после `will` идёт сразу глагол, без `be`. Случаи, где `will be` абсолютно законно и необходимо, разберём в микротеме «Будущее с to be»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Формула будущего — `will + V1`: метка `will` плюс глагол в словарной форме, без окончаний. Форма одна на все лица: **I will return**, **he will return**, **they will return** — никакого `-s` даже с `he/she/it`. В речи `will` почти всегда сокращается: **I'll**, **you'll**, **he'll**, **we'll**, **they'll** — короткий хвостик, который легко не расслышать. Три ошибки формы: **He will returns** ✗ (`-s` от Present Simple), **I will to return** ✗ (`to` забирает себе помощник), **I will be call** ✗ (лишний `be` из русского «буду»).",
+      "examples": [
+        {
+          "ru": "Катя вернёт билеты завтра.",
+          "en": "Katya will return the tickets tomorrow."
+        },
+        {
+          "ru": "Я проверю погоду утром.",
+          "en": "I'll check the weather in the morning."
+        },
+        {
+          "ru": "Они вернутся из Лиссабона в июне.",
+          "en": "They will return from Lisbon in June."
+        },
+        {
+          "ru": "Может быть, Паша поможет нам с переездом.",
+          "en": "Maybe Pasha will help us with the move."
+        },
+        {
+          "ru": "Мы позвоним тебе, как только доедем.",
+          "en": "We'll call you as soon as we get there."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после will не нужно окончание -s, если подлежащее he или she?",
+        "Чем 'll отличается от полного will и когда лучше говорить полную форму?",
+        "Почему после will нельзя ставить to, ведь глагол в словаре пишется с to?"
+      ]
+    },
+    {
+      "id": 306,
+      "microtopicId": 109,
+      "title": "Отрицание и вопрос: won't и Will you…?",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форма готова — осталось научиться её ломать: сказать, что чего-то **не** будет, и спросить, будет ли. Обе операции устроены одинаково просто, потому что `will` — помощник, а помощники всё делают сами, никого не зовя на помощь."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: will not и won't"
+        },
+        {
+          "type": "paragraph",
+          "text": "Частица `not` встаёт сразу после `will`: `will not`. А в живой речи почти всегда звучит короткая форма — `won't`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма странная, и это стоит признать честно: по логике сокращений должно было получиться что-то вроде `willn't`, но язык за столетия стёр слово иначе. Спорить бесполезно — `won't` просто запоминаем как есть."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Won't` [[wəʊnt]] и `want` [[wɒnt]] — разные слова, и на слух русское ухо их склеивает. **I won't call him** — «я не буду ему звонить», **I want to call him** — «я хочу ему позвонить». Смысл противоположный, поэтому звук здесь важен: в `won't` гласная тянется и уходит в «оу», в `want` она короткая."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I don't will come tonight** ✗ → **I won't come tonight** ✓. Рука тянет `don't` по привычке из Present Simple, где без помощника отрицание не построить. Но `will` сам себе помощник — второй ему не нужен, как и `did` в прошедшем ему не нужен."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос: will просто выходит вперёд"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы спросить, ставим `will` перед подлежащим — и всё:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will you return my book tomorrow?**",
+            "**Will the shop open on Sunday?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакого `do`, `does` или `did` рядом: **Do you will come?** ✗. Если в вопросе есть вопросительное слово, оно встаёт первым, а `will` — сразу за ним: **When will you be back?**, **Who will book the tickets?**"
+        },
+        {
+          "type": "heading",
+          "text": "Краткие ответы"
+        },
+        {
+          "type": "paragraph",
+          "text": "На такой вопрос отвечают не «да» и «нет», а повторением помощника: `Yes, I will` / `No, I won't`. По-русски мы обычно отвечаем самим глаголом — «Вернёшь книгу?» — «Верну». Английский в этой роли использует помощника: он и так уже держит всё время предложения, повторять смысловой глагол незачем."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В кратком ответе сокращать `will` нельзя: **Yes, I'll** ✗ → **Yes, I will** ✓. Короткая форма живёт только внутри фразы, где после неё идёт глагол; в конце предложения ей не на что опереться."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос: «разве не?»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос можно задать и в отрицательной форме — тогда `won't` уходит вперёд целиком:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Won't you come with us?** — «Разве ты не пойдёшь с нами?»",
+            "**Won't Emma be at home tonight?** — «Разве Эммы не будет вечером дома?»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это не просто вопрос, а вопрос с оттенком: говорящий **ожидал обратного** и слегка удивлён или проверяет себя. Русский делает ровно то же самое словом «разве», так что ощущение вам знакомо."
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот отвечать на такой вопрос надо осторожно. Английский отвечает **по факту**, а не по форме вопроса: `Yes` — значит «пойду», `No` — значит «не пойду». Русский в этом месте отвечает наоборот, соглашаясь с отрицанием: «Нет, пойду» — по-английски получилась бы чепуха."
+        }
+      ],
+      "theorySummary": "Отрицание — `will not`, в речи почти всегда короткое `won't` [[wəʊnt]] (не путать с `want` [[wɒnt]]). Никаких `don't` и `didn't` рядом: `will` сам себе помощник — **I don't will come** ✗ → **I won't come** ✓. Вопрос строится выносом `will` вперёд: **Will you return my book?**, а с вопросительным словом — **When will you be back?**. Краткий ответ повторяет помощника: `Yes, I will` / `No, I won't` (сокращать в ответе нельзя: **Yes, I'll** ✗). Отрицательный вопрос **Won't you come with us?** значит «разве не пойдёшь?» и отвечается по факту: `Yes` — пойду, `No` — не пойду.",
+      "examples": [
+        {
+          "ru": "Я не буду сегодня работать допоздна.",
+          "en": "I won't work late today."
+        },
+        {
+          "ru": "Ты вернёшь мне ключи вечером?",
+          "en": "Will you return my keys in the evening?"
+        },
+        {
+          "ru": "Когда ты вернёшься?",
+          "en": "When will you be back?"
+        },
+        {
+          "ru": "— Ты позвонишь Кате? — Да, позвоню.",
+          "en": "— Will you call Katya? — Yes, I will."
+        },
+        {
+          "ru": "Разве Джейк не поможет нам с билетами?",
+          "en": "Won't Jake help us with the tickets?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему получилось won't, а не willn't?",
+        "Почему в кратком ответе нельзя сказать Yes, I'll?",
+        "Как отвечать на вопрос «Won't you come?», чтобы тебя поняли правильно?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 305,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 134,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 305,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 45,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 305,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 137,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 305,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 121,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 306,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 116,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 306,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 153,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 306,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 29,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 306,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 53,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "future_simple_card306_ex1",
+      "cardId": 306,
+      "title": "Отрицание и вопрос из одного предложения",
+      "userInstruction": "ИИ пришлёт утвердительное предложение о будущем. Напишите две строки: сначала это же предложение в отрицании, потом в виде вопроса.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "tenses",
@@ -456,17 +818,252 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 539,
+      "word": "weather",
+      "translation": "погода",
+      "transcription": "[ˈweðə]",
+      "microtopicId": 109,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 540,
+      "word": "ticket",
+      "translation": "билет",
+      "transcription": "[ˈtɪkɪt]",
+      "microtopicId": 109,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 541,
+      "word": "to return",
+      "translation": "возвращать, возвращаться",
+      "transcription": "[rɪˈtɜːn]",
+      "microtopicId": 109,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 542,
+      "word": "free",
+      "translation": "свободный, бесплатный",
+      "transcription": "[friː]",
+      "microtopicId": 109,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 543,
+      "word": "maybe, perhaps",
+      "translation": "может быть, возможно",
+      "transcription": "[ˈmeɪbi] / [pəˈhæps]",
+      "microtopicId": 109,
+      "categoryId": "tenses"
+    }
+  ],
   "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 137,
+      "statements": [
+        {
+          "en": "Ben will returns my laptop on Monday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We'll take a taxi from the station.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Jake will to send the photos tomorrow.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She'll meet us at the station.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The shop will open at nine.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "После will глагол идёт в базовой форме без -s и без to: will return ✓, will send ✓. Сокращения we'll и she'll — это то же самое will, только в короткой форме, и глагол после них ведёт себя так же."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 121,
+      "situationRu": "Ситуация: Игорь обещает вернуть велосипед в воскресенье.",
+      "correctSentence": "I will return your bike on Sunday.",
+      "words": [
+        "I",
+        "will",
+        "return",
+        "your bike",
+        "on Sunday"
+      ],
+      "distractors": [
+        "returns",
+        "to return",
+        "will be",
+        "returned"
+      ],
+      "explanation": "Формула — will + базовая форма глагола: will return. Формы returns, returned и связка will be сюда не подходят, а to после will не ставится."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 134,
+      "choiceType": "CHOICE",
+      "prompt": "Emma ___ the tickets online tonight.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will book",
+          "isCorrect": true
+        },
+        {
+          "text": "will books",
+          "isCorrect": false
+        },
+        {
+          "text": "will to book",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После will глагол стоит в базовой форме: will book. Окончание -s принадлежит Present Simple, а to забирает себе сам помощник will."
+    },
+    {
+      "id": 153,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Разве Катя не вернётся в среду?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Doesn't Katya return on Wednesday?",
+          "isCorrect": false
+        },
+        {
+          "text": "Won't Katya return on Wednesday?",
+          "isCorrect": true
+        },
+        {
+          "text": "Katya won't return on Wednesday?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«Разве не…?» о будущем — это отрицательный вопрос с won't в начале: Won't Katya return…? Форма с doesn't говорит о настоящем, а третий вариант — обычное отрицание, а не вопрос."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 53,
+      "items": [
+        {
+          "sentence": "Ben ___ come tonight — he has to finish his report.",
+          "contextRu": "",
+          "answer": "won't",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ you call me when the train arrives?",
+          "contextRu": "",
+          "answer": "Will",
+          "alternatives": []
+        },
+        {
+          "sentence": "I promise I ___ tell anyone about it.",
+          "contextRu": "",
+          "answer": "won't",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Отрицание будущего — won't (will not), вопрос — will на первом месте перед подлежащим. Ни do, ни does, ни did рядом с will не ставятся.",
+      "taskDescription": "Впиши в каждое предложение пропущенное слово."
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 29,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Will you help me with the boxes tomorrow?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Great, thank you!"
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I do.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I'll.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I will.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Краткий ответ повторяет тот помощник, который стоял в вопросе: спросили через will — отвечаем Yes, I will. Do здесь чужой помощник, а сокращать will в конце ответа нельзя."
+    }
+  ],
   "matching_exercises": [],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 116,
+      "wrongSentence": "Do you will send me the photos tonight?",
+      "options": [
+        {
+          "text": "Will you to send me the photos tonight?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you send will me the photos tonight?",
+          "isCorrect": false
+        },
+        {
+          "text": "Will you send me the photos tonight?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Will сам себе помощник — do рядом с ним не нужен. В вопросе will выходит на первое место, а глагол остаётся в базовой форме: Will you send…?"
+    }
+  ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 45,
+      "taskDescription": "перепиши предложение в будущем времени с will.",
+      "items": [
+        {
+          "original": "Igor checks the weather.",
+          "transformed": "Igor will check the weather."
+        },
+        {
+          "original": "They return the keys.",
+          "transformed": "They will return the keys."
+        },
+        {
+          "original": "Megan books a table.",
+          "transformed": "Megan will book a table."
+        }
+      ],
+      "explanation": "Метка будущего will ставится перед глаголом, а сам глагол теряет -s и возвращается в базовую форму: checks → will check, books → will book."
+    }
+  ],
   "categorization_exercises": [],
   "find_the_odd_exercises": []
 }
