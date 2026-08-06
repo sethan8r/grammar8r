@@ -7,7 +7,7 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 301 |
+| Card | 302 |
 | Categorization | 63 |
 | Category | 3 |
 | ConstructionMeaning | 25 |
@@ -15,7 +15,7 @@
 | ErrorCorrection | 116 |
 | FindTheOdd | 59 |
 | Matching | 42 |
-| Microtopic | 107 |
+| Microtopic | 108 |
 | MultipleChoice·CHOICE | 134 |
 | MultipleChoice·FORWARD_CHOICE | 153 |
 | MultipleChoice·REVERSE_CHOICE | 41 |
@@ -182,14 +182,14 @@
 - course_word: 389–394 (6)
 
 ### linking-words
-- Card: 280–300 (21)
+- Card: 280–301 (22)
 - Categorization: 59–62 (4)
 - ConstructionMeaning: 21–24 (4)
 - DialogRestore: 24–28 (5)
 - ErrorCorrection: 106–115 (10)
 - FindTheOdd: 55–58 (4)
 - Matching: 40–41 (2)
-- Microtopic: 98–106 (9)
+- Microtopic: 98–107 (10)
 - MultipleChoice·CHOICE: 121–133 (13)
 - MultipleChoice·FORWARD_CHOICE: 145–152 (8)
 - MultipleChoice·REVERSE_CHOICE: 39–40 (2)
