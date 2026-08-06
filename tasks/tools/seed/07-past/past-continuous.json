@@ -3,13 +3,20 @@
     {
       "id": 15,
       "title": "Past Continuous",
-      "order": 10,
+      "order": 2,
       "isPretopic": false,
       "description": "Время процесса в прошлом: действие, которое в какой-то момент прошлого уже шло и ещё не закончилось — фон для событий, was/were с формой -ing, разведение с Past Simple",
-      "categoryId": null
+      "categoryId": 4
     }
   ],
-  "grammar_topic_categories": [],
+  "grammar_topic_categories": [
+    {
+      "id": 4,
+      "title": "Past: Simple и Continuous",
+      "description": "Прошедшее время: закрытое событие и длящийся процесс — Past Simple, Past Continuous и выбор между ними",
+      "order": 7
+    }
+  ],
   "grammar_microtopics": [
     {
       "id": 87,

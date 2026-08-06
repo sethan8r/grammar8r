@@ -3,13 +3,20 @@
     {
       "id": 14,
       "title": "Past Simple",
-      "order": 9,
+      "order": 1,
       "isPretopic": false,
       "description": "Время закрытого прошлого: как рассказать о том, что случилось и закончилось — вторая форма глагола, did в вопросах и отрицаниях, was/were и маркеры прошлого",
-      "categoryId": null
+      "categoryId": 4
     }
   ],
-  "grammar_topic_categories": [],
+  "grammar_topic_categories": [
+    {
+      "id": 4,
+      "title": "Past: Simple и Continuous",
+      "description": "Прошедшее время: закрытое событие и длящийся процесс — Past Simple, Past Continuous и выбор между ними",
+      "order": 7
+    }
+  ],
   "grammar_microtopics": [
     {
       "id": 77,

@@ -3,13 +3,20 @@
     {
       "id": 10,
       "title": "Present Simple или Present Continuous",
-      "order": 6,
+      "order": 3,
       "isPretopic": false,
       "description": "Как выбрать между двумя настоящими временами: факт/привычка против процесса прямо сейчас, плюс оборот be being для временного поведения",
-      "categoryId": null
+      "categoryId": 3
     }
   ],
-  "grammar_topic_categories": [],
+  "grammar_topic_categories": [
+    {
+      "id": 3,
+      "title": "Present: Simple и Continuous",
+      "description": "Настоящее время: постоянное и происходящее сейчас — Present Simple, Present Continuous и выбор между ними",
+      "order": 4
+    }
+  ],
   "grammar_microtopics": [
     {
       "id": 65,

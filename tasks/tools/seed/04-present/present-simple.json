@@ -3,13 +3,20 @@
     {
       "id": 8,
       "title": "Present Simple",
-      "order": 4,
+      "order": 1,
       "isPretopic": false,
       "description": "Время привычек, фактов и постоянной реальности — действий, которые верны вообще, а не прямо сейчас",
-      "categoryId": null
+      "categoryId": 3
     }
   ],
-  "grammar_topic_categories": [],
+  "grammar_topic_categories": [
+    {
+      "id": 3,
+      "title": "Present: Simple и Continuous",
+      "description": "Настоящее время: постоянное и происходящее сейчас — Present Simple, Present Continuous и выбор между ними",
+      "order": 4
+    }
+  ],
   "grammar_microtopics": [
     {
       "id": 49,

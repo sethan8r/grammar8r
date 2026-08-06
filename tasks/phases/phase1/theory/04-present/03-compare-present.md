@@ -1,6 +1,8 @@
 # 10 Present Simple vs Present Continuous · Present Simple или Present Continuous
 
-**ID:** 10 | **Order:** 6
+**ID:** 10 | **Order:** 3
+**Раздел:** 3 · Present: Simple и Continuous · order=4
+**Раздел · Описание:** Настоящее время: постоянное и происходящее сейчас — Present Simple, Present Continuous и выбор между ними
 **Описание:** Как выбрать между двумя настоящими временами: факт/привычка против процесса прямо сейчас, плюс оборот be being для временного поведения
 **Группа слов:** tenses · Времена
 **Категория слов:** tenses · Слова из времён · source=course_words

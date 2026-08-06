@@ -3,13 +3,20 @@
     {
       "id": 9,
       "title": "Present Continuous",
-      "order": 5,
+      "order": 2,
       "isPretopic": false,
       "description": "Время процесса прямо сейчас — действий, которые идут в момент речи или временно, но не навсегда",
-      "categoryId": null
+      "categoryId": 3
     }
   ],
-  "grammar_topic_categories": [],
+  "grammar_topic_categories": [
+    {
+      "id": 3,
+      "title": "Present: Simple и Continuous",
+      "description": "Настоящее время: постоянное и происходящее сейчас — Present Simple, Present Continuous и выбор между ними",
+      "order": 4
+    }
+  ],
   "grammar_microtopics": [
     {
       "id": 57,

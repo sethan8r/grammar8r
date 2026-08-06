@@ -1,6 +1,8 @@
 # 9 Present Continuous · Present Continuous
 
-**ID:** 9 | **Order:** 5
+**ID:** 9 | **Order:** 2
+**Раздел:** 3 · Present: Simple и Continuous · order=4
+**Раздел · Описание:** Настоящее время: постоянное и происходящее сейчас — Present Simple, Present Continuous и выбор между ними
 **Описание:** Время процесса прямо сейчас — действий, которые идут в момент речи или временно, но не навсегда
 **Группа слов:** tenses · Времена
 **Категория слов:** tenses · Слова из времён · source=course_words

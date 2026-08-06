@@ -136,8 +136,9 @@ Grammar8r/
 - **Один файл = одна GrammarTopic.** Назван по slug темы: `02-parts-of-speech.md`.
 - **Папка-пакет = один GrammarTopicCategory (раздел).** Нет своего файла — объявляется в шапке
   каждого файла внутри папки (строки `**Раздел:**` и `**Раздел · Описание:**`).
-- **Темы без раздела** (линейный курс: Present Simple, Past Simple…) — файлы прямо в `theory/`,
-  без папки-пакета.
+- **Темы без раздела** (одиночные темы линейного курса: Passive (базовый), Linking Words…) —
+  файлы прямо в `theory/`, без папки-пакета. Пара «простое + длительное» с Compare-темой —
+  наоборот, пакуется в раздел (см. критерий в `theory_content_guide.md` §2).
 - **Сколько микротем в теме?** Норма: 2–6. Одна — кривой UX (список из одного пункта).
   Если контент кажется одной большой идеей — дели на логические блоки и делай несколько МТ.
 - **Раздела внутри раздела не бывает** — только один уровень вложенности папок.
@@ -151,8 +152,12 @@ theory/
 │   ├── 01-how-english-thinks.md      ← Topic id=2
 │   ├── 02-parts-of-speech.md         ← Topic id=3
 │   └── ...
-├── 04-present-simple.md              ← без раздела (линейный курс), id из реестра при написании
-└── 05-past-simple.md                 ← без раздела
+├── 04-present/                       ← папка-пакет = Раздел id=3 "Present: Simple и Continuous" (order=4)
+│   ├── 01-present-simple.md          ← Topic id=8
+│   ├── 02-present-continuous.md      ← Topic id=9
+│   └── 03-compare-present.md         ← Topic id=10
+├── 05-verb-adjective-preposition.md  ← Topic id=11, без раздела (одиночная тема)
+└── 08-passive-basics.md              ← Topic id=16, без раздела
 ```
 
 ### Структура контента
@@ -728,7 +733,7 @@ theory/
 │
 │   ⚠️ ФИНАЛЬНАЯ AI-МИКРОТЕМА «Live Practice» — В КАЖДОМ ВРЕМЕНИ (канон, добавлено 30.06.2026):
 │   каждая тема времени ЗАКАНЧИВАЕТСЯ микротемой-капстоуном «Live Practice · Закрепление вживую с ИИ».
-│   Эталон — Present Simple MT56, card 175 в theory/04-present-simple.md (читать перед написанием капстоуна
+│   Эталон — Present Simple MT56, card 175 в theory/04-present/01-present-simple.md (читать перед написанием капстоуна
 │   нового времени). Структура: ОДНА карточка, только Theory + Summary + Clarification + 3 AI-задания
 │   (Words Source: GENERAL, FREE_WRITE): перевод EN→RU, перевод RU→EN, «найди и исправь ошибки». БЕЗ
 │   Examples и БЕЗ хардкод-упражнений. Theory объясняет под конкретное время: ИИ — часть учёбы (на каждую
@@ -739,7 +744,22 @@ theory/
 │   запуск, не ругать за подходящее по смыслу слово не из словаря, к пунктуации не придираться.
 │   ℹ️ Те же задания собираются и во вкладке «Практика» (дерево «УМНЫЕ ЗАДАНИЯ ИЗ КУРСА»).
 │
-├── Present Simple  ← идёт после "Устройства языка"; Topic id=8, order=4, файл theory/04-present-simple.md ✅
+├── 📁 Present: Simple и Continuous  ← после «Устройства языка», перед «Глагол/прилагательное + предлог» — РАЗДЕЛ (GrammarTopicCategory)
+│   │
+│   │   ⚠️ ОБЪЕДИНЕНО В РАЗДЕЛ (решено 06.08.2026): раньше `Present Simple`, `Present Continuous`
+│   │   и `Compare: Present Simple vs Present Continuous` стояли в общем списке тремя плоскими
+│   │   темами. Теперь это Category id=3, order=4, пакет theory/04-present/ (файлы 01/02/03).
+│   │   Снаружи пользователь видит ОДНУ строку раздела; тап → три темы внутри (order 1, 2, 3).
+│   │   Содержание тем НЕ менялось: Topic/Microtopic/Card ID прежние, прогресс в user.db цел.
+│   │   Причина: пара «простое + длительное» с Compare-темой поверх — один замкнутый блок, и
+│   │   учится он пачкой; Compare вне группы висела сиротой. Критерий, когда заводить раздел, и
+│   │   почему название по составу («Present: Simple и Continuous»), а не «Настоящее время» —
+│   │   `theory_content_guide.md` §2. Перфекты сюда НЕ войдут: они идут намного позже, за блоком
+│   │   будущего, и получат свой раздел.
+│   │   ⚠️ Три темы ниже (`Present Simple`, `Present Continuous`, `Compare: …`) — ТЕМЫ ЭТОГО РАЗДЕЛА,
+│   │   хотя нарисованы в дереве прежним отступом (переотступ всего блока не делаем — шум).
+│   │
+├── Present Simple  ← тема 1 раздела; Topic id=8, order=1 внутри раздела, файл theory/04-present/01-present-simple.md ✅
 │   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 26.06.2026). Старт ID: Microtopic 49, Card 148, course_word 320.
 │      Тема идёт ПЛОСКО (GrammarTopic.categoryId = null) — раздела (GrammarTopicCategory) НЕ занимает.
 │      Слова сливаются в новую СТРОКОВУЮ категорию course_categories `tenses` · «Слова из времён»
@@ -846,10 +866,10 @@ theory/
 │       id микротемы = 56; card и AI id (present_simple_card<N>_ex1..3) присвоить ПРИ НАПИСАНИИ —
 │       после MT51–55, продолжив со счётчиков (card-id заранее НЕ фиксируем: MT51–55 ещё займут номера).
 │
-├── Present Continuous  ← идёт после Present Simple; Topic id=9, order=5, файл theory/05-present-continuous.md ✅ (написана 06.07)
+├── Present Continuous  ← тема 2 раздела; Topic id=9, order=2 внутри раздела, файл theory/04-present/02-present-continuous.md ✅ (написана 06.07)
 │   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 30.06.2026). Структура зеркалит Present Simple (концепт →
 │      образование по 3 формам → употребление → state verbs → капстоун). Эталон — Present Simple
-│      (theory/04-present-simple.md), читать перед написанием. Предполагаем, что пользователь знает
+│      (theory/04-present/01-present-simple.md), читать перед написанием. Предполагаем, что пользователь знает
 │      все слова Present Simple (id 1–20 и других слитых микротем) — их НЕ переводим.
 │      Старт ID при написании: Microtopic 57, Card 176 (после PS card 175); course_word — продолжить
 │      со счётчика «Слова из времён». ID финально присвоить при написании первой МТ.
@@ -915,7 +935,7 @@ theory/
 │       Card 193 · Живая практика с ИИ — капстоун темы: Theory + Summary + Clarification + 3 AI
 │       (EN→RU перевод, RU→EN, найди-и-исправь), Words Source GENERAL, все 4 ситуации PC вокруг слов юзера.
 │
-├── Compare: Present Simple vs Present Continuous  ← Topic id=10, order=6, файл theory/06-compare-present.md ✅ ТЕМА НАПИСАНА (ALL GREEN 07.07; MT65–66, cards 194–196)
+├── Compare: Present Simple vs Present Continuous  ← тема 3 раздела; Topic id=10, order=3 внутри раздела, файл theory/04-present/03-compare-present.md ✅ ТЕМА НАПИСАНА (ALL GREEN 07.07; MT65–66, cards 194–196)
 │   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 07.07.2026). Тема идёт ПЛОСКО (GrammarTopic.categoryId = null), раздела не занимает.
 │      Старт ID при написании: Microtopic 65, Card 194 (после PC card 193); course_word — продолжить со счётчика
 │      «Слова из времён» (Next free 389). ID финально присвоить при написании.
@@ -1145,13 +1165,23 @@ theory/
 │               «It's far away», «not far from here», «There's a shop nearby». Ловушка: far в утверждениях
 │               звучит странно → a long way / far away; свободно в вопросах/отрицаниях. + AI.
 │
-├── Past Simple  ← идёт после раздела «Описания и сравнения»; Topic id=14, order=9, файл theory/09-past-simple.md ✅ ТЕМА НАПИСАНА
+├── 📁 Past: Simple и Continuous  ← после раздела «Описания и сравнения», перед «Passive (базовый)» — РАЗДЕЛ (GrammarTopicCategory)
+│   │
+│   │   ⚠️ ОБЪЕДИНЕНО В РАЗДЕЛ (решено 06.08.2026), симметрично Present-паре: Category id=4,
+│   │   order=7, пакет theory/07-past/ (файлы 01-past-simple.md, 02-past-continuous.md; order 1 и 2).
+│   │   Отдельной Compare-темы у прошедшей пары нет — разведение Past Simple ↔ Past Continuous
+│   │   живёт микротемой внутри `Past Continuous`, и это норма: раздел держит смысловой блок,
+│   │   а не обязательную тройку. Содержание тем не менялось, ID прежние.
+│   │   ⚠️ Две темы ниже (`Past Simple`, `Past Continuous`) — ТЕМЫ ЭТОГО РАЗДЕЛА, хотя нарисованы
+│   │   в дереве прежним отступом.
+│   │
+├── Past Simple  ← тема 1 раздела; Topic id=14, order=1 внутри раздела, файл theory/07-past/01-past-simple.md ✅ ТЕМА НАПИСАНА
 │   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 22.07.2026). Тема идёт ПЛОСКО (GrammarTopic.categoryId = null),
 │      раздела не занимает. Старт ID при написании: Microtopic 77, Card 229, course_word 453
 │      (сверить по _id-registry.md на момент старта; card-id ниже — ориентир, финально присвоить при написании).
 │      Слова → та же строковая категория `tenses` «Слова из времён» (общая на все времена).
 │   🎯 ОБЪЁМ: 10 микротем / ~25 карточек. Крупнее Present Simple, потому что здесь ТРИ системы:
-│      правильные (-ed) + неправильные (V2) + отдельная was/were. Эталон стиля — theory/04-present-simple.md.
+│      правильные (-ed) + неправильные (V2) + отдельная was/were. Эталон стиля — theory/04-present/01-present-simple.md.
 │   ⚠️ ЗНАЕМ ЗАРАНЕЕ: глаголы колоды irregular_verbs id 1–20 (Present Simple) И id 21–60 (Past Simple:
 │      begin, become, put, mean, show, hear, run, hold, bring, write, stand, lose, pay, meet, sit, speak,
 │      read, lead, set, grow, win, spend, understand, teach, build, send, fall, cut, break, buy, draw,
@@ -1304,7 +1334,7 @@ theory/
 │           конструкции — сразу после темы Past Continuous («Passive (базовый)»). Формулировка —
 │           без термина «страдательный залог» в тексте для юзера, простыми словами.
 │
-├── Past Continuous  ← идёт после Past Simple; Topic id=15, order=10, файл theory/10-past-continuous.md ✅ ТЕМА НАПИСАНА (все 7 микротем, МТ87–МТ93, ALL GREEN 31.07.26)
+├── Past Continuous  ← тема 2 раздела; Topic id=15, order=2 внутри раздела, файл theory/07-past/02-past-continuous.md ✅ ТЕМА НАПИСАНА (все 7 микротем, МТ87–МТ93, ALL GREEN 31.07.26)
 │   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 26.07.2026). Тема идёт ПЛОСКО (GrammarTopic.categoryId = null),
 │      раздела не занимает. Старт ID при написании: Microtopic 87, Card 254, course_word 490
 │      (сверить по _id-registry.md на момент старта; card-id ниже — ориентир, финально присвоить при написании).
@@ -1467,8 +1497,8 @@ theory/
 │   жертвуем темами перед будущим ради связной речи (future-early замысел в основном сохранён).
 │
 ├── Passive (базовый) · Страдательный залог: be + V3 ✅ ТЕМА НАПИСАНА  ← ДОБАВЛЕНО 23.07.2026, идёт ПОСЛЕ Past Continuous,
-│   ПЕРЕД Linking Words. Тема плоская (categoryId = null). Topic id=16, order=11, файл
-│   theory/11-passive-basics.md. Старт ID: Microtopic 94, Card 271 (сверить по _id-registry.md).
+│   ПЕРЕД Linking Words. Тема плоская (categoryId = null). Topic id=16, order=8, файл
+│   theory/08-passive-basics.md. Старт ID: Microtopic 94, Card 271 (сверить по _id-registry.md).
 │   ⚠️ ОБЪЁМ ПЕРЕСМОТРЕН 31.07.2026: было «1–2 микротемы / 4 карточки» → стало **4 микротемы /
 │      8 карточек**. Причина: пользователь не знает, что вообще такое залог (проверено на живом
 │      вопросе — «я в душе не ебу, че это такое»). Одна только идея + разбор русского пассива
@@ -1595,7 +1625,7 @@ theory/
 │      модальными, get-passive, тонкости опускания by, «Меня зовут» как отдельная система.
 │
 ├── Linking Words · Связная речь  ✅ ТЕМА НАПИСАНА  ← ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026) из блока «после всех времён»
-│   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 02.08.2026). Topic id=17, order=12, файл theory/12-linking-words.md.
+│   📋 ДЕТАЛЬНЫЙ ПЛАН (составлен 02.08.2026). Topic id=17, order=9, файл theory/09-linking-words.md.
 │      Тема идёт ПЛОСКО (GrammarTopic.categoryId = null) — раздела не занимает.
 │      Старт ID (по _id-registry.md): Microtopic 98, Card 280, course_word 508.
 │      **Группа слов:** linking · Связная речь
