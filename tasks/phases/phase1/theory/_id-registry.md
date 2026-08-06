@@ -7,21 +7,21 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 302 |
+| Card | 305 |
 | Categorization | 63 |
-| Category | 5 |
+| Category | 6 |
 | ConstructionMeaning | 25 |
 | DialogRestore | 29 |
 | ErrorCorrection | 116 |
 | FindTheOdd | 59 |
 | Matching | 42 |
-| Microtopic | 108 |
+| Microtopic | 109 |
 | MultipleChoice·CHOICE | 134 |
 | MultipleChoice·FORWARD_CHOICE | 153 |
 | MultipleChoice·REVERSE_CHOICE | 41 |
 | TableFill | 27 |
 | TextInput | 53 |
-| Topic | 18 |
+| Topic | 19 |
 | Transformation | 45 |
 | TrueFalse | 137 |
 | WordArrangement | 121 |
@@ -245,6 +245,12 @@
 - TrueFalse: 106–118 (13)
 - WordArrangement: 90–100 (11)
 - course_word: 453–489 (37)
+
+### future-simple
+- Card: 302–304 (3)
+- Category: 5–5 (1)
+- Microtopic: 108–108 (1)
+- Topic: 18–18 (1)
 
 ### basics
 - Card: 1–70 (70)
