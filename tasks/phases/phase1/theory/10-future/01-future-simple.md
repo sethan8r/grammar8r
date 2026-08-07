@@ -270,6 +270,7 @@ Future Simple — время будущего, которое рождается
 - **you'll** [[juːl]]
 - **he'll** [[hiːl]]
 - **she'll** [[ʃiːl]]
+- **it'll** [[ˈɪtəl]]
 - **we'll** [[wiːl]]
 - **they'll** [[ðeɪl]]
 
