@@ -29,6 +29,12 @@
       "topicId": 18,
       "title": "Form · Форма: will + V1",
       "order": 2
+    },
+    {
+      "id": 110,
+      "topicId": 18,
+      "title": "Usage · Что говорят через will",
+      "order": 3
     }
   ],
   "grammar_cards": [
@@ -740,6 +746,515 @@
         "Почему в кратком ответе нельзя сказать Yes, I'll?",
         "Как отвечать на вопрос «Won't you come?», чтобы тебя поняли правильно?"
       ]
+    },
+    {
+      "id": 307,
+      "microtopicId": 110,
+      "title": "Решение, которое родилось в эту секунду",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форму мы собрали, ошибки формы разобрали — дальше начинается самое интересное. Главный вопрос этой микротемы звучит так: **в каких случаях носитель вообще открывает рот и говорит `will`?** Поводов четыре, и на каждый будет своя карточка. Начинаем с самого частого — того, ради которого `will` звучит в живой речи чаще всего."
+        },
+        {
+          "type": "heading",
+          "text": "Секунду назад этого решения не было"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три обычные сцены:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "В комнате звонит телефон, все переглядываются — кто-то первым говорит: **I'll get it!**",
+            "Официант принёс меню, Лена пробежала его глазами: **I'll have the soup, please.**",
+            "Ира втаскивает из машины тяжёлые коробки, Ден видит это из окна: **I'll help you!**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Общее у всех трёх — не тема и не время суток, а **возраст решения**. Ему ровно ноль секунд. Ещё до того, как телефон зазвонил, никто не собирался брать трубку; до меню Лена не знала, что закажет; Ден не планировал спускаться во двор. Решение появилось прямо в тот момент, когда человек его произнёс, — и `will` сообщает собеседнику именно это."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вернитесь мысленно к образу микротемы «Что такое Future Simple»: `will` — кадр, которого ещё не сняли. Здесь этот образ работает буквально. Кадра не было в сценарии, его никто не готовил; он появился, потому что говорящий назвал его вслух."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский на этом месте спотыкается"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите, как мы говорим по-русски в тех же трёх сценах: «Я возьму!», «Мне суп», «Сейчас помогу». Ни в одной фразе нет отдельного слова для будущего — оно спрятано внутри глагола или вообще не выражено. Больше того, «сейчас помогу» звучит почти как разговор про настоящий момент."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда рука тянется к настоящему времени — и в английском получается осечка:"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I open it** ✗ и **I'm opening it** ✗ → **I'll get it** ✓. Present Simple — это анкета: **I open the door for guests** значит «я вообще, по жизни, открываю гостям дверь». Present Continuous — прямой эфир: **I'm opening it** значит, что рука уже на ручке двери. А человек, который только что решил встать с дивана, не описывает ни привычку, ни начатое действие — он объявляет решение. Для этого и нужен `will`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверка одним вопросом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда сомневаетесь, спросите себя: **было ли это решение у меня в голове минуту назад?**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Нет, оно только что появилось (телефон зазвонил, официант подошёл, друг попросил) → `will`.",
+            "Да, я решил это утром / вчера / на прошлой неделе → тут английский возьмёт другую форму."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вторую форму — `going to` — мы разберём во второй теме раздела. Пока достаточно помнить, что она существует и отвечает за решения, принятые заранее. Если сейчас в сомнительном случае вы поставите `will`, ничего страшного не произойдёт: разводить их будем подробно и отдельно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Слова-спутники мгновенного решения"
+        },
+        {
+          "type": "paragraph",
+          "text": "У таких реплик есть узнаваемая обёртка — короткое слово согласия или успокоения впереди. Их полезно узнавать: услышали такое начало — почти наверняка дальше пойдёт `'ll`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Okay, I'll do it.** — «Ладно, сделаю.»",
+            "**Right, I'll ask him.** — «Хорошо, спрошу его.»",
+            "**Don't worry, I'll wait.** — «Не волнуйся, подожду.»",
+            "**Fine, I'll take the later train.** — «Ладно, поеду на поезде попозже.»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание и на то, чего в этих фразах **нет**: ни `tomorrow`, ни `next week`, ни любого другого маркера времени. Мгновенное решение почти всегда касается ближайших минут, и время не называют — оно и так понятно из ситуации."
+        }
+      ],
+      "theorySummary": "Самое частое употребление `will` — решение, принятое **в момент речи**: секунду назад его не было. Телефон зазвонил — **I'll get it!**, официант подошёл — **I'll have the soup**, друг тащит коробки — **I'll help you**. Русский в этих ситуациях обходится без отдельного слова («Я возьму!», «Сейчас помогу»), поэтому рука тянет настоящее время: **I open it** ✗ (привычка) и **I'm opening it** ✗ (действие уже идёт) → **I'll get it** ✓. Проверка: решения не было минуту назад → `will`; решил заранее → это уже другая форма (`going to`, тема 2).",
+      "examples": [
+        {
+          "ru": "Телефон звонит — я возьму!",
+          "en": "The phone is ringing — I'll get it!"
+        },
+        {
+          "ru": "Мне, пожалуйста, суп.",
+          "en": "I'll have the soup, please."
+        },
+        {
+          "ru": "Не волнуйся, я подожду.",
+          "en": "Don't worry, I'll wait."
+        },
+        {
+          "ru": "Ладно, спрошу его сам.",
+          "en": "Okay, I'll ask him myself."
+        },
+        {
+          "ru": "Коробки тяжёлые — я помогу.",
+          "en": "The boxes are heavy — I'll help you."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I open it, если я открываю дверь прямо сейчас?",
+        "Как отличить решение в момент речи от решения, принятого заранее?",
+        "Почему в таких фразах почти никогда не говорят tomorrow или tonight?"
+      ]
+    },
+    {
+      "id": 308,
+      "microtopicId": 110,
+      "title": "Догадка: то, что мы достаём из головы",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Второй повод сказать `will` — предсказание. Мы не решаем ничего и никому ничего не обещаем: мы просто **высказываем мнение о том, чего ещё не случилось**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I think it will rain tonight.** — вечером пойдёт дождь.",
+            "**Lucy will love this place.** — Люси это место точно понравится.",
+            "**The train will be late again.** — поезд опять опоздает."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Откуда мы это знаем? Ниоткуда. У нас нет ни расписания, ни справки от синоптиков — есть только собственная голова: опыт, интуиция, ощущение. Именно за такое знание отвечает `will`."
+        },
+        {
+          "type": "heading",
+          "text": "Свита предсказания"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз мы говорим о своём мнении, рядом почти всегда стоит слово, которое это мнение обозначает. Такие слова стоит запомнить пачкой: увидели одно из них — почти наверняка дальше пойдёт `will`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I think it will be a long meeting.** — думаю, что…",
+            "**I'm sure she will call back.** — уверен, что…",
+            "**I believe the shop will open at nine.** — считаю, что…",
+            "**I hope the weather will be better tomorrow.** — надеюсь, что…",
+            "**Maybe Nick will come with us.** — может быть…",
+            "**He will probably say no.** — он, наверное, откажется."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где стоит probably"
+        },
+        {
+          "type": "paragraph",
+          "text": "У наречия `probably` есть своё привычное место, и оно чуть-чуть разное в утверждении и в отрицании:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "в утверждении — **после** `will`: **She'll probably be late.**",
+            "в отрицании — **перед** `won't`: **She probably won't be late.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика простая: `probably` любит вставать сразу перед смысловой частью фразы, но пропускает вперёд помощника. А в отрицании помощник срастается с `not` в одно слово `won't`, и разрывать его нельзя — приходится вставать перед ним целиком."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание уезжает вперёд"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь самое интересное место, где русский и английский расходятся всерьёз."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим: «Думаю, что он **не** придёт». Отрицание стоит во второй части, у глагола «придёт», — и рука честно переносит эту конструкцию в английский."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I think he won't come** ✗ → **I don't think he will come** ✓. Английский в этом случае отрицает **первый** глагол — сам глагол «думать». Дословно получается «я не думаю, что он придёт», хотя по-русски мы так почти не говорим."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему так? Для английского уха фраза «я думаю, что он не придёт» звучит слишком уверенно и жёстко: вы будто утверждаете чужое неучастие как факт. Перенося `not` в начало, говорящий переводит всё высказывание в мягкий регистр — это не приговор, а моё сомнение. То же самое происходит и с другими словами мнения:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I don't think she will agree.** — думаю, она не согласится.",
+            "**I don't believe it will work.** — думаю, это не сработает."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Правило работает только со словами мнения (`think`, `believe`, `suppose`). Со словом `hope` английский делает как русский — отрицание остаётся на месте: **I hope it won't rain** ✓, а не **I don't hope it will rain** ✗. Надежда не смягчается: странно сказать «я не надеюсь»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Второе употребление `will` — предсказание, то есть личное мнение о будущем, взятое из головы, а не из расписания: **I think it will rain**, **Lucy will love this place**. Рядом обычно стоит слово мнения: `I think`, `I'm sure`, `I believe`, `I hope`, `maybe`, `probably`. Место наречия `probably`: после `will` в утверждении (**She'll probably be late**) и перед `won't` в отрицании (**She probably won't be late**). Главная ловушка: русское «думаю, что он не придёт» по-английски отрицает первый глагол — **I don't think he will come** ✓, а не **I think he won't come** ✗. Исключение — `hope`: **I hope it won't rain** ✓.",
+      "examples": [
+        {
+          "ru": "Думаю, вечером будет дождь.",
+          "en": "I think it will rain tonight."
+        },
+        {
+          "ru": "Уверена, Люси это место понравится.",
+          "en": "I'm sure Lucy will love this place."
+        },
+        {
+          "ru": "Он, наверное, откажется.",
+          "en": "He will probably say no."
+        },
+        {
+          "ru": "Думаю, Марк не согласится.",
+          "en": "I don't think Mark will agree."
+        },
+        {
+          "ru": "Надеюсь, завтра не будет дождя.",
+          "en": "I hope it won't rain tomorrow."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему англичане отрицают глагол «думать», а не сам прогноз?",
+        "Почему с hope так делать нельзя, ведь это тоже мнение?",
+        "Где ставить probably, если в предложении есть и will, и not?"
+      ]
+    },
+    {
+      "id": 309,
+      "microtopicId": 110,
+      "title": "Обещание, помощь и упрямый отказ",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Третий повод — не решение и не догадка, а **поступок словами**. Произнося такую фразу, человек не сообщает информацию, а берёт на себя обязательство или, наоборот, отказывается. Английский упаковывает все эти случаи в тот же `will`."
+        },
+        {
+          "type": "heading",
+          "text": "Обещание"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll call you tonight, I promise.** — обещаю позвонить.",
+            "**I won't tell anyone about it.** — никому не скажу.",
+            "**I'll be there at six, don't worry.** — буду там в шесть."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на второй пример. По-русски отрицание стоит **дважды**: «**никому** **не** скажу» — и отрицательное слово, и частица «не». Английскому хватает одного отрицания на предложение, поэтому вместе с `won't` идёт `anyone`, а не «никто»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I won't tell nobody** ✗ → **I won't tell anyone** ✓. Два отрицания в одном английском предложении гасят друг друга: буквально получается «я не скажу никому» в смысле «кому-нибудь да скажу». Правило простое: если отрицание уже стоит у глагола (`won't`), дальше идёт `anyone`, `anything`, `anywhere`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Предложение помощи"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь `will` работает почти как жест — человек предлагает себя прямо сейчас:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll help you with the bags.** — помогу с сумками.",
+            "**I'll get you a chair.** — сейчас принесу стул.",
+            "**I'll wait outside.** — подожду снаружи."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По сути это тот же случай, что и в карточке про мгновенное решение, — просто решение касается не себя, а другого человека."
+        },
+        {
+          "type": "heading",
+          "text": "Отказ: won't — это «не хочет»"
+        },
+        {
+          "type": "paragraph",
+          "text": "А теперь самое неожиданное. Отрицательная форма `won't` иногда значит не просто «не будет», а **упрямо не хочет**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He won't listen to me.** — он меня не слушает (и не собирается).",
+            "**She won't answer my calls.** — она не отвечает на мои звонки (нарочно)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Откуда этот оттенок? У слова `will` очень древний смысл — «хотеть, желать» (он до сих пор жив в существительном `will` — «воля»). Будущее время выросло из этого значения: «я хочу сделать» → «я сделаю». В отрицании старый смысл всплывает обратно: `won't` = «не желает»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Тот же оттенок работает и с **вещами**, и это встречается на каждом шагу:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**The door won't open.** — дверь не открывается (заклинило).",
+                "**My laptop won't start.** — ноутбук не запускается.",
+                "**The car won't go up the hill.** — машина не едет в горку."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский как будто наделяет предмет характером: он не сломан навсегда, он именно **упирается** прямо сейчас. Русский делает то же самое, только без будущего времени: «не открывается», «не заводится». Поэтому такое `won't` совсем не значит, что речь о завтрашнем дне."
+        }
+      ],
+      "theorySummary": "Третье употребление `will` — речевой поступок: обещание (**I'll call you, I promise**), предложение помощи (**I'll help you with the bags**) и отказ. В обещании-отрицании работает правило одного отрицания: **I won't tell anyone** ✓, а не **I won't tell nobody** ✗. Отдельный смысл у `won't` — упрямое нежелание: **He won't listen to me** = «не слушает и не собирается», потому что у `will` древнее значение «хотеть». То же и с вещами: **The door won't open**, **My laptop won't start** — предмет как будто упирается прямо сейчас, речь не о будущем.",
+      "examples": [
+        {
+          "ru": "Я позвоню тебе вечером, обещаю.",
+          "en": "I'll call you tonight, I promise."
+        },
+        {
+          "ru": "Я никому об этом не скажу.",
+          "en": "I won't tell anyone about it."
+        },
+        {
+          "ru": "Давай помогу с сумками.",
+          "en": "I'll help you with the bags."
+        },
+        {
+          "ru": "Он меня не слушает.",
+          "en": "He won't listen to me."
+        },
+        {
+          "ru": "Дверь не открывается.",
+          "en": "The door won't open."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I won't tell nobody, ведь по-русски отрицание стоит дважды?",
+        "Почему про дверь говорят won't open, если речь вообще не о будущем?",
+        "Чем обещание с will отличается от обычного рассказа о планах?"
+      ]
+    },
+    {
+      "id": 310,
+      "microtopicId": 110,
+      "title": "Будущее, которое случится само",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Три предыдущие карточки могли оставить впечатление, что `will` — это всегда про говорящего: я решил, я думаю, я обещаю. Пора это впечатление поправить, иначе оно превратится в ошибку."
+        },
+        {
+          "type": "paragraph",
+          "text": "`will` прекрасно работает и там, где человека нет вообще и никто ничего не решает:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll be thirty next year.** — мне исполнится тридцать.",
+            "**The days will get longer in spring.** — весной дни станут длиннее.",
+            "**Tomorrow will be Friday.** — завтра будет пятница.",
+            "**It will be dark by six in December.** — в декабре к шести уже стемнеет."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Возраст никого не спрашивает, весна придёт без нашего участия, пятница наступит, даже если про неё забыть. И всё равно английский берёт `will`."
+        },
+        {
+          "type": "heading",
+          "text": "Что общего у всех четырёх поводов"
+        },
+        {
+          "type": "paragraph",
+          "text": "Соберём картину целиком. Мгновенное решение, догадка, обещание, естественный ход вещей — казалось бы, четыре совсем разные вещи. Но у них есть общий знаменатель, и он объясняет, почему форма одна:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни за одним из этих высказываний **не стоит ничего вещественного** — ни заранее принятого решения, ни билета, ни договорённости с людьми, ни признаков перед глазами. Есть только слова говорящего. Поэтому `will` — это форма будущего **по умолчанию**: её ставят, когда нет причины взять что-то другое."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "А причины взять другое — будут. Если решение принято заранее или признаки видны прямо сейчас (небо чернеет — сейчас польёт), английский предпочтёт `going to`; если о встрече уже договорились с человеком, он возьмёт Present Continuous; если событие стоит в расписании — Present Simple. Всё это ждёт нас в темах 2 и 3 раздела. Сейчас важно другое: `will` — точка отсчёта, от которой мы будем отмерять остальные формы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Куда смотреть дальше"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вы наверняка заметили, что в половине примеров этой карточки после `will` стоит не действие, а `be`: **I'll be thirty**, **it will be dark**, **tomorrow will be Friday**. Это не случайность: когда речь о состоянии, возрасте, погоде или дате, английскому нужна связка."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Именно здесь живёт та самая ошибка из микротемы «Что такое Future Simple» — **I will be call** ✗. Правило `will be` + существительное или прилагательное ✓, но `will be` + глагол ✗ мы разберём в следующей микротеме, «Будущее с to be». Пока просто пользуйтесь этими фразами как готовыми."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`will` — это не только «я решил» и «я думаю»: им же говорят о том, что произойдёт само, без чьей-либо воли (**I'll be thirty next year**, **The days will get longer in spring**, **Tomorrow will be Friday**). Общее у всех четырёх употреблений одно: за высказыванием не стоит ни заранее принятого решения, ни договорённости, ни расписания — только слова говорящего. Поэтому `will` — форма будущего по умолчанию, от которой мы дальше отмерим `going to`, Present Continuous и Present Simple.",
+      "examples": [
+        {
+          "ru": "В следующем году мне будет тридцать.",
+          "en": "I'll be thirty next year."
+        },
+        {
+          "ru": "Весной дни станут длиннее.",
+          "en": "The days will get longer in spring."
+        },
+        {
+          "ru": "Завтра будет пятница.",
+          "en": "Tomorrow will be Friday."
+        },
+        {
+          "ru": "В декабре к шести уже темно.",
+          "en": "It will be dark by six in December."
+        },
+        {
+          "ru": "Через два года Эмма станет врачом.",
+          "en": "Emma will be a doctor in two years."
+        }
+      ],
+      "clarificationOptions": [
+        "Если событие произойдёт само, зачем вообще нужна форма будущего?",
+        "Почему в одних предложениях после will стоит be, а в других сразу глагол?",
+        "Как понять, что в этом случае нужен именно will, а не другая форма будущего?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -790,6 +1305,90 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 53,
       "orderInCard": 3
+    },
+    {
+      "cardId": 307,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 154,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 307,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 30,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 307,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 25,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 307,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 138,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 308,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 135,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 308,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 117,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 308,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 46,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 308,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 122,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 309,
+      "exerciseType": "MATCHING",
+      "exerciseId": 42,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 309,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 54,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 309,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 155,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 310,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 63,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 310,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 59,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 310,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 139,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -800,6 +1399,22 @@
       "userInstruction": "ИИ пришлёт утвердительное предложение о будущем. Напишите две строки: сначала это же предложение в отрицании, потом в виде вопроса.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "future_simple_card307_ex1",
+      "cardId": 307,
+      "title": "Ответь на ситуацию",
+      "userInstruction": "ИИ опишет по-русски бытовую ситуацию. Напишите по-английски одну короткую реплику — что Вы говорите в этот момент.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "future_simple_card309_ex1",
+      "cardId": 309,
+      "title": "will или won't по смыслу",
+      "userInstruction": "Вставьте в каждое предложение подходящее по смыслу слово.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -858,6 +1473,46 @@
       "transcription": "[ˈmeɪbi] / [pəˈhæps]",
       "microtopicId": 109,
       "categoryId": "tenses"
+    },
+    {
+      "id": 544,
+      "word": "probably",
+      "translation": "наверное, скорее всего",
+      "transcription": "[ˈprɒbəbli]",
+      "microtopicId": 110,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 545,
+      "word": "anyone",
+      "translation": "кто-нибудь, никто (в отрицании)",
+      "transcription": "[ˈeniwʌn]",
+      "microtopicId": 110,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 546,
+      "word": "to believe",
+      "translation": "верить, считать",
+      "transcription": "[bɪˈliːv]",
+      "microtopicId": 110,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 547,
+      "word": "bag",
+      "translation": "сумка, пакет",
+      "transcription": "[bæɡ]",
+      "microtopicId": 110,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 548,
+      "word": "soup",
+      "translation": "суп",
+      "transcription": "[suːp]",
+      "microtopicId": 110,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [],
@@ -892,6 +1547,68 @@
         }
       ],
       "explanation": "После will глагол идёт в базовой форме без -s и без to: will return ✓, will send ✓. Сокращения we'll и she'll — это то же самое will, только в короткой форме, и глагол после них ведёт себя так же."
+    },
+    {
+      "id": 138,
+      "statements": [
+        {
+          "en": "Someone is knocking — I'll open the door.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The kettle is boiling — I make the tea!",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Wait, I'll pay for the coffee.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Okay, Lucy will books a taxi for us.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Fine, I'll come a bit later.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Реакция на то, что случилось прямо сейчас, идёт через will: I'll open, I'll pay, I'll come. Форма I make the tea говорит о привычке, а после will глагол стоит в базовой форме — will book, не will books."
+    },
+    {
+      "id": 139,
+      "statements": [
+        {
+          "en": "Tomorrow will be Sunday.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The evenings will gets warmer in May.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Ben will be sixteen in August.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It will be windy tonight.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My sister will to be a nurse next year.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "После will глагол стоит в базовой форме без -s и без to: will get, will be. Связка will be нужна там, где речь о дате, возрасте, погоде или профессии."
     }
   ],
   "word_arrangement_exercises": [
@@ -913,6 +1630,26 @@
         "returned"
       ],
       "explanation": "Формула — will + базовая форма глагола: will return. Формы returns, returned и связка will be сюда не подходят, а to после will не ставится."
+    },
+    {
+      "id": 122,
+      "situationRu": "Ситуация: Ден считает, что Кате, скорее всего, понравится новое кафе.",
+      "correctSentence": "Katya will probably like the new café.",
+      "words": [
+        "Katya",
+        "will",
+        "probably",
+        "like",
+        "the new café"
+      ],
+      "distractors": [
+        "likes",
+        "will liked",
+        "is liking",
+        "to like",
+        "won't"
+      ],
+      "explanation": "В утвердительном предложении probably стоит сразу после will, а глагол остаётся в базовой форме: will probably like. Формы likes, will liked, is liking и to like после will невозможны."
     }
   ],
   "multiple_choice_exercises": [
@@ -957,6 +1694,69 @@
         }
       ],
       "explanation": "«Разве не…?» о будущем — это отрицательный вопрос с won't в начале: Won't Katya return…? Форма с doesn't говорит о настоящем, а третий вариант — обычное отрицание, а не вопрос."
+    },
+    {
+      "id": 154,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "В холодильнике пусто. — Ладно, закажу пиццу.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We order a pizza then.",
+          "isCorrect": false
+        },
+        {
+          "text": "Okay, I'll order a pizza.",
+          "isCorrect": true
+        },
+        {
+          "text": "Okay, I'm ordering a pizza.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Решение появилось прямо в этот момент, поэтому нужна метка будущего will. Форма I order говорит о привычке, а I'm ordering — о заказе, который уже сделан."
+    },
+    {
+      "id": 135,
+      "choiceType": "CHOICE",
+      "prompt": "I ___ he will like the present.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "don't think",
+          "isCorrect": true
+        },
+        {
+          "text": "think not",
+          "isCorrect": false
+        },
+        {
+          "text": "am not thinking",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В английском отрицание уезжает к глаголу мнения: I don't think he will like it. Формы think not и am not thinking в этой конструкции не используются."
+    },
+    {
+      "id": 155,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Не волнуйся, я донесу твою сумку.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Don't worry, I carry your bag.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't worry, I'm carrying your bag.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't worry, I'll carry your bag.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Предложение помощи звучит в момент речи, поэтому нужна форма I'll carry. I carry описывает привычку, а I'm carrying — сумку, которая уже у Вас в руках."
     }
   ],
   "text_input_exercises": [
@@ -983,6 +1783,31 @@
         }
       ],
       "explanation": "Отрицание будущего — won't (will not), вопрос — will на первом месте перед подлежащим. Ни do, ни does, ни did рядом с will не ставятся.",
+      "taskDescription": "Впиши в каждое предложение пропущенное слово."
+    },
+    {
+      "id": 54,
+      "items": [
+        {
+          "sentence": "Don't worry, I ___ tell anyone about your plan.",
+          "contextRu": "",
+          "answer": "won't",
+          "alternatives": []
+        },
+        {
+          "sentence": "These boxes are heavy — I ___ carry them for you.",
+          "contextRu": "",
+          "answer": "will",
+          "alternatives": []
+        },
+        {
+          "sentence": "The window is stuck — it ___ open.",
+          "contextRu": "",
+          "answer": "won't",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Обещание не выдать секрет и заклинившее окно требуют отрицательной формы won't, а предложение помощи — обычной will. Форма после них не меняется: tell, carry, open.",
       "taskDescription": "Впиши в каждое предложение пропущенное слово."
     }
   ],
@@ -1018,9 +1843,65 @@
         }
       ],
       "explanation": "Краткий ответ повторяет тот помощник, который стоял в вопросе: спросили через will — отвечаем Yes, I will. Do здесь чужой помощник, а сокращать will в конце ответа нельзя."
+    },
+    {
+      "id": 30,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "The printer is out of paper again."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks, you're a star."
+        }
+      ],
+      "options": [
+        {
+          "text": "Don't worry, I'll bring some from the office.",
+          "isCorrect": true
+        },
+        {
+          "text": "Don't worry, I bring some from the office.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't worry, I'm bringing some from the office.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "B соглашается помочь прямо сейчас, в ответ на новость — это решение в момент речи, поэтому I'll bring. Настоящее время здесь означало бы привычку или уже начатое действие."
     }
   ],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 42,
+      "taskDescription": "соедини реплику с тем, что она выражает.",
+      "pairs": [
+        {
+          "left": "I'll get you a chair.",
+          "right": "предложение помощи"
+        },
+        {
+          "left": "I promise I won't be late.",
+          "right": "обещание"
+        },
+        {
+          "left": "My laptop won't start.",
+          "right": "вещь упирается"
+        },
+        {
+          "left": "Nick won't answer my calls.",
+          "right": "человек упрямится"
+        }
+      ],
+      "explanation": "Одна и та же форма с will работает по-разному: I'll get you a chair — помощь в момент речи, I promise I won't be late — обещание, а won't у ноутбука и у Ника означает нежелание работать или общаться, а не будущее время."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 116,
@@ -1040,9 +1921,52 @@
         }
       ],
       "explanation": "Will сам себе помощник — do рядом с ним не нужен. В вопросе will выходит на первое место, а глагол остаётся в базовой форме: Will you send…?"
+    },
+    {
+      "id": 117,
+      "wrongSentence": "I think she won't pass the exam.",
+      "options": [
+        {
+          "text": "I think she doesn't pass the exam.",
+          "isCorrect": false
+        },
+        {
+          "text": "I am not thinking she will pass the exam.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't think she will pass the exam.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Со словами мнения английский отрицает первый глагол, а не второй: I don't think she will pass. Глагол to think при этом остаётся в обычной форме — в Continuous он не ставится."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 25,
+      "construction": "I'll take this one.",
+      "options": [
+        {
+          "text": "Я обычно беру вот этот.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я как раз беру вот этот.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ладно, я возьму вот этот.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я собирался взять вот этот.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "I'll take — решение, принятое в момент выбора: «возьму вот этот». Привычка звучала бы как I take, действие в процессе — I'm taking, а заранее принятое намерение — I was going to take."
+    }
+  ],
   "transformation_exercises": [
     {
       "id": 45,
@@ -1062,8 +1986,75 @@
         }
       ],
       "explanation": "Метка будущего will ставится перед глаголом, а сам глагол теряет -s и возвращается в базовую форму: checks → will check, books → will book."
+    },
+    {
+      "id": 46,
+      "taskDescription": "перепиши каждое предложение, начав его с I don't think.",
+      "items": [
+        {
+          "original": "I think he won't call.",
+          "transformed": "I don't think he will call."
+        },
+        {
+          "original": "I think they won't agree.",
+          "transformed": "I don't think they will agree."
+        },
+        {
+          "original": "I think Sam won't come.",
+          "transformed": "I don't think Sam will come."
+        }
+      ],
+      "explanation": "Отрицание переносится с второй части в первую, к глаголу мнения, а сам прогноз становится утвердительным: won't call → don't think … will call."
     }
   ],
-  "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "categorization_exercises": [
+    {
+      "id": 63,
+      "taskDescription": "распредели предложения по тому, откуда взялось будущее.",
+      "categories": [
+        {
+          "title": "Решение или мнение",
+          "items": [
+            "I'll take the bus",
+            "I think it will snow",
+            "I'll pay for the tickets"
+          ]
+        },
+        {
+          "title": "Случится само",
+          "items": [
+            "Tom will be ten in May",
+            "The sun will rise at six",
+            "Friday will be a holiday"
+          ]
+        }
+      ],
+      "explanation": "В левом столбце будущее зависит от говорящего: он решает или высказывает мнение. В правом никто ничего не решает — возраст, рассвет и день недели наступят сами, но форма при этом одна и та же."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 59,
+      "groupDescription": "Три предложения говорят о том, что произойдёт само собой",
+      "items": [
+        {
+          "text": "The leaves will fall in October",
+          "isOdd": false
+        },
+        {
+          "text": "I'll call the plumber",
+          "isOdd": true
+        },
+        {
+          "text": "The nights will get colder",
+          "isOdd": false
+        },
+        {
+          "text": "Sam will be forty next year",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Листья, ночи и возраст Сэма от человека не зависят, а вызов сантехника — решение говорящего, принятое в момент речи."
+    }
+  ]
 }

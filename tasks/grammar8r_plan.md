@@ -1928,17 +1928,26 @@ theory/
 │   │   │       Will you…?, краткие ответы Yes, I will / No, I won't, ОТРИЦАТЕЛЬНЫЙ вопрос
 │   │   │       Won't you come? (канон guide §3 — даём всегда) с оттенком «я думал, ты придёшь».
 │   │   │
-│   │   ├── МТ · Usage · Что говорят через will (4 карточки) ← сердце темы
-│   │   │   ├── Card · Решение в момент речи ⭐ главный смысл: телефон звонит — I'll get it!;
-│   │   │   │   в кафе — I'll have the soup; «хлеб кончился» — I'll buy some.
-│   │   │   ├── Card · Предсказание из головы: I think it will rain, She'll love this place +
-│   │   │   │   свита I think / I'm sure / probably / maybe / I hope. Тонкость: I don't think he
-│   │   │   │   will come ✓ — отрицание уезжает в первый глагол (русский говорит «думаю, что не придёт»).
-│   │   │   ├── Card · Обещание, отказ, предложение помощи: I'll call you, I promise; I won't tell
-│   │   │   │   anyone; I'll help you with the bags. Сюда же won't как упрямый отказ, в т.ч. у вещей
+│   │   ├── МТ110 · Usage · Что говорят через will (4 карточки) ← сердце темы ✅ (написана, ALL GREEN 07.08.26)
+│   │   │   🔤 Слито 5 слов: probably, anyone, to believe, bag, soup. AI на карточках 307 и 309
+│   │   │      (на 308 и 310 — без AI).
+│   │   │   ├── Card 307 · Решение в момент речи ⭐ главный смысл: телефон звонит — I'll get it!;
+│   │   │   │   в кафе — I'll have the soup; коробки из машины — I'll help you. «Возраст решения =
+│   │   │   │   ноль секунд», проверка вопросом «было ли решение минуту назад?», слова-спутники
+│   │   │   │   (Okay / Right / Don't worry / Fine) и наблюдение, что маркеров времени тут нет.
+│   │   │   ├── Card 308 · Предсказание из головы: I think it will rain, Lucy will love this place +
+│   │   │   │   свита I think / I'm sure / I believe / I hope / maybe / probably. Позиция probably
+│   │   │   │   (после will, но перед won't). Тонкость: I don't think he will come ✓ — отрицание
+│   │   │   │   уезжает в первый глагол (русский говорит «думаю, что не придёт»); исключение — hope
+│   │   │   │   (I hope it won't rain ✓).
+│   │   │   ├── Card 309 · Обещание, отказ, предложение помощи: I'll call you, I promise; I won't tell
+│   │   │   │   anyone; I'll help you with the bags. Правило одного отрицания (I won't tell nobody ✗).
+│   │   │   │   Сюда же won't как упрямый отказ через древнее значение «хотеть», в т.ч. у вещей
 │   │   │   │   (The door won't open) — юзеру это встретится и собьёт с толку.
-│   │   │   └── Card · Будущее, которое от нас не зависит: I'll be 30 next year, Summer will end
-│   │   │       soon, It will be dark at seven. Естественный мост в МТ4.
+│   │   │   └── Card 310 · Будущее, которое от нас не зависит: I'll be thirty next year, The days will
+│   │   │       get longer in spring, Tomorrow will be Friday. Сводит все четыре повода к общему
+│   │   │       знаменателю (will = форма по умолчанию, когда за словами нет ни решения, ни
+│   │   │       договорённости, ни расписания) и мостит в МТ «Будущее с to be».
 │   │   │
 │   │   ├── МТ · will be · Будущее с to be (2 карточки) ⭐ узловая для ошибок
 │   │   │   ├── Card · will be + прилагательное/существительное: I'll be tired, It will be cold,
