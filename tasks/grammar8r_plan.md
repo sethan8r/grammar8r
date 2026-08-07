@@ -1964,16 +1964,23 @@ theory/
 │   │   │       Tomorrow will be a meeting ✗. Плюс some/any и разведение There will be (что существует)
 │   │   │       ↔ It will be (какая обстановка).
 │   │   │
-│   │   ├── МТ · Time Markers · Маркеры будущего (2 карточки)
-│   │   │   🔤 СЛИВ: `later` придержан специально для этой микротемы (в МТ109 сознательно НЕ слит,
-│   │   │      чтобы маркеры времени сливались там, где разбираются). Проверить по check.py, что
-│   │   │      к моменту написания он всё ещё свободен, и взять в Sync здесь.
-│   │   │   ├── Card · Инвентарь и позиция: tomorrow, the day after tomorrow, tonight, next week/
-│   │   │   │   month/year, soon, later, one day, in the future, this evening. Позиция обычно в
-│   │   │   │   конце; в начало выносим для акцента (с запятой).
-│   │   │   └── Card · in = «через» — отдельная карточка, чистый русский фейл: in an hour, in three
-│   │   │       days ✓ ↔ after three days ✗ / through an hour ✗. Плюс next Monday без предлога и
-│   │   │       артикля (on next Monday ✗) — русский тянет предлог.
+│   │   ├── МТ112 · Time Markers · Маркеры будущего (2 карточки) ✅ (написана, ALL GREEN 07.08.26)
+│   │   │   🔤 Слито 5 слов: later (был придержан под эту микротему), one day (в НОВОМ значении
+│   │   │      «когда-нибудь» — раньше в курсе встречалось только «за один день», потому не дубль),
+│   │   │      the day after tomorrow, next time, future. Слова hour / month / year / minute / evening
+│   │   │      сознательно НЕ сливаем — гонялись в примерах курса десятки раз, считаем известными.
+│   │   │      AI только на второй карточке (314, FILL_BLANKS in/after); на 313 AI нет.
+│   │   │   ├── Card 313 · Инвентарь и позиция: tomorrow, the day after tomorrow, tonight, this evening,
+│   │   │   │   soon, later, next week/month/year, next time, one day, in the future. Шкала дальности
+│   │   │   │   soon → later → one day + разведение tonight / this evening. Позиция обычно в конце;
+│   │   │   │   в начало выносим для акцента (с запятой). Две ловушки: I will tomorrow call you ✗
+│   │   │   │   (SVO не терпит вставки между глаголом и дополнением) и Tomorrow I go to Vienna ✗
+│   │   │   │   (маркер НЕ отменяет will) — с плашкой-анонсом расписаний в тему «Compare».
+│   │   │   └── Card 314 · in = «через» — отдельная карточка, чистый русский фейл: in an hour, in three
+│   │   │       days ✓ ↔ after three days ✗ / through an hour ✗ (два разных корня ошибки разобраны
+│   │   │       отдельно). Плюс блок «когда after всё-таки нужен» (отрезок → in, событие → after),
+│   │   │       next Monday без предлога и артикля (on next Monday ✗, callback к last week из Past
+│   │   │       Simple; без next предлог возвращается — on Friday ✓) и контраст next week ↔ in a week.
 │   │   │
 │   │   ├── МТ · when / if · После союза — настоящее (2 карточки) ⭐⭐ ГЛАВНАЯ ЛОВУШКА ТЕМЫ
 │   │   │   ⬅️ ДОЛГ: МТ108 (Card 303, третий корень ошибки) уже показала When I will get home ✗ и

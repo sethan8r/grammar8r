@@ -41,6 +41,12 @@
       "topicId": 18,
       "title": "will be · Будущее с to be",
       "order": 4
+    },
+    {
+      "id": 112,
+      "topicId": 18,
+      "title": "Time Markers · Маркеры будущего",
+      "order": 5
     }
   ],
   "grammar_cards": [
@@ -1623,6 +1629,318 @@
         "Чем There will be отличается от It will be, если по-русски обе фразы звучат одинаково?",
         "Почему в вопросе there стоит после will, а не перед ним?"
       ]
+    },
+    {
+      "id": 313,
+      "microtopicId": 112,
+      "title": "Слова «когда» и их место в предложении",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форма будущего у нас собрана, смыслы разобраны. Осталась вещь, без которой ни одно живое предложение не обходится: слова, которые отвечают на вопрос **когда**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский помечает время **дважды** — формой глагола (`will`) и словом-маркером (`tomorrow`). Русский делает то же самое («завтра позвон**ю**»), так что сама идея знакома. Сложности начнутся не со списка слов, а с того, куда этот маркер ставить и что он не отменяет."
+        },
+        {
+          "type": "heading",
+          "text": "Инвентарь: чем говорят о будущем"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**tomorrow** — завтра",
+            "**the day after tomorrow** — послезавтра",
+            "**tonight** — сегодня вечером или ночью",
+            "**this evening** — сегодня вечером",
+            "**soon** — скоро",
+            "**later** — позже, потом *(later — позже, потом)*",
+            "**next week / next month / next year** — на следующей неделе, в следующем месяце, в следующем году",
+            "**next time** — в следующий раз",
+            "**one day** — когда-нибудь, однажды",
+            "**in the future** — в будущем"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шкала дальности: soon, later, one day"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три слова из списка означают «не сейчас», но расстояние до события у них разное — и путать их обидно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`soon` — **скоро**, вот-вот: счёт идёт на минуты, часы, максимум пару дней. **The train will leave soon.**",
+            "`later` — **позже**, обычно в пределах того же дня. **I'll finish the report later.** Русское «потом, попозже» — точное попадание.",
+            "`one day` — **когда-нибудь**, без всякого срока, часто про мечту. **One day I'll live by the sea.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельно стоит развести `tonight` и `this evening`. `This evening` — это вечер как часть дня, примерно до сна. `Tonight` растягивается на весь тёмный отрезок, вечер и ночь вместе, и в разговоре звучит гораздо чаще: **See you tonight!**"
+        },
+        {
+          "type": "heading",
+          "text": "Где стоит маркер"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обычное место — **конец предложения**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll call you tomorrow.**",
+            "**We'll start the course next month.**",
+            "**Lily will be back soon.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Маркер можно вынести и в начало — тогда он звучит с нажимом, как ответ на вопрос «а когда именно?». В этом случае после него ставится запятая:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Tomorrow, I'll finally call the bank.** — вот прямо завтра."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I will tomorrow call you** ✗ → **I'll call you tomorrow** ✓. Русский порядок слов свободный: «я завтра позвоню», «позвоню завтра», «завтра я позвоню» — всё звучит нормально. Английский так не умеет: между глаголом и его дополнением ничего вставлять нельзя, это и есть жёсткий каркас SVO из темы «Как думает английский язык». Маркеру остаются края предложения — конец или начало."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Маркер не отменяет will"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая ошибка живучее первой, потому что вырастает не из невнимательности, а из русской логики."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы часто говорим о будущем настоящим временем: «Завтра я **еду** в Вену», «В следующем месяце мы **переезжаем**». Русскому этого достаточно — слово «завтра» уже всё объяснило, и глагол можно не трогать."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Tomorrow I go to Vienna** ✗ → **Tomorrow I'll go to Vienna** ✓. Для английского слово-маркер и форма глагола — две независимые вещи. `I go` означает «я хожу вообще, обычно», и никакое `tomorrow` рядом этого не меняет: получается «завтра я обычно хожу в Вену». Время события помечается **формой**, а маркер только уточняет, когда именно."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У английского всё же есть случаи, когда настоящее время законно говорит о будущем — например, про расписание поездов и сеансов. Это отдельная история, и мы разберём её в теме «Compare: will vs going to». Пока правило простое и без исключений: говорим о будущем — ставим `will`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Слова «когда» для будущего: `tomorrow`, `the day after tomorrow`, `tonight`, `this evening`, `soon`, `later`, `next week/month/year`, `next time`, `one day`, `in the future`. Шкала дальности: `soon` (вот-вот) → `later` (позже сегодня) → `one day` (когда-нибудь, без срока). Обычное место маркера — конец предложения (**I'll call you tomorrow**), в начало он выносится с нажимом и через запятую (**Tomorrow, I'll call the bank**). Между глаголом и дополнением маркер не вставляют: **I will tomorrow call you** ✗. И главное — маркер не заменяет форму: **Tomorrow I go to Vienna** ✗ → **Tomorrow I'll go to Vienna** ✓.",
+      "examples": [
+        {
+          "ru": "Я позвоню тебе завтра.",
+          "en": "I'll call you tomorrow."
+        },
+        {
+          "ru": "Послезавтра мы уезжаем в Дублин.",
+          "en": "We'll leave for Dublin the day after tomorrow."
+        },
+        {
+          "ru": "Позже я всё объясню.",
+          "en": "I'll explain everything later."
+        },
+        {
+          "ru": "Когда-нибудь я выучу испанский.",
+          "en": "One day I'll learn Spanish."
+        },
+        {
+          "ru": "В следующий раз я приеду раньше.",
+          "en": "Next time I'll come earlier."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя поставить слово «завтра» в середину, как в русском?",
+        "Чем soon отличается от later, если оба значат «не сейчас»?",
+        "Зачем нужен will, если слово «завтра» и так говорит о будущем?"
+      ]
+    },
+    {
+      "id": 314,
+      "microtopicId": 112,
+      "title": "in — это «через», а next не любит предлогов",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Эта карточка целиком посвящена двум мелочам, на которых спотыкается почти каждый русскоязычный. Обе — про то, как маркер времени присоединяется к предложению."
+        },
+        {
+          "type": "heading",
+          "text": "in = «через»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Начнём с самого частого. Когда мы отсчитываем время **вперёд от текущего момента**, английский берёт предлог `in`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll be back in an hour.** — вернусь через час.",
+            "**The bus will come in ten minutes.**",
+            "**They'll move to Lisbon in three months.**",
+            "**We'll meet again in a year.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл `in` здесь не «внутри» и не «в», а **«спустя»**: отмерь от сейчас указанный отрезок — и вот тогда."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**After an hour** ✗ и **through an hour** ✗ → **in an hour** ✓. У этой ошибки два разных корня, и оба стоит увидеть. Первый: словарь на русское «через» выдаёт `through` — но `through` означает «сквозь» физически, насквозь через предмет или пространство (**through the park**, **through the door**), ко времени оно не относится. Второй: «после часа» кажется логичным переводом, и рука тянет `after`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда after всё-таки нужен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы правило не выучилось слишком широко: `after` в английском живёт прекрасно, просто цепляется не к отрезку времени, а к **событию**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll call you after work.** — после работы.",
+            "**We'll talk after the meeting.** — после встречи.",
+            "**Let's go for a walk after dinner.** — после ужина."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница ровно в этом: «через час» — это отрезок, значит `in`; «после обеда» — это событие, значит `after`."
+        },
+        {
+          "type": "heading",
+          "text": "next и this идут без предлога и без артикля"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая половина карточки. По-русски мы говорим «**в** следующий понедельник», «**на** следующей неделе», «**в** этот вечер» — с предлогом. Английский в этих случаях предлог не ставит вовсе:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**next Monday** ✓ / **on next Monday** ✗",
+            "**next week** ✓ / **the next week** ✗",
+            "**next time** ✓ / **in the next time** ✗",
+            "**this evening** ✓ / **in this evening** ✗"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'll see you on next Friday** ✗ → **I'll see you next Friday** ✓. Слова `next`, `this`, `last`, `every` сами по себе работают указателем времени — внутри них уже сидит и «в этот», и «в следующий». Предлог рядом с ними становится вторым указателем, и предложение начинает буксовать. Мы это уже проходили в Past Simple: **last week** ✓, а не **on last week** ✗ — правило то же самое, просто теперь смотрит вперёд."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "А вот с обычным днём недели, без `next`, предлог как раз нужен: **on Friday** ✓, **on Monday morning** ✓. Убрали `next` — вернули `on`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "next week и in a week — разные вещи"
+        },
+        {
+          "type": "paragraph",
+          "text": "И последняя тонкость, которую русский склеивает почти всегда. Сегодня среда:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**next week** — следующая календарная неделя, то есть она начнётся уже через несколько дней.",
+            "**in a week** — ровно семь дней от сегодня, то есть следующая среда."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски это «на следующей неделе» и «через неделю», и мы их тоже различаем — просто в английском ошибка заметнее, потому что она меняет дату встречи."
+        }
+      ],
+      "theorySummary": "Отсчёт времени вперёд от сейчас — это предлог `in`: **in an hour**, **in ten minutes**, **in three months**. Русское «через» тянет за собой две ошибки: **through an hour** ✗ (`through` — это «сквозь» физически) и **after an hour** ✗. Слово `after` цепляется не к отрезку, а к событию: **after work** ✓, **after the meeting** ✓. Со словами `next`, `this`, `last`, `every` предлог и артикль не ставятся вообще: **next Monday** ✓ / **on next Monday** ✗, **this evening** ✓ / **in this evening** ✗. Без `next` предлог возвращается: **on Friday** ✓. И не путать: `next week` — следующая календарная неделя, `in a week` — ровно семь дней от сегодня.",
+      "examples": [
+        {
+          "ru": "Я вернусь через час.",
+          "en": "I'll be back in an hour."
+        },
+        {
+          "ru": "Автобус придёт через десять минут.",
+          "en": "The bus will come in ten minutes."
+        },
+        {
+          "ru": "Я позвоню тебе после встречи.",
+          "en": "I'll call you after the meeting."
+        },
+        {
+          "ru": "В следующий понедельник мы начнём.",
+          "en": "We'll start next Monday."
+        },
+        {
+          "ru": "В будущем всё будет проще.",
+          "en": "Everything will be easier in the future."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «через час» — это in an hour, а не after an hour?",
+        "Почему перед next Monday не нужен предлог, а перед Monday — нужен?",
+        "В чём разница между next week и in a week?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1805,6 +2123,54 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 140,
       "orderInCard": 3
+    },
+    {
+      "cardId": 313,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 124,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 313,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 119,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 313,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 48,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 313,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 141,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 314,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 157,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 314,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 56,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 314,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 65,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 314,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 60,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1847,6 +2213,14 @@
       "userInstruction": "ИИ опишет по-русски ситуацию. Напишите по-английски одно предложение о том, что там будет.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "future_simple_card314_ex1",
+      "cardId": 314,
+      "title": "in или after",
+      "userInstruction": "Вставьте в каждое предложение подходящий предлог.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -1985,6 +2359,46 @@
       "transcription": "[ˈtræfɪk]",
       "microtopicId": 111,
       "categoryId": "tenses"
+    },
+    {
+      "id": 554,
+      "word": "later",
+      "translation": "позже, потом",
+      "transcription": "[ˈleɪtə]",
+      "microtopicId": 112,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 555,
+      "word": "one day",
+      "translation": "когда-нибудь, однажды",
+      "transcription": "[wʌn deɪ]",
+      "microtopicId": 112,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 556,
+      "word": "the day after tomorrow",
+      "translation": "послезавтра",
+      "transcription": "[ðə deɪ ˈɑːftə təˈmɒrəʊ]",
+      "microtopicId": 112,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 557,
+      "word": "next time",
+      "translation": "в следующий раз",
+      "transcription": "[nekst taɪm]",
+      "microtopicId": 112,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 558,
+      "word": "future",
+      "translation": "будущее",
+      "transcription": "[ˈfjuːtʃə]",
+      "microtopicId": 112,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [],
@@ -2112,6 +2526,37 @@
         }
       ],
       "explanation": "Место подлежащего в этом обороте занимает there, поэтому слово tomorrow подлежащим быть не может: There will be a test tomorrow. После will глагол всегда стоит в базовой форме — there will be, а не there will are."
+    },
+    {
+      "id": 141,
+      "statements": [
+        {
+          "en": "We'll meet the day after tomorrow.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I will next week start a new course.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "One day Lily will move to Boston.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Next year I go to Japan with my brother.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They'll tell us the results later.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Маркер стоит в конце или в начале предложения, но не между will и глаголом: I'll start a new course next week. И маркер не отменяет форму будущего — рядом с next year всё равно нужен will."
     }
   ],
   "word_arrangement_exercises": [
@@ -2172,6 +2617,25 @@
         "isn't"
       ],
       "explanation": "В отрицании оборот выглядит как There won't be, а после отрицания идёт any, а не some. Форма isn't относится к настоящему времени и в будущем не используется."
+    },
+    {
+      "id": 124,
+      "situationRu": "Ситуация: Оля обещает отправить документы послезавтра.",
+      "correctSentence": "Olya will send the documents the day after tomorrow.",
+      "words": [
+        "Olya",
+        "will",
+        "send",
+        "the documents",
+        "the day after tomorrow"
+      ],
+      "distractors": [
+        "sends",
+        "will be send",
+        "to send",
+        "after tomorrow"
+      ],
+      "explanation": "Маркер времени встаёт в конец предложения, после дополнения, а глагол после will остаётся в базовой форме: will send. Формы sends, to send и will be send здесь невозможны."
     }
   ],
   "multiple_choice_exercises": [
@@ -2321,6 +2785,27 @@
         }
       ],
       "explanation": "Английскому предложению нужно подлежащее, и его роль играет there: There will be a concert. Обстоятельство времени подлежащим быть не может, а it описывало бы обстановку, а не наличие концерта."
+    },
+    {
+      "id": 157,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Урок закончится через сорок минут.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The lesson will finish in forty minutes.",
+          "isCorrect": true
+        },
+        {
+          "text": "The lesson will finish after forty minutes.",
+          "isCorrect": false
+        },
+        {
+          "text": "The lesson will finish through forty minutes.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Отсчёт вперёд от текущего момента идёт через предлог in: in forty minutes. Предлог after цепляется к событию, а through означает «сквозь» и ко времени не относится."
     }
   ],
   "text_input_exercises": [
@@ -2398,6 +2883,31 @@
       ],
       "explanation": "Жара и профессия — это состояние и роль, им нужна связка: will be hot, will be an engineer. Отправить фотографии — действие, там достаточно will send.",
       "taskDescription": "Впиши в каждое предложение пропущенные слова."
+    },
+    {
+      "id": 56,
+      "items": [
+        {
+          "sentence": "The film will start ___ ten minutes.",
+          "contextRu": "",
+          "answer": "in",
+          "alternatives": []
+        },
+        {
+          "sentence": "I'll answer all your questions ___ the lesson.",
+          "contextRu": "",
+          "answer": "after",
+          "alternatives": []
+        },
+        {
+          "sentence": "They'll be back from Vienna ___ two weeks.",
+          "contextRu": "",
+          "answer": "in",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Отрезок времени, отмеренный от сейчас, требует in: in ten minutes, in two weeks. Урок — это событие, а не отрезок, поэтому рядом с ним стоит after.",
+      "taskDescription": "Впиши в каждое предложение пропущенный предлог."
     }
   ],
   "dialog_restore_exercises": [
@@ -2548,6 +3058,25 @@
         }
       ],
       "explanation": "Работать — это действие, поэтому связка be здесь лишняя: will work. Окончание -s и частица to после will тоже невозможны."
+    },
+    {
+      "id": 119,
+      "wrongSentence": "I will tonight book a table for us.",
+      "options": [
+        {
+          "text": "I will book tonight a table for us.",
+          "isCorrect": false
+        },
+        {
+          "text": "I will book a table for us tonight.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tonight I book a table for us.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Между глаголом и дополнением маркер не вставляют — его место в конце: I'll book a table for us tonight. Форма I book говорит о привычке, а не о вечернем плане."
     }
   ],
   "construction_meaning_exercises": [
@@ -2632,6 +3161,25 @@
         }
       ],
       "explanation": "И there is, и there are в будущем превращаются в одну и ту же форму there will be — количество на неё не влияет."
+    },
+    {
+      "id": 48,
+      "taskDescription": "перепиши предложение, поставив слово-маркер в конец.",
+      "items": [
+        {
+          "original": "Tomorrow I'll visit my aunt.",
+          "transformed": "I'll visit my aunt tomorrow."
+        },
+        {
+          "original": "Soon they'll open a new café.",
+          "transformed": "They'll open a new café soon."
+        },
+        {
+          "original": "Later I'll wash the car.",
+          "transformed": "I'll wash the car later."
+        }
+      ],
+      "explanation": "Маркер времени свободно переезжает из начала предложения в конец, и больше ничего в предложении не меняется — порядок подлежащее плюс глагол плюс дополнение остаётся прежним."
     }
   ],
   "categorization_exercises": [
@@ -2680,6 +3228,34 @@
         }
       ],
       "explanation": "Если фраза называет действие, английский обходится без be: will send, will meet, will order. Если речь о состоянии, свойстве или роли — нужна связка: will be hungry, will be noisy, will be a nurse."
+    },
+    {
+      "id": 65,
+      "taskDescription": "распредели выражения по тому, что нужно поставить перед ними.",
+      "categories": [
+        {
+          "title": "in",
+          "items": [
+            "twenty minutes",
+            "three days"
+          ]
+        },
+        {
+          "title": "after",
+          "items": [
+            "dinner",
+            "the concert"
+          ]
+        },
+        {
+          "title": "ничего не нужно",
+          "items": [
+            "next week",
+            "this evening"
+          ]
+        }
+      ],
+      "explanation": "Перед отрезком времени ставится in, перед событием — after, а слова next и this работают указателем сами и никакого предлога рядом не требуют."
     }
   ],
   "find_the_odd_exercises": [
@@ -2705,6 +3281,29 @@
         }
       ],
       "explanation": "Листья, ночи и возраст Сэма от человека не зависят, а вызов сантехника — решение говорящего, принятое в момент речи."
+    },
+    {
+      "id": 60,
+      "groupDescription": "Три выражения оформлены правильно",
+      "items": [
+        {
+          "text": "next month",
+          "isOdd": false
+        },
+        {
+          "text": "this evening",
+          "isOdd": false
+        },
+        {
+          "text": "on next Sunday",
+          "isOdd": true
+        },
+        {
+          "text": "in two hours",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Слово next уже указывает на время, поэтому предлог рядом с ним не ставится: next Sunday. Предлог in перед отрезком времени, наоборот, обязателен."
     }
   ]
 }
