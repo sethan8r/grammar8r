@@ -35,6 +35,12 @@
       "topicId": 18,
       "title": "Usage · Что говорят через will",
       "order": 3
+    },
+    {
+      "id": 111,
+      "topicId": 18,
+      "title": "will be · Будущее с to be",
+      "order": 4
     }
   ],
   "grammar_cards": [
@@ -1255,6 +1261,368 @@
         "Почему в одних предложениях после will стоит be, а в других сразу глагол?",
         "Как понять, что в этом случае нужен именно will, а не другая форма будущего?"
       ]
+    },
+    {
+      "id": 311,
+      "microtopicId": 111,
+      "title": "will be: каким и кем я буду",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор после `will` у нас всегда стоял глагол-действие: **I'll call**, **I'll help**, **I'll buy**. Но если прислушаться к тому, что люди на самом деле говорят о завтрашнем дне, окажется, что половина фраз — вообще не про действия."
+        },
+        {
+          "type": "paragraph",
+          "text": "«Завтра я буду занят», «вечером будет холодно», «через год она станет учителем», «в восемь я буду дома». Ничего не происходит: человек не бегает, не звонит, не покупает — он просто **находится в каком-то состоянии, обладает свойством или занимает роль**. Для таких фраз английскому нужен `to be`, и в будущем это выглядит как `will be`."
+        },
+        {
+          "type": "heading",
+          "text": "Четыре типичные группы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "состояние человека — **I'll be tired after the flight.** / **Ben will be busy on Friday.**",
+            "погода и обстановка — **It will be windy tonight.** / **The café will be full at eight.**",
+            "роль, профессия, кем стать — **Lily will be a great teacher.**",
+            "где человек будет — **I'll be at home after six.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему тут вообще нужен отдельный глагол? Вспомните главное правило из «Основ»: **английское предложение не бывает без глагола**. Русский спокойно говорит «я занят», «она врач», «на улице холодно» — без всякого глагола вовсе. Английский так не умеет: если действия нет, работу подлежащего-и-сказуемого берёт на себя связка `to be`. В настоящем это `am/is/are`, в прошедшем `was/were`, а в будущем — одна-единственная форма `be` после `will`."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Лица здесь тоже не различаются — **I'll be**, **you'll be**, **he'll be**, **we'll be**, **they'll be**. Никаких `am/is/are`, никаких `was/were`: после `will` глагол всегда в базовой форме, и `be` не исключение. Одна форма на всех."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русское «буду» ведёт себя коварно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь главное место микротемы. Посмотрите на две русские фразы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Завтра я **буду** звонить клиентам.»",
+            "«Завтра я **буду** занят.»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово одно и то же — «буду». А в английском это две **разные** конструкции, и путать их нельзя:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Русская фраза",
+            "Что это на самом деле",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "Завтра буду звонить клиентам",
+              "действие",
+              "I'll call the clients tomorrow"
+            ],
+            [
+              "Завтра буду занят",
+              "состояние",
+              "I'll be busy tomorrow"
+            ],
+            [
+              "Вечером буду дома",
+              "место",
+              "I'll be at home in the evening"
+            ],
+            [
+              "Он будет врачом",
+              "роль",
+              "He'll be a doctor"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I will be call you tomorrow** ✗ → **I will call you tomorrow** ✓. Русское «буду» перед глаголом — **не** слово «быть», а служебный кусочек, из которого русский собирает будущее время: «буду звонить» = одно действие, просто разложенное на два слова. Английский собирает будущее иначе — меткой `will`, и она уже вмещает в себя всё это «буду» целиком. Второй раз добавлять `be` некуда и незачем."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверка одним вопросом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Спросите себя: **что будет — действие или состояние?**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Действие («позвоню», «приду», «куплю», «буду работать») → `will` + глагол, без `be`.",
+            "Состояние, свойство, роль, место («буду уставшим», «будет ветрено», «станет учителем», «буду дома») → `will be`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ориентир для русского уха: если после «буду» в русском стоит **другой глагол** — `be` не нужен. Если после «буду» стоит прилагательное, существительное или место — нужен."
+        },
+        {
+          "type": "heading",
+          "text": "Про погоду: откуда берётся it"
+        },
+        {
+          "type": "paragraph",
+          "text": "Фразы о погоде в английском обязаны иметь подлежащее, даже когда действующего лица нет вовсе. Его роль играет пустое `it` — то самое, которое мы разбирали в «Основах»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It will be cold in the mountains.** ✓ / **Will be cold in the mountains.** ✗",
+            "**It will be sunny on Sunday.** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «будет холодно» прекрасно живёт без подлежащего, поэтому рука честно начинает предложение с `will`. Английскому же нужен хоть кто-то на месте подлежащего — им и работает `it`."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всё как в обычном `will`, только глагол — `be`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I won't be free on Thursday.** — не буду свободен.",
+            "**Will you be at the office tomorrow?** — будешь завтра в офисе?",
+            "**Won't she be tired after the trip?** — разве она не устанет после поездки?",
+            "Краткие ответы прежние: **Yes, I will.** / **No, I won't.**"
+          ]
+        }
+      ],
+      "theorySummary": "Когда в будущем нет действия, а есть состояние, свойство, роль или место, английскому нужна связка: `will be` + прилагательное или существительное — **I'll be tired**, **It will be windy**, **Lily will be a teacher**, **I'll be at home**. Форма одна на все лица, никаких `am/is/are`. Главная ошибка: русское «буду» перед глаголом — это не «быть», а часть будущего времени, поэтому **I will be call you** ✗ → **I will call you** ✓. Проверка: после «буду» стоит другой глагол → `be` не нужен; стоит прилагательное, существительное или место → нужен. Погода требует пустого подлежащего `it`: **It will be cold** ✓, а не **Will be cold** ✗.",
+      "examples": [
+        {
+          "ru": "После перелёта я буду уставшим.",
+          "en": "I'll be tired after the flight."
+        },
+        {
+          "ru": "Вечером будет ветрено.",
+          "en": "It will be windy tonight."
+        },
+        {
+          "ru": "В восемь кафе будет забито.",
+          "en": "The café will be full at eight."
+        },
+        {
+          "ru": "Лили станет отличным учителем.",
+          "en": "Lily will be a great teacher."
+        },
+        {
+          "ru": "Ты завтра будешь свободен?",
+          "en": "Will you be free tomorrow?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I will be call, если по-русски мы говорим «буду звонить»?",
+        "Зачем в предложении о погоде нужно it, если по-русски подлежащего нет вообще?",
+        "Как быстро понять, нужна связка be или нет?"
+      ]
+    },
+    {
+      "id": 312,
+      "microtopicId": 111,
+      "title": "There will be: замыкаем линейку",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть конструкция, которую мы встречаем с самой первой темы курса и теперь наконец достраиваем до конца. Речь про оборот, который сообщает, что **что-то где-то есть**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There is a café near my house.** — в «Основах».",
+            "**There was a small shop here.** — в Past Simple.",
+            "**There will be a meeting at ten.** — и вот третья, последняя точка."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Линейка замкнулась: настоящее, прошедшее, будущее."
+        },
+        {
+          "type": "heading",
+          "text": "Одна форма на любое количество"
+        },
+        {
+          "type": "paragraph",
+          "text": "В настоящем и прошедшем приходилось выбирать: `there is` или `there are`, `there was` или `there were`. В будущем выбирать не из чего — форма всегда одна:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There will be a meeting at ten.** — один предмет.",
+            "**There will be a lot of people at the concert.** — много."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Число в этом обороте показывалось за счёт форм `to be`, а у `will be` формы всего одна — поэтому она обслуживает и единственное, и множественное. Ошибка **there will are** ✗ невозможна в принципе: после `will` любой глагол стоит в базовой форме, `be` не исключение."
+        },
+        {
+          "type": "heading",
+          "text": "Зачем тут вообще слово there"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот теперь — главная ловушка, и она чисто русская. Посмотрите, как мы строим такие фразы:"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Завтра будет собрание.» «Утром на дорогах будут пробки.» «Мест уже не останется.»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметили? В русских предложениях **нет подлежащего вообще**. Никто не назван, кто-то просто «будет». Русскому языку этого достаточно. Английскому — нет: у предложения обязано быть подлежащее, даже когда называть некого. Эту дырку и затыкает служебное `there` — ровно та же логика, что с пустым `it` в погоде из предыдущей карточки."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Tomorrow will be a meeting** ✗ → **There will be a meeting tomorrow** ✓. Русский начинает фразу с обстоятельства («завтра»), и рука делает его подлежащим — получается, что «завтра само будет собранием». Слово `tomorrow` — не участник события, а время; место подлежащего должно занять `there`."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Та же ошибка вылезает и с местом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**In the morning will be a lot of traffic** ✗ → **There will be a lot of traffic in the morning.** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание строится привычно, через `won't`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There won't be any seats left.** — свободных мест не останется.",
+            "**There won't be enough time for questions.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А в вопросе `will` выходит вперёд, и `there` встаёт **после** него — порядок непривычный, его стоит запомнить целиком:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will there be enough time?** — времени хватит?",
+            "**Won't there be a break?** — разве не будет перерыва?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Some` и `any` работают здесь по знакомому правилу из «Основ»: в утверждении — **There will be some traffic in the morning**, в отрицании и вопросе — **There won't be any seats** / **Will there be any tickets left?**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "There will be и It will be — разные вещи"
+        },
+        {
+          "type": "paragraph",
+          "text": "И последняя тонкость, на которой русский путается почти всегда. Сравните:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There will be a lot of people at the party.** — сообщаем, что **что-то будет существовать**: людей будет много.",
+            "**It will be crowded at the party.** — описываем, **какой будет обстановка**: будет людно."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски обе фразы начинаются одинаково — «будет много народу», «будет людно», — поэтому и выбор кажется случайным. Проверка простая: если по-русски можно вставить «там будет / появится» и назвать сам предмет или людей — это `There will be`. Если мы описываем, **каким** всё будет (холодно, шумно, людно, весело), — это `It will be`."
+        }
+      ],
+      "theorySummary": "Оборот о наличии чего-либо достраивается до будущего: `there is/are` → `there was/were` → **there will be**, причём форма одна на любое количество (**There will be a meeting** и **There will be a lot of people**, никаких `there will are` ✗). Слово `there` здесь — служебное подлежащее: в русском такие фразы обходятся без подлежащего вообще, отсюда ошибка **Tomorrow will be a meeting** ✗ → **There will be a meeting tomorrow** ✓. Отрицание — **There won't be any seats left**, вопрос — **Will there be enough time?** (в вопросе `there` встаёт после `will`). Не путать с `it`: **There will be a lot of people** (что будет существовать) ↔ **It will be crowded** (какой будет обстановка).",
+      "examples": [
+        {
+          "ru": "В десять будет собрание.",
+          "en": "There will be a meeting at ten."
+        },
+        {
+          "ru": "Утром на дорогах будут пробки.",
+          "en": "There will be a lot of traffic in the morning."
+        },
+        {
+          "ru": "Свободных мест не останется.",
+          "en": "There won't be any seats left."
+        },
+        {
+          "ru": "Времени хватит?",
+          "en": "Will there be enough time?"
+        },
+        {
+          "ru": "Разве не будет перерыва?",
+          "en": "Won't there be a break?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя начать предложение со слова tomorrow, если по-русски мы так и говорим?",
+        "Чем There will be отличается от It will be, если по-русски обе фразы звучат одинаково?",
+        "Почему в вопросе there стоит после will, а не перед ним?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1389,6 +1757,54 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 139,
       "orderInCard": 2
+    },
+    {
+      "cardId": 311,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 136,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 311,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 64,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 311,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 118,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 311,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 55,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 312,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 156,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 312,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 123,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 312,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 47,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 312,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 140,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1415,6 +1831,22 @@
       "userInstruction": "Вставьте в каждое предложение подходящее по смыслу слово.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_simple_card311_ex1",
+      "cardId": 311,
+      "title": "Нужно ли здесь be",
+      "userInstruction": "Вставьте в каждое предложение подходящие слова.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_simple_card312_ex1",
+      "cardId": 312,
+      "title": "Расскажи, что там будет",
+      "userInstruction": "ИИ опишет по-русски ситуацию. Напишите по-английски одно предложение о том, что там будет.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -1513,6 +1945,46 @@
       "transcription": "[suːp]",
       "microtopicId": 110,
       "categoryId": "tenses"
+    },
+    {
+      "id": 549,
+      "word": "windy",
+      "translation": "ветрено, ветреный",
+      "transcription": "[ˈwɪndi]",
+      "microtopicId": 111,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 550,
+      "word": "full",
+      "translation": "полный, заполненный",
+      "transcription": "[fʊl]",
+      "microtopicId": 111,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 551,
+      "word": "teacher",
+      "translation": "учитель, преподаватель",
+      "transcription": "[ˈtiːtʃə]",
+      "microtopicId": 111,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 552,
+      "word": "seat",
+      "translation": "место, сиденье",
+      "transcription": "[siːt]",
+      "microtopicId": 111,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 553,
+      "word": "traffic",
+      "translation": "движение на дорогах, пробки",
+      "transcription": "[ˈtræfɪk]",
+      "microtopicId": 111,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [],
@@ -1609,6 +2081,37 @@
         }
       ],
       "explanation": "После will глагол стоит в базовой форме без -s и без to: will get, will be. Связка will be нужна там, где речь о дате, возрасте, погоде или профессии."
+    },
+    {
+      "id": 140,
+      "statements": [
+        {
+          "en": "There will be a lot of noise in the street.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Tomorrow will be a test in our group.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Will there be enough chairs for everyone?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "There will are two buses in the morning.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "There won't be any snow this week.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Место подлежащего в этом обороте занимает there, поэтому слово tomorrow подлежащим быть не может: There will be a test tomorrow. После will глагол всегда стоит в базовой форме — there will be, а не there will are."
     }
   ],
   "word_arrangement_exercises": [
@@ -1650,6 +2153,25 @@
         "won't"
       ],
       "explanation": "В утвердительном предложении probably стоит сразу после will, а глагол остаётся в базовой форме: will probably like. Формы likes, will liked, is liking и to like после will невозможны."
+    },
+    {
+      "id": 123,
+      "situationRu": "Ситуация: Ира предупреждает, что вечером в кафе не будет свободных столиков.",
+      "correctSentence": "There won't be any free tables in the café tonight.",
+      "words": [
+        "There",
+        "won't",
+        "be",
+        "any free tables",
+        "in the café",
+        "tonight"
+      ],
+      "distractors": [
+        "some free tables",
+        "will be",
+        "isn't"
+      ],
+      "explanation": "В отрицании оборот выглядит как There won't be, а после отрицания идёт any, а не some. Форма isn't относится к настоящему времени и в будущем не используется."
     }
   ],
   "multiple_choice_exercises": [
@@ -1757,6 +2279,48 @@
         }
       ],
       "explanation": "Предложение помощи звучит в момент речи, поэтому нужна форма I'll carry. I carry описывает привычку, а I'm carrying — сумку, которая уже у Вас в руках."
+    },
+    {
+      "id": 136,
+      "choiceType": "CHOICE",
+      "prompt": "Don't worry, I ___ you as soon as I land.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will be call",
+          "isCorrect": false
+        },
+        {
+          "text": "will to call",
+          "isCorrect": false
+        },
+        {
+          "text": "will call",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«Позвоню» — это действие, поэтому после will идёт сразу глагол: will call. Связка be нужна только там, где действия нет: will be tired, will be at home."
+    },
+    {
+      "id": 156,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "В субботу в парке будет концерт.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "On Saturday will be a concert in the park.",
+          "isCorrect": false
+        },
+        {
+          "text": "There will be a concert in the park on Saturday.",
+          "isCorrect": true
+        },
+        {
+          "text": "It will be a concert in the park on Saturday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Английскому предложению нужно подлежащее, и его роль играет there: There will be a concert. Обстоятельство времени подлежащим быть не может, а it описывало бы обстановку, а не наличие концерта."
     }
   ],
   "text_input_exercises": [
@@ -1809,6 +2373,31 @@
       ],
       "explanation": "Обещание не выдать секрет и заклинившее окно требуют отрицательной формы won't, а предложение помощи — обычной will. Форма после них не меняется: tell, carry, open.",
       "taskDescription": "Впиши в каждое предложение пропущенное слово."
+    },
+    {
+      "id": 55,
+      "items": [
+        {
+          "sentence": "It ___ very hot in Madrid next week.",
+          "contextRu": "",
+          "answer": "will be",
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ send you the photos in the evening.",
+          "contextRu": "",
+          "answer": "will",
+          "alternatives": []
+        },
+        {
+          "sentence": "Sara ___ an engineer after university.",
+          "contextRu": "",
+          "answer": "will be",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Жара и профессия — это состояние и роль, им нужна связка: will be hot, will be an engineer. Отправить фотографии — действие, там достаточно will send.",
+      "taskDescription": "Впиши в каждое предложение пропущенные слова."
     }
   ],
   "dialog_restore_exercises": [
@@ -1940,6 +2529,25 @@
         }
       ],
       "explanation": "Со словами мнения английский отрицает первый глагол, а не второй: I don't think she will pass. Глагол to think при этом остаётся в обычной форме — в Continuous он не ставится."
+    },
+    {
+      "id": 118,
+      "wrongSentence": "Emma will be work in Prague next year.",
+      "options": [
+        {
+          "text": "Emma will work in Prague next year.",
+          "isCorrect": true
+        },
+        {
+          "text": "Emma will be works in Prague next year.",
+          "isCorrect": false
+        },
+        {
+          "text": "Emma will to work in Prague next year.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Работать — это действие, поэтому связка be здесь лишняя: will work. Окончание -s и частица to после will тоже невозможны."
     }
   ],
   "construction_meaning_exercises": [
@@ -2005,6 +2613,25 @@
         }
       ],
       "explanation": "Отрицание переносится с второй части в первую, к глаголу мнения, а сам прогноз становится утвердительным: won't call → don't think … will call."
+    },
+    {
+      "id": 47,
+      "taskDescription": "перепиши предложение в будущем времени.",
+      "items": [
+        {
+          "original": "There is a party on Friday.",
+          "transformed": "There will be a party on Friday."
+        },
+        {
+          "original": "There are ten guests.",
+          "transformed": "There will be ten guests."
+        },
+        {
+          "original": "There is a lot of snow.",
+          "transformed": "There will be a lot of snow."
+        }
+      ],
+      "explanation": "И there is, и there are в будущем превращаются в одну и ту же форму there will be — количество на неё не влияет."
     }
   ],
   "categorization_exercises": [
@@ -2030,6 +2657,29 @@
         }
       ],
       "explanation": "В левом столбце будущее зависит от говорящего: он решает или высказывает мнение. В правом никто ничего не решает — возраст, рассвет и день недели наступят сами, но форма при этом одна и та же."
+    },
+    {
+      "id": 64,
+      "taskDescription": "распредели фразы по тому, что нужно в английском переводе.",
+      "categories": [
+        {
+          "title": "will + глагол",
+          "items": [
+            "отправлю письмо",
+            "встречу тебя на вокзале",
+            "закажу такси"
+          ]
+        },
+        {
+          "title": "will be",
+          "items": [
+            "буду голодным",
+            "будет шумно",
+            "станет медсестрой"
+          ]
+        }
+      ],
+      "explanation": "Если фраза называет действие, английский обходится без be: will send, will meet, will order. Если речь о состоянии, свойстве или роли — нужна связка: will be hungry, will be noisy, will be a nurse."
     }
   ],
   "find_the_odd_exercises": [

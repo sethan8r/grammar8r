@@ -1949,13 +1949,20 @@ theory/
 │   │   │       знаменателю (will = форма по умолчанию, когда за словами нет ни решения, ни
 │   │   │       договорённости, ни расписания) и мостит в МТ «Будущее с to be».
 │   │   │
-│   │   ├── МТ · will be · Будущее с to be (2 карточки) ⭐ узловая для ошибок
-│   │   │   ├── Card · will be + прилагательное/существительное: I'll be tired, It will be cold,
-│   │   │   │   She'll be a great doctor. ГЛАВНОЕ — развести will be + прилагательное ✓ ↔ will be +
-│   │   │   │   глагол ✗ (I will be call ✗ → I will call ✓). Корень: русское «буду» — это НЕ will be,
-│   │   │   │   а часть будущего времени глагола. Callback к Основам (to be там, где в русском связки нет).
-│   │   │   └── Card · There will be — закрываем линейку There is/are → There was/were → There will
-│   │   │       be: There will be a lot of people, There won't be any bread, Will there be time?
+│   │   ├── МТ111 · will be · Будущее с to be (2 карточки) ⭐ узловая для ошибок ✅ (написана, ALL GREEN 07.08.26)
+│   │   │   🔤 Слито 5 слов: windy, full, teacher, seat, traffic. AI на обеих карточках
+│   │   │      (311 — FILL_BLANKS «нужно ли здесь be», 312 — FREE_WRITE «расскажи, что там будет»).
+│   │   │   ├── Card 311 · will be + прилагательное/существительное: I'll be tired, It will be windy,
+│   │   │   │   Lily will be a great teacher, I'll be at home. ГЛАВНОЕ — развести will be +
+│   │   │   │   прилагательное ✓ ↔ will be + глагол ✗ (I will be call ✗ → I will call ✓) таблицей
+│   │   │   │   «русская фраза → что это на самом деле → по-английски». Корень: русское «буду» — это
+│   │   │   │   НЕ will be, а часть будущего времени глагола. Callback к Основам (to be там, где в
+│   │   │   │   русском связки нет) + пустое it в погоде (Will be cold ✗).
+│   │   │   └── Card 312 · There will be — закрываем линейку There is/are → There was/were → There will
+│   │   │       be: одна форма на любое число (there will are ✗), There won't be any seats left,
+│   │   │       Will there be enough time? Главная ловушка — русская фраза без подлежащего:
+│   │   │       Tomorrow will be a meeting ✗. Плюс some/any и разведение There will be (что существует)
+│   │   │       ↔ It will be (какая обстановка).
 │   │   │
 │   │   ├── МТ · Time Markers · Маркеры будущего (2 карточки)
 │   │   │   🔤 СЛИВ: `later` придержан специально для этой микротемы (в МТ109 сознательно НЕ слит,
