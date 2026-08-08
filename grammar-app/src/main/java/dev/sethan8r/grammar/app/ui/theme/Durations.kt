@@ -23,4 +23,7 @@ object Durations {
 
     /** Slide+fade показа/скрытия плавающей капсулы навигации при скролле, мс. */
     const val bottomBarShowHideMs = 280
+
+    /** Смена заголовка вкладки на поле поиска и обратно, мс. */
+    const val searchBarSwapMs = 220
 }

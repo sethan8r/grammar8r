@@ -17,5 +17,7 @@ data class GrammarMicrotopic(
     @PrimaryKey val id: Int,
     val topicId: Int,
     val title: String,
-    @ColumnInfo(name = "order") val order: Int
+    @ColumnInfo(name = "order") val order: Int,
+    /** Теги поиска через запятую, строчными; пользователю не показываются. Отличие от соседок по теме. */
+    val searchKeywords: String?
 )

@@ -572,6 +572,37 @@ MT_CAT = re.compile(r'\*\*Категория слов:\*\*\s*(\w+)')
 WORD_START_HDR = re.compile(r'\*\*Слова курса\s*—\s*стартовый ID:\*\*\s*(\d+)')
 TOPIC_CATEGORY = re.compile(r'\*\*Раздел:\*\*\s*(\d+)\s*·\s*(.+?)\s*·\s*order=(\d+)\s*$')
 TOPIC_CATEGORY_DESC = re.compile(r'\*\*Раздел\s*·\s*Описание:\*\*\s*(.+)$')
+TAGS_HDR = re.compile(r'\*\*Теги:\*\*\s*(.+)$')
+# Тег — живая фраза, какой её напишет пользователь («как сказать что чего то не было»),
+# поэтому потолок мягкий: он ловит тег, выродившийся в предложение, а не нормальный вопрос.
+MAX_TAG_WORDS = 6
+
+
+def parse_tags(head, title, level, warns):
+    """Строка `**Теги:**` из шапки темы/микротемы -> searchKeywords (через запятую, строчными).
+
+    Строки нет или она пустая -> None (темы без тегов собираются как раньше). Нарушения канона
+    дают предупреждения, а не ошибку: 85 микротем ещё без тегов, ретрофит идёт постепенно.
+    """
+    raw = next((m.group(1) for h in head for m in [TAGS_HDR.search(h)] if m), None)
+    if not raw:
+        return None
+    title_words = {w for w in re.findall(r'\w+', title.lower()) if len(w) > 2}
+    tags, seen = [], set()
+    for tag in (t.strip().lower() for t in raw.split(',')):
+        if not tag:
+            continue
+        if tag in seen:
+            warns.append(f'ТЕГИ {level}: дубль «{tag}»')
+            continue
+        seen.add(tag)
+        words = re.findall(r'\w+', tag)
+        if len(words) > MAX_TAG_WORDS:
+            warns.append(f'ТЕГИ {level}: длиннее {MAX_TAG_WORDS} слов — «{tag}»')
+        if words and set(words) <= title_words:
+            warns.append(f'ТЕГИ {level}: «{tag}» целиком повторяет заголовок — толку в поиске нет')
+        tags.append(tag)
+    return ', '.join(tags) if tags else None
 
 
 def collect_section(lines, i):
@@ -665,10 +696,12 @@ def parse_file(path, only_mt=None, word_start=1):
                     word_counter[0] = int(ws.group(1)) - 1
             if topic_category:
                 topic_category['description'] = category_desc
+            topic_title = title.split('·')[-1].strip() if '·' in title else title
             content['grammar_topics'].append({
-                'id': topic_id, 'title': title.split('·')[-1].strip() if '·' in title else title,
+                'id': topic_id, 'title': topic_title,
                 'order': order, 'isPretopic': is_pre, 'description': desc,
                 'categoryId': category_id,
+                'searchKeywords': parse_tags(head, topic_title, f'тема {topic_id}', warnings),
             })
             if group:
                 content['course_word_groups'].append(group)
@@ -689,12 +722,14 @@ def parse_file(path, only_mt=None, word_start=1):
             cur_mt_cat = catm.group(1) if catm else (default_cat['id'] if default_cat else None)
             cur_mt = mt_id
             if only_mt is None or mt_id == only_mt:
+                # Полное двойное название "EN · RU" (UI рисует его как две строки). Нормализуем
+                # пробелы вокруг разделителя к ровно " · ".
+                full_title = re.sub(r'\s*·\s*', ' · ', mt_title).strip()
                 content['grammar_microtopics'].append({
                     'id': mt_id, 'topicId': topic_id,
-                    # Полное двойное название "EN · RU" (UI рисует его как две строки). Нормализуем
-                    # пробелы вокруг разделителя к ровно " · ".
-                    'title': re.sub(r'\s*·\s*', ' · ', mt_title).strip(),
+                    'title': full_title,
                     'order': mt_order,
+                    'searchKeywords': parse_tags(head, full_title, f'микротема {mt_id}', warnings),
                 })
             continue
 
@@ -914,6 +949,12 @@ def main():
     for k, v in content.items():
         if v:
             print(f'  {k}: {len(v)}')
+    # Покрытие тегами поиска — чтобы check.py показал его в сводке (теги невидимы в UI,
+    # без этой строки забытая шапка обнаружится только на живых запросах).
+    mts = content['grammar_microtopics']
+    tagged_mt = sum(1 for mt in mts if mt.get('searchKeywords'))
+    topic_tagged = any(t.get('searchKeywords') for t in content['grammar_topics'])
+    print(f'TAGS: topic={"yes" if topic_tagged else "NO"} microtopics={tagged_mt}/{len(mts)}')
     if warnings:
         print('WARNINGS:')
         for w in warnings:

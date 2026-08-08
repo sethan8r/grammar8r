@@ -12,15 +12,15 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.LinearProgressIndicator
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -31,24 +31,25 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryListItem
-import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
 import dev.sethan8r.grammar.app.ui.components.CenteredHint
 import dev.sethan8r.grammar.app.ui.components.DualTitle
 import dev.sethan8r.grammar.app.ui.components.InfoButton
 import dev.sethan8r.grammar.app.ui.components.feedback.LocalTabSnackbarController
+import dev.sethan8r.grammar.app.ui.components.search.SearchGroupCard
+import dev.sethan8r.grammar.app.ui.components.search.SearchIdleHint
+import dev.sethan8r.grammar.app.ui.components.search.SearchNoResults
+import dev.sethan8r.grammar.app.ui.components.search.TheorySearchBar
+import dev.sethan8r.grammar.app.ui.components.theory.TopicCardBody
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.theme.Inactive
-import dev.sethan8r.grammar.app.ui.theme.TextPrimary
-import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 import dev.sethan8r.grammar.app.ui.util.floatingBarBottomInset
 import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 
@@ -60,6 +61,7 @@ import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 @Composable
 fun TheoryScreen(
     onTopicClick: (Int) -> Unit,
+    onMicrotopicClick: (Int) -> Unit,
     viewModel: TheoryViewModel = hiltViewModel(),
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
@@ -71,9 +73,13 @@ fun TheoryScreen(
             uiState.isLoading -> CenteredHint(stringResource(R.string.theory_loading), Modifier.fillMaxSize())
             uiState.items.isEmpty() -> CenteredHint(stringResource(R.string.theory_empty), Modifier.fillMaxSize())
             else -> TheoryList(
-                items = uiState.items,
+                uiState = uiState,
                 onTopicClick = onTopicClick,
+                onMicrotopicClick = onMicrotopicClick,
                 onShowInfo = { snackbar?.show(it, Durations.infoSnackbarMs) },
+                onSearchOpen = viewModel::onSearchOpen,
+                onSearchClose = viewModel::onSearchClose,
+                onQueryChange = viewModel::onQueryChange,
             )
         }
     }
@@ -81,11 +87,21 @@ fun TheoryScreen(
 
 @Composable
 private fun TheoryList(
-    items: List<TheoryListItem>,
+    uiState: TheoryUiState,
     onTopicClick: (Int) -> Unit,
+    onMicrotopicClick: (Int) -> Unit,
     onShowInfo: (String) -> Unit,
+    onSearchOpen: () -> Unit,
+    onSearchClose: () -> Unit,
+    onQueryChange: (String) -> Unit,
 ) {
+    // Своё состояние скролла на каждый режим: закрыв поиск, пользователь возвращается туда,
+    // где читал дерево.
+    val treeState = rememberLazyListState()
+    val resultsState = rememberLazyListState()
+
     LazyColumn(
+        state = if (uiState.isSearchOpen) resultsState else treeState,
         modifier = Modifier
             .fillMaxSize()
             .padding(horizontal = Dimens.screenPadding),
@@ -97,28 +113,57 @@ private fun TheoryList(
         ),
         verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
     ) {
-        item {
-            Text(
-                text = stringResource(R.string.theory_title),
-                modifier = Modifier.padding(vertical = Dimens.spaceLarge),
-                color = Accent,
-                fontSize = 22.sp,
-                fontWeight = FontWeight.Bold,
+        item(key = "header") {
+            TheorySearchBar(
+                isOpen = uiState.isSearchOpen,
+                query = uiState.query,
+                onQueryChange = onQueryChange,
+                onOpen = onSearchOpen,
+                onClose = onSearchClose,
+                modifier = Modifier.padding(vertical = Dimens.spaceSmall),
             )
         }
 
-        items(items = items, key = { it.itemKey() }) { item ->
-            when (item) {
-                is TheoryListItem.TopicItem -> TopicBody(
-                    topic = item.topic,
-                    onTopicClick = onTopicClick,
-                    onShowInfo = onShowInfo,
-                    modifier = Modifier
-                        .clip(RoundedCornerShape(Dimens.cornerCard))
-                        .background(CardBackground),
-                )
-                is TheoryListItem.SectionItem -> SectionGroup(item, onTopicClick, onShowInfo)
+        if (uiState.isSearchOpen) {
+            searchContent(uiState.searchContent, onTopicClick, onMicrotopicClick, onShowInfo)
+        } else {
+            items(items = uiState.items, key = { it.itemKey() }) { item ->
+                when (item) {
+                    is TheoryListItem.TopicItem -> TopicCardBody(
+                        topic = item.topic,
+                        onTopicClick = onTopicClick,
+                        onShowInfo = onShowInfo,
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(Dimens.cornerCard))
+                            .background(CardBackground),
+                    )
+                    is TheoryListItem.SectionItem -> SectionGroup(item, onTopicClick, onShowInfo)
+                }
             }
+        }
+    }
+}
+
+/** Тело вкладки в режиме поиска: подсказка, «ничего не найдено» или группы результатов. */
+private fun LazyListScope.searchContent(
+    content: TheorySearchContent,
+    onTopicClick: (Int) -> Unit,
+    onMicrotopicClick: (Int) -> Unit,
+    onShowInfo: (String) -> Unit,
+) {
+    when (content) {
+        is TheorySearchContent.Idle -> item(key = "search_idle") { SearchIdleHint() }
+        is TheorySearchContent.NoResults -> item(key = "search_empty") { SearchNoResults() }
+        is TheorySearchContent.Results -> items(
+            items = content.groups,
+            key = { "group_${it.topic.id}" },
+        ) { group ->
+            SearchGroupCard(
+                group = group,
+                onTopicClick = onTopicClick,
+                onMicrotopicClick = onMicrotopicClick,
+                onShowInfo = onShowInfo,
+            )
         }
     }
 }
@@ -174,51 +219,9 @@ private fun SectionGroup(
             Column {
                 section.topics.forEach { topic ->
                     HorizontalDivider(color = Inactive)
-                    TopicBody(topic, onTopicClick, onShowInfo)
+                    TopicCardBody(topic, onTopicClick, onShowInfo)
                 }
             }
-        }
-    }
-}
-
-/**
- * Содержимое темы (название + прогресс + «i»), без собственного фона. Отдельная тема оборачивается
- * фреймом снаружи; внутри раздела рисуется строкой внутри его фрейма.
- */
-@Composable
-private fun TopicBody(
-    topic: TopicSummary,
-    onTopicClick: (Int) -> Unit,
-    onShowInfo: (String) -> Unit,
-    modifier: Modifier = Modifier,
-) {
-    Column(
-        modifier = modifier
-            .fillMaxWidth()
-            .clickable { onTopicClick(topic.id) }
-            .padding(Dimens.cardPadding),
-        verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
-    ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            DualTitle(title = topic.title, modifier = Modifier.weight(1f), primarySize = 18.sp)
-            topic.description?.let { description -> InfoButton(onClick = { onShowInfo(description) }) }
-        }
-        if (topic.totalMicrotopics > 0) {
-            LinearProgressIndicator(
-                progress = { topic.completedMicrotopics.toFloat() / topic.totalMicrotopics },
-                modifier = Modifier.fillMaxWidth(),
-                color = Accent,
-                trackColor = Inactive,
-            )
-            Text(
-                text = stringResource(
-                    R.string.theory_progress_format,
-                    topic.completedMicrotopics,
-                    topic.totalMicrotopics,
-                ),
-                color = TextSecondary,
-                fontSize = 13.sp,
-            )
         }
     }
 }

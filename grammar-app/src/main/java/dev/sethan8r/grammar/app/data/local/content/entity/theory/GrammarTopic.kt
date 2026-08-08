@@ -19,5 +19,7 @@ data class GrammarTopic(
     @ColumnInfo(name = "order") val order: Int,
     val isPretopic: Boolean,
     val categoryId: Int?,
-    val description: String?
+    val description: String?,
+    /** Теги поиска через запятую, строчными; пользователю не показываются. Зонт всей темы. */
+    val searchKeywords: String?
 )

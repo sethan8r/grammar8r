@@ -2,6 +2,7 @@ package dev.sethan8r.grammar.app.data.local.content.dao
 
 import androidx.room.Dao
 import androidx.room.Query
+import dev.sethan8r.grammar.app.data.local.content.dao.projection.CardTitle
 import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarCard
 import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarMicrotopic
 import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarTopic
@@ -34,6 +35,10 @@ interface TheoryDao {
 
     @Query("SELECT * FROM grammar_cards WHERE id = :cardId")
     suspend fun getCard(cardId: Int): GrammarCard?
+
+    /** Заголовки всех карточек для поискового индекса — без тела теории (оно в индекс не входит). */
+    @Query("SELECT id, microtopicId, title FROM grammar_cards")
+    fun getCardTitles(): Flow<List<CardTitle>>
 
     /** id карточек микротемы, у которых есть хотя бы одно хардкод-упражнение. */
     @Query(

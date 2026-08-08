@@ -16,6 +16,13 @@
     <string name="theory_loading">Загрузка…</string>
     <string name="theory_empty">Теория появится позже</string>
     <string name="theory_progress_format">%1$d из %2$d микротем</string>
+
+    <!-- Поиск по теории -->
+    <string name="theory_search_open">Искать по теории</string>
+    <string name="theory_search_close">Закрыть поиск</string>
+    <string name="theory_search_placeholder">Введите запрос</string>
+    <string name="theory_search_no_results">Ничего не найдено</string>
+    <string name="theory_search_no_results_hint">Попробуйте другой запрос</string>
     <string name="theory_examples_title">Примеры</string>
     <string name="theory_clarify_button">Не совсем понял</string>
     <string name="theory_go_to_exercises">Перейти к заданиям</string>

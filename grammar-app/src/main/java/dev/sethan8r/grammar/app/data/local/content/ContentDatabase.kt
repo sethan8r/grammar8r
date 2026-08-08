@@ -73,7 +73,8 @@ import dev.sethan8r.grammar.app.data.local.converter.Converters
     //   свежий ассет (пользовательских данных тут нет). ПЕРЕД РЕЛИЗОМ: схлопнуть все dev-бампы
     //   обратно в version = 1 и удалить лишние schemas/ContentDatabase/*.json — выпускаемся с чистой v1.
     // v2: TextInputExercise + taskDescription/wordBank («банк слов»).
-    version = 2,
+    // v3: searchKeywords у темы и микротемы (скрытые теги поиска).
+    version = 3,
     exportSchema = true
 )
 @TypeConverters(Converters::class)

@@ -6,7 +6,8 @@
       "order": 1,
       "isPretopic": true,
       "description": "Личные местоимения, глагол to be, артикли, предлоги — фундамент",
-      "categoryId": null
+      "categoryId": null,
+      "searchKeywords": null
     }
   ],
   "grammar_topic_categories": [],
@@ -15,151 +16,176 @@
       "id": 1,
       "topicId": 1,
       "title": "Personal Pronouns · Личные местоимения",
-      "order": 1
+      "order": 1,
+      "searchKeywords": null
     },
     {
       "id": 2,
       "topicId": 1,
       "title": "Verb \"to be\" · Глагол to be",
-      "order": 2
+      "order": 2,
+      "searchKeywords": null
     },
     {
       "id": 3,
       "topicId": 1,
       "title": "There is / There are · Оборот there is / there are",
-      "order": 3
+      "order": 3,
+      "searchKeywords": null
     },
     {
       "id": 4,
       "topicId": 1,
       "title": "Have / Has · Глагол have / has",
-      "order": 4
+      "order": 4,
+      "searchKeywords": null
     },
     {
       "id": 5,
       "topicId": 1,
       "title": "Articles a / an · Артикли a / an",
-      "order": 5
+      "order": 5,
+      "searchKeywords": null
     },
     {
       "id": 6,
       "topicId": 1,
       "title": "Article the · Артикль the",
-      "order": 6
+      "order": 6,
+      "searchKeywords": null
     },
     {
       "id": 7,
       "topicId": 1,
       "title": "Possessive Pronouns · Притяжательные местоимения",
-      "order": 7
+      "order": 7,
+      "searchKeywords": null
     },
     {
       "id": 8,
       "topicId": 1,
       "title": "Demonstrative Pronouns · Указательные местоимения",
-      "order": 8
+      "order": 8,
+      "searchKeywords": null
     },
     {
       "id": 9,
       "topicId": 1,
       "title": "Question Words · Вопросительные слова",
-      "order": 9
+      "order": 9,
+      "searchKeywords": null
     },
     {
       "id": 10,
       "topicId": 1,
       "title": "Basic Place Prepositions · Предлоги места",
-      "order": 10
+      "order": 10,
+      "searchKeywords": null
     },
     {
       "id": 11,
       "topicId": 1,
       "title": "Time Prepositions · Предлоги времени",
-      "order": 11
+      "order": 11,
+      "searchKeywords": null
     },
     {
       "id": 12,
       "topicId": 1,
       "title": "Direction Prepositions · Предлоги направления",
-      "order": 12
+      "order": 12,
+      "searchKeywords": null
     },
     {
       "id": 13,
       "topicId": 1,
       "title": "Plural of Nouns · Множественное число",
-      "order": 13
+      "order": 13,
+      "searchKeywords": null
     },
     {
       "id": 14,
       "topicId": 1,
       "title": "Numbers · Числа",
-      "order": 14
+      "order": 14,
+      "searchKeywords": null
     },
     {
       "id": 15,
       "topicId": 1,
       "title": "The Calendar · Календарь",
-      "order": 15
+      "order": 15,
+      "searchKeywords": null
     },
     {
       "id": 16,
       "topicId": 1,
       "title": "Clock Time · Время на часах",
-      "order": 16
+      "order": 16,
+      "searchKeywords": null
     },
     {
       "id": 17,
       "topicId": 1,
       "title": "Countable & Uncountable Nouns · Счётные и несчётные существительные",
-      "order": 17
+      "order": 17,
+      "searchKeywords": null
     },
     {
       "id": 18,
       "topicId": 1,
       "title": "Imperative · Императив",
-      "order": 18
+      "order": 18,
+      "searchKeywords": null
     },
     {
       "id": 19,
       "topicId": 1,
       "title": "Word Order: SVO · Порядок слов: подлежащее-сказуемое-дополнение",
-      "order": 19
+      "order": 19,
+      "searchKeywords": null
     },
     {
       "id": 20,
       "topicId": 1,
       "title": "Adjectives · Прилагательные (базовое введение)",
-      "order": 20
+      "order": 20,
+      "searchKeywords": null
     },
     {
       "id": 21,
       "topicId": 1,
       "title": "Can / can't · Модальный глагол can",
-      "order": 21
+      "order": 21,
+      "searchKeywords": null
     },
     {
       "id": 22,
       "topicId": 1,
       "title": "also / too / as well · Три способа сказать «тоже»",
-      "order": 22
+      "order": 22,
+      "searchKeywords": null
     },
     {
       "id": 23,
       "topicId": 1,
       "title": "want to / need to / like to · want to / need to / like to",
-      "order": 23
+      "order": 23,
+      "searchKeywords": null
     },
     {
       "id": 24,
       "topicId": 1,
       "title": "as / as well as / such as · as / as well as / such as",
-      "order": 24
+      "order": 24,
+      "searchKeywords": null
     },
     {
       "id": 25,
       "topicId": 1,
       "title": "A Few More Essentials · Ещё немного важного",
-      "order": 25
+      "order": 25,
+      "searchKeywords": null
     }
   ],
   "grammar_cards": [

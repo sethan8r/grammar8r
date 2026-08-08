@@ -1,6 +1,7 @@
 package dev.sethan8r.grammar.app.domain.repository
 
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicCards
+import dev.sethan8r.grammar.app.domain.model.theory.SearchIndex
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryData
 import dev.sethan8r.grammar.app.domain.model.theory.TopicMicrotopics
 import kotlinx.coroutines.flow.Flow
@@ -20,4 +21,11 @@ interface TheoryRepository {
 
     /** Карточки микротемы (теория разобрана в блоки) + заголовок микротемы. */
     fun observeMicrotopicCards(microtopicId: Int): Flow<MicrotopicCards>
+
+    /**
+     * Снимок курса для поиска: темы, микротемы, теги, заголовки карточек и прогресс.
+     * Отдельно от [observeTheoryData] — заголовки карточек нужны только поиску, и подписка
+     * на них должна начинаться, когда поиск открыт, а не при каждом показе вкладки.
+     */
+    fun observeSearchIndex(): Flow<SearchIndex>
 }

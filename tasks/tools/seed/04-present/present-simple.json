@@ -6,7 +6,8 @@
       "order": 1,
       "isPretopic": false,
       "description": "Время привычек, фактов и постоянной реальности — действий, которые верны вообще, а не прямо сейчас",
-      "categoryId": 3
+      "categoryId": 3,
+      "searchKeywords": "настоящее время, то что происходит вообще, регулярные действия, как сказать о привычном"
     }
   ],
   "grammar_topic_categories": [
@@ -22,49 +23,57 @@
       "id": 49,
       "topicId": 8,
       "title": "What Is Present Simple · Что такое Present Simple",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "не прямо сейчас, чем отличается от продолженного, верно вообще, постоянная реальность"
     },
     {
       "id": 50,
       "topicId": 8,
       "title": "Affirmative & the -s · Образование: утверждение и -s",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "окончание s у глагола, когда ставить s, он она оно добавляет s, утвердительное предложение"
     },
     {
       "id": 51,
       "topicId": 8,
       "title": "Negative · Образование: отрицание",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "не делаю, он не делает, нужен помощник для отрицания, отказ от действия"
     },
     {
       "id": 52,
       "topicId": 8,
       "title": "Questions · Образование: вопрос",
-      "order": 4
+      "order": 4,
+      "searchKeywords": "ты делаешь это, вопросительное предложение, спросить о привычном, задать вопрос"
     },
     {
       "id": 53,
       "topicId": 8,
       "title": "Usage · Употребление",
-      "order": 5
+      "order": 5,
+      "searchKeywords": "распорядок дня, факты о себе, постоянные вещи, общие истины"
     },
     {
       "id": 54,
       "topicId": 8,
       "title": "Time Markers & Frequency Adverbs · Маркеры времени и наречия частотности",
-      "order": 6
+      "order": 6,
+      "searchKeywords": "частота действия, всегда иногда никогда, куда ставить наречие, каждый день и раз в неделю"
     },
     {
       "id": 55,
       "topicId": 8,
       "title": "Have to · Должен / приходится",
-      "order": 7
+      "order": 7,
+      "searchKeywords": "надо сделать, вынужден делать, обязанность, приходится по обстоятельствам"
     },
     {
       "id": 56,
       "topicId": 8,
       "title": "Live Practice · Закрепление Present Simple с ИИ",
-      "order": 8
+      "order": 8,
+      "searchKeywords": "практика с ии, поговорить с ии, живая тренировка"
     }
   ],
   "grammar_cards": [

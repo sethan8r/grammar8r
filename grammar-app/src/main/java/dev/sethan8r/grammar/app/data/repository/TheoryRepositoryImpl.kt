@@ -3,15 +3,19 @@ package dev.sethan8r.grammar.app.data.repository
 import dev.sethan8r.grammar.app.data.local.content.dao.TheoryDao
 import dev.sethan8r.grammar.app.data.local.user.dao.ProgressDao
 import dev.sethan8r.grammar.app.data.mapper.TheoryContentMapper
+import dev.sethan8r.grammar.app.domain.model.theory.IndexedMicrotopic
+import dev.sethan8r.grammar.app.domain.model.theory.IndexedTopic
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicCards
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicState
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicSummary
+import dev.sethan8r.grammar.app.domain.model.theory.SearchIndex
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryCategory
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryData
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryMicrotopicRef
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryTopic
 import dev.sethan8r.grammar.app.domain.model.theory.TopicMicrotopics
 import dev.sethan8r.grammar.app.domain.repository.TheoryRepository
+import dev.sethan8r.grammar.app.domain.usecase.search.SearchKeywords
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import javax.inject.Inject
@@ -59,6 +63,43 @@ class TheoryRepositoryImpl @Inject constructor(
                     id = it.id,
                     title = it.title,
                     state = if (it.id in completed) MicrotopicState.COMPLETED else MicrotopicState.AVAILABLE,
+                )
+            },
+        )
+    }
+
+    override fun observeSearchIndex(): Flow<SearchIndex> = combine(
+        theoryDao.getCategories(),
+        theoryDao.getTopics(),
+        theoryDao.getAllMicrotopics(),
+        theoryDao.getCardTitles(),
+        progressDao.getAllMicrotopicProgress(),
+    ) { categories, topics, microtopics, cardTitles, progress ->
+        val sectionTitles = categories.associate { it.id to it.title }
+        val cardsByMicrotopic = cardTitles.groupBy { it.microtopicId }
+        val completed = progress.filter { it.isCompleted }.map { it.microtopicId }.toSet()
+        val microtopicsByTopic = microtopics.groupBy { it.topicId }
+        SearchIndex(
+            topics = topics.map { topic ->
+                val own = microtopicsByTopic[topic.id].orEmpty().sortedBy { it.order }
+                IndexedTopic(
+                    id = topic.id,
+                    title = topic.title,
+                    keywords = SearchKeywords.parse(topic.searchKeywords),
+                    description = topic.description,
+                    sectionTitle = topic.categoryId?.let(sectionTitles::get),
+                    order = topic.order,
+                    completedMicrotopics = own.count { it.id in completed },
+                    microtopics = own.map { microtopic ->
+                        IndexedMicrotopic(
+                            id = microtopic.id,
+                            title = microtopic.title,
+                            keywords = SearchKeywords.parse(microtopic.searchKeywords),
+                            cardTitles = cardsByMicrotopic[microtopic.id].orEmpty().map { it.title },
+                            order = microtopic.order,
+                            isCompleted = microtopic.id in completed,
+                        )
+                    },
                 )
             },
         )

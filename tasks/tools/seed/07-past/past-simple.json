@@ -6,7 +6,8 @@
       "order": 1,
       "isPretopic": false,
       "description": "Время закрытого прошлого: как рассказать о том, что случилось и закончилось — вторая форма глагола, did в вопросах и отрицаниях, was/were и маркеры прошлого",
-      "categoryId": 4
+      "categoryId": 4,
+      "searchKeywords": "прошедшее время, что было раньше, рассказать о прошлом, как сказать о вчера"
     }
   ],
   "grammar_topic_categories": [
@@ -22,61 +23,71 @@
       "id": 77,
       "topicId": 14,
       "title": "What Is Past Simple · Что такое Past Simple",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "действие закончилось, одна форма для всех лиц, чем отличается от настоящего, закрытое событие"
     },
     {
       "id": 78,
       "topicId": 14,
       "title": "Regular verbs · Правильные глаголы: -ed",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "окончание ed, правописание окончания, удвоение согласной, обычный глагол"
     },
     {
       "id": 79,
       "topicId": 14,
       "title": "Irregular verbs in the past · Неправильные: берём V2",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "вторая форма глагола, глаголы без ed, таблица глаголов, запомнить формы глаголов"
     },
     {
       "id": 80,
       "topicId": 14,
       "title": "was / were · Глагол to be в прошлом",
-      "order": 4
+      "order": 4,
+      "searchKeywords": "был была было, я был там, кем он работал, где мы были"
     },
     {
       "id": 81,
       "topicId": 14,
       "title": "Negative · Отрицание: didn't",
-      "order": 5
+      "order": 5,
+      "searchKeywords": "не делал, сказать что чего то не было, ничего не делал, помощник в отрицании"
     },
     {
       "id": 82,
       "topicId": 14,
       "title": "Questions · Вопрос: Did…?",
-      "order": 6
+      "order": 6,
+      "searchKeywords": "спросить что случилось, ты делал это, где ты был вчера, задать вопрос о событии"
     },
     {
       "id": 83,
       "topicId": 14,
       "title": "Usage · Все ситуации употребления",
-      "order": 7
+      "order": 7,
+      "searchKeywords": "законченное действие, рассказ о случае, цепочка событий, история из жизни"
     },
     {
       "id": 84,
       "topicId": 14,
       "title": "Time markers · Маркеры прошлого",
-      "order": 8
+      "order": 8,
+      "searchKeywords": "указатели времени, когда это было, слова вчера и назад, обозначение давности"
     },
     {
       "id": 85,
       "topicId": 14,
       "title": "used to · Раньше было, а теперь нет",
-      "order": 9
+      "order": 9,
+      "searchKeywords": "прошлая привычка, бывало делал, привычки в прошлом, раньше делал а теперь нет"
     },
     {
       "id": 86,
       "topicId": 14,
       "title": "Live Practice · Закрепление Past Simple с ИИ",
-      "order": 10
+      "order": 10,
+      "searchKeywords": "практика с ии, поговорить с ии, живая тренировка"
     }
   ],
   "grammar_cards": [

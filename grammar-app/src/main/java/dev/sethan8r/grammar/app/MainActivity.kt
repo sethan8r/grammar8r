@@ -147,7 +147,10 @@ fun MainScreen() {
                 exitTransition = { ExitTransition.None },
             ) {
             opaqueComposable<LearnRoute> {
-                TheoryScreen(onTopicClick = { topicId -> navController.navigate(TopicRoute(topicId)) })
+                TheoryScreen(
+                    onTopicClick = { topicId -> navController.navigate(TopicRoute(topicId)) },
+                    onMicrotopicClick = { id -> navController.navigate(MicrotopicRoute(id)) },
+                )
             }
             opaqueComposable<PracticeRoute> { PracticeScreen() }
             opaqueComposable<StatisticsRoute> { StatisticsScreen() }

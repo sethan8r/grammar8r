@@ -51,8 +51,21 @@ gaps = num(o4, r'gaps[^:]*:\s*(\d+)')
 worddup = num(o5, r'word duplicates[^:]*:\s*(\d+)')
 
 
+tags = re.search(r'TAGS:\s*topic=(\w+)\s+microtopics=(\d+)/(\d+)', o1)
+warns = [l for l in o1.splitlines() if l.startswith('  !')]
+
+
 def mark(n):
     return 'PASS' if n == 0 else f'FAIL ({n})'
+
+
+def tags_line():
+    """Покрытие тегами поиска. Не FAIL: ретрофит идёт постепенно, теги есть не у всех тем."""
+    if not tags:
+        return '— (парсер не отчитался)'
+    topic, tagged, total = tags.group(1), int(tags.group(2)), int(tags.group(3))
+    state = 'PASS' if topic == 'yes' and tagged == total else 'нет тегов' if not tagged else 'частично'
+    return f'тема={topic} микротем={tagged}/{total}  {state}'
 
 
 print('=' * 44)
@@ -64,7 +77,13 @@ print(f'  ID collisions                 : {mark(coll)}')
 print(f'  SMELL (мусор)                 : {smell}  (легит-стрелки/слэши допустимы — глянуть глазами)')
 print(f'  GAPS (инфо, не баг)           : {gaps}')
 print(f'  WORD DUPLICATES (по курсу)    : {mark(worddup)}')
+print(f'  TAGS (теги поиска)            : {tags_line()}')
 print('-' * 44)
+if warns:
+    print('  предупреждения (не блокируют):')
+    for w in warns:
+        print('  ' + w.strip())
+    print('-' * 44)
 hard_ok = (val == 0 and deep == 0 and coll == 0 and worddup == 0)
 print('  =>', 'ALL GREEN ✓' if hard_ok else 'НУЖНЫ ПРАВКИ ✗')
 if not hard_ok:
