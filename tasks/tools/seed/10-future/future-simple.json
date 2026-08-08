@@ -53,6 +53,13 @@
       "title": "Time Markers · Маркеры будущего",
       "order": 5,
       "searchKeywords": "указатели времени в предложении, слово next без предлога, через сколько времени, in значит через"
+    },
+    {
+      "id": 113,
+      "topicId": 18,
+      "title": "when / if · После союза — настоящее",
+      "order": 6,
+      "searchKeywords": "когда приду позвоню, придаточная часть, пока не закончу, если будет дождь, as soon as"
     }
   ],
   "grammar_cards": [
@@ -1948,6 +1955,312 @@
         "Почему перед next Monday не нужен предлог, а перед Monday — нужен?",
         "В чём разница между next week и in a week?"
       ]
+    },
+    {
+      "id": 315,
+      "microtopicId": 113,
+      "title": "Когда приду, позвоню: метка будущего одна",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть предложения, где будущее говорится не одним куском, а двумя: сначала условие или момент, потом сама новость. «Когда я доеду до аэропорта, я тебе напишу». «Если завтра будет тепло, мы пойдём гулять»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Именно здесь русскоязычный человек ошибается чаще всего за всю тему — и ошибается уверенно, потому что делает ровно то, что велит родной язык."
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на русскую фразу ещё раз: «Когда я **доеду**, я **напишу**». Оба глагола стоят в будущем. Русский помечает будущее **в каждой половине** предложения, для надёжности — и мы этого даже не замечаем."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский помечает его **один раз**:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**When I get to the airport, I'll text you.** ✓"
+        },
+        {
+          "type": "paragraph",
+          "text": "Метка `will` стоит только в главной части — той, где собственно новость. А часть, которая начинается с `when`, берёт **настоящее** время: `I get`, а не `I will get`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**When I will get to the airport, I'll text you** ✗ → **When I get to the airport, I'll text you** ✓. Это калька с русского слово в слово. Английскому достаточно одной метки будущего на предложение: `when` уже сам по себе отправил нас вперёд по времени, и повторять это внутри его части не нужно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему носитель слышит здесь другое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило кажется произвольным ровно до того момента, пока не узнаешь, откуда у `will` растут ноги."
+        },
+        {
+          "type": "paragraph",
+          "text": "Тысячу лет назад `will` был обычным глаголом со значением «хотеть» — этот смысл до сих пор жив в отказе **The door won't open** из микротемы про обещания и отказы. Полностью служебным словом он так и не стал: в придаточной части старое значение просыпается."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому фразу **When I will get home** ухо носителя разбирает примерно как «когда я захочу добраться домой» — и человек честно не понимает, при чём тут ваше желание. Ошибка не просто «неправильная»: она сдвигает смысл."
+        },
+        {
+          "type": "heading",
+          "text": "Как найти, куда ставить will"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём предложение на две части — это делается за секунду:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**придаточная часть** начинается с союза (`when`, `if`) и отвечает на вопрос «когда?» или «при каком условии?»;",
+            "**главная часть** — та, что осталась. В ней и лежит новость: что вы сделаете."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка простая: **уберите часть с союзом**. Если оставшееся звучит как законченное предложение — это и есть главная часть, и метка будущего принадлежит ей. Уберём `when I get to the airport` — останется **I'll text you**, полноценная фраза с `will`. Уберём вторую половину — останется огрызок «когда я доеду», который сам по себе ничего не сообщает."
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок частей при этом свободный, как и в русском. Меняется только запятая: она нужна, когда часть с союзом идёт **первой**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If the traffic is bad, I'll call you.** ✓",
+            "**I'll call you if the traffic is bad.** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "В придаточной части — обычное настоящее время, со всеми его правилами"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тонкость, на которой спотыкаются даже те, кто правило запомнил. «Настоящее время» в этой части — не какая-то особая форма для придаточных, а тот самый Present Simple из начала курса. Значит, для `he`, `she`, `it` никуда не девается окончание `-s`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When Dasha finishes work, we'll go to the cinema.** ✓",
+            "**If the shop is closed, we'll come back tomorrow.** ✓"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**When Dasha finish work** ✗ → **When Dasha finishes work** ✓. Мозг рассуждает так: «действие ведь ещё не произошло, какое тут настоящее» — и на всякий случай ставит голую форму глагола. Но английский уже принял решение: в этой части живёт настоящее время, а раз настоящее — работают все его правила без скидок."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Одно предложение — одна метка будущего, и стоит она в главной части. Всё, что идёт после `when` и `if`, английский оставляет в настоящем. Русскому это кажется недосказанностью, англичанину двойное `will` кажется странной фразой про желания."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Русский помечает будущее в обеих частях предложения, английский — только в главной, а часть после `when` и `if` остаётся в настоящем времени: **When I get to the airport, I'll text you** ✓, но **When I will get to the airport** ✗. Найти главную часть просто: уберите часть с союзом — то, что осталось законченным предложением, и получает `will`. В придаточной части работает обычный Present Simple со всеми правилами, включая `-s`: **When Dasha finishes work, we'll go to the cinema** ✓. Запятая ставится, только если часть с союзом стоит первой.",
+      "examples": [
+        {
+          "ru": "Когда я доеду до аэропорта, я тебе напишу.",
+          "en": "When I get to the airport, I'll text you."
+        },
+        {
+          "ru": "Я позвоню тебе, когда доберусь домой целым.",
+          "en": "I'll call you when I get home safe."
+        },
+        {
+          "ru": "Когда Даша закончит работу, мы пойдём в кино.",
+          "en": "When Dasha finishes work, we'll go to the cinema."
+        },
+        {
+          "ru": "Если завтра будет тепло, мы поедем к морю.",
+          "en": "If it's warm tomorrow, we'll go to the sea."
+        },
+        {
+          "ru": "Мы начнём, когда все придут.",
+          "en": "We'll start when everybody comes."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после when нельзя поставить will, если действие ещё не произошло?",
+        "Как понять, в какой части предложения ставить will?",
+        "Зачем окончание -s в части после when, если речь о будущем?"
+      ]
+    },
+    {
+      "id": 316,
+      "microtopicId": 113,
+      "title": "as soon as, until, if: правило на все союзы",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Правило из прошлой карточки работает не только с `when`. У английского есть небольшая компания союзов, которые ведут себя одинаково: после каждого из них будущее помечать не нужно."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот вся компания целиком — больше запоминать нечего: **when**, **as soon as**, **before**, **after**, **until**, **if**. С `when` мы уже разобрались в прошлой карточке, остальных пройдём по очереди прямо сейчас."
+        },
+        {
+          "type": "heading",
+          "text": "as soon as: три слова, одно значение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Единственный член списка, который выглядит громоздко. И пугаться его не стоит: это буквально «так скоро, как» — то есть наше «как только», просто собранное из трёх коротких слов, каждое из которых вы уже знаете. Английский часто так и делает: не изобретает новое слово, а склеивает связку из старых."
+        },
+        {
+          "type": "paragraph",
+          "text": "Пишется всегда целиком, все три слова вместе, и работает как один союз:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**As soon as the plane lands, I'll text you.** ✓",
+            "**We'll leave as soon as the taxi arrives.** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "until: русское «не» сюда не переезжает"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот здесь ловушка, спрятанная в самом русском переводе. По-русски мы говорим «Подожди здесь, **пока не** приедет такси» — и вставляем отрицание «не», хотя ничего отрицательного в этой мысли нет. Русскому языку так удобнее, вот и всё."
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском смысл «до того момента, как» целиком сидит внутри слова `until`. Отдельное отрицание рядом с ним — лишнее, оно ломает фразу."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Wait here until the taxi doesn't arrive** ✗ и **until the taxi won't arrive** ✗ → **Wait here until the taxi arrives** ✓. Русское «не» в «пока не приедет» — не отрицание, а часть конструкции: мы не говорим, что такси не приедет, — наоборот, мы его ждём. `until` уже означает «до того момента, как», поэтому глагол после него остаётся обычным утвердительным."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И правило прошлой карточки здесь тоже в силе: **We'll wait at the airport until the rain stops** ✓, а не **until the rain will stop** ✗."
+        },
+        {
+          "type": "heading",
+          "text": "before и after: привычные слова в непривычной роли"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эти двое знакомы вам как предлоги — **after work**, **before dinner**: за ними стоит одно существительное. Но у них есть и вторая работа: они умеют присоединять целую часть предложения, с подлежащим и глаголом. И тогда работает то же правило:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll call you before I leave the office.** ✓",
+            "**We'll talk about it after the guests go home.** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между двумя ролями простая: если после слова стоит существительное (**after dinner**) — это предлог; если целая мысль с подлежащим и глаголом (**after the guests go home**) — это союз. Правило про настоящее время касается только второго случая."
+        },
+        {
+          "type": "heading",
+          "text": "if: пока берём только реальное условие"
+        },
+        {
+          "type": "paragraph",
+          "text": "`if` в списке стоит особняком: он говорит не о моменте, а об условии. Сейчас нам нужен только самый простой и самый частый его вид — **реальное условие**, то, что вполне может произойти:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If it rains tomorrow, we'll stay at the hotel.** ✓",
+            "**If you feel safe there, we'll book the same flat next year.** ✓"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `if` есть и другие разновидности — про несбыточное и про упущенное в прошлом («если бы у меня были деньги…», «если бы я знал…»). Там своя механика и свои формы, и разбирать их мы будем в отдельной теме «Условные предложения». Пока держим в голове только одно: после `if` о реальном будущем — настоящее время, а **If it will rain** ✗ не бывает никогда."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «если» и русское «ли» по-английски — одно и то же слово `if`, и вот во втором случае `will` после него совершенно законен: **I don't know if he will come** ✓ — «не знаю, придёт **ли** он». Здесь `if` не ставит условие, а вводит вопрос, на который у нас нет ответа. Отличить легко: попробуйте подставить «ли». Получилось — правило про настоящее время не действует, ставьте что нужно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "После союзов `when`, `as soon as`, `before`, `after`, `until`, `if` будущее не помечается — там стоит настоящее время, а `will` живёт в главной части: **As soon as the plane lands, I'll text you** ✓. `as soon as` пишется всеми тремя словами и значит «как только». `until` уже содержит в себе смысл «до того момента, как», поэтому русское «не» из фразы «пока не приедет» в английский не переезжает: **until the taxi arrives** ✓, а не **until the taxi doesn't arrive** ✗. `before` и `after` подчиняются правилу, только когда за ними идёт целая часть с подлежащим и глаголом. Исключение — `if` в значении «ли»: **I don't know if he will come** ✓.",
+      "examples": [
+        {
+          "ru": "Как только самолёт приземлится, я тебе напишу.",
+          "en": "As soon as the plane lands, I'll text you."
+        },
+        {
+          "ru": "Мы подождём в аэропорту, пока дождь не закончится.",
+          "en": "We'll wait at the airport until the rain stops."
+        },
+        {
+          "ru": "Я позвоню тебе перед тем, как уйду из офиса.",
+          "en": "I'll call you before I leave the office."
+        },
+        {
+          "ru": "Если завтра будет дождь, мы останемся в отеле.",
+          "en": "If it rains tomorrow, we'll stay at the hotel."
+        },
+        {
+          "ru": "Я не знаю, придёт ли он.",
+          "en": "I don't know if he will come."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в until не нужно отрицание, если по-русски мы говорим «пока не»?",
+        "Чем before как предлог отличается от before как союза?",
+        "Как отличить if в значении «если» от if в значении «ли»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2178,6 +2491,54 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 60,
       "orderInCard": 3
+    },
+    {
+      "cardId": 315,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 158,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 315,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 120,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 315,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 142,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 315,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 125,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 316,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 137,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 316,
+      "exerciseType": "MATCHING",
+      "exerciseId": 43,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 316,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 61,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 316,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 57,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2227,6 +2588,14 @@
       "title": "in или after",
       "userInstruction": "Вставьте в каждое предложение подходящий предлог.",
       "inputMode": "FILL_BLANKS",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_simple_card316_ex1",
+      "cardId": 316,
+      "title": "Перевод: когда, как только, пока не",
+      "userInstruction": "Скажите это предложение по-английски.",
+      "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
   ],
@@ -2406,6 +2775,46 @@
       "transcription": "[ˈfjuːtʃə]",
       "microtopicId": 112,
       "categoryId": "tenses"
+    },
+    {
+      "id": 559,
+      "word": "until",
+      "translation": "до того момента как, пока не",
+      "transcription": "[ənˈtɪl]",
+      "microtopicId": 113,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 560,
+      "word": "as soon as",
+      "translation": "как только",
+      "transcription": "[əz ˈsuːn əz]",
+      "microtopicId": 113,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 561,
+      "word": "airport",
+      "translation": "аэропорт",
+      "transcription": "[ˈeəpɔːt]",
+      "microtopicId": 113,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 562,
+      "word": "to land",
+      "translation": "приземляться, садиться",
+      "transcription": "[tə lænd]",
+      "microtopicId": 113,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 563,
+      "word": "safe",
+      "translation": "безопасный, в безопасности, целый",
+      "transcription": "[seɪf]",
+      "microtopicId": 113,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [],
@@ -2564,6 +2973,37 @@
         }
       ],
       "explanation": "Маркер стоит в конце или в начале предложения, но не между will и глаголом: I'll start a new course next week. И маркер не отменяет форму будущего — рядом с next year всё равно нужен will."
+    },
+    {
+      "id": 142,
+      "statements": [
+        {
+          "en": "I'll send you the photos when I get home.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "When Yulia will finish school, she'll move to Riga.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If the shop is closed, we'll come back tomorrow.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "When Timur get to the office, he'll call the client.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If the road is safe, we'll drive to Helsinki at night.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Часть с when и if стоит в настоящем времени, а will живёт только в главной части: When Yulia finishes school, she'll move to Riga. Настоящее там обычное, поэтому для he, she, it нужно окончание -s: When Timur gets to the office."
     }
   ],
   "word_arrangement_exercises": [
@@ -2643,6 +3083,26 @@
         "after tomorrow"
       ],
       "explanation": "Маркер времени встаёт в конец предложения, после дополнения, а глагол после will остаётся в базовой форме: will send. Формы sends, to send и will be send здесь невозможны."
+    },
+    {
+      "id": 125,
+      "situationRu": "Ситуация: Юля обещает позвонить нам, когда доедет до аэропорта.",
+      "correctSentence": "Yulia will call us when she gets to the airport.",
+      "words": [
+        "Yulia",
+        "will call",
+        "us",
+        "when",
+        "she gets",
+        "to the airport"
+      ],
+      "distractors": [
+        "she will get",
+        "she get",
+        "will gets",
+        "at the airport"
+      ],
+      "explanation": "Будущее помечено один раз, в главной части: Yulia will call us. Часть после when стоит в настоящем времени с окончанием -s: she gets to the airport."
     }
   ],
   "multiple_choice_exercises": [
@@ -2813,6 +3273,48 @@
         }
       ],
       "explanation": "Отсчёт вперёд от текущего момента идёт через предлог in: in forty minutes. Предлог after цепляется к событию, а through означает «сквозь» и ко времени не относится."
+    },
+    {
+      "id": 158,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Когда Артём вернётся, мы поужинаем.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "When Artyom will come back, we'll have dinner.",
+          "isCorrect": false
+        },
+        {
+          "text": "When Artyom comes back, we'll have dinner.",
+          "isCorrect": true
+        },
+        {
+          "text": "When Artyom comes back, we have dinner.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Метка будущего ставится один раз и только в главной части: we'll have dinner. Часть с when остаётся в настоящем времени — comes back."
+    },
+    {
+      "id": 137,
+      "choiceType": "CHOICE",
+      "prompt": "We'll go inside as soon as the concert ___.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "starts",
+          "isCorrect": true
+        },
+        {
+          "text": "will start",
+          "isCorrect": false
+        },
+        {
+          "text": "start",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После as soon as ставится настоящее время, а будущее помечено один раз в главной части: we'll go inside. Подлежащее the concert — это it, поэтому нужно окончание -s."
     }
   ],
   "text_input_exercises": [
@@ -2915,6 +3417,36 @@
       ],
       "explanation": "Отрезок времени, отмеренный от сейчас, требует in: in ten minutes, in two weeks. Урок — это событие, а не отрезок, поэтому рядом с ним стоит after.",
       "taskDescription": "Впиши в каждое предложение пропущенный предлог."
+    },
+    {
+      "id": 57,
+      "items": [
+        {
+          "sentence": "We'll buy the tickets as soon as the office ___.",
+          "contextRu": "",
+          "answer": "opens",
+          "alternatives": []
+        },
+        {
+          "sentence": "Wait at the gate until Nina ___ back.",
+          "contextRu": "",
+          "answer": "comes",
+          "alternatives": []
+        },
+        {
+          "sentence": "We'll go out as soon as I ___ this report.",
+          "contextRu": "",
+          "answer": "finish",
+          "alternatives": []
+        }
+      ],
+      "explanation": "После as soon as и until стоит настоящее время без will. Для the office и Nina нужно окончание -s, а для I глагол остаётся в базовой форме.",
+      "taskDescription": "Впиши глагол в подходящее по смыслу предложение в нужной форме.",
+      "wordBank": [
+        "вернётся",
+        "закончу",
+        "откроется"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -3006,6 +3538,33 @@
         }
       ],
       "explanation": "Одна и та же форма с will работает по-разному: I'll get you a chair — помощь в момент речи, I promise I won't be late — обещание, а won't у ноутбука и у Ника означает нежелание работать или общаться, а не будущее время."
+    },
+    {
+      "id": 43,
+      "taskDescription": "соедини союз с его значением.",
+      "pairs": [
+        {
+          "left": "as soon as",
+          "right": "как только"
+        },
+        {
+          "left": "until",
+          "right": "пока не"
+        },
+        {
+          "left": "before",
+          "right": "перед тем как"
+        },
+        {
+          "left": "after",
+          "right": "после того как"
+        },
+        {
+          "left": "if",
+          "right": "если"
+        }
+      ],
+      "explanation": "Все эти союзы присоединяют часть предложения, в которой будущее не помечается. Русское «пока не» переводится словом until без всякого отрицания."
     }
   ],
   "error_correction_exercises": [
@@ -3084,6 +3643,25 @@
         }
       ],
       "explanation": "Между глаголом и дополнением маркер не вставляют — его место в конце: I'll book a table for us tonight. Форма I book говорит о привычке, а не о вечернем плане."
+    },
+    {
+      "id": 120,
+      "wrongSentence": "When the lesson will end, I will send you my notes.",
+      "options": [
+        {
+          "text": "When the lesson ends, I send you my notes.",
+          "isCorrect": false
+        },
+        {
+          "text": "When the lesson will end, I send you my notes.",
+          "isCorrect": false
+        },
+        {
+          "text": "When the lesson ends, I'll send you my notes.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "После when будущее не помечается — ставится настоящее время ends. Само обещание при этом остаётся в будущем: I'll send you my notes."
     }
   ],
   "construction_meaning_exercises": [
@@ -3311,6 +3889,29 @@
         }
       ],
       "explanation": "Слово next уже указывает на время, поэтому предлог рядом с ним не ставится: next Sunday. Предлог in перед отрезком времени, наоборот, обязателен."
+    },
+    {
+      "id": 61,
+      "groupDescription": "Три предложения построены правильно",
+      "items": [
+        {
+          "text": "I'll wait here until the shop opens.",
+          "isOdd": false
+        },
+        {
+          "text": "We'll start the meeting as soon as Boris will arrive.",
+          "isOdd": true
+        },
+        {
+          "text": "Marina will call the doctor after she reads the message.",
+          "isOdd": false
+        },
+        {
+          "text": "If the weather is good, we'll walk to the park.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "После as soon as будущее не помечается — нужно настоящее время: as soon as Boris arrives. Метка будущего остаётся только в главной части."
     }
   ]
 }
