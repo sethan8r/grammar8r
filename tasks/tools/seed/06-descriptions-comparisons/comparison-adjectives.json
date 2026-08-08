@@ -6,7 +6,8 @@
       "order": 1,
       "isPretopic": false,
       "description": "Как сказать, что одна вещь больше, лучше или дешевле другой — сравнительная степень прилагательных, шаблон с than, формы на -er и more, усилители",
-      "categoryId": 2
+      "categoryId": 2,
+      "searchKeywords": "какое из двух лучше, сравнительная степень, как сравнить два предмета, кто лучше или хуже, дешевле быстрее сильнее"
     }
   ],
   "grammar_topic_categories": [
@@ -22,19 +23,22 @@
       "id": 69,
       "topicId": 12,
       "title": "Comparatives · Сравнительная степень",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "форма на -er, длинные слова more, насколько сильнее разница, ловушка very better, шаблон than"
     },
     {
       "id": 70,
       "topicId": 12,
       "title": "Superlatives · Превосходная степень",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "самый из всех, the most the least, исключения good bad far, самый лучший самый худший"
     },
     {
       "id": 71,
       "topicId": 12,
       "title": "Equal Comparison · Равное сравнение",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "такой же как, as as оборот, не такой как, тот же самый предмет, менее чем"
     }
   ],
   "grammar_cards": [

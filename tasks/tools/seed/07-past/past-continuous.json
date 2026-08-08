@@ -6,7 +6,8 @@
       "order": 2,
       "isPretopic": false,
       "description": "Время процесса в прошлом: действие, которое в какой-то момент прошлого уже шло и ещё не закончилось — фон для событий, was/were с формой -ing, разведение с Past Simple",
-      "categoryId": 4
+      "categoryId": 4,
+      "searchKeywords": "длительное прошедшее, процесс в прошлом, что происходило в какой-то момент, уже длилось тогда, was were с ing"
     }
   ],
   "grammar_topic_categories": [
@@ -22,43 +23,50 @@
       "id": 87,
       "topicId": 15,
       "title": "What Is Past Continuous · Что такое Past Continuous",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "видео на паузе, незавершённое действие, что не закончилось, чем отличается от simple"
     },
     {
       "id": 88,
       "topicId": 15,
       "title": "Affirmative · Утверждение: was/were + V-ing",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "утвердительное было делал, две формы was were, частые ошибки в форме, глагол с ing в прошлом"
     },
     {
       "id": 89,
       "topicId": 15,
       "title": "Negative & Question · Отрицание и вопрос",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "отрицание was were, вопрос с was were, не делал в тот момент, не находился в процессе"
     },
     {
       "id": 90,
       "topicId": 15,
       "title": "Usage · Что этим временем говорят",
-      "order": 4
+      "order": 4,
+      "searchKeywords": "момент прерывания, фон и вторжение, два действия одновременно, декорации рассказа, вежливый упрёк"
     },
     {
       "id": 91,
       "topicId": 15,
       "title": "When vs While · Когда «когда» — не одно слово",
-      "order": 5
+      "order": 5,
+      "searchKeywords": "когда и пока, разница when и while, союз для длительного действия, одно when два смысла"
     },
     {
       "id": 92,
       "topicId": 15,
       "title": "Past Simple vs Past Continuous · Точка или процесс",
-      "order": 6
+      "order": 6,
+      "searchKeywords": "какое время выбрать, что выбрать в прошлом, simple или continuous в прошлом, чем отличаются времена"
     },
     {
       "id": 93,
       "topicId": 15,
       "title": "Live Practice · Закрепление Past Continuous с ИИ",
-      "order": 7
+      "order": 7,
+      "searchKeywords": "практика с ии, поговорить с ии, живая тренировка"
     }
   ],
   "grammar_cards": [

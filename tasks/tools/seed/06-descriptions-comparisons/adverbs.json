@@ -6,7 +6,8 @@
       "order": 2,
       "isPretopic": false,
       "description": "Что такое наречие и как оно работает: образование на -ly и его орфография, плоские наречия, наречия образа действия, степени сравнения, наречия степени, места и времени",
-      "categoryId": 2
+      "categoryId": 2,
+      "searchKeywords": "как образовать наречие, окончание -ly, где ставить наречие в предложении, наречие или прилагательное, признак признака"
     }
   ],
   "grammar_topic_categories": [
@@ -22,31 +23,36 @@
       "id": 72,
       "topicId": 13,
       "title": "Adverb Basics & Formation · Наречие и его образование",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "образование наречия, добавить -ly к прилагательному, орфография при -ly, слова на -ly которые не наречия, плоские наречия fast hard late"
     },
     {
       "id": 73,
       "topicId": 13,
       "title": "Adverbs of Manner · Наречия образа действия",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "наречие или прилагательное после глагола, well наречие от good, глаголы восприятия без наречия, куда ставить после дополнения"
     },
     {
       "id": 74,
       "topicId": 13,
       "title": "Comparison of Adverbs · Степени сравнения наречий",
-      "order": 4
+      "order": 4,
+      "searchKeywords": "сравнение наречий, наречие в сравнительной степени, more most для наречий, better worse исключения"
     },
     {
       "id": 75,
       "topicId": 13,
       "title": "Adverbs of Degree · Наречия степени",
-      "order": 5
+      "order": 5,
+      "searchKeywords": "усилители very quite rather, слишком и достаточно, too и enough, насколько сильно"
     },
     {
       "id": 76,
       "topicId": 13,
       "title": "Place, Time & Distance · Наречия места, времени и расстояния",
-      "order": 6
+      "order": 6,
+      "searchKeywords": "наречия места и времени, already yet still разница, далеко и рядом, now then soon"
     }
   ],
   "grammar_cards": [

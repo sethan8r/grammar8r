@@ -6,7 +6,8 @@
       "order": 2,
       "isPretopic": false,
       "description": "Время процесса прямо сейчас — действий, которые идут в момент речи или временно, но не навсегда",
-      "categoryId": 3
+      "categoryId": 3,
+      "searchKeywords": "настоящее длительное, процесс прямо сейчас, делаю сейчас, занят прямо сейчас, временное действие"
     }
   ],
   "grammar_topic_categories": [
@@ -22,49 +23,57 @@
       "id": 57,
       "topicId": 9,
       "title": "What Is Present Continuous · Что такое Present Continuous",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "чем отличается от simple, разница с simple, два похожих времени, когда путают времена"
     },
     {
       "id": 58,
       "topicId": 9,
       "title": "The -ing Form · Форма -ing",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "окончание ing, как пишется ing, добавить ing к глаголу, правила написания ing, удвоение согласной"
     },
     {
       "id": 59,
       "topicId": 9,
       "title": "Affirmative · Утверждение",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "am is are плюс ing, утвердительное предложение, без be нельзя, глагол с ing в предложении"
     },
     {
       "id": 60,
       "topicId": 9,
       "title": "Negative · Отрицание",
-      "order": 4
+      "order": 4,
+      "searchKeywords": "отрицание с be, not после am is are, не делаю сейчас, без do в отрицании"
     },
     {
       "id": 61,
       "topicId": 9,
       "title": "Question · Вопрос",
-      "order": 5
+      "order": 5,
+      "searchKeywords": "вопрос с be, be выходит вперёд, как спросить о том что происходит, краткие ответы"
     },
     {
       "id": 62,
       "topicId": 9,
       "title": "Usage · Употребление",
-      "order": 6
+      "order": 6,
+      "searchKeywords": "договорённость на будущее, скоро закончится а не постоянно, раздражение через always, запланированная встреча"
     },
     {
       "id": 63,
       "topicId": 9,
       "title": "State Verbs · Глаголы без Continuous",
-      "order": 7
+      "order": 7,
+      "searchKeywords": "глаголы без ing, состояния а не действия, глаголы чувств и мыслей, хамелеоны have think see, really vs very с глаголами"
     },
     {
       "id": 64,
       "topicId": 9,
       "title": "Live Practice · Закрепление Present Continuous с ИИ",
-      "order": 8
+      "order": 8,
+      "searchKeywords": "практика с ии, поговорить с ии, живая тренировка"
     }
   ],
   "grammar_cards": [

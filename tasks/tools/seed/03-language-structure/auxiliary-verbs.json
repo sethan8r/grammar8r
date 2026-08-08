@@ -6,7 +6,8 @@
       "order": 3,
       "isPretopic": false,
       "description": "do, be, have, will — слова-сигналы грамматики: они строят вопросы, отрицания, времена и залог, но не переводятся напрямую",
-      "categoryId": 1
+      "categoryId": 1,
+      "searchKeywords": "вспомогательные глаголы, глаголы-помощники, do be have will, слова-сигналы грамматики, как строятся вопросы и отрицания"
     }
   ],
   "grammar_topic_categories": [
@@ -22,25 +23,29 @@
       "id": 36,
       "topicId": 4,
       "title": "do / does / did · Сигнал вопроса и отрицания",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "do или does, did для прошлого, поставить вопрос глаголом, сделать отрицание do, doesn't и don't разница"
     },
     {
       "id": 39,
       "topicId": 4,
       "title": "be (am/is/are/was/were) · be: связка, Continuous, Passive",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "три роли be, be связка или сигнал, was и were разница, be перед v-ing, be перед v3"
     },
     {
       "id": 40,
       "topicId": 4,
       "title": "have / has / had · have/has/had: владение и Perfect",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "иметь или уже сделал, have has had разница, had в прошлом без исключений, have has плюс v3"
     },
     {
       "id": 41,
       "topicId": 4,
       "title": "will · will: маркер будущего",
-      "order": 4
+      "order": 4,
+      "searchKeywords": "will как служебный сигнал, will плюс v-ing превью, will плюс v3 превью, will не значит хотеть"
     }
   ],
   "grammar_cards": [

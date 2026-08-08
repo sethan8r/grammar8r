@@ -6,7 +6,8 @@
       "order": 8,
       "isPretopic": false,
       "description": "Базовый пассив: что такое залог вообще, как он выглядит в русском, формула be + V3 в настоящем и прошедшем, разведение трёх was и бытовые формулы вроде I was told и Made in Italy",
-      "categoryId": null
+      "categoryId": null,
+      "searchKeywords": "пассивный залог, пассив, be плюс v3, кто делает или с кем делают, залог это не время"
     }
   ],
   "grammar_topic_categories": [],
@@ -15,25 +16,29 @@
       "id": 94,
       "topicId": 16,
       "title": "What Is Passive · Что такое страдательный залог",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "активный или пассивный, кто действует кто получает, пассив в русском языке, зачем нужен пассив"
     },
     {
       "id": 95,
       "topicId": 16,
       "title": "Form · Форма: be + V3",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "формула пассива, как построить пассив, отрицание пассива без did, вопрос в пассиве"
     },
     {
       "id": 96,
       "topicId": 16,
       "title": "Three Faces of Was · Три лица одного was",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "три роли was, was плюс v-ing или v3, painting и painted разница, как отличить пассив от continuous"
     },
     {
       "id": 97,
       "topicId": 16,
       "title": "Passive in Real Life · Пассив в жизни",
-      "order": 4
+      "order": 4,
+      "searchKeywords": "i was told мне сказали, made in italy надписи, пассив в вывесках, меня родили i was born"
     }
   ],
   "grammar_cards": [

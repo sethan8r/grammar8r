@@ -6,7 +6,8 @@
       "order": 5,
       "isPretopic": false,
       "description": "Что такое инфинитив (to + глагол), когда после глагола нужен to, а когда нет",
-      "categoryId": 1
+      "categoryId": 1,
+      "searchKeywords": "неопределённая форма глагола, to или без to, начальная форма глагола, что делать вопрос, когда нужен to"
     }
   ],
   "grammar_topic_categories": [
@@ -22,25 +23,29 @@
       "id": 45,
       "topicId": 7,
       "title": "What Is an Infinitive · Что такое инфинитив",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "словарная форма глагола, назывная форма глагола, to плюс v1, инфинитив после другого глагола"
     },
     {
       "id": 46,
       "topicId": 7,
       "title": "Verbs That Take to · Глаголы, требующие to",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "глаголы с to, want need like плюс to, would like вежливо, одна формула to v1"
     },
     {
       "id": 47,
       "topicId": 7,
       "title": "Verbs Without to · Глаголы, после которых to не нужен",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "глаголы без to, модальные без to, can must голый глагол, две группы глаголов рядом"
     },
     {
       "id": 48,
       "topicId": 7,
       "title": "Verb + Object + Infinitive · Глагол + объект + инфинитив",
-      "order": 4
+      "order": 4,
+      "searchKeywords": "глагол плюс кого плюс to, ask tell попросить кого-то, make let без to, заставить или позволить"
     }
   ],
   "grammar_cards": [

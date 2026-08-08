@@ -6,7 +6,8 @@
       "order": 4,
       "isPretopic": false,
       "description": "Три формы глагола (V1/V2/V3) — кирпичики всех времён: какая форма что значит и где используется",
-      "categoryId": 1
+      "categoryId": 1,
+      "searchKeywords": "три формы глагола, v1 v2 v3, формы глагола кирпичики времён, какая форма где нужна"
     }
   ],
   "grammar_topic_categories": [
@@ -22,19 +23,22 @@
       "id": 42,
       "topicId": 6,
       "title": "Three verb forms · Что такое три формы глагола",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "зачем три формы глагола, v1 базовая форма, v2 работает самостоятельно, v3 нужен помощник"
     },
     {
       "id": 43,
       "topicId": 6,
       "title": "Regular verbs · Правильные глаголы (-ed)",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "правильные глаголы ed, правописание окончания ed, удвоение согласной stopped, произношение окончания ed"
     },
     {
       "id": 44,
       "topicId": 6,
       "title": "Irregular verbs · Неправильные глаголы",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "учить наизусть глаголы, go went gone, группы глаголов-исключений, be самый неправильный глагол"
     }
   ],
   "grammar_cards": [

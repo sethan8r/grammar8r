@@ -6,7 +6,8 @@
       "order": 1,
       "isPretopic": false,
       "description": "Будущее, произнесённое в момент речи: решения, предсказания и обещания через will — форма, отрицание и вопрос, will be и There will be, маркеры будущего и настоящее время после when и if",
-      "categoryId": 5
+      "categoryId": 5,
+      "searchKeywords": "будущее время, что будет, простое будущее с will, will плюс глагол"
     }
   ],
   "grammar_topic_categories": [
@@ -22,31 +23,36 @@
       "id": 108,
       "topicId": 18,
       "title": "What Is Future Simple · Что такое Future Simple",
-      "order": 1
+      "order": 1,
+      "searchKeywords": "чем это время отличается от настоящего, не одно время а четыре способа, кадр который ещё не сняли, четыре способа сказать наперёд"
     },
     {
       "id": 109,
       "topicId": 18,
       "title": "Form · Форма: will + V1",
-      "order": 2
+      "order": 2,
+      "searchKeywords": "won't отрицание, will you вопрос, форма для всех лиц, одна форма без окончаний"
     },
     {
       "id": 110,
       "topicId": 18,
       "title": "Usage · Что говорят через will",
-      "order": 3
+      "order": 3,
+      "searchKeywords": "решение в момент речи, догадка предположение, обещание помощь и отказ, само собой случится"
     },
     {
       "id": 111,
       "topicId": 18,
       "title": "will be · Будущее с to be",
-      "order": 4
+      "order": 4,
+      "searchKeywords": "will be кем стану, there will be, каким я буду, to be вместо will"
     },
     {
       "id": 112,
       "topicId": 18,
       "title": "Time Markers · Маркеры будущего",
-      "order": 5
+      "order": 5,
+      "searchKeywords": "указатели времени в предложении, слово next без предлога, через сколько времени, in значит через"
     }
   ],
   "grammar_cards": [
@@ -543,6 +549,7 @@
             "**you'll** [[juːl]]",
             "**he'll** [[hiːl]]",
             "**she'll** [[ʃiːl]]",
+            "**it'll** [[ˈɪtəl]]",
             "**we'll** [[wiːl]]",
             "**they'll** [[ðeɪl]]"
           ]
@@ -1657,7 +1664,7 @@
             "**tonight** — сегодня вечером или ночью",
             "**this evening** — сегодня вечером",
             "**soon** — скоро",
-            "**later** — позже, потом *(later — позже, потом)*",
+            "**later** — позже, потом",
             "**next week / next month / next year** — на следующей неделе, в следующем месяце, в следующем году",
             "**next time** — в следующий раз",
             "**one day** — когда-нибудь, однажды",
