@@ -1,6 +1,13 @@
 package dev.sethan8r.grammar.app.ui.screens.theory
 
+import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
+import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -22,6 +29,7 @@ import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -62,11 +70,22 @@ import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 fun TheoryScreen(
     onTopicClick: (Int) -> Unit,
     onMicrotopicClick: (Int) -> Unit,
+    resetSearch: Boolean = false,
+    onResetSearchConsumed: () -> Unit = {},
     viewModel: TheoryViewModel = hiltViewModel(),
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     // Снекбар вкладок общий (висит над капсулой навигации в MainScreen) — берём из CompositionLocal.
     val snackbar = LocalTabSnackbarController.current
+
+    // Вкладку открыли нижней панелью — поиск закрываем. Возврат «назад» из микротемы флага не
+    // ставит, поэтому там запрос и выдача остаются как были.
+    LaunchedEffect(resetSearch) {
+        if (resetSearch) {
+            viewModel.onSearchClose()
+            onResetSearchConsumed()
+        }
+    }
 
     Box(modifier = Modifier.fillMaxSize()) {
         when {
@@ -78,8 +97,10 @@ fun TheoryScreen(
                 onMicrotopicClick = onMicrotopicClick,
                 onShowInfo = { snackbar?.show(it, Durations.infoSnackbarMs) },
                 onSearchOpen = viewModel::onSearchOpen,
+                onSearchClear = viewModel::onQueryClear,
                 onSearchClose = viewModel::onSearchClose,
                 onQueryChange = viewModel::onQueryChange,
+                onFocusConsumed = viewModel::onSearchFocusConsumed,
             )
         }
     }
@@ -92,57 +113,89 @@ private fun TheoryList(
     onMicrotopicClick: (Int) -> Unit,
     onShowInfo: (String) -> Unit,
     onSearchOpen: () -> Unit,
+    onSearchClear: () -> Unit,
     onSearchClose: () -> Unit,
     onQueryChange: (String) -> Unit,
+    onFocusConsumed: () -> Unit,
 ) {
     // Своё состояние скролла на каждый режим: закрыв поиск, пользователь возвращается туда,
     // где читал дерево.
     val treeState = rememberLazyListState()
     val resultsState = rememberLazyListState()
 
-    LazyColumn(
-        state = if (uiState.isSearchOpen) resultsState else treeState,
+    Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(horizontal = Dimens.screenPadding),
-        // Верх: под строку состояния (первый элемент на месте, при скролле проезжает под неё).
-        // Низ: клиренс под плавающей капсулой навигации (она парит поверх, места не резервирует).
-        contentPadding = PaddingValues(
-            top = statusBarTopInset(),
-            bottom = floatingBarBottomInset(),
-        ),
-        verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
+            .padding(top = statusBarTopInset()),
     ) {
-        item(key = "header") {
-            TheorySearchBar(
-                isOpen = uiState.isSearchOpen,
-                query = uiState.query,
-                onQueryChange = onQueryChange,
-                onOpen = onSearchOpen,
-                onClose = onSearchClose,
-                modifier = Modifier.padding(vertical = Dimens.spaceSmall),
-            )
-        }
+        // Шапка закреплена: в режиме поиска строка ввода и выход из него нужны под рукой
+        // независимо от того, куда пользователь пролистал выдачу.
+        // Слева отступ меньше общего: его добирает зона нажатия стрелки «назад», и глиф встаёт
+        // ровно там же, где в шапке подэкранов ([BackTopBar]).
+        TheorySearchBar(
+            isOpen = uiState.isSearchOpen,
+            query = uiState.query,
+            requestFocus = uiState.requestSearchFocus,
+            onQueryChange = onQueryChange,
+            onOpen = onSearchOpen,
+            onClear = onSearchClear,
+            onClose = onSearchClose,
+            onFocusConsumed = onFocusConsumed,
+            modifier = Modifier.padding(
+                start = Dimens.spaceSmall,
+                end = Dimens.screenPadding,
+                top = Dimens.spaceSmall,
+                bottom = Dimens.spaceSmall,
+            ),
+        )
 
-        if (uiState.isSearchOpen) {
-            searchContent(uiState.searchContent, onTopicClick, onMicrotopicClick, onShowInfo)
-        } else {
-            items(items = uiState.items, key = { it.itemKey() }) { item ->
-                when (item) {
-                    is TheoryListItem.TopicItem -> TopicCardBody(
-                        topic = item.topic,
-                        onTopicClick = onTopicClick,
-                        onShowInfo = onShowInfo,
-                        modifier = Modifier
-                            .clip(RoundedCornerShape(Dimens.cornerCard))
-                            .background(CardBackground),
+        // Тело сменяется со сдвигом вниз: уходит дерево — приходит выдача, и наоборот.
+        AnimatedContent(
+            targetState = uiState.isSearchOpen,
+            modifier = Modifier.fillMaxSize(),
+            transitionSpec = {
+                (fadeIn(tween(Durations.searchBodySwapMs)) +
+                    slideInVertically(tween(Durations.searchBodySwapMs)) { it / SEARCH_BODY_SLIDE })
+                    .togetherWith(
+                        fadeOut(tween(Durations.searchBarSwapMs)) +
+                            slideOutVertically(tween(Durations.searchBarSwapMs)) { it / SEARCH_BODY_SLIDE }
                     )
-                    is TheoryListItem.SectionItem -> SectionGroup(item, onTopicClick, onShowInfo)
+            },
+            label = "theory_body",
+        ) { searchOpen ->
+            LazyColumn(
+                state = if (searchOpen) resultsState else treeState,
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(horizontal = Dimens.screenPadding),
+                // Низ: клиренс под плавающей капсулой навигации (она парит поверх, места не резервирует).
+                contentPadding = PaddingValues(bottom = floatingBarBottomInset()),
+                verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
+            ) {
+                if (searchOpen) {
+                    searchContent(uiState.searchContent, onTopicClick, onMicrotopicClick, onShowInfo)
+                } else {
+                    items(items = uiState.items, key = { it.itemKey() }) { item ->
+                        when (item) {
+                            is TheoryListItem.TopicItem -> TopicCardBody(
+                                topic = item.topic,
+                                onTopicClick = onTopicClick,
+                                onShowInfo = onShowInfo,
+                                modifier = Modifier
+                                    .clip(RoundedCornerShape(Dimens.cornerCard))
+                                    .background(CardBackground),
+                            )
+                            is TheoryListItem.SectionItem -> SectionGroup(item, onTopicClick, onShowInfo)
+                        }
+                    }
                 }
             }
         }
     }
 }
+
+/** Доля высоты тела, на которую оно сдвигается при смене дерева и выдачи. */
+private const val SEARCH_BODY_SLIDE = 6
 
 /** Тело вкладки в режиме поиска: подсказка, «ничего не найдено» или группы результатов. */
 private fun LazyListScope.searchContent(

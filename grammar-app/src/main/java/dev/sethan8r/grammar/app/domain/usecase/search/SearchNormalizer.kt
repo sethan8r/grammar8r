@@ -120,7 +120,12 @@ class SearchNormalizer @Inject constructor() {
     }
 
     private companion object {
-        const val MIN_PREFIX_LENGTH = 3
+        /**
+         * Слишком короткое начало цепляет чужие слова: «час» из запроса «часы» дотягивался бы до
+         * «част(отность)». Четыре буквы — граница, на которой дописывание ещё работает
+         * («отриц» → «отрицание»), а случайные попадания уже отсеиваются.
+         */
+        const val MIN_PREFIX_LENGTH = 4
         const val MIN_TYPO_LENGTH = 5
         const val APOSTROPHES = "'’`´ʼ"
 

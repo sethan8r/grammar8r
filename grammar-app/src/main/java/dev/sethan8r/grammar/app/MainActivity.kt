@@ -20,7 +20,9 @@ import androidx.compose.foundation.layout.calculateEndPadding
 import androidx.compose.foundation.layout.calculateStartPadding
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.ime
+import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
@@ -31,6 +33,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -79,6 +82,13 @@ private const val FOCUS_MICROTOPIC_KEY = "focusMicrotopicId"
 
 /** Ключ savedStateHandle: id только что пройденной карточки — листалка микротемы перейдёт на следующую. */
 private const val ADVANCE_AFTER_CARD_KEY = "advanceAfterCardId"
+
+/**
+ * Ключ savedStateHandle: вкладка «Учить» открыта переключением нижней панели, а не возвратом из
+ * темы, — режим поиска нужно закрыть. Возврат «назад» из микротемы флага не ставит, поэтому там
+ * запрос и выдача остаются на месте.
+ */
+private const val RESET_THEORY_SEARCH_KEY = "resetTheorySearch"
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -146,10 +156,15 @@ fun MainScreen() {
                 enterTransition = { EnterTransition.None },
                 exitTransition = { ExitTransition.None },
             ) {
-            opaqueComposable<LearnRoute> {
+            opaqueComposable<LearnRoute> { entry ->
+                val resetSearch by entry.savedStateHandle
+                    .getStateFlow(RESET_THEORY_SEARCH_KEY, false)
+                    .collectAsState()
                 TheoryScreen(
                     onTopicClick = { topicId -> navController.navigate(TopicRoute(topicId)) },
                     onMicrotopicClick = { id -> navController.navigate(MicrotopicRoute(id)) },
+                    resetSearch = resetSearch,
+                    onResetSearchConsumed = { entry.savedStateHandle[RESET_THEORY_SEARCH_KEY] = false },
                 )
             }
             opaqueComposable<PracticeRoute> { PracticeScreen() }
@@ -233,15 +248,23 @@ fun MainScreen() {
 
             // Общий снекбар вкладок — над капсулой. Нижний отступ анимируется тем же спеком/флагом,
             // что и капсула: она видна → снекбар над ней; спрятана → съезжает к низу экрана (не за него).
-            val capsuleShown = showBottomBar && bottomBarScroll.isVisible.value
-            val snackbarLift by animateDpAsState(
-                targetValue = if (capsuleShown) {
-                    Dimens.bottomBarFloatingHeight + Dimens.bottomBarFloatingBottomGap
+            // Один нижний порог вместо двух независимых отступов: плашка встаёт над тем, что ниже
+            // всего мешает — клавиатурой, капсулой навигации или системной полосой. Раньше инсет
+            // клавиатуры и подъём под капсулу анимировались врозь, и при скрытии клавиатуры плашка
+            // успевала съехать к самому низу, а затем возвращалась.
+            val density = LocalDensity.current
+            val imeBottom = with(density) { WindowInsets.ime.getBottom(density).toDp() }
+            val navigationBottom = with(density) {
+                WindowInsets.navigationBars.getBottom(density).toDp()
+            }
+            val capsuleFloor by animateDpAsState(
+                targetValue = if (showBottomBar && bottomBarScroll.isVisible.value) {
+                    navigationBottom + Dimens.bottomBarFloatingHeight + Dimens.bottomBarFloatingBottomGap
                 } else {
-                    0.dp
+                    navigationBottom
                 },
                 animationSpec = tween(Durations.bottomBarShowHideMs, easing = FastOutSlowInEasing),
-                label = "tabSnackbarLift",
+                label = "tabSnackbarFloor",
             )
             FeedbackSnackbarHost(
                 hostState = tabSnackbar.hostState,
@@ -249,9 +272,8 @@ fun MainScreen() {
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
                     .fillMaxWidth()
-                    .navigationBarsPadding()
                     .padding(horizontal = Dimens.screenPadding)
-                    .padding(bottom = Dimens.spaceLarge + snackbarLift),
+                    .padding(bottom = maxOf(imeBottom, capsuleFloor) + Dimens.spaceLarge),
             )
 
             // Градиент-скрим над строкой состояния — только на вкладках (где контент уходит под неё).
@@ -275,6 +297,9 @@ fun MainScreen() {
                     Grammar8rBottomBar(
                         currentDestination = currentDestination,
                         onNavigate = { destination ->
+                            navController.currentBackStack.value
+                                .lastOrNull { it.destination.hasRoute(LearnRoute::class) }
+                                ?.savedStateHandle?.set(RESET_THEORY_SEARCH_KEY, true)
                             navController.navigate(destination.route) {
                                 popUpTo(navController.graph.findStartDestination().id) {
                                     saveState = true

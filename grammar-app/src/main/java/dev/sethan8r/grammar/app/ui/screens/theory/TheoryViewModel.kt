@@ -33,6 +33,8 @@ data class TheoryUiState(
     val items: List<TheoryListItem> = emptyList(),
     val isSearchOpen: Boolean = false,
     val query: String = "",
+    /** Поиск только что открыли — поле должно взять фокус и поднять клавиатуру ровно один раз. */
+    val requestSearchFocus: Boolean = false,
     val searchContent: TheorySearchContent = TheorySearchContent.Idle,
 )
 
@@ -56,6 +58,7 @@ class TheoryViewModel @Inject constructor(
             items = items,
             isSearchOpen = input.isOpen,
             query = input.query,
+            requestSearchFocus = input.requestFocus,
             searchContent = when {
                 input.query.isBlank() -> TheorySearchContent.Idle
                 groups.isEmpty() -> TheorySearchContent.NoResults
@@ -68,14 +71,22 @@ class TheoryViewModel @Inject constructor(
         initialValue = TheoryUiState(isLoading = true),
     )
 
-    fun onSearchOpen() = searchInput.update { it.copy(isOpen = true) }
+    fun onSearchOpen() = searchInput.update { it.copy(isOpen = true, requestFocus = true) }
 
-    /** Крестик закрывает режим поиска целиком, а не только чистит текст. */
     fun onSearchClose() = searchInput.update { SearchInput() }
+
+    /** Крестик на непустом поле: текст стирается, но пользователь остаётся в поиске. */
+    fun onQueryClear() = searchInput.update { it.copy(query = "", requestFocus = true) }
 
     fun onQueryChange(query: String) = searchInput.update { it.copy(query = query) }
 
-    private data class SearchInput(val isOpen: Boolean = false, val query: String = "") {
+    fun onSearchFocusConsumed() = searchInput.update { it.copy(requestFocus = false) }
+
+    private data class SearchInput(
+        val isOpen: Boolean = false,
+        val query: String = "",
+        val requestFocus: Boolean = false,
+    ) {
         /** Закрытый поиск ничего не ищет — БД не трогается, пока пользователь не открыл строку. */
         fun queryOrEmpty(): String = if (isOpen) query else ""
     }

@@ -226,7 +226,11 @@ class TheorySearchRanker @Inject constructor(
         const val TOPIC_TAG_FULL = 25
         const val MICROTOPIC_TAG_PARTIAL = 15
         const val CARD_TITLE = 15
-        const val TOPIC_TAG_PARTIAL = 10
+
+        // Дороже названия карточки: тег писался специально под поиск, а карточка попадает
+        // в индекс заодно. Иначе запрос «простое» ставил бы чужую тему с подходящей карточкой
+        // выше самой темы Past Simple.
+        const val TOPIC_TAG_PARTIAL = 20
 
         /** Никакое количество тегов и карточек не обгоняет прямое попадание в название микротемы. */
         const val HIDDEN_SIGNALS_CAP = 60
