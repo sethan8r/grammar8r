@@ -12,7 +12,10 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import javax.inject.Inject
@@ -48,10 +51,19 @@ class TheoryViewModel @Inject constructor(
 
     private val searchInput = MutableStateFlow(SearchInput())
 
+    // Индекс поиска читается и готовится один раз на открытие строки, а не на каждый символ:
+    // пересоздаём поток только когда режим поиска включается или выключается.
+    private val searchResults = searchInput
+        .map { it.isOpen }
+        .distinctUntilChanged()
+        .flatMapLatest { isOpen ->
+            if (isOpen) searchTheory(searchInput.map { it.query }) else flowOf(emptyList())
+        }
+
     val uiState: StateFlow<TheoryUiState> = combine(
         getTheoryList(),
         searchInput,
-        searchInput.flatMapLatest { searchTheory(it.queryOrEmpty()) },
+        searchResults,
     ) { items, input, groups ->
         TheoryUiState(
             isLoading = false,
@@ -86,8 +98,5 @@ class TheoryViewModel @Inject constructor(
         val isOpen: Boolean = false,
         val query: String = "",
         val requestFocus: Boolean = false,
-    ) {
-        /** Закрытый поиск ничего не ищет — БД не трогается, пока пользователь не открыл строку. */
-        fun queryOrEmpty(): String = if (isOpen) query else ""
-    }
+    )
 }

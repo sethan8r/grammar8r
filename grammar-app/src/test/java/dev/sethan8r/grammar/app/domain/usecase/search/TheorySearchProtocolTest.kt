@@ -1,7 +1,6 @@
 package dev.sethan8r.grammar.app.domain.usecase.search
 
 import dev.sethan8r.grammar.app.domain.model.theory.SearchGroup
-import dev.sethan8r.grammar.app.domain.model.theory.SearchIndex
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -10,14 +9,11 @@ import kotlin.test.assertTrue
  * Протокол пилота (search_feature_brief.md §8.6) на настоящей content.db: те же запросы, что
  * пользователь вбивает на устройстве. Печатает выдачу с очками — таблица «запрос → результат»
  * берётся прямо из отчёта прогона.
- *
- * Теги проставлены только у Past Simple и Present Simple; остальные темы участвуют как есть —
- * это часть теста (микротемы без тегов обязаны находиться по заголовкам).
  */
 class TheorySearchProtocolTest {
 
-    private val index: SearchIndex = ContentDbIndexLoader.load()
     private val ranker = TheorySearchRanker(SearchNormalizer())
+    private val index: PreparedIndex = ranker.prepare(ContentDbIndexLoader.load())
 
     private fun search(query: String): List<SearchGroup> =
         ranker.rank(index, query).also { report(query, it) }
@@ -85,12 +81,17 @@ class TheorySearchProtocolTest {
         }
     }
 
-    // 2 — гейт по объединению полей: слова лежат в названии микротемы и в теге темы
+    // 2 — совпадение по объединению полей: слова лежат в названии микротемы и в теге темы.
+    // Прошедшее длительное отвечать на «прошедшее» вправе (у него такой тег), настоящее — нет.
     @Test
     fun `прошедшее время отрицание не тянет Present Simple`() {
         val groups = search("прошедшее время отрицание")
-        assertEquals(listOf("Past Simple"), groups.map { it.topic.title })
-        assertTrue(groups.single().microtopicTitles().any { it.contains("отрицание", ignoreCase = true) })
+        assertEquals("Past Simple", groups.first().topic.title)
+        assertTrue(groups.first().microtopicTitles().any { it.contains("отрицание", ignoreCase = true) })
+        assertTrue(
+            groups.none { it.topic.title.startsWith("Present") },
+            "настоящее время попало в выдачу про прошедшее: ${groups.map { it.topic.title }}",
+        )
     }
 
     // 3 — тема не разворачивает все свои микротемы
@@ -188,5 +189,78 @@ class TheorySearchProtocolTest {
             .flatMap { group -> group.microtopics.map { group to it } }
             .firstOrNull { (_, microtopic) -> microtopic.title.startsWith("Time markers") }
         assertTrue(markers != null, "микротема маркеров не найдена")
+    }
+
+    /**
+     * Запрос, описывающий тему целиком, отвечается самой темой: микротемы под шапкой
+     * разворачиваются, только если уточняют ответ. Раньше «наречия» показывало все пять микротем
+     * темы «Наречия» — у каждой это слово в названии (§10.10, находка о простыне).
+     */
+    @Test
+    fun `запрос про тему не разворачивает её оглавление`() {
+        val group = search("наречия").first()
+        assertEquals("Наречия", group.topic.title)
+        assertTrue(
+            group.microtopics.isEmpty(),
+            "тема развернулась простынёй: ${group.microtopicTitles()}",
+        )
+    }
+
+    /**
+     * Находки §10.10: человеческие запросы, на которых выдача уезжала мимо цели. Проверяем
+     * первую группу — она и есть ответ; хвост допустим.
+     */
+    @Test
+    fun `находки протокола — нужная тема стоит первой`() {
+        val expected = mapOf(
+            // 1 — тему про прошедшее обгоняла соседняя из-за слова в названии её микротемы
+            "прошедшее время" to "Past Simple",
+            // 2 — «Связная речь» лезла вперёд на бытовой запрос
+            "части речи" to "Части речи",
+            // 5 — тема терялась целиком, хотя это её описание
+            "чем английский отличается от русского" to "Как думает английский язык",
+            // 6 — тема-сравнение не находилась вопросом, ради которого написана
+            "разница между simple и continuous" to "Present Simple или Present Continuous",
+            // 12 — тег совпадал дословно, а выдача была мимо
+            "какой сегодня день недели" to "Основы",
+        )
+        for ((query, topic) in expected) {
+            assertEquals(topic, search(query).firstOrNull()?.topic?.title, "запрос «$query»")
+        }
+    }
+
+    /**
+     * Находки §10.10 (9–12): длинный запрос со словами-связками вокруг ключевого давал ноль
+     * групп, хотя слово из тега совпадало дословно.
+     */
+    @Test
+    fun `длинный бытовой запрос находит свою микротему`() {
+        val expected = mapOf(
+            "как сказать иметь" to "Have / Has",
+            "как сказать разрешение можно" to "Can / can't",
+            "почему подлежащее нужно всегда" to "Word Order: SVO",
+            "холодно на улице безличное" to "Word Order: SVO",
+            "из коробки наружу" to "Direction Prepositions",
+            "как понять нужен ли to после глагола" to "Verbs Without to",
+        )
+        for ((query, microtopic) in expected) {
+            val titles = search(query).first().microtopicTitles()
+            assertTrue(
+                titles.any { it.startsWith(microtopic) },
+                "запрос «$query» не нашёл «$microtopic»: $titles",
+            )
+        }
+    }
+
+    /**
+     * Запрос из одних предлогов и союзов ничего не называет — выдача пустая, а не весь курс:
+     * союз «или» стоит в названиях доброго десятка микротем, и раньше «могу или умею» вытаскивало
+     * их все.
+     */
+    @Test
+    fun `запрос из служебных слов ничего не находит`() {
+        for (query in listOf("в на с", "или же", "для по от")) {
+            assertTrue(search(query).isEmpty(), "запрос «$query» что-то нашёл")
+        }
     }
 }

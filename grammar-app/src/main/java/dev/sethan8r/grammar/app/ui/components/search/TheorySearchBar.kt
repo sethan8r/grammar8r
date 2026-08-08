@@ -1,7 +1,6 @@
 package dev.sethan8r.grammar.app.ui.components.search
 
 import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -53,9 +52,10 @@ import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 
 /**
- * Шапка вкладки «Учить»: заголовок с лупой, а в режиме поиска — поле ввода на его месте.
- * Состояния сменяются кросс-фейдом без сдвига: строка проявляется поверх заголовка, а «уезжает»
- * в поиске тело списка — так переход читается как замена содержимого, а не как прилёт шапки.
+ * Шапка вкладки «Учить»: заголовок с лупой, а в режиме поиска — стрелка «назад» и поле ввода на
+ * его месте. Состояния сменяются чистым кросс-фейдом: обе строки одной высоты и на всю ширину,
+ * поэтому переход ничего не пересчитывает и текст с иконками никуда не съезжает. Сдвигается в
+ * поиске только тело списка — переход читается как замена содержимого, а не как прилёт шапки.
  *
  * Режим поиска — не отдельный роут, а состояние экрана (CLAUDE.md), поэтому системный «Назад»
  * здесь не перехватывается: из поиска выводит стрелка слева от строки, а крестик внутри строки
@@ -77,46 +77,29 @@ fun TheorySearchBar(
     onFocusConsumed: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    Row(
+    AnimatedContent(
+        targetState = isOpen,
         modifier = modifier.fillMaxWidth(),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        // Стрелка живёт СНАРУЖИ строки ввода — как на любом подэкране приложения, той же
-        // иконкой и того же размера, что в [BackTopBar] (Правило №0: вид «назад» один на всё).
-        AnimatedVisibility(
-            visible = isOpen,
-            enter = fadeIn(tween(Durations.searchBarSwapMs)),
-            exit = fadeOut(tween(Durations.searchBarSwapMs / 2)),
-        ) {
-            IconButton(onClick = onClose) {
-                Icon(
-                    imageVector = Icons.Filled.ArrowBackIosNew,
-                    contentDescription = stringResource(R.string.theory_search_close),
-                    tint = TextPrimary,
-                )
-            }
-        }
-        AnimatedContent(
-            targetState = isOpen,
-            modifier = Modifier.weight(1f),
-            transitionSpec = {
-                fadeIn(tween(Durations.searchBarSwapMs))
-                    .togetherWith(fadeOut(tween(Durations.searchBarSwapMs / 2)))
-            },
-            label = "theory_search_bar",
-        ) { open ->
-            if (open) {
-                SearchField(
-                    query = query,
-                    requestFocus = requestFocus,
-                    onQueryChange = onQueryChange,
-                    onClear = onClear,
-                    onClose = onClose,
-                    onFocusConsumed = onFocusConsumed,
-                )
-            } else {
-                TitleRow(onOpen = onOpen)
-            }
+        transitionSpec = {
+            fadeIn(tween(Durations.searchBarSwapMs))
+                .togetherWith(fadeOut(tween(Durations.searchBarSwapMs / 2)))
+                // Оба состояния одного размера — анимировать размер нечего, и попытка это делать
+                // только вернула бы скачок соседних элементов.
+                .using(sizeTransform = null)
+        },
+        label = "theory_search_bar",
+    ) { open ->
+        if (open) {
+            SearchRow(
+                query = query,
+                requestFocus = requestFocus,
+                onQueryChange = onQueryChange,
+                onClear = onClear,
+                onClose = onClose,
+                onFocusConsumed = onFocusConsumed,
+            )
+        } else {
+            TitleRow(onOpen = onOpen)
         }
     }
 }
@@ -130,11 +113,11 @@ private fun TitleRow(onOpen: () -> Unit) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
-        // Шапка сдвинута влево под стрелку «назад»; заголовок добирает остаток до общего
-        // отступа экрана, чтобы стоять по одной линии с карточками тем.
+        // Шапка сдвинута влево под зону нажатия стрелки «назад»; заголовок добирает остаток до
+        // общего отступа экрана, чтобы стоять по одной линии с карточками тем.
         Text(
             text = stringResource(R.string.theory_title),
-            modifier = Modifier.padding(start = Dimens.screenPadding - Dimens.spaceSmall),
+            modifier = Modifier.padding(start = Dimens.spaceSmall),
             color = Accent,
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
@@ -147,6 +130,43 @@ private fun TitleRow(onOpen: () -> Unit) {
     }
 }
 
+/**
+ * Открытое состояние шапки. Стрелка живёт СНАРУЖИ строки ввода — как на любом подэкране
+ * приложения, той же иконкой и того же размера, что в `BackTopBar` (Правило №0: вид «назад»
+ * один на всё).
+ */
+@Composable
+private fun SearchRow(
+    query: String,
+    requestFocus: Boolean,
+    onQueryChange: (String) -> Unit,
+    onClear: () -> Unit,
+    onClose: () -> Unit,
+    onFocusConsumed: () -> Unit,
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        IconButton(onClick = onClose) {
+            Icon(
+                imageVector = Icons.Filled.ArrowBackIosNew,
+                contentDescription = stringResource(R.string.theory_search_close),
+                tint = TextPrimary,
+            )
+        }
+        SearchField(
+            query = query,
+            requestFocus = requestFocus,
+            onQueryChange = onQueryChange,
+            onClear = onClear,
+            onClose = onClose,
+            onFocusConsumed = onFocusConsumed,
+            modifier = Modifier.weight(1f),
+        )
+    }
+}
+
 @Composable
 private fun SearchField(
     query: String,
@@ -155,6 +175,7 @@ private fun SearchField(
     onClear: () -> Unit,
     onClose: () -> Unit,
     onFocusConsumed: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
     val focusRequester = remember { FocusRequester() }
     // Поле хранит и текст, и позицию курсора: вернувшись в поиск из микротемы, пользователь должен
@@ -172,12 +193,14 @@ private fun SearchField(
     }
 
     Row(
-        modifier = Modifier
-            .fillMaxWidth()
+        modifier = modifier
             .height(Dimens.searchFieldHeight)
             .clip(RoundedCornerShape(Dimens.cornerButton))
             .background(Elevated)
-            .padding(start = Dimens.spaceMedium, end = Dimens.spaceTiny),
+            // Справа отступа нет намеренно: крестик — тот же [BarIconButton] в конце строки на всю
+            // ширину, что и лупа в закрытом состоянии, поэтому они встают в одну точку. Любой
+            // отступ здесь сдвинул бы крестик относительно лупы, и переход стал бы заметен.
+            .padding(start = Dimens.spaceMedium),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(

@@ -1,7 +1,6 @@
 package dev.sethan8r.grammar.app.domain.usecase.search
 
 import dev.sethan8r.grammar.app.domain.model.theory.IndexedMicrotopic
-import dev.sethan8r.grammar.app.domain.model.theory.IndexedTopic
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicState
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicSummary
 import dev.sethan8r.grammar.app.domain.model.theory.SearchGroup
@@ -14,200 +13,190 @@ import kotlin.math.roundToInt
  * Отбирает и ранжирует выдачу поиска. Чистый Kotlin — тестируется без Android; про прогресс
  * не знает, статусы приходят готовыми в [SearchIndex].
  *
- * Модель та же, что в полноценных поисковых движках, только без индекса: слово запроса даёт очки
- * по полю, в котором нашлось (название дороже тега, тег дороже карточки), очко умножается на
- * качество совпадения (точное / дописывается / опечатка), а сумма скрытых сигналов ограничена
- * потолком — чтобы десяток слабых совпадений не обогнал одно сильное.
+ * Модель та же, что в полнотекстовых движках, урезанная до нашего масштаба (полторы сотни
+ * микротем, полный пересчёт на каждый символ). Очки строки индекса складываются из трёх
+ * множителей:
+ * - **вес поля** — попадание в название дороже попадания в тег, тег дороже названия карточки;
+ * - **сколько запроса покрыто** — с поправкой на редкость слов: совпасть по `подлежащее` весомее,
+ *   чем по `нужно`, которое встречается по всему курсу;
+ * - **сколько поля покрыто** — короткий тег, совпавший целиком, точнее длинного названия,
+ *   зацепившегося одним словом.
  *
- * Веса и правила — search_feature_brief.md §8.3.3–§8.3.4 и §9.5.
+ * Отсюда же следует правило «ответ на запрос про тему — сама тема»: микротемы разворачиваются
+ * только если бьют собственную тему по очкам.
+ *
+ * Веса — в [Weights]; разбор решений — search_feature_brief.md §11.
  */
 class TheorySearchRanker @Inject constructor(
     private val normalizer: SearchNormalizer,
 ) {
 
-    fun rank(index: SearchIndex, query: String): List<SearchGroup> {
-        val stems = normalizer.stems(query)
-        if (stems.isEmpty()) return emptyList()
-        val context = QueryContext(stems, StemCache(normalizer), normalizer)
+    fun prepare(index: SearchIndex): PreparedIndex = PreparedIndex.of(index, normalizer)
 
-        // Сперва ищем то, где сошёлся весь запрос. Пусто — ослабляем требование по слову за раз,
-        // но не ниже половины: «когда ставить s» лучше показать по «когда», чем не показать вовсе.
-        // Ниже половины начинается мусор, поэтому там останавливаемся.
-        val minimum = (context.gate.size + 1) / 2
-        for (required in context.gate.size downTo minimum) {
-            val groups = index.topics
-                .mapNotNull { topic -> group(topic, context, required) }
-                .sortedWith(compareByDescending<SearchGroup> { it.score }.thenBy { it.topic.id })
-            if (groups.isNotEmpty()) return groups.dropNoise()
-        }
-        return emptyList()
+    fun rank(index: PreparedIndex, query: String): List<SearchGroup> {
+        val terms = parse(index, query)
+        if (terms.isEmpty() || terms.all { it.isFunctionWord }) return emptyList()
+
+        val parsed = Query(terms, reach(index, terms))
+        val found = index.topics.mapNotNull { topic -> group(topic, parsed) }
+        // Сначала отсекаем по тому, СКОЛЬКО запроса тема объясняет, и только потом по очкам:
+        // на «прошедшее время» тема про прошедшее должна вытеснить всё, что зацепилось одним
+        // словом «время». Покрытие считается по весам слов, поэтому редкое слово перевешивает
+        // пару общих.
+        val bestCovered = found.maxOfOrNull { it.covered } ?: return emptyList()
+        val groups = found
+            .filter { it.covered >= bestCovered * COVERAGE_TIER_RATIO }
+            .map { it.group }
+            .sortedWith(compareByDescending<SearchGroup> { it.score }.thenBy { it.topic.id })
+        val best = groups.first().score
+        val floor = maxOf(best * GROUP_NOISE_RATIO, MIN_GROUP_SCORE.toDouble())
+        return groups.filter { it.score >= floor }
     }
 
     /**
-     * Разобранный запрос. Последнее слово матчится префиксно — пользователь ещё печатает,
-     * и «отриц» обязано находить «отрицание» до того, как он допишет.
+     * Слова запроса с весами. Слово, которого в курсе нет вовсе, выбрасывается: найти оно ничего
+     * не может, а вес свой в знаменатель покрытия внесло бы — именно так терялись длинные
+     * вопросы вроде «почему подлежащее нужно всегда».
      */
-    private class QueryContext(
-        val stems: List<String>,
-        val cache: StemCache,
-        normalizer: SearchNormalizer,
+    private fun parse(index: PreparedIndex, query: String): List<QueryTerm> {
+        val stems = normalizer.stems(query)
+        return stems.mapIndexedNotNull { position, stem ->
+            // Префикс разрешён только последнему слову — пользователь его ещё печатает.
+            val match = index.resolve(stem, allowPrefix = position == stems.lastIndex, normalizer)
+            if (match.stems.isEmpty()) {
+                null
+            } else {
+                val isFunctionWord = normalizer.isFunctionWord(stem)
+                val weight = if (isFunctionWord) {
+                    FUNCTION_WORD_WEIGHT
+                } else {
+                    index.weight(match.documentFrequency).coerceAtLeast(MIN_TERM_WEIGHT)
+                }
+                QueryTerm(match.stems, weight, isFunctionWord)
+            }
+        }
+    }
+
+    /**
+     * Сколько запроса вообще способна объяснить лучшая тема курса. Покрытие считается в долях от
+     * этого, а не от всего запроса: иначе лишние слова вокруг ключевого («почему … нужно всегда»)
+     * занижали бы очки настоящего ответа просто за то, что человек спросил предложением.
+     */
+    private fun reach(index: PreparedIndex, terms: List<QueryTerm>): Double = index.topics.maxOf { topic ->
+        val stems = topic.stems + topic.microtopics.flatMap { it.stems }
+        terms.filter { term -> stems.any { term.quality(it) != null } }.sumOf { it.weight }
+    }
+
+    private class QueryTerm(
+        private val matches: Map<String, MatchQuality>,
+        val weight: Double,
+        val isFunctionWord: Boolean,
     ) {
-        /** Слова, которые обязаны найтись: предлоги и частицы в заголовки не попадают. */
-        val gate: List<String> = stems.filterNot(normalizer::isFunctionWord).ifEmpty { stems }
-
-        fun isLast(stem: String): Boolean = stem == stems.last()
+        fun quality(indexStem: String): MatchQuality? = matches[indexStem]
     }
 
-    /** Стемминг одной и той же строки повторяется десятки раз за запрос — считаем однажды. */
-    private class StemCache(private val normalizer: SearchNormalizer) {
-        private val cache = HashMap<String, List<String>>()
-        operator fun get(text: String): List<String> = cache.getOrPut(text) { normalizer.stems(text) }
-    }
+    /** [totalWeight] — не весь запрос, а его объяснимая часть (см. [reach]). */
+    private class Query(val terms: List<QueryTerm>, val totalWeight: Double)
 
-    private fun group(topic: IndexedTopic, context: QueryContext, required: Int): SearchGroup? {
-        val topicFields = fieldStems(context, listOf(topic.title) + topic.keywords)
-        val topicScore = scoreTopic(topic, context)
+    /** Группа выдачи и доля запроса, которую она объясняет (в весах слов). */
+    private class Scored(val group: SearchGroup, val covered: Double)
 
-        val matched = topic.microtopics.mapNotNull { microtopic ->
-            val ownFields = fieldStems(
-                context,
-                listOf(microtopic.title) + microtopic.keywords + microtopic.cardTitles,
-            )
-            // Слова запроса ищутся по теме и микротеме вместе, но покрытие одними полями ТЕМЫ
-            // микротему не пускает: иначе «past simple» развернуло бы всю тему простынёй (§8.2.3).
-            val covered = context.gate.count { stem ->
-                covers(context, stem, topicFields + ownFields)
-            } >= required
-            val hasOwnHit = context.gate.any { stem -> covers(context, stem, ownFields) }
-            if (covered && hasOwnHit) microtopic to scoreMicrotopic(microtopic, context) else null
-        }
+    private fun group(topic: PreparedTopic, query: Query): Scored? {
+        val topicScore = score(topic.fields, query)
 
-        val topicItselfMatched =
-            context.gate.count { stem -> covers(context, stem, topicFields) } >= required
-        if (matched.isEmpty() && !topicItselfMatched) return null
+        val matched = topic.microtopics
+            .map { microtopic -> microtopic to score(microtopic.fields, query) }
+            .filter { (_, score) -> score > 0 }
 
-        val best = matched.maxOfOrNull { it.second } ?: 0
-        // Запрос про тему целиком («прошедшее время») — ответ это сама тема, а не всё, что под ней
-        // как-то перекликается. Разворачиваем только микротемы с сильным собственным попаданием.
-        val floor = if (topicItselfMatched) {
-            maxOf(best * MICROTOPIC_NOISE_RATIO, STRONG_MICROTOPIC_SCORE.toDouble())
-        } else {
-            best * MICROTOPIC_NOISE_RATIO
-        }
-        return SearchGroup(
+        if (matched.isEmpty() && topicScore == 0.0) return null
+
+        val best = matched.maxOfOrNull { it.second } ?: 0.0
+        val topicTerms = query.terms.filter { term -> topic.stems.any { term.quality(it) != null } }
+        val tail = best * MICROTOPIC_NOISE_RATIO
+
+        val stems = topic.stems + matched.flatMap { (microtopic, _) -> microtopic.stems }
+        val covered = query.terms
+            .filter { term -> stems.any { term.quality(it) != null } }
+            .sumOf { it.weight }
+
+        val group = SearchGroup(
             topic = TopicSummary(
-                id = topic.id,
-                title = topic.title,
-                description = topic.description,
+                id = topic.source.id,
+                title = topic.source.title,
+                description = topic.source.description,
                 isPretopic = false,
-                completedMicrotopics = topic.completedMicrotopics,
+                completedMicrotopics = topic.source.completedMicrotopics,
                 totalMicrotopics = topic.microtopics.size,
             ),
-            sectionTitle = topic.sectionTitle,
+            sectionTitle = topic.source.sectionTitle,
             microtopics = matched
-                .filter { (_, score) -> score >= floor }
+                .filter { (microtopic, score) -> score >= floor(microtopic, query, topicTerms, topicScore, tail) }
                 .sortedWith(
-                    compareByDescending<Pair<IndexedMicrotopic, Int>> { it.second }
-                        .thenBy { it.first.order }
+                    compareByDescending<Pair<PreparedMicrotopic, Double>> { it.second }
+                        .thenBy { it.first.source.order }
                 )
-                .map { (microtopic, _) -> microtopic.toSummary() },
-            // Совпавшая тема и её лучшая микротема складываются: запрос «past simple» должен
-            // поднимать саму тему, а не чужую, где эти слова попали в название микротемы.
-            score = topicScore + best,
+                .map { (microtopic, _) -> microtopic.source.toSummary() },
+            // Группу представляет её сильнейшее совпадение; второе добавляет немного сверху, чтобы
+            // тема, совпавшая и сама, и микротемой, обходила тему с одним случайным попаданием.
+            score = (maxOf(topicScore, best) + GROUP_SUPPORT * minOf(topicScore, best)).roundToInt(),
         )
-    }
-
-    /** Хвост слабых групп — это совпадения в одном названии карточки; выдачу они только зашумляют. */
-    private fun List<SearchGroup>.dropNoise(): List<SearchGroup> {
-        val best = firstOrNull()?.score ?: return this
-        return filter { it.score >= best * GROUP_NOISE_RATIO }
-    }
-
-    private fun scoreTopic(topic: IndexedTopic, context: QueryContext): Int {
-        val title = titleScore(
-            topic.title, context, TOPIC_TITLE_EXACT, TOPIC_TITLE_START, TOPIC_TITLE_INSIDE
-        )
-        val tags = topic.keywords.sumOf { tag ->
-            tagScore(tag, context, TOPIC_TAG_FULL, TOPIC_TAG_PARTIAL)
-        }
-        return title + tags.coerceAtMost(HIDDEN_SIGNALS_CAP)
-    }
-
-    private fun scoreMicrotopic(microtopic: IndexedMicrotopic, context: QueryContext): Int {
-        val title = titleScore(
-            microtopic.title, context, MICROTOPIC_TITLE_EXACT, MICROTOPIC_TITLE_START,
-            MICROTOPIC_TITLE_INSIDE,
-        )
-        val tags = microtopic.keywords.sumOf { tag ->
-            tagScore(tag, context, MICROTOPIC_TAG_FULL, MICROTOPIC_TAG_PARTIAL)
-        }
-        val cards = microtopic.cardTitles.sumOf { cardTitle ->
-            val stems = context.cache[cardTitle]
-            val hits = context.stems.count { stem -> covers(context, stem, stems) }
-            if (hits > 0) CARD_TITLE else 0
-        }
-        return title + (tags + cards).coerceAtMost(HIDDEN_SIGNALS_CAP)
+        return Scored(group, covered)
     }
 
     /**
-     * Очки за название. Двойное имя «EN · RU» меряется по каждой части отдельно, иначе русские
-     * запросы систематически проигрывали бы английским (§8.7). Запрос, совпавший с частью
-     * целиком, — это ровно то, что искал человек, поэтому стоит кратно дороже вхождения.
+     * Планка, которую микротема обязана взять, чтобы попасть под шапку своей темы.
+     *
+     * Микротема, объясняющая то, чего в самой теме нет («прошедшее время **отрицание**»), уточняет
+     * ответ — с неё спрос только как с хвоста выдачи. Микротема, которая про то же самое, что и
+     * тема, должна тему перебить: иначе запрос «наречия» развернул бы все пять её микротем,
+     * у каждой из которых это слово в названии, вместо того чтобы ответить самой темой.
      */
-    private fun titleScore(
-        title: String,
-        context: QueryContext,
-        exact: Int,
-        start: Int,
-        inside: Int,
-    ): Int = title.split(TITLE_SEPARATOR).maxOf { part ->
-        val partStems = context.cache[part]
-        if (partStems.isEmpty()) return@maxOf 0
-
-        val fullMatch = partStems.size == context.stems.size &&
-            partStems.zip(context.stems).all { (indexed, queried) ->
-                normalizer.match(queried, indexed, allowPrefix = context.isLast(queried)) != null
-            }
-        if (fullMatch) return@maxOf exact
-
-        context.stems.sumOf { stem ->
-            val quality = partStems.firstNotNullOfOrNull { indexed ->
-                normalizer.match(stem, indexed, allowPrefix = context.isLast(stem))
-            } ?: return@sumOf 0
-            val weight = if (matchesFirstWord(stem, partStems, context)) start else inside
-            (weight * quality.factor).roundToInt()
+    private fun floor(
+        microtopic: PreparedMicrotopic,
+        query: Query,
+        topicTerms: List<QueryTerm>,
+        topicScore: Double,
+        tail: Double,
+    ): Double {
+        val refines = query.terms.any { term ->
+            term !in topicTerms && microtopic.stems.any { term.quality(it) != null }
         }
+        return if (refines) tail else maxOf(tail, topicScore)
     }
 
-    private fun matchesFirstWord(
-        stem: String,
-        partStems: List<String>,
-        context: QueryContext,
-    ): Boolean =
-        normalizer.match(stem, partStems.first(), allowPrefix = context.isLast(stem)) != null
-
-    /**
-     * Очки за тег. Тег пишется готовой фразой пользователя, поэтому запрос, покрывающий тег
-     * целиком, почти равен попаданию в заголовок; частичное совпадение — вспомогательный сигнал.
-     */
-    private fun tagScore(tag: String, context: QueryContext, full: Int, partial: Int): Int {
-        val tagStems = context.cache[tag]
-        if (tagStems.isEmpty()) return 0
-        val covered = tagStems.count { tagStem ->
-            context.stems.any { normalizer.match(it, tagStem, allowPrefix = context.isLast(it)) != null }
-        }
-        return when {
-            covered == 0 -> 0
-            covered == tagStems.size -> full
-            else -> partial
-        }
+    /** Очки объекта: лучшее его поле плюс небольшая добавка за остальные сработавшие. */
+    private fun score(fields: List<SearchField>, query: Query): Double {
+        val scores = fields.map { field -> fieldScore(field, query) }
+        val best = scores.maxOrNull() ?: return 0.0
+        return best + FIELD_SUPPORT * (scores.sum() - best)
     }
 
-    private fun covers(context: QueryContext, stem: String, fieldStems: Collection<String>): Boolean =
-        fieldStems.any { normalizer.match(stem, it, allowPrefix = context.isLast(stem)) != null }
+    private fun fieldScore(field: SearchField, query: Query): Double {
+        // Слово запроса засчитывается один раз, по лучшему своему совпадению в поле: повтор слова
+        // в длинном названии не должен стоить дороже, чем попадание в короткий тег.
+        val matchedWeight = query.terms.sumOf { term ->
+            val quality = field.stems.mapNotNull(term::quality).maxByOrNull { it.factor }
+            quality?.let { term.weight * it.factor } ?: 0.0
+        }
+        if (matchedWeight == 0.0) return 0.0
 
-    private fun fieldStems(context: QueryContext, fields: List<String>): Set<String> =
-        fields.flatMapTo(mutableSetOf()) { context.cache[it] }
+        val matchedStems = field.stems.count { stem -> query.terms.any { it.quality(stem) != null } }
+        val precision = matchedStems.toDouble() / field.stems.size
+        val start = field.stems.first().let { first -> query.terms.any { it.quality(first) != null } }
+
+        return field.kind.boost() *
+            (matchedWeight / query.totalWeight) *
+            (PRECISION_FLOOR + (1 - PRECISION_FLOOR) * precision) *
+            (if (start) START_BONUS else 1.0)
+    }
+
+    private fun SearchFieldKind.boost(): Double = when (this) {
+        SearchFieldKind.MICROTOPIC_TITLE -> Weights.MICROTOPIC_TITLE
+        SearchFieldKind.TOPIC_TITLE -> Weights.TOPIC_TITLE
+        SearchFieldKind.MICROTOPIC_TAG -> Weights.MICROTOPIC_TAG
+        SearchFieldKind.TOPIC_TAG -> Weights.TOPIC_TAG
+        SearchFieldKind.CARD_TITLE -> Weights.CARD_TITLE
+    }
 
     private fun IndexedMicrotopic.toSummary() = MicrotopicSummary(
         id = id,
@@ -215,33 +204,50 @@ class TheorySearchRanker @Inject constructor(
         state = if (isCompleted) MicrotopicState.COMPLETED else MicrotopicState.AVAILABLE,
     )
 
-    companion object {
-        const val MICROTOPIC_TITLE_EXACT = 220
-        const val MICROTOPIC_TITLE_START = 100
-        const val MICROTOPIC_TITLE_INSIDE = 70
-        const val TOPIC_TITLE_EXACT = 200
-        const val TOPIC_TITLE_START = 60
-        const val TOPIC_TITLE_INSIDE = 45
-        const val MICROTOPIC_TAG_FULL = 40
-        const val TOPIC_TAG_FULL = 25
-        const val MICROTOPIC_TAG_PARTIAL = 15
-        const val CARD_TITLE = 15
+    /**
+     * Вес поля — во сколько оценивается полное попадание в него. Название микротемы дороже
+     * названия темы, тег дешевле названия, название карточки — самый слабый сигнал: оно попадает
+     * в индекс заодно, а тег писался специально под поиск.
+     */
+    object Weights {
+        const val MICROTOPIC_TITLE = 100.0
+        const val TOPIC_TITLE = 90.0
+        const val MICROTOPIC_TAG = 60.0
+        const val TOPIC_TAG = 55.0
+        const val CARD_TITLE = 35.0
+    }
 
-        // Дороже названия карточки: тег писался специально под поиск, а карточка попадает
-        // в индекс заодно. Иначе запрос «простое» ставил бы чужую тему с подходящей карточкой
-        // выше самой темы Past Simple.
-        const val TOPIC_TAG_PARTIAL = 20
+    private companion object {
+        /** Доля очков поля, которая достаётся ему даже при попадании одним словом из многих. */
+        const val PRECISION_FLOOR = 0.45
 
-        /** Никакое количество тегов и карточек не обгоняет прямое попадание в название микротемы. */
-        const val HIDDEN_SIGNALS_CAP = 60
+        /** Совпадение с первого слова строки — это обычно и есть то, что искали. */
+        const val START_BONUS = 1.2
 
-        /** Доля от лучшего результата, ниже которой совпадение считается шумом. */
+        /** Вклад второго и следующих сработавших полей объекта. */
+        const val FIELD_SUPPORT = 0.2
+
+        /** Вклад более слабой половины пары «тема ↔ её лучшая микротема» в очки группы. */
+        const val GROUP_SUPPORT = 0.25
+
+        /** Насколько группа может объяснять запрос хуже лидера, чтобы вообще попасть в выдачу. */
+        const val COVERAGE_TIER_RATIO = 0.6
+
+        /** Доля от лучшего результата, ниже которой совпадение считается хвостом. */
         const val MICROTOPIC_NOISE_RATIO = 0.4
-        const val GROUP_NOISE_RATIO = 0.3
+        const val GROUP_NOISE_RATIO = 0.4
 
-        /** Планка «сильного» совпадения микротемы — вхождение в её название, а не отголосок в тегах. */
-        const val STRONG_MICROTOPIC_SCORE = MICROTOPIC_TITLE_INSIDE
+        /**
+         * Абсолютный пол выдачи: примерно пятая часть от идеального попадания в название
+         * ([Weights]). Слабее — это уже отголосок одного случайного слова, а не ответ, и лидер
+         * тут ни при чём: на невнятном запросе слабы будут все.
+         */
+        const val MIN_GROUP_SCORE = 20
 
-        private const val TITLE_SEPARATOR = " · "
+        /** Предлоги и союзы ничего не называют, но и выбрасывать их незачем — просто дёшевы. */
+        const val FUNCTION_WORD_WEIGHT = 0.1
+
+        /** Даже самое частое слово курса весит не ноль: иначе запрос из одних общих слов пропал бы. */
+        const val MIN_TERM_WEIGHT = 0.05
     }
 }

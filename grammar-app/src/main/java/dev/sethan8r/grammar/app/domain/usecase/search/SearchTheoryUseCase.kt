@@ -3,23 +3,27 @@ package dev.sethan8r.grammar.app.domain.usecase.search
 import dev.sethan8r.grammar.app.domain.model.theory.SearchGroup
 import dev.sethan8r.grammar.app.domain.repository.TheoryRepository
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
 /**
- * Поиск по теории: индекс из репозитория + ранжирование. Пустой запрос не трогает БД —
- * индекс подтягивается только когда пользователь начал печатать.
+ * Поиск по теории: снимок индекса из репозитория + ранжирование по вводимому запросу.
+ *
+ * Принимает поток запросов, а не строку: индекс читается из БД и готовится к поиску один раз на
+ * подписку, а каждый символ лишь пересчитывает ранжирование. Подписываться только когда поиск
+ * открыт — забота вызывающего (закрытый поиск БД не трогает).
  */
 class SearchTheoryUseCase @Inject constructor(
     private val repository: TheoryRepository,
     private val ranker: TheorySearchRanker,
 ) {
 
-    operator fun invoke(query: String): Flow<List<SearchGroup>> =
-        if (query.isBlank()) {
-            flowOf(emptyList())
-        } else {
-            repository.observeSearchIndex().map { index -> ranker.rank(index, query) }
-        }
+    operator fun invoke(queries: Flow<String>): Flow<List<SearchGroup>> = combine(
+        repository.observeSearchIndex().map(ranker::prepare),
+        queries.map(String::trim).distinctUntilChanged(),
+    ) { index, query ->
+        if (query.isEmpty()) emptyList() else ranker.rank(index, query)
+    }
 }
