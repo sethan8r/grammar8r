@@ -64,6 +64,7 @@ import kotlinx.coroutines.launch
 fun MicrotopicScreen(
     onBack: () -> Unit,
     onStartExercises: (cardId: Int) -> Unit,
+    onClarify: (cardId: Int) -> Unit,
     onMicrotopicCompleted: (microtopicId: Int) -> Unit,
     advanceAfterCardId: Int? = null,
     onAdvanceConsumed: () -> Unit = {},
@@ -86,6 +87,7 @@ fun MicrotopicScreen(
                 cards = uiState.cards,
                 completedCardIds = uiState.completedCardIds,
                 onStartExercises = onStartExercises,
+                onClarify = onClarify,
                 onCompleteCard = viewModel::completeCard,
                 cardCompleted = viewModel.cardCompleted,
                 onMicrotopicCompleted = onMicrotopicCompleted,
@@ -101,6 +103,7 @@ private fun CardPager(
     cards: List<TheoryCard>,
     completedCardIds: Set<Int>,
     onStartExercises: (cardId: Int) -> Unit,
+    onClarify: (cardId: Int) -> Unit,
     onCompleteCard: (cardId: Int) -> Unit,
     cardCompleted: Flow<CardCompletion>,
     onMicrotopicCompleted: (microtopicId: Int) -> Unit,
@@ -182,6 +185,7 @@ private fun CardPager(
                 card = card,
                 isCompleted = card.id in completedCardIds,
                 onStartExercises = { onStartExercises(card.id) },
+                onClarify = { onClarify(card.id) },
                 onCompleteCard = { onCompleteCard(card.id) },
             )
         }
@@ -193,6 +197,7 @@ private fun CardPage(
     card: TheoryCard,
     isCompleted: Boolean,
     onStartExercises: () -> Unit,
+    onClarify: () -> Unit,
     onCompleteCard: () -> Unit,
 ) {
     Column(
@@ -223,6 +228,7 @@ private fun CardPage(
             hasExercises = card.hasExercises,
             hasAiExercise = card.hasAiExercise,
             onStartExercises = onStartExercises,
+            onClarify = onClarify,
             onCompleteCard = onCompleteCard,
         )
     }
@@ -279,9 +285,9 @@ private fun exampleFrameShape(index: Int, count: Int): RoundedCornerShape {
 }
 
 /**
- * Кнопки внизу карточки: «Не совсем понял» (всегда сверху, Фаза 3 — задизейблено); основная — либо
- * «Перейти к заданиям» (если у карточки есть задания → сессия), либо «Завершить карточку» (если
- * заданий нет → отметка пройденной); и «Перейти к умному заданию» — только если карточка уже
+ * Кнопки внизу карточки: «Не совсем понял» (всегда сверху, ведёт на экран уточнения с ИИ); основная
+ * — либо «Перейти к заданиям» (если у карточки есть задания → сессия), либо «Завершить карточку»
+ * (если заданий нет → отметка пройденной); и «Перейти к умному заданию» — только если карточка уже
  * пройдена И у неё есть AI-задание (Фаза 3 — задизейблено).
  */
 @Composable
@@ -290,12 +296,12 @@ private fun CardActions(
     hasExercises: Boolean,
     hasAiExercise: Boolean,
     onStartExercises: () -> Unit,
+    onClarify: () -> Unit,
     onCompleteCard: () -> Unit,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall)) {
         OutlinedButton(
-            onClick = {},
-            enabled = false,
+            onClick = onClarify,
             modifier = Modifier.fillMaxWidth(),
         ) {
             Text(text = stringResource(R.string.theory_clarify_button))

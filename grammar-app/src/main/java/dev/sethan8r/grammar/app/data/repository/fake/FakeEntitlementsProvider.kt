@@ -6,17 +6,22 @@ import dev.sethan8r.grammar.app.domain.repository.EntitlementsProvider
 import dev.sethan8r.grammar.shared.SubscriptionTier
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
 import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Заглушка прав/лимитов (Фаза 1). dev/prod-разница — через [DebugBuild] (BuildConfig.DEBUG,
- * проброшен через DI, не хардкод-комментарий):
- * - debug → топ-тир [SubscriptionTier.ADMIN]: всё открыто, лимиты безграничны (удобно гонять теорию);
- * - release → [SubscriptionTier.FREE] с дефолтными лимитами.
+ * Заглушка прав/лимитов (Фаза 1). Тир debug-сборки задаёт [DEBUG_TIER] — сейчас это
+ * [SubscriptionTier.FREE], чтобы на устройстве было видно, как выглядит счётчик остатка запросов и
+ * его исчерпание. Поставьте [SubscriptionTier.ADMIN], когда нужно гонять контент без лимитов.
+ * Release всегда [SubscriptionTier.FREE].
  *
- * [refresh] — no-op (нет сервера). Реальная реализация (`GET /subscription` + кэш) — Фаза 4.
  * `isDebug` инжектится как Boolean → провайдер тестируем без Android.
+ *
+ * TODO(Фаза 4, S5): заменить на реальную реализацию — `GET /subscription` (тир, expires,
+ *  aiRequestsToday/aiDailyLimit, microtopicsToday/microtopicsDailyLimit, стрик) + локальный кэш;
+ *  [refresh] дёргает ручку, [consumeAiRequest] применяет остаток из ответа AI-эндпоинтов
+ *  (сервер считает лимит атомарно сам — клиент только отражает). См. phase4_server.md → «Подписка».
  */
 @Singleton
 class FakeEntitlementsProvider @Inject constructor(
@@ -24,12 +29,20 @@ class FakeEntitlementsProvider @Inject constructor(
 ) : EntitlementsProvider {
 
     private val _entitlements = MutableStateFlow(
-        if (isDebug) adminEntitlements() else freeEntitlements()
+        if (isDebug && DEBUG_TIER == SubscriptionTier.ADMIN) adminEntitlements() else freeEntitlements()
     )
     override val entitlements = _entitlements.asStateFlow()
 
     override suspend fun refresh() {
         // Заглушка: сервера нет, перечитывать нечего.
+    }
+
+    /** Счёт ведём в памяти: до сервера это единственный способ увидеть остаток и его исчерпание. */
+    override suspend fun consumeAiRequest() {
+        _entitlements.update { current ->
+            if (current.isAiUnlimited) current
+            else current.copy(aiRequestsToday = (current.aiRequestsToday + 1).coerceAtMost(current.aiDailyLimit))
+        }
     }
 
     private fun adminEntitlements() = Entitlements(
@@ -55,6 +68,9 @@ class FakeEntitlementsProvider @Inject constructor(
     )
 
     private companion object {
+        /** Тир debug-сборки: FREE — видно лимиты и счётчик, ADMIN — всё открыто. */
+        val DEBUG_TIER = SubscriptionTier.FREE
+
         // Дефолтные Free-лимиты (subscription.md). На сервере лежат в subscription_limits и
         // приходят с `GET /subscription`; здесь — разумная заглушка до появления сервера.
         const val FREE_AI_PER_DAY = 3

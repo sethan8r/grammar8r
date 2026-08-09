@@ -1,5 +1,6 @@
 package dev.sethan8r.grammar.app.domain.repository
 
+import dev.sethan8r.grammar.app.domain.model.theory.ClarificationContext
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicCards
 import dev.sethan8r.grammar.app.domain.model.theory.SearchIndex
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryData
@@ -21,6 +22,12 @@ interface TheoryRepository {
 
     /** Карточки микротемы (теория разобрана в блоки) + заголовок микротемы. */
     fun observeMicrotopicCards(microtopicId: Int): Flow<MicrotopicCards>
+
+    /**
+     * Карточка для экрана «Не совсем понял»: заголовки, готовые вопросы и текст теории для промта.
+     * Снимок, а не поток — содержимое карточки неизменно. `null`, если карточки нет в content.db.
+     */
+    suspend fun getClarificationContext(cardId: Int): ClarificationContext?
 
     /**
      * Снимок курса для поиска: темы, микротемы, теги, заголовки карточек и прогресс.

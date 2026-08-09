@@ -55,6 +55,8 @@ import dev.sethan8r.grammar.app.ui.components.scaffold.BottomNavScrim
 import dev.sethan8r.grammar.app.ui.components.scaffold.Grammar8rBottomBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.TopStatusScrim
 import dev.sethan8r.grammar.app.ui.components.scaffold.rememberBottomBarScrollBehavior
+import dev.sethan8r.grammar.app.ui.navigation.AiLimitRoute
+import dev.sethan8r.grammar.app.ui.navigation.ClarifyRoute
 import dev.sethan8r.grammar.app.ui.navigation.ExerciseSessionRoute
 import dev.sethan8r.grammar.app.ui.navigation.LearnRoute
 import dev.sethan8r.grammar.app.ui.navigation.MenuRoute
@@ -64,11 +66,13 @@ import dev.sethan8r.grammar.app.ui.navigation.PracticeRoute
 import dev.sethan8r.grammar.app.ui.navigation.StatisticsRoute
 import dev.sethan8r.grammar.app.ui.navigation.TopLevelDestination
 import dev.sethan8r.grammar.app.ui.navigation.TopicRoute
+import dev.sethan8r.grammar.app.ui.screens.clarify.ClarifyScreen
 import dev.sethan8r.grammar.app.ui.screens.exercise.ExerciseSessionScreen
 import dev.sethan8r.grammar.app.ui.screens.exercise.MicrotopicSummaryScreen
 import dev.sethan8r.grammar.app.ui.screens.menu.MenuScreen
 import dev.sethan8r.grammar.app.ui.screens.practice.PracticeScreen
 import dev.sethan8r.grammar.app.ui.screens.statistics.StatisticsScreen
+import dev.sethan8r.grammar.app.ui.screens.subscription.AiLimitScreen
 import dev.sethan8r.grammar.app.ui.screens.theory.MicrotopicScreen
 import dev.sethan8r.grammar.app.ui.screens.theory.TheoryScreen
 import dev.sethan8r.grammar.app.ui.screens.theory.TopicScreen
@@ -189,6 +193,7 @@ fun MainScreen() {
                 MicrotopicScreen(
                     onBack = { navController.popBackStack() },
                     onStartExercises = { cardId -> navController.navigate(ExerciseSessionRoute(cardId)) },
+                    onClarify = { cardId -> navController.navigate(ClarifyRoute(cardId)) },
                     // Последняя карточка без заданий → сводка (как из сессии).
                     onMicrotopicCompleted = { microtopicId ->
                         navController.navigate(MicrotopicSummaryRoute(microtopicId)) {
@@ -224,6 +229,15 @@ fun MainScreen() {
                     onExit = { navController.popBackStack() },
                 )
             }
+            fullScreenComposable<ClarifyRoute>(topInset) {
+                ClarifyScreen(
+                    onBack = { navController.popBackStack() },
+                    onOpenAiLimit = { navController.navigate(AiLimitRoute) },
+                )
+            }
+            fullScreenComposable<AiLimitRoute>(topInset) {
+                AiLimitScreen(onBack = { navController.popBackStack() })
+            }
             fullScreenComposable<MicrotopicSummaryRoute>(topInset) { entry ->
                 MicrotopicSummaryScreen(
                     onContinue = {
@@ -238,11 +252,12 @@ fun MainScreen() {
             }
           }
 
-            // Градиент-скрим над системной полосой навигации — на всех экранах, кроме сессии
-            // упражнений (там низ держит футер с кнопкой, контент под полосу не заезжает).
+            // Градиент-скрим над системной полосой навигации — на всех экранах, кроме тех, где низ
+            // держит прибитый футер (сессия упражнений, уточнение с ИИ): туда контент не заезжает.
             // Под снекбаром и капсулой — они рисуются позже.
-            val isExerciseSession = currentDestination?.hasRoute(ExerciseSessionRoute::class) == true
-            if (!isExerciseSession) {
+            val holdsOwnBottom = currentDestination?.hasRoute(ExerciseSessionRoute::class) == true ||
+                currentDestination?.hasRoute(ClarifyRoute::class) == true
+            if (!holdsOwnBottom) {
                 BottomNavScrim(modifier = Modifier.align(Alignment.BottomCenter))
             }
 

@@ -109,4 +109,37 @@
         <item quantity="other">%d дней подряд</item>
     </plurals>
     <string name="menu_account_cd">Аккаунт пользователя</string>
+
+    <!-- AI-уточнение «Не совсем понял» -->
+    <string name="clarify_input_placeholder">Напишите свой вопрос…</string>
+    <string name="clarify_send">Отправить вопрос</string>
+    <string name="clarify_new_question">Задать другой вопрос</string>
+    <string name="clarify_branch_exhausted">Разберём это на упражнениях — там правило станет
+        понятнее. Можно задать другой вопрос по этой карточке.</string>
+    <string name="clarify_limit_reached">Запросы к ИИ на сегодня закончились. Они обновятся завтра.</string>
+    <string name="clarify_ai_avatar_cd">Ответ ИИ</string>
+    <string name="clarify_user_avatar_cd">Ваш вопрос</string>
+    <string name="clarify_failed">Не получилось получить ответ. Попробуйте задать вопрос ещё раз.</string>
+
+    <!-- Лимит AI-запросов и подписка -->
+    <plurals name="ai_limit_chip">
+        <item quantity="one">%d запрос</item>
+        <item quantity="few">%d запроса</item>
+        <item quantity="many">%d запросов</item>
+        <item quantity="other">%d запросов</item>
+    </plurals>
+    <string name="ai_limit_chip_unlimited">∞</string>
+    <string name="ai_limit_chip_cd">Осталось запросов к ИИ сегодня</string>
+    <string name="ai_limit_title">Лимиты</string>
+    <string name="ai_limit_tier">Ваша подписка: %1$s</string>
+    <string name="ai_limit_daily">Доступно в день: %1$d</string>
+    <string name="ai_limit_daily_unlimited">Доступно в день: без ограничений</string>
+    <string name="ai_limit_spent">Потрачено сегодня: %1$d</string>
+    <string name="ai_limit_left">Осталось: %1$d</string>
+    <string name="ai_limit_upgrade_pitch">Больше запросов к ИИ, разбор ошибок и практика без
+        ограничений — на платной подписке.</string>
+    <string name="ai_limit_upgrade_action">Повысить подписку</string>
+    <string name="tier_free">Бесплатная</string>
+    <string name="tier_1">Первый уровень</string>
+    <string name="tier_2">Второй уровень</string>
 </resources>

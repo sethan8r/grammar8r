@@ -3,6 +3,7 @@ package dev.sethan8r.grammar.app.data.repository
 import dev.sethan8r.grammar.app.data.local.content.dao.TheoryDao
 import dev.sethan8r.grammar.app.data.local.user.dao.ProgressDao
 import dev.sethan8r.grammar.app.data.mapper.TheoryContentMapper
+import dev.sethan8r.grammar.app.domain.model.theory.ClarificationContext
 import dev.sethan8r.grammar.app.domain.model.theory.IndexedMicrotopic
 import dev.sethan8r.grammar.app.domain.model.theory.IndexedTopic
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicCards
@@ -16,6 +17,7 @@ import dev.sethan8r.grammar.app.domain.model.theory.TheoryTopic
 import dev.sethan8r.grammar.app.domain.model.theory.TopicMicrotopics
 import dev.sethan8r.grammar.app.domain.repository.TheoryRepository
 import dev.sethan8r.grammar.app.domain.usecase.search.SearchKeywords
+import dev.sethan8r.grammar.app.domain.usecase.theory.TheoryPlainText
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import javax.inject.Inject
@@ -65,6 +67,17 @@ class TheoryRepositoryImpl @Inject constructor(
                     state = if (it.id in completed) MicrotopicState.COMPLETED else MicrotopicState.AVAILABLE,
                 )
             },
+        )
+    }
+
+    override suspend fun getClarificationContext(cardId: Int): ClarificationContext? {
+        val card = theoryDao.getCard(cardId)?.let(mapper::toTheoryCard) ?: return null
+        return ClarificationContext(
+            cardId = card.id,
+            cardTitle = card.title,
+            microtopicTitle = theoryDao.getMicrotopicTitle(card.microtopicId).orEmpty(),
+            theoryText = TheoryPlainText.render(card.blocks),
+            options = card.clarificationOptions,
         )
     }
 

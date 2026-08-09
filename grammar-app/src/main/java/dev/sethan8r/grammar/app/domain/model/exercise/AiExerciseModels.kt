@@ -21,3 +21,10 @@ data class ExerciseEvaluation(
 
 /** Ответ AI на уточняющий вопрос «Не совсем понял» по карточке. */
 data class ClarificationAnswer(val answer: String)
+
+/**
+ * Один состоявшийся обмен в треде уточнения. Предыдущие обмены уходят в запрос вместе с новым
+ * вопросом: без них короткое уточнение («а почему тогда will be?») не с чем связать, а AI
+ * повторяет уже сказанное.
+ */
+data class ClarificationTurn(val question: String, val answer: String)

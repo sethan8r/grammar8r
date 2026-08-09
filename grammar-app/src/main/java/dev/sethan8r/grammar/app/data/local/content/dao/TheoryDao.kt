@@ -36,6 +36,9 @@ interface TheoryDao {
     @Query("SELECT * FROM grammar_cards WHERE id = :cardId")
     suspend fun getCard(cardId: Int): GrammarCard?
 
+    @Query("SELECT title FROM grammar_microtopics WHERE id = :microtopicId")
+    suspend fun getMicrotopicTitle(microtopicId: Int): String?
+
     /** Заголовки всех карточек для поискового индекса — без тела теории (оно в индекс не входит). */
     @Query("SELECT id, microtopicId, title FROM grammar_cards")
     fun getCardTitles(): Flow<List<CardTitle>>

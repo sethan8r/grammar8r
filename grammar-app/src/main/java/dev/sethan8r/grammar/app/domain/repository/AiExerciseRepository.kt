@@ -2,6 +2,7 @@ package dev.sethan8r.grammar.app.domain.repository
 
 import dev.sethan8r.grammar.app.domain.model.common.ApiResult
 import dev.sethan8r.grammar.app.domain.model.exercise.ClarificationAnswer
+import dev.sethan8r.grammar.app.domain.model.exercise.ClarificationTurn
 import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseEvaluation
 import dev.sethan8r.grammar.app.domain.model.exercise.GeneratedExercise
 
@@ -30,10 +31,15 @@ interface AiExerciseRepository {
         userAnswer: String,
     ): ApiResult<ExerciseEvaluation>
 
-    /** Уточнение «Не совсем понял» по карточке теории. */
+    /**
+     * Уточнение «Не совсем понял» по карточке теории. [history] — уже состоявшиеся обмены той же
+     * ветки (пустая на первом вопросе): тред задаёт контекст, без него короткое уточнение теряет
+     * смысл, а AI повторяет прежний ответ.
+     */
     suspend fun clarify(
         cardId: Int,
         cardTheory: String,
         userQuestion: String,
+        history: List<ClarificationTurn>,
     ): ApiResult<ClarificationAnswer>
 }

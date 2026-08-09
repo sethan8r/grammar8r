@@ -23,4 +23,13 @@ data class Entitlements(
 ) {
     /** Остался ли дневной лимит AI-запросов (упражнение/уточнение/практика). */
     val hasAiQuota: Boolean get() = aiRequestsToday < aiDailyLimit
+
+    /** Сколько AI-запросов осталось сегодня (не отрицательное). */
+    val aiRequestsLeft: Int get() = (aiDailyLimit - aiRequestsToday).coerceAtLeast(0)
+
+    /**
+     * Безлимитный AI (служебные тиры). Счётчик остатка тогда рисует «∞»: показывать
+     * `Int.MAX_VALUE` числом бессмысленно.
+     */
+    val isAiUnlimited: Boolean get() = aiDailyLimit == Int.MAX_VALUE
 }
