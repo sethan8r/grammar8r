@@ -2079,13 +2079,18 @@ theory/
 │   │   │       bread (собираюсь купить); признак «после to глагол → будущее, место → движение»;
 │   │   │       (3) пропадает be (I going to call ✗) — callback к I working ✗ из Present Continuous.
 │   │   │
-│   │   ├── МТ · Form · Форма: am/is/are going to + V1 (2 карточки)
-│   │   │   ├── Card · Формула и лица, краткие формы (I'm going to). gonna — ТОЛЬКО на узнавание
+│   │   ├── МТ117 · Form · Форма: am/is/are going to + V1 (2 карточки) ✅ (написана, ALL GREEN 10.08.26)
+│   │   │   🔤 Слито 4 слова: to join, to rent, holiday, definitely (weekend снят — уже слит в
+│   │   │      «Основах», микротема «Календарь»). AI на обеих карточках, оба FREE_WRITE + NONE.
+│   │   │   ├── Card 323 · Формула и лица, краткие формы (I'm going to). gonna — ТОЛЬКО на узнавание
 │   │   │   │   (в речи слышно постоянно, писать не надо). Ловушки: I going to ✗ (потерян be —
 │   │   │   │   callback к I working ✗ из Present Continuous), I'm going to bought ✗ (после to — V1).
-│   │   │   └── Card · Отрицание и вопрос: isn't/aren't going to, Are you going to…?, отрицательный
+│   │   │   │   AI — трансформация: ИИ даёт предложение с will ИЛИ в Present Continuous, юзер
+│   │   │   │   переписывает через be going to (две линии переделки заданы в промте).
+│   │   │   └── Card 324 · Отрицание и вопрос: isn't/aren't going to, Are you going to…?, отрицательный
 │   │   │       вопрос Aren't you going to eat? Ловушка Do you going to…? ✗ — коротко ЗАНОВО (не
-│   │   │       отсылкой) про два лагеря глаголов: работу берёт be, do тут не живёт.
+│   │   │       отсылкой) про два лагеря глаголов: работу берёт be, do тут не живёт. Плюс краткие
+│   │   │       ответы (Yes, I'm ✗) и разбор первого лица: Aren't I ↔ формальное Am I not.
 │   │   │
 │   │   ├── МТ · Usage · Что говорят через going to (3 карточки)
 │   │   │   ├── Card · Намерение, решённое заранее: I'm going to start running next month,

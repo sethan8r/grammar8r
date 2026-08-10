@@ -25,6 +25,13 @@
       "title": "going to · Решение принято заранее",
       "order": 1,
       "searchKeywords": "давно задумал, план уже есть, иду в магазин, ложный друг, почему не will"
+    },
+    {
+      "id": 117,
+      "topicId": 19,
+      "title": "Form · Форма: am/is/are going to + V1",
+      "order": 2,
+      "searchKeywords": "gonna, забыл am is are, после to базовая форма, собираешься ли ты, разве ты не будешь, не нужен do"
     }
   ],
   "grammar_cards": [
@@ -340,10 +347,424 @@
         "Почему нельзя сказать I going to call you, если по-русски связки нет?",
         "Если план старый, а я сказал will — это прямо ошибка или просто звучит не так?"
       ]
+    },
+    {
+      "id": 323,
+      "microtopicId": 117,
+      "title": "Формула, лица и gonna",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Повод разобран — переходим к сборке. И здесь нас ждёт та же приятная новость, что была с `will`: учить почти нечего. Конструкция длинная на вид, но собрана из деталей, которые мы уже отработали по отдельности в других темах."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Am/is/are + going to + V1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В ней три части, и у каждой своя работа:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`am/is/are` — глагол `to be`. Это **единственная живая деталь**: она меняется по лицам и несёт на себе время.",
+            "`going to` — застывший блок. Он не меняется никогда и ни при каких условиях: ни по лицам, ни по числу, ни от глагола, который идёт следом.",
+            "`V1` — словарная форма глагола, ровно та, которую видно в Словаре: `to rent` → `rent`, `to join` → `join`."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Живая деталь только одна"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всё, за чем нужно следить, — это первая клетка. `to be` по лицам мы отрабатывали в «Основах» и потом в теме «Present Continuous», так что таблица ниже — не новое правило, а напоминание:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кто",
+            "Фраза"
+          ],
+          "rows": [
+            [
+              "I",
+              "I am going to rent a flat"
+            ],
+            [
+              "you",
+              "you are going to rent a flat"
+            ],
+            [
+              "he / she / it",
+              "he is going to rent a flat"
+            ],
+            [
+              "we",
+              "we are going to rent a flat"
+            ],
+            [
+              "they",
+              "they are going to rent a flat"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Глагол `to rent` стоит во всех пяти строках одинаково, `going to` — тоже. Меняется только `am/is/are`, и меняется ровно по тем же правилам, что и всегда."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните два предложения, и станет видно, насколько мало здесь нового:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I am working now.** — Present Continuous, знакомый с прошлых тем.",
+            "**I am going to work tonight.** — то же начало, но вместо глагола с `-ing` стоит блок `going to`, а за ним голый глагол."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский просто занял уже готовую конструкцию под новый смысл. Отсюда и практический вывод: если `to be` по лицам уже не вызывает заминки, то и `going to` не вызовет."
+        },
+        {
+          "type": "heading",
+          "text": "Краткие формы — это норма, а не поблажка"
+        },
+        {
+          "type": "paragraph",
+          "text": "В живой речи полное `am/is/are` в этой конструкции звучит редко. Обычно говорят так:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm going to** …",
+            "**you're going to** …",
+            "**he's / she's / it's going to** …",
+            "**we're going to** …",
+            "**they're going to** …"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Полную форму берут, когда на неё падает нажим: **I AM going to finish it today** — «я это сегодня всё-таки доделаю». Тот же нажим передают и словом `definitely`: **I'm definitely going to finish it today.** В остальных случаях по умолчанию идёт короткая форма, и в примерах курса вы увидите именно её."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В быстрой речи `going to` сплющивается ещё сильнее — в `gonna` [[ˈɡɒnə]]: **I'm gonna call you later** вместо **I'm going to call you later**. Это не сленг и не ошибка речи — так говорят все, от подростка до профессора, и в сериалах вы услышите именно это. Но **писать так не надо**: `gonna` живёт только в устной речи, в песнях и в неформальной переписке. Отдельно разберём такие стяжения в теме «Разговорный английский» — пока достаточно узнавать на слух."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Две ошибки формы"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I going to join them** ✗ → **I'm going to join them** ✓. Мы уже называли этот корень: в русском «собираюсь» — одно слово, связки в нём нет, и переносить в английский мозгу нечего. Но именно `be` держит лицо и время всей фразы: `going` о говорящем не сообщает ничего. Проверка простая: в начале конструкции обязана стоять форма `am/is/are` — если её нет, предложение развалилось."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'm going to bought a ticket** ✗ и **I'm going to buying a ticket** ✗ → **I'm going to buy a ticket** ✓. Причина первой ошибки в самом виде конструкции: рядом уже стоит `going` с окончанием `-ing`, и рука по инерции дописывает `-ing` второму глаголу. Вторая, `bought`, приходит из общего страха «а вдруг тут нужна какая-то особая форма» — и в дело идёт вторая форма глагола. На деле `to` здесь — тот самый `to` из темы «Инфинитив»: после него всегда идёт чистая словарная форма, без окончаний."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть и третья ошибка, помельче: **I will going to visit Sara** ✗. Это попытка поставить сразу две метки будущего — и `will`, и `going to`. Работает только одна: либо **I will visit Sara**, либо **I'm going to visit Sara**, в зависимости от того, когда появилось решение."
+        }
+      ],
+      "theorySummary": "Формула — `am/is/are` + `going to` + `V1`. Меняется только форма `to be` (**I'm going to**, **he's going to**, **they're going to**), блок `going to` не меняется никогда, а глагол после `to` стоит в словарной форме без окончаний. В речи почти всегда звучит краткая форма, а на большой скорости `going to` превращается в `gonna` [[ˈɡɒnə]] — узнавать нужно, писать не надо. Две ошибки формы: **I going to join them** ✗ (пропал `be`, а он несёт лицо и время) и **I'm going to buying** ✗ / **bought** ✗ (после `to` только базовая форма).",
+      "examples": [
+        {
+          "ru": "Я собираюсь снять квартиру поближе к работе.",
+          "en": "I'm going to rent a flat closer to work."
+        },
+        {
+          "ru": "Гриша собирается присоединиться к нам в субботу.",
+          "en": "Grisha is going to join us on Saturday."
+        },
+        {
+          "ru": "Мы точно возьмём отпуск в мае.",
+          "en": "We're definitely going to take a holiday in May."
+        },
+        {
+          "ru": "Оливер будет работать в эти выходные.",
+          "en": "Oliver is going to work this weekend."
+        },
+        {
+          "ru": "Родители собираются снять дом у моря.",
+          "en": "My parents are going to rent a house by the sea."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I going to call, если по-русски «собираюсь» — одно слово?",
+        "Чем going to отличается от I am going в Present Continuous, если начало одинаковое?",
+        "Можно ли писать gonna в сообщениях другу?"
+      ]
+    },
+    {
+      "id": 324,
+      "microtopicId": 117,
+      "title": "Отрицание и вопрос: isn't going to и Are you going to…?",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Утвердительная фраза собрана — осталось научиться её ломать: сказать, что ничего такого не планируется, и спросить о чужих планах. Новых правил здесь не будет вообще ни одного: всю работу берёт на себя `be`, ровно как в теме «Present Continuous»."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: not сразу после be"
+        },
+        {
+          "type": "paragraph",
+          "text": "Частица `not` встаёт после формы `to be`, а дальше конструкция идёт как ни в чём не бывало:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm not going to work this weekend.**",
+            "**Lena isn't going to join us.**",
+            "**We aren't going to rent that flat.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "У третьего лица и у множественного есть два равноправных коротких варианта: **he isn't going to** и **he's not going to**, **we aren't going to** и **we're not going to**. Разницы в смысле нет, оба звучат нормально — выбирайте любой. А вот у `I` выбора нет: только **I'm not**, потому что у формы `am` краткой формы с `not` не существует."
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на смысл такого отрицания. **I'm not going to call him** — это не «я не позвоню случайно», а «решение уже принято, и оно отрицательное»: звонить я не намерен. Отказ здесь такой же обдуманный, как и план в утверждении."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос: be выходит вперёд"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы спросить, ставим форму `be` перед подлежащим — и всё:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Are you going to rent this flat?**",
+            "**Is Megan going to be at the party?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Если в вопросе есть вопросительное слово, оно встаёт первым, а `be` — сразу за ним: **What are you going to do at the weekend?**, **When is Jack going to call us?**"
+        },
+        {
+          "type": "heading",
+          "text": "Краткие ответы:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отвечают не «да» и «нет», а повторением того же `be`: `Yes, I am` / `No, I'm not`, `Yes, she is` / `No, she isn't`. Повторять весь хвост с `going to` не нужно — он и так понятен из вопроса."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Yes, I'm** ✗ → **Yes, I am** ✓. Точно та же история, что с **Yes, I'll** ✗ в теме «Future Simple (will)»: краткая форма живёт только внутри фразы, где после неё что-то идёт. В конце предложения ей не на что опереться, поэтому в ответе форма всегда полная."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Do you going to call the office?** ✗ → **Are you going to call the office?** ✓. Это главная ошибка микротемы, и лечится она одним наблюдением: в английском предложении вопрос и отрицание строит тот помощник, который **уже стоит** в предложении. Здесь такой помощник есть — это `be`. Звать `do` неоткуда и незачем: он приходит только туда, где своего помощника нет вообще (**Do you call the office every Monday?** — там `be` нет). Правило на всю жизнь: увидел `am/is/are` — про `do` можно забыть."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос: «разве не?»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос бывает и отрицательным — тогда вперёд уходит краткая форма с `not` целиком:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Aren't you going to eat?** — «Разве ты не будешь есть?»",
+            "**Isn't Megan going to travel with us?** — «Разве Меган не поедет с нами?»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Оттенок тот же, что у русского «разве»: говорящий **ожидал обратного** и слегка удивлён. И отвечают на такой вопрос по факту, а не по форме вопроса: `Yes` — «буду», `No` — «не буду». Русское «Нет, буду» в переводе даёт бессмыслицу."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У первого лица отрицательный вопрос выглядит странно — **Aren't I going to be late?** Логика требовала бы `amn't`, но эта форма в стандартный английский так и не вошла (её можно услышать разве что в Ирландии и Шотландии), и её место занял `aren't`. Второй вариант — развернуть отрицание полностью: **Am I not going to be late?** Он безупречен грамматически, но звучит формально и с нажимом, поэтому в обычной речи побеждает `Aren't I`. Это единственное место, где `aren't` стоит рядом с `I`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В вопросе снова оживает ложный друг из микротемы «going to · Решение принято заранее», и распознаётся он тем же признаком — что стоит после `to`. **Are you going to the party?** — «ты идёшь на вечеринку?» (после `to` место), а **Are you going to call Jack?** — «ты собираешься позвонить Джеку?» (после `to` глагол)."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Отрицание и вопрос строит сам `be`, ничего нового учить не нужно. Отрицание: `not` сразу после формы `be` — **I'm not going to**, **he isn't going to** (или **he's not going to**), **we aren't going to**. Вопрос: `be` выходит вперёд — **Are you going to rent this flat?**, а с вопросительным словом — **What are you going to do at the weekend?** Краткий ответ повторяет `be` в полной форме: `Yes, I am` / `No, I'm not` (**Yes, I'm** ✗). Главная ловушка — **Do you going to…?** ✗: вопрос строит тот помощник, который уже есть в предложении, а здесь это `be`. Отрицательный вопрос **Aren't you going to eat?** значит «разве не будешь?» и отвечается по факту; у `I` форма исключительная — **Aren't I…?**",
+      "examples": [
+        {
+          "ru": "Я не собираюсь работать в эти выходные.",
+          "en": "I'm not going to work this weekend."
+        },
+        {
+          "ru": "Ты собираешься снимать эту квартиру?",
+          "en": "Are you going to rent this flat?"
+        },
+        {
+          "ru": "Лена не собирается к нам присоединяться.",
+          "en": "Lena isn't going to join us."
+        },
+        {
+          "ru": "— Ты будешь в Дублине в отпуске? — Да.",
+          "en": "— Are you going to be in Dublin on holiday? — Yes, I am."
+        },
+        {
+          "ru": "Разве Меган не поедет с нами?",
+          "en": "Isn't Megan going to travel with us?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в ответе нельзя сказать Yes, I'm, если краткая форма везде нормальна?",
+        "Когда лучше сказать Am I not, а когда Aren't I?",
+        "Как отличить вопрос Are you going to the café от Are you going to call me?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 323,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 27,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 323,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 139,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 323,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 127,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 323,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 144,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 324,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 123,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 324,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 160,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 324,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 32,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 324,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 58,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 324,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 67,
+      "orderInCard": 4
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "going_to_card323_ex1",
+      "cardId": 323,
+      "title": "Переделай в going to",
+      "userInstruction": "ИИ пришлёт английское предложение о будущем. Перепишите его через конструкцию be going to.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "going_to_card324_ex1",
+      "cardId": 324,
+      "title": "Отрицание и вопрос из одного предложения",
+      "userInstruction": "ИИ пришлёт утвердительное предложение с going to. Напишите две строки: сначала это же предложение в отрицании, потом в виде вопроса.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "tenses",
@@ -360,17 +781,277 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "course_words": [
+    {
+      "id": 569,
+      "word": "to join",
+      "translation": "присоединяться, присоединиться",
+      "transcription": "[dʒɔɪn]",
+      "microtopicId": 117,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 570,
+      "word": "to rent",
+      "translation": "снимать, арендовать",
+      "transcription": "[rent]",
+      "microtopicId": 117,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 571,
+      "word": "holiday",
+      "translation": "отпуск, каникулы, праздник",
+      "transcription": "[ˈhɒlədeɪ]",
+      "microtopicId": 117,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 572,
+      "word": "definitely",
+      "translation": "точно, определённо",
+      "transcription": "[ˈdefɪnətli]",
+      "microtopicId": 117,
+      "categoryId": "tenses"
+    }
+  ],
+  "table_fill_exercises": [
+    {
+      "id": 27,
+      "taskDescription": "собери конструкцию целиком из подлежащего и глагола.",
+      "rows": [
+        {
+          "hint": "Kate / to call",
+          "answer": "Kate is going to call"
+        },
+        {
+          "hint": "my friends / to travel",
+          "answer": "my friends are going to travel"
+        },
+        {
+          "hint": "I / to join",
+          "answer": "I am going to join"
+        },
+        {
+          "hint": "the shops / to open",
+          "answer": "the shops are going to open"
+        },
+        {
+          "hint": "you and Sara / to help",
+          "answer": "you and Sara are going to help"
+        }
+      ],
+      "explanation": "Форма be берётся по подлежащему (I — am, единственное число — is, множественное — are), дальше идёт неизменный блок going to, а глагол остаётся в словарной форме без окончаний."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 144,
+      "statements": [
+        {
+          "en": "I going to rent a bike this weekend.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They're going to join us at the café.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Lucy is going to studying French next year.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We are going to move to Vienna in July.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Ben is going to be free after lunch.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Конструкция держится на форме be: без неё предложение разваливается (I going to ✗). После going to глагол стоит в словарной форме, поэтому studying не подходит, а be в пятом предложении — это обычный глагол на своём месте."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 127,
+      "situationRu": "Ситуация: Сара заранее решила заказать столик на четверых.",
+      "correctSentence": "Sara is going to book a table for four.",
+      "words": [
+        "Sara",
+        "is",
+        "going to",
+        "book",
+        "a table",
+        "for four"
+      ],
+      "distractors": [
+        "are",
+        "books",
+        "to book",
+        "going"
+      ],
+      "explanation": "Подлежащее Sara — единственное число, значит is. После going to глагол идёт в базовой форме без -s и без второго to."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 139,
+      "choiceType": "CHOICE",
+      "prompt": "Jack is going to ___ us at the station.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "joining",
+          "isCorrect": false
+        },
+        {
+          "text": "join",
+          "isCorrect": true
+        },
+        {
+          "text": "joins",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После to идёт словарная форма глагола: going to join. Окончание -ing прилипает по инерции от going, а -s принадлежит Present Simple."
+    },
+    {
+      "id": 160,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Разве ты не собираешься обедать?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Aren't you going to have lunch?",
+          "isCorrect": true
+        },
+        {
+          "text": "Don't you going to have lunch?",
+          "isCorrect": false
+        },
+        {
+          "text": "Aren't you go to have lunch?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«Разве не…?» — это отрицательный вопрос, и вперёд уходит краткая форма aren't. Помощник do рядом с be не ставится, а после going to глагол сохраняет словарную форму."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 58,
+      "items": [
+        {
+          "sentence": "Ben ___ going to open the café tomorrow — it is a holiday.",
+          "contextRu": "",
+          "answer": "isn't",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ you going to be at home tonight?",
+          "contextRu": "",
+          "answer": "Are",
+          "alternatives": []
+        },
+        {
+          "sentence": "They ___ not going to travel this summer.",
+          "contextRu": "",
+          "answer": "are",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Отрицание и вопрос держатся на форме be: not встаёт сразу после неё, а в вопросе она выходит вперёд перед подлежащим. Ни do, ни does рядом с be не появляются.",
+      "taskDescription": "Впиши в каждое предложение пропущенное слово."
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 32,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Are you going to travel with us in July?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Great, then I'll book the tickets today!"
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I do.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I'm.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I am.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Краткий ответ повторяет помощник из вопроса: спросили через are — отвечаем Yes, I am. Do здесь чужой помощник, а сокращать форму в конце ответа нельзя."
+    }
+  ],
   "matching_exercises": [],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 123,
+      "wrongSentence": "Do you going to rent a car in Dublin?",
+      "options": [
+        {
+          "text": "Does you going to rent a car in Dublin?",
+          "isCorrect": false
+        },
+        {
+          "text": "Are you going to renting a car in Dublin?",
+          "isCorrect": false
+        },
+        {
+          "text": "Are you going to rent a car in Dublin?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "В предложении уже есть свой помощник — be, поэтому вопрос строит он: Are you going to…? Помощник do приходит только туда, где своего нет."
+    }
+  ],
   "construction_meaning_exercises": [],
   "transformation_exercises": [],
-  "categorization_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 67,
+      "taskDescription": "распредели, какой помощник нужен вопросу с этим хвостом.",
+      "categories": [
+        {
+          "title": "Are / Is",
+          "items": [
+            "going to be late",
+            "going to move house",
+            "going to travel alone"
+          ]
+        },
+        {
+          "title": "Do / Does",
+          "items": [
+            "often work late",
+            "need a visa",
+            "live near the park"
+          ]
+        }
+      ],
+      "explanation": "Есть в предложении be (в том числе внутри be going to) — вопрос строит он. Нет своего помощника, глагол смысловой — тогда приходит do/does."
+    }
+  ],
   "find_the_odd_exercises": []
 }
