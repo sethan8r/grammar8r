@@ -2092,15 +2092,23 @@ theory/
 │   │   │       отсылкой) про два лагеря глаголов: работу берёт be, do тут не живёт. Плюс краткие
 │   │   │       ответы (Yes, I'm ✗) и разбор первого лица: Aren't I ↔ формальное Am I not.
 │   │   │
-│   │   ├── МТ · Usage · Что говорят через going to (3 карточки)
-│   │   │   ├── Card · Намерение, решённое заранее: I'm going to start running next month,
-│   │   │   │   We're going to move to Prague.
-│   │   │   ├── Card · Предсказание ПО ПРИЗНАКАМ перед глазами: Look at those clouds — it's going
+│   │   ├── МТ118 · Usage · Что говорят через going to (3 карточки) ✅ (написана, ALL GREEN 10.08.26)
+│   │   │   🔤 Слито 5 слов: cloud, sign, obvious, to warn, to cancel. AI на карточках 325 и 327
+│   │   │      (на 326 AI нет — там хватает хардкода на выбор will ↔ going to).
+│   │   │   ├── Card 325 · Намерение, решённое заранее: I'm going to start running next month,
+│   │   │   │   We're going to move to a bigger flat. «За фразой стоит история решения», маркеры
+│   │   │   │   дальнего плана (необязательны), отрицание как обдуманный отказ (I'm not going to
+│   │   │   │   argue), ловушка русского «перееду» → will → «звучит как придумал сейчас».
+│   │   │   │   AI — свободный рассказ о своих планах (план через will не ошибка, но ИИ объясняет оттенок).
+│   │   │   ├── Card 326 · Предсказание ПО ПРИЗНАКАМ перед глазами: Look at those clouds — it's going
 │   │   │   │   to rain; He's going to fall! Прямой контраст с will-предсказанием (из головы) —
-│   │   │   │   это уже полу-Compare, и так и надо: тема 3 потом сведёт всё.
-│   │   │   └── Card · was/were going to — «собирался, но…»: I was going to call you, but my phone
+│   │   │   │   это уже полу-Compare, и так и надо: тема 3 потом сведёт всё. Плюс разбор свиты слов
+│   │   │   │   (I think / probably у will ↔ Look! / Careful! у going to) и таблица «откуда знание».
+│   │   │   └── Card 327 · was/were going to — «собирался, но…»: I was going to call you, but my phone
 │   │   │       died. Past-пара только что пройдена, форма встаёт органично, а конструкция живая до
-│   │   │       предела (оправдания — половина бытовой речи).
+│   │   │       предела (оправдания — половина бытовой речи). Ловушка I wanted to call ✗ (желание ≠
+│   │   │       решение) + вежливое I was going to ask you something. AI — переделка предложения из
+│   │   │       Past Simple в сорвавшийся план, причину пользователь дописывает сам.
 │   │   │
 │   │   ├── МТ · going to go · Двойное go (1 карточка). I'm going to go to the cinema формально
 │   │   │   верно, но носитель обычно скажет I'm going to the cinema. Почему так и когда going to

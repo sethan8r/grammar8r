@@ -32,6 +32,13 @@
       "title": "Form · Форма: am/is/are going to + V1",
       "order": 2,
       "searchKeywords": "gonna, забыл am is are, после to базовая форма, собираешься ли ты, разве ты не будешь, не нужен do"
+    },
+    {
+      "id": 118,
+      "topicId": 19,
+      "title": "Usage · Что говорят через going to",
+      "order": 3,
+      "searchKeywords": "вижу по признакам, вот-вот случится, собирался но не вышло, оправдание, was going to"
     }
   ],
   "grammar_cards": [
@@ -689,6 +696,350 @@
         "Когда лучше сказать Am I not, а когда Aren't I?",
         "Как отличить вопрос Are you going to the café от Are you going to call me?"
       ]
+    },
+    {
+      "id": 325,
+      "microtopicId": 118,
+      "title": "Намерение, решённое заранее",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Конструкция собрана, лица отработаны — теперь самое главное: **зачем** её вообще берут. Поводов два, и первый из них — тот, ради которого `going to` чаще всего и звучит: **намерение, о котором договорились раньше, чем начался разговор**."
+        },
+        {
+          "type": "heading",
+          "text": "За фразой стоит история"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда человек говорит `going to`, он не сообщает о будущем вообще. Он показывает решение, у которого уже **есть биография**: где-то раньше оно было принято, и с тех пор, возможно, кое-что уже сделано."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm going to start running next month.** — Соня уже купила кроссовки и выбрала парк.",
+            "**We're going to move to a bigger flat.** — деньги отложены, квартиры смотрят каждые выходные.",
+            "**Mia is going to study Italian in Rome.** — курс найден, даты известны."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни в одном из трёх предложений об этой подготовке не сказано ни слова — но собеседник её слышит. В этом вся работа конструкции: она сообщает «дело уже запущено, я не выдумываю его при тебе»."
+        },
+        {
+          "type": "heading",
+          "text": "Маркеры дальнего плана"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз решение старше разговора, рядом с ним часто оказывается и срок: **next month**, **in the spring**, **this summer**, **at the weekend**, **in two weeks**. Обычно они встают в конец предложения — так же, как маркеры будущего с `will`, которые мы разбирали в теме «Future Simple (will)»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Но маркер тут не обязателен. **I'm going to look for a new job** — законченная мысль без всякого срока: важно не когда, а что решение принято."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание — это тоже решение"
+        },
+        {
+          "type": "paragraph",
+          "text": "С отрицанием ровно та же логика, только решение перевёрнуто: **I'm not going to argue about it** — не «случайно не поспорю», а «я решил не спорить». Русское «не собираюсь» здесь передаёт оттенок точно: за отказом стоит обдуманная позиция, а не стечение обстоятельств."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский почти никогда не говорит «собираюсь» — он скажет просто «перееду», «поищу работу», «начну бегать». Слышится обычное будущее, рука тянется к `will`, и получается **I will move to Madrid in September** — грамматически чисто, а сообщение уходит не то: собеседник слышит «только что придумал». Проверка одна и та же каждый раз: **эта мысль появилась прямо сейчас или была раньше?** Была раньше — значит `going to`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Намерение — это не гарантия. `going to` говорит «решено», а не «случится наверняка»: планы срываются, и английский умеет рассказать об этом отдельно — формой **was going to**. Разберём её в конце микротемы."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Первый и главный повод сказать `going to` — **намерение, решённое до разговора**: **I'm going to start running next month**, **We're going to move to a bigger flat**. За такой фразой стоит история решения (деньги отложены, курс найден), и собеседник её слышит, даже если о ней не сказано ни слова. Рядом часто стоит срок (**next month**, **in the spring**, **at the weekend**), но он не обязателен. Отрицание передаёт обдуманный отказ: **I'm not going to argue about it** — «решил не спорить». Ловушка русского: мы говорим просто «перееду», и рука ставит `will` — тогда фраза звучит как решение, принятое сию секунду.",
+      "examples": [
+        {
+          "ru": "Соня собирается начать бегать в следующем месяце.",
+          "en": "Sonya is going to start running next month."
+        },
+        {
+          "ru": "Мы собираемся переехать в квартиру побольше весной.",
+          "en": "We're going to move to a bigger flat in the spring."
+        },
+        {
+          "ru": "Денис в июле едет в Рим — билеты уже куплены.",
+          "en": "Denis is going to travel to Rome in July."
+        },
+        {
+          "ru": "Я не собираюсь из-за этого спорить.",
+          "en": "I'm not going to argue about it."
+        },
+        {
+          "ru": "Жанна собирается искать работу поближе к дому.",
+          "en": "Zhanna is going to look for a job closer to home."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что решение «старое», если по-русски я просто говорю «перееду»?",
+        "Обязательно ли ставить срок вроде next month рядом с going to?",
+        "Чем I'm not going to argue отличается от I won't argue?"
+      ]
+    },
+    {
+      "id": 326,
+      "microtopicId": 118,
+      "title": "Предсказание по признакам перед глазами",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Второй повод сказать `going to` устроен совсем иначе, и именно он ломает правило, которое многие себе строят после первой карточки. Никакого намерения здесь нет вообще: **это вывод из того, что видно прямо сейчас**."
+        },
+        {
+          "type": "heading",
+          "text": "Признак уже перед глазами"
+        },
+        {
+          "type": "paragraph",
+          "text": "Классика жанра — погода:"
+        },
+        {
+          "type": "heading",
+          "text": "Look at those clouds — it's going to rain."
+        },
+        {
+          "type": "paragraph",
+          "text": "У неба нет планов, и решения оно не принимало. Зато прямо сейчас перед глазами висят **those clouds** — тот самый **признак**, который делает дождь почти неизбежным. Дело уже запущено, осталось дождаться результата, и это то же самое ощущение, что и в плане: путь начат."
+        },
+        {
+          "type": "paragraph",
+          "text": "Работает это далеко за пределами погоды — везде, где причина уже сработала, а следствие ещё не наступило:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Careful — you're going to drop that box!** — коробка накренилась.",
+            "**The car has no petrol — we're going to stop soon.** — стрелка на нуле.",
+            "**He's standing too close to the edge — he's going to fall!** — самое время крикнуть и предупредить: **Warn him!**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Саму такую подсказку английский называет словом `sign`, и работает она тем сильнее, чем более `obvious` выглядит: **The signs are obvious — the shop is going to close.** Никто ничего не объявлял, но стулья составлены на столы, а свет выключают в дальнем зале."
+        },
+        {
+          "type": "heading",
+          "text": "Тот же смысл, но из головы: сравнение с will"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Future Simple (will)» мы разбирали предсказание — и оно тоже говорит о будущем. Разница не в уверенности, а в **источнике знания**:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Откуда знание",
+            "Форма",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Мнение, ощущение, опыт — «мне так кажется»",
+              "will",
+              "I think it will rain tomorrow"
+            ],
+            [
+              "Признак виден прямо сейчас",
+              "going to",
+              "Look at those clouds — it's going to rain"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание и на свиту слов. У `will`-предсказания почти всегда рядом стоит что-то вроде **I think**, **I'm sure**, **probably**, **maybe** — говорящий честно помечает, что это его мнение. У предсказания по признакам такой свиты нет и не нужно: указывать на своё мнение незачем, когда доказательство у всех перед глазами. Часто вместо неё стоит прямое приглашение посмотреть — **Look!**, **Watch out!**, **Careful!**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский на «сейчас пойдёт дождь» почти всегда ставит `will`: **It will rain in a minute** ✗ в ситуации, где небо уже чёрное. Ошибка не в грамматике, а в источнике: русский язык не различает «я так думаю» и «я это вижу» — форма будущего у него одна на оба случая. Английский различает, и подмена слышна: `will` в такой момент звучит как гадание, хотя доказательство висит над головой."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Чем очевиднее признак и чем ближе событие, тем сильнее английский тянет к `going to`. Если признака нет вообще, а есть только мнение о далёком будущем — уверенно берите `will`. Пограничные случаи, где носитель скажет и так, и так, тоже существуют — их вместе со всей картой будущего разберём в теме «Compare: will vs going to»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Второй повод сказать `going to` — **предсказание по признаку, который виден прямо сейчас**: **Look at those clouds — it's going to rain**, **Careful — you're going to drop that box!** Намерения здесь нет ни у кого, есть причина, которая уже сработала. Разница с `will`-предсказанием — в источнике знания: `will` — мнение из головы (**I think it will rain tomorrow**), и рядом с ним стоит свита **I think**, **I'm sure**, **probably**; `going to` — вывод из увиденного, и вместо свиты рядом чаще **Look!** или **Careful!** Ловушка русского: в русском «я думаю» и «я вижу» дают одну и ту же форму будущего, поэтому рука ставит `will` даже там, где небо уже чёрное.",
+      "examples": [
+        {
+          "ru": "Посмотри на тучи — сейчас начнётся дождь.",
+          "en": "Look at those clouds — it's going to rain."
+        },
+        {
+          "ru": "Осторожно, ты сейчас уронишь коробку!",
+          "en": "Careful — you're going to drop that box!"
+        },
+        {
+          "ru": "Бензин на нуле — мы скоро встанем.",
+          "en": "The car has no petrol — we're going to stop soon."
+        },
+        {
+          "ru": "Я думаю, Ник согласится помочь.",
+          "en": "I think Nick will agree to help."
+        },
+        {
+          "ru": "Признак очевидный — они отменят рейс.",
+          "en": "The sign is obvious — they're going to cancel the flight."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему на «сейчас пойдёт дождь» нельзя сказать It will rain?",
+        "Как отличить предсказание по признакам от обычного мнения, если я не уверен?",
+        "Почему рядом с going to не говорят I think?"
+      ]
+    },
+    {
+      "id": 327,
+      "microtopicId": 118,
+      "title": "was going to: собирался, но не вышло",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У конструкции есть прошедшая версия, и она — одна из самых востребованных вещей во всём бытовом английском. Потому что половина разговоров между людьми состоит из объяснений, почему задуманное не случилось."
+        },
+        {
+          "type": "heading",
+          "text": "Форма бесплатная"
+        },
+        {
+          "type": "paragraph",
+          "text": "Меняется ровно одно слово — `be` уходит в прошедшее:"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Was/were + going to + V1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`was` и `were` мы отработали в теме «Past Simple», так что учить здесь нечего: **I was going to**, **he was going to**, **we were going to**, **they were going to**."
+        },
+        {
+          "type": "heading",
+          "text": "Смысл: план был, а действия не было"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот в чём соль. Фраза **I was going to call you** сообщает сразу две вещи: решение позвонить существовало — и звонка не случилось. Второе не сказано ни единым словом, но слышно из самой формы, потому что о состоявшемся действии говорят прошедшим временем (**I called you**), а не этой конструкцией."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was going to call you, but my phone died.**",
+            "**We were going to travel in July, but they cancelled the flight.**",
+            "**Kate was going to help us, but she got a call from work.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обычно за такой фразой идёт `but` и причина — именно поэтому конструкция звучит в оправданиях чаще всего. Но и без продолжения она понятна: **I was going to say the same thing** — «я как раз собирался сказать то же самое»."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос — по знакомой схеме"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всё делает `be`, как и в настоящем: **I wasn't going to say anything about it**, **Were you going to warn me?**, а отрицательный вопрос звучит с уже знакомым оттенком «разве»: **Weren't you going to help us?** — «ты же вроде собирался?»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I wanted to call you, but…** — это не перевод фразы «я собирался позвонить». `wanted` говорит о **желании**, а желание могло так и остаться мечтой, до решения не дойдя. `was going to` говорит о **принятом решении**, которое сорвалось. Русское «собирался» — это второе, поэтому и по-английски нужна конструкция: **I was going to call you** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть и вежливое применение, очень удобное в живом разговоре. **I was going to ask you something…** звучит мягче, чем прямое **I want to ask you something**: говорящий как бы отступает на шаг назад и оставляет собеседнику место для отказа. Тем же приёмом смягчают просьбы и предложения — на русском мы делаем ровно то же самое словом «хотел»: «я хотел у тебя спросить…»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Прошедшая версия конструкции — `was/were going to` + `V1`: **I was going to call you, but my phone died.** Смысл всегда двойной: решение было принято, но действие не состоялось, — второе слышно из самой формы, даже если о нём не сказано. Отрицание и вопрос по знакомой схеме через `be`: **I wasn't going to say anything**, **Were you going to warn me?**, **Weren't you going to help us?** Ловушка: **I wanted to call** говорит о желании, которое могло и не стать решением, а `was going to` — о решении, которое сорвалось. Отдельно конструкция служит для вежливости: **I was going to ask you something…** мягче, чем прямое **I want to ask you something.**",
+      "examples": [
+        {
+          "ru": "Я собирался тебе позвонить, но телефон разрядился.",
+          "en": "I was going to call you, but my phone died."
+        },
+        {
+          "ru": "Мы собирались поехать в июле, но рейс отменили.",
+          "en": "We were going to travel in July, but they cancelled the flight."
+        },
+        {
+          "ru": "Я вообще не собирался об этом говорить.",
+          "en": "I wasn't going to say anything about it."
+        },
+        {
+          "ru": "Ты что, не собирался меня предупредить?",
+          "en": "Weren't you going to warn me?"
+        },
+        {
+          "ru": "Я как раз собирался кое-что у тебя спросить.",
+          "en": "I was going to ask you something."
+        }
+      ],
+      "clarificationOptions": [
+        "Откуда понятно, что действие не состоялось, если про это ничего не сказано?",
+        "Чем I was going to call отличается от I wanted to call?",
+        "Почему I was going to ask you something звучит вежливее, чем I want to ask you?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -745,6 +1096,78 @@
       "exerciseType": "CATEGORIZATION",
       "exerciseId": 67,
       "orderInCard": 4
+    },
+    {
+      "cardId": 325,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 161,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 325,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 27,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 325,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 62,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 325,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 128,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 326,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 68,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 326,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 140,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 326,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 42,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 326,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 59,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 327,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 49,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 327,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 124,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 327,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 33,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 327,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 145,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -761,6 +1184,22 @@
       "cardId": 324,
       "title": "Отрицание и вопрос из одного предложения",
       "userInstruction": "ИИ пришлёт утвердительное предложение с going to. Напишите две строки: сначала это же предложение в отрицании, потом в виде вопроса.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "going_to_card325_ex1",
+      "cardId": 325,
+      "title": "Расскажи о своих планах",
+      "userInstruction": "Напишите два-три предложения о том, что вы уже решили сделать в ближайшее время.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "going_to_card327_ex1",
+      "cardId": 327,
+      "title": "Собирался, но не вышло",
+      "userInstruction": "ИИ пришлёт предложение о том, что человек сделал. Перепишите его так, будто это осталось только планом, и допишите свою причину, почему не вышло.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -812,6 +1251,46 @@
       "translation": "точно, определённо",
       "transcription": "[ˈdefɪnətli]",
       "microtopicId": 117,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 573,
+      "word": "cloud",
+      "translation": "облако, туча",
+      "transcription": "[klaʊd]",
+      "microtopicId": 118,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 574,
+      "word": "sign",
+      "translation": "знак, признак",
+      "transcription": "[saɪn]",
+      "microtopicId": 118,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 575,
+      "word": "obvious",
+      "translation": "очевидный",
+      "transcription": "[ˈɒbviəs]",
+      "microtopicId": 118,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 576,
+      "word": "to warn",
+      "translation": "предупреждать",
+      "transcription": "[wɔːn]",
+      "microtopicId": 118,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 577,
+      "word": "to cancel",
+      "translation": "отменять",
+      "transcription": "[ˈkænsl]",
+      "microtopicId": 118,
       "categoryId": "tenses"
     }
   ],
@@ -875,6 +1354,37 @@
         }
       ],
       "explanation": "Конструкция держится на форме be: без неё предложение разваливается (I going to ✗). После going to глагол стоит в словарной форме, поэтому studying не подходит, а be в пятом предложении — это обычный глагол на своём месте."
+    },
+    {
+      "id": 145,
+      "statements": [
+        {
+          "en": "We was going to visit Grisha on Sunday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I was going to warn you about the traffic.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Kate were going to help, but she got a call.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They were going to cancel the trip, but the weather changed.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I wasn't going to say anything about it.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Форма be берётся по подлежащему: we и they — were, I и Kate — was. Всё остальное в конструкции остаётся неизменным, а not встаёт сразу после was или were."
     }
   ],
   "word_arrangement_exercises": [
@@ -897,6 +1407,24 @@
         "going"
       ],
       "explanation": "Подлежащее Sara — единственное число, значит is. После going to глагол идёт в базовой форме без -s и без второго to."
+    },
+    {
+      "id": 128,
+      "situationRu": "Ситуация: Витя ещё зимой решил, что поедет учиться в Бостон.",
+      "correctSentence": "Vitya is going to study in Boston.",
+      "words": [
+        "Vitya",
+        "is",
+        "going to",
+        "study",
+        "in Boston"
+      ],
+      "distractors": [
+        "will",
+        "studies",
+        "going"
+      ],
+      "explanation": "Решение принято заранее, поэтому нужна конструкция be going to, а не will. Форма be согласована с подлежащим (is), глагол после to стоит в словарной форме."
     }
   ],
   "multiple_choice_exercises": [
@@ -941,6 +1469,69 @@
         }
       ],
       "explanation": "«Разве не…?» — это отрицательный вопрос, и вперёд уходит краткая форма aren't. Помощник do рядом с be не ставится, а после going to глагол сохраняет словарную форму."
+    },
+    {
+      "id": 161,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мы давно решили: в сентябре переезжаем в Мадрид.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We will move to Madrid in September.",
+          "isCorrect": false
+        },
+        {
+          "text": "We're going to move to Madrid in September.",
+          "isCorrect": true
+        },
+        {
+          "text": "We move to Madrid in September.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Решение принято задолго до разговора, поэтому английский берёт going to. Вариант с will прозвучал бы так, будто мысль пришла в голову только что."
+    },
+    {
+      "id": 140,
+      "choiceType": "CHOICE",
+      "prompt": "Careful — that glass ___ fall!",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will",
+          "isCorrect": false
+        },
+        {
+          "text": "goes to",
+          "isCorrect": false
+        },
+        {
+          "text": "is going to",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Стакан уже на краю — признак перед глазами, поэтому going to. Форма goes to не существует: меняется только be, а going to остаётся неизменным."
+    },
+    {
+      "id": 42,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Look at those clouds — it's going to snow.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я думаю, зимой будет много снега.",
+          "isCorrect": false
+        },
+        {
+          "text": "Судя по тучам, вот-вот пойдёт снег.",
+          "isCorrect": true
+        },
+        {
+          "text": "Посмотри, на небе снежные тучи.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "going to здесь передаёт вывод из увиденного: тучи уже на небе, значит снег вот-вот начнётся. Мнение о далёком будущем требовало бы will, а третий вариант вообще не говорит о будущем."
     }
   ],
   "text_input_exercises": [
@@ -968,6 +1559,31 @@
       ],
       "explanation": "Отрицание и вопрос держатся на форме be: not встаёт сразу после неё, а в вопросе она выходит вперёд перед подлежащим. Ни do, ни does рядом с be не появляются.",
       "taskDescription": "Впиши в каждое предложение пропущенное слово."
+    },
+    {
+      "id": 59,
+      "items": [
+        {
+          "sentence": "The queue is huge — we ___ wait for an hour.",
+          "contextRu": "",
+          "answer": "are going to",
+          "alternatives": []
+        },
+        {
+          "sentence": "I think Sam ___ like this café.",
+          "contextRu": "",
+          "answer": "will",
+          "alternatives": []
+        },
+        {
+          "sentence": "The sky is completely black — it ___ rain in a minute.",
+          "contextRu": "",
+          "answer": "is going to",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом и третьем предложении причина уже перед глазами — очередь и чёрное небо, поэтому going to. Во втором говорящий делится мнением, доказательства нет, поэтому will.",
+      "taskDescription": "Впиши в каждое предложение подходящую форму будущего."
     }
   ],
   "dialog_restore_exercises": [
@@ -1002,6 +1618,38 @@
         }
       ],
       "explanation": "Краткий ответ повторяет помощник из вопроса: спросили через are — отвечаем Yes, I am. Do здесь чужой помощник, а сокращать форму в конце ответа нельзя."
+    },
+    {
+      "id": 33,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why didn't you come to the party?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "No problem, we can meet on Sunday."
+        }
+      ],
+      "options": [
+        {
+          "text": "I wanted come, but I got sick.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was go to come, but I got sick.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was going to come, but I got sick.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Собеседник объясняет сорвавшийся план: решение было, а действия не случилось — это was going to. Форма was go to не существует, а wanted come построено неверно и говорит о желании, а не о решении."
     }
   ],
   "matching_exercises": [],
@@ -1024,10 +1672,73 @@
         }
       ],
       "explanation": "В предложении уже есть свой помощник — be, поэтому вопрос строит он: Are you going to…? Помощник do приходит только туда, где своего нет."
+    },
+    {
+      "id": 124,
+      "wrongSentence": "I was go to send the photos, but I forgot.",
+      "options": [
+        {
+          "text": "I was going to send the photos, but I forgot.",
+          "isCorrect": true
+        },
+        {
+          "text": "I was going send the photos, but I forgot.",
+          "isCorrect": false
+        },
+        {
+          "text": "I were going to send the photos, but I forgot.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Блок going to не меняется никогда: ни go to, ни going call в конструкции не бывает. С подлежащим I в прошедшем стоит was, а не were."
     }
   ],
-  "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 27,
+      "construction": "I'm going to sell my old bike.",
+      "options": [
+        {
+          "text": "Я решил продать свой старый велосипед.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я как раз продаю свой старый велосипед.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я только что придумал продать велосипед.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я уже продал свой старый велосипед.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "going to сообщает о решении, которое принято раньше разговора. Значение «продаю прямо сейчас» дало бы Present Continuous, «придумал сию секунду» — will, а завершённое действие — прошедшее время."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 49,
+      "taskDescription": "перепиши предложение в прошедшем времени.",
+      "items": [
+        {
+          "original": "I'm going to call Vitya.",
+          "transformed": "I was going to call Vitya."
+        },
+        {
+          "original": "We're going to book a table.",
+          "transformed": "We were going to book a table."
+        },
+        {
+          "original": "Zhanna is going to help us.",
+          "transformed": "Zhanna was going to help us."
+        }
+      ],
+      "explanation": "В прошедшее уходит только форма be: am и is становятся was, are становится were. Блок going to и глагол в словарной форме не меняются."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 67,
@@ -1051,7 +1762,57 @@
         }
       ],
       "explanation": "Есть в предложении be (в том числе внутри be going to) — вопрос строит он. Нет своего помощника, глагол смысловой — тогда приходит do/does."
+    },
+    {
+      "id": 68,
+      "taskDescription": "распредели ситуации по форме, которую возьмёт английский.",
+      "categories": [
+        {
+          "title": "going to",
+          "items": [
+            "небо почернело",
+            "бензин на нуле",
+            "ребёнок споткнулся"
+          ]
+        },
+        {
+          "title": "will",
+          "items": [
+            "кажется",
+            "год будет удачный",
+            "наверное",
+            "им понравится",
+            "думаю",
+            "он опоздает"
+          ]
+        }
+      ],
+      "explanation": "Признак виден прямо сейчас — англичанин скажет going to. Мнение из головы, без доказательства перед глазами, — will, и рядом с ним обычно стоят слова вроде I think или probably."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 62,
+      "groupDescription": "Три фразы говорят о заранее принятом решении, одна — о решении прямо сейчас",
+      "items": [
+        {
+          "text": "I'm going to paint the kitchen",
+          "isOdd": false
+        },
+        {
+          "text": "We're going to open a small café",
+          "isOdd": false
+        },
+        {
+          "text": "Okay, I'll get the door",
+          "isOdd": true
+        },
+        {
+          "text": "Sam is going to learn to drive",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Форма с will здесь выдаёт решение, родившееся в момент речи: в дверь позвонили — человек отвечает сразу. Остальные три фразы построены на going to и говорят о планах, которые были приняты раньше."
+    }
+  ]
 }
