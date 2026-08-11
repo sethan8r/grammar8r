@@ -25,6 +25,13 @@
       "title": "Decision · Решение: сейчас или раньше",
       "order": 1,
       "searchKeywords": "возраст решения, придумал сию секунду, решил заранее, звучит странно, что услышит собеседник"
+    },
+    {
+      "id": 122,
+      "topicId": 20,
+      "title": "Prediction · Предсказание: из головы или по признакам",
+      "order": 2,
+      "searchKeywords": "откуда знание, доказательство перед глазами, кажется мне, оценка шансов, обе формы подойдут"
     }
   ],
   "grammar_cards": [
@@ -312,6 +319,255 @@
         "Как быть, если я решил ещё вчера, но вспомнил об этом только в разговоре?",
         "Почему в кафе говорят I'll have, а не I'm going to have?"
       ]
+    },
+    {
+      "id": 333,
+      "microtopicId": 122,
+      "title": "Показать пальцем: признак или ощущение",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Возраст решения разобран — но есть будущее, в котором никто ничего не решал. Погода, чужие поступки, счёт матча, цены: тут говорящий не планирует, а **предсказывает**. И обе наши формы умеют предсказывать, только берут знание из разных мест."
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Future Simple (going to)» мы уже видели тучи и `going to`. Теперь сделаем из этого рабочий инструмент, который годится не только для погоды."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка пальцем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос ровно один: **прямо сейчас есть доказательство, на которое можно ткнуть пальцем?**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The sky is white and low — it's going to snow.** — доказательство висит над головой, любой поднимет глаза и увидит то же самое.",
+            "**I think it will snow next week.** — доказательства нет вообще, есть ощущение внутри головы говорящего."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба предложения правильные, и оба про снег. Разница только в источнике: в первом случае человек **читает мир вокруг**, во втором — **высказывает своё мнение**."
+        },
+        {
+          "type": "heading",
+          "text": "Признак — это не только погода"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тучи из темы `going to` — самый удобный пример, но не единственный, и на них зацикливаться не надо. Признаком работает всё, что собеседник может увидеть или проверить сам:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Look at the score — they're going to lose.** — до конца матча пять минут, на табло 3:0.",
+            "**The bus is completely full — we're going to wait for the next one.**",
+            "**Ira looks pale — she's going to get sick.**",
+            "**The queue is longer than the street — we're going to be late.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Во всех четырёх никакого «я так чувствую» нет: есть табло, полный автобус, бледное лицо, очередь. Уберите признак — и фраза сразу попросится в `will`."
+        },
+        {
+          "type": "heading",
+          "text": "Рамка «я думаю» перебивает признак"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот тонкость, которой не было раньше. Даже когда доказательство перед глазами, говорящий может сознательно объявить сказанное **своим мнением** — и тогда всё равно берёт `will`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Look at the score. — Yeah, I think they'll lose.** — счёт человек видит, но подаёт вывод как личную оценку, осторожно.",
+            "**I guess it will snow tonight.** — снаружи то же самое небо, но говорящий не берётся утверждать."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакого противоречия здесь нет: слова **I think**, **I'm sure**, **I guess** — это и есть заявка «дальше идёт содержимое моей головы», а голова у нас всегда обслуживается формой `will`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ровно по той же причине к `will` тянутся все слова про **вероятность**: **a good chance**, **likely**, **probably**. Вероятность — это прикидка, а не факт перед глазами: **A storm is likely tonight, so our flight will probably be late.** Тут признаков не показывают — оценивают шансы."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский язык не помечает источник знания вообще. «Сейчас пойдёт снег» звучит одинаково и когда я смотрю на белое небо, и когда я просто гадаю за чашкой чая. Английский эту разницу слышит всегда, и русскоязычный по привычке ставит одну форму на оба случая — обычно `will`, потому что её выучили раньше. Лечится тем же вопросом: **могу я показать пальцем, откуда я это знаю?**"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Предсказывать умеют обе формы, разница — **откуда взялось знание**. Есть доказательство, на которое можно ткнуть пальцем прямо сейчас → `going to`: **The sky is white and low — it's going to snow**, **Look at the score — they're going to lose**. Есть только ощущение → `will`: **I think it will snow next week**. Признак — не обязательно погода: табло, полный автобус, бледное лицо, очередь работают так же. Важная тонкость: слова **I think**, **I'm sure**, **I guess** объявляют сказанное личным мнением, и после них идёт `will`, даже если признак виден. Оценка шансов (**a good chance**, **likely**, **probably**) — тоже про голову, а не про факт, поэтому там `will`. Ловушка русского: наш язык не помечает источник знания вообще.",
+      "examples": [
+        {
+          "ru": "Небо белое и низкое — сейчас пойдёт снег.",
+          "en": "The sky is white and low — it's going to snow."
+        },
+        {
+          "ru": "Думаю, на следующей неделе пойдёт снег.",
+          "en": "I think it will snow next week."
+        },
+        {
+          "ru": "Посмотри на счёт — они проиграют.",
+          "en": "Look at the score — they're going to lose."
+        },
+        {
+          "ru": "Ира бледная — она заболеет.",
+          "en": "Ira looks pale — she's going to get sick."
+        },
+        {
+          "ru": "Ночью вероятна гроза, так что наш рейс, скорее всего, задержат.",
+          "en": "A storm is likely tonight, so our flight will probably be late."
+        }
+      ],
+      "clarificationOptions": [
+        "Что считается признаком, а что уже просто моей догадкой?",
+        "Почему после I think идёт will, если признак я всё-таки вижу?",
+        "Чем предсказание отличается от плана, если формы те же самые?"
+      ]
+    },
+    {
+      "id": 334,
+      "microtopicId": 122,
+      "title": "Где разница не критична",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Теперь честная карточка, без которой предыдущая опасна. Разобрав два полюса, легко решить, что каждый раз надо мучительно выбирать правильную форму, — и начать замирать посреди фразы. Так вот: **между полюсами лежит широкая середина, где носитель скажет и так, и так, и обе фразы будут нормальными.**"
+        },
+        {
+          "type": "heading",
+          "text": "Это шкала, а не граница"
+        },
+        {
+          "type": "paragraph",
+          "text": "Полезнее думать не «правило или нарушение», а «куда сильнее тянет»:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что за предсказание",
+            "Куда тянет",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Признак перед глазами, событие через секунды",
+              "почти всегда going to",
+              "Watch out — that glass is going to fall"
+            ],
+            [
+              "Признак есть, событие сегодня или завтра",
+              "чаще going to, will не режет ухо",
+              "It's going to be a cold night"
+            ],
+            [
+              "Своё мнение о ближайшем",
+              "чаще will",
+              "I think Emma will like this café"
+            ],
+            [
+              "Далёкое, абстрактное, прогноз или статистика",
+              "почти всегда will",
+              "In ten years this town will be bigger"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Средние две строки — та самая свободная зона. **There's a storm coming — it will be a rough night** и **it's going to be a rough night** живут в языке обе, и носитель не поморщится ни на одну."
+        },
+        {
+          "type": "heading",
+          "text": "Полюса, где форма всё-таки одна"
+        },
+        {
+          "type": "paragraph",
+          "text": "Свобода кончается на краях шкалы, и края стоит запомнить:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Событие вот-вот, признак у всех перед глазами — только `going to`: **He's going to fall!** Фраза **He will fall** в этот момент звучит как отвлечённое рассуждение вместо крика.",
+            "Прогноз, оценка шансов, далёкое будущее — практически всегда `will`: **The winter will be hard**, **There's a good chance she will say yes**."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что с этим делать в живой речи"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего героического: **не замирайте**. Если не понимаете, куда тянет, берите `will` — форму по умолчанию, о которой мы говорили в микротеме «Решение: сейчас или раньше». Смысл дойдёт в любом случае, а чутьё на середину приходит от количества услышанного, а не от заучивания таблицы."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Разница не критична» — не то же самое, что «всегда всё равно». В середине шкалы вас поймут одинаково, а на полюсах форма слышна отчётливо: `will` вместо крика **He's going to fall!** и `going to` в новостном прогнозе одинаково выдают неносителя. Именно полюса и тренируют упражнения ниже."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В новостях и официальных прогнозах будущее почти всегда идёт через `will` — **Tomorrow will be windy, with a storm in the evening**. Признаки у синоптиков есть, и ещё какие, но формат сообщения официальный, а `going to` для него слишком разговорный. Услышите это на слух в любом прогнозе."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Между полюсами лежит широкая середина, где обе формы нормальны: **There's a storm coming — it will be a rough night** и **it's going to be a rough night** одинаково живые. Думать полезнее шкалой, а не правилом: признак перед глазами и событие через секунды — почти всегда `going to` (**Watch out — that glass is going to fall**); далёкое, абстрактное, прогноз и оценка шансов — почти всегда `will` (**In ten years this town will be bigger**, **There's a good chance she will say yes**). В середине не замирайте: не понимаете, куда тянет, — берите `will`, форму по умолчанию. Но «не критично» ≠ «всегда всё равно»: на краях шкалы форма слышна отчётливо.",
+      "examples": [
+        {
+          "ru": "Осторожно — стакан сейчас упадёт!",
+          "en": "Watch out — that glass is going to fall!"
+        },
+        {
+          "ru": "Идёт гроза — ночь будет тяжёлой.",
+          "en": "There's a storm coming — it will be a rough night."
+        },
+        {
+          "ru": "Через десять лет этот город станет больше.",
+          "en": "In ten years this town will be bigger."
+        },
+        {
+          "ru": "Есть неплохой шанс, что она согласится.",
+          "en": "There's a good chance she will say yes."
+        },
+        {
+          "ru": "Завтра будет ветрено, вечером гроза.",
+          "en": "Tomorrow will be windy, with a storm in the evening."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что я уже на полюсе шкалы, а не в свободной середине?",
+        "Почему в прогнозе погоды по телевизору всегда will, хотя признаки у них есть?",
+        "Если я выберу не ту форму в середине шкалы, меня правда поймут одинаково?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -361,6 +617,54 @@
       "cardId": 332,
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 60,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 333,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 142,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 333,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 164,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 333,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 71,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 333,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 35,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 334,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 45,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 334,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 63,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 334,
+      "exerciseType": "MATCHING",
+      "exerciseId": 47,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 334,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 61,
       "orderInCard": 3
     }
   ],
@@ -420,6 +724,46 @@
       "translation": "внезапно, вдруг",
       "transcription": "[ˈsʌdnli]",
       "microtopicId": 121,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 588,
+      "word": "to guess",
+      "translation": "угадывать, догадываться",
+      "transcription": "[ɡes]",
+      "microtopicId": 122,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 589,
+      "word": "to snow",
+      "translation": "идти (о снеге)",
+      "transcription": "[snəʊ]",
+      "microtopicId": 122,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 590,
+      "word": "storm",
+      "translation": "буря, гроза",
+      "transcription": "[stɔːm]",
+      "microtopicId": 122,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 591,
+      "word": "chance",
+      "translation": "шанс, вероятность",
+      "transcription": "[tʃɑːns]",
+      "microtopicId": 122,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 592,
+      "word": "likely",
+      "translation": "вероятный, возможный",
+      "transcription": "[ˈlaɪkli]",
+      "microtopicId": 122,
       "categoryId": "tenses"
     }
   ],
@@ -489,6 +833,69 @@
         }
       ],
       "explanation": "Форма will сообщает, что решение родилось в момент речи. О договорённости, которая была раньше разговора, сказали бы через going to, а привычку передаёт Present Simple."
+    },
+    {
+      "id": 142,
+      "choiceType": "CHOICE",
+      "prompt": "The clouds are black over the field. It ___ rain in a minute.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will",
+          "isCorrect": false
+        },
+        {
+          "text": "is going to",
+          "isCorrect": true
+        },
+        {
+          "text": "rains",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Чёрные тучи — доказательство, которое видно прямо сейчас, поэтому предсказание строится на going to. Форма will прозвучала бы как догадка, хотя доказательство висит над головой."
+    },
+    {
+      "id": 164,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мне кажется, в этом году у нас хорошие шансы.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I think we will have a good chance this year.",
+          "isCorrect": true
+        },
+        {
+          "text": "I think we are going to have a good chance this year.",
+          "isCorrect": false
+        },
+        {
+          "text": "I think we going to have a good chance this year.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Фраза начинается с «мне кажется» — говорящий оценивает шансы в голове, а не показывает признак, поэтому нужен will. В третьем варианте вдобавок потеряна форма be."
+    },
+    {
+      "id": 45,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I think Lucy will call back today.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Она уже набирает номер, я это вижу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она звонит каждый день, так заведено.",
+          "isCorrect": false
+        },
+        {
+          "text": "Это моё ощущение, никаких признаков нет.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Оборот I think объявляет сказанное личным мнением, и рядом с ним стоит will. Про то, что видно прямо сейчас, сказали бы через going to, а про повторяющееся действие — в Present Simple."
     }
   ],
   "text_input_exercises": [
@@ -515,6 +922,31 @@
         }
       ],
       "explanation": "В первом предложении человек реагирует на плач прямо сейчас — решению ноль секунд, поэтому will. Во втором и третьем подготовка была раньше разговора: билеты куплены на прошлой неделе, деньги копились всю зиму — это be going to.",
+      "taskDescription": "Впиши форму будущего, которая звучит в тон ситуации."
+    },
+    {
+      "id": 61,
+      "items": [
+        {
+          "sentence": "Look at the dog — it ___ jump into the water.",
+          "contextRu": "",
+          "answer": "is going to",
+          "alternatives": []
+        },
+        {
+          "sentence": "I think Ben ___ be a good teacher.",
+          "contextRu": "",
+          "answer": "will",
+          "alternatives": []
+        },
+        {
+          "sentence": "There's a good chance the flight ___ be late.",
+          "contextRu": "",
+          "answer": "will",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом предложении собака уже готовится к прыжку — доказательство перед глазами, поэтому going to. Во втором и третьем никаких признаков нет: есть мнение и оценка шансов, а это всегда will.",
       "taskDescription": "Впиши форму будущего, которая звучит в тон ситуации."
     }
   ],
@@ -550,6 +982,38 @@
         }
       ],
       "explanation": "Планы на субботу существовали до вопроса — собеседник о них сообщает, а не придумывает их сейчас, поэтому going to. С will ответ прозвучал бы так, будто человек решил поехать к бабушке и дедушке прямо в ответ на приглашение."
+    },
+    {
+      "id": 35,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "My phone is on one percent."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks, then I can call her back."
+        }
+      ],
+      "options": [
+        {
+          "text": "I think it will die soon.",
+          "isCorrect": false
+        },
+        {
+          "text": "It dies in a minute.",
+          "isCorrect": false
+        },
+        {
+          "text": "It's going to die in a minute.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Единица на экране — доказательство, которое видит и собеседник, поэтому вывод строится на going to. Вариант с I think подал бы это как личную догадку, а Present Simple говорит о том, что происходит вообще, а не через минуту."
     }
   ],
   "matching_exercises": [
@@ -575,6 +1039,29 @@
         }
       ],
       "explanation": "Там, где подготовка видна собеседнику — форма, спортивный костюм, купленные билеты, — решение старше разговора, и звучит going to. Там, где человек реагирует на происходящее прямо сейчас, естественно звучит will."
+    },
+    {
+      "id": 47,
+      "taskDescription": "соедини ситуацию с репликой, которая звучит в тон.",
+      "pairs": [
+        {
+          "left": "Небо над стадионом уже чёрное",
+          "right": "The storm is going to start soon"
+        },
+        {
+          "left": "Прогноз в новостях на будущий год",
+          "right": "Prices will rise again"
+        },
+        {
+          "left": "Друг спрашивает, кто победит",
+          "right": "I guess Spain will win"
+        },
+        {
+          "left": "Стрелка бензина на нуле",
+          "right": "The car is going to stop"
+        }
+      ],
+      "explanation": "Там, где доказательство видно прямо сейчас — чёрное небо, стакан на краю, — предсказание идёт через going to. Прогноз о далёком и осторожная догадка друга держатся на оценке в голове, поэтому там will."
     }
   ],
   "error_correction_exercises": [],
@@ -627,7 +1114,57 @@
         }
       ],
       "explanation": "В левом столбце человек реагирует на то, что происходит прямо сейчас, — решению ноль секунд, и звучит will. В правом подготовка была задолго до разговора, решение уже с историей — это be going to."
+    },
+    {
+      "id": 71,
+      "taskDescription": "распредели ситуации по тому, откуда взялось знание.",
+      "categories": [
+        {
+          "title": "Признак видно",
+          "items": [
+            "Счёт 3:0 за пять минут до конца",
+            "Холодильник пустой",
+            "Небо низкое и белое"
+          ]
+        },
+        {
+          "title": "Только моё мнение",
+          "items": [
+            "Кажется",
+            "зима будет мягкой",
+            "Наверное",
+            "цены снова вырастут",
+            "По-моему",
+            "ему у нас понравится"
+          ]
+        }
+      ],
+      "explanation": "В левом столбце доказательство видит и собеседник — на него можно ткнуть пальцем, поэтому там going to. В правом нет ничего, кроме оценки говорящего, и это территория will."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 63,
+      "groupDescription": "Три предсказания сделаны из головы, одно опирается на то, что видно прямо сейчас",
+      "items": [
+        {
+          "text": "I think Kate will enjoy the concert",
+          "isOdd": false
+        },
+        {
+          "text": "Look at his hands — he's going to drop the tray",
+          "isOdd": true
+        },
+        {
+          "text": "There's a good chance the shop will be closed",
+          "isOdd": false
+        },
+        {
+          "text": "Robots will do this job one day",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Руки уже дрожат, поднос вот-вот упадёт — доказательство перед глазами, поэтому going to. Остальные три фразы держатся на мнении, оценке шансов и разговоре о далёком будущем, а это территория will."
+    }
+  ]
 }
