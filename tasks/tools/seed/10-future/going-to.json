@@ -39,6 +39,13 @@
       "title": "Usage · Что говорят через going to",
       "order": 3,
       "searchKeywords": "вижу по признакам, вот-вот случится, собирался но не вышло, оправдание, was going to"
+    },
+    {
+      "id": 119,
+      "topicId": 19,
+      "title": "going to go · Двойное go",
+      "order": 4,
+      "searchKeywords": "два go подряд, собираюсь пойти, иду в кино, лишнее go, go wrong"
     }
   ],
   "grammar_cards": [
@@ -1040,6 +1047,279 @@
         "Чем I was going to call отличается от I wanted to call?",
         "Почему I was going to ask you something звучит вежливее, чем I want to ask you?"
       ]
+    },
+    {
+      "id": 328,
+      "microtopicId": 119,
+      "title": "Почему носитель не говорит going to go",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В микротеме «Решение принято заранее» мы оставили один вопрос без ответа и пообещали вернуться. Вопрос такой: а если человек собирается именно **пойти**? Получится `I'm going to go`? Возвращаемся — и заодно закрываем последнюю неясность вокруг этой конструкции."
+        },
+        {
+          "type": "heading",
+          "text": "Такая фраза существует, и ошибки в ней нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Конструкция устроена как `be going to + V1`, и на месте `V1` стоит любой глагол — в том числе `go`. Значит, собрать её с `go` можно, и получится вот это: **I'm going to go to the cinema on Friday.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Предложение правильное от первого слова до последнего: форма `be` согласована с подлежащим, блок `going to` на месте, после `to` — словарная форма. Никто это не зачеркнёт, и в тесте такой вариант засчитают."
+        },
+        {
+          "type": "paragraph",
+          "text": "Но живой носитель почти всегда скажет короче: **I'm going to the cinema on Friday.**"
+        },
+        {
+          "type": "heading",
+          "text": "Откуда взялась эта привычка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причины две, и обе простые."
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая — звучание. `going` и `go` — это одно и то же слово дважды подряд, и фраза начинает спотыкаться, примерно как русское «собираюсь пойти сходить». Такие повторы язык вычищает сам, безо всякого правила в учебнике."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая причина важнее: **есть чем заменить**. Глагол `go` — про перемещение, и фраза **I'm going to the cinema** уже сама по себе называет, куда человек направляется. Второе `go` в ней просто нечего сообщать: маршрут назван один раз, повторять его нечем."
+        },
+        {
+          "type": "heading",
+          "text": "Одна фраза — два прочтения"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тут возникает законное сомнение, и снять его надо сразу. В той же микротеме «Решение принято заранее» мы вывели признак: после `to` стоит глагол — речь о будущем, стоит место — речь о движении. А теперь получается, что **I'm going to the cinema** — где после `to` как раз место! — может значить план на пятницу."
+        },
+        {
+          "type": "paragraph",
+          "text": "Противоречия здесь нет, потому что признак отвечал на другой вопрос. Он показывает, **собрано ли будущее конструкцией** `going to`, и в этом он по-прежнему прав: короткая фраза о плане собрана уже не ею. А два прочтения самой короткой фразы различает обстановка вокруг — чаще всего срок:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Ben is going to the dentist now.** — вышел из дома, идёт.",
+            "**Ben is going to the dentist on Thursday.** — сидит дома, рассказывает о записи."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть в предложении срок — **tonight**, **on Friday**, **tomorrow**, **at five** — значит речь о плане, а не о том, что происходит в эту минуту. Срока нет и ситуация ничего не подсказывает — читаем буквально: человек идёт прямо сейчас."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Строго говоря, короткая фраза о плане — это уже не `going to`, а ещё один способ говорить о будущем, четвёртый в нашем списке. Сейчас достаточно узнавать его в лицо и понимать смысл; разбирать его целиком будем в теме «Compare: will vs going to»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "А в разговоре двойное go живёт прекрасно"
+        },
+        {
+          "type": "paragraph",
+          "text": "И последнее, иначе будет обидное недоразумение. Тяжеловесным `going to go` выглядит **на письме и в размеренной речи**. Но стоит `going to` схлопнуться в разговорное `gonna`, которое мы разбирали в микротеме «Форма: am/is/are going to + V1», как повтор перестаёт резать ухо совсем: **Okay, I'm gonna go now.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эту фразу вы услышите в сериалах десятки раз, и она абсолютно нормальна. Так что, поймав на слух двойное go, не решайте, что носитель оговорился: писать так не стоит, а говорить — можно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`I'm going to go` — не ошибка, а лишнее слово. Когда `go` означает движение и в предложении названо, **куда** именно, второе `go` выбрасывают: **I'm going to the airport at six.**"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`I'm going to go to the cinema` — предложение правильное, ошибки в нём нет: после `going to` стоит словарная форма любого глагола, в том числе `go`. Но носитель почти всегда скажет короче — **I'm going to the cinema on Friday**: два `go` подряд звучат как повтор, а фраза с местом и так называет, куда человек направляется. Короткая фраза читается двумя способами, и различает их срок: **Ben is going to the dentist now** — идёт прямо сейчас, **Ben is going to the dentist on Thursday** — рассказывает о плане. В разговоре двойное go спокойно живёт в форме **I'm gonna go** — на слух повтор не мешает.",
+      "examples": [
+        {
+          "ru": "В пятницу мы идём в кино, билеты уже куплены.",
+          "en": "We're going to the cinema on Friday."
+        },
+        {
+          "ru": "В четверг Бен идёт к стоматологу.",
+          "en": "Ben is going to the dentist on Thursday."
+        },
+        {
+          "ru": "Бен сейчас идёт к стоматологу.",
+          "en": "Ben is going to the dentist now."
+        },
+        {
+          "ru": "Лена завтра едет в аэропорт.",
+          "en": "Lena is going to the airport tomorrow."
+        },
+        {
+          "ru": "Ладно, я пошёл.",
+          "en": "Okay, I'm gonna go now."
+        }
+      ],
+      "clarificationOptions": [
+        "Если I'm going to go to the cinema — не ошибка, почему так почти никто не говорит?",
+        "Как понять, что I'm going to the gym — это план, а не «иду прямо сейчас»?",
+        "Почему I'm gonna go звучит нормально, а I'm going to go — тяжело?"
+      ]
+    },
+    {
+      "id": 329,
+      "microtopicId": 119,
+      "title": "Когда двойное go убирать нельзя",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Теперь обратная сторона, и она важнее первой. Если начать вычёркивать второе `go` подряд везде, получится новая ошибка, причём грубая. Сокращение работает ровно в одном случае: когда `go` означает движение и в предложении названо, **куда**. Во всех остальных случаях выбрасывать попросту нечего."
+        },
+        {
+          "type": "heading",
+          "text": "Случай первый: go вообще не про движение"
+        },
+        {
+          "type": "paragraph",
+          "text": "У `go` есть большая вторая жизнь — «стать», «пойти не туда». Отсюда сочетания `to go wrong` *(пойти не так, сломаться)*, `to go bad` *(испортиться, о еде)*, `to go up` *(вырасти, о ценах)*:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Something is going to go wrong.**",
+            "**The milk is going to go bad if you leave it here.**",
+            "**Prices are going to go up next year.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакого места назначения рядом тут нет и быть не может: `go` несёт весь смысл предложения, он и есть главный глагол."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The milk is going to bad** ✗ → **The milk is going to go bad** ✓. Ошибка рождается ровно из привычки, разобранной в прошлой карточке: рука механически вычёркивает второе `go` — и вместе с ним из предложения исчезает единственный глагол. Остаётся `going to` и прилагательное, то есть конструкция без действия."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Случай второй: место назначения не названо"
+        },
+        {
+          "type": "paragraph",
+          "text": "Бывает, что человек говорит о походе, но куда именно — не сообщает. Тогда сокращать физически нечего:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Are you going to go anywhere this weekend?**",
+            "**I'm going to go now.**",
+            "— Are you going to the party? — **Yes, I'm going to go.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `anywhere` — не адрес, а «хоть куда-нибудь», и предлога `to` при нём не бывает. В коротком ответе места нет тем более: собеседник его уже назвал."
+        },
+        {
+          "type": "heading",
+          "text": "Случай третий: важен не поход, а решение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь сокращение меняет сообщение. Сравните две фразы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm not going to go there again.** — «я решил, что больше туда не пойду»: обдуманный отказ.",
+            "**I'm not going there.** — «я туда не иду»: просто факт про сейчас или про ближайший вечер."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая говорит о позиции человека, вторая — о его перемещении. Русское «не собираюсь» — это первая, поэтому двойное go в ней остаётся."
+        },
+        {
+          "type": "heading",
+          "text": "Прошедшая версия — тоже целиком"
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма `was/were going to`, которую мы разбирали в микротеме «Что говорят через going to», сокращения не терпит по той же причине: она говорит о решении, а не о движении — **I was going to go to the market, but it was closed.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Уберите второе `go` — и фраза начнёт рассказывать, что человек в тот момент шёл на рынок, хотя весь её смысл в обратном: он туда так и не попал."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Короткую форму берём только тогда, когда `go` — движение и место названо. Нет места, `go` в переносном смысле, отрицание намерения или `was going to` — двойное go остаётся на месте."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Второе `go` выбрасывают только тогда, когда `go` означает движение и в предложении названо место. В остальных случаях оно остаётся. Первое: `go` не про движение — **The milk is going to go bad**, **Prices are going to go up**; убрать его значит остаться без глагола (**The milk is going to bad** ✗). Второе: места назначения нет — **Are you going to go anywhere this weekend?**, **I'm going to go now**. Третье: важно решение, а не поход — **I'm not going to go there again** («решил не ходить») против **I'm not going there** («не иду»). Форма **I was going to go to the market, but it was closed** тоже не сокращается: она о сорвавшемся решении.",
+      "examples": [
+        {
+          "ru": "Молоко испортится, если оставить его здесь.",
+          "en": "The milk is going to go bad if you leave it here."
+        },
+        {
+          "ru": "В следующем году цены вырастут.",
+          "en": "Prices are going to go up next year."
+        },
+        {
+          "ru": "Ты куда-нибудь поедешь на выходных?",
+          "en": "Are you going to go anywhere this weekend?"
+        },
+        {
+          "ru": "Я решил, что больше туда не пойду.",
+          "en": "I'm not going to go there again."
+        },
+        {
+          "ru": "Я собирался сходить на рынок, но он был закрыт.",
+          "en": "I was going to go to the market, but it was closed."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в The milk is going to go bad нельзя убрать go, если два go подряд некрасиво?",
+        "Чем I'm not going to go there again отличается от I'm not going there?",
+        "Почему при anywhere не ставят предлог to?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1168,6 +1448,60 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 145,
       "orderInCard": 3
+    },
+    {
+      "cardId": 328,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 162,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 328,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 28,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 328,
+      "exerciseType": "MATCHING",
+      "exerciseId": 45,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 328,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 50,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 329,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 69,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 329,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 125,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 329,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 43,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 329,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 146,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 329,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 129,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -1292,6 +1626,46 @@
       "transcription": "[ˈkænsl]",
       "microtopicId": 118,
       "categoryId": "tenses"
+    },
+    {
+      "id": 578,
+      "word": "cinema",
+      "translation": "кинотеатр, кино",
+      "transcription": "[ˈsɪnəmə]",
+      "microtopicId": 119,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 579,
+      "word": "dentist",
+      "translation": "стоматолог, зубной врач",
+      "transcription": "[ˈdentɪst]",
+      "microtopicId": 119,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 580,
+      "word": "anywhere",
+      "translation": "куда-нибудь, где-нибудь",
+      "transcription": "[ˈeniweə]",
+      "microtopicId": 119,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 581,
+      "word": "wrong",
+      "translation": "неправильный, не тот",
+      "transcription": "[rɒŋ]",
+      "microtopicId": 119,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 582,
+      "word": "milk",
+      "translation": "молоко",
+      "transcription": "[mɪlk]",
+      "microtopicId": 119,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -1385,6 +1759,37 @@
         }
       ],
       "explanation": "Форма be берётся по подлежащему: we и they — were, I и Kate — was. Всё остальное в конструкции остаётся неизменным, а not встаёт сразу после was или were."
+    },
+    {
+      "id": 146,
+      "statements": [
+        {
+          "en": "The bread is going to go bad in this heat.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Are you going to anywhere in the summer?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Prices are going to up again.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Tom is going to go now, his taxi is here.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Zhanna was going to go to the party, but she got sick.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во втором и третьем предложениях выброшен единственный глагол: слово anywhere не место назначения, а up без go ничего не значит. В остальных go на месте, потому что оно либо означает не движение, либо стоит без адреса."
     }
   ],
   "word_arrangement_exercises": [
@@ -1425,6 +1830,25 @@
         "going"
       ],
       "explanation": "Решение принято заранее, поэтому нужна конструкция be going to, а не will. Форма be согласована с подлежащим (is), глагол после to стоит в словарной форме."
+    },
+    {
+      "id": 129,
+      "situationRu": "Ситуация: суп на столе давно, никто его не ест.",
+      "correctSentence": "The soup is going to go cold.",
+      "words": [
+        "The soup",
+        "is",
+        "going to",
+        "go",
+        "cold"
+      ],
+      "distractors": [
+        "will",
+        "going",
+        "goes",
+        "colder"
+      ],
+      "explanation": "Здесь go означает не движение, а «станет холодным», и это единственный глагол предложения — выбросить его нельзя. После going to глагол стоит в словарной форме, поэтому ни goes, ни going сюда не встают."
     }
   ],
   "multiple_choice_exercises": [
@@ -1532,6 +1956,48 @@
         }
       ],
       "explanation": "going to здесь передаёт вывод из увиденного: тучи уже на небе, значит снег вот-вот начнётся. Мнение о далёком будущем требовало бы will, а третий вариант вообще не говорит о будущем."
+    },
+    {
+      "id": 162,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "В воскресенье Катя едет на вокзал встречать сестру.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Kate is going to station on Sunday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kate goes to the station on Sunday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kate is going to the station on Sunday.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Место названо, поэтому носитель обходится короткой формой без второго go. Без артикля the слово station перестаёт читаться как место, а форма goes рассказывала бы о привычке ездить туда каждое воскресенье."
+    },
+    {
+      "id": 43,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Sonya isn't going to go to that café again.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Соня сейчас не идёт в то кафе.",
+          "isCorrect": false
+        },
+        {
+          "text": "Соня решила больше не ходить в то кафе.",
+          "isCorrect": true
+        },
+        {
+          "text": "Соня никогда не была в том кафе.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Двойное go говорит об обдуманном отказе, а не о перемещении: короткая форма Sonya isn't going to that café означала бы просто «не идёт». О прошлом здесь не сказано ничего."
     }
   ],
   "text_input_exercises": [
@@ -1652,7 +2118,31 @@
       "explanation": "Собеседник объясняет сорвавшийся план: решение было, а действия не случилось — это was going to. Форма was go to не существует, а wanted come построено неверно и говорит о желании, а не о решении."
     }
   ],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 45,
+      "taskDescription": "соедини фразу с ситуацией, в которой она сказана.",
+      "pairs": [
+        {
+          "left": "Nick is going to the café now.",
+          "right": "Уже вышел, идёт по улице."
+        },
+        {
+          "left": "Nick is going to the café at six.",
+          "right": "Ещё на работе, договорился на вечер."
+        },
+        {
+          "left": "Nick is going to sell his car.",
+          "right": "Решение принято, объявление готово."
+        },
+        {
+          "left": "Nick is going to be late.",
+          "right": "Стоит в пробке и понимает, что не успеет."
+        }
+      ],
+      "explanation": "Одна и та же короткая форма означает и движение прямо сейчас, и план — различает их срок at six. В двух последних фразах после to стоит глагол, поэтому это обычная конструкция going to: решение в одном случае и предсказание по обстановке в другом."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 123,
@@ -1691,6 +2181,25 @@
         }
       ],
       "explanation": "Блок going to не меняется никогда: ни go to, ни going call в конструкции не бывает. С подлежащим I в прошедшем стоит was, а не were."
+    },
+    {
+      "id": 125,
+      "wrongSentence": "Put the fish in the fridge — it is going to bad.",
+      "options": [
+        {
+          "text": "Put the fish in the fridge — it is going to going bad.",
+          "isCorrect": false
+        },
+        {
+          "text": "Put the fish in the fridge — it is going to go bad.",
+          "isCorrect": true
+        },
+        {
+          "text": "Put the fish in the fridge — it going to go bad.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Здесь go означает не движение, а «испортится», и это единственный глагол предложения — убрать его нельзя. После to всегда стоит словарная форма, а форма be в конструкции обязательна."
     }
   ],
   "construction_meaning_exercises": [
@@ -1716,6 +2225,29 @@
         }
       ],
       "explanation": "going to сообщает о решении, которое принято раньше разговора. Значение «продаю прямо сейчас» дало бы Present Continuous, «придумал сию секунду» — will, а завершённое действие — прошедшее время."
+    },
+    {
+      "id": 28,
+      "construction": "Oleg is going to the gym at seven.",
+      "options": [
+        {
+          "text": "В семь Олег идёт в спортзал.",
+          "isCorrect": true
+        },
+        {
+          "text": "Олег прямо сейчас идёт в спортзал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Олег ходит в спортзал по вечерам.",
+          "isCorrect": false
+        },
+        {
+          "text": "Олег ходил в спортзал в семь.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Срок at seven показывает, что речь о запланированном походе, а не о том, что человек идёт в эту минуту. О повторяющейся привычке говорил бы Present Simple, о прошлом — прошедшее время."
     }
   ],
   "transformation_exercises": [
@@ -1737,6 +2269,25 @@
         }
       ],
       "explanation": "В прошедшее уходит только форма be: am и is становятся was, are становится were. Блок going to и глагол в словарной форме не меняются."
+    },
+    {
+      "id": 50,
+      "taskDescription": "перепиши предложение так, как его скажет носитель.",
+      "items": [
+        {
+          "original": "I'm going to go to the market on Saturday.",
+          "transformed": "I'm going to the market on Saturday."
+        },
+        {
+          "original": "Yulia is going to go to the museum at twelve.",
+          "transformed": "Yulia is going to the museum at twelve."
+        },
+        {
+          "original": "We're going to go to the hospital tomorrow.",
+          "transformed": "We're going to the hospital tomorrow."
+        }
+      ],
+      "explanation": "В каждом предложении названо место и срок, поэтому второе go лишнее — остаётся короткая форма. Форма be и место назначения при этом не трогаются."
     }
   ],
   "categorization_exercises": [
@@ -1788,6 +2339,29 @@
         }
       ],
       "explanation": "Признак виден прямо сейчас — англичанин скажет going to. Мнение из головы, без доказательства перед глазами, — will, и рядом с ним обычно стоят слова вроде I think или probably."
+    },
+    {
+      "id": 69,
+      "taskDescription": "распредели, где второе go нужно оставить, а где хватит короткой формы.",
+      "categories": [
+        {
+          "title": "Оставляем go",
+          "items": [
+            "go bad",
+            "go anywhere",
+            "go alone"
+          ]
+        },
+        {
+          "title": "Хватит короткой формы",
+          "items": [
+            "to the bank at eleven",
+            "to the party tonight",
+            "to the hospital on Monday"
+          ]
+        }
+      ],
+      "explanation": "Слева go либо означает не движение, либо стоит без места назначения — выбросить его нельзя, предложение останется без глагола. Справа место названо с предлогом to, поэтому второе go лишнее."
     }
   ],
   "find_the_odd_exercises": [
