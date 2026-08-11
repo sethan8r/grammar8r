@@ -351,41 +351,44 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "`To be` — самый главный глагол английского языка. Переводится как «быть, являться, находиться». Но вот в чём штука: по-русски мы его почти не произносим вслух."
+          "text": "`To be` — самый главный глагол английского языка: «быть, являться, находиться». Вся штука в том, что по-русски мы его вслух почти никогда не произносим. «Я студент», «Она дома», «Мы готовы» — глагола нет вообще, между словами просто пауза. Английский так не умеет: для него предложение без глагола не собрано."
         },
         {
-          "type": "paragraph",
-          "text": "По-русски: «Я студент.» — никакого «быть» нет."
-        },
-        {
-          "type": "paragraph",
-          "text": "По-английски: I **am** a student. — без `am` предложение не существует."
-        },
-        {
-          "type": "paragraph",
-          "text": "Этот глагол выполняет в английском три роли:"
+          "type": "heading",
+          "text": "Три работы, которые делает `to be`"
         },
         {
           "type": "list",
-          "ordered": true,
+          "ordered": false,
           "items": [
-            "**Кто ты есть:** She is a nurse. — Она медсестра.",
-            "**Какой ты:** I am tired. — Я устал.",
-            "**Где ты находишься:** They are in the garden. — Они в саду."
+            "**кто человек:** **She is a nurse.** — Она медсестра.",
+            "**какой он:** **I am tired.** — Я устал.",
+            "**где он:** **They are in Prague.** — Они в Праге."
           ]
         },
         {
           "type": "paragraph",
-          "text": "В русском все три варианта работают без глагола — тире или интонацией: «Она медсестра. Я устал. Они в саду.» В английском без to be предложение обрывается на полуслове."
+          "text": "По-русски во всех трёх случаях глагол не нужен, а по-английски он обязателен в каждом — именно поэтому `to be` попадается новичку буквально в каждом втором предложении."
         },
         {
-          "type": "paragraph",
-          "text": "Запомни три формы:"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рука по привычке выбрасывает глагол — **I a student** ✗, **She at home** ✗. Русскому языку так можно, английскому нет: **I am a student** ✓, **She is at home** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три формы — под каждое лицо своя"
         },
         {
           "type": "table",
           "header": [
-            "Кто",
+            "Подлежащее",
             "Форма",
             "Краткая",
             "Пример"
@@ -393,51 +396,55 @@
           "rows": [
             [
               "I",
-              "**am**",
+              "am",
               "I'm",
               "I am hungry."
             ],
             [
               "you",
-              "**are**",
+              "are",
               "you're",
               "You are right."
             ],
             [
               "he",
-              "**is**",
+              "is",
               "he's",
               "He is at work."
             ],
             [
               "she",
-              "**is**",
+              "is",
               "she's",
               "She is a doctor."
             ],
             [
               "it",
-              "**is**",
+              "is",
               "it's",
               "It is cold today."
             ],
             [
               "we",
-              "**are**",
+              "are",
               "we're",
               "We are friends."
             ],
             [
               "they",
-              "**are**",
+              "are",
               "they're",
               "They are at home."
             ]
           ]
         },
         {
+          "type": "heading",
+          "text": "Краткие формы — то, как говорят вживую"
+        },
+        {
           "type": "paragraph",
-          "text": "Краткие формы (I'm, you're, he's...) — разговорные. В обычной речи всегда используем их. Полные формы — для официального текста или для акцента: I **am** serious! (чтобы подчеркнуть)."
+          "text": "В обычной речи форму почти всегда сжимают: **I'm**, **you're**, **he's**, **we're**, **they're**. Полная форма остаётся для официального текста и для нажима: **I am serious!** — когда важно подчеркнуть."
         },
         {
           "type": "callout",
@@ -446,7 +453,7 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**It's** = it is. А **its** (без апострофа) — притяжательное: The cat licked its paw. Апостроф — это пропущенная буква `i`. Запомни: если можно сказать `it is` — пишем `it's`. Если нельзя — пишем `its`."
+              "text": "`It's` и `its`. Апостроф стоит на месте выброшенной буквы, поэтому `it's` = it is, а `its` без апострофа — «его, её» про предмет: **The cat licked its paw.** Проверка простая: разворачивается в it is — пишем с апострофом; не разворачивается — без."
             }
           ]
         },
@@ -457,12 +464,12 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "У to be есть прошедшие формы — was и were. Они понадобятся позже, когда будем изучать прошедшие времена. Пока работаем с am/is/are."
+              "text": "У `to be` есть и прошлые формы — was и were. Они ждут нас в теме «Past Simple», а пока весь английский держится на am/is/are."
             }
           ]
         }
       ],
-      "theorySummary": "am — только с I. is — с he/she/it. are — с you/we/they. В разговоре сокращай: I'm, he's, they're. Без to be предложение на английском не работает — даже если в русском он не звучит.",
+      "theorySummary": "`To be` — это глагол «быть», которого в русском не слышно, а в английском он обязателен. Форма зависит от лица: `am` — только с `I`, `is` — с `he/she/it`, `are` — с `you/we/they`. Отвечает он сразу за три вещи: кто человек, какой он и где находится. В живой речи форму сокращают: I'm, you're, he's, we're, they're. Главная ошибка русскоязычного — выбросить глагол совсем: **I a student** ✗ вместо **I am a student** ✓.",
       "examples": [
         {
           "ru": "Я студент.",
@@ -477,8 +484,8 @@
           "en": "He is at work. / He's at work."
         },
         {
-          "ru": "Она врач.",
-          "en": "She is a doctor. / She's a doctor."
+          "ru": "Она учительница.",
+          "en": "She is a teacher. / She's a teacher."
         },
         {
           "ru": "Сегодня холодно.",
@@ -494,9 +501,9 @@
         }
       ],
       "clarificationOptions": [
-        "Зачем нужен to be, если в русском его нет",
-        "Разница: I'm vs I am — когда полная форма",
-        "Почему it's и its — разные слова"
+        "Зачем английскому to be, если в русском такого глагола вообще нет?",
+        "Когда говорят I'm, а когда полное I am?",
+        "Почему it's и its — это два разных слова?"
       ]
     },
     {
@@ -507,7 +514,18 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Чтобы сказать «не является, не находится» — добавляем **not** после формы to be:"
+          "text": "Отрицание с `to be` строится проще, чем в любом другом месте английского: никаких помощников не нужно, достаточно поставить `not` сразу после формы глагола. По-русски «не» цепляется к любому слову и стоит перед ним — «не дома», «не врач», «не готов». В английском место у отрицания одно и то же всегда: после am, is или are."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Подлежащее + am/is/are + not + остальное."
+            }
+          ]
         },
         {
           "type": "table",
@@ -556,21 +574,32 @@
         },
         {
           "type": "callout",
-          "variant": "warning",
-          "label": "Важно",
+          "variant": "trap",
+          "label": "Ловушка",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "Форма для I — только **I'm not**. Слова `I amn't` не существует в английском — никогда не использовалось и не используется. Для всех остальных: **isn't** (is not) и **aren't** (are not)."
+              "text": "По образцу isn't и aren't рука сама достраивает несуществующее `I amn't` ✗. Такого слова в английском нет и никогда не было: для `I` краткая форма только одна — **I'm not**."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У is not и are not сокращений по два, и оба правильные: **he isn't** и **he's not**, **they aren't** и **they're not**. В первом случае сжимается not, во втором — сам глагол. Выбирайте любое, разницы в смысле нет."
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "В разговорной речи почти всегда используем краткие формы: He isn't ready. / We aren't home."
+          "text": "В живой речи краткие формы почти вытеснили полные: **He isn't ready.**, **We aren't hungry.** Полное is not / are not звучит официально или подчёркнуто твёрдо."
         }
       ],
-      "theorySummary": "not ставится сразу после am/is/are. Краткие формы: I'm not (не `I amn't`!), isn't, aren't. В разговоре — всегда краткие.",
+      "theorySummary": "Отрицание с `to be` — это просто `not` сразу после формы глагола: `I am not`, `he is not`, `they are not`. Никаких вспомогательных слов добавлять не нужно. В речи почти всегда сокращают: **isn't**, **aren't**, а для `I` — только **I'm not**: формы `I amn't` в английском не существует. У третьего лица и множественного есть по два равноправных сокращения: **he isn't** = **he's not**.",
       "examples": [
         {
           "ru": "Я не дома.",
@@ -594,9 +623,9 @@
         }
       ],
       "clarificationOptions": [
-        "Почему нельзя сказать \"I amn't\"",
-        "Разница: isn't и aren't — когда какое",
-        "Когда использовать полную форму \"is not\", а не краткую \"isn't\""
+        "Почему нельзя сказать I amn't, если есть isn't и aren't?",
+        "Как понять, где нужно isn't, а где aren't?",
+        "Когда говорят полное is not вместо короткого isn't?"
       ]
     },
     {
@@ -607,19 +636,7 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "В английском вопрос с to be строится очень просто: **глагол встаёт перед подлежащим**."
-        },
-        {
-          "type": "paragraph",
-          "text": "Утверждение: He **is** at home. → Вопрос: **Is** he at home?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Утверждение: They **are** ready. → Вопрос: **Are** they ready?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Утверждение: I **am** late. → Вопрос: **Am** I late?"
+          "text": "В русском вопрос отличается от утверждения только голосом: «Он дома.» и «Он дома?» — слова те же, порядок тот же, меняется одна интонация. Английскому этого мало: он переставляет слова. Глагол `to be` выходит вперёд и встаёт перед подлежащим — и предложение сразу читается как вопрос, даже без знака в конце."
         },
         {
           "type": "callout",
@@ -628,46 +645,50 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Am/Is/Are + подлежащее + остальное + ?**"
+              "text": "Am/Is/Are + подлежащее + остальное + ?"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He is at home.** → **Is he at home?**",
+            "**They are ready.** → **Are they ready?**",
+            "**I am late.** → **Am I late?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никаких дополнительных слов добавлять не нужно — переставили глагол, и всё."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая частая ошибка русскоязычного — оставить порядок как в утверждении и просто задрать интонацию: **You are hungry?** ✗. Так спрашивают разве что с удивлением («ты что, голодный?»), а обычный вопрос звучит **Are you hungry?** ✓."
             }
           ]
         },
         {
           "type": "heading",
-          "text": "Краткие ответы:"
+          "text": "Краткие ответы"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "Is she tired? → Yes, she **is**. / No, she **isn't**."
+            "Is she tired? → **Yes, she is.** / **No, she isn't.**",
+            "Are they at home? → **Yes, they are.** / **No, they aren't.**",
+            "Am I right? → **Yes, you are.** / **No, you aren't.**"
           ]
         },
         {
           "type": "paragraph",
-          "text": "*(Она устала? — Да. / Нет.)*"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Are they home? → Yes, they **are**. / No, they **aren't**."
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "*(Они дома? — Да. / Нет.)*"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Am I right? → Yes, you **are**. / No, you **aren't**."
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "*(Я прав? — Да. / Нет.)*"
+          "text": "Обратите внимание: на вопрос про `I` отвечают про `you` — это же разговор двух людей, «я» одного собеседника становится «ты» для другого."
         },
         {
           "type": "callout",
@@ -676,12 +697,12 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "В кратком положительном ответе сокращать нельзя. Yes, she **is**. — правильно. `Yes, she's.` — так не говорят. Сокращение делает ответ незавершённым."
+              "text": "В положительном коротком ответе сокращать нельзя: **Yes, she is** ✓, а **Yes, she's** ✗ — фраза обрывается и звучит незаконченно. Зато в отрицательном ответе сокращение как раз обычное дело: **No, she isn't.**"
             }
           ]
         }
       ],
-      "theorySummary": "Вопрос: am/is/are ставится перед подлежащим. Am I? Is he/she/it? Are you/we/they? Краткий ответ: Yes, she is. / No, she isn't. В положительном кратком ответе сокращение не используется.",
+      "theorySummary": "Вопрос с `to be` строится перестановкой: `am/is/are` уходит вперёд, перед подлежащее. `Am I…?`, `Is he/she/it…?`, `Are you/we/they…?` Никаких лишних слов добавлять не нужно, и одной интонации, как в русском, не хватает: **You are ready?** ✗ → **Are you ready?** ✓. Короткий ответ повторяет форму глагола: **Yes, she is.** / **No, she isn't.** — причём положительный ответ никогда не сокращают (**Yes, she's** ✗).",
       "examples": [
         {
           "ru": "Он дома?",
@@ -709,9 +730,9 @@
         }
       ],
       "clarificationOptions": [
-        "Почему в \"Yes, she is\" нельзя сказать \"Yes, she's\"",
-        "Как строить вопрос с I — Am I?",
-        "Разница между Is he? и Are they?"
+        "Почему нельзя ответить Yes, she's — ведь это то же самое?",
+        "Как задать вопрос про себя — Am I?",
+        "Почему в английском ради вопроса надо переставлять слова, а в русском нет?"
       ]
     },
     {
@@ -12384,7 +12405,7 @@
       "id": "basics_card2_ex1",
       "cardId": 2,
       "title": "Переведи предложение с to be",
-      "userInstruction": "AI даст русское предложение и слова-подсказки (существительные и прилагательные). Составь полный перевод на английский с правильной формой am / is / are.",
+      "userInstruction": "ИИ пришлёт одно короткое русское предложение и слова-подсказки. Напиши его по-английски с правильной формой am, is или are.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     },
@@ -12392,7 +12413,7 @@
       "id": "basics_card3_ex1",
       "cardId": 3,
       "title": "Сделай отрицание с to be",
-      "userInstruction": "AI даст утвердительное предложение с to be. Перепиши его в отрицательной форме.",
+      "userInstruction": "ИИ пришлёт одно утвердительное предложение с to be. Перепиши его так, чтобы получилось отрицание.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     },
@@ -12400,7 +12421,7 @@
       "id": "basics_card4_ex1",
       "cardId": 4,
       "title": "Составь вопрос с to be",
-      "userInstruction": "AI даст утвердительное предложение с to be. Переделай его в вопрос и дай краткий ответ Yes или No (на твой выбор).",
+      "userInstruction": "ИИ пришлёт одно утвердительное предложение. Переделай его в вопрос и добавь короткий ответ — Yes или No, на свой выбор.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     },
@@ -15006,28 +15027,28 @@
       "id": 2,
       "statements": [
         {
+          "en": "Igor and Lena are at the market.",
+          "ru": "Игорь и Лена на рынке.",
+          "isTrue": true
+        },
+        {
           "en": "He are a good cook.",
           "ru": "Он хороший повар.",
           "isTrue": false
         },
         {
-          "en": "They are at home.",
-          "ru": "Они дома.",
-          "isTrue": true
-        },
-        {
-          "en": "I is hungry.",
-          "ru": "Я голоден.",
+          "en": "I is late.",
+          "ru": "Я опоздал.",
           "isTrue": false
         },
         {
-          "en": "She is a doctor.",
-          "ru": "Она врач.",
+          "en": "It is my bag.",
+          "ru": "Это моя сумка.",
           "isTrue": true
         },
         {
-          "en": "We is ready.",
-          "ru": "Мы готовы.",
+          "en": "We is from Poland.",
+          "ru": "Мы из Польши.",
           "isTrue": false
         }
       ],
@@ -15037,63 +15058,63 @@
       "id": 3,
       "statements": [
         {
-          "en": "I amn't tired.",
-          "ru": "Я не устал.",
+          "en": "I amn't ready.",
+          "ru": "Я не готов.",
           "isTrue": false
         },
         {
-          "en": "She isn't at work today.",
-          "ru": "Её нет на работе сегодня.",
+          "en": "Oleg isn't at the market.",
+          "ru": "Олега нет на рынке.",
           "isTrue": true
         },
         {
-          "en": "They isn't ready.",
-          "ru": "Они не готовы.",
+          "en": "They isn't from Vienna.",
+          "ru": "Они не из Вены.",
           "isTrue": false
         },
         {
-          "en": "He isn't a teacher.",
-          "ru": "Он не учитель.",
-          "isTrue": true
-        },
-        {
-          "en": "We am not hungry.",
+          "en": "We aren't hungry.",
           "ru": "Мы не голодны.",
+          "isTrue": true
+        },
+        {
+          "en": "She am not my sister.",
+          "ru": "Она не моя сестра.",
           "isTrue": false
         }
       ],
-      "explanation": "\"Amn't\" — не существует: I am not / I'm not. They → aren't (не isn't). We → aren't (не am not)."
+      "explanation": "Формы «amn't» нет: только I am not / I'm not. They → aren't, а не isn't. She → isn't, а не am not."
     },
     {
       "id": 4,
       "statements": [
         {
-          "en": "Yes, they are.",
-          "ru": "Да, они.",
+          "en": "Are you tired?",
+          "ru": "Ты устал?",
           "isTrue": true
         },
         {
-          "en": "Yes, they're.",
-          "ru": "Да, они.",
+          "en": "Is they at home?",
+          "ru": "Они дома?",
           "isTrue": false
         },
         {
-          "en": "Yes, she is.",
-          "ru": "Да, она.",
+          "en": "Am I late?",
+          "ru": "Я опоздал?",
           "isTrue": true
         },
         {
           "en": "Yes, she's.",
-          "ru": "Да, она.",
+          "ru": "Да.",
           "isTrue": false
         },
         {
-          "en": "Yes, I am.",
-          "ru": "Да, я.",
+          "en": "Yes, they are.",
+          "ru": "Да.",
           "isTrue": true
         }
       ],
-      "explanation": "В кратком положительном ответе нельзя сокращать. Yes, they **are**. / Yes, she **is**. / Yes, I **am**. — правильно. \"They're\" и \"she's\" как ответ — незавершённо: так не говорят."
+      "explanation": "В вопросе форма to be стоит перед подлежащим, и выбирается она по нему: they → Are they…?, а не Is they. В коротком положительном ответе сокращать нельзя: Yes, she is ✓, Yes, she's ✗."
     },
     {
       "id": 5,
@@ -16202,55 +16223,56 @@
     },
     {
       "id": 2,
-      "situationRu": "RU: Она — моя сестра.",
-      "correctSentence": "She is my sister.",
+      "situationRu": "RU: Ты мой друг.",
+      "correctSentence": "You are my friend.",
       "words": [
-        "She",
-        "is",
+        "You",
+        "are",
         "my",
-        "sister"
+        "friend"
       ],
       "distractors": [
-        "He",
+        "I",
         "am",
-        "are"
+        "is",
+        "He"
       ],
-      "explanation": "She = она → форма to be = is. My = моя. Sister = сестра. He — не подходит (мужской род), am — только с I, are — для you/we/they."
+      "explanation": "You — это «ты/вы», его форма to be — are. Am бывает только с I, is — только с he/she/it."
     },
     {
       "id": 3,
-      "situationRu": "RU: Её нет дома.",
-      "correctSentence": "She isn't at home.",
+      "situationRu": "RU: Он не мой брат.",
+      "correctSentence": "He isn't my brother.",
       "words": [
-        "She",
+        "He",
         "isn't",
-        "at",
-        "home"
+        "my",
+        "brother"
       ],
       "distractors": [
-        "He",
-        "I",
+        "She",
+        "aren't",
         "am not",
-        "aren't"
+        "are"
       ],
-      "explanation": "She isn't = she is not = она не. At home = дома. He/I — неверные местоимения. Am not — только с I. Aren't — с you/we/they."
+      "explanation": "He — третье лицо единственного числа, его форма is, отрицание — isn't. Aren't идёт с you/we/they, am not — только с I."
     },
     {
       "id": 4,
-      "situationRu": "RU: Ты — учитель?",
-      "correctSentence": "Are you a teacher?",
+      "situationRu": "RU: Они в Мадриде?",
+      "correctSentence": "Are they in Madrid?",
       "words": [
         "Are",
-        "you",
-        "a teacher"
+        "they",
+        "in",
+        "Madrid"
       ],
       "distractors": [
-        "I",
-        "She",
-        "is",
-        "am"
+        "Is",
+        "Am",
+        "She"
       ],
-      "explanation": "В вопросе are/is/am стоит первым. Are you = вопрос для \"ты/вы\". A teacher — одна карточка (артикль изучим позже). Is и am — неверные формы для you."
+      "explanation": "Вопрос начинается с формы to be, а для they это are. Is бывает только с he/she/it, am — только с I."
     },
     {
       "id": 5,
@@ -16922,34 +16944,30 @@
     {
       "id": 2,
       "choiceType": "REVERSE_CHOICE",
-      "prompt": "They're at school.",
+      "prompt": "They're in the car.",
       "contextRu": "",
       "options": [
         {
-          "text": "Он в школе.",
-          "isCorrect": false
-        },
-        {
-          "text": "Мы в школе.",
-          "isCorrect": false
-        },
-        {
-          "text": "Они в школе.",
+          "text": "Они в машине.",
           "isCorrect": true
+        },
+        {
+          "text": "Мы в машине.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он в машине.",
+          "isCorrect": false
         }
       ],
-      "explanation": "They're = They are = они. At school = в школе."
+      "explanation": "They're = they are. Are — форма to be для you/we/they, а they — это «они»."
     },
     {
       "id": 1,
       "choiceType": "CHOICE",
-      "prompt": "___ very happy today.",
+      "prompt": "___ a taxi driver.",
       "contextRu": "",
       "options": [
-        {
-          "text": "I am",
-          "isCorrect": true
-        },
         {
           "text": "I is",
           "isCorrect": false
@@ -16957,20 +16975,20 @@
         {
           "text": "I are",
           "isCorrect": false
+        },
+        {
+          "text": "I am",
+          "isCorrect": true
         }
       ],
-      "explanation": "С местоимением I используется только am — это уникальная форма. \"I is\" и \"I are\" — не существуют в английском."
+      "explanation": "С местоимением I используется только am — это его личная форма. «I is» и «I are» в английском не существуют."
     },
     {
       "id": 2,
       "choiceType": "CHOICE",
-      "prompt": "I ___ ready yet.",
+      "prompt": "I ___ angry at all.",
       "contextRu": "",
       "options": [
-        {
-          "text": "am not",
-          "isCorrect": true
-        },
         {
           "text": "isn't",
           "isCorrect": false
@@ -16978,51 +16996,55 @@
         {
           "text": "aren't",
           "isCorrect": false
+        },
+        {
+          "text": "am not",
+          "isCorrect": true
         }
       ],
-      "explanation": "С I — только \"am not\". \"I amn't\" — такой формы не существует. \"Isn't\" и \"aren't\" — с другими местоимениями."
+      "explanation": "С I отрицание только am not (в речи — I'm not). Формы «I amn't» не существует, isn't — для he/she/it, aren't — для you/we/they."
     },
     {
       "id": 3,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Мы не студенты.",
+      "prompt": "Они не из Испании.",
       "contextRu": "",
       "options": [
         {
-          "text": "We isn't students.",
+          "text": "They am not from Spain.",
           "isCorrect": false
         },
         {
-          "text": "We aren't students.",
+          "text": "They aren't from Spain.",
           "isCorrect": true
         },
         {
-          "text": "We am not students.",
+          "text": "They isn't from Spain.",
           "isCorrect": false
         }
       ],
-      "explanation": "We → are → отрицание: are not / aren't. \"Isn't\" — только с he/she/it. \"Am not\" — только с I."
+      "explanation": "They → are → отрицание are not, в краткой форме aren't. Isn't бывает только с he/she/it, am not — только с I."
     },
     {
       "id": 4,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Ты голоден?",
+      "prompt": "Она медсестра?",
       "contextRu": "",
       "options": [
         {
-          "text": "You are hungry?",
+          "text": "She is a nurse?",
           "isCorrect": false
         },
         {
-          "text": "Are you hungry?",
+          "text": "Is she a nurse?",
           "isCorrect": true
         },
         {
-          "text": "Is you hungry?",
+          "text": "Are she a nurse?",
           "isCorrect": false
         }
       ],
-      "explanation": "В вопросе to be встаёт перед подлежащим. You + are → вопрос: Are you...? \"Is you\" — ошибка: is используется только с he/she/it."
+      "explanation": "В вопросе to be встаёт перед подлежащим: she + is → Is she…? Порядок как в утверждении вопросом не становится, а are с she не сочетается."
     },
     {
       "id": 3,
@@ -17043,7 +17065,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "Вопрос с I — только Am. Am I? — единственная правильная форма для первого лица."
+      "explanation": "Вопрос про себя строится только с Am: Am I…? Это единственная форма to be для I."
     },
     {
       "id": 4,
@@ -19775,51 +19797,99 @@
       "id": 1,
       "items": [
         {
-          "sentence": "She ___ tired after work.",
+          "sentence": "Ira ___ at the airport.",
           "contextRu": "",
           "answer": "is",
           "alternatives": []
-        }
-      ],
-      "explanation": "She — 3-е лицо единственного числа (как he и it). Для he/she/it используется is."
-    },
-    {
-      "id": 2,
-      "items": [
+        },
         {
-          "sentence": "We ___ ready.",
+          "sentence": "I ___ from Warsaw.",
+          "contextRu": "",
+          "answer": "am",
+          "alternatives": []
+        },
+        {
+          "sentence": "My parents ___ at the market.",
           "contextRu": "",
           "answer": "are",
           "alternatives": []
         }
       ],
-      "explanation": "We — это мы, несколько человек. Для you/we/they используется are."
+      "explanation": "Форма зависит от подлежащего: am — только с I, is — с he/she/it и с одним человеком или предметом, are — с you/we/they и когда людей несколько."
+    },
+    {
+      "id": 2,
+      "items": [
+        {
+          "sentence": "You ___ my best friend.",
+          "contextRu": "",
+          "answer": "are",
+          "alternatives": []
+        },
+        {
+          "sentence": "He ___ busy today.",
+          "contextRu": "",
+          "answer": "is",
+          "alternatives": []
+        },
+        {
+          "sentence": "We ___ late.",
+          "contextRu": "",
+          "answer": "are",
+          "alternatives": []
+        }
+      ],
+      "explanation": "С you всегда are — и когда это «ты», и когда «вы». We — тоже are. А he — третье лицо единственного числа, там is."
     },
     {
       "id": 3,
       "items": [
         {
-          "sentence": "He ___ at work today.",
-          "contextRu": "сделай отрицание",
+          "sentence": "Vera ___ in the office today.",
+          "contextRu": "",
           "answer": "isn't",
-          "alternatives": [
-            "is not"
-          ]
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ hungry.",
+          "contextRu": "",
+          "answer": "am not",
+          "alternatives": []
+        },
+        {
+          "sentence": "Tyoma and Olya ___ ready.",
+          "contextRu": "",
+          "answer": "aren't",
+          "alternatives": []
         }
       ],
-      "explanation": "Отрицание с he: is + not = is not = isn't."
+      "explanation": "Отрицание — это not сразу после формы to be. Vera → is not = isn't. С I краткой формы нет, пишем am not. Тёма и Оля — это «они», значит are not = aren't.",
+      "taskDescription": "Сделай каждое предложение отрицательным."
     },
     {
       "id": 4,
       "items": [
         {
-          "sentence": "___ she at school?",
+          "sentence": "___ they at the market?",
+          "contextRu": "",
+          "answer": "Are",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ Denis your brother?",
           "contextRu": "",
           "answer": "Is",
           "alternatives": []
+        },
+        {
+          "sentence": "___ I too late?",
+          "contextRu": "",
+          "answer": "Am",
+          "alternatives": []
         }
       ],
-      "explanation": "She — 3-е лицо единственного числа. Вопрос: Is she...?"
+      "explanation": "Форму выбираем по подлежащему, а в вопросе ставим её первой: they → Are they…?, Denis (он) → Is Denis…?, I → Am I…?",
+      "taskDescription": "Впиши форму to be, с которой начинается вопрос."
     },
     {
       "id": 5,
@@ -20297,7 +20367,7 @@
       "lines": [
         {
           "speaker": "A",
-          "text": "Is your brother a doctor?"
+          "text": "Katya is a nurse."
         },
         {
           "speaker": "B",
@@ -20306,19 +20376,19 @@
       ],
       "options": [
         {
-          "text": "No, he isn't. He's a teacher.",
+          "text": "No, she isn't. She's a teacher.",
           "isCorrect": true
         },
         {
-          "text": "No, he aren't. He's a teacher.",
+          "text": "No, she aren't. She's a teacher.",
           "isCorrect": false
         },
         {
-          "text": "No, he am not. He's a teacher.",
+          "text": "No, she am not. She's a teacher.",
           "isCorrect": false
         }
       ],
-      "explanation": "He → is → отрицание: he isn't (= he is not). \"He aren't\" и \"he am not\" — неверные формы для he."
+      "explanation": "She → is → отрицание isn't (= is not). «She aren't» и «she am not» — чужие формы: aren't для you/we/they, am not для I."
     },
     {
       "id": 2,
@@ -20334,19 +20404,19 @@
       ],
       "options": [
         {
-          "text": "\"Yes, they is. They're having dinner.\"",
+          "text": "Yes, they is.",
           "isCorrect": false
         },
         {
-          "text": "\"Yes, they am. They're having dinner.\"",
+          "text": "Yes, they am.",
           "isCorrect": false
         },
         {
-          "text": "\"Yes, they are. They're having dinner.\"",
+          "text": "Yes, they are.",
           "isCorrect": true
         }
       ],
-      "explanation": "Parents = they → \"Yes, they **are**\". \"they is\" / \"they am\" — неверные формы to be для they."
+      "explanation": "Parents — это они, значит форма are, и короткий ответ повторяет её: Yes, they are. Формы «they is» и «they am» не существуют."
     },
     {
       "id": 3,
