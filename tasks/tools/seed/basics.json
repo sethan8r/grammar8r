@@ -968,113 +968,119 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "`Have` и `has` — это глагол «иметь, обладать». Главное, что нужно понять: в английском без него нельзя сказать «у меня есть»."
+          "text": "`Have` и `has` — глагол «иметь, обладать», и именно им англичанин говорит то, что мы говорим оборотом «у меня есть»."
         },
         {
           "type": "paragraph",
-          "text": "По-русски: «У меня есть кошка» — подлежащее (я) прячется внутри «у меня». В английском всё переворачивается: I **have** a cat. — дословно «Я имею кошку». *Субъект всегда на первом месте, глагол идёт следом.*"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Have не только для вещей.** Глагол have — один из самых многозначных в английском. Вот все его роли:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**Владение вещами:** I have a car. — *У меня есть машина.* She has a laptop. — *У неё есть ноутбук.*",
-            "**Отношения:** He has a brother. — *У него есть брат.* We have a new neighbour. — *У нас новый сосед.*",
-            "**Внешность и части тела:** She has long hair. — *У неё длинные волосы.* He has blue eyes. — *У него голубые глаза.*",
-            "**Физические состояния:** I have a cold. — *У меня простуда.* She has a headache. — *У неё болит голова.*",
-            "**Еда и напитки:** Let's have lunch. — *Давай пообедаем.* Do you want to have a coffee? — *Хочешь выпить кофе?*",
-            "**Опыт:** Have a look. — *Взгляни.* `Have fun!` — *Получи удовольствие!*"
-          ]
-        },
-        {
-          "type": "callout",
-          "variant": "tip",
-          "label": "Пока запомни главное",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "text": "Для владения, отношений и состояний — have/has. Остальные значения встретятся в примерах и отложатся сами."
-            }
-          ]
+          "text": "Разница между языками тут глубже, чем кажется. По-русски владелец прячется в косвенный падеж: «У меня есть кошка» — главное слово в предложении вовсе не «я», а «кошка», она и есть подлежащее. Английский смотрит на ситуацию наоборот: главный тут владелец, он и стоит первым, а дальше идёт глагол — **I have a cat**, дословно «я имею кошку»."
         },
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Одна важная ловушка",
+          "label": "Ловушка",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "Have в значении «владения» **не используется в форме Continuous**. Нельзя сказать I am having a car — только I have a car. Про Continuous мы ещё не дошли, но запомни уже сейчас: «у меня есть» — это всегда have, без am/is/are."
+              "text": "Русская конструкция тянет начать предложение с «у меня» и получается **Me have a cat** ✗ или **At me is a cat** ✗. Английскому нужен обычный деятель в начале: **I have a cat** ✓, **She has a brother** ✓."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Правило выбора формы:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**have** — с I, you, we, they",
-            "**has** — с he, she, it (3-е лицо единственного числа — та же логика, что у to be)"
-          ]
+          "type": "heading",
+          "text": "have или has — по лицу"
         },
         {
           "type": "table",
           "header": [
-            "Кто",
+            "Подлежащее",
             "Форма",
             "Пример"
           ],
           "rows": [
             [
               "I",
-              "**have**",
+              "have",
               "I have a car."
             ],
             [
               "you",
-              "**have**",
+              "have",
               "You have a good job."
             ],
             [
               "he",
-              "**has**",
+              "has",
               "He has a brother."
             ],
             [
               "she",
-              "**has**",
+              "has",
               "She has long hair."
             ],
             [
               "it",
-              "**has**",
+              "has",
               "It has four wheels."
             ],
             [
               "we",
-              "**have**",
+              "have",
               "We have a meeting today."
             ],
             [
               "they",
-              "**have**",
+              "have",
               "They have two cats."
             ]
           ]
         },
         {
           "type": "paragraph",
-          "text": "Краткой формы у have/has в значении «владения» нет — только полная. `I've` существует, но это часть других конструкций (Present Perfect) — не простого «у меня есть»."
+          "text": "Логика ровно та же, что у `to be`: третье лицо единственного числа (he/she/it) получает отдельную форму, у всех остальных — общая."
+        },
+        {
+          "type": "heading",
+          "text": "have — не только про вещи"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**вещи:** **I have a car.** — *У меня есть машина.*",
+            "**родня и знакомые:** **He has a brother.** — *У него есть брат.*",
+            "**внешность:** **She has long hair.** — *У неё длинные волосы.*",
+            "**самочувствие:** **I have a headache.** — *У меня болит голова.*",
+            "**еда и время:** **Let's have lunch.** — *Давай пообедаем.*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Специально это заучивать не нужно — держите в голове владение, родню и состояния, остальное наберётся из примеров."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В значении «у меня есть» have никогда не превращается в длящееся действие: **I am having a car** ✗ — так не говорят, только **I have a car** ✓. Почему у глаголов бывает такая особенность, подробно разберём в теме «Present Continuous»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сокращения `I've` в значении «у меня есть» тоже не бывает — оно живёт в другой конструкции, до которой мы дойдём позже. Здесь пишем и говорим полностью: **I have**."
+            }
+          ]
         }
       ],
-      "theorySummary": "have — с I/you/we/they. has — с he/she/it. По-русски: «У меня есть» = `I have`. Краткой формы для «владения» нет.",
+      "theorySummary": "`Have` — это «иметь», и русскому «у меня есть» соответствует именно он: владелец становится обычным подлежащим и встаёт первым — **I have a cat**, а не «у меня». Форма зависит от лица: `have` с `I/you/we/they`, `has` с `he/she/it` — та же логика, что у `to be`. Работает глагол не только с вещами, но и с роднёй, внешностью и самочувствием: **She has long hair**, **I have a headache**. Сокращать его в этом значении нельзя.",
       "examples": [
         {
           "ru": "У меня есть собака.",
@@ -1102,9 +1108,9 @@
         }
       ],
       "clarificationOptions": [
-        "Почему has, а не have — для he/she/it",
-        "Разница \"I have\" и \"у меня есть\" по-русски",
-        "Можно ли сказать \"I've a cat\""
+        "Почему у he/she/it форма has, а у всех остальных have?",
+        "Почему англичанин говорит «я имею», а мы — «у меня есть»?",
+        "Можно ли сказать I've a cat, как сокращают I'm?"
       ]
     },
     {
@@ -1115,31 +1121,34 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Чтобы сказать «у меня нет» — используем **don't have** или **doesn't have**."
+          "text": "С `to be` всё было просто: поставил `not` после глагола — и готово. С `have` этот приём не работает, и здесь английский впервые показывает своё главное устройство."
         },
         {
           "type": "heading",
-          "text": "Почему появляется do/does?"
+          "text": "Почему одного not не хватает"
         },
         {
           "type": "paragraph",
-          "text": "В английском `have` — обычный глагол. У обычных глаголов есть правило: чтобы сделать отрицание, нужен вспомогательный глагол **do** или **does**. Само `have` прямо отрицать нельзя."
-        },
-        {
-          "type": "paragraph",
-          "text": "Сравни с to be: to be — особенный глагол, он отрицается напрямую: She **is** at home → She **isn't** at home. Но have — обычный, поэтому нужен помощник:"
+          "text": "Глагол `to be` в английском особенный: он умеет отрицать себя сам — **She is at home** → **She isn't at home**. А `have` — обычный глагол, каких в языке тысячи, и все обычные глаголы отрицаются только через помощника `do/does`:"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "She **has** a car. — *У неё есть машина.*",
-            "She **doesn't have** a car. — *У неё нет машины.*"
+            "**She has a car.** — *У неё есть машина.*",
+            "**She doesn't have a car.** — *У неё нет машины.*"
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Схема: **do/does + not + have** = don't have / doesn't have."
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Do/does + not + have."
+            }
+          ]
         },
         {
           "type": "table",
@@ -1189,24 +1198,24 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Главная ловушка",
+          "label": "Ловушка",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "Когда добавляем **doesn't** (для he/she/it), сам глагол have НЕ получает -s. Отрицание уже несёт форму для 3-го лица: She doesn't **have** — не she doesn't has. Ошибка `doesn't has` — очень распространённая."
+              "text": "После `doesn't` сам глагол теряет форму третьего лица — пишем **She doesn't have** ✓, а не **She doesn't has** ✗. Ошибка эта у русскоязычных едва ли не самая частая: рука помнит, что «у неё» требует has, и ставит его дважды."
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "**Почему так:** `doesn't` уже «отвечает» за 3-е лицо (он/она/оно). Если добавить ещё `-s` к have, получится двойное обозначение одного и того же — в английском такого не бывает. Запомни: doesn't = does + not, и does уже несёт всю нагрузку."
+          "text": "Причина простая и её стоит понять один раз: `doesn't` — это `does + not`, и признак третьего лица уже сидит внутри `does`. Английский помечает лицо ровно один раз: как только помощник взял это на себя, основной глагол возвращается к своей обычной форме. Дальше в курсе это правило встретится ещё много раз — оно работает со всеми обычными глаголами, не только с have."
         },
         {
           "type": "paragraph",
-          "text": "В разговоре всегда используй краткие формы: I don't have, she doesn't have. Полные (do not have, does not have) — для официального текста или для особого акцента: I do **not** have time for this! — *У меня реально нет на это времени!*"
+          "text": "В речи почти всегда звучат краткие формы: **I don't have**, **she doesn't have**. Полные остаются для официального текста и для нажима: **I do not have time for this!**"
         }
       ],
-      "theorySummary": "don't have — с I/you/we/they. doesn't have — с he/she/it. После doesn't — всегда `have`, не `has`.",
+      "theorySummary": "`Have` — обычный глагол, поэтому сам себя отрицать не умеет и зовёт помощника: `don't have` с `I/you/we/they`, `doesn't have` с `he/she/it`. Главное — после `doesn't` глагол возвращается в простую форму: **She doesn't have** ✓, **She doesn't has** ✗, потому что третье лицо уже помечено внутри `does`, а дважды английский его не отмечает. В речи говорят кратко: don't have, doesn't have.",
       "examples": [
         {
           "ru": "У меня нет машины.",
@@ -1230,9 +1239,9 @@
         }
       ],
       "clarificationOptions": [
-        "Почему \"doesn't has\" — ошибка",
-        "Разница don't have и doesn't have",
-        "Почему в отрицании do/does, а не просто not"
+        "Почему doesn't has — ошибка, ведь речь про «она»?",
+        "Как выбрать между don't have и doesn't have?",
+        "Откуда в отрицании взялся do/does, если в утверждении его не было?"
       ]
     },
     {
@@ -1243,15 +1252,7 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Вопрос с have/has строится с помощью вспомогательного глагола **do** или **does**, который встаёт перед подлежащим."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**do** — с I, you, we, they",
-            "**does** — с he, she, it"
-          ]
+          "text": "Вопрос с `have` устроен так же, как отрицание: сам глагол ничего не делает, всю работу берёт на себя помощник. Только теперь `do` или `does` не просто появляется в предложении, а выходит вперёд — встаёт перед подлежащим."
         },
         {
           "type": "callout",
@@ -1260,14 +1261,14 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Do/Does + подлежащее + have + остальное + ?**"
+              "text": "Do/Does + подлежащее + have + остальное + ?"
             }
           ]
         },
         {
           "type": "table",
           "header": [
-            "Местоимение",
+            "Подлежащее",
             "Вопрос",
             "Краткий ответ"
           ],
@@ -1285,60 +1286,61 @@
           ]
         },
         {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "С `to be` вопрос строился перестановкой самого глагола — **Are you ready?**, и рука по этой памяти выдаёт **Have you a car?** ✗. С обычными глаголами так не делают: вперёд выходит помощник, а have остаётся на своём месте — **Do you have a car?** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "И здесь после `does` глагол теряет форму третьего лица: **Does she have a job?** ✓, **Does she has a job?** ✗ — ровно по той же причине, что и в отрицании."
+            }
+          ]
+        },
+        {
           "type": "heading",
-          "text": "Краткие ответы — как они устроены:"
+          "text": "Короткий ответ — одним помощником"
         },
         {
           "type": "paragraph",
-          "text": "Yes, I do. — слово `do` здесь заменяет весь оборот `do have`. Это удобно: не нужно повторять весь глагол."
+          "text": "Повторять весь глагол в ответе не нужно, достаточно того самого do/does:"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "Do you have a pen? → Yes, I do. *(= Yes, I have a pen)*",
-            "Does she have a job? → No, she doesn't. *(= No, she doesn't have a job)*",
-            "Do they have tickets? → Yes, they do. *(= Yes, they have tickets)*"
+            "Do you have a pen? → **Yes, I do.** *(= у меня есть ручка)*",
+            "Does she have a job? → **No, she doesn't.**",
+            "Do they have tickets? → **Yes, they do.**"
           ]
         },
         {
           "type": "paragraph",
-          "text": "**Развёрнутый ответ** тоже возможен — если хочешь добавить подробности:"
+          "text": "Дальше ответ можно продолжить, если есть что добавить: **Do you have a brother? — Yes, I do. His name is Alex.**"
         },
         {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Do you have a brother? → Yes, I do. His name is Alex. — *Да. Его зовут Алекс.*",
-            "Does he have a car? → No, he doesn't. He takes the bus. — *Нет. Он ездит на автобусе.*"
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Тот же `do` иногда ставят в утверждение, чтобы поспорить: — **You don't have a car.** — **I do have a car!** Здесь он звучит с нажимом и означает «всё-таки есть, что бы ты там ни говорил»."
+            }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**Сокращать do/does в кратком положительном ответе нельзя:** Yes, I do. — правильно. Сокращение внутри предложения работает: I don't have, She doesn't have — но не в конце краткого ответа."
-        },
-        {
-          "type": "paragraph",
-          "text": "**Акцентное `do`:** иногда do используется для подчёркивания:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "A: You don't have a car. — *У тебя нет машины.*",
-            "B: I **do** have a car! — *У меня ЕСТЬ машина!* (акцент)"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Здесь `do` звучит с ударением и означает «всё-таки есть, несмотря на то что ты говоришь»."
-        },
-        {
-          "type": "paragraph",
-          "text": "И снова: после does в вопросе — `have`, не `has`. Does she have? — правильно. Does she has? — ошибка."
         }
       ],
-      "theorySummary": "Вопрос: Do/Does + подлежащее + have? Does — для he/she/it. После does — have (не has). Краткий ответ: Yes, I do. / No, she doesn't.",
+      "theorySummary": "Вопрос с `have` строит помощник: `Do`/`Does` выходит вперёд, перед подлежащее, а сам глагол остаётся простым — **Do you have a car?**, **Does she have a job?** Двух ошибок стоит остерегаться: не переставлять сам глагол на манер `to be` (**Have you a car?** ✗) и не добавлять `-s` после does (**Does she has** ✗). Короткий ответ повторяет только помощника: **Yes, I do.** / **No, she doesn't.**",
       "examples": [
         {
           "ru": "У тебя есть брат?",
@@ -1366,9 +1368,9 @@
         }
       ],
       "clarificationOptions": [
-        "Разница Do have и Does have",
-        "Почему \"Does she has?\" — ошибка",
-        "Краткий ответ \"Yes, I do\" — что за do в конце"
+        "Как выбрать между Do и Does в вопросе?",
+        "Почему после Does пишут have, а не has?",
+        "Что за do в ответе Yes, I do — куда делся сам глагол?"
       ]
     },
     {
@@ -12462,7 +12464,7 @@
       "id": "basics_card7_ex1",
       "cardId": 7,
       "title": "Составь предложение с have/has",
-      "userInstruction": "AI даст местоимение и существительное. Составь из них предложение с правильной формой have или has.",
+      "userInstruction": "ИИ пришлёт набор из подлежащего и того, чем человек владеет. Составь из них предложение с правильной формой have или has.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     },
@@ -12470,7 +12472,7 @@
       "id": "basics_card8_ex1",
       "cardId": 8,
       "title": "Сделай отрицание с have/has",
-      "userInstruction": "AI даст утвердительное предложение с have/has. Перепиши его в отрицательной форме.",
+      "userInstruction": "ИИ пришлёт одно утвердительное предложение. Перепиши его так, чтобы получилось отрицание.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     },
@@ -12478,7 +12480,7 @@
       "id": "basics_card9_ex1",
       "cardId": 9,
       "title": "Составь вопрос: Do/Does have?",
-      "userInstruction": "AI даст русский вопрос о владении и слова-подсказки. Составь вопрос на английском с правильным Do или Does.",
+      "userInstruction": "ИИ пришлёт вопрос по-русски и слова-подсказки. Задай этот же вопрос по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     },
@@ -15209,8 +15211,8 @@
           "isTrue": true
         },
         {
-          "en": "He have a meeting at 5.",
-          "ru": "У него встреча в 5.",
+          "en": "Oleg have a new job.",
+          "ru": "У Олега новая работа.",
           "isTrue": false
         },
         {
@@ -15224,7 +15226,7 @@
           "isTrue": true
         }
       ],
-      "explanation": "She/he → has (не have). They/I → have (не has). My dog = it = 3-е лицо → has."
+      "explanation": "She и Oleg — это «она» и «он», третье лицо единственного числа → has. They и I → have. My dog — «оно» → has."
     },
     {
       "id": 8,
@@ -15240,8 +15242,8 @@
           "isTrue": true
         },
         {
-          "en": "He don't have a job.",
-          "ru": "У него нет работы.",
+          "en": "Tyoma don't have a job.",
+          "ru": "У Тёмы нет работы.",
           "isTrue": false
         },
         {
@@ -15250,12 +15252,12 @@
           "isTrue": true
         },
         {
-          "en": "We doesn't have a car.",
-          "ru": "У нас нет машины.",
-          "isTrue": false
+          "en": "My phone doesn't have a camera.",
+          "ru": "У моего телефона нет камеры.",
+          "isTrue": true
         }
       ],
-      "explanation": "she/he/it → doesn't have (не \"doesn't has\", не \"don't have\"). I/you/we/they → don't have (не \"doesn't have\")."
+      "explanation": "После doesn't глагол остаётся простым: doesn't have, а не doesn't has. Tyoma — это «он», ему нужен doesn't, а не don't."
     },
     {
       "id": 9,
@@ -15281,12 +15283,12 @@
           "isTrue": true
         },
         {
-          "en": "Does she has a job?",
-          "ru": "У неё есть работа?",
+          "en": "Does Vera has a ticket?",
+          "ru": "У Веры есть билет?",
           "isTrue": false
         }
       ],
-      "explanation": "she/he/it → Does. we/they/you → Do. После does → have (не has)."
+      "explanation": "She → Does, they → Do. А после Does глагол остаётся простым: Does Vera have, а не Does Vera has."
     },
     {
       "id": 10,
@@ -16313,37 +16315,38 @@
     },
     {
       "id": 6,
-      "situationRu": "RU: У него есть синяя машина.",
-      "correctSentence": "He has a blue car.",
+      "situationRu": "RU: У неё длинные волосы.",
+      "correctSentence": "She has long hair.",
       "words": [
-        "He",
+        "She",
         "has",
-        "a",
-        "blue",
-        "car"
+        "long",
+        "hair"
       ],
       "distractors": [
         "have",
-        "She"
+        "He",
+        "is"
       ],
-      "explanation": "He → has (не have). A blue car = синяя машина. She/have — неверные формы для he."
+      "explanation": "She — третье лицо единственного числа, значит has. Have идёт с I/you/we/they, а to be рядом с have не нужен."
     },
     {
       "id": 7,
-      "situationRu": "RU: У неё нет домашних животных.",
-      "correctSentence": "She doesn't have any pets.",
+      "situationRu": "RU: У меня нет ключей.",
+      "correctSentence": "I don't have any keys.",
       "words": [
-        "She",
-        "doesn't",
+        "I",
+        "don't",
         "have",
         "any",
-        "pets"
+        "keys"
       ],
       "distractors": [
-        "don't",
-        "has"
+        "doesn't",
+        "has",
+        "She"
       ],
-      "explanation": "She → doesn't have (не \"don't have\", не \"doesn't has\"). Any pets = домашних животных. \"Don't\" — для I/you/we/they. \"Has\" — в отрицании с doesn't использовать нельзя."
+      "explanation": "I → don't have. Doesn't идёт только с he/she/it, а has после помощника не ставится вообще."
     },
     {
       "id": 8,
@@ -17214,7 +17217,7 @@
     {
       "id": 7,
       "choiceType": "CHOICE",
-      "prompt": "My sister ___ a new phone.",
+      "prompt": "Denis ___ a big family.",
       "contextRu": "",
       "options": [
         {
@@ -17222,41 +17225,41 @@
           "isCorrect": false
         },
         {
-          "text": "has",
-          "isCorrect": true
-        },
-        {
           "text": "is have",
           "isCorrect": false
+        },
+        {
+          "text": "has",
+          "isCorrect": true
         }
       ],
-      "explanation": "My sister = she = 3-е лицо ед.ч. → has. \"have\" — для I/you/we/they. \"is have\" — такой формы не существует."
+      "explanation": "Denis — это «он», третье лицо единственного числа, там форма has. Have идёт с I/you/we/they, а формы «is have» не существует."
     },
     {
       "id": 7,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "У нас есть план.",
+      "prompt": "У них есть два билета.",
       "contextRu": "",
       "options": [
         {
-          "text": "We has a plan.",
-          "isCorrect": false
-        },
-        {
-          "text": "We have a plan.",
+          "text": "They have two tickets.",
           "isCorrect": true
         },
         {
-          "text": "We are have a plan.",
+          "text": "They has two tickets.",
+          "isCorrect": false
+        },
+        {
+          "text": "They are have two tickets.",
           "isCorrect": false
         }
       ],
-      "explanation": "We → have. \"We has\" — ошибка: has только с he/she/it. \"are have\" — не существует."
+      "explanation": "They → have. Has бывает только с he/she/it, а глагол to be рядом с have не ставится вообще."
     },
     {
       "id": 8,
       "choiceType": "CHOICE",
-      "prompt": "She ___ a car.",
+      "prompt": "My brother ___ a laptop.",
       "contextRu": "",
       "options": [
         {
@@ -17264,62 +17267,62 @@
           "isCorrect": false
         },
         {
-          "text": "doesn't have",
-          "isCorrect": true
-        },
-        {
           "text": "doesn't has",
           "isCorrect": false
+        },
+        {
+          "text": "doesn't have",
+          "isCorrect": true
         }
       ],
-      "explanation": "She — 3-е лицо ед.ч. → doesn't have. \"don't have\" — для I/you/we/they. \"doesn't has\" — ошибка: после doesn't глагол have остаётся в базовой форме."
+      "explanation": "My brother — это «он», значит помощник does. А после doesn't глагол стоит в простой форме: doesn't have, не doesn't has."
     },
     {
       "id": 8,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "У него нет сестёр.",
+      "prompt": "У нас нет машины.",
       "contextRu": "",
       "options": [
         {
-          "text": "He don't have sisters.",
+          "text": "We doesn't have a car.",
           "isCorrect": false
         },
         {
-          "text": "He doesn't have any sisters.",
+          "text": "We don't have a car.",
           "isCorrect": true
         },
         {
-          "text": "He doesn't has sisters.",
+          "text": "We don't has a car.",
           "isCorrect": false
         }
       ],
-      "explanation": "He → doesn't have. \"don't have\" — только с I/you/we/they. \"doesn't has\" — ошибка: после doesn't используется базовая форма \"have\"."
+      "explanation": "We → don't have. Doesn't бывает только с he/she/it, а форма has после помощника не ставится никогда."
     },
     {
       "id": 4,
       "choiceType": "REVERSE_CHOICE",
-      "prompt": "My brother doesn't have a bike.",
+      "prompt": "Olya doesn't have a car.",
       "contextRu": "",
       "options": [
         {
-          "text": "У моего брата нет велосипеда.",
+          "text": "У Оли нет машины.",
           "isCorrect": true
         },
         {
-          "text": "Мой брат не едет на велосипеде.",
+          "text": "Оля не водит машину.",
           "isCorrect": false
         },
         {
-          "text": "Мой брат не любит велосипеды.",
+          "text": "Оля не любит машины.",
           "isCorrect": false
         }
       ],
-      "explanation": "doesn't have = нет (у него). My brother = у моего брата. A bike = велосипед."
+      "explanation": "doesn't have — это «нет, не имеет». Речь именно про владение, а не про действие или отношение к машинам."
     },
     {
       "id": 9,
       "choiceType": "CHOICE",
-      "prompt": "___ she have a driving licence?",
+      "prompt": "___ Lena have a bike?",
       "contextRu": "",
       "options": [
         {
@@ -17327,57 +17330,57 @@
           "isCorrect": false
         },
         {
-          "text": "Does",
-          "isCorrect": true
-        },
-        {
           "text": "Is",
           "isCorrect": false
+        },
+        {
+          "text": "Does",
+          "isCorrect": true
         }
       ],
-      "explanation": "She — 3-е лицо ед.ч. → Does. \"Do\" — для I/you/we/they. \"Is\" — это вопрос с to be, не с have."
+      "explanation": "Lena — это «она», третье лицо единственного числа, значит помощник Does. Do идёт с I/you/we/they, а Is начинает вопрос с to be, где помощник не нужен."
     },
     {
       "id": 9,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "У него есть кредитная карта?",
+      "prompt": "У неё есть работа?",
       "contextRu": "",
       "options": [
         {
-          "text": "Have he a credit card?",
+          "text": "Has she a job?",
           "isCorrect": false
         },
         {
-          "text": "Do he have a credit card?",
-          "isCorrect": false
-        },
-        {
-          "text": "Does he have a credit card?",
+          "text": "Does she have a job?",
           "isCorrect": true
+        },
+        {
+          "text": "Do she have a job?",
+          "isCorrect": false
         }
       ],
-      "explanation": "He — 3-е лицо → Does. \"Have he\" — неверный порядок слов, так не говорят. \"Do he\" — ошибка: с he только Does."
+      "explanation": "Вопрос строит помощник, а не сам глагол: she → Does she have…? Переставлять has, как глагол to be, нельзя, и Do с she не сочетается."
     },
     {
       "id": 5,
       "choiceType": "REVERSE_CHOICE",
-      "prompt": "Do they have a washing machine?",
+      "prompt": "Does your sister have a dog?",
       "contextRu": "",
       "options": [
         {
-          "text": "У них есть стиральная машина?",
+          "text": "У твоей сестры есть собака?",
           "isCorrect": true
         },
         {
-          "text": "Они стирают?",
+          "text": "Твоя сестра хочет собаку?",
           "isCorrect": false
         },
         {
-          "text": "Они хотят стиральную машину?",
+          "text": "Твоя сестра любит собак?",
           "isCorrect": false
         }
       ],
-      "explanation": "Do they have = у них есть? A washing machine = стиральная машина."
+      "explanation": "Does … have — это вопрос про владение, «есть ли у неё». Про желание или отношение здесь речи нет."
     },
     {
       "id": 10,
@@ -19942,9 +19945,22 @@
           "contextRu": "",
           "answer": "has",
           "alternatives": []
+        },
+        {
+          "sentence": "My friends ___ a small boat.",
+          "contextRu": "",
+          "answer": "have",
+          "alternatives": []
+        },
+        {
+          "sentence": "Vienna ___ a lot of parks.",
+          "contextRu": "",
+          "answer": "has",
+          "alternatives": []
         }
       ],
-      "explanation": "He — 3-е лицо единственного числа → has."
+      "explanation": "Форму выбираем по подлежащему: he — третье лицо единственного числа → has. My friends — это «они» → have. Vienna — город, то есть «оно» → снова has.",
+      "taskDescription": "Впиши нужную форму глагола to have."
     },
     {
       "id": 7,
@@ -19954,9 +19970,22 @@
           "contextRu": "",
           "answer": "don't have",
           "alternatives": []
+        },
+        {
+          "sentence": "Igor ___ a car.",
+          "contextRu": "",
+          "answer": "doesn't have",
+          "alternatives": []
+        },
+        {
+          "sentence": "My neighbours ___ a garden.",
+          "contextRu": "",
+          "answer": "don't have",
+          "alternatives": []
         }
       ],
-      "explanation": "We → don't have."
+      "explanation": "Помощника выбираем по подлежащему: we и my neighbours — это «мы» и «они» → don't have. Igor — «он» → doesn't have, и глагол при этом остаётся в простой форме.",
+      "taskDescription": "Сделай каждое предложение отрицательным."
     },
     {
       "id": 8,
@@ -19966,9 +19995,22 @@
           "contextRu": "",
           "answer": "Do",
           "alternatives": []
+        },
+        {
+          "sentence": "___ Denis have a car?",
+          "contextRu": "",
+          "answer": "Does",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ we have time for a coffee?",
+          "contextRu": "",
+          "answer": "Do",
+          "alternatives": []
         }
       ],
-      "explanation": "Your parents = they → Do."
+      "explanation": "Помощника выбираем по подлежащему: your parents — это «они» → Do, Denis — «он» → Does, we → Do.",
+      "taskDescription": "Начни каждый вопрос нужной формой."
     },
     {
       "id": 9,
@@ -20490,19 +20532,19 @@
       ],
       "options": [
         {
-          "text": "\"Yes, I have. What's up?\"",
+          "text": "Yes, I have. What's up?",
           "isCorrect": false
         },
         {
-          "text": "\"Yes, I am. What's up?\"",
+          "text": "Yes, I am. What's up?",
           "isCorrect": false
         },
         {
-          "text": "\"Yes, I do. What's up?\"",
+          "text": "Yes, I do. What's up?",
           "isCorrect": true
         }
       ],
-      "explanation": "Вопрос с **Do you...?** → краткий ответ **Yes, I do**. \"Yes, I have\" — have не повторяет вспомогательный do. \"Yes, I am\" — am отвечает на вопрос с to be, а не с do."
+      "explanation": "Короткий ответ повторяет помощника из вопроса: спросили Do you — отвечаем Yes, I do. Сам глагол have в ответе не повторяют, а am отвечает на вопрос с to be."
     },
     {
       "id": 5,
