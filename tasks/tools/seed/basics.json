@@ -1665,112 +1665,125 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "**The** — **определённый артикль**. Если `a/an` значит «один какой-то, неважно какой», то `the` значит «вот этот конкретный, тот самый». И ты, и собеседник знаете, о каком именно предмете речь."
+          "text": "Артикль `a/an` мы уже разобрали: «один какой-то, неважно какой». У него есть напарник — `the`, и значит он ровно обратное: «тот самый, о котором мы оба знаем». Русский решает это интонацией и порядком слов («На столе лежит книга» — какая-то, «Книга лежит на столе» — та самая), а англичанину достаточно поменять артикль."
         },
         {
           "type": "heading",
-          "text": "Когда использовать the:"
+          "text": "a знакомит, the продолжает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самый частый случай — предмет упоминается второй раз. В первый раз собеседник о нём ещё ничего не знает, поэтому идёт `a`. Во второй раз предмет уже знаком обоим — идёт `the`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I see a bird.** — *Я вижу птицу.* Какую-то, слушатель её пока не знает.",
+            "**The bird is on the roof.** — *Птица на крыше.* Та самая, уже знакомая."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Так устроен почти любой рассказ: новое вводим через `a`, дальше говорим про него `the`."
         },
         {
           "type": "heading",
-          "text": "1. Предмет уже упоминался — теперь он конкретный:"
+          "text": "Когда предмет и так один на двоих"
         },
         {
           "type": "paragraph",
-          "text": "I saw **a** dog on the street. — *Я увидел собаку на улице.* ← первый раз: a dog (какая-то собака)"
+          "text": "Упоминать заранее не обязательно — часто из обстановки и так ясно, о чём речь. В комнате одно окно, на столе одна солонка, и собеседник поймёт без пояснений:"
         },
         {
-          "type": "paragraph",
-          "text": "**The** dog was huge. — *Собака была огромной.* ← второй раз: the dog (та самая, уже известная)"
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Close the window, please.** — *Закрой окно, пожалуйста.*",
+            "**Can you pass the salt?** — *Передай соль.*"
+          ]
         },
         {
-          "type": "paragraph",
-          "text": "Логика: первый раз — `a`, потому что собака ещё незнакома. Второй раз — `the`, потому что мы уже знаем о какой собаке речь."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Здесь рука новичка чаще всего выбрасывает артикль совсем — **Close window** ✗. Русскому предложению служебное слово не нужно, английскому нужно всегда: **Close the window** ✓."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "2. Когда из контекста ясно о каком предмете речь:"
+          "text": "Единственный в своём роде"
         },
         {
           "type": "paragraph",
-          "text": "Close **the** window, please. — *Закрой окно, пожалуйста.* ← в комнате одно окно, ясно какое"
-        },
-        {
-          "type": "paragraph",
-          "text": "Can you pass **the** salt? — *Передай соль.* ← на столе соль стоит, понятно о какой"
-        },
-        {
-          "type": "paragraph",
-          "text": "I went to **the** doctor. — *Я пошёл к врачу.* ← к своему врачу, не к случайному"
+          "text": "Если предмет во всём мире один, выбирать просто не из чего — он всегда `the`: **the sun**, **the moon**, **the sky**, **the Eiffel Tower**. Сказать **a sun** можно было бы, только если бы солнц было несколько."
         },
         {
           "type": "heading",
-          "text": "3. Единственный в своём роде:"
+          "text": "Названия, которые без the не бывают"
         },
         {
           "type": "paragraph",
-          "text": "**The** sun is bright today. — Солнце одно."
+          "text": "Реки, океаны, моря и горные цепи английский всегда называет с артиклем: **the Nile**, **the Amazon**, **the Pacific Ocean**, **the Alps**."
         },
         {
-          "type": "paragraph",
-          "text": "**The** moon is full. — Луна одна."
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Со странами всё наоборот. Обычная страна артикля не требует — **Russia**, **France**, **Japan**, **Poland**. `The` берут только те, чьё название описательное: **the UK**, **the USA**, **the Netherlands**."
+            }
+          ]
         },
         {
-          "type": "paragraph",
-          "text": "**The** Eiffel Tower is in Paris. — Эйфелева башня одна."
-        },
-        {
-          "type": "heading",
-          "text": "4. Реки, океаны, моря, горные цепи:"
-        },
-        {
-          "type": "paragraph",
-          "text": "`**The** Amazon`, `**the** Nile`, **the** Pacific Ocean, `**the** Alps` — всегда с the."
-        },
-        {
-          "type": "heading",
-          "text": "5. Страны с `the` в официальном названии:"
-        },
-        {
-          "type": "paragraph",
-          "text": "`**The** UK`, `**the** USA`, `**the** Netherlands` — с the. Обычные страны — без: `Russia`, `France`, `Japan`."
-        },
-        {
-          "type": "paragraph",
-          "text": "**Чего нет в русском:** в русском «тот самый» можно выразить интонацией или указательным словом «эта/та». В английском для этого есть the — и предложение без него прозвучит как будто это впервые упоминается или ничего конкретного."
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Имена людей и названия городов артикля не требуют никогда: **Igor is at home**, **Vienna is beautiful**."
+            }
+          ]
         }
       ],
-      "theorySummary": "the = «тот самый, конкретный». Используй: когда уже упомянуто, когда ясно из контекста, когда единственный в своём роде. Реки, океаны, моря — всегда the.",
+      "theorySummary": "`The` — это «тот самый, известный нам обоим», в отличие от `a/an` — «один какой-то». Ставим его, когда предмет уже упоминался (**I see a bird** → **The bird is on the roof**), когда он ясен из обстановки (**Close the window**) и когда он единственный в своём роде: **the sun**, **the moon**, **the sky**. Реки, океаны и горные цепи идут с `the` всегда — **the Nile**, **the Alps**, — а вот обычные страны, имена людей и города артикля не требуют вовсе: **Japan**, **Igor**, **Vienna**. Главная ошибка русскоязычного — выбросить артикль совсем, потому что в русском такого слова нет.",
       "examples": [
         {
-          "ru": "Закрой окно, пожалуйста.",
-          "en": "Close the window, please."
+          "ru": "У меня есть кошка. Кошка чёрная.",
+          "en": "I have a cat. The cat is black."
         },
         {
-          "ru": "Я видел кошку. Кошка была чёрной.",
-          "en": "I saw a cat. The cat was black."
+          "ru": "Телефон на столе.",
+          "en": "The phone is on the table."
         },
         {
           "ru": "Сегодня солнце яркое.",
           "en": "The sun is bright today."
         },
         {
-          "ru": "Передай соль.",
-          "en": "Can you pass the salt?"
+          "ru": "Колизей в Риме.",
+          "en": "The Colosseum is in Rome."
         },
         {
-          "ru": "Амазонка — самая длинная река.",
-          "en": "The Amazon is the longest river."
+          "ru": "Нил — очень длинная река.",
+          "en": "The Nile is a very long river."
         },
         {
-          "ru": "Она живёт в Великобритании.",
-          "en": "She lives in the UK."
+          "ru": "Она из Нидерландов.",
+          "en": "She is from the Netherlands."
         }
       ],
       "clarificationOptions": [
-        "Разница: a book vs the book",
-        "Почему \"the sun\", а не \"a sun\"",
-        "Когда при первом упоминании \"a\" меняется на \"the\""
+        "Как понять, что предмет уже «известен собеседнику» и пора ставить the?",
+        "Почему говорят the sun, а не a sun?",
+        "Почему Japan без артикля, а the USA с артиклем?"
       ]
     },
     {
@@ -12346,8 +12359,8 @@
     {
       "id": "basics_card12_ex1",
       "cardId": 12,
-      "title": "Вставь все артикли",
-      "userInstruction": "AI даст предложение с 2–3 пропусками на месте артиклей и его русский перевод. Вставь a / an / the / — в каждый пропуск.",
+      "title": "a, an или the?",
+      "userInstruction": "ИИ пришлёт несколько коротких пар предложений с пропусками. Впиши в каждый пропуск a, an или the.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
@@ -15199,32 +15212,32 @@
       "id": 12,
       "statements": [
         {
-          "en": "I saw a dog. The dog was small.",
-          "ru": "Я видел собаку. Собака была маленькой.",
+          "en": "There is a hotel near my house. The hotel is new.",
+          "ru": "Рядом с моим домом есть отель. Отель новый.",
           "isTrue": true
         },
         {
-          "en": "The moon is shining.",
-          "ru": "Луна светит.",
+          "en": "Can you open a window?",
+          "ru": "Можешь открыть окно?",
+          "isTrue": false
+        },
+        {
+          "en": "The Alps are very beautiful.",
+          "ru": "Альпы очень красивые.",
           "isTrue": true
         },
         {
-          "en": "Can you close a window?",
-          "ru": "Можешь закрыть окно?",
+          "en": "He is from the Japan.",
+          "ru": "Он из Японии.",
           "isTrue": false
         },
         {
-          "en": "She swims in a Pacific Ocean.",
-          "ru": "Она плавает в Тихом океане.",
-          "isTrue": false
-        },
-        {
-          "en": "He works at the bank.",
-          "ru": "Он работает в банке.",
+          "en": "The sky is grey today.",
+          "ru": "Сегодня небо серое.",
           "isTrue": true
         }
       ],
-      "explanation": "\"a window\" — ясно о конкретном окне → the window. Океан — один, по правилу → the Pacific Ocean. Первое упоминание: a dog → второе: the dog. Луна единственная → the moon."
+      "explanation": "Окно в комнате одно и обоим понятно какое — the window, а не a window. Япония — обычная страна, ей артикль не нужен: he is from Japan. Горная цепь наоборот всегда с артиклем — the Alps. Небо единственное в своём роде, поэтому the sky. А в первом предложении отель сначала новый для слушателя (a hotel), а потом уже знакомый (the hotel)."
     },
     {
       "id": 13,
@@ -16241,7 +16254,7 @@
         "an",
         "Open"
       ],
-      "explanation": "\"The door\" — конкретная дверь в этой комнате, ясно о какой → the. \"a door\" / \"an door\" — неверно: говорим о конкретной двери."
+      "explanation": "Дверь здесь конкретная — та, что рядом, и обоим ясно какая, поэтому the. A и an вводят предмет как незнакомый, а тут он и так понятен."
     },
     {
       "id": 11,
@@ -17377,29 +17390,29 @@
     {
       "id": 15,
       "choiceType": "CHOICE",
-      "prompt": "I bought a book yesterday. ___ book is really interesting.",
-      "contextRu": "Я купил книгу вчера. ___ книга очень интересная.",
+      "prompt": "There is a dog in the yard. ___ dog is very friendly.",
+      "contextRu": "Во дворе есть собака. ___ собака очень дружелюбная.",
       "options": [
         {
           "text": "A",
           "isCorrect": false
         },
         {
-          "text": "An",
-          "isCorrect": false
-        },
-        {
           "text": "The",
           "isCorrect": true
+        },
+        {
+          "text": "An",
+          "isCorrect": false
         }
       ],
-      "explanation": "Первый раз — a book (какая-то книга). Второй раз та же книга, уже известная → The book."
+      "explanation": "В первый раз собака была незнакомой — a dog. Теперь речь о той же самой, уже известной обоим → The dog."
     },
     {
       "id": 16,
       "choiceType": "CHOICE",
-      "prompt": "___ sun rises in the east.",
-      "contextRu": "Солнце встаёт на востоке.",
+      "prompt": "___ moon is very bright tonight.",
+      "contextRu": "Луна сегодня очень яркая.",
       "options": [
         {
           "text": "A",
@@ -17414,49 +17427,49 @@
           "isCorrect": true
         }
       ],
-      "explanation": "Солнце единственное в своём роде → the. \"A sun\" звучит как будто солнц несколько."
+      "explanation": "Луна одна на всех, выбирать не из чего → the moon. A moon звучало бы так, будто лун несколько."
     },
     {
       "id": 12,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Передай, пожалуйста, соль.",
+      "prompt": "Передай, пожалуйста, сахар.",
       "contextRu": "",
       "options": [
         {
-          "text": "Pass a salt, please.",
-          "isCorrect": false
-        },
-        {
-          "text": "Pass the salt, please.",
+          "text": "Pass the sugar, please.",
           "isCorrect": true
         },
         {
-          "text": "Pass salt, please.",
+          "text": "Pass a sugar, please.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pass sugar, please.",
           "isCorrect": false
         }
       ],
-      "explanation": "Соль конкретная — та, что на столе. Из контекста ясно о какой → the. \"A salt\" — ошибка: соль неисчисляемая, a/an с ней нельзя. \"Pass salt\" — звучит незавершённо."
+      "explanation": "Сахар тут конкретный — тот, что стоит на столе, и обоим ясно какой → the. Вариант a sugar невозможен вдвойне: сахар поштучно не считают. Без артикля предложение звучит оборванным."
     },
     {
       "id": 6,
       "choiceType": "REVERSE_CHOICE",
-      "prompt": "She lives near the Nile.",
+      "prompt": "Their house is near the Thames.",
       "contextRu": "",
       "options": [
         {
-          "text": "Она живёт возле какой-то реки.",
+          "text": "Их дом рядом с какой-то рекой.",
           "isCorrect": false
         },
         {
-          "text": "Она живёт возле Нила.",
+          "text": "Их дом рядом с Темзой.",
           "isCorrect": true
         },
         {
-          "text": "Она любит реки.",
+          "text": "Им нравятся реки.",
           "isCorrect": false
         }
       ],
-      "explanation": "the Nile = Нил (конкретная река, единственная). Реки и водоёмы всегда с the."
+      "explanation": "The Thames — это название конкретной реки, Темзы. Реки английский всегда называет с артиклем the, и «какой-то рекой» это не делает."
     },
     {
       "id": 17,
