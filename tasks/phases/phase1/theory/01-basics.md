@@ -737,28 +737,32 @@ B: ___
 
 #### Theory
 
-`There is` и `There are` — конструкция, которой в русском нет как отдельного явления. Мы говорим «На столе стоит кружка» или «В парке есть лавочки». В английском — другой порядок: сначала объявляем существование, потом уточняем место.
+Когда нужно сказать, что где-то что-то есть, русский язык обходится без всяких конструкций: «На столе кружка», «В парке лавочки» — глагола нет вовсе, а место идёт первым. Английский так не умеет. У него для этого отдельная заготовка: сначала объявляем, что нечто существует, — `there is` / `there are`, — и только потом говорим, где именно.
 
-**There is** a cup on the table. — Есть кружка на столе.
+**Сначала — что есть, потом — где**
 
-Представь, что ты заходишь в незнакомую квартиру и описываешь что в ней есть. Каждое утверждение о наличии чего-то начинается с `there is/are`:
-- There is a bed in the bedroom. — В спальне есть кровать.
-- There are two windows in the kitchen. — На кухне два окна.
-- There is a coffee machine on the counter. — На стойке стоит кофемашина.
+**Формула:** There is / There are + что + где.
 
-Это невероятно частая конструкция в английской речи — потому что нужна всякий раз, когда говоришь о том, что что-то **есть** или **находится** в каком-то месте.
+- **There is a bed in the bedroom.** — В спальне есть кровать.
+- **There are two windows in the kitchen.** — На кухне два окна.
+- **There is a coffee machine on the counter.** — На стойке стоит кофемашина.
 
-Правило выбора:
-- **There is** — если дальше **один** предмет (или неисчисляемое вещество): There is a cat. / There is water in the glass.
-- **There are** — если дальше **несколько** предметов: There are three cats. / There are books on the shelf.
+Конструкция эта в английском повсюду: она нужна каждый раз, когда речь про наличие — что есть в комнате, в холодильнике, в городе, в расписании.
 
-Краткая форма: **There's** = there is. Очень часто в разговоре. `There're` (there are) технически существует, но в устной речи почти не используют — говорят полностью `there are`.
+**Ловушка:** русский порядок «сначала место» тянет сказать **On the table is a cup** ✗ или вообще **On the table a cup** ✗. По-английски предложение начинается с заготовки, а место уезжает в конец: **There is a cup on the table** ✓.
 
-**Важно:** `there` в этой конструкции — **НЕ «там»** в значении места. There is a problem. — не «там есть проблема», а просто «есть проблема». Не путай с `over there` (вон там).
+**is или are — смотрим на то, что идёт следом**
+
+- **There is** — дальше один предмет или вещество, которое не считают по штукам: **There is a cat.**, **There is water in the glass.**
+- **There are** — дальше несколько предметов: **There are three cats.**, **There are books on the shelf.**
+
+В речи первую форму почти всегда сжимают: **There's a problem.** А вот `there're` в живой речи практически не звучит — во множественном говорят полностью **there are**.
+
+**Ловушка:** `there` в этой конструкции — вообще не «там». **There is a problem** значит «есть проблема», а не «там есть проблема»: слово работает как часть заготовки и своего значения места здесь не несёт. «Вон там» — это отдельное **over there**.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-There is — для одного предмета или неисчисляемого. There are — для нескольких. `There` здесь — не «там», а конструкция «есть/находится». There's = there is.
+`There is` / `there are` — английская заготовка для «где-то что-то есть». Порядок обратный русскому: сначала заготовка, потом сам предмет, и только в конце место (**There is a cup on the table**, а не «на столе кружка»). Форму выбираем по тому, что идёт сразу после: один предмет или неисчисляемое → `is`, несколько → `are`. Слово `there` здесь не значит «там» — это часть конструкции; в речи её сокращают до **There's**.
 
 #### Examples
 
@@ -777,38 +781,37 @@ There is — для одного предмета или неисчисляем�
 
 **Ex 26 · MultipleChoice · CHOICE** *(ID: 4)*
 
-"___ a hospital near here."
+"___ a bus stop near the house."
 
-- **There is** ✓
 - There are
+- **There is** ✓
 - Is there
 
-*Explanation (при ошибке):* "A hospital" — один предмет (a = один). Один предмет → There is.
+*Explanation:* A bus stop — один объект, значит There is. Are ставят перед несколькими предметами, а Is there — это уже порядок вопроса.
 
 ---
 
 **Ex 27 · MultipleChoice · REVERSE_CHOICE** *(ID: 3)*
 
-Переведи на русский:  
-"There's a new café on my street."
+"There's a small park behind the house."
 
-- **На моей улице есть новое кафе.** ✓
-- Там есть новое кафе.
-- Это моя улица.
+- Этот парк маленький.
+- Там маленький парк.
+- **Позади дома есть маленький парк.** ✓
 
-*Explanation (при ошибке):* There's = There is = "есть, находится". Это не "там" — это конструкция наличия. On my street = на моей улице.
+*Explanation:* There's = there is — это «есть, находится», а не слово «там». Behind the house — позади дома.
 
 ---
 
 **Ex 28 · MultipleChoice · CHOICE** *(ID: 5)*
 
-"___ five people in the room." (В комнате пять человек.)
+"___ two hotels in this town." (В городке две гостиницы.)
 
-- There is
 - **There are** ✓
-- There were
+- There is
+- Are there
 
-*Explanation (при ошибке):* Five people — несколько (множественное число). Несколько → There are.
+*Explanation:* Two hotels — несколько, поэтому There are. Is бывает только перед одним предметом, а Are there — порядок вопроса, не утверждения.
 
 ---
 
@@ -818,37 +821,36 @@ There is — для одного предмета или неисчисляем�
 
 | # | EN | RU | Верно? |
 |---|----|----|--------|
-| 1 | There are a dog in the garden. | В саду есть собака. | ✗ |
-| 2 | There are two books on the table. | На столе две книги. | ✓ |
-| 3 | There is three chairs in the kitchen. | На кухне три стула. | ✗ |
-| 4 | There is some water in the bottle. | В бутылке есть вода. | ✓ |
+| 1 | There is a lift in the building. | В доме есть лифт. | ✓ |
+| 2 | There are a dog in the garden. | В саду есть собака. | ✗ |
+| 3 | There is four chairs in the kitchen. | На кухне четыре стула. | ✗ |
+| 4 | There are many shops in the centre. | В центре много магазинов. | ✓ |
 | 5 | There are a problem. | Есть проблема. | ✗ |
 
-*Explanation (при ошибке):* A dog, a problem — одно → There is. Three chairs, two books — несколько → There are. Some water — неисчисляемое → There is.
+*Explanation:* A dog, a problem — один предмет → There is. Four chairs, many shops — несколько → There are.
 
 ---
 
 **Ex 30 · WordArrangement** *(ID: 5)*
 
-RU: На диване два кота.
+RU: В комнате три окна.
 
-Правильное предложение: **There are two cats on the sofa.**
-
-Слова (включая лишние; "the sofa" — одна карточка, артикль разберём позже; зажать карточку = узнать перевод):
+Правильное предложение: **There are three windows in the room.**
 
 | Слово | Лишнее? |
 | ------- | --------- |
 | There | — |
 | are | — |
-| two | — |
-| cats | — |
-| on | — |
-| the sofa | — |
-| is | ✗ дистрактор |
-| There's | ✗ дистрактор |
-| a cat | ✗ дистрактор |
+| three | — |
+| windows | — |
+| in | — |
+| the room | — |
+| is | ✗ |
+| There's | ✗ |
+| a window | ✗ |
+| Are there | ✗ |
 
-*Explanation (при ошибке):* There are = есть (несколько). Two cats = два кота. On the sofa = на диване. "is" и "There's" — для единственного числа. "A cat" — один кот, нам нужно "two cats".
+*Explanation:* Three windows — несколько, значит There are. Is и There's идут с одним предметом, a window — это «одно окно», а Are there начинает вопрос.
 
 ---
 
@@ -859,16 +861,16 @@ RU: На диване два кота.
 **Input Mode:** FILL_BLANKS
 **Words Source:** NONE
 **AI Config Profile:** EXERCISE_LIGHT
-**User Instruction:** "AI даст русское предложение и его частичный английский перевод с пропуском. Вставь There is или There are."
-**Prompt Template:** "Дай русское предложение с конструкцией there is/are и частичный английский перевод с пропуском [___] (например: RU: 'В комнате стоит диван.' → EN: '[___] a sofa in the room.'). Пользователь вписывает 'There is' или 'There are'. Проверь и объясни ошибку — обрати внимание на число существительного после."
+**User Instruction:** "ИИ пришлёт несколько русских предложений и их английский перевод с пропуском. Впиши в каждый пропуск There is или There are."
+**Prompt Template:** "Тема упражнения — выбор между There is и There are в утверждении. Пользователь в начале курса: он знает личные местоимения, формы am/is/are и эту конструкцию there is/are — и больше ничего. Времён (Present Simple с окончанием -s, Continuous, прошедшее время) он ещё НЕ проходил — не используй их и не используй was/were и there was/were. Артикли он тоже ещё НЕ проходил: a перед предметом ставь сам в готовом английском куске, к артиклям пользователя не придирайся. Дай пользователю сразу несколько пар (всего 3): сначала короткое русское предложение о том, что где-то что-то есть, потом его английский перевод, начинающийся с пропуска [___]. Бери простые бытовые предметы и места: парк, фонтан, магазин, стол, книги, окна, холодильник, молоко, вода, комната, улица, автобусная остановка. Обязательно чередуй ответы внутри набора: один предмет (There is), несколько предметов (There are) и обязательно одно вещество, которое не считают по штукам — вода, молоко, хлеб (There is). Правильный ответ — только There is или There are; сокращение There's тоже засчитывай. Ошибку разбери по-русски одной фразой: на что смотреть — на то, что стоит сразу после пропуска. Не придирайся к знакам препинания и заглавным буквам — оценивай только выбор формы."
 
-Пример вывода AI: '1. В парке есть фонтан. → [___] a fountain in the park. 2. На столе лежат две книги. → [___] two books on the table.'
+Пример вывода AI: '1. В парке есть фонтан. → [___] a fountain in the park. 2. На столе лежат две книги. → [___] two books on the table. 3. В бутылке есть вода. → [___] water in the bottle.'
 
 #### Clarification Options
 
-- Почему "there" — не "там"
-- There is или There are с неисчисляемыми (water, milk, bread)
-- Можно ли сократить "there are" → "there're"
+- Почему there здесь не переводится как «там»?
+- Какую форму брать со словами вроде water и milk — их же не посчитать?
+- Почему There's говорят постоянно, а There're почти никогда?
 
 ---
 
@@ -878,38 +880,39 @@ RU: На диване два кота.
 
 #### Theory
 
-Отрицание и вопрос строятся по той же логике, что и в to be.
+Ничего нового учить не придётся: внутри конструкции сидит уже знакомый глагол `to be`, и работаем мы именно с ним — точно так же, как в микротеме «Глагол to be».
 
-**Отрицание:**
-- **There isn't** (= there is not) — нет одного предмета
-- **There aren't** (= there are not) — нет нескольких
+**Отрицание — not после is/are**
 
-There isn't any milk. — Молока нет.  
-There aren't any seats. — Мест нет.
+- **There isn't any milk.** — Молока нет.
+- **There aren't any seats.** — Мест нет.
 
-**Про слово `any`:**
+**Вопрос — меняем местами**
 
-В обычных предложениях используем `a` (один предмет) или `some` (несколько): There is a book. / There are some books. В отрицаниях и вопросах вместо них ставится **any** — оно значит «хоть один, хоть сколько-нибудь»:
+В утверждении впереди стоит `there`, а в вопросе они с глаголом меняются местами: **There is a bank** → **Is there a bank?**
 
-- There isn't **any** milk. — Молока нет совсем, ни капли.
-- Is there **any** milk? — Есть хоть немного молока?
+- **Is there a supermarket near here?** — Здесь есть супермаркет?
+- **Are there any free tables?** — Есть свободные столики?
 
-Проще говоря: в вопросах — «есть хоть что-нибудь?», в отрицаниях — «нет совсем ничего». Пока просто замечай `any` в примерах, и оно само отложится.
+**Откуда берётся any**
 
-**Вопрос:**
-- **Is there** + существительное + ? — есть ли (один)?
-- **Are there** + существительное + ? — есть ли (несколько)?
+В обычном утверждении перед предметом стоит `a` (один) или `some` (несколько): **There is a book.**, **There are some books.** В отрицании и вопросе на их место приходит `any` — «хоть один, хоть сколько-нибудь»:
 
-Is there a supermarket near here? — Здесь есть супермаркет?  
-Are there any free tables? — Есть свободные столики?
+- **There isn't any milk.** — молока нет совсем, ни капли.
+- **Is there any milk?** — есть хоть немного молока?
 
-**Краткие ответы:**
-- Is there a lift? → Yes, there is. / No, there isn't.
-- Are there any seats? → Yes, there are. / No, there aren't.
+Специально заучивать `any` сейчас не нужно — просто замечайте его в примерах, оно уложится само.
+
+**Краткие ответы**
+
+- Is there a lift? → **Yes, there is.** / **No, there isn't.**
+- Are there any seats? → **Yes, there are.** / **No, there aren't.**
+
+**Ловушка:** положительный короткий ответ сокращать нельзя — здесь работает то же правило, что и с обычным to be: **Yes, there is** ✓, а **Yes, there's** ✗ звучит оборванно. В отрицательном ответе сокращение, наоборот, обычное дело.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Отрицание: there isn't (один), there aren't (несколько). Вопрос: Is there? (один), Are there? (несколько). any заменяет `a/some` в отрицаниях и вопросах — значит «хоть один/совсем нет». Краткий ответ: Yes, there is. / No, there aren't.
+Отрицание и вопрос строятся тем же способом, что и у обычного `to be`, потому что внутри конструкции стоит он же. Отрицание — `not` после глагола: **there isn't** (один предмет), **there aren't** (несколько). Вопрос — перестановка: **Is there…?**, **Are there…?** В отрицании и вопросе вместо `a`/`some` появляется `any` — «хоть сколько-нибудь». Короткий ответ повторяет форму: **Yes, there is.** / **No, there aren't.** — причём положительный не сокращают.
 
 #### Examples
 
@@ -928,64 +931,66 @@ Are there any free tables? — Есть свободные столики?
 
 **Ex 31 · MultipleChoice · CHOICE** *(ID: 6)*
 
-RU: В холодильнике нет яиц.  
-"___ any eggs in the fridge."
+RU: На кухне нет стульев.
+"___ any chairs in the kitchen."
 
 - There isn't
-- **There aren't** ✓
 - There not are
+- **There aren't** ✓
 
-*Explanation (при ошибке):* "Eggs" — множественное число. Отрицание для нескольких: There aren't.
+*Explanation:* Chairs — несколько, поэтому There aren't. Isn't идёт с одним предметом, а «There not are» — порядок, перенесённый из русского «не есть».
 
 ---
 
 **Ex 32 · MultipleChoice · FORWARD_CHOICE** *(ID: 5)*
 
-"Здесь нет парковки."
+"В городе нет метро."
 
-- **There isn't a parking lot here.** ✓
-- There aren't a parking lot here.
-- Is there a parking lot here?
+- There aren't a metro in the town.
+- **There isn't a metro in the town.** ✓
+- Is there a metro in the town?
 
-*Explanation (при ошибке):* "Парковка" — один объект (a parking lot). Отрицание для одного: There isn't.
+*Explanation:* Метро — один объект, значит отрицание There isn't. Aren't ставят перед несколькими, а третий вариант — вопрос, а не отрицание.
 
 ---
 
 **Ex 33 · TextInput** *(ID: 5)*
 
-RU: В классе есть студенты?  
-"___ there any students in the classroom?"  
-Правильный ответ: **Are**  
-Подсказка: Is / Are
+Начни каждый вопрос нужной формой.
 
-*Explanation (при ошибке):* "Students" — множественное число. Вопрос для нескольких: Are there...?
+1. "___ there any students in the classroom?"
+   Ответ: **Are**
+2. "___ there a bank near the station?"
+   Ответ: **Is**
+3. "___ there any milk in the fridge?"
+   Ответ: **Is**
+
+*Explanation:* Форму выбираем по тому, что идёт после there: students — несколько → Are there. A bank — один → Is there. Milk по штукам не считают, поэтому тоже Is there.
 
 ---
 
 **Ex 34 · MultipleChoice · FORWARD_CHOICE** *(ID: 6)*
 
-"Здесь есть банкомат?"
+"В отеле есть бассейн?"
 
-- There is an ATM here.
-- **Is there an ATM here?** ✓
-- Are there an ATM here?
+- **Is there a pool in the hotel?** ✓
+- There is a pool in the hotel?
+- Are there a pool in the hotel?
 
-*Explanation (при ошибке):* Вопрос об одном предмете: Is there...? "ATM" — один → Is. "Are there" — для нескольких.
+*Explanation:* Вопрос начинается с формы to be: Is there…? Порядок утверждения вопросом не становится, а are ставят только перед несколькими предметами.
 
 ---
 
 **Ex 35 · DialogRestore** *(ID: 3)*
 
-RU: A: "Извините, здесь рядом есть аптека?" / B: "Да, есть. Она на следующей улице."
-
-A: "Excuse me, is there a pharmacy near here?"  
+A: "Excuse me, is there a pharmacy near here?"
 B: ___
 
-- **Yes, there is. It's on the next street.** ✓
 - Yes, there are. It's on the next street.
+- **Yes, there is. It's on the next street.** ✓
 - Yes, is there. It's on the next street.
 
-*Explanation (при ошибке):* Краткий ответ на "Is there...?" — "Yes, there is." Сокращать нельзя. "Yes, there are" — ошибка: вопрос был про один предмет (a pharmacy).
+*Explanation:* Короткий ответ повторяет форму из вопроса: спросили Is there — отвечаем Yes, there is. Are there относится к нескольким предметам, а порядок «Yes, is there» бывает только в вопросе.
 
 ---
 
@@ -999,9 +1004,9 @@ B: ___
 | 2 | Are there any seats left? | Есть свободные места? | ✓ |
 | 3 | There aren't a parking lot here. | Здесь нет парковки. | ✗ |
 | 4 | Is there a supermarket near here? | Здесь есть супермаркет? | ✓ |
-| 5 | There isn't any milk in the fridge. | В холодильнике нет молока. | ✓ |
+| 5 | There isn't any bread at home. | Дома нет хлеба. | ✓ |
 
-*Explanation (при ошибке):* Many people — множественное → Are there. A parking lot — одно → There isn't. Вопрос об одном: Is there? Вопрос о нескольких: Are there?
+*Explanation:* Many people — несколько, значит Are there. A parking lot — один объект, значит There isn't. Bread по штукам не считают — с ним тоже isn't.
 
 ---
 
@@ -1012,16 +1017,16 @@ B: ___
 **Input Mode:** FREE_WRITE
 **Words Source:** NONE
 **AI Config Profile:** EXERCISE_LIGHT
-**User Instruction:** "AI даст утвердительное предложение с There is/are. Напиши его отрицание и вопрос из него."
-**Prompt Template:** "Дай русское предложение и его английский утвердительный перевод с there is/are (например: 'There are free tables in the café.'). Пользователь пишет (1) отрицание и (2) вопрос. Проверь обе формы: There isn't/aren't и Is/Are there...? Объясни ошибки."
+**User Instruction:** "ИИ пришлёт одно утвердительное предложение. Напиши из него отрицание, а следом — вопрос."
+**Prompt Template:** "Тема упражнения — отрицание и вопрос с конструкцией there is/are. Пользователь в начале курса: он знает личные местоимения, формы am/is/are и конструкцию there is/are в утверждении, отрицании и вопросе — и больше ничего. Времён (Present Simple с окончанием -s, Continuous, прошедшее время) он ещё НЕ проходил — не используй их и не используй was/were и there was/were. Дай пользователю ОДНО короткое утвердительное английское предложение с there is или there are (4-6 слов), а в скобках рядом — перевод на русский. Пользователь пишет из него сначала отрицание, потом вопрос. Бери простые бытовые ситуации: кафе, отель, комната, холодильник, улица, парк, класс, полотенца, свободные столики, магазин рядом. Чередуй от запуска к запуску единственное и множественное число, чтобы попадались и There is, и There are. Правильным считай отрицание с there isn't / there aren't (полные формы is not, are not тоже верны) и вопрос с формой to be впереди: Is there…? / Are there…? Появление any в отрицании и вопросе — правильно, но если пользователь оставил a или some, ошибкой это не считай, только мягко упомяни. Артикли отдельно не проверяй. Ошибку разбери по-русски одной фразой. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
 
 Пример вывода AI: 'Напиши отрицание и вопрос: "There are clean towels in the bathroom." (В ванной есть чистые полотенца.)'
 
 #### Clarification Options
 
-- Когда "any" появляется в there isn't/aren't — и почему не "a/some"
-- Разница: Is there? vs Are there?
-- Краткий ответ "Yes, there is" — почему нельзя "Yes, there's"
+- Откуда в отрицании и вопросе берётся any вместо a и some?
+- Как понять, когда нужен Is there, а когда Are there?
+- Почему нельзя ответить Yes, there's — ведь в утверждении так говорят?
 
 ---
 
