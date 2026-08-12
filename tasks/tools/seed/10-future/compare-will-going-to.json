@@ -39,6 +39,13 @@
       "title": "Two More Ways · Ещё два способа: Present Continuous и Present Simple",
       "order": 3,
       "searchKeywords": "договорённость в календаре, встречаюсь завтра, поезд отходит в семь, расписание вместо плана, запись к врачу"
+    },
+    {
+      "id": 124,
+      "topicId": 20,
+      "title": "Map of Future · Карта будущего",
+      "order": 4,
+      "searchKeywords": "четыре способа рядом, откуда взялось знание, порядок проверки, все способы в одном рассказе, сводная карта"
     }
   ],
   "grammar_cards": [
@@ -847,6 +854,314 @@
         "Почему в The train leaves at seven tomorrow глагол в настоящем времени?",
         "Чем этот Present Simple отличается от того, который стоит после when?"
       ]
+    },
+    {
+      "id": 337,
+      "microtopicId": 124,
+      "title": "Компас: четыре вопроса по порядку",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Дальше не будет ни одного нового правила и ни одной новой формы. Всё, чем английский говорит о будущем на этом уровне, уже разобрано: `will` целой темой, `going to` — следующей, а Present Continuous и Present Simple мы дособрали в прошлой микротеме. Осталось сложить это в одну картинку, чтобы в живой речи не перебирать варианты по памяти."
+        },
+        {
+          "type": "paragraph",
+          "text": "Способов четыре, и выбор между ними — это не четыре отдельных правила, а **один вопрос, заданный четыре раза подряд**: откуда взялось то, что я сейчас говорю."
+        },
+        {
+          "type": "heading",
+          "text": "Четыре вопроса, сверху вниз"
+        },
+        {
+          "type": "paragraph",
+          "text": "Задавайте их по порядку и останавливайтесь на первом, который сработал:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Это записано где-то, кроме моей головы, — график, табло, программа? → **Present Simple**: **The train leaves at seven.**",
+            "Я договорился с человеком, время и место назначены? → **Present Continuous**: **I'm meeting Kate at six.**",
+            "Я решил это раньше сам или прямо сейчас вижу признак? → **going to**: **I'm going to rent a flat**, **It's going to rain.**",
+            "Ничего из перечисленного — решаю в эту секунду, обещаю, просто предсказываю? → **will**: **Okay, I'll get it!**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему вопросы идут именно в таком порядке"
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок здесь не для красоты: вопросы не равноправны, каждый следующий забирает то, что не подошло предыдущему."
+        },
+        {
+          "type": "paragraph",
+          "text": "Расписание сильнее договорённости. Я записан на этот рейс, я его жду, но самолёт вылетает не потому, что мы с ним условились: **The plane takes off at seven** ✓. Договорённость, в свою очередь, сильнее намерения: как только о плане знает второй человек и назначено время, это уже не только моё решение — **I'm seeing the dentist at four** ✓, а не **I'm going to see the dentist** (так скажут, пока запись не сделана)."
+        },
+        {
+          "type": "paragraph",
+          "text": "А `will` стоит последним вовсе не потому, что он хуже остальных. Наоборот: это **форма по умолчанию**, и она забирает всё, за чем не стоит ни графика, ни договорённости, ни решения, ни признака. Поэтому и в раздумье она же — самый безопасный выбор."
+        },
+        {
+          "type": "heading",
+          "text": "Вся карта одной таблицей"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Способ",
+            "Откуда взялось знание",
+            "Типичный маркер",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Present Simple",
+              "график, действующий для всех",
+              "точное время, at seven",
+              "The film starts at eight"
+            ],
+            [
+              "Present Continuous",
+              "договорённость с человеком",
+              "день и время, on Friday",
+              "We're having dinner on Friday"
+            ],
+            [
+              "going to",
+              "решение принято раньше или признак перед глазами",
+              "Look!, next month",
+              "Look at the clouds — it's going to rain"
+            ],
+            [
+              "will",
+              "решение в момент речи, обещание, мнение",
+              "Okay, I think, probably",
+              "I think Emma will like it"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Все четыре — это один ряд метафор"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы вели их через весь раздел, и теперь они встают в линию:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Present Simple** — расписание сеансов на стене: висит для всех, от меня не зависит.",
+            "**Present Continuous** — студия забронирована, люди предупреждены.",
+            "**going to** — сценарий подписан заранее либо камера уже видит признаки в кадре.",
+            "**will** — кадр, которого ещё не сняли: его называют вслух прямо сейчас."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русскоязычный по привычке ищет ответ в вопросе «когда это будет?» — завтра, через неделю, в мае. Но время события не выбирает форму вообще: **The train leaves at seven tomorrow**, **I'm meeting Kate tomorrow**, **It's going to rain tomorrow** и **I'll call you tomorrow** — одно и то же «завтра» и четыре разные формы. Выбирает **источник знания**, а не срок."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Компас — не экзамен на скорость, и замирать посреди фразы, перебирая четыре вопроса, не надо. Не понимаете, куда попали, — берите `will`: вас поймут в любом случае, а чутьё придёт от количества услышанного, как мы говорили в микротеме «Где разница не критична»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Четыре способа сказать о будущем выбираются одним вопросом — **откуда взялось знание**, — заданным по порядку. Записано где-то, кроме моей головы (график, табло) → Present Simple: **The train leaves at seven**. Договорился с человеком, время назначено → Present Continuous: **I'm meeting Kate at six**. Решил раньше сам или вижу признак → `going to`: **It's going to rain**. Ничего из этого — решаю сейчас, обещаю, предсказываю → `will`: **Okay, I'll get it**. Порядок важен: расписание сильнее договорённости, договорённость сильнее намерения, а `will` забирает всё остальное как форма по умолчанию. Срок события (завтра, в мае) на выбор формы не влияет вообще.",
+      "examples": [
+        {
+          "ru": "Фильм начинается в восемь.",
+          "en": "The film starts at eight."
+        },
+        {
+          "ru": "В пятницу мы ужинаем с соседями.",
+          "en": "We're having dinner with the neighbours on Friday."
+        },
+        {
+          "ru": "Посмотри на тучи — сейчас пойдёт дождь.",
+          "en": "Look at the clouds — it's going to rain."
+        },
+        {
+          "ru": "Думаю, Эмме это понравится.",
+          "en": "I think Emma will like it."
+        },
+        {
+          "ru": "В четыре я иду к стоматологу.",
+          "en": "I'm seeing the dentist at four."
+        }
+      ],
+      "clarificationOptions": [
+        "Что делать, если сразу два вопроса компаса отвечают «да»?",
+        "Почему срок события не влияет на выбор формы?",
+        "Правда ли, что will можно поставить почти везде и меня поймут?"
+      ]
+    },
+    {
+      "id": 338,
+      "microtopicId": 124,
+      "title": "Всё вместе в одном дне",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Таблица — вещь полезная, но обманчивая: в ней каждый способ сидит в своей строке, и заранее известно, что сейчас разбирают именно его. В живой речи так не бывает. Формы идут вперемешку внутри одного рассказа, иногда в соседних предложениях, и никто не объявляет заранее, какая сейчас будет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому последнее, что осталось сделать, — прочитать обычный день, где все четыре способа стоят вплотную."
+        },
+        {
+          "type": "heading",
+          "text": "Один день, четыре формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My train leaves at six forty.**",
+            "**I'm meeting Sam at the station at six.**",
+            "**He's going to bring the tickets — he bought them last week.**",
+            "**The sky is grey and heavy — it's going to rain.**",
+            "**Okay, I'll take an umbrella.**",
+            "**The conference starts at ten.**",
+            "**I think it will be a long day.**",
+            "**We're having dinner with the team at eight.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Прочитайте это ещё раз подряд, вслух. Ни одно предложение не выглядит сложным, но восемь фраз обычного утра держатся на четырёх разных формах — и ни одну из них нельзя заменить соседней без потери смысла."
+        },
+        {
+          "type": "heading",
+          "text": "Тот же день по полочкам"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "Откуда взялось знание"
+          ],
+          "rows": [
+            [
+              "My train leaves at six forty",
+              "расписание вокзала, для всех"
+            ],
+            [
+              "I'm meeting Sam at six",
+              "договорились заранее, он ждёт"
+            ],
+            [
+              "He's going to bring the tickets",
+              "Сэм решил это ещё на прошлой неделе"
+            ],
+            [
+              "It's going to rain",
+              "небо серое, признак виден прямо сейчас"
+            ],
+            [
+              "Okay, I'll take an umbrella",
+              "решение родилось в эту секунду"
+            ],
+            [
+              "I think it will be a long day",
+              "ощущение в голове, доказательств нет"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на две соседние строки в середине: **It's going to rain** и **I'll take an umbrella** стоят рядом и говорят об одном и том же дожде. Но первая — вывод из того, что видно, а вторая — решение, принятое в ответ на этот вывод. Формы разные именно потому, что разные источники."
+        },
+        {
+          "type": "heading",
+          "text": "Одно событие — четыре упаковки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Поездка в Ригу, рассказанная четырьмя способами. Событие одно, сообщение каждый раз другое:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The bus to Riga leaves at eight.** — график автобусной компании, я тут ни при чём.",
+            "**I'm going to Riga on Friday.** — поездка улажена: билет куплен, меня ждут.",
+            "**I'm going to visit my cousin in Riga.** — решил навестить, договорённости может ещё и не быть.",
+            "**I'll go to Riga one day.** — никакого плана нет, есть намерение вслух."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второе и третье предложение стоит сравнить особенно внимательно: оба начинаются одинаково, а различает их слово после `to` — место или глагол. Это ровно тот разбор, который мы делали в микротеме «Ещё два способа»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая частая беда русскоязычного не в том, что он выберет не ту форму в одном предложении, а в том, что устанет выбирать и расскажет **весь** день через `will`: **My train will leave at six forty, I will meet Sam, I will take an umbrella**. Грамматически всё собрано верно, а звучит так, будто человек придумывает свою жизнь прямо во время разговора: ни расписания, ни договорённостей, ни готовых решений у него будто и не было."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Носитель не перебирает четыре вопроса — он просто говорит, а форма выскакивает сама, потому что источник знания он чувствует до того, как открыл рот. Такое же чутьё нарабатывается и у нас, и наработается оно не от таблицы, а от количества прочитанного и услышанного. Компас нужен ровно до тех пор, пока не появится чутьё."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В живой речи четыре способа стоят вперемешку внутри одного рассказа: **My train leaves at six forty** (расписание) · **I'm meeting Sam at the station** (договорённость) · **It's going to rain** (признак виден) · **Okay, I'll take an umbrella** (решение в эту секунду). Соседние фразы могут говорить об одном событии и всё равно требовать разных форм, потому что разный источник знания. Одно и то же событие в четырёх упаковках: **The bus to Riga leaves at eight** · **I'm going to Riga on Friday** · **I'm going to visit my cousin** · **I'll go to Riga one day**. Главная ловушка — рассказать весь день через `will`: собрано верно, но звучит так, будто ни планов, ни договорённостей у говорящего не было.",
+      "examples": [
+        {
+          "ru": "Мой поезд отходит в шесть сорок.",
+          "en": "My train leaves at six forty."
+        },
+        {
+          "ru": "Я встречаюсь с Сэмом на вокзале в шесть.",
+          "en": "I'm meeting Sam at the station at six."
+        },
+        {
+          "ru": "Небо серое и тяжёлое — сейчас пойдёт дождь.",
+          "en": "The sky is grey and heavy — it's going to rain."
+        },
+        {
+          "ru": "Ладно, возьму зонт.",
+          "en": "Okay, I'll take an umbrella."
+        },
+        {
+          "ru": "Автобус до Риги отходит в восемь.",
+          "en": "The bus to Riga leaves at eight."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять на слух, какая форма прозвучала, если все они короткие?",
+        "Почему нельзя рассказать весь день одним will, если меня и так поймут?",
+        "Чем I'm going to Riga отличается от I'm going to visit my cousin?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -992,6 +1307,54 @@
       "cardId": 336,
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 36,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 337,
+      "exerciseType": "MATCHING",
+      "exerciseId": 48,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 337,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 46,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 337,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 73,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 337,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 62,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 338,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 144,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 338,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 64,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 338,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 31,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 338,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 37,
       "orderInCard": 3
     }
   ],
@@ -1358,6 +1721,48 @@
         }
       ],
       "explanation": "Автобус уходит по графику, который напечатан для всех пассажиров, — такое будущее английский подаёт настоящим временем. Подлежащее the last bus стоит в единственном числе, поэтому глагол получает -s."
+    },
+    {
+      "id": 46,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "We're moving to Porto in September.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Мы вообще-то подумываем переехать в Порту.",
+          "isCorrect": false
+        },
+        {
+          "text": "Переезд уже улажен: сроки назначены, всё оговорено.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мы прямо сейчас въезжаем в новую квартиру.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Present Continuous с указателем in September говорит о деле, которое улажено с обеих сторон, а не о размышлении. Про намерение без договорённости сказали бы going to, а про происходящее сию секунду тот же Continuous говорил бы без указателя на будущее."
+    },
+    {
+      "id": 144,
+      "choiceType": "CHOICE",
+      "prompt": "I can't come at seven — I ___ my sister at the airport.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will meet",
+          "isCorrect": false
+        },
+        {
+          "text": "am going to meet",
+          "isCorrect": false
+        },
+        {
+          "text": "am meeting",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Человек объясняет, почему занят: встреча в аэропорту уже назначена, сестра его ждёт. Договорённость идёт через Present Continuous, а will прозвучал бы как решение, принятое прямо в разговоре."
     }
   ],
   "text_input_exercises": [
@@ -1410,6 +1815,31 @@
       ],
       "explanation": "В первом предложении собака уже готовится к прыжку — доказательство перед глазами, поэтому going to. Во втором и третьем никаких признаков нет: есть мнение и оценка шансов, а это всегда will.",
       "taskDescription": "Впиши форму будущего, которая звучит в тон ситуации."
+    },
+    {
+      "id": 62,
+      "items": [
+        {
+          "sentence": "The museum ___ at ten on Sundays.",
+          "contextRu": "",
+          "answer": "opens",
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ Ben at the airport at nine — we agreed on it yesterday.",
+          "contextRu": "",
+          "answer": "am meeting",
+          "alternatives": []
+        },
+        {
+          "sentence": "Look at that ladder — it ___ fall!",
+          "contextRu": "",
+          "answer": "is going to",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Часы работы музея напечатаны для всех, поэтому Present Simple. Во втором предложении сказано, что договорились вчера, — это Present Continuous. В третьем лестница качается на глазах, признак виден, и работает going to.",
+      "taskDescription": "Впиши форму, которая подходит ситуации."
     }
   ],
   "dialog_restore_exercises": [
@@ -1508,6 +1938,38 @@
         }
       ],
       "explanation": "Время вылета стоит в расписании авиакомпании и от говорящих не зависит, поэтому здесь Present Simple. Форма will превратила бы факт из графика в предсказание, а без -s глагол не согласуется с подлежащим."
+    },
+    {
+      "id": 37,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "The meeting starts at ten, and it's already half past nine."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Good idea, I'll wait for you downstairs."
+        }
+      ],
+      "options": [
+        {
+          "text": "I'm going to be late every time.",
+          "isCorrect": false
+        },
+        {
+          "text": "Then I'll take a taxi.",
+          "isCorrect": true
+        },
+        {
+          "text": "Then I take a taxi.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "B решает взять такси прямо сейчас, услышав про время, — это решение в момент речи и will. Present Simple говорил бы о заведённом порядке, а первый вариант сообщает о постоянных опозданиях, а не о выходе из ситуации."
     }
   ],
   "matching_exercises": [
@@ -1556,6 +2018,29 @@
         }
       ],
       "explanation": "Там, где доказательство видно прямо сейчас — чёрное небо, стакан на краю, — предсказание идёт через going to. Прогноз о далёком и осторожная догадка друга держатся на оценке в голове, поэтому там will."
+    },
+    {
+      "id": 48,
+      "taskDescription": "соедини ситуацию с репликой, которая звучит в тон.",
+      "pairs": [
+        {
+          "left": "Читаю режим работы на двери",
+          "right": "The bank opens at nine"
+        },
+        {
+          "left": "Вчера обо всём условились с Юлей",
+          "right": "I'm having lunch with Yulia at one"
+        },
+        {
+          "left": "Решил в прошлом месяце",
+          "right": "I'm going to change my job"
+        },
+        {
+          "left": "Только что услышал новость",
+          "right": "Don't worry, I'll help you"
+        }
+      ],
+      "explanation": "Режим работы на двери — график для всех, поэтому Present Simple. Условились вдвоём — договорённость и Present Continuous. Решение месячной давности подаётся через going to, а ответ на только что услышанное — через will."
     }
   ],
   "error_correction_exercises": [
@@ -1625,6 +2110,29 @@
         }
       ],
       "explanation": "Рядом с Continuous стоит указатель on Saturday, и это переводит фразу в будущее: время назначено, встреча условлена. Про «прямо сейчас» тот же Continuous говорил бы без указателя, про регулярность — Present Simple, а про неопределённое намерение — going to."
+    },
+    {
+      "id": 31,
+      "construction": "I'm going to Lisbon in May.",
+      "options": [
+        {
+          "text": "Поездка улажена: время назначено, всё готово.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я как раз еду в Лиссабон прямо сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я подумываю когда-нибудь съездить в Лиссабон.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я решу насчёт Лиссабона в мае.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После to стоит место, значит это Present Continuous, а указатель in May переводит фразу в будущее: поездка согласована. Про происходящее сейчас тот же Continuous говорил бы без указателя, а про расплывчатое намерение сказали бы через going to с глаголом."
     }
   ],
   "transformation_exercises": [],
@@ -1700,6 +2208,29 @@
         }
       ],
       "explanation": "В левом столбце время задано графиком, который действует для всех сразу, — это Present Simple. В правом время назначено двумя людьми и касается только их, поэтому там Present Continuous."
+    },
+    {
+      "id": 73,
+      "taskDescription": "распредели фразы по тому, где живёт знание о будущем.",
+      "categories": [
+        {
+          "title": "Знание снаружи меня",
+          "items": [
+            "The pool opens at seven",
+            "I'm meeting the agent at five",
+            "The train arrives at ten"
+          ]
+        },
+        {
+          "title": "Знание у меня в голове",
+          "items": [
+            "I think prices will rise",
+            "I'll answer it!",
+            "Maybe he will call back"
+          ]
+        }
+      ],
+      "explanation": "Слева графики и договорённости — их можно проверить снаружи: посмотреть расписание или спросить второго участника. Справа мнение и решение, принятое в момент речи: подтвердить их нечем, и там всегда will."
     }
   ],
   "find_the_odd_exercises": [
@@ -1725,6 +2256,29 @@
         }
       ],
       "explanation": "Руки уже дрожат, поднос вот-вот упадёт — доказательство перед глазами, поэтому going to. Остальные три фразы держатся на мнении, оценке шансов и разговоре о далёком будущем, а это территория will."
+    },
+    {
+      "id": 64,
+      "groupDescription": "Три фразы держатся на договорённости или графике, одна — на решении, принятом в момент речи",
+      "items": [
+        {
+          "text": "The exam starts at nine",
+          "isOdd": false
+        },
+        {
+          "text": "We're playing football on Sunday",
+          "isOdd": false
+        },
+        {
+          "text": "Fine, I'll wash the dishes",
+          "isOdd": true
+        },
+        {
+          "text": "The library closes at eight",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Экзамен и часы работы библиотеки стоят в расписании, футбол в воскресенье согласован с людьми — всё это известно заранее. А мытьё посуды человек берёт на себя прямо сейчас, в ответ на ситуацию, и такое решение всегда идёт через will."
     }
   ]
 }
