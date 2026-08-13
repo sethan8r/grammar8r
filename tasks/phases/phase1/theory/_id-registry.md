@@ -7,7 +7,7 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 341 |
+| Card | 343 |
 | Categorization | 74 |
 | Category | 6 |
 | ConstructionMeaning | 32 |
@@ -15,13 +15,13 @@
 | ErrorCorrection | 127 |
 | FindTheOdd | 65 |
 | Matching | 49 |
-| Microtopic | 127 |
+| Microtopic | 128 |
 | MultipleChoice·CHOICE | 145 |
 | MultipleChoice·FORWARD_CHOICE | 166 |
 | MultipleChoice·REVERSE_CHOICE | 47 |
 | TableFill | 28 |
 | TextInput | 63 |
-| Topic | 21 |
+| Topic | 22 |
 | Transformation | 51 |
 | TrueFalse | 148 |
 | WordArrangement | 131 |
@@ -325,6 +325,11 @@
 - TrueFalse: 1–39 (39)
 - WordArrangement: 1–40 (40)
 - course_word: 1–230 (230)
+
+### indirect-questions
+- Card: 341–342 (2)
+- Microtopic: 127–127 (1)
+- Topic: 21–21 (1)
 
 ### linking-words
 - Card: 280–301 (22)
