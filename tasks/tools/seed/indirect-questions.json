@@ -18,6 +18,13 @@
       "title": "What and Why · Что это и зачем",
       "order": 1,
       "searchKeywords": "звучать мягче с незнакомцем, обёртка вежливости, не знаю чего она хочет, порядок слов внутри, два этажа"
+    },
+    {
+      "id": 128,
+      "topicId": 21,
+      "title": "Statement Order · Порядок слов как в утверждении",
+      "order": 2,
+      "searchKeywords": "где станция находится, куда ставить is, куда девается does, потерял окончание s, тащит did внутрь, глагол в конце фразы"
     }
   ],
   "grammar_cards": [
@@ -314,10 +321,588 @@
         "Если do убирается, почему Do you know в начале остаётся?",
         "Косвенный вопрос — это всегда про вежливость или бывает по другой причине?"
       ]
+    },
+    {
+      "id": 343,
+      "microtopicId": 128,
+      "title": "Связка to be уезжает в конец",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Начнём с самого частого случая — с вопросов, которые турист задаёт раз двадцать в день: **Where is the station?**, **What time is it?**, **How much is this?**, **Where are the toilets?** Все они собраны на одном и том же глаголе `to be`, и все они устроены одинаково: связка стоит **впереди** подлежащего. Именно это и делает фразу вопросом — мы разбирали такую перестановку ещё в «Основах», когда учились спрашивать через `to be`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь ставим перед таким вопросом обёртку — и связка возвращается на своё обычное место, **после** подлежащего:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Прямой вопрос",
+            "Внутри фразы"
+          ],
+          "rows": [
+            [
+              "Where **is** the station?",
+              "Do you know where the station **is**?"
+            ],
+            [
+              "What time **is** it?",
+              "I'm not sure what time it **is**."
+            ],
+            [
+              "Where **are** my keys?",
+              "Do you remember where my keys **are**?"
+            ],
+            [
+              "How much **is** this jacket?",
+              "Can you tell me how much this jacket **is**?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотри на жирные слова: слева связка стоит перед подлежащим, справа — после него. Больше не изменилось ничего: ни время, ни само слово, ни порядок остальных кусков. Связка просто переехала на одну позицию назад."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обёртка + вопросительное слово + подлежащее + `to be`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему связка уезжает именно назад"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы уже знаем ответ из прошлой карточки: вопросительный порядок слов — это сигнал «сейчас я спрашиваю». Внутри фразы спрашивать уже не надо, сигнал снимается, и предложение собирается как обычный рассказ: сначала кто или что, потом что оно такое. **The station is over there** — сначала `the station`, потом `is`. Вот к этому обычному строю встроенная часть и возвращается: `where the station is`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило работает со всеми формами `to be` сразу — их всего пять, и все ведут себя одинаково: **is**, **are**, **am**, **was**, **were**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Where is Emma?** → Do you know where Emma **is**?",
+            "**Where are the tickets?** → I can't remember where the tickets **are**.",
+            "**Why was he angry?** → I have no idea why he **was** angry.",
+            "**Where were you last night?** → Nobody knows where you **were** last night."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Can you tell me where is the station?** ✗ → **Can you tell me where the station is?** ✓. Это самая частая ошибка русскоязычных во всей теме — её делают буквально все, кто выучил вежливую обёртку. Первая половина фразы звучит безупречно, а вторая выдаёт иностранца с головой."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему рука сама пишет неправильно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина не в лени и не в невнимательности — причина в русском языке. Посмотри, что происходит у нас:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Где станция?» → «Не подскажете, **где станция**?»",
+            "«Сколько это стоит?» → «Вы не знаете, **сколько это стоит**?»",
+            "«Где мои ключи?» → «Не помню, **где мои ключи**»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая часть не изменилась ни на букву. Русскому языку просто нечего перестраивать: у нас вопрос делается интонацией, а порядок слов свободный. Мозг честно делает то, что умеет: приделывает подушку спереди и оставляет всё остальное как есть. По-русски это правильно. По-английски — ошибка."
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть и вторая причина, чисто русская. В нашей фразе «где станция» **вообще нет глагола** — мы не говорим «где станция есть». Поэтому английское `is` для нас слово-невидимка: раз оно ничего не переводит, рука ставит его машинально, туда, где привыкла видеть, — сразу за вопросительным словом. А оно, наоборот, должно уехать в самый конец."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Встроенная часть заканчивается глаголом — **…where the station is**, **…what time it is**. Русскому уху фраза кажется оборванной, будто её не договорили: «где станция **находится**» — и всё, дальше пусто. Это нормальный английский, и привыкнуть к такому концу придётся: в этой теме глагол в конце будет постоянно."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Заодно ты получил готовый набор фраз для поездки. **Do you know where the bus stop is?**, **Can you tell me what time it is?**, **Do you know how much a ticket is?** — три вопроса, которые в чужом городе выручают чаще всего, и все три сделаны из одной формулы."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В прямом вопросе связка `to be` стоит перед подлежащим — **Where is the station?** Внутри другой фразы она уезжает назад, за подлежащее: **Do you know where the station is?** Формула: обёртка + вопросительное слово + подлежащее + `to be`. Работает со всеми формами: **is**, **are**, **am**, **was**, **were**. Главная ошибка — оставить связку впереди: **Can you tell me where is the station?** ✗ → **Can you tell me where the station is?** ✓. Русский её не чувствует, потому что в нашей фразе «где станция» переставлять нечего и глагола там вообще нет.",
+      "examples": [
+        {
+          "ru": "Где выход?",
+          "en": "Where is the exit?"
+        },
+        {
+          "ru": "Извините, вы не знаете, где выход?",
+          "en": "Excuse me, do you know where the exit is?"
+        },
+        {
+          "ru": "Я не уверен, где сейчас Кейт.",
+          "en": "I'm not sure where Kate is now."
+        },
+        {
+          "ru": "Ты не помнишь, во сколько встреча?",
+          "en": "Do you remember what time the meeting is?"
+        },
+        {
+          "ru": "Я не знаю, где мой билет.",
+          "en": "I don't know where my ticket is."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему связка is уезжает в самый конец фразы?",
+        "Разве нельзя сказать Do you know where is the station, если всё равно понятно?",
+        "Со всеми формами to be это работает одинаково — с was и were тоже?"
+      ]
+    },
+    {
+      "id": 344,
+      "microtopicId": 128,
+      "title": "do и does исчезают, а -s переезжает в глагол",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Со связкой разобрались — она просто переехала. Теперь берём вопросы с обычным глаголом: **Where does she live?**, **What do they want?**, **When does the shop open?** Здесь впереди стоит не связка, а помощник `do/does`. И с ним внутри фразы происходит другое: он не переезжает, он **исчезает совсем**."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Прямой вопрос",
+            "Внутри фразы"
+          ],
+          "rows": [
+            [
+              "Where **does** she **live**?",
+              "Do you know where she **lives**?"
+            ],
+            [
+              "What **do** they **want**?",
+              "I don't know what they **want**."
+            ],
+            [
+              "When **does** the shop **open**?",
+              "Can you tell me when the shop **opens**?"
+            ],
+            [
+              "Where **do** you **work**?",
+              "I'm not sure where you **work**."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обёртка + вопросительное слово + подлежащее + глагол (`do/does` нет вообще)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему помощник исчезает без следа"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомни тему «Служебные глаголы»: `do/does` — помощник пустой. Он ничего не значит и ничего не добавляет к смыслу, его единственная работа — быть **знаком вопроса** в начале фразы. У глагола `to be` такой работы нет: связка несёт смысл «есть, является», поэтому её нельзя выбросить — только переставить. А `do/does` держится в предложении ровно на одной обязанности, и как только вопрос перестаёт быть вопросом, обязанность отпадает. Помощник без работы просто уходит."
+        },
+        {
+          "type": "heading",
+          "text": "Но одну вещь он уносил с собой"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотри внимательно на первую строку таблицы. В прямом вопросе — **does she live**: глагол `live` стоит **голым**, без окончания. А во встроенной части — **she lives**, окончание вернулось. Откуда оно взялось?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Оно никуда и не пропадало. `does` — это и есть форма третьего лица от `do`, то самое `-s`, только переехавшее в помощника. Английский ставит знак третьего лица **один раз на предложение**: если он уже сидит в `does`, смысловому глаголу окончание не нужно. Убираем `does` — и знак остаётся без носителя, значит он обязан вернуться туда, где живёт по умолчанию: в сам глагол."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Where does Emma work?** → Do you know where Emma **works**?",
+            "**What does she teach?** → I'm not sure what she **teaches**.",
+            "**When does the bank open?** → Can you tell me when the bank **opens**?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "С формой `do` (для **I**, **you**, **we**, **they**) всё проще: она ничего на себе не несёт, поэтому просто пропадает, и глагол остаётся как был — **What do they want?** → **I don't know what they want.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Do you know where does Lily study?** ✗ → **Do you know where Lily studies?** ✓. Помощник остался внизу, и получилось два вопроса в одной фразе. Это прямое продолжение ошибки из прошлой карточки: рука по инерции собирает знакомый вопрос целиком, не замечая, что он попал внутрь."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Do you know where Lily study?** ✗ → **Do you know where Lily studies?** ✓. Здесь ошибка ровно противоположная: `does` убрали правильно, а окончание вернуть забыли — и знак третьего лица потерялся. Эта ошибка коварнее первой: фраза выглядит аккуратно, лишних слов нет, и глаз за неё не цепляется. Заодно обрати внимание на написание: `study` заканчивается на согласную с `y`, поэтому знак третьего лица даёт `studies` — правило из Present Simple никуда не делось."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда обе ошибки берутся у русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском пустых помощников нет вообще. «Где она живёт?» и «Не знаешь, где она живёт?» — одно и то же слово «живёт» в обеих фразах, и никакого служебного слова рядом. Поэтому у нас нет ни привычки что-то выбрасывать, ни ощущения, что при выбрасывании что-то может потеряться."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда и две ошибки-близнеца, и обе абсолютно логичны с точки зрения русского мозга: «где она живёт» переводится либо «слишком полно» (тащим `does`, ведь в прямом вопросе он был), либо «слишком коротко» (выкинули `does` и на этом успокоились). Правильный вариант требует сделать **два** движения сразу — убрать помощника и вернуть окончание, — а рука по привычке делает только одно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Проверить себя можно за секунду. Закрой обёртку пальцем и прочитай то, что осталось: **she lives here** — нормальное английское предложение ✓. **does she live** ✗ и **she live** ✗ — не предложения вовсе. Встроенная часть всегда должна читаться как обычное утверждение."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Помощник `do/does` — пустой, его работа только помечать вопрос. Внутри фразы вопроса нет, поэтому помощник исчезает совсем: **Where does she live?** → **Do you know where she lives?** Но `does` уносил на себе знак третьего лица, поэтому при его исчезновении окончание `-s` возвращается в смысловой глагол: **does live** → **lives**. Формула: обёртка + вопросительное слово + подлежащее + глагол. Две зеркальные ошибки: **Do you know where does she live?** ✗ (притащили помощника) и **Do you know where she live?** ✗ (потеряли окончание). Проверка: закрой обёртку — оставшееся должно читаться как обычное утверждение.",
+      "examples": [
+        {
+          "ru": "Где работает Эмма?",
+          "en": "Where does Emma work?"
+        },
+        {
+          "ru": "Ты не знаешь, где работает Эмма?",
+          "en": "Do you know where Emma works?"
+        },
+        {
+          "ru": "Не подскажете, во сколько открывается банк?",
+          "en": "Can you tell me when the bank opens?"
+        },
+        {
+          "ru": "Понятия не имею, где они живут.",
+          "en": "I have no idea where they live."
+        },
+        {
+          "ru": "Я не уверена, сколько стоит билет.",
+          "en": "I'm not sure how much the ticket costs."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему does исчезает совсем, а is только переезжает?",
+        "Откуда во встроенной части берётся окончание -s, если в вопросе его не было?",
+        "А если подлежащее I или they — там тоже что-то меняется?"
+      ]
+    },
+    {
+      "id": 345,
+      "microtopicId": 128,
+      "title": "did исчезает, а прошедшее переезжает в глагол",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Остался третий помощник — `did`. Ведёт он себя точно так же, как `do/does`: внутри фразы **исчезает без следа**. Но уносил он на себе кое-что посерьёзнее окончания третьего лица — он держал **всё прошедшее время предложения**. Значит, при его исчезновении прошедшее обязано переехать в смысловой глагол."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Прямой вопрос",
+            "Внутри фразы"
+          ],
+          "rows": [
+            [
+              "Where **did** he **go**?",
+              "Do you know where he **went**?"
+            ],
+            [
+              "When **did** they **leave**?",
+              "I'm not sure when they **left**."
+            ],
+            [
+              "What **did** she **buy**?",
+              "Can you tell me what she **bought**?"
+            ],
+            [
+              "Where **did** you **lose** it?",
+              "I have no idea where you **lost** it."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обёртка + вопросительное слово + подлежащее + глагол в форме прошедшего (`did` нет вообще)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему в прямом вопросе глагол стоял в базовой форме"
+        },
+        {
+          "type": "paragraph",
+          "text": "Взгляни на левую колонку: **did he go**, **did they leave**, **did she buy** — везде голая словарная форма. Это та же логика, что и с `does`: знак ставится **один раз на предложение**. Прошедшее уже отмечено в `did`, поэтому второй раз отмечать его в глаголе не нужно — иначе получилось бы **did he went**, где прошедшее отмечено дважды — и в помощнике, и в глаголе."
+        },
+        {
+          "type": "paragraph",
+          "text": "Убираем `did` — и знак прошедшего остаётся без носителя. Он возвращается туда, где живёт по умолчанию: в сам глагол. У правильных глаголов это окончание `-ed` (**did you work** → **you worked**), у неправильных — вторая форма из колоды (**go** → **went**, **buy** → **bought**, **leave** → **left**, **lose** → **lost**, **come** → **came**)."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Do you know where did he go?** ✗ → **Do you know where he went?** ✓. Помощник остался внутри — та же ошибка, что и с `does`, только с `did`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Do you know where he go?** ✗ → **Do you know where he went?** ✓. Помощника убрали, а прошедшее в глагол не вернули — и фраза стала про настоящее. Здесь потеря заметнее, чем с `-s`: пропало не окончание, а **целое время**, и собеседник понимает предложение неправильно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему с did ошибаться легче, чем с does"
+        },
+        {
+          "type": "paragraph",
+          "text": "С `does` у нас была хотя бы зацепка: пропавшее `-s` — маленький знак, но он на своём месте, и его отсутствие видно глазом. С `did` зацепки нет вообще, и вот почему."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «куда он пошёл» — **никакого вспомогательного слова нет**, прошедшее сидит прямо в глаголе, в его окончании. То есть русский устроен ровно так, как выглядит **правильный** английский ответ: подлежащее и глагол в прошедшем. Казалось бы, это должно помогать — и в половине случаев помогает. Но именно поэтому мозг вообще **не следит** за прошедшим временем как за отдельной деталью: у нас за него никогда не отвечало отдельное слово, и терять там нечего."
+        },
+        {
+          "type": "paragraph",
+          "text": "В итоге ошибку не чувствует ни ухо, ни логика. **Do you know where he go?** для русского уха звучит не хуже правильного варианта, потому что «где он был и куда пошёл» мы держим в голове смыслом, а не формой. Ловить такое приходится головой: убрал `did` — сразу проверь, встала ли вторая форма глагола."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка в одно движение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Она та же, что и в прошлой карточке. Закрой обёртку пальцем и прочитай остаток как отдельное предложение:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**he went to Lisbon** — нормальное предложение в прошедшем ✓",
+            "**did he go** ✗ — это кусок вопроса, а не предложение",
+            "**he go** ✗ — вообще не английский"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Три карточки — три помощника, но правило под ними одно, и его удобно запомнить одной фразой: **то, что сидело в помощнике, переезжает в глагол**. У `to be` переезжает сама связка (за подлежащее), у `does` — окончание `-s`, у `did` — прошедшее время. Всё остальное в этой теме будет только уточнять, где это правило **не** работает."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Помощник `did` внутри фразы исчезает так же, как `do/does`, но он держал на себе прошедшее время — поэтому прошедшее переезжает в смысловой глагол: **Where did he go?** → **Do you know where he went?** У правильных глаголов это `-ed` (**you worked**), у неправильных — вторая форма (**went**, **bought**, **left**, **lost**). Две ошибки: **Do you know where did he go?** ✗ (притащили помощника) и **Do you know where he go?** ✗ (потеряли время — фраза стала про настоящее). Русский эту ошибку не чувствует: у нас прошедшее всегда сидит в самом глаголе, и отдельного слова за него не отвечает.",
+      "examples": [
+        {
+          "ru": "Куда он пошёл?",
+          "en": "Where did he go?"
+        },
+        {
+          "ru": "Ты не знаешь, куда он пошёл?",
+          "en": "Do you know where he went?"
+        },
+        {
+          "ru": "Не помню, что она сказала.",
+          "en": "I can't remember what she said."
+        },
+        {
+          "ru": "Ты не знаешь, когда они уехали в Вену?",
+          "en": "Do you know when they left for Vienna?"
+        },
+        {
+          "ru": "Я не уверен, сколько он заплатил за телефон.",
+          "en": "I'm not sure how much he paid for the phone."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в прямом вопросе did he go, а не did he went?",
+        "Что будет, если did убрать, а глагол оставить в базовой форме?",
+        "Как быстро проверить встроенную часть, чтобы не тащить did внутрь?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 343,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 145,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 343,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 51,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 343,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 127,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 343,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 131,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 344,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 63,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 344,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 148,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 344,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 166,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 344,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 38,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 345,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 146,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 345,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 128,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 345,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 28,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 345,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 132,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "indirect_questions_card343_ex1",
+      "cardId": 343,
+      "title": "Заверни вопрос с to be",
+      "userInstruction": "ИИ пришлёт прямые вопросы и начало вежливой фразы. Допишите пропущенную часть.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "indirect_questions_card344_ex1",
+      "cardId": 344,
+      "title": "Убери does и верни окончание",
+      "userInstruction": "ИИ пришлёт прямые вопросы и начало вежливой фразы. Допишите пропущенную часть.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "indirect_questions_card345_ex1",
+      "cardId": 345,
+      "title": "Убери did и поставь прошедшее",
+      "userInstruction": "ИИ пришлёт прямые вопросы и начало вежливой фразы. Допишите пропущенную часть.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "indirect_questions_card345_ex2",
+      "cardId": 345,
+      "title": "Скажи по-английски",
+      "userInstruction": "ИИ даст русскую фразу о прошлом. Напишите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "linking",
@@ -335,16 +920,293 @@
     }
   ],
   "course_words": [],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 28,
+      "taskDescription": "запиши встроенную часть каждого вопроса.",
+      "rows": [
+        {
+          "hint": "What did Nick say?",
+          "answer": "what Nick said"
+        },
+        {
+          "hint": "When did the train arrive?",
+          "answer": "when the train arrived"
+        },
+        {
+          "hint": "Where did you take this photo?",
+          "answer": "where you took this photo"
+        },
+        {
+          "hint": "Why did Kate call you?",
+          "answer": "why Kate called you"
+        }
+      ],
+      "explanation": "Помощник did убирается, подлежащее встаёт перед глаголом, а прошедшее время уходит в сам глагол: say → said, take → took у неправильных, arrive → arrived и call → called у правильных."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 148,
+      "statements": [
+        {
+          "en": "Do you know where does Kate work?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I don't know what my neighbours want.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Can you tell me when the museum opens?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Do you remember where Sam parks his car?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I'm not sure what this word mean.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "В первом помощник does остался внутри — он должен исчезнуть: where Kate works. В пятом does убрали, но окончание в глагол не вернули: what this word means."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 131,
+      "situationRu": "Ситуация: Вика подходит к прохожему в Вене и вежливо спрашивает, где кафе.",
+      "correctSentence": "Excuse me, do you know where the café is?",
+      "words": [
+        "Excuse me",
+        "do you know",
+        "where",
+        "the café",
+        "is"
+      ],
+      "distractors": [
+        "is the café",
+        "where is",
+        "are",
+        "was"
+      ],
+      "explanation": "Обёртка do you know идёт первой, а во встроенной части сначала подлежащее the café, потом связка is. Куски is the café и where is собраны по порядку прямого вопроса, а are и was не подходят по числу и времени."
+    },
+    {
+      "id": 132,
+      "situationRu": "Ситуация: Гриша не помнит, где купил эти кроссовки.",
+      "correctSentence": "I can't remember where I bought these sneakers.",
+      "words": [
+        "I can't remember",
+        "where",
+        "I",
+        "bought",
+        "these sneakers"
+      ],
+      "distractors": [
+        "did buy",
+        "did I buy",
+        "buy"
+      ],
+      "explanation": "Во встроенной части сначала подлежащее I, потом глагол в прошедшем: I bought. Куски did buy и did I buy тащат внутрь помощника, а форма buy оставила бы предложение в настоящем."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 145,
+      "choiceType": "CHOICE",
+      "prompt": "Excuse me, do you know where ___?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "is the museum",
+          "isCorrect": false
+        },
+        {
+          "text": "the museum is",
+          "isCorrect": true
+        },
+        {
+          "text": "the museum",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Внутри фразы связка стоит после подлежащего: where the museum is. Вариант is the museum — это порядок прямого вопроса, а в where the museum потерялся сам глагол."
+    },
+    {
+      "id": 166,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я не знаю, во сколько Тёма заканчивает работу.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I don't know when does Tyoma finish work.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't know when Tyoma finish work.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't know when Tyoma finishes work.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Внутри фразы помощник does не ставится, а знак третьего лица переходит в глагол: Tyoma finishes. Вариант when Tyoma finish остался без этого знака."
+    },
+    {
+      "id": 146,
+      "choiceType": "CHOICE",
+      "prompt": "I have no idea where Ben ___ after the party.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "went",
+          "isCorrect": true
+        },
+        {
+          "text": "did go",
+          "isCorrect": false
+        },
+        {
+          "text": "go",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Помощник did внутри фразы не ставится, а прошедшее время переезжает в глагол: went. Форма go оставила бы предложение в настоящем."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 63,
+      "items": [
+        {
+          "sentence": "I don't know where Nick ___ these days.",
+          "contextRu": "",
+          "answer": "lives",
+          "alternatives": []
+        },
+        {
+          "sentence": "Do you know how much this jacket ___?",
+          "contextRu": "",
+          "answer": "costs",
+          "alternatives": []
+        },
+        {
+          "sentence": "Can you tell me when the pool ___ on Sunday?",
+          "contextRu": "",
+          "answer": "opens",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Помощника does во встроенной части нет, поэтому знак третьего лица возвращается в сам глагол: lives, costs, opens. Формы live, cost и open здесь остались бы без этого знака.",
+      "taskDescription": "Впиши глагол по смыслу в нужной форме.",
+      "wordBank": [
+        "открывается",
+        "стоит",
+        "живёт"
+      ]
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 38,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": null
+        },
+        {
+          "speaker": "B",
+          "text": "She usually gets home around seven."
+        }
+      ],
+      "options": [
+        {
+          "text": "Do you know when does Megan get home?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you know when Megan gets home?",
+          "isCorrect": true
+        },
+        {
+          "text": "Do you know when Megan get home?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Обёртка Do you know сама остаётся вопросом со своим помощником, а внутри помощника быть не должно, и глагол получает окончание третьего лица: when Megan gets home."
+    }
+  ],
   "matching_exercises": [],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 127,
+      "wrongSentence": "Can you tell me where is the entrance?",
+      "options": [
+        {
+          "text": "Can you tell me where the entrance is?",
+          "isCorrect": true
+        },
+        {
+          "text": "Can you tell me where the entrance?",
+          "isCorrect": false
+        },
+        {
+          "text": "Can you tell me where is the entrance, please?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Связка is должна уехать за подлежащее: where the entrance is. Без неё предложение остаётся без глагола, а слово please вежливости добавляет, но порядок слов не чинит."
+    },
+    {
+      "id": 128,
+      "wrongSentence": "Can you tell me when did the film start?",
+      "options": [
+        {
+          "text": "Can you tell me when the film did start?",
+          "isCorrect": false
+        },
+        {
+          "text": "Can you tell me when did the film started?",
+          "isCorrect": false
+        },
+        {
+          "text": "Can you tell me when the film started?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Помощник did должен исчезнуть, а прошедшее время перейти в сам глагол: the film started. В остальных вариантах did остаётся внутри, а во втором прошедшее вдобавок отмечено дважды."
+    }
+  ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 51,
+      "taskDescription": "перепиши каждый вопрос, начав его с Do you know.",
+      "items": [
+        {
+          "original": "Where is the pharmacy?",
+          "transformed": "Do you know where the pharmacy is?"
+        },
+        {
+          "original": "Where are the taxis?",
+          "transformed": "Do you know where the taxis are?"
+        },
+        {
+          "original": "What time is the flight?",
+          "transformed": "Do you know what time the flight is?"
+        }
+      ],
+      "explanation": "Обёртка Do you know остаётся вопросом, а встроенная часть собирается как утверждение: подлежащее, а за ним связка is или are."
+    }
+  ],
   "categorization_exercises": [],
   "find_the_odd_exercises": []
 }

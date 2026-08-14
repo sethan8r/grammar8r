@@ -7,24 +7,24 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 343 |
+| Card | 346 |
 | Categorization | 74 |
 | Category | 6 |
 | ConstructionMeaning | 32 |
-| DialogRestore | 38 |
-| ErrorCorrection | 127 |
+| DialogRestore | 39 |
+| ErrorCorrection | 129 |
 | FindTheOdd | 65 |
 | Matching | 49 |
-| Microtopic | 128 |
-| MultipleChoice·CHOICE | 145 |
-| MultipleChoice·FORWARD_CHOICE | 166 |
+| Microtopic | 129 |
+| MultipleChoice·CHOICE | 147 |
+| MultipleChoice·FORWARD_CHOICE | 167 |
 | MultipleChoice·REVERSE_CHOICE | 47 |
-| TableFill | 28 |
-| TextInput | 63 |
+| TableFill | 29 |
+| TextInput | 64 |
 | Topic | 22 |
-| Transformation | 51 |
-| TrueFalse | 148 |
-| WordArrangement | 131 |
+| Transformation | 52 |
+| TrueFalse | 149 |
+| WordArrangement | 133 |
 | course_word | 598 |
 
 ## Диапазоны по темам
@@ -327,9 +327,18 @@
 - course_word: 1–230 (230)
 
 ### indirect-questions
-- Card: 341–342 (2)
-- Microtopic: 127–127 (1)
+- Card: 341–345 (5)
+- DialogRestore: 38–38 (1)
+- ErrorCorrection: 127–128 (2)
+- Microtopic: 127–128 (2)
+- MultipleChoice·CHOICE: 145–146 (2)
+- MultipleChoice·FORWARD_CHOICE: 166–166 (1)
+- TableFill: 28–28 (1)
+- TextInput: 63–63 (1)
 - Topic: 21–21 (1)
+- Transformation: 51–51 (1)
+- TrueFalse: 148–148 (1)
+- WordArrangement: 131–132 (2)
 
 ### linking-words
 - Card: 280–301 (22)
