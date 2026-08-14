@@ -32,6 +32,13 @@
       "title": "Nothing to Change · Когда менять нечего",
       "order": 3,
       "searchKeywords": "кто позвонил, что случилось, помощник остаётся на месте, потерял будущее внутри, забыл поставить is, придаточному нужен свой глагол"
+    },
+    {
+      "id": 130,
+      "topicId": 21,
+      "title": "If / Whether · Когда вопросительного слова нет",
+      "order": 4,
+      "searchKeywords": "придёт ли она, как сказать ли по-английски, вопрос без вопросительного слова, if или whether, два разных if, есть ли тут"
     }
   ],
   "grammar_cards": [
@@ -1285,6 +1292,472 @@
         "Как понять, ставить is или are во встроенной части?",
         "Почему в русском глагол не нужен, а в английском обязателен?"
       ]
+    },
+    {
+      "id": 349,
+      "microtopicId": 130,
+      "title": "Вопрос без вопросительного слова: if вместо «ли»",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во всех примерах темы до этой минуты внутри фразы стояло вопросительное слово: `where`, `what`, `who`, `when`, `how much`. Оно работало не только по смыслу, но и чисто технически — было **швом** между обёрткой и встроенной частью, местом склейки: Do you know **where** the station is?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Но половина вопросов на свете обходится без вопросительного слова совсем. Это те, на которые отвечают «да» или «нет»: **Is she coming?**, **Did he call?**, **Can we pay by card?**, **Does the bus stop here?** Спрашивать так мы давно умеем. Вопрос в другом: чем склеивать, если склеивать нечем?"
+        },
+        {
+          "type": "heading",
+          "text": "Английский ставит на это место `if`"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Is she coming?** → Do you know **if she is coming**?",
+            "**Did he call?** → I don't know **if he called**.",
+            "**Can we pay by card?** → Can you tell me **if we can pay by card**?",
+            "**Does the bus stop here?** → Do you remember **if the bus stops here**?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обёртка + `if` + подлежащее + глагол."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание на правую колонку: после `if` всё собрано ровно по правилам прошлых микротем. Связка ушла за подлежащее (**she is**), `did` исчез, а прошедшее переехало в глагол (**he called**), `does` исчез и вернул окончание (**the bus stops**), `can` остался на месте (**we can pay**). Ничего нового учить не нужно — `if` просто занял пустующее место вопросительного слова, а дальше работает всё то же самое."
+        },
+        {
+          "type": "heading",
+          "text": "По-русски это «ли» — но ведёт себя оно совсем иначе"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл `if` мы передаём частицей «ли»: «Не знаешь, придёт **ли** она?» Только вот устроены эти два слова по-разному, и на этом ломаются почти все."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «ли» — **частица**, и она прилипает к глаголу в середине фразы: придёт **ли**, звонил **ли**, работает **ли**. Место у неё внутри, после того слова, о котором спрашиваем."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английское `if` — **слово**, и стоит оно **в начале** встроенной части, перед подлежащим. После него ничего не переставляется: сначала кто, потом что делает."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Не знаю, придёт **ли** она». → I don't know **if she is coming**.",
+            "«Не помню, звонил **ли** Игорь». → I can't remember **if Igor called**."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Do you know if is she coming?** ✗ → **Do you know if she is coming?** ✓. Рука тянет связку вперёд, потому что исходно-то был вопрос. Но `if` уже сделал всю работу — он один и обозначает, что дальше идёт вопрос. Инверсия после него не нужна и попросту запрещена."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I don't know if did he call** ✗ → **I don't know if he called** ✓. То же самое с помощником: `did` исчезает, как и в любой встроенной части, а прошедшее уходит в глагол."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Выбросить `if` нельзя — а по-русски выбросить «ли» можно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот тонкость, из-за которой ошибка живучая. По-русски частицу можно спокойно опустить и заменить интонацией — так и говорят чаще всего:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Не знаешь, придёт **ли** она?» и «Не знаешь, она придёт?» — обе фразы нормальные, смысл один."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском такой свободы нет, и вот почему. Убери `if` — и получится **Do you know she is coming?** А это уже совсем другое предложение: «ты знаешь, **что** она придёт?» Мы больше не спрашиваем, придёт она или нет, — мы считаем это фактом и спрашиваем, в курсе ли собеседник. Смысл перевернулся, а предложение при этом абсолютно правильное — никто ошибку и не заметит, просто поймут не то."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`If` в такой фразе — не украшение и не вежливость, а единственный знак того, что внутри сидит вопрос. Пропал `if` — пропал и сам вопрос."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Конструкция сразу выдаёт длинный список готовых фраз для поездки, и все строятся по одной формуле: **Do you know if the shop is open?**, **Can you tell me if this bus goes to the centre?**, **Do you know if breakfast is included?** Заодно посмотри на удобный оборот с новым словом: **Can you tell me if this is correct?** — «правильно ли это?»"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Если вопрос отвечает на «да» или «нет», вопросительного слова в нём нет — и место шва занимает `if`: **Is she coming?** → **Do you know if she is coming?** Формула: обёртка + `if` + подлежащее + глагол. После `if` работает всё то же самое: связка уходит за подлежащее, `did` и `does` исчезают, `will` и `can` остаются. По-русски это «ли», но наше «ли» — частица в середине фразы, а `if` — слово в начале придаточного, поэтому инверсия после него запрещена: **Do you know if is she coming?** ✗. И в отличие от «ли», выбросить `if` нельзя: **Do you know she is coming?** — это уже «ты знаешь, что она придёт», другой смысл.",
+      "examples": [
+        {
+          "ru": "Она придёт?",
+          "en": "Is she coming?"
+        },
+        {
+          "ru": "Ты не знаешь, придёт ли она?",
+          "en": "Do you know if she is coming?"
+        },
+        {
+          "ru": "Не помню, звонил ли Игорь.",
+          "en": "I can't remember if Igor called."
+        },
+        {
+          "ru": "Не подскажете, можно ли заплатить картой?",
+          "en": "Can you tell me if we can pay by card?"
+        },
+        {
+          "ru": "Скажите, пожалуйста, правильно ли это.",
+          "en": "Please tell me if this is correct."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после if нельзя оставить порядок как в вопросе?",
+        "Что изменится, если сказать Do you know she is coming без if?",
+        "Как быть, если в русской фразе слова «ли» вообще нет?"
+      ]
+    },
+    {
+      "id": 350,
+      "microtopicId": 130,
+      "title": "whether — то же самое, но строже",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У `if` есть напарник — `whether`. Значит он ровно то же самое, «ли», и в большинстве предложений эти два слова взаимозаменяемы полностью:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "I don't know **if** he agrees. = I don't know **whether** he agrees.",
+            "Can you tell me **if** the shop is open? = Can you tell me **whether** the shop is open?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница не в смысле, а в **регистре**: `if` — обычное разговорное слово, `whether` звучит строже и книжнее. В переписке по работе, в документе, в официальном письме берут `whether`; в разговоре с приятелем он прозвучал бы слишком торжественно, там живёт `if`."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Стиль",
+            "Где обычно"
+          ],
+          "rows": [
+            [
+              "if",
+              "нейтральный, разговорный",
+              "речь, чат, бытовые вопросы"
+            ],
+            [
+              "whether",
+              "формальный, книжный",
+              "письма, документы, деловая переписка"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три места, где `if` не годится"
+        },
+        {
+          "type": "paragraph",
+          "text": "Взаимозаменяемость работает не везде. Есть конструкции, в которые `if` просто не встаёт, — там нужен только `whether`."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Первое: `whether … or not`.** Когда мы прямо проговариваем обе возможности — «или нет»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "I don't know **whether or not** he will come.",
+            "I don't know **whether** he will come **or not**.",
+            "Tell me **whether or not** you need help."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание: `or not` можно поставить сразу за `whether` или отправить в конец фразы — оба варианта верные. А вот **if or not** ✗ не существует: сказать так нельзя."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Второе: `whether` + инфинитив.** Когда после «ли» идёт не целое предложение с подлежащим, а просто действие — по-русски это «идти ли», «брать ли», «соглашаться ли»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "I can't decide **whether to go**.",
+            "She is thinking **whether to take** the job.",
+            "We couldn't decide **whether to stay** another day."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I can't decide if to go** ✗ → **I can't decide whether to go** ✓. Здесь `if` невозможен вообще: после него всегда должно идти подлежащее со своим глаголом, а инфинитив он за собой не тянет."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Третье: после предлога.** Если перед «ли» стоит предлог — `about`, `on`, `of` — дальше идёт только `whether`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "We talked **about whether** we need a bigger flat.",
+            "It depends **on whether** the weather is good."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему у одного смысла два слова"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина простая, и она пригодится в следующей карточке. Слово `if` в английском **перегружено**: у него есть вторая, совсем другая работа — вводить условие («если»). А `whether` занимается только вопросом, других значений у него нет. Поэтому там, где двусмысленность недопустима — в документах, в юридическом и деловом тексте, — берут `whether`: он читается однозначно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Новое слово `to mind` («возражать, быть против») отлично уживается с `whether`: **I don't mind whether we go by bus or by train** — «мне без разницы, поедем мы автобусом или поездом». Обрати внимание на смысл: `I don't mind` — это не «я не думаю», а «я не против, мне всё равно»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`whether` значит то же, что `if` («ли»), и в большинстве фраз они взаимозаменяемы — разница только в регистре: `if` разговорный, `whether` формальный и книжный. Но есть три места, где нужен только `whether`: с `or not` (**whether or not he will come**, **if or not** ✗), перед инфинитивом (**I can't decide whether to go**, **if to go** ✗) и после предлога (**It depends on whether…**). Причина существования двух слов в том, что `if` перегружен — у него есть вторая работа, вводить условие, а `whether` всегда однозначен.",
+      "examples": [
+        {
+          "ru": "Я не знаю, согласится ли он.",
+          "en": "I don't know whether he agrees."
+        },
+        {
+          "ru": "Сообщите, пожалуйста, придёте вы или нет.",
+          "en": "Please tell me whether or not you are coming."
+        },
+        {
+          "ru": "Я не могу решить, брать эту работу или нет.",
+          "en": "I can't decide whether to take the job."
+        },
+        {
+          "ru": "Всё зависит от того, будет ли хорошая погода.",
+          "en": "It depends on whether the weather is good."
+        },
+        {
+          "ru": "Мне всё равно, поедем мы автобусом или поездом.",
+          "en": "I don't mind whether we go by bus or by train."
+        }
+      ],
+      "clarificationOptions": [
+        "Когда лучше сказать whether, а когда if?",
+        "Почему нельзя сказать if or not?",
+        "Почему после предлога идёт только whether?"
+      ]
+    },
+    {
+      "id": 351,
+      "microtopicId": 130,
+      "title": "Два разных if: «ли» и «если»",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пора разобрать капкан, о котором мы предупреждали в прошлой карточке. Английский отдал слову `if` **две совершенно разные работы**, а русский для этих работ держит два разных слова — и путать их у нас невозможно в принципе."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`if` = **«ли»** — вводит вопрос: I don't know **if** he will call. — «Не знаю, позвонит **ли** он».",
+            "`if` = **«если»** — вводит условие: **If** he calls, tell me. — «**Если** он позвонит, скажи мне»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Для нас это два разных мира: «ли» — про неизвестность, «если» — про условие, при котором что-то произойдёт. Для английского это одно слово, и различает их только смысл всей фразы."
+        },
+        {
+          "type": "heading",
+          "text": "Как отличить: подставь оба русских слова"
+        },
+        {
+          "type": "paragraph",
+          "text": "Способ примитивный, но работает всегда. Прочитай фразу с «ли», потом с «если» — осмысленным окажется ровно один вариант:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "I don't know if he will call. → «не знаю, позвонит **ли** он» ✓ / «не знаю, **если** он позвонит» ✗ — бессмыслица.",
+            "If he calls, tell me. → «**если** он позвонит, скажи мне» ✓ / «позвонит **ли** он, скажи мне» ✗ — бессмыслица."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Есть и второй тест, чисто английский"
+        },
+        {
+          "type": "paragraph",
+          "text": "Он даже надёжнее, и мы к нему уже всё подготовили: попробуй заменить `if` на `whether`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I don't know whether he will call** ✓ — замена прошла, значит это `if`-«ли».",
+            "**Whether he calls, tell me** ✗ — фраза сломалась, значит это `if`-«если»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика очевидна: `whether` умеет только вопрос. Прошла замена — перед нами вопрос; не прошла — условие."
+        },
+        {
+          "type": "heading",
+          "text": "Зачем вообще их различать: после них разные правила"
+        },
+        {
+          "type": "paragraph",
+          "text": "Одно практическое следствие можно дать уже сейчас. После `if`-«ли» **будущее время ставится как обычно**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "I don't know **if it will rain** tomorrow. ✓",
+            "Can you tell me **if the shop will be open** on Sunday? ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это не какое-то особое правило, а всё та же логика прошлой микротемы: `will` несёт смысл, поэтому внутри остаётся и просто стоит после подлежащего."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `if`-«если» будет ровно наоборот — там будущее после `if` не ставится, и говорят **If it rains, we'll stay home**. Почему так и что ещё умеет условное `if` — целая тема впереди, «Условные предложения». Пока запомни только границу: правило «после `if` нельзя `will`» относится к условию, а к нашему `if`-«ли» оно отношения не имеет."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Инверсия, которая прячется: there is"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельный капкан той же карточки. Русское «есть **ли** тут что-нибудь вегетарианское?» так и тянет собрать через `is there`, потому что в прямом вопросе именно так и было: **Is there something vegetarian here?**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Но внутри фразы `there` — это подлежащее, а `is` — глагол при нём. Значит порядок тот же, что и везде: сначала подлежащее, потом глагол."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I don't know if there is something vegetarian here.** ✓",
+            "**I don't know if is there something vegetarian here.** ✗"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибка коварна тем, что на глаз почти не видна: `if there is` и `if is there` состоят из одних и тех же трёх слов, и разница ловится только вниманием. Опирайся на ось всей темы: внутри фразы — обычный утвердительный порядок, а **There is something vegetarian here** ✓ — как раз обычное утверждение."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обстоятельство при этом уходит в конец, а не втискивается между словами: **Can you tell me if there is a pharmacy in this street?** ✓, а не **…if there is in this street a pharmacy** ✗. Английский держит связку «подлежащее плюс глагол плюс дополнение» вместе, а всё остальное дописывает после."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У `if` две работы: «ли» (вопрос) и «если» (условие), а в русском это разные слова — отсюда путаница. Проверка: подставь оба русских слова, осмысленным будет одно; либо попробуй заменить `if` на `whether` — прошло, значит это «ли». Практическое следствие: после `if`-«ли» будущее ставится как обычно — **I don't know if it will rain** ✓, потому что `will` внутри остаётся; у `if`-«если» будет наоборот, это разберём в «Условных предложениях». Ловушка с there: **if there is something** ✓, а не **if is there something** ✗ — внутри фразы `there` подлежащее, и порядок обычный.",
+      "examples": [
+        {
+          "ru": "Не знаю, позвонит ли он.",
+          "en": "I don't know if he will call."
+        },
+        {
+          "ru": "Если он позвонит, скажи мне.",
+          "en": "If he calls, tell me."
+        },
+        {
+          "ru": "Не знаю, будет ли завтра дождь.",
+          "en": "I don't know if it will rain tomorrow."
+        },
+        {
+          "ru": "Не подскажете, есть ли тут поблизости аптека?",
+          "en": "Can you tell me if there is a pharmacy near here?"
+        },
+        {
+          "ru": "Мне всё равно, будет дождь или нет.",
+          "en": "I don't mind whether it rains or not."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, где if — «ли», а где «если»?",
+        "Почему после if-«ли» можно поставить will?",
+        "Почему нельзя сказать if is there, ведь в вопросе именно так?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1431,6 +1904,78 @@
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 39,
       "orderInCard": 3
+    },
+    {
+      "cardId": 349,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 168,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 349,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 131,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 349,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 134,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 349,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 150,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 350,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 148,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 350,
+      "exerciseType": "MATCHING",
+      "exerciseId": 49,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 350,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 66,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 350,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 47,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 351,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 33,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 351,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 149,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 351,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 53,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 351,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 40,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1473,6 +2018,14 @@
       "userInstruction": "ИИ пришлёт прямые вопросы и начало вежливой фразы. Допишите пропущенную часть.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "indirect_questions_card351_ex1",
+      "cardId": 351,
+      "title": "Скажи по-английски",
+      "userInstruction": "ИИ даст русскую фразу. Напишите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -1491,7 +2044,32 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 598,
+      "word": "whether",
+      "translation": "ли, будь то",
+      "transcription": "[ˈweðə]",
+      "microtopicId": 130,
+      "categoryId": "linking"
+    },
+    {
+      "id": 599,
+      "word": "to mind",
+      "translation": "возражать, быть против",
+      "transcription": "[maɪnd]",
+      "microtopicId": 130,
+      "categoryId": "linking"
+    },
+    {
+      "id": 600,
+      "word": "correct",
+      "translation": "правильный, верный",
+      "transcription": "[kəˈrekt]",
+      "microtopicId": 130,
+      "categoryId": "linking"
+    }
+  ],
   "table_fill_exercises": [
     {
       "id": 28,
@@ -1579,6 +2157,37 @@
         }
       ],
       "explanation": "В первом who — подлежащее, помощника там не было и вставлять его не нужно: who left this note. В четвёртом who — дополнение, поэтому помощник должен исчезнуть, а прошедшее уйти в глагол: who she invited."
+    },
+    {
+      "id": 150,
+      "statements": [
+        {
+          "en": "Do you know if the train leaves at eight?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I'm not sure if can we take photos here.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Can you tell me if this seat is free?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I don't remember if did she pay for the tickets.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Do you know if Megan speaks Spanish?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во втором помощник can вынесен вперёд подлежащего, а он должен стоять после него: if we can take photos. В четвёртом did нужно убрать совсем, а прошедшее перенести в глагол: if she paid."
     }
   ],
   "word_arrangement_exercises": [
@@ -1636,6 +2245,24 @@
         "was"
       ],
       "explanation": "Во встроенной части сначала подлежащее her neighbour, потом глагол is. Куски is her neighbour и how old is собраны по порядку прямого вопроса, are не подходит по числу, а was перевело бы фразу в прошедшее."
+    },
+    {
+      "id": 134,
+      "situationRu": "Ситуация: Юля хочет узнать у соседа, работает ли лифт.",
+      "correctSentence": "Do you know if the lift works?",
+      "words": [
+        "Do you know",
+        "if",
+        "the lift",
+        "works"
+      ],
+      "distractors": [
+        "does",
+        "is",
+        "working",
+        "that"
+      ],
+      "explanation": "После if сначала подлежащее the lift, потом глагол с окончанием третьего лица: works. Помощник does во встроенной части исчезает, форма working здесь не нужна, а that превратил бы вопрос в утверждение о факте."
     }
   ],
   "multiple_choice_exercises": [
@@ -1743,6 +2370,90 @@
         }
       ],
       "explanation": "Помощник will остаётся, но уходит за подлежащее: when Lena will come back. Во втором варианте сохранён вопросительный порядок, а в третьем will выброшен — и будущее из фразы пропало."
+    },
+    {
+      "id": 168,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я не знаю, работает ли этот магазин по воскресеньям.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I don't know if does this shop open on Sundays.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't know if is this shop open on Sundays.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't know if this shop opens on Sundays.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "После if идёт прямой порядок: подлежащее, потом глагол. Помощник does во встроенной части исчезает и оставляет окончание в глаголе, а связка вперёд не выносится."
+    },
+    {
+      "id": 148,
+      "choiceType": "CHOICE",
+      "prompt": "I can't decide ___ to sell my old bike.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "whether",
+          "isCorrect": true
+        },
+        {
+          "text": "if",
+          "isCorrect": false
+        },
+        {
+          "text": "that",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Перед инфинитивом стоит только whether: if за собой инфинитив не тянет, после него всегда идёт подлежащее со своим глаголом."
+    },
+    {
+      "id": 47,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I don't mind whether we start at six or at seven.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я не думаю, что мы начнём в шесть или в семь.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не против начать в шесть, а не в семь.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мне всё равно, начнём мы в шесть или в семь.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "to mind значит «возражать, быть против», поэтому I don't mind — «мне всё равно, я не против», а whether вводит выбор из двух возможностей."
+    },
+    {
+      "id": 149,
+      "choiceType": "CHOICE",
+      "prompt": "Can you tell me if there ___ a bank near the station?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "is",
+          "isCorrect": true
+        },
+        {
+          "text": "is there",
+          "isCorrect": false
+        },
+        {
+          "text": "are there",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Внутри фразы there — подлежащее, поэтому глагол стоит после него: if there is. Порядок is there остался от прямого вопроса, а форма are не подходит по числу."
     }
   ],
   "text_input_exercises": [
@@ -1830,6 +2541,31 @@
       ],
       "explanation": "Встроенная часть — это отдельное предложение, и глагол ему обязателен. Форма обычная: is при единственном числе, are при множественном.",
       "taskDescription": "Впиши в каждое предложение пропущенное слово."
+    },
+    {
+      "id": 66,
+      "items": [
+        {
+          "sentence": "Everything depends on ___ Ben agrees.",
+          "contextRu": "",
+          "answer": "whether",
+          "alternatives": []
+        },
+        {
+          "sentence": "Vera can't decide ___ to call him first.",
+          "contextRu": "",
+          "answer": "whether",
+          "alternatives": []
+        },
+        {
+          "sentence": "Ask him ___ or not he is free tonight.",
+          "contextRu": "",
+          "answer": "whether",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Во всех трёх местах if невозможен: после предлога, перед инфинитивом и в паре с or not работает только whether.",
+      "taskDescription": "Впиши в каждое предложение пропущенное слово."
     }
   ],
   "dialog_restore_exercises": [
@@ -1888,9 +2624,65 @@
         }
       ],
       "explanation": "Встроенной части нужен свой глагол, и стоит он после подлежащего: how old this church is. В первом варианте глагола нет вовсе, во втором сохранён порядок прямого вопроса."
+    },
+    {
+      "id": 40,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Excuse me, I'm a vegetarian."
+        },
+        {
+          "speaker": "B",
+          "text": "No problem, we have three dishes without meat."
+        },
+        {
+          "speaker": "A",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Can you tell me if is there a salad too?",
+          "isCorrect": false
+        },
+        {
+          "text": "Can you tell me if there a salad too?",
+          "isCorrect": false
+        },
+        {
+          "text": "Can you tell me if there is a salad too?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Внутри фразы порядок обычный: сначала подлежащее there, потом глагол is. Вариант if is there собран как прямой вопрос, а в третьем глагол пропал совсем."
     }
   ],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 49,
+      "taskDescription": "соедини английскую фразу с её русским смыслом.",
+      "pairs": [
+        {
+          "left": "whether or not",
+          "right": "или нет"
+        },
+        {
+          "left": "whether to stay",
+          "right": "оставаться ли"
+        },
+        {
+          "left": "on whether",
+          "right": "от того, ли"
+        },
+        {
+          "left": "I don't mind whether",
+          "right": "мне всё равно, ли"
+        }
+      ],
+      "explanation": "whether or not прямо называет обе возможности; whether to go идёт перед инфинитивом; после предлога on возможен только whether; глагол to mind значит «быть против», поэтому I don't mind — «я не против, мне всё равно»."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 127,
@@ -1967,6 +2759,25 @@
         }
       ],
       "explanation": "Во встроенной части пропал глагол — без него это не предложение: where the meeting is. Вариант where is the meeting собран по порядку прямого вопроса, а форма be здесь не используется."
+    },
+    {
+      "id": 131,
+      "wrongSentence": "Can you tell me if is the museum open today?",
+      "options": [
+        {
+          "text": "Can you tell me if does the museum open today?",
+          "isCorrect": false
+        },
+        {
+          "text": "Can you tell me if the museum is open today?",
+          "isCorrect": true
+        },
+        {
+          "text": "Can you tell me if the museum open today?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После if связка стоит за подлежащим: if the museum is open. Помощник does здесь чужой, а без глагола is предложение остаётся без сказуемого."
     }
   ],
   "construction_meaning_exercises": [
@@ -1992,6 +2803,29 @@
         }
       ],
       "explanation": "Подлежащее здесь Vera, а who стоит на месте дополнения — спрашиваем не кто пригласил, а кого пригласили. Если бы who было подлежащим, вопрос выглядел бы иначе: Who invited Vera?"
+    },
+    {
+      "id": 33,
+      "construction": "I don't know if Kirill will come.",
+      "options": [
+        {
+          "text": "Если Кирилл придёт, я не знаю.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не знаю, если Кирилл придёт.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не знаю, придёт ли Кирилл.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я не знаю Кирилла, который придёт.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Здесь if вводит вопрос, а не условие, поэтому по-русски это «ли». Проверка заменой: whether Kirill will come звучит нормально, значит это точно «ли», а не «если»."
     }
   ],
   "transformation_exercises": [
@@ -2032,6 +2866,25 @@
         }
       ],
       "explanation": "Помощник will или can никуда не убирается — он встаёт после подлежащего, как в обычном утверждении: it will start, I can pay, Ben will cook."
+    },
+    {
+      "id": 53,
+      "taskDescription": "перепиши каждый вопрос, начав его с I don't know.",
+      "items": [
+        {
+          "original": "Is the pool open today?",
+          "transformed": "I don't know if the pool is open today."
+        },
+        {
+          "original": "Did Sonya pay for it?",
+          "transformed": "I don't know if Sonya paid for it."
+        },
+        {
+          "original": "Will it snow tonight?",
+          "transformed": "I don't know if it will snow tonight."
+        }
+      ],
+      "explanation": "Место вопросительного слова занимает if, а дальше идёт прямой порядок: связка уходит за подлежащее, did исчезает и оставляет прошедшее в глаголе, will остаётся после подлежащего."
     }
   ],
   "categorization_exercises": [],
