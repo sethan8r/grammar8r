@@ -5415,8 +5415,12 @@ Where are my **glasses**? ✓ — даже когда речь об одной �
 **Слова:** fish, book, sheep, city, glasses, knife, jeans, dog, series, piano
 
 | Стандартное мн.ч. (+s/+es/-ies/-ves) | Неизменяемое (ед.=мн.) | Только мн.ч. |
-|---------------------------------------|------------------------|--------------|
-| books, cities, knives, dogs, pianos | fish, sheep, series | glasses, jeans |
+|--------------------------------------|------------------------|--------------|
+| books                                | fish                   | glasses      |
+| cities                               | sheep                  | jeans        |
+| knives                               | series                 |              |
+| dogs                                 |                        |              |
+| pianos                               |                        |              |
 
 *Explanation:* piano → pianos (заимствование, +s). series не изменяется. glasses и jeans не имеют формы ед.ч.
 
@@ -6583,9 +6587,11 @@ January–December, все с заглавной. Предлог: in + меся�
 
 **Месяцы:** January, March, June, September, December, April, July, October, February, May, August, November
 
-| Spring | Summer | Autumn | Winter |
-|---|---|---|---|
-| March, April, May | June, July, August | September, October, November | December, January, February |
+| Spring | Summer | Autumn    | Winter   |
+|--------|--------|-----------|----------|
+| March  | June   | September | December |
+| April  | July   | October   | January  |
+| May    | August | November  | February |
 
 *Explanation:* Spring (весна): March, April, May. Summer (лето): June, July, August. Autumn (осень): September, October, November. Winter (зима): December, January, February.
 

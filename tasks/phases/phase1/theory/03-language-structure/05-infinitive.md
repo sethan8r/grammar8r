@@ -776,7 +776,10 @@ RU: Ты должен позвонить врачу.
 
 | Нужен to | Без to (модальные) |
 |----------|--------------------|
-| want, need, like, decide | can, must, should, will |
+| want     | can                |
+| need     | must               |
+| like     | should             |
+| decide   | will               |
 
 *Explanation:* После обычных глаголов (want, need, like, decide) идёт to + V1. Модальные (can, must, should, will) — служебные, идут без to.
 
@@ -1091,7 +1094,10 @@ B: ___
 
 | Нужен to | Без to |
 |----------|--------|
-| want, ask, tell, allow | make, let |
+| want     | make   |
+| ask      | let    |
+| tell     |        |
+| allow    |        |
 
 *Explanation:* После want/ask/tell/allow — объект + to + V1. После make/let — объект + голый V1 без to.
 

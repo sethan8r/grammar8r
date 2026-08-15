@@ -46,6 +46,13 @@
       "title": "Openers · Обёртки и шкала вежливости",
       "order": 5,
       "searchKeywords": "не могли бы вы сказать, could you tell me, интересно придёт ли, понятия не имею, точка или знак вопроса, насколько вежливо звучит"
+    },
+    {
+      "id": 132,
+      "topicId": 21,
+      "title": "Real Talk · Косвенные вопросы вживую",
+      "order": 6,
+      "searchKeywords": "как добраться до музея, how to get to, повернуть налево на углу, продиктовать по буквам, не знаю что сказать, когда вежливость лишняя"
     }
   ],
   "grammar_cards": [
@@ -2254,6 +2261,491 @@
         "Почему знак вопроса не ставится, если внутри есть слово where?",
         "Разве Could you tell me — это не просьба, а вопрос?"
       ]
+    },
+    {
+      "id": 355,
+      "microtopicId": 132,
+      "title": "Wh + инфинитив: когда подлежащее не нужно",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Всю тему мы твердили одно: внутри фразы обязательно должно быть подлежащее, а за ним глагол. Даже отдельную карточку этому посвятили — там, где английский требует глагол там, где в русском его нет. И вот теперь — единственное законное исключение, причём очень частое в живой речи."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I don't know what to say.**",
+            "**Do you know where to buy tickets?**",
+            "**Could you tell me how to get to the museum?**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обёртка + вопросительное слово + `to` + глагол."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Подлежащего внутри нет вообще, и оно там не нужно."
+        },
+        {
+          "type": "heading",
+          "text": "Почему подлежащее можно выкинуть"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы разбирали это в теме «Инфинитив»: у инфинитива нет своего подлежащего, он автоматически цепляется к тому, кто действует в главной части. Поэтому **I don't know what to say** читается однозначно: что сказать **мне**. А **Do you know where to buy tickets?** — где их покупают **вообще**, любому человеку."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда и условие: сокращать можно, только когда деятель **очевиден** — это либо сам говорящий, либо «кто угодно». Как только внутри появляется свой, отдельный деятель, короткий путь закрывается."
+        },
+        {
+          "type": "paragraph",
+          "text": "Хорошая новость: русский поступает точно так же. «Не знаю, что сказать», «Не знаю, куда идти», «Не могу решить, что заказать» — мы тоже выкидываем деятеля, потому что он и так понятен. Это редкое место в теме, где русский и английский совпадают почти дословно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «мне» так и просится в перевод: «Я не знаю, что **мне** делать» → **I don't know what me to do** ✗, **I don't know what I to do** ✗. Верно — **I don't know what to do** ✓. Это «мне» и есть тот самый очевидный деятель, которого английский не произносит: он уже назван в начале фразы словом `I`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда сокращать нельзя"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если внутри действует кто-то другой — возвращаемся к обычной схеме со всеми правилами темы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Не знаю, что **он** скажет» → **I don't know what he will say.** ✓",
+            "«Не помню, где **Настя** припарковалась» → **I can't remember where Nastya parked.** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Простая проверка: подставь деятеля вслух. Совпал с тем, кто уже назван в главной части, — сокращай. Появился новый — оставляй полную часть с подлежащим и глаголом."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "С `why` инфинитив не сочетается вообще — **I don't know why to call** ✗. После «почему» английский всегда хочет полную часть: **I don't know why he called** ✓. Остальные вопросительные слова (`what`, `where`, `when`, `how`, `which`) с инфинитивом работают свободно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Слово get, без которого не спросить дорогу"
+        },
+        {
+          "type": "paragraph",
+          "text": "В примере выше мелькнуло `how to get to the museum` — и это, пожалуй, самая нужная фраза всей темы. Формы глагола нам знакомы по колоде неправильных: **get – got – got**. А вот значений у него столько, что он заслуживает отдельной темы. Прямо сейчас нужны три базовых:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Значение",
+            "Пример",
+            "Что происходит"
+          ],
+          "rows": [
+            [
+              "получать",
+              "Ira got a message from Oleg.",
+              "что-то пришло к тебе"
+            ],
+            [
+              "становиться",
+              "It gets cold in October.",
+              "состояние меняется"
+            ],
+            [
+              "добираться, попадать",
+              "How do I get to the station?",
+              "ты оказываешься в точке"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Третье значение и есть наш случай: `get to` — не «идти», а «добраться до места, оказаться там». Способ при этом неважен — пешком, на автобусе, на такси; важен результат."
+        },
+        {
+          "type": "paragraph",
+          "text": "Одна тонкость на будущее: `get to` требует предлога перед местом (**get to the airport**, **get to work**), но со словом `home` предлог не ставится — **get home**, как и **go home**, которое мы разбирали в «Основах»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Тремя значениями `get` не исчерпывается — он одно из самых нагруженных слов английского и работает ещё в десятке ролей (`get up`, `get married`, `get lost`, `get better`, `get a job`). Разбирать его целиком мы будем в отдельной теме «Глагол get»; пока держи в голове эти три значения — их хватит, чтобы спросить дорогу и понять ответ."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Когда деятель очевиден, подлежащее внутри не нужно совсем: обёртка + вопросительное слово + `to` + глагол — **I don't know what to say**, **Do you know where to buy tickets?**, **Could you tell me how to get to the museum?** Работает это потому, что у инфинитива нет своего подлежащего: он цепляется к тому, кто действует в главной части. Русское «мне» в перевод не тащим: **I don't know what to do** ✓, а не **what I to do** ✗. Появился свой деятель — сокращать нельзя: **I don't know what he will say** ✓. С `why` инфинитив не употребляется. Глагол `get` (формы **get – got – got**) значит «получать», «становиться» и «добираться»; `get to the station` — оказаться на вокзале, а не просто идти.",
+      "examples": [
+        {
+          "ru": "Я не знаю, что сказать.",
+          "en": "I don't know what to say."
+        },
+        {
+          "ru": "Вы не знаете, где купить билеты?",
+          "en": "Do you know where to buy tickets?"
+        },
+        {
+          "ru": "Не подскажете, как добраться до музея?",
+          "en": "Could you tell me how to get to the museum?"
+        },
+        {
+          "ru": "Я не могу решить, что заказать.",
+          "en": "I can't decide what to order."
+        },
+        {
+          "ru": "Я не знаю, что он скажет.",
+          "en": "I don't know what he will say."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, можно сократить или нельзя?",
+        "Почему после why нельзя поставить инфинитив?",
+        "Чем get to отличается от go to?"
+      ]
+    },
+    {
+      "id": 356,
+      "microtopicId": 132,
+      "title": "Спросить дорогу: разговор целиком",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Соберём всё вместе. Ты в незнакомом городе, у тебя нет интернета, и нужно найти вокзал. Вот как этот разговор выглядит целиком — от первого слова до «спасибо»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Ира:** Excuse me, could you tell me how to get to the station?",
+            "**Прохожий:** Sure. Go straight and turn left at the corner. It's about a five-minute walk.",
+            "**Ира:** Sorry, could you repeat that?",
+            "**Прохожий:** Go straight, then turn left at the corner.",
+            "**Ира:** Thank you very much!"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание: сложная грамматика тут ровно одна — та, которую мы учили всю тему. Всё остальное — знакомые слова."
+        },
+        {
+          "type": "heading",
+          "text": "Спрашивают, по большому счёту, четыре вещи"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что нужно узнать",
+            "Как спросить"
+          ],
+          "rows": [
+            [
+              "дорогу",
+              "Could you tell me how to get to the station?"
+            ],
+            [
+              "дорогу покороче",
+              "Which way is the station?"
+            ],
+            [
+              "время работы",
+              "Do you know what time the museum opens?"
+            ],
+            [
+              "цену",
+              "Can you tell me how much this costs?"
+            ],
+            [
+              "как пишется слово",
+              "Could you tell me how you spell it?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Про последнюю строчку стоит сказать отдельно. Просьба продиктовать слово по буквам — `to spell` — в английском абсолютно обычное дело, куда более частое, чем у нас. Причина простая: написание английского слова не выводится из звучания, и на слух его не восстановить — поэтому имена, фамилии, адреса и названия улиц переспрашивают по буквам постоянно. Тебя тоже об этом спросят: **Could you spell your surname, please?**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «Как мне пройти к музею?» тянет за собой глагол `go`: **How can I go to the museum?** ✗ — так не говорят. Носитель скажет **How do I get to the museum?** ✓ или **How can I get to the museum?** ✓. Разница как раз в том, что мы разобрали в прошлой карточке: `go` — это про само движение, а `get to` — про результат, оказаться на месте. Спрашиваешь ты именно про результат."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Половина дела — понять ответ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Задать вопрос — это только начало. Ответ прилетит быстрый, и в нём почти всегда одни и те же куски:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Go straight.** — идите прямо",
+            "**Turn left at the corner.** — поверните налево на углу",
+            "**It's around the corner.** — это за углом, совсем рядом",
+            "**It's opposite the bank.** — это напротив банка",
+            "**It's next to the pharmacy.** — это рядом с аптекой",
+            "**It's about a five-minute walk.** — идти минут пять",
+            "**It's just up the road.** — чуть дальше по улице"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `corner` («угол») в ответах встречается чаще всего: `at the corner` — на углу, `around the corner` — за углом. А `way` — это «путь, дорога» в смысле маршрута, а не улицы: **Could you tell me the way to the castle?** ✓, **Is this the right way to the beach?** ✓"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не понял ответ — не кивай молча, переспроси. **Sorry, could you repeat that?** ✓ или **Could you say that again, please?** ✓ Это нормальная часть разговора, а не признание в беспомощности: носители переспрашивают друг друга постоянно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Живая деталь: отвечают на смысл, а не на форму"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотри на **Do you know where the station is?** По форме это вопрос «знаешь ли ты» — на него можно ответить `Yes` или `No`. Но никто так не отвечает: прохожий сразу начнёт объяснять дорогу."
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина в том, что собеседник слышит не форму, а намерение. Ответить строго по форме — **Yes.** — и замолчать можно только в шутку или чтобы нахамить."
+        },
+        {
+          "type": "paragraph",
+          "text": "Для тебя это значит вот что: не бойся, что твой вежливый вопрос звучит «не как вопрос о дороге». Он именно так и работает — ты спрашиваешь мягко, а получаешь прямой ответ."
+        }
+      ],
+      "theorySummary": "Живой разговор с незнакомцем собирается из знакомых кусков: **Excuse me, could you tell me how to get to the station?** — и дальше ответ. Спрашивают обычно дорогу (`how to get to…`, `which way…`, `the way to…`), время работы, цену и написание слова (`how you spell it` — просьба продиктовать по буквам, в английском это обычное дело). Ловушка: **How can I go to the museum?** ✗ → **How do I get to the museum?** ✓ Понимать ответ так же важно, как спросить: **go straight**, **turn left at the corner**, **it's around the corner**, **it's opposite the bank**, **it's a five-minute walk**. Не расслышал — **Sorry, could you repeat that?** И помни: на **Do you know where the station is?** отвечают дорогой, а не словом `Yes` — собеседник слышит смысл, а не форму.",
+      "examples": [
+        {
+          "ru": "Извините, не подскажете, как добраться до вокзала?",
+          "en": "Excuse me, could you tell me how to get to the station?"
+        },
+        {
+          "ru": "Идите прямо и поверните налево на углу.",
+          "en": "Go straight and turn left at the corner."
+        },
+        {
+          "ru": "Это за углом, идти минут пять.",
+          "en": "It's around the corner, about a five-minute walk."
+        },
+        {
+          "ru": "Не подскажете дорогу к замку?",
+          "en": "Could you tell me the way to the castle?"
+        },
+        {
+          "ru": "Не могли бы вы продиктовать вашу фамилию по буквам?",
+          "en": "Could you spell your surname, please?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя спросить How can I go to the museum?",
+        "Чем way отличается от street и road?",
+        "Зачем англичане просят продиктовать слово по буквам?"
+      ]
+    },
+    {
+      "id": 357,
+      "microtopicId": 132,
+      "title": "Когда вежливая обёртка лишняя",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последняя карточка темы — про обратную сторону. Всю тему мы учились удлинять вопрос, чтобы звучать вежливо. Теперь важное предупреждение: **перевежливить так же легко, как недовежливить**, и ошибка эта заметна ничуть не меньше."
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотри:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Другу в чате: **Where are you?** ✓ — нормально, живо, по-дружески.",
+            "Другу в чате: **Could you tell me where you are?** — звучит так, будто тебе звонят из банка."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Грамматика во второй фразе безупречная. Проблема в другом: длинная обёртка ставит между вами дистанцию, а с другом дистанция не нужна — и он её обязательно почувствует."
+        },
+        {
+          "type": "heading",
+          "text": "Длина — это дистанция, и работает она в обе стороны"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомни ось всей темы: вежливость меряется длиной фразы. Значит, длина — это не «уровень качества», который надо задирать повыше, а **расстояние между собеседниками**. Незнакомцу нужна дистанция, поэтому фраза длинная. Другу дистанция не нужна, поэтому фраза короткая. Слишком длинная фраза с близким человеком читается как «я на тебя обиделся» или «я говорю с тобой официально»."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кому",
+            "Как нормально",
+            "Как мимо"
+          ],
+          "rows": [
+            [
+              "другу в чате",
+              "Where are you?",
+              "Could you tell me where you are?"
+            ],
+            [
+              "коллеге за соседним столом",
+              "Do you know when the meeting starts?",
+              "Would you mind telling me when the meeting starts?"
+            ],
+            [
+              "прохожему на улице",
+              "Excuse me, do you know where the station is?",
+              "Where is the station?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание на последнюю строку: там промах с другого конца — с незнакомцем короткая фраза звучит резко."
+        },
+        {
+          "type": "heading",
+          "text": "По-русски мы это чувствуем безошибочно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверь на родном языке — и всё встанет на место:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Другу: «Ты где?» ✓ / «Не подскажешь, где ты сейчас находишься?» — звучит как издёвка или как разговор с чужим человеком.",
+            "Прохожему: «Не подскажете, где вокзал?» ✓ / «Где вокзал?» — сойдёт, но суховато."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Видишь? Правило у нас ровно то же самое, и в русском мы его никогда не нарушаем. Сбой происходит только в английском — и вот почему."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У русскоязычного есть стойкий страх показаться грубым в чужом языке. Из-за него человек берёт самую вежливую формулу, какую знает, и лепит её везде — в том числе близким. Получается обратный эффект: вместо теплоты выходит холодная официальная дистанция, и собеседник начинает гадать, не обиделся ли ты. Короткий вопрос другу — это не грубость, а **знак близости**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как выбрать за секунду"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три вопроса себе — и решение готово:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Человек мне знаком? Да → короткий вопрос.",
+            "Я прошу об одолжении или отвлекаю чужого человека? Да → обёртка.",
+            "Обстановка официальная (письмо, приём, начальство)? Да → обёртка подлиннее."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Если все три ответа «нет» — спрашивай прямо, и это будет самым естественным вариантом."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В переписке масштаб сдвигается. В письме незнакомому человеку обёртка нужна почти всегда, даже если в устном разговоре ты бы обошёлся коротким вопросом: у текста нет ни интонации, ни улыбки, поэтому вежливость приходится выражать словами. А в чате с друзьями наоборот — там режут даже то, что в речи оставляют."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Вежливая обёртка нужна не всегда: длина фразы — это дистанция, и с близким человеком она лишняя. Другу — **Where are you?** ✓, а **Could you tell me where you are?** звучит официально и отстранённо, будто звонят из банка. По-русски мы это чувствуем безошибочно («Ты где?» ✓ против «Не подскажешь, где ты находишься?»), сбой происходит только в английском — из страха показаться грубым. Проверка в три вопроса: человек знаком? прошу одолжения? обстановка официальная? Все ответы «нет» — спрашивай прямо. В переписке с незнакомым человеком обёртка нужна почти всегда: у текста нет интонации.",
+      "examples": [
+        {
+          "ru": "Ты где?",
+          "en": "Where are you?"
+        },
+        {
+          "ru": "Во сколько начинается встреча?",
+          "en": "What time does the meeting start?"
+        },
+        {
+          "ru": "Извините, вы не знаете, работает ли сегодня почта?",
+          "en": "Excuse me, do you know if the post office is open today?"
+        },
+        {
+          "ru": "Не могли бы вы сказать, когда придёт мой заказ?",
+          "en": "Could you tell me when my order arrives?"
+        },
+        {
+          "ru": "Ты не помнишь, где мы оставили машину?",
+          "en": "Do you remember where we left the car?"
+        }
+      ],
+      "clarificationOptions": [
+        "Разве длинная вежливая фраза может быть ошибкой?",
+        "Как понять, что человек уже «свой» и можно спрашивать коротко?",
+        "В письме тоже надо выбирать длину фразы?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2544,6 +3036,78 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 170,
       "orderInCard": 3
+    },
+    {
+      "cardId": 355,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 151,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 355,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 54,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 355,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 134,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 355,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 136,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 356,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 171,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 356,
+      "exerciseType": "MATCHING",
+      "exerciseId": 51,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 356,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 68,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 356,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 41,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 357,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 75,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 357,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 34,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 357,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 67,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 357,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 172,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2610,6 +3174,14 @@
       "userInstruction": "ИИ опишет ситуацию и даст английскую фразу с пропуском. Впишите в пропуск нужное слово.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "indirect_questions_card356_ex1",
+      "cardId": 356,
+      "title": "Пойми ответ прохожего",
+      "userInstruction": "ИИ сыграет прохожего и объяснит дорогу по-английски. Расскажите по-русски, куда идти.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -2675,6 +3247,30 @@
       "translation": "повторять",
       "transcription": "[rɪˈpiːt]",
       "microtopicId": 131,
+      "categoryId": "linking"
+    },
+    {
+      "id": 604,
+      "word": "way",
+      "translation": "путь, дорога, способ",
+      "transcription": "[weɪ]",
+      "microtopicId": 132,
+      "categoryId": "linking"
+    },
+    {
+      "id": 605,
+      "word": "corner",
+      "translation": "угол",
+      "transcription": "[ˈkɔːnə]",
+      "microtopicId": 132,
+      "categoryId": "linking"
+    },
+    {
+      "id": 606,
+      "word": "to spell",
+      "translation": "произносить по буквам, писать по буквам",
+      "transcription": "[spel]",
+      "microtopicId": 132,
       "categoryId": "linking"
     }
   ],
@@ -2922,6 +3518,25 @@
         "start"
       ],
       "explanation": "После обёртки идёт вопросительное слово, потом подлежащее breakfast и только потом глагол starts с окончанием третьего лица. Куски с does тащат внутрь помощника, can you telling me собран неправильно, а формы is starting и start не подходят по смыслу и лицу."
+    },
+    {
+      "id": 136,
+      "situationRu": "Ситуация: Паша в Берлине не понимает, где покупают билет на метро.",
+      "correctSentence": "Excuse me, do you know where to buy a metro ticket?",
+      "words": [
+        "Excuse me",
+        "do you know",
+        "where",
+        "to buy",
+        "a metro ticket"
+      ],
+      "distractors": [
+        "where I to buy",
+        "do you know where is",
+        "to buying",
+        "buy"
+      ],
+      "explanation": "Деятель очевиден — билеты покупают все, поэтому внутри идёт вопросительное слово и инфинитив to buy. Кусок where I to buy втискивает лишнее подлежащее, do you know where is собран по порядку прямого вопроса, а формы to buying и buy не годятся после where."
     }
   ],
   "multiple_choice_exercises": [
@@ -3197,6 +3812,69 @@
         }
       ],
       "explanation": "Русская фраза — размышление вслух, поэтому обёртка I wonder и точка в конце. Первый вариант ставит знак вопроса при утвердительной обёртке, а второй меняет саму обёртку на вопросительную, но оставляет точку."
+    },
+    {
+      "id": 151,
+      "choiceType": "CHOICE",
+      "prompt": "Ira can't decide what ___ for her sister's birthday.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "she buy",
+          "isCorrect": false
+        },
+        {
+          "text": "to buy",
+          "isCorrect": true
+        },
+        {
+          "text": "buying",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Деятель очевиден — это сама Ира, названная в главной части, поэтому внутри стоит инфинитив to buy. Вариант she buy оставляет подлежащее без нужной формы глагола, а buying тут не работает вообще."
+    },
+    {
+      "id": 171,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Не подскажете, как добраться до аэропорта?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Could you tell me how can I go to the airport?",
+          "isCorrect": false
+        },
+        {
+          "text": "Could you tell me how to get to the airport?",
+          "isCorrect": true
+        },
+        {
+          "text": "Could you tell me how I go to the airport?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Спрашивают про результат — оказаться в аэропорту, поэтому нужен get to, а не go to. Деятель очевиден, значит внутри стоит инфинитив, а не подлежащее с глаголом."
+    },
+    {
+      "id": 172,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Ты пишешь близкому другу в чате. \"Ты где?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Could you tell me where you are?",
+          "isCorrect": false
+        },
+        {
+          "text": "Where are you?",
+          "isCorrect": true
+        },
+        {
+          "text": "Would you mind telling me where you are?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "С другом обёртка не нужна: короткий прямой вопрос звучит естественно и по-дружески. Длинные варианты создают официальную дистанцию, как будто пишет чужой человек."
     }
   ],
   "text_input_exercises": [
@@ -3334,6 +4012,36 @@
       ],
       "explanation": "Если внутри слышится вопрос «чего именно?» — нужно вопросительное слово what. Если внутри «ли» — работает if или whether. А that ставится там, где внутри вообще нет вопроса, а есть готовый факт.",
       "taskDescription": "Впиши в каждое предложение подходящее слово: what, if или that."
+    },
+    {
+      "id": 68,
+      "items": [
+        {
+          "sentence": "Could you tell me the ___ to the beach?",
+          "contextRu": "",
+          "answer": "way",
+          "alternatives": []
+        },
+        {
+          "sentence": "Could you ___ the name of the street, please?",
+          "contextRu": "",
+          "answer": "spell",
+          "alternatives": []
+        },
+        {
+          "sentence": "Turn right at the ___ and you will see the pharmacy.",
+          "contextRu": "",
+          "answer": "corner",
+          "alternatives": []
+        }
+      ],
+      "explanation": "way — это путь, маршрут («дорога к пляжу»), а не улица. Глагол to spell значит «продиктовать по буквам», а corner — угол, на котором поворачивают.",
+      "taskDescription": "Впиши в каждое предложение подходящее по смыслу слово.",
+      "wordBank": [
+        "угол",
+        "по буквам",
+        "дорога"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -3424,6 +4132,38 @@
         }
       ],
       "explanation": "Внутри фразы порядок обычный: сначала подлежащее there, потом глагол is. Вариант if is there собран как прямой вопрос, а в третьем глагол пропал совсем."
+    },
+    {
+      "id": 41,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Excuse me, could you tell me how to get to the museum?"
+        },
+        {
+          "speaker": "B",
+          "text": "Go straight and turn left at the second corner."
+        },
+        {
+          "speaker": "A",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I know.",
+          "isCorrect": false
+        },
+        {
+          "text": "Where is the second corner is?",
+          "isCorrect": false
+        },
+        {
+          "text": "Sorry, could you repeat that?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Человек не расслышал объяснение и вежливо просит повторить. Ответ Yes, I know не подходит по смыслу, а во втором варианте встроенная часть собрана с двойным глаголом."
     }
   ],
   "matching_exercises": [
@@ -3476,6 +4216,33 @@
         }
       ],
       "explanation": "Вежливость набирается длиной захода: голое Tell me звучит приказом, Do you know и Can you tell me подходят любому незнакомцу, Could you tell me мягче за счёт could, а Would you mind telling me — самая длинная и самая официальная формула."
+    },
+    {
+      "id": 51,
+      "taskDescription": "соедини ответ прохожего с его русским смыслом.",
+      "pairs": [
+        {
+          "left": "Go straight.",
+          "right": "идите прямо"
+        },
+        {
+          "left": "Turn left at the corner.",
+          "right": "поверните налево на углу"
+        },
+        {
+          "left": "It's around the corner.",
+          "right": "это за углом"
+        },
+        {
+          "left": "It's opposite the bank.",
+          "right": "это напротив банка"
+        },
+        {
+          "left": "It's a five-minute walk.",
+          "right": "идти минут пять"
+        }
+      ],
+      "explanation": "Слово corner значит «угол»: at the corner — на углу, around the corner — за углом, совсем близко. Opposite — напротив, а a five-minute walk — расстояние, измеренное временем ходьбы."
     }
   ],
   "error_correction_exercises": [
@@ -3611,6 +4378,25 @@
         }
       ],
       "explanation": "Обёртка I can't remember — это сообщение, поэтому в конце точка. В первом варианте внутрь вернулся помощник did, а в третьем остался и знак вопроса, и порядок прямого вопроса."
+    },
+    {
+      "id": 134,
+      "wrongSentence": "I don't know what I to do tomorrow.",
+      "options": [
+        {
+          "text": "I don't know what to do tomorrow.",
+          "isCorrect": true
+        },
+        {
+          "text": "I don't know what me to do tomorrow.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't know what to me do tomorrow.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Перед инфинитивом деятель не ставится: он уже назван в главной части словом I. Русское «мне» в английскую фразу не переезжает ни как I, ни как me."
     }
   ],
   "construction_meaning_exercises": [
@@ -3659,6 +4445,29 @@
         }
       ],
       "explanation": "Здесь if вводит вопрос, а не условие, поэтому по-русски это «ли». Проверка заменой: whether Kirill will come звучит нормально, значит это точно «ли», а не «если»."
+    },
+    {
+      "id": 34,
+      "construction": "Could you tell me where you are?",
+      "options": [
+        {
+          "text": "Не могли бы вы сказать, где вы находитесь?",
+          "isCorrect": true
+        },
+        {
+          "text": "Ты где?",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты не мог бы быть здесь?",
+          "isCorrect": false
+        },
+        {
+          "text": "Вы знаете, где вы находитесь?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Это вежливая просьба на «вы», уместная с незнакомым человеком или в официальном разговоре. Другу ту же мысль говорят коротко — Where are you?"
     }
   ],
   "transformation_exercises": [
@@ -3718,6 +4527,25 @@
         }
       ],
       "explanation": "Место вопросительного слова занимает if, а дальше идёт прямой порядок: связка уходит за подлежащее, did исчезает и оставляет прошедшее в глаголе, will остаётся после подлежащего."
+    },
+    {
+      "id": 54,
+      "taskDescription": "перепиши каждую фразу короче, через инфинитив.",
+      "items": [
+        {
+          "original": "I don't know where I can park here.",
+          "transformed": "I don't know where to park here."
+        },
+        {
+          "original": "I'm not sure what I can cook tonight.",
+          "transformed": "I'm not sure what to cook tonight."
+        },
+        {
+          "original": "We can't decide where we can go.",
+          "transformed": "We can't decide where to go."
+        }
+      ],
+      "explanation": "Деятель в каждой фразе уже назван в главной части, поэтому внутри остаётся только вопросительное слово и инфинитив: подлежащее и can уходят."
     }
   ],
   "categorization_exercises": [
@@ -3745,6 +4573,29 @@
         }
       ],
       "explanation": "Знак ставит главная часть: обёртки с помощником do и с could — это вопросы, а фразы, начинающиеся с I, сообщают, чего человек не знает. Вопросительное слово внутри на знак не влияет."
+    },
+    {
+      "id": 75,
+      "taskDescription": "распредели фразы по тому, кому их естественно сказать.",
+      "categories": [
+        {
+          "title": "Другу",
+          "items": [
+            "Where are you?",
+            "What time is it?",
+            "Where's my charger?"
+          ]
+        },
+        {
+          "title": "Незнакомцу",
+          "items": [
+            "Do you know where the exit is?",
+            "Could you tell me the time?",
+            "Excuse me, do you have a pen?"
+          ]
+        }
+      ],
+      "explanation": "Длина фразы — это дистанция: с близким человеком короткий вопрос звучит естественно, а длинная обёртка — официально и холодно. С незнакомцем наоборот: короткий вопрос в упор звучит резко."
     }
   ],
   "find_the_odd_exercises": [
@@ -3793,6 +4644,29 @@
         }
       ],
       "explanation": "Can you tell me — это вопросительная обёртка, после неё вся фраза становится вопросом. Остальные три — утвердительные: человек сообщает, чего он не знает или не помнит."
+    },
+    {
+      "id": 67,
+      "groupDescription": "Три фразы естественны в переписке с другом, а одна звучит как официальное письмо",
+      "items": [
+        {
+          "text": "Where are you?",
+          "isOdd": false
+        },
+        {
+          "text": "Are you coming?",
+          "isOdd": false
+        },
+        {
+          "text": "Would you mind telling me where you are?",
+          "isOdd": true
+        },
+        {
+          "text": "What time is it?",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Would you mind telling me — самая длинная и самая официальная формула, с другом она создаёт лишнюю дистанцию. Остальные три коротки и звучат по-дружески."
     }
   ]
 }

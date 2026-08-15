@@ -80,6 +80,9 @@ import kotlin.math.roundToInt
 /** Элемент категоризации: стабильный id, текст и индекс правильной колонки. */
 private data class CatItem(val id: Int, val text: String, val correctCol: Int)
 
+/** Ячеек в строке пула — всегда две, независимо от числа категорий. */
+private const val POOL_COLS = 2
+
 /**
  * Рендерер CATEGORIZATION во [ExerciseFrame]: колонки-категории сверху, пул снизу, drag элементов
  * пул ↔ колонки (туда-обратно). Жест — на КОНТЕЙНЕРЕ (хит-тест элемента под пальцем), оверлей —
@@ -278,11 +281,11 @@ fun CategorizationExerciseView(
                     // Ширина чипа = ширина внутренней области колонки (общая для колонок и пула — пресайз).
                     val columnWidth = (maxWidth - Dimens.spaceSmall * (n - 1)) / n
                     val chipWidth = columnWidth - Dimens.spaceSmall * 2
-                    // Сколько чипов помещается в строку пула при фикс. ширине чипа.
-                    val cols = maxOf(
-                        1,
-                        ((maxWidth + Dimens.spaceSmall).value / (chipWidth + Dimens.spaceSmall).value).toInt(),
-                    )
+                    // Пул всегда в два слота половинной ширины — при двух категориях его чипы стоят
+                    // ровно под чипами колонок, при трёх остаются такими же широкими.
+                    val cols = POOL_COLS
+                    val poolSlotWidth = (maxWidth - Dimens.spaceSmall) / POOL_COLS
+                    val poolChipWidth = poolSlotWidth - Dimens.spaceSmall * 2
                     SideEffect { perRow = cols }
 
                     Column {
@@ -319,9 +322,9 @@ fun CategorizationExerciseView(
                         Spacer(Modifier.height(Dimens.spaceXLarge))
 
                         // --- Пул (нераспределённые) — фикс. сетка по poolCells: у каждого свой слот, по
-                        // горизонтали ничего не съезжает. Изъятый оставляет ДЫРУ (Spacer той же ширины),
-                        // целиком пустая строка не рендерится. Пул как «зона» не регистрируется: брошенный
-                        // мимо колонок возвращается сюда.
+                        // горизонтали ничего не съезжает. Изъятый оставляет ДЫРУ (пустой слот той же
+                        // ширины), целиком пустая строка не рендерится. Пул как «зона» не регистрируется:
+                        // брошенный мимо колонок возвращается сюда.
                         Column(
                             modifier = Modifier.fillMaxWidth(),
                             verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
@@ -334,20 +337,24 @@ fun CategorizationExerciseView(
                                     Row(horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall)) {
                                         rowCells.forEach { id ->
                                             val item = id?.let { itemById[it] }?.takeIf { placement[it.id] == null }
-                                            if (item == null) {
-                                                Spacer(Modifier.width(chipWidth))
-                                            } else {
-                                                val (border, fill) = chipVisual(item)
-                                                key(item.id) {
-                                                    CatChip(
-                                                        text = item.text,
-                                                        width = chipWidth,
-                                                        background = fill,
-                                                        border = border,
-                                                        contentAlpha = if (item == dragging || item == releasing) 0f else 1f,
-                                                        onGeometry = { c, s -> centers[item.id] = c; sizes[item.id] = s },
-                                                        wrapperCoords = wrapperCoords,
-                                                    )
+                                            // Слот половинной ширины: чип внутри центрирован так же, как в колонке.
+                                            Box(
+                                                modifier = Modifier.width(poolSlotWidth),
+                                                contentAlignment = Alignment.Center,
+                                            ) {
+                                                if (item != null) {
+                                                    val (border, fill) = chipVisual(item)
+                                                    key(item.id) {
+                                                        CatChip(
+                                                            text = item.text,
+                                                            width = poolChipWidth,
+                                                            background = fill,
+                                                            border = border,
+                                                            contentAlpha = if (item == dragging || item == releasing) 0f else 1f,
+                                                            onGeometry = { c, s -> centers[item.id] = c; sizes[item.id] = s },
+                                                            wrapperCoords = wrapperCoords,
+                                                        )
+                                                    }
                                                 }
                                             }
                                         }

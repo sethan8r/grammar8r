@@ -1792,11 +1792,14 @@ B: ___
 
 Задание: Распредели предложения по тому, в каком значении в них стоит while.
 
-| while = пока | while = хотя |
-|--------------|--------------|
-| Kate slept while we were driving | While the room is small, it is nice |
-| It rained while we were walking | While I agree, I have one question |
-| Sam cooked while Mia was working | While the film is old, it is great |
+| while = пока                     | while = хотя            |
+|----------------------------------|-------------------------|
+| Kate slept while we were driving | While the room is small |
+| It rained while we were walking  | it is nice              |
+| Sam cooked while Mia was working | While I agree           |
+|                                  | I have one question     |
+|                                  | While the film is old   |
+|                                  | it is great             |
 
 *Explanation:* В левой колонке обе части тянутся и стоят рядом во времени — это значение «пока». В правой колонке времени нет вовсе: вторая часть спорит с первой, и связка работает как although.
 
@@ -2604,8 +2607,11 @@ B: ___
 Задание: Распредели связки по тому, что они сообщают.
 
 | Что было дальше | Почему или вопреки чему |
-|---|---|
-| next, after that, and then, finally | because, so, although, however |
+|-----------------|-------------------------|
+| next            | because                 |
+| after that      | so                      |
+| and then        | although                |
+| finally         | however                 |
 
 *Explanation:* Первая группа двигает рассказ по времени: она говорит только о том, какое событие идёт следующим. Вторая объясняет связь между событиями — причину, результат или несогласие частей друг с другом.
 

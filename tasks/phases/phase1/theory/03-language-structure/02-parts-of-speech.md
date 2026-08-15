@@ -65,8 +65,13 @@
 Задание: Определи, какие слова — существительные, а какие — нет
 
 | Существительное | Не существительное |
-|-----------------|-------------------|
-| sun, table, love, city, rain, freedom | quickly, beautiful, slowly, happy |
+|-----------------|--------------------|
+| sun             | quickly            |
+| table           | beautiful          |
+| love            | slowly             |
+| city            | happy              |
+| rain            |                    |
+| freedom         |                    |
 
 *Explanation:* Существительное называет кого-то или что-то: «sun» (что?), «love» (что?), «city» (что?) — все проходят проверку. «quickly», «slowly» — наречия (как?), «beautiful», «happy» — прилагательные (какой?) — они описывают или уточняют, но не называют.
 
@@ -405,7 +410,10 @@ RU: Маша пишет письмо каждый вечер.
 
 | Действие | Состояние |
 |----------|-----------|
-| to run, to eat, to write, to sleep | to be, to seem, to know, to feel |
+| to run   | to be     |
+| to eat   | to seem   |
+| to write | to know   |
+| to sleep | to feel   |
 
 *Explanation:* Глаголы действия описывают то, что происходит или совершается: to run, to eat, to write, to sleep — всё это процессы. Глаголы состояния описывают факт, который просто существует: to be, to seem, to know, to feel — это не «происходит», оно просто «есть».
 
@@ -571,7 +579,10 @@ RU: Маша пишет письмо каждый вечер.
 
 | Нужен объект | Объекта не нужно |
 |--------------|------------------|
-| to buy, to want, to make, to bring | to smile, to cry, to fall, to swim |
+| to buy       | to smile         |
+| to want      | to cry           |
+| to make      | to fall          |
+| to bring     | to swim          |
 
 *Explanation:* «to buy / to want / to make / to bring» без объекта не закончены: купить (что?), хотеть (что?), сделать (что?), принести (что?) — они тянут за собой предмет, это переходные глаголы. «to smile / to cry / to fall / to swim» объекта не требуют: нельзя «улыбнуть что-то» или «упасть кого-то» — действие ни на что не переходит, это непереходные.
 
@@ -969,9 +980,12 @@ RU: Дима купил длинный шарф.
 
 Задание: Разложи слова — прилагательное или наречие
 
-| Прилагательное | Наречие |
-|----------------|---------|
-| beautiful, slow, dark, tall | beautifully, quickly, loudly, carefully |
+| Прилагательное | Наречие     |
+|----------------|-------------|
+| beautiful      | beautifully |
+| slow           | quickly     |
+| dark           | loudly      |
+| tall           | carefully   |
 
 *Explanation:* Прилагательные описывают существительное и отвечают на «какой?»: beautiful city, slow car. Наречия описывают глагол или прилагательное и отвечают на «как?»: she sings beautifully, he drives quickly. Многие наречия — это прилагательное + -ly.
 

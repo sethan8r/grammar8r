@@ -428,13 +428,11 @@ def ex_categorization(body, type_id):
                  if l.strip().startswith('Задание:')), '')
     header, rows = first_table(body)
     cats = [{'title': h, 'items': []} for h in header]
+    # Один элемент = одна ячейка (канон «в столбик»): запятая внутри фразы элемент не режет.
     for r in rows:
         for idx, cell in enumerate(r):
             if idx < len(cats) and cell and cell != '—':
-                for item in cell.split(','):
-                    item = item.strip()
-                    if item:
-                        cats[idx]['items'].append(item)
+                cats[idx]['items'].append(cell.strip())
     return {'id': type_id, 'taskDescription': task, 'categories': cats,
             'explanation': parse_explanation(body)}
 
