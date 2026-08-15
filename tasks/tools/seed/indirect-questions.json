@@ -39,6 +39,13 @@
       "title": "If / Whether · Когда вопросительного слова нет",
       "order": 4,
       "searchKeywords": "придёт ли она, как сказать ли по-английски, вопрос без вопросительного слова, if или whether, два разных if, есть ли тут"
+    },
+    {
+      "id": 131,
+      "topicId": 21,
+      "title": "Openers · Обёртки и шкала вежливости",
+      "order": 5,
+      "searchKeywords": "не могли бы вы сказать, could you tell me, интересно придёт ли, понятия не имею, точка или знак вопроса, насколько вежливо звучит"
     }
   ],
   "grammar_cards": [
@@ -1758,6 +1765,495 @@
         "Почему после if-«ли» можно поставить will?",
         "Почему нельзя сказать if is there, ведь в вопросе именно так?"
       ]
+    },
+    {
+      "id": 352,
+      "microtopicId": 131,
+      "title": "Вопросительные обёртки: шкала вежливости",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Внутренняя часть разобрана до последнего винтика: мы знаем, что происходит со связкой, куда девается `do/does`, куда девается `did`, где менять не нужно ничего и что делать, если вопросительного слова нет. Осталась вторая половина дела — то, что стоит **снаружи**, перед вопросительным словом. Эту переднюю часть и называют обёрткой. И выбор обёртки — это, по сути, выбор дистанции между тобой и собеседником."
+        },
+        {
+          "type": "heading",
+          "text": "Excuse me — это стук в дверь, а не вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Excuse me` сам по себе ни о чём не спрашивает. Это сигнал «сейчас я к вам обращусь», способ занять внимание человека до того, как ты начал говорить по делу. По-русски мы поступаем точно так же: сначала «Извините…», и только потом «…не подскажете, где вокзал?». Поэтому `Excuse me` ставится ПЕРЕД обёрткой, а не вместо неё:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Excuse me, do you know where the station is?**",
+            "**Excuse me, could you tell me what time the bank opens?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В британской речи ту же работу часто делает `Sorry`: **Sorry, could you repeat what you said?** — «Простите, не могли бы вы повторить, что вы сказали?». Никакого извинения за проступок тут нет, это просто вежливый стук в дверь."
+        },
+        {
+          "type": "heading",
+          "text": "Шкала вежливости"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обёрток немного, и они выстраиваются в ровную лесенку — от вопроса в упор до максимально вежливого захода:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Как спросить",
+            "Насколько вежливо",
+            "Кому так говорят"
+          ],
+          "rows": [
+            [
+              "Where is the exit?",
+              "прямо, в упор",
+              "своим, в спешке, в чате"
+            ],
+            [
+              "Tell me where the exit is.",
+              "команда",
+              "близкому другу, ребёнку"
+            ],
+            [
+              "Do you know where the exit is?",
+              "обычная вежливость",
+              "любому незнакомцу"
+            ],
+            [
+              "Can you tell me where the exit is?",
+              "обычная просьба",
+              "прохожему, продавцу"
+            ],
+            [
+              "Could you tell me where the exit is?",
+              "мягче и вежливее",
+              "персоналу, чужому человеку, начальству"
+            ],
+            [
+              "Would you mind telling me where the exit is?",
+              "максимально вежливо",
+              "официальная обстановка"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило у этой лесенки одно, и мы его уже знаем из первой карточки темы: **чем длиннее заход, тем больше уважительная дистанция**. Никакой другой логики искать не нужно — слова в обёртках почти одни и те же, работает именно длина."
+        },
+        {
+          "type": "paragraph",
+          "text": "Обрати внимание на вторую строку. `Tell me where the exit is` — это не вопрос, а приказ: «Скажи мне, где выход». Другу за столиком — нормально, незнакомцу на улице — грубовато, даже с `please` на конце. Тот случай, когда фраза собрана абсолютно правильно, а звучит не так, как ты хотел."
+        },
+        {
+          "type": "heading",
+          "text": "could — это смягчённый can, а не прошедшее время"
+        },
+        {
+          "type": "paragraph",
+          "text": "В шкале появилось новое слово. `can` нам знаком с «Основ» — «могу, умею». `could` — то же самое, только сказанное мягче: не «можешь сказать», а «не мог бы ты сказать». Собирается фраза точно так же, как с `can`: `Could you tell me` + вопросительное слово + подлежащее + глагол."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Самое важное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В просьбе `Could you…?` **речь идёт про сейчас**, а не про прошлое. Форма выглядит как прошедшее время, но никакого прошлого в ней нет — англичанин отодвигает просьбу «на шаг назад» именно для того, чтобы она прозвучала не так напористо. Русский делает ровно тот же трюк: сравни «Можете сказать?» и «Не могли **бы** вы сказать?» — второе тоже формально не про настоящее, а звучит мягче."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Could` читается [[kʊd]] — буква `l` в нём немая, как в `should` и `would`. Полностью разбирать `could` мы будем в теме «Модальные глаголы»; пока бери его как готовую вежливую формулу — она нужна уже сейчас, а не через десять тем."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая вежливая строчка шкалы, **Would you mind telling me where the exit is?**, дословно значит «Вы бы не возражали сказать мне, где выход?». Внутри неё сразу две вещи, которых мы ещё не проходили, поэтому её просто заучивают целиком, как формулу — узнавать в чужой речи и при случае использовать. Разберём её по косточкам в темах «Модальные глаголы» и «Дополнительные конструкции»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда ошибка: русская вежливость строится на «не»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотри, как звучат наши самые вежливые заходы: «**Не** подскажете, где вокзал?», «**Не** могли бы вы повторить?», «Вы **не** знаете, когда открывается музей?». У нас вежливость идёт через отрицание, и рука сама тянется перевести это отрицание в английский."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Дословная калька **Don't you know where the station is?** ✗ — это не вежливость, а упрёк: «Разве ты не знаешь, где станция?» Собеседник услышит удивление или даже наезд. Английская вежливость набирается **длиной**, а не частицей «не»: **Excuse me, do you know where the station is?** ✓, **Could you tell me where the station is?** ✓. Русское «не» в такой фразе просто не переводится — оно растворяется в самой обёртке."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ещё одна ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вежливая обёртка **не отменяет** правило внутри — это по-прежнему та же ось темы. **Could you tell me where is the toilet?** ✗ → **Could you tell me where the toilet is?** ✓. Чем вежливее начало, тем обиднее сломать вторую половину: фраза как будто специально показывает, что человек выучил вежливость, но не выучил язык."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Обёртки выстраиваются в лесенку по длине: **Where is the exit?** (в упор) → **Do you know…?** (обычная вежливость) → **Can you tell me…?** → **Could you tell me…?** (мягче) → **Would you mind telling me…?** (максимально вежливо). `Excuse me` и `Sorry` — не обёртки, а способ привлечь внимание, они ставятся перед обёрткой. `could` — это смягчённый `can` про настоящее время, а не прошедшее; читается [[kʊd]], буква `l` немая. Русскую вежливость через «не» дословно не переводим: **Don't you know…?** ✗ звучит упрёком. И главное — обёртка не отменяет прямой порядок внутри: **Could you tell me where the toilet is?** ✓",
+      "examples": [
+        {
+          "ru": "Извините, не подскажете, где автобусная остановка?",
+          "en": "Excuse me, could you tell me where the bus stop is?"
+        },
+        {
+          "ru": "Вы не знаете, во сколько открывается банк?",
+          "en": "Do you know what time the bank opens?"
+        },
+        {
+          "ru": "Вы не могли бы сказать, сколько стоит этот билет?",
+          "en": "Can you tell me how much this ticket costs?"
+        },
+        {
+          "ru": "Простите, не могли бы вы повторить, что вы сказали?",
+          "en": "Sorry, could you repeat what you said?"
+        },
+        {
+          "ru": "Не будете ли вы так любезны сказать, где здесь можно купить воду?",
+          "en": "Would you mind telling me where I can buy water?"
+        }
+      ],
+      "clarificationOptions": [
+        "Чем Can you tell me отличается от Could you tell me?",
+        "Почему нельзя перевести «не подскажете» через Don't you?",
+        "Excuse me и Sorry — это одно и то же?"
+      ]
+    },
+    {
+      "id": 353,
+      "microtopicId": 131,
+      "title": "Утвердительные обёртки: сказать, чего не знаешь",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая половина темы — обёртки, после которых фраза целиком **вопросом не становится**. Ты никого ни о чём не спрашиваешь, ты сообщаешь: чего-то не знаю, не помню, не уверен. Внутри при этом сидит тот же самый вопрос и ведёт себя по тем же правилам."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Обёртка",
+            "Что значит",
+            "Оттенок"
+          ],
+          "rows": [
+            [
+              "I don't know…",
+              "я не знаю",
+              "нейтрально"
+            ],
+            [
+              "I'm not sure…",
+              "я не уверен",
+              "мягче, чем «не знаю»"
+            ],
+            [
+              "I can't remember…",
+              "я не помню",
+              "знал, но забыл"
+            ],
+            [
+              "I have no idea…",
+              "понятия не имею",
+              "разговорно, эмоционально"
+            ],
+            [
+              "I can't imagine…",
+              "не представляю",
+              "удивление, недоумение"
+            ],
+            [
+              "I wonder…",
+              "интересно, хотел бы я знать",
+              "размышление вслух"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm not sure what time the film starts.**",
+            "**I have no idea where he lives.**",
+            "**I can't imagine why Jack said that.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между первыми двумя — та же, что и по-русски. `I don't know` — закрытый ответ, «не знаю, и всё». `I'm not sure` — мягче: вроде что-то знаю, но не поручусь. В разговоре с незнакомым человеком носитель чаще возьмёт второе, оно звучит менее резко."
+        },
+        {
+          "type": "heading",
+          "text": "I wonder — «интересно…», сказанное вслух"
+        },
+        {
+          "type": "paragraph",
+          "text": "Глагол `to wonder` значит «задаваться вопросом, гадать». Фраза `I wonder…` — это ровно наше «Интересно, …»: человек не спрашивает собеседника, а размышляет вслух."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I wonder if Nastya will come to the party.** — «Интересно, придёт ли Настя на праздник».",
+            "**I wonder what time the museum opens.** — «Интересно, во сколько открывается музей»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «интересно» так и просится перевести словом `interesting` — и получается **It's interesting will she come** ✗. Здесь сразу две поломки: `interesting` значит «увлекательный, любопытный» (это про книгу или фильм, а не про размышление), да ещё и вопрос внутри остался в вопросительном порядке. Верно — **I wonder if she will come** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`I wonder…` — это ещё и мягкий способ спросить, не задавая вопроса. Если сказать рядом с человеком **I wonder what time the shop closes**, он почти наверняка ответит — но формально ты его ни о чём не спрашивал, а просто подумал вслух. Приём, которым носители пользуются постоянно, когда не хотят давить."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что, ли и что: what, if и that"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь русский подставляет самую коварную подножку темы. Мы говорим «Я не знаю, **что** он хочет» — и рука тянется к слову `that`, ведь «что» = `that`. Но в этой фразе «что» — это **вопросительное слово**: спрятанный вопрос звучит «чего он хочет?». Значит нужен `what`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разложим все три случая:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«что» = вопросительное слово («чего он хочет?») → `what`: **I don't know what he wants.**",
+            "«ли» → `if` или `whether`: **I'm not sure if the shop is open.**",
+            "«что» = факт, который уже известен → `that`: **I didn't know that you lived in Warsaw.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между первым и третьим видна по смыслу. `I don't know what he wants` — я не знаю **содержания** его желания. `I didn't know that you lived in Warsaw` — сам факт был для меня новостью, никакого вопроса внутри нет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I don't know that he wants** ✗ — фраза не просто неверная, она обрывается на полуслове: `that he wants` требует продолжения «что он хочет… чего?». Верно — **I don't know what he wants** ✓. Проверка простая: если внутри слышится вопрос («чего? где? когда? кто?»), нужно вопросительное слово, а не `that`."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок внутри при этом остаётся прежним и после любой из этих обёрток: сначала подлежащее, потом глагол. Обёртка меняет только то, вопрос перед нами или сообщение."
+        }
+      ],
+      "theorySummary": "Утвердительные обёртки — **I don't know**, **I'm not sure** (мягче), **I can't remember**, **I have no idea** (разговорное), **I can't imagine**, **I wonder** («интересно…»). Фраза целиком остаётся сообщением, но внутри сидит вопрос и собирается по тому же правилу: подлежащее, потом глагол. Слово `to wonder` значит «задаваться вопросом»: **I wonder if Nastya will come** ✓, а не **It's interesting will she come** ✗. Русское «что» переводится двумя разными словами: вопросительное «что» (чего именно?) → `what` — **I don't know what he wants** ✓; «что» как известный факт → `that` — **I didn't know that you lived in Warsaw** ✓.",
+      "examples": [
+        {
+          "ru": "Я не уверен, во сколько начинается фильм.",
+          "en": "I'm not sure what time the film starts."
+        },
+        {
+          "ru": "Интересно, придёт ли Настя на праздник.",
+          "en": "I wonder if Nastya will come to the party."
+        },
+        {
+          "ru": "Понятия не имею, где он живёт.",
+          "en": "I have no idea where he lives."
+        },
+        {
+          "ru": "Не представляю, почему Джек так сказал.",
+          "en": "I can't imagine why Jack said that."
+        },
+        {
+          "ru": "Я не знаю, чего хочет мой начальник.",
+          "en": "I don't know what my boss wants."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем I don't know отличается от I'm not sure?",
+        "Почему «интересно» — это I wonder, а не interesting?",
+        "Как быстро понять, нужно what или that?"
+      ]
+    },
+    {
+      "id": 354,
+      "microtopicId": 131,
+      "title": "Знак в конце ставит главная часть",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Осталась мелочь, на которой спотыкаются почти все: что ставить в конце — точку или вопросительный знак. Внутри-то вопрос, а снаружи как получится. Правило одно и без исключений: **знак определяет главная часть, а не встроенная.**"
+        },
+        {
+          "type": "heading",
+          "text": "Тест: закрой встроенную часть пальцем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прочитай только обёртку и посмотри, что осталось:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Could you tell me** … — сама по себе это просьба-вопрос → в конце `?`",
+            "**I wonder** … — сама по себе это сообщение → в конце `.`"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше просто разворачиваем обратно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Could you tell me where he is?** ✓",
+            "**Do you know what time the last train leaves?** ✓",
+            "**I wonder what time it is.** ✓",
+            "**I have no idea why the shop is closed.** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопросительное слово внутри (`where`, `what time`, `why`) на знак не влияет вообще. Оно принадлежит встроенной части, а знак ставит вся фраза целиком."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I wonder what time it is?** ✗ — самая частая ошибка карточки. Внутри слышится вопрос «который час?», рука ставит знак вопроса — а фраза-то никого не спрашивает, ты подумал вслух. Верно — **I wonder what time it is.** ✓"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ошибка бывает и обратная, и она заметнее на письме: **Do you know where he lives.** ✗ Обёртка `Do you know` — это полноценный вопрос со своим помощником, значит фраза требует знака вопроса: **Do you know where he lives?** ✓"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "По-русски правило точно такое же — мы просто его не осознаём"
+        },
+        {
+          "type": "paragraph",
+          "text": "Хорошая новость: изобретать ничего не нужно. По-русски мы делаем ровно то же самое, только машинально:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Интересно, который час**.**» — размышление, точка.",
+            "«Не подскажете, который час**?**» — просьба, знак вопроса."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Видишь? Внутри обеих фраз сидит один и тот же вопрос «который час», а знак разный — и решает его как раз начало. Так что ошибаемся мы не из-за русского, а из-за того, что в английской фразе вопросительное слово стоит рядом и слишком громко напоминает о себе."
+        },
+        {
+          "type": "paragraph",
+          "text": "Знак — это ещё и **интонация**. `I wonder what time it is` носитель произносит с понижением голоса к концу, как обычное сообщение; `Could you tell me what time it is?` — с повышением, как вопрос. Точка и знак вопроса на письме передают ровно эту разницу, поэтому поставить не тот знак — всё равно что сказать фразу не с той интонацией."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В очень вежливых просьбах носители иногда сознательно ставят точку — **Could you open the window.** Это уже не вопрос «можешь ли ты», а мягкое распоряжение: спрашивать разрешения говорящий не собирается. Приём тонкий, и разберём мы его в теме «Question Tags»; пока достаточно знать, что такая точка бывает и она не опечатка."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Знак в конце ставит **главная часть**, а не встроенный вопрос. Закрой встроенную часть пальцем и посмотри на обёртку: `Could you tell me…` и `Do you know…` — это вопросы, значит `?`; `I wonder…`, `I'm not sure…`, `I have no idea…` — сообщения, значит `.`. Вопросительное слово внутри на знак не влияет. Ловушки с обеих сторон: **I wonder what time it is?** ✗ → **I wonder what time it is.** ✓ и **Do you know where he lives.** ✗ → **Do you know where he lives?** ✓ По-русски правило то же самое: «Интересно, который час.» и «Не подскажете, который час?».",
+      "examples": [
+        {
+          "ru": "Интересно, который час.",
+          "en": "I wonder what time it is."
+        },
+        {
+          "ru": "Не могли бы вы сказать, где он?",
+          "en": "Could you tell me where he is?"
+        },
+        {
+          "ru": "Я не помню, где припарковал машину.",
+          "en": "I can't remember where I parked the car."
+        },
+        {
+          "ru": "Вы не знаете, во сколько уходит последний поезд?",
+          "en": "Do you know what time the last train leaves?"
+        },
+        {
+          "ru": "Понятия не имею, почему магазин закрыт.",
+          "en": "I have no idea why the shop is closed."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, вопрос передо мной или нет?",
+        "Почему знак вопроса не ставится, если внутри есть слово where?",
+        "Разве Could you tell me — это не просьба, а вопрос?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1976,6 +2472,78 @@
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 40,
       "orderInCard": 3
+    },
+    {
+      "cardId": 352,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 150,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 352,
+      "exerciseType": "MATCHING",
+      "exerciseId": 50,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 352,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 132,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 352,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 135,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 353,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 169,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 353,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 66,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 353,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 67,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 353,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 48,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 354,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 74,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 354,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 151,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 354,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 133,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 354,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 170,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2026,6 +2594,22 @@
       "userInstruction": "ИИ даст русскую фразу. Напишите её по-английски одним предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "indirect_questions_card352_ex1",
+      "cardId": 352,
+      "title": "Подбери обёртку",
+      "userInstruction": "ИИ опишет ситуацию и даст английскую фразу без начала. Впишите подходящее начало.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "indirect_questions_card353_ex1",
+      "cardId": 353,
+      "title": "What, if или that",
+      "userInstruction": "ИИ опишет ситуацию и даст английскую фразу с пропуском. Впишите в пропуск нужное слово.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -2067,6 +2651,30 @@
       "translation": "правильный, верный",
       "transcription": "[kəˈrekt]",
       "microtopicId": 130,
+      "categoryId": "linking"
+    },
+    {
+      "id": 601,
+      "word": "to wonder",
+      "translation": "задаваться вопросом, гадать",
+      "transcription": "[ˈwʌndə]",
+      "microtopicId": 131,
+      "categoryId": "linking"
+    },
+    {
+      "id": 602,
+      "word": "to imagine",
+      "translation": "представлять, воображать",
+      "transcription": "[ɪˈmædʒɪn]",
+      "microtopicId": 131,
+      "categoryId": "linking"
+    },
+    {
+      "id": 603,
+      "word": "to repeat",
+      "translation": "повторять",
+      "transcription": "[rɪˈpiːt]",
+      "microtopicId": 131,
       "categoryId": "linking"
     }
   ],
@@ -2188,6 +2796,37 @@
         }
       ],
       "explanation": "Во втором помощник can вынесен вперёд подлежащего, а он должен стоять после него: if we can take photos. В четвёртом did нужно убрать совсем, а прошедшее перенести в глагол: if she paid."
+    },
+    {
+      "id": 151,
+      "statements": [
+        {
+          "en": "I wonder what time the pool opens?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Could you tell me where the lift is?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I have no idea why Mia is late.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Do you know when the film starts.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I'm not sure how much this bag costs.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "В первом фраза начинается с I wonder — это размышление, знак вопроса лишний. В четвёртом наоборот: обёртка Do you know сама вопрос, поэтому в конце нужен знак вопроса, а не точка."
     }
   ],
   "word_arrangement_exercises": [
@@ -2263,6 +2902,26 @@
         "that"
       ],
       "explanation": "После if сначала подлежащее the lift, потом глагол с окончанием третьего лица: works. Помощник does во встроенной части исчезает, форма working здесь не нужна, а that превратил бы вопрос в утверждение о факте."
+    },
+    {
+      "id": 135,
+      "situationRu": "Ситуация: Олег в Лиссабоне вежливо спрашивает у сотрудницы отеля, во сколько подают завтрак.",
+      "correctSentence": "Excuse me, could you tell me what time breakfast starts?",
+      "words": [
+        "Excuse me",
+        "could you tell me",
+        "what time",
+        "breakfast",
+        "starts"
+      ],
+      "distractors": [
+        "does breakfast start",
+        "what time does",
+        "can you telling me",
+        "is starting",
+        "start"
+      ],
+      "explanation": "После обёртки идёт вопросительное слово, потом подлежащее breakfast и только потом глагол starts с окончанием третьего лица. Куски с does тащат внутрь помощника, can you telling me собран неправильно, а формы is starting и start не подходят по смыслу и лицу."
     }
   ],
   "multiple_choice_exercises": [
@@ -2454,6 +3113,90 @@
         }
       ],
       "explanation": "Внутри фразы there — подлежащее, поэтому глагол стоит после него: if there is. Порядок is there остался от прямого вопроса, а форма are не подходит по числу."
+    },
+    {
+      "id": 150,
+      "choiceType": "CHOICE",
+      "prompt": "Excuse me, could you tell me ___?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "where is the nearest pharmacy",
+          "isCorrect": false
+        },
+        {
+          "text": "where the nearest pharmacy",
+          "isCorrect": false
+        },
+        {
+          "text": "where the nearest pharmacy is",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Вежливая обёртка не меняет того, что стоит за ней: сначала подлежащее the nearest pharmacy, потом связка is. Вариант where is the nearest pharmacy собран по порядку прямого вопроса, а во втором связка потерялась совсем."
+    },
+    {
+      "id": 169,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Интересно, купила ли Юля билеты.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "It's interesting did Yulya buy the tickets.",
+          "isCorrect": false
+        },
+        {
+          "text": "I wonder if Yulya bought the tickets.",
+          "isCorrect": true
+        },
+        {
+          "text": "I wonder did Yulya buy the tickets.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«Интересно» в значении размышления вслух — это I wonder, а не interesting. Дальше идёт if и прямой порядок: помощник did исчезает, а прошедшее время уходит в сам глагол."
+    },
+    {
+      "id": 48,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I wonder if Denis has my number.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Интересно, есть ли у Дениса мой номер.",
+          "isCorrect": true
+        },
+        {
+          "text": "Если у Дениса есть мой номер, это интересно.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не знаю Дениса, у которого есть мой номер.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "I wonder — это «интересно, хотел бы я знать», а if после него значит «ли», а не «если». Вся фраза остаётся размышлением вслух, а не условием."
+    },
+    {
+      "id": 170,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Интересно, во сколько закрывается парк.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I wonder what time the park closes?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you know what time the park closes.",
+          "isCorrect": false
+        },
+        {
+          "text": "I wonder what time the park closes.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Русская фраза — размышление вслух, поэтому обёртка I wonder и точка в конце. Первый вариант ставит знак вопроса при утвердительной обёртке, а второй меняет саму обёртку на вопросительную, но оставляет точку."
     }
   ],
   "text_input_exercises": [
@@ -2566,6 +3309,31 @@
       ],
       "explanation": "Во всех трёх местах if невозможен: после предлога, перед инфинитивом и в паре с or not работает только whether.",
       "taskDescription": "Впиши в каждое предложение пропущенное слово."
+    },
+    {
+      "id": 67,
+      "items": [
+        {
+          "sentence": "I don't know ___ Emma wants for her birthday.",
+          "contextRu": "",
+          "answer": "what",
+          "alternatives": []
+        },
+        {
+          "sentence": "I'm not sure ___ the pool is open on Monday.",
+          "contextRu": "",
+          "answer": "if",
+          "alternatives": []
+        },
+        {
+          "sentence": "I didn't know ___ you worked at the airport.",
+          "contextRu": "",
+          "answer": "that",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Если внутри слышится вопрос «чего именно?» — нужно вопросительное слово what. Если внутри «ли» — работает if или whether. А that ставится там, где внутри вообще нет вопроса, а есть готовый факт.",
+      "taskDescription": "Впиши в каждое предложение подходящее слово: what, if или that."
     }
   ],
   "dialog_restore_exercises": [
@@ -2681,6 +3449,33 @@
         }
       ],
       "explanation": "whether or not прямо называет обе возможности; whether to go идёт перед инфинитивом; после предлога on возможен только whether; глагол to mind значит «быть против», поэтому I don't mind — «я не против, мне всё равно»."
+    },
+    {
+      "id": 50,
+      "taskDescription": "соедини начало фразы с тем, как оно прозвучит.",
+      "pairs": [
+        {
+          "left": "Tell me…",
+          "right": "звучит приказом"
+        },
+        {
+          "left": "Do you know…?",
+          "right": "нейтрально, любому"
+        },
+        {
+          "left": "Can you tell me…?",
+          "right": "просьба к прохожему"
+        },
+        {
+          "left": "Could you tell me…?",
+          "right": "смягчённая просьба"
+        },
+        {
+          "left": "Would you mind telling me…?",
+          "right": "самая официальная фраза"
+        }
+      ],
+      "explanation": "Вежливость набирается длиной захода: голое Tell me звучит приказом, Do you know и Can you tell me подходят любому незнакомцу, Could you tell me мягче за счёт could, а Would you mind telling me — самая длинная и самая официальная формула."
     }
   ],
   "error_correction_exercises": [
@@ -2778,6 +3573,44 @@
         }
       ],
       "explanation": "После if связка стоит за подлежащим: if the museum is open. Помощник does здесь чужой, а без глагола is предложение остаётся без сказуемого."
+    },
+    {
+      "id": 132,
+      "wrongSentence": "Don't you know where is the ticket office?",
+      "options": [
+        {
+          "text": "Excuse me, do you know where the ticket office is?",
+          "isCorrect": true
+        },
+        {
+          "text": "Excuse me, don't you know where the ticket office is?",
+          "isCorrect": false
+        },
+        {
+          "text": "Excuse me, do you know where is the ticket office?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Русское «не подскажете» дословно не переводится: отрицание в обёртке превращает вежливость в упрёк «разве ты не знаешь». Вежливость даёт длина захода, а внутри порядок остаётся прямым — where the ticket office is."
+    },
+    {
+      "id": 133,
+      "wrongSentence": "I can't remember where I put my passport?",
+      "options": [
+        {
+          "text": "I can't remember where did I put my passport.",
+          "isCorrect": false
+        },
+        {
+          "text": "I can't remember where I put my passport.",
+          "isCorrect": true
+        },
+        {
+          "text": "I can't remember where is my passport?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Обёртка I can't remember — это сообщение, поэтому в конце точка. В первом варианте внутрь вернулся помощник did, а в третьем остался и знак вопроса, и порядок прямого вопроса."
     }
   ],
   "construction_meaning_exercises": [
@@ -2887,7 +3720,33 @@
       "explanation": "Место вопросительного слова занимает if, а дальше идёт прямой порядок: связка уходит за подлежащее, did исчезает и оставляет прошедшее в глаголе, will остаётся после подлежащего."
     }
   ],
-  "categorization_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 74,
+      "taskDescription": "распредели начала фраз по знаку, который встанет в конце.",
+      "categories": [
+        {
+          "title": "Точка в конце",
+          "items": [
+            "I wonder",
+            "I have no idea",
+            "I can't remember",
+            "I'm not sure"
+          ]
+        },
+        {
+          "title": "Вопросительный знак",
+          "items": [
+            "Do you know",
+            "Can you tell me",
+            "Could you tell me",
+            "Do you remember"
+          ]
+        }
+      ],
+      "explanation": "Знак ставит главная часть: обёртки с помощником do и с could — это вопросы, а фразы, начинающиеся с I, сообщают, чего человек не знает. Вопросительное слово внутри на знак не влияет."
+    }
+  ],
   "find_the_odd_exercises": [
     {
       "id": 65,
@@ -2911,6 +3770,29 @@
         }
       ],
       "explanation": "Во встроенной части сначала идёт подлежащее, а потом помощник: he will order. В остальных трёх этот порядок соблюдён, а в лишнем сохранён вопросительный."
+    },
+    {
+      "id": 66,
+      "groupDescription": "Три начала оставляют фразу сообщением, а одно превращает её в вопрос",
+      "items": [
+        {
+          "text": "I have no idea",
+          "isOdd": false
+        },
+        {
+          "text": "I'm not sure",
+          "isOdd": false
+        },
+        {
+          "text": "Can you tell me",
+          "isOdd": true
+        },
+        {
+          "text": "I can't remember",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Can you tell me — это вопросительная обёртка, после неё вся фраза становится вопросом. Остальные три — утвердительные: человек сообщает, чего он не знает или не помнит."
     }
   ]
 }
