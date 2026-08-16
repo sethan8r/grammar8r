@@ -382,6 +382,15 @@ Grammar8r — Android-приложение для изучения англий�
 
 ### 7. Present Perfect
 
+> ⚠️ ОБЪЕДИНЕНО В РАЗДЕЛ (16.08.2026): §7 (Present Perfect), §8 (Present Perfect Continuous) и тема
+> `Compare: Past Simple vs Present Perfect` живут внутри одного сворачиваемого раздела
+> «📁 Present Perfect: Simple и Continuous» (GrammarTopicCategory id=6, order=12) —
+> см. `grammar8r_plan.md`. Содержание брифа актуально, изменилась только упаковка: снаружи перфект
+> читается одной строкой, внутри три темы в строгом порядке (Present Perfect → Compare с Past Simple
+> → Present Perfect Continuous).
+> ⚠️ Разведение PP ↔ PPC отдельной темой НЕ делаем: оно остаётся микротемой на 3–5 карточек в конце
+> `Present Perfect Continuous`, перед его финальной Live Practice (§8, микротема 4 ниже).
+
 Вводная карточка: глаголы из "Verb Forms" нужные для темы (been, seen, done, gone, had, made и др.) → кнопка приоритета
 
 Микротемы:
@@ -399,7 +408,9 @@ Grammar8r — Android-приложение для изучения англий�
 1. **Что такое Present Perfect Continuous**
 2. **Образование** — have/has been + глагол-ing
 3. **Употребление** — длительное действие от прошлого до настоящего
-4. **Present Perfect vs Present Perfect Continuous** — разница
+4. **Present Perfect vs Present Perfect Continuous** — разница (3–5 карточек: результат ↔ процесс,
+   количество убивает Continuous, for/since с разным акцентом, где разницы почти нет, глаголы состояния).
+   Предпоследняя микротема темы — сразу за ней финальная Live Practice.
 
 ### 9. Past Perfect
 

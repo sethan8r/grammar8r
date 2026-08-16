@@ -137,13 +137,15 @@ ID **сквозные по всему курсу** и не должны пере
 **подряд** тем образуют один замкнутый блок — как правило, пара «простое + длительное», закрытая
 Compare-темой, или общая идея вроде «Устройство языка». Такие блоки и учатся пачкой, поэтому в
 списке им место под одним заголовком. По этому критерию в разделы упакованы `Present: Simple и
-Continuous` (id 3) и `Past: Simple и Continuous` (id 4), туда же пойдёт будущее.
+Continuous` (id 3), `Past: Simple и Continuous` (id 4), `Future Simple: will и going to` (id 5) и
+`Present Perfect: Simple и Continuous` (id 6).
 Что разделом НЕ делаем: длинную цепочку разных тем подряд — просто чтобы «покороче было».
 
 ⚠️ **Название раздела — по составу, а не по времени вообще.** Именно `Present: Simple и Continuous`,
 а не «Настоящее время»: Present Perfect и Present Perfect Continuous стоят в курсе намного позже, за
 блоком будущего, а темы раздела обязаны идти подряд — раздел «Настоящее время» без половины
-настоящих времён путал бы больше, чем плоский список. Перфекты позже получат свой раздел.
+настоящих времён путал бы больше, чем плоский список. Перфекты стоят подряд там, где стоят, и
+собраны в свой раздел `Present Perfect: Simple и Continuous` (id 6).
 
 **Как объявляется.** У раздела нет своего MD-файла — он целиком объявляется прямо в шапке
 **КАЖДОЙ** темы, которая в него входит (по аналогии с `Группа слов`/`Категория слов` —
@@ -187,7 +189,13 @@ theory/
 │   ├── 01-past-simple.md                 (Topic id=14, Раздел: 4, order=1)
 │   └── 02-past-continuous.md             (Topic id=15, Раздел: 4, order=2)
 ├── 08-passive-basics.md                  (Topic id=16, без раздела, order=8)
-└── 09-linking-words.md                   (Topic id=17, без раздела, order=9)
+├── 09-linking-words.md                   (Topic id=17, без раздела, order=9)
+├── 10-future/                            ← пакет = раздел "Future Simple: will и going to" (id=5, order=10)
+├── 11-indirect-questions.md              (Topic id=21, без раздела, order=11)
+└── 12-present-perfect/                   ← пакет = раздел "Present Perfect: Simple и Continuous" (id=6, order=12)
+    ├── 01-present-perfect.md                        (Topic id=22, Раздел: 6, order=1)
+    ├── 02-compare-past-simple-present-perfect.md    (Topic id=23, Раздел: 6, order=2)
+    └── 03-present-perfect-continuous.md             (Topic id=24, Раздел: 6, order=3)
 ```
 Имя папки пакета — `NN-slug`, где `NN` = `order` раздела в общем списке (для той же навигационной
 читаемости, что и у файлов внутри). `py check.py <файл>` по-прежнему работает на одном файле —
