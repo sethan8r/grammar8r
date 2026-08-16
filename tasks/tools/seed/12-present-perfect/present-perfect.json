@@ -25,6 +25,13 @@
       "title": "What Is Present Perfect · Что такое Present Perfect",
       "order": 1,
       "searchKeywords": "отпечаток прошлого, одна русская форма на два смысла, почему кажется прошедшим, фильмография без дат"
+    },
+    {
+      "id": 135,
+      "topicId": 22,
+      "title": "Form · Форма: have/has + V3",
+      "order": 2,
+      "searchKeywords": "have или has, третья форма глагола, сокращение с апострофом, has это то же самое s, я имею не переводится"
     }
   ],
   "grammar_cards": [
@@ -413,10 +420,529 @@
         "Почему «прочитал» не всегда переводится через Present Perfect?",
         "Что именно ломается во фразе, если добавить к Present Perfect слово yesterday?"
       ]
+    },
+    {
+      "id": 362,
+      "microtopicId": 135,
+      "title": "have/has + V3: два слова и всё",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Со смыслом разобрались — теперь механика. И тут хорошая новость: собирается это время из **двух деталей**, и ни одну из них не нужно учить заново. Обе уже лежат у нас в голове с прошлых тем."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/has + V3 — помощник в настоящем времени плюс третья форма глагола."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая деталь — помощник `have` или `has`. Он выбирается по тому, кто действует. Вторая деталь — третья форма глагола, `V3`. Она не меняется **никогда**: ни от лица, ни от числа, ни от чего-либо ещё. Вся работа сводится к первому слову."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кто",
+            "Фраза"
+          ],
+          "rows": [
+            [
+              "I",
+              "I have used"
+            ],
+            [
+              "you",
+              "you have used"
+            ],
+            [
+              "he / she / it",
+              "he has used"
+            ],
+            [
+              "we",
+              "we have used"
+            ],
+            [
+              "they",
+              "they have used"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Один столбик с `have`, одна строчка с `has` — вот и всё различие. Сравните с русским, где под каждое лицо перекраивается сам глагол: «я воспользовался», «она воспользовалась», «они воспользовались». Английский трогает только помощника, а сам глагол оставляет в покое."
+        },
+        {
+          "type": "heading",
+          "text": "has — это то самое -s, которое мы уже знаем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Откуда взялось `has` и почему именно у **he, she, it**? Ниоткуда — это старое знакомое окончание `-s` третьего лица из Present Simple, просто глагол `have` меняется при нём не по общему правилу:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He works** — **He has**",
+            "**She lives** — **She has**",
+            "**They work** — **They have**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Мысль тут не про орфографию, а про опору: если `-s` на месте, значит перед нами живое **настоящее** время — ровно то, о чём была прошлая микротема. Прошедшее время лиц не различает вовсе."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He have finished his homework** ✗ → **He has finished his homework** ✓. Ошибка живучая, потому что в русском помощник вообще не меняется («он сделал», «они сделали» — глагол один и тот же по форме помощника, его просто нет). Рука ставит `have` по инерции. Правило простое: **he, she, it** — всегда `has`, без исключений."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "have здесь не значит «иметь»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это второе место, где русскоязычный спотыкается. Мы знаем `have` как «иметь»: **I have a car**, **She has a cat**. И когда то же слово появляется в перфекте, мозг честно пытается его перевести — получается бессмыслица вроде «я имею комнату убранной»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Переводить его не нужно вообще. В этой конструкции `have` — **служебный глагол**, как `do` в вопросах и отрицаниях: он ничего не значит сам по себе, он держит грамматику. Мы уже видели такое в теме «Служебные глаголы»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I have a room in the centre.** — здесь `have` = «иметь», это смысловой глагол.",
+            "**I have cleaned the room.** — здесь `have` не переводится, он помощник, а смысл несёт `cleaned`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отличить одно от другого легко: если сразу после `have/has` стоит третья форма глагола — перед нами перфект, и помощник в перевод не идёт. Если дальше существительное — это обычное «иметь»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ничто не мешает встретить оба разом — **I have had a busy week** («у меня была тяжёлая неделя»): первый `have` — помощник, второй `had` — тот самый смысловой «иметь» в третьей форме. Выглядит странно только на первый взгляд, а разбирается по тому же правилу."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Как сказать «не сделал» и как задать вопрос — в следующей микротеме. Здесь только утверждение: помощник по лицу, глагол в третьей форме."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Формула — `have/has + V3`: помощник плюс третья форма глагола, которая не меняется никогда. Помощник выбирается по лицу: у `he/she/it` — `has` (то самое `-s` из Present Simple: **He works** → **He has**), у всех остальных — `have`. Отсюда главная ошибка формы: **He have finished** ✗ → **He has finished** ✓. И `have` здесь не переводится как «иметь» — это служебный глагол: **I have a room** (иметь) ↔ **I have cleaned the room** (помощник).",
+      "examples": [
+        {
+          "ru": "Я сделал домашнее задание.",
+          "en": "I have done my homework."
+        },
+        {
+          "ru": "Она убрала комнату.",
+          "en": "She has cleaned the room."
+        },
+        {
+          "ru": "Мы получили ваше сообщение.",
+          "en": "We have received your message."
+        },
+        {
+          "ru": "Они воспользовались новым приложением.",
+          "en": "They have used the new app."
+        },
+        {
+          "ru": "Гриша сделал всё.",
+          "en": "Grisha has done everything."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему у he и she стоит has, а не have?",
+        "Как понять, что have в предложении не переводится словом «иметь»?",
+        "Почему глагол после have и has никогда не меняется?"
+      ]
+    },
+    {
+      "id": 363,
+      "microtopicId": 135,
+      "title": "Сокращения: 've, 's и ловушка на слух",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В живой речи помощника почти никогда не произносят полностью. Он приклеивается к подлежащему и превращается в короткий хвостик — и именно в таком виде вы его услышите в сериалах, песнях и разговоре."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот полный ряд, других вариантов нет:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've** [[aɪv]], **you've** [[juːv]], **we've** [[wiːv]], **they've** [[ðeɪv]] — сокращённое `have`",
+            "**he's** [[hiːz]], **she's** [[ʃiːz]], **it's** [[ɪts]] — сокращённое `has`"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Полная форма при этом не запрещена: её берут в официальном письме или когда хотят на помощника **надавить** («я это всё-таки сделал»). В обычном разговоре полное `I have finished` звучит подчёркнуто-старательно."
+        },
+        {
+          "type": "heading",
+          "text": "Одна и та же 's — два разных слова"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот здесь начинается то, ради чего написана эта карточка. Хвостик `'s` может быть сокращением **has**, а может — сокращением **is**. Пишутся они абсолютно одинаково, звучат абсолютно одинаково, и никакой пометки, которая бы их различала, не существует."
+        },
+        {
+          "type": "paragraph",
+          "text": "Различает только **то, что идёт следом**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "третья форма глагола → это `has`: **He's gone home.** (= he has gone)",
+            "форма на `-ing` → это `is`: **He's going home.** (= he is going)",
+            "прилагательное или существительное → это `is`: **He's tired.** (= he is tired)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните пары — они отличаются одним словом, а смысл разъезжается полностью:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She's used my laptop.** (= has, воспользовалась, ноутбук уже трогали) ↔ **She's using my laptop.** (= is, сидит за ним прямо сейчас)",
+            "**It's cost a lot.** (= has, обошлось дорого) ↔ **It's expensive.** (= is, дорогое)",
+            "**Tom's finished everything.** (= has, всё готово) ↔ **Tom's busy.** (= is, занят)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Услышали `he's` — не спешите переводить. Пока не прозвучало следующее слово, вы не знаете, какое это время: **He's cleaned the room** («убрал, комната чистая») и **He's cleaning the room** («убирает прямо сейчас») начинаются одинаково."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему русскому это особенно тяжело"
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском вспомогательных глаголов в настоящем времени нет вообще. «Он ушёл», «он уходит» — по одному слову, и всё различие сидит внутри самого глагола, в его окончании. Мы привыкли ловить смысл в конце слова."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский поступает наоборот: он ставит служебное слово **впереди** и там же прячет всю грамматику — а потом ещё и проглатывает его до одной буквы. Для непривычного уха `'s` почти не звучит, поэтому фразу слышат как обычное настоящее время и теряют весь смысл «уже сделано»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Совет",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "При прослушивании держите ухо не на подлежащем, а на **слове сразу после него**. Форма на `-ed` или неправильная третья форма — значит, только что проскочил `has`, даже если вы его толком не расслышали."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Помощник почти всегда сокращается: **I've**, **you've**, **we've**, **they've** — это `have`; **he's**, **she's**, **it's** — это `has`. Ловушка в том, что `'s` — это ещё и сокращённое `is`, и на слух они одинаковы. Различает следующее слово: третья форма → `has` (**He's gone home**), форма на `-ing` или прилагательное → `is` (**He's going home**, **He's tired**). Поэтому слушать надо не подлежащее, а слово сразу за ним.",
+      "examples": [
+        {
+          "ru": "Я получил твоё сообщение.",
+          "en": "I've received your message."
+        },
+        {
+          "ru": "Мы всё сделали.",
+          "en": "We've done everything."
+        },
+        {
+          "ru": "Он ушёл домой.",
+          "en": "He's gone home."
+        },
+        {
+          "ru": "Он идёт домой.",
+          "en": "He's going home."
+        },
+        {
+          "ru": "Она воспользовалась моим ноутбуком.",
+          "en": "She's used my laptop."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять на слух, что человек сказал has, а не is?",
+        "Когда стоит говорить полную форму have вместо I've?",
+        "Почему 's с прилагательным — это всегда is?"
+      ]
+    },
+    {
+      "id": 364,
+      "microtopicId": 135,
+      "title": "V3: третья форма, а не вторая",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая деталь формулы — третья форма глагола. Мы её уже разбирали в теме «Формы глагола», поэтому заново всё пересказывать не будем: освежим главное и посмотрим, чем именно она опасна **здесь**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Напоминание в одну строку: у английского глагола три формы, и третья — та самая, которая сама по себе не живёт. Она всегда стоит с помощником: **have gone, is broken, was written**. Мы с ней уже работали, когда разбирали страдательный залог."
+        },
+        {
+          "type": "heading",
+          "text": "Правильные и неправильные — где брать третью форму"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Тип глагола",
+            "Как получить V3",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "правильный",
+              "добавить `-ed`, форма совпадает со второй",
+              "**use → used → used**"
+            ],
+            [
+              "правильный",
+              "то же самое",
+              "**clean → cleaned → cleaned**"
+            ],
+            [
+              "неправильный",
+              "взять третью колонку из колоды",
+              "**go → went → gone**"
+            ],
+            [
+              "неправильный",
+              "третья колонка",
+              "**do → did → done**"
+            ],
+            [
+              "неправильный",
+              "третья колонка",
+              "**be → was → been**"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "С правильными глаголами работы нет вообще: вторая и третья формы у них одинаковые, а обе делаются окончанием `-ed`. Все сложности живут в неправильных — и ровно там прячется главная ошибка всей темы."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I have went to the bank** ✗ → **I have gone to the bank** ✓. Человек берёт **вторую** полку вместо третьей — и это не случайность. Всю тему Past Simple мы гоняли именно вторые формы (**went**, **took**, **saw**), они впечатались в память как «прошедшее». А перфекту нужна третья, и никакая другая."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Совет",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вторая форма умеет стоять в предложении одна, третья — нет. **I went** ✓ — законченная фраза, **I gone** ✗ — обрубок. Значит, после `have`/`has` ставится ровно та форма, которая сама по себе звучит неполно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Свежая пачка глаголов — смотрим на третью колонку"
+        },
+        {
+          "type": "paragraph",
+          "text": "Глаголы, которые мы недавно просили выучить, вы уже знаете. Теперь полезно посмотреть на них под новым углом — глазами перфекта, то есть по третьей колонке. Разложим их на две кучки."
+        },
+        {
+          "type": "paragraph",
+          "text": "У большинства **вторая и третья формы совпадают**, то есть в перфекте они выглядят ровно так же, как в рассказе о прошлом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**sweep → swept → swept**, **lend → lent → lent**, **feed → fed → fed**, **bend → bent → bent**",
+            "**dig → dug → dug**, **deal → dealt → dealt**, **lay → laid → laid**",
+            "**cost → cost → cost**, **split → split → split**, **burst → burst → burst** — эти вообще не меняются"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И только у меньшинства третья форма своя, отдельная — вот на них в перфекте и надо смотреть внимательно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**sink → sank → sunk**, **slide → slid → slid**, **lie → lay → lain**",
+            "**forgive → forgave → forgiven**, **mistake → mistook → mistaken**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Посмотрите на пропорцию — она обнадёживает. Слово «неправильный» звучит страшно, но у большей части этих глаголов третья форма просто повторяет вторую, а у некоторых все три формы вообще одинаковы. Реально запутаться можно всего в пяти."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "После `have/has` ставится **третья** форма глагола. У правильных глаголов она совпадает со второй и делается окончанием `-ed` (**use → used → used**), у неправильных берётся из третьей колонки (**go → went → gone**, **do → did → done**). Главная ошибка темы — взять вторую форму вместо третьей: **I have went** ✗ → **I have gone** ✓. Проверка простая: вторая форма может стоять в предложении одна (**I went** ✓), а третья без помощника не живёт (**I gone** ✗) — именно её и требует перфект.",
+      "examples": [
+        {
+          "ru": "Я воспользовался твоим советом.",
+          "en": "I have used your advice."
+        },
+        {
+          "ru": "Ира покормила соседского кота.",
+          "en": "Ira has fed the neighbour's cat."
+        },
+        {
+          "ru": "Они одолжили нам машину.",
+          "en": "They have lent us their car."
+        },
+        {
+          "ru": "Настя простила его.",
+          "en": "Nastya has forgiven him."
+        },
+        {
+          "ru": "Ремонт обошёлся нам дорого.",
+          "en": "The repair has cost us a lot."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, что глагол правильный и его третья форма делается через -ed?",
+        "Почему нельзя сказать I have went, если went — это тоже прошедшее?",
+        "Что значит «третья форма не живёт без помощника»?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 362,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 152,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 362,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 29,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 362,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 55,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 362,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 137,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 363,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 35,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 363,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 76,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 363,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 152,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 364,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 135,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 364,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 30,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 364,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 68,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 364,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 69,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "present_perfect_card363_ex1",
+      "cardId": 363,
+      "title": "Что спряталось за 's",
+      "userInstruction": "ИИ пришлёт три предложения с сокращением 's. Напишите для каждого, какое слово за ним спрятано — has или is.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "tenses",
@@ -465,18 +991,334 @@
       "transcription": "[ˈdɜːti]",
       "microtopicId": 134,
       "categoryId": "tenses"
+    },
+    {
+      "id": 611,
+      "word": "homework",
+      "translation": "домашнее задание",
+      "transcription": "[ˈhəʊmwɜːk]",
+      "microtopicId": 135,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 612,
+      "word": "room",
+      "translation": "комната, номер (в отеле)",
+      "transcription": "[ruːm]",
+      "microtopicId": 135,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 613,
+      "word": "to use",
+      "translation": "использовать, пользоваться",
+      "transcription": "[juːz]",
+      "microtopicId": 135,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 614,
+      "word": "to receive",
+      "translation": "получать, принимать",
+      "transcription": "[rɪˈsiːv]",
+      "microtopicId": 135,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 615,
+      "word": "everything",
+      "translation": "всё",
+      "transcription": "[ˈevriθɪŋ]",
+      "microtopicId": 135,
+      "categoryId": "tenses"
     }
   ],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 29,
+      "taskDescription": "впиши подходящего помощника.",
+      "rows": [
+        {
+          "hint": "my sister",
+          "answer": "has"
+        },
+        {
+          "hint": "the neighbours",
+          "answer": "have"
+        },
+        {
+          "hint": "it",
+          "answer": "has"
+        },
+        {
+          "hint": "Tom and I",
+          "answer": "have"
+        },
+        {
+          "hint": "the doctor",
+          "answer": "has"
+        }
+      ],
+      "explanation": "has ставится только с he, she, it и всем, что можно ими заменить: my sister — she, the doctor — he или she, it — it. Всё остальное, включая Tom and I (мы), берёт have."
+    },
+    {
+      "id": 30,
+      "taskDescription": "впиши третью форму глагола.",
+      "rows": [
+        {
+          "hint": "to wash",
+          "answer": "washed"
+        },
+        {
+          "hint": "to dig",
+          "answer": "dug"
+        },
+        {
+          "hint": "to open",
+          "answer": "opened"
+        },
+        {
+          "hint": "to forgive",
+          "answer": "forgiven"
+        },
+        {
+          "hint": "to break",
+          "answer": "broken"
+        },
+        {
+          "hint": "to sink",
+          "answer": "sunk"
+        }
+      ],
+      "explanation": "правильные глаголы получают -ed: wash → washed, open → opened. У неправильных берётся третья колонка: у dig она совпадает со второй (dug), а у break, forgive и sink отличается — broken, forgiven, sunk."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 152,
+      "statements": [
+        {
+          "en": "She's cleaned the kitchen.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They's finished the work.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We've received your parcel.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He've used my bike.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I've fed the cat.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "'ve — сокращение have, поэтому оно идёт с I, you, we, they; 's — сокращение has и идёт с he, she, it. They's и He've перепутаны местами: правильно They've finished и He's used."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 137,
+      "situationRu": "Ситуация: Том сообщает, что выкопал яму в саду.",
+      "correctSentence": "Tom has dug a hole in the garden.",
+      "words": [
+        "Tom",
+        "has",
+        "dug",
+        "a hole",
+        "in the garden"
+      ],
+      "distractors": [
+        "have",
+        "digged",
+        "digs",
+        "is"
+      ],
+      "explanation": "Tom — это he, поэтому помощник has. Третья форма глагола to dig — dug: формы digged не существует вовсе, а digs и is сюда не подходят."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 152,
+      "choiceType": "CHOICE",
+      "prompt": "The children ___ their homework.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "have finishes",
+          "isCorrect": false
+        },
+        {
+          "text": "has finished",
+          "isCorrect": false
+        },
+        {
+          "text": "have finished",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "children — множественное число, поэтому помощник have. Третья форма глагола при этом не меняется: have finished."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 69,
+      "items": [
+        {
+          "sentence": "Katya has ___ the yard.",
+          "contextRu": "",
+          "answer": "swept",
+          "alternatives": []
+        },
+        {
+          "sentence": "I have ___ the neighbour's dog.",
+          "contextRu": "",
+          "answer": "fed",
+          "alternatives": []
+        },
+        {
+          "sentence": "Mark has ___ me his car.",
+          "contextRu": "",
+          "answer": "lent",
+          "alternatives": []
+        }
+      ],
+      "explanation": "у всех трёх глаголов третья форма совпадает со второй: sweep → swept → swept, feed → fed → fed, lend → lent → lent. После have и has ставится именно она, а не базовая форма.",
+      "taskDescription": "Впиши глагол в подходящее по смыслу предложение в третьей форме.",
+      "wordBank": [
+        "одолжил",
+        "подмёл",
+        "покормил"
+      ]
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [],
-  "error_correction_exercises": [],
-  "construction_meaning_exercises": [],
-  "transformation_exercises": [],
-  "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "error_correction_exercises": [
+    {
+      "id": 135,
+      "wrongSentence": "Lucy has took my umbrella.",
+      "options": [
+        {
+          "text": "Lucy has take my umbrella.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lucy has taken my umbrella.",
+          "isCorrect": true
+        },
+        {
+          "text": "Lucy have taken my umbrella.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "took — вторая форма, она нужна для рассказа о прошлом: Lucy took my umbrella yesterday. После has ставится третья форма — taken."
+    }
+  ],
+  "construction_meaning_exercises": [
+    {
+      "id": 35,
+      "construction": "Tom's opened the window.",
+      "options": [
+        {
+          "text": "Том открыл окно.",
+          "isCorrect": true
+        },
+        {
+          "text": "Том открывает окно.",
+          "isCorrect": false
+        },
+        {
+          "text": "Тому нужно открыть окно.",
+          "isCorrect": false
+        },
+        {
+          "text": "Окно Тома.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после 's стоит третья форма opened, значит это сокращение от has, а не от is: окно уже открыто. Если бы там было Tom's opening the window, речь шла бы о том, что происходит прямо сейчас."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 55,
+      "taskDescription": "перепиши предложение про he.",
+      "items": [
+        {
+          "original": "They have washed the car.",
+          "transformed": "He has washed the car."
+        },
+        {
+          "original": "We have cleaned the flat.",
+          "transformed": "He has cleaned the flat."
+        },
+        {
+          "original": "I have received the message.",
+          "transformed": "He has received the message."
+        }
+      ],
+      "explanation": "меняется только помощник: have превращается в has, потому что he — третье лицо. Сам глагол остаётся в третьей форме и никак не реагирует на смену подлежащего."
+    }
+  ],
+  "categorization_exercises": [
+    {
+      "id": 76,
+      "taskDescription": "распредели предложения по тому, какое слово спряталось за 's.",
+      "categories": [
+        {
+          "title": "'s = has",
+          "items": [
+            "She's booked the tickets.",
+            "He's swept the floor.",
+            "It's rained again."
+          ]
+        },
+        {
+          "title": "'s = is",
+          "items": [
+            "She's at work.",
+            "He's watching a film.",
+            "It's very cold today."
+          ]
+        }
+      ],
+      "explanation": "смотри на слово сразу после 's: третья форма глагола (booked, swept, rained) означает has, а место, форма на -ing и прилагательное (at work, watching, cold) — is."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 68,
+      "groupDescription": "Три из четырёх — третьи формы, одна лишняя",
+      "items": [
+        {
+          "text": "lent",
+          "isOdd": false
+        },
+        {
+          "text": "took",
+          "isOdd": true
+        },
+        {
+          "text": "dealt",
+          "isOdd": false
+        },
+        {
+          "text": "mistaken",
+          "isOdd": false
+        }
+      ],
+      "explanation": "lent, dealt и mistaken — третьи формы, их можно поставить после have или has. А took — вторая форма глагола to take, третья у него taken."
+    }
+  ]
 }
