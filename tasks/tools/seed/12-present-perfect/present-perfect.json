@@ -32,6 +32,13 @@
       "title": "Form · Форма: have/has + V3",
       "order": 2,
       "searchKeywords": "have или has, третья форма глагола, сокращение с апострофом, has это то же самое s, я имею не переводится"
+    },
+    {
+      "id": 136,
+      "topicId": 22,
+      "title": "Negative & Question · Отрицание и вопрос",
+      "order": 3,
+      "searchKeywords": "не сделал, разве не сделал, краткий ответ yes i have, лишнее don't, спросить сделал ли"
     }
   ],
   "grammar_cards": [
@@ -863,6 +870,380 @@
         "Почему нельзя сказать I have went, если went — это тоже прошедшее?",
         "Что значит «третья форма не живёт без помощника»?"
       ]
+    },
+    {
+      "id": 365,
+      "microtopicId": 136,
+      "title": "Отрицание: haven't и hasn't",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Отрицание в этом времени собирается почти без работы: новых слов не появляется вообще. Обе детали у нас уже есть — помощник `have`/`has` и третья форма глагола. Отрицание только вставляет между ними `not`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/has + not + V3 — отрицание вешается на помощника, а не на смысловой глагол."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В живой речи `not` сливается с помощником почти всегда: `haven't` и `hasn't`. Полные `have not` и `has not` остаются для официального письма или для нажима («я этого всё-таки не делал»)."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кто",
+            "Отрицание"
+          ],
+          "rows": [
+            [
+              "I / you / we / they",
+              "I haven't charged my phone"
+            ],
+            [
+              "he / she / it",
+              "Nick hasn't charged his phone"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Выбор между `haven't` и `hasn't` — ровно тот же, что в утверждении: у **he, she, it** стоит `hasn't`, у всех остальных `haven't`. Третья форма при этом не шевелится: она одинаковая и в утверждении, и в отрицании."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I don't have finished** ✗ → **I haven't finished** ✓. Самая частая ошибка этой микротемы, и она не случайная."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда в голове берётся лишнее do"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина в русском. У нас отрицание одно на все случаи жизни — частица «не», и она просто встаёт перед глаголом: «я не зарядил», «курьер не доставил». Русскому вообще не приходится выбирать помощника, поэтому в английском он тянет тот, который выучил первым, — `do`/`does`."
+        },
+        {
+          "type": "paragraph",
+          "text": "А в английском у помощника есть чёткое правило работы, и мы его уже видели в теме «Служебные глаголы»: `do` вызывают **только тогда, когда своего помощника в предложении нет**. Сравните два ряда:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I work here** — помощника нет, для отрицания приходится звать `do`: **I don't work here.**",
+            "**I have finished** — помощник уже стоит, звать никого не надо: **I haven't finished.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило в одну строку: если в предложении уже есть `have` или `has` — второй помощник ему не нужен."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The courier hasn't deliver the parcel** ✗ → **The courier hasn't delivered the parcel** ✓. Здесь наоборот: помощника взяли верного, а третью форму потеряли. Подпитывает ошибку опять Present Simple — там после `doesn't` глагол как раз стоит голым (**he doesn't work**), и рука по инерции делает то же самое. Запомнить проще всего парой: после `doesn't` — базовая форма, после `hasn't` — третья."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что сообщает такое отрицание"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание в перфекте говорит не «этого не случилось когда-то в прошлом», а «этого до сих пор нет в сегодняшнем положении дел». Смысл всегда упирается в «сейчас»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I haven't charged my phone.** — он сядет через час, вот в чём проблема.",
+            "**They haven't repaired the lift.** — лифт не работает прямо сейчас, на восьмой этаж придётся пешком.",
+            "**Lena hasn't seen my message.** — она до сих пор не в курсе, ждать ответа бессмысленно."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка та же, что и в утверждении: «что из-за этого сейчас?». Есть внятный ответ — отрицание собирается в этом времени."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Hasn't delivered` и `didn't deliver` — совсем не одно и то же, хотя по-русски оба скажутся как «не доставил». **The courier hasn't delivered the parcel** = посылки у меня нет на руках сейчас. **The courier didn't deliver the parcel on Friday** = закрытая история про пятницу, и сегодня она ничего не сообщает. Полное разведение этих двух времён — отдельная тема сразу за этой, здесь достаточно чувствовать разницу."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Отрицание вешается на помощника: `have`/`has` + `not` + третья форма, в речи почти всегда `haven't` и `hasn't` (у **he, she, it** — `hasn't`). Главная ошибка — притащить `do`: **I don't have finished** ✗ → **I haven't finished** ✓, потому что `do` вызывают только там, где своего помощника нет, а здесь он уже есть. Вторая ошибка — потерять третью форму: **hasn't deliver** ✗ → **hasn't delivered** ✓ (после `doesn't` глагол голый, после `hasn't` — третья форма). По смыслу такое отрицание значит «этого до сих пор нет сейчас»: **They haven't repaired the lift** = лифт не работает.",
+      "examples": [
+        {
+          "ru": "Я не зарядил телефон.",
+          "en": "I haven't charged my phone."
+        },
+        {
+          "ru": "Курьер не доставил посылку.",
+          "en": "The courier hasn't delivered the parcel."
+        },
+        {
+          "ru": "Они не отремонтировали лифт.",
+          "en": "They haven't repaired the lift."
+        },
+        {
+          "ru": "Лена не видела моё сообщение.",
+          "en": "Lena hasn't seen my message."
+        },
+        {
+          "ru": "Мы ещё не решили.",
+          "en": "We haven't decided."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I don't have finished, если в других временах отрицание делает don't?",
+        "Чем hasn't delivered отличается от didn't deliver?",
+        "Когда стоит говорить полное have not вместо haven't?"
+      ]
+    },
+    {
+      "id": 366,
+      "microtopicId": 136,
+      "title": "Вопрос: Have you finished? и краткие ответы",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В вопросе новых деталей тоже нет — меняется только порядок слов. Помощник прыгает вперёд подлежащего, и на этом вся работа заканчивается."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/Has + подлежащее + V3 + …?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Механизм нам знаком: ровно так же ведут себя `to be` и модальные глаголы — **Are you ready?**, **Can you help me?**. Английский вопрос делает не интонация, как в русском («Ты зарядил телефон?»), а перестановка: служебное слово встаёт на первое место."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Have you charged your phone?**",
+            "**Has the courier delivered the parcel?**",
+            "**Has Emma seen my message?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Остальные слова остаются там же, где стояли в утверждении. Двигаем только помощника."
+        },
+        {
+          "type": "heading",
+          "text": "О чём вообще спрашивают таким вопросом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Форму собрать легко, но куда важнее понять, что человек этим вопросом хочет узнать. А хочет он ровно то же, о чём говорило утверждение: не «когда это случилось», а **как обстоят дела сейчас**. У вопроса те же две работы, что у самого времени:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Have you charged your phone?** — спрашивают не про факт зарядки, а про то, можно ли уже выходить из дома.",
+            "**Has the courier delivered the parcel?** — интересует не курьер, а лежит ли посылка у вас на руках.",
+            "**Have you tried the new café?** — есть ли такой пункт в вашем списке; когда именно вы там были, спрашивающего не волнует."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский задаёт все три вопроса прошедшим временем — «Ты зарядил телефон?», «Курьер доставил посылку?» — и из-за этого кажется, что речь о прошлом. Но посмотрите, чем на такой вопрос отвечают: не датой, а состоянием. «Да, заряжен», «нет, пока нет», «нет, не заходили ещё» — ответ всегда про сегодняшний день."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Совет",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Проверка та же, что и в утверждении, — «что из-за этого сейчас?». Если вы спрашиваете потому, что от ответа зависит сегодняшнее положение дел (выходить или ставить телефон на зарядку, ждать посылку или звонить в поддержку), — это ваше время."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Do you have finished?** ✗ → **Have you finished?** ✓, и рядом **Have you finish?** ✗ → **Have you finished?** ✓. Это те же две ошибки, что в отрицании, только в вопросе: лишний `do` от привычки Present Simple и потерянная третья форма. Помощник в предложении уже есть, и после него всегда стоит третья форма — что в утверждении, что в отрицании, что в вопросе."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Краткие ответы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Yes, I have.** / **No, I haven't.**",
+            "**Yes, she has.** / **No, she hasn't.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В кратком ответе повторяется **только помощник**, а третья форма выбрасывается совсем. Для русского это неочевидно: мы отвечаем либо коротким «да», либо повторяем сам глагол — «Зарядил? — Зарядил». Отсюда тянет сказать **Yes, I charged** ✗. Полный вариант **Yes, I have charged it** ошибкой не будет, но в живом разговоре звучит тяжело — так отвечают, когда хотят надавить на факт."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Have you seen my charger? — Yes, I did** ✗ → **Yes, I have** ✓. Помощник в ответе обязан быть тем же, что в вопросе: спросили через `have` — отвечаем через `have`. Ответ через `did` переносит разговор в закрытое прошлое, а вопрос был про «как сейчас»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос с вопросительным словом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопросительное слово встаёт перед помощником, дальше всё как было:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What have you done?**",
+            "**Where has Nick gone?**",
+            "**Why has Megan deleted the photos?**",
+            "**How long have you known Sam?**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**When have you charged it?** ✗ → **When did you charge it?** ✓. Слово `when` спрашивает именно про момент — а это время про моменты не говорит вообще, поэтому вместе они не сходятся. Остальные вопросительные слова (**what**, **where**, **why**, **who**) работают с ним спокойно: их интересуют не даты, а обстоятельства."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Последний пример — про длительность, и у него есть своё продолжение: **for** и **since**. Разберём их в микротеме про то, сколько это длится, а пока достаточно узнавать сам вопрос **How long have you…?**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Спросить можно и с отрицанием — тогда вопрос звучит с удивлением, спрашивающий ожидал обратного:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Haven't you charged your phone?**",
+            "**Hasn't the courier delivered it?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Собирается он просто: краткая форма `haven't`/`hasn't` целиком встаёт вперёд, как обычный помощник. Русский делает то же самое словом «разве»: «Разве ты не зарядил телефон?»"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отвечать на такой вопрос по-русски — «Да, не зарядил». В английском `Yes` всегда значит «сделал», а `No` — «не сделал», и от формы вопроса это не зависит вообще. **Hasn't the courier delivered it? — No, he hasn't.** ✓ (= не доставил). Скажете здесь `Yes` — собеседник поймёт, что посылка уже у вас."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В живой речи такой вопрос часто договаривают словом `yet` — **Haven't you charged it yet?** Разбор этого словечка и его соседей ждёт в микротеме про маркеры **already**, **just** и **yet**; пока достаточно узнавать его в конце вопроса."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Вопрос делается перестановкой: помощник встаёт перед подлежащим — `Have/Has` + подлежащее + третья форма (**Has the courier delivered the parcel?**). Ошибки те же, что в отрицании: лишний `do` (**Do you have finished?** ✗) и потерянная третья форма (**Have you finish?** ✗) — верно только **Have you finished?** ✓. В кратком ответе повторяется один помощник, без третьей формы: **Yes, I have** / **No, she hasn't** — а **Yes, I did** на такой вопрос не отвечают. Вопросительное слово стоит перед помощником (**Where has Nick gone?**), а отрицательный вопрос (**Haven't you charged your phone?**) звучит с удивлением, и `Yes` в ответе на него всё равно значит «сделал».",
+      "examples": [
+        {
+          "ru": "Ты зарядил телефон?",
+          "en": "Have you charged your phone?"
+        },
+        {
+          "ru": "Курьер доставил посылку?",
+          "en": "Has the courier delivered the parcel?"
+        },
+        {
+          "ru": "— Ты видел моё зарядное? — Да.",
+          "en": "— Have you seen my charger? — Yes, I have."
+        },
+        {
+          "ru": "Куда ушёл Ник?",
+          "en": "Where has Nick gone?"
+        },
+        {
+          "ru": "Разве ты не зарядил телефон?",
+          "en": "Haven't you charged your phone?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в кратком ответе нельзя повторить сам глагол — Yes, I charged?",
+        "Что меняется в смысле, если ответить Yes, I did вместо Yes, I have?",
+        "Почему на вопрос «Разве ты не зарядил?» нельзя ответить Yes, если не зарядил?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -931,6 +1312,60 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 69,
       "orderInCard": 3
+    },
+    {
+      "cardId": 365,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 153,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 365,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 77,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 365,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 56,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 365,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 153,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 366,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 173,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 366,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 138,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 366,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 136,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 366,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 42,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 366,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 70,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -939,6 +1374,22 @@
       "cardId": 363,
       "title": "Что спряталось за 's",
       "userInstruction": "ИИ пришлёт три предложения с сокращением 's. Напишите для каждого, какое слово за ним спрятано — has или is.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_perfect_card365_ex1",
+      "cardId": 365,
+      "title": "Сделай отрицательным",
+      "userInstruction": "ИИ пришлёт английское предложение. Перепишите его так, чтобы оно стало отрицательным.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_perfect_card366_ex1",
+      "cardId": 366,
+      "title": "Спроси и ответь коротко",
+      "userInstruction": "ИИ пришлёт английское утверждение. Задайте по нему вопрос и добавьте краткий отрицательный ответ.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -1030,6 +1481,46 @@
       "translation": "всё",
       "transcription": "[ˈevriθɪŋ]",
       "microtopicId": 135,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 616,
+      "word": "to charge",
+      "translation": "заряжать",
+      "transcription": "[tʃɑːdʒ]",
+      "microtopicId": 136,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 617,
+      "word": "to deliver",
+      "translation": "доставлять",
+      "transcription": "[dɪˈlɪvə]",
+      "microtopicId": 136,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 618,
+      "word": "to repair",
+      "translation": "ремонтировать, починить",
+      "transcription": "[rɪˈpeə]",
+      "microtopicId": 136,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 619,
+      "word": "parcel",
+      "translation": "посылка",
+      "transcription": "[ˈpɑːsl]",
+      "microtopicId": 136,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 620,
+      "word": "battery",
+      "translation": "батарея, аккумулятор",
+      "transcription": "[ˈbætəri]",
+      "microtopicId": 136,
       "categoryId": "tenses"
     }
   ],
@@ -1124,6 +1615,37 @@
         }
       ],
       "explanation": "'ve — сокращение have, поэтому оно идёт с I, you, we, they; 's — сокращение has и идёт с he, she, it. They's и He've перепутаны местами: правильно They've finished и He's used."
+    },
+    {
+      "id": 153,
+      "statements": [
+        {
+          "en": "Megan hasn't opened the parcel.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I don't have washed the dishes.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They haven't repaired the road.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Jake hasn't charge the battery.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We haven't received the bill.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении лишний помощник do: правильно I haven't washed the dishes. В четвёртом потеряна третья форма: правильно Jake hasn't charged the battery."
     }
   ],
   "word_arrangement_exercises": [
@@ -1145,6 +1667,23 @@
         "is"
       ],
       "explanation": "Tom — это he, поэтому помощник has. Третья форма глагола to dig — dug: формы digged не существует вовсе, а digs и is сюда не подходят."
+    },
+    {
+      "id": 138,
+      "situationRu": "Ситуация: Соня пришла в сервис и спрашивает, починили ли её ноутбук.",
+      "correctSentence": "Have you repaired my laptop?",
+      "words": [
+        "Have",
+        "you",
+        "repaired",
+        "my laptop"
+      ],
+      "distractors": [
+        "Do",
+        "Has",
+        "repair"
+      ],
+      "explanation": "вопрос начинается с помощника: you берёт Have, а не Has. После помощника ставится третья форма repaired, а не голая форма repair; do в этом времени не нужен вовсе."
     }
   ],
   "multiple_choice_exercises": [
@@ -1168,6 +1707,48 @@
         }
       ],
       "explanation": "children — множественное число, поэтому помощник have. Третья форма глагола при этом не меняется: have finished."
+    },
+    {
+      "id": 153,
+      "choiceType": "CHOICE",
+      "prompt": "Sonya ___ the new battery.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "hasn't charged",
+          "isCorrect": true
+        },
+        {
+          "text": "doesn't have charged",
+          "isCorrect": false
+        },
+        {
+          "text": "hasn't charge",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Sonya — это she, поэтому помощник hasn't. После него глагол стоит в третьей форме: charged. Помощник do здесь не нужен вовсе — have уже есть в предложении."
+    },
+    {
+      "id": 173,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Твои родители уже вернулись из Вены?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Do your parents have returned from Vienna?",
+          "isCorrect": false
+        },
+        {
+          "text": "Have your parents returned from Vienna?",
+          "isCorrect": true
+        },
+        {
+          "text": "Has your parents returned from Vienna?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в вопросе помощник встаёт перед подлежащим, а do звать не нужно — have уже есть. Your parents — это they, поэтому помощник have, а не has."
     }
   ],
   "text_input_exercises": [
@@ -1200,9 +1781,63 @@
         "подмёл",
         "покормил"
       ]
+    },
+    {
+      "id": 70,
+      "items": [
+        {
+          "sentence": "___ your neighbours repaired the fence?",
+          "contextRu": "",
+          "answer": "Have",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ Lily delivered the documents?",
+          "contextRu": "",
+          "answer": "Has",
+          "alternatives": []
+        },
+        {
+          "sentence": "Why ___ Ben deleted the photos?",
+          "contextRu": "",
+          "answer": "has",
+          "alternatives": []
+        }
+      ],
+      "explanation": "помощник выбирается по подлежащему: your neighbours — это they, поэтому Have, а Lily и Ben — has. В третьем предложении помощник стоит сразу после вопросительного слова why.",
+      "taskDescription": "Впиши пропущенное слово так, чтобы получился вопрос."
     }
   ],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 42,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Has Oliver charged the camera battery?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "No, he hasn't.",
+          "isCorrect": true
+        },
+        {
+          "text": "No, he didn't.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, he hasn't charged.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в кратком ответе повторяется помощник из вопроса — спросили через has, значит и отвечаем has. Третья форма в ответ не идёт, а did перенесло бы разговор в закрытое прошлое."
+    }
+  ],
   "matching_exercises": [],
   "error_correction_exercises": [
     {
@@ -1223,6 +1858,25 @@
         }
       ],
       "explanation": "took — вторая форма, она нужна для рассказа о прошлом: Lucy took my umbrella yesterday. После has ставится третья форма — taken."
+    },
+    {
+      "id": 136,
+      "wrongSentence": "Do you have booked the tickets?",
+      "options": [
+        {
+          "text": "Have you book the tickets?",
+          "isCorrect": false
+        },
+        {
+          "text": "Has you booked the tickets?",
+          "isCorrect": false
+        },
+        {
+          "text": "Have you booked the tickets?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "помощник have уже есть в предложении, поэтому do лишний: вопрос начинается прямо с Have. Подлежащее you берёт Have, а не Has, и после помощника стоит третья форма booked."
     }
   ],
   "construction_meaning_exercises": [
@@ -1269,6 +1923,25 @@
         }
       ],
       "explanation": "меняется только помощник: have превращается в has, потому что he — третье лицо. Сам глагол остаётся в третьей форме и никак не реагирует на смену подлежащего."
+    },
+    {
+      "id": 56,
+      "taskDescription": "сделай каждое предложение отрицательным.",
+      "items": [
+        {
+          "original": "The shop has delivered my order.",
+          "transformed": "The shop hasn't delivered my order."
+        },
+        {
+          "original": "Vitya has charged the camera.",
+          "transformed": "Vitya hasn't charged the camera."
+        },
+        {
+          "original": "We have repaired the roof.",
+          "transformed": "We haven't repaired the roof."
+        }
+      ],
+      "explanation": "not цепляется к помощнику и сливается с ним: have → haven't, has → hasn't. Третья форма глагола остаётся такой же, как была: delivered, charged, repaired."
     }
   ],
   "categorization_exercises": [
@@ -1294,6 +1967,29 @@
         }
       ],
       "explanation": "смотри на слово сразу после 's: третья форма глагола (booked, swept, rained) означает has, а место, форма на -ing и прилагательное (at work, watching, cold) — is."
+    },
+    {
+      "id": 77,
+      "taskDescription": "распредели подлежащие по нужному отрицанию.",
+      "categories": [
+        {
+          "title": "haven't",
+          "items": [
+            "my parents",
+            "Emma and I",
+            "our neighbours"
+          ]
+        },
+        {
+          "title": "hasn't",
+          "items": [
+            "the courier",
+            "the lift",
+            "Igor's laptop"
+          ]
+        }
+      ],
+      "explanation": "hasn't идёт только с тем, что можно заменить на he, she или it: the courier, the lift, Igor's laptop. Всё, что заменяется на we или they, берёт haven't — включая Emma and I, то есть «мы»."
     }
   ],
   "find_the_odd_exercises": [
