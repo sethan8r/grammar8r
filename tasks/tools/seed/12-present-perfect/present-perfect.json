@@ -46,6 +46,13 @@
       "title": "Result Now · Результат виден сейчас",
       "order": 4,
       "searchKeywords": "have eaten или ate, зачем говорить have done, сказать что уже сделал, итог важнее момента"
+    },
+    {
+      "id": 138,
+      "topicId": 22,
+      "title": "Life Experience · Опыт за всю жизнь",
+      "order": 5,
+      "searchKeywords": "have you ever или did you, никогда не делал, был ли когда-нибудь, сколько раз это было, ever и never куда ставить"
     }
   ],
   "grammar_cards": [
@@ -1631,6 +1638,414 @@
         "Как понять, что моя фраза звучит как новость, а не как рассказ?",
         "Что не так с предложением I've started last Monday?"
       ]
+    },
+    {
+      "id": 370,
+      "microtopicId": 138,
+      "title": "Опыт: было хоть раз в жизни",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Прошлую микротему мы закрыли на следе: событие называют, а сообщают про его отпечаток в сегодняшнем дне. Вторая работа этого времени устроена иначе — она про **опыт**. Было ли что-то в вашей жизни вообще, хоть раз, неважно когда."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сцена. Лили знакомится с Тёмой на конференции и спрашивает: **Have you ever been to Japan?** Она не выясняет, в каком году он туда летал, с кем и почём были билеты. Она проверяет ровно одну вещь: есть такая строчка в его биографии или нет."
+        },
+        {
+          "type": "heading",
+          "text": "Фильмография вместо фотоальбома"
+        },
+        {
+          "type": "paragraph",
+          "text": "Держите в голове список ролей у актёра: снимался там, там и там. Дат в таком списке нет — важно, что человек это делал. Ровно так работает слово `ever` в вопросе: `have/has + ever + V3` спрашивает «есть ли это у тебя в фильмографии?»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Have you ever cooked Italian food?** — доводилось ли вообще",
+            "**Oliver has worked in three countries.** — вот его послужной список",
+            "**Megan has climbed a volcano.** — было в её жизни и такое"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметьте, чего в этих фразах нет: ни года, ни месяца, ни «в прошлом сентябре». Как только появится дата, разговор перестанет быть про фильмографию — но об этом в третьей карточке."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В глаголе `to climb` буква b немая — читается [[klaɪm]]. Такая же немая b прячется в `thumb` и `comb`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «Ты когда-нибудь был в Италии?» толкает руку к прошедшему — **Did you ever go to Italy?** ✗ и **Did you ever be in Italy?** ✗ → **Have you ever been to Italy?** ✓. Вопрос про опыт задают только этим временем: `did` спрашивает про конкретный случай, а случай тут никого не интересует."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда эта ошибка в голове русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском для опыта и для случая — одна и та же форма. «Ты был в Италии?» звучит одинаково и когда мы знакомимся, и когда выясняем, съездил ли человек в отпуск, который планировал. Разницу мы дотягиваем словом «когда-нибудь» или обстановкой, а сам глагол не меняется вообще."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский эту работу отдал глаголу. Поэтому русскоязычный, переводя фразу пословно, тянет `did` — он привык, что «был» это прошлое, и не замечает, что уже выбрал не тот смысл. Для англичанина **Did you go to Italy?** звучит как «ну что, съездил-таки?» — вопрос про известную обоим поездку, а не про жизнь целиком."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка в один вопрос: важна ли дата"
+        },
+        {
+          "type": "paragraph",
+          "text": "Инструмент простой, работает на ходу:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Спросите себя: «мне важно, КОГДА это было?»",
+            "Не важно, важен сам факт «было или не было» — это опыт, берём наше время.",
+            "Важно, речь про конкретный случай с известным моментом — это уже другое время."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Прогоните пару фраз, и разница станет осязаемой. «Ты когда-нибудь ломал руку?» — дата не важна, спрашиваем про жизнь → **Have you ever broken your arm?** «Ты вчера дозвонился до врача?» — важен вчерашний звонок, конкретный случай → это про момент, и время тут другое."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Опыт не обязан быть экзотикой. Мы говорим не только про вулканы и другие страны (`country`) — сюда же попадает всё бытовое: **I've had three jobs in my life.** — три работы за жизнь (`life`), **Grisha has driven a truck.** — доводилось водить грузовик, **Have you ever lost a phone?** — терял ли когда-нибудь телефон. Любая строчка биографии, от великой до скучной."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В вопросе про страны почти всегда всплывает `been to` — **Have you ever been to Prague?** значит «бывал ли и вернулся». У этой формы есть родная сестра `gone to` с совсем другим смыслом, и их постоянно путают — разведём их в микротеме «Был и вернулся ↔ уехал», следующей за этой."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Вторая работа этого времени — **опыт за всю жизнь**: было ли что-то хоть раз, неважно когда. Формула вопроса — `have/has + ever + V3`: **Have you ever been to Japan?** = «есть ли это в твоей фильмографии?» Дат в таких фразах нет — они тут лишние. Русский для опыта и для конкретного случая берёт одну форму («ты был в Италии?»), поэтому рука тянет `did`: **Did you ever go to Italy?** ✗ → **Have you ever been to Italy?** ✓. Проверка: «мне важно, когда это было?» Не важно, важен сам факт — это наше время. Опыт при этом не обязан быть экзотикой: три работы за жизнь и потерянный телефон — такие же строчки биографии.",
+      "examples": [
+        {
+          "ru": "Ты когда-нибудь был в Японии?",
+          "en": "Have you ever been to Japan?"
+        },
+        {
+          "ru": "Оливер работал в трёх странах.",
+          "en": "Oliver has worked in three countries."
+        },
+        {
+          "ru": "Меган поднималась на вулкан.",
+          "en": "Megan has climbed a volcano."
+        },
+        {
+          "ru": "Ты когда-нибудь готовил итальянскую еду?",
+          "en": "Have you ever cooked Italian food?"
+        },
+        {
+          "ru": "У меня в жизни было три работы.",
+          "en": "I've had three jobs in my life."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему про опыт нельзя спросить через did?",
+        "Как понять, что мне важен сам факт, а не момент?",
+        "Обязательно ли опыт должен быть чем-то необычным?"
+      ]
+    },
+    {
+      "id": 371,
+      "microtopicId": 138,
+      "title": "ever и never: место в предложении и одно отрицание",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "С самим смыслом разобрались — теперь про два слова, без которых опыт не обсуждают: `ever` и `never`. Оба короткие, оба привычные на слух, и оба у русскоязычного встают не туда."
+        },
+        {
+          "type": "heading",
+          "text": "У каждого своя территория"
+        },
+        {
+          "type": "paragraph",
+          "text": "`ever` — «когда-нибудь», живёт в вопросе. `never` — «никогда», живёт в утверждении и само по себе уже отрицание."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Где стоит в предложении",
+            "Где встречается",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "ever",
+              "между подлежащим и третьей формой",
+              "вопрос",
+              "**Have you ever driven a bus?**"
+            ],
+            [
+              "never",
+              "между have/has и третьей формой",
+              "утверждение",
+              "**Ben has never driven a bus.**"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Место у обоих одно и то же — прямо **перед третьей формой** глагола. В утверждении это сразу за помощником: **has** — `never` — **flown**. В вопросе помощник ушёл вперёд подлежащего, поэтому наречие встаёт за подлежащим — **Have you ever flown?** — но перед третьей формой оно как стояло, так и стоит."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «никогда» гуляет по фразе свободно: «я никогда не летал», «никогда я такого не видел», «не видел я такого никогда» — все три звучат нормально. Английское прибито к месту: **Never I have flown** ✗ и **I have flown never** ✗ → **I have never flown** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одно отрицание на предложение"
+        },
+        {
+          "type": "paragraph",
+          "text": "А это главная ловушка карточки, и корень у неё чисто русский. По-русски мы говорим «я **никогда не** видел этот сериал» — два отрицания подряд, и без второго фраза развалится: «я никогда видел» звучит безграмотно."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский устроен наоборот: отрицание в предложении **одно**. Слово `never` его уже несёт, поэтому помощнику отрицаться нечем."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I haven't never seen it** ✗ — рука по привычке поставила «не» вторым этажом. Правильных вариантов два, и выбирают между ними по интонации:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've never seen it.** — «никогда в жизни не видел», сильнее, это про биографию",
+            "**I haven't seen it.** — «не видел», спокойная констатация"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как ответить коротко"
+        },
+        {
+          "type": "paragraph",
+          "text": "В живом разговоре целое предложение обычно не нужно — хватает одного слова:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "— **Have you ever tried surfing?** — **No, never.**",
+            "— **Has Jake ever been to Lisbon?** — **Yes, he has.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вот и обещанный разбор оборота, который мы видели в теме «Сравнение прилагательных»: **It's the best film I've ever seen.** Дословно — «лучший фильм, который я когда-либо видел», то есть из всего, что есть в моей фильмографии, этот — лучший. Отсюда и `ever` в утверждении: оно тут не отрицает и не спрашивает, а очерчивает всю жизнь целиком. Работает с любой превосходной степенью: **the worst coffee I've ever drunk**, **the longest queue I've ever seen**."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`ever` — «когда-нибудь», стоит в вопросе; `never` — «никогда», стоит в утверждении. Место у обоих одинаковое — между помощником и третьей формой: **Have you ever driven a bus?** / **Ben has never driven a bus.** Русское «никогда» по фразе гуляет, английское — нет: **Never I have flown** ✗ → **I have never flown** ✓. Главная ловушка — двойное отрицание: по-русски «никогда **не** видел» обязательно, по-английски отрицание одно, поэтому **I haven't never seen it** ✗ → **I've never seen it** ✓ или **I haven't seen it** ✓. Коротко отвечают одним словом: **No, never.** / **Yes, he has.** Тем же `ever` собирается оборот **the best film I've ever seen**.",
+      "examples": [
+        {
+          "ru": "Я никогда не видел этот сериал.",
+          "en": "I've never seen this show."
+        },
+        {
+          "ru": "Оливер никогда не летал на самолёте.",
+          "en": "Oliver has never flown."
+        },
+        {
+          "ru": "Ты когда-нибудь терял паспорт?",
+          "en": "Have you ever lost your passport?"
+        },
+        {
+          "ru": "Это лучший фильм, который я когда-либо видел.",
+          "en": "It's the best film I've ever seen."
+        },
+        {
+          "ru": "— Ты когда-нибудь пробовал сёрфинг? — Нет, никогда.",
+          "en": "— Have you ever tried surfing? — No, never."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать haven't never, если по-русски «никогда не» это норма?",
+        "Когда лучше сказать I've never seen it, а когда I haven't seen it?",
+        "Что значит ever в обороте the best film I've ever seen?"
+      ]
+    },
+    {
+      "id": 372,
+      "microtopicId": 138,
+      "title": "Сколько раз: once, twice, three times",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Фильмография отвечает не только «было или не было». У строчки в ней бывает счётчик: сколько раз это уже случилось."
+        },
+        {
+          "type": "heading",
+          "text": "Считаем случаи"
+        },
+        {
+          "type": "paragraph",
+          "text": "Для одного и двух раз в английском есть отдельные слова, дальше идёт обычный счёт:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**once** — один раз",
+            "**twice** — два раза",
+            "**three times**, **four times**, **ten times** — три, четыре, десять раз"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Спрашивают об этом так: **How many times have you seen this musical?** — «сколько раз ты это смотрел?» Ответ ложится ровно в ту же форму: **I've seen it twice.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Two times** ✗ → **twice** ✓, **one time** ✗ → **once** ✓. Русский считает всё одинаково — «один раз, два раза, три раза», — поэтому рука собирает `two times` по образцу `three times`. Англичанин так не скажет: первые два числа держат свои особые слова, а `times` начинается только с трёх."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему счёт не ломает время"
+        },
+        {
+          "type": "paragraph",
+          "text": "Казалось бы, «дважды» — это уже почти дата: раз посчитали, значит, речь о конкретных случаях. Но нет. Количество — такая же строчка биографии, как и сам факт: **I've been to Prague twice** сообщает не про две поездки по отдельности, а про то, что в моей жизни Прага была, и была дважды. Никакого момента на линии времени тут не назвали."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "— **Have you ever tried surfing?** — **Yes, twice. It was amazing.**",
+            "**Sonya has run a marathon three times.**",
+            "**We've watched this film five times — it's that good.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Осторожно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "А вот дата фильмографию закрывает мгновенно. Как только в предложении появляется момент — `in 2019`, `last summer`, `on Friday` — фото уходит в альбом, и работает обычное прошедшее: **I've been to Prague in 2019** ✗ → **I went to Prague in 2019** ✓. Сравните две фразы: **I've been to Prague twice.** — про жизнь. **I went to Prague in 2019.** — про поездку. Полностью разведём эти два времени в теме, которая идёт сразу за этой."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как это выглядит в разговоре"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обычно обе фразы стоят рядом, и переход слышно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "— **Have you ever been to Rome?**",
+            "— **Yes, twice.**",
+            "— **When did you go?**",
+            "— **I went there in 2018 and last spring.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первые две реплики — фильмография, третья спрашивает про момент, и разговор сам переезжает в прошедшее. Ту же схему мы видели в микротеме «Результат виден сейчас»: новость объявляют одним временем, подробности рассказывают другим. Здесь всё то же самое, только вместо новости — строчка биографии."
+        }
+      ],
+      "theorySummary": "У опыта бывает счётчик: **once** (один раз), **twice** (два раза), дальше **three times**, **four times**. Спрашивают через **How many times have you…?** Ловушка счёта: **two times** ✗ → **twice** ✓, **one time** ✗ → **once** ✓ — русский считает всё одинаково, английский держит для первых двух особые слова. Количество время не ломает: **I've been to Prague twice** — это по-прежнему строчка биографии, а не момент. А вот дата ломает сразу: **I've been to Prague in 2019** ✗ → **I went to Prague in 2019** ✓. В разговоре это видно на переходе: — **Have you ever been to Rome?** — **Yes, twice.** — **When did you go?**",
+      "examples": [
+        {
+          "ru": "Я был в Праге дважды.",
+          "en": "I've been to Prague twice."
+        },
+        {
+          "ru": "Сколько раз ты смотрел этот мюзикл?",
+          "en": "How many times have you seen this musical?"
+        },
+        {
+          "ru": "Я летал на вертолёте один раз — это было потрясающе.",
+          "en": "I've flown in a helicopter once — it was amazing."
+        },
+        {
+          "ru": "Настя сдавала этот экзамен трижды.",
+          "en": "Nastya has taken this exam three times."
+        },
+        {
+          "ru": "Я ездил в Прагу в 2019 году.",
+          "en": "I went to Prague in 2019."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать two times вместо twice?",
+        "Почему количество не мешает, а дата мешает?",
+        "Как ответить, если такого опыта у меня не было совсем?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1813,6 +2228,60 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 137,
       "orderInCard": 3
+    },
+    {
+      "cardId": 370,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 175,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 370,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 37,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 370,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 140,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 371,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 155,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 371,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 57,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 371,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 69,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 372,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 44,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 372,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 138,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 372,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 72,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1847,6 +2316,22 @@
       "userInstruction": "ИИ пришлёт английское предложение. Напишите по-русски, что из-за него происходит прямо сейчас.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "present_perfect_card370_ex1",
+      "cardId": 370,
+      "title": "Спроси про опыт",
+      "userInstruction": "ИИ опишет ситуацию знакомства. Напишите по-английски вопрос о том, было ли это у человека когда-нибудь.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_perfect_card372_ex1",
+      "cardId": 372,
+      "title": "Ответь на вопрос об опыте",
+      "userInstruction": "ИИ задаст вопрос по-английски. Ответьте на него по-русски — своими словами, как ответили бы вживую.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -2016,6 +2501,46 @@
       "translation": "полка",
       "transcription": "[ʃelf]",
       "microtopicId": 137,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 626,
+      "word": "ever",
+      "translation": "когда-нибудь, когда-либо",
+      "transcription": "[ˈevə]",
+      "microtopicId": 138,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 627,
+      "word": "life",
+      "translation": "жизнь",
+      "transcription": "[laɪf]",
+      "microtopicId": 138,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 628,
+      "word": "country",
+      "translation": "страна",
+      "transcription": "[ˈkʌntri]",
+      "microtopicId": 138,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 629,
+      "word": "to climb",
+      "translation": "взбираться, забираться",
+      "transcription": "[klaɪm]",
+      "microtopicId": 138,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 630,
+      "word": "amazing",
+      "translation": "потрясающий, удивительный",
+      "transcription": "[əˈmeɪzɪŋ]",
+      "microtopicId": 138,
       "categoryId": "tenses"
     }
   ],
@@ -2229,6 +2754,26 @@
         "passing"
       ],
       "explanation": "новость объявляют без даты, поэтому yesterday сюда не идёт; подлежащее I берёт have, а не has. После помощника ставится третья форма passed, а не голая форма и не форма на -ing."
+    },
+    {
+      "id": 140,
+      "situationRu": "Ситуация: Коля знакомится с Юлей и спрашивает, была ли она когда-нибудь в Токио.",
+      "correctSentence": "Have you ever been to Tokyo?",
+      "words": [
+        "Have",
+        "you",
+        "ever",
+        "been",
+        "to",
+        "Tokyo"
+      ],
+      "distractors": [
+        "Did",
+        "go",
+        "was",
+        "gone"
+      ],
+      "explanation": "вопрос об опыте начинается с have, а после подлежащего идёт ever и третья форма been. Did и go сюда не годятся: они спрашивают про конкретную поездку, а не про жизнь целиком."
     }
   ],
   "multiple_choice_exercises": [
@@ -2357,6 +2902,48 @@
         }
       ],
       "explanation": "Denis — это he, поэтому помощник has, а глагол после него стоит в третьей форме: cleaned. Предложение сообщает про сегодняшнее состояние кухни, а не про момент уборки."
+    },
+    {
+      "id": 175,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Ты когда-нибудь пробовал корейскую еду?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Did you ever try Korean food?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you ever try Korean food?",
+          "isCorrect": false
+        },
+        {
+          "text": "Have you ever tried Korean food?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вопрос про опыт за всю жизнь задают через have + ever + третью форму. Вариант с did спрашивает про конкретный случай в прошлом, а с do — про привычку пробовать её регулярно."
+    },
+    {
+      "id": 155,
+      "choiceType": "CHOICE",
+      "prompt": "Tom ___ ridden a horse.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "has never",
+          "isCorrect": true
+        },
+        {
+          "text": "hasn't never",
+          "isCorrect": false
+        },
+        {
+          "text": "never has",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "отрицание в английском предложении одно, и его уже несёт never, поэтому hasn't рядом с ним стоять не может. Само never стоит между помощником и третьей формой, а не перед подлежащим."
     }
   ],
   "text_input_exercises": [
@@ -2444,6 +3031,36 @@
         "уронил",
         "выпили"
       ]
+    },
+    {
+      "id": 72,
+      "items": [
+        {
+          "sentence": "Mark has tried skiing ___ — it was his first and last time.",
+          "contextRu": "",
+          "answer": "once",
+          "alternatives": []
+        },
+        {
+          "sentence": "The kids have seen this cartoon ___ — in the morning, after lunch and before bed.",
+          "contextRu": "",
+          "answer": "three times",
+          "alternatives": []
+        },
+        {
+          "sentence": "I've been to Vienna ___ — with my parents and with Kate.",
+          "contextRu": "",
+          "answer": "twice",
+          "alternatives": []
+        }
+      ],
+      "explanation": "сколько раз это было, видно из второй половины каждого предложения: первый и последний раз — значит один, три названных просмотра — значит три, две разные поездки — значит две. Для одного и двух раз в английском особые слова — once и twice, а times начинается с трёх.",
+      "taskDescription": "Впиши, сколько раз это было.",
+      "wordBank": [
+        "трижды",
+        "дважды",
+        "однажды"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -2502,6 +3119,34 @@
         }
       ],
       "explanation": "первая реплика — новость, поэтому она идёт без даты и в этом времени. Вариант с last month называет момент, а вместе с датой такая форма не работает — и как новость это уже не звучит."
+    },
+    {
+      "id": 44,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "How many times have you been to Berlin?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "I go there twice.",
+          "isCorrect": false
+        },
+        {
+          "text": "I've been there twice.",
+          "isCorrect": true
+        },
+        {
+          "text": "I've been there last April.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "ответ на вопрос о количестве остаётся в том же времени, что и вопрос: have + третья форма плюс twice. Вариант с last April называет момент, а с ним такая форма не работает."
     }
   ],
   "matching_exercises": [
@@ -2586,6 +3231,25 @@
         }
       ],
       "explanation": "в предложении назван момент — last spring, а с точкой на линии времени это время не сочетается. Раз есть дата, нужна обычная форма прошедшего: I finished."
+    },
+    {
+      "id": 138,
+      "wrongSentence": "I have visited Rome in 2019.",
+      "options": [
+        {
+          "text": "I have gone to Rome in 2019.",
+          "isCorrect": false
+        },
+        {
+          "text": "I have visited Rome last year.",
+          "isCorrect": false
+        },
+        {
+          "text": "I visited Rome in 2019.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "в предложении назван год, а вместе с моментом на линии времени эта форма не работает. Раз есть дата, нужно обычное прошедшее: I visited."
     }
   ],
   "construction_meaning_exercises": [
@@ -2634,6 +3298,29 @@
         }
       ],
       "explanation": "фраза сообщает о сегодняшнем положении дел: человек уже вышел на новую работу, и это новость. Про давнее прошлое или про планы она не говорит вовсе."
+    },
+    {
+      "id": 37,
+      "construction": "Sara has lived in four cities.",
+      "options": [
+        {
+          "text": "Сара сейчас живёт в четырёх городах.",
+          "isCorrect": false
+        },
+        {
+          "text": "За свою жизнь Сара пожила в четырёх городах.",
+          "isCorrect": true
+        },
+        {
+          "text": "Сара жила в четырёх городах в прошлом году.",
+          "isCorrect": false
+        },
+        {
+          "text": "Сара собирается пожить в четырёх городах.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "фраза перечисляет биографию: четыре города — это её послужной список, а не сегодняшнее место жительства и не конкретный отрезок прошлого."
     }
   ],
   "transformation_exercises": [
@@ -2674,6 +3361,25 @@
         }
       ],
       "explanation": "not цепляется к помощнику и сливается с ним: have → haven't, has → hasn't. Третья форма глагола остаётся такой же, как была: delivered, charged, repaired."
+    },
+    {
+      "id": 57,
+      "taskDescription": "перепиши каждое предложение со словом never.",
+      "items": [
+        {
+          "original": "I haven't played hockey.",
+          "transformed": "I have never played hockey."
+        },
+        {
+          "original": "Kate hasn't visited Dublin.",
+          "transformed": "Kate has never visited Dublin."
+        },
+        {
+          "original": "They haven't eaten Thai food.",
+          "transformed": "They have never eaten Thai food."
+        }
+      ],
+      "explanation": "never само по себе отрицание, поэтому помощник возвращается в обычную форму: haven't становится have, hasn't становится has. Место у never одно — сразу за помощником, перед третьей формой."
     }
   ],
   "categorization_exercises": [
@@ -2747,6 +3453,29 @@
         }
       ],
       "explanation": "lent, dealt и mistaken — третьи формы, их можно поставить после have или has. А took — вторая форма глагола to take, третья у него taken."
+    },
+    {
+      "id": 69,
+      "groupDescription": "Три предложения построены правильно, а одно — нет",
+      "items": [
+        {
+          "text": "Kate has never tried sushi.",
+          "isOdd": false
+        },
+        {
+          "text": "I've never been to Warsaw.",
+          "isOdd": false
+        },
+        {
+          "text": "Have you ever climbed a mountain?",
+          "isOdd": false
+        },
+        {
+          "text": "He hasn't never called me.",
+          "isOdd": true
+        }
+      ],
+      "explanation": "в четвёртом предложении два отрицания сразу — hasn't и never. Оставить нужно одно: He has never called me или He hasn't called me."
     }
   ]
 }
