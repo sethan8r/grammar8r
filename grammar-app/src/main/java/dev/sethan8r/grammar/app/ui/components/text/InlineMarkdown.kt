@@ -45,6 +45,7 @@ private const val INLINE_CHECK = "inline_check"
 private const val INLINE_CROSS = "inline_cross"
 private const val INLINE_ARROW = "inline_arrow"
 private const val INLINE_ARROW_LEFT = "inline_arrow_left"
+private const val INLINE_ARROW_BOTH = "inline_arrow_both"
 private const val INLINE_NEQ = "inline_neq"
 private const val INLINE_APPROX = "inline_approx"
 private const val INLINE_PLUS = "inline_plus"
@@ -74,11 +75,12 @@ val InlineArrowIcon: ImageVector get() = Icons.AutoMirrored.Filled.ArrowRightAlt
  * `InlineTextContent` (в текст эмодзи не попадают, размер — в `em`, тянется за шрифтом):
  *  - `✓` → [Icons.Filled.Check] (зелёный), `✗`/`❌` → [Icons.Filled.Close] (красный);
  *  - `→` → [arrowIcon] (по умолчанию [InlineArrowIcon], цветом [arrowIconColor]),
- *    `←` — та же иконка, отражённая по горизонтали;
+ *    `←` — та же иконка, отражённая по горизонтали, `↔` → [DoubleArrowIcon] (пара
+ *    противопоставлений);
  *  - `≠` → [NotEqualIcon], `≈` → [ApproxEqualIcon], `=` → [EqualIcon] (цветом текста
  *    [arrowColor]) — в наборе Material таких значков нет, поэтому векторы нарисованы здесь;
  *  - `+` → [Icons.Filled.Add] (цветом текста [arrowColor]).
- * Внутри бэктик-вставки нейтральные значки (`→ ← ≠ ≈ + =`) берут цвет [inlineCodeColor], чтобы
+ * Внутри бэктик-вставки нейтральные значки (`→ ← ↔ ≠ ≈ + =`) берут цвет [inlineCodeColor], чтобы
  * формула вроде `to + V1` красилась целиком; вердикт `✓`/`✗` всюду держит свой цвет.
  * Карту иконок отдаём в [TranslatableText] вместе с текстом.
  */
@@ -165,6 +167,7 @@ fun parseInlineMarkdown(
                         '✗', '❌' -> appendInlineContent(INLINE_CROSS, "✗")
                         '→' -> appendInlineContent(iconKey(INLINE_ARROW, inCode), "→")
                         '←' -> appendInlineContent(iconKey(INLINE_ARROW_LEFT, inCode), "←")
+                        '↔' -> appendInlineContent(iconKey(INLINE_ARROW_BOTH, inCode), "↔")
                         '≠' -> appendInlineContent(iconKey(INLINE_NEQ, inCode), "≠")
                         '≈' -> appendInlineContent(iconKey(INLINE_APPROX, inCode), "≈")
                         '+' -> appendInlineContent(iconKey(INLINE_PLUS, inCode), "+")
@@ -186,6 +189,7 @@ fun parseInlineMarkdown(
         put(INLINE_CROSS, inlineIcon(Icons.Filled.Close, incorrectColor))
         putIconPair(INLINE_ARROW, arrowIcon, arrowIconColor, inlineCodeColor)
         putIconPair(INLINE_ARROW_LEFT, arrowIcon, arrowIconColor, inlineCodeColor, mirror = true)
+        putIconPair(INLINE_ARROW_BOTH, DoubleArrowIcon, arrowIconColor, inlineCodeColor)
         putIconPair(INLINE_NEQ, NotEqualIcon, arrowColor, inlineCodeColor)
         putIconPair(INLINE_APPROX, ApproxEqualIcon, arrowColor, inlineCodeColor)
         putIconPair(INLINE_PLUS, Icons.Filled.Add, arrowColor, inlineCodeColor)
@@ -230,6 +234,31 @@ private fun inlineBlank(color: Color): InlineTextContent =
             )
         }
     }
+
+/**
+ * Значок «в обе стороны» (`↔`): горизонталь с наконечниками на обоих концах — им размечены пары
+ * противопоставлений («был и вернулся ↔ уехал»). В наборе Material такого значка нет, поэтому
+ * рисуем вектором. Цвет штрихов неважен — [Icon] перекрашивает через `tint`.
+ */
+private val DoubleArrowIcon: ImageVector = ImageVector.Builder(
+    name = "DoubleArrow",
+    defaultWidth = 24.dp,
+    defaultHeight = 24.dp,
+    viewportWidth = 24f,
+    viewportHeight = 24f,
+).apply {
+    val stroke = SolidColor(Color.Black)
+    val strokeWidth = 2.2f
+    path(stroke = stroke, strokeLineWidth = strokeWidth, strokeLineCap = StrokeCap.Round) {
+        moveTo(3f, 12f); lineTo(21f, 12f)
+    }
+    path(stroke = stroke, strokeLineWidth = strokeWidth, strokeLineCap = StrokeCap.Round) {
+        moveTo(8f, 7f); lineTo(3f, 12f); lineTo(8f, 17f)
+    }
+    path(stroke = stroke, strokeLineWidth = strokeWidth, strokeLineCap = StrokeCap.Round) {
+        moveTo(16f, 7f); lineTo(21f, 12f); lineTo(16f, 17f)
+    }
+}.build()
 
 /**
  * Значок «не равно» (`≠`): две горизонтали равенства + косая черта. В наборе Material его нет,
