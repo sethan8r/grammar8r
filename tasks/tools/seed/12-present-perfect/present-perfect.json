@@ -60,6 +60,13 @@
       "title": "Been vs Gone · Был и вернулся ↔ уехал",
       "order": 6,
       "searchKeywords": "куда делся человек, он уехал по-английски, i've gone о себе, бывал в стране, сейчас нахожусь в городе"
+    },
+    {
+      "id": 140,
+      "topicId": 22,
+      "title": "Just, Already, Yet, Still · Маркеры перфекта",
+      "order": 7,
+      "searchKeywords": "ещё не сделал, до сих пор не, not yet, нетерпение, куда ставить уже, минуту назад"
     }
   ],
   "grammar_cards": [
@@ -2346,6 +2353,582 @@
         "Что значит been без предлога — I've been busy?",
         "Зачем рядом с been in так часто стоят for и since?"
       ]
+    },
+    {
+      "id": 375,
+      "microtopicId": 140,
+      "title": "just: событие случилось минуту назад",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форму `have/has + V3` мы уже собираем не задумываясь и читать её сообщение — «вот как обстоят дела сейчас» — тоже научились. Пришло время маленьких слов, которые в эту форму подсаживаются и уточняют её. Их четыре: `just`, `already`, `yet` и `still`. Все четыре крутятся вокруг русских «только что», «уже» и «ещё» — и ровно поэтому русскоязычный их вечно тасует. Разведём по местам, начиная с самого простого."
+        },
+        {
+          "type": "heading",
+          "text": "just — только что, след ещё горячий"
+        },
+        {
+          "type": "paragraph",
+          "text": "`just` значит «только что»: действие закончилось буквально минуту назад, и его отпечаток в комнате ещё тёплый."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've just finished the report.** — только что закончил отчёт",
+            "**Emma has just left the office.** — Эмма только что вышла из офиса",
+            "**We've just paid the bill.** — мы только что оплатили счёт"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите, где сидит слово. Оно стоит **между** `have/has` и третьей формой — внутри самой конструкции, ровно в стыке между помощником и глаголом. Место у него постоянное, и это первое, что нужно про него запомнить."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/has + just + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русское «только что» стоит спереди — и рука тянет туда же"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот откуда растёт главная ошибка. По-русски «только что» — свободная птица: «Только что я закончил отчёт», «Я только что закончил отчёт» — обе позиции законны, и первая даже привычнее, потому что мы любим выносить обстоятельство в начало фразы. Русский порядок слов вообще позволяет двигать почти всё, и мозг переносит эту вольность в английский автоматически."
+        },
+        {
+          "type": "paragraph",
+          "text": "А английский `just` двигать нельзя: он приклеен к стыку `have` и `V3` и работает только оттуда. Вынесли вперёд или в конец — предложение сломалось."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Just I've finished the report** ✗ и **I've finished the report just** ✗ — оба варианта неверны, и оба это калька с русской свободы порядка слов. Правильное место одно: `I've just finished the report` ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Два разных just в одном слове"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть ещё одна причина путаницы: слово `just` мы уже встречали в теме «Части речи» совсем в другом смысле — «просто, всего лишь». Это одно и то же слово с двумя работами, и различает их не написание, а окружение."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что значит",
+            "Где стоит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "просто, всего лишь",
+              "перед словом, к которому относится",
+              "**I just want some coffee.**"
+            ],
+            [
+              "только что",
+              "между have/has и V3",
+              "**I've just made some coffee.**"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило чтения простое: увидели `just`, зажатое между `have/has` и третьей формой, — это «только что». Во всех остальных позициях — «просто». Никаких других подсказок не требуется, за вас всё решает соседство."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Just` — это про минуты, максимум про «сегодня совсем недавно», а не про вчера и не про прошлую неделю. Фраза **I've just booked the tickets last week** ✗ ломается сразу с двух сторон: и `just` тут не про то, и дата отправляет предложение в прошедшее время. Событие давнее → это Past Simple: **I booked the tickets last week** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Just` обожает жить в ответах на бытовые вопросы, когда важно подчеркнуть свежесть новости. — **Do you want some dinner?** — **No, thanks, I've just eaten.** Собеседник мгновенно понимает: предлагать бесполезно, человек сыт прямо сейчас. Ровно то, ради чего этому времени и нужен след в настоящем."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`just` значит «только что»: событие закончилось минуту назад. Место у него постоянное — между `have/has` и третьей формой: **I've just finished the report.** Русское «только что» гуляет по фразе свободно («Только что я закончил»), поэтому рука выносит слово вперёд или в конец — **Just I've finished** ✗ и **I've finished just** ✗ одинаково сломаны. У слова есть и второй смысл, знакомый по «Частям речи», — «просто, всего лишь» (**I just want some coffee.**); различает их только позиция: зажато между `have` и V3 → «только что». И помните про свежесть: `just` про минуты, а не про прошлую неделю — с датой предложение уходит в Past Simple.",
+      "examples": [
+        {
+          "ru": "Я только что закончил отчёт.",
+          "en": "I've just finished the report."
+        },
+        {
+          "ru": "Эмма только что вышла из офиса.",
+          "en": "Emma has just left the office."
+        },
+        {
+          "ru": "Мы только что оплатили счёт.",
+          "en": "We've just paid the bill."
+        },
+        {
+          "ru": "Спасибо, не надо — я только что поел.",
+          "en": "No, thanks, I've just eaten."
+        },
+        {
+          "ru": "Он только что зарядил телефон.",
+          "en": "He has just charged the phone."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать Just I have finished?",
+        "Как отличить just «только что» от just «просто»?",
+        "Можно ли сказать I have just finished yesterday?"
+      ]
+    },
+    {
+      "id": 376,
+      "microtopicId": 140,
+      "title": "already: уже, и раньше, чем ждали",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У `just` работа узкая — сообщать про минуту назад. У `already` работа шире: оно говорит «уже», то есть дело сделано, и очень часто с добавкой «раньше, чем ты думал»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've already read your message.** — уже прочитал твоё сообщение",
+            "**Sara has already booked the room.** — Сара уже забронировала номер",
+            "**They've already done the laundry.** — они уже постирали"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Место у `already` то же самое, что у `just`: между `have/has` и третьей формой. Два слова живут на одной полке — и вместе никогда не встречаются, потому что говорят про разное."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/has + already + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Второе законное место — самый конец фразы"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот здесь важная деталь, которую обычно не рассказывают, и человек потом решает, что услышал ошибку. У `already` есть вторая позиция — в конце предложения. Она законная, но не нейтральная: это нажим, удивление или лёгкое раздражение."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "Что слышит собеседник"
+          ],
+          "rows": [
+            [
+              "I've already read it.",
+              "спокойное сообщение факта"
+            ],
+            [
+              "I've read it already.",
+              "с нажимом: да прочитал уже, отстань"
+            ],
+            [
+              "Has she finished already?",
+              "удивление: что, так быстро?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница как между «я уже прочитал» и «да прочитал я уже». Смысл один, тон разный — и англичанин этот тон слышит по позиции слова, а не по интонации."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русская рука ошибается"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «уже» — такая же свободная птица, как «только что»: «Я уже поел», «Уже поел», «Поел уже» — все три звучат нормально, и мы даже не замечаем, что что-то выбираем. Поэтому в английском рука ставит слово наугад, и чаще всего мимо: перед `have`, куда в русском часто попадает «уже»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I already have eaten** ✗ — слово залезло перед помощником. Понять вас поймут, но звучит это заметно кривовато, как «я уже есть поел». Правильно `I have already eaten` ✓: сначала помощник, потом `already`, потом третья форма."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "just или already"
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба слова стоят на одном месте, поэтому важно понимать, чем они отличаются по смыслу."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "О чём сообщает",
+            "Когда это было"
+          ],
+          "rows": [
+            [
+              "just",
+              "событие свежее, только что произошло",
+              "минуту назад"
+            ],
+            [
+              "already",
+              "дело сделано, часто раньше срока",
+              "когда угодно, срок не важен"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните две фразы про одно и то же действие: **I've just prepared dinner** — я только что закончил готовить, тарелки ещё горячие. **I've already prepared dinner** — ужин готов, можешь не беспокоиться; когда именно я его готовил, неважно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Already` тянет в фразу оттенок «раньше, чем ожидалось», и в вопросе это особенно слышно. **Have you finished already?** — не нейтральный вопрос, а удивление: «что, уже?!». Если вы просто хотите спросить, сделано дело или нет, `already` не годится — нужно другое слово. Какое именно, разберём в следующей карточке."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`already` значит «уже»: дело сделано, часто раньше, чем ждали. Основное место — между `have/has` и третьей формой: **I've already read your message.** Есть и второе законное место, в самом конце фразы, но оно не нейтральное: **I've read it already** звучит с нажимом («да прочитал уже»), а **Has she finished already?** — с удивлением. Русское «уже» гуляет по фразе свободно, поэтому рука ставит слово перед помощником — **I already have eaten** ✗ → **I have already eaten** ✓. Отличие от `just`: `just` про минуту назад, `already` про сам факт, а когда это было — неважно. В нейтральном вопросе `already` не используют: оно всегда добавит оттенок «что, уже?!».",
+      "examples": [
+        {
+          "ru": "Я уже прочитал твоё сообщение.",
+          "en": "I've already read your message."
+        },
+        {
+          "ru": "Сара уже забронировала номер.",
+          "en": "Sara has already booked the room."
+        },
+        {
+          "ru": "Они уже постирали.",
+          "en": "They've already done the laundry."
+        },
+        {
+          "ru": "Да прочитал я уже эту статью.",
+          "en": "I've read this article already."
+        },
+        {
+          "ru": "Что, она уже закончила?",
+          "en": "Has she finished already?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему I already have eaten считается ошибкой?",
+        "Чем already в конце фразы отличается от already в середине?",
+        "Когда лучше сказать just, а когда already?"
+      ]
+    },
+    {
+      "id": 377,
+      "microtopicId": 140,
+      "title": "yet и still: ещё не сделал",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`already` мы поселили в утверждение. А что делать, если дело как раз НЕ сделано или мы про него спрашиваем? Тут вступает `yet` — слово с самым строгим характером во всей четвёрке."
+        },
+        {
+          "type": "heading",
+          "text": "yet живёт только в отрицании и в вопросе и только в конце"
+        },
+        {
+          "type": "paragraph",
+          "text": "У `yet` два ограничения, и нарушать нельзя ни одно."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "отрицание: **I haven't paid the bill yet.** — я ещё не оплатил счёт",
+            "вопрос: **Have you booked the tickets yet?** — ты уже забронировал билеты?",
+            "короткий ответ: **Not yet.** — ещё нет"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первое ограничение: `yet` не появляется в утверждении. Второе: место у него не в середине, как у `just` и `already`, а в самом конце предложения. Получается красивое разделение территории: `already` сидит внутри формы и работает в утверждении, `yet` уходит в хвост фразы и работает в отрицании и вопросе. Два слова поделили работу и друг другу не мешают."
+        },
+        {
+          "type": "heading",
+          "text": "Русский и английский режут эту тройку в разных местах"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот главная причина, по которой русскоязычный тут ошибается. И дело не в том, что у нас одно слово, а у них два, — слов у нас тоже два. Дело в том, что **граница между ними проходит не там**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский делит так: «уже» обслуживает утверждение и вопрос, а «ещё не» — отрицание."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "утверждение: «Я **уже** оплатил счёт»",
+            "отрицание: «Я **ещё** не оплатил счёт»",
+            "вопрос: «Ты **уже** оплатил счёт?»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский делит иначе: `already` забирает только утверждение, а `yet` — отрицание и вопрос вместе. Положите две линии рядом:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Тип фразы",
+            "По-русски",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "утверждение",
+              "уже",
+              "already"
+            ],
+            [
+              "отрицание",
+              "ещё не",
+              "yet"
+            ],
+            [
+              "вопрос",
+              "уже",
+              "yet"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первые две строки совпадают, и с ними проблем нет. А вот третья — точка расхождения, и вся ловушка сидит именно в ней: в вопросе русский берёт то же слово, что и в утверждении («уже»), поэтому рука уверенно тянет `already`. Английский же в вопросе берёт слово из отрицания. Отсюда рабочая подсказка: как только фраза перестала быть утверждением — неважно, отрицание это или вопрос, — русское «уже» больше не переводится в `already`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've already paid the bill.** — я уже оплатил счёт",
+            "**I haven't paid the bill yet.** — я ещё не оплатил счёт",
+            "**Have you paid the bill yet?** — ты уже оплатил счёт?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I've yet paid the bill** ✗ — самая частая ошибка: человек запомнил, что «уже» в середине, и подставил туда `yet`. Но в утверждении `yet` не работает вовсе, там место `already`: **I've already paid the bill** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Yet I haven't paid the bill** ✗ — а это калька русского «Ещё я не оплатил счёт». В русском обстоятельство можно вынести в начало, в английском `yet` из хвоста фразы не двигается: **I haven't paid the bill yet** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "still в отрицании: то же самое, но с нетерпением"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `still` мы разбирали в теме «Наречия» как «всё ещё»: **He is still asleep**, **I still live here**. С отрицанием перфекта оно тоже дружит, и вот тут появляется новый оттенок, ради которого стоит запомнить конструкцию."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I haven't done the laundry yet.** — ещё не постирал. Нейтрально: дело в списке, доберусь",
+            "**I still haven't done the laundry.** — до сих пор не постирал. Нетерпение: слишком долго, пора бы уже"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл события одинаковый — стирки нет. Разное — отношение говорящего. `yet` просто сообщает факт, `still` подкрашивает его досадой: своей собственной («сам себя ругаю») или чужой («сколько можно?»). Поэтому `still haven't` часто звучит там, где кто-то устал ждать: **They still haven't delivered my parcel.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Позиция у `still` своя: оно встаёт **перед** `haven't` / `hasn't`, а не после. Логика та же, что была в «Наречиях»: `still` всегда стоит перед той частью, которую «тянет» во времени, — там это было `still live`, здесь это `still haven't`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I haven't still done the laundry** ✗ — слово переставлено внутрь, и фраза разваливается. Правильно `I still haven't done the laundry` ✓. Простая опора: `still` идёт ДО отрицания, `yet` — в самый конец. Одно слово впереди всех, другое позади всех, посередине они не встречаются."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Разница в тоне между тремя конструкциями"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сведём три способа сказать про одно и то же незакрытое дело — их удобно держать рядом."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Конструкция",
+            "Что сообщает",
+            "Тон"
+          ],
+          "rows": [
+            [
+              "I've already paid the bill.",
+              "дело сделано",
+              "нейтрально, факт"
+            ],
+            [
+              "I haven't paid the bill yet.",
+              "дело не сделано, но собираюсь",
+              "нейтрально"
+            ],
+            [
+              "I still haven't paid the bill.",
+              "дело не сделано, и это тянется слишком долго",
+              "нетерпение, досада"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Все четыре слова разом"
+        },
+        {
+          "type": "paragraph",
+          "text": "А это сводка всей микротемы — одна таблица, к которой стоит возвращаться."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Смысл",
+            "Где стоит",
+            "В какой фразе"
+          ],
+          "rows": [
+            [
+              "just",
+              "только что",
+              "между have/has и V3",
+              "утверждение"
+            ],
+            [
+              "already",
+              "уже, раньше срока",
+              "между have/has и V3",
+              "утверждение (в конце — с нажимом)"
+            ],
+            [
+              "yet",
+              "ещё не, уже?",
+              "в самом конце",
+              "отрицание и вопрос"
+            ],
+            [
+              "still",
+              "до сих пор не",
+              "перед haven't/hasn't",
+              "отрицание"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Not yet` работает как самостоятельная реплика — целый ответ из двух слов. — **Have you finished?** — **Not yet.** И заодно закроем должок: в микротеме «Вопрос: Have you finished?» нам встретился отрицательный вопрос **Haven't you charged it yet?** Теперь видно, как он устроен целиком: отрицание с вынесенным вперёд `haven't` даёт оттенок удивления, а `yet` честно сидит в конце, потому что фраза отрицательная. И ещё одно полезное слово в тему ожидания — `patient`: **Be patient, I haven't finished yet.**"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`yet` значит «ещё не» и «уже?» — оно работает ТОЛЬКО в отрицании и вопросе и стоит ТОЛЬКО в самом конце фразы: **I haven't paid the bill yet.** / **Have you paid the bill yet?** / **Not yet.** В утверждении его место занимает `already`, отсюда две ловушки: **I've yet paid the bill** ✗ (перепутал с already) и **Yet I haven't paid** ✗ (русский порядок слов). Слов два и в русском («уже» и «ещё не»), но граница проходит иначе: у нас «уже» обслуживает утверждение И вопрос, а в английском вопрос уходит к `yet` — поэтому вопрос и есть главная ловушка. `still` в отрицании говорит то же самое, но с нетерпением: **I haven't done the laundry yet** — нейтрально, **I still haven't done the laundry** — до сих пор не сделал, слишком долго. Позиция у `still` своя: перед `haven't` / `hasn't`, а не после — **I haven't still done it** ✗ → **I still haven't done it** ✓. Опора: `still` идёт до отрицания, `yet` — в самый хвост.",
+      "examples": [
+        {
+          "ru": "Я ещё не оплатил счёт.",
+          "en": "I haven't paid the bill yet."
+        },
+        {
+          "ru": "Ты уже забронировал билеты?",
+          "en": "Have you booked the tickets yet?"
+        },
+        {
+          "ru": "— Ты закончил? — Ещё нет.",
+          "en": "— Have you finished? — Not yet."
+        },
+        {
+          "ru": "Они до сих пор не привезли мою посылку.",
+          "en": "They still haven't delivered my parcel."
+        },
+        {
+          "ru": "Потерпи, я ещё не закончил.",
+          "en": "Be patient, I haven't finished yet."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I have yet finished?",
+        "Чем I haven't done it yet отличается от I still haven't done it?",
+        "Почему yet всегда уходит в конец предложения?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2618,6 +3201,66 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 139,
       "orderInCard": 2
+    },
+    {
+      "cardId": 375,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 156,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 375,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 142,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 375,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 140,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 376,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 155,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 376,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 177,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 376,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 58,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 377,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 157,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 377,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 79,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 377,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 73,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 377,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 45,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2676,6 +3319,30 @@
       "userInstruction": "Вставьте в каждое предложение подходящий предлог.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "present_perfect_card375_ex1",
+      "cardId": 375,
+      "title": "Только что случилось",
+      "userInstruction": "Скажите по-английски то, что происходит в ситуации.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_perfect_card376_ex1",
+      "cardId": 376,
+      "title": "Скажи, что уже сделано",
+      "userInstruction": "Скажите по-английски то, что происходит в ситуации.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_perfect_card377_ex1",
+      "cardId": 377,
+      "title": "Уже, ещё не или до сих пор",
+      "userInstruction": "Скажите по-английски то, что происходит в ситуации.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -2926,6 +3593,46 @@
       "transcription": "[ɪkˈsplɔː]",
       "microtopicId": 139,
       "categoryId": "tenses"
+    },
+    {
+      "id": 636,
+      "word": "yet",
+      "translation": "ещё (не), уже (в вопросе)",
+      "transcription": "[jet]",
+      "microtopicId": 140,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 637,
+      "word": "bill",
+      "translation": "счёт, чек",
+      "transcription": "[bɪl]",
+      "microtopicId": 140,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 638,
+      "word": "laundry",
+      "translation": "стирка, бельё",
+      "transcription": "[ˈlɔːndri]",
+      "microtopicId": 140,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 639,
+      "word": "patient",
+      "translation": "терпеливый",
+      "transcription": "[ˈpeɪʃnt]",
+      "microtopicId": 140,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 640,
+      "word": "to prepare",
+      "translation": "готовить, подготавливать",
+      "transcription": "[prɪˈpeə]",
+      "microtopicId": 140,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -3081,6 +3788,37 @@
         }
       ],
       "explanation": "во втором предложении глагол стоит в базовой форме, а нужна третья: has dropped. В четвёртом помощник не тот: she берёт has, поэтому верно She has gone to the shop."
+    },
+    {
+      "id": 155,
+      "statements": [
+        {
+          "en": "She has already sent the email.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We already have finished the laundry.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Tom has already booked a table.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I have already prepare the room.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They've already left.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении already залезло перед помощником: правильно We have already finished. В четвёртом потеряна третья форма: правильно I have already prepared the room."
     }
   ],
   "word_arrangement_exercises": [
@@ -3176,6 +3914,25 @@
         "was"
       ],
       "explanation": "её сейчас нет на месте, поэтому нужна форма gone: она уехала и находится там. Been сказало бы обратное — что Меган уже вернулась."
+    },
+    {
+      "id": 142,
+      "situationRu": "Ситуация: Рома минуту назад закончил уборку и зовёт друзей в гости.",
+      "correctSentence": "I have just cleaned my room.",
+      "words": [
+        "I",
+        "have",
+        "just",
+        "cleaned",
+        "my room"
+      ],
+      "distractors": [
+        "clean",
+        "has",
+        "already",
+        "just now"
+      ],
+      "explanation": "после have идёт третья форма cleaned, а just встаёт между ними. Has годится только для he, she, it, а clean без окончания оставляет фразу без третьей формы."
     }
   ],
   "multiple_choice_exercises": [
@@ -3388,6 +4145,69 @@
         }
       ],
       "explanation": "человек всё ещё в городе, поэтому нужен предлог in — он про нахождение внутри. Вариант с to говорил бы о закрытой поездке, а с gone — что говорящего здесь нет."
+    },
+    {
+      "id": 156,
+      "choiceType": "CHOICE",
+      "prompt": "Nick ___ sent the parcel.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "has just",
+          "isCorrect": true
+        },
+        {
+          "text": "just has",
+          "isCorrect": false
+        },
+        {
+          "text": "has sent just",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "just садится между помощником и третьей формой: has just sent. Перед has и в конце предложения это слово не ставят — место у него одно."
+    },
+    {
+      "id": 177,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Игорь уже поел — он не голоден.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Igor already has eaten — he isn't hungry.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor has already eaten — he isn't hungry.",
+          "isCorrect": true
+        },
+        {
+          "text": "Igor has already ate — he isn't hungry.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "сначала помощник has, потом already, потом третья форма eaten. В первом варианте слово стоит перед помощником, в третьем взята вторая форма ate вместо третьей."
+    },
+    {
+      "id": 157,
+      "choiceType": "CHOICE",
+      "prompt": "Oliver hasn't finished the report ___.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "already",
+          "isCorrect": false
+        },
+        {
+          "text": "just",
+          "isCorrect": false
+        },
+        {
+          "text": "yet",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "предложение отрицательное, значит нужно yet, и место у него в самом конце. Already работает только в утверждении, а just сообщал бы, что дело только что сделано."
     }
   ],
   "text_input_exercises": [
@@ -3505,6 +4325,36 @@
         "дважды",
         "однажды"
       ]
+    },
+    {
+      "id": 73,
+      "items": [
+        {
+          "sentence": "Ben hasn't unpacked his suitcase ___.",
+          "contextRu": "",
+          "answer": "yet",
+          "alternatives": []
+        },
+        {
+          "sentence": "Sara has ___ finished her homework.",
+          "contextRu": "",
+          "answer": "already",
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ haven't received the parcel.",
+          "contextRu": "",
+          "answer": "still",
+          "alternatives": []
+        }
+      ],
+      "explanation": "в отрицании в конце фразы стоит yet, в утверждении между помощником и третьей формой — already, а перед haven't встаёт still и добавляет оттенок «до сих пор не».",
+      "taskDescription": "Впиши подходящее слово из банка в каждое предложение.",
+      "wordBank": [
+        "still",
+        "yet",
+        "already"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -3591,6 +4441,34 @@
         }
       ],
       "explanation": "ответ на вопрос о количестве остаётся в том же времени, что и вопрос: have + третья форма плюс twice. Вариант с last April называет момент, а с ним такая форма не работает."
+    },
+    {
+      "id": 45,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you charged your phone yet?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Not yet.",
+          "isCorrect": true
+        },
+        {
+          "text": "No, already.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yet not.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "отрицательный короткий ответ с этим словом звучит как Not yet. Already в отрицание не идёт вовсе, а порядок Yet not в английском невозможен."
     }
   ],
   "matching_exercises": [
@@ -3736,6 +4614,25 @@
         }
       ],
       "explanation": "три раза — это счёт закрытых поездок, поэтому нужен предлог to. С in фраза значила бы, что говорящий трижды находится в Вене прямо сейчас."
+    },
+    {
+      "id": 140,
+      "wrongSentence": "Just I have paid the bill.",
+      "options": [
+        {
+          "text": "I just have paid the bill.",
+          "isCorrect": false
+        },
+        {
+          "text": "I have paid just the bill.",
+          "isCorrect": false
+        },
+        {
+          "text": "I have just paid the bill.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "слово вынесено в начало по русской привычке, а в английском оно живёт строго между have и третьей формой. Вариант с just перед the bill меняет смысл на «оплатил всего лишь счёт»."
     }
   ],
   "construction_meaning_exercises": [
@@ -3866,6 +4763,25 @@
         }
       ],
       "explanation": "never само по себе отрицание, поэтому помощник возвращается в обычную форму: haven't становится have, hasn't становится has. Место у never одно — сразу за помощником, перед третьей формой."
+    },
+    {
+      "id": 58,
+      "taskDescription": "перепиши каждое предложение, добавив already.",
+      "items": [
+        {
+          "original": "I have washed the car.",
+          "transformed": "I have already washed the car."
+        },
+        {
+          "original": "She has booked the room.",
+          "transformed": "She has already booked the room."
+        },
+        {
+          "original": "They have paid the bill.",
+          "transformed": "They have already paid the bill."
+        }
+      ],
+      "explanation": "already встаёт ровно между помощником и третьей формой, ничего больше в предложении не меняется. Позиция перед have или после дополнения дала бы либо ошибку, либо оттенок нажима."
     }
   ],
   "categorization_exercises": [
@@ -3937,6 +4853,29 @@
         }
       ],
       "explanation": "been to берут, когда поездка закрылась и человек снова здесь, а gone to — когда он ушёл или уехал и находится там. Подсказка всегда в том, где человек в момент разговора, а не в том, куда он ездил."
+    },
+    {
+      "id": 79,
+      "taskDescription": "распредели предложения по слову, которое к ним подойдёт.",
+      "categories": [
+        {
+          "title": "already",
+          "items": [
+            "I've prepared dinner.",
+            "We've paid the bill.",
+            "He's finished the homework."
+          ]
+        },
+        {
+          "title": "yet",
+          "items": [
+            "Have you called Mia?",
+            "She hasn't replied.",
+            "Has the parcel arrived?"
+          ]
+        }
+      ],
+      "explanation": "already живёт в утверждении и встаёт между помощником и третьей формой, а yet — в отрицании и вопросе, и всегда в конце фразы. Смотреть надо не на смысл предложения, а на его тип."
     }
   ],
   "find_the_odd_exercises": [
