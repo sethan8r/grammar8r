@@ -2,6 +2,8 @@ package dev.sethan8r.grammar.app.ui.components.text
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -50,6 +52,7 @@ private const val INLINE_NEQ = "inline_neq"
 private const val INLINE_APPROX = "inline_approx"
 private const val INLINE_PLUS = "inline_plus"
 private const val INLINE_EQUAL = "inline_equal"
+private const val INLINE_MIDDLE_DOT = "inline_middle_dot"
 private const val INLINE_BLANK = "inline_blank"
 
 /** Суффикс ключа иконки-двойника, окрашенного как бэктик-вставка (`to + V1`). */
@@ -57,6 +60,12 @@ private const val CODE_SUFFIX = "_code"
 
 /** Во сколько раз транскрипция крупнее окружающего текста: мелкие значки IPA иначе не читаются. */
 private const val PHONETIC_SCALE = 1.1f
+
+/** Ширина значка по умолчанию (в `em`) — иконка размером со строку текста. */
+private const val ICON_WIDTH = 1.2f
+
+/** Ширина точки-разделителя: она уже прочих значков, иначе вокруг неё зияет дыра. */
+private const val DOT_WIDTH = 0.5f
 
 /** Значок символа `→` по умолчанию — длинная стрелка, как в тексте теории и условий заданий. */
 val InlineArrowIcon: ImageVector get() = Icons.AutoMirrored.Filled.ArrowRightAlt
@@ -79,8 +88,9 @@ val InlineArrowIcon: ImageVector get() = Icons.AutoMirrored.Filled.ArrowRightAlt
  *    противопоставлений);
  *  - `≠` → [NotEqualIcon], `≈` → [ApproxEqualIcon], `=` → [EqualIcon] (цветом текста
  *    [arrowColor]) — в наборе Material таких значков нет, поэтому векторы нарисованы здесь;
- *  - `+` → [Icons.Filled.Add] (цветом текста [arrowColor]).
- * Внутри бэктик-вставки нейтральные значки (`→ ← ↔ ≠ ≈ + =`) берут цвет [inlineCodeColor], чтобы
+ *  - `+` → [Icons.Filled.Add] (цветом текста [arrowColor]);
+ *  - `·` → [MiddleDotIcon] — точка-разделитель половин формулы, уже прочих значков ([DOT_WIDTH]).
+ * Внутри бэктик-вставки нейтральные значки (`→ ← ↔ ≠ ≈ + = ·`) берут цвет [inlineCodeColor], чтобы
  * формула вроде `to + V1` красилась целиком; вердикт `✓`/`✗` всюду держит свой цвет.
  * Карту иконок отдаём в [TranslatableText] вместе с текстом.
  */
@@ -172,6 +182,7 @@ fun parseInlineMarkdown(
                         '≈' -> appendInlineContent(iconKey(INLINE_APPROX, inCode), "≈")
                         '+' -> appendInlineContent(iconKey(INLINE_PLUS, inCode), "+")
                         '=' -> appendInlineContent(iconKey(INLINE_EQUAL, inCode), "=")
+                        '·' -> appendInlineContent(iconKey(INLINE_MIDDLE_DOT, inCode), "·")
                         else -> append(raw[index])
                     }
                     index += 1
@@ -194,6 +205,7 @@ fun parseInlineMarkdown(
         putIconPair(INLINE_APPROX, ApproxEqualIcon, arrowColor, inlineCodeColor)
         putIconPair(INLINE_PLUS, Icons.Filled.Add, arrowColor, inlineCodeColor)
         putIconPair(INLINE_EQUAL, EqualIcon, arrowColor, inlineCodeColor)
+        putIconPair(INLINE_MIDDLE_DOT, MiddleDotIcon, arrowColor, inlineCodeColor, width = DOT_WIDTH)
         put(INLINE_BLANK, inlineBlank(arrowColor))
     }
 
@@ -210,9 +222,10 @@ private fun MutableMap<String, InlineTextContent>.putIconPair(
     color: Color,
     codeColor: Color,
     mirror: Boolean = false,
+    width: Float = ICON_WIDTH,
 ) {
-    put(id, inlineIcon(icon, color, mirror))
-    put(id + CODE_SUFFIX, inlineIcon(icon, codeColor, mirror))
+    put(id, inlineIcon(icon, color, mirror, width))
+    put(id + CODE_SUFFIX, inlineIcon(icon, codeColor, mirror, width))
 }
 
 /** Пропуск в условии — сплошная линия по низу строки (вместо символов `___`). */
@@ -327,23 +340,55 @@ private val EqualIcon: ImageVector = ImageVector.Builder(
 }.build()
 
 /**
+ * Значок-разделитель (`·`): круглая точка по центру строки. Ею разделяют половины формулы
+ * («for + сколько времени · since + с какого момента»). Рисуем вектором, чтобы точка не зависела
+ * от того, как её нарисует шрифт. Цвет штриха неважен — [Icon] перекрашивает через `tint`.
+ */
+private val MiddleDotIcon: ImageVector = ImageVector.Builder(
+    name = "MiddleDot",
+    defaultWidth = 24.dp,
+    defaultHeight = 24.dp,
+    viewportWidth = 24f,
+    viewportHeight = 24f,
+).apply {
+    path(
+        stroke = SolidColor(Color.Black),
+        strokeLineWidth = 5f,
+        strokeLineCap = StrokeCap.Round,
+    ) {
+        moveTo(11.9f, 12f); lineTo(12.1f, 12f)
+    }
+}.build()
+
+/**
  * Иконка размером с текущую строку текста (em-единицы), выровненная по центру строки.
  * [mirror] отражает иконку по горизонтали — так `←` рисуется той же стрелкой, что и `→`.
+ * [width] сужает место под узкие значки вроде точки-разделителя.
  */
-private fun inlineIcon(icon: ImageVector, tint: Color, mirror: Boolean = false): InlineTextContent =
+private fun inlineIcon(
+    icon: ImageVector,
+    tint: Color,
+    mirror: Boolean = false,
+    width: Float = ICON_WIDTH,
+): InlineTextContent =
     InlineTextContent(
         placeholder = Placeholder(
-            width = 1.2.em,
-            height = 1.2.em,
+            width = width.em,
+            height = ICON_WIDTH.em,
             placeholderVerticalAlign = PlaceholderVerticalAlign.TextCenter,
         ),
     ) {
-        Icon(
-            imageVector = icon,
-            contentDescription = null,
-            tint = tint,
-            modifier = Modifier
-                .fillMaxSize()
-                .then(if (mirror) Modifier.graphicsLayer(scaleX = -1f) else Modifier),
-        )
+        // Квадрат по высоте строки внутри Box: у узких значков место сужается, а сама иконка
+        // остаётся неискажённой и стоит по центру.
+        Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+            Icon(
+                imageVector = icon,
+                contentDescription = null,
+                tint = tint,
+                modifier = Modifier
+                    .fillMaxHeight()
+                    .aspectRatio(1f)
+                    .then(if (mirror) Modifier.graphicsLayer(scaleX = -1f) else Modifier),
+            )
+        }
     }

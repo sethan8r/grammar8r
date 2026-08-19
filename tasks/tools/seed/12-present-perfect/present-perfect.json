@@ -67,6 +67,13 @@
       "title": "Just, Already, Yet, Still · Маркеры перфекта",
       "order": 7,
       "searchKeywords": "ещё не сделал, до сих пор не, not yet, нетерпение, куда ставить уже, минуту назад"
+    },
+    {
+      "id": 141,
+      "topicId": 22,
+      "title": "For / Since · Сколько это длится",
+      "order": 8,
+      "searchKeywords": "have lived или live, с какого момента, how long have you, it's been a while, сколько уже длится, long time no see"
     }
   ],
   "grammar_cards": [
@@ -2929,6 +2936,469 @@
         "Чем I haven't done it yet отличается от I still haven't done it?",
         "Почему yet всегда уходит в конец предложения?"
       ]
+    },
+    {
+      "id": 378,
+      "microtopicId": 141,
+      "title": "for и since: отрезок и точка старта",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор перфект отвечал у нас на вопрос «что есть сейчас» и «было ли такое в жизни». Теперь третья работа этого времени, и она самая практичная в быту: сказать, **сколько уже** что-то тянется. Для этого нужны два коротких слова — `for` и `since`, — и они делят между собой одну шкалу времени."
+        },
+        {
+          "type": "heading",
+          "text": "for — длина отрезка"
+        },
+        {
+          "type": "paragraph",
+          "text": "`for` отвечает на вопрос «сколько времени?». За ним всегда стоит количество: сколько минут, дней, лет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**for ten minutes** — десять минут",
+            "**for a couple of days** — пару дней",
+            "**for the whole summer** — всё лето",
+            "**for two years** — два года"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "since — гвоздь, вбитый в начало отрезка"
+        },
+        {
+          "type": "paragraph",
+          "text": "`since` отвечает на другой вопрос — «с какого момента?». За ним стоит не длина, а точка на оси времени: дата, день, событие."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**since 2019** — с 2019 года",
+            "**since Monday morning** — с утра понедельника",
+            "**since my birthday** — с моего дня рождения"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй конец отрезка у обоих слов один и тот же и никогда не называется — это «сейчас», момент разговора. Поэтому `for` и `since` живут именно в перфекте: они по определению тянут прошлое до настоящего."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "For + сколько времени · since + с какого момента"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверка одним вопросом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Выбирать между ними не нужно на слух — есть механическая проверка. Подставьте к русской фразе вопрос: если она отвечает на «сколько?» — это `for`, если на «с каких пор?» — это `since`."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Русская фраза",
+            "Отвечает на",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "уже три недели",
+              "сколько?",
+              "for three weeks"
+            ],
+            [
+              "с прошлой пятницы",
+              "с каких пор?",
+              "since last Friday"
+            ],
+            [
+              "целый час",
+              "сколько?",
+              "for a whole hour"
+            ],
+            [
+              "со школы",
+              "с каких пор?",
+              "since school"
+            ],
+            [
+              "пару месяцев",
+              "сколько?",
+              "for a couple of months"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самая частая ошибка — перепутать местами то, что идёт следом: **since two years** ✗ и **for 2019** ✗. Два года — это длина, значит `for two years` ✓; 2019 — это точка, значит `since 2019` ✓. Проверяйте не слово, а то, что стоит ЗА ним: количество времени или момент."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «с 2019 года» тянет за собой школьное «с — это from», и рука пишет **from 2019** ✗. Но `from` в английском отвечает за место и за движение откуда-то (**from Madrid**, **from work**), а точку старта во времени держит именно `since`: **since 2019** ✓. У `from` во времени своя работа — называть начало отрезка, у которого есть и конец: **from Monday to Friday**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "since умеет тянуть за собой целое событие"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё одна вещь, которой `for` не умеет вовсе. После `since` может стоять не только дата, но и целая мысль с подлежащим и глаголом — то есть событие, которое и стало точкой старта."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**since I moved here** — с тех пор, как я переехал сюда",
+            "**since we met** — с тех пор, как мы познакомились",
+            "**since she got the job** — с тех пор, как она получила эту работу"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика та же: событие тоже точка на оси, просто названная не датой, а происшествием. А вот за `for` целая мысль встать не может никогда — там только количество времени, и ничего больше."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Слово `since` мы уже встречали в «Linking Words» в совсем другом значении — «поскольку, раз уж» (**Since it was raining, we stayed home.**). Это одно слово с двумя работами, и различает их то, что идёт следом: отрезок времени или момент — значит «с», причина целиком — значит «поскольку». Никаких других подсказок не нужно, за вас решает соседство."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`for` отвечает на «сколько времени?» и берёт длину отрезка: **for ten minutes**, **for a couple of days**, **for two years**. `since` отвечает на «с какого момента?» и берёт точку старта: **since 2019**, **since Monday morning**, **since we met**. Второй конец отрезка у обоих один и не называется — это «сейчас», поэтому оба слова живут в перфекте. Механическая проверка: подставьте к русской фразе «сколько?» → `for`, «с каких пор?» → `since`. Две ловушки: **since two years** ✗ и **for 2019** ✗ (смотреть надо на то, что идёт ЗА словом), и **from 2019** ✗ — русское «с» тянет `from`, но во времени точку держит `since`. После `since` может стоять целое событие (**since I moved here**), после `for` — только количество времени.",
+      "examples": [
+        {
+          "ru": "Я жду уже десять минут.",
+          "en": "I've waited for ten minutes."
+        },
+        {
+          "ru": "Он в Мадриде с прошлой пятницы.",
+          "en": "He has been in Madrid since last Friday."
+        },
+        {
+          "ru": "Мы знакомы пару лет.",
+          "en": "We've known each other for a couple of years."
+        },
+        {
+          "ru": "Она не звонила с моего дня рождения.",
+          "en": "She hasn't called since my birthday."
+        },
+        {
+          "ru": "Я не видел его с тех пор, как переехал сюда.",
+          "en": "I haven't seen him since I moved here."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «с 2019 года» это since, а не from?",
+        "Можно ли поставить целое предложение после for?",
+        "Как быстро понять, что нужно — for или since?"
+      ]
+    },
+    {
+      "id": 379,
+      "microtopicId": 141,
+      "title": "Живу здесь два года: почему перфект, а не настоящее",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "А теперь главное в этой микротеме — и, пожалуй, одна из самых частых ошибок русскоязычных вообще. Она не про невнимательность, она про устройство двух языков, поэтому разберём её медленно."
+        },
+        {
+          "type": "heading",
+          "text": "Перфект с for и since означает «до сих пор»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите, что на самом деле сообщают эти фразы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've known him for ten years.** — знаю его десять лет и знаю прямо сейчас",
+            "**I've lived here since 2019.** — переехал в 2019 и живу здесь до сих пор",
+            "**She has worked at this school for a couple of months.** — работает там и сегодня"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни одно из этих действий не закончилось. Перфект тут вообще не про прошлое: он говорит «началось раньше и дотянулось до сегодняшнего дня». Это ровно та ось, которую мы поставили в самом начале темы — `have/has` глагол настоящего времени, а значит и вся конструкция про настоящее."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русская рука пишет настоящее время"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь про русский. Мы говорим об этом же настоящим временем, и другого варианта у нас просто нет: «я **знаю** его десять лет», «я **живу** здесь с 2019 года», «она **работает** там пару месяцев». Глагол настоящий, потому что для нас важнее та половина смысла, которая про сейчас, — а половина «началось раньше» вытекает из слов «десять лет» и «с 2019» и отдельной формы не требует."
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском такой роскоши нет: там есть форма, которая держит обе половины сразу, и если её не взять, вторая половина просто теряется. Поэтому дословный перевод русского настоящего звучит для англичанина как незаконченная мысль."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I know him for ten years** ✗, **I live here since 2019** ✗, **She works there for a couple of months** ✗ — все три собраны по одному шаблону: взято русское настоящее. Правильно — перфект: **I've known him for ten years** ✓, **I've lived here since 2019** ✓, **She has worked there for a couple of months** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Рабочая проверка на каждый день: если фраза отвечает на вопрос «сколько уже?», по-русски она будет в настоящем времени, а по-английски — всегда в перфекте. Никаких исключений тут нет, и это тот редкий случай, когда правило работает механически."
+        },
+        {
+          "type": "heading",
+          "text": "How long have you…? — как спросить, сколько уже"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос про длительность мы мельком видели в микротеме «Вопрос: Have you finished?», теперь он нужен целиком. Порядок слов знакомый и заново его пересказывать не надо: вопросительное слово впереди, за ним `have/has`, потом подлежащее, потом третья форма."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How long have you worked here?** — как долго ты здесь работаешь?",
+            "**How long has she known your wife?** — как давно она знакома с твоей женой?",
+            "**How long have they lived in Vienna?** — сколько они уже живут в Вене?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отвечать целым предложением не нужно, живой ответ короткий: **For two years.** / **Since Monday.** / **For a couple of months.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**How long do you know Sam?** ✗ — тот же самый перенос русского настоящего, только в вопросе: «сколько ты **знаешь** Сэма?». Англичанину эта фраза непонятна, потому что она спрашивает про длительность, но берёт время, которое длительность из прошлого не тянет. Правильно **How long have you known Sam?** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обратите внимание на глагол `to last` — «длиться». С ним хорошо видно разницу двух времён на одной паре: **The meeting lasted two hours** — совещание кончилось, это Past Simple; **The meeting has lasted for two hours** — оно всё ещё идёт, и мы сидим на нём второй час."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Перфект с `for` и `since` означает, что действие НЕ кончилось: **I've known him for ten years** — знаю до сих пор, **I've lived here since 2019** — живу и сейчас. Русский говорит об этом настоящим временем («я знаю его десять лет»), потому что у нас нет формы, которая держит обе половины смысла разом, — отсюда самая частая ошибка русскоязычных: **I know him for ten years** ✗, **I live here since 2019** ✗. Проверка простая: фраза отвечает на «сколько уже?» → по-русски настоящее, по-английски всегда перфект. Спрашивают про длительность через **How long have you worked here?**, а отвечают коротко: **For two years.** / **Since Monday.** Ловушка того же корня в вопросе: **How long do you know Sam?** ✗ → **How long have you known Sam?** ✓.",
+      "examples": [
+        {
+          "ru": "Я знаю его десять лет.",
+          "en": "I've known him for ten years."
+        },
+        {
+          "ru": "Я живу здесь с 2019 года.",
+          "en": "I've lived here since 2019."
+        },
+        {
+          "ru": "Как долго ты здесь работаешь?",
+          "en": "How long have you worked here?"
+        },
+        {
+          "ru": "— Сколько уже? — Пару месяцев.",
+          "en": "— How long? — For a couple of months."
+        },
+        {
+          "ru": "Совещание идёт уже два часа.",
+          "en": "The meeting has lasted for two hours."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему I live here since 2019 считается ошибкой?",
+        "Как ответить на вопрос How long have you worked here?",
+        "Значит ли перфект, что я больше здесь не живу?"
+      ]
+    },
+    {
+      "id": 380,
+      "microtopicId": 141,
+      "title": "It's been a while: обороты про долгую паузу",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В теме «Linking Words» нам встретилась фраза `It's been a while!`, и тогда мы честно сказали: внутри спрятано время, которого мы ещё не проходили, пока просто запомните целиком. Время пройдено — возвращаемся и вскрываем формулу."
+        },
+        {
+          "type": "heading",
+          "text": "Что там внутри на самом деле"
+        },
+        {
+          "type": "paragraph",
+          "text": "`It's been a while` — это `It has been a while`, то есть обычный перфект, собранный по правилам, которые мы теперь знаем."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`it` — безличное подлежащее, то самое, что стоит в **It's cold** и **It's Monday**; на русский оно не переводится",
+            "`has been` — перфект от `to be`: третья форма `been` уже разобрана в микротеме «Был и вернулся ↔ уехал»",
+            "`a while` — промежуток времени, «некоторое время»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дословно получается «прошло некоторое время» — и, конечно, подразумевается «с тех пор, как мы виделись». Никакой особой магии в застывшей фразе нет: это ровно то же прошлое, дотянутое до настоящего, ради которого и существует всё это время."
+        },
+        {
+          "type": "heading",
+          "text": "Родня этой фразы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вокруг неё живёт целое гнездо оборотов про долгую паузу, и все они встречаются в первые же дни живого общения."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's been ages.** — сто лет прошло",
+            "**I haven't seen you for ages.** — сто лет тебя не видел",
+            "**We haven't spoken since March.** — не говорили с марта",
+            "**Long time no see.** — сколько лет, сколько зим"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Ages` дословно «века», но никто не имеет в виду века — это обычное разговорное преувеличение, ровно как русское «сто лет». Две недели без встреч уже дают полное право сказать **It's been ages**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чем они отличаются по тону"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между ними не в смысле, а в регистре, и её стоит держать в голове, чтобы не сказать приятельскую фразу там, где нужна нейтральная."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "Тон",
+            "Где уместно"
+          ],
+          "rows": [
+            [
+              "It's been a while.",
+              "тёплое, нейтральное",
+              "почти везде, включая работу"
+            ],
+            [
+              "It's been ages.",
+              "эмоциональнее, дружеское",
+              "друзья, знакомые"
+            ],
+            [
+              "Long time no see.",
+              "совсем разговорное",
+              "приятели, неформальная встреча"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Long time no see` — фраза нарочно «неправильная»: в ней нет ни подлежащего, ни глагола, и разбирать её по частям бесполезно. Такие застывшие обороты в языке существуют отдельно от грамматики, их берут целиком, как одно длинное слово. Не пытайтесь построить по этому образцу что-то своё — **long time no eat** ✗ звучит просто нелепо."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "С `for` и `since` бывает не только эта форма, но и длительная — **I've been waiting for an hour**. Она подчёркивает сам процесс, который всё это время шёл, а не результат. Это Present Perfect Continuous, третья тема нашего раздела; пока достаточно узнавать её в тексте."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`It's been a while` — это `It has been a while`, обычный перфект: безличное `it`, третья форма `been` и `a while` в значении «некоторое время». Дословно «прошло некоторое время», подразумевается «с тех пор, как виделись». Рядом живут **It's been ages**, **I haven't seen you for ages** и **Long time no see** — все про долгую паузу, разница только в тоне: `It's been a while` нейтральное и годится даже на работе, `It's been ages` дружеское, `Long time no see` совсем разговорное. `ages` — это преувеличение вроде русского «сто лет», а не буквальные века. `Long time no see` нарочно построена не по правилам: её берут целиком и по образцу ничего не строят.",
+      "examples": [
+        {
+          "ru": "Привет! Давно не виделись!",
+          "en": "Hi! It's been a while!"
+        },
+        {
+          "ru": "Сто лет тебя не видел.",
+          "en": "I haven't seen you for ages."
+        },
+        {
+          "ru": "Мы не разговаривали с марта.",
+          "en": "We haven't spoken since March."
+        },
+        {
+          "ru": "Сколько лет, сколько зим!",
+          "en": "Long time no see!"
+        },
+        {
+          "ru": "Прошло уже пару месяцев с тех пор, как мы встречались.",
+          "en": "It's been a couple of months since we met."
+        }
+      ],
+      "clarificationOptions": [
+        "Что именно значит been в фразе It's been a while?",
+        "Почему Long time no see построена не по правилам?",
+        "Когда лучше сказать it's been ages, а когда it's been a while?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3261,6 +3731,66 @@
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 45,
       "orderInCard": 3
+    },
+    {
+      "cardId": 378,
+      "exerciseType": "MATCHING",
+      "exerciseId": 54,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 378,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 31,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 378,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 158,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 379,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 141,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 379,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 178,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 379,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 156,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 379,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 143,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 380,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 38,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 380,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 46,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 380,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 70,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -3343,6 +3873,22 @@
       "userInstruction": "Скажите по-английски то, что происходит в ситуации.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_perfect_card378_ex1",
+      "cardId": 378,
+      "title": "for или since",
+      "userInstruction": "Вставьте в каждое предложение подходящее слово.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_perfect_card380_ex1",
+      "cardId": 380,
+      "title": "Ответь на приветствие",
+      "userInstruction": "Ответьте собеседнику по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -3633,6 +4179,46 @@
       "transcription": "[prɪˈpeə]",
       "microtopicId": 140,
       "categoryId": "tenses"
+    },
+    {
+      "id": 641,
+      "word": "since",
+      "translation": "с (какого-то момента)",
+      "transcription": "[sɪns]",
+      "microtopicId": 141,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 642,
+      "word": "to last",
+      "translation": "длиться, продолжаться",
+      "transcription": "[lɑːst]",
+      "microtopicId": 141,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 643,
+      "word": "whole",
+      "translation": "целый, весь",
+      "transcription": "[həʊl]",
+      "microtopicId": 141,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 644,
+      "word": "wife",
+      "translation": "жена",
+      "transcription": "[waɪf]",
+      "microtopicId": 141,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 645,
+      "word": "couple",
+      "translation": "пара, парочка",
+      "transcription": "[ˈkʌpl]",
+      "microtopicId": 141,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -3693,6 +4279,37 @@
         }
       ],
       "explanation": "правильные глаголы получают -ed: wash → washed, open → opened. У неправильных берётся третья колонка: у dig она совпадает со второй (dug), а у break, forgive и sink отличается — broken, forgiven, sunk."
+    },
+    {
+      "id": 31,
+      "taskDescription": "впиши for или since.",
+      "rows": [
+        {
+          "hint": "___ 2015",
+          "answer": "since"
+        },
+        {
+          "hint": "___ six weeks",
+          "answer": "for"
+        },
+        {
+          "hint": "___ Tuesday",
+          "answer": "since"
+        },
+        {
+          "hint": "___ half an hour",
+          "answer": "for"
+        },
+        {
+          "hint": "___ nine o'clock",
+          "answer": "since"
+        },
+        {
+          "hint": "___ a couple of hours",
+          "answer": "for"
+        }
+      ],
+      "explanation": "смотреть надо на то, что стоит после слова: количество времени — значит for, момент или целое событие — значит since. Дата и день недели это точки на оси, а минуты, дни и лето — длина отрезка."
     }
   ],
   "true_false_exercises": [
@@ -3819,6 +4436,37 @@
         }
       ],
       "explanation": "во втором предложении already залезло перед помощником: правильно We have already finished. В четвёртом потеряна третья форма: правильно I have already prepared the room."
+    },
+    {
+      "id": 156,
+      "statements": [
+        {
+          "en": "Emma has studied French for six years.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She lives in Madrid since 2020.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We have known Ben since university.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He has had this phone for three years.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "How long do you work at this café?",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "во втором предложении взято настоящее время вместо перфекта: правильно She has lived in Madrid since 2020. В пятом та же ошибка в вопросе: правильно How long have you worked at this café."
     }
   ],
   "word_arrangement_exercises": [
@@ -3933,6 +4581,24 @@
         "just now"
       ],
       "explanation": "после have идёт третья форма cleaned, а just встаёт между ними. Has годится только для he, she, it, а clean без окончания оставляет фразу без третьей формы."
+    },
+    {
+      "id": 143,
+      "situationRu": "RU: Как долго они изучают английский?",
+      "correctSentence": "How long have they studied English?",
+      "words": [
+        "How long",
+        "have",
+        "they",
+        "studied",
+        "English"
+      ],
+      "distractors": [
+        "do",
+        "study",
+        "since"
+      ],
+      "explanation": "вопрос про длительность строится на перфекте: have стоит после вопросительного слова, а глагол берёт третью форму. Помощник do притащен из настоящего времени и здесь лишний."
     }
   ],
   "multiple_choice_exercises": [
@@ -4208,6 +4874,48 @@
         }
       ],
       "explanation": "предложение отрицательное, значит нужно yet, и место у него в самом конце. Already работает только в утверждении, а just сообщал бы, что дело только что сделано."
+    },
+    {
+      "id": 158,
+      "choiceType": "CHOICE",
+      "prompt": "Nick has had this bike ___ 2019.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "for",
+          "isCorrect": false
+        },
+        {
+          "text": "since",
+          "isCorrect": true
+        },
+        {
+          "text": "from",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "2019 — это точка старта, а не длина отрезка, поэтому нужно since. From отвечает за место и движение откуда-то: русское «с 2019» тянет его по привычке, но во времени точку держит since."
+    },
+    {
+      "id": 178,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Оля живёт в Праге уже два года.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Olya lives in Prague for two years.",
+          "isCorrect": false
+        },
+        {
+          "text": "Olya is living in Prague since two years.",
+          "isCorrect": false
+        },
+        {
+          "text": "Olya has lived in Prague for two years.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "русское настоящее время здесь переводится перфектом, потому что действие началось раньше и продолжается. Два года это длина отрезка, значит for, а не since."
     }
   ],
   "text_input_exercises": [
@@ -4469,6 +5177,34 @@
         }
       ],
       "explanation": "отрицательный короткий ответ с этим словом звучит как Not yet. Already в отрицание не идёт вовсе, а порядок Yet not в английском невозможен."
+    },
+    {
+      "id": 46,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi Lucy! I haven't seen you since school!"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Since ages, yes!",
+          "isCorrect": false
+        },
+        {
+          "text": "I know, it's been a while!",
+          "isCorrect": true
+        },
+        {
+          "text": "Yes, it's been a while ago.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "естественный ответ на такое приветствие — та же формула it's been a while. Слово ago сюда не ставят: оно отправляет фразу в законченное прошлое, а since требует после себя точку старта, а не преувеличение."
     }
   ],
   "matching_exercises": [
@@ -4517,6 +5253,33 @@
         }
       ],
       "explanation": "to рассказывает про закрытую поездку, in — про нахождение, которое ещё идёт, а gone отправляет человека прочь. Без предлога been просто называет состояние."
+    },
+    {
+      "id": 54,
+      "taskDescription": "соедини русскую фразу с английской.",
+      "pairs": [
+        {
+          "left": "уже три часа",
+          "right": "for three hours"
+        },
+        {
+          "left": "с прошлого лета",
+          "right": "since last summer"
+        },
+        {
+          "left": "целый вечер",
+          "right": "for the whole evening"
+        },
+        {
+          "left": "с тех пор, как купил машину",
+          "right": "since I bought the car"
+        },
+        {
+          "left": "пару недель",
+          "right": "for a couple of weeks"
+        }
+      ],
+      "explanation": "for отвечает на «сколько времени» и берёт длину отрезка, а since называет точку старта — дату, день или целое событие с подлежащим и глаголом."
     }
   ],
   "error_correction_exercises": [
@@ -4633,6 +5396,25 @@
         }
       ],
       "explanation": "слово вынесено в начало по русской привычке, а в английском оно живёт строго между have и третьей формой. Вариант с just перед the bill меняет смысл на «оплатил всего лишь счёт»."
+    },
+    {
+      "id": 141,
+      "wrongSentence": "Tom drives this car since 2020.",
+      "options": [
+        {
+          "text": "Tom has driven this car since 2020.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tom is driving this car since 2020.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tom drives this car for 2020.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "действие началось раньше и продолжается сейчас, поэтому нужен перфект has driven, а не настоящее время. Год — это точка старта, значит since остаётся на месте."
     }
   ],
   "construction_meaning_exercises": [
@@ -4704,6 +5486,29 @@
         }
       ],
       "explanation": "фраза перечисляет биографию: четыре города — это её послужной список, а не сегодняшнее место жительства и не конкретный отрезок прошлого."
+    },
+    {
+      "id": 38,
+      "construction": "It's been ages since we talked.",
+      "options": [
+        {
+          "text": "Мы говорили об этом целую вечность.",
+          "isCorrect": false
+        },
+        {
+          "text": "Это заняло много времени.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мы сто лет не общались.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мы поговорим через несколько лет.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "внутри фразы перфект it has been, то есть «прошло время», а ages это разговорное преувеличение вроде русского «сто лет». Речь о паузе между разговорами, а не о том, что разговор был долгим."
     }
   ],
   "transformation_exercises": [
@@ -4924,6 +5729,29 @@
         }
       ],
       "explanation": "в четвёртом предложении два отрицания сразу — hasn't и never. Оставить нужно одно: He has never called me или He hasn't called me."
+    },
+    {
+      "id": 70,
+      "groupDescription": "Три фразы говорят об одном и том же — найди лишнюю",
+      "items": [
+        {
+          "text": "It's been a while.",
+          "isOdd": false
+        },
+        {
+          "text": "Long time no see.",
+          "isOdd": false
+        },
+        {
+          "text": "I haven't seen you for ages.",
+          "isOdd": false
+        },
+        {
+          "text": "See you in a while.",
+          "isOdd": true
+        }
+      ],
+      "explanation": "первые три говорят о долгой паузе, которая уже случилась, а последняя это прощание и смотрит в будущее — «до скорого»."
     }
   ]
 }
