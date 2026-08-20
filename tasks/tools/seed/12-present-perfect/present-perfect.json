@@ -81,6 +81,13 @@
       "title": "Unfinished Time · Отрезок, который ещё не кончился",
       "order": 9,
       "searchKeywords": "сегодня или вчера, recently или ago, recently или lately, yesterday с have нельзя, so far, today и this week"
+    },
+    {
+      "id": 143,
+      "topicId": 22,
+      "title": "Have Got · Есть, а не получил",
+      "order": 10,
+      "searchKeywords": "have got или have, что значит i've got, у меня есть по-английски, ive got to go, do you have, gotta"
     }
   ],
   "grammar_cards": [
@@ -3762,6 +3769,372 @@
         "Почему so far это «пока что», а не «так далеко»?",
         "Можно ли сказать I've seen him recently и I saw him recently?"
       ]
+    },
+    {
+      "id": 383,
+      "microtopicId": 143,
+      "title": "I've got a car: форма перфекта, смысл настоящего",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Три микротемы подряд мы вбивали в голову одно: `have` плюс третья форма означает, что нечто случилось и оставило след. А теперь возьмём фразу, которую вы услышите в первый же день живого общения: **I've got a car**. Форма — чистейший перфект, всё на месте: `have`, третья форма `got`. И читается она... совсем не так, как подсказывает выученное правило."
+        },
+        {
+          "type": "heading",
+          "text": "Что это на самом деле значит"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I've got a car** = **I have a car**. У меня есть машина. Никакого прошлого, никакого результата, никакого «я получил» — обычное владение прямо сейчас. Два предложения означают ровно одно и то же, и англичанин выберет между ними не по смыслу, а по настроению."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've got a cousin in Lisbon.** — у меня есть двоюродный брат в Лиссабоне",
+            "**She's got two cats.** — у неё две кошки",
+            "**I've got a headache.** — у меня болит голова",
+            "**We've got twenty minutes.** — у нас двадцать минут"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание, насколько разные вещи «принадлежат» человеку в этих примерах: родственник, кошки, головная боль, минуты. Английское `have got` покрывает всё то же, что русское «у меня есть», — от вещей до состояний."
+        },
+        {
+          "type": "heading",
+          "text": "Почему форма обманывает"
+        },
+        {
+          "type": "paragraph",
+          "text": "`got` здесь действительно третья форма от `to get`. Но конструкция застыла в языке целиком, и внутри неё `got` больше не несёт своего значения «получил» — он просто часть окаменевшей формы, как ручка на двери, которую никто не воспринимает отдельно от двери."
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском есть точно такая же окаменелость, и мы её не замечаем: «у меня **есть** машина». Слово «есть» тут вообще не про еду и даже не про глагол «быть» в живом смысле — это застывший остаток, который держит конструкцию. Никто не переспрашивает «что значит „есть“ в этой фразе?» — берут целиком. С `have got` ровно то же самое."
+        },
+        {
+          "type": "heading",
+          "text": "Третье лицо: has got"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило то же, что и во всём перфекте: `he`, `she`, `it` берут `has`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He's got a new job.** — у него новая работа",
+            "**She's got a spare key.** — у неё есть запасной ключ",
+            "**The flat has got two rooms.** — в квартире две комнаты"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И здесь возвращается ловушка, которую мы разбирали в микротеме «Сокращения: 've, 's и ловушка на слух»: `'s` — это и `has`, и `is`. Различает их то, что идёт следом: **He's got a car** — за сокращением стоит `got`, значит `has`."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Собираются по правилам перфекта, никаких сюрпризов: `not` цепляется к помощнику, а в вопросе помощник прыгает вперёд подлежащего."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I haven't got a charger.** — у меня нет зарядки",
+            "**Have you got any cash?** — у тебя есть наличные?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/Has + подлежащее + got + …?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Краткие ответы тоже перфектные: **Yes, I have.** / **No, I haven't.** Отвечать `Yes, I got` нельзя — помощник обязан вернуться в ответ целым."
+        },
+        {
+          "type": "heading",
+          "text": "have, have got и do you have — кто где живёт"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это три способа сказать одно и то же, и разница между ними не в смысле, а в регистре и географии."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Конструкция",
+            "Где живёт",
+            "Тон"
+          ],
+          "rows": [
+            [
+              "I have a car.",
+              "везде, особенно на письме",
+              "нейтральное, всегда уместно"
+            ],
+            [
+              "I've got a car.",
+              "британская разговорная речь",
+              "живое, в устной речи чаще всего"
+            ],
+            [
+              "Do you have a car?",
+              "американский стандарт",
+              "нейтральное, понятно везде"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Для нас вывод практический: **говорить** можно любым из них, вас поймут в любом случае. А вот **понимать** `have got` обязательно — в британских сериалах, песнях и обычном разговоре эта форма звучит постоянно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I've got a letter** ≠ «я получил письмо». Получил — это **I got a letter**, обычное прошедшее время, без `have`. Разница между фразами всего в одном слове-помощнике, а смысл разъезжается полностью: с `have` — «у меня есть письмо», без `have` — «мне пришло письмо». Проверяйте наличие помощника, а не слово `got`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Have got` живёт **только в настоящем времени**. **Last year I had got a small flat** ✗ — в прошедшем конструкция разваливается, и там работает обычный глагол: **Last year I had a small flat** ✓. То же и с будущим: «у меня будет» — это **I'll have**, а не `I'll have got`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В живой речи `have got` почти всегда сокращают — **I've got**, **she's got**, **we've got**. Полная форма `I have got` звучит натужно и старомодно, примерно как русское «я имею автомобиль» вместо «у меня есть машина»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "**I've got a car** = **I have a car** — «у меня есть машина», обычное владение в настоящем, а НЕ «я получил». Форма перфектная, но застывшая: `got` внутри неё не значит «получил», как русское «есть» в «у меня есть» не значит «кушать». Третье лицо берёт `has`: **She's got a spare key**. Отрицание и вопрос — по правилам перфекта: **I haven't got a charger**, **Have you got any cash?**, краткий ответ **Yes, I have.** / **No, I haven't.** Три способа сказать одно и то же: `I have a car` (нейтрально, письменно), `I've got a car` (британская разговорная речь), `Do you have a car?` (американский вариант). Две ловушки: **I've got a letter** = «у меня есть письмо», а «получил» — это **I got a letter** без помощника; и `have got` бывает ТОЛЬКО в настоящем — **Last year I had got a flat** ✗ → **Last year I had a flat** ✓.",
+      "examples": [
+        {
+          "ru": "У меня есть двоюродный брат в Лиссабоне.",
+          "en": "I've got a cousin in Lisbon."
+        },
+        {
+          "ru": "У неё есть запасной ключ.",
+          "en": "She's got a spare key."
+        },
+        {
+          "ru": "У меня нет зарядки.",
+          "en": "I haven't got a charger."
+        },
+        {
+          "ru": "У тебя есть наличные?",
+          "en": "Have you got any cash?"
+        },
+        {
+          "ru": "В прошлом году у меня была маленькая квартира.",
+          "en": "Last year I had a small flat."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем I've got a car отличается от I have a car?",
+        "Почему нельзя сказать I had got a car про прошлое?",
+        "Как понять, где got это «получил», а где «есть»?"
+      ]
+    },
+    {
+      "id": 384,
+      "microtopicId": 143,
+      "title": "I've got to go: got плюс to значит надо",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У этой конструкции есть второе значение, и оно не имеет с владением ничего общего. Хорошая новость: перепутать их невозможно, потому что различает их не смысл фразы и не интонация, а одна механическая примета."
+        },
+        {
+          "type": "heading",
+          "text": "have got to = надо"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если после `got` стоит `to` и глагол, конструкция означает обязанность: «мне надо», «мне нужно», «я должен»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've got to go now.** — мне надо идти",
+            "**She's got to work on Saturday.** — ей надо работать в субботу",
+            "**We've got to borrow a car for the weekend.** — нам надо одолжить машину на выходные"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это самый обычный способ сказать «надо» в живой британской речи — не книжный, не формальный, именно повседневный."
+        },
+        {
+          "type": "heading",
+          "text": "Ключ, который снимает всю путаницу"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотрите не на `got`, а на то, что идёт **сразу после него**. Примета работает механически, без исключений."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "Что стоит после got",
+            "Смысл"
+          ],
+          "rows": [
+            [
+              "I've got a bike.",
+              "существительное",
+              "у меня есть велосипед"
+            ],
+            [
+              "I've got to go.",
+              "to и глагол",
+              "мне надо идти"
+            ],
+            [
+              "I got a bike.",
+              "помощника нет вообще",
+              "я получил велосипед, прошедшее время"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Третья строка — та самая пара из прошлой карточки: без помощника `have` это уже не конструкция, а обычный глагол `to get` в прошедшем времени. Итого три разных смысла, и все три различаются по формальным приметам, а не на слух."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/has got + to + глагол = надо"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чем это отличается от must"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница тонкая, но её стоит поймать сразу. `I've got to` — это про **конкретный случай здесь и сейчас**: обстоятельства сложились так, что надо. **I've got to go now** — не потому что таково правило жизни, а потому что автобус через десять минут."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть ещё `must` и `have to`, и они тоже переводятся русским «надо». Полный разбор всех троих со всеми оттенками ждёт нас в теме «Модальные глаголы» — там мы разложим, где обязанность идёт изнутри, а где её навязали обстоятельства. Пока достаточно рабочей формулы: `have got to` = «надо», и звучит она разговорно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как это отрицают"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот здесь язык поступает неожиданно: отрицание через `haven't got to` почти не используется. Чтобы сказать «мне не надо», берут другую конструкцию — **I don't have to**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I don't have to work tomorrow.** — мне не надо завтра работать",
+            "**She doesn't have to wait.** — ей не надо ждать"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Запоминать тут нечего, просто примите к сведению: утверждение живёт с `got`, отрицание уходит к `have to`. А вопрос с `got` вполне нормален: **Have you got to leave so early?**"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В очень быстрой разговорной речи и в песнях `have` вообще выпадает, а `got to` сливается в одно слово: **I gotta go**, **We gotta talk**. Так пишут в чатах и поют в припевах, но в письме и на работе так не пишут. Стяжения такого рода — `gonna`, `wanna`, `gotta` — разбираем целиком в теме «Разговорный английский»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I've got go now** ✗ — потерялось `to`, и фраза рассыпается: получается «у меня есть идти». Русское «мне надо идти» звучит одним куском, без всякой частицы посередине, поэтому рука её и роняет. Правильно **I've got to go now** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`have got` плюс `to` плюс глагол означает обязанность — «надо»: **I've got to go now**, **She's got to work on Saturday**. Различает два смысла не интонация, а то, что стоит сразу после `got`: существительное → владение (**I've got a bike**), `to` и глагол → надо (**I've got to go**), а если помощника `have` нет вообще — это обычное прошедшее время «получил» (**I got a bike**). `have got to` звучит разговорно и говорит про конкретный случай, а не про правило вообще; полное сравнение с `must` и `have to` — в теме «Модальные глаголы». Отрицают эту идею иначе: **I don't have to work tomorrow** («мне не надо»), а не через `haven't got to`. Ловушка: **I've got go now** ✗ — потеряно `to`, правильно **I've got to go now** ✓.",
+      "examples": [
+        {
+          "ru": "Мне надо идти.",
+          "en": "I've got to go now."
+        },
+        {
+          "ru": "Ей надо работать в субботу.",
+          "en": "She's got to work on Saturday."
+        },
+        {
+          "ru": "Нам надо одолжить машину на выходные.",
+          "en": "We've got to borrow a car for the weekend."
+        },
+        {
+          "ru": "Мне завтра не надо работать.",
+          "en": "I don't have to work tomorrow."
+        },
+        {
+          "ru": "Тебе надо уходить так рано?",
+          "en": "Have you got to leave so early?"
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить I've got to от I've got?",
+        "Чем I've got to go отличается от I must go?",
+        "Почему «мне не надо» это don't have to, а не haven't got to?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4202,6 +4575,54 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 71,
       "orderInCard": 3
+    },
+    {
+      "cardId": 383,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 39,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 383,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 59,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 383,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 143,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 383,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 47,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 384,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 81,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 384,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 180,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 384,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 74,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 384,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 158,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -4308,6 +4729,22 @@
       "userInstruction": "Ответьте на вопрос по-английски одним предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "present_perfect_card383_ex1",
+      "cardId": 383,
+      "title": "Спроси, есть ли",
+      "userInstruction": "Задайте собеседнику вопрос по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_perfect_card384_ex1",
+      "cardId": 384,
+      "title": "Скажи, что надо сделать",
+      "userInstruction": "Переведите предложение на английский.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -4678,6 +5115,46 @@
       "transcription": "[ˈmiːtɪŋ]",
       "microtopicId": 142,
       "categoryId": "tenses"
+    },
+    {
+      "id": 651,
+      "word": "cousin",
+      "translation": "двоюродный брат, двоюродная сестра",
+      "transcription": "[ˈkʌzn]",
+      "microtopicId": 143,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 652,
+      "word": "headache",
+      "translation": "головная боль",
+      "transcription": "[ˈhedeɪk]",
+      "microtopicId": 143,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 653,
+      "word": "cash",
+      "translation": "наличные",
+      "transcription": "[kæʃ]",
+      "microtopicId": 143,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 654,
+      "word": "spare",
+      "translation": "запасной, лишний",
+      "transcription": "[speə]",
+      "microtopicId": 143,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 655,
+      "word": "to borrow",
+      "translation": "одалживать, брать взаймы",
+      "transcription": "[ˈbɒrəʊ]",
+      "microtopicId": 143,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -4957,6 +5434,37 @@
         }
       ],
       "explanation": "во втором и четвёртом предложениях перфект стоит рядом с закрытым отрезком: правильно She called me yesterday и He cleaned the kitchen last night. В остальных отрезок ещё идёт, поэтому перфект на месте."
+    },
+    {
+      "id": 158,
+      "statements": [
+        {
+          "en": "I've got to leave in ten minutes.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She's got two cousins in Warsaw.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I've got go home early today.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "When she was ten she had got a pet.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Have you got to work this weekend?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в третьем предложении потеряно to перед глаголом: правильно I've got to go home early today. В четвёртом конструкция поставлена в прошедшее время, где она не работает: правильно When she was ten she had a pet."
     }
   ],
   "word_arrangement_exercises": [
@@ -5467,6 +5975,27 @@
         }
       ],
       "explanation": "точная дата не названа, поэтому нужен перфект has lost, а recently спокойно встаёт между has и третьей формой. Слово ago лишнее: оно требует количества времени перед собой и закрывает отрезок."
+    },
+    {
+      "id": 180,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мне надо позвонить врачу.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I've got to call the doctor.",
+          "isCorrect": true
+        },
+        {
+          "text": "I've got call the doctor.",
+          "isCorrect": false
+        },
+        {
+          "text": "I've got a call the doctor.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "обязанность передаётся связкой got плюс to плюс глагол. Без to фраза рассыпается, а с артиклем a слово call превращается в существительное «звонок»."
     }
   ],
   "text_input_exercises": [
@@ -5614,6 +6143,31 @@
         "yet",
         "already"
       ]
+    },
+    {
+      "id": 74,
+      "items": [
+        {
+          "sentence": "He's ___ to leave early tomorrow.",
+          "contextRu": "",
+          "answer": "got",
+          "alternatives": []
+        },
+        {
+          "sentence": "They've got ___ clean the kitchen.",
+          "contextRu": "",
+          "answer": "to",
+          "alternatives": []
+        },
+        {
+          "sentence": "Have you ___ a pen?",
+          "contextRu": "",
+          "answer": "got",
+          "alternatives": []
+        }
+      ],
+      "explanation": "в первом и третьем предложениях не хватает самого got, без которого конструкции нет. Во втором got уже стоит, но потеряно to, а без него получилось бы «у них есть убрать».",
+      "taskDescription": "Впиши пропущенное слово."
     }
   ],
   "dialog_restore_exercises": [
@@ -5756,6 +6310,34 @@
         }
       ],
       "explanation": "естественный ответ на такое приветствие — та же формула it's been a while. Слово ago сюда не ставят: оно отправляет фразу в законченное прошлое, а since требует после себя точку старта, а не преувеличение."
+    },
+    {
+      "id": 47,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you got an umbrella?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "No, I don't got one.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, I haven't got. Sorry.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, I haven't. Sorry.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "краткий ответ повторяет тот помощник, с которого начался вопрос: Have you got…? — No, I haven't. Слово got в краткий ответ не тащат, а помощник do в этой конструкции не участвует вовсе."
     }
   ],
   "matching_exercises": [
@@ -6012,6 +6594,25 @@
         }
       ],
       "explanation": "last week называет закрытый отрезок, а перфект работает только там, где отрезок ещё идёт или точка не названа. Поэтому нужно обычное прошедшее время finished."
+    },
+    {
+      "id": 143,
+      "wrongSentence": "When I was a student I had got a bike.",
+      "options": [
+        {
+          "text": "When I was a student I had a bike.",
+          "isCorrect": true
+        },
+        {
+          "text": "When I was a student I have got a bike.",
+          "isCorrect": false
+        },
+        {
+          "text": "When I was a student I was having a bike.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "конструкция have got работает только в настоящем времени, в прошедшем она разваливается. Про прошлое говорят обычным глаголом had."
     }
   ],
   "construction_meaning_exercises": [
@@ -6106,6 +6707,29 @@
         }
       ],
       "explanation": "внутри фразы перфект it has been, то есть «прошло время», а ages это разговорное преувеличение вроде русского «сто лет». Речь о паузе между разговорами, а не о том, что разговор был долгим."
+    },
+    {
+      "id": 39,
+      "construction": "She's got a new phone.",
+      "options": [
+        {
+          "text": "Она получила новый телефон.",
+          "isCorrect": false
+        },
+        {
+          "text": "У неё есть новый телефон.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ей надо купить новый телефон.",
+          "isCorrect": false
+        },
+        {
+          "text": "Её телефон стал новым.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "has got это застывшая конструкция со значением владения в настоящем времени, а не рассказ о том, как телефон появился. «Получила» было бы She got a new phone, без помощника has."
     }
   ],
   "transformation_exercises": [
@@ -6184,6 +6808,25 @@
         }
       ],
       "explanation": "already встаёт ровно между помощником и третьей формой, ничего больше в предложении не меняется. Позиция перед have или после дополнения дала бы либо ошибку, либо оттенок нажима."
+    },
+    {
+      "id": 59,
+      "taskDescription": "сделай каждое предложение вопросом.",
+      "items": [
+        {
+          "original": "You have got a bike.",
+          "transformed": "Have you got a bike?"
+        },
+        {
+          "original": "She has got a pet.",
+          "transformed": "Has she got a pet?"
+        },
+        {
+          "original": "They have got a spare room.",
+          "transformed": "Have they got a spare room?"
+        }
+      ],
+      "explanation": "вопрос строится как в любом перфекте: помощник have или has прыгает вперёд подлежащего, а got остаётся на месте. Помощник выбирается по подлежащему: she берёт has, you и they берут have."
     }
   ],
   "categorization_exercises": [
@@ -6301,6 +6944,29 @@
         }
       ],
       "explanation": "сегодняшний день, этот год и эта неделя ещё не кончились, поэтому счёт внутри них открыт и берётся перфект. Прошлая ночь, 2020 год и час назад — закрытые отрезки, в них уже ничего не добавить."
+    },
+    {
+      "id": 81,
+      "taskDescription": "распредели фразы по тому, о чём они говорят.",
+      "categories": [
+        {
+          "title": "У меня есть",
+          "items": [
+            "I've got two tickets.",
+            "I've got a sore throat.",
+            "I've got a small dog."
+          ]
+        },
+        {
+          "title": "Мне надо",
+          "items": [
+            "I've got to call my boss.",
+            "I've got to finish this today.",
+            "I've got to wash the car."
+          ]
+        }
+      ],
+      "explanation": "решает то, что стоит сразу после got: существительное означает владение, а to с глаголом означает обязанность. Больше никаких примет искать не нужно."
     }
   ],
   "find_the_odd_exercises": [
