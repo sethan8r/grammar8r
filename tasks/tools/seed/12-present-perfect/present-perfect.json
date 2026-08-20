@@ -74,6 +74,13 @@
       "title": "For / Since · Сколько это длится",
       "order": 8,
       "searchKeywords": "have lived или live, с какого момента, how long have you, it's been a while, сколько уже длится, long time no see"
+    },
+    {
+      "id": 142,
+      "topicId": 22,
+      "title": "Unfinished Time · Отрезок, который ещё не кончился",
+      "order": 9,
+      "searchKeywords": "сегодня или вчера, recently или ago, recently или lately, yesterday с have нельзя, so far, today и this week"
     }
   ],
   "grammar_cards": [
@@ -3399,6 +3406,362 @@
         "Почему Long time no see построена не по правилам?",
         "Когда лучше сказать it's been ages, а когда it's been a while?"
       ]
+    },
+    {
+      "id": 381,
+      "microtopicId": 142,
+      "title": "today и this week: период ещё идёт",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы уже знаем три работы перфекта: показать результат, который виден сейчас; назвать опыт за всю жизнь; сказать, сколько что-то длится. Есть и четвёртая, и она самая незаметная — потому что решает всё не глагол, а маленькое слово рядом с ним: **today, this week, this month, this year**."
+        },
+        {
+          "type": "heading",
+          "text": "Отрезок времени — это коробка, и у неё есть крышка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Представьте, что каждый кусок времени — коробка, в которую складывают события дня. Вчерашняя коробка заклеена: что туда попало, то попало, добавить в неё уже нечего и пересчитывать бессмысленно. А сегодняшняя стоит открытой до самой полуночи — в неё ещё можно что-нибудь положить."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский эту разницу слышит и требует за неё платить формой глагола. Пока коробка открыта, всё, что в неё легло, — часть **сегодняшнего расклада**, а не история. Значит, перфект:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've drunk three coffees today.** — три штуки, и день ещё не кончился",
+            "**Kate has had two meetings today.** — два совещания, к вечеру может быть третье",
+            "**We've walked ten kilometres this week.** — счёт открыт, неделя идёт",
+            "**The shop has sold forty tickets this month.** — месяц не закрыт, цифра ещё вырастет"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметьте, что тут нет ни результата на полу, ни опыта за всю жизнь. Есть только незакрытый отрезок — и одного этого хватает, чтобы включить перфект."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка одним вопросом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Гадать не нужно, вопрос всего один: **этот отрезок уже закрылся?** Если нет — берём перфект. Если да — событие ушло в закрытую коробку, и это уже обычное прошедшее время."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Отрезок",
+            "Крышка закрыта?",
+            "Что берём"
+          ],
+          "rows": [
+            [
+              "today",
+              "нет, день идёт",
+              "перфект"
+            ],
+            [
+              "this week",
+              "нет, неделя идёт",
+              "перфект"
+            ],
+            [
+              "this month",
+              "нет, месяц идёт",
+              "перфект"
+            ],
+            [
+              "this year",
+              "нет, год идёт",
+              "перфект"
+            ],
+            [
+              "yesterday",
+              "да, заклеена",
+              "прошедшее"
+            ],
+            [
+              "last week",
+              "да, заклеена",
+              "прошедшее"
+            ],
+            [
+              "in 2019",
+              "да, заклеена",
+              "прошедшее"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это ровно та же мысль, что держит всю тему: назвал закрытый момент — фото ушло в альбом. Просто здесь закрывается не точка, а целый отрезок."
+        },
+        {
+          "type": "heading",
+          "text": "this morning — коробка, которая закрывается в обед"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое интересное начинается со слов, которые в течение одного дня меняют сторону. `this morning` открыто, пока утро не кончилось, — и захлопывается, как только наступил день."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "сказано в десять утра: **I've had two coffees this morning** ✓ — утро идёт, счёт может вырасти",
+            "то же самое, сказанное вечером: **I had two coffees this morning** ✓ — утро давно закрыто"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни одна из фраз не «правильнее» другой: они про разное время суток. И это лучшее доказательство, что английский смотрит не на слово, а на то, идёт отрезок или уже кончился. Так же ведут себя `this afternoon` и `this evening`."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Та же логика объясняет, почему `today` спокойно уживается с перфектом, а `yesterday` — никогда. Дело не в том, что одно слово «дружит» с этим временем, а другое нет. Дело в крышке: вчерашняя коробка заклеена в принципе, в любой момент разговора, и открыть её обратно невозможно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский этого не замечает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь честно про наш язык. В русском «сегодня» и «вчера» устроены совершенно одинаково: обе метки просто указывают день, а глагол при них не меняется вообще. «Я выпил три кофе сегодня» и «я выпил три кофе вчера» — одна и та же форма «выпил», разница только в одном слове-метке."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому у русскоязычного в голове нет самой развилки: он не выбирает время, потому что выбирать нечего, — язык не задаёт ему этого вопроса. Английский же задаёт его каждый раз, и первое время об это спотыкаются все."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I've seen Megan yesterday** ✗ — рука взяла привычную русскую конструкцию «я видел вчера» и подставила перфект, потому что тема сейчас про перфект. Но `yesterday` — заклеенная коробка, и перфект туда не лезет: **I saw Megan yesterday** ✓. Простое правило: увидели в предложении `yesterday`, `last week`, `two days ago` или год — перфект здесь уже не жилец."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Одно и то же `this week` работает и так, и эдак — всё зависит от того, когда вы говорите. В среду **I've had three calls this week** ✓, потому что неделя идёт. Но если через месяц вспоминать ту самую неделю, она давно закрылась, и это будет уже прошедшее время. Слово не изменилось — изменилась крышка."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Слова `today`, `this week`, `this month`, `this year` называют отрезок, который **ещё не кончился**, — и поэтому требуют перфекта: **I've drunk three coffees today**, **Kate has had two meetings today**, **We've walked ten kilometres this week**. Проверка одним вопросом: этот отрезок уже закрылся? Нет → перфект; да (**yesterday**, **last week**, **in 2019**) → обычное прошедшее время. Слова вроде `this morning` меняют сторону в течение дня: утром **I've had two coffees this morning**, вечером про то же утро — **I had two coffees this morning**. Русскому это не видно, потому что у нас «сегодня» и «вчера» берут одну и ту же форму глагола («я выпил»), и выбора языком не предлагается. Отсюда ловушка **I've seen Megan yesterday** ✗ → **I saw Megan yesterday** ✓.",
+      "examples": [
+        {
+          "ru": "Я сегодня выпил три кофе.",
+          "en": "I've drunk three coffees today."
+        },
+        {
+          "ru": "У Кати сегодня было два совещания.",
+          "en": "Kate has had two meetings today."
+        },
+        {
+          "ru": "На этой неделе мы прошли десять километров.",
+          "en": "We've walked ten kilometres this week."
+        },
+        {
+          "ru": "Я сегодня утром выпил две чашки кофе.",
+          "en": "I've had two coffees this morning."
+        },
+        {
+          "ru": "Я видел Меган вчера.",
+          "en": "I saw Megan yesterday."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему с today можно перфект, а с yesterday нельзя?",
+        "Как быть с this morning, если уже вечер?",
+        "Обязательно ли в предложении вообще называть отрезок?"
+      ]
+    },
+    {
+      "id": 382,
+      "microtopicId": 142,
+      "title": "recently и so far: свежее прошлое без даты",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У незакрытого отрезка есть родня — слова, которые вообще не называют границ. Они говорят «где-то рядом с сегодняшним днём», не уточняя когда, и работают на том же принципе: раз точка не названа, отрезок дотянут до «сейчас»."
+        },
+        {
+          "type": "heading",
+          "text": "recently — недавно, но без точки на оси"
+        },
+        {
+          "type": "paragraph",
+          "text": "`recently` очерчивает окно рядом с сегодняшним днём. Оно не отвечает на вопрос «когда именно» и отвечать не собирается — в этом весь смысл слова."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've seen Ben recently.** — виделись на днях, точную дату никто не вспоминает",
+            "**Her English has improved recently.** — стало лучше, и это заметно сейчас",
+            "**They've recently moved to Dublin.** — переехали недавно и живут там"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Место у него свободное: чаще всего в конце фразы, но можно и между `have` и третьей формой — **I've recently changed my job** ✓ и **I've changed my job recently** ✓ одинаково законны."
+        },
+        {
+          "type": "heading",
+          "text": "lately — тот же смысл, другой характер"
+        },
+        {
+          "type": "paragraph",
+          "text": "`lately` мы уже встречали в теме «Наречия» — «в последнее время». Смысл почти тот же, но живёт оно в основном в вопросах и отрицаниях, а в утверждении звучит заметно реже."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Где чаще всего",
+            "Оттенок",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "recently",
+              "утверждение, вопрос, отрицание",
+              "нейтральное «недавно»",
+              "I've recently changed my job."
+            ],
+            [
+              "lately",
+              "вопрос и отрицание",
+              "«в последнее время», про полосу целиком",
+              "Have you seen Jack lately?"
+            ],
+            [
+              "so far",
+              "промежуточный итог",
+              "«пока что, до этого момента»",
+              "So far everything is fine."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между `recently` и `lately` — это разница между «на днях» и «в последнее время»: первое про случай, второе про тянущуюся полосу. **I haven't slept well lately** — не одна плохая ночь, а весь последний период."
+        },
+        {
+          "type": "heading",
+          "text": "so far — пока что, итог на середине пути"
+        },
+        {
+          "type": "paragraph",
+          "text": "`so far` подводит промежуточный итог: дела ещё не закончены, но вот как обстоят на эту минуту."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**So far I've managed everything.** — пока справляюсь, и день не кончился",
+            "**We haven't met anyone so far.** — пока никого не встретили",
+            "**So far so good.** — застывшая фраза, «пока всё идёт хорошо»"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Far` мы знаем как «далеко», и мозг честно собирает из двух знакомых слов «так далеко» — а получается ерунда вроде «так далеко я справился». `so far` про время, а не про расстояние: «пока что, до этого момента». Разбирать его по частям бесполезно, это готовое выражение."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему все трое тянут перфект"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина одна на всех и уже знакомая: ни `recently`, ни `lately`, ни `so far` не ставят на оси времени точку. Они очерчивают отрезок, который упирается вторым концом в «сейчас», — а это ровно та работа, ради которой перфект и существует."
+        },
+        {
+          "type": "heading",
+          "text": "Обратная сторона: слова, которые перфект выключают"
+        },
+        {
+          "type": "paragraph",
+          "text": "Из того же принципа сразу следует список слов-выключателей. **yesterday**, **two days ago**, **last week**, **in 2019**, **when I was a student** — все они называют закрытую точку или закрытый отрезок, а закрытое перфекту недоступно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I've booked the tickets two days ago** ✗ — самое частое место, где рушится всё выученное. Стоит появиться слову `ago`, и перфект обязан уйти: **I booked the tickets two days ago** ✓. Никакой тонкости здесь нет, правило механическое: назвал, когда именно, — перфект больше не работает."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это не значит, что `recently` намертво прибито к перфекту. Оно встречается и с прошедшим временем, когда речь об одном конкретном законченном эпизоде. Полное разведение двух времён — целиком следующая тема нашего раздела, «Compare: Past Simple vs Present Perfect»; там мы разложим по полочкам, что выбирать и почему. Пока достаточно рабочего чутья: отрезок открыт или точка не названа — перфект."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`recently`, `lately` и `so far` называют свежее прошлое **без точной даты**, поэтому тянут за собой перфект: **I've seen Ben recently**, **Have you seen Jack lately?**, **So far I've managed everything**. `recently` про случай на днях и стоит в конце фразы или между `have` и третьей формой; `lately` про тянущуюся полосу и живёт в вопросах и отрицаниях; `so far` подводит промежуточный итог — «пока что», а не «так далеко». Причина у всех одна: точка на оси не названа, отрезок упирается в «сейчас». И обратная сторона того же правила: **yesterday**, **two days ago**, **last week**, **in 2019** называют закрытую точку и перфект выключают — **I've booked the tickets two days ago** ✗ → **I booked the tickets two days ago** ✓.",
+      "examples": [
+        {
+          "ru": "Я недавно виделся с Беном.",
+          "en": "I've seen Ben recently."
+        },
+        {
+          "ru": "Её английский в последнее время стал лучше.",
+          "en": "Her English has improved recently."
+        },
+        {
+          "ru": "Ты видел Джека в последнее время?",
+          "en": "Have you seen Jack lately?"
+        },
+        {
+          "ru": "Пока что я со всем справляюсь.",
+          "en": "So far I've managed everything."
+        },
+        {
+          "ru": "Я забронировал билеты два дня назад.",
+          "en": "I booked the tickets two days ago."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем recently отличается от lately?",
+        "Почему so far это «пока что», а не «так далеко»?",
+        "Можно ли сказать I've seen him recently и I saw him recently?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3791,6 +4154,54 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 70,
       "orderInCard": 2
+    },
+    {
+      "cardId": 381,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 80,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 381,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 159,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 381,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 157,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 381,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 144,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 382,
+      "exerciseType": "MATCHING",
+      "exerciseId": 55,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 382,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 179,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 382,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 142,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 382,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 71,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -3887,6 +4298,14 @@
       "cardId": 380,
       "title": "Ответь на приветствие",
       "userInstruction": "Ответьте собеседнику по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "present_perfect_card382_ex1",
+      "cardId": 382,
+      "title": "Ответь про себя",
+      "userInstruction": "Ответьте на вопрос по-английски одним предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -4219,6 +4638,46 @@
       "transcription": "[ˈkʌpl]",
       "microtopicId": 141,
       "categoryId": "tenses"
+    },
+    {
+      "id": 646,
+      "word": "recently",
+      "translation": "недавно, на днях",
+      "transcription": "[ˈriːsntli]",
+      "microtopicId": 142,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 647,
+      "word": "so far",
+      "translation": "пока что, до этого момента",
+      "transcription": "[səʊ ˈfɑː]",
+      "microtopicId": 142,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 648,
+      "word": "to manage",
+      "translation": "справляться, успевать",
+      "transcription": "[ˈmænɪdʒ]",
+      "microtopicId": 142,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 649,
+      "word": "to improve",
+      "translation": "улучшать, улучшаться",
+      "transcription": "[ɪmˈpruːv]",
+      "microtopicId": 142,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 650,
+      "word": "meeting",
+      "translation": "встреча, совещание",
+      "transcription": "[ˈmiːtɪŋ]",
+      "microtopicId": 142,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -4467,6 +4926,37 @@
         }
       ],
       "explanation": "во втором предложении взято настоящее время вместо перфекта: правильно She has lived in Madrid since 2020. В пятом та же ошибка в вопросе: правильно How long have you worked at this café."
+    },
+    {
+      "id": 157,
+      "statements": [
+        {
+          "en": "I've read two books this month.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She has called me yesterday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We have seen Ben twice this week.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He has cleaned the kitchen last night.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Sara has bought a new phone this week.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором и четвёртом предложениях перфект стоит рядом с закрытым отрезком: правильно She called me yesterday и He cleaned the kitchen last night. В остальных отрезок ещё идёт, поэтому перфект на месте."
     }
   ],
   "word_arrangement_exercises": [
@@ -4599,6 +5089,25 @@
         "since"
       ],
       "explanation": "вопрос про длительность строится на перфекте: have стоит после вопросительного слова, а глагол берёт третью форму. Помощник do притащен из настоящего времени и здесь лишний."
+    },
+    {
+      "id": 144,
+      "situationRu": "Ситуация: рабочий день ещё не кончился, и ты говоришь коллеге, сколько сообщений уже отправил.",
+      "correctSentence": "I have sent five messages today.",
+      "words": [
+        "I",
+        "have",
+        "sent",
+        "five messages",
+        "today"
+      ],
+      "distractors": [
+        "did",
+        "send",
+        "yesterday",
+        "sending"
+      ],
+      "explanation": "день ещё идёт, значит нужен перфект have sent, а не помощник did с первой формой. Слово yesterday закрыло бы отрезок и выбило бы перфект из предложения."
     }
   ],
   "multiple_choice_exercises": [
@@ -4916,6 +5425,48 @@
         }
       ],
       "explanation": "русское настоящее время здесь переводится перфектом, потому что действие началось раньше и продолжается. Два года это длина отрезка, значит for, а не since."
+    },
+    {
+      "id": 159,
+      "choiceType": "CHOICE",
+      "prompt": "Jake ___ five customers today.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "has met",
+          "isCorrect": true
+        },
+        {
+          "text": "met",
+          "isCorrect": false
+        },
+        {
+          "text": "is meeting",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "день ещё идёт, поэтому счёт открыт и нужен перфект has met. Прошедшее время закрыло бы сегодняшний день раньше времени, а форма is meeting говорила бы о встрече прямо сейчас."
+    },
+    {
+      "id": 179,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Тёма недавно потерял телефон.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Tyoma lost his phone recently ago.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tyoma has recently lost his phone.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tyoma is losing his phone recently.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "точная дата не названа, поэтому нужен перфект has lost, а recently спокойно встаёт между has и третьей формой. Слово ago лишнее: оно требует количества времени перед собой и закрывает отрезок."
     }
   ],
   "text_input_exercises": [
@@ -5280,6 +5831,33 @@
         }
       ],
       "explanation": "for отвечает на «сколько времени» и берёт длину отрезка, а since называет точку старта — дату, день или целое событие с подлежащим и глаголом."
+    },
+    {
+      "id": 55,
+      "taskDescription": "соедини русскую фразу с английской.",
+      "pairs": [
+        {
+          "left": "пока что я сделал половину",
+          "right": "So far I've done half of it."
+        },
+        {
+          "left": "я недавно купил велосипед",
+          "right": "I've recently bought a bike."
+        },
+        {
+          "left": "ты был занят в последнее время?",
+          "right": "Have you been busy lately?"
+        },
+        {
+          "left": "пока мы ничего не решили",
+          "right": "We haven't decided anything so far."
+        },
+        {
+          "left": "я продал её месяц назад",
+          "right": "I sold it a month ago."
+        }
+      ],
+      "explanation": "so far подводит промежуточный итог по незаконченному делу, recently говорит о случае на днях, lately о тянущейся полосе времени. А месяц назад это закрытая точка, поэтому там стоит прошедшее время, а не перфект."
     }
   ],
   "error_correction_exercises": [
@@ -5415,6 +5993,25 @@
         }
       ],
       "explanation": "действие началось раньше и продолжается сейчас, поэтому нужен перфект has driven, а не настоящее время. Год — это точка старта, значит since остаётся на месте."
+    },
+    {
+      "id": 142,
+      "wrongSentence": "I've finished the report last week.",
+      "options": [
+        {
+          "text": "I have finish the report last week.",
+          "isCorrect": false
+        },
+        {
+          "text": "I have been finishing the report last week.",
+          "isCorrect": false
+        },
+        {
+          "text": "I finished the report last week.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "last week называет закрытый отрезок, а перфект работает только там, где отрезок ещё идёт или точка не названа. Поэтому нужно обычное прошедшее время finished."
     }
   ],
   "construction_meaning_exercises": [
@@ -5681,6 +6278,29 @@
         }
       ],
       "explanation": "already живёт в утверждении и встаёт между помощником и третьей формой, а yet — в отрицании и вопросе, и всегда в конце фразы. Смотреть надо не на смысл предложения, а на его тип."
+    },
+    {
+      "id": 80,
+      "taskDescription": "распредели обозначения времени по тому, идёт отрезок или уже закончился.",
+      "categories": [
+        {
+          "title": "Отрезок ещё идёт",
+          "items": [
+            "today",
+            "this year",
+            "this week"
+          ]
+        },
+        {
+          "title": "Отрезок закрылся",
+          "items": [
+            "last night",
+            "in 2020",
+            "an hour ago"
+          ]
+        }
+      ],
+      "explanation": "сегодняшний день, этот год и эта неделя ещё не кончились, поэтому счёт внутри них открыт и берётся перфект. Прошлая ночь, 2020 год и час назад — закрытые отрезки, в них уже ничего не добавить."
     }
   ],
   "find_the_odd_exercises": [
@@ -5752,6 +6372,29 @@
         }
       ],
       "explanation": "первые три говорят о долгой паузе, которая уже случилась, а последняя это прощание и смотрит в будущее — «до скорого»."
+    },
+    {
+      "id": 71,
+      "groupDescription": "Три слова дружат с перфектом — найди лишнее",
+      "items": [
+        {
+          "text": "recently",
+          "isOdd": false
+        },
+        {
+          "text": "lately",
+          "isOdd": false
+        },
+        {
+          "text": "so far",
+          "isOdd": false
+        },
+        {
+          "text": "last summer",
+          "isOdd": true
+        }
+      ],
+      "explanation": "первые три не называют точной даты и оставляют отрезок открытым до сегодняшнего дня. Last summer это закрытый отрезок с понятными границами, поэтому перфект с ним не работает."
     }
   ]
 }
