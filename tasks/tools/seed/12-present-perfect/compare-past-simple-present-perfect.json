@@ -25,6 +25,13 @@
       "title": "Two Pasts · Два прошедших: в чём вообще разница",
       "order": 1,
       "searchKeywords": "зачем два прошедших, ate или have eaten, одна русская форма два времени, откуда берётся ошибка"
+    },
+    {
+      "id": 146,
+      "topicId": 23,
+      "title": "Same Event · Одно событие — два сообщения",
+      "order": 2,
+      "searchKeywords": "broke или have broken, зачем добавлять have, одно событие два смысла, сказать новость по-английски, worked или have worked"
     }
   ],
   "grammar_cards": [
@@ -270,6 +277,388 @@
         "Почему фраза без грамматической ошибки может быть понята неправильно?",
         "Как быстро сообразить, что сказать, если в разговоре нет времени думать?"
       ]
+    },
+    {
+      "id": 388,
+      "microtopicId": 146,
+      "title": "Что слышит собеседник",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы договорились, что выбор делает рамка. Теперь посмотрим, что этот выбор меняет на практике — и окажется, что меняет он не «оттенок», а всё сообщение целиком."
+        },
+        {
+          "type": "heading",
+          "text": "Три пары на одном факте"
+        },
+        {
+          "type": "paragraph",
+          "text": "Берём одно и то же событие и рассказываем его двумя способами. Событие не двигается, слова почти те же — а человек напротив понимает разное:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "Что понял собеседник"
+          ],
+          "rows": [
+            [
+              "I broke my leg.",
+              "было дело, сейчас всё в порядке"
+            ],
+            [
+              "I've broken my leg.",
+              "я прямо сейчас в гипсе"
+            ],
+            [
+              "He left.",
+              "ушёл; может, давно вернулся"
+            ],
+            [
+              "He has left.",
+              "его здесь нет, не ищите"
+            ],
+            [
+              "Lena cooked dinner.",
+              "готовила, это была история"
+            ],
+            [
+              "Lena has cooked dinner.",
+              "ужин на столе, идите есть"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между строками одной пары — один служебный кусочек `have`. Для русского уха он выглядит необязательным украшением, а для английского это переключатель: без него вы рассказываете, с ним — сообщаете."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка одним вопросом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если запутались, спросите себя не про грамматику, а про собеседника: **что он должен сделать после моих слов?** Посочувствовать истории — значит, рамка закрыта, берём Past Simple. Встать и что-то предпринять, учесть это в своих планах, пойти есть ужин — значит, речь про сейчас, берём Present Perfect."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В этих парах **обе фразы грамматически правильные**. Здесь нечего исправлять — и именно поэтому ошибка так живуча: вам не скажут «так нельзя», просто поймут не то, что вы хотели. Проверять себя приходится самому, по смыслу."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Выбирая время, вы выбираете не форму глагола, а реакцию собеседника."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Одно событие можно рассказать двумя временами, и меняется при этом всё сообщение. **I broke my leg** — было дело, сейчас всё в порядке; **I've broken my leg** — я прямо сейчас в гипсе. **He left** — ушёл, может уже вернулся; **He has left** — его здесь нет. **Lena cooked dinner** — история; **Lena has cooked dinner** — ужин на столе, идите есть. Вся разница — служебный `have`, который для русского выглядит необязательным, а для английского работает переключателем: без него рассказывают, с ним сообщают. Проверка простая: что собеседник должен сделать после ваших слов? Посочувствовать истории → Past Simple. Учесть это прямо сейчас → Present Perfect. Обе фразы в паре правильные, поэтому ошибку никто не исправит — вас просто поймут не так.",
+      "examples": [
+        {
+          "ru": "Я сломал ногу — сейчас хожу в гипсе.",
+          "en": "I've broken my leg."
+        },
+        {
+          "ru": "Я сломал ногу, но всё давно зажило.",
+          "en": "I broke my leg."
+        },
+        {
+          "ru": "Он ушёл, его здесь нет.",
+          "en": "He has left."
+        },
+        {
+          "ru": "Лена приготовила ужин — идите есть.",
+          "en": "Lena has cooked dinner."
+        },
+        {
+          "ru": "Лена готовила ужин в субботу.",
+          "en": "Lena cooked dinner on Saturday."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что собеседник услышал не то, если ошибки в предложении нет?",
+        "Зачем англичанину помощник have, если событие и так в прошлом?",
+        "Всегда ли обе фразы в паре правильные, или бывают случаи с одним вариантом?"
+      ]
+    },
+    {
+      "id": 389,
+      "microtopicId": 146,
+      "title": "Деталь тянет за собой прошедшее",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "А теперь — самое полезное правило темы. Оно механическое: чтобы им пользоваться, чутьё не нужно, достаточно посмотреть на собственную фразу."
+        },
+        {
+          "type": "heading",
+          "text": "Как только назвали обстоятельство — фраза уезжает в прошедшее"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотрите, что происходит с предложением, когда мы добавляем к нему подробность:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've lost my wallet.** → добавили, где именно → **I lost my wallet on the bus.**",
+            "**She has broken her phone.** → добавили, где именно → **She broke her phone at the gym.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Стоило назвать место события — и перфект ушёл. То же самое сделает любое другое обстоятельство: когда это случилось, при каких обстоятельствах, с кем вы были."
+        },
+        {
+          "type": "heading",
+          "text": "Почему так"
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика простая и вытекает из оси темы. Обстоятельство — это адрес события в прошлом. Как только вы его называете, вы перестаёте сообщать про сейчас и начинаете **рассказывать про случай**: где он произошёл, при чём тут автобус, что вы вообще там делали. А рассказ про случай — это закрытая рамка, то есть Past Simple."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I've lost my wallet on the bus** ✗ → **I lost my wallet on the bus** ✓. Это самая частая поломка русскоязычных в теме, и вот почему она такая цепкая: в русском обстоятельство добавляется к готовой фразе без последствий («я потерял кошелёк» → «я потерял кошелёк в автобусе», глагол не шелохнулся). Английский так не умеет: добавили деталь — обязаны поменять время."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Увидели в своей фразе слово про где, когда, как или с кем — переводите глагол в прошедшее, не раздумывая. Это тот случай, когда правило работает без всякого чутья."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Механический ключ темы: как только во фразе названо обстоятельство — где, когда, как или с кем произошло событие, — она уходит в Past Simple. **I've lost my wallet** → **I lost my wallet on the bus**; **She has broken her phone** → **She broke her phone at the gym**. Причина в оси темы: обстоятельство даёт событию адрес в прошлом, а значит, вы уже не сообщаете про сейчас, а рассказываете про случай — и рамка закрывается. Отсюда самая частая ошибка русскоязычных: **I've lost my wallet on the bus** ✗ → **I lost my wallet on the bus** ✓. В русском деталь прицепляется к фразе даром, глагол не меняется, поэтому рука добавляет её и в английском, забыв поправить время.",
+      "examples": [
+        {
+          "ru": "Я потерял кошелёк в автобусе.",
+          "en": "I lost my wallet on the bus."
+        },
+        {
+          "ru": "Она разбила телефон.",
+          "en": "She has broken her phone."
+        },
+        {
+          "ru": "Она разбила телефон в спортзале.",
+          "en": "She broke her phone at the gym."
+        },
+        {
+          "ru": "Оля оставила ключи в офисе.",
+          "en": "Olya left her keys at the office."
+        },
+        {
+          "ru": "Я видел это объявление в рабочем чате.",
+          "en": "I saw this post in the work chat."
+        }
+      ],
+      "clarificationOptions": [
+        "Считается ли деталью то, с кем я был, или только место и время?",
+        "Почему в русском деталь можно добавить, а глагол не меняется?",
+        "Что делать, если я уже сказал фразу в перфекте, а деталь вспомнил потом?"
+      ]
+    },
+    {
+      "id": 390,
+      "microtopicId": 146,
+      "title": "Новость и подробности: как устроен разговор",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В микротеме «Результат виден сейчас» мы уже говорили, что новость объявляют перфектом. Теперь посмотрим, что происходит **дальше**, — потому что разговор новостью не заканчивается."
+        },
+        {
+          "type": "heading",
+          "text": "Первая реплика и всё остальное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот как выглядит обычный обмен репликами целиком:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "— **I've bought a car!**",
+            "— **Really? Where did you buy it? How much did you pay for it?**",
+            "— **I bought it at a dealership near the station.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая фраза — новость: у неё нет адреса, она просто сообщает, что теперь у человека есть машина. А дальше пошли подробности, и у каждой адрес есть: где купил, сколько отдал, брал ли кредит. Поэтому всё, что идёт после объявления, стоит в прошедшем времени."
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило, которое стоит запомнить целиком: **перфект открывает тему, прошедшее её раскручивает.** Один перфектный ход в начале — и дальше весь разговор идёт в Past Simple, пока не появится следующая новость."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это касается и вопросов собеседника. **Where have you bought it?** ✗ → **Where did you buy it?** ✓ Русскому хочется «остаться в том же времени», раз новость прозвучала в перфекте, — но вопрос спрашивает как раз про обстоятельство, а мы помним, что обстоятельство закрывает рамку."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это же объясняет, почему в новостях и заголовках перфект встречается в первой строке, а весь текст под ней написан прошедшим временем. Механизм тот же самый — сначала сообщают, потом рассказывают."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В разговоре два времени делят работу: перфект открывает тему, прошедшее её раскручивает. Новость — без адреса, поэтому перфект: **I've bought a car!** Всё, что идёт следом, уже про обстоятельства, поэтому прошедшее: **Where did you buy it?**, **How much did you pay for it?**, **I bought it at a dealership near the station.** Один перфектный ход в начале — и дальше весь разговор в Past Simple, пока не прозвучит новая новость. Ловушка русскоязычного — «остаться в том же времени» и спросить **Where have you bought it?** ✗ вместо **Where did you buy it?** ✓, хотя вопрос спрашивает именно про обстоятельство, а оно рамку закрывает. По этой же причине заголовок новости стоит в перфекте, а текст под ним — в прошедшем.",
+      "examples": [
+        {
+          "ru": "Я купил машину!",
+          "en": "I've bought a car!"
+        },
+        {
+          "ru": "Правда? А где ты её купил?",
+          "en": "Really? Where did you buy it?"
+        },
+        {
+          "ru": "Сколько ты за неё отдал?",
+          "en": "How much did you pay for it?"
+        },
+        {
+          "ru": "Я купил её в салоне у вокзала.",
+          "en": "I bought it at a dealership near the station."
+        },
+        {
+          "ru": "Юля сдала экзамен!",
+          "en": "Yulia has passed her exam!"
+        }
+      ],
+      "clarificationOptions": [
+        "Сколько реплик разговор остаётся в прошедшем времени?",
+        "Почему нельзя задать вопрос тем же временем, каким прозвучала новость?",
+        "Как понять, что прозвучала новая новость, а не продолжение старой?"
+      ]
+    },
+    {
+      "id": 391,
+      "microtopicId": 146,
+      "title": "Работаю до сих пор или уже нет",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В микротеме «Сколько это длится» мы разобрали `for` и `since` с перфектом: **I've known Sam for ten years** значит, что знакомство длится до сих пор. Тогда мы видели только половину картины. Вот вторая."
+        },
+        {
+          "type": "heading",
+          "text": "Один срок, два статуса"
+        },
+        {
+          "type": "paragraph",
+          "text": "Поставим один и тот же срок в два времени:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've worked at the bakery for ten years.** — работаю там и сегодня.",
+            "**I worked at the bakery for ten years.** — уже не работаю, всё в прошлом."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Десять лет и там, и там. Пекарня одна и та же. Меняется не длительность, а **статус человека прямо сейчас**: в первой фразе он сотрудник, во второй — бывший сотрудник. То же с жильём: **I've lived in Porto for five years** — живу там; **I lived in Porto for five years** — жил, потом уехал."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский попадается"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски эти два сообщения различаются легко и без всякой грамматики: «я работаю в пекарне десять лет» ↔ «я работал в пекарне десять лет». Разницу несёт сам глагол, её видно и слышно. В английском же оба варианта выглядят как прошедшее время — разница спрятана в служебном `have`, который русскому кажется необязательным. Отсюда и результат: человек говорит то, чего не имел в виду, и даже не замечает этого."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "На собеседовании фраза **I worked here for ten years** про своё текущее место работы означает «меня там больше нет». Собеседник не переспросит — он просто занесёт вас в бывшие сотрудники. Чтобы сказать про действующую работу, нужен перфект: **I've worked here for ten years** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Одного лишь слова `for` во фразе недостаточно, чтобы решить, какое время ставить. `for` спокойно живёт в обоих временах и означает просто «сколько длилось». Решает, как всегда в этой теме, рамка: отрезок ещё идёт → перфект; отрезок закрылся → прошедшее."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Один и тот же срок в двух временах сообщает разное: **I've worked at the bakery for ten years** — работаю там и сегодня, **I worked at the bakery for ten years** — уже не работаю. Меняется не длительность, а статус человека сейчас: сотрудник или бывший сотрудник. То же с жильём: **I've lived in Porto for five years** ↔ **I lived in Porto for five years**. По-русски разницу несёт сам глагол («работаю ↔ работал»), и она заметна; по-английски она спрятана в помощнике `have`, который кажется необязательным, — поэтому человек легко сообщает не то, что имел в виду. Цена ошибки бывает высокой: **I worked here for ten years** про действующую работу означает «меня там больше нет». Само по себе слово `for` время не выбирает — оно живёт в обоих; выбирает рамка: отрезок идёт → перфект, отрезок закрылся → прошедшее.",
+      "examples": [
+        {
+          "ru": "Я работаю в пекарне уже десять лет.",
+          "en": "I've worked at the bakery for ten years."
+        },
+        {
+          "ru": "Я работал в пекарне десять лет.",
+          "en": "I worked at the bakery for ten years."
+        },
+        {
+          "ru": "Я живу в Порту уже пять лет.",
+          "en": "I've lived in Porto for five years."
+        },
+        {
+          "ru": "Я прожил в Порту пять лет.",
+          "en": "I lived in Porto for five years."
+        },
+        {
+          "ru": "Мы знакомы с Ником уже двенадцать лет.",
+          "en": "We've known Nick for twelve years."
+        }
+      ],
+      "clarificationOptions": [
+        "Как одно слово have превращает бывшую работу в нынешнюю?",
+        "Почему нельзя сказать I work here for ten years, если я правда тут работаю?",
+        "Что выбрать, если я уволился неделю назад — это ещё «до сих пор» или уже нет?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -320,13 +709,129 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 72,
       "orderInCard": 3
+    },
+    {
+      "cardId": 388,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 40,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 388,
+      "exerciseType": "MATCHING",
+      "exerciseId": 56,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 388,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 52,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 388,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 60,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 389,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 160,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 389,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 32,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 389,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 145,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 389,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 145,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 390,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 49,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 390,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 183,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 390,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 83,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 390,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 146,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 391,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 41,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 391,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 160,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 391,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 73,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 391,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 53,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [],
   "course_word_groups": [],
   "course_categories": [],
   "course_words": [],
-  "table_fill_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 32,
+      "taskDescription": "перепиши фразу так, чтобы в ней прозвучала деталь справа от плюса.",
+      "rows": [
+        {
+          "hint": "Kate has called me. + два часа назад",
+          "answer": "Kate called me two hours ago."
+        },
+        {
+          "hint": "I've met Oliver. + в поезде",
+          "answer": "I met Oliver on the train."
+        },
+        {
+          "hint": "We've booked a table. + в понедельник",
+          "answer": "We booked a table on Monday."
+        }
+      ],
+      "explanation": "каждая деталь даёт событию адрес в прошлом, поэтому помощник have или has уходит, а глагол встаёт во вторую форму. Оставить перфект рядом с обстоятельством нельзя."
+    }
+  ],
   "true_false_exercises": [
     {
       "id": 159,
@@ -358,9 +863,59 @@
         }
       ],
       "explanation": "во втором и четвёртом предложениях назван момент прошлого — two years ago и yesterday, — и рядом с ним перфект стоять не может: верно Oleg broke his leg two years ago и Sara sent the report yesterday."
+    },
+    {
+      "id": 160,
+      "statements": [
+        {
+          "en": "Lily has played the piano for nine years.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Oleg works at the hospital for seven years.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We lived in Warsaw for three years before moving here.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Sara has taught French for eight years.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I have studied at that school for five years, but I left in 2018.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "во втором предложении срок стоит с настоящим временем, а так по-английски не говорят: верно Oleg has worked at the hospital for seven years. В пятом человек сам сказал, что ушёл из школы, — значит, отрезок закрыт и нужно I studied at that school for five years."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 145,
+      "situationRu": "Ситуация: рассказываешь другу, как вчера потерял шапку в парке.",
+      "correctSentence": "I lost my hat in the park yesterday.",
+      "words": [
+        "I",
+        "lost",
+        "my hat",
+        "in the park",
+        "yesterday"
+      ],
+      "distractors": [
+        "have",
+        "has",
+        "today"
+      ],
+      "explanation": "в предложении есть и место, и время, поэтому помощник have в него не помещается — работает чистое прошедшее время. Слово today поменяло бы смысл: сегодняшний день ещё не закончился."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 181,
@@ -428,6 +983,90 @@
         }
       ],
       "explanation": "важно не само событие, а его последствие прямо сейчас — Тёма остался без денег и поэтому не идёт. Первый вариант грамматически верен, но сообщает историю про прошлое, из которой не следует, что денег нет и сегодня."
+    },
+    {
+      "id": 52,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The train has arrived.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Поезд прибыл вчера вечером.",
+          "isCorrect": false
+        },
+        {
+          "text": "Поезд подъезжает прямо сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Поезд уже здесь, на платформе.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "важно не само прибытие, а его результат: поезд стоит у платформы, можно садиться. Первый вариант потребовал бы прошедшего времени, второй — длительной формы."
+    },
+    {
+      "id": 160,
+      "choiceType": "CHOICE",
+      "prompt": "Sonya ___ her ring at the swimming pool.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "has lost",
+          "isCorrect": false
+        },
+        {
+          "text": "lost",
+          "isCorrect": true
+        },
+        {
+          "text": "has been losing",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "во фразе названо место события, и оно даёт потере адрес в прошлом — значит, это рассказ о случае и работает прошедшее время. Перфект возможен только в короткой фразе без обстоятельства: Sonya has lost her ring."
+    },
+    {
+      "id": 183,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Настя вбегает в комнату и объявляет: она выиграла конкурс.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Nastya won the contest.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nastya has won the contest.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nastya wins the contest.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "это первая реплика, объявление новости: обстоятельств в ней нет, важно только то, что теперь Настя победительница. Прошедшее время прозвучало бы как начало истории про давний конкурс."
+    },
+    {
+      "id": 53,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I've studied Spanish for three years.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я учил испанский три года, но бросил.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я выучил испанский за три года.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я учу испанский уже три года.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "перфект показывает, что отрезок не закрыт: занятия идут и сегодня. Про брошенные занятия сказали бы I studied Spanish for three years."
     }
   ],
   "text_input_exercises": [],
@@ -459,9 +1098,65 @@
         }
       ],
       "explanation": "собеседник объясняет сегодняшнее настроение, а не рассказывает историю: экзамен сдан, и результат виден прямо сейчас. Второй вариант уводит в закрытую рамку с месяцем, третий говорит, что экзамен идёт в эту минуту."
+    },
+    {
+      "id": 49,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I've found a new flat!"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Near the park, ten minutes from the office."
+        }
+      ],
+      "options": [
+        {
+          "text": "Nice! Where did you find it?",
+          "isCorrect": true
+        },
+        {
+          "text": "Nice! Where have you found it?",
+          "isCorrect": false
+        },
+        {
+          "text": "Nice! Where do you find it?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "новость прозвучала в перфекте, а вопрос спрашивает про обстоятельство — где именно, — поэтому он уходит в прошедшее время. Настоящее время здесь превратило бы вопрос в разговор о привычке."
     }
   ],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 56,
+      "taskDescription": "соедини английскую фразу с тем, что понял собеседник.",
+      "pairs": [
+        {
+          "left": "Jack has washed the car.",
+          "right": "машина сейчас чистая"
+        },
+        {
+          "left": "Jack washed the car in May.",
+          "right": "с тех пор она снова грязная"
+        },
+        {
+          "left": "Vera has taken my umbrella.",
+          "right": "зонта у меня нет"
+        },
+        {
+          "left": "Vera took my umbrella yesterday.",
+          "right": "зонт уже вернулся ко мне"
+        }
+      ],
+      "explanation": "перфект говорит о сегодняшнем положении дел, поэтому машина чистая и зонта нет. Прошедшее время оставляет событие в закрытой рамке и о сегодняшнем дне не сообщает ничего — значит, с тех пор всё могло измениться."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 144,
@@ -481,10 +1176,115 @@
         }
       ],
       "explanation": "момент назван — two hours ago, — рамка события закрыта, и рядом с таким указателем работает только прошедшее время. Помощник has здесь лишний целиком, а не в какой-то своей форме."
+    },
+    {
+      "id": 145,
+      "wrongSentence": "I've bought this jacket in Prague last winter.",
+      "options": [
+        {
+          "text": "I bought this jacket in Prague last winter.",
+          "isCorrect": true
+        },
+        {
+          "text": "I have buy this jacket in Prague last winter.",
+          "isCorrect": false
+        },
+        {
+          "text": "I have been buying this jacket in Prague last winter.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в предложении названы и место, и время покупки — событие полностью привязано к прошлому, и перфект тут стоять не может. Помощник have убирается целиком, а не заменяется другой формой."
+    },
+    {
+      "id": 146,
+      "wrongSentence": "Nice cake! Where have you found the recipe?",
+      "options": [
+        {
+          "text": "Nice cake! Where you found the recipe?",
+          "isCorrect": false
+        },
+        {
+          "text": "Nice cake! Where have you find the recipe?",
+          "isCorrect": false
+        },
+        {
+          "text": "Nice cake! Where did you find the recipe?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вопрос про обстоятельство — откуда взялся рецепт, — и такой вопрос всегда уходит в прошедшее время. Перфект здесь невозможен, потому что слово where как раз и требует назвать адрес события."
     }
   ],
-  "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 40,
+      "construction": "Tom has taken my charger.",
+      "options": [
+        {
+          "text": "Зарядка сейчас у Тома.",
+          "isCorrect": true
+        },
+        {
+          "text": "Том брал мою зарядку и вернул её.",
+          "isCorrect": false
+        },
+        {
+          "text": "Том берёт мою зарядку каждый день.",
+          "isCorrect": false
+        },
+        {
+          "text": "Том забрал мою зарядку в прошлом году.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "перфект сообщает о положении дел прямо сейчас: зарядки у вас нет, она у Тома. Про случай, который закончился и остался в прошлом, сказали бы Tom took my charger."
+    },
+    {
+      "id": 41,
+      "construction": "Grisha played in a band for six years.",
+      "options": [
+        {
+          "text": "Гриша играет в группе уже шесть лет.",
+          "isCorrect": false
+        },
+        {
+          "text": "Гриша играл в группе шесть лет назад.",
+          "isCorrect": false
+        },
+        {
+          "text": "Гриша играл в группе шесть лет и больше не играет.",
+          "isCorrect": true
+        },
+        {
+          "text": "Гриша собирается играть в группе шесть лет.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "прошедшее время закрывает отрезок целиком: шесть лет прошли и остались позади. Чтобы сказать, что Гриша играет в группе до сих пор, нужен перфект Grisha has played in a band for six years."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 60,
+      "taskDescription": "перепиши каждое предложение так, чтобы речь шла о том, что есть сейчас.",
+      "items": [
+        {
+          "original": "Nick fixed the printer.",
+          "transformed": "Nick has fixed the printer."
+        },
+        {
+          "original": "Emma sold her bike.",
+          "transformed": "Emma has sold her bike."
+        },
+        {
+          "original": "They finished the project.",
+          "transformed": "They have finished the project."
+        }
+      ],
+      "explanation": "чтобы фраза сообщала о сегодняшнем положении дел, к третьей форме глагола добавляется помощник have или has по подлежащему: принтер работает, велосипеда у Эммы больше нет, проект сдан."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 82,
@@ -508,6 +1308,29 @@
         }
       ],
       "explanation": "слева у каждой ситуации есть закрытая рамка — март, вчера, школьные годы; всё это кончилось и осталось позади. Справа рамки нет: телефон сломан сейчас, опыта нет до сих пор, письмо уже лежит у адресата."
+    },
+    {
+      "id": 83,
+      "taskDescription": "распредели реплики по времени, которым их скажут по-английски.",
+      "categories": [
+        {
+          "title": "Present Perfect",
+          "items": [
+            "Я нашёл новую квартиру!",
+            "Юля выиграла конкурс!",
+            "Мы закончили ремонт!"
+          ]
+        },
+        {
+          "title": "Past Simple",
+          "items": [
+            "Я нашёл её через знакомых",
+            "Она выиграла его в Праге",
+            "Мы закончили его в июне"
+          ]
+        }
+      ],
+      "explanation": "слева объявление новости: ничего не сказано о том, где и когда это случилось, важен только сегодняшний итог. Справа те же события с обстоятельством — через кого, где, когда, — а обстоятельство закрывает рамку и уводит фразу в прошедшее время."
     }
   ],
   "find_the_odd_exercises": [
@@ -533,6 +1356,29 @@
         }
       ],
       "explanation": "в трёх предложениях есть указатель закрытой рамки — in May, last week, on Friday, — и все они рассказывают историю. Четвёртое ничего не датирует: оно сообщает, что очки сломаны и Миа сейчас без них."
+    },
+    {
+      "id": 73,
+      "groupDescription": "Три предложения говорят, что человек занят этим до сих пор, а одно — что всё закончилось",
+      "items": [
+        {
+          "text": "Nick has driven a taxi for four years.",
+          "isOdd": false
+        },
+        {
+          "text": "Vera worked as a nurse for twenty years.",
+          "isOdd": true
+        },
+        {
+          "text": "I've lived in this flat since March.",
+          "isOdd": false
+        },
+        {
+          "text": "They have run this café for seven years.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "три фразы стоят в перфекте, поэтому отрезок в них продолжается и сегодня. Четвёртая стоит в прошедшем времени, а значит, двадцать лет работы Веры остались в прошлом."
     }
   ]
 }
