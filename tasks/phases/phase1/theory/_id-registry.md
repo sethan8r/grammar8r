@@ -7,23 +7,23 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 386 |
-| Categorization | 82 |
+| Card | 388 |
+| Categorization | 83 |
 | Category | 7 |
 | ConstructionMeaning | 40 |
-| DialogRestore | 48 |
-| ErrorCorrection | 144 |
-| FindTheOdd | 72 |
+| DialogRestore | 49 |
+| ErrorCorrection | 145 |
+| FindTheOdd | 73 |
 | Matching | 56 |
-| Microtopic | 145 |
+| Microtopic | 146 |
 | MultipleChoice·CHOICE | 160 |
-| MultipleChoice·FORWARD_CHOICE | 181 |
-| MultipleChoice·REVERSE_CHOICE | 51 |
+| MultipleChoice·FORWARD_CHOICE | 183 |
+| MultipleChoice·REVERSE_CHOICE | 52 |
 | TableFill | 32 |
 | TextInput | 75 |
-| Topic | 23 |
+| Topic | 24 |
 | Transformation | 60 |
-| TrueFalse | 159 |
+| TrueFalse | 160 |
 | WordArrangement | 145 |
 | course_word | 656 |
 
@@ -305,6 +305,19 @@
 - TrueFalse: 144–146 (3)
 - WordArrangement: 127–129 (3)
 - course_word: 569–582 (14)
+
+### compare-past-simple-present-perfect
+- Card: 386–387 (2)
+- Categorization: 82–82 (1)
+- Category: 6–6 (1)
+- DialogRestore: 48–48 (1)
+- ErrorCorrection: 144–144 (1)
+- FindTheOdd: 72–72 (1)
+- Microtopic: 145–145 (1)
+- MultipleChoice·FORWARD_CHOICE: 181–182 (2)
+- MultipleChoice·REVERSE_CHOICE: 51–51 (1)
+- Topic: 23–23 (1)
+- TrueFalse: 159–159 (1)
 
 ### present-perfect
 - Card: 359–385 (27)
