@@ -2883,7 +2883,7 @@ theory/
 │          полный разбор for/since, recently/lately/so far, разведение с Past Simple, полный разбор
 │          state verbs. Всё это уже дано — освежать ОДНОЙ строкой, ссылка по НАЗВАНИЮ микротемы, и дальше.
 │
-│       ├── МТ151 · What Is Present Perfect Continuous · Что такое Present Perfect Continuous (3 карточки)
+│       ├── МТ151 · What Is Present Perfect Continuous · Что такое Present Perfect Continuous (3 карточки) ✅ (написана, ALL GREEN 22.08.26)
 │       │   │   концепт-интро, БЕЗ упражнений и БЕЗ AI (по образцу МТ134 PP / МТ108 Future). Слива слов НЕТ.
 │       │   ├── Card 400 · Дубль, который ещё не остановили. Восьмой образ + вся линейка образов курса
 │       │   │   одним списком (карта пройденного, как в Card 359). Прямой контраст с «видео на паузе»

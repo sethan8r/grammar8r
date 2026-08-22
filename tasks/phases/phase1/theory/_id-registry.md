@@ -7,7 +7,7 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 400 |
+| Card | 403 |
 | Categorization | 87 |
 | Category | 7 |
 | ConstructionMeaning | 42 |
@@ -15,13 +15,13 @@
 | ErrorCorrection | 150 |
 | FindTheOdd | 75 |
 | Matching | 60 |
-| Microtopic | 151 |
+| Microtopic | 152 |
 | MultipleChoice·CHOICE | 163 |
 | MultipleChoice·FORWARD_CHOICE | 187 |
 | MultipleChoice·REVERSE_CHOICE | 56 |
 | TableFill | 33 |
 | TextInput | 77 |
-| Topic | 24 |
+| Topic | 25 |
 | Transformation | 62 |
 | TrueFalse | 164 |
 | WordArrangement | 149 |
@@ -325,6 +325,12 @@
 - Transformation: 60–61 (2)
 - TrueFalse: 159–163 (5)
 - WordArrangement: 145–148 (4)
+
+### present-perfect-continuous
+- Card: 400–402 (3)
+- Category: 6–6 (1)
+- Microtopic: 151–151 (1)
+- Topic: 24–24 (1)
 
 ### present-perfect
 - Card: 359–385 (27)
