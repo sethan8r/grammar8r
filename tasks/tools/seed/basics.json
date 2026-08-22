@@ -94,7 +94,7 @@
       "topicId": 1,
       "title": "Direction Prepositions · Предлоги направления",
       "order": 12,
-      "searchKeywords": "куда двигаться, движение через мимо вдоль, into out of, движение к и от, внутрь и наружу"
+      "searchKeywords": "into или in, out of или out, arrive to или arrive in, go home без to, over или across, along или across, once upon a time"
     },
     {
       "id": 13,
@@ -3800,111 +3800,107 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Раньше мы учили предлоги для мест — *где* что-то находится. Теперь — для движения: *куда* и *откуда*."
+          "text": "До сих пор предлоги отвечали на вопрос «где»: **in the box**, **on the table**, **at work**. Теперь берёмся за движение — «куда» и «откуда». Здесь всё держится на двух словах-стрелках: `to` показывает стрелку к цели, `from` — от источника."
         },
         {
           "type": "heading",
-          "text": "`to` — движение в направлении цели"
+          "text": "to — стрелка к цели"
         },
         {
           "type": "paragraph",
-          "text": "`to` показывает, куда ты едешь, идёшь, направляешься. Важно: именно *движение к конкретной цели*, а не просто нахождение там."
+          "text": "`to` отвечает на вопрос «куда»: есть цель, и мы к ней движемся. Важно, что предмет ещё не на месте — он в пути."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "I'm going **to** work. — *Я иду на работу.* (Движение, ещё не там.)",
-            "She flew **to** Paris. — *Она улетела в Париж.*",
-            "He walked **to** the shop. — *Он пошёл в магазин.*",
-            "Send this **to** me. — *Отправь это мне.* (Направление адресату.)"
+            "**Go to the library.** — *Иди в библиотеку.*",
+            "**We go to work together.** — *Мы ходим на работу вместе.*",
+            "**Send the photo to me.** — *Отправь фото мне.*"
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**Исключение — домой:** I'm going **home**. — никогда не `to home`. Слово `home` уже само несёт идею направления. Так же: I'm going **there** (не `to there`)."
-        },
-        {
-          "type": "heading",
-          "text": "`from` — источник, начальная точка"
-        },
-        {
-          "type": "paragraph",
-          "text": "`from` показывает откуда: откуда приехал, откуда родом, откуда звонит."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "She is **from** Italy. — *Она из Италии.*",
-            "I got a message **from** Natasha. — *Я получил сообщение от Наташи.*",
-            "The bus leaves **from** platform 3. — *Автобус отправляется с 3-й платформы.*",
-            "He works **from** home. — *Он работает из дома (удалённо).*"
-          ]
-        },
-        {
-          "type": "heading",
-          "text": "`to` и `from` часто идут в паре:"
-        },
-        {
-          "type": "paragraph",
-          "text": "I travel **from** Moscow **to** London. — *Я еду из Москвы в Лондон.* Из А → в Б."
         },
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка — глагол `arrive`",
+          "label": "Ловушка",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "В русском: «приехать *в* место». В английском arrive работает иначе:"
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "Arrive **in** Moscow — прибываем в большой город или страну (in, не to)",
-                "Arrive **at** the station — прибываем в конкретную точку (at the station, at the airport)"
-              ]
+              "text": "Со словами **home** и **there** предлог `to` не ставится вообще: **Go home** ✓, **go to home** ✗; **Go there** ✓, **go to there** ✗. В этих словах направление уже зашито внутрь, и вторая стрелка английскому не нужна. Рука ставит лишнее `to` по инерции от соседних фраз — **to the office**, **to the shop**, — где предлог как раз обязателен."
             }
           ]
         },
         {
+          "type": "heading",
+          "text": "from — стрелка от источника"
+        },
+        {
           "type": "paragraph",
-          "text": "`**Arrive to**` — ошибка! Глагол `arrive` уже содержит идею прибытия, добавлять `to` не нужно."
+          "text": "`from` отвечает на вопрос «откуда»: точка, из которой всё началось, или место, откуда человек родом."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Vera is from Porto.** — *Вера из Порту.*",
+            "**I have a letter from my mum.** — *У меня письмо от мамы.*",
+            "**Buses to the airport leave from platform 3.** — *Автобусы в аэропорт отправляются с третьей платформы.*"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "From — откуда · to — куда: **from Kazan to Prague**"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Глагол `arrive` предлог `to` не берёт никогда. Прибываем в город или страну — **arrive in Vienna** ✓; прибываем в конкретную точку — **arrive at the station** ✓, **arrive at the airport** ✓. А **arrive to Vienna** ✗ — ошибка, хотя по-русски мы говорим именно «приехать **в** Вену» и рука тянется перевести это «в». В самом слове `arrive` уже сидит идея прибытия в точку, поэтому стрелка `to` тут лишняя."
+            }
+          ]
         }
       ],
-      "theorySummary": "to = движение к цели (go to work, fly to Paris). from = источник/начало (from Italy, from my friend). `Go home` — без to. Arrive in London / at the station — не `arrive to`.",
+      "theorySummary": "`to` — движение к цели: **go to the library**, **send it to me**. `from` — источник или начальная точка: **from Porto**, **a letter from my mum**. Вместе они рисуют маршрут: **from Kazan to Prague**. Два места, где `to` не ставится: слова **home** и **there** (**go home** ✓, **go to home** ✗) и глагол `arrive` — **arrive in Vienna**, **arrive at the station**, но не **arrive to**.",
       "examples": [
         {
-          "ru": "Я иду в библиотеку.",
-          "en": "I'm going to the library."
+          "ru": "Иди к остановке.",
+          "en": "Go to the bus stop."
         },
         {
-          "ru": "Она из Новосибирска.",
-          "en": "She is from Novosibirsk."
+          "ru": "Вера из Порту.",
+          "en": "Vera is from Porto."
         },
         {
-          "ru": "Поезд едет из Москвы в Санкт-Петербург.",
-          "en": "The train goes from Moscow to Saint Petersburg."
+          "ru": "Я еду из Казани в Прагу.",
+          "en": "I go from Kazan to Prague."
         },
         {
-          "ru": "Я получил письмо от мамы.",
-          "en": "I got a letter from my mum."
+          "ru": "У меня письмо от мамы.",
+          "en": "I have a letter from my mum."
         },
         {
-          "ru": "Он идёт домой.",
-          "en": "He is going home."
+          "ru": "Я иду домой.",
+          "en": "I go home."
         },
         {
-          "ru": "Самолёт прилетел в Берлин.",
-          "en": "The plane arrived in Berlin."
+          "ru": "Мы прибываем в Берлин в шесть.",
+          "en": "We arrive in Berlin at six."
         }
       ],
       "clarificationOptions": [
-        "Почему \"going home\", а не \"going to home\"?",
-        "Почему \"arrive in London\", а не \"arrive to London\"?",
-        "Разница: \"to school\" (иду) vs \"at school\" (нахожусь)?"
+        "Почему go home, а не go to home?",
+        "Почему arrive in London, а не arrive to London?",
+        "Чем to school отличается от at school?"
       ]
     },
     {
@@ -3915,154 +3911,109 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Предыдущие предлоги (`to`, `from`) показывают направление к цели или источнику. Теперь — более конкретные предлоги, которые подчёркивают *пересечение границы* пространства."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "`to` и `from` показывают направление в общем виде: туда и оттуда. Но часто важнее другое — момент, когда мы **пересекаем границу** пространства: заходим внутрь или выходим наружу. Для этого есть отдельная пара — `into` и `out of`."
         },
         {
           "type": "heading",
-          "text": "`into` — движение внутрь"
+          "text": "into — внутрь"
         },
         {
           "type": "paragraph",
-          "text": "`into` = `in` (внутри) + движение. Ты не просто оказываешься внутри — ты *входишь*, *пересекаешь границу*."
+          "text": "`into` — это `in` плюс движение. Не «уже внутри», а «пересекает порог прямо сейчас»."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "She walked **into** the room. — *Она вошла в комнату.* (Движение через дверь.)",
-            "He jumped **into** the pool. — *Он прыгнул в бассейн.*",
-            "Pour the milk **into** the glass. — *Налей молоко в стакан.*"
+            "**Come into the room.** — *Заходи в комнату.*",
+            "**Pour the milk into the glass.** — *Налей молоко в стакан.*",
+            "**They walk into the café.** — *Они заходят в кафе.*"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`In` — про нахождение, `into` — про вход. **They are in the room** — они уже внутри, никто никуда не идёт. **They walk into the room** — они входят, порог пересечён. Проверка простая: рядом глагол движения (walk, run, jump, pour) — значит `into`."
+            }
           ]
         },
         {
           "type": "heading",
-          "text": "`in` vs `into` — ключевая разница:"
+          "text": "out of — наружу"
+        },
+        {
+          "type": "paragraph",
+          "text": "`out of` — зеркальная пара к `into`: движение изнутри наружу."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "She is **in** the room. — *Она в комнате.* (Нахождение, движения нет.)",
-            "She walked **into** the room. — *Она вошла в комнату.* (Движение, пересечение порога.)"
+            "**Take the keys out of the drawer.** — *Достань ключи из ящика.*",
+            "**Get out of the car.** — *Выходи из машины.*",
+            "**We walk out of the office together.** — *Мы выходим из офиса вместе.*"
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Простой тест: есть глагол движения (walked, jumped, ran, poured) → скорее всего `into`. Просто нахождение → `in`."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Out` и `out of` — не одно и то же, и путаница тут постоянная. Если после слова стоит предмет, нужно `out of`: **Get out of the car** ✓, **get out the car** ✗. Голое `out` живёт без предмета: **Go out!** — просто наружу, откуда — не уточняем."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "`out of` — движение наружу"
+          "text": "upon — торжественный брат on"
         },
         {
           "type": "paragraph",
-          "text": "`out of` — противоположность `into`. Движение изнутри наружу, выход."
+          "text": "Предлог `on` мы уже знаем. У него есть парадная версия — `upon`. Значение то же самое, но звучит гораздо торжественнее, поэтому в живой речи его не встретишь: он живёт в книгах, официальных бумагах и застывших формулах."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "She walked **out of** the office. — *Она вышла из офиса.*",
-            "Take the phone **out of** your pocket. — *Достань телефон из кармана.*",
-            "He got **out of** the car. — *Он вышел из машины.*"
+            "**Once upon a time...** — *Жили-были...* Именно с этих слов начинается почти любая английская сказка.",
+            "**Upon arrival, show your passport.** — *По прибытии предъявите паспорт.* Так пишут в аэропорту, а не говорят вслух."
           ]
         },
         {
-          "type": "heading",
-          "text": "`out` vs `out of`:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "`Go **out**!` — *Выйди!* (Просто наружу, без уточнения откуда именно.)",
-            "She walked **out of** the building. — *Она вышла из здания.* (Из конкретного замкнутого пространства.)"
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Upon` — знание пассивное. Произносить его самому не нужно ни разу, а вот узнавать в тексте стоит: увидели `upon` — значит перед вами официальный или книжный язык, а смысл тот же, что у обычного `on`."
+            }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "`out of` всегда идёт с существительным после него. `out` — без существительного."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Резюме пары:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Движение внутрь",
-            "Движение наружу"
-          ],
-          "rows": [
-            [
-              "**into** (She walked into the café.)",
-              "**out of** (She walked out of the café.)"
-            ]
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "⭐ Небольшое отступление: upon — и при чём тут «жили-были»"
-        },
-        {
-          "type": "paragraph",
-          "text": "Ты уже знаешь предлог `on`. У него есть старший брат — `upon`. Значение то же самое, но звучит гораздо торжественнее. В разговорной речи его не используют — он живёт в книгах, официальных документах и устойчивых выражениях."
-        },
-        {
-          "type": "paragraph",
-          "text": "**Самое знаменитое:** **Once upon a time...** — *Жили-были...* Дословно: «однажды, в некое время». Именно с этой фразы начинается большинство английских сказок — и так было несколько столетий подряд. Если слышишь once upon a time — ты в сказке."
-        },
-        {
-          "type": "paragraph",
-          "text": "Ещё места, где встретишь `upon`:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**Upon** arrival, please show your passport. — *По прибытии предъявите паспорт.* (официальный язык)",
-            "**Upon** reflection, I changed my mind. — *Поразмыслив, я передумал.* (книжный стиль)",
-            "**Upon** hearing the news, she burst into tears. — *Услышав новость, она расплакалась.* (литература)"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "`upon` — пассивное знание. Не нужно его использовать в речи, но нужно понимать, когда видишь. Видишь `upon` — знай: это торжественное `on`, скорее всего официальный или литературный текст."
         }
       ],
-      "theorySummary": "into = движение внутрь (She walked into the room). out of = движение наружу (She walked out of the room). in vs into: нахождение vs движение. upon = торжественное on в книгах и формулах; once upon a time = жили-были.",
+      "theorySummary": "`into` — движение внутрь, через границу: **come into the room**, **pour the tea into the cup**. `out of` — движение наружу: **take the keys out of the drawer**, **get out of the car**. Разница с `in` держится на движении: **they are in the room** — стоят внутри, **they walk into the room** — входят. Голое `out` идёт без предмета (**Go out!**), а с предметом всегда `out of`. Отдельно запоминаем `upon` — торжественное `on` из книг и формул: **Once upon a time...**",
       "examples": [
         {
-          "ru": "Она вошла в кафе.",
-          "en": "She walked into the café."
+          "ru": "Дети прыгают в бассейн.",
+          "en": "The kids jump into the pool."
         },
         {
-          "ru": "Он достал ключи из кармана.",
-          "en": "He took the keys out of his pocket."
+          "ru": "Положи письма в коробку.",
+          "en": "Put the letters into the box."
         },
         {
-          "ru": "Кот прыгнул в коробку.",
-          "en": "The cat jumped into the box."
+          "ru": "Достань телефон из кармана.",
+          "en": "Take the phone out of your pocket."
         },
         {
-          "ru": "Вика вышла из здания.",
-          "en": "Vika walked out of the building."
+          "ru": "Кошки выбегают из сада.",
+          "en": "The cats run out of the garden."
         },
         {
           "ru": "Жили-были...",
@@ -4074,9 +4025,9 @@
         }
       ],
       "clarificationOptions": [
-        "Разница walked in и walked into — почему важен предлог?",
-        "Почему \"out of the car\", а не просто \"out the car\"?",
-        "\"Once upon a time\" — что это значит буквально?"
+        "Чем walk in отличается от walk into?",
+        "Почему out of the car, а не просто out the car?",
+        "Что буквально значит once upon a time?"
       ]
     },
     {
@@ -4087,220 +4038,124 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Пять предлогов движения — все переводятся как «через», «по» или «мимо», но каждый рисует свой маршрут. Разобрать их раз и запомнить навсегда."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "Пять предлогов, и все пять по-русски звучат почти одинаково: «через», «по», «мимо». Русский на этом месте не различает ничего — маршрут мы достраиваем в голове сами. Английский, наоборот, каждым предлогом рисует свою траекторию, поэтому запоминать их надо картинками, а не переводами."
         },
         {
           "type": "heading",
-          "text": "`over` — поверх препятствия"
+          "text": "over — поверх препятствия"
         },
         {
           "type": "paragraph",
-          "text": "`over` = маршрут идёт поверх чего-то: вверх, через верхнюю точку, вниз. Само слово не говорит что именно делаешь — это говорит глагол."
+          "text": "Маршрут идёт **выше** чего-то: вверх, через верхнюю точку и вниз с другой стороны."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "He climbed **over** the wall. — *Он перелез через стену.* (глагол climb = лезть, over = маршрут поверху)",
-            "She jumped **over** the puddle. — *Она перепрыгнула через лужу.*",
-            "They walked **over** a small hill. — *Они перешли через холм.* (вверх и вниз с другой стороны)",
-            "We drove **over** the bridge. — *Мы переехали по мосту.*"
+            "**Climb over the wall.** — *Перелезь через стену.*",
+            "**They jump over the puddle.** — *Они перепрыгивают через лужу.*"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Above` — это статика, `over` — движение. **The lamp is above the table** — лампа просто висит выше стола и никуда не денется. **They jump over the fence** — маршрут проходит поверх забора."
+            }
           ]
         },
         {
           "type": "heading",
-          "text": "`over` vs `above` — движение против статики:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "",
-            "Пример",
-            "Смысл"
-          ],
-          "rows": [
-            [
-              "`above`",
-              "The lamp is **above** the table.",
-              "Статика — лампа просто висит выше стола, никуда не движется"
-            ],
-            [
-              "`over`",
-              "She jumped **over** the fence.",
-              "Движение — перепрыгнула через забор поверху"
-            ]
-          ]
+          "text": "across — поперёк, по поверхности"
         },
         {
           "type": "paragraph",
-          "text": "`above` = просто выше. `over` = движение поверх."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "`across` — по поверхности с одного края на другой"
-        },
-        {
-          "type": "paragraph",
-          "text": "`across` = пересечь что-то вширину, двигаясь по поверхности. Ты не лезешь поверх и не идёшь насквозь — ты пересекаешь горизонтально."
+          "text": "Пересекаем что-то вширь, двигаясь **по поверхности**: с одного края на другой."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "She swam **across** the river. — *Она переплыла реку.* (с берега на берег по поверхности воды)",
-            "Walk **across** the road carefully. — *Переходи дорогу осторожно.*",
-            "He ran **across** the field. — *Он пробежал через поле.*",
-            "They sailed **across** the ocean. — *Они переплыли океан.*"
+            "**Swim across the river.** — *Переплыви реку.*",
+            "**Walk across the road carefully.** — *Переходи дорогу осторожно.*"
           ]
         },
         {
           "type": "heading",
-          "text": "`across` vs `over` — главная путаница:"
+          "text": "along — вдоль, параллельно"
         },
         {
           "type": "paragraph",
-          "text": "Оба могут переводиться «через мост» — но смысл разный:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "",
-            "Пример",
-            "Акцент"
-          ],
-          "rows": [
-            [
-              "`over`",
-              "walk **over** the bridge",
-              "мост как препятствие, маршрут идёт поверху"
-            ],
-            [
-              "`across`",
-              "walk **across** the bridge",
-              "мост как поверхность, идёшь с одного конца на другой"
-            ]
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "На практике для моста оба варианта звучат нормально. Но для реки:"
+          "text": "Полная противоположность `across`: ничего не пересекаем, движемся **рядом**, повторяя линию."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "swim **across** the river ✓ — плыть по поверхности с берега на берег",
-            "swim **over** the river ✗ — нельзя плыть поверх реки"
+            "**Walk along the river.** — *Иди вдоль реки.*",
+            "**Just go along this street.** — *Просто иди по этой улице.*"
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Ключ: `over` требует чтобы маршрут шёл выше препятствия. `across` — горизонтальное пересечение по поверхности."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
           "type": "heading",
-          "text": "`along` — вдоль, параллельно"
+          "text": "past — мимо, не заходя"
         },
         {
           "type": "paragraph",
-          "text": "`along` — полная противоположность `across`. Вместо того чтобы пересекать — движешься параллельно чему-то."
+          "text": "Проходим рядом с объектом и движемся дальше: внутрь не заходим, ничего не пересекаем."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "We walked **along** the river. — *Мы шли вдоль реки.* (не через реку, а рядом с ней)",
-            "She drove **along** the coast. — *Она ехала вдоль побережья.*",
-            "Just go **along** this street and you'll see it. — *Иди по этой улице и увидишь.*",
-            "He jogged **along** the path. — *Он бежал трусцой по дорожке.*"
+            "**Walk past the post office and turn left.** — *Пройди мимо почты и поверни налево.*",
+            "**We drive past your house every day.** — *Мы каждый день проезжаем мимо твоего дома.*"
           ]
         },
         {
           "type": "heading",
-          "text": "`along` vs `across` на примере реки:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "",
-            "Пример",
-            "Куда движешься"
-          ],
-          "rows": [
-            [
-              "`across`",
-              "swim **across** the river",
-              "поперёк реки — с берега на берег"
-            ],
-            [
-              "`along`",
-              "walk **along** the river",
-              "вдоль берега — параллельно реке"
-            ]
-          ]
+          "text": "through — насквозь, изнутри"
         },
         {
           "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "`past` — движение мимо, не останавливаясь"
-        },
-        {
-          "type": "paragraph",
-          "text": "`past` = проходишь рядом с чем-то и продолжаешь дальше. Не заходишь внутрь, не пересекаешь — просто мимо."
+          "text": "Пока движемся, мы **внутри** объекта: лес, туннель, толпа, город."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "Walk **past** the post office and turn left. — *Пройди мимо почты и поверни налево.*",
-            "She drove **past** my house. — *Она проехала мимо моего дома.*",
-            "He walked **past** me without saying hello. — *Он прошёл мимо не поздоровавшись.*"
+            "**Drive through the tunnel.** — *Езжай через туннель.*",
+            "**Walk through the forest.** — *Иди через лес.*"
           ]
         },
         {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "`through` — насквозь через внутреннее пространство"
-        },
-        {
-          "type": "paragraph",
-          "text": "`through` = ты внутри чего-то пока движешься. Лес, туннель, толпа, город — ты проходишь через внутренность."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "We drove **through** the tunnel. — *Мы проехали через туннель.*",
-            "She walked **through** the forest. — *Она шла через лес.*",
-            "He pushed **through** the crowd. — *Он протиснулся сквозь толпу.*",
-            "Light comes **through** the window. — *Свет проходит сквозь окно.*"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Одна и та же река показывает разницу сразу всех четырёх. **Swim across the river** ✓ — с берега на берег по воде. **Swim over the river** ✗ — поверх реки не плавают, для `over` маршрут обязан идти выше. **Walk along the river** — вдоль берега, река остаётся сбоку. **Walk through the river** — вброд, по колено в воде. Один русский перевод «через реку» — четыре разные картинки."
+            }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "---"
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "С мостом одинаково хороши оба варианта: **walk over the bridge** — мост как препятствие, маршрут идёт поверху; **walk across the bridge** — мост как поверхность, идём с одного конца на другой."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "Все пять рядом — итоговая таблица:"
+          "text": "Все пять рядом"
         },
         {
           "type": "table",
@@ -4311,94 +4166,80 @@
           ],
           "rows": [
             [
-              "`over`",
-              "поверх препятствия — вверх и вниз",
+              "over",
+              "поверх препятствия, вверх и вниз",
               "climb over a wall"
             ],
             [
-              "`across`",
-              "по поверхности — с одного края на другой",
+              "across",
+              "по поверхности, с края на край",
               "swim across the river"
             ],
             [
-              "`along`",
-              "вдоль — параллельно чему-то",
+              "along",
+              "вдоль, параллельно",
               "walk along the river"
             ],
             [
-              "`past`",
-              "мимо — не заходя внутрь",
+              "past",
+              "мимо, не заходя внутрь",
               "walk past the shop"
             ],
             [
-              "`through`",
-              "насквозь — через внутреннее пространство",
+              "through",
+              "насквозь, внутри объекта",
               "drive through the tunnel"
             ]
           ]
-        },
-        {
-          "type": "heading",
-          "text": "Тест-картинка: как пересечь реку?"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "over the river — перепрыгнуть / перелететь поверху (мост как препятствие)",
-            "across the river — переплыть / переехать с берега на берег (по поверхности)",
-            "along the river — идти вдоль берега (параллельно реке, не пересекать)",
-            "through the river — идти вброд насквозь (через воду)"
-          ]
         }
       ],
-      "theorySummary": "over = поверх препятствия (climb over a wall). across = по поверхности с одного края на другой (swim across the river). along = вдоль, параллельно (walk along the river). past = мимо не заходя (walk past the shop). through = насквозь через внутренность (drive through the tunnel). over ≠ above: above — статика, over — движение. across ≠ along: across — поперёк, along — вдоль.",
+      "theorySummary": "`over` — маршрут идёт поверх препятствия: **climb over a wall**. `across` — пересекаем поперёк по поверхности: **swim across the river**. `along` — двигаемся вдоль, параллельно: **walk along the river**. `past` — проходим мимо, не заходя: **walk past the shop**. `through` — идём насквозь, находясь внутри: **drive through the tunnel**. Две пары, которые чаще всего путают: `above` — статика, `over` — движение; `across` — поперёк, `along` — вдоль.",
       "examples": [
         {
-          "ru": "Они перешли через мост.",
-          "en": "They walked over the bridge."
+          "ru": "Мы едем по мосту.",
+          "en": "We drive over the bridge."
         },
         {
-          "ru": "Он перелез через забор.",
-          "en": "He climbed over the fence."
+          "ru": "Мы перепрыгиваем через ручей.",
+          "en": "We jump over the stream."
         },
         {
-          "ru": "Она переплыла реку.",
-          "en": "She swam across the river."
+          "ru": "Они переплывают озеро.",
+          "en": "They swim across the lake."
         },
         {
-          "ru": "Осторожно переходи дорогу.",
-          "en": "Walk across the road carefully."
+          "ru": "Перейди площадь и поверни налево.",
+          "en": "Walk across the square and turn left."
         },
         {
-          "ru": "Мы шли вдоль побережья.",
-          "en": "We walked along the coast."
+          "ru": "Мы идём вдоль побережья.",
+          "en": "We walk along the coast."
         },
         {
-          "ru": "Просто иди по этой улице.",
-          "en": "Just go along this street."
+          "ru": "Мы едем вдоль канала.",
+          "en": "We drive along the canal."
         },
         {
-          "ru": "Пройди мимо банка и поверни направо.",
-          "en": "Walk past the bank and turn right."
+          "ru": "Пройди мимо аптеки.",
+          "en": "Walk past the pharmacy."
         },
         {
-          "ru": "Она проехала мимо моего дома.",
-          "en": "She drove past my house."
+          "ru": "Автобусы проезжают мимо школы.",
+          "en": "Buses drive past the school."
         },
         {
-          "ru": "Мы ехали через туннель.",
-          "en": "We drove through the tunnel."
+          "ru": "Мы едем через горы.",
+          "en": "We drive through the mountains."
         },
         {
-          "ru": "Он протиснулся сквозь толпу.",
-          "en": "He pushed through the crowd."
+          "ru": "Пройди через двор к воротам.",
+          "en": "Walk through the yard to the gate."
         }
       ],
       "clarificationOptions": [
-        "Почему \"swim across the river\", а не \"swim over the river\"?",
-        "Разница along и across на примере реки?",
-        "Можно ли сказать и \"over the bridge\" и \"across the bridge\"?"
+        "Почему swim across the river, а не swim over the river?",
+        "Чем along отличается от across на примере реки?",
+        "Можно ли сказать и over the bridge, и across the bridge?"
       ]
     },
     {
@@ -12276,7 +12117,7 @@
       "id": "basics_card24_ex1",
       "cardId": 24,
       "title": "to или from — куда и откуда",
-      "userInstruction": "AI даст английские предложения с пропусками. Вставь to / from / или оставь пустым (если предлог не нужен).",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите to или from, а если предлог не нужен — поставьте прочерк.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
@@ -12284,7 +12125,7 @@
       "id": "basics_card25_ex1",
       "cardId": 25,
       "title": "into или out of — вход и выход",
-      "userInstruction": "AI даст английские предложения с пропусками. Вставь into или out of.",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите подходящий предлог: into, out of, in или out.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
@@ -12292,7 +12133,7 @@
       "id": "basics_card28_ex1",
       "cardId": 28,
       "title": "over, across, along, past или through?",
-      "userInstruction": "AI даст предложения с пропусками. Вставь нужный предлог движения: over / across / along / past / through.",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите подходящий предлог движения: over, across, along, past или through.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
@@ -15349,54 +15190,54 @@
       "id": 23,
       "statements": [
         {
-          "en": "She arrived to the airport.",
-          "ru": "Она прибыла в аэропорт.",
-          "isTrue": false
-        },
-        {
-          "en": "He is from Japan.",
-          "ru": "Он из Японии.",
+          "en": "She is from Japan.",
+          "ru": "Она из Японии.",
           "isTrue": true
         },
         {
-          "en": "We're going to home.",
-          "ru": "Мы идём домой.",
+          "en": "We arrive to Lisbon at ten.",
+          "ru": "Мы прибываем в Лиссабон в десять.",
           "isTrue": false
         },
         {
-          "en": "The letter is from Katya.",
-          "ru": "Письмо от Кати.",
+          "en": "Take the papers to my office.",
+          "ru": "Отнеси бумаги ко мне в офис.",
           "isTrue": true
         },
         {
-          "en": "I go to school every morning.",
-          "ru": "Я хожу в школу каждое утро.",
+          "en": "They go to home after school.",
+          "ru": "Они идут домой после школы.",
+          "isTrue": false
+        },
+        {
+          "en": "I have a message from Katya.",
+          "ru": "У меня сообщение от Кати.",
           "isTrue": true
         }
       ],
-      "explanation": "Предл. 1: \"arrive to\" — ошибка. Правильно: arrive **in** (город) / arrive **at** (конкретная точка). Предл. 3: \"going to home\" — ошибка. Правильно: просто \"going home\"."
+      "explanation": "Предл. 2: arrive никогда не берёт to, нужно arrive in Lisbon. Предл. 4: перед home предлог не ставится, правильно they go home."
     },
     {
       "id": 24,
       "statements": [
         {
-          "en": "She walked in the room.",
-          "ru": "Она вошла в комнату.",
+          "en": "They walk in the office and sit down.",
+          "ru": "Они входят в офис и садятся.",
           "isTrue": false
         },
         {
-          "en": "He jumped into the lake.",
-          "ru": "Он прыгнул в озеро.",
+          "en": "We jump into the lake.",
+          "ru": "Мы прыгаем в озеро.",
           "isTrue": true
         },
         {
-          "en": "Take the card out of your wallet.",
-          "ru": "Достань карту из кошелька.",
+          "en": "Take the milk out of the fridge.",
+          "ru": "Достань молоко из холодильника.",
           "isTrue": true
         },
         {
-          "en": "The cat ran out the house.",
-          "ru": "Кот выбежал из дома.",
+          "en": "The dogs run out the yard.",
+          "ru": "Собаки выбегают со двора.",
           "isTrue": false
         },
         {
@@ -15405,7 +15246,7 @@
           "isTrue": true
         }
       ],
-      "explanation": "Предл. 1: вошла в комнату — движение внутрь → \"walked **into** the room\". \"Walked in the room\" = ходила по комнате (нахождение + хождение внутри, не вход). Предл. 4: выбежал из — \"ran **out of** the house\" (out of + существительное)."
+      "explanation": "Предл. 1: они входят, а не находятся внутри, поэтому walk into the office. Предл. 4: после out стоит предмет — двор, значит нужно run out of the yard."
     },
     {
       "id": 25,
@@ -16293,56 +16134,60 @@
     },
     {
       "id": 23,
-      "situationRu": "Ситуация: описываешь маршрут поезда.",
-      "correctSentence": "The train goes from Kazan to Moscow.",
+      "situationRu": "Ситуация: объясняешь другу, откуда и куда идёт этот автобус.",
+      "correctSentence": "Buses go from the station to the airport.",
       "words": [
-        "The train",
-        "goes",
+        "Buses",
+        "go",
         "from",
-        "Kazan",
+        "the station",
         "to",
-        "Moscow"
+        "the airport"
       ],
       "distractors": [
         "at",
-        "in"
+        "in",
+        "into",
+        "out of"
       ],
-      "explanation": "from [начало] + to [цель] — из Казани в Москву. \"At\" и \"in\" — для мест нахождения, не для описания маршрута."
+      "explanation": "Маршрут всегда рисуется парой: from — начальная точка, to — цель. At и in говорят о нахождении на месте, а into и out of — о входе внутрь и выходе наружу, здесь этого нет."
     },
     {
       "id": 24,
-      "situationRu": "Ситуация: котёнок выпрыгнул из коробки.",
-      "correctSentence": "The kitten jumped out of the box.",
+      "situationRu": "Ситуация: котята выпрыгивают из коробки.",
+      "correctSentence": "The kittens jump out of the box.",
       "words": [
-        "The kitten",
-        "jumped",
+        "The kittens",
+        "jump",
         "out of",
         "the box"
       ],
       "distractors": [
         "into",
         "from",
-        "out"
+        "out",
+        "at"
       ],
-      "explanation": "\"Out of\" = движение изнутри наружу из замкнутого пространства. \"Into\" — противоположное движение (внутрь). \"From\" — источник без акцента на пересечение пространства. Просто \"out\" — без существительного после него."
+      "explanation": "Котята движутся изнутри наружу, а после предлога стоит коробка, поэтому out of. Into — движение в обратную сторону, from говорит об источнике без пересечения границы, а голое out идёт без предмета."
     },
     {
       "id": 25,
-      "situationRu": "Ситуация: Рома и Лена шли домой вдоль реки через парк.",
-      "correctSentence": "Roma and Lena walked along the river through the park.",
+      "situationRu": "Ситуация: объясняешь другу дорогу до музея — сначала вдоль реки, потом через парк.",
+      "correctSentence": "Walk along the river and then through the park.",
       "words": [
-        "Roma and Lena",
-        "walked",
+        "Walk",
         "along",
         "the river",
+        "and then",
         "through",
         "the park"
       ],
       "distractors": [
         "across",
-        "past"
+        "past",
+        "over"
       ],
-      "explanation": "along the river = вдоль реки (параллельно, не пересекая). through the park = насквозь через парк. across = поперёк (пересечь реку), не то. past = мимо одной точки, не вдоль всего маршрута."
+      "explanation": "Вдоль реки — движение параллельно ей, поэтому along. Через парк идут внутри него, поэтому through. Across означало бы «поперёк реки», past — «мимо парка, не заходя», а over — маршрут поверх препятствия."
     },
     {
       "id": 26,
@@ -17823,7 +17668,7 @@
     {
       "id": 34,
       "choiceType": "CHOICE",
-      "prompt": "She is going ___ the gym.",
+      "prompt": "Take this box ___ the kitchen.",
       "contextRu": "",
       "options": [
         {
@@ -17839,62 +17684,62 @@
           "isCorrect": false
         }
       ],
-      "explanation": "Она идёт в направлении цели — спортзала. Движение к цели → to. \"From\" — откуда, не куда. \"At\" — место присутствия, не движение."
+      "explanation": "Коробку несут в направлении цели — на кухню, поэтому to. From означало бы «из кухни», а at — нахождение на месте, а не движение."
     },
     {
       "id": 17,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Роман из Екатеринбурга.",
+      "prompt": "Игорь из Дублина.",
       "contextRu": "",
       "options": [
         {
-          "text": "Roman is to Yekaterinburg.",
+          "text": "Igor is to Dublin.",
           "isCorrect": false
         },
         {
-          "text": "Roman is from Yekaterinburg.",
+          "text": "Igor is at Dublin.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor is from Dublin.",
           "isCorrect": true
-        },
-        {
-          "text": "Roman is at Yekaterinburg.",
-          "isCorrect": false
         }
       ],
-      "explanation": "\"Из Екатеринбурга\" — откуда родом → from. \"To\" — направление движения, не происхождение. \"At\" — нахождение в точке."
+      "explanation": "Откуда человек родом — это from. To рисует стрелку к цели, а at говорит о нахождении в точке, а не о происхождении."
     },
     {
       "id": 35,
       "choiceType": "CHOICE",
-      "prompt": "He ran ___ the building when he heard the alarm.",
+      "prompt": "The birds fly ___ the kitchen.",
       "contextRu": "",
       "options": [
+        {
+          "text": "into",
+          "isCorrect": true
+        },
         {
           "text": "in",
           "isCorrect": false
         },
         {
-          "text": "into",
-          "isCorrect": true
-        },
-        {
-          "text": "at",
+          "text": "out",
           "isCorrect": false
         }
       ],
-      "explanation": "Он *побежал внутрь* здания — движение через границу → into. \"In\" — нахождение, не движение. \"In the building\" = он уже там. \"Into the building\" = он туда входит. \"At\" — место присутствия, не пересечение границы."
+      "explanation": "Птицы влетают внутрь, то есть пересекают границу кухни, поэтому into. In означало бы, что они просто находятся на кухне, а out стоит без предмета и сюда не подходит."
     },
     {
       "id": 36,
       "choiceType": "CHOICE",
-      "prompt": "She took her phone ___ her bag.",
+      "prompt": "Take your hands ___ your pockets.",
       "contextRu": "",
       "options": [
         {
-          "text": "to",
+          "text": "into",
           "isCorrect": false
         },
         {
-          "text": "into",
+          "text": "out",
           "isCorrect": false
         },
         {
@@ -17902,154 +17747,154 @@
           "isCorrect": true
         }
       ],
-      "explanation": "Телефон был внутри сумки, она его достала — движение изнутри наружу → out of. \"Into\" — движение внутрь (противоположное). \"To\" — направление к цели, не выход из пространства."
+      "explanation": "Руки достают изнутри наружу, и после предлога стоит предмет — карманы, поэтому out of. Голое out идёт без предмета, а into означало бы движение внутрь."
     },
     {
       "id": 18,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Ей пришлось перелезть через забор.",
+      "prompt": "Перелезь через ворота.",
       "contextRu": "",
       "options": [
         {
-          "text": "She had to climb over the fence.",
+          "text": "Climb over the gate.",
           "isCorrect": true
         },
         {
-          "text": "She had to climb across the fence.",
+          "text": "Climb across the gate.",
           "isCorrect": false
         },
         {
-          "text": "She had to climb through the fence.",
+          "text": "Climb through the gate.",
           "isCorrect": false
         }
       ],
-      "explanation": "over = поверх препятствия (перелезть, прыгнуть). across = по поверхности горизонтально. through = насквозь (не то для забора)."
+      "explanation": "Через ворота лезут поверху, а маршрут выше препятствия — это over. Across описывает движение по поверхности поперёк, а through — насквозь, изнутри."
     },
     {
       "id": 19,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Они переплыли реку с одного берега на другой.",
+      "prompt": "Дети переплывают канал с одного берега на другой.",
       "contextRu": "",
       "options": [
         {
-          "text": "They swam across the river.",
+          "text": "The kids swim over the canal.",
+          "isCorrect": false
+        },
+        {
+          "text": "The kids swim across the canal.",
           "isCorrect": true
         },
         {
-          "text": "They swam over the river.",
-          "isCorrect": false
-        },
-        {
-          "text": "They swam along the river.",
+          "text": "The kids swim along the canal.",
           "isCorrect": false
         }
       ],
-      "explanation": "across = по поверхности с берега на берег. over = поверху (нельзя плыть над рекой). along = вдоль берега, а не через реку."
+      "explanation": "Плывут по поверхности воды с края на край, а это across. Over потребовало бы маршрута выше воды, а along означало бы, что они плывут вдоль канала, никуда не пересекая."
     },
     {
       "id": 20,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "После работы Дима шёл вдоль реки.",
+      "prompt": "После работы мы гуляем вдоль пляжа.",
       "contextRu": "",
       "options": [
         {
-          "text": "Dima walked along the river after work.",
+          "text": "We walk across the beach after work.",
+          "isCorrect": false
+        },
+        {
+          "text": "We walk through the beach after work.",
+          "isCorrect": false
+        },
+        {
+          "text": "We walk along the beach after work.",
           "isCorrect": true
-        },
-        {
-          "text": "Dima walked across the river after work.",
-          "isCorrect": false
-        },
-        {
-          "text": "Dima walked through the river after work.",
-          "isCorrect": false
         }
       ],
-      "explanation": "along = вдоль, параллельно реке. across = пересечь реку (с берега на берег). through = вброд насквозь."
+      "explanation": "Движение повторяет линию пляжа, идёт параллельно ему, поэтому along. Across значило бы «поперёк пляжа, к воде», а through — «насквозь через что-то изнутри»."
     },
     {
       "id": 21,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Просто пройди мимо кофейни — нам туда не нужно.",
+      "prompt": "Просто пройди мимо булочной, нам туда не нужно.",
       "contextRu": "",
       "options": [
         {
-          "text": "Just walk past the café.",
+          "text": "Just walk past the bakery.",
           "isCorrect": true
         },
         {
-          "text": "Just walk along the café.",
+          "text": "Just walk along the bakery.",
           "isCorrect": false
         },
         {
-          "text": "Just walk through the café.",
+          "text": "Just walk through the bakery.",
           "isCorrect": false
         }
       ],
-      "explanation": "past = пройти мимо не заходя. along = вдоль (не то значение). through = насквозь внутри (войти и выйти)."
+      "explanation": "Проходим рядом и движемся дальше, внутрь не заходя, — это past. Along нужен для движения вдоль длинного объекта, а through означало бы, что мы входим в булочную и выходим с другой стороны."
     },
     {
       "id": 22,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Мы проехали через весь город.",
+      "prompt": "Мы проезжаем через весь город.",
       "contextRu": "",
       "options": [
         {
-          "text": "We drove through the city.",
+          "text": "We drive across the city.",
+          "isCorrect": false
+        },
+        {
+          "text": "We drive through the city.",
           "isCorrect": true
         },
         {
-          "text": "We drove across the city.",
-          "isCorrect": false
-        },
-        {
-          "text": "We drove along the city.",
+          "text": "We drive along the city.",
           "isCorrect": false
         }
       ],
-      "explanation": "through = насквозь через внутренность (город, лес, туннель). across тоже возможно, но through точнее когда находишься внутри городского пространства."
+      "explanation": "Пока мы едем, мы находимся внутри города, а это through. Across смотрит на город как на плоскость, которую пересекают поперёк, along — движение вдоль чего-то длинного."
     },
     {
       "id": 23,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Она ехала вдоль побережья.",
+      "prompt": "Автобусы идут вдоль реки.",
       "contextRu": "",
       "options": [
         {
-          "text": "She drove along the coast.",
+          "text": "Buses go across the river.",
+          "isCorrect": false
+        },
+        {
+          "text": "Buses go past the river.",
+          "isCorrect": false
+        },
+        {
+          "text": "Buses go along the river.",
           "isCorrect": true
-        },
-        {
-          "text": "She drove across the coast.",
-          "isCorrect": false
-        },
-        {
-          "text": "She drove past the coast.",
-          "isCorrect": false
         }
       ],
-      "explanation": "along = вдоль, параллельно побережью. across = поперёк (пересечь). past = проехать мимо одной точки, не вдоль всего побережья."
+      "explanation": "Маршрут повторяет линию реки, значит along. Across означало бы, что автобусы пересекают реку, а past — что они проезжают мимо неё один раз и уезжают."
     },
     {
       "id": 24,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Свет проходил сквозь окно.",
+      "prompt": "Протиснись сквозь толпу к сцене.",
       "contextRu": "",
       "options": [
         {
-          "text": "Light came through the window.",
+          "text": "Push through the crowd to the stage.",
           "isCorrect": true
         },
         {
-          "text": "Light came across the window.",
+          "text": "Push across the crowd to the stage.",
           "isCorrect": false
         },
         {
-          "text": "Light came over the window.",
+          "text": "Push along the crowd to the stage.",
           "isCorrect": false
         }
       ],
-      "explanation": "through = насквозь (свет, воздух, звук проходят через материал). across = по поверхности. over = поверху."
+      "explanation": "Пока человек движется, он находится внутри толпы, поэтому through. Across описывает пересечение поверхности, а along — движение вдоль объекта, но толпа не линия и не плоскость."
     },
     {
       "id": 37,
@@ -19797,13 +19642,26 @@
       "id": 13,
       "items": [
         {
-          "sentence": "I'm going ___ home now.",
-          "contextRu": "Нужен ли здесь предлог?",
-          "answer": "",
+          "sentence": "We go ___ home after work.",
+          "contextRu": "",
+          "answer": "—",
+          "alternatives": []
+        },
+        {
+          "sentence": "Send this letter ___ your brother.",
+          "contextRu": "",
+          "answer": "to",
+          "alternatives": []
+        },
+        {
+          "sentence": "Buses go ___ the airport every hour.",
+          "contextRu": "",
+          "answer": "to",
           "alternatives": []
         }
       ],
-      "explanation": "\"Home\" не требует предлога \"to\". \"I'm going home\" — правильно. \"Going to home\" — ошибка: home само несёт значение направления."
+      "explanation": "В слове home направление уже есть, поэтому предлог перед ним не ставится: go home. В остальных предложениях есть цель — брат, аэропорт, — значит нужна стрелка to.",
+      "taskDescription": "Впиши предлог. Если предлог не нужен, поставь прочерк."
     },
     {
       "id": 14,
@@ -20479,10 +20337,10 @@
     },
     {
       "id": 4,
-      "taskDescription": "",
+      "taskDescription": "соедини ситуацию с подходящим предлогом",
       "pairs": [
         {
-          "left": "Наливаю кофе в чашку",
+          "left": "Наливаю чай в чашку",
           "right": "into"
         },
         {
@@ -20494,11 +20352,11 @@
           "right": "in"
         },
         {
-          "left": "Крикнул: «Выйди!»",
+          "left": "Кричу: «Выйди!»",
           "right": "out"
         }
       ],
-      "explanation": "into = движение внутрь (наливаю — пересекаю границу чашки). out of = движение наружу из конкретного пространства (достаю из кошелька). in = просто нахождение внутри, движения нет (кот спит). out = наружу без уточнения откуда — после него нет существительного («Выйди!»)."
+      "explanation": "into — движение внутрь, чай пересекает границу чашки. out of — движение наружу, и после предлога стоит кошелёк. in — просто нахождение внутри, кот никуда не движется. out — наружу без предмета после него."
     },
     {
       "id": 5,
@@ -20848,22 +20706,22 @@
     },
     {
       "id": 10,
-      "wrongSentence": "He got out the car and walked in the office.",
+      "wrongSentence": "Get out the taxi and come in the shop.",
       "options": [
         {
-          "text": "He got out of the car and walked into the office.",
+          "text": "Get out from the taxi and come in the shop.",
+          "isCorrect": false
+        },
+        {
+          "text": "Get out of the taxi and come into the shop.",
           "isCorrect": true
         },
         {
-          "text": "He got of the car and walked to the office.",
-          "isCorrect": false
-        },
-        {
-          "text": "He got out the car and walked at the office.",
+          "text": "Get out of the taxi and come in the shop.",
           "isCorrect": false
         }
       ],
-      "explanation": "\"Got out of the car\" — вышел из машины (out of + существительное, не просто out). \"Walked into the office\" — вошёл в офис (движение внутрь → into, не просто in)."
+      "explanation": "После out стоит предмет — такси, поэтому нужно out of. И вход в магазин — это движение через порог, то есть come into the shop; come in the shop говорило бы о нахождении внутри, а не о входе."
     },
     {
       "id": 11,
