@@ -87,7 +87,7 @@
       "topicId": 1,
       "title": "Time Prepositions · Предлоги времени",
       "order": 11,
-      "searchKeywords": "когда ставить at on in, во сколько в какой день, без предлога времени, when no preposition"
+      "searchKeywords": "почему at night, on monday или in monday, предлог перед месяцем и годом, перед yesterday нужен предлог, next week без предлога, on time или in time"
     },
     {
       "id": 12,
@@ -3491,188 +3491,159 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Те же три предлога — `at`, `on`, `in` — но теперь для времени. Правила совсем другие, чем у предлогов места. Придётся запомнить заново."
+          "text": "Те же три предлога `at`, `on`, `in` работают и со временем — только правила у них совсем другие, чем у места, и учить их приходится заново. Причина, по которой здесь так легко ошибиться, лежит в русском языке: «в три часа», «в понедельник», «в июле» — у нас везде одно и то же «в», выбирать нечего. Английский же смотрит на **размер отрезка времени**, о котором идёт речь, и на каждый размер у него свой предлог."
         },
         {
           "type": "callout",
-          "variant": "tip",
-          "label": "Маленький секрет",
+          "variant": "formula",
+          "label": "Формула",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "Логика всё равно есть. Представь, что время «приближается» к точке: большие периоды требуют `in`, конкретные дни — `on`, а точные моменты — `at`."
+              "text": "At — точка на часах · on — целый день · in — длинный отрезок"
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
           "type": "heading",
-          "text": "`at` — точный момент времени"
+          "text": "at — точный момент"
         },
         {
           "type": "paragraph",
-          "text": "Самое конкретное: точное время на часах и особые моменты суток."
+          "text": "`at` ставят там, где время можно показать стрелкой на часах: **at seven o'clock**, **at half past five**, **at noon**, **at midnight**."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "The meeting is **at** 3 o'clock. — *Встреча в 3 часа.*",
-            "We arrive **at** noon. — *Мы приедем в полдень.*",
-            "She woke up **at** midnight. — *Она проснулась в полночь.*"
+            "**My yoga class is at seven in the morning.** — *Моё занятие йогой в семь утра.*",
+            "**The bus to Prague is at noon.** — *Автобус до Праги в полдень.*"
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Особый случай — **at night** (ночью). Кажется странным, что не `in night` — ведь утро и вечер с `in`. Но ночь воспринимается как особый точечный момент темноты, не как период с границами. Запомни как исключение: **at night**."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
           "type": "heading",
-          "text": "`on` — конкретный день или дата"
+          "text": "on — конкретный день"
         },
         {
           "type": "paragraph",
-          "text": "Всё, что можно найти в календаре: дни недели, конкретные даты, праздники."
+          "text": "`on` — всё, что можно ткнуть пальцем в календаре: день недели, дата, праздник."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "I don't work **on** Mondays. — *Я не работаю по понедельникам.*",
-            "Her birthday is **on** 5th March. — *Её день рождения 5 марта.*",
-            "The concert is **on** Saturday evening. — *Концерт в субботу вечером.*"
+            "**Katya's birthday is on 9th May.** — *День рождения Кати 9 мая.*",
+            "**There is no school on Sunday.** — *В воскресенье школы нет.*",
+            "**The office is closed on New Year's Day.** — *В Новый год офис закрыт.*"
           ]
         },
         {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
           "type": "heading",
-          "text": "`in` — период времени"
+          "text": "in — длинный отрезок"
         },
         {
           "type": "paragraph",
-          "text": "Самое широкое: месяцы, сезоны, годы, части суток (кроме ночи)."
+          "text": "`in` — месяцы, сезоны, годы и части суток: **in October**, **in winter**, **in 2026**, **in the morning**, **in the afternoon**, **in the evening**."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "I was born **in** 1998. — *Я родился в 1998 году.*",
-            "It's hot **in** summer. — *Летом жарко.*",
-            "I start work **in** the morning. — *Я начинаю работу утром.*",
-            "She graduated **in** May. — *Она окончила учёбу в мае.*"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Части суток: **in the morning, in the afternoon, in the evening** — всегда с `in`. Единственное исключение: **at night**."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Сводная таблица:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Предлог",
-            "Для чего",
-            "Примеры"
-          ],
-          "rows": [
-            [
-              "**at**",
-              "точное время, ночь",
-              "at 7 pm, at noon, at midnight, at night"
-            ],
-            [
-              "**on**",
-              "дни, даты, праздники",
-              "on Monday, on 3rd July, on Christmas Day"
-            ],
-            [
-              "**in**",
-              "месяцы, сезоны, годы, утро/вечер",
-              "in March, in winter, in 2020, in the morning"
-            ]
+            "**It is very hot in summer.** — *Летом очень жарко.*",
+            "**My brother is in Vienna in August.** — *Мой брат в августе в Вене.*"
           ]
         },
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Главная ловушка",
+          "label": "Ловушка",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**At night vs in the evening/morning**"
+              "text": "Ночь выбивается из ряда частей суток. Утро, день и вечер идут с `in`, а ночь — с `at`: **at night** ✓, **in the night** ✗. Для англичанина утро и вечер — отрезок с границами, а ночь — одна сплошная тёмная точка, когда всё спит и ничего не происходит. Русскому это незаметно: у нас «утром», «вечером» и «ночью» устроены одинаково, поэтому рука сама тянется поставить `in` ко всем четырём."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "По-русски всё звучит одинаково: «утром, вечером, ночью». В английском:"
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Как только часть суток названа вместе с днём, побеждает `on`: **on Monday morning** ✓, **on Friday evening** ✓ — не `in`. Главное слово здесь день, а день всегда идёт с `on`."
+            }
+          ]
         },
         {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "I read **in** the morning. ✓",
-            "We met **in** the evening. ✓",
-            "She cried **at** night. ✓ — исключение, просто запомни."
+          "type": "heading",
+          "text": "Три предлога рядом"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Предлог",
+            "Что после него",
+            "Примеры"
+          ],
+          "rows": [
+            [
+              "at",
+              "точное время, night",
+              "at 8 pm, at noon, at midnight, at night"
+            ],
+            [
+              "on",
+              "дни, даты, праздники",
+              "on Monday, on 3rd July, on Christmas Day"
+            ],
+            [
+              "in",
+              "месяцы, сезоны, годы, части суток",
+              "in March, in winter, in 2020, in the evening"
+            ]
           ]
         }
       ],
-      "theorySummary": "at = точное время на часах и ночь. on = конкретный день недели или дата. in = период: месяц, год, сезон, утро/вечер. Исключение: at night (не `in night`).",
+      "theorySummary": "`at` — точный момент на часах: **at six o'clock**, **at noon**, и сюда же исключение **at night**. `on` — конкретный день календаря: **on Tuesday**, **on 9th May**, **on Christmas Day**. `in` — длинный отрезок: месяц, сезон, год и часть суток — **in July**, **in winter**, **in 2026**, **in the morning**. Если часть суток названа вместе с днём, ставим `on`: **on Friday evening**.",
       "examples": [
         {
-          "ru": "Самолёт вылетает в 14:00.",
-          "en": "The plane leaves at 2 pm."
+          "ru": "Самолёт в два часа дня.",
+          "en": "The plane is at 2 pm."
         },
         {
-          "ru": "Лена родилась в июне.",
-          "en": "Lena was born in June."
+          "ru": "У Лены день рождения в июне.",
+          "en": "Lena's birthday is in June."
         },
         {
-          "ru": "Встреча в среду.",
+          "ru": "Собрание в среду.",
           "en": "The meeting is on Wednesday."
         },
         {
-          "ru": "По утрам я пью кофе.",
-          "en": "I drink coffee in the morning."
+          "ru": "По утрам в кафе тихо.",
+          "en": "The café is quiet in the morning."
         },
         {
-          "ru": "Её день рождения 12 апреля.",
-          "en": "Her birthday is on 12th April."
+          "ru": "Экзамен у Ромы 12 апреля.",
+          "en": "Roma's exam is on 12th April."
         },
         {
-          "ru": "Ночью было тихо.",
-          "en": "It was quiet at night."
+          "ru": "Ночью в доме холодно.",
+          "en": "The house is cold at night."
         },
         {
-          "ru": "В 2022 году я переехал.",
-          "en": "I moved in 2022."
+          "ru": "В пятницу вечером мы дома.",
+          "en": "We are at home on Friday evening."
         },
         {
-          "ru": "Магазин закрыт по воскресеньям.",
-          "en": "The shop is closed on Sundays."
+          "ru": "В полночь всё закрыто.",
+          "en": "Everything is closed at midnight."
         }
       ],
       "clarificationOptions": [
-        "Почему at night, а не in night?",
-        "В чём разница on Monday и in the morning?",
-        "Как запомнить разницу at/on/in для времени?"
+        "Почему at night, а не in the night?",
+        "Почему on Friday evening, а не in the evening?",
+        "Как быстро понять, что нужен on, а не in?"
       ]
     },
     {
@@ -3683,121 +3654,142 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Есть слова, которые сами по себе уже несут значение времени — и перед ними предлог не нужен. Добавить предлог — значит сделать ошибку."
+          "text": "Есть слова, которые сами по себе уже несут время: вчера, сегодня, завтра, каждый день. Перед ними предлог не нужен вообще — и это не «можно опустить», а именно ошибка, если поставить."
         },
         {
           "type": "heading",
-          "text": "Без предлога всегда:"
+          "text": "Слова, которые предлог не берут"
         },
         {
           "type": "table",
           "header": [
             "Слово",
             "Перевод",
-            "Правильно",
-            "Ошибка"
+            "Пример"
           ],
           "rows": [
             [
               "yesterday",
               "вчера",
-              "I saw him **yesterday**.",
-              "~~at yesterday~~"
+              "Our meeting was yesterday."
             ],
             [
               "today",
               "сегодня",
-              "She's busy **today**.",
-              "~~on today~~"
+              "Vera is very busy today."
             ],
             [
               "tomorrow",
               "завтра",
-              "Call me **tomorrow**.",
-              "~~on tomorrow~~"
+              "The exam is tomorrow."
             ],
             [
-              "last week/year",
-              "на прошлой неделе/в прошлом году",
-              "**Last week** was great.",
-              "~~in last week~~"
+              "last week",
+              "на прошлой неделе",
+              "Prague was cold last week."
             ],
             [
-              "next week/year",
-              "на следующей неделе/в следующем году",
-              "I'll see you **next week**.",
-              "~~on next week~~"
+              "next week",
+              "на следующей неделе",
+              "Our trip is next week."
             ],
             [
-              "this morning/evening",
-              "этим утром/вечером",
-              "I called you **this morning**.",
-              "~~in this morning~~"
+              "this morning",
+              "сегодня утром",
+              "The shop is closed this morning."
             ],
             [
-              "every day/week",
-              "каждый день/неделю",
-              "He jogs **every day**.",
-              "~~at every day~~"
+              "every day",
+              "каждый день",
+              "My English lesson is every day."
             ]
           ]
         },
         {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В примерах выше встретились формы **was** и **were** — это то же самое `to be`, но про прошлое. Полностью разберём их в теме «Past Simple», а сейчас достаточно узнавать их в лицо."
+            }
+          ]
+        },
+        {
           "type": "heading",
-          "text": "Почему русские делают эту ошибку:"
+          "text": "Откуда берётся ошибка"
         },
         {
           "type": "paragraph",
-          "text": "В русском мы говорим «вчера», «сегодня» — без предлога. В английском — то же самое. Ошибка появляется потому, что только что выучили правила `at`, `on`, `in` — и начинают применять везде. Эти слова предлога не требуют — они сами наречия времени."
+          "text": "Посмотрим, что происходит в русском: «вчера» и «завтра» мы говорим без предлога — и в английском так же, тут проблем нет. А вот дальше русский предлог появляется: «**в** прошлую пятницу», «**на** следующей неделе», «**по** утрам». Рука по привычке тянется перевести и его — так и рождаются `on last Friday` и `in next week`."
         },
         {
-          "type": "paragraph",
-          "text": "**Логика:** если к слову уже добавлено уточнение `this`, `last`, `next`, `every` — предлог лишний. Уточнение само по себе указывает на время."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Как только рядом со словом времени стоит `last`, `next`, `this` или `every`, предлог убираем — даже если в русском он есть. **We are in Lisbon next week** ✓, а не **in next week** ✗. Эти четыре слова уже сами говорят, о какой именно неделе или пятнице идёт речь, и второй указатель английскому не нужен."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "Бонус: два устойчивых сочетания с разными предлогами"
+          "text": "on time и in time — две фразы, которые легко перепутать"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе переводятся похоже, но говорят о разном."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "`**on time**` — вовремя, точно по расписанию: The train arrived **on time**. *(Поезд прибыл по расписанию.)*",
-            "`**in time**` — успел, не опоздал: We got there **in time** for the film. *(Мы успели к фильму.)*"
+            "**The train is on time.** — *Поезд идёт точно по расписанию.* Ни раньше, ни позже — минута в минуту.",
+            "**We are in time for the film.** — *Мы успеваем к фильму.* Пришли до начала, с запасом."
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Эти два сочетания просто запоминаем как целые фразы."
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "On time — точно по расписанию · in time — успел до начала"
+            }
+          ]
         }
       ],
-      "theorySummary": "yesterday / today / tomorrow / last... / next... / this... / every... — без предлога. Добавлять at/on/in к ним — ошибка. Фразы-исключения: `on time` (вовремя по расписанию) и `in time` (успел).",
+      "theorySummary": "Слова **yesterday**, **today**, **tomorrow**, а также всё с `last`, `next`, `this` и `every` — **last week**, **next Friday**, **this morning**, **every day** — предлога не берут: **The exam is tomorrow** ✓, **on tomorrow** ✗. Ошибка приходит из русского, где предлог в таких фразах есть: «на следующей неделе». Отдельно запоминаем две фразы: **on time** — точно по расписанию, **in time** — успел до начала.",
       "examples": [
         {
-          "ru": "Вчера была хорошая погода.",
+          "ru": "Вчера погода была хорошая.",
           "en": "The weather was nice yesterday."
         },
         {
-          "ru": "Она позвонит завтра.",
-          "en": "She will call tomorrow."
+          "ru": "Концерт завтра вечером.",
+          "en": "The concert is tomorrow evening."
         },
         {
-          "ru": "На следующей неделе праздники.",
-          "en": "Next week there are holidays."
+          "ru": "На следующей неделе у нас каникулы.",
+          "en": "Our holidays are next week."
         },
         {
-          "ru": "Каждый день он ходит в спортзал.",
-          "en": "He goes to the gym every day."
+          "ru": "Уроки английского у Кати каждый день.",
+          "en": "Katya's English lessons are every day."
         },
         {
-          "ru": "Этим вечером мы идём в ресторан.",
-          "en": "This evening we are going to a restaurant."
+          "ru": "Наш автобус вовремя.",
+          "en": "Our bus is on time."
         }
       ],
       "clarificationOptions": [
-        "Почему к \"tomorrow\" нельзя добавить \"on\"?",
-        "Разница \"on time\" и \"in time\"",
-        "Что общего у yesterday/today/tomorrow — почему без предлога?"
+        "Почему перед tomorrow нельзя поставить on?",
+        "Чем on time отличается от in time?",
+        "Почему в русском предлог есть, а в английском пропадает?"
       ]
     },
     {
@@ -12268,15 +12260,15 @@
       "id": "basics_card22_ex1",
       "cardId": 22,
       "title": "Вставь at, on или in — время",
-      "userInstruction": "AI даст 3 предложения с пропусками. Вставь нужный предлог времени: at / on / in.",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите нужный предлог времени: at, on или in.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
     {
       "id": "basics_card23_ex1",
       "cardId": 23,
-      "title": "Нужен ли предлог?",
-      "userInstruction": "AI даст 3 предложения с пропуском перед словом времени. Реши: вставь at/on/in или оставь пустым (предлог не нужен).",
+      "title": "Нужен ли здесь предлог?",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите нужный предлог времени, а если предлог не нужен — поставьте прочерк.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
@@ -15295,63 +15287,63 @@
       "id": 21,
       "statements": [
         {
-          "en": "She was born on July.",
-          "ru": "Она родилась в июле.",
-          "isTrue": false
-        },
-        {
-          "en": "The party is on Friday evening.",
-          "ru": "Вечеринка в пятницу вечером.",
+          "en": "My driving lesson is on Thursday.",
+          "ru": "Мой урок вождения в четверг.",
           "isTrue": true
         },
         {
-          "en": "I study English in the morning.",
-          "ru": "Я учу английский по утрам.",
+          "en": "It is very cold in December.",
+          "ru": "В декабре очень холодно.",
           "isTrue": true
         },
         {
-          "en": "He arrived at Monday.",
-          "ru": "Он приехал в понедельник.",
+          "en": "The shop is open at Sunday.",
+          "ru": "Магазин открыт в воскресенье.",
           "isTrue": false
         },
         {
-          "en": "It's cold at night in winter.",
-          "ru": "Ночью зимой холодно.",
+          "en": "There is a big concert in 15th July.",
+          "ru": "15 июля большой концерт.",
+          "isTrue": false
+        },
+        {
+          "en": "The streets are quiet at night.",
+          "ru": "Ночью на улицах тихо.",
           "isTrue": true
         }
       ],
-      "explanation": "Июль — месяц → in July. Понедельник — день недели → on Monday. Ночь — исключение → at night. Утро — часть суток → in the morning."
+      "explanation": "Предл. 3: воскресенье — день недели, нужен on Sunday; at здесь не годится, он для часов. Предл. 4: 15th July — дата в календаре, поэтому on 15th July; in ставят перед месяцем целиком — in July."
     },
     {
       "id": 22,
       "statements": [
         {
-          "en": "She called me in yesterday.",
-          "ru": "Она позвонила мне вчера.",
-          "isTrue": false
-        },
-        {
-          "en": "We have a meeting next week.",
-          "ru": "У нас встреча на следующей неделе.",
+          "en": "Igor is at home today.",
+          "ru": "Игорь сегодня дома.",
           "isTrue": true
         },
         {
-          "en": "He goes jogging every day.",
-          "ru": "Он бегает каждый день.",
-          "isTrue": true
-        },
-        {
-          "en": "I saw Oleg on last Friday.",
-          "ru": "Я видел Олега в прошлую пятницу.",
+          "en": "Our lesson is on every day.",
+          "ru": "Наш урок каждый день.",
           "isTrue": false
         },
         {
-          "en": "This morning I forgot my keys.",
-          "ru": "Сегодня утром я забыл ключи.",
+          "en": "Oleg is at the office this morning.",
+          "ru": "Олег сегодня утром в офисе.",
+          "isTrue": true
+        },
+        {
+          "en": "Katya's party is in tomorrow.",
+          "ru": "Вечеринка у Кати завтра.",
+          "isTrue": false
+        },
+        {
+          "en": "There is a football match next week.",
+          "ru": "На следующей неделе футбольный матч.",
           "isTrue": true
         }
       ],
-      "explanation": "Предл. 1: \"yesterday\" — наречие, без предлога. Предл. 4: \"last Friday\" — без предлога. \"Last\" уже уточняет, какая пятница; \"on\" здесь лишний."
+      "explanation": "Предл. 2: every уже указывает, о каких днях речь, поэтому просто every day, без on. Предл. 4: tomorrow — самостоятельное слово времени, предлог перед ним не ставится ни в каком виде."
     },
     {
       "id": 23,
@@ -16283,20 +16275,21 @@
     },
     {
       "id": 22,
-      "situationRu": "Ситуация: говоришь другу когда начинается тренировка.",
-      "correctSentence": "The training starts at six in the evening.",
+      "situationRu": "Ситуация: говоришь другу, во сколько начинается тренировка.",
+      "correctSentence": "The training is at six in the evening.",
       "words": [
         "The training",
-        "starts",
+        "is",
         "at",
         "six",
-        "in",
-        "the evening"
+        "in the evening"
       ],
       "distractors": [
-        "on"
+        "on",
+        "at the evening",
+        "are"
       ],
-      "explanation": "\"At six\" — точное время на часах. \"In the evening\" — часть суток. \"On\" — для дней недели и конкретных дат, здесь не нужен."
+      "explanation": "Six — точное время на часах, поэтому at six. Вечер здесь сам по себе, без дня недели, поэтому in the evening; at the evening не говорят. On нужен для дней и дат, а к слову training идёт is, а не are."
     },
     {
       "id": 23,
@@ -17767,9 +17760,13 @@
     {
       "id": 32,
       "choiceType": "CHOICE",
-      "prompt": "I usually wake up ___ 7 in the morning.",
+      "prompt": "The film is ___ half past eight.",
       "contextRu": "",
       "options": [
+        {
+          "text": "at",
+          "isCorrect": true
+        },
         {
           "text": "on",
           "isCorrect": false
@@ -17777,55 +17774,51 @@
         {
           "text": "in",
           "isCorrect": false
-        },
-        {
-          "text": "at",
-          "isCorrect": true
         }
       ],
-      "explanation": "7 — точное время на часах → at. \"On 7\" — звучало бы как дата (7-е число). \"In 7\" — такой конструкции нет для времени суток."
+      "explanation": "Half past eight — точное время на часах, поэтому at. On используют с днями и датами, а in — с месяцами, годами и частями суток."
     },
     {
       "id": 16,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Я не работаю по субботам.",
+      "prompt": "Настя по воскресеньям дома.",
       "contextRu": "",
       "options": [
         {
-          "text": "I don't work in Saturday.",
+          "text": "Nastya is at home in Sundays.",
           "isCorrect": false
         },
         {
-          "text": "I don't work at Saturday.",
-          "isCorrect": false
-        },
-        {
-          "text": "I don't work on Saturdays.",
+          "text": "Nastya is at home on Sundays.",
           "isCorrect": true
+        },
+        {
+          "text": "Nastya is at home at Sundays.",
+          "isCorrect": false
         }
       ],
-      "explanation": "Суббота — день недели → on. \"In Saturday\" — ошибка: in для месяцев, лет, сезонов. \"At Saturday\" — ошибка: at для точного времени."
+      "explanation": "Воскресенье — день недели, а дни всегда идут с on. In нужен для месяцев, сезонов и годов, at — для точного времени на часах."
     },
     {
       "id": 33,
       "choiceType": "CHOICE",
-      "prompt": "The train arrived ___ time.",
-      "contextRu": "Поезд прибыл точно по расписанию.",
+      "prompt": "Our flight is ___ time.",
+      "contextRu": "Наш рейс точно по расписанию.",
       "options": [
         {
           "text": "in",
           "isCorrect": false
         },
         {
-          "text": "on",
-          "isCorrect": true
-        },
-        {
           "text": "at",
           "isCorrect": false
+        },
+        {
+          "text": "on",
+          "isCorrect": true
         }
       ],
-      "explanation": "\"On time\" = вовремя, точно по расписанию. \"In time\" = успел, не опоздал — немного другой смысл. Здесь речь о расписании → \"on time\"."
+      "explanation": "On time — точно по расписанию, минута в минуту. In time значило бы «успели до начала», а at time не говорят вообще."
     },
     {
       "id": 34,
@@ -19779,20 +19772,26 @@
       "id": 12,
       "items": [
         {
-          "sentence": "The film starts ___ 8 o'clock.",
+          "sentence": "Our football match is ___ Saturday.",
           "contextRu": "",
-          "answer": "at",
+          "answer": "on",
           "alternatives": []
         },
         {
-          "sentence": "I always rest ___ the afternoon.",
+          "sentence": "Rome is beautiful ___ spring.",
           "contextRu": "",
           "answer": "in",
           "alternatives": []
+        },
+        {
+          "sentence": "The café is open ___ midnight.",
+          "contextRu": "",
+          "answer": "at",
+          "alternatives": []
         }
       ],
-      "explanation": "8 o'clock — точное время → at. The afternoon — часть суток (не ночь) → in.",
-      "taskDescription": "Вставь предлог:"
+      "explanation": "Суббота — день недели, поэтому on. Весна — сезон, длинный отрезок, поэтому in. Midnight — точный момент на часах, поэтому at.",
+      "taskDescription": "Впиши подходящий предлог времени."
     },
     {
       "id": 13,
@@ -20830,22 +20829,22 @@
     },
     {
       "id": 9,
-      "wrongSentence": "I'll meet you on tomorrow at the café.",
+      "wrongSentence": "There is a party at next Saturday.",
       "options": [
         {
-          "text": "I'll meet you at tomorrow in the café.",
-          "isCorrect": false
-        },
-        {
-          "text": "I'll meet you in tomorrow at the café.",
-          "isCorrect": false
-        },
-        {
-          "text": "I'll meet you tomorrow at the café.",
+          "text": "There is a party next Saturday.",
           "isCorrect": true
+        },
+        {
+          "text": "There is a party in next Saturday.",
+          "isCorrect": false
+        },
+        {
+          "text": "There is a party on next Saturday.",
+          "isCorrect": false
         }
       ],
-      "explanation": "\"Tomorrow\" не требует предлога — это наречие времени. \"On tomorrow\", \"at tomorrow\", \"in tomorrow\" — все ошибки. \"At the café\" — правильно: at для места."
+      "explanation": "Слово next уже говорит, о какой именно субботе речь, поэтому предлог перед ним не нужен вообще — ни at, ни on, ни in. On ставят перед голым днём недели: on Saturday."
     },
     {
       "id": 10,
@@ -21732,13 +21731,13 @@
     },
     {
       "id": 3,
-      "taskDescription": "распредели в колонки at / on / in",
+      "taskDescription": "распредели слова по колонкам at, on и in",
       "categories": [
         {
           "title": "at",
           "items": [
             "midnight",
-            "9 o'clock",
+            "six o'clock",
             "night",
             "noon"
           ]
@@ -21746,23 +21745,23 @@
         {
           "title": "on",
           "items": [
-            "Friday",
-            "15th August",
+            "Tuesday",
+            "9th May",
             "New Year's Day",
-            "Saturday"
+            "Friday morning"
           ]
         },
         {
           "title": "in",
           "items": [
-            "summer",
-            "the morning",
-            "2019",
-            "December"
+            "autumn",
+            "2026",
+            "the afternoon",
+            "October"
           ]
         }
       ],
-      "explanation": "at = точное время и night. on = дни недели и даты. in = месяцы, годы, сезоны, части суток (утро/вечер)."
+      "explanation": "at — точное время на часах и слово night. on — дни недели, даты и праздники, а также часть суток вместе с днём: Friday morning. in — месяцы, сезоны, годы и части суток сами по себе."
     },
     {
       "id": 4,
@@ -21987,26 +21986,26 @@
     },
     {
       "id": 3,
-      "groupDescription": "Три из четырёх слов требуют предлог at/on/in. Найди то, что предлога НЕ требует",
+      "groupDescription": "Три слова требуют перед собой предлог at, on или in. Найди четвёртое",
       "items": [
         {
-          "text": "Monday",
+          "text": "Wednesday",
           "isOdd": false
         },
         {
-          "text": "July",
-          "isOdd": false
-        },
-        {
-          "text": "yesterday",
+          "text": "tomorrow",
           "isOdd": true
         },
         {
-          "text": "3 o'clock",
+          "text": "April",
+          "isOdd": false
+        },
+        {
+          "text": "half past six",
           "isOdd": false
         }
       ],
-      "explanation": "Monday, July, 3 o'clock — конкретные временные ориентиры, которые требуют at/on/in. \"Yesterday\" — наречие времени, само по себе указывает на время. Добавлять к нему предлог — ошибка: \"at yesterday\", \"on yesterday\" не существуют."
+      "explanation": "Wednesday — день недели (on Wednesday), April — месяц (in April), half past six — время на часах (at half past six). Tomorrow само по себе указывает на время, поэтому предлог перед ним не ставится: on tomorrow и in tomorrow не существуют."
     },
     {
       "id": 4,
