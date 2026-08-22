@@ -2819,7 +2819,7 @@ theory/
 │   │   │       ↔ I went to Japan in 2019 (конкретная поездка). Показать связкой в живом диалоге:
 │   │   │       — Have you been to Porto? — Yes, twice. — When did you go? — Last spring.
 │   │   │
-│   │   ├── МТ149 · How to Choose · Как выбирать и когда не париться (2 карточки, БЕЗ AI)
+│   │   ├── МТ149 · How to Choose · Как выбирать и когда не париться (2 карточки, БЕЗ AI) ✅ (написана, ALL GREEN 22.08.26)
 │   │   │   ├── Card 397 · Карточка-тормоз, чтобы юзер не впал в паралич. Честная середина шкалы:
 │   │   │   │   I've just finished ≈ I just finished, Have you had lunch? ≈ Did you have lunch? —
 │   │   │   │   у свежих событий без названной точки носитель говорит и так, и так. Граница
