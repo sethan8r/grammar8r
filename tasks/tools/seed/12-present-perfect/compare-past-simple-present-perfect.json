@@ -39,6 +39,13 @@
       "title": "Closed Frame · Что закрывает рамку времени",
       "order": 3,
       "searchKeywords": "when did или when have, сказать когда это было, отрезок закончился, at school какое время, how long или when"
+    },
+    {
+      "id": 148,
+      "topicId": 23,
+      "title": "Experience and Case · Опыт ↔ конкретный случай",
+      "order": 4,
+      "searchKeywords": "have ever или did ever, спросить доводилось ли, ты не видел мои ключи, been to или went to, опыт за жизнь"
     }
   ],
   "grammar_cards": [
@@ -925,6 +932,323 @@
         "Как спросить про срок, если человек уже не работает на том месте?",
         "Можно ли ответить перфектом на вопрос, который начинается с when?"
       ]
+    },
+    {
+      "id": 394,
+      "microtopicId": 148,
+      "title": "Копилка опыта: пока жизнь идёт",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У перфекта есть работа, о которой мы говорили в теме «Present Perfect»: он сообщает про опыт. Теперь посмотрим на неё с другой стороны — со стороны развилки. Почему опыт вообще достаётся перфекту и когда он у него отбирается."
+        },
+        {
+          "type": "heading",
+          "text": "Опыт — это копилка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Представьте копилку, в которую вы всю жизнь складываете галочки: пробовал устрицы, стоял на сноуборде, летал в Милан, выступал перед залом. Вопрос про опыт — это вопрос про содержимое копилки прямо сейчас:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Have you ever tried oysters?** — есть ли эта галочка у вас на сегодня?",
+            "**I've never stood on a snowboard.** — галочки нет до сих пор."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дата тут не называется не потому, что её забыли, а потому, что она **не нужна**: копилку интересует наличие галочки, а не день, когда её положили. Именно поэтому опыт — территория перфекта."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Копилка открыта, пока может пополниться. Жизнь идёт → в любой момент может появиться новая галочка → рамка не закрыта → перфект."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "А теперь честное уточнение"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Present Perfect» мы сказали жёстко: **Did you ever…?** ✗ — только **Have you ever…?**. Это было правдой для того момента, но правда неполная, и пришло время её дополнить."
+        },
+        {
+          "type": "paragraph",
+          "text": "Запрет держится ровно на одном условии: **копилка ещё открыта**. Как только копилку закрыли — прошедшее время не просто разрешено, оно единственно верное:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Did you ever meet your grandfather?** — дедушки нет, новых встреч не будет.",
+            "**Did you ever work night shifts at that factory?** — завода в вашей жизни больше нет, тот отрезок закрыт.",
+            "**Did you ever break a bone as a child?** — детство прошло, эта копилка запечатана."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это тот же самый механизм, что и в карточке «Рамка закрыта, а указателя нет»: закончившийся человек, период или место закрывают рамку не хуже даты."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Did you ever eat sushi?** ✗, если вы спрашиваете живого здорового собеседника за обедом. Такой фразой вы сообщаете, что для него всё уже позади — суши он больше не попробует. Верно **Have you ever eaten sushi?** ✓"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как выбрать за секунду"
+        },
+        {
+          "type": "paragraph",
+          "text": "Спросите себя не про грамматику, а про копилку: **может ли в ней появиться новая галочка?**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Может (человек жив, жизнь идёт, место на месте) → **Have you ever…?**",
+            "Не может (человека нет, период прошёл, место закрылось) → **Did you ever…?**"
+          ]
+        }
+      ],
+      "theorySummary": "Опыт — это копилка галочек за всю жизнь, и вопрос про опыт спрашивает про её содержимое на сегодня: **Have you ever tried oysters?**, **I've never stood on a snowboard.** Дата не называется, потому что она не нужна, — отсюда перфект. Запрет **Did you ever…?** ✗, данный в теме «Present Perfect», держится на одном условии: копилка ещё открыта. Как только отрезок закрыт, прошедшее время единственно верное: **Did you ever meet your grandfather?** (дедушки нет), **Did you ever work night shifts at that factory?** (завода в жизни больше нет), **Did you ever break a bone as a child?** (детство прошло). Проверка одна: может ли в копилке появиться новая галочка? Может → **Have you ever…?**; не может → **Did you ever…?** Ошибка **Did you ever eat sushi?** ✗ живому собеседнику звучит так, будто для него всё уже позади.",
+      "examples": [
+        {
+          "ru": "Ты когда-нибудь пробовал устрицы?",
+          "en": "Have you ever tried oysters?"
+        },
+        {
+          "ru": "Я ни разу не стоял на сноуборде.",
+          "en": "I've never stood on a snowboard."
+        },
+        {
+          "ru": "Ты застал своего дедушку?",
+          "en": "Did you ever meet your grandfather?"
+        },
+        {
+          "ru": "Тебе доводилось работать в ночную смену на том заводе?",
+          "en": "Did you ever work night shifts at that factory?"
+        },
+        {
+          "ru": "Ты в детстве ломал кости?",
+          "en": "Did you ever break a bone as a child?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя спросить Did you ever у живого человека?",
+        "Как быть, если я не знаю, жив ли тот человек, о котором спрашиваю?",
+        "Считается ли закрытой копилка, если я просто уехал из города?"
+      ]
+    },
+    {
+      "id": 395,
+      "microtopicId": 148,
+      "title": "Ищу сейчас или спрашиваю про вчера",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Теперь та же развилка на самых бытовых фразах — тех, которые произносят по десять раз в день. Здесь разница особенно обидная: перепутали время — и вам ответили не про то."
+        },
+        {
+          "type": "heading",
+          "text": "Одна пара, две ситуации"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Have you seen Chris?** — Криса ищут прямо сейчас: он где-то в здании, нужен по делу, и вопрос про сегодняшний день, который ещё идёт.",
+            "**Did you see Chris?** — речь про закрытую ситуацию: вчерашний концерт, позавчерашнее совещание. Вопрос не «где он», а «застал ли ты его тогда»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Собеседник ловит эту разницу мгновенно и отвечает по-разному: на первый вопрос — **Yes, he's in the kitchen**, на второй — **Yes, we talked for a minute**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Ты не видел мои ключи?» русский почти всегда собирает как **Did you see my keys?** ✗ — и получает ответ про какой-то прошлый раз. Ключи нужны **сейчас**, поиск идёт сейчас, ситуация жива: **Have you seen my keys?** ✓ Это, пожалуй, самая частая бытовая ошибка всей темы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ещё одна пара — про сон"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Have you slept?** — человек только проснулся или вообще не ложился: вопрос про его состояние прямо сейчас.",
+            "**Did you sleep well?** — спрашивают утром за завтраком: ночь кончилась, рамка закрылась вместе с ней."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметьте: обе фразы про одно и то же событие и обе абсолютно правильные. Опять решает не событие, а то, **жива ли ситуация**, в которой вопрос имеет смысл."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда простой ориентир для быта. Если после ответа вы собираетесь что-то **сделать** — пойти забрать ключи, найти человека, лечь спать — берите перфект. Если просто поддерживаете разговор о том, что было, — прошедшее."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Бытовые пары решаются тем же способом: жива ли ситуация. **Have you seen Chris?** — ищу его прямо сейчас, день ещё идёт; **Did you see Chris?** — про вчерашний концерт, застал ли ты его тогда. Отсюда самая частая ошибка русскоязычного: «Ты не видел мои ключи?» собирается как **Did you see my keys?** ✗, хотя ключи нужны сейчас и поиск идёт сейчас — верно **Have you seen my keys?** ✓ Та же логика со сном: **Have you slept?** — про состояние человека сейчас, **Did you sleep well?** — утренний вопрос за завтраком, ночь уже кончилась. Обе фразы в паре правильные, поэтому проверять приходится по смыслу. Ориентир для быта: собираетесь после ответа что-то сделать → перфект; просто говорите о прошлом → прошедшее время.",
+      "examples": [
+        {
+          "ru": "Ты не видел Криса?",
+          "en": "Have you seen Chris?"
+        },
+        {
+          "ru": "Ты видел Криса вчера?",
+          "en": "Did you see Chris?"
+        },
+        {
+          "ru": "Ты не видел мои ключи?",
+          "en": "Have you seen my keys?"
+        },
+        {
+          "ru": "Ты вообще спал?",
+          "en": "Have you slept?"
+        },
+        {
+          "ru": "Хорошо спалось?",
+          "en": "Did you sleep well?"
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что ситуация ещё жива, если про время ничего не сказано?",
+        "Почему на два похожих вопроса собеседник отвечает по-разному?",
+        "Что спросить, если человек нужен мне сейчас, но видели его давно?"
+      ]
+    },
+    {
+      "id": 396,
+      "microtopicId": 148,
+      "title": "been to и went to: галочка или поездка",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Осталась пара, на которой опыт и конкретный случай видно чище всего, — и заодно самая ходовая пара в разговорах о путешествиях."
+        },
+        {
+          "type": "heading",
+          "text": "Галочка в копилке против одной поездки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've been to Japan.** — галочка есть: я там бывал. Когда именно — не сказано и не важно.",
+            "**I went to Japan in 2019.** — конкретная поездка с адресом во времени: год назван, рамка закрыта."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В микротеме «Был и вернулся ↔ уехал» мы разбирали, что `been to` значит «съездил и вернулся». Здесь важно другое его свойство: оно **не датируется**. Как только вы называете год, месяц или повод, `been to` уступает место обычному прошедшему."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I've been to Japan in 2019** ✗ → **I went to Japan in 2019** ✓. Ошибка ровно та же, что в карточке «Деталь тянет за собой прошедшее»: год — такое же обстоятельство, как автобус или спортзал, и рамку он закрывает так же надёжно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как это выглядит в живом разговоре"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое полезное — увидеть, как одно перетекает в другое:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "— **Have you been to Porto?**",
+            "— **Yes, twice.**",
+            "— **When did you go?**",
+            "— **Last spring. We stayed near the river.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первый ход — про копилку, поэтому перфект. Как только разговор поехал в подробности, включается прошедшее время и держится до конца. Это тот же порядок, что мы видели в карточке «Новость и подробности», просто вместо новости здесь опыт."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Опыт открывает разговор, случай его продолжает. Считаете галочки — перфект; рассказываете поездку — прошедшее."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Пара **been to** ↔ **went to** показывает развилку чище всего. **I've been to Japan** — галочка в копилке, когда именно, не сказано и не важно; **I went to Japan in 2019** — конкретная поездка, год назван, рамка закрыта. Свойство `been to` в том, что оно не датируется: назвали год, месяц или повод — и фраза уходит в прошедшее (**I've been to Japan in 2019** ✗ → **I went to Japan in 2019** ✓), ровно как с любым другим обстоятельством. В живом разговоре одно перетекает в другое: — **Have you been to Porto?** — **Yes, twice.** — **When did you go?** — **Last spring.** Опыт открывает разговор, случай его продолжает: считаете галочки — перфект, рассказываете поездку — прошедшее время.",
+      "examples": [
+        {
+          "ru": "Я был в Японии.",
+          "en": "I've been to Japan."
+        },
+        {
+          "ru": "Я ездил в Японию в 2019 году.",
+          "en": "I went to Japan in 2019."
+        },
+        {
+          "ru": "Ты был в Порту?",
+          "en": "Have you been to Porto?"
+        },
+        {
+          "ru": "Да, дважды.",
+          "en": "Yes, twice."
+        },
+        {
+          "ru": "Прошлой весной. Мы жили у реки.",
+          "en": "Last spring. We stayed near the river."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему been to нельзя поставить рядом с годом?",
+        "Как ответить, если спросили про опыт, а я помню только одну поездку?",
+        "Чем Yes, twice отличается от рассказа о самой поездке?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1119,6 +1443,78 @@
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 161,
       "orderInCard": 3
+    },
+    {
+      "cardId": 394,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 85,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 394,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 185,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 394,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 162,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 394,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 148,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 395,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 51,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 395,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 54,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 395,
+      "exerciseType": "MATCHING",
+      "exerciseId": 58,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 395,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 147,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 396,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 162,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 396,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 61,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 396,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 74,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 396,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 75,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [],
@@ -1239,6 +1635,37 @@
         }
       ],
       "explanation": "во втором предложении работа названа бывшей — at my last job, — значит отрезок закрыт и верно I worked as a waiter at my last job. В третьем жизнь человека закончилась, копилка лет закрылась вместе с ней: My grandmother lived in Seville for forty years and died there."
+    },
+    {
+      "id": 162,
+      "statements": [
+        {
+          "en": "Have you ever tried surfing?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Did you ever meet your great-grandmother?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Have you ever been to Milan when you lived in Italy?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I have never eaten octopus.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My uncle has been in the army in the seventies.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "в третьем предложении копилку закрывает сам отрезок жизни в Италии — он кончился, поэтому верно Did you ever go to Milan when you lived in Italy? В пятом названы семидесятые, и с таким периодом перфект стоять не может: My uncle was in the army in the seventies."
     }
   ],
   "word_arrangement_exercises": [
@@ -1277,6 +1704,23 @@
         "today"
       ],
       "explanation": "девяностые закончились, поэтому помощник has в предложение не помещается — работает чистое прошедшее время. Слово today поменяло бы и смысл, и время: сегодняшний день ещё не закрыт."
+    },
+    {
+      "id": 147,
+      "situationRu": "Ситуация: спрашиваешь соседа по квартире, не видел ли он твой зонт — он нужен прямо сейчас.",
+      "correctSentence": "Have you seen my umbrella?",
+      "words": [
+        "Have",
+        "you",
+        "seen",
+        "my umbrella"
+      ],
+      "distractors": [
+        "Did",
+        "see",
+        "yesterday"
+      ],
+      "explanation": "зонт нужен сейчас, поэтому вопрос собирается перфектом, а не прошедшим временем. Слово yesterday закрыло бы рамку и увело вопрос во вчерашний день, где зонт вас уже не спасёт."
     }
   ],
   "multiple_choice_exercises": [
@@ -1472,9 +1916,98 @@
         }
       ],
       "explanation": "перфект сообщает про срок, который тянется до сегодняшнего дня, и вопрос к нему возможен только про длительность. Вопросы when и what time просят точку в прошлом, а её перфект не называет — с ними нужен был бы did."
+    },
+    {
+      "id": 185,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Спрашиваешь у соседа, доводилось ли ему хоть раз ездить на мотоцикле.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Did you ever ride a motorbike?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you ever ride a motorbike?",
+          "isCorrect": false
+        },
+        {
+          "text": "Have you ever ridden a motorbike?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "сосед жив и здоров, поэтому новая галочка в его копилке может появиться хоть завтра — рамка открыта, работает перфект. Прошедшее время прозвучало бы так, будто для соседа эта часть жизни закончилась."
+    },
+    {
+      "id": 54,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Have you seen my charger?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Ты когда-нибудь видел мою зарядку?",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты не видел мою зарядку? Она нужна мне прямо сейчас.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ты видел мою зарядку вчера вечером?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "перфект показывает, что поиск идёт в эту минуту и зарядка нужна сейчас. Про вчерашний вечер спросили бы Did you see my charger last night, а вопрос про опыт в жизни звучал бы с ever."
+    },
+    {
+      "id": 162,
+      "choiceType": "CHOICE",
+      "prompt": "Mark ___ to Lisbon in 2020.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "has been",
+          "isCorrect": false
+        },
+        {
+          "text": "went",
+          "isCorrect": true
+        },
+        {
+          "text": "has gone",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "год назван, значит поездка получила адрес в прошлом и рамка закрыта — работает прошедшее время. Перфект возможен только без даты: Mark has been to Lisbon."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 75,
+      "items": [
+        {
+          "sentence": "Ben ___ to Tallinn last winter.",
+          "contextRu": "",
+          "answer": "went",
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ to Tokyo three times.",
+          "contextRu": "",
+          "answer": "have been",
+          "alternatives": []
+        },
+        {
+          "sentence": "My parents ___ never been abroad.",
+          "contextRu": "",
+          "answer": "have",
+          "alternatives": []
+        }
+      ],
+      "explanation": "в первом предложении названа зима, поэтому поездка датирована и нужна вторая форма глагола. Во втором и третьем даты нет — считаются галочки в копилке, а для них нужен помощник have.",
+      "taskDescription": "Впиши пропущенное так, чтобы предложение было верным."
+    }
+  ],
   "dialog_restore_exercises": [
     {
       "id": 48,
@@ -1567,6 +2100,38 @@
         }
       ],
       "explanation": "вопрос просит назвать момент переезда, а перфект момент не называет — поэтому вопрос уходит в прошедшее время, хотя новость прозвучала в перфекте. Настоящее время спросило бы о привычке переезжать."
+    },
+    {
+      "id": 51,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I can't find my glasses anywhere."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, twice — they're not there."
+        }
+      ],
+      "options": [
+        {
+          "text": "Did you look in the kitchen?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you look in the kitchen?",
+          "isCorrect": false
+        },
+        {
+          "text": "Have you looked in the kitchen?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "очки ищут прямо сейчас, ситуация не закрыта — поэтому вопрос про поиск стоит в перфекте. Прошедшее время спросило бы про какой-то прошлый раз, а настоящее — про привычку заглядывать на кухню."
     }
   ],
   "matching_exercises": [
@@ -1615,6 +2180,29 @@
         }
       ],
       "explanation": "перфектный вопрос про знакомство спрашивает срок, который идёт до сих пор, поэтому ответ начинается с since. Остальные три вопроса просят точку или закрытый отрезок — и ответы у них про прошлое: место встречи, дни поездки, время начала сеанса."
+    },
+    {
+      "id": 58,
+      "taskDescription": "соедини реплику с ситуацией, в которой её скажут.",
+      "pairs": [
+        {
+          "left": "Have you seen Lucy?",
+          "right": "ищу её по всему офису"
+        },
+        {
+          "left": "Did you see Lucy?",
+          "right": "спрашиваю про вчерашний концерт"
+        },
+        {
+          "left": "Have you found your phone?",
+          "right": "телефон до сих пор не нашёлся"
+        },
+        {
+          "left": "Did you find your phone?",
+          "right": "та история давно закончилась"
+        }
+      ],
+      "explanation": "перфект работает там, где ситуация жива: человека ищут сейчас, телефон не нашёлся до сих пор. Прошедшее время уводит вопрос в закрытую рамку — вчерашний концерт и давняя история сегодняшнего дня не касаются."
     }
   ],
   "error_correction_exercises": [
@@ -1693,6 +2281,25 @@
         }
       ],
       "explanation": "слово when требует точку на линии времени, а перфект её не даёт — значит помощник have убирается целиком, а не заменяется другой формой. Без did вопрос вообще не собирается."
+    },
+    {
+      "id": 148,
+      "wrongSentence": "Have you ever been to the old cinema before it closed?",
+      "options": [
+        {
+          "text": "Did you ever go to the old cinema before it closed?",
+          "isCorrect": true
+        },
+        {
+          "text": "Did you ever went to the old cinema before it closed?",
+          "isCorrect": false
+        },
+        {
+          "text": "Have you ever go to the old cinema before it closed?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "кинотеатра больше нет, и новых походов в эту копилку уже не положишь — отрезок закрыт, работает прошедшее время. После did глагол встаёт в начальную форму, поэтому went здесь тоже не годится."
     }
   ],
   "construction_meaning_exercises": [
@@ -1762,6 +2369,25 @@
         }
       ],
       "explanation": "чтобы фраза сообщала о сегодняшнем положении дел, к третьей форме глагола добавляется помощник have или has по подлежащему: принтер работает, велосипеда у Эммы больше нет, проект сдан."
+    },
+    {
+      "id": 61,
+      "taskDescription": "перепиши каждое предложение как рассказ о конкретной поездке в прошлом году.",
+      "items": [
+        {
+          "original": "I've been to Bergen.",
+          "transformed": "I went to Bergen last year."
+        },
+        {
+          "original": "She has been to Cairo.",
+          "transformed": "She went to Cairo last year."
+        },
+        {
+          "original": "They have been to Milan.",
+          "transformed": "They went to Milan last year."
+        }
+      ],
+      "explanation": "как только в предложении появляется срок поездки, помощник have уходит, а глагол встаёт во вторую форму. Галочка в копилке превращается в рассказ о конкретном путешествии."
     }
   ],
   "categorization_exercises": [
@@ -1833,6 +2459,29 @@
         }
       ],
       "explanation": "слева отрезки, в которых уже ничего не случится: детство прошло, переезд состоялся, работа бывшая. Справа отрезки, которые ещё могут дать новое событие, — день не кончился, неделя идёт."
+    },
+    {
+      "id": 85,
+      "taskDescription": "распредели ситуации по тому, может ли копилка опыта ещё пополниться.",
+      "categories": [
+        {
+          "title": "Копилка открыта",
+          "items": [
+            "я и морепродукты",
+            "моя сестра и Париж",
+            "сосед и мотоцикл"
+          ]
+        },
+        {
+          "title": "Копилка закрыта",
+          "items": [
+            "дедушка и самолёты",
+            "мои школьные годы",
+            "моя прошлая работа"
+          ]
+        }
+      ],
+      "explanation": "слева всё ещё может случиться новое событие: и я, и сестра, и сосед живы, а жизнь идёт. Справа отрезки запечатаны — человека уже нет, школа кончилась, работа осталась в прошлом."
     }
   ],
   "find_the_odd_exercises": [
@@ -1881,6 +2530,29 @@
         }
       ],
       "explanation": "три фразы стоят в перфекте, поэтому отрезок в них продолжается и сегодня. Четвёртая стоит в прошедшем времени, а значит, двадцать лет работы Веры остались в прошлом."
+    },
+    {
+      "id": 74,
+      "groupDescription": "Три предложения говорят про опыт вообще, а одно — про конкретную поездку",
+      "items": [
+        {
+          "text": "Nick has been to Athens.",
+          "isOdd": false
+        },
+        {
+          "text": "Have you ever been to Athens?",
+          "isOdd": false
+        },
+        {
+          "text": "Sara went to Athens in March.",
+          "isOdd": true
+        },
+        {
+          "text": "They have never been to Athens.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "в трёх предложениях считают галочки в копилке — был, бывал ли, ни разу не был. В третьем назван месяц, поездка получила адрес в прошлом, и фраза стала рассказом о случае."
     }
   ]
 }
