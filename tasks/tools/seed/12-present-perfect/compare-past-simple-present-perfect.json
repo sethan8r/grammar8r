@@ -32,6 +32,13 @@
       "title": "Same Event · Одно событие — два сообщения",
       "order": 2,
       "searchKeywords": "broke или have broken, зачем добавлять have, одно событие два смысла, сказать новость по-английски, worked или have worked"
+    },
+    {
+      "id": 147,
+      "topicId": 23,
+      "title": "Closed Frame · Что закрывает рамку времени",
+      "order": 3,
+      "searchKeywords": "when did или when have, сказать когда это было, отрезок закончился, at school какое время, how long или when"
     }
   ],
   "grammar_cards": [
@@ -659,6 +666,265 @@
         "Почему нельзя сказать I work here for ten years, если я правда тут работаю?",
         "Что выбрать, если я уволился неделю назад — это ещё «до сих пор» или уже нет?"
       ]
+    },
+    {
+      "id": 392,
+      "microtopicId": 147,
+      "title": "Рамка закрыта, а указателя нет",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы договорились, что выбор делает рамка. Осталась главная неприятность: рамку далеко не всегда видно глазами. Русскоязычный ищет в предложении слово-указатель, не находит его и ставит перфект — а рамка при этом закрыта наглухо."
+        },
+        {
+          "type": "heading",
+          "text": "Явные указатели — только напоминание"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слова, которые прямо называют момент прошлого, мы разбирали в теме «Past Simple»: **yesterday**, **two days ago**, **last week**, **in 2019**. Рядом с ними перфект невозможен, и добавить к этому нечего. Всё интересное начинается там, где такого слова в предложении нет вообще."
+        },
+        {
+          "type": "heading",
+          "text": "Рамку закрывает целый период"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на эти обстоятельства:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**at school** — школа кончилась",
+            "**in my childhood** — детство прошло",
+            "**when I lived in Helsinki** — тот кусок жизни закрыт",
+            "**at my last job** — работа бывшая, ключевое слово `last`",
+            "**in the nineties** — девяностые закончились"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни в одном нет ни «вчера», ни «назад». Но каждое очерчивает отрезок, который **уже** закончился, — а закончившийся отрезок и есть закрытая рамка. Отсюда: **I played the guitar at school** ✓, **We ate a lot of fish when we lived in Helsinki** ✓. Никакой даты в этих фразах нет, и всё равно они прошедшие."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I have played the guitar at school** ✗ → **I played the guitar at school** ✓. Рука тянет перфект по инерции: даты не видно, значит «вроде про меня вообще». Но `at school` датирует событие ничуть не хуже, чем `in 2015`, — просто не цифрой, а периодом жизни."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рамку закрывает и обстановка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй случай ещё незаметнее: про время не сказано вообще ничего, а рамку закрывает то, что **исчезло**, — место, событие или человек."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Вышли из зала, свет включили: **Did you like the film?** ✓ Пока показ идёт, так не спрашивают — вопрос звучит после, когда сеанс кончился вместе со своей рамкой.",
+            "Дедушки давно нет: **Did you ever meet your grandfather?** ✓ Новых встреч уже не будет, копилка закрыта.",
+            "Гости разошлись, вечеринка кончилась: **Did you talk to Ben?** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика одна на все случаи: рамка открыта ровно до тех пор, пока отрезок **может дать новое событие**. Кончился показ, кончилась школа, ушёл человек — новых событий не будет, значит рамка закрыта, значит Past Simple."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Проверяйте себя одним вопросом — может ли в этом отрезке случиться что-то ещё? Может (сегодня, на этой неделе, за мою жизнь) → рамка открыта. Не может (в школе, в детстве, на прошлой работе, на том сеансе) → рамка закрыта."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский этого не замечает"
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском такие обстоятельства ни на что не влияют. «В детстве я боялся собак» и «сегодня я боялся собак» — глагол один и тот же, менять в нём нечего. Поэтому наш мозг вообще не привык считать `at school` или `in my childhood` грамматически значимыми словами: для него это просто уточнение, фон. В английском же фон и есть переключатель — он закрывает рамку так же надёжно, как названная дата."
+        }
+      ],
+      "theorySummary": "Рамку закрывает не только слово-указатель вроде **yesterday** или **last week**. Её закрывает целый закончившийся период: **at school**, **in my childhood**, **when I lived in Helsinki**, **at my last job**, **in the nineties** — даты в них нет, а время всё равно прошедшее (**I played the guitar at school** ✓). Её же закрывает исчезнувшая обстановка или участник: **Did you like the film?** — спрашивают после сеанса, **Did you ever meet your grandfather?** — новых встреч уже не будет. Проверка одна: может ли в этом отрезке случиться что-то ещё? Может (сегодня, на этой неделе, за мою жизнь) → рамка открыта, перфект. Не может → рамка закрыта, Past Simple. Русский эти обстоятельства грамматически не замечает: «в детстве я боялся собак» и «сегодня я боялся собак» — глагол один, менять нечего, поэтому рука ставит перфект там, где рамка давно закрыта.",
+      "examples": [
+        {
+          "ru": "В школе я играл на гитаре.",
+          "en": "I played the guitar at school."
+        },
+        {
+          "ru": "Мы много ели рыбы, когда жили в Хельсинки.",
+          "en": "We ate a lot of fish when we lived in Helsinki."
+        },
+        {
+          "ru": "Тебе понравился фильм?",
+          "en": "Did you like the film?"
+        },
+        {
+          "ru": "Ты вообще застал своего дедушку?",
+          "en": "Did you ever meet your grandfather?"
+        },
+        {
+          "ru": "На прошлой работе я много ездил.",
+          "en": "I travelled a lot at my last job."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что период закончился, если в предложении нет ни одной даты?",
+        "Почему вопрос про фильм зависит от того, вышли мы из зала или нет?",
+        "Считается ли «на этой работе» закрытым отрезком, если я всё ещё тут работаю?"
+      ]
+    },
+    {
+      "id": 393,
+      "microtopicId": 147,
+      "title": "When — всегда прошедшее",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть слово, которое решает развилку мгновенно и без всякого чутья: достаточно увидеть его в начале вопроса."
+        },
+        {
+          "type": "heading",
+          "text": "Почему when не терпит перфекта"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос **When…?** просит собеседника назвать **точку** на линии времени: минуту, день, год. А перфект точку не называет **принципиально** — вся его работа в том, чтобы сообщить, как дела обстоят сейчас, и момент он сознательно оставляет за кадром. Получается вопрос, который требует того, чего форма дать не умеет: **When have you arrived?** ✗ ломается изнутри, а не «просто так не говорят»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Правильно — **When did you arrive?** ✓ И заодно это ещё одно доказательство оси темы: как только событию требуется адрес, фраза уходит в прошедшее."
+        },
+        {
+          "type": "heading",
+          "text": "Зеркало: how long"
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом стоит вопрос-противоположность. **How long…?** спрашивает не про точку, а про **срок**, — и если срок тянется до сих пор, это ровно работа перфекта:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How long have you been here?** — сколько вы здесь уже сидите, отрезок идёт.",
+            "**How long did you live in Turin?** — сколько прожили тогда, отрезок закрыт."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Одно и то же вопросительное слово, а времена разные — потому что решает по-прежнему рамка, а не слово."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Когда ты приехал?» рука переводит как **When have you come?** ✗ — особенно если новость только что прозвучала в перфекте. Верно **When did you come?** ✓ Слово when само по себе означает, что рамку сейчас закроют."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Какое слово какое время тянет"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Вопрос",
+            "Что спрашивает",
+            "Время"
+          ],
+          "rows": [
+            [
+              "When …?",
+              "точку в прошлом",
+              "Past Simple"
+            ],
+            [
+              "What time …?",
+              "точку в прошлом",
+              "Past Simple"
+            ],
+            [
+              "Where …? · How …?",
+              "обстоятельство события",
+              "Past Simple"
+            ],
+            [
+              "How long have you …?",
+              "срок, который идёт до сих пор",
+              "Present Perfect"
+            ],
+            [
+              "Have you ever …?",
+              "опыт за всю жизнь",
+              "Present Perfect"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Верхние три строки — это один и тот же механизм из микротемы «Одно событие — два сообщения»: вопрос про адрес события закрывает рамку. Нижние две спрашивают про то, что тянется до сегодняшнего дня, поэтому там перфект."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ответ на такой вопрос тоже уходит в прошедшее, даже если разговор начался с перфектной новости. Спросили **When did you buy it?** — отвечаем **I bought it on Friday**, а не тянем `have` за собой из первой реплики."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Вопрос **When…?** просит назвать точку на линии времени, а перфект точку не называет принципиально — он сообщает про сейчас и момент оставляет за кадром. Поэтому **When have you arrived?** ✗ ломается изнутри, верно **When did you arrive?** ✓ Рядом стоит зеркальный вопрос: **How long have you been here?** — про срок, который идёт до сих пор, значит перфект; **How long did you live in Turin?** — про закрытый отрезок, значит прошедшее. Точку просят также **What time…?**, **Where…?** и **How…?** — это тот же механизм: вопрос про адрес события закрывает рамку. Про то, что тянется до сегодня, спрашивают перфектом: **Have you ever…?**, **How long have you…?** Ответ на вопрос с when тоже прошедший, даже если разговор начался с перфектной новости: **When did you buy it?** — **I bought it on Friday**.",
+      "examples": [
+        {
+          "ru": "Когда ты приехал?",
+          "en": "When did you arrive?"
+        },
+        {
+          "ru": "Как долго ты уже здесь?",
+          "en": "How long have you been here?"
+        },
+        {
+          "ru": "Сколько ты прожил в Турине?",
+          "en": "How long did you live in Turin?"
+        },
+        {
+          "ru": "Во сколько закончилась встреча?",
+          "en": "What time did the meeting finish?"
+        },
+        {
+          "ru": "Я купил её в пятницу.",
+          "en": "I bought it on Friday."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему перфект в принципе не может назвать момент события?",
+        "Как спросить про срок, если человек уже не работает на том месте?",
+        "Можно ли ответить перфектом на вопрос, который начинается с when?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -805,6 +1071,54 @@
       "exerciseType": "REVERSE_CHOICE",
       "exerciseId": 53,
       "orderInCard": 3
+    },
+    {
+      "cardId": 392,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 84,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 392,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 184,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 392,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 161,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 392,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 146,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 393,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 50,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 393,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 147,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 393,
+      "exerciseType": "MATCHING",
+      "exerciseId": 57,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 393,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 161,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [],
@@ -894,6 +1208,37 @@
         }
       ],
       "explanation": "во втором предложении срок стоит с настоящим временем, а так по-английски не говорят: верно Oleg has worked at the hospital for seven years. В пятом человек сам сказал, что ушёл из школы, — значит, отрезок закрыт и нужно I studied at that school for five years."
+    },
+    {
+      "id": 161,
+      "statements": [
+        {
+          "en": "Pasha broke his arm in his childhood.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I have worked as a waiter at my last job.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My grandmother has lived in Seville for forty years and died there.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "When I lived in Riga, I studied Spanish.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Did you enjoy the concert?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении работа названа бывшей — at my last job, — значит отрезок закрыт и верно I worked as a waiter at my last job. В третьем жизнь человека закончилась, копилка лет закрылась вместе с ней: My grandmother lived in Seville for forty years and died there."
     }
   ],
   "word_arrangement_exercises": [
@@ -914,6 +1259,24 @@
         "today"
       ],
       "explanation": "в предложении есть и место, и время, поэтому помощник have в него не помещается — работает чистое прошедшее время. Слово today поменяло бы смысл: сегодняшний день ещё не закончился."
+    },
+    {
+      "id": 146,
+      "situationRu": "Ситуация: рассказываешь, чем занимался твой отец в девяностые.",
+      "correctSentence": "My father worked at a radio station in the nineties.",
+      "words": [
+        "My father",
+        "worked",
+        "at a radio station",
+        "in the nineties"
+      ],
+      "distractors": [
+        "has worked",
+        "has",
+        "is working",
+        "today"
+      ],
+      "explanation": "девяностые закончились, поэтому помощник has в предложение не помещается — работает чистое прошедшее время. Слово today поменяло бы и смысл, и время: сегодняшний день ещё не закрыт."
     }
   ],
   "multiple_choice_exercises": [
@@ -1067,6 +1430,48 @@
         }
       ],
       "explanation": "перфект показывает, что отрезок не закрыт: занятия идут и сегодня. Про брошенные занятия сказали бы I studied Spanish for three years."
+    },
+    {
+      "id": 184,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Жанна вспоминает: в школе она играла в волейбол.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Zhanna played volleyball at school.",
+          "isCorrect": true
+        },
+        {
+          "text": "Zhanna has played volleyball at school.",
+          "isCorrect": false
+        },
+        {
+          "text": "Zhanna has been playing volleyball at school.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "школьные годы кончились, и новых матчей в этом отрезке уже не будет — рамка закрыта, работает прошедшее время. Даты в предложении нет, но она тут и не нужна: период назван словом at school."
+    },
+    {
+      "id": 161,
+      "choiceType": "CHOICE",
+      "prompt": "___ have you had this car?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "When",
+          "isCorrect": false
+        },
+        {
+          "text": "What time",
+          "isCorrect": false
+        },
+        {
+          "text": "How long",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "перфект сообщает про срок, который тянется до сегодняшнего дня, и вопрос к нему возможен только про длительность. Вопросы when и what time просят точку в прошлом, а её перфект не называет — с ними нужен был бы did."
     }
   ],
   "text_input_exercises": [],
@@ -1130,6 +1535,38 @@
         }
       ],
       "explanation": "новость прозвучала в перфекте, а вопрос спрашивает про обстоятельство — где именно, — поэтому он уходит в прошедшее время. Настоящее время здесь превратило бы вопрос в разговор о привычке."
+    },
+    {
+      "id": 50,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I've moved to a new flat."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Two weeks ago, right after the New Year."
+        }
+      ],
+      "options": [
+        {
+          "text": "When have you moved?",
+          "isCorrect": false
+        },
+        {
+          "text": "When do you move?",
+          "isCorrect": false
+        },
+        {
+          "text": "When did you move?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вопрос просит назвать момент переезда, а перфект момент не называет — поэтому вопрос уходит в прошедшее время, хотя новость прозвучала в перфекте. Настоящее время спросило бы о привычке переезжать."
     }
   ],
   "matching_exercises": [
@@ -1155,6 +1592,29 @@
         }
       ],
       "explanation": "перфект говорит о сегодняшнем положении дел, поэтому машина чистая и зонта нет. Прошедшее время оставляет событие в закрытой рамке и о сегодняшнем дне не сообщает ничего — значит, с тех пор всё могло измениться."
+    },
+    {
+      "id": 57,
+      "taskDescription": "соедини вопрос с подходящим ответом.",
+      "pairs": [
+        {
+          "left": "How long have you known Ben?",
+          "right": "Since university."
+        },
+        {
+          "left": "When did you meet Ben?",
+          "right": "At a party in Bristol."
+        },
+        {
+          "left": "How long did you stay in Lisbon?",
+          "right": "Ten days, then I flew home."
+        },
+        {
+          "left": "What time did the film start?",
+          "right": "At half past seven."
+        }
+      ],
+      "explanation": "перфектный вопрос про знакомство спрашивает срок, который идёт до сих пор, поэтому ответ начинается с since. Остальные три вопроса просят точку или закрытый отрезок — и ответы у них про прошлое: место встречи, дни поездки, время начала сеанса."
     }
   ],
   "error_correction_exercises": [
@@ -1214,6 +1674,25 @@
         }
       ],
       "explanation": "вопрос про обстоятельство — откуда взялся рецепт, — и такой вопрос всегда уходит в прошедшее время. Перфект здесь невозможен, потому что слово where как раз и требует назвать адрес события."
+    },
+    {
+      "id": 147,
+      "wrongSentence": "When have you finished the course?",
+      "options": [
+        {
+          "text": "When you finished the course?",
+          "isCorrect": false
+        },
+        {
+          "text": "When did you finish the course?",
+          "isCorrect": true
+        },
+        {
+          "text": "When have you finish the course?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "слово when требует точку на линии времени, а перфект её не даёт — значит помощник have убирается целиком, а не заменяется другой формой. Без did вопрос вообще не собирается."
     }
   ],
   "construction_meaning_exercises": [
@@ -1331,6 +1810,29 @@
         }
       ],
       "explanation": "слева объявление новости: ничего не сказано о том, где и когда это случилось, важен только сегодняшний итог. Справа те же события с обстоятельством — через кого, где, когда, — а обстоятельство закрывает рамку и уводит фразу в прошедшее время."
+    },
+    {
+      "id": 84,
+      "taskDescription": "распредели обстоятельства по тому, закрылся отрезок или ещё идёт.",
+      "categories": [
+        {
+          "title": "Отрезок закрыт",
+          "items": [
+            "в детстве",
+            "когда я жил в Риге",
+            "на прошлой работе"
+          ]
+        },
+        {
+          "title": "Отрезок ещё идёт",
+          "items": [
+            "сегодня",
+            "на этой неделе",
+            "с утра"
+          ]
+        }
+      ],
+      "explanation": "слева отрезки, в которых уже ничего не случится: детство прошло, переезд состоялся, работа бывшая. Справа отрезки, которые ещё могут дать новое событие, — день не кончился, неделя идёт."
     }
   ],
   "find_the_odd_exercises": [
