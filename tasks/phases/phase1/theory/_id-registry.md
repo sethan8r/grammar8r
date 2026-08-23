@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 408 |
+| Card | 410 |
 | Categorization | 88 |
 | Category | 7 |
-| ConstructionMeaning | 43 |
-| DialogRestore | 54 |
-| ErrorCorrection | 151 |
+| ConstructionMeaning | 44 |
+| DialogRestore | 55 |
+| ErrorCorrection | 152 |
 | FindTheOdd | 75 |
-| Matching | 60 |
-| Microtopic | 154 |
-| MultipleChoice·CHOICE | 165 |
-| MultipleChoice·FORWARD_CHOICE | 189 |
+| Matching | 61 |
+| Microtopic | 155 |
+| MultipleChoice·CHOICE | 166 |
+| MultipleChoice·FORWARD_CHOICE | 190 |
 | MultipleChoice·REVERSE_CHOICE | 57 |
 | TableFill | 34 |
 | TextInput | 79 |
 | Topic | 25 |
 | Transformation | 64 |
 | TrueFalse | 166 |
-| WordArrangement | 151 |
-| course_word | 666 |
+| WordArrangement | 152 |
+| course_word | 671 |
 
 ## Диапазоны по темам
 
@@ -327,23 +327,24 @@
 - WordArrangement: 145–148 (4)
 
 ### present-perfect-continuous
-- Card: 400–407 (8)
+- Card: 400–409 (10)
 - Categorization: 87–87 (1)
 - Category: 6–6 (1)
-- ConstructionMeaning: 42–42 (1)
-- DialogRestore: 52–53 (2)
-- ErrorCorrection: 150–150 (1)
-- Microtopic: 151–153 (3)
-- MultipleChoice·CHOICE: 163–164 (2)
-- MultipleChoice·FORWARD_CHOICE: 187–188 (2)
+- ConstructionMeaning: 42–43 (2)
+- DialogRestore: 52–54 (3)
+- ErrorCorrection: 150–151 (2)
+- Matching: 60–60 (1)
+- Microtopic: 151–154 (4)
+- MultipleChoice·CHOICE: 163–165 (3)
+- MultipleChoice·FORWARD_CHOICE: 187–189 (3)
 - MultipleChoice·REVERSE_CHOICE: 56–56 (1)
 - TableFill: 33–33 (1)
 - TextInput: 77–78 (2)
 - Topic: 24–24 (1)
 - Transformation: 62–63 (2)
 - TrueFalse: 164–165 (2)
-- WordArrangement: 149–150 (2)
-- course_word: 656–665 (10)
+- WordArrangement: 149–151 (3)
+- course_word: 656–670 (15)
 
 ### present-perfect
 - Card: 359–385 (27)

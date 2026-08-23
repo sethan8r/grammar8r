@@ -38,7 +38,14 @@
       "topicId": 24,
       "title": "How Long · Как долго идёт процесс",
       "order": 3,
-      "searchKeywords": "сколько уже длится, have been waiting for an hour, делаю уже два года, all morning без предлога, как долго ты здесь работаешь"
+      "searchKeywords": "сколько уже длится процесс, have been waiting или have waited, срок с for и since, all morning без предлога, how long have you been"
+    },
+    {
+      "id": 154,
+      "topicId": 24,
+      "title": "Just Stopped · Только что перестал: следы видны",
+      "order": 4,
+      "searchKeywords": "have been без for и since, действие кончилось а форма длительная, have you been drinking упрёк, i've been thinking вместо think, свежий след недавнего занятия"
     }
   ],
   "grammar_cards": [
@@ -1078,6 +1085,218 @@
         "Почему на этот вопрос отвечают без подлежащего и глагола?",
         "Почему нельзя спросить How long do you work here?"
       ]
+    },
+    {
+      "id": 408,
+      "microtopicId": 154,
+      "title": "Следы на виду: вот чем я занимался",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В самой первой микротеме темы мы сказали, что у этой формы две половины. Первую — срок процесса, который ещё идёт, — мы разобрали. Теперь вторая, и на первый взгляд она противоположная: действие уже **не идёт**. Кончилось минуту назад, пять минут назад — но по человеку или по комнате отлично видно, чем он был занят."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский про это говорит не прошедшим временем, а нашей формой. Причина в том, что она не рассказывает событие — она **объясняет то, что перед глазами**."
+        },
+        {
+          "type": "heading",
+          "text": "Сначала картинка, потом занятие"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've been jogging — that's why I'm out of breath.** *(out of breath — запыхался, никак не отдышусь)*",
+            "**Your boots are covered in mud. Have you been walking in the park?**",
+            "**The kitchen smells wonderful. Ben has been baking.**",
+            "**I'm exhausted. I've been cleaning the flat all morning.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Рисунок везде один: есть то, что видно прямо сейчас — одышка, грязь на ботинках, запах из кухни, вымотанный вид, — и есть занятие, которое эту картинку оставило. Порядок частей может быть любым, связка всегда одна и та же: **картинка ↔ занятие**."
+        },
+        {
+          "type": "heading",
+          "text": "Чем это отличается от обычного перфекта"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе формы объясняют «почему сейчас так», но объясняют по-разному, и это стоит увидеть на одной паре:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've washed the car.** — объяснение **готовой вещью**: машина чистая, работа сделана.",
+            "**I've been washing the car.** — объяснение **занятием**: вот почему я мокрый и без сил, а машина, между прочим, может быть ещё не домыта."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Рабочее правило на эту карточку: картинка объясняется готовым результатом — берём обычный перфект; картинка объясняется тем, **чем человек занимался**, — берём длительный."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Полное разведение этих двух форм со всеми пограничными случаями ждёт нас в предпоследней микротеме темы. Здесь достаточно бытовой половины: объясняем то, что видно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Тут русский вид почти совпадает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Редкий случай, когда русская привычка не мешает, а помогает. Мы говорим «я бегал», «она плакала», «он копался в гараже» — несовершенным видом, и это ровно тот оттенок, который английский передаёт длительной формой."
+        },
+        {
+          "type": "paragraph",
+          "text": "Но совпадение частичное, и вот где оно кончается: русское «я бегал» спокойно относится и к прошлой неделе, а **I've been jogging** — только к **свежему следу**, к тому, что заметно сейчас. Как только след остыл, английский уезжает в прошедшее: **I jogged yesterday morning**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**I was jogging, that's why I'm out of breath** ✗ → **I've been jogging, that's why I'm out of breath** ✓ — Past Continuous уводит сцену в прошлое и обрывает связь с настоящим, а нам нужно объяснить себя сейчас.",
+                "**I have jogged, that's why I'm out of breath** ✗ → **I've been jogging, that's why I'm out of breath** ✓ — обычный перфект звучит как отчёт о выполненном («пробежку сделал»), и одышка из него никак не следует."
+              ]
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Вторая работа формы — объяснить **текущую картинку** занятием, которое только что кончилось: **I've been jogging — that's why I'm out of breath**, **The kitchen smells wonderful. Ben has been baking.** Обычный перфект объясняет картинку **готовым результатом** (**I've washed the car** — она чистая), длительный — **самим занятием** (**I've been washing the car** — вот почему я мокрый). Русский несовершенный вид тут почти совпадает («я бегал»), но английская форма годится только для свежего следа: про вчера — **I jogged yesterday**. Ловушки: **I was jogging** ✗ (сцена уехала в прошлое) и **I have jogged** ✗ (отчёт об итоге).",
+      "examples": [
+        {
+          "ru": "Я бегал — вот почему я запыхался.",
+          "en": "I've been jogging — that's why I'm out of breath."
+        },
+        {
+          "ru": "У тебя ботинки в грязи. Ты гулял в парке?",
+          "en": "Your boots are covered in mud. Have you been walking in the park?"
+        },
+        {
+          "ru": "На кухне чудесно пахнет. Бен пёк.",
+          "en": "The kitchen smells wonderful. Ben has been baking."
+        },
+        {
+          "ru": "Я вымотан. Я всё утро убирал квартиру.",
+          "en": "I'm exhausted. I've been cleaning the flat all morning."
+        },
+        {
+          "ru": "Я мокрый, потому что мыл машину.",
+          "en": "I'm wet because I've been washing the car."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I was jogging, если я правда бегал?",
+        "Как понять, что след ещё «свежий», а не вчерашний?",
+        "Чем I've been washing the car отличается от I've washed the car?"
+      ]
+    },
+    {
+      "id": 409,
+      "microtopicId": 154,
+      "title": "Интонация: подозрение, упрёк и забота",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У этой формы есть побочный эффект, о котором в учебниках почти не пишут, а в жизни он встречается постоянно. Когда вы говорите не о себе, а о **чужом** занятии, фраза очень часто звучит с оценкой — с подозрением, упрёком или заботой."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сама форма тут ни при чём, дело в смысле: разговор о том, чем человек занимался всё это время, редко бывает нейтральным. Одно дело сказать «ты сделал», другое — «ты этим занимался»."
+        },
+        {
+          "type": "heading",
+          "text": "Четыре интонации, которые слышит носитель"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Подозрение: **Have you been drinking?** — это не спокойное «ты пил?», а «ну-ка дыхни».",
+            "«Кто-то трогал моё»: **Someone has been eating my cake.** — торт початый, и я знаю, что тут кто-то был.",
+            "Забота или упрёк: **You look exhausted. You've been working too hard.**",
+            "Смягчение: **I've been thinking about it.** — вежливый заход перед предложением или неприятным разговором."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский этого не слышит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы переводим такие фразы ровно и нейтрально: «ты пил?», «кто-то ел мой торт», «я думал об этом». Претензия в переводе просто исчезает — в русском её несёт интонация голоса, а в английском она уже сидит **в самой форме**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ловушка здесь не на грамматику, а на **восприятие**: вам высказали недовольство, а вы услышали обычный вопрос и спокойно на него ответили. С **Have you been drinking?** это особенно обидно: слова мирные, а по сути это обвинение."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Оборот **I've been thinking** стоит взять на вооружение и в свою речь. **I think we should change the plan** звучит как готовое решение, которое вы принесли собеседнику. **I've been thinking about the plan** — как приглашение обсудить: «я тут думал…». Разница примерно та же, что между «надо сделать иначе» и «я тут подумал, может, сделаем иначе»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Работает это и в обратную сторону — ваша собственная фраза о чужом занятии прозвучит резче, чем вы хотели. Скажете ребёнку или коллеге **You've been playing games all evening** — и он услышит не наблюдение, а претензию, даже если вы её не имели в виду. Нужен нейтральный тон — спрашивайте про результат: **Have you finished your homework?**"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Разговор о **чужом** занятии этой формой почти всегда звучит с оценкой: подозрение (**Have you been drinking?**), «кто-то трогал моё» (**Someone has been eating my cake**), забота или упрёк (**You've been working too hard**) и мягкий заход к разговору (**I've been thinking about it**). Русский переводит такие фразы нейтрально и претензии не слышит — ловушка тут на восприятие, а не на грамматику. Обратная сторона: своя фраза о чужом занятии тоже прозвучит как упрёк, поэтому нейтральный вопрос лучше задавать про результат.",
+      "examples": [
+        {
+          "ru": "Ты что, пил?",
+          "en": "Have you been drinking?"
+        },
+        {
+          "ru": "Кто-то ел мой торт.",
+          "en": "Someone has been eating my cake."
+        },
+        {
+          "ru": "Ты выглядишь вымотанным. Ты слишком много работаешь.",
+          "en": "You look exhausted. You've been working too hard."
+        },
+        {
+          "ru": "Я тут думал об этом.",
+          "en": "I've been thinking about it."
+        },
+        {
+          "ru": "Кто-то пользовался моим телефоном.",
+          "en": "Someone has been using my phone."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему Have you been drinking звучит как обвинение?",
+        "Как сказать то же самое нейтрально, без упрёка?",
+        "Зачем начинать разговор с I've been thinking?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1194,6 +1413,48 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 78,
       "orderInCard": 3
+    },
+    {
+      "cardId": 408,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 189,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 408,
+      "exerciseType": "MATCHING",
+      "exerciseId": 60,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 408,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 151,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 408,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 151,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 409,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 43,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 409,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 54,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 409,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 165,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1210,6 +1471,14 @@
       "cardId": 407,
       "title": "Как долго это длится",
       "userInstruction": "ИИ опишет ситуацию по-русски. Задайте вопрос про срок на английском и сами же коротко ответьте.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_perfect_continuous_card408_ex1",
+      "cardId": 408,
+      "title": "Объясни, что видишь",
+      "userInstruction": "ИИ опишет, что вы видите. Объясните по-английски, чем человек занимался.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -1309,6 +1578,46 @@
       "translation": "с тех пор",
       "transcription": "[sɪns ðen]",
       "microtopicId": 153,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 666,
+      "word": "to jog",
+      "translation": "бегать трусцой",
+      "transcription": "[dʒɒɡ]",
+      "microtopicId": 154,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 667,
+      "word": "breath",
+      "translation": "дыхание",
+      "transcription": "[breθ]",
+      "microtopicId": 154,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 668,
+      "word": "mud",
+      "translation": "грязь",
+      "transcription": "[mʌd]",
+      "microtopicId": 154,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 669,
+      "word": "to bake",
+      "translation": "печь, выпекать",
+      "transcription": "[beɪk]",
+      "microtopicId": 154,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 670,
+      "word": "exhausted",
+      "translation": "измотанный, вымотанный",
+      "transcription": "[ɪɡˈzɔːstɪd]",
+      "microtopicId": 154,
       "categoryId": "tenses"
     }
   ],
@@ -1445,6 +1754,28 @@
         "waited"
       ],
       "explanation": "Monday — это точка старта, поэтому since, а не for. Форма собирается через has been waiting: is сюда не подходит, а waited — третья форма для обычного перфекта."
+    },
+    {
+      "id": 151,
+      "situationRu": "Ситуация: Оля объясняет, почему у неё грязные руки — она копалась в саду.",
+      "correctSentence": "My hands are dirty because I've been working in the garden.",
+      "words": [
+        "My hands",
+        "are dirty",
+        "because",
+        "I've",
+        "been",
+        "working",
+        "in the garden"
+      ],
+      "distractors": [
+        "was",
+        "worked",
+        "am",
+        "being",
+        "work"
+      ],
+      "explanation": "грязные руки — это то, что видно сейчас, поэтому нужна связка I've been working. Was working увело бы сцену в прошлое, а worked прозвучало бы как отчёт о законченной работе."
     }
   ],
   "multiple_choice_exercises": [
@@ -1552,6 +1883,48 @@
         }
       ],
       "explanation": "вопрос про срок занятия задаётся через how long. How many спрашивает количество штук, how much — количество чего-то неисчисляемого или цену."
+    },
+    {
+      "id": 189,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "У неё красные глаза — она плакала.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Her eyes are red — she has been crying.",
+          "isCorrect": true
+        },
+        {
+          "text": "Her eyes are red — she cried.",
+          "isCorrect": false
+        },
+        {
+          "text": "Her eyes are red — she was crying.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "красные глаза — это картинка сейчас, и объясняет её свежее занятие, поэтому нужна длительная форма перфекта. She cried и she was crying оставляют плач в прошлом и с сегодняшними глазами никак не связаны."
+    },
+    {
+      "id": 165,
+      "choiceType": "CHOICE",
+      "prompt": "You look exhausted. ___ too hard?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Do you work",
+          "isCorrect": false
+        },
+        {
+          "text": "Have you been working",
+          "isCorrect": true
+        },
+        {
+          "text": "Are you work",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "вымотанный вид объясняется занятием, которое тянулось до этой минуты, поэтому have you been working. Do you work спрашивает про привычку вообще, а are you work — просто несобранная форма."
     }
   ],
   "text_input_exercises": [
@@ -1662,9 +2035,69 @@
         }
       ],
       "explanation": "прошлая весна — это точка старта, поэтому since last spring. For берёт длину отрезка, поэтому for last spring и since three years собраны наоборот."
+    },
+    {
+      "id": 54,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "You look really tired."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "You should take a break."
+        }
+      ],
+      "options": [
+        {
+          "text": "I work since six in the morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "I am working since six in the morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "I've been working since six in the morning.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "работа началась в шесть утра и тянется до сих пор — это длительная форма перфекта. Настоящее время, простое или длительное, из прошлого не тянется и с since не работает."
     }
   ],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 60,
+      "taskDescription": "соедини то, что видно, с объяснением.",
+      "pairs": [
+        {
+          "left": "Мука на столе",
+          "right": "He's been baking."
+        },
+        {
+          "left": "Мокрый зонт",
+          "right": "It's been raining."
+        },
+        {
+          "left": "Пыль на руках",
+          "right": "He's been cleaning the garage."
+        },
+        {
+          "left": "Одышка",
+          "right": "She's been running upstairs."
+        },
+        {
+          "left": "Мокрая футболка",
+          "right": "He's been washing the dog."
+        }
+      ],
+      "explanation": "в каждой паре занятие объясняет след, который остался: выпечка — мука, дождь — мокрый зонт, уборка — пыль, бег по лестнице — одышка, мытьё собаки — мокрая футболка."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 150,
@@ -1684,6 +2117,25 @@
         }
       ],
       "explanation": "Nick — это he, поэтому помощник has, а не have. Глагол при этом остаётся с окончанием -ing, и начать форму с is нельзя: перфект всегда стартует с have или has."
+    },
+    {
+      "id": 151,
+      "wrongSentence": "Your T-shirt is dirty — have you been play football?",
+      "options": [
+        {
+          "text": "Your T-shirt is dirty — did you been playing football?",
+          "isCorrect": false
+        },
+        {
+          "text": "Your T-shirt is dirty — have you been playing football?",
+          "isCorrect": true
+        },
+        {
+          "text": "Your T-shirt is dirty — have you been played football?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после been смысловой глагол стоит с окончанием -ing: have you been playing. Форма played нужна обычному перфекту, а did в этом времени не появляется вовсе."
     }
   ],
   "construction_meaning_exercises": [
@@ -1709,6 +2161,29 @@
         }
       ],
       "explanation": "been плюс fixing — это длительный перфект: процесс начался раньше и тянется. Готовый результат сообщил бы обычный перфект (Jake's fixed his car), а прошлое без связи с настоящим — Past Simple."
+    },
+    {
+      "id": 43,
+      "construction": "Someone has been using my laptop.",
+      "options": [
+        {
+          "text": "Кто-то сломал мой ноутбук.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кто-то всегда берёт мой ноутбук без спроса.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кто-то собирается купить такой же ноутбук.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кто-то трогал мой ноутбук, и это заметно.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "форма сообщает не поломку и не привычку, а чужое занятие, следы которого видны прямо сейчас: кто-то сидел за ноутбуком, и это заметно."
     }
   ],
   "transformation_exercises": [
