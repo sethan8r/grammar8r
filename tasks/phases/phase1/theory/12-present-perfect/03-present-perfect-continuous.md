@@ -213,27 +213,434 @@ Present Perfect Continuous — не самое сложное время по ф
 
 ---
 
+## Microtopic 152 — have been + -ing · Как собрать длительный перфект
+
+**ID:** 152 | **Order:** 2
+**Теги:** have been или has been, откуда взялось been, he's been это has, haven't been sleeping, have you been waiting long
+
+---
+
+### Card 403 · Формула: have/has + been + V-ing
+
+**ID:** 403 | **Order:** 1
+
+#### Theory
+
+Со смыслом разобрались — теперь механика. И тут хорошая новость: ни одной новой детали учить не придётся. Форма собирается из трёх кусочков, и все три уже лежат у нас в голове с прошлых тем.
+
+**Формула:** have/has + been + V-ing — помощник по лицу, неизменное been и глагол с окончанием -ing.
+
+**Три этажа и работа каждого**
+
+Разберём формулу по кусочкам — так её не придётся зубрить:
+
+- **have/has** — тот же помощник, что и в обычном перфекте (микротема «Форма: have/has + V3»). Работа у него прежняя: тянуть действие к «сейчас». Выбирается по лицу — у **he, she, it** стоит `has`, у всех остальных `have`.
+- **been** — третья форма глагола `to be`. Она приехала сюда из длительной формы: в Present Continuous стоит `am/is/are` (**She is typing**), но после помощника любой глагол обязан встать в третью форму — вот `am/is/are` и превращается в `been`.
+- **-ing** — сама длительность, ровно та же, что в Present Continuous. Она отвечает за «процесс тянется», и без неё конструкция рассыпается.
+
+Цепочка получается логичная: перфект требует третью форму → у `to be` третья форма это `been` → а длительность держит `-ing` на смысловом глаголе. Ничего случайного и ничего лишнего.
+
+| Кто | Форма |
+|-----|-------|
+| I | I have been typing |
+| you | you have been typing |
+| he / she / it | she has been typing |
+| we | we have been typing |
+| they | they have been typing |
+
+Меняется, как видите, ровно одно слово — первое. Средний этаж `been` не шевелится никогда, окончание `-ing` тоже.
+
+**been здесь ничего не значит**
+
+В микротеме «Был и вернулся ↔ уехал» мы разбирали `been` как полноценное смысловое слово: **I have been to Prague** — съездил и вернулся, **I have been in Prague for a week** — нахожусь там неделю. Там `been` переводится и несёт смысл «быть, побывать».
+
+Здесь всё иначе. В **I have been typing** слово `been` не переводится **вообще**: это не «был» и не «бывал», а служебная гайка внутри формы — ровно как `have` в перфекте, который тоже не значит «иметь». Попытка перевести его отдельно даёт бессмыслицу вроде «я был печатающим» — и человек решает, что ничего не понял, хотя понимать там нечего.
+
+**Кстати:** проверить себя легко. Если сразу после `have/has` стоит `been`, а дальше глагол на `-ing` — перед вами наша форма целиком, и переводить надо только последний глагол. Всё, что до него, — грамматика, а не смысл.
+
+**Ловушки:**
+- **He have been arguing** ✗ → **He has been arguing** ✓ — `he/she/it` берут `has`, здесь ровно то же правило, что в обычном перфекте.
+- **I have been work** ✗ → **I have been working** ✓ — потерялось `-ing`, а вместе с ним и вся длительность: осталась форма ни о чём.
+- **I have being typing** ✗ → **I have been typing** ✓ — `being` и `been` похожи на вид, но третья форма у `to be` только одна.
+- **I am been waiting** ✗ → **I have been waiting** ✓ — смешаны два помощника сразу; перфект всегда начинается с `have/has`, а не с `am/is/are`.
+
+**Важно:** не каждый глагол вообще идёт в эту форму. `to know`, `to want`, `to love` описывают состояние, а не занятие, и в длительные формы не ставятся: **I have been knowing him** ✗ → **I have known him** ✓. Мы разбирали это в микротеме «Глаголы без Continuous»; отдельно вернёмся к этому в конце темы.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Формула — have/has + been + V-ing: помощник по лицу (у **he, she, it** — `has`, у остальных `have`), неизменное `been` и глагол с окончанием `-ing`. `been` — это третья форма `to be`, которой требует перфект, и переводить её отдельно не нужно вообще: смысл несёт только последний глагол. Главные ошибки формы: **He have been arguing** ✗ → **He has been arguing** ✓ и **I have been work** ✗ → **I have been working** ✓.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1740 | Я тренируюсь с самого утра. | I have been practising since morning. |
+| 1741 | Оливер печатает без остановки. | Oliver has been typing non-stop. |
+| 1742 | Мы болтаем весь вечер. | We have been chatting all evening. |
+| 1743 | Они спорят с обеда. | They have been arguing since lunch. |
+| 1744 | Кейт ждёт автобус двадцать минут. | Kate has been waiting for the bus for twenty minutes. |
+
+---
+
+#### Exercises
+
+**Ex 1 · MultipleChoice · CHOICE** *(ID: 163)*
+
+"Lucy ___ the guitar all afternoon."
+
+- **has been practising** ✓
+- have been practising
+- has been practise
+
+*Explanation:* Lucy — это she, поэтому помощник has. Дальше идёт неизменное been, а смысловой глагол получает -ing: has been practising.
+
+---
+
+**Ex 2 · TableFill** *(ID: 33)*
+
+Задание: собери форму для каждого подлежащего.
+
+| Подлежащее | Форма |
+|------------|-------|
+| she · болтать | has been chatting |
+| we · тренироваться | have been practising |
+| Jake · готовить | has been cooking |
+| they · печатать | have been typing |
+| you · читать | have been reading |
+
+*Explanation:* меняется только первое слово: у she и Jake — has, у we, they и you — have. Been и окончание -ing остаются одинаковыми в каждой строке.
+
+---
+
+**Ex 3 · ErrorCorrection** *(ID: 150)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Nick have been fixing his bike."
+
+- Nick has been fix his bike.
+- **Nick has been fixing his bike.** ✓
+- Nick is been fixing his bike.
+
+*Explanation:* Nick — это he, поэтому помощник has, а не have. Глагол при этом остаётся с окончанием -ing, и начать форму с is нельзя: перфект всегда стартует с have или has.
+
+---
+
+**Ex 4 · WordArrangement** *(ID: 149)*
+
+Ситуация: Мия говорит, что весь день красит забор.
+
+Правильное предложение: **Mia has been painting the fence all day.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Mia | — |
+| has | — |
+| been | — |
+| painting | — |
+| the fence | — |
+| all day | — |
+| have | ✗ |
+| is | ✗ |
+| painted | ✗ |
+| being | ✗ |
+
+*Explanation:* Mia — это she, значит has. Дальше строго been и painting: painted — третья форма смыслового глагола, она нужна обычному перфекту, а being третьей формой не бывает вовсе.
+
+---
+
+#### Clarification Options
+
+- Откуда в этой форме взялось been, если речь не про «быть»?
+- Чем been отличается от being?
+- Почему нельзя сказать I am been working?
+
+---
+
+### Card 404 · Сокращения и слух: I've been, he's been
+
+**ID:** 404 | **Order:** 2
+
+#### Theory
+
+В живой речи помощника целиком почти не произносят — он приклеивается к подлежащему и превращается в короткий хвостик. Сам ряд сокращений мы уже разбирали в микротеме «Форма: have/has + V3», здесь он тот же, только следом встаёт `been`:
+
+- **I've been**, **you've been**, **we've been**, **they've been** — сокращённое `have`
+- **he's been**, **she's been**, **it's been** — сокращённое `has`
+- то же самое с именем: **Oliver's been arguing with them non-stop.**
+
+**Хвостик 's перед been — это всегда has**
+
+В перфекте мы ловили неприятную ловушку: `'s` — это и `has`, и `is`, пишутся одинаково, звучат одинаково, и различать их приходится по следующему слову. В нашем времени эта ловушка **снимается механически** — и это главный подарок карточки.
+
+Причина простая: формы `is been` в языке не существует **вообще**. `been` — третья форма, а третью форму за собой тянет только `have/has`; `is` так не умеет. Значит, как только после сокращения прозвучало `been`, гадать не о чем:
+
+- **He's been typing all morning.** — здесь `'s` это `has`, других вариантов нет.
+- **He's typing right now.** — а здесь `'s` это `is`: после сокращения сразу `-ing`, без `been`.
+
+**Запомни:** одно короткое слово решает всё. Есть `been` — перед вами длительный перфект, действие тянется. Нет `been` — обычное настоящее длительное, действие идёт прямо сейчас.
+
+**been почти не слышно**
+
+Теперь честно про уши. `been` звучит коротко — [[bɪn]] — и в беглой речи проглатывается между сокращением и глаголом: вся горка **she's been working** слипается почти в два слога. Полная, словарная форма [[biːn]] встречается редко: в медленной речи или когда на слово специально давят.
+
+Отсюда типичная история русскоязычного: он слышит `she's ...ing`, не улавливает `been` и понимает фразу как обычное настоящее длительное — «делает прямо сейчас». Смысл «и тянется уже давно» пропадает целиком. А потом потеря переезжает и на письмо: рука пишет **He's working here since May** ✗ вместо **He's been working here since May** ✓.
+
+**Совет:** при прослушивании ловите не подлежащее и не сокращение, а два маркера сразу — коротенькое `been` и хвост `-ing`. Есть оба — это наша форма. Есть только `-ing` — настоящее длительное.
+
+**Ловушка:** на письме разница в одном слове, а сообщаете вы совсем разное. **She's chatting with Kate** — болтает прямо сейчас, начали минуту назад. **She's been chatting with Kate all evening** — болтает весь вечер и до сих пор не закончила. Пропустив `been`, вы теряете именно то, ради чего это время и берут.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+В речи помощник сокращается: **I've been**, **we've been**, **they've been** — это `have`; **he's been**, **she's been**, **it's been** — это `has`. Старая ловушка `'s` = `has` или `is` здесь снимается механически: формы `is been` не существует, поэтому перед `been` хвостик `'s` — это всегда `has`. Само `been` звучит коротко ([[bɪn]]) и в беглой речи почти проглатывается, поэтому слушать надо два маркера сразу — `been` и `-ing`: **He's typing** (сейчас) ↔ **He's been typing** (тянется).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1745 | Мы ждём тебя уже полчаса. | We've been waiting for you for half an hour. |
+| 1746 | Она весь вечер переписывается с Кейт. | She's been chatting with Kate all evening. |
+| 1747 | Он работает здесь с мая. | He's been working here since May. |
+| 1748 | Дождь идёт с самого обеда. | It's been raining since lunch. |
+| 1749 | Оливер спорит с ними без остановки. | Oliver's been arguing with them non-stop. |
+
+---
+
+#### Exercises
+
+**Ex 5 · Categorization** *(ID: 87)*
+
+Задание: распредели предложения по тому, какое слово спряталось за 's.
+
+| 's = has | 's = is |
+|----------|---------|
+| He's been cleaning the car. | He's cleaning the car now. |
+| She's been reading my book. | She's very tired. |
+| Tom's been sleeping badly. | Tom's at work. |
+
+*Explanation:* been после сокращения бывает только у has: формы is been не существует. Если сразу за 's идёт -ing, прилагательное или место, это is.
+
+---
+
+**Ex 6 · ConstructionMeaning** *(ID: 42)*
+
+Выбери правильный перевод:
+
+"Jake's been fixing his car."
+
+- Джейк собирается чинить машину.
+- Джейк починил машину, и она готова.
+- **Джейк чинит машину уже какое-то время и ещё не закончил.** ✓
+- Джейк чинил машину когда-то давно.
+
+*Explanation:* been плюс fixing — это длительный перфект: процесс начался раньше и тянется. Готовый результат сообщил бы обычный перфект (Jake's fixed his car), а прошлое без связи с настоящим — Past Simple.
+
+---
+
+**Ex 7 · TrueFalse** *(ID: 164)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I've been practising all week. | ✓ |
+| 2 | He've been typing since nine. | ✗ |
+| 3 | She's been chatting with her sister. | ✓ |
+| 4 | We's been waiting at the station. | ✗ |
+| 5 | It's been snowing all day. | ✓ |
+
+*Explanation:* 've — это have, поэтому оно идёт с I, you, we, they; 's — это has и идёт с he, she, it. Во втором и четвёртом предложениях сокращения перепутаны местами: правильно He's been typing и We've been waiting.
+
+---
+
+#### Clarification Options
+
+- Почему перед been не бывает is?
+- Как расслышать been, если оно почти не звучит?
+- Чем He's working отличается от He's been working?
+
+---
+
+### Card 405 · Отрицание и вопрос
+
+**ID:** 405 | **Order:** 3
+
+#### Theory
+
+Утверждение собрано — осталось научиться его ломать: сказать «не делаю всё это время» и спросить «чем ты занимался?». Новых деталей опять не будет, обе операции трогают только **первое слово** формы.
+
+**Отрицание: not вешается на помощника**
+
+**Формула:** haven't/hasn't + been + V-ing — not приклеивается к помощнику, been и -ing не шевелятся.
+
+- **I haven't been sleeping well lately.**
+- **He hasn't been answering my calls.**
+- **We haven't been going out much.**
+
+Всё, что изменилось, — `have` превратилось в `haven't`. Средний этаж формы остался ровно таким же, как в утверждении. Полные `have not been` и `has not been` не запрещены, но в разговоре звучат подчёркнуто-официально.
+
+**Вопрос: помощник встаёт вперёд**
+
+Вопрос делается тем же движением, что и в обычном перфекте: помощник перепрыгивает через подлежащее, остальное не трогаем.
+
+- **Have you been waiting long?**
+- **Has she been practising today?**
+- **Have they been chatting all evening?**
+
+**Краткие ответы:**
+
+- **Yes, I have.** / **No, I haven't.**
+- **Yes, she has.** / **No, she hasn't.**
+
+В ответе повторяется **только помощник** — ни `been`, ни глагол с `-ing` в него не тащим. Правило то же, что в перфекте: ответ подхватывает первое слово вопроса, а не пересказывает его целиком.
+
+**Разве не…? — вопрос с упрёком**
+
+Отрицательный вопрос собирается просто: вперёд уезжает помощник уже с `not`, то есть `haven't` или `hasn't`. А вот смысл у него особый — спрашивающий уверен в обратном и слегка возмущён или встревожен:
+
+- **Haven't you been listening?** — «я же весь вечер об этом говорю».
+- **Hasn't he been working on it since Monday?** — «мне казалось, он этим давно занят».
+- **Haven't they been practising at all?** — упрёк тренера перед матчем.
+
+По-русски это звучит как «разве ты не…?», и именно оттенка упрёка русскоязычный обычно не слышит: переводит нейтрально — «ты слушал?» — и не замечает, что ему высказали претензию.
+
+**Главный вопрос темы: How long have you been…?**
+
+Отдельно стоит вопрос, ради которого это время во многом и существует. Собирается он как обычный вопрос, просто спереди встаёт `how long`:
+
+- **How long have you been waiting?**
+- **How long has she been working here?**
+- **How long have they been arguing?**
+
+**Кстати:** отвечают на такой вопрос через `for` и `since` — **For twenty minutes.** или **Since Tuesday.** Как выбирать между ними и почему они так дружат именно с этой формой, разберём в следующей микротеме.
+
+**Ловушки:**
+- **Do you have been waiting?** ✗ → **Have you been waiting?** ✓ — `do` вызывают только туда, где своего помощника нет, а здесь он уже есть.
+- **Have you been wait?** ✗ → **Have you been waiting?** ✓ — в вопросе `-ing` теряется чаще всего: длинная форма, и рука обрубает её на середине.
+- **Are you been listening?** ✗ → **Have you been listening?** ✓ — вопрос этого времени начинается с `have/has`, а не с `am/is/are`.
+- **How long are you working here?** ✗ → **How long have you been working here?** ✓ — русский обслуживает такой вопрос настоящим временем и промахивается каждый раз.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Отрицание вешает `not` на помощника: haven't/hasn't + been + V-ing (**He hasn't been answering my calls**), `been` и `-ing` при этом не меняются. В вопросе помощник встаёт перед подлежащим (**Have you been waiting long?**), а краткий ответ повторяет только его: **Yes, I have** / **No, I haven't**. Отрицательный вопрос (**Haven't you been listening?**) несёт упрёк «я же говорил». Главный вопрос темы — **How long have you been…?**; ловушки — **Do you have been…?** ✗ и **How long are you working here?** ✗.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1750 | Я плохо сплю в последнее время. | I haven't been sleeping well lately. |
+| 1751 | Он не отвечает на мои звонки. | He hasn't been answering my calls. |
+| 1752 | Ты долго ждёшь? | Have you been waiting long? |
+| 1753 | Разве ты не слушал? | Haven't you been listening? |
+| 1754 | Как долго она здесь работает? | How long has she been working here? |
+
+---
+
+#### Exercises
+
+**Ex 8 · Transformation** *(ID: 62)*
+
+Задание: преврати каждое предложение в вопрос.
+
+1. "She has been reading all evening." → **"Has she been reading all evening?"**
+2. "He has been fixing the bike." → **"Has he been fixing the bike?"**
+3. "You have been typing all morning." → **"Have you been typing all morning?"**
+
+*Explanation:* вперёд выходит только помощник have или has, всё остальное остаётся на месте: been и глагол с -ing не меняются.
+
+---
+
+**Ex 9 · DialogRestore** *(ID: 52)*
+
+A: "Your hands are dirty. Have you been cleaning the garage?"
+B: ___
+
+- Yes, I do.
+- **Yes, I have.** ✓
+- Yes, I am.
+
+*Explanation:* краткий ответ повторяет помощника из вопроса. Вопрос начался с have, значит и ответ идёт с have: do и am здесь чужие.
+
+---
+
+**Ex 10 · MultipleChoice · FORWARD_CHOICE** *(ID: 187)*
+
+"Как долго ты учишь испанский?"
+
+- How long do you learn Spanish?
+- How long are you learning Spanish?
+- **How long have you been learning Spanish?** ✓
+
+*Explanation:* вопрос про длительность процесса, который начался раньше и продолжается, задаётся через have been + -ing. Настоящее время (do you learn, are you learning) сообщает про привычку или про эту минуту, а не про срок.
+
+---
+
+**Ex 11 · TextInput** *(ID: 77)*
+
+Впиши пропущенное слово.
+
+1. "___ they been arguing again?"
+   Ответ: **Have**
+2. "The kids haven't ___ listening."
+   Ответ: **been**
+3. "Nick ___ been sleeping badly for a week."
+   Ответ: **has**
+
+*Explanation:* they берёт have, Nick — это he и берёт has. Been в форме стоит всегда: отрицание меняет только помощника.
+
+---
+
+#### AI Exercise
+
+**ID:** present_perfect_continuous_card405_ex1
+**Title:** "Вопрос и отрицание"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт английское утверждение. Перепишите его два раза: вопросом и отрицанием."
+**Prompt Template:** "Контекст: пользователь только что прочитал карточку об отрицании и вопросе в present perfect continuous и знает, что в вопросе помощник have или has встаёт перед подлежащим, а в отрицании к помощнику приклеивается not (haven't, hasn't); been и глагол с окончанием -ing при этом не меняются. Дай пользователю ОДНО утвердительное английское предложение в present perfect continuous и попроси переписать его дважды: сначала вопросом, потом отрицанием. Предложение держи простым: 4–7 слов, одно простое предложение, только частотная бытовая лексика уровня начинающего (car, kitchen, garden, guitar, bike, phone, message, all morning, all evening, since nine, for an hour, to clean, to paint, to chat, to type, to wait, to practise, to work) и никаких редких слов. Подлежащее чередуй от запуска к запуску: иногда I, you, we или they (нужны have и haven't), иногда he, she, it или короткое имя (нужны has и hasn't) — не давай всё время одно и то же лицо. Правильным считай ответ, где в вопросе помощник стоит перед подлежащим, в отрицании not приклеен к помощнику, а been и глагол с -ing остались на месте; полные формы have not been и has not been тоже засчитывай. Если пользователь притащил do, does или did (Do you have been waiting?) — скажи, что do вызывают только там, где своего помощника нет, а здесь он уже есть, и дай верный вариант. Если потерял -ing (Have you been wait?) — напомни, что без -ing пропадает сама длительность. Если начал вопрос с are или is (Are you been listening?) — скажи, что и вопрос, и отрицание этого времени строятся на have или has. Если not оказался не на помощнике, а на смысловом глаголе (He has been not working) — покажи, что not всегда сидит сразу за помощником. Если пользователь перепутал have и has — просто укажи, какой помощник нужен для этого подлежащего. Если сделал только одну из двух переделок — засчитай сделанную и попроси дописать вторую. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Перепишите это предложение вопросом, а потом отрицанием: Kate has been practising the guitar all evening.'
+
+#### Clarification Options
+
+- Почему в кратком ответе нельзя повторить been?
+- Откуда в вопросе Haven't you been listening упрёк?
+- Почему нельзя спросить How long are you working here?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| to argue | спорить, ругаться | [ˈɑːɡjuː] |
+| to chat | болтать, переписываться | [tʃæt] |
+| to type | печатать (на клавиатуре) | [taɪp] |
+| to practise | тренироваться, заниматься | [ˈpræktɪs] |
+| non-stop | без остановки, безостановочно | [ˌnɒnˈstɒp] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 24 | 25 |
 | Category | 6 | 7 |
-| Microtopic | 151 | 152 |
-| Card | 402 | 403 |
-| Example | 1739 | 1740 |
-| Слова курса (course_word) | 655 | 656 |
-| MultipleChoice · CHOICE | 162 | 163 |
-| MultipleChoice · FORWARD_CHOICE | 186 | 187 |
+| Microtopic | 152 | 153 |
+| Card | 405 | 406 |
+| Example | 1754 | 1755 |
+| Слова курса (course_word) | 660 | 661 |
+| MultipleChoice · CHOICE | 163 | 164 |
+| MultipleChoice · FORWARD_CHOICE | 187 | 188 |
 | MultipleChoice · REVERSE_CHOICE | 55 | 56 |
-| TrueFalse | 163 | 164 |
-| WordArrangement | 148 | 149 |
-| TextInput | 76 | 77 |
+| TrueFalse | 164 | 165 |
+| WordArrangement | 149 | 150 |
+| TextInput | 77 | 78 |
 | Matching | 59 | 60 |
-| Transformation | 61 | 62 |
-| ErrorCorrection | 149 | 150 |
-| TableFill | 32 | 33 |
+| Transformation | 62 | 63 |
+| ErrorCorrection | 150 | 151 |
+| TableFill | 33 | 34 |
 | FindTheOdd | 74 | 75 |
-| ConstructionMeaning | 41 | 42 |
-| Categorization | 86 | 87 |
-| DialogRestore | 51 | 52 |
+| ConstructionMeaning | 42 | 43 |
+| Categorization | 87 | 88 |
+| DialogRestore | 52 | 53 |
