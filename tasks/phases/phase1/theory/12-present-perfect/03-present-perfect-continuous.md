@@ -620,27 +620,314 @@ B: ___
 
 ---
 
+## Microtopic 153 — How Long · Как долго идёт процесс
+
+**ID:** 153 | **Order:** 3
+**Теги:** сколько уже длится, have been waiting for an hour, делаю уже два года, all morning без предлога, как долго ты здесь работаешь
+
+---
+
+### Card 406 · Срок процесса: for, since и all morning
+
+**ID:** 406 | **Order:** 1
+
+#### Theory
+
+Форму собрали — теперь её главная работа, ради которой её чаще всего и берут: назвать **срок** действия, которое началось раньше, идёт до сих пор и заканчиваться не собирается.
+
+Слова для срока у нас уже есть, новых учить не надо: `for` отвечает на «сколько времени?», `since` — на «с какого момента?». Подробно мы разбирали их в микротеме «Сколько это длится», и здесь они работают ровно так же. Меняются не сами слова, а **то, что ими сообщают**.
+
+**Не факт держится, а процесс идёт**
+
+Сравните две фразы, собранные с одним и тем же `for`:
+
+- **I've known him for ten years.** — факт: знаком с ним, и это положение дел держится десять лет. Ничего не происходит, состояние просто есть.
+- **I've been waiting for an hour.** — процесс: я стою и жду, и это занятие тянется час без перерыва.
+
+Разница не в сроке, а в том, ЧТО этот срок измеряет. Обычный перфект меряет, сколько держится **положение дел**, а длительная форма — сколько тянется **само занятие**, которым человек занят. Отсюда и ощущение: **I've been waiting for an hour** звучит живее и чуть жалобнее, чем сухая констатация, — за фразой видно человека, который всё это время стоит на месте.
+
+**Примечание:** где взять первую форму, а где вторую, если подходят обе, — большой отдельный разговор, и он ждёт нас в предпоследней микротеме темы. Пока хватит того, что здесь мы говорим про **ход**.
+
+**Как это выглядит в быту**
+
+- **I've been learning Spanish for two years.** — учу и продолжаю, до свободного языка ещё далеко.
+- **Sonya has been searching for a flat since March.** — ищет с марта и пока не нашла.
+- **They have been decorating the kitchen all week.** — ремонт идёт всю неделю и не кончился.
+- **Ben moved to Lisbon in May and has been working there since then.** — переехал и работает там с тех пор.
+
+**Важно:** «не прерывался» не значит «ни на секунду не останавливался». Никто не учит испанский два года без сна и обеда — язык смотрит на такое действие целиком, как на одну линию, и мелкие паузы внутри неё просто не считает. Важно, что занятие никуда не делось и продолжается сегодня.
+
+**Срок без предлога: all morning, all day, all week**
+
+У `for` и `since` есть близкая родня, о которой в перфекте речи не было. Это выражения с `all`: они называют срок, но **никакого предлога перед собой не требуют** — время уже сидит внутри самого выражения.
+
+- **It has been raining all morning.**
+- **Igor has been typing all day.**
+- **We've been decorating the flat all week.**
+
+Русский тут подсказывает верно: мы тоже говорим «всё утро», «весь день» — без предлога, одним куском. Ставить перед ними `for` не нужно: **for all morning** ✗ звучит так же коряво, как «в течение всего утра» в обычном разговоре.
+
+**Ловушки:**
+- **I learn Spanish for two years** ✗ → **I've been learning Spanish for two years** ✓ — простое настоящее сообщает привычку вообще («учу языки по жизни»), а не дорожку длиной в два года.
+- **I am learning Spanish for two years** ✗ → **I've been learning Spanish for two years** ✓ — настоящее длительное держит только эту минуту; растянуть его на два года назад невозможно, у него нет для этого сцепки с прошлым.
+- **She has been searching for a flat for March** ✗ → **since March** ✓ — март это точка, а не длина; проверка та же, что и в перфекте.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Главная работа этой формы — назвать срок процесса, который ещё идёт: **I've been learning Spanish for two years**, **Sonya has been searching for a flat since March**. `for` и `since` здесь те же самые, но меряют они не «сколько держится факт» (**I've known him for ten years**), а **сколько тянется само занятие**. Рядом с ними работают выражения с `all` — **all morning**, **all day**, **all week**, — и предлог перед ними не нужен. Главные ошибки: **I learn Spanish for two years** ✗ (привычка вообще) и **I am learning Spanish for two years** ✗ (только эта минута).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1755 | Я учу испанский уже два года. | I've been learning Spanish for two years. |
+| 1756 | Соня ищет квартиру с марта. | Sonya has been searching for a flat since March. |
+| 1757 | Они делают ремонт на кухне всю неделю. | They have been decorating the kitchen all week. |
+| 1758 | Бен переехал в Лиссабон в мае и с тех пор работает там. | Ben moved to Lisbon in May and has been working there since then. |
+| 1759 | Дождь идёт всё утро. | It has been raining all morning. |
+
+---
+
+#### Exercises
+
+**Ex 12 · MultipleChoice · FORWARD_CHOICE** *(ID: 188)*
+
+"Вера готовится к собеседованию всю неделю."
+
+- Vera prepares for the interview all week.
+- Vera is preparing for the interview all week.
+- **Vera has been preparing for the interview all week.** ✓
+
+*Explanation:* подготовка началась раньше и всё ещё идёт, поэтому нужна длительная форма перфекта. Простое настоящее сообщило бы привычку, а настоящее длительное — только то, что происходит в эту минуту.
+
+---
+
+**Ex 13 · MultipleChoice · REVERSE_CHOICE** *(ID: 56)*
+
+"Emma has been taking English lessons since September."
+
+- **Эмма занимается английским с сентября и продолжает.** ✓
+- Эмма позанималась английским в сентябре.
+- Эмма собирается начать занятия английским в сентябре.
+
+*Explanation:* has been taking — процесс, который начался в сентябре и тянется до сих пор. Законченное занятие в прошлом сообщил бы Past Simple, а планы на будущее — going to.
+
+---
+
+**Ex 14 · TrueFalse** *(ID: 165)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I've been searching for my keys all morning. | ✓ |
+| 2 | She is working here since April. | ✗ |
+| 3 | They have been decorating the hall for two days. | ✓ |
+| 4 | We have been waiting for all evening. | ✗ |
+| 5 | He has been driving since eight o'clock. | ✓ |
+
+*Explanation:* во втором предложении настоящее длительное не тянется из прошлого, нужно She has been working here since April. В четвёртом лишний предлог: перед all evening предлог не ставится.
+
+---
+
+**Ex 15 · WordArrangement** *(ID: 150)*
+
+Ситуация: Соня говорит, что ждёт ответ после собеседования с понедельника.
+
+Правильное предложение: **Sonya has been waiting for an answer since Monday.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Sonya | — |
+| has | — |
+| been | — |
+| waiting | — |
+| for an answer | — |
+| since | — |
+| Monday | — |
+| is | ✗ |
+| for | ✗ |
+| waited | ✗ |
+
+*Explanation:* Monday — это точка старта, поэтому since, а не for. Форма собирается через has been waiting: is сюда не подходит, а waited — третья форма для обычного перфекта.
+
+---
+
+#### Clarification Options
+
+- Чем I've been waiting for an hour отличается от I've waited for an hour?
+- Почему перед all morning не нужен предлог?
+- Считается ли действие непрерывным, если я всё-таки спал и ел?
+
+---
+
+### Card 407 · How long have you been…? — и что отвечать
+
+**ID:** 407 | **Order:** 2
+
+#### Theory
+
+Раз есть форма, которая называет срок, должен быть и вопрос, который этот срок спрашивает. Собирать его мы уже умеем: `how long` впереди, дальше обычный вопрос — **How long have you been waiting?**
+
+**Спрашиваем про занятие, а не про положение дел**
+
+В перфекте мы уже видели вопрос **How long have you worked here?**, и он никуда не делся — оба варианта законны. Но в живой речи, когда речь о **занятии** человека, чаще звучит вариант с `been`:
+
+- **How long have you been working here?**
+- **How long has she been learning English?**
+- **How long have they been decorating the flat?**
+
+Логика та же, что на прошлой карточке: спрашивают не «сколько держится факт», а «сколько ты уже этим **занят**».
+
+**Ответ короткий — целое предложение не нужно**
+
+Отвечают ровно так же, как в перфекте: одним куском со сроком, без повторения всего вопроса.
+
+- **For twenty minutes.**
+- **Since Tuesday.**
+- **Since I moved here.**
+- **All morning.**
+
+**Как это звучит вживую**
+
+Пять обычных сцен, где этот вопрос встречается чаще всего:
+
+- Очередь к врачу: **— How long have you been waiting? — Since nine o'clock.**
+- Новая работа: **— How long have you been working here? — For three months.**
+- Съёмная квартира: **— How long have you been renting this flat? — Since last summer.**
+- Уроки: **— How long have you been taking driving lessons? — For a couple of weeks.**
+- Перед собеседованием: **— How long have you been waiting for your interview? — For half an hour.**
+
+Обратите внимание: во всех пяти ответах нет ни глагола, ни подлежащего — только срок. Полный ответ вроде **I have been waiting since nine o'clock** не ошибка, но звучит как заполнение анкеты, а не как разговор.
+
+**Ловушки:**
+- **How long are you waiting?** ✗ → **How long have you been waiting?** ✓ — настоящее длительное спрашивает только про эту секунду, а не про то, сколько всё тянется.
+- **How long do you work here?** ✗ → **How long have you been working here?** ✓ — та же ошибка от русского настоящего: «сколько ты тут **работаешь**?». Для англичанина такой вопрос звучит бессмысленно.
+- **How long have you waiting?** ✗ → **How long have you been waiting?** ✓ — из длинного вопроса чаще всего вылетает именно `been`: рука спешит к смысловому глаголу и перескакивает через служебное слово.
+
+**Кстати:** у этого вопроса есть родной брат с другим смыслом — **How many…?** Один спрашивает про ход (**How long have you been reading this book?** — сколько уже читаешь), другой про итог (**How many books have you read?** — сколько прочитал). Разницу между ходом и итогом целиком разберём в предпоследней микротеме темы, а пока просто заметьте, что вопросы разные.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Срок спрашивают вопросом **How long have you been…?**: `how long` впереди, дальше обычный вопрос (**How long have you been working here?**). Вариант из перфекта (**How long have you worked here?**) тоже законен, но про занятие человека чаще спрашивают с `been`. Отвечают коротко, одним сроком: **For twenty minutes.** / **Since Tuesday.** / **All morning.** Главные ловушки — русское настоящее время в вопросе: **How long are you waiting?** ✗ и **How long do you work here?** ✗.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1760 | Как долго ты здесь работаешь? | How long have you been working here? |
+| 1761 | Как давно она учит английский? | How long has she been learning English? |
+| 1762 | — Как долго ты ждёшь? — С девяти утра. | — How long have you been waiting? — Since nine o'clock. |
+| 1763 | Как долго вы снимаете эту квартиру? | How long have you been renting this flat? |
+| 1764 | Как давно ты берёшь уроки вождения? | How long have you been taking driving lessons? |
+
+---
+
+#### Exercises
+
+**Ex 16 · MultipleChoice · CHOICE** *(ID: 164)*
+
+"___ have you been playing the piano?"
+
+- **How long** ✓
+- How many
+- How much
+
+*Explanation:* вопрос про срок занятия задаётся через how long. How many спрашивает количество штук, how much — количество чего-то неисчисляемого или цену.
+
+---
+
+**Ex 17 · DialogRestore** *(ID: 53)*
+
+A: "How long have you been living in Dublin?"
+B: ___
+
+- For last spring.
+- **Since last spring.** ✓
+- Since three years.
+
+*Explanation:* прошлая весна — это точка старта, поэтому since last spring. For берёт длину отрезка, поэтому for last spring и since three years собраны наоборот.
+
+---
+
+**Ex 18 · Transformation** *(ID: 63)*
+
+Задание: спроси, как долго это длится.
+
+1. "She has been teaching here." → **"How long has she been teaching here?"**
+2. "They have been waiting outside." → **"How long have they been waiting outside?"**
+3. "He has been studying French." → **"How long has he been studying French?"**
+
+*Explanation:* впереди встаёт how long, дальше идёт обычный вопрос: помощник перед подлежащим, been и глагол с -ing на месте.
+
+---
+
+**Ex 19 · TextInput** *(ID: 78)*
+
+Впиши for, since или all.
+
+1. "I've been standing in this queue ___ twenty minutes."
+   Ответ: **for**
+2. "Sara has been decorating her room ___ day."
+   Ответ: **all**
+3. "We've been searching for a new office ___ last autumn."
+   Ответ: **since**
+
+*Explanation:* for берёт длину отрезка (twenty minutes), since — точку старта (last autumn), а перед all предлог не нужен вовсе.
+
+---
+
+#### AI Exercise
+
+**ID:** present_perfect_continuous_card407_ex1
+**Title:** "Как долго это длится"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ опишет ситуацию по-русски. Задайте вопрос про срок на английском и сами же коротко ответьте."
+**Prompt Template:** "Контекст: пользователь только что прочитал карточку о вопросе How long have you been…? и знает, что отвечают на него коротко — одним сроком: For twenty minutes, Since Tuesday, All morning. Дай пользователю ОДНУ короткую русскую ситуацию (одно-два предложения), в которой человек чем-то занят уже какое-то время, и в самой ситуации назови этот срок или точку старта, чтобы ответ был однозначным. Попроси задать по ситуации вопрос про срок на английском и дать на него короткий ответ. Ситуации чередуй от запуска к запуску: очередь, новая работа, съёмная квартира, уроки, поиск чего-либо, ремонт, дорога в пробке — не повторяй одну и ту же. Если в присланном списке слов пользователя есть подходящие — желательно строить ситуацию вокруг них: фокус задания на вопросе и сроке, а не на конкретной лексике, поэтому бери только знакомые слова, чтобы трудность была в грамматике. Правильным считай ответ, где вопрос начинается с how long, дальше стоит помощник have или has перед подлежащим, потом been и глагол с окончанием -ing, а в коротком ответе for идёт с длиной отрезка, since — с точкой старта. Короткий ответ без подлежащего и глагола (For two hours) считай нормой, полный ответ тоже засчитывай. Если пользователь задал вопрос настоящим временем (How long are you waiting? или How long do you work here?) — объясни, что так спрашивают только про эту минуту или про привычку, и дай верный вариант. Если перепутал for и since (since two hours) — напомни, что за for идёт длина, за since момент. Если поставил предлог перед выражением с all (for all morning) — скажи, что перед ним предлог не нужен. Если потерял been или -ing — покажи собранную форму целиком. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Ситуация: вы пришли к другу и застали его за уборкой — он убирает квартиру с самого утра. Спросите по-английски, как долго он этим занят, и ответьте за него коротко.'
+
+#### Clarification Options
+
+- Чем How long have you been working here отличается от How long have you worked here?
+- Почему на этот вопрос отвечают без подлежащего и глагола?
+- Почему нельзя спросить How long do you work here?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| interview | собеседование, интервью | [ˈɪntəvjuː] |
+| lesson | урок, занятие | [ˈlesn] |
+| to search | искать, разыскивать | [sɜːtʃ] |
+| to decorate | делать ремонт, украшать | [ˈdekəreɪt] |
+| since then | с тех пор | [sɪns ðen] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 24 | 25 |
 | Category | 6 | 7 |
-| Microtopic | 152 | 153 |
-| Card | 405 | 406 |
-| Example | 1754 | 1755 |
-| Слова курса (course_word) | 660 | 661 |
-| MultipleChoice · CHOICE | 163 | 164 |
-| MultipleChoice · FORWARD_CHOICE | 187 | 188 |
-| MultipleChoice · REVERSE_CHOICE | 55 | 56 |
-| TrueFalse | 164 | 165 |
-| WordArrangement | 149 | 150 |
-| TextInput | 77 | 78 |
+| Microtopic | 153 | 154 |
+| Card | 407 | 408 |
+| Example | 1764 | 1765 |
+| Слова курса (course_word) | 665 | 666 |
+| MultipleChoice · CHOICE | 164 | 165 |
+| MultipleChoice · FORWARD_CHOICE | 188 | 189 |
+| MultipleChoice · REVERSE_CHOICE | 56 | 57 |
+| TrueFalse | 165 | 166 |
+| WordArrangement | 150 | 151 |
+| TextInput | 78 | 79 |
 | Matching | 59 | 60 |
-| Transformation | 62 | 63 |
+| Transformation | 63 | 64 |
 | ErrorCorrection | 150 | 151 |
 | TableFill | 33 | 34 |
 | FindTheOdd | 74 | 75 |
 | ConstructionMeaning | 42 | 43 |
 | Categorization | 87 | 88 |
-| DialogRestore | 52 | 53 |
+| DialogRestore | 53 | 54 |
