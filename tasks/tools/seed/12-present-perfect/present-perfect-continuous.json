@@ -53,6 +53,13 @@
       "title": "Repeated Lately · Полоса повторов в последнее время",
       "order": 5,
       "searchKeywords": "сказать в последнее время, have been going или go, повторяется а не длится, every day с have been, привычка или последнее время"
+    },
+    {
+      "id": 156,
+      "topicId": 24,
+      "title": "have done vs have been doing · Результат или процесс",
+      "order": 6,
+      "searchKeywords": "have read или have been reading, назвал количество какая форма, have been knowing нельзя, have lived или have been living, дочитал или ещё читаю"
     }
   ],
   "grammar_cards": [
@@ -1510,6 +1517,510 @@
         "Почему every day может быть и там, и там?",
         "Можно ли сказать I've been drinking coffee every morning?"
       ]
+    },
+    {
+      "id": 412,
+      "microtopicId": 156,
+      "title": "Ось: что сделано ↔ чем занимался",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Всю тему мы шли к этому вопросу: чем `have done` отличается от `have been doing`. Обе формы тянут прошлое к «сейчас», обе абсолютно законны, и во множестве фраз можно поставить любую — но собеседник услышит **разное**."
+        },
+        {
+          "type": "heading",
+          "text": "Одна форма приносит факт, другая — занятие"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обычный перфект отвечает на вопрос «что сделано»: он кладёт перед собеседником **готовый факт**, результат, вещь. Длительный отвечает на «чем ты занимался»: он приносит **само занятие**, а доведено оно до конца или нет — часто вообще не важно."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've read the book.** — дочитал, могу обсуждать ↔ **I've been reading the book.** — читаю, до конца ещё далеко",
+            "**She's lost weight.** — результат виден на человеке ↔ **She's been losing weight.** — процесс идёт и продолжается",
+            "**I've cleaned the kitchen.** — кухня чистая ↔ **I've been cleaning the kitchen.** — вот почему я в мыле, а кухня, может, ещё в пене"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Глагол в каждой паре один и тот же, время в каком-то смысле тоже одно — меняется только сообщение. Слева отчёт о сделанном, справа рассказ о занятии."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский тут промахивается"
+        },
+        {
+          "type": "paragraph",
+          "text": "У нас эту разницу несёт **вид глагола**: «прочитал» ↔ «читал», «убрал» ↔ «убирал». Кажется, что соответствие прямое: совершенный вид — перфект, несовершенный — длительная форма. И вот тут русский попадает, потому что вид врёт."
+        },
+        {
+          "type": "paragraph",
+          "text": "Фраза «я читал эту книгу» по-русски одна, а смыслов у неё два. Первый: читал когда-то, знаю её — это опыт, и по-английски будет **I've read this book**. Второй: сидел и читал, ещё не дочитал — **I've been reading this book**. Вид одинаковый, формы разные, а решает то, что вы на самом деле сообщаете."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I've been reading this book, so I can tell you how it ends** ✗ → **I've read this book, so I can tell you how it ends** ✓ — если вы знаете концовку, книга дочитана, а это готовый факт, а не занятие. Длительная форма тут сама себе противоречит."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Час ожидания: факт или тянущийся процесс"
+        },
+        {
+          "type": "paragraph",
+          "text": "В микротеме «Сколько это длится» мы обещали вернуться к одной паре — вот она, и на ней разница видна как нигде:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've waited for an hour.** — факт: час своего времени я на это потратил",
+            "**I've been waiting for an hour.** — процесс тянется, я всё ещё стою и жду"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первую фразу говорят, когда ожидание уже позади и вы подводите итог. Вторую — когда стоите с телефоном в руке и терпение кончается."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Выбирая между этими формами, вы выбираете не грамматику, а **смысл**. Ошибиться в грамматике тут почти невозможно — можно только сказать не то, что хотели."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Обычный перфект отвечает на «что сделано» и приносит **готовый факт**, длительный отвечает на «чем занимался» и приносит **само занятие**: **I've read the book** (дочитал) ↔ **I've been reading the book** (читаю, не дочитал), **I've cleaned the kitchen** (чисто) ↔ **I've been cleaning the kitchen** (вот почему я в мыле). Русский вид тут ложный друг: «я читал эту книгу» — это и опыт (**I've read it**), и процесс (**I've been reading it**). Та же пара со сроком: **I've waited for an hour** (итог) ↔ **I've been waiting for an hour** (всё ещё жду). Выбирая форму, вы выбираете смысл, а не грамматику.",
+      "examples": [
+        {
+          "ru": "Я прочитал эту книгу.",
+          "en": "I've read the book."
+        },
+        {
+          "ru": "Я читаю эту книгу — ещё не дочитал.",
+          "en": "I've been reading the book."
+        },
+        {
+          "ru": "Она похудела.",
+          "en": "She's lost weight."
+        },
+        {
+          "ru": "Она худеет — процесс идёт.",
+          "en": "She's been losing weight."
+        },
+        {
+          "ru": "Я жду уже час.",
+          "en": "I've been waiting for an hour."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что я сообщаю: факт или занятие?",
+        "Почему русский вид не помогает выбрать форму?",
+        "Чем I've waited отличается от I've been waiting?"
+      ]
+    },
+    {
+      "id": 413,
+      "microtopicId": 156,
+      "title": "Количество убивает Continuous",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У этой развилки есть механический ключ — правило, которым можно пользоваться, вообще не думая о смысле. Работает оно так: **назвали, СКОЛЬКО, — говорите об итоге, а итог это территория обычного перфекта.**"
+        },
+        {
+          "type": "heading",
+          "text": "Назвал число — длительная форма отпадает"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've read three books this month.** ✓ — **I've been reading three books this month.** ✗",
+            "**I've written five emails today.** ✓",
+            "**I've called him twice.** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика тут не грамматическая, а житейская. Посчитать можно только то, что **закончено**: три недочитанные книги в счёт не идут, полписьма письмом не считается. Поэтому число и рассказ о незакрытом процессе физически не уживаются в одной фразе — они про разное."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сколько сделано? → have/has + V3 · как долго занимался? → `have/has been + -ing`"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Пара вопросов, которая всё решает"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How many emails have you written?** — спрашиваю про итог, жду цифру",
+            "**How long have you been writing?** — спрашиваю про ход, жду срок"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Если можете ответить цифрой — форма перфектная. Если ответ будет «всё утро» или «часа два» — длительная."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский спокойно говорит «я весь день писал пять писем» — у нас количество с несовершенным видом уживается прекрасно. По-английски эта фраза разваливается на две разные: **I've written five emails today** ✓ (вот итог дня) и **I've been writing emails all day** ✓ (вот чем я занимался). Слепить их в одну — **I've been writing five emails all day** ✗ — нельзя."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Назвали количество — берите обычный перфект: **I've read three books this month** ✓, **I've been reading three books this month** ✗. Причина житейская: посчитать можно только законченное, поэтому число и незакрытый процесс в одной фразе не уживаются. Проверочная пара вопросов: **How many have you…?** ждёт цифру и требует перфекта, **How long have you been…?** ждёт срок и требует длительной формы. Русское «я весь день писал пять писем» распадается на две английские фразы: **I've written five emails today** и **I've been writing emails all day**.",
+      "examples": [
+        {
+          "ru": "Я прочитал три книги за этот месяц.",
+          "en": "I've read three books this month."
+        },
+        {
+          "ru": "Я сегодня написал пять писем.",
+          "en": "I've written five emails today."
+        },
+        {
+          "ru": "Я звонил ему дважды.",
+          "en": "I've called him twice."
+        },
+        {
+          "ru": "Сколько писем ты написал?",
+          "en": "How many emails have you written?"
+        },
+        {
+          "ru": "Как долго ты пишешь?",
+          "en": "How long have you been writing?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя посчитать то, что ещё длится?",
+        "А если я хочу сказать и сколько, и как долго?",
+        "Чем how many отличается от how long по форме глагола?"
+      ]
+    },
+    {
+      "id": 414,
+      "microtopicId": 156,
+      "title": "for и since работают с обеими",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть соблазн решить, что `for` и `since` — переключатель на длительную форму: увидел срок, поставил have been. Это неправда. Срок спокойно живёт с обеими формами, а вот **акцент** у них разный."
+        },
+        {
+          "type": "heading",
+          "text": "Один и тот же срок, два разных сообщения"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've known Mark for five years.** — факт держится всё это время: знакомство есть, и точка",
+            "**I've been waiting for the bus for twenty minutes.** — процесс тянется прямо сейчас и уже достаёт"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница не в сроке, а в глаголе. Знакомство — это не занятие, им нельзя быть занятым: оно просто есть и длится само. А ожидание — самое настоящее занятие, его человек производит минуту за минутой."
+        },
+        {
+          "type": "heading",
+          "text": "Рабочая подсказка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "глагол-действие + срок → чаще всего длительная форма: **work, wait, study, learn, drive, read**",
+            "глагол-состояние + срок → только обычный перфект: **know, love, want, understand, own**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это подсказка, а не закон. Сам срок ничего не выбирает — он одинаково рад обеим формам, и решает всегда глагол вместе с тем, что вы хотите сообщить."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**How long have you been knowing him?** ✗ → **How long have you known him?** ✓ — вопрос про срок стоит, а длительная форма всё равно не встаёт: мешает глагол. Почему именно эти глаголы её не принимают — следующая карточка."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`for` и `since` не выбирают форму — они работают с обеими, меняется только акцент: **I've known Mark for five years** (факт держится всё это время) ↔ **I've been waiting for the bus for twenty minutes** (процесс тянется и достаёт). Решает глагол: действие со сроком (**work, wait, study, learn**) чаще просит длительную форму, состояние (**know, love, want, own**) — только обычный перфект. Поэтому **How long have you been knowing him?** ✗ → **How long have you known him?** ✓.",
+      "examples": [
+        {
+          "ru": "Я знаю Марка пять лет.",
+          "en": "I've known Mark for five years."
+        },
+        {
+          "ru": "Я жду автобус двадцать минут.",
+          "en": "I've been waiting for the bus for twenty minutes."
+        },
+        {
+          "ru": "Она работает здесь с апреля.",
+          "en": "She's been working here since April."
+        },
+        {
+          "ru": "У нас эта машина уже год.",
+          "en": "We've had this car for a year."
+        },
+        {
+          "ru": "Как давно ты его знаешь?",
+          "en": "How long have you known him?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему for и since не выбирают форму сами?",
+        "Как понять, что мой глагол — действие, а не состояние?",
+        "Чем I've known отличается от I've been waiting по смыслу?"
+      ]
+    },
+    {
+      "id": 415,
+      "microtopicId": 156,
+      "title": "Глаголы состояния в это время не идут",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Часть глаголов в длительную форму не встаёт вовсе — ни в этом времени, ни в любом другом длительном. Это глаголы, которые называют не занятие, а **состояние**: им нельзя быть занятым, они просто есть."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сам разбор этих глаголов мы делали в микротеме «Глаголы без Continuous» — здесь только то, как правило выглядит в перфекте. Список тот же: **know, love, like, want, need, believe, understand, remember, mean, own, belong**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как это выглядит на практике"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've been knowing him for years** ✗ → **I've known him for years** ✓",
+            "**She's been wanting a dog since childhood** ✗ → **She's wanted a dog since childhood** ✓",
+            "**We've been owning this flat for ten years** ✗ → **We've owned this flat for ten years** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Срок в этих фразах есть, и он честный — но длительная форма всё равно невозможна. Состояние не производят по кусочку, его нельзя делать «всё утро»: оно либо есть, либо нет."
+        },
+        {
+          "type": "heading",
+          "text": "think и see меняют смысл — и тогда форма законна"
+        },
+        {
+          "type": "paragraph",
+          "text": "Живая граница, из-за которой люди путаются: некоторые глаголы умеют быть и состоянием, и действием. Как только глагол превращается в занятие, длительная форма ему сразу доступна."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I think it's a good idea.** — мнение, состояние ↔ **I've been thinking about your idea.** — обдумываю, это занятие",
+            "**I see the problem.** — вижу, состояние ↔ **She's been seeing a doctor.** — ходит к врачу, это занятие"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Оборот **I've been thinking** носители используют постоянно как мягкий заход к разговору — мы разбирали это в микротеме «Только что перестал: следы видны». Теперь понятно, почему он вообще законен: think здесь не мнение, а занятие."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Глаголы состояния (**know, love, want, need, believe, understand, own, belong**) в длительную форму не встают даже со сроком: **I've been knowing him for years** ✗ → **I've known him for years** ✓, **She's been wanting a dog** ✗ → **She's wanted a dog** ✓. Причина: состояние нельзя производить по кусочку, им нельзя быть занятым. Но **think** и **see** умеют менять смысл, и тогда форма законна: **I think it's a good idea** (мнение) ↔ **I've been thinking about your idea** (обдумываю), **I see the problem** (вижу) ↔ **She's been seeing a doctor** (ходит к врачу).",
+      "examples": [
+        {
+          "ru": "Я знаю его много лет.",
+          "en": "I've known him for years."
+        },
+        {
+          "ru": "Она хочет собаку с детства.",
+          "en": "She's wanted a dog since childhood."
+        },
+        {
+          "ru": "У нас эта квартира десять лет.",
+          "en": "We've owned this flat for ten years."
+        },
+        {
+          "ru": "Я думал над твоей идеей.",
+          "en": "I've been thinking about your idea."
+        },
+        {
+          "ru": "Она ходит к врачу.",
+          "en": "She's been seeing a doctor."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему состояние нельзя поставить в длительную форму?",
+        "Как понять, что think стал занятием, а не мнением?",
+        "Какие ещё глаголы ведут себя как think и see?"
+      ]
+    },
+    {
+      "id": 416,
+      "microtopicId": 156,
+      "title": "Компас: где выбор есть, а где его нет",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пять карточек мы учились различать две формы — теперь скажем то, что снимает страх ошибиться. Есть **большая зона, где годятся обе**, и промах в ней ничего не портит."
+        },
+        {
+          "type": "heading",
+          "text": "Где носитель говорит и так, и так"
+        },
+        {
+          "type": "paragraph",
+          "text": "У глаголов длительного состояния — **live, work, study, teach** — обе формы звучат одинаково нормально:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've lived here for years.** ≈ **I've been living here for years.**",
+            "**She's worked at the school since 2019.** ≈ **She's been working at the school since 2019.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница есть, но она крошечная: у длительной формы оттенок «это временно, может измениться», у перфектной — «так оно и есть». В разговоре её почти никто не отследит, и обе фразы вы услышите от носителей."
+        },
+        {
+          "type": "heading",
+          "text": "А где выбора нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Свобода кончается ровно в трёх местах, и все три мы уже разобрали:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Назвали количество** — только обычный перфект: **I've read three books** ✓",
+            "**Важен готовый итог, а не занятие** — только обычный перфект: **I've finished the report, you can read it** ✓",
+            "**Глагол называет состояние** — только обычный перфект: **I've known her for years** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Во всех остальных случаях спрашивайте себя, что сообщаете: сделанное или занятие."
+        },
+        {
+          "type": "heading",
+          "text": "Компас на один экран"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Названо количество или важен готовый итог? → обычный перфект, дальше не думаем.",
+            "Важен сам ход, срок или следы занятия? → длительная форма.",
+            "Всё ещё сомневаюсь? → что я сообщаю собеседнику: результат или то, чем был занят?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок не случайный: первый вопрос механический, он про то, что видно в самой фразе, и если сработал — оттенки его уже не перебьют."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Страшные примеры этой микротемы — про счёт, про готовый итог и про глаголы состояния; там форма меняет смысл. А выбор между **I've lived here for years** и **I've been living here for years** не меняет почти ничего, поэтому тормозить речь из-за него не стоит."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У глаголов длительного состояния (**live, work, study, teach**) годятся обе формы: **I've lived here for years** ≈ **I've been living here for years**, оттенок у длительной — «это временно». Выбора нет в трёх случаях: названо количество (**I've read three books**), важен готовый итог (**I've finished the report**), глагол называет состояние (**I've known her for years**) — везде обычный перфект. Компас: (1) количество или готовый итог? → перфект; (2) важен ход, срок или следы занятия? → длительная форма; (3) сомневаюсь → что я сообщаю: результат или занятие?",
+      "examples": [
+        {
+          "ru": "Я живу здесь много лет.",
+          "en": "I've lived here for years."
+        },
+        {
+          "ru": "Я живу здесь много лет — и, наверное, ещё поживу.",
+          "en": "I've been living here for years."
+        },
+        {
+          "ru": "Она работает в школе с 2019 года.",
+          "en": "She's been working at the school since 2019."
+        },
+        {
+          "ru": "Я закончил отчёт, можешь читать.",
+          "en": "I've finished the report, you can read it."
+        },
+        {
+          "ru": "Я знаю её много лет.",
+          "en": "I've known her for years."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, что я попал в серую зону?",
+        "Меня поправят, если я выберу не ту форму?",
+        "Почему количество закрывает выбор наглухо?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1716,6 +2227,108 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 75,
       "orderInCard": 3
+    },
+    {
+      "cardId": 412,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 191,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 412,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 57,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 412,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 44,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 412,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 55,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 413,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 89,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 413,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 153,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 413,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 167,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 413,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 76,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 414,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 34,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 414,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 192,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 414,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 65,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 415,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 167,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 415,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 154,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 415,
+      "exerciseType": "MATCHING",
+      "exerciseId": 61,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 416,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 90,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 416,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 168,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 416,
+      "exerciseType": "MATCHING",
+      "exerciseId": 62,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1742,6 +2355,14 @@
       "userInstruction": "ИИ опишет, что вы видите. Объясните по-английски, чем человек занимался.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "present_perfect_continuous_card416_ex1",
+      "cardId": 416,
+      "title": "Результат или процесс",
+      "userInstruction": "ИИ опишет ситуацию и даст русскую фразу. Напишите по-русски, какая форма нужна — перфект или длительная, — и объясните, почему вы так решили.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -1949,6 +2570,33 @@
         }
       ],
       "explanation": "меняется только первое слово: у she и Jake — has, у we, they и you — have. Been и окончание -ing остаются одинаковыми в каждой строке."
+    },
+    {
+      "id": 34,
+      "taskDescription": "впиши форму глагола, которая подходит этому подлежащему и сроку. Например: They + to read + for an hour → have been reading.",
+      "rows": [
+        {
+          "hint": "She + to know Lucy + for six years",
+          "answer": "has known"
+        },
+        {
+          "hint": "I + to wait + for ten minutes",
+          "answer": "have been waiting"
+        },
+        {
+          "hint": "He + to work here + since April",
+          "answer": "has been working"
+        },
+        {
+          "hint": "We + to study Italian + since May",
+          "answer": "have been studying"
+        },
+        {
+          "hint": "They + to own this shop + for a year",
+          "answer": "have owned"
+        }
+      ],
+      "explanation": "глаголы-состояния know и own со сроком идут только в обычном перфекте, а действия wait, work и study при сроке просят длительную форму. Форма помощника выбирается по подлежащему: has для she и he, have для I, we и they."
     }
   ],
   "true_false_exercises": [
@@ -2044,6 +2692,37 @@
         }
       ],
       "explanation": "во втором предложении вообще нет нужной формы — при she должно быть has been going. В четвёртом потерялось окончание -ing: have been complaining. Остальные собраны верно."
+    },
+    {
+      "id": 167,
+      "statements": [
+        {
+          "en": "I've been needing a new phone for months.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Tom has known Megan since school.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We've been believing him all this time.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She's been thinking about a new job.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They've owned the café for three years.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "need и believe называют состояние и в длительную форму не встают: верно I've needed a new phone for months и We've believed him all this time. В четвёртом предложении think означает не мнение, а занятие, поэтому форма законна."
     }
   ],
   "word_arrangement_exercises": [
@@ -2319,6 +2998,111 @@
         }
       ],
       "explanation": "первая часть предложения говорит, как у Джейка обычно, вторая — что изменилось в последнее время, поэтому нужна длительная форма перфекта. Brings вернуло бы нас к привычке, а is bringing говорило бы про эту самую минуту."
+    },
+    {
+      "id": 191,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Лена написала отчёт — можно отправлять.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Lena has written the report — we can send it.",
+          "isCorrect": true
+        },
+        {
+          "text": "Lena has been writing the report — we can send it.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena is writing the report — we can send it.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "отчёт готов, и это готовый факт, который сейчас важен, — значит обычный перфект. Длительная форма сказала бы, что Лена сидела над отчётом, а готов он или нет — неизвестно."
+    },
+    {
+      "id": 57,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Jack has been building a table.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Джек построил стол, он готов.",
+          "isCorrect": false
+        },
+        {
+          "text": "Джек мастерил стол — вот чем он был занят.",
+          "isCorrect": true
+        },
+        {
+          "text": "Джек построит стол на выходных.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "длительная форма сообщает занятие, а не готовую вещь: Джек возился со столом, и готов стол или нет — из фразы не следует. Про готовый стол сказали бы Jack has built a table."
+    },
+    {
+      "id": 167,
+      "choiceType": "CHOICE",
+      "prompt": "How many pages ___ today?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "have you been reading",
+          "isCorrect": false
+        },
+        {
+          "text": "are you reading",
+          "isCorrect": false
+        },
+        {
+          "text": "have you read",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вопрос начинается с how many и ждёт цифру, а цифра бывает только у законченного — значит have you read. Длительная форма отвечала бы на how long, а не на how many."
+    },
+    {
+      "id": 192,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мы ждём поезд уже сорок минут.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We wait for the train for forty minutes.",
+          "isCorrect": false
+        },
+        {
+          "text": "We've been waiting for the train for forty minutes.",
+          "isCorrect": true
+        },
+        {
+          "text": "We are waiting for the train for forty minutes.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "ожидание началось сорок минут назад и продолжается прямо сейчас, поэтому нужна длительная форма перфекта. Настоящее время, простое или длительное, из прошлого не тянется и со сроком не работает."
+    },
+    {
+      "id": 168,
+      "choiceType": "CHOICE",
+      "prompt": "Mia ___ six emails since lunch.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "has been writing",
+          "isCorrect": false
+        },
+        {
+          "text": "has written",
+          "isCorrect": true
+        },
+        {
+          "text": "writes",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "назван счёт — шесть писем, — а счёт возможен только у законченного, поэтому has written. Длительная форма подошла бы без числа: has been writing emails since lunch."
     }
   ],
   "text_input_exercises": [
@@ -2461,6 +3245,38 @@
         }
       ],
       "explanation": "работа началась в шесть утра и тянется до сих пор — это длительная форма перфекта. Настоящее время, простое или длительное, из прошлого не тянется и с since не работает."
+    },
+    {
+      "id": 55,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why are your hands covered in paint?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "No wonder you look so tired."
+        }
+      ],
+      "options": [
+        {
+          "text": "I've been painting the kitchen door.",
+          "isCorrect": true
+        },
+        {
+          "text": "I've painted the kitchen door.",
+          "isCorrect": false
+        },
+        {
+          "text": "I paint the kitchen door.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "руки в краске и усталый вид объясняются занятием, а не готовой дверью, поэтому нужна длительная форма. I've painted the kitchen door сообщило бы, что дверь покрашена, — а собеседник спрашивал не об этом."
     }
   ],
   "matching_exercises": [
@@ -2490,6 +3306,52 @@
         }
       ],
       "explanation": "в каждой паре занятие объясняет след, который остался: выпечка — мука, дождь — мокрый зонт, уборка — пыль, бег по лестнице — одышка, мытьё собаки — мокрая футболка."
+    },
+    {
+      "id": 61,
+      "taskDescription": "соедини смысл глагола с подходящим предложением.",
+      "pairs": [
+        {
+          "left": "думать = иметь мнение",
+          "right": "I think you are right."
+        },
+        {
+          "left": "думать = обдумывать",
+          "right": "I've been thinking it over."
+        },
+        {
+          "left": "видеть = воспринимать глазами",
+          "right": "I see the problem."
+        },
+        {
+          "left": "видеть = ходить к кому-то",
+          "right": "He's been seeing a therapist."
+        }
+      ],
+      "explanation": "пока глагол называет мнение или восприятие, это состояние и длительная форма ему закрыта. Как только он превращается в занятие — обдумывать, ходить к специалисту, — форма открывается."
+    },
+    {
+      "id": 62,
+      "taskDescription": "соедини ситуацию с тем, что решает выбор формы.",
+      "pairs": [
+        {
+          "left": "Съел два бутерброда",
+          "right": "назван счёт — только перфект"
+        },
+        {
+          "left": "Хочу эту работу с весны",
+          "right": "глагол-состояние — только перфект"
+        },
+        {
+          "left": "Вот почему у меня руки в земле",
+          "right": "важно занятие — длительная форма"
+        },
+        {
+          "left": "Работаю тут четыре года",
+          "right": "подойдут обе формы"
+        }
+      ],
+      "explanation": "счёт и глагол-состояние закрывают выбор и оставляют обычный перфект. Следы занятия просят длительную форму, а глагол длительного состояния со сроком пускает обе."
     }
   ],
   "error_correction_exercises": [
@@ -2549,6 +3411,44 @@
         }
       ],
       "explanation": "после been смысловой глагол идёт с окончанием -ing: has been watching. Форма watched принадлежит обычному перфекту, а is been не бывает вовсе."
+    },
+    {
+      "id": 153,
+      "wrongSentence": "I've been drinking four cups of coffee today.",
+      "options": [
+        {
+          "text": "I've drunk four cups of coffee today.",
+          "isCorrect": true
+        },
+        {
+          "text": "I've been drunk four cups of coffee today.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm drinking four cups of coffee today.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "четыре чашки — это счёт, а счёт требует обычного перфекта. Про сам процесс сказали бы I've been drinking coffee all day, но тогда без числа."
+    },
+    {
+      "id": 154,
+      "wrongSentence": "Mia has been loving this song since childhood.",
+      "options": [
+        {
+          "text": "Mia is loving this song since childhood.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mia has been loved this song since childhood.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mia has loved this song since childhood.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "love называет чувство, а не занятие, поэтому длительная форма ему недоступна — со сроком остаётся обычный перфект has loved."
     }
   ],
   "construction_meaning_exercises": [
@@ -2597,6 +3497,29 @@
         }
       ],
       "explanation": "форма сообщает не поломку и не привычку, а чужое занятие, следы которого видны прямо сейчас: кто-то сидел за ноутбуком, и это заметно."
+    },
+    {
+      "id": 44,
+      "construction": "I've fixed the printer.",
+      "options": [
+        {
+          "text": "Я чинил принтер, но он так и не заработал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я чиню принтер прямо сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я починил принтер, он снова работает.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я когда-то давно чинил принтеры.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "обычный перфект приносит готовый результат: принтер в порядке. Про возню без результата сказали бы I've been fixing the printer, а про эту самую минуту — I'm fixing the printer."
     }
   ],
   "transformation_exercises": [
@@ -2656,6 +3579,25 @@
         }
       ],
       "explanation": "подлежащее остаётся прежним, а глагол собирается заново: have или has плюс been плюс окончание -ing. При he, she и именах — has been."
+    },
+    {
+      "id": 65,
+      "taskDescription": "перепиши каждое предложение так, чтобы оно подчёркивало сам ход процесса.",
+      "items": [
+        {
+          "original": "Lily has worked since eight.",
+          "transformed": "Lily has been working since eight."
+        },
+        {
+          "original": "We have studied for two hours.",
+          "transformed": "We have been studying for two hours."
+        },
+        {
+          "original": "He has driven since morning.",
+          "transformed": "He has been driving since morning."
+        }
+      ],
+      "explanation": "подлежащее и срок остаются на месте, меняется только форма глагола: между помощником и глаголом появляется been, а сам глагол получает окончание -ing."
     }
   ],
   "categorization_exercises": [
@@ -2704,6 +3646,52 @@
         }
       ],
       "explanation": "слева то, что не менялось годами и описывает человека вообще, — это простое настоящее. Справа то, что началось недавно и может кончиться, — это have или has been плюс -ing."
+    },
+    {
+      "id": 89,
+      "taskDescription": "раздели фразы по тому, какая форма им нужна.",
+      "categories": [
+        {
+          "title": "have done",
+          "items": [
+            "Прочитал две главы",
+            "Позвонил ему трижды",
+            "Отправил четыре письма"
+          ]
+        },
+        {
+          "title": "have been doing",
+          "items": [
+            "Весь вечер читал",
+            "Час звонил в банк",
+            "Всё утро разбирал почту"
+          ]
+        }
+      ],
+      "explanation": "слева везде назван счёт — две главы, три звонка, четыре письма, — а счёт возможен только у законченного, поэтому обычный перфект. Справа назван не счёт, а срок занятия, и это территория длительной формы."
+    },
+    {
+      "id": 90,
+      "taskDescription": "раздели фразы по тому, есть ли у говорящего выбор формы.",
+      "categories": [
+        {
+          "title": "Выбор есть",
+          "items": [
+            "учу испанский два года",
+            "работаю в кафе с мая",
+            "снимаю квартиру три года"
+          ]
+        },
+        {
+          "title": "Выбора нет",
+          "items": [
+            "посмотрел четыре серии",
+            "хочу эту куртку с зимы",
+            "покрасил дверь, она готова"
+          ]
+        }
+      ],
+      "explanation": "слева глаголы длительного состояния со сроком — носитель скажет и той, и другой формой. Справа счёт, глагол-состояние и готовый результат, а они оставляют только обычный перфект."
     }
   ],
   "find_the_odd_exercises": [
@@ -2729,6 +3717,29 @@
         }
       ],
       "explanation": "lately, these days и this week говорят про отрезок, который ещё идёт, — с ними и работает полоса повторов. Last summer закрыт наглухо, и рядом с ним живёт только прошедшее время."
+    },
+    {
+      "id": 76,
+      "groupDescription": "Три хвоста тянут за собой обычный перфект, один — длительную форму",
+      "items": [
+        {
+          "text": "three times",
+          "isOdd": false
+        },
+        {
+          "text": "all morning",
+          "isOdd": true
+        },
+        {
+          "text": "five emails",
+          "isOdd": false
+        },
+        {
+          "text": "twice",
+          "isOdd": false
+        }
+      ],
+      "explanation": "три раза, пять писем и дважды — это счёт, а счёт живёт только рядом с обычным перфектом. All morning называет не количество, а срок занятия, и просит длительную форму."
     }
   ]
 }
