@@ -128,26 +128,58 @@ private fun TableBlock(block: TheoryBlock.Table) {
             .background(CardBackground),
     ) {
         val totalWidth = maxWidth
-        // Готовим текст (перенос длинных слов) и ширины колонок один раз на (таблица + ширина).
-        val table = remember(block, totalWidth, baseStyle) {
-            val header = block.header.map(::wrapLongWords)
-            val rows = block.rows.map { row -> row.map(::wrapLongWords) }
-            val widths = columnWidths(header, rows, columnCount, totalWidth, baseStyle, measurer, density)
-            Triple(header, rows, widths)
+        // Раскладка (текст ячеек + ширины колонок) считается один раз на (таблица + ширина).
+        val layout = remember(block, totalWidth, baseStyle) {
+            layoutTable(block.header, block.rows, columnCount, totalWidth, baseStyle, measurer, density)
         }
-        val (header, rows, widths) = table
 
         Column(modifier = Modifier.fillMaxWidth()) {
-            if (header.isNotEmpty()) {
-                TableRow(cells = header, isHeader = true, widths = widths)
+            if (layout.header.isNotEmpty()) {
+                TableRow(cells = layout.header, isHeader = true, widths = layout.widths)
                 HorizontalDivider(color = Inactive)
             }
-            rows.forEachIndexed { index, row ->
-                TableRow(cells = row, isHeader = false, widths = widths)
-                if (index < rows.lastIndex) HorizontalDivider(color = Inactive)
+            layout.rows.forEachIndexed { index, row ->
+                TableRow(cells = row, isHeader = false, widths = layout.widths)
+                if (index < layout.rows.lastIndex) HorizontalDivider(color = Inactive)
             }
         }
     }
+}
+
+/** Готовая раскладка таблицы: текст ячеек (возможно с переносами) и ширины колонок. */
+private data class TableLayout(
+    val header: List<String>,
+    val rows: List<List<String>>,
+    val widths: List<Dp>,
+)
+
+/** Замеры колонок: min — самое длинное слово, ideal — самая длинная строка ячейки целиком. */
+private data class ColumnMetrics(val min: List<Dp>, val ideal: List<Dp>) {
+    val totalMin: Dp = min.fold(0.dp) { acc, w -> acc + w }
+}
+
+/**
+ * Строит раскладку таблицы. Сначала мерит текст как есть: если таблица влезает в ширину экрана
+ * нерезаной — длинные слова не делим (делить их незачем, соседним колонкам место не нужно).
+ * Не влезает — делим одиночные слова-ярлыки ([wrapLongWords]) и меряем заново.
+ */
+private fun layoutTable(
+    header: List<String>,
+    rows: List<List<String>>,
+    columnCount: Int,
+    totalWidth: Dp,
+    baseStyle: TextStyle,
+    measurer: TextMeasurer,
+    density: Density,
+): TableLayout {
+    val metrics = measureColumns(header, rows, columnCount, baseStyle, measurer, density)
+    if (metrics.totalMin <= totalWidth) {
+        return TableLayout(header, rows, distributeWidths(metrics, totalWidth))
+    }
+    val wrappedHeader = header.map(::wrapLongWords)
+    val wrappedRows = rows.map { row -> row.map(::wrapLongWords) }
+    val wrappedMetrics = measureColumns(wrappedHeader, wrappedRows, columnCount, baseStyle, measurer, density)
+    return TableLayout(wrappedHeader, wrappedRows, distributeWidths(wrappedMetrics, totalWidth))
 }
 
 /**
@@ -164,23 +196,20 @@ private fun wrapLongWords(cell: String): String {
 }
 
 /**
- * Реальные ширины колонок в два замера ([TextMeasurer], как auto-layout таблиц в браузерах):
- * min — самое длинное слово (гарантия, что слова НЕ рвутся по буквам), ideal — самая длинная
- * строка ячейки целиком (шире колонке уже не нужно). Остаток ширины раздаётся пропорционально
- * дефициту (ideal − min) с потолком ideal: колонка, чей контент уже влезает, лишнего не забирает.
- * Заголовок меряется жирным, тело — обычным, оба — поверх [baseStyle] рендера (шрифт/letterSpacing
- * темы), иначе замер уже реальной ширины и слово рвётся посреди букв. Плюс [MEASURE_SLACK] на
- * округления px↔dp при обратной конверсии замера в `Modifier.width`.
+ * Два замера колонок ([TextMeasurer], как auto-layout таблиц в браузерах): min — самое длинное
+ * слово (гарантия, что слова НЕ рвутся по буквам), ideal — самая длинная строка ячейки целиком
+ * (шире колонке уже не нужно). Заголовок меряется жирным, тело — обычным, оба — поверх [baseStyle]
+ * рендера (шрифт/letterSpacing темы), иначе замер уже реальной ширины и слово рвётся посреди букв.
+ * Плюс [MEASURE_SLACK] на округления px↔dp при обратной конверсии замера в `Modifier.width`.
  */
-private fun columnWidths(
+private fun measureColumns(
     header: List<String>,
     rows: List<List<String>>,
     columnCount: Int,
-    totalWidth: Dp,
     baseStyle: TextStyle,
     measurer: TextMeasurer,
     density: Density,
-): List<Dp> {
+): ColumnMetrics {
     val bodyStyle = baseStyle.merge(TextStyle(fontSize = 14.sp, lineHeight = 20.sp))
     val headerStyle = bodyStyle.merge(TextStyle(fontWeight = FontWeight.Bold))
     val cellPadding = Dimens.spaceSmall * 2
@@ -199,10 +228,19 @@ private fun columnWidths(
         return with(density) { maxPx.toDp() } + cellPadding + MEASURE_SLACK
     }
 
-    val minWidths = (0 until columnCount).map { widestPiece(it) { cell -> cell.split(WHITESPACE) } }
-    val idealWidths = (0 until columnCount).map { widestPiece(it) { cell -> cell.split('\n') } }
+    return ColumnMetrics(
+        min = (0 until columnCount).map { widestPiece(it) { cell -> cell.split(WHITESPACE) } },
+        ideal = (0 until columnCount).map { widestPiece(it) { cell -> cell.split('\n') } },
+    )
+}
 
-    val totalMin = minWidths.fold(0.dp) { acc, w -> acc + w }
+/**
+ * Раздаёт ширину экрана по колонкам. Каждой гарантируется её min, остаток — пропорционально
+ * дефициту (ideal − min) с потолком ideal: колонка, чей контент уже влезает, лишнего не забирает.
+ */
+private fun distributeWidths(metrics: ColumnMetrics, totalWidth: Dp): List<Dp> {
+    val (minWidths, idealWidths) = metrics
+    val totalMin = metrics.totalMin
     // Контент шире экрана (редко) — масштабируем пропорционально, чтобы не было переполнения.
     if (totalMin >= totalWidth) {
         val factor = totalWidth.value / totalMin.value
