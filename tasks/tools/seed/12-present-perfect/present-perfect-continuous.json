@@ -46,6 +46,13 @@
       "title": "Just Stopped · Только что перестал: следы видны",
       "order": 4,
       "searchKeywords": "have been без for и since, действие кончилось а форма длительная, have you been drinking упрёк, i've been thinking вместо think, свежий след недавнего занятия"
+    },
+    {
+      "id": 155,
+      "topicId": 24,
+      "title": "Repeated Lately · Полоса повторов в последнее время",
+      "order": 5,
+      "searchKeywords": "сказать в последнее время, have been going или go, повторяется а не длится, every day с have been, привычка или последнее время"
     }
   ],
   "grammar_cards": [
@@ -1297,6 +1304,212 @@
         "Как сказать то же самое нейтрально, без упрёка?",
         "Зачем начинать разговор с I've been thinking?"
       ]
+    },
+    {
+      "id": 410,
+      "microtopicId": 155,
+      "title": "Не один процесс, а серия повторов",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Две работы этой формы мы уже разобрали: срок процесса, который всё ещё идёт, и свежий след занятия, которое только что оборвалось. Есть и третья — и устроена она иначе: непрерывного процесса в ней нет вообще. Есть **серия повторов**: действие включалось и выключалось много раз внутри отрезка, который ещё не закончился."
+        },
+        {
+          "type": "heading",
+          "text": "Много раз за последнее время"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've been going to the gym a lot lately.**",
+            "**He's been texting me every evening.**",
+            "**The kids have been eating junk food all week.**",
+            "**Nick has been calling his brother every day.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Механика тут ровно та же, что и в остальных случаях, — просто внутри отрезка не сплошная линия, а пунктир: сходил — не сходил — сходил — сходил. Отрезок («последнее время», «эта неделя») пока открыт, значит всё, что в него попадает, дотягивается до «сейчас», — а это и есть территория нашей формы."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Повторы + отрезок ещё не кончился → `have/has been + -ing`"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русский описывает это настоящим — и промахивается"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы говорим «я в последнее время много хожу в зал», «он каждый вечер мне пишет» — обычным настоящим. Тем же самым настоящим, которым рассказываем про вечную привычку («я хожу в зал по вторникам»): русский язык эти два случая просто не различает, отдельной формы под «полосу последнего времени» у него нет. Поэтому рука и тянется к простому настоящему, а English требует перфекта."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I go to the gym lately** ✗ → **I've been going to the gym a lot lately** ✓ — простое настоящее рассказывает, как устроена жизнь вообще, и со словом lately не стыкуется совсем. Вторая половина той же ошибки — **I am going to the gym lately** ✗: длительное настоящее говорит про «прямо сейчас, в эту минуту», а мы описываем не минуту, а последние недели."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Полоса — это временно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Третье употребление несёт оттенок, ради которого его и стоит знать: полоса **началась недавно и может кончиться**. **He's been texting me every evening** — раньше он так не делал, и через неделю может перестать. Это не описание человека, а сводка последнего времени: что-то в жизни сдвинулось, и вот как сейчас идут дела."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сами слова lately и recently мы разбирали в микротеме «Отрезок, который ещё не кончился» — там они держали отрезок открытым при обычном перфекте. С длительной формой они делают ровно то же самое, просто внутри отрезка теперь пунктир повторов."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Третья работа формы — **серия повторов** внутри отрезка, который ещё идёт: **I've been going to the gym a lot lately**, **He's been texting me every evening**, **The kids have been eating junk food all week**. Действие не тянется непрерывно, а повторяется — но отрезок открыт, поэтому форма та же: `have/has been + -ing`. Оттенок важный: полоса началась недавно и может кончиться. Русский описывает это обычным настоящим, отсюда ловушки **I go to the gym lately** ✗ и **I am going to the gym lately** ✗.",
+      "examples": [
+        {
+          "ru": "Я в последнее время много хожу в зал.",
+          "en": "I've been going to the gym a lot lately."
+        },
+        {
+          "ru": "Он мне каждый вечер пишет.",
+          "en": "He's been texting me every evening."
+        },
+        {
+          "ru": "Дети всю неделю едят всякую вредную еду.",
+          "en": "The kids have been eating junk food all week."
+        },
+        {
+          "ru": "Ник каждый день звонит брату.",
+          "en": "Nick has been calling his brother every day."
+        },
+        {
+          "ru": "Мы в последнее время много ругаемся.",
+          "en": "We've been arguing a lot these days."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I go to the gym lately?",
+        "Чем полоса последнего времени отличается от того, что происходит сейчас?",
+        "Как понять, что отрезок ещё не кончился?"
+      ]
+    },
+    {
+      "id": 411,
+      "microtopicId": 155,
+      "title": "Полоса или привычка: чем это не Present Simple",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Полоса повторов опасно похожа на обычную привычку, и в русском они звучат совершенно одинаково. Английский же разводит их жёстко: одна форма рассказывает, **как устроена жизнь вообще**, другая — **что творится в последнее время**."
+        },
+        {
+          "type": "heading",
+          "text": "Одна пара — вся разница"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Oliver walks to work.** — так он добирается всегда, это его способ",
+            "**Oliver has been walking to work lately.** — обычно ездит, но последние недели ходит пешком",
+            "**My sister calls me on Sundays.** — заведённый порядок",
+            "**My sister has been calling me every day.** — что-то случилось, и вот уже неделю она звонит ежедневно"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Простое настоящее описывает **человека**, длительный перфект — его **последнее время**. Первая форма отвечает на вопрос «как у тебя вообще?», вторая — на «а что у тебя сейчас происходит?»."
+        },
+        {
+          "type": "heading",
+          "text": "Спутники полосы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом с такой полосой чаще всего стоят: **lately**, **recently**, **these days**, **all week**, **a lot**, **too much**, **every day**, **in a row**."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Маркер сам по себе форму НЕ выбирает. Одно и то же **every day** живёт и в привычке (**He calls his mum every day** — так заведено много лет), и в полосе (**He's been calling me every day** — началось на этой неделе). Решает не слово рядом, а мысль: постоянный порядок вещей или последнее время."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ошибиться можно в обе стороны. **Lately she cooks at home a lot** ✗ → **Lately she's been cooking at home a lot** ✓ — про последнее время простым настоящим не говорят. И наоборот: **I've been drinking coffee every morning** ✗ → **I drink coffee every morning** ✓, если кофе по утрам — ваша вечная привычка, а не свежая полоса."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Как только вы называете, СКОЛЬКО раз это было, форма меняется: **I've been going to the gym a lot** (полоса) ↔ **I've been to the gym three times this week** (счёт). Почему счёт выталкивает длительную форму — разберём в микротеме «Результат или процесс»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Простое настоящее описывает **человека** (**Oliver walks to work** — так он добирается всегда), длительный перфект — его **последнее время** (**Oliver has been walking to work lately** — обычно ездит, а последние недели ходит). Рядом с полосой стоят **lately**, **recently**, **these days**, **all week**, **a lot**, **too much**, **every day**, **in a row**, но сам маркер формы не выбирает: **He calls his mum every day** — привычка, **He's been calling me every day** — полоса. Ошибиться можно в обе стороны: **Lately she cooks at home a lot** ✗ и **I've been drinking coffee every morning** ✗ про вечную привычку.",
+      "examples": [
+        {
+          "ru": "Оливер ходит на работу пешком.",
+          "en": "Oliver walks to work."
+        },
+        {
+          "ru": "Оливер в последнее время ходит на работу пешком.",
+          "en": "Oliver has been walking to work lately."
+        },
+        {
+          "ru": "Сестра звонит мне по воскресеньям.",
+          "en": "My sister calls me on Sundays."
+        },
+        {
+          "ru": "Сестра звонит мне каждый день.",
+          "en": "My sister has been calling me every day."
+        },
+        {
+          "ru": "Он задерживается на работе третий день подряд.",
+          "en": "He's been working late three days in a row."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что это полоса, а не обычная привычка?",
+        "Почему every day может быть и там, и там?",
+        "Можно ли сказать I've been drinking coffee every morning?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1455,6 +1668,54 @@
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 165,
       "orderInCard": 2
+    },
+    {
+      "cardId": 410,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 190,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 410,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 166,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 410,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 152,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 410,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 152,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 411,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 88,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 411,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 166,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 411,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 64,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 411,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 75,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1619,6 +1880,46 @@
       "transcription": "[ɪɡˈzɔːstɪd]",
       "microtopicId": 154,
       "categoryId": "tenses"
+    },
+    {
+      "id": 671,
+      "word": "to skip",
+      "translation": "пропускать, пропустить",
+      "transcription": "[skɪp]",
+      "microtopicId": 155,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 672,
+      "word": "to text",
+      "translation": "писать сообщение, переписываться",
+      "transcription": "[tekst]",
+      "microtopicId": 155,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 673,
+      "word": "these days",
+      "translation": "в наши дни, сейчас",
+      "transcription": "[ðiːz deɪz]",
+      "microtopicId": 155,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 674,
+      "word": "in a row",
+      "translation": "подряд",
+      "transcription": "[ɪn ə rəʊ]",
+      "microtopicId": 155,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 675,
+      "word": "junk food",
+      "translation": "вредная еда, фастфуд",
+      "transcription": "[ˈdʒʌŋk fuːd]",
+      "microtopicId": 155,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -1712,6 +2013,37 @@
         }
       ],
       "explanation": "во втором предложении настоящее длительное не тянется из прошлого, нужно She has been working here since April. В четвёртом лишний предлог: перед all evening предлог не ставится."
+    },
+    {
+      "id": 166,
+      "statements": [
+        {
+          "en": "I've been staying late at work every day this week.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She go to the pool a lot lately.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Emma has been cooking at home a lot these days.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They have been complain about the noise lately.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Sam has been posting photos every day.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении вообще нет нужной формы — при she должно быть has been going. В четвёртом потерялось окончание -ing: have been complaining. Остальные собраны верно."
     }
   ],
   "word_arrangement_exercises": [
@@ -1776,6 +2108,26 @@
         "work"
       ],
       "explanation": "грязные руки — это то, что видно сейчас, поэтому нужна связка I've been working. Was working увело бы сцену в прошлое, а worked прозвучало бы как отчёт о законченной работе."
+    },
+    {
+      "id": 152,
+      "situationRu": "Ситуация: Юля рассказывает, что в последнее время много переписывается с новой коллегой.",
+      "correctSentence": "I've been texting my new colleague a lot lately.",
+      "words": [
+        "I've",
+        "been",
+        "texting",
+        "my new colleague",
+        "a lot",
+        "lately"
+      ],
+      "distractors": [
+        "am",
+        "text",
+        "texted",
+        "being"
+      ],
+      "explanation": "полоса последнего времени собирается как I've been texting. Am и being сюда не встают вовсе, а text и texted оставили бы предложение либо в привычке, либо в прошлом."
     }
   ],
   "multiple_choice_exercises": [
@@ -1925,6 +2277,48 @@
         }
       ],
       "explanation": "вымотанный вид объясняется занятием, которое тянулось до этой минуты, поэтому have you been working. Do you work спрашивает про привычку вообще, а are you work — просто несобранная форма."
+    },
+    {
+      "id": 190,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Он в последнее время часто пропускает завтрак.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "He skips breakfast lately.",
+          "isCorrect": false
+        },
+        {
+          "text": "He's been skipping breakfast lately.",
+          "isCorrect": true
+        },
+        {
+          "text": "He is skipping breakfast lately.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "речь о полосе последнего времени, а не о постоянном порядке вещей и не о том, что происходит в эту минуту, — поэтому has been skipping. Простое настоящее описывало бы вечную привычку, а длительное настоящее — только сию минуту."
+    },
+    {
+      "id": 166,
+      "choiceType": "CHOICE",
+      "prompt": "Jake usually buys lunch, but he ___ sandwiches from home lately.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "brings",
+          "isCorrect": false
+        },
+        {
+          "text": "is bringing",
+          "isCorrect": false
+        },
+        {
+          "text": "has been bringing",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "первая часть предложения говорит, как у Джейка обычно, вторая — что изменилось в последнее время, поэтому нужна длительная форма перфекта. Brings вернуло бы нас к привычке, а is bringing говорило бы про эту самую минуту."
     }
   ],
   "text_input_exercises": [
@@ -2136,6 +2530,25 @@
         }
       ],
       "explanation": "после been смысловой глагол стоит с окончанием -ing: have you been playing. Форма played нужна обычному перфекту, а did в этом времени не появляется вовсе."
+    },
+    {
+      "id": 152,
+      "wrongSentence": "Oliver has been watch a lot of films these days.",
+      "options": [
+        {
+          "text": "Oliver has been watching a lot of films these days.",
+          "isCorrect": true
+        },
+        {
+          "text": "Oliver has been watched a lot of films these days.",
+          "isCorrect": false
+        },
+        {
+          "text": "Oliver is been watching a lot of films these days.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после been смысловой глагол идёт с окончанием -ing: has been watching. Форма watched принадлежит обычному перфекту, а is been не бывает вовсе."
     }
   ],
   "construction_meaning_exercises": [
@@ -2224,6 +2637,25 @@
         }
       ],
       "explanation": "впереди встаёт how long, дальше идёт обычный вопрос: помощник перед подлежащим, been и глагол с -ing на месте."
+    },
+    {
+      "id": 64,
+      "taskDescription": "перепиши каждое предложение так, чтобы речь шла о полосе последнего времени.",
+      "items": [
+        {
+          "original": "Nick calls me every day.",
+          "transformed": "Nick has been calling me every day."
+        },
+        {
+          "original": "I skip breakfast.",
+          "transformed": "I have been skipping breakfast."
+        },
+        {
+          "original": "Sara studies late every night.",
+          "transformed": "Sara has been studying late every night."
+        }
+      ],
+      "explanation": "подлежащее остаётся прежним, а глагол собирается заново: have или has плюс been плюс окончание -ing. При he, she и именах — has been."
     }
   ],
   "categorization_exercises": [
@@ -2249,7 +2681,54 @@
         }
       ],
       "explanation": "been после сокращения бывает только у has: формы is been не существует. Если сразу за 's идёт -ing, прилагательное или место, это is."
+    },
+    {
+      "id": 88,
+      "taskDescription": "раздели ситуации на постоянный порядок вещей и полосу последнего времени.",
+      "categories": [
+        {
+          "title": "Так устроено всегда",
+          "items": [
+            "Завтракает в семь",
+            "Ездит на работу на метро",
+            "Звонит маме по воскресеньям"
+          ]
+        },
+        {
+          "title": "Полоса в последнее время",
+          "items": [
+            "Всю неделю обедает в кафе",
+            "Третий день подряд ложится в час",
+            "В последнее время часто опаздывает"
+          ]
+        }
+      ],
+      "explanation": "слева то, что не менялось годами и описывает человека вообще, — это простое настоящее. Справа то, что началось недавно и может кончиться, — это have или has been плюс -ing."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 75,
+      "groupDescription": "Три слова оставляют отрезок открытым, одно закрывает его в прошлом",
+      "items": [
+        {
+          "text": "lately",
+          "isOdd": false
+        },
+        {
+          "text": "these days",
+          "isOdd": false
+        },
+        {
+          "text": "last summer",
+          "isOdd": true
+        },
+        {
+          "text": "this week",
+          "isOdd": false
+        }
+      ],
+      "explanation": "lately, these days и this week говорят про отрезок, который ещё идёт, — с ними и работает полоса повторов. Last summer закрыт наглухо, и рядом с ним живёт только прошедшее время."
+    }
+  ]
 }
