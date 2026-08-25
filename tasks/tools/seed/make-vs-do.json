@@ -25,6 +25,13 @@
       "title": "make it, make sense · Роли, которых в русском «делать» нет",
       "order": 2,
       "searchKeywords": "make it что значит, that'll do перевод, make sense по-русски, well done что значит, когда делать не переводится"
+    },
+    {
+      "id": 160,
+      "topicId": 25,
+      "title": "make a decision или decide · Почему англичанин говорит двумя словами",
+      "order": 3,
+      "searchKeywords": "make a decision или decide, зачем два слова вместо глагола, make up значения, do without что значит, глагол плюс существительное"
     }
   ],
   "grammar_cards": [
@@ -94,6 +101,17 @@
             {
               "type": "paragraph",
               "text": "Это первая тема курса, где правило отвечает не на вопрос «как собрать форму», а на вопрос «какое слово выбрать». Поэтому проверять себя тут придётся не глазами, а головой: увидели «делать» в русской фразе — остановитесь на секунду и спросите, что останется после действия."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Make` и `do` — только начало разговора об устойчивых сочетаниях. Дальше по курсу будет отдельная тема про готовые речевые блоки — **by the way**, **to be honest**, **at the end of the day** и десятки других, которые носитель не собирает по словам, а достаёт из памяти целиком. Там мы будем учить уже сами конструкции, а не отдельные слова, — и формулы из этой темы соберём туда же одним списком. Здесь же наша задача проще и важнее: понять принцип, по которому язык выбирает между двумя глаголами."
             }
           ]
         }
@@ -677,6 +695,280 @@
         "Чем make sure отличается от простого «проверить»?",
         "Как понять, что Well done про стейк, а не про похвалу?"
       ]
+    },
+    {
+      "id": 424,
+      "microtopicId": 160,
+      "title": "Почему decide превращается в make a decision",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пора ответить на вопрос, который к этому моменту напрашивается сам: почему этих сочетаний в языке вообще так много? Есть же глагол `to decide` — зачем говорить **make a decision** двумя словами? Ответ объясняет всю тему целиком, и после него сочетания перестают выглядеть капризом."
+        },
+        {
+          "type": "heading",
+          "text": "Английский любит разбирать глагол надвое"
+        },
+        {
+          "type": "paragraph",
+          "text": "У большинства таких сочетаний есть глагол-дублёр, который значит ровно то же самое:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`to decide` → **make a decision**",
+            "`to choose` → **make a choice**",
+            "`to plan` → **make a plan**",
+            "`to clean` → **do the cleaning**",
+            "`to look` → **have a look**",
+            "`to walk` → **take a walk**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл в каждой паре один и тот же. Но в живой речи носитель очень часто берёт вариант из двух слов, и на это есть две настоящие причины."
+        },
+        {
+          "type": "heading",
+          "text": "Причина первая: так мягче и разговорнее"
+        },
+        {
+          "type": "paragraph",
+          "text": "**We must decide today.** звучит как приказ из инструкции. **We need to make a decision today.** — как фраза живого человека на встрече. Двусловный вариант снимает напряжение: действие как будто отодвигается на шаг, вместо «реши» получается «прими решение». В русском ровно тот же эффект: сравните «Реши уже!» и «Прими решение» — второе спокойнее, хотя смысл один."
+        },
+        {
+          "type": "heading",
+          "text": "Причина вторая: туда можно вставить прилагательное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот это уже чистая механика, и она полезнее всего. К существительному легко приклеивается прилагательное, а к голому глаголу пришлось бы искать наречие:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**make a quick decision** — принять быстрое решение",
+            "**have a good look** — как следует посмотреть",
+            "**do a proper job** — сделать работу как надо",
+            "**make a big difference** — сильно менять дело"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Попробуйте сказать то же самое одним глаголом: `decide quickly`, `look well` — первое ещё туда-сюда, второе уже сломано. Конструкция из двух слов даёт языку место, куда положить оттенок."
+        },
+        {
+          "type": "heading",
+          "text": "Русский устроен точно так же"
+        },
+        {
+          "type": "paragraph",
+          "text": "И вот тут вся чуждость исчезает. Мы делаем ровно то же самое, просто не замечаем: **принять** решение вместо «решить», **сделать** выбор вместо «выбрать», **оказать** помощь вместо «помочь», **дать** совет вместо «посоветовать», **произвести** впечатление вместо «впечатлить»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница только в количестве. У русского «пустых» глаголов много — принять, оказать, произвести, дать, устроить, — и мы подбираем их по привычке, не задумываясь. У английского их **всего четыре**: `make`, `do`, `have`, `take`. Четыре глагола обслуживают сотни существительных — вот откуда столько сочетаний и вот почему их приходится знать парами."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Глагол",
+            "Что берёт",
+            "Примеры"
+          ],
+          "rows": [
+            [
+              "make",
+              "то, что появляется",
+              "a decision, a choice, a plan, a copy"
+            ],
+            [
+              "do",
+              "работу и рутину",
+              "the cleaning, the shopping, a proper job"
+            ],
+            [
+              "have",
+              "опыт и еду",
+              "a look, a rest, breakfast"
+            ],
+            [
+              "take",
+              "короткое действие",
+              "a walk, a shower, a photo"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Про `have` и `take` подробно поговорим позже — `have a look` и `have a rest` ждут нас в теме «Дополнительные конструкции». Сейчас важно другое: увидели связку «глагол + существительное» вместо простого глагола — знайте, что перед вами обычный английский способ говорить, а не исключение."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Пустой» глагол не значит «любой». **do a decision** ✗ → **make a decision** ✓, **make the cleaning** ✗ → **do the cleaning** ✓. Каждое существительное держится за свой глагол намертво — именно поэтому их и учат парой, а не по отдельности."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У многих сочетаний есть глагол-дублёр с тем же смыслом (`to decide` → **make a decision**, `to clean` → **do the cleaning**), и носитель часто берёт вариант из двух слов: он звучит мягче и в него можно вставить прилагательное (**make a quick decision**, **do a proper job**). Русский делает то же самое — «принять решение» вместо «решить», «оказать помощь» вместо «помочь». Разница в количестве: у русского «пустых» глаголов много, у английского их четыре — `make`, `do`, `have`, `take`. Но каждое существительное держится за свой: **do a decision** ✗.",
+      "examples": [
+        {
+          "ru": "Нам нужно сегодня принять решение.",
+          "en": "We need to make a decision today."
+        },
+        {
+          "ru": "Пришлось принимать быстрое решение.",
+          "en": "I had to make a quick decision."
+        },
+        {
+          "ru": "Вера сделала работу как надо.",
+          "en": "Vera did a proper job."
+        },
+        {
+          "ru": "По пятницам она убирается.",
+          "en": "She does the cleaning on Fridays."
+        },
+        {
+          "ru": "Давай составим план на завтра.",
+          "en": "Let's make a plan for tomorrow."
+        }
+      ],
+      "clarificationOptions": [
+        "Зачем говорить двумя словами, если есть один глагол?",
+        "Как понять, какой из четырёх глаголов нужен?",
+        "Почему make a quick decision, а не make a decision quickly?"
+      ]
+    },
+    {
+      "id": 425,
+      "microtopicId": 160,
+      "title": "Фразовые make и do: make up, do without",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последнее, что осталось у наших двух глаголов, — жизнь в паре с предлогом. Это отдельная порода сочетаний, и разбирать её целиком мы сейчас не будем: задача карточки — чтобы вы узнавали эти шесть штук в речи и в субтитрах, а не строили их сами."
+        },
+        {
+          "type": "heading",
+          "text": "Что такое фразовый глагол — в двух строках"
+        },
+        {
+          "type": "paragraph",
+          "text": "Глагол плюс предлог даёт новое значение, которое из частей не собирается: `make` + `up` — это не «сделать вверх». В русском ту же работу делают приставки: ходить — уходить — приходить — переходить: корень один, а смыслы разные. Английский вместо приставки ставит слово следом за глаголом."
+        },
+        {
+          "type": "heading",
+          "text": "make up — три значения, все ходовые"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**мириться:** **They made up after the fight.** — поссорились и помирились.",
+            "**придумать, сочинить:** **He made up a story about the traffic.** — выдумал историю про пробки.",
+            "**краситься:** отсюда знакомое существительное **make-up** — косметика, макияж."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "make out — разобрать, различить"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I can't make out what he's saying.** — не могу разобрать, что он говорит. Про плохую связь, неразборчивый почерк, шёпот в конце зала."
+        },
+        {
+          "type": "heading",
+          "text": "do up — застегнуть, привести в порядок"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Do up your coat, it's cold outside.** — застегни пальто. Второе значение — «отремонтировать, привести в порядок»: **They did up the old kitchen.**"
+        },
+        {
+          "type": "heading",
+          "text": "do without — обойтись без"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I can do without coffee, but not without sleep.** — без кофе обойдусь, без сна нет. Очень частая фраза в разговоре о деньгах, привычках и сборах в дорогу."
+        },
+        {
+          "type": "heading",
+          "text": "do over — переделать заново"
+        },
+        {
+          "type": "paragraph",
+          "text": "**The photos were bad, so we did the whole thing over.** — переснимали всё заново."
+        },
+        {
+          "type": "heading",
+          "text": "be done with — покончить с чем-то"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I'm done with it.** — всё, с меня хватит, я закончил. Фраза короткая и очень эмоциональная: ею заканчивают спор, работу и отношения."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Формат этой карточки — узнавание, а не владение. Увидели или услышали — поняли; строить такие фразы самому пока не просим, для этого нужна привычка, которая приходит с чтением и сериалами."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Остальные фразовые глаголы — **give up**, **look for**, **come across**, **put off** — разберём в теме «Устойчивые выражения и идиомы». А вот эти шесть там повторять не будем: с `make` и `do` мы закрываем всё в одном месте, чтобы не возвращаться."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Фразовый глагол — это глагол плюс предлог с новым значением, которое из частей не собирается (в русском ту же работу делают приставки: ходить — уходить — приходить). У наших двух глаголов их шесть: **make up** — мириться, придумать, а также косметика (**make-up**); **make out** — разобрать, различить; **do up** — застегнуть, привести в порядок; **do without** — обойтись без; **do over** — переделать заново; **be done with** — покончить с чем-то. Формат — узнавание: понять в речи, а не строить самому.",
+      "examples": [
+        {
+          "ru": "Они помирились после ссоры.",
+          "en": "They made up after the fight."
+        },
+        {
+          "ru": "Он выдумал историю про пробки.",
+          "en": "He made up a story about the traffic."
+        },
+        {
+          "ru": "Я не могу разобрать, что он говорит.",
+          "en": "I can't make out what he's saying."
+        },
+        {
+          "ru": "Застегни пальто, на улице холодно.",
+          "en": "Do up your coat, it's cold outside."
+        },
+        {
+          "ru": "Без кофе обойдусь, без сна нет.",
+          "en": "I can do without coffee, but not without sleep."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, какое из трёх значений make up имеется в виду?",
+        "Чем make out отличается от understand?",
+        "Можно ли сказать I'm done with it про работу, а не про ссору?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -811,9 +1103,66 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 156,
       "orderInCard": 3
+    },
+    {
+      "cardId": 424,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 67,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 424,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 81,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 424,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 196,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 424,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 170,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 425,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 60,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 425,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 46,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 425,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 79,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 425,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 57,
+      "orderInCard": 3
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "make_vs_do_card424_ex1",
+      "cardId": 424,
+      "title": "Сказать длиннее, сказать короче",
+      "userInstruction": "Скажите то же самое так, как просит задание — длиннее или короче.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "collocations",
@@ -894,6 +1243,30 @@
       "transcription": "[ˈkʌpl]",
       "microtopicId": 159,
       "categoryId": "collocations"
+    },
+    {
+      "id": 684,
+      "word": "choice",
+      "translation": "выбор",
+      "transcription": "[tʃɔɪs]",
+      "microtopicId": 160,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 685,
+      "word": "plan",
+      "translation": "план",
+      "transcription": "[plæn]",
+      "microtopicId": 160,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 686,
+      "word": "copy",
+      "translation": "копия",
+      "transcription": "[ˈkɒpi]",
+      "microtopicId": 160,
+      "categoryId": "collocations"
     }
   ],
   "table_fill_exercises": [],
@@ -959,6 +1332,37 @@
         }
       ],
       "explanation": "после make объект и голый глагол без to, поэтому made him feel cold. И состояние описывает прилагательное, а не наречие: makes me happy, не happily. Примеры со счётом и с будущей ролью верны: make здесь значит «получаться»."
+    },
+    {
+      "id": 170,
+      "statements": [
+        {
+          "en": "Kate made a good choice.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I have to do a decision today.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Sam made a copy of the key.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He makes the cleaning every Saturday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Ira did a proper job on the report.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "выбор, решение и копия появляются в результате действия — с ними идёт make, поэтому do a decision сломано. А уборка и работа — это то, что выполняют: do the cleaning, do a proper job."
     }
   ],
   "word_arrangement_exercises": [
@@ -1127,6 +1531,48 @@
         }
       ],
       "explanation": "добраться куда-то вовремя — make it to somewhere. Do it значило бы «сделать это», а made не встаёт после won't: там всегда первая форма."
+    },
+    {
+      "id": 196,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Нам надо принять быстрое решение.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We need to do a quick decision.",
+          "isCorrect": false
+        },
+        {
+          "text": "We need to make a quick decision.",
+          "isCorrect": true
+        },
+        {
+          "text": "We need to make a quickly decision.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "решение идёт с make, а оттенок «быстрое» ложится на существительное прилагательным — quick decision. Quickly — наречие, к существительному оно не подходит."
+    },
+    {
+      "id": 60,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "We can do without a car in this city.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Мы не можем обойтись без машины в этом городе.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мы можем обойтись без машины в этом городе.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мы ездим по этому городу без машины.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "do without значит «обойтись без», и предложение утвердительное — can, а не can't. Третий вариант рассказывает о поездках, а тут речь о том, что машина не нужна вообще."
     }
   ],
   "text_input_exercises": [
@@ -1189,6 +1635,31 @@
         "sense",
         "sure"
       ]
+    },
+    {
+      "id": 81,
+      "items": [
+        {
+          "sentence": "We made a decision → We ___.",
+          "contextRu": "",
+          "answer": "decided",
+          "alternatives": []
+        },
+        {
+          "sentence": "She does the cleaning every day → She ___ every day.",
+          "contextRu": "",
+          "answer": "cleans",
+          "alternatives": []
+        },
+        {
+          "sentence": "They made a plan → They ___.",
+          "contextRu": "",
+          "answer": "planned",
+          "alternatives": []
+        }
+      ],
+      "explanation": "связка складывается обратно в глагол, от которого выросло существительное: decision — decided, cleaning — cleans, plan — planned. Форма при этом берётся из связки: made стояло в прошедшем, значит и глагол уходит в прошедшее.",
+      "taskDescription": "Замени связку одним глаголом с тем же смыслом."
     }
   ],
   "dialog_restore_exercises": [
@@ -1219,6 +1690,34 @@
         }
       ],
       "explanation": "вежливый отказ от встречи — can't make it. Don't make it собрано не по форме, а can't do it up вообще о другом: там глагол do с предлогом, и к приглашению это отношения не имеет."
+    },
+    {
+      "id": 57,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Are Ben and Nick still angry with each other?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "No, they made up last week.",
+          "isCorrect": true
+        },
+        {
+          "text": "No, they made out last week.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, they did up last week.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "помириться после ссоры — made up. Made out значит «разобрать, различить», а did up — «застегнуть» или «привести в порядок», к отношениям это отношения не имеет."
     }
   ],
   "matching_exercises": [
@@ -1332,6 +1831,29 @@
         }
       ],
       "explanation": "в этой фразе do значит «годиться, подходить», поэтому that'll do — «сойдёт, достаточно». Про решение сказали бы let's do that, а про готовое дело — it's done."
+    },
+    {
+      "id": 46,
+      "construction": "Tom and Kate made up yesterday.",
+      "options": [
+        {
+          "text": "Том и Кейт вчера всё придумали.",
+          "isCorrect": false
+        },
+        {
+          "text": "Том и Кейт вчера помирились.",
+          "isCorrect": true
+        },
+        {
+          "text": "Том и Кейт вчера накрасились.",
+          "isCorrect": false
+        },
+        {
+          "text": "Том и Кейт вчера всё переделали.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "когда make up стоит про двух людей после ссоры, значение одно — помирились. «Придумали» было бы с дополнением: made up a story. А «переделали» — это do over."
     }
   ],
   "transformation_exercises": [
@@ -1353,6 +1875,25 @@
         }
       ],
       "explanation": "причина становится подлежащим, дальше идёт make, потом человек в объектной форме (me, her, us) и прилагательное. Артикль и форму глагола менять не нужно: makes стоит по третьему лицу подлежащего."
+    },
+    {
+      "id": 67,
+      "taskDescription": "перепиши каждое предложение так, чтобы вместо глагола стояло сочетание с make или do.",
+      "items": [
+        {
+          "original": "He decided quickly.",
+          "transformed": "He made a quick decision."
+        },
+        {
+          "original": "They chose well.",
+          "transformed": "They made a good choice."
+        },
+        {
+          "original": "Mia cleans on Saturdays.",
+          "transformed": "Mia does the cleaning on Saturdays."
+        }
+      ],
+      "explanation": "глагол превращается в существительное, а наречие — в прилагательное: quickly становится quick, well становится good. Существительное при этом само выбирает себе глагол: решение и выбор идут с make, уборка — с do."
     }
   ],
   "categorization_exercises": [
@@ -1426,6 +1967,29 @@
         }
       ],
       "explanation": "make sense, make sure и make a difference — формулы с make. А «сработало, помогло» — это do the trick, единственное сочетание в списке со вторым глаголом."
+    },
+    {
+      "id": 79,
+      "groupDescription": "Три фразовых глагола собраны с do, а один — нет",
+      "items": [
+        {
+          "text": "do up",
+          "isOdd": false
+        },
+        {
+          "text": "do without",
+          "isOdd": false
+        },
+        {
+          "text": "make out",
+          "isOdd": true
+        },
+        {
+          "text": "do over",
+          "isOdd": false
+        }
+      ],
+      "explanation": "застегнуть, обойтись без и переделать заново собираются с do. А «разобрать, различить» — это make out, единственный в списке с другим глаголом."
     }
   ]
 }
