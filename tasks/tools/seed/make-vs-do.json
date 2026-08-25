@@ -2,7 +2,7 @@
   "grammar_topics": [
     {
       "id": 25,
-      "title": "Два английских «делать»",
+      "title": "Make vs Do",
       "order": 13,
       "isPretopic": false,
       "description": "Почему русское «делать» распадается на два английских глагола: что решает выбор между make и do, где рука промахивается и какие сочетания придётся знать наизусть",
@@ -18,6 +18,13 @@
       "title": "Make or Do · Два «делать» и одна ось",
       "order": 1,
       "searchKeywords": "когда make а когда do, do или make the dishes, что остаётся после действия, зачем два глагола вместо одного, принцип выбора"
+    },
+    {
+      "id": 159,
+      "topicId": 25,
+      "title": "make it, make sense · Роли, которых в русском «делать» нет",
+      "order": 2,
+      "searchKeywords": "make it что значит, that'll do перевод, make sense по-русски, well done что значит, когда делать не переводится"
     }
   ],
   "grammar_cards": [
@@ -366,6 +373,310 @@
         "Что считается «неопределённым словом»?",
         "Чем do the cooking отличается от make dinner?"
       ]
+    },
+    {
+      "id": 421,
+      "microtopicId": 159,
+      "title": "Make: привести в состояние и получиться",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор `make` у нас был про «произвести» — торт, решение, шум. Но у него есть ещё две работы, и обе стоят отдельного разговора: в одной русский совпадает с английским слово в слово, а в другой «делать» не подходит вообще ни в каком виде."
+        },
+        {
+          "type": "heading",
+          "text": "Приводить в состояние: make + кого + каким"
+        },
+        {
+          "type": "paragraph",
+          "text": "После `make` может стоять не предмет, а человек с прилагательным. Смысл — «сделать таким»: было одно состояние, стало другое."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This song makes me happy.** — до песни настроения не было, теперь есть.",
+            "**That makes it easier.** — задача была сложнее, стала проще.",
+            "**You're making things worse.** — было плохо, становится хуже.",
+            "**The tea made her calm.** — успокоилась."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ось темы работает и здесь: `make` создаёт то, чего раньше не было, просто на этот раз не предмет, а положение дел. И это **единственное место темы, где дословный перевод не подводит**: по-русски мы говорим ровно так же — «эта песня делает меня счастливым», «это делает задачу проще». Запомните этот случай как опору: если по-русски выходит «делает кого-то каким-то», по-английски почти наверняка `make`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**This makes me to feel better** ✗ → **This makes me feel better** ✓. После `make` объект и голый глагол идут без `to` — мы разбирали это в микротеме «Make, let и help» темы «Инфинитив». Рука после **want to**, **ask to** по привычке лепит `to` и сюда, но `make` его не терпит."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Получаться и составлять"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот вторая работа — та, где «делать» не переводится никак. `make` умеет сообщать, **что получится на выходе**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Two and two make four.** — два плюс два будет четыре.",
+            "**They make a good couple.** — из них выходит хорошая пара.",
+            "**He'll make a good teacher.** — из него выйдет хороший учитель.",
+            "**These two rooms make a nice flat.** — из этих двух комнат получается неплохая квартира."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Попробуйте вставить сюда «делать» — получится бессмыслица: «два и два делают четыре», «он сделает хорошего учителя». Русский на этом месте берёт совсем другие слова: «будет», «выйдет», «получается». Логика у `make` при этом прежняя, и в этом вся красота: он по-прежнему говорит о результате — просто результат тут не вещь, а итог сложения или человек в новой роли."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда же понятно, почему **He'll make a good teacher** и **He is a good teacher** — не одно и то же. Второе — про сейчас: он уже учитель и он хороший. Первое — про то, что из него получится, если он им станет."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "У `make` есть две работы помимо «произвести». Первая — приводить в состояние: **This song makes me happy**, **That makes it easier**, **You're making things worse**; здесь русский совпадает дословно («делает меня счастливым»), а после объекта идёт голый глагол без `to` (**This makes me feel better** ✓). Вторая — «получаться, составлять»: **Two and two make four**, **They make a good couple**, **He'll make a good teacher**; тут «делать» не переводится вообще, русский говорит «будет», «выйдет», «получается».",
+      "examples": [
+        {
+          "ru": "Эта песня поднимает мне настроение.",
+          "en": "This song makes me happy."
+        },
+        {
+          "ru": "Так будет проще.",
+          "en": "That makes it easier."
+        },
+        {
+          "ru": "Ты делаешь только хуже.",
+          "en": "You're making things worse."
+        },
+        {
+          "ru": "Два плюс два будет четыре.",
+          "en": "Two and two make four."
+        },
+        {
+          "ru": "Из них выходит хорошая пара.",
+          "en": "They make a good couple."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему make me happy, а не make me to be happy?",
+        "Как «два плюс два make четыре» связано со значением «делать»?",
+        "Чем He'll make a good teacher отличается от He is a good teacher?"
+      ]
+    },
+    {
+      "id": 422,
+      "microtopicId": 159,
+      "title": "make it и that'll do: успеть и сойти",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Две коротких конструкции, которые вы слышали сто раз в фильмах и сериалах и почти наверняка поняли неправильно. Обе состоят из знакомых слов, и обе не переводятся по частям."
+        },
+        {
+          "type": "heading",
+          "text": "make it — успеть, добраться, справиться"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Sorry, I can't make it tonight.** — не смогу сегодня прийти. Самый обычный вежливый способ отказаться от встречи.",
+            "**Did you make it to the airport?** — добрался?",
+            "**We made it!** — мы справились, у нас получилось."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Что тут происходит со словом `it`. Оно ничего не заменяет — это часть выражения, и отдельно его не переводят. В русском есть точно такие же сросшиеся фразы: в «дело в шляпе» никакой шляпы нет, а в «была не была» нет никакого «была». Слова стоят, а по отдельности не значат ничего — целое значит больше, чем сумма частей."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I can't make it** — это НЕ «я не могу это сделать». Это «я не смогу прийти / не успею». А «я не могу это сделать» звучит как **I can't do it** — разница ровно в одном слове, а смысл совсем другой. Если на приглашение ответить **I can't do it**, собеседник услышит, что вы не справитесь с задачей, и не поймёт, придёте вы или нет."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "that'll do — сойдёт, хватит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Зеркальная конструкция у `do`. Здесь глагол значит «годиться, подходить»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**That'll do.** — сойдёт, достаточно.",
+            "**Will this do?** — это подойдёт?",
+            "**It'll do for now.** — пока сойдёт, потом разберёмся."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «сойдёт» — попадание один в один, поэтому запоминается легко. А заодно видно, что ось темы держится и в этих застывших фразах: **make it** — вы дошли до результата, произвели его; **that'll do** — производить ничего не надо, годится то, что уже есть."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда же и **Will you make it?** («ты успеешь?») в ответ на «выхожу через пять минут», и **That'll do, thanks** в кафе, когда вам подливают воду и хватит. Обе фразы короткие, поэтому в речи проскакивают мгновенно — ловите их целиком, не разбирая на слова."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "**make it** значит «успеть, добраться, справиться»: **Sorry, I can't make it tonight** — не смогу прийти (обычный вежливый отказ), **We made it!** — справились. Слово `it` тут часть выражения и отдельно не переводится. Не путайте с **I can't do it** — «я не могу это сделать»: разница в одном слове, а смысл другой. У `do` есть зеркальная фраза: **That'll do** — «сойдёт, хватит», **Will this do?** — «это подойдёт?».",
+      "examples": [
+        {
+          "ru": "Извини, сегодня я не смогу прийти.",
+          "en": "Sorry, I can't make it tonight."
+        },
+        {
+          "ru": "Ты добрался до аэропорта?",
+          "en": "Did you make it to the airport?"
+        },
+        {
+          "ru": "У нас получилось!",
+          "en": "We made it!"
+        },
+        {
+          "ru": "Сойдёт, спасибо.",
+          "en": "That'll do, thanks."
+        },
+        {
+          "ru": "Пока сойдёт.",
+          "en": "It'll do for now."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем I can't make it отличается от I can't do it?",
+        "Что вообще значит it в make it?",
+        "Как ответить That'll do, чтобы это не звучало грубо?"
+      ]
+    },
+    {
+      "id": 423,
+      "microtopicId": 159,
+      "title": "Застывшие формулы: make sense и do the trick",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Осталась горстка сочетаний, которые по оси не выводятся: разбирать их на части бесполезно, они значат целое. Хорошая новость — их мало, и каждое встречается в живой речи чаще, чем половина «правильных» сочетаний. Разберём, что каждое значит, — и запомним как формулу."
+        },
+        {
+          "type": "heading",
+          "text": "Со стороны make"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**make sense** — иметь смысл, быть логичным. **That makes sense.** — «ага, теперь понятно, это логично». **It doesn't make sense to me.** — «для меня это бессмыслица». Артикль сюда не ставится: **make a sense** ✗.",
+            "**make sure** — убедиться, проследить, не забыть. **Make sure you take your keys.** — «проследи, чтобы ключи были с тобой».",
+            "**make a difference** — менять дело, иметь значение. **One hour a day makes a big difference.** — час в день реально что-то меняет. Отрицание тоже ходовое: **It doesn't make any difference.** — «без разницы».",
+            "**make up your mind** — решиться, определиться. **Make up your mind — tea or coffee?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Со стороны do"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**do the trick** — сработать, помочь, решить проблему. **A cup of coffee will do the trick.** — «кофе поможет».",
+            "**do somebody good** — пойти на пользу. **A walk will do you good.** — «прогулка тебе не помешает».",
+            "**Well done!** — «молодец, отлично справился». И та же фраза в ресторане значит «хорошо прожаренный»: **a well-done steak**. Слова одни, ситуации разные — понимать надо по обстановке.",
+            "**easier said than done** — «легче сказать, чем сделать». Едва ли не единственная формула темы, которая переводится дословно."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему это нормально"
+        },
+        {
+          "type": "paragraph",
+          "text": "Может показаться, что язык тут капризничает. Но в русском таких же сросшихся фраз ничуть не меньше: «имеет смысл», «сделай одолжение», «дело сделано», «сойдёт и так». Попробуйте объяснить иностранцу, почему смысл именно «имеют», а не «держат» или «носят», — объяснения нет, так сложилось. Английские формулы устроены точно так же, и учить их надо тем же способом: целиком, а не по словам."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**It doesn't make a sense** ✗ → **It doesn't make sense** ✓. Русское «в этом нет смысла» подсказывает существительное с артиклем, но в этой формуле артикля нет вообще. То же и с **make sure**: не **make a sure**, а просто **make sure**."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Формул в теме ровно столько, сколько перечислено выше. Не пытайтесь достроить ряд по аналогии — **do sense** ✗ или **make the trick** ✗ языку неизвестны. Здесь работает память, а не логика, и это честно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Несколько сочетаний по оси не выводятся и запоминаются целиком. У `make`: **make sense** — иметь смысл, быть логичным (без артикля: **make a sense** ✗), **make sure** — убедиться, проследить, **make a difference** — менять дело, иметь значение, **make up your mind** — решиться. У `do`: **do the trick** — сработать, помочь, **do somebody good** — пойти на пользу, **Well done!** — молодец (и «хорошо прожаренный» про стейк), **easier said than done** — легче сказать, чем сделать.",
+      "examples": [
+        {
+          "ru": "Теперь понятно, это логично.",
+          "en": "That makes sense."
+        },
+        {
+          "ru": "Проследи, чтобы ключи были с тобой.",
+          "en": "Make sure you take your keys."
+        },
+        {
+          "ru": "Час в день реально многое меняет.",
+          "en": "One hour a day makes a big difference."
+        },
+        {
+          "ru": "Чашка кофе поможет.",
+          "en": "A cup of coffee will do the trick."
+        },
+        {
+          "ru": "Прогулка пойдёт тебе на пользу.",
+          "en": "A walk will do you good."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в make sense нет артикля?",
+        "Чем make sure отличается от простого «проверить»?",
+        "Как понять, что Well done про стейк, а не про похвалу?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -434,6 +745,72 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 155,
       "orderInCard": 3
+    },
+    {
+      "cardId": 421,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 195,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 421,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 66,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 421,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 169,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 422,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 59,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 422,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 45,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 422,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 56,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 422,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 170,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 423,
+      "exerciseType": "MATCHING",
+      "exerciseId": 64,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 423,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 80,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 423,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 78,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 423,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 156,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [],
@@ -485,6 +862,38 @@
       "transcription": "[ˈhaʊswɜːk]",
       "microtopicId": 158,
       "categoryId": "collocations"
+    },
+    {
+      "id": 680,
+      "word": "difference",
+      "translation": "разница, отличие",
+      "transcription": "[ˈdɪfrəns]",
+      "microtopicId": 159,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 681,
+      "word": "sense",
+      "translation": "смысл",
+      "transcription": "[sens]",
+      "microtopicId": 159,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 682,
+      "word": "trick",
+      "translation": "трюк, приём",
+      "transcription": "[trɪk]",
+      "microtopicId": 159,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 683,
+      "word": "couple",
+      "translation": "пара",
+      "transcription": "[ˈkʌpl]",
+      "microtopicId": 159,
+      "categoryId": "collocations"
     }
   ],
   "table_fill_exercises": [],
@@ -519,6 +928,37 @@
         }
       ],
       "explanation": "торт, копия и шум — это то, чего до действия не было, поэтому с ними идёт make: make a cake, make a copy, make noise. Домашнее задание и покупки уже существуют как обязанность и как список — с ними идёт do: do homework, do the shopping."
+    },
+    {
+      "id": 169,
+      "statements": [
+        {
+          "en": "This film makes me sad.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The rain made him to feel cold.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Three and four make seven.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Ben will make a good doctor.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The music makes me happily.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "после make объект и голый глагол без to, поэтому made him feel cold. И состояние описывает прилагательное, а не наречие: makes me happy, не happily. Примеры со счётом и с будущей ролью верны: make здесь значит «получаться»."
     }
   ],
   "word_arrangement_exercises": [
@@ -624,6 +1064,69 @@
         }
       ],
       "explanation": "после anything всегда идёт do: это слово ничего конкретного не называет, а make обязан назвать, что именно появилось. Made не подходит и по форме — после didn't глагол остаётся в первой форме."
+    },
+    {
+      "id": 195,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Эта новость сделала её счастливой.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The news made her happily.",
+          "isCorrect": false
+        },
+        {
+          "text": "The news did her happy.",
+          "isCorrect": false
+        },
+        {
+          "text": "The news made her happy.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после make идёт объект и прилагательное: made her happy. Happily — наречие, оно описывало бы способ действия, а не её состояние; did на это место не встаёт вообще."
+    },
+    {
+      "id": 59,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Sorry, I can't make it on Friday.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Извини, я не успею доделать это к пятнице.",
+          "isCorrect": false
+        },
+        {
+          "text": "Извини, в пятницу я не смогу прийти.",
+          "isCorrect": true
+        },
+        {
+          "text": "Извини, у меня не получится это сделать в пятницу.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "can't make it — это отказ прийти или приехать, а не признание, что задача не по силам. Про задачу было бы I can't do it."
+    },
+    {
+      "id": 170,
+      "choiceType": "CHOICE",
+      "prompt": "Hurry up, or we won't ___ it to the station.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "make",
+          "isCorrect": true
+        },
+        {
+          "text": "do",
+          "isCorrect": false
+        },
+        {
+          "text": "made",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "добраться куда-то вовремя — make it to somewhere. Do it значило бы «сделать это», а made не встаёт после won't: там всегда первая форма."
     }
   ],
   "text_input_exercises": [
@@ -656,9 +1159,68 @@
         "friends",
         "mistake"
       ]
+    },
+    {
+      "id": 80,
+      "items": [
+        {
+          "sentence": "Read it again — this sentence doesn't make ___.",
+          "contextRu": "",
+          "answer": "sense",
+          "alternatives": []
+        },
+        {
+          "sentence": "Make ___ you lock the door before you leave.",
+          "contextRu": "",
+          "answer": "sure",
+          "alternatives": []
+        },
+        {
+          "sentence": "My head hurts, but this pill should do the ___.",
+          "contextRu": "",
+          "answer": "trick",
+          "alternatives": []
+        }
+      ],
+      "explanation": "make sense — про логику текста, make sure — про проверку перед выходом, do the trick — про средство, которое помогло. Каждое сочетание держится за свой глагол и меняться местами они не могут.",
+      "taskDescription": "Впиши подходящее по смыслу слово из банка.",
+      "wordBank": [
+        "trick",
+        "sense",
+        "sure"
+      ]
     }
   ],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 56,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Are you coming to Lily's party on Saturday?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Sorry, I don't make it.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sorry, I can't do it up.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sorry, I can't make it.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вежливый отказ от встречи — can't make it. Don't make it собрано не по форме, а can't do it up вообще о другом: там глагол do с предлогом, и к приглашению это отношения не имеет."
+    }
+  ],
   "matching_exercises": [
     {
       "id": 63,
@@ -682,6 +1244,29 @@
         }
       ],
       "explanation": "глажка и покупки — дела, которые человек выполняет, они существуют и без него, поэтому do. А копия и обещание появляются в тот момент, когда их делают, — поэтому make."
+    },
+    {
+      "id": 64,
+      "taskDescription": "соедини английскую формулу с её смыслом.",
+      "pairs": [
+        {
+          "left": "make sense",
+          "right": "иметь смысл"
+        },
+        {
+          "left": "make sure",
+          "right": "убедиться"
+        },
+        {
+          "left": "do the trick",
+          "right": "сработать"
+        },
+        {
+          "left": "make up your mind",
+          "right": "решиться"
+        }
+      ],
+      "explanation": "все четыре сочетания значат целое, а не сумму слов: sense — про логику, sure — про проверку, the trick — про то, что помогло, а mind — про принятое решение."
     }
   ],
   "error_correction_exercises": [
@@ -703,10 +1288,73 @@
         }
       ],
       "explanation": "задание Соне уже задали, ей остаётся его выполнить — значит do, а не make. Homework при этом остаётся без -s: это неисчисляемое слово, мы разбирали такие в «Основах»."
+    },
+    {
+      "id": 156,
+      "wrongSentence": "Your plan doesn't make a sense.",
+      "options": [
+        {
+          "text": "Your plan doesn't do sense.",
+          "isCorrect": false
+        },
+        {
+          "text": "Your plan doesn't make sense.",
+          "isCorrect": true
+        },
+        {
+          "text": "Your plan doesn't makes sense.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в формуле make sense артикля нет вообще, поэтому a лишнее. Do sense языку неизвестно, а после doesn't глагол остаётся в первой форме — makes там стоять не может."
     }
   ],
-  "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 45,
+      "construction": "This one will do.",
+      "options": [
+        {
+          "text": "Этот сделает всё сам.",
+          "isCorrect": false
+        },
+        {
+          "text": "Этот придётся доделать.",
+          "isCorrect": false
+        },
+        {
+          "text": "Этот подойдёт.",
+          "isCorrect": true
+        },
+        {
+          "text": "Этот уже готов.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в этой фразе do значит «годиться, подходить», поэтому that'll do — «сойдёт, достаточно». Про решение сказали бы let's do that, а про готовое дело — it's done."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 66,
+      "taskDescription": "перепиши каждое предложение через make, начав с причины.",
+      "items": [
+        {
+          "original": "I'm nervous because of this exam.",
+          "transformed": "This exam makes me nervous."
+        },
+        {
+          "original": "She's tired because of the long trip.",
+          "transformed": "The long trip makes her tired."
+        },
+        {
+          "original": "We're hungry because of the smell.",
+          "transformed": "The smell makes us hungry."
+        }
+      ],
+      "explanation": "причина становится подлежащим, дальше идёт make, потом человек в объектной форме (me, her, us) и прилагательное. Артикль и форму глагола менять не нужно: makes стоит по третьему лицу подлежащего."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 91,
@@ -755,6 +1403,29 @@
         }
       ],
       "explanation": "глажка, работа и покупки уже существуют, человек только выполняет их — это do the ironing, do my job, do the shopping. А обещание появляется в момент, когда его дают, поэтому make a promise."
+    },
+    {
+      "id": 78,
+      "groupDescription": "Три слова собираются с глаголом make, а одно — нет",
+      "items": [
+        {
+          "text": "sense",
+          "isOdd": false
+        },
+        {
+          "text": "the trick",
+          "isOdd": true
+        },
+        {
+          "text": "sure",
+          "isOdd": false
+        },
+        {
+          "text": "a difference",
+          "isOdd": false
+        }
+      ],
+      "explanation": "make sense, make sure и make a difference — формулы с make. А «сработало, помогло» — это do the trick, единственное сочетание в списке со вторым глаголом."
     }
   ]
 }
