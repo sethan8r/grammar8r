@@ -32,6 +32,20 @@
       "title": "make a decision или decide · Почему англичанин говорит двумя словами",
       "order": 3,
       "searchKeywords": "make a decision или decide, зачем два слова вместо глагола, make up значения, do without что значит, глагол плюс существительное"
+    },
+    {
+      "id": 161,
+      "topicId": 25,
+      "title": "do a mistake или make · Где рука промахивается",
+      "order": 4,
+      "searchKeywords": "do a mistake или make, make homework ошибка, сделать фото по-английски, нельзя do a decision, британский и американский вариант"
+    },
+    {
+      "id": 162,
+      "topicId": 25,
+      "title": "Live Practice · Make vs Do вживую с ИИ",
+      "order": 5,
+      "searchKeywords": "потренировать выбор глагола, живая практика с ии, проверить себя на сочетаниях, сказать по-английски делать"
     }
   ],
   "grammar_cards": [
@@ -969,6 +983,346 @@
         "Чем make out отличается от understand?",
         "Можно ли сказать I'm done with it про работу, а не про ссору?"
       ]
+    },
+    {
+      "id": 426,
+      "microtopicId": 161,
+      "title": "Топ промахов русскоязычного",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор ловушки попадались нам по одной, в конце карточек. Теперь соберём их в одном месте и разберём не по принципу «так нельзя», а по принципу «вот откуда мозг это берёт». Промахов ровно четыре породы, и все они растут из русского."
+        },
+        {
+          "type": "heading",
+          "text": "Порода первая: русский глагол подсказывает не тот английский"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая частая. В русской фразе стоит не «делать», а свой глагол — и мы переводим именно его, хотя английский на этом месте держит одно слово:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**do a mistake** ✗ → **make a mistake** ✓ — «совершить» просит глагол действия, а ошибка появляется в работе, её производят.",
+            "**do a decision** ✗ → **make a decision** ✓ — «принять» тянет за собой `take`, и рука пишет то `take`, то `do`.",
+            "**make a favour** ✗ → **do a favour** ✓ — «оказать услугу» звучит как «сделать», но услуга — это работа, которую выполняют для человека, ничего нового при этом не появляется.",
+            "**make damage** ✗ → **do damage** ✓ — «нанести ущерб»: ущерб наносят тому, что уже есть, поэтому `do`."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Can you make me a favour?** ✗ → **Can you do me a favour?** ✓ — фраза бытовая, звучит по десять раз на дню, и промахнуться в ней особенно обидно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Порода вторая: «делать» там, где по-русски «заниматься»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**make homework** ✗ → **do homework** ✓ — задание вам уже задали, производить нечего, его выполняют.",
+            "**make sport** ✗ → **do sport** ✓ — спортом занимаются.",
+            "**make the washing** ✗ → **do the washing** ✓ — бельё уже лежит в корзине."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь работает подсказка из первой микротемы темы: где по-русски получается «занимаюсь» — там по-английски `do`. Проверка бесплатная и почти никогда не подводит."
+        },
+        {
+          "type": "heading",
+          "text": "Порода третья: лишний артикль внутри застывшей формулы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Формулы мы договорились запоминать целиком — и вот почему это важно: одна лишняя буква ломает всю фразу."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**make a sense** ✗ → **make sense** ✓",
+            "**make a progress** ✗ → **make progress** ✓",
+            "**do a homework** ✗ → **do homework** ✓ — `homework` вообще неисчисляемое, мы разбирали такие слова в «Основах»: ни артикля, ни окончания `-s` у него не бывает."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский подсказывает артикль, потому что у нас в этих фразах стоит существительное с определителем: «в этом нет **никакого** смысла», «сделал **домашнее** задание». Английская формула определителя не терпит."
+        },
+        {
+          "type": "heading",
+          "text": "Порода четвёртая: экзамен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельная строчка, потому что здесь путаются все. По-русски «сдавать» и «сдать» — почти одно слово, а в английском это три разных глагола:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**do an exam** / **take an exam** — сдавать, проходить экзамен (оба варианта нормальные).",
+            "**pass an exam** — сдать успешно, пройти порог.",
+            "**make an exam** ✗ — так не говорят вообще; экзамен «делает» разве что преподаватель, который его составляет."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Заметьте, что все четыре породы растут из одного корня. Мы переводим **русский глагол** — «совершить», «принять», «оказать», «сдавать» — вместо того чтобы посмотреть на **результат**. Ось темы отвечает на этот вопрос за секунду: появилось нечто новое или вы повозились с готовым. Если каждый раз задавать себе именно её, три породы из четырёх отваливаются сами."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Промахи русскоязычного растут из четырёх корней. Русский глагол подсказывает не тот английский: **do a mistake** ✗ → **make a mistake** ✓, **make a favour** ✗ → **do a favour** ✓, **make damage** ✗ → **do damage** ✓. «Делать» лезет туда, где по-русски «заниматься»: **make homework** ✗ → **do homework** ✓, **make sport** ✗ → **do sport** ✓. Внутри формулы появляется лишний артикль: **make a sense** ✗ → **make sense** ✓. И отдельная путаница с экзаменом: **do an exam** / **take an exam** — сдавать, **pass an exam** — сдать успешно, **make an exam** ✗ не говорят.",
+      "examples": [
+        {
+          "ru": "Можешь оказать мне услугу?",
+          "en": "Can you do me a favour?"
+        },
+        {
+          "ru": "Он совершил серьёзную ошибку.",
+          "en": "He made a serious mistake."
+        },
+        {
+          "ru": "Буря нанесла большой ущерб городу.",
+          "en": "The storm did a lot of damage to the town."
+        },
+        {
+          "ru": "Я сдаю экзамен в пятницу.",
+          "en": "I'm taking an exam on Friday."
+        },
+        {
+          "ru": "В этом нет никакого смысла.",
+          "en": "This doesn't make sense."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему do a favour, если услугу «оказывают», а не «делают»?",
+        "Чем take an exam отличается от pass an exam?",
+        "Как запомнить, где в формуле не нужен артикль?"
+      ]
+    },
+    {
+      "id": 427,
+      "microtopicId": 161,
+      "title": "Не всё «делать» — это make или do",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последняя ловушка темы, и она хитрее прочих: человек уже привык выбирать между двумя глаголами — и выбирает даже там, где оба неправильные. Часть русских «сделать» уходит вообще мимо `make` и `do`. После разбора четырёх «пустых» глаголов это уже не сюрприз, а система."
+        },
+        {
+          "type": "heading",
+          "text": "Что забирает take"
+        },
+        {
+          "type": "paragraph",
+          "text": "`take` берёт короткое действие, которое человек делает для себя:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**take a photo** — сделать фото",
+            "**take a break** — сделать перерыв",
+            "**take a shower** — принять душ",
+            "**take a walk** — прогуляться",
+            "**take a taxi** — взять такси"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что забирает give"
+        },
+        {
+          "type": "paragraph",
+          "text": "`give` берёт то, что отдают другому — слушателю, собеседнику, залу:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**give a speech** — выступить с докладом",
+            "**give an answer** — дать ответ",
+            "**give somebody a lift** — подвезти"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И ещё одна ходовая пара за пределами четвёрки: **place an order** — сделать заказ (в ресторане, в магазине, на сайте)."
+        },
+        {
+          "type": "heading",
+          "text": "Русский раздаёт эти дела точно так же"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание, что по-русски мы тоже не говорим «делать» во всех этих случаях. Мы **принимаем** душ, **даём** концерт, **наносим** визит, **берём** такси, **делаем** перерыв. Русский раздал дела разным глаголам ничуть не меньше английского — просто к своим мы привыкли с детства и не замечаем, что выбор вообще происходит. Английский заставляет заметить."
+        },
+        {
+          "type": "heading",
+          "text": "Британцы и американцы говорят по-разному"
+        },
+        {
+          "type": "paragraph",
+          "text": "Единственная развилка такого рода во всей теме, и о ней стоит знать заранее, чтобы не пугаться разнобоя в сериалах:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**do the washing-up** (британский) ↔ **wash the dishes** (американский) — мыть посуду.",
+            "**have a shower** (британский) ↔ **take a shower** (американский) — принять душ.",
+            "**take a decision** (британский, и то реже) ↔ **make a decision** (везде) — принять решение."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе колонки правильные. Говорить можно как удобнее, но узнавать надо обе: сериал вы смотрите американский, а коллега может оказаться из Дублина."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Формат карточки — узнавание, а не владение. Задача не выучить наизусть, кто что забирает, а перестать автоматически тянуться к `make` и `do`, услышав русское «сделать». Связки с `have` — **have a look**, **have a rest**, **have breakfast** — разберём целиком в теме «Дополнительные конструкции», там же вернёмся и к `take`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Часть русских «сделать» не достаётся ни `make`, ни `do`. Короткое действие для себя забирает `take`: **take a photo**, **take a break**, **take a shower**, **take a walk**. То, что отдают другому, забирает `give`: **give a speech**, **give an answer**, **give somebody a lift**. Отдельно стоит **place an order** — сделать заказ. Русский раздаёт эти дела так же («принять душ», «дать концерт», «взять такси»), просто мы к своим глаголам привыкли. И одна развилка: **do the washing-up** (бр.) ↔ **wash the dishes** (ам.), **have a shower** (бр.) ↔ **take a shower** (ам.).",
+      "examples": [
+        {
+          "ru": "Сфотографируй меня, пожалуйста.",
+          "en": "Take a photo of me, please."
+        },
+        {
+          "ru": "Давай сделаем перерыв на десять минут.",
+          "en": "Let's take a break for ten minutes."
+        },
+        {
+          "ru": "Он выступил с докладом на конференции.",
+          "en": "He gave a speech at the conference."
+        },
+        {
+          "ru": "Мы сделали заказ онлайн.",
+          "en": "We placed an order online."
+        },
+        {
+          "ru": "Ты не мог бы помыть посуду?",
+          "en": "Could you do the washing-up?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему фото «берут», а не «делают»?",
+        "Британский или американский вариант выбрать, чтобы не ошибиться?",
+        "Чем do the washing отличается от do the washing-up?"
+      ]
+    },
+    {
+      "id": 428,
+      "microtopicId": 162,
+      "title": "Живая практика: make или do",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена целиком. Ось у неё одна, и карточками её больше закреплять нечего: в жизни вам не выдают русскую фразу с подпиской «здесь нужен make». Вы сами решаете это за полсекунды, пока говорите. Такое решение тренируется только на живом материале — поэтому финал темы отдаём ИИ."
+        },
+        {
+          "type": "heading",
+          "text": "Компас на один экран"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три вопроса, в таком порядке. Дальше первого подходящего не идём:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "После действия появилось нечто, чего раньше не было — предмет, решение, ошибка, шум, беспорядок, деньги? → `make`.",
+            "Вы повозились с тем, что уже есть, — работа, обязанность, рутина, услуга? → `do`.",
+            "Слово после глагола неопределённое — **something**, **anything**, **nothing**, **everything**? → `do`, и думать тут вообще не о чем."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что будет в заданиях"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ровно то, что решается компасом, и ничего больше:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "сторона `make`: **make a decision**, **make a mistake**, **make a promise**, **make a plan**, **make a copy**, **make a cake**, **make tea**, **make noise**, **make a mess**, **make an effort**, **make friends**, **make progress**, **make money**",
+            "сторона `do`: **do homework**, **do the dishes**, **do the laundry**, **do the shopping**, **do housework**, **do the cleaning**, **do the ironing**, **do your job**, **do business**, **do sport**, **do exercise**, **do research**, **do somebody a favour**, **do an exam**, **do damage**, **do something / anything / nothing**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что сюда НЕ попадёт"
+        },
+        {
+          "type": "paragraph",
+          "text": "Застывших формул — **make sense**, **make sure**, **make a difference**, **make up your mind**, **make it**, **that'll do**, **do the trick**, **do somebody good**, **Well done!** — в заданиях не будет. Фразовых **make up**, **make out**, **do up**, **do without** тоже. Мы их разобрали, но тренировать их выбором бессмысленно: они не выбираются по правилу, они запоминаются целиком — а собирать их в один блок и учить наизусть будем в теме «Устойчивые выражения и идиомы». Здесь тренируем одно-единственное умение: **выбрать между двумя глаголами в их обычных значениях**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Не будет и партнёров других глаголов — **take a photo**, **give a speech**, **have a shower**: там выбора между `make` и `do` вообще не стоит."
+        },
+        {
+          "type": "heading",
+          "text": "ИИ — это тренажёр, а не экзамен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Промахнуться здесь нормально и даже полезно. На каждую ошибку ИИ показывает верный вариант и называет сторону оси — появилось новое или вы возились с готовым. Разбор своей же ошибки на своей же фразе укладывается в голове лучше, чем перечитанная карточка."
+        },
+        {
+          "type": "heading",
+          "text": "Как это устроено"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».",
+            "**Слова — ваши.** В первом задании подтягивается порция слов, которые вы уже знаете: трудность должна быть в выборе глагола, а не в незнакомой лексике.",
+            "**Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие."
+          ]
+        }
+      ],
+      "theorySummary": "Компас темы: появилось нечто, чего не было (предмет, решение, ошибка, шум, беспорядок, деньги) → `make`; повозились с тем, что уже есть (работа, обязанность, рутина, услуга) → `do`; слово неопределённое (**something**, **anything**, **nothing**) → `do` без размышлений. В заданиях этой карточки тренируется только этот выбор. Застывшие формулы (**make sense**, **make it**, **do the trick**) и фразовые (**make up**, **do without**) сюда не попадают: они не выбираются по правилу, а запоминаются целиком. ---",
+      "examples": [],
+      "clarificationOptions": [
+        "Что делать, если я не понимаю, почему ИИ засчитал ошибку?",
+        "Обязательно ли писать длинные предложения в ответах?",
+        "Как понять, что мне пора возвращаться к карточкам темы?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1151,6 +1505,54 @@
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 57,
       "orderInCard": 3
+    },
+    {
+      "cardId": 426,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 157,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 426,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 171,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 426,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 92,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 426,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 80,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 427,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 197,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 427,
+      "exerciseType": "MATCHING",
+      "exerciseId": 65,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 427,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 171,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 427,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 61,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1159,6 +1561,30 @@
       "cardId": 424,
       "title": "Сказать длиннее, сказать короче",
       "userInstruction": "Скажите то же самое так, как просит задание — длиннее или короче.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "make_vs_do_card428_ex1",
+      "cardId": 428,
+      "title": "Скажи по-английски",
+      "userInstruction": "ИИ даст одну русскую ситуацию. Скажите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "make_vs_do_card428_ex2",
+      "cardId": 428,
+      "title": "make или do",
+      "userInstruction": "Вставьте в каждое предложение подходящий глагол в нужной форме.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "make_vs_do_card428_ex3",
+      "cardId": 428,
+      "title": "Найди и исправь",
+      "userInstruction": "ИИ пришлёт три предложения. Найдите сломанное, перепишите его правильно и объясните своими словами, что было не так.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -1267,6 +1693,30 @@
       "transcription": "[ˈkɒpi]",
       "microtopicId": 160,
       "categoryId": "collocations"
+    },
+    {
+      "id": 687,
+      "word": "favour",
+      "translation": "услуга, одолжение",
+      "transcription": "[ˈfeɪvə]",
+      "microtopicId": 161,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 688,
+      "word": "exam",
+      "translation": "экзамен",
+      "transcription": "[ɪɡˈzæm]",
+      "microtopicId": 161,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 689,
+      "word": "damage",
+      "translation": "ущерб, повреждение",
+      "transcription": "[ˈdæmɪdʒ]",
+      "microtopicId": 161,
+      "categoryId": "collocations"
     }
   ],
   "table_fill_exercises": [],
@@ -1363,6 +1813,37 @@
         }
       ],
       "explanation": "выбор, решение и копия появляются в результате действия — с ними идёт make, поэтому do a decision сломано. А уборка и работа — это то, что выполняют: do the cleaning, do a proper job."
+    },
+    {
+      "id": 171,
+      "statements": [
+        {
+          "en": "Let's take a break after this task.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She made a speech at the wedding.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Mark takes a shower every morning.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I want to make a photo of this bridge.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They placed an order yesterday.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "доклад отдают слушателям — give a speech, а фото берут — take a photo, поэтому второе и четвёртое предложения сломаны. Перерыв, душ и заказ стоят со своими глаголами верно."
     }
   ],
   "word_arrangement_exercises": [
@@ -1573,6 +2054,69 @@
         }
       ],
       "explanation": "do without значит «обойтись без», и предложение утвердительное — can, а не can't. Третий вариант рассказывает о поездках, а тут речь о том, что машина не нужна вообще."
+    },
+    {
+      "id": 171,
+      "choiceType": "CHOICE",
+      "prompt": "Could you ___ me a favour and close the window?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "make",
+          "isCorrect": false
+        },
+        {
+          "text": "do",
+          "isCorrect": true
+        },
+        {
+          "text": "doing",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "услугу выполняют для человека, ничего нового при этом не появляется — do somebody a favour. После could глагол стоит в первой форме, поэтому doing не подходит."
+    },
+    {
+      "id": 197,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Сфотографируй эту улицу.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Make a photo of this street.",
+          "isCorrect": false
+        },
+        {
+          "text": "Do a photo of this street.",
+          "isCorrect": false
+        },
+        {
+          "text": "Take a photo of this street.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "фотографию не производят и не выполняют — её «берут»: take a photo. Make a photo и do a photo собраны по русскому «сделать фото», но по-английски так не говорят."
+    },
+    {
+      "id": 61,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Ben did the washing-up after lunch.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Бен помыл посуду после обеда.",
+          "isCorrect": true
+        },
+        {
+          "text": "Бен постирал вещи после обеда.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бен убрался на кухне после обеда.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "do the washing-up — британский способ сказать «мыть посуду», американец сказал бы wash the dishes. Стирка — это do the washing, без up, а уборка — do the cleaning."
     }
   ],
   "text_input_exercises": [
@@ -1766,6 +2310,29 @@
         }
       ],
       "explanation": "все четыре сочетания значат целое, а не сумму слов: sense — про логику, sure — про проверку, the trick — про то, что помогло, а mind — про принятое решение."
+    },
+    {
+      "id": 65,
+      "taskDescription": "соедини русское дело с английским сочетанием.",
+      "pairs": [
+        {
+          "left": "душ",
+          "right": "have a shower"
+        },
+        {
+          "left": "фото",
+          "right": "take a photo"
+        },
+        {
+          "left": "доклад",
+          "right": "give a speech"
+        },
+        {
+          "left": "заказ",
+          "right": "place an order"
+        }
+      ],
+      "explanation": "душ принимают, фото берут, доклад отдают слушателям, а заказ размещают. Ни одно из этих дел не досталось make или do — их разобрали другие глаголы."
     }
   ],
   "error_correction_exercises": [
@@ -1806,6 +2373,25 @@
         }
       ],
       "explanation": "в формуле make sense артикля нет вообще, поэтому a лишнее. Do sense языку неизвестно, а после doesn't глагол остаётся в первой форме — makes там стоять не может."
+    },
+    {
+      "id": 157,
+      "wrongSentence": "Nick did a big mistake at work.",
+      "options": [
+        {
+          "text": "Nick made a big mistake at work.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nick maked a big mistake at work.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nick did a big mistakes at work.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "ошибка появляется в работе, поэтому она идёт с make. Форма прошедшего у make неправильная — made, а не maked; окончание -s тут тоже лишнее, ошибка одна."
     }
   ],
   "construction_meaning_exercises": [
@@ -1919,6 +2505,29 @@
         }
       ],
       "explanation": "слева после действия в мире стало на одну вещь больше: пирога, песни и супа раньше не существовало. Справа ничего нового не появилось — машина, рубашки и цветы были и остались, изменилось только их состояние."
+    },
+    {
+      "id": 92,
+      "taskDescription": "распредели слова по глаголу, с которым они собираются.",
+      "categories": [
+        {
+          "title": "make",
+          "items": [
+            "an effort",
+            "a promise",
+            "a profit"
+          ]
+        },
+        {
+          "title": "do",
+          "items": [
+            "the ironing",
+            "research",
+            "an exam"
+          ]
+        }
+      ],
+      "explanation": "усилие, обещание и прибыль появляются в результате действия — это территория make. Глажка, исследование и экзамен — работа, которую выполняют, поэтому do."
     }
   ],
   "find_the_odd_exercises": [
@@ -1990,6 +2599,29 @@
         }
       ],
       "explanation": "застегнуть, обойтись без и переделать заново собираются с do. А «разобрать, различить» — это make out, единственный в списке с другим глаголом."
+    },
+    {
+      "id": 80,
+      "groupDescription": "Три слова собираются с глаголом do, а одно — нет",
+      "items": [
+        {
+          "text": "an exam",
+          "isOdd": false
+        },
+        {
+          "text": "a favour",
+          "isOdd": false
+        },
+        {
+          "text": "an effort",
+          "isOdd": true
+        },
+        {
+          "text": "damage",
+          "isOdd": false
+        }
+      ],
+      "explanation": "экзамен сдают, услугу оказывают, ущерб наносят уже существующему — всё это do. А усилие человек производит сам, поэтому make an effort."
     }
   ]
 }
