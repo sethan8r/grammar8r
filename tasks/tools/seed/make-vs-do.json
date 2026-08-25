@@ -1,0 +1,760 @@
+{
+  "grammar_topics": [
+    {
+      "id": 25,
+      "title": "Два английских «делать»",
+      "order": 13,
+      "isPretopic": false,
+      "description": "Почему русское «делать» распадается на два английских глагола: что решает выбор между make и do, где рука промахивается и какие сочетания придётся знать наизусть",
+      "categoryId": null,
+      "searchKeywords": "make или do, два делать в английском, глагол делать по-английски, устойчивые сочетания с делать, выбрать между make и do"
+    }
+  ],
+  "grammar_topic_categories": [],
+  "grammar_microtopics": [
+    {
+      "id": 158,
+      "topicId": 25,
+      "title": "Make or Do · Два «делать» и одна ось",
+      "order": 1,
+      "searchKeywords": "когда make а когда do, do или make the dishes, что остаётся после действия, зачем два глагола вместо одного, принцип выбора"
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 418,
+      "microtopicId": 158,
+      "title": "Почему одного «делать» английскому мало",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русское «делать» — универсальная затычка. Делать торт, делать уроки, делать ошибку, делать деньги, делать вид, делать зарядку, делать выводы. Один глагол закрывает всё, и выбирать нам никогда не приходится: подставил «делать» — и фраза собралась. Английский в этих же ситуациях каждый раз выбирает между двумя глаголами: `make` и `do`. И выбор не свободный — сказать «как получится» нельзя, сочетания в языке застыли."
+        },
+        {
+          "type": "heading",
+          "text": "Правило есть, и оно не про зубрёжку"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обычно на этом месте учебник говорит: «строгого правила нет, учите устойчивые сочетания наизусть». Это неправда наполовину, и вторая половина как раз самая полезная. Правило есть, оно покрывает большую часть случаев, и звучит одной фразой: **смотрите не на то, что вы делаете, а на то, что останется, когда вы закончите**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Если после действия **появилось нечто, чего раньше не было** — это территория `make`.",
+            "Если вы **повозились с тем, что уже есть**, и ничего нового не возникло — это территория `do`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Меньшинство сочетаний под это правило не подходит — их мы честно назовём формулами и запомним целиком, а не будем натягивать на логику. Но сначала — сама логика."
+        },
+        {
+          "type": "heading",
+          "text": "Одна сцена, оба глагола"
+        },
+        {
+          "type": "paragraph",
+          "text": "Проще всего почувствовать разницу на обычном вечере на кухне. Сначала человек готовит ужин, потом моет посуду — два дела подряд, и по-русски оба спокойно называются «делами по дому». Английский же ставит на эти два места разные глаголы, и вот почему."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She made dinner.** — ужина не было, теперь он есть. Из продуктов появилось блюдо. Это `make`.",
+            "**She did the dishes.** — тарелки были и раньше, и остались те же самые. Новых тарелок не появилось, человек просто привёл в порядок то, что уже стояло в раковине. Это `do`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот и вся ось темы. Одна и та же кухня, один и тот же вечер, а глаголы разные — потому что в первом случае на выходе появился новый предмет, а во втором изменилось только состояние старого."
+        },
+        {
+          "type": "heading",
+          "text": "Форму учить не придётся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Хорошая новость: грамматики в этой теме нет вообще. Обе формы мы знаем с колоды неправильных глаголов — **make – made – made** и **do – did – done**, никаких новых окончаний. И `do` как помощника в вопросах и отрицаниях мы разбирали ещё в «Служебных глаголах» — здесь он выступает в другой роли, обычным смысловым глаголом со своим значением."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это первая тема курса, где правило отвечает не на вопрос «как собрать форму», а на вопрос «какое слово выбрать». Поэтому проверять себя тут придётся не глазами, а головой: увидели «делать» в русской фразе — остановитесь на секунду и спросите, что останется после действия."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Русское «делать» покрывает обе английские работы сразу, поэтому в английском выбор приходится делать заново каждый раз. Ключ один: что останется после действия. Появилось нечто, чего не было, — `make` (**She made dinner** — блюда не было, теперь есть). Повозились с тем, что уже есть, — `do` (**She did the dishes** — тарелки были и остались). Формы **make – made – made** и **do – did – done** уже знакомы: новой грамматики в теме нет, есть только выбор слова.",
+      "examples": [
+        {
+          "ru": "Она приготовила ужин.",
+          "en": "She made dinner."
+        },
+        {
+          "ru": "Она помыла посуду.",
+          "en": "She did the dishes."
+        },
+        {
+          "ru": "Я совершил ошибку.",
+          "en": "I made a mistake."
+        },
+        {
+          "ru": "Гриша сходил за покупками после работы.",
+          "en": "Grisha did the shopping after work."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя всегда говорить do, если это просто «делать»?",
+        "Как быстро понять, появилось что-то новое или нет?",
+        "Правда ли, что все сочетания надо просто зубрить?"
+      ]
+    },
+    {
+      "id": 419,
+      "microtopicId": 158,
+      "title": "Make: появилось то, чего не было",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Разберём половину `make` подробно — она отвечает за всё, что возникает в результате действия. Начнём с самого наглядного, а закончим тем местом, где русскоязычный промахивается чаще всего."
+        },
+        {
+          "type": "heading",
+          "text": "Сначала то, что можно потрогать"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь `make` понятен без объяснений: на входе материал, на выходе новый предмет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Lena makes a cake every Sunday.** — из муки и яиц появился торт.",
+            "**Can you make a copy of this page?** — копии не было, теперь будет.",
+            "**They make furniture in a small workshop.** — из досок получается мебель.",
+            "**The company made a film about the city.** — фильма не существовало, его сняли."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка работает буквально: до действия предмета не было, после — есть."
+        },
+        {
+          "type": "heading",
+          "text": "Деньги в английском производят"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский говорит «зарабатывать», английский — «производить»: **He makes good money.** — самый обычный способ сказать про заработок. Слово `to earn` тоже существует и ошибкой не является, но в живой речи **make money** звучит чаще, особенно в разговоре о доходе вообще, а не о конкретной зарплате."
+        },
+        {
+          "type": "heading",
+          "text": "Главное: make создаёт и то, что нельзя потрогать"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот здесь начинается настоящая работа. `make` производит не только предметы, но и вещи, которых в руках не подержишь: решения, ошибки, обещания, шум, беспорядок. Логика та же самая — решения не было, теперь оно есть."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We made a decision last night.** — приняли решение.",
+            "**Sorry, I made a mistake.** — совершил ошибку.",
+            "**He made a promise and forgot about it.** — дал обещание.",
+            "**The neighbours made a lot of noise.** — произвели шум.",
+            "**The kids made a mess in the living room.** — устроили беспорядок.",
+            "**She made an effort and finished the report.** — приложила усилие.",
+            "**Lucy makes friends very quickly.** — заводит друзей.",
+            "**We made good progress this month.** — добились прогресса."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вот откуда берётся ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на русские глаголы в этом списке: решение **принимают**, ошибку **совершают**, обещание **дают**, шум **производят**, беспорядок **устраивают**, усилие **прикладывают**, друзей **заводят**. Ни в одном из них нет слова «делать» — и в этом вся ловушка. Мозг честно ищет английский перевод для «принять», «дать», «совершить», находит `to take`, `to give`, `to do` — и лепит их туда, где английский обходится одним `make`. Отсюда и **I did a mistake** ✗ вместо **I made a mistake** ✓, и **give a decision** ✗ вместо **make a decision** ✓."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому проверять себя надо не по русскому глаголу, а по результату. «Принять решение» — решения не было, теперь оно есть? Есть. Значит `make`, каким бы глаголом это ни называлось по-русски."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самое частое из всего списка — **do a mistake** ✗ → **make a mistake** ✓. Русское «совершить» тянет за собой глагол действия, а английский смотрит на другое: ошибка — это то, что появилось в вашей работе, её там раньше не было."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это же значение мы уже встречали в теме «Passive (базовый)» — надпись **Made in Italy** на этикетке. Никакого «сделано» в смысле «повозились»: произведено, изготовлено, появилось на свет в Италии."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`make` ставим там, где после действия появилось нечто, чего раньше не было. Это работает и с предметами (**make a cake**, **make a copy**, **make furniture**), и с деньгами (**make money** — обычный способ сказать «зарабатывать»), и с тем, что нельзя потрогать: **make a decision**, **make a mistake**, **make a promise**, **make noise**, **make a mess**, **make an effort**, **make friends**, **make progress**. Русский под каждое из них даёт свой глагол — принять, совершить, дать, устроить, — и именно поэтому рука промахивается: проверять надо не русский глагол, а результат.",
+      "examples": [
+        {
+          "ru": "Мы приняли решение вчера вечером.",
+          "en": "We made a decision last night."
+        },
+        {
+          "ru": "Извини, я совершил ошибку.",
+          "en": "Sorry, I made a mistake."
+        },
+        {
+          "ru": "Дети устроили беспорядок в гостиной.",
+          "en": "The kids made a mess in the living room."
+        },
+        {
+          "ru": "Она приложила усилие и дописала отчёт.",
+          "en": "She made an effort and finished the report."
+        },
+        {
+          "ru": "Люси очень быстро заводит друзей.",
+          "en": "Lucy makes friends very quickly."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему make a mistake, а не do a mistake?",
+        "Чем make money отличается от earn money?",
+        "Как проверить себя, если сочетание совсем новое?"
+      ]
+    },
+    {
+      "id": 420,
+      "microtopicId": 158,
+      "title": "Do: возишься с тем, что уже есть",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая половина оси. Если `make` производит, то `do` обслуживает: человек занимается тем, что уже существует, и после его работы ничего нового в мире не появляется — меняется только состояние дел."
+        },
+        {
+          "type": "heading",
+          "text": "Работа, обязанности, рутина"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая большая группа. Домашние дела, учёба, служебные обязанности — всё, что называется «заниматься чем-то»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I do my homework after dinner.** — задание уже задано, вы его выполняете.",
+            "**Who does the dishes in your family?** — тарелки уже стоят в раковине.",
+            "**Sveta does the laundry on Sundays.** — бельё уже лежит в корзине.",
+            "**He does the shopping on his way home.** — список покупок уже составлен.",
+            "**My brother never does housework.** — домашние дела никуда не денутся, их просто надо переделать.",
+            "**She does her job well.** — работа уже есть, вопрос только в том, как её выполняют.",
+            "**They do business with a company from Lisbon.** — ведут дела.",
+            "**I do sport three times a week.** — занимаюсь спортом."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на русский: мы в этих же случаях говорим «заниматься» — заниматься спортом, заниматься уборкой, заниматься делами. Русское «заниматься» и английское `do` совпадают почти идеально, и это лучшая подсказка, какая только может быть."
+        },
+        {
+          "type": "heading",
+          "text": "Подарок: do + the + слово на -ing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельная закономерность, которая снимает сразу пачку сочетаний. Домашние дела в английском часто называются так: `do the` плюс слово на `-ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**do the washing** — стирка",
+            "**do the cleaning** — уборка",
+            "**do the ironing** — глажка",
+            "**do the cooking** — готовка"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И тут же тонкость, которая показывает, что ось работает даже внутри одной кухни: **I do the cooking in our family** — это про роль, «готовка на мне, я этим занимаюсь». А **I made dinner** — про конкретный ужин, который появился на столе сегодня. Первое — обязанность, второе — результат."
+        },
+        {
+          "type": "heading",
+          "text": "Железный ключ: неопределённое слово всегда тянет do"
+        },
+        {
+          "type": "paragraph",
+          "text": "Единственное место темы, где думать не надо вообще. Если после глагола стоит слово, которое ничего конкретного не называет — `something`, `anything`, `nothing`, `everything`, `a lot` — берём `do`, и никаких исключений тут нет:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I have nothing to do this evening.**",
+            "**Let's do something interesting.**",
+            "**He didn't do anything wrong.**",
+            "**She does everything herself.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика простая и красивая: `make` обязан назвать, **что именно** появилось — торт, решение, шум. А `something` как раз ничего не называет, оно нарочно неопределённое, поэтому места для `make` там не остаётся."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда же и знакомый вопрос **What do you do?**, который мы разбирали в Present Simple: спрашивают «чем вы занимаетесь», то есть о профессии. Теперь видно, почему там именно `do`: в вопросе стоит `what` — слово, которое ничего конкретного не называет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Make my homework** ✗ → **do my homework** ✓ и **make sport** ✗ → **do sport** ✓. Русское «делать уроки» толкает к `make`, но задание вам уже задали — производить его не нужно, нужно выполнить. Полный разбор таких промахов ждёт в микротеме «Где рука промахивается», здесь достаточно запомнить два самых частых."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`do` ставим там, где человек занимается тем, что уже существует: **do homework**, **do the dishes**, **do the laundry**, **do the shopping**, **do housework**, **do your job**, **do business**, **do sport**. Хорошая подсказка — русское «заниматься»: где по-русски «занимаюсь», там по-английски `do`. Домашние дела часто выглядят как `do the` плюс слово на `-ing`: **do the washing**, **do the cleaning**, **do the ironing**. И железное правило без исключений: если дальше стоит неопределённое слово (**something**, **anything**, **nothing**, **everything**), всегда `do` — ведь `make` обязан назвать, что именно появилось.",
+      "examples": [
+        {
+          "ru": "Кто у вас в семье моет посуду?",
+          "en": "Who does the dishes in your family?"
+        },
+        {
+          "ru": "Света стирает по воскресеньям.",
+          "en": "Sveta does the laundry on Sundays."
+        },
+        {
+          "ru": "Мой брат никогда не занимается домашними делами.",
+          "en": "My brother never does housework."
+        },
+        {
+          "ru": "Мне сегодня вечером нечем заняться.",
+          "en": "I have nothing to do this evening."
+        },
+        {
+          "ru": "Она всё делает сама.",
+          "en": "She does everything herself."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему do the dishes, если посуду я мою, а не делаю?",
+        "Что считается «неопределённым словом»?",
+        "Чем do the cooking отличается от make dinner?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 418,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 91,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 418,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 193,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 418,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 168,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 419,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 194,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 419,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 58,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 419,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 79,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 419,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 153,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 420,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 169,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 420,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 77,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 420,
+      "exerciseType": "MATCHING",
+      "exerciseId": 63,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 420,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 155,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "collocations",
+      "nameRus": "Связки",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "collocations",
+      "nameRus": "Слова из связок",
+      "groupId": "collocations",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 676,
+      "word": "decision",
+      "translation": "решение",
+      "transcription": "[dɪˈsɪʒn]",
+      "microtopicId": 158,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 677,
+      "word": "effort",
+      "translation": "усилие",
+      "transcription": "[ˈefət]",
+      "microtopicId": 158,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 678,
+      "word": "mess",
+      "translation": "беспорядок",
+      "transcription": "[mes]",
+      "microtopicId": 158,
+      "categoryId": "collocations"
+    },
+    {
+      "id": 679,
+      "word": "housework",
+      "translation": "домашние дела",
+      "transcription": "[ˈhaʊswɜːk]",
+      "microtopicId": 158,
+      "categoryId": "collocations"
+    }
+  ],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 168,
+      "statements": [
+        {
+          "en": "Emma is making a cake for her sister.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I have to make my homework tonight.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Nick did the shopping after work.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Can you do a copy of this letter?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They make a lot of noise every evening.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "торт, копия и шум — это то, чего до действия не было, поэтому с ними идёт make: make a cake, make a copy, make noise. Домашнее задание и покупки уже существуют как обязанность и как список — с ними идёт do: do homework, do the shopping."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 153,
+      "situationRu": "Ситуация: Джейк составил план на выходные.",
+      "correctSentence": "Jake made a plan for the weekend.",
+      "words": [
+        "Jake",
+        "made",
+        "a plan",
+        "for the weekend"
+      ],
+      "distractors": [
+        "did",
+        "does",
+        "done"
+      ],
+      "explanation": "плана до этого разговора не существовало, он появился в голове у Джейка — значит made. Did и done собраны по русскому «сделал план», но выполнять план можно только тогда, когда он уже есть."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 193,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Кейт заваривает чай.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Kate is doing tea.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kate is making tea.",
+          "isCorrect": true
+        },
+        {
+          "text": "Kate does the tea.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "чая в чашке не было, а после действия он есть — появился новый продукт, значит make. Doing tea и does the tea говорят, что человек возится с уже готовым чаем, и по-английски так не говорят вообще."
+    },
+    {
+      "id": 194,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Тебе придётся приложить усилие.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "You'll have to make an effort.",
+          "isCorrect": true
+        },
+        {
+          "text": "You'll have to do an effort.",
+          "isCorrect": false
+        },
+        {
+          "text": "You'll have to give an effort.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "усилия до этого момента не было, человек его производит — значит make an effort. Do an effort и give an effort собраны по русским глаголам «сделать» и «дать», а английский на это место ставит только make."
+    },
+    {
+      "id": 58,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Megan made a mess in the kitchen.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Меган убралась на кухне.",
+          "isCorrect": false
+        },
+        {
+          "text": "Меган приготовила ужин на кухне.",
+          "isCorrect": false
+        },
+        {
+          "text": "Меган устроила беспорядок на кухне.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "a mess — это беспорядок, и он появился в результате действия, поэтому стоит made. Про уборку было бы she cleaned the kitchen, а про ужин — she made dinner."
+    },
+    {
+      "id": 169,
+      "choiceType": "CHOICE",
+      "prompt": "We didn't ___ anything special at the weekend.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "make",
+          "isCorrect": false
+        },
+        {
+          "text": "do",
+          "isCorrect": true
+        },
+        {
+          "text": "made",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после anything всегда идёт do: это слово ничего конкретного не называет, а make обязан назвать, что именно появилось. Made не подходит и по форме — после didn't глагол остаётся в первой форме."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 79,
+      "items": [
+        {
+          "sentence": "Don't worry, everyone makes a ___ sometimes.",
+          "contextRu": "",
+          "answer": "mistake",
+          "alternatives": []
+        },
+        {
+          "sentence": "Jake is new here, but he makes ___ very easily.",
+          "contextRu": "",
+          "answer": "friends",
+          "alternatives": []
+        },
+        {
+          "sentence": "The workers upstairs made a lot of ___ all morning.",
+          "contextRu": "",
+          "answer": "noise",
+          "alternatives": []
+        }
+      ],
+      "explanation": "все три слова обозначают то, чего до действия не было: ошибка появилась в работе, друзья появились у человека, шум появился в доме. Поэтому во всех трёх предложениях стоит make.",
+      "taskDescription": "Впиши подходящее по смыслу слово из банка.",
+      "wordBank": [
+        "noise",
+        "friends",
+        "mistake"
+      ]
+    }
+  ],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 63,
+      "taskDescription": "соедини русское дело с английским сочетанием.",
+      "pairs": [
+        {
+          "left": "глажка",
+          "right": "do the ironing"
+        },
+        {
+          "left": "копия",
+          "right": "make a copy"
+        },
+        {
+          "left": "покупки",
+          "right": "do the shopping"
+        },
+        {
+          "left": "обещание",
+          "right": "make a promise"
+        }
+      ],
+      "explanation": "глажка и покупки — дела, которые человек выполняет, они существуют и без него, поэтому do. А копия и обещание появляются в тот момент, когда их делают, — поэтому make."
+    }
+  ],
+  "error_correction_exercises": [
+    {
+      "id": 155,
+      "wrongSentence": "Sonya makes her homework every evening.",
+      "options": [
+        {
+          "text": "Sonya does her homeworks every evening.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sonya does her homework every evening.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sonya is making her homework every evening.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "задание Соне уже задали, ей остаётся его выполнить — значит do, а не make. Homework при этом остаётся без -s: это неисчисляемое слово, мы разбирали такие в «Основах»."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 91,
+      "taskDescription": "распредели дела по тому, что остаётся после них.",
+      "categories": [
+        {
+          "title": "Появилось новое",
+          "items": [
+            "испёк пирог",
+            "сочинил песню",
+            "сварил суп"
+          ]
+        },
+        {
+          "title": "Повозился с готовым",
+          "items": [
+            "помыл машину",
+            "погладил рубашки",
+            "полил цветы"
+          ]
+        }
+      ],
+      "explanation": "слева после действия в мире стало на одну вещь больше: пирога, песни и супа раньше не существовало. Справа ничего нового не появилось — машина, рубашки и цветы были и остались, изменилось только их состояние."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 77,
+      "groupDescription": "Три сочетания идут с глаголом do, а одно — нет",
+      "items": [
+        {
+          "text": "the ironing",
+          "isOdd": false
+        },
+        {
+          "text": "a promise",
+          "isOdd": true
+        },
+        {
+          "text": "my job",
+          "isOdd": false
+        },
+        {
+          "text": "the shopping",
+          "isOdd": false
+        }
+      ],
+      "explanation": "глажка, работа и покупки уже существуют, человек только выполняет их — это do the ironing, do my job, do the shopping. А обещание появляется в момент, когда его дают, поэтому make a promise."
+    }
+  ]
+}
