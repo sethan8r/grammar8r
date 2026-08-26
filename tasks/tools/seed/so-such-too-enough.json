@@ -25,6 +25,13 @@
       "title": "So … that · Настолько, что",
       "order": 2,
       "searchKeywords": "so that или so … that, настолько что по-английски, сказать степень и результат разом, such a long day that"
+    },
+    {
+      "id": 165,
+      "topicId": 26,
+      "title": "Too · «Слишком» — это уже проблема",
+      "order": 3,
+      "searchKeywords": "too или very, слишком по-английски, too young to drive, слишком чтобы что-то сделать, too much или too many"
     }
   ],
   "grammar_cards": [
@@ -697,6 +704,339 @@
         "Почему в such a long day артикль не исчезает, когда появляется that?",
         "Чем so many … that отличается от so … that?"
       ]
+    },
+    {
+      "id": 434,
+      "microtopicId": 165,
+      "title": "Too, very и so: три силы одного «очень»",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Три коротких слова, которые русский переводит почти одинаково — «очень», «так», «слишком». В теме «Наречия» мы уже разводили `too` и `very`, а теперь в этой компании появился третий участник — `so` из первых карточек темы. Удобнее один раз выстроить всю шкалу целиком, чем каждый раз сравнивать по двое."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's very cold today.** — просто сильно, эмоции нет, обычная констатация.",
+            "**It's so cold today!** — та же сила, но с восклицанием: человек делится впечатлением.",
+            "**It's too cold today.** — а это уже не про силу вовсе: холодно настолько, что план срывается, гулять никто не пойдёт."
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Что сообщает",
+            "Есть ли проблема"
+          ],
+          "rows": [
+            [
+              "very",
+              "сильно, нейтрально",
+              "нет"
+            ],
+            [
+              "so",
+              "сильно, с эмоцией",
+              "нет"
+            ],
+            [
+              "too",
+              "перебор, порог перейдён",
+              "да, всегда"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "У too всегда есть пострадавшее дело"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот главное различие, и оно не про силу признака. `very` и `so` описывают сам признак — сказали и всё, работа окончена. `too` описывает признак ПО ОТНОШЕНИЮ к какому-то делу: он сообщает, что из-за этого признака что-то не выходит. Даже когда дело не названо вслух, слушатель достраивает его сам: **The coffee is too hot** — значит прямо сейчас не выпить."
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка на секунду: если после фразы хочется добавить «…и поэтому не получится» — нужен `too`. Если добавлять нечего, а просто сильно — `very` или `so`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**You're too beautiful** ✗ там, где хотели сделать комплимент. По-русски «ты слишком красивая» звучит как восторг, а по-английски выходит претензия: красота будто мешает делу. Комплимент — это **You're so beautiful** ✓ или **You're very beautiful** ✓. Причина расхождения простая: русское «слишком» в разговорной речи давно потеряло негатив («слишком хорош, чтобы быть правдой» — это похвала), а английское `too` его сохранило полностью."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Про второе значение too мы уже знаем"
+        },
+        {
+          "type": "paragraph",
+          "text": "`too` в конце фразы означает «тоже» — это мы разбирали в «Основах», а разводить два значения по позиции учились в «Linking Words». Правило там же и осталось: если справа от `too` ничего нет и фраза кончилась — это «тоже»; если сразу за ним стоит признак — это «слишком»."
+        }
+      ],
+      "theorySummary": "`very`, `so` и `too` — три разные вещи, а не три силы одного слова. `very` говорит «сильно» нейтрально (**It's very cold**), `so` — то же самое с эмоцией (**It's so cold!**), а `too` сообщает о переборе: порог перейдён, и из-за этого что-то не получается (**It's too cold** — гулять не пойдём). У `too` всегда есть пострадавшее дело, даже если его не назвали вслух. Отсюда главная ошибка: **You're too beautiful** ✗ вместо комплимента — по-английски это звучит претензией, нужно **You're so beautiful** ✓.",
+      "examples": [
+        {
+          "ru": "Сегодня очень холодно.",
+          "en": "It's very cold today."
+        },
+        {
+          "ru": "Сегодня так холодно!",
+          "en": "It's so cold today!"
+        },
+        {
+          "ru": "Сегодня слишком холодно.",
+          "en": "It's too cold today."
+        },
+        {
+          "ru": "Ты такая красивая.",
+          "en": "You're so beautiful."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему too beautiful звучит как претензия, а не как комплимент?",
+        "Как понять, есть в предложении проблема или её нет?",
+        "Чем so отличается от very, если проблемы нет ни там, ни там?"
+      ]
+    },
+    {
+      "id": 435,
+      "microtopicId": 165,
+      "title": "Too + признак + to + V1: слишком, чтобы",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы только что сказали: у `too` всегда есть пострадавшее дело. Чаще всего его называют прямо — и вот ради этой конструкции тема, по большому счёту, и затевалась."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Too + признак + to + V1"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's too cold to swim.**",
+            "**He speaks too fast to understand.**",
+            "**I'm too tired to argue.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Читается ровно как по-русски: «слишком холодно, чтобы купаться». Сначала перебор, потом дело, которое из-за него не вышло."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицания нет, а смысл отрицательный"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот что сбивает с толку сильнее всего. В предложении **She is too young to drive** нет ни одного отрицательного слова, а означает оно «водить она НЕ может». Логика простая: `too` уже сказал «перебор, дело срывается» — и повторять эту же мысль отрицанием язык не хочет. Одно предупреждение на одну мысль, второе было бы лишним."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому переводим такие фразы не по словам, а по смыслу: **too young to drive** — «мал, водить нельзя»; **too expensive to buy** — «дорого, покупать не будем»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Too young for drive** ✗ → **too young to drive** ✓ — русское «для» тянет за собой `for`, но перед глаголом в английском всегда стоит `to`;",
+                "**Too tired that I can't work** ✗ → **too tired to work** ✓ — калька с только что выученного `so … that`; у `too` хвост свой, и он короче;",
+                "**Not too tired to go** — фраза существует, но значит ОБРАТНОЕ: «не настолько устал, чтобы не пойти», то есть человек идёт. Добавлять `not` «для верности» нельзя, он переворачивает смысл."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Живая речь усиливает и сам `too`: **much too expensive**, **far too late**, **way too much** (последнее совсем разговорное). Смысл не меняется, просто эмоций больше — это на узнавание, самому так говорить необязательно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Конструкция строится так: `too` + прилагательное или наречие + `to` + глагол в первой форме — **It's too cold to swim**, **I'm too tired to argue**. Отрицания в ней нет, а смысл отрицательный: **She is too young to drive** значит «водить не может», потому что `too` уже сообщил о переборе, и второе предупреждение языку не нужно. Ошибки: **too young for drive** ✗ (русское «для» тянет `for`, а нужен `to`) и **too tired that I can't work** ✗ (калька с `so … that`). Фраза **not too tired to go** существует, но значит обратное — человек пойдёт.",
+      "examples": [
+        {
+          "ru": "Слишком холодно, чтобы купаться.",
+          "en": "It's too cold to swim."
+        },
+        {
+          "ru": "Он говорит слишком быстро, чтобы его понять.",
+          "en": "He speaks too fast to understand."
+        },
+        {
+          "ru": "Я слишком устал, чтобы спорить.",
+          "en": "I'm too tired to argue."
+        },
+        {
+          "ru": "Она слишком мала, чтобы водить машину.",
+          "en": "She is too young to drive."
+        },
+        {
+          "ru": "Это слишком дорого, чтобы покупать сейчас.",
+          "en": "It's too expensive to buy now."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в too young to drive нет отрицания, а смысл отрицательный?",
+        "Чем too tired to work отличается от so tired that I can't work?",
+        "Что означает not too tired to go — человек пойдёт или нет?"
+      ]
+    },
+    {
+      "id": 436,
+      "microtopicId": 165,
+      "title": "Too much и too many: перебор количества",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`too` усиливает признак — а если перебор не в признаке, а в количестве? Тогда включается та же пара слов, что мы уже проходили с `so`: `much` для неисчисляемого, `many` для счётного."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Too much / too many + существительное"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I have too much work this week.**",
+            "**There were too many people in the café.**",
+            "**You put too much salt in the soup.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Разница с so much — та же ступенька шкалы"
+        },
+        {
+          "type": "paragraph",
+          "text": "`so much noise` — «ого сколько шума», человек поражён. `too much noise` — «шума столько, что уже плохо»: не поработать, не поговорить, не уснуть. Разница ровно та же, что между `so cold` и `too cold`, просто теперь она про количество, а не про признак."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Too much people** ✗ → **too many people** ✓. Счётность решает точно так же, как в `so much` и `so many`, — нового правила тут нет вообще, работает старое."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Для кого именно перебор"
+        },
+        {
+          "type": "paragraph",
+          "text": "Часто важно сказать, кому мешает: адресата вводит `for`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This bag is too heavy for me.**",
+            "**The music is too loud for the children.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**This bag is too heavy to me** ✗ → **for me** ✓. Русское «мне тяжело» тянет за собой `to`, но адресата в английском вводит `for`."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А если назвать и адресата, и дело, получается полная сборка — обе половины подряд, каждая на своём месте."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Too + признак + for + кто + to + V1"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's too heavy for me to carry.**",
+            "**The soup is too hot for the children to eat.**"
+          ]
+        }
+      ],
+      "theorySummary": "Перебор количества — это `too much` с неисчисляемым (**too much work**, **too much salt**) и `too many` со счётным (**too many people**). Счётность решает так же, как в `so much` и `so many`: **too much people** ✗ → **too many people** ✓. Отличие от `so much` — в смысле: `so much noise` значит «ого сколько», `too much noise` — «столько, что уже плохо». Адресата вводит `for`: **too heavy for me** (не **to me** ✗), а полная сборка выглядит так — **It's too heavy for me to carry**.",
+      "examples": [
+        {
+          "ru": "На этой неделе у меня слишком много работы.",
+          "en": "I have too much work this week."
+        },
+        {
+          "ru": "В кафе было слишком много народу.",
+          "en": "There were too many people in the café."
+        },
+        {
+          "ru": "Ты положил слишком много соли в суп.",
+          "en": "You put too much salt in the soup."
+        },
+        {
+          "ru": "Эта сумка слишком тяжёлая для меня.",
+          "en": "This bag is too heavy for me."
+        },
+        {
+          "ru": "Она слишком тяжёлая, чтобы я её донёс.",
+          "en": "It's too heavy for me to carry."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем too much отличается от so much, если оба про количество?",
+        "Почему too heavy for me, а не to me?",
+        "Как собрать фразу, где есть и адресат, и дело?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -794,6 +1134,72 @@
       "cardId": 433,
       "exerciseType": "CONSTRUCTION_MEANING",
       "exerciseId": 47,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 434,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 48,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 434,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 200,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 434,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 81,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 435,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 156,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 435,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 70,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 435,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 160,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 435,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 174,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 436,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 174,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 436,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 94,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 436,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 63,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 436,
+      "exerciseType": "MATCHING",
+      "exerciseId": 66,
       "orderInCard": 3
     }
   ],
@@ -936,6 +1342,37 @@
         }
       ],
       "explanation": "в первом, третьем и пятом предложениях всё на месте: голый признак усилен через so, а результат прицеплен хвостом that. Во втором лишнее so much — количество тут ни при чём, нужно so hot. В четвёртом стык держат сразу два слова: либо so late that we walked home, либо просто The bus was late, so we walked home."
+    },
+    {
+      "id": 174,
+      "statements": [
+        {
+          "en": "I'm too busy to help you today.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The flat was too small for us.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He was too tired that he went home.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The road was too much dangerous.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She is too young to travel alone.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в первом и пятом предложениях конструкция собрана верно: перебор, потом to и глагол. Второе тоже верно — перебор с адресатом, для кого именно мал. В третьем стоит чужой хвост: нужно либо too tired to go home, либо so tired that he went home. В четвёртом лишнее much: признак усиливается голым too."
     }
   ],
   "word_arrangement_exercises": [
@@ -975,6 +1412,23 @@
         "so many"
       ],
       "explanation": "рядом с усилителем стоит вещь queue, счётная и в единственном числе, поэтому нужен such вместе с артиклем. So подошло бы к голому прилагательному, а so much и so many усиливают количество, а не саму вещь с признаком."
+    },
+    {
+      "id": 156,
+      "situationRu": "Ситуация: Оля отказывается от кофе поздно вечером.",
+      "correctSentence": "It's too late to drink coffee.",
+      "words": [
+        "It's",
+        "too late",
+        "to drink",
+        "coffee"
+      ],
+      "distractors": [
+        "for drink",
+        "too much late",
+        "that I can't drink"
+      ],
+      "explanation": "перед глаголом в этой конструкции стоит to, поэтому for drink не собирается. Too much к признаку не подходит, а хвост that I can't drink — это калька с so … that: у too свой короткий хвост."
     }
   ],
   "multiple_choice_exercises": [
@@ -1082,11 +1536,98 @@
         }
       ],
       "explanation": "рядом с усилителем стоит вещь — weather, поэтому нужен such. Артикль ей не нужен: weather неисчисляемое, его нельзя посчитать поштучно. So ставят только перед голым прилагательным или наречием."
+    },
+    {
+      "id": 200,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Кофе очень горячий, но пить можно.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The coffee is too hot.",
+          "isCorrect": false
+        },
+        {
+          "text": "The coffee is hot, too.",
+          "isCorrect": false
+        },
+        {
+          "text": "The coffee is very hot.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "пить можно, значит проблемы нет, и нужен нейтральный very. Too hot сказало бы, что кофе не выпить, а hot, too означает «кофе тоже горячий» — это второе значение слова, которое стоит в конце фразы."
+    },
+    {
+      "id": 174,
+      "choiceType": "CHOICE",
+      "prompt": "There were ___ cars on the road this morning.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "too much",
+          "isCorrect": false
+        },
+        {
+          "text": "too many",
+          "isCorrect": true
+        },
+        {
+          "text": "too",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "машины считаются поштучно, поэтому нужно too many. Too much идёт с неисчисляемым, а голое too усиливает признак, а не количество вещей."
+    },
+    {
+      "id": 63,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The music is too loud for the children.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Дети тоже включили громкую музыку.",
+          "isCorrect": false
+        },
+        {
+          "text": "Детям очень нравится громкая музыка.",
+          "isCorrect": false
+        },
+        {
+          "text": "Музыка слишком громкая для детей.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "too loud означает перебор, а for the children называет, кому именно он мешает. Про «тоже» было бы loud, too в конце фразы, а про «очень нравится» — совсем другая мысль, в too всегда сидит проблема."
     }
   ],
   "text_input_exercises": [],
   "dialog_restore_exercises": [],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 66,
+      "taskDescription": "соедини ситуацию с подходящей фразой.",
+      "pairs": [
+        {
+          "left": "В офисе не поговорить",
+          "right": "too much noise"
+        },
+        {
+          "left": "Сумку не поднять одному",
+          "right": "too heavy to carry"
+        },
+        {
+          "left": "На улицу лучше не выходить",
+          "right": "too cold to go out"
+        },
+        {
+          "left": "Опоздали на поезд",
+          "right": "too much traffic"
+        }
+      ],
+      "explanation": "в каждой паре перебор объясняет, почему дело не вышло: шума столько, что не слышно собеседника; вес такой, что не поднять; холод такой, что не выйти; машин столько, что не успели. Там, где перебор в количестве, стоит too much, а там, где в признаке, — конструкция too плюс to с глаголом."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 158,
@@ -1125,6 +1666,25 @@
         }
       ],
       "explanation": "рядом с усилителем стоит прилагательное loud, а не вещь, поэтому нужен so, а не such. So much описывает количество, а вариант с артиклем требует после себя существительное, которого в предложении нет."
+    },
+    {
+      "id": 160,
+      "wrongSentence": "The soup is too hot for eat.",
+      "options": [
+        {
+          "text": "The soup is too hot to eat.",
+          "isCorrect": true
+        },
+        {
+          "text": "The soup is too hot that I can't eat.",
+          "isCorrect": false
+        },
+        {
+          "text": "The soup is too much hot to eat.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "перед глаголом в этой конструкции идёт to, а не for: предлог for тянется из русского «для». Хвост that I can't eat взят из so … that, а too much описывает количество, а не признак."
     }
   ],
   "construction_meaning_exercises": [
@@ -1150,6 +1710,29 @@
         }
       ],
       "explanation": "so many усиливает количество людей, а хвост that рассказывает, чем это кончилось — «столько, что…». Вариант с «поэтому» был бы просто so, вариант со «слишком, чтобы» — это конструкция с too, а последний вариант переворачивает смысл на противоположный."
+    },
+    {
+      "id": 48,
+      "construction": "This jacket is too small for me.",
+      "options": [
+        {
+          "text": "Куртка мне тоже мала.",
+          "isCorrect": false
+        },
+        {
+          "text": "Куртка мне мала — я в неё не влезу.",
+          "isCorrect": true
+        },
+        {
+          "text": "Куртка мне очень идёт по размеру.",
+          "isCorrect": false
+        },
+        {
+          "text": "Куртка чуть маловата, но носить можно.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "too small значит, что размер перешёл границу и куртка из-за этого не годится. Про «тоже мала» было бы small, too, а про «чуть маловата, но носить можно» — a bit small: в too проблема есть всегда."
     }
   ],
   "transformation_exercises": [
@@ -1190,6 +1773,25 @@
         }
       ],
       "explanation": "связка со стыка уезжает внутрь первой части и прилипает к признаку, а границу между частями начинает держать that. Сами части при этом не меняются: что было причиной, то и осталось, просто акцент переехал на степень."
+    },
+    {
+      "id": 70,
+      "taskDescription": "скажи то же самое одним предложением через too … to.",
+      "items": [
+        {
+          "original": "This flat is very expensive. We can't rent it.",
+          "transformed": "This flat is too expensive to rent."
+        },
+        {
+          "original": "The room is very dark. I can't read here.",
+          "transformed": "The room is too dark to read."
+        },
+        {
+          "original": "The film is very long. We can't watch it tonight.",
+          "transformed": "The film is too long to watch."
+        }
+      ],
+      "explanation": "very превращается в too, а вторая часть с can't сжимается в хвост to плюс глагол. Отрицание при этом исчезает: его смысл уже сидит внутри too, и повторять его не нужно."
     }
   ],
   "categorization_exercises": [
@@ -1215,7 +1817,54 @@
         }
       ],
       "explanation": "слева стоят голые признаки — прилагательные hungry и expensive и наречие carefully, их усиливает so. Справа стоят вещи, а перед вещью идёт such: со счётным словом в единственном числе с артиклем (such an old car), с неисчисляемым и с множественным числом без артикля."
+    },
+    {
+      "id": 94,
+      "taskDescription": "распредели слова по тому, с каким усилителем они идут.",
+      "categories": [
+        {
+          "title": "too much",
+          "items": [
+            "salt",
+            "information",
+            "work"
+          ]
+        },
+        {
+          "title": "too many",
+          "items": [
+            "mistakes",
+            "tickets",
+            "questions"
+          ]
+        }
+      ],
+      "explanation": "слева стоят неисчисляемые слова: соль, информацию и работу нельзя посчитать поштучно, поэтому с ними идёт too much. Справа — счётные вещи: ошибки, билеты и вопросы считаются по одному, у них есть множественное число, значит нужен too many."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 81,
+      "groupDescription": "Три фразы просто усиливают признак, а одна сообщает, что из-за него что-то не выходит",
+      "items": [
+        {
+          "text": "The room is very small.",
+          "isOdd": false
+        },
+        {
+          "text": "The room is so small!",
+          "isOdd": false
+        },
+        {
+          "text": "The room is really small.",
+          "isOdd": false
+        },
+        {
+          "text": "The room is too small.",
+          "isOdd": true
+        }
+      ],
+      "explanation": "very, so и really говорят только о силе признака: комната маленькая, и всё. Too small добавляет последствие — комната настолько мала, что для дела не годится: не поместимся, не разойдёмся, не поставим стол."
+    }
+  ]
 }
