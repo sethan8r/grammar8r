@@ -1,0 +1,703 @@
+{
+  "grammar_topics": [
+    {
+      "id": 26,
+      "title": "So, Such, Too, Enough",
+      "order": 14,
+      "isPretopic": false,
+      "description": "Четыре усилителя, которые русский ставит одинаково, а английский по-разному: что решает выбор между so и such, между too и enough, и почему всё зависит от слова справа",
+      "categoryId": null,
+      "searchKeywords": "настолько слишком достаточно, усилить прилагательное, too или enough, слишком дорого чтобы купить, усилители в английском"
+    }
+  ],
+  "grammar_topic_categories": [],
+  "grammar_microtopics": [
+    {
+      "id": 163,
+      "topicId": 26,
+      "title": "So or Such · Так, такой — и что стоит справа",
+      "order": 1,
+      "searchKeywords": "so или such, so much или so many, куда ставить артикль с such, что значит such a"
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 429,
+      "microtopicId": 163,
+      "title": "Четыре слова и один вопрос: что стоит справа",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на четыре обычные русские фразы: «так холодно», «такой странный день», «слишком дорого», «достаточно тепло». Ситуации разные, а устройство одно и то же: усилитель стоит впереди, а следом идёт то, что он усиливает. Русскому даже в голову не приходит, что бывает иначе — порядок один на все случаи, и выбирать не из чего."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский так делает только в половине случаев. И решает у него не смысл фразы, а сосед справа — то слово, которое стоит сразу за усилителем."
+        },
+        {
+          "type": "heading",
+          "text": "Первый вопрос: что стоит справа"
+        },
+        {
+          "type": "paragraph",
+          "text": "Усилителей в этой теме четыре: `so`, `such`, `too`, `enough`. Прежде чем поставить любой из них, язык смотрит вправо и спрашивает: там голое прилагательное или наречие — или там существительное, то есть вещь?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "рядом признак: **so cold**, **too expensive**, **warm enough**;",
+            "рядом вещь: **such a cold day**, **too much traffic**, **enough time**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Мысль в обеих строчках одна и та же, а слова разные — потому что рядом стоит разное. Русский на это место смотреть не привык, отсюда и берётся большинство ошибок темы."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `enough` есть своя особенность, и она видна прямо в примерах выше: с признаком он встаёт не перед ним, а ПОСЛЕ — **warm enough**, зато перед вещью, как все, — **enough time**. Выбор слова это не меняет: язык всё так же смотрит, признак рядом или вещь. Меняется только место самого `enough`, и разбирать это мы будем в его карточке."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Второй вопрос: эмоция или мерка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Четыре слова делятся на две пары, и делятся по смыслу. `so` и `such` — это чистая оценка, «ого, как!»: человек делится впечатлением, и больше ему ничего не нужно. `too` и `enough` — это мерка под задачу: они не восхищаются, а сообщают, хватает чего-то для дела или уже перебор."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's so hot!** — просто жалуемся на жару, никакой задачи тут нет.",
+            "**It's too hot to sleep.** — жарко настолько, что не выходит спать: есть дело, и оно срывается."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому у пары `too` и `enough` есть продолжение, которого у `so` и `such` нет вовсе, — `to` и глагол: «слишком X, чтобы Y», «достаточно X, чтобы Y». Эту вторую половину темы мы разберём после `so` и `such`."
+        },
+        {
+          "type": "heading",
+          "text": "Карта темы"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Что стоит справа",
+            "Что сообщает"
+          ],
+          "rows": [
+            [
+              "so",
+              "прилагательное или наречие",
+              "ого, как!"
+            ],
+            [
+              "such",
+              "существительное",
+              "ого, какой!"
+            ],
+            [
+              "too",
+              "прилагательное или наречие",
+              "перебор, мешает делу"
+            ],
+            [
+              "enough",
+              "после признака, перед вещью",
+              "хватает для дела"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`So` в этой теме — усиление «настолько», и это не то `so`, которое мы разбирали в «Linking Words» как «поэтому», и тем более не `so that` со значением цели. Слово одно, работ у него три, и различает их всё тот же сосед справа."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слов в теме всего четыре, и ни одно из них не нужно спрягать. При этом ошибок из-за них русскоязычный делает больше, чем из-за целого времени, — просто потому, что привычка ставить усилитель впереди сидит очень глубоко."
+        }
+      ],
+      "theorySummary": "Русский ставит усилитель перед словом всегда: «так холодно», «такой день», «слишком дорого», «достаточно тепло». Английский каждый раз смотрит, что стоит справа. Голое прилагательное или наречие — `so`, `too`, `… enough` (**so cold**, **too expensive**, **warm enough**). Существительное — `such`, `too much/many`, `enough` перед ним (**such a cold day**, **too much traffic**, **enough time**). Вторая развилка — по смыслу: `so` и `such` просто восхищаются («ого, как!»), а `too` и `enough` меряют под задачу, поэтому у них есть продолжение с `to` и глаголом.",
+      "examples": [
+        {
+          "ru": "Вчера было так холодно.",
+          "en": "It was so cold yesterday."
+        },
+        {
+          "ru": "Это был такой странный день.",
+          "en": "It was such a strange day."
+        },
+        {
+          "ru": "Кофе слишком горячий.",
+          "en": "The coffee is too hot."
+        },
+        {
+          "ru": "В комнате достаточно тепло.",
+          "en": "The room is warm enough."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя ставить усилитель перед словом всегда, как в русском?",
+        "Как за секунду понять, что справа — признак или вещь?",
+        "Чем «ого, как!» отличается от «слишком» на практике?"
+      ]
+    },
+    {
+      "id": 430,
+      "microtopicId": 163,
+      "title": "So: справа голый признак",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Начнём с самого частого усилителя. `so` ставится перед прилагательным или наречием и означает «настолько, до такой степени»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm so tired.**",
+            "**The bus was so late.**",
+            "**Sonya speaks so quickly.**",
+            "**They live so far away.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка занимает секунду: справа от `so` стоит голое слово-признак, и никакой вещи за ним нет."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русское «такой» ещё не повод брать such"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский переключается между «так» и «такой» по форме своего же прилагательного: «так холодно» и «такой холодный» — для нас это две разные фразы. Английский на форму прилагательного не смотрит вообще, он смотрит, есть ли рядом существительное. Пока существительного нет, `so` спокойно покрывает оба русских варианта:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Так холодно» — **It's so cold.**",
+            "«Чай такой холодный» — **The tea is so cold.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Во второй фразе по-русски стоит «такой», но справа от усилителя всё равно голое прилагательное: чай уже назван раньше, в подлежащем."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The tea is such cold** ✗ → **The tea is so cold** ✓. Русское «такой» тянет за собой похожее на слух `such`, а решает не звук и не русское слово, а то, что стоит справа."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Единственный мост so к существительному — количество"
+        },
+        {
+          "type": "paragraph",
+          "text": "С вещами `so` работает только через количество: `so much` для несчётного, `so many` для счётного."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There was so much noise in the kitchen.**",
+            "**There were so many people at the station.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика прямая: вещь усиливается не по признаку, а по числу — сколько её. Эту работу берут на себя `much` и `many`, а `so` усиливает уже их. Голым к существительному `so` не подходит никогда."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**So people** ✗ → **so many people** ✓ — без `much` или `many` мост не собирается;",
+                "**So many money** ✗ → **so much money** ✓ — деньги в английском не пересчитываются поштучно, они неисчисляемые, как вода."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одно слово, три работы"
+        },
+        {
+          "type": "paragraph",
+          "text": "`so` мы уже встречали в «Linking Words» в значении «поэтому» — там после него шла целая часть с подлежащим и своим глаголом. Заново разводить эти два значения не нужно: работает та же проверка, что и здесь. Справа целая часть — это «поэтому», справа признак — это «настолько», справа `much` или `many` — это количество."
+        }
+      ],
+      "theorySummary": "`so` усиливает голый признак — прилагательное или наречие: **I'm so tired**, **The bus was so late**, **Sonya speaks so quickly**. Русское «такой» само по себе ещё не повод брать `such`: если справа от усилителя нет существительного, нужен `so` (**The tea is so cold**). К существительному `so` подходит только через количество — `so much` с неисчисляемым (**so much noise**) и `so many` со счётным (**so many people**). Ошибки: **so people** ✗ и **so many money** ✗, потому что деньги в английском неисчисляемые.",
+      "examples": [
+        {
+          "ru": "Я так устал.",
+          "en": "I'm so tired."
+        },
+        {
+          "ru": "Автобус так опоздал.",
+          "en": "The bus was so late."
+        },
+        {
+          "ru": "Соня говорит так быстро.",
+          "en": "Sonya speaks so quickly."
+        },
+        {
+          "ru": "На кухне было столько шума.",
+          "en": "There was so much noise in the kitchen."
+        },
+        {
+          "ru": "На станции было так много людей.",
+          "en": "There were so many people at the station."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать so people, если людей действительно много?",
+        "Как понять, что слово несчётное и нужно so much?",
+        "Чем so «настолько» отличается от so «поэтому»?"
+      ]
+    },
+    {
+      "id": 431,
+      "microtopicId": 163,
+      "title": "Such: справа стоит вещь",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Как только справа от усилителя оказывается существительное, `so` уступает место `such`. Смысл при этом не меняется ни на грамм — меняется только упаковка."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It was such a long day.**",
+            "**They have such nice neighbours.**",
+            "**We had such good weather in June.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три шага, и все решаются справа"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Справа существительное — берём `such`.",
+            "Существительное счётное и стоит в единственном числе — нужен артикль `a` или `an`, и стоит он ПОСЛЕ такого: **such a strange question**, **such an expensive car**.",
+            "Существительное во множественном числе или неисчисляемое — артикля нет вовсе: **such nice neighbours**, **such good weather**."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему артикль стоит после such"
+        },
+        {
+          "type": "paragraph",
+          "text": "Английское существительное почти никогда не ходит голым: впереди у него артикль или другой определитель — это его упаковка, и разбирать её язык не любит. `such` внутрь этой упаковки не лезет, он встаёт перед всей группой целиком, а артикль остаётся на своём месте внутри неё: сначала `such`, потом `a`, потом прилагательное, потом само существительное. Русскому порядок кажется вывернутым только потому, что артикля у нас нет вообще и «такой» просто прилипает к прилагательному."
+        },
+        {
+          "type": "paragraph",
+          "text": "Артикль при этом всегда `a` или `an` — `the` после `such` не ставится вовсе: **such the strange question** ✗. Причина смысловая, и она красивая. `such` делится свежим впечатлением о чём-то, что слушатель ещё не видел и не знает: «представь, какой вопрос!». А `the` работает ровно наоборот — он указывает на предмет, уже известный обоим. Две работы противоположны по смыслу, поэтому в одной фразе они и не сходятся."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**A so strange question** ✗, **so a strange question** ✗, **such strange question** ✗ → **such a strange question** ✓. Русский говорит «такой странный вопрос» одним движением, и артикль ему деть некуда: рука либо выбрасывает его в начало фразы, либо теряет совсем."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "such без прилагательного"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прилагательное `such` за собой тащить не обязан — он усиливает и голое существительное, если само слово уже несёт оценку:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It was such a mess.**",
+            "**Don't be such a child.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одна мысль — две упаковки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое полезное наблюдение микротемы: одно и то же впечатление укладывается и через `so`, и через `such` — выбор зависит только от того, назовём мы вещь или нет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The film was so long.** — справа от усилителя признак, вещь ушла в подлежащее;",
+            "**It was such a long film.** — вещь названа сразу после усилителя, и артикль поехал внутрь."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Если сомневаетесь, какую упаковку взять, — берите ту, где вам проще с артиклем. Обе фразы одинаково живые."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Such as` из «Основ» — это то же слово в совсем другой работе: там оно вводит примеры после существительного (**sports such as football and tennis**) и ничего не усиливает. Путаницы обычно не возникает: у усилителя после `such` идёт вещь, а у `such as` — перечисление."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`such` ставится там, где справа от усилителя стоит существительное: **such a long day**, **such nice neighbours**, **such good weather**. Со счётным словом в единственном числе артикль обязателен и стоит ПОСЛЕ такого — `such a` или `such an` (**such an expensive car**), а во множественном числе и с неисчисляемым артикля нет. Главная ошибка — **a so strange question** ✗ и **such strange question** ✗ вместо **such a strange question** ✓. Одну и ту же мысль можно упаковать обоими способами: **The film was so long** = **It was such a long film**.",
+      "examples": [
+        {
+          "ru": "Это был такой длинный день.",
+          "en": "It was such a long day."
+        },
+        {
+          "ru": "У них такие приятные соседи.",
+          "en": "They have such nice neighbours."
+        },
+        {
+          "ru": "В июне была такая хорошая погода.",
+          "en": "We had such good weather in June."
+        },
+        {
+          "ru": "Это был такой странный вопрос.",
+          "en": "It was such a strange question."
+        },
+        {
+          "ru": "Не будь таким ребёнком.",
+          "en": "Don't be such a child."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему артикль стоит после such, а не перед ним?",
+        "Когда артикль с such не нужен вообще?",
+        "Чем such отличается от such as, которое мы разбирали в «Основах»?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 430,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 198,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 430,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 172,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 430,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 158,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 430,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 154,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 431,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 93,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 431,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 62,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 431,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 172,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 431,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 68,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "so_such_too_enough_card431_ex1",
+      "cardId": 431,
+      "title": "so или such",
+      "userInstruction": "Вставьте в каждый пропуск подходящий усилитель.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    }
+  ],
+  "course_word_groups": [
+    {
+      "id": "linking",
+      "nameRus": "Связная речь",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "linking",
+      "nameRus": "Связная речь",
+      "groupId": "linking",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [
+    {
+      "id": 690,
+      "word": "such",
+      "translation": "такой, такая, такие",
+      "transcription": "[sʌtʃ]",
+      "microtopicId": 163,
+      "categoryId": "linking"
+    }
+  ],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 172,
+      "statements": [
+        {
+          "en": "Their kitchen is so clean.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It was such long lesson.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Emma is such a lucky woman.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "There was such a traffic in the city.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We got such good news yesterday.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в первом предложении справа от усилителя голое прилагательное clean, поэтому so. В третьем и пятом справа вещи: счётное woman идёт с артиклем после such, а неисчисляемое news — без артикля. Второе сломано пропущенным артиклем: нужно such a long lesson. В четвёртом артикль лишний: traffic неисчисляемое, верно such traffic."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 154,
+      "situationRu": "Ситуация: Вера удивляется, что на встрече ей задали очень много вопросов.",
+      "correctSentence": "They asked me so many questions.",
+      "words": [
+        "They",
+        "asked",
+        "me",
+        "so many",
+        "questions"
+      ],
+      "distractors": [
+        "so much",
+        "such",
+        "so",
+        "such many"
+      ],
+      "explanation": "вопросы считаются поштучно, поэтому нужно so many. So much идёт с неисчисляемым, so без much и many к существительному не подходит, а such не сочетается с many вообще."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 198,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Гриша водит так медленно.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Grisha drives such slowly.",
+          "isCorrect": false
+        },
+        {
+          "text": "Grisha drives so slowly.",
+          "isCorrect": true
+        },
+        {
+          "text": "Grisha drives so much slowly.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "справа от усилителя стоит наречие slowly — голый признак, а не вещь, поэтому so. Such ставят только перед существительным, а so much усиливает количество, а не то, как человек что-то делает."
+    },
+    {
+      "id": 172,
+      "choiceType": "CHOICE",
+      "prompt": "There was ___ traffic on the bridge this morning.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "so many",
+          "isCorrect": false
+        },
+        {
+          "text": "such",
+          "isCorrect": false
+        },
+        {
+          "text": "so much",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "traffic — неисчисляемое слово, поштучно движение не считают, поэтому so much. So many идёт только со счётными вещами, а such требует после себя существительное без much и many и означает «такой»."
+    },
+    {
+      "id": 62,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "It was such a cold morning.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Утро было слишком холодным.",
+          "isCorrect": false
+        },
+        {
+          "text": "Было такое холодное утро.",
+          "isCorrect": true
+        },
+        {
+          "text": "Было так холодно утром.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после such стоит существительное morning со своим артиклем, значит усиливается сама вещь — «такое холодное утро». «Слишком» по-английски было бы too cold, а «так холодно» без названной вещи — so cold."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 158,
+      "wrongSentence": "There were so much guests at the party.",
+      "options": [
+        {
+          "text": "There were so many guests at the party.",
+          "isCorrect": true
+        },
+        {
+          "text": "There were such many guests at the party.",
+          "isCorrect": false
+        },
+        {
+          "text": "There were so guests at the party.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "гостей можно посчитать по головам, значит нужно so many, а не so much. Such many не существует как сочетание, а so guests не собирается вовсе: голым к существительному so не подходит."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 68,
+      "taskDescription": "перепиши каждое предложение через such, начиная с It was.",
+      "items": [
+        {
+          "original": "The book was so funny.",
+          "transformed": "It was such a funny book."
+        },
+        {
+          "original": "The lesson was so short.",
+          "transformed": "It was such a short lesson."
+        },
+        {
+          "original": "The concert was so loud.",
+          "transformed": "It was such a loud concert."
+        }
+      ],
+      "explanation": "вещь переезжает из подлежащего вправо от усилителя, и вместе с ней туда же уходит артикль: so funny превращается в such a funny book. Прилагательное при этом не меняется — меняется только упаковка мысли."
+    }
+  ],
+  "categorization_exercises": [
+    {
+      "id": 93,
+      "taskDescription": "распредели, что может стоять сразу после каждого усилителя.",
+      "categories": [
+        {
+          "title": "so",
+          "items": [
+            "hungry",
+            "expensive",
+            "carefully"
+          ]
+        },
+        {
+          "title": "such",
+          "items": [
+            "an old car",
+            "good news",
+            "friendly colleagues"
+          ]
+        }
+      ],
+      "explanation": "слева стоят голые признаки — прилагательные hungry и expensive и наречие carefully, их усиливает so. Справа стоят вещи, а перед вещью идёт such: со счётным словом в единственном числе с артиклем (such an old car), с неисчисляемым и с множественным числом без артикля."
+    }
+  ],
+  "find_the_odd_exercises": []
+}

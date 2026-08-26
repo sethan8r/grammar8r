@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 429 |
-| Categorization | 93 |
+| Card | 432 |
+| Categorization | 94 |
 | Category | 7 |
 | ConstructionMeaning | 47 |
 | DialogRestore | 58 |
-| ErrorCorrection | 158 |
+| ErrorCorrection | 159 |
 | FindTheOdd | 81 |
 | Matching | 66 |
-| Microtopic | 163 |
-| MultipleChoice·CHOICE | 172 |
-| MultipleChoice·FORWARD_CHOICE | 198 |
-| MultipleChoice·REVERSE_CHOICE | 62 |
+| Microtopic | 164 |
+| MultipleChoice·CHOICE | 173 |
+| MultipleChoice·FORWARD_CHOICE | 199 |
+| MultipleChoice·REVERSE_CHOICE | 63 |
 | TableFill | 35 |
 | TextInput | 82 |
-| Topic | 26 |
-| Transformation | 68 |
-| TrueFalse | 172 |
-| WordArrangement | 154 |
-| course_word | 690 |
+| Topic | 27 |
+| Transformation | 69 |
+| TrueFalse | 173 |
+| WordArrangement | 155 |
+| course_word | 691 |
 
 ## Диапазоны по темам
 
@@ -464,6 +464,20 @@
 - Transformation: 37–38 (2)
 - TrueFalse: 123–126 (4)
 - WordArrangement: 107–108 (2)
+
+### so-such-too-enough
+- Card: 429–431 (3)
+- Categorization: 93–93 (1)
+- ErrorCorrection: 158–158 (1)
+- Microtopic: 163–163 (1)
+- MultipleChoice·CHOICE: 172–172 (1)
+- MultipleChoice·FORWARD_CHOICE: 198–198 (1)
+- MultipleChoice·REVERSE_CHOICE: 62–62 (1)
+- Topic: 26–26 (1)
+- Transformation: 68–68 (1)
+- TrueFalse: 172–172 (1)
+- WordArrangement: 154–154 (1)
+- course_word: 690–690 (1)
 
 ### transcription
 - Card: 103–108 (6)
