@@ -18,6 +18,13 @@
       "title": "So or Such · Так, такой — и что стоит справа",
       "order": 1,
       "searchKeywords": "so или such, so much или so many, куда ставить артикль с such, что значит such a"
+    },
+    {
+      "id": 164,
+      "topicId": 26,
+      "title": "So … that · Настолько, что",
+      "order": 2,
+      "searchKeywords": "so that или so … that, настолько что по-английски, сказать степень и результат разом, such a long day that"
     }
   ],
   "grammar_cards": [
@@ -327,7 +334,22 @@
         },
         {
           "type": "paragraph",
-          "text": "Английское существительное почти никогда не ходит голым: впереди у него артикль или другой определитель — это его упаковка, и разбирать её язык не любит. `such` внутрь этой упаковки не лезет, он встаёт перед всей группой целиком, а артикль остаётся на своём месте внутри неё: сначала `such`, потом `a`, потом прилагательное, потом само существительное. Русскому порядок кажется вывернутым только потому, что артикля у нас нет вообще и «такой» просто прилипает к прилагательному."
+          "text": "Английское существительное почти никогда не ходит голым: впереди у него артикль или другой определитель — это его упаковка, и разбирать её язык не любит. `such` внутрь этой упаковки не лезет, он встаёт перед всей группой целиком, а артикль остаётся на своём месте внутри неё."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Such + a/an + прилагательное + существительное"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскому такой порядок кажется вывернутым только потому, что артикля у нас нет вообще и «такой» просто прилипает к прилагательному."
         },
         {
           "type": "paragraph",
@@ -420,6 +442,261 @@
         "Когда артикль с such не нужен вообще?",
         "Чем such отличается от such as, которое мы разбирали в «Основах»?"
       ]
+    },
+    {
+      "id": 432,
+      "microtopicId": 164,
+      "title": "So … that: усиление доросло до последствия",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Усиливать признак мы уже умеем: **I was so tired**, **The bag was so heavy**. Но в живой речи одного восклицания часто мало — человек хочет сказать не просто «я так устал», а сразу добавить, чем это кончилось. Английский упаковывает обе мысли в одно предложение, и делает это связкой `so … that`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was so tired that I went to bed at nine.**",
+            "**The bag was so heavy that I took a taxi.**",
+            "**Lena spoke so quietly that nobody heard her.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "So + признак + that + целая часть"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая половина сообщает, насколько, вторая — что из этого вышло. И заметьте: ничего нового учить не пришлось — к знакомому усилению просто добавился хвост."
+        },
+        {
+          "type": "heading",
+          "text": "Где стоит so — вот и вся разница с «поэтому»"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Linking Words» мы разбирали `so` в значении «поэтому»: **It was cold, so I stayed home**. Там `so` сидел на стыке, МЕЖДУ двумя частями, и держал этот стык сам. Здесь всё наоборот: `so` уехал ВНУТРЬ первой части и прилип к признаку, а стык держит `that`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It was cold, so I stayed home.** — стык держит so;",
+            "**It was so cold that I stayed home.** — стык держит that."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл почти один, разница в акценте. Первая фраза просто сообщает: было холодно, вот результат. Вторая подчёркивает степень — было не просто холодно, а вот настолько, что человека это загнало домой. Поэтому вторая звучит живее и эмоциональнее, и носитель тянется к ней постоянно."
+        },
+        {
+          "type": "heading",
+          "text": "Запятой перед that нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «что» в такой фразе всегда идёт после запятой: «Я так устал, что лёг в девять». Английское `that` запятую не любит, и рука по привычке ставит лишний знак: **I was so tired, that I went to bed** ✗ → **I was so tired that I went to bed** ✓. Причина простая: у русского запятая отмечает границу частей, а у английского эту работу целиком делает само слово `that` — второй маркер границы ему не нужен."
+        },
+        {
+          "type": "heading",
+          "text": "В разговоре that часто выбрасывают"
+        },
+        {
+          "type": "paragraph",
+          "text": "Носитель спокойно говорит и без него: **I was so tired I fell asleep on the sofa.** Смысл тот же, просто связка проглочена — так же, как мы проглатываем слова в быстрой речи. Это стоит узнавать на слух, а самому писать лучше с `that`: с ним предложение правильно всегда."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`So … that` и `so that` — совершенно разные вещи, хотя буквы те же. `so that` вводит ЦЕЛЬ и отвечает на вопрос «зачем»: **I closed the window so that the room would stay warm.** `so … that` отвечает на вопрос «до какой степени». Проверка на секунду: если между `so` и `that` что-то стоит — это степень, если слова идут вплотную — это цель."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «настолько» звучит весомее, чем «так», и рука тянется усилить само усиление: **He was so much tired that he fell asleep** ✗ → **He was so tired that he fell asleep** ✓. Признак усиливается голым `so`, а `so much` — это про количество вещей, и к прилагательному оно не подходит."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`so … that` говорит разом две вещи: насколько и что из этого вышло. Сборка — `so` + прилагательное или наречие + `that` + целая часть: **I was so tired that I went to bed at nine**. От знакомого `so` = «поэтому» отличается местом: там `so` стоял МЕЖДУ частями (**It was cold, so I stayed home**), здесь он сидит внутри первой части, а стык держит `that`. Запятой перед `that` нет. В разговоре `that` часто выбрасывают (**I was so tired I fell asleep**) — это норма, но писать надёжнее с ним. Не путать с `so that` — это цель, «зачем», и между словами там ничего не стоит.",
+      "examples": [
+        {
+          "ru": "Я так устал, что лёг спать в девять.",
+          "en": "I was so tired that I went to bed at nine."
+        },
+        {
+          "ru": "Сумка была такой тяжёлой, что я взял такси.",
+          "en": "The bag was so heavy that I took a taxi."
+        },
+        {
+          "ru": "Лена говорила так тихо, что её никто не услышал.",
+          "en": "Lena spoke so quietly that nobody heard her."
+        },
+        {
+          "ru": "Было так холодно, что я остался дома.",
+          "en": "It was so cold that I stayed home."
+        },
+        {
+          "ru": "Я так устал, что уснул на диване.",
+          "en": "I was so tired I fell asleep on the sofa."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем so … that отличается от so that, если слова одинаковые?",
+        "Почему перед that не нужна запятая, а в русском запятая обязательна?",
+        "Можно ли всегда выбрасывать that, как это делают в разговоре?"
+      ]
+    },
+    {
+      "id": 433,
+      "microtopicId": 164,
+      "title": "Such … that и so much … that: хвост общий, голова по соседу",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Слева от `that` не обязательно стоит признак — там может оказаться и вещь. И вот тут ничего нового учить не надо: голова конструкции выбирается по той же оси, что и в первых карточках темы. Смотрим, что стоит рядом с усилителем."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "рядом признак — `so`: **The room was so cold that we put on our coats.**",
+            "рядом счётная вещь в единственном числе — `such a`: **It was such a long day that I fell asleep at eight.**",
+            "рядом множественное число или неисчисляемое — `such`: **They were such nice people that we stayed until midnight.**",
+            "рядом количество — `so much` или `so many`: **There was so much noise that I closed the window.** · **Vera asked so many questions that the meeting took two hours.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Новое здесь только хвост"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило выбора не изменилось ни на букву — оно ровно то же, что мы разбирали в карточках про `so` и `such`. Новое ровно одно: у всех четырёх вариантов появился общий хвост — `that` и целая часть после него."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Голова + that + целая часть"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Голову подставляем по соседу справа, а хвост у всех один и тот же."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что стоит рядом",
+            "Голова",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "прилагательное или наречие",
+              "so",
+              "so cold that we went inside"
+            ],
+            [
+              "счётная вещь в единственном числе",
+              "such a",
+              "such a long day that I fell asleep"
+            ],
+            [
+              "множественное число или неисчисляемое",
+              "such",
+              "such good weather that we walked home"
+            ],
+            [
+              "количество",
+              "so much, so many",
+              "so many mistakes that I started again"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Читается таблица слева направо: сначала смотрим на соседа, потом берём голову, потом цепляем хвост. Ошибиться можно только на первом шаге — дальше всё одинаково."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**So a long day that we left** ✗ → **such a long day that we left** ✓ — хвост не отменяет ни `such`, ни артикль внутри него;",
+                "**Such noise that I woke up** ✗ → **so much noise that I woke up** ✓ — количество идёт только через `much` и `many`."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У этой конструкции есть близкий родственник — `too … to`, «слишком X, чтобы Y». По-русски они звучат почти одинаково: «я так устал, что не могу работать» и «я слишком устал, чтобы работать». Английский их различает строго, и разбирать эту вторую половину темы мы будем в следующих карточках — пока просто знайте, что она существует."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Хвост `… that` + целая часть одинаков у всех четырёх вариантов, а голова выбирается по знакомой оси. Рядом признак — `so` (**so cold that we went inside**). Рядом счётная вещь в единственном числе — `such a` (**such a long day that I fell asleep**). Рядом множественное число или неисчисляемое — `such` (**such good weather that we walked home**). Рядом количество — `so much` или `so many` (**so many mistakes that I started again**). Ошибиться можно только на первом шаге, при выборе головы: **so a long day** ✗ и **such noise** ✗ вместо **such a long day** ✓ и **so much noise** ✓.",
+      "examples": [
+        {
+          "ru": "Это был такой длинный день, что я уснул в восемь.",
+          "en": "It was such a long day that I fell asleep at eight."
+        },
+        {
+          "ru": "Там были такие приятные люди, что мы остались до полуночи.",
+          "en": "They were such nice people that we stayed until midnight."
+        },
+        {
+          "ru": "Было столько шума, что я закрыл окно.",
+          "en": "There was so much noise that I closed the window."
+        },
+        {
+          "ru": "Вера задала столько вопросов, что встреча заняла два часа.",
+          "en": "Vera asked so many questions that the meeting took two hours."
+        },
+        {
+          "ru": "В комнате было так холодно, что мы надели куртки.",
+          "en": "The room was so cold that we put on our coats."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, какую голову брать перед that?",
+        "Почему в such a long day артикль не исчезает, когда появляется that?",
+        "Чем so many … that отличается от so … that?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -470,6 +747,54 @@
       "exerciseType": "TRANSFORMATION",
       "exerciseId": 68,
       "orderInCard": 3
+    },
+    {
+      "cardId": 432,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 199,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 432,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 159,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 432,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 69,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 432,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 173,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 433,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 35,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 433,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 173,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 433,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 155,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 433,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 47,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -478,6 +803,22 @@
       "cardId": 431,
       "title": "so или such",
       "userInstruction": "Вставьте в каждый пропуск подходящий усилитель.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "so_such_too_enough_card432_ex1",
+      "cardId": 432,
+      "title": "Скажи одним предложением",
+      "userInstruction": "Перепишите предложение так, чтобы в нём была степень и её результат.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "so_such_too_enough_card433_ex1",
+      "cardId": 433,
+      "title": "Голова к общему хвосту",
+      "userInstruction": "Вставьте в каждый пропуск подходящее начало конструкции.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     }
@@ -508,7 +849,31 @@
       "categoryId": "linking"
     }
   ],
-  "table_fill_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 35,
+      "taskDescription": "впиши подходящее начало конструкции",
+      "rows": [
+        {
+          "hint": "___ dark that I turned on the light",
+          "answer": "so"
+        },
+        {
+          "hint": "___ long trip that we slept all evening",
+          "answer": "such a"
+        },
+        {
+          "hint": "___ traffic that we missed the train",
+          "answer": "so much"
+        },
+        {
+          "hint": "___ mistakes that the teacher was angry",
+          "answer": "so many"
+        }
+      ],
+      "explanation": "в первой строке рядом стоит прилагательное dark, поэтому so. Во второй — счётная вещь trip в единственном числе, значит such и артикль внутри. В третьей traffic неисчисляемое, поэтому so much, а в четвёртой mistakes считаются поштучно, поэтому so many."
+    }
+  ],
   "true_false_exercises": [
     {
       "id": 172,
@@ -540,6 +905,37 @@
         }
       ],
       "explanation": "в первом предложении справа от усилителя голое прилагательное clean, поэтому so. В третьем и пятом справа вещи: счётное woman идёт с артиклем после such, а неисчисляемое news — без артикля. Второе сломано пропущенным артиклем: нужно such a long lesson. В четвёртом артикль лишний: traffic неисчисляемое, верно such traffic."
+    },
+    {
+      "id": 173,
+      "statements": [
+        {
+          "en": "I was so hungry that I ate everything.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The tea was so much hot that I couldn't drink it.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Emma was so nervous that she forgot my name.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The bus was so late so we walked home.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "He drives so carefully that nobody worries.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в первом, третьем и пятом предложениях всё на месте: голый признак усилен через so, а результат прицеплен хвостом that. Во втором лишнее so much — количество тут ни при чём, нужно so hot. В четвёртом стык держат сразу два слова: либо so late that we walked home, либо просто The bus was late, so we walked home."
     }
   ],
   "word_arrangement_exercises": [
@@ -561,6 +957,24 @@
         "such many"
       ],
       "explanation": "вопросы считаются поштучно, поэтому нужно so many. So much идёт с неисчисляемым, so без much и many к существительному не подходит, а such не сочетается с many вообще."
+    },
+    {
+      "id": 155,
+      "situationRu": "Ситуация: Эмма объясняет, почему опоздала: в кафе была огромная очередь.",
+      "correctSentence": "There was such a long queue that I was late.",
+      "words": [
+        "There was",
+        "such a",
+        "long queue",
+        "that",
+        "I was late"
+      ],
+      "distractors": [
+        "so",
+        "so much",
+        "so many"
+      ],
+      "explanation": "рядом с усилителем стоит вещь queue, счётная и в единственном числе, поэтому нужен such вместе с артиклем. So подошло бы к голому прилагательному, а so much и so many усиливают количество, а не саму вещь с признаком."
     }
   ],
   "multiple_choice_exercises": [
@@ -626,6 +1040,48 @@
         }
       ],
       "explanation": "после such стоит существительное morning со своим артиклем, значит усиливается сама вещь — «такое холодное утро». «Слишком» по-английски было бы too cold, а «так холодно» без названной вещи — so cold."
+    },
+    {
+      "id": 199,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Он бежал так быстро, что я не смог его догнать.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "He ran such fast that I couldn't follow him.",
+          "isCorrect": false
+        },
+        {
+          "text": "He ran so fast that I couldn't follow him.",
+          "isCorrect": true
+        },
+        {
+          "text": "He ran so much fast that I couldn't follow him.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "fast — наречие, голый признак, и усиливает его so, а результат цепляется хвостом that. Such ставят только перед существительным, а so much работает с количеством, а не с признаком."
+    },
+    {
+      "id": 173,
+      "choiceType": "CHOICE",
+      "prompt": "It was ___ good weather that we walked home.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "such",
+          "isCorrect": true
+        },
+        {
+          "text": "so",
+          "isCorrect": false
+        },
+        {
+          "text": "such a",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "рядом с усилителем стоит вещь — weather, поэтому нужен such. Артикль ей не нужен: weather неисчисляемое, его нельзя посчитать поштучно. So ставят только перед голым прилагательным или наречием."
     }
   ],
   "text_input_exercises": [],
@@ -650,9 +1106,52 @@
         }
       ],
       "explanation": "гостей можно посчитать по головам, значит нужно so many, а не so much. Such many не существует как сочетание, а so guests не собирается вовсе: голым к существительному so не подходит."
+    },
+    {
+      "id": 159,
+      "wrongSentence": "The music was such loud that we closed the door.",
+      "options": [
+        {
+          "text": "The music was so much loud that we closed the door.",
+          "isCorrect": false
+        },
+        {
+          "text": "The music was such a loud that we closed the door.",
+          "isCorrect": false
+        },
+        {
+          "text": "The music was so loud that we closed the door.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "рядом с усилителем стоит прилагательное loud, а не вещь, поэтому нужен so, а не such. So much описывает количество, а вариант с артиклем требует после себя существительное, которого в предложении нет."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 47,
+      "construction": "There were so many people that we couldn't find a seat.",
+      "options": [
+        {
+          "text": "Людей было так много, поэтому мы искали место.",
+          "isCorrect": false
+        },
+        {
+          "text": "Людей было слишком много, чтобы найти место.",
+          "isCorrect": false
+        },
+        {
+          "text": "Народу было столько, что мы не нашли, где сесть.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мы не нашли место, потому что людей было немного.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "so many усиливает количество людей, а хвост that рассказывает, чем это кончилось — «столько, что…». Вариант с «поэтому» был бы просто so, вариант со «слишком, чтобы» — это конструкция с too, а последний вариант переворачивает смысл на противоположный."
+    }
+  ],
   "transformation_exercises": [
     {
       "id": 68,
@@ -672,6 +1171,25 @@
         }
       ],
       "explanation": "вещь переезжает из подлежащего вправо от усилителя, и вместе с ней туда же уходит артикль: so funny превращается в such a funny book. Прилагательное при этом не меняется — меняется только упаковка мысли."
+    },
+    {
+      "id": 69,
+      "taskDescription": "перепиши каждое предложение через so … that.",
+      "items": [
+        {
+          "original": "The soup was hot, so I waited.",
+          "transformed": "The soup was so hot that I waited."
+        },
+        {
+          "original": "Kate was tired, so she left early.",
+          "transformed": "Kate was so tired that she left early."
+        },
+        {
+          "original": "The film was long, so we left.",
+          "transformed": "The film was so long that we left."
+        }
+      ],
+      "explanation": "связка со стыка уезжает внутрь первой части и прилипает к признаку, а границу между частями начинает держать that. Сами части при этом не меняются: что было причиной, то и осталось, просто акцент переехал на степень."
     }
   ],
   "categorization_exercises": [
