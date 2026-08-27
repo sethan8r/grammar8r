@@ -962,26 +962,408 @@
 
 ---
 
+## Microtopic 166 — Enough · Хватает — и место решает
+
+**ID:** 166 | **Order:** 4
+**Теги:** куда ставить enough, old enough или enough old, enough time или time enough, too small или not big enough, почему enough стоит после слова
+
+---
+
+### Card 437 · Enough после признака, перед вещью
+
+**ID:** 437 | **Order:** 1
+
+#### Theory
+
+Со словом `enough` мы уже здоровались в «Наречиях»: там оно значило «достаточно» и стояло в паре с `too`. Со смыслом сюрпризов не будет — «хватает, столько, сколько нужно». Сюрприз у этого слова один, зато крупный: место в предложении.
+
+По-русски «достаточно» стоит впереди — всегда, без исключений: «достаточно тепло», «достаточно быстро», «достаточно времени», «достаточно стульев». Признак справа или вещь — русскому всё равно, порядок один на все случаи. Английский же смотрит вправо, как и во всей этой теме, и ставит `enough` по разные стороны.
+
+**Формула:** прилагательное или наречие + enough · enough + существительное
+
+Справа признак — `enough` идёт ПОСЛЕ него:
+- **warm enough**, **old enough**, **fast enough**, **well enough**
+
+Справа вещь — `enough` идёт ПЕРЕД ней, как обычное слово:
+- **enough time**, **enough money**, **enough chairs**
+
+**Почему место разное**
+
+Смысл в обоих случаях один, а роли у слова разные — отсюда и место. Когда справа признак, `enough` его ДОПОЛНЯЕТ: сначала называем качество, потом уточняем меру — «тёплый… и настолько, насколько надо». Уточнение в английском идёт следом за тем, что уточняет.
+
+Когда справа вещь, `enough` её СЧИТАЕТ — и занимает место числительного. Сравните: **three chairs**, **five chairs**, **enough chairs** — слово встало ровно туда, где стояло число. Ни одно число в английском за существительное не убегает, и `enough` в этой роли тоже.
+
+**Кстати:** отсюда самая быстрая проверка. Подставьте на место `enough` число. «Три стула» ✓ — значит справа вещь, и `enough` встаёт впереди. «Три тёплый» ✗ — значит справа признак, и `enough` уходит назад.
+
+**Ловушка:** **enough old** ✗ → **old enough** ✓ · **enough warm** ✗ → **warm enough** ✓ · **enough quickly** ✗ → **quickly enough** ✓. Ошибка идёт прямиком из русского порядка слов, и делают её даже те, кто правило знает. Спасает не заучивание, а привычка: услышали в голове «достаточно + признак» — мысленно переверните пару.
+
+**Enough сам по себе**
+
+Это слово умеет работать и без пары — тогда оно значит «хватит» и стоит одно:
+- **That's enough!** — всё, хватит: про спор, про шум, про добавку на тарелке;
+- **I've had enough.** — с меня хватит: и про еду, и про терпение;
+- **Enough!** — резкое «хватит!» одним словом.
+
+**Примечание:** `enough` попадается и в компании слов о количестве (`a few`, `a little`, `plenty of`) — весь этот ряд разберём позже, в «Дополнительных конструкциях». Здесь оно нужно нам только как усилитель.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Русское «достаточно» всегда стоит впереди, английское `enough` — по-разному, и решает сосед справа. Справа прилагательное или наречие — `enough` идёт ПОСЛЕ него (**warm enough**, **old enough**, **well enough**); справа существительное — ПЕРЕД ним, на месте числительного (**enough time**, **enough chairs** — как **three chairs**). Отсюда главная ошибка: **enough warm** ✗ → **warm enough** ✓. Ещё это слово работает и одно: **That's enough!**, **I've had enough**.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1897 | Он уже достаточно взрослый. | He is old enough. |
+| 1898 | Вода недостаточно горячая. | The water isn't hot enough. |
+| 1899 | У нас достаточно времени. | We have enough time. |
+| 1900 | В комнате не хватает стульев. | There aren't enough chairs in the room. |
+| 1901 | Всё, хватит! | That's enough! |
+
+---
+
+#### Exercises
+
+**Ex 28 · MultipleChoice · CHOICE** *(ID: 175)*
+
+"There isn't ___ in the fridge."
+
+- enough of milk
+- **enough milk** ✓
+- milk enough
+
+*Explanation:* milk — вещь, а перед существительным enough встаёт первым, на место числа: three bottles, enough milk. Предлог of тут лишний, а порядок milk enough в современном языке не используют.
+
+---
+
+**Ex 29 · Categorization** *(ID: 95)*
+
+Задание: распредели слова по тому, с какой стороны от них встанет enough.
+
+| enough + слово | слово + enough |
+|----------------|----------------|
+| bread | strong |
+| tickets | quietly |
+| seats | tall |
+
+*Explanation:* слева стоят существительные — хлеб, билеты и места, поэтому enough идёт перед ними, как число: enough bread, enough tickets. Справа — признаки: strong и tall описывают какой, quietly описывает как, и после таких слов enough встаёт следом: strong enough, quietly enough.
+
+---
+
+**Ex 30 · ErrorCorrection** *(ID: 161)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"This bag isn't enough strong for my laptop."
+
+- **This bag isn't strong enough for my laptop.** ✓
+- This bag isn't so strong enough for my laptop.
+- This bag isn't strong enough to my laptop.
+
+*Explanation:* перед прилагательным enough не ставят — оно идёт следом: strong enough. Адресата вводит for, а не to, и приклеивать so к enough тоже нельзя: усиление и мерка — разные вещи, вместе они не работают.
+
+---
+
+**Ex 31 · TrueFalse** *(ID: 175)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Lily doesn't have enough experience for this job. | ✓ |
+| 2 | The room is quiet enough for a meeting. | ✓ |
+| 3 | This shelf isn't enough high for the box. | ✗ |
+| 4 | Mark speaks loudly enough on the phone. | ✓ |
+| 5 | Are there tickets enough for everyone? | ✗ |
+
+*Explanation:* в первом enough стоит перед вещью (experience), во втором и четвёртом — после признака (quiet, loudly), и это верный порядок. В третьем enough забежал вперёд прилагательного: нужно high enough. В пятом наоборот — перед существительным оно обязано идти первым: enough tickets.
+
+---
+
+#### Clarification Options
+
+- Почему перед существительным enough стоит впереди, а перед прилагательным — сзади?
+- Как быстро понять, справа от enough признак или вещь?
+- Что именно значит I've had enough?
+
+---
+
+### Card 438 · Enough + to + V1: хватает, чтобы
+
+**ID:** 438 | **Order:** 2
+
+#### Theory
+
+Мы только что собрали `too … to` — «слишком X, чтобы Y». У `enough` хвост ровно такой же, и это вторая половина той же мысли: не «перебор, дело срывается», а «хватает, дело выходит».
+
+**Формула:** прилагательное или наречие + enough + to + V1
+
+- **She's old enough to drive.**
+- **Is it warm enough to sit outside?**
+
+**Формула:** enough + существительное + to + V1
+
+- **I don't have enough money to buy it.**
+- **We had enough time to walk to the station.**
+
+**Хвост общий, а голова на своих местах**
+
+Вот единственное, что тут надо держать в голове. Хвост `to` плюс глагол у `too` и у `enough` одинаковый, а сами слова стоят по разные стороны признака:
+
+- **too fast to understand** — `too` впереди;
+- **fast enough to understand** — `enough` позади.
+
+Мысли при этом противоположные: первая — «говорит так быстро, что не разобрать», вторая — «говорит достаточно быстро, чтобы разобрать». Порядок слов здесь несёт весь смысл, поэтому перепутать половины — значит сказать обратное.
+
+**Отрицание тут ставим сами**
+
+У `too` негатив сидит внутри слова: **too young to drive** уже значит «водить нельзя», и `not` там был бы лишним. У `enough` внутри нет ничего отрицательного — «хватает» и есть «хватает». Поэтому, чтобы сказать «не хватает», отрицание надо поставить своей рукой — к связке или к глаголу:
+
+- **not good enough** — недостаточно хорош;
+- **not fast enough** — недостаточно быстро;
+- **not enough time** — времени мало.
+
+И это самая живая форма конструкции: в речи `enough` куда чаще жалуется на нехватку, чем сообщает, что всего вдоволь. **This coffee isn't strong enough.** **He doesn't earn enough to rent a flat.**
+
+**Ловушки:**
+- **enough good** ✗ → **good enough** ✓ — порядок из предыдущей карточки не меняется от того, что появился хвост;
+- **not enough big** ✗ → **not big enough** ✓ — `not` цепляется к связке, а `enough` остаётся за признаком;
+- **old enough for drive** ✗ → **old enough to drive** ✓ — русское «для» тянет за собой `for`, но перед глаголом стоит `to`. Ловушка та же, что у `too`.
+
+**Для кого хватает**
+
+Адресата, как и у `too`, вводит `for`: **This is good enough for me.** **The soup is hot enough for the kids.** А если названы и адресат, и дело, обе половины встают подряд — сначала `for` с человеком, потом `to` с глаголом: **He doesn't speak slowly enough for me to understand.**
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Конструкция собирается так: признак + `enough` + `to` + глагол в первой форме (**She's old enough to drive**) или `enough` + существительное + `to` + глагол (**I don't have enough money to buy it**). Хвост тот же, что у `too`, но само слово стоит с другой стороны: **too fast to understand** ↔ **fast enough to understand** — и смысл получается противоположный. Отрицание здесь ставим сами, потому что внутри `enough` негатива нет: **not good enough**, **not enough time**. Ошибки: **enough good** ✗, **not enough big** ✗ → **not big enough** ✓, **old enough for drive** ✗ → **to drive** ✓.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1902 | Она достаточно взрослая, чтобы водить машину. | She's old enough to drive. |
+| 1903 | На улице достаточно тепло, чтобы посидеть снаружи? | Is it warm enough to sit outside? |
+| 1904 | Мне не хватает денег, чтобы это купить. | I don't have enough money to buy it. |
+| 1905 | Для меня это достаточно хорошо. | This is good enough for me. |
+| 1906 | Он говорит недостаточно медленно, чтобы я его понял. | He doesn't speak slowly enough for me to understand. |
+
+---
+
+#### Exercises
+
+**Ex 32 · MultipleChoice · FORWARD_CHOICE** *(ID: 201)*
+
+"Настя достаточно хорошо говорит по-английски, чтобы работать гидом."
+
+- Nastya speaks English enough well to work as a guide.
+- Nastya speaks English well enough for work as a guide.
+- **Nastya speaks English well enough to work as a guide.** ✓
+
+*Explanation:* well — наречие, поэтому enough встаёт после него. Перед глаголом в этом хвосте всегда стоит to: for тянется из русского «для» и здесь не работает.
+
+---
+
+**Ex 33 · WordArrangement** *(ID: 157)*
+
+Ситуация: Гриша не может унести коробку без помощи.
+
+Правильное предложение: **The box isn't light enough to carry alone.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| The box | — |
+| isn't | — |
+| light enough | — |
+| to carry | — |
+| alone | — |
+| enough light | ✗ |
+| for carry | ✗ |
+| that I can't carry | ✗ |
+| too light | ✗ |
+
+*Explanation:* light — прилагательное, значит enough идёт после него, а перед глаголом стоит to. Хвост that I can't carry взят из so … that, а too light сказало бы обратное — что коробка слишком лёгкая.
+
+---
+
+**Ex 34 · Transformation** *(ID: 71)*
+
+Задание: скажи то же самое одним предложением через enough.
+
+1. "The tea is not hot. I can't drink it." → **"The tea isn't hot enough to drink."**
+2. "The car is not fast. It can't win." → **"The car isn't fast enough to win."**
+3. "The music is not loud. We can't hear it." → **"The music isn't loud enough to hear."**
+
+*Explanation:* два предложения сжимаются в одно: признак получает enough следом за собой, а часть с can't превращается в to плюс глагол. Отрицание при этом остаётся при связке (isn't) — внутри enough, в отличие от too, негатива нет, и без not фраза сказала бы обратное.
+
+---
+
+**Ex 35 · MultipleChoice · REVERSE_CHOICE** *(ID: 64)*
+
+"Lena isn't well enough to go back to work."
+
+- Лена достаточно хорошо работает, чтобы вернуться.
+- **Лена ещё не настолько здорова, чтобы вернуться на работу.** ✓
+- Лена слишком хорошо себя чувствует, чтобы работать.
+
+*Explanation:* well здесь значит «здоров», а not well enough — что здоровья пока не хватает, поэтому до работы дело не дошло. Про «слишком» было бы too well, а про «достаточно хорошо работает» — works well enough.
+
+---
+
+#### Clarification Options
+
+- Почему у too отрицание не нужно, а у enough нужно?
+- Чем fast enough to understand отличается от too fast to understand?
+- Как сказать, что чего-то не хватает именно мне?
+
+---
+
+### Card 439 · Одна мысль — три упаковки
+
+**ID:** 439 | **Order:** 3
+
+#### Theory
+
+Теперь соберём тему в одну картинку. `so … that`, `too … to` и `… enough to` — это не три отдельных правила, а три способа упаковать ОДНУ мысль. Возьмём душную ночь:
+
+- **It's too hot to sleep.** — жарко настолько, что не уснуть: перебор жары;
+- **It's not cool enough to sleep.** — прохлады не хватает, чтобы уснуть: нехватка прохлады;
+- **It's so hot that I can't sleep.** — так жарко, что я не могу уснуть: следствие целой частью.
+
+Смысл у всех трёх один: спать невозможно из-за жары. Отличаются они только тем, с какой стороны говорящий смотрит на одну и ту же мерку.
+
+**Правило перехода между упаковками**
+
+Между `too` и `enough` переход механический: берём противоположный признак и добавляем `not`.
+
+**Формула:** too + признак ↔ not + противоположный признак + enough
+
+- **too small** ↔ **not big enough**
+- **too heavy** ↔ **not light enough**
+- **too late** ↔ **not early enough**
+
+`so … that` устроен иначе: он признак не меняет, а разворачивает последствие в целую часть — с подлежащим и глаголом. Поэтому там, где у `too` и `enough` короткий хвост **to drink**, у `so` вырастает полноценное **that I can't drink it**.
+
+**Зачем это на практике**
+
+Польза тут совсем не теоретическая. Забыли нужное слово — скажите через противоположное. Не вспомнили `heavy` — скажите **not light enough**; не знаете `cheap` — скажите **too expensive**. Носитель поймёт вас одинаково, а разговор не встанет из-за одного слова.
+
+**Ловушка:** упаковки нельзя смешивать. **not too small enough** ✗ · **too hot that I can't sleep** ✗ · **so hot to sleep** ✗ — в каждой фразе склеены детали от двух разных конструкций. Выбрали упаковку — держитесь её до конца предложения.
+
+**Вся тема на одном экране**
+
+| Слово | Что стоит справа | Эмоция или мерка | Хвост |
+|-------|------------------|------------------|-------|
+| so | признак | эмоция: ого, как! | that + целая часть |
+| such (a) | вещь | эмоция: ого, какой! | that + целая часть |
+| too | признак; too much/many + вещь | мерка: перебор | to + глагол |
+| enough | после признака, перед вещью | мерка: хватает | to + глагол |
+
+Всю таблицу заменяют два вопроса. Что стоит справа — признак или вещь? И зачем я это говорю — поделиться впечатлением или отмерить под задачу?
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Одна и та же мысль упаковывается тремя способами: **It's too hot to sleep** ↔ **It's not cool enough to sleep** ↔ **It's so hot that I can't sleep**. Между `too` и `enough` переход механический — противоположный признак плюс `not`: **too small** ↔ **not big enough**, **too heavy** ↔ **not light enough**. `so … that` вместо короткого хвоста разворачивает последствие в целую часть с подлежащим. Смешивать упаковки нельзя: **too hot that I can't sleep** ✗. Практическая польза — забыли слово, скажите через противоположное.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 1907 | Слишком жарко, чтобы спать. | It's too hot to sleep. |
+| 1908 | Недостаточно прохладно, чтобы спать. | It's not cool enough to sleep. |
+| 1909 | Так жарко, что я не могу уснуть. | It's so hot that I can't sleep. |
+| 1910 | Эти кроссовки мне слишком маленькие. | These shoes are too small for me. |
+| 1911 | Эти кроссовки мне маловаты. | These shoes aren't big enough for me. |
+
+---
+
+#### Exercises
+
+**Ex 36 · Matching** *(ID: 67)*
+
+Задание: соедини фразу с too и равную ей по смыслу фразу с enough.
+
+| С too | С enough |
+|-------|----------|
+| too slow | not fast enough |
+| too quiet | not loud enough |
+| too short | not long enough |
+| too dirty | not clean enough |
+
+*Explanation:* в каждой паре одна мысль в двух упаковках: too называет перебор признака, а not … enough — нехватку противоположного. Медленное = не быстрое, тихое = не громкое, короткое = не длинное, грязное = не чистое.
+
+---
+
+**Ex 37 · ConstructionMeaning** *(ID: 49)*
+
+Выбери правильный перевод:
+
+"She isn't experienced enough to lead the team."
+
+- Она слишком опытная, чтобы вести команду.
+- Она достаточно опытная, чтобы вести команду.
+- **Опыта ей пока не хватает, чтобы вести команду.** ✓
+- Она тоже хочет вести команду.
+
+*Explanation:* not … enough означает нехватку: опыт есть, но для этого дела его мало. Без not фраза сказала бы обратное, too experienced — что опыт мешает, а «тоже» — это too в самом конце предложения.
+
+---
+
+**Ex 38 · TextInput** *(ID: 82)*
+
+Скажи то же самое через not … enough — впиши подходящее слово из банка.
+Банк: дешёвая, тёплый, безопасная
+
+1. "It's too cold to sit outside. → It's not ___ enough to sit outside."
+   Ответ: **warm**
+2. "This road is too dangerous to walk at night. → This road isn't ___ enough to walk at night."
+   Ответ: **safe**
+3. "This flat is too expensive for us. → This flat isn't ___ enough for us."
+   Ответ: **cheap**
+
+*Explanation:* переход всегда идёт через противоположный признак: холодно значит не тепло, опасная значит не безопасная, дорогая значит не дешёвая. Само слово enough при этом остаётся за признаком, а отрицание сидит при связке.
+
+---
+
+**Ex 39 · FindTheOdd** *(ID: 82)*
+
+Три фразы говорят одно и то же, а одна — обратное:
+
+- It's too dark to read here.
+- It isn't bright enough to read here.
+- It's so dark that we can't read here.
+- **It's bright enough to read here.** ✓
+
+*Explanation:* первые три сообщают одно: света мало, читать не выйдет — просто в трёх разных упаковках. Четвёртая фраза переворачивает смысл: света хватает, читать можно.
+
+---
+
+#### Clarification Options
+
+- Почему too small и not big enough значат одно и то же?
+- Когда лучше сказать через so … that, а не через too или enough?
+- Что не так во фразе too hot that I can't sleep?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 26 | 27 |
-| Microtopic | 165 | 166 |
-| Card | 436 | 437 |
-| Example | 1896 | 1897 |
+| Microtopic | 166 | 167 |
+| Card | 439 | 440 |
+| Example | 1911 | 1912 |
 | Слова курса (course_word) | 690 | 691 |
-| MultipleChoice · CHOICE | 174 | 175 |
-| MultipleChoice · FORWARD_CHOICE | 200 | 201 |
-| MultipleChoice · REVERSE_CHOICE | 63 | 64 |
-| TrueFalse | 174 | 175 |
-| WordArrangement | 156 | 157 |
-| TextInput | 81 | 82 |
-| Matching | 66 | 67 |
-| ErrorCorrection | 160 | 161 |
-| FindTheOdd | 81 | 82 |
-| Categorization | 94 | 95 |
+| MultipleChoice · CHOICE | 175 | 176 |
+| MultipleChoice · FORWARD_CHOICE | 201 | 202 |
+| MultipleChoice · REVERSE_CHOICE | 64 | 65 |
+| TrueFalse | 175 | 176 |
+| WordArrangement | 157 | 158 |
+| TextInput | 82 | 83 |
+| Matching | 67 | 68 |
+| ErrorCorrection | 161 | 162 |
+| FindTheOdd | 82 | 83 |
+| Categorization | 95 | 96 |
 | TableFill | 35 | 36 |
-| Transformation | 70 | 71 |
-| ConstructionMeaning | 48 | 49 |
+| Transformation | 71 | 72 |
+| ConstructionMeaning | 49 | 50 |
 | DialogRestore | 57 | 58 |
