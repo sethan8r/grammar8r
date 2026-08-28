@@ -25,6 +25,13 @@
       "title": "What Is Past Perfect · Что такое Past Perfect",
       "order": 1,
       "searchKeywords": "зачем нужно had, had left или left, had без второго события, when i came he had left, had и did в одном предложении"
+    },
+    {
+      "id": 169,
+      "topicId": 27,
+      "title": "had + V3 · Как собрать Past Perfect",
+      "order": 2,
+      "searchKeywords": "had went или had gone, d это had или would, как задать вопрос с had, did you had ошибка, had меняется по лицам"
     }
   ],
   "grammar_cards": [
@@ -445,10 +452,473 @@
         "Почему в рассказе по порядку had не нужен?",
         "Как проверить себя, что had здесь лишний?"
       ]
+    },
+    {
+      "id": 444,
+      "microtopicId": 169,
+      "title": "Формула had + V3",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Смысловую часть мы прошли — дальше будет неожиданно легко. Past Perfect собирается из двух кусочков, и оба нам уже знакомы."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Had + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первый кусочек — `had`. Здесь он больше не значит «имел»: это служебное слово, маркер того самого «ранее», ровно как `have` в микротеме «Форма: have/has + V3». Второй кусочек — третья форма глагола, она и несёт смысл действия. Смысл в глаголе, отметка о времени — в `had`."
+        },
+        {
+          "type": "heading",
+          "text": "Одна форма на все лица"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот подарок этой темы. Вспомните, сколько раз английский заставлял выбирать форму под лицо: `am/is/are`, `do/does`, `have/has`, `was/were` — каждый раз развилка, каждый раз шанс промахнуться. Здесь развилки нет вообще:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Подлежащее",
+            "Форма",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "I / you / we / they",
+              "had + V3",
+              "I had finished"
+            ],
+            [
+              "he / she / it",
+              "had + V3",
+              "Kate had finished"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскому это непривычно с обратной стороны. В русском как раз прошедшее время постоянно меняется — по родам и числам: «он **пришёл**», «она **пришла**», «они **пришли**». Три разные формы там, где английский обходится одним неизменным `had`. Так что это тот редкий случай, когда английский проще: выбирать не из чего."
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит на третьей полке"
+        },
+        {
+          "type": "paragraph",
+          "text": "Третья форма — та самая V3 из темы «Формы глаголов». У правильных глаголов она собирается сама: **reach → reached → reached**, **whisper → whispered → whispered**, **afford → afforded → afforded** — вторая и третья полки совпадают. У неправильных форму приходится знать: **go → went → gone**, **write → wrote → written**, **break → broke → broken**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Оля не успела на лекцию: **The lecture had already started.**",
+            "Игорь объяснил, почему опоздал: **He had missed the last bus.**",
+            "Вера не смогла войти в квартиру: **She had left her keys at work.**",
+            "Катя отказалась от поездки: **She couldn't afford it — she had lost her job in May.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I had went** ✗ → **I had gone** ✓. Рука хватает вторую полку вместо третьей — ту форму, которой пользовались в простом прошедшем. После `had` вторая полка не стоит никогда: там живёт только V3."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He has had left** ✗ — слеплены два перфекта сразу. Помощник в предложении один: либо `has` (перфект настоящего), либо `had` (перфект прошедшего), но не оба разом. Верно: **He had left** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одно слово — другое сообщение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните две строчки, где различие ровно в одном слове:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I left when she called.** — сначала звонок, потом я вышел.",
+            "**I had left when she called.** — сначала я вышел, потом раздался звонок, и меня уже не застали."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски обе фразы звучат почти одинаково («я ушёл, когда она позвонила»), и порядок русский додумывает сам. В английском его определяет одно короткое слово — то самое `had`."
+        }
+      ],
+      "theorySummary": "Past Perfect собирается как `had + V3`: `had` — служебный маркер «ранее», третья форма глагола несёт смысл. Форма **одна на все лица** — `I had`, `Kate had`, `they had`, никакого выбора между `have/has` и никаких окончаний. На третьей полке у правильных глаголов та же форма, что на второй (**reached**, **whispered**), у неправильных — своя (**gone**, **written**). Главная ловушка: **I had went** ✗ вместо **I had gone** ✓ — после `had` вторая форма не ставится никогда.",
+      "examples": [
+        {
+          "ru": "Лекция уже началась.",
+          "en": "The lecture had already started."
+        },
+        {
+          "ru": "Он опоздал на последний автобус.",
+          "en": "He had missed the last bus."
+        },
+        {
+          "ru": "Она оставила ключи на работе.",
+          "en": "She had left her keys at work."
+        },
+        {
+          "ru": "Я ушёл, и только потом она позвонила.",
+          "en": "I had left when she called."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после had нельзя поставить вторую форму, если она тоже прошедшая?",
+        "Как отличить правильный глагол от неправильного, если я не помню его форм?",
+        "Чем had отличается от has в такой конструкции?"
+      ]
+    },
+    {
+      "id": 445,
+      "microtopicId": 169,
+      "title": "Сокращения и слух: I'd, he'd, we'd",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В живой речи `had` целиком почти не звучит. Оно схлопывается в короткий хвостик `'d` и приклеивается к подлежащему: **I'd**, **you'd**, **he'd**, **she'd**, **we'd**, **they'd**. В книгах и в чате вы увидите именно эту форму, а не полную."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего страшного в этом бы не было, если бы не одна вещь."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`'D` — это `had` **или** `would`, и на слух они не различаются никак. **He'd left** и **He'd leave** звучат почти одинаково, а значат совершенно разное."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ключ, который решает всё"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотрите не на сам хвостик, а на то, что идёт **следом**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "следом третья форма → это `had`: **He'd left the office.** — он уже ушёл из офиса;",
+            "следом первая форма → это `would`: **He'd leave the office.** — он бы ушёл из офиса."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё три пары для тренировки глаза:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She'd finished the lecture.** (уже закончила) ↔ **She'd finish the lecture.** (закончила бы)",
+            "**They'd reached the airport.** (уже добрались) ↔ **They'd reach the airport.** (добрались бы)",
+            "**We'd paid for it.** (уже заплатили) ↔ **We'd pay for it.** (заплатили бы)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ключ механический, гадать не нужно: форма глагола после `'d` — единственный свидетель. Точно так же мы уже разбирали `'s`, который бывает и `is`, и `has`, — принцип тот же, только полки другие."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание тоже сокращается"
+        },
+        {
+          "type": "paragraph",
+          "text": "`had not` в речи почти всегда звучит как `hadn't`: **I hadn't noticed it.** Полную форму `had not` берегут для нажима — когда человек хочет подчеркнуть: «я этого **не** видел»."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский теряет `'d` на слух"
+        },
+        {
+          "type": "paragraph",
+          "text": "Хвостик `'d` — самый незаметный звук в предложении. Стоит собеседнику заторопиться или начать шептать (`to whisper`), и он пропадает совсем: ухо слышит **he left**, а сказано было **he'd left**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Нам это на самом деле знакомо. По-русски мы точно так же глотаем звуки: «здравствуйте» превращается в «драсьте», «сейчас» — в «щас», и никто не переспрашивает — слушатель достраивает слово по смыслу фразы. Разница в том, что там мы достраиваем на родном автомате, а здесь автомата пока нет, и его роль играет правило выше: услышали хвостик — посмотрите, какая форма глагола идёт следом."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Потеря `'d` на слух опасна тем, что переезжает на письмо. Не расслышал — не записал — и получилось предложение с потерянным порядком событий, то самое **When I came, he left** вместо **he had left**."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В живой речи `had` схлопывается в `'d` и приклеивается к подлежащему: **I'd**, **he'd**, **they'd**. Ловушка в том, что `'d` — это ещё и `would`, и различает их только форма следом: третья форма → `had` (**He'd left** — уже ушёл), первая → `would` (**He'd leave** — ушёл бы). Отрицание тоже сокращается: `hadn't`. На слух хвостик почти пропадает, поэтому в беглой речи **he left** и **he'd left** различить трудно — помогает тот же ключ по форме глагола.",
+      "examples": [
+        {
+          "ru": "Он уже ушёл из офиса.",
+          "en": "He'd left the office."
+        },
+        {
+          "ru": "Он бы ушёл из офиса.",
+          "en": "He'd leave the office."
+        },
+        {
+          "ru": "Я этого не заметил.",
+          "en": "I hadn't noticed it."
+        },
+        {
+          "ru": "Они уже добрались до аэропорта.",
+          "en": "They'd reached the airport."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять на слух, сказали he left или he'd left?",
+        "Почему нельзя определить 'd по интонации?",
+        "Когда пишут had not полностью, а не hadn't?"
+      ]
+    },
+    {
+      "id": 446,
+      "microtopicId": 169,
+      "title": "Отрицание и вопрос",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Отрицание и вопрос в этом времени строятся без единого нового слова: всю работу делает тот же `had`. Он ведь служебный — значит, он и берёт на себя `not`, и он же выходит вперёд в вопросе."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Hadn't + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I hadn't finished the report.** — к тому моменту отчёт ещё не был готов.",
+            "**They hadn't reached the office by nine.** — к девяти до офиса не добрались."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос: had выходит вперёд"
+        },
+        {
+          "type": "paragraph",
+          "text": "В вопросе `had` встаёт перед подлежащим, а третья форма остаётся на месте:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Had you seen him before that evening?**",
+            "**Had the lecture already started when you came in?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Краткие ответы строятся на нём же: **Yes, I had.** / **No, I hadn't.** Повторять глагол не нужно — англичанину достаточно помощника."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскому здесь непривычно вот что: у нас вопрос делается **интонацией**, слова остаются на местах. «Ты успел» и «Ты успел?» — одни и те же два слова, разница только в голосе. Английский голосом не обходится: он физически переставляет слово вперёд, и без перестановки фраза вопросом не станет."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос: Hadn't he told you?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Такой вопрос задают, когда ожидали обратного и слегка удивлены: **Hadn't he told you about the trip?** — «Разве он тебе не сказал?». По-русски это наше «разве не…?» — тот же оттенок недоумения."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Hadn't you booked the table?** — я был уверен, что столик заказан.",
+            "**Hadn't she noticed the mistake?** — неужели она не заметила?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Так же он звучит и в шутливом препирательстве: **— Hadn't I warned you about the traffic? — Don't be silly, you hadn't.** Обратите внимание, что и в ответе работает тот же помощник: повторять весь глагол не нужно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Did you had breakfast?** ✗ и **I didn't had time** ✗. Рука тянет `did`, потому что речь о прошлом. Но `had` здесь сам служебный, и второй помощник ему не нужен — мы разбирали это в теме «Служебные глаголы»: помощник в предложении один. Верно: **Had you had breakfast?** ✓ и **I hadn't had time** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Had you finish the work?** ✗ — помощник вышел вперёд правильно, но глагол потерял третью форму. Верно: **Had you finished the work?** ✓"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "О чём вообще спрашивают этим временем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Не «что было» — на это отвечает простое прошедшее. Этим временем спрашивают, **успел ли человек до какого-то момента**: **Had you eaten before the film started?** — то есть ел ли ты **до** начала фильма. Точка отсчёта в вопросе почти всегда названа вслух: `before that evening`, `by nine`, `when you came in`. Если её нет ни в вопросе, ни в разговоре вокруг — скорее всего, нужен другой вопрос, попроще."
+        }
+      ],
+      "theorySummary": "Отрицание и вопрос держит сам `had`: `hadn't + V3` (**I hadn't finished the report**), а в вопросе `had` выходит вперёд подлежащего (**Had you seen him before that evening?**), краткие ответы — **Yes, I had** / **No, I hadn't**. Отрицательный вопрос **Hadn't he told you?** = наше «разве не сказал?». Главные ловушки: **Did you had…** ✗ и **I didn't had…** ✗ — второй помощник не нужен, и **Had you finish?** ✗ — глагол обязан остаться в третьей форме.",
+      "examples": [
+        {
+          "ru": "Я не успел закончить отчёт.",
+          "en": "I hadn't finished the report."
+        },
+        {
+          "ru": "Ты видел его до того вечера?",
+          "en": "Had you seen him before that evening?"
+        },
+        {
+          "ru": "Разве он тебе не сказал про поездку?",
+          "en": "Hadn't he told you about the trip?"
+        },
+        {
+          "ru": "Нет, не успел.",
+          "en": "No, I hadn't."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя спросить Did you had, если речь о прошлом?",
+        "Чем отрицательный вопрос отличается от обычного по смыслу?",
+        "Как коротко ответить на такой вопрос, не повторяя всё предложение?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 444,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 176,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 444,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 176,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 444,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 36,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 444,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 158,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 445,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 50,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 445,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 96,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 445,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 177,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 446,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 162,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 446,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 72,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 446,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 58,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 446,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 202,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "past_perfect_card446_ex1",
+      "cardId": 446,
+      "title": "Вопрос и отрицание",
+      "userInstruction": "ИИ пришлёт английское утверждение. Перепишите его два раза: вопросом и отрицанием.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "tenses",
@@ -465,17 +935,325 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
+  "course_words": [
+    {
+      "id": 691,
+      "word": "to reach",
+      "translation": "добираться, доходить до",
+      "transcription": "[riːtʃ]",
+      "microtopicId": 169,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 692,
+      "word": "to whisper",
+      "translation": "шептать",
+      "transcription": "[ˈwɪspə]",
+      "microtopicId": 169,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 693,
+      "word": "to afford",
+      "translation": "позволить себе",
+      "transcription": "[əˈfɔːd]",
+      "microtopicId": 169,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 694,
+      "word": "lecture",
+      "translation": "лекция",
+      "transcription": "[ˈlektʃə]",
+      "microtopicId": 169,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 695,
+      "word": "silly",
+      "translation": "глупый, дурацкий",
+      "transcription": "[ˈsɪli]",
+      "microtopicId": 169,
+      "categoryId": "tenses"
+    }
+  ],
+  "table_fill_exercises": [
+    {
+      "id": 36,
+      "taskDescription": "впиши третью форму глагола.",
+      "rows": [
+        {
+          "hint": "to reach",
+          "answer": "reached"
+        },
+        {
+          "hint": "to speak",
+          "answer": "spoken"
+        },
+        {
+          "hint": "to break",
+          "answer": "broken"
+        },
+        {
+          "hint": "to whisper",
+          "answer": "whispered"
+        },
+        {
+          "hint": "to take",
+          "answer": "taken"
+        }
+      ],
+      "explanation": "У правильных глаголов третья форма собирается сама: основа плюс -ed. У неправильных её надо знать в лицо — spoken, broken, taken."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 176,
+      "statements": [
+        {
+          "en": "Tom had finish his report before the meeting.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She had whispered something and left the room.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They had reached the station before the storm started.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I had went to bed before midnight.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My parents had already paid for the trip.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "После had всегда стоит третья форма: finished, а не finish; gone, а не went. В верных строчках форма собрана правильно — whispered и reached у правильных глаголов совпадают со второй полкой, paid у неправильного своя."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 158,
+      "situationRu": "Ситуация: Рома объясняет, почему не смог заплатить за ужин.",
+      "correctSentence": "He had left his wallet at home.",
+      "words": [
+        "He",
+        "had",
+        "left",
+        "his",
+        "wallet",
+        "at",
+        "home"
+      ],
+      "distractors": [
+        "has",
+        "would",
+        "leaves",
+        "leaving"
+      ],
+      "explanation": "Кошелёк остался дома раньше, чем принесли счёт, — раннее событие идёт в had + третья форма. Формы leaves и leaving в эту конструкцию не встают, а would меняет смысл на «он бы оставил»."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 176,
+      "choiceType": "CHOICE",
+      "prompt": "By the time we got to the hall, the guests ___ home.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "have gone",
+          "isCorrect": false
+        },
+        {
+          "text": "had gone",
+          "isCorrect": true
+        },
+        {
+          "text": "had went",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Гости ушли раньше, чем мы добрались до зала, — раннее событие берёт had и третью форму. Форма went — вторая полка, после had она не ставится."
+    },
+    {
+      "id": 177,
+      "choiceType": "CHOICE",
+      "prompt": "They'd ___ you if you asked them.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "helped",
+          "isCorrect": false
+        },
+        {
+          "text": "help",
+          "isCorrect": true
+        },
+        {
+          "text": "had helped",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Здесь 'd — это would: речь о том, что они помогли бы. После would идёт первая форма, без окончаний."
+    },
+    {
+      "id": 202,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Разве ты не предупредил её?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Didn't you had warned her?",
+          "isCorrect": false
+        },
+        {
+          "text": "Hadn't you warn her?",
+          "isCorrect": false
+        },
+        {
+          "text": "Hadn't you warned her?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«Разве не…?» — отрицательный вопрос: hadn't выходит вперёд подлежащего, а глагол остаётся третьей формой (warned)."
+    }
+  ],
   "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 58,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We got to the stadium at nine."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, we missed the first goal."
+        }
+      ],
+      "options": [
+        {
+          "text": "Did the match already started?",
+          "isCorrect": false
+        },
+        {
+          "text": "Had the match already started?",
+          "isCorrect": true
+        },
+        {
+          "text": "Had the match already start?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вопрос про то, что случилось до девяти, строится на had: помощник встаёт впереди подлежащего, а глагол остаётся третьей формой — started."
+    }
+  ],
   "matching_exercises": [],
-  "error_correction_exercises": [],
-  "construction_meaning_exercises": [],
-  "transformation_exercises": [],
-  "categorization_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 162,
+      "wrongSentence": "Did you had dinner before the lecture started?",
+      "options": [
+        {
+          "text": "Did you have had dinner before the lecture started?",
+          "isCorrect": false
+        },
+        {
+          "text": "Had you have dinner before the lecture started?",
+          "isCorrect": false
+        },
+        {
+          "text": "Had you had dinner before the lecture started?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Помощник в предложении один. Раз вопрос строится на had, звать did не нужно — had сам выходит вперёд, а смысловой глагол остаётся третьей формой."
+    }
+  ],
+  "construction_meaning_exercises": [
+    {
+      "id": 50,
+      "construction": "She'd already booked the tickets.",
+      "options": [
+        {
+          "text": "Она уже забронировала билеты.",
+          "isCorrect": true
+        },
+        {
+          "text": "Она бы забронировала билеты.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она бронирует билеты прямо сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ей уже забронировали билеты.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После 'd стоит третья форма booked — значит, это had, и речь о том, что дело было сделано ещё раньше. Вариант «бы» дало бы would с первой формой: she'd book."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 72,
+      "taskDescription": "сделай каждое предложение отрицательным.",
+      "items": [
+        {
+          "original": "She had booked the room.",
+          "transformed": "She hadn't booked the room."
+        },
+        {
+          "original": "They had reached the office.",
+          "transformed": "They hadn't reached the office."
+        },
+        {
+          "original": "I had noticed the sign.",
+          "transformed": "I hadn't noticed the sign."
+        }
+      ],
+      "explanation": "Отрицание приклеивается к помощнику: had + not = hadn't. Третья форма глагола при этом не меняется."
+    }
+  ],
+  "categorization_exercises": [
+    {
+      "id": 96,
+      "taskDescription": "распредели фразы по тому, что скрывается за 'd.",
+      "categories": [
+        {
+          "title": "'d = had",
+          "items": [
+            "He'd gone",
+            "We'd forgotten",
+            "They'd spoken"
+          ]
+        },
+        {
+          "title": "'d = would",
+          "items": [
+            "He'd go",
+            "We'd forget",
+            "They'd speak"
+          ]
+        }
+      ],
+      "explanation": "Решает форма следом: третья форма глагола (gone, forgotten, spoken) — за 'd прячется had; первая форма (go, forget, speak) — would."
+    }
+  ],
   "find_the_odd_exercises": []
 }
