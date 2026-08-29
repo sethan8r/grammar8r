@@ -39,6 +39,13 @@
       "title": "Earlier Past · Что случилось раньше",
       "order": 3,
       "searchKeywords": "какое событие было раньше, had после because, it was the first time, рассказать не по порядку, had never before"
+    },
+    {
+      "id": 171,
+      "topicId": 27,
+      "title": "Before & After · Слова, которые держат порядок",
+      "order": 4,
+      "searchKeywords": "by the time, when или after, after i sent или had sent, had не нужен, until в отрицании"
     }
   ],
   "grammar_cards": [
@@ -1210,6 +1217,383 @@
         "Чем I had never tried it отличается от I have never tried it?",
         "Где в предложении стоит never — до had или после?"
       ]
+    },
+    {
+      "id": 450,
+      "microtopicId": 171,
+      "title": "before, after и when",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор весь порядок событий держала одна форма. Но в живой речи рядом с ней почти всегда стоят слова-указатели — `before`, `after`, `when`. Ведут они себя по-разному: двое честно называют порядок сами, а третий не обещает ничего. С этого различия и начнём, потому что именно на нём держится половина ошибок."
+        },
+        {
+          "type": "heading",
+          "text": "after и before говорят за себя"
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба этих слова — уже сообщение о порядке. Скажите `after`, и слушатель знает: то, что стоит рядом, было раньше. Поэтому форма с `had` здесь **не обязанность, а усиление**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**After I had finished the report, I went home.** ✓",
+            "**After I finished the report, I went home.** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба варианта правильные, и это важно знать: английский не заставляет ставить `had` там, где порядок уже назван словом. Разница лишь в оттенке. С `had` слышно «сначала полностью закрыл дело и только потом пошёл»; без `had` — просто одно за другим, ровным шагом."
+        },
+        {
+          "type": "paragraph",
+          "text": "С `before` та же история, но у него есть красивый побочный эффект. Поставьте `had` **после** `before` — и получится, что действие так и не успело завершиться:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She left before I had finished my sentence.** — ушла, не дав договорить.",
+            "**They started without us before we had even parked the car.** — начали, пока мы ещё парковались."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "when не обещает ничего"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот `when` — слово-молчун. Само по себе оно не сообщает, что было раньше: связывает два момента и умолкает. Всю работу здесь берёт на себя форма глагола, и разница получается принципиальной:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When Vera came in, Nick left.** — она вошла, и он вышел следом. Они успели столкнуться в дверях.",
+            "**When Vera came in, Nick had left.** — его уже не было. Она застала пустую комнату."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём медленно, потому что это та самая ошибка, из-за которой мы завели карточку «Почему русские ошибаются». В первой фразе оба события в простом прошедшем — значит, они идут в том порядке, в каком названы: сначала приход, потом уход. Во второй уход одет в `had` — и уехал в прошлое, за приход. Одно слово, а сцена другая."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When Ben got home, someone had left the light on.** — свет включили до его возвращения, он застал горящую лампу.",
+            "**When he had fixed the car, we drove off.** — сначала машина починена, только потом поехали."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**After I had finished the report, I had gone home.** ✗ — два флешбэка подряд, и снова непонятно, от чего вести отсчёт. Одно событие остаётся сценой: **After I had finished the report, I went home.** ✓"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русские союзы делят те же роли. «После того как» и «перед тем как» порядок называют сами, а вот «когда» — такой же молчун, как английский `when`: во фразе «когда Вера вошла, Ник вышел» порядок мы достраиваем по смыслу. Разница в том, что русскому и не из чего выбирать, а английскому есть."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`after` и `before` называют порядок сами, поэтому `had` с ними — усиление, а не обязанность: **After I had finished the report, I went home** ✓ и **After I finished the report, I went home** ✓ одинаково верны. У `before` есть свой оттенок: `had` в его части означает «не успел завершить» — **She left before I had finished my sentence**. А `when` порядок не называет, и там форма решает всё: **When Vera came in, Nick left** (вышел следом) ↔ **When Vera came in, Nick had left** (его уже не было).",
+      "examples": [
+        {
+          "ru": "После того как я закончил отчёт, я пошёл домой.",
+          "en": "After I had finished the report, I went home."
+        },
+        {
+          "ru": "Она ушла, не дав мне договорить.",
+          "en": "She left before I had finished my sentence."
+        },
+        {
+          "ru": "Когда Вера вошла, Ник вышел следом.",
+          "en": "When Vera came in, Nick left."
+        },
+        {
+          "ru": "Когда Вера вошла, Ника уже не было.",
+          "en": "When Vera came in, Nick had left."
+        },
+        {
+          "ru": "Когда Бен вернулся домой, свет в кухне горел.",
+          "en": "When Ben got home, someone had left the light on."
+        },
+        {
+          "ru": "Когда он починил машину, мы поехали дальше.",
+          "en": "When he had fixed the car, we drove off."
+        }
+      ],
+      "clarificationOptions": [
+        "Если after и так называет порядок, зачем вообще ставить с ним had?",
+        "Почему в предложении с before форма had попадает во вторую часть?",
+        "Как понять, какой из двух вариантов с when имел в виду говорящий?"
+      ]
+    },
+    {
+      "id": 451,
+      "microtopicId": 171,
+      "title": "by the time и by + время",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть у этого времени любимое соседство, в котором оно живёт особенно естественно, — предлог `by`. Но прежде чем собирать конструкцию, разберёмся с самим словом: без этого вся карточка превращается в заучивание."
+        },
+        {
+          "type": "heading",
+          "text": "Что вообще делает by"
+        },
+        {
+          "type": "paragraph",
+          "text": "С этим предлогом мы уже встречались в «Основах», правда в другой роли — про место: **The chair stands by the window.** Стул стоит **у** окна, вплотную к нему, не дальше. Значение никуда не делось, оно просто переехало с пространства на время."
+        },
+        {
+          "type": "paragraph",
+          "text": "Идея у `by` всегда одна: **вплотную к чему-то, не дальше этой точки**. У окна — не дальше окна. К пятнице — не позже пятницы. Поэтому `by Friday` означает не «в пятницу», а «когда-то раньше, но к пятнице уже точно». Русское «к» устроено ровно так же: «к пятнице отчёт был готов» — про пятницу мы знаем только то, что к ней всё закончено, а сделали, может, и в среду."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот отсюда и дружба с нашей формой. `by` проводит в прошлом черту и говорит «не позже», а `had + V3` рассказывает, что успело случиться до этой черты. Одно слово рисует границу, второе — всё, что уместилось перед ней."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "By + момент в прошлом · had + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By the time we arrived, the film had started.** — к нашему приходу фильм уже шёл.",
+            "**By Friday she had finished the report.** — к пятнице отчёт был готов.",
+            "**By 2010 he had already changed three jobs.** — к тому году за спиной было три работы."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание, что после `by` может стоять что угодно, лишь бы это был **момент**: целое событие (`by the time we arrived`), день недели, год, время на часах. Черта проведена — дальше нужен только флешбэк."
+        },
+        {
+          "type": "heading",
+          "text": "Как это звучит в обычных историях"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By the time we got to the gate, they had delayed our flight.** — пока дошли до выхода на посадку, рейс уже задержали.",
+            "**By the deadline he had written only half of the report.** — к крайнему сроку готова была только половина.",
+            "**The meeting started at nine sharp, and by then Lucy had read the whole report.** — совещание началось ровно в девять, и к этому времени отчёт она прочла.",
+            "**The schedule was tight: by noon we had visited three museums.** — график был плотный, к полудню за спиной уже три музея."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «к тому времени» тянет за собой предлог `to` — и рука пишет **to the time we arrived** ✗. Здесь только `by`: **by the time we arrived** ✓. Запомнить помогает сама картинка: `by` — это черта, до которой всё должно успеть."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**By the time we arrived, the film started.** ✗ — черта проведена, а флешбэка нет, и фраза рассыпается: получается, что фильм начался ровно в момент нашего прихода, но тогда `by the time` вообще незачем. Верно: **the film had started** ✓"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Обратная сторона: until и till"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть и зеркальная конструкция — когда до какого-то момента чего-то как раз **не** было. Тогда `had` идёт с отрицанием, а границу ставит `until` или `till`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I hadn't understood the task until Nick explained it.** — до его объяснения не понимал.",
+            "**She hadn't spoken to her brother till that evening.** — до того вечера они не разговаривали."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика та же самая: есть момент в прошлом и есть всё, что было до него. `by` смотрит на то, что успело случиться, `until` — на то, чего не случалось."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между этими двумя словами хорошо чувствуется на паре: **I got to the office by six.** — оказался на месте не позже шести, важна крайняя точка. **I stayed at the office until six.** — просидел до шести, важен весь отрезок. `by` меряет срок, `until` — длину."
+        }
+      ],
+      "theorySummary": "`by` — то же слово, что «у окна» из «Основ», только про время: «вплотную к моменту, не позже». Оно проводит в прошлом черту, а всё, что успело до неё, идёт в `had + V3`: **By the time we arrived, the film had started**, **By Friday she had finished the report**. После `by` стоит любой момент — событие, день, год, время на часах. Ловушки: русское «к тому времени» тянет `to` (**to the time** ✗ вместо **by the time** ✓) и потерянный флешбэк (**By the time we arrived, the film started** ✗). Зеркальная конструкция — отрицание с `until` / `till`: **I hadn't understood the task until Nick explained it**.",
+      "examples": [
+        {
+          "ru": "Когда мы приехали, фильм уже шёл.",
+          "en": "By the time we arrived, the film had started."
+        },
+        {
+          "ru": "К пятнице она закончила отчёт.",
+          "en": "By Friday she had finished the report."
+        },
+        {
+          "ru": "К 2010 году он сменил уже три работы.",
+          "en": "By 2010 he had already changed three jobs."
+        },
+        {
+          "ru": "Пока мы дошли до выхода на посадку, рейс задержали.",
+          "en": "By the time we got to the gate, they had delayed our flight."
+        },
+        {
+          "ru": "К крайнему сроку он написал только половину отчёта.",
+          "en": "By the deadline he had written only half of the report."
+        },
+        {
+          "ru": "Я не понимал задание, пока Ник его не объяснил.",
+          "en": "I hadn't understood the task until Nick explained it."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать to the time, ведь по-русски мы говорим «к тому времени»?",
+        "Что можно поставить после by, кроме целого события?",
+        "Чем until отличается от by, если оба про границу?"
+      ]
+    },
+    {
+      "id": 452,
+      "microtopicId": 171,
+      "title": "Когда had не нужен",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пора нажать на тормоз. Новая форма всегда хочется применять везде, а это время как раз из тех, которые легко переесть — и тогда речь становится тяжёлой и неестественной."
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило-ограничитель звучит так: `had` нужен там, где **хронология нарушена** или где важно подчеркнуть «уже успело». Больше нигде."
+        },
+        {
+          "type": "heading",
+          "text": "Рассказ по порядку живёт в простом прошедшем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если события идут одно за другим и история движется вперёд, никакого флешбэка не требуется:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I got up, made coffee, read the news and left.** ✓",
+            "**I had got up, had made coffee, had read the news and had left.** ✗"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй вариант не просто «тяжеловат» — он ломает саму идею формы. Флешбэк работает, пока есть сцена, из которой мы оглядываемся назад. Если каждое предложение — флешбэк, оглядываться неоткуда: рассказ превращается в набор вставок без фильма."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос-компас"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прежде чем взять `had`, задайте себе один вопрос: **есть ли вообще вторая точка в прошлом?**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Нет — простое прошедшее, дальше не думаем.",
+            "Есть, и наше событие раньше неё — вот теперь `had + V3`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего больше проверять не нужно. Ни возраст события, ни его важность, ни длину предложения."
+        },
+        {
+          "type": "heading",
+          "text": "Как это звучит у носителей"
+        },
+        {
+          "type": "paragraph",
+          "text": "Честно скажем и вот что: в разговоре носители Past Perfect **часто роняют**, если порядок и так понятен из союза или из смысла. **After I sent the email, I went home** услышите ничуть не реже полной версии с `had`. Это не небрежность и не ошибка — там, где путаницы не возникает, язык позволяет себе сократить."
+        },
+        {
+          "type": "paragraph",
+          "text": "В письменном рассказе всё строже: там форму держат, потому что читатель не может переспросить. И для нас практический вывод простой — понимать надо оба варианта, а самому лучше ставить форму там, где она положена: за лишний `had` в осмысленном месте никто не поругает, а вот за потерянный порядок фраза наврёт."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Носители роняют» — не разрешение забыть про форму. Ронять её можно там, где порядок уже назван словом (`after`, `before`, `then`). Там, где порядок держит **только** форма, потеря `had` меняет смысл: **When I came, he left** — это уже другая история, а не сокращённый вариант первой."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`had` нужен только там, где хронология нарушена или важно «уже успело». Рассказ, который идёт по порядку, остаётся в простом прошедшем: **I got up, made coffee, read the news and left** ✓, а не **I had got up, had made coffee…** ✗ — если каждое предложение флешбэк, оглядываться неоткуда. Вопрос-компас перед формой один: есть ли вообще вторая точка в прошлом? Нет — простое прошедшее. В разговоре носители часто роняют `had`, когда порядок назван союзом (`after`, `before`), но там, где порядок держит только форма, её потеря меняет смысл.",
+      "examples": [
+        {
+          "ru": "Я встал, сварил кофе, почитал новости и вышел.",
+          "en": "I got up, made coffee, read the news and left."
+        },
+        {
+          "ru": "Он позвонил, извинился и положил трубку.",
+          "en": "He called, apologised and hung up."
+        },
+        {
+          "ru": "Когда мы пришли, ужин уже остыл.",
+          "en": "When we arrived, our dinner had gone cold."
+        },
+        {
+          "ru": "Мы сели в такси и поехали в аэропорт.",
+          "en": "We got into a taxi and drove to the airport."
+        },
+        {
+          "ru": "Он опоздал, потому что перепутал время.",
+          "en": "He was late because he had mixed up the time."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить «рассказ по порядку» от ситуации, где нужен флешбэк?",
+        "Если носители роняют had, стоит ли мне вообще его ставить?",
+        "Почему нельзя поставить had во все предложения рассказа для надёжности?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1338,6 +1722,60 @@
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 178,
       "orderInCard": 2
+    },
+    {
+      "cardId": 450,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 51,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 450,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 204,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 450,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 59,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 451,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 179,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 451,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 164,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 451,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 66,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 452,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 84,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 452,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 73,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 452,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 160,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1354,6 +1792,22 @@
       "cardId": 447,
       "title": "Что случилось раньше",
       "userInstruction": "Вам придут две русские фразы о прошлом. Соберите из них одно английское предложение так, чтобы было видно, что случилось раньше.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "past_perfect_card450_ex1",
+      "cardId": 450,
+      "title": "Кто раньше",
+      "userInstruction": "Вам придут два похожих английских предложения. Объясните своими словами по-русски, чем они различаются: кто что сделал первым.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "past_perfect_card451_ex1",
+      "cardId": 451,
+      "title": "Переведи через by",
+      "userInstruction": "Вам придёт русская фраза с моментом в прошлом. Переведите её на английский так, чтобы в переводе обязательно был предлог by.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -1445,6 +1899,54 @@
       "translation": "стеснительный, застенчивый",
       "transcription": "[ʃaɪ]",
       "microtopicId": 170,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 700,
+      "word": "by",
+      "translation": "к (сроку), не позже чем",
+      "transcription": "[baɪ]",
+      "microtopicId": 171,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 701,
+      "word": "deadline",
+      "translation": "крайний срок, дедлайн",
+      "transcription": "[ˈdedlaɪn]",
+      "microtopicId": 171,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 702,
+      "word": "to delay",
+      "translation": "задерживать, откладывать",
+      "transcription": "[dɪˈleɪ]",
+      "microtopicId": 171,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 703,
+      "word": "sharp",
+      "translation": "острый, ровно (о времени)",
+      "transcription": "[ʃɑːp]",
+      "microtopicId": 171,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 704,
+      "word": "light",
+      "translation": "свет, лампа",
+      "transcription": "[laɪt]",
+      "microtopicId": 171,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 705,
+      "word": "tight",
+      "translation": "тесный, плотный",
+      "transcription": "[taɪt]",
+      "microtopicId": 171,
       "categoryId": "tenses"
     }
   ],
@@ -1583,6 +2085,26 @@
         "opening"
       ],
       "explanation": "Окно открыли раньше, чем Гриша замёрз, — причина уходит в had плюс третью форму. Формы opens и opening в эту конструкцию не встают, а has считало бы от сегодняшнего дня, хотя вся сцена в прошлом."
+    },
+    {
+      "id": 160,
+      "situationRu": "Ситуация: Витя рассказывает, как прошло его утро — по порядку, без предысторий.",
+      "correctSentence": "He woke up, packed his bag and left.",
+      "words": [
+        "He",
+        "woke up",
+        "packed",
+        "his bag",
+        "and",
+        "left"
+      ],
+      "distractors": [
+        "had",
+        "had woken",
+        "has left",
+        "had packed"
+      ],
+      "explanation": "Три события идут одно за другим, второй точки в прошлом нет — значит, весь рассказ остаётся в простом прошедшем. Формы с had отодвинули бы события назад, а отодвигать их не от чего."
     }
   ],
   "multiple_choice_exercises": [
@@ -1711,6 +2233,69 @@
         }
       ],
       "explanation": "Чтобы назвать поездку первой, нужно посмотреть назад из того момента, — это had плюс третья форма. Простое travelled теряет счёт, а has travelled считает от сегодняшнего дня, хотя речь о прошлом."
+    },
+    {
+      "id": 204,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "После того как Соня закрыла ноутбук, она пошла гулять.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "After Sonya had closed her laptop, she has gone for a walk.",
+          "isCorrect": false
+        },
+        {
+          "text": "After Sonya closed her laptop, she had gone for a walk.",
+          "isCorrect": false
+        },
+        {
+          "text": "After Sonya had closed her laptop, she went for a walk.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Раннее событие стоит в части с after, туда и уходит форма с had, а прогулка остаётся в простом прошедшем. Во втором варианте флешбэк надет на позднее событие — получается, что гулять она пошла ещё до ноутбука."
+    },
+    {
+      "id": 179,
+      "choiceType": "CHOICE",
+      "prompt": "By the time the guests arrived, Emma ___ the kitchen.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "has cleaned",
+          "isCorrect": false
+        },
+        {
+          "text": "had cleaned",
+          "isCorrect": true
+        },
+        {
+          "text": "cleaned",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "By the time проводит черту в прошлом, и всё, что успело до неё, идёт в had плюс третью форму. Простое cleaned оставляет уборку в одной точке с приходом гостей, а has cleaned считает от сегодняшнего дня."
+    },
+    {
+      "id": 66,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "We hadn't seen the problem until the deadline came.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Мы не видели проблемы до самого крайнего срока.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мы увидели проблему сразу после крайнего срока.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мы не видели проблемы, пока срок не перенесли.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Конструкция hadn't seen … until ставит границу: до названного момента чего-то не было. Момент здесь — наступление срока, а не его перенос, и увидели проблему именно в этот момент, а не после него."
     }
   ],
   "text_input_exercises": [
@@ -1777,6 +2362,38 @@
         }
       ],
       "explanation": "Вопрос про то, что случилось до девяти, строится на had: помощник встаёт впереди подлежащего, а глагол остаётся третьей формой — started."
+    },
+    {
+      "id": 59,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why didn't you say hello to Mark at the party?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Oh, so you missed him completely."
+        }
+      ],
+      "options": [
+        {
+          "text": "He had left before I arrived.",
+          "isCorrect": true
+        },
+        {
+          "text": "He has left before I arrived.",
+          "isCorrect": false
+        },
+        {
+          "text": "He had leave before I arrived.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Уход Марка случился раньше прихода собеседника — раннее событие берёт had и третью форму. Форма has left считала бы от сегодняшнего дня, а had leave потеряла третью форму."
     }
   ],
   "matching_exercises": [
@@ -1842,6 +2459,25 @@
         }
       ],
       "explanation": "После had стоит только третья форма — eaten, а не ate. Вариант с didn't тащит второго помощника, которого здесь не нужно, а hasn't считает от сейчас, хотя голод был в прошлом."
+    },
+    {
+      "id": 164,
+      "wrongSentence": "By the time Sara got to the station, the train left.",
+      "options": [
+        {
+          "text": "By the time Sara got to the station, the train has left.",
+          "isCorrect": false
+        },
+        {
+          "text": "By the time Sara had got to the station, the train had left.",
+          "isCorrect": false
+        },
+        {
+          "text": "By the time Sara got to the station, the train had left.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Момент прихода — это черта, а уход поезда случился до неё, значит нужен had left. Вариант с двумя had лишает предложение сцены, а has left тянет к сегодняшнему дню."
     }
   ],
   "construction_meaning_exercises": [
@@ -1867,6 +2503,29 @@
         }
       ],
       "explanation": "После 'd стоит третья форма booked — значит, это had, и речь о том, что дело было сделано ещё раньше. Вариант «бы» дало бы would с первой формой: she'd book."
+    },
+    {
+      "id": 51,
+      "construction": "When the film started, Jake had fallen asleep.",
+      "options": [
+        {
+          "text": "Джейк заснул, когда фильм начался.",
+          "isCorrect": false
+        },
+        {
+          "text": "Джейк успел заснуть ещё до начала фильма.",
+          "isCorrect": true
+        },
+        {
+          "text": "Фильм начался, и Джейк проснулся.",
+          "isCorrect": false
+        },
+        {
+          "text": "Джейк засыпает каждый раз, когда начинается фильм.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Сон одет в had fallen, значит он случился раньше начала фильма. Если бы Джейк заснул уже под фильм, оба глагола стояли бы в простом прошедшем: when the film started, Jake fell asleep."
     }
   ],
   "transformation_exercises": [
@@ -1888,6 +2547,25 @@
         }
       ],
       "explanation": "Отрицание приклеивается к помощнику: had + not = hadn't. Третья форма глагола при этом не меняется."
+    },
+    {
+      "id": 73,
+      "taskDescription": "перепиши каждое предложение так, чтобы события шли по порядку, без флешбэка.",
+      "items": [
+        {
+          "original": "I had got up and had made coffee.",
+          "transformed": "I got up and made coffee."
+        },
+        {
+          "original": "She had opened the box and had looked inside.",
+          "transformed": "She opened the box and looked inside."
+        },
+        {
+          "original": "They had paid and had left the café.",
+          "transformed": "They paid and left the café."
+        }
+      ],
+      "explanation": "Когда события идут одно за другим, флешбэк не нужен: had уходит, а глагол встаёт во вторую форму — got, made, opened, paid. Частая ошибка — убрать только первый had и оставить второй."
     }
   ],
   "categorization_exercises": [
@@ -1961,6 +2639,29 @@
         }
       ],
       "explanation": "В трёх предложениях опыт посчитан до момента в прошлом — had плюс третья форма. В лишнем счёт пропал: после the first time нужно had seen, иначе получаются два несвязанных факта."
+    },
+    {
+      "id": 84,
+      "groupDescription": "Три предложения оправдывают форму с had, в одном она лишняя",
+      "items": [
+        {
+          "text": "By the time we got home, the film had finished.",
+          "isOdd": false
+        },
+        {
+          "text": "I had opened the door and had turned on the light.",
+          "isOdd": true
+        },
+        {
+          "text": "She was upset because she had lost her ticket.",
+          "isOdd": false
+        },
+        {
+          "text": "When Tom came in, the others had already eaten.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В трёх предложениях есть вторая точка в прошлом, от которой ведётся отсчёт. В лишнем события идут просто по порядку, и флешбэк тут не к чему приклеить: I opened the door and turned on the light."
     }
   ]
 }
