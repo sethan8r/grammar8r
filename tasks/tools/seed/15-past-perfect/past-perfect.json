@@ -32,6 +32,13 @@
       "title": "had + V3 · Как собрать Past Perfect",
       "order": 2,
       "searchKeywords": "had went или had gone, d это had или would, как задать вопрос с had, did you had ошибка, had меняется по лицам"
+    },
+    {
+      "id": 170,
+      "topicId": 27,
+      "title": "Earlier Past · Что случилось раньше",
+      "order": 3,
+      "searchKeywords": "какое событие было раньше, had после because, it was the first time, рассказать не по порядку, had never before"
     }
   ],
   "grammar_cards": [
@@ -839,6 +846,370 @@
         "Чем отрицательный вопрос отличается от обычного по смыслу?",
         "Как коротко ответить на такой вопрос, не повторяя всё предложение?"
       ]
+    },
+    {
+      "id": 447,
+      "microtopicId": 170,
+      "title": "Две точки: раннее одевается в had",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форму мы собрали, и она оказалась дешёвой: одно `had` на все лица. Теперь начинается настоящая работа — научиться видеть, **куда** эту форму ставить. Всё правило умещается в одну строчку."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Раннее событие — had + V3 · позднее событие — простое прошедшее"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смотрите, как это работает на живых сценах. В каждой из них два прошлых момента, и язык раскладывает их по разным полкам:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When I arrived, the meeting had already started.** — сцена: я вхожу. Флешбэк: встречу начали до меня.",
+            "**The train had left when we got to the station.** — сцена: мы вбегаем на вокзал. Флешбэк: поезд ушёл раньше.",
+            "**She wasn't at home — she had gone to her sister's.** — сцена: её нет дома. Флешбэк: уехала к сестре ещё до того, как мы приехали."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на важную мелочь: **сцену английский не трогает**. Она стоит в обычном прошедшем — **arrived**, **got**, **wasn't**. Наряжается только то, что случилось до неё. Две роли — две формы, и путать их язык не даёт."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка в три шага"
+        },
+        {
+          "type": "paragraph",
+          "text": "Пока навык не стал автоматическим, гоняйте каждое предложение по короткому списку:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "В предложении **два** прошлых события — или всё-таки одно?",
+            "Какое из них случилось **раньше**?",
+            "Раннее одеваем в `had + V3`, позднее не трогаем вообще."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Третий шаг важен не меньше первых двух. Соблазн велик: раз уж мы взялись за красивую новую форму, хочется применить её ко всему предложению сразу."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**When I had arrived, the meeting had started.** ✗ — оба события ушли во флешбэк, и отсчитывать стало не от чего. Получился титр «ранее» без самой сцены: раньше **чего**, если сцены нет? Одна точка обязана остаться на земле: **When I arrived, the meeting had started.** ✓"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шесть русских фраз, в которых спрятан выбор"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь самое интересное. Прочитайте русские строчки ниже и поймайте себя на том, что порядок событий вы достраиваете **сами** — из здравого смысла и привычки, а не из формы глагола. В русском обе картинки прячутся в одном и том же предложении; английский разводит их на два разных:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Когда Катя открыла дверь, гости ушли.» → **When Katya opened the door, the guests had left.** (ушли до неё — квартира пустая) ↔ **When Katya opened the door, the guests left.** (дверь открылась, и гости стали выходить)",
+            "«Когда Паша сел за стол, мама убрала тарелки.» → **When Pasha sat down at the table, his mother had cleared the plates.** (убрала раньше — есть уже не из чего) ↔ **When Pasha sat down at the table, his mother cleared the plates.** (сел, и мама тут же начала убирать)",
+            "«Когда мы вышли из метро, дождь начался.» → **When we came out of the metro, the rain had started.** (шёл уже вовсю, асфальт мокрый) ↔ **When we came out of the metro, the rain started.** (вышли, и в ту же секунду закапало)",
+            "«Когда Тёма позвонил в дверь, сосед выключил музыку.» → **When Tyoma rang the bell, his neighbour had turned the music off.** (выключил до звонка — за дверью тишина) ↔ **When Tyoma rang the bell, his neighbour turned the music off.** (услышал звонок и приглушил)",
+            "«Когда Вера дошла до магазина, кассу закрыли.» → **When Vera got to the shop, they had closed the till.** (закрыли раньше, она ничего не купила) ↔ **When Vera got to the shop, they closed the till.** (дошла, и кассу закрыли прямо при ней)",
+            "«Когда Ник открыл ноутбук, батарея села.» → **When Nick opened his laptop, the battery had died.** (села раньше, ноутбук вообще не включился) ↔ **When Nick opened his laptop, the battery died.** (открыл, и в этот момент экран погас)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Двенадцать английских предложений выросли из шести русских, и ни одно русское при этом не менялось. Вот почему это время даётся тяжело: русскому кажется, что он просто пересказывает случившееся, — а английский в этот момент требует принять решение."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Решение принимается один раз и по одному вопросу — **какое из двух событий было раньше**. Ответили — и дальше всё механически: раннее в `had + V3`, позднее оставили как есть."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Когда в рассказе два прошлых события, раннее одевается в `had + V3`, а позднее остаётся в простом прошедшем: **When I arrived, the meeting had already started**. Проверка в три шага: два ли события — какое раньше — раннее во флешбэк. Одевать в `had` **оба** глагола нельзя (**When I had arrived, the meeting had started** ✗): одна точка обязана остаться сценой, иначе флешбэк не к чему приклеить. В русском порядок достраивается по смыслу, поэтому одна русская фраза («когда Катя открыла дверь, гости ушли») даёт по-английски два разных предложения.",
+      "examples": [
+        {
+          "ru": "Когда я вошёл, встреча уже началась.",
+          "en": "When I arrived, the meeting had already started."
+        },
+        {
+          "ru": "Поезд ушёл ещё до того, как мы добрались до вокзала.",
+          "en": "The train had left when we got to the station."
+        },
+        {
+          "ru": "Её не было дома — она уехала к сестре.",
+          "en": "She wasn't at home — she had gone to her sister's."
+        },
+        {
+          "ru": "Когда Катя открыла дверь, гости уже ушли.",
+          "en": "When Katya opened the door, the guests had left."
+        },
+        {
+          "ru": "Когда Катя открыла дверь, гости вышли следом.",
+          "en": "When Katya opened the door, the guests left."
+        },
+        {
+          "ru": "Когда мы вышли из метро, дождь уже шёл.",
+          "en": "When we came out of the metro, the rain had started."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, какое из двух событий раньше, если в русской фразе это не сказано?",
+        "Почему нельзя поставить had в обе половинки предложения?",
+        "А если события названы в обратном порядке — что тогда одевать в had?"
+      ]
+    },
+    {
+      "id": 448,
+      "microtopicId": 170,
+      "title": "Порядок слов ≠ порядок событий",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вот ради чего это время вообще существует. Раз хронологию держит **форма**, рассказчик освобождается от хронологии в самом рассказе: начинать можно с любого конца, и слушатель всё равно разложит события правильно."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She was angry because I had forgotten her birthday.** — сначала забыл, потом она злилась. А названы события в обратном порядке.",
+            "**The jacket didn't fit — I had bought the wrong size.** — сначала взял не тот размер, потом куртка не подошла.",
+            "**He failed the exam because he hadn't studied.** — сначала не занимался, потом провалил экзамен."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В каждом предложении раннее событие стоит **вторым**, и никакой путаницы не возникает: форма с `had` сама сообщает, что это предыстория, а не продолжение."
+        },
+        {
+          "type": "heading",
+          "text": "Вторая работа этого времени: объяснять прошлое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда вырастает самое частое употребление формы в живой речи. Past Perfect редко просто сообщает «а до этого было вот что» — обычно он **объясняет**, почему в той сцене всё сложилось именно так. Поэтому рядом с ним постоянно стоят `because`, `so`, `that's why`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The tea was sweet — Yulia had put sugar in it.** — почему сладкий? потому что сахар насыпали раньше.",
+            "**We had missed our plane, so we spent the night at the airport.** — почему ночевали в аэропорту? потому что до этого опоздали на самолёт.",
+            "**Nobody was hungry — Emma had cooked dinner two hours before.** — почему никто не ел? ужин приготовили давно, все успели поесть."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русский подпирает это костылями"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскому языку в таких фразах приходится тяжелее: формы у него нет, и порядок он вынужден проговаривать словами — «уже», «до этого», «перед этим», «ещё утром». Английский всё это молча упаковывает в одно слово `had`:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Русская фраза",
+            "Костыль",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "Куртка не подошла: я **до этого** взял не тот размер",
+              "до этого",
+              "The jacket didn't fit — I **had bought** the wrong size"
+            ],
+            [
+              "Чай был сладкий: Юля **уже** насыпала сахар",
+              "уже",
+              "The tea was sweet — Yulia **had put** sugar in it"
+            ],
+            [
+              "Он провалил экзамен: **перед этим** не занимался",
+              "перед этим",
+              "He failed the exam because he **hadn't studied**"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Костыли эти не запрещены и в английском (там есть и `already`, и `before that`), но нужды в них нет: форма уже всё сказала. Если же форму не поставить, а на костыль понадеяться — фраза поедет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She was angry because I forgot her birthday.** ✗ — здесь оба события схлопнулись в одну точку, и получается, что забыл я ровно в тот момент, когда она злилась. Причина обязана быть **раньше** следствия, и в английском её ставят во флешбэк: **because I had forgotten her birthday** ✓"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Проверить себя проще всего вопросом «что было причиной?». Причина в прошлом почти всегда случилась раньше события, которое она объясняет, — а значит, ей место в `had + V3`. Это то же устройство, что мы разбирали в микротеме «Что такое Past Perfect»: важен не возраст события, а положение камеры."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Раз порядок событий держит форма, называть их можно в любом порядке: раннее событие спокойно стоит вторым — **She was angry because I had forgotten her birthday**. Чаще всего этим временем **объясняют** прошлое, поэтому рядом стоят `because`, `so`, `that's why`: **We had missed our plane, so we spent the night at the airport**. Русский вместо формы подпирает смысл словами «уже», «до этого», «перед этим» — английскому они не нужны. Ловушка: **because I forgot her birthday** ✗ звучит так, будто забыл ровно в момент ссоры.",
+      "examples": [
+        {
+          "ru": "Она злилась, потому что я забыл про её день рождения.",
+          "en": "She was angry because I had forgotten her birthday."
+        },
+        {
+          "ru": "Куртка не подошла — я взял не тот размер.",
+          "en": "The jacket didn't fit — I had bought the wrong size."
+        },
+        {
+          "ru": "Он провалил экзамен, потому что не занимался.",
+          "en": "He failed the exam because he hadn't studied."
+        },
+        {
+          "ru": "Чай был сладкий: Юля насыпала туда сахар.",
+          "en": "The tea was sweet — Yulia had put sugar in it."
+        },
+        {
+          "ru": "Мы опоздали на самолёт, поэтому ночевали в аэропорту.",
+          "en": "We had missed our plane, so we spent the night at the airport."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему причину ставят в had, а следствие оставляют в простом прошедшем?",
+        "Можно ли начать предложение с раннего события, а не с because?",
+        "Чем because I forgot отличается от because I had forgotten?"
+      ]
+    },
+    {
+      "id": 449,
+      "microtopicId": 170,
+      "title": "Первый раз до того момента",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У этой формы есть ещё одна работа, и она вам уже знакома — только раньше отсчёт шёл от другой точки. В микротеме «Опыт за всю жизнь» мы копили опыт **до сегодняшнего дня**. Здесь копилка та же, но её закрывают на моменте в прошлом: что человек успел (или не успел) попробовать **к тому дню**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I had never seen anything like it.** — до того момента ничего похожего не видел.",
+            "**She had never been abroad before that trip.** — к той поездке заграница у неё была нулевая.",
+            "**It was the first time I had eaten such spicy food.** — до того ужина настолько острого в жизни не пробовал."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `never` встаёт между `had` и третьей формой — ровно там же, где оно стояло в перфекте настоящего. Менять ничего не нужно, отсчёт просто переехал назад."
+        },
+        {
+          "type": "heading",
+          "text": "Оборот, который вы услышите сотни раз"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельно стоит запомнить связку `the first time` и `the second time`. Она встречается в живой речи и в сериалах постоянно — и почти всегда тянет за собой `had`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It was the first time I had ever flown.** — тогда я летел первый раз в жизни.",
+            "**It was the second time Mark had lost his phone that month.** — телефон в том месяце терялся уже во второй раз.",
+            "**Lily was shy because she had never spoken English with a foreigner before.** — Лили стеснялась: до того дня с иностранцами она не говорила."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика простая, если проговорить её вслух. «Первый раз» — это подсчёт: чтобы назвать событие первым, нужно посмотреть **назад** и убедиться, что до него такого не было. Взгляд назад из точки в прошлом — это ровно то, чем занимается `had + V3`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**It was the first time I flew.** ✗ — в быстрой речи такое проскакивает, но сообщение разваливается: счёт до того момента исчез, и фраза превращается в два никак не связанных факта. Верно: **It was the first time I had flown.** ✓"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это не отдельное новое правило, а тот же принцип двух точек. Момент в прошлом — сцена (тот ужин, та поездка, тот день), а весь опыт до него — флешбэк. Не находится второй точки — не нужен и `had`: про опыт вообще, без привязки к прошлому моменту, англичанин скажет **I have never tried it**."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Та же копилка опыта, что в перфекте настоящего, только закрытая на моменте в прошлом: **I had never seen anything like it**, **She had never been abroad before that trip**. `never` стоит между `had` и третьей формой. Очень частый оборот — `the first time` / `the second time` + `had`: **It was the first time I had ever flown**, потому что назвать раз первым можно, только посмотрев назад из той точки. Ловушка: **It was the first time I flew** ✗ — счёт до того момента пропал.",
+      "examples": [
+        {
+          "ru": "Тогда я летел на самолёте первый раз в жизни.",
+          "en": "It was the first time I had ever flown."
+        },
+        {
+          "ru": "Я никогда не видел ничего подобного.",
+          "en": "I had never seen anything like it."
+        },
+        {
+          "ru": "До той поездки она никогда не была за границей.",
+          "en": "She had never been abroad before that trip."
+        },
+        {
+          "ru": "Тогда я первый раз попробовал такую острую еду.",
+          "en": "It was the first time I had eaten such spicy food."
+        },
+        {
+          "ru": "Лили стеснялась: она никогда раньше не говорила по-английски с иностранцем.",
+          "en": "Lily was shy because she had never spoken English with a foreigner before."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после the first time нужен had, ведь речь об одном событии?",
+        "Чем I had never tried it отличается от I have never tried it?",
+        "Где в предложении стоит never — до had или после?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -907,6 +1278,66 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 202,
       "orderInCard": 3
+    },
+    {
+      "cardId": 447,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 203,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 447,
+      "exerciseType": "MATCHING",
+      "exerciseId": 68,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 447,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 83,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 447,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 65,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 448,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 159,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 448,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 163,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 448,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 97,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 449,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 177,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 449,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 83,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 449,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 178,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -917,6 +1348,14 @@
       "userInstruction": "ИИ пришлёт английское утверждение. Перепишите его два раза: вопросом и отрицанием.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "past_perfect_card447_ex1",
+      "cardId": 447,
+      "title": "Что случилось раньше",
+      "userInstruction": "Вам придут две русские фразы о прошлом. Соберите из них одно английское предложение так, чтобы было видно, что случилось раньше.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -974,6 +1413,38 @@
       "translation": "глупый, дурацкий",
       "transcription": "[ˈsɪli]",
       "microtopicId": 169,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 696,
+      "word": "to fit",
+      "translation": "подходить по размеру, быть впору",
+      "transcription": "[fɪt]",
+      "microtopicId": 170,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 697,
+      "word": "sugar",
+      "translation": "сахар",
+      "transcription": "[ˈʃʊɡə]",
+      "microtopicId": 170,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 698,
+      "word": "spicy",
+      "translation": "острый, пряный",
+      "transcription": "[ˈspaɪsi]",
+      "microtopicId": 170,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 699,
+      "word": "shy",
+      "translation": "стеснительный, застенчивый",
+      "transcription": "[ʃaɪ]",
+      "microtopicId": 170,
       "categoryId": "tenses"
     }
   ],
@@ -1037,6 +1508,37 @@
         }
       ],
       "explanation": "После had всегда стоит третья форма: finished, а не finish; gone, а не went. В верных строчках форма собрана правильно — whispered и reached у правильных глаголов совпадают со второй полкой, paid у неправильного своя."
+    },
+    {
+      "id": 177,
+      "statements": [
+        {
+          "en": "It was the first time I had ever seen snow.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It was the first time she flew alone.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They had never been to Prague before that summer.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Sara was nervous because she never had spoken on stage.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "He had never driven at night before that trip.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во второй строке пропал счёт до того момента: после the first time нужен had flown. В четвёртой never залезло перед помощником — оно стоит между had и третьей формой: she had never spoken."
     }
   ],
   "word_arrangement_exercises": [
@@ -1060,6 +1562,27 @@
         "leaving"
       ],
       "explanation": "Кошелёк остался дома раньше, чем принесли счёт, — раннее событие идёт в had + третья форма. Формы leaves и leaving в эту конструкцию не встают, а would меняет смысл на «он бы оставил»."
+    },
+    {
+      "id": 159,
+      "situationRu": "Ситуация: Гриша вернулся домой и не понял, почему в комнате так холодно.",
+      "correctSentence": "The room was cold because someone had opened the window.",
+      "words": [
+        "The room",
+        "was",
+        "cold",
+        "because",
+        "someone",
+        "had",
+        "opened",
+        "the window"
+      ],
+      "distractors": [
+        "has",
+        "opens",
+        "opening"
+      ],
+      "explanation": "Окно открыли раньше, чем Гриша замёрз, — причина уходит в had плюс третью форму. Формы opens и opening в эту конструкцию не встают, а has считало бы от сегодняшнего дня, хотя вся сцена в прошлом."
     }
   ],
   "multiple_choice_exercises": [
@@ -1125,9 +1648,103 @@
         }
       ],
       "explanation": "«Разве не…?» — отрицательный вопрос: hadn't выходит вперёд подлежащего, а глагол остаётся третьей формой (warned)."
+    },
+    {
+      "id": 203,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Когда Юля добралась до переговорной, все уже разошлись по домам.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "When Yulia got to the meeting room, everyone had gone home.",
+          "isCorrect": true
+        },
+        {
+          "text": "When Yulia got to the meeting room, everyone went home.",
+          "isCorrect": false
+        },
+        {
+          "text": "When Yulia got to the meeting room, everyone has gone home.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Люди разошлись раньше, чем Юля дошла, — раннее событие берёт had и третью форму. Вариант с went говорит, что все ушли уже при ней, а has gone считает от сейчас, хотя вся сцена в прошлом."
+    },
+    {
+      "id": 65,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "When Oliver called, Mia had gone out.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Оливер позвонил, и Мия вышла из дома.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мия вышла сразу после звонка Оливера.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мия ушла ещё до звонка Оливера.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Уход одет в had gone, значит он случился раньше звонка — Оливер её уже не застал. Оба других варианта ставят звонок первым, а это простое прошедшее: when Oliver called, Mia went out."
+    },
+    {
+      "id": 178,
+      "choiceType": "CHOICE",
+      "prompt": "It was the first time Jake ___ abroad.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "travelled",
+          "isCorrect": false
+        },
+        {
+          "text": "has travelled",
+          "isCorrect": false
+        },
+        {
+          "text": "had travelled",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Чтобы назвать поездку первой, нужно посмотреть назад из того момента, — это had плюс третья форма. Простое travelled теряет счёт, а has travelled считает от сегодняшнего дня, хотя речь о прошлом."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 83,
+      "items": [
+        {
+          "sentence": "By the time we got to the stop, the bus ___.",
+          "contextRu": "",
+          "answer": "had left",
+          "alternatives": []
+        },
+        {
+          "sentence": "The film ___ by the time we found our seats.",
+          "contextRu": "",
+          "answer": "had started",
+          "alternatives": []
+        },
+        {
+          "sentence": "Tom was still hungry — he ___ nothing since breakfast.",
+          "contextRu": "",
+          "answer": "had eaten",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Во всех трёх предложениях названа вторая точка в прошлом, а действие случилось до неё — значит, had плюс третья форма. Частая ошибка — поставить после had вторую форму (had went, had ate): на третьей полке у неправильных глаголов своя форма, gone и eaten.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу глагол из банка в нужной форме.",
+      "wordBank": [
+        "начался",
+        "ел",
+        "ушёл"
+      ]
+    }
+  ],
   "dialog_restore_exercises": [
     {
       "id": 58,
@@ -1162,7 +1779,31 @@
       "explanation": "Вопрос про то, что случилось до девяти, строится на had: помощник встаёт впереди подлежащего, а глагол остаётся третьей формой — started."
     }
   ],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 68,
+      "taskDescription": "соедини английскую фразу с тем, что в ней произошло.",
+      "pairs": [
+        {
+          "left": "Megan had left when Sam called.",
+          "right": "ушла до звонка"
+        },
+        {
+          "left": "Megan left when Sam called.",
+          "right": "ушла после звонка"
+        },
+        {
+          "left": "The film had started when we came.",
+          "right": "фильм начался до нас"
+        },
+        {
+          "left": "The film started when we came.",
+          "right": "фильм начался при нас"
+        }
+      ],
+      "explanation": "Форма с had всегда отодвигает событие назад, за вторую точку; простое прошедшее оставляет оба события в одной сцене, и тогда они идут в том порядке, в каком названы."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 162,
@@ -1182,6 +1823,25 @@
         }
       ],
       "explanation": "Помощник в предложении один. Раз вопрос строится на had, звать did не нужно — had сам выходит вперёд, а смысловой глагол остаётся третьей формой."
+    },
+    {
+      "id": 163,
+      "wrongSentence": "Ben was hungry because he hadn't ate since morning.",
+      "options": [
+        {
+          "text": "Ben was hungry because he didn't ate since morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ben was hungry because he hadn't eaten since morning.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ben was hungry because he hasn't eaten since morning.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После had стоит только третья форма — eaten, а не ate. Вариант с didn't тащит второго помощника, которого здесь не нужно, а hasn't считает от сейчас, хотя голод был в прошлом."
     }
   ],
   "construction_meaning_exercises": [
@@ -1253,7 +1913,54 @@
         }
       ],
       "explanation": "Решает форма следом: третья форма глагола (gone, forgotten, spoken) — за 'd прячется had; первая форма (go, forget, speak) — would."
+    },
+    {
+      "id": 97,
+      "taskDescription": "распредели ситуации по тому, нужен ли в английском флешбэк.",
+      "categories": [
+        {
+          "title": "Нужен had",
+          "items": [
+            "Пришёл к середине концерта",
+            "Не смог войти: ключи потерял утром",
+            "Ужин съели без него"
+          ]
+        },
+        {
+          "title": "Хватит простого прошедшего",
+          "items": [
+            "Встал, оделся и вышел",
+            "Вчера сдал отчёт",
+            "Позвонил и поговорил"
+          ]
+        }
+      ],
+      "explanation": "Флешбэк нужен там, где есть вторая точка в прошлом и одно событие случилось до неё. Если события идут по порядку или названо всего одно, форма с had лишняя — рассказ спокойно едет в простом прошедшем."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 83,
+      "groupDescription": "Три предложения собраны правильно, одно — нет",
+      "items": [
+        {
+          "text": "It was the second time I had missed the train.",
+          "isOdd": false
+        },
+        {
+          "text": "I had never tried sushi before that evening.",
+          "isOdd": false
+        },
+        {
+          "text": "It was the first time we saw the sea.",
+          "isOdd": true
+        },
+        {
+          "text": "She had never worked with children before.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В трёх предложениях опыт посчитан до момента в прошлом — had плюс третья форма. В лишнем счёт пропал: после the first time нужно had seen, иначе получаются два несвязанных факта."
+    }
+  ]
 }
