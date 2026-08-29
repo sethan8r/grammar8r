@@ -46,6 +46,13 @@
       "title": "Before & After · Слова, которые держат порядок",
       "order": 4,
       "searchKeywords": "by the time, when или after, after i sent или had sent, had не нужен, until в отрицании"
+    },
+    {
+      "id": 172,
+      "topicId": 27,
+      "title": "Already, Just, Never · Маркеры внутри флешбэка",
+      "order": 5,
+      "searchKeywords": "had already left, куда ставить already, had just sat down, still hadn't, почему не yet"
     }
   ],
   "grammar_cards": [
@@ -1594,6 +1601,266 @@
         "Если носители роняют had, стоит ли мне вообще его ставить?",
         "Почему нельзя поставить had во все предложения рассказа для надёжности?"
       ]
+    },
+    {
+      "id": 453,
+      "microtopicId": 172,
+      "title": "already, just и never между had и V3",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Эти слова нам уже знакомы: `already`, `just`, `never`, `ever` мы разбирали в микротеме «Just, Already, Yet, Still · Маркеры перфекта». Хорошая новость — учить их заново не придётся, место в предложении у них то же самое."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Had + маркер + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Маркер садится **внутрь** конструкции, между помощником и третьей формой. Снаружи ему делать нечего:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By the time Sonya got to the platform, the train had already left.**",
+            "**I had just sat down when the phone rang.**",
+            "**He had never driven a car before that day.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "А вот смысл сдвинулся — и это главное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слова те же, но считают они теперь от другой точки. Раньше «уже» и «только что» отмерялись от сегодняшнего дня, а здесь — от момента в прошлом, о котором идёт рассказ."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I have just eaten.** — только что поел, прямо сейчас сытый.",
+            "**I had just eaten when they called me to dinner.** — только что поел, но «только что» отсчитано не от сегодня, а от того звонка."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проще всего держать в голове так: `already` в этой форме означает «к тому моменту уже успело», а `just` — «за пару минут до того момента». Точка отсчёта переехала в прошлое, а слова поехали вместе с ней."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She had just unpacked her bag when they called her back.** — разобрала сумку буквально перед звонком.",
+            "**By lunchtime we had already seen three flats.** — к обеду за спиной было три квартиры."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Already the train had left.** ✗ — маркер вынесен в начало предложения, а он живёт внутри формы. Верно: **The train had already left.** ✓"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I had sat down just.** ✗ — отправлять маркер в хвост тоже нельзя, фраза звучит оборванной. Верно: **I had just sat down.** ✓"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Куда делся yet и кто занял его место"
+        },
+        {
+          "type": "paragraph",
+          "text": "С `yet` история отдельная. Это слово смотрит на **сейчас**: «до сих пор ещё не». А в нашем рассказе никакого «сейчас» нет — вся сцена в прошлом, и тянуть оттуда к сегодняшнему дню нечего. Поэтому во флешбэке `yet` звучит редко и всегда в хвосте (**He hadn't called yet**), а его работу берёт на себя `still`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He still hadn't called by midnight.** — к полуночи так и не позвонил.",
+            "**The shop still hadn't opened when we came back.** — магазин к нашему возвращению так и не открылся."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `still` своё место в предложении — он встаёт **перед** помощником, а не внутрь формы. Сравните две позиции на одной паре: **He had already called** (маркер внутри, между `had` и третьей формой) ↔ **He still hadn't called** (маркер снаружи, перед `hadn't`). Перепутать легко, потому что по-русски и там и там просто наречие."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Маркеры стоят там же, где в перфекте настоящего, — внутри формы, между `had` и третьей формой: **The train had already left**, **I had just sat down**, **He had never driven a car**. Изменился отсчёт: `already` значит «к тому моменту уже успело», `just` — «за пару минут до того момента». Ловушки — вынести маркер наружу (**Already the train had left** ✗) или в хвост (**I had sat down just** ✗). `yet` во флешбэке почти не звучит, потому что тянет к сегодняшнему дню; его место занимает `still`, и стоит он **перед** помощником: **He still hadn't called by midnight**.",
+      "examples": [
+        {
+          "ru": "Когда Соня добежала до платформы, поезд уже ушёл.",
+          "en": "By the time Sonya got to the platform, the train had already left."
+        },
+        {
+          "ru": "Я только сел, и тут зазвонил телефон.",
+          "en": "I had just sat down when the phone rang."
+        },
+        {
+          "ru": "Она только разобрала сумку, как её позвали обратно.",
+          "en": "She had just unpacked her bag when they called her back."
+        },
+        {
+          "ru": "До того дня он ни разу не садился за руль.",
+          "en": "He had never driven a car before that day."
+        },
+        {
+          "ru": "К полуночи он так и не позвонил.",
+          "en": "He still hadn't called by midnight."
+        },
+        {
+          "ru": "К обеду мы уже посмотрели три квартиры.",
+          "en": "By lunchtime we had already seen three flats."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему already нельзя поставить в начало предложения, как по-русски «уже»?",
+        "Чем just в этой форме отличается от just в перфекте настоящего?",
+        "Почему still стоит перед hadn't, а already — внутри формы?"
+      ]
+    },
+    {
+      "id": 454,
+      "microtopicId": 172,
+      "title": "Как это звучит в рассказе",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор мы разбирали это время по одному предложению за раз. Но в книге или в сериале оно так не встречается: там идёт связный рассказ, и форма работает в нём как второй план в кадре. Посмотрим на кусок такого рассказа целиком."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Tom woke up twenty minutes late.**",
+            "**He had set two alarms the night before, but he slept through both of them.**",
+            "**By the time he got to the office, the meeting had already started.**",
+            "**His flatmate had left a note on the table, but Tom hadn't even looked at it.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Прочитайте ещё раз и обратите внимание на ощущение: история читается легко, хотя события в ней идут вовсе не по порядку. Мы прыгаем из утра в предыдущий вечер, обратно в утро, потом снова назад. И ни разу не спотыкаемся."
+        },
+        {
+          "type": "heading",
+          "text": "Разбор по предложениям"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**1** — сцена. Камера включилась: Том проснулся, отсюда ведётся рассказ.",
+            "**2** — половина назад, половина вперёд. `had set` уводит нас во вчерашний вечер (будильники поставлены до пробуждения), а `slept through` возвращает в утро.",
+            "**3** — новая сцена (дошёл до офиса) плюс флешбэк: встреча началась раньше, чем он вошёл.",
+            "**4** — снова слои: записку оставили до его ухода, а вот `hadn't looked` — про самого Тома, который к моменту ухода на неё так и не взглянул."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Видите механику? Простое прошедшее **двигает сюжет вперёд**, а форма с `had` каждый раз **отступает на шаг назад** — и тут же возвращает нас обратно. Читателю не нужны слова «до этого» и «накануне»: он слышит слои прямо в форме глагола."
+        },
+        {
+          "type": "heading",
+          "text": "Что будет, если убрать had"
+        },
+        {
+          "type": "paragraph",
+          "text": "Возьмём второе предложение и поставим оба глагола в простое прошедшее: **He set two alarms the night before, but he slept through both of them.** Грамматика цела, история в целом понятна — но слои схлопнулись в один. Теперь оба действия лежат в одной плоскости, и держится порядок только на словах `the night before`. Уберите и их — и получится, что Том ставил будильники уже после того, как проснулся."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот в чём практическая ценность формы: она **удерживает порядок без подпорок**. Именно поэтому в письменном рассказе её берегут, а в разговоре, где всегда можно переспросить, часто роняют."
+        },
+        {
+          "type": "heading",
+          "text": "Ещё один типичный кадр"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эта конструкция особенно любит глаголы понимания — момент, когда герой что-то осознаёт, а причина лежит в прошлом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**At his desk he realised that he had left his laptop at home.** — понял за столом, а забыл ноутбук ещё дома.",
+            "**Only later did we find out that she had changed her number.** — узнали позже, а номер она сменила раньше."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Такая пара «понял ↔ а до этого случилось» — самая частая связка этого времени в живых текстах. Заметив её, вы будете узнавать форму мгновенно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Попробуйте на любимом сериале с английскими субтитрами. Как только звучит `had` с третьей формой, ставьте паузу и спрашивайте себя: от какой сцены отсчитывают? Через десяток таких пауз форма перестанет быть правилом и станет слышимой."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В связном рассказе простое прошедшее двигает сюжет вперёд, а `had + V3` каждый раз отступает на шаг назад: **Tom woke up late. He had set two alarms the night before, but he slept through both of them.** Именно поэтому история читается легко, хотя события идут не по порядку, — слои слышны прямо в форме глагола. Уберите `had`, и порядок будет держаться только на словах вроде `the night before`, а без них он развалится. Самый частый кадр этого времени — момент осознания: **At his desk he realised that he had left his laptop at home**.",
+      "examples": [
+        {
+          "ru": "Том проснулся на двадцать минут позже.",
+          "en": "Tom woke up twenty minutes late."
+        },
+        {
+          "ru": "Он с вечера поставил два будильника, но проспал оба.",
+          "en": "He had set two alarms the night before, but he slept through both of them."
+        },
+        {
+          "ru": "Когда он добрался до офиса, встреча уже началась.",
+          "en": "By the time he got to the office, the meeting had already started."
+        },
+        {
+          "ru": "Сосед оставил записку на столе, но Том на неё даже не взглянул.",
+          "en": "His flatmate had left a note on the table, but Tom hadn't even looked at it."
+        },
+        {
+          "ru": "За столом он понял, что забыл ноутбук дома.",
+          "en": "At his desk he realised that he had left his laptop at home."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять при чтении, где в рассказе сцена, а где предыстория?",
+        "Почему рассказ не разваливается, если события идут не по порядку?",
+        "Обязательно ли ставить had в каждом предложении про прошлое в тексте?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1776,6 +2043,42 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 160,
       "orderInCard": 2
+    },
+    {
+      "cardId": 453,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 178,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 453,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 84,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 453,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 205,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 454,
+      "exerciseType": "MATCHING",
+      "exerciseId": 69,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 454,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 98,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 454,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 180,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1948,6 +2251,46 @@
       "transcription": "[taɪt]",
       "microtopicId": 171,
       "categoryId": "tenses"
+    },
+    {
+      "id": 706,
+      "word": "to realise",
+      "translation": "понимать, осознавать",
+      "transcription": "[ˈrɪəlaɪz]",
+      "microtopicId": 172,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 707,
+      "word": "to unpack",
+      "translation": "распаковывать, разбирать вещи",
+      "transcription": "[ʌnˈpæk]",
+      "microtopicId": 172,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 708,
+      "word": "platform",
+      "translation": "платформа, перрон",
+      "transcription": "[ˈplætfɔːm]",
+      "microtopicId": 172,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 709,
+      "word": "alarm",
+      "translation": "будильник, сигнал тревоги",
+      "transcription": "[əˈlɑːm]",
+      "microtopicId": 172,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 710,
+      "word": "flatmate",
+      "translation": "сосед по квартире",
+      "transcription": "[ˈflætmeɪt]",
+      "microtopicId": 172,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -2041,6 +2384,37 @@
         }
       ],
       "explanation": "Во второй строке пропал счёт до того момента: после the first time нужен had flown. В четвёртой never залезло перед помощником — оно стоит между had и третьей формой: she had never spoken."
+    },
+    {
+      "id": 178,
+      "statements": [
+        {
+          "en": "The shop had already closed when Vera got there.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Already the bus had gone when I came out.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She had just finished her coffee when the taxi arrived.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I had finished my report just when he called.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They had never seen the sea before that trip.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во второй строке маркер вынесен в начало предложения, хотя его место внутри формы: the bus had already gone. В четвёртой just уехал в хвост и оторвался от глагола — верно I had just finished my report."
     }
   ],
   "word_arrangement_exercises": [
@@ -2296,6 +2670,48 @@
         }
       ],
       "explanation": "Конструкция hadn't seen … until ставит границу: до названного момента чего-то не было. Момент здесь — наступление срока, а не его перенос, и увидели проблему именно в этот момент, а не после него."
+    },
+    {
+      "id": 205,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "К девяти вечера Лили так и не позвонила.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "By nine Lily hadn't still called.",
+          "isCorrect": false
+        },
+        {
+          "text": "By nine Lily still hadn't called.",
+          "isCorrect": true
+        },
+        {
+          "text": "By nine Lily didn't still call.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Still встаёт перед помощником — still hadn't, а не hadn't still. Вариант с didn't теряет флешбэк: девять вечера здесь граница, до которой звонка так и не было."
+    },
+    {
+      "id": 180,
+      "choiceType": "CHOICE",
+      "prompt": "When Ben came back, his flatmate ___ gone to bed.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "already had",
+          "isCorrect": false
+        },
+        {
+          "text": "has already",
+          "isCorrect": false
+        },
+        {
+          "text": "had already",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Маркер стоит между помощником и третьей формой — had already gone. Порядок already had ломает конструкцию, а has already считает от сегодняшнего дня, хотя сцена в прошлом."
     }
   ],
   "text_input_exercises": [
@@ -2327,6 +2743,36 @@
         "начался",
         "ел",
         "ушёл"
+      ]
+    },
+    {
+      "id": 84,
+      "items": [
+        {
+          "sentence": "By ten o'clock she had ___ finished the report.",
+          "contextRu": "",
+          "answer": "already",
+          "alternatives": []
+        },
+        {
+          "sentence": "We had ___ sat down when the waiter came.",
+          "contextRu": "",
+          "answer": "just",
+          "alternatives": []
+        },
+        {
+          "sentence": "He ___ hadn't called by midnight.",
+          "contextRu": "",
+          "answer": "still",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Already и just садятся внутрь формы, между had и третьей формой, и говорят «к тому моменту уже» и «прямо перед тем моментом». Still работает иначе: он стоит перед помощником и сообщает, что к названному моменту так ничего и не случилось.",
+      "taskDescription": "Впиши в каждое предложение подходящее по смыслу слово из банка.",
+      "wordBank": [
+        "still",
+        "just",
+        "already"
       ]
     }
   ],
@@ -2419,6 +2865,29 @@
         }
       ],
       "explanation": "Форма с had всегда отодвигает событие назад, за вторую точку; простое прошедшее оставляет оба события в одной сцене, и тогда они идут в том порядке, в каком названы."
+    },
+    {
+      "id": 69,
+      "taskDescription": "соедини сцену с её предысторией.",
+      "pairs": [
+        {
+          "left": "Tom missed the bus",
+          "right": "he had left home late"
+        },
+        {
+          "left": "The room was dark",
+          "right": "someone had turned the light off"
+        },
+        {
+          "left": "Lily was hungry",
+          "right": "she hadn't eaten all day"
+        },
+        {
+          "left": "Vera couldn't get in",
+          "right": "she had lost her keys"
+        }
+      ],
+      "explanation": "В каждой паре левая часть — сцена в простом прошедшем, правая — её причина, случившаяся раньше и потому одетая в had плюс третью форму."
     }
   ],
   "error_correction_exercises": [
@@ -2614,6 +3083,29 @@
         }
       ],
       "explanation": "Флешбэк нужен там, где есть вторая точка в прошлом и одно событие случилось до неё. Если события идут по порядку или названо всего одно, форма с had лишняя — рассказ спокойно едет в простом прошедшем."
+    },
+    {
+      "id": 98,
+      "taskDescription": "рассказ идёт про утро — распредели события на те, что случились этим утром, и те, что были до него.",
+      "categories": [
+        {
+          "title": "Сцена",
+          "items": [
+            "проснулся и умылся",
+            "вышел на улицу",
+            "сел в автобус"
+          ]
+        },
+        {
+          "title": "Предыстория",
+          "items": [
+            "с вечера собрал рюкзак",
+            "ночью выключил будильник",
+            "накануне купил билет"
+          ]
+        }
+      ],
+      "explanation": "В сцену идёт всё, что происходит по ходу рассказа, — это простое прошедшее. В предысторию — то, что случилось до неё и объясняет её, и вот там нужна форма с had."
     }
   ],
   "find_the_odd_exercises": [
