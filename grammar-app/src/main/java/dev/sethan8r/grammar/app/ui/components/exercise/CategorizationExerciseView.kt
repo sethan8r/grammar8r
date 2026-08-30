@@ -9,6 +9,7 @@ import dev.sethan8r.grammar.app.ui.components.exercise.parts.hitTest
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.VectorConverter
+import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -48,6 +49,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
+import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -86,8 +88,9 @@ private const val POOL_COLS = 2
 /**
  * Рендерер CATEGORIZATION во [ExerciseFrame]: колонки-категории сверху, пул снизу, drag элементов
  * пул ↔ колонки (туда-обратно). Жест — на КОНТЕЙНЕРЕ (хит-тест элемента под пальцем), оверлей —
- * сиблингом фрейма (поверх клипа); зона сброса определяется по координатам колонок/пула. Элементы
- * пула пресайзятся под ширину колонки ([BoxWithConstraints]) — при броске нет скачка размера. Вердикт
+ * сиблингом фрейма (поверх клипа); зона сброса определяется по координатам колонок/пула. Ширина
+ * оверлея анимированно подгоняется под слот под пальцем (колонка уже слота пула, когда категорий
+ * три) — приземляется чип уже нужного размера, без скачка. Вердикт
  * all-or-nothing: на реванше каждый элемент уезжает в свою колонку (показ ответа), при этом изначально
  * верно лежавшие — зелёные, ошибочные — красные (видно и правильный ответ, и где была ошибка).
  */
@@ -141,6 +144,13 @@ fun CategorizationExerciseView(
     var dragging by remember(exercise.id) { mutableStateOf<CatItem?>(null) }
     var pointer by remember(exercise.id) { mutableStateOf(Offset.Zero) }
     var draggedSize by remember(exercise.id) { mutableStateOf(IntSize.Zero) }
+    // Живой размер оверлея: он меняется на лету (чип подгоняется под слот), поэтому центр под пальцем
+    // считаем по фактическому замеру, а не по размеру на старте жеста.
+    var overlaySize by remember(exercise.id) { mutableStateOf(IntSize.Zero) }
+    // Ширина чипа в колонке и в слоте пула — считаются в BoxWithConstraints, нужны оверлею, который
+    // живёт снаружи фрейма. При двух категориях совпадают, при трёх колонка заметно уже.
+    var dragColumnWidth by remember(exercise.id) { mutableStateOf(0.dp) }
+    var dragPoolWidth by remember(exercise.id) { mutableStateOf(0.dp) }
     var hoverZone by remember(exercise.id) { mutableStateOf<Int?>(null) }
     // Плавный «переезд» оверлея к новому месту чипа после сброса (колонка/пул — разные родители, поэтому
     // animatePlacement тут не срабатывает; анимируем оверлей, как возврат в пул в WORD_ARRANGEMENT).
@@ -206,6 +216,7 @@ fun CategorizationExerciseView(
                         dragging = item
                         pointer = centers[item.id] ?: Offset.Zero
                         draggedSize = sizes[item.id] ?: IntSize.Zero
+                        overlaySize = IntSize.Zero
                     },
                     onDrag = { delta ->
                         pointer += delta
@@ -286,7 +297,11 @@ fun CategorizationExerciseView(
                     val cols = POOL_COLS
                     val poolSlotWidth = (maxWidth - Dimens.spaceSmall) / POOL_COLS
                     val poolChipWidth = poolSlotWidth - Dimens.spaceSmall * 2
-                    SideEffect { perRow = cols }
+                    SideEffect {
+                        perRow = cols
+                        dragColumnWidth = chipWidth
+                        dragPoolWidth = poolChipWidth
+                    }
 
                     Column {
                         // --- Колонки-категории ---
@@ -374,17 +389,30 @@ fun CategorizationExerciseView(
         // (без animatePlacement/захвата геометрии — позицию держит offset).
         (dragging ?: releasing)?.let { item ->
             val pos = if (dragging != null) pointer else releaseAnim.value
+            // Слот колонки уже слота пула (при трёх категориях), поэтому ширину подгоняем на лету: чип
+            // сужается, ещё зависая над колонкой, и приземляется уже нужного размера — без скачка.
+            val overColumn = if (dragging != null) hoverZone != null else placement[item.id] != null
+            val slotWidth = (if (overColumn) dragColumnWidth else dragPoolWidth)
+                .takeIf { it > 0.dp } ?: with(density) { draggedSize.width.toDp() }
+            val chipWidth by animateDpAsState(
+                targetValue = slotWidth,
+                animationSpec = tween(durationMillis = Durations.dragResizeMs),
+                label = "categorizationDragChipWidth",
+            )
             ExerciseChip(
                 text = item.text,
                 background = Elevated,
                 border = Inactive,
                 modifier = Modifier
                     .zIndex(1f)
-                    .width(with(density) { draggedSize.width.toDp() })
+                    .width(chipWidth)
+                    .onSizeChanged { overlaySize = it }
                     .offset {
+                        val w = if (overlaySize.width > 0) overlaySize.width else draggedSize.width
+                        val h = if (overlaySize.height > 0) overlaySize.height else draggedSize.height
                         IntOffset(
-                            (pos.x - draggedSize.width / 2f).roundToInt(),
-                            (pos.y - draggedSize.height / 2f).roundToInt(),
+                            (pos.x - w / 2f).roundToInt(),
+                            (pos.y - h / 2f).roundToInt(),
                         )
                     },
             )
