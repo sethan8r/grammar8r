@@ -101,7 +101,7 @@
       "topicId": 1,
       "title": "Plural of Nouns · Множественное число",
       "order": 13,
-      "searchKeywords": "как добавить s мн число, неправильное множественное число, много предметов, окончание -s -es -ies"
+      "searchKeywords": "окончание es или s, cities или citys, knives или knifes, множественное от child man mouse, fish и sheep не меняются, ножницы и джинсы во множественном"
     },
     {
       "id": 14,
@@ -4250,188 +4250,201 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "В русском слова меняются постоянно: стол — стола — столу — столом. Английский куда скромнее — большинство существительных просто добавляют **-s** в конце. Но в деталях есть несколько нюансов."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "Русское множественное число — это лотерея окончаний: стол — стол**ы**, дом — дом**а**, стул — сту**лья**, дерево — дерев**ья**. Какое окончание достанется слову, заранее не угадать, их просто помнят наизусть. Английский тут устроен куда добрее: в подавляющем большинстве случаев к слову добавляется `-s`, и на этом всё заканчивается."
         },
         {
           "type": "heading",
-          "text": "Правило 1: Большинство существительных → +s"
+          "text": "Обычное слово — просто -s"
         },
         {
           "type": "paragraph",
-          "text": "Просто добавить -s. Это работает для большинства слов."
+          "text": "Ничего не меняется внутри слова, никаких падежей — только хвостик в конце."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "cat → **cats** *(кошки)*",
-            "phone → **phones** *(телефоны)*",
-            "table → **tables** *(столы)*",
-            "book → **books** *(книги)*"
+            "**cat → cats** — *кошка → кошки*",
+            "**phone → phones** — *телефон → телефоны*",
+            "**book → books** — *книга → книги*",
+            "**friend → friends** — *друг → друзья*"
           ]
         },
         {
-          "type": "paragraph",
-          "text": "---"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В русском форма слова пляшет от числа: «два стол**а**», но «пять стол**ов**». В английском форма множественного ОДНА на любое количество: **two boxes**, **five boxes**, **a hundred boxes** — окончание одно и то же. И оно обязательно: **There are many book** ✗ → **There are many books** ✓. Русскому кажется, что после «много» и так понятно, что предметов несколько, — английскому этого мало, ему нужен видимый `-s`."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "Правило 2: Слова на -s, -sh, -ch, -x, -o → +es"
+          "text": "Когда одного -s мало: -es"
         },
         {
           "type": "paragraph",
-          "text": "Добавляем -es, потому что иначе окончание трудно произнести."
+          "text": "Если слово уже заканчивается на свистящий или шипящий звук (-s, -ss, -sh, -ch, -x), приклеить к нему ещё один `-s` физически неудобно — язык не успевает. Поэтому вставляется целый слог `-es`, который звучит как [[ɪz]]."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "bus → **buses** *(автобусы)*",
-            "dish → **dishes** *(тарелки)*",
-            "watch → **watches** *(часы)*",
-            "box → **boxes** *(коробки)*",
-            "tomato → **tomatoes** *(помидоры)*"
+            "**bus → buses** — *автобус → автобусы*",
+            "**dish → dishes** — *тарелка → тарелки*",
+            "**church → churches** — *церковь → церкви*",
+            "**box → boxes** — *коробка → коробки*"
           ]
         },
         {
           "type": "paragraph",
-          "text": "**Но!** Слова-заимствования на -o чаще просто +s:"
+          "text": "Тот же `-es` достался словам на -o: **tomato → tomatoes**, **potato → potatoes**, **hero → heroes**."
         },
         {
-          "type": "paragraph",
-          "text": "photo → **photos**, piano → **pianos**, video → **videos**"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Короткие слова-заимствования на -o этому правилу не подчиняются и берут обычное `-s`: **photo → photos**, **piano → pianos**, **video → videos**, **kilo → kilos**. Их немного, зато они самые ходовые — запоминаются быстро."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "Правило 3: Слова на -y после согласной → -ies"
+          "text": "Слова на -y: смотрим на соседнюю букву"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Согласная + y → ies · гласная + y → просто s"
+            }
+          ]
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "city → **cities** *(города)*",
-            "party → **parties** *(вечеринки)*",
-            "country → **countries** *(страны)*"
+            "**city → cities** — *город → города*",
+            "**party → parties** — *вечеринка → вечеринки*",
+            "**country → countries** — *страна → страны*",
+            "**day → days** — *день → дни*",
+            "**key → keys** — *ключ → ключи*",
+            "**boy → boys** — *мальчик → мальчики*"
           ]
         },
         {
           "type": "paragraph",
-          "text": "**Но!** Если перед -y стоит **гласная** — просто +s:"
+          "text": "Логика простая: после согласной буква y работает как гласный звук — и уступает место своей «взрослой» версии `i`, к которой уже спокойно клеится `-es`. А после гласной y — часть готового звука (**day**, **key**), разбирать там нечего, слово просто получает хвостик."
+        },
+        {
+          "type": "heading",
+          "text": "Слова на -f и -fe: f превращается в v"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "day → **days** *(дни)*",
-            "key → **keys** *(ключи)*",
-            "toy → **toys** *(игрушки)*"
+            "**leaf → leaves** — *лист → листья*",
+            "**knife → knives** — *нож → ножи*",
+            "**wife → wives** — *жена → жёны*",
+            "**life → lives** — *жизнь → жизни*"
           ]
         },
         {
           "type": "paragraph",
-          "text": "---"
+          "text": "Причина в звуке: глухой [[f]] оказывается между гласными и озвончается до [[v]], а письмо просто идёт следом за произношением."
         },
         {
-          "type": "heading",
-          "text": "Правило 4: Слова на -f / -fe → -ves"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "leaf → **leaves** *(листья)*",
-            "knife → **knives** *(ножи)*",
-            "wife → **wives** *(жёны)*",
-            "life → **lives** *(жизни)*"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рука по инерции пишет **knifes** ✗ и **leafs** ✗ — по общему правилу «просто добавь -s». Но и обратная крайность неверна: меняются не все слова на -f. Исключения запоминаем горсткой: **roof → roofs**, **chief → chiefs**, **belief → beliefs**."
+            }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**Исключения** (просто +s): roof → **roofs**, chief → **chiefs**, belief → **beliefs**"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
           "type": "heading",
-          "text": "Сводная таблица:"
+          "text": "Все правила разом"
         },
         {
           "type": "table",
           "header": [
-            "Правило",
-            "Пример",
-            "Мн. число"
+            "Слово заканчивается на",
+            "Что делаем",
+            "Пример"
           ],
           "rows": [
             [
-              "+s (стандарт)",
-              "cat, book",
-              "cats, books"
+              "обычная буква",
+              "+s",
+              "book → books"
             ],
             [
-              "+es (-s/-sh/-ch/-x/-o)",
-              "bus, watch, box",
-              "buses, watches, boxes"
+              "-s, -ss, -sh, -ch, -x, -o",
+              "+es",
+              "box → boxes"
             ],
             [
-              "-y → -ies (согл. + y)",
-              "city, party",
-              "cities, parties"
+              "согласная + y",
+              "y → ies",
+              "city → cities"
             ],
             [
-              "-y → +s (гласн. + y)",
-              "day, key",
-              "days, keys"
+              "гласная + y",
+              "+s",
+              "day → days"
             ],
             [
-              "-f/-fe → -ves",
-              "leaf, knife",
-              "leaves, knives"
+              "-f, -fe",
+              "f → ves",
+              "knife → knives"
             ]
           ]
         }
       ],
-      "theorySummary": "Большинство слов → +s. После -s/-sh/-ch/-x/-o → +es. -y после согласной → -ies (city→cities), после гласной просто +s (day→days). -f/-fe → -ves (leaf→leaves), кроме roof/chief/belief.",
+      "theorySummary": "Обычное слово получает `-s`: **book → books**. После свистящих и шипящих (-s, -ss, -sh, -ch, -x) и после -o нужен целый слог `-es`: **box → boxes**, **tomato → tomatoes**, но короткие заимствования на -o берут просто `-s`: **photo → photos**. Согласная перед -y даёт `-ies` (**city → cities**), гласная — обычное `-s` (**day → days**), а слова на -f/-fe меняют f на `-ves` (**knife → knives**), кроме **roof**, **chief**, **belief**. Форма множественного одна на любое количество, и окончание обязательно даже после числа и после many.",
       "examples": [
         {
           "ru": "В парке много деревьев.",
           "en": "There are many trees in the park."
         },
         {
-          "ru": "Вера купила три коробки яблок.",
-          "en": "Vera bought three boxes of apples."
+          "ru": "На полке три коробки.",
+          "en": "There are three boxes on the shelf."
         },
         {
-          "ru": "Дима потерял свои ключи.",
-          "en": "Dima lost his keys."
+          "ru": "У Лены в сумке два ключа.",
+          "en": "Lena has two keys in her bag."
         },
         {
           "ru": "В этом городе много старых церквей.",
           "en": "There are many old churches in this city."
         },
         {
-          "ru": "Осенью листья желтеют.",
-          "en": "In autumn the leaves turn yellow."
+          "ru": "Листья на этом дереве жёлтые.",
+          "en": "The leaves on this tree are yellow."
         },
         {
-          "ru": "У Коли два ножа на кухне.",
-          "en": "Kolya has two knives in the kitchen."
+          "ru": "Мои друзья — из разных стран.",
+          "en": "My friends are from different countries."
         }
       ],
       "clarificationOptions": [
         "Почему photo → photos, а tomato → tomatoes?",
-        "Как понять что перед -y стоит согласная, а не гласная?",
-        "Есть ли правило для слов на -o или это нужно просто помнить?"
+        "Как быстро понять, гласная перед -y или согласная?",
+        "Почему knife → knives, а roof → roofs?"
       ]
     },
     {
@@ -4442,122 +4455,124 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Правила из предыдущей карточки покрывают 95% слов. Остальные 5% — исключения которые нужно просто запомнить. Их немного, но они очень частые."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "Правила прошлой карточки закрывают почти весь язык. Но есть горстка слов, которые в них не влезают, — и это как раз те слова, которые нужны каждый день: человек, ребёнок, зуб, нога. В русском ровно та же история: «человек — люди», «ребёнок — дети» — никакой логики, просто древние формы, которые язык сохранил. Английский сохранил свои."
         },
         {
           "type": "heading",
-          "text": "Исключения — уникальные формы множественного числа"
+          "text": "Слова, которые меняются изнутри"
         },
         {
           "type": "table",
           "header": [
-            "Ед. число",
-            "Мн. число",
+            "Один",
+            "Много",
             "Перевод"
           ],
           "rows": [
             [
               "man",
-              "**men**",
+              "men",
               "мужчина → мужчины"
             ],
             [
               "woman",
-              "**women**",
+              "women",
               "женщина → женщины"
             ],
             [
               "child",
-              "**children**",
+              "children",
               "ребёнок → дети"
             ],
             [
               "tooth",
-              "**teeth**",
+              "teeth",
               "зуб → зубы"
             ],
             [
               "foot",
-              "**feet**",
+              "feet",
               "ступня → ступни"
             ],
             [
               "goose",
-              "**geese**",
+              "geese",
               "гусь → гуси"
             ],
             [
               "mouse",
-              "**mice**",
+              "mice",
               "мышь → мыши"
             ],
             [
               "person",
-              "**people**",
+              "people",
               "человек → люди"
             ]
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Окончания нет вовсе — меняется гласная внутри слова."
+        },
+        {
           "type": "callout",
           "variant": "trap",
-          "label": "Главные ловушки",
+          "label": "Ловушка",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "`Two mans` ✗ → `two **men**` ✓"
-            },
-            {
-              "type": "paragraph",
-              "text": "`Three childs` ✗ → `three **children**` ✓"
-            },
-            {
-              "type": "paragraph",
-              "text": "`Several persons` — формально правильно, но звучит юридически; в разговоре всегда `people`"
+              "text": "Ошибки здесь двух видов, и вторая коварнее. Первая — приклеить `-s` к исходному слову: **two mans** ✗ → **two men** ✓, **three childs** ✗ → **three children** ✓. Вторая — приклеить `-s` к уже готовой форме: **childrens** ✗, **peoples** ✗, **womens** ✗. Слово уже стоит во множественном числе, второй раз ставить его туда не нужно."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "---"
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Форма `persons` в языке есть, но живёт в протоколах и объявлениях — «лица в количестве…». В живой речи о людях всегда **people**: **These people are my neighbours.** — *Эти люди — мои соседи.*"
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "Неизменяемые — одинаково в единственном и множественном числе"
+          "text": "Слова, у которых форма одна на всё"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "one fish → three **fish** *(три рыбы)*",
-            "one sheep → many **sheep** *(много овец)*",
-            "one deer → five **deer** *(пять оленей)*",
-            "one series → two **series** *(две серии)*"
+            "**one fish → three fish** — *одна рыба → три рыбы*",
+            "**one sheep → many sheep** — *одна овца → много овец*",
+            "**one deer → five deer** — *один олень → пять оленей*",
+            "**one series → two series** — *один сериал → два сериала*"
           ]
         },
         {
           "type": "paragraph",
-          "text": "I caught three **fish**. ✓ — три рыбы, не `three fishes`."
+          "text": "Само слово не меняется, а количество показывают соседи — число или many. Форма **fishes** существует, но означает другое: разные виды рыб, а не просто много рыбы."
         },
         {
-          "type": "paragraph",
-          "text": "*(fishes используют только когда говорят о разных **видах** рыб: The ocean has many fishes = много видов)*"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Форма не изменилась, но слово всё равно множественное, и глагол это чувствует: **There are three fish in the tank.** — *В аквариуме три рыбы.* Не **there is**."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "Только во множественном числе"
+          "text": "Слова, которые живут только во множественном"
         },
         {
           "type": "paragraph",
-          "text": "Некоторые предметы существуют только во мн.ч. Для одного предмета — a pair of:"
+          "text": "Предмет из двух одинаковых половин англичанин считает парой — поэтому такие слова существуют только во множественном числе."
         },
         {
           "type": "table",
@@ -4595,37 +4610,44 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Where are my **glasses**? ✓ — даже когда речь об одной паре, глагол всегда во мн.ч."
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Единственного числа у них нет вообще: **a scissor** ✗, **my jean** ✗. Один предмет — это **a pair of scissors**, **a pair of jeans**. И глагол при них всегда множественный: **Where are my glasses?** ✓ — *Где мои очки?*, даже когда очки одни-единственные."
+            }
+          ]
         }
       ],
-      "theorySummary": "Неправильные: man→men, woman→women, child→children, tooth→teeth, foot→feet, mouse→mice, person→people. Неизменяемые: fish, sheep, deer — форма одна. Только мн.ч.: scissors, jeans, glasses — для одного предмета говорят a pair of.",
+      "theorySummary": "Часть самых ходовых слов меняется изнутри, без всякого окончания: **man → men**, **woman → women**, **child → children**, **tooth → teeth**, **foot → feet**, **mouse → mice**, **person → people**; дописывать к готовой форме `-s` (**childrens** ✗) нельзя. У слов **fish**, **sheep**, **deer**, **series** форма одна на любое количество, но глагол при них множественный: **There are three fish in the tank.** А **scissors**, **trousers**, **jeans**, **glasses**, **headphones** существуют только во множественном — про один предмет говорят **a pair of scissors**.",
       "examples": [
         {
-          "ru": "Дети бегали по всему двору.",
-          "en": "The children were running all around the yard."
+          "ru": "Во дворе много детей.",
+          "en": "There are many children in the yard."
         },
         {
-          "ru": "У Ромы болят зубы.",
-          "en": "Roma's teeth hurt."
+          "ru": "У Ромы белые зубы.",
+          "en": "Roma has white teeth."
         },
         {
-          "ru": "В поле паслось стадо овец.",
-          "en": "A flock of sheep was grazing in the field."
+          "ru": "В поле есть овцы.",
+          "en": "There are sheep in the field."
         },
         {
-          "ru": "Игорь не может найти свои очки.",
-          "en": "Igor can't find his glasses."
+          "ru": "Очки Игоря на столе.",
+          "en": "Igor's glasses are on the table."
         },
         {
-          "ru": "В Москве живут миллионы людей.",
-          "en": "Millions of people live in Moscow."
+          "ru": "В этом городе много людей.",
+          "en": "There are many people in this city."
         }
       ],
       "clarificationOptions": [
-        "Почему scissors/jeans/glasses всегда во мн.ч.?",
-        "Когда можно сказать \"fishes\" вместо \"fish\"?",
-        "Почему person → people, а не persons?"
+        "Почему ножницы и джинсы всегда во множественном числе?",
+        "Когда говорят fishes, а не fish?",
+        "Почему people, а не persons?"
       ]
     },
     {
@@ -12140,17 +12162,17 @@
     {
       "id": "basics_card29_ex1",
       "cardId": 29,
-      "title": "Правильно ли мн.ч.?",
-      "userInstruction": "AI даст 5 слов в единственном числе. Напиши каждое во множественном числе. Если ошибёшься — AI объяснит правило.",
+      "title": "Множественное число: -s, -es или -ies",
+      "userInstruction": "ИИ пришлёт пять английских слов в единственном числе с переводом. Напишите каждое из них во множественном числе.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     },
     {
       "id": "basics_card30_ex1",
       "cardId": 30,
-      "title": "Ед. число или мн.?",
-      "userInstruction": "AI покажет предложения с существительными в скобках. Напиши правильную форму множественного числа для каждого.",
-      "inputMode": "FREE_WRITE",
+      "title": "Особые формы множественного числа",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите нужную форму слова, которое стоит рядом в скобках.",
+      "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
     {
@@ -14411,34 +14433,34 @@
     },
     {
       "id": 5,
-      "taskDescription": "запиши множественное число — осторожно, правила и исключения идут вперемешку",
+      "taskDescription": "запиши каждое слово во множественном числе — правила и исключения идут вперемешку",
       "rows": [
         {
-          "hint": "tomato",
-          "answer": "tomatoes"
+          "hint": "church",
+          "answer": "churches"
+        },
+        {
+          "hint": "baby",
+          "answer": "babies"
+        },
+        {
+          "hint": "monkey",
+          "answer": "monkeys"
+        },
+        {
+          "hint": "shelf",
+          "answer": "shelves"
+        },
+        {
+          "hint": "potato",
+          "answer": "potatoes"
         },
         {
           "hint": "photo",
           "answer": "photos"
-        },
-        {
-          "hint": "party",
-          "answer": "parties"
-        },
-        {
-          "hint": "day",
-          "answer": "days"
-        },
-        {
-          "hint": "knife",
-          "answer": "knives"
-        },
-        {
-          "hint": "roof",
-          "answer": "roofs"
         }
       ],
-      "explanation": "tomato → tomatoes (-o + es), но photo → photos (заимствование, просто +s). party → parties (согл. + y → ies), day → days (гласн. + y, просто +s). knife → knives (-fe → ves), но roof → roofs (исключение, просто +s)."
+      "explanation": "church оканчивается на -ch, а potato на -o, поэтому им нужен слог -es. У baby перед y стоит согласная, значит y уступает место i: babies. У monkey перед y гласная, поэтому просто +s. Shelf оканчивается на -f и меняет его на -ves. А photo — короткое заимствование на -o, оно берёт обычное -s."
     },
     {
       "id": 6,
@@ -17899,128 +17921,128 @@
     {
       "id": 37,
       "choiceType": "CHOICE",
-      "prompt": "There are three ___ on the shelf.",
-      "contextRu": "на полке три коробки",
+      "prompt": "There are five ___ in the sink.",
+      "contextRu": "",
       "options": [
         {
-          "text": "boxs",
-          "isCorrect": false
-        },
-        {
-          "text": "boxes",
+          "text": "dishes",
           "isCorrect": true
         },
         {
-          "text": "boxies",
+          "text": "dishs",
+          "isCorrect": false
+        },
+        {
+          "text": "dishies",
           "isCorrect": false
         }
       ],
-      "explanation": "box оканчивается на -x → +es = boxes."
+      "explanation": "dish оканчивается на -sh, и ещё один -s к нему не приклеить — нужен слог -es. Форма dishies невозможна: буква i появляется только вместо y."
     },
     {
       "id": 38,
       "choiceType": "CHOICE",
-      "prompt": "She has two ___ in her garden.",
-      "contextRu": "у неё в саду два...",
+      "prompt": "There are many ___ in this country.",
+      "contextRu": "",
       "options": [
         {
-          "text": "babys",
+          "text": "citys",
           "isCorrect": false
         },
         {
-          "text": "babyes",
+          "text": "cityes",
           "isCorrect": false
         },
         {
-          "text": "babies",
+          "text": "cities",
           "isCorrect": true
         }
       ],
-      "explanation": "baby оканчивается на согласную + -y → y→i + es = babies."
+      "explanation": "перед -y в слове city стоит согласная t, поэтому y меняется на i и добавляется -es: cities."
     },
     {
       "id": 39,
       "choiceType": "CHOICE",
-      "prompt": "The ___ are playing in the park.",
-      "contextRu": "... играют в парке",
+      "prompt": "There are two ___ on the kitchen table.",
+      "contextRu": "",
       "options": [
         {
-          "text": "childs",
+          "text": "knifes",
           "isCorrect": false
         },
         {
-          "text": "children",
+          "text": "knives",
           "isCorrect": true
         },
         {
-          "text": "childrens",
+          "text": "knifies",
           "isCorrect": false
         }
       ],
-      "explanation": "child → children — исключение, правило +s не работает. Подробнее — следующая карточка."
+      "explanation": "knife оканчивается на -fe, а такие слова меняют f на -ves: knives. Вариант knifes — самая частая ошибка по инерции от общего правила."
     },
     {
       "id": 25,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Коля купил два билета.",
+      "prompt": "В нашем городе две библиотеки.",
       "contextRu": "",
       "options": [
         {
-          "text": "Kolya bought two ticket.",
+          "text": "There are two librarys in our city.",
           "isCorrect": false
         },
         {
-          "text": "Kolya bought two tickets.",
+          "text": "There are two libraryes in our city.",
+          "isCorrect": false
+        },
+        {
+          "text": "There are two libraries in our city.",
           "isCorrect": true
-        },
-        {
-          "text": "Kolya bought two ticketes.",
-          "isCorrect": false
         }
       ],
-      "explanation": "ticket → tickets, стандартное +s."
+      "explanation": "в слове library перед y стоит согласная r, поэтому y меняется на i: libraries."
     },
     {
       "id": 26,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "На столе три ножа.",
+      "prompt": "В коробке пять яблок.",
       "contextRu": "",
       "options": [
         {
-          "text": "There are three knifes on the table.",
-          "isCorrect": false
-        },
-        {
-          "text": "There are three knives on the table.",
+          "text": "There are five apples in the box.",
           "isCorrect": true
         },
         {
-          "text": "There are three knife on the table.",
+          "text": "There are five apple in the box.",
+          "isCorrect": false
+        },
+        {
+          "text": "There are five applies in the box.",
           "isCorrect": false
         }
       ],
-      "explanation": "knife → knives (-fe → ves)."
+      "explanation": "apple — обычное слово, ему хватает -s. Окончание обязательно даже после числа, а форма applies невозможна: буква i появляется только вместо y."
     },
     {
       "id": 27,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "В этом районе много заводов.",
+      "prompt": "В этом магазине много помидоров.",
       "contextRu": "",
       "options": [
         {
-          "text": "There are many factorys in this area.",
+          "text": "There are many tomatos in this shop.",
           "isCorrect": false
         },
         {
-          "text": "There are many factories in this area.",
+          "text": "There are many tomatoes in this shop.",
           "isCorrect": true
         },
         {
-          "text": "There are many factoris in this area.",
+          "text": "There are many tomatoies in this shop.",
           "isCorrect": false
         }
       ],
-      "explanation": "factory (согл.+y) → factories."
+      "explanation": "tomato — не короткое заимствование вроде photo, поэтому оно получает полный слог -es: tomatoes."
     },
     {
       "id": 28,
@@ -19667,38 +19689,32 @@
       "id": 14,
       "items": [
         {
-          "sentence": "one knife → two ___",
-          "contextRu": "ножа",
-          "answer": "knives",
+          "sentence": "one watch → three ___",
+          "contextRu": "",
+          "answer": "watches",
           "alternatives": []
         },
         {
-          "sentence": "one party → three ___",
-          "contextRu": "вечеринки",
-          "answer": "parties",
+          "sentence": "one story → five ___",
+          "contextRu": "",
+          "answer": "stories",
           "alternatives": []
         },
         {
-          "sentence": "one roof → five ___",
-          "contextRu": "крыш",
+          "sentence": "one roof → two ___",
+          "contextRu": "",
           "answer": "roofs",
           "alternatives": []
         },
         {
-          "sentence": "one dish → four ___",
-          "contextRu": "тарелки",
-          "answer": "dishes",
-          "alternatives": []
-        },
-        {
-          "sentence": "one day → seven ___",
-          "contextRu": "дней",
-          "answer": "days",
+          "sentence": "one boy → six ___",
+          "contextRu": "",
+          "answer": "boys",
           "alternatives": []
         }
       ],
-      "explanation": "knife → knives (-fe → ves). party → parties (согл.+y → ies). roof → roofs (исключение из правила -f). dish → dishes (-sh + es). day → days (гласн.+y → просто +s).",
-      "taskDescription": "Напиши правильную форму множественного числа:"
+      "explanation": "watch оканчивается на -ch, поэтому нужен слог -es. В story перед y согласная, значит stories. Roof — одно из немногих исключений: f в нём не меняется, просто +s. А в boy перед y гласная, поэтому тоже просто +s.",
+      "taskDescription": "Напиши форму множественного числа."
     },
     {
       "id": 15,
@@ -20360,30 +20376,30 @@
     },
     {
       "id": 5,
-      "taskDescription": "соедини каждое слово с правильной формой множественного числа.",
+      "taskDescription": "соедини русское слово с английской формой множественного числа",
       "pairs": [
         {
-          "left": "child",
+          "left": "дети",
           "right": "children"
         },
         {
-          "left": "man",
-          "right": "men"
+          "left": "зубы",
+          "right": "teeth"
         },
         {
-          "left": "mouse",
+          "left": "мыши",
           "right": "mice"
         },
         {
-          "left": "goose",
-          "right": "geese"
+          "left": "ножницы",
+          "right": "scissors"
         },
         {
-          "left": "foot",
-          "right": "feet"
+          "left": "овцы",
+          "right": "sheep"
         }
       ],
-      "explanation": "child→children, man→men, mouse→mice, goose→geese, foot→feet — все исключения, не подчиняются стандартным правилам."
+      "explanation": "child и tooth меняются изнутри: children, teeth. Mouse даёт mice — тоже без всякого окончания. Sheep не меняется вообще, форма одна на любое количество. А scissors существует только во множественном числе."
     },
     {
       "id": 6,
@@ -20725,41 +20741,41 @@
     },
     {
       "id": 11,
-      "wrongSentence": "There are five childs in the park.",
+      "wrongSentence": "There are two mouses in the kitchen.",
       "options": [
         {
-          "text": "There are five childs in the park.",
-          "isCorrect": false
-        },
-        {
-          "text": "There are five children in the park.",
+          "text": "There are two mice in the kitchen.",
           "isCorrect": true
         },
         {
-          "text": "There are five childrens in the park.",
+          "text": "There are two mices in the kitchen.",
+          "isCorrect": false
+        },
+        {
+          "text": "There is two mice in the kitchen.",
           "isCorrect": false
         }
       ],
-      "explanation": "child → children — неправильное мн.ч., правило +s не работает. Никакого -s или -ren добавить нельзя, форма уникальная."
+      "explanation": "у слова mouse уникальная форма множественного числа — mice, и дописывать к ней -s не нужно: mices невозможно. Глагол при множественном числе — are, а не is."
     },
     {
       "id": 12,
-      "wrongSentence": "I need a new scissor for the project.",
+      "wrongSentence": "My new jean is on the chair.",
       "options": [
         {
-          "text": "I need a new scissor for the project.",
+          "text": "My new jean are on the chair.",
           "isCorrect": false
         },
         {
-          "text": "I need a new pair of scissors for the project.",
+          "text": "My new jeans is on the chair.",
+          "isCorrect": false
+        },
+        {
+          "text": "My new jeans are on the chair.",
           "isCorrect": true
-        },
-        {
-          "text": "I need new scissors for the project.",
-          "isCorrect": false
         }
       ],
-      "explanation": "scissors существует только во мн.ч. — \"a scissor\" невозможно. Для одного предмета — \"a pair of scissors\"."
+      "explanation": "единственного числа у слова jeans нет — форма всегда jeans. И глагол при таком слове тоже множественный: are, а не is."
     },
     {
       "id": 13,
@@ -21623,35 +21639,35 @@
     },
     {
       "id": 4,
-      "taskDescription": "перетащи слова в нужную колонку по типу мн.ч.",
+      "taskDescription": "распредели слова по типу множественного числа",
       "categories": [
         {
-          "title": "Стандартное мн.ч. (+s/+es/-ies/-ves)",
+          "title": "Обычное правило",
           "items": [
-            "books",
-            "cities",
-            "knives",
-            "dogs",
-            "pianos"
+            "church",
+            "phone",
+            "dog",
+            "piano"
           ]
         },
         {
-          "title": "Неизменяемое (ед.=мн.)",
+          "title": "Форма не меняется",
           "items": [
             "fish",
             "sheep",
-            "series"
+            "deer"
           ]
         },
         {
-          "title": "Только мн.ч.",
+          "title": "Только множественное",
           "items": [
-            "glasses",
-            "jeans"
+            "jeans",
+            "scissors",
+            "headphones"
           ]
         }
       ],
-      "explanation": "piano → pianos (заимствование, +s). series не изменяется. glasses и jeans не имеют формы ед.ч."
+      "explanation": "church, phone, dog и piano подчиняются обычным правилам: churches, phones, dogs, pianos. Fish, sheep и deer выглядят одинаково и в единственном, и во множественном. А jeans, scissors и headphones не имеют формы единственного числа — про один предмет говорят a pair of."
     },
     {
       "id": 5,
@@ -21867,49 +21883,49 @@
     },
     {
       "id": 4,
-      "groupDescription": "Три слова — правильные формы мн.ч., одно — с ошибкой",
+      "groupDescription": "Три формы множественного числа записаны верно, одна — с ошибкой",
       "items": [
         {
-          "text": "cats",
+          "text": "women",
           "isOdd": false
         },
         {
-          "text": "buses",
-          "isOdd": false
-        },
-        {
-          "text": "leafs",
+          "text": "childs",
           "isOdd": true
         },
         {
-          "text": "parties",
+          "text": "mice",
+          "isOdd": false
+        },
+        {
+          "text": "feet",
           "isOdd": false
         }
       ],
-      "explanation": "leafs — ошибка: leaf → leaves (-f → -ves). Остальные правильны: cats (+s), buses (-s+es), parties (согл.+y → ies)."
+      "explanation": "childs — ошибка, у слова child форма children. Women, mice и feet записаны верно: все три меняются изнутри, без окончания -s."
     },
     {
       "id": 5,
-      "groupDescription": "Три слова — правильные формы мн.ч., одно — с ошибкой",
+      "groupDescription": "Три слова не меняются во множественном числе, одно записано с ошибкой",
       "items": [
         {
-          "text": "photos",
+          "text": "sheep",
           "isOdd": false
         },
         {
-          "text": "pianos",
+          "text": "fish",
           "isOdd": false
         },
         {
-          "text": "tomatos",
+          "text": "series",
+          "isOdd": false
+        },
+        {
+          "text": "deers",
           "isOdd": true
-        },
-        {
-          "text": "videos",
-          "isOdd": false
         }
       ],
-      "explanation": "tomatos — ошибка: tomato → tomatoes (-o+es, не заимствование). Остальные — слова-заимствования на -o, берут просто +s: photos, pianos, videos."
+      "explanation": "у слова deer форма одна на любое количество — five deer, поэтому deers невозможно. Sheep, fish и series тоже выглядят одинаково в единственном и множественном."
     },
     {
       "id": 6,
