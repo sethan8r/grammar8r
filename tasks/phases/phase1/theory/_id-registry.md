@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 455 |
-| Categorization | 99 |
+| Card | 458 |
+| Categorization | 100 |
 | Category | 8 |
-| ConstructionMeaning | 52 |
-| DialogRestore | 60 |
-| ErrorCorrection | 165 |
-| FindTheOdd | 85 |
-| Matching | 70 |
-| Microtopic | 173 |
-| MultipleChoice·CHOICE | 181 |
-| MultipleChoice·FORWARD_CHOICE | 206 |
-| MultipleChoice·REVERSE_CHOICE | 67 |
-| TableFill | 37 |
-| TextInput | 85 |
+| ConstructionMeaning | 53 |
+| DialogRestore | 61 |
+| ErrorCorrection | 166 |
+| FindTheOdd | 86 |
+| Matching | 71 |
+| Microtopic | 174 |
+| MultipleChoice·CHOICE | 182 |
+| MultipleChoice·FORWARD_CHOICE | 207 |
+| MultipleChoice·REVERSE_CHOICE | 68 |
+| TableFill | 38 |
+| TextInput | 86 |
 | Topic | 28 |
 | Transformation | 74 |
-| TrueFalse | 179 |
-| WordArrangement | 161 |
-| course_word | 711 |
+| TrueFalse | 180 |
+| WordArrangement | 162 |
+| course_word | 716 |
 
 ## Диапазоны по темам
 
@@ -369,25 +369,25 @@
 - course_word: 607–655 (49)
 
 ### past-perfect
-- Card: 441–454 (14)
-- Categorization: 96–98 (3)
+- Card: 441–457 (17)
+- Categorization: 96–99 (4)
 - Category: 7–7 (1)
-- ConstructionMeaning: 50–51 (2)
-- DialogRestore: 58–59 (2)
-- ErrorCorrection: 162–164 (3)
-- FindTheOdd: 83–84 (2)
-- Matching: 68–69 (2)
-- Microtopic: 168–172 (5)
-- MultipleChoice·CHOICE: 176–180 (5)
-- MultipleChoice·FORWARD_CHOICE: 202–205 (4)
-- MultipleChoice·REVERSE_CHOICE: 65–66 (2)
-- TableFill: 36–36 (1)
-- TextInput: 83–84 (2)
+- ConstructionMeaning: 50–52 (3)
+- DialogRestore: 58–60 (3)
+- ErrorCorrection: 162–165 (4)
+- FindTheOdd: 83–85 (3)
+- Matching: 68–70 (3)
+- Microtopic: 168–173 (6)
+- MultipleChoice·CHOICE: 176–181 (6)
+- MultipleChoice·FORWARD_CHOICE: 202–206 (5)
+- MultipleChoice·REVERSE_CHOICE: 65–67 (3)
+- TableFill: 36–37 (2)
+- TextInput: 83–85 (3)
 - Topic: 27–27 (1)
 - Transformation: 72–73 (2)
-- TrueFalse: 176–178 (3)
-- WordArrangement: 158–160 (3)
-- course_word: 691–710 (20)
+- TrueFalse: 176–179 (4)
+- WordArrangement: 158–161 (4)
+- course_word: 691–715 (25)
 
 ### basics
 - Card: 1–70 (70)

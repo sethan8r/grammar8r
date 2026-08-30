@@ -53,6 +53,13 @@
       "title": "Already, Just, Never · Маркеры внутри флешбэка",
       "order": 5,
       "searchKeywords": "had already left, куда ставить already, had just sat down, still hadn't, почему не yet"
+    },
+    {
+      "id": 173,
+      "topicId": 27,
+      "title": "have done vs had done · Present Perfect или Past Perfect",
+      "order": 6,
+      "searchKeywords": "has gone или had gone, когда had а когда have, от какого момента считаю, путаю два перфекта, зачем говорить had если есть have"
     }
   ],
   "grammar_cards": [
@@ -1861,6 +1868,439 @@
         "Почему рассказ не разваливается, если события идут не по порядку?",
         "Обязательно ли ставить had в каждом предложении про прошлое в тексте?"
       ]
+    },
+    {
+      "id": 455,
+      "microtopicId": 173,
+      "title": "От какого момента идёт счёт",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В руках у нас теперь две формы, которые выглядят почти одинаково и обе называются перфектом: `have/has + V3` и `had + V3`. И обе отвечают на один и тот же вопрос — что случилось ДО. Разница между ними ровно одна: **до чего именно**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/has + V3 — считаем от сейчас · had + V3 — считаем от момента в прошлом"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Перфект вообще никогда не сообщает «когда» — он отмеряет расстояние назад от какой-то точки. В теме «Present Perfect» этой точкой всегда было сегодняшнее «сейчас»: результат налицо в момент разговора. Здесь же точку отсчёта мы просто передвинули в прошлое — и получили второе время. Больше ничего не поменялось."
+        },
+        {
+          "type": "heading",
+          "text": "Одна и та же новость с двух разных дней"
+        },
+        {
+          "type": "paragraph",
+          "text": "Проще всего это видно на парах, где событие одно и то же, а меняется только точка, из которой мы на него смотрим:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Считаем от сейчас",
+            "Считаем от точки в прошлом"
+          ],
+          "rows": [
+            [
+              "I've lost my keys.",
+              "I had lost my keys, so I couldn't get in."
+            ],
+            [
+              "Emma has gone to Vienna.",
+              "Emma had gone to Vienna before I called her."
+            ],
+            [
+              "Oliver has never flown.",
+              "Oliver had never flown before that trip."
+            ],
+            [
+              "They have sold the car.",
+              "They had sold the car by the time we met them."
+            ],
+            [
+              "I've apologised.",
+              "I had apologised long before she asked me to."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём первую пару медленно. **I've lost my keys** — это про сейчас: ключи потерялись когда-то, а важно то, что прямо в эту минуту я стою без них. **I had lost my keys, so I couldn't get in** — про вчерашний вечер: без ключей я был **тогда**, у двери, и именно поэтому не попал внутрь. Сейчас они, может, давно нашлись — сообщение не про сейчас."
+        },
+        {
+          "type": "paragraph",
+          "text": "То же самое во второй паре. **Emma has gone to Vienna** значит, что Эммы нет здесь **в этот момент**. **Emma had gone to Vienna before I called her** — её не было в момент звонка, а где она сегодня, предложение не сообщает вовсе."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский тут ничем не помогает"
+        },
+        {
+          "type": "paragraph",
+          "text": "А теперь неприятная часть. По-русски обе строки в каждой паре звучат **совершенно одинаково**: «я потерял ключи», «Эмма уехала в Вену», «он ни разу не летал». Русский глагол не показывает, от какого момента мы считаем, — эту работу у нас делают обстоятельства или просто общий контекст разговора."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому перевод здесь бесполезен как подсказка: он одинаковый для обеих форм. Выбирать приходится не по русской фразе, а по одному вопросу к самому себе: **от какого момента я считаю — от сейчас или от точки в прошлом?**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ответили «от сейчас» — `have/has`. Ответили «от того вечера, от её звонка, от прихода поезда» — `had`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I had lost my keys, please help me.** ✗ — я прошу о помощи сейчас, значит и считать надо от сейчас. Верно: **I've lost my keys, please help me.** ✓ Форма с `had` требует второй точки в прошлом, а её здесь нет — флешбэк повис без сцены."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**When Mark arrived, Lucy has already left.** ✗ — точка в прошлом названа прямым текстом (`When Mark arrived`), а форма тянет счёт к сегодняшнему дню. Верно: **When Mark arrived, Lucy had already left.** ✓"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Обе формы отвечают на вопрос «что случилось до», и разница только в том, до чего: `have/has + V3` считает от сейчас, `had + V3` — от момента в прошлом. **I've lost my keys** — их нет прямо сейчас; **I had lost my keys, so I couldn't get in** — их не было тогда, у двери. По-русски обе строки звучат одинаково, поэтому выбор делается не по переводу, а по вопросу «от какого момента я считаю?». Ловушки в обе стороны: **I had lost my keys, please help me** ✗ (прошу сейчас — нужен перфект настоящего) и **When Mark arrived, Lucy has already left** ✗ (точка в прошлом названа — нужен `had`).",
+      "examples": [
+        {
+          "ru": "Я потерял ключи — не могу попасть домой.",
+          "en": "I've lost my keys — I can't get in."
+        },
+        {
+          "ru": "Я потерял ключи, поэтому не смог попасть домой.",
+          "en": "I had lost my keys, so I couldn't get in."
+        },
+        {
+          "ru": "Эмма уехала в Вену — её сейчас нет.",
+          "en": "Emma has gone to Vienna — she isn't here."
+        },
+        {
+          "ru": "Эмма уехала в Вену ещё до моего звонка.",
+          "en": "Emma had gone to Vienna before I called her."
+        },
+        {
+          "ru": "Оливер ни разу не летал.",
+          "en": "Oliver has never flown."
+        },
+        {
+          "ru": "До той поездки Оливер ни разу не летал.",
+          "en": "Oliver had never flown before that trip."
+        },
+        {
+          "ru": "Я уже извинился — можем говорить спокойно.",
+          "en": "I've apologised — we can talk calmly now."
+        },
+        {
+          "ru": "Я извинился задолго до того, как она об этом попросила.",
+          "en": "I had apologised long before she asked me to."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I had lost my keys, если я говорю о них прямо сейчас?",
+        "Как понять, от какого момента считать, если в предложении нет слов вроде before и when?",
+        "Правда ли, что has gone и had gone переводятся на русский одинаково?"
+      ]
+    },
+    {
+      "id": 456,
+      "microtopicId": 173,
+      "title": "Одна ситуация — три камеры",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пары из прошлой карточки хороши, но в жизни путаница чаще тройная: рядом стоят не две формы, а три — простое прошедшее и два перфекта. Поэтому возьмём **один сюжет** и прогоним его через все три. Событие будет одно и то же, меняться будет только место, откуда мы на него смотрим."
+        },
+        {
+          "type": "heading",
+          "text": "Сюжет первый: потерянные ключи"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I lost my keys yesterday.** — Просто факт вчерашнего дня. Точка на линии времени, и вся история внутри этой точки.",
+            "**I've lost my keys.** — Это уже не про вчера. Это про сейчас: я без ключей в эту минуту, и когда именно они потерялись — неважно.",
+            "**I had lost my keys, so I couldn't get in.** — То же самое состояние «я без ключей», но перенесённое во вчерашний вечер, к запертой двери."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот вся ось темы в трёх строчках:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Простое прошедшее — **точка**, и вся история в самой точке.",
+            "Перфект настоящего — не точка, а **состояние сейчас**, у которого причина лежит в прошлом.",
+            "Перфект прошедшего — **то же состояние**, но привязанное к моменту в прошлом."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание: между второй и третьей строкой разница вообще не в событии. Событие одинаковое. Разница только в том, куда поставлена камера — на сегодня или на вчерашний вечер."
+        },
+        {
+          "type": "heading",
+          "text": "Сюжет второй: переезд"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Megan moved to Porto in 2019.** — год назван, это точка.",
+            "**Megan has moved to Porto.** — её нет здесь сейчас, она теперь живёт там.",
+            "**Megan had moved to Porto before the office closed.** — к моменту закрытия офиса её здесь уже не было."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сюжет третий: опоздание на поезд"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Sam missed the train on Monday.** — факт понедельника.",
+            "**Sam has missed the train — he's calling a taxi.** — прямо сейчас стоит на платформе и ищет такси.",
+            "**Sam had missed the train, so he was late for the interview.** — опоздал раньше собеседования, и это объясняет опоздание."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сюжет четвёртый: отчёт"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Lucy sent the report on Friday.** — точка, пятница.",
+            "**Lucy has sent the report — the client is reading it now.** — отчёт у клиента, дело закрыто на сегодня.",
+            "**Lucy had sent the report before the deadline, so nobody panicked.** — к сроку всё уже было отправлено, поэтому никто не паниковал."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как выбрать камеру за секунду"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы уже разводили простое прошедшее и перфект настоящего в теме «Compare: Past Simple vs Present Perfect» — повторять это не будем. Здесь важно другое: собрать все три в один выбор. Достаточно спросить себя, **о каком моменте новость**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "новость про **тот самый день** (когда, сколько, где) → простое прошедшее;",
+            "новость про **сегодняшнее положение дел** → `have/has + V3`;",
+            "новость про **положение дел в какой-то момент прошлого** → `had + V3`."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Третья камера в рассказе почти никогда не работает одна. Рядом с ней всегда есть вторая прошлая точка — названная словами (`before the office closed`, `when I called`) или просто известная из разговора. Если такой точки нет и взяться ей неоткуда, значит камер в этой истории всего две, и `had` тут не нужен."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Одно событие можно рассказать тремя формами, и разница только в том, откуда смотрит камера. Простое прошедшее — точка, вся история внутри неё: **I lost my keys yesterday**. Перфект настоящего — не точка, а состояние сейчас с причиной в прошлом: **I've lost my keys**. Перфект прошедшего — то же состояние, но привязанное к моменту в прошлом: **I had lost my keys, so I couldn't get in**. Выбор делается по вопросу «о каком моменте новость»: о том самом дне · о сегодняшнем положении дел · о положении дел в какой-то момент прошлого.",
+      "examples": [
+        {
+          "ru": "Я потерял ключи вчера.",
+          "en": "I lost my keys yesterday."
+        },
+        {
+          "ru": "Меган переехала в Порту в 2019 году.",
+          "en": "Megan moved to Porto in 2019."
+        },
+        {
+          "ru": "Меган переехала в Порту — она теперь живёт там.",
+          "en": "Megan has moved to Porto."
+        },
+        {
+          "ru": "Меган переехала в Порту ещё до того, как офис закрыли.",
+          "en": "Megan had moved to Porto before the office closed."
+        },
+        {
+          "ru": "Сэм опоздал на поезд в понедельник.",
+          "en": "Sam missed the train on Monday."
+        },
+        {
+          "ru": "Сэм опоздал на поезд — вызывает такси.",
+          "en": "Sam has missed the train — he's calling a taxi."
+        },
+        {
+          "ru": "Сэм опоздал на поезд, поэтому пришёл на собеседование позже.",
+          "en": "Sam had missed the train, so he was late for the interview."
+        },
+        {
+          "ru": "Люси отправила отчёт — клиент его сейчас читает.",
+          "en": "Lucy has sent the report — the client is reading it now."
+        },
+        {
+          "ru": "Люси отправила отчёт до срока, поэтому никто не паниковал.",
+          "en": "Lucy had sent the report before the deadline, so nobody panicked."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем состояние «сейчас» отличается от состояния «в тот момент», если событие одно и то же?",
+        "Как выбрать между простым прошедшим и перфектом, если день уже назван?",
+        "Почему в одном сюжете могут подойти сразу две формы из трёх?"
+      ]
+    },
+    {
+      "id": 457,
+      "microtopicId": 173,
+      "title": "Есть ли вторая точка в прошлом",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Разбирать смысл каждый раз заново — долго. Поэтому вот механический ключ, который решает выбор за пару секунд и почти никогда не подводит."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть вторая прошлая точка — had + V3 · нет, речь о сегодняшнем дне — have/has + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй точкой считается любой названный момент прошлого: событие (`before Emma called`, `when we arrived`), срок (`by Friday`, `by the time the shop closed`) или просто сцена, о которой сейчас идёт рассказ. Названа она словами или ясна из разговора — неважно; важно, что она есть."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I wasn't aware that Emma had already left.** — точка есть: момент, когда я этого не знал.",
+            "**Paul had no excuse — he hadn't even started the report.** — точка есть: разговор о невыполненной работе, который уже случился.",
+            "**Denis felt guilty because he had forgotten to call back.** — точка есть: тот момент, когда ему стало неловко.",
+            "**I've forgotten his name — remind me, please.** — точки нет, речь о том, что творится у меня в голове сейчас."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Компас на один экран"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "В разговоре назван момент прошлого, от которого мы считаем? → `had + V3`.",
+            "Считаем от сегодняшнего дня, важно положение дел сейчас? → `have/has + V3`.",
+            "Второй точки нет вообще, а есть просто факт того дня? → скорее всего, простое прошедшее. Как их разводить, мы разбирали в теме «Compare: Past Simple vs Present Perfect»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I had lost my wallet, help me look for it.** ✗ — просьба звучит сейчас, никакой второй точки в прошлом нет, флешбэк отсчитывать не от чего. Верно: **I've lost my wallet, help me look for it.** ✓"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**When Sara came home, her flatmate has cooked dinner.** ✗ — точка названа открытым текстом, но форма считает от сегодняшнего дня, и предложение разъезжается пополам. Верно: **When Sara came home, her flatmate had cooked dinner.** ✓"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ставить `had` в каждое предложение о далёком прошлом. **My grandfather had worked at a factory.** ✗ как самостоятельная фраза: древность события роли не играет, а второй точки нет. Верно: **My grandfather worked at a factory.** ✓"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`To apologise` и `to apologize` — одно и то же слово: первое написание британское, второе американское. Та же пара у `to realise` / `to realize` и `to organise` / `to organize`. Читаются одинаково, ошибкой не считается ни одно — просто держитесь одного варианта внутри текста."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Механический ключ: смотрим, есть ли в предложении или в разговоре вокруг вторая прошлая точка. Есть (`before Emma called`, `by Friday`, названная сцена) → `had + V3`. Нет, и всё упирается в сегодняшнее положение дел → `have/has + V3`. Нет вообще ничего, кроме факта того дня → простое прошедшее. Ловушки в обе стороны: **I had lost my wallet, help me look for it** ✗ (прошу сейчас, отсчитывать не от чего) и **When Sara came home, her flatmate has cooked dinner** ✗ (точка названа, а форма считает от сегодня). Древность события на выбор не влияет вообще.",
+      "examples": [
+        {
+          "ru": "Я не знал, что Эмма уже ушла.",
+          "en": "I wasn't aware that Emma had already left."
+        },
+        {
+          "ru": "Полу нечем было оправдаться — он даже не начинал отчёт.",
+          "en": "Paul had no excuse — he hadn't even started the report."
+        },
+        {
+          "ru": "Денису было неловко: он забыл перезвонить.",
+          "en": "Denis felt guilty because he had forgotten to call back."
+        },
+        {
+          "ru": "Я забыл, как его зовут, — напомни, пожалуйста.",
+          "en": "I've forgotten his name — remind me, please."
+        },
+        {
+          "ru": "Я потерял кошелёк, помоги мне его поискать.",
+          "en": "I've lost my wallet, help me look for it."
+        },
+        {
+          "ru": "Когда Сара пришла домой, сосед уже приготовил ужин.",
+          "en": "When Sara came home, her flatmate had cooked dinner."
+        },
+        {
+          "ru": "Мой дед работал на заводе.",
+          "en": "My grandfather worked at a factory."
+        }
+      ],
+      "clarificationOptions": [
+        "Что считается второй точкой в прошлом, если в предложении нет ни before, ни when?",
+        "Почему давность события не влияет на выбор между have и had?",
+        "Как быть, если в ситуации подходят и простое прошедшее, и перфект прошедшего?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2079,6 +2519,84 @@
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 180,
       "orderInCard": 2
+    },
+    {
+      "cardId": 455,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 181,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 455,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 52,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 455,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 179,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 455,
+      "exerciseType": "MATCHING",
+      "exerciseId": 70,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 455,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 161,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 456,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 99,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 456,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 67,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 456,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 37,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 456,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 85,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 457,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 206,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 457,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 165,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 457,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 85,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 457,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 60,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2113,6 +2631,14 @@
       "userInstruction": "Вам придёт русская фраза с моментом в прошлом. Переведите её на английский так, чтобы в переводе обязательно был предлог by.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "past_perfect_card457_ex1",
+      "cardId": 457,
+      "title": "Have или had",
+      "userInstruction": "ИИ опишет ситуацию по-русски. Напишите, какая форма здесь нужна — перфект настоящего, перфект прошедшего или перфект вообще не нужен, — и назовите момент, от которого идёт счёт. Осторожно: в сцене будет ложная примета, на которую легко купиться.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -2291,6 +2817,46 @@
       "transcription": "[ˈflætmeɪt]",
       "microtopicId": 172,
       "categoryId": "tenses"
+    },
+    {
+      "id": 711,
+      "word": "to panic",
+      "translation": "паниковать, впадать в панику",
+      "transcription": "[ˈpænɪk]",
+      "microtopicId": 173,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 712,
+      "word": "to apologise",
+      "translation": "извиняться",
+      "transcription": "[əˈpɒlədʒaɪz]",
+      "microtopicId": 173,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 713,
+      "word": "excuse",
+      "translation": "оправдание, отговорка",
+      "transcription": "[ɪkˈskjuːs]",
+      "microtopicId": 173,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 714,
+      "word": "guilty",
+      "translation": "виноватый, чувствующий вину",
+      "transcription": "[ˈɡɪlti]",
+      "microtopicId": 173,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 715,
+      "word": "aware",
+      "translation": "знающий, в курсе",
+      "transcription": "[əˈweə]",
+      "microtopicId": 173,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -2320,6 +2886,25 @@
         }
       ],
       "explanation": "У правильных глаголов третья форма собирается сама: основа плюс -ed. У неправильных её надо знать в лицо — spoken, broken, taken."
+    },
+    {
+      "id": 37,
+      "taskDescription": "впиши подходящую форму глагола to finish.",
+      "rows": [
+        {
+          "hint": "факт прошлой пятницы",
+          "answer": "finished"
+        },
+        {
+          "hint": "работа готова сегодня",
+          "answer": "have finished"
+        },
+        {
+          "hint": "работа была готова к приходу шефа",
+          "answer": "had finished"
+        }
+      ],
+      "explanation": "Новость про сам день — простое прошедшее. Новость про сегодняшнее положение дел — перфект настоящего. Новость про положение дел в момент прошлого (приход шефа) — перфект прошедшего."
     }
   ],
   "true_false_exercises": [
@@ -2415,6 +3000,37 @@
         }
       ],
       "explanation": "Во второй строке маркер вынесен в начало предложения, хотя его место внутри формы: the bus had already gone. В четвёртой just уехал в хвост и оторвался от глагола — верно I had just finished my report."
+    },
+    {
+      "id": 179,
+      "statements": [
+        {
+          "en": "When Sara opened the box, someone has taken the money.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I've broken my glasses — I can't read the menu.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Jack had never worked abroad before that summer.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I had left my bag on the bus, please call the driver.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She has finished the article and sent it to the editor.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "В первой строке момент в прошлом назван (When Sara opened the box), поэтому нужен had taken. В четвёртой всё наоборот: просьба звучит сейчас, второй прошлой точки нет — верно I've left my bag on the bus."
     }
   ],
   "word_arrangement_exercises": [
@@ -2479,6 +3095,28 @@
         "had packed"
       ],
       "explanation": "Три события идут одно за другим, второй точки в прошлом нет — значит, весь рассказ остаётся в простом прошедшем. Формы с had отодвинули бы события назад, а отодвигать их не от чего."
+    },
+    {
+      "id": 161,
+      "situationRu": "Ситуация: Жанна объясняет, почему их не пустили в зал.",
+      "correctSentence": "The concert had started before we got there.",
+      "words": [
+        "The",
+        "concert",
+        "had",
+        "started",
+        "before",
+        "we",
+        "got",
+        "there"
+      ],
+      "distractors": [
+        "has",
+        "start",
+        "after",
+        "was"
+      ],
+      "explanation": "Начало концерта случилось раньше их прихода, а приход — вторая точка в прошлом, поэтому had started. Форма has считала бы от сегодняшнего дня, а after перевернул бы порядок событий."
     }
   ],
   "multiple_choice_exercises": [
@@ -2712,6 +3350,69 @@
         }
       ],
       "explanation": "Маркер стоит между помощником и третьей формой — had already gone. Порядок already had ломает конструкцию, а has already считает от сегодняшнего дня, хотя сцена в прошлом."
+    },
+    {
+      "id": 181,
+      "choiceType": "CHOICE",
+      "prompt": "When Sam opened the fridge, someone ___ all the milk.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "has drunk",
+          "isCorrect": false
+        },
+        {
+          "text": "was drunk",
+          "isCorrect": false
+        },
+        {
+          "text": "had drunk",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Момент назван прямо: Сэм открыл холодильник. Счёт идёт от него, а не от сегодняшнего дня, поэтому had drunk. Форма has drunk считала бы от сейчас, а was drunk переводит фразу в страдательный залог и меняет смысл."
+    },
+    {
+      "id": 67,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Yulia had gone to Dublin.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Юля сейчас в Дублине, её нет в городе.",
+          "isCorrect": false
+        },
+        {
+          "text": "Юля съездила в Дублин и уже вернулась.",
+          "isCorrect": false
+        },
+        {
+          "text": "К тому моменту Юли здесь уже не было — она уехала в Дублин.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Форма had gone считает от какого-то момента в прошлом: речь о том, что Юли не было тогда. Где она сегодня, предложение не сообщает — для этого понадобилась бы форма has gone."
+    },
+    {
+      "id": 206,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я забыл телефон дома — не могу тебе позвонить.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I've left my phone at home — I can't call you.",
+          "isCorrect": true
+        },
+        {
+          "text": "I had left my phone at home — I can't call you.",
+          "isCorrect": false
+        },
+        {
+          "text": "I had leave my phone at home — I can't call you.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Проблема существует прямо сейчас, второй точки в прошлом нет — значит счёт идёт от сегодняшнего дня. Форма had left потребовала бы названного момента прошлого."
     }
   ],
   "text_input_exercises": [
@@ -2773,6 +3474,36 @@
         "still",
         "just",
         "already"
+      ]
+    },
+    {
+      "id": 85,
+      "items": [
+        {
+          "sentence": "I ___ never seen this film — let's watch it tonight.",
+          "contextRu": "",
+          "answer": "have",
+          "alternatives": []
+        },
+        {
+          "sentence": "By Sunday evening she ___ read the whole book.",
+          "contextRu": "",
+          "answer": "had",
+          "alternatives": []
+        },
+        {
+          "sentence": "He ___ just come back — he's in the kitchen.",
+          "contextRu": "",
+          "answer": "has",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом и третьем предложении счёт идёт от сегодняшнего дня, поэтому have и has. Во втором назван момент прошлого — вечер воскресенья, — и от него считает had.",
+      "taskDescription": "Впиши в каждое предложение подходящее по смыслу слово из банка.",
+      "wordBank": [
+        "had",
+        "has",
+        "have"
       ]
     }
   ],
@@ -2840,6 +3571,38 @@
         }
       ],
       "explanation": "Уход Марка случился раньше прихода собеседника — раннее событие берёт had и третью форму. Форма has left считала бы от сегодняшнего дня, а had leave потеряла третью форму."
+    },
+    {
+      "id": 60,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why didn't you call me yesterday?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Next time ask your flatmate for a phone."
+        }
+      ],
+      "options": [
+        {
+          "text": "I have lost my phone that morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "I had lose my phone that morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "I had lost my phone that morning.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Речь о вчерашнем дне, и момент назван — that morning. Счёт идёт от него, поэтому had lost; форма have lost тянула бы к сегодняшнему дню, а had lose потеряла третью форму."
     }
   ],
   "matching_exercises": [
@@ -2888,6 +3651,29 @@
         }
       ],
       "explanation": "В каждой паре левая часть — сцена в простом прошедшем, правая — её причина, случившаяся раньше и потому одетая в had плюс третью форму."
+    },
+    {
+      "id": 70,
+      "taskDescription": "соедини половинки так, чтобы счёт вёлся от одного и того же момента.",
+      "pairs": [
+        {
+          "left": "I've lost my card,",
+          "right": "so I can't pay now."
+        },
+        {
+          "left": "I had lost my card,",
+          "right": "so I couldn't pay that evening."
+        },
+        {
+          "left": "Denis has gone to the airport",
+          "right": "— he isn't at home."
+        },
+        {
+          "left": "Denis had gone to the airport",
+          "right": "before we came to say goodbye."
+        }
+      ],
+      "explanation": "Форма с have тянет счёт к настоящему, поэтому и вторая половина стоит в настоящем. Форма с had требует второй прошлой точки — её и называет конец предложения."
     }
   ],
   "error_correction_exercises": [
@@ -2947,6 +3733,25 @@
         }
       ],
       "explanation": "Момент прихода — это черта, а уход поезда случился до неё, значит нужен had left. Вариант с двумя had лишает предложение сцены, а has left тянет к сегодняшнему дню."
+    },
+    {
+      "id": 165,
+      "wrongSentence": "When Grisha called, Mia has already gone out.",
+      "options": [
+        {
+          "text": "When Grisha called, Mia has already went out.",
+          "isCorrect": false
+        },
+        {
+          "text": "When Grisha called, Mia had already gone out.",
+          "isCorrect": true
+        },
+        {
+          "text": "When Grisha called, Mia have already gone out.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Момент назван прямо: звонок Гриши. Счёт идёт от него, поэтому нужна форма had gone, а не форма, считающая от сегодняшнего дня."
     }
   ],
   "construction_meaning_exercises": [
@@ -2995,6 +3800,29 @@
         }
       ],
       "explanation": "Сон одет в had fallen, значит он случился раньше начала фильма. Если бы Джейк заснул уже под фильм, оба глагола стояли бы в простом прошедшем: when the film started, Jake fell asleep."
+    },
+    {
+      "id": 52,
+      "construction": "Jack has broken his leg.",
+      "options": [
+        {
+          "text": "Джек ломал ногу когда-то давно, сейчас всё в порядке.",
+          "isCorrect": false
+        },
+        {
+          "text": "Джек сломал ногу — сейчас он в гипсе.",
+          "isCorrect": true
+        },
+        {
+          "text": "Джек сломал ногу ещё до того, как мы приехали.",
+          "isCorrect": false
+        },
+        {
+          "text": "Джек сломал ногу в прошлую пятницу.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Форма has broken считает от сегодняшнего дня: перелом случился раньше, а его результат налицо сейчас. Вариант «до того, как мы приехали» потребовал бы had broken, а «в прошлую пятницу» — простого прошедшего: там новость про сам день."
     }
   ],
   "transformation_exercises": [
@@ -3106,6 +3934,29 @@
         }
       ],
       "explanation": "В сцену идёт всё, что происходит по ходу рассказа, — это простое прошедшее. В предысторию — то, что случилось до неё и объясняет её, и вот там нужна форма с had."
+    },
+    {
+      "id": 99,
+      "taskDescription": "распредели ситуации по форме, которой о них расскажут.",
+      "categories": [
+        {
+          "title": "have/has + V3",
+          "items": [
+            "билета нет до сих пор",
+            "книгу уже прочитал, могу обсудить",
+            "ни разу не был за границей"
+          ]
+        },
+        {
+          "title": "had + V3",
+          "items": [
+            "билета не было у турникета",
+            "книгу прочитал до встречи клуба",
+            "не был за границей до той поездки"
+          ]
+        }
+      ],
+      "explanation": "Слева новость про сегодняшнее положение дел — счёт идёт от сейчас. Справа у каждой ситуации есть своя точка в прошлом (турникет, встреча клуба, та поездка), и счёт ведётся от неё."
     }
   ],
   "find_the_odd_exercises": [
@@ -3154,6 +4005,29 @@
         }
       ],
       "explanation": "В трёх предложениях есть вторая точка в прошлом, от которой ведётся отсчёт. В лишнем события идут просто по порядку, и флешбэк тут не к чему приклеить: I opened the door and turned on the light."
+    },
+    {
+      "id": 85,
+      "groupDescription": "Три предложения собраны правильно, одно — нет",
+      "items": [
+        {
+          "text": "Paul has just found a new flat.",
+          "isOdd": false
+        },
+        {
+          "text": "When the guests arrived, Vitya has already cleaned the kitchen.",
+          "isOdd": true
+        },
+        {
+          "text": "When the guests arrived, Vitya had already cleaned the kitchen.",
+          "isOdd": false
+        },
+        {
+          "text": "Zhanna had never driven at night before that winter.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Во втором предложении момент в прошлом назван прямо (When the guests arrived), а форма has тянет счёт к сегодняшнему дню. От названного момента считает только had cleaned — как в третьем предложении."
     }
   ]
 }
