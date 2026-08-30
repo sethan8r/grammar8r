@@ -108,7 +108,7 @@
       "topicId": 1,
       "title": "Numbers · Числа",
       "order": 14,
-      "searchKeywords": "количество по-английски, порядковые числительные, как читать года, ещё один"
+      "searchKeywords": "forty или fourty, fifteen или fifty, two hundred или two hundreds, первый второй третий по-английски, как прочитать 1995, ещё один по-английски"
     },
     {
       "id": 15,
@@ -4658,136 +4658,65 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Кардинальные числа — это обычные числа которыми мы считаем: один, два, три... В английском их нужно знать, потому что они используются буквально везде."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "В русском числительное живёт своей жизнью: два стол**а**, дв**ух** стол**ов**, двум**я** стол**ами** — слово меняется вместе с падежом. В английском число неизменяемо: **two** остаётся **two**, куда бы его ни поставили. Выучить нужно всего десятка три слов, всё остальное собирается из них как из деталей конструктора."
         },
         {
           "type": "heading",
-          "text": "1–12: уникальные слова, нужно запомнить"
-        },
-        {
-          "type": "table",
-          "header": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"
-          ],
-          "rows": [
-            [
-              "one",
-              "two",
-              "three",
-              "four",
-              "five",
-              "six"
-            ]
-          ]
-        },
-        {
-          "type": "table",
-          "header": [
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12"
-          ],
-          "rows": [
-            [
-              "seven",
-              "eight",
-              "nine",
-              "ten",
-              "eleven",
-              "twelve"
-            ]
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "13–19: корень числа + -teen"
-        },
-        {
-          "type": "paragraph",
-          "text": "thirteen (13), fourteen (14), **fifteen** (15), sixteen (16), seventeen (17), **eighteen** (18), **nineteen** (19)"
-        },
-        {
-          "type": "callout",
-          "variant": "trap",
-          "label": "Ловушка",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "text": "Fifteen (не fiveteen), eighteen (не eightyteen), nineteen (не ninteen)."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "20–90: десятки"
-        },
-        {
-          "type": "paragraph",
-          "text": "twenty (20), thirty (30), **forty** (40), fifty (50), sixty (60), seventy (70), eighty (80), ninety (90)"
-        },
-        {
-          "type": "callout",
-          "variant": "trap",
-          "label": "Ловушка",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "text": "**Forty** — не `fourty`. Одна из самых частых орфографических ошибок в английском."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "21–99: десятки + единицы через дефис"
-        },
-        {
-          "type": "paragraph",
-          "text": "twenty-**one** (21), thirty-**five** (35), forty-**eight** (48), ninety-**nine** (99)"
-        },
-        {
-          "type": "paragraph",
-          "text": "Дефис обязателен: `twenty one` без дефиса — ошибка в письме."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Сотни, тысячи, миллионы"
+          "text": "1–12 — двенадцать слов наизусть"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "100 = a hundred / one hundred",
-            "1,000 = a thousand / one thousand",
-            "1,000,000 = a million",
-            "1,000,000,000 = a billion"
+            "**1 one · 2 two · 3 three · 4 four**",
+            "**5 five · 6 six · 7 seven · 8 eight**",
+            "**9 nine · 10 ten · 11 eleven · 12 twelve**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "13–19 — хвост -teen"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**13 thirteen · 14 fourteen · 15 fifteen · 16 sixteen**",
+            "**17 seventeen · 18 eighteen · 19 nineteen**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Три числа пишутся не так, как ждёт рука. **fifteen** — не «fiveteen»; **eighteen** — от **eight** остаётся одна `t`; **nineteen** пишется с `e`, хотя порядковое **ninth** её теряет. Остальные собираются честно: **four → fourteen**, **six → sixteen**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "20–90 — хвост -ty"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**20 twenty · 30 thirty · 40 forty · 50 fifty**",
+            "**60 sixty · 70 seventy · 80 eighty · 90 ninety**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Forty` пишется без `u`, хотя само **four** — с ним. Это одна из самых частых орфографических ошибок в английском вообще, и в тексте она бросается в глаза сразу."
+            }
           ]
         },
         {
@@ -4797,82 +4726,117 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "Hundred / thousand / million — без -s когда идут с числом!"
+              "text": "`-Teen` и `-ty` на слух различает только ударение: **fifteen** [[fɪfˈtiːn]] — удар на хвост, **fifty** [[ˈfɪfti]] — на начало. Русскому уху разница кажется мелочью, а цена ошибки — разница в три раза."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Составные числа — через дефис"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Десяток + дефис + единица: twenty-one, forty-five, ninety-nine"
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "`two **hundred**` ✓ — не `two hundreds` ✗"
-        },
-        {
-          "type": "paragraph",
-          "text": "`five **thousand**` ✓ — не `five thousands` ✗"
-        },
-        {
-          "type": "paragraph",
-          "text": "Но: **hundreds** of people (сотни людей, без точного числа) — тогда -s нормально."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "Дефис здесь не украшение: **twenty one** без него читается как два отдельных числа — «двадцать, один»."
         },
         {
           "type": "heading",
-          "text": "Большие числа"
+          "text": "Сотни, тысячи, миллионы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**100 a hundred / one hundred**",
+            "**1 000 a thousand / one thousand**",
+            "**1 000 000 a million**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После точного числа `hundred`, `thousand` и `million` НЕ получают `-s`: **two hundred** ✓, **two hundreds** ✗. Окончание появляется только там, где точного числа нет: **hundreds of people** — сотни людей, **thousands of cars** — тысячи машин. То есть `-s` тут значит «не считано», а не «много»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как собирается длинное число"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**1 234** — **one thousand two hundred and thirty-four**",
+            "**2 500** — **two thousand five hundred**",
+            "**250 000** — **two hundred and fifty thousand**"
+          ]
         },
         {
           "type": "paragraph",
-          "text": "1,234 = one thousand two hundred and thirty-four *(British: `and` перед последними двумя разрядами)*"
+          "text": "Британцы вставляют `and` перед последними двумя разрядами, американцы часто обходятся без него — оба варианта нормальны."
         },
         {
-          "type": "paragraph",
-          "text": "2,500 = two thousand five hundred"
-        },
-        {
-          "type": "paragraph",
-          "text": "15,000 = `fifteen thousand`"
-        },
-        {
-          "type": "paragraph",
-          "text": "250,000 = two hundred and fifty thousand"
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Числа от 1 100 до 1 900 в разговоре часто читают сотнями: **fifteen hundred** вместо **one thousand five hundred**. Так же читаются круглые цены и годы — отсюда и **nineteen hundred** для 1900 года."
+            }
+          ]
         }
       ],
-      "theorySummary": "1–12: уникальные. 13–19: корень + -teen (fifteen, eighteen — особое написание). 20–90: twenty/thirty/forty (не fourty!). 21–99: дефис (twenty-one). hundred/thousand/million без -s после числа.",
+      "theorySummary": "1–12 учатся наизусть, 13–19 берут хвост `-teen`, 20–90 — хвост `-ty`, а десяток с единицей соединяет дефис: **twenty-one**, **forty-five**. Отдельно запоминаются **fifteen**, **eighteen** и **forty** (без `u`). После точного числа **hundred**, **thousand** и **million** стоят без `-s`: **two hundred people** ✓, но **hundreds of people**, когда точного числа нет. На слух `-teen` от `-ty` отличает ударение: **fifteen** — на хвост, **fifty** — на начало.",
       "examples": [
         {
           "ru": "Ей сорок два года.",
           "en": "She is forty-two years old."
         },
         {
-          "ru": "В городе живут три миллиона человек.",
-          "en": "Three million people live in the city."
+          "ru": "В этом городе три миллиона человек.",
+          "en": "There are three million people in this city."
         },
         {
           "ru": "У Кати пятнадцать книг на полке.",
           "en": "Katya has fifteen books on the shelf."
         },
         {
-          "ru": "Билет стоит девятнадцать фунтов.",
-          "en": "The ticket costs nineteen pounds."
+          "ru": "Билет — девятнадцать евро.",
+          "en": "The ticket is nineteen euros."
         },
         {
           "ru": "В нашей группе двадцать один студент.",
           "en": "There are twenty-one students in our group."
         },
         {
-          "ru": "Он выиграл сто тысяч рублей.",
-          "en": "He won a hundred thousand roubles."
+          "ru": "В аэропорту сотни людей.",
+          "en": "There are hundreds of people at the airport."
         },
         {
-          "ru": "На стадионе было восемьдесят тысяч зрителей.",
-          "en": "There were eighty thousand spectators at the stadium."
+          "ru": "На стадионе восемьдесят тысяч мест.",
+          "en": "There are eighty thousand seats in the stadium."
         }
       ],
       "clarificationOptions": [
-        "Почему forty, а не fourty?",
-        "Когда можно сказать \"fifteen hundred\" вместо \"one thousand five hundred\"?",
-        "Как читать числа типа 1,234,567?"
+        "Почему forty без u, если four с ним?",
+        "Как на слух отличить fifteen от fifty?",
+        "Когда hundred получает -s, а когда нет?"
       ]
     },
     {
@@ -4883,114 +4847,118 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Порядковые числа отвечают на вопрос «который по счёту?»: первый, второй, третий... Они нужны для этажей, дат, мест в соревновании, веков."
+          "text": "Обычное число отвечает на вопрос «сколько», порядковое — «который по счёту». В русском порядковое ведёт себя как прилагательное и склоняется: пят**ый** этаж, на пят**ом** этаже. В английском форма одна на все случаи — меняется только само слово, а окружение его не трогает."
+        },
+        {
+          "type": "heading",
+          "text": "Первая тройка — особая"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**1st first · 2nd second · 3rd third**"
+          ]
         },
         {
           "type": "paragraph",
-          "text": "---"
+          "text": "Логики тут нет, эти три формы просто запоминаются. Дальше начинается система."
+        },
+        {
+          "type": "heading",
+          "text": "Все остальные — число плюс -th"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**4th fourth · 6th sixth · 7th seventh · 10th tenth**",
+            "**11th eleventh · 13th thirteenth · 16th sixteenth**"
+          ]
         },
         {
           "type": "callout",
-          "variant": "tip",
-          "label": "Первые три — исключения, запомнить",
+          "variant": "trap",
+          "label": "Ловушка",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "1St = **first**, 2nd = **second**, 3rd = **third**"
+              "text": "Четыре формы собираются не по шаблону, и их проще выучить, чем каждый раз гадать: **fifth** (не «fiveth»), **eighth** (от **eight** остаётся одна `t`), **ninth** (у **nine** выпадает `e`), **twelfth** (у **twelve** `v` превращается в `f`)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Десятки: -y уступает место -ieth"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Twenty → twentieth · thirty → thirtieth · forty → fortieth"
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "---"
+          "text": "Приём знакомый: ровно так же `-y` уступало место `-i` во множественном числе — **city → cities**, **twenty → twentieth**."
         },
         {
           "type": "heading",
-          "text": "Остальные: кардинальное число + -th"
-        },
-        {
-          "type": "paragraph",
-          "text": "4th = fourth, 5th = **fifth**\\*, 6th = sixth, 7th = seventh, 8th = **eighth**\\*, 9th = **ninth**\\*, 10th = tenth"
-        },
-        {
-          "type": "paragraph",
-          "text": "\\* Особое написание: **fifth** (не fiveth), **eighth** (не eighthth), **ninth** (не nineth). Одна буква меняется или убирается."
-        },
-        {
-          "type": "paragraph",
-          "text": "11th = eleventh, 12th = **twelfth**\\*, 13th = thirteenth..."
-        },
-        {
-          "type": "paragraph",
-          "text": "\\* twelfth — запомнить написание (twelve → twelfth, v исчезает)"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Десятки: -y → -ieth"
-        },
-        {
-          "type": "paragraph",
-          "text": "20th = twen**tieth**, 30th = thir**tieth**, 40th = for**tieth**, 50th = fif**tieth**"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Составные порядковые: дефис, последнее слово в порядковой форме"
-        },
-        {
-          "type": "paragraph",
-          "text": "21st = twenty-**first**, 22nd = twenty-**second**, 23rd = twenty-**third**, 24th = twenty-**fourth**, 35th = thirty-**fifth**"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Суффиксы в записи цифрами:"
-        },
-        {
-          "type": "paragraph",
-          "text": "Суффикс берётся от самого слова:"
+          "text": "Составные: порядковым становится только хвост"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "first → **1st**, second → **2nd**, third → **3rd**, fourth → **4th**",
-            "Правило для составных: смотрим на последнее слово: 21st (first), 22nd (second), 33rd (third), 44th (fourth)"
+            "**21st twenty-first · 33rd thirty-third · 45th forty-fifth**"
           ]
         },
         {
           "type": "paragraph",
-          "text": "---"
+          "text": "Первая половина остаётся обычным числом, и порядковую форму получает только последнее слово."
         },
         {
           "type": "heading",
-          "text": "Где используются:"
+          "text": "Как это пишется цифрами"
+        },
+        {
+          "type": "paragraph",
+          "text": "Суффикс — это буквально хвост самого слова: fir**st** → 1st, seco**nd** → 2nd, thi**rd** → 3rd, four**th** → 4th. У составных смотрим на последнее слово: 21st, 22nd, 33rd, 44th."
+        },
+        {
+          "type": "heading",
+          "text": "Где они нужны каждый день"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "**Этажи:** the 3rd floor *(третий этаж)*, the 1st floor *(первый этаж)*",
-            "**Даты:** on the 5th of May, on June 21st",
-            "**Места:** she finished 2nd *(она финишировала второй)*",
-            "**Века:** the 21st century *(двадцать первый век)*"
+            "этажи — **the fifth floor**",
+            "даты — **on the fifth of May**, **on June 21st**",
+            "места в соревновании — **Kate is in first place**",
+            "века — **the twenty-first century**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Британский **the first floor** — это наш второй этаж, а тот, что на земле, называется **the ground floor**. У американцев проще: **the first floor** — тот, куда входишь с улицы."
+            }
           ]
         }
       ],
-      "theorySummary": "1st/2nd/3rd — исключения. Остальные: +th (fifth/eighth/ninth — особое написание). -y → -ieth (twentieth). Суффикс в записи: -st/-nd/-rd/-th берётся от последнего слова. Используются для этажей, дат, мест, веков.",
+      "theorySummary": "`first`, `second`, `third` — три особые формы, все остальные получают `-th`: **fourth**, **sixth**, **tenth**. Отдельно запоминаются **fifth**, **eighth**, **ninth** и **twelfth**, а у десятков `-y` уступает место `-ieth`: **twenty → twentieth**. В составных порядковую форму получает только последнее слово: **twenty-first**, **forty-fifth**. Цифрами суффикс берётся от хвоста слова — 1st, 2nd, 3rd, 4th; порядковыми называют этажи, даты, места и века.",
       "examples": [
         {
-          "ru": "Офис находится на пятом этаже.",
+          "ru": "Офис на пятом этаже.",
           "en": "The office is on the fifth floor."
         },
         {
@@ -4998,22 +4966,22 @@
           "en": "Her birthday is on the twenty-first of June."
         },
         {
-          "ru": "Тёма пришёл к финишу вторым.",
-          "en": "Tyoma finished second."
+          "ru": "Тёма на втором месте.",
+          "en": "Tyoma is in second place."
         },
         {
           "ru": "Мы живём в двадцать первом веке.",
           "en": "We live in the twenty-first century."
         },
         {
-          "ru": "Это мой второй визит в Лондон.",
-          "en": "This is my second visit to London."
+          "ru": "Это моя третья чашка кофе сегодня.",
+          "en": "This is my third cup of coffee today."
         }
       ],
       "clarificationOptions": [
         "Почему fifth, а не fiveth?",
-        "Как правильно писать даты по-английски?",
-        "Чем отличается \"the first floor\" в UK и в US?"
+        "Почему у twenty получается twentieth, а не twentyth?",
+        "Как правильно записывать даты цифрами — 1st, 2nd, 3rd?"
       ]
     },
     {
@@ -5024,89 +4992,94 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "Годы читаются по особым правилам. Это одна из частых ловушек для русскоязычных — потому что в русском мы просто говорим «тысяча девятьсот девяносто пять», а в английском другая логика."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "По-русски год читается как одно длинное число: «тысяча девятьсот девяносто пять». Английский поступает проще — разрезает год пополам и читает две половины как два обычных числа. Из-за этой разницы даты и становятся ловушкой: рука тянется перевести русский строй слово в слово, а получается конструкция, которую носитель не говорит."
         },
         {
           "type": "heading",
-          "text": "До 2000 года: делим на два блока по две цифры"
-        },
-        {
-          "type": "paragraph",
-          "text": "Разбиваем год пополам и читаем каждую половину как обычное число:"
+          "text": "До 2000 года — год пополам"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "**1985** → 19 + 85 → `**nineteen eighty-five**`",
-            "**1812** → 18 + 12 → `**eighteen twelve**`",
-            "**1776** → 17 + 76 → `**seventeen seventy-six**`",
-            "**1900** → 19 + 00 → `**nineteen hundred**` *(особый случай: ровный год)*",
-            "**1904** → 19 + 04 → **nineteen oh four** *(ноль = `oh` в разговоре)*"
+            "**1985** — **nineteen eighty-five**",
+            "**1812** — **eighteen twelve**",
+            "**1776** — **seventeen seventy-six**"
           ]
         },
         {
-          "type": "paragraph",
-          "text": "---"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Дословный перевод русского строя — **one thousand nine hundred eighty-five** — формально не запрещён, но так не говорят: собеседник споткнётся и переспросит. Правильный ход всегда один — разрезать год на две половины."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "2000 год: особый случай"
+          "text": "Ровные годы и ноль в середине"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "**2000** = `**two thousand**`"
+            "**1900** — **nineteen hundred**",
+            "**1907** — **nineteen oh seven**"
           ]
         },
         {
           "type": "paragraph",
-          "text": "---"
+          "text": "Ноль в середине года читается как буква `oh`, а не как zero."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Тот же `oh` живёт в номерах комнат и телефонов: **room two oh five**, **oh seven nine**."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "2001–2009: два варианта"
+          "text": "2000-е — счёт от тысячи"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "**2005** = **two thousand and five** *(брит.)* / **two thousand five** *(амер.)*",
-            "**2001** = **two thousand and one** / **two thousand one**"
+            "**2000** — **two thousand**",
+            "**2005** — **two thousand and five** (брит.) / **two thousand five** (амер.)"
           ]
         },
         {
           "type": "paragraph",
-          "text": "---"
+          "text": "Разрезать пополам здесь нельзя: формы **twenty hundred** в языке нет."
         },
         {
           "type": "heading",
-          "text": "2010 и далее: снова два варианта, оба правильны"
+          "text": "2010 и дальше — снова два варианта"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "**2010** = `**twenty ten**` ✓ или **two thousand and ten** ✓",
-            "**2024** = `**twenty twenty-four**` ✓ или **two thousand and twenty-four** ✓"
+            "**2010** — **twenty ten** или **two thousand and ten**",
+            "**2024** — **twenty twenty-four** или **two thousand and twenty-four**"
           ]
         },
         {
           "type": "paragraph",
-          "text": "В разговоре чаще говорят `twenty twenty-four` — короче и привычнее."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "Оба варианта нормальны, но в живой речи побеждает короткий — **twenty twenty-four**."
         },
         {
           "type": "heading",
-          "text": "Шпаргалка:"
+          "text": "Шпаргалка"
         },
         {
           "type": "table",
@@ -5142,33 +5115,33 @@
           ]
         }
       ],
-      "theorySummary": "До 2000: делим 19|84 = `nineteen eighty-four`. 2000 = `two thousand`. 2001–2009: two thousand and five. 2010+: `twenty ten` или two thousand and ten — оба верны.",
+      "theorySummary": "Год до 2000 режется пополам и читается двумя числами: **1985** — **nineteen eighty-five**. Ровный год берёт **hundred** (**1900** — **nineteen hundred**), а ноль в середине читается как `oh`: **1907** — **nineteen oh seven**. Годы 2000-х считают от тысячи — **two thousand and five**, потому что формы **twenty hundred** не существует. С 2010 годятся оба варианта: **twenty twenty-four** и **two thousand and twenty-four**, но в разговоре чаще звучит первый.",
       "examples": [
         {
-          "ru": "Игорь родился в 1991 году.",
-          "en": "Igor was born in nineteen ninety-one."
+          "ru": "Это фото 1991 года.",
+          "en": "This photo is from nineteen ninety-one."
         },
         {
-          "ru": "Компания основана в 2003 году.",
-          "en": "The company was founded in two thousand and three."
+          "ru": "На монете дата — 1907.",
+          "en": "The date on the coin is nineteen oh seven."
         },
         {
-          "ru": "Сейчас 2024 год.",
-          "en": "It's twenty twenty-four."
+          "ru": "Сейчас 2026 год.",
+          "en": "It is twenty twenty-six."
         },
         {
-          "ru": "Первая мировая война началась в 1914 году.",
-          "en": "The First World War began in nineteen fourteen."
+          "ru": "Моя машина 2008 года.",
+          "en": "My car is from two thousand and eight."
         },
         {
-          "ru": "Олимпиада прошла в 2000 году в Сиднее.",
-          "en": "The Olympics took place in two thousand in Sydney."
+          "ru": "Этот дом — 1900 года.",
+          "en": "This house is from nineteen hundred."
         }
       ],
       "clarificationOptions": [
-        "Как читать 2000-е годы (2001, 2005)?",
-        "Почему нельзя сказать \"one thousand nine hundred eighty\"?",
-        "Как читать годы типа 1900 или 1800?"
+        "Почему нельзя сказать one thousand nine hundred eighty?",
+        "Как читаются годы вроде 1800 или 1900?",
+        "Что чаще говорят про 2024 — twenty twenty-four или two thousand and twenty-four?"
       ]
     },
     {
@@ -5179,75 +5152,91 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "**one more** + существительное = ещё один / ещё одна / ещё раз"
+          "text": "`one more` — «ещё один». Конструкция короткая, но в речи она звучит постоянно: ею просят добавку, выпрашивают минуту и дают второй шанс."
         },
         {
-          "type": "paragraph",
-          "text": "Это короткая конструкция, которую носители используют постоянно — и которую легко пропустить мимо."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Примеры:"
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "One more + существительное в единственном числе"
+            }
+          ]
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "**One more** time! — Ещё раз!",
-            "Can I have **one more** coffee? — Можно мне ещё один кофе?",
-            "Give me **one more** chance. — Дай мне ещё один шанс.",
-            "Just **one more** question. — Только ещё один вопрос.",
-            "**One more** piece, please. — Ещё один кусочек, пожалуйста."
+            "**One more time!** — *Ещё раз!*",
+            "**Give me one more minute.** — *Дай мне ещё одну минуту.*",
+            "**Just one more question.** — *Только ещё один вопрос.*",
+            "**One more coffee, please.** — *Ещё один кофе, пожалуйста.*"
           ]
         },
         {
-          "type": "paragraph",
-          "text": "---"
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После `one more` существительное остаётся в единственном числе: **one more coffee** ✓, **one more coffees** ✗. Русское «ещё кофе» звучит без числа вообще, поэтому рука тянется поставить множественное «на всякий случай» — а в английском число уже сидит внутри конструкции: `one` значит «один»."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "one more vs another"
+          "text": "one more и another"
         },
         {
           "type": "paragraph",
-          "text": "Оба переводятся как «ещё один», но акцент разный:"
+          "text": "Оба переводятся как «ещё один», но смотрят в разные стороны:"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "**one more** — следующий из той же серии. Как будто ты продолжаешь счёт. One more minute = ещё одна минута из тех же минут.",
-            "**another** — просто ещё один, другой. `Another chance` = другой шанс (не обязательно из той же серии)."
+            "**one more** — следующий из того же ряда: **one more minute** — ещё минута из тех же минут.",
+            "**another** — просто ещё один, необязательно из того же ряда: **another chance** — другой шанс."
           ]
         },
         {
           "type": "paragraph",
-          "text": "В разговоре их часто используют взаимозаменяемо — разница скорее в оттенке, чем в правиле."
+          "text": "В разговоре их часто ставят на место друг друга, и это не ошибка: разница здесь в оттенке, а не в правиле."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Порядок слов жёсткий — сначала `one more`, потом существительное. **One more time** ✓, **one time more** ✗: вторая форма выдаёт перевод в лоб с русского «ещё один раз»."
+            }
+          ]
         }
       ],
-      "theorySummary": "one more + noun = ещё один. One more time — ещё раз. Разница с another: one more = следующий из тех же, another = просто ещё один. В разговоре часто взаимозаменяемы.",
+      "theorySummary": "`one more` + существительное в единственном числе = «ещё один»: **one more minute**, **one more question**. Множественное после него не ставится (**one more coffees** ✗), потому что число уже внутри самой конструкции. Порядок слов жёсткий: **one more time** ✓, **one time more** ✗. От `another` отличается оттенком: `one more` — следующий из того же ряда, `another` — просто ещё один, и в разговоре они часто заменяют друг друга.",
       "examples": [
         {
-          "ru": "Ещё один вопрос — и мы закончим.",
-          "en": "One more question and we're done."
+          "ru": "Ещё один вопрос — и мы закончили.",
+          "en": "One more question and we are done."
         },
         {
           "ru": "Дай мне ещё одну минуту.",
           "en": "Give me one more minute."
         },
         {
-          "ru": "Можно мне ещё один кусок торта?",
-          "en": "Can I have one more piece of cake?"
+          "ru": "Ещё один кусок торта, пожалуйста.",
+          "en": "One more piece of cake, please."
         }
       ],
       "clarificationOptions": [
-        "В чём реальная разница между one more и another?",
-        "Можно ли сказать \"one more of\" + существительное?",
-        "Как сказать \"ещё немного\"?"
+        "В чём разница между one more и another?",
+        "Почему нельзя сказать one time more?",
+        "Как сказать «ещё немного», если предмет не считается?"
       ]
     },
     {
@@ -12178,24 +12167,24 @@
     {
       "id": "basics_card31_ex1",
       "cardId": 31,
-      "title": "Числа в контексте",
-      "userInstruction": "AI даст 4 задания: запиши число словами по-английски. Числа будут в контексте предложений.",
-      "inputMode": "FREE_WRITE",
+      "title": "Число словами",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите словами число, которое стоит в скобках.",
+      "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
     {
       "id": "basics_card32_ex1",
       "cardId": 32,
-      "title": "Порядковые в контексте",
-      "userInstruction": "AI даст предложения с пропусками. Вставь правильное порядковое числительное.",
+      "title": "Который по счёту",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите словами порядковое числительное, которое стоит в скобках.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
     {
       "id": "basics_card33_ex1",
       "cardId": 33,
-      "title": "Как читается этот год?",
-      "userInstruction": "AI даст 4 года цифрами. Напиши как они читаются по-английски словами.",
+      "title": "Как читается этот год",
+      "userInstruction": "ИИ пришлёт несколько годов цифрами. Напишите словами, как читается каждый из них по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     },
@@ -14464,38 +14453,38 @@
     },
     {
       "id": 6,
-      "taskDescription": "запиши порядковое числительное для каждого кардинального",
+      "taskDescription": "запиши порядковую форму для каждого числа",
       "rows": [
         {
-          "hint": "one",
-          "answer": "first"
+          "hint": "two",
+          "answer": "second"
         },
         {
-          "hint": "three",
-          "answer": "third"
+          "hint": "four",
+          "answer": "fourth"
         },
         {
-          "hint": "five",
-          "answer": "fifth"
+          "hint": "nine",
+          "answer": "ninth"
         },
         {
-          "hint": "eight",
-          "answer": "eighth"
+          "hint": "eleven",
+          "answer": "eleventh"
         },
         {
-          "hint": "twelve",
-          "answer": "twelfth"
+          "hint": "thirty",
+          "answer": "thirtieth"
         },
         {
-          "hint": "twenty",
-          "answer": "twentieth"
+          "hint": "sixty",
+          "answer": "sixtieth"
         },
         {
-          "hint": "twenty-three",
-          "answer": "twenty-third"
+          "hint": "forty-five",
+          "answer": "forty-fifth"
         }
       ],
-      "explanation": "one→first, three→third — особые формы. Остальные = число + -th: five→fifth, eight→eighth, twelve→twelfth, twenty→twentieth (y меняется на ie). В составных порядковое только последнее слово: twenty-third."
+      "explanation": "two → second — особая форма. Four и eleven берут обычное -th, а nine теряет e: ninth. У десятков -y уступает место -ieth: thirtieth, sixtieth. В составном порядковым становится только хвост: forty-fifth."
     },
     {
       "id": 7,
@@ -15279,8 +15268,8 @@
           "isTrue": true
         },
         {
-          "en": "There are three hundred students here.",
-          "ru": "Здесь триста студентов.",
+          "en": "There are three hundred students in this school.",
+          "ru": "В этой школе триста студентов.",
           "isTrue": true
         },
         {
@@ -15289,17 +15278,17 @@
           "isTrue": false
         },
         {
-          "en": "Hundreds of people came to the concert.",
-          "ru": "Сотни людей пришли на концерт.",
+          "en": "Hundreds of people are at the station.",
+          "ru": "На вокзале сотни людей.",
           "isTrue": true
         },
         {
-          "en": "He paid two hundreds dollars.",
-          "ru": "Он заплатил двести долларов.",
+          "en": "There are five hundreds seats in the hall.",
+          "ru": "В зале пятьсот мест.",
           "isTrue": false
         }
       ],
-      "explanation": "№3 — между десятками и единицами дефис: twenty-one. №5 — после конкретного числа hundred без -s: \"two hundred dollars\" (-s только без числа: \"hundreds of people\")."
+      "explanation": "Предл. 3: между десятком и единицей нужен дефис — twenty-one. Предл. 5: после точного числа hundred стоит без -s — five hundred seats; форма hundreds годится только там, где точного числа нет, как в предложении 4."
     },
     {
       "id": 26,
@@ -16214,19 +16203,21 @@
     {
       "id": 26,
       "situationRu": "Ситуация: Саша занял третье место на соревновании.",
-      "correctSentence": "Sasha finished in third place.",
+      "correctSentence": "Sasha is in third place.",
       "words": [
         "Sasha",
-        "finished",
+        "is",
         "in",
         "third",
         "place"
       ],
       "distractors": [
         "three",
-        "the"
+        "the",
+        "thirdth",
+        "on"
       ],
-      "explanation": "места в соревновании — \"finished in third place\" или просто \"finished third\". Артикль здесь не нужен. three — кардинальное, здесь нужно порядковое third."
+      "explanation": "место в соревновании называют порядковым числительным: in third place. Three — обычное число, формы thirdth нет вовсе, артикль в этой фразе не ставится, а предлог нужен in, а не on."
     },
     {
       "id": 27,
@@ -18047,65 +18038,65 @@
     {
       "id": 28,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "У Миши сорок пять книг.",
+      "prompt": "В доме сорок пять квартир.",
       "contextRu": "",
       "options": [
         {
-          "text": "Misha has fourty-five books.",
+          "text": "There are fourty-five flats in the house.",
           "isCorrect": false
         },
         {
-          "text": "Misha has forty-five books.",
+          "text": "There are forty-five flats in the house.",
           "isCorrect": true
         },
         {
-          "text": "Misha has forty five books.",
+          "text": "There are forty five flats in the house.",
           "isCorrect": false
         }
       ],
-      "explanation": "forty — не fourty (частая ошибка!). Дефис обязателен между десятком и единицей: forty-five."
+      "explanation": "forty пишется без u, а десяток с единицей соединяет дефис: forty-five."
     },
     {
       "id": 29,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "В зале было двести человек.",
+      "prompt": "В этом отеле двести номеров.",
       "contextRu": "",
       "options": [
         {
-          "text": "There were two hundreds people in the hall.",
+          "text": "There are two hundreds rooms in this hotel.",
           "isCorrect": false
         },
         {
-          "text": "There were two hundred people in the hall.",
+          "text": "There are two-hundred rooms in this hotel.",
+          "isCorrect": false
+        },
+        {
+          "text": "There are two hundred rooms in this hotel.",
           "isCorrect": true
-        },
-        {
-          "text": "There were two-hundred people in the hall.",
-          "isCorrect": false
         }
       ],
-      "explanation": "После числа hundred без -s. Дефис между числом и hundred не нужен."
+      "explanation": "после точного числа hundred остаётся без -s, и дефис между числом и hundred не ставится."
     },
     {
       "id": 30,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Поезд прибывает через пятнадцать минут.",
+      "prompt": "В классе пятнадцать девочек.",
       "contextRu": "",
       "options": [
         {
-          "text": "The train arrives in fiveteen minutes.",
-          "isCorrect": false
-        },
-        {
-          "text": "The train arrives in fifteen minutes.",
+          "text": "There are fifteen girls in the class.",
           "isCorrect": true
         },
         {
-          "text": "The train arrives in fifthteen minutes.",
+          "text": "There are fiveteen girls in the class.",
+          "isCorrect": false
+        },
+        {
+          "text": "There are fifthteen girls in the class.",
           "isCorrect": false
         }
       ],
-      "explanation": "fifteen — особое написание, не fiveteen и не fifthteen."
+      "explanation": "fifteen — особое написание: от five остаётся fif-, лишней буквы в середине нет."
     },
     {
       "id": 8,
@@ -18126,7 +18117,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "forty = 40, eight = 8. forty-eight = 48."
+      "explanation": "forty = 40, eight = 8, вместе — 48. Число 84 звучало бы eighty-four, а 14 — fourteen."
     },
     {
       "id": 9,
@@ -18135,7 +18126,7 @@
       "contextRu": "",
       "options": [
         {
-          "text": "1,500",
+          "text": "1 500",
           "isCorrect": true
         },
         {
@@ -18143,11 +18134,11 @@
           "isCorrect": false
         },
         {
-          "text": "15,000",
+          "text": "15 000",
           "isCorrect": false
         }
       ],
-      "explanation": "\"fifteen hundred\" = 15 × 100 = 1,500. Разговорный способ назвать числа от 1,100 до 1,900 — два блока по сотне."
+      "explanation": "разговорный счёт сотнями: fifteen hundred = 15 × 100 = 1 500. Так читают числа от 1 100 до 1 900."
     },
     {
       "id": 10,
@@ -18156,145 +18147,145 @@
       "contextRu": "",
       "options": [
         {
-          "text": "2,030,000",
+          "text": "2 030 000",
           "isCorrect": false
         },
         {
-          "text": "2,300,000",
+          "text": "23 000 000",
+          "isCorrect": false
+        },
+        {
+          "text": "2 300 000",
           "isCorrect": true
-        },
-        {
-          "text": "23,000,000",
-          "isCorrect": false
         }
       ],
-      "explanation": "two million = 2,000,000. three hundred thousand = 300,000. Итого: 2,300,000."
+      "explanation": "two million = 2 000 000, three hundred thousand = 300 000. Вместе — 2 300 000."
     },
     {
       "id": 40,
       "choiceType": "CHOICE",
-      "prompt": "She lives on the ___ floor.",
-      "contextRu": "на третьем этаже",
+      "prompt": "The gym is on the ___ floor.",
+      "contextRu": "",
       "options": [
         {
           "text": "three",
           "isCorrect": false
         },
         {
-          "text": "third",
-          "isCorrect": true
+          "text": "threeth",
+          "isCorrect": false
         },
         {
-          "text": "thirteenth",
-          "isCorrect": false
+          "text": "third",
+          "isCorrect": true
         }
       ],
-      "explanation": "этажи — порядковые числительные: the third floor. three — кардинальное, не подходит."
+      "explanation": "этаж называют порядковым числительным, а у three особая форма — third. Формы threeth в языке нет, three — это просто «три»."
     },
     {
       "id": 41,
       "choiceType": "CHOICE",
-      "prompt": "It's his ___ birthday today.",
-      "contextRu": "сегодня ему исполняется тридцать лет",
+      "prompt": "It is her ___ birthday today.",
+      "contextRu": "",
       "options": [
         {
-          "text": "thirty",
-          "isCorrect": false
+          "text": "thirtieth",
+          "isCorrect": true
         },
         {
           "text": "thirtyth",
           "isCorrect": false
         },
         {
-          "text": "thirtieth",
-          "isCorrect": true
+          "text": "thirty",
+          "isCorrect": false
         }
       ],
-      "explanation": "thirty → thirtieth (-y → -ieth). thirtyth — несуществующая форма."
+      "explanation": "у десятков -y уступает место -ieth: thirty → thirtieth. Формы thirtyth не существует, а thirty — обычное число «тридцать»."
     },
     {
       "id": 42,
       "choiceType": "CHOICE",
-      "prompt": "She finished ___ in the race.",
-      "contextRu": "она финишировала второй",
+      "prompt": "Vera is ___ in the race.",
+      "contextRu": "",
       "options": [
-        {
-          "text": "second",
-          "isCorrect": true
-        },
         {
           "text": "two",
           "isCorrect": false
+        },
+        {
+          "text": "second",
+          "isCorrect": true
         },
         {
           "text": "secondly",
           "isCorrect": false
         }
       ],
-      "explanation": "места в соревновании — порядковые числительные. secondly — наречие, не число."
+      "explanation": "место в соревновании — порядковое числительное second. Secondly — это наречие «во-вторых», к местам оно отношения не имеет."
     },
     {
       "id": 31,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Его кабинет на двенадцатом этаже.",
+      "prompt": "Их квартира на двенадцатом этаже.",
       "contextRu": "",
       "options": [
         {
-          "text": "His office is on the twelve floor.",
+          "text": "Their flat is on the twelve floor.",
           "isCorrect": false
         },
         {
-          "text": "His office is on the twelvth floor.",
+          "text": "Their flat is on the twelvth floor.",
           "isCorrect": false
         },
         {
-          "text": "His office is on the twelfth floor.",
+          "text": "Their flat is on the twelfth floor.",
           "isCorrect": true
         }
       ],
-      "explanation": "twelve → twelfth — особое написание: v исчезает, добавляется -fth."
+      "explanation": "у twelve порядковая форма особая — twelfth: v превращается в f."
     },
     {
       "id": 32,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Это был её двадцать первый день рождения.",
+      "prompt": "Это её двадцать первый день рождения.",
       "contextRu": "",
       "options": [
         {
-          "text": "It was her twenty-oneth birthday.",
-          "isCorrect": false
-        },
-        {
-          "text": "It was her twenty-first birthday.",
+          "text": "It is her twenty-first birthday.",
           "isCorrect": true
         },
         {
-          "text": "It was her twentyfirst birthday.",
+          "text": "It is her twenty-oneth birthday.",
+          "isCorrect": false
+        },
+        {
+          "text": "It is her twentyfirst birthday.",
           "isCorrect": false
         }
       ],
-      "explanation": "twenty-first — дефис обязателен. Суффикс -st берётся от \"first\", не от \"one\"."
+      "explanation": "порядковую форму получает только последнее слово (one → first), и десяток соединяется с ним дефисом."
     },
     {
       "id": 11,
       "choiceType": "REVERSE_CHOICE",
-      "prompt": "nineteen eighty-four",
+      "prompt": "nineteen forty-five",
       "contextRu": "",
       "options": [
         {
-          "text": "1948",
+          "text": "1495",
           "isCorrect": false
         },
         {
-          "text": "1984",
+          "text": "1945",
           "isCorrect": true
         },
         {
-          "text": "1894",
+          "text": "1954",
           "isCorrect": false
         }
       ],
-      "explanation": "nineteen = 19, eighty-four = 84. Два блока: 19|84 = 1984."
+      "explanation": "первая половина — nineteen (19), вторая — forty-five (45), вместе 1945. Год 1954 звучал бы nineteen fifty-four."
     },
     {
       "id": 12,
@@ -18315,7 +18306,7 @@
           "isCorrect": true
         }
       ],
-      "explanation": "\"oh\" = ноль. twenty oh eight = 20|08 = 2008."
+      "explanation": "oh — это ноль в середине года: twenty | oh eight = 2008."
     },
     {
       "id": 13,
@@ -18336,49 +18327,49 @@
           "isCorrect": false
         }
       ],
-      "explanation": "two thousand = 2000, and twelve = 12. Итого: 2012."
+      "explanation": "two thousand = 2000, and twelve добавляет 12, вместе 2012."
     },
     {
       "id": 33,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Оля попросила официанта ещё один кофе.",
+      "prompt": "Ещё один билет, пожалуйста.",
       "contextRu": "",
       "options": [
         {
-          "text": "Olya asked the waiter for one more coffees.",
-          "isCorrect": false
-        },
-        {
-          "text": "Olya asked the waiter for one more coffee.",
+          "text": "One more ticket, please.",
           "isCorrect": true
         },
         {
-          "text": "Olya asked the waiter for one another coffee.",
+          "text": "One more tickets, please.",
+          "isCorrect": false
+        },
+        {
+          "text": "One another ticket, please.",
           "isCorrect": false
         }
       ],
-      "explanation": "one more + noun (ед.ч.). После \"one more\" существительное не меняется: one more coffee, не coffees. \"One another\" — несуществующая конструкция."
+      "explanation": "после one more существительное стоит в единственном числе — ticket. Конструкции one another в языке нет."
     },
     {
       "id": 34,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Повтори ещё раз, пожалуйста!",
+      "prompt": "Повтори ещё раз, пожалуйста.",
       "contextRu": "",
       "options": [
         {
-          "text": "Repeat one time more, please!",
+          "text": "Repeat one time more, please.",
           "isCorrect": false
         },
         {
-          "text": "Repeat one more time, please!",
+          "text": "Repeat one more time, please.",
           "isCorrect": true
         },
         {
-          "text": "Repeat one more again, please!",
+          "text": "Repeat one more again, please.",
           "isCorrect": false
         }
       ],
-      "explanation": "\"one more time\" — устойчивая фраза. Порядок: one more + noun. \"One more again\" — дублирование (again уже значит \"снова\"). \"One time more\" — неправильный порядок слов."
+      "explanation": "порядок жёсткий: one more, потом существительное — one more time. Форма one time more — калька с русского, а again в этой фразе лишнее: оно и так значит «снова»."
     },
     {
       "id": 35,
@@ -19732,32 +19723,28 @@
           "alternatives": []
         },
         {
-          "sentence": "17",
-          "contextRu": "",
-          "answer": "seventeen",
-          "alternatives": []
-        },
-        {
           "sentence": "56",
           "contextRu": "",
           "answer": "fifty-six",
           "alternatives": []
         },
         {
-          "sentence": "100",
+          "sentence": "90",
           "contextRu": "",
-          "answer": "a hundred / one hundred",
+          "answer": "ninety",
           "alternatives": []
         },
         {
-          "sentence": "1,000",
+          "sentence": "1 000",
           "contextRu": "",
-          "answer": "a thousand / one thousand",
-          "alternatives": []
+          "answer": "a thousand",
+          "alternatives": [
+            "one thousand"
+          ]
         }
       ],
-      "explanation": "40 = forty (не fourty). 56 = fifty-six (дефис). 13 = thirteen (не thirtheen).",
-      "taskDescription": "Напиши число словами:"
+      "explanation": "13 = thirteen (корень thir- плюс -teen). 40 = forty, без u. 56 = fifty-six, десяток с единицей через дефис. 90 = ninety. 1 000 — a thousand или one thousand, оба варианта верны.",
+      "taskDescription": "Напиши число словами."
     },
     {
       "id": 16,
@@ -19769,34 +19756,36 @@
           "alternatives": []
         },
         {
-          "sentence": "2000",
+          "sentence": "1806",
           "contextRu": "",
-          "answer": "two thousand",
+          "answer": "eighteen oh six",
           "alternatives": []
         },
         {
-          "sentence": "1812",
+          "sentence": "2001",
           "contextRu": "",
-          "answer": "eighteen twelve",
-          "alternatives": []
-        },
-        {
-          "sentence": "2024",
-          "contextRu": "",
-          "answer": "twenty twenty-four",
+          "answer": "two thousand and one",
           "alternatives": [
-            "two thousand and twenty-four"
+            "two thousand one"
           ]
         },
         {
-          "sentence": "1905",
+          "sentence": "1300",
           "contextRu": "",
-          "answer": "nineteen oh five",
+          "answer": "thirteen hundred",
           "alternatives": []
+        },
+        {
+          "sentence": "2016",
+          "contextRu": "",
+          "answer": "twenty sixteen",
+          "alternatives": [
+            "two thousand and sixteen"
+          ]
         }
       ],
-      "explanation": "1999: nineteen + ninety-nine (две половины). 1905: ноль читается \"oh\". 2024: допустимы оба варианта.",
-      "taskDescription": "Напиши год словами по-английски:"
+      "explanation": "1999 — две половины, nineteen и ninety-nine. В 1806 ноль в середине читается как oh. 2001 считается от тысячи. 1300 — ровный год, поэтому hundred. Для 2016 годятся оба варианта.",
+      "taskDescription": "Напиши, как читается каждый год."
     },
     {
       "id": 17,
@@ -20779,41 +20768,41 @@
     },
     {
       "id": 13,
-      "wrongSentence": "She was born in one thousand nine hundred ninety-five.",
+      "wrongSentence": "The photo is from one thousand nine hundred ninety-five.",
       "options": [
         {
-          "text": "She was born in one thousand nine hundred ninety-five.",
+          "text": "The photo is from nineteen hundred ninety-five.",
           "isCorrect": false
         },
         {
-          "text": "She was born in nineteen ninety-five.",
+          "text": "The photo is from nineteen ninety-five.",
           "isCorrect": true
         },
         {
-          "text": "She was born in nineteen hundred ninety-five.",
+          "text": "The photo is from one thousand nine hundred and ninety-five.",
           "isCorrect": false
         }
       ],
-      "explanation": "Годы до 2000 читаются как два блока: 19|95 = \"nineteen ninety-five\". Формат \"one thousand nine hundred...\" грамматически не ошибка, но так не говорят."
+      "explanation": "год до 2000 читается двумя половинами — nineteen и ninety-five. Длинный строй «одна тысяча девятьсот…» в английском не используют, сколько бы and в него ни добавляли."
     },
     {
       "id": 14,
-      "wrongSentence": "The game came out in twenty hundred and three.",
+      "wrongSentence": "Her car is from twenty hundred and three.",
       "options": [
         {
-          "text": "The game came out in twenty hundred and three.",
+          "text": "Her car is from twenty and three.",
           "isCorrect": false
         },
         {
-          "text": "The game came out in two thousand and three.",
+          "text": "Her car is from twenty three.",
+          "isCorrect": false
+        },
+        {
+          "text": "Her car is from two thousand and three.",
           "isCorrect": true
-        },
-        {
-          "text": "The game came out in twenty and three.",
-          "isCorrect": false
         }
       ],
-      "explanation": "2003 = \"two thousand and three\". \"Twenty hundred\" — несуществующий формат для годов после 2000."
+      "explanation": "формы twenty hundred в языке нет: годы 2000-х считают от тысячи — two thousand and three."
     },
     {
       "id": 15,
@@ -21263,6 +21252,10 @@
       "construction": "One more try.",
       "options": [
         {
+          "text": "Одна попытка.",
+          "isCorrect": false
+        },
+        {
           "text": "Ещё одна попытка.",
           "isCorrect": true
         },
@@ -21273,36 +21266,32 @@
         {
           "text": "Последняя попытка.",
           "isCorrect": false
-        },
-        {
-          "text": "Одна попытка.",
-          "isCorrect": false
         }
       ],
-      "explanation": "one more = ещё один/одна (следующий из той же серии). \"One more try\" = ещё одна попытка."
+      "explanation": "one more — «ещё один», следующий из того же ряда. Значения «первая» или «последняя» в этой конструкции нет вовсе."
     },
     {
       "id": 3,
-      "construction": "Just one more minute.",
+      "construction": "Just one more week.",
       "options": [
         {
-          "text": "Только одна минута.",
+          "text": "Только одна неделя.",
           "isCorrect": false
         },
         {
-          "text": "Ещё целая минута.",
+          "text": "Ещё целая неделя.",
           "isCorrect": false
         },
         {
-          "text": "Всего ещё одна минута.",
+          "text": "Последняя неделя.",
+          "isCorrect": false
+        },
+        {
+          "text": "Всего ещё одна неделя.",
           "isCorrect": true
-        },
-        {
-          "text": "Последняя минута.",
-          "isCorrect": false
         }
       ],
-      "explanation": "just смягчает — \"буквально ещё одна минута\". one more = ещё одна из той же серии, а не просто \"одна\"."
+      "explanation": "one more — «ещё одна из того же ряда», а just смягчает: «всего лишь ещё одна». Без just это была бы просто «ещё одна неделя»."
     },
     {
       "id": 4,
