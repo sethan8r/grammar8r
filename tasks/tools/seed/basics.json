@@ -115,7 +115,7 @@
       "topicId": 1,
       "title": "The Calendar · Календарь",
       "order": 15,
-      "searchKeywords": "какой сегодня день недели, месяцы года, времена года, календарь на английском, заглавные буквы в датах"
+      "searchKeywords": "почему monday с большой буквы, summer с маленькой или с большой, autumn или fall, wednesday как читается, on mondays каждый понедельник, как записать дату 5 мая, сокращения jan feb sept"
     },
     {
       "id": 16,
@@ -5247,79 +5247,34 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "В русском языке дни недели и месяцы пишутся со строчной буквы: понедельник, январь, осень."
-        },
-        {
-          "type": "paragraph",
-          "text": "В английском — другие правила. Важно понять не просто «так надо», а почему."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "По-русски всё это пишется одинаково скромно: понедельник, январь, осень — строчные буквы, никаких выделений. Английский же половину календаря пишет с большой буквы, а половину оставляет с маленькой. Выглядит как каприз, но за этим стоит понятная логика — и, разобравшись в ней один раз, ошибаться в переписке мы перестанем."
         },
         {
           "type": "heading",
-          "text": "Дни недели — ЗАГЛАВНАЯ буква"
+          "text": "Дни недели и месяцы — с большой буквы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday**",
+            "**January, February, March, April, May, June, July, August, September, October, November, December**"
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "Большая буква держится **везде**, а не только в начале предложения: **My birthday is in July** — `July` в середине фразы всё равно заглавное."
         },
         {
           "type": "heading",
-          "text": "Месяцы — ЗАГЛАВНАЯ буква"
+          "text": "Сезоны — с маленькой буквы"
         },
         {
-          "type": "paragraph",
-          "text": "January, February, March, April, May, June, July, August, September, October, November, December"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Сезоны — строчная буква** ⚠️"
-        },
-        {
-          "type": "paragraph",
-          "text": "spring, summer, autumn, winter"
-        },
-        {
-          "type": "paragraph",
-          "text": "Это исключение которое путает всех русских."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Почему такая разница?"
-        },
-        {
-          "type": "paragraph",
-          "text": "В английском есть понятие `proper noun` — собственное имя. Это уникальные имена конкретных вещей: имена людей (Anna, Igor), названия городов (London, Moscow), названия стран (Russia, France)."
-        },
-        {
-          "type": "paragraph",
-          "text": "Дни недели и месяцы считаются собственными именами — у каждого есть своё уникальное «имя»: Monday — это конкретный день, как имя человека. January — конкретный месяц с именем."
-        },
-        {
-          "type": "paragraph",
-          "text": "Сезоны — нет. Spring — это описательное слово, оно описывает тип времени года, а не называет конкретную уникальную вещь. Поэтому строчная."
-        },
-        {
-          "type": "paragraph",
-          "text": "Аналогия: мы пишем «река» (common noun — строчная) но «река Нева» или просто «Нева» (proper noun — заглавная). Так же: `season` строчная, но `Monday` — это как имя, заглавная."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**spring, summer, autumn, fall, winter**"
+          ]
         },
         {
           "type": "callout",
@@ -5328,54 +5283,77 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "В названиях событий сезон может стать собственным именем:"
+              "text": "Рядом стоящие слова сбивают руку. В строке **My holiday is in July** буква большая, а в **My holiday is in summer** — маленькая, хотя по-русски оба слова выглядят одинаково. Написание **in Summer** ✗ — самая частая календарная ошибка русскоязычного в чате и резюме."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "The Summer Olympics, The Spring Festival — здесь Summer и Spring как часть официального названия → заглавная. Это исключение из исключения."
+          "type": "heading",
+          "text": "Почему такая разница"
         },
         {
           "type": "paragraph",
-          "text": "---"
+          "text": "Английский делит существительные на два сорта. Обычное слово (`common noun`) называет тип вещи: `river` — река вообще, `season` — время года вообще. Собственное имя (`proper noun`) называет одну конкретную вещь, у которой есть своё имя: `Anna`, `Prague`, `Nile`. Собственные имена всегда пишутся с большой буквы."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дни и месяцы английский считает именами: `Monday` — это не «какой-то день», а конкретный день с собственным именем, как `Anna` у человека. А `summer` именем не стало — это по-прежнему описание типа сезона, один из четырёх, поэтому буква остаётся маленькой."
+        },
+        {
+          "type": "paragraph",
+          "text": "Та же логика работает и в русском: мы пишем «река» с маленькой, а «Нева» — с большой, потому что у реки появилось имя."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Внутри официального названия сезон тоже получает имя и заглавную букву: **the Summer Olympics**, **the Spring Festival**. Здесь `Summer` — уже часть имени мероприятия, а не время года само по себе."
+            }
+          ]
         },
         {
           "type": "heading",
-          "text": "Сокращения тоже с заглавной:"
+          "text": "Сокращения — тоже с большой буквы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Mon · Tue · Wed · Thu · Fri · Sat · Sun**",
+            "**Jan · Feb · Mar · Apr · Jun · Jul · Aug · Sep (Sept) · Oct · Nov · Dec**"
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Mon, Tue, Wed, Thu, Fri, Sat, Sun"
-        },
-        {
-          "type": "paragraph",
-          "text": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+          "text": "Сокращение — это то же имя, просто короче, поэтому первая буква остаётся заглавной. Сокращения `May` не существует: слово и так из трёх букв."
         }
       ],
-      "theorySummary": "Дни недели и месяцы — заглавная (Monday, January): они собственные имена. Сезоны — строчная (spring, winter): описательные слова. Сокращения тоже с заглавной: Mon, Jan.",
+      "theorySummary": "Дни недели и месяцы английский считает собственными именами, поэтому пишет их с большой буквы в любом месте предложения: **Monday**, **January**, **My birthday is in July**. Сезоны именами не стали — они остаются с маленькой: **spring**, **summer**, **autumn**, **winter**. Исключение одно: внутри официального названия сезон становится частью имени — **the Summer Olympics**. Сокращения дней и месяцев наследуют большую букву: **Mon**, **Jan**, **Sept**.",
       "examples": [
         {
-          "ru": "Встреча в понедельник.",
-          "en": "The meeting is on **M**onday."
+          "ru": "Собрание в понедельник.",
+          "en": "The meeting is on Monday."
         },
         {
-          "ru": "Я родилась в январе.",
-          "en": "I was born in **J**anuary."
+          "ru": "У Веры день рождения в январе.",
+          "en": "Vera's birthday is in January."
         },
         {
-          "ru": "Летом жарко.",
-          "en": "It's hot in **s**ummer."
+          "ru": "Летом здесь очень жарко.",
+          "en": "It is very hot here in summer."
         },
         {
-          "ru": "Весной цветут деревья.",
-          "en": "Trees blossom in **s**pring."
+          "ru": "Осенью парк особенно красив.",
+          "en": "The park is especially beautiful in autumn."
         }
       ],
       "clarificationOptions": [
-        "Почему сезоны пишутся со строчной, а дни и месяцы — с заглавной?",
-        "Всегда ли Summer/Winter пишутся со строчной?",
-        "Правило заглавной распространяется на сокращения (Mon, Jan)?"
+        "Почему Monday с большой буквы, а summer с маленькой?",
+        "Нужна ли большая буква у месяца в середине предложения?",
+        "Когда Summer всё-таки пишется с большой буквы?"
       ]
     },
     {
@@ -5386,61 +5364,64 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "**Monday** (пн) · **Tuesday** (вт) · **Wednesday** (ср) · **Thursday** (чт) · **Friday** (пт) · **Saturday** (сб) · **Sunday** (вс)"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "Семь слов, которые в речи звучат чаще почти всего остального: договориться о встрече, назвать выходной, ответить на вопрос «когда». Учить их приходится наизусть, но два приёма сильно облегчают дело — понимание, откуда взялись имена, и знание трёх мест, где ошибается рука."
         },
         {
           "type": "heading",
-          "text": "Помогалки для запоминания:"
+          "text": "Семь дней"
         },
         {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**Monday** — Moon day *(день Луны)*",
-            "**Saturday** — Saturn's day *(день Сатурна)*",
-            "**Wednesday** — произносится `**WENZday**` [[ˈwenzdeɪ]], буква d в середине не читается! Wed-nes-day → [[ˈwenzdeɪ]]. Это одна из самых частых ошибок произношения."
+          "type": "table",
+          "header": [
+            "День",
+            "Читается",
+            "Русский"
+          ],
+          "rows": [
+            [
+              "Monday",
+              "[[ˈmʌndeɪ]]",
+              "понедельник"
+            ],
+            [
+              "Tuesday",
+              "[[ˈtjuːzdeɪ]]",
+              "вторник"
+            ],
+            [
+              "Wednesday",
+              "[[ˈwenzdeɪ]]",
+              "среда"
+            ],
+            [
+              "Thursday",
+              "[[ˈθɜːzdeɪ]]",
+              "четверг"
+            ],
+            [
+              "Friday",
+              "[[ˈfraɪdeɪ]]",
+              "пятница"
+            ],
+            [
+              "Saturday",
+              "[[ˈsætədeɪ]]",
+              "суббота"
+            ],
+            [
+              "Sunday",
+              "[[ˈsʌndeɪ]]",
+              "воскресенье"
+            ]
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
         },
         {
           "type": "heading",
-          "text": "Структура недели"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**Weekdays** — рабочие дни: Monday to Friday",
-            "**Weekend** — выходные: Saturday + Sunday"
-          ]
+          "text": "Откуда взялись имена"
         },
         {
           "type": "paragraph",
-          "text": "В США неделя в большинстве календарей начинается с **Sunday**. В UK и большинстве стран — с **Monday**."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Предлоги с днями недели"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**on** + день: I have a meeting **on** Monday. *(в понедельник)*",
-            "**on** + день + **s** = каждый такой день: I don't work **on** Mondays. *(по понедельникам)*",
-            "**at the weekend** (брит.) / **on the weekend** (амер.)"
-          ]
+          "text": "Внутри каждого дня спрятано имя божества или светила — отсюда и заглавная буква, о которой мы говорили в предыдущей карточке. `Sunday` — день Солнца (**sun**), `Monday` — день Луны (**moon**), `Saturday` — день Сатурна (**Saturn**). Остальные четыре достались от древних германских богов, и как раз они пишутся сложнее всего."
         },
         {
           "type": "callout",
@@ -5449,64 +5430,119 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "`In Monday`, `in Friday` — ошибка. Только **on**!"
+              "text": "`Wednesday` читается [[ˈwenzdeɪ]] — буква `d` в середине не звучит совсем, слово звучит как «уэнздэй». А вот пишется она обязательно: **Wednesday** ✓, **Wensday** ✗. Английский сохранил на письме имя бога Одина (Woden), хотя произносить его перестал."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "По-русски мы говорим «в понедельник» — но это не `in`. В английском день = конкретная дата на календаре → **on**."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
           "type": "heading",
-          "text": "Полезные фразы:"
+          "text": "Будни и выходные"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "What day is it today? — Какой сегодня день?",
-            "`It's Monday.` — Сегодня понедельник.",
-            "See you on Friday! — Увидимся в пятницу!",
-            "I'll do it first thing Monday morning. — Сделаю первым делом в понедельник утром."
+            "**weekday** — будний день, с понедельника по пятницу",
+            "**weekend** — выходные, суббота и воскресенье"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В британском календаре неделя начинается с понедельника, как у нас, а в американском первым столбцом обычно стоит `Sunday`. Поэтому «первый день недели» у нас и у американца — разные дни."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Один день или каждый: роль -s"
+        },
+        {
+          "type": "paragraph",
+          "text": "Предлог перед днём мы уже разбирали в микротеме «Предлоги времени» — день календаря всегда идёт с `on`. Здесь важна другая деталь: множественное число превращает конкретный день в регулярность."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "On + день = один конкретный · on + день + -s = каждый такой день"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop is closed on Sunday.** — *Магазин закрыт в это воскресенье.*",
+            "**The shop is closed on Sundays.** — *Магазин закрыт по воскресеньям.*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски разница видна по форме слова: «в воскресенье» ↔ «по воскресеньям». В английском её несёт одна буква `s`, и её легко потерять."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Про выходные британец говорит **at the weekend**, американец — **on the weekend**. Оба варианта правильные, а вот `in the weekend` — ошибка."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как спросить про день"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What day is it today?** — *Какой сегодня день?*",
+            "**It is Thursday.** — *Сегодня четверг.*"
           ]
         }
       ],
-      "theorySummary": "Monday–Sunday, все с заглавной. Wednesday произносится [[ˈwenzdeɪ]], d не читается. on + день (on Monday). on + день + s = каждую неделю (on Mondays). at the weekend (брит.) / on the weekend (амер.).",
+      "theorySummary": "Семь дней пишутся с большой буквы, потому что внутри каждого спрятано имя: **Sunday** — день Солнца, **Monday** — день Луны. Главная ловушка произношения — **Wednesday** [[ˈwenzdeɪ]]: буква `d` в середине пишется, но не звучит. Форма без `-s` называет один конкретный день (**on Friday** — в эту пятницу), форма с `-s` — регулярность (**on Fridays** — по пятницам). Будни — **weekdays**, выходные — **weekend**, и про них говорят **at the weekend** (брит.) или **on the weekend** (амер.).",
       "examples": [
         {
           "ru": "В пятницу у Лены важное собеседование.",
           "en": "Lena has an important interview on Friday."
         },
         {
-          "ru": "По средам я хожу в спортзал.",
-          "en": "I go to the gym on Wednesdays."
+          "ru": "По средам спортзал переполнен.",
+          "en": "The gym is full on Wednesdays."
         },
         {
-          "ru": "В эти выходные мы едем на дачу.",
-          "en": "We're going to the dacha this weekend."
+          "ru": "В эти выходные мы в Праге.",
+          "en": "We are in Prague this weekend."
         },
         {
-          "ru": "Что ты делал в воскресенье?",
-          "en": "What did you do on Sunday?"
+          "ru": "Какой сегодня день? — Четверг.",
+          "en": "What day is it today? — It is Thursday."
         },
         {
-          "ru": "В будни он встаёт в семь утра.",
-          "en": "On weekdays he gets up at seven."
+          "ru": "В будни Гриша на работе с девяти.",
+          "en": "On weekdays Grisha is at work at nine."
         },
         {
-          "ru": "Магазин закрыт по субботам.",
-          "en": "The shop is closed on Saturdays."
+          "ru": "По субботам этот магазин закрыт.",
+          "en": "This shop is closed on Saturdays."
         }
       ],
       "clarificationOptions": [
-        "Почему \"on Monday\" а не \"in Monday\"?",
-        "Как правильно: \"at the weekend\" или \"on the weekend\"?",
-        "Как сказать \"каждый вторник\" по-английски?"
+        "Почему в Wednesday пишется d, если её не слышно?",
+        "В чём разница между on Friday и on Fridays?",
+        "Как правильно: at the weekend или on the weekend?"
       ]
     },
     {
@@ -5517,27 +5553,80 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "**January** (янв) · **February** (фев) · **March** (мар) · **April** (апр) · **May** (май) · **June** (июн)"
-        },
-        {
-          "type": "paragraph",
-          "text": "**July** (июл) · **August** (авг) · **September** (сен) · **October** (окт) · **November** (ноя) · **December** (дек)"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "С месяцами русскоязычному повезло: почти все двенадцать пришли из латыни и в русский попали оттуда же, поэтому узнаются с ходу — `January` — январь, `March` — март, `October` — октябрь. Учить с нуля тут почти нечего, зато есть три места, где ошибается рука: написание, ударение и порядок слов в дате."
         },
         {
           "type": "heading",
-          "text": "Предлог с месяцами — всегда in"
+          "text": "Двенадцать месяцев"
         },
         {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "`in **January**` — в январе",
-            "`in **July**` — в июле",
-            "`in **December**` — в декабре"
+          "type": "table",
+          "header": [
+            "Месяц",
+            "Читается",
+            "Русский"
+          ],
+          "rows": [
+            [
+              "January",
+              "[[ˈdʒænjʊəri]]",
+              "январь"
+            ],
+            [
+              "February",
+              "[[ˈfebrʊəri]]",
+              "февраль"
+            ],
+            [
+              "March",
+              "[[mɑːtʃ]]",
+              "март"
+            ],
+            [
+              "April",
+              "[[ˈeɪprəl]]",
+              "апрель"
+            ],
+            [
+              "May",
+              "[[meɪ]]",
+              "май"
+            ],
+            [
+              "June",
+              "[[dʒuːn]]",
+              "июнь"
+            ],
+            [
+              "July",
+              "[[dʒʊˈlaɪ]]",
+              "июль"
+            ],
+            [
+              "August",
+              "[[ˈɔːɡəst]]",
+              "август"
+            ],
+            [
+              "September",
+              "[[sepˈtembə]]",
+              "сентябрь"
+            ],
+            [
+              "October",
+              "[[ɒkˈtəʊbə]]",
+              "октябрь"
+            ],
+            [
+              "November",
+              "[[nəʊˈvembə]]",
+              "ноябрь"
+            ],
+            [
+              "December",
+              "[[dɪˈsembə]]",
+              "декабрь"
+            ]
           ]
         },
         {
@@ -5547,123 +5636,100 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "`On January` без числа — ошибка. Месяц как период → **in**."
+              "text": "Три месяца звучат не так, как ждёт русское ухо. В `February` [[ˈfebrʊəri]] первое `r` в быстрой речи почти проглатывается — носители говорят «фэбьюэри», но на письме буква остаётся. В `August` [[ˈɔːɡəst]] ударение падает на первый слог, а не на второй, как в русском «авгУст». А `July` [[dʒʊˈlaɪ]], наоборот, ударный на конце — «джулАй»."
             }
           ]
         },
         {
+          "type": "heading",
+          "text": "Даты: два порядка слов"
+        },
+        {
           "type": "paragraph",
-          "text": "С числом:"
+          "text": "Британец и американец записывают одну и ту же дату по-разному, и оба варианта верны."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Брит. the + порядковое + of + месяц · амер. месяц + порядковое"
+            }
+          ]
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "**on** the 5th of January — 5 января *(брит. порядок: число + of + месяц)*",
-            "**on** January 5th — 5 января *(амер. порядок: месяц + число)*"
+            "**the 5th of May** — брит.",
+            "**May 5th** — амер."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Оба варианта правильны. Запятая после года в американском стиле: January 5th, 2024."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "Число в дате — всегда порядковое числительное, как мы разбирали в микротеме «Числа»: не `five`, а `fifth`. Год приписывается в конец, у американцев через запятую: **May 5th, 2026**."
         },
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Произношение-ловушки",
+          "label": "Ловушка",
           "blocks": [
             {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "**February** [[ˈfebrʊəri]] — первое `r` часто проглатывается в разговоре, звучит как `Febyuary`. Это нормально — так говорят многие носители.",
-                "**August** [[ˈɔːɡəst]] — ударение на первый слог: **AU**-gust, не au-**GUST**.",
-                "**Wednesday** — уже знаешь *(из карточки про дни)*"
-              ]
+              "type": "paragraph",
+              "text": "Цифрами эти два порядка выглядят одинаково, а читаются наоборот. Запись `05/09` для британца — 5 сентября, для американца — 9 мая. Ошибиться в билете или брони проще простого, поэтому в переписке безопаснее писать месяц словом."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
           "type": "heading",
-          "text": "Сокращения:"
+          "text": "Сокращения"
         },
         {
-          "type": "paragraph",
-          "text": "Jan · Feb · Mar · Apr · May · Jun · Jul · Aug · Sep/Sept · Oct · Nov · Dec"
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "paragraph",
-          "text": "**В каком месяце какой сезон** *(северное полушарие)*:"
-        },
-        {
-          "type": "table",
-          "header": [
-            "Сезон",
-            "Месяцы"
-          ],
-          "rows": [
-            [
-              "Spring (весна)",
-              "March, April, May"
-            ],
-            [
-              "Summer (лето)",
-              "June, July, August"
-            ],
-            [
-              "Autumn/Fall (осень)",
-              "September, October, November"
-            ],
-            [
-              "Winter (зима)",
-              "December, January, February"
-            ]
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Jan · Feb · Mar · Apr · Jun · Jul · Aug**",
+            "**Sep (Sept) · Oct · Nov · Dec**"
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "У `May` сокращения нет — слово и так короткое. В официальных документах после сокращения часто ставят точку: **Jan.**, **Feb.**"
         }
       ],
-      "theorySummary": "January–December, все с заглавной. Предлог: in + месяц (in March). С числом: on the 5th of March или on March 5th. February произносится часто как `Febyuary`. August — ударение на первый слог.",
+      "theorySummary": "Двенадцать месяцев пишутся с большой буквы и почти все узнаются по русским аналогам. Осторожно с тремя: **February** (первое `r` пишется, хотя почти не звучит), **August** (ударение на первый слог) и **July** (ударение на второй). Дата собирается двумя способами — по-британски **the 5th of May**, по-американски **May 5th**, и число всегда стоит в порядковой форме. Цифровая запись `05/09` у британца значит 5 сентября, у американца — 9 мая, поэтому месяц надёжнее писать словом.",
       "examples": [
         {
-          "ru": "Её день рождения в мае.",
-          "en": "Her birthday is in May."
+          "ru": "У Кати день рождения в мае.",
+          "en": "Katya's birthday is in May."
         },
         {
-          "ru": "Экзамены начинаются в июне.",
-          "en": "Exams start in June."
+          "ru": "У Дениса экзамены в июне.",
+          "en": "Denis has his exams in June."
         },
         {
-          "ru": "Концерт прошёл третьего октября.",
-          "en": "The concert was on the 3rd of October."
+          "ru": "Концерт третьего октября.",
+          "en": "The concert is on the 3rd of October."
         },
         {
-          "ru": "Саша приедет в декабре.",
-          "en": "Sasha is coming in December."
+          "ru": "В феврале двадцать восемь дней.",
+          "en": "February has twenty-eight days."
         },
         {
-          "ru": "В феврале мало дней.",
-          "en": "February has few days."
+          "ru": "Наш отпуск в августе.",
+          "en": "Our holiday is in August."
         },
         {
-          "ru": "Они поженились в августе 2019 года.",
-          "en": "They got married in August 2019."
+          "ru": "Сегодня девятое сентября.",
+          "en": "It is the 9th of September today."
         }
       ],
       "clarificationOptions": [
-        "Почему \"in January\" но \"on the 5th of January\"?",
-        "Как правильно писать дату по-английски: британский и американский варианты?",
-        "Почему February часто произносят без первого r?"
+        "Почему в дате говорят third, а не three?",
+        "Как понять, что значит запись 05/09 — 5 сентября или 9 мая?",
+        "Почему в February пишется r, если его почти не слышно?"
       ]
     },
     {
@@ -5674,52 +5740,20 @@
       "theory": [
         {
           "type": "paragraph",
-          "text": "**spring** (весна) · **summer** (лето) · **autumn** / **fall** (осень) · **winter** (зима)"
-        },
-        {
-          "type": "paragraph",
-          "text": "Все четыре — **строчными буквами** (помни из Card 35)."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
+          "text": "Времён года всего четыре, и слова простые — но именно здесь рука срывается чаще всего. Причина в соседстве: в одном предложении рядом стоят `July` с большой буквы и `summer` с маленькой, и мозг честно пытается писать их одинаково."
         },
         {
           "type": "heading",
-          "text": "Autumn или Fall?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Оба слова означают осень — это просто разные диалекты:"
+          "text": "Четыре сезона"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "**autumn** — британский английский",
-            "**fall** — американский английский"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Оба абсолютно правильны. Если смотришь американское кино или сериалы — услышишь fall. Британские книги и BBC — autumn."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
-        },
-        {
-          "type": "heading",
-          "text": "Предлог с временами года — всегда in"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "`in **spring**` — весной",
-            "`in **summer**` — летом",
-            "`in **autumn**` / `in **fall**` — осенью",
-            "`in **winter**` — зимой"
+            "**spring** [[sprɪŋ]] — весна",
+            "**summer** [[ˈsʌmə]] — лето",
+            "**autumn** [[ˈɔːtəm]] / **fall** [[fɔːl]] — осень",
+            "**winter** [[ˈwɪntə]] — зима"
           ]
         },
         {
@@ -5729,50 +5763,61 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "`On summer`, `on spring` — ошибка."
+              "text": "Все четыре — со строчной буквы: **in summer** ✓, **in Summer** ✗. Проверить себя легко: сезон — это не имя, а описание, один из четырёх типов времени года (разбирали в карточке про заглавные буквы)."
             }
           ]
-        },
-        {
-          "type": "callout",
-          "variant": "trap",
-          "label": "Ловушка 2",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "text": "`In Summer` с заглавной — ошибка (если это не название события)."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "В американском английском часто добавляют артикль: in **the** spring, in **the** fall — тоже правильно."
-        },
-        {
-          "type": "paragraph",
-          "text": "---"
         },
         {
           "type": "heading",
-          "text": "Полезные фразы:"
+          "text": "Autumn или fall"
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба слова значат «осень», разница только в стране."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Где говорят",
+            "Откуда взялось"
+          ],
+          "rows": [
+            [
+              "autumn",
+              "Британия и большинство стран",
+              "от латинского autumnus"
+            ],
+            [
+              "fall",
+              "США и Канада",
+              "от fall — падать: время падающих листьев"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни одно из них не «правильнее» — в британском сериале мы услышим `autumn`, в американском `fall`. Американская этимология вдобавок помогает запомнить слово: листья падают — **fall**."
+        },
+        {
+          "type": "heading",
+          "text": "Артикль перед сезоном — можно и без него"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "What's your favourite season? — Какое у тебя любимое время года?",
-            "I love summer because... — Я люблю лето, потому что...",
-            "It gets cold in autumn. — Осенью становится холодно.",
-            "Spring is in the air. — Весной пахнет. *(идиома: «весна в воздухе»)*"
+            "**in spring** — так чаще говорят британцы",
+            "**in the spring** — так чаще говорят американцы"
           ]
         },
         {
           "type": "paragraph",
-          "text": "---"
+          "text": "Обе формы верны, ошибкой не будет ни одна. А вот предлог менять нельзя: сезон — длинный отрезок времени, поэтому только `in` (разбирали в микротеме «Предлоги времени»)."
         },
         {
           "type": "heading",
-          "text": "Сезоны и месяцы — напоминание:"
+          "text": "Сезон и месяцы"
         },
         {
           "type": "table",
@@ -5798,35 +5843,46 @@
               "December · January · February"
             ]
           ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В южном полушарии сезоны перевёрнуты — в Австралии Рождество приходится на разгар лета, а июль там самый холодный месяц. Поэтому фраза **Christmas in summer** для австралийца — не шутка, а обычный декабрь."
+            }
+          ]
         }
       ],
-      "theorySummary": "spring / summer / autumn / fall / winter — строчными. Autumn (брит.) = fall (амер.). Предлог: in + сезон (in spring). В американском: in the spring тоже нормально.",
+      "theorySummary": "Четыре сезона — **spring**, **summer**, **autumn** (он же американский **fall**) и **winter** — всегда пишутся со строчной буквы, даже когда рядом стоят месяцы с заглавной. Предлог у сезона только `in`, а артикль необязателен: **in spring** (брит.) и **in the spring** (амер.) одинаково верны. Слова `autumn` и `fall` полностью равнозначны и различаются только страной: `fall` пришло от «падать» — время падающих листьев.",
       "examples": [
         {
-          "ru": "Я обожаю осень за её цвета.",
-          "en": "I love autumn for its colours."
+          "ru": "Осень в Праге очень красивая.",
+          "en": "Autumn in Prague is very beautiful."
         },
         {
-          "ru": "Летом мы ездим на море.",
-          "en": "In summer we go to the seaside."
+          "ru": "Летом мы на море.",
+          "en": "In summer we are at the seaside."
         },
         {
-          "ru": "Зимой в Москве очень холодно.",
-          "en": "It's very cold in Moscow in winter."
+          "ru": "Зимой в Иркутске очень холодно.",
+          "en": "It is very cold in Irkutsk in winter."
         },
         {
-          "ru": "Весной день становится длиннее.",
-          "en": "The days get longer in spring."
+          "ru": "Весной в парке много цветов.",
+          "en": "There are many flowers in the park in spring."
         },
         {
-          "ru": "Какое у тебя любимое время года?",
-          "en": "What's your favourite season?"
+          "ru": "Какое у тебя любимое время года? — Осень.",
+          "en": "What is your favourite season? — Autumn."
         }
       ],
       "clarificationOptions": [
-        "Почему предлог \"in\" а не \"on\" перед сезоном?",
-        "В каких странах осень называют \"fall\"?",
-        "Можно ли сказать \"in the winter\" с артиклем?"
+        "Почему сезон со строчной, если месяц рядом с большой?",
+        "Autumn и fall — можно ли говорить любое?",
+        "Нужен ли артикль в in the spring?"
       ]
     },
     {
@@ -12191,24 +12247,24 @@
     {
       "id": "basics_card36_ex1",
       "cardId": 36,
-      "title": "Дни недели в контексте",
-      "userInstruction": "AI даст предложения с пропусками. Вставь правильный предлог (on/at) или день недели.",
+      "title": "Какой это день",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите нужный день недели — в той форме, которой требует предложение.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
     {
       "id": "basics_card37_ex1",
       "cardId": 37,
-      "title": "Месяцы и предлоги",
-      "userInstruction": "AI даст предложения с пропусками. Вставь правильный предлог или месяц.",
+      "title": "Месяц и дата",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропуском и переводом. Впишите название месяца или число даты в нужной форме.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     },
     {
       "id": "basics_card38_ex1",
       "cardId": 38,
-      "title": "Любимый сезон",
-      "userInstruction": "AI задаст вопросы о сезонах. Отвечай по-английски. AI проверит правильность предлогов и заглавных букв.",
+      "title": "Расскажи про свой сезон",
+      "userInstruction": "ИИ задаст один вопрос про времена года. Ответьте на него по-английски одним-двумя предложениями.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     },
@@ -13394,7 +13450,7 @@
       "id": 120,
       "word": "October",
       "translation": "октябрь",
-      "transcription": "[ɒkˈtoʊbə]",
+      "transcription": "[ɒkˈtəʊbə]",
       "microtopicId": 15,
       "categoryId": "grammar_basics"
     },
@@ -13402,7 +13458,7 @@
       "id": 121,
       "word": "November",
       "translation": "ноябрь",
-      "transcription": "[noʊˈvembə]",
+      "transcription": "[nəʊˈvembə]",
       "microtopicId": 15,
       "categoryId": "grammar_basics"
     },
@@ -15294,32 +15350,32 @@
       "id": 26,
       "statements": [
         {
-          "en": "I always feel sleepy in winter.",
-          "ru": "Зимой мне всегда хочется спать.",
+          "en": "The evenings are warm in June and July.",
+          "ru": "В июне и июле вечера тёплые.",
           "isTrue": true
         },
         {
-          "en": "We go to the lake in Summer.",
-          "ru": "Летом мы ездим на озеро.",
+          "en": "We are at the lake in Summer.",
+          "ru": "Летом мы на озере.",
           "isTrue": false
         },
         {
-          "en": "The leaves turn yellow in autumn.",
-          "ru": "Осенью листья желтеют.",
+          "en": "There is a lot of snow here in winter.",
+          "ru": "Зимой здесь много снега.",
           "isTrue": true
         },
         {
-          "en": "She was born in the spring.",
-          "ru": "Она родилась весной.",
+          "en": "Her birthday is in the spring.",
+          "ru": "У неё день рождения весной.",
           "isTrue": true
         },
         {
-          "en": "They visit us on summer.",
-          "ru": "Летом они нас навещают.",
+          "en": "They are in Spain on summer.",
+          "ru": "Летом они в Испании.",
           "isTrue": false
         }
       ],
-      "explanation": "№2 — сезоны пишутся со строчной буквы: \"in summer\", не \"Summer\". №5 — предлог с сезонами \"in\", не \"on\": \"in summer\"."
+      "explanation": "Предл. 2: сезон пишется со строчной буквы — in summer. Предл. 5: с сезоном идёт предлог in, а не on. Предл. 4 верное: форма in the spring — американский вариант, он тоже правильный."
     },
     {
       "id": 27,
@@ -16221,21 +16277,23 @@
     },
     {
       "id": 27,
-      "situationRu": "Ситуация: День рождения Иры — третье апреля.",
-      "correctSentence": "Ira's birthday is on the 3rd of April.",
+      "situationRu": "Ситуация: говоришь коллеге, когда у Ромы день рождения — двадцать первого августа.",
+      "correctSentence": "Roma's birthday is on the 21st of August.",
       "words": [
-        "Ira's birthday",
+        "Roma's birthday",
         "is",
         "on",
         "the",
-        "3rd",
-        "of April"
+        "21st",
+        "of August"
       ],
       "distractors": [
         "in",
-        "at"
+        "21",
+        "of august",
+        "are"
       ],
-      "explanation": "конкретная дата → on. \"On the 3rd of April\" — стандартная британская форма записи даты."
+      "explanation": "В британской записи даты идёт the + порядковое число + of + месяц: the 21st of August. Обычное число 21 без порядкового хвоста в дате не годится, месяц пишется с большой буквы, а к слову birthday нужен is, а не are."
     },
     {
       "id": 28,
@@ -18374,191 +18432,191 @@
     {
       "id": 35,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Встреча состоится в четверг.",
+      "prompt": "Собрание в четверг.",
       "contextRu": "",
       "options": [
         {
-          "text": "The meeting will take place in Thursday.",
-          "isCorrect": false
-        },
-        {
-          "text": "The meeting will take place on Thursday.",
+          "text": "The meeting is on Thursday.",
           "isCorrect": true
         },
         {
-          "text": "The meeting will take place at Thursday.",
+          "text": "The meeting is on thursday.",
+          "isCorrect": false
+        },
+        {
+          "text": "The meeting is on Thusday.",
           "isCorrect": false
         }
       ],
-      "explanation": "день недели → предлог on. По-русски \"в четверг\" — но в английском это on, не in."
+      "explanation": "День недели всегда с большой буквы, а в слове Thursday после Thur идёт s: Thursday. Написание Thusday — потерянная буква r."
     },
     {
       "id": 36,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "По понедельникам я работаю из дома.",
+      "prompt": "По понедельникам Ира дома.",
       "contextRu": "",
       "options": [
         {
-          "text": "I work from home on Mondays.",
+          "text": "Ira is at home on Monday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ira is at home in Mondays.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ira is at home on Mondays.",
           "isCorrect": true
-        },
-        {
-          "text": "I work from home in Mondays.",
-          "isCorrect": false
-        },
-        {
-          "text": "I work from home at Monday.",
-          "isCorrect": false
         }
       ],
-      "explanation": "\"каждый понедельник\" = on Mondays (с -s). Предлог on. in и at с днями недели — ошибка."
+      "explanation": "«По понедельникам» — это каждый понедельник, поэтому день стоит во множественном числе: on Mondays. Форма on Monday говорит про один конкретный понедельник, а предлог in с днями не используется."
     },
     {
       "id": 37,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Что ты делаешь в эти выходные?",
+      "prompt": "На выходных Соня у бабушки в деревне.",
       "contextRu": "",
       "options": [
         {
-          "text": "What are you doing at the weekend?",
+          "text": "Sonya is at her grandmother's in the village in the weekend.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sonya is at her grandmother's in the village at the weekend.",
           "isCorrect": true
         },
         {
-          "text": "What are you doing in the weekend?",
-          "isCorrect": false
-        },
-        {
-          "text": "What are you doing on a weekend?",
+          "text": "Sonya is at her grandmother's in the village on a weekend.",
           "isCorrect": false
         }
       ],
-      "explanation": "\"at the weekend\" — устойчивая британская фраза. \"on the weekend\" тоже корректно в американском. \"in the weekend\" — ошибка."
+      "explanation": "Про выходные говорят at the weekend (брит.) или on the weekend (амер.). Вариант in the weekend — ошибка, а on a weekend с артиклем a значит «в какие-то неопределённые выходные» и в этой фразе не годится."
     },
     {
       "id": 43,
       "choiceType": "CHOICE",
-      "prompt": "I was born ___ October.",
-      "contextRu": "в октябре",
+      "prompt": "Her birthday is on the ___ of April.",
+      "contextRu": "",
       "options": [
         {
-          "text": "at",
+          "text": "three",
           "isCorrect": false
         },
         {
-          "text": "on",
-          "isCorrect": false
-        },
-        {
-          "text": "in",
+          "text": "third",
           "isCorrect": true
+        },
+        {
+          "text": "thirdth",
+          "isCorrect": false
         }
       ],
-      "explanation": "месяц как период времени → in. \"In October\" = в октябре."
+      "explanation": "Число в дате стоит в порядковой форме — third. Three — это обычное «три», а формы thirdth в языке нет вовсе."
     },
     {
       "id": 44,
       "choiceType": "CHOICE",
-      "prompt": "The festival is ___ the 3rd of September.",
-      "contextRu": "третьего сентября",
+      "prompt": "Our trip is in ___.",
+      "contextRu": "",
       "options": [
         {
-          "text": "in",
+          "text": "september",
           "isCorrect": false
         },
         {
-          "text": "on",
+          "text": "Septmber",
+          "isCorrect": false
+        },
+        {
+          "text": "September",
           "isCorrect": true
-        },
-        {
-          "text": "at",
-          "isCorrect": false
         }
       ],
-      "explanation": "конкретная дата → on. \"On the 3rd of September\". Когда есть число — только on."
+      "explanation": "Месяц всегда с большой буквы, а внутри слова после Sept идёт -ember: September."
     },
     {
       "id": 45,
       "choiceType": "CHOICE",
-      "prompt": "We're going on holiday ___ August.",
-      "contextRu": "в августе",
+      "prompt": "The shortest month of the year is ___.",
+      "contextRu": "",
       "options": [
         {
-          "text": "in",
+          "text": "February",
           "isCorrect": true
         },
         {
-          "text": "on",
+          "text": "Febuary",
           "isCorrect": false
         },
         {
-          "text": "at",
+          "text": "Febrary",
           "isCorrect": false
         }
       ],
-      "explanation": "месяц без конкретного числа → in. \"In August\"."
+      "explanation": "Самый короткий месяц — February. На письме сохраняются оба r, хотя первое из них в речи почти не слышно."
     },
     {
       "id": 38,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Весной часто идут дожди.",
+      "prompt": "Весной здесь много дождей.",
       "contextRu": "",
       "options": [
         {
-          "text": "It often rains on spring.",
+          "text": "There is a lot of rain here on spring.",
           "isCorrect": false
         },
         {
-          "text": "It often rains in spring.",
+          "text": "There is a lot of rain here in spring.",
           "isCorrect": true
         },
         {
-          "text": "It often rains at spring.",
+          "text": "There is a lot of rain here in Spring.",
           "isCorrect": false
         }
       ],
-      "explanation": "сезон → предлог in."
+      "explanation": "У сезона предлог in и строчная буква: in spring. Вариант on spring — калька с русского «на весну», в английском такого нет."
     },
     {
       "id": 39,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Осенью листья падают с деревьев.",
+      "prompt": "Моё любимое время года — осень.",
       "contextRu": "",
       "options": [
         {
-          "text": "In Autumn the leaves fall from the trees.",
-          "isCorrect": false
-        },
-        {
-          "text": "In autumn the leaves fall from the trees.",
+          "text": "My favourite season is autumn.",
           "isCorrect": true
         },
         {
-          "text": "On autumn the leaves fall from the trees.",
+          "text": "My favourite season is the autumn.",
+          "isCorrect": false
+        },
+        {
+          "text": "My favourite season is Fall.",
           "isCorrect": false
         }
       ],
-      "explanation": "autumn — строчная (не Autumn, кроме названий событий). Предлог in."
+      "explanation": "Осень — это autumn (брит.) или fall (амер.), но в обоих случаях со строчной буквы. Артикль the в этой фразе лишний: сезон здесь называют, а не указывают на конкретный."
     },
     {
       "id": 40,
       "choiceType": "FORWARD_CHOICE",
-      "prompt": "Летом солнце садится поздно.",
+      "prompt": "Июнь, июль и август — летние месяцы.",
       "contextRu": "",
       "options": [
         {
-          "text": "In summer the sun sets late.",
+          "text": "june, july and august are summer months.",
+          "isCorrect": false
+        },
+        {
+          "text": "June, July and August are Summer months.",
+          "isCorrect": false
+        },
+        {
+          "text": "June, July and August are summer months.",
           "isCorrect": true
-        },
-        {
-          "text": "In Summer the sun sets late.",
-          "isCorrect": false
-        },
-        {
-          "text": "On summer the sun sets late.",
-          "isCorrect": false
         }
       ],
-      "explanation": "summer — строчная. Предлог in."
+      "explanation": "В одном предложении сразу два правила: месяцы — собственные имена и пишутся с большой буквы, а сезон остаётся со строчной."
     },
     {
       "id": 41,
@@ -19791,60 +19849,30 @@
       "id": 17,
       "items": [
         {
-          "sentence": "I'll see you ___ Friday.",
+          "sentence": "Monday, Tuesday, ___, Thursday",
           "contextRu": "",
-          "answer": "on",
+          "answer": "Wednesday",
           "alternatives": []
         },
         {
-          "sentence": "She goes to the market ___ Sundays.",
+          "sentence": "Friday, Saturday, ___",
           "contextRu": "",
-          "answer": "on",
+          "answer": "Sunday",
           "alternatives": []
         },
         {
-          "sentence": "What do you usually do ___ the weekend?",
+          "sentence": "___, Friday, Saturday",
           "contextRu": "",
-          "answer": "at",
-          "alternatives": []
-        },
-        {
-          "sentence": "The game is ___ Saturday evening.",
-          "contextRu": "",
-          "answer": "on",
-          "alternatives": []
-        },
-        {
-          "sentence": "He never works ___ weekends.",
-          "contextRu": "",
-          "answer": "on",
+          "answer": "Thursday",
           "alternatives": []
         }
       ],
-      "explanation": "Дни недели и даты — всегда on. \"At the weekend\" — устойчивое выражение с at (брит.).",
-      "taskDescription": "Вставь правильный предлог (on / at):"
+      "explanation": "Между вторником и четвергом стоит Wednesday — буква d в середине пишется, хотя не читается. После субботы идёт Sunday, перед пятницей — Thursday. Все дни с большой буквы.",
+      "taskDescription": "Впиши пропущенный день недели."
     },
     {
       "id": 18,
       "items": [
-        {
-          "sentence": "Первый месяц года",
-          "contextRu": "",
-          "answer": "January",
-          "alternatives": []
-        },
-        {
-          "sentence": "Самый короткий месяц",
-          "contextRu": "",
-          "answer": "February",
-          "alternatives": []
-        },
-        {
-          "sentence": "Последний месяц года",
-          "contextRu": "",
-          "answer": "December",
-          "alternatives": []
-        },
         {
           "sentence": "Месяц после July",
           "contextRu": "",
@@ -19856,10 +19884,16 @@
           "contextRu": "",
           "answer": "May",
           "alternatives": []
+        },
+        {
+          "sentence": "Девятый месяц года",
+          "contextRu": "",
+          "answer": "September",
+          "alternatives": []
         }
       ],
-      "explanation": "January — первый месяц года, December — последний. February — самый короткий (28–29 дней). После July идёт August, перед June — May.",
-      "taskDescription": "Вставь правильный месяц:"
+      "explanation": "После июля идёт August, перед июнем — May (самое короткое название месяца), девятый по счёту — September. Все месяцы пишутся с большой буквы.",
+      "taskDescription": "Впиши название месяца."
     },
     {
       "id": 19,
@@ -20114,7 +20148,7 @@
       "lines": [
         {
           "speaker": "A",
-          "text": "What time of year do you prefer?"
+          "text": "What is the best season for you — summer or winter?"
         },
         {
           "speaker": "B",
@@ -20122,24 +20156,24 @@
         },
         {
           "speaker": "A",
-          "text": "Really? I prefer winter. I love snow."
+          "text": "Really? For me it is winter. I am happy when there is snow."
         }
       ],
       "options": [
         {
-          "text": "\"I like in summer. It's warm.\"",
+          "text": "For me it is a summer. It is warm and sunny.",
           "isCorrect": false
         },
         {
-          "text": "\"I prefer summer. It's warm and sunny.\"",
+          "text": "For me it is summer. It is warm and sunny.",
           "isCorrect": true
         },
         {
-          "text": "\"I like the Summer better.\"",
+          "text": "For me it is in summer. It is warm and sunny.",
           "isCorrect": false
         }
       ],
-      "explanation": "b — правильно: prefer + существительное (prefer summer), строчная буква. a — ошибка: \"like in summer\" — лишний \"in\". c — ошибка: заглавная Summer."
+      "explanation": "Когда сезон просто называют, он идёт без артикля и без предлога: it is summer. Предлог in нужен только в значении «летом» — in summer we are at the seaside."
     },
     {
       "id": 6,
@@ -20392,30 +20426,30 @@
     },
     {
       "id": 6,
-      "taskDescription": "соедини каждый день с русским переводом.",
+      "taskDescription": "соедини сокращение с полным названием дня.",
       "pairs": [
         {
-          "left": "Monday",
-          "right": "понедельник"
+          "left": "Mon",
+          "right": "Monday"
         },
         {
-          "left": "Wednesday",
-          "right": "среда"
+          "left": "Wed",
+          "right": "Wednesday"
         },
         {
-          "left": "Friday",
-          "right": "пятница"
+          "left": "Thu",
+          "right": "Thursday"
         },
         {
-          "left": "Saturday",
-          "right": "суббота"
+          "left": "Sat",
+          "right": "Saturday"
         },
         {
-          "left": "Sunday",
-          "right": "воскресенье"
+          "left": "Sun",
+          "right": "Sunday"
         }
       ],
-      "explanation": "Monday=понедельник, Wednesday=среда, Friday=пятница, Saturday=суббота, Sunday=воскресенье. Дни недели в английском всегда пишутся с заглавной буквы."
+      "explanation": "Сокращение берёт первые три буквы дня и сохраняет заглавную: Mon — Monday, Wed — Wednesday, Thu — Thursday, Sat — Saturday, Sun — Sunday."
     },
     {
       "id": 7,
@@ -20806,60 +20840,60 @@
     },
     {
       "id": 15,
-      "wrongSentence": "I love Summer — it's my favourite season.",
+      "wrongSentence": "In Summer the beaches are full of peoples.",
       "options": [
         {
-          "text": "I love Summer — it's my favourite season.",
+          "text": "In Summer the beaches are full of people.",
           "isCorrect": false
         },
         {
-          "text": "I love summer — it's my favourite season.",
+          "text": "In summer the beaches are full of people.",
           "isCorrect": true
         },
         {
-          "text": "I love a summer — it's my favourite season.",
+          "text": "In the Summer the beaches are full of people.",
           "isCorrect": false
         }
       ],
-      "explanation": "Сезоны пишутся со строчной буквы: summer, not Summer (если это не название мероприятия типа \"The Summer Olympics\")."
+      "explanation": "Сезон пишется со строчной буквы: summer. Слово people уже множественное число, поэтому -s ему не нужно."
     },
     {
       "id": 16,
-      "wrongSentence": "We always go skiing on winter.",
+      "wrongSentence": "The mountains are beautiful on winter.",
       "options": [
         {
-          "text": "We always go skiing on winter.",
+          "text": "The mountains are beautiful at winter.",
           "isCorrect": false
         },
         {
-          "text": "We always go skiing in winter.",
+          "text": "The mountains are beautiful in a winter.",
+          "isCorrect": false
+        },
+        {
+          "text": "The mountains are beautiful in winter.",
           "isCorrect": true
-        },
-        {
-          "text": "We always go skiing at winter.",
-          "isCorrect": false
         }
       ],
-      "explanation": "Времена года → предлог in. \"In winter\" — единственный правильный вариант."
+      "explanation": "Сезон — длинный отрезок времени, поэтому предлог только in. Артикль a перед сезоном не ставится: возможен либо in winter, либо американское in the winter."
     },
     {
       "id": 17,
-      "wrongSentence": "At autumn the leaves turn red.",
+      "wrongSentence": "On autumn the park is full of children.",
       "options": [
         {
-          "text": "At autumn the leaves turn red.",
-          "isCorrect": false
-        },
-        {
-          "text": "On autumn the leaves turn red.",
-          "isCorrect": false
-        },
-        {
-          "text": "In autumn the leaves turn red.",
+          "text": "In autumn the park is full of children.",
           "isCorrect": true
+        },
+        {
+          "text": "At autumn the park is full of children.",
+          "isCorrect": false
+        },
+        {
+          "text": "In the Autumn the park is full of children.",
+          "isCorrect": false
         }
       ],
-      "explanation": "in autumn — единственный правильный предлог для сезонов. at и on с сезонами не используются."
+      "explanation": "С сезонами работает только предлог in, а само слово autumn пишется со строчной буквы — даже с артиклем the."
     },
     {
       "id": 18,
@@ -21381,22 +21415,22 @@
     },
     {
       "id": 3,
-      "taskDescription": "сделай отрицание (Present Simple)",
+      "taskDescription": "перепиши предложение так, чтобы речь шла про каждый такой день",
       "items": [
         {
-          "original": "She works on Saturdays.",
-          "transformed": "She doesn't work on Saturdays."
+          "original": "The market is here on Saturday.",
+          "transformed": "The market is here on Saturdays."
         },
         {
-          "original": "They have classes on Wednesdays.",
-          "transformed": "They don't have classes on Wednesdays."
+          "original": "Lena is at the pool on Tuesday.",
+          "transformed": "Lena is at the pool on Tuesdays."
         },
         {
-          "original": "He visits his parents on Sundays.",
-          "transformed": "He doesn't visit his parents on Sundays."
+          "original": "We have English on Friday.",
+          "transformed": "We have English on Fridays."
         }
       ],
-      "explanation": "Present Simple отрицание = don't / doesn't + V1 (инфинитив без to). She/he/it → doesn't. I/you/we/they → don't. Глагол возвращается в базовую форму: works → doesn't work."
+      "explanation": "Регулярность передаётся множественным числом дня: on Saturday — в эту субботу, on Saturdays — по субботам. Меняется только день, всё остальное в предложении остаётся на месте."
     },
     {
       "id": 4,
@@ -21660,7 +21694,7 @@
     },
     {
       "id": 5,
-      "taskDescription": "",
+      "taskDescription": "распредели месяцы по временам года",
       "categories": [
         {
           "title": "Spring",
@@ -21695,7 +21729,7 @@
           ]
         }
       ],
-      "explanation": "Spring (весна): March, April, May. Summer (лето): June, July, August. Autumn (осень): September, October, November. Winter (зима): December, January, February."
+      "explanation": "Весна — March, April, May. Лето — June, July, August. Осень — September, October, November. Зима — December, January, February. Обрати внимание: год начинается в середине зимы, поэтому январь и февраль оказываются в зимней колонке вместе с декабрём."
     },
     {
       "id": 6,
@@ -21918,30 +21952,30 @@
     },
     {
       "id": 6,
-      "groupDescription": "Три слова написаны правильно, одно — с ошибкой (строчная вместо заглавной)",
+      "groupDescription": "Три дня написаны правильно, один — с ошибкой",
       "items": [
         {
           "text": "Monday",
           "isOdd": false
         },
         {
-          "text": "tuesday",
+          "text": "Friday",
+          "isOdd": false
+        },
+        {
+          "text": "saturday",
           "isOdd": true
         },
         {
-          "text": "Wednesday",
-          "isOdd": false
-        },
-        {
-          "text": "Thursday",
+          "text": "Sunday",
           "isOdd": false
         }
       ],
-      "explanation": "Все дни недели пишутся с заглавной буквы. tuesday → Tuesday."
+      "explanation": "Дни недели — собственные имена, поэтому пишутся с большой буквы в любом месте предложения: saturday → Saturday."
     },
     {
       "id": 7,
-      "groupDescription": "Три слова написаны правильно, одно — с опечаткой",
+      "groupDescription": "Три дня написаны правильно, один — с опечаткой",
       "items": [
         {
           "text": "Wensday",
@@ -21952,7 +21986,7 @@
           "isOdd": false
         },
         {
-          "text": "Friday",
+          "text": "Thursday",
           "isOdd": false
         },
         {
@@ -21960,7 +21994,7 @@
           "isOdd": false
         }
       ],
-      "explanation": "Wednesday — не Wensday. Буква d в середине не читается, но пишется: Wed-nes-day."
+      "explanation": "Правильное написание — Wednesday. Буква d в середине не читается ([[ˈwenzdeɪ]]), но на письме остаётся обязательно."
     },
     {
       "id": 8,
