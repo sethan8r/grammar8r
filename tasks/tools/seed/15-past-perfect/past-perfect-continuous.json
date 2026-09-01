@@ -25,6 +25,13 @@
       "title": "What Is Past Perfect Continuous · Что такое Past Perfect Continuous",
       "order": 1,
       "searchKeywords": "зачем нужен had been, had been waiting, had been или was, сделал или делал по-английски, самое сложное время английского"
+    },
+    {
+      "id": 176,
+      "topicId": 28,
+      "title": "had been + -ing · Как собрать длительный перфект прошлого",
+      "order": 2,
+      "searchKeywords": "had being или had been, d been это had или would, how long had you been, hadn't been отрицание, did you had been"
     }
   ],
   "grammar_cards": [
@@ -437,10 +444,471 @@
         "Если носители говорят так редко, зачем мне вообще эта форма?",
         "Почему нельзя сказать просто «вчера я читал» этой формой?"
       ]
+    },
+    {
+      "id": 462,
+      "microtopicId": 176,
+      "title": "Формула had been + V-ing",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Смысл разобран — дальше начинается приятная часть. Форма у этого времени длинная на вид, но собирается она из трёх кусочков, и все три нам уже попадались."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Had been + V-ing"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём по этажам. `had` — служебный маркер «до того момента»: ровно тот же, что в микротеме «Как собрать Past Perfect», и «иметь» он здесь снова не значит. `been` — деталь конструкции, а не глагол «был»: она стоит между помощником и действием, отдельно на русский не переводится, и мы уже видели её в микротеме «Как собрать длительный перфект». Последний этаж — `-ing`, он и отвечает за длительность. Уберите любой этаж, и форма рассыплется."
+        },
+        {
+          "type": "heading",
+          "text": "Одна форма на все лица — и никакого выбора"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот главный подарок этой темы. В длительном перфекте настоящего приходилось выбирать между `have` и `has`, оглядываясь на подлежащее. Здесь выбирать не из чего вообще:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Подлежащее",
+            "Форма",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "I / you / we / they",
+              "had been + V-ing",
+              "I had been waiting"
+            ],
+            [
+              "he / she / it",
+              "had been + V-ing",
+              "Vera had been waiting"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни развилки `have/has`, ни окончания `-s`, ни изменения по числам. Одна строчка на весь английский язык — проще, чем в Present Simple. По сравнению с русским это и вовсе роскошь: у нас «он **ждал**», «она **ждала**», «они **ждали**» — три разные формы там, где английскому хватает одной неизменной."
+        },
+        {
+          "type": "heading",
+          "text": "Как это выглядит в живых фразах"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Лена наконец услышала тишину в комнате: **She had been petting the cat for ten minutes, and it finally fell asleep.**",
+            "Ник объяснил, почему знает всех в очереди: **We had been sitting in the hall since eight.**",
+            "Гриша поднялся к соседям в пыли: **They had been fixing the roof all morning.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He had being working** ✗ → **he had been working** ✓. Между помощником и действием стоит `been`, а не `being`. Формы похожи только на вид: `being` — это форма с `-ing` от глагола `to be`, и в этой конструкции ей места нет."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I had been work** ✗ → **I had been working** ✓. Потерялся третий этаж. Без `-ing` от формы остаётся голый каркас, а длительность — как раз то, ради чего мы её и берём."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Два помощника в одном предложении не живут"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё две ошибки растут из одного корня — рука пытается подпереть конструкцию вторым служебным словом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was been working** ✗ — сюда прилетело `was` из длительного прошедшего. Но помощник в предложении один, и здесь это `had`.",
+            "**I had was working** ✗ — то же самое, только слова поменялись местами. Верно во всех случаях одинаково: **I had been working** ✓"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Три этажа и ни одного выбора — `had` для всех лиц, `been` без изменений, `-ing` на смысловом глаголе. Если что-то в форме пошло не так, проверяйте по очереди эти три кусочка: почти всегда один из них либо потерялся, либо подменился."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Форма собирается как `had been + V-ing`: `had` — маркер «до того момента», `been` — деталь конструкции (не «был», отдельно не переводится), `-ing` — длительность. Форма **одна на все лица**: `I had been waiting`, `Vera had been waiting` — ни выбора `have/has`, ни окончания `-s`. Главные ловушки: **had being** ✗ вместо **had been** ✓, потерянный `-ing` (**I had been work** ✗) и второй помощник в предложении (**I was been working** ✗).",
+      "examples": [
+        {
+          "ru": "Она гладила кота уже десять минут, и он наконец уснул.",
+          "en": "She had been petting the cat for ten minutes, and it finally fell asleep."
+        },
+        {
+          "ru": "Мы сидели в холле с восьми.",
+          "en": "We had been sitting in the hall since eight."
+        },
+        {
+          "ru": "Они всё утро чинили крышу.",
+          "en": "They had been fixing the roof all morning."
+        },
+        {
+          "ru": "Я ждал уже полчаса, когда пришло сообщение.",
+          "en": "I had been waiting for half an hour when the message came."
+        },
+        {
+          "ru": "Вера писала письмо всё утро.",
+          "en": "Vera had been writing the letter all morning."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему been нельзя заменить на being, если оба от одного глагола?",
+        "Зачем в форме вообще нужно been, если действие уже стоит с -ing?",
+        "Почему здесь нет выбора между had и has?"
+      ]
+    },
+    {
+      "id": 463,
+      "microtopicId": 176,
+      "title": "Сокращения и слух: I'd been, he'd been",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В живой речи `had` полностью почти не произносят: оно схлопывается в хвостик `'d` и приклеивается к подлежащему — **I'd been**, **you'd been**, **he'd been**, **we'd been**, **they'd been**. Именно так эта форма выглядит в книгах, субтитрах и переписке."
+        },
+        {
+          "type": "heading",
+          "text": "Ключ, который снимает всю путаницу"
+        },
+        {
+          "type": "paragraph",
+          "text": "В микротеме «Как собрать Past Perfect» мы разбирали неприятность: `'d` — это и `had`, и `would`, и на слух они не различаются. Здесь этой неприятности **нет вообще**, и вот почему:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "за `'d` идёт `been` → это всегда `had`;",
+            "сочетания `would been` в английском не существует — после `would` стоит первая форма глагола, а не `been`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому **He'd been waiting outside** читается однозначно, гадать не нужно. Сравните пару:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He'd been waiting outside.** — он ждал снаружи, и ждал уже какое-то время.",
+            "**He'd wait outside.** — он подождал бы снаружи."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница видна по одному-единственному слову следом за хвостиком."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание сокращается тоже"
+        },
+        {
+          "type": "paragraph",
+          "text": "`had not been` в речи почти всегда звучит как `hadn't been`: **I hadn't been sleeping well that week.** Полную форму берегут для нажима, когда человек подчёркивает, что этого **не** было."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский теряет опору дважды"
+        },
+        {
+          "type": "paragraph",
+          "text": "Скажем честно: в беглой речи от конструкции остаётся очень мало. Хвостик `'d` — самый незаметный звук в предложении, а безударное `been` носитель проговаривает коротким [[bɪn]], почти проглатывая. В итоге **he'd been working** сливается примерно в [[hiːdbɪn ˈwɜːkɪŋ]], и ухо русского слышит знакомое **he working** — то есть не слышит ни помощника, ни `been`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Нам это на самом деле знакомо: по-русски «сейчас» превращается в «щас», и никто не переспрашивает — слушатель достраивает слово сам. Разница в том, что там автомат родной, а здесь его пока нет."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Потерянное на слух почти всегда переезжает на письмо. Не расслышал — не записал — и получилось **he was working** вместо **he'd been working**, а вместе с помощником пропала и привязка к моменту в прошлом."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В живой речи `had` схлопывается в `'d`: **I'd been**, **he'd been**, **they'd been**. Путаницы с `would` здесь нет — сочетания `would been` в языке не существует, поэтому перед `been` хвостик `'d` это **всегда** `had` (**He'd been waiting outside** — ждал; **He'd wait outside** — подождал бы). Отрицание тоже сокращается: `hadn't been`. На слух `'d` и безударное `been` проглатываются почти полностью, поэтому в беглой речи легко услышать **he working** вместо **he'd been working**.",
+      "examples": [
+        {
+          "ru": "Он ждал снаружи уже какое-то время.",
+          "en": "He'd been waiting outside."
+        },
+        {
+          "ru": "Он подождал бы снаружи.",
+          "en": "He'd wait outside."
+        },
+        {
+          "ru": "На той неделе я плохо спал.",
+          "en": "I hadn't been sleeping well that week."
+        },
+        {
+          "ru": "Мы искали эту книгу несколько месяцев.",
+          "en": "We'd been looking for that book for months."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять на слух, сказали he was working или he'd been working?",
+        "Почему после would не может стоять been?",
+        "Когда пишут had not been полностью, а не hadn't been?"
+      ]
+    },
+    {
+      "id": 464,
+      "microtopicId": 176,
+      "title": "Отрицание и вопрос",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Ни одного нового слова здесь не понадобится: всю работу снова делает `had`. Он служебный — значит, он берёт на себя `not` и он же выходит вперёд в вопросе. Остальные два этажа формы остаются нетронутыми."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Hadn't been + V-ing"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I hadn't been sleeping well before the trip.** — до поездки со сном было плохо.",
+            "**The lights were off — nobody had been working in the hall.** — в холле никто не работал."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос: had выходит вперёд"
+        },
+        {
+          "type": "paragraph",
+          "text": "В вопросе `had` встаёт перед подлежащим, а `been` и `-ing` остаются на месте:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Had you been waiting long?**",
+            "**Had they been living there before the fire?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Краткие ответы строятся на том же помощнике: **Yes, I had.** / **No, I hadn't.** Повторять всю конструкцию не нужно — англичанину достаточно первого слова."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос: Hadn't you been…?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Такой вопрос задают, когда ожидали обратного и слегка удивлены: **Hadn't you been looking for a job?** — «Разве ты не искал работу?» По-русски это наше «разве не…?», с тем же оттенком: я был уверен, что да."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Hadn't she been breathing normally before that?** — неужели с дыханием было плохо и раньше?",
+            "**Hadn't they been petting the dog all evening?** — разве не они весь вечер с ним возились?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Главный вопрос этого времени"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чаще всего эта форма попадается именно в вопросе про срок — **How long had you been…?**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How long had you been waiting when the bus finally came?**",
+            "**How long had they been living in that flat before they sold it?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Спрашиваем не «что случилось», а «сколько времени это уже длилось **к тому моменту**». Именно поэтому рядом почти всегда названа точка — **when the bus came**, **before they sold it**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Did you had been waiting?** ✗ → **Had you been waiting?** ✓. Рука зовёт `did`, потому что речь о прошлом. Но помощник в предложении один, и он здесь уже есть — это `had`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Had you been wait?** ✗ и **Were you been waiting?** ✗. В первом случае глагол потерял `-ing`, во втором вперёд вышло `were` вместо помощника. Верно в обоих: **Had you been waiting?** ✓"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Отрицание и вопрос держит сам `had`: `hadn't been + V-ing` (**I hadn't been sleeping well**), а в вопросе `had` выходит вперёд подлежащего (**Had you been waiting long?**); краткие ответы — **Yes, I had** / **No, I hadn't**. Отрицательный вопрос **Hadn't you been looking for a job?** = наше «разве не искал?». Главный вопрос этого времени — про срок: **How long had you been waiting when the bus came?** Ловушки: **Did you had been…** ✗ (второй помощник не нужен), **Had you been wait?** ✗ (потерялось `-ing`) и **Were you been waiting?** ✗.",
+      "examples": [
+        {
+          "ru": "До поездки я плохо спал.",
+          "en": "I hadn't been sleeping well before the trip."
+        },
+        {
+          "ru": "Ты долго ждал?",
+          "en": "Had you been waiting long?"
+        },
+        {
+          "ru": "Разве ты не искал работу?",
+          "en": "Hadn't you been looking for a job?"
+        },
+        {
+          "ru": "Сколько ты уже ждал, когда наконец пришёл автобус?",
+          "en": "How long had you been waiting when the bus finally came?"
+        },
+        {
+          "ru": "Нет, недолго.",
+          "en": "No, I hadn't."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя спросить Did you had been, если речь о прошлом?",
+        "Чем отрицательный вопрос отличается от обычного по смыслу?",
+        "Как коротко ответить на такой вопрос, не повторяя всю конструкцию?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 462,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 182,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 462,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 180,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 462,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 38,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 462,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 162,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 463,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 53,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 463,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 100,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 463,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 61,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 464,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 166,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 464,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 74,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 464,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 207,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 464,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 86,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "past_perfect_continuous_card464_ex1",
+      "cardId": 464,
+      "title": "Вопрос и отрицание",
+      "userInstruction": "ИИ пришлёт английское утверждение. Перепишите его два раза: вопросом и отрицанием.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "tenses",
@@ -457,17 +925,322 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "course_words": [
+    {
+      "id": 716,
+      "word": "to breathe",
+      "translation": "дышать",
+      "transcription": "[briːð]",
+      "microtopicId": 176,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 717,
+      "word": "pet",
+      "translation": "питомец, домашнее животное, гладить",
+      "transcription": "[pet]",
+      "microtopicId": 176,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 718,
+      "word": "hall",
+      "translation": "холл, зал, коридор",
+      "transcription": "[hɔːl]",
+      "microtopicId": 176,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 719,
+      "word": "roof",
+      "translation": "крыша",
+      "transcription": "[ruːf]",
+      "microtopicId": 176,
+      "categoryId": "tenses"
+    }
+  ],
+  "table_fill_exercises": [
+    {
+      "id": 38,
+      "taskDescription": "собери длительную форму прошлого из подлежащего и глагола.",
+      "rows": [
+        {
+          "hint": "Kate + to cook",
+          "answer": "Kate had been cooking"
+        },
+        {
+          "hint": "I + to wait",
+          "answer": "I had been waiting"
+        },
+        {
+          "hint": "they + to argue",
+          "answer": "they had been arguing"
+        },
+        {
+          "hint": "Tom + to drive",
+          "answer": "Tom had been driving"
+        },
+        {
+          "hint": "we + to study",
+          "answer": "we had been studying"
+        }
+      ],
+      "explanation": "Форма не зависит от лица: had been одинаково для всех, меняется только смысловой глагол — к нему добавляется -ing."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 180,
+      "statements": [
+        {
+          "en": "Emma had being cooking dinner when I came in.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We had been cleaning the kitchen all morning.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He had been breathe heavily after the race.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They had been talking on the phone for an hour.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I was been washing the dishes.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "Форма собирается только так: had + been + глагол с -ing. В первой строке been подменили на being, в третьей у глагола пропало -ing, в пятой прилетел второй помощник was — а помощник в предложении один."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 162,
+      "situationRu": "Ситуация: Ник объясняет, почему опоздал на встречу.",
+      "correctSentence": "He had been looking for his keys.",
+      "words": [
+        "He",
+        "had",
+        "been",
+        "looking",
+        "for",
+        "his",
+        "keys"
+      ],
+      "distractors": [
+        "being",
+        "was",
+        "looked",
+        "look"
+      ],
+      "explanation": "Форма собирается из трёх кусочков: had, been и глагол с -ing. Ни being вместо been, ни второй помощник was в неё не встают, а формы looked и look теряют длительность."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 182,
+      "choiceType": "CHOICE",
+      "prompt": "The kids ___ playing in the garden since lunch.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "had being",
+          "isCorrect": false
+        },
+        {
+          "text": "had been",
+          "isCorrect": true
+        },
+        {
+          "text": "has been",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Между помощником и действием стоит been, а не being. Форма has been отсчитывала бы срок до сейчас, а здесь речь о моменте в прошлом — нужен had."
+    },
+    {
+      "id": 207,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Разве ты не ждал нас в холле?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Didn't you been waiting for us in the hall?",
+          "isCorrect": false
+        },
+        {
+          "text": "Hadn't you been waiting for us in the hall?",
+          "isCorrect": true
+        },
+        {
+          "text": "Hadn't you waiting for us in the hall?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«Разве не…?» — отрицательный вопрос: hadn't выходит вперёд подлежащего, а за ним идут been и глагол с -ing."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 86,
+      "items": [
+        {
+          "sentence": "— Had he been running? — Yes, he ___.",
+          "contextRu": "",
+          "answer": "had",
+          "alternatives": []
+        },
+        {
+          "sentence": "— Had she been working late? — No, she ___.",
+          "contextRu": "",
+          "answer": "hadn't",
+          "alternatives": []
+        },
+        {
+          "sentence": "— Had the neighbours been shouting? — Yes, they ___.",
+          "contextRu": "",
+          "answer": "had",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Короткий ответ строится на помощнике: Yes, they had / No, she hadn't. Повторять been и сам глагол не нужно.",
+      "taskDescription": "Впиши недостающее слово в короткий ответ."
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 61,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why were Jack's hands so dirty?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Then no wonder he was so tired."
+        }
+      ],
+      "options": [
+        {
+          "text": "He'd fix his bike.",
+          "isCorrect": false
+        },
+        {
+          "text": "He'd been fix his bike.",
+          "isCorrect": false
+        },
+        {
+          "text": "He'd been fixing his bike.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Грязные руки объясняются занятием, которое тянулось до этого момента: 'd been плюс глагол с -ing. Без -ing форма разваливается, а he'd fix — это «он бы починил»."
+    }
+  ],
   "matching_exercises": [],
-  "error_correction_exercises": [],
-  "construction_meaning_exercises": [],
-  "transformation_exercises": [],
-  "categorization_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 166,
+      "wrongSentence": "Did they had been waiting for the taxi?",
+      "options": [
+        {
+          "text": "Had they been waiting for the taxi?",
+          "isCorrect": true
+        },
+        {
+          "text": "Had they been wait for the taxi?",
+          "isCorrect": false
+        },
+        {
+          "text": "Did they been waiting for the taxi?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Помощник в предложении один. Раз в конструкции уже есть had, звать did не нужно — had сам выходит вперёд подлежащего, а глагол остаётся с -ing."
+    }
+  ],
+  "construction_meaning_exercises": [
+    {
+      "id": 53,
+      "construction": "They'd been arguing since lunch.",
+      "options": [
+        {
+          "text": "Они поспорили бы после обеда.",
+          "isCorrect": false
+        },
+        {
+          "text": "Они спорят прямо сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Они спорили с самого обеда.",
+          "isCorrect": true
+        },
+        {
+          "text": "Им пришлось поспорить после обеда.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После 'd стоит been — значит, за хвостиком прячется had, и речь о споре, который тянулся с обеда. Вариант «бы» дало бы would с первой формой: they'd argue."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 74,
+      "taskDescription": "сделай каждое предложение отрицательным.",
+      "items": [
+        {
+          "original": "She had been reading in bed.",
+          "transformed": "She hadn't been reading in bed."
+        },
+        {
+          "original": "We had been living there.",
+          "transformed": "We hadn't been living there."
+        },
+        {
+          "original": "Tom had been telling the truth.",
+          "transformed": "Tom hadn't been telling the truth."
+        }
+      ],
+      "explanation": "Отрицание приклеивается к помощнику: had + not = hadn't. Остальные два кусочка формы — been и глагол с -ing — не меняются."
+    }
+  ],
+  "categorization_exercises": [
+    {
+      "id": 100,
+      "taskDescription": "распредели фразы по тому, что скрывается за 'd.",
+      "categories": [
+        {
+          "title": "'d = had",
+          "items": [
+            "We'd been sitting there",
+            "She'd been crying",
+            "I'd been thinking"
+          ]
+        },
+        {
+          "title": "'d = would",
+          "items": [
+            "We'd sit there",
+            "She'd cry",
+            "I'd think"
+          ]
+        }
+      ],
+      "explanation": "Решает слово следом за хвостиком: been бывает только после had, а would требует первую форму глагола — sit, cry, think."
+    }
+  ],
   "find_the_odd_exercises": []
 }
