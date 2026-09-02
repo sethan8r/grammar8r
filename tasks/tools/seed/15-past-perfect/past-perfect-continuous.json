@@ -32,6 +32,13 @@
       "title": "had been + -ing · Как собрать длительный перфект прошлого",
       "order": 2,
       "searchKeywords": "had being или had been, d been это had или would, how long had you been, hadn't been отрицание, did you had been"
+    },
+    {
+      "id": 177,
+      "topicId": 28,
+      "title": "Until That Moment · Что тянулось до того момента",
+      "order": 3,
+      "searchKeywords": "was waiting или had been waiting, had been waiting when he arrived, had been doing после because, длинная форма только у одного глагола, объяснить состояние в прошлом"
     }
   ],
   "grammar_cards": [
@@ -829,6 +836,325 @@
         "Чем отрицательный вопрос отличается от обычного по смыслу?",
         "Как коротко ответить на такой вопрос, не повторяя всю конструкцию?"
       ]
+    },
+    {
+      "id": 465,
+      "microtopicId": 177,
+      "title": "Тянулся и не кончился",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форма собрана — пора посмотреть, где она работает. Половин у неё две, и первая самая наглядная: **процесс шёл и к нужному моменту ещё не кончился**. Он не завершился, не дал результата, он просто длился — и в тот самый момент, о котором идёт рассказ, всё ещё продолжался."
+        },
+        {
+          "type": "heading",
+          "text": "Отрезок упирается в точку"
+        },
+        {
+          "type": "paragraph",
+          "text": "В любой такой фразе живут две вещи. Первая — **точка**: короткое событие в прошлом, кадр, с которого мы смотрим. Вторая — **отрезок**: то, что тянулось до этого кадра и в него упёрлось. Точка рассказывается обычным прошедшим, отрезок одевается в длинную форму."
+        },
+        {
+          "type": "paragraph",
+          "text": "Три сцены, и в каждой видно обе части:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Lucy had been waiting outside the clinic for an hour and was losing her patience when the doctor finally called her.** — точка: врач позвал. Отрезок: час ожидания, который в этот момент никуда не делся.",
+            "**We had been driving through the mountains since morning when the storm caught us.** — точка: началась буря. Отрезок: дорога с самого утра, и она продолжалась.",
+            "**They had been living in Lisbon for ten years before they moved to Vienna.** — точка: переезд. Отрезок: десять лет жизни в городе, которые упёрлись в этот переезд."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В первой сцене хорошо видно, почему форма вообще нужна: терпение не кончается мгновенно, оно тратится по ходу — а значит, и ожидание, и его исход держатся на одном и том же отрезке. По-русски мы говорим «ждала **уже** час», и это «уже» и есть наш единственный намёк на отрезок."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отрезок в had been + V-ing · точка в Past Simple"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверка в три шага"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда сомневаетесь, брать ли форму, прогоните фразу по трём вопросам подряд:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Есть ли в прошлом **точка** — событие, момент, названный срок?",
+            "Есть ли к ней **процесс**, который тянулся какое-то время?",
+            "Если да и да — процесс уходит в `had been + -ing`, а точка остаётся в простом прошедшем."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Не нашли точку — форма не нужна, об этом мы говорили в микротеме «Что такое Past Perfect Continuous». Не нашли процесс — тоже не нужна, там работает `had + V3`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Длинную форму получает **только один** глагол из двух. **When the doctor called, Lucy had been waiting for an hour** ✓ → **When the doctor had been calling, Lucy had been waiting for an hour** ✗. Если оба глагола превратить в отрезки, прислонять станет не к чему: были кадр и вставка, а осталась одна сплошная вставка без сцены."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Sam was waiting for two hours when Megan came** ✗ → **Sam had been waiting for two hours when Megan came** ✓. Длительное прошедшее сообщает только «в тот момент шло», а вопрос «сколько уже длилось **к** этому моменту» оно не закрывает. Русский эту разницу не различает никак — «ждал два часа» звучит одинаково в обоих случаях, поэтому рука сама тянется к знакомому `was`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Длинная форма годится не для каждого глагола. Глаголы состояния (`to know`, `to want`, `to like`, `to believe`) в неё не идут — **She had been knowing him for years** ✗, нужно **She had known him for years** ✓. Разбор этой породы глаголов был в микротеме «Глаголы без Continuous»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отрезок и точка ходят парой. Один глагол показывает, что тянулось, второй — где это оборвали."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Первая половина смысла: процесс тянулся и к моменту в прошлом ещё **не кончился**. В такой фразе всегда есть точка (короткое событие) и отрезок (то, что до неё длилось): отрезок уходит в `had been + -ing`, точка остаётся в простом прошедшем — **They had been living in Lisbon for ten years before they moved to Vienna**. Проверка в три шага: есть точка? есть процесс? тогда процесс в длинную форму. Ловушки: длинную форму получают **оба** глагола ✗ (прислонять становится не к чему) и **Sam was waiting for two hours when Megan came** ✗ — длительное прошедшее не говорит, сколько уже длилось к этому моменту.",
+      "examples": [
+        {
+          "ru": "Люси ждала у клиники уже час и теряла терпение, когда врач наконец её позвал.",
+          "en": "Lucy had been waiting outside the clinic for an hour and was losing her patience when the doctor finally called her."
+        },
+        {
+          "ru": "Мы ехали через горы с самого утра, когда нас накрыла буря.",
+          "en": "We had been driving through the mountains since morning when the storm caught us."
+        },
+        {
+          "ru": "Они прожили в Лиссабоне десять лет, прежде чем переехали в Вену.",
+          "en": "They had been living in Lisbon for ten years before they moved to Vienna."
+        },
+        {
+          "ru": "Эмма рисовала весь вечер, когда к ней заглянула подруга.",
+          "en": "Emma had been drawing all evening when her friend dropped in."
+        },
+        {
+          "ru": "Мы стояли в очереди уже двадцать минут, когда открылась вторая касса.",
+          "en": "We had been standing in the queue for twenty minutes when the second desk opened."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, какое из двух действий длинное, а какое короткое?",
+        "Чем was waiting отличается от had been waiting, если оба про прошлое?",
+        "Что делать, если точки в предложении вообще нет?"
+      ]
+    },
+    {
+      "id": 466,
+      "microtopicId": 177,
+      "title": "Следы занятия в тот момент",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая половина смысла зеркальна первой. Процесс к нужному моменту уже **оборвался** — но по картинке в этот момент отлично видно, чем человек занимался. Мы не показываем занятие, мы показываем его следы."
+        },
+        {
+          "type": "heading",
+          "text": "Актёр вошёл в кадр прямо со съёмок"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомните образ темы. В кадре человек, которого мы видим впервые в этой сцене: он запыхался, у него мокрые волосы, в руках тряпка. Предыдущую сцену нам не показали — а всё равно понятно, что он там делал. Английский устроен так же: одно предложение описывает картину, второе объясняет её занятием."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Jake came in breathless — he had been running to catch the last bus.** — Джейк уже не бежит. Но он `breathless`, и это следствие бега.",
+            "**Kate was upset and there were tears in her eyes — she had been arguing with her brother all evening.** — ссора закончилась, а её следы — на лице.",
+            "**The tables were shining — Ben had been wiping them since six.** — Бен уже отложил тряпку, но по залу видно, чем он занимался с шести."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Во всех трёх сценах предложение разложено надвое: первая часть говорит, **что было видно** в тот момент, вторая — **чем это объясняется**. Само занятие к этому моменту уже закончилось, поэтому в первой части стоит обычное прошедшее, а длинную форму получает только объяснение."
+        },
+        {
+          "type": "heading",
+          "text": "Здесь живут because, so и that's why"
+        },
+        {
+          "type": "paragraph",
+          "text": "У этой половины есть любимое соседство — союзы причины. Форма почти всегда стоит рядом с ними, потому что её работа как раз и есть «почему в тот момент всё было именно так»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He couldn't focus at the meeting because he had been travelling all night.**",
+            "**Megan had been cleaning the flat all day, so she fell asleep at nine.**",
+            "**Her hands smelled of onions — that's why we guessed she had been cooking.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русский подпирает это костылями"
+        },
+        {
+          "type": "paragraph",
+          "text": "В родном языке форма молчит, поэтому связь приходится дописывать отдельными словами: «до этого», «перед этим», «как раз только что». Уберите их из русской фразы — и она развалится: «он был расстроен, потому что спорил с братом» звучит так, будто он спорил когда-то вообще, а не прямо перед этим. В английском эти слова исчезают, потому что их работу делает сама форма:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Русская фраза",
+            "Английская фраза"
+          ],
+          "rows": [
+            [
+              "Он был расстроен, потому что **до этого** спорил с братом",
+              "He was upset because he had been arguing with his brother"
+            ],
+            [
+              "Она устала — **перед этим** мыла окна всё утро",
+              "She was tired — she had been washing the windows all morning"
+            ],
+            [
+              "У неё дрожали руки: она **как раз только что** плакала",
+              "Her hands were shaking: she had been crying"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сам срок костылём не считается и никуда не девается — **всё утро** спокойно переезжает в **all morning**, а «два часа» в **for two hours**. Срок сообщает, **сколько** длилось, и нужен обоим языкам одинаково. Исчезают только слова о **порядке** — «до этого», «перед этим»: вот их английский держит формой, а не словами."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Итог или занятие — короткая развилка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе перфектные формы объясняют прошлое, но разными вещами. `had` + третья форма кладёт на стол **готовый результат**, `had been + -ing` — **занятие**, от которого осталась картинка:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He had read the report, so he knew the numbers.** — важен результат: отчёт прочитан, цифры в голове.",
+            "**He was tired because he had been reading all night.** — важно занятие: чем именно человек убил ночь."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это только первое знакомство с развилкой. Полное разведение `had done` и `had been doing`, со всеми пограничными случаями, ждёт нас отдельной микротемой ближе к концу темы — там разберём медленно и на большом количестве пар."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He was working all day, so he was tired** ✗ → **He had been working all day, so he was tired** ✓. Первый вариант грамматически возможен, но он просто ставит рядом два куска прошлого: работа шла где-то там, усталость случилась где-то тут. Привязки «работа тянулась вплотную к этому моменту и потому его объясняет» в нём нет."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сочетание `had been` с `-ing` встретится вам ещё дважды в курсе — в разговоре о нереальном прошлом (`if I had been sleeping`) и в пересказе чужих слов, где времена сдвигаются на шаг назад. Обе темы впереди, там и разберём; пока достаточно узнавать форму в тексте."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если в прошлом что-то выглядело определённым образом и вы объясняете, **чем человек был занят** до этого, — это ваша форма."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Вторая половина смысла: процесс к моменту в прошлом уже оборвался, но его следы в этот момент были видны — **Jake came in breathless — he had been running**; **Kate was upset — she had been arguing with her brother all evening**. Поэтому форма почти всегда живёт рядом с `because`, `so`, `that's why`: она отвечает на вопрос «почему в тот момент всё было именно так». Русский подпирает смысл словами «всё утро», «до этого долго» — в английском их работу делает форма. Коротко о развилке: `had` + третья форма даёт готовый итог (**He had read the report**), `had been + -ing` — занятие, от которого осталась картинка (**He had been reading all night**).",
+      "examples": [
+        {
+          "ru": "Джейк вошёл запыхавшийся — он бежал за последним автобусом.",
+          "en": "Jake came in breathless — he had been running to catch the last bus."
+        },
+        {
+          "ru": "Кейт была расстроена, в глазах стояли слёзы — она весь вечер ссорилась с братом.",
+          "en": "Kate was upset and there were tears in her eyes — she had been arguing with her brother all evening."
+        },
+        {
+          "ru": "Столы блестели — Бен протирал их с шести.",
+          "en": "The tables were shining — Ben had been wiping them since six."
+        },
+        {
+          "ru": "Он не мог сосредоточиться на встрече, потому что всю ночь был в дороге.",
+          "en": "He couldn't focus at the meeting because he had been travelling all night."
+        },
+        {
+          "ru": "Меган весь день убирала квартиру, поэтому уснула в девять.",
+          "en": "Megan had been cleaning the flat all day, so she fell asleep at nine."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что занятие уже кончилось, а не продолжается?",
+        "Почему рядом с этой формой так часто стоит because?",
+        "Чем had read отличается от had been reading в объяснении причины?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -897,6 +1223,66 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 86,
       "orderInCard": 3
+    },
+    {
+      "cardId": 465,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 208,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 465,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 181,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 465,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 163,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 465,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 75,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 465,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 87,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 466,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 68,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 466,
+      "exerciseType": "MATCHING",
+      "exerciseId": 71,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 466,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 167,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 466,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 86,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 466,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 164,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -907,6 +1293,22 @@
       "userInstruction": "ИИ пришлёт английское утверждение. Перепишите его два раза: вопросом и отрицанием.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "past_perfect_continuous_card465_ex1",
+      "cardId": 465,
+      "title": "Что тянулось до того момента",
+      "userInstruction": "ИИ пришлёт две русские фразы о прошлом. Соберите из них одно английское предложение.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "past_perfect_continuous_card466_ex1",
+      "cardId": 466,
+      "title": "Объясни, что было видно",
+      "userInstruction": "ИИ опишет, как что-то выглядело в прошлом. Объясните эту картину одним английским предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -956,6 +1358,46 @@
       "translation": "крыша",
       "transcription": "[ruːf]",
       "microtopicId": 176,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 720,
+      "word": "patience",
+      "translation": "терпение",
+      "transcription": "[ˈpeɪʃns]",
+      "microtopicId": 177,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 721,
+      "word": "breathless",
+      "translation": "запыхавшийся",
+      "transcription": "[ˈbreθləs]",
+      "microtopicId": 177,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 722,
+      "word": "upset",
+      "translation": "расстроенный, огорчённый",
+      "transcription": "[ʌpˈset]",
+      "microtopicId": 177,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 723,
+      "word": "tears",
+      "translation": "слёзы",
+      "transcription": "[tɪəz]",
+      "microtopicId": 177,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 724,
+      "word": "to wipe",
+      "translation": "вытирать, стирать",
+      "transcription": "[waɪp]",
+      "microtopicId": 177,
       "categoryId": "tenses"
     }
   ],
@@ -1019,6 +1461,37 @@
         }
       ],
       "explanation": "Форма собирается только так: had + been + глагол с -ing. В первой строке been подменили на being, в третьей у глагола пропало -ing, в пятой прилетел второй помощник was — а помощник в предложении один."
+    },
+    {
+      "id": 181,
+      "statements": [
+        {
+          "en": "They had been queuing outside the shop when it finally opened.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Ben had been living in Warsaw for six years before he moved.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We had been driving when the rain had been starting.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She had been waiting for an hour when the taxi arrived.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Lily had been sleeping when the alarm had rung.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "Длинную форму получает только тот глагол, который тянулся; короткое событие остаётся в простом прошедшем — the rain started, the alarm rang. В третьей и пятой строке в отрезок одели оба глагола, и точки, к которой всё это меряется, не осталось."
     }
   ],
   "word_arrangement_exercises": [
@@ -1042,6 +1515,48 @@
         "look"
       ],
       "explanation": "Форма собирается из трёх кусочков: had, been и глагол с -ing. Ни being вместо been, ни второй помощник was в неё не встают, а формы looked и look теряют длительность."
+    },
+    {
+      "id": 163,
+      "situationRu": "RU: Мы гуляли по парку уже час, когда начался дождь.",
+      "correctSentence": "We had been walking in the park for an hour when the rain started.",
+      "words": [
+        "We",
+        "had",
+        "been",
+        "walking",
+        "in the park",
+        "for an hour",
+        "when",
+        "the rain",
+        "started"
+      ],
+      "distractors": [
+        "were",
+        "walked",
+        "had started",
+        "since"
+      ],
+      "explanation": "Прогулка тянулась до дождя — она уходит в had been walking, а сам дождь это точка, и он остаётся простым started. Формы were и walked собирают другое время, а had started превратило бы в отрезок и второй глагол."
+    },
+    {
+      "id": 164,
+      "situationRu": "Ситуация: Паша объясняет, почему кухня была в муке.",
+      "correctSentence": "Megan had been baking bread all morning.",
+      "words": [
+        "Megan",
+        "had",
+        "been",
+        "baking",
+        "bread",
+        "all morning"
+      ],
+      "distractors": [
+        "was",
+        "baked",
+        "since"
+      ],
+      "explanation": "Мука на кухне это след занятия, которое тянулось всё утро: had been baking. Форма was собрала бы длительное прошедшее, а baked дало бы готовый итог вместо занятия."
     }
   ],
   "multiple_choice_exercises": [
@@ -1086,6 +1601,48 @@
         }
       ],
       "explanation": "«Разве не…?» — отрицательный вопрос: hadn't выходит вперёд подлежащего, а за ним идут been и глагол с -ing."
+    },
+    {
+      "id": 208,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Когда Меган позвонила, Сэм красил забор уже два часа.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "When Megan called, Sam was painting the fence for two hours.",
+          "isCorrect": false
+        },
+        {
+          "text": "When Megan called, Sam had been painting the fence for two hours.",
+          "isCorrect": true
+        },
+        {
+          "text": "When Megan called, Sam had painted the fence for two hours.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Покраска тянулась до звонка и на нём не кончилась — это отрезок, значит had been painting. Форма was painting не сообщает, сколько уже длилось к моменту звонка, а had painted говорила бы о готовом результате."
+    },
+    {
+      "id": 68,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "His shoes were covered in mud — he had been walking in the fields.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Он каждый день ходит по полям, поэтому обувь такая.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он собирался пойти прогуляться по полям.",
+          "isCorrect": false
+        },
+        {
+          "text": "До этого он долго ходил по полям — обувь это выдала.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Форма had been walking объясняет картину в прошлом занятием, которое к этому моменту уже закончилось: ходьба оставила след на обуви. О привычке говорил бы Present Simple, о намерении — конструкция будущего."
     }
   ],
   "text_input_exercises": [
@@ -1113,6 +1670,36 @@
       ],
       "explanation": "Короткий ответ строится на помощнике: Yes, they had / No, she hadn't. Повторять been и сам глагол не нужно.",
       "taskDescription": "Впиши недостающее слово в короткий ответ."
+    },
+    {
+      "id": 87,
+      "items": [
+        {
+          "sentence": "When the film started, we ___ in the queue for twenty minutes.",
+          "contextRu": "",
+          "answer": "had been waiting",
+          "alternatives": []
+        },
+        {
+          "sentence": "The cat was purring — Lily ___ it for ten minutes.",
+          "contextRu": "",
+          "answer": "had been petting",
+          "alternatives": []
+        },
+        {
+          "sentence": "They looked angry — they ___ about money all evening.",
+          "contextRu": "",
+          "answer": "had been arguing",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В каждом пропуске стоит занятие, которое тянулось до названного момента, поэтому форма везде одна: had been плюс глагол с -ing.",
+      "taskDescription": "Впиши подходящее по смыслу действие в форме Past Perfect Continuous.",
+      "wordBank": [
+        "спорили",
+        "гладила",
+        "ждали"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -1149,7 +1736,31 @@
       "explanation": "Грязные руки объясняются занятием, которое тянулось до этого момента: 'd been плюс глагол с -ing. Без -ing форма разваливается, а he'd fix — это «он бы починил»."
     }
   ],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 71,
+      "taskDescription": "соедини картину в прошлом с занятием, которое её объясняет.",
+      "pairs": [
+        {
+          "left": "Her eyes were tired",
+          "right": "She had been reading all night"
+        },
+        {
+          "left": "The floor was wet",
+          "right": "Lily had been washing it"
+        },
+        {
+          "left": "Megan smelled of smoke",
+          "right": "She had been sitting by the fire"
+        },
+        {
+          "left": "The bin was full of papers",
+          "right": "Ben had been cleaning his desk"
+        }
+      ],
+      "explanation": "В каждой паре первая часть описывает, что было видно в тот момент, а вторая называет занятие, которое этот вид оставило после себя."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 166,
@@ -1169,6 +1780,25 @@
         }
       ],
       "explanation": "Помощник в предложении один. Раз в конструкции уже есть had, звать did не нужно — had сам выходит вперёд подлежащего, а глагол остаётся с -ing."
+    },
+    {
+      "id": 167,
+      "wrongSentence": "The children were dirty because they had been play in the garden all day.",
+      "options": [
+        {
+          "text": "The children were dirty because they had been playing in the garden all day.",
+          "isCorrect": true
+        },
+        {
+          "text": "The children were dirty because they had been played in the garden all day.",
+          "isCorrect": false
+        },
+        {
+          "text": "The children were dirty because they was been playing in the garden all day.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После been смысловой глагол всегда стоит с -ing: had been playing. Форма с -ed соберёт другое время, а was рядом с had это второй помощник, которого в предложении быть не может."
     }
   ],
   "construction_meaning_exercises": [
@@ -1215,6 +1845,25 @@
         }
       ],
       "explanation": "Отрицание приклеивается к помощнику: had + not = hadn't. Остальные два кусочка формы — been и глагол с -ing — не меняются."
+    },
+    {
+      "id": 75,
+      "taskDescription": "перепиши каждое предложение так, чтобы действие стало отрезком до момента в прошлом.",
+      "items": [
+        {
+          "original": "Sam waited for two hours.",
+          "transformed": "Sam had been waiting for two hours."
+        },
+        {
+          "original": "They argued all evening.",
+          "transformed": "They had been arguing all evening."
+        },
+        {
+          "original": "We searched for hours.",
+          "transformed": "We had been searching for hours."
+        }
+      ],
+      "explanation": "Отрезок собирается одинаково: had + been + глагол с -ing. Само подлежащее и хвост предложения при этом не меняются — форма одна на все лица."
     }
   ],
   "categorization_exercises": [
@@ -1242,5 +1891,29 @@
       "explanation": "Решает слово следом за хвостиком: been бывает только после had, а would требует первую форму глагола — sit, cry, think."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 86,
+      "groupDescription": "Три предложения объясняют картину занятием, которое тянулось до того момента, а одно — нет",
+      "items": [
+        {
+          "text": "Nick was nervous — he had been waiting for the results all day.",
+          "isOdd": false
+        },
+        {
+          "text": "Ben was tired — he had been carrying boxes all day.",
+          "isOdd": false
+        },
+        {
+          "text": "Kate was happy — she had passed her exam.",
+          "isOdd": true
+        },
+        {
+          "text": "Emma's fingers were blue — she had been painting since lunch.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В третьем предложении причина это готовый результат — экзамен сдан, и форма там had плюс третья форма. В остальных объяснение даёт занятие, от которого осталась картинка."
+    }
+  ]
 }

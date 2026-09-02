@@ -3703,7 +3703,7 @@ theory/
 │       │       AI: «Вопрос и отрицание» (ИИ даёт утверждение в Past Perfect Continuous → юзер
 │       │       переписывает его вопросом и отрицанием, FREE_WRITE, NONE).
 │       │
-│       ├── МТ177 · Until That Moment · Что тянулось до того момента (2 карточки) ← сердце темы
+│       ├── МТ177 · Until That Moment · Что тянулось до того момента (2 карточки) ✅ (написана, ALL GREEN 02.09.26) ← сердце темы
 │       │   ├── Card 465 · Первая половина оси: процесс шёл и НЕ кончился к моменту. She had been
 │       │   │   waiting for two hours when he finally arrived · We had been driving since morning when
 │       │   │   the car broke down · They had been living in Prague for ten years before they moved.
@@ -4053,6 +4053,10 @@ theory/
 │   │   как русское «если бы у меня БЫЛО» (тоже прошедшая форма про настоящее!). Совпадение с русским
 │   │   полное — на нём и строить карточку. Ловушка: «If I will have more money» ✗.
 │   ├── Third Conditional — нереальное прошлое: if + Past Perfect → would have + V3
+│   │   ⬅️ ДОЛГ ИЗ Past Perfect Continuous (МТ177, Card 466, обещано плашкой): пользователю сказано,
+│   │   что `had been + -ing` встретится ещё раз в разговоре о нереальном прошлом (`if I had been
+│   │   sleeping, I wouldn't have heard him`). Обещание закрыть ЗДЕСЬ — хотя бы блоком-примером
+│   │   на длительный вариант условия, а не только `if + had + V3`.
 │   ├── Mixed Conditional — прошлое условие → настоящий результат
 │   ├── Unless / as long as / provided that — синонимы if
 │   │   ⚠️ `as long as` разбирается ЗДЕСЬ (это его дом — «if другими словами»). В §21 «Устойчивые
@@ -4399,6 +4403,10 @@ theory/
 │
 ├── Reported Speech (Косвенная речь)
 │   ├── Сдвиг времён назад — таблица: Present→Past, Past→Past Perfect, will→would
+│   │   ⬅️ ДОЛГ ИЗ Past Perfect Continuous (МТ177, Card 466, обещано плашкой): пользователю сказано,
+│   │   что `had been + -ing` встретится ещё раз в пересказе чужих слов («I've been waiting» →
+│   │   He said he HAD BEEN waiting). В таблице сдвига дать и длительные формы, а не только
+│   │   Present→Past и Past→Past Perfect — иначе обещание останется невыполненным.
 │   ├── Сдвиг местоимений и обстоятельств — I→he, now→then, here→there
 │   ├── say vs tell vs ask — правила употребления
 │   ├── 🆕 Глаголы пересказа помимо say/tell/ask — admit, deny, promise, suggest, refuse, offer
