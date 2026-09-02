@@ -962,26 +962,357 @@ RU: Мы гуляли по парку уже час, когда начался �
 
 ---
 
+## Microtopic 178 — How Long Before · Сколько это длилось
+
+**ID:** 178 | **Order:** 4
+**Теги:** how long had you been, for или since в прошлом, by the time опоздал, уже не работал там, no longer или anymore
+
+---
+
+### Card 467 · Сколько это длилось к тому моменту
+
+**ID:** 467 | **Order:** 1
+
+#### Theory
+
+Смысл формы разобран с обеих сторон. Осталось главное, ради чего её вообще берут: **назвать срок**. Инструменты те же, что и в длительном перфекте настоящего, — `for` и `since`; заново их разбирать не будем, это микротема «Сколько это длится». Меняется одна вещь, зато принципиальная.
+
+**Финиш переехал в прошлое**
+
+В перфекте настоящего отрезок упирается в момент разговора, здесь — в точку в прошлом. Отсюда вся разница:
+
+- **She has been waiting for an hour.** — час идёт до сих пор, она ждёт прямо сейчас.
+- **She had been waiting for an hour when the bus came.** — час закончился на автобусе, и всё это осталось в прошлом.
+
+Слова `for` и `since` при этом работают ровно как раньше.
+
+**Формула:** for + длина отрезка · since + точка старта
+
+- **I had been studying French for three years before I moved to Lyon.** — длина: три года.
+- **He had been working there since 2015 when the company closed.** — старт: 2015-й.
+
+**Третий способ — вообще без предлога**
+
+Часто срок называют одним оборотом, и никакого предлога он не требует: **all day**, **all morning**, **all evening**, **all night**.
+
+- **We had been walking all morning.**
+- **The lights were on — they had been packing all night.**
+
+**Как об этом спрашивают**
+
+Вопрос про срок — самая частая жизненная форма этого времени: **How long had you been…?** Отвечают почти всегда коротко, одним куском со сроком:
+
+- **— How long had you been waiting when the taxi finally came? — For about an hour.**
+- **— How long had you been looking for the keys? — For ages.**
+
+Второй ответ стоит запомнить целиком: `ages` буквально «эпохи», а в живой речи это наше «целую вечность». Есть и обратный приём, когда срок хотят подчеркнуть, — слово `straight` в хвосте: **They had been driving for six hours straight** значит «шесть часов **подряд**, без остановок».
+
+**Ловушка:** **How long were you waiting before he came?** ✗ → **How long had you been waiting before he came?** ✓. Длительное прошедшее отвечает «что шло в тот момент», а не «сколько уже успело набежать **к** нему». Вопрос про накопленный срок держит только длинная форма.
+
+**Ловушка:** **I had been studying French since three years** ✗ → **for three years** ✓. `since` показывает пальцем на точку старта (**since 2015**, **since Monday**, **since lunchtime**), а «три года» это длина отрезка, значит нужен `for`. Ошибка тянется прямо из русского: мы говорим «с трёх лет», «с двух часов» — и рука сама тянет `since` к любому сроку.
+
+**Запомни главное:** срок называется теми же словами, что и раньше, — меняется только финиш отрезка. Он больше не «сейчас», а названная точка в прошлом.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Срок при этой форме называется привычными словами: `for` + длина отрезка (**for three years**), `since` + точка старта (**since 2015**), либо оборот без предлога (**all morning**). Разница с перфектом настоящего одна: отрезок упирается не в «сейчас», а в точку в прошлом — **She has been waiting for an hour** (ждёт сейчас) ↔ **She had been waiting for an hour when the bus came** (час закончился на автобусе). Главный вопрос темы — **How long had you been waiting?**, ответ короткий: **For about an hour** / **For ages**. Ловушки: **How long were you waiting?** ✗ (эта форма не считает накопленный срок) и **since three years** ✗ вместо **for three years** ✓.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2049 | Я учил французский три года, прежде чем переехал в Лион. | I had been studying French for three years before I moved to Lyon. |
+| 2050 | Он работал там с 2015 года, когда компания закрылась. | He had been working there since 2015 when the company closed. |
+| 2051 | Свет горел — они собирали вещи всю ночь. | The lights were on — they had been packing all night. |
+| 2052 | — Сколько ты ждал, когда наконец приехало такси? — Около часа. | — How long had you been waiting when the taxi finally came? — For about an hour. |
+| 2053 | Они ехали шесть часов подряд. | They had been driving for six hours straight. |
+
+---
+
+#### Exercises
+
+**Ex 22 · MultipleChoice · FORWARD_CHOICE** *(ID: 209)*
+
+"Ник работал в школе с сентября, когда ему предложили новое место."
+
+- Nick was working at the school since September when he was offered a new job.
+- Nick had been working at the school for September when he was offered a new job.
+- **Nick had been working at the school since September when he was offered a new job.** ✓
+
+*Explanation:* Сентябрь это точка старта, поэтому нужен since, а накопленный к моменту предложения срок держит форма had been working.
+
+---
+
+**Ex 23 · TableFill** *(ID: 39)*
+
+Задание: впиши предлог, который подходит к сроку.
+
+| Срок | Ответ |
+|------|-------|
+| ___ two hours | for |
+| ___ Monday | since |
+| ___ ten minutes | for |
+| ___ 2015 | since |
+| ___ lunchtime | since |
+| ___ ages | for |
+
+*Explanation:* for идёт с длиной отрезка (two hours, ten minutes, ages), since — с точкой, от которой отсчёт начался (Monday, 2015, lunchtime).
+
+---
+
+**Ex 24 · TrueFalse** *(ID: 182)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | They had been living in Dublin for six years before they moved. | ✓ |
+| 2 | She had been teaching there since ten years. | ✗ |
+| 3 | How long had you been standing in the rain? | ✓ |
+| 4 | We had been cleaning the garage all evening. | ✓ |
+| 5 | How long were you waiting before the doors opened? | ✗ |
+
+*Explanation:* Во второй строке срок «десять лет» это длина, значит нужен for. В пятой вопрос про накопленный срок задан длительным прошедшим, а оно отвечает только «что шло в тот момент».
+
+---
+
+**Ex 25 · WordArrangement** *(ID: 165)*
+
+Ситуация: Люди у входа ждали два часа подряд, и наконец открыли двери.
+
+Правильное предложение: **The crowd had been waiting for two hours straight when the doors opened.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| The crowd | — |
+| had | — |
+| been | — |
+| waiting | — |
+| for two hours | — |
+| straight | — |
+| when | — |
+| the doors | — |
+| opened | — |
+| since two hours | ✗ |
+| was | ✗ |
+| waited | ✗ |
+| had opened | ✗ |
+| ages | ✗ |
+
+*Explanation:* Два часа это длина отрезка, поэтому for, а не since. Ожидание тянулось до открытия дверей и уходит в had been waiting, само открытие остаётся простым opened.
+
+---
+
+**Ex 26 · DialogRestore** *(ID: 62)*
+
+A: "How long had you been looking for the keys when your mum found them?"
+B: ___
+A: "And they were in your coat all along."
+
+- I look for ages.
+- Since ten minutes.
+- **For about ten minutes.** ✓
+
+*Explanation:* На вопрос о сроке отвечают коротким куском с for: десять минут это длина отрезка. Since поставил бы на её место точку старта, а настоящее время I look к прошлому разговору не подходит.
+
+---
+
+#### AI Exercise
+
+**ID:** past_perfect_continuous_card467_ex1
+**Title:** "Сколько уже длилось"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ опишет ситуацию из прошлого и спросит, сколько это длилось. Ответьте целым английским предложением."
+**Prompt Template:** "Контекст: пользователь только что прочитал карточку о сроке при past perfect continuous — for идёт с длиной отрезка, since с точкой старта, обороты вида all morning идут без предлога, а сам отрезок упирается не в сейчас, а в точку в прошлом. Дай пользователю ОДНУ короткую русскую ситуацию из прошлого с двумя точками и названным сроком (Оля ждала автобус с восьми утра, и в девять он наконец пришёл) и попроси ответить ЦЕЛЫМ английским предложением на вопрос, сколько это длилось к тому моменту. ГЛАВНОЕ ТРЕБОВАНИЕ К СЛОЖНОСТИ: ситуация КОРОТКАЯ И ПРОСТАЯ, 8–12 слов, готовый ответ пользователя не длиннее 11 слов, лексика только самая ходовая (to wait, to work, to walk, to study, to drive, to read, to play, to cook, bus, taxi, school, office, park, keys, rain, an hour, two hours, all morning, since Monday, since eight). Никаких редких слов и сложных сюжетов: задание тренирует выбор формы и предлога, а не лексику. Чередуй в ситуациях длину отрезка (два часа, полчаса) и точку старта (с утра, с понедельника, с восьми), чтобы пользователь попадал то на for, то на since; лица и сюжеты тоже меняй от запуска к запуску. Если в присланном списке слов пользователя есть подходящие — желательно строить ситуацию вокруг них, фокус задания на форме и предлоге, а не на редкой лексике. Правильным считай ответ, где занятие стоит в had been + глагол с -ing, а срок назван верно: for с длиной отрезка, since с точкой старта, обороты all day и all morning без предлога. Если пользователь поставил since с длиной отрезка (since two hours) — объясни, что since показывает на точку старта, и дай верный вариант с for. Если он взял was или were вместо had been — скажи, что эта форма не сообщает, сколько успело набежать К моменту в прошлом. Если он взял have been вместо had been — скажи, что финиш отрезка в прошлом, поэтому нужен had. Если срок вообще потерялся — попроси добавить его, потому что весь вопрос был про срок. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Оля ждала автобус с восьми утра, и в девять он наконец пришёл. Сколько она уже ждала к этому моменту? Ответьте целым предложением по-английски.'
+
+#### Clarification Options
+
+- Почему нельзя сказать since three years, если по-русски мы говорим «с трёх лет»?
+- Чем has been waiting отличается от had been waiting в вопросе о сроке?
+- Нужен ли предлог перед all morning и all night?
+
+---
+
+### Card 468 · Слова, которые ставят границу
+
+**ID:** 468 | **Order:** 2
+
+#### Theory
+
+У этой формы есть требование, которого нет у соседей: ей **обязательно нужна названная граница**. Отрезок должен во что-то упереться — иначе он висит в воздухе, и предложение не сообщает ничего.
+
+**Ловушка:** **He had been working.** ✗ — работал до чего? Фраза обрывается на полуслове. Достаточно добавить точку или срок, и всё встаёт на место: **He had been working since morning** ✓ или **He had been working when I came in** ✓.
+
+**Три слова, которые ставят границу**
+
+- **By the time the police arrived, the crowd had been shouting for an hour.** — `by the time` называет момент, к которому всё это набежало.
+- **When I finally got through, she had been trying to call me all evening.** — `when` ставит точку, в которую упирается отрезок.
+- **He had been thinking about it long before he said a word.** — `before` ставит границу впереди отрезка.
+
+**Формула:** граница (by the time · when · before) + отрезок в had been + V-ing
+
+Особенно удобно `by the time`: оно само по себе значит «к тому моменту, как», то есть уже содержит идею накопления. Поэтому длинная форма рядом с ним звучит естественнее всего: **By the time we found the tent, the crowd had been gathering for two hours.**
+
+**Русское «уже» двоится**
+
+А теперь важная развилка, которую русский не замечает. Наше «уже» тянет за собой две совершенно разные мысли, и в английский они идут разными дорогами:
+
+- «уже **сделал**» — то, что успело случиться: **He had already left when I called.**
+- «уже **не** делает» — то, что **перестало** быть: **He no longer worked there when I called.**
+
+Вторая половина в перфект не идёт вообще. «Уже не» это не накопленный опыт и не тянущийся отрезок, это простое сообщение «раньше было, теперь нет» — и английский говорит о нём обычным прошедшим.
+
+**Немного про no longer**
+
+`no longer` буквально значит «не дольше», то есть «больше не продолжается». Живёт оно в середине предложения — **перед смысловым глаголом**, а с `to be` наоборот, сразу после него: **She was no longer interested.** Ощущается как чуть более собранный, слегка книжный вариант; в разговоре ту же мысль чаще скажут через `anymore` в хвосте фразы.
+
+| Выражение | Позиция | Стиль | Пример |
+|---|---|---|---|
+| no longer | перед смысловым глаголом, после to be | нейтральный, чуть книжный | He no longer works here. |
+| not … anymore | в самом конце фразы | разговорный | He doesn't work here anymore. |
+
+Обе фразы значат одно и то же, выбирайте по обстановке: в письме и в рассказе о прошлом удобнее `no longer`, в живой болтовне — `anymore`.
+
+**Ловушка:** **I had already not wanted to go** ✗ и **I hadn't already wanted to go** ✗. `already` в отрицании не живёт вообще — об этом мы говорили в микротеме «already — уже». Верно: **I no longer wanted to go** ✓ или **I didn't want to go anymore** ✓.
+
+**Практический вывод**
+
+Ради него всё и затевалось: слово «уже не» в русской фразе — сигнал, что **ни перфект, ни длинная форма тут не нужны**. Берите простое прошедшее и одно из двух выражений. Зато рядом длинная форма чувствует себя отлично, потому что объясняет причину:
+
+- **By the time I called, he no longer worked there — he had been looking for a new job for weeks.**
+
+Первая половина сообщает, что к моменту звонка он там уже не работал. Вторая объясняет почему: неделями искал новое место.
+
+**Запомни главное:** отрезку нужна граница — `by the time`, `when`, `before` или названный срок. А «уже не» это отдельная история: `no longer` плюс простое прошедшее, и никакого перфекта.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Этой форме обязательно нужна названная граница: **He had been working** ✗ ни о чём не сообщает, а **By the time the police arrived, the crowd had been shouting for an hour** ✓ — уже да. Границу ставят `by the time`, `when` и `before` либо названный срок. Отдельная развилка: русское «уже» двоится. «Уже сделал» — это `had done` (**He had already left**), а «уже не / больше не» — это «перестал», и в перфект оно не идёт: **He no longer worked there** ✓ (`no longer` стоит перед смысловым глаголом, после `to be`) или разговорное **He didn't work there anymore** ✓. Ловушка: **I had already not wanted** ✗ — `already` в отрицании не живёт.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2054 | К приезду полиции толпа кричала уже час. | By the time the police arrived, the crowd had been shouting for an hour. |
+| 2055 | Когда я наконец дозвонился, она пыталась связаться со мной весь вечер. | When I finally got through, she had been trying to call me all evening. |
+| 2056 | Он долго думал об этом, прежде чем сказал хоть слово. | He had been thinking about it long before he said a word. |
+| 2057 | Когда мы нашли палатку, толпа собиралась уже два часа. | By the time we found the tent, the crowd had been gathering for two hours. |
+| 2058 | Когда я позвонил, он там уже не работал — он неделями искал новое место. | By the time I called, he no longer worked there — he had been looking for a new job for weeks. |
+
+---
+
+#### Exercises
+
+**Ex 27 · Categorization** *(ID: 101)*
+
+Задание: распредели фразы по тому, что они делают в предложении.
+
+| Ставит границу | Называет срок |
+|----------------|---------------|
+| by the time the show started | for two hours |
+| when the lights went out | since Monday |
+| before he answered | all evening |
+
+*Explanation:* Левый столбик называет момент, в который упирается отрезок, правый — сколько этот отрезок длился. В предложении обычно есть и то, и другое.
+
+---
+
+**Ex 28 · ErrorCorrection** *(ID: 168)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"By the time we came back, he had already not worked there."
+
+- By the time we came back, he hadn't already worked there.
+- By the time we came back, he had been no longer working there.
+- **By the time we came back, he no longer worked there.** ✓
+
+*Explanation:* «Уже не» это не перфект, а простое сообщение «раньше работал, теперь нет»: no longer плюс простое прошедшее. Со словом already отрицание не строится вообще.
+
+---
+
+**Ex 29 · MultipleChoice · REVERSE_CHOICE** *(ID: 69)*
+
+"She no longer lived in Madrid."
+
+- **Она больше не жила в Мадриде — к тому моменту уже уехала.** ✓
+- Она ещё не жила в Мадриде.
+- Она давно жила в Мадриде и никуда не уезжала.
+
+*Explanation:* no longer сообщает, что положение дел закончилось: раньше жила, к тому моменту уже нет. Про то, что человек где-то давно живёт, говорили бы совсем другой формой.
+
+---
+
+**Ex 30 · TextInput** *(ID: 88)*
+
+Впиши недостающее слово.
+
+1. "___ the time the bus came, we had been standing in the rain for twenty minutes."
+   Ответ: **By**
+2. "He ___ longer answered my messages."
+   Ответ: **no**
+3. "They had been arguing ___ half an hour before he left."
+   Ответ: **for**
+
+*Explanation:* By the time ставит границу, к которой всё набежало; no longer сообщает, что положение дел закончилось; for называет длину отрезка.
+
+---
+
+**Ex 31 · FindTheOdd** *(ID: 87)*
+
+Три фразы ставят границу отрезку, а одна называет его длину:
+
+- by the time the film started
+- **for three hours straight** ✓
+- before she answered the phone
+- when the rain finally stopped
+
+*Explanation:* Первая, третья и четвёртая называют момент, в который упирается отрезок. Оборот for three hours straight отвечает на другой вопрос — сколько это длилось.
+
+---
+
+#### Clarification Options
+
+- Почему без by the time или when предложение с этой формой звучит незаконченным?
+- Когда лучше сказать no longer, а когда anymore?
+- Почему «уже не» нельзя перевести перфектом, если «уже сделал» можно?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| crowd | толпа | [kraʊd] |
+| to gather | собираться, скапливаться | [ˈɡæðə] |
+| ages | вечность, целая эпоха | [ˈeɪdʒɪz] |
+| straight | подряд, кряду, прямо | [streɪt] |
+| no longer | уже не, больше не | [nəʊ ˈlɒŋɡə] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 28 | 29 |
-| Microtopic | 177 | 178 |
-| Card | 466 | 467 |
-| Example | 2048 | 2049 |
-| Слова курса (course_word) | 724 | 725 |
+| Microtopic | 178 | 179 |
+| Card | 468 | 469 |
+| Example | 2058 | 2059 |
+| Слова курса (course_word) | 729 | 730 |
 | MultipleChoice · CHOICE | 182 | 183 |
-| MultipleChoice · FORWARD_CHOICE | 208 | 209 |
-| MultipleChoice · REVERSE_CHOICE | 68 | 69 |
-| TrueFalse | 181 | 182 |
-| WordArrangement | 164 | 165 |
-| TextInput | 87 | 88 |
+| MultipleChoice · FORWARD_CHOICE | 209 | 210 |
+| MultipleChoice · REVERSE_CHOICE | 69 | 70 |
+| TrueFalse | 182 | 183 |
+| WordArrangement | 165 | 166 |
+| TextInput | 88 | 89 |
 | Matching | 71 | 72 |
-| ErrorCorrection | 167 | 168 |
-| FindTheOdd | 86 | 87 |
-| Categorization | 100 | 101 |
-| TableFill | 38 | 39 |
+| ErrorCorrection | 168 | 169 |
+| FindTheOdd | 87 | 88 |
+| Categorization | 101 | 102 |
+| TableFill | 39 | 40 |
 | Transformation | 75 | 76 |
 | ConstructionMeaning | 53 | 54 |
-| DialogRestore | 61 | 62 |
+| DialogRestore | 62 | 63 |

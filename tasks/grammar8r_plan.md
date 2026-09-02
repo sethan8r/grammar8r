@@ -3725,7 +3725,7 @@ theory/
 │       │       AI: «Объясни, что было видно» (ИИ даёт наблюдение в прошлом → юзер строит догадку
 │       │       в Past Perfect Continuous, FREE_WRITE, GENERAL).
 │       │
-│       ├── МТ178 · How Long Before · Сколько это длилось (2 карточки)
+│       ├── МТ178 · How Long Before · Сколько это длилось (2 карточки) ✅ (написана, ALL GREEN 02.09.26)
 │       │   ├── Card 467 · for / since / all day + How long had you been…? I had been studying French
 │       │   │   for three years before I moved to Lyon · He had been working there since 2015 when the
 │       │   │   company closed · We had been walking all morning. Новое против уже известного: те же
@@ -3752,8 +3752,8 @@ theory/
 │       │       в хвосте фразы. ⚠️ НЕ писать, что no longer «так же работает с had been + -ing»: собрать
 │       │       had no longer been working можно, но носители так не говорят — смысл конфликтует
 │       │       («перестал» против «тянулось до момента»).
-│       │       AI: «К тому моменту уже» (RU-ситуация с границей и длительностью → EN через
-│       │       by the time / when, FREE_WRITE, GENERAL).
+│       │       БЕЗ AI (решение 02.09.2026 — задание «К тому моменту уже» написано и удалено по
+│       │       фидбеку; хардкод-упражнений на границу и no longer достаточно).
 │       │
 │       ├── МТ179 · had done vs had been doing · Итог или занятие (5 карточек) ← ⭐⭐ СЕРДЦЕ ТЕМЫ
 │       │   │   🚨🚨 ПРИОРИТЕТ №1 ПО РАЗЖЁВЫВАНИЮ — САМАЯ ВАЖНАЯ МИКРОТЕМА РАЗДЕЛА (фидбек пользователя
