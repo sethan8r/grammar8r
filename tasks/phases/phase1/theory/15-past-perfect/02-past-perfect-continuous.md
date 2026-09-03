@@ -1976,26 +1976,321 @@ A: "That's not too bad."
 
 ---
 
+## Microtopic 180 — have been doing vs had been doing · Длительный перфект: сейчас или тогда
+
+**ID:** 180 | **Order:** 7
+**Теги:** was waiting или have been waiting, до сейчас или до того момента, by now или by then, какой помощник ставить перед been, has been или had been
+
+---
+
+### Card 475 · Ось: этаж have или had
+
+**ID:** 475 | **Order:** 1
+
+#### Theory
+
+Осталась последняя пара форм, которые легко спутать, — и хорошая новость в том, что учить тут нечего. Обе вы уже собирали: длительный перфект настоящего разбирали в теме Present Perfect Continuous, длительный перфект прошлого — в этой. Новой грамматики не будет ни грамма, весь вопрос в одном: **до какого момента вы считаете**.
+
+**Отличие ровно в одном этаже**
+
+Хвост `been + -ing` у обеих форм одинаковый и не меняется вообще. Меняется только помощник впереди.
+
+**Формула:** have/has been + -ing → считаем до сейчас · had been + -ing → считаем до момента в прошлом
+
+**Один и тот же отрезок, две разные камеры**
+
+- **I've been waiting for an hour.** — жду до сих пор, стою с телефоном в руке ↔ **I had been waiting for an hour when he came.** — ждал до той минуты, а теперь ожидание позади
+- **She's been working here since March.** — работает и сегодня ↔ **She had been working there for ten years before she quit.** — стаж набежал к моменту увольнения
+- **It's been raining all morning.** — за окном льёт прямо сейчас ↔ **It had been raining all night; the streets were wet.** — дождь кончился, а следы остались
+
+Сам отрезок в каждой паре не меняется: час ожидания остаётся часом ожидания, десять лет работы — десятью годами. Меняется **стенка, в которую этот отрезок упирается**: сегодняшняя минута или точка в прошлом.
+
+**Русский переводит обе строчки одинаково**
+
+«Я ждал час» — и всё, больше наша форма ничего не сообщает. Ни точки отсчёта, ни того, жду я до сих пор или давно ушёл, в русском глаголе нет. Поэтому выбирать по переводу здесь невозможно в принципе — выбирают по вопросу: **до какого момента я считаю?** До этой самой минуты — `have/has been`. До какой-то точки в прошлом — `had been`.
+
+Заметьте: в родном языке эту работу делают отдельные слова — «уже», «тогда», «к тому моменту». Мы к ним так привыкли, что не замечаем; в английском их место занимает помощник.
+
+**Два слова, которые прямо называют этаж**
+
+`by now` *(уже, к этому моменту)* и `by then` *(к тому моменту, тогда)* — самые честные подсказки этой развилки. Одно тянет за собой настоящее, другое прошлое:
+
+- **By now she's been working here for a year.**
+- **By then she had been working there for ten years.**
+
+Увидели в предложении `by then` или любую другую прошлую точку — ставьте `had been`. Увидели `by now` или разговор о сегодняшнем дне — `have/has been`.
+
+**Ловушка:** **When I arrived, she has been crying** ✗ → **When I arrived, she had been crying** ✓. Вся сцена в прошлом, значит и считать надо до неё. Форма с `has` притащила бы отсчёт в сегодняшний день, где никакого приезда уже нет.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Формы отличаются одним этажом: хвост `been + -ing` общий, помощник разный. `have/has been` считает до сейчас, `had been` — до момента в прошлом: **I've been waiting for an hour** (жду до сих пор) ↔ **I had been waiting for an hour when he came** (ждал до той минуты). Отрезок в паре один и тот же, меняется стенка, в которую он упирается. Русский обе фразы переводит одинаково («я ждал час»), поэтому выбирают по вопросу «до какого момента я считаю?». Прямые подсказки — `by now` (до сейчас) и `by then` (до той точки).
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2089 | Я жду уже час. | I've been waiting for an hour. |
+| 2090 | Я ждал уже час, когда он пришёл. | I had been waiting for an hour when he came. |
+| 2091 | Она работает здесь с марта. | She's been working here since March. |
+| 2092 | К тому моменту она проработала там десять лет. | By then she had been working there for ten years. |
+| 2093 | Шёл дождь всю ночь, улицы были мокрые. | It had been raining all night; the streets were wet. |
+
+---
+
+#### Exercises
+
+**Ex 55 · MultipleChoice · CHOICE** *(ID: 186)*
+
+"By now Oliver ___ Italian for three years, and he still takes lessons."
+
+- had been studying
+- **has been studying** ✓
+- was studying
+
+*Explanation:* By now и слова про сегодняшние занятия ставят стенку на этой минуте, а до неё считает форма с has. Помощник had увёл бы отсчёт к какой-то точке в прошлом, которой в предложении нет.
+
+---
+
+**Ex 56 · TrueFalse** *(ID: 184)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | By then we had been living in Vienna for six years. | ✓ |
+| 2 | When the guests arrived, she has been cooking for two hours. | ✗ |
+| 3 | I've been sitting here since two o'clock and nobody has come. | ✓ |
+| 4 | By now they had been driving for six hours. | ✗ |
+| 5 | He had been training for months before the race. | ✓ |
+
+*Explanation:* Во второй строке вся сцена в прошлом, значит нужен had been. В четвёртой by now ставит стенку на сегодняшней минуте, и до неё считает have been, а не had been.
+
+---
+
+**Ex 57 · FindTheOdd** *(ID: 90)*
+
+Три предложения считают отрезок до сегодняшнего дня, а одно — до момента в прошлом:
+
+- I've been studying Spanish since April.
+- **They had been dancing when the music stopped.** ✓
+- By now they've been driving for six hours.
+- We've been living here for two years.
+
+*Explanation:* Во втором предложении стенка стоит на моменте, когда смолкла музыка, то есть в прошлом, — отсюда had been. В остальных отсчёт закрыт сегодняшним днём, и там работает have или has.
+
+---
+
+**Ex 58 · Categorization** *(ID: 103)*
+
+Задание: раздели ситуации по тому, до какого момента идёт отсчёт.
+
+| Считаем до сейчас | Считаем до момента в прошлом |
+|-------------------|------------------------------|
+| Жду до сих пор | Ждал, пока он не пришёл |
+| Живу тут два года | Жил там до переезда |
+| Читаю книгу неделю | Читал час, пока не сел телефон |
+
+*Explanation:* Слева отрезок упирается в эту самую минуту, и его закрывает форма с have или has. Справа стенка стоит в прошлом — приход, переезд, севший телефон, — и там нужен помощник had.
+
+---
+
+**Ex 59 · WordArrangement** *(ID: 167)*
+
+Ситуация: Коля рассказывает, сколько они простояли в пробке до того, как дорогу открыли.
+
+Правильное предложение: **We had been sitting in the car for an hour when the road opened.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| We | — |
+| had | — |
+| been | — |
+| sitting | — |
+| in the car | — |
+| for an hour | — |
+| when | — |
+| the road | — |
+| opened | — |
+| have | ✗ |
+| sat | ✗ |
+| was | ✗ |
+
+*Explanation:* Стенка отрезка стоит в прошлом — момент, когда дорогу открыли, — поэтому нужен помощник had, а не have. Форма sat собрала бы готовый итог вместо занятия, а was дал бы второго помощника, которого в предложении быть не может.
+
+---
+
+#### Clarification Options
+
+- Как понять, до какого момента я считаю, если в предложении нет ни одной даты?
+- Почему русский перевод в этой паре вообще не помогает?
+- Что услышит собеседник, если я поставлю have вместо had?
+
+---
+
+### Card 476 · Одна сцена — три камеры
+
+**ID:** 476 | **Order:** 2
+
+#### Theory
+
+Пары из прошлой карточки разводят две формы. Но в живом тексте рядом стоят **три**: к двум перфектам добавляется обычное длительное прошедшее. Поэтому возьмём один сюжет и прогоним его через все три — событие останется тем же, меняться будет только место камеры.
+
+**Механический ключ**
+
+Прежде чем смотреть на сюжеты, запомните переключатель: назван прошлый момент, до которого считаем (`when he came`, `before she quit`, `by then`) — берём `had been`. Всё упирается в «как дела сейчас» — `have/has been`.
+
+**Сюжет первый: ожидание**
+
+- **I was waiting for an hour.** — просто рассказ о том, что происходило: отрезок ни к чему не привязан
+- **I've been waiting for an hour.** — и я всё ещё жду, вот прямо сейчас
+- **I had been waiting for an hour when he finally came.** — ждал до той минуты, дальше ожидание кончилось
+
+**Сюжет второй: ремонт**
+
+- **We were painting the walls all weekend.**
+- **We've been painting the walls all weekend — the flat is still dusty.**
+- **We had been painting the walls for two days when we ran out of paint.**
+
+**Сюжет третий: поиск работы**
+
+- **He was applying for jobs all spring.**
+- **He's been applying for jobs since March — no answer yet.**
+- **He had been applying for jobs for six months before they hired him.**
+
+Между второй и третьей строкой в каждом сюжете разница вообще не в событии: и там и там человек чем-то долго занимался. Разница только в том, куда поставлена камера — на сегодняшний день или на точку в прошлом.
+
+**Зачем тут ещё и простое длительное**
+
+Первая строка каждого сюжета отличается от двух других сильнее, чем кажется: она вообще ничего не считает. **I was waiting for an hour** сообщает, что процесс шёл, — и всё; ни к сегодняшнему дню, ни к какой-то прошлой точке он не привязан. Именно поэтому русскому так удобно жить одной этой формой: она ни к чему не обязывает.
+
+**Ловушка:** **I had been waiting for an hour, where are you?** ✗ → **I've been waiting for an hour, where are you?** ✓. Вопрос задан прямо сейчас, значит и отсчёт идёт до этой минуты. Форма с `had` открывает флешбэк, а сцены, к которой он ведёт, в разговоре нет — собеседник ждёт продолжения, которого не будет.
+
+**Запомни главное:** сдвигаете точку отсчёта — сдвигается форма, а сам отрезок остаётся прежним.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Ключ: назван прошлый момент, до которого считаем (**when he came**, **before she quit**, **by then**) → `had been`; всё упирается в сегодняшний день → `have/has been`. Один сюжет через три камеры: **I was waiting for an hour** (просто шёл процесс, ничего не считаем) → **I've been waiting for an hour** (и всё ещё жду) → **I had been waiting for an hour when he finally came** (ждал до той минуты). Ловушка в обратную сторону: **I had been waiting for an hour, where are you?** ✗ → **I've been waiting for an hour, where are you?** ✓ — разговор идёт сейчас, флешбэку не к чему прислониться.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2094 | Я ждал час. | I was waiting for an hour. |
+| 2095 | Я жду уже час, и всё ещё жду. | I've been waiting for an hour. |
+| 2096 | Мы красили стены все выходные — квартира до сих пор в пыли. | We've been painting the walls all weekend — the flat is still dusty. |
+| 2097 | Мы красили стены два дня, когда у нас кончилась краска. | We had been painting the walls for two days when we ran out of paint. |
+| 2098 | Он подаёт заявки на работу с марта, ответа пока нет. | He's been applying for jobs since March — no answer yet. |
+
+---
+
+#### Exercises
+
+**Ex 60 · ErrorCorrection** *(ID: 171)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"When I got to the office, my boss has been waiting for me for twenty minutes."
+
+- **When I got to the office, my boss had been waiting for me for twenty minutes.** ✓
+- When I got to the office, my boss was been waiting for me for twenty minutes.
+- When I got to the office, my boss has waiting for me for twenty minutes.
+
+*Explanation:* Приход в офис — точка в прошлом, и отсчёт закрыт на ней, поэтому нужен помощник had. Во втором варианте появился второй помощник was, в третьем после has потерялось been.
+
+---
+
+**Ex 61 · MultipleChoice · FORWARD_CHOICE** *(ID: 212)*
+
+"Я ищу квартиру с апреля и до сих пор ничего не нашёл."
+
+- I had been looking for a flat since April and found nothing.
+- I was looking for a flat since April and I find nothing.
+- **I've been looking for a flat since April and I haven't found anything yet.** ✓
+
+*Explanation:* Отсчёт идёт до этой самой минуты — человек ищет прямо сейчас, — поэтому форма с have. Помощник had увёл бы отсчёт к прошлой точке, а простое длительное прошедшее вообще ничего не считает.
+
+---
+
+**Ex 62 · TextInput** *(ID: 90)*
+
+Впиши недостающие слова.
+
+1. "By now Vera ___ working at the café for a year."
+   Ответ: **has been**
+2. "By then they ___ studying at that school for four years."
+   Ответ: **had been**
+3. "I ___ standing in this queue since four — where are you?"
+   Ответ: **have been**
+
+*Explanation:* By now ставит стенку на сегодняшней минуте, а by then — на точке в прошлом. В третьем предложении разговор идёт прямо сейчас, поэтому отсчёт тоже закрыт этой минутой.
+
+---
+
+**Ex 63 · DialogRestore** *(ID: 65)*
+
+A: "You look exhausted. What have you been doing?"
+B: ___
+A: "No wonder — that's the whole day."
+
+- **I've been sorting old books since morning.** ✓
+- I had been sorting old books since morning.
+- I was sorting old books since morning.
+
+*Explanation:* Разговор идёт прямо сейчас, и усталый вид объясняется занятием, которое тянется до этой минуты. Форма с had открыла бы флешбэк к прошлой сцене, которой в диалоге нет.
+
+---
+
+**Ex 64 · MultipleChoice · REVERSE_CHOICE** *(ID: 72)*
+
+"By then she had been teaching at that school for twelve years."
+
+- Она преподаёт в той школе уже двенадцать лет и продолжает.
+- Она собиралась проработать в школе двенадцать лет.
+- **К тому моменту она преподавала в той школе уже двенадцать лет.** ✓
+
+*Explanation:* By then и помощник had закрывают отсчёт на точке в прошлом: двенадцать лет набежало к ней, а не к сегодняшнему дню. О продолжающейся работе сказали бы she's been teaching.
+
+---
+
+#### Clarification Options
+
+- Чем простое длительное прошедшее отличается от этих двух форм?
+- Как выбрать форму, если в предложении нет ни by now, ни by then?
+- Почему нельзя сказать «I had been waiting» в разговоре о сегодняшнем дне?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| by now | уже, к этому моменту | [baɪ naʊ] |
+| by then | к тому моменту, тогда | [baɪ ðen] |
+| to apply | подавать заявку, обращаться | [əˈplaɪ] |
+| wall | стена | [wɔːl] |
+| dusty | пыльный, в пыли | [ˈdʌsti] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 28 | 29 |
-| Microtopic | 179 | 180 |
-| Card | 474 | 475 |
-| Example | 2088 | 2089 |
-| Слова курса (course_word) | 729 | 730 |
-| MultipleChoice · CHOICE | 185 | 186 |
-| MultipleChoice · FORWARD_CHOICE | 211 | 212 |
-| MultipleChoice · REVERSE_CHOICE | 71 | 72 |
-| TrueFalse | 183 | 184 |
-| WordArrangement | 166 | 167 |
-| TextInput | 89 | 90 |
+| Microtopic | 180 | 181 |
+| Card | 476 | 477 |
+| Example | 2098 | 2099 |
+| Слова курса (course_word) | 734 | 735 |
+| MultipleChoice · CHOICE | 186 | 187 |
+| MultipleChoice · FORWARD_CHOICE | 212 | 213 |
+| MultipleChoice · REVERSE_CHOICE | 72 | 73 |
+| TrueFalse | 184 | 185 |
+| WordArrangement | 167 | 168 |
+| TextInput | 90 | 91 |
 | Matching | 73 | 74 |
-| ErrorCorrection | 170 | 171 |
-| FindTheOdd | 89 | 90 |
-| Categorization | 102 | 103 |
+| ErrorCorrection | 171 | 172 |
+| FindTheOdd | 90 | 91 |
+| Categorization | 103 | 104 |
 | TableFill | 40 | 41 |
 | Transformation | 76 | 77 |
 | ConstructionMeaning | 55 | 56 |
-| DialogRestore | 64 | 65 |
+| DialogRestore | 65 | 66 |

@@ -53,6 +53,13 @@
       "title": "had done vs had been doing · Итог или занятие",
       "order": 6,
       "searchKeywords": "had cooked или had been cooking, закончил дело или нет, had been finding нельзя, сколько или как долго, had lived или had been living"
+    },
+    {
+      "id": 180,
+      "topicId": 28,
+      "title": "have been doing vs had been doing · Длительный перфект: сейчас или тогда",
+      "order": 7,
+      "searchKeywords": "was waiting или have been waiting, до сейчас или до того момента, by now или by then, какой помощник ставить перед been, has been или had been"
     }
   ],
   "grammar_cards": [
@@ -2124,6 +2131,246 @@
         "Что делать, если два шага компаса тянут в разные стороны?",
         "Если носители редко берут эту форму, зачем она мне?"
       ]
+    },
+    {
+      "id": 475,
+      "microtopicId": 180,
+      "title": "Ось: этаж have или had",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Осталась последняя пара форм, которые легко спутать, — и хорошая новость в том, что учить тут нечего. Обе вы уже собирали: длительный перфект настоящего разбирали в теме Present Perfect Continuous, длительный перфект прошлого — в этой. Новой грамматики не будет ни грамма, весь вопрос в одном: **до какого момента вы считаете**."
+        },
+        {
+          "type": "heading",
+          "text": "Отличие ровно в одном этаже"
+        },
+        {
+          "type": "paragraph",
+          "text": "Хвост `been + -ing` у обеих форм одинаковый и не меняется вообще. Меняется только помощник впереди."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/has been + -ing → считаем до сейчас · had been + -ing → считаем до момента в прошлом"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Один и тот же отрезок, две разные камеры"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've been waiting for an hour.** — жду до сих пор, стою с телефоном в руке ↔ **I had been waiting for an hour when he came.** — ждал до той минуты, а теперь ожидание позади",
+            "**She's been working here since March.** — работает и сегодня ↔ **She had been working there for ten years before she quit.** — стаж набежал к моменту увольнения",
+            "**It's been raining all morning.** — за окном льёт прямо сейчас ↔ **It had been raining all night; the streets were wet.** — дождь кончился, а следы остались"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сам отрезок в каждой паре не меняется: час ожидания остаётся часом ожидания, десять лет работы — десятью годами. Меняется **стенка, в которую этот отрезок упирается**: сегодняшняя минута или точка в прошлом."
+        },
+        {
+          "type": "heading",
+          "text": "Русский переводит обе строчки одинаково"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Я ждал час» — и всё, больше наша форма ничего не сообщает. Ни точки отсчёта, ни того, жду я до сих пор или давно ушёл, в русском глаголе нет. Поэтому выбирать по переводу здесь невозможно в принципе — выбирают по вопросу: **до какого момента я считаю?** До этой самой минуты — `have/has been`. До какой-то точки в прошлом — `had been`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметьте: в родном языке эту работу делают отдельные слова — «уже», «тогда», «к тому моменту». Мы к ним так привыкли, что не замечаем; в английском их место занимает помощник."
+        },
+        {
+          "type": "heading",
+          "text": "Два слова, которые прямо называют этаж"
+        },
+        {
+          "type": "paragraph",
+          "text": "`by now` *(уже, к этому моменту)* и `by then` *(к тому моменту, тогда)* — самые честные подсказки этой развилки. Одно тянет за собой настоящее, другое прошлое:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By now she's been working here for a year.**",
+            "**By then she had been working there for ten years.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Увидели в предложении `by then` или любую другую прошлую точку — ставьте `had been`. Увидели `by now` или разговор о сегодняшнем дне — `have/has been`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**When I arrived, she has been crying** ✗ → **When I arrived, she had been crying** ✓. Вся сцена в прошлом, значит и считать надо до неё. Форма с `has` притащила бы отсчёт в сегодняшний день, где никакого приезда уже нет."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Формы отличаются одним этажом: хвост `been + -ing` общий, помощник разный. `have/has been` считает до сейчас, `had been` — до момента в прошлом: **I've been waiting for an hour** (жду до сих пор) ↔ **I had been waiting for an hour when he came** (ждал до той минуты). Отрезок в паре один и тот же, меняется стенка, в которую он упирается. Русский обе фразы переводит одинаково («я ждал час»), поэтому выбирают по вопросу «до какого момента я считаю?». Прямые подсказки — `by now` (до сейчас) и `by then` (до той точки).",
+      "examples": [
+        {
+          "ru": "Я жду уже час.",
+          "en": "I've been waiting for an hour."
+        },
+        {
+          "ru": "Я ждал уже час, когда он пришёл.",
+          "en": "I had been waiting for an hour when he came."
+        },
+        {
+          "ru": "Она работает здесь с марта.",
+          "en": "She's been working here since March."
+        },
+        {
+          "ru": "К тому моменту она проработала там десять лет.",
+          "en": "By then she had been working there for ten years."
+        },
+        {
+          "ru": "Шёл дождь всю ночь, улицы были мокрые.",
+          "en": "It had been raining all night; the streets were wet."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, до какого момента я считаю, если в предложении нет ни одной даты?",
+        "Почему русский перевод в этой паре вообще не помогает?",
+        "Что услышит собеседник, если я поставлю have вместо had?"
+      ]
+    },
+    {
+      "id": 476,
+      "microtopicId": 180,
+      "title": "Одна сцена — три камеры",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пары из прошлой карточки разводят две формы. Но в живом тексте рядом стоят **три**: к двум перфектам добавляется обычное длительное прошедшее. Поэтому возьмём один сюжет и прогоним его через все три — событие останется тем же, меняться будет только место камеры."
+        },
+        {
+          "type": "heading",
+          "text": "Механический ключ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прежде чем смотреть на сюжеты, запомните переключатель: назван прошлый момент, до которого считаем (`when he came`, `before she quit`, `by then`) — берём `had been`. Всё упирается в «как дела сейчас» — `have/has been`."
+        },
+        {
+          "type": "heading",
+          "text": "Сюжет первый: ожидание"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was waiting for an hour.** — просто рассказ о том, что происходило: отрезок ни к чему не привязан",
+            "**I've been waiting for an hour.** — и я всё ещё жду, вот прямо сейчас",
+            "**I had been waiting for an hour when he finally came.** — ждал до той минуты, дальше ожидание кончилось"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сюжет второй: ремонт"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We were painting the walls all weekend.**",
+            "**We've been painting the walls all weekend — the flat is still dusty.**",
+            "**We had been painting the walls for two days when we ran out of paint.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сюжет третий: поиск работы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He was applying for jobs all spring.**",
+            "**He's been applying for jobs since March — no answer yet.**",
+            "**He had been applying for jobs for six months before they hired him.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Между второй и третьей строкой в каждом сюжете разница вообще не в событии: и там и там человек чем-то долго занимался. Разница только в том, куда поставлена камера — на сегодняшний день или на точку в прошлом."
+        },
+        {
+          "type": "heading",
+          "text": "Зачем тут ещё и простое длительное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая строка каждого сюжета отличается от двух других сильнее, чем кажется: она вообще ничего не считает. **I was waiting for an hour** сообщает, что процесс шёл, — и всё; ни к сегодняшнему дню, ни к какой-то прошлой точке он не привязан. Именно поэтому русскому так удобно жить одной этой формой: она ни к чему не обязывает."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I had been waiting for an hour, where are you?** ✗ → **I've been waiting for an hour, where are you?** ✓. Вопрос задан прямо сейчас, значит и отсчёт идёт до этой минуты. Форма с `had` открывает флешбэк, а сцены, к которой он ведёт, в разговоре нет — собеседник ждёт продолжения, которого не будет."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сдвигаете точку отсчёта — сдвигается форма, а сам отрезок остаётся прежним."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Ключ: назван прошлый момент, до которого считаем (**when he came**, **before she quit**, **by then**) → `had been`; всё упирается в сегодняшний день → `have/has been`. Один сюжет через три камеры: **I was waiting for an hour** (просто шёл процесс, ничего не считаем) → **I've been waiting for an hour** (и всё ещё жду) → **I had been waiting for an hour when he finally came** (ждал до той минуты). Ловушка в обратную сторону: **I had been waiting for an hour, where are you?** ✗ → **I've been waiting for an hour, where are you?** ✓ — разговор идёт сейчас, флешбэку не к чему прислониться.",
+      "examples": [
+        {
+          "ru": "Я ждал час.",
+          "en": "I was waiting for an hour."
+        },
+        {
+          "ru": "Я жду уже час, и всё ещё жду.",
+          "en": "I've been waiting for an hour."
+        },
+        {
+          "ru": "Мы красили стены все выходные — квартира до сих пор в пыли.",
+          "en": "We've been painting the walls all weekend — the flat is still dusty."
+        },
+        {
+          "ru": "Мы красили стены два дня, когда у нас кончилась краска.",
+          "en": "We had been painting the walls for two days when we ran out of paint."
+        },
+        {
+          "ru": "Он подаёт заявки на работу с марта, ответа пока нет.",
+          "en": "He's been applying for jobs since March — no answer yet."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем простое длительное прошедшее отличается от этих двух форм?",
+        "Как выбрать форму, если в предложении нет ни by now, ни by then?",
+        "Почему нельзя сказать «I had been waiting» в разговоре о сегодняшнем дне?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2450,6 +2697,66 @@
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 64,
       "orderInCard": 2
+    },
+    {
+      "cardId": 475,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 186,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 475,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 184,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 475,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 90,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 475,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 103,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 475,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 167,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 476,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 171,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 476,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 212,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 476,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 90,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 476,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 65,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 476,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 72,
+      "orderInCard": 4
     }
   ],
   "ai_exercises": [
@@ -2621,6 +2928,46 @@
       "translation": "уже не, больше не",
       "transcription": "[nəʊ ˈlɒŋɡə]",
       "microtopicId": 178,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 730,
+      "word": "by now",
+      "translation": "уже, к этому моменту",
+      "transcription": "[baɪ naʊ]",
+      "microtopicId": 180,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 731,
+      "word": "by then",
+      "translation": "к тому моменту, тогда",
+      "transcription": "[baɪ ðen]",
+      "microtopicId": 180,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 732,
+      "word": "to apply",
+      "translation": "подавать заявку, обращаться",
+      "transcription": "[əˈplaɪ]",
+      "microtopicId": 180,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 733,
+      "word": "wall",
+      "translation": "стена",
+      "transcription": "[wɔːl]",
+      "microtopicId": 180,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 734,
+      "word": "dusty",
+      "translation": "пыльный, в пыли",
+      "transcription": "[ˈdʌsti]",
+      "microtopicId": 180,
       "categoryId": "tenses"
     }
   ],
@@ -2835,6 +3182,37 @@
         }
       ],
       "explanation": "Во второй строке после been глагол остался в первой форме, а нужен -ing: had been building. В четвёртой после been стоит третья форма, и получилась смесь двух конструкций: либо had finished, либо had been finishing."
+    },
+    {
+      "id": 184,
+      "statements": [
+        {
+          "en": "By then we had been living in Vienna for six years.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "When the guests arrived, she has been cooking for two hours.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I've been sitting here since two o'clock and nobody has come.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "By now they had been driving for six hours.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "He had been training for months before the race.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во второй строке вся сцена в прошлом, значит нужен had been. В четвёртой by now ставит стенку на сегодняшней минуте, и до неё считает have been, а не had been."
     }
   ],
   "word_arrangement_exercises": [
@@ -2945,6 +3323,28 @@
         "since"
       ],
       "explanation": "На столе готовая вещь, а готовую вещь показывает had плюс третья форма. Со словами been и making собралась бы сцена «резала салат», а was и since здесь не нужны вовсе."
+    },
+    {
+      "id": 167,
+      "situationRu": "Ситуация: Коля рассказывает, сколько они простояли в пробке до того, как дорогу открыли.",
+      "correctSentence": "We had been sitting in the car for an hour when the road opened.",
+      "words": [
+        "We",
+        "had",
+        "been",
+        "sitting",
+        "in the car",
+        "for an hour",
+        "when",
+        "the road",
+        "opened"
+      ],
+      "distractors": [
+        "have",
+        "sat",
+        "was"
+      ],
+      "explanation": "Стенка отрезка стоит в прошлом — момент, когда дорогу открыли, — поэтому нужен помощник had, а не have. Форма sat собрала бы готовый итог вместо занятия, а was дал бы второго помощника, которого в предложении быть не может."
     }
   ],
   "multiple_choice_exercises": [
@@ -3220,6 +3620,69 @@
         }
       ],
       "explanation": "Пустая раковина — это готовый итог, а итог показывает had плюс третья форма. Длительная форма рассказала бы о занятии и о готовности посуды промолчала."
+    },
+    {
+      "id": 186,
+      "choiceType": "CHOICE",
+      "prompt": "By now Oliver ___ Italian for three years, and he still takes lessons.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "had been studying",
+          "isCorrect": false
+        },
+        {
+          "text": "has been studying",
+          "isCorrect": true
+        },
+        {
+          "text": "was studying",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "By now и слова про сегодняшние занятия ставят стенку на этой минуте, а до неё считает форма с has. Помощник had увёл бы отсчёт к какой-то точке в прошлом, которой в предложении нет."
+    },
+    {
+      "id": 212,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я ищу квартиру с апреля и до сих пор ничего не нашёл.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I had been looking for a flat since April and found nothing.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was looking for a flat since April and I find nothing.",
+          "isCorrect": false
+        },
+        {
+          "text": "I've been looking for a flat since April and I haven't found anything yet.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Отсчёт идёт до этой самой минуты — человек ищет прямо сейчас, — поэтому форма с have. Помощник had увёл бы отсчёт к прошлой точке, а простое длительное прошедшее вообще ничего не считает."
+    },
+    {
+      "id": 72,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "By then she had been teaching at that school for twelve years.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Она преподаёт в той школе уже двенадцать лет и продолжает.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она собиралась проработать в школе двенадцать лет.",
+          "isCorrect": false
+        },
+        {
+          "text": "К тому моменту она преподавала в той школе уже двенадцать лет.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "By then и помощник had закрывают отсчёт на точке в прошлом: двенадцать лет набежало к ней, а не к сегодняшнему дню. О продолжающейся работе сказали бы she's been teaching."
     }
   ],
   "text_input_exercises": [
@@ -3332,6 +3795,31 @@
         "to knock",
         "to read"
       ]
+    },
+    {
+      "id": 90,
+      "items": [
+        {
+          "sentence": "By now Vera ___ working at the café for a year.",
+          "contextRu": "",
+          "answer": "has been",
+          "alternatives": []
+        },
+        {
+          "sentence": "By then they ___ studying at that school for four years.",
+          "contextRu": "",
+          "answer": "had been",
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ standing in this queue since four — where are you?",
+          "contextRu": "",
+          "answer": "have been",
+          "alternatives": []
+        }
+      ],
+      "explanation": "By now ставит стенку на сегодняшней минуте, а by then — на точке в прошлом. В третьем предложении разговор идёт прямо сейчас, поэтому отсчёт тоже закрыт этой минутой.",
+      "taskDescription": "Впиши недостающие слова."
     }
   ],
   "dialog_restore_exercises": [
@@ -3462,6 +3950,38 @@
         }
       ],
       "explanation": "Вопрос how long ждёт срок, и ответ называет именно его. Второй и третий варианты отвечают количеством, а количество на вопрос о сроке не отвечает."
+    },
+    {
+      "id": 65,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "You look exhausted. What have you been doing?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "No wonder — that's the whole day."
+        }
+      ],
+      "options": [
+        {
+          "text": "I've been sorting old books since morning.",
+          "isCorrect": true
+        },
+        {
+          "text": "I had been sorting old books since morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was sorting old books since morning.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Разговор идёт прямо сейчас, и усталый вид объясняется занятием, которое тянется до этой минуты. Форма с had открыла бы флешбэк к прошлой сцене, которой в диалоге нет."
     }
   ],
   "matching_exercises": [
@@ -3630,6 +4150,25 @@
         }
       ],
       "explanation": "Потерять телефон можно только мгновенно, поэтому длительная форма к этому глаголу не прикладывается. Во втором варианте у глагола пропало -ing, а в третьем во флешбэк одели ещё и уход из кафе, хотя это событие самой сцены."
+    },
+    {
+      "id": 171,
+      "wrongSentence": "When I got to the office, my boss has been waiting for me for twenty minutes.",
+      "options": [
+        {
+          "text": "When I got to the office, my boss had been waiting for me for twenty minutes.",
+          "isCorrect": true
+        },
+        {
+          "text": "When I got to the office, my boss was been waiting for me for twenty minutes.",
+          "isCorrect": false
+        },
+        {
+          "text": "When I got to the office, my boss has waiting for me for twenty minutes.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Приход в офис — точка в прошлом, и отсчёт закрыт на ней, поэтому нужен помощник had. Во втором варианте появился второй помощник was, в третьем после has потерялось been."
     }
   ],
   "construction_meaning_exercises": [
@@ -3831,6 +4370,29 @@
         }
       ],
       "explanation": "Слева изменилась сама вещь, и такое сообщает had плюс третья форма. Справа след остался на человеке, а это территория длительной формы: она рассказывает о занятии, а не о готовом деле."
+    },
+    {
+      "id": 103,
+      "taskDescription": "раздели ситуации по тому, до какого момента идёт отсчёт.",
+      "categories": [
+        {
+          "title": "Считаем до сейчас",
+          "items": [
+            "Жду до сих пор",
+            "Живу тут два года",
+            "Читаю книгу неделю"
+          ]
+        },
+        {
+          "title": "Считаем до момента в прошлом",
+          "items": [
+            "Ждал, пока он не пришёл",
+            "Жил там до переезда",
+            "Читал час, пока не сел телефон"
+          ]
+        }
+      ],
+      "explanation": "Слева отрезок упирается в эту самую минуту, и его закрывает форма с have или has. Справа стенка стоит в прошлом — приход, переезд, севший телефон, — и там нужен помощник had."
     }
   ],
   "find_the_odd_exercises": [
@@ -3925,6 +4487,29 @@
         }
       ],
       "explanation": "Слушать, готовить и читать можно час и два, а заметить происходит мгновенно — растягивать в этом глаголе нечего. Поэтому в длительную форму он и не встаёт."
+    },
+    {
+      "id": 90,
+      "groupDescription": "Три предложения считают отрезок до сегодняшнего дня, а одно — до момента в прошлом",
+      "items": [
+        {
+          "text": "I've been studying Spanish since April.",
+          "isOdd": false
+        },
+        {
+          "text": "They had been dancing when the music stopped.",
+          "isOdd": true
+        },
+        {
+          "text": "By now they've been driving for six hours.",
+          "isOdd": false
+        },
+        {
+          "text": "We've been living here for two years.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Во втором предложении стенка стоит на моменте, когда смолкла музыка, то есть в прошлом, — отсюда had been. В остальных отсчёт закрыт сегодняшним днём, и там работает have или has."
     }
   ]
 }
