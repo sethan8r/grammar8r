@@ -7,24 +7,24 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 469 |
-| Categorization | 102 |
+| Card | 475 |
+| Categorization | 103 |
 | Category | 8 |
-| ConstructionMeaning | 54 |
-| DialogRestore | 63 |
-| ErrorCorrection | 169 |
-| FindTheOdd | 88 |
-| Matching | 72 |
-| Microtopic | 179 |
-| MultipleChoice·CHOICE | 183 |
-| MultipleChoice·FORWARD_CHOICE | 210 |
-| MultipleChoice·REVERSE_CHOICE | 70 |
-| TableFill | 40 |
-| TextInput | 89 |
+| ConstructionMeaning | 56 |
+| DialogRestore | 65 |
+| ErrorCorrection | 171 |
+| FindTheOdd | 90 |
+| Matching | 74 |
+| Microtopic | 180 |
+| MultipleChoice·CHOICE | 186 |
+| MultipleChoice·FORWARD_CHOICE | 212 |
+| MultipleChoice·REVERSE_CHOICE | 72 |
+| TableFill | 41 |
+| TextInput | 90 |
 | Topic | 29 |
-| Transformation | 76 |
-| TrueFalse | 183 |
-| WordArrangement | 166 |
+| Transformation | 77 |
+| TrueFalse | 184 |
+| WordArrangement | 167 |
 | course_word | 730 |
 
 ## Диапазоны по темам
@@ -369,24 +369,24 @@
 - course_word: 607–655 (49)
 
 ### past-perfect-continuous
-- Card: 459–468 (10)
-- Categorization: 100–101 (2)
+- Card: 459–474 (16)
+- Categorization: 100–102 (3)
 - Category: 7–7 (1)
-- ConstructionMeaning: 53–53 (1)
-- DialogRestore: 61–62 (2)
-- ErrorCorrection: 166–168 (3)
-- FindTheOdd: 86–87 (2)
-- Matching: 71–71 (1)
-- Microtopic: 175–178 (4)
-- MultipleChoice·CHOICE: 182–182 (1)
-- MultipleChoice·FORWARD_CHOICE: 207–209 (3)
-- MultipleChoice·REVERSE_CHOICE: 68–69 (2)
-- TableFill: 38–39 (2)
-- TextInput: 86–88 (3)
+- ConstructionMeaning: 53–55 (3)
+- DialogRestore: 61–64 (4)
+- ErrorCorrection: 166–170 (5)
+- FindTheOdd: 86–89 (4)
+- Matching: 71–73 (3)
+- Microtopic: 175–179 (5)
+- MultipleChoice·CHOICE: 182–185 (4)
+- MultipleChoice·FORWARD_CHOICE: 207–211 (5)
+- MultipleChoice·REVERSE_CHOICE: 68–71 (4)
+- TableFill: 38–40 (3)
+- TextInput: 86–89 (4)
 - Topic: 28–28 (1)
-- Transformation: 74–75 (2)
-- TrueFalse: 180–182 (3)
-- WordArrangement: 162–165 (4)
+- Transformation: 74–76 (3)
+- TrueFalse: 180–183 (4)
+- WordArrangement: 162–166 (5)
 - course_word: 716–729 (14)
 
 ### past-perfect

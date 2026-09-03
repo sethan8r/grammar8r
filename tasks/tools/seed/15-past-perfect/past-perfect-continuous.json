@@ -46,6 +46,13 @@
       "title": "How Long Before · Сколько это длилось",
       "order": 4,
       "searchKeywords": "how long had you been, for или since в прошлом, by the time опоздал, уже не работал там, no longer или anymore"
+    },
+    {
+      "id": 179,
+      "topicId": 28,
+      "title": "had done vs had been doing · Итог или занятие",
+      "order": 6,
+      "searchKeywords": "had cooked или had been cooking, закончил дело или нет, had been finding нельзя, сколько или как долго, had lived или had been living"
     }
   ],
   "grammar_cards": [
@@ -1485,6 +1492,638 @@
         "Когда лучше сказать no longer, а когда anymore?",
         "Почему «уже не» нельзя перевести перфектом, если «уже сделал» можно?"
       ]
+    },
+    {
+      "id": 469,
+      "microtopicId": 179,
+      "title": "Одна сцена — две камеры",
+      "order": 1,
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это самая тяжёлая развилка темы, и разбирать её мы будем медленно — шесть карточек подряд об одном. Поэтому новых слов здесь нет совсем: всё, что понадобится, вы уже знаете, и голову можно занять только смыслом."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе формы стоят в одном и том же месте предложения, обе рассказывают о прошлом до прошлого, обе абсолютно законны. Поэтому первое ощущение «да они же говорят одно и то же» — нормальное, оно бывает у всех. Слова «результат» и «процесс» тут не спасают: для русского уха это два названия одного и того же события. Разводить формы будем не словами, а картинкой."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос, который решает всё"
+        },
+        {
+          "type": "paragraph",
+          "text": "Спрашивайте себя не «какая форма правильная», а вот это: **что я увижу, если войду в комнату в ту самую секунду?** Одно начало предложения, два разных хвоста — и в голове две разные комнаты."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Emma had cooked dinner when I got home.** — вхожу: на столе стоит еда, пахнет готовым ужином. Самой Эммы на кухне может уже и не быть — своё дело она сделала.",
+            "**Emma had been cooking dinner when I got home.** — вхожу: пар, шипит сковорода, Эмма у плиты или только что отошла. А готов ли ужин — из фразы не следует вообще."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Глагол один, слова одни, разница в одном куске формы — а человек видит две разные картины. Первая фраза показывает **вещь**, вторая — **сцену**."
+        },
+        {
+          "type": "heading",
+          "text": "Ещё три сцены, где комнаты расходятся"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Nick had fixed his bike before we left.** — велосипед на ходу, можно ехать ↔ **Nick had been fixing his bike before we left.** — Ник в гараже с ключами в руках, а поедем мы или нет, ещё вопрос",
+            "**They had packed the boxes by Friday.** — коробки стоят заклеенные ↔ **They had been packing the boxes all week.** — всю неделю в квартире шёл разбор, и половина вещей ещё на полу",
+            "**Lily had learned the song before the concert.** — песня выучена, можно выходить на сцену ↔ **Lily had been learning the song all month.** — месяц сидела с наушниками, а споёт ли — отдельный вопрос"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Had been cooking` не сообщает, что ужин готов, — а мы по привычке это додумываем. Русское «готовила» о готовности тоже молчит, просто в родном языке мы достраиваем смысл из ситуации и в английский тащим ту же привычку. Здесь достраивать нечего: форма говорит только про занятие."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Had` + третья форма показывает, **что к тому моменту уже есть**; `had been + -ing` — **что в тот момент только что шло**."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Формы разводит один вопрос: что я увижу, если войду в комнату в ту секунду? **Emma had cooked dinner when I got home** — на столе готовая еда, самой Эммы может и не быть; **Emma had been cooking dinner when I got home** — пар, сковорода, Эмма у плиты, а готов ли ужин, неизвестно. Так же **Nick had fixed his bike** (велосипед на ходу) ↔ **Nick had been fixing his bike** (Ник с ключами в гараже). Коротко: `had` + третья форма показывает, что к тому моменту уже есть, `had been + -ing` — что в тот момент только что шло.",
+      "examples": [
+        {
+          "ru": "Эмма приготовила ужин к моему приходу.",
+          "en": "Emma had cooked dinner when I got home."
+        },
+        {
+          "ru": "Эмма готовила ужин, когда я пришёл домой.",
+          "en": "Emma had been cooking dinner when I got home."
+        },
+        {
+          "ru": "Ник починил велосипед до нашего выезда.",
+          "en": "Nick had fixed his bike before we left."
+        },
+        {
+          "ru": "Ник возился с велосипедом перед нашим выездом.",
+          "en": "Nick had been fixing his bike before we left."
+        },
+        {
+          "ru": "Лили учила эту песню весь месяц.",
+          "en": "Lily had been learning the song all month."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему по-русски обе фразы звучат почти одинаково?",
+        "Как понять, что важна вещь, а что — сцена?",
+        "Что подумает собеседник, если я перепутаю формы?"
+      ]
+    },
+    {
+      "id": 470,
+      "microtopicId": 179,
+      "title": "По чему видно: по вещи или по человеку",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Первая карточка развела картинки. Но что делать, если представить сцену не выходит? Тогда работает второй ключ, самый осязаемый в этой микротеме: **ищите след**. Каждая форма оставляет его в своём месте."
+        },
+        {
+          "type": "heading",
+          "text": "Перфект оставляет след на вещи, длительный — на человеке"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**They had repaired the roof.** — смотри на крышу: она целая ↔ **They had been repairing the roof.** — смотри на них: в пыли, руки сбиты, а крыша может быть ещё в дырах",
+            "**Sara had ironed the shirts.** — смотри на рубашки: висят выглаженные ↔ **Sara had been ironing the shirts.** — смотри на Сару: красная от пара, а гора белья не кончилась",
+            "**Grandad had dug the garden.** — смотри на грядки: вскопаны ↔ **Grandad had been digging the garden.** — смотри на деда: сапоги в земле, спина не разгибается"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос, который стоит унести с собой: **по чему видно, что это было, — по вещи или по человеку?** По вещи — `had` + третья форма. По человеку — `had been + -ing`."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда и любимое соседство длительной формы с `because`, `so` и `that's why` — мы разбирали его в микротеме «Что тянулось до того момента». След на человеке как раз и просит объяснения: почему он такой."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He looked dusty because he had repaired the shelf** ✗ → **He looked dusty because he had been repairing the shelf** ✓. Пыль — это след на человеке, а `had repaired` рассказывает про полку. Грамматика в первом варианте цела, но отвечает он не на тот вопрос."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где этот ключ не работает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Иногда разглядывать нечего: **He had been thinking about it for weeks** — думал неделями, а увидеть это невозможно. Ключ со следом хорош ровно там, где в кадре есть вещь или человек; для остальных случаев в микротеме будет ещё три подхода."
+        }
+      ],
+      "theorySummary": "Второй ключ развилки — где остался след. Перфект оставляет его на вещи: **They had repaired the roof** (крыша целая), **Sara had ironed the shirts** (рубашки выглажены). Длительная форма — на человеке: **They had been repairing the roof** (сами в пыли, крыша может быть ещё в дырах), **Sara had been ironing the shirts** (красная от пара). Рабочий вопрос: по чему видно, что это было, — по вещи или по человеку? Отсюда и соседство длительной формы с `because` и `that's why`: след на человеке просит объяснения.",
+      "examples": [
+        {
+          "ru": "Они починили крышу.",
+          "en": "They had repaired the roof."
+        },
+        {
+          "ru": "Они чинили крышу — сами были в пыли.",
+          "en": "They had been repairing the roof."
+        },
+        {
+          "ru": "Сара выгладила рубашки.",
+          "en": "Sara had ironed the shirts."
+        },
+        {
+          "ru": "Сара гладила рубашки всё утро.",
+          "en": "Sara had been ironing the shirts all morning."
+        },
+        {
+          "ru": "У деда были сапоги в земле — он копал грядки.",
+          "en": "Grandad's boots were dirty — he had been digging the garden."
+        }
+      ],
+      "clarificationOptions": [
+        "А если след остался и на вещи, и на человеке?",
+        "Почему длительная форма так часто стоит после because?",
+        "Как выбрать форму, когда смотреть вообще не на что?"
+      ]
+    },
+    {
+      "id": 471,
+      "microtopicId": 179,
+      "title": "Доведено или нет",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Третий подход к той же развилке — про конец дела. `had` + третья форма говорит, что дело **доведено до конца**. `had been + -ing` про конец не сообщает **ничего**: может, доделал, может, бросил, а может, продолжал и дальше."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I had watched the whole series before we met.** — досмотрел, знаю, чем кончилось ↔ **I had been watching that series all evening.** — просидел над ней вечер, а сколько осталось, из фразы не видно",
+            "**He had built the shelf.** — полка стоит ↔ **He had been building the shelf since Saturday.** — пилит с субботы, конца не видно"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверка руками: дописать «и всё ещё не закончил»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самый надёжный способ проверить себя — попробовать приклеить к фразе хвост **and he still hadn't finished**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He had been building the shelf since Saturday, and he still hadn't finished.** ✓ — звучит нормально, никакого противоречия",
+            "**He had built the shelf, and he still hadn't finished.** ✗ — фраза спорит сама с собой: построил и не закончил одновременно"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Хвост приклеился — форма длительная. Хвост ломает фразу — перед вами итог. Это работает быстрее любых рассуждений о смысле."
+        },
+        {
+          "type": "heading",
+          "text": "Здесь родной язык впервые помогает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всю тему русский нам мешал, а в этом вопросе — наоборот. Нашу грань несёт **вид глагола**, и несёт довольно точно: «построил ↔ строил», «досмотрел ↔ смотрел», «прочитал ↔ читал». Разница ровно та же — доведено или нет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Но помогает вид только здесь. Как только вопрос не про конец дела, а про то, **что вы сообщаете** — опыт или занятие, — он снова начинает врать; это мы разбирали в микротеме «Результат или процесс»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**They had been building the bridge, so we could finally cross it** ✗ → **They had built the bridge, so we could finally cross it** ✓. Перейти можно только по готовому мосту, а длительная форма о готовности молчит — предложение спорит само с собой."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`had` + третья форма сообщает, что дело доведено до конца; `had been + -ing` о конце молчит: **I had watched the whole series** (досмотрел) ↔ **I had been watching that series all evening** (просидел вечер, конца не видно). Проверка руками: попробуйте дописать **and he still hadn't finished** — к длительной форме хвост приклеивается (**He had been building the shelf since Saturday, and he still hadn't finished** ✓), к перфектной нет (**He had built the shelf, and he still hadn't finished** ✗). В этом вопросе помогает русский вид: «построил ↔ строил».",
+      "examples": [
+        {
+          "ru": "Я досмотрел весь сериал до нашей встречи.",
+          "en": "I had watched the whole series before we met."
+        },
+        {
+          "ru": "Я смотрел этот сериал весь вечер.",
+          "en": "I had been watching that series all evening."
+        },
+        {
+          "ru": "Он собрал полку.",
+          "en": "He had built the shelf."
+        },
+        {
+          "ru": "Он собирал полку с субботы.",
+          "en": "He had been building the shelf since Saturday."
+        },
+        {
+          "ru": "Они построили мост, и мы наконец смогли перейти.",
+          "en": "They had built the bridge, so we could finally cross it."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему хвост «и всё ещё не закончил» так надёжно работает?",
+        "Русский вид всегда подсказывает верную форму?",
+        "Что будет, если я скажу об итоге длительной формой?"
+      ]
+    },
+    {
+      "id": 472,
+      "microtopicId": 179,
+      "title": "Сколько или как долго",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Бывает, что картинку представить не выходит, следа нет и конец дела не важен. Тогда решает не смысл, а то, что вы **уже сказали в этой же фразе**. Здесь работают два механических переключателя."
+        },
+        {
+          "type": "heading",
+          "text": "Назвали, СКОЛЬКО — говорите об итоге"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He had sent three messages before she answered.** ✓ — **He had been sending three messages** ✗",
+            "**She had knocked twice and left.** ✓",
+            "**I had watched two episodes before dinner.** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина житейская, и мы её проговаривали в микротеме «Результат или процесс»: посчитать можно только законченное. Полписьма письмом не считается, поэтому цифра и незакрытое занятие в одной фразе не уживаются."
+        },
+        {
+          "type": "heading",
+          "text": "Назвали, КАК ДОЛГО — говорите о ходе"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обороты **for two hours**, **all morning**, **since Monday** меряют не количество, а длину занятия — и тянут за собой длительную форму."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**They had been driving for three hours when the engine died.** ✓",
+            "**We had been standing there all morning.** ✓"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сколько сделал → had + третья форма · как долго занимался → had been + -ing"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Пара вопросов, которая проверяет за секунду"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How many had you sent?** — жду цифру, значит форма перфектная",
+            "**How long had you been sending them?** — жду срок, значит длительная"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Глаголы-состояния (**know, want, love, own**) в длительную форму не встают вообще, даже когда рядом стоит срок: **I had been knowing him for years** ✗ → **I had known him for years** ✓. Почему именно эти глаголы её не принимают, разобрано в микротеме «Результат или процесс» — здесь только напоминаем."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский спокойно говорит «я до этого дважды ему звонил» — у нас счёт прекрасно уживается с несовершенным видом. В английском цифра закрывает выбор наглухо: **I had called him twice** ✓, и никакой длительной формы рядом с `twice` быть не может."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Два механических переключателя. Названо количество — только перфект: **He had sent three messages before she answered** ✓, **had been sending three messages** ✗ (посчитать можно лишь законченное). Назван срок — **for two hours**, **all morning**, **since Monday** — длительная форма: **They had been driving for three hours when the engine died** ✓. Проверочная пара: **How many had you sent?** ждёт цифру, **How long had you been sending them?** ждёт срок. Глаголы-состояния в длительную форму не встают: **I had been knowing him** ✗ → **I had known him for years** ✓.",
+      "examples": [
+        {
+          "ru": "Он отправил три сообщения, прежде чем она ответила.",
+          "en": "He had sent three messages before she answered."
+        },
+        {
+          "ru": "Она постучала дважды и ушла.",
+          "en": "She had knocked twice and left."
+        },
+        {
+          "ru": "Они ехали три часа, когда заглох двигатель.",
+          "en": "They had been driving for three hours when the engine died."
+        },
+        {
+          "ru": "Как долго ты их отправлял?",
+          "en": "How long had you been sending them?"
+        },
+        {
+          "ru": "Я знал его много лет.",
+          "en": "I had known him for years."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя посчитать то, что ещё не закончено?",
+        "А если я хочу назвать и количество, и срок?",
+        "Почему know не встаёт в длительную форму даже со сроком?"
+      ]
+    },
+    {
+      "id": 473,
+      "microtopicId": 179,
+      "title": "Глаголы, которые нельзя тянуть",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последний фильтр — самый механический, и он снимает целый класс ошибок разом. Прежде чем выбирать между формами, спросите: **а это вообще можно делать долго?**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Часть глаголов называет не занятие, а **щелчок** — событие длиной в мгновение: **to find, to arrive, to win, to notice, to break, to lose**. Тянуть в них нечего, поэтому длительная форма к ним просто не прикладывается."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I had been finding my keys** ✗ → **I had been looking for my keys** ✓ — искать можно час, найти — мгновение",
+            "**We had been arriving at the station** ✗ → **We had arrived at the station** ✓",
+            "**He had been winning the game** ✗ → **He had been playing well all evening** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "У каждого щелчка есть занятие-напарник"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Щелчок",
+            "Занятие, которое к нему ведёт"
+          ],
+          "rows": [
+            [
+              "to find",
+              "to look for"
+            ],
+            [
+              "to arrive",
+              "to travel"
+            ],
+            [
+              "to win",
+              "to play"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Если тянуть хочется, а глагол не даёт — значит нужен его напарник. Смысл при этом не теряется: занятие вы называете честно, а щелчок оставляете в простой форме."
+        },
+        {
+          "type": "heading",
+          "text": "Родной язык тут на нашей стороне"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «я два часа находил ключи» звучит так же криво, как по-английски: мы скажем «искал». Значит, проверить себя можно прямо на русском — если несовершенный вид звучит странно, английская длительная форма тоже не встанет."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Щелчок в длительной форме иногда всё-таки встречается, но означает уже не одно событие, а **серию повторов**: **He had been dropping his phone all day** — ронял его весь день, раз за разом. Тот же поворот мы видели в микротеме «Полоса повторов в последнее время»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The film had been starting when we sat down** ✗ → **The film had started when we sat down** ✓. Начало — это точка, растянуть её нельзя. О том, что действительно тянулось, скажет другой глагол: **we had been waiting in the queue** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Перед выбором формы проверьте, можно ли этот глагол делать долго. Щелчки — **to find, to arrive, to win, to notice, to break, to lose** — называют событие длиной в мгновение и длительную форму не принимают: **I had been finding my keys** ✗ → **I had been looking for my keys** ✓, **We had been arriving** ✗ → **We had arrived** ✓. У каждого щелчка есть занятие-напарник: find ↔ look for, arrive ↔ travel, win ↔ play. Русский подсказывает то же самое: «два часа находил ключи» звучит так же криво. В длительной форме щелчок означает уже серию повторов: **He had been dropping his phone all day**.",
+      "examples": [
+        {
+          "ru": "Я искал ключи полчаса.",
+          "en": "I had been looking for my keys for half an hour."
+        },
+        {
+          "ru": "Мы добрались до вокзала к семи.",
+          "en": "We had arrived at the station by seven."
+        },
+        {
+          "ru": "Он весь вечер хорошо играл.",
+          "en": "He had been playing well all evening."
+        },
+        {
+          "ru": "Он весь день ронял телефон.",
+          "en": "He had been dropping his phone all day."
+        },
+        {
+          "ru": "Фильм уже начался, когда мы сели.",
+          "en": "The film had started when we sat down."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, что глагол называет мгновение?",
+        "Почему у щелчка в длительной форме получаются повторы?",
+        "А если нужного занятия-напарника я не знаю?"
+      ]
+    },
+    {
+      "id": 474,
+      "microtopicId": 179,
+      "title": "Компас: итог или занятие",
+      "order": 6,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пять карточек мы разводили две формы. Теперь соберём всё в одно место и заодно скажем то, что снимает страх ошибиться."
+        },
+        {
+          "type": "heading",
+          "text": "Где выбора нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Четыре случая, и все четыре мы уже разобрали:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Важен готовый итог — **He had finished the report, so we could send it** ✓",
+            "Названо количество — **She had made six calls before lunch** ✓",
+            "Глагол называет состояние — **I had known her since school** ✓",
+            "Глагол называет щелчок — **They had arrived by six** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где годятся обе формы"
+        },
+        {
+          "type": "paragraph",
+          "text": "У глаголов длительного состояния — **live, work, study, teach** — носитель говорит и так, и так:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I had lived there for years.** ≈ **I had been living there for years.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница есть, но крошечная: у длительной формы оттенок «это было временно», у перфектной — «так оно и было». В разговоре её почти никто не отследит, и обе фразы вы услышите от носителей."
+        },
+        {
+          "type": "heading",
+          "text": "Компас на один экран"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Вошёл бы в комнату — увидел готовое или человека в процессе?",
+            "Назван итог или количество → `had` + третья форма.",
+            "Назван срок или «как долго» → `had been + -ing`.",
+            "Можно дописать «и всё ещё не закончил»? Да → длительная форма.",
+            "А это вообще можно делать долго? Нет → только `had` + третья форма."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок не случайный: первый шаг про смысл, остальные механические. Если сработал механический — оттенки его уже не перебьют, и думать дальше не нужно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В живом разговоре носители часто обходятся без этой формы вовсе — берут Past Perfect или простое прошедшее. Длительный перфект прошлого живёт в основном в письменном рассказе и в книгах, так что ошибиться в речи у вас будет не так много шансов."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Страшные места этой микротемы — итог, количество, состояние и щелчок; там форма меняет смысл или ломает фразу. Выбор между **I had lived there for years** и **I had been living there for years** не меняет почти ничего — тормозить из-за него не стоит."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Выбора нет в четырёх случаях: важен готовый итог (**He had finished the report**), названо количество (**She had made six calls**), глагол называет состояние (**I had known her since school**), глагол называет щелчок (**They had arrived by six**) — везде `had` + третья форма. У глаголов live, work, study, teach годятся обе формы: **I had lived there for years** ≈ **I had been living there for years**. Компас: (1) увидел бы готовое или человека в процессе? (2) итог или количество → перфект; (3) срок → длительная; (4) приклеивается «и всё ещё не закончил» → длительная; (5) глагол-щелчок → только перфект.",
+      "examples": [
+        {
+          "ru": "Он закончил отчёт, и мы смогли его отправить.",
+          "en": "He had finished the report, so we could send it."
+        },
+        {
+          "ru": "Она сделала шесть звонков до обеда.",
+          "en": "She had made six calls before lunch."
+        },
+        {
+          "ru": "Я знал её со школы.",
+          "en": "I had known her since school."
+        },
+        {
+          "ru": "Они приехали к шести.",
+          "en": "They had arrived by six."
+        },
+        {
+          "ru": "Я прожил там много лет.",
+          "en": "I had lived there for years."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что я попал в серую зону, где верны обе формы?",
+        "Что делать, если два шага компаса тянут в разные стороны?",
+        "Если носители редко берут эту форму, зачем она мне?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1673,6 +2312,144 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 87,
       "orderInCard": 4
+    },
+    {
+      "cardId": 469,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 70,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 469,
+      "exerciseType": "MATCHING",
+      "exerciseId": 72,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 469,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 54,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 469,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 166,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 470,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 102,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 470,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 210,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 470,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 169,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 470,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 63,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 471,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 183,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 471,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 183,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 471,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 88,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 471,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 89,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 472,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 40,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 472,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 184,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 472,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 76,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 472,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 71,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 473,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 89,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 473,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 170,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 473,
+      "exerciseType": "MATCHING",
+      "exerciseId": 73,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 473,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 211,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 474,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 185,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 474,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 55,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 474,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 64,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1707,6 +2484,14 @@
       "userInstruction": "ИИ опишет ситуацию из прошлого и спросит, сколько это длилось. Ответьте целым английским предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "past_perfect_continuous_card474_ex1",
+      "cardId": 474,
+      "title": "Итог или занятие",
+      "userInstruction": "ИИ опишет ситуацию из прошлого. Напишите по-русски, что здесь сообщают — итог или занятие, — и назовите деталь, которая это решает.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -1897,6 +2682,33 @@
         }
       ],
       "explanation": "for идёт с длиной отрезка (two hours, ten minutes, ages), since — с точкой, от которой отсчёт начался (Monday, 2015, lunchtime)."
+    },
+    {
+      "id": 40,
+      "taskDescription": "впиши форму глагола, которая подходит этой подсказке.",
+      "rows": [
+        {
+          "hint": "She + to call + twice",
+          "answer": "had called"
+        },
+        {
+          "hint": "We + to walk + since morning",
+          "answer": "had been walking"
+        },
+        {
+          "hint": "Lena + to buy + three tickets",
+          "answer": "had bought"
+        },
+        {
+          "hint": "They + to wait + all morning",
+          "answer": "had been waiting"
+        },
+        {
+          "hint": "He + to want a bike + since spring",
+          "answer": "had wanted"
+        }
+      ],
+      "explanation": "Количество тянет перфект, потому что посчитать можно только законченное: had called, had bought. Срок тянет длительную форму: had been walking, had been waiting. Глагол want называет состояние и в длительную форму не встаёт даже со сроком."
     }
   ],
   "true_false_exercises": [
@@ -1992,6 +2804,37 @@
         }
       ],
       "explanation": "Во второй строке срок «десять лет» это длина, значит нужен for. В пятой вопрос про накопленный срок задан длительным прошедшим, а оно отвечает только «что шло в тот момент»."
+    },
+    {
+      "id": 183,
+      "statements": [
+        {
+          "en": "Sam had finished his homework before the film started.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They had been build the house for two years.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She had been studying all night and still hadn't finished.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He had been finished the report by Monday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We had already eaten when they arrived.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во второй строке после been глагол остался в первой форме, а нужен -ing: had been building. В четвёртой после been стоит третья форма, и получилась смесь двух конструкций: либо had finished, либо had been finishing."
     }
   ],
   "word_arrangement_exercises": [
@@ -2081,6 +2924,27 @@
         "ages"
       ],
       "explanation": "Два часа это длина отрезка, поэтому for, а не since. Ожидание тянулось до открытия дверей и уходит в had been waiting, само открытие остаётся простым opened."
+    },
+    {
+      "id": 166,
+      "situationRu": "Ситуация: Оля объясняет, почему к приходу гостей салат уже стоял на столе.",
+      "correctSentence": "She had made the salad before they came.",
+      "words": [
+        "She",
+        "had",
+        "made",
+        "the salad",
+        "before",
+        "they",
+        "came"
+      ],
+      "distractors": [
+        "been",
+        "making",
+        "was",
+        "since"
+      ],
+      "explanation": "На столе готовая вещь, а готовую вещь показывает had плюс третья форма. Со словами been и making собралась бы сцена «резала салат», а was и since здесь не нужны вовсе."
     }
   ],
   "multiple_choice_exercises": [
@@ -2209,6 +3073,153 @@
         }
       ],
       "explanation": "no longer сообщает, что положение дел закончилось: раньше жила, к тому моменту уже нет. Про то, что человек где-то давно живёт, говорили бы совсем другой формой."
+    },
+    {
+      "id": 70,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Greg had been drawing a picture when we arrived.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Грег нарисовал картину, к нашему приходу она была готова.",
+          "isCorrect": false
+        },
+        {
+          "text": "К нашему приходу он как раз сидел над картиной — готова она или нет, неизвестно.",
+          "isCorrect": true
+        },
+        {
+          "text": "Грег только собирался рисовать картину, когда мы приехали.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Длительная форма показывает сцену: человек в процессе, о готовой вещи она ничего не сообщает. О готовой картине сказали бы Greg had drawn a picture."
+    },
+    {
+      "id": 210,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Рубашка Паши была в пыли — до этого он разбирал гараж.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Pasha's shirt was dusty — he had cleared the garage.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pasha's shirt was dusty — he had been cleared the garage.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pasha's shirt was dusty — he had been clearing the garage.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Пыль осталась на человеке, значит объясняем занятие: had been clearing. Первый вариант сообщил бы про готовый гараж, а во втором после been стоит третья форма вместо -ing."
+    },
+    {
+      "id": 183,
+      "choiceType": "CHOICE",
+      "prompt": "Oliver ___ the gate by Friday, so we could finally park inside.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "had been fixing",
+          "isCorrect": false
+        },
+        {
+          "text": "was fixing",
+          "isCorrect": false
+        },
+        {
+          "text": "had fixed",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Заехать во двор можно только через починенные ворота, а готовое дело показывает had плюс третья форма. Длительная форма о готовности молчит, поэтому со второй частью предложения она спорит."
+    },
+    {
+      "id": 184,
+      "choiceType": "CHOICE",
+      "prompt": "How long ___ before the bus finally came?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "had you been waiting",
+          "isCorrect": true
+        },
+        {
+          "text": "had you waited",
+          "isCorrect": false
+        },
+        {
+          "text": "did you wait",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вопрос начинается с how long и ждёт срок, а срок занятия называет длительная форма. Простое прошедшее рассказало бы просто о факте, без привязки к моменту прихода автобуса."
+    },
+    {
+      "id": 71,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Ira had booked three tickets before lunch.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Ира всё утро сидела над билетами.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ира собиралась забронировать три билета до обеда.",
+          "isCorrect": false
+        },
+        {
+          "text": "До обеда Ира успела забронировать три билета.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Названо количество, а количество бывает только у законченных дел — значит фраза сообщает итог. О времени, проведённом за бронированием, сказали бы had been booking без цифры."
+    },
+    {
+      "id": 211,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мы ехали всю ночь и добрались до аэропорта только утром.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We had been reaching the airport all night and drove there.",
+          "isCorrect": false
+        },
+        {
+          "text": "We had been driving all night and reached the airport in the morning.",
+          "isCorrect": true
+        },
+        {
+          "text": "We had been driving all night and had been reaching the airport.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Тянуться всю ночь может дорога, а не прибытие: had been driving. Глагол reach называет мгновение, поэтому в длительной форме он звучит неправильно."
+    },
+    {
+      "id": 185,
+      "choiceType": "CHOICE",
+      "prompt": "By six o'clock Jake ___ all the dishes, and the sink was empty.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "had been washing",
+          "isCorrect": false
+        },
+        {
+          "text": "had washed",
+          "isCorrect": true
+        },
+        {
+          "text": "was washing",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Пустая раковина — это готовый итог, а итог показывает had плюс третья форма. Длительная форма рассказала бы о занятии и о готовности посуды промолчала."
     }
   ],
   "text_input_exercises": [
@@ -2291,6 +3302,36 @@
       ],
       "explanation": "By the time ставит границу, к которой всё набежало; no longer сообщает, что положение дел закончилось; for называет длину отрезка.",
       "taskDescription": "Впиши недостающее слово."
+    },
+    {
+      "id": 89,
+      "items": [
+        {
+          "sentence": "Lena ___ the whole report, so she knew all the numbers.",
+          "contextRu": "",
+          "answer": "had read",
+          "alternatives": []
+        },
+        {
+          "sentence": "The kids ___ in the yard for two hours when it got dark.",
+          "contextRu": "",
+          "answer": "had been playing",
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ twice before he finally opened the door.",
+          "contextRu": "",
+          "answer": "had knocked",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом предложении отчёт дочитан до конца, в третьем названо количество — это готовые итоги. Во втором назван срок, в течение которого шло занятие, и он тянет длительную форму.",
+      "taskDescription": "Впиши подходящий глагол из банка в той форме, которую требует предложение.",
+      "wordBank": [
+        "to play",
+        "to knock",
+        "to read"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -2357,6 +3398,70 @@
         }
       ],
       "explanation": "На вопрос о сроке отвечают коротким куском с for: десять минут это длина отрезка. Since поставил бы на её место точку старта, а настоящее время I look к прошлому разговору не подходит."
+    },
+    {
+      "id": 63,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why did Lily look so tired at the party?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "No wonder she left early."
+        }
+      ],
+      "options": [
+        {
+          "text": "She had helped her father in the shop.",
+          "isCorrect": false
+        },
+        {
+          "text": "She had been helping her father in the shop all day.",
+          "isCorrect": true
+        },
+        {
+          "text": "She has been helping her father in the shop.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Усталый вид — это след на человеке, и объясняет его занятие, которое тянулось до вечеринки. Первый вариант сообщил бы о сделанном деле, а третий считает до сегодняшнего дня, тогда как вечеринка уже в прошлом."
+    },
+    {
+      "id": 64,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Had you been waiting long when the doctor called you in?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "That's not too bad."
+        }
+      ],
+      "options": [
+        {
+          "text": "About twenty minutes, I think.",
+          "isCorrect": true
+        },
+        {
+          "text": "Yes, I had waited three patients.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, I had been waiting twice.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вопрос how long ждёт срок, и ответ называет именно его. Второй и третий варианты отвечают количеством, а количество на вопрос о сроке не отвечает."
     }
   ],
   "matching_exercises": [
@@ -2382,6 +3487,52 @@
         }
       ],
       "explanation": "В каждой паре первая часть описывает, что было видно в тот момент, а вторая называет занятие, которое этот вид оставило после себя."
+    },
+    {
+      "id": 72,
+      "taskDescription": "соедини форму с тем, что человек увидел бы на месте.",
+      "pairs": [
+        {
+          "left": "Ben had washed the dog",
+          "right": "Собака чистая и сухая"
+        },
+        {
+          "left": "Ben had been washing the dog",
+          "right": "Бен сам мокрый с головы до ног"
+        },
+        {
+          "left": "Ira had counted the money",
+          "right": "Деньги посчитаны, сумма известна"
+        },
+        {
+          "left": "Ira had been counting the money",
+          "right": "Ира сидит с пачкой купюр, конца не видно"
+        }
+      ],
+      "explanation": "Перфектная форма показывает готовую вещь, длительная — сцену с человеком внутри. Поэтому в первом случае мы смотрим на собаку и деньги, а во втором — на Бена и Иру."
+    },
+    {
+      "id": 73,
+      "taskDescription": "соедини мгновенное событие с занятием, которое к нему вело.",
+      "pairs": [
+        {
+          "left": "to find the wallet",
+          "right": "to search the room"
+        },
+        {
+          "left": "to win the race",
+          "right": "to train every day"
+        },
+        {
+          "left": "to break the plate",
+          "right": "to wash up"
+        },
+        {
+          "left": "to start the film",
+          "right": "to wait for everyone"
+        }
+      ],
+      "explanation": "Слева события длиной в мгновение, тянуть их нельзя. Справа занятия, которые к ним привели, — вот они и встают в длительную форму, если нужно рассказать, что шло до момента."
     }
   ],
   "error_correction_exercises": [
@@ -2441,6 +3592,44 @@
         }
       ],
       "explanation": "«Уже не» это не перфект, а простое сообщение «раньше работал, теперь нет»: no longer плюс простое прошедшее. Со словом already отрицание не строится вообще."
+    },
+    {
+      "id": 169,
+      "wrongSentence": "The boy was soaked because he had been walk in the rain.",
+      "options": [
+        {
+          "text": "The boy was soaked because he had been walking in the rain.",
+          "isCorrect": true
+        },
+        {
+          "text": "The boy was soaked because he had walk in the rain.",
+          "isCorrect": false
+        },
+        {
+          "text": "The boy was soaked because he was been walking in the rain.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После been смысловой глагол всегда стоит с -ing. Во втором варианте глагол остался в первой форме, а в третьем прилетел второй помощник was, которого в предложении быть не может."
+    },
+    {
+      "id": 170,
+      "wrongSentence": "She had been losing her phone when we left the café.",
+      "options": [
+        {
+          "text": "She had lost her phone when we left the café.",
+          "isCorrect": true
+        },
+        {
+          "text": "She had been lose her phone when we left the café.",
+          "isCorrect": false
+        },
+        {
+          "text": "She had been losing her phone when we had left the café.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Потерять телефон можно только мгновенно, поэтому длительная форма к этому глаголу не прикладывается. Во втором варианте у глагола пропало -ing, а в третьем во флешбэк одели ещё и уход из кафе, хотя это событие самой сцены."
     }
   ],
   "construction_meaning_exercises": [
@@ -2466,6 +3655,52 @@
         }
       ],
       "explanation": "После 'd стоит been — значит, за хвостиком прячется had, и речь о споре, который тянулся с обеда. Вариант «бы» дало бы would с первой формой: they'd argue."
+    },
+    {
+      "id": 54,
+      "construction": "The boys had been playing football when the rain started.",
+      "options": [
+        {
+          "text": "Когда начался дождь, мальчики уже какое-то время играли в футбол.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мальчики успели сыграть в футбол до дождя, матч закончился.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мальчики собирались играть в футбол, но пошёл дождь.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мальчики играют в футбол каждый раз, когда идёт дождь.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Форма had been playing показывает сцену, которая шла до момента в прошлом: дождь застал игру. О законченном матче сказали бы had played, о намерении — совсем другой конструкцией."
+    },
+    {
+      "id": 55,
+      "construction": "I had been working at that school for three years.",
+      "options": [
+        {
+          "text": "Я проработал в той школе ровно три года и ушёл.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я работаю в той школе три года.",
+          "isCorrect": false
+        },
+        {
+          "text": "К тому моменту я работал в той школе уже три года.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я собирался проработать в той школе три года.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Форма had been working считает срок до момента в прошлом: к той точке набежало три года. О сегодняшнем дне говорила бы форма с have, а о планах — совсем другая конструкция."
     }
   ],
   "transformation_exercises": [
@@ -2506,6 +3741,25 @@
         }
       ],
       "explanation": "Отрезок собирается одинаково: had + been + глагол с -ing. Само подлежащее и хвост предложения при этом не меняются — форма одна на все лица."
+    },
+    {
+      "id": 76,
+      "taskDescription": "задай к каждому предложению вопрос со словами How long.",
+      "items": [
+        {
+          "original": "She had been sleeping for an hour.",
+          "transformed": "How long had she been sleeping?"
+        },
+        {
+          "original": "They had been swimming since noon.",
+          "transformed": "How long had they been swimming?"
+        },
+        {
+          "original": "He had been waiting outside.",
+          "transformed": "How long had he been waiting?"
+        }
+      ],
+      "explanation": "Вопрос о сроке строится так: How long, потом had, потом подлежащее, потом been и глагол с -ing. Срок из утвердительной фразы при этом уходит — про него и спрашивают."
     }
   ],
   "categorization_exercises": [
@@ -2554,6 +3808,29 @@
         }
       ],
       "explanation": "Левый столбик называет момент, в который упирается отрезок, правый — сколько этот отрезок длился. В предложении обычно есть и то, и другое."
+    },
+    {
+      "id": 102,
+      "taskDescription": "раздели картины по тому, где остался след.",
+      "categories": [
+        {
+          "title": "Видно по вещи",
+          "items": [
+            "Пол блестит",
+            "Забор покрашен",
+            "Посуда убрана"
+          ]
+        },
+        {
+          "title": "Видно по человеку",
+          "items": [
+            "Руки в земле",
+            "Футболка мокрая от пота",
+            "Пальцы в чернилах"
+          ]
+        }
+      ],
+      "explanation": "Слева изменилась сама вещь, и такое сообщает had плюс третья форма. Справа след остался на человеке, а это территория длительной формы: она рассказывает о занятии, а не о готовом деле."
     }
   ],
   "find_the_odd_exercises": [
@@ -2602,6 +3879,52 @@
         }
       ],
       "explanation": "Первая, третья и четвёртая называют момент, в который упирается отрезок. Оборот for three hours straight отвечает на другой вопрос — сколько это длилось."
+    },
+    {
+      "id": 88,
+      "groupDescription": "Три предложения не сообщают, доведено ли дело, а одно сообщает, что оно закончено",
+      "items": [
+        {
+          "text": "She had been writing postcards all evening.",
+          "isOdd": false
+        },
+        {
+          "text": "He had washed every window in the house.",
+          "isOdd": true
+        },
+        {
+          "text": "They had been clearing the snow since morning.",
+          "isOdd": false
+        },
+        {
+          "text": "I had been trying to call her for an hour.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Во втором предложении дело закрыто: все окна вымыты, и это готовый итог. В остальных названо занятие, а закончилось оно или нет, из фразы не следует."
+    },
+    {
+      "id": 89,
+      "groupDescription": "Три глагола называют занятие, которое можно тянуть, а один — мгновенное событие",
+      "items": [
+        {
+          "text": "to listen",
+          "isOdd": false
+        },
+        {
+          "text": "to cook",
+          "isOdd": false
+        },
+        {
+          "text": "to notice",
+          "isOdd": true
+        },
+        {
+          "text": "to read",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Слушать, готовить и читать можно час и два, а заметить происходит мгновенно — растягивать в этом глаголе нечего. Поэтому в длительную форму он и не встаёт."
     }
   ]
 }
