@@ -32,6 +32,13 @@
       "title": "Cheat Sheet · Каждый перфект одной фразой",
       "order": 2,
       "searchKeywords": "что значит i've been doing, узнать форму по маркеру, ever never already какая форма, by the time какая форма, как понять чужую фразу"
+    },
+    {
+      "id": 184,
+      "topicId": 29,
+      "title": "Which One · Как выбрать за две секунды",
+      "order": 3,
+      "searchKeywords": "какую форму выбрать, have seen yesterday почему нельзя, did you had been ошибка, had в каждом предложении, потерялось been"
     }
   ],
   "grammar_cards": [
@@ -604,23 +611,433 @@
         "Почему русский перевод не помогает уловить разницу?",
         "Как тренировать понимание чужих фраз вне приложения?"
       ]
+    },
+    {
+      "id": 482,
+      "microtopicId": 184,
+      "title": "Компас: два вопроса подряд",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Разбор кончился, дальше нужна скорость. В голове русская мысль, изо рта должна выйти английская фраза — и полминуты на раздумья вам никто не даст, разговор не ждёт. Хорошая новость: долго думать и не надо. Есть два вопроса, всегда одни и те же и всегда в одном порядке."
+        },
+        {
+          "type": "heading",
+          "text": "Компас"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Есть в моей мысли вторая прошлая точка? Нет → `have/has`. Да → `had`.",
+            "Есть срок? Есть → `been + -ing`. Нет → `V3`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок не меняем. Первый вопрос выбирает этаж — говорю я про сегодняшний день или про момент в прошлом. Второй выбирает, что на этом этаже поставить. Начнёте со второго — придётся возвращаться к первому."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Третьего вопроса нет. Никаких «а это результат или количество, а доведено ли дело до конца» — эти оттенки мы разбирали в своё время, и в момент разговора они только тормозят. Два вопроса, и говорим."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Прогоняем на живых ситуациях"
+        },
+        {
+          "type": "paragraph",
+          "text": "Читайте мысль слева и сразу отвечайте себе на два вопроса — ответ справа:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Хочу похвастаться, что новый сезон уже посмотрел → второй точки нет, срока нет → **I have watched the new season.**",
+            "Хочу сказать, что смотрю его с пятницы и ещё не досмотрел → точки нет, срок есть → **I have been watching it since Friday.**",
+            "Рассказываю про вчерашний вечер: включил телевизор, а серия уже шла минут двадцать → точка есть, срока нет → **When I turned on the TV, the episode had already started.**",
+            "К закрытию кафе я проработал там три года → точка есть, срок есть → **I had been working at that café for three years when it closed.**",
+            "Знакомлюсь и спрашиваю про опыт вообще → точки нет, срока нет → **Have you ever slept on a night train?**",
+            "Объясняю, почему опоздал на встречу → точки нет, срок есть → **I have been sitting in traffic since two.**",
+            "Вспоминаю поездку: пришли на вокзал, а поезда уже нет → точка есть, срока нет → **We got to the station, but the train had gone.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметьте, как мало тут думанья. Вы не вспоминаете правила про опыт, результат и незаконченное время — вы смотрите, есть ли в мысли вторая точка и срок, и всё."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Две секунды получатся не сразу. Первое время вы будете честно проговаривать оба вопроса про себя, и это нормальный этап — так и должно быть. Через сотню-другую фраз проговаривать перестанете: форма начнёт приходить сразу, а компас останется только для трудных случаев."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Компас из двух вопросов, строго по порядку. Первый: есть ли в мысли вторая прошлая точка — нет значит `have/has`, да значит `had`. Второй: есть ли срок — есть значит `been + -ing`, нет значит `V3`. Первый вопрос выбирает этаж (сегодняшний день или момент в прошлом), второй — что на этом этаже поставить. Третьего вопроса нет: оттенки вроде «результат или количество» в момент разговора только тормозят.",
+      "examples": [
+        {
+          "ru": "Я уже посмотрел новый сезон.",
+          "en": "I have watched the new season."
+        },
+        {
+          "ru": "Я смотрю его с пятницы.",
+          "en": "I have been watching it since Friday."
+        },
+        {
+          "ru": "Когда я включил телевизор, серия уже шла.",
+          "en": "When I turned on the TV, the episode had already started."
+        },
+        {
+          "ru": "К закрытию кафе я проработал там уже три года.",
+          "en": "I had been working at that café for three years when it closed."
+        },
+        {
+          "ru": "Вы когда-нибудь спали в ночном поезде?",
+          "en": "Have you ever slept on a night train?"
+        },
+        {
+          "ru": "Мы дошли до вокзала, но поезд уже ушёл.",
+          "en": "We got to the station, but the train had gone."
+        }
+      ],
+      "clarificationOptions": [
+        "Что делать, если я не понимаю, есть в мысли вторая точка или нет?",
+        "Почему нельзя начать со второго вопроса?",
+        "Как быть, если ответ на оба вопроса неочевиден?"
+      ]
+    },
+    {
+      "id": 483,
+      "microtopicId": 184,
+      "title": "Чек-лист: топ-ловушка каждой формы",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Четыре формы — четыре типичные ошибки, по одной на каждую. Это не разбор заново, а список для быстрой сверки: увидели у себя такое — стоп, переделать."
+        },
+        {
+          "type": "heading",
+          "text": "По одной ловушке на форму"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`have done` тянет к конкретной дате: **We have moved to Krakow in 2019** ✗ → **We moved to Krakow in 2019** ✓. Названа дата — рассказ ушёл в прошлое, и перфект туда не заходит.",
+            "`have been doing` цепляют к глаголу состояния: **I have been wanting a bike since spring** ✗ → **I have wanted a bike since spring** ✓. Знать, хотеть, любить не тянутся, у них длительной формы нет.",
+            "`had done` лепят к каждому глаголу рассказа: **I had come home, had cooked dinner and had gone to bed** ✗ → **I came home, cooked dinner and went to bed** ✓. События идут цепочкой по порядку, никто никуда не забегает вперёд — значит и флешбэк не нужен.",
+            "`had been doing` теряет свои детали: **Did you had been waiting?** ✗ и **They had waiting for an hour** ✗ → **Had you been waiting?** ✓ и **They had been waiting for an hour** ✓. В вопросе `had` уходит вперёд сам, помощник `did` тут не работает; `been` не выкидываем."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Три из четырёх ошибок — не про смысл, а про лишнее движение: приписали дату, приписали had, приписали did. Английский в этих местах и так всё сказал формой, добавлять ничего не надо."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "По одной частой ошибке на форму. `have done` с конкретной датой: **We have moved to Krakow in 2019** ✗ → **We moved to Krakow in 2019** ✓. `have been doing` с глаголом состояния: **I have been wanting a bike** ✗ → **I have wanted a bike** ✓. `had done` в каждом глаголе обычной цепочки событий: **I had come home, had cooked dinner** ✗ → **I came home, cooked dinner** ✓. `had been doing` с помощником did и без been: **Did you had been waiting?** ✗ → **Had you been waiting?** ✓.",
+      "examples": [
+        {
+          "ru": "Мы переехали в Краков в 2019 году.",
+          "en": "We moved to Krakow in 2019."
+        },
+        {
+          "ru": "Я хочу велосипед с весны.",
+          "en": "I have wanted a bike since spring."
+        },
+        {
+          "ru": "Я пришёл домой, приготовил ужин и лёг спать.",
+          "en": "I came home, cooked dinner and went to bed."
+        },
+        {
+          "ru": "Ты долго там стоял?",
+          "en": "Had you been standing there long?"
+        },
+        {
+          "ru": "Они ждали уже час.",
+          "en": "They had been waiting for an hour."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему с датой в прошлом нельзя ставить перфект?",
+        "Какие ещё глаголы не тянутся, кроме знать и любить?",
+        "Как проверить себя, если я уже написал предложение?"
+      ]
     }
   ],
-  "card_exercise_index": [],
+  "card_exercise_index": [
+    {
+      "cardId": 482,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 187,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 482,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 73,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 482,
+      "exerciseType": "MATCHING",
+      "exerciseId": 74,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 483,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 172,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 483,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 185,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 483,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 77,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 483,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 91,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 483,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 91,
+      "orderInCard": 4
+    }
+  ],
   "ai_exercises": [],
   "course_word_groups": [],
   "course_categories": [],
   "course_words": [],
   "table_fill_exercises": [],
-  "true_false_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 185,
+      "statements": [
+        {
+          "en": "Did she had been cooking all day?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Nina has been training for the race since April.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I have been knowing Oleg since university.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "By seven the museum had closed.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She has finished the course last month.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "В первой строке помощник did лишний — в вопросе had уходит вперёд сам. В третьей глагол знать не тянется, нужна форма have known. В пятой стоит закрытая дата last month, а с ней перфект не работает."
+    }
+  ],
   "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
-  "text_input_exercises": [],
+  "multiple_choice_exercises": [
+    {
+      "id": 187,
+      "choiceType": "CHOICE",
+      "prompt": "Sorry I'm late — I ___ for a parking space for twenty minutes.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "have looked",
+          "isCorrect": false
+        },
+        {
+          "text": "had been looking",
+          "isCorrect": false
+        },
+        {
+          "text": "have been looking",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Срок стоит рядом, значит нужна длительная форма. Второй прошлой точки в предложении нет — человек объясняет своё опоздание прямо сейчас, поэтому had тут лишний."
+    },
+    {
+      "id": 73,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "By the time the manager called back, Marta had left three messages.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Марта оставляет сообщения и ждёт, пока менеджер перезвонит.",
+          "isCorrect": false
+        },
+        {
+          "text": "К моменту, когда менеджер перезвонил, Марта успела оставить три сообщения.",
+          "isCorrect": true
+        },
+        {
+          "text": "Марта оставит три сообщения, если менеджер не перезвонит.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "by the time — вторая точка в прошлом, а had left сообщает, что к этому моменту дело уже было сделано. Речь про прошлое, а не про сейчас и не про будущее."
+    }
+  ],
+  "text_input_exercises": [
+    {
+      "id": 91,
+      "items": [
+        {
+          "sentence": "How long ___ you been living in Belgrade?",
+          "contextRu": "",
+          "answer": "have",
+          "alternatives": []
+        },
+        {
+          "sentence": "They had ___ arguing for an hour when I came in.",
+          "contextRu": "",
+          "answer": "been",
+          "alternatives": []
+        },
+        {
+          "sentence": "By six the guests ___ eaten everything.",
+          "contextRu": "",
+          "answer": "had",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом предложении срок тянется до сегодняшнего дня, поэтому have. Во втором без been форма разваливается: длительный перфект собирается только как had been плюс глагол с -ing. В третьем есть вторая точка в прошлом, значит помощник had.",
+      "taskDescription": "Впиши пропущенное слово."
+    }
+  ],
   "dialog_restore_exercises": [],
-  "matching_exercises": [],
-  "error_correction_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 74,
+      "taskDescription": "соедини английскую фразу с тем, что человек сообщил.",
+      "pairs": [
+        {
+          "left": "I have fixed the tap",
+          "right": "кран уже работает"
+        },
+        {
+          "left": "I have been fixing the tap",
+          "right": "вожусь с краном сейчас"
+        },
+        {
+          "left": "I had fixed the tap",
+          "right": "к тому моменту работал"
+        },
+        {
+          "left": "I had been fixing the tap",
+          "right": "до того момента возился"
+        }
+      ],
+      "explanation": "Помощник говорит, откуда считаем: have — от сегодняшнего дня, had — от момента в прошлом. Been и -ing добавляют занятие вместо итога."
+    }
+  ],
+  "error_correction_exercises": [
+    {
+      "id": 172,
+      "wrongSentence": "We have visited the museum last Sunday.",
+      "options": [
+        {
+          "text": "We had visited the museum last Sunday.",
+          "isCorrect": false
+        },
+        {
+          "text": "We visited the museum last Sunday.",
+          "isCorrect": true
+        },
+        {
+          "text": "We have been visiting the museum last Sunday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "last Sunday закрывает событие в прошлом, поэтому нужна простая прошедшая форма. Перфект и длительный перфект с такой датой не сочетаются вообще."
+    }
+  ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 77,
+      "taskDescription": "перепиши предложение так, будто рассказываешь о прошлом.",
+      "items": [
+        {
+          "original": "The battery has died.",
+          "transformed": "The battery had died."
+        },
+        {
+          "original": "He has been swimming.",
+          "transformed": "He had been swimming."
+        },
+        {
+          "original": "She has locked the door.",
+          "transformed": "She had locked the door."
+        }
+      ],
+      "explanation": "Точка отсчёта уезжает в прошлое, поэтому меняется только помощник: have и has становятся had. Остальная часть формы остаётся как была."
+    }
+  ],
   "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 91,
+      "groupDescription": "Три фразы говорят о моменте в прошлом, одна — о сегодняшнем дне",
+      "items": [
+        {
+          "text": "had left",
+          "isOdd": false
+        },
+        {
+          "text": "had been sleeping",
+          "isOdd": false
+        },
+        {
+          "text": "has broken",
+          "isOdd": true
+        },
+        {
+          "text": "had forgotten",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Помощник had отсчитывает от точки в прошлом, а has — от сегодняшнего дня. Форма has broken выбивается из ряда именно помощником."
+    }
+  ]
 }

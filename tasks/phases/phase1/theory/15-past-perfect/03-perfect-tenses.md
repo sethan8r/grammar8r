@@ -307,26 +307,243 @@
 
 ---
 
+## Microtopic 184 — Which One · Как выбрать за две секунды
+
+**ID:** 184 | **Order:** 3
+**Теги:** какую форму выбрать, have seen yesterday почему нельзя, did you had been ошибка, had в каждом предложении, потерялось been
+
+---
+
+### Card 482 · Компас: два вопроса подряд
+
+**ID:** 482 | **Order:** 1
+
+#### Theory
+
+Разбор кончился, дальше нужна скорость. В голове русская мысль, изо рта должна выйти английская фраза — и полминуты на раздумья вам никто не даст, разговор не ждёт. Хорошая новость: долго думать и не надо. Есть два вопроса, всегда одни и те же и всегда в одном порядке.
+
+**Компас**
+
+1. Есть в моей мысли вторая прошлая точка? Нет → `have/has`. Да → `had`.
+2. Есть срок? Есть → `been + -ing`. Нет → `V3`.
+
+Порядок не меняем. Первый вопрос выбирает этаж — говорю я про сегодняшний день или про момент в прошлом. Второй выбирает, что на этом этаже поставить. Начнёте со второго — придётся возвращаться к первому.
+
+**Важно:** третьего вопроса нет. Никаких «а это результат или количество, а доведено ли дело до конца» — эти оттенки мы разбирали в своё время, и в момент разговора они только тормозят. Два вопроса, и говорим.
+
+**Прогоняем на живых ситуациях**
+
+Читайте мысль слева и сразу отвечайте себе на два вопроса — ответ справа:
+
+- Хочу похвастаться, что новый сезон уже посмотрел → второй точки нет, срока нет → **I have watched the new season.**
+- Хочу сказать, что смотрю его с пятницы и ещё не досмотрел → точки нет, срок есть → **I have been watching it since Friday.**
+- Рассказываю про вчерашний вечер: включил телевизор, а серия уже шла минут двадцать → точка есть, срока нет → **When I turned on the TV, the episode had already started.**
+- К закрытию кафе я проработал там три года → точка есть, срок есть → **I had been working at that café for three years when it closed.**
+- Знакомлюсь и спрашиваю про опыт вообще → точки нет, срока нет → **Have you ever slept on a night train?**
+- Объясняю, почему опоздал на встречу → точки нет, срок есть → **I have been sitting in traffic since two.**
+- Вспоминаю поездку: пришли на вокзал, а поезда уже нет → точка есть, срока нет → **We got to the station, but the train had gone.**
+
+Заметьте, как мало тут думанья. Вы не вспоминаете правила про опыт, результат и незаконченное время — вы смотрите, есть ли в мысли вторая точка и срок, и всё.
+
+**Кстати:** две секунды получатся не сразу. Первое время вы будете честно проговаривать оба вопроса про себя, и это нормальный этап — так и должно быть. Через сотню-другую фраз проговаривать перестанете: форма начнёт приходить сразу, а компас останется только для трудных случаев.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Компас из двух вопросов, строго по порядку. Первый: есть ли в мысли вторая прошлая точка — нет значит `have/has`, да значит `had`. Второй: есть ли срок — есть значит `been + -ing`, нет значит `V3`. Первый вопрос выбирает этаж (сегодняшний день или момент в прошлом), второй — что на этом этаже поставить. Третьего вопроса нет: оттенки вроде «результат или количество» в момент разговора только тормозят.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2123 | Я уже посмотрел новый сезон. | I have watched the new season. |
+| 2124 | Я смотрю его с пятницы. | I have been watching it since Friday. |
+| 2125 | Когда я включил телевизор, серия уже шла. | When I turned on the TV, the episode had already started. |
+| 2126 | К закрытию кафе я проработал там уже три года. | I had been working at that café for three years when it closed. |
+| 2127 | Вы когда-нибудь спали в ночном поезде? | Have you ever slept on a night train? |
+| 2128 | Мы дошли до вокзала, но поезд уже ушёл. | We got to the station, but the train had gone. |
+
+---
+
+#### Exercises
+
+**Ex 1 · MultipleChoice · CHOICE** *(ID: 187)*
+
+"Sorry I'm late — I ___ for a parking space for twenty minutes."
+
+- have looked
+- had been looking
+- **have been looking** ✓
+
+*Explanation:* Срок стоит рядом, значит нужна длительная форма. Второй прошлой точки в предложении нет — человек объясняет своё опоздание прямо сейчас, поэтому had тут лишний.
+
+---
+
+**Ex 2 · MultipleChoice · REVERSE_CHOICE** *(ID: 73)*
+
+"By the time the manager called back, Marta had left three messages."
+
+- Марта оставляет сообщения и ждёт, пока менеджер перезвонит.
+- **К моменту, когда менеджер перезвонил, Марта успела оставить три сообщения.** ✓
+- Марта оставит три сообщения, если менеджер не перезвонит.
+
+*Explanation:* by the time — вторая точка в прошлом, а had left сообщает, что к этому моменту дело уже было сделано. Речь про прошлое, а не про сейчас и не про будущее.
+
+---
+
+**Ex 3 · Matching** *(ID: 74)*
+
+Задание: соедини английскую фразу с тем, что человек сообщил.
+
+| Фраза | Что сообщает |
+|-------|--------------|
+| I have fixed the tap | кран уже работает |
+| I have been fixing the tap | вожусь с краном сейчас |
+| I had fixed the tap | к тому моменту работал |
+| I had been fixing the tap | до того момента возился |
+
+*Explanation:* Помощник говорит, откуда считаем: have — от сегодняшнего дня, had — от момента в прошлом. Been и -ing добавляют занятие вместо итога.
+
+---
+
+#### Clarification Options
+
+- Что делать, если я не понимаю, есть в мысли вторая точка или нет?
+- Почему нельзя начать со второго вопроса?
+- Как быть, если ответ на оба вопроса неочевиден?
+
+---
+
+### Card 483 · Чек-лист: топ-ловушка каждой формы
+
+**ID:** 483 | **Order:** 2
+
+#### Theory
+
+Четыре формы — четыре типичные ошибки, по одной на каждую. Это не разбор заново, а список для быстрой сверки: увидели у себя такое — стоп, переделать.
+
+**По одной ловушке на форму**
+
+- `have done` тянет к конкретной дате: **We have moved to Krakow in 2019** ✗ → **We moved to Krakow in 2019** ✓. Названа дата — рассказ ушёл в прошлое, и перфект туда не заходит.
+- `have been doing` цепляют к глаголу состояния: **I have been wanting a bike since spring** ✗ → **I have wanted a bike since spring** ✓. Знать, хотеть, любить не тянутся, у них длительной формы нет.
+- `had done` лепят к каждому глаголу рассказа: **I had come home, had cooked dinner and had gone to bed** ✗ → **I came home, cooked dinner and went to bed** ✓. События идут цепочкой по порядку, никто никуда не забегает вперёд — значит и флешбэк не нужен.
+- `had been doing` теряет свои детали: **Did you had been waiting?** ✗ и **They had waiting for an hour** ✗ → **Had you been waiting?** ✓ и **They had been waiting for an hour** ✓. В вопросе `had` уходит вперёд сам, помощник `did` тут не работает; `been` не выкидываем.
+
+**Важно:** три из четырёх ошибок — не про смысл, а про лишнее движение: приписали дату, приписали had, приписали did. Английский в этих местах и так всё сказал формой, добавлять ничего не надо.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+По одной частой ошибке на форму. `have done` с конкретной датой: **We have moved to Krakow in 2019** ✗ → **We moved to Krakow in 2019** ✓. `have been doing` с глаголом состояния: **I have been wanting a bike** ✗ → **I have wanted a bike** ✓. `had done` в каждом глаголе обычной цепочки событий: **I had come home, had cooked dinner** ✗ → **I came home, cooked dinner** ✓. `had been doing` с помощником did и без been: **Did you had been waiting?** ✗ → **Had you been waiting?** ✓.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2129 | Мы переехали в Краков в 2019 году. | We moved to Krakow in 2019. |
+| 2130 | Я хочу велосипед с весны. | I have wanted a bike since spring. |
+| 2131 | Я пришёл домой, приготовил ужин и лёг спать. | I came home, cooked dinner and went to bed. |
+| 2132 | Ты долго там стоял? | Had you been standing there long? |
+| 2133 | Они ждали уже час. | They had been waiting for an hour. |
+
+---
+
+#### Exercises
+
+**Ex 1 · ErrorCorrection** *(ID: 172)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"We have visited the museum last Sunday."
+
+- We had visited the museum last Sunday.
+- **We visited the museum last Sunday.** ✓
+- We have been visiting the museum last Sunday.
+
+*Explanation:* last Sunday закрывает событие в прошлом, поэтому нужна простая прошедшая форма. Перфект и длительный перфект с такой датой не сочетаются вообще.
+
+---
+
+**Ex 2 · TrueFalse** *(ID: 185)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Did she had been cooking all day? | ✗ |
+| 2 | Nina has been training for the race since April. | ✓ |
+| 3 | I have been knowing Oleg since university. | ✗ |
+| 4 | By seven the museum had closed. | ✓ |
+| 5 | She has finished the course last month. | ✗ |
+
+*Explanation:* В первой строке помощник did лишний — в вопросе had уходит вперёд сам. В третьей глагол знать не тянется, нужна форма have known. В пятой стоит закрытая дата last month, а с ней перфект не работает.
+
+---
+
+**Ex 3 · Transformation** *(ID: 77)*
+
+Задание: перепиши предложение так, будто рассказываешь о прошлом.
+
+1. "The battery has died." → **"The battery had died."**
+2. "He has been swimming." → **"He had been swimming."**
+3. "She has locked the door." → **"She had locked the door."**
+
+*Explanation:* Точка отсчёта уезжает в прошлое, поэтому меняется только помощник: have и has становятся had. Остальная часть формы остаётся как была.
+
+---
+
+**Ex 4 · TextInput** *(ID: 91)*
+
+Впиши пропущенное слово.
+
+1. "How long ___ you been living in Belgrade?"
+   Ответ: **have**
+2. "They had ___ arguing for an hour when I came in."
+   Ответ: **been**
+3. "By six the guests ___ eaten everything."
+   Ответ: **had**
+
+*Explanation:* В первом предложении срок тянется до сегодняшнего дня, поэтому have. Во втором без been форма разваливается: длительный перфект собирается только как had been плюс глагол с -ing. В третьем есть вторая точка в прошлом, значит помощник had.
+
+---
+
+**Ex 5 · FindTheOdd** *(ID: 91)*
+
+Три фразы говорят о моменте в прошлом, одна — о сегодняшнем дне:
+
+- had left
+- had been sleeping
+- **has broken** ✓
+- had forgotten
+
+*Explanation:* Помощник had отсчитывает от точки в прошлом, а has — от сегодняшнего дня. Форма has broken выбивается из ряда именно помощником.
+
+---
+
+#### Clarification Options
+
+- Почему с датой в прошлом нельзя ставить перфект?
+- Какие ещё глаголы не тянутся, кроме знать и любить?
+- Как проверить себя, если я уже написал предложение?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 29 | 30 |
-| Microtopic | 183 | 184 |
-| Card | 481 | 482 |
-| Example | 2122 | 2123 |
+| Microtopic | 184 | 185 |
+| Card | 483 | 484 |
+| Example | 2133 | 2134 |
 | Слова курса (course_word) | 734 | 735 |
-| MultipleChoice · CHOICE | 186 | 187 |
+| MultipleChoice · CHOICE | 187 | 188 |
 | MultipleChoice · FORWARD_CHOICE | 212 | 213 |
-| MultipleChoice · REVERSE_CHOICE | 72 | 73 |
-| TrueFalse | 184 | 185 |
+| MultipleChoice · REVERSE_CHOICE | 73 | 74 |
+| TrueFalse | 185 | 186 |
 | WordArrangement | 167 | 168 |
-| TextInput | 90 | 91 |
-| Matching | 73 | 74 |
-| ErrorCorrection | 171 | 172 |
-| FindTheOdd | 90 | 91 |
+| TextInput | 91 | 92 |
+| Matching | 74 | 75 |
+| ErrorCorrection | 172 | 173 |
+| FindTheOdd | 91 | 92 |
 | Categorization | 103 | 104 |
 | TableFill | 40 | 41 |
-| Transformation | 76 | 77 |
+| Transformation | 77 | 78 |
 | ConstructionMeaning | 55 | 56 |
 | DialogRestore | 65 | 66 |

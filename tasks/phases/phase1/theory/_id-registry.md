@@ -7,23 +7,23 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 482 |
+| Card | 484 |
 | Categorization | 104 |
 | Category | 8 |
 | ConstructionMeaning | 56 |
 | DialogRestore | 66 |
-| ErrorCorrection | 172 |
-| FindTheOdd | 91 |
-| Matching | 74 |
-| Microtopic | 184 |
-| MultipleChoice·CHOICE | 187 |
+| ErrorCorrection | 173 |
+| FindTheOdd | 92 |
+| Matching | 75 |
+| Microtopic | 185 |
+| MultipleChoice·CHOICE | 188 |
 | MultipleChoice·FORWARD_CHOICE | 213 |
-| MultipleChoice·REVERSE_CHOICE | 73 |
+| MultipleChoice·REVERSE_CHOICE | 74 |
 | TableFill | 41 |
-| TextInput | 91 |
+| TextInput | 92 |
 | Topic | 30 |
-| Transformation | 77 |
-| TrueFalse | 185 |
+| Transformation | 78 |
+| TrueFalse | 186 |
 | WordArrangement | 168 |
 | course_word | 735 |
 
@@ -411,10 +411,18 @@
 - course_word: 691–715 (25)
 
 ### perfect-tenses
-- Card: 478–481 (4)
+- Card: 478–483 (6)
 - Category: 7–7 (1)
-- Microtopic: 182–183 (2)
+- ErrorCorrection: 172–172 (1)
+- FindTheOdd: 91–91 (1)
+- Matching: 74–74 (1)
+- Microtopic: 182–184 (3)
+- MultipleChoice·CHOICE: 187–187 (1)
+- MultipleChoice·REVERSE_CHOICE: 73–73 (1)
+- TextInput: 91–91 (1)
 - Topic: 29–29 (1)
+- Transformation: 77–77 (1)
+- TrueFalse: 185–185 (1)
 
 ### basics
 - Card: 1–70 (70)
