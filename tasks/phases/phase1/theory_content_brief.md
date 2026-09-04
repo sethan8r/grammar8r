@@ -603,6 +603,13 @@ Grammar8r — Android-приложение для изучения англий�
 
 > ⚠️ ПЕРЕНЕСЕНО ВВЕРХ (09.07.2026): тема теперь в «🌿 отдыхе от времён №4» (после Past Perfect
 > Continuous, перед Future Continuous) — см. `grammar8r_plan.md`. Бриф ниже актуален, позиция в §18 устарела.
+>
+> ⚠️ ПУНКТ 2 ПЕРЕПИСАН 04.09.2026 — источник правды теперь дерево темы в `grammar8r_plan.md`.
+> У микротемы «get = становиться» появилось ЯДРО: `get + прилагательное` = русское «-ться / -еть»
+> (hungry → get hungry «проголодаться», lost → get lost «потеряться»), а из него — ловушка be ↔ get
+> как «состояние ↔ момент перехода» (I am lost ↔ I got lost). Формулировка ниже («в русском
+> используем стать/становиться») слабее и её не хватит: разбирать надо парами
+> прилагательное → русский глагол, иначе теряется вся суть карточки.
 
 Микротемы:
 1. **get = получать / доставать** — get a letter, get a gift, get tickets, get information. Самое базовое значение.
@@ -697,6 +704,9 @@ Grammar8r — Android-приложение для изучения англий�
    much + несчётное ("much water"), many + счётное ("many cars").
    few/little (мало, с оттенком "почти нет") vs a few/a little (немного, достаточно).
    some (утверждения, предложения), any (вопросы, отрицания): "Do you have any questions?"
+   ⚠️ 04.09.2026 добавлена пара **a number of ↔ the number of** — «несколько» (глагол во мн. ч.)
+   против «количество» (глагол в ед. ч.); слово `number` в курсе не сливалось ни разу.
+   Плюс родня по конструкции: a couple of, a handful of, dozens of. Подробно — `grammar8r_plan.md`.
 10. **Возвратные местоимения** — myself/yourself/himself/herself/itself/ourselves/yourselves/themselves.
     Когда подлежащее и объект — одно лицо: "She hurt herself." / "I did it myself." (сам, без помощи).
     by myself/yourself... = в одиночку, без помощи: "He lives by himself."
@@ -718,6 +728,10 @@ Grammar8r — Android-приложение для изучения англий�
     *of*: afraid of, proud of, tired of, aware of, capable of; *in*: interested in, involved in; *at*: good at, bad at, amazed at; *with*: pleased with, satisfied with, bored with, angry with; *about*: worried about, excited about, upset about; *for*: responsible for, famous for, ready for, grateful for, sorry for.
 18. **Глагол get — часть 2: продвинутые значения** ← продолжение раздела 18.4 (базовые значения)
     *get + V3 (causative)*: организовать чтобы кто-то сделал / сдать в работу: "I **got** my hair **cut**." / "She **got** her car **repaired**." Разница с make: "I made him do it" (заставил) vs "I got him to do it" (убедил).
+    ⚠️ 04.09.2026: главной ловушкой карточки назначена НЕ форма, а сам факт, что конструкция нужна —
+    русский говорит "I want to cut my hair" ✗ («хочу сам себя постричь»). Ловится по хвостику «-ся»
+    в значении «мне это сделали» (подстричь-ся, сфотографировать-ся). Таблица бытовых сцен и связка
+    с первой ролью «-ся» (get hungry, «get часть 1») — в `grammar8r_plan.md`, там источник правды.
     *get + объект + to + V1*: убедить: "She got me to help her."
     *get = понять* (разговорное): "Do you get it?" / "I don't get the joke."
     *get = раздражать* (разговорное): "It really gets me when people are late."
