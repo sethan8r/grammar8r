@@ -1,5 +1,6 @@
 package dev.sethan8r.grammar.app.ui.screens.theory
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -86,6 +87,10 @@ fun TheoryScreen(
             onResetSearchConsumed()
         }
     }
+
+    // Поиск — режим вкладки, а не отдельный роут, поэтому системная «назад» сама его не свернёт.
+    // Перехват включён ТОЛЬКО при открытом поиске: закрытый оставляет кнопку вкладке.
+    BackHandler(enabled = uiState.isSearchOpen) { viewModel.onSearchClose() }
 
     Box(modifier = Modifier.fillMaxSize()) {
         when {
