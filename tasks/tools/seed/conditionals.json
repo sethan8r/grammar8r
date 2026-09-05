@@ -18,6 +18,13 @@
       "title": "What Is a Conditional · Что такое условное предложение",
       "order": 1,
       "searchKeywords": "частица бы по-английски, почему прошедшее если про сейчас, if i would ошибка, чем отличаются типы, таблица всех типов"
+    },
+    {
+      "id": 187,
+      "topicId": 30,
+      "title": "Zero Conditional · Всегда так бывает",
+      "order": 2,
+      "searchKeywords": "if или when, запятая перед if, if в конце предложения, оба глагола в настоящем, законы природы по-английски, if you like ответ"
     }
   ],
   "grammar_cards": [
@@ -513,10 +520,334 @@
         "Почему would стоит только в одной половине, а «бы» в русском в обеих?",
         "Как понять, про сейчас моя фраза или про прошлое, если по-русски они звучат одинаково?"
       ]
+    },
+    {
+      "id": 488,
+      "microtopicId": 187,
+      "title": "Нулевой тип: правило, а не случай",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пойдём по таблице из микротемы «Что такое условное предложение» сверху вниз, и первая строка окажется самой спокойной во всей теме. Здесь не нужно ничего никуда отодвигать: обе половины стоят в обычном настоящем времени, которое мы собирали ещё в Present Simple."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If + настоящее время · настоящее время"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Развилка, у которой обе дороги ведут в одно место"
+        },
+        {
+          "type": "paragraph",
+          "text": "Нулевой тип устроен не как выбор, а как закономерность. Нагрели лёд — растаял. Нагрели во второй раз — снова растаял, и в сотый будет то же самое: **If you heat ice, it melts.** Никакой интриги в такой фразе нет, мы сообщаем не о событии, которое может случиться, а о правиле, которое срабатывает каждый раз."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда и странное имя типа. «Нулевой» — потому что шагов назад по времени здесь **ноль**. Мы говорим о том, что происходит в реальности всегда, сомнений в этом никаких, а значит, и отодвигать форму глагола незачем: она остаётся ровно там, где стоит в обычном рассказе о фактах."
+        },
+        {
+          "type": "heading",
+          "text": "Четыре места, где это живёт"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Законы природы: **If you drop a stone in water, it sinks.**",
+            "Техника и инструкции: **If the light turns red, you press the button.**",
+            "Личные закономерности: **If I drink coffee late, I don't sleep.**",
+            "Правила заведения или места: **If you're a student, you get a discount.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Из этих четырёх самое ценное — третье. Законы физики человек обсуждает нечасто, а вот про себя рассказывает постоянно: что с ним бывает от кофе, от жары, от недосыпа, от долгой дороги. Каждая такая фраза — готовый нулевой тип, и собирается она из самых простых форм, которые мы давно умеем ставить."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка на глаз: подставьте when"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот приём, который отличает нулевой тип от всех остальных за секунду. Попробуйте заменить `if` на `when` — если смысл не поехал, перед вами нулевой тип:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If you heat ice, it melts.** = **When you heat ice, it melts.** Одно и то же: и там, и там речь про «всякий раз, когда».",
+            "**If Lena runs in the morning, she sleeps well.** = **When Lena runs in the morning, she sleeps well.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Работает это по простой причине. `if` обычно сообщает «а может, и нет» — в нулевом типе этого оттенка нет вообще, потому что речь не о случае, а о правиле. Слово `if` здесь стоит почти по привычке, и `when` подходит на его место без потерь. В остальных типах такая подмена смысл ломает — этим мы отдельно займёмся в микротеме «First Conditional»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If you will heat ice, it melts** ✗ → **If you heat ice, it melts** ✓. Знакомое правило из темы «Future Simple (will)»: после `if` язык обходится настоящим временем. В нулевом типе оно даже нагляднее, чем обычно, — здесь и в правой половине никакого будущего нет, потому что речь вообще не про будущее, а про «всегда»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If Mia forgets her keys, her neighbour open the door** ✗ → **If Mia forgets her keys, her neighbour opens the door** ✓. Обе половины — обычный Present Simple со всеми его правилами, и окончание `-s` для `he/she/it` никуда не делось ни слева от запятой, ни справа. Про условные предложения легко думать как про особую конструкцию с особыми законами — законы тут ровно те же, что и в любом рассказе о фактах."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Нулевой тип описывает не случай, а закономерность — то, что бывает всегда. Обе половины в настоящем времени, ничего никуда не отодвигается, а проверить себя можно подстановкой `when`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Нулевой тип — это правило, которое срабатывает каждый раз, а не один случай впереди: законы природы, инструкции, личные закономерности, правила места. Обе половины стоят в обычном настоящем времени (**If you heat ice, it melts**), шагов назад по времени ноль — отсюда и название типа. Проверка на глаз: если `if` можно заменить на `when` без потери смысла, перед вами нулевой тип. Ловушки прежние: `will` после `if` не ставится, а окончание `-s` для `he/she/it` работает в обеих половинах.",
+      "examples": [
+        {
+          "ru": "Если нагреть лёд, он тает.",
+          "en": "If you heat ice, it melts."
+        },
+        {
+          "ru": "Если бросить камень в воду, он тонет.",
+          "en": "If you drop a stone in water, it sinks."
+        },
+        {
+          "ru": "Когда загорается красный, вы нажимаете кнопку.",
+          "en": "If the light turns red, you press the button."
+        },
+        {
+          "ru": "Если я пью кофе поздно, я не сплю.",
+          "en": "If I drink coffee late, I don't sleep."
+        },
+        {
+          "ru": "Если вы студент, вы получаете скидку.",
+          "en": "If you're a student, you get a discount."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в обеих половинах настоящее время, если условие ещё не выполнено?",
+        "Чем нулевой тип отличается от обычного предложения со словом when?",
+        "Можно ли так говорить про себя, а не только про законы природы?"
+      ]
+    },
+    {
+      "id": 489,
+      "microtopicId": 187,
+      "title": "Порядок половин и запятая",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Дальше — механика, общая для всей темы. Разберём её один раз здесь, на самом простом типе, и в остальных микротемах будем только ссылаться: правила расстановки половин одинаковы и для нулевого типа, и для разговора о несбыточном."
+        },
+        {
+          "type": "heading",
+          "text": "Половины можно менять местами"
+        },
+        {
+          "type": "paragraph",
+          "text": "Условное предложение не обязано начинаться с `if`. Обе половины равноправны, и порядок выбирает говорящий:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If it rains, I stay home.**",
+            "**I stay home if it rains.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл один и тот же, разница только в акценте: то, что стоит первым, звучит как отправная точка разговора. Начали с условия — слушатель сначала представляет дождь, потом узнаёт, чем дело кончится. Начали с результата — сперва получает главное, а условие приходит уточнением."
+        },
+        {
+          "type": "heading",
+          "text": "Запятая ставится только в одном случае"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If + условие, результат · результат + if + условие"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило короткое: запятая нужна, **только когда половина с `if` идёт впереди**. Уехала назад — запятая исчезает вместе с ней. Логика тут своя: запятая работает сигналом «сначала идёт довесок, главное будет дальше». Когда главное сказано первым, сигналить нечего, и знак не нужен."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Kate takes a taxi, if she works late** ✗ → **Kate takes a taxi if she works late** ✓. Русская привычка ставит запятую перед «если» всегда, в любом месте предложения: «Катя берёт такси, если работает допоздна». По-русски знак обязателен, по-английски в этом порядке он лишний, и рука тянется поставить его по родному образцу — это самая механическая ошибка темы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Обе половины — целые предложения"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Linking Words» мы разбирали ось: одни связки требуют после себя целую часть с подлежащим и глаголом, другие — существительное. `if` из первой породы, как `because` и `although`. Поэтому подлежащее нужно в обеих половинах, даже там, где по-русски оно легко пропадает:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If rains, I stay home** ✗ → **If it rains, I stay home** ✓",
+            "**If cold outside, we take a taxi** ✗ → **If it's cold outside, we take a taxi** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «если холодно» — законченная мысль, подлежащее не нужно вообще. Английскому нужно хоть какое-нибудь подлежащее, и в разговоре о погоде эту роль берёт на себя пустое `it` — ровно то же самое, что в **it's cold** и **it rains**."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Одной половиной с `if` вполне можно и ответить, вторая при этом не договаривается — собеседник и так её достроил. **— Should I wait outside? — If you want.** Полностью это значило бы **if you want me to wait outside, I will wait outside**, но произносить такое никто не станет: смысл уже прозвучал в вопросе."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Порядок половин свободный, а запятая — нет. `if`-часть впереди → запятая. `if`-часть в конце → запятой нет."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Половины условного предложения можно ставить в любом порядке: **If it rains, I stay home** = **I stay home if it rains**, смысл один, меняется только акцент. Запятая нужна **только когда половина с `if` стоит впереди**; если она уехала в конец — запятой нет (**Kate takes a taxi if she works late**). Русская привычка ставить знак перед «если» всегда даёт самую частую механическую ошибку темы. Подлежащее нужно в обеих половинах — в разговоре о погоде его роль играет пустое `it`.",
+      "examples": [
+        {
+          "ru": "Если идёт дождь, я остаюсь дома.",
+          "en": "If it rains, I stay home."
+        },
+        {
+          "ru": "Я остаюсь дома, если идёт дождь.",
+          "en": "I stay home if it rains."
+        },
+        {
+          "ru": "Катя берёт такси, если работает допоздна.",
+          "en": "Kate takes a taxi if she works late."
+        },
+        {
+          "ru": "Если на улице холодно, мы берём такси.",
+          "en": "If it's cold outside, we take a taxi."
+        },
+        {
+          "ru": "Мне подождать снаружи? — Если хотите.",
+          "en": "Should I wait outside? — If you want."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему запятая нужна только тогда, когда if стоит впереди?",
+        "Меняется ли смысл, если поменять половины местами?",
+        "Зачем в половине про погоду нужно it, если по-русски там нет подлежащего?"
+      ]
     }
   ],
-  "card_exercise_index": [],
-  "ai_exercises": [],
+  "card_exercise_index": [
+    {
+      "cardId": 488,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 188,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 488,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 186,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 488,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 173,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 488,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 168,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 489,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 213,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 489,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 174,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 489,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 66,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 489,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 78,
+      "orderInCard": 3
+    }
+  ],
+  "ai_exercises": [
+    {
+      "id": "conditionals_card489_ex1",
+      "cardId": 489,
+      "title": "Скажи закономерность по-английски",
+      "userInstruction": "ИИ пришлёт русскую закономерность — то, что бывает всегда. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "linking",
@@ -535,15 +866,200 @@
   ],
   "course_words": [],
   "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
-  "multiple_choice_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 186,
+      "statements": [
+        {
+          "en": "If water boils, it turns into steam.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If Ben will eat late, he feels bad in the morning.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If the sun goes down, the street lights come on.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If it rains, the streets gets wet.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If Lena runs in the morning, she feels great all day.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во второй строке после if стоит will — в условной половине его не бывает, верно If Ben eats late. В четвёртой сломано согласование: streets — множественное число, поэтому the streets get wet, окончание -s тут лишнее."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 168,
+      "situationRu": "Ситуация: Ник объясняет, что происходит с его телефоном на морозе.",
+      "correctSentence": "If the phone gets cold, it turns off.",
+      "words": [
+        "If",
+        "the phone",
+        "gets",
+        "cold",
+        "it",
+        "turns",
+        "off"
+      ],
+      "distractors": [
+        "will get",
+        "will turn",
+        "turned",
+        "would turn"
+      ],
+      "explanation": "Обе половины собираются в настоящем времени, и окончание -s нужно в каждой: the phone gets, it turns. Формы с will и would в нулевой тип не встают, а turned увело бы фразу в прошлое."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 188,
+      "choiceType": "CHOICE",
+      "prompt": "If the machine ___ hot, it stops by itself.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "gets",
+          "isCorrect": true
+        },
+        {
+          "text": "will get",
+          "isCorrect": false
+        },
+        {
+          "text": "got",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В нулевом типе обе половины стоят в настоящем времени: после if идёт простое настоящее, без will. Форма got отодвинула бы фразу в разговор о нереальном, а здесь речь о том, что бывает всегда."
+    },
+    {
+      "id": 213,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Если музыка слишком громкая, я закрываю окно.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I close the window, if the music is too loud.",
+          "isCorrect": false
+        },
+        {
+          "text": "If the music is too loud I close the window.",
+          "isCorrect": false
+        },
+        {
+          "text": "If the music is too loud, I close the window.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Половина с if стоит впереди — значит между половинами нужна запятая. В первом варианте порядок обратный, и там запятая как раз лишняя."
+    }
+  ],
   "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 66,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Do you want me to book a table for tonight?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "If you like.",
+          "isCorrect": true
+        },
+        {
+          "text": "If you will like.",
+          "isCorrect": false
+        },
+        {
+          "text": "If you like to.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Ответить можно одной половиной с if — вторая уже прозвучала в вопросе. После if будущее не ставится, а лишнее to здесь не нужно: like закрывает мысль сам."
+    }
+  ],
   "matching_exercises": [],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 173,
+      "wrongSentence": "If you will leave the milk in the sun, it goes bad.",
+      "options": [
+        {
+          "text": "If you will leave the milk in the sun, it will go bad.",
+          "isCorrect": false
+        },
+        {
+          "text": "If you left the milk in the sun, it goes bad.",
+          "isCorrect": false
+        },
+        {
+          "text": "If you leave the milk in the sun, it goes bad.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Речь о закономерности, которая срабатывает всегда, поэтому обе половины остаются в настоящем времени. После if будущее не ставится вообще, а форма left увела бы фразу в разговор о том, чего на самом деле нет."
+    },
+    {
+      "id": 174,
+      "wrongSentence": "Ben walks to work, if the weather is fine.",
+      "options": [
+        {
+          "text": "If the weather is fine Ben walks to work.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ben walks to work if the weather is fine.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ben walks to work if, the weather is fine.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Половина с if стоит в конце, поэтому запятая не нужна вовсе. Первый вариант переставил половины правильно, но потерял запятую там, где она обязательна."
+    }
+  ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 78,
+      "taskDescription": "перенеси половину с if в конец предложения.",
+      "items": [
+        {
+          "original": "If it snows, the buses stop.",
+          "transformed": "The buses stop if it snows."
+        },
+        {
+          "original": "If the door is open, the dog runs out.",
+          "transformed": "The dog runs out if the door is open."
+        },
+        {
+          "original": "If I drink tea at night, I feel awake.",
+          "transformed": "I feel awake if I drink tea at night."
+        }
+      ],
+      "explanation": "Половины меняются местами без потери смысла, но вместе с if-частью в конец уезжает и запятая — в таком порядке она не нужна."
+    }
+  ],
   "categorization_exercises": [],
   "find_the_odd_exercises": []
 }

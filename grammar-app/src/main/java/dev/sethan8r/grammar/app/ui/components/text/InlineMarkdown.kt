@@ -353,7 +353,7 @@ private val MiddleDotIcon: ImageVector = ImageVector.Builder(
 ).apply {
     path(
         stroke = SolidColor(Color.Black),
-        strokeLineWidth = 5f,
+        strokeLineWidth = 6f,
         strokeLineCap = StrokeCap.Round,
     ) {
         moveTo(11.9f, 12f); lineTo(12.1f, 12f)
