@@ -25,6 +25,13 @@
       "title": "Zero Conditional · Всегда так бывает",
       "order": 2,
       "searchKeywords": "if или when, запятая перед if, if в конце предложения, оба глагола в настоящем, законы природы по-английски, if you like ответ"
+    },
+    {
+      "id": 188,
+      "topicId": 30,
+      "title": "First Conditional · Реальное будущее",
+      "order": 3,
+      "searchKeywords": "will после if, первый тип, if ли или если, команда после if, might после if"
     }
   ],
   "grammar_cards": [
@@ -615,6 +622,55 @@
           ]
         },
         {
+          "type": "heading",
+          "text": "Отрицать умеют обе половины"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего нового учить не надо: слева и справа работает всё тот же Present Simple со своими `don't` и `doesn't`, а отрицание встаёт туда, куда просит смысл:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If you don't water plants, they die.** — отрицание слева, в условии.",
+            "**If I drink coffee late, I don't sleep.** — отрицание справа, в результате.",
+            "**If the shop doesn't open at eight, I don't buy coffee on the way.** — сразу в обеих половинах."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "А спросить можно?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Можно, и это обычное дело. Вопрос строит **только правая половина**, условие в вопрос не превращается никогда — оно так и остаётся утвердительным:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Does the light come on if you press this button?**",
+            "**What happens if you mix these two?** — самый частый вид, с вопросительным словом впереди.",
+            "**Doesn't the door close if you push it?** — «разве дверь не закрывается, если её толкнуть?». Отрицательный вопрос звучит так же, как и всюду: человек ожидал обратного и проверяет."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Половину с `if` при этом можно оставить и впереди: **If you press this button, what happens?** Запятая работает по тому же правилу, что и в утверждении."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If does the light come on, we press the button** ✗ — рука пытается сделать вопросительной обе половины сразу. После `if` порядок всегда утвердительный: сначала подлежащее, потом глагол. Спрашивает только одна половина — та, что без `if`."
+            }
+          ]
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "label": "Запомни главное",
@@ -626,7 +682,7 @@
           ]
         }
       ],
-      "theorySummary": "Нулевой тип — это правило, которое срабатывает каждый раз, а не один случай впереди: законы природы, инструкции, личные закономерности, правила места. Обе половины стоят в обычном настоящем времени (**If you heat ice, it melts**), шагов назад по времени ноль — отсюда и название типа. Проверка на глаз: если `if` можно заменить на `when` без потери смысла, перед вами нулевой тип. Ловушки прежние: `will` после `if` не ставится, а окончание `-s` для `he/she/it` работает в обеих половинах.",
+      "theorySummary": "Нулевой тип — это правило, которое срабатывает каждый раз, а не один случай впереди: законы природы, инструкции, личные закономерности, правила места. Обе половины стоят в обычном настоящем времени (**If you heat ice, it melts**), шагов назад по времени ноль — отсюда и название типа. Проверка на глаз: если `if` можно заменить на `when` без потери смысла, перед вами нулевой тип. Отрицают обе половины обычными `don't`/`doesn't`, а вопрос строит только половина без `if` (**What happens if you mix these two?**) — условие всегда остаётся утвердительным. Ловушки прежние: `will` после `if` не ставится, а окончание `-s` для `he/she/it` работает в обеих половинах.",
       "examples": [
         {
           "ru": "Если нагреть лёд, он тает.",
@@ -647,6 +703,14 @@
         {
           "ru": "Если вы студент, вы получаете скидку.",
           "en": "If you're a student, you get a discount."
+        },
+        {
+          "ru": "Если не поливать растения, они погибают.",
+          "en": "If you don't water plants, they die."
+        },
+        {
+          "ru": "Что происходит, если смешать эти два?",
+          "en": "What happens if you mix these two?"
         }
       ],
       "clarificationOptions": [
@@ -786,6 +850,468 @@
         "Меняется ли смысл, если поменять половины местами?",
         "Зачем в половине про погоду нужно it, если по-русски там нет подлежащего?"
       ]
+    },
+    {
+      "id": 490,
+      "microtopicId": 188,
+      "title": "Первый тип: один случай впереди",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Начнём с приятного: этот тип вы уже умеете. В теме «Future Simple (will)» мы разбирали компанию союзов — `when`, `as soon as`, `before`, `after`, `until`, `if` — и договорились, что после них будущее не помечается: **If it rains tomorrow, we'll stay at the hotel** ✓. Там же мы пообещали, что у `if` есть и другие разновидности и что им будет посвящена отдельная тема. Тема открыта, и первым делом закрываем обещание: то правило и есть **первый тип** условных предложений. Новых форм здесь не появится ни одной — появятся имя, границы и пара мест, где русский всё-таки спотыкается."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If + настоящее время · will + V1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Левая половина ровно та же, что в нулевом типе: обычное настоящее время, никакого будущего внутри. Новая только правая — там теперь стоит `will`."
+        },
+        {
+          "type": "heading",
+          "text": "Чем он отличается от нулевого"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разницу проще всего увидеть на одной и той же ситуации. Возьмём кофе из прошлой микротемы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I drink coffee late, I don't sleep.** — так у меня устроен организм. Всегда, каждый раз, проверено.",
+            "**If I drink coffee tonight, I won't sleep.** — про сегодняшний вечер. Один конкретный случай, который ещё впереди."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слова почти те же, а сообщения разные. Нулевой тип рассказывает **правило**, первый — **один случай**, до которого мы пока не дошли. Переключает их даже не грамматика, а одно слово: появилось `tonight` — и речь уже не про закономерность, а про конкретный вечер."
+        },
+        {
+          "type": "heading",
+          "text": "Почему подстановка when здесь ломается"
+        },
+        {
+          "type": "paragraph",
+          "text": "В прошлой микротеме у нас был удобный тест: если `if` меняется на `when` без потери смысла, перед вами нулевой тип. Проверим его на первом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I see Ben tonight, I'll tell him.** — может, увижу, а может, и нет.",
+            "**When I see Ben tonight, I'll tell him.** — увижу точно, вопрос только когда."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма одна и та же, а сообщение поменялось: `if` оставляет дверь открытой, `when` её закрывает. Тест не сломался — он просто показал, что перед нами другой тип. Подробно эту пару, а заодно и третий `if`, разберём в карточке про три разных `if`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If it will rain tomorrow, I'll stay home** ✗ → **If it rains tomorrow, I'll stay home** ✓. Правило знакомое, корень тоже: будущее помечается **один раз** — в главной половине. Условная половина обходится настоящим временем, хотя речь очевидно про завтра. Русский язык честно ставит будущее в обе половины («если пойдёт дождь, я останусь»), поэтому рука тянется поставить `will` дважды."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Потерять `will` в правой половине — тоже промах, хотя предложение при этом не ломается. **If it rains tomorrow, I stay home** — грамматика цела, но получилась не договорённость на завтра, а рассказ о привычке: «когда идёт дождь, я обычно сижу дома». Собеседник поймёт вас иначе, чем вы хотели, — а это обиднее прямой ошибки."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Первый тип — это один реальный случай впереди, а не правило. После `if` стоит настоящее время, `will` живёт только в главной половине, и там он обязателен: без него фраза превращается в разговор о привычках."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Первый тип — про **один реальный случай в будущем**: **If it rains tomorrow, I'll stay home**. Собирается как `if + настоящее время · will + V1`: левая половина такая же, как в нулевом типе, новое только `will` справа. Отличие от нулевого — в сообщении: там правило («всегда так бывает»), тут конкретный случай впереди. Ловушки две: `will` после `if` не ставится никогда (**If it will rain** ✗) и `will` нельзя терять в главной половине — без него фраза читается как рассказ о привычке.",
+      "examples": [
+        {
+          "ru": "Если сегодня выпью кофе, ночью не усну.",
+          "en": "If I drink coffee tonight, I won't sleep."
+        },
+        {
+          "ru": "Если завтра пойдёт дождь, я останусь дома.",
+          "en": "If it rains tomorrow, I'll stay home."
+        },
+        {
+          "ru": "Если я увижу Бена вечером, я ему скажу.",
+          "en": "If I see Ben tonight, I'll tell him."
+        },
+        {
+          "ru": "Если автобус опоздает, я возьму такси.",
+          "en": "If the bus is late, I'll take a taxi."
+        },
+        {
+          "ru": "Если позвонишь после восьми, я уже буду дома.",
+          "en": "If you call after eight, I'll be at home."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, где я говорю о правиле, а где об одном случае?",
+        "Почему нельзя поставить будущее в обе половины, если речь явно про завтра?",
+        "Что изменится, если убрать will из главной половины?"
+      ]
+    },
+    {
+      "id": 491,
+      "microtopicId": 188,
+      "title": "Правая половина свободная",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Из формулы легко сделать неверный вывод: раз первый тип — это `will + V1`, значит без `will` его не бывает. Бывает, и постоянно. Жёстко держит форму только **левая** половина, та что после `if`: там всегда простое настоящее время, и никаких вариантов. А правая половина свободная — в ней стоит то, что вы хотите сказать."
+        },
+        {
+          "type": "heading",
+          "text": "Команда: самое частое в быту"
+        },
+        {
+          "type": "paragraph",
+          "text": "Больше всего таких фраз звучит не про будущее вообще, а про поручения: сделай то, если случится это. И тогда в правой половине живёт обычная команда без всякого `will`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If you see Kate, tell her to call me.**",
+            "**If the parcel arrives, leave it at the door.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим точно так же: «если увидишь Катю — скажи ей». Никакого «будет» во второй половине нет и в помине."
+        },
+        {
+          "type": "heading",
+          "text": "Разрешение, шанс и рекомендация: can, might, should"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правая половина умеет сообщать не только «сделаю», но и «могу», «вдруг получится», «стоит бы»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If you're tired, you can go home.** — разрешение, дверь открыта.",
+            "**If we leave now, we might catch the train.** — шанс есть, но никто не обещает.",
+            "**If it rains, we should stay in.** — совет, а не приказ."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Can`, `might` и `should` — это модальные глаголы, у них своя большая тема впереди. Сейчас берите их готовыми формулами: слово ставится перед глаголом, а сам глагол остаётся в первой форме, без окончаний и без `to`. Оттенки каждого разберём в теме «Модальные глаголы»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицать умеют обе половины"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание не привязано к какой-то одной стороне — оно появляется там, где нужно по смыслу, и каждая половина отрицает по своим правилам:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If you don't hurry, we'll miss the bus.** — отрицание слева, в условии.",
+            "**If she calls, don't tell her I'm here.** — отрицание справа, в команде.",
+            "**If Tom doesn't answer, I won't wait.** — обе половины сразу."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего нового тут учить не надо: слева работает обычный Present Simple со своими `don't` и `doesn't`, справа — `won't` или отрицательная команда. Условное предложение не заводит собственных правил отрицания, оно просто соединяет две готовые половины."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If you won't hurry, we'll miss the bus** ✗ → **If you don't hurry, we'll miss the bus** ✓. Отрицание в условной половине собирается так же, как во всём Present Simple, — через `don't` и `doesn't`. `won't` — это `will not`, а `will` внутрь условия не заходит ни в утверждении, ни в отрицании."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "А спросить можно?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Можно, и спрашивают постоянно — просто в дереве правил это обычно забывают показать. Вопрос строит **только правая половина**, условие в вопрос не превращается никогда:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will you call me if you're late?** — обычный вопрос, `will` вышел вперёд подлежащего.",
+            "**What will you do if he says no?** — самый частый вид: вопросительное слово впереди, дальше `will` и подлежащее.",
+            "**Where will we meet if the café is closed?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Половину с `if` можно поставить и первой, вопрос от этого не меняется: **If you're late, will you call me?** Запятая — по тому же правилу, что и в утверждении."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Отрицательный вопрос тоже бывает:** **Won't you be tired if you leave at five?** — «разве ты не устанешь, если выедешь в пять?». Оттенок тот же, что и всюду в курсе: человек ожидал обратного и проверяет, не ошибся ли."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If will it rain, will we stay home?** ✗ → **If it rains, will we stay home?** ✓. Попытка сделать вопросительными обе половины сразу. После `if` порядок всегда утвердительный — подлежащее, потом глагол; спрашивает только та половина, где нет `if`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После `if` форма железная — простое настоящее время. Всё остальное решает смысл: справа может стоять `will`, команда, `can`, `might`, `should` или отрицание. Не ищите `will` там, где его быть не должно, — ищите его только тогда, когда действительно обещаете."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Жёсткая только левая половина: после `if` всегда простое настоящее время. Правая свободная — там стоит то, что вы хотите сказать: обещание с `will`, команда (**If you see Kate, tell her to call me**), разрешение с `can`, шанс с `might`, совет с `should`. Отрицать умеют обе половины и каждая по своим правилам: `don't`/`doesn't` в условии (**If you won't hurry** ✗), `won't` или отрицательная команда в главной части. Вопрос тоже строит только правая половина: **What will you do if he says no?**, отрицательный — **Won't you be tired if you leave at five?**; условие при этом всегда остаётся утвердительным (**If will it rain** ✗). Модальные слова здесь — готовые формулы: после них глагол в первой форме, без `to`.",
+      "examples": [
+        {
+          "ru": "Если увидишь Катю, скажи ей, чтобы позвонила мне.",
+          "en": "If you see Kate, tell her to call me."
+        },
+        {
+          "ru": "Если посылка придёт, оставь её у двери.",
+          "en": "If the parcel arrives, leave it at the door."
+        },
+        {
+          "ru": "Если устал, можешь идти домой.",
+          "en": "If you're tired, you can go home."
+        },
+        {
+          "ru": "Если выйдем сейчас, может, успеем на поезд.",
+          "en": "If we leave now, we might catch the train."
+        },
+        {
+          "ru": "Если она позвонит, не говори ей, что я здесь.",
+          "en": "If she calls, don't tell her I'm here."
+        },
+        {
+          "ru": "Что ты будешь делать, если он откажет?",
+          "en": "What will you do if he says no?"
+        },
+        {
+          "ru": "Разве ты не устанешь, если выедешь в пять?",
+          "en": "Won't you be tired if you leave at five?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в половине с командой нет подлежащего?",
+        "Как выбрать между will, can и might в правой половине?",
+        "Меняется ли что-то в условии, если справа стоит не will, а команда?"
+      ]
+    },
+    {
+      "id": 492,
+      "microtopicId": 188,
+      "title": "Три разных if в одной таблице",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пришло время закрыть второе обещание. В теме «Косвенные вопросы» мы разбирали микротему про два разных `if` и выяснили, что английский отдал одному слову две работы: `if` = «если» (условие) и `if` = «ли» (вопрос). Там мы дали половину правила — после `if`-«ли» будущее ставится как обычно, **I don't know if it will rain** ✓ — и пообещали, что у `if`-«если» всё будет ровно наоборот, а разберём мы это в условных предложениях. Разбираем. Заново различать два `if` не будем, просто поставим обе половины рядом и добавим третьего участника."
+        },
+        {
+          "type": "heading",
+          "text": "Вся развилка на одном экране"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Что сообщает",
+            "will внутри"
+          ],
+          "rows": [
+            [
+              "if = «если»",
+              "может случиться, а может нет",
+              "нельзя"
+            ],
+            [
+              "when = «когда»",
+              "случится точно, вопрос только когда",
+              "нельзя"
+            ],
+            [
+              "if = «ли»",
+              "ответа не знаю",
+              "можно"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём построчно, потому что каждая строка спотыкает по-своему."
+        },
+        {
+          "type": "heading",
+          "text": "Первая строка: условие"
+        },
+        {
+          "type": "paragraph",
+          "text": "**If it rains, I'll stay home.** Дождь может пойти, а может и нет — на этом вся фраза и держится. Будущее помечено один раз, справа, а внутри условия стоит настоящее время. Это наш первый тип, и `will` туда не заходит."
+        },
+        {
+          "type": "heading",
+          "text": "Вторая строка: when вместо if"
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма ведёт себя точно так же — настоящее время внутри, `will` снаружи, — но сообщение другое:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I see him tomorrow, I'll ask.** — увижу или нет, неизвестно.",
+            "**When I see him tomorrow, I'll ask.** — увижу обязательно, речь только про момент."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница ровно в уверенности говорящего, и выбирает её он сам. Если вы договорились о встрече — берите `when`; если человек может и не появиться — `if`. Русский тут ничем не помогает: у нас «если» и «когда» тоже разные слова, но в живой речи мы легко говорим «когда увидимся, спрошу» о встрече, которой ещё нет."
+        },
+        {
+          "type": "heading",
+          "text": "Третья строка: if в значении «ли»"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот здесь `will` совершенно законен, и запрет из первой строки не действует:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I don't know if it will rain.** — не знаю, пойдёт **ли** дождь.",
+            "**Can you check if Nick will be at home tonight?** — проверь, будет **ли** Ник вечером дома."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина простая и уже знакомая: этот `if` не ставит никакого условия, он вводит вопрос, на который у нас нет ответа. Условия нет — значит и правило про условие ни при чём."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка на глаз: подставьте «ли»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тест тот же, что был в «Косвенных вопросах», просто теперь он работает в обе стороны. Прочитайте фразу с «ли» вместо «если»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Не знаю, пойдёт **ли** дождь» ✓ — влезло, значит это вопрос, и `will` законен.",
+            "«**Ли** пойдёт дождь, я останусь дома» ✗ — бессмыслица, значит это условие, и `will` внутрь не пускаем."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I don't know if it rains tomorrow** ✗ → **I don't know if it will rain tomorrow** ✓. Это обратная ошибка, и появляется она у тех, кто хорошо выучил правило «после `if` не бывает `will`». Правило верное, но относится только к условию. Здесь же мы не ставим условие, а честно сообщаем, что не знаем ответа, — и будущее нужно."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Запрет на `will` живёт не в слове `if`, а в **условии**. Ставите условие (`if`-«если») или говорите о том, что точно случится (`when`) — внутри настоящее время. Задаёте вопрос без ответа (`if`-«ли») — ставьте будущее спокойно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Три случая рядом: `if`-«если» — условие, которое может и не случиться, `will` внутрь нельзя (**If it rains, I'll stay home**); `when` — то же по форме, но говорящий уверен, что это произойдёт (**When I see him tomorrow, I'll ask**); `if`-«ли» — вопрос без ответа, и `will` там законен (**I don't know if it will rain**). Проверка на глаз: подставьте «ли» вместо «если» — влезло, значит перед вами вопрос. Обратная ловушка: **I don't know if it rains tomorrow** ✗ — запрет на `will` относится к условию, а не к самому слову `if`.",
+      "examples": [
+        {
+          "ru": "Если Лена согласится, мы поедем вместе.",
+          "en": "If Lena agrees, we'll go together."
+        },
+        {
+          "ru": "Если завтра его увижу, спрошу.",
+          "en": "If I see him tomorrow, I'll ask."
+        },
+        {
+          "ru": "Когда завтра его увижу, спрошу.",
+          "en": "When I see him tomorrow, I'll ask."
+        },
+        {
+          "ru": "Я не знаю, пойдёт ли дождь.",
+          "en": "I don't know if it will rain."
+        },
+        {
+          "ru": "Можешь проверить, будет ли Ник вечером дома?",
+          "en": "Can you check if Nick will be at home tonight?"
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, ставлю я условие или задаю вопрос?",
+        "Почему после when тоже нельзя будущее, если событие точно случится?",
+        "Откуда берётся ошибка I don't know if it rains?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -836,6 +1362,78 @@
       "exerciseType": "TRANSFORMATION",
       "exerciseId": 78,
       "orderInCard": 3
+    },
+    {
+      "cardId": 490,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 189,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 490,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 187,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 490,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 175,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 490,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 169,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 491,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 214,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 491,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 67,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 491,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 92,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 491,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 92,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 492,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 104,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 492,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 190,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 492,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 74,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 492,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 176,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -843,7 +1441,15 @@
       "id": "conditionals_card489_ex1",
       "cardId": 489,
       "title": "Скажи закономерность по-английски",
-      "userInstruction": "ИИ пришлёт русскую закономерность — то, что бывает всегда. Скажите её по-английски одним предложением.",
+      "userInstruction": "ИИ пришлёт русскую фразу о том, что бывает всегда. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "conditionals_card492_ex1",
+      "cardId": 492,
+      "title": "Реальное будущее по-английски",
+      "userInstruction": "ИИ пришлёт русскую фразу о том, что может случиться. Скажите её по-английски одним предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -897,6 +1503,37 @@
         }
       ],
       "explanation": "Во второй строке после if стоит will — в условной половине его не бывает, верно If Ben eats late. В четвёртой сломано согласование: streets — множественное число, поэтому the streets get wet, окончание -s тут лишнее."
+    },
+    {
+      "id": 187,
+      "statements": [
+        {
+          "en": "If it snows tomorrow, the school will close.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If you will come early, I'll show you the garden.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If Ben passes the exam, his parents will buy him a bike.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If Lily will finish work at six, she'll join us.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If the shop is closed, we'll go to the market.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во второй и четвёртой строках will стоит внутри условия — там всегда остаётся настоящее время: If you come early, If Lily finishes work at six. Будущее помечается один раз, в главной половине."
     }
   ],
   "word_arrangement_exercises": [
@@ -920,6 +1557,28 @@
         "would turn"
       ],
       "explanation": "Обе половины собираются в настоящем времени, и окончание -s нужно в каждой: the phone gets, it turns. Формы с will и would в нулевой тип не встают, а turned увело бы фразу в прошлое."
+    },
+    {
+      "id": 169,
+      "situationRu": "Ситуация: Оля обещает прислать фотографию, когда доберётся до Праги.",
+      "correctSentence": "If I get to Prague early, I'll send you a photo.",
+      "words": [
+        "If",
+        "I",
+        "get",
+        "to Prague",
+        "early",
+        "I'll",
+        "send",
+        "you",
+        "a photo"
+      ],
+      "distractors": [
+        "will get",
+        "got",
+        "will send"
+      ],
+      "explanation": "В условной половине стоит простое настоящее — get, без will. Будущее помечено один раз, сокращением I'll в главной половине."
     }
   ],
   "multiple_choice_exercises": [
@@ -964,9 +1623,124 @@
         }
       ],
       "explanation": "Половина с if стоит впереди — значит между половинами нужна запятая. В первом варианте порядок обратный, и там запятая как раз лишняя."
+    },
+    {
+      "id": 189,
+      "choiceType": "CHOICE",
+      "prompt": "If the meeting ___ before six, I'll join you at the café.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will end",
+          "isCorrect": false
+        },
+        {
+          "text": "ends",
+          "isCorrect": true
+        },
+        {
+          "text": "ended",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После if будущее не ставится, даже когда речь явно о сегодняшнем вечере: будущее помечено один раз, словом I'll в главной половине. Форма ended увела бы фразу в разговор о нереальном."
+    },
+    {
+      "id": 214,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Если увидишь Ника, скажи ему, что встреча в шесть.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "If you will see Nick, tell him the meeting is at six.",
+          "isCorrect": false
+        },
+        {
+          "text": "If you see Nick, you will tell him the meeting is at six.",
+          "isCorrect": false
+        },
+        {
+          "text": "If you see Nick, tell him the meeting is at six.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "В правой половине здесь команда, а не обещание, поэтому will не нужен вовсе. В условии тоже остаётся настоящее время: If you see Nick."
+    },
+    {
+      "id": 190,
+      "choiceType": "CHOICE",
+      "prompt": "I'm not sure if Kate ___ to the party tonight.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "comes",
+          "isCorrect": false
+        },
+        {
+          "text": "will comes",
+          "isCorrect": false
+        },
+        {
+          "text": "will come",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Здесь if значит «ли»: мы не ставим условие, а сообщаем, что не знаем ответа. Запрет на will к такому if не относится, а после will глагол стоит в первой форме."
+    },
+    {
+      "id": 74,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "If Nick asks, say I'm busy.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Если Ник спросит, скажи, что я занят.",
+          "isCorrect": true
+        },
+        {
+          "text": "Спроси Ника, занят ли я.",
+          "isCorrect": false
+        },
+        {
+          "text": "Не знаю, спросит ли Ник.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Подставьте «ли» вместо «если»: «ли спросит Ник, скажи» — бессмыслица, значит это условие. К тому же справа стоит команда, а команда бывает только при условии, а не при вопросе."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 92,
+      "items": [
+        {
+          "sentence": "If the taxi ___ after seven, start the meeting without me.",
+          "contextRu": "",
+          "answer": "arrives",
+          "alternatives": []
+        },
+        {
+          "sentence": "If Nick ___ tonight, tell him I'm at the office.",
+          "contextRu": "",
+          "answer": "calls",
+          "alternatives": []
+        },
+        {
+          "sentence": "If you ___ the report today, you can take Friday off.",
+          "contextRu": "",
+          "answer": "finish",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Форма условной половины не зависит от того, что стоит справа — команда или разрешение с can: после if всё равно простое настоящее время со всеми правилами, включая окончание -s для третьего лица (the taxi arrives, Nick calls).",
+      "taskDescription": "Впиши глагол в подходящее по смыслу предложение в нужной форме.",
+      "wordBank": [
+        "закончишь",
+        "позвонит",
+        "приедет"
+      ]
+    }
+  ],
   "dialog_restore_exercises": [
     {
       "id": 66,
@@ -995,6 +1769,34 @@
         }
       ],
       "explanation": "Ответить можно одной половиной с if — вторая уже прозвучала в вопросе. После if будущее не ставится, а лишнее to здесь не нужно: like закрывает мысль сам."
+    },
+    {
+      "id": 67,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What should I do if the delivery comes early?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "If it will come early, leave it at the door.",
+          "isCorrect": false
+        },
+        {
+          "text": "If it comes early, just leave it at the door.",
+          "isCorrect": true
+        },
+        {
+          "text": "If it comes early, will leave it at the door.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Ответ — команда, поэтому в правой половине стоит голый глагол без will и без подлежащего. В условии после if остаётся настоящее время: if it comes."
     }
   ],
   "matching_exercises": [],
@@ -1036,6 +1838,44 @@
         }
       ],
       "explanation": "Половина с if стоит в конце, поэтому запятая не нужна вовсе. Первый вариант переставил половины правильно, но потерял запятую там, где она обязательна."
+    },
+    {
+      "id": 175,
+      "wrongSentence": "If the weather will be good tomorrow, we'll walk to the lake.",
+      "options": [
+        {
+          "text": "If the weather is good tomorrow, we'll walk to the lake.",
+          "isCorrect": true
+        },
+        {
+          "text": "If the weather is good tomorrow, we walk to the lake.",
+          "isCorrect": false
+        },
+        {
+          "text": "If the weather will be good tomorrow, we walk to the lake.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После if нужно настоящее время, а will остаётся в главной половине. Вариант без will во второй половине звучал бы как рассказ о привычке, а не о завтрашнем дне."
+    },
+    {
+      "id": 176,
+      "wrongSentence": "Ask Lena if she helps us tomorrow.",
+      "options": [
+        {
+          "text": "Ask Lena if will she help us tomorrow.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ask Lena if she will helps us tomorrow.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ask Lena if she will help us tomorrow.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Здесь if значит «ли», условия нет, поэтому будущее нужно. Порядок при этом остаётся утвердительным: подлежащее, потом глагол — will she внутри фразы не ставится, а после will глагол идёт в первой форме."
     }
   ],
   "construction_meaning_exercises": [],
@@ -1060,6 +1900,54 @@
       "explanation": "Половины меняются местами без потери смысла, но вместе с if-частью в конец уезжает и запятая — в таком порядке она не нужна."
     }
   ],
-  "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "categorization_exercises": [
+    {
+      "id": 104,
+      "taskDescription": "распредели русские фразы по тому, каким английским if они переводятся.",
+      "categories": [
+        {
+          "title": "if = «если»",
+          "items": [
+            "Если Гриша согласится",
+            "Если завтра будет тепло",
+            "Если они опоздают"
+          ]
+        },
+        {
+          "title": "if = «ли»",
+          "items": [
+            "Спроси, согласится ли Гриша",
+            "Не знаю, будет ли тепло",
+            "Интересно, успеют ли они"
+          ]
+        }
+      ],
+      "explanation": "Проверка одна: попробуйте прочитать фразу с «ли». Влезло — это вопрос без ответа, и внутри будет will; не влезло — это условие, и там останется настоящее время."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 92,
+      "groupDescription": "Три половины могут стоять справа от условия, одна — нет",
+      "items": [
+        {
+          "text": "tell her to wait",
+          "isOdd": false
+        },
+        {
+          "text": "will telling her to wait",
+          "isOdd": true
+        },
+        {
+          "text": "you can wait",
+          "isOdd": false
+        },
+        {
+          "text": "we might wait",
+          "isOdd": false
+        }
+      ],
+      "explanation": "После will глагол стоит в первой форме, поэтому will telling не бывает: верно will tell. Остальные три половины законны — команда, разрешение с can и шанс с might."
+    }
+  ]
 }

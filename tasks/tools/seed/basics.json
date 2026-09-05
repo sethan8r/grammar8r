@@ -6127,17 +6127,13 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Главная ловушка",
+          "label": "Главная ловушка — half past и «пол X-го»",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Half past и «пол X-го»**"
+              "text": "«Пол двенадцатого» по-русски = 11:30. По-английски то же самое: half past eleven = 11:30. **Не** half past twelve — ловушка! Мы говорим «пол двенадцатого» от двенадцати, но имеем в виду прошедшую половину одиннадцатого часа. В английском та же логика: half past eleven = прошло полчаса после одиннадцати."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "«Пол двенадцатого» по-русски = 11:30. По-английски то же самое: half past eleven = 11:30. **Не** half past twelve — ловушка! Мы говорим «пол двенадцатого» от двенадцати, но имеем в виду прошедшую половину одиннадцатого часа. В английском та же логика: half past eleven = прошло полчаса после одиннадцати."
         },
         {
           "type": "paragraph",
@@ -6249,17 +6245,13 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка 1",
+          "label": "Ловушка 1 — `three hours` вместо `three o'clock`",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**`Three hours` вместо `three o'clock`**"
+              "text": "По-русски «три часа» — слово «часа» там есть. Мозг переводит дословно: `three hours`. Но `hours` — это единица длительности (3 часа езды, 3 часа работы), не точка на циферблате."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "По-русски «три часа» — слово «часа» там есть. Мозг переводит дословно: `three hours`. Но `hours` — это единица длительности (3 часа езды, 3 часа работы), не точка на циферблате."
         },
         {
           "type": "list",
@@ -6273,21 +6265,17 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка 2",
+          "label": "Ловушка 2 — o'clock для неровного времени",
           "blocks": [
             {
-              "type": "paragraph",
-              "text": "**O'clock для неровного времени**"
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "It's three fifteen o'clock. ✗",
+                "It's three fifteen. ✓",
+                "It's quarter past three. ✓"
+              ]
             }
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "It's three fifteen o'clock. ✗",
-            "It's three fifteen. ✓",
-            "It's quarter past three. ✓"
           ]
         },
         {
@@ -6390,26 +6378,22 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка",
+          "label": "Ловушка — money — несчётное",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Money — несчётное**"
+              "text": "В русском деньги — обычное слово. В английском `money` несчётное и формы множественного числа не имеет:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "✗ I have three moneys. — так не говорят",
+                "✓ I have some money. *(У меня есть деньги.)*",
+                "✓ I have a lot of money. *(У меня много денег.)*",
+                "✓ I have 500 euros. *(Конкретная валюта — уже счётная: one euro, two euros.)*"
+              ]
             }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "В русском деньги — обычное слово. В английском `money` несчётное и формы множественного числа не имеет:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "✗ I have three moneys. — так не говорят",
-            "✓ I have some money. *(У меня есть деньги.)*",
-            "✓ I have a lot of money. *(У меня много денег.)*",
-            "✓ I have 500 euros. *(Конкретная валюта — уже счётная: one euro, two euros.)*"
           ]
         }
       ],
@@ -6522,17 +6506,13 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Особая ловушка",
+          "label": "Особая ловушка — news с глаголом",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**News с глаголом**"
+              "text": "`News` выглядит как мн.ч. (оканчивается на -s), но это несчётное существительное в единственном числе. Значит — глагол ед.ч.:"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "`news` выглядит как мн.ч. (оканчивается на -s), но это несчётное существительное в единственном числе. Значит — глагол ед.ч.:"
         },
         {
           "type": "list",
@@ -6854,24 +6834,20 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка",
+          "label": "Ловушка — You don't run — это НЕ запрет",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**You don't run — это НЕ запрет**"
+              "text": "В английском тоже разница:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "You don't run in the hall. — утверждение: *Ты не бегаешь в коридоре.* (факт)",
+                "Don't run in the hall! — запрет: *Не беги в коридоре!* (команда)"
+              ]
             }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "В английском тоже разница:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "You don't run in the hall. — утверждение: *Ты не бегаешь в коридоре.* (факт)",
-            "Don't run in the hall! — запрет: *Не беги в коридоре!* (команда)"
           ]
         },
         {
@@ -7008,24 +6984,20 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка",
+          "label": "Ловушка — please ≠ «пожалуйста» в ответ на «спасибо»",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Please ≠ «пожалуйста» в ответ на «спасибо»**"
+              "text": "В русском языке слово «пожалуйста» делает **две вещи**:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Вежливая просьба: *«Откройте, пожалуйста, окно.»*",
+                "Ответ на благодарность: *«Спасибо! — Пожалуйста!»*"
+              ]
             }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "В русском языке слово «пожалуйста» делает **две вещи**:"
-        },
-        {
-          "type": "list",
-          "ordered": true,
-          "items": [
-            "Вежливая просьба: *«Откройте, пожалуйста, окно.»*",
-            "Ответ на благодарность: *«Спасибо! — Пожалуйста!»*"
           ]
         },
         {
@@ -7124,25 +7096,21 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Главная ловушка",
+          "label": "Главная ловушка — Let's — это НЕ сокращение `let + is`",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Let's — это НЕ сокращение `let + is`**"
+              "text": "Ты уже знаешь, что апостроф обычно сокращает вспомогательный глагол:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "It**'s** = it **is**",
+                "He**'s** = he **is**",
+                "She**'s** = she **is**"
+              ]
             }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Ты уже знаешь, что апостроф обычно сокращает вспомогательный глагол:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "it**'s** = it **is**",
-            "he**'s** = he **is**",
-            "she**'s** = she **is**"
           ]
         },
         {
@@ -8583,17 +8551,13 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка 1",
+          "label": "Ловушка 1 — `to` после can — нельзя",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**`To` после can — нельзя**"
+              "text": "По-русски «я хочу пойти», «мне нужно пойти» — глагол с частицей. В английском тоже есть такая схема:"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "По-русски «я хочу пойти», «мне нужно пойти» — глагол с частицей. В английском тоже есть такая схема:"
         },
         {
           "type": "paragraph",
@@ -8622,21 +8586,17 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка 2",
+          "label": "Ловушка 2 — -s в третьем лице — нельзя",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**-S в третьем лице — нельзя**"
+              "text": "В Present Simple глагол меняется в третьем лице: `She **goes**`, `He **works**`. Это правило."
+            },
+            {
+              "type": "paragraph",
+              "text": "Но у can своё правило: **can не спрягается вообще**."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "В Present Simple глагол меняется в третьем лице: `She **goes**`, `He **works**`. Это правило."
-        },
-        {
-          "type": "paragraph",
-          "text": "Но у can своё правило: **can не спрягается вообще**."
         },
         {
           "type": "paragraph",
@@ -8827,17 +8787,13 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка 1",
+          "label": "Ловушка 1 — too не стоит между субъектом и глаголом",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Too не стоит между субъектом и глаголом**"
+              "text": "Мозг хочет поставить «тоже» сразу после «я» — как по-русски. Но too в середине предложения — ошибка:"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Мозг хочет поставить «тоже» сразу после «я» — как по-русски. Но too в середине предложения — ошибка:"
         },
         {
           "type": "paragraph",
@@ -8854,17 +8810,13 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка 2",
+          "label": "Ловушка 2 — `Me also!` как короткий ответ — не существует",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**`Me also!` как короткий ответ — не существует**"
+              "text": "Кто-то говорит: I love this film! Ты согласен. Как ответить?"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Кто-то говорит: I love this film! Ты согласен. Как ответить?"
         },
         {
           "type": "list",
@@ -8964,21 +8916,17 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка 1",
+          "label": "Ловушка 1 — пропустить to",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Пропустить to**"
+              "text": "I want go. ✗ → I want to go. ✓"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dima needs sleep more. ✗ → Dima needs to sleep more. ✓"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "I want go. ✗ → I want to go. ✓"
-        },
-        {
-          "type": "paragraph",
-          "text": "Dima needs sleep more. ✗ → Dima needs to sleep more. ✓"
         },
         {
           "type": "paragraph",
@@ -8987,21 +8935,17 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка 2",
+          "label": "Ловушка 2 — поставить -ing после to",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Поставить -ing после to**"
+              "text": "I want to going. ✗ → I want to go. ✓"
+            },
+            {
+              "type": "paragraph",
+              "text": "She likes to reading. ✗ → She likes to read. ✓"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "I want to going. ✗ → I want to go. ✓"
-        },
-        {
-          "type": "paragraph",
-          "text": "She likes to reading. ✗ → She likes to read. ✓"
         },
         {
           "type": "paragraph",
@@ -9129,21 +9073,17 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка",
+          "label": "Ловушка — can + to",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Can + to**"
+              "text": "I can to swim. ✗ → I can swim. ✓"
+            },
+            {
+              "type": "paragraph",
+              "text": "She can to cook. ✗ → She can cook. ✓"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "I can to swim. ✗ → I can swim. ✓"
-        },
-        {
-          "type": "paragraph",
-          "text": "She can to cook. ✗ → She can cook. ✓"
         },
         {
           "type": "paragraph",
@@ -9248,17 +9188,13 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка",
+          "label": "Ловушка — as vs like",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**As vs like**"
+              "text": "`Like` тоже переводится как «как» — но смысл другой:"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "`like` тоже переводится как «как» — но смысл другой:"
         },
         {
           "type": "paragraph",
@@ -9413,21 +9349,17 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка",
+          "label": "Ловушка — such as ≠ for example по позиции",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Such as ≠ for example по позиции**"
+              "text": "`For example` — начало предложения или после запятой перед примером:"
+            },
+            {
+              "type": "paragraph",
+              "text": "**For example**, apples are healthy."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "`for example` — начало предложения или после запятой перед примером:"
-        },
-        {
-          "type": "paragraph",
-          "text": "**For example**, apples are healthy."
         },
         {
           "type": "paragraph",

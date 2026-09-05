@@ -70,6 +70,30 @@ def scan(val, path, key=''):
         if '*' in BOLD.sub('', val):
             hits.append(f'[непарная звёздочка * (markdown-утечка)] {path} = {val!r}')
 
+# --- Рамка-обманка: подзаголовок, случайно ставший плашкой (канон guide §9) ---------------------
+# Строка целиком в болде становится подзаголовком, НО только если в ярлыке нет ключевого слова
+# плашки (ловушк/важно/кстати/совет/формул/…). Иначе конвертер видит ключ, режет строку по
+# двоеточию и делает callout, в теле которого лежит один жирный заголовок — на экране это пустая
+# рамка с названием и потерянной связью с текстом ниже. Подпись такой ошибки в сиде однозначна:
+# callout, у которого тело — РОВНО один абзац, целиком обёрнутый в **…**.
+FULL_BOLD = re.compile(r'^\*\*[^*]+\*\*$')
+
+def scan_callout_frames(val, path):
+    if isinstance(val, dict):
+        blocks = val.get('blocks')
+        # variant 'formula' пропускаем: там жирная схема в теле — это и есть содержимое плашки.
+        if (val.get('type') == 'callout' and val.get('variant') != 'formula'
+                and isinstance(blocks, list) and len(blocks) == 1
+                and blocks[0].get('type') == 'paragraph'
+                and FULL_BOLD.fullmatch(blocks[0].get('text', '').strip())):
+            hits.append(f'[рамка-обманка: подзаголовок с ключевым словом плашки] {path} = '
+                        f'**{val.get("label")}: {blocks[0]["text"].strip("*")}**')
+        for k, v in val.items():
+            scan_callout_frames(v, f'{path}.{k}')
+    elif isinstance(val, list):
+        for i, v in enumerate(val):
+            scan_callout_frames(v, f'{path}[{i}]')
+
 def walk_phonetics(val, path, key=''):
     """Транскрипцию проверяем по ВСЕМУ сиду: правило одно для теории, примеров и упражнений."""
     if isinstance(val, dict):
@@ -87,6 +111,7 @@ for key in d:
         scan(d[key], key)
 
 walk_phonetics(d, 'seed')
+scan_callout_frames(d, 'seed')
 
 io.open('_smell.txt', 'w', encoding='utf-8').write(
     f'ВСЕГО ЗАПАХОВ: {len(hits)}\n\n' + '\n'.join(hits) if hits else 'ЧИСТО — 0 запахов')

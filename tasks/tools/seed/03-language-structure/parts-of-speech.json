@@ -623,15 +623,8 @@
           ]
         },
         {
-          "type": "callout",
-          "variant": "warning",
-          "label": "Осторожно с to",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "text": "**Инфинитив ≠ предлог**"
-            }
-          ]
+          "type": "heading",
+          "text": "Два разных to: инфинитив и предлог"
         },
         {
           "type": "paragraph",

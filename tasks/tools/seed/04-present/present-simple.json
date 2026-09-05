@@ -663,17 +663,13 @@
         {
           "type": "callout",
           "variant": "trap",
-          "label": "Ловушка",
+          "label": "Ловушка — don't вместо doesn't",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "**Don't вместо doesn't**"
+              "text": "Самая частая ошибка — поставить `don't` там, где нужно `doesn't`: **He don't work** ✗ → **He doesn't work** ✓. Ты наверняка слышал **he don't** в песнях и сленге, но это не норма: в обычной речи и на письме для he/she/it всегда `doesn't`. То же с именами: **Jack don't know** ✗ → **Jack doesn't know** ✓."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Самая частая ошибка — поставить `don't` там, где нужно `doesn't`: **He don't work** ✗ → **He doesn't work** ✓. Ты наверняка слышал **he don't** в песнях и сленге, но это не норма: в обычной речи и на письме для he/she/it всегда `doesn't`. То же с именами: **Jack don't know** ✗ → **Jack doesn't know** ✓."
         }
       ],
       "theorySummary": "Для he/she/it (и любого одного лица/предмета) помощник получает `-s`: `do` → `does`, отрицание — `doesn't`. Окончание `-s` переезжает с глагола на помощника: было **he works**, стало **he doesn't work**. Ставить `don't` для 3-го лица (**He don't work** ✗) — частая ошибка, норма — `doesn't`.",
