@@ -28,9 +28,9 @@ object ContentDbIndexLoader {
                 it.getInt("id") to it.getString("title")
             }.toMap()
 
-            val cardTitles = connection
-                .query("SELECT microtopicId, title FROM grammar_cards ORDER BY `order`") {
-                    it.getInt("microtopicId") to it.getString("title")
+            val cards = connection
+                .query("SELECT id, microtopicId, title FROM grammar_cards ORDER BY `order`") {
+                    it.getInt("microtopicId") to (it.getInt("id") to it.getString("title"))
                 }
                 .groupBy({ it.first }, { it.second })
 
@@ -44,7 +44,8 @@ object ContentDbIndexLoader {
                         id = id,
                         title = it.getString("title"),
                         keywords = SearchKeywords.parse(it.getString("searchKeywords")),
-                        cardTitles = cardTitles[id].orEmpty(),
+                        cardTitles = cards[id].orEmpty().map { card -> card.second },
+                        cardIds = cards[id].orEmpty().map { card -> card.first },
                         order = it.getInt("order"),
                         isCompleted = false,
                     )

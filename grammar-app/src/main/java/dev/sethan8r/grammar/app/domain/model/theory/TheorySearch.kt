@@ -24,13 +24,15 @@ data class IndexedTopic(
 
 /**
  * Микротема со своими полями индекса. [cardTitles] — скрытый сигнал релевантности: карточки
- * дают очки своей микротеме, но в выдаче не показываются (§8.2.2).
+ * дают очки своей микротеме, но в выдаче не показываются (§8.2.2). [cardIds] в ранжировании не
+ * участвуют — по ним ищется микротема, когда запрос состоит из одних цифр (номер с бейджа читалки).
  */
 data class IndexedMicrotopic(
     val id: Int,
     val title: String,
     val keywords: List<String>,
     val cardTitles: List<String>,
+    val cardIds: List<Int>,
     val order: Int,
     val isCompleted: Boolean,
 )

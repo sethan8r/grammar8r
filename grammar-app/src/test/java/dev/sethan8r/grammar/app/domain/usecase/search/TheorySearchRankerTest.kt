@@ -105,6 +105,38 @@ class TheorySearchRankerTest {
         assertEquals(listOf("used to · Раньше было"), group.microtopics.map { it.title })
     }
 
+    @Test
+    fun `номер карточки находит микротему, которой она принадлежит`() {
+        val index = prepare(
+            topic(
+                id = 1,
+                title = "Наречия",
+                microtopics = listOf(
+                    microtopic(11, "Adverbs of Place · Наречия места", cardIds = listOf(201, 202)),
+                    microtopic(12, "Adverbs of Time · Наречия времени", cardIds = listOf(203)),
+                ),
+            ),
+        )
+
+        val group = ranker.rank(index, "203").single()
+
+        assertEquals(listOf("Adverbs of Time · Наречия времени"), group.microtopics.map { it.title })
+        assertEquals("Наречия", group.topic.title)
+    }
+
+    @Test
+    fun `несуществующий номер карточки не проваливается в обычный поиск`() {
+        val index = prepare(
+            topic(
+                id = 1,
+                title = "Наречия",
+                microtopics = listOf(microtopic(11, "Adverbs of Place · Наречия места", cardIds = listOf(201))),
+            ),
+        )
+
+        assertTrue(ranker.rank(index, "999").isEmpty())
+    }
+
     private fun prepare(vararg topics: IndexedTopic) = ranker.prepare(SearchIndex(topics.toList()))
 
     private fun topic(
@@ -128,11 +160,13 @@ class TheorySearchRankerTest {
         title: String,
         keywords: List<String> = emptyList(),
         cardTitles: List<String> = emptyList(),
+        cardIds: List<Int> = emptyList(),
     ) = IndexedMicrotopic(
         id = id,
         title = title,
         keywords = keywords,
         cardTitles = cardTitles,
+        cardIds = cardIds,
         order = id,
         isCompleted = false,
     )

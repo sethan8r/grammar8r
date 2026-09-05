@@ -34,6 +34,8 @@ class TheorySearchRanker @Inject constructor(
     fun prepare(index: SearchIndex): PreparedIndex = PreparedIndex.of(index, normalizer)
 
     fun rank(index: PreparedIndex, query: String): List<SearchGroup> {
+        byCardId(index, query)?.let { return it }
+
         val terms = parse(index, query)
         if (terms.isEmpty() || terms.all { it.isFunctionWord }) return emptyList()
 
@@ -51,6 +53,33 @@ class TheorySearchRanker @Inject constructor(
         val best = groups.first().score
         val floor = maxOf(best * GROUP_NOISE_RATIO, MIN_GROUP_SCORE.toDouble())
         return groups.filter { it.score >= floor }
+    }
+
+    /**
+     * Запрос из одних цифр — это номер карточки с бейджа читалки: человек смотрит на скриншот и
+     * не хочет набирать название микротемы. Отдаём микротему, которой карточка принадлежит, обычной
+     * группой выдачи. Возвращает null, если запрос не числовой (тогда работает обычный поиск), и
+     * пустую выдачу, если карточки с таким номером нет.
+     */
+    private fun byCardId(index: PreparedIndex, query: String): List<SearchGroup>? {
+        val digits = query.trim()
+        if (digits.isEmpty() || !digits.all(Char::isDigit)) return null
+        val cardId = digits.toIntOrNull() ?: return emptyList()
+
+        for (topic in index.topics) {
+            val microtopic = topic.microtopics.firstOrNull { cardId in it.source.cardIds } ?: continue
+            return listOf(
+                SearchGroup(
+                    topic = topic.toSummary(),
+                    sectionTitle = topic.source.sectionTitle,
+                    microtopics = listOf(microtopic.source.toSummary()),
+                    // Попадание по номеру точное, соперников у него нет — очки взяты по верхней
+                    // планке весов только чтобы поле не осталось бессмысленным нулём.
+                    score = Weights.MICROTOPIC_TITLE.roundToInt(),
+                ),
+            )
+        }
+        return emptyList()
     }
 
     /**
@@ -120,14 +149,7 @@ class TheorySearchRanker @Inject constructor(
             .sumOf { it.weight }
 
         val group = SearchGroup(
-            topic = TopicSummary(
-                id = topic.source.id,
-                title = topic.source.title,
-                description = topic.source.description,
-                isPretopic = false,
-                completedMicrotopics = topic.source.completedMicrotopics,
-                totalMicrotopics = topic.microtopics.size,
-            ),
+            topic = topic.toSummary(),
             sectionTitle = topic.source.sectionTitle,
             microtopics = matched
                 .filter { (microtopic, score) -> score >= floor(microtopic, query, topicTerms, topicScore, tail) }
@@ -197,6 +219,15 @@ class TheorySearchRanker @Inject constructor(
         SearchFieldKind.TOPIC_TAG -> Weights.TOPIC_TAG
         SearchFieldKind.CARD_TITLE -> Weights.CARD_TITLE
     }
+
+    private fun PreparedTopic.toSummary() = TopicSummary(
+        id = source.id,
+        title = source.title,
+        description = source.description,
+        isPretopic = false,
+        completedMicrotopics = source.completedMicrotopics,
+        totalMicrotopics = microtopics.size,
+    )
 
     private fun IndexedMicrotopic.toSummary() = MicrotopicSummary(
         id = id,

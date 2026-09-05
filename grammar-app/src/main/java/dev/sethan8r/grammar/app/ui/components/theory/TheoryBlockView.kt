@@ -31,6 +31,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlin.math.ceil
+import kotlin.math.min
 import dev.sethan8r.grammar.app.domain.model.theory.CalloutVariant
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
 import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
@@ -108,6 +109,9 @@ private val WHITESPACE = Regex("\\s+")
 // контент не была широкой из-за длинного заголовка. Переноса по слогам в Compose нет → делим по символам.
 private const val MAX_WORD_LEN = 9
 
+// Ниже этого куска слово не режем никогда: 1–2 буквы на отдельной строке — брак.
+private const val MIN_CHUNK_LEN = 3
+
 // Запас к замеренной ширине колонки: гасит округления px↔dp (замер → Dp → обратно в px в
 // Modifier.width), из-за которых слову могло не хватить долей пикселя и последняя буква переносилась.
 private val MEASURE_SLACK = 1.dp
@@ -159,9 +163,11 @@ private data class ColumnMetrics(val min: List<Dp>, val ideal: List<Dp>) {
 }
 
 /**
- * Строит раскладку таблицы. Сначала мерит текст как есть: если таблица влезает в ширину экрана
- * нерезаной — длинные слова не делим (делить их незачем, соседним колонкам место не нужно).
- * Не влезает — делим одиночные слова-ярлыки ([wrapLongWords]) и меряем заново.
+ * Строит раскладку таблицы тремя проходами, от самого щадящего к самому жёсткому:
+ * 1. мерим текст как есть — влезает нерезаным, значит ничего не делим;
+ * 2. не влезает — делим одиночные слова-ярлыки ([wrapLongWords]) и меряем заново;
+ * 3. всё ещё не влезает — прицельно ужимаем колонки ([squeezeColumns]), иначе колонкам досталось бы
+ *    меньше их минимума и Compose доломал бы слова по буквам где попало.
  */
 private fun layoutTable(
     header: List<String>,
@@ -179,20 +185,120 @@ private fun layoutTable(
     val wrappedHeader = header.map(::wrapLongWords)
     val wrappedRows = rows.map { row -> row.map(::wrapLongWords) }
     val wrappedMetrics = measureColumns(wrappedHeader, wrappedRows, columnCount, baseStyle, measurer, density)
-    return TableLayout(wrappedHeader, wrappedRows, distributeWidths(wrappedMetrics, totalWidth))
+    if (wrappedMetrics.totalMin <= totalWidth) {
+        return TableLayout(wrappedHeader, wrappedRows, distributeWidths(wrappedMetrics, totalWidth))
+    }
+    return squeezeColumns(
+        header, rows, wrappedHeader, wrappedRows, wrappedMetrics,
+        columnCount, totalWidth, baseStyle, measurer, density,
+    )
 }
 
 /**
- * Делит ОДИНОЧНОЕ слово-ярлык длиннее [MAX_WORD_LEN] на сбалансированные части (через `\n`). В
- * многословных ячейках (предложениях) слова не трогаем — они переносятся по пробелам. `*` не трогаем.
+ * Делит слово на сбалансированные куски (длины отличаются не больше чем на букву), каждый не короче
+ * [MIN_CHUNK_LEN]: число частей ограничено так, что сиротская 1–2-буквенная строка невозможна.
+ * Слово, которое нельзя поделить с соблюдением порога, возвращается целиком.
+ */
+private fun splitWord(word: String, maxLen: Int): List<String> {
+    if (word.length <= maxLen) return listOf(word)
+    val parts = min(ceil(word.length / maxLen.toDouble()).toInt(), word.length / MIN_CHUNK_LEN)
+    if (parts <= 1) return listOf(word)
+    val base = word.length / parts
+    val longerParts = word.length % parts
+    var start = 0
+    return (0 until parts).map { index ->
+        val size = base + if (index < longerParts) 1 else 0
+        word.substring(start, start + size).also { start += size }
+    }
+}
+
+/**
+ * Делит ОДИНОЧНОЕ слово-ярлык длиннее [MAX_WORD_LEN] на части (через `\n`). В многословных ячейках
+ * (предложениях) слова не трогаем — они переносятся по пробелам. Жирные токены не трогаем: деление
+ * сломало бы разметку.
  */
 private fun wrapLongWords(cell: String): String {
     val trimmed = cell.trim()
     val isSingleWord = trimmed.isNotEmpty() && trimmed.none { it.isWhitespace() }
     if (!isSingleWord || trimmed.length <= MAX_WORD_LEN || trimmed.contains('*')) return cell
-    val parts = ceil(trimmed.length / MAX_WORD_LEN.toDouble()).toInt()
-    val size = ceil(trimmed.length / parts.toDouble()).toInt()
-    return trimmed.chunked(size).joinToString("\n")
+    return splitWord(trimmed, MAX_WORD_LEN).joinToString("\n")
+}
+
+/** Жёсткое деление третьего прохода: режет КАЖДОЕ слово ячейки длиннее [maxLen], включая предложения. */
+private fun wrapEveryWord(cell: String, maxLen: Int): String =
+    cell.trim().split(WHITESPACE).joinToString(" ") { word ->
+        if ('*' in word) word else splitWord(word, maxLen).joinToString("\n")
+    }
+
+/**
+ * Таблица не влезает даже с делением ярлыков. Ужимаем колонки прицельно: сначала те, у которых
+ * маленький ideal (колонки-ярлыки — потеря ширины им дешевле всего), в последнюю очередь колонки
+ * с предложениями. Каждой понижаем допустимую длину куска, пока таблица не влезет; как только
+ * влезла — останавливаемся, поэтому остальные колонки остаются нетронутыми и забирают освободившееся
+ * место обычной раздачей по дефициту.
+ *
+ * Режем всегда ИСХОДНЫЙ текст ячейки, а не результат второго прохода: перенос там уже проставлен
+ * как `\n`, и повторное деление склеило бы куски слова через пробел.
+ */
+private fun squeezeColumns(
+    header: List<String>,
+    rows: List<List<String>>,
+    wrappedHeader: List<String>,
+    wrappedRows: List<List<String>>,
+    metrics: ColumnMetrics,
+    columnCount: Int,
+    totalWidth: Dp,
+    baseStyle: TextStyle,
+    measurer: TextMeasurer,
+    density: Density,
+): TableLayout {
+    val outHeader = wrappedHeader.toMutableList()
+    val outRows = wrappedRows.map { it.toMutableList() }
+    val mins = metrics.min.toMutableList()
+    val ideals = metrics.ideal.toMutableList()
+    fun totalMin() = mins.fold(0.dp) { acc, w -> acc + w }
+
+    // Ставит колонке текст с делением по maxLen (null — вернуть текст второго прохода) и переменяет её.
+    fun applyColumn(column: Int, maxLen: Int?) {
+        outHeader[column] = maxLen
+            ?.let { len -> header.getOrNull(column)?.let { wrapEveryWord(it, len) } }
+            ?: wrappedHeader[column]
+        outRows.forEachIndexed { index, row ->
+            if (column < row.size) {
+                row[column] = maxLen
+                    ?.let { len -> rows[index].getOrNull(column)?.let { wrapEveryWord(it, len) } }
+                    ?: wrappedRows[index][column]
+            }
+        }
+        val (columnMin, columnIdeal) = measureColumn(column, outHeader, outRows, baseStyle, measurer, density)
+        mins[column] = columnMin
+        ideals[column] = columnIdeal
+    }
+
+    for (column in (0 until columnCount).sortedBy { ideals[it].value }) {
+        if (totalMin() <= totalWidth) break
+        // Колонку жмём ровно до той степени, которая даёт выигрыш по ширине: как только таблица
+        // влезла — останавливаемся, а если не влезла и на самых мелких кусках, оставляем САМОЕ
+        // КРУПНОЕ деление из тех, что дали лучшую ширину, — мельчить его дальше уже бессмысленно.
+        var bestMaxLen: Int? = null
+        var bestMin = mins[column]
+        var fitted = false
+        for (maxLen in MAX_WORD_LEN - 1 downTo MIN_CHUNK_LEN) {
+            applyColumn(column, maxLen)
+            if (mins[column] < bestMin) {
+                bestMin = mins[column]
+                bestMaxLen = maxLen
+            }
+            if (totalMin() <= totalWidth) {
+                fitted = true
+                break
+            }
+        }
+        if (!fitted) applyColumn(column, bestMaxLen)
+    }
+
+    val squeezed = ColumnMetrics(mins, ideals)
+    return TableLayout(outHeader, outRows.map { it.toList() }, distributeWidths(squeezed, totalWidth))
 }
 
 /**
@@ -210,6 +316,19 @@ private fun measureColumns(
     measurer: TextMeasurer,
     density: Density,
 ): ColumnMetrics {
+    val measured = (0 until columnCount).map { measureColumn(it, header, rows, baseStyle, measurer, density) }
+    return ColumnMetrics(min = measured.map { it.first }, ideal = measured.map { it.second })
+}
+
+/** Замер одной колонки: пара min (самое длинное слово) — ideal (самая длинная строка ячейки целиком). */
+private fun measureColumn(
+    column: Int,
+    header: List<String>,
+    rows: List<out List<String>>,
+    baseStyle: TextStyle,
+    measurer: TextMeasurer,
+    density: Density,
+): Pair<Dp, Dp> {
     val bodyStyle = baseStyle.merge(TextStyle(fontSize = 14.sp, lineHeight = 20.sp))
     val headerStyle = bodyStyle.merge(TextStyle(fontWeight = FontWeight.Bold))
     val cellPadding = Dimens.spaceSmall * 2
@@ -217,7 +336,7 @@ private fun measureColumns(
 
     // Ширина самого широкого куска ячеек колонки; куски задаёт split (слова либо готовые строки).
     // Кусок с `*` рендерится жирным спаном — меряем его жирным, иначе недомер и перенос букв.
-    fun widestPiece(column: Int, split: (String) -> List<String>): Dp {
+    fun widestPiece(split: (String) -> List<String>): Dp {
         val maxPx = styledRows.maxOf { (row, style) ->
             val cell = row.getOrNull(column) ?: return@maxOf 0
             split(cell).maxOfOrNull { piece ->
@@ -228,10 +347,7 @@ private fun measureColumns(
         return with(density) { maxPx.toDp() } + cellPadding + MEASURE_SLACK
     }
 
-    return ColumnMetrics(
-        min = (0 until columnCount).map { widestPiece(it) { cell -> cell.split(WHITESPACE) } },
-        ideal = (0 until columnCount).map { widestPiece(it) { cell -> cell.split('\n') } },
-    )
+    return widestPiece { it.split(WHITESPACE) } to widestPiece { it.split('\n') }
 }
 
 /**

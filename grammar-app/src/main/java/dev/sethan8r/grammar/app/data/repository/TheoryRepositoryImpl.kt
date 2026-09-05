@@ -104,11 +104,13 @@ class TheoryRepositoryImpl @Inject constructor(
                     order = topic.order,
                     completedMicrotopics = own.count { it.id in completed },
                     microtopics = own.map { microtopic ->
+                        val cards = cardsByMicrotopic[microtopic.id].orEmpty()
                         IndexedMicrotopic(
                             id = microtopic.id,
                             title = microtopic.title,
                             keywords = SearchKeywords.parse(microtopic.searchKeywords),
-                            cardTitles = cardsByMicrotopic[microtopic.id].orEmpty().map { it.title },
+                            cardTitles = cards.map { it.title },
+                            cardIds = cards.map { it.id },
                             order = microtopic.order,
                             isCompleted = microtopic.id in completed,
                         )
