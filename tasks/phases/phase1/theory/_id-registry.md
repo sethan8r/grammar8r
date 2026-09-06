@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 507 |
-| Categorization | 108 |
+| Card | 512 |
+| Categorization | 109 |
 | Category | 8 |
-| ConstructionMeaning | 58 |
-| DialogRestore | 72 |
-| ErrorCorrection | 183 |
-| FindTheOdd | 97 |
-| Matching | 78 |
-| Microtopic | 193 |
-| MultipleChoice·CHOICE | 198 |
-| MultipleChoice·FORWARD_CHOICE | 219 |
-| MultipleChoice·REVERSE_CHOICE | 79 |
+| ConstructionMeaning | 59 |
+| DialogRestore | 73 |
+| ErrorCorrection | 184 |
+| FindTheOdd | 98 |
+| Matching | 80 |
+| Microtopic | 194 |
+| MultipleChoice·CHOICE | 200 |
+| MultipleChoice·FORWARD_CHOICE | 221 |
+| MultipleChoice·REVERSE_CHOICE | 81 |
 | TableFill | 41 |
 | TextInput | 95 |
 | Topic | 31 |
-| Transformation | 82 |
-| TrueFalse | 195 |
-| WordArrangement | 174 |
-| course_word | 736 |
+| Transformation | 83 |
+| TrueFalse | 197 |
+| WordArrangement | 176 |
+| course_word | 741 |
 
 ## Диапазоны по темам
 
@@ -445,23 +445,23 @@
 - course_word: 1–230 (230)
 
 ### conditionals
-- Card: 485–506 (22)
-- Categorization: 104–107 (4)
-- ConstructionMeaning: 56–57 (2)
-- DialogRestore: 66–71 (6)
-- ErrorCorrection: 173–182 (10)
-- FindTheOdd: 92–96 (5)
-- Matching: 75–77 (3)
-- Microtopic: 186–192 (7)
-- MultipleChoice·CHOICE: 188–197 (10)
-- MultipleChoice·FORWARD_CHOICE: 213–218 (6)
-- MultipleChoice·REVERSE_CHOICE: 74–78 (5)
+- Card: 485–511 (27)
+- Categorization: 104–108 (5)
+- ConstructionMeaning: 56–58 (3)
+- DialogRestore: 66–72 (7)
+- ErrorCorrection: 173–183 (11)
+- FindTheOdd: 92–97 (6)
+- Matching: 75–79 (5)
+- Microtopic: 186–193 (8)
+- MultipleChoice·CHOICE: 188–199 (12)
+- MultipleChoice·FORWARD_CHOICE: 213–220 (8)
+- MultipleChoice·REVERSE_CHOICE: 74–80 (7)
 - TextInput: 92–94 (3)
 - Topic: 30–30 (1)
-- Transformation: 78–81 (4)
-- TrueFalse: 186–194 (9)
-- WordArrangement: 168–173 (6)
-- course_word: 735–735 (1)
+- Transformation: 78–82 (5)
+- TrueFalse: 186–196 (11)
+- WordArrangement: 168–175 (8)
+- course_word: 735–740 (6)
 
 ### indirect-questions
 - Card: 341–358 (18)
