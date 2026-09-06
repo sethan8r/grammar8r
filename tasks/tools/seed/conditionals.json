@@ -32,6 +32,13 @@
       "title": "First Conditional · Реальное будущее",
       "order": 3,
       "searchKeywords": "will после if, первый тип, if ли или если, команда после if, might после if"
+    },
+    {
+      "id": 189,
+      "topicId": 30,
+      "title": "Second Conditional · Если бы сейчас",
+      "order": 4,
+      "searchKeywords": "if i were you, were или was, как смягчить просьбу, would в правой половине, чего сейчас нет, i'd вместо i would"
     }
   ],
   "grammar_cards": [
@@ -822,7 +829,7 @@
           ]
         }
       ],
-      "theorySummary": "Половины условного предложения можно ставить в любом порядке: **If it rains, I stay home** = **I stay home if it rains**, смысл один, меняется только акцент. Запятая нужна **только когда половина с `if` стоит впереди**; если она уехала в конец — запятой нет (**Kate takes a taxi if she works late**). Русская привычка ставить знак перед «если» всегда даёт самую частую механическую ошибку темы. Подлежащее нужно в обеих половинах — в разговоре о погоде его роль играет пустое `it`.",
+      "theorySummary": "Нулевой тип — это правило, которое срабатывает каждый раз, а не случай впереди: обе половины стоят в обычном настоящем времени (**If you heat ice, it melts**), шагов назад по времени ноль. Проверка на глаз: `if` меняется на `when` без потери смысла. Обе половины живут по обычным правилам настоящего времени — окончание `-s` для `he/she/it` работает и слева, и справа, а `will` после `if` не ставится. Отрицают обе половины через `don't`/`doesn't`, вопрос строит только половина без `if` (**What happens if you mix these two?** · **Doesn't the door close if you push it?**), условие всегда остаётся утвердительным. Порядок половин свободный: **If it rains, I stay home** = **I stay home if it rains**. Запятая нужна **только когда половина с `if` идёт впереди**; уехала в конец — запятой нет (**Kate takes a taxi if she works late**). Подлежащее обязательно в обеих половинах — в разговоре о погоде его роль играет пустое `it`.",
       "examples": [
         {
           "ru": "Если идёт дождь, я остаюсь дома.",
@@ -1284,7 +1291,7 @@
           ]
         }
       ],
-      "theorySummary": "Три случая рядом: `if`-«если» — условие, которое может и не случиться, `will` внутрь нельзя (**If it rains, I'll stay home**); `when` — то же по форме, но говорящий уверен, что это произойдёт (**When I see him tomorrow, I'll ask**); `if`-«ли» — вопрос без ответа, и `will` там законен (**I don't know if it will rain**). Проверка на глаз: подставьте «ли» вместо «если» — влезло, значит перед вами вопрос. Обратная ловушка: **I don't know if it rains tomorrow** ✗ — запрет на `will` относится к условию, а не к самому слову `if`.",
+      "theorySummary": "Первый тип — про **один реальный случай впереди**, а не про правило: `if + настоящее время · will + V1` (**If it rains tomorrow, I'll stay home**). Будущее помечается один раз: `will` после `if` не ставится (**If it will rain** ✗), но в главной половине он обязателен, иначе фраза читается как рассказ о привычке. Жёсткая только левая половина — правая свободна: там может стоять обещание с `will`, команда (**If you see Kate, tell her to call me**), разрешение с `can`, шанс с `might`, совет с `should`. Отрицают обе половины по своим правилам: `don't`/`doesn't` в условии (**If you won't hurry** ✗), `won't` или отрицательная команда справа. Вопрос строит только половина без `if`: **What will you do if he says no?**, отрицательный — **Won't you be tired if you leave at five?**; условие остаётся утвердительным (**If will it rain** ✗). И три разных `if` рядом: `if`-«если» — условие, `will` внутрь нельзя; `when` — то же по форме, но событие точно произойдёт (**When I see him tomorrow, I'll ask**); `if`-«ли» — вопрос без ответа, и там `will` законен (**I don't know if it will rain**). Проверка: подставьте «ли» вместо «если» — влезло, значит это вопрос.",
       "examples": [
         {
           "ru": "Если Лена согласится, мы поедем вместе.",
@@ -1311,6 +1318,628 @@
         "Как быстро понять, ставлю я условие или задаю вопрос?",
         "Почему после when тоже нельзя будущее, если событие точно случится?",
         "Откуда берётся ошибка I don't know if it rains?"
+      ]
+    },
+    {
+      "id": 493,
+      "microtopicId": 189,
+      "title": "Прошедшая форма про сейчас: if + Past → would",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Гриша стоит в магазине техники, смотрит на ноутбук ценой в две зарплаты и говорит вслух ровно то, что говорят в такой момент все: «Вот если бы у меня было побольше денег…». Денег нет, и он это прекрасно знает — спорить не с чем. Он просто на секунду сошёл с реальной дороги на соседнюю и посмотрел, что там."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот об этом и весь второй тип. Развилка не впереди, как в первом типе, — она **рядом**, и мы по ней не идём."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If + прошедшая форма · would + V1"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "If I had more money, I would buy a new laptop."
+        },
+        {
+          "type": "heading",
+          "text": "Прошедшая форма, которая не про прошлое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое дикое в этой фразе — слово `had`. Гриша говорит про сегодняшний день, стоя в магазине, а глагол стоит в прошедшем времени. Никакой ошибки тут нет, и это не рассказ о прошлогодней зарплате. Прошедшая форма работает здесь не отметкой времени, а отметкой **«мы вышли из реальности»** — тем самым шагом назад, о котором мы говорили в микротеме «Что такое условное предложение»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните две фразы, различаются они одной буквой смысла:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I have time, I'll help you.** — время, скорее всего, найдётся. Дверь открыта.",
+            "**If I had time, I'd help you.** — времени нет. Дверь закрыта, и я просто показываю, что было бы за ней."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русский делает ровно то же самое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Хорошая новость, которая закрывает половину темы: заучивать этот приём не придётся, потому что мы всю жизнь им пользуемся. Прочитайте вслух: «Если бы у меня **было** побольше денег». Какое время у глагола? Прошедшее. А речь про что? Про эту самую минуту в магазине."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Если бы я **знал** его номер…» — а номер нужен сейчас.",
+            "«Если бы Оля **жила** ближе…» — а она живёт далеко прямо сегодня."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Английское **If I knew his number, I'd call him** устроено точь-в-точь так же: слева прошедшая форма, справа «бы». Совпадение полное — надо просто разрешить себе им пользоваться."
+        },
+        {
+          "type": "heading",
+          "text": "Из чего собираются половины"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Слева, после `if`** — обычная прошедшая форма любого глагола, та самая, что мы собирали в теме «Past Simple»: **lived**, **worked**, **knew**, **came**. Правильные глаголы берут `-ed`, неправильные — свою вторую форму, ничего нового.",
+            "**Справа** — `would` плюс глагол в первой форме: **would buy**, **would call**, **would go**. `would` не меняется ни от какого подлежащего: **I would**, **he would**, **they would** — окончания `-s` у него нет и быть не может.",
+            "В живой речи `would` почти всегда схлопывается в `'d`: **I'd buy**, **she'd call**. Это то же самое слово, просто проглоченное."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If I will have money, I'd buy a car** ✗ → **If I had more money, I'd buy a car** ✓. Правило про `will` после `if` работает и здесь, во всех типах без исключения: будущее внутрь условия не заходит."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If I would have money, I'd buy a car** ✗ → **If I had more money, I'd buy a car** ✓. Русское «бы» стоит в обеих половинах («если **бы** были деньги, я **бы** купил»), и рука честно ставит `would` дважды. По-английски «бы» живёт только справа, а левая половина держит форму жёстко."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицать умеют обе половины"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание встаёт туда, куда просит смысл, и каждая половина отрицает по своим правилам: слева — как в обычном прошедшем времени, через `didn't`, справа — через `wouldn't`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I didn't work at weekends, I'd travel more.** — отрицание слева, в условии.",
+            "**If Olya had a car, she wouldn't take the bus.** — отрицание справа, в результате.",
+            "**If the shop didn't close at six, I wouldn't buy dinner on the way home.** — сразу в обеих половинах."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Тот же рычаг работает и вообще без `if`. Фраза **I wish I had more money** — «жаль, что у меня нет денег» — собрана из той же прошедшей формы и по той же причине; ей посвящена микротема «Wish / If only» в конце темы."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Второй тип говорит о том, чего сейчас нет. После `if` стоит прошедшая форма — не потому, что речь о прошлом, а потому что это отметка «не по-настоящему». Справа — `would` с первой формой глагола, и «бы» бывает только там."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Второй тип — про то, чего сейчас нет: **If I had more money, I would buy a new laptop**. Собирается как `if + прошедшая форма · would + V1`. Прошедшая форма слева — не рассказ о прошлом, а отметка «мы вышли из реальности»; русский делает то же самое («если бы у меня **было** время» — тоже прошедшая форма про сейчас). `would` не меняется от подлежащего и в речи схлопывается в `'d`. Ловушки: `will` внутрь условия не заходит (**If I will have money** ✗) и `would` тоже (**If I would have money** ✗) — «бы» живёт только в правой половине. Отрицают обе половины: слева `didn't`, справа `wouldn't`.",
+      "examples": [
+        {
+          "ru": "Если бы у меня было побольше денег, я бы купил новый ноутбук.",
+          "en": "If I had more money, I would buy a new laptop."
+        },
+        {
+          "ru": "Если бы Денис жил ближе, мы бы виделись чаще.",
+          "en": "If Denis lived closer, we would meet more often."
+        },
+        {
+          "ru": "Если бы я не работал по выходным, я бы больше путешествовал.",
+          "en": "If I didn't work at weekends, I'd travel more."
+        },
+        {
+          "ru": "Если бы у Оли была машина, она бы не ездила на автобусе.",
+          "en": "If Olya had a car, she wouldn't take the bus."
+        },
+        {
+          "ru": "Я бы сказал ему правду, если бы он спросил.",
+          "en": "I'd tell him the truth if he asked."
+        },
+        {
+          "ru": "Если бы магазин не закрывался в шесть, я бы не покупал ужин по дороге домой.",
+          "en": "If the shop didn't close at six, I wouldn't buy dinner on the way home."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему прошедшая форма, если речь идёт про сегодняшний день?",
+        "Как понять, ставить мне первый тип или второй?",
+        "Чем I'd отличается от I would?"
+      ]
+    },
+    {
+      "id": 494,
+      "microtopicId": 189,
+      "title": "were вместо was: If I were you",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Один глагол в этой конструкции ведёт себя не как все, и это, конечно же, `to be`. В разговоре о нереальном он берёт форму `were` при **любом** подлежащем — в том числе там, где в обычном прошедшем времени стояло бы `was`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If + I / he / she / it + were"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Подлежащее",
+            "Реальное прошедшее",
+            "В разговоре о нереальном"
+          ],
+          "rows": [
+            [
+              "I",
+              "I was",
+              "I were"
+            ],
+            [
+              "he, she, it",
+              "he was",
+              "he were"
+            ],
+            [
+              "you, we, they",
+              "you were",
+              "you were"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I were rich, I'd open a small café.**",
+            "**If Ben were here, he'd fix it in an hour.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему форма нарочно «неправильная»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика простая и красивая. Английскому нужен был способ пометить выдумку — и он оставил для неё особую форму, которая **специально не совпадает** с обычной. `he was` — так говорят о реальном прошлом; `he were` в реальном рассказе не встречается вообще, поэтому его ни с чем не спутаешь. Сама непохожесть и есть сигнал: то, что вы сейчас услышите, — не про настоящую жизнь."
+        },
+        {
+          "type": "heading",
+          "text": "Как говорят на самом деле"
+        },
+        {
+          "type": "paragraph",
+          "text": "Скажем честно, потому что вы это услышите в первый же день: **If I was you** звучит в живой речи постоянно — в сериалах, в песнях, в разговоре на кухне. Преступлением это не считается, никто вас не поправит. Но есть две причины держаться за `were`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`were` уместен **везде** — и в разговоре, и в письме, и на экзамене. `was` в формальном тексте выглядит небрежно.",
+            "В готовой фразе-обороте **If I were you** его вообще не меняют: это застывшая формула, и `was` там режет ухо даже носителю."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**When I were a child, I lived in Dublin** ✗ → **When I was a child, I lived in Dublin** ✓. Детство было на самом деле, никакой выдумки здесь нет — значит работает обычное прошедшее время со своим `was`. Форма `were` включается только тогда, когда мы сообщаем о нереальном."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: weren't"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ведёт себя так же — одна форма на все подлежащие:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If it weren't so late, we'd order pizza.**",
+            "**If Kate weren't so busy, she'd come with us.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В разговоре о нереальном глагол `to be` берёт `were` при любом подлежащем, отрицание — `weren't`. `If I was you` в живой речи слышно постоянно, но `were` безопаснее везде, а в обороте **If I were you** обязателен."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В разговоре о нереальном глагол `to be` берёт форму `were` при любом подлежащем: **If I were rich…**, **If Ben were here…**, отрицание — `weren't`. Форма нарочно не совпадает с обычным `was` — сама непохожесть работает сигналом «это выдумка». В живой речи **If I was you** звучит постоянно и ошибкой не считается, но `were` уместен везде, а в застывшем обороте **If I were you** обязателен. Про реальное прошлое `were` не говорят: **When I was a child** ✓.",
+      "examples": [
+        {
+          "ru": "Если бы я был богат, я бы открыл маленькое кафе.",
+          "en": "If I were rich, I'd open a small café."
+        },
+        {
+          "ru": "Если бы Бен был здесь, он бы всё починил за час.",
+          "en": "If Ben were here, he'd fix it in an hour."
+        },
+        {
+          "ru": "Если бы не было так поздно, мы бы заказали пиццу.",
+          "en": "If it weren't so late, we'd order pizza."
+        },
+        {
+          "ru": "Если бы Катя не была так занята, она бы поехала с нами.",
+          "en": "If Kate weren't so busy, she'd come with us."
+        },
+        {
+          "ru": "Когда я был ребёнком, я жил в Дублине.",
+          "en": "When I was a child, I lived in Dublin."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в этой конструкции was считается хуже, чем were?",
+        "Как отличить нереальное were от обычного прошедшего?",
+        "Можно ли говорить If I was you в разговоре с друзьями?"
+      ]
+    },
+    {
+      "id": 495,
+      "microtopicId": 189,
+      "title": "If I were you: рекомендация без нажима",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Из всего второго типа чаще всего в жизни звучит одна фраза, и ради неё многие эту конструкцию и учат. Это не разговор о мечтах, а целая функция языка: **как посоветовать человеку, не превращаясь в начальника**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If I were you, I'd + V1"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I were you, I'd talk to her today.**",
+            "**If I were you, I'd take the earlier train.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим слово в слово: «На твоём месте я бы поговорил с ней сегодня». Приём тот же самый — вместо «сделай так» человек мысленно встаёт на чужое место и рассказывает, как поступил бы сам. Приказа нет, давления нет, а рекомендация прозвучала."
+        },
+        {
+          "type": "heading",
+          "text": "Шкала мягкости правой половины"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правая половина умеет настраивать громкость. Одна и та же мысль — сказать начальнику про ошибку в отчёте — звучит тремя способами:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I were you, I'd tell the boss.** — прямая рекомендация, я так и сделал бы.",
+            "**If I were you, I could tell the boss.** — один из вариантов, решать вам.",
+            "**If I were you, I might tell the boss.** — совсем мягко, почти мысль вслух."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Could` и `might` здесь берите готовыми формулами — слово ставится перед глаголом, а глагол остаётся в первой форме, без `to` и без окончаний. Их оттенки целиком разбираются в теме «Модальные глаголы»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`'D` в этих фразах — это `would`. То же самое сокращение вы уже встречали в теме «Past Perfect», где `'d` означало `had` (**I'd already left**). Различить их легко по тому, что стоит следом: голая первая форма глагола — значит `would`, третья форма — значит `had`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Готовый оборот «если бы не…»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом с этой формулой живёт ещё один застывший кусок, который стоит узнавать в лицо:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If it weren't for you, I'd be completely lost.** — если бы не ты, я бы совсем растерялся.",
+            "**If it weren't for the rain, we'd be at the lake now.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Собирать его самому необязательно, но встречается он часто — это способ сказать «спасибо, что ты есть» или «всё дело в этом обстоятельстве»."
+        },
+        {
+          "type": "heading",
+          "text": "А спросить можно?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё как — во втором типе спрашивают постоянно, потому что это лучший способ попросить рекомендацию или пофантазировать вместе. Вопрос строит **только правая половина**, условие остаётся утвердительным:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What would you do if you lost your passport?** — самый частый вид: вопросительное слово, дальше `would` и подлежащее.",
+            "**Would you say something if you were me?** — обычный вопрос, `would` вышел вперёд подлежащего.",
+            "**Wouldn't it be easier if we took a taxi?** — «разве не проще было бы взять такси?». Отрицательный вопрос звучит здесь особенно мягко: это способ предложить своё, не настаивая."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If would you be me, what would you say?** ✗ → **If you were me, what would you say?** ✓. Попытка сделать вопросительными обе половины сразу. После `if` порядок всегда утвердительный — подлежащее, потом глагол; спрашивает только та половина, где `if` нет."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If I were you, I'd …** — готовый способ дать рекомендацию мягко, а `could` и `might` справа делают её ещё осторожнее. Вопрос строит только правая половина: **What would you do if …?**"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "**If I were you, I'd …** — самая ходовая фраза второго типа и целая функция: рекомендация без нажима, точное соответствие русскому «на твоём месте я бы…». Громкость настраивается правой половиной: `I'd tell him` (прямо) · `I could tell him` (вариант) · `I might tell him` (совсем мягко). `'d` здесь — это `would`; после `had` шла бы третья форма глагола. Рядом живёт готовый оборот **If it weren't for you, I'd be lost** — «если бы не ты». Вопрос строит только правая половина: **What would you do if you lost your passport?**, отрицательный — **Wouldn't it be easier if we took a taxi?**; условие при этом всегда остаётся утвердительным.",
+      "examples": [
+        {
+          "ru": "На твоём месте я бы поговорил с ней сегодня.",
+          "en": "If I were you, I'd talk to her today."
+        },
+        {
+          "ru": "На твоём месте я бы сказал об этом начальнику.",
+          "en": "If I were you, I could tell the boss."
+        },
+        {
+          "ru": "Если бы не ты, я бы совсем растерялся.",
+          "en": "If it weren't for you, I'd be completely lost."
+        },
+        {
+          "ru": "Что бы ты делал, если бы потерял паспорт?",
+          "en": "What would you do if you lost your passport?"
+        },
+        {
+          "ru": "Ты бы что-нибудь сказал на моём месте?",
+          "en": "Would you say something if you were me?"
+        },
+        {
+          "ru": "Разве не проще было бы взять такси?",
+          "en": "Wouldn't it be easier if we took a taxi?"
+        }
+      ],
+      "clarificationOptions": [
+        "Чем If I were you мягче, чем просто You should?",
+        "Как выбрать между I'd, I could и I might в ответе?",
+        "Как понять, что 'd — это would, а не had?"
+      ]
+    },
+    {
+      "id": 496,
+      "microtopicId": 189,
+      "title": "Первый или второй: как подать один и тот же шанс",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Игорь прошёл собеседование в Праге и ждёт ответа. Про одну и ту же вакансию он может сказать двумя способами:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I get the job, I'll move to Prague.**",
+            "**If I got the job, I'd move to Prague.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ситуация не изменилась ни на грамм: письмо ещё не пришло, шансы те же самые. Изменилось то, **как Игорь это подаёт**."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что выбираем",
+            "Форма",
+            "Что слышит собеседник"
+          ],
+          "rows": [
+            [
+              "первый тип",
+              "if + настоящее время · will",
+              "это вполне может случиться, я жду"
+            ],
+            [
+              "второй тип",
+              "if + прошедшая форма · would",
+              "я просто представляю, всерьёз не рассчитываю"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Выбор не про факты, а про подачу"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот главная мысль карточки, и она снимает добрую половину мучений с этой темой. Не существует объективного порога вероятности, после которого «положено» брать второй тип. Один и тот же шанс можно оформить и так и так — и оба варианта будут правильными:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I win the lottery, I'll buy a house by the sea.** — говорит человек с билетом в руках, вполне серьёзно.",
+            "**If I won the lottery, I'd buy a house by the sea.** — говорит человек за ужином, просто мечтая вслух."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Грамматика тут не судья, а инструмент: вы сами решаете, звучать деловым планом или мечтой."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If you came tomorrow, we'd finish the work** ✗ в разговоре о реальной договорённости → **If you come tomorrow, we'll finish the work** ✓. Взяв второй тип там, где вы всерьёз ждёте человека, вы сообщаете обратное: «прийти-то ты вряд ли придёшь, но давай помечтаем». Собеседник это слышит, и звучит обидно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отсюда второй эффект: вежливость"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз отодвинутая форма означает «не всерьёз, не давлю», она отлично работает там, где просьбу надо смягчить. По-русски мы делаем то же самое — «не могли бы вы…» вместо «пришлите»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If you could send it today, that would be great.** — просьба, а не требование.",
+            "**I'd be grateful if you could look at my report.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакой нереальности здесь нет: отчёт существует, отправить файл человек вполне может. Прошедшая форма просто держит дистанцию — говорящий как бы делает шаг назад и не наваливается."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Тип выбирают не по вероятности, а по тому, как вы хотите прозвучать: первый — деловой план, второй — мечта или мягкая просьба. Про реальную договорённость берите первый, иначе собеседник услышит, что вы в него не верите."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Второй тип — про то, чего сейчас нет: `if + прошедшая форма · would + V1` (**If I had more money, I would buy a new laptop**). Прошедшая форма слева — не рассказ о прошлом, а отметка «мы вышли из реальности»; русский делает то же самое («если бы у меня **было** время»). `would` не меняется от подлежащего и схлопывается в `'d`. Ловушки: ни `will`, ни `would` внутрь условия не заходят (**If I will have money** ✗ · **If I would have money** ✗) — «бы» живёт только справа. Отрицают обе половины: слева `didn't`, справа `wouldn't`. Глагол `to be` берёт здесь `were` при любом подлежащем (**If Ben were here…**), отрицание — `weren't`; в обороте **If I were you, I'd …** — самом ходовом способе дать рекомендацию мягко — `were` обязателен, а `could` и `might` справа делают рекомендацию ещё осторожнее. Вопрос строит только половина без `if`: **What would you do if you lost your passport?**, отрицательный — **Wouldn't it be easier if we took a taxi?** Выбор между первым и вторым типом говорит не о вероятности, а о подаче: **If I get the job, I'll move to Prague** (жду) ↔ **If I got the job, I'd move to Prague** (мечтаю). Отсюда вежливые просьбы: **If you could send it today, that would be great**.",
+      "examples": [
+        {
+          "ru": "Если я получу эту работу, я перееду в Прагу.",
+          "en": "If I get the job, I'll move to Prague."
+        },
+        {
+          "ru": "Если бы я получил ту работу, я бы переехал в Прагу.",
+          "en": "If I got that job, I'd move to Prague."
+        },
+        {
+          "ru": "Было бы здорово, если бы вы отправили это сегодня.",
+          "en": "If you could send it today, that would be great."
+        },
+        {
+          "ru": "Буду благодарен, если вы посмотрите мой отчёт.",
+          "en": "I'd be grateful if you could look at my report."
+        },
+        {
+          "ru": "Если завтра будет тепло, мы пойдём в парк.",
+          "en": "If it's warm tomorrow, we'll go to the park."
+        }
+      ],
+      "clarificationOptions": [
+        "Как решить, что взять — первый тип или второй, если шанс средний?",
+        "Почему просьба с would звучит вежливее обычной?",
+        "Что подумает собеседник, если я выберу не тот тип?"
       ]
     }
   ],
@@ -1434,6 +2063,96 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 176,
       "orderInCard": 3
+    },
+    {
+      "cardId": 493,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 191,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 493,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 188,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 493,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 177,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 493,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 170,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 494,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 215,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 494,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 93,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 494,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 189,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 495,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 192,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 495,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 68,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 495,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 79,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 495,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 93,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 496,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 75,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 496,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 105,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 496,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 178,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 496,
+      "exerciseType": "MATCHING",
+      "exerciseId": 75,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1450,6 +2169,14 @@
       "cardId": 492,
       "title": "Реальное будущее по-английски",
       "userInstruction": "ИИ пришлёт русскую фразу о том, что может случиться. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "conditionals_card496_ex1",
+      "cardId": 496,
+      "title": "Скажи про то, чего сейчас нет",
+      "userInstruction": "ИИ пришлёт русскую фразу о том, чего сейчас нет. Скажите её по-английски одним предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -1534,6 +2261,68 @@
         }
       ],
       "explanation": "Во второй и четвёртой строках will стоит внутри условия — там всегда остаётся настоящее время: If you come early, If Lily finishes work at six. Будущее помечается один раз, в главной половине."
+    },
+    {
+      "id": 188,
+      "statements": [
+        {
+          "en": "If I had a bike, I would ride to work every morning.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If Ben would live in Vienna, he would visit us more often.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If Kate didn't work at night, she wouldn't sleep all day.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If I will have time tomorrow, I would call you.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If we lived closer to the sea, we'd swim every weekend.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во второй строке would попало в условие, а там нужна прошедшая форма: If Ben lived in Vienna. В четвёртой сразу две беды: после if не ставится will, а разговор о реальном завтрашнем дне собирается иначе — If I have time tomorrow, I'll call you."
+    },
+    {
+      "id": 189,
+      "statements": [
+        {
+          "en": "If I were taller, I would play basketball.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If Tom were here, he would know what to do.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If the weather were nicer, we go to the beach.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "When Mia were a child, she lived in Boston.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If it weren't so noisy, I'd finish the report today.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "В третьей строке потерялось would: правая половина собирается как would плюс первая форма — we would go. В четвёртой речь о реальном детстве, а не о выдумке, поэтому там обычное прошедшее: When Mia was a child."
     }
   ],
   "word_arrangement_exercises": [
@@ -1579,6 +2368,28 @@
         "will send"
       ],
       "explanation": "В условной половине стоит простое настоящее — get, без will. Будущее помечено один раз, сокращением I'll в главной половине."
+    },
+    {
+      "id": 170,
+      "situationRu": "Ситуация: Ира объясняет, почему её сестра до сих пор не завела собаку.",
+      "correctSentence": "If my sister had more free time, she would get a dog.",
+      "words": [
+        "If",
+        "my sister",
+        "had",
+        "more free time",
+        "she",
+        "would",
+        "get",
+        "a dog"
+      ],
+      "distractors": [
+        "has",
+        "will have",
+        "will get",
+        "would have"
+      ],
+      "explanation": "После if стоит прошедшая форма had, хотя свободного времени нет прямо сейчас. Справа would ставит глагол в первой форме — would get, без всяких окончаний."
     }
   ],
   "multiple_choice_exercises": [
@@ -1707,6 +2518,90 @@
         }
       ],
       "explanation": "Подставьте «ли» вместо «если»: «ли спросит Ник, скажи» — бессмыслица, значит это условие. К тому же справа стоит команда, а команда бывает только при условии, а не при вопросе."
+    },
+    {
+      "id": 191,
+      "choiceType": "CHOICE",
+      "prompt": "If Vera ___ a bigger kitchen, she would cook every day.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "would have",
+          "isCorrect": false
+        },
+        {
+          "text": "has",
+          "isCorrect": false
+        },
+        {
+          "text": "had",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Речь о том, чего сейчас нет, поэтому после if стоит прошедшая форма had. Настоящее has рассказывало бы о реальном положении дел, а would внутрь условия не заходит вовсе."
+    },
+    {
+      "id": 215,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Если бы Игорь был моложе, он бы поехал с нами.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "If Igor was younger, he will go with us.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Igor were younger, he would go with us.",
+          "isCorrect": true
+        },
+        {
+          "text": "If Igor is younger, he would go with us.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Речь о том, чего на самом деле нет, поэтому to be берёт форму were, а справа стоит would с первой формой глагола. Настоящее is сообщало бы о реальном возрасте, а will в такую фразу не встаёт вовсе."
+    },
+    {
+      "id": 192,
+      "choiceType": "CHOICE",
+      "prompt": "If I ___ you, I'd apply for that job today.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "were",
+          "isCorrect": true
+        },
+        {
+          "text": "am",
+          "isCorrect": false
+        },
+        {
+          "text": "would be",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "В этом обороте to be всегда стоит в форме were — она и сообщает, что человек говорит о чужом месте, а не о своём. Настоящее am означало бы, что я и правда вы, а would внутрь условия не заходит."
+    },
+    {
+      "id": 75,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "If I won the lottery, I'd buy a house by the sea.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я выиграл в лотерею и куплю дом у моря.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я купил билет и жду розыгрыша, дом уже присмотрел.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не выиграл и всерьёз не рассчитываю — просто представляю, что было бы.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Прошедшая форма won и would справа сообщают, что человек мечтает вслух. Тот же сюжет как реальный план звучал бы иначе: If I win the lottery, I'll buy a house."
     }
   ],
   "text_input_exercises": [
@@ -1738,6 +2633,36 @@
         "закончишь",
         "позвонит",
         "приедет"
+      ]
+    },
+    {
+      "id": 93,
+      "items": [
+        {
+          "sentence": "If Nick ___, he would explain everything.",
+          "contextRu": "",
+          "answer": "were here",
+          "alternatives": []
+        },
+        {
+          "sentence": "If Lily ___, I would tell her the truth.",
+          "contextRu": "",
+          "answer": "were my sister",
+          "alternatives": []
+        },
+        {
+          "sentence": "If it ___, we would walk to the lake.",
+          "contextRu": "",
+          "answer": "weren't so cold",
+          "alternatives": []
+        }
+      ],
+      "explanation": "Глагол to be в разговоре о нереальном берёт were при любом подлежащем, включая he, she и it. Отрицание собирается той же формой — weren't.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "не было так холодно",
+        "была бы моей сестрой",
+        "был бы здесь"
       ]
     }
   ],
@@ -1797,9 +2722,65 @@
         }
       ],
       "explanation": "Ответ — команда, поэтому в правой половине стоит голый глагол без will и без подлежащего. В условии после if остаётся настоящее время: if it comes."
+    },
+    {
+      "id": 68,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I've got two tickets for tonight, but I feel awful."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "If I would be you, I'd stay at home.",
+          "isCorrect": false
+        },
+        {
+          "text": "If I am you, I stay at home.",
+          "isCorrect": false
+        },
+        {
+          "text": "If I were you, I'd stay at home.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Рекомендация даётся готовым оборотом: слева всегда if I were you, справа would с первой формой глагола. Форма would be в условии не ставится, а настоящее am переводит фразу в разговор о реальности."
     }
   ],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 75,
+      "taskDescription": "соедини английскую фразу с тем, что за ней стоит на самом деле.",
+      "pairs": [
+        {
+          "left": "If I finish early, I'll join you.",
+          "right": "Вполне может получиться, ждите"
+        },
+        {
+          "left": "If I finished early, I'd join you.",
+          "right": "Работы много, вряд ли выйдет"
+        },
+        {
+          "left": "If you could call me back, that would be great.",
+          "right": "Вежливая просьба перезвонить"
+        },
+        {
+          "left": "If I were you, I'd call them again.",
+          "right": "Рекомендация, а не указание"
+        },
+        {
+          "left": "If it weren't for Lucy, I'd be late every day.",
+          "right": "Люси выручает, поэтому не опаздываю"
+        }
+      ],
+      "explanation": "Форма выбирается не по вероятности события, а по тому, как говорящий хочет прозвучать: настоящее время после if звучит деловым планом, прошедшая форма — мечтой, мягкой просьбой или разговором о чужом месте."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 173,
@@ -1876,6 +2857,44 @@
         }
       ],
       "explanation": "Здесь if значит «ли», условия нет, поэтому будущее нужно. Порядок при этом остаётся утвердительным: подлежащее, потом глагол — will she внутри фразы не ставится, а после will глагол идёт в первой форме."
+    },
+    {
+      "id": 177,
+      "wrongSentence": "If I would know the answer, I would tell you.",
+      "options": [
+        {
+          "text": "If I knew the answer, I would tell you.",
+          "isCorrect": true
+        },
+        {
+          "text": "If I know the answer, I would tell you.",
+          "isCorrect": false
+        },
+        {
+          "text": "If I would know the answer, I will tell you.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«Бы» живёт только в правой половине, поэтому слева стоит прошедшая форма knew. Настоящее время know сообщало бы, что ответ у меня и правда есть."
+    },
+    {
+      "id": 178,
+      "wrongSentence": "If I would have a car, I'd drive you to the airport.",
+      "options": [
+        {
+          "text": "If I have a car, I'd drive you to the airport.",
+          "isCorrect": false
+        },
+        {
+          "text": "If I had a car, I'd drive you to the airport.",
+          "isCorrect": true
+        },
+        {
+          "text": "If I would have a car, I will drive you to the airport.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Машины нет прямо сейчас, поэтому слева стоит прошедшая форма had, а would остаётся только в правой половине. Настоящее have сообщало бы, что машина у меня есть."
     }
   ],
   "construction_meaning_exercises": [],
@@ -1898,6 +2917,25 @@
         }
       ],
       "explanation": "Половины меняются местами без потери смысла, но вместе с if-частью в конец уезжает и запятая — в таком порядке она не нужна."
+    },
+    {
+      "id": 79,
+      "taskDescription": "перепиши рекомендацию оборотом с if I were you.",
+      "items": [
+        {
+          "original": "You should call her tonight.",
+          "transformed": "If I were you, I'd call her tonight."
+        },
+        {
+          "original": "You should take a taxi.",
+          "transformed": "If I were you, I'd take a taxi."
+        },
+        {
+          "original": "You should ask Lucy.",
+          "transformed": "If I were you, I'd ask Lucy."
+        }
+      ],
+      "explanation": "Прямое указание превращается в мягкую рекомендацию: левая половина не меняется никогда, а справа стоит would с первой формой глагола, обычно в сокращении I'd."
     }
   ],
   "categorization_exercises": [
@@ -1923,6 +2961,29 @@
         }
       ],
       "explanation": "Проверка одна: попробуйте прочитать фразу с «ли». Влезло — это вопрос без ответа, и внутри будет will; не влезло — это условие, и там останется настоящее время."
+    },
+    {
+      "id": 105,
+      "taskDescription": "распредели ситуации по тому, каким типом их скажут по-английски.",
+      "categories": [
+        {
+          "title": "Реальный шанс",
+          "items": [
+            "Если Ник позвонит, отвечу",
+            "Если сдам экзамен, отпразднуем",
+            "Если пойдёт дождь, останусь дома"
+          ]
+        },
+        {
+          "title": "Мечта или фантазия",
+          "items": [
+            "Если бы я жил в Риме",
+            "Если бы у меня была яхта",
+            "Если бы я умел рисовать"
+          ]
+        }
+      ],
+      "explanation": "Слева то, что вполне может случиться на днях: после if настоящее время, справа will. Справа то, чего сейчас нет: после if прошедшая форма, справа would."
     }
   ],
   "find_the_odd_exercises": [
@@ -1948,6 +3009,29 @@
         }
       ],
       "explanation": "После will глагол стоит в первой форме, поэтому will telling не бывает: верно will tell. Остальные три половины законны — команда, разрешение с can и шанс с might."
+    },
+    {
+      "id": 93,
+      "groupDescription": "Три половины могут стоять справа от if I were you, одна — нет",
+      "items": [
+        {
+          "text": "I'd wait a bit",
+          "isOdd": false
+        },
+        {
+          "text": "I could ask again",
+          "isOdd": false
+        },
+        {
+          "text": "I will wait a bit",
+          "isOdd": true
+        },
+        {
+          "text": "I might say nothing",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Разговор о чужом месте не берёт will: справа стоит would, could или might, и после каждого из них глагол остаётся в первой форме."
     }
   ]
 }
