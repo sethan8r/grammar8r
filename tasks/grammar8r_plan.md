@@ -4237,7 +4237,7 @@ theory/
 │   │       поймёт разное. Отсюда же второй бытовой эффект: второй тип звучит ВЕЖЛИВЕЕ и мягче
 │   │       (`If you could send it today, that would be great` — просьба, а не «нереальность»).
 │   │
-│   ├── МТ190 · Third Conditional · Если бы тогда (4 карточки)
+│   ├── МТ190 · Third Conditional · Если бы тогда (4 карточки) ✅ (написана, ALL GREEN 06.09.26)
 │   │   ├── Card 497 · `if + had + V3 → would have + V3`. Поезд ушёл: развилку проехали, изменить
 │   │   │   нельзя. `If I had studied, I would have passed`. Опора на известное: левая половина —
 │   │   │   ровно тот `had + V3`, что разобран в Past Perfect (строкой, без пересказа), новая
@@ -5661,6 +5661,12 @@ theory/
 │           └── Card · Валим — let's bounce / let's roll / let's head out / I'm out. + AI.
 │
 ├── Дополнительные конструкции  ← после "Разговорного английского"
+│   ⬅️ ВЫДАНО АВАНСОМ В CONDITIONALS (05.09.2026, МТ189 Card 495): каркас `it + be + прилагательное +
+│      to + V1` (пустое `it` держит подлежащее, действие уезжает в хвост через `to`: It's easier to ask
+│      than to guess · It would be easier to call · Wouldn't it be easier to call?). Понадобился там для
+│      отрицательного вопроса, в курсе до этого не встречался ни разу. Здесь — НЕ выводить заново:
+│      освежить строкой и расширять (It's important to know, It takes time to learn, It's no use asking,
+│      формальное подлежащее в других ролях).
 │   ├── Pronoun one / ones + обобщённый субъект one
 │   │   Карточек: 2. Оба — слово "one", но разные слова с разной функцией — объяснить это явно.
 │   │   Карточка 1 — замещающее one/ones (substitution pronoun):

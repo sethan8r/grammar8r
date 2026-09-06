@@ -39,6 +39,13 @@
       "title": "Second Conditional · Если бы сейчас",
       "order": 4,
       "searchKeywords": "if i were you, were или was, как смягчить просьбу, would в правой половине, чего сейчас нет, i'd вместо i would"
+    },
+    {
+      "id": 190,
+      "topicId": 30,
+      "title": "Third Conditional · Если бы тогда",
+      "order": 5,
+      "searchKeywords": "if i had known, would have или would had, жалеть о прошлом, упрекнуть что не сказал, would of ошибка, had knew ошибка, if i had been sleeping"
     }
   ],
   "grammar_cards": [
@@ -1737,6 +1744,55 @@
         },
         {
           "type": "heading",
+          "text": "Пустое it: «проще позвонить»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прежде чем идти к вопросам, разберём один каркас — без него следующая фраза выглядит нагромождением слов. По-русски мы спокойно говорим вообще без подлежащего: «проще позвонить», «лучше подождать», «приятно было увидеться». Кто «проще»? Никто. Подлежащего в такой фразе нет, и оно не нужно."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английскому нужно — предложение без подлежащего он не собирает. Поэтому на пустое место встаёт затычка `it`: то же самое пустое `it`, что в **It's cold outside**, где никто не мёрзнет, просто на улице холодно."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It + be + прилагательное + to + V1"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's easier to ask than to guess.** *(проще спросить, чем гадать)*",
+            "**It's better to call first.** *(лучше сначала позвонить)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Читается это задом наперёд относительно русского: `it` держит место подлежащего, прилагательное даёт оценку, а само действие уезжает в хвост и цепляется через `to`. Смысл фразы живёт именно там, в `to call`, — `it` в переводе не появляется вообще."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше эта конструкция ведёт себя как любое предложение с `be`, и её можно крутить как угодно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's easier to call.** — как есть, про обычное положение дел.",
+            "**It would be easier to call.** — отодвинули в разговор о нереальном: «было бы проще».",
+            "**Would it be easier to call?** — вопрос: `would` вышел вперёд `it`.",
+            "**Wouldn't it be easier to call?** — отрицательный вопрос: «разве не проще позвонить?»."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "А спросить можно?"
         },
         {
@@ -1749,7 +1805,7 @@
           "items": [
             "**What would you do if you lost your passport?** — самый частый вид: вопросительное слово, дальше `would` и подлежащее.",
             "**Would you say something if you were me?** — обычный вопрос, `would` вышел вперёд подлежащего.",
-            "**Wouldn't it be easier if we took a taxi?** — «разве не проще было бы взять такси?». Отрицательный вопрос звучит здесь особенно мягко: это способ предложить своё, не настаивая."
+            "**Wouldn't it be easier if we took a taxi?** — «разве не проще было бы взять такси?». Здесь встретились сразу две вещи: пустое `it` из предыдущего блока и отрицательный вопрос. Звучит такая фраза мягко — это способ предложить своё, не настаивая."
           ]
         },
         {
@@ -1775,7 +1831,7 @@
           ]
         }
       ],
-      "theorySummary": "**If I were you, I'd …** — самая ходовая фраза второго типа и целая функция: рекомендация без нажима, точное соответствие русскому «на твоём месте я бы…». Громкость настраивается правой половиной: `I'd tell him` (прямо) · `I could tell him` (вариант) · `I might tell him` (совсем мягко). `'d` здесь — это `would`; после `had` шла бы третья форма глагола. Рядом живёт готовый оборот **If it weren't for you, I'd be lost** — «если бы не ты». Вопрос строит только правая половина: **What would you do if you lost your passport?**, отрицательный — **Wouldn't it be easier if we took a taxi?**; условие при этом всегда остаётся утвердительным.",
+      "theorySummary": "**If I were you, I'd …** — самая ходовая фраза второго типа и целая функция: рекомендация без нажима, точное соответствие русскому «на твоём месте я бы…». Громкость настраивается правой половиной: `I'd tell him` (прямо) · `I could tell him` (вариант) · `I might tell him` (совсем мягко). `'d` здесь — это `would`; после `had` шла бы третья форма глагола. Рядом живёт готовый оборот **If it weren't for you, I'd be lost** — «если бы не ты». Русской фразе «проще позвонить» подлежащее не нужно, а английской нужно — его место занимает пустое `it`, а действие уезжает в хвост через `to`: `it + be + прилагательное + to + V1` (**It's easier to ask than to guess** → **It would be easier to call** → **Wouldn't it be easier to call?**). Вопрос строит только правая половина: **What would you do if you lost your passport?**, отрицательный — **Wouldn't it be easier if we took a taxi?**; условие при этом всегда остаётся утвердительным.",
       "examples": [
         {
           "ru": "На твоём месте я бы поговорил с ней сегодня.",
@@ -1913,7 +1969,7 @@
           ]
         }
       ],
-      "theorySummary": "Второй тип — про то, чего сейчас нет: `if + прошедшая форма · would + V1` (**If I had more money, I would buy a new laptop**). Прошедшая форма слева — не рассказ о прошлом, а отметка «мы вышли из реальности»; русский делает то же самое («если бы у меня **было** время»). `would` не меняется от подлежащего и схлопывается в `'d`. Ловушки: ни `will`, ни `would` внутрь условия не заходят (**If I will have money** ✗ · **If I would have money** ✗) — «бы» живёт только справа. Отрицают обе половины: слева `didn't`, справа `wouldn't`. Глагол `to be` берёт здесь `were` при любом подлежащем (**If Ben were here…**), отрицание — `weren't`; в обороте **If I were you, I'd …** — самом ходовом способе дать рекомендацию мягко — `were` обязателен, а `could` и `might` справа делают рекомендацию ещё осторожнее. Вопрос строит только половина без `if`: **What would you do if you lost your passport?**, отрицательный — **Wouldn't it be easier if we took a taxi?** Выбор между первым и вторым типом говорит не о вероятности, а о подаче: **If I get the job, I'll move to Prague** (жду) ↔ **If I got the job, I'd move to Prague** (мечтаю). Отсюда вежливые просьбы: **If you could send it today, that would be great**.",
+      "theorySummary": "Второй тип — про то, чего сейчас нет: `if + прошедшая форма · would + V1` (**If I had more money, I would buy a new laptop**). Прошедшая форма слева — не рассказ о прошлом, а отметка «мы вышли из реальности»; русский делает то же самое («если бы у меня **было** время»). `would` не меняется от подлежащего и схлопывается в `'d`. Ловушки: ни `will`, ни `would` внутрь условия не заходят (**If I will have money** ✗ · **If I would have money** ✗) — «бы» живёт только справа. Отрицают обе половины: слева `didn't`, справа `wouldn't`. Глагол `to be` берёт здесь `were` при любом подлежащем (**If Ben were here…**), отрицание — `weren't`; в обороте **If I were you, I'd …** — самом ходовом способе дать рекомендацию мягко — `were` обязателен, а `could` и `might` справа делают рекомендацию ещё осторожнее. Вопрос строит только половина без `if`: **What would you do if you lost your passport?**, отрицательный — **Wouldn't it be easier if we took a taxi?** Отдельный каркас — пустое `it`: русской фразе «проще позвонить» подлежащее не нужно, английской нужно, поэтому `it + be + прилагательное + to + V1` (**It's easier to ask than to guess**). Выбор между первым и вторым типом говорит не о вероятности, а о подаче: **If I get the job, I'll move to Prague** (жду) ↔ **If I got the job, I'd move to Prague** (мечтаю). Отсюда вежливые просьбы: **If you could send it today, that would be great**.",
       "examples": [
         {
           "ru": "Если я получу эту работу, я перееду в Прагу.",
@@ -1940,6 +1996,602 @@
         "Как решить, что взять — первый тип или второй, если шанс средний?",
         "Почему просьба с would звучит вежливее обычной?",
         "Что подумает собеседник, если я выберу не тот тип?"
+      ]
+    },
+    {
+      "id": 497,
+      "microtopicId": 190,
+      "title": "Третий тип: развилку уже проехали",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Утро понедельника, Паша сидит в пустом аэропорту. Будильник он вчера поставил — только на вечер вместо утра. Самолёт улетел, билет сгорел, встреча сорвалась, и сделать с этим уже нельзя ровно ничего. И всё равно он произносит фразу, которую в такой момент произносят все: «Вот если бы я вчера проверил будильник…»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If + had + V3 · would have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "If I had checked the alarm, I wouldn't have missed the flight."
+        },
+        {
+          "type": "heading",
+          "text": "Развилку уже проехали"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомним три положения развилки из микротемы «Что такое условное предложение». Первый тип — развилка **впереди**, идти можно любой дорогой. Второй — соседняя ветка **рядом**: мы по ней не идём, но она существует прямо сейчас. Третий тип — **старый сейв**: перекрёсток остался позади, загрузиться нельзя, и всё, что нам доступно, — посмотреть, что было бы на той дороге."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда главное свойство этого типа: он **не меняет ничего**. Первый тип может сбыться, второй хотя бы теоретически рядом, а третий закрыт наглухо. Люди всё равно говорят такими фразами каждый день — просто не ради результата, а ради того, чтобы объясниться, пожалеть или упрекнуть. Об этом будет следующая карточка."
+        },
+        {
+          "type": "heading",
+          "text": "Из чего собираются половины"
+        },
+        {
+          "type": "paragraph",
+          "text": "Новых конструкций здесь всего одна, и та наполовину знакомая:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Слева, после `if`** — `had` плюс третья форма глагола: **had checked**, **had known**, **had told**. Это ровно та конструкция, которую мы собирали в теме «Past Perfect», и ничего нового делать с ней не нужно.",
+            "**Справа** — `would have` плюс третья форма: **would have passed**, **wouldn't have missed**. Обратите внимание: `have` тут не меняется никогда — ни `has`, ни `had`, при любом подлежащем стоит `would have`."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`'D` в этой теме встречается по обе стороны запятой, но означает разные слова. Слева, в условии, `'d` = `had`: **If I'd checked the alarm** = *if I had checked*. Справа `'d` = `would`: **I'd have caught the flight** = *I would have caught*. Различить их легко по тому, что стоит следом: сразу третья форма — значит `had`; сначала `have`, а уже потом третья форма — значит `would`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шаг назад ещё на одну ступень"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ось темы работает и здесь, просто глагол отъезжает дальше всех:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Реально → настоящее время: **If it rains, I'll stay home.**",
+            "Нереально сейчас → прошедшая форма: **If it rained, I'd stay home.**",
+            "Нереально тогда → форма с `had`: **If it had rained, I would have stayed home.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше отодвигать уже некуда, поэтому третий тип — последняя ступень, и четвёртого «ещё более нереального» типа в языке нет."
+        },
+        {
+          "type": "heading",
+          "text": "Фраза читается наоборот"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот место, где русскоязычный чаще всего теряет смысл. Третий тип всегда сообщает **обратное** тому, что в нём написано: раз человек ушёл в разговор о нереальном, значит на самом деле всё было не так."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Сказано",
+            "Что было на самом деле"
+          ],
+          "rows": [
+            [
+              "If I had studied harder…",
+              "не учился"
+            ],
+            [
+              "If I hadn't studied…",
+              "учился"
+            ],
+            [
+              "I would have passed.",
+              "не сдал"
+            ],
+            [
+              "I wouldn't have failed.",
+              "провалился"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Из этого следует полезная привычка: услышав **If Yulia had told me about the meeting, I would have come**, не нужно гадать — и не сказала, и не пришёл. Обе половины отрицают сами себя, а `if` работает переключателем «на самом деле было наоборот»."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицать умеют обе половины"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всё как в остальных типах: отрицание встаёт туда, куда просит смысл, — `hadn't` в условии, `wouldn't have` в результате. Только не забывайте про предыдущий абзац: каждое отрицание переворачивает смысл ещё раз."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If Pasha hadn't missed the flight, he would have signed the contract.** — самолёт пропустил, контракт не подписал.",
+            "**If I had known about the rain, I wouldn't have left the window open.** — не знал, окно оставил.",
+            "**If Emma hadn't helped me, I wouldn't have finished the report on time.** — помогла, отчёт сдал вовремя."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If I had studied harder, I would pass the exam** ✗ → **If I had studied harder, I would have passed the exam** ✓. Половины разъехались по типам: слева форма про прошлое, справа — результат про сейчас. Если так вышло случайно, это ошибка; но такое сочетание бывает и осознанным приёмом — тогда получается смешанный тип, и ему посвящена следующая микротема."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Третий тип — про то, чего уже не изменить: `if + had + V3` слева, `would have + V3` справа. Он всегда сообщает обратное написанному: сказали `If I had known` — значит не знали."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Третий тип — разговор о том, чего уже не изменить: `if + had + V3 · would have + V3` (**If I had checked the alarm, I wouldn't have missed the flight**). Слева — знакомая конструкция из Past Perfect, справа — `would have` с третьей формой, и `have` там не меняется никогда. `'d` встречается по обе стороны: слева это `had`, справа `would` (различаются по тому, что идёт следом). Фраза всегда сообщает **обратное** написанному: сказали `If I had studied` — значит не учились. Отрицают обе половины: `hadn't` в условии, `wouldn't have` в результате.",
+      "examples": [
+        {
+          "ru": "Если бы я проверил будильник, я бы не опоздал на самолёт.",
+          "en": "If I had checked the alarm, I wouldn't have missed the flight."
+        },
+        {
+          "ru": "Если бы я учился усерднее, я бы сдал экзамен.",
+          "en": "If I had studied harder, I would have passed the exam."
+        },
+        {
+          "ru": "Если бы Юля сказала мне про встречу, я бы пришёл.",
+          "en": "If Yulia had told me about the meeting, I would have come."
+        },
+        {
+          "ru": "Если бы Паша не опоздал на самолёт, он бы подписал контракт.",
+          "en": "If Pasha hadn't missed the flight, he would have signed the contract."
+        },
+        {
+          "ru": "Если бы я знал про дождь, я бы не оставил окно открытым.",
+          "en": "If I had known about the rain, I wouldn't have left the window open."
+        },
+        {
+          "ru": "Если бы Эмма мне не помогла, я бы не сдал отчёт вовремя.",
+          "en": "If Emma hadn't helped me, I wouldn't have finished the report on time."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в правой половине нужно have, если речь и так о прошлом?",
+        "Как понять, что произошло на самом деле, если фраза говорит обратное?",
+        "Чем 'd слева отличается от 'd справа?"
+      ]
+    },
+    {
+      "id": 498,
+      "microtopicId": 190,
+      "title": "Зачем говорить о том, чего не вернуть",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Разумный вопрос: если изменить уже ничего нельзя, зачем вообще строить такие фразы? Затем, что третий тип — не про прошлое. Он про **сейчас**: про то, как человек объясняется, извиняется, обвиняет и защищается. Функций у него три, и звучат они очень по-разному."
+        },
+        {
+          "type": "heading",
+          "text": "Сожаление: разговор с самим собой"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое частое. Человек называет ту версию событий, которую упустил:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I would have helped you if I had known.**",
+            "**If I hadn't sold my old car, I would have saved a lot of money.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски это ровно наше «эх, надо было…»: сожаление всегда описывает хороший вариант, до которого не дошло."
+        },
+        {
+          "type": "heading",
+          "text": "Упрёк: разговор с другим"
+        },
+        {
+          "type": "paragraph",
+          "text": "Та же конструкция, только виноват уже собеседник — и фраза мгновенно превращается в претензию:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If you had called me, I wouldn't have waited an hour in the rain.**",
+            "**You could have told me!**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему это звучит обвинением, хотя ни одного грубого слова тут нет? Потому что говорящий вслух рисует хорошую версию событий и тут же показывает, из-за кого она не случилась. Формально — рассказ о несбывшемся, по сути — «это ты виноват». Русское «мог бы и сказать» устроено точно так же."
+        },
+        {
+          "type": "heading",
+          "text": "Оправдание: защита себя"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот же приём, развёрнутый в обратную сторону: я бы всё сделал, просто условия не было."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If you had called, I would have come.** — я не виноват, звонка не было.",
+            "**If they had sent the file on Friday, we would have finished the project.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Could have` и `might have` в правой половине смягчают или, наоборот, заостряют фразу: **She could have called** — «могла бы и позвонить», **He might have forgotten** — «может, и забыл». Берите их пока готовыми формулами: после `could` и `might` идёт `have` и третья форма. Оттенки разбираются в теме «Модальные глаголы»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "А спросить можно?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Можно, и в этом типе вопросы особенно живые: ими выясняют, как поступил бы человек, и ими же упрекают. Вопрос строит **только правая половина**, условие остаётся утвердительным:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What would you have done if you had missed the last train?** — с вопросительным словом, самый частый вид.",
+            "**Would you have told me if I hadn't asked?** — обычный вопрос, `would` вышел вперёд подлежащего.",
+            "**Wouldn't you have done the same?** — «разве ты бы не поступил так же?». Отрицательный вопрос: `not` уехал вперёд вместе с `would`, дальше всё как обычно."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицательный вопрос в третьем типе почти всегда мягкий упрёк: человек уже знает ответ и просто показывает собеседнику, как надо было. Отсюда и самая ходовая его форма — с пустым `it`, которое мы разбирали в микротеме «Если бы сейчас». Там было **Wouldn't it be easier to call?** про сегодняшний день; здесь ровно то же самое, только отодвинутое в прошлое:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It would be easier to call.** → **It would have been easier to call.**",
+            "**Wouldn't it be easier to call?** → **Wouldn't it have been easier to call?** *(разве не проще было позвонить?)*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Меняется одно место: `be` превращается в `have been`. Каркас `it + … + прилагательное + to + V1` остаётся тем же самым."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If had you known, would you have come?** ✗ → **If you had known, would you have come?** ✓. Попытка сделать вопросительными обе половины сразу. После `if` порядок всегда утвердительный — подлежащее, потом `had`; спрашивает только половина без `if`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Третий тип живёт в трёх ролях — сожаление о своём, упрёк чужому и оправдание себя. Вопрос строит только правая половина, а отрицательный вопрос звучит как вежливый упрёк."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Третий тип нужен не для того, чтобы что-то изменить, а чтобы объясниться: сожаление (**I would have helped you if I had known**), упрёк (**If you had called me, I wouldn't have waited an hour in the rain**) и оправдание (**If you had called, I would have come**). Упрёком фраза становится потому, что говорящий рисует хорошую версию событий и показывает, из-за кого она не случилась. `could have` и `might have` справа — готовые формулы (после них `have` и третья форма). Вопрос строит только половина без `if`: **What would you have done if you had missed the last train?**, отрицательный — **Wouldn't you have done the same?**; условие остаётся утвердительным (**If had you known** ✗). Конструкция с пустым `it` отодвигается в прошлое одним движением: **It would be easier to call** → **It would have been easier to call**.",
+      "examples": [
+        {
+          "ru": "Я бы тебе помог, если бы знал.",
+          "en": "I would have helped you if I had known."
+        },
+        {
+          "ru": "Если бы я не продал свою старую машину, я бы сэкономил кучу денег.",
+          "en": "If I hadn't sold my old car, I would have saved a lot of money."
+        },
+        {
+          "ru": "Если бы ты мне позвонил, я бы не ждал час под дождём.",
+          "en": "If you had called me, I wouldn't have waited an hour in the rain."
+        },
+        {
+          "ru": "Если бы они прислали файл в пятницу, мы бы закончили проект.",
+          "en": "If they had sent the file on Friday, we would have finished the project."
+        },
+        {
+          "ru": "Что бы ты делал, если бы опоздал на последний поезд?",
+          "en": "What would you have done if you had missed the last train?"
+        },
+        {
+          "ru": "Разве не проще было позвонить?",
+          "en": "Wouldn't it have been easier to call?"
+        },
+        {
+          "ru": "Разве ты бы не поступил так же?",
+          "en": "Wouldn't you have done the same?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему фраза о несбывшемся звучит как обвинение?",
+        "Чем отличается could have от would have в правой половине?",
+        "Как задать такой вопрос, чтобы он не прозвучал упрёком?"
+      ]
+    },
+    {
+      "id": 499,
+      "microtopicId": 190,
+      "title": "Ловушки формы: had knew, would of и потерянное have",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Третий тип — самое ошибкоопасное место всей темы: половин две, глагольных форм четыре, и сломаться может каждая. Хорошая новость в том, что ошибок ровно четыре, все известны заранее, и каждая лечится одной проверкой."
+        },
+        {
+          "type": "heading",
+          "text": "Первая: «бы» лезет в условие"
+        },
+        {
+          "type": "paragraph",
+          "text": "**If I would have known, I would have called you** ✗ → **If I had known, I would have called you** ✓"
+        },
+        {
+          "type": "paragraph",
+          "text": "Та же ошибка, что во всех типах, просто в третьем она звучит особенно убедительно — ведь по-русски «бы» стоит в обеих половинах («если **бы** знал, **бы** позвонил»). Проверка одна: после `if` слова `would` не бывает никогда, ни в одном типе условных."
+        },
+        {
+          "type": "heading",
+          "text": "Вторая: вторая полка вместо третьей"
+        },
+        {
+          "type": "paragraph",
+          "text": "**If I had knew about it, I would have told you** ✗ → **If I had known about it, I would have told you** ✓"
+        },
+        {
+          "type": "paragraph",
+          "text": "После `had` идёт **третья** форма, а `knew` — вторая. Ошибка знакомая ещё по Present Perfect, и корень у неё тот же: у неправильных глаголов вторая и третья формы разные, а рука тянется поставить ту, что чаще звучит. Полки помним: **know → knew → known**, **see → saw → seen**, **take → took → taken**."
+        },
+        {
+          "type": "heading",
+          "text": "Третья: потерянное have"
+        },
+        {
+          "type": "paragraph",
+          "text": "**If she had asked, I would told her everything** ✗ → **If she had asked, I would have told her everything** ✓"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правая половина третьего типа держится на `would have`. Без `have` фраза либо разваливается, либо (при первой форме глагола) превращается в разговор о сегодняшнем дне: **I would tell her** — это уже второй тип, «рассказал бы сейчас»."
+        },
+        {
+          "type": "heading",
+          "text": "Четвёртая: would of вместо would have"
+        },
+        {
+          "type": "paragraph",
+          "text": "**If I had seen it, I would of said something** ✗ → **If I had seen it, I would have said something** ✓"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эта ошибка родилась из уха. В беглой речи `would have` звучит как `would've`, а `would've` на слух неотличимо от `would of` — поэтому так пишут даже носители, особенно в чатах. Слышимость слышимостью, а `of` здесь неоткуда взяться: это предлог, глаголом он не бывает. Правильно всегда `would have` или сокращение `would've`."
+        },
+        {
+          "type": "heading",
+          "text": "Сокращения: как это звучит вживую"
+        },
+        {
+          "type": "paragraph",
+          "text": "Никто не проговаривает третий тип целиком, поэтому узнавать сжатые формы важнее, чем уметь их произносить:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I'd known, I'd have called you.** — оба `'d` на месте: первое `had`, второе `would`.",
+            "**I wouldn't have said that.** — самая ходовая отрицательная форма.",
+            "Совсем беглое **woulda** (*would have*) и **shoulda** (*should have*) вы услышите в песнях и сериалах. Писать так нельзя, узнавать — нужно; эти формы разбираются в теме «Разговорный английский»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Проверять себя удобно по половинам, а не по всей фразе целиком. Слева обязано стоять `had` плюс третья форма, справа — `would have` плюс третья форма. Если в какой-то половине оказалось что-то другое, ошибка именно там, и искать её больше нигде не нужно."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Четыре ошибки третьего типа — `would` в условии, вторая форма после `had`, потерянное `have` справа и `would of` вместо `would have`. Все четыре ловятся проверкой половин: слева `had + V3`, справа `would have + V3`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Третий тип говорит о том, чего уже не изменить: `if + had + V3 · would have + V3` (**If I had checked the alarm, I wouldn't have missed the flight**), и всегда сообщает обратное написанному — сказали `If I had known`, значит не знали. Отрицают обе половины: `hadn't` слева, `wouldn't have` справа. Живёт он в трёх ролях: сожаление, упрёк (**You could have told me!**) и оправдание. Вопрос строит только половина без `if`: **What would you have done if you had missed the last train?**, отрицательный — **Wouldn't it have been easier to call?** Четыре ловушки формы: `If I would have known` ✗ (`would` в условие не заходит), `If I had knew` ✗ (после `had` — третья форма), `I would told her` ✗ (потерянное `have`), `would of` ✗ (правильно `would have` или `would've`). Проверка по половинам: слева `had + V3`, справа `would have + V3`.",
+      "examples": [
+        {
+          "ru": "Если бы я знал, я бы тебе позвонил.",
+          "en": "If I had known, I would have called you."
+        },
+        {
+          "ru": "Если бы я знал об этом, я бы тебе сказал.",
+          "en": "If I had known about it, I would have told you."
+        },
+        {
+          "ru": "Если бы она спросила, я бы ей всё рассказал.",
+          "en": "If she had asked, I would have told her everything."
+        },
+        {
+          "ru": "Если бы я это видел, я бы что-нибудь сказал.",
+          "en": "If I had seen it, I would have said something."
+        },
+        {
+          "ru": "Я бы такого не сказал.",
+          "en": "I wouldn't have said that."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро проверить себя, если фраза длинная и запуталась?",
+        "Почему носители пишут would of, если это ошибка?",
+        "Как отличить вторую форму от третьей, если я их путаю?"
+      ]
+    },
+    {
+      "id": 500,
+      "microtopicId": 190,
+      "title": "Длительный вариант: had been + -ing",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Осталась одна деталь, и она из разряда «узнать в лицо», а не «научиться собирать». В теме «Past Perfect Continuous» мы обещали, что форма `had been` с окончанием `-ing` встретится ещё раз — в разговоре о нереальном прошлом. Встретилась."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If + had been + V-ing · would have + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I had been sleeping, I wouldn't have heard him.**",
+            "**If we hadn't been waiting so long, we would have caught the train.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило при этом не меняется ни на букву. Третий тип требует слева форму с `had`, а какая именно это форма — простая (`had waited`) или длительная (`had been waiting`) — решает смысл, ровно как в обычном прошедшем: длительная подчёркивает, что действие тянулось, а не просто случилось."
+        },
+        {
+          "type": "heading",
+          "text": "Справа тоже бывает длительная форма"
+        },
+        {
+          "type": "paragraph",
+          "text": "Зеркальный случай встречается реже, но он есть:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If the meeting hadn't started so late, I would have been sitting at home by nine.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Собирается предсказуемо: `would have been` плюс `-ing`. Никаких новых слов, просто длительная версия правой половины."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Производить такие фразы самому необязательно — их спокойно заменяет простая форма, и никто не заметит подвоха. А вот узнавать нужно: услышав **If I'd been driving, we wouldn't have got lost**, важно не растеряться от нагромождения слов, а увидеть в нём знакомую рамку — слева условие, справа результат, оба про несбывшееся прошлое."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Длительная форма встаёт в третий тип по обычным правилам — `had been + -ing` слева, `would have been + -ing` справа. Ничего нового учить не нужно, достаточно узнавать."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "В третий тип встаёт и длительная форма: `if + had been + V-ing · would have + V3` (**If I had been sleeping, I wouldn't have heard him**), а изредка и справа — **I would have been sitting at home by nine**. Правило типа при этом не меняется: слева форма с `had`, справа `would have`, а простая она или длительная — решает смысл, как и в обычном прошедшем. Собирать такие фразы самому необязательно, достаточно узнавать их в чужой речи.",
+      "examples": [
+        {
+          "ru": "Если бы я спал, я бы его не услышал.",
+          "en": "If I had been sleeping, I wouldn't have heard him."
+        },
+        {
+          "ru": "Если бы мы не ждали так долго, мы бы успели на поезд.",
+          "en": "If we hadn't been waiting so long, we would have caught the train."
+        },
+        {
+          "ru": "Если бы встреча не началась так поздно, я бы к девяти уже сидел дома.",
+          "en": "If the meeting hadn't started so late, I would have been sitting at home by nine."
+        },
+        {
+          "ru": "Если бы за рулём был я, мы бы не заблудились.",
+          "en": "If I'd been driving, we wouldn't have got lost."
+        },
+        {
+          "ru": "Если бы Жанна не работала всё утро, она бы поехала с нами.",
+          "en": "If Zhanna hadn't been working all morning, she would have come with us."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, когда нужна длительная форма, а когда хватит простой?",
+        "Почему у некоторых глаголов длительной формы не бывает?",
+        "Обязательно ли самому строить такие длинные фразы?"
       ]
     }
   ],
@@ -2153,6 +2805,90 @@
       "exerciseType": "MATCHING",
       "exerciseId": 75,
       "orderInCard": 3
+    },
+    {
+      "cardId": 497,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 193,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 497,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 190,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 497,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 179,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 497,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 171,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 498,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 216,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 498,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 69,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 498,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 56,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 498,
+      "exerciseType": "MATCHING",
+      "exerciseId": 76,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 499,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 180,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 499,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 94,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 499,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 94,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 499,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 80,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 500,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 76,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 500,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 191,
+      "orderInCard": 1
     }
   ],
   "ai_exercises": [
@@ -2177,6 +2913,14 @@
       "cardId": 496,
       "title": "Скажи про то, чего сейчас нет",
       "userInstruction": "ИИ пришлёт русскую фразу о том, чего сейчас нет. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "conditionals_card499_ex1",
+      "cardId": 499,
+      "title": "Скажи про упущенное",
+      "userInstruction": "ИИ пришлёт русскую фразу о том, чего уже не изменить. Скажите её по-английски одним предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -2323,6 +3067,68 @@
         }
       ],
       "explanation": "В третьей строке потерялось would: правая половина собирается как would плюс первая форма — we would go. В четвёртой речь о реальном детстве, а не о выдумке, поэтому там обычное прошедшее: When Mia was a child."
+    },
+    {
+      "id": 190,
+      "statements": [
+        {
+          "en": "If Sam had left earlier, he would have caught the last bus.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If I had known about the party, I would come.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If we hadn't taken a taxi, we would have been late.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If Jack had asked me, I would have helped him with the car.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If Rita would have called, I would have picked her up.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "Во второй строке правая половина осталась без have: результат тоже про прошлое, значит I would have come. В пятой would попало в условие, а там стоит had с третьей формой: If Rita had called."
+    },
+    {
+      "id": 191,
+      "statements": [
+        {
+          "en": "If Jack had been driving, we wouldn't have got lost.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If I had been knowing about it, I would have called you.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If they hadn't been arguing all evening, we would have watched the film.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If I would have been sleeping, I wouldn't have heard the door.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If Emma had been waiting outside, she would have seen us.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во второй строке глагол-состояние поставлен в длительную форму: know описывает состояние, а не процесс, поэтому верно If I had known. В четвёртой would попало внутрь условия, где стоит только had: If I had been sleeping."
     }
   ],
   "word_arrangement_exercises": [
@@ -2390,6 +3196,29 @@
         "would have"
       ],
       "explanation": "После if стоит прошедшая форма had, хотя свободного времени нет прямо сейчас. Справа would ставит глагол в первой форме — would get, без всяких окончаний."
+    },
+    {
+      "id": 171,
+      "situationRu": "Ситуация: Витя объясняет, почему остался без билетов на концерт.",
+      "correctSentence": "If I had booked the tickets earlier, I would have got a better seat.",
+      "words": [
+        "If",
+        "I",
+        "had booked",
+        "the tickets",
+        "earlier",
+        "I",
+        "would have got",
+        "a better seat"
+      ],
+      "distractors": [
+        "booked",
+        "would have booked",
+        "would get",
+        "had got",
+        "would had got"
+      ],
+      "explanation": "Слева стоит had с третьей формой, справа — would have с третьей формой, и порядок половин при этом не меняется. Формы would get и would had got в третий тип не встают: результат тоже про прошлое, а have после would не превращается в had."
     }
   ],
   "multiple_choice_exercises": [
@@ -2602,6 +3431,69 @@
         }
       ],
       "explanation": "Прошедшая форма won и would справа сообщают, что человек мечтает вслух. Тот же сюжет как реальный план звучал бы иначе: If I win the lottery, I'll buy a house."
+    },
+    {
+      "id": 193,
+      "choiceType": "CHOICE",
+      "prompt": "If Megan ___ the map, we wouldn't have taken the wrong road.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "had brought",
+          "isCorrect": true
+        },
+        {
+          "text": "brought",
+          "isCorrect": false
+        },
+        {
+          "text": "would have brought",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Речь о том, чего уже не изменить, поэтому в условии стоит had с третьей формой. Простое прошедшее brought увело бы фразу в разговор о сегодняшнем дне, а would внутрь условия не заходит ни в одном типе."
+    },
+    {
+      "id": 216,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Если бы Марк меня предупредил, я бы не купил второй билет.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "If Mark warned me, I wouldn't buy a second ticket.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Mark had warned me, I wouldn't buy a second ticket.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Mark had warned me, I wouldn't have bought a second ticket.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Билет уже куплен, значит обе половины стоят в форме про прошлое: had с третьей формой слева, wouldn't have с третьей формой справа. Прошедшее warned увело бы фразу в разговор о сегодняшнем дне."
+    },
+    {
+      "id": 76,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "If I had been listening, I would have understood the question.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я слушал и всё понял.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не слушал, поэтому вопроса не понял.",
+          "isCorrect": true
+        },
+        {
+          "text": "Если я буду слушать, я пойму вопрос.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Фраза третьего типа сообщает обратное написанному: раз человек ушёл в разговор о несбывшемся, значит на самом деле он не слушал и не понял. Длительная форма только подчёркивает, что слушать надо было какое-то время."
     }
   ],
   "text_input_exercises": [
@@ -2663,6 +3555,36 @@
         "не было так холодно",
         "была бы моей сестрой",
         "был бы здесь"
+      ]
+    },
+    {
+      "id": 94,
+      "items": [
+        {
+          "sentence": "If I had checked the forecast, I would have ___ an umbrella.",
+          "contextRu": "",
+          "answer": "taken",
+          "alternatives": []
+        },
+        {
+          "sentence": "If Sara hadn't made me angry, I wouldn't have ___ that.",
+          "contextRu": "",
+          "answer": "said",
+          "alternatives": []
+        },
+        {
+          "sentence": "If Pasha had put them in his bag, he wouldn't have ___ the keys.",
+          "contextRu": "",
+          "answer": "lost",
+          "alternatives": []
+        }
+      ],
+      "explanation": "После would have и wouldn't have всегда идёт третья форма глагола: take — took — taken, say — said — said, lose — lost — lost. Вторая форма сюда не встаёт, даже когда звучит привычнее.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "потерять",
+        "взять",
+        "сказать"
       ]
     }
   ],
@@ -2750,6 +3672,34 @@
         }
       ],
       "explanation": "Рекомендация даётся готовым оборотом: слева всегда if I were you, справа would с первой формой глагола. Форма would be в условии не ставится, а настоящее am переводит фразу в разговор о реальности."
+    },
+    {
+      "id": 69,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Sorry, I didn't know you were waiting outside."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "If you answered your phone, I wouldn't stand there for an hour.",
+          "isCorrect": false
+        },
+        {
+          "text": "If you had answered your phone, I wouldn't have stood there for an hour.",
+          "isCorrect": true
+        },
+        {
+          "text": "If you would have answered your phone, I wouldn't have stood there.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Ответ — упрёк о том, что уже случилось, поэтому слева стоит had с третьей формой, а справа wouldn't have с третьей. Would внутрь условия не заходит, а формы про сегодняшний день здесь не подходят по смыслу."
     }
   ],
   "matching_exercises": [
@@ -2779,6 +3729,33 @@
         }
       ],
       "explanation": "Форма выбирается не по вероятности события, а по тому, как говорящий хочет прозвучать: настоящее время после if звучит деловым планом, прошедшая форма — мечтой, мягкой просьбой или разговором о чужом месте."
+    },
+    {
+      "id": 76,
+      "taskDescription": "соедини фразу с тем, что человек ею делает.",
+      "pairs": [
+        {
+          "left": "I would have helped you if I had known.",
+          "right": "Жалеет, что не помог"
+        },
+        {
+          "left": "If you had called, I would have come.",
+          "right": "Оправдывается: звонка не было"
+        },
+        {
+          "left": "You could have told me!",
+          "right": "Упрекает за молчание"
+        },
+        {
+          "left": "If we had left earlier, we wouldn't have missed the train.",
+          "right": "Жалеет о своей же ошибке"
+        },
+        {
+          "left": "Would you have said yes if I had asked?",
+          "right": "Спрашивает, как бы человек поступил"
+        }
+      ],
+      "explanation": "Форма во всех строках одна и та же, а роль разная: одно и то же предложение о несбывшемся служит и сожалением, и упрёком, и оправданием — разницу задаёт только то, кто в этой истории что-то не сделал."
     }
   ],
   "error_correction_exercises": [
@@ -2895,9 +3872,71 @@
         }
       ],
       "explanation": "Машины нет прямо сейчас, поэтому слева стоит прошедшая форма had, а would остаётся только в правой половине. Настоящее have сообщало бы, что машина у меня есть."
+    },
+    {
+      "id": 179,
+      "wrongSentence": "If Nastya had taken the earlier train, she would arrive on time.",
+      "options": [
+        {
+          "text": "If Nastya took the earlier train, she would arrive on time.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Nastya had taken the earlier train, she would arrived on time.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Nastya had taken the earlier train, she would have arrived on time.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Поезд ушёл в прошлом, поэтому и результат тоже про прошлое: would have плюс третья форма. Форма would arrive сообщала бы о сегодняшнем дне, а would arrived не существует вовсе — have пропускать нельзя."
+    },
+    {
+      "id": 180,
+      "wrongSentence": "If Oliver had wrote to us, we would have booked a table for six.",
+      "options": [
+        {
+          "text": "If Oliver would have written to us, we would have booked a table for six.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Oliver had written to us, we would have booked a table for six.",
+          "isCorrect": true
+        },
+        {
+          "text": "If Oliver had written to us, we would booked a table for six.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "После had идёт третья форма: write — wrote — written, а wrote это вторая. В остальных вариантах ломается другое: would в условии не ставится, а справа нельзя терять have."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 56,
+      "construction": "You could have warned me.",
+      "options": [
+        {
+          "text": "Ты можешь меня предупредить.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мог бы меня и предупредить.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ты бы смог меня предупредить, если бы захотел.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты меня предупредишь.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Could have с третьей формой говорит о возможности, которая была в прошлом и осталась неиспользованной, — отсюда и оттенок упрёка. Про настоящее или будущее эта конструкция не сообщает ничего."
+    }
+  ],
   "transformation_exercises": [
     {
       "id": 78,
@@ -2936,6 +3975,25 @@
         }
       ],
       "explanation": "Прямое указание превращается в мягкую рекомендацию: левая половина не меняется никогда, а справа стоит would с первой формой глагола, обычно в сокращении I'd."
+    },
+    {
+      "id": 80,
+      "taskDescription": "перепиши каждое предложение так, чтобы оно говорило о несбывшемся прошлом.",
+      "items": [
+        {
+          "original": "If I know, I help.",
+          "transformed": "If I had known, I would have helped."
+        },
+        {
+          "original": "If she asks, I stay.",
+          "transformed": "If she had asked, I would have stayed."
+        },
+        {
+          "original": "If we run, we win.",
+          "transformed": "If we had run, we would have won."
+        }
+      ],
+      "explanation": "Обе половины отъезжают на одну ступень назад: слева появляется had с третьей формой, справа — would have с третьей формой. Половины при этом не меняются местами."
     }
   ],
   "categorization_exercises": [
@@ -3032,6 +4090,29 @@
         }
       ],
       "explanation": "Разговор о чужом месте не берёт will: справа стоит would, could или might, и после каждого из них глагол остаётся в первой форме."
+    },
+    {
+      "id": 94,
+      "groupDescription": "Три половины собраны правильно, одна — нет",
+      "items": [
+        {
+          "text": "If I had known",
+          "isOdd": false
+        },
+        {
+          "text": "if she had asked me",
+          "isOdd": false
+        },
+        {
+          "text": "I would have stayed",
+          "isOdd": false
+        },
+        {
+          "text": "I would of stayed",
+          "isOdd": true
+        }
+      ],
+      "explanation": "Would of не существует: это of, услышанное вместо сокращения would've. Правильно would have stayed, а остальные три половины собраны как надо."
     }
   ]
 }
