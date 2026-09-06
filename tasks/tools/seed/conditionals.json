@@ -38,14 +38,21 @@
       "topicId": 30,
       "title": "Second Conditional · Если бы сейчас",
       "order": 4,
-      "searchKeywords": "if i were you, were или was, как смягчить просьбу, would в правой половине, чего сейчас нет, i'd вместо i would"
+      "searchKeywords": "if i were you, were или was, как смягчить просьбу, где ставить would, второй тип условных, i'd вместо i would"
     },
     {
       "id": 190,
       "topicId": 30,
       "title": "Third Conditional · Если бы тогда",
       "order": 5,
-      "searchKeywords": "if i had known, would have или would had, жалеть о прошлом, упрекнуть что не сказал, would of ошибка, had knew ошибка, if i had been sleeping"
+      "searchKeywords": "if i had known, would have или would had, жалеть о прошлом, упрекнуть что не сказал, would of ошибка, had knew ошибка, третий тип условных"
+    },
+    {
+      "id": 191,
+      "topicId": 30,
+      "title": "Mixed Conditional · Когда половины из разных типов",
+      "order": 6,
+      "searchKeywords": "смешанный тип, можно ли смешивать типы, половины из разных типов, смесь второго и третьего, если бы тогда было бы сейчас"
     }
   ],
   "grammar_cards": [
@@ -1353,8 +1360,8 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "If I had more money, I would buy a new laptop."
+          "type": "paragraph",
+          "text": "Целиком мысль Гриши звучит так: **If I had more money, I would buy a new laptop.**"
         },
         {
           "type": "heading",
@@ -2020,8 +2027,8 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "If I had checked the alarm, I wouldn't have missed the flight."
+          "type": "paragraph",
+          "text": "Мысль Паши целиком: **If I had checked the alarm, I wouldn't have missed the flight.**"
         },
         {
           "type": "heading",
@@ -2593,6 +2600,371 @@
         "Почему у некоторых глаголов длительной формы не бывает?",
         "Обязательно ли самому строить такие длинные фразы?"
       ]
+    },
+    {
+      "id": 501,
+      "microtopicId": 191,
+      "title": "Причина в прошлом, а расплата сегодня",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Рома третий час сидит на созвоне и борется со сном. Виноват вчерашний вечер: сериал затянулся до двух ночи. Причина осталась во вчерашнем дне и уже не изменится, а расплачивается за неё Рома прямо сейчас — и говорит он поэтому так: «Если бы я выспался, я бы сейчас не помирал»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If + had + V3 · would + V1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-английски это и будет: **If I had slept more, I wouldn't be tired now.**"
+        },
+        {
+          "type": "heading",
+          "text": "Половины из разных типов — и это не поломка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Присмотритесь к фразе: слева стоит `had slept` — это третий тип, разговор о прошлом, которого не было. Справа — `wouldn't be` без всякого `have`, а это второй тип, разговор про сейчас. Половины взяты из разных типов, и собрано так намеренно."
+        },
+        {
+          "type": "paragraph",
+          "text": "Учить здесь нечего: обе конструкции уже разобраны, новое — только их сочетание. Смысл у него совершенно бытовой: **причина осталась в прошлом, а последствие дожило до сегодняшнего дня**. Не выспался вчера — разбитый сегодня. Не поступил тогда — работаю не там сейчас."
+        },
+        {
+          "type": "heading",
+          "text": "Русский язык тут не подсказывает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот почему эту смесь так легко проглядеть. Прочитайте вслух русскую фразу: «Если бы я выспался, я бы сейчас не помирал». Обе половины выглядят абсолютно одинаково — «выспался» и «помирал», два прошедших глагола с «бы». Никакого сигнала, что времена разъехались, в русском нет вообще."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский обязан выбрать форму для **каждой половины отдельно**, и делает он это по одному вопросу: о каком времени говорит именно эта половина? Сравните две фразы, обе правильные:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I had slept more, I wouldn't have been tired at the meeting.** — усталость была вчера, на встрече. Обе половины про прошлое, это чистый третий тип.",
+            "**If I had slept more, I wouldn't be tired now.** — усталость прямо сейчас, за столом. Условие про прошлое, результат про настоящее — смесь."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибка не в том, чтобы выбрать смесь или третий тип, а в том, чтобы не посмотреть, **куда смотрит результат**."
+        },
+        {
+          "type": "heading",
+          "text": "Слово-маркер выдаёт смесь"
+        },
+        {
+          "type": "paragraph",
+          "text": "Проще всего заметить её по правой половине: рядом с результатом почти всегда стоит слово про сегодняшний день — `now`, `today`, `still`, `anymore`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If Yulia had taken that job, she would live in Berlin now.**",
+            "**If we hadn't sold the car, we would still have it.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Увидели такое слово справа — значит результат живёт в настоящем, и `would have` там будет лишним."
+        },
+        {
+          "type": "heading",
+          "text": "Живые сцены"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смесью говорят о самом важном — о развилках, которые определили сегодняшнюю жизнь:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I had studied medicine, I would work in a hospital now.** — выбор профессии сделан давно, работа не та сегодня.",
+            "**If they hadn't had that argument, they would still be together.** — поссорились тогда, врозь до сих пор.",
+            "**If I hadn't spent everything on the flat, I would have money for a holiday now.** — потратил тогда, без денег сейчас."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицать умеют обе половины"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего нового: слева `hadn't`, справа `wouldn't`, а стоят они там, где просит смысл."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I hadn't missed that flight, I would be in Madrid now.** — отрицание слева, в условии.",
+            "**If I had listened to Lena, I wouldn't be in this mess.** — отрицание справа, в результате.",
+            "**If Sonya hadn't lied to us, we wouldn't be arguing about it now.** — сразу в обеих половинах."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If I had slept more, I wouldn't be tired at yesterday's meeting** ✗ → **If I had slept more, I wouldn't have been tired at yesterday's meeting** ✓. Справа стоит форма про настоящее, а рядом с ней слово `yesterday` — половина сама себе противоречит. Проверяйте по маркеру: `now` и `today` требуют `would be`, а `yesterday` и `last week` — `would have been`."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Смесь — это причина в прошлом и последствие в настоящем: `if + had + V3` слева, `would + V1` справа. Форму каждой половины выбирают отдельно, а подсказку даёт слово-маркер рядом с результатом."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Смешанный тип собирает половины из разных типов: `if + had + V3 · would + V1` (**If I had slept more, I wouldn't be tired now**). Смысл бытовой — причина осталась в прошлом, а последствие дожило до сегодняшнего дня. Русский такую разницу не показывает вообще («если бы выспался, не помирал бы» — обе половины одинаковы), поэтому форму каждой половины выбирают отдельно, по вопросу «о каком времени говорит именно она». Подсказка — слово-маркер справа: `now`, `today`, `still`, `anymore` требуют `would + V1`, а `yesterday`, `last week` — `would have + V3`. Отрицают обе половины: `hadn't` слева, `wouldn't` справа.",
+      "examples": [
+        {
+          "ru": "Если бы я выспался, я бы сейчас не хотел спать.",
+          "en": "If I had slept more, I wouldn't be tired now."
+        },
+        {
+          "ru": "Если бы Юля согласилась на ту работу, она бы сейчас жила в Берлине.",
+          "en": "If Yulia had taken that job, she would live in Berlin now."
+        },
+        {
+          "ru": "Если бы мы не продали машину, она бы у нас до сих пор была.",
+          "en": "If we hadn't sold the car, we would still have it."
+        },
+        {
+          "ru": "Если бы я выучился на врача, я бы сейчас работал в больнице.",
+          "en": "If I had studied medicine, I would work in a hospital now."
+        },
+        {
+          "ru": "Если бы я не опоздал на тот рейс, я был бы сейчас в Мадриде.",
+          "en": "If I hadn't missed that flight, I would be in Madrid now."
+        },
+        {
+          "ru": "Если бы Соня нам не соврала, мы бы сейчас об этом не спорили.",
+          "en": "If Sonya hadn't lied to us, we wouldn't be arguing about it now."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что результат про сейчас, а не про прошлое?",
+        "Почему в правой половине нет have, если условие про прошлое?",
+        "Это отдельный пятый тип или что-то другое?"
+      ]
+    },
+    {
+      "id": 502,
+      "microtopicId": 191,
+      "title": "Обратная смесь и два переключателя",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Витя не полетел с друзьями в Лиссабон. Не потому, что был занят в те выходные, — он просто боится летать, боялся всегда и боится до сих пор. Причина никуда не делась, она верна и сегодня, а последствие у неё вполне конкретное и уже прошедшее: в самолёт он не сел."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If + прошедшая форма · would have + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Про Витю это звучит так: **If he weren't afraid of flying, he would have come with us.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смесь та же самая, только развёрнутая в другую сторону: слева половина из второго типа (про то, как обстоят дела вообще), справа — из третьего (про конкретный случай в прошлом)."
+        },
+        {
+          "type": "heading",
+          "text": "Слева стоит свойство, а не случай"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот главный признак этой смеси. В левой половине живёт не разовое событие, а **постоянное свойство или состояние** человека: боится летать, ненавидит рано вставать, не говорит по-испански, вечно всё теряет. Такое свойство было верно и год назад, и в тот самый день, и остаётся верным сейчас — поэтому оно и стоит в форме про настоящее."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If Lena didn't hate mornings, she would have come to the eight o'clock class.**",
+            "**If I spoke Spanish, I would have understood the announcement at the station.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните две фразы про один и тот же потерянный телефон:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I were more careful, I wouldn't have lost my phone.** — я вообще растяпа, и вот к чему это привело в тот раз.",
+            "**If I had been more careful that evening, I wouldn't have lost my phone.** — про тот конкретный вечер, а вообще-то я человек аккуратный."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе фразы правильные, и обе про потерянный телефон. Разница в том, что именно человек называет причиной: свой характер вообще или своё поведение в один конкретный вечер."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицать умеют обе половины"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всё как всегда, просто формы разные по сторонам: слева `didn't` или `weren't`, справа `wouldn't have`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If Chris weren't so shy, he would have asked her out.**",
+            "**If I didn't work night shifts, I would have gone to the wedding.**",
+            "**If Sonya weren't afraid of dogs, she wouldn't have run across the road.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "А спросить можно?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Можно, и в смеси это особенно живой вопрос — он выясняет, как сегодняшнее положение дел связано с тем, что уже случилось. Правило прежнее: вопрос строит **только половина без `if`**, а какая это половина — зависит от направления смеси."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Would you be here now if you hadn't changed your mind?** — спрашивает половина про настоящее.",
+            "**Would you have come if you weren't afraid of flying?** — спрашивает половина про прошлое.",
+            "**Why would he still be angry if I had apologised?** — с вопросительным словом впереди.",
+            "**Wouldn't you be happier now if you had said no?** — отрицательный вопрос: «разве тебе не было бы сейчас легче?»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**If were you afraid of flying, would you have come?** ✗ → **If you were afraid of flying, would you have come?** ✓. Условие в вопрос не превращается ни при каком направлении смеси: после `if` порядок всегда утвердительный — подлежащее, потом глагол."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Два переключателя вместо четырёх заготовок"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь главное, ради чего эта микротема вообще стоит отдельно. Никаких пятого и шестого типов не появилось. Всё, что мы разобрали в теме, описывается **двумя переключателями**: насколько это реально и о каком времени речь. И каждая половина предложения крутит их **сама, независимо от соседки**:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Условие про",
+            "Результат про",
+            "Что получилось"
+          ],
+          "rows": [
+            [
+              "сейчас",
+              "сейчас",
+              "второй тип"
+            ],
+            [
+              "прошлое",
+              "прошлое",
+              "третий тип"
+            ],
+            [
+              "прошлое",
+              "сейчас",
+              "смесь из прошлой карточки"
+            ],
+            [
+              "сейчас",
+              "прошлое",
+              "смесь из этой карточки"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Четыре клетки — и все четыре собираются из двух уже знакомых наборов деталей. Как только это видно, заучивать «формулу смешанного типа» становится незачем: вы просто отвечаете на вопрос «о каком времени эта половина?» дважды — отдельно слева и отдельно справа."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обратная смесь — это постоянное свойство сегодня и его последствие в прошлом: `if + прошедшая форма` слева, `would have + V3` справа. Пятого типа не существует: есть два переключателя, и каждая половина крутит их сама."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Смешанный тип — не пятая формула, а следствие того, что **каждая половина выбирает форму сама**. Первое направление: причина в прошлом, последствие сейчас — `if + had + V3 · would + V1` (**If I had slept more, I wouldn't be tired now**); выдаёт его слово `now`, `today`, `still` справа. Второе направление: постоянное свойство сегодня, последствие в прошлом — `if + прошедшая форма · would have + V3` (**If he weren't afraid of flying, he would have come with us**); слева там стоит свойство или состояние, а не разовое событие (**If I were more careful, I wouldn't have lost my phone** ↔ **If I had been more careful that evening…**). Отрицают обе половины: `hadn't`/`didn't`/`weren't` слева, `wouldn't` или `wouldn't have` справа. Вопрос строит только половина без `if` (**Would you have come if you weren't afraid of flying?** · **Wouldn't you be happier now if you had said no?**), условие всегда остаётся утвердительным.",
+      "examples": [
+        {
+          "ru": "Если бы он не боялся летать, он бы поехал с нами.",
+          "en": "If he weren't afraid of flying, he would have come with us."
+        },
+        {
+          "ru": "Если бы Лена не ненавидела утро, она бы пришла на занятие в восемь.",
+          "en": "If Lena didn't hate mornings, she would have come to the eight o'clock class."
+        },
+        {
+          "ru": "Если бы я был аккуратнее, я бы не потерял телефон.",
+          "en": "If I were more careful, I wouldn't have lost my phone."
+        },
+        {
+          "ru": "Если бы я не работал по ночам, я бы поехал на свадьбу.",
+          "en": "If I didn't work night shifts, I would have gone to the wedding."
+        },
+        {
+          "ru": "Ты бы поехал, если бы не боялся летать?",
+          "en": "Would you have come if you weren't afraid of flying?"
+        },
+        {
+          "ru": "Разве тебе не было бы сейчас легче, если бы ты тогда отказался?",
+          "en": "Wouldn't you be happier now if you had said no?"
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, свойство передо мной или разовый случай?",
+        "Почему в одной фразе would, а в другой would have?",
+        "Обязательно ли вообще пользоваться смесью или можно обойтись?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2889,6 +3261,54 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 191,
       "orderInCard": 1
+    },
+    {
+      "cardId": 501,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 194,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 501,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 192,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 501,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 181,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 501,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 172,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 502,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 217,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 502,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 106,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 502,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 70,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 502,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 95,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2921,6 +3341,14 @@
       "cardId": 499,
       "title": "Скажи про упущенное",
       "userInstruction": "ИИ пришлёт русскую фразу о том, чего уже не изменить. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "conditionals_card502_ex1",
+      "cardId": 502,
+      "title": "Собери половины по времени",
+      "userInstruction": "ИИ пришлёт русскую фразу, у которой причина и результат относятся к разному времени. Скажите её по-английски одним предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -3129,6 +3557,37 @@
         }
       ],
       "explanation": "Во второй строке глагол-состояние поставлен в длительную форму: know описывает состояние, а не процесс, поэтому верно If I had known. В четвёртой would попало внутрь условия, где стоит только had: If I had been sleeping."
+    },
+    {
+      "id": 192,
+      "statements": [
+        {
+          "en": "If Jake had saved some money, he wouldn't be so worried now.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If I had taken that course, I would have a better job today.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If we hadn't moved to Lisbon, we would still living in a small flat.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If Roma had gone to bed earlier, he wouldn't be sleepy at the meeting yesterday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If they hadn't sold the house, they would spend every summer there.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "В третьей строке после would нужна первая форма глагола: we would still live in a small flat. В четвёртой справа стоит форма про настоящее, а рядом yesterday — результат про прошлое собирается как wouldn't have been sleepy."
     }
   ],
   "word_arrangement_exercises": [
@@ -3219,6 +3678,29 @@
         "would had got"
       ],
       "explanation": "Слева стоит had с третьей формой, справа — would have с третьей формой, и порядок половин при этом не меняется. Формы would get и would had got в третий тип не встают: результат тоже про прошлое, а have после would не превращается в had."
+    },
+    {
+      "id": 172,
+      "situationRu": "Ситуация: Соня объясняет, почему до сих пор не говорит по-испански.",
+      "correctSentence": "If I had started lessons in autumn, I would speak Spanish now.",
+      "words": [
+        "If",
+        "I",
+        "had started",
+        "lessons",
+        "in autumn",
+        "I",
+        "would",
+        "speak",
+        "Spanish now"
+      ],
+      "distractors": [
+        "started",
+        "would have spoken",
+        "will speak",
+        "would spoke"
+      ],
+      "explanation": "Уроки не начались осенью — это прошлое, поэтому слева had с третьей формой. Язык не выучен сегодня, на это указывает now, поэтому справа would с первой формой: would speak."
     }
   ],
   "multiple_choice_exercises": [
@@ -3494,6 +3976,48 @@
         }
       ],
       "explanation": "Фраза третьего типа сообщает обратное написанному: раз человек ушёл в разговор о несбывшемся, значит на самом деле он не слушал и не понял. Длительная форма только подчёркивает, что слушать надо было какое-то время."
+    },
+    {
+      "id": 194,
+      "choiceType": "CHOICE",
+      "prompt": "If Lily had learned to drive, she ___ a car now.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "would had",
+          "isCorrect": false
+        },
+        {
+          "text": "would have had",
+          "isCorrect": false
+        },
+        {
+          "text": "would have",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Слово now показывает, что результат живёт в настоящем, поэтому справа стоит would с первой формой глагола. Форма would have had увела бы результат в прошлое, а would had не бывает вовсе."
+    },
+    {
+      "id": 217,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Если бы Ник не боялся высоты, он бы поднялся с нами на башню.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "If Nick weren't afraid of heights, he would have gone up the tower with us.",
+          "isCorrect": true
+        },
+        {
+          "text": "If Nick hadn't been afraid of heights, he would go up the tower with us.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Nick weren't afraid of heights, he would go up the tower with us.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Страх высоты — постоянное свойство, оно верно и сегодня, поэтому слева стоит форма про настоящее. На башню не поднялись в тот раз, значит результат про прошлое: would have плюс третья форма."
     }
   ],
   "text_input_exercises": [
@@ -3700,6 +4224,34 @@
         }
       ],
       "explanation": "Ответ — упрёк о том, что уже случилось, поэтому слева стоит had с третьей формой, а справа wouldn't have с третьей. Would внутрь условия не заходит, а формы про сегодняшний день здесь не подходят по смыслу."
+    },
+    {
+      "id": 70,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why didn't you come to the party on Saturday?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "If I didn't work night shifts, I would come.",
+          "isCorrect": false
+        },
+        {
+          "text": "If I hadn't worked night shifts, I would come.",
+          "isCorrect": false
+        },
+        {
+          "text": "If I didn't work night shifts, I would have come.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Ночные смены — постоянная работа, а не разовое событие, поэтому слева форма про настоящее. Вечеринка была в субботу и уже прошла, значит справа would have с третьей формой."
     }
   ],
   "matching_exercises": [
@@ -3910,6 +4462,25 @@
         }
       ],
       "explanation": "После had идёт третья форма: write — wrote — written, а wrote это вторая. В остальных вариантах ломается другое: would в условии не ставится, а справа нельзя терять have."
+    },
+    {
+      "id": 181,
+      "wrongSentence": "If Tom had accepted the offer, he would have worked in Vienna now.",
+      "options": [
+        {
+          "text": "If Tom accepted the offer, he would work in Vienna now.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Tom had accepted the offer, he would work in Vienna now.",
+          "isCorrect": true
+        },
+        {
+          "text": "If Tom had accepted the offer, he would working in Vienna now.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Предложение он получил давно, а работа — про сегодняшний день, на это указывает now. Значит слева остаётся had с третьей формой, а справа would с первой формой глагола, без have."
     }
   ],
   "construction_meaning_exercises": [
@@ -4042,6 +4613,29 @@
         }
       ],
       "explanation": "Слева то, что вполне может случиться на днях: после if настоящее время, справа will. Справа то, чего сейчас нет: после if прошедшая форма, справа would."
+    },
+    {
+      "id": 106,
+      "taskDescription": "распредели половины по тому, к какому времени относится результат.",
+      "categories": [
+        {
+          "title": "Результат сейчас",
+          "items": [
+            "Сейчас жил бы в Праге",
+            "Мы бы всё ещё были вместе",
+            "У меня были бы деньги"
+          ]
+        },
+        {
+          "title": "Результат в прошлом",
+          "items": [
+            "Не опоздал бы на встречу",
+            "Он бы поехал с нами",
+            "Она бы мне позвонила"
+          ]
+        }
+      ],
+      "explanation": "Слева результат живёт в сегодняшнем дне, поэтому по-английски он собирается как would с первой формой глагола. Справа результат остался в прошлом — там нужен would have с третьей формой."
     }
   ],
   "find_the_odd_exercises": [
@@ -4113,6 +4707,29 @@
         }
       ],
       "explanation": "Would of не существует: это of, услышанное вместо сокращения would've. Правильно would have stayed, а остальные три половины собраны как надо."
+    },
+    {
+      "id": 95,
+      "groupDescription": "Три предложения собраны правильно, одно — нет",
+      "items": [
+        {
+          "text": "If I had left earlier, I would be at home now.",
+          "isOdd": false
+        },
+        {
+          "text": "If I had left earlier, I would have been at home now.",
+          "isOdd": true
+        },
+        {
+          "text": "If I weren't so tired, I would have stayed longer.",
+          "isOdd": false
+        },
+        {
+          "text": "If she had told me, I wouldn't be angry now.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Слово now говорит, что результат про сегодняшний день, а форма would have been отправляет его в прошлое — верно I would be at home now. Остальные три собраны правильно, просто смотрят в разные стороны."
     }
   ]
 }
