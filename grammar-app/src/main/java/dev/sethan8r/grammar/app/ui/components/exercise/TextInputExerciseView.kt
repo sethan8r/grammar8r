@@ -20,7 +20,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
@@ -41,8 +41,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.lerp as colorLerp
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.Placeholder
@@ -50,10 +51,13 @@ import androidx.compose.ui.text.PlaceholderVerticalAlign
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.DpSize
+import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
+import androidx.compose.ui.unit.lerp as lerpDp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.util.lerp
 import dev.sethan8r.grammar.app.R
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
@@ -81,12 +85,21 @@ private val PEEK_SLOT_EM = 1.8.em
 private const val BANK_PEEK_MS = 5_000L
 private const val BANK_ANIM_MS = 260
 
-/** Фикс. высота footprint'а капсулы (место резервируется всегда — при раскрытии ничего не двигается). */
+/** Минимальная высота footprint'а капсулы (место резервируется всегда — при раскрытии ничего не двигается). */
 private val BANK_CAPSULE_H = 32.dp
 
-/** Масштаб свёрнутой полоски относительно раскрытой капсулы (морф идёт от этих значений к 1f). */
-private const val BANK_STRIP_SX = 0.30f
-private const val BANK_STRIP_SY = 0.16f
+/** Сколько строк вмещает капсула: длинный банк переносится, а не обрезается. */
+private const val BANK_MAX_LINES = 3
+
+/** Размер свёрнутой полоски — одинаков во всех заданиях, от длины банка не зависит. */
+private val BANK_STRIP_W = 56.dp
+private val BANK_STRIP_H = 5.dp
+
+/** Пробел внутри элемента банка — по нему строка не рвётся (U+00A0). */
+private const val NO_BREAK_SPACE = '\u00A0'
+
+/** Разрешённое место переноса между элементами банка, шириной ноль (U+200B). */
+private const val LINE_BREAK_OPPORTUNITY = "\u200B"
 
 /**
  * Рендерер TEXT_INPUT во [ExerciseFrame] (трясётся на ошибке). Пропуск `___` — это инлайн-поле ввода
@@ -106,7 +119,8 @@ private const val BANK_STRIP_SY = 0.16f
  * Режим «банк слов» (когда есть [Exercise.TextInput.wordBank]): сверху — шапка-задание +
  * [ExerciseDivider], а В САМОМ НИЗУ — [WordBankPeek]: голубая полоска, которая по тапу «разъезжается»
  * в серую капсулу со словами (масштаб от центра + цвет + альфа текста, footprint зарезервирован —
- * ничего не сдвигается) на [BANK_PEEK_MS] и сворачивается обратно. Пер-пунктовые глоссы (contextRu)
+ * ничего не сдвигается) на [BANK_PEEK_MS] и сворачивается обратно. Высота капсулы идёт по содержимому
+ * (от [BANK_CAPSULE_H]): длинный набор переносится на несколько строк. Пер-пунктовые глоссы (contextRu)
  * у таких заданий отсутствуют.
  */
 @Composable
@@ -263,10 +277,12 @@ private fun previewSentence(sentence: String, value: String): String {
 /**
  * Свёрнутая подсказка «банк слов». Footprint (место под раскрытую капсулу) зарезервирован ВСЕГДА —
  * слова лежат на своих местах с самого начала (просто прозрачные), поэтому при раскрытии/сворачивании
- * layout не двигается. Морф — чисто визуальный: фон-капсула масштабируется от полоски к капсуле
- * ([graphicsLayer], пивот-центр → «во все стороны»), заливка `Accent → прозрачная`, рамка проявляется
- * `Inactive`, текст всплывает альфой. Всё от одного [progress]. Тап переключает; при открытии — таймер
- * на [BANK_PEEK_MS] (повторный тап перезапускает через `peekTick`). Ripple выключен.
+ * layout не двигается. Морф идёт по РАЗМЕРУ фона: от полоски [BANK_STRIP_W] × [BANK_STRIP_H] к замеренному
+ * размеру капсулы, из центра «во все стороны», вместе с заливкой `Accent → прозрачная` и проявлением
+ * рамки `Inactive`; текст всплывает альфой. Всё от одного [progress]. Размер, а не масштаб — потому что
+ * скругление у растянутого слоя сплющивается тем сильнее, чем выше капсула, а свёрнутая полоска обязана
+ * выглядеть одинаково при любой длине банка. Тап переключает; при открытии — таймер на [BANK_PEEK_MS]
+ * (повторный тап перезапускает через `peekTick`). Ripple выключен.
  */
 @Composable
 private fun WordBankPeek(words: List<String>, modifier: Modifier = Modifier) {
@@ -287,25 +303,30 @@ private fun WordBankPeek(words: List<String>, modifier: Modifier = Modifier) {
     )
     val shape = RoundedCornerShape(percent = 50)
     val interaction = remember { MutableInteractionSource() }
+    val density = LocalDensity.current
+    // Размер раскрытой капсулы — из замера footprint'а: фон меняет РЕАЛЬНЫЙ размер, а не масштаб,
+    // поэтому скругление не сплющивается и свёрнутая полоска везде одна и та же.
+    var capsule by remember { mutableStateOf(IntSize.Zero) }
+    val fullSize = with(density) { DpSize(capsule.width.toDp(), capsule.height.toDp()) }
 
     Box(modifier = modifier, contentAlignment = Alignment.Center) {
         Box(
             modifier = Modifier
-                .height(BANK_CAPSULE_H)
+                .heightIn(min = BANK_CAPSULE_H)
+                .onSizeChanged { capsule = it }
                 .clickable(interactionSource = interaction, indication = null) {
                     open = !open
                     if (open) peekTick++
                 },
             contentAlignment = Alignment.Center,
         ) {
-            // Фон-капсула: масштаб полоска -> капсула + плавные заливка/рамка. Размер = footprint (matchParentSize).
+            // Фон: полоска -> капсула (размер + плавные заливка/рамка). Footprint держит текст, не фон.
             Box(
                 Modifier
-                    .matchParentSize()
-                    .graphicsLayer {
-                        scaleX = lerp(BANK_STRIP_SX, 1f, progress)
-                        scaleY = lerp(BANK_STRIP_SY, 1f, progress)
-                    }
+                    .size(
+                        width = lerpDp(BANK_STRIP_W, fullSize.width.coerceAtLeast(BANK_STRIP_W), progress),
+                        height = lerpDp(BANK_STRIP_H, fullSize.height.coerceAtLeast(BANK_STRIP_H), progress),
+                    )
                     .background(colorLerp(Accent, Color.Transparent, progress), shape)
                     .border(1.dp, colorLerp(Color.Transparent, Inactive, progress), shape),
             )
@@ -313,7 +334,7 @@ private fun WordBankPeek(words: List<String>, modifier: Modifier = Modifier) {
             BankWordsText(
                 words = words,
                 modifier = Modifier
-                    .padding(horizontal = Dimens.spaceLarge)
+                    .padding(horizontal = Dimens.spaceLarge, vertical = Dimens.spaceTiny)
                     .alpha(((progress - 0.35f) / 0.65f).coerceIn(0f, 1f)),
             )
         }
@@ -321,16 +342,22 @@ private fun WordBankPeek(words: List<String>, modifier: Modifier = Modifier) {
 }
 
 /**
- * Слова банка одной строкой по центру, разделены Material-точкой (кружок инлайн-контентом, не символ `·`).
+ * Слова банка по центру, разделены Material-точкой (кружок инлайн-контентом, не символ `·`).
  * Приглушённый цвет — читается как справочный набор, а не перетаскиваемые фишки [parts.ExerciseChip].
- * Одна строка (`maxLines = 1`): банк держим компактным (≤3 слов, см. exercise_templates.md).
+ * Набор длиннее строки переносится (до [BANK_MAX_LINES]), и капсула подрастает под него: внутри
+ * элемента пробелы неразрывные, а точки разрыва стоят только по краям точки-разделителя — поэтому
+ * строка ломается между элементами банка, а сам элемент остаётся целым.
  */
 @Composable
 private fun BankWordsText(words: List<String>, modifier: Modifier = Modifier) {
     val text = buildAnnotatedString {
         words.forEachIndexed { i, word ->
-            if (i > 0) appendInlineContent(BANK_DOT_ID, " · ")
-            append(word)
+            if (i > 0) {
+                append(LINE_BREAK_OPPORTUNITY)
+                appendInlineContent(BANK_DOT_ID, " · ")
+                append(LINE_BREAK_OPPORTUNITY)
+            }
+            append(word.replace(' ', NO_BREAK_SPACE))
         }
     }
     val inlineContent = mapOf(
@@ -351,7 +378,9 @@ private fun BankWordsText(words: List<String>, modifier: Modifier = Modifier) {
         inlineContent = inlineContent,
         color = TextSecondary,
         fontSize = 14.sp,
-        maxLines = 1,
+        lineHeight = 22.sp,
+        maxLines = BANK_MAX_LINES,
+        overflow = TextOverflow.Ellipsis,
         textAlign = TextAlign.Center,
         modifier = modifier,
     )
