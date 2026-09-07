@@ -67,6 +67,13 @@
       "title": "Other Ways to Say If · Условие без слова if",
       "order": 8,
       "searchKeywords": "unless или if not, unless с отрицанием, даже если или хотя, in case или if, на случай если, чем заменить if, had i known"
+    },
+    {
+      "id": 194,
+      "topicId": 30,
+      "title": "Which One · Как выбрать тип за две секунды",
+      "order": 9,
+      "searchKeywords": "какой тип выбрать, реально или невозможно, про сейчас или про прошлое, if i will, would или would have, if i had knew"
     }
   ],
   "grammar_cards": [
@@ -4552,6 +4559,389 @@
         "Почему нельзя сказать Hadn't I known?",
         "Нужно ли мне самому уметь так говорить?"
       ]
+    },
+    {
+      "id": 512,
+      "microtopicId": 194,
+      "title": "Компас: два вопроса и тип готов",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "К этому месту темы у вас на руках все формы: нулевой, первый, второй, третий и смешанный. Каждую по отдельности вы уже собирали, и в упражнениях это работало — потому что карточка заранее говорила, какой сейчас тип. В жизни никто не говорит. Там есть только мысль на русском и три секунды до того, как вы откроете рот."
+        },
+        {
+          "type": "paragraph",
+          "text": "Хорошая новость: выбирать из пяти вариантов не придётся. Вся система сводится к **двум вопросам**, и задавать их надо в строгом порядке — второй имеет смысл только после первого."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос первый: это может случиться на самом деле?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Спрашиваем не про проценты вероятности, а про то, как вы сами это подаёте. Мы уже видели это раньше: один и тот же шанс можно оформить и как реальный план, и как мечту — собеседник поймёт разное."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ответ **да** — после `if` ставим обычное настоящее время, и на этом всё, дальше можно не думать.",
+            "Ответ **нет** — делаем шаг назад по времени, тот самый, на котором стоит вся тема, и переходим ко второму вопросу."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос второй: это про сейчас или про то, что уже прошло?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Этот вопрос задаём только тем, кто на первый ответил «нет». Здесь решается глубина шага:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**про сейчас** — прошедшая форма после `if`, а справа `would` и голая первая форма глагола;",
+            "**про то, что прошло** — форма с `had` после `if`, а справа `would have` и третья форма."
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Ответы на два вопроса",
+            "Что собираем",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Да, может случиться",
+              "настоящее → will",
+              "If Kate agrees, we'll start on Monday."
+            ],
+            [
+              "Нет, и речь про сейчас",
+              "прошедшее → would",
+              "If Kate agreed, we'd start on Monday."
+            ],
+            [
+              "Нет, и речь про то, что прошло",
+              "had + V3 → would have",
+              "If Kate had agreed, we would have started on Monday."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Нулевого типа в компасе нет намеренно — он отвечает на другой вопрос. Если вы описываете не случай, а закономерность, которая срабатывает всегда, поставьте вместо `if` слово `when`: влезло без потери смысла — значит это нулевой тип, и справа тоже настоящее время."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шесть фраз и шесть ответов"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прогоним компас по живым мыслям. Разбор каждой — одна строка, ровно по двум вопросам."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Сдам отчёт сегодня — в пятницу буду свободен». Может случиться? Да, отчёт ещё пишется. Значит настоящее после `if`: **If I finish the report today, I'll be free on Friday.**",
+            "«Если Ира долго сидит за компьютером, у неё болит голова». Это вообще не случай, а её закономерность — проверяем словом `when`, и оно влезает. Нулевой тип: **If Ira works at the computer too long, she gets a headache.**",
+            "«Был бы у меня свой дом, я бы завёл собаку». Может случиться? Нет, дома нет. Про сейчас? Да. Шаг назад плюс `would`: **If I had my own house, I'd get a dog.**",
+            "«Если он не ответит до вечера, напишу ещё раз». Может случиться? Вполне, вечер не наступил. Настоящее после `if`, отрицание внутри условия: **If he doesn't answer by tonight, I'll write again.**",
+            "«Предупредила бы меня Лена — я бы не поехал зря». Может случиться? Уже нет. Про сейчас или про прошлое? Про прошлое. Обе половины уходят вглубь: **If Lena had warned me, I wouldn't have gone for nothing.**",
+            "«Не бросил бы я тогда испанский — читал бы сейчас эту книгу спокойно». Тут два вопроса дали разные ответы у половин — и это отдельный случай, разбираем его сразу ниже."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда половины ответили по-разному"
+        },
+        {
+          "type": "paragraph",
+          "text": "Последняя фраза ломает схему только на первый взгляд. Пройдите по ней внимательно: на первый вопрос обе половины отвечают «нет» — испанский брошен, книга не читается. А вот второй вопрос разводит их: условие про давнее решение, результат про сегодняшний вечер. Значит и собираем по частям — левую половину как в третьем типе, правую как во втором: **If I hadn't given up Spanish, I'd read this book easily now.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это и есть весь смешанный тип. Он не пятая ветка компаса и не отдельная формула, которую надо помнить: просто вопросы задаются к каждой половине отдельно. Опознать его в чужой речи проще всего по слову-маркеру справа — `now`, `today`, `still`."
+        },
+        {
+          "type": "heading",
+          "text": "Что не зависит от типа вообще"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три вещи работают одинаково во всех типах — их можно выучить один раз и больше к ним не возвращаться."
+        },
+        {
+          "type": "paragraph",
+          "text": "Первое: **спрашивает только половина без `if`**. Условие в вопрос не превращается никогда и порядок слов не меняет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will you take the job if they offer it?**",
+            "**What would you do if you lost your passport?**",
+            "**Wouldn't it be easier if we met on Friday?** — отрицательный вопрос, «разве не проще было бы…».",
+            "**If will they call, what do we say?** ✗ — половина с `if` осталась утвердительной, спрашивает только вторая."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второе: **отрицать можно любую половину, а можно обе сразу**. Ограничение одно — внутри условия отрицание собирается через `don't`, `doesn't`, `didn't`, `hadn't`, а `won't` и `wouldn't` туда не заходят вместе со своими `will` и `would`: **If you won't hurry** ✗ → **If you don't hurry** ✓."
+        },
+        {
+          "type": "paragraph",
+          "text": "Третье: **запятая ставится только тогда, когда половина с `if` идёт первой**. Переставили половины местами — запятая исчезает."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Два вопроса подряд, и тип найден. Может случиться? Да — настоящее после `if`. Нет — шаг назад, и тогда второй вопрос: про сейчас (`would`) или про прошлое (`would have`). Половины отвечают на вопросы каждая за себя, и если ответы разошлись — получился смешанный тип."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Тип выбирается двумя вопросами. Первый: это может случиться на самом деле? Да → после `if` настоящее время (**If Kate agrees, we'll start on Monday**). Нет → шаг назад по времени, и тогда второй вопрос: про сейчас → прошедшая форма и `would` (**If Kate agreed, we'd start**), про то, что уже прошло → форма с `had` и `would have` (**If Kate had agreed, we would have started**). Если речь не о случае, а о закономерности, которая срабатывает всегда, — это нулевой тип, и проверить его можно заменой `if` на `when`. Когда две половины отвечают на второй вопрос по-разному, выходит смешанный тип: условие из прошлого, результат про сейчас, маркер справа — `now` или `still`. Во всех типах одинаково: вопрос строит только половина без `if`, отрицание может стоять в любой половине, но `won't` и `wouldn't` внутрь условия не заходят, а запятая нужна только когда `if`-часть идёт первой.",
+      "examples": [
+        {
+          "ru": "Если Катя согласится, начнём в понедельник.",
+          "en": "If Kate agrees, we'll start on Monday."
+        },
+        {
+          "ru": "Сдам отчёт сегодня — в пятницу буду свободен.",
+          "en": "If I finish the report today, I'll be free on Friday."
+        },
+        {
+          "ru": "Был бы у меня свой дом, я бы завёл собаку.",
+          "en": "If I had my own house, I'd get a dog."
+        },
+        {
+          "ru": "Предупредила бы меня Лена — я бы не поехал зря.",
+          "en": "If Lena had warned me, I wouldn't have gone for nothing."
+        },
+        {
+          "ru": "Не бросил бы я тогда испанский — читал бы сейчас эту книгу спокойно.",
+          "en": "If I hadn't given up Spanish, I'd read this book easily now."
+        },
+        {
+          "ru": "Что бы вы сделали, если бы потеряли паспорт?",
+          "en": "What would you do if you lost your passport?"
+        }
+      ],
+      "clarificationOptions": [
+        "Как быть, если я не могу решить, реально это или нет?",
+        "Почему смешанный тип не отдельная ветка компаса?",
+        "Зачем проверять словом when, если можно просто оставить if?"
+      ]
+    },
+    {
+      "id": 513,
+      "microtopicId": 194,
+      "title": "Чек-лист: что проверить в своей фразе",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Эта карточка — уборка. Ничего нового в ней нет: здесь собраны все места, где русскоязычный спотыкается в условных, чтобы их можно было пробежать глазами перед тем, как сказать фразу. Каждый пункт вы уже разбирали в своей микротеме — тут они просто лежат рядом."
+        },
+        {
+          "type": "heading",
+          "text": "Будущее и «бы» внутрь if не заходят"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это одно правило, а не три, хотя ломается оно тремя разными способами. Всё, что помечает будущее (`will`), и всё, что помечает «бы» (`would`), живёт только в правой половине. Левая обходится обычными формами."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If Nick will call, I'll ask him** ✗ → **If Nick calls, I'll ask him** ✓",
+            "**If I would have time, I'd help you** ✗ → **If I had time, I'd help you** ✓",
+            "**If I would have known, I would have called** ✗ → **If I had known, I would have called** ✓"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Живучее всех третий вариант — он звучит для русского уха убедительнее правильного, потому что в русском «бы» честно стоит в обеих половинах: «если **бы** я знал, я **бы** позвонил». Английский ставит его один раз, справа."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Потерянное would и не та полка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правую половину, наоборот, часто оставляют голой — рука уже сказала «бы» слева и считает работу сделанной."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I had more time, I travel more** ✗ → **If I had more time, I'd travel more** ✓",
+            "**If I had knew about it, I would have said no** ✗ → **If I had known about it, I would have said no** ✓ — после `had` идёт третья форма, а не вторая.",
+            "**She would of called** ✗ → **She would have called** ✓ — беглое `would've` звучит один в один как `would of`, и так пишут даже носители. Ошибкой это быть не перестало."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Запятая только у левой половины"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русская привычка ставить запятую перед «если» переезжает в английский сама собой, и получается лишний знак."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'd help you, if I had time** ✗ → **I'd help you if I had time** ✓",
+            "**If I had time, I'd help you** ✓ — половины поменялись местами, и запятая вернулась на законное место."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Слова вместо if: где спотыкаются чаще всего"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`unless` уже содержит «не», второе отрицание внутрь не ставится: **Unless you don't book early, there won't be any seats** ✗ → **Unless you book early…** ✓",
+            "`in case` — это «на случай», а не «если»: действие делают заранее. **I'll take an umbrella in case it rains** ✓ — зонт берут до дождя.",
+            "`even if` — «даже если», событие ещё под вопросом; `even though` — «хотя», событие уже факт. Проверка одна: подставьте в русскую фразу «хотя» и посмотрите, влезает ли."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что ломается в wish"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I wish I am taller** ✗ → **I wish I were taller** ✓ — речь про сейчас, но форма всё равно отодвигается назад.",
+            "**I wish I would stop worrying** ✗ — претензию через `I wish you would` предъявляют чужому поведению, а не своему. Про себя говорят иначе: **I wish I could stop worrying** ✓."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос и отрицание"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If will it rain, will we stay home?** ✗ → **If it rains, will we stay home?** ✓ — спрашивает только половина без `if`.",
+            "**If you won't hurry, we'll be late** ✗ → **If you don't hurry, we'll be late** ✓ — внутри условия отрицание собирается без `will`."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сводка одной таблицей"
+        },
+        {
+          "type": "paragraph",
+          "text": "Перед тем как сказать фразу, пробегите глазами левый столбец. Увидели у себя такое — стоп."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Сломано",
+            "Верно"
+          ],
+          "rows": [
+            [
+              "If it will snow",
+              "If it snows"
+            ],
+            [
+              "If I would have money",
+              "If I had money"
+            ],
+            [
+              "If I had knew",
+              "If I had known"
+            ],
+            [
+              "would of come",
+              "would have come"
+            ],
+            [
+              "Unless you don't hurry",
+              "Unless you hurry"
+            ],
+            [
+              "I wish I am",
+              "I wish I were"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Почти все ошибки в условных — это попытка сказать «бы» и «будущее» дважды. Английский помечает и то и другое ровно один раз, в правой половине; левая живёт на обычных формах, спокойно принимает отрицание и никогда не превращается в вопрос."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Самые частые поломки в условных: `will` внутри условия (**If it will snow** ✗ → **If it snows** ✓), `would` внутри условия (**If I would have money** ✗ → **If I had money** ✓), потерянное `would` в правой половине, вторая форма вместо третьей после `had` (**If I had knew** ✗ → **If I had known** ✓) и написание `would of` вместо `would have`. Запятая ставится только тогда, когда половина с `if` идёт первой. У слов-заменителей свои ловушки: после `unless` второе отрицание не ставят, `in case` значит «на случай» и требует действия заранее, `even if` говорит о ещё не случившемся, а `even though` — о факте. В конструкции с `wish` форма тоже отодвигается назад (**I wish I am** ✗ → **I wish I were** ✓), а `I wish you would` адресуется чужому поведению, не своему. Вопрос всегда строит половина без `if`, а отрицание внутри условия собирается через `don't`, `didn't` и `hadn't`, но не через `won't`.",
+      "examples": [
+        {
+          "ru": "Если Ник позвонит, я его спрошу.",
+          "en": "If Nick calls, I'll ask him."
+        },
+        {
+          "ru": "Если бы у меня было время, я бы тебе помог.",
+          "en": "If I had time, I'd help you."
+        },
+        {
+          "ru": "Если бы я знал об этом, я бы отказался.",
+          "en": "If I had known about it, I would have said no."
+        },
+        {
+          "ru": "Хотел бы я быть повыше.",
+          "en": "I wish I were taller."
+        },
+        {
+          "ru": "Если пойдёт дождь, мы останемся дома?",
+          "en": "If it rains, will we stay home?"
+        },
+        {
+          "ru": "Если не поторопишься, мы опоздаем.",
+          "en": "If you don't hurry, we'll be late."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему would of считается ошибкой, если все так говорят?",
+        "Как быстро проверить запятую в своей фразе?",
+        "Чем I wish you would отличается от I wish I could?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -5100,6 +5490,78 @@
       "exerciseType": "MATCHING",
       "exerciseId": 79,
       "orderInCard": 2
+    },
+    {
+      "cardId": 512,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 109,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 512,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 221,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 512,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 59,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 512,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 176,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 512,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 73,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 513,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 184,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 513,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 185,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 513,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 200,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 513,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 197,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 513,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 98,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 513,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 95,
+      "orderInCard": 5
+    },
+    {
+      "cardId": 513,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 83,
+      "orderInCard": 6
     }
   ],
   "ai_exercises": [
@@ -5568,6 +6030,37 @@
         }
       ],
       "explanation": "Во второй строке после in case стоит will, а будущего внутри условия не бывает: верно in case I'm late. В четвёртой отрицание поставлено дважды, ведь unless уже значит «если не»: верно Unless you book early."
+    },
+    {
+      "id": 197,
+      "statements": [
+        {
+          "en": "If you mix blue and yellow, you get green.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "If I would have a car, I'd drive you home.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Unless you hurry, you'll miss the train.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I wish I am better at maths.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "If Lucy had asked me, I would have said yes.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "Во второй строке would стоит внутри условия, а там нужна простая прошедшая форма: If I had a car. В четвёртой после wish осталось настоящее время, хотя форма должна отодвинуться назад: I wish I were better at maths."
     }
   ],
   "word_arrangement_exercises": [
@@ -5739,6 +6232,24 @@
         "it will get"
       ],
       "explanation": "Плед кладут заранее, ещё до холодной ночи, поэтому нужна связка in case. Внутри условия стоит настоящее время, а форма it will get сюда не встаёт вовсе."
+    },
+    {
+      "id": 176,
+      "situationRu": "Ситуация: Настя мечтает о своём кафе, но денег на него нет.",
+      "correctSentence": "If I had enough money, I'd open a small café.",
+      "words": [
+        "If I had",
+        "enough money",
+        "I'd open",
+        "a small café"
+      ],
+      "distractors": [
+        "If I have",
+        "I'll open",
+        "If I had had",
+        "I would opened"
+      ],
+      "explanation": "Денег нет прямо сейчас, поэтому берётся прошедшая форма после if и would в правой половине. Формы с will и с had had говорили бы о реальном плане и о прошлом, а речь о сегодняшней мечте."
     }
   ],
   "multiple_choice_exercises": [
@@ -6308,6 +6819,48 @@
         }
       ],
       "explanation": "Слово had вынесено вперёд вместо выброшенного if, а запятая и вторая половина показывают, что это условие, а не вопрос. Речь о том, чего не случилось: вышли поздно и паром упустили."
+    },
+    {
+      "id": 221,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Если бы я жил ближе к центру, я бы ходил на работу пешком.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "If I live closer to the centre, I'll walk to work.",
+          "isCorrect": false
+        },
+        {
+          "text": "If I lived closer to the centre, I'd walk to work.",
+          "isCorrect": true
+        },
+        {
+          "text": "If I had lived closer to the centre, I would have walked to work.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Речь о том, как обстоят дела сейчас: живёт далеко и пешком не ходит. На первый вопрос ответ «нет», на второй — «про сейчас», значит прошедшая форма после if и would справа."
+    },
+    {
+      "id": 200,
+      "choiceType": "CHOICE",
+      "prompt": "If we ___ earlier, we wouldn't be stuck in this queue now.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "left",
+          "isCorrect": false
+        },
+        {
+          "text": "had left",
+          "isCorrect": true
+        },
+        {
+          "text": "would leave",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Выехать раньше уже было нельзя — это про прошлое, поэтому had left. А результат виден прямо сейчас, о чём говорит слово now в правой половине."
     }
   ],
   "text_input_exercises": [
@@ -6399,6 +6952,36 @@
         "потерять",
         "взять",
         "сказать"
+      ]
+    },
+    {
+      "id": 95,
+      "items": [
+        {
+          "sentence": "If Vera ___ tonight, I'll tell her the news.",
+          "contextRu": "",
+          "answer": "calls",
+          "alternatives": []
+        },
+        {
+          "sentence": "If I ___ closer, I'd visit you every week.",
+          "contextRu": "",
+          "answer": "lived",
+          "alternatives": []
+        },
+        {
+          "sentence": "If they ___ us earlier, we would have changed the tickets.",
+          "contextRu": "",
+          "answer": "had told",
+          "alternatives": []
+        }
+      ],
+      "explanation": "В первом предложении условие реальное, поэтому внутри стоит настоящее время. Во втором речь о том, как дела обстоят сейчас, — прошедшая форма; в третьем о том, что уже прошло, — форма с had.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу глагол в нужной форме.",
+      "wordBank": [
+        "жил",
+        "сказали",
+        "позвонит"
       ]
     }
   ],
@@ -6598,6 +7181,38 @@
         }
       ],
       "explanation": "Вторую зарядку кладут в сумку прямо сейчас, пока первая ещё цела, — значит это подстраховка заранее. С if брать её пришлось бы уже после поломки, когда сумка давно собрана."
+    },
+    {
+      "id": 73,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Are you coming to Tom's party on Saturday?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Great, I'll save you a seat."
+        }
+      ],
+      "options": [
+        {
+          "text": "If I had finished work early, I would have come.",
+          "isCorrect": false
+        },
+        {
+          "text": "If I finished work early, I'd come.",
+          "isCorrect": false
+        },
+        {
+          "text": "If I finish work early, I'll come.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Суббота ещё впереди, и человек вполне может освободиться пораньше — это реальное условие. Ответ собеседника это подтверждает: место придержат, значит приход обсуждается всерьёз."
     }
   ],
   "matching_exercises": [
@@ -6938,6 +7553,44 @@
         }
       ],
       "explanation": "Unless уже несёт в себе отрицание, поэтому don't оттуда убирается. Ставить внутрь условия will тоже нельзя, а первый вариант меняет смысл на обратный: комнату как раз отдадут."
+    },
+    {
+      "id": 184,
+      "wrongSentence": "If the shop will be open, I'll buy some bread.",
+      "options": [
+        {
+          "text": "If the shop is open, I'll buy some bread.",
+          "isCorrect": true
+        },
+        {
+          "text": "If the shop would be open, I'll buy some bread.",
+          "isCorrect": false
+        },
+        {
+          "text": "If the shop will be opened, I'll buy some bread.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Будущее в этой фразе помечено один раз — словом will в правой половине. Внутри условия остаётся обычное настоящее время: is open."
+    },
+    {
+      "id": 185,
+      "wrongSentence": "If Megan had knew about the meeting, she would have come.",
+      "options": [
+        {
+          "text": "If Megan would have known about the meeting, she would have come.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Megan had know about the meeting, she would have come.",
+          "isCorrect": false
+        },
+        {
+          "text": "If Megan had known about the meeting, she would have come.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "После had всегда идёт третья форма глагола, а knew — вторая. Форма с would внутри условия невозможна: would живёт только в правой половине."
     }
   ],
   "construction_meaning_exercises": [
@@ -7009,6 +7662,29 @@
         }
       ],
       "explanation": "Even though вводит уже свершившийся факт: человек действительно был болен и всё равно вышел. Про будущее и про несостоявшийся приход эта фраза не говорит ничего."
+    },
+    {
+      "id": 59,
+      "construction": "If Sam had told me, I would have helped.",
+      "options": [
+        {
+          "text": "Если бы Сэм мне сказал, я бы помог — но он не сказал.",
+          "isCorrect": true
+        },
+        {
+          "text": "Если Сэм мне скажет, я помогу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Если бы Сэм мне говорил, я бы помогал сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Сэм мне сказал, и я помог.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Обе половины стоят в самой глубокой форме, а значит речь о том, чего не было: он промолчал, и помощи не случилось. Про сейчас или про будущее эта фраза не говорит ничего."
     }
   ],
   "transformation_exercises": [
@@ -7106,6 +7782,25 @@
         }
       ],
       "explanation": "Помощник возвращается на своё место после подлежащего, а впереди снова появляется if. В третьем предложении полное not при этом схлопывается в обычное сокращение hadn't."
+    },
+    {
+      "id": 83,
+      "taskDescription": "перепиши каждое предложение так, будто это уже не случится.",
+      "items": [
+        {
+          "original": "If I get a bonus, I'll buy a bike.",
+          "transformed": "If I got a bonus, I'd buy a bike."
+        },
+        {
+          "original": "If she calls, I'll tell her.",
+          "transformed": "If she called, I'd tell her."
+        },
+        {
+          "original": "If we leave now, we'll be early.",
+          "transformed": "If we left now, we'd be early."
+        }
+      ],
+      "explanation": "Обе половины делают шаг назад: глагол после if уходит в прошедшую форму, а will меняется на would. Смысл при этом переезжает из реального плана в мечту."
     }
   ],
   "categorization_exercises": [
@@ -7223,6 +7918,34 @@
         }
       ],
       "explanation": "Слева после связки стоит требование, которое надо выполнить, — это условие. Справа стоит мера времени, и связка возвращается к своему прямому смыслу «так долго, как»."
+    },
+    {
+      "id": 109,
+      "taskDescription": "разложи мысли по тому, о чём они говорят.",
+      "categories": [
+        {
+          "title": "Может случиться",
+          "items": [
+            "если дадут визу",
+            "если он перезвонит"
+          ]
+        },
+        {
+          "title": "Если бы сейчас",
+          "items": [
+            "если бы я умел водить",
+            "если бы у меня была машина"
+          ]
+        },
+        {
+          "title": "Если бы тогда",
+          "items": [
+            "если бы мы взяли зонт",
+            "если бы я вчера не проспал"
+          ]
+        }
+      ],
+      "explanation": "Первый столбец — то, что ещё впереди и вполне может случиться. Второй — про сейчас, но не так, как есть на самом деле. Третий — про то, что уже прошло и переиграть нельзя."
     }
   ],
   "find_the_odd_exercises": [
@@ -7363,6 +8086,29 @@
         }
       ],
       "explanation": "Завтрашний снег ещё не факт, поэтому объявлять его через even though нельзя — верно Even if it snows tomorrow. В остальных трёх строках связка стоит по своему смыслу."
+    },
+    {
+      "id": 98,
+      "groupDescription": "Три предложения говорят о том, чего уже не изменить, одно — о том, что ещё может случиться",
+      "items": [
+        {
+          "text": "If I had checked the time, I wouldn't have missed the film.",
+          "isOdd": false
+        },
+        {
+          "text": "If I check the time, I won't miss the film.",
+          "isOdd": true
+        },
+        {
+          "text": "If we had booked a table, we would have got a seat.",
+          "isOdd": false
+        },
+        {
+          "text": "If she had called me, I would have picked her up.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "В трёх предложениях обе половины стоят в самой глубокой форме — это разговор о том, что уже прошло. Лишнее собрано на настоящем времени и will, а значит говорит о вполне реальном будущем."
     }
   ]
 }
