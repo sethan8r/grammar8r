@@ -18,6 +18,13 @@
       "title": "Get · Глагол-хамелеон",
       "order": 1,
       "searchKeywords": "почему get везде, got или gotten, got или have got, did you got, getting или geting"
+    },
+    {
+      "id": 197,
+      "topicId": 31,
+      "title": "Get = получать · Что оказалось у тебя",
+      "order": 2,
+      "searchKeywords": "get или receive, как сказать получил, get paid, get или earn, принеси мне по-английски"
     }
   ],
   "grammar_cards": [
@@ -369,6 +376,283 @@
         "Как быстро отличить got «получил» от have got «у меня есть»?",
         "Что такое gotten и надо ли мне так говорить самому?"
       ]
+    },
+    {
+      "id": 517,
+      "microtopicId": 197,
+      "title": "Один get вместо получить, достать и купить",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русский человек, рассказывая, как у него что-то появилось, каждый раз берёт новый глагол — и берёт его по СПОСОБУ. Письмо принесли — «получил». Билеты доставал через знакомых — «достал». Молоко в магазине — «купил». Работу после трёх собеседований — снова «получил», но уже в другом смысле. Английский на все эти случаи ставит одно слово."
+        },
+        {
+          "type": "heading",
+          "text": "Английскому интересен только результат"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Как вещь у тебя оказалась",
+            "По-русски",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "прислали, пришло",
+              "получил",
+              "I got an email from Lily."
+            ],
+            [
+              "постарался, раздобыл",
+              "достал",
+              "I got tickets for Friday."
+            ],
+            [
+              "заплатил в магазине",
+              "купил, взял",
+              "I got some milk on the way home."
+            ],
+            [
+              "прошёл собеседование",
+              "получил, добился",
+              "I got the job."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между «купил» и «достал» английскому, конечно, известна — у него есть и `to buy`, и `to find`. Просто в обычном разговоре эта разница никого не занимает: важно, что вещи не было, а теперь она твоя. Ровно это `get` и сообщает — «оказалось у меня». Способ, цена и старания остаются за кадром, и если они важны, англичанин добавит их отдельно: **I got these shoes in Prague for £30**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда простой практический вывод: как только по-русски в голове звучит «получил», «достал», «взял», «раздобыл», «добыл», «купил» — по-английски в 90 случаях из 100 годится `get`, и мучиться с выбором точного глагола не нужно."
+        },
+        {
+          "type": "heading",
+          "text": "Почему носитель почти никогда не говорит receive"
+        },
+        {
+          "type": "paragraph",
+          "text": "В школьном словаре напротив «получать» стоит `to receive`, и рука тянется именно к нему. Но `receive` — слово письменное и официальное. Его дом — деловая переписка и уведомления: **We have received your application**, **You will receive a confirmation by email**."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сказать другу в кафе `I received your message` — это примерно как ответить по-русски «мною получено ваше сообщение». Грамматика цела, а звучит как справка из канцелярии. В живой речи на этом месте всегда `got`: **I got your message, thanks!**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда прилетело само, а ты и не просил"
+        },
+        {
+          "type": "paragraph",
+          "text": "`get` работает и в обратную сторону — когда «получаешь» то, чего никто не заказывал:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I got a cold on the plane.**",
+            "**Sonya got a headache after the meeting.**",
+            "**We got bad news this morning.**",
+            "**Igor got a fine for parking there.**",
+            "**He got two years.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "По-русски в этих случаях глагола «получить» нет вовсе — мы говорим «простыл», «разболелась голова», «оштрафовали», «дали два года». Все эти русские фразы либо безличные, либо ставят человека в сторонке, и мозг ищет по-английски что-то такое же уклончивое. Английский же спокойно оставляет человека подлежащим и даёт ему тот же самый `get`: не «мне дали штраф», а **you got a fine** — «ты получил штраф»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сюда же — впечатление, которое по-русски «складывается» само: **I got a good impression of the city**. И оценка в школе, и приз, и приглашение — всё это `get`."
+        },
+        {
+          "type": "heading",
+          "text": "get — это ещё и про деньги"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда речь о зарплате, русский ждёт `to earn`. Это не ошибка, но у `earn` есть привкус «заработал трудом, заслужил» — так говорят, когда именно это и хотят подчеркнуть. Обычный бытовой разговор про деньги идёт через `get`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How much do you get?**",
+            "**I get paid on Friday.**",
+            "**Kate gets £20 an hour.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Тот же `get` умеет значить «беру на себя»: **I'll get dinner tonight** — дословно «я добуду ужин», по-живому «ужин сегодня на мне»; **I'll get the bill** — «плачу я». Русский такое не угадывает, потому что «получить ужин» звучит бессмысленно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Когда справа от `get` стоит вещь, он заменяет собой сразу несколько русских глаголов: получить, достать, купить, взять, добыть, добиться (**I got an email**, **I got tickets**, **I got the job**). Английскому неважно, КАК вещь у тебя появилась, — важно, что раньше её не было, а теперь она твоя. `to receive` — официальное письменное слово (**We have received your application**), в живой речи на его месте всегда `got`. Тем же `get` описывают то, что прилетело само и без спроса: **I got a cold**, **Igor got a fine**, **We got bad news** — по-русски тут глагола «получить» нет вовсе. И про деньги в быту тоже говорят через `get`: **How much do you get?**, **I get paid on Friday**.",
+      "examples": [
+        {
+          "ru": "Вчера вечером я получил твоё письмо.",
+          "en": "I got your email last night."
+        },
+        {
+          "ru": "Где ты достал эти билеты?",
+          "en": "Where did you get these tickets?"
+        },
+        {
+          "ru": "Оля простыла в поезде.",
+          "en": "Olya got a cold on the train."
+        },
+        {
+          "ru": "Сколько ты получаешь в месяц?",
+          "en": "How much do you get a month?"
+        },
+        {
+          "ru": "Игорь вчера получил штраф.",
+          "en": "Igor got a fine yesterday."
+        }
+      ],
+      "clarificationOptions": [
+        "Если get подходит почти везде, зачем вообще учить receive и buy?",
+        "Почему про простуду и штраф англичанин говорит тем же словом, что и про подарок?",
+        "Как понять, когда про зарплату сказать get, а когда earn?"
+      ]
+    },
+    {
+      "id": 518,
+      "microtopicId": 197,
+      "title": "get me a coffee: когда после get стоит человек",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор справа от `get` стояла одна вещь. А теперь поставим туда двоих: сначала человека, потом вещь — и `get` из «получил» превращается в «принеси, возьми, достань кому-то»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Get + кому + что"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can you get me a coffee?**",
+            "**I'll get you a chair.**",
+            "**Get yourself a drink.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая фраза дословно значит «можешь добыть мне кофе», по-живому — «принесёшь мне кофе?». Дословный вариант тут полезен: он показывает, что и в этой роли `get` остаётся тем же самым «сделай так, чтобы у меня это было», просто теперь речь не о себе, а о другом человеке."
+        },
+        {
+          "type": "paragraph",
+          "text": "Механика тут знакомая: ровно так же ведут себя `to give` и `to send` — сначала тот, КОМУ, потом то, ЧТО (**Lily gave me her number**, **I sent him the photos**). Ничего нового учить не нужно, новое здесь только само слово `get` на этом месте."
+        },
+        {
+          "type": "heading",
+          "text": "Если человек уезжает в конец, ему нужен предлог for"
+        },
+        {
+          "type": "paragraph",
+          "text": "У человека в таком предложении есть ровно два места, и от места зависит предлог. Стоит сразу после `get` — предлог не нужен вообще. Ушёл в конец — перед ним появляется `for`: **I got Kate a present** = **I got a present for Kate**. Смысл одинаковый, выбирайте что удобнее."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Третьего места нет. `I got for Kate a present` ✗ — это русский порядок «купил для Кати подарок», перенесённый дословно, и по-английски он ломается. Либо **I got Kate a present** ✓, либо **I got a present for Kate** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "get или bring — что взять"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «принеси» одно на два разных действия, и отсюда путаница. `to bring` — принеси СЮДА то, что уже существует и лежит где-то рядом: **Bring me the book from the kitchen**. `get` — раздобудь: сходи, найди, купи, а потом уже принеси. Поэтому в кафе просят **Can you get me a sandwich?** (его ещё надо купить), а дома — **Can you bring me my phone?** (он лежит на столе)."
+        },
+        {
+          "type": "heading",
+          "text": "I'll get it! — про дверь и телефон"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда звонит телефон или кто-то стоит за дверью, англичанин кричит **I'll get it!** — дословно «я это возьму», по-живому «я подойду, я открою, я займусь». Отвечать `I will open the door` не нужно: так не говорят, хотя грамматически всё цело."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Фраза **Get me a taxi** — это не «сходи и купи мне такси». Это «вызови мне такси, сделай так, чтобы оно у меня было». Способ англичанина, как всегда, не интересует: приложение, звонок диспетчеру или рука на дороге — лишь бы такси появилось."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Если сразу после `get` стоит человек, а за ним вещь, получается «принеси / возьми / достань кому-то»: **Can you get me a coffee?**, **I'll get you a chair**. Порядок тот же, что у `to give` и `to send`: сначала кому, потом что. У человека всего два места: сразу после `get` — без предлога (**I got Kate a present**), либо в самом конце — тогда перед ним нужен `for` (**I got a present for Kate**); вариант `I got for Kate a present` ✗ невозможен. `get` отличается от `to bring` тем, что вещь ещё надо раздобыть, а не просто донести до места. Отдельно запомнить: **I'll get it!** — «я подойду / я открою» про звонок в дверь или телефон, а **Get me a taxi** — «вызови мне такси», а не «купи».",
+      "examples": [
+        {
+          "ru": "Можешь принести мне стакан воды?",
+          "en": "Can you get me a glass of water?"
+        },
+        {
+          "ru": "Я взял Соне билет на утренний поезд.",
+          "en": "I got Sonya a ticket for the morning train."
+        },
+        {
+          "ru": "Возьми себе что-нибудь попить.",
+          "en": "Get yourself something to drink."
+        },
+        {
+          "ru": "Телефон звонит — я подойду!",
+          "en": "The phone is ringing — I'll get it!"
+        },
+        {
+          "ru": "Гриша принёс Кате чай из кухни.",
+          "en": "Grisha got Kate some tea from the kitchen."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать Can you get for me a coffee, если по-русски мы так и говорим?",
+        "Чем get отличается от bring, если оба переводятся «принеси»?",
+        "Почему I'll get it значит «я открою», а не «я это получу»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -419,9 +703,74 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 96,
       "orderInCard": 4
+    },
+    {
+      "cardId": 517,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 222,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 517,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 111,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 517,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 199,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 517,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 177,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 518,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 202,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 518,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 84,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 518,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 74,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 518,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 187,
+      "orderInCard": 3
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "get_card517_ex1",
+      "cardId": 517,
+      "title": "Скажи это через get",
+      "userInstruction": "Переведите русское предложение на английский, используя get.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "get_card518_ex1",
+      "cardId": 518,
+      "title": "Попроси принести",
+      "userInstruction": "Напишите по-английски просьбу принести или достать вам что-нибудь.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "useful_words",
@@ -470,6 +819,30 @@
       "transcription": "[ˈdɪskaʊnt]",
       "microtopicId": 196,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 745,
+      "word": "email",
+      "translation": "письмо (электронное), имейл",
+      "transcription": "[ˈiːmeɪl]",
+      "microtopicId": 197,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 746,
+      "word": "fine",
+      "translation": "штраф",
+      "transcription": "[faɪn]",
+      "microtopicId": 197,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 747,
+      "word": "impression",
+      "translation": "впечатление",
+      "transcription": "[ɪmˈpreʃn]",
+      "microtopicId": 197,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -504,9 +877,60 @@
         }
       ],
       "explanation": "после did глагол стоит в первой форме — Did you get my letter? В слове getting согласная удваивается: Vera is getting ready now."
+    },
+    {
+      "id": 199,
+      "statements": [
+        {
+          "en": "Sara get a message from her boss every morning.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I got an email from the school yesterday.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "How much does your brother get?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We didn't got the discount.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Nick gets paid on the first day of the month.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в первом предложении подлежащее Sara — значит нужна форма gets: Sara gets a message from her boss every morning. В четвёртом после didn't глагол возвращается в первую форму: We didn't get the discount."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 177,
+      "situationRu": "RU: Ира получила странное письмо из банка.",
+      "correctSentence": "Ira got a strange email from the bank.",
+      "words": [
+        "Ira",
+        "got",
+        "a strange email",
+        "from",
+        "the bank"
+      ],
+      "distractors": [
+        "received",
+        "gets",
+        "a strange letter",
+        "the banks"
+      ],
+      "explanation": "письмо уже пришло, поэтому нужна прошедшая форма got, а не gets. Received грамматически возможен, но в разговоре о письме из банка живая речь берёт got."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 201,
@@ -549,6 +973,48 @@
         }
       ],
       "explanation": "has got — это разговорная замена has, то есть «у него есть». О том, как квартира появилась и когда, фраза не сообщает ничего."
+    },
+    {
+      "id": 222,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вера достала два билета на субботу.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Vera received two tickets for Saturday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vera got two tickets for Saturday.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vera gets two tickets for Saturday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«достала» — это то же самое «оказалось у неё», и в живой речи так говорят через got. Вариант с received звучит как строчка из делового письма, а gets — настоящее время, хотя речь о том, что уже случилось."
+    },
+    {
+      "id": 202,
+      "choiceType": "CHOICE",
+      "prompt": "I got a birthday present ___ my sister.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "to",
+          "isCorrect": false
+        },
+        {
+          "text": "of",
+          "isCorrect": false
+        },
+        {
+          "text": "for",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "человек ушёл в конец предложения, поэтому перед ним нужен предлог for. Без предлога он мог бы стоять сразу после get: I got my sister a birthday present. Предлог to при get не ставится — это привычка от give, а of сделал бы сестру владелицей подарка."
     }
   ],
   "text_input_exercises": [
@@ -578,7 +1044,40 @@
       "taskDescription": "Впиши get в нужной форме."
     }
   ],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 74,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Someone is at the door."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks!"
+        }
+      ],
+      "options": [
+        {
+          "text": "I'll get it!",
+          "isCorrect": true
+        },
+        {
+          "text": "I'll get him.",
+          "isCorrect": false
+        },
+        {
+          "text": "I get it now.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "про звонок в дверь и телефон говорят I'll get it! — «я открою, я подойду». Вариант I'll get him значил бы «я его приведу», а I get it now — «теперь я понял»."
+    }
+  ],
   "matching_exercises": [
     {
       "id": 80,
@@ -627,6 +1126,25 @@
         }
       ],
       "explanation": "have got значит «у меня есть» и с two days ago не сочетается. Про то, как билеты появились два дня назад, говорят прошедшей формой got."
+    },
+    {
+      "id": 187,
+      "wrongSentence": "Can you get for Lily a menu?",
+      "options": [
+        {
+          "text": "Can you get to Lily a menu?",
+          "isCorrect": false
+        },
+        {
+          "text": "Can you get Lily a menu?",
+          "isCorrect": true
+        },
+        {
+          "text": "Can you get a menu Lily?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "у человека два возможных места: сразу после get без предлога или в самом конце с for. Между get и вещью предлог не ставится."
     }
   ],
   "construction_meaning_exercises": [
@@ -654,7 +1172,27 @@
       "explanation": "после get стоит человек (me), а за ним вещь (a coffee) — значит речь о том, чтобы принести кому-то что-то, а не о том, чтобы куда-то дойти."
     }
   ],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 84,
+      "taskDescription": "перепиши предложение так, чтобы человек стоял сразу после get.",
+      "items": [
+        {
+          "original": "I got a sandwich for Tom.",
+          "transformed": "I got Tom a sandwich."
+        },
+        {
+          "original": "Kate got a ticket for me.",
+          "transformed": "Kate got me a ticket."
+        },
+        {
+          "original": "Can you get some water for Lily?",
+          "transformed": "Can you get Lily some water?"
+        }
+      ],
+      "explanation": "когда человек переезжает из конца предложения на место сразу после get, предлог for исчезает — он нужен только в конце."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 110,
@@ -683,6 +1221,29 @@
         }
       ],
       "explanation": "справа существительное — значит что-то оказалось у тебя; справа прилагательное — значит ты сам стал таким; справа место — значит ты туда добрался. Слово get во всех шести фразах одно и то же."
+    },
+    {
+      "id": 111,
+      "taskDescription": "распредели, что человек добыл сам, а что прилетело к нему без спроса.",
+      "categories": [
+        {
+          "title": "Добыл сам",
+          "items": [
+            "got a new laptop",
+            "got a discount",
+            "got a job"
+          ]
+        },
+        {
+          "title": "Прилетело само",
+          "items": [
+            "got an angry email",
+            "got a fine",
+            "got a headache"
+          ]
+        }
+      ],
+      "explanation": "глагол get во всех шести случаях один и тот же — он только сообщает, что вещь оказалась у человека. Разница не в грамматике, а в жизни: ноутбук, скидку и работу человек добывал сам, а сердитое письмо, штраф и головную боль ему никто не обещал."
     }
   ],
   "find_the_odd_exercises": []
