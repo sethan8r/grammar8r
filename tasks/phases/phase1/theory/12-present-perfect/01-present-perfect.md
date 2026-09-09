@@ -2537,12 +2537,12 @@ B: ___
 
 | Что идёт после | Ответ |
 |----------------|-------|
-| ___ 2015 | since |
-| ___ six weeks | for |
-| ___ Tuesday | since |
-| ___ half an hour | for |
-| ___ nine o'clock | since |
-| ___ a couple of hours | for |
+| 2015 | since |
+| six weeks | for |
+| Tuesday | since |
+| half an hour | for |
+| nine o'clock | since |
+| a couple of hours | for |
 
 *Explanation:* смотреть надо на то, что стоит после слова: количество времени — значит for, момент или целое событие — значит since. Дата и день недели это точки на оси, а минуты, дни и лето — длина отрезка.
 

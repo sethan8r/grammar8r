@@ -553,10 +553,10 @@
 
 | Продолжение | Ответ |
 |-------------|-------|
-| ___ dark that I turned on the light | so |
-| ___ long trip that we slept all evening | such a |
-| ___ traffic that we missed the train | so much |
-| ___ mistakes that the teacher was angry | so many |
+| dark that I turned on the light | so |
+| long trip that we slept all evening | such a |
+| traffic that we missed the train | so much |
+| mistakes that the teacher was angry | so many |
 
 *Explanation:* в первой строке рядом стоит прилагательное dark, поэтому so. Во второй — счётная вещь trip в единственном числе, значит such и артикль внутри. В третьей traffic неисчисляемое, поэтому so much, а в четвёртой mistakes считаются поштучно, поэтому so many.
 

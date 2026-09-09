@@ -460,13 +460,13 @@ was — для I/he/she/it. were — для you/we/they (даже если you =
 
 | Подлежащее | Ответ |
 |------------|-------|
-| I ___ | was |
-| you ___ | were |
-| he ___ | was |
-| she ___ | was |
-| it ___ | was |
-| we ___ | were |
-| they ___ | were |
+| I | was |
+| you | were |
+| he | was |
+| she | was |
+| it | was |
+| we | were |
+| they | were |
 
 *Explanation:* was — для I/he/she/it (единственное число, кроме you). were — для you/we/they. you — всегда were, даже про одного человека.
 

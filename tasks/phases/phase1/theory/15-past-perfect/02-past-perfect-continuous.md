@@ -1049,12 +1049,12 @@ RU: Мы гуляли по парку уже час, когда начался �
 
 | Срок | Ответ |
 |------|-------|
-| ___ two hours | for |
-| ___ Monday | since |
-| ___ ten minutes | for |
-| ___ 2015 | since |
-| ___ lunchtime | since |
-| ___ ages | for |
+| two hours | for |
+| Monday | since |
+| ten minutes | for |
+| 2015 | since |
+| lunchtime | since |
+| ages | for |
 
 *Explanation:* for идёт с длиной отрезка (two hours, ten minutes, ages), since — с точкой, от которой отсчёт начался (Monday, 2015, lunchtime).
 

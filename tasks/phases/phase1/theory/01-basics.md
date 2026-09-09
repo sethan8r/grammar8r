@@ -283,13 +283,13 @@ RU: Они живут в Лиссабоне.
 
 | Подлежащее | Ответ |
 |------------|-------|
-| I ___ | am |
-| you ___ | are |
-| he ___ | is |
-| she ___ | is |
-| it ___ | is |
-| we ___ | are |
-| they ___ | are |
+| I | am |
+| you | are |
+| he | is |
+| she | is |
+| it | is |
+| we | are |
+| they | are |
 
 *Explanation:* am — только с I. is — с he/she/it (единственное число, 3-е лицо). are — с you/we/they. Три формы: am, is, are.
 
@@ -1120,13 +1120,13 @@ B: ___
 
 | Подлежащее | Ответ |
 |------------|-------|
-| I ___ | have |
-| you ___ | have |
-| he ___ | has |
-| she ___ | has |
-| it ___ | has |
-| we ___ | have |
-| they ___ | have |
+| I | have |
+| you | have |
+| he | has |
+| she | has |
+| it | has |
+| we | have |
+| they | have |
 
 *Explanation:* have — с I/you/we/they. has — с he/she/it. Та же логика что у to be: единственное число третьего лица получает особую форму.
 

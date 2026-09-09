@@ -1823,24 +1823,24 @@
       "taskDescription": "впиши предлог, который нужен после каждого сочетания.",
       "rows": [
         {
-          "hint": "Mia got married ___ a pilot",
+          "hint": "get married + человек",
           "answer": "to"
         },
         {
-          "hint": "Dad got angry ___ me",
+          "hint": "get angry + человек",
           "answer": "with"
         },
         {
-          "hint": "Sam got angry ___ the traffic",
+          "hint": "get angry + вещь",
           "answer": "at"
         },
         {
-          "hint": "We got bored ___ the game",
-          "answer": "with"
+          "hint": "get tired + вещь",
+          "answer": "of"
         },
         {
-          "hint": "I'm getting tired ___ this rain",
-          "answer": "of"
+          "hint": "get bored + вещь",
+          "answer": "with"
         }
       ],
       "explanation": "русские предлоги сюда не переносятся: «жениться с» даёт to, а «злиться на» — with с человеком и at с вещью или ситуацией."
