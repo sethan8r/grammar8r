@@ -25,6 +25,13 @@
       "title": "Get = получать · Что оказалось у тебя",
       "order": 2,
       "searchKeywords": "get или receive, как сказать получил, get paid, get или earn, принеси мне по-английски"
+    },
+    {
+      "id": 198,
+      "topicId": 31,
+      "title": "Get = становиться · Момент перехода",
+      "order": 3,
+      "searchKeywords": "как сказать стал, get или become, am tired или got tired, get married with, темнеет по-английски, its getting late"
     }
   ],
   "grammar_cards": [
@@ -653,6 +660,761 @@
         "Чем get отличается от bring, если оба переводятся «принеси»?",
         "Почему I'll get it значит «я открою», а не «я это получу»?"
       ]
+    },
+    {
+      "id": 519,
+      "microtopicId": 198,
+      "title": "get + признак: русское «-ться» и «-еть»",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русский язык умеет прятать целый переход внутрь одного слова, и мы этого даже не замечаем. «Проголодался» — это ведь «стал голодным». «Стемнело» — «стало тёмным». «Разозлился» — «стал злым». Хвостик `-ться` или `-еть` приклеивается к признаку, и готов новый глагол: голодный → проголодаться, мокрый → промокнуть, старый → стареть, богатый → разбогатеть."
+        },
+        {
+          "type": "paragraph",
+          "text": "У английского такого хвостика нет вообще. `hungry`, `dark`, `angry` — это признаки, и приклеить к ним «стал» нечем: слова, которое означало бы «проголодаться», в языке просто не существует. Поэтому английский делает то же самое двумя словами — ставит перед признаком `get`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Get + признак"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Признак",
+            "get + признак",
+            "Русский глагол"
+          ],
+          "rows": [
+            [
+              "hungry",
+              "get hungry",
+              "проголодаться"
+            ],
+            [
+              "tired",
+              "get tired",
+              "устать"
+            ],
+            [
+              "dark",
+              "get dark",
+              "темнеть, стемнеть"
+            ],
+            [
+              "angry",
+              "get angry",
+              "разозлиться"
+            ],
+            [
+              "wet",
+              "get wet",
+              "промокнуть"
+            ],
+            [
+              "rich",
+              "get rich",
+              "разбогатеть"
+            ],
+            [
+              "old",
+              "get old",
+              "стареть"
+            ],
+            [
+              "better",
+              "get better",
+              "поправиться"
+            ],
+            [
+              "worse",
+              "get worse",
+              "испортиться, ухудшиться"
+            ],
+            [
+              "ready",
+              "get ready",
+              "собраться, приготовиться"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на этот столбик внимательно, потому что в нём и заключается вся выгода. Слева стоят прилагательные, которые вы давно знаете. Справа — русские глаголы, каждый из которых вы иначе искали бы в словаре по отдельности. А учить их не нужно: `get` плюс знакомое прилагательное собирает любой из них прямо на ходу. Знаете `wet` — умеете сказать «промок». Знаете `rich` — умеете сказать «разбогател»."
+        },
+        {
+          "type": "heading",
+          "text": "Русское «стало холодно» — а кто, собственно, стал?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский спокойно обходится без подлежащего: «Стемнело», «Похолодало», «Стало поздно» — кто именно стал, мы не сообщаем. Английскому предложению без подлежащего жить нельзя, поэтому на пустое место он ставит `it`: **It got dark**, **It got cold last night**, **It's getting late**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский по привычке начинает фразу прямо с глагола. `Got cold yesterday` ✗ — предложение без хозяина, англичанин ждёт, кто же стал холодным. Правильно **It got cold yesterday** ✓. То же самое `it` мы ставили в разговоре о погоде и времени — приём знакомый, просто теперь он работает и здесь."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос, отрицание и приказ — ничего нового"
+        },
+        {
+          "type": "paragraph",
+          "text": "`get` тут остаётся обычным глаголом, никакой особой конструкции нет: вопрос и отрицание строятся через `do`, `does` и `did`, а после них он возвращается в первую форму."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Did you get lost on the way?**",
+            "**I didn't get angry, I promise.**",
+            "**Didn't you get tired after eight hours?** — «Разве ты не устал?»: спрашивающий удивлён и ждал обратного.",
+            "**Get ready, we're leaving in ten minutes.**",
+            "**Get well soon!** — стандартное пожелание больному, дословно «поправляйся скорее»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `Get lost!` есть второе, совсем не вежливое употребление — это грубое «отвали, исчезни». Дословно «потеряйся». Услышите в фильмах — не удивляйтесь, а вот сами лучше не пробуйте."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Русский прячет переход внутрь глагола (проголодаться, промокнуть, стемнеть), английскому вешать переход не на что — он ставит два слова: `get` + признак. Отсюда пары: **get hungry** (проголодаться), **get tired** (устать), **get wet** (промокнуть), **get dark** (темнеть), **get rich** (разбогатеть), **get better** (поправиться), **get ready** (собраться). Учить эти глаголы отдельно не нужно: знакомое прилагательное плюс `get` собирает их само. Если по-русски получается безличное «стемнело» или «похолодало», по-английски на место подлежащего обязательно встаёт `it`: **It got dark**, **It got cold**. Вопрос и отрицание — обычные `do/does/did` с первой формой: **Did you get lost?**, **I didn't get angry**, отрицательный вопрос **Didn't you get tired?**",
+      "examples": [
+        {
+          "ru": "Вечером здесь быстро темнеет.",
+          "en": "It gets dark quickly here in the evening."
+        },
+        {
+          "ru": "Мы промокли по дороге домой.",
+          "en": "We got wet on the way home."
+        },
+        {
+          "ru": "Денис разозлился и ушёл с собрания.",
+          "en": "Denis got angry and left the meeting."
+        },
+        {
+          "ru": "Разве ты не проголодался?",
+          "en": "Didn't you get hungry?"
+        },
+        {
+          "ru": "Собирайся, автобус через двадцать минут.",
+          "en": "Get ready, the bus is in twenty minutes."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать просто Cold got, если по-русски мы говорим «похолодало»?",
+        "Как понять, какое прилагательное поставить после get, если в русском стоит один глагол?",
+        "Get better — это «стать лучше» или «поправиться»?"
+      ]
+    },
+    {
+      "id": 520,
+      "microtopicId": 198,
+      "title": "be или get: какой сейчас ↔ каким стал",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Одно и то же прилагательное с `be` и с `get` даёт два совершенно разных сообщения. И это, пожалуй, самая полезная пара во всей теме."
+        },
+        {
+          "type": "table",
+          "header": [
+            "С be — какой сейчас",
+            "С get — в какой момент стал"
+          ],
+          "rows": [
+            [
+              "I am lost. — я потерян, стою и не знаю, куда идти",
+              "I got lost. — я потерялся, вот тогда это случилось"
+            ],
+            [
+              "Emma is married. — Эмма замужем",
+              "Emma got married. — Эмма вышла замуж"
+            ],
+            [
+              "The soup is cold. — суп холодный",
+              "The soup got cold. — суп остыл"
+            ],
+            [
+              "Mark is angry. — Марк злой",
+              "Mark got angry. — Марк разозлился"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский эту пару не чувствует совершенно, и причина простая: у нас это разные СЛОВА. «Замужем» и «вышла замуж», «холодный» и «остыл», «злой» и «разозлился» — язык даёт нам два отдельных куска лексики, и мы не видим за ними одного и того же признака. У англичанина слово одно на оба случая, а меняется только связка перед ним."
+        },
+        {
+          "type": "paragraph",
+          "text": "Держите в голове картинку: `be` — это фотография, снимок положения дел прямо сейчас. `get` — момент, когда щёлкнул переключатель. Именно здесь и виден ответ на вопрос, зачем этот `get` вообще нужен: без него английский умел бы сказать только «какой человек сейчас» и не мог бы сказать «каким он стал»."
+        },
+        {
+          "type": "heading",
+          "text": "Почему «я устал» — это I'm tired, а не I got tired"
+        },
+        {
+          "type": "paragraph",
+          "text": "А теперь ловушка, на которой спотыкаются все. По-русски «я устал», «я проголодался», «я замёрз» по ФОРМЕ стоят в прошедшем времени — и рука сама тянется к прошедшему `I got tired`. Но по смыслу-то это про сейчас: устал — значит сейчас усталый."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Приходя домой с работы, говорят **I'm tired** ✓, а не `I got tired` ✗. То же с холодом и голодом: **I'm cold**, **I'm hungry**. Фраза с `got` — это отметка о моменте, и она обычно требует продолжения: **I got tired and went to bed early** — «устал и лёг спать». Проверка простая: если по-русски можно подставить «сейчас я такой» — берите `be`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Будущее: каким станешь"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тут ничего нового учить не нужно, работают знакомые `will` и `going to`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You'll get tired if you walk all day.**",
+            "**It's going to get cold at night, take a jacket.**",
+            "**She'll get better in a few days.**"
+          ]
+        }
+      ],
+      "theorySummary": "`be` показывает, какой человек или предмет СЕЙЧАС, а `get` — момент, когда он таким СТАЛ: **I am lost** (я потерян) ↔ **I got lost** (я потерялся); **Emma is married** ↔ **Emma got married**; **The soup is cold** ↔ **The soup got cold** (остыл). Русский эту разницу не замечает, потому что у него на два случая два разных слова («замужем» и «вышла замуж»). Главная ловушка: русское «я устал», «я замёрз», «я проголодался» по форме прошедшее, а по смыслу про сейчас — поэтому **I'm tired** ✓, **I'm cold** ✓, а `I got tired` значит «устал в какой-то момент» и обычно требует продолжения (**I got tired and went home**). Будущее строится обычными `will` и `going to`: **You'll get tired**, **It's going to get cold**.",
+      "examples": [
+        {
+          "ru": "Юля вышла замуж прошлым летом.",
+          "en": "Yulia got married last summer."
+        },
+        {
+          "ru": "Я устал, я пойду домой.",
+          "en": "I'm tired, I'm going home."
+        },
+        {
+          "ru": "Твой кофе остыл.",
+          "en": "Your coffee got cold."
+        },
+        {
+          "ru": "Если пойдёшь без шапки, замёрзнешь.",
+          "en": "You'll get cold if you go without a hat."
+        },
+        {
+          "ru": "Джек не разозлился, он просто удивился.",
+          "en": "Jack didn't get angry, he was just surprised."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «я устал» переводится настоящим временем, а не прошедшим?",
+        "Как отличить I was cold от I got cold?",
+        "Можно ли сказать I am getting married, если свадьба уже завтра?"
+      ]
+    },
+    {
+      "id": 521,
+      "microtopicId": 198,
+      "title": "Предлоги после get + признак",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Некоторые признаки после `get` тянут за собой человека или вещь — и вот тут появляется предлог. Беда в том, что русский предлог и английский почти никогда не совпадают, а рука переводит их дословно. Разберём четыре случая, на которых ошибаются чаще всего."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Emma got married to a doctor from Vienna.** — жениться и выходить замуж — `to`, а не `with`.",
+            "**My boss got angry with me.** / **She got angry at the noise.** — злиться на человека — `with`, на вещь или ситуацию — `at`.",
+            "**I'm getting tired of this weather.** — надоело — `of`.",
+            "**The kids got bored with the film.** — заскучали — `with`."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Get married with somebody` ✗ — прямая калька русского «жениться С кем-то». По-английски выходит, что вы поженились вместе с этим человеком на ком-то третьем. Правильно только **get married to somebody** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Get angry on somebody` ✗ — это уже калька русского «злиться НА кого-то». Английский предлог `on` значит «сверху, на поверхности», к злости он отношения не имеет. Правильно **get angry with somebody** ✓ или **get angry at something** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда предлог не нужен вообще"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если после признака никого нет — нет и предлога. Эти сочетания просто запоминаются целиком:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Give me five minutes, I'm getting dressed.**",
+            "**Everyone got excited when the music started.**",
+            "**Two people got hurt in the accident.**",
+            "**Let's get ready, they'll be here soon.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Из этого же ряда `get used to` — «привыкнуть к чему-то». Разбирать его мы будем в теме «Дополнительные конструкции», где рядом стоят `used to` и `be used to`: они похожи как близнецы и путать их проще, чем кажется. Пока просто узнавайте форму."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Когда после признака стоит человек или вещь, появляется предлог, и он редко совпадает с русским: **get married TO somebody** (не `with` — это калька «жениться с»), **get angry WITH somebody** и **get angry AT something** (не `on`, хотя по-русски «злиться на»), **get tired OF something** («надоело»), **get bored WITH something**. Если после признака никого нет, предлога нет тоже: **get dressed**, **get excited**, **get hurt**, **get ready**. Отдельно стоит `get used to` — «привыкнуть», его разбор ждёт в теме «Дополнительные конструкции».",
+      "examples": [
+        {
+          "ru": "Настя вышла замуж за учителя музыки.",
+          "en": "Nastya got married to a music teacher."
+        },
+        {
+          "ru": "Начальник разозлился на меня из-за отчёта.",
+          "en": "My boss got angry with me because of the report."
+        },
+        {
+          "ru": "Мне надоело ждать автобус каждое утро.",
+          "en": "I'm getting tired of waiting for the bus every morning."
+        },
+        {
+          "ru": "Дети заскучали на второй час поездки.",
+          "en": "The kids got bored with the trip after an hour."
+        },
+        {
+          "ru": "Подожди пять минут, я одеваюсь.",
+          "en": "Wait five minutes, I'm getting dressed."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему married to, если по-русски мы выходим замуж «за», а женимся «с»?",
+        "В чём разница между get angry with и get angry at?",
+        "Get tired of — это «устал» или «надоело»?"
+      ]
+    },
+    {
+      "id": 522,
+      "microtopicId": 198,
+      "title": "get + кого-то + признак: привести в такое состояние",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор человек, который стоял перед `get`, менялся сам: **I got tired** — устал я. А теперь вставим между `get` и признаком кого-то ещё — и получится, что не я стал таким, а я СДЕЛАЛ таким что-то другое."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Get + кого-что + признак"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I can't get the door open.** — не могу открыть дверь, дословно «не могу сделать дверь открытой».",
+            "**Don't get your shoes dirty.** — не испачкай ботинки.",
+            "**Get everything ready before six.** — приготовь всё до шести.",
+            "**She got the kids ready in ten minutes.** — собрала детей за десять минут.",
+            "**I got the answer right this time.** — на этот раз я ответил верно."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сам стал ↔ сделал таким"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между двумя конструкциями держится только на том, есть ли между `get` и признаком кто-то посторонний. Сравните: **I got wet** — промок я сам; **I got the floor wet** — намочил пол я. Слово `get` в обеих фразах одно и то же, но во второй у него появился объект работы."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельно стоит запомнить пару `get it right` и `get it wrong` — это «ответить, сделать верно» и «ошибиться». Так говорят про ответ на экзамене, про угаданный пароль, про починенный кран: **You got it right!**"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть готовая фраза **Let me get this straight** — «давайте я уточню, правильно ли я понял». Дословно «дайте мне сделать это прямым»: человек как бы выпрямляет запутанную историю. В сериалах она звучит постоянно."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Эта карточка — ступенька к тому, что ждёт во второй части темы. Там справа от объекта окажется не признак, а «сделанным»: **I got my hair cut** — «меня подстригли». Конструкция та же самая, меняется только правая часть, поэтому сейчас важно почувствовать сам порядок: get, потом кто-то, потом каким он стал."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Если между `get` и признаком встал кто-то посторонний, смысл меняется: человек не стал таким сам, а СДЕЛАЛ таким что-то другое. Формула — `get + кого-что + признак`: **I can't get the door open** (не могу открыть дверь), **Don't get your shoes dirty** (не испачкай), **Get everything ready** (приготовь всё), **She got the kids ready** (собрала детей). Сравните два предложения: **I got wet** — промок сам, **I got the floor wet** — намочил пол. Отдельно запоминаются **get it right** (сделать верно) и **get it wrong** (ошибиться), а также фраза **Let me get this straight** — «давайте уточню, правильно ли я понял».",
+      "examples": [
+        {
+          "ru": "Я никак не могу открыть это окно.",
+          "en": "I can't get this window open."
+        },
+        {
+          "ru": "Не испачкай новую куртку.",
+          "en": "Don't get your new jacket dirty."
+        },
+        {
+          "ru": "Приготовь всё до прихода гостей.",
+          "en": "Get everything ready before the guests come."
+        },
+        {
+          "ru": "На этот раз Оливер ответил верно.",
+          "en": "Oliver got the answer right this time."
+        },
+        {
+          "ru": "Давай я уточню, правильно ли я понял.",
+          "en": "Let me get this straight."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем I got wet отличается от I got the floor wet?",
+        "Почему признак стоит после объекта, а не перед ним?",
+        "Get it right — это только про ответы или можно про любое дело?"
+      ]
+    },
+    {
+      "id": 523,
+      "microtopicId": 198,
+      "title": "get в Continuous: прямо на глазах",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`get` обожает длительную форму, и на то есть причина: он и сам по себе означает переход, движение из одного состояния в другое. А длительная форма как раз показывает то, что происходит прямо сейчас, у нас на глазах."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's getting late, we should go.** — *Становится поздно, пора идти.*",
+            "**I'm getting hungry, let's find a café.** — *Я начинаю хотеть есть, давай найдём кафе.*",
+            "**The days are getting longer.** — *Дни становятся длиннее.*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский здесь обычно берёт глагол несовершенного вида: «становится поздно», «темнеет», «дни становятся длиннее». И это очень удобная подсказка. Сравните: **It's getting dark** — темнеет, прямо сейчас, за окном; **It got dark** — стемнело, факт, всё уже случилось."
+        },
+        {
+          "type": "heading",
+          "text": "Почему be в длительной форме нельзя, а get можно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот здесь `get` выручает по-настоящему. Мы разбирали в теме Present Continuous, что глаголы-состояния в длительную форму не ставятся, и `be` — главный из них: `I'm being tired` ✗ — так не говорят, потому что `be` описывает состояние, а не действие."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Из этого правила русскоязычные делают неверный вывод, будто «устаю прямо сейчас» по-английски сказать вообще нельзя. Ещё как можно — только другим глаголом: **I'm getting tired** ✓. `get` — это не состояние, а переход, то есть самое настоящее действие, и в длительную форму он идёт свободно. Правило про глаголы-состояния его не касается."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Заодно помните, что в длительную форму пускают не любой глагол — `know`, `want`, `like`, `understand` остаются в простой даже про сейчас. Полный разбор — в микротеме «State verbs» темы Present Continuous."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда being всё-таки встречается"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сказать, что `being` не бывает вообще, было бы неправдой — в фильмах и в чатах вы его точно слышали. Законных случая два, и оба к усталости отношения не имеют."
+        },
+        {
+          "type": "paragraph",
+          "text": "Первый — когда речь о ПОВЕДЕНИИ, а не о самочувствии. **You are silly** значит «ты глупый вообще, такой человек», а **You're being silly** — «ты сейчас ведёшь себя глупо», хотя обычно ты нормальный. Так же работают **He's being nice today** (сегодня он что-то подозрительно добрый), **Stop being rude** и **She's being difficult about it**. Ключ вот в чём: вести себя можно грубо, глупо, мило или вредно — это поступки. А усталым, голодным или замёрзшим человек себя не ВЕДЁТ, это ощущение, а не поведение, — поэтому `I'm being tired` ✗ так и остаётся невозможным, и на его месте стоит `I'm getting tired`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй случай — страдательный залог: **The car is being repaired** значит «машину сейчас чинят». Такую форму мы мельком видели в теме «Passive (базовый)»: там `being` описывает не состояние предмета, а действие, которое над ним совершают прямо сейчас. Полный разбор ждёт в своей теме, здесь достаточно узнавать её в лицо и не путать с нашим случаем."
+        },
+        {
+          "type": "heading",
+          "text": "Становится всё лучше и лучше"
+        },
+        {
+          "type": "paragraph",
+          "text": "С `getting` часто идёт сравнительная степень, и получается «становится всё более и более»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My English is getting better.**",
+            "**The weather is getting worse and worse.**",
+            "**Flats in this city are getting more expensive every year.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Форму сравнительной степени мы разбирали в теме «Сравнения», ничего нового: `getting` просто ставится перед ней."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'm getting tired** и **I'm tired** — не одно и то же. Первое значит «начинаю уставать, ещё держусь», второе — «уже устал, всё». Разница слышна сразу: **I'm getting tired, let's finish soon** — человек предупреждает, что запал кончается; **I'm tired, I'm going home** — он уже решил уходить."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`get` свободно идёт в длительную форму, потому что означает переход, то есть действие: **It's getting late**, **I'm getting hungry**, **The days are getting longer**. По-русски это обычно «становится», «темнеет», «холодает». Пара для сравнения: **It's getting dark** (темнеет прямо сейчас) ↔ **It got dark** (стемнело, факт). Именно `get` спасает там, где `be` в длительную форму не пускают: `I'm being tired` ✗ невозможно, а **I'm getting tired** ✓ — правильно и означает «начинаю уставать», в отличие от **I'm tired** («уже устал»). Форма `being` всё же существует, но в двух других ролях: про временное поведение (**You're being silly** — «ведёшь себя глупо») и в страдательном залоге (**The car is being repaired**). С `getting` часто стоит сравнительная степень: **better and better**, **worse and worse**, **more expensive every year**.",
+      "examples": [
+        {
+          "ru": "Становится поздно, пора домой.",
+          "en": "It's getting late, it's time to go home."
+        },
+        {
+          "ru": "Я начинаю уставать, давай сделаем перерыв.",
+          "en": "I'm getting tired, let's take a break."
+        },
+        {
+          "ru": "Дни становятся длиннее.",
+          "en": "The days are getting longer."
+        },
+        {
+          "ru": "Мой английский становится лучше.",
+          "en": "My English is getting better."
+        },
+        {
+          "ru": "На улице холодает, надень куртку.",
+          "en": "It's getting cold outside, put on a jacket."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему I'm being tired нельзя, а I'm getting tired можно?",
+        "Чем I'm getting tired отличается от I'm tired?",
+        "Когда сказать It gets dark, а когда It's getting dark?"
+      ]
+    },
+    {
+      "id": 524,
+      "microtopicId": 198,
+      "title": "«Стать» — это не только get: become, go, turn, grow",
+      "order": 6,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русское «стать» одно на все случаи жизни: стал врачом, стал старым, молоко стало кислым, лицо стало красным. Английский на этом месте держит пять разных глаголов, и выбирают из них не наугад."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Глагол",
+            "Когда берут",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "get",
+              "бытовое, быстрое, самое частое",
+              "I got tired."
+            ],
+            [
+              "become",
+              "нейтральное, чуть книжнее",
+              "She became famous."
+            ],
+            [
+              "go",
+              "сдвиг к худшему или странному",
+              "The milk went bad."
+            ],
+            [
+              "turn",
+              "цвет и резкая смена",
+              "The leaves turned yellow."
+            ],
+            [
+              "grow",
+              "медленно и незаметно",
+              "He grew old in this town."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Только become дружит с существительным"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот главное практическое различие, и оно стоит того, чтобы его запомнить отдельно. Когда после «стать» идёт профессия или роль — то есть существительное, — годится только `become`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`I want to get a teacher` ✗ означает совсем не то, что вы хотели сказать: получилось «хочу раздобыть учителя». Стать учителем — **I want to become a teacher** ✓. С прилагательным же оба глагола работают: **She got famous** и **She became famous** оба верны, просто первое звучит по-бытовому, а второе чуть официальнее."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "go — когда становится хуже или страннее"
+        },
+        {
+          "type": "paragraph",
+          "text": "`go` берут для перемен в дурную или неожиданную сторону, и список тут почти закрытый — эти сочетания просто запоминаются:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The milk went bad.** — молоко испортилось.",
+            "**My grandfather went grey at forty.** — дед поседел в сорок.",
+            "**The crowd went mad when the band came out.** — толпа сошла с ума.",
+            "**Everything went wrong that morning.** — всё пошло наперекосяк."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "turn — цвет, погода и возраст"
+        },
+        {
+          "type": "paragraph",
+          "text": "`turn` сообщает о резком повороте, чаще всего видимом глазом: **The sky turned grey** (небо посерело), **His face turned red** (лицо покраснело), **The weather turned cold overnight** (погода резко похолодала). Тем же словом говорят о возрасте: **Megan turns thirty next month** — «Меган исполняется тридцать»."
+        },
+        {
+          "type": "heading",
+          "text": "grow — медленно и незаметно"
+        },
+        {
+          "type": "paragraph",
+          "text": "`grow` — это перемена, которую нельзя застать в один момент: **We grow old**, **The city has grown bigger**. Русское «постепенно становиться» ложится сюда лучше всего."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если вы сомневаетесь между `get` и `become` с прилагательным — берите `get`. В разговоре он звучит естественнее и встречается в разы чаще; `become` пригодится в письме и в рассказе о серьёзных переменах в жизни. Ошибкой не будет ни то, ни другое, а вот `go`, `turn` и `grow` со случайным прилагательным лучше не пробовать: их сочетания устойчивы и учатся целиком."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У русского хвостика «-ся» есть ещё две работы, которых в этой теме нет вовсе. «Порезался» и «обнялись» — это про себя и друг друга, они ждут в теме «Возвратные и взаимные местоимения». А «подстригся» и «сфотографировался» — это когда действие сделали ТЕБЕ, и такая конструкция разбирается во второй части темы про `get`. Хвостик один, а английских способов под ним несколько — разберём мы их все."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Русское «стать» одно, а английских глагола пять: `get` — бытовое и самое частое (**I got tired**), `become` — нейтральное и чуть книжнее (**She became famous**), `go` — сдвиг к худшему или странному (**The milk went bad**, **went grey**, **went mad**, **went wrong**), `turn` — цвет и резкая смена (**The sky turned grey**, **The weather turned cold**, а также про возраст — **Megan turns thirty**), `grow` — медленно и незаметно (**We grow old**). Главное различие: с существительным работает только `become` — **I want to become a teacher** ✓, а `I want to get a teacher` ✗ означает «хочу раздобыть учителя». С прилагательным `get` и `become` взаимозаменяемы, и в разговоре чаще берут `get`.",
+      "examples": [
+        {
+          "ru": "Паша хочет стать врачом.",
+          "en": "Pasha wants to become a doctor."
+        },
+        {
+          "ru": "Молоко испортилось за ночь.",
+          "en": "The milk went bad overnight."
+        },
+        {
+          "ru": "Дед поседел очень рано.",
+          "en": "My grandfather went grey very early."
+        },
+        {
+          "ru": "Небо посерело перед дождём.",
+          "en": "The sky turned grey before the rain."
+        },
+        {
+          "ru": "Жанне в следующем месяце исполняется сорок.",
+          "en": "Zhanna turns forty next month."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать get a teacher в значении «стать учителем»?",
+        "Как запомнить, когда брать go, а когда turn?",
+        "Если get и become оба подходят, какой выбрать в разговоре?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -751,6 +1513,120 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 187,
       "orderInCard": 3
+    },
+    {
+      "cardId": 519,
+      "exerciseType": "MATCHING",
+      "exerciseId": 81,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 519,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 223,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 519,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 200,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 519,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 97,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 520,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 203,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 520,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 61,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 520,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 188,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 521,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 41,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 521,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 224,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 521,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 99,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 522,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 178,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 522,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 62,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 522,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 85,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 523,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 204,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 523,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 201,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 523,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 98,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 524,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 112,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 524,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 225,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 524,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 189,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -769,6 +1645,54 @@
       "userInstruction": "Напишите по-английски просьбу принести или достать вам что-нибудь.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "get_card519_ex1",
+      "cardId": 519,
+      "title": "Скажи про переход",
+      "userInstruction": "Переведите русское предложение на английский, используя get.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "get_card520_ex1",
+      "cardId": 520,
+      "title": "Сейчас такой или стал таким",
+      "userInstruction": "Вставьте пропущенное слово в каждое предложение.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "get_card521_ex1",
+      "cardId": 521,
+      "title": "Поставь предлог",
+      "userInstruction": "Вставьте пропущенный предлог в каждое предложение.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "get_card522_ex1",
+      "cardId": 522,
+      "title": "Сделай таким",
+      "userInstruction": "Переведите русское предложение на английский, используя get.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "get_card523_ex1",
+      "cardId": 523,
+      "title": "Прямо на глазах",
+      "userInstruction": "Вставьте глагол get в нужной форме в каждое предложение.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "get_card524_ex1",
+      "cardId": 524,
+      "title": "Каким словом стать",
+      "userInstruction": "Переведите русское предложение на английский, выбрав подходящий глагол.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -843,9 +1767,85 @@
       "transcription": "[ɪmˈpreʃn]",
       "microtopicId": 197,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 748,
+      "word": "right",
+      "translation": "правильный, верный",
+      "transcription": "[raɪt]",
+      "microtopicId": 198,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 749,
+      "word": "rich",
+      "translation": "богатый",
+      "transcription": "[rɪtʃ]",
+      "microtopicId": 198,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 750,
+      "word": "open",
+      "translation": "открытый",
+      "transcription": "[ˈəʊpən]",
+      "microtopicId": 198,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 751,
+      "word": "mad",
+      "translation": "сумасшедший, безумный",
+      "transcription": "[mæd]",
+      "microtopicId": 198,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 752,
+      "word": "grey",
+      "translation": "седой, серый",
+      "transcription": "[greɪ]",
+      "microtopicId": 198,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 753,
+      "word": "to turn",
+      "translation": "становиться (о цвете, погоде)",
+      "transcription": "[tɜːn]",
+      "microtopicId": 198,
+      "categoryId": "useful_words"
     }
   ],
-  "table_fill_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 41,
+      "taskDescription": "впиши предлог, который нужен после каждого сочетания.",
+      "rows": [
+        {
+          "hint": "Mia got married ___ a pilot",
+          "answer": "to"
+        },
+        {
+          "hint": "Dad got angry ___ me",
+          "answer": "with"
+        },
+        {
+          "hint": "Sam got angry ___ the traffic",
+          "answer": "at"
+        },
+        {
+          "hint": "We got bored ___ the game",
+          "answer": "with"
+        },
+        {
+          "hint": "I'm getting tired ___ this rain",
+          "answer": "of"
+        }
+      ],
+      "explanation": "русские предлоги сюда не переносятся: «жениться с» даёт to, а «злиться на» — with с человеком и at с вещью или ситуацией."
+    }
+  ],
   "true_false_exercises": [
     {
       "id": 198,
@@ -908,6 +1908,68 @@
         }
       ],
       "explanation": "в первом предложении подлежащее Sara — значит нужна форма gets: Sara gets a message from her boss every morning. В четвёртом после didn't глагол возвращается в первую форму: We didn't get the discount."
+    },
+    {
+      "id": 200,
+      "statements": [
+        {
+          "en": "Did you got wet in the rain?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Emma got angry when she saw the mess.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Get ready, the taxi is here.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Getting dark very early in winter.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I didn't get tired at all yesterday.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в первом предложении после did глагол возвращается в первую форму: Did you get wet in the rain? В четвёртом потерялось подлежащее — фраза о том, что темнеет, начинается с it: It gets dark very early in winter."
+    },
+    {
+      "id": 201,
+      "statements": [
+        {
+          "en": "I'm being hungry, let's order a pizza.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The weather is getting worse and worse.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It's geting late, we should call a taxi.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My Spanish is getting better every month.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The queue is getting longer.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в первом предложении голод — это ощущение, а не поведение, поэтому связка be в длительную форму не идёт и переход показывает get: I'm getting hungry. В третьем в слове getting удваивается согласная: It's getting late."
     }
   ],
   "word_arrangement_exercises": [
@@ -929,6 +1991,23 @@
         "the banks"
       ],
       "explanation": "письмо уже пришло, поэтому нужна прошедшая форма got, а не gets. Received грамматически возможен, но в разговоре о письме из банка живая речь берёт got."
+    },
+    {
+      "id": 178,
+      "situationRu": "Ситуация: попросите собеседника не испачкать новые джинсы.",
+      "correctSentence": "Don't get your new jeans dirty.",
+      "words": [
+        "Don't",
+        "get",
+        "your new jeans",
+        "dirty"
+      ],
+      "distractors": [
+        "dirty your",
+        "getting",
+        "to get"
+      ],
+      "explanation": "сначала идёт get, потом то, что не должно испачкаться, и только потом признак. После don't глагол стоит в первой форме."
     }
   ],
   "multiple_choice_exercises": [
@@ -1015,6 +2094,111 @@
         }
       ],
       "explanation": "человек ушёл в конец предложения, поэтому перед ним нужен предлог for. Без предлога он мог бы стоять сразу после get: I got my sister a birthday present. Предлог to при get не ставится — это привычка от give, а of сделал бы сестру владелицей подарка."
+    },
+    {
+      "id": 223,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вчера ночью сильно похолодало.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Got very cold last night.",
+          "isCorrect": false
+        },
+        {
+          "text": "Was very cold last night.",
+          "isCorrect": false
+        },
+        {
+          "text": "It got very cold last night.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "по-русски фраза обходится без подлежащего, а английскому предложению нужен хозяин — на это место встаёт it. Вариант с was сообщал бы, что ночь была холодной, а не что похолодало."
+    },
+    {
+      "id": 203,
+      "choiceType": "CHOICE",
+      "prompt": "Sorry, I can't help you with directions — I ___ myself.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "am lost",
+          "isCorrect": true
+        },
+        {
+          "text": "got lost",
+          "isCorrect": false
+        },
+        {
+          "text": "get lost",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "человек говорит о том, каков он прямо сейчас: он стоит и не знает дороги. Это положение дел, поэтому нужна связка am. Форма got lost сообщила бы о моменте, когда он заблудился."
+    },
+    {
+      "id": 224,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мия вышла замуж за коллегу из Дублина.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Mia got married to a colleague from Dublin.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mia got married with a colleague from Dublin.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mia got married on a colleague from Dublin.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после get married ставится to. Вариант с with — дословный перевод русского «замуж за» через «с», а on здесь не работает вовсе."
+    },
+    {
+      "id": 204,
+      "choiceType": "CHOICE",
+      "prompt": "Let's stop for today — it ___ dark already.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "is being",
+          "isCorrect": false
+        },
+        {
+          "text": "is getting",
+          "isCorrect": true
+        },
+        {
+          "text": "gets",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "речь о том, что темнеет прямо сейчас, поэтому нужна длительная форма с getting. Связка be про такое состояние в длительную форму не идёт, а gets сообщало бы, что темнеет вообще всегда."
+    },
+    {
+      "id": 225,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мой брат хочет стать инженером.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "My brother wants to become an engineer.",
+          "isCorrect": true
+        },
+        {
+          "text": "My brother wants to get an engineer.",
+          "isCorrect": false
+        },
+        {
+          "text": "My brother wants to turn an engineer.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после «стать» идёт профессия, то есть существительное, а с существительным работает только become. Вариант с get означал бы «раздобыть инженера»."
     }
   ],
   "text_input_exercises": [
@@ -1042,6 +2226,61 @@
       ],
       "explanation": "two months ago — прошлое, нужна вторая форма got. После it's идёт длительная форма с двойной t — getting. После did глагол возвращается в первую форму — get.",
       "taskDescription": "Впиши get в нужной форме."
+    },
+    {
+      "id": 97,
+      "items": [
+        {
+          "sentence": "Take an umbrella or you'll get ___.",
+          "contextRu": "",
+          "answer": "wet",
+          "alternatives": []
+        },
+        {
+          "sentence": "My grandfather is getting ___, but he still drives.",
+          "contextRu": "",
+          "answer": "old",
+          "alternatives": []
+        },
+        {
+          "sentence": "Stay in bed and you'll get ___ soon.",
+          "contextRu": "",
+          "answer": "better",
+          "alternatives": []
+        }
+      ],
+      "explanation": "get плюс признак и есть русский глагол: get wet — промокнуть, get old — стареть, get better — поправиться.",
+      "taskDescription": "Впиши подходящее по смыслу прилагательное после get.",
+      "wordBank": [
+        "старый",
+        "лучше",
+        "мокрый"
+      ]
+    },
+    {
+      "id": 98,
+      "items": [
+        {
+          "sentence": "Look at the sky — it ___ dark very fast.",
+          "contextRu": "",
+          "answer": "is getting",
+          "alternatives": []
+        },
+        {
+          "sentence": "Yesterday it ___ dark at four o'clock.",
+          "contextRu": "",
+          "answer": "got",
+          "alternatives": []
+        },
+        {
+          "sentence": "In winter it ___ dark early here.",
+          "contextRu": "",
+          "answer": "gets",
+          "alternatives": []
+        }
+      ],
+      "explanation": "прямо сейчас на глазах — длительная форма is getting; вчера в четыре — прошедшее got; каждую зиму вообще — простое настоящее gets.",
+      "taskDescription": "Впиши глагол get в нужной форме."
     }
   ],
   "dialog_restore_exercises": [
@@ -1105,6 +2344,33 @@
         }
       ],
       "explanation": "смысл get каждый раз задаёт то, что стоит справа: существительное — «получил», прилагательное — «стал», место — «добрался». А если сразу за get идёт человек, фраза превращается в «принеси мне» / «взял для тебя»."
+    },
+    {
+      "id": 81,
+      "taskDescription": "соедини английскую пару с русским глаголом, который она заменяет.",
+      "pairs": [
+        {
+          "left": "get nervous",
+          "right": "разволноваться"
+        },
+        {
+          "left": "get upset",
+          "right": "расстроиться"
+        },
+        {
+          "left": "get dirty",
+          "right": "испачкаться"
+        },
+        {
+          "left": "get warm",
+          "right": "согреться"
+        },
+        {
+          "left": "get quiet",
+          "right": "притихнуть"
+        }
+      ],
+      "explanation": "английский не умеет приклеить «стал» к прилагательному, поэтому там, где у русского один глагол с хвостиком, у него стоят два слова: get плюс признак."
     }
   ],
   "error_correction_exercises": [
@@ -1145,6 +2411,44 @@
         }
       ],
       "explanation": "у человека два возможных места: сразу после get без предлога или в самом конце с for. Между get и вещью предлог не ставится."
+    },
+    {
+      "id": 188,
+      "wrongSentence": "I got hungry right now, let's have lunch.",
+      "options": [
+        {
+          "text": "I get hungry right now, let's have lunch.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was hungry right now, let's have lunch.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm hungry right now, let's have lunch.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "right now говорит о том, каков человек сейчас, а это положение дел — нужна связка am. Форма got hungry отметила бы момент, когда голод появился, и с указателем «прямо сейчас» не сочетается."
+    },
+    {
+      "id": 189,
+      "wrongSentence": "The bread got bad after two days.",
+      "options": [
+        {
+          "text": "The bread turned bad after two days.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bread became bad after two days.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bread went bad after two days.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "про испортившуюся еду говорят go bad — это устойчивое сочетание. Get и become с этим прилагательным в таком смысле не используют."
     }
   ],
   "construction_meaning_exercises": [
@@ -1170,6 +2474,52 @@
         }
       ],
       "explanation": "после get стоит человек (me), а за ним вещь (a coffee) — значит речь о том, чтобы принести кому-то что-то, а не о том, чтобы куда-то дойти."
+    },
+    {
+      "id": 61,
+      "construction": "The weather got worse in the evening.",
+      "options": [
+        {
+          "text": "Погода вечером была плохая.",
+          "isCorrect": false
+        },
+        {
+          "text": "Погода к вечеру испортилась.",
+          "isCorrect": true
+        },
+        {
+          "text": "Погода вечером станет хуже.",
+          "isCorrect": false
+        },
+        {
+          "text": "Погода вечером всегда плохая.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "got отмечает момент перехода, а worse — признак: вместе получается «стала хуже, испортилась». Про то, какой погода была всё время, сказали бы was bad."
+    },
+    {
+      "id": 62,
+      "construction": "I got the kitchen clean before lunch.",
+      "options": [
+        {
+          "text": "Кухня стала чистой сама собой до обеда.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я убирался на кухне до обеда.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я убрал кухню до обеда.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мне убрали кухню до обеда.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "между get и признаком стоит объект — the kitchen, значит человек сделал её такой, и работа доведена до результата. Про то, что кухню убрал кто-то другой, сказали бы иначе — это конструкция из второй части темы."
     }
   ],
   "transformation_exercises": [
@@ -1191,6 +2541,25 @@
         }
       ],
       "explanation": "когда человек переезжает из конца предложения на место сразу после get, предлог for исчезает — он нужен только в конце."
+    },
+    {
+      "id": 85,
+      "taskDescription": "перепиши предложение так, чтобы стало ясно: человек не сам стал таким, а сделал таким названную вещь.",
+      "items": [
+        {
+          "original": "The window got clean.",
+          "transformed": "I got the window clean."
+        },
+        {
+          "original": "The room got warm.",
+          "transformed": "I got the room warm."
+        },
+        {
+          "original": "The car got dirty.",
+          "transformed": "I got the car dirty."
+        }
+      ],
+      "explanation": "стоит поставить между get и признаком объект — и подлежащее превращается из того, кто изменился, в того, кто это сделал."
     }
   ],
   "categorization_exercises": [
@@ -1244,7 +2613,62 @@
         }
       ],
       "explanation": "глагол get во всех шести случаях один и тот же — он только сообщает, что вещь оказалась у человека. Разница не в грамматике, а в жизни: ноутбук, скидку и работу человек добывал сам, а сердитое письмо, штраф и головную боль ему никто не обещал."
+    },
+    {
+      "id": 112,
+      "taskDescription": "распредели сочетания по глаголу, с которым они живут.",
+      "categories": [
+        {
+          "title": "go",
+          "items": [
+            "bad",
+            "mad",
+            "wrong"
+          ]
+        },
+        {
+          "title": "turn",
+          "items": [
+            "red",
+            "yellow",
+            "white"
+          ]
+        },
+        {
+          "title": "become",
+          "items": [
+            "a doctor",
+            "a writer",
+            "a manager"
+          ]
+        }
+      ],
+      "explanation": "go берут для перемен к худшему или странному, turn — для цвета, а become — единственный из трёх, за которым может идти существительное-профессия."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 99,
+      "groupDescription": "Три сочетания записаны с верным предлогом, а одно — с неверным",
+      "items": [
+        {
+          "text": "get married to",
+          "isOdd": false
+        },
+        {
+          "text": "get tired of",
+          "isOdd": false
+        },
+        {
+          "text": "get angry on",
+          "isOdd": true
+        },
+        {
+          "text": "get bored with",
+          "isOdd": false
+        }
+      ],
+      "explanation": "злость берёт with, когда речь о человеке, и at, когда о вещи или ситуации. Предлог on пришёл из русского «злиться на» и по-английски здесь не работает."
+    }
+  ]
 }
