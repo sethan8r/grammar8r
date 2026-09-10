@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 525 |
-| Categorization | 113 |
+| Card | 530 |
+| Categorization | 115 |
 | Category | 8 |
-| ConstructionMeaning | 63 |
-| DialogRestore | 75 |
-| ErrorCorrection | 190 |
-| FindTheOdd | 100 |
-| Matching | 82 |
-| Microtopic | 199 |
-| MultipleChoice·CHOICE | 205 |
-| MultipleChoice·FORWARD_CHOICE | 226 |
-| MultipleChoice·REVERSE_CHOICE | 82 |
+| ConstructionMeaning | 65 |
+| DialogRestore | 76 |
+| ErrorCorrection | 192 |
+| FindTheOdd | 101 |
+| Matching | 83 |
+| Microtopic | 200 |
+| MultipleChoice·CHOICE | 207 |
+| MultipleChoice·FORWARD_CHOICE | 227 |
+| MultipleChoice·REVERSE_CHOICE | 83 |
 | TableFill | 42 |
-| TextInput | 99 |
+| TextInput | 101 |
 | Topic | 32 |
-| Transformation | 86 |
-| TrueFalse | 202 |
-| WordArrangement | 179 |
-| course_word | 754 |
+| Transformation | 87 |
+| TrueFalse | 203 |
+| WordArrangement | 180 |
+| course_word | 760 |
 
 ## Диапазоны по темам
 
@@ -464,24 +464,24 @@
 - course_word: 735–740 (6)
 
 ### get-part-1
-- Card: 515–524 (10)
-- Categorization: 110–112 (3)
-- ConstructionMeaning: 60–62 (3)
-- DialogRestore: 74–74 (1)
-- ErrorCorrection: 186–189 (4)
-- FindTheOdd: 99–99 (1)
-- Matching: 80–81 (2)
-- Microtopic: 196–198 (3)
-- MultipleChoice·CHOICE: 201–204 (4)
-- MultipleChoice·FORWARD_CHOICE: 222–225 (4)
-- MultipleChoice·REVERSE_CHOICE: 81–81 (1)
+- Card: 515–529 (15)
+- Categorization: 110–114 (5)
+- ConstructionMeaning: 60–64 (5)
+- DialogRestore: 74–75 (2)
+- ErrorCorrection: 186–191 (6)
+- FindTheOdd: 99–100 (2)
+- Matching: 80–82 (3)
+- Microtopic: 196–199 (4)
+- MultipleChoice·CHOICE: 201–206 (6)
+- MultipleChoice·FORWARD_CHOICE: 222–226 (5)
+- MultipleChoice·REVERSE_CHOICE: 81–82 (2)
 - TableFill: 41–41 (1)
-- TextInput: 96–98 (3)
+- TextInput: 96–100 (5)
 - Topic: 31–31 (1)
-- Transformation: 84–85 (2)
-- TrueFalse: 198–201 (4)
-- WordArrangement: 177–178 (2)
-- course_word: 741–753 (13)
+- Transformation: 84–86 (3)
+- TrueFalse: 198–202 (5)
+- WordArrangement: 177–179 (3)
+- course_word: 741–759 (19)
 
 ### indirect-questions
 - Card: 341–358 (18)

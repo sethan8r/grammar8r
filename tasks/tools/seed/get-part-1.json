@@ -32,6 +32,13 @@
       "title": "Get = становиться · Момент перехода",
       "order": 3,
       "searchKeywords": "как сказать стал, get или become, am tired или got tired, get married with, темнеет по-английски, its getting late"
+    },
+    {
+      "id": 199,
+      "topicId": 31,
+      "title": "Get = добираться · Оказаться на месте",
+      "order": 4,
+      "searchKeywords": "went to или got to, get home без to, сколько ехать, сесть в автобус, выйти из машины"
     }
   ],
   "grammar_cards": [
@@ -1415,6 +1422,767 @@
         "Как запомнить, когда брать go, а когда turn?",
         "Если get и become оба подходят, какой выбрать в разговоре?"
       ]
+    },
+    {
+      "id": 525,
+      "microtopicId": 199,
+      "title": "get to + место: дошёл, доехал, добрался",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Посмотрите, сколько у русского языка глаголов на один-единственный факт «оказался на месте»: дошёл, доехал, долетел, доплыл, добежал, добрался. Все шесть устроены одинаково. Корень сообщает, КАК человек двигался: идти, ехать, лететь, плыть, бежать. А приставка `до-` сообщает, ЧЕМ всё кончилось: движение упёрлось в конечную точку, и человек на месте."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английскому корень в этой ситуации почти никогда не интересен. Из русского глагола он берёт только приставку `до-` — и называется она у него `get to`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Get to + место"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Как добирались",
+            "По-русски",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "пешком",
+              "Вера дошла до офиса",
+              "Vera got to the office."
+            ],
+            [
+              "на автобусе",
+              "Рома доехал до вокзала",
+              "Roma got to the station."
+            ],
+            [
+              "на самолёте",
+              "мы долетели до Лиссабона",
+              "We got to Lisbon."
+            ],
+            [
+              "бегом",
+              "Сэм добежал до остановки",
+              "Sam got to the stop."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слева четыре разных русских глагола, справа — один и тот же `got to`. Английский не потерял информацию, он просто считает её необязательной: главное, что человек на месте. А если способ всё-таки важен, его добавляют отдельным хвостиком в конце: **I got there by bus**, **We got to the park on foot**."
+        },
+        {
+          "type": "heading",
+          "text": "Когда предлог to не нужен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы уже встречали это в «Основах» и в теме «Косвенные вопросы»: **get home** идёт без предлога, как и **go home**. Но дело не в одном слове, и полезно понять почему. `to` — это стрелка «куда». А слова **home, here, there, upstairs** сами уже отвечают на вопрос «куда»: «домой», «сюда», «туда», «наверх». Стрелка в них встроена, и вторая перед ними лишняя."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How did you get here so fast?**",
+            "**We got there just before the rain.**",
+            "**I got upstairs and fell asleep in my clothes.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «добраться ДО дома» подсовывает предлог, и рука пишет **I got to home late** ✗. Правильно **I got home late** ✓ — в слове «домой» направление уже есть. То же самое с **get to there** ✗ → **get there** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Слова **work**, **school** и **bed** после `get to` идут без артикля: **get to work**, **get to school**, **get to bed**. Здесь они значат не здание, а занятие — работу, учёбу, сон. Как только речь о конкретном здании, артикль возвращается: **get to the office**, **get to the school on Park Street**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос, отрицание и будущее"
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакой новой механики нет: вопрос и отрицание строятся через `do/does/did`, как мы разбирали в микротеме «Get · Глагол-хамелеон»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How do you get to work?** — «Как ты добираешься до работы?» — каждый день, вообще.",
+            "**What time did your sister get to Rome?**",
+            "**Nick didn't get to the top — the wind was too strong.**",
+            "**Didn't they get home before midnight?** — отрицательный вопрос: спрашивающий удивлён, он ждал, что добрались.",
+            "**I'll get there by seven, don't wait for me.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Напиши, когда доберёшься» — это та самая конструкция из микротемы «После союза — настоящее»: после `when` будущее не ставится. **Text me when you will get home** ✗ → **Text me when you get home** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Место бывает и не местом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский сам подсказывает следующий шаг. Мы ведь говорим не только «дошёл до дома», но и «дошёл до сути», «добрался до конца книги», «дело дошло до ссоры». Приставка `до-` спокойно работает с местами, которых нельзя потрогать, и `get to` ведёт себя точно так же:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's get to the point.** — дословно «давай доберёмся до сути», по-живому «давай к делу».",
+            "**I never got to the end of that book.** — «так и не дочитал ту книгу до конца».",
+            "**Our team got to the final!** — «наша команда вышла в финал»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Из-за этого одна и та же строка бывает двузначной. **I get to work at nine** — «добираюсь до работы к девяти»: работа здесь место. **Let's get to work!** — «давайте за работу, приступим»: работа здесь занятие, до которого пора добраться. Различает их только ситуация — в рассказе про дорогу это прибытие, в призыве это начало дела."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`get to` + место заменяет сразу русские «дошёл», «доехал», «долетел», «добрался»: английскому важен результат, а не способ (**Vera got to the office**, **We got to Lisbon**); способ, если нужен, добавляют отдельно — **by bus**, **on foot**. Слова со встроенным направлением идут без `to`: **get home**, **get here**, **get there**, **get upstairs**, а **I got to home** ✗ невозможно. **work**, **school** и **bed** после `get to` стоят без артикля. Вопрос и отрицание — через `do/does/did`: **How do you get to work?**, **Nick didn't get to the top**; после `when` про будущее — настоящее время: **Text me when you get home**. Место бывает и отвлечённым: **Let's get to the point** — «давай к делу»; **Let's get to work** — «приступим», в отличие от **I get to work at nine** — «добираюсь до работы».",
+      "examples": [
+        {
+          "ru": "Лена дошла до офиса за десять минут.",
+          "en": "Lena got to the office in ten minutes."
+        },
+        {
+          "ru": "Во сколько вы вчера добрались домой?",
+          "en": "What time did you get home yesterday?"
+        },
+        {
+          "ru": "Ты доберёшься до центра за полчаса.",
+          "en": "You'll get to the centre in half an hour."
+        },
+        {
+          "ru": "Позвони мне, когда доберёшься до гостиницы.",
+          "en": "Call me when you get to the hotel."
+        },
+        {
+          "ru": "Давай перейдём к делу.",
+          "en": "Let's get to the point."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «доехал» и «дошёл» по-английски одно и то же слово?",
+        "Почему get home без to, а get to the office с to?",
+        "Как понять, когда get to work значит «доехал до работы», а когда «приступил»?"
+      ]
+    },
+    {
+      "id": 526,
+      "microtopicId": 199,
+      "title": "go, get to, arrive, reach: поехал или доехал",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой карточке мы увидели, что `get to` — это русская приставка `до-`. Теперь поставим его рядом с тремя соседями, которые тоже про дорогу, и разберёмся, что сообщает каждый."
+        },
+        {
+          "type": "heading",
+          "text": "Поехал ↔ доехал"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскому эта пара знакома с детства: «поехал в аэропорт» и «доехал до аэропорта» — два разных события. Первое — начало пути: человек тронулся и взял направление. Второе — конец пути: человек на месте. Между ними может пройти час, а может случиться пробка, и до аэропорта он не доедет вовсе."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский делит эти события так же. `go` — «пошёл, поехал»: движение в сторону цели. `get to` — «дошёл, доехал»: прибытие. Разницу отлично слышно в вопросе:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What time did you go to the airport?** — во сколько ты поехал в аэропорт, то есть выехал из дома.",
+            "**What time did you get to the airport?** — во сколько ты доехал, то есть был уже там."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому английский спокойно говорит **We went to Krakow, but we didn't get there** — «поехали в Краков, но не доехали». Противоречия тут нет: поехать и доехать — разные вещи."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "На вопрос «Во сколько ты добрался до гостиницы?» русскоязычный часто отвечает через `go`, потому что это первое английское слово про дорогу в голове: **I went to the hotel at ten** ✗ → **I got to the hotel at ten** ✓. Первая фраза сообщает, что в десять вы только двинулись в сторону гостиницы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "arrive и reach: тот же результат, свои правила"
+        },
+        {
+          "type": "paragraph",
+          "text": "`arrive` значит то же прибытие, что и `get to`, но звучит нейтральнее и чуть официальнее — это голос объявлений на вокзале, писем из отеля и расписаний. С его предлогами мы разбирались в «Основах», в микротеме «Предлоги направления»: город или страна — `in`, конкретная точка — `at`, а слово home — без предлога. Предлога `to` у `arrive` не бывает никогда."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Our flight arrives in Warsaw at six.**",
+            "**Guests usually arrive at the hotel after two.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`reach` — «добраться, достичь», чаще всего после долгой или трудной дороги. Его особенность в том, что предлога после него нет вообще: место стоит сразу за глаголом."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**After five hours we reached the top.**",
+            "**The letter reached me only a week later.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «добраться ДО вершины» тянет за собой предлог, и получается **We reached to the top** ✗. Правильно **We reached the top** ✓. В самом `reach` уже сидит «дотянуться до», поэтому лишняя стрелка ему не нужна — ровно как **arrive to Vienna** ✗ вместо **arrive in Vienna** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Четыре глагола на одной доске"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Глагол",
+            "Что сообщает",
+            "Что после него",
+            "Стиль"
+          ],
+          "rows": [
+            [
+              "go",
+              "движение, направление",
+              "to + место, home без to",
+              "нейтральный"
+            ],
+            [
+              "get to",
+              "прибытие",
+              "to + место, home без to",
+              "разговорный, самый частый"
+            ],
+            [
+              "arrive",
+              "прибытие",
+              "in + город, at + точка, home без предлога",
+              "нейтральный, официальный"
+            ],
+            [
+              "reach",
+              "прибытие после долгого пути",
+              "место сразу, без предлога",
+              "книжный, для рассказа"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если сомневаетесь, каким из трёх «прибыл» сказать в разговоре, — берите `get to`. `arrive` пригодится в письме и в разговоре о рейсах и поездах, а `reach` — в рассказе, где дорога была длинной."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`go` — «пошёл, поехал»: движение и направление; `get to` — «дошёл, доехал»: прибытие. Поэтому **What time did you go to the airport?** — «во сколько поехал», а **What time did you get to the airport?** — «во сколько доехал», и можно сказать **We went to Krakow, but we didn't get there**. `arrive` — то же прибытие, но нейтральнее и официальнее; он берёт `in` с городом и страной и `at` с точкой, а `to` — никогда: **arrive in Warsaw**, **arrive at the hotel**. `reach` — «добраться» после долгой дороги, место идёт сразу, без предлога: **We reached the top**, а не **reached to the top** ✗. В живом разговоре чаще всего звучит `get to`.",
+      "examples": [
+        {
+          "ru": "Во сколько ты поехал в аэропорт?",
+          "en": "What time did you go to the airport?"
+        },
+        {
+          "ru": "Во сколько ты доехал до аэропорта?",
+          "en": "What time did you get to the airport?"
+        },
+        {
+          "ru": "Мы поехали в Краков, но не доехали.",
+          "en": "We went to Krakow, but we didn't get there."
+        },
+        {
+          "ru": "Поезд прибывает в Вену в шесть.",
+          "en": "The train arrives in Vienna at six."
+        },
+        {
+          "ru": "Через пять часов мы добрались до вершины.",
+          "en": "We reached the top after five hours."
+        }
+      ],
+      "clarificationOptions": [
+        "Если go и get to оба про дорогу, как быстро понять, какой нужен?",
+        "Почему arrive in Rome, но arrive at the station?",
+        "Почему после reach совсем нет предлога?"
+      ]
+    },
+    {
+      "id": 527,
+      "microtopicId": 199,
+      "title": "It takes: сколько времени в пути",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Спросите русского человека, сколько он добирается до работы, и он ответит одним из трёх способов: «Я добираюсь сорок минут», «Дорога занимает сорок минут» или «У меня уходит сорок минут». Первый вариант самый частый — и именно он ломает английский."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Дословный перевод **I get to work forty minutes** ✗ англичанин не поймёт: непонятно, что в этой фразе делают сорок минут. По-английски это **It takes me forty minutes to get to work** ✓ — почему именно так, разберём ниже."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему «добираюсь сорок минут» не переводится через get"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомните прошлые карточки: `get to` — это приставка `до-`, момент, когда человек оказался на месте. Щелчок. А у щелчка не бывает продолжительности, он не может длиться сорок минут. Сорок минут длится дорога, а прибытие наступает в одну секунду, в самом её конце."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский этого противоречия не замечает, потому что наше «добираться» — несовершенного вида и умеет растягиваться на весь путь. Английскому `get to` растягиваться некуда, поэтому о времени в пути английский говорит совсем другой конструкцией."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It takes + кому + сколько времени + to + глагол"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It takes me forty minutes to get to work.** — дословно «это забирает у меня сорок минут — добраться до работы», по-живому «я добираюсь до работы сорок минут»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём по кусочкам. `take` здесь значит «занимать, отнимать» — как в русском «дорога занимает час». `it` — пустое подлежащее, то самое, которое мы ставили во фразе **It got dark**: русскому хозяин фразы не нужен, английскому он обязателен. Дальше — у кого отнимается время (**me**, **us**, **Kate**), сколько, и что человек за это время делает: `to` и глагол в первой форме."
+        },
+        {
+          "type": "paragraph",
+          "text": "Кому — можно и не называть. Тогда время подходит кому угодно: **It takes twenty minutes to get to the centre by bus** — «до центра на автобусе двадцать минут», любому."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "На месте «кому» стоит форма **me**, а не **I**: **It takes I an hour** ✗ → **It takes me an hour** ✓. А после времени — только `to` и первая форма глагола: **It takes me an hour for getting there** ✗ → **It takes me an hour to get there** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос, прошлое, будущее и отрицание"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чаще всего про дорогу вы будете спрашивать и слышать вопросы. Строятся они через `does` и `did`, потому что подлежащее здесь `it`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How long does it take you to get to school?** — «Сколько ты добираешься до школы?»",
+            "**How long did it take you to get here?** — «Сколько ты сюда добирался?»",
+            "**It took us two hours to get halfway.** — «За два часа мы проехали только полпути».",
+            "**It'll take you ten minutes on foot.** — «Пешком у тебя уйдёт минут десять».",
+            "**It doesn't take long.** — «Это недолго».",
+            "**Doesn't it take too long by train?** — «Разве поездом не слишком долго?» — спрашивающий ждал, что долго."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Конструкция работает не только для дороги, а для любого дела, на которое уходит время: **It took me a week to read this book**, **It takes Lily an hour to get ready**. Дорога — просто самый частый повод."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Centre` — британское написание. Американцы пишут `center`, а про центр города чаще говорят `downtown`. Верны оба варианта, просто держитесь одного."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "«Добираюсь сорок минут» через `get` не переводится: `get to` — момент прибытия, а момент не может длиться. Время в пути английский передаёт конструкцией `It takes + кому + сколько + to + глагол`: **It takes me forty minutes to get to work**. `it` — пустое подлежащее, его не опускают; «кому» — форма **me**, **us**, **him** или имя (**It takes Kate an hour**), а может и не называться вовсе (**It takes twenty minutes to get to the centre**); после времени идёт `to` и первая форма, а не **for getting** ✗. Вопрос — через `does/did`: **How long does it take you to get to school?**, **How long did it take you?**; прошлое — **It took us two hours**; будущее — **It'll take you ten minutes**; отрицание — **It doesn't take long**. Та же конструкция годится для любого дела: **It took me a week to read this book**.",
+      "examples": [
+        {
+          "ru": "У меня уходит сорок минут, чтобы добраться до работы.",
+          "en": "It takes me forty minutes to get to work."
+        },
+        {
+          "ru": "Сколько у тебя уходит времени, чтобы доехать до центра?",
+          "en": "How long does it take you to get to the centre?"
+        },
+        {
+          "ru": "Дорога до Праги заняла у нас пять часов.",
+          "en": "It took us five hours to get to Prague."
+        },
+        {
+          "ru": "На автобусе дорога туда не занимает много времени.",
+          "en": "It doesn't take long to get there by bus."
+        },
+        {
+          "ru": "У нас ушло два часа, чтобы проехать полпути.",
+          "en": "It took us two hours to get halfway."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I get to work forty minutes?",
+        "Зачем в этой фразе it, если по-русски его нет?",
+        "Можно ли так сказать не про дорогу, а про любое дело?"
+      ]
+    },
+    {
+      "id": 528,
+      "microtopicId": 199,
+      "title": "get + кого-то + куда: довезти и доставить",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Приставка `до-` у русского умеет работать и с чужим движением. Мы не только доехали сами — мы довезли друга, донесли сумку, дотащили диван, довели ребёнка до школы, доставили посылку. И снова корень рассказывает про способ (везти, нести, тащить, вести), а приставка — про результат: кто-то или что-то оказалось на месте благодаря нам."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский, как и прежде, выбрасывает способ и оставляет результат. Он просто вставляет между `get` и местом того, кого доставляют."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Get + кого-что + куда"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can you get me to the station by seven?** — дословно «можешь сделать так, чтобы я оказался на вокзале к семи?», по-живому «успеешь довезти меня до вокзала к семи?»",
+            "**This bus gets you to the centre in fifteen minutes.**",
+            "**I'll get the kids to school, and you go to work.**",
+            "**Don't worry, I'll get you home.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Та же ступенька, что с get everything ready"
+        },
+        {
+          "type": "paragraph",
+          "text": "В микротеме «Get = становиться · Момент перехода» у нас была пара **I got wet** — промок сам, и **I got the floor wet** — намочил пол. Здесь работает ровно тот же механизм, только справа вместо признака стоит место:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Добрался сам",
+            "Доставил кого-то"
+          ],
+          "rows": [
+            [
+              "I got home.",
+              "I got Kate home."
+            ],
+            [
+              "Tom got to the airport.",
+              "Tom got his mum to the airport."
+            ],
+            [
+              "We got upstairs.",
+              "We got the boxes upstairs."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило одно на всю тему: поставь между `get` и правой частью кого-то ещё — и «сам стал, сам добрался» превратится в «сделал таким, доставил туда»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не потеряйте `to`. **Can you get me the airport?** ✗ — это уже конструкция «принеси мне», и получается «можешь раздобыть мне аэропорт?». Правильно **Can you get me to the airport?** ✓. Маленький предлог решает, что стоит справа — вещь или место. А вот home, here и there и здесь идут без него: **I'll get you there in time**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Предлог рисует направление"
+        },
+        {
+          "type": "paragraph",
+          "text": "Место не обязательно вводится через `to`. Если вещь надо затащить наверх, засунуть внутрь или вытащить наружу, английский ставит тот предлог, который рисует это направление:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We couldn't get the sofa up the stairs.** — «не смогли затащить диван по лестнице».",
+            "**Get the bags into the car, we're late.**",
+            "**Can you help me get this table out of the kitchen?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "take или get: отвезти или довезти"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский различает «отвези меня на вокзал» и «довези меня до вокзала», и английский тоже. `take` — «отвезти, проводить»: сам маршрут. `get` — «довезти, доставить»: результат. Поэтому таксисту обычно говорят **Take me to the station, please** — просто назвали, куда ехать. А **Can you get me to the station by seven?** — это уже вопрос о результате: успеет ли, пробьётся ли через пробки. В экстренной ситуации кричат именно **Get me to the hospital!** — важно одно: оказаться там."
+        }
+      ],
+      "theorySummary": "Если между `get` и местом поставить кого-то, получится «довезти, донести, доставить»: **Can you get me to the station by seven?**, **I'll get the kids to school**, **I'll get you home**. Это та же ступенька, что **I got wet** ↔ **I got the floor wet**: **I got home** — добрался сам, **I got Kate home** — довёз Катю. Предлог `to` перед местом терять нельзя: **get me the airport** ✗ значит «раздобудь мне аэропорт»; а home, here и there идут без него. Направление может задавать и другой предлог: **get the sofa up the stairs**, **get the bags into the car**. `take` — «отвезти», сам маршрут (**Take me to the station, please**), `get` — «довезти», результат (**Get me to the hospital!**).",
+      "examples": [
+        {
+          "ru": "Ты сможешь довезти Олю до аэропорта к шести?",
+          "en": "Can you get Olya to the airport by six?"
+        },
+        {
+          "ru": "Этот поезд довозит тебя до центра за десять минут.",
+          "en": "This train gets you to the centre in ten minutes."
+        },
+        {
+          "ru": "Паша довёз бабушку до дома.",
+          "en": "Pasha got his grandmother home."
+        },
+        {
+          "ru": "Мы не смогли затащить холодильник на пятый этаж.",
+          "en": "We couldn't get the fridge up to the fifth floor."
+        },
+        {
+          "ru": "Не волнуйся, я доставлю вас туда вовремя.",
+          "en": "Don't worry, I'll get you there on time."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем get me a coffee отличается от get me to the airport?",
+        "Когда таксисту сказать take me, а когда get me?",
+        "Почему get the sofa up the stairs, а не get the sofa to the stairs?"
+      ]
+    },
+    {
+      "id": 529,
+      "microtopicId": 199,
+      "title": "Транспорт: get on, get in, get off, get out of",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "По-русски в транспорт мы только садимся и из него только выходим: сел в машину, сел в автобус, вышел из поезда, вышел из такси. Английский на этом месте держит две разные пары, и перепутать их — одна из самых заметных ошибок русскоязычного в поездке."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Транспорт",
+            "Сесть",
+            "Выйти"
+          ],
+          "rows": [
+            [
+              "автобус, поезд, самолёт, трамвай",
+              "get on",
+              "get off"
+            ],
+            [
+              "велосипед, мотоцикл",
+              "get on",
+              "get off"
+            ],
+            [
+              "машина, такси",
+              "get in",
+              "get out of"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Дело не в размере, а в том, как ты внутри"
+        },
+        {
+          "type": "paragraph",
+          "text": "Часто объясняют так: большой транспорт — `on`, маленький — `in`. Но велосипед меньше машины, а на него всё равно **get on**. Настоящий признак другой."
+        },
+        {
+          "type": "paragraph",
+          "text": "В автобусе, поезде или самолёте можно встать и пройти по проходу: вы стоите на полу, как на площадке, которая едет. Английское `on` значит «на поверхности», поэтому **get on the bus** — «взошёл на эту площадку», а **get off the bus** — «сошёл с неё»."
+        },
+        {
+          "type": "paragraph",
+          "text": "В машину и такси вы залезаете, пригнувшись, и сидите внутри, как в коробке. Это `in` — «внутрь»: **get in the car**. А выбираетесь наружу — **get out of the car**."
+        },
+        {
+          "type": "paragraph",
+          "text": "На велосипеде и мотоцикле вы сидите сверху — снова поверхность, снова `on/off`: **She got on her bike and rode away**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «выйти ИЗ автобуса» тянет за собой `out of`: **I got out of the bus** ✗ → **I got off the bus** ✓. Бывает и обратная ошибка — перенести `off` на машину: **She got off the taxi** ✗ → **She got out of the taxi** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `out` здесь обязателен хвостик `of`, если дальше назван транспорт: **get out of the car**. В короткой команде без названия он пропадает: **Get out!**, **Get in, we're late!**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Остановка и прибытие поезда"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три фразы, которые пригодятся в каждой поездке:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Get off at the next stop.** — «Выходите на следующей остановке».",
+            "**Which stop do I get off at?** — «На какой остановке мне выходить?» Предлог встал в конец вопроса — так же, как в знакомом **Where are you from?**",
+            "**What time does your train get in?** — «Во сколько прибывает твой поезд?» Без названия транспорта у `get in` есть и такое значение: поезд или самолёт «вошёл» в город, прибыл."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Маленькие слова `on`, `off`, `in` и `out` после глаголов — **get up**, **get back**, **turn off** и десятки других — мы разберём целиком в теме «Verb Particles · Хвостики глагола». Здесь хватит четырёх, без которых не доехать."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Русские «сесть» и «выйти» в транспорте английский делит на две пары. Где можно встать и пройти по проходу — автобус, поезд, самолёт, трамвай — `get on` и `get off`; на велосипед и мотоцикл, где сидят сверху, — тоже `get on/off`. В машину и такси залезают и сидят внутри — `get in` и `get out of`. Признак — не размер, а то, как ты находишься внутри. Ловушки: **got out of the bus** ✗ → **got off the bus** ✓; **got off the taxi** ✗ → **got out of the taxi** ✓. Полезные фразы: **Get off at the next stop**, **Which stop do I get off at?**, а **What time does your train get in?** — «во сколько прибывает поезд».",
+      "examples": [
+        {
+          "ru": "Мы сели в автобус у вокзала.",
+          "en": "We got on the bus at the station."
+        },
+        {
+          "ru": "Выходи на следующей остановке.",
+          "en": "Get off at the next stop."
+        },
+        {
+          "ru": "Юля села в такси и уехала.",
+          "en": "Yulia got in the taxi and left."
+        },
+        {
+          "ru": "Не выходи из машины.",
+          "en": "Don't get out of the car."
+        },
+        {
+          "ru": "Во сколько прибывает твой поезд?",
+          "en": "What time does your train get in?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в автобус get on, если по-русски мы садимся в автобус?",
+        "Велосипед маленький — почему тогда get on, а не get in?",
+        "Что значит get in, если после него не назван транспорт?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1627,6 +2395,114 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 189,
       "orderInCard": 2
+    },
+    {
+      "cardId": 525,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 205,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 525,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 63,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 525,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 113,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 525,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 99,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 526,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 82,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 526,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 226,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 526,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 100,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 526,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 202,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 527,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 190,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 527,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 86,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 527,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 179,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 528,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 206,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 528,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 64,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 528,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 75,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 528,
+      "exerciseType": "MATCHING",
+      "exerciseId": 82,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 529,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 114,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 529,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 191,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 529,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 100,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1691,6 +2567,38 @@
       "cardId": 524,
       "title": "Каким словом стать",
       "userInstruction": "Переведите русское предложение на английский, выбрав подходящий глагол.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "get_card525_ex1",
+      "cardId": 525,
+      "title": "Скажи, что добрался",
+      "userInstruction": "Переведите русское предложение на английский, используя get.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "get_card526_ex1",
+      "cardId": 526,
+      "title": "Предлог после глагола прибытия",
+      "userInstruction": "Вставьте нужный предлог в каждое предложение, а если он не нужен — поставьте прочерк.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "get_card527_ex1",
+      "cardId": 527,
+      "title": "Сколько добираться",
+      "userInstruction": "Переведите русское предложение на английский.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "get_card528_ex1",
+      "cardId": 528,
+      "title": "Довези и доставь",
+      "userInstruction": "Переведите русское предложение на английский, используя get.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -1814,6 +2722,54 @@
       "translation": "становиться (о цвете, погоде)",
       "transcription": "[tɜːn]",
       "microtopicId": 198,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 754,
+      "word": "office",
+      "translation": "офис",
+      "transcription": "[ˈɒfɪs]",
+      "microtopicId": 199,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 755,
+      "word": "centre",
+      "translation": "центр (города)",
+      "transcription": "[ˈsentə]",
+      "microtopicId": 199,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 756,
+      "word": "stop",
+      "translation": "остановка",
+      "transcription": "[stɒp]",
+      "microtopicId": 199,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 757,
+      "word": "top",
+      "translation": "верх, вершина",
+      "transcription": "[tɒp]",
+      "microtopicId": 199,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 758,
+      "word": "end",
+      "translation": "конец",
+      "transcription": "[end]",
+      "microtopicId": 199,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 759,
+      "word": "halfway",
+      "translation": "на полпути, наполовину",
+      "transcription": "[ˌhɑːfˈweɪ]",
+      "microtopicId": 199,
       "categoryId": "useful_words"
     }
   ],
@@ -1970,6 +2926,37 @@
         }
       ],
       "explanation": "в первом предложении голод — это ощущение, а не поведение, поэтому связка be в длительную форму не идёт и переход показывает get: I'm getting hungry. В третьем в слове getting удваивается согласная: It's getting late."
+    },
+    {
+      "id": 202,
+      "statements": [
+        {
+          "en": "We arrived to Rome late at night.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Did Kate get to the party on time?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They reached the station before dark.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I reached to the airport at seven.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "What time do you usually get to the gym?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в первом предложении у arrive невозможный предлог to — с городом нужен in: We arrived in Rome late at night. В четвёртом у reach лишний предлог, место идёт сразу: I reached the airport at seven."
     }
   ],
   "word_arrangement_exercises": [
@@ -2008,6 +2995,26 @@
         "to get"
       ],
       "explanation": "сначала идёт get, потом то, что не должно испачкаться, и только потом признак. После don't глагол стоит в первой форме."
+    },
+    {
+      "id": 179,
+      "situationRu": "RU: У Сони уходит полчаса, чтобы дойти до школы.",
+      "correctSentence": "It takes Sonya half an hour to get to school.",
+      "words": [
+        "It",
+        "takes",
+        "Sonya",
+        "half an hour",
+        "to get",
+        "to school"
+      ],
+      "distractors": [
+        "for getting",
+        "Sonya takes",
+        "gets",
+        "at school"
+      ],
+      "explanation": "время в пути говорят через It takes, а не через gets. Человек стоит сразу после takes, после времени идёт to get, а не for getting. At school значило бы «в школе», а нужно «до школы» — to school."
     }
   ],
   "multiple_choice_exercises": [
@@ -2199,6 +3206,90 @@
         }
       ],
       "explanation": "после «стать» идёт профессия, то есть существительное, а с существительным работает только become. Вариант с get означал бы «раздобыть инженера»."
+    },
+    {
+      "id": 205,
+      "choiceType": "CHOICE",
+      "prompt": "The last bus was very slow, and we ___ home after midnight.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "got to",
+          "isCorrect": false
+        },
+        {
+          "text": "got",
+          "isCorrect": true
+        },
+        {
+          "text": "get to",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "home уже значит «домой», направление в нём встроено, поэтому to перед ним не ставится: got home. Вариант get to не подходит ещё и по времени — речь о прошлом, нужна форма got."
+    },
+    {
+      "id": 82,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "What time did Nick get to the hotel?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Во сколько Ник добрался до отеля?",
+          "isCorrect": true
+        },
+        {
+          "text": "Во сколько Ник поехал в отель?",
+          "isCorrect": false
+        },
+        {
+          "text": "Во сколько Ник уехал из отеля?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "get to отмечает прибытие — Ник был уже на месте. Про то, когда он только двинулся в сторону отеля, спросили бы через go: What time did Nick go to the hotel?"
+    },
+    {
+      "id": 226,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Лена выехала на вокзал в семь, а доехала только к восьми.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Lena got to the station at seven, but went there only by eight.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena went to the station at seven, but arrived to it only by eight.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena went to the station at seven, but got there only by eight.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«выехала» — начало пути, это went; «доехала» — прибытие, это got there. В первом варианте глаголы перепутаны местами, а во втором у arrive стоит невозможный предлог to."
+    },
+    {
+      "id": 206,
+      "choiceType": "CHOICE",
+      "prompt": "The roads are busy, but I'll get you ___ the cinema before the film starts.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "at",
+          "isCorrect": false
+        },
+        {
+          "text": "—",
+          "isCorrect": false
+        },
+        {
+          "text": "to",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после человека стоит место — значит «довезу», и перед местом нужен to. Без предлога фраза превратилась бы в «раздобуду тебе кинотеатр», а at направления не показывает."
     }
   ],
   "text_input_exercises": [
@@ -2281,6 +3372,58 @@
       ],
       "explanation": "прямо сейчас на глазах — длительная форма is getting; вчера в четыре — прошедшее got; каждую зиму вообще — простое настоящее gets.",
       "taskDescription": "Впиши глагол get в нужной форме."
+    },
+    {
+      "id": 99,
+      "items": [
+        {
+          "sentence": "How does your brother usually ___ the office?",
+          "contextRu": "",
+          "answer": "get to",
+          "alternatives": []
+        },
+        {
+          "sentence": "We ___ there late last night, so we went straight to bed.",
+          "contextRu": "",
+          "answer": "got",
+          "alternatives": []
+        },
+        {
+          "sentence": "Send me a message when you ___ home.",
+          "contextRu": "",
+          "answer": "get",
+          "alternatives": []
+        }
+      ],
+      "explanation": "перед обычным местом нужен to (get to the office), перед there и home — нет. Last night требует прошедшей формы got, а после when про будущее ставится настоящее время — get.",
+      "taskDescription": "Впиши get в нужной форме — вместе с to, если он нужен."
+    },
+    {
+      "id": 100,
+      "items": [
+        {
+          "sentence": "Hurry up and get ___ the car, we're already late!",
+          "contextRu": "",
+          "answer": "in",
+          "alternatives": [
+            "into"
+          ]
+        },
+        {
+          "sentence": "I got ___ the plane in Dubai and took a taxi to the hotel.",
+          "contextRu": "",
+          "answer": "off",
+          "alternatives": []
+        },
+        {
+          "sentence": "Nina got ___ of the taxi and paid the driver.",
+          "contextRu": "",
+          "answer": "out",
+          "alternatives": []
+        }
+      ],
+      "explanation": "в машину садятся через get in, из такси выходят через get out of, а с самолёта сходят через get off — человек уже едет в отель, значит из самолёта он вышел.",
+      "taskDescription": "Впиши слово, которое нужно после get."
     }
   ],
   "dialog_restore_exercises": [
@@ -2315,6 +3458,38 @@
         }
       ],
       "explanation": "про звонок в дверь и телефон говорят I'll get it! — «я открою, я подойду». Вариант I'll get him значил бы «я его приведу», а I get it now — «теперь я понял»."
+    },
+    {
+      "id": 75,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "My train leaves in twenty minutes, and I'm still at home!"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you so much!"
+        }
+      ],
+      "options": [
+        {
+          "text": "Don't worry, I'll get you the station in ten minutes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't worry, I'll get you to the station in ten minutes.",
+          "isCorrect": true
+        },
+        {
+          "text": "Don't worry, I'll get to the station you in ten minutes.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "человек, которого доставляют, стоит сразу после get, а за ним to и место. Без to вышло бы «раздобуду тебе вокзал», а место перед человеком ломает порядок слов."
     }
   ],
   "matching_exercises": [
@@ -2371,6 +3546,29 @@
         }
       ],
       "explanation": "английский не умеет приклеить «стал» к прилагательному, поэтому там, где у русского один глагол с хвостиком, у него стоят два слова: get плюс признак."
+    },
+    {
+      "id": 82,
+      "taskDescription": "соедини фразу с тем, что в ней значит get.",
+      "pairs": [
+        {
+          "left": "get Tom a coffee",
+          "right": "принеси Тому"
+        },
+        {
+          "left": "get Tom to the bank",
+          "right": "довези Тома"
+        },
+        {
+          "left": "get Tom ready",
+          "right": "собери Тома"
+        },
+        {
+          "left": "get to the bank",
+          "right": "доберись сам"
+        }
+      ],
+      "explanation": "после get человек и вещь — «принеси»; человек, to и место — «довези»; человек и признак — «сделай таким»; а если человека нет, добираешься сам."
     }
   ],
   "error_correction_exercises": [
@@ -2449,6 +3647,44 @@
         }
       ],
       "explanation": "про испортившуюся еду говорят go bad — это устойчивое сочетание. Get и become с этим прилагательным в таком смысле не используют."
+    },
+    {
+      "id": 190,
+      "wrongSentence": "Igor gets to the office an hour every morning.",
+      "options": [
+        {
+          "text": "It takes Igor an hour to get to the office every morning.",
+          "isCorrect": true
+        },
+        {
+          "text": "It takes Igor an hour for getting to the office every morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "Igor takes to the office an hour every morning.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "gets to — это момент прибытия, он не может длиться час. Время в пути передают через It takes + кому + сколько + to + глагол, и после времени нужен to get, а не for getting."
+    },
+    {
+      "id": 191,
+      "wrongSentence": "We got out of the train in Munich and took a taxi.",
+      "options": [
+        {
+          "text": "We got out the train in Munich and took a taxi.",
+          "isCorrect": false
+        },
+        {
+          "text": "We got in the train in Munich and took a taxi.",
+          "isCorrect": false
+        },
+        {
+          "text": "We got off the train in Munich and took a taxi.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "по поезду можно пройти, поэтому из него выходят через got off. Out of — для машины и такси, а got in значило бы «сели в поезд»."
     }
   ],
   "construction_meaning_exercises": [
@@ -2520,6 +3756,52 @@
         }
       ],
       "explanation": "между get и признаком стоит объект — the kitchen, значит человек сделал её такой, и работа доведена до результата. Про то, что кухню убрал кто-то другой, сказали бы иначе — это конструкция из второй части темы."
+    },
+    {
+      "id": 63,
+      "construction": "OK, everyone, stop talking and get to work!",
+      "options": [
+        {
+          "text": "Так, все, хватит болтать, езжайте на работу!",
+          "isCorrect": false
+        },
+        {
+          "text": "Так, все, хватит болтать и найдите себе работу!",
+          "isCorrect": false
+        },
+        {
+          "text": "Так, все, хватит болтать, принимайтесь за работу!",
+          "isCorrect": true
+        },
+        {
+          "text": "Так, все, хватит болтать, доберитесь до работы!",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "призыв «хватит болтать» показывает, что работа здесь занятие, а не место: get to work — приступить к делу. Про дорогу до работы так говорят в рассказе о прибытии (I get to work at nine), а «найти работу» было бы get a job."
+    },
+    {
+      "id": 64,
+      "construction": "Can you get Lily to the concert by eight?",
+      "options": [
+        {
+          "text": "Можешь достать Лили билет на концерт к восьми?",
+          "isCorrect": false
+        },
+        {
+          "text": "Можешь довезти Лили до концерта к восьми?",
+          "isCorrect": true
+        },
+        {
+          "text": "Лили успеет на концерт к восьми?",
+          "isCorrect": false
+        },
+        {
+          "text": "Можешь уговорить Лили пойти на концерт к восьми?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после get стоит человек, а за ним to и место — значит Лили надо доставить на концерт. Билет был бы вещью без to, а в вопросе «Лили успеет?» подлежащим была бы сама Лили: Will Lily get to the concert by eight?"
     }
   ],
   "transformation_exercises": [
@@ -2560,6 +3842,25 @@
         }
       ],
       "explanation": "стоит поставить между get и признаком объект — и подлежащее превращается из того, кто изменился, в того, кто это сделал."
+    },
+    {
+      "id": 86,
+      "taskDescription": "перепиши предложение в прошедшем времени.",
+      "items": [
+        {
+          "original": "It takes me an hour to get home.",
+          "transformed": "It took me an hour to get home."
+        },
+        {
+          "original": "How long does it take you?",
+          "transformed": "How long did it take you?"
+        },
+        {
+          "original": "It doesn't take long by taxi.",
+          "transformed": "It didn't take long by taxi."
+        }
+      ],
+      "explanation": "в прошедшем takes превращается в took, а в вопросе и отрицании вместо does встаёт did — и после него take возвращается в первую форму. Частая ошибка — did it took."
     }
   ],
   "categorization_exercises": [
@@ -2644,6 +3945,54 @@
         }
       ],
       "explanation": "go берут для перемен к худшему или странному, turn — для цвета, а become — единственный из трёх, за которым может идти существительное-профессия."
+    },
+    {
+      "id": 113,
+      "taskDescription": "распредели места по тому, нужен ли to после get.",
+      "categories": [
+        {
+          "title": "нужен to",
+          "items": [
+            "the bank",
+            "school",
+            "the airport",
+            "Kate's flat"
+          ]
+        },
+        {
+          "title": "без to",
+          "items": [
+            "home",
+            "downstairs",
+            "inside",
+            "there"
+          ]
+        }
+      ],
+      "explanation": "to — стрелка «куда», её ставят перед обычным названием места. Слова home, downstairs, inside и there уже сами значат «домой», «вниз», «внутрь» и «туда», и вторая стрелка перед ними лишняя."
+    },
+    {
+      "id": 114,
+      "taskDescription": "распредели транспорт по тому, как в него садятся.",
+      "categories": [
+        {
+          "title": "get on",
+          "items": [
+            "the ferry",
+            "the train",
+            "a horse"
+          ]
+        },
+        {
+          "title": "get in",
+          "items": [
+            "a van",
+            "the taxi",
+            "a helicopter"
+          ]
+        }
+      ],
+      "explanation": "по парому и поезду можно пройти, а на лошади сидят сверху — это get on. В фургон, такси и вертолёт залезают и сидят внутри — это get in."
     }
   ],
   "find_the_odd_exercises": [
@@ -2669,6 +4018,29 @@
         }
       ],
       "explanation": "злость берёт with, когда речь о человеке, и at, когда о вещи или ситуации. Предлог on пришёл из русского «злиться на» и по-английски здесь не работает."
+    },
+    {
+      "id": 100,
+      "groupDescription": "Три сочетания записаны с верным предлогом, а одно — с неверным",
+      "items": [
+        {
+          "text": "arrive in Madrid",
+          "isOdd": false
+        },
+        {
+          "text": "reach to the city",
+          "isOdd": true
+        },
+        {
+          "text": "get to the museum",
+          "isOdd": false
+        },
+        {
+          "text": "arrive at the cinema",
+          "isOdd": false
+        }
+      ],
+      "explanation": "reach не берёт предлог — место стоит сразу за глаголом: reach the city. У arrive с городом стоит in, с конкретной точкой — at, а у get перед местом — to."
     }
   ]
 }
