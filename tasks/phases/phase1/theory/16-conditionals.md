@@ -1664,7 +1664,6 @@ B: ___
 Самое частое. Человек называет ту версию событий, которую упустил:
 
 - **I would have helped you if I had known.**
-- **If I hadn't sold my old car, I would have saved a lot of money.**
 
 По-русски это ровно наше «эх, надо было…»: сожаление всегда описывает хороший вариант, до которого не дошло.
 
@@ -1685,6 +1684,23 @@ B: ___
 - **If they had sent the file on Friday, we would have finished the project.**
 
 **Кстати:** `could have` и `might have` в правой половине смягчают или, наоборот, заостряют фразу: **She could have called** — «могла бы и позвонить», **He might have forgotten** — «может, и забыл». Берите их пока готовыми формулами: после `could` и `might` идёт `have` и третья форма. Оттенки разбираются в теме «Модальные глаголы».
+
+**Если бы я знал, что ты придёшь**
+
+Сожаление чаще всего начинается с `If I had known`, а сразу за ним нередко стоит будущее: «если бы я знал, что ты **придёшь**». По-русски «придёшь» так и остаётся будущим. Английский же смотрит на это будущее из прошлого — из того момента, когда человек ещё не знал, — и отодвигает его на шаг назад. Нереальности тут нет, это просто взгляд назад.
+
+**Запомни:** будущее, увиденное из прошлого, делает шаг назад. Все три его формы вы уже знаете — меняется только первое слово:
+| Смысл | Сейчас | Из прошлого |
+|-------|--------|-------------|
+| прогноз | will come | would come |
+| намерение | am going to come | was going to come |
+| договорились | am coming | was coming |
+
+- **If I had known it would rain, I would have taken an umbrella.** — прогноз.
+- **If Nina had known we were coming, she would have baked a cake.** — договорились, а ей не сказали.
+- **If I had known you weren't coming, I wouldn't have cooked dinner.** — ужин готовили зря.
+
+Прошедшее время на этом месте меняет смысл. **If I had known you didn't come** — это «если бы я знал, что ты не пришёл», про факт, который уже случился. Про ужин, приготовленный зря, говорят через план: `you weren't coming`. Подробно этот сдвиг разберём в теме «Косвенная речь» — там он работает в каждой пересказанной фразе.
 
 **А спросить можно?**
 
@@ -1707,14 +1723,14 @@ B: ___
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Третий тип нужен не для того, чтобы что-то изменить, а чтобы объясниться: сожаление (**I would have helped you if I had known**), упрёк (**If you had called me, I wouldn't have waited an hour in the rain**) и оправдание (**If you had called, I would have come**). Упрёком фраза становится потому, что говорящий рисует хорошую версию событий и показывает, из-за кого она не случилась. `could have` и `might have` справа — готовые формулы (после них `have` и третья форма). Вопрос строит только половина без `if`: **What would you have done if you had missed the last train?**, отрицательный — **Wouldn't you have done the same?**; условие остаётся утвердительным (**If had you known** ✗). Конструкция с пустым `it` отодвигается в прошлое одним движением: **It would be easier to call** → **It would have been easier to call**.
+Третий тип нужен не для того, чтобы что-то изменить, а чтобы объясниться: сожаление (**I would have helped you if I had known**), упрёк (**If you had called me, I wouldn't have waited an hour in the rain**) и оправдание (**If you had called, I would have come**). Упрёком фраза становится потому, что говорящий рисует хорошую версию событий и показывает, из-за кого она не случилась. `could have` и `might have` справа — готовые формулы (после них `have` и третья форма). Будущее после `If I had known` смотрит из прошлого и делает шаг назад: `will` → `would`, `am going to` → `was going to`, `am coming` → `was coming` (**If I had known you weren't coming, I wouldn't have cooked dinner**). Вопрос строит только половина без `if`: **What would you have done if you had missed the last train?**, отрицательный — **Wouldn't you have done the same?**; условие остаётся утвердительным (**If had you known** ✗). Конструкция с пустым `it` отодвигается в прошлое одним движением: **It would be easier to call** → **It would have been easier to call**.
 
 #### Examples
 
 | # | RU | EN |
 |---|----|----|
 | 2214 | Я бы тебе помог, если бы знал. | I would have helped you if I had known. |
-| 2215 | Если бы я не продал свою старую машину, я бы сэкономил кучу денег. | If I hadn't sold my old car, I would have saved a lot of money. |
+| 2215 | Если бы я знал, что ты не придёшь, я бы не готовил ужин. | If I had known you weren't coming, I wouldn't have cooked dinner. |
 | 2216 | Если бы ты мне позвонил, я бы не ждал час под дождём. | If you had called me, I wouldn't have waited an hour in the rain. |
 | 2217 | Если бы они прислали файл в пятницу, мы бы закончили проект. | If they had sent the file on Friday, we would have finished the project. |
 | 2218 | Что бы ты делал, если бы опоздал на последний поезд? | What would you have done if you had missed the last train? |
