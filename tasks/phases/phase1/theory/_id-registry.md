@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 533 |
-| Categorization | 116 |
+| Card | 537 |
+| Categorization | 117 |
 | Category | 8 |
-| ConstructionMeaning | 67 |
-| DialogRestore | 76 |
-| ErrorCorrection | 192 |
-| FindTheOdd | 102 |
-| Matching | 83 |
-| Microtopic | 202 |
-| MultipleChoice·CHOICE | 207 |
-| MultipleChoice·FORWARD_CHOICE | 228 |
-| MultipleChoice·REVERSE_CHOICE | 83 |
+| ConstructionMeaning | 68 |
+| DialogRestore | 77 |
+| ErrorCorrection | 193 |
+| FindTheOdd | 103 |
+| Matching | 84 |
+| Microtopic | 203 |
+| MultipleChoice·CHOICE | 208 |
+| MultipleChoice·FORWARD_CHOICE | 229 |
+| MultipleChoice·REVERSE_CHOICE | 84 |
 | TableFill | 42 |
 | TextInput | 101 |
 | Topic | 33 |
-| Transformation | 87 |
-| TrueFalse | 204 |
-| WordArrangement | 180 |
-| course_word | 760 |
+| Transformation | 88 |
+| TrueFalse | 205 |
+| WordArrangement | 181 |
+| course_word | 768 |
 
 ## Диапазоны по темам
 
@@ -484,14 +484,22 @@
 - course_word: 741–759 (19)
 
 ### imperative
-- Card: 531–532 (2)
-- Categorization: 115–115 (1)
-- ConstructionMeaning: 65–66 (2)
-- FindTheOdd: 101–101 (1)
-- Microtopic: 201–201 (1)
-- MultipleChoice·FORWARD_CHOICE: 227–227 (1)
+- Card: 531–536 (6)
+- Categorization: 115–116 (2)
+- ConstructionMeaning: 65–67 (3)
+- DialogRestore: 76–76 (1)
+- ErrorCorrection: 192–192 (1)
+- FindTheOdd: 101–102 (2)
+- Matching: 83–83 (1)
+- Microtopic: 201–202 (2)
+- MultipleChoice·CHOICE: 207–207 (1)
+- MultipleChoice·FORWARD_CHOICE: 227–228 (2)
+- MultipleChoice·REVERSE_CHOICE: 83–83 (1)
 - Topic: 32–32 (1)
-- TrueFalse: 203–203 (1)
+- Transformation: 87–87 (1)
+- TrueFalse: 203–204 (2)
+- WordArrangement: 180–180 (1)
+- course_word: 760–767 (8)
 
 ### indirect-questions
 - Card: 341–358 (18)

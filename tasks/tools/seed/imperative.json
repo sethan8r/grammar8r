@@ -18,6 +18,13 @@
       "title": "What Is Imperative · Императив: что уже знаем и что впереди",
       "order": 1,
       "searchKeywords": "в английском нет ты и вы, почему одна форма на всех, зачем учить императив снова, откуда вежливость если нет вы"
+    },
+    {
+      "id": 202,
+      "topicId": 32,
+      "title": "Order or Care · Приказ или забота",
+      "order": 2,
+      "searchKeywords": "почему give me грубо, can i have или give me, как попросить в кафе, could you или can you"
     }
   ],
   "grammar_cards": [
@@ -337,6 +344,458 @@
         "Как англичанин понимает, обращаются к нему на «ты» или на «вы»?",
         "Если please не делает фразу по-настоящему вежливой, зачем его вообще говорят?"
       ]
+    },
+    {
+      "id": 533,
+      "microtopicId": 202,
+      "title": "Кому нужно действие — главный вопрос темы",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Возьмём две английские фразы. **Have a seat.** и **Give me the menu.** Обе — голый императив, обе одинаковой длины, ни в одной нет слова `please`. Но первую хозяин говорит гостю, и она звучит как любезность, а вторую посетитель говорит официанту, и она звучит как хамство."
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма одна и та же. Значит, дело не в форме — и не в вежливом слове, которого нет ни там, ни там."
+        },
+        {
+          "type": "heading",
+          "text": "Один вопрос, который всё решает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Перед тем как сказать команду по-английски, носитель — не задумываясь, конечно, — отвечает себе на один вопрос: кому нужно это действие, мне или тому, кто слушает?"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кому нужно действие",
+            "Фраза",
+            "Как звучит"
+          ],
+          "rows": [
+            [
+              "слушателю",
+              "Have a seat. · Come in. · Take your time.",
+              "любезно, даже без please"
+            ],
+            [
+              "тебе",
+              "Give me the menu. · Send me the file. · Call me back.",
+              "распоряжение"
+            ],
+            [
+              "делу, процедуре",
+              "Turn left. · Press the button.",
+              "нейтрально, никого не задевает"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему это работает именно так"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда действие нужно слушателю, командой ты ничего не забираешь — наоборот, отдаёшь: разрешаешь сесть, позволяешь не спешить, приглашаешь войти. Подарок грубым не бывает, поэтому голая форма здесь звучит тепло."
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда действие нужно тебе, всё переворачивается: ты забираешь чужое время, силы и внимание. Забирать не спросив невежливо в любом языке — в русском тоже. Скажите начальнику за столом переговоров «Передайте солонку» вместо «Не передадите солонку?» — разница слышна сразу."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Дайте, пожалуйста, капучино» → **Give me a cappuccino, please** ✗. По-русски так говорят все и никого не обижают, а `waiter` слышит примерно «выдай мне капучино». Причина в самом русском слове: «дайте» уже содержит «вы», уважение зашито внутрь формы глагола. В `give me` никакого «вы» нет — там только приказ и тот, кому он адресован. Живой вариант — **Can I have a cappuccino, please?** ✓, и почему именно вопрос, разберём в следующей карточке."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одна форма — два разных человека"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Sit down.** — говорит учитель расшумевшемуся классу. Приказ."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Sit down — you look tired.** — говорит хозяйка гостю. Забота."
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма не изменилась ни на букву, вежливого слова нет по-прежнему. Изменилось только одно: кому нужно, чтобы человек сел."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Решает не форма и не `please`, а ответ на вопрос «кому это нужно». Нужно слушателю — говори командой смело. Нужно тебе — переделывай в вопрос."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Одна и та же команда звучит любезно или грубо в зависимости от того, кому нужно действие. Нужно слушателю — голый императив звучит как подарок: **Have a seat**, **Take your time**. Нужно тебе — тот же императив звучит распоряжением: **Give me the menu**, и `please` спасает его лишь наполовину. Нужно делу — команда нейтральна: **Turn left**. Главная ошибка русского в кафе: «дайте, пожалуйста» переводится дословно, хотя в русском «дайте» уже содержит уважительное «вы», а в `give me` его нет.",
+      "examples": [
+        {
+          "ru": "Присаживайтесь.",
+          "en": "Have a seat."
+        },
+        {
+          "ru": "Не торопитесь.",
+          "en": "Take your time."
+        },
+        {
+          "ru": "Пришли мне файл.",
+          "en": "Send me the file."
+        },
+        {
+          "ru": "Поверните налево у аптеки.",
+          "en": "Turn left at the pharmacy."
+        },
+        {
+          "ru": "Можно мне капучино, пожалуйста?",
+          "en": "Can I have a cappuccino, please?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему Have a seat звучит вежливо, а Give me the menu — нет, если форма одинаковая?",
+        "Как быстро понять, кому нужно действие, если фраза сложная?",
+        "Неужели англичане правда обижаются на give me?"
+      ]
+    },
+    {
+      "id": 534,
+      "microtopicId": 202,
+      "title": "Как просить своё: вопрос вместо команды",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Из прошлой карточки мы знаем: если действие нужно тебе, командой просить нельзя. Что же тогда делать? Английский решает это одним движением — превращает просьбу в вопрос."
+        },
+        {
+          "type": "heading",
+          "text": "Почему вопрос вежливее команды"
+        },
+        {
+          "type": "paragraph",
+          "text": "Дело не в длине фразы и не в красивых словах. Вопрос оставляет собеседнику право сказать «нет». Команда такого права не даёт — она уже решила за человека. Именно возможность отказаться и делает фразу вежливой."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский поступает точно так же, просто мы этого не замечаем: «Не подскажете, который час?» — это ведь тоже вопрос вместо команды «Скажите время». Так что приём знакомый — надо только начать применять его там, где английский этого требует, а требует он гораздо чаще."
+        },
+        {
+          "type": "heading",
+          "text": "Три готовые конструкции под три задачи"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Can I have + вещь · Could you + V1 · Could I + V1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Каждая закрывает свою ситуацию:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can I have the menu, please?** — попросить вещь: в кафе, в магазине, в аптеке",
+            "**Could you send me the report?** — попросить действие: чтобы человек что-то сделал",
+            "**Could I use your charger?** — попросить разрешения: сделать что-то самому"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему в первых двух `can`, а в третьей `could` — вопрос про модальные глаголы, у них будет своя тема. Пока берите эти конструкции целиком, как готовые формулы: они закрывают почти всё, что придётся просить в первый месяц за границей."
+        },
+        {
+          "type": "heading",
+          "text": "Куда девается please"
+        },
+        {
+          "type": "paragraph",
+          "text": "Оно переезжает внутрь вопроса и встаёт либо в конец, либо перед основным глаголом: **Can I have the bill, please?** · **Could you please wait a minute?** Обе позиции живые и одинаково вежливые."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Can you give me the menu?** ✗ — грамматика цела, но фраза звучит странно: буквально вы спрашиваете, способен ли человек дать вам меню. Живой вариант — **Can I have the menu?** ✓: вы просите для себя, а не проверяете чужие способности и не нагружаете официанта работой. Простое правило: речь о вещи — начинайте с `Can I have`, речь о действии — с `Could you`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательная просьба и встречное предложение"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Please don't touch it.** — нейтральная просьба чего-то не делать, обычный рабочий вариант",
+            "**Could you not do that?** — на узнавание: звучит раздражённо, почти как замечание",
+            "**Would you like some tea?** — а это уже предложение слушателю, знакомая формула"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что отвечать, когда просят тебя"
+        },
+        {
+          "type": "paragraph",
+          "text": "Просьбу надо не только произнести, но и принять — иначе разговор обрывается на половине. Согласие: **Sure.** · **Of course.** · **Will do.** (коротко, в переписке и на работе) · **I'm on it.** (уже занимаюсь) · **Got it.** (понял, сделаю). Вежливый отказ: **Sorry, I can't right now.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "А в кафе и магазине вам почти наверняка скажут **Anything else?** — «что-нибудь ещё?». Отвечают на это либо **That's all, thanks**, либо новой просьбой по той же схеме."
+        }
+      ],
+      "theorySummary": "Решает вопрос «кому нужно действие»: нужно слушателю — голый императив звучит любезно (**Have a seat**), нужно тебе — он звучит распоряжением. Поэтому своё просят вопросом: **Can I have + вещь** (**Can I have the bill, please?**), **Could you + V1** (**Could you send me the report?**), **Could I + V1** для разрешения (**Could I use your charger?**). Вопрос вежлив не длиной, а тем, что оставляет право отказаться. `please` переезжает внутрь вопроса. Отрицательная просьба — **Please don't touch it**, а **Could you not do that?** звучит уже раздражённо. Отвечают на просьбу коротко: **Sure**, **Of course**, **Will do**, **I'm on it**, а отказывают мягко — **Sorry, I can't right now**. Ловушка русского: дословное **Give me…** и калька **Can you give me…?** — в кафе естественнее **Can I have…?**",
+      "examples": [
+        {
+          "ru": "Можно мне счёт, пожалуйста?",
+          "en": "Can I have the bill, please?"
+        },
+        {
+          "ru": "Ты не мог бы прислать мне отчёт?",
+          "en": "Could you send me the report?"
+        },
+        {
+          "ru": "Можно я воспользуюсь твоей зарядкой?",
+          "en": "Could I use your charger?"
+        },
+        {
+          "ru": "Пожалуйста, не трогай это.",
+          "en": "Please don't touch it."
+        },
+        {
+          "ru": "Что-нибудь ещё?",
+          "en": "Anything else?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему вопрос считается вежливым, если я всё равно чего-то требую?",
+        "Когда говорить Can I have, а когда Could you — есть простое правило?",
+        "Что ответить, если я не могу выполнить просьбу прямо сейчас?"
+      ]
+    },
+    {
+      "id": 535,
+      "microtopicId": 202,
+      "title": "Между своими: когда команда и есть вежливость",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У правила из прошлой карточки есть обратная сторона, и без неё легко впасть в другую крайность. Если всё своё просить длинными вопросами, вы начнёте звучать вежливо — но чужим."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дома, с женой, братом, другом голый императив совершенно нормален, и никто не считает его хамством:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Pass me the salt.**",
+            "**Text me when you land.**",
+            "**Give me a hand with this box.** — дословно «дай мне руку с этой коробкой», по-живому «помоги мне с коробкой». `Give somebody a hand` — сросшееся выражение, где отдельные слова смысла не дают; такие обороты целиком разберём в теме «Устойчивые выражения и идиомы»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три вещи, которые решают всё"
+        },
+        {
+          "type": "paragraph",
+          "text": "Выбор делает не «вежливое слово», а три обстоятельства сразу: насколько человек вам близкий или это `stranger`; насколько велико одолжение — передать соль или отвезти в аэропорт; и каким тоном вы это говорите. Чем дальше от вас человек и чем больше вы просите, тем длиннее должна быть фраза."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кому",
+            "Фраза"
+          ],
+          "rows": [
+            [
+              "дома, за своим столом",
+              "Pass me the salt."
+            ],
+            [
+              "за столом с малознакомыми людьми",
+              "Could you pass me the salt?"
+            ],
+            [
+              "официанту в кафе",
+              "Can I have some salt, please?"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Could you possibly pass me the salt?** ✗ жене за ужином — это не вежливость, а холод. Проверьте на русском: скажите домашним «не могли бы вы передать мне соль» — прозвучит как ссора или издёвка. Между своими достаточно **Pass me the salt** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему длинная вежливость обижает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Потому что вежливая формула сообщает не только просьбу. Она заодно сообщает дистанцию: «мы с вами не настолько близки, чтобы я обращался к вам запросто». Незнакомцу это приятно, а `close` friend слышит в этом холодок — как будто вы отодвинулись."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Прилагательное `close` (близкий) читается [[kləʊs]], со свистящим звуком на конце, а знакомый глагол `to close` (закрывать) — [[kləʊz]]. Написание одно, чтение разное, и путать их не стоит: **a close friend** [[kləʊs]] — близкий друг."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Правило темы не «императив грубый», а «императив близкий». Поэтому он и звучит любезно там, где действие нужно слушателю, и совершенно нормален там, где люди свои."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Вопрос вместо команды нужен дистанции, а не всем подряд. Со своими — семьёй, друзьями — короткий императив нормален: **Pass me the salt**, **Text me when you land**. Выбор фразы определяют три вещи: близость, размер одолжения и тон. Слишком длинная вежливость с близким человеком (**Could you possibly pass me the salt?**) звучит холодно, потому что сообщает дистанцию. Прилагательное `close` читается [[kləʊs]], в отличие от глагола `to close` [[kləʊz]].",
+      "examples": [
+        {
+          "ru": "Передай мне соль.",
+          "en": "Pass me the salt."
+        },
+        {
+          "ru": "Напиши мне, когда приземлишься.",
+          "en": "Text me when you land."
+        },
+        {
+          "ru": "Ты не мог бы передать мне воду?",
+          "en": "Could you pass me the water?"
+        },
+        {
+          "ru": "Она мой близкий друг.",
+          "en": "She is a close friend of mine."
+        },
+        {
+          "ru": "С незнакомцем так не разговаривают.",
+          "en": "You don't talk to a stranger like that."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что человек уже «свой» и можно говорить короче?",
+        "Почему близкий друг может обидеться на слишком вежливую просьбу?",
+        "Если я не уверен в дистанции, что безопаснее выбрать?"
+      ]
+    },
+    {
+      "id": 536,
+      "microtopicId": 202,
+      "title": "Если команда всё-таки нужна: как не звучать начальником",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Бывает, что распорядиться действительно надо: коллеге по работе, ребёнку, читателю инструкции. Отказываться от команды в таких случаях не нужно — её просто смягчают. Вот пять способов, которые носитель использует каждый день."
+        },
+        {
+          "type": "heading",
+          "text": "Пять способов смягчить команду"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`just` — «просто», снимает с команды вес: **Just leave it on the table.** *(Просто оставь это на столе.)* Дела не меняет, а звучит легче",
+            "`Try to…` — вместо приказа получается пожелание: **Try to be on time.** *(Постарайся не опаздывать.)* Мягче, чем голое Be on time",
+            "`Don't forget to…` и `Remember to…` — не распоряжение, а напоминание: **Don't forget to lock the door.** *(Не забудь запереть дверь.)* Вы как будто на одной стороне с человеком",
+            "`Make sure you…` — «проследи, чтобы»: **Make sure you save the file.** *(Обязательно сохрани файл.)* Хорошо работает в рабочих задачах",
+            "заход-извинение перед просьбой: **Sorry to bother you — could you sign this?** *(Извини, что беспокою, — ты не мог бы это подписать?)* Вы признаёте, что отвлекаете, и просьба сразу звучит уважительно"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть ещё хвостик `…, will you?` — **Open the window, will you?** Пока просто узнавайте его в чужой речи: он смягчает команду, а как устроены такие хвостики, разберём в теме «Question Tags»."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Смягчитель не отменяет главного правила темы. Если действие нужно вам, лучше всё равно вопрос — `just` не превратит **Just give me the file** в вежливую просьбу. Смягчители нужны там, где командовать уместно по делу: вы ставите задачу, объясняете порядок, напоминаете о важном."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И последнее, чего не видно на письме: половину впечатления делает голос. Одна и та же фраза **Wait here** с падающим тоном звучит как приказ, а с лёгким подъёмом и `please` в конце — как обычная просьба."
+        }
+      ],
+      "theorySummary": "Когда командовать уместно, команду смягчают: `just` снимает вес (**Just leave it on the table**), `Try to…` превращает приказ в пожелание, `Don't forget to…` и `Remember to…` делают из распоряжения напоминание, `Make sure you…` ставит задачу мягко, а заход **Sorry to bother you** признаёт, что вы отвлекаете. Хвостик **…, will you?** — пока на узнавание. Смягчитель не отменяет оси темы: если действие нужно вам, нужен вопрос, а не смягчённая команда.",
+      "examples": [
+        {
+          "ru": "Просто оставь это на столе.",
+          "en": "Just leave it on the table."
+        },
+        {
+          "ru": "Постарайся не опаздывать.",
+          "en": "Try to be on time."
+        },
+        {
+          "ru": "Не забудь запереть дверь.",
+          "en": "Don't forget to lock the door."
+        },
+        {
+          "ru": "Обязательно сохрани файл.",
+          "en": "Make sure you save the file."
+        },
+        {
+          "ru": "Извини, что беспокою, — ты не мог бы это подписать?",
+          "en": "Sorry to bother you — could you sign this?"
+        }
+      ],
+      "clarificationOptions": [
+        "Чем Try to be on time отличается от простого Be on time?",
+        "Можно ли ставить just в любую команду или есть исключения?",
+        "Почему Sorry to bother you делает просьбу вежливее, если это просто извинение?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -375,9 +834,90 @@
       "exerciseType": "CONSTRUCTION_MEANING",
       "exerciseId": 66,
       "orderInCard": 2
+    },
+    {
+      "cardId": 533,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 116,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 533,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 67,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 533,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 228,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 534,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 192,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 534,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 180,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 534,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 76,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 535,
+      "exerciseType": "MATCHING",
+      "exerciseId": 83,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 535,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 83,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 535,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 204,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 536,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 207,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 536,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 87,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 536,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 102,
+      "orderInCard": 2
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "imperative_card534_ex1",
+      "cardId": 534,
+      "title": "Попроси и не прозвучи грубо",
+      "userInstruction": "AI опишет ситуацию по-русски. Напишите одну английскую фразу, которую вы бы в ней сказали.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "useful_words",
@@ -394,7 +934,72 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 760,
+      "word": "menu",
+      "translation": "меню",
+      "transcription": "[ˈmenjuː]",
+      "microtopicId": 202,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 761,
+      "word": "waiter",
+      "translation": "официант",
+      "transcription": "[ˈweɪtə]",
+      "microtopicId": 202,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 762,
+      "word": "charger",
+      "translation": "зарядка, зарядное устройство",
+      "transcription": "[ˈtʃɑːdʒə]",
+      "microtopicId": 202,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 763,
+      "word": "stranger",
+      "translation": "незнакомец, чужой человек",
+      "transcription": "[ˈstreɪndʒə]",
+      "microtopicId": 202,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 764,
+      "word": "close",
+      "translation": "близкий",
+      "transcription": "[kləʊs]",
+      "microtopicId": 202,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 765,
+      "word": "to pass",
+      "translation": "передать, подать",
+      "transcription": "[pɑːs]",
+      "microtopicId": 202,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 766,
+      "word": "to bother",
+      "translation": "беспокоить, утруждать",
+      "transcription": "[ˈbɒðə]",
+      "microtopicId": 202,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 767,
+      "word": "else",
+      "translation": "ещё, другой",
+      "transcription": "[els]",
+      "microtopicId": 202,
+      "categoryId": "useful_words"
+    }
+  ],
   "table_fill_exercises": [],
   "true_false_exercises": [
     {
@@ -427,9 +1032,59 @@
         }
       ],
       "explanation": "после please идёт сама базовая форма, лишний to там не нужен: Please open the window. Подлежащее you команду разрушает — правильно Be quiet, please. После Let's тоже стоит базовая форма: Let's meet at six."
+    },
+    {
+      "id": 204,
+      "statements": [
+        {
+          "en": "Could you passing me the water?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Wake me up at seven, please.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Don't be late, will you?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Can you to help me with this?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Call me when you finish.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "после could и can идёт базовая форма глагола: Could you pass me the water? и Can you help me with this? Формы на -ing и лишнего to здесь быть не может."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 180,
+      "situationRu": "RU: Можно мне ещё одну чашку?",
+      "correctSentence": "Can I have another cup?",
+      "words": [
+        "Can",
+        "I",
+        "have",
+        "another cup"
+      ],
+      "distractors": [
+        "to have",
+        "me",
+        "my",
+        "for"
+      ],
+      "explanation": "просьба о вещи собирается по схеме Can I have — говорящий просит для себя, поэтому me и my здесь лишние. После have не нужны ни to, ни предлог."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 227,
@@ -451,12 +1106,148 @@
         }
       ],
       "explanation": "зов к столу — это команда, значит глагол идёт первым и без подлежащего. С you получается рассказ о том, что сын приходит ужинать, а форма на -ing командой быть не может."
+    },
+    {
+      "id": 228,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Дайте, пожалуйста, счёт.",
+      "contextRu": "Вы поужинали и обращаетесь к официанту.",
+      "options": [
+        {
+          "text": "Can I have the bill, please?",
+          "isCorrect": true
+        },
+        {
+          "text": "Give me the bill, please.",
+          "isCorrect": false
+        },
+        {
+          "text": "You give me the bill, please.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "счёт нужен вам, а не официанту, поэтому по-английски просьбу разворачивают в вопрос. Дословное give me звучит распоряжением даже с please, а вариант с you вообще перестаёт быть просьбой и превращается в рассказ о том, что официант вам что-то даёт."
+    },
+    {
+      "id": 83,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Call me back.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я тебе перезвоню.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты мне перезвонишь?",
+          "isCorrect": false
+        },
+        {
+          "text": "Перезвони мне.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "глагол стоит в базовой форме и первым — это команда собеседнику. Рассказ о себе потребовал бы I'll call you back, а вопрос — Will you call me back?"
+    },
+    {
+      "id": 207,
+      "choiceType": "CHOICE",
+      "prompt": "___ sure you take your passport.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Make",
+          "isCorrect": true
+        },
+        {
+          "text": "Do",
+          "isCorrect": false
+        },
+        {
+          "text": "Be",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«проследи, чтобы» по-английски собирается только с make — make sure. Сочетаний do sure и be sure в этом значении нет."
     }
   ],
   "text_input_exercises": [],
-  "dialog_restore_exercises": [],
-  "matching_exercises": [],
-  "error_correction_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 76,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Could you book a table for tonight?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I book it.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sure, I'll do it now.",
+          "isCorrect": true
+        },
+        {
+          "text": "Of course, I am booking it tomorrow.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "на просьбу отвечают короткой формулой согласия — Sure, Of course, Will do. Present Simple здесь не годится: речь о единичном действии, а не о привычке, и обещание сделать это прямо сейчас передаёт will."
+    }
+  ],
+  "matching_exercises": [
+    {
+      "id": 83,
+      "taskDescription": "соедини ситуацию с фразой, которая в ней уместна.",
+      "pairs": [
+        {
+          "left": "дома, за своим столом",
+          "right": "Pass me the bread."
+        },
+        {
+          "left": "гостю у порога",
+          "right": "Come in."
+        },
+        {
+          "left": "официанту в кафе",
+          "right": "Can I have a glass of water?"
+        },
+        {
+          "left": "незнакомцу на улице",
+          "right": "Could you help me?"
+        }
+      ],
+      "explanation": "со своими фраза короткая, с чужими — длиннее и в форме вопроса. Гостю говорят голым императивом не потому, что он свой, а потому, что войти нужно ему самому."
+    }
+  ],
+  "error_correction_exercises": [
+    {
+      "id": 192,
+      "wrongSentence": "Could I to use your phone?",
+      "options": [
+        {
+          "text": "Could I using your phone?",
+          "isCorrect": false
+        },
+        {
+          "text": "Could I to using your phone?",
+          "isCorrect": false
+        },
+        {
+          "text": "Could I use your phone?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после could идёт базовая форма глагола без to — это правило работает во всех трёх конструкциях просьбы. Форма на -ing здесь тоже невозможна."
+    }
+  ],
   "construction_meaning_exercises": [
     {
       "id": 65,
@@ -503,9 +1294,52 @@
         }
       ],
       "explanation": "глагол стоит в базовой форме и первым в предложении — это обращение к собеседнику. Рассказ о себе потребовал бы I wait, рассказ о нём — you wait, а «давай подождём» — Let's wait."
+    },
+    {
+      "id": 67,
+      "construction": "Give me a call tonight.",
+      "options": [
+        {
+          "text": "Дай мне телефон вечером.",
+          "isCorrect": false
+        },
+        {
+          "text": "Позвони мне сегодня вечером.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я позвоню тебе вечером.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты звонил мне вечером?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "give me a call — устойчивое сочетание со значением «позвони мне», а не просьба дать какой-то предмет. Глагол стоит в базовой форме и первым, значит это обращение к собеседнику, а не рассказ о себе или о нём."
     }
   ],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 87,
+      "taskDescription": "смягчи каждую команду словом just.",
+      "items": [
+        {
+          "original": "Put the bags in the hall.",
+          "transformed": "Just put the bags in the hall."
+        },
+        {
+          "original": "Sign this form.",
+          "transformed": "Just sign this form."
+        },
+        {
+          "original": "Wait here for a minute.",
+          "transformed": "Just wait here for a minute."
+        }
+      ],
+      "explanation": "just встаёт перед глаголом, в самое начало команды, и ничего в ней больше не меняет — ни формы глагола, ни порядка слов."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 115,
@@ -534,6 +1368,34 @@
         }
       ],
       "explanation": "команда — просто глагол в начале, без подлежащего; запрет собирается через Don't перед той же формой; Let's зовёт сделать что-то вместе с говорящим, а не приказывает собеседнику."
+    },
+    {
+      "id": 116,
+      "taskDescription": "распредели фразы по тому, кому нужно действие.",
+      "categories": [
+        {
+          "title": "Нужно слушателю",
+          "items": [
+            "Sit closer to the fire",
+            "Sleep as long as you like"
+          ]
+        },
+        {
+          "title": "Нужно тебе",
+          "items": [
+            "Bring me a chair",
+            "Book me a taxi"
+          ]
+        },
+        {
+          "title": "Нужно делу",
+          "items": [
+            "Turn right at the lights",
+            "Add two eggs"
+          ]
+        }
+      ],
+      "explanation": "сесть поближе к огню и поспать подольше выгодно самому слушателю — такая команда звучит заботой. Стул и такси нужны говорящему, поэтому по-английски это распоряжение. Поворот и яйца не нужны никому лично — это шаг инструкции."
     }
   ],
   "find_the_odd_exercises": [
@@ -559,6 +1421,29 @@
         }
       ],
       "explanation": "в команде подлежащего нет, глагол стоит первым. Как только впереди появляется you, предложение начинает сообщать факт — «ты закрываешь дверь», а не «закрой дверь»."
+    },
+    {
+      "id": 102,
+      "groupDescription": "Три команды смягчены, а одна осталась голым приказом",
+      "items": [
+        {
+          "text": "Try to come a bit earlier",
+          "isOdd": false
+        },
+        {
+          "text": "Remember to bring your laptop",
+          "isOdd": false
+        },
+        {
+          "text": "Send me the report now",
+          "isOdd": true
+        },
+        {
+          "text": "Make sure you check the address",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Try to, Remember to и Make sure you смягчают распоряжение. В четвёртой фразе смягчителя нет, зато есть now — она звучит как приказ начальника, да ещё и просит о том, что нужно самому говорящему."
     }
   ]
 }
