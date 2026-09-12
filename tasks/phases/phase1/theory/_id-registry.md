@@ -7,23 +7,23 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 531 |
-| Categorization | 115 |
+| Card | 533 |
+| Categorization | 116 |
 | Category | 8 |
-| ConstructionMeaning | 65 |
+| ConstructionMeaning | 67 |
 | DialogRestore | 76 |
 | ErrorCorrection | 192 |
-| FindTheOdd | 101 |
+| FindTheOdd | 102 |
 | Matching | 83 |
-| Microtopic | 201 |
+| Microtopic | 202 |
 | MultipleChoice·CHOICE | 207 |
-| MultipleChoice·FORWARD_CHOICE | 227 |
+| MultipleChoice·FORWARD_CHOICE | 228 |
 | MultipleChoice·REVERSE_CHOICE | 83 |
 | TableFill | 42 |
 | TextInput | 101 |
-| Topic | 32 |
+| Topic | 33 |
 | Transformation | 87 |
-| TrueFalse | 203 |
+| TrueFalse | 204 |
 | WordArrangement | 180 |
 | course_word | 760 |
 
@@ -482,6 +482,16 @@
 - TrueFalse: 198–202 (5)
 - WordArrangement: 177–179 (3)
 - course_word: 741–759 (19)
+
+### imperative
+- Card: 531–532 (2)
+- Categorization: 115–115 (1)
+- ConstructionMeaning: 65–66 (2)
+- FindTheOdd: 101–101 (1)
+- Microtopic: 201–201 (1)
+- MultipleChoice·FORWARD_CHOICE: 227–227 (1)
+- Topic: 32–32 (1)
+- TrueFalse: 203–203 (1)
 
 ### indirect-questions
 - Card: 341–358 (18)
