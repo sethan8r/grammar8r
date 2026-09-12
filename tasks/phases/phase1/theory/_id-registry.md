@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 537 |
-| Categorization | 117 |
+| Card | 542 |
+| Categorization | 118 |
 | Category | 8 |
-| ConstructionMeaning | 68 |
-| DialogRestore | 77 |
-| ErrorCorrection | 193 |
-| FindTheOdd | 103 |
-| Matching | 84 |
-| Microtopic | 203 |
-| MultipleChoice·CHOICE | 208 |
-| MultipleChoice·FORWARD_CHOICE | 229 |
-| MultipleChoice·REVERSE_CHOICE | 84 |
+| ConstructionMeaning | 69 |
+| DialogRestore | 78 |
+| ErrorCorrection | 195 |
+| FindTheOdd | 104 |
+| Matching | 85 |
+| Microtopic | 204 |
+| MultipleChoice·CHOICE | 209 |
+| MultipleChoice·FORWARD_CHOICE | 230 |
+| MultipleChoice·REVERSE_CHOICE | 85 |
 | TableFill | 42 |
-| TextInput | 101 |
+| TextInput | 102 |
 | Topic | 33 |
-| Transformation | 88 |
-| TrueFalse | 205 |
-| WordArrangement | 181 |
-| course_word | 768 |
+| Transformation | 89 |
+| TrueFalse | 206 |
+| WordArrangement | 183 |
+| course_word | 773 |
 
 ## Диапазоны по темам
 
@@ -484,22 +484,23 @@
 - course_word: 741–759 (19)
 
 ### imperative
-- Card: 531–536 (6)
-- Categorization: 115–116 (2)
-- ConstructionMeaning: 65–67 (3)
-- DialogRestore: 76–76 (1)
-- ErrorCorrection: 192–192 (1)
-- FindTheOdd: 101–102 (2)
-- Matching: 83–83 (1)
-- Microtopic: 201–202 (2)
-- MultipleChoice·CHOICE: 207–207 (1)
-- MultipleChoice·FORWARD_CHOICE: 227–228 (2)
-- MultipleChoice·REVERSE_CHOICE: 83–83 (1)
+- Card: 531–541 (11)
+- Categorization: 115–117 (3)
+- ConstructionMeaning: 65–68 (4)
+- DialogRestore: 76–77 (2)
+- ErrorCorrection: 192–194 (3)
+- FindTheOdd: 101–103 (3)
+- Matching: 83–84 (2)
+- Microtopic: 201–203 (3)
+- MultipleChoice·CHOICE: 207–208 (2)
+- MultipleChoice·FORWARD_CHOICE: 227–229 (3)
+- MultipleChoice·REVERSE_CHOICE: 83–84 (2)
+- TextInput: 101–101 (1)
 - Topic: 32–32 (1)
-- Transformation: 87–87 (1)
-- TrueFalse: 203–204 (2)
-- WordArrangement: 180–180 (1)
-- course_word: 760–767 (8)
+- Transformation: 87–88 (2)
+- TrueFalse: 203–205 (3)
+- WordArrangement: 180–182 (3)
+- course_word: 760–772 (13)
 
 ### indirect-questions
 - Card: 341–358 (18)
