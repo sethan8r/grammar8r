@@ -1,0 +1,554 @@
+{
+  "grammar_topics": [
+    {
+      "id": 33,
+      "title": "See, Look, Watch",
+      "order": 19,
+      "isPretopic": false,
+      "description": "Пять глаголов восприятия вместо русских двух: какой взгляд see, какой look, какой watch, чем hear отличается от listen — и почему выбирают не перевод, а ситуацию",
+      "categoryId": null,
+      "searchKeywords": "смотреть или видеть, see look watch разница, слушать или слышать, hear или listen, глаголы восприятия, какой глагол для взгляда"
+    }
+  ],
+  "grammar_topic_categories": [],
+  "grammar_microtopics": [
+    {
+      "id": 208,
+      "topicId": 33,
+      "title": "Eyes and Ears · Глаза и уши: пять глаголов вместо двух",
+      "order": 1,
+      "searchKeywords": "saw tv или watched tv, как выбрать нужный глагол, пришло само или направил сам, почему словарь тут не помогает"
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 555,
+      "microtopicId": 208,
+      "title": "Зачем эта тема, почему сейчас и что будет",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Обычный вечер, и слово «смотреть» звучит в нём четыре раза. Друг протягивает телефон: **Look at this!** Через минуту спрашивает про вчерашнее сообщение: **Did you see my message?** Вы рассказываете, как провели субботу: **We watched a film at home.** А днём вы отмахнулись от продавца в магазине: **I'm just looking, thanks.** По-русски это одно слово на все четыре случая. По-английски — три разных, и переставить их местами нельзя."
+        },
+        {
+          "type": "heading",
+          "text": "Две правильные фразы с разным смыслом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните пару. Грамматической ошибки нет ни в одной: **I saw an eagle** — увидел орла, он мелькнул над дорогой и пропал. **I watched an eagle** — наблюдал за орлом, стоял и следил, как он кружит. Словарь на оба глагола даст одно русское «смотреть/видеть», а сказали вы совершенно разное. Вот почему эти пять глаголов не выучиваются переводом: выбирать приходится не слово, а ситуацию."
+        },
+        {
+          "type": "heading",
+          "text": "Что это за пятёрка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Про глаза английский говорит тремя глаголами — `see`, `look`, `watch`. Про уши двумя — `hear` и `listen`. У русского на всё это две пары, «смотреть/видеть» и «слушать/слышать», и границы внутри этих пар проходят не там, где у английского. Поэтому глаза и уши мы разбираем вместе, одной темой: механизм у них один и тот же."
+        },
+        {
+          "type": "heading",
+          "text": "Кто кого нашёл"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ось, на которой держится вся тема, простая. Дело не в органе чувств, а в том, кто кого нашёл: картинка или звук пришли к вам сами — или вы сами направили на них внимание."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Глагол",
+            "Что происходит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "see, hear",
+              "пришло само: глаза открыты — видите, уши не закроешь — слышите",
+              "**I saw a bird in the garden.**"
+            ],
+            [
+              "look, listen",
+              "вы сами направили взгляд или слух",
+              "**Look at that bird!**"
+            ],
+            [
+              "watch",
+              "держите взгляд на том, что движется и длится",
+              "**I watched the bird for an hour.**"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Птица во всех трёх строках одна и та же — меняется ваша роль. В первой строке вы её просто заметили, во второй показываете на неё пальцем, в третьей стоите и следите за ней. Русский эту разницу договаривает словами («заметил», «взгляни», «наблюдал»), английский прячет её прямо в глагол."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Та же ось работает не только на глаза и уши. **It smells nice** — запах дошёл до вас сам, **Smell this!** — понюхайте специально. Так устроены в английском все чувства, и дальше по курсу вы будете узнавать этот механизм уже без подсказки."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что мы уже знаем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Все пять глаголов нам не чужие — мы встречали их поодиночке:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "слова **to look**, **to watch**, **to listen**, **to notice** уже слиты в Словарь и не раз мелькали в примерах — но чем они отличаются друг от друга, не разбирались ни разу;",
+            "**look for** и **listen to** — из микротемы «Глагол + предлог»: эти два не любят оставаться без предлога;",
+            "**Look!** и **Listen!** — сигналы Present Continuous: «смотри, это происходит прямо сейчас»;",
+            "**You look tired** — из темы «Наречия»: без предлога `look` значит уже не «смотреть», а «выглядеть»;",
+            "**I see what you mean** — из микротемы «Глаголы без Continuous»: `see` умеет значить «понимаю»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Получается, новое в этой теме — не слова. Новое — система: по какому признаку из пяти знакомых глаголов выбирают нужный."
+        },
+        {
+          "type": "heading",
+          "text": "Почему эта тема стоит здесь, а не в начале курса"
+        },
+        {
+          "type": "paragraph",
+          "text": "Потому что половина живого материала держится на том, что по курсу идёт заметно позже:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw him crossing the street** — «видел, как он переходил дорогу»: нужна форма на `-ing` из Present Continuous;",
+            "**Have you seen this film?** — вопрос про опыт, а это Present Perfect;",
+            "**Go and see if the door is locked** — «сходи посмотри, закрыта ли дверь»: `if` в значении «ли» мы собирали в «Косвенных вопросах»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В начале курса пришлось бы остановиться на «look — смотреть, see — видеть» и замолчать. Сейчас всё перечисленное мы уже собирали своими руками, поэтому можно говорить не про перевод слов, а про то, как носитель между ними выбирает."
+        },
+        {
+          "type": "heading",
+          "text": "Карта темы"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Микротема",
+            "Что даст",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "See, look, watch",
+              "какой глагол для какого взгляда",
+              "I saw it. / Look at me. / I watched TV."
+            ],
+            [
+              "Hear, listen",
+              "та же ось на слух и адрес to",
+              "Can you hear that?"
+            ],
+            [
+              "Видел, как он…",
+              "конструкция, которой у русского нет",
+              "I saw him cross the street."
+            ],
+            [
+              "Искать",
+              "look for, watch for, search",
+              "What are you looking for?"
+            ],
+            [
+              "Понимаю, а не вижу",
+              "голова, встречи и новости вместо глаз",
+              "I see. / See you!"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Переводить эти глаголы по одному бесполезно — в словаре они почти одинаковые. Перед каждой фразой отвечайте себе на один вопрос: это пришло ко мне само или я сам туда посмотрел?"
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Про глаза английский говорит тремя глаголами (`see`, `look`, `watch`), про уши двумя (`hear`, `listen`), а русский обходится двумя парами — отсюда и путаница. Выбор идёт по одному признаку: картинка или звук пришли сами (`see`, `hear`), вы сами направили внимание (`look`, `listen`) или держите взгляд на том, что длится (`watch`). Одна и та же птица даёт **I saw a bird**, **Look at that bird!** и **I watched the bird for an hour** — меняется не птица, а ваша роль.",
+      "examples": [
+        {
+          "ru": "Я увидел сокола над дорогой.",
+          "en": "I saw a hawk above the road."
+        },
+        {
+          "ru": "Посмотри на это фото!",
+          "en": "Look at this photo!"
+        },
+        {
+          "ru": "Вчера мы смотрели матч дома.",
+          "en": "We watched the match at home."
+        },
+        {
+          "ru": "Ты слышишь этот шум?",
+          "en": "Can you hear that noise?"
+        },
+        {
+          "ru": "Лена слушает подкаст по дороге на работу.",
+          "en": "Lena listens to a podcast on her way to work."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, что нужен watch, а не see?",
+        "Почему нельзя просто выучить, что look — это «смотреть»?",
+        "Разве see и hear не значат то же самое, что look и listen?"
+      ]
+    },
+    {
+      "id": 556,
+      "microtopicId": 208,
+      "title": "Почему русскому здесь сложнее, чем кажется",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "С ушами кажется, что всё просто: пара «слышать/слушать» у русского есть, значит она ляжет на `hear` и `listen` один в один. Кажется — и подводит. Границы у этих пар разъехались."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски совершенно нормально сказать: «**Слушай**, что это за шум?» — хотя никто ничего не слушает, шум сам дошёл до ушей и всех напряг. Англичанин в этой же ситуации скажет **Can you hear that?**, потому что звук пришёл сам. А **Listen to that noise** прозвучит как приглашение сесть и вслушаться — будто вы изучаете этот шум."
+        },
+        {
+          "type": "heading",
+          "text": "На глазах пары нет вовсе"
+        },
+        {
+          "type": "paragraph",
+          "text": "С глазами ещё хуже: там у русского одно «смотреть» на три английских глагола. Выбирать не из чего, поэтому мозг хватает первое слово из словаря и ставит его везде. Так и появляется **I saw TV yesterday** — вместо **I watched TV yesterday**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Смотреть телевизор» по-русски выглядит как взгляд на предмет, а на самом деле это часы у экрана — то есть длящийся процесс. Поэтому **I saw TV** ✗ → **I watched TV** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три породы ошибок"
+        },
+        {
+          "type": "paragraph",
+          "text": "Из этого растут ровно три типа промахов — и вся тема дальше занимается именно ими:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что происходит",
+            "Как выглядит ошибка",
+            "А надо так"
+          ],
+          "rows": [
+            [
+              "взят не тот глагол",
+              "**I saw TV all evening.** ✗",
+              "**I watched TV all evening.** ✓"
+            ],
+            [
+              "потерян или взят чужой предлог",
+              "**Look me!** ✗ · **Listen me!** ✗",
+              "**Look at me!** ✓ · **Listen to me!** ✓"
+            ],
+            [
+              "русское «как» внутри фразы",
+              "**I saw how he opened the door.** ✗",
+              "**I saw him open the door.** ✓"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая порода — смысловая: фразу поймут, но поймут не то. Вторая и третья — грамматические: так просто не говорят. Все три лечатся не зубрёжкой списков, а одним вопросом — кто кого нашёл."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ошибка с предлогом ходит в обе стороны. Русское «смотреть **на** птиц» тянет вставить лишнее at к watch (**I watched at the birds** ✗), а «смотреть картину» тянет убрать нужное at у look (**I looked the picture** ✗). Правильно: **I watched the birds** ✓ и **I looked at the picture** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше мы разберём каждую породу отдельно. Начнём с глаз — и начнём не с перевода слов, а с того самого вопроса: пришло само или вы сами посмотрели?"
+        }
+      ],
+      "theorySummary": "Русские пары «смотреть/видеть» и «слушать/слышать» с английскими не совпадают: мы говорим «слушай, что за шум?» там, где англичанин скажет **Can you hear that?**, и «смотреть телевизор» там, где нужен watch, а не see. Отсюда три типичные ошибки: взят не тот глагол (**I saw TV** ✗), потерян или подставлен чужой предлог (**Look me!** ✗, **I watched at the birds** ✗) и вставлено русское «как» (**I saw how he opened the door.** ✗). Проверочный вопрос один: пришло само или вы сами направили внимание?",
+      "examples": [
+        {
+          "ru": "Я слышал странный звук ночью.",
+          "en": "I heard a strange sound at night."
+        },
+        {
+          "ru": "Ты меня вообще слушаешь?",
+          "en": "Are you listening to me?"
+        },
+        {
+          "ru": "Дети весь вечер смотрели мультики.",
+          "en": "The kids watched cartoons all evening."
+        },
+        {
+          "ru": "Посмотри на расписание, пожалуйста.",
+          "en": "Look at the timetable, please."
+        },
+        {
+          "ru": "Я видел, как Лена выходила из офиса.",
+          "en": "I saw Lena leaving the office."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «слушай, что за шум?» нельзя перевести через listen?",
+        "Откуда берётся лишнее at в I watched at the birds?",
+        "Чем I saw him open the door лучше, чем I saw how he opened the door?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 555,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 121,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 555,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 234,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 555,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 106,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 556,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 198,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 556,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 209,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 556,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 88,
+      "orderInCard": 2
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "useful_words",
+      "nameRus": "Полезные слова",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "useful_words",
+      "nameRus": "Полезные слова",
+      "groupId": "useful_words",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 209,
+      "statements": [
+        {
+          "en": "I listened the radio in the car.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I can hear the neighbours again.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We watched the fireworks from the balcony.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Kate looked the menu for a long time.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My sister saw TV until midnight.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "у listen обязателен адрес to — I listened to the radio. У look адрес тоже обязателен: Kate looked at the menu. А сидеть до полуночи у экрана — это watch, see так не работает: My sister watched TV until midnight. Во втором и третьем предложениях всё на месте: у watch никакого предлога не нужно."
+    }
+  ],
+  "word_arrangement_exercises": [],
+  "multiple_choice_exercises": [
+    {
+      "id": 234,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вчера вечером мы дома смотрели новый сериал.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We saw a new series at home last night.",
+          "isCorrect": false
+        },
+        {
+          "text": "We watched a new series at home last night.",
+          "isCorrect": true
+        },
+        {
+          "text": "We looked at a new series at home last night.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "сериал идёт во времени, и вы держите на нём взгляд — это watch. See сказало бы «мельком увидели», а look at годится для предмета, на который вы посмотрели, а не для того, что длится весь вечер."
+    },
+    {
+      "id": 88,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I was watching the door all evening.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я весь вечер следил за дверью.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я весь вечер видел дверь.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я весь вечер смотрел на дверь.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "watch — держать взгляд на чём-то, что может измениться, то есть «следить». «Видел дверь» было бы I saw the door, а «посмотрел на дверь» — I looked at the door."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 198,
+      "wrongSentence": "My brother saw a hockey game on TV all evening.",
+      "options": [
+        {
+          "text": "My brother looked at a hockey game on TV all evening.",
+          "isCorrect": false
+        },
+        {
+          "text": "My brother looked a hockey game on TV all evening.",
+          "isCorrect": false
+        },
+        {
+          "text": "My brother watched a hockey game on TV all evening.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "матч по телевизору идёт весь вечер, и человек следит за ним — это watch. Look at годится для предмета, на который вы бросили взгляд, а без at глагол look вообще не берёт объект."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 121,
+      "taskDescription": "распредели ситуации по тому, каким глаголом о них скажут.",
+      "categories": [
+        {
+          "title": "see",
+          "items": [
+            "Кошка мелькнула в окне",
+            "Заметил Тома в толпе"
+          ]
+        },
+        {
+          "title": "look at",
+          "items": [
+            "Разглядываю карту метро",
+            "Смотрю на экран телефона"
+          ]
+        },
+        {
+          "title": "watch",
+          "items": [
+            "Час сижу у сериала",
+            "Слежу за супом на плите"
+          ]
+        }
+      ],
+      "explanation": "see — картинка попала в глаза сама, вы её не искали; look at — вы сами направили взгляд на предмет; watch — держите взгляд на том, что движется или длится во времени."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 106,
+      "groupDescription": "Три глагола про внимание, которое вы направили сами, один — про то, что дошло до вас без вашего участия",
+      "items": [
+        {
+          "text": "look at",
+          "isOdd": false
+        },
+        {
+          "text": "listen to",
+          "isOdd": false
+        },
+        {
+          "text": "watch",
+          "isOdd": false
+        },
+        {
+          "text": "hear",
+          "isOdd": true
+        }
+      ],
+      "explanation": "look at, listen to и watch — это действия: вы сами направляете взгляд или слух и держите внимание. Hear работает наоборот: уши не закроешь, звук доходит сам, выбирать тут нечего."
+    }
+  ]
+}
