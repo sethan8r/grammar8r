@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 550 |
-| Categorization | 120 |
+| Card | 554 |
+| Categorization | 121 |
 | Category | 8 |
-| ConstructionMeaning | 70 |
-| DialogRestore | 80 |
-| ErrorCorrection | 197 |
-| FindTheOdd | 105 |
-| Matching | 87 |
-| Microtopic | 206 |
-| MultipleChoice·CHOICE | 210 |
-| MultipleChoice·FORWARD_CHOICE | 233 |
-| MultipleChoice·REVERSE_CHOICE | 87 |
+| ConstructionMeaning | 71 |
+| DialogRestore | 81 |
+| ErrorCorrection | 198 |
+| FindTheOdd | 106 |
+| Matching | 88 |
+| Microtopic | 207 |
+| MultipleChoice·CHOICE | 211 |
+| MultipleChoice·FORWARD_CHOICE | 234 |
+| MultipleChoice·REVERSE_CHOICE | 88 |
 | TableFill | 42 |
 | TextInput | 103 |
 | Topic | 33 |
-| Transformation | 92 |
-| TrueFalse | 208 |
-| WordArrangement | 186 |
-| course_word | 783 |
+| Transformation | 93 |
+| TrueFalse | 209 |
+| WordArrangement | 187 |
+| course_word | 788 |
 
 ## Диапазоны по темам
 
@@ -484,23 +484,23 @@
 - course_word: 741–759 (19)
 
 ### imperative
-- Card: 531–549 (19)
-- Categorization: 115–119 (5)
-- ConstructionMeaning: 65–69 (5)
-- DialogRestore: 76–79 (4)
-- ErrorCorrection: 192–196 (5)
-- FindTheOdd: 101–104 (4)
-- Matching: 83–86 (4)
-- Microtopic: 201–205 (5)
-- MultipleChoice·CHOICE: 207–209 (3)
-- MultipleChoice·FORWARD_CHOICE: 227–232 (6)
-- MultipleChoice·REVERSE_CHOICE: 83–86 (4)
+- Card: 531–553 (23)
+- Categorization: 115–120 (6)
+- ConstructionMeaning: 65–70 (6)
+- DialogRestore: 76–80 (5)
+- ErrorCorrection: 192–197 (6)
+- FindTheOdd: 101–105 (5)
+- Matching: 83–87 (5)
+- Microtopic: 201–206 (6)
+- MultipleChoice·CHOICE: 207–210 (4)
+- MultipleChoice·FORWARD_CHOICE: 227–233 (7)
+- MultipleChoice·REVERSE_CHOICE: 83–87 (5)
 - TextInput: 101–102 (2)
 - Topic: 32–32 (1)
-- Transformation: 87–91 (5)
-- TrueFalse: 203–207 (5)
-- WordArrangement: 180–185 (6)
-- course_word: 760–782 (23)
+- Transformation: 87–92 (6)
+- TrueFalse: 203–208 (6)
+- WordArrangement: 180–186 (7)
+- course_word: 760–787 (28)
 
 ### indirect-questions
 - Card: 341–358 (18)

@@ -46,6 +46,13 @@
       "title": "Do It and, Do It or · Команда-условие",
       "order": 5,
       "searchKeywords": "условие без if, or в значении а то, как сказать а то, and или or после команды, or else и otherwise"
+    },
+    {
+      "id": 206,
+      "topicId": 32,
+      "title": "Where Commands Are Normal · Где команда — норма",
+      "order": 6,
+      "searchKeywords": "рецепт по-английски, таблички и знаки, ответить на have a nice day, feel free to ask, please в письме"
     }
   ],
   "grammar_cards": [
@@ -2656,6 +2663,476 @@
         "Почему Don't move and you'll be fine не звучит как угроза?",
         "Можно ли поставить отрицание сразу в обе половины?"
       ]
+    },
+    {
+      "id": 550,
+      "microtopicId": 206,
+      "title": "Инструкции, рецепты и кнопки",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Возьмите коробку с лекарством, рецепт в интернете, инструкцию к чайнику или собственный телефон — и вы обнаружите, что всё это написано командами. Ни одной из них никто не возмущается, хотя ни `please`, ни вопроса там нет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина — та же ось, что держит всю тему. Инструкция ничего не выгадывает для себя: она нужна делу и вам же, читателю. Поэтому голая команда здесь не задевает никого, и другого способа написать инструкцию у английского попросту нет."
+        },
+        {
+          "type": "heading",
+          "text": "Русский рецепт устроен по-другому"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски шаг рецепта пишут инфинитивом — «Добавить соль, перемешать, влить молоко» — или обращаются на «вы»: «Добавьте соль». Английский оба варианта отвергает и знает ровно один: императив."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Add the salt.**",
+            "**Stir for two minutes.**",
+            "**Pour in the milk.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русская привычка тянет в шаг рецепта инфинитив или форму на `-ing`: **To add the salt** ✗ и **Adding the salt** ✗. Ни то, ни другое шагом инструкции не является: `To add` — это «чтобы добавить», а `Adding` — «добавление», то есть название процесса. Шаг всегда стоит в базовой форме, потому что инструкция обращается к тому, кто читает её прямо сейчас."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где вы видите это каждый день"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "кухня: **Preheat the oven to 180 degrees.** и **Add the flour and mix well.**",
+            "техника: **Press and hold the button for three seconds.**",
+            "дорога: **Go straight, then turn left at the lights.**",
+            "экран телефона: **Tap Continue.** · **Enter your email.** · **Try again later.** — и кнопки, которые вы жмёте каждый день: **Sign in**, **Skip**, **Cancel**, **Submit**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Шаги выстраиваются в цепочку знакомыми словами из темы «Linking Words»: **First cut the vegetables, then add them to the pan, and finally pour in the sauce.**"
+        },
+        {
+          "type": "heading",
+          "text": "Инструкция умеет и запрещать"
+        },
+        {
+          "type": "paragraph",
+          "text": "Половина реальных инструкций не велит, а предостерегает, и собирается это обычным запретом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't add the salt until the end.**",
+            "**Do not overcook the fish.** — полная форма `Do not` вместо `don't` даёт печатный официальный тон, как на табличках",
+            "**Never leave the machine on overnight.** — `never` из микротемы «Громкость» строже: не «сегодня не делай», а «не делай никогда»"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В коротких инструкциях артикли часто выпадают — **Press button**, **Insert card**, **Add salt to taste**. Это экономия места на кнопке и на упаковке, а не правило: узнавать такое нужно, а писать так самому — нет."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Инструкции, рецепты и кнопки по-английски пишутся императивом, и это никого не задевает: действие нужно делу и самому читателю. Русский шаг рецепта — инфинитив («Добавить соль») или форма на «вы», английский знает только базовую форму: **Add the salt. Stir for two minutes. Pour in the milk.** Поэтому **To add the salt** ✗ («чтобы добавить») и **Adding the salt** ✗ («добавление») шагом инструкции не бывают. Так же устроены техника (**Press and hold the button**), дорога (**Go straight, then turn left**) и экран телефона (**Tap Continue**, **Enter your email**). Запрет собирается обычно: **Don't add the salt until the end**, печатное **Do not overcook the fish**, строгое **Never leave the machine on overnight.** Порядок шагов держат first / then / finally. В коротких инструкциях артикли выпадают (**Press button**) — это узнавание, а не образец.",
+      "examples": [
+        {
+          "ru": "Добавьте муку и хорошо перемешайте.",
+          "en": "Add the flour and mix well."
+        },
+        {
+          "ru": "Разогрейте духовку до 180 градусов.",
+          "en": "Preheat the oven to 180 degrees."
+        },
+        {
+          "ru": "Нажмите и удерживайте кнопку три секунды.",
+          "en": "Press and hold the button for three seconds."
+        },
+        {
+          "ru": "Не добавляйте соль до самого конца.",
+          "en": "Don't add the salt until the end."
+        },
+        {
+          "ru": "Сначала нарежьте овощи, потом положите их на сковороду.",
+          "en": "First cut the vegetables, then add them to the pan."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя написать шаг рецепта через «Adding the salt»?",
+        "Чем Do not overcook отличается от Don't overcook?",
+        "Почему на кнопках и упаковках пропадают артикли?"
+      ]
+    },
+    {
+      "id": 551,
+      "microtopicId": 206,
+      "title": "Таблички, объявления и реклама",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Первый день в чужом городе — это чтение табличек. Дверь, метро, парк, лифт, музей: везде короткие команды, которые нужно понимать мгновенно, потому что на размышления нет ни секунды."
+        },
+        {
+          "type": "heading",
+          "text": "Запрет на табличке"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Do not enter.** · **Do not disturb.** · **Keep out.** · **Keep off the grass.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на полную форму `Do not` вместо привычного `don't` — мы встречали её ещё в «Основах». На табличке она не строже, а просто официальнее: так печатают правила."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Push` и `Pull` на дверях — то, что сбивает буквально в первый день. Русский ищет глазами «от себя» и «на себя», а англичанин пишет само действие: **Push** — толкай, **Pull** — тяни. Перепутать легко ещё и потому, что `Pull` похоже на русское «пуль-» в значении «толкать» — а значит оно ровно обратное."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "No + слово"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`No smoking`, `No parking`, `No entry`, `No photos` — это не императив, но работа у него та же: короткий запрет на стене. Русская табличка в этом месте ставит инфинитив («Не курить!»), и он в английский не переносится."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Not smoke** ✗ и **No smoke** ✗ → **No smoking** ✓. Особенно коварен второй вариант: `smoke` без `-ing` — это существительное «дым», так что табличка `No smoke` обещала бы «дыма нет». Почему после `No` встаёт именно форма на `-ing`, разберём в теме «Герундий после глагола»; пока достаточно запомнить связку целиком."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Предупреждение со словом-сигналом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Не всякая табличка запрещает — многие просто предупреждают, и тогда впереди стоит слово-маячок: **Caution: wet floor.** · **Warning: high voltage.** · **Beware of the dog.** Рядом те же по смыслу команды: **Watch your step.** и **Mind the gap.** — последнюю вы услышите в лондонском метро на каждой станции, а `mind` в этой роли разберём в теме «Одно слово — много значений»."
+        },
+        {
+          "type": "heading",
+          "text": "А как сказать это живому человеку"
+        },
+        {
+          "type": "paragraph",
+          "text": "Табличка и обращение к человеку — разные вещи, и это прямое следствие оси темы: на стене действие нужно делу, а когда вы подходите к курящему соседу, оно нужно вам. Поэтому голое **Don't smoke here** звучит резко, а живые варианты мягче: **Sorry, you can't smoke here.** или **Could you put that out, please?**"
+        },
+        {
+          "type": "heading",
+          "text": "Реклама командует точно так же"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Buy now.** · **Book today.** · **Don't miss out.** · **Order online and get free delivery.** Приказом это не воспринимается по той же причине: продавец предлагает выгоду вам, а не требует чего-то для себя."
+        }
+      ],
+      "theorySummary": "Таблички и объявления пишутся командами: **Do not enter**, **Keep out**, **Keep off the grass** — полная форма `Do not` здесь просто официальная, как в печатных правилах. На дверях стоит само действие: **Push** (толкай) и **Pull** (тяни). Запрет без глагола собирается формулой `No + слово`: **No smoking**, **No parking**, **No entry**; русский инфинитив «Не курить!» сюда не переносится — **Not smoke** ✗ и **No smoke** ✗ (smoke без -ing значит «дым»). Предупреждения идут со словом-сигналом: **Caution: wet floor**, **Beware of the dog**, **Watch your step**, **Mind the gap**. Живому человеку то же самое говорят мягче, чем написано на стене: **Sorry, you can't smoke here** вместо голого **Don't smoke here**. Реклама командует по той же причине, что и табличка: **Buy now**, **Book today**, **Don't miss out.**",
+      "examples": [
+        {
+          "ru": "По газону не ходить.",
+          "en": "Keep off the grass."
+        },
+        {
+          "ru": "Не курить.",
+          "en": "No smoking."
+        },
+        {
+          "ru": "Осторожно, злая собака.",
+          "en": "Beware of the dog."
+        },
+        {
+          "ru": "Осторожно, мокрый пол.",
+          "en": "Caution: wet floor."
+        },
+        {
+          "ru": "Бронируйте сегодня, мест почти не осталось.",
+          "en": "Book today, there are only a few seats left."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему на табличках пишут Do not, а в разговоре don't?",
+        "Почему No smoking, а не No smoke?",
+        "Как попросить незнакомца не курить, чтобы это не прозвучало грубо?"
+      ]
+    },
+    {
+      "id": 552,
+      "microtopicId": 206,
+      "title": "Пожелания и забота — команды-подарки",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Самые тёплые фразы английского языка по форме — обычные команды. **Have a nice day.** — это буквально «имей хороший день», приказ в чистом виде. И ровно эти фразы вы слышите от бариста, врача, соседа и незнакомца на улице."
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина всё та же: действие нужно слушателю. Вам желают хорошего дня, а не требуют его обеспечить, — поэтому команда читается как подарок."
+        },
+        {
+          "type": "heading",
+          "text": "Что говорят каждый день"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "прощание: **Have a nice day.** · **Have a good weekend.** · **Take care.** · **Have a safe trip.**",
+            "перед делом: **Good luck.** · **Have fun.** · **Enjoy the show.**",
+            "за столом: **Enjoy your meal.** · короткое **Enjoy!**",
+            "когда человек болеет или устал: **Get well soon.** · **Sleep well.** · **Take it easy.**",
+            "в дорогу и в гости: **Drive safely.** · **Say hi to your mum.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Приглашения хозяина дома"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Help yourself.** — «угощайся» · **Make yourself at home.** — «чувствуй себя как дома» · **Take your time.** — «не торопись». Эти три берём готовыми формулами; как устроено само слово `yourself`, разберём в теме «Возвратные и взаимные местоимения»."
+        },
+        {
+          "type": "heading",
+          "text": "Где калька ломается"
+        },
+        {
+          "type": "paragraph",
+          "text": "Почти все эти фразы по-русски собираются другими словами, и дословный перевод либо не существует, либо значит другое:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Береги себя» → **Take care** ✓, а не **Keep yourself** ✗ — по-английски это вообще ни о чём",
+            "«Угощайся» → **Help yourself** ✓; похожее **Treat yourself** значит другое — «побалуй себя», купи себе что-нибудь приятное",
+            "«Выздоравливай» → **Get well soon** ✓, дословного «be healthy» в этой роли нет",
+            "«Приятного аппетита» — точной фразы у английского нет вовсе: официант скажет **Enjoy your meal**, дома скажут просто **Enjoy!**, а французское **Bon appétit** звучит в шутку или манерно"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как на это отвечать"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь русского спасает одна короткая формула, которой обычно никто не учит, — и без неё разговор обрывается на половине:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Have a nice day!** — **Thanks, you too!**",
+            "**Have a good weekend!** — **You too!** или **Same to you!**",
+            "**Good luck!** — **Thanks!**",
+            "**Get well soon!** — **Thanks, I will.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**You also** ✗ → **You too** ✓. Слово `also` в конец фразы не ставится вовсе — мы разбирали это ещё в «Основах», и здесь ошибка вылезает чаще всего."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`You too` годится только тогда, когда пожелание можно вернуть. Официанту, который принёс еду и сказал **Enjoy your meal**, отвечают просто **Thank you**: он-то не ест. Носители сами шутят про эту оговорку — значит, ошибаются на ней регулярно, и заметить её стоит заранее."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Самые тёплые фразы английского — по форме команды: **Have a nice day**, **Take care**, **Have fun**, **Good luck**, **Enjoy your meal**, **Get well soon**, **Sleep well**, **Drive safely**, **Say hi to your mum.** Приказом они не звучат, потому что действие нужно слушателю. Приглашения хозяина — готовые формулы: **Help yourself**, **Make yourself at home**, **Take your time.** Дословный перевод с русского здесь ломается: «береги себя» — **Take care** (не **Keep yourself** ✗), «угощайся» — **Help yourself** (а **Treat yourself** значит «побалуй себя»), «приятного аппетита» точной фразы не имеет вовсе. Отвечают на пожелание формулой **Thanks, you too!** / **You too!** / **Same to you** — **You also** ✗ так не работает. И `you too` уместно, только если пожелание можно вернуть: официанту на **Enjoy your meal** отвечают **Thank you**.",
+      "examples": [
+        {
+          "ru": "Хорошего дня!",
+          "en": "Have a nice day!"
+        },
+        {
+          "ru": "Береги себя.",
+          "en": "Take care."
+        },
+        {
+          "ru": "Приятного аппетита.",
+          "en": "Enjoy your meal."
+        },
+        {
+          "ru": "Угощайся, тут на всех хватит.",
+          "en": "Help yourself, there's enough for everyone."
+        },
+        {
+          "ru": "Спасибо, и тебе того же!",
+          "en": "Thanks, you too!"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему Have a nice day не звучит как приказ?",
+        "Чем Help yourself отличается от Treat yourself?",
+        "Когда на пожелание нельзя ответить you too?"
+      ]
+    },
+    {
+      "id": 553,
+      "microtopicId": 206,
+      "title": "Письмо и работа: Feel free, Don't hesitate, Kindly",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Здесь нас ждёт то, что выглядит как противоречие всей теме. Мы разобрали, что **Give me the menu, please** в кафе звучит распоряжением и `please` его не спасает. А в рабочей почте фраза **Please send me the file by Friday** совершенно нормальна, и никто на неё не обижается."
+        },
+        {
+          "type": "heading",
+          "text": "Почему в письме команда с please — норма"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница не в вежливости, а в жанре, и причин две."
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая: письмо не разговор. В кафе вы стоите над человеком и ждёте ответа прямо сейчас — у него нет пространства сказать «нет». Письмо читают, когда удобно, и отказаться, перенести срок или задать встречный вопрос можно спокойно: свобода собеседника никуда не делась, поэтому превращать просьбу в вопрос незачем."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая: строка письма читается как пункт задачи, а не как обращение к личности. **Please note that the office is closed on Monday** — это не «я тобой командую», это «вот факт, учтите»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Граница проходит не по слову `please`, а по каналу. Одна и та же фраза **Please send me the file** в почте или в таск-трекере — норма; она же, сказанная вслух коллеге через стол, — уже распоряжение, и живее там **Could you send me the file?** Наоборот тоже верно: длинное **I was wondering if you could possibly send me the file** в рабочем письме выглядит не вежливо, а натужно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формулы, которые вы увидите в любой переписке"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Please find attached the report.** — «во вложении отчёт»",
+            "**Please note that the deadline has changed.** — «обратите внимание»",
+            "**See below.** — «смотрите ниже»",
+            "**Let me know if you need anything else.** — уже знакомое по микротеме «Кто действует»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Не стесняйтесь» по-английски"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Feel free to…` — дословно «чувствуйте себя свободно сделать что-то», по-живому «не стесняйтесь, спокойно делайте»: **Feel free to ask any questions.** и **Feel free to call me after six.** Формальнее и суше звучит `Don't hesitate to…`: **Don't hesitate to contact us at any time.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Don't be shy to ask** ✗ → **Feel free to ask** ✓. Русское «не стесняйтесь» тянет за собой `shy`, но по-английски `shy` — это про робость характера, так говорят ребёнку на детской площадке. В письме коллеге фраза звучит странно, почти по-родительски."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Kindly` — слово-мина. Русское «будьте любезны» звучит вежливо, поэтому рука тянется написать **Kindly reply by Friday**, а британец и американец прочитают это холодно-раздражённо, примерно как «будьте уж так добры, наконец ответьте». Живая замена — **Could you please reply by Friday?** Обратная сторона тоже важна: если `Kindly` написали ВАМ, обижаться обычно не на что — в индийском английском это слово совершенно нейтральное и стоит в каждом втором деловом письме."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Микротема о жанрах, где команда — обычная норма. Инструкции и рецепты пишутся императивом (**Add the salt. Stir for two minutes.**), а **To add the salt** ✗ и **Adding the salt** ✗ шагом не бывают; запрет в инструкции — **Don't add the salt until the end** или печатное **Do not overcook the fish.** Таблички: **Do not enter**, **Keep off the grass**, **Push** / **Pull**, формула `No + слово` (**No smoking**, а не **No smoke** ✗), предупреждения со словом-сигналом (**Caution: wet floor**, **Beware of the dog**). Живому человеку то же говорят мягче: **Sorry, you can't smoke here.** Пожелания — тоже команды: **Have a nice day**, **Take care**, **Enjoy your meal**, **Help yourself**; отвечают на них **Thanks, you too!** (**You also** ✗), а официанту на **Enjoy your meal** — просто **Thank you.** В письме команда с `please` — норма, потому что письмо читают когда удобно и строка читается как пункт задачи: **Please send me the file by Friday**, **Please find attached the report**, **Please note that…**, **Let me know if…** Сказанная вслух, та же фраза становится распоряжением — там нужен вопрос. «Не стесняйтесь» — **Feel free to ask** ✓ или формальное **Don't hesitate to contact us**, но не **Don't be shy to ask** ✗. И `Kindly reply by Friday` звучит раздражённо: живее **Could you please reply by Friday?**",
+      "examples": [
+        {
+          "ru": "Пришлите мне файл до пятницы, пожалуйста.",
+          "en": "Please send me the file by Friday."
+        },
+        {
+          "ru": "Обратите внимание, что в понедельник офис закрыт.",
+          "en": "Please note that the office is closed on Monday."
+        },
+        {
+          "ru": "Пожалуйста, посмотрите отчёт во вложении.",
+          "en": "Please find attached the report."
+        },
+        {
+          "ru": "Спрашивайте, не стесняйтесь.",
+          "en": "Feel free to ask."
+        },
+        {
+          "ru": "Обращайтесь к нам в любое время, не стесняйтесь.",
+          "en": "Don't hesitate to contact us at any time."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему please в письме нормально, а в кафе звучит как распоряжение?",
+        "Чем Feel free to ask отличается от Don't hesitate to ask?",
+        "Что делать, если мне самому написали Kindly reply by Friday?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3006,6 +3483,78 @@
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 79,
       "orderInCard": 2
+    },
+    {
+      "cardId": 550,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 233,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 550,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 197,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 550,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 186,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 551,
+      "exerciseType": "MATCHING",
+      "exerciseId": 87,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 551,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 210,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 551,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 105,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 552,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 80,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 552,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 87,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 552,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 208,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 553,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 120,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 553,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 70,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 553,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 92,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -3046,6 +3595,14 @@
       "cardId": 549,
       "title": "Скажи по-английски",
       "userInstruction": "AI пришлёт русскую фразу. Скажите её по-английски — там, где это подходит, короткой командой с and или or, как в этой микротеме.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "imperative_card553_ex1",
+      "cardId": 553,
+      "title": "Смягчи сообщение коллеге",
+      "userInstruction": "AI пришлёт резкое русское сообщение коллеге. Напишите его по-английски так, чтобы оно не звучало как приказ.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -3250,6 +3807,46 @@
       "transcription": "[ˈʌðəwaɪz]",
       "microtopicId": 205,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 783,
+      "word": "to add",
+      "translation": "добавлять",
+      "transcription": "[æd]",
+      "microtopicId": 206,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 784,
+      "word": "to pour",
+      "translation": "лить, наливать",
+      "transcription": "[pɔː]",
+      "microtopicId": 206,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 785,
+      "word": "to hesitate",
+      "translation": "стесняться, колебаться",
+      "transcription": "[ˈhezɪteɪt]",
+      "microtopicId": 206,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 786,
+      "word": "meal",
+      "translation": "приём пищи, еда",
+      "transcription": "[miːl]",
+      "microtopicId": 206,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 787,
+      "word": "kindly",
+      "translation": "любезно, будьте добры",
+      "transcription": "[ˈkaɪndli]",
+      "microtopicId": 206,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -3408,6 +4005,37 @@
         }
       ],
       "explanation": "после will всегда стоит первая форма глагола — will forget, а не will forgot. И or соединяет две половины изнутри: начинать с него предложение нельзя, слева от or должна стоять сама команда."
+    },
+    {
+      "id": 208,
+      "statements": [
+        {
+          "en": "Have a safe trip!",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Keep yourself, it's freezing outside.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Take your time, nobody is waiting.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "— Have a nice evening! — Thanks, you also!",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Get well soon, Oliver!",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "«береги себя» по-английски — take care, а keep yourself не значит ничего. И пожелание возвращают словами you too, а не you also."
     }
   ],
   "word_arrangement_exercises": [
@@ -3522,6 +4150,25 @@
         "going"
       ],
       "explanation": "после and идёт целая часть с подлежащим и обычным порядком слов: we'll go. Инфинитив с to после and не нужен, а перестановка will we превратила бы половину в вопрос."
+    },
+    {
+      "id": 186,
+      "situationRu": "RU: Выключите телефон и подождите десять секунд.",
+      "correctSentence": "Turn off the phone and wait ten seconds.",
+      "words": [
+        "Turn off",
+        "the phone",
+        "and",
+        "wait",
+        "ten seconds"
+      ],
+      "distractors": [
+        "to turn off",
+        "turning off",
+        "you",
+        "please to wait"
+      ],
+      "explanation": "в инструкции обе команды идут базовой формой и соединяются обычным and. Подлежащее you в команде не ставится, а инфинитив с to шагом инструкции не бывает."
     }
   ],
   "multiple_choice_exercises": [
@@ -3797,6 +4444,69 @@
         }
       ],
       "explanation": "or в такой команде значит «а то, иначе», а не «или»: выбора здесь не предлагают, а предупреждают о последствии."
+    },
+    {
+      "id": 233,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Разогрейте сковороду и налейте немного масла.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "To heat the pan and pour some oil.",
+          "isCorrect": false
+        },
+        {
+          "text": "Heat the pan and pour some oil.",
+          "isCorrect": true
+        },
+        {
+          "text": "Heating the pan and pouring some oil.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "шаг инструкции стоит в базовой форме глагола. To heat значило бы «чтобы разогреть», а heating — «разогревание», то есть название процесса, а не команду."
+    },
+    {
+      "id": 210,
+      "choiceType": "CHOICE",
+      "prompt": "Please ___ the door closed at night.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "watch",
+          "isCorrect": false
+        },
+        {
+          "text": "beware",
+          "isCorrect": false
+        },
+        {
+          "text": "keep",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "keep в табличках значит «держи так и дальше»: keep the door closed, keep out, keep off the grass. Watch предупреждает о внезапной опасности, а beware требует of и самого источника опасности: beware of the dog."
+    },
+    {
+      "id": 87,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Help yourself to some cake.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Угощайся тортом.",
+          "isCorrect": true
+        },
+        {
+          "text": "Побалуй себя тортом.",
+          "isCorrect": false
+        },
+        {
+          "text": "Помоги себе с тортом.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "help yourself — приглашение хозяина взять угощение самому. «Побалуй себя» было бы treat yourself, а дословное «помоги себе» смысла этой фразы не передаёт."
     }
   ],
   "text_input_exercises": [
@@ -3977,6 +4687,38 @@
         }
       ],
       "explanation": "последствие висит на действии, которого делать не надо, поэтому нужна сборка с and. Вариант с or говорил бы «расскажи ей, а то все узнают» — то есть ровно наоборот."
+    },
+    {
+      "id": 80,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have a good weekend, Kate!"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "See you on Monday."
+        }
+      ],
+      "options": [
+        {
+          "text": "Thanks, you also!",
+          "isCorrect": false
+        },
+        {
+          "text": "Thanks, same for you!",
+          "isCorrect": false
+        },
+        {
+          "text": "Thanks, you too!",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "пожелание возвращают формулой you too. Слово also в конец фразы не ставится, а привычного русскому «same for you» в английском нет — говорят same to you."
     }
   ],
   "matching_exercises": [
@@ -4071,6 +4813,33 @@
         }
       ],
       "explanation": "левая половина говорит, что надо сделать, а правая — что случится, если этого не сделать. Поэтому справа стоит будущее время, а само «не» нигде не пишется: его уже несёт or."
+    },
+    {
+      "id": 87,
+      "taskDescription": "соедини табличку с тем, что она означает.",
+      "pairs": [
+        {
+          "left": "Keep off the grass",
+          "right": "По газону не ходить"
+        },
+        {
+          "left": "Do not disturb",
+          "right": "Не беспокоить"
+        },
+        {
+          "left": "Do not feed the animals",
+          "right": "Животных не кормить"
+        },
+        {
+          "left": "Fasten your seat belt",
+          "right": "Пристегните ремень"
+        },
+        {
+          "left": "Mind the gap",
+          "right": "Осторожно, щель у платформы"
+        }
+      ],
+      "explanation": "одни таблички запрещают действие прямо (Keep off, Do not disturb), другие обходятся формулой No плюс слово, а третьи не запрещают вовсе, а предупреждают об опасности."
     }
   ],
   "error_correction_exercises": [
@@ -4168,6 +4937,25 @@
         }
       ],
       "explanation": "предупреждение о потерянном файле собирается через or: «сохрани, а то потеряешь». С and смысл переворачивается и обещает потерю тому, кто файл сохранил."
+    },
+    {
+      "id": 197,
+      "wrongSentence": "Chopping the onion and fry it for a minute.",
+      "options": [
+        {
+          "text": "Chop the onion and fry it for a minute.",
+          "isCorrect": true
+        },
+        {
+          "text": "To chop the onion and fry it for a minute.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chops the onion and fry it for a minute.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "оба шага рецепта должны стоять в базовой форме: chop и fry. Форма на -ing называет процесс, а не велит его выполнить."
     }
   ],
   "construction_meaning_exercises": [
@@ -4285,6 +5073,29 @@
         }
       ],
       "explanation": "полное let us не значит «давай»: здесь us — это те, кому сообщают, то есть магазин. «Давай узнаем» собирается через Let's find out, а не через let us know."
+    },
+    {
+      "id": 70,
+      "construction": "Feel free to use the kitchen.",
+      "options": [
+        {
+          "text": "Не бойтесь заходить на кухню.",
+          "isCorrect": false
+        },
+        {
+          "text": "Пользуйтесь кухней, не стесняйтесь.",
+          "isCorrect": true
+        },
+        {
+          "text": "Уберите на кухне, когда будет время.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кухней можно пользоваться бесплатно.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "feel free to значит «не стесняйтесь, делайте спокойно». Слово free здесь про свободу действия, а не про бесплатность, и страха в этой фразе тоже нет."
     }
   ],
   "transformation_exercises": [
@@ -4382,6 +5193,25 @@
         }
       ],
       "explanation": "когда слева появляется запрет, союз меняется на or: первая сборка вешает последствие на запретное действие, вторая — на невыполненную команду. Правая половина при этом не меняется вообще."
+    },
+    {
+      "id": 92,
+      "taskDescription": "перепиши каждую строку письма так, как ты попросил бы об этом вслух — вопросом с could you.",
+      "items": [
+        {
+          "original": "Please check the numbers again.",
+          "transformed": "Could you check the numbers again?"
+        },
+        {
+          "original": "Please book the room for Tuesday.",
+          "transformed": "Could you book the room for Tuesday?"
+        },
+        {
+          "original": "Please call me before the meeting.",
+          "transformed": "Could you call me before the meeting?"
+        }
+      ],
+      "explanation": "в письме команда с please читается как пункт задачи и никого не задевает, а та же фраза, сказанная человеку вслух, звучит распоряжением — поэтому в разговоре просьбу о своём превращают в вопрос."
     }
   ],
   "categorization_exercises": [
@@ -4509,6 +5339,29 @@
         }
       ],
       "explanation": "справа от and стоит либо голый глагол без подлежащего — тогда это вторая команда, либо целая часть с подлежащим — тогда это то, что случится после первой."
+    },
+    {
+      "id": 120,
+      "taskDescription": "распредели строки письма коллеге по тому, как они прозвучат.",
+      "categories": [
+        {
+          "title": "Нормально в письме",
+          "items": [
+            "Please review the draft",
+            "Feel free to ask",
+            "Let me know if you need help"
+          ]
+        },
+        {
+          "title": "Прозвучит холодно",
+          "items": [
+            "Kindly review the draft",
+            "Don't be shy to ask",
+            "Reply immediately"
+          ]
+        }
+      ],
+      "explanation": "в письме команда с please — обычная норма, а вот kindly читается как раздражение, don't be shy звучит по-родительски, и голая команда без please превращается в распоряжение."
     }
   ],
   "find_the_odd_exercises": [
@@ -4603,6 +5456,29 @@
         }
       ],
       "explanation": "let — это разрешение не мешать кому-то действовать. Пожелание удачи на экзамене разрешением не является, поэтому по-английски оно собирается иначе: I hope you pass the exam."
+    },
+    {
+      "id": 105,
+      "groupDescription": "Три таблички запрещают действие, а одна только предупреждает",
+      "items": [
+        {
+          "text": "No swimming",
+          "isOdd": false
+        },
+        {
+          "text": "Do not feed the animals",
+          "isOdd": false
+        },
+        {
+          "text": "Watch your head",
+          "isOdd": true
+        },
+        {
+          "text": "Keep off the ice",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Watch your head ничего не запрещает — оно предупреждает о низком потолке. Остальные три прямо не велят делать то, что названо."
     }
   ]
 }
