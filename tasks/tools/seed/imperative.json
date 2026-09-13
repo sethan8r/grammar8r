@@ -32,6 +32,13 @@
       "title": "Loud and Soft · Громкость: от «ну садитесь же» до «не смей»",
       "order": 3,
       "searchKeywords": "мягко или строго, строгий приказ, грубые фразы, не бойся, перестань, хватит, не смей"
+    },
+    {
+      "id": 204,
+      "topicId": 32,
+      "title": "Let's, Let Me, Let Him · Кто действует",
+      "order": 4,
+      "searchKeywords": "дай знать, пусть он решает, давай я сам, let's или let us, отпусти меня, let he или let him"
     }
   ],
   "grammar_cards": [
@@ -1525,6 +1532,695 @@
         "Почему после somebody глагол не получает -s?",
         "Чем Don't you dare отличается от обычного Don't tell her?"
       ]
+    },
+    {
+      "id": 542,
+      "microtopicId": 204,
+      "title": "Три let: давай, дай-ка я, пусть",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Три обычные русские фразы: «Давай сходим в кино», «Дай-ка я посмотрю», «Пусть он сам решает». Действующие лица в них разные — сначала мы вдвоём, потом только я, потом вообще он один. А по-английски все три собираются вокруг одного и того же слова — `let`."
+        },
+        {
+          "type": "paragraph",
+          "text": "`let` значит «позволить, не мешать». В этом вся конструкция: вы не приказываете человеку действовать, вы разрешаете действию случиться — своему, чужому или общему."
+        },
+        {
+          "type": "heading",
+          "text": "Кто действует, то и меняется"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's go to the cinema.** — действуем мы вместе",
+            "**Let me have a look.** — действую я, а собеседник просто не мешает",
+            "**Let him decide.** — действует он, мы оба в стороне"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский подсказывает выбор сам, и подсказка железная: «давай» → let's, «дай-ка я» → let me, «пусть» → let плюс тот, кому не мешаем."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Let + кого + V1 без to"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "У `let's` тот, кому разрешают, спрятан внутри самого сокращения: `let's` = `let us`, то есть «позволь нам». Поэтому отдельного слова после него нет — сразу идёт глагол."
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит после let"
+        },
+        {
+          "type": "paragraph",
+          "text": "В слот после человека встаёт голая базовая форма, и это не обязательно обычный глагол:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "обычный глагол — **Let her finish the sentence.** — пусть договорит",
+            "`be` — **Let me be, I'm tired.** — оставь меня в покое; **Let it be.** — пусть всё идёт как идёт",
+            "`have` — **Let me have a look at your ticket.** — дай-ка гляну на твой билет"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот модальный глагол в этот слот не встаёт вообще: **Let him can drive** ✗ — так сказать нельзя, потому что после `let` возможна только базовая форма и ничего больше."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Три ошибки, которые русская рука делает на автомате."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Let he go** ✗ → **Let him go** ✓ — после let стоит объектная форма местоимения, ровно та же, что после любого глагола: **I see him**, **Let him go**",
+                "**Let me to help** ✗ и **Let's to go** ✗ → **Let me help** ✓ — после let инфинитив без `to`, как после make в микротеме «Инфинитив: с to и без to»",
+                "**Let wait** ✗ → **Let him wait** ✓ — по-русски «Пусть подождёт» обходится без подлежащего, а английскому `let` обязательно нужно знать, кому он разрешает"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Дай мне подумать» рука переводит как **Give me think** ✗. Русское «дай» здесь не «вручи», а «позволь», и вручать нечего: **Let me think** ✓. То же самое с «дай знать» и «дай посмотреть» — везде let, а не give."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: три разных «не»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание встаёт в разные места, и от места зависит смысл:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's not argue about money.** — давай не будем: отказываемся от общего действия, `not` идёт сразу после let's",
+            "**Don't let me forget my passport.** — не дай мне забыть: просим человека не допустить чего-то",
+            "**Don't let anyone touch the cake.** — не разрешай: запрет разрешать кому-то третьему"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У «давай не будем» есть ещё два варианта, которые вы услышите: британское **Don't let's argue** и разговорное американское **Let's don't argue**. Сами так писать не нужно, достаточно узнавать — нормальная форма одна: **Let's not.**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопроса у команды нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Превратить let-команду в вопрос перестановкой слов, как с do или are, невозможно — это по-прежнему команда. Согласия спрашивают хвостиком в конце: **Let's go, shall we?** Его мы встречали в Future Simple, а как устроены такие хвостики, разберём в теме «Question Tags»."
+        },
+        {
+          "type": "heading",
+          "text": "Let вне команды — обычный глагол"
+        },
+        {
+          "type": "paragraph",
+          "text": "`let` живёт и в обычных предложениях, где значит «позволять, разрешать»: **She lets me use her car** — это мы разбирали ещё в «Основах». И одна деталь из темы «Формы глаголов»: у `let` все три формы одинаковые, поэтому прошедшее время выглядит как настоящее — **He let me go home early yesterday** ↔ **He lets me go out on Fridays**. Различает их только контекст."
+        }
+      ],
+      "theorySummary": "`let` значит «позволить, не мешать», и меняется в нём только тот, кто действует: **Let's go** — мы вместе, **Let me have a look** — я сам, **Let him decide** — он. Русские подсказки: «давай», «дай-ка я», «пусть». Собирается как `Let + кого + V1 без to`, поэтому **Let he go** ✗ и **Let me to help** ✗ — нужны **Let him go** ✓ и **Let me help** ✓, а объект пропускать нельзя: **Let wait** ✗ → **Let him wait** ✓. Русское «дай» в значении «позволь» — это let, а не give: **Let me think** ✓. Отрицаний три: **Let's not argue**, **Don't let me forget**, **Don't let anyone touch it.**",
+      "examples": [
+        {
+          "ru": "Давай сходим в кино в субботу.",
+          "en": "Let's go to the cinema on Saturday."
+        },
+        {
+          "ru": "Дай-ка я посмотрю.",
+          "en": "Let me have a look."
+        },
+        {
+          "ru": "Пусть Кейт решает.",
+          "en": "Let Kate decide."
+        },
+        {
+          "ru": "Давай не будем спорить из-за денег.",
+          "en": "Let's not argue about money."
+        },
+        {
+          "ru": "Не дай мне забыть паспорт.",
+          "en": "Don't let me forget my passport."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после let нельзя поставить to, если после хочу и прошу он нужен?",
+        "Чем Let him go отличается от Don't let him go по смыслу?",
+        "Как сказать «пусть он не опаздывает», если Let him not звучит странно?"
+      ]
+    },
+    {
+      "id": 543,
+      "microtopicId": 204,
+      "title": "Let's — это не Let us: расшифровка, которая подводит",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В «Основах» мы расшифровали сокращение: `let's` = `let us`, где `'s` прячет `us`, а не `is`. Расшифровка верная — а вот обратная подстановка нет. Если развернуть `let's` до полного `let us` прямо в живой фразе, смысл не просто изменится, а иногда перевернётся."
+        },
+        {
+          "type": "heading",
+          "text": "Полная форма живёт своей жизнью"
+        },
+        {
+          "type": "paragraph",
+          "text": "Полное `let us` в современном английском встречается в двух ролях, и ни одна из них не «давай»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "торжественная речь — со сцены, в церкви, на официальном открытии: **Let us pray.** и **Let us begin.** Это как русское «помолимся», «приступим». В кафе и в чате так не пишут",
+            "буквальное «отпустите нас», где `us` — настоящее дополнение: **Let us go, the door is locked!** Так кричат из запертой комнаты, а не зовут гулять"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда разница, которую носитель слышит мгновенно: **Let's go** — пошли, **Let us go** — отпустите нас."
+        },
+        {
+          "type": "heading",
+          "text": "Let us know — и никакого «давай»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое частое живое `let us` вы уже видели в письмах магазинов и сервисов: **Please let us know if anything goes wrong.** Здесь `us` — это компания, и фраза значит «сообщите нам». Устройство ровно то же, что у `Let me know`, просто адресат не один человек, а фирма."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обратной сборки не существует: **Let's know** ✗ — так не говорят вообще, потому что знание не действие и разрешить его нельзя. «Давай узнаем» собирается другими глаголами: **Let's find out** ✓ или **Let's ask** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Мы, которых на самом деле нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "И последнее наблюдение, которое снимает много вопросов: `let's` вовсе не всегда означает, что действуют двое. Врач говорит **Let's take a look at your throat** — смотрит он один. Учитель: **Let's try that again** — пробует ученик. Начальник на планёрке: **Let's discuss it tomorrow** — решает он, а «мы» просто смягчает распоряжение."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский делает ровно то же самое: «так, посмотрим-ка», «давайте попробуем ещё раз», «давайте обсудим это завтра». Учить здесь нечего — достаточно узнавать: за таким `let's` часто стоит один человек, и это вежливость, а не совместное дело."
+        }
+      ],
+      "theorySummary": "`let's` = `let us` — расшифровка верная, но подставлять полную форму обратно нельзя. Живое `let us` бывает торжественным (**Let us pray**) или буквальным «отпустите нас» (**Let us go, the door is locked**), а в письмах компаний значит «сообщите нам»: **Please let us know.** Обратной сборки нет: **Let's know** ✗, «давай узнаем» — это **Let's find out** ✓. И ещё: `let's` не всегда про двоих — **Let's take a look** врач говорит про себя одного, это просто вежливость.",
+      "examples": [
+        {
+          "ru": "Отпустите нас, дверь заперта!",
+          "en": "Let us go, the door is locked!"
+        },
+        {
+          "ru": "Помолимся.",
+          "en": "Let us pray."
+        },
+        {
+          "ru": "Сообщите нам, если что-то пойдёт не так.",
+          "en": "Please let us know if anything goes wrong."
+        },
+        {
+          "ru": "Давайте посмотрим, что у нас тут.",
+          "en": "Let's take a look at what we have here."
+        },
+        {
+          "ru": "Давайте попробуем ещё раз.",
+          "en": "Let's try that again."
+        }
+      ],
+      "clarificationOptions": [
+        "Если let's и let us — это одно и то же, почему смысл разный?",
+        "Как понять из фразы, что us значит «нас», а не «давайте»?",
+        "Почему Let's know невозможно, а Let's find out нормально?"
+      ]
+    },
+    {
+      "id": 544,
+      "microtopicId": 204,
+      "title": "Let me know и другие фразы на каждый день",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Если из всей темы забрать домой одну фразу, пусть это будет **Let me know.** В рабочем чате, в переписке с сервисом, в разговоре с соседом она встречается чаще любой другой конструкции с let."
+        },
+        {
+          "type": "paragraph",
+          "text": "`Let me know` — дословно «дай мне знать», и русский аналог совпадает слово в слово; по-живому это «сообщи», «отпишись», «скажи, как узнаешь»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let me know when you get home.** — дай знать, когда доберёшься",
+            "**Let me know if you need any help.** — если понадобится помощь"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на глагол после `when` и `if`: он в настоящем времени, хотя речь о будущем. Это то самое правило из условных предложений, и здесь оно работает без изменений."
+        },
+        {
+          "type": "heading",
+          "text": "Чем let me know отличается от tell me"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница простая и живая: `tell me` просит рассказать сейчас, `let me know` — сообщить, когда информация появится."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Tell me what happened.** — расскажи, что случилось",
+            "**Let me know what they decide.** — сообщи, что они решат"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Сообщите мне о результатах» тянет за собой `Inform me about the results`. Предложение грамматически целое, но звучит как письмо из налоговой. В живой переписке пишут **Let me know the results** или **Let me know how it goes.**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Куст фраз с let me"
+        },
+        {
+          "type": "paragraph",
+          "text": "Одна формула обслуживает десяток бытовых ситуаций:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let me think.** — дай подумать",
+            "**Let me see.** — сейчас гляну, тоже пауза на размышление",
+            "**Let me guess: you missed the train again.** — дай угадаю",
+            "**Let me explain.** — дай объясню",
+            "**Let me check the address.** — сейчас проверю",
+            "**Let me handle it — just trust me.** — я разберусь, просто доверься",
+            "**Let me get this straight.** — так, правильно ли я понял"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Давай я помогу: три способа"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «давай я помогу» ложится сразу на три английские фразы, и звучат они по-разному:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "Что вы делаете"
+          ],
+          "rows": [
+            [
+              "Let me help you.",
+              "берёте дело на себя, тепло и по-дружески"
+            ],
+            [
+              "Can I help you?",
+              "спрашиваете разрешения, вежливо и нейтрально"
+            ],
+            [
+              "I'll help you.",
+              "просто сообщаете, что поможете"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И вот почему `Let me help` звучит любезно, хотя по форме это команда: действие нужно не вам, а собеседнику. Та самая ось из микротемы «Приказ или забота» — решает не форма, а кому нужно действие."
+        },
+        {
+          "type": "heading",
+          "text": "Как отвечают на let me"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формулами, коротко",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Sure.** · **Go ahead.** · **Please do.** — «конечно, давай». Мягкий отказ звучит так же просто: **Thanks, I've got it.** — спасибо, я сам."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В быстрой речи `let me` слипается в одно слово, и вместо «лет ми» вы услышите «лемми»: **Lemme know.** Писать так не нужно — это чисто разговорная запись, и подробнее такие слияния мы разберём в теме «Разговорный английский»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "`let` меняет только того, кто действует: **Let's go** — мы, **Let me help** — я, **Let him decide** — он; после let идёт объектная форма и голый глагол без to (**Let him wait** ✓, **Let he wait** ✗, **Let me to help** ✗). Главная фраза микротемы — **Let me know** («дай знать»), и после when и if в ней остаётся настоящее время: **Let me know when you get home.** Рядом живут **Let me think**, **Let me see**, **Let me guess**, **Let me explain**, **Let me handle it.** `Tell me` просит рассказать сейчас, `let me know` — сообщить потом. «Давай я помогу» бывает трёх видов: **Let me help you** (беру на себя), **Can I help you?** (прошу разрешения), **I'll help you** (просто сделаю). Отвечают на такое предложение формулами: **Sure**, **Go ahead**, **Please do.**",
+      "examples": [
+        {
+          "ru": "Дай знать, когда доберёшься домой.",
+          "en": "Let me know when you get home."
+        },
+        {
+          "ru": "Дай знать, если понадобится помощь.",
+          "en": "Let me know if you need any help."
+        },
+        {
+          "ru": "Дай я разберусь, просто доверься мне.",
+          "en": "Let me handle it, just trust me."
+        },
+        {
+          "ru": "Дай угадаю: ты снова забыл ключи.",
+          "en": "Let me guess: you forgot your keys again."
+        },
+        {
+          "ru": "Давай я помогу тебе с сумками.",
+          "en": "Let me help you with the bags."
+        }
+      ],
+      "clarificationOptions": [
+        "Когда лучше сказать Let me know, а когда Tell me?",
+        "Почему после when в Let me know when you get home стоит настоящее время?",
+        "Чем Let me help you отличается от Can I help you в живом разговоре?"
+      ]
+    },
+    {
+      "id": 545,
+      "microtopicId": 204,
+      "title": "Let me in и Let go: когда после let нет второго глагола",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор после человека всегда стоял глагол: **Let him wait**, **Let me help**. Но есть целая группа живых фраз, где второго глагола нет вовсе, и по общей формуле их не собрать."
+        },
+        {
+          "type": "heading",
+          "text": "Впусти, выпусти, пропусти"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Let + кого + куда"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let me in, it's cold outside.** — впусти меня",
+            "**Let the cat out.** — выпусти кота",
+            "**Let me through, please.** — пропусти меня, например в толпе"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл несёт само направление: `in` — внутрь, `out` — наружу, `through` — сквозь. Глагол «войти» или «выйти» английскому здесь не нужен, `let` плюс направление уже всё сказали. По-русски, кстати, происходит то же самое: «впусти», «выпусти», «пропусти» — это одно слово с приставкой, а не два."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Местоимение всегда стоит между `let` и направлением: **Let in me** ✗ → **Let me in** ✓, **Let out us** ✗ → **Let us out** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Let go — отпусти"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельная застывшая фраза, которую русский сам не соберёт: `let go` — «отпустить, разжать руки». Второго участника в ней нет, `go` работает прямо после `let`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let go!** — отпусти!",
+            "**Let go of my hand.** — отпусти мою руку"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если сказано, что именно отпустить, между `let go` и предметом обязателен `of`: **Let go my hand** ✗ → **Let go of my hand** ✓. Когда предмет не назван, `of` не нужен: **Let go!** ✓"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "У этой фразы есть и переносный смысл, знакомый по песне: **Let it go** — «забей, проехали, отпусти ситуацию». Рядом стоит **Let me be** и **Let him be** — «оставь в покое»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Одно слово меняет всё. **Let's go** — пошли, приглашение. **Let me go** — отпусти меня, просьба разжать руки или выпустить. Формы похожи до последней буквы, а ситуации противоположные."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Пусть — не всегда let"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «пусть» тянет за собой let автоматически, и на пожеланиях это ломается. «Пусть у тебя всё получится» — здесь никто никому ничего не разрешает, это пожелание:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let you be happy** ✗ → **I hope everything works out** ✓",
+            "**Let all your dreams come true** ✗ → **I hope all your dreams come true** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка простая. Если «пусть» можно заменить на «не мешай, позволь» — это let: **Let him try** ✓, пусть попробует. Если «пусть» значит «желаю, чтобы» — let не подходит, нужен `I hope`."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Торжественное пожелание с let всё же существует, но это книжный оборот: **Let there be light.** Так пишут в стихах и в переводах Библии, в обычной речи он не встречается — достаточно узнавать."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "После let бывает не только глагол. Направление вместо него: **Let me in**, **Let the cat out**, **Let me through** — причём местоимение стоит между let и направлением (**Let in me** ✗). Застывшее `let go` значит «отпусти»: без предмета — **Let go!**, с предметом обязателен of — **Let go of my hand** ✓, **Let go my hand** ✗. Переносно **Let it go** — «забей», а **Let him be** — «оставь в покое». И не путайте **Let's go** (пошли) с **Let me go** (отпусти меня). Русское «пусть» бывает не про разрешение: пожелание собирается не через let, а через I hope (**Let you be happy** ✗ → **I hope everything works out** ✓).",
+      "examples": [
+        {
+          "ru": "Впусти меня, на улице холодно.",
+          "en": "Let me in, it's cold outside."
+        },
+        {
+          "ru": "Выпусти кота.",
+          "en": "Let the cat out."
+        },
+        {
+          "ru": "Отпусти мою руку, мне больно.",
+          "en": "Let go of my hand, it hurts."
+        },
+        {
+          "ru": "Забей, это было год назад.",
+          "en": "Let it go, it was a year ago."
+        },
+        {
+          "ru": "Оставь его в покое, он устал.",
+          "en": "Let him be, he's tired."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в Let go of my hand нужен of, а в Let go — нет?",
+        "Как отличить «пусть», которое переводится через let, от «пусть» в пожелании?",
+        "Почему Let me in обходится без глагола «войти»?"
+      ]
+    },
+    {
+      "id": 546,
+      "microtopicId": 204,
+      "title": "Let's say, Let's face it: обороты взрослой речи",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`Let's` умеет не только звать делать что-то вместе. Есть несколько застывших оборотов, где совместного действия нет вообще, и носитель произносит их по десять раз на дню."
+        },
+        {
+          "type": "heading",
+          "text": "Let's say — допустим"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Let's say` — дословно «давай скажем», по-живому «допустим», «скажем», «предположим». Русский аналог совпадает почти буквально, поэтому запоминать нечего:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's say we leave at six — will you be ready?** — допустим, выезжаем в шесть",
+            "**It costs, let's say, fifty euros.** — стоит, скажем, евро пятьдесят"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй пример — прикидка на глаз, и это очень частое употребление. Русский тянет сюда книжное `Suppose` или школьное `For example`: оба слова существуют, но в живом разговоре про прикидку работает `let's say`."
+        },
+        {
+          "type": "heading",
+          "text": "Let's face it — давай начистоту"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Let's face it` — дословно «давай посмотрим этому в лицо», по-живому «давай начистоту», «признаем». Так вводят неприятную правду, которую все и так знают: **Let's face it, we're late.** и **Let's face it, nobody reads the terms.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом живёт вариант помягче — **Let's be honest** («давай честно»). Слово `honest` читается без первой буквы: [[ˈɒnɪst]]."
+        },
+        {
+          "type": "heading",
+          "text": "Let's just — давай просто"
+        },
+        {
+          "type": "paragraph",
+          "text": "`just` мы уже брали как смягчитель команды в микротеме «Приказ или забота», и с `let's` он работает так же — снимает с предложения вес: **Let's just stay home tonight.** и **Let's just ask someone.** Звучит это как «не будем усложнять»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сюда же — **Let's get started**: та же мысль, что и **Let's start**, только бодрее. Такие способы сказать привычное поинтереснее мы соберём в теме «Сказать то же, но круче»."
+        },
+        {
+          "type": "heading",
+          "text": "Как ответить на предложение"
+        },
+        {
+          "type": "paragraph",
+          "text": "У `Let's` есть готовые ответы, и их стоит знать, иначе диалог обрывается на половине:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "согласие — **Sure.** · **OK, let's do it.** · **Sounds good.** · чуть книжное **Yes, let's.**",
+            "отказ — **Let's not.** · **I'd rather not.** — «пожалуй, не стоит»; оборот `would rather` целиком разберём в теме «Дополнительные конструкции»"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Let's say` и `let's face it` носитель не собирает по частям — он берёт их целиком, готовым куском речи, как русское «допустим» или «если честно». Таких блоков в языке много (`by the way`, `to be honest`, `at the end of the day`), и мы соберём их пачкой в теме «Устойчивые выражения и идиомы» — там же они уедут в Словарь целыми фразами, чтобы учить их не по словам, а как одно слово."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Микротема о том, кто действует. `let` значит «позволить»: **Let's go** — мы вместе, **Let me help** — я сам, **Let him decide** — он; после let идёт объектная форма и голый глагол без to, а объект пропускать нельзя (**Let he go** ✗, **Let me to help** ✗, **Let wait** ✗). Русское «дай» в значении «позволь» — это let, а не give: **Let me think** ✓. Отрицаний три: **Let's not argue**, **Don't let me forget**, **Don't let anyone touch it.** Полное `let us` — не «давай»: **Let us go** значит «отпустите нас», **Let us know** — «сообщите нам», а **Let's know** ✗ не существует («давай узнаем» — **Let's find out**). Главная фраза микротемы — **Let me know**, и после when и if в ней стоит настоящее время. После let бывает направление вместо глагола (**Let me in**, **Let the cat out**), а `let go` требует of, когда предмет назван: **Let go of my hand** ✓. Пожелание через let не собирается: **Let you be happy** ✗ → **I hope everything works out** ✓. Застывшие обороты: **Let's say** (допустим), **Let's face it** (давай начистоту), **Let's just** (давай просто); ответы на предложение — **Sure**, **OK, let's do it**, **Let's not**, **I'd rather not.**",
+      "examples": [
+        {
+          "ru": "Допустим, мы выезжаем в шесть.",
+          "en": "Let's say we leave at six."
+        },
+        {
+          "ru": "Это стоит, скажем, пятьдесят евро.",
+          "en": "It costs, let's say, fifty euros."
+        },
+        {
+          "ru": "Давай начистоту: мы опоздали.",
+          "en": "Let's face it, we're late."
+        },
+        {
+          "ru": "Давай честно, никто это не прочитает.",
+          "en": "Let's be honest, nobody will read this."
+        },
+        {
+          "ru": "Давай просто останемся дома.",
+          "en": "Let's just stay home."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем Let's say отличается от Suppose и когда какое уместно?",
+        "Почему Let's face it переводится «давай начистоту», а не «давай столкнёмся с этим»?",
+        "Как вежливо отказаться, если предложение через Let's мне не подходит?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1725,6 +2421,102 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 101,
       "orderInCard": 2
+    },
+    {
+      "cardId": 542,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 230,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 542,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 89,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 542,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 206,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 542,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 183,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 543,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 69,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 543,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 231,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 543,
+      "exerciseType": "MATCHING",
+      "exerciseId": 85,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 544,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 78,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 544,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 209,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 544,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 102,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 545,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 195,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 545,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 118,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 545,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 104,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 546,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 85,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 546,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 184,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 546,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 90,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1743,6 +2535,22 @@
       "userInstruction": "AI даст русскую фразу с определённым оттенком. Напишите, как она звучит по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "imperative_card544_ex1",
+      "cardId": 544,
+      "title": "Скажи это через let",
+      "userInstruction": "AI даст русскую фразу. Напишите, как она звучит по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "imperative_card546_ex1",
+      "cardId": 546,
+      "title": "Найди и исправь",
+      "userInstruction": "AI пришлёт три предложения. Найдите то, в котором есть ошибка, перепишите его правильно и своими словами скажите, что было не так.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -1865,6 +2673,46 @@
       "transcription": "[ˈɪdiət]",
       "microtopicId": 203,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 773,
+      "word": "to handle",
+      "translation": "справляться, разбираться с чем-то",
+      "transcription": "[ˈhændl]",
+      "microtopicId": 204,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 774,
+      "word": "to trust",
+      "translation": "доверять",
+      "transcription": "[trʌst]",
+      "microtopicId": 204,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 775,
+      "word": "to face",
+      "translation": "смотреть в лицо, столкнуться с чем-то",
+      "transcription": "[feɪs]",
+      "microtopicId": 204,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 776,
+      "word": "hand",
+      "translation": "рука, кисть руки",
+      "transcription": "[hænd]",
+      "microtopicId": 204,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 777,
+      "word": "honest",
+      "translation": "честный",
+      "transcription": "[ˈɒnɪst]",
+      "microtopicId": 204,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -1961,6 +2809,37 @@
         }
       ],
       "explanation": "nervous — прилагательное, нужна связка: Don't be nervous before the exam. А hurry — глагол, и связка перед ним лишняя: Don't hurry."
+    },
+    {
+      "id": 206,
+      "statements": [
+        {
+          "en": "Let me to explain the rules.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Let them wait outside.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Let's not talk about it now.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Let she try the dress on.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Don't let him pay for everything.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "после let идёт базовая форма без to, поэтому Let me explain. И местоимение стоит в объектной форме: Let her try the dress on."
     }
   ],
   "word_arrangement_exercises": [
@@ -2019,6 +2898,42 @@
         "not"
       ],
       "explanation": "угроза собирается только в порядке Don't you dare, а дальше идёт базовая форма без to. Свой телефон обозначается через my, а не your."
+    },
+    {
+      "id": 183,
+      "situationRu": "RU: Не давай ему сегодня вести машину.",
+      "correctSentence": "Don't let him drive today.",
+      "words": [
+        "Don't",
+        "let",
+        "him",
+        "drive",
+        "today"
+      ],
+      "distractors": [
+        "to drive",
+        "he",
+        "driving",
+        "not"
+      ],
+      "explanation": "запрет разрешать собирается как Don't let плюс человек в объектной форме плюс голый глагол. Ни to, ни -ing, ни второе отрицание здесь не нужны."
+    },
+    {
+      "id": 184,
+      "situationRu": "RU: Давай просто закажем пиццу.",
+      "correctSentence": "Let's just order a pizza.",
+      "words": [
+        "Let's",
+        "just",
+        "order",
+        "a pizza"
+      ],
+      "distractors": [
+        "to order",
+        "lets",
+        "we"
+      ],
+      "explanation": "just встаёт сразу после let's и смягчает предложение, а дальше идёт базовая форма глагола. Подлежащее we здесь лишнее: оно уже спрятано внутри let's."
     }
   ],
   "multiple_choice_exercises": [
@@ -2168,6 +3083,90 @@
         }
       ],
       "explanation": "анекдот уже звучит, действие идёт прямо сейчас — значит нужен stop. Don't прозвучало бы советом на будущее, а you don't вообще превращает запрет в сообщение о факте."
+    },
+    {
+      "id": 230,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Пусть они начнут без нас.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Let they start without us.",
+          "isCorrect": false
+        },
+        {
+          "text": "Let them start without us.",
+          "isCorrect": true
+        },
+        {
+          "text": "Let them to start without us.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после let стоит объектная форма местоимения — them, а не they, и дальше сразу базовая форма глагола без to."
+    },
+    {
+      "id": 231,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Давай выйдем на пять минут.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Let us go out for five minutes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lets go out for five minutes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Let's go out for five minutes.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "приглашение сделать что-то вместе — это только сокращённая форма с апострофом. Полное let us прозвучит как «отпустите нас», а lets без апострофа — это he lets, «он позволяет»."
+    },
+    {
+      "id": 209,
+      "choiceType": "CHOICE",
+      "prompt": "___ me know when the parcel arrives.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Tell",
+          "isCorrect": false
+        },
+        {
+          "text": "Give",
+          "isCorrect": false
+        },
+        {
+          "text": "Let",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "русское «дай знать» собирается только через let: give здесь калька с русского «дай», а tell me know невозможно — после tell сразу идёт то, что рассказывают."
+    },
+    {
+      "id": 85,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Let's face it, the car is too old.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Давай посмотрим на машину, она слишком старая.",
+          "isCorrect": false
+        },
+        {
+          "text": "Давай начистоту: машина слишком старая.",
+          "isCorrect": true
+        },
+        {
+          "text": "Пусть машина постоит, она слишком старая.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "let's face it вводит неприятную правду, которую все и так понимают. Дословное «посмотрим на машину» было бы let's look at the car."
     }
   ],
   "text_input_exercises": [
@@ -2199,6 +3198,36 @@
         "Everybody",
         "Nobody",
         "Don't"
+      ]
+    },
+    {
+      "id": 102,
+      "items": [
+        {
+          "sentence": "Wait, let me ___ how this thing works.",
+          "contextRu": "",
+          "answer": "explain",
+          "alternatives": []
+        },
+        {
+          "sentence": "Let me ___ the timetable before we leave.",
+          "contextRu": "",
+          "answer": "check",
+          "alternatives": []
+        },
+        {
+          "sentence": "Let me ___ — you got the job!",
+          "contextRu": "",
+          "answer": "guess",
+          "alternatives": []
+        }
+      ],
+      "explanation": "после let me глагол стоит в базовой форме без окончаний и без to — меняется только сам глагол по смыслу предложения.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу глагол из банка.",
+      "wordBank": [
+        "проверю",
+        "угадаю",
+        "объясню"
       ]
     }
   ],
@@ -2258,6 +3287,34 @@
         }
       ],
       "explanation": "соседей по столику просят сделать потише вопросом — так у них остаётся право отказаться. После stop нужна форма на -ing, а you don't talk сообщает факт вместо просьбы."
+    },
+    {
+      "id": 78,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Nobody knows why the lift is stuck."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Let me call the manager.",
+          "isCorrect": true
+        },
+        {
+          "text": "Let me to call the manager.",
+          "isCorrect": false
+        },
+        {
+          "text": "Let I call the manager.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после let идёт голая базовая форма без to, а тот, кому разрешают, стоит в объектной форме: не I, а me."
     }
   ],
   "matching_exercises": [
@@ -2306,6 +3363,29 @@
         }
       ],
       "explanation": "do в утвердительной команде греет, полная форма do not — давит, короткое a sec уменьшает просьбу, а голая команда без всего звучит нейтрально-сухо."
+    },
+    {
+      "id": 85,
+      "taskDescription": "соедини английскую фразу с её смыслом.",
+      "pairs": [
+        {
+          "left": "Let's start",
+          "right": "Давай начнём"
+        },
+        {
+          "left": "Let us out",
+          "right": "Выпустите нас"
+        },
+        {
+          "left": "Let us know your answer",
+          "right": "Сообщите нам ваш ответ"
+        },
+        {
+          "left": "She lets us in",
+          "right": "Она нас впускает"
+        }
+      ],
+      "explanation": "сокращение зовёт делать вместе, а полная форма ставит us настоящим дополнением — «нас». Без апострофа получается обычный глагол в третьем лице: she lets, «она позволяет»."
     }
   ],
   "error_correction_exercises": [
@@ -2365,6 +3445,25 @@
         }
       ],
       "explanation": "после dare идёт базовая форма глагола без to и без -ing. Вариант с you впереди перестаёт быть угрозой и сообщает, что собеседник не осмеливается."
+    },
+    {
+      "id": 195,
+      "wrongSentence": "Let go my arm, you're hurting me.",
+      "options": [
+        {
+          "text": "Let go of my arm, you're hurting me.",
+          "isCorrect": true
+        },
+        {
+          "text": "Let of go my arm, you're hurting me.",
+          "isCorrect": false
+        },
+        {
+          "text": "Let me go of my arm, you're hurting me.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "когда названо то, что нужно отпустить, между let go и предметом обязателен of. Без предмета фраза работает сама по себе: Let go!"
     }
   ],
   "construction_meaning_exercises": [
@@ -2459,6 +3558,29 @@
         }
       ],
       "explanation": "do перед базовой формой — усилитель, а не вопрос: знака вопроса нет, порядок слов командный. Он делает приглашение тёплым и настойчивым."
+    },
+    {
+      "id": 69,
+      "construction": "Let us know if the size doesn't fit.",
+      "options": [
+        {
+          "text": "Сообщите нам, если размер не подойдёт.",
+          "isCorrect": true
+        },
+        {
+          "text": "Давай узнаем, подходит ли размер.",
+          "isCorrect": false
+        },
+        {
+          "text": "Позвольте нам узнать ваш размер.",
+          "isCorrect": false
+        },
+        {
+          "text": "Дайте нам примерить этот размер.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "полное let us не значит «давай»: здесь us — это те, кому сообщают, то есть магазин. «Давай узнаем» собирается через Let's find out, а не через let us know."
     }
   ],
   "transformation_exercises": [
@@ -2499,6 +3621,44 @@
         }
       ],
       "explanation": "never само по себе отрицательное, поэтому пара don't ever уходит целиком, а never встаёт на её место перед глаголом. Остальное в предложении не меняется."
+    },
+    {
+      "id": 89,
+      "taskDescription": "переделай каждое предложение в разрешение с let.",
+      "items": [
+        {
+          "original": "She wants to explain.",
+          "transformed": "Let her explain."
+        },
+        {
+          "original": "He wants to pay.",
+          "transformed": "Let him pay."
+        },
+        {
+          "original": "They want to try again.",
+          "transformed": "Let them try again."
+        }
+      ],
+      "explanation": "разрешение начинается с let, дальше идёт человек в объектной форме — her, him, them — и голая базовая форма глагола. То, что стояло после want to, теряет и want, и сам to."
+    },
+    {
+      "id": 90,
+      "taskDescription": "перепиши каждое предложение так, чтобы оно предлагало этого НЕ делать.",
+      "items": [
+        {
+          "original": "Let's take a taxi.",
+          "transformed": "Let's not take a taxi."
+        },
+        {
+          "original": "Let's tell him tonight.",
+          "transformed": "Let's not tell him tonight."
+        },
+        {
+          "original": "Let's buy the tickets now.",
+          "transformed": "Let's not buy the tickets now."
+        }
+      ],
+      "explanation": "отрицание встаёт сразу после let's, а глагол остаётся в базовой форме. Ни don't, ни вспомогательных слов здесь не появляется."
     }
   ],
   "categorization_exercises": [
@@ -2580,6 +3740,29 @@
         }
       ],
       "explanation": "late, rude и lazy — признаки, их без be не поставить: Don't be late. А worry, hurry и panic — обычные глаголы, связка перед ними лишняя: Don't worry."
+    },
+    {
+      "id": 118,
+      "taskDescription": "распредели просьбы по тому, о чём человек просит.",
+      "categories": [
+        {
+          "title": "Впусти или выпусти",
+          "items": [
+            "Let me in",
+            "Let the dog out",
+            "Let us through"
+          ]
+        },
+        {
+          "title": "Отпусти, не держи",
+          "items": [
+            "Let go of the rope",
+            "Let it go",
+            "Let him be"
+          ]
+        }
+      ],
+      "explanation": "в первой группе после let стоит направление — внутрь, наружу, сквозь. Во второй группе речь о том, чтобы разжать руки или оставить в покое, и направления там нет вовсе."
     }
   ],
   "find_the_odd_exercises": [
@@ -2651,6 +3834,29 @@
         }
       ],
       "explanation": "shut up значит «заткнись» и в рабочей обстановке звучит как прямое хамство. Остальные три просят о том же самом, но остаются в пределах вежливости."
+    },
+    {
+      "id": 104,
+      "groupDescription": "Три фразы собираются через let, а одна так не собирается",
+      "items": [
+        {
+          "text": "Let Sam try again",
+          "isOdd": false
+        },
+        {
+          "text": "Let the kids play outside",
+          "isOdd": false
+        },
+        {
+          "text": "Let you pass the exam",
+          "isOdd": true
+        },
+        {
+          "text": "Let her finish the story",
+          "isOdd": false
+        }
+      ],
+      "explanation": "let — это разрешение не мешать кому-то действовать. Пожелание удачи на экзамене разрешением не является, поэтому по-английски оно собирается иначе: I hope you pass the exam."
     }
   ]
 }
