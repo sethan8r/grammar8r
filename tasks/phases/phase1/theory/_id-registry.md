@@ -7,7 +7,7 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 554 |
+| Card | 555 |
 | Categorization | 121 |
 | Category | 8 |
 | ConstructionMeaning | 71 |
@@ -15,7 +15,7 @@
 | ErrorCorrection | 198 |
 | FindTheOdd | 106 |
 | Matching | 88 |
-| Microtopic | 207 |
+| Microtopic | 208 |
 | MultipleChoice·CHOICE | 211 |
 | MultipleChoice·FORWARD_CHOICE | 234 |
 | MultipleChoice·REVERSE_CHOICE | 88 |
@@ -484,14 +484,14 @@
 - course_word: 741–759 (19)
 
 ### imperative
-- Card: 531–553 (23)
+- Card: 531–554 (24)
 - Categorization: 115–120 (6)
 - ConstructionMeaning: 65–70 (6)
 - DialogRestore: 76–80 (5)
 - ErrorCorrection: 192–197 (6)
 - FindTheOdd: 101–105 (5)
 - Matching: 83–87 (5)
-- Microtopic: 201–206 (6)
+- Microtopic: 201–207 (7)
 - MultipleChoice·CHOICE: 207–210 (4)
 - MultipleChoice·FORWARD_CHOICE: 227–233 (7)
 - MultipleChoice·REVERSE_CHOICE: 83–87 (5)
