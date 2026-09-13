@@ -39,6 +39,13 @@
       "title": "Let's, Let Me, Let Him · Кто действует",
       "order": 4,
       "searchKeywords": "дай знать, пусть он решает, давай я сам, let's или let us, отпусти меня, let he или let him"
+    },
+    {
+      "id": 205,
+      "topicId": 32,
+      "title": "Do It and, Do It or · Команда-условие",
+      "order": 5,
+      "searchKeywords": "условие без if, or в значении а то, как сказать а то, and или or после команды, or else и otherwise"
     }
   ],
   "grammar_cards": [
@@ -2221,6 +2228,434 @@
         "Почему Let's face it переводится «давай начистоту», а не «давай столкнёмся с этим»?",
         "Как вежливо отказаться, если предложение через Let's мне не подходит?"
       ]
+    },
+    {
+      "id": 547,
+      "microtopicId": 205,
+      "title": "Команда + and: сделай — и будет",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русский умеет отдавать команду, к которой привязано обещание: «Нажми эту кнопку — и дверь откроется», «Прими таблетку — и станет легче», «Скажи это ещё раз — и я уйду». Всю работу делает тире: слева стоит команда, справа то, что из неё выйдет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский собирает это место в точности так же — только вместо тире ставит `and`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Команда + and + целая часть с подлежащим"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Press this button and the door opens.**",
+            "**Take this pill and you'll feel better.**",
+            "**Say that again and you'll regret it.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Это условное предложение, у которого забрали if"
+        },
+        {
+          "type": "paragraph",
+          "text": "Такие мысли мы уже собирали в теме «Условные предложения», только там впереди стоял `if`. Сравните две колонки: смысл не сдвинулся ни на миллиметр, изменилась одна сборка."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Команда с and",
+            "То же самое через if"
+          ],
+          "rows": [
+            [
+              "Press this button and the door opens.",
+              "If you press this button, the door opens."
+            ],
+            [
+              "Take this pill and you'll feel better.",
+              "If you take this pill, you'll feel better."
+            ],
+            [
+              "Say that again and you'll regret it.",
+              "If you say that again, you'll regret it."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда же берётся правило для правой половины, и оно не новое: результат случается всегда → справа настоящее время, результат ожидается один раз в будущем → справа `will`. Это те самые нулевой и первый тип условных, просто без `if`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Зачем язык вообще выбрасывает `if`, если и так понятно: команда короче и звучит живее. «Если ты нажмёшь эту кнопку, дверь откроется» — это объяснение; «Нажми — и откроется» — это разговор."
+        },
+        {
+          "type": "heading",
+          "text": "Что ещё бывает справа"
+        },
+        {
+          "type": "paragraph",
+          "text": "Одним `will` дело не ограничивается, и русскому тут ничего перестраивать не нужно — он говорит так же:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "настоящее время, когда так происходит всегда: **Press the green button and the machine starts.**",
+            "`will`, когда результат ждут один раз: **Come at seven and you'll see the sunset.**",
+            "`can` — не результат, а открывшаяся возможность: **Come early and you can help me with dinner.**",
+            "настоящее время вместо будущего в угрозе — результат подан как уже решённый: **One more word and you're fired.** Русский делает ровно тот же фокус: «Ещё слово — и ты уволен», а не «и ты будешь уволен»."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Обмен: сделай мне — сделаю тебе"
+        },
+        {
+          "type": "paragraph",
+          "text": "Очень живой оттенок, ради которого конструкцию и берут в быту: справа стоит ваше встречное обещание, и получается сделка. **Help me move the sofa and I'll buy you dinner.** и **Finish the report today and I'll give you Friday off.** По-русски это ровно «Помоги — и я угощу», «Закончи — и дам выходной»."
+        },
+        {
+          "type": "heading",
+          "text": "Слева бывает не команда"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вместо приказа слева часто стоит просто «ещё столько-то» — существительное или мерка времени, а глагола нет вовсе:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**One more word and you're fired.**",
+            "**Another drink and you won't be able to drive.**",
+            "**Five more minutes and we're done.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Учить тут нечего: русский строит это точно так же — «ещё одна рюмка — и…», «ещё пять минут — и…». Нужно только заметить совпадение и начать пользоваться, потому что фразы эти ходовые."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`And` в команде значит не только «а потом». Сравните: **Sit down and be quiet** — это две команды подряд, человек должен сделать два дела. **Sit down and you'll feel better** — команда и её результат, делать надо одно. Различитель смотрит вправо от `and`: голый глагол без подлежащего (**be quiet**, **close the door**) — значит вторая команда; целая часть с подлежащим (**you'll feel better**, **the door opens**) — значит результат."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Форм у этой конструкции меньше, чем кажется"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос из неё не делается: команда-условие всегда утверждение — обещание, предупреждение или угроза. А отрицание справа встаёт свободно, и смысл от этого не ломается: **Leave now and you won't be late.**"
+        }
+      ],
+      "theorySummary": "Команда плюс `and` — это условное предложение без if: **Press this button and the door opens** = **If you press this button, the door opens.** Правило правой половины прежнее: если так бывает всегда — настоящее время, если результат ждут один раз в будущем — will (**Take this pill and you'll feel better**), возможность — can, а в угрозе настоящее спокойно стоит вместо будущего (**One more word and you're fired**). Справа может быть и ваше встречное обещание: **Help me move the sofa and I'll buy you dinner.** Слева бывает не команда, а «ещё столько-то»: **Another drink and you won't be able to drive.** Главное — не спутать с перечислением: **Sit down and be quiet** это две команды, а **Sit down and you'll feel better** — команда и результат; решает то, что стоит справа от and. Вопроса у конструкции нет, отрицание справа возможно: **Leave now and you won't be late.**",
+      "examples": [
+        {
+          "ru": "Нажми эту кнопку — и дверь откроется.",
+          "en": "Press this button and the door opens."
+        },
+        {
+          "ru": "Прими эту таблетку — и почувствуешь себя лучше.",
+          "en": "Take this pill and you'll feel better."
+        },
+        {
+          "ru": "Помоги мне передвинуть диван — и я угощу тебя ужином.",
+          "en": "Help me move the sofa and I'll buy you dinner."
+        },
+        {
+          "ru": "Ещё одно слово — и ты уволен.",
+          "en": "One more word and you're fired."
+        },
+        {
+          "ru": "Скажи это ещё раз — и пожалеешь.",
+          "en": "Say that again and you'll regret it."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем Press this button and the door opens отличается от версии с if?",
+        "Почему в One more word and you're fired стоит настоящее время, если речь о будущем?",
+        "Как понять, что после and стоит вторая команда, а не результат?"
+      ]
+    },
+    {
+      "id": 548,
+      "microtopicId": 205,
+      "title": "Команда + or: сделай, а то",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая половина конструкции — предупреждение. По-русски это «Поторопись, а то опоздаешь», «Надень куртку, иначе замёрзнешь», «Не трогай, а то сломаешь». Английский берёт для этого `or`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Команда + or + целая часть с подлежащим"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Hurry up, or you'll miss the bus.**",
+            "**Put on a jacket, or you'll get cold.**",
+            "**Be quiet, or you'll wake the baby.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Or` здесь не «или». Никакого выбора вам не предлагают — в этой конструкции `or` значит «а то», «иначе». Русский читает **Hurry up, or we'll be late** как «поторопись или мы опоздаем», слышит в этом свободу выбора и теряет всё предупреждение целиком. Настоящий выбор `or` обозначает в другом месте и с другой интонацией: **Tea or coffee?** — вот там действительно предлагают выбрать."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание появляется само"
+        },
+        {
+          "type": "paragraph",
+          "text": "Стоит развернуть такое предложение в версию с `if`, и в нём обнаружится «не», которого в команде не было:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Команда с or",
+            "То же через if",
+            "То же через unless"
+          ],
+          "rows": [
+            [
+              "Hurry up, or you'll miss the bus.",
+              "If you don't hurry, you'll miss the bus.",
+              "Unless you hurry, you'll miss the bus."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика простая, и её стоит проговорить вслух один раз: команда называет то, что НАДО сделать, а `or` показывает, что будет, если этого НЕ сделать. Вот откуда берётся отрицание при переводе в if-версию — и вот почему это самое частое место ошибки, когда фразу перекладывают туда-обратно. Третья колонка — старый знакомый `unless` из темы «Условные предложения»: он уже содержит «если не», поэтому отрицание в нём не пишется отдельно."
+        },
+        {
+          "type": "heading",
+          "text": "Слева бывает и запрет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Запрет работает в этой конструкции точно так же, как приказ, — меняется только то, от чего предостерегают: **Don't touch it, or it'll break.** и **Don't drop the cake, or you'll ruin it.** Справа тоже спокойно встаёт отрицание, и предупреждение от этого не ломается: **Book the tickets now, or we won't get seats.**"
+        },
+        {
+          "type": "heading",
+          "text": "or else и otherwise"
+        },
+        {
+          "type": "paragraph",
+          "text": "`or else` — то же «а то», но с нажимом, и оно умеет обрываться на середине: **Give it back, or else!** Продолжения нет, и оно не нужно — собеседник сам додумает худшее. Русское «а не то!» устроено ровно так же."
+        },
+        {
+          "type": "paragraph",
+          "text": "`otherwise` значит то же «иначе», только звучит нейтральнее и письменнее — его берут в рабочей переписке, в инструкциях и в объявлениях: **Write it down, otherwise you'll forget.** и **Be on time, otherwise you'll get in trouble.**"
+        },
+        {
+          "type": "heading",
+          "text": "Почему такая команда никого не задевает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вспомните ось темы: голый императив звучит любезно, когда действие нужно самому слушателю. Предупреждение — как раз этот случай: вы ничего не выгадываете, вы спасаете человека от мокрой куртки, опоздания и разбитого телефона. Поэтому **Take an umbrella, or you'll get wet** — это забота, а не распоряжение, и смягчать её вопросом не нужно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Перед `or` в этой конструкции запятая почти всегда стоит — на её месте в речи пауза, тот самый вдох перед «а то». Перед `and` в карточке выше запятую обычно не ставят: там половинки произносятся слитно, одним движением."
+            }
+          ]
+        }
+      ],
+      "theorySummary": "Команда плюс `or` — это предупреждение «сделай, а то»: **Hurry up, or you'll miss the bus.** Здесь `or` не «или», выбора оно не предлагает. Разворот в версию с if всегда добавляет «не»: = **If you don't hurry, you'll miss the bus** = **Unless you hurry, you'll miss the bus.** Слева работает и запрет (**Don't touch it, or it'll break**), справа спокойно встаёт отрицание (**Book the tickets now, or we won't get seats**). Рядом живут `or else` — то же с нажимом, умеет обрываться на середине (**Give it back, or else!**), и `otherwise` — нейтральное «иначе» для переписки и инструкций (**Write it down, otherwise you'll forget**). Перед `or` в этой конструкции обычно стоит запятая.",
+      "examples": [
+        {
+          "ru": "Поторопись, а то опоздаешь на автобус.",
+          "en": "Hurry up, or you'll miss the bus."
+        },
+        {
+          "ru": "Надень куртку, а то замёрзнешь.",
+          "en": "Put on a jacket, or you'll get cold."
+        },
+        {
+          "ru": "Не урони торт, а то испортишь его.",
+          "en": "Don't drop the cake, or you'll ruin it."
+        },
+        {
+          "ru": "Запиши это, иначе забудешь.",
+          "en": "Write it down, otherwise you'll forget."
+        },
+        {
+          "ru": "Приходи вовремя, иначе у тебя будут неприятности.",
+          "en": "Be on time, otherwise you'll get in trouble."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему or переводится «а то», если вообще-то это «или»?",
+        "Откуда берётся «не» в версии с if, если в команде его не было?",
+        "Чем or else отличается от otherwise и где какое уместно?"
+      ]
+    },
+    {
+      "id": 549,
+      "microtopicId": 205,
+      "title": "and или or: одно и то же с разных сторон",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Две фразы из любого боевика. **Move and I'll shoot.** и **Don't move, or I'll shoot.** Угроза одна и та же, и пистолет тот же — а собраны они противоположно."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница только в том, с какой стороны зашли. `and` вешает последствие на то, чего делать НЕ НАДО: пошевелишься — выстрелю. `or` вешает то же последствие на то, что сделать НАДО: не шевелись, иначе выстрелю. Между двумя сборками ходит одно отрицание: убрали `Don't` слева — берём `and`; поставили `Don't` слева — берём `or`."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Через and — назвали запретное",
+            "Через or — назвали нужное"
+          ],
+          "rows": [
+            [
+              "Move and I'll shoot.",
+              "Don't move, or I'll shoot."
+            ],
+            [
+              "Say a word and she'll get angry.",
+              "Don't say a word, or she'll get angry."
+            ],
+            [
+              "Touch my laptop and you're in trouble.",
+              "Don't touch my laptop, or you're in trouble."
+            ],
+            [
+              "Press that button and you'll ruin everything.",
+              "Don't press that button, or you'll ruin everything."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ключ для перевода"
+        },
+        {
+          "type": "paragraph",
+          "text": "Переводя с русского, слушайте, какое слово стоит в середине фразы — оно и выбирает союз за вас:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«и тогда», «и будет», «и получишь» → `and`: «Позвони ему — и он всё объяснит».",
+            "«а то», «иначе», «а не то» → `or`: «Позвони ему, а то он обидится»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка в обратную сторону такая же дешёвая: подставьте в русскую фразу «а то». Встало — нужен `or`, не встало — `and`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Перепутанный союз грамматику не ломает — он переворачивает смысл, и вас понимают буквально наоборот. **Hurry up, and you'll be late** ✗ обещает опоздание тому, кто поторопится; предупреждение звучит **Hurry up, or you'll be late** ✓. Ошибка тем и опасна, что собеседник не переспросит: фраза-то правильная."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Don't бывает и с and"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Don't` не привязан к `or` намертво. С `and` он тоже встречается, только смысл получается обратный — не угроза, а обещание спокойствия: **Don't move and you'll be fine.** и **Don't say anything and nobody will notice.** Логика прежняя: слева стоит то, что надо сделать (в данном случае — не делать), справа приятный результат. Русский, кстати, собирает это так же: «Не дёргайся — и всё будет хорошо»."
+        },
+        {
+          "type": "heading",
+          "text": "Вместо команды слева может стоять Let's"
+        },
+        {
+          "type": "paragraph",
+          "text": "Предложение с `let's` из микротемы «Кто действует» ложится в обе сборки без изменений: **Let's hurry, or we'll be late.** и **Let's leave now and we'll be there by six.** Никакой особой формы для этого не нужно — работает то же правило."
+        },
+        {
+          "type": "heading",
+          "text": "У этой конструкции нет вопроса"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни `and`-сборка, ни `or`-сборка в вопрос не превращаются: обе всегда остаются утверждением — обещанием, предупреждением или угрозой. Отрицание же живёт где угодно: слева (**Don't move, or I'll shoot**), справа (**Leave now and you won't be late**) и даже в обеих половинах сразу (**Don't be late, or we won't get in**)."
+        }
+      ],
+      "theorySummary": "Микротема о команде, которая работает как условие. Команда плюс `and` = «сделай — и будет»: **Press this button and the door opens** = **If you press this button, the door opens**; справа настоящее время, если так бывает всегда, и will, если результат ждут один раз (**Take this pill and you'll feel better**), а в угрозе настоящее стоит вместо будущего (**One more word and you're fired**). Слева бывает не команда, а «ещё столько-то»: **Another drink and you won't be able to drive.** Не путайте с перечислением: **Sit down and be quiet** — две команды, **Sit down and you'll feel better** — команда и результат. Команда плюс `or` = «сделай, а то»: **Hurry up, or you'll miss the bus** = **If you don't hurry, you'll miss the bus** = **Unless you hurry, you'll miss the bus** — отрицание в if-версии появляется само, потому что `or` называет то, что будет БЕЗ выполнения команды. `or` здесь не «или», выбора оно не предлагает; рядом стоят `or else` с нажимом (**Give it back, or else!**) и письменное `otherwise`. Две сборки — зеркала друг друга: **Move and I'll shoot** = **Don't move, or I'll shoot.** Ключ для перевода: «и тогда» → and, «а то» → or. Вопроса у конструкции нет, отрицание возможно в любой половине.",
+      "examples": [
+        {
+          "ru": "Шевельнись — и я выстрелю.",
+          "en": "Move and I'll shoot."
+        },
+        {
+          "ru": "Не шевелись, а то я выстрелю.",
+          "en": "Don't move, or I'll shoot."
+        },
+        {
+          "ru": "Скажи хоть слово — и она разозлится.",
+          "en": "Say a word and she'll get angry."
+        },
+        {
+          "ru": "Не дёргайся — и всё будет хорошо.",
+          "en": "Don't move and you'll be fine."
+        },
+        {
+          "ru": "Давай поторопимся, а то опоздаем.",
+          "en": "Let's hurry, or we'll be late."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, какой союз нужен — and или or?",
+        "Почему Don't move and you'll be fine не звучит как угроза?",
+        "Можно ли поставить отрицание сразу в обе половины?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2517,6 +2952,60 @@
       "exerciseType": "TRANSFORMATION",
       "exerciseId": 90,
       "orderInCard": 2
+    },
+    {
+      "cardId": 547,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 232,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 547,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 119,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 547,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 185,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 548,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 86,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 548,
+      "exerciseType": "MATCHING",
+      "exerciseId": 86,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 548,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 207,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 549,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 91,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 549,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 196,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 549,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 79,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2551,6 +3040,14 @@
       "userInstruction": "AI пришлёт три предложения. Найдите то, в котором есть ошибка, перепишите его правильно и своими словами скажите, что было не так.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "imperative_card549_ex1",
+      "cardId": 549,
+      "title": "Скажи по-английски",
+      "userInstruction": "AI пришлёт русскую фразу. Скажите её по-английски — там, где это подходит, короткой командой с and или or, как в этой микротеме.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -2713,6 +3210,46 @@
       "transcription": "[ˈɒnɪst]",
       "microtopicId": 204,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 778,
+      "word": "to press",
+      "translation": "нажимать, давить",
+      "transcription": "[pres]",
+      "microtopicId": 205,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 779,
+      "word": "to ruin",
+      "translation": "испортить, разрушить",
+      "transcription": "[ˈruːɪn]",
+      "microtopicId": 205,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 780,
+      "word": "to regret",
+      "translation": "жалеть, сожалеть",
+      "transcription": "[rɪˈɡret]",
+      "microtopicId": 205,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 781,
+      "word": "trouble",
+      "translation": "неприятности, проблема",
+      "transcription": "[ˈtrʌbl]",
+      "microtopicId": 205,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 782,
+      "word": "otherwise",
+      "translation": "иначе, в противном случае",
+      "transcription": "[ˈʌðəwaɪz]",
+      "microtopicId": 205,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -2840,6 +3377,37 @@
         }
       ],
       "explanation": "после let идёт базовая форма без to, поэтому Let me explain. И местоимение стоит в объектной форме: Let her try the dress on."
+    },
+    {
+      "id": 207,
+      "statements": [
+        {
+          "en": "Call her now, or she'll go to bed.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Write down the address, or you will forgot it.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Don't eat the cake, or Lucy will see.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Or close the window, the rain will come in.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Leave a note, otherwise nobody will know where you are.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "после will всегда стоит первая форма глагола — will forget, а не will forgot. И or соединяет две половины изнутри: начинать с него предложение нельзя, слева от or должна стоять сама команда."
     }
   ],
   "word_arrangement_exercises": [
@@ -2934,6 +3502,26 @@
         "we"
       ],
       "explanation": "just встаёт сразу после let's и смягчает предложение, а дальше идёт базовая форма глагола. Подлежащее we здесь лишнее: оно уже спрятано внутри let's."
+    },
+    {
+      "id": 185,
+      "situationRu": "RU: Приезжай в пятницу — и мы сходим на концерт.",
+      "correctSentence": "Come on Friday and we'll go to the concert.",
+      "words": [
+        "Come",
+        "on Friday",
+        "and",
+        "we'll",
+        "go",
+        "to the concert"
+      ],
+      "distractors": [
+        "or",
+        "to go",
+        "will we",
+        "going"
+      ],
+      "explanation": "после and идёт целая часть с подлежащим и обычным порядком слов: we'll go. Инфинитив с to после and не нужен, а перестановка will we превратила бы половину в вопрос."
     }
   ],
   "multiple_choice_exercises": [
@@ -3167,6 +3755,48 @@
         }
       ],
       "explanation": "let's face it вводит неприятную правду, которую все и так понимают. Дословное «посмотрим на машину» было бы let's look at the car."
+    },
+    {
+      "id": 232,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Позвони Тому сегодня — и он всё объяснит.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Call Tom today or he'll explain everything.",
+          "isCorrect": false
+        },
+        {
+          "text": "Call Tom today and he'll explain everything.",
+          "isCorrect": true
+        },
+        {
+          "text": "Call Tom today and will he explain everything.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "результат команды подаётся через and, а справа стоит целая часть с подлежащим в обычном порядке: he'll explain. Вариант с or говорил бы «позвони, а то он всё объяснит» — предупреждения здесь нет."
+    },
+    {
+      "id": 86,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Take a taxi, or you'll be late for the meeting.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Возьми такси, и ты опоздаешь на встречу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Возьми такси или опоздай на встречу — решай сам.",
+          "isCorrect": false
+        },
+        {
+          "text": "Возьми такси, а то опоздаешь на встречу.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "or в такой команде значит «а то, иначе», а не «или»: выбора здесь не предлагают, а предупреждают о последствии."
     }
   ],
   "text_input_exercises": [
@@ -3315,6 +3945,38 @@
         }
       ],
       "explanation": "после let идёт голая базовая форма без to, а тот, кому разрешают, стоит в объектной форме: не I, а me."
+    },
+    {
+      "id": 79,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm going to tell Megan about the surprise."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Okay, okay, I won't say a word."
+        }
+      ],
+      "options": [
+        {
+          "text": "Tell her and everyone will know by lunch.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tell her or everyone will know by lunch.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't tell her and everyone will know by lunch.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "последствие висит на действии, которого делать не надо, поэтому нужна сборка с and. Вариант с or говорил бы «расскажи ей, а то все узнают» — то есть ровно наоборот."
     }
   ],
   "matching_exercises": [
@@ -3386,6 +4048,29 @@
         }
       ],
       "explanation": "сокращение зовёт делать вместе, а полная форма ставит us настоящим дополнением — «нас». Без апострофа получается обычный глагол в третьем лице: she lets, «она позволяет»."
+    },
+    {
+      "id": 86,
+      "taskDescription": "соедини начало предупреждения с его концом.",
+      "pairs": [
+        {
+          "left": "Charge your phone,",
+          "right": "or it'll die on the way."
+        },
+        {
+          "left": "Set an alarm,",
+          "right": "or you'll oversleep."
+        },
+        {
+          "left": "Book now,",
+          "right": "or the tickets will be gone."
+        },
+        {
+          "left": "Leave at seven,",
+          "right": "or you'll be stuck in traffic."
+        }
+      ],
+      "explanation": "левая половина говорит, что надо сделать, а правая — что случится, если этого не сделать. Поэтому справа стоит будущее время, а само «не» нигде не пишется: его уже несёт or."
     }
   ],
   "error_correction_exercises": [
@@ -3464,6 +4149,25 @@
         }
       ],
       "explanation": "когда названо то, что нужно отпустить, между let go и предметом обязателен of. Без предмета фраза работает сама по себе: Let go!"
+    },
+    {
+      "id": 196,
+      "wrongSentence": "Save the file, and you'll lose everything.",
+      "options": [
+        {
+          "text": "Save the file, or you'll lost everything.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't save the file, or you'll lose everything.",
+          "isCorrect": false
+        },
+        {
+          "text": "Save the file, or you'll lose everything.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "предупреждение о потерянном файле собирается через or: «сохрани, а то потеряешь». С and смысл переворачивается и обещает потерю тому, кто файл сохранил."
     }
   ],
   "construction_meaning_exercises": [
@@ -3659,6 +4363,25 @@
         }
       ],
       "explanation": "отрицание встаёт сразу после let's, а глагол остаётся в базовой форме. Ни don't, ни вспомогательных слов здесь не появляется."
+    },
+    {
+      "id": 91,
+      "taskDescription": "перепиши каждое предупреждение так, чтобы оно начиналось с Don't.",
+      "items": [
+        {
+          "original": "Run and you'll fall.",
+          "transformed": "Don't run, or you'll fall."
+        },
+        {
+          "original": "Wait outside and you'll freeze.",
+          "transformed": "Don't wait outside, or you'll freeze."
+        },
+        {
+          "original": "Argue with him and he'll leave.",
+          "transformed": "Don't argue with him, or he'll leave."
+        }
+      ],
+      "explanation": "когда слева появляется запрет, союз меняется на or: первая сборка вешает последствие на запретное действие, вторая — на невыполненную команду. Правая половина при этом не меняется вообще."
     }
   ],
   "categorization_exercises": [
@@ -3763,6 +4486,29 @@
         }
       ],
       "explanation": "в первой группе после let стоит направление — внутрь, наружу, сквозь. Во второй группе речь о том, чтобы разжать руки или оставить в покое, и направления там нет вовсе."
+    },
+    {
+      "id": 119,
+      "taskDescription": "распредели фразы по тому, что стоит после and.",
+      "categories": [
+        {
+          "title": "Две команды подряд",
+          "items": [
+            "Come in and close the door",
+            "Take a seat and wait",
+            "Stand up and stretch"
+          ]
+        },
+        {
+          "title": "Команда и её результат",
+          "items": [
+            "Turn left and you'll see the bank",
+            "Ask Kate and she'll explain",
+            "Pay today and you get a discount"
+          ]
+        }
+      ],
+      "explanation": "справа от and стоит либо голый глагол без подлежащего — тогда это вторая команда, либо целая часть с подлежащим — тогда это то, что случится после первой."
     }
   ],
   "find_the_odd_exercises": [
