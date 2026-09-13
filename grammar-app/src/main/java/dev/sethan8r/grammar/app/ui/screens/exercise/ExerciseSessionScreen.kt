@@ -16,14 +16,12 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.HelpOutline
-import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -47,13 +45,13 @@ import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
 import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
 import dev.sethan8r.grammar.app.ui.components.CenteredHint
 import dev.sethan8r.grammar.app.ui.components.LoadingIndicator
+import dev.sethan8r.grammar.app.ui.components.dialog.InfoDialog
 import dev.sethan8r.grammar.app.ui.components.feedback.FeedbackSnackbarHost
 import dev.sethan8r.grammar.app.ui.components.feedback.rememberFeedbackSnackbarController
 import dev.sethan8r.grammar.app.ui.components.progress.IdBadge
 import dev.sethan8r.grammar.app.ui.components.progress.SegmentedProgressBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.BackTopBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.ExitConfirmationHandler
-import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.components.exercise.AiPlaceholderView
 import dev.sethan8r.grammar.app.ui.components.exercise.CategorizationExerciseView
@@ -68,7 +66,6 @@ import dev.sethan8r.grammar.app.ui.components.exercise.UnsupportedExerciseView
 import dev.sethan8r.grammar.app.ui.components.exercise.WordArrangementExerciseView
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background
-import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
@@ -153,16 +150,11 @@ fun ExerciseSessionScreen(
     }
 
     if (showSummaryDialog) {
-        AlertDialog(
-            containerColor = CardBackground,
-            onDismissRequest = { showSummaryDialog = false },
-            confirmButton = {
-                TextButton(onClick = { showSummaryDialog = false }) {
-                    Text(stringResource(R.string.exercise_summary_close))
-                }
-            },
-            title = { Text(stringResource(R.string.exercise_help), color = Accent) },
-            text = { MarkdownText(text = state.theorySummary) },
+        InfoDialog(
+            title = stringResource(R.string.exercise_help),
+            text = state.theorySummary,
+            confirmLabel = stringResource(R.string.exercise_summary_close),
+            onDismiss = { showSummaryDialog = false },
         )
     }
 }

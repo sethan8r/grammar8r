@@ -11,7 +11,6 @@ import androidx.compose.animation.shrinkHorizontally
 import androidx.compose.foundation.background
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -26,8 +25,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.BlurredEdgeTreatment
-import androidx.compose.ui.draw.blur
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
@@ -37,9 +34,9 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavDestination.Companion.hierarchy
+import dev.sethan8r.grammar.app.ui.components.HaloBox
 import dev.sethan8r.grammar.app.ui.navigation.TopLevelDestination
 import dev.sethan8r.grammar.app.ui.theme.Accent
-import dev.sethan8r.grammar.app.ui.theme.Alphas
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
@@ -70,23 +67,15 @@ fun Grammar8rBottomBar(
     onNavigate: (TopLevelDestination) -> Unit,
 ) {
     val containerShape = RoundedCornerShape(Dimens.bottomBarContainerRadius)
-    Box(
+    HaloBox(
+        shape = containerShape,
         modifier = Modifier
             .navigationBarsPadding()
             .padding(
                 horizontal = Dimens.bottomBarFloatingMargin,
                 vertical = Dimens.bottomBarFloatingBottomGap,
             ),
-        contentAlignment = Alignment.Center,
     ) {
-        // Равномерный ореол-тень: чёрный слой формы капсулы, размытый наружу (Unbounded) — даёт кольцо
-        // «чёрный у края → прозрачный» одинаковой толщины со всех сторон. Капсула сверху перекрывает центр.
-        Box(
-            modifier = Modifier
-                .matchParentSize()
-                .blur(Dimens.bottomBarHaloBlur, BlurredEdgeTreatment.Unbounded)
-                .background(Color.Black.copy(alpha = Alphas.bottomBarHalo), containerShape),
-        )
         Row(
             modifier = Modifier
                 .clip(containerShape)

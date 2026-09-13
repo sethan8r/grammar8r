@@ -763,7 +763,11 @@ def parse_file(path, only_mt=None, word_start=1):
                     cur_card['theory'] = parse_theory(body)
                 elif sub.startswith('#### Summary'):
                     body, i = collect_section(lines, i + 1)
-                    cur_card['theorySummary'] = ' '.join(b.strip() for b in body if b.strip())
+                    # Разделитель секций (`---` перед следующим `####`) — разметка файла, не текст сводки.
+                    cur_card['theorySummary'] = ' '.join(
+                        b.strip() for b in body
+                        if b.strip() and not re.fullmatch(r'[-*]{3,}', b.strip())
+                    )
                 elif sub.startswith('#### Examples'):
                     body, i = collect_section(lines, i + 1)
                     cur_card['examples'] = parse_examples(body)
