@@ -168,7 +168,12 @@
           ]
         }
       ],
-      "theorySummary": "Past Perfect Continuous — это **длинный флешбэк, который доигрывает до сцены**: вставку не пометили титром, а показали целиком, и она тянется вплотную к кадру. Если `had + V3` — точка на линии времени («успело случиться раньше»), то `had been + -ing` — отрезок, упёртый в точку («тянулось до того момента»): **She had been waiting for two hours** — ждала и в момент его приезда всё ещё ждала. Главный вопрос этого времени: не «что случилось раньше?», а «что тянулось до того момента?».",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Past Perfect Continuous — это **длинный флешбэк, который доигрывает до сцены**: вставку не пометили титром, а показали целиком, и она тянется вплотную к кадру. Если `had + V3` — точка на линии времени («успело случиться раньше»), то `had been + -ing` — отрезок, упёртый в точку («тянулось до того момента»): **She had been waiting for two hours** — ждала и в момент его приезда всё ещё ждала. Главный вопрос этого времени: не «что случилось раньше?», а «что тянулось до того момента?»."
+        }
+      ],
       "examples": [
         {
           "ru": "Она ждала два часа.",
@@ -317,7 +322,12 @@
           ]
         }
       ],
-      "theorySummary": "У формы `had been + -ing` две половины, и обе про отрезок, упёртый в точку прошлого: процесс ещё шёл в тот момент (**She had been waiting for two hours when Roma arrived**) или только что кончился, а следы были видны (**He was tired because he had been fixing his car all day**). Русская подсказка — вид глагола: «прочитал к экзамену» → `had read`, «читал всю ночь» → `had been reading`; подсказка хорошая, но выбор всё равно делается по вопросу «есть ли отрезок до момента в прошлом?». Коротко: `had + V3` — что было сделано, `had been + -ing` — чем занимались.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У формы `had been + -ing` две половины, и обе про отрезок, упёртый в точку прошлого: процесс ещё шёл в тот момент (**She had been waiting for two hours when Roma arrived**) или только что кончился, а следы были видны (**He was tired because he had been fixing his car all day**). Русская подсказка — вид глагола: «прочитал к экзамену» → `had read`, «читал всю ночь» → `had been reading`; подсказка хорошая, но выбор всё равно делается по вопросу «есть ли отрезок до момента в прошлом?». Коротко: `had + V3` — что было сделано, `had been + -ing` — чем занимались."
+        }
+      ],
       "examples": [
         {
           "ru": "Когда Рома приехал, Катя ждала уже два часа.",
@@ -447,7 +457,12 @@
           ]
         }
       ],
-      "theorySummary": "Русскоязычный ошибается не из-за формы, а потому что **не видит момента выбора**: во фразе «он устал, потому что работал весь день» оба глагола прошедшие, и связь достраивает слушатель. Английский кодирует её формой — **He had been working all day** тянет работу вплотную к усталости. Отсюда два перекоса: отрезок теряется (**She was looking for her keys** вместо **She had been looking for her keys**) или, наоборот, `had been` лезет в каждое предложение рассказа. И честно: носители берут эту форму редко — чаще говорят `had worked` или `was working`, поэтому главное здесь — узнавать её и ставить там, где важен ход, а не итог.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русскоязычный ошибается не из-за формы, а потому что **не видит момента выбора**: во фразе «он устал, потому что работал весь день» оба глагола прошедшие, и связь достраивает слушатель. Английский кодирует её формой — **He had been working all day** тянет работу вплотную к усталости. Отсюда два перекоса: отрезок теряется (**She was looking for her keys** вместо **She had been looking for her keys**) или, наоборот, `had been` лезет в каждое предложение рассказа. И честно: носители берут эту форму редко — чаще говорят `had worked` или `was working`, поэтому главное здесь — узнавать её и ставить там, где важен ход, а не итог."
+        }
+      ],
       "examples": [
         {
           "ru": "Он устал, потому что весь день работал.",
@@ -600,7 +615,12 @@
           ]
         }
       ],
-      "theorySummary": "Форма собирается как `had been + V-ing`: `had` — маркер «до того момента», `been` — деталь конструкции (не «был», отдельно не переводится), `-ing` — длительность. Форма **одна на все лица**: `I had been waiting`, `Vera had been waiting` — ни выбора `have/has`, ни окончания `-s`. Главные ловушки: **had being** ✗ вместо **had been** ✓, потерянный `-ing` (**I had been work** ✗) и второй помощник в предложении (**I was been working** ✗).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Форма собирается как `had been + V-ing`: `had` — маркер «до того момента», `been` — деталь конструкции (не «был», отдельно не переводится), `-ing` — длительность. Форма **одна на все лица**: `I had been waiting`, `Vera had been waiting` — ни выбора `have/has`, ни окончания `-s`. Главные ловушки: **had being** ✗ вместо **had been** ✓, потерянный `-ing` (**I had been work** ✗) и второй помощник в предложении (**I was been working** ✗)."
+        }
+      ],
       "examples": [
         {
           "ru": "Она гладила кота уже десять минут, и он наконец уснул.",
@@ -703,7 +723,12 @@
           ]
         }
       ],
-      "theorySummary": "В живой речи `had` схлопывается в `'d`: **I'd been**, **he'd been**, **they'd been**. Путаницы с `would` здесь нет — сочетания `would been` в языке не существует, поэтому перед `been` хвостик `'d` это **всегда** `had` (**He'd been waiting outside** — ждал; **He'd wait outside** — подождал бы). Отрицание тоже сокращается: `hadn't been`. На слух `'d` и безударное `been` проглатываются почти полностью, поэтому в беглой речи легко услышать **he working** вместо **he'd been working**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "В живой речи `had` схлопывается в `'d`: **I'd been**, **he'd been**, **they'd been**. Путаницы с `would` здесь нет — сочетания `would been` в языке не существует, поэтому перед `been` хвостик `'d` это **всегда** `had` (**He'd been waiting outside** — ждал; **He'd wait outside** — подождал бы). Отрицание тоже сокращается: `hadn't been`. На слух `'d` и безударное `been` проглатываются почти полностью, поэтому в беглой речи легко услышать **he working** вместо **he'd been working**."
+        }
+      ],
       "examples": [
         {
           "ru": "Он ждал снаружи уже какое-то время.",
@@ -836,7 +861,12 @@
           ]
         }
       ],
-      "theorySummary": "Отрицание и вопрос держит сам `had`: `hadn't been + V-ing` (**I hadn't been sleeping well**), а в вопросе `had` выходит вперёд подлежащего (**Had you been waiting long?**); краткие ответы — **Yes, I had** / **No, I hadn't**. Отрицательный вопрос **Hadn't you been looking for a job?** = наше «разве не искал?». Главный вопрос этого времени — про срок: **How long had you been waiting when the bus came?** Ловушки: **Did you had been…** ✗ (второй помощник не нужен), **Had you been wait?** ✗ (потерялось `-ing`) и **Were you been waiting?** ✗.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Отрицание и вопрос держит сам `had`: `hadn't been + V-ing` (**I hadn't been sleeping well**), а в вопросе `had` выходит вперёд подлежащего (**Had you been waiting long?**); краткие ответы — **Yes, I had** / **No, I hadn't**. Отрицательный вопрос **Hadn't you been looking for a job?** = наше «разве не искал?». Главный вопрос этого времени — про срок: **How long had you been waiting when the bus came?** Ловушки: **Did you had been…** ✗ (второй помощник не нужен), **Had you been wait?** ✗ (потерялось `-ing`) и **Were you been waiting?** ✗."
+        }
+      ],
       "examples": [
         {
           "ru": "До поездки я плохо спал.",
@@ -977,7 +1007,12 @@
           ]
         }
       ],
-      "theorySummary": "Первая половина смысла: процесс тянулся и к моменту в прошлом ещё **не кончился**. В такой фразе всегда есть точка (короткое событие) и отрезок (то, что до неё длилось): отрезок уходит в `had been + -ing`, точка остаётся в простом прошедшем — **They had been living in Lisbon for ten years before they moved to Vienna**. Проверка в три шага: есть точка? есть процесс? тогда процесс в длинную форму. Ловушки: длинную форму получают **оба** глагола ✗ (прислонять становится не к чему) и **Sam was waiting for two hours when Megan came** ✗ — длительное прошедшее не говорит, сколько уже длилось к этому моменту.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Первая половина смысла: процесс тянулся и к моменту в прошлом ещё **не кончился**. В такой фразе всегда есть точка (короткое событие) и отрезок (то, что до неё длилось): отрезок уходит в `had been + -ing`, точка остаётся в простом прошедшем — **They had been living in Lisbon for ten years before they moved to Vienna**. Проверка в три шага: есть точка? есть процесс? тогда процесс в длинную форму. Ловушки: длинную форму получают **оба** глагола ✗ (прислонять становится не к чему) и **Sam was waiting for two hours when Megan came** ✗ — длительное прошедшее не говорит, сколько уже длилось к этому моменту."
+        }
+      ],
       "examples": [
         {
           "ru": "Люси ждала у клиники уже час и теряла терпение, когда врач наконец её позвал.",
@@ -1155,7 +1190,12 @@
           ]
         }
       ],
-      "theorySummary": "Вторая половина смысла: процесс к моменту в прошлом уже оборвался, но его следы в этот момент были видны — **Jake came in breathless — he had been running**; **Kate was upset — she had been arguing with her brother all evening**. Поэтому форма почти всегда живёт рядом с `because`, `so`, `that's why`: она отвечает на вопрос «почему в тот момент всё было именно так». Русский подпирает смысл словами «всё утро», «до этого долго» — в английском их работу делает форма. Коротко о развилке: `had` + третья форма даёт готовый итог (**He had read the report**), `had been + -ing` — занятие, от которого осталась картинка (**He had been reading all night**).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вторая половина смысла: процесс к моменту в прошлом уже оборвался, но его следы в этот момент были видны — **Jake came in breathless — he had been running**; **Kate was upset — she had been arguing with her brother all evening**. Поэтому форма почти всегда живёт рядом с `because`, `so`, `that's why`: она отвечает на вопрос «почему в тот момент всё было именно так». Русский подпирает смысл словами «всё утро», «до этого долго» — в английском их работу делает форма. Коротко о развилке: `had` + третья форма даёт готовый итог (**He had read the report**), `had been + -ing` — занятие, от которого осталась картинка (**He had been reading all night**)."
+        }
+      ],
       "examples": [
         {
           "ru": "Джейк вошёл запыхавшийся — он бежал за последним автобусом.",
@@ -1303,7 +1343,12 @@
           ]
         }
       ],
-      "theorySummary": "Срок при этой форме называется привычными словами: `for` + длина отрезка (**for three years**), `since` + точка старта (**since 2015**), либо оборот без предлога (**all morning**). Разница с перфектом настоящего одна: отрезок упирается не в «сейчас», а в точку в прошлом — **She has been waiting for an hour** (ждёт сейчас) ↔ **She had been waiting for an hour when the bus came** (час закончился на автобусе). Главный вопрос темы — **How long had you been waiting?**, ответ короткий: **For about an hour** / **For ages**. Ловушки: **How long were you waiting?** ✗ (эта форма не считает накопленный срок) и **since three years** ✗ вместо **for three years** ✓.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Срок при этой форме называется привычными словами: `for` + длина отрезка (**for three years**), `since` + точка старта (**since 2015**), либо оборот без предлога (**all morning**). Разница с перфектом настоящего одна: отрезок упирается не в «сейчас», а в точку в прошлом — **She has been waiting for an hour** (ждёт сейчас) ↔ **She had been waiting for an hour when the bus came** (час закончился на автобусе). Главный вопрос темы — **How long had you been waiting?**, ответ короткий: **For about an hour** / **For ages**. Ловушки: **How long were you waiting?** ✗ (эта форма не считает накопленный срок) и **since three years** ✗ вместо **for three years** ✓."
+        }
+      ],
       "examples": [
         {
           "ru": "Я учил французский три года, прежде чем переехал в Лион.",
@@ -1478,7 +1523,12 @@
           ]
         }
       ],
-      "theorySummary": "Этой форме обязательно нужна названная граница: **He had been working** ✗ ни о чём не сообщает, а **By the time the police arrived, the crowd had been shouting for an hour** ✓ — уже да. Границу ставят `by the time`, `when` и `before` либо названный срок. Отдельная развилка: русское «уже» двоится. «Уже сделал» — это `had done` (**He had already left**), а «уже не / больше не» — это «перестал», и в перфект оно не идёт: **He no longer worked there** ✓ (`no longer` стоит перед смысловым глаголом, после `to be`) или разговорное **He didn't work there anymore** ✓. Ловушка: **I had already not wanted** ✗ — `already` в отрицании не живёт.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Этой форме обязательно нужна названная граница: **He had been working** ✗ ни о чём не сообщает, а **By the time the police arrived, the crowd had been shouting for an hour** ✓ — уже да. Границу ставят `by the time`, `when` и `before` либо названный срок. Отдельная развилка: русское «уже» двоится. «Уже сделал» — это `had done` (**He had already left**), а «уже не / больше не» — это «перестал», и в перфект оно не идёт: **He no longer worked there** ✓ (`no longer` стоит перед смысловым глаголом, после `to be`) или разговорное **He didn't work there anymore** ✓. Ловушка: **I had already not wanted** ✗ — `already` в отрицании не живёт."
+        }
+      ],
       "examples": [
         {
           "ru": "К приезду полиции толпа кричала уже час.",
@@ -1584,7 +1634,12 @@
           ]
         }
       ],
-      "theorySummary": "Формы разводит один вопрос: что я увижу, если войду в комнату в ту секунду? **Emma had cooked dinner when I got home** — на столе готовая еда, самой Эммы может и не быть; **Emma had been cooking dinner when I got home** — пар, сковорода, Эмма у плиты, а готов ли ужин, неизвестно. Так же **Nick had fixed his bike** (велосипед на ходу) ↔ **Nick had been fixing his bike** (Ник с ключами в гараже). Коротко: `had` + третья форма показывает, что к тому моменту уже есть, `had been + -ing` — что в тот момент только что шло.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Формы разводит один вопрос: что я увижу, если войду в комнату в ту секунду? **Emma had cooked dinner when I got home** — на столе готовая еда, самой Эммы может и не быть; **Emma had been cooking dinner when I got home** — пар, сковорода, Эмма у плиты, а готов ли ужин, неизвестно. Так же **Nick had fixed his bike** (велосипед на ходу) ↔ **Nick had been fixing his bike** (Ник с ключами в гараже). Коротко: `had` + третья форма показывает, что к тому моменту уже есть, `had been + -ing` — что в тот момент только что шло."
+        }
+      ],
       "examples": [
         {
           "ru": "Эмма приготовила ужин к моему приходу.",
@@ -1671,7 +1726,12 @@
           "text": "Иногда разглядывать нечего: **He had been thinking about it for weeks** — думал неделями, а увидеть это невозможно. Ключ со следом хорош ровно там, где в кадре есть вещь или человек; для остальных случаев в микротеме будет ещё три подхода."
         }
       ],
-      "theorySummary": "Второй ключ развилки — где остался след. Перфект оставляет его на вещи: **They had repaired the roof** (крыша целая), **Sara had ironed the shirts** (рубашки выглажены). Длительная форма — на человеке: **They had been repairing the roof** (сами в пыли, крыша может быть ещё в дырах), **Sara had been ironing the shirts** (красная от пара). Рабочий вопрос: по чему видно, что это было, — по вещи или по человеку? Отсюда и соседство длительной формы с `because` и `that's why`: след на человеке просит объяснения.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Второй ключ развилки — где остался след. Перфект оставляет его на вещи: **They had repaired the roof** (крыша целая), **Sara had ironed the shirts** (рубашки выглажены). Длительная форма — на человеке: **They had been repairing the roof** (сами в пыли, крыша может быть ещё в дырах), **Sara had been ironing the shirts** (красная от пара). Рабочий вопрос: по чему видно, что это было, — по вещи или по человеку? Отсюда и соседство длительной формы с `because` и `that's why`: след на человеке просит объяснения."
+        }
+      ],
       "examples": [
         {
           "ru": "Они починили крышу.",
@@ -1762,7 +1822,12 @@
           ]
         }
       ],
-      "theorySummary": "`had` + третья форма сообщает, что дело доведено до конца; `had been + -ing` о конце молчит: **I had watched the whole series** (досмотрел) ↔ **I had been watching that series all evening** (просидел вечер, конца не видно). Проверка руками: попробуйте дописать **and he still hadn't finished** — к длительной форме хвост приклеивается (**He had been building the shelf since Saturday, and he still hadn't finished** ✓), к перфектной нет (**He had built the shelf, and he still hadn't finished** ✗). В этом вопросе помогает русский вид: «построил ↔ строил».",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`had` + третья форма сообщает, что дело доведено до конца; `had been + -ing` о конце молчит: **I had watched the whole series** (досмотрел) ↔ **I had been watching that series all evening** (просидел вечер, конца не видно). Проверка руками: попробуйте дописать **and he still hadn't finished** — к длительной форме хвост приклеивается (**He had been building the shelf since Saturday, and he still hadn't finished** ✓), к перфектной нет (**He had built the shelf, and he still hadn't finished** ✗). В этом вопросе помогает русский вид: «построил ↔ строил»."
+        }
+      ],
       "examples": [
         {
           "ru": "Я досмотрел весь сериал до нашей встречи.",
@@ -1880,7 +1945,12 @@
           ]
         }
       ],
-      "theorySummary": "Два механических переключателя. Названо количество — только перфект: **He had sent three messages before she answered** ✓, **had been sending three messages** ✗ (посчитать можно лишь законченное). Назван срок — **for two hours**, **all morning**, **since Monday** — длительная форма: **They had been driving for three hours when the engine died** ✓. Проверочная пара: **How many had you sent?** ждёт цифру, **How long had you been sending them?** ждёт срок. Глаголы-состояния в длительную форму не встают: **I had been knowing him** ✗ → **I had known him for years** ✓.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Два механических переключателя. Названо количество — только перфект: **He had sent three messages before she answered** ✓, **had been sending three messages** ✗ (посчитать можно лишь законченное). Назван срок — **for two hours**, **all morning**, **since Monday** — длительная форма: **They had been driving for three hours when the engine died** ✓. Проверочная пара: **How many had you sent?** ждёт цифру, **How long had you been sending them?** ждёт срок. Глаголы-состояния в длительную форму не встают: **I had been knowing him** ✗ → **I had known him for years** ✓."
+        }
+      ],
       "examples": [
         {
           "ru": "Он отправил три сообщения, прежде чем она ответила.",
@@ -1992,7 +2062,12 @@
           ]
         }
       ],
-      "theorySummary": "Перед выбором формы проверьте, можно ли этот глагол делать долго. Щелчки — **to find, to arrive, to win, to notice, to break, to lose** — называют событие длиной в мгновение и длительную форму не принимают: **I had been finding my keys** ✗ → **I had been looking for my keys** ✓, **We had been arriving** ✗ → **We had arrived** ✓. У каждого щелчка есть занятие-напарник: find ↔ look for, arrive ↔ travel, win ↔ play. Русский подсказывает то же самое: «два часа находил ключи» звучит так же криво. В длительной форме щелчок означает уже серию повторов: **He had been dropping his phone all day**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Перед выбором формы проверьте, можно ли этот глагол делать долго. Щелчки — **to find, to arrive, to win, to notice, to break, to lose** — называют событие длиной в мгновение и длительную форму не принимают: **I had been finding my keys** ✗ → **I had been looking for my keys** ✓, **We had been arriving** ✗ → **We had arrived** ✓. У каждого щелчка есть занятие-напарник: find ↔ look for, arrive ↔ travel, win ↔ play. Русский подсказывает то же самое: «два часа находил ключи» звучит так же криво. В длительной форме щелчок означает уже серию повторов: **He had been dropping his phone all day**."
+        }
+      ],
       "examples": [
         {
           "ru": "Я искал ключи полчаса.",
@@ -2110,7 +2185,12 @@
           ]
         }
       ],
-      "theorySummary": "Выбора нет в четырёх случаях: важен готовый итог (**He had finished the report**), названо количество (**She had made six calls**), глагол называет состояние (**I had known her since school**), глагол называет щелчок (**They had arrived by six**) — везде `had` + третья форма. У глаголов live, work, study, teach годятся обе формы: **I had lived there for years** ≈ **I had been living there for years**. Компас: (1) увидел бы готовое или человека в процессе? (2) итог или количество → перфект; (3) срок → длительная; (4) приклеивается «и всё ещё не закончил» → длительная; (5) глагол-щелчок → только перфект.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Выбора нет в четырёх случаях: важен готовый итог (**He had finished the report**), названо количество (**She had made six calls**), глагол называет состояние (**I had known her since school**), глагол называет щелчок (**They had arrived by six**) — везде `had` + третья форма. У глаголов live, work, study, teach годятся обе формы: **I had lived there for years** ≈ **I had been living there for years**. Компас: (1) увидел бы готовое или человека в процессе? (2) итог или количество → перфект; (3) срок → длительная; (4) приклеивается «и всё ещё не закончил» → длительная; (5) глагол-щелчок → только перфект."
+        }
+      ],
       "examples": [
         {
           "ru": "Он закончил отчёт, и мы смогли его отправить.",
@@ -2229,7 +2309,12 @@
           ]
         }
       ],
-      "theorySummary": "Формы отличаются одним этажом: хвост `been + -ing` общий, помощник разный. `have/has been` считает до сейчас, `had been` — до момента в прошлом: **I've been waiting for an hour** (жду до сих пор) ↔ **I had been waiting for an hour when he came** (ждал до той минуты). Отрезок в паре один и тот же, меняется стенка, в которую он упирается. Русский обе фразы переводит одинаково («я ждал час»), поэтому выбирают по вопросу «до какого момента я считаю?». Прямые подсказки — `by now` (до сейчас) и `by then` (до той точки).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Формы отличаются одним этажом: хвост `been + -ing` общий, помощник разный. `have/has been` считает до сейчас, `had been` — до момента в прошлом: **I've been waiting for an hour** (жду до сих пор) ↔ **I had been waiting for an hour when he came** (ждал до той минуты). Отрезок в паре один и тот же, меняется стенка, в которую он упирается. Русский обе фразы переводит одинаково («я ждал час»), поэтому выбирают по вопросу «до какого момента я считаю?». Прямые подсказки — `by now` (до сейчас) и `by then` (до той точки)."
+        }
+      ],
       "examples": [
         {
           "ru": "Я жду уже час.",
@@ -2350,7 +2435,12 @@
           ]
         }
       ],
-      "theorySummary": "Ключ: назван прошлый момент, до которого считаем (**when he came**, **before she quit**, **by then**) → `had been`; всё упирается в сегодняшний день → `have/has been`. Один сюжет через три камеры: **I was waiting for an hour** (просто шёл процесс, ничего не считаем) → **I've been waiting for an hour** (и всё ещё жду) → **I had been waiting for an hour when he finally came** (ждал до той минуты). Ловушка в обратную сторону: **I had been waiting for an hour, where are you?** ✗ → **I've been waiting for an hour, where are you?** ✓ — разговор идёт сейчас, флешбэку не к чему прислониться.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Ключ: назван прошлый момент, до которого считаем (**when he came**, **before she quit**, **by then**) → `had been`; всё упирается в сегодняшний день → `have/has been`. Один сюжет через три камеры: **I was waiting for an hour** (просто шёл процесс, ничего не считаем) → **I've been waiting for an hour** (и всё ещё жду) → **I had been waiting for an hour when he finally came** (ждал до той минуты). Ловушка в обратную сторону: **I had been waiting for an hour, where are you?** ✗ → **I've been waiting for an hour, where are you?** ✓ — разговор идёт сейчас, флешбэку не к чему прислониться."
+        }
+      ],
       "examples": [
         {
           "ru": "Я ждал час.",
@@ -2492,7 +2582,12 @@
           ]
         }
       ],
-      "theorySummary": "Past Perfect Continuous — это `had been + -ing`, одна форма на все лица: отрезок, который тянулся к точке в прошлом. Четыре повода: процесс ещё шёл к той точке и назван срок (**They had been driving for three hours when the engine died**), процесс оборвался и объясняет картину (**Her eyes were red — she had been crying**), отрезок упирается в границу (**By the time the shop opened, we had been standing outside for an hour**), вопрос о длительности (**How long had you been working there?**). Отрицание — **hadn't been + -ing**, вопрос — `had` вперёд подлежащего. Развилки темы: готовый итог или количество → `had` + третья форма; отсчёт до сегодняшнего дня → `have/has been + -ing`.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Past Perfect Continuous — это `had been + -ing`, одна форма на все лица: отрезок, который тянулся к точке в прошлом. Четыре повода: процесс ещё шёл к той точке и назван срок (**They had been driving for three hours when the engine died**), процесс оборвался и объясняет картину (**Her eyes were red — she had been crying**), отрезок упирается в границу (**By the time the shop opened, we had been standing outside for an hour**), вопрос о длительности (**How long had you been working there?**). Отрицание — **hadn't been + -ing**, вопрос — `had` вперёд подлежащего. Развилки темы: готовый итог или количество → `had` + третья форма; отсчёт до сегодняшнего дня → `have/has been + -ing`."
+        }
+      ],
       "examples": [],
       "clarificationOptions": [
         "Что делать, если я не понимаю, почему ИИ засчитал ошибку?",

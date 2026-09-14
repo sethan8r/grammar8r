@@ -11,8 +11,8 @@ data class TheoryCard(
     val title: String,
     val order: Int,
     val blocks: List<TheoryBlock>,
-    /** Краткое резюме правила (кнопка «?» в упражнениях — Фаза F). */
-    val summary: String,
+    /** Краткое правило карточки блоками (окно «?» в упражнениях). */
+    val summary: List<TheoryBlock>,
     val examples: List<Example>,
     /** Готовые вопросы для будущей фичи «Не совсем понял» (Фаза 3). */
     val clarificationOptions: List<String>,

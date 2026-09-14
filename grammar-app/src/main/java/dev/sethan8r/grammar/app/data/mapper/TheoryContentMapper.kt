@@ -22,10 +22,13 @@ class TheoryContentMapper @Inject constructor(
         title = entity.title,
         order = entity.order,
         blocks = parseBlocks(entity.theory),
-        summary = entity.theorySummary,
+        summary = toSummaryBlocks(entity),
         examples = parseExamples(entity.examples),
         clarificationOptions = parseClarifications(entity.clarificationOptions),
     )
+
+    /** Краткое правило карточки (окно «?» в упражнениях) — те же блоки, что и теория. */
+    fun toSummaryBlocks(entity: GrammarCard): List<TheoryBlock> = parseBlocks(entity.theorySummary)
 
     private fun parseBlocks(raw: String): List<TheoryBlock> =
         json.decodeFromString<List<TheoryBlockJson>>(raw).map { it.toDomain() }

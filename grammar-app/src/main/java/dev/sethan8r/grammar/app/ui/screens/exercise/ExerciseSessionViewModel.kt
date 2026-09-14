@@ -9,6 +9,7 @@ import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
 import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseRef
 import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
+import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
 import dev.sethan8r.grammar.app.domain.repository.ExerciseRepository
 import dev.sethan8r.grammar.app.domain.repository.ProgressRepository
 import dev.sethan8r.grammar.app.domain.usecase.ExerciseEvaluator
@@ -29,7 +30,7 @@ import javax.inject.Inject
 data class ExerciseSessionUiState(
     val isLoading: Boolean = true,
     val microtopicTitle: String = "",
-    val theorySummary: String = "",
+    val theorySummary: List<TheoryBlock> = emptyList(),
     val total: Int = 0,
     /** Индекс текущего упражнения (0-based) — для полосы прогресса. */
     val currentIndex: Int = 0,
@@ -68,7 +69,7 @@ class ExerciseSessionViewModel @Inject constructor(
     private data class Content(
         val isLoading: Boolean = true,
         val microtopicTitle: String = "",
-        val theorySummary: String = "",
+        val theorySummary: List<TheoryBlock> = emptyList(),
         val exercises: List<Exercise> = emptyList(),
         val cardCompleted: Boolean = false,
         /** Упражнения карточки с уже записанным результатом (для зелёного ID при заходе). */

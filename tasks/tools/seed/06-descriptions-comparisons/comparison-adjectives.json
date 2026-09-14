@@ -124,7 +124,12 @@
           ]
         }
       ],
-      "theorySummary": "Сравнение строится по формуле `X + be + сравнит.форма + than + Y`: **My phone is better than yours.** Два обязательных кубика, которые роняет русский: связка `to be` (**He is taller**, не **He taller** ✗) и слово `than` — «чем» (не путать с `that`). После `than` местоимение в объектной форме: `than me`, `than him`.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Сравнение строится по формуле `X + be + сравнит.форма + than + Y`: **My phone is better than yours.** Два обязательных кубика, которые роняет русский: связка `to be` (**He is taller**, не **He taller** ✗) и слово `than` — «чем» (не путать с `that`). После `than` местоимение в объектной форме: `than me`, `than him`."
+        }
+      ],
       "examples": [
         {
           "ru": "Мой телефон лучше твоего.",
@@ -243,7 +248,12 @@
           ]
         }
       ],
-      "theorySummary": "У короткого прилагательного сравнительная форма = слово + `-er`: **cheap** → **cheaper**, **old** → **older**. Три орфографических случая: одна гласная + согласная → удвоение (**big** → **bigger**, **hot** → **hotter**); слово на `-y` → `-ier` (**happy** → **happier**); слово на `-e` → только `-r` (**nice** → **nicer**). Ловушка — проглотить орфографию: **biger** ✗, **happyer** ✗.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У короткого прилагательного сравнительная форма = слово + `-er`: **cheap** → **cheaper**, **old** → **older**. Три орфографических случая: одна гласная + согласная → удвоение (**big** → **bigger**, **hot** → **hotter**); слово на `-y` → `-ier` (**happy** → **happier**); слово на `-e` → только `-r` (**nice** → **nicer**). Ловушка — проглотить орфографию: **biger** ✗, **happyer** ✗."
+        }
+      ],
       "examples": [
         {
           "ru": "Сегодня жарче, чем вчера.",
@@ -341,7 +351,12 @@
           ]
         }
       ],
-      "theorySummary": "Длинные прилагательные сравнивают через `more` (не `-er`): **more expensive**, **more interesting**. Граница по слогам: 1 слог → `-er`; 3+ → `more`; 2 слога — чаще `more`, кроме слов на `-y` (**happy** → **happier**). `less` — «менее», обратная сторона `more`: **less expensive**. Ловушка — двойное сравнение: **more cheaper** ✗ (либо **cheaper**, либо **more expensive**).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Длинные прилагательные сравнивают через `more` (не `-er`): **more expensive**, **more interesting**. Граница по слогам: 1 слог → `-er`; 3+ → `more`; 2 слога — чаще `more`, кроме слов на `-y` (**happy** → **happier**). `less` — «менее», обратная сторона `more`: **less expensive**. Ловушка — двойное сравнение: **more cheaper** ✗ (либо **cheaper**, либо **more expensive**)."
+        }
+      ],
       "examples": [
         {
           "ru": "Эта квартира удобнее старой.",
@@ -423,7 +438,12 @@
           ]
         }
       ],
-      "theorySummary": "Чтобы показать, НАСКОЛЬКО больше, перед сравнительной формой ставят усилитель: `much` / `a lot` / `far` (намного), `a bit` / `a little` (чуть-чуть): **much better**, **a bit older**. Главная ловушка — `very` со сравнительной степенью не работает: **very better** ✗ → **much better** ✓. `very` усиливает только обычное прилагательное (**very good**), но не сравнительное.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Чтобы показать, НАСКОЛЬКО больше, перед сравнительной формой ставят усилитель: `much` / `a lot` / `far` (намного), `a bit` / `a little` (чуть-чуть): **much better**, **a bit older**. Главная ловушка — `very` со сравнительной степенью не работает: **very better** ✗ → **much better** ✓. `very` усиливает только обычное прилагательное (**very good**), но не сравнительное."
+        }
+      ],
       "examples": [
         {
           "ru": "Эта машина намного быстрее моей.",
@@ -549,7 +569,12 @@
           ]
         }
       ],
-      "theorySummary": "Превосходная степень — «самый такой-то», выделяет одну вещь из всех, и перед ней ВСЕГДА стоит `the` (артикль уникальности: самый — значит единственный): **the tallest**, а не **tallest** ✗. Короткое слово получает `-est` по тем же орфографическим правилам, что и `-er`: **big** → **the biggest**, **happy** → **the happiest**, **nice** → **the nicest**. Формула: **X + be + the + форма (+ in / of ...)**: **She is the tallest in the class.**",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Превосходная степень — «самый такой-то», выделяет одну вещь из всех, и перед ней ВСЕГДА стоит `the` (артикль уникальности: самый — значит единственный): **the tallest**, а не **tallest** ✗. Короткое слово получает `-est` по тем же орфографическим правилам, что и `-er`: **big** → **the biggest**, **happy** → **the happiest**, **nice** → **the nicest**. Формула: **X + be + the + форма (+ in / of ...)**: **She is the tallest in the class.**"
+        }
+      ],
       "examples": [
         {
           "ru": "Она самая высокая в классе.",
@@ -647,7 +672,12 @@
           ]
         }
       ],
-      "theorySummary": "Длинные прилагательные образуют превосходную степень через `the most` (не `-est`): **the most important**, **the most popular**. Граница по слогам, как у сравнения: 1 слог → `-est`, 3+ → `the most`, 2 слога — чаще `the most`, кроме слов на `-y`. `the least` — «наименее», зеркало `the most`: **the least expensive**. Ловушка — смешать оба способа: **the most cheapest** ✗ (либо `the most`, либо `-est`).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Длинные прилагательные образуют превосходную степень через `the most` (не `-est`): **the most important**, **the most popular**. Граница по слогам, как у сравнения: 1 слог → `-est`, 3+ → `the most`, 2 слога — чаще `the most`, кроме слов на `-y`. `the least` — «наименее», зеркало `the most`: **the least expensive**. Ловушка — смешать оба способа: **the most cheapest** ✗ (либо `the most`, либо `-est`)."
+        }
+      ],
       "examples": [
         {
           "ru": "Это самый популярный фильм года.",
@@ -732,7 +762,12 @@
           ]
         }
       ],
-      "theorySummary": "Три частых прилагательных образуют степени не по правилу — их учат наизусть, как неправильные глаголы (в русском так же: хороший → лучше → лучший): **good** → **better** → **the best**; **bad** → **worse** → **the worst**; **far** → **farther** → **the farthest**. Ловушки: **goodest** ✗, **baddest** ✗, **more better** ✗ — таких форм нет.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Три частых прилагательных образуют степени не по правилу — их учат наизусть, как неправильные глаголы (в русском так же: хороший → лучше → лучший): **good** → **better** → **the best**; **bad** → **worse** → **the worst**; **far** → **farther** → **the farthest**. Ловушки: **goodest** ✗, **baddest** ✗, **more better** ✗ — таких форм нет."
+        }
+      ],
       "examples": [
         {
           "ru": "Это лучший день в моей жизни.",
@@ -854,7 +889,12 @@
           ]
         }
       ],
-      "theorySummary": "Равное сравнение — прилагательное в **базовой** форме между двумя `as`: **She is as tall as her brother** («такая же высокая, как»). Не путать со сравнительной степенью: внутри `as … as` нет ни `-er`, ни `than` (**as taller as** ✗, **as tall than** ✗). `not as … as` = «меньше»: **not as busy as** — менее оживлённый.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Равное сравнение — прилагательное в **базовой** форме между двумя `as`: **She is as tall as her brother** («такая же высокая, как»). Не путать со сравнительной степенью: внутри `as … as` нет ни `-er`, ни `than` (**as taller as** ✗, **as tall than** ✗). `not as … as` = «меньше»: **not as busy as** — менее оживлённый."
+        }
+      ],
       "examples": [
         {
           "ru": "Она такая же высокая, как её брат.",
@@ -964,7 +1004,12 @@
           ]
         }
       ],
-      "theorySummary": "Тождество выражает **the same as** — «тот же самый, что и», вокруг существительного или местоимения: **My phone is the same as yours**. Часто `the same` стоит прямо перед параметром: **We are the same age**, **the same size**. Ловушка — после `the same` идёт только `as`, никогда `like`: **the same as** ✓, **the same like** ✗. Не путать с `as … as` (то — про качество: **as tall as**).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Тождество выражает **the same as** — «тот же самый, что и», вокруг существительного или местоимения: **My phone is the same as yours**. Часто `the same` стоит прямо перед параметром: **We are the same age**, **the same size**. Ловушка — после `the same` идёт только `as`, никогда `like`: **the same as** ✓, **the same like** ✗. Не путать с `as … as` (то — про качество: **as tall as**)."
+        }
+      ],
       "examples": [
         {
           "ru": "Мой телефон такой же, как твой.",

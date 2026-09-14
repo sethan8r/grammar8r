@@ -18,6 +18,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextMeasurer
@@ -36,6 +37,7 @@ import dev.sethan8r.grammar.app.domain.model.theory.CalloutVariant
 import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
 import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.theme.Accent
+import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.Highlight
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
@@ -53,9 +55,16 @@ import dev.sethan8r.grammar.app.ui.theme.TextSecondary
  * Разделение блоков: рисуем явные [TheoryBlock.Divider] (из `---` автора) и дополнительно тонкую
  * линию перед каждым [TheoryBlock.Heading] (если предыдущий блок не был линией) — чтобы границы
  * подсекций («Разница» и т.п.) читались, даже где автор `---` не поставил.
+ *
+ * [containerColor] — подложка таблиц и плашек. Она должна отличаться от поверхности, на которой лежат
+ * блоки: на фоне экрана это [CardBackground], внутри окна цвета [CardBackground] — [Background].
  */
 @Composable
-fun TheoryBlocks(blocks: List<TheoryBlock>, modifier: Modifier = Modifier) {
+fun TheoryBlocks(
+    blocks: List<TheoryBlock>,
+    modifier: Modifier = Modifier,
+    containerColor: Color = CardBackground,
+) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium)) {
         blocks.forEachIndexed { index, block ->
             val isEdge = index == 0 || index == blocks.lastIndex
@@ -74,8 +83,8 @@ fun TheoryBlocks(blocks: List<TheoryBlock>, modifier: Modifier = Modifier) {
 
                 is TheoryBlock.Paragraph -> MarkdownText(block.text)
                 is TheoryBlock.BulletList -> ListBlock(block)
-                is TheoryBlock.Table -> TableBlock(block)
-                is TheoryBlock.Callout -> CalloutBlock(block)
+                is TheoryBlock.Table -> TableBlock(block, containerColor)
+                is TheoryBlock.Callout -> CalloutBlock(block, containerColor)
             }
         }
     }
@@ -117,7 +126,7 @@ private const val MIN_CHUNK_LEN = 3
 private val MEASURE_SLACK = 1.dp
 
 @Composable
-private fun TableBlock(block: TheoryBlock.Table) {
+private fun TableBlock(block: TheoryBlock.Table, containerColor: Color) {
     val columnCount = maxOf(block.header.size, block.rows.maxOfOrNull { it.size } ?: 0)
     val measurer = rememberTextMeasurer()
     val density = LocalDensity.current
@@ -129,7 +138,7 @@ private fun TableBlock(block: TheoryBlock.Table) {
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(Dimens.cornerCard))
-            .background(CardBackground),
+            .background(containerColor),
     ) {
         val totalWidth = maxWidth
         // Раскладка (текст ячеек + ширины колонок) считается один раз на (таблица + ширина).
@@ -402,7 +411,7 @@ private fun TableRow(cells: List<String>, isHeader: Boolean, widths: List<Dp>) {
 }
 
 @Composable
-private fun CalloutBlock(block: TheoryBlock.Callout) {
+private fun CalloutBlock(block: TheoryBlock.Callout, containerColor: Color) {
     val accentColor = when (block.variant) {
         CalloutVariant.TRAP -> IncorrectRed
         CalloutVariant.WARNING -> Highlight
@@ -416,7 +425,7 @@ private fun CalloutBlock(block: TheoryBlock.Callout) {
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(Dimens.cornerCard))
-            .background(CardBackground),
+            .background(containerColor),
     ) {
         // Шапка плашки: ярлык по центру + цветная полоса-разделитель (того же цвета варианта).
         if (block.label.isNotBlank()) {
@@ -445,24 +454,24 @@ private fun CalloutBlock(block: TheoryBlock.Callout) {
             modifier = Modifier.fillMaxWidth().padding(Dimens.cardPadding),
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
         ) {
-            block.blocks.forEach { CalloutBodyBlock(it, monospace) }
+            block.blocks.forEach { CalloutBodyBlock(it, monospace, containerColor) }
         }
     }
 }
 
 /** Рендер одного блока внутри плашки (тело callout не содержит divider/heading). */
 @Composable
-private fun CalloutBodyBlock(block: TheoryBlock, monospace: FontFamily?) {
+private fun CalloutBodyBlock(block: TheoryBlock, monospace: FontFamily?, containerColor: Color) {
     when (block) {
         is TheoryBlock.Paragraph -> MarkdownText(block.text, fontFamily = monospace)
         is TheoryBlock.BulletList -> ListBlock(block)
-        is TheoryBlock.Table -> TableBlock(block)
+        is TheoryBlock.Table -> TableBlock(block, containerColor)
         is TheoryBlock.Heading -> MarkdownText(
             text = block.text,
             fontWeight = FontWeight.Bold,
             fontSize = 16.sp,
         )
-        is TheoryBlock.Callout -> CalloutBlock(block)
+        is TheoryBlock.Callout -> CalloutBlock(block, containerColor)
         TheoryBlock.Divider -> Unit
     }
 }

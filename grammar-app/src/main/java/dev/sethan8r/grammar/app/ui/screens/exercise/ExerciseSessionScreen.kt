@@ -52,6 +52,7 @@ import dev.sethan8r.grammar.app.ui.components.progress.IdBadge
 import dev.sethan8r.grammar.app.ui.components.progress.SegmentedProgressBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.BackTopBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.ExitConfirmationHandler
+import dev.sethan8r.grammar.app.ui.components.theory.TheoryBlocks
 import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.components.exercise.AiPlaceholderView
 import dev.sethan8r.grammar.app.ui.components.exercise.CategorizationExerciseView
@@ -119,7 +120,7 @@ fun ExerciseSessionScreen(
             title = state.microtopicTitle.titleEn(),
             onBack = { showExitDialog = true },
             actions = {
-                val helpEnabled = state.theorySummary.isNotBlank()
+                val helpEnabled = state.theorySummary.isNotEmpty()
                 IconButton(onClick = { showSummaryDialog = true }, enabled = helpEnabled) {
                     Icon(
                         Icons.Outlined.HelpOutline,
@@ -152,10 +153,11 @@ fun ExerciseSessionScreen(
     if (showSummaryDialog) {
         InfoDialog(
             title = stringResource(R.string.exercise_help),
-            text = state.theorySummary,
             confirmLabel = stringResource(R.string.exercise_summary_close),
             onDismiss = { showSummaryDialog = false },
-        )
+        ) {
+            TheoryBlocks(blocks = state.theorySummary, containerColor = Background)
+        }
     }
 }
 

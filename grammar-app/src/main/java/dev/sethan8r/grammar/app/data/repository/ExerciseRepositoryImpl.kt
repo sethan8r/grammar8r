@@ -3,6 +3,7 @@ package dev.sethan8r.grammar.app.data.repository
 import dev.sethan8r.grammar.app.data.local.content.dao.ExerciseDao
 import dev.sethan8r.grammar.app.data.local.content.dao.TheoryDao
 import dev.sethan8r.grammar.app.data.mapper.ExerciseContentMapper
+import dev.sethan8r.grammar.app.data.mapper.TheoryContentMapper
 import dev.sethan8r.grammar.app.domain.model.exercise.ChoiceType
 import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
 import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseSession
@@ -24,6 +25,7 @@ class ExerciseRepositoryImpl @Inject constructor(
     private val exerciseDao: ExerciseDao,
     private val theoryDao: TheoryDao,
     private val mapper: ExerciseContentMapper,
+    private val theoryMapper: TheoryContentMapper,
 ) : ExerciseRepository {
 
     override suspend fun getSession(cardId: Int): ExerciseSession {
@@ -86,7 +88,7 @@ class ExerciseRepositoryImpl @Inject constructor(
         return ExerciseSession(
             cardTitle = card?.title.orEmpty(),
             microtopicTitle = microtopicTitle,
-            theorySummary = card?.theorySummary.orEmpty(),
+            theorySummary = card?.let(theoryMapper::toSummaryBlocks).orEmpty(),
             exercises = hardcoded + aiSegments,
         )
     }

@@ -23,14 +23,8 @@ def find_ex(et, eid):
         return next((e for e in d['multiple_choice_exercises'] if e['choiceType'] == CH[et] and e['id'] == eid), None)
     return next((e for e in d[ENUM2KEY[et]] if e['id'] == eid), None) if et in ENUM2KEY else None
 
-out = io.open('_verify.txt', 'w', encoding='utf-8')
-for cid in [int(x) for x in sys.argv[1:]]:
-    c = cards.get(cid)
-    if not c:
-        out.write(f'### CARD {cid} НЕ НАЙДЕНА\n\n'); continue
-    out.write('=' * 60 + f'\nCARD {cid} (mt {c["microtopicId"]}): {c["title"]}\n' + '=' * 60 + '\n')
-    out.write('THEORY:\n')
-    for b in c['theory']:
+def dump_blocks(blocks):
+    for b in blocks:
         if b['type'] == 'table':
             out.write(f'  [table] {b["header"]}\n')
             for r in b['rows']:
@@ -55,7 +49,18 @@ for cid in [int(x) for x in sys.argv[1:]]:
             out.write('  [divider]\n')
         else:
             out.write(f'  [{b["type"]}] {b.get("text", "")}\n')
-    out.write(f'SUMMARY: {c["theorySummary"]}\n')
+
+
+out = io.open('_verify.txt', 'w', encoding='utf-8')
+for cid in [int(x) for x in sys.argv[1:]]:
+    c = cards.get(cid)
+    if not c:
+        out.write(f'### CARD {cid} НЕ НАЙДЕНА\n\n'); continue
+    out.write('=' * 60 + f'\nCARD {cid} (mt {c["microtopicId"]}): {c["title"]}\n' + '=' * 60 + '\n')
+    out.write('THEORY:\n')
+    dump_blocks(c['theory'])
+    out.write('SUMMARY:\n')
+    dump_blocks(c['theorySummary'])
     out.write(f'EXAMPLES: {c["examples"]}\n')
     out.write(f'CLARIF: {c["clarificationOptions"]}\n')
     exs = sorted([x for x in d['card_exercise_index'] if x['cardId'] == cid], key=lambda x: x['orderInCard'])

@@ -8,14 +8,13 @@ import kotlinx.serialization.Serializable
  *
  * Промты на сервере (таблица `ai_exercise_prompts`), клиент шлёт только сырые данные:
  * `exerciseId` (= AiExercise.id, по нему сервер находит промт), `words` (клиент собирает сам по
- * WordSource упражнения), `cardTheory` (theorySummary карточки, подставляется в {{theorySummary}}).
+ * WordSource упражнения). Правило карточки уже зашито в серверный промт — клиент его не шлёт.
  */
 
 @Serializable
 data class AiExerciseGenerateRequest(
     val exerciseId: String,
     val words: List<String> = emptyList(),
-    val cardTheory: String? = null,
 )
 
 /** `taskText` — сгенерированное задание; счётчики лимита — для обновления экрана/`Entitlements`. */

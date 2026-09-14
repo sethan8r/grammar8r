@@ -66,7 +66,7 @@ for a in d['ai_exercises']:
         chk(bool(p.get('aiConfigProfile')), 'AI', a['id'], "пустой aiConfigProfile")
 
 for c in d['grammar_cards']:
-    for b in c['theory']:
+    for b in c['theory'] + c['theorySummary']:
         if b['type'] == 'table':
             chk(all(len(r) == len(b['header']) for r in b['rows']), 'CARD', c['id'],
                 f"таблица ширина != заголовка ({len(b['header'])})")

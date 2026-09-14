@@ -155,7 +155,12 @@
           ]
         }
       ],
-      "theorySummary": "Present Perfect Continuous — это **дубль, который ещё не остановили**: камеру включили в прошлом и не выключали до сих пор, между «тогда» и «сейчас» нет разрыва (**It has been raining all morning**, **She has been working here since March**). В отличие от Past Continuous, где плёнку остановили в точке прошлого, здесь она тянется до текущей секунды. Это время говорит не про результат, а про то, что действие **длится и не прекратилось**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Present Perfect Continuous — это **дубль, который ещё не остановили**: камеру включили в прошлом и не выключали до сих пор, между «тогда» и «сейчас» нет разрыва (**It has been raining all morning**, **She has been working here since March**). В отличие от Past Continuous, где плёнку остановили в точке прошлого, здесь она тянется до текущей секунды. Это время говорит не про результат, а про то, что действие **длится и не прекратилось**."
+        }
+      ],
       "examples": [
         {
           "ru": "Дождь идёт всё утро.",
@@ -275,7 +280,12 @@
           ]
         }
       ],
-      "theorySummary": "У Present Perfect Continuous две половины: процесс **ещё идёт** (**I've been waiting for an hour** — жду до сих пор) или **только что оборвался, а следы видны** (**I've been running** — вот почему я мокрый). Обе держатся на одном: линия действия тянется из прошлого в текущую секунду. Рабочая проверка — вопрос «чем человек занимался всё это время?»: есть ответ — берём эту форму, есть готовый итог — другую.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У Present Perfect Continuous две половины: процесс **ещё идёт** (**I've been waiting for an hour** — жду до сих пор) или **только что оборвался, а следы видны** (**I've been running** — вот почему я мокрый). Обе держатся на одном: линия действия тянется из прошлого в текущую секунду. Рабочая проверка — вопрос «чем человек занимался всё это время?»: есть ответ — берём эту форму, есть готовый итог — другую."
+        }
+      ],
       "examples": [
         {
           "ru": "Я жду тебя уже час.",
@@ -379,7 +389,12 @@
           "text": "И честная установка напоследок: это не список правил, которые надо вызубрить, а **новая развилка в голове**. Русский её никогда не проходил, поэтому первое время выбирать придётся сознательно — а форму, которой эта развилка обслуживается, соберём буквально в следующей микротеме."
         }
       ],
-      "theorySummary": "Русскоязычный промахивается здесь по трём причинам: русский говорит о длящемся действии **настоящим** («я жду час» → **I am waiting for an hour** ✗), несовершенный вид («ждал, читал») кажется аналогом длительной формы, но ничего не сообщает про «до сих пор», и из этого растут две зеркальные ошибки — простая форма вместо длительной (**How long do you work here?** ✗) и длительная там, где назван итог (**I've been reading three books** ✗). Верный вариант ключевой фразы: **I've been waiting for an hour** ✓.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русскоязычный промахивается здесь по трём причинам: русский говорит о длящемся действии **настоящим** («я жду час» → **I am waiting for an hour** ✗), несовершенный вид («ждал, читал») кажется аналогом длительной формы, но ничего не сообщает про «до сих пор», и из этого растут две зеркальные ошибки — простая форма вместо длительной (**How long do you work here?** ✗) и длительная там, где назван итог (**I've been reading three books** ✗). Верный вариант ключевой фразы: **I've been waiting for an hour** ✓."
+        }
+      ],
       "examples": [
         {
           "ru": "Мы обсуждаем это всю неделю.",
@@ -531,7 +546,12 @@
           ]
         }
       ],
-      "theorySummary": "Формула — have/has + been + V-ing: помощник по лицу (у **he, she, it** — `has`, у остальных `have`), неизменное `been` и глагол с окончанием `-ing`. `been` — это третья форма `to be`, которой требует перфект, и переводить её отдельно не нужно вообще: смысл несёт только последний глагол. Главные ошибки формы: **He have been arguing** ✗ → **He has been arguing** ✓ и **I have been work** ✗ → **I have been working** ✓.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Формула — have/has + been + V-ing: помощник по лицу (у **he, she, it** — `has`, у остальных `have`), неизменное `been` и глагол с окончанием `-ing`. `been` — это третья форма `to be`, которой требует перфект, и переводить её отдельно не нужно вообще: смысл несёт только последний глагол. Главные ошибки формы: **He have been arguing** ✗ → **He has been arguing** ✓ и **I have been work** ✗ → **I have been working** ✓."
+        }
+      ],
       "examples": [
         {
           "ru": "Я тренируюсь с самого утра.",
@@ -645,7 +665,12 @@
           ]
         }
       ],
-      "theorySummary": "В речи помощник сокращается: **I've been**, **we've been**, **they've been** — это `have`; **he's been**, **she's been**, **it's been** — это `has`. Старая ловушка `'s` = `has` или `is` здесь снимается механически: формы `is been` не существует, поэтому перед `been` хвостик `'s` — это всегда `has`. Само `been` звучит коротко ([[bɪn]]) и в беглой речи почти проглатывается, поэтому слушать надо два маркера сразу — `been` и `-ing`: **He's typing** (сейчас) ↔ **He's been typing** (тянется).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "В речи помощник сокращается: **I've been**, **we've been**, **they've been** — это `have`; **he's been**, **she's been**, **it's been** — это `has`. Старая ловушка `'s` = `has` или `is` здесь снимается механически: формы `is been` не существует, поэтому перед `been` хвостик `'s` — это всегда `has`. Само `been` звучит коротко ([[bɪn]]) и в беглой речи почти проглатывается, поэтому слушать надо два маркера сразу — `been` и `-ing`: **He's typing** (сейчас) ↔ **He's been typing** (тянется)."
+        }
+      ],
       "examples": [
         {
           "ru": "Мы ждём тебя уже полчаса.",
@@ -812,7 +837,12 @@
           ]
         }
       ],
-      "theorySummary": "Отрицание вешает `not` на помощника: haven't/hasn't + been + V-ing (**He hasn't been answering my calls**), `been` и `-ing` при этом не меняются. В вопросе помощник встаёт перед подлежащим (**Have you been waiting long?**), а краткий ответ повторяет только его: **Yes, I have** / **No, I haven't**. Отрицательный вопрос (**Haven't you been listening?**) несёт упрёк «я же говорил». Главный вопрос темы — **How long have you been…?**; ловушки — **Do you have been…?** ✗ и **How long are you working here?** ✗.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Отрицание вешает `not` на помощника: haven't/hasn't + been + V-ing (**He hasn't been answering my calls**), `been` и `-ing` при этом не меняются. В вопросе помощник встаёт перед подлежащим (**Have you been waiting long?**), а краткий ответ повторяет только его: **Yes, I have** / **No, I haven't**. Отрицательный вопрос (**Haven't you been listening?**) несёт упрёк «я же говорил». Главный вопрос темы — **How long have you been…?**; ловушки — **Do you have been…?** ✗ и **How long are you working here?** ✗."
+        }
+      ],
       "examples": [
         {
           "ru": "Я плохо сплю в последнее время.",
@@ -949,7 +979,12 @@
           ]
         }
       ],
-      "theorySummary": "Главная работа этой формы — назвать срок процесса, который ещё идёт: **I've been learning Spanish for two years**, **Sonya has been searching for a flat since March**. `for` и `since` здесь те же самые, но меряют они не «сколько держится факт» (**I've known him for ten years**), а **сколько тянется само занятие**. Рядом с ними работают выражения с `all` — **all morning**, **all day**, **all week**, — и предлог перед ними не нужен. Главные ошибки: **I learn Spanish for two years** ✗ (привычка вообще) и **I am learning Spanish for two years** ✗ (только эта минута).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Главная работа этой формы — назвать срок процесса, который ещё идёт: **I've been learning Spanish for two years**, **Sonya has been searching for a flat since March**. `for` и `since` здесь те же самые, но меряют они не «сколько держится факт» (**I've known him for ten years**), а **сколько тянется само занятие**. Рядом с ними работают выражения с `all` — **all morning**, **all day**, **all week**, — и предлог перед ними не нужен. Главные ошибки: **I learn Spanish for two years** ✗ (привычка вообще) и **I am learning Spanish for two years** ✗ (только эта минута)."
+        }
+      ],
       "examples": [
         {
           "ru": "Я учу испанский уже два года.",
@@ -1078,7 +1113,12 @@
           ]
         }
       ],
-      "theorySummary": "Срок спрашивают вопросом **How long have you been…?**: `how long` впереди, дальше обычный вопрос (**How long have you been working here?**). Вариант из перфекта (**How long have you worked here?**) тоже законен, но про занятие человека чаще спрашивают с `been`. Отвечают коротко, одним сроком: **For twenty minutes.** / **Since Tuesday.** / **All morning.** Главные ловушки — русское настоящее время в вопросе: **How long are you waiting?** ✗ и **How long do you work here?** ✗.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Срок спрашивают вопросом **How long have you been…?**: `how long` впереди, дальше обычный вопрос (**How long have you been working here?**). Вариант из перфекта (**How long have you worked here?**) тоже законен, но про занятие человека чаще спрашивают с `been`. Отвечают коротко, одним сроком: **For twenty minutes.** / **Since Tuesday.** / **All morning.** Главные ловушки — русское настоящее время в вопросе: **How long are you waiting?** ✗ и **How long do you work here?** ✗."
+        }
+      ],
       "examples": [
         {
           "ru": "Как долго ты здесь работаешь?",
@@ -1198,7 +1238,12 @@
           ]
         }
       ],
-      "theorySummary": "Вторая работа формы — объяснить **текущую картинку** занятием, которое только что кончилось: **I've been jogging — that's why I'm out of breath**, **The kitchen smells wonderful. Ben has been baking.** Обычный перфект объясняет картинку **готовым результатом** (**I've washed the car** — она чистая), длительный — **самим занятием** (**I've been washing the car** — вот почему я мокрый). Русский несовершенный вид тут почти совпадает («я бегал»), но английская форма годится только для свежего следа: про вчера — **I jogged yesterday**. Ловушки: **I was jogging** ✗ (сцена уехала в прошлое) и **I have jogged** ✗ (отчёт об итоге).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вторая работа формы — объяснить **текущую картинку** занятием, которое только что кончилось: **I've been jogging — that's why I'm out of breath**, **The kitchen smells wonderful. Ben has been baking.** Обычный перфект объясняет картинку **готовым результатом** (**I've washed the car** — она чистая), длительный — **самим занятием** (**I've been washing the car** — вот почему я мокрый). Русский несовершенный вид тут почти совпадает («я бегал»), но английская форма годится только для свежего следа: про вчера — **I jogged yesterday**. Ловушки: **I was jogging** ✗ (сцена уехала в прошлое) и **I have jogged** ✗ (отчёт об итоге)."
+        }
+      ],
       "examples": [
         {
           "ru": "Я бегал — вот почему я запыхался.",
@@ -1290,7 +1335,12 @@
           ]
         }
       ],
-      "theorySummary": "Разговор о **чужом** занятии этой формой почти всегда звучит с оценкой: подозрение (**Have you been drinking?**), «кто-то трогал моё» (**Someone has been eating my cake**), забота или упрёк (**You've been working too hard**) и мягкий заход к разговору (**I've been thinking about it**). Русский переводит такие фразы нейтрально и претензии не слышит — ловушка тут на восприятие, а не на грамматику. Обратная сторона: своя фраза о чужом занятии тоже прозвучит как упрёк, поэтому нейтральный вопрос лучше задавать про результат.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Разговор о **чужом** занятии этой формой почти всегда звучит с оценкой: подозрение (**Have you been drinking?**), «кто-то трогал моё» (**Someone has been eating my cake**), забота или упрёк (**You've been working too hard**) и мягкий заход к разговору (**I've been thinking about it**). Русский переводит такие фразы нейтрально и претензии не слышит — ловушка тут на восприятие, а не на грамматику. Обратная сторона: своя фраза о чужом занятии тоже прозвучит как упрёк, поэтому нейтральный вопрос лучше задавать про результат."
+        }
+      ],
       "examples": [
         {
           "ru": "Ты что, пил?",
@@ -1397,7 +1447,12 @@
           ]
         }
       ],
-      "theorySummary": "Третья работа формы — **серия повторов** внутри отрезка, который ещё идёт: **I've been going to the gym a lot lately**, **He's been texting me every evening**, **The kids have been eating junk food all week**. Действие не тянется непрерывно, а повторяется — но отрезок открыт, поэтому форма та же: `have/has been + -ing`. Оттенок важный: полоса началась недавно и может кончиться. Русский описывает это обычным настоящим, отсюда ловушки **I go to the gym lately** ✗ и **I am going to the gym lately** ✗.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Третья работа формы — **серия повторов** внутри отрезка, который ещё идёт: **I've been going to the gym a lot lately**, **He's been texting me every evening**, **The kids have been eating junk food all week**. Действие не тянется непрерывно, а повторяется — но отрезок открыт, поэтому форма та же: `have/has been + -ing`. Оттенок важный: полоса началась недавно и может кончиться. Русский описывает это обычным настоящим, отсюда ловушки **I go to the gym lately** ✗ и **I am going to the gym lately** ✗."
+        }
+      ],
       "examples": [
         {
           "ru": "Я в последнее время много хожу в зал.",
@@ -1496,7 +1551,12 @@
           ]
         }
       ],
-      "theorySummary": "Простое настоящее описывает **человека** (**Oliver walks to work** — так он добирается всегда), длительный перфект — его **последнее время** (**Oliver has been walking to work lately** — обычно ездит, а последние недели ходит). Рядом с полосой стоят **lately**, **recently**, **these days**, **all week**, **a lot**, **too much**, **every day**, **in a row**, но сам маркер формы не выбирает: **He calls his mum every day** — привычка, **He's been calling me every day** — полоса. Ошибиться можно в обе стороны: **Lately she cooks at home a lot** ✗ и **I've been drinking coffee every morning** ✗ про вечную привычку.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Простое настоящее описывает **человека** (**Oliver walks to work** — так он добирается всегда), длительный перфект — его **последнее время** (**Oliver has been walking to work lately** — обычно ездит, а последние недели ходит). Рядом с полосой стоят **lately**, **recently**, **these days**, **all week**, **a lot**, **too much**, **every day**, **in a row**, но сам маркер формы не выбирает: **He calls his mum every day** — привычка, **He's been calling me every day** — полоса. Ошибиться можно в обе стороны: **Lately she cooks at home a lot** ✗ и **I've been drinking coffee every morning** ✗ про вечную привычку."
+        }
+      ],
       "examples": [
         {
           "ru": "Оливер ходит на работу пешком.",
@@ -1611,7 +1671,12 @@
           ]
         }
       ],
-      "theorySummary": "Обычный перфект отвечает на «что сделано» и приносит **готовый факт**, длительный отвечает на «чем занимался» и приносит **само занятие**: **I've read the book** (дочитал) ↔ **I've been reading the book** (читаю, не дочитал), **I've cleaned the kitchen** (чисто) ↔ **I've been cleaning the kitchen** (вот почему я в мыле). Русский вид тут ложный друг: «я читал эту книгу» — это и опыт (**I've read it**), и процесс (**I've been reading it**). Та же пара со сроком: **I've waited for an hour** (итог) ↔ **I've been waiting for an hour** (всё ещё жду). Выбирая форму, вы выбираете смысл, а не грамматику.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Обычный перфект отвечает на «что сделано» и приносит **готовый факт**, длительный отвечает на «чем занимался» и приносит **само занятие**: **I've read the book** (дочитал) ↔ **I've been reading the book** (читаю, не дочитал), **I've cleaned the kitchen** (чисто) ↔ **I've been cleaning the kitchen** (вот почему я в мыле). Русский вид тут ложный друг: «я читал эту книгу» — это и опыт (**I've read it**), и процесс (**I've been reading it**). Та же пара со сроком: **I've waited for an hour** (итог) ↔ **I've been waiting for an hour** (всё ещё жду). Выбирая форму, вы выбираете смысл, а не грамматику."
+        }
+      ],
       "examples": [
         {
           "ru": "Я прочитал эту книгу.",
@@ -1706,7 +1771,12 @@
           ]
         }
       ],
-      "theorySummary": "Назвали количество — берите обычный перфект: **I've read three books this month** ✓, **I've been reading three books this month** ✗. Причина житейская: посчитать можно только законченное, поэтому число и незакрытый процесс в одной фразе не уживаются. Проверочная пара вопросов: **How many have you…?** ждёт цифру и требует перфекта, **How long have you been…?** ждёт срок и требует длительной формы. Русское «я весь день писал пять писем» распадается на две английские фразы: **I've written five emails today** и **I've been writing emails all day**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Назвали количество — берите обычный перфект: **I've read three books this month** ✓, **I've been reading three books this month** ✗. Причина житейская: посчитать можно только законченное, поэтому число и незакрытый процесс в одной фразе не уживаются. Проверочная пара вопросов: **How many have you…?** ждёт цифру и требует перфекта, **How long have you been…?** ждёт срок и требует длительной формы. Русское «я весь день писал пять писем» распадается на две английские фразы: **I've written five emails today** и **I've been writing emails all day**."
+        }
+      ],
       "examples": [
         {
           "ru": "Я прочитал три книги за этот месяц.",
@@ -1796,7 +1866,12 @@
           ]
         }
       ],
-      "theorySummary": "`for` и `since` не выбирают форму — они работают с обеими, меняется только акцент: **I've known Mark for five years** (факт держится всё это время) ↔ **I've been waiting for the bus for twenty minutes** (процесс тянется и достаёт). Решает глагол: действие со сроком (**work, wait, study, learn**) чаще просит длительную форму, состояние (**know, love, want, own**) — только обычный перфект. Поэтому **How long have you been knowing him?** ✗ → **How long have you known him?** ✓.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`for` и `since` не выбирают форму — они работают с обеими, меняется только акцент: **I've known Mark for five years** (факт держится всё это время) ↔ **I've been waiting for the bus for twenty minutes** (процесс тянется и достаёт). Решает глагол: действие со сроком (**work, wait, study, learn**) чаще просит длительную форму, состояние (**know, love, want, own**) — только обычный перфект. Поэтому **How long have you been knowing him?** ✗ → **How long have you known him?** ✓."
+        }
+      ],
       "examples": [
         {
           "ru": "Я знаю Марка пять лет.",
@@ -1891,7 +1966,12 @@
           ]
         }
       ],
-      "theorySummary": "Глаголы состояния (**know, love, want, need, believe, understand, own, belong**) в длительную форму не встают даже со сроком: **I've been knowing him for years** ✗ → **I've known him for years** ✓, **She's been wanting a dog** ✗ → **She's wanted a dog** ✓. Причина: состояние нельзя производить по кусочку, им нельзя быть занятым. Но **think** и **see** умеют менять смысл, и тогда форма законна: **I think it's a good idea** (мнение) ↔ **I've been thinking about your idea** (обдумываю), **I see the problem** (вижу) ↔ **She's been seeing a doctor** (ходит к врачу).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Глаголы состояния (**know, love, want, need, believe, understand, own, belong**) в длительную форму не встают даже со сроком: **I've been knowing him for years** ✗ → **I've known him for years** ✓, **She's been wanting a dog** ✗ → **She's wanted a dog** ✓. Причина: состояние нельзя производить по кусочку, им нельзя быть занятым. Но **think** и **see** умеют менять смысл, и тогда форма законна: **I think it's a good idea** (мнение) ↔ **I've been thinking about your idea** (обдумываю), **I see the problem** (вижу) ↔ **She's been seeing a doctor** (ходит к врачу)."
+        }
+      ],
       "examples": [
         {
           "ru": "Я знаю его много лет.",
@@ -2000,7 +2080,12 @@
           ]
         }
       ],
-      "theorySummary": "У глаголов длительного состояния (**live, work, study, teach**) годятся обе формы: **I've lived here for years** ≈ **I've been living here for years**, оттенок у длительной — «это временно». Выбора нет в трёх случаях: названо количество (**I've read three books**), важен готовый итог (**I've finished the report**), глагол называет состояние (**I've known her for years**) — везде обычный перфект. Компас: (1) количество или готовый итог? → перфект; (2) важен ход, срок или следы занятия? → длительная форма; (3) сомневаюсь → что я сообщаю: результат или занятие?",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У глаголов длительного состояния (**live, work, study, teach**) годятся обе формы: **I've lived here for years** ≈ **I've been living here for years**, оттенок у длительной — «это временно». Выбора нет в трёх случаях: названо количество (**I've read three books**), важен готовый итог (**I've finished the report**), глагол называет состояние (**I've known her for years**) — везде обычный перфект. Компас: (1) количество или готовый итог? → перфект; (2) важен ход, срок или следы занятия? → длительная форма; (3) сомневаюсь → что я сообщаю: результат или занятие?"
+        }
+      ],
       "examples": [
         {
           "ru": "Я живу здесь много лет.",
@@ -2129,7 +2214,12 @@
           ]
         }
       ],
-      "theorySummary": "Present Perfect Continuous — это `have/has been + -ing`: линия из прошлого в «сейчас», которая не останавливалась. Четыре повода: процесс идёт и назван срок (**I've been waiting for an hour**), процесс только что оборвался и объясняет картинку (**The ground is wet — it's been raining**), полоса повторов в последнее время (**He's been calling me every day**), вопрос о длительности (**How long have you been working here?**). Отрицание — **haven't/hasn't been + -ing**, вопрос — помощник вперёд подлежащего, перед been всегда has. Главная развилка темы: готовый итог или количество → обычный перфект (**I've read three books**), ход и следы занятия → длительная форма (**I've been reading all evening**). Глаголы состояния (**know, love, want, own**) в неё не идут вовсе.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Present Perfect Continuous — это `have/has been + -ing`: линия из прошлого в «сейчас», которая не останавливалась. Четыре повода: процесс идёт и назван срок (**I've been waiting for an hour**), процесс только что оборвался и объясняет картинку (**The ground is wet — it's been raining**), полоса повторов в последнее время (**He's been calling me every day**), вопрос о длительности (**How long have you been working here?**). Отрицание — **haven't/hasn't been + -ing**, вопрос — помощник вперёд подлежащего, перед been всегда has. Главная развилка темы: готовый итог или количество → обычный перфект (**I've read three books**), ход и следы занятия → длительная форма (**I've been reading all evening**). Глаголы состояния (**know, love, want, own**) в неё не идут вовсе."
+        }
+      ],
       "examples": [],
       "clarificationOptions": [
         "Что делать, если я не понимаю, почему ИИ засчитал ошибку?",

@@ -28,7 +28,6 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import dev.sethan8r.grammar.app.ui.components.HaloBox
-import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Alphas
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
@@ -40,9 +39,9 @@ import dev.sethan8r.grammar.app.ui.util.bottomScrim
 private const val FadeSaturateAt = 0.8f
 
 /**
- * Модальное окно со справочным текстом произвольной длины: заголовок, прокручиваемое тело с
- * инлайн-разметкой ([MarkdownText]) и парящая над текстом капсула закрытия. Используется везде, где
- * показывается готовый текст из БД: «Краткое правило» в сессии упражнений, описания тем и разделов.
+ * Модальное окно со справочным содержимым произвольной длины: заголовок, прокручиваемое тело и
+ * парящая над ним капсула закрытия. Тело — слот [content]: вызывающий кладёт туда готовый контент
+ * из БД (блоки «Краткого правила» в сессии упражнений, текст описания темы).
  *
  * Тело скроллится, поэтому длинный текст виден целиком, а капсула всегда на месте: она прижата к
  * правому нижнему углу поверх текста, текст доходит до самого края окна и проезжает под ней, но в
@@ -56,10 +55,10 @@ private const val FadeSaturateAt = 0.8f
 @Composable
 fun InfoDialog(
     title: String,
-    text: String,
     confirmLabel: String,
     onDismiss: () -> Unit,
     modifier: Modifier = Modifier,
+    content: @Composable () -> Unit,
 ) {
     val scrollState = rememberScrollState()
     val contentPadding = Dimens.spaceXLarge
@@ -98,7 +97,7 @@ fun InfoDialog(
                         .padding(top = Dimens.spaceLarge),
                 ) {
                     Column(modifier = Modifier.verticalScroll(scrollState)) {
-                        MarkdownText(text = text)
+                        content()
                         Spacer(modifier = Modifier.height(footerSpace))
                     }
 

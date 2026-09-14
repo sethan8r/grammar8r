@@ -9,7 +9,7 @@ import dev.sethan8r.grammar.app.domain.model.exercise.GeneratedExercise
 /**
  * AI-прокси через наш сервер: генерация задания, оценка ответа, уточнение по теории
  * (см. phase4_server.md → «AI-прокси»). Промты и OpenAI-ключ — только на сервере; клиент шлёт
- * сырые данные (exerciseId, слова, theorySummary) и получает готовый текст.
+ * сырые данные (exerciseId, слова) и получает готовый текст.
  *
  * Лимит AI-запросов списывается на [generate] и [clarify], НЕ на [evaluate]. Заглушка
  * ([dev.sethan8r.grammar.app.data.repository.fake.FakeAiExerciseRepository]) возвращает мок-данные;
@@ -17,11 +17,10 @@ import dev.sethan8r.grammar.app.domain.model.exercise.GeneratedExercise
  */
 interface AiExerciseRepository {
 
-    /** Сгенерировать задание. `words` клиент собирает по WordSource упражнения, `cardTheory` = theorySummary. */
+    /** Сгенерировать задание. `words` клиент собирает по WordSource упражнения; всё о правиле уже в серверном промте. */
     suspend fun generate(
         exerciseId: String,
         words: List<String>,
-        cardTheory: String?,
     ): ApiResult<GeneratedExercise>
 
     /** Оценить ответ пользователя на ранее сгенерированное задание (`taskText` хранил клиент). */

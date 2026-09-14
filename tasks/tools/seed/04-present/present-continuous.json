@@ -157,7 +157,12 @@
           "text": "Разница с Present Simple та же: **I live in Moscow** — постоянное место жительства (факт обо мне), **I am living in Moscow** — где обитаю сейчас, но без гарантии «навсегда»."
         }
       ],
-      "theorySummary": "Present Continuous — время «прямо сейчас»: действие в процессе, в момент речи (`I am working` — сижу за работой именно сейчас). Форма — `am/is/are` + глагол с `-ing`. Второй смысл — временная ситуация, которая идёт сейчас, но не навсегда (`I am living in Moscow`). Главный контраст с Present Simple: `I work` — вообще, по жизни; `I am working` — в эту секунду.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Present Continuous — время «прямо сейчас»: действие в процессе, в момент речи (`I am working` — сижу за работой именно сейчас). Форма — `am/is/are` + глагол с `-ing`. Второй смысл — временная ситуация, которая идёт сейчас, но не навсегда (`I am living in Moscow`). Главный контраст с Present Simple: `I work` — вообще, по жизни; `I am working` — в эту секунду."
+        }
+      ],
       "examples": [
         {
           "ru": "Я сейчас работаю, не мешай.",
@@ -251,7 +256,12 @@
           ]
         }
       ],
-      "theorySummary": "По-русски «я читаю» — одна форма и для привычки, и для «прямо сейчас», поэтому русские говорят `I read now` вместо нужного `I am reading now`. Для действия в момент речи английскому мало простого глагола — нужен Present Continuous (`am/is/are` + `-ing`). Слова-сигналы `now`, `right now`, `at the moment`, `Look!`, `Listen!` подсказывают, что нужно именно это время.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "По-русски «я читаю» — одна форма и для привычки, и для «прямо сейчас», поэтому русские говорят `I read now` вместо нужного `I am reading now`. Для действия в момент речи английскому мало простого глагола — нужен Present Continuous (`am/is/are` + `-ing`). Слова-сигналы `now`, `right now`, `at the moment`, `Look!`, `Listen!` подсказывают, что нужно именно это время."
+        }
+      ],
       "examples": [
         {
           "ru": "Не мешай, я сейчас читаю.",
@@ -350,7 +360,12 @@
           ]
         }
       ],
-      "theorySummary": "Форма Present Continuous — `am/is/are` + глагол с `-ing`. В большинстве случаев `-ing` просто приклеивается к глаголу без изменений: **work → working**, **go → going**, **read → reading**. Конечная буква `y`, в отличие от `-s`/`-ed`, перед `-ing` всегда остаётся: **study → studying**, **cry → crying**. Особые случаи правописания — в следующей карточке.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Форма Present Continuous — `am/is/are` + глагол с `-ing`. В большинстве случаев `-ing` просто приклеивается к глаголу без изменений: **work → working**, **go → going**, **read → reading**. Конечная буква `y`, в отличие от `-s`/`-ed`, перед `-ing` всегда остаётся: **study → studying**, **cry → crying**. Особые случаи правописания — в следующей карточке."
+        }
+      ],
       "examples": [
         {
           "ru": "Малыш плачет — он голодный.",
@@ -482,7 +497,12 @@
           ]
         }
       ],
-      "theorySummary": "Три особых случая при добавлении `-ing`: немая `-e` на конце уходит (**make → making**, **write → writing**); одна согласная после ударной гласной удваивается (**run → running**, **sit → sitting**); окончание `-ie` меняется на `-y` (**lie → lying**, **die → dying**). Во всех остальных случаях действует базовое правило — `-ing` просто добавляется.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Три особых случая при добавлении `-ing`: немая `-e` на конце уходит (**make → making**, **write → writing**); одна согласная после ударной гласной удваивается (**run → running**, **sit → sitting**); окончание `-ie` меняется на `-y` (**lie → lying**, **die → dying**). Во всех остальных случаях действует базовое правило — `-ing` просто добавляется."
+        }
+      ],
       "examples": [
         {
           "ru": "Она улыбается мне прямо сейчас.",
@@ -612,7 +632,12 @@
           ]
         }
       ],
-      "theorySummary": "Утверждение в Present Continuous строится по формуле: подлежащее + `am/is/are` + глагол с `-ing`. Форму `be` выбираем по лицу: `I am`, `he/she/it is`, `you/we/they are`; сам глагол с `-ing` при этом не меняется (**I am working**, **she is working**). В живой речи связку сливают с подлежащим: **I'm**, **he's**, **they're** + глагол с `-ing`.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Утверждение в Present Continuous строится по формуле: подлежащее + `am/is/are` + глагол с `-ing`. Форму `be` выбираем по лицу: `I am`, `he/she/it is`, `you/we/they are`; сам глагол с `-ing` при этом не меняется (**I am working**, **she is working**). В живой речи связку сливают с подлежащим: **I'm**, **he's**, **they're** + глагол с `-ing`."
+        }
+      ],
       "examples": [
         {
           "ru": "Я сейчас крашу стену.",
@@ -712,7 +737,12 @@
           "text": "Проверяй себя простым вопросом: «есть ли в предложении `am`, `is` или `are`?» Если действие идёт прямо сейчас, а связки нет — предложение недостроено."
         }
       ],
-      "theorySummary": "Самая частая ошибка в Present Continuous — выбросить связку: **I working** ✗ вместо **I am working** ✓. Корень в русском: «я работаю» — одно слово, отдельного «быть» в настоящем нет, поэтому мозгу неоткуда взять `am/is/are`. Зеркало Present Simple: там лишний `be` убирали (**I am work** ✗ → **I work**), здесь его обязательно ставим (**I working** ✗ → **I am working**). Present Continuous всегда две части: `am/is/are` + глагол с `-ing`.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Самая частая ошибка в Present Continuous — выбросить связку: **I working** ✗ вместо **I am working** ✓. Корень в русском: «я работаю» — одно слово, отдельного «быть» в настоящем нет, поэтому мозгу неоткуда взять `am/is/are`. Зеркало Present Simple: там лишний `be` убирали (**I am work** ✗ → **I work**), здесь его обязательно ставим (**I working** ✗ → **I am working**). Present Continuous всегда две части: `am/is/are` + глагол с `-ing`."
+        }
+      ],
       "examples": [
         {
           "ru": "Тихо! Малыш спит.",
@@ -819,7 +849,12 @@
           ]
         }
       ],
-      "theorySummary": "Отрицание в Present Continuous — это утверждение плюс `not` сразу после связки: подлежащее + `am/is/are` + `not` + глагол с `-ing` (**I am not working**, **she is not reading**). Сокращают двумя равноправными способами: `isn't`/`aren't` (**he isn't working**) или **he's not** / **they're not**. У `am` краткой формы с `not` нет — для `I` только **I'm not**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Отрицание в Present Continuous — это утверждение плюс `not` сразу после связки: подлежащее + `am/is/are` + `not` + глагол с `-ing` (**I am not working**, **she is not reading**). Сокращают двумя равноправными способами: `isn't`/`aren't` (**he isn't working**) или **he's not** / **they're not**. У `am` краткой формы с `not` нет — для `I` только **I'm not**."
+        }
+      ],
       "examples": [
         {
           "ru": "Я сейчас не слушаю музыку.",
@@ -911,7 +946,12 @@
           "text": "Проверка простая: в отрицании Present Continuous должны стоять `be` + `not` (`isn't`, `aren't`, `'m not`) и ни одного `don't`/`doesn't`."
         }
       ],
-      "theorySummary": "Главная ошибка в отрицании Present Continuous — по привычке из Present Simple прилепить `don't`/`doesn't` (**I don't working** ✗). Помощник `do` здесь не нужен: связка `be` уже в предложении и сама несёт отрицание — просто ставим `not` после неё (**I'm not working** ✓). `do/does` и `be` в одном отрицании не встречаются: **I don't work** (Present Simple) vs **I'm not working** (Present Continuous).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Главная ошибка в отрицании Present Continuous — по привычке из Present Simple прилепить `don't`/`doesn't` (**I don't working** ✗). Помощник `do` здесь не нужен: связка `be` уже в предложении и сама несёт отрицание — просто ставим `not` после неё (**I'm not working** ✓). `do/does` и `be` в одном отрицании не встречаются: **I don't work** (Present Simple) vs **I'm not working** (Present Continuous)."
+        }
+      ],
       "examples": [
         {
           "ru": "Он сейчас не готовит ужин.",
@@ -1025,7 +1065,12 @@
           "text": "Такой вопрос звучит с оттенком удивления или проверки: спрашивающий скорее ожидал «да», а видит обратное. Схема прежняя — `be` впереди, глагол с `-ing` на месте, — просто связка идёт с отрицанием. Для `I` краткая форма особая: **Aren't I doing it right?** (у `am` своей формы с `not` нет, поэтому в вопросе берут `aren't I` — это просто запоминают)."
         }
       ],
-      "theorySummary": "Вопрос в Present Continuous строится выносом связки вперёд: утверждение `You are working` → вопрос `Are you working?`. Схема: `am/is/are` + подлежащее + глагол с `-ing` (**Is she sleeping?**, **Are they eating?**). Помощник `do`/`does` не нужен — его роль, как в Present Simple, здесь играет сам `be`, который встаёт перед подлежащим. **Do you working?** ✗ → **Are you working?** ✓.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вопрос в Present Continuous строится выносом связки вперёд: утверждение `You are working` → вопрос `Are you working?`. Схема: `am/is/are` + подлежащее + глагол с `-ing` (**Is she sleeping?**, **Are they eating?**). Помощник `do`/`does` не нужен — его роль, как в Present Simple, здесь играет сам `be`, который встаёт перед подлежащим. **Do you working?** ✗ → **Are you working?** ✓."
+        }
+      ],
       "examples": [
         {
           "ru": "Ты плывёшь слишком быстро?",
@@ -1133,7 +1178,12 @@
           "text": "Фразу **What are you doing?** запомни целиком, готовым блоком, — это, пожалуй, самый частый бытовой вопрос в английском."
         }
       ],
-      "theorySummary": "На вопрос отвечаем кратко тем же `be`: `Are you working?` → `Yes, I am` / `No, I'm not` (не `Yes, I do`). Положительный краткий ответ не сокращают (**Yes, I am** ✓, не **Yes, I'm**), отрицательный — можно (**No, she isn't**). WH-вопрос: вопросительное слово + `am/is/are` + подлежащее + глагол с `-ing` (**What are you doing?**, **Where is she going?**).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "На вопрос отвечаем кратко тем же `be`: `Are you working?` → `Yes, I am` / `No, I'm not` (не `Yes, I do`). Положительный краткий ответ не сокращают (**Yes, I am** ✓, не **Yes, I'm**), отрицательный — можно (**No, she isn't**). WH-вопрос: вопросительное слово + `am/is/are` + подлежащее + глагол с `-ing` (**What are you doing?**, **Where is she going?**)."
+        }
+      ],
       "examples": [
         {
           "ru": "— Ты пьёшь кофе? — Да.",
@@ -1252,7 +1302,12 @@
           ]
         }
       ],
-      "theorySummary": "Первое и самое частое употребление Present Continuous — действие прямо в момент речи, которое видно или слышно сейчас (**She is making coffee** — готовит в эту секунду). Слова-сигналы: `now`, `right now`, `at the moment`, а также призывы `Look!` и `Listen!`. Контраст с Present Simple: **He works here** (вообще, факт о человеке) — **He is working now** (в эту секунду).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Первое и самое частое употребление Present Continuous — действие прямо в момент речи, которое видно или слышно сейчас (**She is making coffee** — готовит в эту секунду). Слова-сигналы: `now`, `right now`, `at the moment`, а также призывы `Look!` и `Listen!`. Контраст с Present Simple: **He works here** (вообще, факт о человеке) — **He is working now** (в эту секунду)."
+        }
+      ],
       "examples": [
         {
           "ru": "Моя сестра готовит кофе на кухне.",
@@ -1344,7 +1399,12 @@
           ]
         }
       ],
-      "theorySummary": "Второе употребление Present Continuous — временная ситуация: действие охватывает «этот период» и происходит сейчас, но не навсегда, даже если не буквально в секунду речи (**I am living in a flat this month**). Маркеры: `these days`, `this week`, `at the moment`, `currently`. Контраст с Present Simple: **I live in a flat** (постоянно, моё жильё) — **I am living in a flat** (временно снимаю). Выбор времени показывает, считаешь ли ты ситуацию постоянной или временной.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Второе употребление Present Continuous — временная ситуация: действие охватывает «этот период» и происходит сейчас, но не навсегда, даже если не буквально в секунду речи (**I am living in a flat this month**). Маркеры: `these days`, `this week`, `at the moment`, `currently`. Контраст с Present Simple: **I live in a flat** (постоянно, моё жильё) — **I am living in a flat** (временно снимаю). Выбор времени показывает, считаешь ли ты ситуацию постоянной или временной."
+        }
+      ],
       "examples": [
         {
           "ru": "В этом месяце я живу у друга.",
@@ -1438,7 +1498,12 @@
           ]
         }
       ],
-      "theorySummary": "Третье употребление Present Continuous — запланированное будущее с конкретной договорённостью: время и место назначены (**I am meeting Tom tomorrow** — встреча условлена). Логика: договорённость — уже запущенный процесс, поэтому форма процесса. Русская интуиция помогает: мы тоже говорим «завтра встречаюсь». Маркеры: `tomorrow`, `tonight`, `next week`, `on Friday`. Только для твёрдых планов — не для спонтанных решений и прогнозов (их закроют темы Future).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Третье употребление Present Continuous — запланированное будущее с конкретной договорённостью: время и место назначены (**I am meeting Tom tomorrow** — встреча условлена). Логика: договорённость — уже запущенный процесс, поэтому форма процесса. Русская интуиция помогает: мы тоже говорим «завтра встречаюсь». Маркеры: `tomorrow`, `tonight`, `next week`, `on Friday`. Только для твёрдых планов — не для спонтанных решений и прогнозов (их закроют темы Future)."
+        }
+      ],
       "examples": [
         {
           "ru": "Завтра в шесть я встречаюсь с Томом.",
@@ -1545,7 +1610,12 @@
           ]
         }
       ],
-      "theorySummary": "Четвёртое употребление Present Continuous — раздражающая привычка: `always` (или `constantly`, `forever`) внутри Continuous означает не частоту, а упрёк/жалобу на слишком частое действие (**He is always losing his keys!** — вечно теряет, бесит). Контраст: **She always drinks tea** (нейтральный факт, Present Simple) — **She is always complaining** (упрёк, Present Continuous). Наречие стоит между `be` и глаголом с `-ing`: **She is always arriving late**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Четвёртое употребление Present Continuous — раздражающая привычка: `always` (или `constantly`, `forever`) внутри Continuous означает не частоту, а упрёк/жалобу на слишком частое действие (**He is always losing his keys!** — вечно теряет, бесит). Контраст: **She always drinks tea** (нейтральный факт, Present Simple) — **She is always complaining** (упрёк, Present Continuous). Наречие стоит между `be` и глаголом с `-ing`: **She is always arriving late**."
+        }
+      ],
       "examples": [
         {
           "ru": "Ты вечно теряешь свои ключи!",
@@ -1635,7 +1705,12 @@
           "text": "В родном языке у нас одна форма настоящего на все случаи, и «я знаю», «я хочу» звучат одинаково и для «вообще», и для «прямо сейчас». Проблема приходит с другой стороны: выучив, что для «сейчас» нужен Continuous, мозг по инерции лепит его ко всему подряд — в том числе к чувствам, где особенно хочется сказать «вот прямо в эту минуту люблю/хочу». А именно здесь Continuous и запрещён. Правило простое: чувства, мнение, знание и обладание — всегда Present Simple."
         }
       ],
-      "theorySummary": "Глаголы состояния (`state verbs`) описывают не действие-процесс, а состояние ума, чувство или положение дел — их нельзя «снять на камеру», поэтому в Present Continuous они не идут даже про «сейчас»: **I know** ✓, не **I am knowing** ✗. Пять семей: мнение/знание (know, understand, believe), чувства/желания (like, love, want, need, prefer), обладание (have, own, belong), впечатление/бытие (be, seem, look), восприятие (see, hear). Все они остаются в Present Simple.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Глаголы состояния (`state verbs`) описывают не действие-процесс, а состояние ума, чувство или положение дел — их нельзя «снять на камеру», поэтому в Present Continuous они не идут даже про «сейчас»: **I know** ✓, не **I am knowing** ✗. Пять семей: мнение/знание (know, understand, believe), чувства/желания (like, love, want, need, prefer), обладание (have, own, belong), впечатление/бытие (be, seem, look), восприятие (see, hear). Все они остаются в Present Simple."
+        }
+      ],
       "examples": [
         {
           "ru": "Эта сумка принадлежит Кейт.",
@@ -1738,7 +1813,12 @@
           ]
         }
       ],
-      "theorySummary": "Русское «очень» переводится по-разному в зависимости от того, что усиливаем. С прилагательными и наречиями — `very` (**very cold**, **very fast**). С глаголами `very` не работает: **I very like it** ✗. Глагол усиливают `really` (перед глаголом: **I really like it**), `a lot` или `very much` (после: **I like it a lot**). `really` подходит и к прилагательным, поэтому его труднее всего поставить неправильно.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «очень» переводится по-разному в зависимости от того, что усиливаем. С прилагательными и наречиями — `very` (**very cold**, **very fast**). С глаголами `very` не работает: **I very like it** ✗. Глагол усиливают `really` (перед глаголом: **I really like it**), `a lot` или `very much` (после: **I like it a lot**). `really` подходит и к прилагательным, поэтому его труднее всего поставить неправильно."
+        }
+      ],
       "examples": [
         {
           "ru": "Мне очень нравится эта песня.",
@@ -1837,7 +1917,12 @@
           ]
         }
       ],
-      "theorySummary": "Некоторые глаголы меняют смысл — и потому попадают то в состояния, то в действия. `have` = «владеть» это состояние (**I have a car**, только Simple), но `have` = «есть/принимать/проводить» это действие (**I'm having lunch** ✓). `think` = «считать» (Simple) vs «обдумывать» (**I'm thinking**). `see` = «понимать/видеть» (Simple) vs «встречаться» (**I'm seeing the doctor**). Правило: в значении-состоянии — Simple, в значении-действии — Continuous. Сначала реши, что глагол значит, потом выбирай время.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Некоторые глаголы меняют смысл — и потому попадают то в состояния, то в действия. `have` = «владеть» это состояние (**I have a car**, только Simple), но `have` = «есть/принимать/проводить» это действие (**I'm having lunch** ✓). `think` = «считать» (Simple) vs «обдумывать» (**I'm thinking**). `see` = «понимать/видеть» (Simple) vs «встречаться» (**I'm seeing the doctor**). Правило: в значении-состоянии — Simple, в значении-действии — Continuous. Сначала реши, что глагол значит, потом выбирай время."
+        }
+      ],
       "examples": [
         {
           "ru": "У меня есть машина.",
@@ -1913,7 +1998,12 @@
           ]
         }
       ],
-      "theorySummary": "Present Continuous — про то, что идёт прямо сейчас, временно, по плану на ближайшее будущее или раздражает с `always`. Утверждение: `am/is/are` + глагол-`ing` (She is working). Отрицание: `am/is/are` + `not` + `-ing`, без `do` (He isn't working). Вопрос: `Am/Is/Are` + подлежащее + `-ing`, связка выходит вперёд (Is she working?). Глаголы-состояния (`know`, `want`, `like`…) в Continuous не ставятся — про «сейчас» они остаются в Present Simple.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Present Continuous — про то, что идёт прямо сейчас, временно, по плану на ближайшее будущее или раздражает с `always`. Утверждение: `am/is/are` + глагол-`ing` (She is working). Отрицание: `am/is/are` + `not` + `-ing`, без `do` (He isn't working). Вопрос: `Am/Is/Are` + подлежащее + `-ing`, связка выходит вперёд (Is she working?). Глаголы-состояния (`know`, `want`, `like`…) в Continuous не ставятся — про «сейчас» они остаются в Present Simple."
+        }
+      ],
       "examples": [],
       "clarificationOptions": [
         "Чем Present Continuous отличается от «вообще, всегда»?",

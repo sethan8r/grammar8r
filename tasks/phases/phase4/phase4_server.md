@@ -139,10 +139,9 @@ POST /webhook/yookassa
 POST /ai/exercise/generate
   Headers: Authorization: Bearer <jwt>
          | X-Device-Id: <deviceId>   ← если не залогинен, tier = Free принудительно
-  Body: { exerciseId, words[], cardTheory? }
+  Body: { exerciseId, words[] }
   ← exerciseId = AiExercise.id — сервер находит промт в ai_exercise_prompts
   ← words[] — клиент собирает сам по WordSource из wordsSource упражнения
-  ← cardTheory — theorySummary карточки, подставляется в {{theorySummary}}
   → { taskText }              ← сгенерированное задание, клиент показывает пользователю
   | { error: "limit_exceeded" | "ai_error" | "prompt_not_found" }
   ⚠️ Лимит daily_ai_requests списывается здесь — на генерации, не на проверке.
@@ -655,10 +654,9 @@ CREATE TABLE ai_exercise_prompts (
 
     user_prompt       TEXT        NOT NULL,
     -- Шаблон задания. Сервер подставляет плейсхолдеры перед отправкой в OpenAI:
-    --   {{theorySummary}} ← cardTheory из тела запроса (прислало приложение)
-    --   {{words}}         ← слова пользователя из тела запроса (клиент собирает сам по WordSource)
+    --   {{words}} ← слова пользователя из тела запроса (клиент собирает сам по WordSource)
     -- Приложение не собирает промт — только присылает сырые данные.
-    -- Пример: "Правило: {{theorySummary}}. Слова: {{words}}.
+    -- Пример: "Слова: {{words}}.
     --          Дай русское предложение для перевода в Present Simple."
 
     ai_config_profile VARCHAR(50) NOT NULL
@@ -759,7 +757,7 @@ GET /content/microtopic/{id}
 
 5. Найти промт в ai_exercise_prompts по exerciseId:
    - Не найден → { error: "prompt_not_found" }
-   - Подставить {{words}} из тела запроса и {{theorySummary}} из cardTheory
+   - Подставить {{words}} из тела запроса
 
 6. Сформировать запрос к OpenAI:
    - System: system_prompt из таблицы

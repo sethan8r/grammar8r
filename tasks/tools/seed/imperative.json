@@ -212,7 +212,28 @@
           ]
         }
       ],
-      "theorySummary": "Императив — форма для команд, запретов, инструкций и просьб: глагол в базовой форме, подлежащего нет (**Open the door**), запрет — `Don't` перед той же формой (**Don't run**). Всё это собрано ещё в «Основах», и в этой теме форма почти не меняется. Новое здесь другое: одна и та же команда бывает и приказом, и заботой, и решает это не форма и даже не слово `please`.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Императив — команда, запрет, инструкция или просьба: глагол в базовой форме без подлежащего."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Open the door** — команда",
+            "**Don't run** — запрет: `Don't` перед той же формой"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что нового в теме"
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма почти не меняется, всё это собрано ещё в «Основах». Новое в другом: одна и та же команда бывает и приказом, и заботой — и решает это не форма и даже не `please`."
+        }
+      ],
       "examples": [
         {
           "ru": "Пристегните ремень.",
@@ -351,7 +372,29 @@
           ]
         }
       ],
-      "theorySummary": "В русском вежливость встроена в глагол: «сядь» ↔ «сядьте» различает «ты» и «вы», «сядь» ↔ «садитесь» — указание и приглашение. В английском нет ни того, ни другого: **Sit down** одно на все четыре случая, и приклеить вежливость к форме некуда. Грубости в самой форме при этом нет — она нейтральна. Вежливость просто живёт в другом месте: в выборе конструкции, а `please` эту разницу не заменяет.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "В английском вежливость не встроена в глагол — она живёт в выборе конструкции."
+        },
+        {
+          "type": "heading",
+          "text": "Чем русский отличается"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Сядь» ↔ «сядьте» — различает «ты» и «вы»",
+            "«Сядь» ↔ «садитесь» — различает указание и приглашение",
+            "**Sit down** — одно на все четыре случая"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Грубости в самой форме нет, она нейтральна. А `please` разницу конструкций не заменяет."
+        }
+      ],
       "examples": [
         {
           "ru": "Садитесь, пожалуйста.",
@@ -478,7 +521,29 @@
           ]
         }
       ],
-      "theorySummary": "Одна и та же команда звучит любезно или грубо в зависимости от того, кому нужно действие. Нужно слушателю — голый императив звучит как подарок: **Have a seat**, **Take your time**. Нужно тебе — тот же императив звучит распоряжением: **Give me the menu**, и `please` спасает его лишь наполовину. Нужно делу — команда нейтральна: **Turn left**. Главная ошибка русского в кафе: «дайте, пожалуйста» переводится дословно, хотя в русском «дайте» уже содержит уважительное «вы», а в `give me` его нет.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Одна и та же команда звучит любезно или грубо — смотря **кому нужно действие**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Слушателю → голый императив звучит как подарок: **Have a seat**, **Take your time**",
+            "Вам → звучит распоряжением: **Give me the menu**, и `please` спасает его лишь наполовину",
+            "Делу → команда нейтральна: **Turn left**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Главная ошибка в кафе"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Дайте, пожалуйста» переводят дословно. Но в русском «дайте» уже несёт уважительное «вы», а в **give me** его нет."
+        }
+      ],
       "examples": [
         {
           "ru": "Присаживайтесь.",
@@ -606,7 +671,66 @@
           "text": "А в кафе и магазине вам почти наверняка скажут **Anything else?** — «что-нибудь ещё?». Отвечают на это либо **That's all, thanks**, либо новой просьбой по той же схеме."
         }
       ],
-      "theorySummary": "Решает вопрос «кому нужно действие»: нужно слушателю — голый императив звучит любезно (**Have a seat**), нужно тебе — он звучит распоряжением. Поэтому своё просят вопросом: **Can I have + вещь** (**Can I have the bill, please?**), **Could you + V1** (**Could you send me the report?**), **Could I + V1** для разрешения (**Could I use your charger?**). Вопрос вежлив не длиной, а тем, что оставляет право отказаться. `please` переезжает внутрь вопроса. Отрицательная просьба — **Please don't touch it**, а **Could you not do that?** звучит уже раздражённо. Отвечают на просьбу коротко: **Sure**, **Of course**, **Will do**, **I'm on it**, а отказывают мягко — **Sorry, I can't right now**. Ловушка русского: дословное **Give me…** и калька **Can you give me…?** — в кафе естественнее **Can I have…?**",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Своё просят вопросом: он вежлив не длиной, а тем, что оставляет право отказаться."
+        },
+        {
+          "type": "heading",
+          "text": "Кому нужно действие"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Слушателю → голый императив любезен: **Have a seat**",
+            "Вам → голый императив звучит распоряжением, поэтому нужен вопрос"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три формулы просьбы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can I have** + вещь: **Can I have the bill, please?**",
+            "**Could you** + V1 — действие: **Could you send me the report?**",
+            "**Could I** + V1 — разрешение: **Could I use your charger?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`please` переезжает внутрь вопроса."
+        },
+        {
+          "type": "heading",
+          "text": "Отказ, согласие и «не надо»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Отрицательная просьба: **Please don't touch it** ✓, а **Could you not do that?** звучит уже раздражённо",
+            "Согласие: **Sure**, **Of course**, **Will do**, **I'm on it**",
+            "Мягкий отказ: **Sorry, I can't right now**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Give me the bill, please** ✗ → **Can I have the bill, please?** ✓ — дословная калька",
+            "**Can you give me the menu?** — понятно, но в кафе естественнее **Can I have the menu?**"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Можно мне счёт, пожалуйста?",
@@ -729,7 +853,39 @@
           ]
         }
       ],
-      "theorySummary": "Вопрос вместо команды нужен дистанции, а не всем подряд. Со своими — семьёй, друзьями — короткий императив нормален: **Pass me the salt**, **Text me when you land**. Выбор фразы определяют три вещи: близость, размер одолжения и тон. Слишком длинная вежливость с близким человеком (**Could you possibly pass me the salt?**) звучит холодно, потому что сообщает дистанцию. Прилагательное `close` читается [[kləʊs]], в отличие от глагола `to close` [[kləʊz]].",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вопрос вместо команды нужен дистанции, а не всем подряд: со своими короткий императив — норма."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Семье и друзьям: **Pass me the salt**, **Text me when you land**",
+            "**Could you possibly pass me the salt?** близкому звучит холодно — сообщает дистанцию"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что решает выбор фразы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три вещи: близость, размер одолжения и тон."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Прилагательное `close` («близкий») читается [[kləʊs]], а глагол `to close` — [[kləʊz]]."
+            }
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Передай мне соль.",
@@ -803,7 +959,31 @@
           "text": "И последнее, чего не видно на письме: половину впечатления делает голос. Одна и та же фраза **Wait here** с падающим тоном звучит как приказ, а с лёгким подъёмом и `please` в конце — как обычная просьба."
         }
       ],
-      "theorySummary": "Когда командовать уместно, команду смягчают: `just` снимает вес (**Just leave it on the table**), `Try to…` превращает приказ в пожелание, `Don't forget to…` и `Remember to…` делают из распоряжения напоминание, `Make sure you…` ставит задачу мягко, а заход **Sorry to bother you** признаёт, что вы отвлекаете. Хвостик **…, will you?** — пока на узнавание. Смягчитель не отменяет оси темы: если действие нужно вам, нужен вопрос, а не смягчённая команда.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Когда командовать уместно, команду смягчают. Но если действие нужно вам — нужен вопрос, а не смягчённая команда."
+        },
+        {
+          "type": "heading",
+          "text": "Смягчители"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**just** снимает вес: **Just leave it on the table**",
+            "**Try to…** превращает приказ в пожелание",
+            "**Don't forget to…**, **Remember to…** делают из распоряжения напоминание",
+            "**Make sure you…** мягко ставит задачу",
+            "**Sorry to bother you** признаёт, что вы отвлекаете"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Хвостик **…, will you?** — пока только на узнавание."
+        }
+      ],
       "examples": [
         {
           "ru": "Просто оставь это на столе.",
@@ -950,7 +1130,52 @@
           ]
         }
       ],
-      "theorySummary": "Русские «бояться», «нервничать», «стесняться» — глаголы, а английские `afraid`, `nervous`, `shy` — прилагательные, и в команде им нужна связка: **Don't be afraid** ✓, а не **Don't afraid** ✗. Проверка одна: можно ли сказать `I am` + это слово? Да — ставим `be`; нет — слово глагол, и связка лишняя: **Don't worry** ✓, **Don't hurry** ✓, **Don't panic** ✓. После `be` может стоять и существительное, тогда ему нужен артикль: **Don't be an idiot** ✓. Рядом работает `get`: **Don't be angry** — не сердись, **Don't get angry** — не заводись.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "«Бояться», «нервничать», «стесняться» в английском — прилагательные, и в команде им нужна связка `be`."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Можно сказать `I am` + это слово? Да — ставим `be`. Нет — слово глагол, и связка лишняя."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't be afraid** ✓, **Don't be nervous** ✓, **Don't be shy** ✓",
+            "**Don't worry** ✓, **Don't hurry** ✓, **Don't panic** ✓ — это глаголы"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't afraid** ✗ → **Don't be afraid** ✓",
+            "**Don't be idiot** ✗ → **Don't be an idiot** ✓ — существительному после `be` нужен артикль"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рядом работает get"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't be angry** — не сердись",
+            "**Don't get angry** — не заводись"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Не бойся, собака добрая.",
@@ -1057,7 +1282,33 @@
           ]
         }
       ],
-      "theorySummary": "В английском предложении отрицание одно, поэтому русское двойное «никогда не» разваливает фразу: **Don't never do that** ✗. Правильных вариантов два — **Never do that again** ✓ (отрицание держит never) или **Don't ever do that again** ✓ (отрицание держит don't, а ever значит «когда-либо» и только усиливает). Never и always встают в начало команды, перед глаголом: **Always lock the door.** По силе never строже: don't запрещает сейчас, never — навсегда.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "В английском предложении отрицание одно, поэтому русское «никогда не» разваливает фразу."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't never do that** ✗",
+            "**Never do that again** ✓ — отрицание держит `never`",
+            "**Don't ever do that again** ✓ — отрицание держит `don't`, а `ever` («когда-либо») только усиливает"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Never и always"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Встают в начало команды, перед глаголом: **Always lock the door**",
+            "`never` строже: `don't` запрещает сейчас, `never` — навсегда"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Никогда так больше не делай.",
@@ -1192,7 +1443,41 @@
           "text": "Ничего учить не нужно, нужно заметить и начать пользоваться: приём смягчает команду, не переделывая её в вопрос."
         }
       ],
-      "theorySummary": "Усилительный `do` перед базовой формой подчёркивает команду: **Do sit down**, **Do come in**, **Do have another slice** — это радушная настойчивость хозяина, русское «да садитесь же», а не вопрос и не злость. Оттенок чуть старомодно-вежливый, чаще британский; короткое **Please do** — разрешение «конечно, берите». Тот же `do` работает и вниз: полная форма **Do not touch that** в живой речи звучит жёстче, чем **Don't touch that**. Значит, `do` не греет и не морозит сам по себе — он подчёркивает, а направление задаёт сама команда. Самый мягкий приём противоположный: уменьшить просьбу — **Wait a second**, **Hold on a sec**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Усилительный `do` подчёркивает команду, а направление — тепло или нажим — задаёт сама команда."
+        },
+        {
+          "type": "heading",
+          "text": "Теплее"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Do sit down**, **Do come in**, **Do have another slice** — радушная настойчивость хозяина, «да садитесь же»",
+            "Оттенок чуть старомодно-вежливый, чаще британский",
+            "**Please do** — разрешение: «конечно, берите»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Жёстче"
+        },
+        {
+          "type": "paragraph",
+          "text": "Полная форма **Do not touch that** в живой речи давит сильнее, чем **Don't touch that**."
+        },
+        {
+          "type": "heading",
+          "text": "Самый мягкий приём"
+        },
+        {
+          "type": "paragraph",
+          "text": "Уменьшить просьбу: **Wait a second**, **Hold on a sec**."
+        }
+      ],
       "examples": [
         {
           "ru": "Да проходите же, не стойте в дверях.",
@@ -1363,7 +1648,49 @@
           ]
         }
       ],
-      "theorySummary": "Русское «не шуми» покрывает два случая, а английский их разводит: **Stop making noise** — прекрати то, что идёт прямо сейчас, **Don't make noise** — не делай этого вообще. Когда и так ясно, о чём речь, говорят просто **Stop it.** По резкости фразы выстраиваются в шкалу: **Please stop** → **Stop it** → **That's enough** → **Cut it out** → **Knock it off** → **Shut up**, и последняя означает «заткнись», а не «помолчи» — вместо неё берут **Be quiet**, **Keep it down** или вопрос **Could you keep it down?** Предел громкости — одно слово без глагола: **Quiet!**, **Careful!**, **Enough!** В обратную сторону работают **Relax**, **Take it easy**, **Stay calm**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «не шуми» английский делит на два случая: прекратить то, что идёт, или не делать вообще."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Stop making noise** — прекрати то, что идёт прямо сейчас",
+            "**Don't make noise** — не делай этого вообще",
+            "**Stop it** — когда и так ясно, о чём речь"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шкала резкости"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Please stop** → **Stop it** → **That's enough** → **Cut it out** → **Knock it off** → **Shut up**"
+        },
+        {
+          "type": "heading",
+          "text": "Вместо Shut up"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Shut up** — это «заткнись», а не «помолчи». Нейтрально: **Be quiet**, **Keep it down** или вопрос **Could you keep it down?**"
+        },
+        {
+          "type": "heading",
+          "text": "Одно слово и обратная сторона"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Предел громкости — без глагола: **Quiet!**, **Careful!**, **Enough!**",
+            "Успокоить: **Relax**, **Take it easy**, **Stay calm**"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Перестань кричать, я тебя слышу.",
@@ -1525,7 +1852,72 @@
           "text": "Два приёма из этой микротемы в шкалу не входят, хотя стоят рядом с ней: **Wait a second** уменьшает саму просьбу, а **Stop it** останавливает то, что уже происходит. Они меняют не громкость, а то, о чём вы просите."
         }
       ],
-      "theorySummary": "Микротема о громкости команды. Русским «бояться» и «нервничать» в английском соответствуют прилагательные, поэтому нужна связка: **Don't be afraid** ✓, **Don't afraid** ✗; проверка — можно ли сказать `I am` + это слово. Где английское слово глагол, связка лишняя: **Don't worry** ✓. После `be` существительному нужен артикль: **Don't be an idiot.** Отрицание в предложении одно: **Never do that again** ✓ или **Don't ever do that again** ✓, но не оба сразу. Усилительный `do` подчёркивает команду в обе стороны: **Do sit down** греет, **Do not touch that** давит. Идущее действие останавливают через **Stop it** и **Stop shouting**, а `don't` устанавливает правило на будущее; **Shut up** значит «заткнись» и почти всегда грубо. Подлежащее возвращают ради нажима и распределения ролей: **You stay here**, **Nobody move**, **Somebody call an ambulance.** Угроза строится только в порядке **Don't you dare tell her** — вариант **You don't dare** ✗ сообщает факт, а после `dare` не бывает `to`.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Громкость команды: связка `be`, одно отрицание, усилительный `do`, стоп-фразы и возвращённое подлежащее."
+        },
+        {
+          "type": "heading",
+          "text": "Связка be"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Бояться», «нервничать» — прилагательные: **Don't be afraid** ✓; проверка — можно ли сказать `I am` + слово",
+            "Глагол — без связки: **Don't worry** ✓",
+            "Существительному после `be` нужен артикль: **Don't be an idiot** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одно отрицание"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Never do that again** ✓ или **Don't ever do that again** ✓ — но не оба сразу."
+        },
+        {
+          "type": "heading",
+          "text": "Усилительный do и стоп-фразы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Do sit down** греет, **Do not touch that** давит",
+            "Идущее останавливают через **Stop it**, **Stop shouting**, а `don't` — правило на будущее",
+            "**Shut up** — «заткнись», почти всегда грубо"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Подлежащее ради нажима"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Роли: **You stay here**, **Nobody move**, **Somebody call an ambulance**",
+            "Угроза — только в порядке **Don't you dare tell her**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't afraid** ✗ → **Don't be afraid** ✓",
+            "**Don't never do that** ✗ → **Never do that again** ✓",
+            "**You don't dare tell her** ✗ → **Don't you dare tell her** ✓ — первое сообщает факт",
+            "**Don't you dare to tell her** ✗ → **Don't you dare tell her** ✓ — после `dare` нет `to`"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Ты остаёшься здесь, а ты идёшь со мной.",
@@ -1697,7 +2089,55 @@
           "text": "`let` живёт и в обычных предложениях, где значит «позволять, разрешать»: **She lets me use her car** — это мы разбирали ещё в «Основах». И одна деталь из темы «Формы глаголов»: у `let` все три формы одинаковые, поэтому прошедшее время выглядит как настоящее — **He let me go home early yesterday** ↔ **He lets me go out on Fridays**. Различает их только контекст."
         }
       ],
-      "theorySummary": "`let` значит «позволить, не мешать», и меняется в нём только тот, кто действует: **Let's go** — мы вместе, **Let me have a look** — я сам, **Let him decide** — он. Русские подсказки: «давай», «дай-ка я», «пусть». Собирается как `Let + кого + V1 без to`, поэтому **Let he go** ✗ и **Let me to help** ✗ — нужны **Let him go** ✓ и **Let me help** ✓, а объект пропускать нельзя: **Let wait** ✗ → **Let him wait** ✓. Русское «дай» в значении «позволь» — это let, а не give: **Let me think** ✓. Отрицаний три: **Let's not argue**, **Don't let me forget**, **Don't let anyone touch it.**",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`let` — «позволить, не мешать»; меняется только тот, кто действует."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's go** — мы вместе, «давай»",
+            "**Let me have a look** — я сам, «дай-ка я»",
+            "**Let him decide** — он, «пусть»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сборка"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Let + кого + V1 без to`. Русское «дай» в значении «позволь» — это `let`, а не `give`: **Let me think** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let he go** ✗ → **Let him go** ✓ — объектная форма",
+            "**Let me to help** ✗ → **Let me help** ✓ — без `to`",
+            "**Let wait** ✗ → **Let him wait** ✓ — объект не пропускаем"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три отрицания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's not argue** — давай не будем",
+            "**Don't let me forget** — не дай мне забыть",
+            "**Don't let anyone touch it** — не давай никому"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Давай сходим в кино в субботу.",
@@ -1788,7 +2228,41 @@
           "text": "Русский делает ровно то же самое: «так, посмотрим-ка», «давайте попробуем ещё раз», «давайте обсудим это завтра». Учить здесь нечего — достаточно узнавать: за таким `let's` часто стоит один человек, и это вежливость, а не совместное дело."
         }
       ],
-      "theorySummary": "`let's` = `let us` — расшифровка верная, но подставлять полную форму обратно нельзя. Живое `let us` бывает торжественным (**Let us pray**) или буквальным «отпустите нас» (**Let us go, the door is locked**), а в письмах компаний значит «сообщите нам»: **Please let us know.** Обратной сборки нет: **Let's know** ✗, «давай узнаем» — это **Let's find out** ✓. И ещё: `let's` не всегда про двоих — **Let's take a look** врач говорит про себя одного, это просто вежливость.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`let's` = `let us`, но подставлять полную форму обратно нельзя — у живого `let us` другой смысл."
+        },
+        {
+          "type": "heading",
+          "text": "Где живёт полное let us"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Торжественно: **Let us pray**",
+            "Буквально «отпустите нас»: **Let us go, the door is locked**",
+            "В письмах компаний «сообщите нам»: **Please let us know**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Обратной сборки нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Let's know** ✗ → «давай узнаем» — это **Let's find out** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Не всегда про двоих"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Let's take a look** врач говорит про себя одного — это просто вежливость."
+        }
+      ],
       "examples": [
         {
           "ru": "Отпустите нас, дверь заперта!",
@@ -1951,7 +2425,61 @@
           ]
         }
       ],
-      "theorySummary": "`let` меняет только того, кто действует: **Let's go** — мы, **Let me help** — я, **Let him decide** — он; после let идёт объектная форма и голый глагол без to (**Let him wait** ✓, **Let he wait** ✗, **Let me to help** ✗). Главная фраза микротемы — **Let me know** («дай знать»), и после when и if в ней остаётся настоящее время: **Let me know when you get home.** Рядом живут **Let me think**, **Let me see**, **Let me guess**, **Let me explain**, **Let me handle it.** `Tell me` просит рассказать сейчас, `let me know` — сообщить потом. «Давай я помогу» бывает трёх видов: **Let me help you** (беру на себя), **Can I help you?** (прошу разрешения), **I'll help you** (просто сделаю). Отвечают на такое предложение формулами: **Sure**, **Go ahead**, **Please do.**",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Главная фраза микротемы — **Let me know** («дай знать»), и после `when` и `if` в ней остаётся настоящее время: **Let me know when you get home**."
+        },
+        {
+          "type": "heading",
+          "text": "Let меняет того, кто действует"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's go** — мы, **Let me help** — я, **Let him decide** — он",
+            "После `let` — объектная форма и глагол без `to`: **Let he wait** ✗, **Let me to help** ✗ → **Let him wait** ✓, **Let me help** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Фразы на каждый день"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Let me think**, **Let me see**, **Let me guess**, **Let me explain**, **Let me handle it**"
+        },
+        {
+          "type": "heading",
+          "text": "Tell me или let me know"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Tell me** — расскажи сейчас",
+            "**Let me know** — сообщи потом"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Давай я помогу» — три вида"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let me help you** — беру на себя",
+            "**Can I help you?** — прошу разрешения",
+            "**I'll help you** — просто сделаю"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ответ на такое предложение: **Sure**, **Go ahead**, **Please do**."
+        }
+      ],
       "examples": [
         {
           "ru": "Дай знать, когда доберёшься домой.",
@@ -2103,7 +2631,49 @@
           ]
         }
       ],
-      "theorySummary": "После let бывает не только глагол. Направление вместо него: **Let me in**, **Let the cat out**, **Let me through** — причём местоимение стоит между let и направлением (**Let in me** ✗). Застывшее `let go` значит «отпусти»: без предмета — **Let go!**, с предметом обязателен of — **Let go of my hand** ✓, **Let go my hand** ✗. Переносно **Let it go** — «забей», а **Let him be** — «оставь в покое». И не путайте **Let's go** (пошли) с **Let me go** (отпусти меня). Русское «пусть» бывает не про разрешение: пожелание собирается не через let, а через I hope (**Let you be happy** ✗ → **I hope everything works out** ✓).",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После `let` бывает не только глагол: направление, застывшее `let go` и формулы."
+        },
+        {
+          "type": "heading",
+          "text": "Направление вместо глагола"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let me in**, **Let the cat out**, **Let me through**",
+            "Местоимение — между `let` и направлением: **Let in me** ✗ → **Let me in** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Let go — «отпусти»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Без предмета: **Let go!**",
+            "С предметом нужен `of`: **Let go my hand** ✗ → **Let go of my hand** ✓",
+            "Переносно: **Let it go** — «забей», **Let him be** — «оставь в покое»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's go** — пошли, а **Let me go** — отпусти меня",
+            "«Пусть» как пожелание собирается через `I hope`: **Let you be happy** ✗ → **I hope everything works out** ✓"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Впусти меня, на улице холодно.",
@@ -2214,7 +2784,86 @@
           ]
         }
       ],
-      "theorySummary": "Микротема о том, кто действует. `let` значит «позволить»: **Let's go** — мы вместе, **Let me help** — я сам, **Let him decide** — он; после let идёт объектная форма и голый глагол без to, а объект пропускать нельзя (**Let he go** ✗, **Let me to help** ✗, **Let wait** ✗). Русское «дай» в значении «позволь» — это let, а не give: **Let me think** ✓. Отрицаний три: **Let's not argue**, **Don't let me forget**, **Don't let anyone touch it.** Полное `let us` — не «давай»: **Let us go** значит «отпустите нас», **Let us know** — «сообщите нам», а **Let's know** ✗ не существует («давай узнаем» — **Let's find out**). Главная фраза микротемы — **Let me know**, и после when и if в ней стоит настоящее время. После let бывает направление вместо глагола (**Let me in**, **Let the cat out**), а `let go` требует of, когда предмет назван: **Let go of my hand** ✓. Пожелание через let не собирается: **Let you be happy** ✗ → **I hope everything works out** ✓. Застывшие обороты: **Let's say** (допустим), **Let's face it** (давай начистоту), **Let's just** (давай просто); ответы на предложение — **Sure**, **OK, let's do it**, **Let's not**, **I'd rather not.**",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Микротема о том, кто действует: `let` — «позволить», и меняется только действующее лицо."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's go** — мы вместе",
+            "**Let me help** — я сам",
+            "**Let him decide** — он"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сборка и отрицания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "После `let` — объектная форма и голый глагол без `to`, объект не пропускаем",
+            "Отрицания: **Let's not argue**, **Don't let me forget**, **Don't let anyone touch it**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Let us и Let me know"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let us go** — «отпустите нас», **Let us know** — «сообщите нам»",
+            "«Давай узнаем» — **Let's find out**, а не **Let's know** ✗",
+            "**Let me know** — главная фраза; после `when` и `if` в ней настоящее время"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "После let без второго глагола"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Направление: **Let me in**, **Let the cat out**",
+            "`let go` с названным предметом требует `of`: **Let go of my hand**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Обороты и ответы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's say** — допустим, **Let's face it** — давай начистоту, **Let's just** — давай просто",
+            "Ответы на предложение: **Sure**, **OK, let's do it**, **Let's not**, **I'd rather not**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let he go** ✗ → **Let him go** ✓",
+            "**Let me to help** ✗ → **Let me help** ✓",
+            "**Let wait** ✗ → **Let him wait** ✓",
+            "**Give me think** ✗ → **Let me think** ✓ — «дай» здесь значит «позволь»",
+            "**Let go my hand** ✗ → **Let go of my hand** ✓",
+            "**Let you be happy** ✗ → **I hope everything works out** ✓"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Допустим, мы выезжаем в шесть.",
@@ -2381,7 +3030,52 @@
           "text": "Вопрос из неё не делается: команда-условие всегда утверждение — обещание, предупреждение или угроза. А отрицание справа встаёт свободно, и смысл от этого не ломается: **Leave now and you won't be late.**"
         }
       ],
-      "theorySummary": "Команда плюс `and` — это условное предложение без if: **Press this button and the door opens** = **If you press this button, the door opens.** Правило правой половины прежнее: если так бывает всегда — настоящее время, если результат ждут один раз в будущем — will (**Take this pill and you'll feel better**), возможность — can, а в угрозе настоящее спокойно стоит вместо будущего (**One more word and you're fired**). Справа может быть и ваше встречное обещание: **Help me move the sofa and I'll buy you dinner.** Слева бывает не команда, а «ещё столько-то»: **Another drink and you won't be able to drive.** Главное — не спутать с перечислением: **Sit down and be quiet** это две команды, а **Sit down and you'll feel better** — команда и результат; решает то, что стоит справа от and. Вопроса у конструкции нет, отрицание справа возможно: **Leave now and you won't be late.**",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Команда + `and` — условное предложение без `if`, «сделай — и будет»: **Press this button and the door opens** = **If you press this button, the door opens**."
+        },
+        {
+          "type": "heading",
+          "text": "Что справа от and"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Так бывает всегда — настоящее время, как в примере выше",
+            "Результат ждут один раз в будущем — `will`: **Take this pill and you'll feel better**",
+            "Возможность — `can`",
+            "В угрозе настоящее вместо будущего: **One more word and you're fired**",
+            "Встречное обещание: **Help me move the sofa and I'll buy you dinner**",
+            "Отрицание: **Leave now and you won't be late**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Слева — не только команда"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Ещё столько-то»: **Another drink and you won't be able to drive**."
+        },
+        {
+          "type": "heading",
+          "text": "Перечисление или условие"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Sit down and be quiet** — две команды",
+            "**Sit down and you'll feel better** — команда и результат"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Решает то, что стоит справа от `and`. Вопроса у конструкции нет."
+        }
+      ],
       "examples": [
         {
           "ru": "Нажми эту кнопку — и дверь откроется.",
@@ -2518,7 +3212,53 @@
           ]
         }
       ],
-      "theorySummary": "Команда плюс `or` — это предупреждение «сделай, а то»: **Hurry up, or you'll miss the bus.** Здесь `or` не «или», выбора оно не предлагает. Разворот в версию с if всегда добавляет «не»: = **If you don't hurry, you'll miss the bus** = **Unless you hurry, you'll miss the bus.** Слева работает и запрет (**Don't touch it, or it'll break**), справа спокойно встаёт отрицание (**Book the tickets now, or we won't get seats**). Рядом живут `or else` — то же с нажимом, умеет обрываться на середине (**Give it back, or else!**), и `otherwise` — нейтральное «иначе» для переписки и инструкций (**Write it down, otherwise you'll forget**). Перед `or` в этой конструкции обычно стоит запятая.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Команда + `or` — предупреждение «сделай, а то»: **Hurry up, or you'll miss the bus**."
+        },
+        {
+          "type": "heading",
+          "text": "Or здесь не «или»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Выбора оно не предлагает. Разворот в версию с `if` всегда добавляет «не»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If you don't hurry, you'll miss the bus**",
+            "**Unless you hurry, you'll miss the bus**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что встаёт по бокам"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Слева запрет: **Don't touch it, or it'll break**",
+            "Справа отрицание: **Book the tickets now, or we won't get seats**",
+            "Перед `or` обычно стоит запятая"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рядом"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**or else** — то же с нажимом, умеет обрываться: **Give it back, or else!**",
+            "**otherwise** — нейтральное «иначе» для переписки и инструкций: **Write it down, otherwise you'll forget**"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Поторопись, а то опоздаешь на автобус.",
@@ -2642,7 +3382,63 @@
           "text": "Ни `and`-сборка, ни `or`-сборка в вопрос не превращаются: обе всегда остаются утверждением — обещанием, предупреждением или угрозой. Отрицание же живёт где угодно: слева (**Don't move, or I'll shoot**), справа (**Leave now and you won't be late**) и даже в обеих половинах сразу (**Don't be late, or we won't get in**)."
         }
       ],
-      "theorySummary": "Микротема о команде, которая работает как условие. Команда плюс `and` = «сделай — и будет»: **Press this button and the door opens** = **If you press this button, the door opens**; справа настоящее время, если так бывает всегда, и will, если результат ждут один раз (**Take this pill and you'll feel better**), а в угрозе настоящее стоит вместо будущего (**One more word and you're fired**). Слева бывает не команда, а «ещё столько-то»: **Another drink and you won't be able to drive.** Не путайте с перечислением: **Sit down and be quiet** — две команды, **Sit down and you'll feel better** — команда и результат. Команда плюс `or` = «сделай, а то»: **Hurry up, or you'll miss the bus** = **If you don't hurry, you'll miss the bus** = **Unless you hurry, you'll miss the bus** — отрицание в if-версии появляется само, потому что `or` называет то, что будет БЕЗ выполнения команды. `or` здесь не «или», выбора оно не предлагает; рядом стоят `or else` с нажимом (**Give it back, or else!**) и письменное `otherwise`. Две сборки — зеркала друг друга: **Move and I'll shoot** = **Don't move, or I'll shoot.** Ключ для перевода: «и тогда» → and, «а то» → or. Вопроса у конструкции нет, отрицание возможно в любой половине.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Микротема о команде, которая работает как условие: `and` — «сделай, и будет», `or` — «сделай, а то»."
+        },
+        {
+          "type": "heading",
+          "text": "Команда + and"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Press this button and the door opens** = **If you press this button, the door opens**",
+            "Справа настоящее, если так бывает всегда, и `will`, если результат ждут один раз: **Take this pill and you'll feel better**",
+            "В угрозе настоящее вместо будущего: **One more word and you're fired**",
+            "Слева может быть «ещё столько-то»: **Another drink and you won't be able to drive**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Команда + or"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Hurry up, or you'll miss the bus** = **If you don't hurry, you'll miss the bus** = **Unless you hurry, you'll miss the bus**",
+            "«Не» в версии с `if` появляется само: `or` называет то, что будет без выполнения команды",
+            "`or` здесь не «или»; рядом — `or else` с нажимом (**Give it back, or else!**) и письменное `otherwise`"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Зеркало"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Move and I'll shoot** = **Don't move, or I'll shoot**. Ключ для перевода: «и тогда» → `and`, «а то» → `or`."
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Sit down and be quiet** — две команды",
+            "**Sit down and you'll feel better** — команда и результат"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопроса у конструкции нет, отрицание возможно в любой половине."
+        }
+      ],
       "examples": [
         {
           "ru": "Шевельнись — и я выстрелю.",
@@ -2760,7 +3556,55 @@
           ]
         }
       ],
-      "theorySummary": "Инструкции, рецепты и кнопки по-английски пишутся императивом, и это никого не задевает: действие нужно делу и самому читателю. Русский шаг рецепта — инфинитив («Добавить соль») или форма на «вы», английский знает только базовую форму: **Add the salt. Stir for two minutes. Pour in the milk.** Поэтому **To add the salt** ✗ («чтобы добавить») и **Adding the salt** ✗ («добавление») шагом инструкции не бывают. Так же устроены техника (**Press and hold the button**), дорога (**Go straight, then turn left**) и экран телефона (**Tap Continue**, **Enter your email**). Запрет собирается обычно: **Don't add the salt until the end**, печатное **Do not overcook the fish**, строгое **Never leave the machine on overnight.** Порядок шагов держат first / then / finally. В коротких инструкциях артикли выпадают (**Press button**) — это узнавание, а не образец.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Инструкции, рецепты и кнопки пишутся императивом — действие нужно делу и самому читателю, и это никого не задевает."
+        },
+        {
+          "type": "heading",
+          "text": "Шаг — только базовая форма"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Рецепт: **Add the salt. Stir for two minutes. Pour in the milk.**",
+            "Техника: **Press and hold the button**; дорога: **Go straight, then turn left**",
+            "Экран телефона: **Tap Continue**, **Enter your email**",
+            "Порядок шагов держат `first` / `then` / `finally`"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**To add the salt** ✗ → **Add the salt** ✓ — это «чтобы добавить», а не шаг",
+            "**Adding the salt** ✗ → **Add the salt** ✓ — это «добавление», а не шаг"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Запрет в инструкции"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Обычный: **Don't add the salt until the end**",
+            "Печатный: **Do not overcook the fish**",
+            "Строгий: **Never leave the machine on overnight**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В коротких инструкциях артикли выпадают (**Press button**) — это узнавание, а не образец."
+        }
+      ],
       "examples": [
         {
           "ru": "Добавьте муку и хорошо перемешайте.",
@@ -2876,7 +3720,55 @@
           "text": "**Buy now.** · **Book today.** · **Don't miss out.** · **Order online and get free delivery.** Приказом это не воспринимается по той же причине: продавец предлагает выгоду вам, а не требует чего-то для себя."
         }
       ],
-      "theorySummary": "Таблички и объявления пишутся командами: **Do not enter**, **Keep out**, **Keep off the grass** — полная форма `Do not` здесь просто официальная, как в печатных правилах. На дверях стоит само действие: **Push** (толкай) и **Pull** (тяни). Запрет без глагола собирается формулой `No + слово`: **No smoking**, **No parking**, **No entry**; русский инфинитив «Не курить!» сюда не переносится — **Not smoke** ✗ и **No smoke** ✗ (smoke без -ing значит «дым»). Предупреждения идут со словом-сигналом: **Caution: wet floor**, **Beware of the dog**, **Watch your step**, **Mind the gap**. Живому человеку то же самое говорят мягче, чем написано на стене: **Sorry, you can't smoke here** вместо голого **Don't smoke here**. Реклама командует по той же причине, что и табличка: **Buy now**, **Book today**, **Don't miss out.**",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Таблички и объявления пишутся командами; полная форма `Do not` здесь просто официальная."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Do not enter**, **Keep out**, **Keep off the grass**",
+            "На дверях — само действие: **Push** (толкай), **Pull** (тяни)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Запрет без глагола"
+        },
+        {
+          "type": "paragraph",
+          "text": "Собирается по схеме `No + слово`: **No smoking**, **No parking**, **No entry**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Not smoke** ✗, **No smoke** ✗ → **No smoking** ✓ — `smoke` без `-ing` значит «дым»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Предупреждения и реклама"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Со словом-сигналом: **Caution: wet floor**, **Beware of the dog**, **Watch your step**, **Mind the gap**",
+            "Реклама командует так же: **Buy now**, **Book today**, **Don't miss out**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Живому человеку — мягче"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Sorry, you can't smoke here** вместо голого **Don't smoke here**."
+        }
+      ],
       "examples": [
         {
           "ru": "По газону не ходить.",
@@ -3001,7 +3893,46 @@
           ]
         }
       ],
-      "theorySummary": "Самые тёплые фразы английского — по форме команды: **Have a nice day**, **Take care**, **Have fun**, **Good luck**, **Enjoy your meal**, **Get well soon**, **Sleep well**, **Drive safely**, **Say hi to your mum.** Приказом они не звучат, потому что действие нужно слушателю. Приглашения хозяина — готовые формулы: **Help yourself**, **Make yourself at home**, **Take your time.** Дословный перевод с русского здесь ломается: «береги себя» — **Take care** (не **Keep yourself** ✗), «угощайся» — **Help yourself** (а **Treat yourself** значит «побалуй себя»), «приятного аппетита» точной фразы не имеет вовсе. Отвечают на пожелание формулой **Thanks, you too!** / **You too!** / **Same to you** — **You also** ✗ так не работает. И `you too` уместно, только если пожелание можно вернуть: официанту на **Enjoy your meal** отвечают **Thank you**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Самые тёплые фразы английского — по форме команды. Приказом они не звучат, потому что действие нужно слушателю."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Пожелания: **Have a nice day**, **Take care**, **Have fun**, **Good luck**, **Get well soon**, **Sleep well**",
+            "Забота: **Enjoy your meal**, **Drive safely**, **Say hi to your mum**",
+            "Приглашения хозяина: **Help yourself**, **Make yourself at home**, **Take your time**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Дословный перевод ломается"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Береги себя» — **Take care**, а не **Keep yourself** ✗",
+            "«Угощайся» — **Help yourself**, а **Treat yourself** значит «побалуй себя»",
+            "«Приятного аппетита» точной фразы не имеет"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как ответить"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Thanks, you too!** / **You too!** / **Same to you** — а **You also** ✗ так не работает",
+            "`you too` — только если пожелание можно вернуть: официанту на **Enjoy your meal** отвечают **Thank you**"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Хорошего дня!",
@@ -3112,7 +4043,71 @@
           ]
         }
       ],
-      "theorySummary": "Микротема о жанрах, где команда — обычная норма. Инструкции и рецепты пишутся императивом (**Add the salt. Stir for two minutes.**), а **To add the salt** ✗ и **Adding the salt** ✗ шагом не бывают; запрет в инструкции — **Don't add the salt until the end** или печатное **Do not overcook the fish.** Таблички: **Do not enter**, **Keep off the grass**, **Push** / **Pull**, формула `No + слово` (**No smoking**, а не **No smoke** ✗), предупреждения со словом-сигналом (**Caution: wet floor**, **Beware of the dog**). Живому человеку то же говорят мягче: **Sorry, you can't smoke here.** Пожелания — тоже команды: **Have a nice day**, **Take care**, **Enjoy your meal**, **Help yourself**; отвечают на них **Thanks, you too!** (**You also** ✗), а официанту на **Enjoy your meal** — просто **Thank you.** В письме команда с `please` — норма, потому что письмо читают когда удобно и строка читается как пункт задачи: **Please send me the file by Friday**, **Please find attached the report**, **Please note that…**, **Let me know if…** Сказанная вслух, та же фраза становится распоряжением — там нужен вопрос. «Не стесняйтесь» — **Feel free to ask** ✓ или формальное **Don't hesitate to contact us**, но не **Don't be shy to ask** ✗. И `Kindly reply by Friday` звучит раздражённо: живее **Could you please reply by Friday?**",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Микротема о жанрах, где команда — обычная норма: инструкции, таблички, пожелания и письмо."
+        },
+        {
+          "type": "heading",
+          "text": "Инструкции и таблички"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Шаг — базовая форма: **Add the salt. Stir for two minutes.**",
+            "Запрет: **Don't add the salt until the end**, печатное **Do not overcook the fish**",
+            "Таблички: **Do not enter**, **Keep off the grass**, **Push** / **Pull**, **No smoking**",
+            "Предупреждения: **Caution: wet floor**, **Beware of the dog**",
+            "Живому человеку мягче: **Sorry, you can't smoke here**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Пожелания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Have a nice day**, **Take care**, **Enjoy your meal**, **Help yourself**",
+            "Ответ — **Thanks, you too!**, а официанту на **Enjoy your meal** — просто **Thank you**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Письмо и работа"
+        },
+        {
+          "type": "paragraph",
+          "text": "Письмо читают, когда удобно, и строка читается как пункт задачи — поэтому команда с `please` здесь норма. Вслух та же фраза становится распоряжением, и там нужен вопрос."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Please send me the file by Friday**, **Please find attached the report**",
+            "**Please note that…**, **Let me know if…**",
+            "«Не стесняйтесь» — **Feel free to ask** или формальное **Don't hesitate to contact us**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**To add the salt** ✗, **Adding the salt** ✗ → **Add the salt** ✓",
+            "**No smoke** ✗ → **No smoking** ✓",
+            "**You also** ✗ → **Thanks, you too!** ✓",
+            "**Don't be shy to ask** ✗ → **Feel free to ask** ✓",
+            "**Kindly reply by Friday** ✗ → **Could you please reply by Friday?** ✓ — `Kindly` звучит раздражённо"
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Пришлите мне файл до пятницы, пожалуйста.",
@@ -3324,7 +4319,106 @@
           ]
         }
       ],
-      "theorySummary": "Решает один вопрос: кому нужно действие. Нужно слушателю — голая команда звучит любезно (**Have a seat**, **Help yourself**, **Take your time**); нужно вам — просьбу превращают в вопрос (**Can I have the bill, please?**, **Could you send me the file?**), потому что `please` распоряжение не спасает; нужно делу — команда норма (инструкции, таблички, письмо). Между своими голая команда тоже норма: **Pass me the salt** — близость, а не хамство, и наоборот, **Could you possibly…** жене звучит холодно. Громкость: **Wait a second** → **Do sit down** (радушно) → **Sit down** → **Stop it** → **Do not move** → **Don't you dare**. Формы: **Don't be afraid** ✓ (не **Don't afraid** ✗), **Don't be an idiot** ✓ с артиклем, но **Don't worry** ✓ без `be`; одно отрицание — **Never do that again** ✓ / **Don't ever do that** ✓; угроза только как **Don't you dare** ✓. Три let: **Let's go**, **Let me know**, **Let him decide** — объектная форма и голый глагол без to (**Let he go** ✗, **Let me to help** ✗, **Let wait** ✗), а «дай мне подумать» — **Let me think** ✓, не **Give me think** ✗. Команда-условие: **Take this pill and you'll feel better** (и будет) ↔ **Hurry up, or you'll miss the bus** (а то) = **If you don't hurry…**; **Move and I'll shoot** = **Don't move, or I'll shoot.** Жанры: шаг рецепта базовой формой (**Add the salt**, не **To add** ✗ / **Adding** ✗), табличка **No smoking** (не **No smoke** ✗), пожелание **Have a nice day** и ответ **Thanks, you too** (не **you also** ✗), в письме **Please send me the file** — норма, **Kindly** — нет. Границы: «не надо так говорить» — **Don't say that** ✓; пожелание — **I hope…**, не **Let you be happy** ✗; идущее сейчас останавливают через **Stop shouting**, а **Shut up** — это «заткнись».",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Решает один вопрос — **кому нужно действие**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Слушателю → голая команда звучит любезно: **Have a seat**, **Help yourself**",
+            "Вам самому → просьба-вопрос: **Can I have the bill, please?** — `please` команду не спасает",
+            "Делу → команда норма: рецепт, табличка, деловое письмо",
+            "Своим → голая команда тоже норма: **Pass me the salt** жене, а **Could you possibly…** дома звучит холодно"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Громкость"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Wait a second** → **Do sit down** *(радушно)* → **Sit down** → **Stop it** → **Do not move** → **Don't you dare**"
+        },
+        {
+          "type": "heading",
+          "text": "Три let"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's go** — мы вместе",
+            "**Let me know** — я сам",
+            "**Let him decide** — он"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После `let` — объектная форма и голый глагол без `to`, а объект не пропускаем: **Let wait** ✗ → **Let him wait** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Команда-условие"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Take this pill and you'll feel better** — сделай, и будет",
+            "**Hurry up, or you'll miss the bus** — сделай, а то; с `if` появляется «не»: **If you don't hurry, you'll miss the bus**",
+            "**Move and I'll shoot** = **Don't move, or I'll shoot**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ошибки в форме"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't afraid** ✗ → **Don't be afraid** ✓ — перед признаком нужен `be`",
+            "**Don't be worry** ✗ → **Don't worry** ✓ — `worry` сам глагол",
+            "**Don't be idiot** ✗ → **Don't be an idiot** ✓ — существительному нужен артикль",
+            "**Don't never do that** ✗ → **Never do that again** ✓ или **Don't ever do that** ✓ — одно отрицание",
+            "**You don't dare** ✗ → **Don't you dare** ✓ — угроза живёт только в таком порядке"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ошибки в let и жанрах"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let he go** ✗, **Let me to help** ✗ → **Let him go** ✓, **Let me help** ✓",
+            "**Give me think** ✗ → **Let me think** ✓ — «дай» здесь значит «позволь»",
+            "**Adding the salt** ✗ → **Add the salt** ✓ — шаг рецепта в базовой форме",
+            "**No smoke** ✗ → **No smoking** ✓",
+            "**Thanks, you also** ✗ → **Thanks, you too** ✓",
+            "**Kindly reply by Friday** ✗ → **Could you please reply by Friday?** ✓ — `Kindly` звучит раздражённо"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где команда не подходит"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Своё у чужого человека — вопросом: **Give me the menu, please** ✗ → **Can I have the menu, please?** ✓",
+            "«Не надо так говорить» — обычный запрет: **Don't need to say that** ✗ → **Don't say that** ✓",
+            "Пожелание через `let` не собирается: **Let you be happy** ✗ → **I hope everything works out** ✓",
+            "Уже кричит — **Stop shouting**; **Don't shout** — правило на будущее",
+            "**Shut up** — это «заткнись»; нейтрально — **Be quiet**"
+          ]
+        }
+      ],
       "examples": [],
       "clarificationOptions": [
         "Как за секунду решить, нужна команда или вопрос?",

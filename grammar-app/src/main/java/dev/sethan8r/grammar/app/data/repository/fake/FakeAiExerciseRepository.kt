@@ -24,7 +24,6 @@ class FakeAiExerciseRepository @Inject constructor() : AiExerciseRepository {
     override suspend fun generate(
         exerciseId: String,
         words: List<String>,
-        cardTheory: String?,
     ): ApiResult<GeneratedExercise> = ApiResult.Success(
         GeneratedExercise(
             taskText = "Переведите на английский: «Я каждый день пью кофе по утрам»."

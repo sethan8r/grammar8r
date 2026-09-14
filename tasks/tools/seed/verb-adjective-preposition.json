@@ -95,7 +95,12 @@
           ]
         }
       ],
-      "theorySummary": "В английском слова не склоняются, поэтому связь глагола с объектом держит **предлог**, а не падеж. Предлог в связке нельзя перевести с русского — он просто прицеплен к конкретному глаголу (**wait for**, **listen to**, **depend on**), поэтому связку учат целиком, одним куском. **somebody / something** (сокращённо **sb / sth**) — это заглушки «кто-то / что-то», на их место встаёт нужное слово.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "В английском слова не склоняются, поэтому связь глагола с объектом держит **предлог**, а не падеж. Предлог в связке нельзя перевести с русского — он просто прицеплен к конкретному глаголу (**wait for**, **listen to**, **depend on**), поэтому связку учат целиком, одним куском. **somebody / something** (сокращённо **sb / sth**) — это заглушки «кто-то / что-то», на их место встаёт нужное слово."
+        }
+      ],
       "examples": [
         {
           "ru": "Я жду друга у входа.",
@@ -232,7 +237,12 @@
           ]
         }
       ],
-      "theorySummary": "Часть английских глаголов требует предлог там, где русский идёт без него: **listen to** (слушать), **wait for** (ждать), **look for** (искать), **ask for** (просить), **pay for** (платить за). Ещё опаснее калька с русским предлогом: «зависеть **от**» → не **depend from** ✗, а **depend on** ✓; переживать/думать **о** → **worry about**, **think about**. Но **watch** и **see** идут **без** предлога (**watch TV**), в отличие от **look at**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Часть английских глаголов требует предлог там, где русский идёт без него: **listen to** (слушать), **wait for** (ждать), **look for** (искать), **ask for** (просить), **pay for** (платить за). Ещё опаснее калька с русским предлогом: «зависеть **от**» → не **depend from** ✗, а **depend on** ✓; переживать/думать **о** → **worry about**, **think about**. Но **watch** и **see** идут **без** предлога (**watch TV**), в отличие от **look at**."
+        }
+      ],
       "examples": [
         {
           "ru": "Дети слушают учителя.",
@@ -341,7 +351,19 @@
           ]
         }
       ],
-      "theorySummary": "Зеркальная ловушка: русский тянет вставить предлог там, где английский идёт без него. **help somebody** (не **help to** ✗), **answer something** (не **answer to** ✗), **call somebody** (не **call to** ✗), **discuss something** (не **discuss about** ✗), **enter somewhere** (не **enter into** ✗). Источник ошибки — русские «мне / на / о / в». Нюансы: **talk about** предлог всё же берёт (в отличие от **discuss**), а **enter into** годится только для абстрактного (**enter into an agreement**), не для комнаты.",
+      "theorySummary": [
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Зеркальная ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский тянет вставить предлог там, где английский идёт без него. **help somebody** (не **help to** ✗), **answer something** (не **answer to** ✗), **call somebody** (не **call to** ✗), **discuss something** (не **discuss about** ✗), **enter somewhere** (не **enter into** ✗). Источник ошибки — русские «мне / на / о / в». Нюансы: **talk about** предлог всё же берёт (в отличие от **discuss**), а **enter into** годится только для абстрактного (**enter into an agreement**), не для комнаты."
+            }
+          ]
+        }
+      ],
       "examples": [
         {
           "ru": "Позвони мне после обеда.",
@@ -489,7 +511,12 @@
           "text": "Так что прежде чем ставить предлог, глянь, что дальше: **вещь → предлог, целое предложение → ничего.**"
         }
       ],
-      "theorySummary": "Прилагательное, как и глагол, держит при себе фиксированный предлог и учится парой: **afraid of**, **proud of**, **tired of**, **good at**, **bad at**, **interested in**, **married to**, **ready for**. Стоит после `to be`. Предлог ставится перед **предметом** (**afraid of the dark**); если дальше идёт целая мысль (подлежащее + глагол), предлога нет вовсе (**afraid the dog will bite**). Кальки-ловушки: не **good in** ✗, а **good at**; не **married with/on** ✗, а **married to**; не **afraid from** ✗, а **afraid of**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Прилагательное, как и глагол, держит при себе фиксированный предлог и учится парой: **afraid of**, **proud of**, **tired of**, **good at**, **bad at**, **interested in**, **married to**, **ready for**. Стоит после `to be`. Предлог ставится перед **предметом** (**afraid of the dark**); если дальше идёт целая мысль (подлежащее + глагол), предлога нет вовсе (**afraid the dog will bite**). Кальки-ловушки: не **good in** ✗, а **good at**; не **married with/on** ✗, а **married to**; не **afraid from** ✗, а **afraid of**."
+        }
+      ],
       "examples": [
         {
           "ru": "Игорь боится высоты.",
@@ -608,7 +635,12 @@
           ]
         }
       ],
-      "theorySummary": "У ряда прилагательных предлог зависит от того, что дальше — человек или ситуация: **angry with** (на человека) vs **angry about** (из-за ситуации); **sorry for** (жалко кого-то) vs **sorry about** (сожалеть о чём-то). Плюс ходовые: **pleased with**, **worried about**, **excited about**, **famous for**. Перед предметом предлог есть, перед целой мыслью (подлежащее + глагол) — нет: **worried the exam is hard**. Кальки: не **angry on** ✗, не **famous with** ✗, не **worried for** ✗.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У ряда прилагательных предлог зависит от того, что дальше — человек или ситуация: **angry with** (на человека) vs **angry about** (из-за ситуации); **sorry for** (жалко кого-то) vs **sorry about** (сожалеть о чём-то). Плюс ходовые: **pleased with**, **worried about**, **excited about**, **famous for**. Перед предметом предлог есть, перед целой мыслью (подлежащее + глагол) — нет: **worried the exam is hard**. Кальки: не **angry on** ✗, не **famous with** ✗, не **worried for** ✗."
+        }
+      ],
       "examples": [
         {
           "ru": "Я злюсь на соседа.",

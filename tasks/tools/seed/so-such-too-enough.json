@@ -164,7 +164,12 @@
           "text": "Слов в теме всего четыре, и ни одно из них не нужно спрягать. При этом ошибок из-за них русскоязычный делает больше, чем из-за целого времени, — просто потому, что привычка ставить усилитель впереди сидит очень глубоко."
         }
       ],
-      "theorySummary": "Русский ставит усилитель перед словом всегда: «так холодно», «такой день», «слишком дорого», «достаточно тепло». Английский каждый раз смотрит, что стоит справа. Голое прилагательное или наречие — `so`, `too`, `… enough` (**so cold**, **too expensive**, **warm enough**). Существительное — `such`, `too much/many`, `enough` перед ним (**such a cold day**, **too much traffic**, **enough time**). Вторая развилка — по смыслу: `so` и `such` просто восхищаются («ого, как!»), а `too` и `enough` меряют под задачу, поэтому у них есть продолжение с `to` и глаголом.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русский ставит усилитель перед словом всегда: «так холодно», «такой день», «слишком дорого», «достаточно тепло». Английский каждый раз смотрит, что стоит справа. Голое прилагательное или наречие — `so`, `too`, `… enough` (**so cold**, **too expensive**, **warm enough**). Существительное — `such`, `too much/many`, `enough` перед ним (**such a cold day**, **too much traffic**, **enough time**). Вторая развилка — по смыслу: `so` и `such` просто восхищаются («ого, как!»), а `too` и `enough` меряют под задачу, поэтому у них есть продолжение с `to` и глаголом."
+        }
+      ],
       "examples": [
         {
           "ru": "Вчера было так холодно.",
@@ -288,7 +293,12 @@
           "text": "`so` мы уже встречали в «Linking Words» в значении «поэтому» — там после него шла целая часть с подлежащим и своим глаголом. Заново разводить эти два значения не нужно: работает та же проверка, что и здесь. Справа целая часть — это «поэтому», справа признак — это «настолько», справа `much` или `many` — это количество."
         }
       ],
-      "theorySummary": "`so` усиливает голый признак — прилагательное или наречие: **I'm so tired**, **The bus was so late**, **Sonya speaks so quickly**. Русское «такой» само по себе ещё не повод брать `such`: если справа от усилителя нет существительного, нужен `so` (**The tea is so cold**). К существительному `so` подходит только через количество — `so much` с неисчисляемым (**so much noise**) и `so many` со счётным (**so many people**). Ошибки: **so people** ✗ и **so many money** ✗, потому что деньги в английском неисчисляемые.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`so` усиливает голый признак — прилагательное или наречие: **I'm so tired**, **The bus was so late**, **Sonya speaks so quickly**. Русское «такой» само по себе ещё не повод брать `such`: если справа от усилителя нет существительного, нужен `so` (**The tea is so cold**). К существительному `so` подходит только через количество — `so much` с неисчисляемым (**so much noise**) и `so many` со счётным (**so many people**). Ошибки: **so people** ✗ и **so many money** ✗, потому что деньги в английском неисчисляемые."
+        }
+      ],
       "examples": [
         {
           "ru": "Я так устал.",
@@ -435,7 +445,12 @@
           ]
         }
       ],
-      "theorySummary": "`such` ставится там, где справа от усилителя стоит существительное: **such a long day**, **such nice neighbours**, **such good weather**. Со счётным словом в единственном числе артикль обязателен и стоит ПОСЛЕ такого — `such a` или `such an` (**such an expensive car**), а во множественном числе и с неисчисляемым артикля нет. Главная ошибка — **a so strange question** ✗ и **such strange question** ✗ вместо **such a strange question** ✓. Одну и ту же мысль можно упаковать обоими способами: **The film was so long** = **It was such a long film**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`such` ставится там, где справа от усилителя стоит существительное: **such a long day**, **such nice neighbours**, **such good weather**. Со счётным словом в единственном числе артикль обязателен и стоит ПОСЛЕ такого — `such a` или `such an` (**such an expensive car**), а во множественном числе и с неисчисляемым артикля нет. Главная ошибка — **a so strange question** ✗ и **such strange question** ✗ вместо **such a strange question** ✓. Одну и ту же мысль можно упаковать обоими способами: **The film was so long** = **It was such a long film**."
+        }
+      ],
       "examples": [
         {
           "ru": "Это был такой длинный день.",
@@ -557,7 +572,12 @@
           ]
         }
       ],
-      "theorySummary": "`so … that` говорит разом две вещи: насколько и что из этого вышло. Сборка — `so` + прилагательное или наречие + `that` + целая часть: **I was so tired that I went to bed at nine**. От знакомого `so` = «поэтому» отличается местом: там `so` стоял МЕЖДУ частями (**It was cold, so I stayed home**), здесь он сидит внутри первой части, а стык держит `that`. Запятой перед `that` нет. В разговоре `that` часто выбрасывают (**I was so tired I fell asleep**) — это норма, но писать надёжнее с ним. Не путать с `so that` — это цель, «зачем», и между словами там ничего не стоит.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`so … that` говорит разом две вещи: насколько и что из этого вышло. Сборка — `so` + прилагательное или наречие + `that` + целая часть: **I was so tired that I went to bed at nine**. От знакомого `so` = «поэтому» отличается местом: там `so` стоял МЕЖДУ частями (**It was cold, so I stayed home**), здесь он сидит внутри первой части, а стык держит `that`. Запятой перед `that` нет. В разговоре `that` часто выбрасывают (**I was so tired I fell asleep**) — это норма, но писать надёжнее с ним. Не путать с `so that` — это цель, «зачем», и между словами там ничего не стоит."
+        }
+      ],
       "examples": [
         {
           "ru": "Я так устал, что лёг спать в девять.",
@@ -690,7 +710,12 @@
           ]
         }
       ],
-      "theorySummary": "Хвост `… that` + целая часть одинаков у всех четырёх вариантов, а голова выбирается по знакомой оси. Рядом признак — `so` (**so cold that we went inside**). Рядом счётная вещь в единственном числе — `such a` (**such a long day that I fell asleep**). Рядом множественное число или неисчисляемое — `such` (**such good weather that we walked home**). Рядом количество — `so much` или `so many` (**so many mistakes that I started again**). Ошибиться можно только на первом шаге, при выборе головы: **so a long day** ✗ и **such noise** ✗ вместо **such a long day** ✓ и **so much noise** ✓.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Хвост `… that` + целая часть одинаков у всех четырёх вариантов, а голова выбирается по знакомой оси. Рядом признак — `so` (**so cold that we went inside**). Рядом счётная вещь в единственном числе — `such a` (**such a long day that I fell asleep**). Рядом множественное число или неисчисляемое — `such` (**such good weather that we walked home**). Рядом количество — `so much` или `so many` (**so many mistakes that I started again**). Ошибиться можно только на первом шаге, при выборе головы: **so a long day** ✗ и **such noise** ✗ вместо **such a long day** ✓ и **so much noise** ✓."
+        }
+      ],
       "examples": [
         {
           "ru": "Это был такой длинный день, что я уснул в восемь.",
@@ -795,7 +820,12 @@
           "text": "`too` в конце фразы означает «тоже» — это мы разбирали в «Основах», а разводить два значения по позиции учились в «Linking Words». Правило там же и осталось: если справа от `too` ничего нет и фраза кончилась — это «тоже»; если сразу за ним стоит признак — это «слишком»."
         }
       ],
-      "theorySummary": "`very`, `so` и `too` — три разные вещи, а не три силы одного слова. `very` говорит «сильно» нейтрально (**It's very cold**), `so` — то же самое с эмоцией (**It's so cold!**), а `too` сообщает о переборе: порог перейдён, и из-за этого что-то не получается (**It's too cold** — гулять не пойдём). У `too` всегда есть пострадавшее дело, даже если его не назвали вслух. Отсюда главная ошибка: **You're too beautiful** ✗ вместо комплимента — по-английски это звучит претензией, нужно **You're so beautiful** ✓.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`very`, `so` и `too` — три разные вещи, а не три силы одного слова. `very` говорит «сильно» нейтрально (**It's very cold**), `so` — то же самое с эмоцией (**It's so cold!**), а `too` сообщает о переборе: порог перейдён, и из-за этого что-то не получается (**It's too cold** — гулять не пойдём). У `too` всегда есть пострадавшее дело, даже если его не назвали вслух. Отсюда главная ошибка: **You're too beautiful** ✗ вместо комплимента — по-английски это звучит претензией, нужно **You're so beautiful** ✓."
+        }
+      ],
       "examples": [
         {
           "ru": "Сегодня очень холодно.",
@@ -894,7 +924,12 @@
           ]
         }
       ],
-      "theorySummary": "Конструкция строится так: `too` + прилагательное или наречие + `to` + глагол в первой форме — **It's too cold to swim**, **I'm too tired to argue**. Отрицания в ней нет, а смысл отрицательный: **She is too young to drive** значит «водить не может», потому что `too` уже сообщил о переборе, и второе предупреждение языку не нужно. Ошибки: **too young for drive** ✗ (русское «для» тянет `for`, а нужен `to`) и **too tired that I can't work** ✗ (калька с `so … that`). Фраза **not too tired to go** существует, но значит обратное — человек пойдёт.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Конструкция строится так: `too` + прилагательное или наречие + `to` + глагол в первой форме — **It's too cold to swim**, **I'm too tired to argue**. Отрицания в ней нет, а смысл отрицательный: **She is too young to drive** значит «водить не может», потому что `too` уже сообщил о переборе, и второе предупреждение языку не нужно. Ошибки: **too young for drive** ✗ (русское «для» тянет `for`, а нужен `to`) и **too tired that I can't work** ✗ (калька с `so … that`). Фраза **not too tired to go** существует, но значит обратное — человек пойдёт."
+        }
+      ],
       "examples": [
         {
           "ru": "Слишком холодно, чтобы купаться.",
@@ -1023,7 +1058,12 @@
           ]
         }
       ],
-      "theorySummary": "Перебор количества — это `too much` с неисчисляемым (**too much work**, **too much salt**) и `too many` со счётным (**too many people**). Счётность решает так же, как в `so much` и `so many`: **too much people** ✗ → **too many people** ✓. Отличие от `so much` — в смысле: `so much noise` значит «ого сколько», `too much noise` — «столько, что уже плохо». Адресата вводит `for`: **too heavy for me** (не **to me** ✗), а полная сборка выглядит так — **It's too heavy for me to carry**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Перебор количества — это `too much` с неисчисляемым (**too much work**, **too much salt**) и `too many` со счётным (**too many people**). Счётность решает так же, как в `so much` и `so many`: **too much people** ✗ → **too many people** ✓. Отличие от `so much` — в смысле: `so much noise` значит «ого сколько», `too much noise` — «столько, что уже плохо». Адресата вводит `for`: **too heavy for me** (не **to me** ✗), а полная сборка выглядит так — **It's too heavy for me to carry**."
+        }
+      ],
       "examples": [
         {
           "ru": "На этой неделе у меня слишком много работы.",
@@ -1162,7 +1202,12 @@
           ]
         }
       ],
-      "theorySummary": "Русское «достаточно» всегда стоит впереди, английское `enough` — по-разному, и решает сосед справа. Справа прилагательное или наречие — `enough` идёт ПОСЛЕ него (**warm enough**, **old enough**, **well enough**); справа существительное — ПЕРЕД ним, на месте числительного (**enough time**, **enough chairs** — как **three chairs**). Отсюда главная ошибка: **enough warm** ✗ → **warm enough** ✓. Ещё это слово работает и одно: **That's enough!**, **I've had enough**.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «достаточно» всегда стоит впереди, английское `enough` — по-разному, и решает сосед справа. Справа прилагательное или наречие — `enough` идёт ПОСЛЕ него (**warm enough**, **old enough**, **well enough**); справа существительное — ПЕРЕД ним, на месте числительного (**enough time**, **enough chairs** — как **three chairs**). Отсюда главная ошибка: **enough warm** ✗ → **warm enough** ✓. Ещё это слово работает и одно: **That's enough!**, **I've had enough**."
+        }
+      ],
       "examples": [
         {
           "ru": "Он уже достаточно взрослый.",
@@ -1305,7 +1350,12 @@
           "text": "Адресата, как и у `too`, вводит `for`: **This is good enough for me.** **The soup is hot enough for the kids.** А если названы и адресат, и дело, обе половины встают подряд — сначала `for` с человеком, потом `to` с глаголом: **He doesn't speak slowly enough for me to understand.**"
         }
       ],
-      "theorySummary": "Конструкция собирается так: признак + `enough` + `to` + глагол в первой форме (**She's old enough to drive**) или `enough` + существительное + `to` + глагол (**I don't have enough money to buy it**). Хвост тот же, что у `too`, но само слово стоит с другой стороны: **too fast to understand** ↔ **fast enough to understand** — и смысл получается противоположный. Отрицание здесь ставим сами, потому что внутри `enough` негатива нет: **not good enough**, **not enough time**. Ошибки: **enough good** ✗, **not enough big** ✗ → **not big enough** ✓, **old enough for drive** ✗ → **to drive** ✓.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Конструкция собирается так: признак + `enough` + `to` + глагол в первой форме (**She's old enough to drive**) или `enough` + существительное + `to` + глагол (**I don't have enough money to buy it**). Хвост тот же, что у `too`, но само слово стоит с другой стороны: **too fast to understand** ↔ **fast enough to understand** — и смысл получается противоположный. Отрицание здесь ставим сами, потому что внутри `enough` негатива нет: **not good enough**, **not enough time**. Ошибки: **enough good** ✗, **not enough big** ✗ → **not big enough** ✓, **old enough for drive** ✗ → **to drive** ✓."
+        }
+      ],
       "examples": [
         {
           "ru": "Она достаточно взрослая, чтобы водить машину.",
@@ -1452,7 +1502,12 @@
           "text": "Всю таблицу заменяют два вопроса. Что стоит справа — признак или вещь? И зачем я это говорю — поделиться впечатлением или отмерить под задачу?"
         }
       ],
-      "theorySummary": "Одна и та же мысль упаковывается тремя способами: **It's too hot to sleep** ↔ **It's not cool enough to sleep** ↔ **It's so hot that I can't sleep**. Между `too` и `enough` переход механический — противоположный признак плюс `not`: **too small** ↔ **not big enough**, **too heavy** ↔ **not light enough**. `so … that` вместо короткого хвоста разворачивает последствие в целую часть с подлежащим. Смешивать упаковки нельзя: **too hot that I can't sleep** ✗. Практическая польза — забыли слово, скажите через противоположное.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Одна и та же мысль упаковывается тремя способами: **It's too hot to sleep** ↔ **It's not cool enough to sleep** ↔ **It's so hot that I can't sleep**. Между `too` и `enough` переход механический — противоположный признак плюс `not`: **too small** ↔ **not big enough**, **too heavy** ↔ **not light enough**. `so … that` вместо короткого хвоста разворачивает последствие в целую часть с подлежащим. Смешивать упаковки нельзя: **too hot that I can't sleep** ✗. Практическая польза — забыли слово, скажите через противоположное."
+        }
+      ],
       "examples": [
         {
           "ru": "Слишком жарко, чтобы спать.",
@@ -1559,7 +1614,12 @@
           ]
         }
       ],
-      "theorySummary": "Компас темы: сначала смотрим, что справа — голый признак (`so`, `too`, признак + `enough`) или вещь (`such (a)`, `so much / so many`, `too much / too many`, `enough` + вещь); потом решаем, впечатление это или мерка под задачу (`so` и `such` против `too` и `enough`). Хвост идёт за парой: `that` плюс целая часть у `so` и `such`, `to` плюс глагол у `too` и `enough`. В заданиях тренируется только этот выбор. `so that` в значении цели, **So do I**, `plenty of` и `hardly` сюда не входят — они из других тем.",
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Компас темы: сначала смотрим, что справа — голый признак (`so`, `too`, признак + `enough`) или вещь (`such (a)`, `so much / so many`, `too much / too many`, `enough` + вещь); потом решаем, впечатление это или мерка под задачу (`so` и `such` против `too` и `enough`). Хвост идёт за парой: `that` плюс целая часть у `so` и `such`, `to` плюс глагол у `too` и `enough`. В заданиях тренируется только этот выбор. `so that` в значении цели, **So do I**, `plenty of` и `hardly` сюда не входят — они из других тем."
+        }
+      ],
       "examples": [],
       "clarificationOptions": [
         "Что делать, если я не понимаю, почему ИИ засчитал ошибку?",

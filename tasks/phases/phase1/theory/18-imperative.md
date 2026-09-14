@@ -81,7 +81,14 @@
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Императив — форма для команд, запретов, инструкций и просьб: глагол в базовой форме, подлежащего нет (**Open the door**), запрет — `Don't` перед той же формой (**Don't run**). Всё это собрано ещё в «Основах», и в этой теме форма почти не меняется. Новое здесь другое: одна и та же команда бывает и приказом, и заботой, и решает это не форма и даже не слово `please`.
+Императив — команда, запрет, инструкция или просьба: глагол в базовой форме без подлежащего.
+
+- **Open the door** — команда
+- **Don't run** — запрет: `Don't` перед той же формой
+
+**Что нового в теме**
+
+Форма почти не меняется, всё это собрано ещё в «Основах». Новое в другом: одна и та же команда бывает и приказом, и заботой — и решает это не форма и даже не `please`.
 
 #### Examples
 
@@ -187,7 +194,15 @@
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-В русском вежливость встроена в глагол: «сядь» ↔ «сядьте» различает «ты» и «вы», «сядь» ↔ «садитесь» — указание и приглашение. В английском нет ни того, ни другого: **Sit down** одно на все четыре случая, и приклеить вежливость к форме некуда. Грубости в самой форме при этом нет — она нейтральна. Вежливость просто живёт в другом месте: в выборе конструкции, а `please` эту разницу не заменяет.
+В английском вежливость не встроена в глагол — она живёт в выборе конструкции.
+
+**Чем русский отличается**
+
+- «Сядь» ↔ «сядьте» — различает «ты» и «вы»
+- «Сядь» ↔ «садитесь» — различает указание и приглашение
+- **Sit down** — одно на все четыре случая
+
+Грубости в самой форме нет, она нейтральна. А `please` разницу конструкций не заменяет.
 
 #### Examples
 
@@ -301,7 +316,15 @@ RU: Мама зовёт сына к столу.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Одна и та же команда звучит любезно или грубо в зависимости от того, кому нужно действие. Нужно слушателю — голый императив звучит как подарок: **Have a seat**, **Take your time**. Нужно тебе — тот же императив звучит распоряжением: **Give me the menu**, и `please` спасает его лишь наполовину. Нужно делу — команда нейтральна: **Turn left**. Главная ошибка русского в кафе: «дайте, пожалуйста» переводится дословно, хотя в русском «дайте» уже содержит уважительное «вы», а в `give me` его нет.
+Одна и та же команда звучит любезно или грубо — смотря **кому нужно действие**.
+
+- Слушателю → голый императив звучит как подарок: **Have a seat**, **Take your time**
+- Вам → звучит распоряжением: **Give me the menu**, и `please` спасает его лишь наполовину
+- Делу → команда нейтральна: **Turn left**
+
+**Главная ошибка в кафе**
+
+«Дайте, пожалуйста» переводят дословно. Но в русском «дайте» уже несёт уважительное «вы», а в **give me** его нет.
 
 #### Examples
 
@@ -413,7 +436,31 @@ RU: Вы поужинали и обращаетесь к официанту.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Решает вопрос «кому нужно действие»: нужно слушателю — голый императив звучит любезно (**Have a seat**), нужно тебе — он звучит распоряжением. Поэтому своё просят вопросом: **Can I have + вещь** (**Can I have the bill, please?**), **Could you + V1** (**Could you send me the report?**), **Could I + V1** для разрешения (**Could I use your charger?**). Вопрос вежлив не длиной, а тем, что оставляет право отказаться. `please` переезжает внутрь вопроса. Отрицательная просьба — **Please don't touch it**, а **Could you not do that?** звучит уже раздражённо. Отвечают на просьбу коротко: **Sure**, **Of course**, **Will do**, **I'm on it**, а отказывают мягко — **Sorry, I can't right now**. Ловушка русского: дословное **Give me…** и калька **Can you give me…?** — в кафе естественнее **Can I have…?**
+Своё просят вопросом: он вежлив не длиной, а тем, что оставляет право отказаться.
+
+**Кому нужно действие**
+
+- Слушателю → голый императив любезен: **Have a seat**
+- Вам → голый императив звучит распоряжением, поэтому нужен вопрос
+
+**Три формулы просьбы**
+
+- **Can I have** + вещь: **Can I have the bill, please?**
+- **Could you** + V1 — действие: **Could you send me the report?**
+- **Could I** + V1 — разрешение: **Could I use your charger?**
+
+`please` переезжает внутрь вопроса.
+
+**Отказ, согласие и «не надо»**
+
+- Отрицательная просьба: **Please don't touch it** ✓, а **Could you not do that?** звучит уже раздражённо
+- Согласие: **Sure**, **Of course**, **Will do**, **I'm on it**
+- Мягкий отказ: **Sorry, I can't right now**
+
+**Частые ошибки**
+
+- **Give me the bill, please** ✗ → **Can I have the bill, please?** ✓ — дословная калька
+- **Can you give me the menu?** — понятно, но в кафе естественнее **Can I have the menu?**
 
 #### Examples
 
@@ -533,7 +580,16 @@ B: ___
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Вопрос вместо команды нужен дистанции, а не всем подряд. Со своими — семьёй, друзьями — короткий императив нормален: **Pass me the salt**, **Text me when you land**. Выбор фразы определяют три вещи: близость, размер одолжения и тон. Слишком длинная вежливость с близким человеком (**Could you possibly pass me the salt?**) звучит холодно, потому что сообщает дистанцию. Прилагательное `close` читается [[kləʊs]], в отличие от глагола `to close` [[kləʊz]].
+Вопрос вместо команды нужен дистанции, а не всем подряд: со своими короткий императив — норма.
+
+- Семье и друзьям: **Pass me the salt**, **Text me when you land**
+- **Could you possibly pass me the salt?** близкому звучит холодно — сообщает дистанцию
+
+**Что решает выбор фразы**
+
+Три вещи: близость, размер одолжения и тон.
+
+**Кстати:** прилагательное `close` («близкий») читается [[kləʊs]], а глагол `to close` — [[kləʊz]].
 
 #### Examples
 
@@ -622,7 +678,17 @@ B: ___
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Когда командовать уместно, команду смягчают: `just` снимает вес (**Just leave it on the table**), `Try to…` превращает приказ в пожелание, `Don't forget to…` и `Remember to…` делают из распоряжения напоминание, `Make sure you…` ставит задачу мягко, а заход **Sorry to bother you** признаёт, что вы отвлекаете. Хвостик **…, will you?** — пока на узнавание. Смягчитель не отменяет оси темы: если действие нужно вам, нужен вопрос, а не смягчённая команда.
+Когда командовать уместно, команду смягчают. Но если действие нужно вам — нужен вопрос, а не смягчённая команда.
+
+**Смягчители**
+
+- **just** снимает вес: **Just leave it on the table**
+- **Try to…** превращает приказ в пожелание
+- **Don't forget to…**, **Remember to…** делают из распоряжения напоминание
+- **Make sure you…** мягко ставит задачу
+- **Sorry to bother you** признаёт, что вы отвлекаете
+
+Хвостик **…, will you?** — пока только на узнавание.
 
 #### Examples
 
@@ -759,7 +825,24 @@ B: ___
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Русские «бояться», «нервничать», «стесняться» — глаголы, а английские `afraid`, `nervous`, `shy` — прилагательные, и в команде им нужна связка: **Don't be afraid** ✓, а не **Don't afraid** ✗. Проверка одна: можно ли сказать `I am` + это слово? Да — ставим `be`; нет — слово глагол, и связка лишняя: **Don't worry** ✓, **Don't hurry** ✓, **Don't panic** ✓. После `be` может стоять и существительное, тогда ему нужен артикль: **Don't be an idiot** ✓. Рядом работает `get`: **Don't be angry** — не сердись, **Don't get angry** — не заводись.
+«Бояться», «нервничать», «стесняться» в английском — прилагательные, и в команде им нужна связка `be`.
+
+**Проверка**
+
+Можно сказать `I am` + это слово? Да — ставим `be`. Нет — слово глагол, и связка лишняя.
+
+- **Don't be afraid** ✓, **Don't be nervous** ✓, **Don't be shy** ✓
+- **Don't worry** ✓, **Don't hurry** ✓, **Don't panic** ✓ — это глаголы
+
+**Частые ошибки**
+
+- **Don't afraid** ✗ → **Don't be afraid** ✓
+- **Don't be idiot** ✗ → **Don't be an idiot** ✓ — существительному после `be` нужен артикль
+
+**Рядом работает get**
+
+- **Don't be angry** — не сердись
+- **Don't get angry** — не заводись
 
 #### Examples
 
@@ -858,7 +941,16 @@ B: ___
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-В английском предложении отрицание одно, поэтому русское двойное «никогда не» разваливает фразу: **Don't never do that** ✗. Правильных вариантов два — **Never do that again** ✓ (отрицание держит never) или **Don't ever do that again** ✓ (отрицание держит don't, а ever значит «когда-либо» и только усиливает). Never и always встают в начало команды, перед глаголом: **Always lock the door.** По силе never строже: don't запрещает сейчас, never — навсегда.
+В английском предложении отрицание одно, поэтому русское «никогда не» разваливает фразу.
+
+- **Don't never do that** ✗
+- **Never do that again** ✓ — отрицание держит `never`
+- **Don't ever do that again** ✓ — отрицание держит `don't`, а `ever` («когда-либо») только усиливает
+
+**Never и always**
+
+- Встают в начало команды, перед глаголом: **Always lock the door**
+- `never` строже: `don't` запрещает сейчас, `never` — навсегда
 
 #### Examples
 
@@ -976,7 +1068,21 @@ RU: Всегда проверяй сдачу.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Усилительный `do` перед базовой формой подчёркивает команду: **Do sit down**, **Do come in**, **Do have another slice** — это радушная настойчивость хозяина, русское «да садитесь же», а не вопрос и не злость. Оттенок чуть старомодно-вежливый, чаще британский; короткое **Please do** — разрешение «конечно, берите». Тот же `do` работает и вниз: полная форма **Do not touch that** в живой речи звучит жёстче, чем **Don't touch that**. Значит, `do` не греет и не морозит сам по себе — он подчёркивает, а направление задаёт сама команда. Самый мягкий приём противоположный: уменьшить просьбу — **Wait a second**, **Hold on a sec**.
+Усилительный `do` подчёркивает команду, а направление — тепло или нажим — задаёт сама команда.
+
+**Теплее**
+
+- **Do sit down**, **Do come in**, **Do have another slice** — радушная настойчивость хозяина, «да садитесь же»
+- Оттенок чуть старомодно-вежливый, чаще британский
+- **Please do** — разрешение: «конечно, берите»
+
+**Жёстче**
+
+Полная форма **Do not touch that** в живой речи давит сильнее, чем **Don't touch that**.
+
+**Самый мягкий приём**
+
+Уменьшить просьбу: **Wait a second**, **Hold on a sec**.
 
 #### Examples
 
@@ -1095,7 +1201,24 @@ RU: Всегда проверяй сдачу.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Русское «не шуми» покрывает два случая, а английский их разводит: **Stop making noise** — прекрати то, что идёт прямо сейчас, **Don't make noise** — не делай этого вообще. Когда и так ясно, о чём речь, говорят просто **Stop it.** По резкости фразы выстраиваются в шкалу: **Please stop** → **Stop it** → **That's enough** → **Cut it out** → **Knock it off** → **Shut up**, и последняя означает «заткнись», а не «помолчи» — вместо неё берут **Be quiet**, **Keep it down** или вопрос **Could you keep it down?** Предел громкости — одно слово без глагола: **Quiet!**, **Careful!**, **Enough!** В обратную сторону работают **Relax**, **Take it easy**, **Stay calm**.
+Русское «не шуми» английский делит на два случая: прекратить то, что идёт, или не делать вообще.
+
+- **Stop making noise** — прекрати то, что идёт прямо сейчас
+- **Don't make noise** — не делай этого вообще
+- **Stop it** — когда и так ясно, о чём речь
+
+**Шкала резкости**
+
+**Please stop** → **Stop it** → **That's enough** → **Cut it out** → **Knock it off** → **Shut up**
+
+**Вместо Shut up**
+
+**Shut up** — это «заткнись», а не «помолчи». Нейтрально: **Be quiet**, **Keep it down** или вопрос **Could you keep it down?**
+
+**Одно слово и обратная сторона**
+
+- Предел громкости — без глагола: **Quiet!**, **Careful!**, **Enough!**
+- Успокоить: **Relax**, **Take it easy**, **Stay calm**
 
 #### Examples
 
@@ -1214,7 +1337,35 @@ B: ___
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Микротема о громкости команды. Русским «бояться» и «нервничать» в английском соответствуют прилагательные, поэтому нужна связка: **Don't be afraid** ✓, **Don't afraid** ✗; проверка — можно ли сказать `I am` + это слово. Где английское слово глагол, связка лишняя: **Don't worry** ✓. После `be` существительному нужен артикль: **Don't be an idiot.** Отрицание в предложении одно: **Never do that again** ✓ или **Don't ever do that again** ✓, но не оба сразу. Усилительный `do` подчёркивает команду в обе стороны: **Do sit down** греет, **Do not touch that** давит. Идущее действие останавливают через **Stop it** и **Stop shouting**, а `don't` устанавливает правило на будущее; **Shut up** значит «заткнись» и почти всегда грубо. Подлежащее возвращают ради нажима и распределения ролей: **You stay here**, **Nobody move**, **Somebody call an ambulance.** Угроза строится только в порядке **Don't you dare tell her** — вариант **You don't dare** ✗ сообщает факт, а после `dare` не бывает `to`.
+Громкость команды: связка `be`, одно отрицание, усилительный `do`, стоп-фразы и возвращённое подлежащее.
+
+**Связка be**
+
+- «Бояться», «нервничать» — прилагательные: **Don't be afraid** ✓; проверка — можно ли сказать `I am` + слово
+- Глагол — без связки: **Don't worry** ✓
+- Существительному после `be` нужен артикль: **Don't be an idiot** ✓
+
+**Одно отрицание**
+
+**Never do that again** ✓ или **Don't ever do that again** ✓ — но не оба сразу.
+
+**Усилительный do и стоп-фразы**
+
+- **Do sit down** греет, **Do not touch that** давит
+- Идущее останавливают через **Stop it**, **Stop shouting**, а `don't` — правило на будущее
+- **Shut up** — «заткнись», почти всегда грубо
+
+**Подлежащее ради нажима**
+
+- Роли: **You stay here**, **Nobody move**, **Somebody call an ambulance**
+- Угроза — только в порядке **Don't you dare tell her**
+
+**Частые ошибки**
+
+- **Don't afraid** ✗ → **Don't be afraid** ✓
+- **Don't never do that** ✗ → **Never do that again** ✓
+- **You don't dare tell her** ✗ → **Don't you dare tell her** ✓ — первое сообщает факт
+- **Don't you dare to tell her** ✗ → **Don't you dare tell her** ✓ — после `dare` нет `to`
 
 #### Examples
 
@@ -1380,7 +1531,27 @@ RU: Не смей трогать мой телефон.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-`let` значит «позволить, не мешать», и меняется в нём только тот, кто действует: **Let's go** — мы вместе, **Let me have a look** — я сам, **Let him decide** — он. Русские подсказки: «давай», «дай-ка я», «пусть». Собирается как `Let + кого + V1 без to`, поэтому **Let he go** ✗ и **Let me to help** ✗ — нужны **Let him go** ✓ и **Let me help** ✓, а объект пропускать нельзя: **Let wait** ✗ → **Let him wait** ✓. Русское «дай» в значении «позволь» — это let, а не give: **Let me think** ✓. Отрицаний три: **Let's not argue**, **Don't let me forget**, **Don't let anyone touch it.**
+`let` — «позволить, не мешать»; меняется только тот, кто действует.
+
+- **Let's go** — мы вместе, «давай»
+- **Let me have a look** — я сам, «дай-ка я»
+- **Let him decide** — он, «пусть»
+
+**Сборка**
+
+`Let + кого + V1 без to`. Русское «дай» в значении «позволь» — это `let`, а не `give`: **Let me think** ✓.
+
+**Частые ошибки**
+
+- **Let he go** ✗ → **Let him go** ✓ — объектная форма
+- **Let me to help** ✗ → **Let me help** ✓ — без `to`
+- **Let wait** ✗ → **Let him wait** ✓ — объект не пропускаем
+
+**Три отрицания**
+
+- **Let's not argue** — давай не будем
+- **Don't let me forget** — не дай мне забыть
+- **Don't let anyone touch it** — не давай никому
 
 #### Examples
 
@@ -1495,7 +1666,21 @@ RU: Не давай ему сегодня вести машину.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-`let's` = `let us` — расшифровка верная, но подставлять полную форму обратно нельзя. Живое `let us` бывает торжественным (**Let us pray**) или буквальным «отпустите нас» (**Let us go, the door is locked**), а в письмах компаний значит «сообщите нам»: **Please let us know.** Обратной сборки нет: **Let's know** ✗, «давай узнаем» — это **Let's find out** ✓. И ещё: `let's` не всегда про двоих — **Let's take a look** врач говорит про себя одного, это просто вежливость.
+`let's` = `let us`, но подставлять полную форму обратно нельзя — у живого `let us` другой смысл.
+
+**Где живёт полное let us**
+
+- Торжественно: **Let us pray**
+- Буквально «отпустите нас»: **Let us go, the door is locked**
+- В письмах компаний «сообщите нам»: **Please let us know**
+
+**Обратной сборки нет**
+
+**Let's know** ✗ → «давай узнаем» — это **Let's find out** ✓.
+
+**Не всегда про двоих**
+
+**Let's take a look** врач говорит про себя одного — это просто вежливость.
 
 #### Examples
 
@@ -1617,7 +1802,29 @@ RU: Не давай ему сегодня вести машину.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-`let` меняет только того, кто действует: **Let's go** — мы, **Let me help** — я, **Let him decide** — он; после let идёт объектная форма и голый глагол без to (**Let him wait** ✓, **Let he wait** ✗, **Let me to help** ✗). Главная фраза микротемы — **Let me know** («дай знать»), и после when и if в ней остаётся настоящее время: **Let me know when you get home.** Рядом живут **Let me think**, **Let me see**, **Let me guess**, **Let me explain**, **Let me handle it.** `Tell me` просит рассказать сейчас, `let me know` — сообщить потом. «Давай я помогу» бывает трёх видов: **Let me help you** (беру на себя), **Can I help you?** (прошу разрешения), **I'll help you** (просто сделаю). Отвечают на такое предложение формулами: **Sure**, **Go ahead**, **Please do.**
+Главная фраза микротемы — **Let me know** («дай знать»), и после `when` и `if` в ней остаётся настоящее время: **Let me know when you get home**.
+
+**Let меняет того, кто действует**
+
+- **Let's go** — мы, **Let me help** — я, **Let him decide** — он
+- После `let` — объектная форма и глагол без `to`: **Let he wait** ✗, **Let me to help** ✗ → **Let him wait** ✓, **Let me help** ✓
+
+**Фразы на каждый день**
+
+**Let me think**, **Let me see**, **Let me guess**, **Let me explain**, **Let me handle it**
+
+**Tell me или let me know**
+
+- **Tell me** — расскажи сейчас
+- **Let me know** — сообщи потом
+
+**«Давай я помогу» — три вида**
+
+- **Let me help you** — беру на себя
+- **Can I help you?** — прошу разрешения
+- **I'll help you** — просто сделаю
+
+Ответ на такое предложение: **Sure**, **Go ahead**, **Please do**.
 
 #### Examples
 
@@ -1740,7 +1947,23 @@ B: ___
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-После let бывает не только глагол. Направление вместо него: **Let me in**, **Let the cat out**, **Let me through** — причём местоимение стоит между let и направлением (**Let in me** ✗). Застывшее `let go` значит «отпусти»: без предмета — **Let go!**, с предметом обязателен of — **Let go of my hand** ✓, **Let go my hand** ✗. Переносно **Let it go** — «забей», а **Let him be** — «оставь в покое». И не путайте **Let's go** (пошли) с **Let me go** (отпусти меня). Русское «пусть» бывает не про разрешение: пожелание собирается не через let, а через I hope (**Let you be happy** ✗ → **I hope everything works out** ✓).
+После `let` бывает не только глагол: направление, застывшее `let go` и формулы.
+
+**Направление вместо глагола**
+
+- **Let me in**, **Let the cat out**, **Let me through**
+- Местоимение — между `let` и направлением: **Let in me** ✗ → **Let me in** ✓
+
+**Let go — «отпусти»**
+
+- Без предмета: **Let go!**
+- С предметом нужен `of`: **Let go my hand** ✗ → **Let go of my hand** ✓
+- Переносно: **Let it go** — «забей», **Let him be** — «оставь в покое»
+
+**Легко перепутать**
+
+- **Let's go** — пошли, а **Let me go** — отпусти меня
+- «Пусть» как пожелание собирается через `I hope`: **Let you be happy** ✗ → **I hope everything works out** ✓
 
 #### Examples
 
@@ -1845,7 +2068,41 @@ B: ___
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Микротема о том, кто действует. `let` значит «позволить»: **Let's go** — мы вместе, **Let me help** — я сам, **Let him decide** — он; после let идёт объектная форма и голый глагол без to, а объект пропускать нельзя (**Let he go** ✗, **Let me to help** ✗, **Let wait** ✗). Русское «дай» в значении «позволь» — это let, а не give: **Let me think** ✓. Отрицаний три: **Let's not argue**, **Don't let me forget**, **Don't let anyone touch it.** Полное `let us` — не «давай»: **Let us go** значит «отпустите нас», **Let us know** — «сообщите нам», а **Let's know** ✗ не существует («давай узнаем» — **Let's find out**). Главная фраза микротемы — **Let me know**, и после when и if в ней стоит настоящее время. После let бывает направление вместо глагола (**Let me in**, **Let the cat out**), а `let go` требует of, когда предмет назван: **Let go of my hand** ✓. Пожелание через let не собирается: **Let you be happy** ✗ → **I hope everything works out** ✓. Застывшие обороты: **Let's say** (допустим), **Let's face it** (давай начистоту), **Let's just** (давай просто); ответы на предложение — **Sure**, **OK, let's do it**, **Let's not**, **I'd rather not.**
+Микротема о том, кто действует: `let` — «позволить», и меняется только действующее лицо.
+
+- **Let's go** — мы вместе
+- **Let me help** — я сам
+- **Let him decide** — он
+
+**Сборка и отрицания**
+
+- После `let` — объектная форма и голый глагол без `to`, объект не пропускаем
+- Отрицания: **Let's not argue**, **Don't let me forget**, **Don't let anyone touch it**
+
+**Let us и Let me know**
+
+- **Let us go** — «отпустите нас», **Let us know** — «сообщите нам»
+- «Давай узнаем» — **Let's find out**, а не **Let's know** ✗
+- **Let me know** — главная фраза; после `when` и `if` в ней настоящее время
+
+**После let без второго глагола**
+
+- Направление: **Let me in**, **Let the cat out**
+- `let go` с названным предметом требует `of`: **Let go of my hand**
+
+**Обороты и ответы**
+
+- **Let's say** — допустим, **Let's face it** — давай начистоту, **Let's just** — давай просто
+- Ответы на предложение: **Sure**, **OK, let's do it**, **Let's not**, **I'd rather not**
+
+**Частые ошибки**
+
+- **Let he go** ✗ → **Let him go** ✓
+- **Let me to help** ✗ → **Let me help** ✓
+- **Let wait** ✗ → **Let him wait** ✓
+- **Give me think** ✗ → **Let me think** ✓ — «дай» здесь значит «позволь»
+- **Let go my hand** ✗ → **Let go of my hand** ✓
+- **Let you be happy** ✗ → **I hope everything works out** ✓
 
 #### Examples
 
@@ -2005,7 +2262,27 @@ RU: Давай просто закажем пиццу.
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Команда плюс `and` — это условное предложение без if: **Press this button and the door opens** = **If you press this button, the door opens.** Правило правой половины прежнее: если так бывает всегда — настоящее время, если результат ждут один раз в будущем — will (**Take this pill and you'll feel better**), возможность — can, а в угрозе настоящее спокойно стоит вместо будущего (**One more word and you're fired**). Справа может быть и ваше встречное обещание: **Help me move the sofa and I'll buy you dinner.** Слева бывает не команда, а «ещё столько-то»: **Another drink and you won't be able to drive.** Главное — не спутать с перечислением: **Sit down and be quiet** это две команды, а **Sit down and you'll feel better** — команда и результат; решает то, что стоит справа от and. Вопроса у конструкции нет, отрицание справа возможно: **Leave now and you won't be late.**
+Команда + `and` — условное предложение без `if`, «сделай — и будет»: **Press this button and the door opens** = **If you press this button, the door opens**.
+
+**Что справа от and**
+
+- Так бывает всегда — настоящее время, как в примере выше
+- Результат ждут один раз в будущем — `will`: **Take this pill and you'll feel better**
+- Возможность — `can`
+- В угрозе настоящее вместо будущего: **One more word and you're fired**
+- Встречное обещание: **Help me move the sofa and I'll buy you dinner**
+- Отрицание: **Leave now and you won't be late**
+
+**Слева — не только команда**
+
+«Ещё столько-то»: **Another drink and you won't be able to drive**.
+
+**Перечисление или условие**
+
+- **Sit down and be quiet** — две команды
+- **Sit down and you'll feel better** — команда и результат
+
+Решает то, что стоит справа от `and`. Вопроса у конструкции нет.
 
 #### Examples
 
@@ -2122,7 +2399,25 @@ RU: Приезжай в пятницу — и мы сходим на конце�
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Команда плюс `or` — это предупреждение «сделай, а то»: **Hurry up, or you'll miss the bus.** Здесь `or` не «или», выбора оно не предлагает. Разворот в версию с if всегда добавляет «не»: = **If you don't hurry, you'll miss the bus** = **Unless you hurry, you'll miss the bus.** Слева работает и запрет (**Don't touch it, or it'll break**), справа спокойно встаёт отрицание (**Book the tickets now, or we won't get seats**). Рядом живут `or else` — то же с нажимом, умеет обрываться на середине (**Give it back, or else!**), и `otherwise` — нейтральное «иначе» для переписки и инструкций (**Write it down, otherwise you'll forget**). Перед `or` в этой конструкции обычно стоит запятая.
+Команда + `or` — предупреждение «сделай, а то»: **Hurry up, or you'll miss the bus**.
+
+**Or здесь не «или»**
+
+Выбора оно не предлагает. Разворот в версию с `if` всегда добавляет «не»:
+
+- **If you don't hurry, you'll miss the bus**
+- **Unless you hurry, you'll miss the bus**
+
+**Что встаёт по бокам**
+
+- Слева запрет: **Don't touch it, or it'll break**
+- Справа отрицание: **Book the tickets now, or we won't get seats**
+- Перед `or` обычно стоит запятая
+
+**Рядом**
+
+- **or else** — то же с нажимом, умеет обрываться: **Give it back, or else!**
+- **otherwise** — нейтральное «иначе» для переписки и инструкций: **Write it down, otherwise you'll forget**
 
 #### Examples
 
@@ -2229,7 +2524,31 @@ RU: Приезжай в пятницу — и мы сходим на конце�
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Микротема о команде, которая работает как условие. Команда плюс `and` = «сделай — и будет»: **Press this button and the door opens** = **If you press this button, the door opens**; справа настоящее время, если так бывает всегда, и will, если результат ждут один раз (**Take this pill and you'll feel better**), а в угрозе настоящее стоит вместо будущего (**One more word and you're fired**). Слева бывает не команда, а «ещё столько-то»: **Another drink and you won't be able to drive.** Не путайте с перечислением: **Sit down and be quiet** — две команды, **Sit down and you'll feel better** — команда и результат. Команда плюс `or` = «сделай, а то»: **Hurry up, or you'll miss the bus** = **If you don't hurry, you'll miss the bus** = **Unless you hurry, you'll miss the bus** — отрицание в if-версии появляется само, потому что `or` называет то, что будет БЕЗ выполнения команды. `or` здесь не «или», выбора оно не предлагает; рядом стоят `or else` с нажимом (**Give it back, or else!**) и письменное `otherwise`. Две сборки — зеркала друг друга: **Move and I'll shoot** = **Don't move, or I'll shoot.** Ключ для перевода: «и тогда» → and, «а то» → or. Вопроса у конструкции нет, отрицание возможно в любой половине.
+Микротема о команде, которая работает как условие: `and` — «сделай, и будет», `or` — «сделай, а то».
+
+**Команда + and**
+
+- **Press this button and the door opens** = **If you press this button, the door opens**
+- Справа настоящее, если так бывает всегда, и `will`, если результат ждут один раз: **Take this pill and you'll feel better**
+- В угрозе настоящее вместо будущего: **One more word and you're fired**
+- Слева может быть «ещё столько-то»: **Another drink and you won't be able to drive**
+
+**Команда + or**
+
+- **Hurry up, or you'll miss the bus** = **If you don't hurry, you'll miss the bus** = **Unless you hurry, you'll miss the bus**
+- «Не» в версии с `if` появляется само: `or` называет то, что будет без выполнения команды
+- `or` здесь не «или»; рядом — `or else` с нажимом (**Give it back, or else!**) и письменное `otherwise`
+
+**Зеркало**
+
+**Move and I'll shoot** = **Don't move, or I'll shoot**. Ключ для перевода: «и тогда» → `and`, «а то» → `or`.
+
+**Легко перепутать**
+
+- **Sit down and be quiet** — две команды
+- **Sit down and you'll feel better** — команда и результат
+
+Вопроса у конструкции нет, отрицание возможно в любой половине.
 
 #### Examples
 
@@ -2365,7 +2684,27 @@ A: "Okay, okay, I won't say a word."
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Инструкции, рецепты и кнопки по-английски пишутся императивом, и это никого не задевает: действие нужно делу и самому читателю. Русский шаг рецепта — инфинитив («Добавить соль») или форма на «вы», английский знает только базовую форму: **Add the salt. Stir for two minutes. Pour in the milk.** Поэтому **To add the salt** ✗ («чтобы добавить») и **Adding the salt** ✗ («добавление») шагом инструкции не бывают. Так же устроены техника (**Press and hold the button**), дорога (**Go straight, then turn left**) и экран телефона (**Tap Continue**, **Enter your email**). Запрет собирается обычно: **Don't add the salt until the end**, печатное **Do not overcook the fish**, строгое **Never leave the machine on overnight.** Порядок шагов держат first / then / finally. В коротких инструкциях артикли выпадают (**Press button**) — это узнавание, а не образец.
+Инструкции, рецепты и кнопки пишутся императивом — действие нужно делу и самому читателю, и это никого не задевает.
+
+**Шаг — только базовая форма**
+
+- Рецепт: **Add the salt. Stir for two minutes. Pour in the milk.**
+- Техника: **Press and hold the button**; дорога: **Go straight, then turn left**
+- Экран телефона: **Tap Continue**, **Enter your email**
+- Порядок шагов держат `first` / `then` / `finally`
+
+**Частые ошибки**
+
+- **To add the salt** ✗ → **Add the salt** ✓ — это «чтобы добавить», а не шаг
+- **Adding the salt** ✗ → **Add the salt** ✓ — это «добавление», а не шаг
+
+**Запрет в инструкции**
+
+- Обычный: **Don't add the salt until the end**
+- Печатный: **Do not overcook the fish**
+- Строгий: **Never leave the machine on overnight**
+
+В коротких инструкциях артикли выпадают (**Press button**) — это узнавание, а не образец.
 
 #### Examples
 
@@ -2473,7 +2812,25 @@ RU: Выключите телефон и подождите десять сек�
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Таблички и объявления пишутся командами: **Do not enter**, **Keep out**, **Keep off the grass** — полная форма `Do not` здесь просто официальная, как в печатных правилах. На дверях стоит само действие: **Push** (толкай) и **Pull** (тяни). Запрет без глагола собирается формулой `No + слово`: **No smoking**, **No parking**, **No entry**; русский инфинитив «Не курить!» сюда не переносится — **Not smoke** ✗ и **No smoke** ✗ (smoke без -ing значит «дым»). Предупреждения идут со словом-сигналом: **Caution: wet floor**, **Beware of the dog**, **Watch your step**, **Mind the gap**. Живому человеку то же самое говорят мягче, чем написано на стене: **Sorry, you can't smoke here** вместо голого **Don't smoke here**. Реклама командует по той же причине, что и табличка: **Buy now**, **Book today**, **Don't miss out.**
+Таблички и объявления пишутся командами; полная форма `Do not` здесь просто официальная.
+
+- **Do not enter**, **Keep out**, **Keep off the grass**
+- На дверях — само действие: **Push** (толкай), **Pull** (тяни)
+
+**Запрет без глагола**
+
+Собирается по схеме `No + слово`: **No smoking**, **No parking**, **No entry**.
+
+- **Not smoke** ✗, **No smoke** ✗ → **No smoking** ✓ — `smoke` без `-ing` значит «дым»
+
+**Предупреждения и реклама**
+
+- Со словом-сигналом: **Caution: wet floor**, **Beware of the dog**, **Watch your step**, **Mind the gap**
+- Реклама командует так же: **Buy now**, **Book today**, **Don't miss out**
+
+**Живому человеку — мягче**
+
+**Sorry, you can't smoke here** вместо голого **Don't smoke here**.
 
 #### Examples
 
@@ -2584,7 +2941,22 @@ RU: Выключите телефон и подождите десять сек�
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Самые тёплые фразы английского — по форме команды: **Have a nice day**, **Take care**, **Have fun**, **Good luck**, **Enjoy your meal**, **Get well soon**, **Sleep well**, **Drive safely**, **Say hi to your mum.** Приказом они не звучат, потому что действие нужно слушателю. Приглашения хозяина — готовые формулы: **Help yourself**, **Make yourself at home**, **Take your time.** Дословный перевод с русского здесь ломается: «береги себя» — **Take care** (не **Keep yourself** ✗), «угощайся» — **Help yourself** (а **Treat yourself** значит «побалуй себя»), «приятного аппетита» точной фразы не имеет вовсе. Отвечают на пожелание формулой **Thanks, you too!** / **You too!** / **Same to you** — **You also** ✗ так не работает. И `you too` уместно, только если пожелание можно вернуть: официанту на **Enjoy your meal** отвечают **Thank you**.
+Самые тёплые фразы английского — по форме команды. Приказом они не звучат, потому что действие нужно слушателю.
+
+- Пожелания: **Have a nice day**, **Take care**, **Have fun**, **Good luck**, **Get well soon**, **Sleep well**
+- Забота: **Enjoy your meal**, **Drive safely**, **Say hi to your mum**
+- Приглашения хозяина: **Help yourself**, **Make yourself at home**, **Take your time**
+
+**Дословный перевод ломается**
+
+- «Береги себя» — **Take care**, а не **Keep yourself** ✗
+- «Угощайся» — **Help yourself**, а **Treat yourself** значит «побалуй себя»
+- «Приятного аппетита» точной фразы не имеет
+
+**Как ответить**
+
+- **Thanks, you too!** / **You too!** / **Same to you** — а **You also** ✗ так не работает
+- `you too` — только если пожелание можно вернуть: официанту на **Enjoy your meal** отвечают **Thank you**
 
 #### Examples
 
@@ -2683,7 +3055,36 @@ A: "See you on Monday."
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Микротема о жанрах, где команда — обычная норма. Инструкции и рецепты пишутся императивом (**Add the salt. Stir for two minutes.**), а **To add the salt** ✗ и **Adding the salt** ✗ шагом не бывают; запрет в инструкции — **Don't add the salt until the end** или печатное **Do not overcook the fish.** Таблички: **Do not enter**, **Keep off the grass**, **Push** / **Pull**, формула `No + слово` (**No smoking**, а не **No smoke** ✗), предупреждения со словом-сигналом (**Caution: wet floor**, **Beware of the dog**). Живому человеку то же говорят мягче: **Sorry, you can't smoke here.** Пожелания — тоже команды: **Have a nice day**, **Take care**, **Enjoy your meal**, **Help yourself**; отвечают на них **Thanks, you too!** (**You also** ✗), а официанту на **Enjoy your meal** — просто **Thank you.** В письме команда с `please` — норма, потому что письмо читают когда удобно и строка читается как пункт задачи: **Please send me the file by Friday**, **Please find attached the report**, **Please note that…**, **Let me know if…** Сказанная вслух, та же фраза становится распоряжением — там нужен вопрос. «Не стесняйтесь» — **Feel free to ask** ✓ или формальное **Don't hesitate to contact us**, но не **Don't be shy to ask** ✗. И `Kindly reply by Friday` звучит раздражённо: живее **Could you please reply by Friday?**
+Микротема о жанрах, где команда — обычная норма: инструкции, таблички, пожелания и письмо.
+
+**Инструкции и таблички**
+
+- Шаг — базовая форма: **Add the salt. Stir for two minutes.**
+- Запрет: **Don't add the salt until the end**, печатное **Do not overcook the fish**
+- Таблички: **Do not enter**, **Keep off the grass**, **Push** / **Pull**, **No smoking**
+- Предупреждения: **Caution: wet floor**, **Beware of the dog**
+- Живому человеку мягче: **Sorry, you can't smoke here**
+
+**Пожелания**
+
+- **Have a nice day**, **Take care**, **Enjoy your meal**, **Help yourself**
+- Ответ — **Thanks, you too!**, а официанту на **Enjoy your meal** — просто **Thank you**
+
+**Письмо и работа**
+
+Письмо читают, когда удобно, и строка читается как пункт задачи — поэтому команда с `please` здесь норма. Вслух та же фраза становится распоряжением, и там нужен вопрос.
+
+- **Please send me the file by Friday**, **Please find attached the report**
+- **Please note that…**, **Let me know if…**
+- «Не стесняйтесь» — **Feel free to ask** или формальное **Don't hesitate to contact us**
+
+**Частые ошибки**
+
+- **To add the salt** ✗, **Adding the salt** ✗ → **Add the salt** ✓
+- **No smoke** ✗ → **No smoking** ✓
+- **You also** ✗ → **Thanks, you too!** ✓
+- **Don't be shy to ask** ✗ → **Feel free to ask** ✓
+- **Kindly reply by Friday** ✗ → **Could you please reply by Friday?** ✓ — `Kindly` звучит раздражённо
 
 #### Examples
 
@@ -2864,7 +3265,55 @@ A: "See you on Monday."
 
 #### Summary *(кнопка «?» в упражнениях)*
 
-Решает один вопрос: кому нужно действие. Нужно слушателю — голая команда звучит любезно (**Have a seat**, **Help yourself**, **Take your time**); нужно вам — просьбу превращают в вопрос (**Can I have the bill, please?**, **Could you send me the file?**), потому что `please` распоряжение не спасает; нужно делу — команда норма (инструкции, таблички, письмо). Между своими голая команда тоже норма: **Pass me the salt** — близость, а не хамство, и наоборот, **Could you possibly…** жене звучит холодно. Громкость: **Wait a second** → **Do sit down** (радушно) → **Sit down** → **Stop it** → **Do not move** → **Don't you dare**. Формы: **Don't be afraid** ✓ (не **Don't afraid** ✗), **Don't be an idiot** ✓ с артиклем, но **Don't worry** ✓ без `be`; одно отрицание — **Never do that again** ✓ / **Don't ever do that** ✓; угроза только как **Don't you dare** ✓. Три let: **Let's go**, **Let me know**, **Let him decide** — объектная форма и голый глагол без to (**Let he go** ✗, **Let me to help** ✗, **Let wait** ✗), а «дай мне подумать» — **Let me think** ✓, не **Give me think** ✗. Команда-условие: **Take this pill and you'll feel better** (и будет) ↔ **Hurry up, or you'll miss the bus** (а то) = **If you don't hurry…**; **Move and I'll shoot** = **Don't move, or I'll shoot.** Жанры: шаг рецепта базовой формой (**Add the salt**, не **To add** ✗ / **Adding** ✗), табличка **No smoking** (не **No smoke** ✗), пожелание **Have a nice day** и ответ **Thanks, you too** (не **you also** ✗), в письме **Please send me the file** — норма, **Kindly** — нет. Границы: «не надо так говорить» — **Don't say that** ✓; пожелание — **I hope…**, не **Let you be happy** ✗; идущее сейчас останавливают через **Stop shouting**, а **Shut up** — это «заткнись».
+Решает один вопрос — **кому нужно действие**.
+
+- Слушателю → голая команда звучит любезно: **Have a seat**, **Help yourself**
+- Вам самому → просьба-вопрос: **Can I have the bill, please?** — `please` команду не спасает
+- Делу → команда норма: рецепт, табличка, деловое письмо
+- Своим → голая команда тоже норма: **Pass me the salt** жене, а **Could you possibly…** дома звучит холодно
+
+**Громкость**
+
+**Wait a second** → **Do sit down** *(радушно)* → **Sit down** → **Stop it** → **Do not move** → **Don't you dare**
+
+**Три let**
+
+- **Let's go** — мы вместе
+- **Let me know** — я сам
+- **Let him decide** — он
+
+После `let` — объектная форма и голый глагол без `to`, а объект не пропускаем: **Let wait** ✗ → **Let him wait** ✓.
+
+**Команда-условие**
+
+- **Take this pill and you'll feel better** — сделай, и будет
+- **Hurry up, or you'll miss the bus** — сделай, а то; с `if` появляется «не»: **If you don't hurry, you'll miss the bus**
+- **Move and I'll shoot** = **Don't move, or I'll shoot**
+
+**Ошибки в форме**
+
+- **Don't afraid** ✗ → **Don't be afraid** ✓ — перед признаком нужен `be`
+- **Don't be worry** ✗ → **Don't worry** ✓ — `worry` сам глагол
+- **Don't be idiot** ✗ → **Don't be an idiot** ✓ — существительному нужен артикль
+- **Don't never do that** ✗ → **Never do that again** ✓ или **Don't ever do that** ✓ — одно отрицание
+- **You don't dare** ✗ → **Don't you dare** ✓ — угроза живёт только в таком порядке
+
+**Ошибки в let и жанрах**
+
+- **Let he go** ✗, **Let me to help** ✗ → **Let him go** ✓, **Let me help** ✓
+- **Give me think** ✗ → **Let me think** ✓ — «дай» здесь значит «позволь»
+- **Adding the salt** ✗ → **Add the salt** ✓ — шаг рецепта в базовой форме
+- **No smoke** ✗ → **No smoking** ✓
+- **Thanks, you also** ✗ → **Thanks, you too** ✓
+- **Kindly reply by Friday** ✗ → **Could you please reply by Friday?** ✓ — `Kindly` звучит раздражённо
+
+**Где команда не подходит**
+
+- Своё у чужого человека — вопросом: **Give me the menu, please** ✗ → **Can I have the menu, please?** ✓
+- «Не надо так говорить» — обычный запрет: **Don't need to say that** ✗ → **Don't say that** ✓
+- Пожелание через `let` не собирается: **Let you be happy** ✗ → **I hope everything works out** ✓
+- Уже кричит — **Stop shouting**; **Don't shout** — правило на будущее
+- **Shut up** — это «заткнись»; нейтрально — **Be quiet**
 
 ---
 
