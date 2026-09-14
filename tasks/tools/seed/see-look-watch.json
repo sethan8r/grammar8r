@@ -193,20 +193,7 @@
       "theorySummary": [
         {
           "type": "paragraph",
-          "text": "Про глаза английский говорит тремя глаголами, про уши — двумя. Выбор идёт по одному признаку: пришло само или вы сами направили внимание."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**see**, **hear** — картинка или звук пришли сами",
-            "**look**, **listen** — вы сами направили внимание",
-            "**watch** — держите взгляд на том, что длится"
-          ]
-        },
-        {
-          "type": "heading",
-          "text": "Одна птица — три роли"
+          "text": "Пришло само — `see`, `hear`; направили внимание — `look`, `listen`; держите взгляд на том, что длится, — `watch`."
         },
         {
           "type": "list",
@@ -216,10 +203,6 @@
             "**Look at that bird!** — посмотри",
             "**I watched the bird for an hour** — наблюдал"
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Меняется не птица, а ваша роль."
         }
       ],
       "examples": [
@@ -339,32 +322,19 @@
       "theorySummary": [
         {
           "type": "paragraph",
-          "text": "Русские пары «смотреть/видеть» и «слушать/слышать» с английскими не совпадают. Проверочный вопрос один: пришло само или вы сами направили внимание?"
+          "text": "Проверочный вопрос один: пришло само или вы сами направили внимание?"
         },
         {
           "type": "heading",
-          "text": "Где русский сбивает"
+          "text": "Частые ошибки"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "«Слушай, что за шум?» — англичанин скажет **Can you hear that?**",
-            "«Смотреть телевизор» — это `watch`, а не `see`"
-          ]
-        },
-        {
-          "type": "heading",
-          "text": "Типичные ошибки"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Не тот глагол: **I saw TV** ✗ → **I watched TV** ✓",
-            "Предлог потерян: **Look me!** ✗ → **Look at me!** ✓",
-            "Предлог лишний: **I watched at the birds** ✗ → **I watched the birds** ✓",
-            "Русское «как»: **I saw how he opened the door** ✗ → **I saw him open the door** ✓"
+            "**I saw TV** ✗ → **I watched TV** ✓",
+            "**Look me!** ✗ → **Look at me!** ✓",
+            "**I saw how he opened the door** ✗ → **I saw him open the door** ✓"
           ]
         }
       ],
