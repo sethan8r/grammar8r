@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="Grammar8r.grammar-app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-04-19T15:04:39.520012200Z">
+        <DropdownSelection timestamp="2026-09-14T13:34:20.782713100Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Maksim\.android\avd\Medium_Phone.avd" />
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=R5GL24SAV0T" />
             </handle>
           </Target>
         </DropdownSelection>

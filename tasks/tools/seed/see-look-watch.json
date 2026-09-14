@@ -18,6 +18,13 @@
       "title": "Eyes and Ears · Глаза и уши: пять глаголов вместо двух",
       "order": 1,
       "searchKeywords": "saw tv или watched tv, как выбрать нужный глагол, пришло само или направил сам, почему словарь тут не помогает"
+    },
+    {
+      "id": 209,
+      "topicId": 33,
+      "title": "Seeing · Видеть, смотреть, следить",
+      "order": 2,
+      "searchKeywords": "look at или watch, see saw seen, look out of или look through, can see, не видно, stare или glance, watch this или look at this, watch your step"
     }
   ],
   "grammar_cards": [
@@ -365,6 +372,1089 @@
         "Откуда берётся лишнее at в I watched at the birds?",
         "Чем I saw him open the door лучше, чем I saw how he opened the door?"
       ]
+    },
+    {
+      "id": 557,
+      "microtopicId": 209,
+      "title": "Русское «смотреть» по-английски: see, look at, watch",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В первой микротеме мы нашли ось всей темы: пришло само — `see`, направили взгляд — `look`, держите взгляд на том, что длится, — `watch`. Теперь зайдём с другой стороны. Фраза в голове рождается по-русски, и первым приходит русский глагол — «смотреть» или «видеть». Значит, нужна карта: какое русское слово в какой английский глагол превращается."
+        },
+        {
+          "type": "heading",
+          "text": "Пара у русского есть, но одна"
+        },
+        {
+          "type": "paragraph",
+          "text": "Хорошая новость: русский тоже различает «видеть» и «смотреть». «Я вижу дом» — картинка просто стоит перед глазами, вы для этого ничего не делаете. «Я смотрю на дом» — вы сами повернули голову. Эта пара ложится на `see` и `look` почти один в один, поэтому половину темы вы уже чувствуете."
+        },
+        {
+          "type": "paragraph",
+          "text": "Трудность в другом: у русского «смотреть» английских хозяев два. Русский глагол не интересуется, на что именно вы смотрите. Английский спрашивает об этом каждый раз."
+        },
+        {
+          "type": "heading",
+          "text": "Стоит на месте или идёт во времени"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос, который английский задаёт про «смотреть», один: то, на что вы смотрите, стоит на месте или происходит во времени? Возьмём одно и то же небо:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Look at the sky!** — одним взглядом, прямо сейчас",
+            "**We watched the sky for an hour.** — целый час следили, как плывут облака"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Небо одно, а глаголы разные. Решает не предмет, а то, что вы с ним делаете: бросили взгляд — `look at`, провели с ним время и следили за переменами — `watch`. Поэтому фото, карта, меню и картина почти всегда живут с `look at`, а фильм, матч, дети на площадке и дорога за рулём — с `watch`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это обратная сторона **I saw TV** из прошлой микротемы. Русское «смотреть фотки» звучит точь-в-точь как «смотреть сериал», и рука ставит `watch`: **We watched the photos from the trip** ✗ → **We looked at the photos from the trip** ✓. Фотографии не длятся — на них смотрят, а не следят за ними."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Подсказка прячется в русском глаголе"
+        },
+        {
+          "type": "paragraph",
+          "text": "У русского есть собственный датчик, и им стоит пользоваться: он различает «увидел» и «смотрел» — законченный результат и процесс. Это почти готовый ответ:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "По-русски",
+            "По-английски",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "увидел, заметил",
+              "see",
+              "I saw Emma at the station."
+            ],
+            [
+              "видно прямо сейчас",
+              "can see",
+              "I can see the bus."
+            ],
+            [
+              "посмотри на, глянь",
+              "look at",
+              "Look at this cake."
+            ],
+            [
+              "разглядывал",
+              "look at",
+              "He looked at the menu for ages."
+            ],
+            [
+              "смотрел весь вечер",
+              "watch",
+              "We watched a series."
+            ],
+            [
+              "наблюдал, следил",
+              "watch",
+              "She watched the kids."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "«Увидел» и «заметил» — это `see`: картинка дошла, дело сделано. «Смотрел весь вечер» и «наблюдал» — это `watch`: процесс. «Посмотрел на», «глянул», «разглядывал» — это `look at`: взгляд на предмет. Строку «видно прямо сейчас» пока просто отметьте — почему здесь нужен `can`, разберём в карточке «See приходит само»."
+        },
+        {
+          "type": "heading",
+          "text": "Формы see"
+        },
+        {
+          "type": "paragraph",
+          "text": "`see` — неправильный глагол, и вся тема дальше стоит на его формах: **see → saw → seen**, звучат они [[siː]] → [[sɔː]] → [[siːn]]. Прошлое — **I saw a fox in the park yesterday**, перфект — **I have never seen a fox so close**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I have saw it** ✗ → **I have seen it** ✓ — после `have` нужна третья форма. И вторая ошибка, которую подхватывают из сериалов: **I seen it** ✗ → **I saw it** ✓ или **I've seen it** ✓. Так говорят в просторечии, но без `have` форма `seen` в нормальной речи не живёт."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Seen` звучит точно так же, как `scene` — сцена, эпизод фильма. Два разных слова, одно звучание."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «смотреть» делится по тому, что перед глазами: стоит на месте — `look at`, идёт во времени — `watch`. «Увидел, заметил» — `see`."
+        },
+        {
+          "type": "heading",
+          "text": "Как выбрать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Увидел, заметил → **see**",
+            "Посмотри на фото, разглядывал карту → **look at**",
+            "Смотрел сериал, наблюдал за детьми → **watch**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формы see"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три формы **see → saw → seen**: **I saw it yesterday** · **I have seen it**, после `have` — только `seen`."
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We watched the photos** ✗ → **We looked at the photos** ✓ — фото не длится",
+            "**I have saw it** ✗ → **I have seen it** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я заметил Игоря в очереди.",
+          "en": "I saw Igor in the queue."
+        },
+        {
+          "ru": "Посмотри на эту карту.",
+          "en": "Look at this map."
+        },
+        {
+          "ru": "Соня весь вечер смотрела футбол.",
+          "en": "Sonya watched football all evening."
+        },
+        {
+          "ru": "Я никогда не видел море.",
+          "en": "I have never seen the sea."
+        },
+        {
+          "ru": "Мы долго разглядывали старые фото.",
+          "en": "We looked at the old photos for a long time."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему на фото смотрят через look at, а фильм — через watch?",
+        "Как по русскому глаголу быстро понять, какой нужен английский?",
+        "Почему нельзя говорить I seen it, если так говорят в сериалах?"
+      ]
+    },
+    {
+      "id": 558,
+      "microtopicId": 209,
+      "title": "Фильм, матч, телевизор: watch или see",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "С телевизором всё было просто: весь вечер у экрана — только `watch`. С фильмом хитрее. **I watched the film** и **I saw the film** — обе фразы правильные, и носитель говорит обе. Разница не в фильме, а в том, о чём вы рассказываете."
+        },
+        {
+          "type": "heading",
+          "text": "Процесс или событие"
+        },
+        {
+          "type": "paragraph",
+          "text": "`watch` рассказывает про процесс — как прошло время, чем вы были заняты: **We watched a film last night and ordered pizza.** Это история про вечер."
+        },
+        {
+          "type": "paragraph",
+          "text": "`see` рассказывает про результат — вы теперь знаете этот фильм, событие состоялось: **Have you seen the new Nolan film?** Вопрос не про то, как человек сидел у экрана, а про опыт: знает он фильм или нет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский делает то же самое, и это подарок. Про вечер мы говорим «смотрели фильм», а про опыт — «ты **видел** этот фильм?», хотя у экрана сидели точно так же. Где по-русски просится «видел» — там почти всегда `see`."
+        },
+        {
+          "type": "heading",
+          "text": "Кино, матч, музей: кто где работает"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Ситуация",
+            "Глагол",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "сериал, фильм, ТВ дома",
+              "watch",
+              "I watch the news every morning."
+            ],
+            [
+              "фильм как опыт",
+              "see",
+              "Have you seen this film?"
+            ],
+            [
+              "сходить в кино",
+              "see",
+              "Let's go and see a film."
+            ],
+            [
+              "матч по телевизору",
+              "watch",
+              "We watched the final on TV."
+            ],
+            [
+              "матч или концерт живьём",
+              "see",
+              "We saw Coldplay in Berlin."
+            ],
+            [
+              "узнал из новостей",
+              "see",
+              "I saw it on the news."
+            ],
+            [
+              "картина, фото в музее",
+              "look at",
+              "She looked at the painting."
+            ],
+            [
+              "город, достопримечательности",
+              "see",
+              "We saw the sights of Rome."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Про кинотеатр: `watch a film` там тоже возможно, но когда вы рассказываете, куда сходили, естественнее `see` — поход в кино такое же событие, как концерт: **What did you see at the cinema?**"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Film` — британский вариант, американцы чаще говорят `movie`. Понимают оба везде, в Словарь мы кладём `film`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "По телевизору — on TV"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «**по** телевизору» тянет за собой `by`: **I saw it by TV** ✗ → **I saw it on TV** ✓. Телевизор для английского — площадка, на которой всё показывают, поэтому `on`: **on TV**, **on the news**, **on YouTube**. И деталь с артиклем: **watch TV** — без артикля, а **watch the news** — с ним."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Did you see или Have you seen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это не новая грамматика, а знакомая развилка из темы «Compare: Past Simple vs Present Perfect». **Did you see the match on Sunday?** — про конкретный раз, время названо или понятно. **Have you seen this series?** — про опыт вообще, без времени. Отрицательный вопрос звучит как удивление: **Haven't you seen it yet?** — «ты что, до сих пор не смотрел?»."
+        },
+        {
+          "type": "heading",
+          "text": "Have you seen my keys — вовсе не про кино"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая частая фраза с `seen` к экрану отношения не имеет. **Have you seen my keys?** — «ты не видел мои ключи?», то есть «не знаешь, где они?». Русский здесь тоже говорит «видел», совпадение полное. Отвечают коротко: **No, sorry, I haven't.** или **Yes, they're on the table.**"
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`watch` — процесс, как провели время; `see` — событие или опыт: сходил, знаешь, узнал. `look at` — взгляд на предмет."
+        },
+        {
+          "type": "heading",
+          "text": "Как выбрать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Дома у экрана, весь вечер → **We watched a film**",
+            "Опыт, «видел ли» → **Have you seen this film?**",
+            "Кино, концерт, матч живьём → **We saw them live**",
+            "Узнал из новостей → **I saw it on the news**",
+            "Город, достопримечательности → **see the sights**",
+            "Картина, фото, карта → **look at**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Did you see it on Sunday?** — конкретный раз; **Have you seen it?** — опыт вообще",
+            "**Have you seen my keys?** — «не знаешь, где ключи?»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw it by TV** ✗ → **I saw it on TV** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Что вы смотрели в кино вчера?",
+          "en": "What did you see at the cinema yesterday?"
+        },
+        {
+          "ru": "Мы посмотрели три фильма за выходные.",
+          "en": "We watched three films at the weekend."
+        },
+        {
+          "ru": "Ты уже видел новый фильм Нолана?",
+          "en": "Have you seen the new Nolan film yet?"
+        },
+        {
+          "ru": "Я видела это в новостях.",
+          "en": "I saw it on the news."
+        },
+        {
+          "ru": "В Риме мы увидели все достопримечательности.",
+          "en": "In Rome we saw all the sights."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему про фильм можно сказать и watched, и saw?",
+        "Когда говорить Did you see, а когда Have you seen?",
+        "Почему по телевизору — on TV, а не by TV?"
+      ]
+    },
+    {
+      "id": 559,
+      "microtopicId": 209,
+      "title": "Look at: вопрос с предлогом в конце, stare и glance",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Что у `look` есть адрес `at`, мы уже видели: **Look at me** ✓, но не **Look me** ✗. Но этот адрес ведёт себя неожиданно в трёх местах: в вопросе он уезжает в конец, перед `here` и `there` пропадает, а ещё его наследуют два родственника `look` — `stare` и `glance`."
+        },
+        {
+          "type": "heading",
+          "text": "На что ты смотришь — предлог в конце"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский вопрос начинается с предлога: «**На** что ты смотришь?», «**На** кого она смотрит?». Рука тянется поставить `at` туда же, в начало. Но в английском предлог держится за свой глагол — `look at` работает как одно целое, — и вопросительное слово его не отрывает. В начало выходит только `what` или `who`, а `at` остаётся после глагола."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "What / Who + вопросительный порядок + looking at"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Так и получается: **What are you looking at?** — «на что ты смотришь?», **Who is Vika looking at?** — «на кого смотрит Вика?». Механизм вам знаком по вопросу **Where are you from?** — там `from` точно так же стоит в конце."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Промахнуться можно в обе стороны. **What are you looking?** ✗ — предлог потерялся, и фраза развалилась. **At what are you looking?** ✗ — так пишут в старых книгах, в разговоре это звучит дико. Верно одно: **What are you looking at?** ✓"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Остальные формы собираются так же, адрес остаётся на месте: **I'm not looking at you.** · **What were you looking at?** · **Why aren't you looking at me?**"
+        },
+        {
+          "type": "heading",
+          "text": "Look over there — без at"
+        },
+        {
+          "type": "paragraph",
+          "text": "`at` нужен, когда вы называете, на что смотреть. Нет предмета — нет и адреса: **Look!** ✓. Перед `here` и `there` адреса тоже нет: эти слова сами значат «сюда» и «туда», как `home` в **go home**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Look over there!** — посмотри вон туда",
+            "**Look over here!** — посмотри сюда"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «посмотри **на** это место» подталкивает к **Look at there** ✗ → **Look over there** ✓. Но стоит появиться предмету — адрес возвращается: **Look at that car over there** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И ещё одна граница: если после `look` стоит не предмет, а признак, это уже не взгляд, а «выглядеть» — **You look happy**. Это мы разбирали в теме «Наречия»."
+        },
+        {
+          "type": "heading",
+          "text": "Долго или мельком: stare и glance"
+        },
+        {
+          "type": "paragraph",
+          "text": "У `look at` есть два родственника с тем же адресом. Оба уточняют, сколько длится взгляд:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't stare at people, it's rude.** — не пялься на людей, это грубо",
+            "**She glanced at her phone and stood up.** — она мельком глянула на телефон и встала"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь русский полностью совпадает: у нас тоже есть «пялиться, уставиться» и «глянуть». Адрес у обоих `at`, и в вопросе он так же уходит в конец: **What are you staring at?** — недовольное «чего уставился?»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Посмотри мне в глаза» — **Look me in the eye**: дословно «посмотри меня в глаз», по-живому «посмотри мне в глаза». Здесь нет `at`, и глаз стоит в единственном числе. **Look at my eyes** — не ошибка, но значит «разгляди мои глаза», как на приёме у врача."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У `look`, `stare` и `glance` адрес `at`, и в вопросе он уходит в конец."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Вопрос: **What are you looking at?** · **Who is she staring at?**",
+            "Без предмета и перед here/there `at` нет: **Look!** · **Look over there!**",
+            "**stare at** — долго, пристально; **glance at** — мельком"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What are you looking?** ✗ → **What are you looking at?** ✓",
+            "**Look at there** ✗ → **Look over there** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "На что вы смотрите?",
+          "en": "What are you looking at?"
+        },
+        {
+          "ru": "Посмотри вон туда, это наш автобус!",
+          "en": "Look over there, that's our bus!"
+        },
+        {
+          "ru": "Не пялься на него, он заметит.",
+          "en": "Don't stare at him, he'll notice."
+        },
+        {
+          "ru": "Олег глянул на экран и улыбнулся.",
+          "en": "Oleg glanced at the screen and smiled."
+        },
+        {
+          "ru": "Посмотри мне в глаза и скажи правду.",
+          "en": "Look me in the eye and tell me the truth."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в вопросе at стоит в самом конце?",
+        "Почему Look over there без at, а Look at that car с at?",
+        "Чем stare отличается от обычного look at?"
+      ]
+    },
+    {
+      "id": 560,
+      "microtopicId": 209,
+      "title": "В окно, в зеркало, сквозь стекло: у look много адресов",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "После прошлой карточки легко вынести правило «у look всегда at». Но `at` — лишь один адрес взгляда. Русское «в» — «в окно», «в зеркало», «в сумку» — покрывает сразу несколько английских предлогов. И выбирают их не по русскому предлогу, а по тому, куда на самом деле летит взгляд."
+        },
+        {
+          "type": "heading",
+          "text": "Куда летит взгляд"
+        },
+        {
+          "type": "table",
+          "header": [
+            "По-русски",
+            "По-английски",
+            "Что происходит"
+          ],
+          "rows": [
+            [
+              "смотреть в окно",
+              "look out of the window",
+              "вы внутри, взгляд уходит наружу"
+            ],
+            [
+              "заглянуть в окно",
+              "look through the window",
+              "вы снаружи, взгляд проходит сквозь стекло"
+            ],
+            [
+              "смотреться в зеркало",
+              "look in the mirror",
+              "взгляд уходит в отражение"
+            ],
+            [
+              "заглянуть в сумку",
+              "look in the bag",
+              "взгляд внутрь, обычно чтобы найти"
+            ],
+            [
+              "заглянуть в яму",
+              "look into the hole",
+              "взгляд внутрь, в глубину"
+            ],
+            [
+              "поднять глаза",
+              "look up",
+              "взгляд вверх"
+            ],
+            [
+              "опустить глаза",
+              "look down",
+              "взгляд вниз"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это не особые глаголы, а обычные направления: английский просто точнее русского говорит, откуда и куда смотрят."
+        },
+        {
+          "type": "heading",
+          "text": "Три разных «в»: out of, through, in"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She was looking out of the window when the taxi came.** — сидела внутри, смотрела на улицу",
+            "**I looked through the window and saw a cat on the sofa.** — стоял снаружи и заглянул внутрь сквозь стекло",
+            "**Look in the fridge, there's some cake.** — загляни внутрь"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`out of` — «из»: взгляд выходит из комнаты наружу. `through` — «сквозь»: взгляд проходит через стекло, очки, бинокль или замочную скважину. `in` — внутрь того, что перед вами. У `through` отсюда же второе значение: **Can you look through my report?** — «просмотри мой отчёт», глазами насквозь, от первой страницы до последней."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Американцы часто говорят короче — **look out the window**, без `of`. Обе формы правильные."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Посмотри в зеркало» — это **Look in the mirror**. **Look at the mirror** грамматически тоже цело, но значит другое: разглядывать саму вещь — раму и стекло, как в мебельном магазине. Смотрятся в зеркало через `in`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вверх, вниз, внутрь"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He looked up from his phone.** — оторвался от телефона и поднял глаза",
+            "**Don't look down!** — не смотри вниз",
+            "**The boy looked into the hole.** — мальчик заглянул в яму, в самую глубину"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `look up` и `look into` есть и небуквальные значения: **Look it up** — «посмотри в словаре», **I'll look into it** — «я разберусь». Их мы разберём в разделе «Одно слово — много значений», а здесь говорим только о взгляде."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Предлог никуда не девается ни в отрицании, ни в вопросе: **She isn't looking out of the window.** · **Why are you looking in my bag?** · **Didn't you look in the mirror before you left?** — «ты что, не посмотрелся в зеркало перед выходом?»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Предлог после `look` выбирают по тому, куда летит взгляд, а не по русскому «в»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Изнутри наружу → **look out of the window**",
+            "Снаружи сквозь стекло → **look through the window**",
+            "В отражение → **look in the mirror**",
+            "Внутрь сумки, холодильника → **look in**, в глубину → **look into**",
+            "Вверх, вниз → **look up**, **look down**",
+            "Предмет перед глазами → **look at the screen**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "paragraph",
+          "text": "**look in the mirror** — смотреться; **look at the mirror** — разглядывать само зеркало"
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Предлог остаётся в конце: **What are you looking at?** · **Why are you looking in my bag?**"
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Вика смотрела в окно весь урок.",
+          "en": "Vika was looking out of the window the whole lesson."
+        },
+        {
+          "ru": "Я заглянул в окно, но в кафе никого не было.",
+          "en": "I looked through the window, but there was nobody in the café."
+        },
+        {
+          "ru": "Ты смотрелся в зеркало сегодня?",
+          "en": "Have you looked in the mirror today?"
+        },
+        {
+          "ru": "Загляни в мою сумку, ключи там.",
+          "en": "Look in my bag, the keys are in there."
+        },
+        {
+          "ru": "Паша поднял глаза от книги.",
+          "en": "Pasha looked up from his book."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить look out of the window от look through the window?",
+        "Почему смотрятся in the mirror, а не at the mirror?",
+        "Можно ли говорить look out the window без of?"
+      ]
+    },
+    {
+      "id": 561,
+      "microtopicId": 209,
+      "title": "See приходит само: can see, не видно и recognize",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вернёмся к оси: `see` не выбирают. Глаза открыты — картинка приходит сама. У этой простой мысли есть грамматические последствия, и русских они ловят постоянно."
+        },
+        {
+          "type": "heading",
+          "text": "Почему нет What are you seeing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский вопрос «Что ты видишь?» звучит про прямо сейчас, и рука строит Continuous: **What are you seeing?** ✗. Но Continuous — время для действия, которое вы делаете. А `see` вы не делаете: оно с вами случается. Такие глаголы мы уже встречали в микротеме «Глаголы без Continuous». Вместо Continuous носитель берёт `can`:"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Can + see"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь `can` значит не «умею», а «доходит до глаз прямо сейчас»: **What can you see?** — «что тебе видно?», **I can see the sea from our balcony.** — «с нашего балкона видно море». С `look` и `watch` всё иначе: это действия, и Continuous им можно — **What are you looking at?** ✓, **What are you watching?** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Не видно — самая частая форма"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски восприятие чаще всего звучит отрицанием и без подлежащего: «не видно», «ничего не видно», «отсюда не видно». Английскому подлежащее нужно всегда, и он ставит того, до кого картинка не доходит:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I can't see from here.** — отсюда не видно",
+            "**I can't see anything, turn on the light.** — ничего не видно, включи свет",
+            "**Can you see the stage?** — тебе видно сцену?",
+            "**Can't you see I'm busy?** — ты что, не видишь, что я занят?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Безличное русское тянет **Not see from here** ✗ или **It's not see** ✗. В английском на месте и подлежащее, и `can't`: **I can't see from here** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Do you see — тоже правильно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтобы не родилось ложное правило «без can глагол see не живёт»: **Do you see that house?** ✓ и **I don't see any problem** ✓ — совершенно нормальные фразы. Запрещён только Continuous, а не Present Simple. Разница тонкая: `can see` — картинка доходит до глаз прямо сейчас, `do you see` — чаще «замечаешь?» или «понимаешь?». Американцы нередко обходятся без `can` и в первом смысле: **Oh, I see it!**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прошлое тоже работает без хитростей: **Sorry, I didn't see you there.** — «простите, я вас не заметил»."
+        },
+        {
+          "type": "heading",
+          "text": "Дай посмотреть — Can I see it?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда просите что-то показать, русский говорит «дай посмотреть», а английский берёт `see`: вы ничего не ищете глазами, картинку вам принесут. **Can I see your ticket, please?** — так спрашивает контролёр. **A new phone? Let me see!** — «дай посмотреть!». А **Can I look your ticket?** ✗ не годится: у `look` нет адреса, да и смысла «покажите» он не несёт. У **Let me see** есть и второе значение — «дай подумать», до него дойдём в микротеме «Понимаю, а не вижу»."
+        },
+        {
+          "type": "heading",
+          "text": "Увидел, заметил, узнал"
+        },
+        {
+          "type": "paragraph",
+          "text": "У взгляда три ступеньки, и русский их тоже различает:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**see** — картинка дошла до глаз",
+            "**notice** — вы обратили на неё внимание",
+            "**recognize** — картинка совпала с памятью, вы узнали"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "На живом примере: **I saw Nick at the party, but I didn't notice his new haircut.** — видел, но не заметил. А **I didn't recognize you!** — «я тебя не узнал!» — при встрече после смены причёски звучит как комплимент, а не как грубость."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «узнать» — это два разных действия: «узнать в лицо» и «узнать новость». `recognize` — только первое: **I recognized the news** ✗ → **I heard the news** ✓. Как слух превращается в «я узнал, что…», разберём в микротеме «Понимаю, а не вижу»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второе значение `recognize` — «признавать» официально: **This diploma is recognized in Germany.** — этот диплом признают в Германии."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`see` не делают, поэтому оно не ставится в Continuous: что видно прямо сейчас — `can see`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What can you see?** — не **What are you seeing?**",
+            "Не видно: **I can't see from here** · **I can't see anything**",
+            "**Do you see it?** и **I didn't see you** — тоже верно",
+            "Дай посмотреть: **Can I see it?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Лесенка"
+        },
+        {
+          "type": "paragraph",
+          "text": "**see** → **notice** → **recognize**: увидел → заметил → узнал в лицо"
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What are you seeing?** ✗ → **What can you see?** ✓",
+            "**Not see from here** ✗ → **I can't see from here** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Тебе видно экран оттуда?",
+          "en": "Can you see the screen from there?"
+        },
+        {
+          "ru": "Мне отсюда ничего не видно.",
+          "en": "I can't see anything from here."
+        },
+        {
+          "ru": "Разве ты не видишь горы?",
+          "en": "Can't you see the mountains?"
+        },
+        {
+          "ru": "Простите, я вас не заметил.",
+          "en": "Sorry, I didn't see you."
+        },
+        {
+          "ru": "Вера не узнала своего старого учителя.",
+          "en": "Vera didn't recognize her old teacher."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя спросить What are you seeing?",
+        "Как сказать «мне не видно», если в английском нужно подлежащее?",
+        "Чем notice отличается от recognize?"
+      ]
+    },
+    {
+      "id": 562,
+      "microtopicId": 209,
+      "title": "Watch = следить: Watch this, Watch your step и ложный друг observe",
+      "order": 6,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "`watch` — держать взгляд на том, что длится. А зачем его держат? Чаще всего — чтобы ничего не пропустить или чтобы ничего не случилось. Из этой простой мысли вырастают фразы, которые звучат каждый день."
+        },
+        {
+          "type": "heading",
+          "text": "Watch this или Look at this"
+        },
+        {
+          "type": "paragraph",
+          "text": "Друг собирается показать трюк с мячом. Русский скажет «смотри!» — и рука построит **Look at this!**. Но смотреть пока не на что: всё интересное впереди, оно ещё только случится. Поэтому носитель скажет **Watch this!** или **Watch me!** — «следи, сейчас будет»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Look at this!** — вот, уже есть: фото, покупка, пятно на рубашке",
+            "**Watch this!** — сейчас произойдёт: трюк, фокус, прыжок"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Та же ось, что во всей теме: `look` — на предмет, `watch` — на процесс."
+        },
+        {
+          "type": "heading",
+          "text": "Watch your step: следи, чтобы не случилось"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда после `watch` стоит что-то ваше, выходит предупреждение: следите за этим, иначе будет плохо. Такие фразы переводим дважды:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Watch your step!** — дословно «следи за своим шагом», по-живому «осторожно, ступенька»",
+            "**Watch your head!** — дословно «следи за своей головой», по-живому «осторожно, не ударьтесь головой»",
+            "**Watch your language!** — дословно «следи за своим языком», по-живому «выбирай выражения»"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Watch` значит и «присмотреть»: **Can you watch my bag for a minute?** — «присмотришь за сумкой минутку?», **Who's watching the kids tonight?** — «кто сегодня сидит с детьми?». Похожие `watch out` («осторожно!») и `look after` («заботиться») мы разберём в темах «Фразы из жизни» и «Одно слово — много значений»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "A watch — это ещё и часы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Одно слово, два значения: **a watch** — наручные часы. Логика та же: вещь, по которой следят за временем. **Nice watch! Is it new?** Настенные часы и часы на башне — это уже **a clock**."
+        },
+        {
+          "type": "heading",
+          "text": "Observe — ложный друг"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Слово «обсервация» подсказывает, что «наблюдать» — это `observe`. Но в быту **We observed the sunset** звучит как запись в научном журнале. `observe` — слово науки и протоколов: **Doctors observed the patient for a week.** А «наблюдать» в обычной речи — это `watch`: **We watched the sunset from the roof** — так и скажут."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`watch` — держать взгляд, чтобы не пропустить или чтобы ничего не случилось."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Сейчас произойдёт → **Watch this!**; уже перед глазами → **Look at this!**",
+            "Предупреждение: **Watch your step** · **Watch your head** · **Watch your language**",
+            "Присмотреть: **Can you watch my bag?**",
+            "**a watch** — наручные часы, **a clock** — настенные"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Наблюдать» в быту — **watch**; **observe** — научное и официальное"
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Смотри! Сейчас кот прыгнет на шкаф.",
+          "en": "Watch! The cat is going to jump onto the wardrobe."
+        },
+        {
+          "ru": "Осторожно, ступенька!",
+          "en": "Watch your step!"
+        },
+        {
+          "ru": "Можешь присмотреть за моим ноутбуком?",
+          "en": "Can you watch my laptop?"
+        },
+        {
+          "ru": "Классные часы! Новые?",
+          "en": "Nice watch! Is it new?"
+        },
+        {
+          "ru": "Мы наблюдали за закатом с крыши.",
+          "en": "We watched the sunset from the roof."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему перед трюком говорят Watch this, а не Look at this?",
+        "Watch your step — это приказ или забота?",
+        "Когда всё-таки уместно слово observe?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -403,9 +1493,134 @@
       "exerciseType": "REVERSE_CHOICE",
       "exerciseId": 88,
       "orderInCard": 2
+    },
+    {
+      "cardId": 557,
+      "exerciseType": "MATCHING",
+      "exerciseId": 88,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 557,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 211,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 557,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 103,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 558,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 81,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 558,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 210,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 558,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 212,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 559,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 93,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 559,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 199,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 559,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 71,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 560,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 122,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 560,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 235,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 560,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 104,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 561,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 107,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 561,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 187,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 561,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 89,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 562,
+      "exerciseType": "MATCHING",
+      "exerciseId": 89,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 562,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 236,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 562,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 213,
+      "orderInCard": 2
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "see_look_watch_card558_ex1",
+      "cardId": 558,
+      "title": "Смотрел, видел или посмотрел",
+      "userInstruction": "Вы получите русскую фразу со словом «смотреть» или «видеть». Напишите, как она звучит по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card560_ex1",
+      "cardId": 560,
+      "title": "Куда смотреть: at, in, out of",
+      "userInstruction": "Вы получите короткую русскую фразу, где кто-то смотрит в окно, в зеркало, на экран или внутрь чего-то. Напишите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "useful_words",
@@ -422,7 +1637,56 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 788,
+      "word": "film",
+      "translation": "фильм",
+      "transcription": "[fɪlm]",
+      "microtopicId": 209,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 789,
+      "word": "sight",
+      "translation": "вид, зрелище, достопримечательности (sights)",
+      "transcription": "[saɪt]",
+      "microtopicId": 209,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 790,
+      "word": "to stare",
+      "translation": "пристально смотреть, уставиться",
+      "transcription": "[steə]",
+      "microtopicId": 209,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 791,
+      "word": "to glance",
+      "translation": "мельком взглянуть",
+      "transcription": "[ɡlɑːns]",
+      "microtopicId": 209,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 792,
+      "word": "mirror",
+      "translation": "зеркало",
+      "transcription": "[ˈmɪrə]",
+      "microtopicId": 209,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 793,
+      "word": "to recognize",
+      "translation": "узнавать (в лицо), признавать",
+      "transcription": "[ˈrekəɡnaɪz]",
+      "microtopicId": 209,
+      "categoryId": "useful_words"
+    }
+  ],
   "table_fill_exercises": [],
   "true_false_exercises": [
     {
@@ -455,9 +1719,60 @@
         }
       ],
       "explanation": "у listen обязателен адрес to — I listened to the radio. У look адрес тоже обязателен: Kate looked at the menu. А сидеть до полуночи у экрана — это watch, see так не работает: My sister watched TV until midnight. Во втором и третьем предложениях всё на месте: у watch никакого предлога не нужно."
+    },
+    {
+      "id": 210,
+      "statements": [
+        {
+          "en": "Did you watch the match on TV last night?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I saw this news by TV.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We went to see a comedy at the cinema.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Have you ever watched the Eiffel Tower?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My parents saw the Rolling Stones live in 1998.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "по телевизору — всегда on TV: I saw this news on TV. Эйфелеву башню не наблюдают часами, её видят как достопримечательность: Have you ever seen the Eiffel Tower? Остальные три верны: матч по телевизору — watch, поход в кино и концерт живьём — see."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 187,
+      "situationRu": "Ситуация: вы на концерте стоите за очень высоким человеком и жалуетесь другу, что сцены вам не видно.",
+      "correctSentence": "I can't see the stage from here.",
+      "words": [
+        "I",
+        "can't",
+        "see",
+        "the stage",
+        "from here"
+      ],
+      "distractors": [
+        "seeing",
+        "am not",
+        "it's",
+        "at"
+      ],
+      "explanation": "русское «не видно» в английском получает подлежащее I и can't, а see остаётся в первой форме без -ing. It's здесь лишнее, а at у see не бывает."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 234,
@@ -500,11 +1815,269 @@
         }
       ],
       "explanation": "watch — держать взгляд на чём-то, что может измениться, то есть «следить». «Видел дверь» было бы I saw the door, а «посмотрел на дверь» — I looked at the door."
+    },
+    {
+      "id": 211,
+      "choiceType": "CHOICE",
+      "prompt": "Kate, ___ this dress! Isn't it lovely?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "watch",
+          "isCorrect": false
+        },
+        {
+          "text": "look at",
+          "isCorrect": true
+        },
+        {
+          "text": "see",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "платье никуда не движется, на него просто бросают взгляд — это look at. Watch нужен тому, что длится во времени, а see не зовёт посмотреть: он сообщает, что картинка уже дошла до глаз."
+    },
+    {
+      "id": 212,
+      "choiceType": "CHOICE",
+      "prompt": "In the museum we ___ at the paintings for two hours.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "watched",
+          "isCorrect": false
+        },
+        {
+          "text": "saw",
+          "isCorrect": false
+        },
+        {
+          "text": "looked",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "картины стоят на месте, их разглядывают — это look at, даже если разглядывали два часа. Watch нужен тому, что движется и меняется, а saw не сочетается с at."
+    },
+    {
+      "id": 235,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мама, посмотри в окно — там снег!",
+      "contextRu": "дома, утром",
+      "options": [
+        {
+          "text": "Mum, look at the window — it's snowing!",
+          "isCorrect": false
+        },
+        {
+          "text": "Mum, look through of the window — it's snowing!",
+          "isCorrect": false
+        },
+        {
+          "text": "Mum, look out of the window — it's snowing!",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вы дома, а снег на улице — взгляд уходит изнутри наружу, это out of. Look at the window значило бы разглядывать само окно, а through и of вместе не ставятся."
+    },
+    {
+      "id": 89,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I didn't recognize you with glasses!",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я не заметил тебя в очках!",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не видел тебя в очках!",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не узнал тебя в очках!",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "recognize — картинка совпала с памятью, то есть «узнал в лицо». Не заметил — это didn't notice, а не видел — didn't see."
+    },
+    {
+      "id": 236,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Гриша встаёт на скейт и кричит другу: «Смотри, сейчас перепрыгну лужу!»",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Watch this, I'm going to jump over the puddle!",
+          "isCorrect": true
+        },
+        {
+          "text": "Look at this, I'm going to jump over the puddle!",
+          "isCorrect": false
+        },
+        {
+          "text": "See this, I'm going to jump over the puddle!",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "прыжок ещё не случился, другу нужно следить за тем, что вот-вот произойдёт, — это watch. Look at this показывает то, что уже есть перед глазами, а see this так не зовут."
+    },
+    {
+      "id": 213,
+      "choiceType": "CHOICE",
+      "prompt": "Can you ___ the kids while I go to the shop?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "watch",
+          "isCorrect": true
+        },
+        {
+          "text": "look",
+          "isCorrect": false
+        },
+        {
+          "text": "see",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "присмотреть за детьми — держать на них взгляд, чтобы ничего не случилось, это watch. У look без at нет адреса, а see значило бы просто «увидеть»."
     }
   ],
-  "text_input_exercises": [],
-  "dialog_restore_exercises": [],
-  "matching_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 103,
+      "items": [
+        {
+          "sentence": "We ___ Denis at the airport yesterday.",
+          "contextRu": "",
+          "answer": "saw",
+          "alternatives": []
+        },
+        {
+          "sentence": "Has Mia ever ___ a real volcano?",
+          "contextRu": "",
+          "answer": "seen",
+          "alternatives": []
+        },
+        {
+          "sentence": "I've never ___ snow in July.",
+          "contextRu": "",
+          "answer": "seen",
+          "alternatives": []
+        }
+      ],
+      "explanation": "когда названо прошлое время (yesterday), нужна вторая форма saw. После has и have — всегда третья форма seen, а saw после них не ставится.",
+      "taskDescription": "Впиши нужную форму глагола see."
+    },
+    {
+      "id": 104,
+      "items": [
+        {
+          "sentence": "Look ___ your pocket, maybe your ticket is there.",
+          "contextRu": "",
+          "answer": "in",
+          "alternatives": []
+        },
+        {
+          "sentence": "On the train I always look ___ the window at the fields.",
+          "contextRu": "",
+          "answer": "out of",
+          "alternatives": []
+        },
+        {
+          "sentence": "The kids looked ___ the fence at the dogs.",
+          "contextRu": "",
+          "answer": "through",
+          "alternatives": []
+        }
+      ],
+      "explanation": "в карман заглядывают внутрь — in. Из поезда взгляд уходит наружу, на поля, — out of. Сквозь забор взгляд проходит насквозь — through.",
+      "taskDescription": "Впиши в каждое предложение подходящий предлог из банка.",
+      "wordBank": [
+        "through",
+        "in",
+        "out of"
+      ]
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 81,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you seen my phone? I can't find it anywhere."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "No, I haven't watched it.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, sorry, I haven't seen it.",
+          "isCorrect": true
+        },
+        {
+          "text": "No, I didn't look it.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "вопрос «ты не видел мой телефон?» — про то, попадался ли он на глаза, поэтому в ответе тоже seen. Watched значило бы, что за телефоном следили, а у look без at нет адреса."
+    }
+  ],
+  "matching_exercises": [
+    {
+      "id": 88,
+      "taskDescription": "соедини русскую фразу с английской.",
+      "pairs": [
+        {
+          "left": "заметил поезд",
+          "right": "saw a train"
+        },
+        {
+          "left": "посмотрел на поезд",
+          "right": "looked at a train"
+        },
+        {
+          "left": "наблюдал за поездом",
+          "right": "watched a train"
+        },
+        {
+          "left": "ни разу не видел такой поезд",
+          "right": "have never seen a train like that"
+        }
+      ],
+      "explanation": "заметил — картинка пришла сама, это saw. Посмотрел на — взгляд на предмет, это looked at. Наблюдал — держал взгляд, пока поезд ехал, это watched. Ни разу не видел — опыт за всю жизнь, поэтому have never seen."
+    },
+    {
+      "id": 89,
+      "taskDescription": "соедини фразу с тем, что она значит.",
+      "pairs": [
+        {
+          "left": "Watch your fingers!",
+          "right": "Осторожно, прищемишь пальцы"
+        },
+        {
+          "left": "Watch the milk!",
+          "right": "Следи, чтобы молоко не убежало"
+        },
+        {
+          "left": "Watch this!",
+          "right": "Смотри, что сейчас будет"
+        },
+        {
+          "left": "Look at this!",
+          "right": "Посмотри, что у меня есть"
+        }
+      ],
+      "explanation": "watch со своим — предупреждение «следи, чтобы не случилось»: пальцы, молоко. Watch this зовёт следить за тем, что вот-вот произойдёт, а look at this показывает то, что уже перед глазами."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 198,
@@ -524,10 +2097,73 @@
         }
       ],
       "explanation": "матч по телевизору идёт весь вечер, и человек следит за ним — это watch. Look at годится для предмета, на который вы бросили взгляд, а без at глагол look вообще не берёт объект."
+    },
+    {
+      "id": 199,
+      "wrongSentence": "Look at there, a rainbow!",
+      "options": [
+        {
+          "text": "Look over there, a rainbow!",
+          "isCorrect": true
+        },
+        {
+          "text": "Look at over there, a rainbow!",
+          "isCorrect": false
+        },
+        {
+          "text": "Look to there, a rainbow!",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "there уже значит «туда», поэтому адрес at перед ним не нужен — как не нужен предлог перед home. Вместо предлога ставят over: Look over there."
     }
   ],
-  "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 71,
+      "construction": "Why is that man staring at us?",
+      "options": [
+        {
+          "text": "Почему тот мужчина мельком глянул на нас?",
+          "isCorrect": false
+        },
+        {
+          "text": "Почему тот мужчина на нас уставился?",
+          "isCorrect": true
+        },
+        {
+          "text": "Почему тот мужчина за нами следит?",
+          "isCorrect": false
+        },
+        {
+          "text": "Почему тот мужчина нас не видит?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "stare at — смотреть долго и пристально, то есть уставиться. Мельком глянуть — это glance at, следить — watch, а «не видит» было бы can't see."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 93,
+      "taskDescription": "спроси, на что или на кого смотрят.",
+      "items": [
+        {
+          "original": "Tom is looking at the clock.",
+          "transformed": "What is Tom looking at?"
+        },
+        {
+          "original": "The kids are staring at the new teacher.",
+          "transformed": "Who are the kids staring at?"
+        },
+        {
+          "original": "Lucy glanced at her boss.",
+          "transformed": "Who did Lucy glance at?"
+        }
+      ],
+      "explanation": "в начало вопроса выходит только what или who, а at остаётся стоять сразу после глагола. Про прошлое вопрос собирается через did, и глагол после него возвращается в первую форму: glance."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 121,
@@ -556,6 +2192,37 @@
         }
       ],
       "explanation": "see — картинка попала в глаза сама, вы её не искали; look at — вы сами направили взгляд на предмет; watch — держите взгляд на том, что движется или длится во времени."
+    },
+    {
+      "id": 122,
+      "taskDescription": "распредели, куда смотрят, по предлогу после look.",
+      "categories": [
+        {
+          "title": "out of",
+          "items": [
+            "Из окна офиса на улицу",
+            "Из окна автобуса",
+            "Из окна самолёта вниз"
+          ]
+        },
+        {
+          "title": "through",
+          "items": [
+            "С улицы в окно кафе",
+            "В замочную скважину",
+            "В щель в двери"
+          ]
+        },
+        {
+          "title": "in",
+          "items": [
+            "В зеркало",
+            "В шкаф",
+            "В карман"
+          ]
+        }
+      ],
+      "explanation": "out of — вы внутри, и взгляд уходит наружу. Through — взгляд проходит сквозь что-то: стекло, скважину, щель. In — взгляд внутрь того, что перед вами, или в отражение."
     }
   ],
   "find_the_odd_exercises": [
@@ -581,6 +2248,29 @@
         }
       ],
       "explanation": "look at, listen to и watch — это действия: вы сами направляете взгляд или слух и держите внимание. Hear работает наоборот: уши не закроешь, звук доходит сам, выбирать тут нечего."
+    },
+    {
+      "id": 107,
+      "groupDescription": "Три формы спокойно встают в Continuous про взгляд, одна — нет",
+      "items": [
+        {
+          "text": "watching",
+          "isOdd": false
+        },
+        {
+          "text": "looking",
+          "isOdd": false
+        },
+        {
+          "text": "staring",
+          "isOdd": false
+        },
+        {
+          "text": "seeing",
+          "isOdd": true
+        }
+      ],
+      "explanation": "watch, look и stare — действия, вы сами держите взгляд, поэтому What are you watching? звучит нормально. See с вами случается само, и про то, что видно прямо сейчас, говорят What can you see?"
     }
   ]
 }
