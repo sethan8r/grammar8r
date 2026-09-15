@@ -4,8 +4,10 @@ import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseChip
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseFrame
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.PackedPool
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.detectChipDrag
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.hitTest
+import dev.sethan8r.grammar.app.ui.components.exercise.parts.rememberPackedPoolState
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.VectorConverter
@@ -32,7 +34,6 @@ import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -90,7 +91,8 @@ private const val POOL_COLS = 2
  * пул ↔ колонки (туда-обратно). Жест — на КОНТЕЙНЕРЕ (хит-тест элемента под пальцем), оверлей —
  * сиблингом фрейма (поверх клипа); зона сброса определяется по координатам колонок/пула. Ширина
  * оверлея анимированно подгоняется под слот под пальцем (колонка уже слота пула, когда категорий
- * три) — приземляется чип уже нужного размера, без скачка. Вердикт
+ * три) — приземляется чип уже нужного размера, без скачка. Пул на старте собран по высоте чипов
+ * ([PackedPool]): в строке стоят чипы одной высоты, разновысокие строки — внизу. Вердикт
  * all-or-nothing: на реванше каждый элемент уезжает в свою колонку (показ ответа), при этом изначально
  * верно лежавшие — зелёные, ошибочные — красные (видно и правильный ответ, и где была ошибка).
  */
@@ -120,14 +122,9 @@ fun CategorizationExerciseView(
     // Раскладка: id элемента → индекс колонки. Отсутствует в карте ⟺ элемент в пуле.
     val placement = remember(exercise.id) { mutableStateMapOf<Int, Int>() }
 
-    // Ячейки пула (id или null-дыра). Изъятый в колонку → дыра на его месте (соседи не съезжают);
-    // вернувшийся → в первую дыру видимой строки, а если таких нет (строка схлопнулась) — в конец (снизу).
-    val poolCells = remember(exercise.id) {
-        mutableStateListOf<Int?>().apply { items.forEach { add(it.id) } }
-    }
     val itemById = remember(exercise.id) { items.associateBy { it.id } }
-    // Чипов в строке пула — считается в BoxWithConstraints, публикуется сюда для onEnd (см. возврат).
-    var perRow by remember(exercise.id) { mutableIntStateOf(1) }
+    val itemIds = remember(exercise.id) { items.map { it.id } }
+    val pool = rememberPackedPoolState(keys = itemIds, columns = POOL_COLS)
 
     // Порядок внутри колонки: новый сброшенный элемент — в конец.
     val order = remember(exercise.id) {
@@ -236,18 +233,10 @@ fun CategorizationExerciseView(
                                 order[item.id] = nextSeq
                                 nextSeq += 1
                             }
-                            // Поле пула: ушёл в колонку → дыра на его месте; вернулся в пул → в первую дыру
-                            // видимой (непустой) строки, иначе — в конец (снизу).
                             if (fromCol == null && toCol != null) {
-                                val idx = poolCells.indexOf(item.id)
-                                if (idx >= 0) poolCells[idx] = null
+                                pool.take(item.id)
                             } else if (fromCol != null && toCol == null) {
-                                val hole = poolCells.indices.firstOrNull { i ->
-                                    poolCells[i] == null &&
-                                        poolCells.subList((i / perRow) * perRow, minOf((i / perRow) * perRow + perRow, poolCells.size))
-                                            .any { it != null }
-                                }
-                                if (hole != null) poolCells[hole] = item.id else poolCells.add(item.id)
+                                pool.putBack(item.id)
                             }
                             commit()
                             // Плавно «довозим» оверлей до места, где чип осядет. Сменилась зона → ждём новый
@@ -294,11 +283,9 @@ fun CategorizationExerciseView(
                     val chipWidth = columnWidth - Dimens.spaceSmall * 2
                     // Пул всегда в два слота половинной ширины — при двух категориях его чипы стоят
                     // ровно под чипами колонок, при трёх остаются такими же широкими.
-                    val cols = POOL_COLS
                     val poolSlotWidth = (maxWidth - Dimens.spaceSmall) / POOL_COLS
                     val poolChipWidth = poolSlotWidth - Dimens.spaceSmall * 2
                     SideEffect {
-                        perRow = cols
                         dragColumnWidth = chipWidth
                         dragPoolWidth = poolChipWidth
                     }
@@ -336,46 +323,28 @@ fun CategorizationExerciseView(
 
                         Spacer(Modifier.height(Dimens.spaceXLarge))
 
-                        // --- Пул (нераспределённые) — фикс. сетка по poolCells: у каждого свой слот, по
-                        // горизонтали ничего не съезжает. Изъятый оставляет ДЫРУ (пустой слот той же
-                        // ширины), целиком пустая строка не рендерится. Пул как «зона» не регистрируется:
-                        // брошенный мимо колонок возвращается сюда.
-                        Column(
+                        // --- Пул (нераспределённые): слоты фикс. ширины, изъятый оставляет дыру, пустая
+                        // строка не занимает места. На реванше placement проставлен всем — пул схлопывается
+                        // целиком. Пул как «зона» не регистрируется: брошенный мимо колонок возвращается сюда.
+                        PackedPool(
+                            state = pool,
+                            slotWidth = poolSlotWidth,
+                            horizontalSpacing = Dimens.spaceSmall,
+                            verticalSpacing = Dimens.spaceSmall,
+                            isVisible = { id -> placement[id] == null },
                             modifier = Modifier.fillMaxWidth(),
-                            verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
-                        ) {
-                            poolCells.chunked(cols).forEachIndexed { rowIndex, rowCells ->
-                                // Пустая строка не рендерится. Ячейка = дыра, если пусто или элемент уже в
-                                // колонке (на реванше placement проставлен всем — пул схлопывается целиком).
-                                if (rowCells.all { it == null || placement[it] != null }) return@forEachIndexed
-                                key(rowIndex) {
-                                    Row(horizontalArrangement = Arrangement.spacedBy(Dimens.spaceSmall)) {
-                                        rowCells.forEach { id ->
-                                            val item = id?.let { itemById[it] }?.takeIf { placement[it.id] == null }
-                                            // Слот половинной ширины: чип внутри центрирован так же, как в колонке.
-                                            Box(
-                                                modifier = Modifier.width(poolSlotWidth),
-                                                contentAlignment = Alignment.Center,
-                                            ) {
-                                                if (item != null) {
-                                                    val (border, fill) = chipVisual(item)
-                                                    key(item.id) {
-                                                        CatChip(
-                                                            text = item.text,
-                                                            width = poolChipWidth,
-                                                            background = fill,
-                                                            border = border,
-                                                            contentAlpha = if (item == dragging || item == releasing) 0f else 1f,
-                                                            onGeometry = { c, s -> centers[item.id] = c; sizes[item.id] = s },
-                                                            wrapperCoords = wrapperCoords,
-                                                        )
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
+                        ) { id ->
+                            val item = itemById.getValue(id)
+                            val (border, fill) = chipVisual(item)
+                            CatChip(
+                                text = item.text,
+                                width = poolChipWidth,
+                                background = fill,
+                                border = border,
+                                contentAlpha = if (item == dragging || item == releasing) 0f else 1f,
+                                onGeometry = { c, s -> centers[item.id] = c; sizes[item.id] = s },
+                                wrapperCoords = wrapperCoords,
+                            )
                         }
                     }
                 }
