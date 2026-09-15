@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 563 |
-| Categorization | 123 |
+| Card | 567 |
+| Categorization | 124 |
 | Category | 8 |
-| ConstructionMeaning | 72 |
-| DialogRestore | 82 |
-| ErrorCorrection | 200 |
-| FindTheOdd | 108 |
-| Matching | 90 |
-| Microtopic | 210 |
-| MultipleChoice·CHOICE | 214 |
-| MultipleChoice·FORWARD_CHOICE | 237 |
-| MultipleChoice·REVERSE_CHOICE | 90 |
+| ConstructionMeaning | 73 |
+| DialogRestore | 83 |
+| ErrorCorrection | 201 |
+| FindTheOdd | 109 |
+| Matching | 91 |
+| Microtopic | 211 |
+| MultipleChoice·CHOICE | 215 |
+| MultipleChoice·FORWARD_CHOICE | 238 |
+| MultipleChoice·REVERSE_CHOICE | 91 |
 | TableFill | 42 |
-| TextInput | 105 |
+| TextInput | 106 |
 | Topic | 34 |
 | Transformation | 94 |
-| TrueFalse | 211 |
-| WordArrangement | 188 |
-| course_word | 794 |
+| TrueFalse | 212 |
+| WordArrangement | 189 |
+| course_word | 800 |
 
 ## Диапазоны по темам
 
@@ -580,23 +580,23 @@
 - WordArrangement: 107–108 (2)
 
 ### see-look-watch
-- Card: 555–562 (8)
-- Categorization: 121–122 (2)
-- ConstructionMeaning: 71–71 (1)
-- DialogRestore: 81–81 (1)
-- ErrorCorrection: 198–199 (2)
-- FindTheOdd: 106–107 (2)
-- Matching: 88–89 (2)
-- Microtopic: 208–209 (2)
-- MultipleChoice·CHOICE: 211–213 (3)
-- MultipleChoice·FORWARD_CHOICE: 234–236 (3)
-- MultipleChoice·REVERSE_CHOICE: 88–89 (2)
-- TextInput: 103–104 (2)
+- Card: 555–566 (12)
+- Categorization: 121–123 (3)
+- ConstructionMeaning: 71–72 (2)
+- DialogRestore: 81–82 (2)
+- ErrorCorrection: 198–200 (3)
+- FindTheOdd: 106–108 (3)
+- Matching: 88–90 (3)
+- Microtopic: 208–210 (3)
+- MultipleChoice·CHOICE: 211–214 (4)
+- MultipleChoice·FORWARD_CHOICE: 234–237 (4)
+- MultipleChoice·REVERSE_CHOICE: 88–90 (3)
+- TextInput: 103–105 (3)
 - Topic: 33–33 (1)
 - Transformation: 93–93 (1)
-- TrueFalse: 209–210 (2)
-- WordArrangement: 187–187 (1)
-- course_word: 788–793 (6)
+- TrueFalse: 209–211 (3)
+- WordArrangement: 187–188 (2)
+- course_word: 788–799 (12)
 
 ### so-such-too-enough
 - Card: 429–440 (12)

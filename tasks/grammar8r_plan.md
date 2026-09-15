@@ -5222,30 +5222,38 @@ theory/
 │   │      превышен осознанно; `screen` уже слит в Present Perfect, `observe` не сливаем — карточка
 │   │      учит его НЕ говорить).
 │   │
-│   ├── МТ · Hear, listen · Слышать и слушать
-│   │   ├── Card · ⭐ Формы строкой: `hear – heard – heard` + heard [[hɜːd]] (разбора форм не
-│   │   │   устраивать). Та же ось на слух: `hear` = звук САМ дошёл до ушей (уши не закроешь — не
-│   │   │   выбираешь), `listen` = ты САМ направил слух и держишь внимание. Пара на одной сцене:
-│   │   │   I heard a noise outside ↔ I was listening to the radio. Русскому пара «слышать/слушать»
-│   │   │   знакома, но границы НЕ совпадают: мы говорим «слушай, что там за шум?» там, где англичанин
-│   │   │   скажет `Can you hear that?` (⚠️ именно can — `Do you hear…?` звучит как нажим, см. Блок 8).
-│   │   │   Следствие оси: `Are you listening?` ✓ / `I'm hearing music` ✗ → `I can hear music`.
-│   │   │   Ловушка `I listened a noise` ✗. Произношение: listen [[ˈlɪsn]], heard [[hɜːd]].
-│   │   ├── Card · listen to / hear: у listen есть адрес — `listen to me` ✓ / `listen me` ✗;
-│   │   │   `hear me` ✓ / `hear to me` ✗. Таблица на четыре глагола сразу (look at · see · listen to ·
-│   │   │   hear) — предлог запоминается по логике «направил сам → нужен адрес», а не списком.
-│   │   │   ⭐ Вопрос с предлогом в конце, как у look at: `Who are you listening to?` ·
-│   │   │   `What are you listening to?`; отрицательный вопрос `Aren't you listening to me?`.
-│   │   │   `Listen!` без объекта — можно (адреса нет, когда не называешь, кого слушать).
-│   │   │   + ЗАХОДЫ В РЕЧЬ: `Listen, …` / `Look, …` = русское «слушай, …» перед важным. ⚠️ `Look, …`
-│   │   │   звучит с нажимом («Look, I'm tired of this» = «слушай, хватит»), русское ухо читает «смотри».
-│   │   └── Card · Слушать и слушаться: `listen to` — это И «слушать», И «слушаться, прислушиваться»:
-│   │       `He never listens to me` = «он меня не слушается», `You should listen to your doctor`.
-│   │       ⚠️ Ловушка — наоборот: русский тянет в «слушаться» `obey`, а оно про законы, приказы и
-│   │       правила (obey the law); про ребёнка звучит казённо. Живое: `listen to Mum`,
-│   │       `do what Mum says`, `Behave!` (веди себя хорошо; to behave уже слит — строкой).
-│   │       Полная противоположность — `ignore`: «He ignores me» = не слушает вовсе.
-│   │   🔤 Слив: `to ignore` (+ подобрать при написании, ≤5).
+│   ├── МТ210 · Hear, listen · Слышать и слушать (4 карточки, 2 AI) ✅ (написана, ALL GREEN 15.09.26)
+│   │   ⚠️ Ось, «слушай, что за шум?» → Can you hear that? и ловушка Listen me — уже в МТ208
+│   │      (Card 555–556), здесь отсылкой. «Не видно» / can see — Card 561, слух строится зеркально.
+│   │   ├── Card 563 · Hear и listen: звук пришёл сам или вы слушаете — ось на слух (уши не
+│   │   │   закроешь); I was listening to the radio when I heard a noise; датчик «слушал, но не
+│   │   │   услышал» (I listened carefully, but I didn't hear anything); I'm hearing ✗ → can hear
+│   │   │   (Формула); I listened a noise ✗; noise ↔ sound + voice; формы hear – heard – heard,
+│   │   │   heard рифмуется с bird, hear = here, listen [[ˈlɪsn]]; Кстати: hear в Continuous бывает
+│   │   │   в смысле «до меня доходят новости» — обещано карточке «Hear = узнать». Без AI.
+│   │   ├── Card 564 · Не слышно и не расслышал: can't hear и didn't catch — безличное «не
+│   │   │   слышно» получает подлежащее (I can't hear you, Can't you hear the doorbell?), ловушка
+│   │   │   Not hear / It's bad hear; could hear в прошлом + Couldn't you hear the alarm?;
+│   │   │   «не расслышал» → Sorry, I didn't catch that + speak up / say that again / Sorry?;
+│   │   │   Кстати You're breaking up; Do you hear that? ✓ (запрещён только Continuous); Важно:
+│   │   │   Can you hear me? про связь ↔ Do you hear me? нажим (разбор — Блок 8); can't hear
+│   │   │   very well как способность. AI see_look_watch_card564_ex1 (RU→EN про слух, GENERAL).
+│   │   ├── Card 565 · Listen to: музыка, радио и вопрос с предлогом в конце — таблица адресов на
+│   │   │   пять глаголов (look at · see · listen to · hear · watch); I listen music ✗; hear про
+│   │   │   музыку, что играла сама; on the radio (не by); Have you heard (опыт) ↔ I've listened
+│   │   │   (сам слушал); What are you listening to? (Формула, ловушки в обе стороны), What kind
+│   │   │   of music do you listen to?; Listen! / Listen to this! без адреса и с ним; Aren't you
+│   │   │   listening to me?; Кстати Listen here! — грубое «слушай сюда». Без AI.
+│   │   └── Card 566 · Русское «слушать»: слушай, слушаю, слушаться, подслушал — Listen, … ↔
+│   │       Look, … (Не путай: мягко ↔ с нажимом); «слушаю» ≠ I'm listening → Hello? / How can I
+│   │       help you? / What can I get you?, но Go on, I'm listening ✓; listen to = слушаться и
+│   │       прислушаться, Be good / Do what Grandma says; Важно: obey — законы, приказы, собака,
+│   │       про детей казённо; ignore — всегда нарочно (Ловушка Sorry, I ignored your message ✗);
+│   │       overhear (случайно, как hear) ↔ eavesdrop on (нарочно, как listen).
+│   │       AI see_look_watch_card566_ex1 (RU→EN русское «слушать» в разных ролях, GENERAL).
+│   │   🔤 Слив: `sound`, `voice`, `podcast`, `to ignore`, `to obey`, `to eavesdrop` (6 — потолок
+│   │      превышен осознанно; `to obey` и `to eavesdrop` — на понимание, решение пользователя
+│   │      15.09.2026; `to overhear` не сливаем — неправильный, `to catch` — тоже).
 │   │
 │   ├── МТ · See him do / doing · Видел, как он…
 │   │   ⭐ Главная грамматика темы: работает у всех глаголов восприятия сразу (see, hear, watch,
@@ -5293,6 +5301,8 @@ theory/
 │   │   │   `Watch for cars when you cross`. Ровно та же ось: look — сам пошёл искать, watch —
 │   │   │   держу взгляд на том, что вот-вот произойдёт. Ловушка: `watch for my keys` ✗ — ключи
 │   │   │   никуда не появятся сами. Указатель: `watch out` («осторожно») — «Фразы из жизни».
+│   │   │   + слуховой близнец строкой (добавлено 15.09.2026): `listen for` — ждать звука, держа
+│   │   │   слух наготове: `Listen for the doorbell` («прислушивайся, не позвонят ли в дверь»).
 │   │   └── Card · `search` — искать тщательно / обыскивать. Три отличия от look for: звучит серьёзнее
 │   │       (полиция, спасатели, поиск в интернете — search for / search online); `search + место`
 │   │       значит ОБЫСКАТЬ («They searched my bag» = обыскали сумку, а не «искали сумку» — вот тут
@@ -5333,6 +5343,9 @@ theory/
 │   │       «я тебя слышу», а «понял, принял» (часто «услышал, но сделаю по-своему»); ДОМ разбора
 │   │       здесь, в «Социальном взаимодействии» — строка-опора. `I'm sorry to hear that` — указатель
 │   │       на Блок 8 (сочувствие).
+│   │       📌 ОБЕЩАНО в Card 563 (плашка «Кстати»): hear в Continuous бывает в смысле «доходят
+│   │       новости» — `I've been hearing a lot about you`, `I'm hearing good things about the
+│   │       new café`; дать здесь строкой как контраст к I'm hearing music ✗.
 │   │
 │   └── МТ · Live Practice · Глаза, уши и голова  (ОДНА карточка, 3 AI, без хардкода и без Sync)
 │       └── Card · Живая практика · Theory — сжатый пересказ темы: ось «кто кого нашёл» таблицей на
@@ -8161,6 +8174,9 @@ theory/
 │   │   ├── 🆕 Can you hear me? / Do you hear me? / I hear you — одна фраза по-русски, три разных
 │   │   │   сообщения (добавлено 28.08.2026, запрос пользователя). Русский всё это говорит одним
 │   │   │   «ты меня слышишь?» и не слышит разницы вообще — отсюда карточка.
+│   │   │   ⬅️ База уже дана в теме «Смотреть, слушать и понимать», Card 564 (плашка «Важно»:
+│   │   │     Can you hear me? про связь ↔ Do you hear me? нажим; там же You're breaking up и
+│   │   │     Sorry, I didn't catch that) — здесь разворачиваем тон, не повторяя базу.
 │   │   │   • `Can you hear me?` — про физику и связь: слышно меня? Нейтрально, звонок, шумная улица.
 │   │   │   • `Do you hear me?` — НЕ вопрос о слышимости: нажим, раздражение, у родителя или
 │   │   │     начальника почти угроза («ты меня понял вообще?»). Русское «ты меня слышишь?»

@@ -1052,26 +1052,612 @@ B: ___
 
 ---
 
+## Microtopic 210 — Hear, listen · Слышать и слушать
+
+**ID:** 210 | **Order:** 3
+**Теги:** can hear, не слышно, не расслышал, hear heard heard, listen music, как ответить слушаю, obey или listen to, overhear или eavesdrop
+
+---
+
+### Card 563 · Hear и listen: звук пришёл сам или вы слушаете
+
+**ID:** 563 | **Order:** 1
+
+#### Theory
+
+С глазами мы разобрались: пришло само — `see`, направили взгляд — `look`. Уши устроены точно так же, только глаголов у них два. `hear` — звук сам дошёл до ушей. `listen` — вы сами направили слух и держите на звуке внимание.
+
+**Уши не закроешь**
+
+Глаза можно зажмурить, а уши — нет. Звук приходит, хотите вы того или нет: сосед сверлит стену, за окном сирена, в магазине играет песня. Это и есть `hear` — вы ничего не делаете, слух просто работает.
+
+`listen` начинается там, где вы что-то делаете сами: включили подкаст, сели послушать друга, замерли у двери, чтобы разобрать слова. Одна сцена показывает оба глагола сразу: **I was listening to the radio when I heard a noise outside.** Радио вы включили сами и следили за ним — `listening`. Шум на улице пришёл без спроса — `heard`.
+
+Хорошая новость: у русского есть та же пара, «слушать» и «слышать», и в большинстве фраз она совпадает с английской. «Я слушаю музыку» — включил сам, «я слышу музыку» — она доносится. Спотыкаемся мы в двух местах. Первое мы уже видели в первой микротеме: русский говорит «**слушай**, что за шум?», хотя никто не слушает, — а англичанин спросит **Can you hear that?**. Второе — безличное «слышно» и «не слышно», где у русского вообще нет того, кто слышит. Ему посвящена следующая карточка.
+
+**Слушал, но не услышал**
+
+Лучше всего разница видна, когда оба глагола стоят в одной фразе:
+
+- **I listened carefully, but I didn't hear anything.** — я внимательно слушал, но ничего не услышал
+- **Megan was listening at the door, but she couldn't hear a word.** — Меган слушала под дверью, но не разобрала ни слова
+
+Первая половина — ваше усилие, вторая — результат, который от вас не зависит. Русский устроен так же: «слушал» — процесс, «услышал» — дошло или не дошло. Отсюда простая проверка: если по-русски можно сказать «услышал», английский почти всегда возьмёт `hear`.
+
+**Почему нет I'm hearing**
+
+`listen` — действие, поэтому оно спокойно встаёт в Continuous: **Are you listening?** ✓, **Nastya is listening to a podcast.** ✓. А `hear` вы не делаете: оно с вами случается, как `see`. Английский и выход берёт тот же, что с глазами, — `can`:
+
+**Формула:** can + hear
+
+Так и говорят: **I can hear music from next door.** — «я слышу музыку из соседней квартиры». `can` здесь значит не «умею», а «звук доходит прямо сейчас» — точно как в **What can you see?**.
+
+**Ловушка:** русское «я слышу» звучит про прямо сейчас, и рука строит Continuous: **I'm hearing a strange noise** ✗ → **I can hear a strange noise** ✓.
+
+**У hear нет адреса**
+
+Звук приходит сам, направлять ничего не нужно, поэтому `hear` берёт то, что слышно, без всякого предлога: **I heard a noise** ✓. А вот `listen` перед тем, что слушают, без адреса `to` не работает, и русское «слушал шум» тянет в ошибку.
+
+**Ловушка:** **I listened a noise** ✗. Если шум пришёл сам — **I heard a noise** ✓. Если вы нарочно вслушивались — **I listened to the noise** ✓. Адрес `to` подробно разберём через карточку.
+
+**Звук, шум и голос**
+
+Слово `noise` мы уже знаем — это шум, обычно лишний и неприятный: стройка, перфоратор, гул машин. `sound` — любой звук, хоть приятный, хоть нейтральный: **I love the sound of rain.** · **What's that sound?** У голоса своё слово — `voice`: **I can hear voices in the corridor.** — в коридоре слышны голоса.
+
+**Формы и произношение**
+
+`hear` — неправильный глагол: **hear → heard → heard**, звучат они [[hɪə]] → [[hɜːd]] → [[hɜːd]]. Прошлое — **I heard a great joke yesterday**, перфект — **I've never heard this song before**.
+
+Произношение ловит почти всех. `heard` рифмуется не с `hear`, а с `bird`: [[hɜːd]]. Сам `hear` звучит точно так же, как `here`, — отсюда шутливое **Can you hear me? I'm here!** А в `listen` буква t не читается: [[ˈlɪsn]].
+
+**Кстати:** `hear` в Continuous всё-таки бывает, но уже в другом смысле — не «звук доходит», а «до меня доходят новости». Это второй этаж темы, до него дойдём в микротеме «Понимаю, а не вижу».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Звук пришёл сам — `hear`; вы сами слушаете — `listen`.
+
+- **I listened, but I didn't hear anything** — слушал, но не услышал
+- Слышно прямо сейчас — **I can hear music**; но **Are you listening?** ✓
+- **noise** — шум, **sound** — любой звук, **voice** — голос
+- Формы: **hear → heard → heard**, heard [[hɜːd]]
+
+**Частые ошибки**
+
+- **I'm hearing a noise** ✗ → **I can hear a noise** ✓
+- **I listened a noise** ✗ → **I heard a noise** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2546 | Ты слышал этот звук? | Did you hear that sound? |
+| 2547 | Настя слушает подкаст о космосе. | Nastya is listening to a podcast about space. |
+| 2548 | Я слышу музыку из соседней квартиры. | I can hear music from next door. |
+| 2549 | Мы слушали, но ничего не услышали. | We listened, but we didn't hear anything. |
+| 2550 | Жанна узнала голос брата в толпе. | Zhanna recognized her brother's voice in the crowd. |
+
+---
+
+#### Exercises
+
+**Ex 25 · Categorization** *(ID: 123)*
+
+Задание: распредели звуки по тому, каким глаголом о них скажут.
+
+| hear | listen to |
+|------|-----------|
+| Сирена за окном | Включил аудиокнигу |
+| Храп соседа | Любимый альбом в наушниках |
+| Гром ночью | Лекция, пишу конспект |
+| Песня в магазине | Голосовое от друга |
+
+*Explanation:* hear — звук пришёл сам, вы для этого ничего не делали: сирена, храп, гром и песня в магазине звучат без вашего участия. Listen to — вы сами включили, выбрали или сели вслушиваться.
+
+---
+
+**Ex 26 · ErrorCorrection** *(ID: 200)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Wait, I'm hearing a car outside."
+
+- Wait, I'm listening a car outside.
+- Wait, I hearing a car outside.
+- **Wait, I can hear a car outside.** ✓
+
+*Explanation:* hear не делают — звук доходит сам, поэтому в Continuous этот глагол не ставят. Про то, что слышно прямо сейчас, говорят I can hear. Listen здесь не подходит по смыслу, а без to он и объект не берёт.
+
+---
+
+**Ex 27 · MultipleChoice · REVERSE_CHOICE** *(ID: 90)*
+
+"Lily was listening to the lecture, but she didn't hear the last question."
+
+- **Лили слушала лекцию, но не услышала последний вопрос.** ✓
+- Лили слышала лекцию, но не слушала последний вопрос.
+- Лили не слушала лекцию, поэтому не услышала вопрос.
+
+*Explanation:* was listening — сама направляла слух, это «слушала». Didn't hear — вопрос так и не дошёл до ушей, это «не услышала». Усилие было, а результата нет.
+
+---
+
+#### Clarification Options
+
+- Почему нельзя сказать I'm hearing, если слышу прямо сейчас?
+- Чем sound отличается от noise?
+- Как понять, что нужен hear, а не listen?
+
+---
+
+### Card 564 · Не слышно и не расслышал: can't hear и didn't catch
+
+**ID:** 564 | **Order:** 2
+
+#### Theory
+
+Звонок, шумная улица, кафе с громкой музыкой — самые частые места, где мы вообще говорим про слух. И почти всё, что там звучит, — отрицание: «не слышно», «плохо слышно», «не расслышал».
+
+**Мне тебя не слышно**
+
+Русский говорит про слух безлично: «не слышно», «ничего не слышно», «плохо слышно». Английскому подлежащее нужно всегда, и он ставит того, до кого звук не доходит, — ровно как «не видно» в карточке «See приходит само»:
+
+- **I can't hear you.** — тебя не слышно
+- **I can't hear anything, the music is too loud.** — ничего не слышно, музыка слишком громкая
+- **Can you hear me now?** — а сейчас меня слышно?
+- **Can't you hear the doorbell?** — ты что, не слышишь звонок в дверь?
+
+**Ловушка:** безличное русское тянет **Not hear from here** ✗ или **It's bad hear** ✗. В английском на месте и подлежащее, и `can't`: **I can't hear you very well** ✓ — «мне тебя плохо слышно».
+
+**В прошлом — could**
+
+Про то, что было слышно тогда, `can` превращается в `could`: **We could hear the sea from our hotel room.** — из номера было слышно море. **I couldn't hear a thing because of the wind.** — из-за ветра ничего не было слышно. Отрицательный вопрос звучит как удивление: **Couldn't you hear the alarm?** — «ты что, не слышал будильник?».
+
+**Не расслышал — didn't catch**
+
+«Не слышно» — звук не доходит вообще. «Не расслышал» — звук дошёл, но слов вы не разобрали. Русский скажет **Sorry, I didn't hear you** — и это правильно. Но в разговоре носитель чаще говорит иначе: **Sorry, I didn't catch that.** Дословно «простите, я этого не поймал», по-живому «простите, не расслышал». Слова летели к вам, а вы их не поймали.
+
+Как ещё переспросить:
+
+- **Sorry, what did you say?** — простите, что вы сказали?
+- **Sorry?** — с вопросительной интонацией, короткое «простите?»
+- **Could you speak up, please?** — дословно «не могли бы вы говорить повыше», по-живому «погромче, пожалуйста»
+- **Could you say that again?** — повторите, пожалуйста
+
+**Кстати:** когда по телефону пропадает связь, говорят **You're breaking up** — дословно «ты разваливаешься на куски», по-живому «тебя плохо слышно, связь рвётся».
+
+**Can you hear me или Do you hear me**
+
+Раз `can hear` — самая частая форма, легко решить, что без `can` глагол не живёт. Живёт: **Do you hear that?** ✓ — «слышишь?», **Sorry, I didn't hear the phone.** ✓ — «прости, я не слышал телефон». Запрещён только Continuous.
+
+**Важно:** про связь спрашивают только **Can you hear me?** — «меня слышно?». **Do you hear me?** — уже не про уши: так родитель или начальник давит «ты меня понял?!». Этот оттенок разберём в теме «Социальное взаимодействие», а пока держите в голове: в звонке — только `can`.
+
+**Слух как способность**
+
+`can hear` говорит и про сам слух — как `can see` про зрение: **My grandad can't hear very well.** — дедушка плохо слышит. Можно и без `can`: **He doesn't hear very well** — тоже верно.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Слышно прямо сейчас — `can hear`, было слышно — `could hear`. Подлежащее есть всегда: того, до кого звук доходит или не доходит.
+
+**Не слышно**
+
+- **I can't hear you** · **I can't hear anything**
+- **Can you hear me now?**
+- **We could hear the sea** · **I couldn't hear a thing**
+
+**Не расслышал**
+
+**Sorry, I didn't catch that** · **Could you speak up?** · **Could you say that again?**
+
+**Легко перепутать**
+
+- **Can you hear me?** — про связь; **Do you hear me?** — нажим «ты понял?»
+- **hear** — пришло само, **listen** — слушаю сам: **I listened, but I didn't hear anything**
+
+**Частые ошибки**
+
+- **Not hear from here** ✗ → **I can't hear from here** ✓
+- **I'm hearing a noise** ✗ → **I can hear a noise** ✓
+- **I listened a noise** ✗ → **I heard a noise** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2551 | Я тебя плохо слышу. | I can't hear you very well. |
+| 2552 | Я ничего не слышу из-за музыки. | I can't hear anything because of the music. |
+| 2553 | С балкона мы слышали реку. | We could hear the river from the balcony. |
+| 2554 | Простите, я не расслышал ваше имя. | Sorry, I didn't catch your name. |
+| 2555 | Ты меня слышишь? Связь плохая. | Can you hear me? The connection is bad. |
+
+---
+
+#### Exercises
+
+**Ex 28 · DialogRestore** *(ID: 82)*
+
+A: "OK, so meet me at the north exit at seven."
+B: ___
+
+- Sorry, I didn't listen you. Which exit?
+- **Sorry, I didn't catch that. Which exit?** ✓
+- Sorry, not hear. Which exit?
+
+*Explanation:* «не расслышал» — Sorry, I didn't catch that. У listen без to нет адреса, а фраза без подлежащего и помощника did просто разваливается.
+
+---
+
+**Ex 29 · WordArrangement** *(ID: 188)*
+
+Ситуация: друг звонит, когда ваш поезд въехал в тоннель, и вы говорите, что вам его не слышно.
+
+Правильное предложение: **I can't hear you in the tunnel.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| I | — |
+| can't | — |
+| hear | — |
+| you | — |
+| in the tunnel | — |
+| hearing | ✗ |
+| am | ✗ |
+| to | ✗ |
+| listen | ✗ |
+| it's | ✗ |
+
+*Explanation:* русское «не слышно» получает подлежащее I и can't, а hear остаётся в первой форме без -ing. Предлог to у hear не бывает, it's здесь лишнее, а listen значило бы «слушать», а не «слышать».
+
+---
+
+**Ex 30 · TrueFalse** *(ID: 211)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | We could hear the waves all night. | ✓ |
+| 2 | I can't hearing you, the music is too loud. | ✗ |
+| 3 | My grandma doesn't hear very well. | ✓ |
+| 4 | It's bad hear, come closer. | ✗ |
+| 5 | Sorry, I didn't catch the address. | ✓ |
+
+*Explanation:* после can't глагол стоит в первой форме: I can't hear you. «Плохо слышно» по-английски получает подлежащее: I can't hear you very well. Остальные верны: could hear — было слышно, doesn't hear very well — про слух как способность, didn't catch — не расслышал.
+
+---
+
+#### AI Exercise
+
+**ID:** see_look_watch_card564_ex1
+**Title:** "Слышно, не слышно, не расслышал"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Вы получите короткую русскую фразу про слух: «слышу», «слушаю», «не слышно» или «не расслышал». Напишите её по-английски."
+**Prompt Template:** "Контекст: пользователь только что прошёл две карточки о глаголах hear и listen. Он знает: 1) hear — звук сам дошёл до ушей, listen — сам направил слух и держит внимание; «слушал, но не услышал» — I listened, but I didn't hear anything; 2) hear не ставится в Continuous: I'm hearing a noise — ошибка, про то, что слышно прямо сейчас, говорят I can hear a noise; listen в Continuous можно: Are you listening?, She is listening to a podcast; Do you hear that? и I didn't hear the phone тоже верны — запрещён только Continuous; 3) у hear нет предлога (I heard a noise), у listen перед тем, что слушают, стоит to (listen to the radio); I listened a noise — ошибка; 4) формы hear – heard – heard; 5) noise — шум, обычно неприятный, sound — любой звук, voice — голос; 6) русское безличное «не слышно» получает подлежащее и can't: I can't hear you, I can't hear anything, Can you hear me now?, Can't you hear the doorbell?; «плохо слышно» — I can't hear you very well; 7) про прошлое — could: We could hear the sea from our room, I couldn't hear a thing; 8) «не расслышал» — Sorry, I didn't catch that или Sorry, I didn't hear you; переспросить — Sorry, what did you say?, Could you speak up?, Could you say that again?; связь рвётся — You're breaking up; 9) про связь спрашивают Can you hear me?, а Do you hear me? — нажим «ты меня понял?!»; 10) слух как способность: My grandad can't hear very well. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения и unless, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look и watch. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после глагола, возвратные местоимения, конструкцию «слышал, как он что-то делает» (hear him sing, hear them singing, could hear someone talking), hear в значении «узнать новость» (hear about, hear from, I heard you got a new job) — таких форм и значений в заданиях не используй и за их отсутствие не ругай. ЗАДАНИЕ: дай пользователю ОДНУ русскую фразу про слух и попроси сказать её по-английски. ДЕРЖИ ФРАЗУ ПРОСТОЙ: до восьми слов, одно подлежащее, один глагол слуха, без придаточных и перечислений, в дебри не уходи; фраз вида «слышно, как кто-то поёт» не давай. В условии НЕ подсказывай нужный глагол и не объясняй разницу. Время — чаще Present Simple, Present Continuous и Past Simple, иногда Past Continuous и Present Perfect. Бери знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе hear или listen и в форме can hear, а не в незнакомой лексике; если подходящих слов нет, бери простую бытовую лексику. ЧЕРЕДУЙ ПОВОД от запуска к запуску, не повторяя один и тот же два раза подряд: 1. СЛЫШНО СЕЙЧАС: «я слышу музыку у соседей», «ты слышишь этот звук?». 2. СЛУШАЮ САМ: «Оля слушает радио на кухне», «ты меня слушаешь?». 3. СЛУШАЛ, НО НЕ УСЛЫШАЛ: «мы слушали, но ничего не услышали». 4. НЕ СЛЫШНО: «мне тебя не слышно», «отсюда ничего не слышно». 5. НЕ РАССЛЫШАЛ: «простите, я не расслышал ваше имя». 6. БЫЛО СЛЫШНО: «из окна было слышно море». 7. РУССКОЕ «СЛУШАЙ» ПРО ШУМ: «слушай, что это за звук?». 8. СПОСОБНОСТЬ: «бабушка плохо слышит». Примерно каждый третий запуск бери повод 4, 6 или 7 — там в русском нет подлежащего или стоит «слушай», хотя звук пришёл сам, и это проверяет, понял ли человек ось, а не перевёл слово. Отрицание или вопрос — не реже чем каждый третий запуск. ОЦЕНКА: верно, если глагол выбран по смыслу, подлежащее на месте и форма цела. Разбирай типовые ошибки по одной строке: написал I'm hearing или Are you hearing → скажи, что hear не делают, звук доходит сам, и прямо сейчас — can hear; написал listen про звук, который пришёл сам (Listen, what is that sound?) → объясни, что звук дошёл без участия человека, по-английски Can you hear that?; написал listened a noise или listen me → напомни, что у listen перед тем, что слушают, стоит to; написал hear to → скажи, что у hear предлога нет; написал фразу без подлежащего (Not hear from here, It's bad hear) → покажи, что английскому нужно подлежащее: I can't hear from here; написал can hear или can't hear про прошлое → напомни, что тогда could hear; написал heared или have hear → напомни формы hear – heard – heard; написал I can't hearing → скажи, что после can't глагол в первой форме; написал Do you hear me? про связь по телефону → засчитай, но одной строкой скажи, что про связь спрашивают Can you hear me?, а Do you hear me? звучит как нажим. Засчитывай Sorry, I didn't hear you вместо didn't catch that, но одной строкой скажи, что в разговоре чаще didn't catch that; засчитывай Do you hear that? наравне с Can you hear that?; засчитывай noise вместо sound и наоборот, сокращения и другое пройденное время, подходящее по смыслу. Если человек выбрал другое слово, а грамматика верна, лексику не правь. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Скажите по-английски: «Отсюда совсем ничего не слышно.»'
+
+#### Clarification Options
+
+- Как сказать «мне не слышно», если английскому нужно подлежащее?
+- Чем Sorry, I didn't catch that отличается от Sorry, I didn't hear you?
+- Почему по телефону спрашивают Can you hear me, а не Do you hear me?
+
+---
+
+### Card 565 · Listen to: музыка, радио и вопрос с предлогом в конце
+
+**ID:** 565 | **Order:** 3
+
+#### Theory
+
+`listen` мы знаем как глагол с адресом ещё с микротемы «Глагол + предлог»: **Listen to me!** ✓, но не **Listen me!** ✗. Логика та же, что у `look at`: вы сами направили слух — значит, надо сказать, куда. `hear` адреса не просит: звук пришёл сам, направлять нечего, поэтому **I can hear to you** ✗ → **I can hear you** ✓.
+
+**Кто с адресом, кто без**
+
+| Глагол | Адрес | Пример |
+|--------|-------|--------|
+| look | at | Look at me. |
+| see | нет | I can see you. |
+| listen | to | Listen to me. |
+| hear | нет | I can hear you. |
+| watch | нет | Watch me. |
+
+Направили внимание на предмет сами — нужен адрес: `look at`, `listen to`. Пришло само — адреса нет: `see`, `hear`. Особняком стоит `watch`: он тоже про ваше внимание, но держит взгляд на процессе напрямую, без предлога, — это мы уже разбирали в карточке «Почему русскому здесь сложнее, чем кажется».
+
+**Слушать музыку — listen to music**
+
+Самая массовая ошибка — «слушать музыку» слово в слово. Русскому «слушать» предлог не нужен: слушают что — музыку, радио, лекцию. Английскому нужен адрес:
+
+- **I listen to music on my way to work.**
+- **Do you listen to podcasts?**
+- **My dad listens to the radio in the car.**
+
+**Ловушка:** **I listen music every day** ✗ → **I listen to music every day** ✓. Русское «слушаю что» прямо просит пропустить `to`, поэтому ошибка держится даже у тех, кто давно учит язык.
+
+Но и с музыкой `hear` бывает — когда она пришла сама: **I heard this song in a café, and now I listen to it every day.** Первая половина — песня играла без вашего участия, вторая — вы включаете её сами.
+
+**По радио — on the radio**
+
+Как с телевизором: русское «**по** радио» тянет `by`, а по-английски радио — площадка, на которой всё звучит, поэтому `on`: **I heard it on the radio this morning.** Разница с артиклем та же, что у телевизора: **watch TV** без артикля, а **listen to the radio** и **on the radio** — с ним.
+
+**Have you heard или I've listened**
+
+Как с фильмом в карточке «Фильм, матч, телевизор: watch или see». **Have you heard their new song?** — «ты слышал их новую песню?», то есть знаешь ли ты её. **I've listened to their new album twice.** — «я дважды прослушал их новый альбом», от начала до конца. Про опыт русский и здесь говорит «слышал» — там почти всегда `heard`.
+
+**Что ты слушаешь — предлог в конце**
+
+У русского вопроса «Что ты слушаешь?» предлога нет вовсе, и в английском `to` просто забывают. Но адрес никуда не делся: `listen to` держится как одно целое, в начало выходит только `what` или `who`, а `to` остаётся сразу после глагола — точно как у `look at`.
+
+**Формула:** What / Who + вопросительный порядок + listening to
+
+Так получается **What are you listening to?** — «что ты слушаешь?» и **Who are you listening to?** — «кого ты слушаешь?». А самый частый вопрос при знакомстве — **What kind of music do you listen to?** — «какую музыку ты слушаешь?».
+
+**Ловушка:** **What are you listening?** ✗ — адрес потерялся. **To what are you listening?** ✗ — так пишут в старых книгах. Верно одно: **What are you listening to?** ✓
+
+**Когда адрес не нужен**
+
+`to` нужен, когда вы называете, что слушать. Не называете — предлога нет: **Listen!** · **Are you listening?** · **Listen carefully.** А **Listen to this!** — «послушай вот это», когда включаете другу песню.
+
+Отрицание и вопрос адрес не трогают: **I'm not listening to you.** · **Were you listening to the teacher?** Отрицательный вопрос звучит как упрёк: **Aren't you listening to me?** — «ты что, меня не слушаешь?».
+
+**Кстати:** «слушай сюда!» — **Listen here!** — и по-английски звучит так же грубо, как по-русски: так начинают выговор. Перед `here` адреса нет, как в **Look over here**.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+У `listen` перед тем, что слушают, стоит `to`; у `hear` предлога нет. В вопросе `to` уходит в конец.
+
+- **listen to music** · **listen to the radio** · по радио — **on the radio**
+- Вопрос: **What are you listening to?** · **What kind of music do you listen to?**
+- Ничего не называете — `to` нет: **Listen!** · **Are you listening?**
+- **Have you heard this song?** — знаешь ли её; **I've listened to it twice** — сам слушал
+
+**Частые ошибки**
+
+- **I listen music** ✗ → **I listen to music** ✓
+- **What are you listening?** ✗ → **What are you listening to?** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2556 | Какую музыку слушает Юля? | What kind of music does Yulia listen to? |
+| 2557 | Я услышал эту новость по радио. | I heard the news on the radio. |
+| 2558 | Денис слушает аудиокниги в спортзале. | Denis listens to audiobooks at the gym. |
+| 2559 | Тёма слушал этот альбом всю дорогу до Праги. | Tyoma listened to this album all the way to Prague. |
+| 2560 | Ты что, меня не слушаешь? | Aren't you listening to me? |
+
+---
+
+#### Exercises
+
+**Ex 31 · MultipleChoice · CHOICE** *(ID: 214)*
+
+"Every evening Sam ___ jazz while he cooks dinner."
+
+- **listens to** ✓
+- listens
+- hears to
+
+*Explanation:* Сэм сам включает джаз и слушает его — это listen, а перед тем, что слушают, нужен адрес to. У hear предлога не бывает.
+
+---
+
+**Ex 32 · ConstructionMeaning** *(ID: 72)*
+
+Выбери правильный перевод:
+
+"Have you heard the new song by Oliver's band?"
+
+- Ты слушаешь новую песню группы Оливера?
+- **Ты слышал новую песню группы Оливера?** ✓
+- Ты послушался группу Оливера?
+- Ты услышишь новую песню группы Оливера?
+
+*Explanation:* have you heard — вопрос про опыт: знаешь ли ты эту песню, доходила ли она до тебя. «Слушаешь» было бы Are you listening to, а «услышишь» — Will you hear.
+
+---
+
+**Ex 33 · TextInput** *(ID: 105)*
+
+Впиши в каждое предложение подходящий по смыслу пункт из банка.
+Банк: слушаешь, услышал, слушают
+
+1. "I ___ a great song on the radio this morning."
+   Ответ: **heard**
+2. "Which podcast are you ___ these days?"
+   Ответ: **listening to**
+3. "My parents ___ the news every evening."
+   Ответ: **listen to**
+
+*Explanation:* песня по радио пришла сама — heard. Во втором и третьем предложениях слушают сами, поэтому listen, и адрес to остаётся после глагола даже в вопросе: Which podcast are you listening to?
+
+---
+
+#### Clarification Options
+
+- Почему «слушать музыку» — listen to music, если по-русски предлога нет?
+- Почему в вопросе to стоит в самом конце?
+- Когда говорить Have you heard, а когда Have you listened to?
+
+---
+
+### Card 566 · Русское «слушать»: слушай, слушаю, слушаться, подслушал
+
+**ID:** 566 | **Order:** 4
+
+#### Theory
+
+Русское «слушать» умеет гораздо больше, чем слушать. Им зовут собеседника («слушай, …»), отвечают на звонок («слушаю»), жалуются на детей («не слушается») и признаются в неловком («я подслушал»). У английского на эти роли разные решения: где-то `listen` подходит, а где-то его ставить нельзя.
+
+**Слушай — заход перед разговором**
+
+Перед просьбой, признанием или новостью русский говорит «слушай, …», и здесь английский совпадает: **Listen, can I call you back later?** — «слушай, можно я перезвоню позже?». **Listen, I need to tell you something.** — «слушай, мне надо тебе кое-что сказать».
+
+Второй такой заход — **Look, …**. Русское ухо слышит «смотри», но смотреть никуда не надо: это тоже «слушай», только с нажимом. **Look, I'm tired of this.** — «слушай, мне это надоело». **Look, it's not my fault.** — «послушай, я не виноват».
+
+**Не путай:** `Listen` звучит мягко — «есть разговор». `Look` звучит жёстко — «хватит, давай начистоту». Если сказать начальнику **Look, I need a day off**, это прозвучит как претензия, а не как просьба.
+
+**Слушаю — это не I'm listening**
+
+Русский отвечает на звонок «слушаю», а продавец говорит «слушаю вас». Дословное **I'm listening** здесь звучит странно — будто человек уже устал ждать, пока вы заговорите. Говорят так:
+
+- по телефону — **Hello?** или **Yes?**
+- в магазине, в офисе — **How can I help you?**
+- в кафе — **What can I get you?**
+
+А вот посреди разговора **I'm listening** как раз уместно: **Go on, I'm listening.** — «продолжай, я слушаю».
+
+**Слушаться и прислушиваться**
+
+У `listen to` есть второе значение, и русскому оно знакомо: не «слышать звуки», а «слушаться, делать, как говорят». **My son never listens to me.** — «мой сын меня никогда не слушается». **Don't listen to him, he's just jealous.** — «не слушай его, он просто завидует». Сюда же «прислушаться»: **You should listen to your doctor.** · **Listen to your body.** — «прислушивайтесь к своему организму».
+
+Ребёнку перед уходом скажут не «слушайся», а **Be good!** или **Do what Grandma says.** — «делай, что говорит бабушка».
+
+**Важно:** словарь на «слушаться» выдаёт `obey`, и рука пишет **My kids don't obey me**. Грамматически это цело, но звучит как устав. `obey` — подчиняться законам, приказам и правилам: **Drivers have to obey the rules.** · **Soldiers obey orders.** Про собаку тоже нормально: **My dog only obeys me.** А про детей, друзей и мужа говорят `listen to`: **My kids don't listen to me** ✓.
+
+**Ignore — нарочно**
+
+Не слушаться — одно, а не слушать вовсе, делать вид, что человека нет, — `ignore`: **He has been ignoring my calls all week.** — «он всю неделю игнорирует мои звонки». Русское «игнорировать» совпадает, но у английского слова есть острый край: `ignore` — всегда нарочно.
+
+**Ловушка:** «прости, я пропустил твоё сообщение» — **Sorry, I ignored your message** ✗: так вы признаётесь, что не ответили специально. Если просто не заметили — **Sorry, I didn't see your message** ✓.
+
+**Подслушал: overhear или eavesdrop**
+
+Здесь у русского одно слово, а у английского два — и развела их всё та же ось темы:
+
+- **overhear** — услышать случайно: звук пришёл сам, как у `hear`. **I overheard their argument in the kitchen.** — я случайно услышал их спор на кухне
+- **eavesdrop** — подслушивать нарочно: вы сами навострили уши, как у `listen`. **Were you eavesdropping on us?** — ты что, нас подслушивал?
+
+У `eavesdrop` адрес `on`: подслушивают «на» кого-то — **eavesdrop on us** ✓, а не **eavesdrop us** ✗. У `overhear` адреса нет, как у `hear`, и формы у него те же: **overhear → overheard → overheard**.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Русское «слушать» по-английски — не всегда `listen`.
+
+- «Слушай, …» → **Listen, …**; с нажимом → **Look, …**
+- «Слушаю» по телефону → **Hello?**, в магазине → **How can I help you?**; посреди разговора → **Go on, I'm listening**
+- Слушаться, прислушаться → **listen to**: **He never listens to me**
+- **obey** — законы, приказы, собака; **ignore** — нарочно не замечать
+- Подслушал случайно → **overheard**; нарочно → **eavesdrop on**
+
+**Адрес to**
+
+**listen to music** · **on the radio** · **What are you listening to?**
+
+**Частые ошибки**
+
+- **I listen music** ✗ → **I listen to music** ✓
+- **What are you listening?** ✗ → **What are you listening to?** ✓
+- **Sorry, I ignored your message** ✗ → **Sorry, I didn't see your message** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2561 | Слушай, можно я возьму твою машину на выходные? | Listen, can I borrow your car for the weekend? |
+| 2562 | Ира никогда не слушается старшего брата. | Ira never listens to her older brother. |
+| 2563 | Коля уже неделю игнорирует мои сообщения. | Kolya has been ignoring my messages for a week. |
+| 2564 | Я случайно услышал их разговор в лифте. | I overheard their conversation in the lift. |
+| 2565 | Не подслушивай, это личный разговор! | Don't eavesdrop, it's a private conversation! |
+
+---
+
+#### Exercises
+
+**Ex 34 · Matching** *(ID: 90)*
+
+Задание: соедини русскую фразу с английской.
+
+| Русский | Английский |
+|---------|------------|
+| Слушай, мне пора | Listen, I have to go |
+| Слушаю вас (в магазине) | How can I help you? |
+| Том меня не слушается | Tom doesn't listen to me |
+| Случайно услышал | I overheard it |
+| Подслушивал | He was eavesdropping |
+
+*Explanation:* «слушай, …» перед новостью — Listen. Продавец не говорит I'm listening, а спрашивает How can I help you? «Слушаться» — listen to. Услышал случайно — overheard, подслушивал нарочно — eavesdropping.
+
+---
+
+**Ex 35 · MultipleChoice · FORWARD_CHOICE** *(ID: 237)*
+
+"Сестра никогда не слушает мои советы."
+
+- My sister never hears my advice.
+- My sister never listens my advice.
+- **My sister never listens to my advice.** ✓
+
+*Explanation:* «не слушает советы» — не прислушивается, это listen to, и адрес to обязателен. Hears значило бы, что совет просто не долетает до её ушей.
+
+---
+
+**Ex 36 · FindTheOdd** *(ID: 108)*
+
+Три глагола про то, что дошло до вас само, один — про внимание, которое вы направили нарочно:
+
+- overhear
+- see
+- **eavesdrop** ✓
+- hear
+
+*Explanation:* hear и see случаются сами, а overhear — услышать случайно, тоже без вашего участия. Eavesdrop — подслушивать нарочно: вы сами навострили уши.
+
+---
+
+#### AI Exercise
+
+**ID:** see_look_watch_card566_ex1
+**Title:** "Слушай, слушаю, слушается"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Вы получите русскую фразу со словом «слушать» в одном из его значений: слушать музыку, слушаться, «слушай, …», «слушаю вас» или «подслушал». Напишите, как её скажут по-английски."
+**Prompt Template:** "Контекст: пользователь только что прошёл две карточки о глаголе listen to и о русском «слушать» в разных ролях. Он знает: 1) у listen перед тем, что слушают, стоит to: listen to music, listen to podcasts, listen to the radio; у hear предлога нет; I listen music — ошибка; 2) «по радио» — on the radio: I heard it on the radio; 3) в вопросе to уходит в конец: What are you listening to?, Who are you listening to?, What kind of music do you listen to?; What are you listening? — предлог потерян, To what are you listening? — книжно; 4) если не называют, что слушать, to нет: Listen!, Are you listening?, Listen carefully; Listen to this! — «послушай вот это»; Aren't you listening to me? — упрёк; Listen here! — грубое «слушай сюда»; 5) Have you heard their new song? — знаешь ли песню, опыт; I've listened to their album twice — сам слушал; песня, которая играла сама, — I heard this song in a café; 6) «слушай, …» перед просьбой или новостью — Listen, …; Look, … — тоже «слушай», но с нажимом и раздражением: Look, I'm tired of this; 7) «слушаю» при ответе на звонок — Hello? или Yes?; «слушаю вас» в магазине или офисе — How can I help you?, в кафе — What can I get you?; I'm listening там не говорят, а посреди разговора Go on, I'm listening — верно; 8) «слушаться» и «прислушаться» — listen to: My son never listens to me, Don't listen to him, You should listen to your doctor; ребёнку — Be good! или Do what Grandma says; obey — подчиняться законам, приказам, правилам, и про собаку (My dog only obeys me), а про детей и близких obey звучит казённо; 9) ignore — нарочно не замечать: He has been ignoring my calls; Sorry, I ignored your message звучит как «не ответил специально», если просто не заметил — Sorry, I didn't see your message; 10) «подслушал» случайно — overhear: I overheard their argument, формы overhear – overheard – overheard; нарочно — eavesdrop, с адресом on: Were you eavesdropping on us?, Don't eavesdrop! ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения и unless, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look и watch, hear и listen, can hear и can't hear. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после глагола, возвратные местоимения, конструкцию «слышал, как он что-то делает» (hear him sing, overheard them talking), hear в значении «узнать новость» (hear about, hear from, I heard you got a new job) — таких форм и значений в заданиях не используй и за их отсутствие не ругай. ЗАДАНИЕ: дай пользователю ОДНУ русскую фразу, в которой есть «слушать», «послушать», «слушаться», «прислушаться», «слушай», «слушаю», «подслушать», «игнорировать» или «услышать», и попроси сказать её по-английски. ДЕРЖИ ФРАЗУ ПРОСТОЙ: до девяти слов, одно подлежащее, одно действие, без придаточных и перечислений, в дебри не уходи. Если без обстановки фразу не понять («слушаю вас»), добавь короткое уточнение в скобках — (в магазине), (отвечаете на звонок), — но нужное английское слово и правило НЕ подсказывай. Время — чаще Present Simple, Past Simple и повелительное наклонение, иногда Present Continuous, Past Continuous и Present Perfect. Бери знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе глагола и предлога, а не в незнакомой лексике; если подходящих слов нет, бери простую бытовую лексику. ЧЕРЕДУЙ ПОВОД от запуска к запуску, не повторяя один и тот же два раза подряд: 1. МУЗЫКА И ПОДКАСТЫ: «я слушаю подкасты в метро». 2. ПО РАДИО: «папа услышал об этом по радио». 3. ВОПРОС: «что ты слушаешь?», «какую музыку слушает Паша?». 4. ОПЫТ: «ты слышал их новую песню?». 5. ЗАХОД: «слушай, можно я перезвоню?». 6. ОТКЛИК: «слушаю вас» (в магазине), «слушаю» (отвечаете на звонок). 7. СЛУШАТЬСЯ: «дети меня не слушаются», «прислушайся к врачу». 8. ИГНОРИРОВАТЬ: «он игнорирует мои сообщения», «прости, я не заметил твоё сообщение». 9. ПОДСЛУШАТЬ: «я случайно услышал их разговор», «ты нас подслушивал?». Примерно каждый третий запуск бери повод 6, 7 или 9 — там прямой перевод «слушать» через listen или obey не подходит, и это проверяет, понял ли человек роль слова, а не перевод. Отрицание или вопрос — не реже чем каждый третий запуск. ОЦЕНКА: верно, если выбран подходящий по смыслу глагол, адрес на месте и форма цела. Разбирай типовые ошибки по одной строке: написал listen music или listen the radio → напомни, что перед тем, что слушают, нужен to; написал by radio или in the radio → скажи, что по радио — on the radio; написал What are you listening? → скажи, что предлог потерян и стоит в конце; поставил to в начало вопроса → скажи, что to держится за глагол и стоит после него; написал I'm listening (you) на «слушаю вас» или «слушаю» по телефону → объясни, что так не отвечают, а говорят How can I help you? или Hello?; написал obey про детей, друзей или родных → засчитай, но одной строкой скажи, что это звучит как устав, в жизни — listen to; написал hear вместо listen to про «слушаться» или «прислушаться» → объясни, что hear — звук дошёл до ушей, а слушаться — listen to; написал ignored для «не заметил» → скажи, что ignore — всегда нарочно, а не заметил — didn't see; написал overheard про нарочное подслушивание или eavesdropped про случайное → объясни: случайно — overhear, нарочно — eavesdrop; написал eavesdrop us → напомни, что у eavesdrop адрес on; написал overheared → напомни формы overhear – overheard – overheard; написал Look, … в мягкой просьбе → засчитай, но одной строкой скажи, что Look звучит с нажимом, мягче — Listen. Засчитывай Can I help you? и What would you like? вместо How can I help you?, Yes? и Hello? при ответе на звонок, take your doctor's advice вместо listen to your doctor, сокращения и другое пройденное время, подходящее по смыслу. Если человек выбрал другое слово, а грамматика верна, лексику не правь. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Скажите по-английски: «Мой младший брат никогда меня не слушается.»'
+
+#### Clarification Options
+
+- Почему Look в начале фразы значит «слушай», а не «смотри»?
+- Как по-английски ответить «слушаю» на звонок?
+- Чем overhear отличается от eavesdrop?
+
+---
+
+### Words8r Sync · Слышать и слушать
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| sound | звук | [saʊnd] |
+| voice | голос | [vɔɪs] |
+| podcast | подкаст | [ˈpɒdkɑːst] |
+| to ignore | игнорировать, нарочно не замечать | [ɪɡˈnɔː] |
+| to obey | подчиняться, слушаться (законов, приказов) | [əˈbeɪ] |
+| to eavesdrop | подслушивать | [ˈiːvzdrɒp] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 33 | 34 |
-| Microtopic | 209 | 210 |
-| Card | 562 | 563 |
-| Example | 2545 | 2546 |
-| Слова курса (course_word) | 793 | 794 |
-| MultipleChoice · CHOICE | 213 | 214 |
-| MultipleChoice · FORWARD_CHOICE | 236 | 237 |
-| MultipleChoice · REVERSE_CHOICE | 89 | 90 |
-| TrueFalse | 210 | 211 |
-| WordArrangement | 187 | 188 |
-| TextInput | 104 | 105 |
-| Matching | 89 | 90 |
-| ErrorCorrection | 199 | 200 |
-| FindTheOdd | 107 | 108 |
-| Categorization | 122 | 123 |
+| Microtopic | 210 | 211 |
+| Card | 566 | 567 |
+| Example | 2565 | 2566 |
+| Слова курса (course_word) | 799 | 800 |
+| MultipleChoice · CHOICE | 214 | 215 |
+| MultipleChoice · FORWARD_CHOICE | 237 | 238 |
+| MultipleChoice · REVERSE_CHOICE | 90 | 91 |
+| TrueFalse | 211 | 212 |
+| WordArrangement | 188 | 189 |
+| TextInput | 105 | 106 |
+| Matching | 90 | 91 |
+| ErrorCorrection | 200 | 201 |
+| FindTheOdd | 108 | 109 |
+| Categorization | 123 | 124 |
 | TableFill | 41 | 42 |
 | Transformation | 93 | 94 |
-| ConstructionMeaning | 71 | 72 |
-| DialogRestore | 81 | 82 |
+| ConstructionMeaning | 72 | 73 |
+| DialogRestore | 82 | 83 |
