@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListScope
@@ -49,6 +50,7 @@ import dev.sethan8r.grammar.app.ui.components.CenteredHint
 import dev.sethan8r.grammar.app.ui.components.DualTitle
 import dev.sethan8r.grammar.app.ui.components.InfoButton
 import dev.sethan8r.grammar.app.ui.components.feedback.LocalTabSnackbarController
+import dev.sethan8r.grammar.app.ui.components.scaffold.PinnedHeader
 import dev.sethan8r.grammar.app.ui.components.search.SearchGroupCard
 import dev.sethan8r.grammar.app.ui.components.search.SearchIdleHint
 import dev.sethan8r.grammar.app.ui.components.search.SearchNoResults
@@ -128,32 +130,10 @@ private fun TheoryList(
     val treeState = rememberLazyListState()
     val resultsState = rememberLazyListState()
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(top = statusBarTopInset()),
-    ) {
-        // Шапка закреплена: в режиме поиска строка ввода и выход из него нужны под рукой
-        // независимо от того, куда пользователь пролистал выдачу.
-        // Слева отступ меньше общего: его добирает зона нажатия стрелки «назад», и глиф встаёт
-        // ровно там же, где в шапке подэкранов ([BackTopBar]).
-        TheorySearchBar(
-            isOpen = uiState.isSearchOpen,
-            query = uiState.query,
-            requestFocus = uiState.requestSearchFocus,
-            onQueryChange = onQueryChange,
-            onOpen = onSearchOpen,
-            onClear = onSearchClear,
-            onClose = onSearchClose,
-            onFocusConsumed = onFocusConsumed,
-            modifier = Modifier.padding(
-                start = Dimens.spaceSmall,
-                end = Dimens.screenPadding,
-                top = Dimens.spaceSmall,
-                bottom = Dimens.spaceSmall,
-            ),
-        )
+    // Список занимает весь экран и проезжает под шапкой, поэтому в покое держим его под ней отступом.
+    val listTopInset = statusBarTopInset() + HEADER_HEIGHT
 
+    Box(modifier = Modifier.fillMaxSize()) {
         // Тело сменяется со сдвигом вниз: уходит дерево — приходит выдача, и наоборот.
         AnimatedContent(
             targetState = uiState.isSearchOpen,
@@ -174,7 +154,7 @@ private fun TheoryList(
                     .fillMaxSize()
                     .padding(horizontal = Dimens.screenPadding),
                 // Низ: клиренс под плавающей капсулой навигации (она парит поверх, места не резервирует).
-                contentPadding = PaddingValues(bottom = floatingBarBottomInset()),
+                contentPadding = PaddingValues(top = listTopInset, bottom = floatingBarBottomInset()),
                 verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
             ) {
                 if (searchOpen) {
@@ -196,8 +176,39 @@ private fun TheoryList(
                 }
             }
         }
+
+        // Шапка закреплена: в режиме поиска строка ввода и выход из него нужны под рукой независимо
+        // от того, куда пользователь пролистал выдачу.
+        // Слева отступ меньше общего: его добирает зона нажатия стрелки «назад», и глиф встаёт
+        // ровно там же, где в шапке подэкранов ([BackTopBar]).
+        PinnedHeader {
+            TheorySearchBar(
+                isOpen = uiState.isSearchOpen,
+                query = uiState.query,
+                requestFocus = uiState.requestSearchFocus,
+                onQueryChange = onQueryChange,
+                onOpen = onSearchOpen,
+                onClear = onSearchClear,
+                onClose = onSearchClose,
+                onFocusConsumed = onFocusConsumed,
+                modifier = Modifier
+                    .padding(
+                        start = Dimens.spaceSmall,
+                        end = Dimens.screenPadding,
+                        top = HEADER_VERTICAL_PADDING,
+                        bottom = HEADER_VERTICAL_PADDING,
+                    )
+                    .height(Dimens.searchFieldHeight),
+            )
+        }
     }
 }
+
+/** Вертикальный отступ строки шапки сверху и снизу. */
+private val HEADER_VERTICAL_PADDING = Dimens.spaceSmall
+
+/** Высота шапки без строки состояния — на неё сдвинут в покое первый элемент списка. */
+private val HEADER_HEIGHT = Dimens.searchFieldHeight + HEADER_VERTICAL_PADDING * 2
 
 /** Доля высоты тела, на которую оно сдвигается при смене дерева и выдачи. */
 private const val SEARCH_BODY_SLIDE = 6

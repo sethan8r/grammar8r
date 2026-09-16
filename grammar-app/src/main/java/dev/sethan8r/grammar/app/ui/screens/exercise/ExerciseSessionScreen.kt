@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
@@ -52,6 +53,7 @@ import dev.sethan8r.grammar.app.ui.components.progress.IdBadge
 import dev.sethan8r.grammar.app.ui.components.progress.SegmentedProgressBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.BackTopBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.ExitConfirmationHandler
+import dev.sethan8r.grammar.app.ui.components.scaffold.PinnedHeader
 import dev.sethan8r.grammar.app.ui.components.theory.TheoryBlocks
 import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.components.exercise.AiPlaceholderView
@@ -72,6 +74,7 @@ import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 import dev.sethan8r.grammar.app.ui.util.bottomScrim
+import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 
 /**
  * Экран-сессия упражнений карточки (полноэкранный, без навбара). Верх: название микротемы + кнопка
@@ -114,30 +117,13 @@ fun ExerciseSessionScreen(
         dismissLabel = stringResource(R.string.exercise_exit_cancel),
     )
 
-    Column(modifier = Modifier.fillMaxSize()) {
-        BackTopBar(
-            // Только английская часть двойного имени (как в шапке карточек микротемы).
-            title = state.microtopicTitle.titleEn(),
-            onBack = { showExitDialog = true },
-            actions = {
-                val helpEnabled = state.theorySummary.isNotEmpty()
-                IconButton(onClick = { showSummaryDialog = true }, enabled = helpEnabled) {
-                    Icon(
-                        Icons.Outlined.HelpOutline,
-                        stringResource(R.string.exercise_help),
-                        tint = if (helpEnabled) TextPrimary else TextSecondary,
-                    )
-                }
-            },
-        )
-
+    Box(modifier = Modifier.fillMaxSize()) {
         when {
             state.isLoading -> LoadingIndicator(Modifier.fillMaxSize())
             state.total == 0 -> EmptySession(onFinish = viewModel::onNext)
             else -> SessionContent(
                 state = state,
                 snackbarHostState = snackbar.hostState,
-                onSegmentClick = if (state.cardCompleted) viewModel::onSegmentSelected else null,
                 onSelectOption = viewModel::onOptionSelected,
                 onTextChanged = viewModel::onTextChanged,
                 onArrangementChanged = viewModel::onArrangementChanged,
@@ -147,6 +133,34 @@ fun ExerciseSessionScreen(
                 onCheck = viewModel::onCheck,
                 onNext = viewModel::onNext,
             )
+        }
+
+        PinnedHeader {
+            BackTopBar(
+                // Только английская часть двойного имени (как в шапке карточек микротемы).
+                title = state.microtopicTitle.titleEn(),
+                onBack = { showExitDialog = true },
+                modifier = Modifier.height(Dimens.topBarHeight),
+                actions = {
+                    val helpEnabled = state.theorySummary.isNotEmpty()
+                    IconButton(onClick = { showSummaryDialog = true }, enabled = helpEnabled) {
+                        Icon(
+                            Icons.Outlined.HelpOutline,
+                            stringResource(R.string.exercise_help),
+                            tint = if (helpEnabled) TextPrimary else TextSecondary,
+                        )
+                    }
+                },
+            )
+            state.current?.let { exercise ->
+                ProgressRow(
+                    exercise = exercise,
+                    answered = state.currentPassed,
+                    total = state.total,
+                    currentIndex = state.currentIndex,
+                    onSegmentClick = if (state.cardCompleted) viewModel::onSegmentSelected else null,
+                )
+            }
         }
     }
 
@@ -165,7 +179,6 @@ fun ExerciseSessionScreen(
 private fun SessionContent(
     state: ExerciseSessionUiState,
     snackbarHostState: SnackbarHostState,
-    onSegmentClick: ((Int) -> Unit)?,
     onSelectOption: (Int) -> Unit,
     onTextChanged: (Int, String) -> Unit,
     onArrangementChanged: (List<String>) -> Unit,
@@ -189,35 +202,29 @@ private fun SessionContent(
             .fillMaxSize()
             .windowInsetsPadding(WindowInsets.ime.union(WindowInsets.navigationBars)),
     ) {
-        ProgressRow(
-            exercise = exercise,
-            answered = state.currentPassed,
-            total = state.total,
-            currentIndex = state.currentIndex,
-            onSegmentClick = onSegmentClick,
-        )
-
-        // Подпись задания — приглушённо (TextSecondary), слева под полосой, над фреймом.
-        Text(
-            text = exerciseTypeLabel(exercise),
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = Dimens.screenPadding),
-            color = TextSecondary,
-            fontSize = 11.sp,
-        )
-
-        // Тело: задание скроллится на всю высоту, кнопка плавает поверх него — полупрозрачная
-        // подложка затемняет уезжающий под неё контент, а не закрывает сплошной чёрной плашкой.
+        // Тело: задание скроллится на всю высоту — сверху уезжает под закреплённую шапку, снизу под
+        // кнопку; обе затемняют проезжающий под ними контент, а не закрывают сплошной плашкой.
         Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
             Column(
                 modifier = Modifier
                     .fillMaxSize()
                     .verticalScroll(rememberScrollState())
                     .padding(horizontal = Dimens.screenPadding)
-                    .padding(top = Dimens.spaceSmall)
-                    .padding(bottom = footerHeight),
+                    .padding(
+                        top = statusBarTopInset() + Dimens.topBarHeight + Dimens.progressRowHeight,
+                        bottom = footerHeight,
+                    ),
             ) {
+                // Подпись задания — приглушённо (TextSecondary), слева под полосой, над фреймом.
+                Text(
+                    text = exerciseTypeLabel(exercise),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = Dimens.spaceSmall),
+                    color = TextSecondary,
+                    fontSize = 11.sp,
+                )
+
                 // key(currentIndex): каждый шаг сессии — свежий поддерев (сброс ввода/фокуса и
                 // локального состояния сборки WORD_ARRANGEMENT при переходе между упражнениями).
                 key(state.currentIndex) {
@@ -359,7 +366,8 @@ private fun ProgressRow(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = Dimens.screenPadding, vertical = Dimens.spaceSmall),
+            .height(Dimens.progressRowHeight)
+            .padding(horizontal = Dimens.screenPadding),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
     ) {

@@ -175,7 +175,8 @@ fun MainScreen() {
             opaqueComposable<StatisticsRoute> { StatisticsScreen() }
             opaqueComposable<MenuRoute> { MenuScreen() }
 
-            fullScreenComposable<TopicRoute>(topInset) { entry ->
+            // Верхний инсет держит сам экран: список проезжает под строкой состояния.
+            opaqueComposable<TopicRoute> { entry ->
                 val focusId by entry.savedStateHandle
                     .getStateFlow<Int?>(FOCUS_MICROTOPIC_KEY, null)
                     .collectAsState()
@@ -186,7 +187,8 @@ fun MainScreen() {
                     onFocusConsumed = { entry.savedStateHandle[FOCUS_MICROTOPIC_KEY] = null },
                 )
             }
-            fullScreenComposable<MicrotopicRoute>(topInset) { entry ->
+            // Верхний инсет держит сам экран: карточка проезжает под строкой состояния.
+            opaqueComposable<MicrotopicRoute> { entry ->
                 val advanceAfterCardId by entry.savedStateHandle
                     .getStateFlow<Int?>(ADVANCE_AFTER_CARD_KEY, null)
                     .collectAsState()
@@ -204,7 +206,8 @@ fun MainScreen() {
                     onAdvanceConsumed = { entry.savedStateHandle[ADVANCE_AFTER_CARD_KEY] = null },
                 )
             }
-            fullScreenComposable<ExerciseSessionRoute>(topInset) {
+            // Верхний инсет держит сам экран: задание проезжает под строкой состояния.
+            opaqueComposable<ExerciseSessionRoute> {
                 ExerciseSessionScreen(
                     onFinished = { completion ->
                         val microtopicId = completion.microtopicId
@@ -229,7 +232,8 @@ fun MainScreen() {
                     onExit = { navController.popBackStack() },
                 )
             }
-            fullScreenComposable<ClarifyRoute>(topInset) {
+            // Верхний инсет держит сам экран: лента проезжает под строкой состояния.
+            opaqueComposable<ClarifyRoute> {
                 ClarifyScreen(
                     onBack = { navController.popBackStack() },
                     onOpenAiLimit = { navController.navigate(AiLimitRoute) },
@@ -292,7 +296,8 @@ fun MainScreen() {
             )
 
             // Градиент-скрим над строкой состояния — только на вкладках (где контент уходит под неё).
-            if (showBottomBar) {
+            // Кроме «Учить»: там строку состояния вместе с шапкой затемняет сам экран.
+            if (showBottomBar && currentDestination?.hasRoute(LearnRoute::class) != true) {
                 TopStatusScrim(modifier = Modifier.align(Alignment.TopCenter))
             }
 

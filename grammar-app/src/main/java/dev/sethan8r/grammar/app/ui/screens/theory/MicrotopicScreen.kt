@@ -3,12 +3,15 @@ package dev.sethan8r.grammar.app.ui.screens.theory
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.PagerState
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -41,6 +44,7 @@ import dev.sethan8r.grammar.app.ui.components.LoadingIndicator
 import dev.sethan8r.grammar.app.ui.components.progress.IdBadge
 import dev.sethan8r.grammar.app.ui.components.progress.SegmentedProgressBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.BackTopBar
+import dev.sethan8r.grammar.app.ui.components.scaffold.PinnedHeader
 import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.components.theory.TheoryBlocks
 import dev.sethan8r.grammar.app.ui.components.titleEn
@@ -51,6 +55,7 @@ import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 import dev.sethan8r.grammar.app.ui.util.scrollBottomInset
+import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 
@@ -71,11 +76,10 @@ fun MicrotopicScreen(
     viewModel: MicrotopicViewModel = hiltViewModel(),
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+    // Состояние пейджера живёт на уровне экрана: его читает и закреплённая шапка (полоса прогресса).
+    val pagerState = rememberPagerState(pageCount = { uiState.cards.size })
 
-    Column(modifier = Modifier.fillMaxSize()) {
-        // В шапке карточки — только английское название микротемы (RU-часть двойного имени убираем).
-        BackTopBar(title = uiState.title.titleEn(), onBack = onBack)
-
+    Box(modifier = Modifier.fillMaxSize()) {
         when {
             uiState.isLoading -> LoadingIndicator(Modifier.fillMaxSize())
             uiState.cards.isEmpty() -> CenteredHint(
@@ -84,6 +88,7 @@ fun MicrotopicScreen(
             )
 
             else -> CardPager(
+                pagerState = pagerState,
                 cards = uiState.cards,
                 completedCardIds = uiState.completedCardIds,
                 onStartExercises = onStartExercises,
@@ -95,11 +100,68 @@ fun MicrotopicScreen(
                 onAdvanceConsumed = onAdvanceConsumed,
             )
         }
+
+        PinnedHeader {
+            // В шапке карточки — только английское название микротемы (RU-часть двойного имени убираем).
+            BackTopBar(
+                title = uiState.title.titleEn(),
+                onBack = onBack,
+                modifier = Modifier.height(Dimens.topBarHeight),
+            )
+            if (!uiState.isLoading && uiState.cards.isNotEmpty()) {
+                CardProgressRow(
+                    pagerState = pagerState,
+                    cards = uiState.cards,
+                    completedCardIds = uiState.completedCardIds,
+                )
+            }
+        }
+    }
+}
+
+/** Полоса прогресса по карточкам и ID текущей карточки под шапкой. Высота фиксирована — под неё отступает карточка. */
+@Composable
+private fun CardProgressRow(
+    pagerState: PagerState,
+    cards: List<TheoryCard>,
+    completedCardIds: Set<Int>,
+) {
+    val scope = rememberCoroutineScope()
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(Dimens.progressRowHeight)
+            .padding(horizontal = Dimens.screenPadding),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
+    ) {
+        SegmentedProgressBar(
+            total = cards.size,
+            currentIndex = pagerState.currentPage,
+            modifier = Modifier.weight(1f),
+            // Тап — мгновенный переход. Запрет перепрыгивания (completion-based): доступна любая
+            // пройденная карточка (назад) + первая непройденная («следующая на очереди»). Дальше
+            // неё — нельзя, пока карточка не засчитана в БД.
+            onSegmentClick = { index ->
+                val frontier = cards.indexOfFirst { it.id !in completedCardIds }
+                val reachable = cards[index].id in completedCardIds || index == frontier
+                if (reachable) {
+                    scope.launch { pagerState.scrollToPage(index) }
+                }
+            },
+        )
+        // ID текущей карточки — общий бокс; пройденная карточка → зелёный.
+        val currentId = cards[pagerState.currentPage].id
+        IdBadge(
+            text = stringResource(R.string.theory_card_id, currentId),
+            highlighted = currentId in completedCardIds,
+        )
     }
 }
 
 @Composable
 private fun CardPager(
+    pagerState: PagerState,
     cards: List<TheoryCard>,
     completedCardIds: Set<Int>,
     onStartExercises: (cardId: Int) -> Unit,
@@ -110,9 +172,6 @@ private fun CardPager(
     advanceAfterCardId: Int?,
     onAdvanceConsumed: () -> Unit,
 ) {
-    val pagerState = rememberPagerState(pageCount = { cards.size })
-    val scope = rememberCoroutineScope()
-
     // Вернулись из сессии с прохождением карточки (микротема не закончена) → листаем на следующую.
     LaunchedEffect(advanceAfterCardId, cards) {
         val cardId = advanceAfterCardId ?: return@LaunchedEffect
@@ -142,53 +201,22 @@ private fun CardPager(
         }
     }
 
-    Column(modifier = Modifier.fillMaxSize()) {
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = Dimens.screenPadding, vertical = Dimens.spaceSmall),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
-        ) {
-            SegmentedProgressBar(
-                total = cards.size,
-                currentIndex = pagerState.currentPage,
-                modifier = Modifier.weight(1f),
-                // Тап — мгновенный переход. Запрет перепрыгивания (completion-based): доступна любая
-                // пройденная карточка (назад) + первая непройденная («следующая на очереди»). Дальше
-                // неё — нельзя, пока карточка не засчитана в БД.
-                onSegmentClick = { index ->
-                    val frontier = cards.indexOfFirst { it.id !in completedCardIds }
-                    val reachable = cards[index].id in completedCardIds || index == frontier
-                    if (reachable) {
-                        scope.launch { pagerState.scrollToPage(index) }
-                    }
-                },
-            )
-            // ID текущей карточки — общий бокс; пройденная карточка → зелёный.
-            val currentId = cards[pagerState.currentPage].id
-            IdBadge(
-                text = stringResource(R.string.theory_card_id, currentId),
-                highlighted = currentId in completedCardIds,
-            )
-        }
-        HorizontalPager(
-            state = pagerState,
-            modifier = Modifier.fillMaxSize(),
-            userScrollEnabled = false,
-        ) { page ->
-            val card = cards[page]
-            // Основная кнопка зависит от наличия заданий: есть → открыть сессию ЭТОЙ карточки;
-            // нет → отметить пройденной и листнуть дальше/выйти. Свайпов нет (CLAUDE → «Поиск и
-            // повторное прохождение»); листание — кнопкой и полосой прогресса.
-            CardPage(
-                card = card,
-                isCompleted = card.id in completedCardIds,
-                onStartExercises = { onStartExercises(card.id) },
-                onClarify = { onClarify(card.id) },
-                onCompleteCard = { onCompleteCard(card.id) },
-            )
-        }
+    HorizontalPager(
+        state = pagerState,
+        modifier = Modifier.fillMaxSize(),
+        userScrollEnabled = false,
+    ) { page ->
+        val card = cards[page]
+        // Основная кнопка зависит от наличия заданий: есть → открыть сессию ЭТОЙ карточки;
+        // нет → отметить пройденной и листнуть дальше/выйти. Свайпов нет (CLAUDE → «Поиск и
+        // повторное прохождение»); листание — кнопкой и полосой прогресса.
+        CardPage(
+            card = card,
+            isCompleted = card.id in completedCardIds,
+            onStartExercises = { onStartExercises(card.id) },
+            onClarify = { onClarify(card.id) },
+            onCompleteCard = { onCompleteCard(card.id) },
+        )
     }
 }
 
@@ -205,7 +233,11 @@ private fun CardPage(
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
             .padding(horizontal = Dimens.screenPadding)
-            .padding(bottom = scrollBottomInset()),
+            // Карточка проезжает под закреплённой шапкой, поэтому в покое держим её под ней отступом.
+            .padding(
+                top = statusBarTopInset() + Dimens.topBarHeight + Dimens.progressRowHeight,
+                bottom = scrollBottomInset(),
+            ),
         verticalArrangement = Arrangement.spacedBy(Dimens.spaceLarge),
     ) {
         MarkdownText(

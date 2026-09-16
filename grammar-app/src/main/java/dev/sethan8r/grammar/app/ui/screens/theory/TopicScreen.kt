@@ -2,10 +2,10 @@ package dev.sethan8r.grammar.app.ui.screens.theory
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -20,10 +20,12 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicSummary
 import dev.sethan8r.grammar.app.ui.components.scaffold.BackTopBar
+import dev.sethan8r.grammar.app.ui.components.scaffold.PinnedHeader
 import dev.sethan8r.grammar.app.ui.components.theory.MicrotopicRow
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.util.scrollBottomInset
+import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 
 /**
  * Экран темы — список её микротем. Тап ведёт на листание карточек ([onMicrotopicClick]).
@@ -50,8 +52,8 @@ fun TopicScreen(
         }
     }
 
-    Column(modifier = Modifier.fillMaxSize()) {
-        BackTopBar(title = uiState.title, onBack = onBack)
+    Box(modifier = Modifier.fillMaxSize()) {
+        // Список проезжает под шапкой, поэтому в покое держим его под ней отступом.
         LazyColumn(
             state = listState,
             modifier = Modifier
@@ -59,7 +61,7 @@ fun TopicScreen(
                 .padding(horizontal = Dimens.screenPadding),
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
             contentPadding = PaddingValues(
-                top = Dimens.spaceMedium,
+                top = statusBarTopInset() + Dimens.topBarHeight + Dimens.spaceMedium,
                 bottom = scrollBottomInset(),
             ),
         ) {
@@ -72,6 +74,14 @@ fun TopicScreen(
                         .background(CardBackground),
                 )
             }
+        }
+
+        PinnedHeader {
+            BackTopBar(
+                title = uiState.title,
+                onBack = onBack,
+                modifier = Modifier.height(Dimens.topBarHeight),
+            )
         }
     }
 }

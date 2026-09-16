@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
@@ -52,6 +53,7 @@ import dev.sethan8r.grammar.app.ui.components.clarify.ClarifyQuestionBubble
 import dev.sethan8r.grammar.app.ui.components.clarify.ClarifyQuestionOptions
 import dev.sethan8r.grammar.app.ui.components.clarify.ClarifyTypingBubble
 import dev.sethan8r.grammar.app.ui.components.scaffold.BackTopBar
+import dev.sethan8r.grammar.app.ui.components.scaffold.PinnedHeader
 import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.components.titleEn
 import dev.sethan8r.grammar.app.ui.theme.Background
@@ -74,46 +76,28 @@ fun ClarifyScreen(
     viewModel: ClarifyViewModel = hiltViewModel(),
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
+    val density = LocalDensity.current
+    // Высота шапки зависит от названия карточки (оно переносится) — берём фактическую.
+    var headerHeight by remember { mutableStateOf(0.dp) }
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            // Низ держит сам экран: поле ввода встаёт над клавиатурой либо над системной полосой.
-            .windowInsetsPadding(WindowInsets.ime.union(WindowInsets.navigationBars)),
-    ) {
-        BackTopBar(
-            title = state.microtopicTitle.titleEn(),
-            onBack = onBack,
-            actions = {
-                AiLimitChip(
-                    requestsLeft = state.aiRequestsLeft,
-                    isUnlimited = state.isAiUnlimited,
-                    onClick = onOpenAiLimit,
-                )
-            },
-        )
-
+    Box(modifier = Modifier.fillMaxSize()) {
         if (state.isLoading) {
             LoadingIndicator(Modifier.fillMaxSize())
         } else {
-            MarkdownText(
-                text = state.cardTitle,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = Dimens.screenPadding, vertical = Dimens.spaceSmall),
-                color = TextSecondary,
-                fontSize = 13.sp,
-            )
-
-            // Лента уходит под футер, футер лежит поверх на затемняющей подложке — как кнопка
-            // «Проверить» в сессии упражнений.
+            // Лента уходит сверху под закреплённую шапку, снизу под футер; футер лежит поверх на
+            // затемняющей подложке — как кнопка «Проверить» в сессии упражнений.
             var footerHeight by remember { mutableStateOf(0.dp) }
-            val density = LocalDensity.current
 
-            Box(modifier = Modifier.weight(1f)) {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    // Низ держит сам экран: поле ввода встаёт над клавиатурой либо над системной полосой.
+                    .windowInsetsPadding(WindowInsets.ime.union(WindowInsets.navigationBars)),
+            ) {
                 ClarifyThreadList(
                     state = state,
                     onSelectOption = viewModel::ask,
+                    topPadding = headerHeight,
                     bottomPadding = footerHeight,
                 )
 
@@ -129,6 +113,33 @@ fun ClarifyScreen(
                 )
             }
         }
+
+        PinnedHeader(
+            modifier = Modifier.onGloballyPositioned { headerHeight = with(density) { it.size.height.toDp() } },
+        ) {
+            BackTopBar(
+                title = state.microtopicTitle.titleEn(),
+                onBack = onBack,
+                modifier = Modifier.height(Dimens.topBarHeight),
+                actions = {
+                    AiLimitChip(
+                        requestsLeft = state.aiRequestsLeft,
+                        isUnlimited = state.isAiUnlimited,
+                        onClick = onOpenAiLimit,
+                    )
+                },
+            )
+            if (!state.isLoading) {
+                MarkdownText(
+                    text = state.cardTitle,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = Dimens.screenPadding, vertical = Dimens.spaceSmall),
+                    color = TextSecondary,
+                    fontSize = 13.sp,
+                )
+            }
+        }
     }
 }
 
@@ -137,6 +148,7 @@ fun ClarifyScreen(
 private fun ClarifyThreadList(
     state: ClarifyUiState,
     onSelectOption: (String) -> Unit,
+    topPadding: Dp,
     bottomPadding: Dp,
     modifier: Modifier = Modifier,
 ) {
@@ -161,7 +173,8 @@ private fun ClarifyThreadList(
         contentPadding = PaddingValues(
             start = Dimens.screenPadding,
             end = Dimens.screenPadding,
-            top = Dimens.spaceSmall,
+            // Лента проезжает под закреплённой шапкой, поэтому в покое держим её под ней отступом.
+            top = topPadding + Dimens.spaceSmall,
             bottom = bottomPadding + Dimens.spaceSmall,
         ),
         verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
