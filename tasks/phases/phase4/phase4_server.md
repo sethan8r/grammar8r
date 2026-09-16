@@ -115,6 +115,10 @@ POST /promo/validate
   Промокод не списывается здесь — только при успешной оплате через вебхук.
 
 POST /payment/create
+  ⚠️ Схема ниже — для RuStore-сборки (оплата в приложении). Для Play/iOS оплата идёт на сайте
+     под тем же аккаунтом, а подписка вычисляется из платежей с разными источниками
+     (yookassa_app / yookassa_web / apple_iap / manual) — см. subscription.md → «Платёжные каналы
+     по площадкам» и ios_portability_plan.md §8.5. Учесть при проектировании таблицы подписок.
   Headers: Authorization: Bearer <jwt>
   Body: { tier: "tier1" | "tier2", promoCode?: "ABCD-1234" }
   → { paymentUrl: "https://yookassa.ru/..." }
