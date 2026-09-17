@@ -93,8 +93,8 @@ def collect_seed_files():
 
 def to_db_value(v):
     """JSON-значение -> значение для sqlite.
-    bool -> 0/1; None -> NULL; list/dict -> сырая JSON-строка (колонка TEXT, разбор в domain-маппере
-    на Шаге E — см. decision_log «JSON-поля как String»); остальное как есть (str/int/float)."""
+    bool -> 0/1; None -> NULL; list/dict -> сырая JSON-строка (колонка TEXT, типизированный разбор —
+    в мапперах data/mapper приложения); остальное как есть (str/int/float)."""
     if isinstance(v, bool):
         return 1 if v else 0
     if isinstance(v, (list, dict)):
