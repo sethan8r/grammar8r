@@ -90,13 +90,6 @@ tasks.matching { it.name.startsWith("merge") && it.name.endsWith("Assets") }.con
     dependsOn(generateContentDb)
 }
 
-// Тесты поиска читают собранную content.db, поэтому `gradlew test` сначала пересобирает её
-// из сидов — иначе протокол гонялся бы по устаревшему контенту.
-tasks.withType<Test>().configureEach {
-    dependsOn(generateContentDb)
-    systemProperty("grammar8r.contentDb", contentDbOutput.absolutePath)
-}
-
 dependencies {
     implementation(project(":grammar-core"))
     implementation(project(":grammar-shared"))
@@ -124,10 +117,7 @@ dependencies {
     ksp(libs.androidx.room.compiler)
     testImplementation(libs.androidx.room.testing)
 
-    // Тесты поиска гоняются по настоящей content.db (см. task testDependsOnContentDb ниже):
-    // JVM-тесту недоступен Room, поэтому БД открывается sqlite-драйвером напрямую.
     testImplementation(libs.kotlin.test.junit)
-    testImplementation(libs.sqlite.jdbc)
 
     // kotlinx.serialization (type-safe навигация + парсинг JSON-блоков теории)
     implementation(libs.kotlinx.serialization.json)
