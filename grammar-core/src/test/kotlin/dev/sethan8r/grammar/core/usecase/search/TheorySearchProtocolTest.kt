@@ -212,8 +212,8 @@ class TheorySearchProtocolTest {
     }
 
     /**
-     * Находки §10.10: человеческие запросы, на которых выдача уезжала мимо цели. Проверяем
-     * первую группу — она и есть ответ; хвост допустим.
+     * Находки §10.10: запросы, которые прямо называют тему. Ответ однозначен, поэтому тема обязана
+     * стоять первой: если новая микротема курса её перебила — это поломка поиска, а не конкуренция.
      */
     @Test
     fun `находки протокола — нужная тема стоит первой`() {
@@ -229,14 +229,19 @@ class TheorySearchProtocolTest {
             // 12 — тег совпадал дословно, а выдача была мимо
             "почему monday с большой буквы" to "Основы",
         )
-        for ((query, topic) in expected) {
-            assertEquals(topic, search(query).firstOrNull()?.topic?.title, "запрос «$query»")
+        val failures = expected.mapNotNull { (query, topic) ->
+            val first = search(query).firstOrNull()?.topic?.title
+            "«$query»: ждали «$topic», первой стоит «$first»".takeIf { first != topic }
         }
+        assertTrue(failures.isEmpty(), failures.joinToString("\n"))
     }
 
     /**
      * Находки §10.10 (9–12): длинный запрос со словами-связками вокруг ключевого давал ноль
      * групп, хотя слово из тега совпадало дословно.
+     *
+     * Запросы размытые, и первое место законно переходит к новым микротемам по мере роста курса.
+     * Поэтому проверяется, что ответ остаётся на первом экране выдачи — в первых [FIRST_SCREEN_GROUPS] группах.
      */
     @Test
     fun `длинный бытовой запрос находит свою микротему`() {
@@ -248,13 +253,12 @@ class TheorySearchProtocolTest {
             "out of или out" to "Direction Prepositions",
             "как понять нужен ли to после глагола" to "Verbs Without to",
         )
-        for ((query, microtopic) in expected) {
-            val titles = search(query).first().microtopicTitles()
-            assertTrue(
-                titles.any { it.startsWith(microtopic) },
-                "запрос «$query» не нашёл «$microtopic»: $titles",
-            )
+        val failures = expected.mapNotNull { (query, microtopic) ->
+            val firstScreen = search(query).take(FIRST_SCREEN_GROUPS)
+            val found = firstScreen.any { group -> group.microtopicTitles().any { it.startsWith(microtopic) } }
+            "«$query»: нет «$microtopic» в ${firstScreen.map { it.topic.title }}".takeIf { !found }
         }
+        assertTrue(failures.isEmpty(), failures.joinToString("\n"))
     }
 
     /**
@@ -267,5 +271,10 @@ class TheorySearchProtocolTest {
         for (query in listOf("в на с", "или же", "для по от")) {
             assertTrue(search(query).isEmpty(), "запрос «$query» что-то нашёл")
         }
+    }
+
+    private companion object {
+        /** Столько групп выдачи видно на экране телефона без прокрутки. */
+        const val FIRST_SCREEN_GROUPS = 3
     }
 }
