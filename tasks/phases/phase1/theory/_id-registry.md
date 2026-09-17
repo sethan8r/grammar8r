@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 567 |
-| Categorization | 124 |
+| Card | 571 |
+| Categorization | 125 |
 | Category | 8 |
-| ConstructionMeaning | 73 |
-| DialogRestore | 83 |
-| ErrorCorrection | 201 |
+| ConstructionMeaning | 74 |
+| DialogRestore | 84 |
+| ErrorCorrection | 203 |
 | FindTheOdd | 109 |
-| Matching | 91 |
-| Microtopic | 211 |
-| MultipleChoice·CHOICE | 215 |
-| MultipleChoice·FORWARD_CHOICE | 238 |
-| MultipleChoice·REVERSE_CHOICE | 91 |
+| Matching | 92 |
+| Microtopic | 212 |
+| MultipleChoice·CHOICE | 216 |
+| MultipleChoice·FORWARD_CHOICE | 239 |
+| MultipleChoice·REVERSE_CHOICE | 92 |
 | TableFill | 42 |
-| TextInput | 106 |
+| TextInput | 107 |
 | Topic | 34 |
-| Transformation | 94 |
-| TrueFalse | 212 |
-| WordArrangement | 189 |
-| course_word | 800 |
+| Transformation | 95 |
+| TrueFalse | 213 |
+| WordArrangement | 191 |
+| course_word | 801 |
 
 ## Диапазоны по темам
 
@@ -580,23 +580,23 @@
 - WordArrangement: 107–108 (2)
 
 ### see-look-watch
-- Card: 555–566 (12)
-- Categorization: 121–123 (3)
-- ConstructionMeaning: 71–72 (2)
-- DialogRestore: 81–82 (2)
-- ErrorCorrection: 198–200 (3)
+- Card: 555–570 (16)
+- Categorization: 121–124 (4)
+- ConstructionMeaning: 71–73 (3)
+- DialogRestore: 81–83 (3)
+- ErrorCorrection: 198–202 (5)
 - FindTheOdd: 106–108 (3)
-- Matching: 88–90 (3)
-- Microtopic: 208–210 (3)
-- MultipleChoice·CHOICE: 211–214 (4)
-- MultipleChoice·FORWARD_CHOICE: 234–237 (4)
-- MultipleChoice·REVERSE_CHOICE: 88–90 (3)
-- TextInput: 103–105 (3)
+- Matching: 88–91 (4)
+- Microtopic: 208–211 (4)
+- MultipleChoice·CHOICE: 211–215 (5)
+- MultipleChoice·FORWARD_CHOICE: 234–238 (5)
+- MultipleChoice·REVERSE_CHOICE: 88–91 (4)
+- TextInput: 103–106 (4)
 - Topic: 33–33 (1)
-- Transformation: 93–93 (1)
-- TrueFalse: 209–211 (3)
-- WordArrangement: 187–188 (2)
-- course_word: 788–799 (12)
+- Transformation: 93–94 (2)
+- TrueFalse: 209–212 (4)
+- WordArrangement: 187–190 (4)
+- course_word: 788–800 (13)
 
 ### so-such-too-enough
 - Card: 429–440 (12)

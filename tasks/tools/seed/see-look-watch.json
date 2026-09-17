@@ -32,6 +32,13 @@
       "title": "Hear, listen · Слышать и слушать",
       "order": 3,
       "searchKeywords": "can hear, не слышно, не расслышал, hear heard heard, listen music, как ответить слушаю, obey или listen to, overhear или eavesdrop"
+    },
+    {
+      "id": 211,
+      "topicId": 33,
+      "title": "See him do / doing · Видел, как он…",
+      "order": 4,
+      "searchKeywords": "saw how he, do или doing после see, слышал как, безличное слышно как, застал за, caught him doing"
     }
   ],
   "grammar_cards": [
@@ -2235,6 +2242,722 @@
         "Как по-английски ответить «слушаю» на звонок?",
         "Чем overhear отличается от eavesdrop?"
       ]
+    },
+    {
+      "id": 567,
+      "microtopicId": 211,
+      "title": "Видел, как он перешёл: глагол восприятия + кого + действие",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русский рассказывает об увиденном целой второй фразой: «я видел, **как он** переходил дорогу». Английский так не строит. Он говорит **I saw him cross the street** — без «как» и без второго подлежащего: только тот, кого вы видели, и его действие."
+        },
+        {
+          "type": "heading",
+          "text": "Как это собрано"
+        },
+        {
+          "type": "paragraph",
+          "text": "Дословно **I saw him cross the street** — «я видел его перейти улицу», по-живому «я видел, как он перешёл улицу». Корявый дословный вариант как раз показывает устройство. Сначала английский называет, **кого** вы видели, — `him`. Потом — **что** этот человек сделал, — `cross`. Для русского это одно событие «как он перешёл», для английского — два шага подряд: увидел человека, увидел его действие."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Глагол восприятия + кого + V1 без to"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Эту полку мы уже знаем. В микротеме «Глагол + объект + инфинитив» точно так же вели себя `make` и `let`: **She made me laugh**, **He let me go** — после «кого» сразу голый глагол, никакого `to`. Глаголы восприятия встают на ту же полку, поэтому **I saw him to leave** ✗ → **I saw him leave** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Кто сюда встаёт"
+        },
+        {
+          "type": "paragraph",
+          "text": "Конструкция работает у всех глаголов про глаза, уши и ощущения:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**see** — **I saw Igor get into a taxi.** — я видел, как Игорь сел в такси",
+            "**watch** — **We watched the sun go down.** — мы смотрели, как садится солнце",
+            "**hear** — **I heard Emma laugh.** — я слышал, как Эмма засмеялась",
+            "**notice** — **Did you notice Oleg leave?** — ты заметил, как Олег ушёл?",
+            "**feel** — **I felt the phone vibrate in my pocket.** — я почувствовал, как в кармане завибрировал телефон",
+            "**look at**, **listen to** — с адресом: **Look at him dance!** · **Listen to her sing.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Никакого как"
+        },
+        {
+          "type": "paragraph",
+          "text": "Рука переносит русское «как» слово в слово: **I saw how Igor got into a taxi**. Но английское `how` значит «каким образом, каким способом». Такая фраза спрашивает не «видел ли ты, что он сел», а «видел ли ты, каким способом он садился», — и носитель запнётся, пытаясь понять, что особенного было в посадке."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I saw how he crossed the street** ✗ → **I saw him cross the street** ✓. Русское «как» в этой конструкции не переводится вообще."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`How` законен ровно тогда, когда вам интересен сам способ: **I watched how Dad fixed the tap** — «я смотрел, как папа чинил кран», то есть каким способом, чтобы потом починить самому."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Время ставится один раз"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский ставит время дважды: «видел, как он **перешёл**». Хочется и в английском: **I saw him crossed the street**. Но прошлое уже сказано глаголом `saw`, второй глагол время не несёт. Он всегда в первой форме — в каком бы времени ни стоял первый:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I often see Sonya walk her dog.** — я часто вижу, как Соня гуляет с собакой",
+            "**I heard Dad come home late last night.** — я слышал, как папа поздно вернулся вчера",
+            "**You'll hear her sing at the concert tomorrow.** — завтра на концерте вы услышите, как она поёт",
+            "**I've never seen my dad dance.** — я никогда не видел, как мой папа танцует"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**We watched the plane landed** ✗ → **We watched the plane land** ✓ · **She hears him plays the guitar** ✗ → **She hears him play the guitar** ✓. Ни `-ed`, ни `-s` у второго глагола не бывает."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Кого — объектной формой"
+        },
+        {
+          "type": "paragraph",
+          "text": "После глагола восприятия стоит тот, кого видят или слышат, — значит, форма у него объектная, как после любого глагола: `me`, `you`, `him`, `her`, `it`, `us`, `them`. Русское «как **он**…» тянет **I heard he laugh** ✗ → **I heard him laugh** ✓. Имя или существительное просто стоят на своём месте: **I saw Jake leave**, **We heard a dog bark**, **I heard someone shout**."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "«Видел, слышал, заметил, как он что-то сделал» собирается по схеме `глагол восприятия + кого + V1 без to`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw Igor get into a taxi** · **I heard Emma laugh** · **Did you notice Oleg leave?**",
+            "Время — только у первого глагола: **I heard Dad come home** · **I've never seen my dad dance**",
+            "Кого — объектной формой: **him**, **her**, **them**",
+            "`how` — только про способ: **I watched how Dad fixed the tap**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw how he crossed the street** ✗ → **I saw him cross the street** ✓",
+            "**We watched the plane landed** ✗ → **We watched the plane land** ✓ — время уже в watched",
+            "**I saw him to leave** ✗ → **I saw him leave** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я видел, как Саша сел в автобус.",
+          "en": "I saw Sasha get on the bus."
+        },
+        {
+          "ru": "Мы слышали, как кто-то крикнул на улице.",
+          "en": "We heard someone shout in the street."
+        },
+        {
+          "ru": "Ты заметил, как Паша ушёл?",
+          "en": "Did you notice Pasha leave?"
+        },
+        {
+          "ru": "Бен смотрел, как его сын играл в футбол.",
+          "en": "Ben watched his son play football."
+        },
+        {
+          "ru": "Я никогда не слышал, как Оля поёт.",
+          "en": "I've never heard Olya sing."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после saw him глагол стоит без -ed, если всё было в прошлом?",
+        "Можно ли вообще сказать I saw how he did it?",
+        "Чем эта конструкция похожа на make и let?"
+      ]
+    },
+    {
+      "id": 568,
+      "microtopicId": 211,
+      "title": "Не видел, как он ушёл: отрицание, вопросы и see that",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Конструкция собрана — теперь покрутим её: скажем «не видел», спросим «ты видел?» и отделим «видел, **как**…» от «увидел, **что**…». Во всех трёх случаях меняется только глагол восприятия, а «кого + действие» стоит как стояло."
+        },
+        {
+          "type": "heading",
+          "text": "Не видел, как он ушёл"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание вешается на глагол восприятия — ведь «не» относится к тому, чего вы не видели или не слышали:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I didn't see Roma leave.** — я не видел, как Рома ушёл",
+            "**Sorry, I didn't hear you come in.** — извини, я не слышал, как ты вошёл",
+            "**Mum didn't notice the cat jump onto the table.** — мама не заметила, как кот запрыгнул на стол"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Did` забрал прошлое себе, и глагол восприятия возвращается в первую форму: **I didn't saw him leave** ✗ → **I didn't see him leave** ✓. Второй глагол при этом тоже голый — в этой фразе нет ни одной формы прошедшего, кроме `did`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ты видел, как…? — вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос строится вокруг глагола восприятия по обычным правилам, хвост «кого + действие» не трогается:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Did you see the ball go in?** — ты видел, как мяч залетел в ворота?",
+            "**Have you ever watched Grandma make dumplings?** — ты когда-нибудь смотрел, как бабушка лепит пельмени?",
+            "**Didn't you hear the baby cry?** — разве ты не слышал, как заплакал ребёнок?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда спрашивают о самом действии — «что он сказал?», «что она сделала?», — в начало выходит `what`, а на месте действия остаётся голый глагол:"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "What + did you + see / hear + кого + V1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Так получается **What did you hear him say?** — дословно «что ты слышал его сказать?», по-живому «что он сказал — ты расслышал?»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Этот вопрос можно задать и через косвенный вопрос из темы «Косвенные вопросы»: **Did you hear what he said?** — «ты слышал, что он сказал?». Оба варианта верны и звучат одинаково естественно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Видел, как… или увидел, что…"
+        },
+        {
+          "type": "paragraph",
+          "text": "У русского «видел, **как** она открыла письмо» и «видел, **что** она расстроена» различаются одним словом. У английского — всей сборкой:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw Katya open the letter.** — я видел, как Катя открыла письмо: картинка действия, глазами",
+            "**I saw that Katya was upset.** — я видел, что Катя расстроена: замеченный факт, вывод"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После `that` идёт целая часть со своим подлежащим и своим временем — `Katya was`. Это уже не «смотрел на действие», а «заметил, понял». Так же работает `notice`: **I noticed that the shop was closed.** И отсюда же «видел, что он **не** заплатил»: **I saw that he didn't pay** — отрицание спокойно живёт внутри целой части."
+        },
+        {
+          "type": "paragraph",
+          "text": "Со слухом разница ещё резче, потому что `hear that` — это уже не уши, а новости:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I heard Misha close the door.** — я слышал, как Миша закрыл дверь: звук",
+            "**I heard that Misha moved to Dublin.** — я слышал, что Миша переехал в Дублин: до вас дошла новость"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Слышал, что…» в значении «узнал» — отдельный этаж темы, до него дойдём в микротеме «Понимаю, а не вижу». Пока держите границу: **как** — звук или картинка действия, **что** — факт."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что встаёт на место действия"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Обычный глагол — первая форма: **saw him leave**",
+            "`to be` — тоже голое `be`, а не `was`: **I've never seen Dad be so nervous.** — я никогда не видел, чтобы папа так нервничал",
+            "Модальный глагол сюда не встаёт: «увидел, что он не умеет плавать» — это факт, значит `that`: **I saw that he couldn't swim**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сам глагол восприятия в Continuous"
+        },
+        {
+          "type": "paragraph",
+          "text": "Первый глагол живёт по оси темы. `watch`, `look at`, `listen to` — ваши действия, им Continuous можно: **I was watching the kids play when the phone rang.** ✓ А `see` и `hear` случаются сами, поэтому **I was seeing him leave** ✗ → **I saw him leave** ✓."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Отрицание и вопрос строятся у глагола восприятия, «кого + действие» не меняется."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I didn't see Roma leave** · **Did you see the ball go in?** · **Didn't you hear the baby cry?**",
+            "Что сказал? — **What did you hear him say?** или **Did you hear what he said?**",
+            "Картинка действия — **I saw Katya open the letter**; замеченный факт — **I saw that Katya was upset**",
+            "**I heard Misha close the door** — звук; **I heard that Misha moved** — новость",
+            "`to be` на месте действия — голое `be`: **I've never seen Dad be so nervous**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I didn't saw him leave** ✗ → **I didn't see him leave** ✓",
+            "**I was seeing him leave** ✗ → **I saw him leave** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мы не видели, как начался пожар.",
+          "en": "We didn't see the fire start."
+        },
+        {
+          "ru": "Ты слышал, как Денис это сказал?",
+          "en": "Did you hear Denis say that?"
+        },
+        {
+          "ru": "Разве ты не видел, как Ира помахала тебе?",
+          "en": "Didn't you see Ira wave at you?"
+        },
+        {
+          "ru": "Я заметил, что Витя устал.",
+          "en": "I noticed that Vitya was tired."
+        },
+        {
+          "ru": "Я слышал, что Юля нашла новую работу.",
+          "en": "I heard that Yulia found a new job."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «не» ставится к see, а не ко второму глаголу?",
+        "Чем I saw her cry отличается от I saw that she was upset?",
+        "Как спросить «что он сказал, ты слышал?»"
+      ]
+    },
+    {
+      "id": 569,
+      "microtopicId": 211,
+      "title": "Перешёл или переходил: V1 или -ing после see и hear",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы собирали **I saw him cross the street** с голым глаголом. Но в самой первой карточке темы мелькнула и другая версия — **I saw him crossing the street**. Правильные обе, а говорят они о разном."
+        },
+        {
+          "type": "heading",
+          "text": "Целиком или кусок"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw him cross the street.** — вы видели действие от начала до конца: шагнул на зебру и вышел на другой стороне",
+            "**I saw him crossing the street.** — вы застали его в процессе: он был посреди дороги, а чем кончилось, вы не видели"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дословно **I saw him crossing the street** — «я видел его переходящим улицу», по-живому «я видел, как он переходил улицу». Форма на `-ing` здесь та же, что в Continuous, и смысл у неё тот же: процесс, в который вы попали на середине. Как в Past Continuous: **I was crossing the street when my phone rang** — дело шло, конца не видно."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Целиком: see + кого + V1 · в процессе: see + кого + -ing"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Со слухом так же: **I heard Olya sing her new song** — вы слышали песню от первой ноты до последней. **I heard someone singing next door** — у соседей кто-то пел, до вас долетал кусок."
+        },
+        {
+          "type": "heading",
+          "text": "Подсказка из русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский здесь помогает своими видами глагола. Хочется сказать «перешёл, спел, упал» — действие закончено, и чаще это V1. Хочется «переходил, пел, шёл» — чаще `-ing`. Но это подсказка, а не закон: в «видел, как…» русский нередко говорит «переходил» и про весь путь целиком. Решает картинка в голове: видели всё — V1, выхватили кусок — `-ing`."
+        },
+        {
+          "type": "heading",
+          "text": "Короткие действия: раз или много раз"
+        },
+        {
+          "type": "paragraph",
+          "text": "У глаголов-щелчков процесса почти нет: стук, прыжок, хлопок длятся мгновение. У них `-ing` значит уже не «кусок», а «снова и снова»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I heard someone knock.** — кто-то стукнул, один раз",
+            "**I heard someone knocking.** — кто-то стучал, стук повторялся",
+            "**I saw the dog jump into the lake.** — прыгнул, один раз",
+            "**I saw the kids jumping on the sofa.** — прыгали и прыгали"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где разницы почти нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда действие длинное и вам неважно, досмотрели ли вы до конца, годятся оба: **We watched the kids play in the park** и **We watched the kids playing in the park** по смыслу одно и то же. Здесь носитель выбирает на слух, и ошибки нет ни в одном варианте."
+        },
+        {
+          "type": "heading",
+          "text": "Застал — только -ing"
+        },
+        {
+          "type": "paragraph",
+          "text": "У некоторых глаголов выбора нет. `catch` — «застать, поймать за делом»: дословно `catch someone doing` — «поймать кого-то делающим», по-живому «застать кого-то за чем-то». Застать можно только посреди дела, поэтому после него только `-ing`: **Mum caught me eating sweets before dinner.** — мама застала меня за конфетами перед ужином."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I caught him read my messages** ✗ → **I caught him reading my messages** ✓. Целиком «застать» не бывает — застают всегда на середине."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом стоит `spot` — «заметить, углядеть» то, что мелькнуло в толпе, в окне, на ходу. Раз человека углядели на ходу, с ним почти всегда `-ing`: **I spotted Oliver leaving the office early.** — я заметил, как Оливер уходил с работы пораньше."
+        },
+        {
+          "type": "heading",
+          "text": "С адресом и с другими чувствами"
+        },
+        {
+          "type": "paragraph",
+          "text": "`look at` и `listen to` принимают оба варианта по тем же правилам: **Look at those kids dancing!** · **Listen to the rain falling on the roof.** `feel` — тоже: **I felt something crawling on my arm.** — я почувствовал, как по руке что-то ползёт."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После глагола восприятия и «кого» стоит V1, если действие видели целиком, и `-ing`, если застали в процессе. Схема `глагол восприятия + кого + V1 / -ing`: время только у первого глагола, без `to` и без `how`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw him cross the street** — перешёл, видели весь путь",
+            "**I saw him crossing the street** — переходил, застали на середине",
+            "Мгновенное действие: **I heard someone knock** — один раз; **knocking** — снова и снова",
+            "Действие длинное, конец неважен, — годятся оба",
+            "Только `-ing`: **Mum caught me eating sweets** — застала; **I spotted Oliver leaving** — углядел"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw how he crossed the street** ✗ → **I saw him cross the street** ✓",
+            "**I saw him crossed the street** ✗ → **I saw him cross the street** ✓",
+            "**I caught him read my messages** ✗ → **I caught him reading my messages** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я видел, как Лена бежала к автобусу.",
+          "en": "I saw Lena running for the bus."
+        },
+        {
+          "ru": "Ты слышал, как Настя играла на пианино?",
+          "en": "Did you hear Nastya playing the piano?"
+        },
+        {
+          "ru": "Учитель застал Колю за списыванием.",
+          "en": "The teacher caught Kolya cheating."
+        },
+        {
+          "ru": "Я заметил, как Меган выходила из банка.",
+          "en": "I spotted Megan leaving the bank."
+        },
+        {
+          "ru": "Мы слышали, как кто-то стучал в стену.",
+          "en": "We heard someone knocking on the wall."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, нужен V1 или -ing после saw him?",
+        "Почему после caught нельзя поставить глагол без -ing?",
+        "Когда между watched them play и watched them playing нет разницы?"
+      ]
+    },
+    {
+      "id": 570,
+      "microtopicId": 211,
+      "title": "Слышно, как поют птицы: can hear и can see без того, кто слышит",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор у нас всегда был тот, кто видел: «**я** видел, как он…». Но русский очень часто обходится без него: «слышно, как поют птицы», «видно, как он бежит», «было слышно, как кто-то разговаривает». Никто не назван — просто слышно."
+        },
+        {
+          "type": "heading",
+          "text": "Подлежащее появляется всегда"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы уже встречали это в карточках «See приходит само» и «Не слышно и не расслышал»: «не видно» — **I can't see**, «не слышно» — **I can't hear you**. Английский без подлежащего не живёт и ставит того, до кого картинка или звук доходят. Теперь к `can see` и `can hear` пристёгивается конструкция из прошлых карточек:"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "You + can hear / can see + кого + -ing"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You can hear the birds singing.** — слышно, как поют птицы",
+            "**From the bridge you can see people swimming in the river.** — с моста видно, как люди плавают в реке"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чьё это you"
+        },
+        {
+          "type": "paragraph",
+          "text": "`you` здесь не «ты». Это любой человек, который окажется на этом месте, — ровно то, что прячет русское безличное «слышно». Дословно **You can hear the birds singing** — «ты можешь слышать птиц поющими», по-живому «слышно, как поют птицы». Если слышите именно вы, подлежащее — `I` или `we`: **I can hear someone laughing outside.** — мне слышно, как на улице кто-то смеётся."
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему здесь почти всегда `-ing`: «слышно» — это то, что звучит прямо сейчас, пока вы слушаете, то есть процесс. Голый глагол тоже не ошибка — **You can hear the birds sing** ✓, — но после `can` носитель чаще берёт `-ing`."
+        },
+        {
+          "type": "heading",
+          "text": "Было слышно — could"
+        },
+        {
+          "type": "paragraph",
+          "text": "В рассказе о прошлом `can` становится `could`. Эта связка — главный способ сказать о звуках и картинках, которые сопровождали историю:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I could hear someone talking behind the door.** — было слышно, как за дверью кто-то разговаривает",
+            "**From the window we could see the kids playing in the snow.** — из окна нам было видно, как дети играют в снегу",
+            "**At the back you couldn't hear the band playing.** — в задних рядах не было слышно, как играет группа"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос строится у `can`: **Can you hear them arguing again?** — слышишь, как они опять ругаются?"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Безличное «слышно» тянет фразу без подлежащего: **Can hear the birds singing** ✗ или **Is heard how the birds sing** ✗ → **You can hear the birds singing** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`How` вылезает и здесь, теперь в безличной фразе: **You can hear how the kids play outside** ✗ → **You can hear the kids playing outside** ✓. Русское «как» не переводится и тут."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Видно, что… — это уже факт"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Видно, **как** он бежит» — картинка действия. «Видно, **что** она волнуется» — вывод по виду, и тут снова `that`, как в карточке «Не видел, как он ушёл»: **You can see that she's nervous.** В разговоре `that` часто опускают: **You can see she's nervous.** Про внешний вид можно сказать и проще, через `look` из темы «Наречия»: **She looks nervous.**"
+        },
+        {
+          "type": "heading",
+          "text": "Пахнет и чувствуется"
+        },
+        {
+          "type": "paragraph",
+          "text": "Запах русский тоже подаёт безлично: «пахнет горелым». По-английски снова нужен тот, кто чувствует запах: **I can smell something burning!** — чем-то горелым пахнет! Запах не бывает «целиком», он всегда длится, поэтому у `smell` в этой конструкции только `-ing`: **I can smell something burn** ✗ → **I can smell something burning** ✓. С `feel` так же: **You can feel the floor shaking when the train passes.** — чувствуется, как дрожит пол, когда проходит поезд."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Безличное «слышно / видно, как…» получает подлежащее: `you` — кто угодно на этом месте, `I` или `we` — вы сами. Схема `you + can hear / can see + кого + -ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Сейчас: **You can hear the birds singing**",
+            "В прошлом: **I could hear someone talking behind the door**",
+            "Вопрос: **Can you hear them arguing again?**",
+            "«Видно, что…» — факт: **You can see she's nervous**",
+            "«Пахнет»: **I can smell something burning** — только `-ing`"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can hear the birds singing** ✗ → **You can hear the birds singing** ✓",
+            "**You can hear how the kids play outside** ✗ → **You can hear the kids playing outside** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Отсюда видно, как садятся самолёты.",
+          "en": "From here you can see the planes landing."
+        },
+        {
+          "ru": "Было слышно, как соседи сверлят.",
+          "en": "You could hear the neighbours drilling."
+        },
+        {
+          "ru": "Я слышу, как кто-то плачет.",
+          "en": "I can hear someone crying."
+        },
+        {
+          "ru": "Видно, что Жанна волнуется.",
+          "en": "You can see that Zhanna is worried."
+        },
+        {
+          "ru": "Нам было слышно, как дети смеются в саду.",
+          "en": "We could hear the kids laughing in the garden."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в «слышно, как поют птицы» появляется you?",
+        "Почему после can hear чаще идёт -ing, а не обычная форма?",
+        "Как сказать «видно, что он устал», а не «видно, как»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2453,6 +3176,90 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 108,
       "orderInCard": 2
+    },
+    {
+      "cardId": 567,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 238,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 567,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 212,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 567,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 201,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 567,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 94,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 568,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 215,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 568,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 73,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 568,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 83,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 568,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 189,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 569,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 124,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 569,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 91,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 569,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 106,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 570,
+      "exerciseType": "MATCHING",
+      "exerciseId": 91,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 570,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 202,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 570,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 190,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2485,6 +3292,22 @@
       "cardId": 566,
       "title": "Слушай, слушаю, слушается",
       "userInstruction": "Вы получите русскую фразу со словом «слушать» в одном из его значений: слушать музыку, слушаться, «слушай, …», «слушаю вас» или «подслушал». Напишите, как её скажут по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card569_ex1",
+      "cardId": 569,
+      "title": "Видел, как он…",
+      "userInstruction": "Вы получите русскую фразу о том, что кто-то видел, слышал или заметил, как другой человек что-то делает. Напишите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card570_ex1",
+      "cardId": 570,
+      "title": "Слышно, видно, пахнет",
+      "userInstruction": "Вы получите русскую фразу, где не сказано, кто видит или слышит: «слышно, как…», «видно, как…», «было слышно, как…». Напишите её по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -2601,6 +3424,14 @@
       "transcription": "[ˈiːvzdrɒp]",
       "microtopicId": 210,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 800,
+      "word": "to spot",
+      "translation": "заметить, углядеть",
+      "transcription": "[spɒt]",
+      "microtopicId": 211,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -2697,6 +3528,37 @@
         }
       ],
       "explanation": "после can't глагол стоит в первой форме: I can't hear you. «Плохо слышно» по-английски получает подлежащее: I can't hear you very well. Остальные верны: could hear — было слышно, doesn't hear very well — про слух как способность, didn't catch — не расслышал."
+    },
+    {
+      "id": 212,
+      "statements": [
+        {
+          "en": "I saw Vitya park his car behind the school.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We heard the kids to shout in the yard.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Did you notice she take my umbrella?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Lucy watched her dad fixed the bike.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I felt something touch my shoulder.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "после глаголов восприятия to не ставится: We heard the kids shout. Того, кого видят, называют объектной формой: Did you notice her take my umbrella? Время уже сказано в watched, второй глагол остаётся в первой форме: Lucy watched her dad fix the bike."
     }
   ],
   "word_arrangement_exercises": [
@@ -2738,6 +3600,47 @@
         "it's"
       ],
       "explanation": "русское «не слышно» получает подлежащее I и can't, а hear остаётся в первой форме без -ing. Предлог to у hear не бывает, it's здесь лишнее, а listen значило бы «слушать», а не «слышать»."
+    },
+    {
+      "id": 189,
+      "situationRu": "Ситуация: сосед видел из окна, как ваш сын что-то сделал с вашей машиной. Спросите соседа, что именно он видел.",
+      "correctSentence": "What did you see my son do?",
+      "words": [
+        "What",
+        "did",
+        "you",
+        "see",
+        "my son",
+        "do"
+      ],
+      "distractors": [
+        "saw",
+        "done",
+        "to",
+        "does"
+      ],
+      "explanation": "в начало выходит what, дальше вопрос строится у глагола восприятия: did you see. После did — первая форма see, а действие сына остаётся голым do: ни done, ни to здесь не нужны."
+    },
+    {
+      "id": 190,
+      "situationRu": "Ситуация: вы рассказываете, как ночевали в палатке в лесу: всю ночь было слышно, как вокруг кто-то ходит.",
+      "correctSentence": "We could hear someone walking around the tent.",
+      "words": [
+        "We",
+        "could",
+        "hear",
+        "someone",
+        "walking",
+        "around the tent"
+      ],
+      "distractors": [
+        "how",
+        "walks",
+        "can",
+        "was",
+        "to"
+      ],
+      "explanation": "безличное «было слышно» получает подлежащее we и could — это прошлое. Дальше кто + -ing: someone walking. How и to в этой конструкции не нужны, can сказало бы про сейчас, а walks поставил бы время во второй глагол."
     }
   ],
   "multiple_choice_exercises": [
@@ -2971,6 +3874,69 @@
         }
       ],
       "explanation": "«не слушает советы» — не прислушивается, это listen to, и адрес to обязателен. Hears значило бы, что совет просто не долетает до её ушей."
+    },
+    {
+      "id": 238,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я видел, как Гриша упал с велосипеда.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I saw how Grisha fell off his bike.",
+          "isCorrect": false
+        },
+        {
+          "text": "I saw Grisha fell off his bike.",
+          "isCorrect": false
+        },
+        {
+          "text": "I saw Grisha fall off his bike.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после saw идёт тот, кого видели, и его действие в первой форме: saw Grisha fall. How значит «каким способом», а прошлое уже сказано в saw, поэтому fell второй раз время не ставит."
+    },
+    {
+      "id": 215,
+      "choiceType": "CHOICE",
+      "prompt": "I didn't ___ you arrive. When did you get here?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "saw",
+          "isCorrect": false
+        },
+        {
+          "text": "see",
+          "isCorrect": true
+        },
+        {
+          "text": "seeing",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после didn't глагол восприятия стоит в первой форме — прошлое уже забрал did. Saw повторил бы прошлое второй раз, а seeing после did не ставится. Arrive остаётся голым, как и в утвердительной фразе."
+    },
+    {
+      "id": 91,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I saw Sam climbing over the fence.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я видел, как Сэм перелезал через забор.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я видел, как Сэм перелез через забор и убежал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я видел, что Сэм перелез через забор.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "climbing — вы застали Сэма в процессе, конец не видели: «перелезал». Весь путь от начала до конца был бы I saw Sam climb over the fence, а «видел, что…» — замеченный факт через that."
     }
   ],
   "text_input_exercises": [
@@ -3058,6 +4024,36 @@
         "услышал",
         "слушают"
       ]
+    },
+    {
+      "id": 106,
+      "items": [
+        {
+          "sentence": "Dad caught my brother ___ his car keys.",
+          "contextRu": "",
+          "answer": "taking",
+          "alternatives": []
+        },
+        {
+          "sentence": "I heard a plate ___ in the kitchen, and then it went quiet.",
+          "contextRu": "",
+          "answer": "break",
+          "alternatives": []
+        },
+        {
+          "sentence": "We watched the whole race and saw Lily ___ first.",
+          "contextRu": "",
+          "answer": "finish",
+          "alternatives": []
+        }
+      ],
+      "explanation": "после caught — только -ing: застают всегда посреди дела. Тарелка разбилась один раз, а Катю видели от старта до финиша, поэтому здесь первая форма без -ed: время уже сказано в heard и saw.",
+      "taskDescription": "Впиши глагол из банка в подходящее предложение в нужной форме.",
+      "wordBank": [
+        "финишировала",
+        "брал",
+        "разбилась"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -3116,6 +4112,34 @@
         }
       ],
       "explanation": "«не расслышал» — Sorry, I didn't catch that. У listen без to нет адреса, а фраза без подлежащего и помощника did просто разваливается."
+    },
+    {
+      "id": 83,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Where's Nick? Is he still in the office?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "I don't know, I didn't heard him go out.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't know, I didn't hear him to go out.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't know, I didn't hear him go out.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "отрицание ставится у глагола восприятия: didn't hear, и после did глагол в первой форме. Хвост «кого + действие» не меняется — him go out, без to."
     }
   ],
   "matching_exercises": [
@@ -3191,6 +4215,29 @@
         }
       ],
       "explanation": "«слушай, …» перед новостью — Listen. Продавец не говорит I'm listening, а спрашивает How can I help you? «Слушаться» — listen to. Услышал случайно — overheard, подслушивал нарочно — eavesdropping."
+    },
+    {
+      "id": 91,
+      "taskDescription": "соедини русскую фразу с английской.",
+      "pairs": [
+        {
+          "left": "Слышно, как лает собака",
+          "right": "You can hear a dog barking"
+        },
+        {
+          "left": "Было видно, как горит дом",
+          "right": "You could see the house burning"
+        },
+        {
+          "left": "Видно, что он врёт",
+          "right": "You can see he's lying"
+        },
+        {
+          "left": "Не слышно, как он поёт",
+          "right": "You can't hear him singing"
+        }
+      ],
+      "explanation": "«слышно, как…» — you can hear + кого + -ing, в прошлом could. «Не слышно» — can't. «Видно, что…» — уже не действие, а вывод по виду, поэтому после see идёт целая часть he's lying."
     }
   ],
   "error_correction_exercises": [
@@ -3250,6 +4297,44 @@
         }
       ],
       "explanation": "hear не делают — звук доходит сам, поэтому в Continuous этот глагол не ставят. Про то, что слышно прямо сейчас, говорят I can hear. Listen здесь не подходит по смыслу, а без to он и объект не берёт."
+    },
+    {
+      "id": 201,
+      "wrongSentence": "I heard how Mia closed the door.",
+      "options": [
+        {
+          "text": "I heard Mia close the door.",
+          "isCorrect": true
+        },
+        {
+          "text": "I heard Mia closed the door.",
+          "isCorrect": false
+        },
+        {
+          "text": "I heard Mia to close the door.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "русское «слышал, как она закрыла» по-английски собирается без how: heard + кого + действие в первой форме. Closed второй раз ставит прошлое, которое уже есть в heard, а to после глаголов восприятия не бывает."
+    },
+    {
+      "id": 202,
+      "wrongSentence": "You can hear how the waves hit the rocks.",
+      "options": [
+        {
+          "text": "You can hear the waves to hit the rocks.",
+          "isCorrect": false
+        },
+        {
+          "text": "You can hear the waves hitting the rocks.",
+          "isCorrect": true
+        },
+        {
+          "text": "Can hear the waves hitting the rocks.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "русское «слышно, как бьются волны» по-английски собирается без how: you can hear + что + -ing. To после hear не бывает, а без подлежащего you фраза разваливается."
     }
   ],
   "construction_meaning_exercises": [
@@ -3298,6 +4383,29 @@
         }
       ],
       "explanation": "have you heard — вопрос про опыт: знаешь ли ты эту песню, доходила ли она до тебя. «Слушаешь» было бы Are you listening to, а «услышишь» — Will you hear."
+    },
+    {
+      "id": 73,
+      "construction": "I heard that Tom left.",
+      "options": [
+        {
+          "text": "Я слышал, как Том ушёл.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я слышал, что Том уехал.",
+          "isCorrect": true
+        },
+        {
+          "text": "Том слышал, что я уехал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не слышал, как Том ушёл.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "heard that + целая часть — до вас дошла новость, факт. «Слышал, как Том ушёл» — это звук его ухода, и собирается он без that: I heard Tom leave."
     }
   ],
   "transformation_exercises": [
@@ -3319,6 +4427,25 @@
         }
       ],
       "explanation": "в начало вопроса выходит только what или who, а at остаётся стоять сразу после глагола. Про прошлое вопрос собирается через did, и глагол после него возвращается в первую форму: glance."
+    },
+    {
+      "id": 94,
+      "taskDescription": "перепиши предложение в Past Simple.",
+      "items": [
+        {
+          "original": "We hear the neighbours argue.",
+          "transformed": "We heard the neighbours argue."
+        },
+        {
+          "original": "Mark watches his daughter swim.",
+          "transformed": "Mark watched his daughter swim."
+        },
+        {
+          "original": "Does Sara hear the kettle boil?",
+          "transformed": "Did Sara hear the kettle boil?"
+        }
+      ],
+      "explanation": "время меняется только у первого глагола: hear → heard, watches → watched, does → did. Второй глагол остаётся в первой форме: heard the neighbours argue, а не argued."
     }
   ],
   "categorization_exercises": [
@@ -3405,6 +4532,29 @@
         }
       ],
       "explanation": "hear — звук пришёл сам, вы для этого ничего не делали: сирена, храп, гром и песня в магазине звучат без вашего участия. Listen to — вы сами включили, выбрали или сели вслушиваться."
+    },
+    {
+      "id": 124,
+      "taskDescription": "распредели, что человек видел целиком, а что застал на середине.",
+      "categories": [
+        {
+          "title": "saw him do",
+          "items": [
+            "Досмотрел танец до конца",
+            "Мяч влетел в ворота",
+            "Хлопнул дверью один раз"
+          ]
+        },
+        {
+          "title": "saw him doing",
+          "items": [
+            "Мельком: бежал мимо",
+            "Застал за готовкой",
+            "Хлопал дверью весь вечер"
+          ]
+        }
+      ],
+      "explanation": "V1 — действие целиком: танец до конца, гол, один хлопок. -ing — кусок процесса или повтор: мельком увидел бег, застал за готовкой, хлопал снова и снова."
     }
   ],
   "find_the_odd_exercises": [

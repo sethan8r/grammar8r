@@ -5255,38 +5255,42 @@ theory/
 │   │      превышен осознанно; `to obey` и `to eavesdrop` — на понимание, решение пользователя
 │   │      15.09.2026; `to overhear` не сливаем — неправильный, `to catch` — тоже).
 │   │
-│   ├── МТ · See him do / doing · Видел, как он…
+│   ├── МТ211 · See him do / doing · Видел, как он… (4 карточки, 2 AI) ✅ (написана, ALL GREEN 17.09.26)
 │   │   ⭐ Главная грамматика темы: работает у всех глаголов восприятия сразу (see, hear, watch,
-│   │   notice, listen to, look at), поэтому стоит после обеих микротем про глаза и уши.
-│   │   ├── Card · Видел, как он… — see / hear / watch / notice + КОГО + V1. Русский строит «видел,
-│   │   │   КАК он переходил дорогу» → `I saw how he crossed the street` (how = «каким способом» —
-│   │   │   про сам факт действия не то). Английский: `I saw him cross the street`. Ловушки:
-│   │   │   `I saw him to cross` ✗ (после глагола восприятия to нет — опора make / let + V1 из
-│   │   │   «Инфинитива») · `I saw he cross` ✗ (кого — объектной формой: him, her, them).
-│   │   │   Развести: `I saw that he was tired` = понял, заметил факт (не «видел действие»).
-│   │   │   Все пять: `I heard her laugh` · `We watched the kids play` · `Did you notice him leave?` ·
-│   │   │   `I didn't hear you come in` (полный набор форм: вопрос, отрицание).
-│   │   ├── Card · V1 или -ing: целиком ↔ кусок процесса. `I saw him cross the street` — видел от
-│   │   │   начала до конца (перешёл) ↔ `I saw him crossing the street` — застал в процессе, конца
-│   │   │   не видел. `I heard her sing` (всю песню) ↔ `I heard someone singing` (доносилось).
-│   │   │   Опора: -ing = процесс, как в Continuous. Где разница стирается и годятся оба — сказать
-│   │   │   честно. + с look at и listen to тоже: `Look at him run!`, `Listen to her sing`.
-│   │   │   Пассив `He was seen leaving` — НЕ давать (шлифовка, доберёт AI).
-│   │   └── Card · 🆕 «Слышно, как поют птицы» — когда подлежащего нет вовсе (ДОБАВЛЕНА 13.09.2026).
-│   │       Мостик между `can see / can hear` и конструкцией `see him doing`: предыдущая карточка
-│   │       разобрала «**Я** видел, как он…» — с явным подлежащим. Но русский сплошь и рядом говорит
-│   │       БЕЗ него: «Слышно, как поют птицы» · «Видно, как он бежит» · «Было слышно, как кто-то
-│   │       разговаривает». Английскому подлежащее обязательно, и он берёт дежурное `you`:
-│   │       `You can hear the birds singing` · `You can see him running` · `I could hear someone
-│   │       talking` (⚠️ `could hear` + `-ing` — главный способ, которым восприятие попадает в
-│   │       рассказ о прошлом; в курсе эта связка не давалась). Ловушки: `Is hear the birds` ✗ ·
-│   │       `You can hear how the birds sing` ✗ (то же `how`, что и в предыдущей карточке — здесь
-│   │       оно ошибка второй раз, и это надо показать явно, а не считать усвоенным).
-│   │       Полный набор форм: `You can't hear anything from here` · `Can you hear them singing?`.
-│   │       ⬅️ Опора: дежурное безличное `you` — «Устройство языка» (кто действует), `can't hear` —
-│   │       карточка `See приходит само`. AI (`..._ex1`, NONE): ИИ даёт русскую безличную фразу
-│   │       («слышно, как…», «видно, как…», «было слышно, как…»), пользователь переводит; оценка —
-│   │       появилось ли подлежащее, взят ли `-ing`, не вылез ли `how`.
+│   │   notice, feel, listen to, look at), поэтому стоит после обеих микротем про глаза и уши.
+│   │   Добор 17.09.2026 (карточек стало 4 вместо 3): время не переходит во второй глагол
+│   │   (saw him crossed ✗), отрицание и вопросы с what, see that / hear that, be и модальный в
+│   │   слоте, мгновенные действия (knock ↔ knocking), catch / spot только с -ing, smell burning.
+│   │   ├── Card 567 · Видел, как он перешёл: глагол восприятия + кого + действие — формула
+│   │   │   глагол восприятия + кого + V1 без to (опора make / let, двойной перевод); кто встаёт:
+│   │   │   see, watch, hear, notice, feel, look at, listen to; ловушка I saw how he crossed ✗ и
+│   │   │   законный how про способ (I watched how Dad fixed the tap); время ставится один раз —
+│   │   │   второй глагол голый во всех временах (watched the plane landed ✗); объектная форма
+│   │   │   (heard he laugh ✗). Без AI.
+│   │   ├── Card 568 · Не видел, как он ушёл: отрицание, вопросы и see that — отрицание у глагола
+│   │   │   восприятия (didn't saw ✗); Did you see the ball go in? · Didn't you hear the baby cry? ·
+│   │   │   What did you hear him say? (Формула) + Кстати Did you hear what he said?; картинка
+│   │   │   действия ↔ факт через that (saw Katya open ↔ saw that Katya was upset; heard Misha
+│   │   │   close the door ↔ heard that Misha moved — указатель на «Понимаю, а не вижу»); слот:
+│   │   │   голое be (never seen Dad be so nervous), модальный → that; was watching ✓ ↔ was seeing ✗.
+│   │   │   Без AI.
+│   │   ├── Card 569 · Перешёл или переходил: V1 или -ing после see и hear — целиком ↔ застал в
+│   │   │   процессе (двойной перевод «видел его переходящим»); подсказка русским видом глагола,
+│   │   │   но не закон; мгновенные действия: -ing = повтор (knock ↔ knocking, jump ↔ jumping);
+│   │   │   где разница стирается (watched the kids play / playing); catch только с -ing (caught
+│   │   │   him read ✗), spot почти всегда с -ing; look at / listen to / feel. Пассив He was seen
+│   │   │   leaving и V3 после объекта — НЕ даём. AI see_look_watch_card569_ex1 (RU→EN «видел,
+│   │   │   слышал, заметил, застал, как…», граница — факт через that, GENERAL).
+│   │   └── Card 570 · Слышно, как поют птицы: can hear и can see без того, кто слышит — безличное
+│   │       получает подлежащее: you + can hear / can see + кого + -ing (Формула, двойной перевод,
+│   │       you = любой на этом месте); почему после can чаще -ing; could hear someone talking в
+│   │       рассказе, couldn't, Can you hear them arguing again?; ловушки без подлежащего и с how;
+│   │       «видно, что…» → You can see (that) she's nervous / She looks nervous; I can smell
+│   │       something burning (только -ing), You can feel the floor shaking.
+│   │       AI see_look_watch_card570_ex1 (RU→EN безличные «слышно / видно / пахнет», GENERAL —
+│   │       ИИ сочиняет русскую фразу сам, поэтому не NONE).
+│   │   🔤 Слив: `to spot` (одно слово — остальные глаголы конструкции уже слиты или неправильные:
+│   │      `to catch`, `to smell` в колоде; `to feel`, `to notice` слиты раньше).
 │   │
 │   ├── МТ · Look for, search · Искать
 │   │   ├── Card · `look for` = искать (направил взгляд, чтобы найти) — прямое продолжение оси:
