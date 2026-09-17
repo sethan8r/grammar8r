@@ -22,7 +22,7 @@ sealed interface TheorySearchState {
 ```
 `query.isBlank()` → плейсхолдер «Введите запрос». `query` не blank и нет совпадений → «Ничего не найдено».
 Иначе — список групп результатов. Логика поиска (нормализация, ранжирование) — отдельный класс в
-`domain/usecase`, не во ViewModel (правило проекта, см. `CLAUDE.md`).
+`grammar-core` → `usecase/search/`, не во ViewModel (правило проекта, см. `CLAUDE.md`).
 
 ## 2. Заголовок «Теория» / поле поиска
 

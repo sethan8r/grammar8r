@@ -2,7 +2,7 @@
 
 > **Назначение:** собрать в одном месте все требования к отображению таблиц теории, чтобы при
 > будущих правках ничего не сломать. Согласовано в чате 16.06.2026 (итеративно, по скринам).
-> **Код:** `grammar-app/.../ui/components/theory/TheoryBlockView.kt` → `TableBlock`, `layoutTable`,
+> **Код:** `grammar-app-android/.../ui/components/theory/TheoryBlockView.kt` → `TableBlock`, `layoutTable`,
 > `wrapLongWords`, `wrapEveryWord`, `splitWord`, `squeezeColumns`, `measureColumns`, `measureColumn`,
 > `distributeWidths`, `TableRow`.
 > **Источник данных:** блок `{"type":"table", "header":[...], "rows":[[...]]}`.

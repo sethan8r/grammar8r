@@ -1681,14 +1681,14 @@ TrueFalse — это всегда «суди конкретное предлож
 > 💡 **Рендер уже написан — можно подсмотреть, как блок будет выглядеть.** Если сомневаешься,
 > как отрисуется конкретный блок (плашка, таблица, контраст ✗/✓, деление длинных слов в таблице),
 > смотри реальный код:
-> - **Блоки теории** — рендер `grammar-app/.../ui/components/theory/TheoryBlockView.kt`
+> - **Блоки теории** — рендер `grammar-app-android/.../ui/components/theory/TheoryBlockView.kt`
 >   (`ThinDivider` — тонкая линия-разделитель; авто-линия перед каждым `Heading`; `CalloutBlock` —
 >   рамки-плашки по `CalloutVariant`; правила таблиц — `tasks/ui_table_rendering.md`).
->   Типы блоков и `enum CalloutVariant {TRAP,WARNING,TIP,FORMULA,NOTE}` — `domain/model/theory/TheoryBlock.kt`;
+>   Типы блоков и `enum CalloutVariant {TRAP,WARNING,TIP,FORMULA,NOTE}` — `grammar-core/.../model/theory/TheoryBlock.kt`;
 >   разбор JSON→домен (`variant` → `CalloutVariant`, цвет `NOTE` = `TextSecondary`) —
 >   `data/mapper/TheoryContentMapper.kt::toVariant`; какое ключевое слово → какой `variant` —
 >   `tasks/tools/md_to_json.py::variant_for`.
-> - **Упражнения** — `grammar-app/.../ui/components/exercise/` (вью на каждый тип:
+> - **Упражнения** — `grammar-app-android/.../ui/components/exercise/` (вью на каждый тип:
 >   `SingleSelect…`, `TrueFalse…`, `WordArrangement…`, `Matching…`, `Categorization…`,
 >   `TableFill…`, `Transformation…`, `TextInput…`) и общие части в `exercise/parts/`.
 > Код — справка «как отрисуется», источник правды по формату остаётся этот гайд + `exercise_templates.md`.

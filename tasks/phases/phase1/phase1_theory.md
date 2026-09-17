@@ -710,7 +710,7 @@ data/
   repository/
     TheoryRepositoryImpl.kt
 
-domain/
+domain/  ← модуль grammar-core (пакет dev.sethan8r.grammar.core), см. CLAUDE.md → «Модули проекта»
   model/  GrammarTopic, GrammarMicrotopic, GrammarExample, WordArrangementExercise, VocabularyWord
   repository/  TheoryRepository.kt
   usecase/
@@ -752,7 +752,7 @@ ui/
 
 ## Порядок реализации
 
-- [ ] **1.1** Подключить Hilt + Room в `grammar-app` (`build.gradle.kts`, `AppModule`)
+- [ ] **1.1** Подключить Hilt + Room в `grammar-app-android` (`build.gradle.kts`, `AppModule`)
 - [ ] **1.2** Создать все Entity + DAO + GrammarDatabase (Topic, Microtopic, Card, все типы упражнений, Progress)
 - [ ] **1.3** Слои domain (модели, интерфейс репозитория, use cases)
 - [ ] **1.4** Реализация TheoryRepositoryImpl + seed из assets JSON

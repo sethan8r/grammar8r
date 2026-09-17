@@ -10,7 +10,8 @@
 | Тема, цвета | ✅ готово |
 | MenuScreen (UI) | ✅ готово |
 | Theory/Practice/Statistics | ⬜ заглушки |
-| Room, Hilt, слои data/domain | ⬜ не подключено |
+| Room, Hilt, слои data/domain | ✅ подключено |
+| Ядро `grammar-core` (логика отдельно от Android, задел под iOS — `ios_portability_plan.md`) | ✅ готово |
 | Words8r (словарная база) | ⬜ переписывается внутри Grammar8r после Фазы 1 |
 | Сервер (Spring Boot, Java — решение 02.07.2026, было Ktor) | ⬜ пустой шаблон |
 | Авторизация (Яндекс OAuth + email) | ⬜ не сделано |
@@ -31,7 +32,7 @@
 
 Самая независимая фича, нет внешних зависимостей.
 
-- [ ] Подключить Room + Hilt в `grammar-app`
+- [ ] Подключить Room + Hilt в `grammar-app-android`
 - [ ] Серверные заглушки: интерфейсы `AuthRepository` / `EntitlementsProvider` / `AiExerciseRepository` + фейковые реализации через Hilt; их DTO — сразу в модуль `grammar-shared` (контракт клиент↔сервер, см. kickoff_context.md §3.1 и CLAUDE.md)
 - [ ] Спроектировать схему БД: `GrammarTopic` → `GrammarSection` → контент
 - [ ] Написать контент теории (тексты, примеры) — засеять из assets JSON

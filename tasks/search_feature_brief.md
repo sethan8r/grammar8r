@@ -100,7 +100,7 @@
   пересказ содержания + «только то, чего нет в заголовках»).
 - `tasks/tools/check.py` / `test/*` — при желании лёгкая валидация (тег не пустой, нет дублей
   внутри микротемы, тег не повторяет слово из названия).
-- Room-сущность микротемы в `grammar-app` + миграция/пересборка `content.db`.
+- Room-сущность микротемы в `grammar-app-android` + миграция/пересборка `content.db`.
 
 ### Ретрофит уже написанного
 
@@ -243,7 +243,7 @@ Words8r является эталоном только для темы/визу�
 - Все интерфейсные строки (плейсхолдер «Введите запрос», «Ничего не найдено») — в `strings.xml`,
   обращение на «Вы». Контентный английский — через `TranslatableText`, интерфейсный — обычный `Text`.
 - Логика поиска (нормализация, ранжирование) — **не во ViewModel**, а отдельным классом в
-  `domain/usecase`, тестируемым без Android. ViewModel держит только `StateFlow` состояния строки
+  `grammar-core` → `usecase/search/`, тестируемым без Android. ViewModel держит только `StateFlow` состояния строки
   и результатов.
 - Hilt, type-safe navigation, Room `exportSchema=true`, честные миграции.
 
@@ -332,7 +332,8 @@ Words8r является эталоном только для темы/визу�
 
 ## 8.1.1 Карта кодовой базы (что уже есть и куда встраиваемся)
 
-Состояние на 25.07.2026. Пути от `grammar-app/src/main/java/dev/sethan8r/grammar/app/`.
+Пути UI — от `grammar-app-android/src/main/java/dev/sethan8r/grammar/app/`, домена — от
+`grammar-core/src/main/kotlin/dev/sethan8r/grammar/core/`.
 
 **Экраны теории** (`ui/screens/theory/`):
 - `TheoryScreen.kt` — вкладка «Учить». Внутри: `LazyColumn` с `contentPadding = PaddingValues(top = statusBarTopInset(), bottom = floatingBarBottomInset())`, `padding(horizontal = Dimens.screenPadding)`, `verticalArrangement = spacedBy(Dimens.spaceMedium)`. Первый `item` — заголовок «Теория» (`22.sp`, Bold, `Accent`, `padding(vertical = Dimens.spaceLarge)`) — **вот в этот слот встаёт поиск**. Дальше `items` = `TheoryListItem.TopicItem` / `SectionItem`; приватные `SectionGroup`, `TopicBody`.
@@ -340,11 +341,11 @@ Words8r является эталоном только для темы/визу�
 - `TopicScreen.kt` — экран темы: `BackTopBar` + `LazyColumn` строк `MicrotopicRow` (полоса-статус слева `Dimens.microtopicStripeWidth`, `CorrectGreen`/`Inactive`, + `DualTitle`). Поддерживает `focusMicrotopicId` (скролл к микротеме через `savedStateHandle`).
 - `MicrotopicScreen.kt` / `MicrotopicViewModel.kt` — листалка карточек.
 
-**Domain:**
-- `domain/model/theory/TheoryListItem.kt` — `TheoryListItem` (`TopicItem`/`SectionItem`), `TopicSummary` (id, title, description, isPretopic, completedMicrotopics, totalMicrotopics), `MicrotopicSummary` (id, title, state), `enum MicrotopicState { AVAILABLE, COMPLETED }`.
-- `domain/model/theory/TheoryData.kt` — `TheoryData(categories, topics, microtopicsByTopic, completedMicrotopicIds)`, `TheoryCategory`, `TheoryTopic`, `TheoryMicrotopicRef`, `TopicMicrotopics`, `MicrotopicCards`.
-- `domain/usecase/GetTheoryListUseCase.kt` — чистая сборка списка вкладки (переплетение тем и разделов по общему `order`). Рядом с ним ляжет `SearchTheoryUseCase`.
-- `domain/repository/TheoryRepository.kt` — `observeTheoryData()`, `observeTopicMicrotopics(topicId)`, `observeMicrotopicCards(microtopicId)`. Сюда добавится `observeSearchIndex()`.
+**Domain (`grammar-core`):**
+- `model/theory/TheoryListItem.kt` — `TheoryListItem` (`TopicItem`/`SectionItem`), `TopicSummary` (id, title, description, isPretopic, completedMicrotopics, totalMicrotopics), `MicrotopicSummary` (id, title, state), `enum MicrotopicState { AVAILABLE, COMPLETED }`.
+- `model/theory/TheoryData.kt` — `TheoryData(categories, topics, microtopicsByTopic, completedMicrotopicIds)`, `TheoryCategory`, `TheoryTopic`, `TheoryMicrotopicRef`, `TopicMicrotopics`, `MicrotopicCards`.
+- `usecase/GetTheoryListUseCase.kt` — чистая сборка списка вкладки (переплетение тем и разделов по общему `order`). Рядом с ним ляжет `SearchTheoryUseCase`.
+- `repository/TheoryRepository.kt` — `observeTheoryData()`, `observeTopicMicrotopics(topicId)`, `observeMicrotopicCards(microtopicId)`. Сюда добавится `observeSearchIndex()`.
 
 **Data:**
 - `data/repository/TheoryRepositoryImpl.kt` — `combine` источников content.db + user.db, маппинг в домен.
@@ -719,13 +720,13 @@ Past Simple, но ничего не различает»). Роли расход
       формулировки у этих двух пересекаются («отрицание», «вопросы», «маркеры времени») — это
       худший и потому самый полезный случай. Остальные 12 тем на этом этапе НЕ трогаем.
 
-### Шаг B — логика поиска (domain, тестируемая без Android)
+### Шаг B — логика поиска (`grammar-core`, тестируемая без Android)
 
-- [ ] `domain/model/theory/TheorySearch.kt` — `SearchIndex` (плоский снимок: темы, микротемы,
+- [ ] `model/theory/TheorySearch.kt` — `SearchIndex` (плоский снимок: темы, микротемы,
       карточки, теги) и модель результата (группа = тема + раздел + прогресс + микротемы + очки).
-- [ ] `domain/usecase/search/SearchNormalizer.kt` — нормализация и основы слов (§8.3.2). Чистый Kotlin.
-- [ ] `domain/usecase/search/TheorySearchRanker.kt` — гейт (§8.3.3) + очки и потолок (§8.3.4).
-- [ ] `domain/usecase/SearchTheoryUseCase.kt` — `(query) -> Flow<List<SearchGroup>>`.
+- [ ] `usecase/search/SearchNormalizer.kt` — нормализация и основы слов (§8.3.2). Чистый Kotlin.
+- [ ] `usecase/search/TheorySearchRanker.kt` — гейт (§8.3.3) + очки и потолок (§8.3.4).
+- [ ] `usecase/search/SearchTheoryUseCase.kt` — `(query) -> Flow<List<SearchGroup>>`.
 - [ ] `TheoryDao` — проекция `SELECT id, microtopicId, title FROM grammar_cards` (без тела теории!).
 - [ ] `TheoryRepository`/`Impl` — `observeSearchIndex(): Flow<SearchIndex>`.
       ⚠️ **Отдельным Flow, не расширением `TheoryData`** — иначе карточки будут грузиться при обычном
@@ -909,10 +910,10 @@ Android) — набор кейсов брать прямо из таблицы �
 две, а формулировки у этих тем пересекаются («отрицание», «вопросы», «указатели времени») — это
 худший и потому самый полезный случай.
 
-**Автотесты гоняются на `content.db`, а не на JSON-сидах** (решение пользователя). БД собирается
-gradle-таском из сидов в `grammar-app/src/main/assets/content.db` **до** упаковки assets, поэтому
-тест вешается зависимостью на этот таск: `gradlew test` сам пересобирает БД и гоняет по ней запросы
-протокола §8.6. Так проверка идёт по тем самым данным, что поедут в APK.
+**Автотесты гоняются на `content.db`, а не на JSON-сидах** (решение пользователя). Тесты живут в
+`grammar-core`; перед прогоном таск `generateTestContentDb` собирает БД тем же `json_to_db.py` из тех же
+сидов и Room-схемы, что и БД в APK, в `grammar-core/build/test-content/`. Так проверка идёт по тем же
+данным, что поедут в APK.
 
 ⚠️ Компромисс, принят осознанно: JVM-тест не умеет в Room (нужен эмулятор), поэтому он открывает
 `content.db` sqlite-драйвером (`testImplementation`) и вычитывает поля тем же SQL, что и DAO. Не
@@ -973,13 +974,13 @@ gradle-таском из сидов в `grammar-app/src/main/assets/content.db` 
 
 **Дальше — шаг B:** `SearchNormalizer`, `TheorySearchRanker`, `SearchTheoryUseCase`,
 `observeSearchIndex()`, проекция названий карточек в DAO + автотесты протокола §8.6 на `content.db`
-(junit/sqlite-драйвер добавляются в `grammar-app/build.gradle.kts` — разрешено пользователем).
+(junit/sqlite-драйвер — в `grammar-core/build.gradle.kts`).
 
 ## 9.4 Шаг B — сделано и что показал первый прогон протокола
 
 **Код (все файлы новые, кроме отмеченных):**
-`domain/model/theory/TheorySearch.kt` (`SearchIndex`, `IndexedTopic`, `IndexedMicrotopic`,
-`SearchGroup`) · `domain/usecase/search/SearchNormalizer.kt` · `TheorySearchRanker.kt` ·
+`grammar-core`: `model/theory/TheorySearch.kt` (`SearchIndex`, `IndexedTopic`, `IndexedMicrotopic`,
+`SearchGroup`) · `usecase/search/SearchNormalizer.kt` · `TheorySearchRanker.kt` ·
 `SearchKeywords.kt` (общий разбор строки тегов) · `SearchTheoryUseCase.kt` ·
 `data/local/content/dao/projection/CardTitle.kt` · правки: `TheoryDao.getCardTitles()`,
 `TheoryRepository.observeSearchIndex()` + реализация.
@@ -987,8 +988,8 @@ gradle-таском из сидов в `grammar-app/src/main/assets/content.db` 
 `SearchGroup` несёт готовые `TopicSummary`/`MicrotopicSummary` — те же модели, что рисуют дерево,
 поэтому шаг C переиспользует компоненты вкладки без параметров-исключений.
 
-**Тесты:** `gradlew :grammar-app:testDebugUnitTest` — 20 тестов, зелёные. `Test`-таск зависит от
-`generateContentDb`, путь к БД приходит системным свойством `grammar8r.contentDb`.
+**Тесты:** `gradlew :grammar-core:test`. `Test`-таск зависит от `generateTestContentDb`, путь к БД
+приходит системным свойством `grammar8r.contentDb`.
 `ContentDbIndexLoader` читает настоящую `content.db` sqlite-драйвером и печатает выдачу с очками.
 
 ### Правки механики против §8.3.2 (найдены прогоном, не выдуманы)
@@ -1313,14 +1314,14 @@ Simple и Present Simple) покрыты тегами `**Теги:**`, кажд�
 выдавать не то. Поэтому после каждых 3–4 тем:
 
 ```
-./gradlew :grammar-app:testDebugUnitTest --rerun-tasks --console=plain
+./gradlew :grammar-core:test --rerun-tasks --console=plain
 ```
 
 Тесты сами пересобирают `content.db` из сидов и гоняют по ней запросы протокола. Все должны быть
 зелёными. Отчёт с выдачей и очками (для проверки глазами) — распечатать так:
 
 ```
-py -X utf8 -c "import xml.etree.ElementTree as ET, glob; [print(so.text) for f in glob.glob('grammar-app/build/test-results/testDebugUnitTest/*Protocol*.xml') for so in ET.parse(f).getroot().iter('system-out')]"
+py -X utf8 -c "import xml.etree.ElementTree as ET, glob; [print(so.text) for f in glob.glob('grammar-core/build/test-results/test/*Protocol*.xml') for so in ET.parse(f).getroot().iter('system-out')]"
 ```
 
 Проверять, что старые запросы не сломались: `past simple` → тема Past Simple первой,

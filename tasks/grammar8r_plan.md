@@ -32,11 +32,15 @@ Grammar8r строится вокруг трёх вещей: **словарь** 
 
 ```
 Grammar8r/
-├── grammar-app/     ← Android-приложение (Grammar + Words в одном)
-├── grammar-server/  ← Spring Boot (Java) backend (сервер подписок + AI-прокси; решение 02.07.2026, было Ktor)
-├── grammar-shared/  ← общие Kotlin-модели (SubscriptionStatus, UserInfo и т.д.)
+├── grammar-shared/       ← контракт API клиент ↔ сервер (DTO, enum-ы)
+├── grammar-core/         ← ядро клиента: доменные модели, интерфейсы репозиториев, юзкейсы (без Android, переносимо на iOS)
+├── grammar-app-android/  ← Android-приложение (Grammar + Words в одном): UI, Room, Hilt
+├── grammar-app-ios/      ← будущее iOS-приложение (Xcode, не Gradle) — пока заготовка
+├── grammar-server/       ← Spring Boot (Java) backend (сервер подписок + AI-прокси; решение 02.07.2026)
 └── settings.gradle.kts
 ```
+
+Правила размещения кода между модулями — `CLAUDE.md` → «Модули проекта»; iOS — `ios_portability_plan.md`.
 
 Никакого ContentProvider, никакого межпроцессного общения. Всё в одной БД, одном процессе.
 

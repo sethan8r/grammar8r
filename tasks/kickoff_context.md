@@ -70,9 +70,10 @@
 
 ### 3.1. Модуль `grammar-shared` — контракт клиент↔сервер
 
-В проекте три Gradle-модуля: `grammar-app` (приложение), `grammar-server` (Spring Boot на Java, Фаза 4)
-и `grammar-shared`. Сейчас shared — пустой плейсхолдер (`Models.kt` с пустым классом),
-но удалять его НЕ надо — это стандартный паттерн для монорепо «клиент + сервер».
+В проекте Gradle-модули `grammar-shared` (контракт API), `grammar-core` (ядро клиента — логика без
+Android, переносимая на iOS), `grammar-app-android` (приложение) и `grammar-server` (Spring Boot на Java,
+Фаза 4); `grammar-app-ios` — заготовка под Xcode-проект. Shared — стандартный паттерн для монорепо
+«клиент + сервер».
 
 **Зачем:** модели запросов/ответов API пишутся в shared ОДИН раз с `@Serializable`;
 и приложение, и сервер подключают модуль через `implementation(project(":grammar-shared"))`.
@@ -83,14 +84,14 @@
 **Роль по фазам:**
 - **Фаза 1 (фундамент):** DTO для серверных заглушек (`AuthRepository`,
   `EntitlementsProvider`, `AiExerciseRepository`, синк прогресса) создаются сразу в shared,
-  а не внутри приложения. Пустой `Models.kt` при этом удаляется.
+  а не внутри приложения.
 - **Фаза 4 (сервер):** `grammar-server` реализует эндпоинты по уже готовым DTO из shared —
   ничего не переносится и не дублируется.
 
 **Что лежит:** только `@Serializable` DTO API + enum-ы контракта (тир подписки,
 `AiExerciseInputMode`, коды ошибок). **Что запрещено:** Room-сущности, UI/доменные модели,
 бизнес-логика, Android-зависимости — модуль чистый Kotlin/JVM. Подробное правило — в
-CLAUDE.md проекта, раздел «Модули проекта и роль grammar-shared».
+CLAUDE.md проекта, раздел «Модули проекта».
 
 ## 4. Оценка сроков (давалась пользователю, он принял)
 
@@ -107,7 +108,7 @@ CLAUDE.md проекта, раздел «Модули проекта и роль
 
 | Готово | Где |
 |--------|-----|
-| Навигация 4 таба, тема, цвета, MenuScreen | `grammar-app` (Theory/Practice/Statistics — заглушки) |
+| Навигация 4 таба, тема, цвета, MenuScreen | `grammar-app-android` (Theory/Practice/Statistics — заглушки) |
 | Схема БД спроектирована | `tasks/db_schema.md` (56KB) |
 | Контент теории: Основы, транскрипция, структура языка | `tasks/phases/phase1/theory/*.md` |
 | Конвертер контента MD → JSON + тесты | `tasks/tools/md_to_json.py`, `tools/test/*` |
