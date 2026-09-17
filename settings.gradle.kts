@@ -23,4 +23,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Grammar8r"
-include(":grammar-app", ":grammar-core", ":grammar-server", ":grammar-shared")
+include(":grammar-app-android", ":grammar-core", ":grammar-server", ":grammar-shared")

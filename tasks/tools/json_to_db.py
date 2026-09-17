@@ -3,7 +3,7 @@
 # Шаг C конвейера контента: JSON-сиды  ->  content.db (read-only БД в assets).
 #
 # Источник правды по СТРУКТУРЕ БД — экспортированная Room-схема
-# (grammar-app/schemas/.../ContentDatabase/1.json). CREATE TABLE / индексы / identity hash
+# (grammar-app-android/schemas/.../ContentDatabase/N.json). CREATE TABLE / индексы / identity hash
 # берём ИЗ НЕЁ, руками SQL не пишем: при createFromAsset Room сверяет файл со своими Entity,
 # и любое расхождение (тип/порядок колонок, NOT NULL, индекс, версия) = краш при открытии.
 #
@@ -32,7 +32,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.normpath(os.path.join(HERE, "..", ".."))
 
 _CONTENT_SCHEMA_DIR = os.path.join(
-    REPO, "grammar-app", "schemas",
+    REPO, "grammar-app-android", "schemas",
     "dev.sethan8r.grammar.app.data.local.content.ContentDatabase",
 )
 
@@ -51,7 +51,7 @@ def _latest_content_schema():
 
 
 DEFAULT_SCHEMA = _latest_content_schema()
-DEFAULT_OUT = os.path.join(REPO, "grammar-app", "src", "main", "assets", "content.db")
+DEFAULT_OUT = os.path.join(REPO, "grammar-app-android", "src", "main", "assets", "content.db")
 SEED_DIR = os.path.join(HERE, "seed")
 
 # room_master_table — служебная таблица Room. Если в ней лежит правильный identity_hash и у файла

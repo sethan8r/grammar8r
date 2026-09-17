@@ -35,7 +35,7 @@ val generateTestContentDb by tasks.registering(Exec::class) {
 
     inputs.file(contentDbScript)
     inputs.dir(rootProject.file("tasks/tools/seed"))
-    inputs.dir(rootProject.file("grammar-app/schemas/dev.sethan8r.grammar.app.data.local.content.ContentDatabase"))
+    inputs.dir(rootProject.file("grammar-app-android/schemas/dev.sethan8r.grammar.app.data.local.content.ContentDatabase"))
     outputs.file(testContentDb)
 
     // Windows — лаунчер `py`, CI/Linux/macOS — `python3`.

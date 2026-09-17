@@ -9,7 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/grammar-app" />
+            <option value="$PROJECT_DIR$/grammar-app-android" />
+            <option value="$PROJECT_DIR$/grammar-core" />
             <option value="$PROJECT_DIR$/grammar-server" />
             <option value="$PROJECT_DIR$/grammar-shared" />
           </set>
