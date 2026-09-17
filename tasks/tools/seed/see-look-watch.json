@@ -46,6 +46,13 @@
       "title": "Look for, find, search · Искать и найти",
       "order": 5,
       "searchKeywords": "find или look for, не могу найти, find out, search или look for, обыскать, watch for, look out for, пропал"
+    },
+    {
+      "id": 213,
+      "topicId": 33,
+      "title": "I see, see you, I heard · Понимаю, а не вижу",
+      "order": 6,
+      "searchKeywords": "i see, we'll see, let me see, meet или see, see off, hear from или hear of, слышал новость, видеться"
     }
   ],
   "grammar_cards": [
@@ -3758,6 +3765,828 @@
         "Когда говорят look out for, а когда просто Look out!?",
         "Что значит We look out for each other?"
       ]
+    },
+    {
+      "id": 575,
+      "microtopicId": 213,
+      "title": "I see: вижу, значит понимаю",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У глаз есть голова. Русский давно этим пользуется: «ясно», «теперь я вижу, в чём дело», «не вижу смысла». Английский делает ровно то же самое. Механизм учить не нужно — достаточно заметить совпадение и выучить несколько ходовых фраз."
+        },
+        {
+          "type": "heading",
+          "text": "Картинка дошла до головы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ось темы: `see` — пришло само, картинка дошла до глаз. Второй этаж — мысль дошла до головы. Поэтому `I see` — это не «я вижу», а «понятно, ясно»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**A: The shop is closed on Mondays. — B: Oh, I see.** — а, понятно",
+            "**I see what you mean.** — понимаю, о чём ты, и уже почти соглашаюсь",
+            "**Do you see what I mean?** · **See what I mean?** — понимаешь, о чём я?",
+            "**You see, the problem is money.** — понимаешь, проблема в деньгах",
+            "**See? The door was open.** — вот видишь? дверь была открыта"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Понимание — состояние, а не действие, поэтому Continuous здесь не встаёт, как у всех глаголов из микротемы «Глаголы без Continuous»: **I'm seeing what you mean** ✗ → **I see what you mean** ✓. В прошлом — обычный Past Simple: **At first I didn't see what he meant.**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Не понимаю, зачем — I don't see why"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание звучит очень часто и почти всегда несёт несогласие: вы не просто не понимаете, вы считаете, что это ни к чему."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "I don't see why + часть с подлежащим"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I don't see why we need a new car.** — не понимаю, зачем нам новая машина",
+            "**I don't see the point.** — не вижу смысла",
+            "**I don't see a problem.** — не вижу проблемы"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Из этой же сборки получается короткое согласие: **— Can I borrow your bike? — I don't see why not.** — дословно «не вижу, почему нет», по-живому «почему бы и нет». Отрицательный вопрос звучит как упрёк: **Don't you see?** — «неужели ты не понимаешь?»."
+        },
+        {
+          "type": "heading",
+          "text": "Тон: Oh, I see…"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Всё решает интонация. Ровное **I see** — «понятно, продолжай». Протяжное **Oh, I see…** с паузой — «ну-ну, понятно»: холодок или обида, так отвечают, когда объяснение не понравилось. Русское «понятно» умеет то же самое, поэтому на слух это легко поймать, если знать."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "I see, I understand или Got it"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "Когда",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "I see",
+              "поняли объяснение или новость",
+              "Oh, I see."
+            ],
+            [
+              "I understand",
+              "серьёзнее: сочувствие, условия",
+              "I understand how you feel."
+            ],
+            [
+              "Got it",
+              "поняли задачу, сделаете",
+              "Got it, I'll send it today."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разговорные `Got it` и `I get it` подробно разберём в разделе «Сказать то же, но круче»."
+        },
+        {
+          "type": "heading",
+          "text": "Как ты на это смотришь"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Смотреть на вещи» — тоже не глаза. **How do you see it?** — «как ты на это смотришь?». **That's how I see it.** — «я вот так на это смотрю». А когда предлагают взглянуть иначе, берут `look` — вы сами поворачиваете мысль собеседника, как поворачивают голову: **Look at it this way: we've saved money.** — «посмотри на это так: мы сэкономили»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`see` в голове — «понимать»: картинка дошла до глаз, мысль дошла до головы."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I see** — понятно; **I see what you mean** — понимаю, о чём ты",
+            "**You see, …** — понимаешь, …; **See?** — вот видишь?",
+            "Схема `I don't see why + часть с подлежащим` — не понимаю, зачем: **I don't see why we need a new car**",
+            "**I don't see why not** — почему бы и нет",
+            "**How do you see it?** — как ты на это смотришь?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm seeing what you mean** ✗ → **I see what you mean** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "А, понятно. Спасибо, что объяснил.",
+          "en": "Oh, I see. Thanks for explaining."
+        },
+        {
+          "ru": "Я не понимаю, зачем Рома продаёт квартиру.",
+          "en": "I don't see why Roma is selling his flat."
+        },
+        {
+          "ru": "Понимаешь, у нас совсем нет времени.",
+          "en": "You see, we have no time at all."
+        },
+        {
+          "ru": "Вот видишь? Я же говорил!",
+          "en": "See? I told you!"
+        },
+        {
+          "ru": "Как Вера на это смотрит?",
+          "en": "How does Vera see it?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «понимаю» по-английски I see, а не I'm seeing?",
+        "Чем I don't see why отличается от I don't know why?",
+        "Когда Oh, I see звучит обиженно?"
+      ]
+    },
+    {
+      "id": 576,
+      "microtopicId": 213,
+      "title": "Посмотрим и дай подумать: see, которое не про глаза",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русское «посмотрим» почти никогда не про глаза. Английский и здесь берёт `see`, но за каждой фразой стоит свой смысл, и один из них русский понимает с точностью до наоборот."
+        },
+        {
+          "type": "heading",
+          "text": "Let's see и Let me see — сейчас разберёмся"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Let's see` — «посмотрим, сейчас узнаем»: вы то ли глазами проверяете, то ли соображаете вслух."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's see what's in the fridge.** — посмотрим, что есть в холодильнике",
+            "**Let's see… The next train is at six.** — так, посмотрим… следующий поезд в шесть"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`Let me see` мы встречали в карточке «See приходит само» как «дай посмотреть». У него есть второе значение: дословно «дай мне посмотреть», по-живому «так, дай подумать». Это пауза, пока вы вспоминаете или считаете: **When did we meet? Let me see… in 2019.** Рядом стоит уже знакомое из темы «Императив» **Let me think**."
+        },
+        {
+          "type": "heading",
+          "text": "We'll see — посмотрим, но скорее нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая коварная фраза карточки. Русское «посмотрим» звучит с надеждой. `We'll see` — вежливое «может да, может нет», а в устах родителя или начальника почти всегда «скорее нет»: **— Can we go to the zoo on Sunday? — We'll see.** Ребёнок-носитель прекрасно понимает, что зоопарка, скорее всего, не будет."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не принимайте **We'll see** за обещание. Хотите пообещать — скажите **I'll try** или **Yes, I think so**."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "То же `We'll see` с нажимом — **We'll see about that!** — это угроза «это мы ещё посмотрим!». А точное «поживём — увидим» — **wait and see**: **We'll just have to wait and see.**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Посмотрю, что можно сделать"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Посмотрю, что можно сделать» собирается слово в слово: **I'll see what I can do.** Это классический ответ на просьбу, когда ничего не обещают, но попробуют: **— Can you get me a ticket for Saturday? — I'll see what I can do.**"
+        },
+        {
+          "type": "heading",
+          "text": "Посмотри, закрыта ли дверь — see if"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Go and see + if + часть с порядком утверждения"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Go and see if the door is locked.** — сходи посмотри, закрыта ли дверь",
+            "**I'll see if Katya is at home.** — я посмотрю, дома ли Катя",
+            "**Can you see if there's any milk left?** — глянь, осталось ли молоко"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`if` здесь — то самое «ли» из микротемы «If / Whether · Когда вопросительного слова нет», поэтому после него обычный порядок слов. Тот же смысл даёт `check`: **Can you check if the door is locked?**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «посмотри, закрыта ли дверь» тянет вопрос прямо внутрь: **Go and see is the door locked** ✗ → **Go and see if the door is locked** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда «посмотреть» — это look или watch"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Врач посмотрит вашу руку» — это настоящий взгляд: **The doctor will look at your arm.** Или **Let me have a look** — связку `have a look` разберём в теме «Дополнительные конструкции»",
+            "«Посмотри в словаре» — **Look it up**, разбор в разделе «Одно слово — много значений»",
+            "«Давай посмотрим фильм» — фильм идёт во времени: **Let's watch a film.**"
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «посмотрим» чаще всего не про глаза, и у каждой английской фразы свой смысл."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's see** — посмотрим, сейчас узнаем",
+            "**Let me see…** — так, дай подумать",
+            "**We'll see** — может да, может нет; не обещание",
+            "**We'll see about that!** — это мы ещё посмотрим! · **wait and see** — поживём — увидим",
+            "**I'll see what I can do** — посмотрю, что можно сделать",
+            "Схема `go and see + if + порядок утверждения`: **Go and see if the door is locked**",
+            "Настоящий взгляд — **look at**, фильм — **watch**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Go and see is the door locked** ✗ → **Go and see if the door is locked** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Посмотрим, что скажет Денис.",
+          "en": "Let's see what Denis says."
+        },
+        {
+          "ru": "Сколько я тебе должен? Так, дай подумать…",
+          "en": "How much do I owe you? Let me see…"
+        },
+        {
+          "ru": "— Купишь мне новый телефон? — Посмотрим.",
+          "en": "— Will you buy me a new phone? — We'll see."
+        },
+        {
+          "ru": "Я посмотрю, что можно сделать с вашим заказом.",
+          "en": "I'll see what I can do about your order."
+        },
+        {
+          "ru": "Посмотри, пришла ли почта.",
+          "en": "See if the post has come."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему We'll see часто значит «скорее нет»?",
+        "Чем Let's see отличается от Let me see?",
+        "Почему «посмотри, закрыта ли дверь» — это see if, а не look?"
+      ]
+    },
+    {
+      "id": 577,
+      "microtopicId": 213,
+      "title": "See = видеться: встречи, врачи и проводы",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У `see` есть ещё один этаж — люди. Русский здесь снова совпадает: «увидимся», «давно не виделись». Но дальше английский идёт туда, куда русское «видеть» не ходит: к врачу, на деловую встречу, на свидание и даже провожать на вокзал."
+        },
+        {
+          "type": "heading",
+          "text": "Видеться — see"
+        },
+        {
+          "type": "paragraph",
+          "text": "**See you tomorrow!** — «увидимся завтра». **I haven't seen Oleg for ages.** — «сто лет не видел Олега», эти обороты мы собирали в карточке «It's been a while: обороты про долгую паузу». Все прощания вида **See you later** подробно разберём в теме «Социальное взаимодействие»."
+        },
+        {
+          "type": "heading",
+          "text": "Nice to meet you или Nice to see you"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «рад встрече» английский делит надвое:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`meet` — первая встреча, знакомство: **Nice to meet you.** — приятно познакомиться",
+            "`see` — человек вам знаком: **Nice to see you again!** — рад тебя видеть"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Старому другу **Nice to meet you** ✗ — звучит так, будто вы его забыли. Верно: **Nice to see you** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "При прощании форма меняется, и эти фразы берут целиком: после знакомства — **It was nice meeting you!**, со знакомым — **It was nice seeing you!** или просто **Good to see you!**"
+        },
+        {
+          "type": "heading",
+          "text": "Врач примет — see a doctor"
+        },
+        {
+          "type": "paragraph",
+          "text": "У врача и в офисе `see` значит «попасть на приём» или «принять»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should see a doctor.** — тебе надо сходить к врачу",
+            "**The doctor will see you now.** — врач сейчас вас примет",
+            "**I'm seeing a client at three.** — у меня в три встреча с клиентом"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь `see` — действие, встреча из расписания, поэтому Continuous нормален. Эту границу мы видели в карточке «Глаголы-хамелеоны — have, think, see»: «вижу, понимаю» — состояние, «встречаюсь» — действие."
+        },
+        {
+          "type": "heading",
+          "text": "Встречаться — seeing someone"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Are you seeing anyone?** — ты с кем-нибудь встречаешься?",
+            "**Jake and Mia have been seeing each other for a year.** — Джейк и Мия встречаются уже год"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'm seeing Kate tonight** может прозвучать как свидание. Если Кейт просто подруга или коллега, двусмысленность снимает `meet`: **I'm meeting Kate tonight.**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проводить в дорогу — see off"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда человек уезжает — на вокзал, в аэропорт, в дальний путь, — английский говорит `see off`. Вы стоите и смотрите, как он удаляется, а `off` — это «прочь, от вас». Дословно «увидеть прочь», по-живому «проводить»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "See + кого + off"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We saw Grandma off at the station.** — мы проводили бабушку на вокзале",
+            "**Sasha came to the airport to see me off.** — Саша приехал в аэропорт меня проводить",
+            "**Are you going to see Igor off tomorrow?** — ты завтра поедешь провожать Игоря?",
+            "**Nobody saw us off.** — нас никто не провожал"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Местоимение встаёт между `see` и `off`: **We saw off her** ✗ → **We saw her off** ✓. С именем годятся оба порядка: **saw Grandma off** и **saw off Grandma**."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сами проводы как событие называются `a send-off`: **We gave Kate a great send-off.** — мы устроили Кейт отличные проводы."
+        },
+        {
+          "type": "heading",
+          "text": "Русское «проводить» — не всегда see off"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское слово одно, а английский выбирает по тому, куда вы провожаете:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "до двери, до выхода из офиса — **I'll see you out.** — я провожу вас до выхода",
+            "пешком до дома или до машины — **I'll walk you home.** · **Let me walk you to your car.**",
+            "на вокзал, в аэропорт, в дальнюю дорогу — **see off**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Проводить время» — совсем другой глагол, там никто никуда не уезжает: **We saw off the weekend at the lake** ✗ → **We spent the weekend at the lake** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Позвать в гости — come and see"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Заходите в гости» по-английски тоже через `see`: вы зовёте человека прийти и повидаться."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Come and see us at the weekend!** — заходите к нам в выходные",
+            "**Come and see me sometime.** — заходи как-нибудь",
+            "**Come and visit us!** — то же самое, чуть торжественнее"
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`see` умеет значить «видеться, принимать, встречаться, провожать»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Знакомство — **Nice to meet you**; знакомый человек — **Nice to see you**",
+            "Прощание: **It was nice meeting you** · **It was nice seeing you**",
+            "**see a doctor** — сходить к врачу; **The doctor will see you now** — примет",
+            "**Are you seeing anyone?** — встречаешься с кем-то?; просто встреча — **I'm meeting Kate**",
+            "Проводить в дорогу — схема `see + кого + off`: **Sasha came to see me off**",
+            "До выхода — **I'll see you out**; пешком до дома — **I'll walk you home**",
+            "**Come and see us!** — заходите в гости"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Nice to meet you** старому другу ✗ → **Nice to see you** ✓",
+            "**We saw off her** ✗ → **We saw her off** ✓",
+            "**We saw off the weekend** ✗ → **We spent the weekend** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Рад тебя видеть, Саша!",
+          "en": "Nice to see you, Sasha!"
+        },
+        {
+          "ru": "Моему брату надо сходить к врачу.",
+          "en": "My brother should see a doctor."
+        },
+        {
+          "ru": "Лили с кем-то встречается?",
+          "en": "Is Lily seeing anyone?"
+        },
+        {
+          "ru": "Мы проводили Игоря в аэропорту.",
+          "en": "We saw Igor off at the airport."
+        },
+        {
+          "ru": "Приходите к нам в гости в субботу!",
+          "en": "Come and see us on Saturday!"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему старому другу нельзя сказать Nice to meet you?",
+        "Почему I'm seeing a client можно, а I'm seeing a bird нельзя?",
+        "Как по-английски «проводить» человека на вокзал?"
+      ]
+    },
+    {
+      "id": 578,
+      "microtopicId": 213,
+      "title": "Hear = узнать: слышал, что… и hear from, of, about",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "«Я слышал, что ты нашёл работу» — это не про уши. Новость дошла до вас через людей. У русского и английского здесь снова одна метафора, но у английского есть два хода, которых русский не ждёт, и три предлога на месте одного русского «о»."
+        },
+        {
+          "type": "heading",
+          "text": "Слышал, что… — новость дошла"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I heard you got a new job!** — я слышал, ты нашёл новую работу!",
+            "**I've heard the museum is closed for repairs.** — я слышал, музей закрыт на ремонт"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Past Simple — момент, когда новость дошла. Present Perfect — вы это знаете сейчас. `that` после `heard` в разговоре обычно опускают."
+        },
+        {
+          "type": "heading",
+          "text": "I hear you're moving — новость в настоящем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Носитель часто говорит о свежей новости в Present Simple: **I hear you're moving to Prague.** — «я слышал, ты переезжаешь в Прагу». Новость до вас дошла и сейчас у вас в голове. Русский сказал бы «слышал», и `I heard` тоже верно, но `I hear` звучит живее — так начинают разговор."
+        },
+        {
+          "type": "heading",
+          "text": "Слышал новость?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Have you heard the news?** — ты слышал новость?",
+            "**Did you hear about Tom?** — ты слышал про Тома?",
+            "**I've heard so much about you!** — я столько о вас слышал! — так говорят при знакомстве"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "From, of или about"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «слышал о нём» одним «о» покрывает три разные мысли. У английского на каждую свой предлог:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Сочетание",
+            "Смысл",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "hear from",
+              "весточка от самого человека",
+              "I haven't heard from Kate for months."
+            ],
+            [
+              "hear of",
+              "знаю, что такое вообще существует",
+              "I've never heard of this band."
+            ],
+            [
+              "hear about",
+              "узнал, что случилось",
+              "Have you heard about the accident?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`from` — источник: человек сам написал или позвонил. `of` — само существование: слышали ли вы такое имя хоть раз. `about` — содержание: что произошло."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Давно ничего не слышно от Олега» — он не пишет и не звонит — это `from`: **I haven't heard about Oleg for ages** ✗ — выходит «про Олега давно не было новостей» → **I haven't heard from Oleg for ages** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Короткий ответ, когда название вам ничего не говорит: **— Do you know Café Luna? — Never heard of it.** — «первый раз слышу»."
+        },
+        {
+          "type": "heading",
+          "text": "Слухи — rumour"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I heard a rumour that the office is moving.** — «ходят слухи, что офис переезжает». **It's just a rumour.** — «это просто слухи»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Британцы пишут `rumour`, американцы — `rumor`. Смысл и произношение одинаковые."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hear в Continuous — доходят новости"
+        },
+        {
+          "type": "paragraph",
+          "text": "В карточке «Hear и listen» мы обещали: `hear` в Continuous всё-таки бывает. Не про звук, а когда новости доходят одна за другой: **I've been hearing a lot about you.** — «я о тебе много наслышан». **We're hearing good things about the new café.** — «про новое кафе говорят хорошее». Про звук правило прежнее: **I'm hearing music** ✗ → **I can hear music** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Узнал: hear, find out или recognize"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**hear** — новость дошла через людей: **I heard Lena is leaving.**",
+            "**find out** — выяснили сами: **I found out Lena is leaving.** — карточка «Узнать, а не найти»",
+            "**recognize** — узнали в лицо — карточка «See приходит само»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё три фразы со слухом живут в других темах. **I hear you** — «понял тебя» — и **I'm sorry to hear that** — «жаль это слышать» — разберём в теме «Социальное взаимодействие». **I look forward to hearing from you** — дежурная концовка письма, её `-ing` объясним в теме «Герундий после глагола»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`hear` в голове — «узнать через людей»: новость дошла до вас."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I heard you got a new job** · **I hear you're moving** — слышал, что…",
+            "**Have you heard the news?** · **Did you hear about Tom?**",
+            "**hear from** — от самого человека · **hear of** — знаю, что существует · **hear about** — что случилось",
+            "**Never heard of it** — первый раз слышу",
+            "Новости доходят — **I've been hearing a lot about you**; звук — **I can hear music**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Понимаю, видеться, посмотрим"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I see** — понятно · **I don't see why…** — не понимаю, зачем",
+            "**We'll see** — может да, может нет · **Let me see** — дай подумать · **see if** — посмотреть, ли",
+            "**Nice to meet you** — знакомство ↔ **Nice to see you** — знакомый · **see a doctor** · **see her off**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I haven't heard about Oleg for ages** ✗ → **I haven't heard from Oleg for ages** ✓ — если он сам не пишет",
+            "**I'm seeing what you mean** ✗ → **I see what you mean** ✓",
+            "**Go and see is the door locked** ✗ → **Go and see if the door is locked** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я слышал, Юля выходит замуж.",
+          "en": "I hear Yulia is getting married."
+        },
+        {
+          "ru": "Ты что-нибудь слышал от Паши?",
+          "en": "Have you heard from Pasha?"
+        },
+        {
+          "ru": "Я никогда не слышал об этом городе.",
+          "en": "I've never heard of this town."
+        },
+        {
+          "ru": "Мы слышали об аварии по радио.",
+          "en": "We heard about the accident on the radio."
+        },
+        {
+          "ru": "Ходит слух, что у нас будет новый начальник.",
+          "en": "There's a rumour that we're getting a new boss."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем heard from отличается от heard of и heard about?",
+        "Почему «я слышал, ты переезжаешь» можно сказать через I hear?",
+        "Когда hear всё-таки ставят в Continuous?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4138,6 +4967,78 @@
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 84,
       "orderInCard": 2
+    },
+    {
+      "cardId": 575,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 75,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 575,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 85,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 575,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 214,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 576,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 240,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 576,
+      "exerciseType": "MATCHING",
+      "exerciseId": 93,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 576,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 192,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 577,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 218,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 577,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 126,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 577,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 204,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 578,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 42,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 578,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 93,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 578,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 110,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -4202,6 +5103,22 @@
       "cardId": 574,
       "title": "Ищу, нашёл, узнал, жду",
       "userInstruction": "Вы получите русскую фразу про поиски: искать, найти, узнать, обыскать, пропасть или высматривать. Напишите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card576_ex1",
+      "cardId": 576,
+      "title": "Посмотрим, посмотрю",
+      "userInstruction": "Вы получите русскую фразу со словом «посмотреть», которое не всегда про глаза. Напишите, как её скажут по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card578_ex1",
+      "cardId": 578,
+      "title": "Понимаю, видеться, слышал",
+      "userInstruction": "Вы получите русскую фразу, где «видеть», «посмотреть» или «слышать» значат не глаза и не уши: понимаю, посмотрим, видеться, слышал новость. Напишите её по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -4350,9 +5267,45 @@
       "transcription": "[sɜːtʃ]",
       "microtopicId": 212,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 804,
+      "word": "rumour",
+      "translation": "слух",
+      "transcription": "[ˈruːmə]",
+      "microtopicId": 213,
+      "categoryId": "useful_words"
     }
   ],
-  "table_fill_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 42,
+      "taskDescription": "впиши предлог после heard.",
+      "rows": [
+        {
+          "hint": "Кейт не пишет полгода",
+          "answer": "from"
+        },
+        {
+          "hint": "Первый раз слышу эту группу",
+          "answer": "of"
+        },
+        {
+          "hint": "Узнал про пожар на складе",
+          "answer": "about"
+        },
+        {
+          "hint": "Мама давно не звонила",
+          "answer": "from"
+        },
+        {
+          "hint": "Такого слова не слышал",
+          "answer": "of"
+        }
+      ],
+      "explanation": "from — весточка от самого человека: написал или позвонил. Of — знаете ли вы, что такое вообще существует. About — узнали, что случилось."
+    }
+  ],
   "true_false_exercises": [
     {
       "id": 209,
@@ -4508,6 +5461,37 @@
         }
       ],
       "explanation": "«не нахожу» по-английски — can't find: I can't find your email. У look for обязателен for: Sonya is looking for a new flat. А «я ищу» через find не сказать, найти можно только в одну секунду: I'm looking for my phone."
+    },
+    {
+      "id": 214,
+      "statements": [
+        {
+          "en": "I'm seeing what you mean now.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "See? I was right.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I don't see why he's so angry.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Are you seeing what I'm saying?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Can I use your phone? — I don't see why not.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "see в значении «понимать» — состояние, в Continuous оно не встаёт: I see what you mean now, Do you see what I'm saying?"
     }
   ],
   "word_arrangement_exercises": [
@@ -4611,6 +5595,26 @@
         "searched"
       ],
       "explanation": "искал — looked for, без for смысл теряется. Нашёл — found: find неправильный, finded не бывает. Searched my passport значило бы «обыскал сам паспорт»."
+    },
+    {
+      "id": 192,
+      "situationRu": "RU: Посмотри, пожалуйста, работает ли лифт.",
+      "correctSentence": "Can you see if the lift is working?",
+      "words": [
+        "Can",
+        "you",
+        "see",
+        "if",
+        "the lift",
+        "is",
+        "working"
+      ],
+      "distractors": [
+        "look",
+        "does",
+        "are"
+      ],
+      "explanation": "«посмотри, работает ли» — see if, а после if обычный порядок: the lift is working. Look здесь не подходит — это не взгляд, а проверка, does в этой фразе лишний, а are не сочетается с the lift."
     }
   ],
   "multiple_choice_exercises": [
@@ -4991,6 +5995,69 @@
         }
       ],
       "explanation": "фургон с доставкой вот-вот подъедет сам, его не ищут, а ждут, держа взгляд наготове, — watch for. Find for не бывает, а search for значило бы тщательно разыскивать."
+    },
+    {
+      "id": 240,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Сходи посмотри, есть ли хлеб.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Go and see is there any bread.",
+          "isCorrect": false
+        },
+        {
+          "text": "Go and look is there any bread.",
+          "isCorrect": false
+        },
+        {
+          "text": "Go and see if there's any bread.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«посмотри, есть ли» — see if, а после if порядок как в утверждении: there's any bread. Вопросительный порядок is there внутри фразы не ставится."
+    },
+    {
+      "id": 218,
+      "choiceType": "CHOICE",
+      "prompt": "Hi, Lucy! Nice to ___ you again! How was Spain?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "see",
+          "isCorrect": true
+        },
+        {
+          "text": "meet",
+          "isCorrect": false
+        },
+        {
+          "text": "look",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "с Люси вы уже знакомы — «рада тебя видеть», это see. Meet говорят при знакомстве, а look без at никого не берёт."
+    },
+    {
+      "id": 93,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I haven't heard from Sonya since the wedding.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "От Сони ничего не слышно со свадьбы.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я никогда не слышал о Соне.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не слышал, что случилось с Соней на свадьбе.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "heard from — весточка от самой Сони: она не писала и не звонила. «Никогда не слышал о Соне» было бы heard of, а «что случилось» — heard about."
     }
   ],
   "text_input_exercises": [
@@ -5252,6 +6319,34 @@
         }
       ],
       "explanation": "человек сам появится у кинотеатра, его нужно высматривать — look out for. Find out — выяснить сведения, а search без for значило бы «обыщи высокого парня»."
+    },
+    {
+      "id": 85,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Sorry, I can't come on Friday. My mum is in hospital."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Oh, I'm seeing. I hope she's OK.",
+          "isCorrect": false
+        },
+        {
+          "text": "Oh, I see. I hope she's OK.",
+          "isCorrect": true
+        },
+        {
+          "text": "Oh, I watch. I hope she's OK.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«понятно» — I see: это понимание, а понимание в Continuous не ставится. Watch — следить глазами, про понимание так не говорят."
     }
   ],
   "matching_exercises": [
@@ -5377,6 +6472,33 @@
         }
       ],
       "explanation": "look for — обычный бытовой поиск. Search — тщательный, по правилам, как у полиции. Seek — книжное слово из инструкций. Hunt for — упорный поиск с азартом. Missing — то, что пропало и чего нет на месте."
+    },
+    {
+      "id": 93,
+      "taskDescription": "соедини фразу с тем, что она на самом деле значит.",
+      "pairs": [
+        {
+          "left": "We'll see",
+          "right": "Может, да, а может, и нет"
+        },
+        {
+          "left": "Let me see",
+          "right": "Так, дай подумать"
+        },
+        {
+          "left": "I'll see what I can do",
+          "right": "Не обещаю, но попробую"
+        },
+        {
+          "left": "We'll see about that!",
+          "right": "Это мы ещё посмотрим!"
+        },
+        {
+          "left": "wait and see",
+          "right": "Поживём — увидим"
+        }
+      ],
+      "explanation": "We'll see — не обещание, а вежливое «может быть». Let me see — пауза на размышление. I'll see what I can do — попробую без гарантий. We'll see about that! с нажимом звучит угрозой, а wait and see — спокойное «поживём — увидим»."
     }
   ],
   "error_correction_exercises": [
@@ -5493,6 +6615,25 @@
         }
       ],
       "explanation": "время работы музея — это сведения, а не вещь, поэтому find out. После него порядок как в утверждении, без does. Know — «знать», а не «узнать»."
+    },
+    {
+      "id": 204,
+      "wrongSentence": "My parents came to the port to see off me.",
+      "options": [
+        {
+          "text": "My parents came to the port to seen me off.",
+          "isCorrect": false
+        },
+        {
+          "text": "My parents came to the port to look me off.",
+          "isCorrect": false
+        },
+        {
+          "text": "My parents came to the port to see me off.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "местоимение встаёт между see и off: see me off. После to глагол стоит в первой форме, seen здесь невозможен, а look off — не «проводить»."
     }
   ],
   "construction_meaning_exercises": [
@@ -5587,6 +6728,29 @@
         }
       ],
       "explanation": "после searched сразу стоит Mark's car, без for, — значит, машину обыскали. «Искали машину» было бы searched for Mark's car, а «нашли» — found."
+    },
+    {
+      "id": 75,
+      "construction": "I don't see why we have to wait.",
+      "options": [
+        {
+          "text": "Не понимаю, зачем нам ждать.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я не вижу, почему мы ждём.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не видел, как мы ждали.",
+          "isCorrect": false
+        },
+        {
+          "text": "Не знаю, ждать ли нам.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "I don't see why — не про глаза, а «не понимаю, зачем», причём с оттенком несогласия. «Не видел, как мы ждали» было бы I didn't see us wait, а «ждать ли» собирается через if."
     }
   ],
   "transformation_exercises": [
@@ -5759,6 +6923,29 @@
         }
       ],
       "explanation": "то, что надеются найти, получает for: кошку, отель, свидетеля. Место или человек, которых прочёсывают и обыскивают, стоят сразу после search: квартиру, карманы, машину."
+    },
+    {
+      "id": 126,
+      "taskDescription": "распредели ситуации по тому, какой глагол в них нужен.",
+      "categories": [
+        {
+          "title": "see",
+          "items": [
+            "Старый друг: рад видеть",
+            "Приём у врача",
+            "Свидания уже полгода"
+          ]
+        },
+        {
+          "title": "meet",
+          "items": [
+            "Знакомство на вечеринке",
+            "Первый день с новой коллегой",
+            "Друг по переписке впервые вживую"
+          ]
+        }
+      ],
+      "explanation": "see — человек знаком, приём у специалиста или отношения, которые уже идут. Meet — первая встреча, знакомство."
     }
   ],
   "find_the_odd_exercises": [
@@ -5853,6 +7040,29 @@
         }
       ],
       "explanation": "почтальон, свисток чайника и Кейт появятся сами, их ждут: watch for, listen for, look out for. Зарядка никуда не придёт, она где-то лежит, и её ищут — look for."
+    },
+    {
+      "id": 110,
+      "groupDescription": "Три фразы — про новость, которая дошла через людей, одна — про звук",
+      "items": [
+        {
+          "text": "I heard you bought a car.",
+          "isOdd": false
+        },
+        {
+          "text": "I hear you're leaving the company.",
+          "isOdd": false
+        },
+        {
+          "text": "Did you hear about the fire?",
+          "isOdd": false
+        },
+        {
+          "text": "I heard the door slam.",
+          "isOdd": true
+        }
+      ],
+      "explanation": "в первых трёх hear значит «узнать»: новость дошла через людей. I heard the door slam — настоящий звук, хлопнувшая дверь."
     }
   ]
 }

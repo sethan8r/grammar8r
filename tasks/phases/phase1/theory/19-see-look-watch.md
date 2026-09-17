@@ -2824,26 +2824,626 @@ B: ___
 
 ---
 
+## Microtopic 213 — I see, see you, I heard · Понимаю, а не вижу
+
+**ID:** 213 | **Order:** 6
+**Теги:** i see, we'll see, let me see, meet или see, see off, hear from или hear of, слышал новость, видеться
+
+---
+
+### Card 575 · I see: вижу, значит понимаю
+
+**ID:** 575 | **Order:** 1
+
+#### Theory
+
+У глаз есть голова. Русский давно этим пользуется: «ясно», «теперь я вижу, в чём дело», «не вижу смысла». Английский делает ровно то же самое. Механизм учить не нужно — достаточно заметить совпадение и выучить несколько ходовых фраз.
+
+**Картинка дошла до головы**
+
+Ось темы: `see` — пришло само, картинка дошла до глаз. Второй этаж — мысль дошла до головы. Поэтому `I see` — это не «я вижу», а «понятно, ясно»:
+
+- **A: The shop is closed on Mondays. — B: Oh, I see.** — а, понятно
+- **I see what you mean.** — понимаю, о чём ты, и уже почти соглашаюсь
+- **Do you see what I mean?** · **See what I mean?** — понимаешь, о чём я?
+- **You see, the problem is money.** — понимаешь, проблема в деньгах
+- **See? The door was open.** — вот видишь? дверь была открыта
+
+**Ловушка:** понимание — состояние, а не действие, поэтому Continuous здесь не встаёт, как у всех глаголов из микротемы «Глаголы без Continuous»: **I'm seeing what you mean** ✗ → **I see what you mean** ✓. В прошлом — обычный Past Simple: **At first I didn't see what he meant.**
+
+**Не понимаю, зачем — I don't see why**
+
+Отрицание звучит очень часто и почти всегда несёт несогласие: вы не просто не понимаете, вы считаете, что это ни к чему.
+
+**Формула:** I don't see why + часть с подлежащим
+
+- **I don't see why we need a new car.** — не понимаю, зачем нам новая машина
+- **I don't see the point.** — не вижу смысла
+- **I don't see a problem.** — не вижу проблемы
+
+Из этой же сборки получается короткое согласие: **— Can I borrow your bike? — I don't see why not.** — дословно «не вижу, почему нет», по-живому «почему бы и нет». Отрицательный вопрос звучит как упрёк: **Don't you see?** — «неужели ты не понимаешь?».
+
+**Тон: Oh, I see…**
+
+**Важно:** всё решает интонация. Ровное **I see** — «понятно, продолжай». Протяжное **Oh, I see…** с паузой — «ну-ну, понятно»: холодок или обида, так отвечают, когда объяснение не понравилось. Русское «понятно» умеет то же самое, поэтому на слух это легко поймать, если знать.
+
+**I see, I understand или Got it**
+
+| Фраза | Когда | Пример |
+|-------|-------|--------|
+| I see | поняли объяснение или новость | Oh, I see. |
+| I understand | серьёзнее: сочувствие, условия | I understand how you feel. |
+| Got it | поняли задачу, сделаете | Got it, I'll send it today. |
+
+Разговорные `Got it` и `I get it` подробно разберём в разделе «Сказать то же, но круче».
+
+**Как ты на это смотришь**
+
+«Смотреть на вещи» — тоже не глаза. **How do you see it?** — «как ты на это смотришь?». **That's how I see it.** — «я вот так на это смотрю». А когда предлагают взглянуть иначе, берут `look` — вы сами поворачиваете мысль собеседника, как поворачивают голову: **Look at it this way: we've saved money.** — «посмотри на это так: мы сэкономили».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`see` в голове — «понимать»: картинка дошла до глаз, мысль дошла до головы.
+
+- **I see** — понятно; **I see what you mean** — понимаю, о чём ты
+- **You see, …** — понимаешь, …; **See?** — вот видишь?
+- Схема `I don't see why + часть с подлежащим` — не понимаю, зачем: **I don't see why we need a new car**
+- **I don't see why not** — почему бы и нет
+- **How do you see it?** — как ты на это смотришь?
+
+**Частые ошибки**
+
+- **I'm seeing what you mean** ✗ → **I see what you mean** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2606 | А, понятно. Спасибо, что объяснил. | Oh, I see. Thanks for explaining. |
+| 2607 | Я не понимаю, зачем Рома продаёт квартиру. | I don't see why Roma is selling his flat. |
+| 2608 | Понимаешь, у нас совсем нет времени. | You see, we have no time at all. |
+| 2609 | Вот видишь? Я же говорил! | See? I told you! |
+| 2610 | Как Вера на это смотрит? | How does Vera see it? |
+
+---
+
+#### Exercises
+
+**Ex 64 · ConstructionMeaning** *(ID: 75)*
+
+Выбери правильный перевод:
+
+"I don't see why we have to wait."
+
+- **Не понимаю, зачем нам ждать.** ✓
+- Я не вижу, почему мы ждём.
+- Я не видел, как мы ждали.
+- Не знаю, ждать ли нам.
+
+*Explanation:* I don't see why — не про глаза, а «не понимаю, зачем», причём с оттенком несогласия. «Не видел, как мы ждали» было бы I didn't see us wait, а «ждать ли» собирается через if.
+
+---
+
+**Ex 65 · DialogRestore** *(ID: 85)*
+
+A: "Sorry, I can't come on Friday. My mum is in hospital."
+B: ___
+
+- Oh, I'm seeing. I hope she's OK.
+- **Oh, I see. I hope she's OK.** ✓
+- Oh, I watch. I hope she's OK.
+
+*Explanation:* «понятно» — I see: это понимание, а понимание в Continuous не ставится. Watch — следить глазами, про понимание так не говорят.
+
+---
+
+**Ex 66 · TrueFalse** *(ID: 214)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I'm seeing what you mean now. | ✗ |
+| 2 | See? I was right. | ✓ |
+| 3 | I don't see why he's so angry. | ✓ |
+| 4 | Are you seeing what I'm saying? | ✗ |
+| 5 | Can I use your phone? — I don't see why not. | ✓ |
+
+*Explanation:* see в значении «понимать» — состояние, в Continuous оно не встаёт: I see what you mean now, Do you see what I'm saying?
+
+---
+
+#### Clarification Options
+
+- Почему «понимаю» по-английски I see, а не I'm seeing?
+- Чем I don't see why отличается от I don't know why?
+- Когда Oh, I see звучит обиженно?
+
+---
+
+### Card 576 · Посмотрим и дай подумать: see, которое не про глаза
+
+**ID:** 576 | **Order:** 2
+
+#### Theory
+
+Русское «посмотрим» почти никогда не про глаза. Английский и здесь берёт `see`, но за каждой фразой стоит свой смысл, и один из них русский понимает с точностью до наоборот.
+
+**Let's see и Let me see — сейчас разберёмся**
+
+`Let's see` — «посмотрим, сейчас узнаем»: вы то ли глазами проверяете, то ли соображаете вслух.
+
+- **Let's see what's in the fridge.** — посмотрим, что есть в холодильнике
+- **Let's see… The next train is at six.** — так, посмотрим… следующий поезд в шесть
+
+`Let me see` мы встречали в карточке «See приходит само» как «дай посмотреть». У него есть второе значение: дословно «дай мне посмотреть», по-живому «так, дай подумать». Это пауза, пока вы вспоминаете или считаете: **When did we meet? Let me see… in 2019.** Рядом стоит уже знакомое из темы «Императив» **Let me think**.
+
+**We'll see — посмотрим, но скорее нет**
+
+Самая коварная фраза карточки. Русское «посмотрим» звучит с надеждой. `We'll see` — вежливое «может да, может нет», а в устах родителя или начальника почти всегда «скорее нет»: **— Can we go to the zoo on Sunday? — We'll see.** Ребёнок-носитель прекрасно понимает, что зоопарка, скорее всего, не будет.
+
+**Важно:** не принимайте **We'll see** за обещание. Хотите пообещать — скажите **I'll try** или **Yes, I think so**.
+
+**Кстати:** то же `We'll see` с нажимом — **We'll see about that!** — это угроза «это мы ещё посмотрим!». А точное «поживём — увидим» — **wait and see**: **We'll just have to wait and see.**
+
+**Посмотрю, что можно сделать**
+
+«Посмотрю, что можно сделать» собирается слово в слово: **I'll see what I can do.** Это классический ответ на просьбу, когда ничего не обещают, но попробуют: **— Can you get me a ticket for Saturday? — I'll see what I can do.**
+
+**Посмотри, закрыта ли дверь — see if**
+
+**Формула:** go and see + if + часть с порядком утверждения
+
+- **Go and see if the door is locked.** — сходи посмотри, закрыта ли дверь
+- **I'll see if Katya is at home.** — я посмотрю, дома ли Катя
+- **Can you see if there's any milk left?** — глянь, осталось ли молоко
+
+`if` здесь — то самое «ли» из микротемы «If / Whether · Когда вопросительного слова нет», поэтому после него обычный порядок слов. Тот же смысл даёт `check`: **Can you check if the door is locked?**
+
+**Ловушка:** русское «посмотри, закрыта ли дверь» тянет вопрос прямо внутрь: **Go and see is the door locked** ✗ → **Go and see if the door is locked** ✓.
+
+**Когда «посмотреть» — это look или watch**
+
+- «Врач посмотрит вашу руку» — это настоящий взгляд: **The doctor will look at your arm.** Или **Let me have a look** — связку `have a look` разберём в теме «Дополнительные конструкции»
+- «Посмотри в словаре» — **Look it up**, разбор в разделе «Одно слово — много значений»
+- «Давай посмотрим фильм» — фильм идёт во времени: **Let's watch a film.**
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Русское «посмотрим» чаще всего не про глаза, и у каждой английской фразы свой смысл.
+
+- **Let's see** — посмотрим, сейчас узнаем
+- **Let me see…** — так, дай подумать
+- **We'll see** — может да, может нет; не обещание
+- **We'll see about that!** — это мы ещё посмотрим! · **wait and see** — поживём — увидим
+- **I'll see what I can do** — посмотрю, что можно сделать
+- Схема `go and see + if + порядок утверждения`: **Go and see if the door is locked**
+- Настоящий взгляд — **look at**, фильм — **watch**
+
+**Частые ошибки**
+
+- **Go and see is the door locked** ✗ → **Go and see if the door is locked** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2611 | Посмотрим, что скажет Денис. | Let's see what Denis says. |
+| 2612 | Сколько я тебе должен? Так, дай подумать… | How much do I owe you? Let me see… |
+| 2613 | — Купишь мне новый телефон? — Посмотрим. | — Will you buy me a new phone? — We'll see. |
+| 2614 | Я посмотрю, что можно сделать с вашим заказом. | I'll see what I can do about your order. |
+| 2615 | Посмотри, пришла ли почта. | See if the post has come. |
+
+---
+
+#### Exercises
+
+**Ex 67 · MultipleChoice · FORWARD_CHOICE** *(ID: 240)*
+
+"Сходи посмотри, есть ли хлеб."
+
+- Go and see is there any bread.
+- Go and look is there any bread.
+- **Go and see if there's any bread.** ✓
+
+*Explanation:* «посмотри, есть ли» — see if, а после if порядок как в утверждении: there's any bread. Вопросительный порядок is there внутри фразы не ставится.
+
+---
+
+**Ex 68 · Matching** *(ID: 93)*
+
+Задание: соедини фразу с тем, что она на самом деле значит.
+
+| Фраза | Смысл |
+|-------|-------|
+| We'll see | Может, да, а может, и нет |
+| Let me see | Так, дай подумать |
+| I'll see what I can do | Не обещаю, но попробую |
+| We'll see about that! | Это мы ещё посмотрим! |
+| wait and see | Поживём — увидим |
+
+*Explanation:* We'll see — не обещание, а вежливое «может быть». Let me see — пауза на размышление. I'll see what I can do — попробую без гарантий. We'll see about that! с нажимом звучит угрозой, а wait and see — спокойное «поживём — увидим».
+
+---
+
+**Ex 69 · WordArrangement** *(ID: 192)*
+
+RU: Посмотри, пожалуйста, работает ли лифт.
+
+Правильное предложение: **Can you see if the lift is working?**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Can | — |
+| you | — |
+| see | — |
+| if | — |
+| the lift | — |
+| is | — |
+| working | — |
+| look | ✗ |
+| does | ✗ |
+| are | ✗ |
+
+*Explanation:* «посмотри, работает ли» — see if, а после if обычный порядок: the lift is working. Look здесь не подходит — это не взгляд, а проверка, does в этой фразе лишний, а are не сочетается с the lift.
+
+---
+
+#### AI Exercise
+
+**ID:** see_look_watch_card576_ex1
+**Title:** "Посмотрим, посмотрю"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Вы получите русскую фразу со словом «посмотреть», которое не всегда про глаза. Напишите, как её скажут по-английски."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о русском «посмотреть», которое не про глаза. Он знает: 1) Let's see — «посмотрим, сейчас узнаем»: Let's see what's in the fridge; 2) Let me see — «дай посмотреть» и «так, дай подумать»: When did we meet? Let me see… in 2019; рядом Let me think; 3) We'll see — вежливое «может да, может нет», у родителя или начальника почти «скорее нет», это не обещание; пообещать — I'll try или Yes, I think so; 4) We'll see about that! с нажимом — угроза «это мы ещё посмотрим!»; wait and see — «поживём — увидим»; 5) «посмотрю, что можно сделать» — I'll see what I can do; 6) «посмотри, закрыта ли дверь» — go and see + if + порядок утверждения: Go and see if the door is locked, I'll see if Katya is at home, Can you see if there's any milk left?; Go and see is the door locked — ошибка; тот же смысл даёт check if; 7) настоящий взгляд — look: «врач посмотрит руку» — The doctor will look at your arm или Let me have a look; «посмотри в словаре» — look it up; фильм — watch: Let's watch a film. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения и unless, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look, watch, hear и listen, конструкция «видел, как он что-то делает», look for, find и find out. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после глагола, возвратные местоимения, see в значении «видеться» и «принимать» (see a doctor), hear в значении «узнать новость» — таких форм и значений в заданиях не используй и за их отсутствие не ругай. ЗАДАНИЕ: дай пользователю ОДНУ короткую русскую фразу со словом «посмотреть», «посмотрим» или «посмотрю» и попроси сказать её по-английски. ДЕРЖИ ФРАЗУ ПРОСТОЙ: до девяти слов, одна мысль, без перечислений, в дебри не уходи. Если смысл фразы без обстановки не понять (обещание или отговорка, угроза), добавь в скобках короткую ситуацию — (мама отвечает ребёнку), (с угрозой), — но нужную английскую фразу и правило НЕ подсказывай. Бери знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе фразы, а не в незнакомой лексике; если подходящих слов нет, бери простую бытовую лексику. ЧЕРЕДУЙ ПОВОД от запуска к запуску, не повторяя один и тот же два раза подряд: 1. ПОСМОТРИМ, УЗНАЕМ: «посмотрим, что скажет Паша». 2. ДАЙ ПОДУМАТЬ: «сколько стоил билет? так, дай подумать…». 3. ОТГОВОРКА: «— Купишь мне собаку? — Посмотрим» (мама отвечает ребёнку). 4. УГРОЗА: «это мы ещё посмотрим!» (с угрозой). 5. ПОЖИВЁМ — УВИДИМ: «придётся подождать и посмотреть». 6. ПОПРОБУЮ: «посмотрю, что можно сделать». 7. ПРОВЕРИТЬ, ЛИ: «посмотри, пришёл ли автобус», «я посмотрю, дома ли Вера». 8. ГРАНИЦА — НАСТОЯЩИЙ ВЗГЛЯД ИЛИ ФИЛЬМ: «врач посмотрит твоё колено», «давай посмотрим сериал», «посмотри на это фото». Повод 8 давай примерно каждый третий запуск, но не два раза подряд: там see не подходит. ОЦЕНКА: верно, если фраза передаёт тот же смысл и собрана правильно. Разбирай типовые ошибки по одной строке: на отговорку написал I'll see или Let's look → покажи We'll see; на «дай подумать» написал Give me think → напомни Let me see или Let me think; на «посмотри, ли» поставил вопросительный порядок (see is the bus here) или потерял if → покажи see if + порядок утверждения; взял look вместо see там, где проверяют или соображают (Look if the door is locked) → объясни, что это не взгляд, а проверка — see if или check if; на «посмотрю, что можно сделать» написал I'll look what I can do → покажи I'll see what I can do; на поводе 8 взял see (the doctor will see your knee, let's see a series) → объясни, что колено осматривают глазами — look at, а сериал идёт во времени — watch; на «поживём — увидим» написал We'll live and see → покажи wait and see или We'll see. Засчитывай: Let me think вместо Let me see, check if вместо see if, Maybe вместо We'll see (одной строкой скажи, что We'll see звучит естественнее), Let me have a look вместо look at, сокращения и другое пройденное время по смыслу. Если человек выбрал другое слово, а грамматика верна, лексику не правь. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Скажите по-английски: «— Можно я поеду с друзьями на море? — Посмотрим.» (мама отвечает сыну)'
+
+#### Clarification Options
+
+- Почему We'll see часто значит «скорее нет»?
+- Чем Let's see отличается от Let me see?
+- Почему «посмотри, закрыта ли дверь» — это see if, а не look?
+
+---
+
+### Card 577 · See = видеться: встречи, врачи и проводы
+
+**ID:** 577 | **Order:** 3
+
+#### Theory
+
+У `see` есть ещё один этаж — люди. Русский здесь снова совпадает: «увидимся», «давно не виделись». Но дальше английский идёт туда, куда русское «видеть» не ходит: к врачу, на деловую встречу, на свидание и даже провожать на вокзал.
+
+**Видеться — see**
+
+**See you tomorrow!** — «увидимся завтра». **I haven't seen Oleg for ages.** — «сто лет не видел Олега», эти обороты мы собирали в карточке «It's been a while: обороты про долгую паузу». Все прощания вида **See you later** подробно разберём в теме «Социальное взаимодействие».
+
+**Nice to meet you или Nice to see you**
+
+Русское «рад встрече» английский делит надвое:
+
+- `meet` — первая встреча, знакомство: **Nice to meet you.** — приятно познакомиться
+- `see` — человек вам знаком: **Nice to see you again!** — рад тебя видеть
+
+**Ловушка:** старому другу **Nice to meet you** ✗ — звучит так, будто вы его забыли. Верно: **Nice to see you** ✓.
+
+При прощании форма меняется, и эти фразы берут целиком: после знакомства — **It was nice meeting you!**, со знакомым — **It was nice seeing you!** или просто **Good to see you!**
+
+**Врач примет — see a doctor**
+
+У врача и в офисе `see` значит «попасть на приём» или «принять»:
+
+- **You should see a doctor.** — тебе надо сходить к врачу
+- **The doctor will see you now.** — врач сейчас вас примет
+- **I'm seeing a client at three.** — у меня в три встреча с клиентом
+
+Здесь `see` — действие, встреча из расписания, поэтому Continuous нормален. Эту границу мы видели в карточке «Глаголы-хамелеоны — have, think, see»: «вижу, понимаю» — состояние, «встречаюсь» — действие.
+
+**Встречаться — seeing someone**
+
+- **Are you seeing anyone?** — ты с кем-нибудь встречаешься?
+- **Jake and Mia have been seeing each other for a year.** — Джейк и Мия встречаются уже год
+
+**Важно:** **I'm seeing Kate tonight** может прозвучать как свидание. Если Кейт просто подруга или коллега, двусмысленность снимает `meet`: **I'm meeting Kate tonight.**
+
+**Проводить в дорогу — see off**
+
+Когда человек уезжает — на вокзал, в аэропорт, в дальний путь, — английский говорит `see off`. Вы стоите и смотрите, как он удаляется, а `off` — это «прочь, от вас». Дословно «увидеть прочь», по-живому «проводить».
+
+**Формула:** see + кого + off
+
+- **We saw Grandma off at the station.** — мы проводили бабушку на вокзале
+- **Sasha came to the airport to see me off.** — Саша приехал в аэропорт меня проводить
+- **Are you going to see Igor off tomorrow?** — ты завтра поедешь провожать Игоря?
+- **Nobody saw us off.** — нас никто не провожал
+
+**Ловушка:** местоимение встаёт между `see` и `off`: **We saw off her** ✗ → **We saw her off** ✓. С именем годятся оба порядка: **saw Grandma off** и **saw off Grandma**.
+
+Сами проводы как событие называются `a send-off`: **We gave Kate a great send-off.** — мы устроили Кейт отличные проводы.
+
+**Русское «проводить» — не всегда see off**
+
+Русское слово одно, а английский выбирает по тому, куда вы провожаете:
+
+- до двери, до выхода из офиса — **I'll see you out.** — я провожу вас до выхода
+- пешком до дома или до машины — **I'll walk you home.** · **Let me walk you to your car.**
+- на вокзал, в аэропорт, в дальнюю дорогу — **see off**
+
+**Ловушка:** «проводить время» — совсем другой глагол, там никто никуда не уезжает: **We saw off the weekend at the lake** ✗ → **We spent the weekend at the lake** ✓.
+
+**Позвать в гости — come and see**
+
+«Заходите в гости» по-английски тоже через `see`: вы зовёте человека прийти и повидаться.
+
+- **Come and see us at the weekend!** — заходите к нам в выходные
+- **Come and see me sometime.** — заходи как-нибудь
+- **Come and visit us!** — то же самое, чуть торжественнее
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`see` умеет значить «видеться, принимать, встречаться, провожать».
+
+- Знакомство — **Nice to meet you**; знакомый человек — **Nice to see you**
+- Прощание: **It was nice meeting you** · **It was nice seeing you**
+- **see a doctor** — сходить к врачу; **The doctor will see you now** — примет
+- **Are you seeing anyone?** — встречаешься с кем-то?; просто встреча — **I'm meeting Kate**
+- Проводить в дорогу — схема `see + кого + off`: **Sasha came to see me off**
+- До выхода — **I'll see you out**; пешком до дома — **I'll walk you home**
+- **Come and see us!** — заходите в гости
+
+**Частые ошибки**
+
+- **Nice to meet you** старому другу ✗ → **Nice to see you** ✓
+- **We saw off her** ✗ → **We saw her off** ✓
+- **We saw off the weekend** ✗ → **We spent the weekend** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2616 | Рад тебя видеть, Саша! | Nice to see you, Sasha! |
+| 2617 | Моему брату надо сходить к врачу. | My brother should see a doctor. |
+| 2618 | Лили с кем-то встречается? | Is Lily seeing anyone? |
+| 2619 | Мы проводили Игоря в аэропорту. | We saw Igor off at the airport. |
+| 2620 | Приходите к нам в гости в субботу! | Come and see us on Saturday! |
+
+---
+
+#### Exercises
+
+**Ex 70 · MultipleChoice · CHOICE** *(ID: 218)*
+
+"Hi, Lucy! Nice to ___ you again! How was Spain?"
+
+- **see** ✓
+- meet
+- look
+
+*Explanation:* с Люси вы уже знакомы — «рада тебя видеть», это see. Meet говорят при знакомстве, а look без at никого не берёт.
+
+---
+
+**Ex 71 · Categorization** *(ID: 126)*
+
+Задание: распредели ситуации по тому, какой глагол в них нужен.
+
+| see | meet |
+|-----|------|
+| Старый друг: рад видеть | Знакомство на вечеринке |
+| Приём у врача | Первый день с новой коллегой |
+| Свидания уже полгода | Друг по переписке впервые вживую |
+
+*Explanation:* see — человек знаком, приём у специалиста или отношения, которые уже идут. Meet — первая встреча, знакомство.
+
+---
+
+**Ex 72 · ErrorCorrection** *(ID: 204)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"My parents came to the port to see off me."
+
+- My parents came to the port to seen me off.
+- My parents came to the port to look me off.
+- **My parents came to the port to see me off.** ✓
+
+*Explanation:* местоимение встаёт между see и off: see me off. После to глагол стоит в первой форме, seen здесь невозможен, а look off — не «проводить».
+
+---
+
+#### Clarification Options
+
+- Почему старому другу нельзя сказать Nice to meet you?
+- Почему I'm seeing a client можно, а I'm seeing a bird нельзя?
+- Как по-английски «проводить» человека на вокзал?
+
+---
+
+### Card 578 · Hear = узнать: слышал, что… и hear from, of, about
+
+**ID:** 578 | **Order:** 4
+
+#### Theory
+
+«Я слышал, что ты нашёл работу» — это не про уши. Новость дошла до вас через людей. У русского и английского здесь снова одна метафора, но у английского есть два хода, которых русский не ждёт, и три предлога на месте одного русского «о».
+
+**Слышал, что… — новость дошла**
+
+- **I heard you got a new job!** — я слышал, ты нашёл новую работу!
+- **I've heard the museum is closed for repairs.** — я слышал, музей закрыт на ремонт
+
+Past Simple — момент, когда новость дошла. Present Perfect — вы это знаете сейчас. `that` после `heard` в разговоре обычно опускают.
+
+**I hear you're moving — новость в настоящем**
+
+Носитель часто говорит о свежей новости в Present Simple: **I hear you're moving to Prague.** — «я слышал, ты переезжаешь в Прагу». Новость до вас дошла и сейчас у вас в голове. Русский сказал бы «слышал», и `I heard` тоже верно, но `I hear` звучит живее — так начинают разговор.
+
+**Слышал новость?**
+
+- **Have you heard the news?** — ты слышал новость?
+- **Did you hear about Tom?** — ты слышал про Тома?
+- **I've heard so much about you!** — я столько о вас слышал! — так говорят при знакомстве
+
+**From, of или about**
+
+Русское «слышал о нём» одним «о» покрывает три разные мысли. У английского на каждую свой предлог:
+
+| Сочетание | Смысл | Пример |
+|-----------|-------|--------|
+| hear from | весточка от самого человека | I haven't heard from Kate for months. |
+| hear of | знаю, что такое вообще существует | I've never heard of this band. |
+| hear about | узнал, что случилось | Have you heard about the accident? |
+
+`from` — источник: человек сам написал или позвонил. `of` — само существование: слышали ли вы такое имя хоть раз. `about` — содержание: что произошло.
+
+**Ловушка:** «давно ничего не слышно от Олега» — он не пишет и не звонит — это `from`: **I haven't heard about Oleg for ages** ✗ — выходит «про Олега давно не было новостей» → **I haven't heard from Oleg for ages** ✓.
+
+Короткий ответ, когда название вам ничего не говорит: **— Do you know Café Luna? — Never heard of it.** — «первый раз слышу».
+
+**Слухи — rumour**
+
+**I heard a rumour that the office is moving.** — «ходят слухи, что офис переезжает». **It's just a rumour.** — «это просто слухи».
+
+**Кстати:** британцы пишут `rumour`, американцы — `rumor`. Смысл и произношение одинаковые.
+
+**Hear в Continuous — доходят новости**
+
+В карточке «Hear и listen» мы обещали: `hear` в Continuous всё-таки бывает. Не про звук, а когда новости доходят одна за другой: **I've been hearing a lot about you.** — «я о тебе много наслышан». **We're hearing good things about the new café.** — «про новое кафе говорят хорошее». Про звук правило прежнее: **I'm hearing music** ✗ → **I can hear music** ✓.
+
+**Узнал: hear, find out или recognize**
+
+- **hear** — новость дошла через людей: **I heard Lena is leaving.**
+- **find out** — выяснили сами: **I found out Lena is leaving.** — карточка «Узнать, а не найти»
+- **recognize** — узнали в лицо — карточка «See приходит само»
+
+Ещё три фразы со слухом живут в других темах. **I hear you** — «понял тебя» — и **I'm sorry to hear that** — «жаль это слышать» — разберём в теме «Социальное взаимодействие». **I look forward to hearing from you** — дежурная концовка письма, её `-ing` объясним в теме «Герундий после глагола».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`hear` в голове — «узнать через людей»: новость дошла до вас.
+
+- **I heard you got a new job** · **I hear you're moving** — слышал, что…
+- **Have you heard the news?** · **Did you hear about Tom?**
+- **hear from** — от самого человека · **hear of** — знаю, что существует · **hear about** — что случилось
+- **Never heard of it** — первый раз слышу
+- Новости доходят — **I've been hearing a lot about you**; звук — **I can hear music**
+
+**Понимаю, видеться, посмотрим**
+
+- **I see** — понятно · **I don't see why…** — не понимаю, зачем
+- **We'll see** — может да, может нет · **Let me see** — дай подумать · **see if** — посмотреть, ли
+- **Nice to meet you** — знакомство ↔ **Nice to see you** — знакомый · **see a doctor** · **see her off**
+
+**Частые ошибки**
+
+- **I haven't heard about Oleg for ages** ✗ → **I haven't heard from Oleg for ages** ✓ — если он сам не пишет
+- **I'm seeing what you mean** ✗ → **I see what you mean** ✓
+- **Go and see is the door locked** ✗ → **Go and see if the door is locked** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2621 | Я слышал, Юля выходит замуж. | I hear Yulia is getting married. |
+| 2622 | Ты что-нибудь слышал от Паши? | Have you heard from Pasha? |
+| 2623 | Я никогда не слышал об этом городе. | I've never heard of this town. |
+| 2624 | Мы слышали об аварии по радио. | We heard about the accident on the radio. |
+| 2625 | Ходит слух, что у нас будет новый начальник. | There's a rumour that we're getting a new boss. |
+
+---
+
+#### Exercises
+
+**Ex 73 · TableFill** *(ID: 42)*
+
+Задание: впиши предлог после heard.
+
+| Ситуация | Предлог |
+|----------|---------|
+| Кейт не пишет полгода | from |
+| Первый раз слышу эту группу | of |
+| Узнал про пожар на складе | about |
+| Мама давно не звонила | from |
+| Такого слова не слышал | of |
+
+*Explanation:* from — весточка от самого человека: написал или позвонил. Of — знаете ли вы, что такое вообще существует. About — узнали, что случилось.
+
+---
+
+**Ex 74 · MultipleChoice · REVERSE_CHOICE** *(ID: 93)*
+
+"I haven't heard from Sonya since the wedding."
+
+- **От Сони ничего не слышно со свадьбы.** ✓
+- Я никогда не слышал о Соне.
+- Я не слышал, что случилось с Соней на свадьбе.
+
+*Explanation:* heard from — весточка от самой Сони: она не писала и не звонила. «Никогда не слышал о Соне» было бы heard of, а «что случилось» — heard about.
+
+---
+
+**Ex 75 · FindTheOdd** *(ID: 110)*
+
+Три фразы — про новость, которая дошла через людей, одна — про звук:
+
+- I heard you bought a car.
+- I hear you're leaving the company.
+- Did you hear about the fire?
+- **I heard the door slam.** ✓
+
+*Explanation:* в первых трёх hear значит «узнать»: новость дошла через людей. I heard the door slam — настоящий звук, хлопнувшая дверь.
+
+---
+
+#### AI Exercise
+
+**ID:** see_look_watch_card578_ex1
+**Title:** "Понимаю, видеться, слышал"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Вы получите русскую фразу, где «видеть», «посмотреть» или «слышать» значат не глаза и не уши: понимаю, посмотрим, видеться, слышал новость. Напишите её по-английски."
+**Prompt Template:** "Контекст: пользователь прошёл микротему о втором этаже глаголов see и hear. Он знает: 1) see = понимать: I see (понятно), I see what you mean, Do you see what I mean?, You see, …, See?; в Continuous не встаёт: I'm seeing what you mean — ошибка; I don't see why + часть с подлежащим — «не понимаю, зачем» с несогласием, I don't see the point, I don't see why not — «почему бы и нет»; How do you see it? — «как ты на это смотришь?», Look at it this way; 2) Let's see — посмотрим; Let me see — дай подумать; We'll see — «может да, может нет», не обещание; We'll see about that! — угроза; wait and see — поживём — увидим; I'll see what I can do; go and see + if + порядок утверждения: Go and see if the door is locked, Go and see is the door locked — ошибка; настоящий взгляд — look at, фильм — watch; 3) see = видеться: Nice to meet you — знакомство, Nice to see you — знакомый человек, Nice to meet you старому другу — ошибка; прощание It was nice meeting you / It was nice seeing you; see a doctor, The doctor will see you now, I'm seeing a client at three — здесь Continuous можно; Are you seeing anyone? — встречаешься с кем-то; просто встреча — I'm meeting Kate; see + кого + off — проводить в дорогу (Sasha came to the airport to see me off), местоимение между see и off (We saw her off, saw off her — ошибка); до выхода — I'll see you out, пешком до дома — I'll walk you home; «проводить время» — spend (We spent the weekend at the lake), saw off the weekend — ошибка; Come and see us!; 4) hear = узнать через людей: I heard you got a new job, I hear you're moving to Prague, Have you heard the news?, Did you hear about Tom?, I've heard so much about you; hear from — весточка от самого человека (I haven't heard from Kate), hear of — знаю, что существует (I've never heard of this band, Never heard of it), hear about — что случилось (Have you heard about the accident?); rumour — слух; I've been hearing a lot about you — новости доходят, а про звук Continuous нельзя; hear — узнал через людей, find out — выяснил сам. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения и unless, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look, watch, hear и listen, конструкция «видел, как он что-то делает», look for, find, find out и search. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после глагола, возвратные местоимения, I hear you и I'm sorry to hear that, Got it и I get it — таких форм в заданиях не используй и за их отсутствие не ругай. ЗАДАНИЕ: дай пользователю ОДНУ русскую фразу и попроси сказать её по-английски. ДЕРЖИ ФРАЗУ ПРОСТОЙ: до девяти слов, одна мысль, без перечислений, в дебри не уходи. Если без обстановки смысл не понять, добавь в скобках короткую ситуацию — (встретили старого друга), (мама отвечает ребёнку), — но английскую фразу и правило НЕ подсказывай. Бери знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе фразы, а не в незнакомой лексике; если подходящих слов нет, бери простую бытовую лексику. ЧЕРЕДУЙ ПОВОД от запуска к запуску, не повторяя один и тот же два раза подряд: 1. ПОНИМАЮ: «а, понятно», «понимаю, о чём ты». 2. НЕ ПОНИМАЮ, ЗАЧЕМ: «не понимаю, зачем Рома продал машину». 3. ПОСМОТРИМ: «— Поедем летом на море? — Посмотрим» (папа отвечает дочке), «так, дай подумать». 4. ПОСМОТРИ, ЛИ: «посмотри, спит ли малыш». 5. ВСТРЕЧА: «рад тебя видеть!» (встретили старого друга), «приятно познакомиться». 6. ВРАЧ И ВСТРЕЧИ: «тебе надо сходить к врачу», «Игорь с кем-то встречается?». 7. ПРОВОДИТЬ И ГОСТИ: «мы проводили Олю на вокзал», «я провожу тебя до дома», «приходите к нам в гости». 8. СЛЫШАЛ НОВОСТЬ: «я слышал, ты переезжаешь», «ты слышал про Тома?». 9. FROM, OF, ABOUT: «от Кати давно ничего не слышно», «первый раз слышу об этом кафе», «мы слышали об аварии». Отрицание или вопрос — не реже чем каждый третий запуск. ОЦЕНКА: верно, если фраза передаёт тот же смысл и собрана правильно. Разбирай типовые ошибки по одной строке: написал I'm seeing what you mean или I'm understanding → объясни, что понимание — состояние, Continuous не нужен; на «не понимаю, зачем» написал I don't understand why → засчитай и одной строкой скажи, что I don't see why звучит естественнее и показывает несогласие; на отговорку «посмотрим» написал Let's look или I'll see → покажи We'll see; на «посмотри, ли» поставил вопросительный порядок или потерял if → покажи see if + порядок утверждения; старому другу написал Nice to meet you → объясни, что meet — знакомство, знакомому — Nice to see you; на «сходить к врачу» написал go to the doctor → засчитай, одной строкой скажи, что see a doctor тоже очень частое; написал saw off her → поставь местоимение между see и off; на «проводить» взял accompany или take → засчитай take (to the station), одной строкой покажи see off; на «провожу до дома» взял see off → объясни, что see off — проводить в дорогу, а пешком до дома — walk you home; на «провели время» взял see off или held → покажи spent; на «от Кати ничего не слышно» взял about или of → объясни, что весточка от самого человека — from; на «первый раз слышу об этом» взял about → объясни, что само существование — of; на «слышал, ты переезжаешь» написал I heard that you move → покажи I heard you're moving или I hear you're moving; поставил hear в Continuous про звук → напомни can hear. Засчитывай: I heard и I hear про свежую новость, I understand вместо I see, check if вместо see if, Good to see you и It's nice to see you, сокращения и другое пройденное время по смыслу. Если человек выбрал другое слово, а грамматика верна, лексику не правь. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Скажите по-английски: «От Коли уже месяц ничего не слышно.»'
+
+#### Clarification Options
+
+- Чем heard from отличается от heard of и heard about?
+- Почему «я слышал, ты переезжаешь» можно сказать через I hear?
+- Когда hear всё-таки ставят в Continuous?
+
+---
+
+### Words8r Sync · Понимаю, а не вижу
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| rumour | слух | [ˈruːmə] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 33 | 34 |
-| Microtopic | 212 | 213 |
-| Card | 574 | 575 |
-| Example | 2605 | 2606 |
-| Слова курса (course_word) | 803 | 804 |
-| MultipleChoice · CHOICE | 217 | 218 |
-| MultipleChoice · FORWARD_CHOICE | 239 | 240 |
-| MultipleChoice · REVERSE_CHOICE | 92 | 93 |
-| TrueFalse | 213 | 214 |
-| WordArrangement | 191 | 192 |
+| Microtopic | 213 | 214 |
+| Card | 578 | 579 |
+| Example | 2625 | 2626 |
+| Слова курса (course_word) | 804 | 805 |
+| MultipleChoice · CHOICE | 218 | 219 |
+| MultipleChoice · FORWARD_CHOICE | 240 | 241 |
+| MultipleChoice · REVERSE_CHOICE | 93 | 94 |
+| TrueFalse | 214 | 215 |
+| WordArrangement | 192 | 193 |
 | TextInput | 107 | 108 |
-| Matching | 92 | 93 |
-| ErrorCorrection | 203 | 204 |
-| FindTheOdd | 109 | 110 |
-| Categorization | 125 | 126 |
-| TableFill | 41 | 42 |
+| Matching | 93 | 94 |
+| ErrorCorrection | 204 | 205 |
+| FindTheOdd | 110 | 111 |
+| Categorization | 126 | 127 |
+| TableFill | 42 | 43 |
 | Transformation | 94 | 95 |
-| ConstructionMeaning | 74 | 75 |
-| DialogRestore | 84 | 85 |
+| ConstructionMeaning | 75 | 76 |
+| DialogRestore | 85 | 86 |

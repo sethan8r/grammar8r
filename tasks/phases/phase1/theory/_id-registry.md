@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 575 |
-| Categorization | 126 |
+| Card | 579 |
+| Categorization | 127 |
 | Category | 8 |
-| ConstructionMeaning | 75 |
-| DialogRestore | 85 |
-| ErrorCorrection | 204 |
-| FindTheOdd | 110 |
-| Matching | 93 |
-| Microtopic | 213 |
-| MultipleChoice·CHOICE | 218 |
-| MultipleChoice·FORWARD_CHOICE | 240 |
-| MultipleChoice·REVERSE_CHOICE | 93 |
-| TableFill | 42 |
+| ConstructionMeaning | 76 |
+| DialogRestore | 86 |
+| ErrorCorrection | 205 |
+| FindTheOdd | 111 |
+| Matching | 94 |
+| Microtopic | 214 |
+| MultipleChoice·CHOICE | 219 |
+| MultipleChoice·FORWARD_CHOICE | 241 |
+| MultipleChoice·REVERSE_CHOICE | 94 |
+| TableFill | 43 |
 | TextInput | 108 |
 | Topic | 34 |
 | Transformation | 95 |
-| TrueFalse | 214 |
-| WordArrangement | 192 |
-| course_word | 804 |
+| TrueFalse | 215 |
+| WordArrangement | 193 |
+| course_word | 805 |
 
 ## Диапазоны по темам
 
@@ -580,23 +580,24 @@
 - WordArrangement: 107–108 (2)
 
 ### see-look-watch
-- Card: 555–574 (20)
-- Categorization: 121–125 (5)
-- ConstructionMeaning: 71–74 (4)
-- DialogRestore: 81–84 (4)
-- ErrorCorrection: 198–203 (6)
-- FindTheOdd: 106–109 (4)
-- Matching: 88–92 (5)
-- Microtopic: 208–212 (5)
-- MultipleChoice·CHOICE: 211–217 (7)
-- MultipleChoice·FORWARD_CHOICE: 234–239 (6)
-- MultipleChoice·REVERSE_CHOICE: 88–92 (5)
+- Card: 555–578 (24)
+- Categorization: 121–126 (6)
+- ConstructionMeaning: 71–75 (5)
+- DialogRestore: 81–85 (5)
+- ErrorCorrection: 198–204 (7)
+- FindTheOdd: 106–110 (5)
+- Matching: 88–93 (6)
+- Microtopic: 208–213 (6)
+- MultipleChoice·CHOICE: 211–218 (8)
+- MultipleChoice·FORWARD_CHOICE: 234–240 (7)
+- MultipleChoice·REVERSE_CHOICE: 88–93 (6)
+- TableFill: 42–42 (1)
 - TextInput: 103–107 (5)
 - Topic: 33–33 (1)
 - Transformation: 93–94 (2)
-- TrueFalse: 209–213 (5)
-- WordArrangement: 187–191 (5)
-- course_word: 788–803 (16)
+- TrueFalse: 209–214 (6)
+- WordArrangement: 187–192 (6)
+- course_word: 788–804 (17)
 
 ### so-such-too-enough
 - Card: 429–440 (12)

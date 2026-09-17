@@ -5325,44 +5325,42 @@ theory/
 │   │      как «искать, разыскивать» в Present Perfect Continuous). `to find`, `to seek` — неправильные;
 │   │      `find out` не сливаем (неправильный find).
 │   │
-│   ├── МТ · I see · Понимаю, а не вижу
-│   │   ├── Card · ⭐ Второй этаж see: картинка дошла до глаз → мысль дошла до головы. Русский делает
-│   │   │   ровно так же («ясно», «вижу, куда ты клонишь») — учить нечего, надо заметить.
-│   │   │   `I see` (ага, понял) · `I see what you mean` (понимаю, о чём ты — уже согласие по существу) ·
-│   │   │   `You see, …` (понимаешь, …) · `See?` (вот видишь?).
-│   │   │   ⬅️ Запрет `I'm seeing` в этом значении — строка-опора на State verbs (там уже разобрано).
-│   │   ├── Card · Посмотрим и посмотрю: русское «посмотреть», которое не про глаза.
-│   │   │   `Let's see` (сейчас глянем) · `We'll see` (поживём — увидим; ⚠️ ловушка: это вежливое
-│   │   │   «может да, может нет», родительское «We'll see» = «скорее всего нет», а русское ухо слышит
-│   │   │   обещание) · «посмотрю, что можно сделать» → `I'll see what I can do` · «посмотри, закрыта
-│   │   │   ли дверь» → `Go and see if the door is locked` / `check` (опора: if = «ли») ·
-│   │   │   📌 `Let me see` = «дай подумать» — ОБЕЩАНО в Card 561 (там дано только «дай посмотреть»),
-│   │   │   разобрать здесь рядом с `Let's see`. 🔤 Устойчивые фразы этой карточки (`Let me see`,
-│   │   │   `Let's see`, `We'll see`) сливать в Sync ЦЕЛИКОМ, фразой, а не по словам · «врач
-│   │   │   посмотрит руку» → `look at your arm` / `have a look` (опора «Make vs Do») · «посмотри в
-│   │   │   словаре» → `look it up` (указатель на МТ look).
-│   │   ├── Card · See = видеться. `See you!` (указатель на «Социальное взаимодействие») ·
-│   │   │   ⚠️ ЛОВУШКА `Nice to meet you` ↔ `Nice to see you`: meet — при знакомстве, see — со старым
-│   │   │   знакомым («рад тебя видеть»); русский говорит `Nice to meet you` другу, которого знает
-│   │   │   сто лет. · `see a doctor` (сходить к врачу) и обратная сторона того же (добавлено
-│   │   │   13.09.2026): `The doctor will see you now` — «врач вас примет», `I'm seeing a client at
-│   │   │   three` — деловая встреча. Русский от `see` такого смысла не ждёт вообще, а в клинике и
-│   │   │   в офисе фраза дежурная · `I'm seeing someone` (встречаюсь с кем-то) и
-│   │   │   `Are you seeing anyone?` — здесь see действие, поэтому Continuous можно (строкой-опорой).
-│   │   └── Card · Hear = узнать: слух как источник информации, как русское «я слышал, что…».
-│   │       `I've heard about it` (слышал, знаю) · `I heard you got a new job` (Past Simple про свежую
-│   │       новость — так говорят) · ⚠️ ЛОВУШКА `hear from` ↔ `hear of` ↔ `hear about` (третий член
-│   │       добавлен 13.09.2026 — без него тройка недособрана, а русское «слышал о» одинаково для
-│   │       двух последних): `I haven't heard from Tom` (нет вестей ОТ Тома, он не писал) ↔
-│   │       `I've never heard of him` (не знаю, что такой существует) ↔ `I've heard about the
-│   │       accident` (узнал про событие, про подробности). Ось простая: from — источник,
-│   │       of — само существование, about — содержание · `I hear you` — не
-│   │       «я тебя слышу», а «понял, принял» (часто «услышал, но сделаю по-своему»); ДОМ разбора
-│   │       здесь, в «Социальном взаимодействии» — строка-опора. `I'm sorry to hear that` — указатель
-│   │       на Блок 8 (сочувствие).
-│   │       📌 ОБЕЩАНО в Card 563 (плашка «Кстати»): hear в Continuous бывает в смысле «доходят
-│   │       новости» — `I've been hearing a lot about you`, `I'm hearing good things about the
-│   │       new café`; дать здесь строкой как контраст к I'm hearing music ✗.
+│   ├── МТ213 · I see, see you, I heard · Понимаю, а не вижу (4 карточки, 2 AI) ✅ (написана, ALL GREEN 17.09.26)
+│   │   Добор 17.09.2026: I don't see why / I don't see why not, тон Oh, I see…, I see ↔ I understand ↔
+│   │   Got it, How do you see it?, We'll see about that! и wait and see, прощание Nice meeting /
+│   │   seeing you, I'm seeing ↔ I'm meeting Kate, see off / see you out / Come and see us,
+│   │   I hear you're moving (Present Simple про новость), Have you heard the news?, rumour.
+│   │   📌 ФРАЗЫ ЦЕЛИКОМ ЗДЕСЬ НЕ СЛИВАЕМ: `I see`, `Let me see`, `We'll see`, `wait and see` сливаются
+│   │      дальше в курсе — в теме «Устойчивые выражения и идиомы», микротема «Устойчивые
+│   │      конструкции», категория `idioms` · «Идиомы и устойчивые обороты» (по границе категорий:
+│   │      готовая фраза-вставка → idioms, а не `two_word`). Здесь в Sync только слово `rumour`.
+│   │   ├── Card 575 · I see: вижу, значит понимаю — картинка до глаз → мысль до головы; I see, I see
+│   │   │   what you mean, Do you see what I mean?, You see, See?; ловушка I'm seeing what you mean ✗
+│   │   │   (опора «Глаголы без Continuous»); Формула I don't see why + часть, I don't see the point,
+│   │   │   I don't see why not, Don't you see?; Важно: тон Oh, I see…; таблица I see / I understand /
+│   │   │   Got it (отсылка на «Сказать то же, но круче»); How do you see it?, Look at it this way. Без AI.
+│   │   ├── Card 576 · Посмотрим и дай подумать: see, которое не про глаза — Let's see; Let me see =
+│   │   │   «дай подумать» (обещание Card 561 закрыто, двойной перевод, рядом Let me think); Важно:
+│   │   │   We'll see ≠ обещание; Кстати We'll see about that! и wait and see; I'll see what I can do;
+│   │   │   Формула go and see + if (опора «If / Whether»), ловушка Go and see is the door locked ✗;
+│   │   │   граница: look at (врач), have a look («Дополнительные конструкции»), look it up, watch.
+│   │   │   AI see_look_watch_card576_ex1 (RU→EN «посмотреть» не про глаза, граница look/watch, GENERAL).
+│   │   ├── Card 577 · See = видеться: встречи, врачи и проводы — See you, I haven't seen Oleg for
+│   │   │   ages (опора Card 380); ловушка Nice to meet you ↔ Nice to see you, прощание It was nice
+│   │   │   meeting / seeing you; see a doctor, The doctor will see you now, I'm seeing a client
+│   │   │   (опора «Глаголы-хамелеоны»); Are you seeing anyone?, Важно I'm seeing ↔ I'm meeting Kate;
+│   │   │   Формула see + кого + off (почему off, 4 примера в разных формах), ловушка saw off her ✗,
+│   │   │   Кстати a send-off; русское «проводить» по направлению: до выхода see out · пешком до
+│   │   │   дома walk you home · в дорогу see off; ловушка «проводить время» → spend (saw off the
+│   │   │   weekend ✗); отдельно «в гости» — Come and see us / Come and visit us. Без AI.
+│   │   └── Card 578 · Hear = узнать: слышал, что… и hear from, of, about — I heard you got a new job,
+│   │       I've heard…, I hear you're moving; Have you heard the news?, I've heard so much about you;
+│   │       таблица from / of / about + ловушка heard about Oleg ✗ → from; Never heard of it; rumour
+│   │       (Кстати rumour / rumor); hear в Continuous про новости (обещание Card 563 закрыто);
+│   │       ряд hear / find out / recognize; отсылки I hear you, I'm sorry to hear that
+│   │       («Социальное взаимодействие»), I look forward to hearing from you («Герундий после глагола»).
+│   │       AI see_look_watch_card578_ex1 (RU→EN на всю микротему, GENERAL).
+│   │   🔤 Слив: `rumour` (фразы — см. 📌 выше).
 │   │
 │   └── МТ · Live Practice · Глаза, уши и голова  (ОДНА карточка, 3 AI, без хардкода и без Sync)
 │       └── Card · Живая практика · Theory — сжатый пересказ темы: ось «кто кого нашёл» таблицей на
@@ -8053,6 +8051,13 @@ theory/
 │   │      плашка-Кстати с обещанием собрать такие блоки речи пачкой — долг закрывается тут.
 │   │      Напомнить их РОВНО ОДНИМ предложением каждый, повторного разбора не делать.
 │   │      `let's just` сюда НЕ берём: это приём («давай просто» + глагол), а не готовая фраза.
+│   │   ⚠️ СЮДА ЖЕ ПРИЕЗЖАЮТ ФРАЗЫ С SEE (решение 17.09.2026). В теме «Смотреть, слушать и понимать»
+│   │      (МТ213 «Понимаю, а не вижу», Card 575–576) разобраны по смыслу `I see` («понятно»),
+│   │      `Let me see` («так, дай подумать»), `We'll see` («может да, может нет» — не обещание) и
+│   │      `wait and see` («поживём — увидим»), но в Словарь оттуда ушло только слово `rumour`. Слив
+│   │      этих четырёх фраз ЦЕЛИКОМ — здесь, в `idioms`. Напомнить их РОВНО ОДНИМ предложением
+│   │      («эти фразы мы уже разобрали в теме «Смотреть, слушать и понимать» — здесь собираем их
+│   │      в Словарь»), повторного разбора смысла НЕ делать (Правило №0).
 │   │   ⚠️ СЮДА ЖЕ ПРИЕЗЖАЮТ ФОРМУЛЫ MAKE/DO (решение 25.08.2026). В теме «Make vs Do» (МТ159,
 │   │      Card 421–423) они разобраны по смыслу, но в Словарь оттуда ушли только базовые
 │   │      существительные (decision, sense, trick, couple) — целые конструкции слить туда было
