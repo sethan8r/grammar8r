@@ -39,6 +39,13 @@
       "title": "See him do / doing · Видел, как он…",
       "order": 4,
       "searchKeywords": "saw how he, do или doing после see, слышал как, безличное слышно как, застал за, caught him doing"
+    },
+    {
+      "id": 212,
+      "topicId": 33,
+      "title": "Look for, find, search · Искать и найти",
+      "order": 5,
+      "searchKeywords": "find или look for, не могу найти, find out, search или look for, обыскать, watch for, look out for, пропал"
     }
   ],
   "grammar_cards": [
@@ -2958,6 +2965,799 @@
         "Почему после can hear чаще идёт -ing, а не обычная форма?",
         "Как сказать «видно, что он устал», а не «видно, как»?"
       ]
+    },
+    {
+      "id": 571,
+      "microtopicId": 212,
+      "title": "Look for и find: искал и нашёл",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У русского здесь редкий подарок: пара «искать — найти» ложится на английскую один в один. `look for` — искать, это процесс: вы ходите, заглядываете, перебираете. `find` — найти, это результат: вещь оказалась в руках. Путают их не по смыслу, а по сборке — и об этом вся карточка."
+        },
+        {
+          "type": "heading",
+          "text": "Искать — look for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ось темы работает и здесь. `look at` — смотрю на то, что уже вижу. `look for` — направляю взгляд на то, чего ещё не вижу. Дословно «смотреть за чем-то», по-живому «искать». Предлог `for` здесь тот же, что в `wait for`: вы ждёте или ищете то, чего пока нет рядом."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Look for + что или кого"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm looking for my charger.** — я ищу зарядку",
+            "**Tom is looking for a flat in Lisbon.** — Том ищет квартиру в Лиссабоне",
+            "**Can I help you? — Yes, I'm looking for a winter jacket.** — вам помочь? — да, я ищу зимнюю куртку"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «искать» предлога не просит, и `for` теряется: **I'm looking my keys** ✗ → **I'm looking for my keys** ✓. Без `for` фраза разваливается так же, как **Look me** ✗."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В вопросе `for` держится за глагол и уходит в конец — как у `look at` и `listen to`: **What are you looking for?** · **Who are you looking for?**"
+        },
+        {
+          "type": "heading",
+          "text": "Нашёл — find"
+        },
+        {
+          "type": "paragraph",
+          "text": "`find` — неправильный глагол: **find → found → found**. Искать можно долго, а найти — только в одну секунду:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I looked for my charger everywhere and finally found it in the car.** — я везде искал зарядку и наконец нашёл её в машине",
+            "**We looked for a good café for an hour, but didn't find anything.** — мы час искали хорошее кафе, но ничего не нашли"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это та же пара, что «слушал, но не услышал»: первая половина — ваше усилие, вторая — результат."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Find` длится мгновение, тянуть в нём нечего, поэтому «я ищу» через него не сказать: **Wait, I'm finding my phone** ✗ → **Wait, I'm looking for my phone** ✓. Этот фильтр мы уже встречали в карточке «Глаголы, которые нельзя тянуть»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Не могу найти — can't find"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «не нахожу ключи» тянет **I don't find my keys** ✗. Про вещь, которая никак не находится, английский говорит через `can't`: **I can't find my keys** ✓ — «не могу найти ключи». В прошлом — **I couldn't find the address.** — «я не смог найти адрес». «Нигде» — `anywhere`: **I can't find it anywhere.**"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Когда ищете вещь и спрашиваете домашних, чаще звучит не `find`, а `see`: **Have you seen my keys?** — «ты не видел мои ключи?». Мы разбирали это в карточке «Фильм, матч, телевизор: watch или see»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ищу работу — Continuous"
+        },
+        {
+          "type": "paragraph",
+          "text": "Поиск почти всегда растянут во времени, поэтому живёт в Continuous. «Я ищу работу» — **I'm looking for a job** ✓, а не **I look for a job** ✗: поиск идёт сейчас и когда-нибудь закончится. Так же пишут в вакансиях: **We're looking for a new manager.** — «мы ищем нового менеджера»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Present Simple остаётся за привычкой: **I always look for the cheapest flights.** — «я всегда ищу самые дешёвые билеты». А когда поиск затянулся, звучит перфект: **I've been looking for you all day!** — «я тебя весь день ищу!», **I've looked everywhere!** — «я уже везде посмотрел!»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`look for` — искать, процесс; `find` — найти, результат: **find → found → found**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Схема `look for + что`: **I'm looking for my charger** · **What are you looking for?**",
+            "Искали, но не нашли: **We looked for a good café, but didn't find anything**",
+            "Не нахожу: **I can't find my keys** · **I couldn't find the address**",
+            "Ищу сейчас — **I'm looking for a job**; привычка — **I always look for the cheapest flights**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm looking my keys** ✗ → **I'm looking for my keys** ✓",
+            "**I'm finding my phone** ✗ → **I'm looking for my phone** ✓",
+            "**I don't find my keys** ✗ → **I can't find my keys** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Лена ищет подарок для мамы.",
+          "en": "Lena is looking for a present for her mum."
+        },
+        {
+          "ru": "Я нигде не могу найти очки.",
+          "en": "I can't find my glasses anywhere."
+        },
+        {
+          "ru": "Мы искали кота два часа и нашли его на крыше.",
+          "en": "We looked for the cat for two hours and found it on the roof."
+        },
+        {
+          "ru": "Что ищет Игорь?",
+          "en": "What is Igor looking for?"
+        },
+        {
+          "ru": "Я везде тебя ищу!",
+          "en": "I've been looking for you everywhere!"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I'm finding my keys?",
+        "Почему «не нахожу» — это I can't find, а не I don't find?",
+        "Когда говорят I look for, а когда I'm looking for?"
+      ]
+    },
+    {
+      "id": 572,
+      "microtopicId": 212,
+      "title": "Узнать, а не найти: find out и «ищу, где»",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русское «найти» умеет больше, чем английское `find`. Мы говорим «найди, во сколько отходит поезд» или «я нашёл, где дешевле», хотя в руки ничего не попало — мы добыли сведения. Английский здесь берёт другой глагол."
+        },
+        {
+          "type": "heading",
+          "text": "Вещь — find, сведения — find out"
+        },
+        {
+          "type": "paragraph",
+          "text": "`find` — нашли что-то или кого-то: ключи, кафе, работу, человека. `find out` — выяснили то, чего не знали. Дословно «найти наружу», по-живому «выяснить, узнать». Частица `out` здесь та же, что в русском «**вы**яснить»: правда вышла наружу."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I found a nice café near the station.** — я нашёл хорошее кафе у вокзала: вот оно, можно зайти",
+            "**I found out what time the café opens.** — я выяснил, во сколько открывается кафе: в руках у вас не кафе, а сведения"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Can you find what time the train leaves?** ✗ → **Can you find out what time the train leaves?** ✓. Проверка простая: если русское «найти» можно заменить на «узнать», нужен `find out`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как собрать find out"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Find out + what / where / when / if + порядок утверждения"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После `find out` стоит косвенный вопрос — тот самый, что мы собирали в теме «Косвенные вопросы»: вопросительное слово, а дальше обычный порядок, без `do` и `does`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's find out where they live.** — давай узнаем, где они живут",
+            "**Can you find out if the pharmacy is open on Sunday?** — узнай, пожалуйста, работает ли аптека в воскресенье",
+            "**I found out about the new rules from my neighbour.** — я узнал о новых правилах от соседа"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Последний пример показывает вторую сборку: когда дальше не целая часть, а просто существительное, нужен `about`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вопросительный порядок сюда не переносится: **find out what time does the train leave** ✗ → **find out what time the train leaves** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Узнал — это не knew"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «узнал» — момент, когда знание появилось. `know` — это «знаю», состояние, момента в нём нет. Поэтому **I knew about it yesterday** ✗ звучит как «вчера я про это знал», а вы хотели сказать, что вчера узнали. Момент — это `find out`: **I found out about it yesterday** ✓. Особенно часто он звучит вопросом: **How did you find out?** — «как ты узнал?»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У русского «узнать» есть и другие английские лица. «Узнать в лицо» — `recognize`, мы разбирали его в карточке «See приходит само». «Узнать человека получше» — `get to know`, до него дойдём в теме «Социальное взаимодействие»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ищу, где… — try to find out"
+        },
+        {
+          "type": "paragraph",
+          "text": "После `look for` может стоять только вещь, место или человек. Целую часть с «где», «как», «что» он не берёт: **I'm looking for where I put my passport** ✗. Русское «ищу, где…» по-английски распадается на смыслы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "сведения — **I'm trying to find out where to buy tickets.** — пытаюсь узнать, где купить билеты",
+            "память — **I'm trying to remember where I put my passport.** — пытаюсь вспомнить, куда положил паспорт",
+            "место — **I'm looking for a place to park.** — ищу, где припарковаться, дословно «ищу место, чтобы припарковаться»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда нужно не выяснить у людей, а посмотреть в словаре или в интернете, звучит **Look it up** — эту фразу разберём в разделе «Одно слово — много значений»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вещь или человек — `find`, сведения — `find out`; сам поиск — `look for`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I found a nice café** — нашёл место; **I found out what time it opens** — узнал",
+            "Схема `find out + what / where / if + порядок утверждения`: **Can you find out if the pharmacy is open?**",
+            "С существительным — `about`: **I found out about the new rules**",
+            "«Узнал» как момент — **I found out**, а не **I knew**",
+            "«Ищу, где…» — **I'm trying to find out where…**, **I'm trying to remember where…**, **I'm looking for a place to…**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Искать и найти"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm looking for my keys** · **I can't find my keys** · **find → found → found**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can you find what time the train leaves?** ✗ → **Can you find out what time the train leaves?** ✓",
+            "**I knew about it yesterday** ✗ → **I found out about it yesterday** ✓",
+            "**find out what time does the train leave** ✗ → **find out what time the train leaves** ✓",
+            "**I'm looking my keys** ✗ → **I'm looking for my keys** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Как Вера узнала о свадьбе?",
+          "en": "How did Vera find out about the wedding?"
+        },
+        {
+          "ru": "Узнай, сколько стоят билеты.",
+          "en": "Find out how much the tickets cost."
+        },
+        {
+          "ru": "Мы узнали, что рейс отменили.",
+          "en": "We found out that the flight was cancelled."
+        },
+        {
+          "ru": "Паша пытается вспомнить, где оставил машину.",
+          "en": "Pasha is trying to remember where he left the car."
+        },
+        {
+          "ru": "Я ищу место, где поужинать недалеко от отеля.",
+          "en": "I'm looking for a place to have dinner near the hotel."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, когда нужен find, а когда find out?",
+        "Почему «я узнал об этом вчера» нельзя сказать через knew?",
+        "Как сказать «ищу, где купить билеты»?"
+      ]
+    },
+    {
+      "id": 573,
+      "microtopicId": 212,
+      "title": "Search: искать тщательно и обыскать",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Слово `to search` мы уже встречали как «искать, разыскивать». Но это не просто синоним `look for`: у него другой вес и одна сборка, на которой русский спотыкается всерьёз."
+        },
+        {
+          "type": "heading",
+          "text": "Тщательно и официально"
+        },
+        {
+          "type": "paragraph",
+          "text": "`look for` — обычный бытовой поиск: ключи, кафе, работа. `search` — поиск систематический, по правилам: полиция, спасатели, таможня, компьютер. **The police are searching for the missing girl.** — «полиция разыскивает пропавшую девочку». Дома про потерянные ключи носитель почти всегда скажет `look for`: `search` прозвучит так, будто вы перевернули квартиру вверх дном."
+        },
+        {
+          "type": "heading",
+          "text": "Три сборки search"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Сборка",
+            "Смысл",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "search for + что",
+              "искать",
+              "They searched for the keys."
+            ],
+            [
+              "search + место",
+              "обыскать",
+              "They searched the car."
+            ],
+            [
+              "search + место + for + что",
+              "обыскать в поисках",
+              "They searched the car for the keys."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Search + место + for + что"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Место, которое прочёсывают, стоит сразу после `search`, без предлога. То, что надеются найти, получает `for`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**They searched my bag** значит «мою сумку обыскали», а не «искали мою сумку». Русское «искал ключи» тянет **I searched my keys** ✗ — по-английски вышло «обыскал сами ключи». Верно: **I looked for my keys** ✓ или **I searched for my keys** ✓."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Security searched Oleg at the airport.** — Олега обыскали в аэропорту",
+            "**I searched every pocket for my ticket.** — я обыскал все карманы в поисках билета"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Поиск в интернете"
+        },
+        {
+          "type": "paragraph",
+          "text": "В интернете ищут через `search`: **I searched online for a cheap hotel.** — «я искал в интернете дешёвый отель». В разговоре ещё проще — глагол `google`: **Just google it!** — «просто загугли!». Предлог ему не нужен: **I googled the address** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Пропал — missing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Кого разыскивают, тот `missing` — «пропавший, которого нет на месте»: **a missing person** — пропавший человек, **the missing piece** — недостающий кусочек. Про вещь, которая исчезла, говорят так же: **My passport is missing!** — «паспорт пропал!»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «пропал» тянет глагол `miss`, а он значит «скучать» или «пропустить»: **My passport misses** ✗ — бессмыслица, **I miss my passport** — «я скучаю по паспорту». Верно: **My passport is missing** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А «потерялся» — это уже `lost`. Вещь: **I've lost my passport.** — «я потерял паспорт». Человек: **The kids got lost in the park.** — «дети потерялись в парке», через `get` из микротемы «Get = становиться»."
+        },
+        {
+          "type": "heading",
+          "text": "Ещё два «искать»: seek и hunt for"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Где звучит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "look for",
+              "быт, любая ситуация",
+              "I'm looking for my phone."
+            ],
+            [
+              "search",
+              "тщательно, официально, интернет",
+              "The police searched the house."
+            ],
+            [
+              "seek",
+              "книжно, в инструкциях",
+              "Seek medical advice."
+            ],
+            [
+              "hunt for",
+              "разговорно, с азартом",
+              "We're hunting for a flat."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`seek` в живой речи почти не звучит: вы встретите его в инструкциях и новостях — **seek help**, **seek advice**, «обратиться за помощью, за советом» — и в названии игры **hide-and-seek** — «прятки». `hunt for` — поиск упорный, с азартом: **flat hunting** — «охота за квартирой», **bargain hunting** — «охота за скидками»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Search me!** — дословно «обыщи меня», по-живому «понятия не имею!». Мол, обыщи — ответа у меня всё равно нет."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`search` — искать тщательно; `search + место` — обыскать."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**search for the keys** — искать; **search the car** — обыскать; **search the car for the keys** — обыскать в поисках",
+            "В быту — **look for**; в интернете — **search online** или **google it**",
+            "Пропал — **My passport is missing**; потерял — **I've lost my passport**",
+            "**seek** — книжное; **hunt for** — разговорное «охотиться»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I searched my keys** ✗ → **I searched for my keys** ✓",
+            "**My passport misses** ✗ → **My passport is missing** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Спасатели ищут пропавших туристов.",
+          "en": "Rescuers are searching for the missing tourists."
+        },
+        {
+          "ru": "Таможенники обыскали мой чемодан.",
+          "en": "Customs officers searched my suitcase."
+        },
+        {
+          "ru": "Я обыскал всю кухню в поисках ножниц.",
+          "en": "I searched the whole kitchen for the scissors."
+        },
+        {
+          "ru": "Телефон Юли пропал.",
+          "en": "Yulia's phone is missing."
+        },
+        {
+          "ru": "Мы с Денисом неделю охотимся за квартирой.",
+          "en": "Denis and I have been hunting for a flat for a week."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем They searched the car отличается от They searched for the car?",
+        "Почему нельзя сказать My passport misses?",
+        "Когда вместо look for уместно search?"
+      ]
+    },
+    {
+      "id": 574,
+      "microtopicId": 212,
+      "title": "Watch for и listen for: жду, что появится",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Бывает «искать», при котором вы никуда не идёте и ничего не перебираете. Вы стоите у окна и смотрите, не подъедет ли такси. Вы на остановке и ждёте, когда из-за поворота покажется автобус. Это не поиск, а ожидание с открытыми глазами — и у английского на него свой глагол."
+        },
+        {
+          "type": "heading",
+          "text": "Look for или watch for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Снова ось темы. `look` — вы сами пошли искать то, что где-то лежит и само не покажется. `watch` — держите взгляд на том, что вот-вот произойдёт. Отсюда два «искать»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm looking for my keys.** — ключи где-то лежат, я их ищу",
+            "**I'm watching for the taxi.** — такси вот-вот появится, я смотрю, не едет ли"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Watch for + то, что должно появиться"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дословно `watch for` — «следить за», по-живому «смотреть, не появится ли». Чаще всего он звучит просьбой или предупреждением:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Watch for the bus and tell me when it comes.** — смотри, не идёт ли автобус, и скажи мне",
+            "**Watch for cars when you cross the road.** — смотри, не едут ли машины, когда переходишь дорогу",
+            "**Watch for a small blue door on the left.** — высматривай маленькую синюю дверь слева"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ключи никуда не появятся сами, их можно только искать: **Watch for my keys** ✗ → **Look for my keys** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Listen for — ждать звука"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слух устроен так же. `listen for` — держать уши наготове и ждать звука: **Listen for the doorbell, I'm expecting a parcel.** — «прислушивайся, не позвонят ли в дверь, я жду посылку». Британцы часто добавляют `out`: **Listen out for the baby.** — «прислушивайся к малышу, вдруг проснётся»."
+        },
+        {
+          "type": "heading",
+          "text": "Look out for — высматривать и остерегаться"
+        },
+        {
+          "type": "paragraph",
+          "text": "В британском английском вместо `watch for` часто звучит `look out for`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Look out for Ben at the station, he's wearing a red jacket.** — высматривай Бена на вокзале, он в красной куртке",
+            "**Look out for my email tomorrow.** — завтра жди моего письма, проверяй почту",
+            "**Look out for pickpockets in the metro.** — остерегайтесь карманников в метро"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "У `look out for` есть и тёплое значение — присматривать за кем-то, чтобы с ним ничего не случилось: **We always look out for each other.** — дословно «мы всегда присматриваем друг за другом», по-живому «мы всегда друг за друга горой»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Короткие **Watch out!** и **Look out!** без `for` значат «осторожно!» — эти команды разберём в теме «Фразы из жизни»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Всё «искать» одной таблицей"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что делаете",
+            "Глагол",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "ищу то, что где-то лежит",
+              "look for",
+              "I'm looking for my wallet."
+            ],
+            [
+              "нашёл",
+              "find",
+              "I found it!"
+            ],
+            [
+              "узнал сведения",
+              "find out",
+              "I found out the price."
+            ],
+            [
+              "обыскал, ищу тщательно",
+              "search",
+              "They searched the room."
+            ],
+            [
+              "жду, что появится",
+              "watch for, look out for",
+              "Watch for the taxi."
+            ],
+            [
+              "жду звука",
+              "listen for",
+              "Listen for the phone."
+            ]
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Ищете то, что где-то лежит, — `look for`; ждёте, что появится само, — `watch for` или `look out for`."
+        },
+        {
+          "type": "heading",
+          "text": "Всё «искать»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ищу — **look for**: **I'm looking for my keys** · **What are you looking for?**",
+            "Нашёл — **find**: **I can't find my keys**",
+            "Узнал сведения — **find out**: **Can you find out if the pharmacy is open?** · **I found out about it yesterday**",
+            "Обыскал — `search + место + for + что`: **They searched the car for the keys**",
+            "Пропал — **My passport is missing**",
+            "Жду, что появится — **Watch for cars when you cross** · **Look out for Ben at the station**",
+            "Жду звука — **Listen for the doorbell**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm looking my keys** ✗ → **I'm looking for my keys** ✓",
+            "**Can you find what time the train leaves?** ✗ → **Can you find out what time the train leaves?** ✓",
+            "**I searched my keys** ✗ → **I searched for my keys** ✓",
+            "**Watch for my keys** ✗ → **Look for my keys** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Посмотри, не идёт ли трамвай.",
+          "en": "Watch for the tram."
+        },
+        {
+          "ru": "Высматривай Катю у выхода.",
+          "en": "Look out for Katya at the exit."
+        },
+        {
+          "ru": "Прислушивайся, не звонит ли телефон.",
+          "en": "Listen for the phone."
+        },
+        {
+          "ru": "Остерегайтесь скользких ступенек.",
+          "en": "Look out for slippery steps."
+        },
+        {
+          "ru": "Мы с братом всегда присматриваем друг за другом.",
+          "en": "My brother and I always look out for each other."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем watch for отличается от look for?",
+        "Когда говорят look out for, а когда просто Look out!?",
+        "Что значит We look out for each other?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3260,6 +4060,84 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 190,
       "orderInCard": 2
+    },
+    {
+      "cardId": 571,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 216,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 571,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 213,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 571,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 239,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 571,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 191,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 572,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 92,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 572,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 203,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 572,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 107,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 573,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 74,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 573,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 125,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 573,
+      "exerciseType": "MATCHING",
+      "exerciseId": 92,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 574,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 217,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 574,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 109,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 574,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 84,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -3308,6 +4186,22 @@
       "cardId": 570,
       "title": "Слышно, видно, пахнет",
       "userInstruction": "Вы получите русскую фразу, где не сказано, кто видит или слышит: «слышно, как…», «видно, как…», «было слышно, как…». Напишите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card572_ex1",
+      "cardId": 572,
+      "title": "Ищу, нашёл, узнал",
+      "userInstruction": "Вы получите русскую фразу со словами «искать», «найти» или «узнать». Напишите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card574_ex1",
+      "cardId": 574,
+      "title": "Ищу, нашёл, узнал, жду",
+      "userInstruction": "Вы получите русскую фразу про поиски: искать, найти, узнать, обыскать, пропасть или высматривать. Напишите её по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -3431,6 +4325,30 @@
       "translation": "заметить, углядеть",
       "transcription": "[spɒt]",
       "microtopicId": 211,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 801,
+      "word": "everywhere",
+      "translation": "везде, повсюду",
+      "transcription": "[ˈevriweə]",
+      "microtopicId": 212,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 802,
+      "word": "missing",
+      "translation": "пропавший, недостающий",
+      "transcription": "[ˈmɪsɪŋ]",
+      "microtopicId": 212,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 803,
+      "word": "to search",
+      "translation": "обыскивать",
+      "transcription": "[sɜːtʃ]",
+      "microtopicId": 212,
       "categoryId": "useful_words"
     }
   ],
@@ -3559,6 +4477,37 @@
         }
       ],
       "explanation": "после глаголов восприятия to не ставится: We heard the kids shout. Того, кого видят, называют объектной формой: Did you notice her take my umbrella? Время уже сказано в watched, второй глагол остаётся в первой форме: Lucy watched her dad fix the bike."
+    },
+    {
+      "id": 213,
+      "statements": [
+        {
+          "en": "I can't find the remote.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Sorry, I don't find your email.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Who are you looking for?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Sonya is looking a new flat.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I'm finding my phone, wait a second.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "«не нахожу» по-английски — can't find: I can't find your email. У look for обязателен for: Sonya is looking for a new flat. А «я ищу» через find не сказать, найти можно только в одну секунду: I'm looking for my phone."
     }
   ],
   "word_arrangement_exercises": [
@@ -3641,6 +4590,27 @@
         "to"
       ],
       "explanation": "безличное «было слышно» получает подлежащее we и could — это прошлое. Дальше кто + -ing: someone walking. How и to в этой конструкции не нужны, can сказало бы про сейчас, а walks поставил бы время во второй глагол."
+    },
+    {
+      "id": 191,
+      "situationRu": "RU: Я везде искал паспорт, но так и не нашёл.",
+      "correctSentence": "I looked for my passport everywhere but never found it.",
+      "words": [
+        "I",
+        "looked for",
+        "my passport",
+        "everywhere",
+        "but",
+        "never",
+        "found",
+        "it"
+      ],
+      "distractors": [
+        "looked",
+        "finded",
+        "searched"
+      ],
+      "explanation": "искал — looked for, без for смысл теряется. Нашёл — found: find неправильный, finded не бывает. Searched my passport значило бы «обыскал сам паспорт»."
     }
   ],
   "multiple_choice_exercises": [
@@ -3937,6 +4907,90 @@
         }
       ],
       "explanation": "climbing — вы застали Сэма в процессе, конец не видели: «перелезал». Весь путь от начала до конца был бы I saw Sam climb over the fence, а «видел, что…» — замеченный факт через that."
+    },
+    {
+      "id": 216,
+      "choiceType": "CHOICE",
+      "prompt": "Dad ___ his glasses for ten minutes, and they were on his head all that time.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "looked for",
+          "isCorrect": true
+        },
+        {
+          "text": "found",
+          "isCorrect": false
+        },
+        {
+          "text": "looked",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "десять минут папа искал очки — это процесс, looked for. Found — момент находки, растянуть его на десять минут нельзя. Без for глагол look не берёт то, что ищут."
+    },
+    {
+      "id": 239,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Наша компания ищет нового дизайнера.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Our company looks a new designer.",
+          "isCorrect": false
+        },
+        {
+          "text": "Our company finds a new designer.",
+          "isCorrect": false
+        },
+        {
+          "text": "Our company is looking for a new designer.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "поиск идёт сейчас и когда-нибудь закончится — это Continuous, а у look обязателен for. Finds значило бы «находит», а не «ищет»."
+    },
+    {
+      "id": 92,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "How did your parents find out about the tattoo?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Как твои родители нашли татуировку?",
+          "isCorrect": false
+        },
+        {
+          "text": "Как твои родители узнали о татуировке?",
+          "isCorrect": true
+        },
+        {
+          "text": "Как твои родители узнают о татуировке?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "find out — не «найти» вещь, а узнать сведения, а did показывает прошлое: «как узнали». Нашли было бы found, а «узнают» — will find out."
+    },
+    {
+      "id": 217,
+      "choiceType": "CHOICE",
+      "prompt": "Stand by the window and ___ for the delivery van, please.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "find",
+          "isCorrect": false
+        },
+        {
+          "text": "watch",
+          "isCorrect": true
+        },
+        {
+          "text": "search",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "фургон с доставкой вот-вот подъедет сам, его не ищут, а ждут, держа взгляд наготове, — watch for. Find for не бывает, а search for значило бы тщательно разыскивать."
     }
   ],
   "text_input_exercises": [
@@ -4054,6 +5108,36 @@
         "брал",
         "разбилась"
       ]
+    },
+    {
+      "id": 107,
+      "items": [
+        {
+          "sentence": "Ira ___ that the concert was moved to Friday only this morning.",
+          "contextRu": "",
+          "answer": "found out",
+          "alternatives": []
+        },
+        {
+          "sentence": "Grisha ___ his wallet under the car seat.",
+          "contextRu": "",
+          "answer": "found",
+          "alternatives": []
+        },
+        {
+          "sentence": "Kolya is still ___ a job in Berlin.",
+          "contextRu": "",
+          "answer": "looking for",
+          "alternatives": []
+        }
+      ],
+      "explanation": "что концерт перенесли — это сведения, их узнают: found out. Кошелёк — вещь, её находят: found. Поиск работы идёт до сих пор — is looking for, и без for здесь не обойтись.",
+      "taskDescription": "Впиши глагол из банка в подходящее предложение в нужной форме.",
+      "wordBank": [
+        "нашёл",
+        "ищет",
+        "узнала"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -4140,6 +5224,34 @@
         }
       ],
       "explanation": "отрицание ставится у глагола восприятия: didn't hear, и после did глагол в первой форме. Хвост «кого + действие» не меняется — him go out, без to."
+    },
+    {
+      "id": 84,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'll meet you outside the cinema. How will I find you?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Find out for a tall guy in a green hat.",
+          "isCorrect": false
+        },
+        {
+          "text": "Search a tall guy in a green hat.",
+          "isCorrect": false
+        },
+        {
+          "text": "Look out for a tall guy in a green hat.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "человек сам появится у кинотеатра, его нужно высматривать — look out for. Find out — выяснить сведения, а search без for значило бы «обыщи высокого парня»."
     }
   ],
   "matching_exercises": [
@@ -4238,6 +5350,33 @@
         }
       ],
       "explanation": "«слышно, как…» — you can hear + кого + -ing, в прошлом could. «Не слышно» — can't. «Видно, что…» — уже не действие, а вывод по виду, поэтому после see идёт целая часть he's lying."
+    },
+    {
+      "id": 92,
+      "taskDescription": "соедини слово с ситуацией, где оно звучит естественно.",
+      "pairs": [
+        {
+          "left": "look for",
+          "right": "Ищу пульт от телевизора"
+        },
+        {
+          "left": "search",
+          "right": "Полиция прочёсывает лес"
+        },
+        {
+          "left": "seek",
+          "right": "Инструкция: обратиться к врачу"
+        },
+        {
+          "left": "hunt for",
+          "right": "Охочусь за скидками"
+        },
+        {
+          "left": "missing",
+          "right": "Пропавшая собака"
+        }
+      ],
+      "explanation": "look for — обычный бытовой поиск. Search — тщательный, по правилам, как у полиции. Seek — книжное слово из инструкций. Hunt for — упорный поиск с азартом. Missing — то, что пропало и чего нет на месте."
     }
   ],
   "error_correction_exercises": [
@@ -4335,6 +5474,25 @@
         }
       ],
       "explanation": "русское «слышно, как бьются волны» по-английски собирается без how: you can hear + что + -ing. To после hear не бывает, а без подлежащего you фраза разваливается."
+    },
+    {
+      "id": 203,
+      "wrongSentence": "Can you find what time the museum opens on Monday?",
+      "options": [
+        {
+          "text": "Can you find out what time the museum opens on Monday?",
+          "isCorrect": true
+        },
+        {
+          "text": "Can you find out what time does the museum open on Monday?",
+          "isCorrect": false
+        },
+        {
+          "text": "Can you know what time the museum opens on Monday?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "время работы музея — это сведения, а не вещь, поэтому find out. После него порядок как в утверждении, без does. Know — «знать», а не «узнать»."
     }
   ],
   "construction_meaning_exercises": [
@@ -4406,6 +5564,29 @@
         }
       ],
       "explanation": "heard that + целая часть — до вас дошла новость, факт. «Слышал, как Том ушёл» — это звук его ухода, и собирается он без that: I heard Tom leave."
+    },
+    {
+      "id": 74,
+      "construction": "The police searched Mark's car.",
+      "options": [
+        {
+          "text": "Полиция искала машину Марка.",
+          "isCorrect": false
+        },
+        {
+          "text": "Марк искал полицейскую машину.",
+          "isCorrect": false
+        },
+        {
+          "text": "Полиция нашла машину Марка.",
+          "isCorrect": false
+        },
+        {
+          "text": "Полиция обыскала машину Марка.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после searched сразу стоит Mark's car, без for, — значит, машину обыскали. «Искали машину» было бы searched for Mark's car, а «нашли» — found."
     }
   ],
   "transformation_exercises": [
@@ -4555,6 +5736,29 @@
         }
       ],
       "explanation": "V1 — действие целиком: танец до конца, гол, один хлопок. -ing — кусок процесса или повтор: мельком увидел бег, застал за готовкой, хлопал снова и снова."
+    },
+    {
+      "id": 125,
+      "taskDescription": "распредели ситуации по тому, как о них скажут через search.",
+      "categories": [
+        {
+          "title": "search for",
+          "items": [
+            "Ищем пропавшую кошку",
+            "Ищу отель в Риме",
+            "Разыскивают свидетеля"
+          ]
+        },
+        {
+          "title": "search без for",
+          "items": [
+            "Обыскали квартиру",
+            "Проверили его карманы",
+            "Досмотрели машину на границе"
+          ]
+        }
+      ],
+      "explanation": "то, что надеются найти, получает for: кошку, отель, свидетеля. Место или человек, которых прочёсывают и обыскивают, стоят сразу после search: квартиру, карманы, машину."
     }
   ],
   "find_the_odd_exercises": [
@@ -4626,6 +5830,29 @@
         }
       ],
       "explanation": "hear и see случаются сами, а overhear — услышать случайно, тоже без вашего участия. Eavesdrop — подслушивать нарочно: вы сами навострили уши."
+    },
+    {
+      "id": 109,
+      "groupDescription": "Три фразы — про то, что должно появиться само, одна — про поиск того, что где-то лежит",
+      "items": [
+        {
+          "text": "watch for the postman",
+          "isOdd": false
+        },
+        {
+          "text": "listen for the kettle",
+          "isOdd": false
+        },
+        {
+          "text": "look for my charger",
+          "isOdd": true
+        },
+        {
+          "text": "look out for Kate",
+          "isOdd": false
+        }
+      ],
+      "explanation": "почтальон, свисток чайника и Кейт появятся сами, их ждут: watch for, listen for, look out for. Зарядка никуда не придёт, она где-то лежит, и её ищут — look for."
     }
   ]
 }

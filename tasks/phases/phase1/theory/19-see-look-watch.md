@@ -2239,26 +2239,611 @@ B: ___
 
 ---
 
+## Microtopic 212 — Look for, find, search · Искать и найти
+
+**ID:** 212 | **Order:** 5
+**Теги:** find или look for, не могу найти, find out, search или look for, обыскать, watch for, look out for, пропал
+
+---
+
+### Card 571 · Look for и find: искал и нашёл
+
+**ID:** 571 | **Order:** 1
+
+#### Theory
+
+У русского здесь редкий подарок: пара «искать — найти» ложится на английскую один в один. `look for` — искать, это процесс: вы ходите, заглядываете, перебираете. `find` — найти, это результат: вещь оказалась в руках. Путают их не по смыслу, а по сборке — и об этом вся карточка.
+
+**Искать — look for**
+
+Ось темы работает и здесь. `look at` — смотрю на то, что уже вижу. `look for` — направляю взгляд на то, чего ещё не вижу. Дословно «смотреть за чем-то», по-живому «искать». Предлог `for` здесь тот же, что в `wait for`: вы ждёте или ищете то, чего пока нет рядом.
+
+**Формула:** look for + что или кого
+
+- **I'm looking for my charger.** — я ищу зарядку
+- **Tom is looking for a flat in Lisbon.** — Том ищет квартиру в Лиссабоне
+- **Can I help you? — Yes, I'm looking for a winter jacket.** — вам помочь? — да, я ищу зимнюю куртку
+
+**Ловушка:** русское «искать» предлога не просит, и `for` теряется: **I'm looking my keys** ✗ → **I'm looking for my keys** ✓. Без `for` фраза разваливается так же, как **Look me** ✗.
+
+В вопросе `for` держится за глагол и уходит в конец — как у `look at` и `listen to`: **What are you looking for?** · **Who are you looking for?**
+
+**Нашёл — find**
+
+`find` — неправильный глагол: **find → found → found**. Искать можно долго, а найти — только в одну секунду:
+
+- **I looked for my charger everywhere and finally found it in the car.** — я везде искал зарядку и наконец нашёл её в машине
+- **We looked for a good café for an hour, but didn't find anything.** — мы час искали хорошее кафе, но ничего не нашли
+
+Это та же пара, что «слушал, но не услышал»: первая половина — ваше усилие, вторая — результат.
+
+**Ловушка:** `find` длится мгновение, тянуть в нём нечего, поэтому «я ищу» через него не сказать: **Wait, I'm finding my phone** ✗ → **Wait, I'm looking for my phone** ✓. Этот фильтр мы уже встречали в карточке «Глаголы, которые нельзя тянуть».
+
+**Не могу найти — can't find**
+
+Русское «не нахожу ключи» тянет **I don't find my keys** ✗. Про вещь, которая никак не находится, английский говорит через `can't`: **I can't find my keys** ✓ — «не могу найти ключи». В прошлом — **I couldn't find the address.** — «я не смог найти адрес». «Нигде» — `anywhere`: **I can't find it anywhere.**
+
+**Кстати:** когда ищете вещь и спрашиваете домашних, чаще звучит не `find`, а `see`: **Have you seen my keys?** — «ты не видел мои ключи?». Мы разбирали это в карточке «Фильм, матч, телевизор: watch или see».
+
+**Ищу работу — Continuous**
+
+Поиск почти всегда растянут во времени, поэтому живёт в Continuous. «Я ищу работу» — **I'm looking for a job** ✓, а не **I look for a job** ✗: поиск идёт сейчас и когда-нибудь закончится. Так же пишут в вакансиях: **We're looking for a new manager.** — «мы ищем нового менеджера».
+
+Present Simple остаётся за привычкой: **I always look for the cheapest flights.** — «я всегда ищу самые дешёвые билеты». А когда поиск затянулся, звучит перфект: **I've been looking for you all day!** — «я тебя весь день ищу!», **I've looked everywhere!** — «я уже везде посмотрел!».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`look for` — искать, процесс; `find` — найти, результат: **find → found → found**.
+
+- Схема `look for + что`: **I'm looking for my charger** · **What are you looking for?**
+- Искали, но не нашли: **We looked for a good café, but didn't find anything**
+- Не нахожу: **I can't find my keys** · **I couldn't find the address**
+- Ищу сейчас — **I'm looking for a job**; привычка — **I always look for the cheapest flights**
+
+**Частые ошибки**
+
+- **I'm looking my keys** ✗ → **I'm looking for my keys** ✓
+- **I'm finding my phone** ✗ → **I'm looking for my phone** ✓
+- **I don't find my keys** ✗ → **I can't find my keys** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2586 | Лена ищет подарок для мамы. | Lena is looking for a present for her mum. |
+| 2587 | Я нигде не могу найти очки. | I can't find my glasses anywhere. |
+| 2588 | Мы искали кота два часа и нашли его на крыше. | We looked for the cat for two hours and found it on the roof. |
+| 2589 | Что ищет Игорь? | What is Igor looking for? |
+| 2590 | Я везде тебя ищу! | I've been looking for you everywhere! |
+
+---
+
+#### Exercises
+
+**Ex 51 · MultipleChoice · CHOICE** *(ID: 216)*
+
+"Dad ___ his glasses for ten minutes, and they were on his head all that time."
+
+- **looked for** ✓
+- found
+- looked
+
+*Explanation:* десять минут папа искал очки — это процесс, looked for. Found — момент находки, растянуть его на десять минут нельзя. Без for глагол look не берёт то, что ищут.
+
+---
+
+**Ex 52 · TrueFalse** *(ID: 213)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I can't find the remote. | ✓ |
+| 2 | Sorry, I don't find your email. | ✗ |
+| 3 | Who are you looking for? | ✓ |
+| 4 | Sonya is looking a new flat. | ✗ |
+| 5 | I'm finding my phone, wait a second. | ✗ |
+
+*Explanation:* «не нахожу» по-английски — can't find: I can't find your email. У look for обязателен for: Sonya is looking for a new flat. А «я ищу» через find не сказать, найти можно только в одну секунду: I'm looking for my phone.
+
+---
+
+**Ex 53 · MultipleChoice · FORWARD_CHOICE** *(ID: 239)*
+
+"Наша компания ищет нового дизайнера."
+
+- Our company looks a new designer.
+- Our company finds a new designer.
+- **Our company is looking for a new designer.** ✓
+
+*Explanation:* поиск идёт сейчас и когда-нибудь закончится — это Continuous, а у look обязателен for. Finds значило бы «находит», а не «ищет».
+
+---
+
+**Ex 54 · WordArrangement** *(ID: 191)*
+
+RU: Я везде искал паспорт, но так и не нашёл.
+
+Правильное предложение: **I looked for my passport everywhere but never found it.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| I | — |
+| looked for | — |
+| my passport | — |
+| everywhere | — |
+| but | — |
+| never | — |
+| found | — |
+| it | — |
+| looked | ✗ |
+| finded | ✗ |
+| searched | ✗ |
+
+*Explanation:* искал — looked for, без for смысл теряется. Нашёл — found: find неправильный, finded не бывает. Searched my passport значило бы «обыскал сам паспорт».
+
+---
+
+#### Clarification Options
+
+- Почему нельзя сказать I'm finding my keys?
+- Почему «не нахожу» — это I can't find, а не I don't find?
+- Когда говорят I look for, а когда I'm looking for?
+
+---
+
+### Card 572 · Узнать, а не найти: find out и «ищу, где»
+
+**ID:** 572 | **Order:** 2
+
+#### Theory
+
+Русское «найти» умеет больше, чем английское `find`. Мы говорим «найди, во сколько отходит поезд» или «я нашёл, где дешевле», хотя в руки ничего не попало — мы добыли сведения. Английский здесь берёт другой глагол.
+
+**Вещь — find, сведения — find out**
+
+`find` — нашли что-то или кого-то: ключи, кафе, работу, человека. `find out` — выяснили то, чего не знали. Дословно «найти наружу», по-живому «выяснить, узнать». Частица `out` здесь та же, что в русском «**вы**яснить»: правда вышла наружу.
+
+- **I found a nice café near the station.** — я нашёл хорошее кафе у вокзала: вот оно, можно зайти
+- **I found out what time the café opens.** — я выяснил, во сколько открывается кафе: в руках у вас не кафе, а сведения
+
+**Ловушка:** **Can you find what time the train leaves?** ✗ → **Can you find out what time the train leaves?** ✓. Проверка простая: если русское «найти» можно заменить на «узнать», нужен `find out`.
+
+**Как собрать find out**
+
+**Формула:** find out + what / where / when / if + порядок утверждения
+
+После `find out` стоит косвенный вопрос — тот самый, что мы собирали в теме «Косвенные вопросы»: вопросительное слово, а дальше обычный порядок, без `do` и `does`.
+
+- **Let's find out where they live.** — давай узнаем, где они живут
+- **Can you find out if the pharmacy is open on Sunday?** — узнай, пожалуйста, работает ли аптека в воскресенье
+- **I found out about the new rules from my neighbour.** — я узнал о новых правилах от соседа
+
+Последний пример показывает вторую сборку: когда дальше не целая часть, а просто существительное, нужен `about`.
+
+**Ловушка:** вопросительный порядок сюда не переносится: **find out what time does the train leave** ✗ → **find out what time the train leaves** ✓.
+
+**Узнал — это не knew**
+
+Русское «узнал» — момент, когда знание появилось. `know` — это «знаю», состояние, момента в нём нет. Поэтому **I knew about it yesterday** ✗ звучит как «вчера я про это знал», а вы хотели сказать, что вчера узнали. Момент — это `find out`: **I found out about it yesterday** ✓. Особенно часто он звучит вопросом: **How did you find out?** — «как ты узнал?».
+
+**Кстати:** у русского «узнать» есть и другие английские лица. «Узнать в лицо» — `recognize`, мы разбирали его в карточке «See приходит само». «Узнать человека получше» — `get to know`, до него дойдём в теме «Социальное взаимодействие».
+
+**Ищу, где… — try to find out**
+
+После `look for` может стоять только вещь, место или человек. Целую часть с «где», «как», «что» он не берёт: **I'm looking for where I put my passport** ✗. Русское «ищу, где…» по-английски распадается на смыслы:
+
+- сведения — **I'm trying to find out where to buy tickets.** — пытаюсь узнать, где купить билеты
+- память — **I'm trying to remember where I put my passport.** — пытаюсь вспомнить, куда положил паспорт
+- место — **I'm looking for a place to park.** — ищу, где припарковаться, дословно «ищу место, чтобы припарковаться»
+
+Когда нужно не выяснить у людей, а посмотреть в словаре или в интернете, звучит **Look it up** — эту фразу разберём в разделе «Одно слово — много значений».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Вещь или человек — `find`, сведения — `find out`; сам поиск — `look for`.
+
+- **I found a nice café** — нашёл место; **I found out what time it opens** — узнал
+- Схема `find out + what / where / if + порядок утверждения`: **Can you find out if the pharmacy is open?**
+- С существительным — `about`: **I found out about the new rules**
+- «Узнал» как момент — **I found out**, а не **I knew**
+- «Ищу, где…» — **I'm trying to find out where…**, **I'm trying to remember where…**, **I'm looking for a place to…**
+
+**Искать и найти**
+
+- **I'm looking for my keys** · **I can't find my keys** · **find → found → found**
+
+**Частые ошибки**
+
+- **Can you find what time the train leaves?** ✗ → **Can you find out what time the train leaves?** ✓
+- **I knew about it yesterday** ✗ → **I found out about it yesterday** ✓
+- **find out what time does the train leave** ✗ → **find out what time the train leaves** ✓
+- **I'm looking my keys** ✗ → **I'm looking for my keys** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2591 | Как Вера узнала о свадьбе? | How did Vera find out about the wedding? |
+| 2592 | Узнай, сколько стоят билеты. | Find out how much the tickets cost. |
+| 2593 | Мы узнали, что рейс отменили. | We found out that the flight was cancelled. |
+| 2594 | Паша пытается вспомнить, где оставил машину. | Pasha is trying to remember where he left the car. |
+| 2595 | Я ищу место, где поужинать недалеко от отеля. | I'm looking for a place to have dinner near the hotel. |
+
+---
+
+#### Exercises
+
+**Ex 55 · MultipleChoice · REVERSE_CHOICE** *(ID: 92)*
+
+"How did your parents find out about the tattoo?"
+
+- Как твои родители нашли татуировку?
+- **Как твои родители узнали о татуировке?** ✓
+- Как твои родители узнают о татуировке?
+
+*Explanation:* find out — не «найти» вещь, а узнать сведения, а did показывает прошлое: «как узнали». Нашли было бы found, а «узнают» — will find out.
+
+---
+
+**Ex 56 · ErrorCorrection** *(ID: 203)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Can you find what time the museum opens on Monday?"
+
+- **Can you find out what time the museum opens on Monday?** ✓
+- Can you find out what time does the museum open on Monday?
+- Can you know what time the museum opens on Monday?
+
+*Explanation:* время работы музея — это сведения, а не вещь, поэтому find out. После него порядок как в утверждении, без does. Know — «знать», а не «узнать».
+
+---
+
+**Ex 57 · TextInput** *(ID: 107)*
+
+Впиши глагол из банка в подходящее предложение в нужной форме.
+Банк: нашёл, ищет, узнала
+
+1. "Ira ___ that the concert was moved to Friday only this morning."
+   Ответ: **found out**
+2. "Grisha ___ his wallet under the car seat."
+   Ответ: **found**
+3. "Kolya is still ___ a job in Berlin."
+   Ответ: **looking for**
+
+*Explanation:* что концерт перенесли — это сведения, их узнают: found out. Кошелёк — вещь, её находят: found. Поиск работы идёт до сих пор — is looking for, и без for здесь не обойтись.
+
+---
+
+#### AI Exercise
+
+**ID:** see_look_watch_card572_ex1
+**Title:** "Ищу, нашёл, узнал"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Вы получите русскую фразу со словами «искать», «найти» или «узнать». Напишите её по-английски."
+**Prompt Template:** "Контекст: пользователь только что прошёл две карточки о look for, find и find out. Он знает: 1) look for — искать, процесс; find — найти, результат, формы find – found – found; We looked for a good café for an hour, but didn't find anything; 2) у look for обязателен for: I'm looking my keys — ошибка; в вопросе for уходит в конец: What are you looking for?; 3) «я ищу» через find не сказать: I'm finding my phone — ошибка; 4) «не нахожу» — I can't find my keys, в прошлом I couldn't find the address, «нигде» — anywhere; I don't find my keys — ошибка; рядом Have you seen my keys?; 5) поиск, который идёт сейчас, — Continuous: I'm looking for a job, We're looking for a new manager; привычка — I always look for the cheapest flights; затянувшийся поиск — I've been looking for you all day!, I've looked everywhere!; 6) find — вещь, место, человек; find out — сведения: I found a nice café ↔ I found out what time the café opens; Can you find what time the train leaves? — ошибка; 7) после find out — косвенный вопрос с порядком утверждения: Let's find out where they live, Can you find out if the pharmacy is open on Sunday?; find out what time does the train leave — ошибка; с существительным — find out about the new rules; 8) «узнал» как момент — found out: I knew about it yesterday — ошибка, How did you find out?; 9) «ищу, где…» look for не берёт: I'm looking for where I put my passport — ошибка; сведения — I'm trying to find out where to buy tickets, память — I'm trying to remember where I put my passport, место — I'm looking for a place to park. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения и unless, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look, watch, hear и listen, конструкция «видел, как он что-то делает». ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после глагола, возвратные местоимения, search в значении «обыскать», watch for и look out for, look up в значении «посмотреть в словаре» — таких форм и значений в заданиях не используй и за их отсутствие не ругай. ЗАДАНИЕ: дай пользователю ОДНУ русскую фразу со словами «искать», «найти», «не могу найти», «узнать», «выяснить» или «ищу, где…» и попроси сказать её по-английски. ДЕРЖИ ФРАЗУ ПРОСТОЙ: до девяти слов, одно подлежащее, одно действие, без перечислений, в дебри не уходи. В условии НЕ подсказывай нужный глагол. Время — чаще Present Continuous, Past Simple и can't или couldn't, иногда Present Perfect и просьба («узнай…»). Бери знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе глагола и сборке, а не в незнакомой лексике; если подходящих слов нет, бери простую бытовую лексику. ЧЕРЕДУЙ ПОВОД от запуска к запуску, не повторяя один и тот же два раза подряд: 1. ИЩУ СЕЙЧАС: «Лена ищет подарок для брата». 2. НАШЁЛ: «я нашёл кошелёк под диваном». 3. ИСКАЛ, НО НЕ НАШЁЛ: «мы искали парковку, но не нашли». 4. НЕ МОГУ НАЙТИ: «я нигде не могу найти зарядку». 5. ВОПРОС: «кого вы ищете?», «что ищет Паша?». 6. УЗНАЙ СВЕДЕНИЯ: «узнай, во сколько закрывается банк», «выясни, работает ли музей в понедельник». 7. УЗНАЛ КАК МОМЕНТ: «как ты узнал о свадьбе?», «я вчера узнал, что Оля уезжает». 8. ИЩУ, ГДЕ: «ищу, где припарковаться», «пытаюсь вспомнить, куда положил ключи». Поводы 6, 7 и 8 давай примерно каждый второй запуск: там русское «найти», «узнать» или «ищу» по-английски не look for и не find, и это проверяет, понял ли человек смысл, а не перевёл слово. Отрицание или вопрос — не реже чем каждый третий запуск. ОЦЕНКА: верно, если глагол выбран по смыслу и сборка цела. Разбирай типовые ошибки по одной строке: потерял for (looking my keys) → напомни, что у look for обязателен for, в вопросе он в конце; написал I'm finding → объясни, что найти можно только в одну секунду, «ищу» — looking for; написал I don't find → покажи I can't find; написал I look for a job про поиск сейчас → объясни, что поиск идёт и закончится, нужен I'm looking for; написал finded → напомни формы find – found – found; написал find вместо find out про сведения → объясни, что вещь находят, а сведения выясняют — find out; поставил вопросительный порядок после find out (what time does it open) → напомни порядок как в утверждении; потерял about перед существительным (found out the wedding) → покажи found out about; написал knew на «узнал» → объясни, что know — «знаю», а момент — found out; написал looking for where или looking for how → покажи trying to find out where, trying to remember where или looking for a place to. Засчитывай: learned вместо found out, search for вместо look for (одной строкой скажи, что в быту привычнее look for), Have you seen my keys? вместо Can you find, сокращения и другое пройденное время, подходящее по смыслу. Если человек выбрал другое слово, а грамматика верна, лексику не правь. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Скажите по-английски: «Узнай, во сколько сегодня закрывается аптека.»'
+
+#### Clarification Options
+
+- Как понять, когда нужен find, а когда find out?
+- Почему «я узнал об этом вчера» нельзя сказать через knew?
+- Как сказать «ищу, где купить билеты»?
+
+---
+
+### Card 573 · Search: искать тщательно и обыскать
+
+**ID:** 573 | **Order:** 3
+
+#### Theory
+
+Слово `to search` мы уже встречали как «искать, разыскивать». Но это не просто синоним `look for`: у него другой вес и одна сборка, на которой русский спотыкается всерьёз.
+
+**Тщательно и официально**
+
+`look for` — обычный бытовой поиск: ключи, кафе, работа. `search` — поиск систематический, по правилам: полиция, спасатели, таможня, компьютер. **The police are searching for the missing girl.** — «полиция разыскивает пропавшую девочку». Дома про потерянные ключи носитель почти всегда скажет `look for`: `search` прозвучит так, будто вы перевернули квартиру вверх дном.
+
+**Три сборки search**
+
+| Сборка | Смысл | Пример |
+|--------|-------|--------|
+| search for + что | искать | They searched for the keys. |
+| search + место | обыскать | They searched the car. |
+| search + место + for + что | обыскать в поисках | They searched the car for the keys. |
+
+**Формула:** search + место + for + что
+
+Место, которое прочёсывают, стоит сразу после `search`, без предлога. То, что надеются найти, получает `for`.
+
+**Ловушка:** **They searched my bag** значит «мою сумку обыскали», а не «искали мою сумку». Русское «искал ключи» тянет **I searched my keys** ✗ — по-английски вышло «обыскал сами ключи». Верно: **I looked for my keys** ✓ или **I searched for my keys** ✓.
+
+- **Security searched Oleg at the airport.** — Олега обыскали в аэропорту
+- **I searched every pocket for my ticket.** — я обыскал все карманы в поисках билета
+
+**Поиск в интернете**
+
+В интернете ищут через `search`: **I searched online for a cheap hotel.** — «я искал в интернете дешёвый отель». В разговоре ещё проще — глагол `google`: **Just google it!** — «просто загугли!». Предлог ему не нужен: **I googled the address** ✓.
+
+**Пропал — missing**
+
+Кого разыскивают, тот `missing` — «пропавший, которого нет на месте»: **a missing person** — пропавший человек, **the missing piece** — недостающий кусочек. Про вещь, которая исчезла, говорят так же: **My passport is missing!** — «паспорт пропал!».
+
+**Ловушка:** русское «пропал» тянет глагол `miss`, а он значит «скучать» или «пропустить»: **My passport misses** ✗ — бессмыслица, **I miss my passport** — «я скучаю по паспорту». Верно: **My passport is missing** ✓.
+
+А «потерялся» — это уже `lost`. Вещь: **I've lost my passport.** — «я потерял паспорт». Человек: **The kids got lost in the park.** — «дети потерялись в парке», через `get` из микротемы «Get = становиться».
+
+**Ещё два «искать»: seek и hunt for**
+
+| Слово | Где звучит | Пример |
+|-------|------------|--------|
+| look for | быт, любая ситуация | I'm looking for my phone. |
+| search | тщательно, официально, интернет | The police searched the house. |
+| seek | книжно, в инструкциях | Seek medical advice. |
+| hunt for | разговорно, с азартом | We're hunting for a flat. |
+
+`seek` в живой речи почти не звучит: вы встретите его в инструкциях и новостях — **seek help**, **seek advice**, «обратиться за помощью, за советом» — и в названии игры **hide-and-seek** — «прятки». `hunt for` — поиск упорный, с азартом: **flat hunting** — «охота за квартирой», **bargain hunting** — «охота за скидками».
+
+**Кстати:** **Search me!** — дословно «обыщи меня», по-живому «понятия не имею!». Мол, обыщи — ответа у меня всё равно нет.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`search` — искать тщательно; `search + место` — обыскать.
+
+- **search for the keys** — искать; **search the car** — обыскать; **search the car for the keys** — обыскать в поисках
+- В быту — **look for**; в интернете — **search online** или **google it**
+- Пропал — **My passport is missing**; потерял — **I've lost my passport**
+- **seek** — книжное; **hunt for** — разговорное «охотиться»
+
+**Частые ошибки**
+
+- **I searched my keys** ✗ → **I searched for my keys** ✓
+- **My passport misses** ✗ → **My passport is missing** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2596 | Спасатели ищут пропавших туристов. | Rescuers are searching for the missing tourists. |
+| 2597 | Таможенники обыскали мой чемодан. | Customs officers searched my suitcase. |
+| 2598 | Я обыскал всю кухню в поисках ножниц. | I searched the whole kitchen for the scissors. |
+| 2599 | Телефон Юли пропал. | Yulia's phone is missing. |
+| 2600 | Мы с Денисом неделю охотимся за квартирой. | Denis and I have been hunting for a flat for a week. |
+
+---
+
+#### Exercises
+
+**Ex 58 · ConstructionMeaning** *(ID: 74)*
+
+Выбери правильный перевод:
+
+"The police searched Mark's car."
+
+- Полиция искала машину Марка.
+- Марк искал полицейскую машину.
+- Полиция нашла машину Марка.
+- **Полиция обыскала машину Марка.** ✓
+
+*Explanation:* после searched сразу стоит Mark's car, без for, — значит, машину обыскали. «Искали машину» было бы searched for Mark's car, а «нашли» — found.
+
+---
+
+**Ex 59 · Categorization** *(ID: 125)*
+
+Задание: распредели ситуации по тому, как о них скажут через search.
+
+| search for | search без for |
+|------------|----------------|
+| Ищем пропавшую кошку | Обыскали квартиру |
+| Ищу отель в Риме | Проверили его карманы |
+| Разыскивают свидетеля | Досмотрели машину на границе |
+
+*Explanation:* то, что надеются найти, получает for: кошку, отель, свидетеля. Место или человек, которых прочёсывают и обыскивают, стоят сразу после search: квартиру, карманы, машину.
+
+---
+
+**Ex 60 · Matching** *(ID: 92)*
+
+Задание: соедини слово с ситуацией, где оно звучит естественно.
+
+| Слово | Ситуация |
+|-------|----------|
+| look for | Ищу пульт от телевизора |
+| search | Полиция прочёсывает лес |
+| seek | Инструкция: обратиться к врачу |
+| hunt for | Охочусь за скидками |
+| missing | Пропавшая собака |
+
+*Explanation:* look for — обычный бытовой поиск. Search — тщательный, по правилам, как у полиции. Seek — книжное слово из инструкций. Hunt for — упорный поиск с азартом. Missing — то, что пропало и чего нет на месте.
+
+---
+
+#### Clarification Options
+
+- Чем They searched the car отличается от They searched for the car?
+- Почему нельзя сказать My passport misses?
+- Когда вместо look for уместно search?
+
+---
+
+### Card 574 · Watch for и listen for: жду, что появится
+
+**ID:** 574 | **Order:** 4
+
+#### Theory
+
+Бывает «искать», при котором вы никуда не идёте и ничего не перебираете. Вы стоите у окна и смотрите, не подъедет ли такси. Вы на остановке и ждёте, когда из-за поворота покажется автобус. Это не поиск, а ожидание с открытыми глазами — и у английского на него свой глагол.
+
+**Look for или watch for**
+
+Снова ось темы. `look` — вы сами пошли искать то, что где-то лежит и само не покажется. `watch` — держите взгляд на том, что вот-вот произойдёт. Отсюда два «искать»:
+
+- **I'm looking for my keys.** — ключи где-то лежат, я их ищу
+- **I'm watching for the taxi.** — такси вот-вот появится, я смотрю, не едет ли
+
+**Формула:** watch for + то, что должно появиться
+
+Дословно `watch for` — «следить за», по-живому «смотреть, не появится ли». Чаще всего он звучит просьбой или предупреждением:
+
+- **Watch for the bus and tell me when it comes.** — смотри, не идёт ли автобус, и скажи мне
+- **Watch for cars when you cross the road.** — смотри, не едут ли машины, когда переходишь дорогу
+- **Watch for a small blue door on the left.** — высматривай маленькую синюю дверь слева
+
+**Ловушка:** ключи никуда не появятся сами, их можно только искать: **Watch for my keys** ✗ → **Look for my keys** ✓.
+
+**Listen for — ждать звука**
+
+Слух устроен так же. `listen for` — держать уши наготове и ждать звука: **Listen for the doorbell, I'm expecting a parcel.** — «прислушивайся, не позвонят ли в дверь, я жду посылку». Британцы часто добавляют `out`: **Listen out for the baby.** — «прислушивайся к малышу, вдруг проснётся».
+
+**Look out for — высматривать и остерегаться**
+
+В британском английском вместо `watch for` часто звучит `look out for`:
+
+- **Look out for Ben at the station, he's wearing a red jacket.** — высматривай Бена на вокзале, он в красной куртке
+- **Look out for my email tomorrow.** — завтра жди моего письма, проверяй почту
+- **Look out for pickpockets in the metro.** — остерегайтесь карманников в метро
+
+У `look out for` есть и тёплое значение — присматривать за кем-то, чтобы с ним ничего не случилось: **We always look out for each other.** — дословно «мы всегда присматриваем друг за другом», по-живому «мы всегда друг за друга горой».
+
+**Кстати:** короткие **Watch out!** и **Look out!** без `for` значат «осторожно!» — эти команды разберём в теме «Фразы из жизни».
+
+**Всё «искать» одной таблицей**
+
+| Что делаете | Глагол | Пример |
+|-------------|--------|--------|
+| ищу то, что где-то лежит | look for | I'm looking for my wallet. |
+| нашёл | find | I found it! |
+| узнал сведения | find out | I found out the price. |
+| обыскал, ищу тщательно | search | They searched the room. |
+| жду, что появится | watch for, look out for | Watch for the taxi. |
+| жду звука | listen for | Listen for the phone. |
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Ищете то, что где-то лежит, — `look for`; ждёте, что появится само, — `watch for` или `look out for`.
+
+**Всё «искать»**
+
+- Ищу — **look for**: **I'm looking for my keys** · **What are you looking for?**
+- Нашёл — **find**: **I can't find my keys**
+- Узнал сведения — **find out**: **Can you find out if the pharmacy is open?** · **I found out about it yesterday**
+- Обыскал — `search + место + for + что`: **They searched the car for the keys**
+- Пропал — **My passport is missing**
+- Жду, что появится — **Watch for cars when you cross** · **Look out for Ben at the station**
+- Жду звука — **Listen for the doorbell**
+
+**Частые ошибки**
+
+- **I'm looking my keys** ✗ → **I'm looking for my keys** ✓
+- **Can you find what time the train leaves?** ✗ → **Can you find out what time the train leaves?** ✓
+- **I searched my keys** ✗ → **I searched for my keys** ✓
+- **Watch for my keys** ✗ → **Look for my keys** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2601 | Посмотри, не идёт ли трамвай. | Watch for the tram. |
+| 2602 | Высматривай Катю у выхода. | Look out for Katya at the exit. |
+| 2603 | Прислушивайся, не звонит ли телефон. | Listen for the phone. |
+| 2604 | Остерегайтесь скользких ступенек. | Look out for slippery steps. |
+| 2605 | Мы с братом всегда присматриваем друг за другом. | My brother and I always look out for each other. |
+
+---
+
+#### Exercises
+
+**Ex 61 · MultipleChoice · CHOICE** *(ID: 217)*
+
+"Stand by the window and ___ for the delivery van, please."
+
+- find
+- **watch** ✓
+- search
+
+*Explanation:* фургон с доставкой вот-вот подъедет сам, его не ищут, а ждут, держа взгляд наготове, — watch for. Find for не бывает, а search for значило бы тщательно разыскивать.
+
+---
+
+**Ex 62 · FindTheOdd** *(ID: 109)*
+
+Три фразы — про то, что должно появиться само, одна — про поиск того, что где-то лежит:
+
+- watch for the postman
+- listen for the kettle
+- **look for my charger** ✓
+- look out for Kate
+
+*Explanation:* почтальон, свисток чайника и Кейт появятся сами, их ждут: watch for, listen for, look out for. Зарядка никуда не придёт, она где-то лежит, и её ищут — look for.
+
+---
+
+**Ex 63 · DialogRestore** *(ID: 84)*
+
+A: "I'll meet you outside the cinema. How will I find you?"
+B: ___
+
+- Find out for a tall guy in a green hat.
+- Search a tall guy in a green hat.
+- **Look out for a tall guy in a green hat.** ✓
+
+*Explanation:* человек сам появится у кинотеатра, его нужно высматривать — look out for. Find out — выяснить сведения, а search без for значило бы «обыщи высокого парня».
+
+---
+
+#### AI Exercise
+
+**ID:** see_look_watch_card574_ex1
+**Title:** "Ищу, нашёл, узнал, жду"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Вы получите русскую фразу про поиски: искать, найти, узнать, обыскать, пропасть или высматривать. Напишите её по-английски."
+**Prompt Template:** "Контекст: пользователь прошёл микротему о русском «искать» по-английски. Он знает: 1) look for — искать то, что где-то лежит, процесс; у look for обязателен for, в вопросе он в конце: What are you looking for?; I'm looking my keys — ошибка; поиск сейчас — Continuous: I'm looking for a job; 2) find — найти, результат, find – found – found; I'm finding my phone — ошибка; «не нахожу» — I can't find my keys, I don't find — ошибка; 3) find out — узнать сведения: Can you find out if the pharmacy is open?, после него порядок утверждения; find вместо find out про сведения и knew на «узнал» — ошибки: I found out about it yesterday; «ищу, где…» — trying to find out where, trying to remember where, looking for a place to; 4) search — искать тщательно, официально, в интернете; три сборки: search for + что (искать), search + место (обыскать), search + место + for + что (They searched the car for the keys); I searched my keys — ошибка; в быту привычнее look for; google it; 5) missing — пропавший: My passport is missing, My passport misses — ошибка; потерял — I've lost my passport, потерялись — The kids got lost; 6) seek — книжное (seek advice), hunt for — разговорное «охотиться» (hunting for a flat); 7) watch for — ждать, что появится, держа взгляд наготове: Watch for cars when you cross; Watch for my keys — ошибка; listen for — ждать звука: Listen for the doorbell; look out for — высматривать (Look out for Ben at the station), остерегаться (Look out for pickpockets) и присматривать друг за другом (We look out for each other). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения и unless, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look, watch, hear и listen, конструкция «видел, как он что-то делает». ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после глагола, возвратные местоимения, look up в значении «посмотреть в словаре», watch out и look out в значении «осторожно!» — таких форм и значений в заданиях не используй и за их отсутствие не ругай. ЗАДАНИЕ: дай пользователю ОДНУ русскую фразу про поиски и попроси сказать её по-английски. ДЕРЖИ ФРАЗУ ПРОСТОЙ: до девяти слов, одно подлежащее, одно действие, без перечислений, в дебри не уходи. В условии НЕ подсказывай нужный глагол. Время — чаще Present Continuous, Past Simple и просьбы, иногда Present Perfect. Бери знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе глагола и сборке, а не в незнакомой лексике; если подходящих слов нет, бери простую бытовую лексику. ЧЕРЕДУЙ ПОВОД от запуска к запуску, не повторяя один и тот же два раза подряд: 1. ИЩУ: «Паша ищет новую квартиру». 2. НЕ МОГУ НАЙТИ: «я нигде не могу найти паспорт». 3. УЗНАТЬ: «узнай, сколько стоит билет», «как ты узнал об этом?». 4. ОБЫСКАТЬ: «на границе обыскали нашу машину», «я обыскал все карманы в поисках ключей». 5. ИСКАТЬ ОФИЦИАЛЬНО: «полиция разыскивает свидетеля». 6. ПРОПАЛО: «у Веры пропал кошелёк». 7. ЖДУ, ЧТО ПОЯВИТСЯ: «смотри, не идёт ли автобус», «высматривай Олю у входа». 8. ЖДУ ЗВУКА: «прислушивайся, не звонит ли телефон». 9. ОСТЕРЕГАТЬСЯ: «остерегайтесь карманников на вокзале». Отрицание или вопрос — не реже чем каждый третий запуск. ОЦЕНКА: верно, если глагол выбран по смыслу и сборка цела. Разбирай типовые ошибки по одной строке: потерял for у look for → напомни, что for обязателен; написал I'm finding или I don't find → покажи I'm looking for и I can't find; взял find про сведения или knew на «узнал» → объясни, что сведения узнают — find out; поставил вопросительный порядок после find out → напомни порядок утверждения; на «искал ключи» написал searched my keys → объясни, что так вышло «обыскал ключи», нужно searched for или looked for; на «обыскали машину» написал searched for the car → объясни, что так вышло «искали машину», место ставится сразу после search; написал misses или is missed на «пропал» → покажи is missing; на «потерялся» про человека написал is lost или lost → засчитай is lost, а lost без глагола поправь на got lost; взял look for про то, что само появится (автобус, человек у входа) → объясни, что его не ищут, а ждут — watch for или look out for; взял watch for про вещь, которая где-то лежит → объясни, что она сама не появится, нужен look for; взял listen to вместо listen for → объясни, что listen to — слушать то, что уже звучит, а listen for — ждать звука. Засчитывай: look out for вместо watch for и наоборот, listen out for, search for вместо look for (одной строкой скажи, что в быту привычнее look for), learned вместо found out, Watch out for на «остерегайтесь», сокращения и другое пройденное время, подходящее по смыслу. Если человек выбрал другое слово, а грамматика верна, лексику не правь. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Скажите по-английски: «Высматривай Игоря у входа в торговый центр.»'
+
+#### Clarification Options
+
+- Чем watch for отличается от look for?
+- Когда говорят look out for, а когда просто Look out!?
+- Что значит We look out for each other?
+
+---
+
+### Words8r Sync · Искать и найти
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| everywhere | везде, повсюду | [ˈevriweə] |
+| missing | пропавший, недостающий | [ˈmɪsɪŋ] |
+| to search | обыскивать | [sɜːtʃ] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 33 | 34 |
-| Microtopic | 211 | 212 |
-| Card | 570 | 571 |
-| Example | 2585 | 2586 |
-| Слова курса (course_word) | 800 | 801 |
-| MultipleChoice · CHOICE | 215 | 216 |
-| MultipleChoice · FORWARD_CHOICE | 238 | 239 |
-| MultipleChoice · REVERSE_CHOICE | 91 | 92 |
-| TrueFalse | 212 | 213 |
-| WordArrangement | 190 | 191 |
-| TextInput | 106 | 107 |
-| Matching | 91 | 92 |
-| ErrorCorrection | 202 | 203 |
-| FindTheOdd | 108 | 109 |
-| Categorization | 124 | 125 |
+| Microtopic | 212 | 213 |
+| Card | 574 | 575 |
+| Example | 2605 | 2606 |
+| Слова курса (course_word) | 803 | 804 |
+| MultipleChoice · CHOICE | 217 | 218 |
+| MultipleChoice · FORWARD_CHOICE | 239 | 240 |
+| MultipleChoice · REVERSE_CHOICE | 92 | 93 |
+| TrueFalse | 213 | 214 |
+| WordArrangement | 191 | 192 |
+| TextInput | 107 | 108 |
+| Matching | 92 | 93 |
+| ErrorCorrection | 203 | 204 |
+| FindTheOdd | 109 | 110 |
+| Categorization | 125 | 126 |
 | TableFill | 41 | 42 |
 | Transformation | 94 | 95 |
-| ConstructionMeaning | 73 | 74 |
-| DialogRestore | 83 | 84 |
+| ConstructionMeaning | 74 | 75 |
+| DialogRestore | 84 | 85 |

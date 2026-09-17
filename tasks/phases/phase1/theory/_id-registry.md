@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 571 |
-| Categorization | 125 |
+| Card | 575 |
+| Categorization | 126 |
 | Category | 8 |
-| ConstructionMeaning | 74 |
-| DialogRestore | 84 |
-| ErrorCorrection | 203 |
-| FindTheOdd | 109 |
-| Matching | 92 |
-| Microtopic | 212 |
-| MultipleChoice·CHOICE | 216 |
-| MultipleChoice·FORWARD_CHOICE | 239 |
-| MultipleChoice·REVERSE_CHOICE | 92 |
+| ConstructionMeaning | 75 |
+| DialogRestore | 85 |
+| ErrorCorrection | 204 |
+| FindTheOdd | 110 |
+| Matching | 93 |
+| Microtopic | 213 |
+| MultipleChoice·CHOICE | 218 |
+| MultipleChoice·FORWARD_CHOICE | 240 |
+| MultipleChoice·REVERSE_CHOICE | 93 |
 | TableFill | 42 |
-| TextInput | 107 |
+| TextInput | 108 |
 | Topic | 34 |
 | Transformation | 95 |
-| TrueFalse | 213 |
-| WordArrangement | 191 |
-| course_word | 801 |
+| TrueFalse | 214 |
+| WordArrangement | 192 |
+| course_word | 804 |
 
 ## Диапазоны по темам
 
@@ -580,23 +580,23 @@
 - WordArrangement: 107–108 (2)
 
 ### see-look-watch
-- Card: 555–570 (16)
-- Categorization: 121–124 (4)
-- ConstructionMeaning: 71–73 (3)
-- DialogRestore: 81–83 (3)
-- ErrorCorrection: 198–202 (5)
-- FindTheOdd: 106–108 (3)
-- Matching: 88–91 (4)
-- Microtopic: 208–211 (4)
-- MultipleChoice·CHOICE: 211–215 (5)
-- MultipleChoice·FORWARD_CHOICE: 234–238 (5)
-- MultipleChoice·REVERSE_CHOICE: 88–91 (4)
-- TextInput: 103–106 (4)
+- Card: 555–574 (20)
+- Categorization: 121–125 (5)
+- ConstructionMeaning: 71–74 (4)
+- DialogRestore: 81–84 (4)
+- ErrorCorrection: 198–203 (6)
+- FindTheOdd: 106–109 (4)
+- Matching: 88–92 (5)
+- Microtopic: 208–212 (5)
+- MultipleChoice·CHOICE: 211–217 (7)
+- MultipleChoice·FORWARD_CHOICE: 234–239 (6)
+- MultipleChoice·REVERSE_CHOICE: 88–92 (5)
+- TextInput: 103–107 (5)
 - Topic: 33–33 (1)
 - Transformation: 93–94 (2)
-- TrueFalse: 209–212 (4)
-- WordArrangement: 187–190 (4)
-- course_word: 788–800 (13)
+- TrueFalse: 209–213 (5)
+- WordArrangement: 187–191 (5)
+- course_word: 788–803 (16)
 
 ### so-such-too-enough
 - Card: 429–440 (12)
