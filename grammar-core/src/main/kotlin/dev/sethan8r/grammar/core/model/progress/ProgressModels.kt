@@ -1,7 +1,7 @@
 package dev.sethan8r.grammar.core.model.progress
 
 import dev.sethan8r.grammar.shared.ProgressEventType
-import java.time.Instant
+import kotlin.time.Instant
 
 /**
  * Доменные модели синка прогресса — то, чем оперирует
@@ -9,7 +9,7 @@ import java.time.Instant
  *
  * [ProgressEventType] переиспользуется из grammar-shared: набор типов событий одинаков на клиенте
  * и сервере (один и тот же контракт), дублировать его в домене — нарушение «одна сущность один раз».
- * Время — `java.time.Instant`; в DTO сериализуется строкой на границе data-слоя.
+ * Время — `kotlin.time.Instant` (переносим на iOS); в DTO сериализуется строкой на границе data-слоя.
  */
 data class ProgressEvent(
     val type: ProgressEventType,
