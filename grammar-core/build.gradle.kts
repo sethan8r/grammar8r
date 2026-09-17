@@ -50,3 +50,38 @@ tasks.test {
     dependsOn(generateTestContentDb)
     systemProperty("grammar8r.contentDb", testContentDb.get().asFile.absolutePath)
 }
+
+// Ядро переносимо на iOS. Android-классов в classpath нет — такой код просто не скомпилируется;
+// а java.*/javax.* на JVM доступны, поэтому их ссылки в коде ловит эта проверка перед компиляцией.
+// Разрешён только javax.inject (аннотации для Hilt, см. CLAUDE.md → «Модули проекта»).
+val checkCorePortability by tasks.registering {
+    group = "verification"
+    description = "Запрещает в grammar-core ссылки на платформенные API (java.*, javax.*, android.*)."
+
+    val sources = fileTree("src/main/kotlin") { include("**/*.kt") }
+    val moduleDir = projectDir
+    inputs.files(sources)
+
+    doLast {
+        val platformReference = Regex("""(^|[^\w.])(java|javax|android|androidx)\.[a-z]""")
+        val allowed = Regex("""\bjavax\.inject\.""")
+        val violations = sources.flatMap { file ->
+            file.readLines().mapIndexedNotNull { index, line ->
+                val code = line.trimStart()
+                val isComment = code.startsWith("//") || code.startsWith("*") || code.startsWith("/*")
+                val hit = !isComment && platformReference.containsMatchIn(code) && !allowed.containsMatchIn(code)
+                if (hit) "${file.relativeTo(moduleDir)}:${index + 1}: $code" else null
+            }
+        }
+        if (violations.isNotEmpty()) {
+            throw GradleException(
+                "grammar-core должен оставаться переносимым на iOS — платформенные API запрещены:\n" +
+                    violations.joinToString("\n")
+            )
+        }
+    }
+}
+
+tasks.compileKotlin {
+    dependsOn(checkCorePortability)
+}
