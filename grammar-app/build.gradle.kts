@@ -98,6 +98,7 @@ tasks.withType<Test>().configureEach {
 }
 
 dependencies {
+    implementation(project(":grammar-core"))
     implementation(project(":grammar-shared"))
 
     implementation(libs.androidx.core.ktx)

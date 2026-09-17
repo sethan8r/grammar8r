@@ -64,8 +64,8 @@ private fun InstructionHeader(text: String) {
 private fun DialogHeader(lines: List<DialogLine>) {
     Column(verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall)) {
         lines.forEach { line ->
-            val isBlank = line.text == null
-            Row(verticalAlignment = if (isBlank) Alignment.Bottom else Alignment.Top) {
+            val text = line.text
+            Row(verticalAlignment = if (text == null) Alignment.Bottom else Alignment.Top) {
                 Text(
                     text = "${line.speaker}:",
                     color = Accent,
@@ -73,8 +73,8 @@ private fun DialogHeader(lines: List<DialogLine>) {
                     fontWeight = FontWeight.Bold,
                 )
                 Spacer(Modifier.width(Dimens.spaceSmall))
-                if (line.text != null) {
-                    ExerciseContentText(text = line.text, fontSize = 18.sp, modifier = Modifier.weight(1f))
+                if (text != null) {
+                    ExerciseContentText(text = text, fontSize = 18.sp, modifier = Modifier.weight(1f))
                 } else {
                     // Полоска-пропуск фиксированной длины; чуть приподнята от низа строки (на уровень базовой линии).
                     BlankBar(modifier = Modifier.padding(bottom = Dimens.spaceTiny))
