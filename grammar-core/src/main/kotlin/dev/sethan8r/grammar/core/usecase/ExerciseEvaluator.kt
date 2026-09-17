@@ -1,8 +1,8 @@
-package dev.sethan8r.grammar.app.domain.usecase
+package dev.sethan8r.grammar.core.usecase
 
-import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
-import dev.sethan8r.grammar.app.domain.model.exercise.TextItem
+import dev.sethan8r.grammar.core.model.exercise.Exercise
+import dev.sethan8r.grammar.core.model.exercise.ExerciseAnswer
+import dev.sethan8r.grammar.core.model.exercise.TextItem
 
 /**
  * Проверка ответа на упражнение — чистая доменная логика, тестируемая без Android. Движок (UI)

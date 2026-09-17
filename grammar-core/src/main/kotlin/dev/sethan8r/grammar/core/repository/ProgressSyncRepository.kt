@@ -1,7 +1,7 @@
-package dev.sethan8r.grammar.app.domain.repository
+package dev.sethan8r.grammar.core.repository
 
-import dev.sethan8r.grammar.app.domain.model.progress.ProgressEvent
-import dev.sethan8r.grammar.app.domain.model.progress.ProgressSnapshot
+import dev.sethan8r.grammar.core.model.progress.ProgressEvent
+import dev.sethan8r.grammar.core.model.progress.ProgressSnapshot
 
 /**
  * Синхронизация прогресса с сервером (см. phase4_server.md → «Синхронизация прогресса»):

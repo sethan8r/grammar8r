@@ -6,7 +6,7 @@ import kotlinx.serialization.Serializable
 /**
  * Data-слойные суррогаты для разбора сырого JSON полей `GrammarCard.theory`/`examples`/
  * `clarificationOptions`. Существуют только ради десериализации и тут же маппятся в доменные
- * модели ([dev.sethan8r.grammar.app.domain.model.TheoryBlock] и т.д.) — kotlinx.serialization
+ * модели ([dev.sethan8r.grammar.core.model.TheoryBlock] и т.д.) — kotlinx.serialization
  * в домен и в Room не протекает.
  *
  * Полиморфизм блоков — по полю-дискриминатору `type` (значение по умолчанию у kotlinx Json),

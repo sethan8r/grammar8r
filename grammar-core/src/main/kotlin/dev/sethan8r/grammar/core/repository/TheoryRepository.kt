@@ -1,10 +1,10 @@
-package dev.sethan8r.grammar.app.domain.repository
+package dev.sethan8r.grammar.core.repository
 
-import dev.sethan8r.grammar.app.domain.model.theory.ClarificationContext
-import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicCards
-import dev.sethan8r.grammar.app.domain.model.theory.SearchIndex
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryData
-import dev.sethan8r.grammar.app.domain.model.theory.TopicMicrotopics
+import dev.sethan8r.grammar.core.model.theory.ClarificationContext
+import dev.sethan8r.grammar.core.model.theory.MicrotopicCards
+import dev.sethan8r.grammar.core.model.theory.SearchIndex
+import dev.sethan8r.grammar.core.model.theory.TheoryData
+import dev.sethan8r.grammar.core.model.theory.TopicMicrotopics
 import kotlinx.coroutines.flow.Flow
 
 /**

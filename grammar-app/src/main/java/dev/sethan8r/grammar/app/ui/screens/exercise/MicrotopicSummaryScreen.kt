@@ -26,7 +26,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.R
-import dev.sethan8r.grammar.app.domain.model.progress.MicrotopicCompletionSummary
+import dev.sethan8r.grammar.core.model.progress.MicrotopicCompletionSummary
 import dev.sethan8r.grammar.app.ui.components.LoadingIndicator
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background

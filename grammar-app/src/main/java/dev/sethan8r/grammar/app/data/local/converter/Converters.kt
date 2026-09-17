@@ -1,10 +1,10 @@
 package dev.sethan8r.grammar.app.data.local.converter
 
 import androidx.room.TypeConverter
-import dev.sethan8r.grammar.app.domain.model.exercise.AiExerciseWordsSource
-import dev.sethan8r.grammar.app.domain.model.exercise.ChoiceType
-import dev.sethan8r.grammar.app.domain.model.exercise.HardcodedExerciseType
-import dev.sethan8r.grammar.app.domain.model.exercise.WordTable
+import dev.sethan8r.grammar.core.model.exercise.AiExerciseWordsSource
+import dev.sethan8r.grammar.core.model.exercise.ChoiceType
+import dev.sethan8r.grammar.core.model.exercise.HardcodedExerciseType
+import dev.sethan8r.grammar.core.model.exercise.WordTable
 import dev.sethan8r.grammar.shared.AiExerciseInputMode
 
 /**

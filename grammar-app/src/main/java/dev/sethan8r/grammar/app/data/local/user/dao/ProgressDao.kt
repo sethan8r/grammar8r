@@ -10,7 +10,7 @@ import dev.sethan8r.grammar.app.data.local.user.entity.UserAiExerciseStats
 import dev.sethan8r.grammar.app.data.local.user.entity.UserCardProgress
 import dev.sethan8r.grammar.app.data.local.user.entity.UserExerciseResult
 import dev.sethan8r.grammar.app.data.local.user.entity.UserMicrotopicProgress
-import dev.sethan8r.grammar.app.domain.model.exercise.HardcodedExerciseType
+import dev.sethan8r.grammar.core.model.exercise.HardcodedExerciseType
 import kotlinx.coroutines.flow.Flow
 
 /**

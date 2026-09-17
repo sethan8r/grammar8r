@@ -1,7 +1,7 @@
 package dev.sethan8r.grammar.app.data.local.user.entity
 
 import androidx.room.Entity
-import dev.sethan8r.grammar.app.domain.model.exercise.HardcodedExerciseType
+import dev.sethan8r.grammar.core.model.exercise.HardcodedExerciseType
 
 /**
  * Результат одного хардкод-упражнения карточки. Строка появляется в момент ПЕРВОГО ответа

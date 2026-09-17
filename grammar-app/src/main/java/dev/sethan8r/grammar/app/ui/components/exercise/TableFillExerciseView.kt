@@ -32,10 +32,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
-import dev.sethan8r.grammar.app.domain.model.exercise.TableFillRow
-import dev.sethan8r.grammar.app.domain.usecase.AnswerNormalizer
+import dev.sethan8r.grammar.core.model.exercise.Exercise
+import dev.sethan8r.grammar.core.model.exercise.ExerciseAnswer
+import dev.sethan8r.grammar.core.model.exercise.TableFillRow
+import dev.sethan8r.grammar.core.usecase.AnswerNormalizer
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Accent

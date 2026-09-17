@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model.exercise
+package dev.sethan8r.grammar.core.model.exercise
 
 /**
  * Идентификатор хардкод-упражнения внутри карточки: `exerciseId` уникален лишь в пределах своего

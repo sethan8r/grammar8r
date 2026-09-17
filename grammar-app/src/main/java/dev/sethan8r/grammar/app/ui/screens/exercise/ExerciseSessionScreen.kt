@@ -40,10 +40,10 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.sethan8r.grammar.app.R
-import dev.sethan8r.grammar.app.domain.model.exercise.ChoiceType
-import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
-import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
+import dev.sethan8r.grammar.core.model.exercise.ChoiceType
+import dev.sethan8r.grammar.core.model.exercise.Exercise
+import dev.sethan8r.grammar.core.model.exercise.ExerciseAnswer
+import dev.sethan8r.grammar.core.model.progress.CardCompletion
 import dev.sethan8r.grammar.app.ui.components.CenteredHint
 import dev.sethan8r.grammar.app.ui.components.LoadingIndicator
 import dev.sethan8r.grammar.app.ui.components.dialog.InfoDialog

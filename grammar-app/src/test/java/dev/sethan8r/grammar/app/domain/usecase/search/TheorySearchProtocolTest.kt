@@ -1,6 +1,6 @@
-package dev.sethan8r.grammar.app.domain.usecase.search
+package dev.sethan8r.grammar.core.usecase.search
 
-import dev.sethan8r.grammar.app.domain.model.theory.SearchGroup
+import dev.sethan8r.grammar.core.model.theory.SearchGroup
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue

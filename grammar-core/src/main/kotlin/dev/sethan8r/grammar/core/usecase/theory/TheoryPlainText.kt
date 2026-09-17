@@ -1,6 +1,6 @@
-package dev.sethan8r.grammar.app.domain.usecase.theory
+package dev.sethan8r.grammar.core.usecase.theory
 
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
+import dev.sethan8r.grammar.core.model.theory.TheoryBlock
 
 /**
  * Сворачивает блоки карточки в сплошной текст для AI-промта: модели нужен смысл правила, а не

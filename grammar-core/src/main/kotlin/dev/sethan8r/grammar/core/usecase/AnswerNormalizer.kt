@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.usecase
+package dev.sethan8r.grammar.core.usecase
 
 /**
  * Нормализация введённого ответа для упражнений с вводом текста (TEXT_INPUT и далее). Приводит

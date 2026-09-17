@@ -1,10 +1,10 @@
 package dev.sethan8r.grammar.app.data.mapper
 
 import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarCard
-import dev.sethan8r.grammar.app.domain.model.theory.CalloutVariant
-import dev.sethan8r.grammar.app.domain.model.theory.Example
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryCard
+import dev.sethan8r.grammar.core.model.theory.CalloutVariant
+import dev.sethan8r.grammar.core.model.theory.Example
+import dev.sethan8r.grammar.core.model.theory.TheoryBlock
+import dev.sethan8r.grammar.core.model.theory.TheoryCard
 import kotlinx.serialization.json.Json
 import javax.inject.Inject
 

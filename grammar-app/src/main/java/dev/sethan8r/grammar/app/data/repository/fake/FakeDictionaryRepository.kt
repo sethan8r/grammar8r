@@ -1,7 +1,7 @@
 package dev.sethan8r.grammar.app.data.repository.fake
 
-import dev.sethan8r.grammar.app.domain.model.dictionary.WordTranslation
-import dev.sethan8r.grammar.app.domain.repository.DictionaryRepository
+import dev.sethan8r.grammar.core.model.dictionary.WordTranslation
+import dev.sethan8r.grammar.core.repository.DictionaryRepository
 import javax.inject.Inject
 import javax.inject.Singleton
 

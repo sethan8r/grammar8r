@@ -5,10 +5,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.navigation.toRoute
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryCard
-import dev.sethan8r.grammar.app.domain.repository.ProgressRepository
-import dev.sethan8r.grammar.app.domain.repository.TheoryRepository
+import dev.sethan8r.grammar.core.model.progress.CardCompletion
+import dev.sethan8r.grammar.core.model.theory.TheoryCard
+import dev.sethan8r.grammar.core.repository.ProgressRepository
+import dev.sethan8r.grammar.core.repository.TheoryRepository
 import dev.sethan8r.grammar.app.ui.navigation.MicrotopicRoute
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow

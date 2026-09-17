@@ -4,11 +4,11 @@ import dev.sethan8r.grammar.app.data.local.content.dao.ExerciseDao
 import dev.sethan8r.grammar.app.data.local.content.dao.TheoryDao
 import dev.sethan8r.grammar.app.data.mapper.ExerciseContentMapper
 import dev.sethan8r.grammar.app.data.mapper.TheoryContentMapper
-import dev.sethan8r.grammar.app.domain.model.exercise.ChoiceType
-import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseSession
-import dev.sethan8r.grammar.app.domain.model.exercise.HardcodedExerciseType
-import dev.sethan8r.grammar.app.domain.repository.ExerciseRepository
+import dev.sethan8r.grammar.core.model.exercise.ChoiceType
+import dev.sethan8r.grammar.core.model.exercise.Exercise
+import dev.sethan8r.grammar.core.model.exercise.ExerciseSession
+import dev.sethan8r.grammar.core.model.exercise.HardcodedExerciseType
+import dev.sethan8r.grammar.core.repository.ExerciseRepository
 import kotlinx.coroutines.flow.first
 import javax.inject.Inject
 

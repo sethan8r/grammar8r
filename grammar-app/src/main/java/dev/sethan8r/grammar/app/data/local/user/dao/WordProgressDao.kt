@@ -5,7 +5,7 @@ import androidx.room.Query
 import androidx.room.Upsert
 import dev.sethan8r.grammar.app.data.local.user.entity.UserCategorySettings
 import dev.sethan8r.grammar.app.data.local.user.entity.UserWordProgress
-import dev.sethan8r.grammar.app.domain.model.exercise.WordTable
+import dev.sethan8r.grammar.core.model.exercise.WordTable
 import kotlinx.coroutines.flow.Flow
 
 /**

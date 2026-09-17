@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model.progress
+package dev.sethan8r.grammar.core.model.progress
 
 /**
  * Итог записи прохождения карточки: к какой микротеме она относится и была ли это ПОСЛЕДНЯЯ карточка

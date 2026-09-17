@@ -3,7 +3,7 @@ package dev.sethan8r.grammar.app.ui.screens.subscription
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dev.sethan8r.grammar.app.domain.repository.EntitlementsProvider
+import dev.sethan8r.grammar.core.repository.EntitlementsProvider
 import dev.sethan8r.grammar.shared.SubscriptionTier
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow

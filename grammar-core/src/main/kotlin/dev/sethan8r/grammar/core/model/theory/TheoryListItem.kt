@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model.theory
+package dev.sethan8r.grammar.core.model.theory
 
 /**
  * Элемент верхнего уровня вкладки «Учить» (список теории). Раздел и отдельная тема делят одно

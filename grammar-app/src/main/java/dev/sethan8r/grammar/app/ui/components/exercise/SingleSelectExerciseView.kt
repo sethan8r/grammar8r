@@ -13,13 +13,13 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
-import dev.sethan8r.grammar.app.domain.model.exercise.Option
+import dev.sethan8r.grammar.core.model.exercise.Option
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 
 /**
- * Единый рендерер заданий с выбором одного варианта ([dev.sethan8r.grammar.app.domain.model.exercise.Exercise.SingleSelect]):
+ * Единый рендерер заданий с выбором одного варианта ([dev.sethan8r.grammar.core.model.exercise.Exercise.SingleSelect]):
  * MULTIPLE_CHOICE / FORWARD_CHOICE / REVERSE_CHOICE / ERROR_CORRECTION / CONSTRUCTION_MEANING /
  * DIALOG_RESTORE / FIND_THE_ODD. Внутри [ExerciseFrame]: шапка-условие (слот [header]) →
  * линия-разделитель от края до края → варианты ([AnswerOptionSurface]) → объяснение на реванше. Типы

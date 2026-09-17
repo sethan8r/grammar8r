@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model.exercise
+package dev.sethan8r.grammar.core.model.exercise
 
 /**
  * Доменное упражнение карточки — то, что показывает движок. Получается из Entity content.db
@@ -16,7 +16,7 @@ sealed interface Exercise {
 
     /**
      * Упражнения «выбери один вариант из списка, ровно один правильный». Общая механика для всех них —
-     * одна ([ExerciseAnswer.SingleChoice] + [dev.sethan8r.grammar.app.domain.usecase.ExerciseEvaluator] +
+     * одна ([ExerciseAnswer.SingleChoice] + [dev.sethan8r.grammar.core.usecase.ExerciseEvaluator] +
      * рендерер `SingleSelectExerciseView`); типы отличаются ТОЛЬКО подачей условия (шапкой). Поэтому
      * движок работает с этим зонтиком, а не с каждым типом по отдельности (Правило №0).
      */

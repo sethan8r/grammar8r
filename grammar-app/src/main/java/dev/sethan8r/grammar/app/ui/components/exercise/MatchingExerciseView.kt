@@ -41,7 +41,7 @@ import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
-import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
+import dev.sethan8r.grammar.core.model.exercise.Exercise
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseDivider
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseExplanation
 import dev.sethan8r.grammar.app.ui.components.exercise.parts.ExerciseContentText

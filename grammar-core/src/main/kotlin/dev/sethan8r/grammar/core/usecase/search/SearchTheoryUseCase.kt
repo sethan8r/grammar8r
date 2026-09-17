@@ -1,7 +1,7 @@
-package dev.sethan8r.grammar.app.domain.usecase.search
+package dev.sethan8r.grammar.core.usecase.search
 
-import dev.sethan8r.grammar.app.domain.model.theory.SearchGroup
-import dev.sethan8r.grammar.app.domain.repository.TheoryRepository
+import dev.sethan8r.grammar.core.model.theory.SearchGroup
+import dev.sethan8r.grammar.core.repository.TheoryRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged

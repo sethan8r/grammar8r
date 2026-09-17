@@ -1,9 +1,9 @@
-package dev.sethan8r.grammar.app.domain.repository
+package dev.sethan8r.grammar.core.repository
 
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseRef
-import dev.sethan8r.grammar.app.domain.model.exercise.HardcodedExerciseType
-import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
-import dev.sethan8r.grammar.app.domain.model.progress.MicrotopicCompletionSummary
+import dev.sethan8r.grammar.core.model.exercise.ExerciseRef
+import dev.sethan8r.grammar.core.model.exercise.HardcodedExerciseType
+import dev.sethan8r.grammar.core.model.progress.CardCompletion
+import dev.sethan8r.grammar.core.model.progress.MicrotopicCompletionSummary
 
 /**
  * ЕДИНАЯ точка записи прогресса прохождения: все отметки идут только сюда — разрозненные

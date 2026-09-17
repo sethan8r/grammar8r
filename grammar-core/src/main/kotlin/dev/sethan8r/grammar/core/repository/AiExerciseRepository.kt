@@ -1,10 +1,10 @@
-package dev.sethan8r.grammar.app.domain.repository
+package dev.sethan8r.grammar.core.repository
 
-import dev.sethan8r.grammar.app.domain.model.common.ApiResult
-import dev.sethan8r.grammar.app.domain.model.exercise.ClarificationAnswer
-import dev.sethan8r.grammar.app.domain.model.exercise.ClarificationTurn
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseEvaluation
-import dev.sethan8r.grammar.app.domain.model.exercise.GeneratedExercise
+import dev.sethan8r.grammar.core.model.common.ApiResult
+import dev.sethan8r.grammar.core.model.exercise.ClarificationAnswer
+import dev.sethan8r.grammar.core.model.exercise.ClarificationTurn
+import dev.sethan8r.grammar.core.model.exercise.ExerciseEvaluation
+import dev.sethan8r.grammar.core.model.exercise.GeneratedExercise
 
 /**
  * AI-прокси через наш сервер: генерация задания, оценка ответа, уточнение по теории

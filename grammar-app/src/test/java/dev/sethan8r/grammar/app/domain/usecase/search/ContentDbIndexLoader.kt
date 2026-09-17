@@ -1,8 +1,8 @@
-package dev.sethan8r.grammar.app.domain.usecase.search
+package dev.sethan8r.grammar.core.usecase.search
 
-import dev.sethan8r.grammar.app.domain.model.theory.IndexedMicrotopic
-import dev.sethan8r.grammar.app.domain.model.theory.IndexedTopic
-import dev.sethan8r.grammar.app.domain.model.theory.SearchIndex
+import dev.sethan8r.grammar.core.model.theory.IndexedMicrotopic
+import dev.sethan8r.grammar.core.model.theory.IndexedTopic
+import dev.sethan8r.grammar.core.model.theory.SearchIndex
 import java.io.File
 import java.sql.DriverManager
 import java.sql.ResultSet

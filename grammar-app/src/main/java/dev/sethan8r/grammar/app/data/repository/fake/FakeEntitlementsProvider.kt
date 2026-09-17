@@ -1,8 +1,8 @@
 package dev.sethan8r.grammar.app.data.repository.fake
 
 import dev.sethan8r.grammar.app.di.DebugBuild
-import dev.sethan8r.grammar.app.domain.model.subscription.Entitlements
-import dev.sethan8r.grammar.app.domain.repository.EntitlementsProvider
+import dev.sethan8r.grammar.core.model.subscription.Entitlements
+import dev.sethan8r.grammar.core.repository.EntitlementsProvider
 import dev.sethan8r.grammar.shared.SubscriptionTier
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -1,8 +1,8 @@
-package dev.sethan8r.grammar.app.domain.model.exercise
+package dev.sethan8r.grammar.core.model.exercise
 
 /**
  * Текущий ввод пользователя по упражнению. Хранится во ViewModel сессии (решение принимает VM,
- * UI лишь отображает и шлёт изменения). Проверяется [dev.sethan8r.grammar.app.domain.usecase.ExerciseEvaluator].
+ * UI лишь отображает и шлёт изменения). Проверяется [dev.sethan8r.grammar.core.usecase.ExerciseEvaluator].
  */
 sealed interface ExerciseAnswer {
 
@@ -12,7 +12,7 @@ sealed interface ExerciseAnswer {
     /**
      * Введённые строки по пунктам/ячейкам (по индексу). Общий для [Exercise.TextInput],
      * [Exercise.TableFill] (строка на ячейку) и [Exercise.Transformation] (строка на пример) — все
-     * три проверяются вводом текста через [dev.sethan8r.grammar.app.domain.usecase.AnswerNormalizer].
+     * три проверяются вводом текста через [dev.sethan8r.grammar.core.usecase.AnswerNormalizer].
      */
     data class TextAnswers(val inputs: List<String>) : ExerciseAnswer
 

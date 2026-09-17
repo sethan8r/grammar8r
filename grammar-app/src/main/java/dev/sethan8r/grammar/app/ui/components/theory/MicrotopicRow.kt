@@ -16,8 +16,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicState
-import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicSummary
+import dev.sethan8r.grammar.core.model.theory.MicrotopicState
+import dev.sethan8r.grammar.core.model.theory.MicrotopicSummary
 import dev.sethan8r.grammar.app.ui.components.DualTitle
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens

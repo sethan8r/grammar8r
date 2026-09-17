@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.usecase.search
+package dev.sethan8r.grammar.core.usecase.search
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

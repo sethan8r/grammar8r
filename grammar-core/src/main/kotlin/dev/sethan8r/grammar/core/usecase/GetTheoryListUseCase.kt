@@ -1,10 +1,10 @@
-package dev.sethan8r.grammar.app.domain.usecase
+package dev.sethan8r.grammar.core.usecase
 
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryData
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryListItem
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryTopic
-import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
-import dev.sethan8r.grammar.app.domain.repository.TheoryRepository
+import dev.sethan8r.grammar.core.model.theory.TheoryData
+import dev.sethan8r.grammar.core.model.theory.TheoryListItem
+import dev.sethan8r.grammar.core.model.theory.TheoryTopic
+import dev.sethan8r.grammar.core.model.theory.TopicSummary
+import dev.sethan8r.grammar.core.repository.TheoryRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

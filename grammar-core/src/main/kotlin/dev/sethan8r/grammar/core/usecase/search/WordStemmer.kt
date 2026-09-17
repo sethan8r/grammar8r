@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.usecase.search
+package dev.sethan8r.grammar.core.usecase.search
 
 /**
  * Приводит слово к основе. Русский — алгоритм Портера (та же схема, что в snowball: отсекаются

@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 /**
  * Персональные данные подписки — ответ `GET /subscription` (см. phase4_server.md → «Подписка»).
- * Источник для [dev.sethan8r.grammar.app.domain.model.Entitlements] на клиенте (маппинг на границе).
+ * Источник для [dev.sethan8r.grammar.core.model.Entitlements] на клиенте (маппинг на границе).
  *
  * `expires` — ISO-8601 строка или null (бессрочно, ручная выдача).
  * `microtopicsDailyLimit` — null = безлимит (Tier1/Tier2).

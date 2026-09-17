@@ -1,10 +1,10 @@
-package dev.sethan8r.grammar.app.domain.model.exercise
+package dev.sethan8r.grammar.core.model.exercise
 
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
+import dev.sethan8r.grammar.core.model.theory.TheoryBlock
 
 /**
  * Набор упражнений одной карточки + её мета для шапки сессии. Собирается
- * [dev.sethan8r.grammar.app.domain.repository.ExerciseRepository] из content.db
+ * [dev.sethan8r.grammar.core.repository.ExerciseRepository] из content.db
  * (карточка + индекс упражнений + сами упражнения по порядку `orderInCard`).
  */
 data class ExerciseSession(

@@ -1,11 +1,11 @@
 package dev.sethan8r.grammar.app.data.repository.fake
 
-import dev.sethan8r.grammar.app.domain.model.common.ApiResult
-import dev.sethan8r.grammar.app.domain.model.exercise.ClarificationAnswer
-import dev.sethan8r.grammar.app.domain.model.exercise.ClarificationTurn
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseEvaluation
-import dev.sethan8r.grammar.app.domain.model.exercise.GeneratedExercise
-import dev.sethan8r.grammar.app.domain.repository.AiExerciseRepository
+import dev.sethan8r.grammar.core.model.common.ApiResult
+import dev.sethan8r.grammar.core.model.exercise.ClarificationAnswer
+import dev.sethan8r.grammar.core.model.exercise.ClarificationTurn
+import dev.sethan8r.grammar.core.model.exercise.ExerciseEvaluation
+import dev.sethan8r.grammar.core.model.exercise.GeneratedExercise
+import dev.sethan8r.grammar.core.repository.AiExerciseRepository
 import kotlinx.coroutines.delay
 import javax.inject.Inject
 import javax.inject.Singleton

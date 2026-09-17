@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.R
-import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
+import dev.sethan8r.grammar.core.model.theory.TopicSummary
 import dev.sethan8r.grammar.app.ui.components.DualTitle
 import dev.sethan8r.grammar.app.ui.components.InfoButton
 import dev.sethan8r.grammar.app.ui.theme.Accent

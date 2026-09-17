@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model.theory
+package dev.sethan8r.grammar.core.model.theory
 
 /**
  * Типизированный блок теории — доменное представление одного элемента карточки.

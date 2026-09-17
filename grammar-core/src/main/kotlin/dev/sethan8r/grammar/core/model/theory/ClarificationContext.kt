@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model.theory
+package dev.sethan8r.grammar.core.model.theory
 
 /**
  * Всё, что экрану «Не совсем понял» нужно знать о карточке: что показать в шапке, какие готовые

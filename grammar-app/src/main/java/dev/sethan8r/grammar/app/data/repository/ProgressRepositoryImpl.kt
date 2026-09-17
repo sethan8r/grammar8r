@@ -6,11 +6,11 @@ import dev.sethan8r.grammar.app.data.local.user.dao.ProgressDao
 import dev.sethan8r.grammar.app.data.local.user.entity.UserCardProgress
 import dev.sethan8r.grammar.app.data.local.user.entity.UserExerciseResult
 import dev.sethan8r.grammar.app.data.local.user.entity.UserMicrotopicProgress
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseRef
-import dev.sethan8r.grammar.app.domain.model.exercise.HardcodedExerciseType
-import dev.sethan8r.grammar.app.domain.model.progress.CardCompletion
-import dev.sethan8r.grammar.app.domain.model.progress.MicrotopicCompletionSummary
-import dev.sethan8r.grammar.app.domain.repository.ProgressRepository
+import dev.sethan8r.grammar.core.model.exercise.ExerciseRef
+import dev.sethan8r.grammar.core.model.exercise.HardcodedExerciseType
+import dev.sethan8r.grammar.core.model.progress.CardCompletion
+import dev.sethan8r.grammar.core.model.progress.MicrotopicCompletionSummary
+import dev.sethan8r.grammar.core.repository.ProgressRepository
 import kotlinx.coroutines.flow.first
 import javax.inject.Inject
 

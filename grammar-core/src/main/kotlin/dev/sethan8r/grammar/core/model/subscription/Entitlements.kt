@@ -1,11 +1,11 @@
-package dev.sethan8r.grammar.app.domain.model.subscription
+package dev.sethan8r.grammar.core.model.subscription
 
 import dev.sethan8r.grammar.shared.SubscriptionTier
 import java.time.Instant
 
 /**
  * Доменное представление прав/лимитов пользователя — то, что отдаёт
- * [dev.sethan8r.grammar.app.domain.repository.EntitlementsProvider] (единый источник тира/лимитов).
+ * [dev.sethan8r.grammar.core.repository.EntitlementsProvider] (единый источник тира/лимитов).
  *
  * Маппится из [dev.sethan8r.grammar.shared.SubscriptionDto] на границе data-слоя (разные классы:
  * DTO — транспорт, это — домен). `microtopicsDailyLimit == null` — безлимит (Tier1/Tier2/Admin).

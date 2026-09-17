@@ -1,9 +1,9 @@
-package dev.sethan8r.grammar.app.domain.model.theory
+package dev.sethan8r.grammar.core.model.theory
 
 /**
  * Сырое объединение источников дерева теории (content.db + прогресс из user.db), которое
  * репозиторий отдаёт одним снимком. Превращение в готовый [TheoryListItem]-список — задача
- * чистого [dev.sethan8r.grammar.app.domain.usecase.GetTheoryListUseCase] (тестируется без Android).
+ * чистого [dev.sethan8r.grammar.core.usecase.GetTheoryListUseCase] (тестируется без Android).
  */
 data class TheoryData(
     val categories: List<TheoryCategory>,

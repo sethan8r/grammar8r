@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model.theory
+package dev.sethan8r.grammar.core.model.theory
 
 /**
  * Плоский снимок курса для поиска: всё, по чему ищем, и всё, что показываем в выдаче.

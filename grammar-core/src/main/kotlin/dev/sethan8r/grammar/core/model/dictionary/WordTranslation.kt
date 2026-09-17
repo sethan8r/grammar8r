@@ -1,8 +1,8 @@
-package dev.sethan8r.grammar.app.domain.model.dictionary
+package dev.sethan8r.grammar.core.model.dictionary
 
 /**
  * Перевод слова для попапа по долгому нажатию (`TranslatableText`).
- * Отдаётся [dev.sethan8r.grammar.app.domain.repository.DictionaryRepository].
+ * Отдаётся [dev.sethan8r.grammar.core.repository.DictionaryRepository].
  *
  * Источник — внешние словари (LingvoLive → Yandex) + кэш `DictionaryCache`. Это НЕ контракт нашего
  * сервера, поэтому DTO в grammar-shared не заводится — модель чисто доменная.

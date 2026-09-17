@@ -59,10 +59,10 @@ import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.lerp as lerpDp
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.R
-import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
-import dev.sethan8r.grammar.app.domain.model.exercise.ExerciseAnswer
-import dev.sethan8r.grammar.app.domain.model.exercise.TextItem
-import dev.sethan8r.grammar.app.domain.usecase.ExerciseEvaluator
+import dev.sethan8r.grammar.core.model.exercise.Exercise
+import dev.sethan8r.grammar.core.model.exercise.ExerciseAnswer
+import dev.sethan8r.grammar.core.model.exercise.TextItem
+import dev.sethan8r.grammar.core.usecase.ExerciseEvaluator
 import dev.sethan8r.grammar.app.ui.screens.exercise.AnswerPhase
 import dev.sethan8r.grammar.app.ui.screens.exercise.isEditable
 import dev.sethan8r.grammar.app.ui.theme.Accent
@@ -105,7 +105,7 @@ private const val LINE_BREAK_OPPORTUNITY = "\u200B"
  * Рендерер TEXT_INPUT во [ExerciseFrame] (трясётся на ошибке). Пропуск `___` — это инлайн-поле ввода
  * прямо в предложении (пользователь печатает в него, а не в отдельное поле), ширина — по длине
  * правильного ответа. Проверка ввода — case-insensitive с учётом сокращений
- * ([dev.sethan8r.grammar.app.domain.usecase.AnswerNormalizer]).
+ * ([dev.sethan8r.grammar.core.usecase.AnswerNormalizer]).
  *
  * Раскладка — аккордеон-фокус на общем [ExerciseAccordionItem]: пока идёт ответ, раскрыт ровно ОДИН
  * пункт (предложение с полем + контекст), остальные свёрнуты в строку «точка-индикатор + приглушённое

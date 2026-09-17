@@ -5,8 +5,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.navigation.toRoute
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dev.sethan8r.grammar.app.domain.model.progress.MicrotopicCompletionSummary
-import dev.sethan8r.grammar.app.domain.repository.ProgressRepository
+import dev.sethan8r.grammar.core.model.progress.MicrotopicCompletionSummary
+import dev.sethan8r.grammar.core.repository.ProgressRepository
 import dev.sethan8r.grammar.app.ui.navigation.MicrotopicSummaryRoute
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

@@ -15,8 +15,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import dev.sethan8r.grammar.app.domain.model.exercise.DialogLine
-import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
+import dev.sethan8r.grammar.core.model.exercise.DialogLine
+import dev.sethan8r.grammar.core.model.exercise.Exercise
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary

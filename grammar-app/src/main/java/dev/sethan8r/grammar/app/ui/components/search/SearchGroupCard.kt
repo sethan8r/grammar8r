@@ -9,7 +9,7 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import dev.sethan8r.grammar.app.domain.model.theory.SearchGroup
+import dev.sethan8r.grammar.core.model.theory.SearchGroup
 import dev.sethan8r.grammar.app.ui.components.theory.MicrotopicRow
 import dev.sethan8r.grammar.app.ui.components.theory.MicrotopicStatusStyle
 import dev.sethan8r.grammar.app.ui.components.theory.TopicCardBody

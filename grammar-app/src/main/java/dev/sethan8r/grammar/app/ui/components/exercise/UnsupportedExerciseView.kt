@@ -12,7 +12,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 import dev.sethan8r.grammar.app.R
-import dev.sethan8r.grammar.app.domain.model.exercise.Exercise
+import dev.sethan8r.grammar.core.model.exercise.Exercise
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 

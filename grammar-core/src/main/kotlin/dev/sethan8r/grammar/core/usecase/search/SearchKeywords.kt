@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.usecase.search
+package dev.sethan8r.grammar.core.usecase.search
 
 /**
  * Разбор поля `searchKeywords` (теги через запятую одной строкой) в список тегов.

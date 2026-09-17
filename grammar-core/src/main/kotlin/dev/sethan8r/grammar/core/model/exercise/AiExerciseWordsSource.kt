@@ -1,4 +1,4 @@
-package dev.sethan8r.grammar.app.domain.model.exercise
+package dev.sethan8r.grammar.core.model.exercise
 
 /**
  * Один источник слов для AI-промта: таблица + категория + сколько взять.

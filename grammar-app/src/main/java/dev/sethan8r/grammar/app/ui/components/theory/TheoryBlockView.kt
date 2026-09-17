@@ -33,8 +33,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlin.math.ceil
 import kotlin.math.min
-import dev.sethan8r.grammar.app.domain.model.theory.CalloutVariant
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryBlock
+import dev.sethan8r.grammar.core.model.theory.CalloutVariant
+import dev.sethan8r.grammar.core.model.theory.TheoryBlock
 import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.theme.Accent
 import dev.sethan8r.grammar.app.ui.theme.Background

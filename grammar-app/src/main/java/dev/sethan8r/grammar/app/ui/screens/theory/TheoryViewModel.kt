@@ -3,10 +3,10 @@ package dev.sethan8r.grammar.app.ui.screens.theory
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dev.sethan8r.grammar.app.domain.model.theory.SearchGroup
-import dev.sethan8r.grammar.app.domain.model.theory.TheoryListItem
-import dev.sethan8r.grammar.app.domain.usecase.GetTheoryListUseCase
-import dev.sethan8r.grammar.app.domain.usecase.search.SearchTheoryUseCase
+import dev.sethan8r.grammar.core.model.theory.SearchGroup
+import dev.sethan8r.grammar.core.model.theory.TheoryListItem
+import dev.sethan8r.grammar.core.usecase.GetTheoryListUseCase
+import dev.sethan8r.grammar.core.usecase.search.SearchTheoryUseCase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted

@@ -18,7 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicSummary
+import dev.sethan8r.grammar.core.model.theory.MicrotopicSummary
 import dev.sethan8r.grammar.app.ui.components.scaffold.BackTopBar
 import dev.sethan8r.grammar.app.ui.components.scaffold.PinnedHeader
 import dev.sethan8r.grammar.app.ui.components.theory.MicrotopicRow

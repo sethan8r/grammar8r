@@ -16,7 +16,7 @@ import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TextInputExer
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TransformationExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.TrueFalseExercise
 import dev.sethan8r.grammar.app.data.local.content.entity.exercise.WordArrangementExercise
-import dev.sethan8r.grammar.app.domain.model.exercise.ChoiceType
+import dev.sethan8r.grammar.core.model.exercise.ChoiceType
 
 /**
  * Чтение упражнений из content.db (read-only). По индексу карточки [getExercisesForCard] код

@@ -1,11 +1,11 @@
-package dev.sethan8r.grammar.app.domain.usecase.search
+package dev.sethan8r.grammar.core.usecase.search
 
-import dev.sethan8r.grammar.app.domain.model.theory.IndexedMicrotopic
-import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicState
-import dev.sethan8r.grammar.app.domain.model.theory.MicrotopicSummary
-import dev.sethan8r.grammar.app.domain.model.theory.SearchGroup
-import dev.sethan8r.grammar.app.domain.model.theory.SearchIndex
-import dev.sethan8r.grammar.app.domain.model.theory.TopicSummary
+import dev.sethan8r.grammar.core.model.theory.IndexedMicrotopic
+import dev.sethan8r.grammar.core.model.theory.MicrotopicState
+import dev.sethan8r.grammar.core.model.theory.MicrotopicSummary
+import dev.sethan8r.grammar.core.model.theory.SearchGroup
+import dev.sethan8r.grammar.core.model.theory.SearchIndex
+import dev.sethan8r.grammar.core.model.theory.TopicSummary
 import javax.inject.Inject
 import kotlin.math.roundToInt
 
