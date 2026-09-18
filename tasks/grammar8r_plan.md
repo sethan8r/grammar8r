@@ -5428,25 +5428,25 @@ theory/
 │   │       и мир, и человека, и болезнь. Вопрос ставим, ответ не раскрываем — у него свой дом в конце темы.
 │   │       Плюс «погоды» во мн. ч. как источник weathers ✗. Мост в следующую микротему. Без AI.
 │   │
-│   ├── МТ · It's raining · Погода без подлежащего  ← механика, на которой стоит вся тема
-│   │   ├── Card · Пустое it — двигатель погоды: «холодно» → It's cold, «идёт дождь» → It's raining. В русском у погоды
+│   ├── МТ216 · It's raining · Погода без подлежащего ✅ (написана, ALL GREEN 18.09.26)  ← механика, на которой стоит вся тема
+│   │   ├── Card 582 · Пустое it — двигатель погоды: «холодно» → It's cold, «идёт дождь» → It's raining. В русском у погоды
 │   │   │   нет подлежащего, в английском оно ОБЯЗАТЕЛЬНО (it = формальный субъект). Ловушка русского: пропуск it —
 │   │   │   «Is raining» ✗ / «Cold today» ✗ → «It's raining» / «It's cold today». Кросс-ссылка: формальное it — «Устройство языка».
-│   │   ├── Card · Три упаковки одной погоды (карточка-схема, таблица):
+│   │   ├── Card 583 · Три упаковки одной погоды (карточка-схема, таблица):
 │   │   │   • it's + прилагательное → It's sunny / cloudy / windy / cold / hot
 │   │   │   • it's + V-ing → It's raining / snowing / pouring / freezing
 │   │   │   • there's + существительное → There's a storm / There's fog / There's a lot of wind
 │   │   │   Одна и та же погода, три грамматические упаковки — учим выбирать нужную. AI: описать погоду за окном (NONE).
-│   │   ├── Card · weather — неисчисляемое: «a weather» ✗, «weathers» ✗, «a nice weather» ✗ → «nice weather». Ловушка
+│   │   ├── Card 584 · weather — неисчисляемое: «a weather» ✗, «weathers» ✗, «a nice weather» ✗ → «nice weather». Ловушка
 │   │   │   русского («погоды» бывает во мн.ч.). + it vs the weather: It's nice today = The weather is nice today
 │   │   │   (it — по умолчанию/разговорно, the weather is… — явно/чуть формальнее). ⭐ Четвёртая упаковка:
 │   │   │   it's + a + прилагательное + day (It's a beautiful day, What a lovely day!) — почему у day артикль есть,
 │   │   │   а у weather нет: исчисляемый день против неисчисляемой погоды.
-│   │   ├── Card · Отрицание и вопрос погоды (канон полного набора форм): It isn't raining · It doesn't rain much
+│   │   ├── Card 585 · Отрицание и вопрос погоды (канон полного набора форм): It isn't raining · It doesn't rain much
 │   │   │   here · There isn't any wind / There's no wind — отрицание в каждой из упаковок по своим правилам.
 │   │   │   + отрицательный вопрос Isn't it cold today? как ход small talk (удивление, приглашение согласиться) —
 │   │   │   превью к последней микротеме. + AI.
-│   │   └── Card · Спросить о погоде: What's the weather like? / What's it like outside? / How's the weather? + как ответить
+│   │   └── Card 586 · Спросить о погоде: What's the weather like? / What's it like outside? / How's the weather? + как ответить
 │   │       (It's lovely / It's awful / Not bad). Ловушка: «How is the weather?» ок, но «What is the weather?» ✗ — нужен like.
 │   │       ⭐ Та же формула во всех временах: What was the weather like? / What's the weather going to be like
 │   │       tomorrow?, и косвенный вариант Do you know if it's going to rain? (опора «Косвенные вопросы»).

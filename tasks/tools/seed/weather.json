@@ -18,6 +18,13 @@
       "title": "Weather Talk · Погода: зачем тема и как о ней говорят",
       "order": 1,
       "searchKeywords": "зачем тут it, почему нельзя сказать is raining, предложение без подлежащего, о чём говорить с незнакомцем"
+    },
+    {
+      "id": 216,
+      "topicId": 34,
+      "title": "It's raining · Погода без подлежащего",
+      "order": 2,
+      "searchKeywords": "it's или there's, it's fog или foggy, a weather или weather, спросить какая погода на улице, isn't it cold"
     }
   ],
   "grammar_cards": [
@@ -390,6 +397,948 @@
         "Зачем английскому подлежащее там, где действовать некому?",
         "Как понять, о погоде говорят или о самом человеке?"
       ]
+    },
+    {
+      "id": 582,
+      "microtopicId": 216,
+      "title": "Пустое it — двигатель погоды",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Прошлая карточка кончилась обещанием: английскому предложению нужно подлежащее даже там, где действовать некому, и для погоды у языка припасено специальное слово. Вот оно — `it`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово знакомое. Мы знаем его как «оно»: **Where is my umbrella? — It's in the car.** Здесь `it` показывает на зонт, его можно потрогать, о нём и речь. В погоде всё иначе."
+        },
+        {
+          "type": "heading",
+          "text": "Слово, которое ничего не значит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «Холодно» по-английски собирается так: **It's cold.** Спросить «а что холодно?» здесь бессмысленно — `it` не показывает ни на что. Оно стоит на первом месте только потому, что первое место в английском предложении пустым не бывает. Это то самое формальное `it`, о котором мы говорили в «Устройстве языка»: место подлежащего занято, а кем — неважно."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It + is + какая погода"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сначала заглушка, потом сама погода: **It's cold.** · **It's windy.** · **It's raining.** Русский начинает прямо с погоды, английский — с пустого места, которое надо чем-то закрыть."
+        },
+        {
+          "type": "heading",
+          "text": "Почему рука выбрасывает it"
+        },
+        {
+          "type": "paragraph",
+          "text": "Потому что переводить его нечем. Когда мы переводим «Холодно сегодня», в русской фразе просто нет слова, которому соответствовало бы `it`, — и рука честно пишет то, что видит."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Cold today** ✗ и **Is raining** ✗ — для англичанина это не предложения, а обрывки: он услышал середину и ждёт начала, которого не было."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй ход той же ошибки — попытка найти подлежащее любой ценой и сделать им саму погоду: **Today is rain** ✗. Получается «сегодня является дождём», а это уже не про погоду, это загадка. Правильно — **It's raining today** ✓: место подлежащего занимает пустышка, а дождь остаётся тем, чем он и был, — действием."
+        },
+        {
+          "type": "heading",
+          "text": "it не исчезает, когда меняется время"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смена времени трогает только глагол — заглушка остаётся на месте всегда:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Когда",
+            "Как сказать"
+          ],
+          "rows": [
+            [
+              "сейчас",
+              "It's raining."
+            ],
+            [
+              "вчера",
+              "It rained all day."
+            ],
+            [
+              "завтра",
+              "It will rain."
+            ],
+            [
+              "с самого утра",
+              "It's been raining since morning."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни в одной строке `it` не пропало и не заменилось ничем другим. Это и есть главная мысль карточки: погода в английском всегда начинается с одного и того же слова."
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Tom",
+              "text": "It's really cold in Boston today."
+            },
+            {
+              "speaker": "Me",
+              "text": "I know. It was warm last week."
+            },
+            {
+              "speaker": "Tom",
+              "text": "And now it's raining again."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Три реплики — и в каждой `it` на первом месте, хотя ни разу оно ничего не называет."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отрицание и вопрос собираются с этой заглушкой не так очевидно, как кажется, — им отведена отдельная карточка этой микротемы."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У английской погоды подлежащее есть всегда, и это `it` — пустышка, которая занимает первое место и ничего не называет."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It + is + какая погода"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Cold today** ✗ → **It's cold today** ✓",
+            "**Is raining** ✗ → **It's raining** ✓",
+            "**Today is rain** ✗ → **It's raining today** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "При смене времени `it` остаётся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Меняется только глагол: **It was cold last night.** · **It will be cold tomorrow.** · **It's been raining since morning.**"
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Сегодня жарко.",
+          "en": "It's hot today."
+        },
+        {
+          "ru": "Вчера вечером в Дублине было очень ветрено.",
+          "en": "It was very windy in Dublin last night."
+        },
+        {
+          "ru": "Завтра будет тепло.",
+          "en": "It will be warm tomorrow."
+        },
+        {
+          "ru": "В Осло всю неделю шёл снег.",
+          "en": "It snowed all week in Oslo."
+        },
+        {
+          "ru": "Уже темно.",
+          "en": "It's already dark."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему it в разговоре о погоде нельзя перевести на русский?",
+        "Зачем говорить it, если и так понятно, что речь о погоде?",
+        "Что услышит англичанин, если сказать ему Cold today?"
+      ]
+    },
+    {
+      "id": 583,
+      "microtopicId": 216,
+      "title": "Три упаковки одной погоды",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Сказать **It's cold** мы уже умеем. Но погода бывает не только холодной: дождь, туман, буря, ветер. И тут выясняется, что одной заглушки на все случаи не хватает — у английского под погоду заготовлены три разные упаковки."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It's + прилагательное · it's + глагол с -ing · there's + существительное"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "header": [
+            "Упаковка",
+            "Пример",
+            "Что стоит справа"
+          ],
+          "rows": [
+            [
+              "it's + прилагательное",
+              "It's sunny.",
+              "признак: sunny, cloudy, windy, cold"
+            ],
+            [
+              "it's + глагол с -ing",
+              "It's raining.",
+              "действие: raining, snowing, pouring"
+            ],
+            [
+              "there's + существительное",
+              "There's fog.",
+              "вещь: fog, wind, a storm"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как выбрать упаковку"
+        },
+        {
+          "type": "paragraph",
+          "text": "Выбирает не смысл, а порода слова. Одна и та же погода спокойно укладывается в две упаковки сразу, если у неё есть и прилагательное, и существительное: **It's foggy** ✓ и **There's fog** ✓ — обе фразы про один и тот же туман. А у бури ходового прилагательного нет, поэтому остаётся только **There's a storm.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**It's fog** ✗ → **There's fog** ✓ или **It's foggy** ✓. После `it's` существительное повисает: получается «оно является туманом», а `it` ничего не называет, ему нечем быть."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**There's raining** ✗ → **It's raining** ✓ или **There's rain** ✓. `There's` объявляет, что нечто есть, — после него нужна вещь, а не действие."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Артикль в третьей упаковке"
+        },
+        {
+          "type": "paragraph",
+          "text": "Буря — штука, её можно посчитать (one storm, two storms), поэтому ей нужен артикль: **There's a storm.** Туман и ветер не считаются — они идут голыми: **There's fog on the road.** · **There's wind today.** Если ветра много, англичанин добавит меру: **There's a lot of wind today.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**There's a fog** ✗ и **There's a wind** ✗ — туман и ветер артикль не берут, как не берёт его вода."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как это звучит в разговоре"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Lily",
+              "text": "Is it still raining?"
+            },
+            {
+              "speaker": "Me",
+              "text": "No, but there's a lot of wind."
+            },
+            {
+              "speaker": "Lily",
+              "text": "And it's cold. I'm not going out."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Три реплики — три упаковки, и ни одна не заменяет другую."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Одна и та же погода упаковывается тремя способами, и выбирает упаковку не смысл, а порода слова."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It's + прилагательное · it's + глагол с -ing · there's + существительное"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Признак → **It's windy.** · действие → **It's snowing.** · вещь → **There's fog.**",
+            "У слова есть форма на `-y` — годятся обе: **It's foggy** ✓ = **There's fog** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's fog** ✗ → **There's fog** ✓ — после it's нужен признак, не вещь",
+            "**There's raining** ✗ → **It's raining** ✓ — после there's нужна вещь, не действие",
+            "**There's a fog** ✗ → **There's fog** ✓ — туман и ветер не считаются, а буря считается: **There's a storm** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "На улице солнечно.",
+          "en": "It's sunny outside."
+        },
+        {
+          "ru": "В Вене идёт снег.",
+          "en": "It's snowing in Vienna."
+        },
+        {
+          "ru": "На дороге туман.",
+          "en": "There's fog on the road."
+        },
+        {
+          "ru": "Сегодня сильный ветер.",
+          "en": "There's a lot of wind today."
+        },
+        {
+          "ru": "Над морем буря.",
+          "en": "There's a storm over the sea."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать It's fog, если туман это тоже погода?",
+        "Как понять, есть ли у погодного слова форма на -y?",
+        "Когда после there's нужен артикль, а когда нет?"
+      ]
+    },
+    {
+      "id": 584,
+      "microtopicId": 216,
+      "title": "weather — вещество, а не штука",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Слово `weather` кажется простым ровно до того момента, когда его нужно поставить в предложение. Там оно ведёт себя не так, как ждёт русский."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «погода» спокойно считается: бывают «нелётные погоды», «в такие погоды не гуляют». Английское `weather` не считается вообще — как не считается вода: «три воды» звучит странно на любом языке. Мы уже видели это с `advice` из «Основ»: совет по-английски не штука, а вещество."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**A weather** ✗, **weathers** ✗, **a nice weather** ✗ → **nice weather** ✓. Артикль `a` значит «одна штука», а штук у погоды не бывает."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Два способа сказать одно и то же"
+        },
+        {
+          "type": "paragraph",
+          "text": "Погоду можно назвать вслух, а можно спрятать за заглушку — смысл не изменится:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's lovely today.** — так говорят по умолчанию, в живой речи",
+            "**The weather is lovely today.** — так говорят, когда погоду называют явно: в прогнозе, в письме, в отчёте"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакой разницы в значении нет, есть разница в тоне. В разговоре с соседом естественнее первое."
+        },
+        {
+          "type": "heading",
+          "text": "Четвёртая упаковка: день вместо погоды"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть ещё один ход, очень частый: англичанин говорит не о погоде, а о дне."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It's + a + прилагательное + day"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Получается **It's a beautiful day.** · **It's a fine day for a walk.** · и восклицание **What a lovely day!** Артикль здесь на месте, и вот почему: день — штука, его можно посчитать (one day, three days), а погоду посчитать нельзя. Одно слово берёт артикль, другое нет, хотя говорят они почти об одном."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**What a lovely weather!** ✗ → **What lovely weather!** ✓ или **What a lovely day!** ✓. Восклицание артикль не спасает: он зависит от слова, а не от интонации."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`weather` не считается: артикля `a` и множественного числа у него не бывает."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**a nice weather** ✗ → **nice weather** ✓",
+            "**weathers** ✗ → **weather** ✓",
+            "**What a lovely weather!** ✗ → **What lovely weather!** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "День считается, погода нет"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It's + a + прилагательное + day"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's a beautiful day.** ✓ · **What a lovely day!** ✓ — у дня артикль есть всегда",
+            "**It's lovely today.** = **The weather is lovely today.** — второе чуть официальнее"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "В Лиссабоне у нас была прекрасная погода.",
+          "en": "We had lovely weather in Lisbon."
+        },
+        {
+          "ru": "Какой прекрасный день!",
+          "en": "What a lovely day!"
+        },
+        {
+          "ru": "Сегодня погода хорошая.",
+          "en": "The weather is fine today."
+        },
+        {
+          "ru": "Это был идеальный день для прогулки.",
+          "en": "It was a perfect day for a walk."
+        },
+        {
+          "ru": "В Праге у нас была ужасная погода.",
+          "en": "We had terrible weather in Prague."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему день можно посчитать, а погоду нельзя?",
+        "Когда лучше сказать The weather is nice, а когда It's nice?",
+        "Как по-английски сказать «в такую погоду»?"
+      ]
+    },
+    {
+      "id": 585,
+      "microtopicId": 216,
+      "title": "Отрицание и вопрос погоды",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Половина разговоров о погоде — это «нет»: дождя нет, ветра нет, не холодно. И вот тут три упаковки расходятся окончательно: каждая отрицается по своим правилам, и перепутать их проще простого."
+        },
+        {
+          "type": "heading",
+          "text": "Каждая упаковка отрицается по-своему"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It isn't cold today.** — связка `is` уже стоит в предложении и берёт `not` на себя",
+            "**It isn't raining.** — то же самое: помощник `is` на месте, ему и отрицать",
+            "**It doesn't rain much here.** — Present Simple, помощника нет, поэтому приходит `does`",
+            "**There isn't any wind.** — у оборота `there is` своё отрицание, и после него появляется `any`"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It isn't + признак · it doesn't + глагол · there isn't any + существительное"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**It doesn't raining** ✗ → **It isn't raining** ✓. Два помощника подряд язык не держит: если в предложении уже есть `is`, звать `does` не нужно."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**There isn't a wind** ✗ → **There isn't any wind** ✓ или **There's no wind** ✓. Ветер не считается, поэтому артикль ему не годится: при отрицании неисчисляемое берёт `any` или уходит под `no`."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Два последних варианта значат одно и то же, но звучат по-разному: `There isn't any wind` — обычная констатация, `There's no wind` — чуть весомее, «ветра вообще ни капли»."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос и краткий ответ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос собирается так же, как везде: помощник выходит вперёд, всё остальное стоит на месте."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Is it cold outside?** — Yes, it is. / No, it isn't.",
+            "**Is it raining?** — Yes, it is.",
+            "**Does it rain a lot here?** — Yes, it does.",
+            "**Is there any fog?** — Yes, there is."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Does it raining?** ✗ и **Is it rains?** ✗ — помощник выбирается один раз и один: либо `is` при форме с `-ing`, либо `does` при простой форме."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Isn't it cold today? — не претензия, а ход разговора"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицательный вопрос в погоде звучит постоянно, и он не спорит и не придирается. По-русски это «Правда же, холодно?» — говорящий уверен в ответе и зовёт собеседника согласиться. Так начинают разговор в очереди и в лифте."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Isn't it lovely today?** — «Чудесно сегодня, правда?»",
+            "**Doesn't it rain here every autumn?** — «Здесь же каждую осень дожди, разве нет?»"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отвечают на такой вопрос по факту, а не по согласию. Холодно → **Yes, it is** («да, холодно»), хотя по-русски мы скажем «Да нет, холодно». Тепло → **No, it isn't**. Английское `yes` всегда стоит рядом с положительным фактом, что бы ни спрашивали."
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Ben",
+              "text": "Isn't it cold today?"
+            },
+            {
+              "speaker": "Me",
+              "text": "It is. And there's no sun at all."
+            },
+            {
+              "speaker": "Ben",
+              "text": "Does it always rain here in October?"
+            },
+            {
+              "speaker": "Me",
+              "text": "It does, but not like this."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Каждая упаковка погоды отрицается своим помощником, и второго помощника не зовут."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It isn't + признак · it doesn't + глагол · there isn't any + существительное"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It isn't windy.** · **It isn't snowing.** · **It doesn't rain much here.** · **There isn't any fog.**",
+            "**There's no wind.** = **There isn't any wind**, только весомее"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос и краткий ответ"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Is it cold?** — Yes, it is. · **Does it snow here?** — Yes, it does. · **Is there any wind?** — Yes, there is.",
+            "**Isn't it cold today?** — не претензия, а приглашение согласиться"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It doesn't raining** ✗ → **It isn't raining** ✓ — помощник уже есть",
+            "**Is it rains?** ✗ → **Does it rain?** ✓ — помощник выбирается один",
+            "**There isn't a wind** ✗ → **There isn't any wind** ✓ — ветер не считается",
+            "На **Isn't it cold?** при холоде отвечают **Yes, it is** ✓, а не «нет»"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Сегодня не холодно.",
+          "en": "It isn't cold today."
+        },
+        {
+          "ru": "Дождь не идёт.",
+          "en": "It isn't raining."
+        },
+        {
+          "ru": "Здесь не часто идёт дождь.",
+          "en": "It doesn't rain often here."
+        },
+        {
+          "ru": "Ветра сегодня нет.",
+          "en": "There isn't any wind today."
+        },
+        {
+          "ru": "Правда же, сегодня холодно?",
+          "en": "Isn't it cold today?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в одном отрицании isn't, а в другом doesn't?",
+        "Как ответить на Isn't it cold today, если на улице действительно холодно?",
+        "Чем There's no wind отличается от There isn't any wind?"
+      ]
+    },
+    {
+      "id": 586,
+      "microtopicId": 216,
+      "title": "Спросить о погоде",
+      "order": 5,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Пока мы умеем только сообщать о погоде. Осталось научиться её спрашивать — и это единственное место темы, где английский собирает вопрос совсем не так, как ждёт русский."
+        },
+        {
+          "type": "heading",
+          "text": "Почему без like вопрос ломается"
+        },
+        {
+          "type": "paragraph",
+          "text": "Главный вопрос о погоде звучит так: **What's the weather like?** Дословно «на что похожа погода?», по-живому «какая погода?». Слово `like` здесь не «нравиться», а «как, наподобие» — то же самое `like`, что в **It looks like rain.**"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "What + is + о чём спрашиваем + like"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**What is the weather?** ✗ — без `like` вопрос спрашивает, ЧЕМ погода является, и собеседник растеряется: ответить «погода — это погода»? Хвостик `like` и превращает его в вопрос о качестве."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три рабочих вопроса"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What's the weather like?** — самый частый, годится всегда",
+            "**How's the weather?** — то же самое, но `like` здесь не нужен: `how` уже сам спрашивает «как»",
+            "**What's it like outside?** — «что там на улице?», разговорный вариант с той же заглушкой `it`"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**How is the weather like?** ✗ — `how` и `like` спрашивают об одном и том же, вместе они не ставятся. Либо `what` с `like`, либо `how` без него."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Во всех временах собирается одинаково"
+        },
+        {
+          "type": "paragraph",
+          "text": "Меняется только связка, хвостик `like` стоит на месте:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What was the weather like in Rome?** — про прошлое",
+            "**What's the weather going to be like tomorrow?** — про завтра",
+            "**What's the weather been like this week?** — про отрезок, который ещё идёт"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А если спрашиваем осторожно и вежливо, работает косвенный вопрос из темы «Косвенные вопросы» — с прямым порядком слов: **Do you know if it's going to rain?**"
+        },
+        {
+          "type": "heading",
+          "text": "Как ответить"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ответ не обязан быть длинным. Одного прилагательного хватает:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's lovely.** · **It's fine.** · **Not bad.** · **It's awful.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И сразу возвращаем мяч — иначе разговор кончится на первой реплике."
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "text": "What's the weather like in Boston?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Not bad. It's cloudy, but it isn't raining."
+            },
+            {
+              "speaker": "Emma",
+              "text": "What's it going to be like tomorrow?"
+            },
+            {
+              "speaker": "Me",
+              "text": "They say it's going to be sunny. What about Madrid?"
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вопрос о погоде держится на хвостике `like` — без него он спрашивает не о том."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "What + is + о чём спрашиваем + like"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What's the weather like?** ✓ · **What's it like outside?** ✓ · **How's the weather?** ✓",
+            "Время меняет только связку: **What was the weather like?** · **What's the weather going to be like tomorrow?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What is the weather?** ✗ → **What's the weather like?** ✓ — без like это вопрос «чем погода является»",
+            "**How is the weather like?** ✗ → **How's the weather?** ✓ — how и like вместе не ставятся"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как ответить"
+        },
+        {
+          "type": "paragraph",
+          "text": "Хватает одного прилагательного: **It's lovely.** · **It's fine.** · **Not bad.** · **It's awful.** — и встречный вопрос."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Какая сегодня погода?",
+          "en": "What's the weather like today?"
+        },
+        {
+          "ru": "Какая погода была в Риме?",
+          "en": "What was the weather like in Rome?"
+        },
+        {
+          "ru": "Что там на улице?",
+          "en": "What's it like outside?"
+        },
+        {
+          "ru": "Какая завтра будет погода?",
+          "en": "What's the weather going to be like tomorrow?"
+        },
+        {
+          "ru": "Вы не знаете, будет ли дождь?",
+          "en": "Do you know if it's going to rain?"
+        }
+      ],
+      "clarificationOptions": [
+        "Зачем в вопросе о погоде нужно слово like?",
+        "Чем What's it like outside отличается от What's the weather like?",
+        "Как коротко ответить, если погода самая обычная?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -428,9 +1377,116 @@
       "exerciseType": "MATCHING",
       "exerciseId": 94,
       "orderInCard": 2
+    },
+    {
+      "cardId": 582,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 242,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 582,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 205,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 582,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 193,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 583,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 219,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 583,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 216,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 583,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 111,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 584,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 128,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 584,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 108,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 584,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 77,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 585,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 95,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 585,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 87,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 585,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 94,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 586,
+      "exerciseType": "MATCHING",
+      "exerciseId": 95,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 586,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 206,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 586,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 243,
+      "orderInCard": 2
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "weather_card583_ex1",
+      "cardId": 583,
+      "title": "Погода за окном",
+      "userInstruction": "Опишите погоду за своим окном тремя короткими предложениями — по одному на каждую из трёх упаковок.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "weather_card585_ex1",
+      "cardId": 585,
+      "title": "Переделай фразу о погоде",
+      "userInstruction": "Вы получите английское предложение о погоде и задание, во что его переделать. Перепишите предложение целиком.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "useful_words",
@@ -447,7 +1503,40 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 805,
+      "word": "fog",
+      "translation": "туман",
+      "transcription": "[fɒɡ]",
+      "microtopicId": 216,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 806,
+      "word": "wind",
+      "translation": "ветер",
+      "transcription": "[wɪnd]",
+      "microtopicId": 216,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 807,
+      "word": "like",
+      "translation": "как, наподобие",
+      "transcription": "[laɪk]",
+      "microtopicId": 216,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 808,
+      "word": "fine",
+      "translation": "хороший, ясный (о погоде)",
+      "transcription": "[faɪn]",
+      "microtopicId": 216,
+      "categoryId": "useful_words"
+    }
+  ],
   "table_fill_exercises": [],
   "true_false_exercises": [
     {
@@ -480,9 +1569,61 @@
         }
       ],
       "explanation": "английскому предложению нужно подлежащее, поэтому Is raining и Today is rain рассыпаются — работает только it на первом месте. А weather посчитать нельзя: множественного числа у него не бывает, правильно nice weather."
+    },
+    {
+      "id": 216,
+      "statements": [
+        {
+          "en": "There's thick fog in the mountains.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It's fog outside.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "It was snowing all night.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "There's very windy today.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "It's cloudy in Warsaw.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "после it's стоит признак, после there's — вещь, и менять их местами нельзя. Поэтому туман приходит через there's, а windy — признак и живёт только при it's."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 193,
+      "situationRu": "RU: На следующей неделе в Мадриде будет жарко.",
+      "correctSentence": "It will be hot in Madrid next week.",
+      "words": [
+        "It",
+        "will",
+        "be",
+        "hot",
+        "in Madrid",
+        "next week"
+      ],
+      "distractors": [
+        "is",
+        "there",
+        "will hot",
+        "the weather"
+      ],
+      "explanation": "будущее собирается как обычно — will плюс первая форма be, а перед ними стоит всё та же заглушка it. Форма will hot невозможна: hot это признак, а не действие, и связка be ему нужна."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 241,
@@ -504,9 +1645,123 @@
         }
       ],
       "explanation": "русская фраза обходится без подлежащего, английская — нет. Без первого слова получается обрывок, который собеседник слышит как начало недосказанного предложения."
+    },
+    {
+      "id": 242,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вчера весь день было холодно.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Was cold all day yesterday.",
+          "isCorrect": false
+        },
+        {
+          "text": "It was cold all day yesterday.",
+          "isCorrect": true
+        },
+        {
+          "text": "It cold all day yesterday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "русская фраза обходится без подлежащего, английская — нет, и первое место занимает it. Одной формы was мало: она глагол, а не подлежащее, и предложение без it остаётся обрывком."
+    },
+    {
+      "id": 219,
+      "choiceType": "CHOICE",
+      "prompt": "___ a lot of snow on the roof this morning.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "It was",
+          "isCorrect": false
+        },
+        {
+          "text": "It had",
+          "isCorrect": false
+        },
+        {
+          "text": "There were",
+          "isCorrect": false
+        },
+        {
+          "text": "There was",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "снег на крыше — это вещь, которая есть в наличии, поэтому работает оборот there was. Снег не считается, значит и глагол остаётся в единственном числе."
+    },
+    {
+      "id": 94,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Isn't it hot in here?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Правда же, здесь жарко?",
+          "isCorrect": true
+        },
+        {
+          "text": "Здесь не жарко.",
+          "isCorrect": false
+        },
+        {
+          "text": "А здесь разве не бывает жарко?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "отрицательный вопрос в разговоре о погоде не отрицает факт, а зовёт согласиться. Говорящий уже уверен, что жарко, и ждёт подтверждения."
+    },
+    {
+      "id": 243,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Не знаешь, какая завтра будет погода?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Do you know what will be the weather like tomorrow?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you know what the weather's going to be like tomorrow?",
+          "isCorrect": true
+        },
+        {
+          "text": "Do you know what is the weather like tomorrow?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после do you know вопрос теряет перестановку и идёт прямым порядком, как обычное предложение. Хвостик like при этом никуда не девается — без него спрашивают не о качестве погоды."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 108,
+      "items": [
+        {
+          "sentence": "We had ___ awful weather on the island.",
+          "contextRu": "",
+          "answer": "—",
+          "alternatives": []
+        },
+        {
+          "sentence": "What ___ warm evening!",
+          "contextRu": "",
+          "answer": "a",
+          "alternatives": []
+        },
+        {
+          "sentence": "It was ___ quiet morning after the storm.",
+          "contextRu": "",
+          "answer": "a",
+          "alternatives": []
+        }
+      ],
+      "explanation": "погода не считается, поэтому артикль перед ней невозможен даже с прилагательным. А вечер и утро — обычные счётные слова, и им артикль нужен, восклицание тут ничего не меняет.",
+      "taskDescription": "Впиши a, где он нужен, а где артикль не нужен — поставь прочерк."
+    }
+  ],
   "dialog_restore_exercises": [
     {
       "id": 86,
@@ -539,6 +1794,38 @@
         }
       ],
       "explanation": "хороший ответ соглашается и добавляет своё — тогда разговору есть куда идти. Английское «согласен» — это I agree, глагол am там лишний, а длительная форма собирается как it's raining, без потерянного помощника."
+    },
+    {
+      "id": 87,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Is there any wind out there?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Good. Then we can eat outside."
+        }
+      ],
+      "options": [
+        {
+          "text": "No, there isn't no wind.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, there isn't any.",
+          "isCorrect": true
+        },
+        {
+          "text": "No, it isn't any wind.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "вопрос начался с there, поэтому и ответ держится за него. Двух отрицаний в одном английском предложении не бывает: или isn't any, или there's no."
     }
   ],
   "matching_exercises": [
@@ -564,9 +1851,71 @@
         }
       ],
       "explanation": "одно русское слово стоит в четырёх разных мыслях, и по-английски каждая собирается по-своему. Заметить разницу по-русски — первый шаг: пока она незаметна, выбрать правильную английскую конструкцию невозможно."
+    },
+    {
+      "id": 95,
+      "taskDescription": "соедини вопрос с подходящим ответом.",
+      "pairs": [
+        {
+          "left": "What's it like in Warsaw?",
+          "right": "Cold, but sunny."
+        },
+        {
+          "left": "Was it windy at the coast?",
+          "right": "Yes, very."
+        },
+        {
+          "left": "Does it snow here in March?",
+          "right": "Sometimes."
+        },
+        {
+          "left": "Is there any rain today?",
+          "right": "No, not a drop."
+        }
+      ],
+      "explanation": "вопрос со словом what ждёт описания, а вопрос с помощником — короткого да или нет. Краткий ответ повторяет помощника вопроса, поэтому на Was it отвечают Yes, it was, а на Does it — Yes, it does."
     }
   ],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 205,
+      "wrongSentence": "Is snowing in Vienna today.",
+      "options": [
+        {
+          "text": "It snowing in Vienna today.",
+          "isCorrect": false
+        },
+        {
+          "text": "Today is snow in Vienna.",
+          "isCorrect": false
+        },
+        {
+          "text": "It's snowing in Vienna today.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "предложению не хватает первого слова — того самого it, которое занимает место подлежащего. Убрать помощника is тоже нельзя: длительная форма собирается из is и snowing вместе."
+    },
+    {
+      "id": 206,
+      "wrongSentence": "How is the weather like in Berlin today?",
+      "options": [
+        {
+          "text": "What's the weather like in Berlin today?",
+          "isCorrect": true
+        },
+        {
+          "text": "What the weather is like in Berlin today?",
+          "isCorrect": false
+        },
+        {
+          "text": "How the weather is in Berlin today?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "how и like спрашивают об одном и том же, поэтому вместе не ставятся. В прямом вопросе связка выходит вперёд подлежащего, а прямой порядок слов остаётся только в косвенном вопросе."
+    }
+  ],
   "construction_meaning_exercises": [
     {
       "id": 76,
@@ -590,9 +1939,52 @@
         }
       ],
       "explanation": "going to говорит о том, что случится, а признаки этого видны уже сейчас. Про момент сказали бы It's snowing, про регулярность — It snows a lot here, про прошлую ночь — It snowed all night."
+    },
+    {
+      "id": 77,
+      "construction": "What terrible weather!",
+      "options": [
+        {
+          "text": "Какая ужасная погода!",
+          "isCorrect": true
+        },
+        {
+          "text": "Какой ужасный день!",
+          "isCorrect": false
+        },
+        {
+          "text": "Что за погода такая?",
+          "isCorrect": false
+        },
+        {
+          "text": "Какая погода тебе не нравится?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "это восклицание, а не вопрос: слово what здесь усиливает, а не спрашивает. Про день сказали бы What a terrible day — с артиклем, потому что день считается, а погода нет."
     }
   ],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 95,
+      "taskDescription": "сделай каждое предложение отрицательным.",
+      "items": [
+        {
+          "original": "It's snowing in Oslo.",
+          "transformed": "It isn't snowing in Oslo."
+        },
+        {
+          "original": "It rains a lot in Dublin.",
+          "transformed": "It doesn't rain a lot in Dublin."
+        },
+        {
+          "original": "It was cold last night.",
+          "transformed": "It wasn't cold last night."
+        }
+      ],
+      "explanation": "если помощник или связка в предложении уже есть, отрицание вешают прямо на них. Помощник приходит со стороны только там, где его не было, — в простой форме настоящего времени."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 127,
@@ -621,7 +2013,54 @@
         }
       ],
       "explanation": "разговор начинают с самой погоды, без вопроса к собеседнику. Поддерживают его согласием плюс своим добавлением — на голом «да» разговор кончается. А возвращают мяч вопросом, на который собеседнику есть что ответить."
+    },
+    {
+      "id": 128,
+      "taskDescription": "распредели сочетания по тому, нужен ли им артикль.",
+      "categories": [
+        {
+          "title": "Нужен a",
+          "items": [
+            "cold night",
+            "sunny morning",
+            "long storm"
+          ]
+        },
+        {
+          "title": "Артикль не нужен",
+          "items": [
+            "warm weather",
+            "heavy rain",
+            "thick fog"
+          ]
+        }
+      ],
+      "explanation": "ночь, утро и буря считаются поштучно, поэтому берут артикль. Погода, дождь и туман не считаются — как вода, их измеряют, а не пересчитывают."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 111,
+      "groupDescription": "Три из четырёх слов встают сразу после It's, а одно — нет",
+      "items": [
+        {
+          "text": "windy",
+          "isOdd": false
+        },
+        {
+          "text": "cloudy",
+          "isOdd": false
+        },
+        {
+          "text": "storm",
+          "isOdd": true
+        },
+        {
+          "text": "sunny",
+          "isOdd": false
+        }
+      ],
+      "explanation": "три слова из четырёх называют признак, поэтому спокойно идут после it's. Буря — вещь, и для неё нужна другая упаковка: There's a storm."
+    }
+  ]
 }

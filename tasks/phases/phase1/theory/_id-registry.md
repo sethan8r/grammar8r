@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 582 |
-| Categorization | 128 |
+| Card | 587 |
+| Categorization | 129 |
 | Category | 8 |
-| ConstructionMeaning | 77 |
-| DialogRestore | 87 |
-| ErrorCorrection | 205 |
-| FindTheOdd | 111 |
-| Matching | 95 |
-| Microtopic | 216 |
-| MultipleChoice·CHOICE | 219 |
-| MultipleChoice·FORWARD_CHOICE | 242 |
-| MultipleChoice·REVERSE_CHOICE | 94 |
+| ConstructionMeaning | 78 |
+| DialogRestore | 88 |
+| ErrorCorrection | 207 |
+| FindTheOdd | 112 |
+| Matching | 96 |
+| Microtopic | 217 |
+| MultipleChoice·CHOICE | 220 |
+| MultipleChoice·FORWARD_CHOICE | 244 |
+| MultipleChoice·REVERSE_CHOICE | 95 |
 | TableFill | 43 |
-| TextInput | 108 |
+| TextInput | 109 |
 | Topic | 35 |
-| Transformation | 95 |
-| TrueFalse | 216 |
-| WordArrangement | 193 |
-| course_word | 805 |
+| Transformation | 96 |
+| TrueFalse | 217 |
+| WordArrangement | 194 |
+| course_word | 809 |
 
 ## Диапазоны по темам
 
@@ -641,15 +641,23 @@
 - course_word: 395–410 (16)
 
 ### weather
-- Card: 580–581 (2)
-- Categorization: 127–127 (1)
-- ConstructionMeaning: 76–76 (1)
-- DialogRestore: 86–86 (1)
-- Matching: 94–94 (1)
-- Microtopic: 215–215 (1)
-- MultipleChoice·FORWARD_CHOICE: 241–241 (1)
+- Card: 580–586 (7)
+- Categorization: 127–128 (2)
+- ConstructionMeaning: 76–77 (2)
+- DialogRestore: 86–87 (2)
+- ErrorCorrection: 205–206 (2)
+- FindTheOdd: 111–111 (1)
+- Matching: 94–95 (2)
+- Microtopic: 215–216 (2)
+- MultipleChoice·CHOICE: 219–219 (1)
+- MultipleChoice·FORWARD_CHOICE: 241–243 (3)
+- MultipleChoice·REVERSE_CHOICE: 94–94 (1)
+- TextInput: 108–108 (1)
 - Topic: 34–34 (1)
-- TrueFalse: 215–215 (1)
+- Transformation: 95–95 (1)
+- TrueFalse: 215–216 (2)
+- WordArrangement: 193–193 (1)
+- course_word: 805–808 (4)
 
 ## Коллизии ID (КРИТИЧНО — должно быть пусто)
 
