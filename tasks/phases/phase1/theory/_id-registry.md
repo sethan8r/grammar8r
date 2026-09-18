@@ -7,23 +7,23 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 580 |
-| Categorization | 127 |
+| Card | 582 |
+| Categorization | 128 |
 | Category | 8 |
-| ConstructionMeaning | 76 |
-| DialogRestore | 86 |
+| ConstructionMeaning | 77 |
+| DialogRestore | 87 |
 | ErrorCorrection | 205 |
 | FindTheOdd | 111 |
-| Matching | 94 |
-| Microtopic | 215 |
+| Matching | 95 |
+| Microtopic | 216 |
 | MultipleChoice·CHOICE | 219 |
-| MultipleChoice·FORWARD_CHOICE | 241 |
+| MultipleChoice·FORWARD_CHOICE | 242 |
 | MultipleChoice·REVERSE_CHOICE | 94 |
 | TableFill | 43 |
 | TextInput | 108 |
-| Topic | 34 |
+| Topic | 35 |
 | Transformation | 95 |
-| TrueFalse | 215 |
+| TrueFalse | 216 |
 | WordArrangement | 193 |
 | course_word | 805 |
 
@@ -639,6 +639,17 @@
 - TrueFalse: 85–88 (4)
 - WordArrangement: 70–72 (3)
 - course_word: 395–410 (16)
+
+### weather
+- Card: 580–581 (2)
+- Categorization: 127–127 (1)
+- ConstructionMeaning: 76–76 (1)
+- DialogRestore: 86–86 (1)
+- Matching: 94–94 (1)
+- Microtopic: 215–215 (1)
+- MultipleChoice·FORWARD_CHOICE: 241–241 (1)
+- Topic: 34–34 (1)
+- TrueFalse: 215–215 (1)
 
 ## Коллизии ID (КРИТИЧНО — должно быть пусто)
 
