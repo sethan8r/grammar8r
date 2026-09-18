@@ -53,6 +53,13 @@
       "title": "I see, see you, I heard · Понимаю, а не вижу",
       "order": 6,
       "searchKeywords": "i see, we'll see, let me see, meet или see, see off, hear from или hear of, слышал новость, видеться"
+    },
+    {
+      "id": 214,
+      "topicId": 33,
+      "title": "Live Practice · Глаза, уши и голова",
+      "order": 7,
+      "searchKeywords": "живая практика с ии, потренировать пять глаголов разом, проверить себя без подсказок, перевести фразу с ии, найти ошибку с ии"
     }
   ],
   "grammar_cards": [
@@ -4587,6 +4594,337 @@
         "Почему «я слышал, ты переезжаешь» можно сказать через I hear?",
         "Когда hear всё-таки ставят в Continuous?"
       ]
+    },
+    {
+      "id": 579,
+      "microtopicId": 214,
+      "title": "Живая практика: глаза, уши и голова",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена целиком — от оси «кто кого нашёл» до проводов в аэропорту и новостей, которые дошли через людей. Дальше карточками её не закрепить: в жизни никто не подписывает, каким из пяти глаголов это говорится. Есть сцена, пара секунд и ваш рот, из которого сейчас что-то вылетит."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому финал темы — живая практика: пары фраз, русские фразы и чужие ошибки, в которых глагол выбираете вы."
+        },
+        {
+          "type": "heading",
+          "text": "Кто кого нашёл — ось всей темы"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что произошло",
+            "Глаза",
+            "Уши",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "картинка или звук пришли сами",
+              "see",
+              "hear",
+              "I saw a bird. · I can hear a noise."
+            ],
+            [
+              "вы сами направили внимание",
+              "look at",
+              "listen to",
+              "Look at that bird! · Listen to me!"
+            ],
+            [
+              "держите внимание на том, что длится",
+              "watch",
+              "—",
+              "I watched the bird for an hour."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Дело не в органе чувств и не в переводе слова, а в том, кто кого нашёл. Одна и та же птица за окном получает три разных глагола — и всё решает, что именно вы с ней делали."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Continuous и can — следствие оси"
+        },
+        {
+          "type": "paragraph",
+          "text": "`look`, `watch`, `listen` — это ваши действия, их можно тянуть: **What are you watching?** · **Are you listening to me?** А `see` и `hear` случаются сами, тянуть в них нечего: **What are you seeing?** ✗ → **What can you see?** ✓ · **I'm hearing a noise** ✗ → **I can hear a noise** ✓. Безличное русское «не видно, не слышно» получает и подлежащее, и `can't`: **I can't see from here** · **I can't hear you very well**, а «не расслышал» — это **Sorry, I didn't catch that**."
+        },
+        {
+          "type": "heading",
+          "text": "Адрес взгляда и слуха"
+        },
+        {
+          "type": "paragraph",
+          "text": "`look` и `listen` без адреса не живут: **Look at me** ✓, **Listen to me** ✓. `see`, `hear` и `watch` адреса не просят: **I watched the birds** ✓, **I can hear you** ✓. У `look` адресов много, и выбирают их по тому, куда летит взгляд: **look out of the window** — изнутри наружу, **look through the window** — снаружи сквозь стекло, **look in the mirror**, **look in the bag**, **look up**, **look down**. В вопросе предлог уезжает в самый конец: **What are you looking at?** · **What are you listening to?**"
+        },
+        {
+          "type": "heading",
+          "text": "Видел, как он перешёл дорогу"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Глагол восприятия + кого + голый глагол или -ing"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**I saw him cross the street** — увидел действие целиком, от начала до конца. **I saw him crossing the street** — застал на середине. Русское «как» внутри такой фразы не переводится вообще, а время стоит один раз, у первого глагола: **We watched the plane land** · **I didn't see him leave**. Безличное «слышно, как…» тоже получает того, кто слышит: **You can hear the birds singing** · **I can smell something burning**."
+        },
+        {
+          "type": "heading",
+          "text": "Искать, найти, узнать"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что делаете",
+            "Глагол",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "ищу то, что где-то лежит",
+              "look for",
+              "I'm looking for my keys."
+            ],
+            [
+              "нашёл",
+              "find",
+              "I can't find my passport."
+            ],
+            [
+              "узнал сведения",
+              "find out",
+              "I found out the price."
+            ],
+            [
+              "обыскал место",
+              "search",
+              "They searched the car for the keys."
+            ],
+            [
+              "жду, что появится",
+              "watch for, look out for",
+              "Watch for the taxi."
+            ],
+            [
+              "жду звука",
+              "listen for",
+              "Listen for the doorbell."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Второй этаж: голова, встречи, новости"
+        },
+        {
+          "type": "paragraph",
+          "text": "У глаз и ушей есть голова, и метафора здесь у русского и английского одна и та же. **I see** — понятно · **I don't see why** — не понимаю, зачем · **Let me see…** — дай подумать · **We'll see** — может да, может нет, но не обещание · **Go and see if the door is locked** — посмотри, закрыта ли. Встречи: **See you on Friday** · **I'm seeing a doctor tomorrow** · **We saw Grandma off at the station**. Новости: **I heard you got a new job** · **I hear you're moving** · **hear from** — весточка от самого человека, **hear of** — знаю, что такое существует, **hear about** — узнал, что случилось."
+        },
+        {
+          "type": "heading",
+          "text": "Границы, которые тема провела"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Фильм: **watch** — как провели вечер, **see** — событие или опыт; фотки не длятся — **look at the photos**",
+            "Слушаться — **listen to**, а **obey** — про законы, приказы и собаку",
+            "Старому другу — **Nice to see you**, а **Nice to meet you** — только при знакомстве",
+            "**observe** — научное наблюдение, в быту это **watch**",
+            "**recognize** — узнать в лицо, а новость узнают через **hear** или **find out**",
+            "**ignore** — не ответил нарочно, а «не заметил» — **I didn't see your message**",
+            "Пропал — **My passport is missing**, потерял — **I've lost my passport**",
+            "«Проводить время» — **spend**, а **see off** — только про того, кто уезжает"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Техника, которую проверяют задания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw TV all evening** ✗ → **I watched TV all evening** ✓ · **We watched the photos** ✗ → **We looked at the photos** ✓",
+            "**Look me!** ✗ → **Look at me!** ✓ · **I listen music** ✗ → **I listen to music** ✓",
+            "**What are you listening?** ✗ → **What are you listening to?** ✓",
+            "**What are you seeing?** ✗ → **What can you see?** ✓ · **I'm hearing a noise** ✗ → **I can hear a noise** ✓",
+            "**Not see from here** ✗ → **I can't see from here** ✓ · **It's bad hear** ✗ → **I can't hear you very well** ✓",
+            "**I have saw it** ✗ → **I have seen it** ✓ · **I saw it by TV** ✗ → **I saw it on TV** ✓",
+            "**I saw how he crossed the street** ✗ → **I saw him cross the street** ✓",
+            "**We watched the plane landed** ✗ → **We watched the plane land** ✓ · **I saw him to leave** ✗ → **I saw him leave** ✓",
+            "**I didn't saw him leave** ✗ → **I didn't see him leave** ✓ · **I caught him read my messages** ✗ → **I caught him reading my messages** ✓",
+            "**Can hear the birds singing** ✗ → **You can hear the birds singing** ✓",
+            "**I'm looking my keys** ✗ → **I'm looking for my keys** ✓ · **I don't find my keys** ✗ → **I can't find my keys** ✓",
+            "**I searched my keys** ✗ → **I searched for my keys** ✓",
+            "**Can you find what time the train leaves?** ✗ → **Can you find out what time the train leaves?** ✓",
+            "**I'm seeing what you mean** ✗ → **I see what you mean** ✓ · **Go and see is the door locked** ✗ → **Go and see if the door is locked** ✓",
+            "**We saw off her** ✗ → **We saw her off** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чего в заданиях не будет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Того, что мы давали только указателем: `look like`, `look after`, `look up` и `look forward to` в небуквальных значениях, команд **Watch out!** и **Look out!** в смысле «осторожно!», разницы между **Can you hear me?** и **Do you hear me?** по тону и оборота **He was seen leaving**. Всё это ждёт своих тем: «Одно слово — много значений», «Фразы из жизни», «Социальное взаимодействие» и тем пассива."
+        },
+        {
+          "type": "heading",
+          "text": "ИИ — это тренажёр, а не экзамен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Промахнуться здесь нормально и даже полезно. На каждую ошибку ИИ показывает верный вариант и называет причину — кто кого в этой фразе нашёл или куда уехал предлог. Разбор собственной ошибки на собственной фразе держится в голове крепче, чем перечитанная карточка."
+        },
+        {
+          "type": "heading",
+          "text": "Встретится то, чего мы не давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "ИИ говорит на живом английском, и в его репликах может проскочить конструкция из будущих тем — пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод."
+        },
+        {
+          "type": "heading",
+          "text": "Как это устроено"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».",
+            "**Слова — ваши.** В первых двух заданиях подтягивается порция слов, которые вы уже знаете: трудность должна быть в выборе глагола, а не в незнакомой лексике.",
+            "**Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие."
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Решает один вопрос — **кто кого нашёл**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Пришло само → **see**, **hear**: **I saw a bird** · **I can hear a noise**",
+            "Сами направили внимание → **look at**, **listen to**: **Look at that bird!** · **Listen to me!**",
+            "Держите взгляд на том, что длится → **watch**: **I watched the bird for an hour**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Continuous и can"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What are you seeing?** ✗ → **What can you see?** ✓ · **I'm hearing a noise** ✗ → **I can hear a noise** ✓",
+            "Не видно, не слышно — **I can't see from here** · **I can't hear you very well**",
+            "Не расслышал — **Sorry, I didn't catch that**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Адреса"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Look at me** · **Listen to me**; у **see**, **hear**, **watch** адреса нет",
+            "**out of the window** — изнутри наружу · **through the window** — снаружи сквозь · **in the mirror**",
+            "В вопросе предлог в конце: **What are you looking at?** · **What are you listening to?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Видел, как он…"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Схема `глагол восприятия + кого + голый глагол или -ing`: **I saw him cross** — целиком, **I saw him crossing** — застал на середине",
+            "«Как» не переводится, время стоит один раз: **We watched the plane land**",
+            "Слышно, как… — **You can hear the birds singing**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Искать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ищу — **look for** · нашёл — **find** · узнал сведения — **find out**",
+            "Обыскал место — **search the car for the keys** · жду, что появится — **watch for**, **listen for**",
+            "Пропал — **My passport is missing**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Второй этаж"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I see** — понятно · **Let me see…** — дай подумать · **We'll see** — не обещание",
+            "**Go and see if the door is locked** · **See you** · **We saw Grandma off**",
+            "**I heard you got a job**; **hear from** — от человека, **hear of** — что существует, **hear about** — что случилось"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I saw TV** ✗ → **I watched TV** ✓ — вечер у экрана длится",
+            "**We watched the photos** ✗ → **We looked at the photos** ✓ — фото не длится",
+            "**I listen music** ✗ → **I listen to music** ✓ — у listen есть адрес",
+            "**I saw how he crossed** ✗ → **I saw him cross** ✓ — «как» не переводится",
+            "**We watched the plane landed** ✗ → **We watched the plane land** ✓ — время уже в watched",
+            "**I'm looking my keys** ✗ → **I'm looking for my keys** ✓ — без for фраза разваливается",
+            "**I searched my keys** ✗ → **I searched for my keys** ✓ — иначе «обыскал сами ключи»",
+            "**I'm seeing what you mean** ✗ → **I see what you mean** ✓ — понимание не тянется"
+          ]
+        }
+      ],
+      "examples": [],
+      "clarificationOptions": [
+        "Как за секунду выбрать между see, look и watch?",
+        "Почему у see и hear нельзя сказать «I am seeing», а у watch можно?",
+        "Когда после глагола восприятия ставить голый глагол, а когда -ing?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -5121,6 +5459,30 @@
       "userInstruction": "Вы получите русскую фразу, где «видеть», «посмотреть» или «слышать» значат не глаза и не уши: понимаю, посмотрим, видеться, слышал новость. Напишите её по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card579_ex1",
+      "cardId": 579,
+      "title": "Что за глагол — то и значит",
+      "userInstruction": "ИИ пришлёт две похожие английские фразы. Переведите обе на русский.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card579_ex2",
+      "cardId": 579,
+      "title": "Скажи по-английски",
+      "userInstruction": "ИИ пришлёт русскую фразу. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "see_look_watch_card579_ex3",
+      "cardId": 579,
+      "title": "Найди и исправь",
+      "userInstruction": "ИИ пришлёт три предложения. Найдите то, где есть ошибка, перепишите его правильно и своими словами скажите, что было не так.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [

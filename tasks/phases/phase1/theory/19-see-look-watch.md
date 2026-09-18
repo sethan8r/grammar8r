@@ -3424,13 +3424,211 @@ Past Simple — момент, когда новость дошла. Present Perf
 
 ---
 
+## Microtopic 214 — Live Practice · Глаза, уши и голова
+
+**ID:** 214 | **Order:** 7
+**Теги:** живая практика с ии, потренировать пять глаголов разом, проверить себя без подсказок, перевести фразу с ии, найти ошибку с ии
+
+---
+
+### Card 579 · Живая практика: глаза, уши и голова
+
+**ID:** 579 | **Order:** 1
+
+#### Theory
+
+Тема пройдена целиком — от оси «кто кого нашёл» до проводов в аэропорту и новостей, которые дошли через людей. Дальше карточками её не закрепить: в жизни никто не подписывает, каким из пяти глаголов это говорится. Есть сцена, пара секунд и ваш рот, из которого сейчас что-то вылетит.
+
+Поэтому финал темы — живая практика: пары фраз, русские фразы и чужие ошибки, в которых глагол выбираете вы.
+
+**Кто кого нашёл — ось всей темы**
+
+| Что произошло | Глаза | Уши | Пример |
+|---------------|-------|-----|--------|
+| картинка или звук пришли сами | see | hear | I saw a bird. · I can hear a noise. |
+| вы сами направили внимание | look at | listen to | Look at that bird! · Listen to me! |
+| держите внимание на том, что длится | watch | — | I watched the bird for an hour. |
+
+**Запомни главное:** дело не в органе чувств и не в переводе слова, а в том, кто кого нашёл. Одна и та же птица за окном получает три разных глагола — и всё решает, что именно вы с ней делали.
+
+**Continuous и can — следствие оси**
+
+`look`, `watch`, `listen` — это ваши действия, их можно тянуть: **What are you watching?** · **Are you listening to me?** А `see` и `hear` случаются сами, тянуть в них нечего: **What are you seeing?** ✗ → **What can you see?** ✓ · **I'm hearing a noise** ✗ → **I can hear a noise** ✓. Безличное русское «не видно, не слышно» получает и подлежащее, и `can't`: **I can't see from here** · **I can't hear you very well**, а «не расслышал» — это **Sorry, I didn't catch that**.
+
+**Адрес взгляда и слуха**
+
+`look` и `listen` без адреса не живут: **Look at me** ✓, **Listen to me** ✓. `see`, `hear` и `watch` адреса не просят: **I watched the birds** ✓, **I can hear you** ✓. У `look` адресов много, и выбирают их по тому, куда летит взгляд: **look out of the window** — изнутри наружу, **look through the window** — снаружи сквозь стекло, **look in the mirror**, **look in the bag**, **look up**, **look down**. В вопросе предлог уезжает в самый конец: **What are you looking at?** · **What are you listening to?**
+
+**Видел, как он перешёл дорогу**
+
+**Формула:** глагол восприятия + кого + голый глагол или -ing
+
+**I saw him cross the street** — увидел действие целиком, от начала до конца. **I saw him crossing the street** — застал на середине. Русское «как» внутри такой фразы не переводится вообще, а время стоит один раз, у первого глагола: **We watched the plane land** · **I didn't see him leave**. Безличное «слышно, как…» тоже получает того, кто слышит: **You can hear the birds singing** · **I can smell something burning**.
+
+**Искать, найти, узнать**
+
+| Что делаете | Глагол | Пример |
+|-------------|--------|--------|
+| ищу то, что где-то лежит | look for | I'm looking for my keys. |
+| нашёл | find | I can't find my passport. |
+| узнал сведения | find out | I found out the price. |
+| обыскал место | search | They searched the car for the keys. |
+| жду, что появится | watch for, look out for | Watch for the taxi. |
+| жду звука | listen for | Listen for the doorbell. |
+
+**Второй этаж: голова, встречи, новости**
+
+У глаз и ушей есть голова, и метафора здесь у русского и английского одна и та же. **I see** — понятно · **I don't see why** — не понимаю, зачем · **Let me see…** — дай подумать · **We'll see** — может да, может нет, но не обещание · **Go and see if the door is locked** — посмотри, закрыта ли. Встречи: **See you on Friday** · **I'm seeing a doctor tomorrow** · **We saw Grandma off at the station**. Новости: **I heard you got a new job** · **I hear you're moving** · **hear from** — весточка от самого человека, **hear of** — знаю, что такое существует, **hear about** — узнал, что случилось.
+
+**Границы, которые тема провела**
+
+- Фильм: **watch** — как провели вечер, **see** — событие или опыт; фотки не длятся — **look at the photos**
+- Слушаться — **listen to**, а **obey** — про законы, приказы и собаку
+- Старому другу — **Nice to see you**, а **Nice to meet you** — только при знакомстве
+- **observe** — научное наблюдение, в быту это **watch**
+- **recognize** — узнать в лицо, а новость узнают через **hear** или **find out**
+- **ignore** — не ответил нарочно, а «не заметил» — **I didn't see your message**
+- Пропал — **My passport is missing**, потерял — **I've lost my passport**
+- «Проводить время» — **spend**, а **see off** — только про того, кто уезжает
+
+**Техника, которую проверяют задания**
+
+- **I saw TV all evening** ✗ → **I watched TV all evening** ✓ · **We watched the photos** ✗ → **We looked at the photos** ✓
+- **Look me!** ✗ → **Look at me!** ✓ · **I listen music** ✗ → **I listen to music** ✓
+- **What are you listening?** ✗ → **What are you listening to?** ✓
+- **What are you seeing?** ✗ → **What can you see?** ✓ · **I'm hearing a noise** ✗ → **I can hear a noise** ✓
+- **Not see from here** ✗ → **I can't see from here** ✓ · **It's bad hear** ✗ → **I can't hear you very well** ✓
+- **I have saw it** ✗ → **I have seen it** ✓ · **I saw it by TV** ✗ → **I saw it on TV** ✓
+- **I saw how he crossed the street** ✗ → **I saw him cross the street** ✓
+- **We watched the plane landed** ✗ → **We watched the plane land** ✓ · **I saw him to leave** ✗ → **I saw him leave** ✓
+- **I didn't saw him leave** ✗ → **I didn't see him leave** ✓ · **I caught him read my messages** ✗ → **I caught him reading my messages** ✓
+- **Can hear the birds singing** ✗ → **You can hear the birds singing** ✓
+- **I'm looking my keys** ✗ → **I'm looking for my keys** ✓ · **I don't find my keys** ✗ → **I can't find my keys** ✓
+- **I searched my keys** ✗ → **I searched for my keys** ✓
+- **Can you find what time the train leaves?** ✗ → **Can you find out what time the train leaves?** ✓
+- **I'm seeing what you mean** ✗ → **I see what you mean** ✓ · **Go and see is the door locked** ✗ → **Go and see if the door is locked** ✓
+- **We saw off her** ✗ → **We saw her off** ✓
+
+**Чего в заданиях не будет**
+
+Того, что мы давали только указателем: `look like`, `look after`, `look up` и `look forward to` в небуквальных значениях, команд **Watch out!** и **Look out!** в смысле «осторожно!», разницы между **Can you hear me?** и **Do you hear me?** по тону и оборота **He was seen leaving**. Всё это ждёт своих тем: «Одно слово — много значений», «Фразы из жизни», «Социальное взаимодействие» и тем пассива.
+
+**ИИ — это тренажёр, а не экзамен**
+
+Промахнуться здесь нормально и даже полезно. На каждую ошибку ИИ показывает верный вариант и называет причину — кто кого в этой фразе нашёл или куда уехал предлог. Разбор собственной ошибки на собственной фразе держится в голове крепче, чем перечитанная карточка.
+
+**Встретится то, чего мы не давали**
+
+ИИ говорит на живом английском, и в его репликах может проскочить конструкция из будущих тем — пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод.
+
+**Как это устроено**
+
+- **Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».
+- **Слова — ваши.** В первых двух заданиях подтягивается порция слов, которые вы уже знаете: трудность должна быть в выборе глагола, а не в незнакомой лексике.
+- **Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Решает один вопрос — **кто кого нашёл**.
+
+- Пришло само → **see**, **hear**: **I saw a bird** · **I can hear a noise**
+- Сами направили внимание → **look at**, **listen to**: **Look at that bird!** · **Listen to me!**
+- Держите взгляд на том, что длится → **watch**: **I watched the bird for an hour**
+
+**Continuous и can**
+
+- **What are you seeing?** ✗ → **What can you see?** ✓ · **I'm hearing a noise** ✗ → **I can hear a noise** ✓
+- Не видно, не слышно — **I can't see from here** · **I can't hear you very well**
+- Не расслышал — **Sorry, I didn't catch that**
+
+**Адреса**
+
+- **Look at me** · **Listen to me**; у **see**, **hear**, **watch** адреса нет
+- **out of the window** — изнутри наружу · **through the window** — снаружи сквозь · **in the mirror**
+- В вопросе предлог в конце: **What are you looking at?** · **What are you listening to?**
+
+**Видел, как он…**
+
+- Схема `глагол восприятия + кого + голый глагол или -ing`: **I saw him cross** — целиком, **I saw him crossing** — застал на середине
+- «Как» не переводится, время стоит один раз: **We watched the plane land**
+- Слышно, как… — **You can hear the birds singing**
+
+**Искать**
+
+- Ищу — **look for** · нашёл — **find** · узнал сведения — **find out**
+- Обыскал место — **search the car for the keys** · жду, что появится — **watch for**, **listen for**
+- Пропал — **My passport is missing**
+
+**Второй этаж**
+
+- **I see** — понятно · **Let me see…** — дай подумать · **We'll see** — не обещание
+- **Go and see if the door is locked** · **See you** · **We saw Grandma off**
+- **I heard you got a job**; **hear from** — от человека, **hear of** — что существует, **hear about** — что случилось
+
+**Частые ошибки**
+
+- **I saw TV** ✗ → **I watched TV** ✓ — вечер у экрана длится
+- **We watched the photos** ✗ → **We looked at the photos** ✓ — фото не длится
+- **I listen music** ✗ → **I listen to music** ✓ — у listen есть адрес
+- **I saw how he crossed** ✗ → **I saw him cross** ✓ — «как» не переводится
+- **We watched the plane landed** ✗ → **We watched the plane land** ✓ — время уже в watched
+- **I'm looking my keys** ✗ → **I'm looking for my keys** ✓ — без for фраза разваливается
+- **I searched my keys** ✗ → **I searched for my keys** ✓ — иначе «обыскал сами ключи»
+- **I'm seeing what you mean** ✗ → **I see what you mean** ✓ — понимание не тянется
+
+---
+
+#### AI Exercise
+
+**ID:** see_look_watch_card579_ex1
+**Title:** "Что за глагол — то и значит"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт две похожие английские фразы. Переведите обе на русский."
+**Prompt Template:** "Контекст: пользователь прошёл тему «Смотреть, слушать и понимать» целиком. Главная мысль темы: выбирают не перевод слова, а ситуацию — кто кого нашёл. See и hear значат, что картинка или звук пришли сами; look at и listen to — что человек сам направил внимание; watch — что он держит взгляд на том, что длится. Отсюда остальное, что он знает: see и hear в Continuous не ставят, вместо этого can (What can you see?, I can't see from here); фильм и вечер у экрана — watch, событие и опыт — see, фотки не длятся — look at; глагол восприятия плюс кого плюс голый глагол — действие целиком (I saw him cross), с -ing — застал на середине (I saw him crossing); искать то, что где-то лежит, — look for, ждать, что появится само, — watch for, нашёл — find, узнал сведения — find out, а search плюс место значит «обыскать»; второй этаж темы — I see значит «понимаю», I'm seeing somebody — про встречу, see somebody off — проводить уезжающего, I heard you got a job — новость дошла через людей, hear from — весточка от самого человека, hear about — узнал, что случилось; listen to значит ещё и «слушаться», а recognize — «узнать в лицо», в отличие от notice — «заметить». ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения и unless, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, императив; из модальных знает can, could, should и have to готовыми формами. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после глагола, возвратные местоимения, оборот He was seen leaving — таких форм не используй. ЗАДАНИЕ: дай пользователю ОДНУ пару коротких английских фраз, пронумерованных 1 и 2, и попроси перевести обе на русский. Фразы почти одинаковые — одна сцена, то же подлежащее, — а отличаются минимально: другим глаголом восприятия, другим предлогом или формой второго глагола, и из-за этой разницы смысл у них разный. В условии НЕ подсказывай, в чём разница и какое правило её даёт. ДЕРЖИ ФРАЗЫ ПРОСТЫМИ: 3–8 слов, одно подлежащее, один глагол, ходовая бытовая лексика, без придаточных, идиом и двух действий в одной фразе; вся трудность — в одном отличии между фразами. Время пары — чаще Past Simple, Present Simple и Present Continuous, иногда Present Perfect. ЧЕРЕДУЙ ПАРУ от запуска к запуску, не повторяя одну и ту же два раза подряд (в скобках — смысл, который должен увидеть пользователь): 1. I saw a great film yesterday (сходил, событие) / I watched films all evening (провёл вечер у экрана); 2. I heard from Katya last week (она сама написала) / I heard about Katya last week (про неё рассказали); 3. Nikita looked at the kids for a second (взглянул) / Nikita watched the kids for an hour (следил); 4. I saw him cross the street (перешёл целиком) / I saw him crossing the street (застал на середине); 5. I listened to the radio in the car (сам слушал) / I heard the radio in the kitchen (донеслось само); 6. Can you find the station? (найти место) / Can you find out when the train leaves? (узнать сведения); 7. They searched my bag (обыскали сумку) / They searched for my bag (искали сумку); 8. I see what you mean (понимаю) / I'm seeing a client at five (встречаюсь); 9. We saw Olya at the airport (случайно увидели) / We saw Olya off at the airport (проводили); 10. Watch for the postman (смотри, не идёт ли) / Look for the postman (иди поищи его); 11. The kids didn't listen to Grandma (не слушались) / The kids didn't hear Grandma (не услышали); 12. I can't see the sign from here (мне отсюда не видно) / I didn't notice the sign (не заметил); 13. I recognized her voice (узнал её голос) / I heard her voice (услышал голос). Порядок фраз внутри пары меняй: не всегда первой идёт фраза с see или look. Имена, города и профессии меняй, образцы дословно не повторяй. Если в присланном списке слов пользователя есть подходящие — желательно строить пару вокруг них: фокус задания на разнице между глаголами, а не на конкретной лексике. ОЦЕНКА: оценивай смысл, а не дословность — годится любой живой русский перевод, где видна разница между фразами. Если обе фразы переведены верно — подтверди и одной строкой назови, из-за чего смысл разошёлся: кто кого нашёл, какой предлог или какая форма второго глагола. Если разница потеряна — покажи, какой кусочек изменился, и дай верный перевод. Если верна только одна фраза — её засчитай, разбери вторую. Разбирай теми же аргументами, что в теории: watched a film переведено как «увидел фильм» — напомни, что watch про то, как провели время, а see про событие; heard about переведено как «он мне написал» — покажи, что about это «узнал, что случилось», а весточка от человека это from; saw him crossing переведено как «перешёл» — дай двойной перевод «видел его переходящим», то есть застал на середине; searched my bag переведено как «искали мою сумку» — покажи, что место после search означает «обыскали»; find out переведено как «найти» — покажи, что out превращает поиск в «выяснить»; I'm seeing a client переведено как «вижу клиента» — напомни, что seeing про встречу; saw her off переведено как «увидели её» — покажи, что off это проводы; didn't listen to переведено как «не услышали» — покажи, что listen to значит ещё и «слушаться». Отвечай по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только смысл."
+
+Пример вывода AI: 'Переведите обе фразы на русский: 1. I watched the kids in the yard for an hour. 2. I saw the kids in the yard on my way home.'
+
+#### AI Exercise
+
+**ID:** see_look_watch_card579_ex2
+**Title:** "Скажи по-английски"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт русскую фразу. Скажите её по-английски одним предложением."
+**Prompt Template:** "Контекст: пользователь прошёл тему «Смотреть, слушать и понимать» целиком. Он знает: 1) глагол выбирают по ситуации, а не по переводу — see и hear значат, что картинка или звук пришли сами, look at и listen to — что человек сам направил внимание, watch — что он держит взгляд на том, что длится; 2) see и hear не тянутся, вместо Continuous идёт can: What can you see?, I can hear a noise, а безличное «не видно, не слышно» получает подлежащее и can't: I can't see from here, I can't hear you very well; 3) фильм, матч и телевизор — watch, событие и опыт — see, фотки — look at, по телевизору — on TV; 4) у look и listen есть адрес (Look at me, Listen to me), у see, hear и watch его нет; у look адресов много: out of the window изнутри наружу, through the window снаружи сквозь стекло, in the mirror, in the bag; в вопросе предлог уходит в конец: What are you looking at?; 5) глагол восприятия плюс кого плюс голый глагол — действие целиком (I saw him cross the street), с -ing — застал на середине, русское «как» не переводится, время стоит один раз (We watched the plane land), catch только с -ing; безличное «слышно, как» — You can hear the birds singing; 6) искать то, что где-то лежит, — look for, ждать, что появится само, — watch for, ждать звука — listen for; нашёл — find, «не нахожу» — I can't find; узнал сведения — find out плюс what, where или if с порядком утверждения; обыскать место — search плюс место плюс for; пропал — is missing; 7) второй этаж: I see — понятно, Let me see — дай подумать, We'll see — может да, может нет, go and see if the door is locked, See you, see a doctor, see somebody off; 8) новости: I heard you got a job, I hear you're moving, hear from — весточка от самого человека, hear of — знаю, что существует, hear about — узнал, что случилось; 9) границы: listen to значит ещё и «слушаться», obey — про законы и приказы; ignore — не ответил нарочно, а «не заметил» — I didn't see. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения и unless, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, императив; из модальных знает can, could, should и have to готовыми формами. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после глагола, возвратные местоимения, оборот He was seen leaving — фразу, которая требует этих форм, не давай. ЗАДАНИЕ: дай пользователю ОДНУ короткую русскую фразу из темы и попроси сказать её по-английски одним предложением. В условии НЕ подсказывай, какой глагол нужен и есть ли тут подвох. ДЕРЖИ ФРАЗУ ПРОСТОЙ: до десяти слов, одно действие, бытовая ситуация, без перечислений и идиом. Вопрос давай не реже чем каждый третий запуск, изредка отрицательный. Если в присланном списке слов пользователя есть подходящие — желательно строить фразу вокруг них: фокус задания на выборе глагола и предлога, а не на конкретной лексике. ЧЕРЕДУЙ ПОВОД от запуска к запуску, не повторяя один и тот же два раза подряд: 1. ОСЬ ПЯТИ ГЛАГОЛОВ — «Я весь вечер смотрел сериал», «Посмотри на это фото», «Я вчера видел Олега в метро», «Мы всю дорогу слушали подкаст»; 2. CAN И БЕЗЛИЧНОЕ — «Мне отсюда не видно доску», «Тебя очень плохо слышно», «Что ты видишь из окна?», «Ты слышишь этот шум?»; 3. АДРЕС И ПРЕДЛОГ В КОНЦЕ — «Что ты слушаешь?», «На что ты так смотришь?», «Она смотрела в окно, когда подъехало такси», «Загляни в холодильник»; 4. ВИДЕЛ, КАК… — «Я видел, как Никита вышел из офиса», «Слышно, как соседи спорят», «Ты не слышал, как заплакал малыш?», «Я застал его за чтением моих сообщений»; 5. ИСКАТЬ И НАЙТИ — «Я ищу ключи», «Я никак не найду паспорт», «Смотри, не подъедет ли такси», «Прислушивайся, вдруг позвонят в дверь»; 6. ВТОРОЙ ЭТАЖ — «Я слышал, ты переезжаешь», «Увидимся в пятницу», «Я никогда не слышал об этой группе», «От Оли давно ничего не слышно». Примерно каждый третий запуск бери ЛОВУШКУ-КАЛЬКУ, где русский глагол тянет не туда, и не два раза подряд: «Посмотри, закрыта ли дверь» (ждём Go and see if the door is locked), «Дети совсем меня не слушаются» (ждём The kids don't listen to me), «Дай посмотреть!» (ждём Let me see или Can I see it?), «Купишь мне новый телефон? — Посмотрим» (ждём We'll see), «У меня пропал паспорт» (ждём My passport is missing), «Мы проводили бабушку на вокзале» (ждём We saw Grandma off), «Прости, я не заметил твоё сообщение» (ждём Sorry, I didn't see your message), «Я узнал об этом только вчера» (ждём I found out about it yesterday), «Мы смотрели фотки с поездки» (ждём We looked at the photos), «Узнай, во сколько уходит поезд» (ждём Find out what time the train leaves). Имена, города и профессии меняй, образцы дословно не повторяй. ОЦЕНКА: верным считается ответ, где выбран подходящий глагол, предлог на месте и форма верна. Разбирай ошибки теми же аргументами, что в теории: I saw TV — вечер у экрана длится, нужен watched; We watched the photos — фото не длится, нужно looked at; Look me или I listen music — look и listen без адреса не живут; What are you listening? — предлог уезжает в конец: listening to; What are you seeing? или I'm hearing a noise — эти глаголы не тянутся, нужен can; Not see from here или It's bad hear — нужны подлежащее и can't; I have saw — третья форма seen; I saw it by TV — телевизор это площадка, on TV; I saw how he crossed — «как» не переводится: I saw him cross; I saw him to leave или We watched the plane landed — второй глагол голый, время стоит один раз; I didn't saw — did уже забрал прошлое; Can hear the birds singing — безличному нужен you; I'm looking my keys — верни for; I don't find или I'm finding my phone — дай I can't find и I'm looking for; I searched my keys — место после search значит «обыскал», нужно searched for; find вместо find out про сведения — out превращает поиск в «выяснить»; look for там, где такси вот-вот подъедет — покажи watch for, а про звук listen for; I'm seeing what you mean — понимание не тянется; saw off her — местоимение встаёт между see и off; obey про детей — «слушаться» в быту это listen to. Засчитывай сокращения, синонимы, другое подходящее пройденное время и любую живую формулировку при верном глаголе; если выбрал другое слово, а глагол и предлог верны — лексику не правь. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Скажите по-английски одним предложением: «Я видел, как Никита вышел из офиса около шести».'
+
+#### AI Exercise
+
+**ID:** see_look_watch_card579_ex3
+**Title:** "Найди и исправь"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт три предложения. Найдите то, где есть ошибка, перепишите его правильно и своими словами скажите, что было не так."
+**Prompt Template:** "Контекст: пользователь прошёл тему «Смотреть, слушать и понимать» целиком — ось «кто кого нашёл» на пяти глаголах, can вместо Continuous у see и hear, адреса look at, listen to, out of, through, in и предлог в конце вопроса, конструкция «глагол восприятия плюс кого плюс голый глагол или -ing», безличное You can hear the birds singing, поиск через look for, find, find out, search и watch for, второй этаж — I see, Let me see, We'll see, see if, see you, see off, I heard you got a job и предлоги from, of, about. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения и unless, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, императив; из модальных знает can, could, should и have to готовыми формами. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после глагола, возвратные местоимения, оборот He was seen leaving — таких форм в предложениях не используй. ЗАДАНИЕ: дай пользователю ТРИ коротких английских предложения, пронумерованных 1, 2, 3, — реплики из одного дня одного человека: дом, дорога, работа, кафе, вечер; человека и обстановку каждый запуск меняй. РОВНО ОДНО содержит ошибку, два других полностью правильные; номер сломанного меняй от запуска к запуску, не ставь его всё время первым. Ошибка только грамматическая — пунктуацию и заглавные буквы во всех трёх предложениях расставь верно, орфографических ловушек не подсовывай. ДЕРЖИ ПРЕДЛОЖЕНИЯ ПРОСТЫМИ: до девяти слов, одно действие, ходовая бытовая лексика, без придаточных и идиом. Два правильных предложения тоже строй на глаголах темы, чтобы выбор был настоящим. Не давай предложений, которые верны в другом смысле: I heard about Oleg, Nice to meet you, I watched the kids и подобные пары в этом задании не используй — ошибка должна быть однозначной. В условии не подсказывай, где ошибка и какое правило нарушено. ИНВЕНТАРЬ ОШИБОК — по типичной ошибке русскоязычного из каждой микротемы темы, каждый запуск бери другую: 1. ВЕЧЕР У ЭКРАНА ЧЕРЕЗ SEE — I saw TV all evening yesterday. 2. ФОТО ЧЕРЕЗ WATCH — We watched the photos from the trip. 3. ПОТЕРЯННЫЙ АДРЕС У LOOK — Look me, I'm over here! 4. ЛИШНИЙ АДРЕС У WATCH — I watched at the birds in the park. 5. ТРЕТЬЯ ФОРМА ПОСЛЕ HAVE — I have saw this film twice. 6. ПО ТЕЛЕВИЗОРУ ЧЕРЕЗ BY — I saw the match by TV. 7. SEE В CONTINUOUS — What are you seeing over there? 8. БЕЗЛИЧНОЕ БЕЗ ПОДЛЕЖАЩЕГО — Not see anything from here. 9. ПОТЕРЯННЫЙ АДРЕС У LISTEN — I listen music on the way to work. 10. ПРЕДЛОГ НЕ УЕХАЛ В КОНЕЦ — What are you listening in the car? 11. HEAR В CONTINUOUS — I'm hearing a strange noise in the engine. 12. LISTEN ВМЕСТО HEAR — I listened a noise in the kitchen. 13. РУССКОЕ КАК ВНУТРИ ФРАЗЫ — I saw how he opened the door. 14. ВТОРАЯ ФОРМА У ВТОРОГО ГЛАГОЛА — We watched the plane landed. 15. ЛИШНЕЕ TO ПОСЛЕ ГЛАГОЛА ВОСПРИЯТИЯ — I saw him to leave the office. 16. ИМЕНИТЕЛЬНЫЙ ПАДЕЖ ПОСЛЕ ГЛАГОЛА ВОСПРИЯТИЯ — I heard he laugh in the kitchen. 17. ПРОШЕДШЕЕ ДВАЖДЫ В ОТРИЦАНИИ — I didn't saw him leave the house. 18. CATCH БЕЗ -ING — I caught him read my messages. 19. БЕЗЛИЧНОЕ СЛЫШНО БЕЗ YOU — Can hear the birds singing outside. 20. КАК В БЕЗЛИЧНОЙ ФРАЗЕ — You can hear how the kids play outside. 21. ПОТЕРЯННЫЙ FOR У LOOK FOR — I'm looking my keys, wait a second. 22. НЕ НАХОЖУ ЧЕРЕЗ DON'T — Sorry, I don't find your email. 23. FIND В CONTINUOUS — I'm finding my phone, hold on. 24. SEARCH БЕЗ FOR — I searched my keys for an hour. 25. FIND ВМЕСТО FIND OUT — Can you find what time the train leaves? 26. ВОПРОСИТЕЛЬНЫЙ ПОРЯДОК ПОСЛЕ FIND OUT — I'll find out what time does the shop open. 27. ПРОПАЛ ЧЕРЕЗ MISS — My passport misses, I can't travel. 28. WATCH FOR ПРО ВЕЩЬ, КОТОРАЯ ЛЕЖИТ — Watch for my keys, they are somewhere here. 29. SEE В CONTINUOUS ПРО ПОНИМАНИЕ — I'm seeing what you mean now. 30. ВОПРОС ВНУТРИ SEE IF — Go and see is the door locked. 31. МЕСТОИМЕНИЕ ПОСЛЕ SEE OFF — We saw off her at the station. 32. ПРОВЕСТИ ВРЕМЯ ЧЕРЕЗ SEE OFF — We saw off the weekend at the lake. Попроси найти сломанное предложение, написать его правильно и своими словами сказать, что было не так. ОЦЕНКА: пользователь делает три вещи — находит сломанное предложение, переписывает его правильно и объясняет причину своими словами. Объяснение оценивай по сути, грамматических терминов от него не жди: ответы вроде «у look нужен at», «вечер у телевизора это watch» или «как тут не говорят» полностью годятся. Если исправление верное, а объяснение кривое или его нет — исправление засчитай, причину назови сам одной строкой. Если указал не на то предложение — скажи, какое было сломано на самом деле, и дай верную форму. Если починил иначе, чем ты задумал, но результат верный (I could hear a strange noise вместо I can hear a strange noise, I looked for my keys вместо I searched for my keys) — засчитай. Если заодно переписал верное предложение в другое верное — не ругай, но скажи, что ошибки там не было. Причину называй тем же аргументом, что в карточках: вечер у экрана длится, поэтому watch, а событие и фото — see и look at; у look и listen есть адрес, а у see, hear и watch его нет, и в вопросе он уезжает в конец; see и hear случаются сами, поэтому вместо Continuous идёт can, а безличному «не видно, не слышно» нужны подлежащее и can't; после have стоит seen; телевизор это площадка, поэтому on TV; русское «как» в этой конструкции не переводится; второй глагол стоит голым, время уже в первом, а после did идёт первая форма; застают всегда на середине, поэтому catch только с -ing; безличное «слышно» получает you; без for фраза с look разваливается, про вещь, которая не находится, говорят can't find, find не тянется, а место после search значит «обыскал»; сведения узнают через find out, и порядок после него как в утверждении; «пропал» это is missing; watch for — про то, что появится само, а лежащую вещь можно только искать; понимание не тянется; после see if идёт порядок утверждения; местоимение встаёт между see и off, а «проводить время» — это spend. Отвечай по-русски, коротко. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Найдите предложение с ошибкой, перепишите его правильно и скажите, что было не так: 1. I can hear the neighbours arguing again. 2. I have saw this film twice. 3. What are you looking at?'
+
+#### Clarification Options
+
+- Как за секунду выбрать между see, look и watch?
+- Почему у see и hear нельзя сказать «I am seeing», а у watch можно?
+- Когда после глагола восприятия ставить голый глагол, а когда -ing?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 33 | 34 |
-| Microtopic | 213 | 214 |
-| Card | 578 | 579 |
+| Microtopic | 214 | 215 |
+| Card | 579 | 580 |
 | Example | 2625 | 2626 |
 | Слова курса (course_word) | 804 | 805 |
 | MultipleChoice · CHOICE | 218 | 219 |
