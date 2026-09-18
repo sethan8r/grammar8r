@@ -6,8 +6,10 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -89,7 +91,7 @@ fun TheoryBlocks(
 
                 is TheoryBlock.Paragraph -> MarkdownText(block.text)
                 is TheoryBlock.BulletList -> ListBlock(block)
-                is TheoryBlock.Table -> TableBlock(block, containerColor)
+                is TheoryBlock.Table -> TableBlock(block)
                 is TheoryBlock.Dialog -> DialogBlock(block)
                 is TheoryBlock.Callout -> CalloutBlock(block, containerColor)
             }
@@ -233,8 +235,16 @@ private const val MIN_CHUNK_LEN = 3
 // Modifier.width), из-за которых слову могло не хватить долей пикселя и последняя буква переносилась.
 private val MEASURE_SLACK = 1.dp
 
+// Боковой отступ ячейки таблицы. Его же закладывает measureColumn — разъедутся, и замер колонки
+// разойдётся с рендером: слово не влезет и порежется.
+private val TABLE_CELL_PADDING_H = Dimens.spaceMedium
+
+/**
+ * Таблица-реестр: шапка — контурная капсула без заливки, каждая строка — своя залитая капсула,
+ * между ними зазор вместо линий. Колонки внутри капсулы делит вертикальная полоса во всю её высоту.
+ */
 @Composable
-private fun TableBlock(block: TheoryBlock.Table, containerColor: Color) {
+private fun TableBlock(block: TheoryBlock.Table) {
     val columnCount = maxOf(block.header.size, block.rows.maxOfOrNull { it.size } ?: 0)
     val measurer = rememberTextMeasurer()
     val density = LocalDensity.current
@@ -242,26 +252,24 @@ private fun TableBlock(block: TheoryBlock.Table, containerColor: Color) {
     // темы) — «голый» TextStyle мерил уже, слово выходило на экране шире замера и рвалось.
     val baseStyle = LocalTextStyle.current
 
-    BoxWithConstraints(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(Dimens.cornerCard))
-            .background(containerColor),
-    ) {
-        val totalWidth = maxWidth
+    BoxWithConstraints(modifier = Modifier.fillMaxWidth()) {
+        // Полосы-разделители стоят МЕЖДУ колонками, поэтому их ширину вычитаем до раскладки —
+        // иначе сумма колонок с полосами вылезет за капсулу.
+        val totalWidth = maxWidth - Dimens.outlineWidth * (columnCount - 1).coerceAtLeast(0)
         // Раскладка (текст ячеек + ширины колонок) считается один раз на (таблица + ширина).
         val layout = remember(block, totalWidth, baseStyle) {
             layoutTable(block.header, block.rows, columnCount, totalWidth, baseStyle, measurer, density)
         }
 
-        Column(modifier = Modifier.fillMaxWidth()) {
+        Column(
+            modifier = Modifier.fillMaxWidth(),
+            verticalArrangement = Arrangement.spacedBy(Dimens.spaceTiny),
+        ) {
             if (layout.header.isNotEmpty()) {
-                TableRow(cells = layout.header, isHeader = true, widths = layout.widths)
-                HorizontalDivider(color = Inactive)
+                TableCapsule(cells = layout.header, widths = layout.widths, isHeader = true)
             }
-            layout.rows.forEachIndexed { index, row ->
-                TableRow(cells = row, isHeader = false, widths = layout.widths)
-                if (index < layout.rows.lastIndex) HorizontalDivider(color = Inactive)
+            layout.rows.forEach { row ->
+                TableCapsule(cells = row, widths = layout.widths, isHeader = false)
             }
         }
     }
@@ -448,7 +456,7 @@ private fun measureColumn(
 ): Pair<Dp, Dp> {
     val bodyStyle = baseStyle.merge(TextStyle(fontSize = 14.sp, lineHeight = 20.sp))
     val headerStyle = bodyStyle.merge(TextStyle(fontWeight = FontWeight.Bold))
-    val cellPadding = Dimens.spaceSmall * 2
+    val cellPadding = TABLE_CELL_PADDING_H * 2
     val styledRows = listOf(header to headerStyle) + rows.map { it to bodyStyle }
 
     // Ширина самого широкого куска ячеек колонки; куски задаёт split (слова либо готовые строки).
@@ -495,23 +503,42 @@ private fun distributeWidths(metrics: ColumnMetrics, totalWidth: Dp): List<Dp> {
     return idealWidths.map { it + leftover * (it.value / sumIdeal) }
 }
 
+/**
+ * Одна капсула таблицы. Шапка идёт контуром без заливки и мельче тела, строка — залитой плашкой;
+ * первая колонка держит ключ строки, поэтому чуть плотнее по весу.
+ */
 @Composable
-private fun TableRow(cells: List<String>, isHeader: Boolean, widths: List<Dp>) {
-    Row(modifier = Modifier.fillMaxWidth()) {
+private fun TableCapsule(cells: List<String>, widths: List<Dp>, isHeader: Boolean) {
+    val shape = RoundedCornerShape(Dimens.cornerSmall)
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(shape)
+            .then(
+                if (isHeader) Modifier.border(Dimens.outlineWidth, Inactive, shape)
+                else Modifier.background(Elevated)
+            )
+            // Полоса-разделитель тянется во всю высоту капсулы — значит высота Row известна до неё.
+            .height(IntrinsicSize.Min),
+    ) {
         cells.forEachIndexed { index, cell ->
-            Box(
+            MarkdownText(
+                text = cell,
                 modifier = Modifier
                     .width(widths.getOrElse(index) { 0.dp })
-                    .padding(horizontal = Dimens.spaceSmall, vertical = Dimens.spaceSmall),
-            ) {
-                MarkdownText(
-                    text = cell,
-                    modifier = Modifier.fillMaxWidth(),
-                    color = if (isHeader) Accent else TextPrimary,
-                    fontWeight = if (isHeader) FontWeight.Bold else null,
-                    fontSize = 14.sp,
-                    lineHeight = 20.sp,
-                    textAlign = TextAlign.Center,
+                    .padding(horizontal = TABLE_CELL_PADDING_H, vertical = Dimens.spaceSmall),
+                color = if (isHeader) TextSecondary else TextPrimary,
+                fontWeight = if (isHeader || index == 0) FontWeight.Medium else null,
+                fontSize = if (isHeader) 13.sp else 14.sp,
+                lineHeight = if (isHeader) 16.sp else 20.sp,
+                textAlign = if (isHeader) TextAlign.Center else TextAlign.Start,
+            )
+            if (index < cells.lastIndex) {
+                Box(
+                    modifier = Modifier
+                        .width(Dimens.outlineWidth)
+                        .fillMaxHeight()
+                        .background(Inactive),
                 )
             }
         }
@@ -573,7 +600,7 @@ private fun CalloutBodyBlock(block: TheoryBlock, monospace: FontFamily?, contain
     when (block) {
         is TheoryBlock.Paragraph -> MarkdownText(block.text, fontFamily = monospace)
         is TheoryBlock.BulletList -> ListBlock(block)
-        is TheoryBlock.Table -> TableBlock(block, containerColor)
+        is TheoryBlock.Table -> TableBlock(block)
         is TheoryBlock.Heading -> MarkdownText(
             text = block.text,
             fontWeight = FontWeight.Bold,
