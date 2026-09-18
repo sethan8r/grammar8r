@@ -7,7 +7,7 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 600 |
+| Card | 601 |
 | Categorization | 132 |
 | Category | 8 |
 | ConstructionMeaning | 81 |
@@ -15,7 +15,7 @@
 | ErrorCorrection | 210 |
 | FindTheOdd | 115 |
 | Matching | 99 |
-| Microtopic | 220 |
+| Microtopic | 221 |
 | MultipleChoice·CHOICE | 224 |
 | MultipleChoice·FORWARD_CHOICE | 247 |
 | MultipleChoice·REVERSE_CHOICE | 98 |
@@ -641,14 +641,14 @@
 - course_word: 395–410 (16)
 
 ### weather
-- Card: 580–599 (20)
+- Card: 580–600 (21)
 - Categorization: 127–131 (5)
 - ConstructionMeaning: 76–80 (5)
 - DialogRestore: 86–89 (4)
 - ErrorCorrection: 205–209 (5)
 - FindTheOdd: 111–114 (4)
 - Matching: 94–98 (5)
-- Microtopic: 215–219 (5)
+- Microtopic: 215–220 (6)
 - MultipleChoice·CHOICE: 219–223 (5)
 - MultipleChoice·FORWARD_CHOICE: 241–246 (6)
 - MultipleChoice·REVERSE_CHOICE: 94–97 (4)

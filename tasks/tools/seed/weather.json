@@ -46,6 +46,13 @@
       "title": "Weather Traps · Погодные ловушки и идиомы",
       "order": 5,
       "searchKeywords": "мне холодно, я простыл, под дождём предлог, на улице или on the street, under the weather, take a rain check, lovely day isn't it"
+    },
+    {
+      "id": 220,
+      "topicId": 34,
+      "title": "Live Practice · Разговор о погоде",
+      "order": 6,
+      "searchKeywords": "поговорить о погоде с ии, собрать разговор целиком, потренировать всю тему, живая практика"
     }
   ],
   "grammar_cards": [
@@ -3738,6 +3745,232 @@
         "Что отвечать на Lovely day, isn't it?",
         "Обязательно ли задавать встречный вопрос?"
       ]
+    },
+    {
+      "id": 600,
+      "microtopicId": 220,
+      "title": "Живая практика: разговор о погоде",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена целиком — от пустого `it` до готовых фраз, которыми заговаривают с незнакомцем в лифте. Дальше карточками её не закрепить: в жизни никто не объявляет заранее, что сейчас нужно — упаковка с `it's`, упаковка с `there's`, прошедшее время или просто **Lovely day, isn't it?**. Есть собеседник, пара секунд и ваш рот, из которого сейчас что-то вылетит."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому финал темы — живая практика: ситуации, фразы и чужие ошибки, в которых решать приходится самому."
+        },
+        {
+          "type": "heading",
+          "text": "Четыре упаковки одной погоды"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Как собирается",
+            "Когда берём",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "it's + признак",
+              "самый частый способ, признак есть почти у всего",
+              "It's sunny. · It's freezing."
+            ],
+            [
+              "it's + V-ing",
+              "погода как действие, которое идёт",
+              "It's raining. · It's pouring."
+            ],
+            [
+              "there's + вещь",
+              "у явления нет прилагательного или оно вещь",
+              "There's a storm. · There's fog."
+            ],
+            [
+              "it's a + признак + day",
+              "говорим не о погоде, а о дне",
+              "It's a beautiful day. · What a lovely day!"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ось времени: одна погода в пяти временах"
+        },
+        {
+          "type": "paragraph",
+          "text": "**It's raining** (сейчас) · **It rains a lot here in autumn** (вообще) · **It's going to rain** (вижу тучи) · **It'll be sunny tomorrow** (предсказание) · **It was cold yesterday** (вчера) · **It's been raining since morning** (с утра и до сих пор)."
+        },
+        {
+          "type": "heading",
+          "text": "Как спросить и как ответить"
+        },
+        {
+          "type": "paragraph",
+          "text": "**What's the weather like?** · **What's it like outside?** · **How's the weather?** — и ответ: **It's lovely** · **It's awful** · **Not bad**. Слово `like` в первых двух вопросах обязательно."
+        },
+        {
+          "type": "heading",
+          "text": "Три места, где спотыкается русский"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**холодно миру или человеку:** **It's cold** (на улице) ↔ **I'm cold** (я мёрзну) ↔ **I have a cold** (простуда)",
+            "**предлоги:** **in the rain** · **in the sun** · **outside** — и `under` только там, где настоящая крыша: **under an umbrella**",
+            "**разговор:** на **Lovely day, isn't it?** отвечают **It is**, а дальше обязательно добавляют своё"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Техника, которую проверяют задания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "подлежащее не пропадает: **Is raining** ✗ и **Cold today** ✗ → **It's raining** ✓, **It's cold today** ✓",
+            "`weather` не считается: **a nice weather** ✗ и **weathers** ✗ → **nice weather** ✓",
+            "вопрос собирается с `like`: **What is the weather?** ✗ → **What's the weather like?** ✓",
+            "«с утра» требует перфекта: **It is raining since morning** ✗ → **It's been raining since morning** ✓",
+            "после `did` идёт первая форма: **Did it rained yesterday?** ✗ → **Did it rain yesterday?** ✓",
+            "у второй половины прогноза своё подлежащее: **The forecast says will rain** ✗ → **The forecast says it will rain** ✓",
+            "`-y` строит признак: **It's very wind today** ✗ → **It's very windy today** ✓",
+            "гром слышно, молнию видно: **We saw thunder** ✗ → **We heard thunder** ✓",
+            "после `getting` признак идёт сразу: **It's getting to cold** ✗ → **It's getting cold** ✓",
+            "`like` тянет вещь, а не признак: **It looks like cloudy** ✗ → **It looks cloudy** ✓",
+            "градусов несколько: **It's twenty degree** ✗ → **It's twenty degrees** ✓",
+            "мёрзнет человек: **It's cold to me** ✗ → **I'm cold** ✓, а **I have cold** ✗ → **I have a cold** ✓",
+            "кальки предлогов: **under the rain** ✗, **on the sun** ✗, **on the street** ✗ → **in the rain** ✓, **in the sun** ✓, **outside** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что будет в заданиях"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Заговорить первым.** ИИ опишет по-русски сцену — лифт, очередь, остановка, кухня в офисе. Начните разговор о погоде и верните вопрос собеседнику.",
+            "**Фраза из темы.** Русская фраза из любой микротемы — скажите её по-английски. Иногда она специально просится в кальку: решать вам.",
+            "**Найди ошибку.** Три предложения, в одном ошибка: найдите его, перепишите правильно и своими словами скажите, что было не так."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чего в заданиях не будет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Погодных идиом — **under the weather**, **take a rain check**, **come rain or shine** и остальных: мы разобрали их на узнавание, а собирать в Словарь будем в теме «Устойчивые выражения и идиомы», там их и спросим. Не будет и хвостика `isn't it?` как правила (его дом — тема «Вопросительные хвостики»; в готовой фразе он, конечно, попадётся) и пересчёта Фаренгейта в уме — это не грамматика, а арифметика."
+        },
+        {
+          "type": "heading",
+          "text": "ИИ — это тренажёр, а не экзамен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибиться здесь нормально и даже полезно. На каждую ошибку ИИ показывает верный вариант и называет причину — какая упаковка была нужна, какое время или чей это был холод. Разбор собственной ошибки на собственной фразе держится в голове крепче, чем перечитанная карточка."
+        },
+        {
+          "type": "heading",
+          "text": "Встретится то, чего мы не давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "ИИ говорит на живом английском, и в его репликах может проскочить конструкция из будущих тем — пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод."
+        },
+        {
+          "type": "heading",
+          "text": "Как это устроено"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваших прошлых ответов.",
+            "**Слова — ваши.** Во втором задании подтягивается порция слов, которые вы уже знаете: трудность должна быть в выборе конструкции, а не в незнакомой лексике.",
+            "**Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Настоящий разговор о погоде — с памятью, где собеседник помнит ваши прошлые реплики, цепляется за них и ведёт беседу дальше, — живёт во вкладке «Практика», в режиме «Диалог». Здесь мы тренируем отдельные ходы, там из них складывается разговор целиком."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Четыре упаковки: **It's sunny** (признак) · **It's raining** (действие) · **There's a storm** (вещь) · **It's a lovely day** (о дне)."
+        },
+        {
+          "type": "heading",
+          "text": "Время"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's raining** сейчас · **It rains a lot here** вообще · **It was cold yesterday** вчера",
+            "**It's going to rain** по признакам · **It'll be sunny** предсказание · **It's been raining since morning** с утра"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What's the weather like?** · **What's it like outside?** — без `like` вопрос не собирается",
+            "Ответ: **It's lovely** · **It's awful** · **Not bad**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три холода и предлоги"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's cold** — на улице · **I'm cold** — я мёрзну · **I have a cold** — простуда",
+            "**in the rain** · **in the sun** · **outside**, но **under an umbrella**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Is raining** ✗ → **It's raining** ✓ — подлежащее не пропадает",
+            "**a nice weather** ✗ → **nice weather** ✓ — погода не считается",
+            "**What is the weather?** ✗ → **What's the weather like?** ✓",
+            "**It is raining since morning** ✗ → **It's been raining since morning** ✓",
+            "**It's cold to me** ✗ → **I'm cold** ✓ · **under the rain** ✗ → **in the rain** ✓"
+          ]
+        }
+      ],
+      "examples": [],
+      "clarificationOptions": [
+        "Как быстро выбрать между it's, there's и упаковкой с днём?",
+        "Что делать, если ИИ написал незнакомую конструкцию?",
+        "Чем эти задания отличаются от диалога во вкладке «Практика»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4186,6 +4419,30 @@
       "cardId": 599,
       "title": "Поддержать разговор",
       "userInstruction": "Собеседник скажет вам фразу о погоде. Ответьте так, чтобы разговор продолжился.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "weather_card600_ex1",
+      "cardId": 600,
+      "title": "Заговорить первым",
+      "userInstruction": "ИИ опишет ситуацию по-русски. Заговорите первым: скажите фразу о погоде и задайте собеседнику вопрос.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "weather_card600_ex2",
+      "cardId": 600,
+      "title": "Скажи по-английски",
+      "userInstruction": "ИИ пришлёт русскую фразу о погоде. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "weather_card600_ex3",
+      "cardId": 600,
+      "title": "Найди и исправь",
+      "userInstruction": "ИИ пришлёт три предложения. Найдите то, где есть ошибка, перепишите его правильно и своими словами скажите, что было не так.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
