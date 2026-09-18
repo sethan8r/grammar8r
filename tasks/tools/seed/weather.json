@@ -44,14 +44,33 @@
           "text": "Разговор на остановке"
         },
         {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "**Lovely day, isn't it?** — сосед начинает: сказал о погоде и сразу позвал согласиться",
-            "**It is. It was so cold last week.** — согласились и добавили своё",
-            "**I know. They say it's going to rain tomorrow.** — поддержали и принесли новость",
-            "**Again?** — короткая реакция, чтобы разговор не оборвался",
-            "**Come rain or shine, I'm going to the park.** — закрыли шуткой"
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Kate",
+              "text": "Lovely day, isn't it?",
+              "note": "Сказала о погоде и позвала согласиться"
+            },
+            {
+              "speaker": "Me",
+              "text": "It is. It was so cold last week.",
+              "note": "Согласился и добавил своё"
+            },
+            {
+              "speaker": "Kate",
+              "text": "I know. They say it's going to rain tomorrow.",
+              "note": "Поддержала и принесла новость"
+            },
+            {
+              "speaker": "Me",
+              "text": "Again?",
+              "note": "Короткая реакция, чтобы разговор не оборвался"
+            },
+            {
+              "speaker": "Kate",
+              "text": "Come rain or shine, I'm going to the park.",
+              "note": "Закрыла шуткой"
+            }
           ]
         },
         {

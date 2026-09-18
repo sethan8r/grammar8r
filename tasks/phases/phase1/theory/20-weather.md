@@ -32,11 +32,11 @@
 
 **Разговор на остановке**
 
-- **Lovely day, isn't it?** — сосед начинает: сказал о погоде и сразу позвал согласиться
-- **It is. It was so cold last week.** — согласились и добавили своё
-- **I know. They say it's going to rain tomorrow.** — поддержали и принесли новость
-- **Again?** — короткая реакция, чтобы разговор не оборвался
-- **Come rain or shine, I'm going to the park.** — закрыли шуткой
+@Kate: Lovely day, isn't it? // сказала о погоде и позвала согласиться
+@Me: It is. It was so cold last week. // согласился и добавил своё
+@Kate: I know. They say it's going to rain tomorrow. // поддержала и принесла новость
+@Me: Again? // короткая реакция, чтобы разговор не оборвался
+@Kate: Come rain or shine, I'm going to the park. // закрыла шуткой
 
 Пять реплик, двадцать секунд, ни одного сложного слова. И при этом в них уже спрятана вся тема.
 

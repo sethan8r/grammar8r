@@ -2,6 +2,7 @@ package dev.sethan8r.grammar.app.data.mapper
 
 import dev.sethan8r.grammar.app.data.local.content.entity.theory.GrammarCard
 import dev.sethan8r.grammar.core.model.theory.CalloutVariant
+import dev.sethan8r.grammar.core.model.theory.DialogLine
 import dev.sethan8r.grammar.core.model.theory.Example
 import dev.sethan8r.grammar.core.model.theory.TheoryBlock
 import dev.sethan8r.grammar.core.model.theory.TheoryCard
@@ -45,6 +46,9 @@ class TheoryContentMapper @Inject constructor(
         is HeadingJson -> TheoryBlock.Heading(text)
         is ListJson -> TheoryBlock.BulletList(ordered = ordered, items = items)
         is TableJson -> TheoryBlock.Table(header = header, rows = rows)
+        is DialogJson -> TheoryBlock.Dialog(
+            lines = lines.map { DialogLine(speaker = it.speaker, text = it.text, note = it.note) },
+        )
         is CalloutJson -> TheoryBlock.Callout(
             variant = variant.toVariant(),
             label = label,

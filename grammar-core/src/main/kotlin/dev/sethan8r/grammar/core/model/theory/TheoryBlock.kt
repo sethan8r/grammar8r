@@ -28,6 +28,12 @@ sealed interface TheoryBlock {
     data class Callout(val variant: CalloutVariant, val label: String, val blocks: List<TheoryBlock>) : TheoryBlock
 
     /**
+     * Диалог-чат: обмен репликами внутри карточки. Рисуется как переписка — наша сторона у правого
+     * края, собеседники у левого (см. [DialogLine]).
+     */
+    data class Dialog(val lines: List<DialogLine>) : TheoryBlock
+
+    /**
      * Тонкая горизонтальная линия — разделитель смысловых частей теории. В MD автор ставит `---`;
      * конвертер пока кладёт это параграфом `"---"`, маппер распознаёт HR-строку и отдаёт сюда.
      */
@@ -36,3 +42,23 @@ sealed interface TheoryBlock {
 
 /** Вид плашки [TheoryBlock.Callout]. Определяет цвет/оформление при рендере. */
 enum class CalloutVariant { TRAP, WARNING, TIP, FORMULA, NOTE }
+
+/**
+ * Реплика [TheoryBlock.Dialog]. [speaker] — имя говорящего из MD (`@Kate:`), [note] — короткий
+ * ярлык хода разговора («согласился и добавил своё»), если карточка разбирает само его устройство.
+ */
+data class DialogLine(
+    val speaker: String,
+    val text: String,
+    val note: String? = null,
+) {
+
+    /** Реплика нашей стороны — она рисуется у правого края, остальные у левого. */
+    val isSelf: Boolean get() = speaker.equals(SELF_SPEAKER, ignoreCase = true)
+
+    companion object {
+
+        /** Служебное имя нашей стороны диалога; автор пишет его в MD как `@Me:`. */
+        const val SELF_SPEAKER = "Me"
+    }
+}

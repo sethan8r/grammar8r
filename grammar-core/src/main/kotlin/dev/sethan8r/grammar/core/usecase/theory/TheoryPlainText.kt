@@ -21,6 +21,9 @@ object TheoryPlainText {
         is TheoryBlock.Table -> (listOf(block.header) + block.rows)
             .joinToString("\n") { row -> row.joinToString(" — ") }
 
+        // Диалог отдаём построчно «Имя: реплика» — ярлыки ходов это вёрстка, модели они не нужны.
+        is TheoryBlock.Dialog -> block.lines.joinToString("\n") { "${it.speaker}: ${it.text}" }
+
         is TheoryBlock.Callout -> listOfNotNull(
             block.label.takeIf { it.isNotBlank() },
             render(block.blocks).takeIf { it.isNotBlank() },

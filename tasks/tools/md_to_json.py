@@ -97,6 +97,27 @@ def collect_list(lines, j):
         j += 1
     return {'type': 'list', 'ordered': ordered, 'items': items}, j
 
+# Реплика диалога-чата: `@Имя: текст` + необязательный ярлык хода после `//`.
+# Собственное имя `@Me` — наша сторона (рендерится справа), остальные — слева.
+DIALOG_LINE = re.compile(r'^@([^:@]{1,20}?):\s*(.+)$')
+
+def is_dialog_line(s):
+    return bool(DIALOG_LINE.match(s.strip()))
+
+def collect_dialog(lines, j):
+    replies = []
+    while j < len(lines):
+        m = DIALOG_LINE.match(lines[j].strip())
+        if not m:
+            break
+        text, _, note = m.group(2).partition('//')
+        reply = {'speaker': m.group(1).strip(), 'text': text.strip()}
+        if note.strip():
+            reply['note'] = cap_first(note.strip())
+        replies.append(reply)
+        j += 1
+    return {'type': 'dialog', 'lines': replies}, j
+
 # ---------- блоки теории ----------
 
 def parse_theory(body):
@@ -115,6 +136,10 @@ def parse_theory(body):
         if re.match(r'^\s*([-*]|\d+\.)\s+', raw):
             lst, j = collect_list(body, j)
             blocks.append(lst)
+            continue
+        if is_dialog_line(s):
+            dialog, j = collect_dialog(body, j)
+            blocks.append(dialog)
             continue
         # строка начинается с жирного фрагмента: heading / callout / обычный параграф.
         # Покрывает все формы плашек (автор оформляет ловушки по-разному):

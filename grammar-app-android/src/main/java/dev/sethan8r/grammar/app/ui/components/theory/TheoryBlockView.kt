@@ -1,11 +1,13 @@
 package dev.sethan8r.grammar.app.ui.components.theory
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -16,6 +18,7 @@ import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
@@ -34,14 +37,17 @@ import androidx.compose.ui.unit.sp
 import kotlin.math.ceil
 import kotlin.math.min
 import dev.sethan8r.grammar.core.model.theory.CalloutVariant
+import dev.sethan8r.grammar.core.model.theory.DialogLine
 import dev.sethan8r.grammar.core.model.theory.TheoryBlock
 import dev.sethan8r.grammar.app.ui.components.text.MarkdownText
 import dev.sethan8r.grammar.app.ui.theme.Accent
+import dev.sethan8r.grammar.app.ui.theme.Alphas
 import dev.sethan8r.grammar.app.ui.theme.Background
 import dev.sethan8r.grammar.app.ui.theme.Highlight
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.CorrectGreen
 import dev.sethan8r.grammar.app.ui.theme.Dimens
+import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.Inactive
 import dev.sethan8r.grammar.app.ui.theme.IncorrectRed
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
@@ -84,6 +90,7 @@ fun TheoryBlocks(
                 is TheoryBlock.Paragraph -> MarkdownText(block.text)
                 is TheoryBlock.BulletList -> ListBlock(block)
                 is TheoryBlock.Table -> TableBlock(block, containerColor)
+                is TheoryBlock.Dialog -> DialogBlock(block)
                 is TheoryBlock.Callout -> CalloutBlock(block, containerColor)
             }
         }
@@ -110,6 +117,107 @@ private fun ListBlock(block: TheoryBlock.BulletList) {
             }
         }
     }
+}
+
+// Пузырь реплики: «хвостик» — прямой угол у своего края (справа снизу у нас, слева сверху у собеседника).
+private val selfBubbleShape = RoundedCornerShape(
+    topStart = Dimens.cornerCard,
+    topEnd = Dimens.cornerCard,
+    bottomStart = Dimens.cornerCard,
+    bottomEnd = Dimens.cornerSmall,
+)
+
+private val otherBubbleShape = RoundedCornerShape(
+    topStart = Dimens.cornerSmall,
+    topEnd = Dimens.cornerCard,
+    bottomStart = Dimens.cornerCard,
+    bottomEnd = Dimens.cornerCard,
+)
+
+/**
+ * Диалог-чат: наши реплики (`@Me`) — справа, залиты акцентом; реплики собеседников — слева на
+ * [Elevated] с именем внутри пузыря. Весь диалог лежит в общем фрейме — так кусок переписки читается
+ * одним блоком теории, а не россыпью пузырей поверх карточки.
+ */
+@Composable
+private fun DialogBlock(block: TheoryBlock.Dialog) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .border(Dimens.outlineWidth, Inactive, RoundedCornerShape(Dimens.cornerCard))
+            .padding(Dimens.spaceMedium),
+        verticalArrangement = Arrangement.spacedBy(Dimens.spaceSmall),
+    ) {
+        block.lines.forEach { DialogLineRow(it) }
+    }
+}
+
+/**
+ * Одна реплика. Имя говорящего стоит ПЕРВОЙ СТРОКОЙ ВНУТРИ пузыря (а не подписью над ним), иначе
+ * подпись раздвигает соседние реплики и вертикальный ритм чата становится рваным.
+ */
+@Composable
+private fun DialogLineRow(line: DialogLine) {
+    val textColor = if (line.isSelf) Background else TextPrimary
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = if (line.isSelf) Arrangement.End else Arrangement.Start,
+    ) {
+        // Пустое поле у противоположного края: пузырь тянется по тексту, но `fill = false`
+        // не даёт ему занять всю ширину — иначе чат читается как обычные абзацы.
+        if (line.isSelf) Spacer(Modifier.width(Dimens.dialogBubbleGutter))
+        Column(
+            modifier = Modifier
+                .weight(1f, fill = false)
+                .clip(if (line.isSelf) selfBubbleShape else otherBubbleShape)
+                .background(if (line.isSelf) Accent else Elevated)
+                .padding(
+                    start = Dimens.spaceLarge,
+                    end = Dimens.spaceLarge,
+                    // Строка имени сама даёт воздух сверху — верхний отступ под ней поджимаем.
+                    top = if (line.isSelf) Dimens.spaceMedium else Dimens.spaceSmall,
+                    bottom = Dimens.spaceMedium,
+                ),
+        ) {
+            // Своё имя не пишем: сторона и цвет пузыря и так говорят, кто это.
+            if (!line.isSelf) {
+                Text(
+                    text = line.speaker,
+                    modifier = Modifier.padding(bottom = Dimens.spaceTiny),
+                    color = Accent,
+                    fontSize = 13.sp,
+                    fontWeight = FontWeight.Medium,
+                )
+            }
+            MarkdownText(text = line.text, color = textColor)
+            line.note?.let {
+                DialogNote(
+                    text = it,
+                    color = textColor,
+                    modifier = Modifier.padding(top = Dimens.spaceSmall),
+                )
+            }
+        }
+        if (!line.isSelf) Spacer(Modifier.width(Dimens.dialogBubbleGutter))
+    }
+}
+
+/** Ярлык хода разговора внутри реплики: тот же цвет, мельче основного текста, рамка без заливки. */
+@Composable
+private fun DialogNote(text: String, color: Color, modifier: Modifier = Modifier) {
+    MarkdownText(
+        text = text,
+        modifier = modifier
+            .border(
+                width = Dimens.outlineWidth,
+                color = color.copy(alpha = Alphas.dialogNoteBorder),
+                shape = RoundedCornerShape(Dimens.cornerSmall),
+            )
+            .padding(horizontal = Dimens.spaceSmall, vertical = Dimens.spaceTiny),
+        color = color.copy(alpha = Alphas.dialogNoteText),
+        fontSize = 13.sp,
+        lineHeight = 18.sp,
+    )
 }
 
 private val WHITESPACE = Regex("\\s+")
@@ -471,6 +579,7 @@ private fun CalloutBodyBlock(block: TheoryBlock, monospace: FontFamily?, contain
             fontWeight = FontWeight.Bold,
             fontSize = 16.sp,
         )
+        is TheoryBlock.Dialog -> DialogBlock(block)
         is TheoryBlock.Callout -> CalloutBlock(block, containerColor)
         TheoryBlock.Divider -> Unit
     }

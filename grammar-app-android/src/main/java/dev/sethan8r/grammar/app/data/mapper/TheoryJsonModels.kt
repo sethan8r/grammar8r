@@ -46,6 +46,18 @@ data class CalloutJson(
     val blocks: List<TheoryBlockJson> = emptyList(),
 ) : TheoryBlockJson
 
+@Serializable
+@SerialName("dialog")
+data class DialogJson(val lines: List<DialogLineJson> = emptyList()) : TheoryBlockJson
+
+/** Реплика диалога: говорящий, текст и необязательный ярлык хода разговора. */
+@Serializable
+data class DialogLineJson(
+    val speaker: String = "",
+    val text: String = "",
+    val note: String? = null,
+)
+
 /** Пара RU→EN из поля `examples`. */
 @Serializable
 data class ExampleJson(val ru: String = "", val en: String = "")
