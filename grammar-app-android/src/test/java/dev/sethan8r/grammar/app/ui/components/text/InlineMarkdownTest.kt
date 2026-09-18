@@ -32,10 +32,11 @@ class InlineMarkdownTest {
     }
 
     @Test
-    fun `пара форм — сломанное гаснет, верное остаётся жирным, лишних пробелов нет`() {
+    fun `сломанное гаснет без крестика, у верного галочка вплотную`() {
         val raw = "**I a student** ✗ вместо **I am a student** ✓."
 
-        assertEquals("I a student вместо I am a student.", parse(raw).text.text)
+        // Крестика в тексте нет, галочка осталась и прижата к слову — пробел перед ней съеден.
+        assertEquals("I a student вместо I am a student✓.", parse(raw).text.text)
         assertTrue(isDimmed(raw, "I a student"))
         assertTrue(!isDimmed(raw, "I am a student"))
     }

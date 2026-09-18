@@ -46,6 +46,7 @@ data class ParsedMarkdown(
 )
 
 private const val INLINE_CHECK = "inline_check"
+private const val INLINE_CHECK_TIGHT = "inline_check_tight"
 private const val INLINE_CROSS = "inline_cross"
 private const val INLINE_ARROW = "inline_arrow"
 private const val INLINE_ARROW_LEFT = "inline_arrow_left"
@@ -72,6 +73,9 @@ private const val ICON_WIDTH = 1.2f
 /** Ширина точки-разделителя: она уже прочих значков, иначе вокруг неё зияет дыра. */
 private const val DOT_WIDTH = 0.5f
 
+/** Ширина галочки, прижатой к верному варианту: у неё нет пробела слева, поэтому место уже. */
+private const val CHECK_TIGHT_WIDTH = 0.9f
+
 /** Значок символа `→` по умолчанию — длинная стрелка, как в тексте теории и условий заданий. */
 val InlineArrowIcon: ImageVector get() = Icons.AutoMirrored.Filled.ArrowRightAlt
 
@@ -88,11 +92,11 @@ val InlineArrowIcon: ImageVector get() = Icons.AutoMirrored.Filled.ArrowRightAlt
  * Символы-глифы в данных заменяются на **векторные иконки Material** через официальный
  * `InlineTextContent` (в текст эмодзи не попадают, размер — в `em`, тянется за шрифтом):
  *  - вердикт `✓` / `✗` / `❌` **сразу за вставкой** (`**I am a student** ✓`) значка не даёт, а меняет
- *    вид самой вставки: верное остаётся жирным, сломанное гаснет до [TextSecondary] обычным весом
- *    и перечёркивается. Пара читается контрастом «яркое ↔ тусклое», новых цветов не добавляется
- *    (перечёркнутое ни с чем не спутать даже там, где тот же серый несёт шапка таблицы), и значок не
- *    уезжает один на перенос строки. В остальных позициях (в ячейке таблицы, перед фразой, после
- *    голого текста) рисуется иконкой: [Icons.Filled.Check] зелёным и [Icons.Filled.Close] красным;
+ *    вид самой вставки: сломанное гаснет до [TextSecondary] обычным весом и перечёркивается, а
+ *    верное остаётся жирным и получает галочку, прижатую к слову (пробел перед ней съедается,
+ *    поэтому она не уезжает одна на перенос строки). В остальных позициях (в ячейке таблицы, перед
+ *    фразой, после голого текста) значок рисуется как обычно: [Icons.Filled.Check] зелёным и
+ *    [Icons.Filled.Close] красным;
  *  - `→` → [arrowIcon] (по умолчанию [InlineArrowIcon], цветом [arrowIconColor]),
  *    `←` — та же иконка, отражённая по горизонтали, `↔` → [DoubleArrowIcon] (пара
  *    противопоставлений);
@@ -213,7 +217,10 @@ fun parseInlineMarkdown(
                 // Вердикт сразу за вставкой — значок не рисуем: верное остаётся жирным, сломанное
                 // гасим до второстепенного текста, и пара читается контрастом «яркое ↔ тусклое».
                 verdictStart >= 0 && verdictEnd > verdictStart && raw[index] in VERDICT_MARKS -> {
-                    if (raw[index] != '✓') {
+                    if (raw[index] == '✓') {
+                        // Галочка прижата к слову: придержанный пробел не выводим.
+                        appendInlineContent(INLINE_CHECK_TIGHT, "✓")
+                    } else {
                         addStyle(
                             SpanStyle(
                                 color = TextSecondary,
@@ -267,6 +274,7 @@ fun parseInlineMarkdown(
     val inlineContent = buildMap<String, InlineTextContent> {
         // Вердикт держит свой семантический цвет и внутри бэктиков — зелёный и красный не подменяем.
         put(INLINE_CHECK, inlineIcon(Icons.Filled.Check, correctColor))
+        put(INLINE_CHECK_TIGHT, inlineIcon(Icons.Filled.Check, correctColor, width = CHECK_TIGHT_WIDTH))
         put(INLINE_CROSS, inlineIcon(Icons.Filled.Close, incorrectColor))
         putIconPair(INLINE_ARROW, arrowIcon, arrowIconColor, inlineCodeColor)
         putIconPair(INLINE_ARROW_LEFT, arrowIcon, arrowIconColor, inlineCodeColor, mirror = true)
