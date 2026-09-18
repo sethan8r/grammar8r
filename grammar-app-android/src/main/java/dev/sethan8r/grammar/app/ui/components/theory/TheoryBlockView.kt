@@ -527,7 +527,7 @@ private fun TableCapsule(cells: List<String>, widths: List<Dp>, isHeader: Boolea
                 modifier = Modifier
                     .width(widths.getOrElse(index) { 0.dp })
                     .padding(horizontal = TABLE_CELL_PADDING_H, vertical = Dimens.spaceSmall),
-                color = if (isHeader) TextSecondary else TextPrimary,
+                color = if (isHeader) Accent else TextPrimary,
                 fontWeight = if (isHeader || index == 0) FontWeight.Medium else null,
                 fontSize = if (isHeader) 13.sp else 14.sp,
                 lineHeight = if (isHeader) 16.sp else 20.sp,

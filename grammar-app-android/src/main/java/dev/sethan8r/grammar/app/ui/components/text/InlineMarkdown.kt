@@ -32,10 +32,12 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 import dev.sethan8r.grammar.app.ui.theme.InlineCode
+import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 
 /** Результат разбора: текст + карта инлайн-иконок (вердикт ✓/✗) для [TranslatableText]. */
 data class ParsedMarkdown(
@@ -57,6 +59,9 @@ private const val INLINE_BLANK = "inline_blank"
 
 /** Суффикс ключа иконки-двойника, окрашенного как бэктик-вставка (`to + V1`). */
 private const val CODE_SUFFIX = "_code"
+
+/** Значки вердикта: стоя вплотную за вставкой, они красят её вместо того, чтобы рисоваться сами. */
+private val VERDICT_MARKS = charArrayOf('✓', '✗', '❌')
 
 /** Во сколько раз транскрипция крупнее окружающего текста: мелкие значки IPA иначе не читаются. */
 private const val PHONETIC_SCALE = 1.1f
@@ -82,7 +87,12 @@ val InlineArrowIcon: ImageVector get() = Icons.AutoMirrored.Filled.ArrowRightAlt
  *
  * Символы-глифы в данных заменяются на **векторные иконки Material** через официальный
  * `InlineTextContent` (в текст эмодзи не попадают, размер — в `em`, тянется за шрифтом):
- *  - `✓` → [Icons.Filled.Check] (зелёный), `✗`/`❌` → [Icons.Filled.Close] (красный);
+ *  - вердикт `✓` / `✗` / `❌` **сразу за вставкой** (`**I am a student** ✓`) значка не даёт, а меняет
+ *    вид самой вставки: верное остаётся жирным, сломанное гаснет до [TextSecondary] обычным весом
+ *    и перечёркивается. Пара читается контрастом «яркое ↔ тусклое», новых цветов не добавляется
+ *    (перечёркнутое ни с чем не спутать даже там, где тот же серый несёт шапка таблицы), и значок не
+ *    уезжает один на перенос строки. В остальных позициях (в ячейке таблицы, перед фразой, после
+ *    голого текста) рисуется иконкой: [Icons.Filled.Check] зелёным и [Icons.Filled.Close] красным;
  *  - `→` → [arrowIcon] (по умолчанию [InlineArrowIcon], цветом [arrowIconColor]),
  *    `←` — та же иконка, отражённая по горизонтали, `↔` → [DoubleArrowIcon] (пара
  *    противопоставлений);
@@ -110,15 +120,40 @@ fun parseInlineMarkdown(
         var italicDepth = 0
         var codeDepth = 0
 
+        // Открытая вставка и та, что закрылась последней: если сразу за ней стоит вердикт, красим
+        // вставку его цветом, а сам значок и пробелы перед ним в текст не идут (см. KDoc → вердикт).
+        var spanOpenedAt = -1
+        var verdictStart = -1
+        var verdictEnd = -1
+        var pendingSpaces = 0
+
+        /** Выводит придержанные пробелы и снимает право закрытой вставки на покраску. */
+        fun releaseSpan() {
+            repeat(pendingSpaces) { append(' ') }
+            pendingSpaces = 0
+            verdictStart = -1
+            verdictEnd = -1
+        }
+
         while (index < raw.length) {
             when {
                 raw.startsWith("**", index) -> {
-                    if (boldDepth == 0) pushStyle(SpanStyle(fontWeight = FontWeight.Bold)) else pop()
-                    boldDepth = if (boldDepth == 0) 1 else 0
+                    val opening = boldDepth == 0
+                    if (opening) {
+                        releaseSpan()
+                        spanOpenedAt = length
+                        pushStyle(SpanStyle(fontWeight = FontWeight.Bold))
+                    } else {
+                        pop()
+                        verdictStart = spanOpenedAt
+                        verdictEnd = length
+                    }
+                    boldDepth = if (opening) 1 else 0
                     index += 2
                 }
 
                 raw[index] == '*' -> {
+                    releaseSpan()
                     if (italicDepth == 0) pushStyle(SpanStyle(fontStyle = FontStyle.Italic)) else pop()
                     italicDepth = if (italicDepth == 0) 1 else 0
                     index += 1
@@ -127,7 +162,10 @@ fun parseInlineMarkdown(
                 // Бэктик-вставка `...` → цвет [inlineCodeColor] + Medium-вес + курсив (без них
                 // выделение блёклое); сами бэктики в текст не попадают.
                 raw[index] == '`' -> {
-                    if (codeDepth == 0) {
+                    val opening = codeDepth == 0
+                    if (opening) {
+                        releaseSpan()
+                        spanOpenedAt = length
                         pushStyle(
                             SpanStyle(
                                 color = inlineCodeColor,
@@ -137,14 +175,17 @@ fun parseInlineMarkdown(
                         )
                     } else {
                         pop()
+                        verdictStart = spanOpenedAt
+                        verdictEnd = length
                     }
-                    codeDepth = if (codeDepth == 0) 1 else 0
+                    codeDepth = if (opening) 1 else 0
                     index += 1
                 }
 
                 // Транскрипция `[[wɜːk]]` → серифный шрифт покрупнее; пользователь видит [wɜːk]
                 // (внешние скобки — авторский маркер, внутренние остаются как привычная запись).
                 raw.startsWith("[[", index) && raw.indexOf("]]", index + 2) > 0 -> {
+                    releaseSpan()
                     val end = raw.indexOf("]]", index + 2)
                     withStyle(
                         SpanStyle(
@@ -162,13 +203,41 @@ fun parseInlineMarkdown(
                 // Пропуск в условии (`__`+) → сплошная инлайн-линия, а не символы подчёркивания.
                 // Только в упражнениях ([renderBlanks]); в теории подчёркивания остаются текстом.
                 renderBlanks && raw.startsWith("__", index) -> {
+                    releaseSpan()
                     var end = index
                     while (end < raw.length && raw[end] == '_') end++
                     appendInlineContent(INLINE_BLANK, "___")
                     index = end
                 }
 
+                // Вердикт сразу за вставкой — значок не рисуем: верное остаётся жирным, сломанное
+                // гасим до второстепенного текста, и пара читается контрастом «яркое ↔ тусклое».
+                verdictStart >= 0 && verdictEnd > verdictStart && raw[index] in VERDICT_MARKS -> {
+                    if (raw[index] != '✓') {
+                        addStyle(
+                            SpanStyle(
+                                color = TextSecondary,
+                                fontWeight = FontWeight.Normal,
+                                textDecoration = TextDecoration.LineThrough,
+                            ),
+                            verdictStart,
+                            verdictEnd,
+                        )
+                    }
+                    pendingSpaces = 0
+                    verdictStart = -1
+                    verdictEnd = -1
+                    index += 1
+                }
+
+                // Пробел после вставки придерживаем: за ним может стоять вердикт, и тогда пробел лишний.
+                verdictStart >= 0 && verdictEnd > verdictStart && raw[index] == ' ' -> {
+                    pendingSpaces += 1
+                    index += 1
+                }
+
                 else -> {
+                    releaseSpan()
                     // Внутри бэктиков нейтральные значки берут цвет вставки — иначе в формуле
                     // `to + V1` буквы синие, а плюс выпадает цветом обычного текста.
                     val inCode = codeDepth == 1
@@ -190,6 +259,7 @@ fun parseInlineMarkdown(
             }
         }
 
+        releaseSpan()
         // Подстраховка от непарных маркеров в данных — закрываем открытые стили.
         repeat(boldDepth + italicDepth + codeDepth) { pop() }
     }
