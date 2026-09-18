@@ -39,6 +39,13 @@
       "title": "Weather Words · Словарь погоды: чем описывают любой день",
       "order": 4,
       "searchKeywords": "существительное плюс y, чем дождь отличается от мороси, шкала холода по-английски, it looks like rain, сколько градусов по-английски, гром и молния"
+    },
+    {
+      "id": 219,
+      "topicId": 34,
+      "title": "Weather Traps · Погодные ловушки и идиомы",
+      "order": 5,
+      "searchKeywords": "мне холодно, я простыл, под дождём предлог, на улице или on the street, under the weather, take a rain check, lovely day isn't it"
     }
   ],
   "grammar_cards": [
@@ -3095,6 +3102,642 @@
         "Почему после числа всегда degrees, а не degree?",
         "Как быстро понять температуру в США?"
       ]
+    },
+    {
+      "id": 596,
+      "microtopicId": 219,
+      "title": "Три холода: погода, человек, болезнь",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В начале темы мы отложили один вопрос: русское «холодно» обслуживает три совершенно разные мысли — о мире, о себе и о своём здоровье. Пришло время его закрыть, потому что английский разводит эти мысли по трём разным конструкциям, и путают их даже те, кто говорит уверенно."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It's + признак · I'm + признак · I have a cold"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Три строчки различает только подлежащее. **It's cold.** — про мир вокруг: на первом месте стоит та самая пустышка `it`, с которой началась тема. **I'm cold.** — про меня: мёрзну я, значит я и есть подлежащее, дословно «я холодный». **I have a cold.** — вообще не про температуру: `a cold` здесь существительное, простуда, и фраза сообщает, что она у меня есть."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**It's cold to me** ✗ и **To me is cold** ✗ → **I'm cold** ✓. Русское «мне холодно» отодвигает человека в сторону: он ничего не делает, ему просто холодно. Английскому так нельзя — кто мёрзнет, тот и становится подлежащим."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I have cold** ✗ → **I have a cold** ✓. Простуда — штука, её подхватывают по одной, поэтому артикль обязателен. А у гриппа артикль другой: **I have the flu**, потому что грипп в английском один на всех, как `the sun`. И сравните с `weather` из прошлой микротемы — у него артикля не бывает вовсе."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Та же развилка на всей шкале"
+        },
+        {
+          "type": "paragraph",
+          "text": "Переключатель работает не только с холодом: **It's hot** ↔ **I'm hot**, **It's warm** ↔ **I'm warm**, **It's freezing** ↔ **I'm freezing**. Признак один и тот же, а подлежащее решает, о ком речь — о мире или о говорящем. Сюда же **It's cold in here**: комната — это по-прежнему мир вокруг, а не человек в ней."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У **I'm hot** есть второе, разговорное значение — «я хорош собой», и на этом строят шутки. В разговоре о погоде путаницы не будет: рядом лето, окно или духота в автобусе, и всем всё понятно. Захотелось подстраховаться — скажите **I'm too warm** или **It's too hot in here**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание, вопрос и короткий ответ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Первые две конструкции держатся на `to be`, и формы у них знакомые:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm not cold, thanks.** — `not` встаёт сразу за связкой",
+            "**Are you cold?** — **Yes, I am.** · **No, I'm not.**",
+            "**Aren't you cold in that shirt?** — «разве тебе не холодно?»: удивление, ждали обратного"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Третья ведёт себя иначе: `have` там обычный глагол, и ему нужен помощник — **Do you have a cold?** и **I don't have a cold, it's just dust.** Британец на том же месте скажет **I've got a cold** — то же самое, только разговорнее."
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "text": "Aren't you cold in that shirt?"
+            },
+            {
+              "speaker": "Me",
+              "text": "A bit. But I'm not ill, don't worry."
+            },
+            {
+              "speaker": "Emma",
+              "text": "Take my jacket. Half the office has a cold this week."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «холодно» разводится по трём конструкциям, и выбор делает подлежащее."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It's + признак · I'm + признак · I have a cold"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's cold.** — о мире · **I'm cold.** — о себе · **I have a cold.** — о болезни",
+            "Формы: **I'm not cold.** · **Are you cold?** — **Yes, I am.** · **Aren't you cold?**",
+            "У болезни помощник обычный: **Do you have a cold?** · **I don't have a cold.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's cold to me** ✗ → **I'm cold** ✓ — мёрзнет человек, он и подлежащее",
+            "**I have cold** ✗ → **I have a cold** ✓ — простуда считается, а у гриппа стоит **the flu**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "На улице холодно, возьми куртку.",
+          "en": "It's cold outside, take a jacket."
+        },
+        {
+          "ru": "Мне холодно, закрой, пожалуйста, окно.",
+          "en": "I'm cold, please close the window."
+        },
+        {
+          "ru": "Игорь простыл, поэтому сидит дома.",
+          "en": "Igor has a cold, so he is staying at home."
+        },
+        {
+          "ru": "Разве тебе не холодно в одной рубашке?",
+          "en": "Aren't you cold in just a shirt?"
+        },
+        {
+          "ru": "У Меган грипп, она не придёт.",
+          "en": "Megan has the flu, she isn't coming."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать It's cold to me?",
+        "Чем I have a cold отличается от I'm cold?",
+        "Почему у гриппа артикль the, а у простуды a?"
+      ]
+    },
+    {
+      "id": 597,
+      "microtopicId": 219,
+      "title": "Под дождём, на солнце, на улице",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая пачка ловушек — предлоги. Они коварнее слов: незнакомое слово человек хотя бы замечает и лезет за переводом, а предлог он ставит на автомате, прямо из русского, и ошибку не слышит годами."
+        },
+        {
+          "type": "heading",
+          "text": "Дождь — это не крыша, а среда"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы стоим «под дождём», как под навесом: дождь сверху, мы под ним. Английский смотрит иначе — дождь заполняет всё вокруг, и человек оказывается внутри него, как в воде. Отсюда `in`: **We waited in the rain for ten minutes.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Under the rain** ✗ → **in the rain** ✓. Так же со снегом, ветром и туманом: **in the snow**, **in the wind**, **in the fog**."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот зонт — настоящая крыша, и с ним `under` на своём месте. Поставьте две половины рядом, и правило станет видно само: **We stood under one umbrella in the rain.**"
+        },
+        {
+          "type": "heading",
+          "text": "Солнце и тень"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**On the sun** ✗ → **in the sun** ✓. Сочетание `on the sun` значит «на поверхности звезды», где шесть тысяч градусов. Лежать на пляже можно только `in the sun`, а спрятаться — **in the shade**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«На улице» — это не улица"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «на улице» чаще всего значит просто «не дома». Английское `street` — это настоящая улица с домами и машинами, поэтому дословный перевод уводит смысл в сторону."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The kids are playing on the street** ✗ (если имелось в виду «во дворе, не дома») → **The kids are playing outside** ✓. Про `outside` важно и другое: предлога перед ним нет вообще, слово само себе обстоятельство. Противоположность — **indoors**: **Let's stay indoors today.**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Промокнуть и простудиться"
+        },
+        {
+          "type": "paragraph",
+          "text": "Две фразы, без которых разговор о дожде не обходится:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We got wet on the way home.** — промокнуть, знакомый приём `get` с признаком: «стать мокрым»",
+            "**Close the window or you'll catch a cold.** — простудиться: болезнь в английском ловят, как мяч"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**To take a cold** ✗ → **to catch a cold** ✓. И помните, что `catch` неправильный: **Roma caught a cold in Vienna** ✓, а **catched** ✗ не существует."
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Nick",
+              "text": "You're completely wet! Why didn't you wait indoors?"
+            },
+            {
+              "speaker": "Me",
+              "text": "I stood in the rain for twenty minutes. The bus never came."
+            },
+            {
+              "speaker": "Nick",
+              "text": "Sit by the heater, or you'll catch a cold."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Предлоги погоды с русского дословно не переводятся: осадки и солнце берут `in`, а «не дома» — это `outside` вообще без предлога."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**in the rain** · **in the snow** · **in the wind** · **in the sun** · **in the shade**",
+            "Зонт — настоящая крыша, поэтому **under an umbrella** ✓",
+            "«Не дома» — **outside**, «в помещении» — **indoors**",
+            "**to get wet** — промокнуть · **to catch a cold** — простудиться, прошедшее — **caught**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**under the rain** ✗ → **in the rain** ✓ — дождь это среда, а не навес",
+            "**on the sun** ✗ → **in the sun** ✓ — on the sun это на самой звезде",
+            "**to take a cold** ✗ → **to catch a cold** ✓ — болезнь ловят"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мы ждали автобус под дождём.",
+          "en": "We waited for the bus in the rain."
+        },
+        {
+          "ru": "Не сиди на солнце слишком долго.",
+          "en": "Don't sit in the sun too long."
+        },
+        {
+          "ru": "Дети играют на улице.",
+          "en": "The kids are playing outside."
+        },
+        {
+          "ru": "Давай сегодня останемся в помещении.",
+          "en": "Let's stay indoors today."
+        },
+        {
+          "ru": "Рома простудился в Вене.",
+          "en": "Roma caught a cold in Vienna."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему под дождём это in, а под зонтом under?",
+        "Чем outside отличается от on the street?",
+        "Как сказать «я промок» и «я простудился»?"
+      ]
+    },
+    {
+      "id": 598,
+      "microtopicId": 219,
+      "title": "Когда погода вообще не про погоду",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вокруг погоды английский набрал горсть выражений, в которых никакой погоды нет. Дословно они не читаются вообще, зато в речи встречаются постоянно — и человек, который слышит их впервые, обычно понимает ровно наоборот."
+        },
+        {
+          "type": "heading",
+          "text": "Шесть выражений, которые стоит узнавать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm a bit under the weather today.** — дословно «я слегка под погодой», по-живому «приболел, не в форме»",
+            "**Can I take a rain check?** — дословно «можно я возьму талон на дождь», по-живому «давай перенесём на другой раз»; талон когда-то выдавали зрителям матча, отменённого из-за дождя",
+            "**Come rain or shine, we start at eight.** — дословно «хоть дождь, хоть солнце», по-живому «при любом раскладе»",
+            "**He turned out to be a fair-weather friend.** — дословно «друг хорошей погоды», по-живому «друг до первой беды»",
+            "**They weathered the storm together.** — дословно «они выдержали бурю», по-живому «пережили трудное время»; здесь `weather` вообще глагол",
+            "**This quiet week is the calm before the storm.** — затишье перед бурей; редкий случай, когда русский и английский совпали слово в слово"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'll take a rain check** — это НЕ отказ. Человек говорит «не сегодня, но в другой раз», и обижаться тут не на что. Отказ звучал бы прямо: **I can't make it, sorry.** А если перенести встречу хотите вы, так и скажите: **Let's postpone the picnic till Sunday.**"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She's under the weather** — про человека, которому нездоровится, а вовсе не про небо. Русский на этой фразе тянется спросить «а что там с погодой?». Проверка простая: рядом с выражением стоит человек — значит речь о самочувствии."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Дальше по курсу, в теме «Устойчивые выражения и идиомы», вас ждёт `it's raining cats and dogs` — «льёт как из ведра». Это из той же компании: погода в словах есть, а смысла погоды в них нет."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сами эти обороты сейчас в Словарь не уходят. Готовые фразы мы собираем пачкой дальше по курсу — в теме «Устойчивые выражения и идиомы», где они лягут в один ряд с другими идиомами. Сегодняшняя задача проще: узнавать их в чужой речи и не понимать буквально."
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Ben",
+              "text": "Are you coming to the game tonight?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Can I take a rain check? I'm a bit under the weather."
+            },
+            {
+              "speaker": "Ben",
+              "text": "Of course. Rest, and we'll go next week."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Шесть выражений с погодой, в которых погоды нет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**under the weather** — приболел, не в форме",
+            "**take a rain check** — перенести на другой раз",
+            "**come rain or shine** — при любом раскладе",
+            "**a fair-weather friend** — друг до первой беды",
+            "**to weather the storm** — пережить трудное время",
+            "**the calm before the storm** — затишье перед бурей"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll take a rain check** — это перенос; отказ звучит как **I can't make it, sorry**",
+            "**She's under the weather** — о самочувствии человека, а не о небе"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я сегодня приболел.",
+          "en": "I'm a bit under the weather today."
+        },
+        {
+          "ru": "Можно перенести на другой раз?",
+          "en": "Can I take a rain check?"
+        },
+        {
+          "ru": "Мы начинаем в восемь при любом раскладе.",
+          "en": "We start at eight, come rain or shine."
+        },
+        {
+          "ru": "Он оказался другом до первой беды.",
+          "en": "He turned out to be a fair-weather friend."
+        },
+        {
+          "ru": "Давай перенесём пикник на воскресенье.",
+          "en": "Let's postpone the picnic till Sunday."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему under the weather значит «приболел»?",
+        "Take a rain check — это отказ или перенос?",
+        "Как понять, что фраза о погоде на самом деле не о погоде?"
+      ]
+    },
+    {
+      "id": 599,
+      "microtopicId": 219,
+      "title": "Погода как повод заговорить",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема началась с разговора в лифте — и возвращается к нему, только теперь у нас есть всё, чтобы такой разговор поддержать. Осталось собрать три хода из готовых фраз, которые англичанин произносит не задумываясь."
+        },
+        {
+          "type": "heading",
+          "text": "Ход первый: сказать о погоде"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Lovely day, isn't it?** — когда день хороший",
+            "**Bit cold today.** — когда не очень",
+            "**What awful weather!** — когда совсем плохо"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметьте, что в первых двух фразах пропало начало: не **It's a lovely day**, а просто **Lovely day**. Это единственное место, где английский разрешает себе то, чего мы у него весь курс не видели, — обойтись без подлежащего. Работает такое только в готовых фразах-приветствиях, где обоим и так понятно, о чём речь. Стоит развернуть мысль в полное предложение — и `it` немедленно возвращается на место: **It's a bit cold today, isn't it?**"
+        },
+        {
+          "type": "heading",
+          "text": "Ход второй: согласиться и добавить своё"
+        },
+        {
+          "type": "paragraph",
+          "text": "Голое **Yes** обрывает разговор на середине. Англичанин сначала соглашается — **It is.** · **I know.** · **Absolutely.** — а потом обязательно добавляет что-нибудь от себя:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It is. I had to scrape the car this morning.**",
+            "**I know. And they say it'll be worse tomorrow.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "На **Lovely day, isn't it?** русский часто отвечает буквально — **Yes, it isn't** ✗. Хвостик `isn't it?` ничего не спрашивает, он зовёт согласиться, поэтому ответ идёт по первой половине фразы: **It is** ✓ или просто **I know** ✓. Сами хвостики разберём в теме «Вопросительные хвостики», пока достаточно узнавать их в речи."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ход третий: вернуть мяч"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разговор живёт, пока вопрос возвращается: **Any plans for the weekend?** · **Are you going away this summer?** Погода тут не тема, а дверь — через неё заходят в нормальный разговор."
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Megan",
+              "text": "Bit cold today, isn't it?",
+              "note": "Бросила реплику о погоде"
+            },
+            {
+              "speaker": "Me",
+              "text": "It is. I had to scrape the car this morning.",
+              "note": "Согласился и добавил своё"
+            },
+            {
+              "speaker": "Megan",
+              "text": "Same here. Any plans for the weekend?",
+              "note": "Открыла дверь в другой разговор"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Жаловаться на погоду в Британии — норма и почти вид спорта: **We do like to complain about the weather.** Поддержать чужую жалобу — самый безопасный способ не молчать с малознакомым человеком. Бодрое **The weather is fine, actually** не запрещено, но звучит как спор на ровном месте."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Разговор о погоде собирается из трёх ходов и десятка готовых фраз."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Сказать: **Lovely day, isn't it?** · **Bit cold today.** · **What awful weather!**",
+            "Согласиться и добавить: **It is.** / **I know.** и сразу своё наблюдение",
+            "Вернуть мяч: **Any plans for the weekend?**",
+            "В готовых фразах начало можно ронять: **Bit cold today** = **It's a bit cold today**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Yes, it isn't** ✗ → **It is** ✓ — хвостик зовёт согласиться, а не спрашивает",
+            "Голое **Yes** обрывает разговор: после согласия идёт своё добавление"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Чудесное утро, правда?",
+          "en": "Lovely morning, isn't it?"
+        },
+        {
+          "ru": "Холодновато сегодня.",
+          "en": "Bit cold today."
+        },
+        {
+          "ru": "Какая ужасная погода!",
+          "en": "What awful weather!"
+        },
+        {
+          "ru": "И правда. Утром пришлось чистить машину.",
+          "en": "It is. I had to scrape the car this morning."
+        },
+        {
+          "ru": "Какие планы на выходные?",
+          "en": "Any plans for the weekend?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему говорят Bit cold today без it's?",
+        "Что отвечать на Lovely day, isn't it?",
+        "Обязательно ли задавать встречный вопрос?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3385,6 +4028,84 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 110,
       "orderInCard": 2
+    },
+    {
+      "cardId": 596,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 131,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 596,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 246,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 596,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 219,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 596,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 111,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 597,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 223,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 597,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 209,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 597,
+      "exerciseType": "MATCHING",
+      "exerciseId": 98,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 598,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 80,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 598,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 89,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 598,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 114,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 599,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 97,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 599,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 97,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 599,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 196,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -3443,6 +4164,30 @@
       "userInstruction": "Вы получите русскую фразу-впечатление о погоде. Скажите то же самое по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "weather_card597_ex1",
+      "cardId": 597,
+      "title": "Предлоги погоды",
+      "userInstruction": "Вы получите русскую фразу о погоде. Скажите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "weather_card598_ex1",
+      "cardId": 598,
+      "title": "Погода не про погоду",
+      "userInstruction": "Вы получите ситуацию по-русски. Ответьте на неё одной английской фразой.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "weather_card599_ex1",
+      "cardId": 599,
+      "title": "Поддержать разговор",
+      "userInstruction": "Собеседник скажет вам фразу о погоде. Ответьте так, чтобы разговор продолжился.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -3725,6 +4470,46 @@
       "transcription": "[smel]",
       "microtopicId": 218,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 838,
+      "word": "ill",
+      "translation": "больной, нездоровый",
+      "transcription": "[ɪl]",
+      "microtopicId": 219,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 839,
+      "word": "flu",
+      "translation": "грипп",
+      "transcription": "[fluː]",
+      "microtopicId": 219,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 840,
+      "word": "jacket",
+      "translation": "куртка, пиджак",
+      "transcription": "[ˈdʒækɪt]",
+      "microtopicId": 219,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 841,
+      "word": "indoors",
+      "translation": "в помещении, внутри",
+      "transcription": "[ˌɪnˈdɔːz]",
+      "microtopicId": 219,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 842,
+      "word": "to postpone",
+      "translation": "отложить, перенести",
+      "transcription": "[pəʊstˈpəʊn]",
+      "microtopicId": 219,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [
@@ -3903,6 +4688,37 @@
         }
       ],
       "explanation": "радугу видят, а не слышат, поэтому второе предложение рассыпается по смыслу. А после getting признак идёт сразу, без предлога: It's getting cold."
+    },
+    {
+      "id": 219,
+      "statements": [
+        {
+          "en": "I have a cold, so I'm staying indoors today.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It's cold to me in this room.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Aren't you cold without a jacket?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Sam has a flu and can't come to the office.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I'm freezing, close the door please.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "про своё ощущение говорят I'm cold, поэтому второе предложение собрано по русской модели и рассыпается. А грипп берёт артикль the: правильно Sam has the flu."
     }
   ],
   "word_arrangement_exercises": [
@@ -3962,6 +4778,26 @@
         "gets"
       ],
       "explanation": "конструкция с getting берёт признак сразу, без предлога между ними. Форма gets рассказывала бы о том, что так бывает всегда, а речь о том, что происходит прямо сейчас."
+    },
+    {
+      "id": 196,
+      "situationRu": "Ситуация: собеседник пожаловался на холод — согласитесь и добавьте своё наблюдение.",
+      "correctSentence": "I know. It was even colder yesterday.",
+      "words": [
+        "I know.",
+        "It",
+        "was",
+        "even",
+        "colder",
+        "yesterday"
+      ],
+      "distractors": [
+        "Yes, it isn't.",
+        "more cold",
+        "is",
+        "coldest"
+      ],
+      "explanation": "согласие держится короткой фразой I know, а дальше идёт своё наблюдение — на голом согласии разговор кончается. Речь о вчерашнем дне, поэтому нужна форма was, а сравнение у короткого прилагательного собирается через colder."
     }
   ],
   "multiple_choice_exercises": [
@@ -4224,6 +5060,69 @@
         }
       ],
       "explanation": "минус и below zero говорят об одном и том же, поэтому вместе не ставятся. Градусов при этом несколько, значит слово стоит во множественном числе."
+    },
+    {
+      "id": 246,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мне жарко, открой, пожалуйста, окно.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "It's hot to me, please open the window.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm hot, please open the window.",
+          "isCorrect": true
+        },
+        {
+          "text": "I have hot, please open the window.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "жарко именно человеку, значит он и становится подлежащим. Вариант с to me собран по русской модели «мне жарко», а have ставится только с болезнью: I have a cold."
+    },
+    {
+      "id": 223,
+      "choiceType": "CHOICE",
+      "prompt": "Don't stand ___ the rain, come inside.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "under",
+          "isCorrect": false
+        },
+        {
+          "text": "on",
+          "isCorrect": false
+        },
+        {
+          "text": "in",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "дождь для английского не навес сверху, а среда вокруг, поэтому человек стоит внутри него. Вариант under работает только с настоящей крышей: under an umbrella."
+    },
+    {
+      "id": 97,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Bit windy today, isn't it?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Ветрено сегодня, правда?",
+          "isCorrect": true
+        },
+        {
+          "text": "Сегодня ветра почти нет.",
+          "isCorrect": false
+        },
+        {
+          "text": "А разве вчера было ветрено?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в такой фразе начало опускают, поэтому она значит то же, что и полное It's a bit windy today. Хвостик isn't it не спрашивает о факте, а зовёт собеседника согласиться."
     }
   ],
   "text_input_exercises": [
@@ -4311,6 +5210,31 @@
         "ноль градусов",
         "двадцать пять градусов"
       ]
+    },
+    {
+      "id": 111,
+      "items": [
+        {
+          "sentence": "Lucy has ___ bad cold and can't sing tonight.",
+          "contextRu": "",
+          "answer": "a",
+          "alternatives": []
+        },
+        {
+          "sentence": "I'm not coming to training, I have ___ flu.",
+          "contextRu": "",
+          "answer": "the",
+          "alternatives": []
+        },
+        {
+          "sentence": "Take a scarf, ___ freezing outside.",
+          "contextRu": "",
+          "answer": "it's",
+          "alternatives": []
+        }
+      ],
+      "explanation": "простуда считается поштучно, поэтому берёт a, а грипп в английском один на всех и идёт с the. В третьем предложении речь о мире за окном, и место подлежащего занимает it.",
+      "taskDescription": "Впиши недостающее слово."
     }
   ],
   "dialog_restore_exercises": [
@@ -4409,6 +5333,38 @@
         }
       ],
       "explanation": "после like встаёт существительное, поэтому годится только вариант с rain. С признаком cloudy слово like лишнее, а без like существительное rain повисает."
+    },
+    {
+      "id": 89,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "You look pale. Are you all right?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Then go home and rest."
+        }
+      ],
+      "options": [
+        {
+          "text": "Not really, the weather is under me.",
+          "isCorrect": false
+        },
+        {
+          "text": "Not really, I have under the weather.",
+          "isCorrect": false
+        },
+        {
+          "text": "Not really, I'm under the weather.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "выражение говорит о самочувствии человека, поэтому оно собирается связкой: I'm under the weather. Погода в нём только на словах, и переставлять её на место подлежащего нельзя."
     }
   ],
   "matching_exercises": [
@@ -4503,6 +5459,37 @@
         }
       ],
       "explanation": "у английского на каждую силу и каждый вид осадков своё слово, и русского однословного перевода у половины из них нет. Overcast при этом описывает не осадки, а само небо."
+    },
+    {
+      "id": 98,
+      "taskDescription": "соедини русское выражение с английским.",
+      "pairs": [
+        {
+          "left": "под дождём",
+          "right": "in the rain"
+        },
+        {
+          "left": "на улице, не дома",
+          "right": "outside"
+        },
+        {
+          "left": "простудиться",
+          "right": "to catch a cold"
+        },
+        {
+          "left": "под деревом",
+          "right": "under a tree"
+        },
+        {
+          "left": "в темноте",
+          "right": "in the dark"
+        },
+        {
+          "left": "под душем",
+          "right": "in the shower"
+        }
+      ],
+      "explanation": "всё, что окружает человека со всех сторон — дождь, темнота, струи воды, — идёт с in, а under остаётся для настоящей крыши, вроде дерева или зонта. Слово outside предлога не требует вовсе, а болезнь в английском ловят глаголом catch."
     }
   ],
   "error_correction_exercises": [
@@ -4581,6 +5568,25 @@
         }
       ],
       "explanation": "like тянет за собой вещь, а foggy — это признак, и связка ему не нужна. Через like можно было сказать иначе: It looks like fog, где стоит уже существительное."
+    },
+    {
+      "id": 209,
+      "wrongSentence": "We had lunch on the street because the sun was warm.",
+      "options": [
+        {
+          "text": "We had lunch outside because the sun was warm.",
+          "isCorrect": true
+        },
+        {
+          "text": "We had lunch on the outside because the sun was warm.",
+          "isCorrect": false
+        },
+        {
+          "text": "We had lunch in the street because the sun was warm.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "русское «на улице» значит «не дома», и по-английски это outside, причём предлог перед ним не ставится вовсе. Сочетания on the street и in the street говорят о настоящей улице с домами и машинами."
     }
   ],
   "construction_meaning_exercises": [
@@ -4675,6 +5681,29 @@
         }
       ],
       "explanation": "в США температуру меряют по Фаренгейту, и девяносто там — это обычная летняя жара, примерно +32 °C. Пересчёт в уме простой: отнять тридцать и разделить пополам."
+    },
+    {
+      "id": 80,
+      "construction": "He's a fair-weather friend.",
+      "options": [
+        {
+          "text": "Он любит гулять в хорошую погоду.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он друг только до первой беды.",
+          "isCorrect": true
+        },
+        {
+          "text": "Он приятный человек в любую погоду.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он всегда предупреждает о плохой погоде.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "хорошая погода в этом выражении означает лёгкие времена: такой друг рядом, пока всё хорошо, и исчезает, как только начинаются проблемы. О самой погоде здесь не говорится вовсе."
     }
   ],
   "transformation_exercises": [
@@ -4715,6 +5744,25 @@
         }
       ],
       "explanation": "после like встаёт существительное, поэтому глагол уходит, а остаётся сама вещь. Обещание «точно будет» при этом превращается во впечатление: говорящий делится наблюдением, а не ручается."
+    },
+    {
+      "id": 97,
+      "taskDescription": "перепиши каждое предложение как короткую реплику с хвостиком isn't it.",
+      "items": [
+        {
+          "original": "It's a warm evening.",
+          "transformed": "Warm evening, isn't it?"
+        },
+        {
+          "original": "It's a horrible day.",
+          "transformed": "Horrible day, isn't it?"
+        },
+        {
+          "original": "It's a beautiful sunset.",
+          "transformed": "Beautiful sunset, isn't it?"
+        }
+      ],
+      "explanation": "в готовой фразе-приветствии начало вместе с артиклем отпадает, остаётся признак и само слово. Хвостик приклеивается в конце и превращает наблюдение в приглашение согласиться."
     }
   ],
   "categorization_exercises": [
@@ -4814,6 +5862,34 @@
         }
       ],
       "explanation": "в левый столбец идёт то, что падает с неба, в правый — то, как небо выглядит. Sleet и hail — это осадки, хотя по-русски для них одного слова и нет."
+    },
+    {
+      "id": 131,
+      "taskDescription": "распредели фразы по тому, о чём они говорят.",
+      "categories": [
+        {
+          "title": "О погоде",
+          "items": [
+            "It's freezing today.",
+            "The office is cold."
+          ]
+        },
+        {
+          "title": "О человеке",
+          "items": [
+            "My hands are cold.",
+            "I'm boiling in here."
+          ]
+        },
+        {
+          "title": "О болезни",
+          "items": [
+            "Ben has a cold.",
+            "She has the flu."
+          ]
+        }
+      ],
+      "explanation": "о мире вокруг говорит it или сама вещь, вроде the office, о человеке — он сам на первом месте, а простуда и грипп это болезни, которые у человека есть."
     }
   ],
   "find_the_odd_exercises": [
@@ -4885,6 +5961,29 @@
         }
       ],
       "explanation": "три слова построены приёмом с -y и встают после it's как признак. Sleet — это сама вещь, у неё ходового прилагательного нет, поэтому ей нужна упаковка there's."
+    },
+    {
+      "id": 114,
+      "groupDescription": "Три выражения говорят не о погоде, а одно — о настоящей",
+      "items": [
+        {
+          "text": "under the weather",
+          "isOdd": false
+        },
+        {
+          "text": "a fair-weather friend",
+          "isOdd": false
+        },
+        {
+          "text": "come rain or shine",
+          "isOdd": false
+        },
+        {
+          "text": "it's pouring outside",
+          "isOdd": true
+        }
+      ],
+      "explanation": "первые три только выглядят погодными: они про самочувствие, про ненадёжного друга и про «при любом раскладе». А последнее описывает ровно то, что происходит за окном: льёт дождь."
     }
   ]
 }
