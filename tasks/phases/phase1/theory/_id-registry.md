@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 587 |
-| Categorization | 129 |
+| Card | 596 |
+| Categorization | 131 |
 | Category | 8 |
-| ConstructionMeaning | 78 |
-| DialogRestore | 88 |
-| ErrorCorrection | 207 |
-| FindTheOdd | 112 |
-| Matching | 96 |
-| Microtopic | 217 |
-| MultipleChoice·CHOICE | 220 |
-| MultipleChoice·FORWARD_CHOICE | 244 |
-| MultipleChoice·REVERSE_CHOICE | 95 |
-| TableFill | 43 |
-| TextInput | 109 |
+| ConstructionMeaning | 80 |
+| DialogRestore | 89 |
+| ErrorCorrection | 209 |
+| FindTheOdd | 114 |
+| Matching | 98 |
+| Microtopic | 219 |
+| MultipleChoice·CHOICE | 223 |
+| MultipleChoice·FORWARD_CHOICE | 246 |
+| MultipleChoice·REVERSE_CHOICE | 97 |
+| TableFill | 45 |
+| TextInput | 111 |
 | Topic | 35 |
-| Transformation | 96 |
-| TrueFalse | 217 |
-| WordArrangement | 194 |
-| course_word | 809 |
+| Transformation | 97 |
+| TrueFalse | 219 |
+| WordArrangement | 196 |
+| course_word | 838 |
 
 ## Диапазоны по темам
 
@@ -641,23 +641,24 @@
 - course_word: 395–410 (16)
 
 ### weather
-- Card: 580–586 (7)
-- Categorization: 127–128 (2)
-- ConstructionMeaning: 76–77 (2)
-- DialogRestore: 86–87 (2)
-- ErrorCorrection: 205–206 (2)
-- FindTheOdd: 111–111 (1)
-- Matching: 94–95 (2)
-- Microtopic: 215–216 (2)
-- MultipleChoice·CHOICE: 219–219 (1)
-- MultipleChoice·FORWARD_CHOICE: 241–243 (3)
-- MultipleChoice·REVERSE_CHOICE: 94–94 (1)
-- TextInput: 108–108 (1)
+- Card: 580–595 (16)
+- Categorization: 127–130 (4)
+- ConstructionMeaning: 76–79 (4)
+- DialogRestore: 86–88 (3)
+- ErrorCorrection: 205–208 (4)
+- FindTheOdd: 111–113 (3)
+- Matching: 94–97 (4)
+- Microtopic: 215–218 (4)
+- MultipleChoice·CHOICE: 219–222 (4)
+- MultipleChoice·FORWARD_CHOICE: 241–245 (5)
+- MultipleChoice·REVERSE_CHOICE: 94–96 (3)
+- TableFill: 43–44 (2)
+- TextInput: 108–110 (3)
 - Topic: 34–34 (1)
-- Transformation: 95–95 (1)
-- TrueFalse: 215–216 (2)
-- WordArrangement: 193–193 (1)
-- course_word: 805–808 (4)
+- Transformation: 95–96 (2)
+- TrueFalse: 215–218 (4)
+- WordArrangement: 193–195 (3)
+- course_word: 805–837 (33)
 
 ## Коллизии ID (КРИТИЧНО — должно быть пусто)
 

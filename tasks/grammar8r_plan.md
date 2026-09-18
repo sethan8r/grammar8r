@@ -5451,30 +5451,44 @@ theory/
 │   │       ⭐ Та же формула во всех временах: What was the weather like? / What's the weather going to be like
 │   │       tomorrow?, и косвенный вариант Do you know if it's going to rain? (опора «Косвенные вопросы»).
 │   │
-│   ├── МТ · Weather in Time · Погода во времени: сегодня, обычно, завтра, вчера
-│   │   ├── Card · Сейчас vs вообще: It's raining (сейчас, PC) vs It rains a lot here in autumn (обычно, PS). Классическая
+│   ├── МТ217 · Weather in Time · Погода во времени: сегодня, обычно, завтра, вчера ✅ (написана, ALL GREEN 18.09.26)
+│   │   ├── Card 587 · Сейчас или вообще: It's raining (сейчас, PC) vs It rains a lot here in autumn (обычно, PS). Классическая
 │   │   │   развилка PS/PC на погоде: момент против регулярности. Русское «идёт дождь» одинаково для обоих — отсюда путаница.
-│   │   ├── Card · Завтра — прогноз: It's going to rain (вижу тучи, признаки) vs It'll be sunny tomorrow (предсказание/ощущение).
-│   │   │   might rain — превью-строкой (возможность; подробно в «Модальных»). Кросс-ссылка на темы будущего.
-│   │   ├── Card · Вчера/итог: It was cold yesterday / It rained all day / It's been raining since morning (PPC, свежее из
-│   │   │   соседней темы). Собираем всю ось времени на одном сюжете погоды.
-│   │   └── Card · Язык прогноза: The forecast says… / It's supposed to rain / There's a chance of rain (showers) / highs of,
-│   │       lows of. Реальная речь из приложений и новостей. AI: RU→EN перевод прогноза «завтра будет…» (GENERAL).
+│   │   │   Плюс окончание -s (it = третье лицо), таблица маркеров и блок «признак формы не меняет»: у It's cold нет формы
+│   │   │   с -ing, обе мысли различает только обстоятельство. AI: вставить форму в пропуски (FILL_BLANKS, NONE).
+│   │   ├── Card 588 · Завтра: два способа прогноза: It's going to rain (вижу тучи, признаки) vs It'll be sunny tomorrow
+│   │   │   (предсказание/ощущение). Будущее всех трёх упаковок, включая there's going to be + вещь; полный набор форм —
+│   │   │   отрицание, вопрос, краткий ответ, отрицательный Isn't it going to rain? might rain — превью-плашкой
+│   │   │   (возможность; подробно в «Модальных», долг проставлен). Кросс-ссылка на темы будущего.
+│   │   ├── Card 589 · Вчера и до сих пор: It was cold yesterday / It rained all day / It's been raining since morning (PPC,
+│   │   │   свежее из соседней темы). Развилка внутри прошлого — итог дня против фона момента (It was raining when…),
+│   │   │   главная ловушка «идёт с утра» → It is raining since morning ✗, плюс Did it rained ✗ и отрицательный вопрос.
+│   │   │   AI: пересказать готовую фразу про заказанный момент (FREE_WRITE, NONE).
+│   │   └── Card 590 · Язык прогноза: The forecast says… / It's supposed to rain / There's a chance of rain (showers) / highs of,
+│   │       lows of. Реальная речь из приложений и новостей + язык сводки через пассив (Rain is expected). Ловушки:
+│   │       says that will rain ✗ (заглушка нужна и во второй половине), a chance of raining ✗.
+│   │       AI: RU→EN перевод прогноза «завтра будет…» (GENERAL).
 │   │
-│   ├── МТ · Weather Words · Словарь погоды: чем описывают любой день  ← главный слив темы (10–14 слов, см. ⚠️ выше)
-│   │   ├── Card · -y морфология: существительное + y = погодное прилагательное — rain→rainy, sun→sunny, wind→windy,
-│   │   │   cloud→cloudy, fog→foggy, snow→snowy, ice→icy, storm→stormy. Приём, которым юзер сам строит прилагательные.
+│   ├── МТ218 · Weather Words · Словарь погоды: чем описывают любой день ✅ (написана, ALL GREEN 18.09.26)  ← главный слив темы (24 слова)
+│   │   ├── Card 591 · Существительное + y = погода: rain→rainy, sun→sunny, wind→windy, cloud→cloudy, fog→foggy,
+│   │   │   snow→snowy, ice→icy, storm→stormy. Приём, которым юзер сам строит прилагательные.
 │   │   │   Орфография: удвоение (sun→sunny), ice→icy (немая e уходит) — мостик к удвоению в hot→hotter (Comparatives).
-│   │   ├── Card · Осадки и небо: rain, drizzle, shower, downpour, snow, sleet, hail; sunny, clear, cloudy, overcast, grey.
+│   │   │   + граница приёма: у hail, sleet, thunder прилагательного нет, для них остаётся упаковка there's. + AI.
+│   │   ├── Card 592 · Осадки и небо: rain, drizzle, shower, downpour, snow, sleet, hail; sunny, clear, cloudy, overcast, grey.
 │   │   │   + rain/snow — и существительное, и глагол: the rain (сущ.) / it's raining (глагол). Одно слово, две роли.
-│   │   ├── Card · Ветер, температура, явления: windy/breezy/still; freezing/chilly/cool/mild/warm/hot/boiling; fog/mist,
-│   │   │   thunder, lightning, rainbow, frost, ice. + getting + adj: It's getting dark / getting cold (наступление).
+│   │   │   + что считается: a heavy rain ✗, но a heavy shower ✓ (событие против вещества).
+│   │   ├── Card 593 · Ветер, холод и небесные явления: breezy/windy/stormy; freezing/chilly/cool/mild/warm/hot/boiling
+│   │   │   (cool приятно ↔ chilly неприятно); fog/mist, thunder, lightning, rainbow, frost, ice — гром слышно, молнию
+│   │   │   видно, вся гроза целиком a thunderstorm. + getting + adj: It's getting dark / getting cold (наступление).
 │   │   │   Заметка о произношении: windy [[ˈwɪndi]] (не как to wind [[waɪnd]] — заводить часы).
-│   │   ├── Card · Похоже на дождь: It looks like rain · It looks cloudy · It feels colder than yesterday ·
+│   │   ├── Card 594 · Похоже на дождь: It looks like rain · It looks cloudy · It feels colder than yesterday ·
 │   │   │   It smells like rain. Самый живой способ говорить о погоде, и он прямо опирается на только что
-│   │   │   пройденные see / look / watch: после look like идёт существительное, после look — прилагательное. + AI.
-│   │   └── Card · Температура предметно: It's 20 degrees / below zero / minus five; Celsius vs Fahrenheit — США меряют в F
-│   │       (ловушка при путешествии: «It's 90» там = жара +32 °C, а не бред). + fall (US) vs autumn (UK) строкой-напоминанием.
+│   │   │   пройденные see / look / watch: после look like идёт существительное, после look — прилагательное.
+│   │   │   + зачем: впечатление мягче утверждения (It's going to rain = поручиться). + AI (GENERAL).
+│   │   └── Card 595 · Сколько градусов: It's 20 degrees / below zero / minus five; Celsius vs Fahrenheit — США меряют в F
+│   │       (ловушка при путешествии: «It's 90» там = жара +32 °C, а не бред) + пересчёт в уме «отнять 30 и пополам».
+│   │       + fall (US) vs autumn (UK) строкой-напоминанием. + плашка-примечание: слов в микротеме много и часть
+│   │       производные (sunny от sun), учить всё подряд не обязательно.
 │   │
 │   ├── МТ · Weather Traps · Погодные ловушки и идиомы — где русский спотыкается и где погода не про погоду
 │   │   ├── Card · Трио «холодно»: It's cold (погода) / I'm cold (я мёрзну) / I have a cold (я простыл — БОЛЕЗНЬ, не погода!).
@@ -5737,6 +5751,12 @@ theory/
 │   │   разбор обещан здесь. Закрыть в карточках «can / could» и «will / would»: показать пару
 │   │   настоящее↔прошлое и вернуться к конструкции цели как к знакомому примеру.
 │   ├── may / might — разрешение и вероятность
+│   │   ⬅️ ВЫДАНО ПРЕВЬЮ (Погода, МТ217 Card 588, плашка-Кстати 18.09.2026): в карточке о прогнозе
+│   │      пользователю дана фраза **It might rain** («может, пойдёт дождь») как то, что говорят,
+│   │      когда уверенности нет вовсе, — с прямым обещанием разобрать модальник здесь. Закрыть в
+│   │      карточке «may / might»: вернуться к погодному примеру как к знакомому и показать шкалу
+│   │      уверенности (it's going to rain → it'll rain → it might rain), плюс то, что после might
+│   │      идёт голый V1 без to и форма не меняется по лицам.
 │   ├── must / have to — обязанность: внутренняя vs внешняя; mustn't vs don't have to
 │   │   ⚠️ ПОДАЧА (решено 06.08.2026): нейтральная норма — have to, must — резкий/формальный оттенок.
 │   │   Для английского уха must звучит жёстко, почти приказом сверху («так велено»), поэтому в живой
