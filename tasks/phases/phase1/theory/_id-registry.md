@@ -7,24 +7,24 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 601 |
+| Card | 603 |
 | Categorization | 132 |
 | Category | 8 |
 | ConstructionMeaning | 81 |
 | DialogRestore | 90 |
-| ErrorCorrection | 210 |
+| ErrorCorrection | 211 |
 | FindTheOdd | 115 |
-| Matching | 99 |
-| Microtopic | 221 |
-| MultipleChoice·CHOICE | 224 |
-| MultipleChoice·FORWARD_CHOICE | 247 |
+| Matching | 100 |
+| Microtopic | 222 |
+| MultipleChoice·CHOICE | 225 |
+| MultipleChoice·FORWARD_CHOICE | 248 |
 | MultipleChoice·REVERSE_CHOICE | 98 |
 | TableFill | 45 |
 | TextInput | 112 |
-| Topic | 35 |
+| Topic | 36 |
 | Transformation | 98 |
-| TrueFalse | 220 |
-| WordArrangement | 197 |
+| TrueFalse | 221 |
+| WordArrangement | 198 |
 | course_word | 843 |
 
 ## Диапазоны по темам
@@ -443,6 +443,17 @@
 - TrueFalse: 1–39 (39)
 - WordArrangement: 1–40 (40)
 - course_word: 1–230 (230)
+
+### compound-prepositions
+- Card: 601–602 (2)
+- ErrorCorrection: 210–210 (1)
+- Matching: 99–99 (1)
+- Microtopic: 221–221 (1)
+- MultipleChoice·CHOICE: 224–224 (1)
+- MultipleChoice·FORWARD_CHOICE: 247–247 (1)
+- Topic: 35–35 (1)
+- TrueFalse: 220–220 (1)
+- WordArrangement: 197–197 (1)
 
 ### conditionals
 - Card: 485–514 (30)

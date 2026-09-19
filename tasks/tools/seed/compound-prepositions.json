@@ -1,0 +1,532 @@
+{
+  "grammar_topics": [
+    {
+      "id": 35,
+      "title": "Составные предлоги",
+      "order": 21,
+      "isPretopic": false,
+      "description": "Предлог, собранный из двух-трёх слов: in front of, according to, thanks to, apart from — как устроена такая связка, что стоит справа от неё и почему её нельзя переводить по частям",
+      "categoryId": null,
+      "searchKeywords": "предлог из двух слов, in front of, according to, apart from, thanks to, сказать кроме по-английски"
+    }
+  ],
+  "grammar_topic_categories": [],
+  "grammar_microtopics": [
+    {
+      "id": 221,
+      "topicId": 35,
+      "title": "Compound Prepositions · Связка, которая работает одним предлогом",
+      "order": 1,
+      "searchKeywords": "because of или because, зачем of на конце, почему нельзя переводить по словам, in front the house ошибка"
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 601,
+      "microtopicId": 221,
+      "title": "Предлог, склеенный из двух слов",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Предлог мы привыкли видеть коротким: `in`, `on`, `at`, `to` — одно слово, две-три буквы. Но в английском есть целый отряд предлогов, у которых слов два или три: **in front of**, **because of**, **next to**, **instead of**, **thanks to**, **apart from**. На письме между ними пробелы, а работают они как одно-единственное слово — примерно как русское «несмотря на», которое мы тоже пишем в два приёма, а думаем о нём как об одном предлоге."
+        },
+        {
+          "type": "paragraph",
+          "text": "У этой породы есть имя — составные предлоги. Мы ими уже пользовались, и не раз; просто никто не говорил, что это отдельное явление со своими правилами."
+        },
+        {
+          "type": "heading",
+          "text": "Три раза мы это уже делали"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило, на котором держится вся тема, мы применяли трижды в разных темах курса — каждый раз на новом слове:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "в «Linking Words»: **We stayed inside because it was snowing** ✓, но **We stayed inside because of the snow** ✓ — `because` и `because of` кормятся разным;",
+            "в «Условных предложениях»: **Take an umbrella in case it rains** ✓, но **In case of fire, do not use the lift** ✓ — та же пара, другое слово;",
+            "в «Основах»: **The car is in front of the house** ✓, а **in front the house** ✗ разваливается — `of` из связки не выпадает."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Три темы, три разных слова, а правило одно и то же. Сегодня мы его назовём и посмотрим, сколько таких предлогов в языке на самом деле."
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит справа от составного предлога"
+        },
+        {
+          "type": "paragraph",
+          "text": "Связка из двух-трёх слов ведёт себя как ОДИН предлог. А предлог, как мы разбирали в «Linking Words», держит справа от себя **вещь** — существительное или действие, превращённое в предмет формой на `-ing`. Целую часть, где есть кто-то и есть что он делает, предлог не держит никогда."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Составной предлог + вещь"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка та же, что и в связках: смотрим на то, что идёт сразу после, и спрашиваем — есть тут кто-то, кто что-то делает? Если есть, составной предлог сюда не встанет, нужна связка первой породы."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Because of it was snowing** ✗ — после `because of` стоит целая часть, а она ему не по зубам. Верно либо **because it was snowing** ✓, либо **because of the snow** ✓. Эта ошибка — самая частая на всю тему, и она одинаково работает со всеми составными предлогами сразу."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Знакомые лица"
+        },
+        {
+          "type": "paragraph",
+          "text": "Некоторые из них мы уже видели с формой на `-ing` справа: **They walked instead of taking a taxi** ✓, **In spite of being tired, Greg finished the report** ✓. Устройство то же самое: после связки стоит вещь, просто эта вещь — действие, названное как предмет."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Почему после предлога глагол получает `-ing` и как это работает в других местах языка — отдельный разговор в теме «Герундий после глагола». Здесь достаточно узнавать такие фразы в лицо и не пугаться их."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Карта темы"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Микротема",
+            "Что даст",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Где что стоит",
+              "предлоги места, которых в курсе ещё не было",
+              "on top of the fridge"
+            ],
+            [
+              "Источник и ракурс",
+              "сослаться на чужие слова, задать угол разговора",
+              "according to the news"
+            ],
+            [
+              "Причина и исключение",
+              "благодарность, добавление и четыре разных «кроме»",
+              "thanks to your help"
+            ],
+            [
+              "Как они устроены",
+              "три каркаса связки и книжный ярус",
+              "in accordance with"
+            ],
+            [
+              "Живая практика",
+              "сказать одно и то же другу и в письме",
+              "apart from that"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Новой грамматики тема почти не даёт. Правило справа от связки нам уже знакомо — учить придётся сами связки, а не механику."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Составной предлог — связка из двух-трёх слов, которая работает как один предлог: **in front of**, **because of**, **thanks to**, **next to**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Справа от неё стоит вещь — существительное или форма на `-ing`, но не целая часть с подлежащим: `составной предлог + вещь`",
+            "**because of it was snowing** ✗ → **because of the snow** ✓ или **because it was snowing** ✓",
+            "Слова внутри связки не выбрасываются: **in front the house** ✗ → **in front of the house** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Автобус опоздал из-за тумана.",
+          "en": "The bus was late because of the fog."
+        },
+        {
+          "ru": "Кафе стоит прямо перед вокзалом.",
+          "en": "The café is right in front of the station."
+        },
+        {
+          "ru": "Мы поехали на такси вместо автобуса.",
+          "en": "We took a taxi instead of the bus."
+        },
+        {
+          "ru": "Несмотря на дождь, матч продолжился.",
+          "en": "In spite of the rain, the match went on."
+        },
+        {
+          "ru": "Кот спит рядом с батареей.",
+          "en": "The cat sleeps next to the radiator."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после because of нельзя поставить целое предложение?",
+        "Как понять, что передо мной один предлог, а не два разных подряд?",
+        "Таких связок много? Их все придётся выучить наизусть?"
+      ]
+    },
+    {
+      "id": 602,
+      "microtopicId": 221,
+      "title": "Почему русскому здесь сложнее, чем кажется",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Почти все ошибки этой темы растут из одной привычки: мы видим три английских слова подряд и честно переводим каждое. С обычным предлогом это срабатывает — `in` это «в», `on` это «на», и ничего плохого не происходит. С составным не срабатывает никогда."
+        },
+        {
+          "type": "heading",
+          "text": "Связка не собирается по кусочкам"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём `in front of` по словам: `in` — «в», `front` — «перёд», `of` — «чего-то». Сложим обратно — выйдет «в переде чего-то», а по-русски мы говорим одним словом: «перед». Слов в переводе стало меньше, чем в оригинале, и рука тут же начинает искать, какое из трёх английских слов лишнее."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда два самых частых обломка — **The pharmacy is in front the school** ✗ (выбросили `of`) и **The pharmacy is on front of the school** ✗ (заменили `in` на более «русское» `on`). Верно только целиком: **The pharmacy is in front of the school** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Держать такую связку в голове надо так же, как держится одно слово: `in front of` — это «перед», и внутрь ничего не лезет. Ни порядок слов там не меняется, ни лишнее слово не добавляется, ни своё не выпадает."
+        },
+        {
+          "type": "heading",
+          "text": "Русское слово и английский предлог — не пара"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая беда тоньше и стоит дороже. Мы привыкли, что у русского предлога есть английский двойник: одно наше слово — одно их слово. У составных предлогов этого двойника часто нет вовсе."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «по-моему» и «по словам Игоря» устроены одинаково: и там, и там мы называем источник мнения. Значит, и по-английски должна выйти одна связка на оба случая. Не выходит. Сказать **according to Igor** ✓ можно, а **according to me** ✗ нельзя вообще — так по-английски не говорят, и это одна из главных ловушек темы. Почему источник может быть только чужим, разберём в микротеме про источник и ракурс."
+        },
+        {
+          "type": "heading",
+          "text": "Одно русское слово — четыре английских"
+        },
+        {
+          "type": "paragraph",
+          "text": "Бывает и обратная беда: русское слово одно, а английских связок под него несколько. Классический случай — «кроме». За ним прячутся **apart from**, **aside from**, **except for** и **besides**, и выбор между ними зависит от того, исключаем мы что-то или, наоборот, добавляем."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «кроме» само по себе двусмысленно, и мы этого не замечаем. «Кроме Тома, все пришли» — Тома не было. «Кроме этого, всё отлично» — и это тоже, и всё остальное. Смыслы противоположные, слово одно. Английский разводит их по разным связкам, и разбирать эту четвёрку мы будем в микротеме про причину и исключение."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что дальше"
+        },
+        {
+          "type": "paragraph",
+          "text": "Итак, две привычки работают против нас: переводить связку по словам и ждать, что русскому предлогу найдётся ровно один английский. Дальше мы пойдём по группам — и начнём с самой бытовой, где связки нужны каждый день: где что стоит."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Составной предлог переводится целиком, а не по словам: `in front of` — это «перед», и внутри связки ничего не меняется."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**in front the school** ✗ и **on front of the school** ✗ → **in front of the school** ✓",
+            "Про чужие слова — **According to Igor, the meeting is on Friday** ✓; про себя так нельзя: **according to me** ✗ → **in my opinion** ✓",
+            "Одно русское «кроме» — четыре английские связки: **apart from, aside from, except for, besides**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Аптека стоит перед школой.",
+          "en": "The pharmacy is in front of the school."
+        },
+        {
+          "ru": "По словам Игоря, встреча в пятницу.",
+          "en": "According to Igor, the meeting is on Friday."
+        },
+        {
+          "ru": "По-моему, этот сериал скучный.",
+          "en": "In my opinion, this series is boring."
+        },
+        {
+          "ru": "Кроме Кати, все опоздали.",
+          "en": "Apart from Katya, everyone was late."
+        },
+        {
+          "ru": "Кроме этого, поездка была отличной.",
+          "en": "Apart from that, the trip was great."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя выбросить of, если и без него всё понятно?",
+        "Как тогда сказать «по-моему», если according to me нельзя?",
+        "Зачем английскому четыре слова там, где русскому хватает одного «кроме»?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 601,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 224,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 601,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 220,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 601,
+      "exerciseType": "MATCHING",
+      "exerciseId": 99,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 602,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 210,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 602,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 247,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 602,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 197,
+      "orderInCard": 2
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "linking",
+      "nameRus": "Связная речь",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "linking",
+      "nameRus": "Связная речь",
+      "groupId": "linking",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 220,
+      "statements": [
+        {
+          "en": "Sara sat down next to me.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We went out in spite the cold.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The post office is in front the bank.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They ordered tea instead of coffee.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Oliver was late because of the traffic.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "составной предлог не теряет своих слов: правильно in spite of the cold и in front of the bank, целиком. В остальных трёх предложениях связка стоит полностью, а справа от неё — вещь, а не целая часть."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 197,
+      "situationRu": "RU: Уроки отменили из-за снега.",
+      "correctSentence": "The lessons were cancelled because of the snow.",
+      "words": [
+        "The lessons",
+        "were cancelled",
+        "because of",
+        "the snow"
+      ],
+      "distractors": [
+        "because",
+        "of",
+        "in spite of"
+      ],
+      "explanation": "справа стоит вещь — the snow, поэтому связка нужна целиком, двумя словами сразу. Порознь because и of к вещи не подходят, а in spite of сказало бы обратное: что уроки прошли вопреки снегу."
+    }
+  ],
+  "multiple_choice_exercises": [
+    {
+      "id": 224,
+      "choiceType": "CHOICE",
+      "prompt": "The concert was cancelled ___ the storm.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "because",
+          "isCorrect": false
+        },
+        {
+          "text": "because of",
+          "isCorrect": true
+        },
+        {
+          "text": "because that",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "справа стоит вещь — the storm, а не целая часть с подлежащим, поэтому нужна связка из двух слов. Одинокое because держит только целую мысль: because a storm started."
+    },
+    {
+      "id": 247,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "По-моему, здесь слишком шумно.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "In my opinion, it's too noisy here.",
+          "isCorrect": true
+        },
+        {
+          "text": "According to me, it's too noisy here.",
+          "isCorrect": false
+        },
+        {
+          "text": "On my opinion, it's too noisy here.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "о собственном мнении по-английски говорят in my opinion или просто I think. Связка according to называет чужой источник, поэтому с me она не сочетается вообще."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 99,
+      "taskDescription": "соедини английскую связку с её русским смыслом.",
+      "pairs": [
+        {
+          "left": "in front of",
+          "right": "перед"
+        },
+        {
+          "left": "instead of",
+          "right": "вместо"
+        },
+        {
+          "left": "thanks to",
+          "right": "благодаря"
+        },
+        {
+          "left": "in spite of",
+          "right": "несмотря на"
+        },
+        {
+          "left": "next to",
+          "right": "рядом с"
+        }
+      ],
+      "explanation": "каждая связка переводится одним русским предлогом целиком — по частям её не собрать. In front of это не «в переде чего-то», а просто «перед»."
+    }
+  ],
+  "error_correction_exercises": [
+    {
+      "id": 210,
+      "wrongSentence": "Megan parked the car in front the hotel.",
+      "options": [
+        {
+          "text": "Megan parked the car on front of the hotel.",
+          "isCorrect": false
+        },
+        {
+          "text": "Megan parked the car in the front the hotel.",
+          "isCorrect": false
+        },
+        {
+          "text": "Megan parked the car in front of the hotel.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "связка in front of работает как одно слово, и of из неё не выпадает. Замена in на on тоже ничего не спасает: внутри такой связки слова не меняются местами и не подбираются по вкусу."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [],
+  "find_the_odd_exercises": []
+}
