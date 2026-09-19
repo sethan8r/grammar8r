@@ -25,6 +25,13 @@
       "title": "Place · Где что стоит",
       "order": 2,
       "searchKeywords": "поверх или просто на, напротив по-английски, посередине комнаты, перед или до, впереди в очереди"
+    },
+    {
+      "id": 223,
+      "topicId": 35,
+      "title": "According to · Источник и ракурс",
+      "order": 3,
+      "searchKeywords": "по словам кого-то, по-моему по-английски, что касается, в зависимости от погоды, независимо от"
     }
   ],
   "grammar_cards": [
@@ -744,6 +751,375 @@
         "Как научиться слышать эти связки в быстрой речи?",
         "Можно ли поменять слова внутри связки местами?"
       ]
+    },
+    {
+      "id": 606,
+      "microtopicId": 223,
+      "title": "according to — чужие слова, а не свои",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы постоянно пересказываем чужие слова как свои и не замечаем этого. «Завтра дождь» — а откуда известно? Из прогноза. «Встреча в десять» — кто сказал? Бен сказал. По-русски источник можно спокойно проглотить, и никто не придерётся. Английский такие вещи проговаривает вслух, и для этого у него есть связка `according to`: дословно «согласно чему-то», по-живому «по словам, по данным»."
+        },
+        {
+          "type": "heading",
+          "text": "Сослаться на источник"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**According to the forecast, it will rain tomorrow.** — по прогнозу",
+            "**According to Ben, the meeting starts at ten.** — по словам Бена",
+            "**According to the timetable, the last train leaves at eleven.** — по расписанию"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "According to + источник"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Источник — это вещь: человек, документ, новости, расписание, прогноз. Если это местоимение, оно встаёт в объектную форму, как после любого предлога: **According to him, the flat is cheap** ✓, а **According to he** ✗ не собирается."
+        },
+        {
+          "type": "heading",
+          "text": "Зачем эта связка вообще нужна"
+        },
+        {
+          "type": "paragraph",
+          "text": "Она снимает с говорящего ответственность за факт. Сказать **It will rain tomorrow** — значит поручиться самому. Сказать **According to the forecast, it will rain** — значит переложить это на прогноз: не я обещал, а вот они. В новостях, в отчётах и в любом разговоре о чужих словах это работает одинаково."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда же второй оттенок, который стоит знать заранее: в споре `according to him` звучит с лёгким сомнением — «он так говорит, а я не поручусь». Нейтрального «по словам» тут меньше, чем кажется русскому уху."
+        },
+        {
+          "type": "heading",
+          "text": "Где русский спотыкается чаще всего"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**According to me, this café is too expensive** ✗ — так по-английски не говорят вообще. Причина прямо в устройстве связки: `according to` значит «не с моих слов, а вот оттуда». Сослаться на себя как на посторонний источник невозможно — получается, что человек цитирует сам себя."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский попадает сюда с закрытыми глазами, потому что у него «по-моему» и «по словам Игоря» собраны одинаково: обе фразы просто называют, чьё это мнение. В английском между ними пропасть — своё мнение и чужой источник берут разные слова."
+        },
+        {
+          "type": "heading",
+          "text": "Как сказать о своём мнении"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Как сказать",
+            "Стиль",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "I think",
+              "самое ходовое, в любой речи",
+              "I think this café is too expensive."
+            ],
+            [
+              "In my opinion",
+              "нейтрально, чуть формальнее: письмо, спор, эссе",
+              "In my opinion, the price is too high."
+            ],
+            [
+              "If you ask me",
+              "разговорное, с оттенком «раз уж спросили»",
+              "If you ask me, it isn't worth the money."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**According to my opinion** ✗ — тоже мимо, хотя выглядит логично. `In my opinion` уже содержит всё нужное, второй связки ему не требуется."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`according to` = «по словам, по данным»: называет ЧУЖОЙ источник и снимает ответственность за факт с говорящего."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "According to + источник (человек, документ, новости)"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Местоимение — в объектной форме: **According to him** ✓, **According to he** ✗",
+            "**According to the forecast, it will rain tomorrow.** — не я обещал, а прогноз"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**According to me, the café is expensive** ✗ → **In my opinion** ✓ или **I think** ✓ — на себя сослаться как на чужой источник нельзя",
+            "**According to my opinion** ✗ → **In my opinion** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как сказать о своём"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I think** — самое ходовое · **In my opinion** — чуть формальнее · **If you ask me** — разговорное."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "По прогнозу завтра будет дождь.",
+          "en": "According to the forecast, it will rain tomorrow."
+        },
+        {
+          "ru": "По словам Бена, встреча начинается в десять.",
+          "en": "According to Ben, the meeting starts at ten."
+        },
+        {
+          "ru": "По его словам, квартира дешёвая.",
+          "en": "According to him, the flat is cheap."
+        },
+        {
+          "ru": "По-моему, цена слишком высокая.",
+          "en": "In my opinion, the price is too high."
+        },
+        {
+          "ru": "Я думаю, это кафе слишком дорогое.",
+          "en": "I think this café is too expensive."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать according to me, если это тоже источник?",
+        "Чем in my opinion отличается от I think?",
+        "Обязательно ли ставить according to в начало предложения?"
+      ]
+    },
+    {
+      "id": 607,
+      "microtopicId": 223,
+      "title": "Задать угол: as for, in terms of, regardless of, depending on",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Кроме источника у разговора есть ещё одна настройка — угол, под которым мы смотрим на дело. По-русски мы говорим «что касается денег», «в плане цены», «независимо от погоды», «смотря по обстоятельствам». Английский собирает всё это составными предлогами, и каждый делает со фразой свою работу."
+        },
+        {
+          "type": "heading",
+          "text": "as for — что касается"
+        },
+        {
+          "type": "paragraph",
+          "text": "Заход к смене темы: одно обсудили, теперь берёмся за другое. Часто им же переводят стрелки на собеседника."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**As for the money, we'll talk about it later.** — что касается денег, к ним вернёмся потом",
+            "**As for Nick, he never answers his phone.** — а что до Ника, он трубку вообще не берёт"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В письмах и документах вместо `as for` часто стоит `as to` — тот же смысл, но заметно формальнее. Узнавать стоит, а говорить проще привычным `as for`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "in terms of — с точки зрения, в плане"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сужает разговор до одной стороны дела: по цене хорошо, а по месту плохо."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**In terms of price it's fine, but the location is terrible.**",
+            "**In terms of size this flat is perfect for us.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "regardless of — независимо от"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отмахивается от помехи: неважно, что там, мы всё равно сделаем."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We're going regardless of the weather.** — дождь, снег, что угодно — едем"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы уже знаем `despite` и `in spite of` из «Linking Words». Разница тонкая, но заметная: `despite` признаёт конкретную помеху — «несмотря на дождь мы поехали», то есть дождь был. `regardless of` помеху даже не рассматривает — «что бы там ни было, поедем»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Regardless` умеет работать и без хвоста, наречием в конце фразы: **I told him not to buy it, but he did it regardless** — «а он всё равно взял»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "depending on — в зависимости от"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ставит исход в зависимость от чего-то: ещё неизвестно, как сложится."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We'll sit inside or outside depending on the weather.**",
+            "**The price changes depending on the season.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`-Ing` на конце этой связки — часть застывшей формы, а не действие подлежащего. **We depending on the weather** ✗ — глагола в такой фразе нет вовсе, а `depending on` не умеет быть сказуемым. Связка только вводит условие исхода и стоит при уже готовом предложении."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Все четыре — составные предлоги, и правило у них общее: справа стоит вещь, а не целая часть с подлежащим. **Regardless of it was raining** ✗ → **Regardless of the rain** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Четыре связки задают угол, под которым смотрим на дело; справа у каждой — вещь, а не целая часть."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**as for** — что касается, заход к смене темы: **As for the money, we'll talk later.**",
+            "**in terms of** — с точки зрения, в плане: **In terms of price it's fine.**",
+            "**regardless of** — независимо от, помеха не рассматривается: **We're going regardless of the weather.**",
+            "**depending on** — в зависимости от, исход ещё не ясен: **inside or outside depending on the weather**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "paragraph",
+          "text": "**despite the rain** — помеха была и её признали; **regardless of the rain** — что бы там ни было."
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We depending on the weather** ✗ — связка не сказуемое, глагол во фразе всё равно нужен",
+            "**Regardless of it was raining** ✗ → **Regardless of the rain** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Что касается денег, обсудим их позже.",
+          "en": "As for the money, we'll talk about it later."
+        },
+        {
+          "ru": "По цене нормально, но место ужасное.",
+          "en": "In terms of price it's fine, but the location is terrible."
+        },
+        {
+          "ru": "Мы едем независимо от погоды.",
+          "en": "We're going regardless of the weather."
+        },
+        {
+          "ru": "Сядем внутри или снаружи, смотря по погоде.",
+          "en": "We'll sit inside or outside depending on the weather."
+        },
+        {
+          "ru": "Цена меняется в зависимости от сезона.",
+          "en": "The price changes depending on the season."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем regardless of отличается от despite?",
+        "Почему depending on нельзя использовать как сказуемое?",
+        "Когда уместно as to вместо as for?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -842,6 +1218,54 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 115,
       "orderInCard": 2
+    },
+    {
+      "cardId": 606,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 227,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 606,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 213,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 606,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 81,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 606,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 199,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 607,
+      "exerciseType": "MATCHING",
+      "exerciseId": 101,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 607,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 228,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 607,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 133,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 607,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 113,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -857,6 +1281,22 @@
       "id": "compound_prep_card604_ex1",
       "cardId": 604,
       "title": "Место или время",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую связку.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "compound_prep_card606_ex1",
+      "cardId": 606,
+      "title": "Сошлись на источник",
+      "userInstruction": "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "compound_prep_card607_ex1",
+      "cardId": 607,
+      "title": "Выбери связку",
       "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую связку.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
@@ -925,6 +1365,54 @@
       "translation": "далеко от",
       "transcription": "[ˈfɑː frəm]",
       "microtopicId": 222,
+      "categoryId": "linking"
+    },
+    {
+      "id": 849,
+      "word": "according to",
+      "translation": "по словам, согласно",
+      "transcription": "[əˈkɔːdɪŋ tuː]",
+      "microtopicId": 223,
+      "categoryId": "linking"
+    },
+    {
+      "id": 850,
+      "word": "in my opinion",
+      "translation": "по-моему, на мой взгляд",
+      "transcription": "[ɪn maɪ əˈpɪnjən]",
+      "microtopicId": 223,
+      "categoryId": "linking"
+    },
+    {
+      "id": 851,
+      "word": "as for",
+      "translation": "что касается",
+      "transcription": "[əz fɔː]",
+      "microtopicId": 223,
+      "categoryId": "linking"
+    },
+    {
+      "id": 852,
+      "word": "in terms of",
+      "translation": "с точки зрения, в плане",
+      "transcription": "[ɪn ˈtɜːmz əv]",
+      "microtopicId": 223,
+      "categoryId": "linking"
+    },
+    {
+      "id": 853,
+      "word": "regardless of",
+      "translation": "независимо от",
+      "transcription": "[rɪˈɡɑːdləs əv]",
+      "microtopicId": 223,
+      "categoryId": "linking"
+    },
+    {
+      "id": 854,
+      "word": "depending on",
+      "translation": "в зависимости от, смотря по",
+      "transcription": "[dɪˈpendɪŋ ɒn]",
+      "microtopicId": 223,
       "categoryId": "linking"
     }
   ],
@@ -997,6 +1485,26 @@
         "of the"
       ],
       "explanation": "артикль внутри связки стоит всегда, поэтому in middle of не собирается. On top of положило бы ключи поверх стола, а не в его середину."
+    },
+    {
+      "id": 199,
+      "situationRu": "RU: По словам Веры, поезд опаздывает.",
+      "correctSentence": "According to Vera, the train is late.",
+      "words": [
+        "According to",
+        "Vera,",
+        "the train",
+        "is",
+        "late"
+      ],
+      "distractors": [
+        "According to me",
+        "to Vera",
+        "are",
+        "lately",
+        "According"
+      ],
+      "explanation": "источник тут Вера, а не сам говорящий, поэтому According to me не подходит. Связка ставится целиком: ни второе to, ни одинокое According её не заменят."
     }
   ],
   "multiple_choice_exercises": [
@@ -1104,6 +1612,48 @@
         }
       ],
       "explanation": "сначала проверка, потом выход — это порядок во времени, и его держит before. Связки in front of и ahead of говорят только о месте."
+    },
+    {
+      "id": 227,
+      "choiceType": "CHOICE",
+      "prompt": "___ the article, the museum opens at nine.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "In my opinion",
+          "isCorrect": false
+        },
+        {
+          "text": "As for",
+          "isCorrect": false
+        },
+        {
+          "text": "According to",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "статья — источник, на который человек ссылается, и вводит его according to. In my opinion назвало бы собственное мнение, а не чужие данные."
+    },
+    {
+      "id": 228,
+      "choiceType": "CHOICE",
+      "prompt": "Sam will cycle to work or take the bus ___ the traffic.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "regardless of",
+          "isCorrect": false
+        },
+        {
+          "text": "depending on",
+          "isCorrect": true
+        },
+        {
+          "text": "in terms of",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Сэм ещё не решил, и решат за него пробки — это и есть depending on. Связка regardless of сказала бы обратное: что пробки ни на что не влияют."
     }
   ],
   "text_input_exercises": [
@@ -1131,6 +1681,36 @@
       ],
       "explanation": "каждая связка держится на всех своих словах сразу: in front of, on top of, next to. Стоит убрать одно — и фраза перестаёт собираться.",
       "taskDescription": "Впиши слово, которое выпало из связки."
+    },
+    {
+      "id": 113,
+      "items": [
+        {
+          "sentence": "___ the tickets, I'll book them tonight.",
+          "contextRu": "",
+          "answer": "As for",
+          "alternatives": []
+        },
+        {
+          "sentence": "They went hiking ___ the storm warning.",
+          "contextRu": "",
+          "answer": "regardless of",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ comfort, this old chair beats the new one.",
+          "contextRu": "",
+          "answer": "In terms of",
+          "alternatives": []
+        }
+      ],
+      "explanation": "as for берёт новую тему, regardless of отмахивается от помехи, in terms of выбирает одну сторону дела — здесь удобство.",
+      "taskDescription": "Впиши подходящую связку в каждое предложение.",
+      "wordBank": [
+        "regardless of",
+        "in terms of",
+        "as for"
+      ]
     }
   ],
   "dialog_restore_exercises": [],
@@ -1188,6 +1768,33 @@
         }
       ],
       "explanation": "каждая связка держит свой оттенок: on top of — поверх другого предмета, in the middle of — посередине, opposite — через дорогу, at the bottom of — внизу чего-то с верхом и низом, close to — рукой подать."
+    },
+    {
+      "id": 101,
+      "taskDescription": "соедини связку с тем, что она делает с разговором.",
+      "pairs": [
+        {
+          "left": "according to",
+          "right": "называет чужой источник"
+        },
+        {
+          "left": "as for",
+          "right": "переводит разговор на другое"
+        },
+        {
+          "left": "in terms of",
+          "right": "сужает до одной стороны дела"
+        },
+        {
+          "left": "regardless of",
+          "right": "отмахивается от помехи"
+        },
+        {
+          "left": "depending on",
+          "right": "ставит исход в зависимость"
+        }
+      ],
+      "explanation": "все пять связок держат разговор, но каждая по-своему: одна ссылается, вторая меняет тему, третья выбирает сторону, четвёртая игнорирует помеху, пятая оставляет исход открытым."
     }
   ],
   "error_correction_exercises": [
@@ -1247,9 +1854,52 @@
         }
       ],
       "explanation": "связка next to ставится целиком, и хвост to из неё не выпадает. Переставить слова или заменить to на of тоже нельзя — внутри связки ничего не меняется."
+    },
+    {
+      "id": 213,
+      "wrongSentence": "According to me, the hotel is too far from the centre.",
+      "options": [
+        {
+          "text": "In my opinion, the hotel is too far from the centre.",
+          "isCorrect": true
+        },
+        {
+          "text": "According to my opinion, the hotel is too far from the centre.",
+          "isCorrect": false
+        },
+        {
+          "text": "According to I, the hotel is too far from the centre.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "according to называет чужой источник, поэтому сослаться им на себя нельзя. Своё мнение вводят словами in my opinion или I think."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 81,
+      "construction": "According to Lily, the shop closes at nine.",
+      "options": [
+        {
+          "text": "Лили закрывает магазин в девять.",
+          "isCorrect": false
+        },
+        {
+          "text": "По-моему, магазин закрывается в девять.",
+          "isCorrect": false
+        },
+        {
+          "text": "Магазин точно закрывается в девять.",
+          "isCorrect": false
+        },
+        {
+          "text": "По словам Лили, магазин закрывается в девять.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "связка называет источник сведений, а не действующее лицо: закрывает магазин кто-то другой, а Лили только сказала об этом. Говорящий за эти слова не ручается."
+    }
+  ],
   "transformation_exercises": [],
   "categorization_exercises": [
     {
@@ -1276,6 +1926,27 @@
         }
       ],
       "explanation": "зеркало, отель, остановку и дверь можно показать рукой — это место. Ужин, экзамен, праздники и полночь показать нельзя, они просто наступают раньше или позже, и перед ними стоит before."
+    },
+    {
+      "id": 133,
+      "taskDescription": "распредели фразы по тому, что делает связка.",
+      "categories": [
+        {
+          "title": "Помеха не важна",
+          "items": [
+            "He went out regardless of the rain.",
+            "They play regardless of the cold."
+          ]
+        },
+        {
+          "title": "Исход ещё не решён",
+          "items": [
+            "We'll decide depending on the price.",
+            "The trip is on or off depending on Sara."
+          ]
+        }
+      ],
+      "explanation": "regardless of отмахивается от помехи — дело будет сделано в любом случае. Depending on, наоборот, оставляет исход открытым: он определится потом, по обстоятельствам."
     }
   ],
   "find_the_odd_exercises": [

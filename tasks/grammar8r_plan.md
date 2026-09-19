@@ -5668,20 +5668,23 @@ theory/
 │   │      `opposite`, в слив не идёт; `at the top of` / `at the bottom of` / `at the back of` —
 │   │      на узнавание, тоже без слива)
 │   │
-│   ├── МТ-C · According to · Источник и ракурс  (2 карточки)
-│   │   ├── Card 6 · ⭐ `according to` — «согласно, по словам»: "according to the news", "according
+│   ├── МТ223 · According to · Источник и ракурс  (2 карточки) ✅ (написана, ALL GREEN 19.09.26)
+│   │   ├── Card 606 · ⭐ `according to` — «согласно, по словам»: "according to the news", "according
 │   │   │   to Ben", "according to the plan". Способ снять с себя ответственность за факт: не я
 │   │   │   говорю — источник говорит.
 │   │   │   ⭐⭐ ГЛАВНАЯ ЛОВУШКА ТЕМЫ: `according to me` ✗ — так по-английски НЕ говорят вообще.
 │   │   │     Про себя — `in my opinion` / `I think`. Русский лепит это постоянно, потому что у него
 │   │   │     «по-моему» и «по словам Игоря» устроены одинаково — а в английском источник может быть
 │   │   │     только ЧУЖОЙ. Объяснять именно через это: according to = «не с моих слов». + AI.
-│   │   └── Card 7 · Рамка разговора: `as for` / `as to` (что касается — заход к смене темы:
+│   │   └── Card 607 · Рамка разговора: `as for` / `as to` (что касается — заход к смене темы:
 │   │       "As for the money, we'll talk later") · `in terms of` (в плане, с точки зрения:
 │   │       "In terms of price it's fine") · `regardless of` (независимо от: "regardless of the
 │   │       weather") · `depending on` (смотря по: "depending on the weather" — очень ходовое,
 │   │       в курсе нет ни разу). Все четыре — способ задать угол, под которым смотрим. + AI.
-│   │   🔤 Слив (5): according to · as for · in terms of · regardless of · depending on
+│   │   🔤 Слив (6): according to · in my opinion · as for · in terms of · regardless of · depending on
+│   │      (`in my opinion` добавлен шестым — это прямой ✓-ответ на ловушку `according to me` ✗,
+│   │      без него человек знает только как НЕЛЬЗЯ; `as to` — строкой как формальный близнец
+│   │      `as for`, в слив не идёт)
 │   │
 │   ├── МТ-D · Cause & Exception · Причина, добавление, исключение  (3 карточки)
 │   │   ├── Card 8 · `thanks to` на фоне уже знакомых `because of` / `due to` — ОЦЕНКА, которой у тех
