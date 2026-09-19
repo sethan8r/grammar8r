@@ -54,8 +54,8 @@ import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
+import dev.sethan8r.grammar.app.ui.util.pinnedHeaderTopInset
 import dev.sethan8r.grammar.app.ui.util.scrollBottomInset
-import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 
@@ -235,7 +235,7 @@ private fun CardPage(
             .padding(horizontal = Dimens.screenPadding)
             // Карточка проезжает под закреплённой шапкой, поэтому в покое держим её под ней отступом.
             .padding(
-                top = statusBarTopInset() + Dimens.topBarHeight + Dimens.progressRowHeight,
+                top = pinnedHeaderTopInset(extra = Dimens.progressRowHeight),
                 bottom = scrollBottomInset(),
             ),
         verticalArrangement = Arrangement.spacedBy(Dimens.spaceLarge),

@@ -24,8 +24,8 @@ import dev.sethan8r.grammar.app.ui.components.scaffold.PinnedHeader
 import dev.sethan8r.grammar.app.ui.components.theory.MicrotopicRow
 import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
+import dev.sethan8r.grammar.app.ui.util.pinnedHeaderTopInset
 import dev.sethan8r.grammar.app.ui.util.scrollBottomInset
-import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
 
 /**
  * Экран темы — список её микротем. Тап ведёт на листание карточек ([onMicrotopicClick]).
@@ -61,7 +61,7 @@ fun TopicScreen(
                 .padding(horizontal = Dimens.screenPadding),
             verticalArrangement = Arrangement.spacedBy(Dimens.spaceMedium),
             contentPadding = PaddingValues(
-                top = statusBarTopInset() + Dimens.topBarHeight + Dimens.spaceMedium,
+                top = pinnedHeaderTopInset(extra = Dimens.spaceMedium),
                 bottom = scrollBottomInset(),
             ),
         ) {

@@ -74,7 +74,7 @@ import dev.sethan8r.grammar.app.ui.theme.Durations
 import dev.sethan8r.grammar.app.ui.theme.TextPrimary
 import dev.sethan8r.grammar.app.ui.theme.TextSecondary
 import dev.sethan8r.grammar.app.ui.util.bottomScrim
-import dev.sethan8r.grammar.app.ui.util.statusBarTopInset
+import dev.sethan8r.grammar.app.ui.util.pinnedHeaderTopInset
 
 /**
  * Экран-сессия упражнений карточки (полноэкранный, без навбара). Верх: название микротемы + кнопка
@@ -211,7 +211,7 @@ private fun SessionContent(
                     .verticalScroll(rememberScrollState())
                     .padding(horizontal = Dimens.screenPadding)
                     .padding(
-                        top = statusBarTopInset() + Dimens.topBarHeight + Dimens.progressRowHeight,
+                        top = pinnedHeaderTopInset(extra = Dimens.progressRowHeight),
                         bottom = footerHeight,
                     ),
             ) {

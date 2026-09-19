@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.statusBars
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 
 /**
@@ -51,3 +52,16 @@ fun isImeVisible(): Boolean = WindowInsets.ime.getBottom(LocalDensity.current) >
 @Composable
 fun statusBarTopInset(): Dp =
     WindowInsets.statusBars.asPaddingValues().calculateTopPadding()
+
+/**
+ * Верхний отступ контента под закреплённой шапкой из [dev.sethan8r.grammar.app.ui.components.scaffold.BackTopBar]:
+ * строка состояния + сама шапка + [extra] — высота того, что шапка держит ПОД строкой «назад»
+ * (полоса прогресса, воздух до первой карточки). Состав общей части знает только эта функция, а не
+ * каждый экран (Правило №0): поменяется высота шапки — контент всех экранов отступит заново сам.
+ *
+ * Парная к [scrollBottomInset] для верха. Экран со своей шапкой (поиск во вкладке «Учить») считает
+ * её высоту у себя: она не общая.
+ */
+@Composable
+fun pinnedHeaderTopInset(extra: Dp = 0.dp): Dp =
+    statusBarTopInset() + Dimens.topBarHeight + extra
