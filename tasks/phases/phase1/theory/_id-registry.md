@@ -7,7 +7,7 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 634 |
+| Card | 635 |
 | Categorization | 140 |
 | Category | 8 |
 | ConstructionMeaning | 88 |
@@ -15,7 +15,7 @@
 | ErrorCorrection | 221 |
 | FindTheOdd | 122 |
 | Matching | 110 |
-| Microtopic | 233 |
+| Microtopic | 234 |
 | MultipleChoice·CHOICE | 237 |
 | MultipleChoice·FORWARD_CHOICE | 256 |
 | MultipleChoice·REVERSE_CHOICE | 104 |
@@ -482,14 +482,14 @@
 - course_word: 735–740 (6)
 
 ### gerund
-- Card: 614–633 (20)
+- Card: 614–634 (21)
 - Categorization: 137–139 (3)
 - ConstructionMeaning: 84–87 (4)
 - DialogRestore: 91–94 (4)
 - ErrorCorrection: 215–220 (6)
 - FindTheOdd: 118–121 (4)
 - Matching: 105–109 (5)
-- Microtopic: 227–232 (6)
+- Microtopic: 227–233 (7)
 - MultipleChoice·CHOICE: 231–236 (6)
 - MultipleChoice·FORWARD_CHOICE: 250–255 (6)
 - MultipleChoice·REVERSE_CHOICE: 99–103 (5)

@@ -2907,14 +2907,171 @@ A: "You're right, let's go tomorrow."
 
 ---
 
+## Microtopic 233 — Live Practice · Герундий в деле
+
+**ID:** 233 | **Order:** 7
+**Теги:** повторить всю тему, ing или to практика, проверить себя на герундии
+
+---
+
+### Card 634 · Живая практика: всё вместе
+
+**ID:** 634 | **Order:** 1
+
+#### Theory
+
+Тема закончена. Шесть обещаний, которые курс раздавал по дороге, закрыты: `-ing` после глаголов из списка, вежливое **Would you mind telling me…?**, **Stop shouting** и **Don't bother calling him**, таблички **No smoking**, **instead of going** из связок и сам факт, что хвостик умеет работать существительным. Возвращаться к герундию мы больше не будем.
+
+Перед практикой соберём всё на один экран.
+
+**Корень и ось**
+
+Два правила, из которых выводится вся тема. Первое: в английском предложении **сказуемое одно**, поэтому второй глагол обязан сменить форму. Второе: какую именно — решает глагол-хозяин, а подсказывает ось.
+
+**Формула:** `to + V1` — дело впереди · `-ing` — дело как вещь · голый `V1` — только после модального
+
+**Где что стоит**
+
+| Место | Что ставим | Пример |
+|-------|-----------|--------|
+| Список «только -ing» | enjoy · finish · avoid · keep · practise · consider · imagine · miss · risk · mind · suggest · admit · deny · mention | I enjoy reading |
+| Список «только to» | want · need · plan · decide · hope · agree · refuse · promise · would like | I'd like to book a table |
+| И так, и так | like · love · hate · prefer · start · begin · continue | I like swimming = I like to swim |
+| Форма меняет смысл | stop · remember · forget · try · mean · need · regret | stopped smoking ↔ stopped to smoke |
+| После любого предлога | good at · think about · by · without · before · look forward to · No · How about | good at swimming |
+| Подлежащее и каркасы | Swimming is… · go swimming · spend time doing · worth doing | Swimming is good for you |
+
+**Шесть промахов, на которых спотыкаются чаще всего**
+
+По одному от каждой микротемы — если эти шесть сидят в голове, тема закрыта:
+
+- **I enjoy to read** ✗ → **I enjoy reading** ✓ — глагол-хозяин держит справа вещь;
+- **He suggested me to go** ✗ → **He suggested going** ✓ или **He suggested that we go** ✓;
+- **It's starting raining** ✗ → **It's starting to rain** ✓ — два хвостика подряд язык не ставит;
+- **I stopped to smoke three years ago** — сказано «остановился покурить»; про брошенную привычку — **I stopped smoking** ✓;
+- **I'm looking forward to see you** ✗ → **to seeing you** ✓ — там предлог, а не частица;
+- **Swimming are good for you** ✗ → **Swimming is good for you** ✓ — занятие одно.
+
+**Чего в заданиях не будет**
+
+Чтобы не гадать: искусственный английский вам не подсунут. В практике не встретятся `being` и `having` с третьей формой (**I hate being told**) — они даны только на узнавание; конструкция `be used to` как отдельная тема; обороты `can't help doing`, `feel like doing`, `it's no use doing`; фразовые глаголы `give up`, `go on`, `put off`; причастный оборот вроде **Walking home, I met Kate**; а также `prefer A to B`, `would rather` и `had better`. У всего этого свои темы впереди.
+
+Дальше — три задания. Первое проверит, понимаете ли вы, **что именно сказано**, второе — умеете ли сказать это сами, третье — видите ли поломку в чужом тексте.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Сказуемое одно, поэтому второй глагол меняет форму. `to` смотрит вперёд, на несделанное; `-ing` называет действие как вещь; голый `V1` — только после модального.
+
+**Только -ing**
+
+**enjoy** · **finish** · **avoid** · **keep** · **practise** · **consider** · **imagine** · **miss** · **risk** · **mind** · **suggest** · **admit** · **deny** · **mention**
+
+- Пять гнёзд: начало и конец · удовольствие · уклонение · мысль о действии · речь о том, что уже было
+- Время держит первый глагол: **I enjoy reading** → **I enjoyed reading**
+
+**Только to**
+
+**want** · **need** · **plan** · **decide** · **hope** · **agree** · **refuse** · **promise** · **would like**
+
+- **I'd like to book a table** ✓ · короткий ответ — **I'd love to** ✓, без `to` фраза оборвана
+
+**И так, и так**
+
+**like** · **love** · **hate** · **prefer** · **start** · **begin** · **continue** — ошибки нет ни в одну сторону
+
+- Хозяин уже в Continuous → второй берёт `to`: **It's starting to rain** ✓
+- У `enjoy`, `avoid`, `keep` выбора нет: **I'm enjoying working here** ✓
+
+**Смысл меняется от формы**
+
+- **stopped smoking** (бросил) ↔ **stopped to smoke** (остановился ради этого)
+- **remember to call** (не забудь) ↔ **remember calling** (помню, как звонил)
+- **tried to open** (пытался) ↔ **tried opening** (попробовал способ)
+- **need to clean** (мне надо) ↔ **needs cleaning** (вещь требует)
+
+**После предлога — всегда -ing**
+
+**good at swimming** · **think about moving** · **without saying a word** · **before leaving** · **Thanks for coming** · **How about meeting?** · **No smoking**
+
+- Проверка: подставь существительное — **looking forward to the trip** ✓ звучит нормально, значит `to` предлог → **looking forward to seeing you** ✓
+- **used to go** (раньше ходил) ↔ **be used to going** (привык)
+
+**Подлежащее и каркасы**
+
+**Swimming is good for you** (одно занятие → `is`) · **go swimming** · **I spend two hours studying** · **She's busy packing** · **It's worth trying** · **There's no point in waiting**
+
+**Частые ошибки**
+
+- **I enjoy to read** ✗ → **I enjoy reading** ✓
+- **He suggested me to go** ✗ → **He suggested going** ✓
+- **Sorry for don't call** ✗ → **Sorry for not calling** ✓
+- **I came here for learning English** ✗ → **to learn English** ✓ (цель человека)
+- **I spend two hours on studying** ✗ → **I spend two hours studying** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2891 | Коля бросил пить кофе по вечерам. | Kolya stopped drinking coffee in the evening. |
+| 2892 | Не забудь позвонить маме. | Don't forget to call your mum. |
+| 2893 | Жду не дождусь встречи в субботу. | I'm looking forward to seeing you on Saturday. |
+| 2894 | Плавание полезно для спины. | Swimming is good for your back. |
+| 2895 | Стоит ли ехать туда так поздно? | Is it worth going there so late? |
+
+---
+
+#### AI Exercise
+
+**ID:** gerund_card634_ex1
+**Title:** "Что на самом деле сказано"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт одно английское предложение. Напишите по-русски, что оно означает."
+**Prompt Template:** "Контекст: пользователь прошёл тему «Герундий после глагола» целиком, это финальная карточка темы. Он знает КОРЕНЬ: в английском предложении сказуемое одно, поэтому второй глагол обязан сменить форму — стать to плюс начальная форма, стать -ing или остаться голым после модального. Знает ОСЬ: to смотрит вперёд, на дело, которого ещё не было, а -ing называет действие как вещь — то, что идёт, было или бывает вообще. Знает ПАРЫ, где форма меняет смысл целиком: I stopped smoking (бросил курить) и I stopped to smoke (остановился, чтобы покурить); Remember to call her (не забудь позвонить) и I remember calling her (помню, как звонил); I forgot to lock the door (не запер) и I forgot meeting him (не помню самой встречи); I tried to open the window (пытался, прилагал усилие, могло не выйти) и I tried opening the window (попробовал такой способ, и окно открылось); I mean to call him tonight (намереваюсь) и This job means getting up at five (влечёт за собой); I need to clean my shoes (мне надо почистить) и My shoes need cleaning (туфли требуют чистки); I regret to tell you (сожалею, что сообщаю, новость впереди) и I regret telling him (жалею о сказанном); I like cooking (люблю готовить вообще) и I'd like to cook tonight (хочу приготовить сегодня); I used to go there (раньше ходил, теперь нет) и I'm used to going there (привык ходить); We go swimming on Sundays (занятие, регулярно) и Let's go for a swim (один конкретный заход); The rain stopped us going out (дождь помешал НАМ выйти — stop про чужое действие); Do you mind opening the window (прошу тебя открыть) и Do you mind if I open the window (прошу разрешения за себя). Знает также: после любого предлога стоит -ing (good at swimming, without saying a word, looking forward to seeing you, How about meeting at seven), герундий бывает подлежащим (Swimming is good for your back), есть каркасы spend time doing, be busy doing, have difficulty doing, it's worth doing, there's no point in doing, а после глаголов списка форма только -ing (enjoy, finish, avoid, keep, suggest, admit, deny, insist on). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look и watch, погоду, составные предлоги. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики — таких форм в предложениях не используй. НЕ БЕРИ В ЗАДАНИЯ: being и having с третьей формой глагола (I hate being told), be used to и get used to как самостоятельную конструкцию кроме контраста с used to, обороты can't help doing, feel like doing, it's no use doing, фразовые глаголы give up, go on, keep on, put off, причастный оборот вроде Walking home I met Kate, а также prefer A to B, would rather и had better — всё это дано только на узнавание или разбирается в других темах. ЗАДАНИЕ: дай пользователю ОДНО короткое английское предложение и попроси написать по-русски, что оно означает. Сюжет и слова придумывай свои, а не бери примеры из списка дословно. В условии не подсказывай, на какую форму смотреть, вторую сторону пары не показывай и грамматику не объясняй. ДЕРЖИ ПРЕДЛОЖЕНИЕ ПРОСТЫМ: пять–двенадцать слов, одно подлежащее и один глагол-хозяин, ходовая бытовая лексика, без придаточных и редких слов. ЧЕРЕДУЙ ПАРУ И СТОРОНУ ПАРЫ от запуска к запуску: не давай два раза подряд одну пару и не давай два раза подряд сторону с to. 1. STOP — бросил привычку или остановился ради чего-то; 2. REMEMBER и FORGET — напоминание о несделанном или воспоминание о сделанном; 3. TRY — усилие или способ, который сработал; 4. MEAN — намерение или последствие; 5. NEED — надо человеку или требуется вещи; 6. REGRET — сообщаю неприятное сейчас или жалею о сделанном; 7. LIKE против WOULD LIKE — привычка вообще или желание на сегодня; 8. USED TO против BE USED TO — раньше делал или привык делать; 9. GO SWIMMING против GO FOR A SWIM — занятие или один заход; 10. STOP SOMEBODY DOING — помешать другому; 11. DO YOU MIND — прошу тебя или прошу за себя. Примерно каждый четвёртый запуск давай предложение БЕЗ контраста, где форма смысла не меняет, а просто обязана стоять правильно: He insisted on paying for everyone, Swimming is good for your back, She's busy packing, There's no point in waiting — так пользователь не начнёт искать подвох там, где его нет. Имена, города и сюжеты каждый запуск меняй. ОЦЕНКА: верно, если пользователь передал СМЫСЛ, который задаёт форма; терминов и дословности не жди, оценивай по сути. Разбирай типовые ошибки по одной строке: перевёл stopped to smoke как «бросил курить» → скажи, что to здесь называет цель остановки, и покажи, чем это отличается от stopped smoking; перевёл I remember calling her как «не забудь позвонить» → скажи, что -ing смотрит назад, на сделанное; перевёл I tried calling him как «пытался дозвониться» → скажи, что звонок состоялся, речь о способе; перевёл This job means getting up at five как «работа намерена вставать» → объясни, что means здесь «влечёт за собой»; перевёл My shoes need cleaning как «туфли должны почиститься сами» → скажи, что это «туфли требуют чистки»; перевёл I'd like to cook tonight как «я люблю готовить» → скажи, что would like это желание на конкретный случай; спутал used to и be used to → покажи, что наличие be переворачивает смысл; перевёл The rain stopped us going out как «дождь перестал идти» → скажи, что stop здесь про чужое действие, дождь помешал нам; перевёл Do you mind if I open the window как просьбу к собеседнику → покажи, что человек просит за себя. Если перевод верный, ОДНОЙ строкой назови вторую сторону пары и скажи, как поменялся бы смысл с другой формой. ЗАСЧИТЫВАЙ вольную, но точную по смыслу формулировку и разговорный русский. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только смысл."
+
+Пример вывода AI: 'Что означает это предложение? Напишите по-русски: «Ben stopped to check his phone».'
+
+#### AI Exercise
+
+**ID:** gerund_card634_ex2
+**Title:** "Скажи по-английски"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением."
+**Prompt Template:** "Контекст: пользователь прошёл тему «Герундий после глагола» целиком, это финальная карточка темы. Он знает: сказуемое в предложении одно, поэтому второй глагол обязан сменить форму, а какую именно — требует глагол-хозяин; to смотрит вперёд, на несделанное, -ing называет действие как вещь. Списки на руках: только -ing после enjoy, finish, avoid, keep, practise, consider, imagine, miss, risk, mind, suggest, recommend, admit, deny, mention (I enjoy reading, He denied taking the money, The guide suggested starting with the museum, а He suggested me to go невозможно — либо suggested going, либо suggested that we go); только to после want, need, plan, decide, hope, agree, refuse, promise и после would like (I'd like to book a table, короткое согласие I'd love to с голым to); обе формы после like, love, hate, prefer, start, begin, continue, причём если хозяин уже в Continuous, второй берёт to (It's starting to rain); can't stand держит только -ing. Знает пары, где форма меняет смысл: stopped smoking и stopped to smoke, remember to call и remember calling, forgot to lock и forgot meeting, tried to open и tried opening, mean to call и means getting up, need to clean и needs cleaning. Знает правило предлога без исключений: после любого предлога стоит -ing (good at swimming, think about moving, insist on paying, by reading, without saying a word, before leaving, Thanks for coming, Sorry for being late, How about meeting at seven, No smoking), а to в look forward to это предлог, поэтому looking forward to seeing you; граница правила — for плюс -ing называет назначение вещи (a knife for cutting bread), а цель человека по-прежнему to плюс глагол (I came here to learn English). Знает герундий подлежащим (Swimming is good for your back, глагол в единственном числе), конструкцию go плюс занятие (go shopping, go swimming, а go for a swim с существительным и артиклем) и каркасы spend time doing без предлога, be busy doing, have difficulty doing, it's worth doing, there's no point in doing. Знает отрицание not прямо перед -ing (Sorry for not calling) и то, что вопрос делает первый глагол (Do you mind waiting? Have you finished eating?). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look и watch, погоду, составные предлоги. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики — таких форм в заданиях не используй и за их отсутствие не ругай. НЕ ЗАГАДЫВАЙ: being и having с третьей формой, be used to и get used to, can't help doing, feel like doing, it's no use doing, частицы give up, go on, keep on, put off, причастный оборот вроде Walking home I met Kate, prefer A to B, would rather, had better. ЗАДАНИЕ: дай пользователю ОДНУ короткую русскую фразу и попроси сказать её по-английски одним предложением. В условии не подсказывай ни конструкцию, ни форму и не называй английских слов. ДЕРЖИ ФРАЗУ ПРОСТОЙ: пять–двенадцать слов, одно подлежащее и один глагол-хозяин, бытовая ситуация, без придаточных и редких слов. Если в присланном списке слов пользователя есть подходящие — желательно строить фразу вокруг них: фокус задания на выборе формы, а не на конкретной лексике. ЧЕРЕДУЙ ПОВОД от запуска к запуску, не повторяя один и тот же два раза подряд, и бери по одному от каждой части темы: 1. ГЛАГОЛ ТОЛЬКО С -ING — «Катя бросила курить в прошлом году», «Он признался, что разбил вазу», «Она избегает говорить о деньгах»; 2. ПРЕДЛОЖЕНИЕ И СОВЕТ — «Гид предложил начать с музея», «Советую бронировать столик заранее»; 3. ОБЕ ФОРМЫ ЗАКОННЫ — «Соня обожает готовить для друзей», «Дождь начался сразу после обеда»; 4. ВЕЖЛИВАЯ ПРОСЬБА — «Не хотите чаю?», «Я хотел бы забронировать столик на восемь», «Ты не против подождать десять минут?»; 5. ФОРМА РЕШАЕТ СМЫСЛ — «Не забудь позвонить маме», «Я помню, как отправлял это письмо», «Мы остановились, чтобы выпить кофе»; 6. ПОСЛЕ ПРЕДЛОГА — «Он хорошо играет на гитаре», «Она ушла, не сказав ни слова», «Спасибо, что пришли так рано», «Перед уходом я запер дверь»; 7. ПОДЛЕЖАЩЕЕ И КАРКАСЫ — «Плавание полезно для спины», «Я трачу час в день на дорогу», «Стоит ли ехать туда так поздно?», «Нет смысла ждать его дальше»; 8. GO ПЛЮС ЗАНЯТИЕ — «В субботу мы ходили по магазинам», «Каждое утро он бегает в парке»; 9. ОТРИЦАНИЕ И ВОПРОС — «Извини, что не позвонил вчера», «Вы закончили есть?». Примерно каждый третий запуск, но не два раза подряд, давай ЛОВУШКУ-КАЛЬКУ, где русский тянет не туда: «Жду не дождусь встречи с тобой» (нужно looking forward to seeing, а не to see), «Я пришёл сюда учить английский» (цель человека, нужно to learn, а не for learning), «Раньше я жил у моря» (used to live с голым глаголом), «Кажется, начинается дождь» (it's starting to rain, два хвостика подряд нельзя), «Он предложил мне поехать на поезде» (suggested that I take the train или suggested taking, но не suggested me to take). Имена, города и сюжеты каждый запуск меняй. ОЦЕНКА: верно, если форма второго глагола отвечает требованию конструкции. ЗАСЧИТЫВАЙ ОБЕ ФОРМЫ там, где обе законны (like, love, hate, prefer, start, begin, continue), и ошибкой их не называй — при желании одной строкой покажи второй вариант. Разбирай типовые ошибки по одной строке: поставил to после глагола из первого списка (enjoy to read, finished to clean, avoids to talk) → скажи, что этот глагол держит справа название действия; поставил -ing после глагола, который смотрит вперёд (want reading, decided buying, I'd like booking) → скажи, что дела ещё нет, нужен to; написал suggested me to go → скажи, что suggest не берёт человека прямым объектом, и дай оба выхода; поставил to после предлога (good at to play, think about to move, How about to meet) → напомни, что справа от предлога стоит вещь; написал looking forward to see → покажи проверку с существительным; написал for learning там, где цель человека → дай to learn; поставил -ing после хозяина в Continuous (it's starting raining) → скажи, что два хвостика подряд не ставят; написал used to living вместо used to live → скажи, что без be это рассказ о прошлом; вставил предлог после spend (spend two hours on studying) → скажи, что его там нет; поставил are при одном занятии (Swimming are good) → напомни, что занятие одно; написал don't вместо not в отрицании (sorry for don't call) → покажи, что помощник тут не нужен. ЗАСЧИТЫВАЙ синонимы и другую лексику при верной форме — лексику не правь; сокращения; любое пройденное время, подходящее по смыслу. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Скажите по-английски: «Спасибо, что пришли так рано».'
+
+#### AI Exercise
+
+**ID:** gerund_card634_ex3
+**Title:** "Найди и исправь"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт три предложения. Найдите то, где есть ошибка, перепишите его правильно и своими словами скажите, что было не так."
+**Prompt Template:** "Контекст: пользователь прошёл тему «Герундий после глагола» целиком, это финальное задание темы. Он знает: сказуемое одно, поэтому второй глагол меняет форму; после глаголов enjoy, finish, avoid, keep, practise, consider, imagine, miss, risk, mind, suggest, recommend, admit, deny, mention идёт только -ing; после want, need, plan, decide, hope, agree, refuse, promise и would like — только to; like, love, hate, prefer, start, begin, continue берут обе формы, но если хозяин в Continuous, второй берёт to; suggest не берёт человека прямым объектом; отрицание — not прямо перед -ing, вопрос делает первый глагол; после ЛЮБОГО предлога стоит -ing, включая to в look forward to, а цель человека по-прежнему идёт через to плюс глагол; герундий бывает подлежащим и требует единственного числа; go плюс занятие идёт без предлога и артикля, а go for a swim — с существительным и артиклем; в каркасах spend time doing предлога нет, а в there's no point in предлог входит внутрь; после No на табличке стоит название действия с -ing; being это просто -ing от to be. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look и watch, погоду, составные предлоги. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики — таких форм в предложениях не используй. НЕ ИСПОЛЬЗУЙ ВООБЩЕ: being и having с третьей формой, be used to и get used to, can't help doing, feel like doing, it's no use doing, частицы give up, go on, keep on, put off, причастный оборот вроде Walking home I met Kate, prefer A to B, would rather, had better. ЗАДАНИЕ: дай пользователю ТРИ коротких английских предложения, пронумерованных 1, 2, 3, про один день одного человека по порядку: утро, день, вечер; человека, город и сюжет каждый запуск меняй. РОВНО ОДНО содержит ошибку, два других полностью правильные; номер сломанного меняй от запуска к запуску, не ставь его всё время первым или последним. ДЕРЖИ ПРЕДЛОЖЕНИЯ ПРОСТЫМИ: шесть–двенадцать слов, одно подлежащее и один глагол-хозяин, ходовая бытовая лексика. Ошибка только ГРАММАТИЧЕСКАЯ: орфографических и пунктуационных ловушек не подсовывай, запятые и точки везде на месте. ⚠️ ЗАПРЕЩЕНО делать ошибкой предложение, которое грамматически ВЕРНО, но значит другое: stopped to smoke, remember calling, tried calling, forgot meeting, I like to get up early — обе формы там законны, и пользователь будет прав, если ничего не исправит. Ошибку бери ТОЛЬКО из инвентаря ниже. Два правильных предложения собирай с разными конструкциями темы, чтобы сломанное не бросалось в глаза одинаковостью. ИНВЕНТАРЬ ОШИБОК — по одной типичной ошибке русскоязычного из каждой части темы, каждый запуск бери другую: 1. TO ПОСЛЕ ГЛАГОЛА ИЗ ПЕРВОГО СПИСКА — Tom enjoys to read before bed. 2. -ING ПОСЛЕ ГЛАГОЛА, КОТОРЫЙ СМОТРИТ ВПЕРЁД — Lucy wants reading a new book tonight. 3. ЧЕЛОВЕК ПРЯМЫМ ОБЪЕКТОМ ПОСЛЕ SUGGEST — He suggested me to take the train. 4. TO ПОСЛЕ DENY ИЛИ ADMIT — She denied to take the money. 5. ПОМОЩНИК ВМЕСТО NOT — Sorry for don't calling you yesterday. 6. TO ПОСЛЕ MIND — Do you mind to wait ten minutes? 7. ЦЕЛАЯ ЧАСТЬ ВМЕСТО ЧЕЛОВЕКА С -ING — She caught that he smoked on the balcony. 8. ДВА ХВОСТИКА ПОДРЯД — Look outside, it's starting raining. 9. -ING ПОСЛЕ WOULD LIKE — I'd like booking a table for eight. 10. КОРОТКИЙ ОТВЕТ БЕЗ TO — Would you like to join us? I'd love. 11. TO ПОСЛЕ CAN'T STAND — I can't stand to wait in long queues. 12. TO ПОСЛЕ FINISH — We finished to paint the kitchen yesterday. 13. TO ПОСЛЕ ПРЕДЛОГА — Megan is good at to play the guitar. 14. TO ПОСЛЕ ГЛАГОЛА С ЕГО ПРЕДЛОГОМ — Nick is thinking about to sell his car. 15. ЧАСТИЦА ВМЕСТО ПРЕДЛОГА — I'm looking forward to see you on Friday. 16. НАЗНАЧЕНИЕ ВМЕСТО ЦЕЛИ — I came here for learning English. 17. РАЗНЫЕ ДЕЯТЕЛИ В СОКРАЩЁННОЙ ЧАСТИ — After finishing the report, my boss called me. 18. TO ПОСЛЕ HOW ABOUT — How about to meet at seven? 19. ТАБЛИЧКА БЕЗ -ING — There is a big No smoke sign at the entrance. 20. ГОЛЫЙ BE ПОСЛЕ ПРЕДЛОГА — Sorry for be late again. 21. ЛИШНИЙ ПРЕДЛОГ ПОСЛЕ GO — On Sunday we went to shopping at the mall. 22. -ING ПОСЛЕ FOR В ЭТОЙ ЖЕ КОНСТРУКЦИИ — Let's go for swimming after lunch. 23. МНОЖЕСТВЕННОЕ ЧИСЛО У ЗАНЯТИЯ — Swimming are good for your back. 24. ЛИШНИЙ ПРЕДЛОГ ПОСЛЕ SPEND — I spend two hours on studying every day. 25. TO ПОСЛЕ WORTH — It's worth to try this café. Попроси найти сломанное предложение, написать его правильно и своими словами сказать, что было не так. В условии НЕ подсказывай, в каком предложении ошибка и какое правило нарушено. ЧЕРЕДУЙ ошибку и сюжет от запуска к запуску, не повторяя один и тот же пункт инвентаря два раза подряд. ОЦЕНКА: если пользователь нашёл и верно исправил нужное предложение — подтверди и в одной-двух фразах объясни правило. Объяснение оценивай ПО СУТИ: терминов не жди, ответы вроде «тут нужен хвостик», «после предлога так нельзя», «это уже было, значит -ing», «занятие одно, значит is» полностью годятся. Если исправление верное, а объяснение кривое или его нет — исправление засчитай, причину мягко назови сам. Если указал не на то предложение — скажи, какое было сломано, дай верный вариант и коротко объясни правило. Если починил иначе, чем задумал ты, но результат верный (He suggested that I take the train вместо He suggested taking the train) — засчитывай. Если заодно переписал верное предложение в другое верное — не ругай, но скажи, что ошибки там не было. ЗАСЧИТЫВАЙ: сокращения и разное написание с заглавной буквы; другой порядок слов и другую лексику, если грамматика верна; любой законный способ починки, включая целую часть с that там, где она уместна. Отвечай по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Найдите предложение с ошибкой, перепишите его правильно и скажите, что было не так: 1. In the morning Greg finished packing his bag and left. 2. At lunch he is thinking about to sell his old bike. 3. In the evening he went swimming at the pool near his house.'
+
+#### Clarification Options
+
+- Как быстро решить, что ставить — to или -ing?
+- Почему в look forward to seeing два раза получается «to»?
+- Где герундий, а где обычное время Continuous?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 36 | 37 |
-| Microtopic | 232 | 233 |
-| Card | 633 | 634 |
-| Example | 2890 | 2891 |
+| Microtopic | 233 | 234 |
+| Card | 634 | 635 |
+| Example | 2895 | 2896 |
 | Слова курса (course_word) | 880 | 881 |
 | MultipleChoice · CHOICE | 236 | 237 |
 | MultipleChoice · FORWARD_CHOICE | 255 | 256 |
