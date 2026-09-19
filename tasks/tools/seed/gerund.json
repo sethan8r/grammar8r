@@ -32,6 +32,13 @@
       "title": "Like & Love · Два варианта с одним смыслом",
       "order": 3,
       "searchKeywords": "like swimming или like to swim, would you like some tea, i'd love to ответ, started raining или to rain, terpet ne mogu по-английски"
+    },
+    {
+      "id": 230,
+      "topicId": 36,
+      "title": "Stop & Remember · Смысл меняется от формы",
+      "order": 4,
+      "searchKeywords": "stopped smoking или stopped to smoke, remember to call или calling, попробуй открыть окно, my shoes need cleaning, помешать кому-то сделать"
     }
   ],
   "grammar_cards": [
@@ -1786,6 +1793,503 @@
         "Почему в ответе I'd love to остаётся to без глагола?",
         "Когда после would like ставить человека, а когда сразу to?"
       ]
+    },
+    {
+      "id": 623,
+      "microtopicId": 230,
+      "title": "stop doing и stop to do — две разные вещи",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор выбор формы был делом вкуса или свойством глагола-хозяина: где-то только `-ing`, где-то обе годятся. Сейчас начинается самое интересное — группа глаголов, у которых **форма меняет смысл предложения целиком**. Ошибёшься хвостиком — скажешь другое."
+        },
+        {
+          "type": "paragraph",
+          "text": "Строго говоря, это не первая встреча с таким. В теме «Смотреть, слушать и понимать» мы уже видели, что **I saw him crossing the street** (застал в процессе, он шёл через дорогу) и **I saw him cross the street** (видел целиком, он перешёл) — это разные картинки. Механизм знакомый, просто теперь он работает на другой паре форм."
+        },
+        {
+          "type": "heading",
+          "text": "Главная пара темы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I stopped smoking.** — бросил курить. Курение и есть то, что я прекратил;",
+            "**I stopped to smoke.** — остановился, чтобы покурить. Шёл, встал, закурил."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Одна форма — и смысл противоположный. Ось темы объясняет это без всякой зубрёжки: `-ing` называет вещь, которую прекращаешь, а `to` здесь — знакомая нам цель, ровно как в **I came to help** (пришёл, чтобы помочь) или **I went out to buy milk**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Stop + `-ing` = прекратил это · stop + `to` + глагол = остановился ради этого"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I stopped to smoke three years ago** — если человек хотел сказать «бросил курить три года назад», вышло «три года назад остановился покурить». Собеседник не поправит, он просто поймёт другое, а вы даже не узнаете. Верно: **I stopped smoking three years ago** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Знакомый контраст из «Императива»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Там мы разбирали **Stop shouting** (останови то, что уже идёт) против **Don't shout** (правило на будущее). Теперь видно, что `shouting` в той фразе — обычный герундий из нашего списка: `stop` держит справа название действия, которое надо прекратить."
+        },
+        {
+          "type": "heading",
+          "text": "Третья работа stop: помешать другому"
+        },
+        {
+          "type": "paragraph",
+          "text": "У глагола есть ещё одна роль, и она про чужое действие. Если действие прекращает не сам человек, а кто-то или что-то снаружи, тот, кому мешают, встаёт **между** `stop` и формой на `-ing`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The rain stopped us going out.** — дождь помешал нам выйти;",
+            "**He stopped me from leaving.** — он не дал мне уйти."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Каркас знакомый — «глагол + кого + `-ing`», тот самый, что в **She caught him smoking**. Слово `from` тут необязательно: обе формы, с ним и без него, одинаково верны, просто с `from` звучит чуть настойчивее."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Разговорный близнец первой пары — **quit**: **He quit smoking last year** значит ровно то же, что **stopped smoking**. А вот **give up smoking** — из другой породы: там работает хвостик `up`, который переписывает глаголу смысл. Такие связки разберём в теме «Устойчивые выражения и идиомы», среди фразовых глаголов."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Форма меняет смысл целиком:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I stopped smoking** — бросил курить (курение прекратил)",
+            "**I stopped to smoke** — остановился, чтобы покурить (`to` здесь цель, как в **I came to help**)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Помешать другому"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот, кому мешают, встаёт между глаголом и `-ing`; `from` необязателен: **The rain stopped us going out** ✓ · **He stopped me from leaving** ✓"
+        },
+        {
+          "type": "heading",
+          "text": "Частая ошибка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I stopped to smoke three years ago** — сказано «остановился покурить», а не «бросил». Про «бросил» — **I stopped smoking three years ago** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Гриша бросил курить три года назад.",
+          "en": "Grisha stopped smoking three years ago."
+        },
+        {
+          "ru": "Мы остановились, чтобы выпить кофе.",
+          "en": "We stopped to have a coffee."
+        },
+        {
+          "ru": "Пожалуйста, перестань шуметь.",
+          "en": "Please stop making noise."
+        },
+        {
+          "ru": "Дождь помешал нам выйти.",
+          "en": "The rain stopped us going out."
+        },
+        {
+          "ru": "Оля бросила пить кофе по вечерам.",
+          "en": "Olya quit drinking coffee in the evening."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, какая форма нужна после stop?",
+        "Нужно ли from в конструкции «помешать кому-то»?",
+        "Чем quit отличается от stop?"
+      ]
+    },
+    {
+      "id": 624,
+      "microtopicId": 230,
+      "title": "remember и forget: to смотрит вперёд, -ing назад",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая пара этой микротемы, и правило у неё держится на одной строке, которую стоит запомнить целиком: **`to` — дело ещё не сделано, `-ing` — воспоминание о сделанном.**"
+        },
+        {
+          "type": "heading",
+          "text": "remember"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Remember to call her.** — не забудь позвонить. Звонка ещё не было, он впереди;",
+            "**I remember calling her.** — помню, как звонил. Звонок был, он позади."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "forget"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I forgot to lock the door.** — забыл запереть дверь, и она осталась открытой;",
+            "**I'll never forget seeing the ocean.** — не забуду, как впервые увидел океан."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание, насколько разные это вещи. **I forgot to meet him** — не пришёл на встречу. **I forgot meeting him** — встреча была, но я её не помню, забыл сам факт знакомства."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский промахивается молча"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тут коварство не в сложности, а в том, что ошибку **не слышно**. По-русски «помню позвонить» и «помню, как звонил» различаются целыми словами, а по-английски — одним хвостиком. Мозг переводит фразу целиком, хвостик ставит наугад, предложение выходит гладким и грамматически верным — просто означает не то. Собеседник не переспросит, потому что для него всё понятно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Did you remember locking the door?** звучит как «ты помнишь, как запирал дверь?» — вопрос о воспоминании. А спросить хотели обычно другое: **Did you remember to lock the door?** — «ты не забыл её запереть?»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Don't forget to — фраза на каждый день"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая ходовая работа этого глагола — напоминание, и оно всегда с `to`, потому что дело впереди: **Don't forget to call her back** · **Don't forget to take your umbrella** · **Don't forget to save the file**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Заодно посмотрим, что происходит с отрицанием и вопросом: ничего нового. Работает первый глагол, а форма второго не меняется вообще — **Did you remember to lock the door?** · **I didn't forget to call him** · **Don't forget to pay the bill**."
+        },
+        {
+          "type": "heading",
+          "text": "Забыть вещь — это другое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда забывают не действие, а предмет, никакого выбора формы нет вовсе: **I forgot my keys** · **She forgot her passport at home**. Тут после глагола стоит обычное дополнение, и искать подвох не нужно — правило работает только тогда, когда справа стоит второй глагол."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`to` — дело ещё не сделано; `-ing` — воспоминание о сделанном."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Remember to call her** (не забудь позвонить) ↔ **I remember calling her** (помню, как звонил)",
+            "**I forgot to lock the door** (не запер) ↔ **I forgot meeting him** (не помню саму встречу)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Напоминание"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всегда с `to`, дело впереди: **Don't forget to call her back**"
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Работает первый глагол, форма второго не меняется: **Did you remember to lock the door?** · **I didn't forget to call him**"
+        },
+        {
+          "type": "heading",
+          "text": "Частая ошибка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Did you remember locking the door?** — спрошено «помнишь, как запирал», а хотели **Did you remember to lock the door?** ✓",
+            "**I forgot my keys** — забыли вещь, выбора формы здесь нет вообще"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Не забудь позвонить Лене вечером.",
+          "en": "Don't forget to call Lena in the evening."
+        },
+        {
+          "ru": "Я помню, как отправлял это письмо.",
+          "en": "I remember sending that email."
+        },
+        {
+          "ru": "Тёма забыл выключить свет.",
+          "en": "Artyom forgot to turn off the light."
+        },
+        {
+          "ru": "Я никогда не забуду, как впервые увидел океан.",
+          "en": "I'll never forget seeing the ocean for the first time."
+        },
+        {
+          "ru": "Ты не забыл запереть дверь?",
+          "en": "Did you remember to lock the door?"
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять по предложению, дело впереди или позади?",
+        "Почему ошибка с remember не слышна на слух?",
+        "Чем I forgot my keys отличается от I forgot to take my keys?"
+      ]
+    },
+    {
+      "id": 625,
+      "microtopicId": 230,
+      "title": "try, mean, need и regret",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Осталось четыре глагола из той же породы: форма меняет им смысл. Логика везде та же самая, так что новых правил не будет — только новые пары."
+        },
+        {
+          "type": "heading",
+          "text": "try: пытаться или попробовать способ"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I tried to open the window.** — пытался открыть, прилагал усилие. Получилось или нет — неизвестно, а часто и нет;",
+            "**Try opening the window.** — попробуй открыть окно: вдруг станет прохладнее. Это совет, один из возможных способов решить проблему."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски обе фразы звучат почти одинаково — «попробуй открыть окно», — и в этом вся ловушка. Разница в том, **где трудность**: у формы с `to` трудно само действие, у формы на `-ing` действие простое, а под вопросом результат."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I tried calling him, but he didn't answer** — здесь не «пытался позвонить», а «попробовал такой способ: позвонил, но он не ответил». Звонок состоялся. А **I tried to call him** — не факт, что дозвонился, может, и телефон не нашёл."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В разговоре часто говорят **try and call him** вместо **try to call him**. Это не ошибка, а устная привычка; узнавать на слух стоит, а писать спокойно можно по-старому."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "mean: намерение или последствие"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I mean to call him tonight.** — намереваюсь позвонить сегодня вечером;",
+            "**The new job means getting up at five.** — новая работа означает вставать в пять, то есть влечёт это за собой."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй случай почти всегда про последствие: что-то одно тянет за собой другое."
+        },
+        {
+          "type": "heading",
+          "text": "I didn't mean to — «я не специально»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отдельно стоит фраза-извинение, которую носители говорят по десять раз на дню. Устроена она точно так же, как **I'd love to** из прошлой микротемы: глагол не повторяют, а **`to` остаётся** один."
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "text": "You've deleted my file!"
+            },
+            {
+              "speaker": "Me",
+              "text": "Sorry, I didn't mean to."
+            },
+            {
+              "speaker": "Emma",
+              "text": "It's fine, I have a copy."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I didn't mean** ✗ — фраза звучит оборванной, будто человек не договорил. Нужно **I didn't mean to** ✓. Рядом живёт **by accident** («случайно»): **I deleted it by accident** — то же самое, но про сам факт, а не про умысел."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "need: кому надо — мне или вещи"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I need to clean my shoes.** — мне надо почистить туфли;",
+            "**My shoes need cleaning.** — туфли требуют чистки."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй вариант — про **вещь**, с которой надо что-то сделать, и по смыслу он страдательный, хотя выглядит обычным. Русский говорит так же («окно требует ремонта»), поэтому конструкция ложится легко. Достаточно узнавать её в лицо: **This shirt needs washing** · **The car needs checking**."
+        },
+        {
+          "type": "heading",
+          "text": "regret: сожалею, что сообщаю, или жалею, что сделал"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I regret to tell you that the flight is cancelled.** — сожалею, что сообщаю: новость ещё впереди, я её только произношу;",
+            "**I regret telling him the truth.** — жалею, что сказал: дело позади."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первую форму вы чаще встретите в письмах, где она звучит официально: **We regret to inform you…** Логика та же, что у `remember`: `to` смотрит вперёд, `-ing` — назад."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Та же логика, что у `stop` и `remember`: форма меняет смысл."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I tried to open the window** — пытался, усилие ↔ **Try opening the window** — попробуй такой способ",
+            "**I mean to call him** — намереваюсь ↔ **It means getting up at five** — влечёт за собой",
+            "**I need to clean my shoes** — мне надо ↔ **My shoes need cleaning** — вещь требует",
+            "**I regret to tell you…** — сообщаю сейчас ↔ **I regret telling him** — жалею о сделанном"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как ответить, когда вышло случайно"
+        },
+        {
+          "type": "paragraph",
+          "text": "`to` остаётся без глагола: **I didn't mean to** ✓, а **I didn't mean** ✗ звучит оборванно. Рядом — **I deleted it by accident**."
+        },
+        {
+          "type": "heading",
+          "text": "Частая ошибка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I tried calling him** — звонок был, просто не помог; про безуспешную попытку дозвониться — **I tried to call him** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я пытался открыть окно, но оно не поддалось.",
+          "en": "I tried to open the window, but it didn't move."
+        },
+        {
+          "ru": "Попробуй перезагрузить телефон.",
+          "en": "Try restarting your phone."
+        },
+        {
+          "ru": "Новая работа означает вставать в пять.",
+          "en": "The new job means getting up at five."
+        },
+        {
+          "ru": "Эта рубашка требует стирки.",
+          "en": "This shirt needs washing."
+        },
+        {
+          "ru": "Прости, я не специально.",
+          "en": "Sorry, I didn't mean to."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем tried to call отличается от tried calling?",
+        "Почему в I didn't mean to остаётся to без глагола?",
+        "Когда говорят needs cleaning, а когда need to clean?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1950,6 +2454,60 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 202,
       "orderInCard": 2
+    },
+    {
+      "cardId": 623,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 85,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 623,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 253,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 623,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 218,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 624,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 139,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 624,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 101,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 624,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 203,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 625,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 234,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 625,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 225,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 625,
+      "exerciseType": "MATCHING",
+      "exerciseId": 107,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2008,6 +2566,30 @@
       "userInstruction": "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "gerund_card623_ex1",
+      "cardId": 623,
+      "title": "Бросил или остановился",
+      "userInstruction": "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "gerund_card624_ex1",
+      "cardId": 624,
+      "title": "Впереди или позади",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый глагол из скобок в подходящей форме.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card625_ex1",
+      "cardId": 625,
+      "title": "Что на самом деле сказано",
+      "userInstruction": "ИИ пришлёт одно английское предложение. Напишите по-русски, что оно означает.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -2098,6 +2680,14 @@
       "transcription": "[tuː kənˈtɪnjuː]",
       "microtopicId": 229,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 869,
+      "word": "by accident",
+      "translation": "случайно, нечаянно",
+      "transcription": "[baɪ ˈæksɪdənt]",
+      "microtopicId": 230,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -2163,6 +2753,37 @@
         }
       ],
       "explanation": "like, love, hate и prefer берут обе формы, поэтому первые три предложения верны. А вот enjoy обе формы не берёт — только enjoys fixing; и после prefer нельзя ставить голый глагол: нужно prefer walking или prefer to walk."
+    },
+    {
+      "id": 225,
+      "statements": [
+        {
+          "en": "My car needs washing.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Sorry, I didn't mean.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We regret to inform you about the delay.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I need cleaning my shoes before the party.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Nick meant to call you yesterday.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении фраза оборвана — нужно I didn't mean to. В четвёртом речь о том, что надо сделать человеку, значит I need to clean my shoes; форма needs cleaning говорит о вещи, которая требует ухода."
     }
   ],
   "word_arrangement_exercises": [
@@ -2200,6 +2821,22 @@
         "to coming"
       ],
       "explanation": "would like требует форму с to, а тот, кто будет действовать, встаёт прямо перед ней — без that и без предлога. Форма coming стоит после глаголов вроде mind, но не после would like."
+    },
+    {
+      "id": 203,
+      "situationRu": "Ситуация: Вика уходит из дома и просит соседа не забыть полить цветы.",
+      "correctSentence": "Don't forget to water the flowers.",
+      "words": [
+        "Don't forget",
+        "to water",
+        "the flowers"
+      ],
+      "distractors": [
+        "watering",
+        "to watering",
+        "water"
+      ],
+      "explanation": "напоминание всегда смотрит вперёд — цветы ещё не политы, поэтому нужна форма с to. Вариант watering сказал бы о воспоминании: «не забуду, как поливал»."
     }
   ],
   "multiple_choice_exercises": [
@@ -2370,6 +3007,69 @@
         }
       ],
       "explanation": "вежливое предложение строится через Would you like. После него здесь идёт просто существительное, никакого to не нужно — to появляется только перед глаголом: Would you like to join us?"
+    },
+    {
+      "id": 253,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Снег помешал им доехать до города.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The snow stopped them getting to the city.",
+          "isCorrect": true
+        },
+        {
+          "text": "The snow stopped them to get to the city.",
+          "isCorrect": false
+        },
+        {
+          "text": "The snow stopped that they got to the city.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "когда действие прекращает кто-то снаружи, тот, кому мешают, встаёт между stop и формой на -ing. Годится и вариант с from — stopped them from getting; а формы с to и с целой частью тут не работают."
+    },
+    {
+      "id": 101,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I remember locking the door.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я не забыл запереть дверь.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я помню, как запирал дверь.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мне надо не забыть запереть дверь.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "форма на -ing после remember говорит о воспоминании: действие уже было, и человек его помнит. «Не забыл запереть» прозвучало бы как I remembered to lock the door."
+    },
+    {
+      "id": 234,
+      "choiceType": "CHOICE",
+      "prompt": "Lena couldn't sleep, so she tried ___ some warm milk, and it worked.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "drinking",
+          "isCorrect": true
+        },
+        {
+          "text": "to drink",
+          "isCorrect": false
+        },
+        {
+          "text": "drink",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "молоко она выпила, и это помогло — значит речь о способе решить проблему, а не о попытке. Форма с to сказала бы, что она пыталась выпить молока и неизвестно, вышло ли."
     }
   ],
   "text_input_exercises": [
@@ -2554,6 +3254,33 @@
         }
       ],
       "explanation": "между «люблю» и «терпеть не могу» у английского есть середина, и самая ходовая её часть — don't mind: это спокойное «мне без разницы», а вовсе не «не нравится»."
+    },
+    {
+      "id": 107,
+      "taskDescription": "соедини английскую фразу с её смыслом.",
+      "pairs": [
+        {
+          "left": "I tried to fix it",
+          "right": "пытался починить, усилие"
+        },
+        {
+          "left": "Try turning it off",
+          "right": "попробуй такой способ"
+        },
+        {
+          "left": "I mean to help you",
+          "right": "намереваюсь помочь"
+        },
+        {
+          "left": "It means working late",
+          "right": "влечёт за собой"
+        },
+        {
+          "left": "The door needs painting",
+          "right": "дверь требует покраски"
+        }
+      ],
+      "explanation": "форма с to всегда про усилие или намерение самого человека, форма на -ing — про способ, последствие или про вещь, с которой надо что-то сделать."
     }
   ],
   "error_correction_exercises": [
@@ -2613,6 +3340,25 @@
         }
       ],
       "explanation": "are starting уже содержит -ing, поэтому второй глагол берёт to. Голый глагол после starting не годится, а are start ломает само время."
+    },
+    {
+      "id": 218,
+      "wrongSentence": "Ira stopped to eat sugar last winter.",
+      "options": [
+        {
+          "text": "Ira stopped eat sugar last winter.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ira stopped to eating sugar last winter.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ira stopped eating sugar last winter.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "речь о том, что человек перестал есть сахар, — значит сахар и есть прекращённое занятие, нужна форма на -ing. Вариант с to говорил бы, что зимой она притормозила ради того, чтобы поесть сахара."
     }
   ],
   "construction_meaning_exercises": [
@@ -2638,6 +3384,29 @@
         }
       ],
       "explanation": "deny + -ing значит «отрицать сделанное»: действие уже произошло, а человек это отрицает. Отказ что-то делать выглядел бы иначе — refused to fix, с формой на to."
+    },
+    {
+      "id": 85,
+      "construction": "Ben stopped to read the message.",
+      "options": [
+        {
+          "text": "Бен бросил читать сообщения.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бен перестал читать это сообщение.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бен остановился, чтобы прочитать сообщение.",
+          "isCorrect": true
+        },
+        {
+          "text": "Бен забыл прочитать сообщение.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "форма с to называет цель остановки: он прервал то, что делал, ради чтения. «Бросил читать» звучало бы как stopped reading — там чтение и есть прекращённое занятие."
     }
   ],
   "transformation_exercises": [
@@ -2707,6 +3476,29 @@
         }
       ],
       "explanation": "decide, promise и learn смотрят вперёд, на дело, которого ещё нет, — им нужен to. Avoid, practise и imagine работают с действием как с вещью: от неё уклоняются, её отрабатывают, её представляют."
+    },
+    {
+      "id": 139,
+      "taskDescription": "распредели фразы по тому, о чём идёт речь.",
+      "categories": [
+        {
+          "title": "Дело впереди",
+          "items": [
+            "Remember to pay the bill",
+            "Don't forget to book a table",
+            "Did you remember to text him?"
+          ]
+        },
+        {
+          "title": "Воспоминание о сделанном",
+          "items": [
+            "I remember paying the bill",
+            "I'll never forget meeting her",
+            "She remembers living in Dublin"
+          ]
+        }
+      ],
+      "explanation": "форма с to всегда смотрит вперёд: дело ещё не сделано, о нём напоминают. Форма на -ing смотрит назад, на то, что уже было, и означает воспоминание."
     }
   ],
   "find_the_odd_exercises": [
