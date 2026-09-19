@@ -23,6 +23,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
@@ -34,6 +35,7 @@ import dev.sethan8r.grammar.app.ui.theme.CardBackground
 import dev.sethan8r.grammar.app.ui.theme.Dimens
 import dev.sethan8r.grammar.app.ui.theme.Elevated
 import dev.sethan8r.grammar.app.ui.util.bottomScrim
+import dev.sethan8r.grammar.app.ui.util.topScrim
 
 /** Доля высоты полоски, на которой затемнение выходит на полную силу — как у скрима над навигацией. */
 private const val FadeSaturateAt = 0.8f
@@ -41,7 +43,12 @@ private const val FadeSaturateAt = 0.8f
 /**
  * Модальное окно со справочным содержимым произвольной длины: заголовок, прокручиваемое тело и
  * парящая над ним капсула закрытия. Тело — слот [content]: вызывающий кладёт туда готовый контент
- * из БД (блоки «Краткого правила» в сессии упражнений, текст описания темы).
+ * из БД. Сейчас единственный вызов — «Краткое правило» по кнопке «?» в сессии упражнений
+ * (`ExerciseSessionScreen`); описания тем показываются иначе, нижним снекбаром по кнопке «i».
+ *
+ * Заголовок — закреплённая шапка поверх тела, как на экранах приложения: тело отступает вниз на её
+ * известную высоту ([Dimens.dialogHeaderHeight]), поэтому в покое текст стоит под заголовком, а при
+ * прокрутке проезжает под ним и гасится тем же затемнением ([topScrim]).
  *
  * Тело скроллится, поэтому длинный текст виден целиком, а капсула всегда на месте: она прижата к
  * правому нижнему углу поверх текста, текст доходит до самого края окна и проезжает под ней, но в
@@ -76,59 +83,68 @@ fun InfoDialog(
             color = CardBackground,
             shape = RoundedCornerShape(Dimens.cornerCard),
         ) {
-            // Низ не заполняем: текст доходит до самого края окна и уходит под капсулу закрытия.
-            Column(
-                modifier = Modifier.padding(
-                    start = contentPadding,
-                    end = contentPadding,
-                    top = contentPadding,
-                ),
-            ) {
-                Text(
-                    text = title,
-                    color = Accent,
-                    fontSize = 22.sp,
-                    fontWeight = FontWeight.Bold,
-                )
+            // Края не заполняем: текст доходит до самого верха и низа окна — вверху проезжает под
+            // шапкой, внизу уходит под капсулу закрытия.
+            Box {
+                Column(
+                    modifier = Modifier
+                        .verticalScroll(scrollState)
+                        .padding(horizontal = contentPadding),
+                ) {
+                    // Тело начинается ПОД шапкой — тем же приёмом, каким списки экранов отступают
+                    // под закреплённую шапку: высота известна заранее, поэтому текст стоит на месте
+                    // с первого кадра.
+                    Spacer(modifier = Modifier.height(Dimens.dialogHeaderHeight))
+                    content()
+                    Spacer(modifier = Modifier.height(footerSpace))
+                }
 
                 Box(
                     modifier = Modifier
-                        .weight(weight = 1f, fill = false)
-                        .padding(top = Dimens.spaceLarge),
+                        .align(Alignment.TopStart)
+                        .fillMaxWidth()
+                        .height(Dimens.dialogHeaderHeight)
+                        .topScrim(color = CardBackground, alpha = Alphas.headerScrim)
+                        .padding(horizontal = contentPadding, vertical = Dimens.spaceLarge),
+                    contentAlignment = Alignment.BottomStart,
                 ) {
-                    Column(modifier = Modifier.verticalScroll(scrollState)) {
-                        content()
-                        Spacer(modifier = Modifier.height(footerSpace))
-                    }
-
-                    ScrollFade(
-                        visible = scrollState.canScrollForward,
-                        height = Dimens.dialogFadeHeight,
-                        modifier = Modifier.align(Alignment.BottomCenter),
+                    Text(
+                        text = title,
+                        color = Accent,
+                        fontSize = 22.sp,
+                        fontWeight = FontWeight.Bold,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
                     )
+                }
 
-                    HaloBox(
-                        shape = CircleShape,
+                ScrollFade(
+                    visible = scrollState.canScrollForward,
+                    height = Dimens.dialogFadeHeight,
+                    modifier = Modifier.align(Alignment.BottomCenter),
+                )
+
+                HaloBox(
+                    shape = CircleShape,
+                    modifier = Modifier
+                        .align(Alignment.BottomEnd)
+                        .padding(end = contentPadding, bottom = contentPadding),
+                ) {
+                    Row(
                         modifier = Modifier
-                            .align(Alignment.BottomEnd)
-                            .padding(bottom = contentPadding),
+                            .height(Dimens.dialogCloseHeight)
+                            .clip(CircleShape)
+                            .background(Elevated)
+                            .clickable(onClick = onDismiss)
+                            .padding(horizontal = Dimens.spaceXLarge),
+                        verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        Row(
-                            modifier = Modifier
-                                .height(Dimens.dialogCloseHeight)
-                                .clip(CircleShape)
-                                .background(Elevated)
-                                .clickable(onClick = onDismiss)
-                                .padding(horizontal = Dimens.spaceXLarge),
-                            verticalAlignment = Alignment.CenterVertically,
-                        ) {
-                            Text(
-                                text = confirmLabel,
-                                color = Accent,
-                                fontSize = 14.sp,
-                                fontWeight = FontWeight.SemiBold,
-                            )
-                        }
+                        Text(
+                            text = confirmLabel,
+                            color = Accent,
+                            fontSize = 14.sp,
+                            fontWeight = FontWeight.SemiBold,
+                        )
                     }
                 }
             }
@@ -137,8 +153,9 @@ fun InfoDialog(
 }
 
 /**
- * Полоска затемнения у нижнего края прокручиваемого тела: гасит уезжающий вниз текст и показывает,
- * что он продолжается. Появляется и исчезает плавно, вместе с возможностью прокрутки.
+ * Полоска затемнения у края прокручиваемого тела: гасит уезжающий текст и показывает, что он
+ * продолжается. У нижнего края ([atTop] = false) или у верхнего, под заголовком. Появляется и
+ * исчезает плавно, вместе с возможностью прокрутки в эту сторону.
  *
  * Отдельной функцией, а не блоком внутри диалога: в теле `Box` виден ещё и `ColumnScope` внешнего
  * столбца, и вызов `AnimatedVisibility` там разрешается в его перегрузку.
