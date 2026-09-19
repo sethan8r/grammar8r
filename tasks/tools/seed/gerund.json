@@ -39,6 +39,13 @@
       "title": "Stop & Remember · Смысл меняется от формы",
       "order": 4,
       "searchKeywords": "stopped smoking или stopped to smoke, remember to call или calling, попробуй открыть окно, my shoes need cleaning, помешать кому-то сделать"
+    },
+    {
+      "id": 231,
+      "topicId": 36,
+      "title": "Preposition + -ing · Предлог требует -ing",
+      "order": 5,
+      "searchKeywords": "good at swimming, looking forward to see you, почему после предлога ing, no smoking почему, how about meeting, sorry for being late"
     }
   ],
   "grammar_cards": [
@@ -2290,6 +2297,701 @@
         "Почему в I didn't mean to остаётся to без глагола?",
         "Когда говорят needs cleaning, а когда need to clean?"
       ]
+    },
+    {
+      "id": 626,
+      "microtopicId": 231,
+      "title": "После любого предлога — вещь, и никогда to + глагол",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Эта карточка — самая простая во всей теме, потому что правило вы уже знаете. Мы им пользовались трижды, просто не называли вслух."
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Linking Words» мы разбирали, что после связки стоит вещь, а не целая часть: **because of the rain** ✓. В условных предложениях то же самое: **in case of fire**. И только что, в «Составных предлогах»: **instead of the bus**. Правило звучало так: **справа от предлога стоит существительное**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь добавьте к нему одну строчку из вводной карточки — герундий и есть существительное, сделанное из глагола. Складываем два и получаем правило этой микротемы."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Предлог + `-ing` (но никогда `to` + глагол)"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Emma is good at swimming.** — хороша в плавании;",
+            "**He's interested in learning Spanish.** — интересуется изучением испанского;",
+            "**I'm tired of waiting.** — устал от ожидания;",
+            "**Thanks for coming.** — спасибо, что пришли."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У этого правила **нет исключений вообще**. В английском такое редкость, поэтому запомните его как подарок: увидели предлог — справа от него либо существительное, либо форма на `-ing`. Третьего не бывает."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Good at to swim** ✗ · **interested in learn** ✗ · **instead of to go** ✗. Все три ошибки — одна и та же: после предлога поставили глагол, а туда идёт вещь."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Глагол со своим предлогом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Половина живых случаев выглядит именно так. В теме «Глагол и прилагательное + предлог» мы учили, что у многих глаголов есть свой намертво приклеенный предлог: `think about`, `worry about`, `insist on`, `dream of`, `succeed in`. Пара выучена — остаётся вспомнить, что справа от предлога встаёт `-ing`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Vika is thinking about moving to Lisbon.** — думает о переезде;",
+            "**Stop worrying about being late.** — хватит переживать из-за опоздания;",
+            "**He insisted on paying for everyone.** — настоял на том, чтобы заплатить за всех;",
+            "**She succeeded in finding a cheap flat.** — сумела найти дешёвую квартиру."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Think about to move** ✗ → **think about moving** ✓. Предлог `about` не превращается в частицу оттого, что за ним стоит действие."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Способ и его отсутствие: by и without"
+        },
+        {
+          "type": "paragraph",
+          "text": "Две связки, которые русский строит совсем иначе, поэтому сам их не соберёт."
+        },
+        {
+          "type": "paragraph",
+          "text": "`by + -ing` отвечает на вопрос «как именно, каким способом»: **You can improve your English by reading every day** · **He got the job by asking directly**. По-русски мы скажем «читая» или «путём чтения» — прямого двойника у формы нет, поэтому связку берём целиком."
+        },
+        {
+          "type": "paragraph",
+          "text": "`without + -ing` — это наше «не + деепричастие»: **He left without saying a word** (не сказав ни слова) · **She fixed the printer without asking anyone** (никого не спросив). Тут, наоборот, совпадение почти идеальное — достаточно один раз увидеть."
+        },
+        {
+          "type": "heading",
+          "text": "Сокращаем целую часть: before, after, while"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вместо придаточного с подлежащим англичанин часто берёт предлог и `-ing` — короче и живее:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Before I left** = **Before leaving, I locked the door.**;",
+            "**After she finished work** = **After finishing work, she went to the gym.**;",
+            "**While I was waiting** = **While waiting, I read half a book.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У такого сокращения есть жёсткое условие — действие в обеих половинах делает **один и тот же человек**. **After finishing the report, my boss called me** ✗ означает, что отчёт закончил босс. Если деятели разные, сокращать нельзя: **After I finished the report, my boss called me** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где for, а где to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тут правило легко переобобщить, поэтому сразу границу. `for` + `-ing` называет **назначение вещи** — для чего она нужна: **This app is for learning words** · **a knife for cutting bread**. А **цель человека** — по-прежнему `to` + глагол: **I came here to learn English** · **I went to the shop to buy milk**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «для» тянет в обе стороны одинаково, отсюда **I came here for learning English** ✗. Проверка простая: речь о вещи и её назначении → `for + -ing`; речь о человеке и о том, зачем он это сделал → `to` + глагол."
+        },
+        {
+          "type": "heading",
+          "text": "Две вещи подряд: a swimming pool"
+        },
+        {
+          "type": "paragraph",
+          "text": "То же назначение умеет сжиматься до двух слов: герундий встаёт прямо перед существительным и говорит, для чего эта вещь. **a swimming pool** (бассейн для плавания) · **a washing machine** (машина для стирки) · **a waiting room** · **running shoes**. Артикль у всей пары один, а ударение падает на первое слово."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Не путайте с ними прилагательные на `-ing`**: **The film is boring** — фильм скучный, а не «фильм скучает». Это уже другая порода слов, и её разберём в «Дополнительных конструкциях»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После любого предлога стоит вещь: существительное или форма на `-ing`. Исключений нет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`предлог + -ing`: **good at swimming** · **tired of waiting** · **thanks for coming**",
+            "Глагол со своим предлогом — то же самое: **think about moving** · **insist on paying**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**good at to swim** ✗ · **interested in learn** ✗ · **think about to move** ✗ → после предлога только `-ing`"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Способ и его отсутствие"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`by + -ing` — как именно: **He got the job by asking directly**",
+            "`without + -ing` — наше «не + деепричастие»: **He left without saying a word**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сокращение с before, after, while"
+        },
+        {
+          "type": "paragraph",
+          "text": "Можно, только если в обеих половинах действует один и тот же человек: **Before leaving, I locked the door** ✓ · **After finishing the report, my boss called me** ✗"
+        },
+        {
+          "type": "heading",
+          "text": "Где for, а где to"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Назначение вещи → `for + -ing`: **a knife for cutting bread**",
+            "Цель человека → `to` + глагол: **I came here to learn English**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Эмма хорошо плавает.",
+          "en": "Emma is good at swimming."
+        },
+        {
+          "ru": "Вика думает о переезде в Лиссабон.",
+          "en": "Vika is thinking about moving to Lisbon."
+        },
+        {
+          "ru": "Он ушёл, не сказав ни слова.",
+          "en": "He left without saying a word."
+        },
+        {
+          "ru": "Перед уходом я запер дверь.",
+          "en": "Before leaving, I locked the door."
+        },
+        {
+          "ru": "Это приложение — для изучения слов.",
+          "en": "This app is for learning words."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после предлога нельзя поставить to и глагол?",
+        "Как отличить назначение вещи от цели человека?",
+        "Когда можно сокращать часть с before и after, а когда нельзя?"
+      ]
+    },
+    {
+      "id": 627,
+      "microtopicId": 231,
+      "title": "Главная ловушка темы: looking forward to seeing",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Теперь самая знаменитая ошибка всей темы, и делают её даже те, кто правило из прошлой карточки знает назубок."
+        },
+        {
+          "type": "paragraph",
+          "text": "**I'm looking forward to seeing you.** ✓ — жду не дождусь встречи."
+        },
+        {
+          "type": "paragraph",
+          "text": "**I'm looking forward to see you.** ✗ — так написать хочется, но нельзя."
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина не в том, что конструкция капризная или исключительная. Причина в маленьком слове `to`, у которого, как мы разбирали во вводной карточке, **две разные работы**. В `I want to go` это частица инфинитива, и после неё стоит голый глагол. А в `look forward to` это **обычный предлог**, такой же, как `at` в `good at` или `about` в `think about`. Значит работает правило предыдущей карточки, и справа встаёт вещь."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка, которая работает всегда: подставь существительное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот инструмент, который стоит забрать с собой на всю жизнь. Если сомневаетесь, что за `to` перед вами, попробуйте поставить после него обычное существительное:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm looking forward to the trip.** ✓ — звучит нормально → значит `to` здесь предлог → значит нужен `-ing`;",
+            "**I want the trip.** — предложение возможно, но означает совсем другое («хочу поездку», а не «хочу поехать») → значит в **I want to go** это частица, и после неё голый глагол."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка занимает секунду и не требует помнить списки."
+        },
+        {
+          "type": "heading",
+          "text": "Та же порода"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё несколько связок, где `to` — предлог, а не частица: **object to**, **in addition to** (мы только что прошли её в «Составных предлогах»), **be used to** и **get used to**. Во всех справа стоит `-ing`: **in addition to working**, **I object to paying twice**."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вот здесь проверка «подставь существительное» может сломать уже выученное, поэтому разведём пару прямо сейчас. **I used to go there** — «раньше ходил»: тут `to` частица, после неё голый глагол. **I'm used to going there** — «привык ходить»: тут `to` предлог, после него `-ing`. Конструкции различаются одним словом `be`, а формы после них разные. Механику `be used to` разбирать не будем — её дом «Дополнительные конструкции»; пока достаточно видеть, что это две разные вещи."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Концовка письма, которую вы уже видели"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Смотреть, слушать и понимать» нам встречалась дежурная фраза из деловой переписки: **I look forward to hearing from you** — «жду вашего ответа». Тогда мы взяли её целиком, пообещав объяснить `-ing` позже. Вот объяснение: `to` там предлог, и проверка это подтверждает — **I look forward to your reply** ✓ звучит совершенно нормально."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У этой фразы есть разница в тоне, о которой мало кто говорит. **I look forward to hearing from you** — письменная, официальная форма, ею заканчивают деловые письма. **I'm looking forward to seeing you** — живая, разговорная, для друзей и коллег. Смысл один, а перепутать регистр легко: в официальном письме форма с Continuous прозвучит панибратски."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "**I'm looking forward to seeing you** ✓ / **to see you** ✗ — потому что `to` здесь **предлог**, а не частица инфинитива."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Подставь существительное: **looking forward to the trip** ✓ звучит нормально → значит предлог → нужен `-ing`."
+        },
+        {
+          "type": "heading",
+          "text": "Та же порода"
+        },
+        {
+          "type": "paragraph",
+          "text": "`object to`, `in addition to`, `be used to`, `get used to` — везде справа `-ing`: **in addition to working**"
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I used to go there** — «раньше ходил», `to` частица, дальше голый глагол",
+            "**I'm used to going there** — «привык», `to` предлог, дальше `-ing`"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Тон"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I look forward to hearing from you** — письменная, официальная концовка",
+            "**I'm looking forward to seeing you** — живая, разговорная"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Жду не дождусь встречи с тобой в субботу.",
+          "en": "I'm looking forward to seeing you on Saturday."
+        },
+        {
+          "ru": "Жду вашего ответа.",
+          "en": "I look forward to hearing from you."
+        },
+        {
+          "ru": "Мы ждём не дождёмся поездки.",
+          "en": "We're looking forward to the trip."
+        },
+        {
+          "ru": "Раньше Гриша ходил в этот спортзал.",
+          "en": "Grisha used to go to that gym."
+        },
+        {
+          "ru": "Теперь он привык вставать в шесть.",
+          "en": "Now he's used to getting up at six."
+        }
+      ],
+      "clarificationOptions": [
+        "Как проверить, предлог передо мной или частица?",
+        "Чем used to go отличается от be used to going?",
+        "Почему в письме лучше I look forward, а не I'm looking forward?"
+      ]
+    },
+    {
+      "id": 628,
+      "microtopicId": 231,
+      "title": "Таблички и вежливые формулы",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Правило про предлог работает не только в длинных фразах. На нём держится половина всего, что написано на табличках и сказано из вежливости, — и теперь эти фразы станут понятными изнутри."
+        },
+        {
+          "type": "heading",
+          "text": "No smoking: почему не No smoke"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Императиве» мы разбирали таблички **No smoking** · **No parking** · **No entry** и ловушку **No smoke** ✗. Теперь понятно, откуда она берётся."
+        },
+        {
+          "type": "paragraph",
+          "text": "`No` требует справа **название** — вещь, которую запрещают. Запретить можно только то, что названо: `entry` — существительное «вход», и оно годится как есть. А вот у глагола `smoke` название приходится сделать, и делается оно хвостиком: `smoking` — «курение». Если оставить голый `smoke`, получится существительное «дым», и табличка пообещает, что дыма нет."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`No` + название действия с `-ing`"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Спасибо и извинения"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самые частые вежливые фразы английского устроены одинаково: предлог плюс `-ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Thanks for coming.** — спасибо, что пришли;",
+            "**Sorry for being late.** — извини за опоздание;",
+            "**Sorry about keeping you waiting.** — прости, что заставил ждать;",
+            "**Thank you for waiting.** — спасибо за ожидание."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание, что предлог тут одинаково спокойно держит и обычную вещь, и действие-вещь: **Thanks for the coffee** ↔ **Thanks for making coffee**. Клетка одна и та же, меняется только то, что мы в неё кладём. Никакой новой конструкции учить не надо."
+        },
+        {
+          "type": "heading",
+          "text": "How about …? — предложить что-нибудь"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ходовейший способ позвать или предложить, и он тоже держится на предлоге: `about` — предлог, значит справа `-ing`."
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Ben",
+              "text": "We need to talk about the project."
+            },
+            {
+              "speaker": "Me",
+              "text": "How about meeting at seven?"
+            },
+            {
+              "speaker": "Ben",
+              "text": "Works for me."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Так предлагают время, место и занятие: **How about going to the park?** · **What about ordering a pizza?** Разницу между `How about` и `What about` разберём отдельно в теме «Социальное взаимодействие» — сейчас нам важна форма."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**How about to meet at seven?** ✗ — знакомая беда: `about` приняли за частицу. Верно только **How about meeting** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Таблички и вежливые фразы держатся на том же правиле: предлог или `No` — и справа название действия с `-ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**No smoking** ✓ · **No smoke** ✗ — без `-ing` это существительное «дым»",
+            "**Thanks for coming** · **Sorry for being late** · **Sorry about keeping you waiting**",
+            "**Thanks for the coffee** ↔ **Thanks for making coffee** — предлог держит и вещь, и действие-вещь"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Предложить"
+        },
+        {
+          "type": "paragraph",
+          "text": "**How about meeting at seven?** ✓ · **What about ordering a pizza?** ✓"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How about to meet** ✗ — `about` предлог, а не частица"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "На заправке курить запрещено.",
+          "en": "No smoking at the petrol station."
+        },
+        {
+          "ru": "Спасибо, что пришли так рано.",
+          "en": "Thanks for coming so early."
+        },
+        {
+          "ru": "Извини, что заставил тебя ждать.",
+          "en": "Sorry about keeping you waiting."
+        },
+        {
+          "ru": "Может, встретимся в семь?",
+          "en": "How about meeting at seven?"
+        },
+        {
+          "ru": "Может, закажем пиццу?",
+          "en": "What about ordering a pizza?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему на табличке No smoking, а не No smoke?",
+        "Чем Thanks for coming отличается от Thanks for the coffee?",
+        "Можно ли сказать How about we meet at seven?"
+      ]
+    },
+    {
+      "id": 629,
+      "microtopicId": 231,
+      "title": "being — герундий от глагола to be",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Остался один глагол, на котором спотыкаются даже те, кто правило усвоил. Это `to be` — и никакого особого правила у него нет, в чём мы сейчас и убедимся."
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма `being` вам уже попадалась дважды. В теме про глагол `get` было **You're being silly** — «ведёшь себя глупо прямо сейчас». В базовом пассиве — **The car is being repaired** — «машину как раз чинят». В обоих случаях `being` стояло **внутри сказуемого**, вместе с `am/is/are`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь у формы третья работа, и она проще двух первых: `being` — это просто `-ing` от `to be`, вставший туда, где по правилу нужна вещь."
+        },
+        {
+          "type": "heading",
+          "text": "После предлога"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Sorry for being late.** — извини за опоздание;",
+            "**I'm tired of being alone.** — устал быть один;",
+            "**Thanks for being here.** — спасибо, что ты здесь;",
+            "**He's afraid of being wrong.** — боится ошибаться;",
+            "**Instead of being angry, she just laughed.** — вместо того чтобы злиться, она просто засмеялась."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "После глаголов из нашего списка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I don't mind being alone.** — не против побыть одному;",
+            "**Try to avoid being rude.** — старайся не грубить;",
+            "**I enjoy being outside in autumn.** — люблю бывать на улице осенью."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему это стоит отдельной карточки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Потому что русский на этом месте ставит совсем другое. Мы говорим «извини **за опоздание**» — существительным, или «извини, **что я опоздал**» — целой частью. Ни того, ни другого английский здесь не просит, и рождаются две типовые кальки."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Sorry for be late** ✗ — поставили голый глагол, потому что «за опоздание» одним словом не переводится. И второй вариант той же беды — громоздкое **sorry that I am late**: фраза не сломана грамматически, но звучит тяжело, так носители не говорят. Верно и коротко: **sorry for being late** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Иногда встречается `being` с третьей формой глагола: **I hate being told what to do** («терпеть не могу, когда мне указывают»), **He avoided being seen** («старался, чтобы его не заметили»). Устроено это так же, просто внутри спрятан пассив. Сейчас достаточно узнавать такие фразы в лицо — полный разбор ждёт в теме «Passive (продвинутый)»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`being` — это `-ing` от `to be`. Никакого особого правила у него нет: встаёт туда же, где нужна вещь."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "После предлога: **Sorry for being late** · **tired of being alone** · **afraid of being wrong**",
+            "После глаголов списка: **I don't mind being alone** · **avoid being rude**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**sorry for be late** ✗ → **sorry for being late** ✓",
+            "**sorry that I am late** — не ошибка, но тяжело; носители говорят короче"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I hate being told what to do** — та же форма, внутри пассив; пока только на узнавание."
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Извини за опоздание.",
+          "en": "Sorry for being late."
+        },
+        {
+          "ru": "Я устал быть один.",
+          "en": "I'm tired of being alone."
+        },
+        {
+          "ru": "Вместо того чтобы злиться, Юля просто засмеялась.",
+          "en": "Instead of being angry, Yulya just laughed."
+        },
+        {
+          "ru": "Я не против побыть одному вечером.",
+          "en": "I don't mind being alone in the evening."
+        },
+        {
+          "ru": "Он боится ошибаться.",
+          "en": "He's afraid of being wrong."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем being после предлога отличается от is being в пассиве?",
+        "Почему нельзя сказать sorry for be late?",
+        "Что значит I hate being told what to do?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2508,6 +3210,78 @@
       "exerciseType": "MATCHING",
       "exerciseId": 107,
       "orderInCard": 2
+    },
+    {
+      "cardId": 626,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 235,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 626,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 117,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 626,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 219,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 627,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 254,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 627,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 226,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 627,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 86,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 628,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 93,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 628,
+      "exerciseType": "MATCHING",
+      "exerciseId": 108,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 628,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 204,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 629,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 99,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 629,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 120,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 629,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 102,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2589,6 +3363,38 @@
       "title": "Что на самом деле сказано",
       "userInstruction": "ИИ пришлёт одно английское предложение. Напишите по-русски, что оно означает.",
       "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card626_ex1",
+      "cardId": 626,
+      "title": "Что стоит после предлога",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый глагол из скобок в нужной форме.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card627_ex1",
+      "cardId": 627,
+      "title": "Предлог или частица",
+      "userInstruction": "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "gerund_card628_ex1",
+      "cardId": 628,
+      "title": "Скажи вежливо",
+      "userInstruction": "ИИ опишет ситуацию. Напишите подходящую английскую фразу одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card629_ex1",
+      "cardId": 629,
+      "title": "Скажи это короче",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую форму.",
+      "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     }
   ],
@@ -2688,6 +3494,46 @@
       "transcription": "[baɪ ˈæksɪdənt]",
       "microtopicId": 230,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 870,
+      "word": "without",
+      "translation": "без, не делая чего-то",
+      "transcription": "[wɪˈðaʊt]",
+      "microtopicId": 231,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 871,
+      "word": "look forward to",
+      "translation": "ждать с нетерпением, предвкушать",
+      "transcription": "[lʊk ˈfɔːwəd tuː]",
+      "microtopicId": 231,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 872,
+      "word": "to insist",
+      "translation": "настаивать",
+      "transcription": "[tuː ɪnˈsɪst]",
+      "microtopicId": 231,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 873,
+      "word": "to succeed",
+      "translation": "суметь, добиться успеха",
+      "transcription": "[tuː səkˈsiːd]",
+      "microtopicId": 231,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 874,
+      "word": "entry",
+      "translation": "вход, проход",
+      "transcription": "[ˈentri]",
+      "microtopicId": 231,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -2784,6 +3630,37 @@
         }
       ],
       "explanation": "во втором предложении фраза оборвана — нужно I didn't mean to. В четвёртом речь о том, что надо сделать человеку, значит I need to clean my shoes; форма needs cleaning говорит о вещи, которая требует ухода."
+    },
+    {
+      "id": 226,
+      "statements": [
+        {
+          "en": "We're looking forward to the weekend.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She's used to working at night.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I'm looking forward to meet your family.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Ben used to living in Dublin.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "In addition to working, he studies at night.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в третьем нужно to meeting: to там предлог. В четвёртом наоборот — used to без be означает «раньше жил», и после него идёт голый глагол: Ben used to live in Dublin."
     }
   ],
   "word_arrangement_exercises": [
@@ -2837,6 +3714,24 @@
         "water"
       ],
       "explanation": "напоминание всегда смотрит вперёд — цветы ещё не политы, поэтому нужна форма с to. Вариант watering сказал бы о воспоминании: «не забуду, как поливал»."
+    },
+    {
+      "id": 204,
+      "situationRu": "Ситуация: Лена благодарит коллегу за то, что тот сделал для всех кофе.",
+      "correctSentence": "Thanks for making coffee for everyone.",
+      "words": [
+        "Thanks",
+        "for",
+        "making",
+        "coffee for everyone"
+      ],
+      "distractors": [
+        "to make",
+        "for to make",
+        "make",
+        "for made"
+      ],
+      "explanation": "после предлога for стоит название действия — making. Форма с to сюда не встаёт ни в каком виде, а два предлога подряд английский не ставит."
     }
   ],
   "multiple_choice_exercises": [
@@ -3070,6 +3965,69 @@
         }
       ],
       "explanation": "молоко она выпила, и это помогло — значит речь о способе решить проблему, а не о попытке. Форма с to сказала бы, что она пыталась выпить молока и неизвестно, вышло ли."
+    },
+    {
+      "id": 235,
+      "choiceType": "CHOICE",
+      "prompt": "Nick is thinking about ___ his car.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "to sell",
+          "isCorrect": false
+        },
+        {
+          "text": "sell",
+          "isCorrect": false
+        },
+        {
+          "text": "selling",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "about — предлог, а справа от предлога стоит вещь, то есть форма на -ing. То, что у глагола think предлог приклеен намертво, правила не меняет."
+    },
+    {
+      "id": 254,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Жду не дождусь, когда получу твоё письмо.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I'm looking forward to get your letter.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm looking forward for getting your letter.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm looking forward to getting your letter.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "в look forward to слово to — предлог, поэтому справа встаёт форма на -ing. Проверить легко: looking forward to your letter звучит нормально, а значит перед нами предлог."
+    },
+    {
+      "id": 102,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I don't mind being alone.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я спокойно отношусь к тому, чтобы побыть одному.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мне одиноко, и я против этого.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не могу оставаться один.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "mind значит «быть против», поэтому don't mind — это спокойное «я не против». Being alone здесь название состояния, к которому человек относится нормально."
     }
   ],
   "text_input_exercises": [
@@ -3131,6 +4089,36 @@
         "что ты опаздываешь",
         "не пришёл",
         "не прочитала"
+      ]
+    },
+    {
+      "id": 117,
+      "items": [
+        {
+          "sentence": "She improved her English by ___ every day.",
+          "contextRu": "",
+          "answer": "reading",
+          "alternatives": []
+        },
+        {
+          "sentence": "He left the office without ___ anyone.",
+          "contextRu": "",
+          "answer": "asking",
+          "alternatives": []
+        },
+        {
+          "sentence": "I'm tired of ___ for the bus.",
+          "contextRu": "",
+          "answer": "waiting",
+          "alternatives": []
+        }
+      ],
+      "explanation": "by, without и of — предлоги, поэтому глагол после них получает -ing. By называет способ, without — то, чего человек не сделал, а of присоединяется к tired намертво.",
+      "taskDescription": "Впиши подходящий по смыслу пункт из банка в нужной форме.",
+      "wordBank": [
+        "спрашивать",
+        "читать",
+        "ждать"
       ]
     }
   ],
@@ -3198,6 +4186,38 @@
         }
       ],
       "explanation": "в коротком согласии английский оставляет голый to и не повторяет глагол. Без to фраза звучит оборванной, а Yes, I like говорит о привычке вообще, а не о согласии на конкретное приглашение."
+    },
+    {
+      "id": 93,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm too tired to cook tonight."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Good idea, I'll get my phone."
+        }
+      ],
+      "options": [
+        {
+          "text": "How about ordering a pizza?",
+          "isCorrect": true
+        },
+        {
+          "text": "How about to order a pizza?",
+          "isCorrect": false
+        },
+        {
+          "text": "How about we ordering a pizza?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "about — предлог, поэтому справа от него стоит форма на -ing. Вариант с to повторяет русское «может, заказать», но по-английски так не говорят."
     }
   ],
   "matching_exercises": [
@@ -3281,6 +4301,33 @@
         }
       ],
       "explanation": "форма с to всегда про усилие или намерение самого человека, форма на -ing — про способ, последствие или про вещь, с которой надо что-то сделать."
+    },
+    {
+      "id": 108,
+      "taskDescription": "соедини английскую фразу с ситуацией, в которой её говорят.",
+      "pairs": [
+        {
+          "left": "Thanks for coming",
+          "right": "гости пришли к вам домой"
+        },
+        {
+          "left": "Sorry for being late",
+          "right": "вы опоздали на встречу"
+        },
+        {
+          "left": "Sorry about keeping you waiting",
+          "right": "человек ждал вас в коридоре"
+        },
+        {
+          "left": "No parking",
+          "right": "знак у ворот"
+        },
+        {
+          "left": "How about meeting at seven?",
+          "right": "предлагаете время"
+        }
+      ],
+      "explanation": "во всех фразах работает одно правило: слева предлог или No, справа — название действия с -ing. Меняется только ситуация, а конструкция везде одна."
     }
   ],
   "error_correction_exercises": [
@@ -3359,6 +4406,25 @@
         }
       ],
       "explanation": "речь о том, что человек перестал есть сахар, — значит сахар и есть прекращённое занятие, нужна форма на -ing. Вариант с to говорил бы, что зимой она притормозила ради того, чтобы поесть сахара."
+    },
+    {
+      "id": 219,
+      "wrongSentence": "After finishing the report, my boss called me.",
+      "options": [
+        {
+          "text": "After to finish the report, my boss called me.",
+          "isCorrect": false
+        },
+        {
+          "text": "After I finished the report, my boss called me.",
+          "isCorrect": true
+        },
+        {
+          "text": "After finish the report, my boss called me.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "сокращать целую часть можно, только когда в обеих половинах действует один человек. Здесь отчёт заканчивал я, а звонил босс, поэтому нужна полная часть с подлежащим."
     }
   ],
   "construction_meaning_exercises": [
@@ -3407,6 +4473,29 @@
         }
       ],
       "explanation": "форма с to называет цель остановки: он прервал то, что делал, ради чтения. «Бросил читать» звучало бы как stopped reading — там чтение и есть прекращённое занятие."
+    },
+    {
+      "id": 86,
+      "construction": "She's used to getting up early.",
+      "options": [
+        {
+          "text": "Она раньше вставала рано.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она привыкла вставать рано.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ей надо начать вставать рано.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она хотела бы вставать рано.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "конструкция с be означает привычку, которая уже сложилась: человек привык. Без be — used to get up — фраза говорила бы о прошлом: «раньше вставала рано, а теперь нет»."
     }
   ],
   "transformation_exercises": [
@@ -3428,6 +4517,25 @@
         }
       ],
       "explanation": "вопрос собирает первый глагол — он и уходит вперёд, отдавая своё время помощнику. Герундий при этом не меняется вообще: eating, working и taking остаются как были."
+    },
+    {
+      "id": 99,
+      "taskDescription": "перепиши каждое предложение короче, через форму на -ing.",
+      "items": [
+        {
+          "original": "Sorry that I am late.",
+          "transformed": "Sorry for being late."
+        },
+        {
+          "original": "Thanks that you are here.",
+          "transformed": "Thanks for being here."
+        },
+        {
+          "original": "He is afraid that he is wrong.",
+          "transformed": "He is afraid of being wrong."
+        }
+      ],
+      "explanation": "вместо целой части с подлежащим англичанин берёт предлог и форму being — короче и естественнее. Смысл при этом не меняется."
     }
   ],
   "categorization_exercises": [
@@ -3547,6 +4655,29 @@
         }
       ],
       "explanation": "start, begin и continue одинаково спокойно принимают и -ing, и форму с to. Avoid выбора не даёт: после него стоит только название действия — avoid talking, avoid driving."
+    },
+    {
+      "id": 120,
+      "groupDescription": "В трёх фразах being стоит после предлога, а в одной — внутри сказуемого",
+      "items": [
+        {
+          "text": "tired of being alone",
+          "isOdd": false
+        },
+        {
+          "text": "sorry for being late",
+          "isOdd": false
+        },
+        {
+          "text": "the car is being repaired",
+          "isOdd": true
+        },
+        {
+          "text": "afraid of being wrong",
+          "isOdd": false
+        }
+      ],
+      "explanation": "в трёх фразах слева стоит предлог, и being работает как вещь. А is being repaired — это сказуемое целиком, там being часть времени, а не самостоятельная форма."
     }
   ]
 }
