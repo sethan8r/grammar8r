@@ -18,6 +18,13 @@
       "title": "Compound Prepositions · Связка, которая работает одним предлогом",
       "order": 1,
       "searchKeywords": "because of или because, зачем of на конце, почему нельзя переводить по словам, in front the house ошибка"
+    },
+    {
+      "id": 222,
+      "topicId": 35,
+      "title": "Place · Где что стоит",
+      "order": 2,
+      "searchKeywords": "поверх или просто на, напротив по-английски, посередине комнаты, перед или до, впереди в очереди"
     }
   ],
   "grammar_cards": [
@@ -318,6 +325,425 @@
         "Как тогда сказать «по-моему», если according to me нельзя?",
         "Зачем английскому четыре слова там, где русскому хватает одного «кроме»?"
       ]
+    },
+    {
+      "id": 603,
+      "microtopicId": 222,
+      "title": "Поверх, напротив, посередине",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Место — то, ради чего составные предлоги приходится учить в первую очередь. Одиночных предлогов на все положения в пространстве не хватает: `in`, `on`, `at` говорят «где-то там», а человеку нужно точнее — поверх, напротив, посередине, впереди. Всё это английский собирает связками."
+        },
+        {
+          "type": "paragraph",
+          "text": "Часть из них у нас уже есть. **in front of** и **behind**, **next to** и **near**, **between** и **among**, **beside** — это всё из «Основ», и это та же самая порода: связка из нескольких слов на месте одного предлога. **far from** мы разбирали в «Наречиях». Разбирать их заново не будем — просто теперь понятно, почему они устроены именно так."
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот дальше начинается то, чего в курсе не было."
+        },
+        {
+          "type": "heading",
+          "text": "Сцена первая: кухня"
+        },
+        {
+          "type": "paragraph",
+          "text": "Представьте свою кухню. На холодильнике сверху лежит коробка с чаем, посреди комнаты стоит стол, а в глубине шкафа спрятана банка с вареньем."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The tea box is on top of the fridge.** — поверх, в самой верхней точке",
+            "**There is a big table in the middle of the room.** — посередине, не у стены",
+            "**The jam is at the back of the cupboard.** — в глубине, у задней стенки"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`on top of` — не просто «на». Русское «на» английский чаще отдаёт обычному `on`: **The book is on the table** — книга лежит на столе, и ничего особенного в этом нет. А `on top of` говорит «сверху, поверх, в самой верхней точке» — там, где важно, что предмет оказался НАД чем-то, часто поверх другого предмета."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The book is on top of the table** звучит странно — как будто книгу водрузили на вершину стола. Обычное положение на поверхности — это **The book is on the table** ✓. Берите `on top of`, когда предмет лежит ПОВЕРХ другого: **on top of the fridge**, **on top of the pile**, **on top of the box**."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Той же породы пара `at the top of` и `at the bottom of` — наверху и внизу чего-то, у чего есть верх и низ: **at the top of the page**, **at the bottom of the stairs**, **at the top of the list**."
+        },
+        {
+          "type": "heading",
+          "text": "Сцена вторая: улица"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь выйдем из дома. Напротив аптека, отель совсем рядом с вокзалом, а впереди на дороге три машины."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The pharmacy is opposite the school.** — напротив, лицом к лицу через дорогу",
+            "**The hotel is very close to the station.** — близко к, рукой подать",
+            "**There are three cars ahead of us.** — впереди нас по движению"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`opposite` и `in front of` русский легко путает, потому что оба ложатся на «перед» и «напротив». Разница простая: `in front of` — предмет перед другим, лицом к его передней стороне; `opposite` — по другую сторону, через дорогу, стол или проход. **I sat opposite Emma at dinner** ✓ — мы смотрели друг на друга через стол."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У американцев вместо `opposite` чаще звучит `across from`: **The bank is across from the park**. Смысл тот же, и знать это стоит, чтобы узнавать в речи и в сериалах."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`close to` — «близко к». Соседнее `near` значит примерно то же, и в большинстве фраз они взаимозаменяемы. Но у `close to` есть то, чего нет у `near`: оно свободно работает не только про место — **We are close to the truth**, **She was close to tears**."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Все новые связки — `on top of`, `at the top of` и `at the bottom of`, `in the middle of`, `at the back of`, `opposite`, `close to`, `ahead of` — устроены одинаково и требуют справа от себя вещь. Правило старое, слова новые."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Связки места, которых не было в «Основах»: **on top of** (поверх), **in the middle of** (посередине), **opposite** (напротив), **close to** (близко к), **ahead of** (впереди), **at the back of** (в глубине), **at the top of** / **at the bottom of** (наверху / внизу)."
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**on the table** — просто на поверхности; **on top of the fridge** — поверх, в самой верхней точке",
+            "**in front of the school** — перед школой, лицом к ней; **opposite the school** — через дорогу от неё",
+            "**close to** = **near**, но только `close to` умеет не про место: **close to the truth**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**in middle of the room** ✗ → **in the middle of the room** ✓ — артикль внутри связки на месте всегда",
+            "**close of the station** ✗ → **close to the station** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Коробка с чаем стоит поверх холодильника.",
+          "en": "The tea box is on top of the fridge."
+        },
+        {
+          "ru": "Аптека напротив школы.",
+          "en": "The pharmacy is opposite the school."
+        },
+        {
+          "ru": "Посреди комнаты стоит большой стол.",
+          "en": "There is a big table in the middle of the room."
+        },
+        {
+          "ru": "Отель очень близко к вокзалу.",
+          "en": "The hotel is very close to the station."
+        },
+        {
+          "ru": "Впереди нас три машины.",
+          "en": "There are three cars ahead of us."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем on top of отличается от обычного on?",
+        "Когда нужно opposite, а когда in front of?",
+        "Есть ли разница между near и close to?"
+      ]
+    },
+    {
+      "id": 604,
+      "microtopicId": 222,
+      "title": "Перед домом и перед ужином — два разных «перед»",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русское «перед» делает сразу две работы, и мы этого не замечаем. «Перед домом» — это место: дом там, а мы вот здесь, впереди него. «Перед ужином» — это время: сначала одно, потом другое. Одно слово, два совершенно разных смысла."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский эти смыслы разводит по двум разным словам, и перепутать их — значит сказать не то, что хотел."
+        },
+        {
+          "type": "heading",
+          "text": "Место — in front of"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всё, что можно показать рукой, — это `in front of`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There is a white van in front of the house.** — фургон стоит перед домом",
+            "**A tall guy was sitting in front of me at the cinema.** — парень сидел впереди меня, я смотрел ему в затылок"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Время и порядок — before"
+        },
+        {
+          "type": "paragraph",
+          "text": "Всё, что происходит раньше чего-то другого, — это `before`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Let's meet before the concert.** — сначала встреча, потом концерт",
+            "**She left before me.** — она ушла раньше меня"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**A tall guy was sitting before me at the cinema** ✗ — собеседник поймёт это как «он сидел там до меня, раньше, чем пришёл я». Про место `before` не говорит вообще. И наоборот: **Let's meet in front of the concert** ✗ звучит так, будто концерт — это здание, перед которым назначена встреча."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка занимает секунду. Спросите себя: **это можно показать пальцем?** Да — `in front of`. Нет, это про «раньше» — `before`."
+        },
+        {
+          "type": "heading",
+          "text": "Очередь — место, где смыслы встречаются"
+        },
+        {
+          "type": "paragraph",
+          "text": "В очереди человек и впереди вас в пространстве, и раньше вас по порядку. Здесь английский говорит `ahead of` — та самая связка из прошлой карточки:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There were five people ahead of me in the queue.** — пятеро стояли впереди меня"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Связка `in front of` тут тоже годится и звучит естественно. А вот **before me** снова скажет о другом: не «стоял впереди», а «его обслужили раньше меня»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «перед» — это два английских слова: **in front of** про место, **before** про время и порядок."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Можно показать пальцем → **in front of the house**, **in front of me**",
+            "Раньше чего-то → **before dinner**, **before the meeting**, **before me**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He was sitting before me at the cinema** ✗ → **in front of me** ✓ — иначе это «пришёл раньше меня»",
+            "**Let's meet in front of the concert** ✗ → **before the concert** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рядом работает ahead of"
+        },
+        {
+          "type": "paragraph",
+          "text": "В очереди и в движении — **five people ahead of me**; **in front of** там тоже годится, а **before** сказало бы «обслужили раньше»."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Перед домом стоит белый фургон.",
+          "en": "There is a white van in front of the house."
+        },
+        {
+          "ru": "Давай встретимся перед концертом.",
+          "en": "Let's meet before the concert."
+        },
+        {
+          "ru": "Высокий парень сидел передо мной в кино.",
+          "en": "A tall guy was sitting in front of me at the cinema."
+        },
+        {
+          "ru": "Она ушла раньше меня.",
+          "en": "She left before me."
+        },
+        {
+          "ru": "Впереди меня в очереди было пять человек.",
+          "en": "There were five people ahead of me in the queue."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать before me, если человек сидит впереди?",
+        "Как быстро понять, место это или время?",
+        "Чем ahead of отличается от in front of в очереди?"
+      ]
+    },
+    {
+      "id": 605,
+      "microtopicId": 222,
+      "title": "Связка неразрывна — и в речи её не слышно",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Осталось закрыть две практические вещи: что происходит со связкой на письме и что с ней происходит на слух."
+        },
+        {
+          "type": "heading",
+          "text": "Внутри связки ничего не двигается"
+        },
+        {
+          "type": "paragraph",
+          "text": "Составной предлог собран раз и навсегда. Слово из него не выпадает, лишнее не добавляется, порядок не меняется:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My desk is next to the window** ✓, а **next me** ✗ и **to next me** ✗ — связка либо стоит целиком, либо не работает",
+            "**The bus stop is right in front of the museum** ✓, а **in front the museum** ✗ — без `of` фраза обрывается",
+            "**The lamp is on top of the cupboard** ✓, а **on top the cupboard** ✗ — та же история"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило простое: связку из двух-трёх слов запоминают как одно слово и ставят как одно слово. Проверять внутри нечего — там нет ни выбора, ни вариантов."
+        },
+        {
+          "type": "heading",
+          "text": "Почему связку не слышно в речи"
+        },
+        {
+          "type": "paragraph",
+          "text": "А теперь самое неприятное для тех, кто слушает живую речь. В разговоре эти связки слипаются в одно слово, и маленькое `of` просто растворяется:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`in front of` звучит [[ɪn ˈfrʌntəv]] — не три слова, а одно",
+            "`out of` звучит [[ˈaʊtəv]] — почти «аутов»",
+            "`next to` звучит [[ˈnekstə]] — хвост проглатывается"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**The cat got out of the box** на нормальной скорости прозвучит так, что `out of` вы не разберёте на части при всём желании."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Из этого следует практический вывод. Не пытайтесь выловить `of` на слух — его там почти нет. Узнавайте связку целиком, по её общему звучанию, как узнаёте любое длинное слово. Именно поэтому её и надо учить одной единицей, а не тремя отдельными словами."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Составной предлог ставится целиком: внутри ничего не выпадает, не добавляется и не меняется местами."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**next me** ✗ и **to next me** ✗ → **next to me** ✓",
+            "**in front the museum** ✗ → **in front of the museum** ✓",
+            "**on top the cupboard** ✗ → **on top of the cupboard** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "В речи связка слипается"
+        },
+        {
+          "type": "paragraph",
+          "text": "`in front of` — [[ɪn ˈfrʌntəv]], `out of` — [[ˈaʊtəv]], `next to` — [[ˈnekstə]]. Ловить `of` на слух бесполезно — связку узнают целиком."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мой стол стоит рядом с окном.",
+          "en": "My desk is next to the window."
+        },
+        {
+          "ru": "Автобусная остановка прямо перед музеем.",
+          "en": "The bus stop is right in front of the museum."
+        },
+        {
+          "ru": "Лампа стоит наверху шкафа.",
+          "en": "The lamp is on top of the cupboard."
+        },
+        {
+          "ru": "Кот выбрался из коробки.",
+          "en": "The cat got out of the box."
+        },
+        {
+          "ru": "Банк далеко от моего дома.",
+          "en": "The bank is far from my house."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему без of связка вообще перестаёт работать?",
+        "Как научиться слышать эти связки в быстрой речи?",
+        "Можно ли поменять слова внутри связки местами?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -356,9 +782,86 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 197,
       "orderInCard": 2
+    },
+    {
+      "cardId": 603,
+      "exerciseType": "MATCHING",
+      "exerciseId": 100,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 603,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 225,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 603,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 248,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 603,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 198,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 604,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 226,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 604,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 211,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 604,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 132,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 605,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 212,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 605,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 112,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 605,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 115,
+      "orderInCard": 2
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "compound_prep_card603_ex1",
+      "cardId": 603,
+      "title": "Скажи, где это стоит",
+      "userInstruction": "ИИ даст одну русскую фразу о том, где что находится. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "compound_prep_card604_ex1",
+      "cardId": 604,
+      "title": "Место или время",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую связку.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "linking",
@@ -375,7 +878,56 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 843,
+      "word": "on top of",
+      "translation": "поверх, на самом верху",
+      "transcription": "[ɒn ˈtɒp əv]",
+      "microtopicId": 222,
+      "categoryId": "linking"
+    },
+    {
+      "id": 844,
+      "word": "in the middle of",
+      "translation": "посередине, посреди",
+      "transcription": "[ɪn ðə ˈmɪdl əv]",
+      "microtopicId": 222,
+      "categoryId": "linking"
+    },
+    {
+      "id": 845,
+      "word": "opposite",
+      "translation": "напротив",
+      "transcription": "[ˈɒpəzɪt]",
+      "microtopicId": 222,
+      "categoryId": "linking"
+    },
+    {
+      "id": 846,
+      "word": "close to",
+      "translation": "близко к",
+      "transcription": "[ˈkləʊs tuː]",
+      "microtopicId": 222,
+      "categoryId": "linking"
+    },
+    {
+      "id": 847,
+      "word": "ahead of",
+      "translation": "впереди",
+      "transcription": "[əˈhed əv]",
+      "microtopicId": 222,
+      "categoryId": "linking"
+    },
+    {
+      "id": 848,
+      "word": "far from",
+      "translation": "далеко от",
+      "transcription": "[ˈfɑː frəm]",
+      "microtopicId": 222,
+      "categoryId": "linking"
+    }
+  ],
   "table_fill_exercises": [],
   "true_false_exercises": [
     {
@@ -427,6 +979,24 @@
         "in spite of"
       ],
       "explanation": "справа стоит вещь — the snow, поэтому связка нужна целиком, двумя словами сразу. Порознь because и of к вещи не подходят, а in spite of сказало бы обратное: что уроки прошли вопреки снегу."
+    },
+    {
+      "id": 198,
+      "situationRu": "Ситуация: Ключи нашлись не с краю стола, а ровно посередине.",
+      "correctSentence": "The keys are in the middle of the table.",
+      "words": [
+        "The keys",
+        "are",
+        "in the middle of",
+        "the table"
+      ],
+      "distractors": [
+        "in middle of",
+        "on top of",
+        "middle",
+        "of the"
+      ],
+      "explanation": "артикль внутри связки стоит всегда, поэтому in middle of не собирается. On top of положило бы ключи поверх стола, а не в его середину."
     }
   ],
   "multiple_choice_exercises": [
@@ -471,9 +1041,98 @@
         }
       ],
       "explanation": "о собственном мнении по-английски говорят in my opinion или просто I think. Связка according to называет чужой источник, поэтому с me она не сочетается вообще."
+    },
+    {
+      "id": 225,
+      "choiceType": "CHOICE",
+      "prompt": "Put the heavy box ___ the others, not under them.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "on",
+          "isCorrect": false
+        },
+        {
+          "text": "on top of",
+          "isCorrect": true
+        },
+        {
+          "text": "at the top of",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "коробка ложится поверх других коробок, а это и есть on top of. Обычное on сказало бы просто «на», а at the top of говорит о верхней части чего-то одного — страницы, лестницы, списка."
+    },
+    {
+      "id": 248,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Булочная напротив банка.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The bakery is across the bank.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bakery is in front of the bank.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bakery is opposite the bank.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "напротив — значит по другую сторону дороги, лицом к лицу, и это opposite. Связка in front of поставила бы булочную вплотную перед банком, с его передней стороны."
+    },
+    {
+      "id": 226,
+      "choiceType": "CHOICE",
+      "prompt": "Jake always checks his bag ___ he leaves the house.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "before",
+          "isCorrect": true
+        },
+        {
+          "text": "in front of",
+          "isCorrect": false
+        },
+        {
+          "text": "ahead of",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "сначала проверка, потом выход — это порядок во времени, и его держит before. Связки in front of и ahead of говорят только о месте."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 112,
+      "items": [
+        {
+          "sentence": "Emma lives in the flat next ___ mine.",
+          "contextRu": "",
+          "answer": "to",
+          "alternatives": []
+        },
+        {
+          "sentence": "A bike is standing in ___ of the shop.",
+          "contextRu": "",
+          "answer": "front",
+          "alternatives": []
+        },
+        {
+          "sentence": "The keys are on ___ of the microwave.",
+          "contextRu": "",
+          "answer": "top",
+          "alternatives": []
+        }
+      ],
+      "explanation": "каждая связка держится на всех своих словах сразу: in front of, on top of, next to. Стоит убрать одно — и фраза перестаёт собираться.",
+      "taskDescription": "Впиши слово, которое выпало из связки."
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [
     {
@@ -502,6 +1161,33 @@
         }
       ],
       "explanation": "каждая связка переводится одним русским предлогом целиком — по частям её не собрать. In front of это не «в переде чего-то», а просто «перед»."
+    },
+    {
+      "id": 100,
+      "taskDescription": "соедини ситуацию со связкой, которая её опишет.",
+      "pairs": [
+        {
+          "left": "Кружка стоит на стопке книг.",
+          "right": "on top of"
+        },
+        {
+          "left": "Фонтан стоит посреди площади.",
+          "right": "in the middle of"
+        },
+        {
+          "left": "Булочная через дорогу от банка.",
+          "right": "opposite"
+        },
+        {
+          "left": "Подпись стоит внизу страницы.",
+          "right": "at the bottom of"
+        },
+        {
+          "left": "До моря десять минут пешком.",
+          "right": "close to"
+        }
+      ],
+      "explanation": "каждая связка держит свой оттенок: on top of — поверх другого предмета, in the middle of — посередине, opposite — через дорогу, at the bottom of — внизу чего-то с верхом и низом, close to — рукой подать."
     }
   ],
   "error_correction_exercises": [
@@ -523,10 +1209,98 @@
         }
       ],
       "explanation": "связка in front of работает как одно слово, и of из неё не выпадает. Замена in на on тоже ничего не спасает: внутри такой связки слова не меняются местами и не подбираются по вкусу."
+    },
+    {
+      "id": 211,
+      "wrongSentence": "Ben always drinks coffee in front of breakfast.",
+      "options": [
+        {
+          "text": "Ben always drinks coffee ahead of breakfast.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ben always drinks coffee before breakfast.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ben always drinks coffee in front the breakfast.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "завтрак не предмет, перед которым можно встать, — речь о том, что раньше, а что позже. Порядок во времени держит before."
+    },
+    {
+      "id": 212,
+      "wrongSentence": "Lily usually sits next me on the bus.",
+      "options": [
+        {
+          "text": "Lily usually sits to next me on the bus.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lily usually sits next of me on the bus.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lily usually sits next to me on the bus.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "связка next to ставится целиком, и хвост to из неё не выпадает. Переставить слова или заменить to на of тоже нельзя — внутри связки ничего не меняется."
     }
   ],
   "construction_meaning_exercises": [],
   "transformation_exercises": [],
-  "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "categorization_exercises": [
+    {
+      "id": 132,
+      "taskDescription": "распредели слова по тому, какое «перед» им нужно.",
+      "categories": [
+        {
+          "title": "in front of",
+          "items": [
+            "the mirror",
+            "the hotel",
+            "the bus stop",
+            "the door"
+          ]
+        },
+        {
+          "title": "before",
+          "items": [
+            "dinner",
+            "the exam",
+            "the holidays",
+            "midnight"
+          ]
+        }
+      ],
+      "explanation": "зеркало, отель, остановку и дверь можно показать рукой — это место. Ужин, экзамен, праздники и полночь показать нельзя, они просто наступают раньше или позже, и перед ними стоит before."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 115,
+      "groupDescription": "Три связки собраны правильно, а одна развалилась",
+      "items": [
+        {
+          "text": "in front of",
+          "isOdd": false
+        },
+        {
+          "text": "next to",
+          "isOdd": false
+        },
+        {
+          "text": "in middle of",
+          "isOdd": true
+        },
+        {
+          "text": "on top of",
+          "isOdd": false
+        }
+      ],
+      "explanation": "артикль внутри этой связки стоит всегда — правильно in the middle of. Остальные три собраны полностью и ничего не потеряли."
+    }
+  ]
 }
