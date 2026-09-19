@@ -39,6 +39,13 @@
       "title": "Cause & Exception · Причина, добавление, исключение",
       "order": 4,
       "searchKeywords": "благодаря по-английски, спасибо тебе с сарказмом, вдобавок к, кроме тома все пришли, вместе с сестрой"
+    },
+    {
+      "id": 225,
+      "topicId": 35,
+      "title": "Inside & Register · Как они устроены и где живут",
+      "order": 5,
+      "searchKeywords": "как устроена связка изнутри, зачем артикль внутри, книжный вариант из-за, by the way это предлог, слова для договора"
     }
   ],
   "grammar_cards": [
@@ -1658,6 +1665,385 @@
         "Почему except for нельзя поставить в значении «помимо этого»?",
         "Правда ли, что besides и except for взаимозаменяемы?"
       ]
+    },
+    {
+      "id": 611,
+      "microtopicId": 225,
+      "title": "Три каркаса: как связка собрана изнутри",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Связок мы набрали уже два десятка, и учить каждую как отдельное чудо природы больше не нужно. Они собраны всего по трём каркасам — и это даёт две вещи сразу: незнакомая связка узнаётся в лицо с первого взгляда, а знакомая не разваливается на письме."
+        },
+        {
+          "type": "heading",
+          "text": "Первый каркас: два слова"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обычное слово плюс предлог-хвост. Хвост почти всегда `to`, `from` или `of`:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**thanks to** · **due to** · **next to** · **close to** · **according to** · **apart from** · **ahead of**"
+        },
+        {
+          "type": "heading",
+          "text": "Второй каркас: слово зажато между двумя предлогами"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самый частый и самый ломкий у русских:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**in front of** · **in spite of** · **on top of** · **in addition to** · **in terms of** · **on behalf of** · **by means of** · **in accordance with**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Существительное в середине — застывшее. Оно стоит без артикля, в единственном числе, и его нельзя ни склонять, ни менять: **in fronts of the house** ✗, **in spite the rain** ✗."
+        },
+        {
+          "type": "paragraph",
+          "text": "А теперь главная польза каркаса. Вот пачка связок, которых мы не разбирали вовсе:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**in charge of** — отвечает за, руководит",
+            "**in favour of** — за, в поддержку",
+            "**in need of** — нуждается в",
+            "**in search of** — в поисках",
+            "**in place of** — вместо"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разбирать их по одной не нужно: каркас виден насквозь, и достаточно увидеть **Vera is in charge of the new project**, чтобы понять — перед нами одна связка, а не три случайных слова подряд."
+        },
+        {
+          "type": "heading",
+          "text": "Третий каркас: с артиклем внутри"
+        },
+        {
+          "type": "paragraph",
+          "text": "**in the middle of** · **at the end of** · **at the back of** · **for the sake of**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь `the` стоит всегда. Русский выбрасывает его на автомате — артиклей в родном языке нет, и рука их не ставит: **in middle of the room** ✗, **at end of the street** ✗."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Слово + предлог",
+                "Предлог + существительное + предлог",
+                "Предлог + the + существительное + предлог"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Внутри связки нет ничего, что можно выбирать. Артикль либо есть всегда, либо нет никогда; слово между предлогами не склоняется и не выпадает. Связка учится и ставится одним куском."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Похоже на предлог, но предлогом не является"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть фразы, собранные из тех же кирпичей, а работающие иначе: **by the way**, **on the other hand**, **at the end of the day**, **as long as**, **no matter what**. Это не предлоги — им справа ничего не нужно, они вставляются в речь целиком: **By the way, I saw Kate yesterday.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка одна: **после составного предлога обязано стоять существительное**. Требуется — предлог. Не требуется, а фраза просто вставлена в речь — устойчивое выражение, и его дом в теме «Устойчивые выражения и идиомы»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Один и тот же набор слов может быть и тем, и другим. **There is a pharmacy at the end of the street** — здесь `at the end of` настоящий предлог, справа улица. А **At the end of the day, we all make mistakes** («в конце концов, все ошибаются») — уже готовая вставка, и никакой улицы за ней не будет."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В русском всё устроено так же — «в течение», «в связи с», «по поводу», «за счёт». Тоже несколько слов, тоже работают как один предлог, тоже внутри ничего не меняется. Так что порода эта нам не чужая, просто в родном языке мы её не замечаем."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Составные предлоги собраны по трём каркасам, и внутри каждого ничего не меняется."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Слово + предлог: **thanks to**, **apart from**, **ahead of**",
+                "Предлог + существительное + предлог: **in front of**, **on top of**, **in charge of**",
+                "Предлог + the + существительное + предлог: **in the middle of**, **at the end of**"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**in fronts of** ✗ и **in spite the rain** ✗ — слово внутри застывшее, ничего не меняется и не выпадает",
+            "**in middle of the room** ✗ → **in the middle of the room** ✓ — в третьем каркасе `the` стоит всегда"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где граница с идиомой"
+        },
+        {
+          "type": "paragraph",
+          "text": "После предлога обязано стоять существительное. Не требуется ничего — это вставка: **By the way, I saw Kate yesterday.** Один набор слов бывает и тем, и другим: **at the end of the street** (предлог) ↔ **at the end of the day** (в конце концов)."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ключи лежат на самом верху коробки.",
+          "en": "The keys are on top of the box."
+        },
+        {
+          "ru": "Посреди стола стоит ваза.",
+          "en": "There is a vase in the middle of the table."
+        },
+        {
+          "ru": "Вера отвечает за новый проект.",
+          "en": "Vera is in charge of the new project."
+        },
+        {
+          "ru": "В конце улицы есть аптека.",
+          "en": "There is a pharmacy at the end of the street."
+        },
+        {
+          "ru": "Кстати, я вчера видел Кейт.",
+          "en": "By the way, I saw Kate yesterday."
+        }
+      ],
+      "clarificationOptions": [
+        "Зачем различать каркасы, если связки всё равно учатся целиком?",
+        "Почему в одних связках артикль есть, а в других нет?",
+        "Как отличить составной предлог от устойчивой фразы?"
+      ]
+    },
+    {
+      "id": 612,
+      "microtopicId": 225,
+      "title": "Один смысл, два этажа: разговор и документ",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У большинства бытовых связок есть книжный двойник — то же самое значение, но другой этаж речи. По-русски мы эту разницу чувствуем мгновенно: «из-за» и «вследствие» значат одно, но сказать другу «вследствие дождя мы остались дома» невозможно. В английском всё устроено точно так же — просто мы учили слова вперемешку и на этажи их не раскладывали."
+        },
+        {
+          "type": "heading",
+          "text": "Пары: одно и то же, разная высота"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Разговорный ярус",
+            "Книжный ярус",
+            "Смысл"
+          ],
+          "rows": [
+            [
+              "because of",
+              "owing to",
+              "из-за"
+            ],
+            [
+              "about",
+              "with regard to",
+              "касательно"
+            ],
+            [
+              "before",
+              "prior to",
+              "до"
+            ],
+            [
+              "instead of",
+              "in place of",
+              "вместо"
+            ],
+            [
+              "by",
+              "by means of",
+              "посредством"
+            ],
+            [
+              "for",
+              "on behalf of",
+              "от имени"
+            ],
+            [
+              "but",
+              "as opposed to",
+              "в противоположность"
+            ],
+            [
+              "—",
+              "in accordance with",
+              "в соответствии с"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит знать про отдельные пары"
+        },
+        {
+          "type": "paragraph",
+          "text": "`due to` в этой таблице отсутствует намеренно. Когда-то оно было книжным, но за последние десятилетия усреднилось и сегодня звучит нормально и в разговоре, и в отчёте. А вот `owing to` книжным остался. Шкала тут не из двух ступенек, а плавная."
+        },
+        {
+          "type": "paragraph",
+          "text": "`on behalf of` — это «**от имени**», а не «ради» и не «в пользу». Так подписывают письмо, когда пишут за коллегу или за компанию: **She signed the contract on behalf of her company.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "`prior to` — то самое книжное «перед», которое мы обошли стороной в карточке про `in front of` и `before`. Вот его место: язык объявлений и инструкций. **Please arrive thirty minutes prior to departure.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "`in accordance with` пары в разговоре не имеет вовсе — это язык правил и законов: **The data is stored in accordance with the law.**"
+        },
+        {
+          "type": "heading",
+          "text": "Где эти связки живут"
+        },
+        {
+          "type": "paragraph",
+          "text": "Книжный ярус — договор, инструкция, объявление в аэропорту, деловое письмо, новости. Разговорный — всё остальное: чат, разговор с другом, просьба к коллеге."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русскоязычных ловит сразу с двух сторон. Первое: школа учит «взрослые» слова, и человек тащит их в обычную речь — **Owing to the rain we stayed home** в переписке с другом звучит как выступление чиновника. Второе, зеркальное: в официальном письме человек пишет так же, как говорит, и письмо выглядит несерьёзно там, где от него ждут формы."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Книжный ярус мы даём **только на узнавание**. Цель — понять фразу в договоре, инструкции и письме, а не начать так говорить. Поэтому в Словарь эти связки не идут: активный запас они не пополняют, а засоряют. Понадобится — скажете **because of** и **before**, и это будет правильный английский."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У бытовых связок есть книжные двойники с тем же смыслом — их нужно узнавать, а не употреблять."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**because of** → **owing to** · **about** → **with regard to** · **before** → **prior to**",
+            "**instead of** → **in place of** · **by** → **by means of** · **for** → **on behalf of**",
+            "**in accordance with** — «в соответствии с», пары в разговоре нет"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где что уместно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Книжный ярус — договор, инструкция, объявление, деловое письмо. Разговорный — всё остальное."
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**on behalf of** — «от имени» (подписал за компанию), а не «ради» и не «в пользу»",
+            "**due to** давно усреднилось и годится везде, а **owing to** осталось книжным"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Рейс отменили из-за сильного ветра.",
+          "en": "The flight was cancelled owing to strong winds."
+        },
+        {
+          "ru": "Пожалуйста, приходите за тридцать минут до вылета.",
+          "en": "Please arrive thirty minutes prior to departure."
+        },
+        {
+          "ru": "Я пишу от имени всей команды.",
+          "en": "I am writing on behalf of the whole team."
+        },
+        {
+          "ru": "Касательно вашего заказа: он уже отправлен.",
+          "en": "With regard to your order, it has already been sent."
+        },
+        {
+          "ru": "Мы остались дома из-за дождя.",
+          "en": "We stayed home because of the rain."
+        }
+      ],
+      "clarificationOptions": [
+        "Зачем учить книжные связки, если говорить так не надо?",
+        "Почему due to можно и в разговоре, а owing to нет?",
+        "Как понять по письму, какого яруса от меня ждут?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1876,6 +2262,54 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 116,
       "orderInCard": 3
+    },
+    {
+      "cardId": 611,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 135,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 611,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 117,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 611,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 222,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 611,
+      "exerciseType": "MATCHING",
+      "exerciseId": 103,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 612,
+      "exerciseType": "MATCHING",
+      "exerciseId": 104,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 612,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 90,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 612,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 83,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 612,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 136,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1925,6 +2359,14 @@
       "title": "Вычесть или прибавить",
       "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую связку.",
       "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "compound_prep_card612_ex1",
+      "cardId": 612,
+      "title": "Переведи с книжного на обычный",
+      "userInstruction": "ИИ пришлёт одну фразу. Перепишите её на другом ярусе речи — так, как её сказали бы в другой обстановке.",
+      "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
   ],
@@ -2145,6 +2587,37 @@
         }
       ],
       "explanation": "along with добавляет спутника, но подлежащее оставляет одно, поэтому у Мии нужен is. А после in addition to всегда идёт вещь: там, где началась целая часть с подлежащим, связка не работает."
+    },
+    {
+      "id": 222,
+      "statements": [
+        {
+          "en": "The lamp is in fronts of the mirror.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Denis is in charge of the kitchen.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We waited at end of the platform.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They stayed outside in spite of the storm.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The bin is at the back of the kitchen.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "слово внутри связки застывшее, поэтому множественного числа у него не бывает. А в каркасе с артиклем the стоит всегда — правильно at the end of the street."
     }
   ],
   "word_arrangement_exercises": [
@@ -2538,7 +3011,40 @@
       "taskDescription": "Поставь глагол to be в нужную форму."
     }
   ],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 90,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why are you so late?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "No problem, come in."
+        }
+      ],
+      "options": [
+        {
+          "text": "Sorry, I was delayed owing to the traffic conditions.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sorry, I missed the bus because of the traffic.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sorry, my delay was in accordance with the traffic.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "друг ждёт обычного объяснения, и уместен разговорный ярус. Книжные owing to и in accordance with в такой реплике звучат как отчёт чиновника, а не как живой ответ."
+    }
+  ],
   "matching_exercises": [
     {
       "id": 99,
@@ -2643,6 +3149,60 @@
         }
       ],
       "explanation": "in addition без хвоста начинает новое предложение, а in addition to требует вещь. После along with тоже стоит вещь, и глагол при этом смотрит только на первое подлежащее — отсюда works, а не work."
+    },
+    {
+      "id": 103,
+      "taskDescription": "соедини связку с её смыслом.",
+      "pairs": [
+        {
+          "left": "in charge of",
+          "right": "отвечает за"
+        },
+        {
+          "left": "in favour of",
+          "right": "за, в поддержку"
+        },
+        {
+          "left": "in need of",
+          "right": "нуждается в"
+        },
+        {
+          "left": "in search of",
+          "right": "в поисках"
+        },
+        {
+          "left": "in place of",
+          "right": "вместо"
+        }
+      ],
+      "explanation": "все пять собраны по одному каркасу — предлог, существительное, предлог. Именно поэтому их видно в тексте целиком, даже когда слово в середине встречается впервые."
+    },
+    {
+      "id": 104,
+      "taskDescription": "соедини книжную связку с её разговорным двойником.",
+      "pairs": [
+        {
+          "left": "owing to",
+          "right": "because of"
+        },
+        {
+          "left": "prior to",
+          "right": "before"
+        },
+        {
+          "left": "with regard to",
+          "right": "about"
+        },
+        {
+          "left": "by means of",
+          "right": "by"
+        },
+        {
+          "left": "in place of",
+          "right": "instead of"
+        }
+      ],
+      "explanation": "смысл в каждой паре одинаковый, разная только высота речи. Левый столбец встречается в документах и объявлениях, правый — в обычном разговоре."
     }
   ],
   "error_correction_exercises": [
@@ -2788,6 +3348,29 @@
         }
       ],
       "explanation": "форма вежливая, а содержание неприятное — значит это сарказм, и Бен тут виноват, а не помог. Английский пользуется этим приёмом так же, как русское «спасибо тебе за такую помощь»."
+    },
+    {
+      "id": 83,
+      "construction": "He accepted the award on behalf of the team.",
+      "options": [
+        {
+          "text": "Он принял награду вместе с командой.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он принял награду в пользу команды.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он принял награду от имени команды.",
+          "isCorrect": true
+        },
+        {
+          "text": "Он принял награду ради команды.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "on behalf of значит «от имени»: человек выходит вместо тех, кого представляет. Ни выгоды, ни совместного действия связка не сообщает."
     }
   ],
   "transformation_exercises": [],
@@ -2860,6 +3443,60 @@
         }
       ],
       "explanation": "вычитание убирает названное из общей картины: Ник не ответил, Джейк не сдал, суп был невкусный. Добавление, наоборот, подхватывает уже сказанное и ведёт дальше — таковы обороты apart from that и besides."
+    },
+    {
+      "id": 135,
+      "taskDescription": "распредели связки по тому, как они собраны.",
+      "categories": [
+        {
+          "title": "Два слова",
+          "items": [
+            "except for",
+            "regardless of",
+            "along with"
+          ]
+        },
+        {
+          "title": "Слово между предлогами",
+          "items": [
+            "in spite of",
+            "on top of",
+            "in place of"
+          ]
+        },
+        {
+          "title": "С артиклем внутри",
+          "items": [
+            "in the middle of",
+            "at the back of",
+            "for the sake of"
+          ]
+        }
+      ],
+      "explanation": "в первом каркасе слово и предлог-хвост, во втором существительное зажато между двумя предлогами, в третьем к нему добавлен артикль. Артикль внутри третьего каркаса стоит всегда и никуда не исчезает."
+    },
+    {
+      "id": 136,
+      "taskDescription": "распредели фразы по тому, где они уместны.",
+      "categories": [
+        {
+          "title": "Сообщение другу",
+          "items": [
+            "I'm late because of the bus.",
+            "Come instead of Tom.",
+            "Let's meet before six."
+          ]
+        },
+        {
+          "title": "Официальное письмо",
+          "items": [
+            "Payment is due prior to delivery.",
+            "Signed on behalf of the company.",
+            "Please reply with regard to our offer."
+          ]
+        }
+      ],
+      "explanation": "книжные связки живут в документах и деловых письмах, а в переписке с другом звучат неуместно. Разговорные, наоборот, выглядят несерьёзно там, где ждут официальной формы."
     }
   ],
   "find_the_odd_exercises": [
@@ -2908,6 +3545,29 @@
         }
       ],
       "explanation": "besides в живой речи тянет к добавлению — «к тому же». Остальные три спокойно убирают названное из общей картины, а apart from и aside from умеют ещё и прибавлять."
+    },
+    {
+      "id": 117,
+      "groupDescription": "Трём связкам нужно существительное справа, а одна вставляется в речь целиком",
+      "items": [
+        {
+          "text": "in front of",
+          "isOdd": false
+        },
+        {
+          "text": "by the way",
+          "isOdd": true
+        },
+        {
+          "text": "on top of",
+          "isOdd": false
+        },
+        {
+          "text": "in addition to",
+          "isOdd": false
+        }
+      ],
+      "explanation": "by the way ничего справа не требует — это готовая вставка, а не предлог. Остальные три без существительного рассыпаются: сказать in front of и остановиться нельзя."
     }
   ]
 }
