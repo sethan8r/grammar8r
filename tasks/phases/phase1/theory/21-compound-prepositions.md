@@ -981,26 +981,479 @@ RU: По словам Веры, поезд опаздывает.
 
 ---
 
+## Microtopic 224 — Cause & Exception · Причина, добавление, исключение
+
+**ID:** 224 | **Order:** 4
+**Теги:** благодаря по-английски, спасибо тебе с сарказмом, вдобавок к, кроме тома все пришли, вместе с сестрой
+
+---
+
+### Card 608 · thanks to — благодаря, а иногда и «спасибо тебе»
+
+**ID:** 608 | **Order:** 1
+
+#### Theory
+
+Причину мы называть уже умеем. В «Linking Words» разбирались `because of` и `due to` — обе значат «из-за» и обе нейтральны: им совершенно всё равно, хорошее случилось или плохое. **We were late because of the traffic** — просто факт, никакой оценки.
+
+А вот третья связка причины оценку как раз и несёт.
+
+**thanks to — причина, которой человек рад**
+
+`thanks to` — дословно «благодаря», и русский аналог совпадает слово в слово. Это удобно: объяснять почти нечего, надо только увидеть совпадение.
+
+- **Thanks to your help, we finished early.** — благодаря твоей помощи
+- **Thanks to the new road, the trip takes only an hour.** — благодаря новой дороге
+- **We found the place thanks to Kate.** — связка спокойно стоит и в конце
+
+**Формула:** thanks to + причина
+
+Справа, как у всей породы, стоит вещь: человек, предмет, обстоятельство. Целую часть с подлежащим связка не держит — **Thanks to you helped me** ✗ не собирается, нужно **Thanks to your help** ✓.
+
+**Та же связка с обратным знаком**
+
+Теперь самое интересное. Поставьте `thanks to` перед чем-нибудь плохим — и благодарность мгновенно превращается в упрёк:
+
+- **Thanks to you, we missed the train.** — «спасибо тебе, блин, поезд ушёл»
+
+Формально это по-прежнему «благодаря тебе», но слушатель слышит сарказм. Никакого специального слова для этого не нужно: работает сам разрыв между вежливой формой и неприятным содержанием.
+
+Русский делает ровно то же самое — «спасибо тебе за такую помощь» у нас звучит понятно как. Поэтому понимать этот приём легко; важно только знать, что английский пользуется им так же охотно, и не удивляться, услышав.
+
+**Какую связку брать**
+
+| Что за причина | Связка | Пример |
+|----------------|--------|--------|
+| нейтральный факт | because of, due to | The match was cancelled because of the rain. |
+| хорошее, есть за что сказать спасибо | thanks to | Thanks to Emma, I got the job. |
+| плохое | thanks to звучит саркастично | Thanks to the traffic, we sat in the car for two hours. |
+
+**Ловушка:** не путайте `thanks to` со связкой `thanks for`. **Thanks for your help** — это живая реплика «спасибо за помощь», ответ человеку. **Thanks to your help, we finished early** — это причина внутри предложения. Написать **Thanks for your help, we finished early** ✗ — значит склеить благодарность и рассказ в одну кривую фразу.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`thanks to` = «благодаря»: называет причину и добавляет оценку, которой нет у нейтральных `because of` и `due to`.
+
+**Формула:** thanks to + причина
+
+- Хорошее — прямая благодарность: **Thanks to your help, we finished early.**
+- Плохое — сарказм: **Thanks to you, we missed the train.**
+- Связка стоит и в начале, и в конце: **We found the place thanks to Kate.**
+
+**Частые ошибки**
+
+- **Thanks to you helped me** ✗ → **Thanks to your help** ✓ — справа вещь, а не целая часть
+- **Thanks for your help, we finished early** ✗ → **Thanks to your help, we finished early** ✓ — `thanks for` это отдельная реплика «спасибо за»
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2761 | Благодаря твоей помощи мы закончили рано. | Thanks to your help, we finished early. |
+| 2762 | Благодаря новой дороге поездка занимает всего час. | Thanks to the new road, the trip takes only an hour. |
+| 2763 | Мы нашли это место благодаря Кате. | We found the place thanks to Kate. |
+| 2764 | Спасибо тебе, мы опоздали на поезд. | Thanks to you, we missed the train. |
+| 2765 | Матч отменили из-за дождя. | The match was cancelled because of the rain. |
+
+---
+
+#### Exercises
+
+**Ex 25 · MultipleChoice · CHOICE** *(ID: 229)*
+
+"___ Oliver, I finally understood the task."
+
+- Because of
+- **Thanks to** ✓
+- Thanks for
+
+*Explanation:* человек рад результату и благодарен Оливеру, а такую причину вводит thanks to. Because of назвало бы факт без оценки, а thanks for — это отдельная реплика «спасибо за», а не связка внутри предложения.
+
+---
+
+**Ex 26 · MultipleChoice · FORWARD_CHOICE** *(ID: 249)*
+
+"Благодаря совету врача Лена спит гораздо лучше."
+
+- Lena sleeps much better thanks for the doctor's advice.
+- Lena sleeps much better because of the doctor's advice.
+- **Lena sleeps much better thanks to the doctor's advice.** ✓
+
+*Explanation:* совет помог, и человек этому рад — это thanks to. Вариант с because of передал бы только факт, без благодарности, а thanks for в середину предложения не встаёт.
+
+---
+
+**Ex 27 · ConstructionMeaning** *(ID: 82)*
+
+Выбери правильный перевод:
+
+"Thanks to Ben, I waited an hour in the rain."
+
+- Я поблагодарил Бена, пока ждал под дождём.
+- **Спасибо Бену, я прождал час под дождём.** ✓
+- Бен помог мне переждать этот час под дождём.
+- Я ждал Бена целый час под дождём.
+
+*Explanation:* форма вежливая, а содержание неприятное — значит это сарказм, и Бен тут виноват, а не помог. Английский пользуется этим приёмом так же, как русское «спасибо тебе за такую помощь».
+
+---
+
+**Ex 28 · WordArrangement** *(ID: 200)*
+
+Ситуация: Друг одолжил зарядку, и телефон продержался весь день.
+
+Правильное предложение: **Thanks to Jake, my phone lasted all day.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Thanks to | — |
+| Jake, | — |
+| my phone | — |
+| lasted | — |
+| all day | — |
+| Thanks for | ✗ |
+| to Jake | ✗ |
+| because | ✗ |
+| lasting | ✗ |
+
+*Explanation:* Джейк выручил, и человек ему благодарен — это thanks to целиком, без второго to. Реплика thanks for сюда не встаёт: она говорится человеку в лицо, а не рассказывается о нём.
+
+---
+
+#### AI Exercise
+
+**ID:** compound_prep_card608_ex1
+**Title:** "Назови причину"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст одну русскую фразу с причиной. Скажите её по-английски одним предложением."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о связке thanks to. Он знает: because of и due to из прошлых тем называют причину нейтрально, без оценки (The match was cancelled because of the rain); thanks to значит «благодаря» и добавляет оценку — говорящий рад причине (Thanks to your help, we finished early; Thanks to the new road, the trip takes only an hour); связка стоит и в начале предложения, и в конце (We found the place thanks to Kate); справа от неё стоит вещь, а не целая часть, поэтому Thanks to you helped me ✗, нужно Thanks to your help; если поставить thanks to перед чем-то плохим, выходит сарказм (Thanks to you, we missed the train) — приём тот же, что в русском «спасибо тебе за такую помощь»; thanks for это отдельная живая реплика «спасибо за», а не связка причины, поэтому Thanks for your help, we finished early ✗. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look и watch, сравнительную степень прилагательных, погоду, связки места, according to. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после предлога — таких форм в заданиях не используй и за их отсутствие не ругай. ЗАДАНИЕ: дай пользователю ОДНУ короткую русскую фразу с причиной и попроси сказать её по-английски одним предложением. В условии не подсказывай, какую связку брать. ДЕРЖИ ФРАЗУ ПРОСТОЙ: шесть–двенадцать слов, одно подлежащее и один глагол в каждой половине, бытовая ситуация, без придаточных и редких слов. Если в присланном списке слов пользователя есть подходящие — желательно строить фразу вокруг них: фокус задания на выборе связки, а не на конкретной лексике. ЧЕРЕДУЙ ПОВОД от запуска к запуску, не повторяя один и тот же два раза подряд: 1. ХОРОШЕЕ, ЕСТЬ ЗА ЧТО БЛАГОДАРИТЬ — «Благодаря Кате я получил эту работу»; 2. ХОРОШЕЕ, ПРИЧИНА НЕ ЧЕЛОВЕК — «Благодаря новому автобусу дорога стала короче»; 3. СВЯЗКА В КОНЦЕ ФРАЗЫ — «Мы нашли кафе благодаря её подсказке»; 4. САРКАЗМ — «Спасибо тебе, мы просидели в машине два часа»; 5. ЛОВУШКА-ГРАНИЦА, ГДЕ ОЦЕНКИ НЕТ И НУЖНА НЕЙТРАЛЬНАЯ СВЯЗКА — примерно каждый третий запуск, не два раза подряд: «Матч отменили из-за дождя», «Магазин закрыт из-за ремонта». Имена, города и сюжеты каждый запуск меняй. ОЦЕНКА: верно, если связка отвечает смыслу русской фразы и стоит целиком. Разбирай типовые ошибки по одной строке: написал thanks for вместо thanks to → скажи, что thanks for говорят человеку в лицо, а причину внутри предложения вводит thanks to; поставил после связки целую часть с подлежащим (Thanks to you helped me) → покажи, что справа нужна вещь, и дай Thanks to your help; выбросил to (Thanks your help) → напомни, что связка работает как одно слово; поставил thanks to в нейтральную фразу про неприятность → скажи, что теперь она звучит с сарказмом, и предложи because of, если сарказм не задуман; поставил because of там, где человек явно благодарен → скажи, что оценка потерялась. ЗАСЧИТЫВАЙ: because of и due to как равные в нейтральных фразах; thanks to в начале и в конце предложения; сокращения и любое пройденное время, подходящее по смыслу. Если пользователь выбрал другое слово, а грамматика верна, лексику не правь. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Скажите по-английски: «Благодаря Кате я получил эту работу».'
+
+#### Clarification Options
+
+- Как собеседник понимает, что thanks to сказано с сарказмом?
+- Чем thanks to отличается от thanks for?
+- Можно ли вместо thanks to всегда сказать because of?
+
+---
+
+### Card 609 · Добавление: in addition to и along with
+
+**ID:** 609 | **Order:** 2
+
+#### Theory
+
+Две связки, которые добавляют к уже сказанному ещё один предмет. Обе простые, но у каждой припасена ловушка, и обе ловушки — ровно на ось темы.
+
+**in addition to — вдобавок к**
+
+- **In addition to the rent, you pay for electricity.** — вдобавок к аренде платите ещё и за электричество
+- **In addition to English, Nick speaks Spanish.**
+
+**Не путай:** связку `in addition to` и знакомое `in addition` без хвоста — это разные инструменты. `in addition` мы разбирали в «Linking Words»: оно значит «вдобавок, кроме того», начинает отдельное предложение и справа от себя ничего не требует. `in addition to` — предлог, и ему вещь нужна обязательно.
+
+- **The flat is small. In addition, it's expensive.** ✓ — два самостоятельных предложения
+- **In addition to the small kitchen, the flat is expensive.** ✓ — связка держит вещь
+- **In addition to the flat is expensive.** ✗ — после `to` встала целая часть, и фраза развалилась
+
+Это та же пара, что `because` и `because of`, только на другом слове. Одно лишнее `to` полностью меняет то, что связка может держать справа.
+
+**along with — вместе с, заодно с**
+
+- **Sara sent the photos along with the report.** — отправила фотографии вместе с отчётом
+- **The price includes breakfast along with airport transfer.**
+
+**Кстати:** рядом живёт `together with` — тот же смысл, просто чуть более книжное и чаще встречается на письме: **The invoice is attached together with the contract.** В разговоре привычнее `along with`.
+
+**Подлежащее от этих связок не раздваивается**
+
+Вот ловушка, которую слышно сразу. Сравните два способа сказать про Катю и её сестру:
+
+- **Kate and her sister are coming.** — соединили союзом `and`, подлежащих стало двое, глагол во множественном
+- **Kate, along with her sister, is coming.** — подлежащее по-прежнему одно, Катя; сестра пришла добавлением, и глагол остался в единственном
+
+**Ловушка:** **Kate, along with her sister, are coming** ✗ — рука тянется поставить множественное, потому что людей-то двое. Но `along with` не союз, а предлог: он не складывает подлежащие, а добавляет спутника сбоку. Глагол смотрит только на первое слово. То же самое с `in addition to`: **The kitchen, in addition to the bathroom, needs repair** ✓.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`in addition to` — «вдобавок к», `along with` — «вместе с, заодно с»; у обеих справа стоит вещь.
+
+**Легко перепутать**
+
+- **In addition, it's expensive.** — без хвоста, начинает отдельное предложение
+- **In addition to the rent, you pay for electricity.** — с хвостом `to`, держит вещь
+- **In addition to the flat is expensive** ✗ — целой части связка не держит
+
+**Глагол не уходит во множественное**
+
+- **Kate, along with her sister, is coming** ✓, а **are coming** ✗ — подлежащее одно, Катя
+- Двое подлежащих бывает только с `and`: **Kate and her sister are coming.**
+
+**Кстати:** `together with` = `along with`, но книжнее.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2766 | Вдобавок к аренде вы платите за электричество. | In addition to the rent, you pay for electricity. |
+| 2767 | Кроме английского Ник говорит по-испански. | In addition to English, Nick speaks Spanish. |
+| 2768 | Сара отправила фотографии вместе с отчётом. | Sara sent the photos along with the report. |
+| 2769 | Катя вместе с сестрой придёт. | Kate, along with her sister, is coming. |
+| 2770 | Счёт приложен вместе с договором. | The invoice is attached together with the contract. |
+
+---
+
+#### Exercises
+
+**Ex 29 · ErrorCorrection** *(ID: 214)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"In addition to the room is very noisy."
+
+- In addition the room is very noisy.
+- **In addition to the traffic noise, the room is very noisy.** ✓
+- In addition of the room is very noisy.
+
+*Explanation:* после in addition to обязана стоять вещь, а тут начиналась целая часть с подлежащим. Либо добавляем связке вещь, либо берём in addition без хвоста — но тогда это отдельное предложение, а не связка.
+
+---
+
+**Ex 30 · TrueFalse** *(ID: 221)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Igor, along with his brother, is moving to Prague. | ✓ |
+| 2 | In addition to the fee you pay a deposit. | ✓ |
+| 3 | Mia, along with her friends, are waiting outside. | ✗ |
+| 4 | In addition to the shop was closed all day. | ✗ |
+| 5 | The teacher came along with two students. | ✓ |
+
+*Explanation:* along with добавляет спутника, но подлежащее оставляет одно, поэтому у Мии нужен is. А после in addition to всегда идёт вещь: там, где началась целая часть с подлежащим, связка не работает.
+
+---
+
+**Ex 31 · Matching** *(ID: 102)*
+
+Задание: соедини начало фразы с подходящим продолжением.
+
+| Начало | Продолжение |
+|--------|-------------|
+| The laptop is slow. In addition, | the battery is dead. |
+| In addition to the salary, | they offer free lunches. |
+| Tom, along with his wife, | works in a hospital. |
+| Send the photos along with | the application form. |
+
+*Explanation:* in addition без хвоста начинает новое предложение, а in addition to требует вещь. После along with тоже стоит вещь, и глагол при этом смотрит только на первое подлежащее — отсюда works, а не work.
+
+---
+
+**Ex 32 · TextInput** *(ID: 114)*
+
+Поставь глагол to be в нужную форму.
+
+1. "Lucy, along with her parents, ___ arriving on Friday."
+   Ответ: **is**
+2. "The manager, in addition to two engineers, ___ at the meeting."
+   Ответ: **was**
+3. "Paul and his brother ___ moving to a new flat."
+   Ответ: **are**
+
+*Explanation:* along with и in addition to подлежащее не складывают — оно остаётся одно, и глагол идёт за ним. Двое подлежащих получается только через and, и вот тогда нужна форма множественного числа.
+
+---
+
+#### Clarification Options
+
+- Почему нельзя сказать In addition to the flat is expensive?
+- Когда лучше along with, а когда together with?
+- Почему глагол не становится множественным, если людей двое?
+
+---
+
+### Card 610 · Четыре английских «кроме»
+
+**ID:** 610 | **Order:** 3
+
+#### Theory
+
+Русское «кроме» — слово-обманка. Оно спокойно означает две противоположные вещи, и мы этого не замечаем, потому что смысл всегда вытаскивает контекст.
+
+| Русская фраза | Что она значит |
+|---------------|----------------|
+| Кроме Тома, все пришли. | Тома не было — исключение |
+| Кроме этого, поездка была отличной. | и это хорошо, и всё остальное — добавление |
+
+Первая вычитает, вторая прибавляет. Одно слово, два противоположных действия.
+
+**apart from работает точно так же**
+
+Самое приятное в этой карточке: главная английская связка «кроме» двусмысленна ровно в той же степени, что и русская. Учить тут нечего — надо просто увидеть совпадение.
+
+- **Apart from Tom, everyone came.** — Тома не было, исключение
+- **Apart from that, the trip was great.** — помимо этого, всё остальное тоже хорошо
+
+Как отличить: смотрим, входит ли названное в общую картину. Том в число пришедших не входит — значит вычитаем. То, о чём шла речь раньше, из общей хорошей картины не выпадает, к нему добавляется остальное — значит прибавляем.
+
+**Кстати:** оборот `apart from that` («помимо этого») почти всегда работает на добавление — им подхватывают уже сказанное и ведут разговор дальше. Это ходовая разговорная связка, её стоит запомнить целиком.
+
+**aside from — то же самое, но по-американски**
+
+**Aside from the noise, the flat is perfect.** Оба смысла у него те же, что у `apart from`, разница только в том, по какую сторону океана вы это услышите.
+
+**except for — только исключение**
+
+Вот связка, у которой второго смысла нет вовсе. `except for` всегда вычитает:
+
+- **Everyone came except for Tom.** — все, кроме Тома
+- **The hotel was great except for the breakfast.** — всё хорошо, а вот завтрак нет
+
+Поэтому, когда нужно сказать однозначно и без шансов быть понятым наоборот, берут именно `except for`.
+
+**Ловушка:** **Except for that, the trip was great** ✗ — так сказать не выйдет: `except for` умеет только вычитать, а здесь мы прибавляем. Нужно **Apart from that, the trip was great** ✓.
+
+**besides — знакомое слово в этом же ряду**
+
+`besides` мы уже сливали в «Linking Words» с переводом «к тому же, кроме, помимо» — то есть половина путаницы у нас в голове уже есть. Уточним: в живой современной речи `besides` тянет к **добавлению** — **Besides, it's too late to call him** («к тому же уже поздно»). Для чистого исключения безопаснее `except for`.
+
+**Кстати:** в том же ряду стоит `other than` — «кроме, не считая». Чаще всего оно встречается в отрицаниях и вопросах: **I don't know anyone here other than you.** Узнавать стоит, а говорить проще привычными связками.
+
+**Важно:** справа у всей четвёрки стоит вещь — как и у любого составного предлога. **Apart from it was raining, the day was nice** ✗ → **Apart from the rain, the day was nice** ✓.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Русское «кроме» значит и «вычесть», и «прибавить» — английские связки делятся по этому признаку.
+
+- **apart from** и **aside from** (американский вариант) — оба смысла, решает контекст: **Apart from Tom, everyone came** (вычли) ↔ **Apart from that, the trip was great** (прибавили)
+- **except for** — только исключение: **Everyone came except for Tom.**
+- **besides** — тянет к добавлению: **Besides, it's too late to call him.**
+- **other than** — «не считая», чаще в отрицаниях и вопросах
+
+**Частые ошибки**
+
+- **Except for that, the trip was great** ✗ → **Apart from that** ✓ — `except for` умеет только вычитать
+- **Apart from it was raining** ✗ → **Apart from the rain** ✓ — справа вещь, а не целая часть
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 2771 | Кроме Тома, пришли все. | Apart from Tom, everyone came. |
+| 2772 | Кроме этого, поездка была отличной. | Apart from that, the trip was great. |
+| 2773 | Если не считать шума, квартира идеальная. | Aside from the noise, the flat is perfect. |
+| 2774 | Отель был отличный, кроме завтрака. | The hotel was great except for the breakfast. |
+| 2775 | Я тут никого не знаю, кроме тебя. | I don't know anyone here other than you. |
+
+---
+
+#### Exercises
+
+**Ex 33 · MultipleChoice · REVERSE_CHOICE** *(ID: 98)*
+
+"Apart from the price, the laptop is excellent."
+
+- **Ноутбук отличный, если не считать цену.** ✓
+- Ноутбук отличный, и цена тоже хорошая.
+- Кроме ноутбука, отлично всё остальное.
+
+*Explanation:* цена из общей хорошей картины выпадает, значит связка здесь вычитает. Если бы цена в эту картину входила, вышло бы добавление — как в Apart from that, the trip was great.
+
+---
+
+**Ex 34 · Categorization** *(ID: 134)*
+
+Задание: распредели фразы по тому, что делает связка.
+
+| Вычитает | Прибавляет |
+|----------|------------|
+| Apart from Nick, nobody replied. | Apart from that, I like the plan. |
+| Everyone passed except for Jake. | Besides, we have no time. |
+| The food was fine except for the soup. | Apart from this, everything is ready. |
+
+*Explanation:* вычитание убирает названное из общей картины: Ник не ответил, Джейк не сдал, суп был невкусный. Добавление, наоборот, подхватывает уже сказанное и ведёт дальше — таковы обороты apart from that и besides.
+
+---
+
+**Ex 35 · MultipleChoice · CHOICE** *(ID: 230)*
+
+"The concert was perfect ___ the long queue at the entrance."
+
+- besides
+- other than
+- **except for** ✓
+
+*Explanation:* очередь из общей картины выпадает, и здесь нужна связка, которая умеет только вычитать. Besides повело бы в добавление, а other than в утверждении звучит неестественно — оно живёт в отрицаниях и вопросах.
+
+---
+
+**Ex 36 · FindTheOdd** *(ID: 116)*
+
+Три связки умеют вычитать, а одна только прибавляет:
+
+- apart from
+- except for
+- **besides** ✓
+- aside from
+
+*Explanation:* besides в живой речи тянет к добавлению — «к тому же». Остальные три спокойно убирают названное из общей картины, а apart from и aside from умеют ещё и прибавлять.
+
+---
+
+#### AI Exercise
+
+**ID:** compound_prep_card610_ex1
+**Title:** "Вычесть или прибавить"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую связку."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о четырёх английских «кроме». Он знает: русское «кроме» значит и «вычесть», и «прибавить» («Кроме Тома, все пришли» ↔ «Кроме этого, поездка была отличной»); apart from умеет оба смысла, и решает контекст — Apart from Tom, everyone came вычитает, Apart from that, the trip was great прибавляет, а оборот apart from that почти всегда работает на добавление; aside from это тот же apart from, американский вариант; except for умеет ТОЛЬКО вычитать (Everyone came except for Tom; The hotel was great except for the breakfast), поэтому Except for that, the trip was great ✗; besides в живой речи тянет к добавлению (Besides, it's too late to call him), и для чистого исключения безопаснее except for; other than значит «не считая» и живёт в отрицаниях и вопросах (I don't know anyone here other than you); справа у всех связок стоит вещь, а не целая часть, поэтому Apart from it was raining ✗ вместо Apart from the rain. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, базовый пассив, инфинитив с to и без to, косвенные вопросы, глагол get, повелительное наклонение, глаголы see, look и watch, погоду, связки места, according to, thanks to, in addition to и along with. ЕЩЁ НЕ ПРОШЁЛ: модальные глаголы как тему, Future Continuous, Future Perfect, косвенную речь, вопросительные хвостики, герундий после предлога — таких форм в предложениях не используй. ЗАДАНИЕ: дай пользователю сразу несколько английских предложений с пропуском (всего четыре), пронумерованных 1, 2, 3, 4, и попроси вставить в каждый подходящую связку. Списка вариантов не давай и в условии не подсказывай, где вычитание, а где добавление. ДЕРЖИ ПРЕДЛОЖЕНИЯ ПРОСТЫМИ: шесть–двенадцать слов, ходовая бытовая лексика, без придаточных и редких слов; каждое предложение должно само по себе показывать, входит названное в общую картину или выпадает из неё. В каждом наборе давай и вычитание, и добавление, и МЕНЯЙ ПОРЯДОК от запуска к запуску, чтобы вычитание не стояло всё время первым. ЧЕРЕДУЙ СЮЖЕТЫ, не повторяя один и тот же два раза подряд: 1. ЛЮДИ — кто пришёл, кто ответил, кто сдал экзамен; 2. ПОЕЗДКА ИЛИ ОТЕЛЬ — что было хорошо, а что нет; 3. ПОКУПКА — цена, качество, доставка; 4. РАБОТА — зарплата, график, коллеги. Один пропуск в наборе делай ОДНОЗНАЧНЫМ ИСКЛЮЧЕНИЕМ после общего слова everyone, everything или nobody — там проверяется except for; ещё один делай оборотом на добавление, где по смыслу нужен apart from that. ОЦЕНКА: верно, если связка отвечает смыслу предложения. Разбирай типовые ошибки по одной строке: поставил except for в добавление → скажи, что эта связка умеет только вычитать, и дай apart from; поставил besides в чистое исключение → скажи, что besides тянет к добавлению и читается как «к тому же»; написал except of или apart of → напомни, что хвост связки менять нельзя; написал other than в обычном утверждении → скажи, что оно живёт в отрицаниях и вопросах; поставил связку перед целой частью с подлежащим → покажи, что справа нужна вещь. ЗАСЧИТЫВАЙ apart from и aside from как полностью равные везде; засчитывай apart from там, где ты задумал except for, если смысл вычитания сохранён; голое except без for после everyone, everything и nobody тоже засчитывай. Если пользователь дописал лишние слова, но связка верная, — засчитывай. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: '1. Everyone passed the exam [___] Denis. 2. The flat is cold. [___] that, we like it. 3. The trip was great [___] the long drive. 4. Nobody knew the answer [___] the teacher.'
+
+#### Clarification Options
+
+- Как понять, вычитает apart from или прибавляет?
+- Почему except for нельзя поставить в значении «помимо этого»?
+- Правда ли, что besides и except for взаимозаменяемы?
+
+---
+
+### Words8r Sync · Причина, добавление, исключение
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|--------------|
+| thanks to | благодаря | [ˈθæŋks tuː] |
+| in addition to | вдобавок к, помимо | [ɪn əˈdɪʃn tuː] |
+| along with, together with | вместе с, заодно с | [əˈlɒŋ wɪð] / [təˈɡeðə wɪð] |
+| apart from, aside from | кроме, помимо (и исключение, и добавление) | [əˈpɑːt frəm] / [əˈsaɪd frəm] |
+| except for | кроме, за исключением (только исключение) | [ɪkˈsept fɔː] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 35 | 36 |
-| Microtopic | 223 | 224 |
-| Card | 607 | 608 |
-| Example | 2760 | 2761 |
-| Слова курса (course_word) | 854 | 855 |
-| MultipleChoice · CHOICE | 228 | 229 |
-| MultipleChoice · FORWARD_CHOICE | 248 | 249 |
-| MultipleChoice · REVERSE_CHOICE | 97 | 98 |
-| TrueFalse | 220 | 221 |
-| WordArrangement | 199 | 200 |
-| TextInput | 113 | 114 |
-| Matching | 101 | 102 |
-| ErrorCorrection | 213 | 214 |
-| FindTheOdd | 115 | 116 |
-| Categorization | 133 | 134 |
+| Microtopic | 224 | 225 |
+| Card | 610 | 611 |
+| Example | 2775 | 2776 |
+| Слова курса (course_word) | 859 | 860 |
+| MultipleChoice · CHOICE | 230 | 231 |
+| MultipleChoice · FORWARD_CHOICE | 249 | 250 |
+| MultipleChoice · REVERSE_CHOICE | 98 | 99 |
+| TrueFalse | 221 | 222 |
+| WordArrangement | 200 | 201 |
+| TextInput | 114 | 115 |
+| Matching | 102 | 103 |
+| ErrorCorrection | 214 | 215 |
+| FindTheOdd | 116 | 117 |
+| Categorization | 134 | 135 |
 | TableFill | 44 | 45 |
 | Transformation | 97 | 98 |
-| ConstructionMeaning | 81 | 82 |
+| ConstructionMeaning | 82 | 83 |
 | DialogRestore | 89 | 90 |

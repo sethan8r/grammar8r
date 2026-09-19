@@ -32,6 +32,13 @@
       "title": "According to · Источник и ракурс",
       "order": 3,
       "searchKeywords": "по словам кого-то, по-моему по-английски, что касается, в зависимости от погоды, независимо от"
+    },
+    {
+      "id": 224,
+      "topicId": 35,
+      "title": "Cause & Exception · Причина, добавление, исключение",
+      "order": 4,
+      "searchKeywords": "благодаря по-английски, спасибо тебе с сарказмом, вдобавок к, кроме тома все пришли, вместе с сестрой"
     }
   ],
   "grammar_cards": [
@@ -1120,6 +1127,537 @@
         "Почему depending on нельзя использовать как сказуемое?",
         "Когда уместно as to вместо as for?"
       ]
+    },
+    {
+      "id": 608,
+      "microtopicId": 224,
+      "title": "thanks to — благодаря, а иногда и «спасибо тебе»",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Причину мы называть уже умеем. В «Linking Words» разбирались `because of` и `due to` — обе значат «из-за» и обе нейтральны: им совершенно всё равно, хорошее случилось или плохое. **We were late because of the traffic** — просто факт, никакой оценки."
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот третья связка причины оценку как раз и несёт."
+        },
+        {
+          "type": "heading",
+          "text": "thanks to — причина, которой человек рад"
+        },
+        {
+          "type": "paragraph",
+          "text": "`thanks to` — дословно «благодаря», и русский аналог совпадает слово в слово. Это удобно: объяснять почти нечего, надо только увидеть совпадение."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Thanks to your help, we finished early.** — благодаря твоей помощи",
+            "**Thanks to the new road, the trip takes only an hour.** — благодаря новой дороге",
+            "**We found the place thanks to Kate.** — связка спокойно стоит и в конце"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Thanks to + причина"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Справа, как у всей породы, стоит вещь: человек, предмет, обстоятельство. Целую часть с подлежащим связка не держит — **Thanks to you helped me** ✗ не собирается, нужно **Thanks to your help** ✓."
+        },
+        {
+          "type": "heading",
+          "text": "Та же связка с обратным знаком"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь самое интересное. Поставьте `thanks to` перед чем-нибудь плохим — и благодарность мгновенно превращается в упрёк:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Thanks to you, we missed the train.** — «спасибо тебе, блин, поезд ушёл»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Формально это по-прежнему «благодаря тебе», но слушатель слышит сарказм. Никакого специального слова для этого не нужно: работает сам разрыв между вежливой формой и неприятным содержанием."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский делает ровно то же самое — «спасибо тебе за такую помощь» у нас звучит понятно как. Поэтому понимать этот приём легко; важно только знать, что английский пользуется им так же охотно, и не удивляться, услышав."
+        },
+        {
+          "type": "heading",
+          "text": "Какую связку брать"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что за причина",
+            "Связка",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "нейтральный факт",
+              "because of, due to",
+              "The match was cancelled because of the rain."
+            ],
+            [
+              "хорошее, есть за что сказать спасибо",
+              "thanks to",
+              "Thanks to Emma, I got the job."
+            ],
+            [
+              "плохое",
+              "thanks to звучит саркастично",
+              "Thanks to the traffic, we sat in the car for two hours."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не путайте `thanks to` со связкой `thanks for`. **Thanks for your help** — это живая реплика «спасибо за помощь», ответ человеку. **Thanks to your help, we finished early** — это причина внутри предложения. Написать **Thanks for your help, we finished early** ✗ — значит склеить благодарность и рассказ в одну кривую фразу."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`thanks to` = «благодаря»: называет причину и добавляет оценку, которой нет у нейтральных `because of` и `due to`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Thanks to + причина"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Хорошее — прямая благодарность: **Thanks to your help, we finished early.**",
+            "Плохое — сарказм: **Thanks to you, we missed the train.**",
+            "Связка стоит и в начале, и в конце: **We found the place thanks to Kate.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Thanks to you helped me** ✗ → **Thanks to your help** ✓ — справа вещь, а не целая часть",
+            "**Thanks for your help, we finished early** ✗ → **Thanks to your help, we finished early** ✓ — `thanks for` это отдельная реплика «спасибо за»"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Благодаря твоей помощи мы закончили рано.",
+          "en": "Thanks to your help, we finished early."
+        },
+        {
+          "ru": "Благодаря новой дороге поездка занимает всего час.",
+          "en": "Thanks to the new road, the trip takes only an hour."
+        },
+        {
+          "ru": "Мы нашли это место благодаря Кате.",
+          "en": "We found the place thanks to Kate."
+        },
+        {
+          "ru": "Спасибо тебе, мы опоздали на поезд.",
+          "en": "Thanks to you, we missed the train."
+        },
+        {
+          "ru": "Матч отменили из-за дождя.",
+          "en": "The match was cancelled because of the rain."
+        }
+      ],
+      "clarificationOptions": [
+        "Как собеседник понимает, что thanks to сказано с сарказмом?",
+        "Чем thanks to отличается от thanks for?",
+        "Можно ли вместо thanks to всегда сказать because of?"
+      ]
+    },
+    {
+      "id": 609,
+      "microtopicId": 224,
+      "title": "Добавление: in addition to и along with",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Две связки, которые добавляют к уже сказанному ещё один предмет. Обе простые, но у каждой припасена ловушка, и обе ловушки — ровно на ось темы."
+        },
+        {
+          "type": "heading",
+          "text": "in addition to — вдобавок к"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**In addition to the rent, you pay for electricity.** — вдобавок к аренде платите ещё и за электричество",
+            "**In addition to English, Nick speaks Spanish.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Связку `in addition to` и знакомое `in addition` без хвоста — это разные инструменты. `in addition` мы разбирали в «Linking Words»: оно значит «вдобавок, кроме того», начинает отдельное предложение и справа от себя ничего не требует. `in addition to` — предлог, и ему вещь нужна обязательно."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The flat is small. In addition, it's expensive.** ✓ — два самостоятельных предложения",
+            "**In addition to the small kitchen, the flat is expensive.** ✓ — связка держит вещь",
+            "**In addition to the flat is expensive.** ✗ — после `to` встала целая часть, и фраза развалилась"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это та же пара, что `because` и `because of`, только на другом слове. Одно лишнее `to` полностью меняет то, что связка может держать справа."
+        },
+        {
+          "type": "heading",
+          "text": "along with — вместе с, заодно с"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Sara sent the photos along with the report.** — отправила фотографии вместе с отчётом",
+            "**The price includes breakfast along with airport transfer.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рядом живёт `together with` — тот же смысл, просто чуть более книжное и чаще встречается на письме: **The invoice is attached together with the contract.** В разговоре привычнее `along with`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Подлежащее от этих связок не раздваивается"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот ловушка, которую слышно сразу. Сравните два способа сказать про Катю и её сестру:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Kate and her sister are coming.** — соединили союзом `and`, подлежащих стало двое, глагол во множественном",
+            "**Kate, along with her sister, is coming.** — подлежащее по-прежнему одно, Катя; сестра пришла добавлением, и глагол остался в единственном"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Kate, along with her sister, are coming** ✗ — рука тянется поставить множественное, потому что людей-то двое. Но `along with` не союз, а предлог: он не складывает подлежащие, а добавляет спутника сбоку. Глагол смотрит только на первое слово. То же самое с `in addition to`: **The kitchen, in addition to the bathroom, needs repair** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`in addition to` — «вдобавок к», `along with` — «вместе с, заодно с»; у обеих справа стоит вещь."
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**In addition, it's expensive.** — без хвоста, начинает отдельное предложение",
+            "**In addition to the rent, you pay for electricity.** — с хвостом `to`, держит вещь",
+            "**In addition to the flat is expensive** ✗ — целой части связка не держит"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Глагол не уходит во множественное"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Kate, along with her sister, is coming** ✓, а **are coming** ✗ — подлежащее одно, Катя",
+            "Двое подлежащих бывает только с `and`: **Kate and her sister are coming.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Together with` = `along with`, но книжнее."
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Вдобавок к аренде вы платите за электричество.",
+          "en": "In addition to the rent, you pay for electricity."
+        },
+        {
+          "ru": "Кроме английского Ник говорит по-испански.",
+          "en": "In addition to English, Nick speaks Spanish."
+        },
+        {
+          "ru": "Сара отправила фотографии вместе с отчётом.",
+          "en": "Sara sent the photos along with the report."
+        },
+        {
+          "ru": "Катя вместе с сестрой придёт.",
+          "en": "Kate, along with her sister, is coming."
+        },
+        {
+          "ru": "Счёт приложен вместе с договором.",
+          "en": "The invoice is attached together with the contract."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать In addition to the flat is expensive?",
+        "Когда лучше along with, а когда together with?",
+        "Почему глагол не становится множественным, если людей двое?"
+      ]
+    },
+    {
+      "id": 610,
+      "microtopicId": 224,
+      "title": "Четыре английских «кроме»",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русское «кроме» — слово-обманка. Оно спокойно означает две противоположные вещи, и мы этого не замечаем, потому что смысл всегда вытаскивает контекст."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Русская фраза",
+            "Что она значит"
+          ],
+          "rows": [
+            [
+              "Кроме Тома, все пришли.",
+              "Тома не было — исключение"
+            ],
+            [
+              "Кроме этого, поездка была отличной.",
+              "и это хорошо, и всё остальное — добавление"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первая вычитает, вторая прибавляет. Одно слово, два противоположных действия."
+        },
+        {
+          "type": "heading",
+          "text": "apart from работает точно так же"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое приятное в этой карточке: главная английская связка «кроме» двусмысленна ровно в той же степени, что и русская. Учить тут нечего — надо просто увидеть совпадение."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Apart from Tom, everyone came.** — Тома не было, исключение",
+            "**Apart from that, the trip was great.** — помимо этого, всё остальное тоже хорошо"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Как отличить: смотрим, входит ли названное в общую картину. Том в число пришедших не входит — значит вычитаем. То, о чём шла речь раньше, из общей хорошей картины не выпадает, к нему добавляется остальное — значит прибавляем."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Оборот `apart from that` («помимо этого») почти всегда работает на добавление — им подхватывают уже сказанное и ведут разговор дальше. Это ходовая разговорная связка, её стоит запомнить целиком."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "aside from — то же самое, но по-американски"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Aside from the noise, the flat is perfect.** Оба смысла у него те же, что у `apart from`, разница только в том, по какую сторону океана вы это услышите."
+        },
+        {
+          "type": "heading",
+          "text": "except for — только исключение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот связка, у которой второго смысла нет вовсе. `except for` всегда вычитает:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Everyone came except for Tom.** — все, кроме Тома",
+            "**The hotel was great except for the breakfast.** — всё хорошо, а вот завтрак нет"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому, когда нужно сказать однозначно и без шансов быть понятым наоборот, берут именно `except for`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Except for that, the trip was great** ✗ — так сказать не выйдет: `except for` умеет только вычитать, а здесь мы прибавляем. Нужно **Apart from that, the trip was great** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "besides — знакомое слово в этом же ряду"
+        },
+        {
+          "type": "paragraph",
+          "text": "`besides` мы уже сливали в «Linking Words» с переводом «к тому же, кроме, помимо» — то есть половина путаницы у нас в голове уже есть. Уточним: в живой современной речи `besides` тянет к **добавлению** — **Besides, it's too late to call him** («к тому же уже поздно»). Для чистого исключения безопаснее `except for`."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В том же ряду стоит `other than` — «кроме, не считая». Чаще всего оно встречается в отрицаниях и вопросах: **I don't know anyone here other than you.** Узнавать стоит, а говорить проще привычными связками."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Справа у всей четвёрки стоит вещь — как и у любого составного предлога. **Apart from it was raining, the day was nice** ✗ → **Apart from the rain, the day was nice** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «кроме» значит и «вычесть», и «прибавить» — английские связки делятся по этому признаку."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**apart from** и **aside from** (американский вариант) — оба смысла, решает контекст: **Apart from Tom, everyone came** (вычли) ↔ **Apart from that, the trip was great** (прибавили)",
+            "**except for** — только исключение: **Everyone came except for Tom.**",
+            "**besides** — тянет к добавлению: **Besides, it's too late to call him.**",
+            "**other than** — «не считая», чаще в отрицаниях и вопросах"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Except for that, the trip was great** ✗ → **Apart from that** ✓ — `except for` умеет только вычитать",
+            "**Apart from it was raining** ✗ → **Apart from the rain** ✓ — справа вещь, а не целая часть"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Кроме Тома, пришли все.",
+          "en": "Apart from Tom, everyone came."
+        },
+        {
+          "ru": "Кроме этого, поездка была отличной.",
+          "en": "Apart from that, the trip was great."
+        },
+        {
+          "ru": "Если не считать шума, квартира идеальная.",
+          "en": "Aside from the noise, the flat is perfect."
+        },
+        {
+          "ru": "Отель был отличный, кроме завтрака.",
+          "en": "The hotel was great except for the breakfast."
+        },
+        {
+          "ru": "Я тут никого не знаю, кроме тебя.",
+          "en": "I don't know anyone here other than you."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, вычитает apart from или прибавляет?",
+        "Почему except for нельзя поставить в значении «помимо этого»?",
+        "Правда ли, что besides и except for взаимозаменяемы?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1266,6 +1804,78 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 113,
       "orderInCard": 3
+    },
+    {
+      "cardId": 608,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 229,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 608,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 249,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 608,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 82,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 608,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 200,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 609,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 214,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 609,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 221,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 609,
+      "exerciseType": "MATCHING",
+      "exerciseId": 102,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 609,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 114,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 610,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 98,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 610,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 134,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 610,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 230,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 610,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 116,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1297,6 +1907,22 @@
       "id": "compound_prep_card607_ex1",
       "cardId": 607,
       "title": "Выбери связку",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую связку.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "compound_prep_card608_ex1",
+      "cardId": 608,
+      "title": "Назови причину",
+      "userInstruction": "ИИ даст одну русскую фразу с причиной. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "compound_prep_card610_ex1",
+      "cardId": 610,
+      "title": "Вычесть или прибавить",
       "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую связку.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
@@ -1414,6 +2040,46 @@
       "transcription": "[dɪˈpendɪŋ ɒn]",
       "microtopicId": 223,
       "categoryId": "linking"
+    },
+    {
+      "id": 855,
+      "word": "thanks to",
+      "translation": "благодаря",
+      "transcription": "[ˈθæŋks tuː]",
+      "microtopicId": 224,
+      "categoryId": "linking"
+    },
+    {
+      "id": 856,
+      "word": "in addition to",
+      "translation": "вдобавок к, помимо",
+      "transcription": "[ɪn əˈdɪʃn tuː]",
+      "microtopicId": 224,
+      "categoryId": "linking"
+    },
+    {
+      "id": 857,
+      "word": "along with, together with",
+      "translation": "вместе с, заодно с",
+      "transcription": "[əˈlɒŋ wɪð] / [təˈɡeðə wɪð]",
+      "microtopicId": 224,
+      "categoryId": "linking"
+    },
+    {
+      "id": 858,
+      "word": "apart from, aside from",
+      "translation": "кроме, помимо (и исключение, и добавление)",
+      "transcription": "[əˈpɑːt frəm] / [əˈsaɪd frəm]",
+      "microtopicId": 224,
+      "categoryId": "linking"
+    },
+    {
+      "id": 859,
+      "word": "except for",
+      "translation": "кроме, за исключением (только исключение)",
+      "transcription": "[ɪkˈsept fɔː]",
+      "microtopicId": 224,
+      "categoryId": "linking"
     }
   ],
   "table_fill_exercises": [],
@@ -1448,6 +2114,37 @@
         }
       ],
       "explanation": "составной предлог не теряет своих слов: правильно in spite of the cold и in front of the bank, целиком. В остальных трёх предложениях связка стоит полностью, а справа от неё — вещь, а не целая часть."
+    },
+    {
+      "id": 221,
+      "statements": [
+        {
+          "en": "Igor, along with his brother, is moving to Prague.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "In addition to the fee you pay a deposit.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Mia, along with her friends, are waiting outside.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "In addition to the shop was closed all day.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The teacher came along with two students.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "along with добавляет спутника, но подлежащее оставляет одно, поэтому у Мии нужен is. А после in addition to всегда идёт вещь: там, где началась целая часть с подлежащим, связка не работает."
     }
   ],
   "word_arrangement_exercises": [
@@ -1505,6 +2202,25 @@
         "According"
       ],
       "explanation": "источник тут Вера, а не сам говорящий, поэтому According to me не подходит. Связка ставится целиком: ни второе to, ни одинокое According её не заменят."
+    },
+    {
+      "id": 200,
+      "situationRu": "Ситуация: Друг одолжил зарядку, и телефон продержался весь день.",
+      "correctSentence": "Thanks to Jake, my phone lasted all day.",
+      "words": [
+        "Thanks to",
+        "Jake,",
+        "my phone",
+        "lasted",
+        "all day"
+      ],
+      "distractors": [
+        "Thanks for",
+        "to Jake",
+        "because",
+        "lasting"
+      ],
+      "explanation": "Джейк выручил, и человек ему благодарен — это thanks to целиком, без второго to. Реплика thanks for сюда не встаёт: она говорится человеку в лицо, а не рассказывается о нём."
     }
   ],
   "multiple_choice_exercises": [
@@ -1654,6 +2370,90 @@
         }
       ],
       "explanation": "Сэм ещё не решил, и решат за него пробки — это и есть depending on. Связка regardless of сказала бы обратное: что пробки ни на что не влияют."
+    },
+    {
+      "id": 229,
+      "choiceType": "CHOICE",
+      "prompt": "___ Oliver, I finally understood the task.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Because of",
+          "isCorrect": false
+        },
+        {
+          "text": "Thanks to",
+          "isCorrect": true
+        },
+        {
+          "text": "Thanks for",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "человек рад результату и благодарен Оливеру, а такую причину вводит thanks to. Because of назвало бы факт без оценки, а thanks for — это отдельная реплика «спасибо за», а не связка внутри предложения."
+    },
+    {
+      "id": 249,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Благодаря совету врача Лена спит гораздо лучше.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Lena sleeps much better thanks for the doctor's advice.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena sleeps much better because of the doctor's advice.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena sleeps much better thanks to the doctor's advice.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "совет помог, и человек этому рад — это thanks to. Вариант с because of передал бы только факт, без благодарности, а thanks for в середину предложения не встаёт."
+    },
+    {
+      "id": 98,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Apart from the price, the laptop is excellent.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Ноутбук отличный, если не считать цену.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ноутбук отличный, и цена тоже хорошая.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кроме ноутбука, отлично всё остальное.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "цена из общей хорошей картины выпадает, значит связка здесь вычитает. Если бы цена в эту картину входила, вышло бы добавление — как в Apart from that, the trip was great."
+    },
+    {
+      "id": 230,
+      "choiceType": "CHOICE",
+      "prompt": "The concert was perfect ___ the long queue at the entrance.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "besides",
+          "isCorrect": false
+        },
+        {
+          "text": "other than",
+          "isCorrect": false
+        },
+        {
+          "text": "except for",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "очередь из общей картины выпадает, и здесь нужна связка, которая умеет только вычитать. Besides повело бы в добавление, а other than в утверждении звучит неестественно — оно живёт в отрицаниях и вопросах."
     }
   ],
   "text_input_exercises": [
@@ -1711,6 +2511,31 @@
         "in terms of",
         "as for"
       ]
+    },
+    {
+      "id": 114,
+      "items": [
+        {
+          "sentence": "Lucy, along with her parents, ___ arriving on Friday.",
+          "contextRu": "",
+          "answer": "is",
+          "alternatives": []
+        },
+        {
+          "sentence": "The manager, in addition to two engineers, ___ at the meeting.",
+          "contextRu": "",
+          "answer": "was",
+          "alternatives": []
+        },
+        {
+          "sentence": "Paul and his brother ___ moving to a new flat.",
+          "contextRu": "",
+          "answer": "are",
+          "alternatives": []
+        }
+      ],
+      "explanation": "along with и in addition to подлежащее не складывают — оно остаётся одно, и глагол идёт за ним. Двое подлежащих получается только через and, и вот тогда нужна форма множественного числа.",
+      "taskDescription": "Поставь глагол to be в нужную форму."
     }
   ],
   "dialog_restore_exercises": [],
@@ -1795,6 +2620,29 @@
         }
       ],
       "explanation": "все пять связок держат разговор, но каждая по-своему: одна ссылается, вторая меняет тему, третья выбирает сторону, четвёртая игнорирует помеху, пятая оставляет исход открытым."
+    },
+    {
+      "id": 102,
+      "taskDescription": "соедини начало фразы с подходящим продолжением.",
+      "pairs": [
+        {
+          "left": "The laptop is slow. In addition,",
+          "right": "the battery is dead."
+        },
+        {
+          "left": "In addition to the salary,",
+          "right": "they offer free lunches."
+        },
+        {
+          "left": "Tom, along with his wife,",
+          "right": "works in a hospital."
+        },
+        {
+          "left": "Send the photos along with",
+          "right": "the application form."
+        }
+      ],
+      "explanation": "in addition без хвоста начинает новое предложение, а in addition to требует вещь. После along with тоже стоит вещь, и глагол при этом смотрит только на первое подлежащее — отсюда works, а не work."
     }
   ],
   "error_correction_exercises": [
@@ -1873,6 +2721,25 @@
         }
       ],
       "explanation": "according to называет чужой источник, поэтому сослаться им на себя нельзя. Своё мнение вводят словами in my opinion или I think."
+    },
+    {
+      "id": 214,
+      "wrongSentence": "In addition to the room is very noisy.",
+      "options": [
+        {
+          "text": "In addition the room is very noisy.",
+          "isCorrect": false
+        },
+        {
+          "text": "In addition to the traffic noise, the room is very noisy.",
+          "isCorrect": true
+        },
+        {
+          "text": "In addition of the room is very noisy.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после in addition to обязана стоять вещь, а тут начиналась целая часть с подлежащим. Либо добавляем связке вещь, либо берём in addition без хвоста — но тогда это отдельное предложение, а не связка."
     }
   ],
   "construction_meaning_exercises": [
@@ -1898,6 +2765,29 @@
         }
       ],
       "explanation": "связка называет источник сведений, а не действующее лицо: закрывает магазин кто-то другой, а Лили только сказала об этом. Говорящий за эти слова не ручается."
+    },
+    {
+      "id": 82,
+      "construction": "Thanks to Ben, I waited an hour in the rain.",
+      "options": [
+        {
+          "text": "Я поблагодарил Бена, пока ждал под дождём.",
+          "isCorrect": false
+        },
+        {
+          "text": "Спасибо Бену, я прождал час под дождём.",
+          "isCorrect": true
+        },
+        {
+          "text": "Бен помог мне переждать этот час под дождём.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я ждал Бена целый час под дождём.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "форма вежливая, а содержание неприятное — значит это сарказм, и Бен тут виноват, а не помог. Английский пользуется этим приёмом так же, как русское «спасибо тебе за такую помощь»."
     }
   ],
   "transformation_exercises": [],
@@ -1947,6 +2837,29 @@
         }
       ],
       "explanation": "regardless of отмахивается от помехи — дело будет сделано в любом случае. Depending on, наоборот, оставляет исход открытым: он определится потом, по обстоятельствам."
+    },
+    {
+      "id": 134,
+      "taskDescription": "распредели фразы по тому, что делает связка.",
+      "categories": [
+        {
+          "title": "Вычитает",
+          "items": [
+            "Apart from Nick, nobody replied.",
+            "Everyone passed except for Jake.",
+            "The food was fine except for the soup."
+          ]
+        },
+        {
+          "title": "Прибавляет",
+          "items": [
+            "Apart from that, I like the plan.",
+            "Besides, we have no time.",
+            "Apart from this, everything is ready."
+          ]
+        }
+      ],
+      "explanation": "вычитание убирает названное из общей картины: Ник не ответил, Джейк не сдал, суп был невкусный. Добавление, наоборот, подхватывает уже сказанное и ведёт дальше — таковы обороты apart from that и besides."
     }
   ],
   "find_the_odd_exercises": [
@@ -1972,6 +2885,29 @@
         }
       ],
       "explanation": "артикль внутри этой связки стоит всегда — правильно in the middle of. Остальные три собраны полностью и ничего не потеряли."
+    },
+    {
+      "id": 116,
+      "groupDescription": "Три связки умеют вычитать, а одна только прибавляет",
+      "items": [
+        {
+          "text": "apart from",
+          "isOdd": false
+        },
+        {
+          "text": "except for",
+          "isOdd": false
+        },
+        {
+          "text": "besides",
+          "isOdd": true
+        },
+        {
+          "text": "aside from",
+          "isOdd": false
+        }
+      ],
+      "explanation": "besides в живой речи тянет к добавлению — «к тому же». Остальные три спокойно убирают названное из общей картины, а apart from и aside from умеют ещё и прибавлять."
     }
   ]
 }
