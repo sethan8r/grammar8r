@@ -18,6 +18,13 @@
       "title": "Gerund · Герундий: -ing вместо существительного",
       "order": 1,
       "searchKeywords": "что значит reading, reading это continuous или нет, to это предлог или частица, русский инфинитив вместо английского"
+    },
+    {
+      "id": 228,
+      "topicId": 36,
+      "title": "Verb + -ing · Глаголы только с -ing",
+      "order": 2,
+      "searchKeywords": "enjoy finish avoid, suggested to go ошибка, какой глагол что требует, признался что сделал, do you mind как отвечать"
     }
   ],
   "grammar_cards": [
@@ -461,6 +468,789 @@
         "Как понять, что to передо мной — предлог, а не часть инфинитива?",
         "Всегда ли русское «делать что-то» переводится формой на -ing?"
       ]
+    },
+    {
+      "id": 616,
+      "microtopicId": 228,
+      "title": "Два списка рядом: to или -ing",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы договорились: сказуемое в предложении одно, поэтому второй глагол обязан сменить форму. Теперь уточнение, без которого правило не работает: **форму выбираем не мы**. Её требует первый глагол — хозяин фразы. `want` требует `to`, `enjoy` требует `-ing`, и «мне так больше нравится» тут не работает: это свойство самого глагола, как род у русского существительного."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому глаголы английского делятся на списки. Один из них мы уже знаем."
+        },
+        {
+          "type": "heading",
+          "text": "Список первый: после них стоит to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Его мы разбирали в «Инфинитиве», так что просто освежим. Сюда входят **want**, **need**, **plan**, **decide**, **hope**, **agree**, **refuse**, **promise**, **expect**, **learn** — и общее у них ровно одно: все они смотрят вперёд, на дело, которого пока нет. **Igor decided to sell his old car** — машина ещё не продана, есть только решение."
+        },
+        {
+          "type": "heading",
+          "text": "Список второй: после них стоит только -ing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот он и есть новое в этой микротеме. После этих глаголов `to` не просто нежелателен — он невозможен: **enjoy**, **finish**, **avoid**, **keep**, **practise**, **consider**, **imagine**, **miss**, **mind**, **risk**, **suggest**, **admit**, **deny**, **mention**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Глагол из второго списка + второй глагол + `-ing`"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл у них другой: они не смотрят вперёд, а работают с действием как с вещью — наслаждаются им, заканчивают его, уклоняются от него, вспоминают о нём. **She enjoys fixing old bikes** — чинит она давно и с удовольствием, никакого «собирается» тут нет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ошибки идут в обе стороны, и обе живые. **I enjoy to read** ✗ → **I enjoy reading** ✓, потому что `enjoy` держит справа вещь. И наоборот: **I want reading** ✗ → **I want to read** ✓, потому что `want` смотрит вперёд."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как не зубрить второй список"
+        },
+        {
+          "type": "paragraph",
+          "text": "Список выглядит длинным, но он собирается в пять смысловых гнёзд, и глаголы в них попали не случайно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "начало, конец, продолжение: **finish**, **keep**, **give up**;",
+            "удовольствие и отношение: **enjoy**, **mind**, **can't stand**;",
+            "уклонение от действия: **avoid**, **risk**;",
+            "мысль о действии: **consider**, **imagine**;",
+            "речь о том, что уже было: **admit**, **deny**, **mention**, **suggest**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Общее у всех пяти гнёзд одно: действие в них названо как вещь — то, чем наслаждаются, что заканчивают, от чего уклоняются, о чём говорят. Вот почему там `-ing`, а не `to`."
+        },
+        {
+          "type": "heading",
+          "text": "Время держит первый глагол"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сам герундий по временам не меняется — вообще никогда. Меняется только глагол-хозяин: **I enjoy reading** → **I enjoyed reading** → **I have enjoyed reading**. Хвостик `-ing` всё это время стоит как стоял."
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика знакомая: так же работает `did` в Past Simple — прошедшее время держит помощник, а главный глагол остаётся в начальной форме. Английский вообще не любит, когда время помечено дважды."
+        },
+        {
+          "type": "heading",
+          "text": "У герундия остаётся глагольный хвост"
+        },
+        {
+          "type": "paragraph",
+          "text": "Герундий — вещь, но вещь особенная: дополнение и обстоятельства при нём стоят так же, как при обычном глаголе, и в том же порядке. **I enjoy reading books in bed** · **He admitted breaking the window yesterday** · **She avoids talking about work**."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски дословно выходит канцелярское «чтение книг в кровати», и рука тут же лезет переставлять слова на русский лад."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I enjoy books reading** ✗ → **I enjoy reading books** ✓. Порядок после герундия остаётся глагольным: сначала само действие, потом то, на что оно направлено. Это важно не для красоты — без этого не собрать ни одной длинной фразы."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше разберём второй список по частям, и начнём с его ядра — девяти глаголов, которые встречаются каждый день."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Форму второго глагола требует первый — глагол-хозяин, выбора у говорящего нет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Смотрит вперёд, дела ещё нет → `to`: **want**, **need**, **plan**, **decide**, **hope**, **agree**, **refuse**, **promise**, **expect**, **learn**",
+            "Работает с действием как с вещью → `-ing`: **enjoy**, **finish**, **avoid**, **keep**, **practise**, **consider**, **imagine**, **miss**, **mind**, **risk**, **suggest**, **admit**, **deny**, **mention**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I enjoy to read** ✗ → **I enjoy reading** ✓ — `enjoy` держит справа вещь",
+            "**I want reading** ✗ → **I want to read** ✓ — `want` смотрит вперёд",
+            "**I enjoy books reading** ✗ → **I enjoy reading books** ✓ — после герундия порядок глагольный"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Время"
+        },
+        {
+          "type": "paragraph",
+          "text": "Герундий не меняется никогда, время держит первый глагол: **I enjoy reading** → **I enjoyed reading**."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Игорь решил продать свою старую машину.",
+          "en": "Igor decided to sell his old car."
+        },
+        {
+          "ru": "Катя обожает чинить старые велосипеды.",
+          "en": "Kate enjoys fixing old bikes."
+        },
+        {
+          "ru": "Мы планируем переехать весной.",
+          "en": "We plan to move in the spring."
+        },
+        {
+          "ru": "Она избегает говорить о работе.",
+          "en": "She avoids talking about work."
+        },
+        {
+          "ru": "Вчера Тёма отказался нам помочь.",
+          "en": "Yesterday Artyom refused to help us."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя просто запомнить одно правило вместо двух списков?",
+        "Как понять, в каком списке глагол, если я вижу его впервые?",
+        "Почему герундий не меняется, когда предложение уходит в прошедшее?"
+      ]
+    },
+    {
+      "id": 617,
+      "microtopicId": 228,
+      "title": "Ядро списка: enjoy, finish, avoid, keep, practise",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Второй список длинный, но в живой речи крутятся девять глаголов. Разберём их по одному — не ради зубрёжки, а потому что у половины смысл шире русского перевода, и ошибаются люди чаще именно в смысле, а не в форме."
+        },
+        {
+          "type": "heading",
+          "text": "enjoy, finish, practise — про сам процесс"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самые понятные. **Sonya enjoys cooking for her friends** · **They finished painting the fence** · **He practises speaking English every morning**. У всех трёх справа стоит занятие целиком, названное как вещь."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I finished to work** ✗ → **I finished working** ✓. Русское «закончил работать» толкает прямо в эту ошибку: у нас там начальная форма, у них — название действия."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Британцы пишут **practise** глаголом и **practice** существительным, американцы обходятся одним **practice** для обоих случаев. Ошибки нет ни там, ни там — просто не пугайтесь, увидев второе написание."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "keep — «всё время» и «продолжать»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Этот глагол русского сбивает, потому что в словаре он «держать». После `-ing` он значит другое: действие повторяется или не прекращается, часто с оттенком досады. **He keeps asking me the same question** — «всё время спрашивает». **The baby kept crying all night** — «не переставал плакать»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакого «держать» тут нет, и переводить `keep` отдельным словом бессмысленно — переводится вся связка целиком."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это лишь одна из работ `keep`. Тем же словом говорят **Keep the change** (сдачи не надо), **Keep the door open** (держи дверь открытой) и **Keep in touch** (оставайся на связи) — все значения разом, с общим корнем смысла, разложены в теме «Одно слово — много значений». Нам здесь важна только форма после него."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "miss — скучать по занятию"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё один обманщик. **I miss living near the sea** — не «пропускаю», а «скучаю по тому, как жил у моря». Русскому непривычно, что скучать можно **по действию**, а не только по человеку или месту, — а по-английски это обычное дело: **She misses walking in the park before work**."
+        },
+        {
+          "type": "heading",
+          "text": "avoid и risk — уклонение от действия"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Kate avoids talking about money** — старается не говорить, обходит тему стороной. **Don't risk losing your passport** — не рискуй потерять."
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика та же самая: уклоняются от чего? от разговора. Рискуют чем? потерей. Справа стоит вещь, потому и `-ing`."
+        },
+        {
+          "type": "heading",
+          "text": "consider и imagine — мысль о действии"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тут у внимательного человека возникает законный вопрос. «Обдумываю переезд» — это же явно про будущее, дело ещё не сделано. Почему тогда не `to`?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Потому что ось темы — не про время, а про **роль**. Спросите себя: обдумываю **что?** — переезд. Это вещь, предмет размышления, и неважно, случится он или нет. **Kate is considering moving to Prague** · **Imagine living in a house by the lake**. Форма смотрит не на календарь, а на то, чем действие работает в предложении."
+        },
+        {
+          "type": "heading",
+          "text": "Что мы уже видели раньше"
+        },
+        {
+          "type": "paragraph",
+          "text": "Два глагола из этого списка вам знакомы по «Императиву»: **Stop shouting** — останови то, что идёт прямо сейчас, и **Don't bother calling him, he's asleep** — не трудись звонить. Механика у них ровно та же, что у `enjoy` и `finish`; тогда мы взяли их как готовые фразы, а теперь видно, почему они устроены именно так."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Девять ходовых глаголов второго списка — после каждого только `-ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**enjoy**, **finish**, **practise** — занятие целиком: **They finished painting the fence**",
+            "**keep** — «всё время, не переставая», а не «держать»: **He keeps asking the same question**",
+            "**miss** — скучать по занятию: **I miss living near the sea**",
+            "**avoid**, **risk** — уклонение: **Don't risk losing your passport**",
+            "**consider**, **imagine** — мысль о действии: **Kate is considering moving to Prague**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I finished to work** ✗ → **I finished working** ✓",
+            "**I consider to move** ✗ → **I consider moving** ✓ — обдумываю что? переезд, это вещь"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Бен всё время задаёт один и тот же вопрос.",
+          "en": "Ben keeps asking the same question."
+        },
+        {
+          "ru": "Я скучаю по жизни у моря.",
+          "en": "I miss living near the sea."
+        },
+        {
+          "ru": "Не рискуй потерять эти документы.",
+          "en": "Don't risk losing these documents."
+        },
+        {
+          "ru": "Катя обдумывает переезд в Прагу.",
+          "en": "Kate is considering moving to Prague."
+        },
+        {
+          "ru": "Соня каждое утро отрабатывает произношение.",
+          "en": "Sonya practises speaking every morning."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему keep переводится «всё время», если в словаре это «держать»?",
+        "Почему после consider стоит -ing, если переезд ещё не случился?",
+        "Можно ли сказать I miss to live near the sea?"
+      ]
+    },
+    {
+      "id": 618,
+      "microtopicId": 228,
+      "title": "Про то, что уже случилось: deny, admit, suggest, recommend",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть в списке отдельная компания глаголов — те, которыми говорят о поступке: признаются в нём, отрицают его, упоминают о нём, предлагают его. И здесь ось темы работает буквально, как нигде больше."
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда человек признаётся или отрицает, действие **уже было**. Намерения нет, впереди ничего не ждёт — есть только факт, о котором идёт речь. А раз факт, значит вещь, значит `-ing`. Это не очередной список на зубрёжку, а прямое следствие правила."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He denied taking the money.** — отрицал, что брал деньги;",
+            "**Sonya admitted breaking the vase.** — призналась, что разбила вазу;",
+            "**Ben mentioned seeing Kate at the café.** — упомянул, что видел Катю в кафе."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание, чем русский переводит все три: целой частью «что он делал». Английский обходится одним словом с хвостиком — и в этом вся разница между языками на этом месте."
+        },
+        {
+          "type": "heading",
+          "text": "suggest и recommend — два одинаковых промаха русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эти два глагола ломают русских чаще всех остальных в теме, причём ломают одинаково."
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим «предложил **пойти**» и «советую **забронировать**» — и рука автоматически пишет **He suggested to go** ✗ и **I recommend to book** ✗. Верно: **He suggested going** ✓ и **I recommend booking a table early** ✓."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "И вторая половина той же беды — **He suggested me to go** ✗. Глагол `suggest` не берёт человека прямым объектом вообще: сказать «предложил **мне**» этой конструкцией нельзя."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как сказать, кому именно предложили"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз прямой объект `suggest` не принимает, у нас есть второй законный выход — целая часть с `that`: **He suggested that we go by train** ✓ · **I recommend that you book early** ✓. Смысл чуть точнее, потому что названо, кто именно должен действовать."
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило простое: нужно только действие — берём `-ing`; нужно назвать исполнителя — берём часть с `that`. Между собой они равноправны, разговорнее звучит первый."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `advise` всё устроено так же (**I'd advise booking early**), просто звучит он суше и официальнее — на слух его узнавать стоит, а в своей речи достаточно `recommend`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "refuse и deny: отказ смотрит вперёд, отрицание — назад"
+        },
+        {
+          "type": "paragraph",
+          "text": "Лучшая пара всей микротемы, потому что по-русски оба глагола крутятся вокруг «нет», а формы у них разные:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He refused to pay the bill.** — отказался платить. Платежа **не было** и не будет, это взгляд вперёд, поэтому `to`;",
+            "**He denied taking the money.** — отрицал, что брал. Речь о том, что **уже случилось**, взгляд назад, поэтому `-ing`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Запоминать тут нечего: достаточно спросить себя, куда смотрит фраза — на несделанное дело или на свершившийся факт."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Книжный вариант того же самого — **He admitted having taken the money**. Смысл ровно тот же, просто подчёркнуто, что дело было раньше разговора. Достаточно узнавать в лицо, самому так говорить не нужно. Чем `deny` отличается по смыслу от `refuse` и `reject`, разберём в теме «Косвенная речь» — здесь нас занимает только форма."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Глаголы речи о поступке — **deny**, **admit**, **mention**, **suggest**, **recommend** — держат справа `-ing`: действие уже было, значит это факт, то есть вещь."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He denied taking the money** ✓ · **Sonya admitted breaking the vase** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He suggested to go** ✗ → **He suggested going** ✓",
+            "**I recommend to book** ✗ → **I recommend booking early** ✓",
+            "**He suggested me to go** ✗ — `suggest` не берёт человека прямым объектом"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как назвать исполнителя"
+        },
+        {
+          "type": "paragraph",
+          "text": "Нужно только действие → `-ing`; нужно сказать, кто действует → часть с `that`: **He suggested that we go by train** ✓"
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He refused to pay** — отказался, дела не было: взгляд вперёд, `to`",
+            "**He denied taking the money** — отрицал сделанное: взгляд назад, `-ing`"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Он отрицал, что брал деньги.",
+          "en": "He denied taking the money."
+        },
+        {
+          "ru": "Соня призналась, что разбила вазу.",
+          "en": "Sonya admitted breaking the vase."
+        },
+        {
+          "ru": "Бен упомянул, что видел Катю в кафе.",
+          "en": "Ben mentioned seeing Kate at the café."
+        },
+        {
+          "ru": "Гид предложил начать с музея.",
+          "en": "The guide suggested starting with the museum."
+        },
+        {
+          "ru": "Я советую бронировать столик заранее.",
+          "en": "I recommend booking a table early."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать He suggested me to go, если по-русски «предложил мне»?",
+        "Когда брать -ing, а когда часть с that?",
+        "Чем deny отличается от refuse, если оба про «нет»?"
+      ]
+    },
+    {
+      "id": 619,
+      "microtopicId": 228,
+      "title": "Отрицание, вопрос и глагол mind",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форму мы разобрали, но предложение бывает не только утвердительным. Посмотрим, что происходит с герундием в отрицании и в вопросе — и заодно разберём `mind`, самый вежливый глагол списка."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: not встаёт прямо перед -ing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакого помощника здесь не появляется — ни `don't`, ни `doesn't`, ни `didn't`. Просто `not`, и сразу за ним форма на `-ing`: **I enjoy not working on Mondays** · **He admitted not telling the truth** · **Sorry for not calling you yesterday**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Not` + второй глагол + `-ing`"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русская фраза «за то, что не позвонил» — это целая часть с глаголом, поэтому рука тянется к помощнику: **sorry for don't call** ✗. И второй обломок — **sorry for not to call** ✗. Верно только **sorry for not calling** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос делает первый глагол"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот тут всё привычно: вопрос собирает глагол-хозяин, ровно как в любом другом предложении, а герундий стоит и не шевелится. **Do you mind waiting?** · **Have you finished eating?** · **Did he admit taking it?**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицательный вопрос тоже обычный: **Don't you mind waiting?** — «тебе что, правда всё равно?», с лёгким удивлением."
+        },
+        {
+          "type": "heading",
+          "text": "mind — «быть против»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Дословно `mind` значит «возражать, быть против», и на этом стоит вся вежливость конструкции. **Do you mind waiting five minutes?** — буквально «ты против подождать пять минут?»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда и знакомая вам формула из «Косвенных вопросов»: **Would you mind telling me where the station is?** Теперь понятно, откуда там `telling`: `mind` — глагол второго списка, он держит справа название действия. Почему там `would`, а не `do`, разберём в «Модальных глаголах»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Быть против» — не единственная работа этого слова. Тем же `mind` говорят **Mind the gap** (осторожно, зазор) и **Never mind** (неважно, забей), а `mind` существительным — это вообще «мысли, голова». Всю карту значений разложим в теме «Одно слово — много значений»; здесь нас занимает только форма после него."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Просьба за себя и просьба за другого"
+        },
+        {
+          "type": "paragraph",
+          "text": "Две конструкции, которые легко перепутать, потому что по-русски обе звучат «можно?»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Do you mind opening the window?** — прошу **тебя** открыть окно;",
+            "**Do you mind if I open the window?** — прошу за **себя**, то есть спрашиваю разрешения."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Во второй после `if` идёт целая часть с подлежащим, и герундий там не нужен вовсе. Обе фразы вежливы и ходовы — важно только не перепутать, кто в итоге будет открывать окно."
+        },
+        {
+          "type": "heading",
+          "text": "Почему «да» здесь читается как отказ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз вопрос буквально спрашивает «ты против?», то согласие — это отрицание. Русский на автомате отвечает «да» и получает ровно обратный смысл:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Kate",
+              "text": "Do you mind waiting a couple of minutes?",
+              "note": "Спрашивает, против ли ты"
+            },
+            {
+              "speaker": "Me",
+              "text": "No, not at all.",
+              "note": "«Не против» — то есть согласен подождать"
+            },
+            {
+              "speaker": "Kate",
+              "text": "Thanks, I'll be quick.",
+              "note": "Поняла как согласие"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ответ **Yes** здесь прочитается как «да, я против» — то есть как отказ, хотя человек хотел согласиться. Безопасные согласия: **No, not at all** · **Of course not** · **Go ahead**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Если действие делает другой человек"
+        },
+        {
+          "type": "paragraph",
+          "text": "Этот человек ставится прямо перед `-ing` — без предлога и без `that`: **I don't mind you being late** — «я не против, что ты опаздываешь». **Thanks for helping me** — спасибо, что помог."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В книжной речи на этом месте встречается **your being late** вместо `you being late`. Смысл тот же, узнавать в лицо достаточно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Глагол + кого + -ing: застал, оставил, держишь"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот же порядок «кто делает → что делает», только человек стоит сразу после глагола-хозяина:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Sorry to keep you waiting.** — извини, что заставил ждать;",
+            "**She caught him smoking on the balcony.** — застала его за курением;",
+            "**I found the kids drawing on the wall.** — застал детей за рисованием;",
+            "**He left the engine running.** — оставил двигатель работать."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Общее у всех одно: кого-то застали, оставили или держат **в процессе** — действие в этот момент шло. Поэтому справа и стоит длительная форма."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский берёт здесь придаточное — «застала, **как он курил**», — и рождается **She caught that he smoked** ✗. По-английски целая часть тут не нужна: человек и его занятие ставятся подряд, **caught him smoking** ✓."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "heading",
+          "text": "Отрицание"
+        },
+        {
+          "type": "paragraph",
+          "text": "`not` встаёт прямо перед `-ing`, помощник не появляется: **Sorry for not calling** ✓"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**sorry for don't call** ✗ и **sorry for not to call** ✗ — здесь не целая часть, а одна форма"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Собирает первый глагол, герундий не меняется: **Do you mind waiting?** · **Have you finished eating?** · отрицательный — **Don't you mind waiting?**"
+        },
+        {
+          "type": "heading",
+          "text": "mind = «быть против»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Do you mind opening the window?** — прошу тебя",
+            "**Do you mind if I open the window?** — прошу за себя, после `if` целая часть",
+            "Согласие — **No, not at all** / **Of course not**; **Yes** читается как отказ"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Кто делает действие"
+        },
+        {
+          "type": "paragraph",
+          "text": "Человек ставится прямо перед `-ing`, без предлога и без `that`: **I don't mind you being late** ✓ · **She caught him smoking** ✓ · **She caught that he smoked** ✗"
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ты не против подождать десять минут?",
+          "en": "Do you mind waiting ten minutes?"
+        },
+        {
+          "ru": "Извини, что не предупредила тебя.",
+          "en": "Sorry for not telling you."
+        },
+        {
+          "ru": "Он признался, что не сказал правду.",
+          "en": "He admitted not telling the truth."
+        },
+        {
+          "ru": "Ты не против, если я открою окно?",
+          "en": "Do you mind if I open the window?"
+        },
+        {
+          "ru": "Она застала его за курением на балконе.",
+          "en": "She caught him smoking on the balcony."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему на Do you mind нельзя ответить Yes, если я согласен?",
+        "Чем Do you mind opening отличается от Do you mind if I open?",
+        "Почему перед -ing ставится not, а не don't?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -499,9 +1289,114 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 250,
       "orderInCard": 2
+    },
+    {
+      "cardId": 616,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 138,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 616,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 232,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 616,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 201,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 617,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 115,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 617,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 99,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 617,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 216,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 618,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 251,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 618,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 84,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 618,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 118,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 619,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 116,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 619,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 91,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 619,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 98,
+      "orderInCard": 2
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "gerund_card616_ex1",
+      "cardId": 616,
+      "title": "Какую форму требует глагол",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый глагол из скобок в нужной форме.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card617_ex1",
+      "cardId": 617,
+      "title": "Скажи про занятие",
+      "userInstruction": "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "gerund_card618_ex1",
+      "cardId": 618,
+      "title": "Признался или отказался",
+      "userInstruction": "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "gerund_card619_ex1",
+      "cardId": 619,
+      "title": "Отрицание и вопрос",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую форму.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "useful_words",
@@ -518,7 +1413,56 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 860,
+      "word": "to avoid",
+      "translation": "избегать, стараться не делать",
+      "transcription": "[tuː əˈvɔɪd]",
+      "microtopicId": 228,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 861,
+      "word": "to consider",
+      "translation": "обдумывать, рассматривать",
+      "transcription": "[tuː kənˈsɪdə]",
+      "microtopicId": 228,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 862,
+      "word": "to admit",
+      "translation": "признавать, признаваться",
+      "transcription": "[tuː ədˈmɪt]",
+      "microtopicId": 228,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 863,
+      "word": "to deny",
+      "translation": "отрицать",
+      "transcription": "[tuː dɪˈnaɪ]",
+      "microtopicId": 228,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 864,
+      "word": "to recommend",
+      "translation": "советовать, рекомендовать",
+      "transcription": "[tuː ˌrekəˈmend]",
+      "microtopicId": 228,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 865,
+      "word": "to mention",
+      "translation": "упоминать",
+      "transcription": "[tuː ˈmenʃn]",
+      "microtopicId": 228,
+      "categoryId": "useful_words"
+    }
+  ],
   "table_fill_exercises": [],
   "true_false_exercises": [
     {
@@ -553,7 +1497,26 @@
       "explanation": "во втором предложении нужно suggested going, в пятом — instead of taking: и после глагола suggest, и после связки instead of встаёт название действия, а не начальная форма с to. Остальные три предложения собраны верно."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 201,
+      "situationRu": "Ситуация: Денис рассказывает, что бросил долгие споры и просто согласился помочь другу.",
+      "correctSentence": "Denis agreed to help his friend.",
+      "words": [
+        "Denis",
+        "agreed",
+        "to help",
+        "his friend"
+      ],
+      "distractors": [
+        "helping",
+        "to helping",
+        "help",
+        "agreeing"
+      ],
+      "explanation": "agree смотрит вперёд — помощь ещё не оказана, есть только согласие, поэтому нужна форма с to. Варианты helping и to helping не годятся: -ing после agree не встаёт вообще."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 231,
@@ -596,10 +1559,167 @@
         }
       ],
       "explanation": "после finish стоит название действия — cleaning. Вариант с to повторяет русскую фразу слово в слово, но по-английски так не говорят; голый глагол не годится тем более."
+    },
+    {
+      "id": 232,
+      "choiceType": "CHOICE",
+      "prompt": "Vera has finished ___ the report.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "to write",
+          "isCorrect": false
+        },
+        {
+          "text": "writing",
+          "isCorrect": true
+        },
+        {
+          "text": "write",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "finish входит во второй список: он заканчивает не «намерение», а само занятие, поэтому справа стоит название действия — writing. Форма с to после finish невозможна."
+    },
+    {
+      "id": 99,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Nick keeps losing his keys.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Ник всё время теряет ключи.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ник держит ключи при себе.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ник собирается спрятать ключи.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "keep + -ing означает, что действие повторяется снова и снова, часто с досадой. Значение «держать» у этого глагола здесь не работает вовсе."
+    },
+    {
+      "id": 251,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Марина предложила поехать на поезде.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Marina suggested to go by train.",
+          "isCorrect": false
+        },
+        {
+          "text": "Marina suggested us to go by train.",
+          "isCorrect": false
+        },
+        {
+          "text": "Marina suggested going by train.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после suggest стоит название действия, поэтому going. Вариант с us невозможен вовсе: suggest не берёт человека прямым объектом — чтобы назвать исполнителя, нужна часть с that (suggested that we go by train)."
     }
   ],
-  "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 115,
+      "items": [
+        {
+          "sentence": "Oliver keeps ___ to our meetings.",
+          "contextRu": "",
+          "answer": "being late",
+          "alternatives": []
+        },
+        {
+          "sentence": "Lena avoids ___ at night.",
+          "contextRu": "",
+          "answer": "driving",
+          "alternatives": []
+        },
+        {
+          "sentence": "We finished ___ our bags at midnight.",
+          "contextRu": "",
+          "answer": "packing",
+          "alternatives": []
+        }
+      ],
+      "explanation": "keep, avoid и finish держат справа название действия, поэтому глагол получает -ing и никакого to перед ним не ставится.",
+      "taskDescription": "Впиши подходящий по смыслу пункт из банка в нужной форме.",
+      "wordBank": [
+        "водить",
+        "опаздывать",
+        "собирать"
+      ]
+    },
+    {
+      "id": 116,
+      "items": [
+        {
+          "sentence": "Sorry for ___ to your party.",
+          "contextRu": "",
+          "answer": "not coming",
+          "alternatives": []
+        },
+        {
+          "sentence": "Rita admitted ___ the letter.",
+          "contextRu": "",
+          "answer": "not reading",
+          "alternatives": []
+        },
+        {
+          "sentence": "I don't mind ___ sometimes.",
+          "contextRu": "",
+          "answer": "you being late",
+          "alternatives": []
+        }
+      ],
+      "explanation": "not встаёт прямо перед формой на -ing, никакого don't или didn't тут не появляется. А человек, который совершает действие, ставится перед -ing без предлога и без that.",
+      "taskDescription": "Впиши подходящий по смыслу пункт из банка в нужной форме.",
+      "wordBank": [
+        "что ты опаздываешь",
+        "не пришёл",
+        "не прочитала"
+      ]
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 91,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Do you mind waiting five minutes?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks, I'll be quick."
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, of course.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I mind.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, not at all.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вопрос буквально означает «ты против?», поэтому согласие подождать — это отрицание: No, not at all. Ответ Yes прочитается как «да, я против», то есть как отказ."
+    }
+  ],
   "matching_exercises": [
     {
       "id": 105,
@@ -648,10 +1768,73 @@
         }
       ],
       "explanation": "глагол enjoy держит справа от себя вещь — название действия. Поэтому нужна форма cooking, а не начальная форма с to и не голый глагол."
+    },
+    {
+      "id": 216,
+      "wrongSentence": "Masha avoids to answer calls from unknown numbers.",
+      "options": [
+        {
+          "text": "Masha avoids answer calls from unknown numbers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Masha avoids answering calls from unknown numbers.",
+          "isCorrect": true
+        },
+        {
+          "text": "Masha avoids to answering calls from unknown numbers.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "avoid входит во второй список: уклоняются от чего-то, то есть от вещи, поэтому справа стоит answering. Форма с to после avoid не встаёт ни в каком виде."
     }
   ],
-  "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 84,
+      "construction": "He denied breaking the window.",
+      "options": [
+        {
+          "text": "Он отказался чинить окно.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он отрицал, что разбил окно.",
+          "isCorrect": true
+        },
+        {
+          "text": "Он признался, что разбил окно.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он пообещал не разбивать окно.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "deny + -ing значит «отрицать сделанное»: действие уже произошло, а человек это отрицает. Отказ что-то делать выглядел бы иначе — refused to fix, с формой на to."
+    }
+  ],
+  "transformation_exercises": [
+    {
+      "id": 98,
+      "taskDescription": "сделай из каждого предложения вопрос.",
+      "items": [
+        {
+          "original": "He finished eating.",
+          "transformed": "Did he finish eating?"
+        },
+        {
+          "original": "They enjoy working here.",
+          "transformed": "Do they enjoy working here?"
+        },
+        {
+          "original": "She has admitted taking it.",
+          "transformed": "Has she admitted taking it?"
+        }
+      ],
+      "explanation": "вопрос собирает первый глагол — он и уходит вперёд, отдавая своё время помощнику. Герундий при этом не меняется вообще: eating, working и taking остаются как были."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 137,
@@ -675,7 +1858,54 @@
         }
       ],
       "explanation": "смотрим, есть ли рядом помощник is или are. Есть — это время Continuous, действие идёт. Нет — перед нами название действия, и его спокойно можно заменить русским существительным: «рыбалка», «рисование», «сборы»."
+    },
+    {
+      "id": 138,
+      "taskDescription": "распредели глаголы по тому, какую форму они требуют после себя.",
+      "categories": [
+        {
+          "title": "Требует to",
+          "items": [
+            "decide",
+            "promise",
+            "learn"
+          ]
+        },
+        {
+          "title": "Требует -ing",
+          "items": [
+            "avoid",
+            "practise",
+            "imagine"
+          ]
+        }
+      ],
+      "explanation": "decide, promise и learn смотрят вперёд, на дело, которого ещё нет, — им нужен to. Avoid, practise и imagine работают с действием как с вещью: от неё уклоняются, её отрабатывают, её представляют."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 118,
+      "groupDescription": "Три глагола держат справа форму на -ing, один требует to",
+      "items": [
+        {
+          "text": "admit",
+          "isOdd": false
+        },
+        {
+          "text": "mention",
+          "isOdd": false
+        },
+        {
+          "text": "refuse",
+          "isOdd": true
+        },
+        {
+          "text": "deny",
+          "isOdd": false
+        }
+      ],
+      "explanation": "admit, mention и deny говорят о том, что уже случилось, — это факт, поэтому -ing. Refuse смотрит вперёд, на несделанное дело, и требует to: he refused to pay."
+    }
+  ]
 }
