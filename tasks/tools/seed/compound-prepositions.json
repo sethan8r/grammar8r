@@ -46,6 +46,13 @@
       "title": "Inside & Register · Как они устроены и где живут",
       "order": 5,
       "searchKeywords": "как устроена связка изнутри, зачем артикль внутри, книжный вариант из-за, by the way это предлог, слова для договора"
+    },
+    {
+      "id": 226,
+      "topicId": 35,
+      "title": "Live Practice · Связка в деле",
+      "order": 6,
+      "searchKeywords": "потренировать связки с ии, живая практика предлогов, проверить себя на связках"
     }
   ],
   "grammar_cards": [
@@ -2044,6 +2051,300 @@
         "Почему due to можно и в разговоре, а owing to нет?",
         "Как понять по письму, какого яруса от меня ждут?"
       ]
+    },
+    {
+      "id": 613,
+      "microtopicId": 226,
+      "title": "Живая практика: связка в деле",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена. Связок набралось два десятка, и все они опираются на одно правило, которое мы применяли ещё до того, как узнали его имя. Перед практикой соберём всё в одном месте."
+        },
+        {
+          "type": "heading",
+          "text": "Ось: что стоит справа"
+        },
+        {
+          "type": "paragraph",
+          "text": "Связка из двух-трёх слов работает как ОДИН предлог, а предлог держит справа вещь — существительное или действие, названное как предмет. Целую часть, где есть кто и что делает, он не держит никогда. Отсюда пара, на которой это видно лучше всего: **because it was raining** ✓ (целая часть) и **because of the rain** ✓ (вещь), но **because of it was raining** ✗."
+        },
+        {
+          "type": "heading",
+          "text": "Три каркаса"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Слово + предлог: **thanks to**, **apart from**, **ahead of**",
+                "Предлог + существительное + предлог: **in front of**, **on top of**, **in addition to**",
+                "Предлог + the + существительное + предлог: **in the middle of**, **at the end of**"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Внутри связки выбирать нечего: артикль либо есть всегда, либо нет никогда, слово в середине не склоняется и не выпадает."
+        },
+        {
+          "type": "heading",
+          "text": "Все связки темы по группам"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Группа",
+            "Связки",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Место",
+              "on top of, in the middle of, opposite, close to, ahead of, far from",
+              "The keys are on top of the box."
+            ],
+            [
+              "Источник и ракурс",
+              "according to, in my opinion, as for, in terms of, regardless of, depending on",
+              "According to Ben, the shop is closed."
+            ],
+            [
+              "Причина",
+              "thanks to (и знакомые because of, due to)",
+              "Thanks to Emma, I got the job."
+            ],
+            [
+              "Добавление",
+              "in addition to, along with, together with",
+              "Sara sent the photos along with the report."
+            ],
+            [
+              "Исключение",
+              "apart from, aside from, except for",
+              "Everyone came except for Tom."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шесть мест, где русский промахивается"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**because of it was raining** ✗ → **because of the rain** ✓ — справа вещь, а не целая часть",
+            "**according to me** ✗ → **in my opinion** ✓ — связка цитирует только чужие слова",
+            "**in front the house** ✗ → **in front of the house** ✓ — из связки ничего не выпадает",
+            "**next me** ✗ → **next to me** ✓ — то же самое на другой связке",
+            "**In addition to the flat is expensive** ✗ → **In addition, the flat is expensive** ✓ — без хвоста `to` связка начинает отдельное предложение",
+            "**He was sitting before me at the cinema** ✗ → **in front of me** ✓ — `before` говорит о времени, а не о месте"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чего в заданиях не будет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три вещи мы разбирали, но проверять не станем — и стоит знать об этом заранее:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**книжные связки** (`owing to`, `prior to`, `with regard to`, `on behalf of`, `by means of`, `in place of`, `as opposed to`, `in accordance with`) — они даны на узнавание и в Словарь не слиты, поэтому в заданиях не появятся и требовать их никто не будет;",
+            "**форма на `-ing` после предлога** (`instead of going`) — её механика живёт в теме «Герундий после глагола»;",
+            "**фразы-вставки** вроде `by the way` и `at the end of the day` — они из темы «Устойчивые выражения и идиомы», а не предлоги."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Всё, что проверяется, лежит в таблице групп выше плюс связки из «Основ» и «Linking Words» — `in front of`, `next to`, `behind`, `between`, `because of`, `due to`, `instead of`, `in spite of`, `besides`. Ничего сверх этого в заданиях не встретится."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше три задания. В первом ИИ даёт английскую фразу, и её нужно понять — ровно те оттенки, ради которых тема и написана. Во втором наоборот: русская фраза, сказать её по-английски. В третьем — три предложения, одно сломано: найти, починить и объяснить, что было не так."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Связка из двух-трёх слов = один предлог: справа от неё стоит вещь, а не целая часть с подлежащим."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Слово + предлог: **thanks to**, **apart from**, **ahead of**",
+                "Предлог + существительное + предлог: **in front of**, **on top of**, **in addition to**",
+                "Предлог + the + существительное + предлог: **in the middle of**, **at the end of**"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Какая связка для чего"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Смысл",
+            "Связка"
+          ],
+          "rows": [
+            [
+              "поверх, в самом верху",
+              "on top of"
+            ],
+            [
+              "посередине",
+              "in the middle of"
+            ],
+            [
+              "напротив, через дорогу",
+              "opposite"
+            ],
+            [
+              "близко к",
+              "close to"
+            ],
+            [
+              "впереди",
+              "ahead of"
+            ],
+            [
+              "далеко от",
+              "far from"
+            ],
+            [
+              "по словам, по данным",
+              "according to"
+            ],
+            [
+              "по-моему",
+              "in my opinion"
+            ],
+            [
+              "что касается",
+              "as for"
+            ],
+            [
+              "с точки зрения, в плане",
+              "in terms of"
+            ],
+            [
+              "независимо от",
+              "regardless of"
+            ],
+            [
+              "в зависимости от",
+              "depending on"
+            ],
+            [
+              "благодаря",
+              "thanks to"
+            ],
+            [
+              "вдобавок к",
+              "in addition to"
+            ],
+            [
+              "вместе с",
+              "along with"
+            ],
+            [
+              "кроме (и вычесть, и прибавить)",
+              "apart from"
+            ],
+            [
+              "кроме (только вычесть)",
+              "except for"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Место или время: показать пальцем → **in front of**; раньше чего-то → **before**",
+            "Вплотную перед или через дорогу: **in front of the bank** ↔ **opposite the bank**",
+            "Вычесть или прибавить: **except for** только вычитает, **apart from** умеет оба, **besides** тянет к добавлению",
+            "С хвостом или без: **In addition, it's expensive** ↔ **In addition to the rent, you pay for electricity**",
+            "Свой источник или чужой: **according to Ben** ↔ **in my opinion**",
+            "Оценка или факт: **thanks to your help** ↔ нейтральное **because of the rain**",
+            "`thanks to` перед неприятностью читается как сарказм: **Thanks to you, we missed the train.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**because of it was raining** ✗ → **because of the rain** ✓",
+            "**according to me** ✗ → **in my opinion** ✓",
+            "**in front the house** ✗ и **next me** ✗ → **in front of the house** ✓, **next to me** ✓",
+            "**in middle of the room** ✗ → **in the middle of the room** ✓",
+            "**Kate, along with her sister, are coming** ✗ → **is coming** ✓ — подлежащее одно",
+            "**Except for that, the trip was great** ✗ → **Apart from that** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Чемодан лежит поверх шкафа.",
+          "en": "The suitcase is on top of the wardrobe."
+        },
+        {
+          "ru": "По словам Игоря, встреча перенесена.",
+          "en": "According to Igor, the meeting has been moved."
+        },
+        {
+          "ru": "Благодаря Саре мы нашли отель.",
+          "en": "Thanks to Sara, we found the hotel."
+        },
+        {
+          "ru": "Кроме Джейка, все сдали экзамен.",
+          "en": "Apart from Jake, everyone passed the exam."
+        },
+        {
+          "ru": "Мы поедем независимо от погоды.",
+          "en": "We'll go regardless of the weather."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, нужна тут связка с хвостом или без?",
+        "Что делать, если по-русски одно слово, а по-английски их несколько?",
+        "Почему ИИ не проверяет книжные связки?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2365,7 +2666,31 @@
       "id": "compound_prep_card612_ex1",
       "cardId": 612,
       "title": "Переведи с книжного на обычный",
-      "userInstruction": "ИИ пришлёт одну фразу. Перепишите её на другом ярусе речи — так, как её сказали бы в другой обстановке.",
+      "userInstruction": "ИИ пришлёт одну фразу из документа или объявления. Скажите то же самое простыми словами — так, как сказали бы другу.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "compound_prep_card613_ex1",
+      "cardId": 613,
+      "title": "Что на самом деле сказано",
+      "userInstruction": "ИИ пришлёт одну английскую фразу. Объясните по-русски, что она сообщает.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "compound_prep_card613_ex2",
+      "cardId": 613,
+      "title": "Скажи по-английски",
+      "userInstruction": "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "compound_prep_card613_ex3",
+      "cardId": 613,
+      "title": "Найди и исправь",
+      "userInstruction": "ИИ пришлёт три предложения. Найдите то, где есть ошибка, перепишите его правильно и своими словами скажите, что было не так.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
