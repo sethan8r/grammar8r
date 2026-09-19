@@ -7,23 +7,23 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 614 |
-| Categorization | 137 |
+| Card | 616 |
+| Categorization | 138 |
 | Category | 8 |
 | ConstructionMeaning | 84 |
 | DialogRestore | 91 |
-| ErrorCorrection | 215 |
+| ErrorCorrection | 216 |
 | FindTheOdd | 118 |
-| Matching | 105 |
-| Microtopic | 227 |
-| MultipleChoice·CHOICE | 231 |
-| MultipleChoice·FORWARD_CHOICE | 250 |
+| Matching | 106 |
+| Microtopic | 228 |
+| MultipleChoice·CHOICE | 232 |
+| MultipleChoice·FORWARD_CHOICE | 251 |
 | MultipleChoice·REVERSE_CHOICE | 99 |
 | TableFill | 45 |
 | TextInput | 115 |
-| Topic | 36 |
+| Topic | 37 |
 | Transformation | 98 |
-| TrueFalse | 223 |
+| TrueFalse | 224 |
 | WordArrangement | 201 |
 | course_word | 860 |
 
@@ -480,6 +480,17 @@
 - TrueFalse: 186–197 (12)
 - WordArrangement: 168–176 (9)
 - course_word: 735–740 (6)
+
+### gerund
+- Card: 614–615 (2)
+- Categorization: 137–137 (1)
+- ErrorCorrection: 215–215 (1)
+- Matching: 105–105 (1)
+- Microtopic: 227–227 (1)
+- MultipleChoice·CHOICE: 231–231 (1)
+- MultipleChoice·FORWARD_CHOICE: 250–250 (1)
+- Topic: 36–36 (1)
+- TrueFalse: 223–223 (1)
 
 ### get-part-1
 - Card: 515–530 (16)
