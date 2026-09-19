@@ -46,6 +46,13 @@
       "title": "Preposition + -ing · Предлог требует -ing",
       "order": 5,
       "searchKeywords": "good at swimming, looking forward to see you, почему после предлога ing, no smoking почему, how about meeting, sorry for being late"
+    },
+    {
+      "id": 232,
+      "topicId": 36,
+      "title": "-ing as noun · Герундий как существительное",
+      "order": 6,
+      "searchKeywords": "swimming is good for you, go shopping почему ing, walking home i met kate, стоит ли оно того по-английски, сколько времени трачу на"
     }
   ],
   "grammar_cards": [
@@ -2992,6 +2999,693 @@
         "Почему нельзя сказать sorry for be late?",
         "Что значит I hate being told what to do?"
       ]
+    },
+    {
+      "id": 630,
+      "microtopicId": 232,
+      "title": "-ing в роли подлежащего",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной карточке мы говорили, что `-ing` встаёт в трёх местах, где английский ждёт существительное: после половины глаголов, после любого предлога и **в начале предложения, подлежащим**. Первые два мы разобрали, остался третий — и он самый наглядный."
+        },
+        {
+          "type": "paragraph",
+          "text": "Подлежащее — это то, о чём говорят в предложении. Обычно там стоит человек или предмет: **The coffee is cold**, **My brother works here**. Но если говорить хочется о самом занятии, английский ставит туда герундий, и тот работает как обычное существительное:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Swimming is good for your back.**",
+            "**Learning English takes time.**",
+            "**Getting up early makes me tired.**",
+            "**My favourite part is meeting new people.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В последнем примере герундий стоит после `be` — на месте, где обычно называют, кем или чем что-то является. Работа та же самая: занятие названо как вещь."
+        },
+        {
+          "type": "heading",
+          "text": "Глагол при таком подлежащем — в единственном числе"
+        },
+        {
+          "type": "paragraph",
+          "text": "Занятие может казаться «большим», но это по-прежнему один предмет, а не много: **Swimming is** ✓ / **Swimming are** ✗. Если занятий два — тогда, как и с обычными существительными, множественное: **Swimming and running are good for you** ✓."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вот здесь и живёт та самая путаница со временем Continuous, о которой мы предупреждали ещё в «Служебных глаголах». **Reading is fun** — это не «читает», а «чтение — это весело». Признак простой: перед `-ing` нет помощника `am/is/are/was/were` → значит перед вами вещь, а не время. Проверка та же: подставьте русское существительное — «чтение», «плавание», «ожидание». Встало — значит подлежащее."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос и отрицание"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего нового: подлежащее-герундий ведёт себя как обычное существительное, и предложение собирается как всегда."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Is swimming good for your back?**",
+            "**Swimming isn't dangerous if you're careful.**",
+            "**Learning English doesn't take as long as people think.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Два способа сказать одно и то же"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы говорим «Плавать полезно» — инфинитивом. По-английски у той же мысли два живых пути, и знать стоит оба:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Swimming is good for you.** — занятие стоит подлежащим;",
+            "**It's good to swim in the morning.** — на месте подлежащего пустой `it`, а само действие уехало вправо с частицей `to`. Этот приём мы разбирали в «Устройстве языка»: английский не терпит пустого места перед глаголом, поэтому ставит туда `it`."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба варианта нормальны, и носители пользуются обоими. Разница едва уловима: с герундием мы говорим о занятии вообще, с пустым `it` — чаще о конкретной ситуации."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Третий вариант, **To swim is good for you**, грамматически верен, но звучит книжно и в живой речи почти не встречается. Знать его стоит для чтения, а говорить лучше первыми двумя способами."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Герундий может стоять подлежащим — на месте, где обычно стоит существительное: **Swimming is good for your back** · **Learning English takes time**."
+        },
+        {
+          "type": "heading",
+          "text": "Форма глагола"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Одно занятие → единственное число: **Swimming is** ✓ / **Swimming are** ✗",
+            "Два занятия → множественное: **Swimming and running are good for you** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как отличить от Continuous"
+        },
+        {
+          "type": "paragraph",
+          "text": "Перед `-ing` нет `am/is/are/was/were` → это вещь: **Reading is fun** — «чтение», а не «читает». Проверка: подставь «чтение / плавание»."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос и отрицание"
+        },
+        {
+          "type": "paragraph",
+          "text": "Как с обычным подлежащим: **Is swimming good for you?** · **Swimming isn't dangerous**"
+        },
+        {
+          "type": "heading",
+          "text": "Два пути одной мысли"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Swimming is good for you** — о занятии вообще",
+            "**It's good to swim in the morning** — с пустым `it`, чаще о конкретной ситуации"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Плавание полезно для спины.",
+          "en": "Swimming is good for your back."
+        },
+        {
+          "ru": "Изучение английского требует времени.",
+          "en": "Learning English takes time."
+        },
+        {
+          "ru": "Ранние подъёмы меня выматывают.",
+          "en": "Getting up early makes me tired."
+        },
+        {
+          "ru": "Плавание опасно?",
+          "en": "Is swimming dangerous?"
+        },
+        {
+          "ru": "По утрам полезно гулять.",
+          "en": "It's good to walk in the morning."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему Swimming is, а не Swimming are?",
+        "Чем Swimming is good отличается от It's good to swim?",
+        "Как не спутать такое подлежащее с временем Continuous?"
+      ]
+    },
+    {
+      "id": 631,
+      "microtopicId": 232,
+      "title": "go + -ing — «сходить поплавать»",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Отдельная конструкция, которую русский никогда не соберёт сам, потому что у нас она устроена совершенно иначе. По-английски занятия, ради которых куда-то идут или едут, цепляются прямо к глаголу `go` — без предлога, без артикля, сразу в форме на `-ing`:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**go shopping** · **go swimming** · **go running** · **go fishing** · **go hiking** · **go skiing** · **go dancing**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Go` + занятие с `-ing`"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните с русским: «ходить **по магазинам**», «кататься **на лыжах**», «пойти **на рыбалку**» — у нас везде предлог и существительное, у них одно слово с хвостиком."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда три типовые кальки. **go to shopping** ✗ (предлог лишний) · **go shop** ✗ (нужен хвостик) · **go for swimming** ✗ (об этой — прямо сейчас)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему go for swimming нельзя, а go for a swim можно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ответ у нас уже есть: `for` — предлог, а после предлога стоит **вещь**. Форма на `-ing` тоже вещь, но в этой конструкции язык выбрал другую: обычное существительное с артиклем."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**go for a swim** ✓ · **go for a walk** ✓ · **go for a run** ✓ · **go for a drink** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между двумя конструкциями живая, и её стоит чувствовать: **go swimming** — занятие, часто регулярное («мы ходим плавать по средам»), а **go for a swim** — один конкретный заход («пойдём окунёмся»)."
+        },
+        {
+          "type": "heading",
+          "text": "Куда ставить место"
+        },
+        {
+          "type": "paragraph",
+          "text": "Место, где всё происходит, присоединяется обычным предлогом, как всегда:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We went swimming at the new swimming pool.**",
+            "**She goes running in the park every morning.**",
+            "**They went shopping at the mall on Saturday.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "go shopping и do the shopping — не одно и то же"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Make vs Do» нам уже попадалось сочетание **do the shopping**. Теперь рядом встало **go shopping**, и различать их полезно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**go shopping** — поход по магазинам как занятие, часто в удовольствие: **We went shopping and spent three hours there**;",
+            "**do the shopping** — закупка по списку как обязанность: **I do the shopping every Friday**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски разница та же, что между «пройтись по магазинам» и «закупиться»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Занятия цепляются к `go` напрямую, без предлога и без артикля: `go` + занятие с `-ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**go shopping** · **go swimming** · **go running** · **go fishing** · **go skiing**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**go to shopping** ✗ — предлог лишний",
+            "**go shop** ✗ — нужен хвостик",
+            "**go for swimming** ✗ → **go for a swim** ✓ — после `for` идёт существительное с артиклем"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Две конструкции рядом"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**go swimming** — занятие, часто регулярное",
+            "**go for a swim** — один конкретный раз"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**go shopping** — поход по магазинам ↔ **do the shopping** — закупка по списку"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "В субботу мы ходили по магазинам.",
+          "en": "We went shopping on Saturday."
+        },
+        {
+          "ru": "Летом мы плавали в новом бассейне.",
+          "en": "In summer we went swimming at the new swimming pool."
+        },
+        {
+          "ru": "Каждое утро Соня бегает в парке.",
+          "en": "Sonya goes running in the park every morning."
+        },
+        {
+          "ru": "Пойдём окунёмся после обеда.",
+          "en": "Let's go for a swim after lunch."
+        },
+        {
+          "ru": "Я закупаюсь продуктами по пятницам.",
+          "en": "I do the shopping every Friday."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после go не нужен предлог?",
+        "Чем go swimming отличается от go for a swim?",
+        "Когда говорят do the shopping, а когда go shopping?"
+      ]
+    },
+    {
+      "id": 632,
+      "microtopicId": 232,
+      "title": "Тот же хвостик, но не вещь: -ing как признак",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Эту карточку мы даём **на узнавание**: производить такие фразы самому не обязательно, а вот понимать их придётся постоянно — они встречаются в любой книге, статье и деловом письме."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дело в том, что у хвостика `-ing` есть и вторая большая работа, кроме «называть действие вещью». Он умеет называть **признак** — то, что кто-то делает или делал в этот момент. Выглядит это абсолютно так же, и в этом вся сложность."
+        },
+        {
+          "type": "heading",
+          "text": "Сопутствующее действие"
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский часто начинает предложение с действия, которое идёт **заодно** с главным. По-русски это наше деепричастие:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Walking home, I met Kate.** — идя домой, я встретил Катю;",
+            "**Feeling tired, she went to bed early.** — чувствуя усталость, она рано легла;",
+            "**Not knowing the address, he called me.** — не зная адреса, он позвонил мне."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание: `not` ставится перед формой, ровно как мы разбирали в отрицании герундия."
+        },
+        {
+          "type": "heading",
+          "text": "Признак предмета"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая роль — сказать, **какой именно** предмет или человек имеется в виду. Английский умеет вместо целой части с `who` или `which` поставить короткую форму на `-ing`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The man standing at the door is my boss.** — тот, который стоит у двери;",
+            "**a woman carrying a baby** — женщина с ребёнком на руках;",
+            "**the train leaving at six** — поезд, отходящий в шесть."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как отличить от герундия: та же проверка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Инструмент у нас уже есть — подставить русское существительное. Только теперь он даёт второй ответ:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Swimming is good for you** → «плавание» встало → это **вещь**, герундий;",
+            "**Walking home, I met Kate** → «прогулка домой встретила меня» — бессмыслица → значит это **признак**, и переводить надо «идя домой»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У сопутствующего действия есть жёсткое условие — то же самое, что мы разбирали у `before` и `after`. Действие в обеих половинах делает **один и тот же** человек. **Walking home, I met Kate** ✓ — шёл и встретил я. А **Walking home, the rain started** ✗ означало бы, что домой шёл дождь."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В «Linking Words» мы говорили, что деепричастие английскому почти незнакомо. Это правда для **разговорной** речи: в беседе носитель скажет **While I was walking home, I met Kate**. А вот на письме — в статьях, книгах, отчётах — оборот живой и частый, поэтому узнавать его нужно обязательно."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рядом живут ещё две формы того же семейства. **Having finished the report, he went home** — то же самое, но подчёркнуто, что одно случилось раньше другого. И причастие с `-ed`, которое называет признак со стороны пассива: **a film made in 1990**, **a letter written by hand**. Полный разбор всех трёх — в «Дополнительных конструкциях», микротема «Причастные обороты»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У `-ing` есть вторая работа: называть не вещь, а **признак** — что человек делает заодно или какой именно предмет имеется в виду. Даётся на узнавание."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Сопутствующее действие: **Walking home, I met Kate** — «идя домой»",
+            "Признак предмета: **The man standing at the door is my boss** — «который стоит»",
+            "Отрицание: `not` перед формой — **Not knowing the address, he called me**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Подставь русское существительное: **Swimming is good** → «плавание» встало, это вещь. **Walking home, I met Kate** → «прогулка встретила» не встало, значит признак."
+        },
+        {
+          "type": "heading",
+          "text": "Частая ошибка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Walking home, the rain started** ✗ — выходит, что домой шёл дождь. В обеих половинах должен действовать один и тот же человек."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Идя домой, я встретил Катю.",
+          "en": "Walking home, I met Kate."
+        },
+        {
+          "ru": "Чувствуя усталость, Оля рано легла спать.",
+          "en": "Feeling tired, Olya went to bed early."
+        },
+        {
+          "ru": "Не зная адреса, Денис позвонил мне.",
+          "en": "Not knowing the address, Denis called me."
+        },
+        {
+          "ru": "Мужчина, который стоит у двери, — мой начальник.",
+          "en": "The man standing at the door is my boss."
+        },
+        {
+          "ru": "Поезд, отходящий в шесть, идёт до Праги.",
+          "en": "The train leaving at six goes to Prague."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что -ing называет признак, а не вещь?",
+        "Почему нельзя сказать Walking home, the rain started?",
+        "Где чаще встречается такой оборот — в речи или на письме?"
+      ]
+    },
+    {
+      "id": 633,
+      "microtopicId": 232,
+      "title": "Обороты: сколько времени, чем занят и стоит ли оно того",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последняя порция — несколько готовых каркасов, которые держатся на всё том же правиле: слева стоит оценка или количество, справа — занятие, названное герундием. Каркасы ходовые, в речи встречаются каждый день."
+        },
+        {
+          "type": "heading",
+          "text": "Сколько времени ушло"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I spend two hours a day studying.** — трачу два часа в день на учёбу;",
+            "**He wasted the whole evening watching videos.** — угробил весь вечер на видео."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После `spend` или `waste` сначала идёт само время, а потом занятие — и, что важно для нас, **безо всякого предлога**. По-русски там «на»: «трачу час **на** дорогу», и рука просится поставить `on`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I spend two hours on studying** ✗ → **I spend two hours studying** ✓. Предлог тут лишний."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чем человек занят"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She's busy packing.** — она занята сборами;",
+            "**Don't call him now, he's busy working.** — не звони, он занят работой."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что даётся с трудом"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I had difficulty finding the place.** — с трудом нашёл это место;",
+            "**She has trouble sleeping in a new flat.** — плохо спит на новом месте."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`difficulty` и `trouble` здесь полные синонимы, слово `trouble` вам уже знакомо. Обратите внимание: артикль в обоих оборотах не нужен."
+        },
+        {
+          "type": "heading",
+          "text": "Стоит ли оно того"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's worth trying.** — стоит попробовать;",
+            "**Is it worth going there so late?** — стоит ли туда ехать так поздно?",
+            "**There's no point in waiting.** — нет смысла ждать."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопросительная форма тут не менее важна, чем утвердительная: «а стоит ли?» — вопрос, который задают постоянно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть ещё застывшее **worth it** — «оно того стоит»: **The trip was long, but it was worth it.** Здесь после `worth` стоит не занятие, а просто `it`, и фраза работает как готовая формула."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что общего у всех каркасов"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вывод, ради которого карточка и написана: во всех оборотах слева стоит **оценка или количество** — сколько времени, чем занят, насколько трудно, стоит ли, — а справа **само занятие** в форме на `-ing`. Узнали каркас — подставляйте любой глагол, и конструкция соберётся."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рядом живут ещё два похожих оборота — **it's no use asking** («бесполезно спрашивать») и **I can't help laughing** («не могу не смеяться»). Устроены они так же, но у них свои дома: первый разбирается в «Дополнительных конструкциях», второй — в разделе «Одно слово — много значений»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Во всех каркасах слева оценка или количество, справа — занятие с `-ing`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I spend two hours a day studying** · **He wasted the evening watching videos**",
+            "**She's busy packing**",
+            "**I had difficulty finding the place** · **She has trouble sleeping**",
+            "**It's worth trying** · **Is it worth going?** · **There's no point in waiting**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частая ошибка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I spend two hours on studying** ✗ → **I spend two hours studying** ✓ — предлога после времени нет"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Worth it** — готовая формула «оно того стоит»: **It was worth it.**"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я трачу два часа в день на учёбу.",
+          "en": "I spend two hours a day studying."
+        },
+        {
+          "ru": "Рома угробил весь вечер на видео.",
+          "en": "Roma wasted the whole evening watching videos."
+        },
+        {
+          "ru": "Не звони ей сейчас, она занята сборами.",
+          "en": "Don't call her now, she's busy packing."
+        },
+        {
+          "ru": "Я с трудом нашёл это место.",
+          "en": "I had difficulty finding the place."
+        },
+        {
+          "ru": "Стоит ли ехать туда так поздно?",
+          "en": "Is it worth going there so late?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после spend не нужен предлог, если по-русски «на»?",
+        "Чем worth doing отличается от worth it?",
+        "Можно ли сказать there's no point waiting без in?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3282,6 +3976,78 @@
       "exerciseType": "REVERSE_CHOICE",
       "exerciseId": 102,
       "orderInCard": 2
+    },
+    {
+      "cardId": 630,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 227,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 630,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 236,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 630,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 205,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 631,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 255,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 631,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 220,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 631,
+      "exerciseType": "MATCHING",
+      "exerciseId": 109,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 632,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 87,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 632,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 103,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 632,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 121,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 633,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 118,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 633,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 100,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 633,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 94,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -3396,6 +4162,38 @@
       "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую форму.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card630_ex1",
+      "cardId": 630,
+      "title": "Скажи про занятие",
+      "userInstruction": "ИИ задаст вопрос о занятиях. Ответьте одним английским предложением, начав его с самого занятия.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card631_ex1",
+      "cardId": 631,
+      "title": "Куда ходили",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую форму.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card632_ex1",
+      "cardId": 632,
+      "title": "Что здесь сказано",
+      "userInstruction": "ИИ пришлёт одно английское предложение. Напишите по-русски, что оно означает.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card633_ex1",
+      "cardId": 633,
+      "title": "Сколько времени и стоит ли",
+      "userInstruction": "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -3534,6 +4332,54 @@
       "transcription": "[ˈentri]",
       "microtopicId": 231,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 875,
+      "word": "shopping",
+      "translation": "покупки, шопинг",
+      "transcription": "[ˈʃɒpɪŋ]",
+      "microtopicId": 232,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 876,
+      "word": "swimming pool",
+      "translation": "бассейн",
+      "transcription": "[ˈswɪmɪŋ puːl]",
+      "microtopicId": 232,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 877,
+      "word": "to waste",
+      "translation": "тратить впустую, транжирить",
+      "transcription": "[tuː weɪst]",
+      "microtopicId": 232,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 878,
+      "word": "worth",
+      "translation": "стоящий (того)",
+      "transcription": "[wɜːθ]",
+      "microtopicId": 232,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 879,
+      "word": "difficulty",
+      "translation": "трудность, сложность",
+      "transcription": "[ˈdɪfɪkəlti]",
+      "microtopicId": 232,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 880,
+      "word": "point",
+      "translation": "смысл, суть",
+      "transcription": "[pɔɪnt]",
+      "microtopicId": 232,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -3661,6 +4507,37 @@
         }
       ],
       "explanation": "в третьем нужно to meeting: to там предлог. В четвёртом наоборот — used to без be означает «раньше жил», и после него идёт голый глагол: Ben used to live in Dublin."
+    },
+    {
+      "id": 227,
+      "statements": [
+        {
+          "en": "Cooking at home is cheaper than eating out.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Running are good for your heart.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Learning a language takes patience.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Is walking to work a good idea?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Reading and writing is my favourite part of the job.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "во втором предложении занятие одно, поэтому нужно Running is. В пятом занятий два, значит наоборот — Reading and writing are. Остальные собраны верно."
     }
   ],
   "word_arrangement_exercises": [
@@ -3732,6 +4609,23 @@
         "for made"
       ],
       "explanation": "после предлога for стоит название действия — making. Форма с to сюда не встаёт ни в каком виде, а два предлога подряд английский не ставит."
+    },
+    {
+      "id": 205,
+      "situationRu": "Ситуация: Кирилл объясняет, почему не любит ранние подъёмы.",
+      "correctSentence": "Getting up at five makes me tired.",
+      "words": [
+        "Getting up",
+        "at five",
+        "makes",
+        "me tired"
+      ],
+      "distractors": [
+        "To get up",
+        "Get up",
+        "make"
+      ],
+      "explanation": "подлежащее — само занятие, поэтому оно стоит в форме на -ing. Занятие одно, значит глагол в единственном числе: makes, а не make."
     }
   ],
   "multiple_choice_exercises": [
@@ -4028,6 +4922,69 @@
         }
       ],
       "explanation": "mind значит «быть против», поэтому don't mind — это спокойное «я не против». Being alone здесь название состояния, к которому человек относится нормально."
+    },
+    {
+      "id": 236,
+      "choiceType": "CHOICE",
+      "prompt": "___ two languages at the same time isn't easy.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Learn",
+          "isCorrect": false
+        },
+        {
+          "text": "To learning",
+          "isCorrect": false
+        },
+        {
+          "text": "Learning",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "на месте подлежащего английский ждёт вещь, поэтому глагол получает -ing. Голый глагол там стоять не может, а формы to learning в языке нет вовсе."
+    },
+    {
+      "id": 255,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Зимой мы часто катаемся на лыжах в горах.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "In winter we often go to skiing in the mountains.",
+          "isCorrect": false
+        },
+        {
+          "text": "In winter we often go skiing in the mountains.",
+          "isCorrect": true
+        },
+        {
+          "text": "In winter we often go for skiing in the mountains.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "занятие цепляется к go напрямую, без предлога и без артикля. Вариант с for требовал бы существительного (go for a ski так не говорят), а to здесь лишнее."
+    },
+    {
+      "id": 103,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The woman talking to my father is our new neighbour.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Женщина хочет поговорить с моим отцом.",
+          "isCorrect": false
+        },
+        {
+          "text": "Та женщина, которая разговаривает с моим отцом, — наша новая соседка.",
+          "isCorrect": true
+        },
+        {
+          "text": "Женщина разговаривала с моим отцом вчера.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "здесь форма на -ing называет признак: она уточняет, о какой именно женщине речь. Это короткая замена целой части с who is talking."
     }
   ],
   "text_input_exercises": [
@@ -4119,6 +5076,36 @@
         "спрашивать",
         "читать",
         "ждать"
+      ]
+    },
+    {
+      "id": 118,
+      "items": [
+        {
+          "sentence": "She spends an hour every evening ___ dinner.",
+          "contextRu": "",
+          "answer": "cooking",
+          "alternatives": []
+        },
+        {
+          "sentence": "There's no point in ___ for him any longer.",
+          "contextRu": "",
+          "answer": "waiting",
+          "alternatives": []
+        },
+        {
+          "sentence": "I had difficulty ___ a parking space.",
+          "contextRu": "",
+          "answer": "finding",
+          "alternatives": []
+        }
+      ],
+      "explanation": "во всех трёх каркасах справа стоит занятие в форме на -ing. После spend предлог не нужен вовсе, а в обороте no point in предлог уже встроен в саму конструкцию.",
+      "taskDescription": "Впиши подходящий по смыслу пункт из банка в нужной форме.",
+      "wordBank": [
+        "искать",
+        "ждать",
+        "готовить"
       ]
     }
   ],
@@ -4218,6 +5205,38 @@
         }
       ],
       "explanation": "about — предлог, поэтому справа от него стоит форма на -ing. Вариант с to повторяет русское «может, заказать», но по-английски так не говорят."
+    },
+    {
+      "id": 94,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "The museum closes in half an hour. Should we still go?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "You're right, let's go tomorrow."
+        }
+      ],
+      "options": [
+        {
+          "text": "Is it worth to go?",
+          "isCorrect": false
+        },
+        {
+          "text": "It isn't worth go.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't think it's worth going.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после worth стоит занятие в форме на -ing. Ни форма с to, ни голый глагол сюда не встают: конструкция всегда worth doing."
     }
   ],
   "matching_exercises": [
@@ -4328,6 +5347,33 @@
         }
       ],
       "explanation": "во всех фразах работает одно правило: слева предлог или No, справа — название действия с -ing. Меняется только ситуация, а конструкция везде одна."
+    },
+    {
+      "id": 109,
+      "taskDescription": "соедини английскую фразу с русским смыслом.",
+      "pairs": [
+        {
+          "left": "go shopping",
+          "right": "пройтись по магазинам"
+        },
+        {
+          "left": "do the shopping",
+          "right": "закупиться по списку"
+        },
+        {
+          "left": "go for a walk",
+          "right": "сходить прогуляться"
+        },
+        {
+          "left": "go fishing",
+          "right": "поехать на рыбалку"
+        },
+        {
+          "left": "go running",
+          "right": "ходить на пробежки"
+        }
+      ],
+      "explanation": "go плюс занятие с -ing говорит о самом занятии, а do the shopping — об обязанности по списку. Конструкция с for берёт существительное и означает один конкретный раз."
     }
   ],
   "error_correction_exercises": [
@@ -4425,6 +5471,25 @@
         }
       ],
       "explanation": "сокращать целую часть можно, только когда в обеих половинах действует один человек. Здесь отчёт заканчивал я, а звонил босс, поэтому нужна полная часть с подлежащим."
+    },
+    {
+      "id": 220,
+      "wrongSentence": "Let's go for swim after work.",
+      "options": [
+        {
+          "text": "Let's go for a swim after work.",
+          "isCorrect": true
+        },
+        {
+          "text": "Let's go for swimming after work.",
+          "isCorrect": false
+        },
+        {
+          "text": "Let's go to swim after work.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после предлога for стоит существительное, и ему нужен артикль: a swim. Форма на -ing тут не подходит, а go to swim ломает обе конструкции сразу."
     }
   ],
   "construction_meaning_exercises": [
@@ -4496,6 +5561,29 @@
         }
       ],
       "explanation": "конструкция с be означает привычку, которая уже сложилась: человек привык. Без be — used to get up — фраза говорила бы о прошлом: «раньше вставала рано, а теперь нет»."
+    },
+    {
+      "id": 87,
+      "construction": "Feeling tired, Megan went to bed early.",
+      "options": [
+        {
+          "text": "Чувствуя усталость, Меган рано легла спать.",
+          "isCorrect": true
+        },
+        {
+          "text": "Усталость заставила Меган рано лечь спать.",
+          "isCorrect": false
+        },
+        {
+          "text": "Меган рано легла и почувствовала усталость.",
+          "isCorrect": false
+        },
+        {
+          "text": "Меган устала ложиться рано.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "форма на -ing в начале предложения называет сопутствующее действие — то, что человек делает или чувствует заодно с главным. По-русски это деепричастие: «чувствуя»."
     }
   ],
   "transformation_exercises": [
@@ -4536,6 +5624,25 @@
         }
       ],
       "explanation": "вместо целой части с подлежащим англичанин берёт предлог и форму being — короче и естественнее. Смысл при этом не меняется."
+    },
+    {
+      "id": 100,
+      "taskDescription": "перепиши каждое предложение через оборот с формой на -ing.",
+      "items": [
+        {
+          "original": "It takes me two hours to get to work.",
+          "transformed": "I spend two hours getting to work."
+        },
+        {
+          "original": "It was difficult for me to find the key.",
+          "transformed": "I had difficulty finding the key."
+        },
+        {
+          "original": "There is no reason to hurry.",
+          "transformed": "There's no point in hurrying."
+        }
+      ],
+      "explanation": "каркас везде один: слева количество или оценка, справа занятие с -ing. После spend предлог не ставится, а в обороте no point in он входит в саму конструкцию."
     }
   ],
   "categorization_exercises": [
@@ -4678,6 +5785,29 @@
         }
       ],
       "explanation": "в трёх фразах слева стоит предлог, и being работает как вещь. А is being repaired — это сказуемое целиком, там being часть времени, а не самостоятельная форма."
+    },
+    {
+      "id": 121,
+      "groupDescription": "В трёх фразах -ing называет признак, а в одной — вещь",
+      "items": [
+        {
+          "text": "the man standing at the door",
+          "isOdd": false
+        },
+        {
+          "text": "Learning English takes time",
+          "isOdd": true
+        },
+        {
+          "text": "Walking home, I met Kate",
+          "isOdd": false
+        },
+        {
+          "text": "a woman carrying a baby",
+          "isOdd": false
+        }
+      ],
+      "explanation": "в трёх фразах форма отвечает на вопрос «какой именно» или «делая что», то есть называет признак. А Learning English — это подлежащее, само занятие: «изучение английского»."
     }
   ]
 }
