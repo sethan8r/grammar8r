@@ -25,6 +25,13 @@
       "title": "Verb + -ing · Глаголы только с -ing",
       "order": 2,
       "searchKeywords": "enjoy finish avoid, suggested to go ошибка, какой глагол что требует, признался что сделал, do you mind как отвечать"
+    },
+    {
+      "id": 229,
+      "topicId": 36,
+      "title": "Like & Love · Два варианта с одним смыслом",
+      "order": 3,
+      "searchKeywords": "like swimming или like to swim, would you like some tea, i'd love to ответ, started raining или to rain, terpet ne mogu по-английски"
     }
   ],
   "grammar_cards": [
@@ -1251,6 +1258,534 @@
         "Чем Do you mind opening отличается от Do you mind if I open?",
         "Почему перед -ing ставится not, а не don't?"
       ]
+    },
+    {
+      "id": 620,
+      "microtopicId": 229,
+      "title": "like, love, hate, prefer — обе формы годятся",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Начнём с хорошей новости, и сказать её нужно сразу, пока не наделали лишнего. После микротемы «только `-ing`» рука сама тянется ставить хвостик везде подряд, а `to` начинает казаться ошибкой. Так вот: есть группа глаголов, где обе формы одинаково правильны."
+        },
+        {
+          "type": "paragraph",
+          "text": "**I like swimming** = **I like to swim**. Ошибки нет ни в одну сторону, спорить не о чем. Сюда же **love**, **hate** и **prefer**: **She loves cooking** = **She loves to cook** · **They hate waiting** = **They hate to wait** · **I prefer walking** = **I prefer to walk**."
+        },
+        {
+          "type": "heading",
+          "text": "Оттенок, а не правило"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между формами тут всё-таки есть, но она тонкая, и на неё никто не поймает: обе фразы поймут одинаково."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`-ing` — про сам процесс и удовольствие от него: **I like getting up early** — нравится само утро, свежесть, тишина;",
+            "`to` — про выбор и заведённый порядок: **I like to get up early** — так у меня заведено, я считаю это правильным."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Похоже на русское «люблю вставать рано» против «стараюсь вставать рано». Оттенок стоит знать, чтобы слышать его у носителей, но переживать из-за него не нужно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Британцы чаще берут `-ing`, американцы — `to`. Это вопрос привычки, а не правильности: **I love cooking** и **I love to cook** звучат нормально по обе стороны океана."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шкала отношения: между «люблю» и «ненавижу» есть середина"
+        },
+        {
+          "type": "paragraph",
+          "text": "У русского здесь бедновато: «люблю» и «ненавижу», а между ними провал. Английский выстраивает целую шкалу, и середина в ней — самая ходовая часть:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I love swimming** — обожаю;",
+            "**I like swimming** — нравится;",
+            "**I don't mind swimming** — не против, нормально отношусь;",
+            "**I don't like swimming** — не нравится;",
+            "**I hate swimming** — терпеть не могу;",
+            "**I can't stand swimming** — на дух не переношу."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`don't mind` вы уже встречали в прошлой микротеме — вот его законное место на шкале: это вежливое «да мне без разницы»."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Английское `hate` в быту гораздо мягче русского «ненавижу». **I hate waiting in line** — это про очередь в супермаркете, а не про кровную вражду; по-русски мы скажем «терпеть не могу очереди». Переводить `hate` словом «ненавижу» — значит каждый раз звучать драматичнее, чем вы есть."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ещё один like — совсем про другое"
+        },
+        {
+          "type": "paragraph",
+          "text": "У слова `like` есть и вторая работа, к нашей теме отношения не имеющая: **He looks like his dad** — «похож на отца». Это не «нравится», а «как, подобно», и стоит там существительное, а не действие. Полностью эту роль разберём в «Дополнительных конструкциях» — здесь достаточно не путать её с глаголом."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `prefer` есть продолжение — как сказать «предпочитаю одно другому» (`prefer A to B`), а рядом живут `would rather` и `had better`. Всё это разбирается в «Дополнительных конструкциях»; нам сейчас важна только форма сразу после самого `prefer`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После **like**, **love**, **hate**, **prefer** годятся обе формы: **I like swimming** = **I like to swim**."
+        },
+        {
+          "type": "heading",
+          "text": "Оттенок (не ошибка ни в одну сторону)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`-ing` — сам процесс и удовольствие: **I like getting up early**",
+            "`to` — выбор и заведённый порядок: **I like to get up early**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шкала отношения"
+        },
+        {
+          "type": "paragraph",
+          "text": "**love** → **like** → **don't mind** → **don't like** → **hate** → **can't stand**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`hate` в быту мягче русского «ненавижу»: **I hate waiting in line** — «терпеть не могу»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "paragraph",
+          "text": "**He looks like his dad** — здесь `like` значит «похож на», а не «нравится»."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Соня обожает готовить для друзей.",
+          "en": "Sonya loves cooking for her friends."
+        },
+        {
+          "ru": "Гриша предпочитает ходить пешком.",
+          "en": "Grisha prefers to walk."
+        },
+        {
+          "ru": "Я не против мыть посуду.",
+          "en": "I don't mind washing the dishes."
+        },
+        {
+          "ru": "Вера терпеть не может стоять в очереди.",
+          "en": "Vera hates waiting in line."
+        },
+        {
+          "ru": "Ты похож на своего отца.",
+          "en": "You look like your dad."
+        }
+      ],
+      "clarificationOptions": [
+        "Если обе формы верны, зачем вообще знать про оттенок?",
+        "Чем don't mind отличается от don't like?",
+        "Почему после enjoy нельзя to, а после like можно?"
+      ]
+    },
+    {
+      "id": 621,
+      "microtopicId": 229,
+      "title": "start, begin, continue — и единственное ограничение",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Есть вторая группа «и так, и так», и она даже проще первой: здесь **никакого оттенка нет вообще**. **start**, **begin** и **continue** берут обе формы, и разницы в смысле между ними не ищите — её нет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It started raining** = **It started to rain**;",
+            "**She continued working** = **She continued to work**;",
+            "**The film began playing** = **The film began to play**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Выбирайте что удобнее в данный момент — оба варианта звучат одинаково нормально."
+        },
+        {
+          "type": "heading",
+          "text": "start и begin — одно и то же, но разного тона"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот между самими `start` и `begin` разница есть, только не в форме после них, а в стиле."
+        },
+        {
+          "type": "paragraph",
+          "text": "`start` — разговорный и более широкий. Он умеет то, чего `begin` не умеет вовсе: **start the car** (завести машину), **start a business** (открыть дело), **start again** (начать заново)."
+        },
+        {
+          "type": "paragraph",
+          "text": "`begin` — книжнее и чуть торжественнее. Он хорош там, где речь о начале процесса или события: **The meeting begins at nine**, **The story begins in a small town**. В обычной болтовне носитель чаще возьмёт `start`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Проще говоря: сомневаетесь — берите `start`, промахнуться почти невозможно."
+        },
+        {
+          "type": "heading",
+          "text": "Ограничение: два -ing подряд язык не любит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Единственное место, где выбор формы перестаёт быть свободным. Если сам глагол-хозяин уже стоит в Continuous, то есть сам получил `-ing`, второй глагол берёт `to`:"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**It's starting raining** ✗ → **It's starting to rain** ✓. Два хвостика подряд звучат для английского уха как заикание, поэтому язык их разводит. То же самое: **She is beginning to understand** ✓ · **They were continuing to argue** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Глагол-хозяин в Continuous + второй глагол с `to`"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Правило работает ТОЛЬКО там, где у глагола есть выбор из двух форм. У `enjoy`, `avoid`, `keep` и всего первого списка выбора нет — им положен `-ing`, и взять его неоткуда больше. Поэтому **I'm enjoying working here** ✓ и **She's avoiding talking about it** ✓ — два `-ing` подряд, и всё в полном порядке. Не переносите ограничение на них, иначе будете ломать правильные фразы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что дальше"
+        },
+        {
+          "type": "paragraph",
+          "text": "Итак, у нас уже два лагеря: глаголы, которые требуют только `-ing`, и глаголы, которым всё равно. Осталось посмотреть на края — где выбора нет в противоположную сторону: `would like` требует только `to`, а `can't stand` — только `-ing`."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После **start**, **begin**, **continue** годятся обе формы, и оттенка между ними нет: **It started raining** = **It started to rain**."
+        },
+        {
+          "type": "heading",
+          "text": "Стиль"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**start** — разговорный и более широкий: **start the car**, **start a business**",
+            "**begin** — книжнее, про начало процесса: **The meeting begins at nine**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ограничение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Глагол-хозяин уже в Continuous → второй берёт `to`: **It's starting raining** ✗ → **It's starting to rain** ✓"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Правило только для глаголов с выбором. У `enjoy`, `avoid`, `keep` выбора нет: **I'm enjoying working here** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Дождь пошёл сразу после обеда.",
+          "en": "It started raining right after lunch."
+        },
+        {
+          "ru": "Оля продолжила работать до полуночи.",
+          "en": "Olya continued working until midnight."
+        },
+        {
+          "ru": "Встреча начинается в девять.",
+          "en": "The meeting begins at nine."
+        },
+        {
+          "ru": "Кажется, начинается дождь.",
+          "en": "I think it's starting to rain."
+        },
+        {
+          "ru": "Я как раз получаю удовольствие от работы здесь.",
+          "en": "I'm really enjoying working here."
+        }
+      ],
+      "clarificationOptions": [
+        "Если разницы нет, какую форму выбирать после start?",
+        "Почему нельзя сказать it's starting raining?",
+        "Когда лучше брать begin, а когда start?"
+      ]
+    },
+    {
+      "id": 622,
+      "microtopicId": 229,
+      "title": "Границы: would like только с to, can't stand только с -ing",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Мы посмотрели на глаголы, которые требуют `-ing`, и на глаголы, которым всё равно. Остались края — там, где выбора нет в противоположные стороны."
+        },
+        {
+          "type": "heading",
+          "text": "would like — это не «нравится», а «хочу сейчас»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Форму `I'd like` вы уже видели в «Инфинитиве», вместе с ловушкой **I'd like booking a table** ✗. Теперь объясним, почему так."
+        },
+        {
+          "type": "paragraph",
+          "text": "`would like` только выглядит роднёй глагола `like`. На деле это вежливое «я хотел бы» — то есть намерение, желание на конкретный случай. А намерение смотрит вперёд, дела ещё нет, и по оси всей темы это значит одно: `to`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Контраст держите в голове парой:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I like cooking.** — вообще люблю готовить, это про меня как про человека;",
+            "**I'd like to cook tonight.** — хочу приготовить сегодня вечером, это про один конкретный вечер."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот же ряд и с другими глаголами: **I'd love to see you** · **I'd hate to be late**."
+        },
+        {
+          "type": "heading",
+          "text": "Would you like…? — вежливое приглашение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая ходовая работа этой конструкции — не рассказ о себе, а предложение собеседнику. Вопрос собирает, как всегда, первый глагол:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Would you like some tea?** — чаю? (дальше просто существительное, без глагола);",
+            "**Would you like to join us?** — не хотите присоединиться?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Звучит это заметно мягче, чем **Do you want…?**, поэтому в кафе, в гостях и с незнакомыми людьми носитель берёт именно `Would you like`."
+        },
+        {
+          "type": "heading",
+          "text": "I'd love to. — согласие, где to остаётся один"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот ответ на такое приглашение устроен неожиданно. Английский не повторяет всё предложение целиком и не обрывает фразу на глаголе — он оставляет **голый `to`** и на этом заканчивает:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Lucy",
+              "text": "Would you like to join us for dinner?"
+            },
+            {
+              "speaker": "Me",
+              "text": "I'd love to."
+            },
+            {
+              "speaker": "Lucy",
+              "text": "Great, see you at seven."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'd love** ✗ — так по-английски не отвечают, фраза звучит оборванной. Нужен именно **I'd love to** ✓. То же работает с отказом: **I'd like to, but I can't.**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Если действие делает другой человек"
+        },
+        {
+          "type": "paragraph",
+          "text": "Такая конструкция в курсе уже была, в «Инфинитиве»: между `would like` и глаголом встаёт тот, кто будет действовать, а `to` никуда не девается. **I'd like you to come earlier** · **She'd like us to call her back**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните с прошлой микротемой: **I don't mind you being late** — там `-ing`, потому что `mind` из списка «только `-ing`». Каркас один и тот же, форма разная — и решает её, как всегда, глагол-хозяин."
+        },
+        {
+          "type": "heading",
+          "text": "can't stand — противоположный край"
+        },
+        {
+          "type": "paragraph",
+          "text": "**can't stand** значит «терпеть не могу, на дух не переношу», и после него возможен только `-ing`: **I can't stand waiting in line** · **He can't stand getting up early**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это нижняя ступень той шкалы, которую мы разбирали: ниже `hate` и заметно резче него."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `hate` есть вежливая формула, где `to` стоит по той же причине, что у `would like` — речь о конкретном моменте прямо сейчас: **I hate to say it, but you're wrong** («неприятно говорить, но…») и **I hate to bother you** («извините, что отвлекаю»). Обе фразы стоит знать целиком."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего нового: форму держит первый глагол, второй не трогаем. **I don't like getting up early** · **I wouldn't like to be late** · **She doesn't mind waiting**."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "**would like** — это «хочу сейчас, в этот раз», то есть намерение, поэтому только `to`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I like cooking** (вообще) ↔ **I'd like to cook tonight** (сегодня)",
+            "**I'd like booking a table** ✗ → **I'd like to book a table** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вежливые обороты"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Would you like some tea?** · **Would you like to join us?** — мягче, чем `Do you want…?`",
+            "Ответ оставляет голый `to`: **I'd love to** ✓, а **I'd love** ✗ звучит оборванно",
+            "Действует другой человек — он встаёт перед `to`: **I'd like you to come earlier**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**can't stand** — только `-ing`, нижняя ступень шкалы: **I can't stand waiting in line**"
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание"
+        },
+        {
+          "type": "paragraph",
+          "text": "Держит первый глагол: **I don't like getting up early** · **I wouldn't like to be late**"
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я хотел бы забронировать столик на восемь.",
+          "en": "I'd like to book a table for eight."
+        },
+        {
+          "ru": "Не хотите присоединиться к нам за ужином?",
+          "en": "Would you like to join us for dinner?"
+        },
+        {
+          "ru": "С удовольствием.",
+          "en": "I'd love to."
+        },
+        {
+          "ru": "Я хотел бы, чтобы ты пришёл пораньше.",
+          "en": "I'd like you to come earlier."
+        },
+        {
+          "ru": "Юля терпеть не может стоять в очереди.",
+          "en": "Yulya can't stand waiting in line."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем I'd like отличается от I like?",
+        "Почему в ответе I'd love to остаётся to без глагола?",
+        "Когда после would like ставить человека, а когда сразу to?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1361,6 +1896,60 @@
       "exerciseType": "TRANSFORMATION",
       "exerciseId": 98,
       "orderInCard": 2
+    },
+    {
+      "cardId": 620,
+      "exerciseType": "MATCHING",
+      "exerciseId": 106,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 620,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 224,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 620,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 100,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 621,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 233,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 621,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 217,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 621,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 119,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 622,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 252,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 622,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 92,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 622,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 202,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1395,6 +1984,30 @@
       "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый подходящую форму.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card620_ex1",
+      "cardId": 620,
+      "title": "Скажи, как ты к этому относишься",
+      "userInstruction": "ИИ назовёт занятие. Напишите одно предложение о том, как вы к нему относитесь.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card621_ex1",
+      "cardId": 621,
+      "title": "Начал или продолжил",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждый глагол из скобок в подходящей форме.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "gerund_card622_ex1",
+      "cardId": 622,
+      "title": "Вежливо предложи и ответь",
+      "userInstruction": "ИИ даст одну русскую фразу. Скажите её по-английски одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -1461,6 +2074,30 @@
       "transcription": "[tuː ˈmenʃn]",
       "microtopicId": 228,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 866,
+      "word": "would like",
+      "translation": "хотел бы, хотелось бы",
+      "transcription": "[wʊd laɪk]",
+      "microtopicId": 229,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 867,
+      "word": "can't stand",
+      "translation": "терпеть не могу, на дух не переношу",
+      "transcription": "[kɑːnt stænd]",
+      "microtopicId": 229,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 868,
+      "word": "to continue",
+      "translation": "продолжать",
+      "transcription": "[tuː kənˈtɪnjuː]",
+      "microtopicId": 229,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -1495,6 +2132,37 @@
         }
       ],
       "explanation": "во втором предложении нужно suggested going, в пятом — instead of taking: и после глагола suggest, и после связки instead of встаёт название действия, а не начальная форма с to. Остальные три предложения собраны верно."
+    },
+    {
+      "id": 224,
+      "statements": [
+        {
+          "en": "Lena loves to travel in autumn.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Lena loves travelling in autumn.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My brother hates to lose.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Pasha enjoys to fix old cars.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We prefer walk to the office.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "like, love, hate и prefer берут обе формы, поэтому первые три предложения верны. А вот enjoy обе формы не берёт — только enjoys fixing; и после prefer нельзя ставить голый глагол: нужно prefer walking или prefer to walk."
     }
   ],
   "word_arrangement_exercises": [
@@ -1515,6 +2183,23 @@
         "agreeing"
       ],
       "explanation": "agree смотрит вперёд — помощь ещё не оказана, есть только согласие, поэтому нужна форма с to. Варианты helping и to helping не годятся: -ing после agree не встаёт вообще."
+    },
+    {
+      "id": 202,
+      "situationRu": "Ситуация: Денис просит коллегу прийти на встречу пораньше.",
+      "correctSentence": "I'd like you to come earlier.",
+      "words": [
+        "I'd like",
+        "you",
+        "to come",
+        "earlier"
+      ],
+      "distractors": [
+        "coming",
+        "that you",
+        "to coming"
+      ],
+      "explanation": "would like требует форму с to, а тот, кто будет действовать, встаёт прямо перед ней — без that и без предлога. Форма coming стоит после глаголов вроде mind, но не после would like."
     }
   ],
   "multiple_choice_exercises": [
@@ -1622,6 +2307,69 @@
         }
       ],
       "explanation": "после suggest стоит название действия, поэтому going. Вариант с us невозможен вовсе: suggest не берёт человека прямым объектом — чтобы назвать исполнителя, нужна часть с that (suggested that we go by train)."
+    },
+    {
+      "id": 100,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I like to get up early.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Мне нравится сам процесс раннего подъёма.",
+          "isCorrect": false
+        },
+        {
+          "text": "У меня так заведено — я считаю правильным вставать рано.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я как раз собираюсь встать пораньше.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "форма с to у like даёт оттенок выбора и заведённого порядка. Удовольствие от самого процесса звучало бы как I like getting up early — но ошибкой ни один из вариантов не будет, разница только в оттенке."
+    },
+    {
+      "id": 233,
+      "choiceType": "CHOICE",
+      "prompt": "Look at the sky — it's beginning ___.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "snowing",
+          "isCorrect": false
+        },
+        {
+          "text": "to snow",
+          "isCorrect": true
+        },
+        {
+          "text": "snow",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "глагол-хозяин сам стоит в Continuous и уже получил -ing, поэтому второму остаётся форма с to. Два хвостика подряд английский не ставит."
+    },
+    {
+      "id": 252,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Не хотите чаю?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Do you like some tea?",
+          "isCorrect": false
+        },
+        {
+          "text": "Would you like some tea?",
+          "isCorrect": true
+        },
+        {
+          "text": "Would you like to some tea?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "вежливое предложение строится через Would you like. После него здесь идёт просто существительное, никакого to не нужно — to появляется только перед глаголом: Would you like to join us?"
     }
   ],
   "text_input_exercises": [
@@ -1718,6 +2466,38 @@
         }
       ],
       "explanation": "вопрос буквально означает «ты против?», поэтому согласие подождать — это отрицание: No, not at all. Ответ Yes прочитается как «да, я против», то есть как отказ."
+    },
+    {
+      "id": 92,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Would you like to come with us on Saturday?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Great, I'll text you the address."
+        }
+      ],
+      "options": [
+        {
+          "text": "I'd love.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I like.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'd love to.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "в коротком согласии английский оставляет голый to и не повторяет глагол. Без to фраза звучит оборванной, а Yes, I like говорит о привычке вообще, а не о согласии на конкретное приглашение."
     }
   ],
   "matching_exercises": [
@@ -1747,6 +2527,33 @@
         }
       ],
       "explanation": "хвостик -ing даёт не действие, а его название — вещь, о которой можно говорить как о предмете. Поэтому driving это «вождение», а не «водит»."
+    },
+    {
+      "id": 106,
+      "taskDescription": "соедини английскую фразу с её местом на шкале отношения.",
+      "pairs": [
+        {
+          "left": "I love cooking",
+          "right": "обожаю"
+        },
+        {
+          "left": "I like cooking",
+          "right": "нравится"
+        },
+        {
+          "left": "I don't mind cooking",
+          "right": "нормально, не против"
+        },
+        {
+          "left": "I don't like cooking",
+          "right": "не нравится"
+        },
+        {
+          "left": "I can't stand cooking",
+          "right": "на дух не переношу"
+        }
+      ],
+      "explanation": "между «люблю» и «терпеть не могу» у английского есть середина, и самая ходовая её часть — don't mind: это спокойное «мне без разницы», а вовсе не «не нравится»."
     }
   ],
   "error_correction_exercises": [
@@ -1787,6 +2594,25 @@
         }
       ],
       "explanation": "avoid входит во второй список: уклоняются от чего-то, то есть от вещи, поэтому справа стоит answering. Форма с to после avoid не встаёт ни в каком виде."
+    },
+    {
+      "id": 217,
+      "wrongSentence": "The kids are starting getting tired.",
+      "options": [
+        {
+          "text": "The kids are starting to get tired.",
+          "isCorrect": true
+        },
+        {
+          "text": "The kids are starting get tired.",
+          "isCorrect": false
+        },
+        {
+          "text": "The kids are start getting tired.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "are starting уже содержит -ing, поэтому второй глагол берёт to. Голый глагол после starting не годится, а are start ломает само время."
     }
   ],
   "construction_meaning_exercises": [
@@ -1906,6 +2732,29 @@
         }
       ],
       "explanation": "admit, mention и deny говорят о том, что уже случилось, — это факт, поэтому -ing. Refuse смотрит вперёд, на несделанное дело, и требует to: he refused to pay."
+    },
+    {
+      "id": 119,
+      "groupDescription": "Три глагола берут обе формы, один — только -ing",
+      "items": [
+        {
+          "text": "start",
+          "isOdd": false
+        },
+        {
+          "text": "continue",
+          "isOdd": false
+        },
+        {
+          "text": "avoid",
+          "isOdd": true
+        },
+        {
+          "text": "begin",
+          "isOdd": false
+        }
+      ],
+      "explanation": "start, begin и continue одинаково спокойно принимают и -ing, и форму с to. Avoid выбора не даёт: после него стоит только название действия — avoid talking, avoid driving."
     }
   ]
 }
