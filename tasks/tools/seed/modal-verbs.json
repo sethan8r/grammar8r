@@ -74,6 +74,13 @@
       "title": "Modal + have + V3 · Догадки и сожаления о прошлом",
       "order": 9,
       "searchKeywords": "надо было сказать по-английски, could have три смысла, must have forgotten, should of ошибка, needn't have что значит, упрёк о прошлом"
+    },
+    {
+      "id": 243,
+      "topicId": 37,
+      "title": "Live Practice · Модальные в деле",
+      "order": 10,
+      "searchKeywords": "живая практика с ии, потренировать модальные разом, проверить себя без подсказок, найти ошибку с ии, сказать фразу с ии"
     }
   ],
   "grammar_cards": [
@@ -5458,6 +5465,422 @@
         "Почему носители пишут should of, если это ошибка?",
         "Как собрать вопрос с must have?"
       ]
+    },
+    {
+      "id": 662,
+      "microtopicId": 243,
+      "title": "Живая практика: модальные в деле",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена целиком: девять микротем, два этажа, все формы и подпорки. Дальше карточками её не закрепить. В жизни никто не подписывает заранее, какой сейчас этаж и какая нужна ступенька, — есть ситуация, пара секунд и ваш рот, из которого сейчас что-то вылетит."
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому финал темы — живая практика: фразы, сцены и чужие ошибки, в которых решать приходится самому."
+        },
+        {
+          "type": "heading",
+          "text": "Корень, из которого выведено всё остальное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Модальный не называет действие — действие называет глагол рядом с ним. Модальный сообщает, **как** к этому действию относиться. Из одной этой мысли выводится вся его странная грамматика, и запоминать её списком не нужно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "согласовываться не с кем, оценка принадлежит говорящему → **He can swim** ✓, никакого `-s`;",
+            "он не второй глагол, а помощник при первом → `to` перед действием не ставится;",
+            "своих времён у него нет → в прошлое и будущее он ходит через связки;",
+            "отношение одно → двух модальных подряд не бывает."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Два этажа одного слова"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Поступок",
+            "Догадка"
+          ],
+          "rows": [
+            [
+              "must",
+              "надо, обязан",
+              "наверняка"
+            ],
+            [
+              "can't",
+              "нельзя",
+              "не может быть"
+            ],
+            [
+              "may / might",
+              "можно",
+              "может быть"
+            ],
+            [
+              "should",
+              "следует",
+              "должно быть по ожиданию"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Различает этажи то, что стоит справа: действие человека (`wear`, `go`, `park`) — поступок; `be` плюс состояние (`tired`, `at home`, `joking`) — догадка."
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит справа от модального"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Справа",
+            "Что сообщает",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "do",
+              "само действие",
+              "He must work late"
+            ],
+            [
+              "be doing",
+              "идёт прямо сейчас",
+              "He must be working late"
+            ],
+            [
+              "have done",
+              "уже случилось",
+              "He must have worked late"
+            ],
+            [
+              "have been doing",
+              "шло и тянулось",
+              "He must have been working"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма после модального всегда базовая — меняется только то, чья это базовая форма."
+        },
+        {
+          "type": "heading",
+          "text": "Подпорки: где модальный не ходит"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Модальный",
+            "Прошлое",
+            "Будущее"
+          ],
+          "rows": [
+            [
+              "can",
+              "could · was able to",
+              "will be able to"
+            ],
+            [
+              "must",
+              "had to",
+              "will have to"
+            ],
+            [
+              "may (разрешение)",
+              "was allowed to",
+              "will be allowed to"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**I will can help you** ✗ → **I'll be able to help you** ✓. И помните разницу внутри прошлого: `could` рассказывает об умении вообще, а разовое «в тот раз получилось» — это **was able to** или **managed to**."
+        },
+        {
+          "type": "heading",
+          "text": "Три «надо» и три «не надо»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**have to** — дефолт живой речи · **must** — правило и табличка, от человека к человеку звучит приказом · **have got to** — разговорное, про конкретный срочный случай;",
+            "**You mustn't go** — нельзя · **You don't have to go** — не обязан · **You needn't go** — незачем."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сила и регистр — две разные линейки: разговорное **I've got to go** давит будь здоров, а нейтральное `should` не обязывает вовсе."
+        },
+        {
+          "type": "heading",
+          "text": "Шкала уверенности и её отрицания"
+        },
+        {
+          "type": "paragraph",
+          "text": "**He must be at work** (вывод из улики) → **He should be at work** (по порядку вещей) → **He may / might / could be at work** (одна из возможностей) → **He can't be at work** (невозможно)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицания на этом этаже свои: **can't be** — невозможно · **might not be** — возможно, что нет · **shouldn't be** — не ожидается · `mustn't` сюда не ходит вовсе, он остался запретом на первом этаже."
+        },
+        {
+          "type": "paragraph",
+          "text": "В прошлом работает та же шкала плюс `have` с третьей формой: **He must have forgotten** · **She can't have said that** · **They might have missed the bus**. Рядом живут **You should have told me** (упрёк), **I shouldn't have said that** (сожаление) и **I needn't have paid** (сделал зря)."
+        },
+        {
+          "type": "heading",
+          "text": "Дистанция: почему вежливость — это шаг назад"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Will you help me?** → **Can you help me?** → **Would you help me?** → **Could you help me?** Сверху две прямые формы, снизу они же, отодвинутые на шаг назад. Речь при этом всегда про сейчас — никакого прошлого в вежливом `could` нет."
+        },
+        {
+          "type": "heading",
+          "text": "Техника, которую проверяют задания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He cans swim** ✗ → **He can swim** ✓",
+            "**I must to go** ✗ → **I must go** ✓",
+            "**I will can help** ✗ → **I'll be able to help** ✓",
+            "**Does he can work?** ✗ → **Can he work?** ✓ · **He doesn't can work** ✗ → **He can't work** ✓",
+            "**You needn't to come** ✗ → **You needn't come** ✓ · **You don't need come** ✗ → **You don't need to come** ✓",
+            "**You're supposed wear a helmet** ✗ → **You're supposed to wear a helmet** ✓",
+            "**He must forgot** ✗ → **He must have forgotten** ✓ · **She must has forgotten** ✗ → **She must have forgotten** ✓",
+            "**He should of told me** ✗ → **He should have told me** ✓",
+            "**He must be sleep** ✗ → **He must be sleeping** ✓"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самые дорогие промахи в этой теме — не в форме, а в **выборе**. Форма собрана верно, а сказано совсем другое:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«не надо приходить» в смысле «можешь не приходить» → **You don't have to come** ✓, а **You mustn't come** запрещает появляться;",
+            "«наверное, забыл» → **He must have forgotten**; **Maybe he forgot** понятно, но по-ученически;",
+            "прогноз на завтра → **It might rain tomorrow** ✓, а **It can rain tomorrow** ✗ — хотя **It can rain a lot here in July** ✓, потому что речь о здешних июлях вообще;",
+            "«в тот раз я сумел выбраться» → **I was able to get out** ✓, потому что `could` говорит об умении вообще;",
+            "«раньше у меня была машина» → **I used to have a car** ✓: о прошлом состоянии `would` не рассказывает;",
+            "«мне позвонить ему?» → **Should I call him?** ✓, а **Do I call him?** спрашивает о привычке."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что будет в заданиях"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Две фразы.** ИИ даёт пару, которая отличается одним модальным, — скажите, что значит каждая. Разницу вы уже знаете; задача увидеть её быстро.",
+            "**Фраза из темы.** Русское предложение — скажите его по-английски. Иногда оно специально просится в кальку.",
+            "**Ситуация.** Бытовая сцена и обстановка: кто перед вами и насколько всё официально. Что сказать — решаете сами, подсказки не будет.",
+            "**Найди ошибку.** Три предложения, в одном ошибка: найдите его, перепишите правильно и своими словами скажите, что было не так.",
+            "**Переверни фразу.** Готовое предложение и одно указание: сделать отрицание, задать вопрос, перенести в прошлое или в будущее. Здесь и вылезет, что своих времён у модального нет."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чего в заданиях не будет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Того, что мы давали только на узнавание или отдали другим темам: модального с пассивом (**It must be done**), сдвига модальных в пересказе чужих слов, форм **will be doing** и **will have done**, оборотов `would rather` и `had better`, вопросительных хвостиков, а также книжного яруса — **be to**, **Need I say more?**, **Dare I ask?**, **Might I…?**, `oughtn't`. Всё это ждёт своих тем: «Passive Voice», «Reported Speech», «Future Continuous», «Future Perfect», «Дополнительные конструкции», «Question Tags»."
+        },
+        {
+          "type": "heading",
+          "text": "ИИ — это тренажёр, а не экзамен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Промахнуться здесь нормально и даже полезно. На каждую ошибку ИИ показывает верный вариант, называет причину и — это главное — говорит, что значила бы **ваша** фраза: она почти всегда настоящая английская, просто про другое. Уйти отсюда нужно не с оценкой, а с парой в голове: сказал `mustn't` — увидел рядом `don't have to` и понял, чем они разошлись."
+        },
+        {
+          "type": "heading",
+          "text": "Встретится то, чего мы не давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "ИИ говорит на живом английском, и в его репликах может проскочить конструкция из будущих тем — пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод."
+        },
+        {
+          "type": "heading",
+          "text": "Как это устроено"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».",
+            "**Слова — ваши.** В заданиях с переводом и ситуацией подтягивается порция слов, которые вы уже знаете: трудность должна быть в выборе конструкции, а не в незнакомой лексике.",
+            "**Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие."
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Модальный не называет действие, а оценивает его. Отсюда всё остальное: нет `-s`, нет `to`, нет своих времён, двух подряд не бывает."
+        },
+        {
+          "type": "heading",
+          "text": "Два этажа"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**must** надо ↔ наверняка · **can't** нельзя ↔ не может быть · **may / might** можно ↔ может быть · **should** следует ↔ должно быть",
+            "Справа действие (`go`, `wear`) → поступок; справа `be` плюс состояние → догадка"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит справа"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`do` — действие · `be doing` — идёт сейчас · `have done` — уже случилось · `have been doing` — шло и тянулось"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`not` сразу после модального: **He can't work** · **You shouldn't worry**",
+            "Вопрос инверсией, без `do`: **Can he work?** · **Should I call him?** · **Shouldn't we leave now?**",
+            "У связок помощник штатный: **Do you have to work?** · **Were you allowed to leave?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Подпорки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "can → **could** · **was able to** · **will be able to**",
+            "must → **had to** · **will have to**",
+            "may (разрешение) → **was allowed to** · **will be allowed to**",
+            "Умение вообще → `could`; разовое «получилось» → **was able to** / **managed to**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три «надо» и три «не надо»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**have to** — дефолт · **must** — правило и табличка · **have got to** — срочное разговорное",
+            "**mustn't** — нельзя · **don't have to** — не обязан · **needn't** — незачем"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Разрешение и запрет"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Право для себя: **Can I…?** (свои) → **Could I…?** (чужой) → **May I…?** (официально); действие от собеседника — **Can you…?**",
+            "**You can't park here** — бытовое · **You mustn't tell anyone** — лично и строго · **Passengers may not smoke** — таблички"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Уверенность"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**must be** (улика) → **should be** (порядок вещей) → **may / might / could be** → **can't be**",
+            "Отрицания: **can't be** невозможно · **might not be** возможно, что нет · **shouldn't be** не ожидается · `mustn't` сюда не ходит",
+            "В прошлом то же плюс `have` и третья форма: **He must have forgotten** · **She can't have said that**",
+            "**should have** — упрёк · **needn't have** — сделал зря · **didn't have to** — не пришлось"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вежливость — шаг назад"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will you** → **Can you** → **Would you** → **Could you**; речь всегда про сейчас",
+            "**Would you mind waiting?** — мягче всех; согласие звучит как отрицание: **Not at all**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "will и would про другое"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He won't listen** — отказывается · **The door won't open** — не поддаётся",
+            "**We would go to the lake every summer** — повторялось; прошлое состояние берёт только **used to have**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He cans swim** ✗ → **He can swim** ✓ · **I must to go** ✗ → **I must go** ✓",
+            "**I will can help** ✗ → **I'll be able to help** ✓",
+            "**He must forgot** ✗ → **He must have forgotten** ✓ · **should of** ✗ → **should have** ✓",
+            "**You mustn't come** ✗ в значении «можешь не приходить» → **You don't have to come** ✓",
+            "**It can rain tomorrow** ✗ → **It might rain tomorrow** ✓"
+          ]
+        }
+      ],
+      "examples": [],
+      "clarificationOptions": [
+        "Почему у модального нет своих времён?",
+        "Чем mustn't отличается от don't have to?",
+        "Как выбрать между could и was able to?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -6104,6 +6527,46 @@
       "cardId": 661,
       "title": "Почини форму",
       "userInstruction": "ИИ пришлёт одно сломанное предложение. Перепишите его правильно и своими словами скажите, что было не так.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card662_ex1",
+      "cardId": 662,
+      "title": "Две фразы — одна разница",
+      "userInstruction": "ИИ пришлёт две похожие английские фразы. Скажите по-русски, что значит каждая и чем они различаются.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card662_ex2",
+      "cardId": 662,
+      "title": "Скажи это по-английски",
+      "userInstruction": "ИИ даст одно русское предложение. Скажите то же самое по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card662_ex3",
+      "cardId": 662,
+      "title": "Скажи это в жизни",
+      "userInstruction": "ИИ опишет по-русски сцену и скажет, кто перед вами. Напишите по-английски фразу, которую вы в ней скажете.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card662_ex4",
+      "cardId": 662,
+      "title": "Найди и исправь",
+      "userInstruction": "ИИ пришлёт три предложения, в одном из них ошибка. Найдите его, перепишите правильно и своими словами скажите, что было не так.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card662_ex5",
+      "cardId": 662,
+      "title": "Переверни фразу",
+      "userInstruction": "ИИ пришлёт правильное английское предложение и скажет, что с ним сделать. Перепишите его.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
