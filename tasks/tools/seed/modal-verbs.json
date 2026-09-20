@@ -18,6 +18,13 @@
       "title": "Modal Verbs · Модальные: глагол, который оценивает",
       "order": 1,
       "searchKeywords": "что такое модальный глагол, must это надо или наверняка, надо и должно быть разница, maybe или must, второй смысл у may и can"
+    },
+    {
+      "id": 235,
+      "topicId": 37,
+      "title": "How Modals Work · Форма: без -s, без to, без своих времён",
+      "order": 2,
+      "searchKeywords": "почему can без s, must to go ошибка, как задать вопрос с should, короткий ответ yes i can, will can или be able to, could или was able to"
     }
   ],
   "grammar_cards": [
@@ -481,6 +488,612 @@
         "Почему нельзя просто всегда говорить maybe вместо must?",
         "Русское «должен» — это must или have to?"
       ]
+    },
+    {
+      "id": 637,
+      "microtopicId": 235,
+      "title": "Никакого -s и никакого to",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы договорились о корне: модальный глагол не называет действие, а оценивает его, и оценка принадлежит говорящему. Теперь посмотрим, что из этого корня растёт в самой форме — и увидим, что четыре знаменитые ошибки русскоязычного объясняются им одним, а не четырьмя отдельными правилами."
+        },
+        {
+          "type": "heading",
+          "text": "Окончание -s модальному не нужно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Во всех пройденных временах мы привыкали к тому, что в третьем лице глагол получает `-s`: **Ben works**, **Kate drives**, **The shop opens at nine**. Это окончание — знак согласования: глагол подстраивается под подлежащее, показывает, что действие принадлежит именно ему."
+        },
+        {
+          "type": "paragraph",
+          "text": "А модальному подстраиваться не под кого. Оценка — не действие Бена, это мнение говорящего о действии Бена. Поэтому согласование отменяется целиком:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He cans swim** ✗ → **He can swim** ✓",
+            "**She musts go** ✗ → **She must go** ✓",
+            "**It shoulds work** ✗ → **It should work** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Приятная новость: модальный вообще не меняется. Ни `-s`, ни `-ed`, ни `-ing` — одна форма на все лица и оба числа. **I can**, **you can**, **he can**, **we can**, **they can** — выучили слово один раз и больше к нему не возвращаетесь."
+        },
+        {
+          "type": "heading",
+          "text": "Почему после модального нет to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Со вторым следствием сложнее, потому что здесь мешает родной язык. Вспомним, зачем в английском вообще нужно `to`: мы разбирали это в «Инфинитиве» — `to` работает меткой второго глагола в предложении. Сказуемое одно, второй глагол обязан уйти с этой роли, и `to` — знак, что он ушёл: **I want to go**, **She decided to stay**, **We hope to see you**."
+        },
+        {
+          "type": "paragraph",
+          "text": "А модальный — не второй глагол. Он служебный, помощник при глаголе, как `do` в вопросе или `have` в перфекте. Второго глагола в **I can go** просто нет: `go` тут первый и единственный, а `can` его обслуживает. Метить нечего — значит, и `to` неоткуда взяться:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I must to go** ✗ → **I must go** ✓",
+            "**I can to swim** ✗ → **I can swim** ✓",
+            "**You should to rest** ✗ → **You should rest** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскому эта ошибка кажется логичной, и вот почему. По-русски «должен **идти**», «могу **пойти**», «следует **отдохнуть**» — второе слово стоит в начальной форме, в нашем инфинитиве, том самом, что отвечает на вопрос «что делать?». Мы честно переводим: «должен» = `must`, «идти» = `to go` — и получаем **I must to go**. Логика безупречная, беда только в том, что русский инфинитив и английский `to`-инфинитив — не одно и то же: у нас это форма слова, а у них — знак роли в предложении."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть конструкция, которая выглядит прямым опровержением правила — **I have to go** ✓, и `to` там на месте. Никакого противоречия нет: `have` — обычный глагол, а не модальный, поэтому `go` при нём как раз второй глагол и метку получает честно. Отсюда полезный вывод: `to` есть — значит, перед вами не модальный, а связка-заменитель (`have to`, `be able to`, `be supposed to`), и ведёт она себя по обычным правилам."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Из настоящих модальных ровно один носит `to` на себе — `ought to` («следует», книжный родственник `should`): **You ought to call her** ✓. Это не исключение из правила, а часть самого слова: `to` здесь приклеен к модальному, а не поставлен перед глаголом. Встретим его в микротеме про совет — теперь он не удивит."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит после модального"
+        },
+        {
+          "type": "paragraph",
+          "text": "И третье следствие — самое полезное на всю тему вперёд. Раз модальный не меняется сам, значит, всю работу делает то, что стоит справа от него. И там всегда базовая форма — меняется только то, **чья** она:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Сборка",
+            "Что сообщает",
+            "Где разбираем"
+          ],
+          "rows": [
+            [
+              "must do",
+              "само действие",
+              "эта микротема"
+            ],
+            [
+              "must be doing",
+              "действие идёт прямо сейчас",
+              "микротема «Уверенность»"
+            ],
+            [
+              "must have done",
+              "действие уже случилось",
+              "«Модальный + have + V3»"
+            ],
+            [
+              "must have been doing",
+              "шло и продолжается",
+              "«Модальный + have + V3»"
+            ],
+            [
+              "must be done",
+              "действие делают НАД подлежащим",
+              "«Passive Voice»"
+            ],
+            [
+              "must have been done",
+              "то же, но уже сделали",
+              "«Passive Voice»"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Две нижние строки мы здесь не разбираем — они показаны, чтобы вы видели: место для них в каркасе уже есть, и учить их отдельной непонятной формулой не придётся. По той же схеме собраны **will be doing** и **will have done** — их дома дальше по курсу, «Future Continuous» и «Future Perfect»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше — вопрос и отрицание. Там модальный устраивает сюрприз, который сильно упрощает жизнь."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Модальный не меняется вообще: ни `-s` в третьем лице, ни `-ed`, ни `-ing`. Согласовываться ему не с кем — оценка принадлежит говорящему, а не подлежащему."
+        },
+        {
+          "type": "heading",
+          "text": "После модального — голый глагол"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He cans swim** ✗ → **He can swim** ✓",
+            "**I must to go** ✗ → **I must go** ✓ — `to` метит второй глагол, а модальный сам служебный",
+            "`to` появился → перед вами не модальный, а связка: **I have to go** ✓, **be able to**",
+            "Один модальный носит `to` на себе: **You ought to call her** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что справа от модального"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "must do — само действие · must be doing — идёт сейчас · must have done — уже случилось"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ник умеет играть на гитаре.",
+          "en": "Nick can play the guitar."
+        },
+        {
+          "ru": "Катя должна сегодня закончить отчёт.",
+          "en": "Kate must finish the report today."
+        },
+        {
+          "ru": "Тебе следует отдохнуть после работы.",
+          "en": "You should rest after work."
+        },
+        {
+          "ru": "По вторникам мне приходится работать из дома.",
+          "en": "I have to work from home on Tuesdays."
+        },
+        {
+          "ru": "Тебе следует ей позвонить.",
+          "en": "You ought to call her."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в I have to go частица to есть, а в I must go нет?",
+        "Если модальный не меняется, как понять, о каком времени речь?",
+        "Чем ought to отличается от should?"
+      ]
+    },
+    {
+      "id": 638,
+      "microtopicId": 235,
+      "title": "Отрицание, вопрос и короткий ответ",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Здесь начинается самое приятное в теме. В обычных временах вопрос и отрицание требуют возни с помощником: в Present Simple надо позвать `do` или `does`, в прошлом — `did`, а смысловой глагол при этом вернуть в базовую форму. С модальным вся эта возня отменяется, и по одной причине: **помощник уже стоит в предложении**. Звать второго не нужно."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: not сразу после модального"
+        },
+        {
+          "type": "paragraph",
+          "text": "Частица `not` прилипает к модальному, и почти всегда в краткой форме:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I can't help you today** · **You shouldn't worry about it**",
+            "**He won't answer the phone** · **She mustn't be late again**",
+            "**They couldn't find the keys** · **I wouldn't do that**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Из книжного стоит узнавать `may not` и почти не встречающееся `mightn't` — сами их производить не нужно, но в тексте они попадаются."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос: модальный выходит вперёд"
+        },
+        {
+          "type": "paragraph",
+          "text": "Механика знакома по `can` из «Основ» — модальный просто встаёт перед подлежащим, и всё:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Should I call him now?**",
+            "**Must we go so early?**",
+            "**Would you wait five minutes?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разницу удобнее увидеть в два столбика. Слева обычный глагол, справа модальный:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Обычный глагол",
+            "Модальный"
+          ],
+          "rows": [
+            [
+              "He works late",
+              "He can work late"
+            ],
+            [
+              "Does he work late?",
+              "Can he work late?"
+            ],
+            [
+              "He doesn't work late",
+              "He can't work late"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слева помощника приходится вызывать со стороны, и он ещё забирает у глагола окончание. Справа помощник свой — он же и выходит вперёд, он же и берёт `not`. Мы разбирали это в «Служебных глаголах»: помощник в предложении один, и второй ему не нужен."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда две ошибки, обе от привычки к `do`. **Does he can work?** ✗ и **He doesn't can work** ✗ — помощник удвоился. Правильно: **Can he work?** ✓ и **He can't work** ✓. Проверка простая: увидели в предложении модальный — про `do`, `does` и `did` можно забыть."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Разве не…? — отрицательный вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос бывает и отрицательным, и звучит он совсем не так, как кажется по форме. `Not` уходит вперёд вместе с модальным:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can't you see the sign?** — «ты что, не видишь знак?»: я ожидал обратного и слегка удивлён;",
+            "**Shouldn't we tell her first?** — «а не стоит ли нам сначала ей сказать?»: осторожное предложение, а не упрёк;",
+            "**Won't you join us?** — «не присоединишься?»: приглашение, причём более тёплое, чем прямое **Will you join us?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "То есть отрицательный вопрос русскому нужен ровно там, где он сам сказал бы «разве не…?» или «а не…?»."
+        },
+        {
+          "type": "heading",
+          "text": "Краткий ответ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отвечаем тем же модальным, каким спросили, и хвост не повторяем:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can you drive? — Yes, I can.** · **Should I wait? — No, you shouldn't.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сказать **Yes, I can drive** не ошибка, но по-английски это звучит как лишнее топтание на месте: смысловой глагол в ответе отбрасывают."
+        },
+        {
+          "type": "heading",
+          "text": "Четыре ответа на один вопрос Must I go?"
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот здесь спрятана главная ловушка всей темы, и на коротком ответе она видна лучше всего. На вопрос **Must I go?** есть четыре разных ответа, и три из них похожи, а один говорит обратное:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Yes, you must.** — да, обязан;",
+            "**No, you don't have to.** — нет, не обязан: можешь идти, можешь не идти;",
+            "**No, you needn't.** — то же самое, чуть более книжно;",
+            "**No, you mustn't.** — а это уже «нельзя», прямой запрет."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Смотрите, что получилось. Вопрос был один, а `mustn't` и `don't have to` ответили на него противоположным образом — при том, что по-русски оба тянет перевести словом «не должен». Разберём эту пару подробно в микротеме про обязанность и запрет; пока запомните сам факт: `mustn't` — это не «не обязан», это «нельзя»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Осталось разобраться, что делать, когда модальный нужно поставить в будущее или прошлое. Этим и займёмся."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Модальный сам себе помощник: `do`, `does`, `did` рядом с ним не появляются никогда."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Отрицание: `not` сразу после модального — **He can't work** · **You shouldn't worry** · **She mustn't be late**",
+            "Вопрос: модальный перед подлежащим — **Can he work?** · **Should I call him?**",
+            "**Does he can work?** ✗ · **He doesn't can work** ✗ — помощник удвоился"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can't you see the sign?** — удивление, я ожидал обратного",
+            "**Shouldn't we tell her?** — осторожное предложение · **Won't you join us?** — тёплое приглашение"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как ответить коротко"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Тем же модальным, без смыслового глагола: **Can you drive? — Yes, I can.**",
+            "На **Must I go?** четыре ответа: **Yes, you must** · **No, you don't have to** · **No, you needn't** · **No, you mustn't**",
+            "Последний означает «нельзя», а не «не обязан» — это разные ответы"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Сегодня я не могу тебе помочь.",
+          "en": "I can't help you today."
+        },
+        {
+          "ru": "Мне позвонить ему прямо сейчас?",
+          "en": "Should I call him right now?"
+        },
+        {
+          "ru": "Ты что, не видишь знак?",
+          "en": "Can't you see the sign?"
+        },
+        {
+          "ru": "Ты умеешь водить? — Да, умею.",
+          "en": "Can you drive? — Yes, I can."
+        },
+        {
+          "ru": "Мне обязательно идти? — Нет, не обязательно.",
+          "en": "Must I go? — No, you don't have to."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в вопросе с модальным не нужен do?",
+        "Чем Won't you join us? отличается от Will you join us?",
+        "Почему mustn't значит «нельзя», а не «не обязан»?"
+      ]
+    },
+    {
+      "id": 639,
+      "microtopicId": 235,
+      "title": "Двух модальных подряд не бывает: подпорки be able to и have to",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последнее следствие корня, и оно объясняет фразу, на которой спотыкаются почти все. Оценка у действия одна, поэтому двух модальных подряд язык не терпит: **I will can help you** ✗. По-русски-то мы так и говорим — «я **смогу** тебе помочь», где «смогу» это и будущее, и умение в одном слове. По-английски в одном слове это не упаковывается."
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина глубже, чем просто «нельзя два подряд». У модального нет ни инфинитива, ни формы на `-ing`, ни третьей формы — а именно из них язык собирает времена. Поставить `can` после `will` не выйдет ровно потому, что после `will` нужна базовая форма глагола, а у `can` её попросту нет: `can` и есть единственная его форма. Значит, в другие времена модальный не идёт вообще, и на его место язык подставляет обычную связку с тем же смыслом."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + be able to + голый глагол"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда правильный вариант: **I'll be able to help you tomorrow** ✓. Связка `be able to` — не модальный, а обычная конструкция с `to be`, поэтому она спокойно живёт в любом времени. То же и с обязанностью: у `must` времён нет, их отдаёт `have to`."
+        },
+        {
+          "type": "heading",
+          "text": "Чем затыкают дыры"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Модальный",
+            "Прошлое",
+            "Будущее"
+          ],
+          "rows": [
+            [
+              "can (умение)",
+              "could · was able to",
+              "will be able to"
+            ],
+            [
+              "must (обязанность)",
+              "had to",
+              "will have to"
+            ],
+            [
+              "may (разрешение)",
+              "was allowed to",
+              "will be allowed to"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Основах», разбирая `can`, мы обещали, что про `be able to` расскажем позже — вот это и есть то самое место. Работает связка и в перфекте, куда `can` тоже не попадает: **I haven't been able to reach him all day**."
+        },
+        {
+          "type": "heading",
+          "text": "Умел вообще или сумел один раз"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь тонкость, которую русский не различает вовсе. У прошлого времени `can` есть две формы — `could` и `was able to`, — и делят они работу так: `could` рассказывает про **общее умение**, а `was able to` — про **разовое достижение**, когда человеку в конкретной ситуации удалось справиться."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I could swim when I was five** ✓ — умел, это была моя способность вообще;",
+            "**The fire was big, but I was able to get out** ✓ — сумел выбраться, справился один раз."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Во втором примере `could` звучит неуместно, и это самая частая ошибка русскоязычного: «я **смог** выбраться» тянется в **I could get out** ✗. Правило мягче, чем кажется, и формулируется так: когда человеку **удалось** совершить конкретное действие, берут `was able to` или `managed to`. Дело не в том, что случай конкретный, а в том, что речь про достижение, про преодоление. В отрицании же разницы нет никакой — `couldn't` годится всегда: **I couldn't get out** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У правила есть исключение, без которого оно врёт. Глаголы восприятия и понимания — `see`, `hear`, `feel`, `smell`, `understand`, `remember` — берут `could` и в конкретной ситуации: **I could see the mountains from the window** ✓, **We could hear someone shouting outside** ✓. Достижения тут нет никакого, есть восприятие: горы не нужно преодолевать, их просто видно. Поэтому **I was able to see the mountains** звучит натужно, будто вы карабкались на подоконник. Мы уже встречали эту семью в теме «Смотреть, слушать и понимать» — там были **I can see** и **I can hear**; здесь ровно они же, только в прошедшем."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма разобрана целиком: модальный не меняется, помощника не зовёт, а в чужие времена ходит через связку. Дальше идём по значениям, и первым берём самый знакомый — `can` и его вежливую пару `could`."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У модального нет ни инфинитива, ни `-ing`, ни третьей формы, поэтому двух модальных подряд не бывает: **I will can help** ✗ → **I'll be able to help** ✓. В чужие времена модальный ходит через связку."
+        },
+        {
+          "type": "heading",
+          "text": "Чем затыкают дыры"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Модальный",
+            "Подпорка"
+          ],
+          "rows": [
+            [
+              "can",
+              "could · was able to · will be able to · have been able to"
+            ],
+            [
+              "must",
+              "had to · will have to"
+            ],
+            [
+              "may (разрешение)",
+              "was allowed to · will be allowed to"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "could или was able to"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Общее умение → `could`: **I could swim when I was five**",
+            "Удалось справиться один раз → `was able to` / `managed to`: **The fire was big, but I was able to get out**",
+            "В отрицании разницы нет: **I couldn't get out** годится всегда",
+            "Глаголы восприятия берут `could` и в разовой ситуации: **I could see the mountains from the window**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Завтра я смогу тебе помочь.",
+          "en": "I'll be able to help you tomorrow."
+        },
+        {
+          "ru": "Вчера мне пришлось остаться на работе до восьми.",
+          "en": "I had to stay at work until eight yesterday."
+        },
+        {
+          "ru": "В пять лет я умел плавать.",
+          "en": "I could swim when I was five."
+        },
+        {
+          "ru": "Пожар был сильный, но мне удалось выбраться.",
+          "en": "The fire was big, but I was able to get out."
+        },
+        {
+          "ru": "Из окна я видел горы.",
+          "en": "I could see the mountains from the window."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I will can, если по-русски «смогу» — одно слово?",
+        "Как понять, нужен could или was able to?",
+        "Почему с глаголами see и hear берут could даже про один раз?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -519,9 +1132,78 @@
       "exerciseType": "CONSTRUCTION_MEANING",
       "exerciseId": 88,
       "orderInCard": 2
+    },
+    {
+      "cardId": 637,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 228,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 637,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 221,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 637,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 122,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 638,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 101,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 638,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 237,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 638,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 119,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 638,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 95,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 639,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 45,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 639,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 256,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 639,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 106,
+      "orderInCard": 2
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "modal_verbs_card639_ex1",
+      "cardId": 639,
+      "title": "Модальный или подпорка",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждое нужную форму по подсказке в скобках.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "useful_words",
@@ -538,9 +1220,74 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
-  "table_fill_exercises": [],
-  "true_false_exercises": [],
+  "course_words": [
+    {
+      "id": 881,
+      "word": "be able to",
+      "translation": "быть в состоянии, уметь, смочь",
+      "transcription": "[biː ˈeɪbl tuː]",
+      "microtopicId": 235,
+      "categoryId": "useful_words"
+    }
+  ],
+  "table_fill_exercises": [
+    {
+      "id": 45,
+      "taskDescription": "подбери форму, которой затыкают дыру у модального.",
+      "rows": [
+        {
+          "hint": "can, будущее",
+          "answer": "will be able to"
+        },
+        {
+          "hint": "must, прошлое",
+          "answer": "had to"
+        },
+        {
+          "hint": "must, будущее",
+          "answer": "will have to"
+        },
+        {
+          "hint": "may, прошлое",
+          "answer": "was allowed to"
+        }
+      ],
+      "explanation": "своих времён у модального нет, поэтому в прошлом и будущем его заменяет обычная связка с тем же смыслом: умение — be able to, обязанность — have to, разрешение — be allowed to."
+    }
+  ],
+  "true_false_exercises": [
+    {
+      "id": 228,
+      "statements": [
+        {
+          "en": "Lucy can drive a van.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He musts leave at six.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "You should book a table.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Tom can to fix the printer.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We have to change the tyre.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении модальный получил чужое окончание — нужно He must leave. В четвёртом лишнее to: после can стоит голый глагол. В пятом предложении to на месте, потому что have — обычный глагол, а не модальный."
+    }
+  ],
   "word_arrangement_exercises": [],
   "multiple_choice_exercises": [
     {
@@ -584,10 +1331,132 @@
         }
       ],
       "explanation": "справа от can't стоит be плюс место, а не действие Кати — значит, это догадка: говорящий уверен, что её там нет. Запрет звучал бы про действие: Kate can't work here."
+    },
+    {
+      "id": 237,
+      "choiceType": "CHOICE",
+      "prompt": "___ you see the sign over there?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Don't can",
+          "isCorrect": false
+        },
+        {
+          "text": "Doesn't can",
+          "isCorrect": false
+        },
+        {
+          "text": "Can't",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "в отрицательном вопросе вперёд выходит сам модальный вместе с not — получается can't. Помощник do рядом с модальным не ставится ни в вопросе, ни в отрицании."
+    },
+    {
+      "id": 256,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Завтра я смогу тебе помочь.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I will can help you tomorrow.",
+          "isCorrect": false
+        },
+        {
+          "text": "I will could help you tomorrow.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'll be able to help you tomorrow.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после will нужна базовая форма глагола, а у can её нет — единственная его форма и есть can. Поэтому умение в будущем передаёт связка be able to."
+    },
+    {
+      "id": 106,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The lift was broken, but Megan was able to carry the box upstairs.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Лифт был сломан, но Меган умела носить коробки наверх.",
+          "isCorrect": false
+        },
+        {
+          "text": "Лифт был сломан, но Меган сумела занести коробку наверх.",
+          "isCorrect": true
+        },
+        {
+          "text": "Лифт был сломан, но Меган могла бы занести коробку наверх.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "was able to говорит о разовом достижении — справилась в этой конкретной ситуации. Про общее умение сказали бы could carry, а «могла бы» это уже could с оттенком возможности, а не факт."
     }
   ],
-  "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 119,
+      "items": [
+        {
+          "sentence": "Ben ___ drive at night.",
+          "contextRu": "не умеет",
+          "answer": "can't",
+          "alternatives": []
+        },
+        {
+          "sentence": "You ___ worry about the money.",
+          "contextRu": "не следует",
+          "answer": "shouldn't",
+          "alternatives": []
+        },
+        {
+          "sentence": "We ___ be late again.",
+          "contextRu": "нельзя",
+          "answer": "mustn't",
+          "alternatives": []
+        }
+      ],
+      "explanation": "частица not прилипает к самому модальному и обычно пишется кратко: can't, shouldn't, mustn't. Смысловой глагол при этом остаётся в базовой форме.",
+      "taskDescription": "Впиши модальный глагол в отрицательной форме по подсказке в скобках."
+    }
+  ],
+  "dialog_restore_exercises": [
+    {
+      "id": 95,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Must I bring my passport?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Good, the ID card will be enough then."
+        }
+      ],
+      "options": [
+        {
+          "text": "No, you don't must.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, you don't have to.",
+          "isCorrect": true
+        },
+        {
+          "text": "No, you mustn't have to.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«не обязан» — это don't have to. Вариант с don't must собран неверно: помощник рядом с модальным не ставится. А No, you mustn't значило бы «нельзя», и продолжение про удостоверение к такому ответу не подошло бы."
+    }
+  ],
   "matching_exercises": [
     {
       "id": 110,
@@ -617,7 +1486,27 @@
       "explanation": "действие во всех пяти фразах называет второй глагол, а первое слово добавляет к нему оценку — умение, обязанность, вероятность или вежливость."
     }
   ],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 221,
+      "wrongSentence": "Megan must to call the doctor today.",
+      "options": [
+        {
+          "text": "Megan musts call the doctor today.",
+          "isCorrect": false
+        },
+        {
+          "text": "Megan must call the doctor today.",
+          "isCorrect": true
+        },
+        {
+          "text": "Megan must calls the doctor today.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после модального стоит голая базовая форма — ни to, ни окончания. Частица to метит второй глагол в предложении, а must сам служебный, поэтому call здесь первый и единственный глагол."
+    }
+  ],
   "construction_meaning_exercises": [
     {
       "id": 88,
@@ -643,7 +1532,27 @@
       "explanation": "should тоже работает на двух этажах, и справа здесь стоит be плюс место — значит, перед нами ожидание говорящего, а не совет и не обязанность. Совет выглядел бы как He should stay at home."
     }
   ],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 101,
+      "taskDescription": "сделай из каждого утверждения вопрос.",
+      "items": [
+        {
+          "original": "Lucy can drive a van.",
+          "transformed": "Can Lucy drive a van?"
+        },
+        {
+          "original": "Ben should call the office.",
+          "transformed": "Should Ben call the office?"
+        },
+        {
+          "original": "They must leave at six.",
+          "transformed": "Must they leave at six?"
+        }
+      ],
+      "explanation": "модальный просто выходит вперёд, перед подлежащим, и больше в предложении ничего не меняется. Помощник do звать не нужно — модальный сам помощник."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 140,
@@ -692,5 +1601,29 @@
       "explanation": "слово в обеих колонках одно и то же — смотрим, что стоит справа. Действие человека (wear, park, go) — речь про поступок; be плюс состояние (tired, true, asleep) — говорящий делится догадкой."
     }
   ],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 122,
+      "groupDescription": "Три конструкции собраны одинаково, а одна выбивается",
+      "items": [
+        {
+          "text": "can go",
+          "isOdd": false
+        },
+        {
+          "text": "must go",
+          "isOdd": false
+        },
+        {
+          "text": "should go",
+          "isOdd": false
+        },
+        {
+          "text": "ought to go",
+          "isOdd": true
+        }
+      ],
+      "explanation": "ought to — единственный модальный, у которого to входит в само слово. У остальных справа стоит голая базовая форма без to."
+    }
+  ]
 }
