@@ -32,6 +32,13 @@
       "title": "Can / Could · Умею, смогу — и почему could это вежливость",
       "order": 3,
       "searchKeywords": "could или can, could you или can you, смягчить просьбу, умел в детстве, can про завтра, мог бы"
+    },
+    {
+      "id": 237,
+      "topicId": 37,
+      "title": "Permission · Можно? Нельзя! — разрешение и запрет",
+      "order": 4,
+      "searchKeywords": "как спросить можно ли, may i или can i, нельзя или не обязан, запрещено по правилам, разрешили уйти пораньше, вежливый отказ"
     }
   ],
   "grammar_cards": [
@@ -1661,6 +1668,463 @@
         "Почему в She said she could come стоит прошедшая форма?",
         "Можно ли всегда говорить could вместо can, чтобы звучать вежливо?"
       ]
+    },
+    {
+      "id": 643,
+      "microtopicId": 237,
+      "title": "Спросить и дать разрешение: can, could, may",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В «Основах» у `can` было три работы, и третья — как раз наша: разрешение. **You can take my charger** — не «ты умеешь взять зарядку», а «бери, я разрешаю». Теперь посмотрим на обратную сторону: как это разрешение **спрашивают**."
+        },
+        {
+          "type": "paragraph",
+          "text": "И сразу важная мелочь, которая сбивает русского с толку. Просьба и вопрос о разрешении — разные вещи, хотя по-русски обе начинаются с «можно»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Could you open the window?** — прошу вас **сделать** действие: работать будете вы;",
+            "**Could I open the window?** — прошу **права** на действие: делать буду я."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда простое правило подлежащего: нужно от человека действие — ставим `you`, нужно право для себя — ставим `I`. Русское безличное «можно открыть окно?» этого различия не показывает вовсе, и потому обе фразы кажутся одинаковыми."
+        },
+        {
+          "type": "heading",
+          "text": "Шкала вежливости: та же дистанция, что и в просьбе"
+        },
+        {
+          "type": "paragraph",
+          "text": "Механизм мы уже разбирали — чем «дальше» форма, тем мягче звучит. У разрешения к этой шкале добавляется ещё одна ступень, `may`:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Вопрос",
+            "Насколько официально",
+            "Где уместно"
+          ],
+          "rows": [
+            [
+              "Can I use your phone?",
+              "обычно, по-свойски",
+              "друзья, семья, свои коллеги"
+            ],
+            [
+              "Could I use your phone?",
+              "вежливо, нейтрально",
+              "незнакомый человек, чужой офис"
+            ],
+            [
+              "May I use your phone?",
+              "формально",
+              "врач, собеседование, официальное письмо"
+            ],
+            [
+              "Might I use your phone?",
+              "книжно, устаревающе",
+              "встречается в текстах, сами не производим"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`May` — единственное здесь новое слово, и звучит оно заметно строже соседей. В обиходе носитель почти всегда скажет **Can I…?**, а `may` оставит для ситуаций с дистанцией: **May I come in?** у кабинета, **May I ask what this is about?** по телефону с незнакомым человеком."
+        },
+        {
+          "type": "heading",
+          "text": "Как разрешают и как отказывают"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отвечают на такие вопросы короткими готовыми фразами, а не полными предложениями:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "разрешение: **Sure, go ahead** · **Of course** · **Yes, please do**;",
+            "отказ: **I'm afraid you can't** · **Sorry, that's not allowed**."
+          ]
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Ben",
+              "text": "Excuse me, is this seat free?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Yes, it is."
+            },
+            {
+              "speaker": "Ben",
+              "text": "Could I sit here then?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Of course, go ahead."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ответить на **May I…?** словами **Yes, you may** формально можно, но в живой речи это звучит как учитель, дающий добро первокласснику. Безопаснее нейтральное **Of course** — оно годится для любой ступени шкалы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда разрешение нужно поставить в другое время"
+        },
+        {
+          "type": "paragraph",
+          "text": "`May` и `can` в чужие времена не ходят — мы это уже знаем, и подпорка у них готовая: `be allowed to`. Связка обычная, поэтому живёт где угодно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Were you allowed to leave early?** — тебе разрешили уйти пораньше?",
+            "**You won't be allowed to take that bottle on board.** — эту бутылку на борт не разрешат;",
+            "**Kids aren't allowed to use the lift alone.** — детям нельзя пользоваться лифтом одним."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом с ней живёт существительное `permission` — «разрешение» как вещь, которую спрашивают или получают: **You need permission to park here**, **Ask for permission first**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «Можно?» очень хочется перевести дословно, и получается **Is it possible to sit here?** ✗ или **It is allowed?** ✗. Первое спрашивает не о разрешении, а о физической выполнимости, второе просто сломано. По-английски разрешение спрашивают модальным и обязательно называют, кто будет действовать: **Can I sit here?** ✓ · **May I sit here?** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разрешение разобрали. Дальше — обратная сторона: как сказать «нельзя», и почему `mustn't` означает совсем не то, что подсказывает русское «не должен»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Просят право для себя — подлежащее `I`: **Can I open the window?** Просят действие от собеседника — подлежащее `you`: **Can you open the window?**"
+        },
+        {
+          "type": "heading",
+          "text": "Шкала"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Can I…?** (свои) → **Could I…?** (незнакомый человек) → **May I…?** (врач, собеседование, официальное) → **Might I…?** (книжно, на узнавание)"
+        },
+        {
+          "type": "heading",
+          "text": "Как ответить"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Да: **Sure, go ahead** · **Of course** · **Yes, please do**",
+            "Нет: **I'm afraid you can't** · **Sorry, that's not allowed**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Другие времена — через be allowed to"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Were you allowed to leave early?** · **You won't be allowed to take that on board**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Is it possible to sit here?** ✗ → **Can I sit here?** ✓ — это вопрос о разрешении, а не о выполнимости",
+            "**May I to come in?** ✗ → **May I come in?** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Можно я возьму твою зарядку?",
+          "en": "Can I take your charger?"
+        },
+        {
+          "ru": "Можно мне задать вам один вопрос?",
+          "en": "May I ask you one question?"
+        },
+        {
+          "ru": "Тебе разрешили уйти пораньше?",
+          "en": "Were you allowed to leave early?"
+        },
+        {
+          "ru": "Боюсь, вам нельзя.",
+          "en": "I'm afraid you can't."
+        },
+        {
+          "ru": "Чтобы парковаться здесь, нужно разрешение.",
+          "en": "You need permission to park here."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем Can I…? отличается от Can you…?",
+        "Когда уместно May I…?, а когда это звучит слишком официально?",
+        "Почему нельзя сказать Is it possible to sit here?"
+      ]
+    },
+    {
+      "id": 644,
+      "microtopicId": 237,
+      "title": "Запрет: mustn't, can't, may not",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Теперь обратная сторона, и здесь русского подстерегает, пожалуй, главная ловушка всей темы."
+        },
+        {
+          "type": "heading",
+          "text": "mustn't — это «нельзя», а не «не обязан»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «не должен» двусмысленно: «ты не должен туда ходить» можно понять и как запрет, и как «не обязан, дело твоё». Английский эти смыслы разводит жёстко, и `mustn't` отвечает только за первый:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You mustn't tell anyone.** — нельзя никому говорить, запрещаю;",
+            "**You don't have to tell anyone.** — можешь не говорить, никто не заставляет."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему так вышло, видно из устройства фразы. В **You mustn't go** частица `not` относится не к обязанности, а к **действию**: обязанность такова, что идти — нельзя. А в **You don't have to go** отрицание съедает саму обязанность: её просто нет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отсюда самая дорогая ошибка микротемы — сказать **You mustn't come to the meeting** ✗, имея в виду «можешь не приходить». Для собеседника это прозвучит как прямой запрет появляться. Нужно **You don't have to come to the meeting** ✓. Подробно эту пару разберём в микротеме про обязанность; пока держите в голове сам факт."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чем запрещают в разных обстановках"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слов для запрета несколько, и выбирают их по тому, кто и где запрещает:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "Оттенок",
+            "Где встречается"
+          ],
+          "rows": [
+            [
+              "You can't park here",
+              "бытовое, по факту",
+              "знак, охранник, обычный разговор"
+            ],
+            [
+              "You mustn't tell anyone",
+              "строго и лично",
+              "взрослый ребёнку, начальник, важная просьба"
+            ],
+            [
+              "Passengers may not smoke",
+              "официально",
+              "таблички, правила, объявления"
+            ],
+            [
+              "You're not allowed to take photos",
+              "нейтральное, про правило",
+              "музей, аэропорт, офис"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница здесь не в силе запрета, а в регистре: `can't` — как оно есть, `mustn't` — с нажимом от конкретного человека, `may not` — язык правил и объявлений, `not allowed to` — вежливая ссылка на порядок."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`May not` читается двумя разными способами. В объявлении **Passengers may not smoke** это запрет. Но в обычной фразе **He may not come tonight** то же `may not` значит «возможно, он не придёт» — никакого запрета, чистая догадка. Различает контекст: правило и табличка — запрет, разговор о человеке — предположение. Полный разбор этой пары ждёт в микротеме про уверенность, а сейчас главное — не записать `may not` в голову как «всегда запрет»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Разве ты не видишь? — запрет через отрицательный вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицательный вопрос мы уже собирали; в запретах он работает упрёком:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can't you read the sign?** — «ты что, не видишь знак?»;",
+            "**Can't you wait five minutes?** — «неужели нельзя подождать пять минут?»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Тон у такой фразы резкий, почти раздражённый: это не вопрос, а замечание. Знать её нужно, чтобы понимать чужую речь, — сами используйте осторожно."
+        },
+        {
+          "type": "heading",
+          "text": "Как отказать мягко"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прямой запрет в лицо звучит грубо, поэтому в жизни его часто заворачивают:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm afraid you can't do that.** — сожалеющее «нельзя»;",
+            "**Sorry, that's not allowed here.** — ссылка на правило, а не на себя;",
+            "**You'd better not.** — «лучше не надо»: не запрет, а предупреждение."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Итак, в наших руках весь набор: спросить разрешение, дать его, отказать и запретить. Дальше берём самый большой кусок темы — обязанность: `must`, `have to` и знакомое **I've got to go**."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Просят право для себя — подлежащее `I`: **Can I open the window?** Просят действие от собеседника — `you`: **Can you open the window?**"
+        },
+        {
+          "type": "heading",
+          "text": "Шкала разрешения"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Can I…?** (свои) → **Could I…?** (незнакомый человек) → **May I…?** (врач, собеседование, официальное) → **Might I…?** (книжно, на узнавание)"
+        },
+        {
+          "type": "heading",
+          "text": "Ответы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Да: **Sure, go ahead** · **Of course** · Нет: **I'm afraid you can't** · **Sorry, that's not allowed**",
+            "Другие времена — через `be allowed to`: **Were you allowed to leave early?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Запрет по обстановке"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You can't park here** — бытовое · **You mustn't tell anyone** — строго и лично",
+            "**Passengers may not smoke** — таблички и правила · **You're not allowed to take photos** — ссылка на порядок"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You mustn't come** — нельзя приходить · **You don't have to come** — можешь не приходить",
+            "**Passengers may not smoke** — запрет · **He may not come tonight** — возможно, не придёт"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You mustn't come to the meeting** ✗ в значении «можешь не приходить» → **You don't have to come** ✓",
+            "**Is it possible to sit here?** ✗ → **Can I sit here?** ✓",
+            "**You aren't allowed take photos** ✗ → **You aren't allowed to take photos** ✓ — связка держит `to`"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Нельзя никому об этом говорить.",
+          "en": "You mustn't tell anyone about it."
+        },
+        {
+          "ru": "Можешь не говорить об этом Тому.",
+          "en": "You don't have to tell Tom about it."
+        },
+        {
+          "ru": "Здесь нельзя парковаться.",
+          "en": "You can't park here."
+        },
+        {
+          "ru": "Пассажирам запрещено курить на борту.",
+          "en": "Passengers may not smoke on board."
+        },
+        {
+          "ru": "В этом зале нельзя фотографировать.",
+          "en": "You're not allowed to take photos in this hall."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему mustn't значит «нельзя», а не «не обязан»?",
+        "Как понять, что may not в предложении — запрет?",
+        "Чем You can't park here отличается от You're not allowed to park here?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1813,6 +2277,42 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 222,
       "orderInCard": 2
+    },
+    {
+      "cardId": 643,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 258,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 643,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 97,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 643,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 207,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 644,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 230,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 644,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 223,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 644,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 90,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1828,6 +2328,14 @@
       "id": "modal_verbs_card642_ex1",
       "cardId": 642,
       "title": "Попроси и предположи",
+      "userInstruction": "ИИ опишет по-русски одну ситуацию. Напишите по-английски фразу, которая в ней уместна.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card644_ex1",
+      "cardId": 644,
+      "title": "Разреши или запрети",
       "userInstruction": "ИИ опишет по-русски одну ситуацию. Напишите по-английски фразу, которая в ней уместна.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
@@ -1864,6 +2372,30 @@
       "translation": "мог, умел, мог бы (в просьбе)",
       "transcription": "[kʊd]",
       "microtopicId": 236,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 883,
+      "word": "may",
+      "translation": "можно, мочь (в разрешении), может быть",
+      "transcription": "[meɪ]",
+      "microtopicId": 237,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 884,
+      "word": "be allowed to",
+      "translation": "иметь разрешение, быть разрешённым",
+      "transcription": "[biː əˈlaʊd tuː]",
+      "microtopicId": 237,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 885,
+      "word": "permission",
+      "translation": "разрешение",
+      "transcription": "[pəˈmɪʃn]",
+      "microtopicId": 237,
       "categoryId": "useful_words"
     }
   ],
@@ -1954,6 +2486,37 @@
         }
       ],
       "explanation": "во втором предложении речь про завтрашнюю ночь — один конкретный раз, нужен might. В четвёртом модальный получил чужое окончание: верно Tom can speak Italian. Остальные три собраны правильно."
+    },
+    {
+      "id": 230,
+      "statements": [
+        {
+          "en": "You mustn't leave the door open at night.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Visitors may not enter this room.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "You aren't allowed take photos here.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I'm afraid you don't can smoke here.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Were you allowed to use your phone at school?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в третьем предложении у связки пропало to — верно aren't allowed to take. В четвёртом рядом с модальным поставили помощник do, хотя can справляется сам: верно you can't smoke here. Остальные три собраны правильно."
     }
   ],
   "word_arrangement_exercises": [
@@ -1975,6 +2538,25 @@
         "if"
       ],
       "explanation": "обёртка Do you think отодвигает просьбу ещё на шаг, а после could идёт голая базовая форма — ни to, ни -ing. Союз if тут лишний: он нужен в обороте I was wondering if you could, а после Do you think вторая половина идёт как обычное предложение."
+    },
+    {
+      "id": 207,
+      "situationRu": "Ситуация: Оля спрашивает коллегу, разрешили ли ему приводить собаку в офис.",
+      "correctSentence": "Were you allowed to bring your dog to the office?",
+      "words": [
+        "Were",
+        "you",
+        "allowed",
+        "to bring",
+        "your dog",
+        "to the office"
+      ],
+      "distractors": [
+        "Did",
+        "could",
+        "bringing"
+      ],
+      "explanation": "прошедшего времени у may нет, поэтому разрешение в прошлом передаёт связка be allowed to — а она обычная конструкция с to be, и вопрос строит сама, без did."
     }
   ],
   "multiple_choice_exercises": [
@@ -2124,6 +2706,27 @@
         }
       ],
       "explanation": "с незнакомым человеком просьбу отодвигают на шаг — отсюда could. Прямое can прозвучало бы напористо, а третий вариант вообще не просьба: это разрешение, которое вы почему-то выдаёте сами."
+    },
+    {
+      "id": 258,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Ты на собеседовании, у тебя в руках тяжёлая сумка, и ты хочешь поставить её на соседний стул.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Can I put my bag here?",
+          "isCorrect": false
+        },
+        {
+          "text": "Is it possible to put my bag here?",
+          "isCorrect": false
+        },
+        {
+          "text": "May I put my bag here?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "собеседование — официальная обстановка с незнакомым человеком, там уместна самая формальная ступень шкалы. Вопрос о физической выполнимости к разрешению отношения не имеет."
     }
   ],
   "text_input_exercises": [
@@ -2242,6 +2845,38 @@
         }
       ],
       "explanation": "после could стоит голая базовая форма, поэтому вариант с sending собран неверно. А You could send… — не просьба, а мягкое предложение, и ответ «конечно, две минуты» к нему не подошёл бы."
+    },
+    {
+      "id": 97,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Could I park my car in front of the shop?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "I see. Where's the nearest car park then?"
+        }
+      ],
+      "options": [
+        {
+          "text": "I'm afraid you can't park there.",
+          "isCorrect": true
+        },
+        {
+          "text": "I'm afraid you don't park there.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm afraid you couldn't park there.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "отказывают тем же модальным, каким спросили, только в отрицании. Помощник do рядом с модальным не ставится, а couldn't сказало бы о прошлой возможности, а не о сегодняшнем запрете."
     }
   ],
   "matching_exercises": [
@@ -2334,6 +2969,25 @@
         }
       ],
       "explanation": "could остаётся модальным и держит справа голую базовую форму — ни to, ни окончания, ни -ing. Прошедшее время здесь уже сообщает сам could."
+    },
+    {
+      "id": 223,
+      "wrongSentence": "Megan mustn't to work on Sundays if she doesn't want to.",
+      "options": [
+        {
+          "text": "Megan mustn't work on Sundays if she doesn't want to.",
+          "isCorrect": false
+        },
+        {
+          "text": "Megan doesn't have to work on Sundays if she doesn't want to.",
+          "isCorrect": true
+        },
+        {
+          "text": "Megan don't have to work on Sundays if she doesn't want to.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "конец фразы говорит, что выбор за Меган, — значит, речь про отсутствие обязанности, а это doesn't have to. Вариант с mustn't означал бы прямой запрет работать, а don't have to не согласован с she."
     }
   ],
   "construction_meaning_exercises": [
@@ -2382,6 +3036,29 @@
         }
       ],
       "explanation": "so that вводит цель, а could стоит в прошедшем просто вслед за главной частью с left. О том, получилось ли, фраза не сообщает, и никакого «могли бы» в ней нет."
+    },
+    {
+      "id": 90,
+      "construction": "Lucy may not answer her phone right now.",
+      "options": [
+        {
+          "text": "Люси сейчас нельзя отвечать на звонки.",
+          "isCorrect": false
+        },
+        {
+          "text": "Возможно, Люси сейчас не ответит на звонок.",
+          "isCorrect": true
+        },
+        {
+          "text": "Люси не разрешили отвечать на звонки.",
+          "isCorrect": false
+        },
+        {
+          "text": "Люси не должна сейчас отвечать на звонок.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "may not читается двумя способами, и различает их обстановка: на табличке это запрет, а в разговоре о человеке — предположение. Здесь речь о знакомой и о том, что происходит прямо сейчас, значит, говорящий делится догадкой."
     }
   ],
   "transformation_exercises": [
