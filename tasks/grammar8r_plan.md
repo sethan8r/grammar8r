@@ -7039,8 +7039,8 @@ theory/
 │   │       `may` как уступка: `He may be young, but he knows his job` — строкой на узнавание.
 │   │       🔤 Слив: might · certain. + AI.
 │   │
-│   ├── МТ · Modal + have + V3 · Догадки и сожаления о прошлом  (3 карточки)
-│   │   ├── Card · Что там было: must have / can't have / might have
+│   ├── МТ242 · Modal + have + V3 · Догадки и сожаления о прошлом  (3 карточки) ✅ (написана, ALL GREEN 20.09.26)
+│   │   ├── Card 659 · Что там было: must have, can't have, might have
 │   │   │   `He must have forgotten` · `She can't have said that` · `They might have missed the bus` ·
 │   │   │   `She could have missed the train` (та же «возможно» ступенька, что `might have`).
 │   │   │   Зеркало предыдущей микротемы: та же шкала, сдвинутая в прошлое. Опора: `have + V3`
@@ -7050,7 +7050,7 @@ theory/
 │   │   │     `shouldn't have` — а вот это уже НЕ догадка, а упрёк (следующая карточка). Показать
 │   │   │     строкой, чтобы человек не перенёс сюда «mustn't have» по аналогии.
 │   │   │   ⛔ `will have done` здесь НЕ вводим — это «Future Perfect» (см. ⛔-блок шапки).
-│   │   ├── Card · Упрёк и сожаление: should have / shouldn't have / could have
+│   │   ├── Card 660 · Упрёк и сожаление: should have, shouldn't have, could have
 │   │   │   `You should have told me` (упрёк) · `I shouldn't have said that` (сожаление) ·
 │   │   │   ⬅️ Conditionals: `You could have told me!` и `I would have helped if I had known` —
 │   │   │   возврат к знакомым формулам, теперь с механикой (⬅️ ДОЛГ 4).
@@ -7067,7 +7067,7 @@ theory/
 │   │   │     имеют, но упрёк ими почти не делают.
 │   │   │   🆕 `needn't have done` (сделал зря) ↔ `didn't have to do` (не пришлось) — закрывает
 │   │   │   анонс из микротемы обязанности.
-│   │   └── Card · Форма и ловушки
+│   │   └── Card 661 · Форма и ловушки
 │   │       `He must have forgot` ✗ → `forgotten`: после `have` только V3.
 │   │       Длительная догадка: `He must have been waiting for an hour` — строкой, опора на Present
 │   │       Perfect Continuous.

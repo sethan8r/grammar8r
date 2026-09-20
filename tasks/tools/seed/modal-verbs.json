@@ -67,6 +67,13 @@
       "title": "Certainty · Второй этаж: наверняка, вряд ли, может быть",
       "order": 8,
       "searchKeywords": "наверное по-английски, can't be или mustn't, might not или can't, must be sleeping, may not запрет или возможно, might as well что значит"
+    },
+    {
+      "id": 242,
+      "topicId": 37,
+      "title": "Modal + have + V3 · Догадки и сожаления о прошлом",
+      "order": 9,
+      "searchKeywords": "надо было сказать по-английски, could have три смысла, must have forgotten, should of ошибка, needn't have что значит, упрёк о прошлом"
     }
   ],
   "grammar_cards": [
@@ -4915,6 +4922,542 @@
         "Что значит We might as well walk?",
         "Почему в He may be young, but… нет никакой догадки?"
       ]
+    },
+    {
+      "id": 659,
+      "microtopicId": 242,
+      "title": "Что там было: must have, can't have, might have",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Шкалу уверенности мы собрали, но вся она была про настоящее: где он сейчас, чем занят, что происходит. А половина догадок в жизни — про прошлое: где он был, почему не пришёл, кто съел торт."
+        },
+        {
+          "type": "paragraph",
+          "text": "Хорошая новость: новую шкалу учить не придётся. Она та же самая — меняется только начинка справа от модального."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Модальный + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе половины нам знакомы. `have` плюс третья форма — это перфект, который мы собирали десятки раз. Ступеньки — та же лестница уверенности. Ставим их рядом и получаем догадку о прошлом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must have forgotten.** — наверняка забыл;",
+            "**She might have missed the bus.** — возможно, опоздала на автобус;",
+            "**They could have taken a taxi.** — могли и на такси поехать;",
+            "**She can't have said that.** — не может быть, чтобы она такое сказала."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русский снова прячет догадку в наречие"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы говорим «наверное, забыл», «может, опоздала» — наречие плюс обычный прошедший глагол. По-английски работа делится надвое: модальный берёт на себя догадку, `have` с третьей формой — прошлое. Потерять любую половину нельзя:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Maybe he forgot** — понятно, но снова по-ученически;",
+            "**He must have forgotten** — так скажет носитель."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание переносится сюда один в один"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три ловушки мы разбирали этажом ниже, и в прошлом они ведут себя точно так же:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She can't have seen us.** — не может быть, чтобы она нас видела;",
+            "**She might not have seen us.** — возможно, она нас не видела."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница та же: в первой фразе отрицание попало в саму возможность, во второй — в событие."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Mustn't have` на этом этаже не бывает вовсе — ровно по той же причине, что `mustn't be`. `mustn't` остался запретом на первом этаже, а отрицание к **He must have forgotten** — это **He can't have forgotten** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И ещё одна форма, которая выглядит так же, а работает совсем иначе: **You shouldn't have told him**. Это не догадка, а упрёк — ею займёмся в следующей карточке."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Догадка о прошлом собирается по схеме `модальный + have + V3`. Ступеньки те же, что и в настоящем, меняется только начинка."
+        },
+        {
+          "type": "heading",
+          "text": "Лестница в прошлом"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must have forgotten** — уверен, что так и было",
+            "**She might / could have missed the bus** — одна из возможностей",
+            "**She can't have said that** — считаю невозможным"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She can't have seen us** — не может быть, чтобы видела (отрицание в возможности)",
+            "**She might not have seen us** — возможно, не видела (отрицание в событии)",
+            "`mustn't have` сюда не ходит: `mustn't` остался запретом на первом этаже"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Maybe he forgot** — понятно, но носитель скажет **He must have forgotten**",
+            "**He must forgotten** ✗ → **He must have forgotten** ✓ — без `have` прошлого нет"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Он наверняка забыл.",
+          "en": "He must have forgotten."
+        },
+        {
+          "ru": "Оля, возможно, опоздала на автобус.",
+          "en": "Olya might have missed the bus."
+        },
+        {
+          "ru": "Не может быть, чтобы она такое сказала.",
+          "en": "She can't have said that."
+        },
+        {
+          "ru": "Возможно, она нас не видела.",
+          "en": "She might not have seen us."
+        },
+        {
+          "ru": "Они могли и на такси поехать.",
+          "en": "They could have taken a taxi."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать mustn't have?",
+        "Чем can't have seen отличается от might not have seen?",
+        "Зачем нужно have, если прошлое и так видно по смыслу?"
+      ]
+    },
+    {
+      "id": 660,
+      "microtopicId": 242,
+      "title": "Упрёк и сожаление: should have, shouldn't have, could have",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Сборка та же — модальный, `have`, третья форма. Но говорящий здесь уже не гадает: он прекрасно знает, что произошло, и **оценивает** это задним числом. Почти всегда с эмоцией."
+        },
+        {
+          "type": "heading",
+          "text": "«Надо было» и «не надо было»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский аналог тут настолько прямой, что его достаточно просто назвать:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should have told me.** — надо было мне сказать (упрёк);",
+            "**I shouldn't have said that.** — не надо было такое говорить (сожаление о себе);",
+            "**We should have booked the table earlier.** — надо было забронировать столик пораньше."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание: советом здесь и не пахнет. Советовать поздно, дело сделано. `should have` всегда о том, что уже не исправить."
+        },
+        {
+          "type": "heading",
+          "text": "could have — три смысла в одной форме"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот где русскому тяжелее всего: все три случая он переводит одним словом «мог». А смыслы разные:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She could have missed the train.** — возможно, так и было: это ступенька шкалы, догадка из прошлой карточки;",
+            "**She could have taken the train, but she drove.** — возможность была, но человек ею не воспользовался; в разговоре это самый частый смысл;",
+            "**You could have told me!** — упрёк: «мог бы и сказать»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Различает их, как всегда, контекст, а не форма — ровно тот же вывод, что и про `could` в настоящем."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Might have` и `may have` умеют ту же двойственность, но упрекать ими почти не упрекают — для упрёка берут `could have` и `should have`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Знакомые обороты из условных"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе фразы ниже нам выдавали готовыми, когда мы разбирали третий тип условных:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You could have told me!** — теперь видно, из чего она собрана;",
+            "**I would have helped if I had known.** — та же начинка `have` плюс третья форма после модального."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего нового в них и не было — просто механику мы тогда не разбирали."
+        },
+        {
+          "type": "heading",
+          "text": "needn't have done — сделал, а было незачем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эту форму мы обещали, когда разводили три русских «не надо». Вот она и вот её пара:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I needn't have paid.** — заплатил, а было незачем: деньги потрачены зря;",
+            "**I didn't have to pay.** — платить не пришлось: денег не потратил."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски обе фразы хочется сказать одинаково — «не надо было платить», — а разница огромная: в первом случае человек заплатил, во втором нет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Смыслы разложены. Осталась сама сборка — там у русского три устойчивые ошибки."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Та же схема `модальный + have + V3`, но говорящий не гадает, а оценивает то, что уже случилось."
+        },
+        {
+          "type": "heading",
+          "text": "Надо было и не надо было"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should have told me** — упрёк · **I shouldn't have said that** — сожаление",
+            "Совета здесь нет: дело сделано, изменить нельзя"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "could have — три смысла"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She could have missed the train** — возможно, так и было (догадка)",
+            "**She could have taken the train, but she drove** — была возможность, не воспользовался",
+            "**You could have told me!** — упрёк",
+            "Различает контекст, а не форма"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "needn't have и didn't have to"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I needn't have paid** — заплатил, а было незачем",
+            "**I didn't have to pay** — платить не пришлось, денег не потратил"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should have said me** ✗ → **You should have told me** ✓",
+            "**I shouldn't said that** ✗ → **I shouldn't have said that** ✓ — без `have` прошлого нет"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Надо было мне сказать.",
+          "en": "You should have told me."
+        },
+        {
+          "ru": "Не надо было такое говорить.",
+          "en": "I shouldn't have said that."
+        },
+        {
+          "ru": "Она могла поехать на поезде, но поехала на машине.",
+          "en": "She could have taken the train, but she drove."
+        },
+        {
+          "ru": "Мог бы и сказать!",
+          "en": "You could have told me!"
+        },
+        {
+          "ru": "Я заплатил, а было незачем.",
+          "en": "I needn't have paid."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем should have отличается от should?",
+        "Как понять, какой из трёх смыслов у could have?",
+        "Чем I needn't have paid отличается от I didn't have to pay?"
+      ]
+    },
+    {
+      "id": 661,
+      "microtopicId": 242,
+      "title": "Форма и ловушки",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Смысл разобран, осталась сборка. Она короткая, но у русского на ней три устойчивые ошибки."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Модальный + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём по частям. Модальный не меняется никогда — ни по лицам, ни по временам. `have` тоже стоит намертво: никаких `has`, сколько бы третьих лиц вокруг ни было. Справа — только третья форма."
+        },
+        {
+          "type": "heading",
+          "text": "Первая ошибка: вторая форма вместо третьей"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must have forgot** ✗ → **He must have forgotten** ✓",
+            "**She can't have went there** ✗ → **She can't have gone there** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило то же, что в перфектах: после `have` живёт только третья форма. У правильных глаголов вторая и третья совпадают, и промах незаметен, — а на неправильных он вылезает сразу."
+        },
+        {
+          "type": "heading",
+          "text": "Вторая ошибка: has вместо have"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She must has forgotten** ✗ → **She must have forgotten** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Рука по привычке согласует глагол с третьим лицом. Но `have` стоит здесь сразу после модального, а после модального любая форма базовая. То же самое мы видели с `be`: **He must be sleeping**, а не **He must is sleeping**."
+        },
+        {
+          "type": "heading",
+          "text": "Третья ошибка: should of"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая частая ошибка самих носителей, и вы её обязательно встретите. В беглой речи `have` съедается до `'ve`, а на слух это неотличимо от `of`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**should have** → **should've** → на слух почти «шудэв»;",
+            "отсюда и берутся написания **should of** ✗, **could of** ✗, **must of** ✗."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правильно всегда `have`. Сокращения **should've**, **could've**, **must've** нормальны и на письме, а вот `of` в этом месте — ошибка, даже когда так пишет носитель. Разговорные `shoulda`, `coulda`, `musta` мы разберём в теме «Разговорный английский»."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос и длительная догадка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос собирается инверсией, как у всех модальных:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Could he have forgotten?** — неужели он забыл?",
+            "**Can she have said that?** — да не могла она такое сказать!"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А если догадка про долгий процесс, цепочка просто удлиняется: **He must have been waiting for an hour** — «он, наверное, прождал целый час». Начинка знакома по Present Perfect Continuous, и новое здесь только одно: после модального вся цепочка стоит голой — `have`, `been`, форма на `-ing`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Модальные разобраны целиком: оба этажа, все роли, все формы. Осталась последняя микротема — живая практика, где всё это встретится вперемешку."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`модальный + have + V3`. Модальный не меняется, `have` не меняется, справа только третья форма."
+        },
+        {
+          "type": "heading",
+          "text": "Три ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must have forgot** ✗ → **He must have forgotten** ✓ — после `have` только третья форма",
+            "**She must has forgotten** ✗ → **She must have forgotten** ✓ — после модального форма базовая",
+            "**should of** ✗ → **should have** ✓ — на слух одно и то же, на письме только `have`"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сокращения"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**should've**, **could've**, **must've** — нормальны и на письме"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Инверсией: **Could he have forgotten?** · **Can she have said that?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Долгий процесс"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must have been waiting for an hour** — после модального вся цепочка голая"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Он наверняка забыл мой адрес.",
+          "en": "He must have forgotten my address."
+        },
+        {
+          "ru": "Не может быть, чтобы она туда пошла.",
+          "en": "She can't have gone there."
+        },
+        {
+          "ru": "Неужели он забыл?",
+          "en": "Could he have forgotten?"
+        },
+        {
+          "ru": "Он, наверное, прождал целый час.",
+          "en": "He must have been waiting for an hour."
+        },
+        {
+          "ru": "Тебе надо было позвонить мне вчера.",
+          "en": "You should have called me yesterday."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после модального стоит have, а не has?",
+        "Почему носители пишут should of, если это ошибка?",
+        "Как собрать вопрос с must have?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -5379,6 +5922,60 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 125,
       "orderInCard": 2
+    },
+    {
+      "cardId": 659,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 264,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 659,
+      "exerciseType": "MATCHING",
+      "exerciseId": 115,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 659,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 212,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 660,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 110,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 660,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 144,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 660,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 123,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 661,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 227,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 661,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 235,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 661,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 105,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -5485,6 +6082,30 @@
       "userInstruction": "ИИ опишет по-русски ситуацию. Напишите по-английски свою догадку о том, что происходит.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card659_ex1",
+      "cardId": 659,
+      "title": "Скажи догадку по-английски",
+      "userInstruction": "ИИ даст одно русское предложение. Скажите то же самое по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card660_ex1",
+      "cardId": 660,
+      "title": "Скажи, что надо было",
+      "userInstruction": "ИИ опишет по-русски ситуацию, которая уже произошла. Напишите по-английски, что вы о ней скажете.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card661_ex1",
+      "cardId": 661,
+      "title": "Почини форму",
+      "userInstruction": "ИИ пришлёт одно сломанное предложение. Перепишите его правильно и своими словами скажите, что было не так.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -5928,6 +6549,37 @@
         }
       ],
       "explanation": "в третьем предложении потерялось окончание: верно **might be sleeping**. В пятом рядом с модальным появилась личная форма связки — верно **must be cooking**. Остальные три собраны правильно."
+    },
+    {
+      "id": 235,
+      "statements": [
+        {
+          "en": "They must have left before the rain started.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She can't have forgot my birthday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "You should have locked the door.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He must of missed the last train.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Could he have taken my umbrella by mistake?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении стоит вторая форма — верно **can't have forgotten**. В четвёртом на место **have** попало **of**: верно **must have missed**. Остальные три собраны правильно."
     }
   ],
   "word_arrangement_exercises": [
@@ -6042,6 +6694,27 @@
         "been"
       ],
       "explanation": "после модального стоит голая связка **be**, а действие держит форма на **-ing**. Ни **is**, ни **to be** рядом с модальным не встают, а **have** и **been** собрали бы совсем другую конструкцию."
+    },
+    {
+      "id": 212,
+      "situationRu": "Ситуация: Игорь третий день не отвечает на письма, и Вера предполагает, что её сообщение он просто не видел.",
+      "correctSentence": "He might not have noticed my message.",
+      "words": [
+        "He",
+        "might",
+        "not",
+        "have",
+        "noticed",
+        "my message"
+      ],
+      "distractors": [
+        "didn't",
+        "has",
+        "notice",
+        "to notice",
+        "noticing"
+      ],
+      "explanation": "отрицание встаёт сразу после модального, а прошлое держит **have** плюс третья форма. Помощник **didn't** рядом с модальным не нужен, **has** после него невозможен, а **notice**, **to notice** и **noticing** на место третьей формы не встают."
     }
   ],
   "multiple_choice_exercises": [
@@ -6443,6 +7116,48 @@
         }
       ],
       "explanation": "устойчивый оборот собирается только с **might** или **may**: «раз уж так вышло, возьмём такси». Ни **must**, ни **should** в него не встают."
+    },
+    {
+      "id": 264,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вы оставили ключи на столе, а теперь их нет. Дома была только Катя, и других вариантов вы не видите.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Kate might have taken the keys.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kate must have taken the keys.",
+          "isCorrect": true
+        },
+        {
+          "text": "Kate can't have taken the keys.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "улика прямая, и других объяснений нет — это уверенный вывод, **must have**. Вариант с **might have** назвал бы лишь одну из возможностей, а **can't have** сказал бы обратное."
+    },
+    {
+      "id": 110,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Igor could have called a taxi, but he waited for the bus.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Возможно, Игорь вызвал такси.",
+          "isCorrect": false
+        },
+        {
+          "text": "Игорю надо было вызвать такси.",
+          "isCorrect": false
+        },
+        {
+          "text": "У Игоря была возможность вызвать такси, но он дождался автобуса.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вторая половина фразы говорит, что Игорь дождался автобуса, — значит, речь о возможности, которой он не воспользовался. Догадка обошлась бы без такого продолжения, а упрёк прозвучал бы как **He should have called a taxi**."
     }
   ],
   "text_input_exercises": [
@@ -6554,6 +7269,36 @@
         "была собака",
         "ходили каждую пятницу",
         "обещал перезвонить"
+      ]
+    },
+    {
+      "id": 123,
+      "items": [
+        {
+          "sentence": "You ___ me about the delay.",
+          "contextRu": "",
+          "answer": "should have warned",
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ this jacket, I never wear it.",
+          "contextRu": "",
+          "answer": "shouldn't have bought",
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ for the tickets — Tom had already booked them.",
+          "contextRu": "",
+          "answer": "needn't have paid",
+          "alternatives": []
+        }
+      ],
+      "explanation": "«надо было» собирается как **should have** плюс третья форма, «не надо было» — как **shouldn't have**, а «сделал зря» — это **needn't have**: действие произошло, только оказалось лишним. Во всех трёх случаях прошлое держит **have**, а не сам глагол.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "зря заплатил",
+        "не надо было покупать",
+        "надо было предупредить"
       ]
     }
   ],
@@ -6914,6 +7659,33 @@
         }
       ],
       "explanation": "ступеньки различаются не силой уверенности, а опорой: **must** стоит на улике, **should** — на заведённом порядке, **might** ни на чём не настаивает, **can't** отрицает саму возможность. А **will** в последней строке уверенно гадает о том, что происходит сию минуту."
+    },
+    {
+      "id": 115,
+      "taskDescription": "соедини фразу с тем, что она сообщает.",
+      "pairs": [
+        {
+          "left": "He must have left already",
+          "right": "уверен, что так и было"
+        },
+        {
+          "left": "He might have left already",
+          "right": "допускает, что так было"
+        },
+        {
+          "left": "He can't have left already",
+          "right": "уверен, что этого не было"
+        },
+        {
+          "left": "He might not have left yet",
+          "right": "допускает, что этого не было"
+        },
+        {
+          "left": "He shouldn't have left so early",
+          "right": "не гадает, а упрекает"
+        }
+      ],
+      "explanation": "первые четыре строки — та же лестница уверенности, только в прошлом; отрицание в них попадает то в саму возможность, то в событие. Последняя строка выбивается: **shouldn't have** не гадает вовсе, а оценивает поступок задним числом."
     }
   ],
   "error_correction_exercises": [
@@ -7030,6 +7802,25 @@
         }
       ],
       "explanation": "свет не горит — значит, говорящий делает вывод, а вывод «не может быть» передаёт **can't**. Форма **mustn't** запрещала бы ей быть дома. Помощник **do** рядом с модальным не ставится, а частица **to** после него не нужна."
+    },
+    {
+      "id": 227,
+      "wrongSentence": "Nick must has taken the wrong bus.",
+      "options": [
+        {
+          "text": "Nick must have taken the wrong bus.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nick must taken the wrong bus.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nick must of taken the wrong bus.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после модального любая форма базовая, поэтому **has** превращается в **have**. Вариант без **have** теряет прошлое совсем, а **of** — это ошибка на слух: в этом месте всегда стоит **have**."
     }
   ],
   "construction_meaning_exercises": [
@@ -7271,6 +8062,25 @@
         }
       ],
       "explanation": "уверенный вывод собирается тем же Continuous, только личная связка уступает место голой **be**: **is waiting** превращается в **must be waiting**. Лицо и число при этом перестают быть видны вовсе."
+    },
+    {
+      "id": 105,
+      "taskDescription": "перепиши каждое предложение как уверенную догадку о прошлом со словом must.",
+      "items": [
+        {
+          "original": "Sonya took the early train.",
+          "transformed": "Sonya must have taken the early train."
+        },
+        {
+          "original": "The kids ate all the cake.",
+          "transformed": "The kids must have eaten all the cake."
+        },
+        {
+          "original": "Ben lost his keys again.",
+          "transformed": "Ben must have lost his keys again."
+        }
+      ],
+      "explanation": "прошлое переезжает из самого глагола в **have** плюс третью форму, а догадку берёт на себя модальный: **took** превращается в **must have taken**, **ate** — в **must have eaten**."
     }
   ],
   "categorization_exercises": [
@@ -7365,6 +8175,29 @@
         }
       ],
       "explanation": "слева **should** обращён к человеку, который может послушаться, — это совет. Справа слушаться некому: говорящий просто сообщает, чего ждёт от сантехника, батареи и кода."
+    },
+    {
+      "id": 144,
+      "taskDescription": "распредели фразы по тому, гадает говорящий или оценивает задним числом.",
+      "categories": [
+        {
+          "title": "Гадает о прошлом",
+          "items": [
+            "They might have missed the flight",
+            "She must have forgotten my name",
+            "He can't have finished already"
+          ]
+        },
+        {
+          "title": "Оценивает задним числом",
+          "items": [
+            "You should have called me",
+            "I shouldn't have eaten so much",
+            "We could have left an hour earlier"
+          ]
+        }
+      ],
+      "explanation": "слева говорящий не знает, что было, и строит догадку. Справа он знает и оценивает: **should have** упрекает или жалеет, а **could have** называет возможность, которой не воспользовались."
     }
   ],
   "find_the_odd_exercises": [
