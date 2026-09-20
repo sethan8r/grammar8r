@@ -7,21 +7,21 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 635 |
-| Categorization | 140 |
+| Card | 637 |
+| Categorization | 142 |
 | Category | 8 |
-| ConstructionMeaning | 88 |
+| ConstructionMeaning | 89 |
 | DialogRestore | 95 |
 | ErrorCorrection | 221 |
 | FindTheOdd | 122 |
-| Matching | 110 |
-| Microtopic | 234 |
+| Matching | 111 |
+| Microtopic | 235 |
 | MultipleChoice·CHOICE | 237 |
 | MultipleChoice·FORWARD_CHOICE | 256 |
-| MultipleChoice·REVERSE_CHOICE | 104 |
+| MultipleChoice·REVERSE_CHOICE | 106 |
 | TableFill | 45 |
 | TextInput | 119 |
-| Topic | 37 |
+| Topic | 38 |
 | Transformation | 101 |
 | TrueFalse | 228 |
 | WordArrangement | 206 |
@@ -596,6 +596,15 @@
 - TrueFalse: 168–171 (4)
 - WordArrangement: 153–153 (1)
 - course_word: 676–689 (14)
+
+### modal-verbs
+- Card: 635–636 (2)
+- Categorization: 140–141 (2)
+- ConstructionMeaning: 88–88 (1)
+- Matching: 110–110 (1)
+- Microtopic: 234–234 (1)
+- MultipleChoice·REVERSE_CHOICE: 104–105 (2)
+- Topic: 37–37 (1)
 
 ### passive-basics
 - Card: 271–279 (9)
