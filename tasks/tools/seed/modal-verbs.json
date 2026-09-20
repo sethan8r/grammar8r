@@ -39,6 +39,13 @@
       "title": "Permission · Можно? Нельзя! — разрешение и запрет",
       "order": 4,
       "searchKeywords": "как спросить можно ли, may i или can i, нельзя или не обязан, запрещено по правилам, разрешили уйти пораньше, вежливый отказ"
+    },
+    {
+      "id": 238,
+      "topicId": 37,
+      "title": "Must / Have to · Надо, обязан, приходится",
+      "order": 5,
+      "searchKeywords": "mustn't, don't have to, не обязан, приходится по-английски, must или have to, be supposed to, needn't что значит, had to"
     }
   ],
   "grammar_cards": [
@@ -345,7 +352,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Посмотрите на пару: **You must wear a seatbelt** — это про поступок, пристегнись, так велено. А **Nick must be tired** — это уже не приказ Нику устать, это моя догадка: он всю ночь работал, значит, устал наверняка. Дословно фраза звучит «Ник должен быть уставшим», по-живому — «Ник, наверное, устал»."
+          "text": "Посмотрите на пару: **You must wear a seat belt** — это про поступок, пристегнись, так велено. А **Nick must be tired** — это уже не приказ Нику устать, это моя догадка: он всю ночь работал, значит, устал наверняка. Дословно фраза звучит «Ник должен быть уставшим», по-живому — «Ник, наверное, устал»."
         },
         {
           "type": "paragraph",
@@ -2125,6 +2132,801 @@
         "Как понять, что may not в предложении — запрет?",
         "Чем You can't park here отличается от You're not allowed to park here?"
       ]
+    },
+    {
+      "id": 645,
+      "microtopicId": 238,
+      "title": "have to: приходится — и во всех временах",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "С `have to` мы знакомы по теме «Present Simple»: это обычный глагол, который значит «надо, приходится», для `he/she/it` получает `-s` (**She has to work on Saturday**), а отрицание и вопрос строит штатно через `do/does`. Переучивать это не будем — достроим. Оказывается, именно `have to` тянет на себе обязанность во всех временах сразу, и вот почему."
+        },
+        {
+          "type": "paragraph",
+          "text": "У `must` форма ровно одна — `must`. Ни прошедшей, ни будущей, ни причастия у него нет, мы это уже видели в карточке про подпорки. А сказать «мне вчера пришлось» и «мне завтра придётся» язык обязан уметь. Дыру затыкает `have to` — он-то обычный глагол и спокойно меняется, как все остальные."
+        },
+        {
+          "type": "heading",
+          "text": "Одна сборка на все времена"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have to + базовая форма глагола · время меняет только have"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысловой глагол при этом стоит неподвижно — работает только первая половина:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I have to get up at six.** — сейчас, по жизни;",
+            "**Jack had to cancel the trip.** — пришлось, в прошлом;",
+            "**You'll have to book a table.** — придётся, в будущем;",
+            "**I've had to work late all week.** — приходилось всю неделю, и это ещё тянется;",
+            "**We're going to have to leave earlier.** — уже ясно, что придётся."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I must stay at work yesterday** ✗ — русское «должен» одно на все времена, и рука по привычке ставит `must` куда угодно. У `must` прошлого нет вовсе: **I had to stay at work yesterday** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание, вопрос и всё остальное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз `have to` — обычный глагол, ничего особенного тут нет, помощник зовём как всегда:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "вопрос: **Did you have to pay for the parking?**",
+            "отрицание: **I didn't have to pay anything.**",
+            "отрицательный вопрос: **Don't you have to work today?** — с оттенком «я был уверен, что надо»;",
+            "краткий ответ: **Do we have to book in advance? — Yes, we do.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Did you had to pay?** ✗ — прошедшее время уже забрал помощник `did`, поэтому второй раз его показывать не нужно: **Did you have to pay?** ✓. Та же логика, что с обычными глаголами, — **Did you went?** ✗ никто уже не пишет, а с `have to` рука срывается чаще."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После `have to` живёт и `be` — **We had to be there at seven**, **You'll have to be patient**. Слот один и тот же, просто в нём оказался глагол-связка."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Итак, обязанность в любом времени у нас теперь есть. Дальше посмотрим, чем `have to` отличается от соседей — `must` и знакомого **I've got to go**."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`have to` — обычный глагол, поэтому времена и помощники у него штатные, а смысловой глагол стоит в базовой форме: `have to + V1`."
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "сейчас: **I have to go** · **She has to go**",
+            "прошлое: **had to** · будущее: **will have to** · сейчас и всё ещё тянется: **have had to**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и вопрос"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I don't have to pay** · **I didn't have to pay**",
+            "**Do you have to work?** · **Did you have to work?** · **Don't you have to work today?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I must stay late yesterday** ✗ → **I had to stay late yesterday** ✓ — у `must` прошлого нет",
+            "**Did you had to pay?** ✗ → **Did you have to pay?** ✓ — прошлое уже в `did`",
+            "**He have to leave** ✗ → **He has to leave** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Джеку пришлось отменить поездку.",
+          "en": "Jack had to cancel the trip."
+        },
+        {
+          "ru": "Тебе придётся забронировать столик.",
+          "en": "You'll have to book a table."
+        },
+        {
+          "ru": "Мне всю неделю приходилось работать допоздна.",
+          "en": "I've had to work late all week."
+        },
+        {
+          "ru": "Тебе пришлось платить за парковку?",
+          "en": "Did you have to pay for the parking?"
+        },
+        {
+          "ru": "Разве тебе сегодня не надо на работу?",
+          "en": "Don't you have to work today?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I must go yesterday?",
+        "Чем I have to work отличается от I'm working?",
+        "Как сказать «мне не пришлось» и «мне не придётся»?"
+      ]
+    },
+    {
+      "id": 646,
+      "microtopicId": 238,
+      "title": "must, have to, have got to — три «надо» в одной таблице",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Все три переводятся русским «надо», и именно поэтому их путают. Разница не в силе слова как такового, а в том, откуда обязанность берётся и где эта фраза живёт."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Способ",
+            "Откуда обязанность",
+            "Где живёт"
+          ],
+          "rows": [
+            [
+              "must",
+              "решил говорящий или правило",
+              "таблички, инструкции, договоры"
+            ],
+            [
+              "have to",
+              "так сложились обстоятельства",
+              "обычная речь, любое время"
+            ],
+            [
+              "have got to",
+              "обстоятельства, но прямо сейчас",
+              "разговор, чат"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По звучанию они тоже разные: `must` жёсткий, отмене не подлежит; `have to` сильный, но это не приказ, а факт; `have got to` — та же сила, только живая и разговорная, часто со срочностью."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните три фразы об одном и том же вечере: **Staff must lock the office at ten** — это строка из правил компании; **I have to lock the office tonight** — так вышло, сегодня очередь дежурить; **I've got to lock up, give me two minutes** — говорю на ходу, потому что пора прямо сейчас."
+        },
+        {
+          "type": "paragraph",
+          "text": "Третью фразу мы разбирали в микротеме «Have Got · Есть, а не получил», там же было знакомое **I've got to go**. Ничего нового в ней нет — просто теперь видно её место в ряду: это самый разговорный способ сказать «надо», и он почти всегда про конкретный случай."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Деление «`must` — сам решил, `have to` — навязали обстоятельства» работает как типичный оттенок, а не как закон. **I must get some sleep** — это просто «мне надо поспать», никакого торжественного решения там нет, а **I have to go now** не обязательно означает принуждение. Живое разведение идёт по тому, как фраза звучит и где уместна."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему носитель почти всегда берёт have to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Для английского уха `must` от человека к человеку звучит как приказ сверху. Начальник в письме так напишет, а коллега коллеге — вряд ли."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You must send me the report today.** — звучит как распоряжение, почти окрик;",
+            "**You have to send me the report today.** — просто сообщает: так надо, срок такой;",
+            "**You need to send me the report today.** — мягче всего: говорю не про правило, а про нужду."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда рабочее правило на каждый день: сомневаетесь — берите `have to`. `must` оставьте для табличек, правил и тех случаев, когда нажим нужен намеренно."
+        },
+        {
+          "type": "heading",
+          "text": "Когда за must вообще нет обязанности"
+        },
+        {
+          "type": "paragraph",
+          "text": "А теперь самое любопытное. Вернёмся к корню темы: модальный называет не действие, а отношение говорящего. У `must` это отношение — «я в этом абсолютно уверен и настаиваю». Обязанность из него вытекает часто, но не всегда:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You must try this cake!** — никто никого не обязывает, это восторг и нажим одновременно;",
+            "**You must see this film.** — настаиваю, я под впечатлением;",
+            "**You should see this film.** — просто советую, дело ваше."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В первых двух фразах `must` не про долг, а про силу чувства говорящего. По-русски мы делаем то же самое словом «обязательно»: «обязательно попробуй этот торт» — никакой обязанности, чистая эмоция."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**You must try this cake** ✗ в смысле «тебе придётся его съесть» — это не тот смысл, который услышит собеседник. Принуждение выглядело бы иначе: **You have to finish your soup before dessert** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше — самое опасное место микротемы: отрицания. Там русское «не надо» разваливается сразу на три разные английские фразы."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Три способа сказать «надо» различаются не силой слова, а происхождением обязанности и обстановкой."
+        },
+        {
+          "type": "heading",
+          "text": "Кто где живёт"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**must** — правило, табличка, инструкция; от человека к человеку звучит приказом",
+            "**have to** — обычная речь, «так вышло, деваться некуда»; дефолт на каждый день",
+            "**have got to** — разговорное, про конкретный случай и часто срочно: **I've got to go**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "must без всякой обязанности"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You must try this cake!** — восторг и нажим · **You must see this film** — настаиваю",
+            "рядом: **You should see this film** — всего лишь совет"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Nick must stay late yesterday** ✗ → **Nick had to stay late yesterday** ✓ — у `must` нет прошлого",
+            "**You must send me the report** в письме коллеге — не ошибка, но звучит приказом; нейтральнее **You have to** или **You need to**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Сотрудники обязаны запирать офис в десять.",
+          "en": "Staff must lock the office at ten."
+        },
+        {
+          "ru": "Сегодня мне надо запереть офис.",
+          "en": "I have to lock the office tonight."
+        },
+        {
+          "ru": "Мне надо закрывать, дай мне две минуты.",
+          "en": "I've got to lock up, give me two minutes."
+        },
+        {
+          "ru": "Обязательно попробуй этот торт!",
+          "en": "You must try this cake!"
+        },
+        {
+          "ru": "Тебе надо отправить мне отчёт сегодня.",
+          "en": "You have to send me the report today."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему носители редко говорят must про обязанность?",
+        "Чем have got to отличается от have to?",
+        "Как отличить must-восторг от must-обязанности?"
+      ]
+    },
+    {
+      "id": 647,
+      "microtopicId": 238,
+      "title": "Отрицания, которые русский путает: mustn't, don't have to, needn't",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русское «не надо» — одна фраза на два совершенно разных смысла. «Тебе не надо туда ходить» может означать и запрет, и разрешение не ходить. Английский эти смыслы разводит разными словами, и путаница здесь стоит дороже всего в теме."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You mustn't tell anyone.** — нельзя, запрещаю;",
+            "**You don't have to tell anyone.** — не обязан, дело твоё;",
+            "**You needn't tell anyone.** — незачем, нет необходимости."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Механику мы уже видели в карточке про запрет: в **You mustn't go** отрицание относится к действию — обязанность такова, что идти нельзя. В **You don't have to go** отрицание съедает саму обязанность: её просто нет. Третья фраза, `needn't`, стоит рядом со второй — она тоже снимает обязанность, но говорит не про правило, а про отсутствие нужды: незачем стараться, и так сойдёт."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**You mustn't come to the meeting** ✗ в значении «можешь не приходить» — для собеседника это прямой запрет появляться на встрече. Нужно **You don't have to come to the meeting** ✓ или **You needn't come** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Куда делось haven't got to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Одна мелочь, о которой мы предупреждали в микротеме «Have Got · Есть, а не получил»: у разговорного `have got to` отрицания практически нет. **I haven't got to work tomorrow** звучит странно, и вместо него говорят **I don't have to work tomorrow**. Причина простая: `got` держится за утверждение, а как только появляется `not`, язык переключается на штатную сборку с помощником `do`. Вопрос при этом нормален: **Have you got to leave so early?**"
+        },
+        {
+          "type": "heading",
+          "text": "Два глагола с двойным гражданством: need и dare"
+        },
+        {
+          "type": "paragraph",
+          "text": "Откуда вообще взялось `needn't`, если `need` — обычный глагол? Оттуда, что `need` умеет обе сборки сразу."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обычный глагол: do + need + to + V1 · модальный: need + V1"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "обычная сборка (её мы разбирали в «Основах»): **You don't need to come** · **Do I need to book a table?**",
+            "модальная сборка: **You needn't come** — никакого `do` и никакого `to`; книжное **Need I say more?** встречается в текстах."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл у обеих один, разница только в регистре: `needn't` суше и книжнее, `don't need to` — обычная живая речь."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ровно так же устроен `dare`. Знакомое по «Императиву» **Don't you dare tell her** — это модальная сборка, после `dare` стоит голый глагол без `to`. А **Do you dare to ask?** — обычная. Живое **How dare you!** («да как ты смеешь») звучит в сериалах постоянно, а книжное **Dare I ask?** достаточно узнавать."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Прошлое у этого ряда тоже двоится. **I didn't have to pay** означает «платить не пришлось», а **I needn't have paid** — «заплатил, а было незачем». Вторую форму разберём в микротеме про модальный с третьей формой глагола, там для неё всё готово."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицания разложены. Осталось выстроить все «надо» в ряд — и заодно увидеть, что рядов этих на самом деле два."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «не надо» разваливается на три разные английские фразы."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You mustn't go** — нельзя, запрет",
+            "**You don't have to go** — не обязан, дело твоё",
+            "**You needn't go** — незачем, нет необходимости (суше и книжнее, чем `don't have to`)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "need и dare умеют две сборки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "обычная: **You don't need to come** · **Do you dare to ask?** — с `do` и с `to`",
+            "модальная: **You needn't come** · **Don't you dare tell her** — без `do` и без `to`"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рядом работает"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I haven't got to work tomorrow** — так почти не говорят; берут **I don't have to work tomorrow**",
+            "вопрос с `got` при этом нормален: **Have you got to leave so early?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You mustn't come** ✗ в значении «можешь не приходить» → **You don't have to come** ✓",
+            "**You needn't to come** ✗ → **You needn't come** ✓ — в модальной сборке `to` нет",
+            "**You don't need come** ✗ → **You don't need to come** ✓ — в обычной сборке `to` обязательна"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Никому нельзя об этом рассказывать.",
+          "en": "You mustn't tell anyone about it."
+        },
+        {
+          "ru": "Ты не обязан никому об этом рассказывать.",
+          "en": "You don't have to tell anyone about it."
+        },
+        {
+          "ru": "Тебе незачем приходить так рано.",
+          "en": "You needn't come so early."
+        },
+        {
+          "ru": "Завтра мне не надо на работу.",
+          "en": "I don't have to work tomorrow."
+        },
+        {
+          "ru": "Даже не думай ей об этом говорить.",
+          "en": "Don't you dare tell her about it."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему mustn't и don't have to значат противоположное?",
+        "Чем needn't отличается от don't need to?",
+        "Когда после need нужна частица to, а когда нет?"
+      ]
+    },
+    {
+      "id": 648,
+      "microtopicId": 238,
+      "title": "Лестница обязанности: сила и регистр — две разные линейки",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Способов сказать «надо» в английском много, и в голове они обычно складываются в одну лестницу: от вежливого к грубому, от слабого к сильному. Так вот, лестниц тут две, и они независимы. Человек по умолчанию считает, что «казённее — значит сильнее», а это неправда: разговорное **I've got to go** давит будь здоров, а нейтральное `should` не обязывает вообще."
+        },
+        {
+          "type": "heading",
+          "text": "Линейка первая: сила"
+        },
+        {
+          "type": "paragraph",
+          "text": "Насколько жёстко и можно ли не делать:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Способ",
+            "Сила",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "must",
+              "максимум, отмене не подлежит",
+              "Passengers must wear a seat belt"
+            ],
+            [
+              "have to",
+              "сильно, но это факт, а не приказ",
+              "I have to be there by nine"
+            ],
+            [
+              "have got to",
+              "та же сила, но про конкретный случай и часто срочно",
+              "I've got to go"
+            ],
+            [
+              "need to",
+              "необходимость, а не правило — звучит мягче",
+              "You need to sign here"
+            ],
+            [
+              "be supposed to",
+              "слабее всех: правило есть, но его нарушают",
+              "You're supposed to wear a helmet"
+            ],
+            [
+              "should",
+              "обязательства нет вовсе, это совет",
+              "You should call her"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`should` стоит здесь нижней ступенькой просто чтобы был виден весь ряд — разбирать его будем в следующей микротеме."
+        },
+        {
+          "type": "heading",
+          "text": "Линейка вторая: регистр"
+        },
+        {
+          "type": "paragraph",
+          "text": "Как фраза звучит и где встречается. Строки те же, порядок другой — на этом и видно, что линейки не совпадают:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Регистр",
+            "Способы",
+            "Где встречается"
+          ],
+          "rows": [
+            [
+              "формальный",
+              "must, shall, be to",
+              "договоры, таблички, объявления, официальное письмо"
+            ],
+            [
+              "нейтральный",
+              "have to, need to, should",
+              "обычный разговор, рабочая переписка"
+            ],
+            [
+              "разговорный",
+              "have got to, gotta",
+              "чат, речь на ходу, песни"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите, что произошло: `have got to` стоит наверху первой таблицы и внизу второй. Оно сильное и при этом разговорное — а значит, «сильное» и «официальное» действительно разные вещи."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обе таблицы — ориентир «на сколько это тянет по умолчанию», а не измерительный прибор. Сказанное резким тоном **You need to stop** придавит сильнее, чем добродушное **You have to be there at eight**. Никаких процентов и баллов здесь нет — есть привычка языка, которую мы и запоминаем."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Стоит рядом и слово `duty` — «обязанность, долг» как вещь, а не как действие: **It's not my duty to lock up the office**, **Every driver has a duty to check the mirrors**."
+        },
+        {
+          "type": "heading",
+          "text": "Отдельный ярус: shall из договора"
+        },
+        {
+          "type": "paragraph",
+          "text": "В микротеме «Будущее: will · Предложить и позвать» нам уже попадался юридический `shall` — тот самый, из фразы **The tenant shall pay the rent before the fifth**. Его место не на ступеньке: он не сильнее `must` и не слабее, он просто из другого мира — языка контрактов и законов, где так оформляют обязательство сторон. В живой речи в этом значении он не встречается вовсе."
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом с ним живёт `be to` — книжно-распорядительное, достаточно узнавать: **You are to report at nine** (распоряжение сверху), **You are not to leave the building** (запрет сверху), **The President is to visit France next week** (официально объявленный план). Похоже на модальность оно потому, что за фразой стоит чужая воля — приказ или чьё-то объявленное решение."
+        },
+        {
+          "type": "heading",
+          "text": "be supposed to: правило, которое могут и нарушить"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эту конструкцию стоит разобрать отдельно — она ходовая, а русский разводит её смыслы тремя разными словами. Дословно `be supposed to` — «предполагается, что кто-то это сделает», по-живому — «вообще-то полагается». Из дословного видно и устройство: это обычная связка с `to be`, поэтому она меняется по лицам и временам (**I'm supposed to**, **he was supposed to**) и всегда держит частицу `to`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "правило, которое нарушают: **You're supposed to wear a helmet here.** — «вообще-то полагается»;",
+            "ожидание по расписанию и по идее: **The train is supposed to arrive at eight.** · **Megan is supposed to be working now.** — а она, судя по всему, не работает;",
+            "чужие слова и слухи: **The new café is supposed to be very good.** — «говорят, что»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Общее у всех трёх — кто-то где-то так постановил или так говорит, а как обстоит дело на самом деле, фраза не обещает. Отсюда и место в первой таблице: это единственный пункт лестницы, который прямо допускает, что сделано не будет."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Кстати, нам это уже попадалось: **It's supposed to rain tomorrow** из темы «Погода» — ровно второй случай, ожидание по прогнозу."
+        },
+        {
+          "type": "paragraph",
+          "text": "Обязанность разобрана целиком: от жёсткого `must` до необязательного `be supposed to`, со всеми отрицаниями и временами. Следующая микротема — про нижнюю ступеньку, `should`: совет, у которого тоже обнаружится второй этаж."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Обязанность в любом времени тянет `have to`: `have to + V1`, время меняет только `have` — **had to** · **will have to** · **have had to**. У `must` других форм нет вовсе."
+        },
+        {
+          "type": "heading",
+          "text": "Три «надо»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**must** — правило и табличка; от человека к человеку звучит приказом",
+            "**have to** — обычная речь, «так сложилось»; дефолт на каждый день",
+            "**have got to** — разговорное, конкретный случай и срочность: **I've got to go**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицания — три разных смысла"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You mustn't go** — нельзя · **You don't have to go** — не обязан · **You needn't go** — незачем",
+            "`need` и `dare` умеют обе сборки: **You don't need to come** ↔ **You needn't come**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Две линейки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "сила: **must** → **have to** → **have got to** → **need to** → **be supposed to** → **should**",
+            "регистр: формальный **must, shall, be to** → нейтральный **have to, need to** → разговорный **have got to, gotta**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "be supposed to — три чтения"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You're supposed to wear a helmet** — полагается, но нарушают",
+            "**The train is supposed to arrive at eight** — ожидание по расписанию",
+            "**The café is supposed to be very good** — говорят, что"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I must call him yesterday** ✗ → **I had to call him yesterday** ✓",
+            "**You mustn't come** ✗ в значении «можешь не приходить» → **You don't have to come** ✓",
+            "**You're supposed wear a helmet** ✗ → **You're supposed to wear a helmet** ✓ — связка держит `to`"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Здесь вообще-то полагается надевать шлем.",
+          "en": "You're supposed to wear a helmet here."
+        },
+        {
+          "ru": "Поезд по расписанию приходит в восемь.",
+          "en": "The train is supposed to arrive at eight."
+        },
+        {
+          "ru": "Говорят, новое кафе очень хорошее.",
+          "en": "The new café is supposed to be very good."
+        },
+        {
+          "ru": "Вам надо расписаться здесь.",
+          "en": "You need to sign here."
+        },
+        {
+          "ru": "Запирать офис — не моя обязанность.",
+          "en": "It's not my duty to lock up the office."
+        },
+        {
+          "ru": "Вам надлежит явиться в девять.",
+          "en": "You are to report at nine."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему have got to разговорное, но при этом сильное?",
+        "Чем be supposed to отличается от have to?",
+        "Почему shall в договоре значит «обязан»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2313,6 +3115,90 @@
       "exerciseType": "CONSTRUCTION_MEANING",
       "exerciseId": 90,
       "orderInCard": 2
+    },
+    {
+      "cardId": 645,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 46,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 645,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 259,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 645,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 102,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 645,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 98,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 646,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 142,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 646,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 107,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 646,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 231,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 647,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 260,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 647,
+      "exerciseType": "MATCHING",
+      "exerciseId": 112,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 647,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 91,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 647,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 224,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 648,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 123,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 648,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 239,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 648,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 208,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2337,6 +3223,22 @@
       "cardId": 644,
       "title": "Разреши или запрети",
       "userInstruction": "ИИ опишет по-русски одну ситуацию. Напишите по-английски фразу, которая в ней уместна.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card648_ex1",
+      "cardId": 648,
+      "title": "Надо, не надо или нельзя",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте подходящее по смыслу выражение обязанности.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card648_ex2",
+      "cardId": 648,
+      "title": "Скажи про обязанность",
+      "userInstruction": "ИИ даст одно русское предложение. Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -2397,6 +3299,30 @@
       "transcription": "[pəˈmɪʃn]",
       "microtopicId": 237,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 886,
+      "word": "must",
+      "translation": "должен, обязан, надо",
+      "transcription": "[mʌst]",
+      "microtopicId": 238,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 887,
+      "word": "be supposed to",
+      "translation": "полагаться (по правилу), считаться, ожидаться",
+      "transcription": "[biː səˈpəʊzd tuː]",
+      "microtopicId": 238,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 888,
+      "word": "duty",
+      "translation": "обязанность, долг",
+      "transcription": "[ˈdjuːti]",
+      "microtopicId": 238,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [
@@ -2422,6 +3348,29 @@
         }
       ],
       "explanation": "своих времён у модального нет, поэтому в прошлом и будущем его заменяет обычная связка с тем же смыслом: умение — be able to, обязанность — have to, разрешение — be allowed to."
+    },
+    {
+      "id": 46,
+      "taskDescription": "впиши форму have to для каждого случая.",
+      "rows": [
+        {
+          "hint": "Вера, каждое утро",
+          "answer": "has to"
+        },
+        {
+          "hint": "мы, вчера",
+          "answer": "had to"
+        },
+        {
+          "hint": "они, завтра",
+          "answer": "will have to"
+        },
+        {
+          "hint": "ты, вопрос про сейчас",
+          "answer": "do you have to"
+        }
+      ],
+      "explanation": "время и лицо берёт на себя только первая половина конструкции: **has** для третьего лица, **had** для прошлого, **will have** для будущего, помощник **do** для вопроса. Частица **to** и глагол после неё не меняются никогда."
     }
   ],
   "true_false_exercises": [
@@ -2517,6 +3466,37 @@
         }
       ],
       "explanation": "в третьем предложении у связки пропало to — верно aren't allowed to take. В четвёртом рядом с модальным поставили помощник do, хотя can справляется сам: верно you can't smoke here. Остальные три собраны правильно."
+    },
+    {
+      "id": 231,
+      "statements": [
+        {
+          "en": "Visitors must wear a badge in the building.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Yesterday Ben must drive his sister to school.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I've got to call the dentist this morning.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Sara must to finish the report today.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We'll have to change the tyres before winter.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении речь о вчерашнем дне, а прошедшей формы у **must** нет — нужно **had to drive**. В четвёртом после модального появилась лишняя **to**: верно **must finish**. Остальные три собраны правильно."
     }
   ],
   "word_arrangement_exercises": [
@@ -2557,6 +3537,25 @@
         "bringing"
       ],
       "explanation": "прошедшего времени у may нет, поэтому разрешение в прошлом передаёт связка be allowed to — а она обычная конструкция с to be, и вопрос строит сама, без did."
+    },
+    {
+      "id": 208,
+      "situationRu": "Ситуация: Юля напоминает новому коллеге, во сколько по правилам компании надо быть в офисе.",
+      "correctSentence": "You're supposed to be at the office at nine.",
+      "words": [
+        "You're",
+        "supposed",
+        "to be",
+        "at the office",
+        "at nine"
+      ],
+      "distractors": [
+        "must",
+        "should",
+        "supposing",
+        "being"
+      ],
+      "explanation": "речь о правиле, которое напоминают мягко, — это **be supposed to**. Связка держит частицу **to** и базовую форму после неё, поэтому ни **supposing**, ни **being** сюда не встают, а **must** и **should** сказали бы другое: приказ от самой Юли и просто совет."
     }
   ],
   "multiple_choice_exercises": [
@@ -2727,6 +3726,90 @@
         }
       ],
       "explanation": "собеседование — официальная обстановка с незнакомым человеком, там уместна самая формальная ступень шкалы. Вопрос о физической выполнимости к разрешению отношения не имеет."
+    },
+    {
+      "id": 259,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вчера Нику пришлось задержаться на работе до девяти.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Nick must stay at work until nine yesterday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nick had to stay at work until nine yesterday.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nick has to stay at work until nine yesterday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "речь о вчерашнем дне, значит, нужна прошедшая форма. У **must** её не существует вовсе, а **has to** говорит про сейчас — прошлое передаёт только **had to**."
+    },
+    {
+      "id": 107,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "You must read her new book.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Обязательно прочитай её новую книгу.",
+          "isCorrect": true
+        },
+        {
+          "text": "Тебе придётся прочитать её новую книгу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ты обязан прочитать её новую книгу для работы.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "никакой обязанности здесь нет — **must** передаёт силу чувства говорящего, он под впечатлением и настаивает. Обязанность по обстоятельствам выглядела бы как **You have to read her book for work**."
+    },
+    {
+      "id": 260,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Тренер говорит Кате, что в воскресенье на тренировку приходить не обязательно — решать ей.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "You mustn't come to training on Sunday.",
+          "isCorrect": false
+        },
+        {
+          "text": "You needn't to come to training on Sunday.",
+          "isCorrect": false
+        },
+        {
+          "text": "You don't have to come to training on Sunday.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "обязанности нет, и решает сама Катя — это **don't have to**. Вариант с **mustn't** прозвучал бы как запрет появляться на тренировке, а в модальной сборке с **needn't** частица **to** не ставится."
+    },
+    {
+      "id": 239,
+      "choiceType": "CHOICE",
+      "prompt": "The buyer ___ collect the goods within five working days.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "shall",
+          "isCorrect": true
+        },
+        {
+          "text": "has got to",
+          "isCorrect": false
+        },
+        {
+          "text": "needn't",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "фраза из договора, а там обязательство сторон оформляют юридическим **shall**. Разговорное **has got to** в контракте немыслимо, а **needn't** сказало бы обратное — что забирать товар и не нужно."
     }
   ],
   "text_input_exercises": [
@@ -2877,6 +3960,38 @@
         }
       ],
       "explanation": "отказывают тем же модальным, каким спросили, только в отрицании. Помощник do рядом с модальным не ставится, а couldn't сказало бы о прошлой возможности, а не о сегодняшнем запрете."
+    },
+    {
+      "id": 98,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "You look tired. Did you sleep at all?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "No wonder. Take it easy today."
+        }
+      ],
+      "options": [
+        {
+          "text": "Not really, I must finish the report at night.",
+          "isCorrect": false
+        },
+        {
+          "text": "Not really, I had to finish the report at night.",
+          "isCorrect": true
+        },
+        {
+          "text": "Not really, I have to finished the report at night.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "ночь уже позади, значит, нужна прошедшая форма — **had to**. У **must** прошлого нет вовсе, а в третьем варианте после **to** стоит не базовая форма глагола."
     }
   ],
   "matching_exercises": [
@@ -2929,6 +4044,33 @@
         }
       ],
       "explanation": "форма во всех четырёх одна и та же — роль подсказывают соседи: рассказ о детстве, обращение к человеку, глагол said рядом или выдуманное условие с if."
+    },
+    {
+      "id": 112,
+      "taskDescription": "соедини фразу с тем, что она на самом деле сообщает.",
+      "pairs": [
+        {
+          "left": "You mustn't park here",
+          "right": "запрещено"
+        },
+        {
+          "left": "You don't have to park here",
+          "right": "можно и не парковаться"
+        },
+        {
+          "left": "You needn't worry",
+          "right": "незачем беспокоиться"
+        },
+        {
+          "left": "Do I need to answer?",
+          "right": "вопрос о необходимости"
+        },
+        {
+          "left": "Don't you dare shout at her",
+          "right": "резкое предостережение"
+        }
+      ],
+      "explanation": "**mustn't** запрещает действие, а **don't have to** и **needn't** снимают обязанность. Две последние строки показывают обе сборки: у обычного глагола **need** есть помощник **do** и частица **to**, а у **dare** в предостережении ни того, ни другого нет — работает модальная сборка."
     }
   ],
   "error_correction_exercises": [
@@ -2988,6 +4130,25 @@
         }
       ],
       "explanation": "конец фразы говорит, что выбор за Меган, — значит, речь про отсутствие обязанности, а это doesn't have to. Вариант с mustn't означал бы прямой запрет работать, а don't have to не согласован с she."
+    },
+    {
+      "id": 224,
+      "wrongSentence": "I haven't got to cook tonight, Tom is bringing pizza.",
+      "options": [
+        {
+          "text": "I haven't to cook tonight, Tom is bringing pizza.",
+          "isCorrect": false
+        },
+        {
+          "text": "I don't have to cook tonight, Tom is bringing pizza.",
+          "isCorrect": true
+        },
+        {
+          "text": "I don't have got to cook tonight, Tom is bringing pizza.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "отрицание у **have got to** практически не встречается — в отрицательной форме язык переходит на **don't have to**. Остальные два варианта собраны неверно: помощник **do** и **got** в одной фразе не уживаются."
     }
   ],
   "construction_meaning_exercises": [
@@ -3059,6 +4220,29 @@
         }
       ],
       "explanation": "may not читается двумя способами, и различает их обстановка: на табличке это запрет, а в разговоре о человеке — предположение. Здесь речь о знакомой и о том, что происходит прямо сейчас, значит, говорящий делится догадкой."
+    },
+    {
+      "id": 91,
+      "construction": "Kate needn't bring her laptop.",
+      "options": [
+        {
+          "text": "Кате нельзя приносить ноутбук.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кате не разрешили взять ноутбук.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кате незачем брать ноутбук.",
+          "isCorrect": true
+        },
+        {
+          "text": "Кате нужно принести ноутбук.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**needn't** снимает необходимость, а не разрешение: ноутбук просто не понадобится. Запрет прозвучал бы как **Kate mustn't bring her laptop**."
     }
   ],
   "transformation_exercises": [
@@ -3080,6 +4264,25 @@
         }
       ],
       "explanation": "модальный просто выходит вперёд, перед подлежащим, и больше в предложении ничего не меняется. Помощник do звать не нужно — модальный сам помощник."
+    },
+    {
+      "id": 102,
+      "taskDescription": "перепиши каждое предложение в прошедшем времени.",
+      "items": [
+        {
+          "original": "Emma has to take a taxi.",
+          "transformed": "Emma had to take a taxi."
+        },
+        {
+          "original": "We have to wait an hour.",
+          "transformed": "We had to wait an hour."
+        },
+        {
+          "original": "I don't have to work on Friday.",
+          "transformed": "I didn't have to work on Friday."
+        }
+      ],
+      "explanation": "прошедшее время меняет только первую половину: **has to** и **have to** дают **had to**, а отрицание уходит к **didn't have to**. Глагол после **to** остаётся базовым."
     }
   ],
   "categorization_exercises": [
@@ -3128,6 +4331,29 @@
         }
       ],
       "explanation": "слово в обеих колонках одно и то же — смотрим, что стоит справа. Действие человека (wear, park, go) — речь про поступок; be плюс состояние (tired, true, asleep) — говорящий делится догадкой."
+    },
+    {
+      "id": 142,
+      "taskDescription": "распредели фразы по тому, где такая формулировка уместна.",
+      "categories": [
+        {
+          "title": "Правило или табличка",
+          "items": [
+            "Guests must show a ticket",
+            "Drivers must keep left",
+            "Passengers must stay seated"
+          ]
+        },
+        {
+          "title": "Живой разговор",
+          "items": [
+            "I've got to run",
+            "We have to leave now",
+            "Emma has to work late"
+          ]
+        }
+      ],
+      "explanation": "в левой колонке говорит не человек, а правило, поэтому там уместен **must**. В правой — обычные люди про свои обстоятельства, и **must** звучал бы там приказом сверху."
     }
   ],
   "find_the_odd_exercises": [
@@ -3153,6 +4379,29 @@
         }
       ],
       "explanation": "ought to — единственный модальный, у которого to входит в само слово. У остальных справа стоит голая базовая форма без to."
+    },
+    {
+      "id": 123,
+      "groupDescription": "Три фразы обязывают одинаково, а одна выбивается",
+      "items": [
+        {
+          "text": "You must sign in at the desk",
+          "isOdd": false
+        },
+        {
+          "text": "You have to sign in at the desk",
+          "isOdd": false
+        },
+        {
+          "text": "You've got to sign in at the desk",
+          "isOdd": false
+        },
+        {
+          "text": "You're supposed to sign in at the desk",
+          "isOdd": true
+        }
+      ],
+      "explanation": "**be supposed to** — единственная ступень лестницы, которая прямо допускает, что правило нарушат: «вообще-то полагается». Остальные три сообщают, что обязанность действует."
     }
   ]
 }
