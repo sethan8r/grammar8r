@@ -25,6 +25,13 @@
       "title": "How Modals Work · Форма: без -s, без to, без своих времён",
       "order": 2,
       "searchKeywords": "почему can без s, must to go ошибка, как задать вопрос с should, короткий ответ yes i can, will can или be able to, could или was able to"
+    },
+    {
+      "id": 236,
+      "topicId": 37,
+      "title": "Can / Could · Умею, смогу — и почему could это вежливость",
+      "order": 3,
+      "searchKeywords": "could или can, could you или can you, смягчить просьбу, умел в детстве, can про завтра, мог бы"
     }
   ],
   "grammar_cards": [
@@ -1094,6 +1101,566 @@
         "Как понять, нужен could или was able to?",
         "Почему с глаголами see и hear берут could даже про один раз?"
       ]
+    },
+    {
+      "id": 640,
+      "microtopicId": 236,
+      "title": "Умение и возможность: can, can't, could",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "С `can` мы знакомы с «Основ»: он сообщает умение (**Lucy can drive**), физическую возможность (**I can't open this jar**) и разрешение (**You can take my charger**), вопрос строит инверсией — **Can you drive?**. Заново это не разбираем, а берём как опору: дальше идёт то, чего в курсе ещё не было."
+        },
+        {
+          "type": "heading",
+          "text": "Прошлое умение: could"
+        },
+        {
+          "type": "paragraph",
+          "text": "В прошедшем времени умение передаёт `could` — та самая форма, которую мы только что видели в таблице подпорок:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Ben could play chess at six** — умел, это была его способность;",
+            "**I couldn't ride a bike until I was ten** — не умел, способности не было."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Никакого `-ed` и никакого второго слова тут не нужно: `could` и есть готовая прошедшая форма. А разницу между `could` и `was able to` мы уже развели: общее умение — `could`, разовое достижение — `was able to`."
+        },
+        {
+          "type": "heading",
+          "text": "Свойство места, а не умение человека"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь роль `can`, которая русскому обычно не приходит в голову. Кроме умения конкретного человека, `can` рассказывает про **общую возможность мира** — про то, как оно тут в принципе бывает:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Winters can be cold in Warsaw.** — зимы тут бывают холодные, это свойство здешних зим;",
+            "**It can get very windy on the coast in October.** — в октябре на побережье случается сильный ветер;",
+            "**Old laptops can get really hot.** — старые ноутбуки имеют такое свойство."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Подлежащее здесь не человек, и умения ни у кого нет. Говорящий сообщает: такое тут встречается, будь готов. По-русски мы скажем «бывает», «случается», «может быть» — и вот на последнем слове начинается путаница."
+        },
+        {
+          "type": "heading",
+          "text": "А вот в этот раз — might"
+        },
+        {
+          "type": "paragraph",
+          "text": "Потому что у русского «может» есть и второй смысл: не «так бывает вообще», а «вот сейчас, в этот конкретный раз, не исключено». И для него в английском стоит другое слово — `might`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It might snow tonight.** — сегодня ночью, возможно, пойдёт снег;",
+            "**Lucy might be late today.** — конкретно сегодня Люси может опоздать;",
+            "**The bakery might be closed now.** — прямо сейчас пекарня, возможно, закрыта."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница держится не на времени, а на том, о чём речь: о свойстве места и вещей — `can`, об одном конкретном случае — `might`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "От этого и самая частая ошибка русскоязычного. «Завтра может пойти дождь» переводится в **It can rain tomorrow** ✗, а нужно **It might rain tomorrow** ✓ — завтра это один конкретный раз, а не свойство погоды вообще. При этом **It can rain heavily here in July** ✓ — совершенно нормальная фраза: тут сообщается, какие здесь бывают июли. Так что `can` про будущее не запрещён — запрещён `can` про **отдельный случай**."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверить себя можно одним вопросом: я рассказываю, **как тут бывает**, или предполагаю, **что случится в этот раз**? Первое — `can`, второе — `might`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё одну работу `can` мы разбирали в теме «Смотреть, слушать и понимать»: **I can see the river from here**, **I can hear the neighbours** — с глаголами восприятия `can` показывает, что картинка или звук доступны прямо сейчас. Это та же возможность, только про органы чувств; добавлять к ней здесь нечего."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше — главная карточка микротемы. Там выяснится, что `could` куда чаще говорит не о прошлом, а о вежливости."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`could` — прошлое умение: **Ben could play chess at six** · **I couldn't ride a bike until I was ten**."
+        },
+        {
+          "type": "heading",
+          "text": "can или might"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Свойство места, вещей, обстановки — как тут бывает вообще → `can`: **Winters can be cold in Warsaw**",
+            "Один конкретный случай, предположение про этот раз → `might`: **It might snow tonight**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It can rain tomorrow** ✗ → **It might rain tomorrow** ✓ — завтра это отдельный случай",
+            "Но **It can rain heavily here in July** ✓ — здесь речь о том, какие тут июли",
+            "**Megan cans speak Italian** ✗ → **Megan can speak Italian** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "В шесть лет Бен умел играть в шахматы.",
+          "en": "Ben could play chess at six."
+        },
+        {
+          "ru": "Я не умел кататься на велосипеде лет до десяти.",
+          "en": "I couldn't ride a bike until I was ten."
+        },
+        {
+          "ru": "Зимы в Варшаве бывают холодные.",
+          "en": "Winters can be cold in Warsaw."
+        },
+        {
+          "ru": "Сегодня ночью может пойти снег.",
+          "en": "It might snow tonight."
+        },
+        {
+          "ru": "Люси сегодня может опоздать.",
+          "en": "Lucy might be late today."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать It can rain tomorrow?",
+        "Чем could отличается от was able to, если оба про прошлое?",
+        "Как понять, что can говорит о свойстве, а не об умении человека?"
+      ]
+    },
+    {
+      "id": 641,
+      "microtopicId": 236,
+      "title": "Прошедшая форма = дистанция, а не прошлое",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "А теперь второй сюрприз темы, обещанный во вводной. Возьмём две просьбы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can you wait five minutes?**",
+            "**Could you wait five minutes?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе про **сейчас**: человек стоит рядом, и ждать его просят прямо в эту минуту. Никакого прошлого во второй фразе нет, хотя форма у неё прошедшая. Разница между ними — не во времени, а в **нажиме**."
+        },
+        {
+          "type": "heading",
+          "text": "Чем дальше форма, тем мягче просьба"
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский отодвигает форму от настоящего, чтобы отодвинуть и саму просьбу: она как будто перестаёт касаться собеседника вплотную и превращается в осторожное предположение. Получается шкала — от прямой просьбы к максимально деликатной:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Просьба",
+            "Насколько прямо",
+            "Где уместна"
+          ],
+          "rows": [
+            [
+              "Can you wait five minutes?",
+              "прямо и обычно",
+              "друг, коллега, своя семья"
+            ],
+            [
+              "Could you wait five minutes?",
+              "мягче, нейтрально-вежливо",
+              "незнакомый человек, клиент, начальник"
+            ],
+            [
+              "Do you think you could wait?",
+              "осторожно",
+              "просьба неудобная, человек занят"
+            ],
+            [
+              "I was wondering if you could wait.",
+              "очень деликатно",
+              "большая просьба, важный человек"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Все четыре фразы — про одно и то же «подожди пять минут». Меняется только то, насколько сильно вы давите."
+        },
+        {
+          "type": "heading",
+          "text": "Эту механику вам уже выдавали три раза"
+        },
+        {
+          "type": "paragraph",
+          "text": "И каждый раз — готовой формулой, с пометкой «объясним позже». Теперь объяснение есть, и оно одно на все три случая:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was wondering if you could help me** — в Past Continuous это дали как вежливый оборот. Прошедшая форма там не про прошлое, а про дистанцию;",
+            "**Could you tell me where the station is?** — в «Косвенных вопросах» это стояло на шкале вежливости. Тот же приём;",
+            "**Can I have a coffee?** · **Could you open the window?** · **Could I ask you something?** — три формулы просьбы из «Императива», где прямо остался висеть вопрос: почему в первых двух `can`, а в третьей `could`?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ответ оказывается не про грамматику, а про такт. В кафе **Can I have a coffee?** — это ожидаемая реплика, ритуал: вы никого не обременяете, смягчать нечего. **Could I ask you something?** — совсем другое дело: вы влезаете в чужое время и не знаете, удобно ли человеку. Поэтому просьбу отодвигают на шаг. Выбирает говорящий, и выбирает он не время, а градус деликатности."
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "text": "Sorry, are you busy?"
+            },
+            {
+              "speaker": "Me",
+              "text": "A little. Why?"
+            },
+            {
+              "speaker": "Emma",
+              "text": "Could I ask you something quick?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Sure, go ahead."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "На **Could you wait a moment?** не отвечают **Yes, I could** ✗ — такой ответ звучит как рассуждение о своих способностях, будто человек прикидывает, мог бы он вообще ждать или нет. Отвечают согласием: **Sure** ✓ · **Of course** ✓ · **No problem** ✓. Короткий ответ тем же модальным, который мы разбирали в прошлой микротеме, работает для вопроса об умении (**Can you drive? — Yes, I can**), а не для просьбы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Мягкое предложение вместо указания"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот же отодвинутый `could` умеет ещё одно: подавать мысль как один из вариантов, а не как указание."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You could try calling her again.** — «а ты попробуй ей перезвонить»: может, сработает, решай сам;",
+            "**We could take the early train.** — «можно поехать ранним поездом»: вариант на рассмотрение."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разницу стоит почувствовать заранее: **You should call her** — это совет, говорящий считает так правильным. **You could call her** — просто один из ходов, без нажима. Сам совет и его формы разберём в микротеме про `should`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Бытовые сценарии — как просить в кафе, у коллег и у незнакомых людей — разобраны в темах «Императив: приказ или забота» и «Социальное взаимодействие». Здесь нам был нужен сам механизм: отодвинутая форма = уменьшенный нажим."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Прошедшая форма модального в просьбе — не про прошлое, а про дистанцию: **Could you wait?** говорит о том же «сейчас», что и **Can you wait?**, просто мягче."
+        },
+        {
+          "type": "heading",
+          "text": "Шкала просьбы"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Can you wait?** → **Could you wait?** → **Do you think you could wait?** → **I was wondering if you could wait.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чем дальше форма от настоящего, тем меньше нажима: `can` — свои и коллеги, `could` — незнакомый человек, клиент, начальник, длинные обёртки — большая или неудобная просьба."
+        },
+        {
+          "type": "heading",
+          "text": "Как ответить"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Could you wait a moment? — Sure** ✓ · **Of course** ✓ · **No problem** ✓",
+            "**Yes, I could** ✗ — так отвечают на вопрос об умении, а не на просьбу"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Мягкое предложение"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You could try calling her again** — один из вариантов, без нажима",
+            "Рядом работает `should`: **You should call her** — это уже совет"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ты не мог бы подождать пять минут?",
+          "en": "Could you wait five minutes?"
+        },
+        {
+          "ru": "Как думаешь, ты мог бы взглянуть на мой отчёт?",
+          "en": "Do you think you could look at my report?"
+        },
+        {
+          "ru": "Можно я вас кое о чём спрошу?",
+          "en": "Could I ask you something?"
+        },
+        {
+          "ru": "Ты не мог бы открыть окно? — Конечно.",
+          "en": "Could you open the window? — Of course."
+        },
+        {
+          "ru": "Ты мог бы попробовать перезвонить ей ещё раз.",
+          "en": "You could try calling her again."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему Could you…? звучит вежливее, чем Can you…?",
+        "Как ответить на Could you…?, если я согласен?",
+        "Чем You could call her отличается от You should call her?"
+      ]
+    },
+    {
+      "id": 642,
+      "microtopicId": 236,
+      "title": "А где could — это всё-таки прошлое",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Из предыдущей карточки легко вынести перекошенный вывод: раз `could` — это вежливость, значит, про прошлое он уже не говорит. Говорит. Просто роль у него каждый раз определяется по соседям, а не по самой форме."
+        },
+        {
+          "type": "paragraph",
+          "text": "Три случая, и все три вам уже встречались."
+        },
+        {
+          "type": "heading",
+          "text": "Прошлое внутри чужой конструкции"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I sent Vera the address so that she could find the café.** — я отправил адрес, чтобы она нашла кафе. В «Связной речи» эта фраза разбиралась как цель, которую выполняет другой человек, и `could` там стоял без объяснений. Теперь всё на месте: главная часть в прошедшем (**sent**), поэтому и вторая половина идёт в прошедшем. Никакой вежливости здесь нет."
+        },
+        {
+          "type": "heading",
+          "text": "Прошлое в пересказе чужих слов"
+        },
+        {
+          "type": "paragraph",
+          "text": "**She said she could come.** — она сказала, что сможет прийти. Сама она говорила про себя **I can come**, но при пересказе `can` отодвигается в `could` вслед за глаголом **said**. Это общее правило пересказа: чужие слова целиком отодвигаются на шаг назад. Разбирать его здесь мы не будем — обещаем разобрать целиком в теме «Косвенная речь», вместе со всеми остальными сдвигами. Сейчас достаточно узнавать такой `could` в лицо и не путать его с просьбой."
+        },
+        {
+          "type": "heading",
+          "text": "Возможность, которой на деле нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "**If I had more time, I could help you.** — будь у меня больше времени, я бы помог. Эту формулу мы видели в условных предложениях: ситуация выдуманная, помощи не будет. Здесь `could` не про прошлое и не про вежливость, а про возможность в невзаправдашнем мире."
+        },
+        {
+          "type": "heading",
+          "text": "Различает контекст, а не форма"
+        },
+        {
+          "type": "paragraph",
+          "text": "Итого у одной формы четыре роли, и все четыре опознаются по окружению:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что рядом",
+            "Роль could",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "рассказ о детстве, о прежних годах",
+              "прошлое умение",
+              "Ben could play chess at six"
+            ],
+            [
+              "обращение к собеседнику, просьба",
+              "вежливая дистанция",
+              "Could you wait five minutes?"
+            ],
+            [
+              "главная часть предложения в прошедшем",
+              "прошлое по соседству",
+              "She said she could come"
+            ],
+            [
+              "выдуманное условие с if",
+              "возможность в нереальном",
+              "If I had a car, I could drive you"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть и пятая роль — догадка. **She could be at home by now** значит не «она смогла бы», а «вполне возможно, она уже дома». Это второй этаж, тот самый, о котором мы говорили во вводной; у него будет отдельная микротема про уверенность, где `could` встанет в один ряд с `may`, `might` и `must`."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому к `could` полезно относиться не как к «прошедшему времени от can», а как к отдельному слову с собственным набором работ. Самая частая ошибка русскоязычного здесь — перевести любой `could` словами «мог, умел» и потерять смысл: в **Could you wait?** никакого «мог» нет вовсе."
+        },
+        {
+          "type": "paragraph",
+          "text": "Умение и вежливость разобраны. Дальше берём соседнюю пару значений — разрешение и запрет: что делать, когда нужно спросить «можно?» и ответить «нельзя»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`can` — умение, возможность и разрешение; `could` — его прошедшая форма, у которой несколько собственных работ."
+        },
+        {
+          "type": "heading",
+          "text": "can или might"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Свойство места и вещей → `can`: **Winters can be cold in Warsaw**",
+            "Один конкретный случай → `might`: **It might snow tonight**",
+            "**It can rain tomorrow** ✗ → **It might rain tomorrow** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Четыре роли could"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что рядом",
+            "Роль"
+          ],
+          "rows": [
+            [
+              "детство, прежние годы",
+              "прошлое умение: **Ben could play chess at six**"
+            ],
+            [
+              "просьба к собеседнику",
+              "вежливость: **Could you wait?**"
+            ],
+            [
+              "главная часть в прошедшем",
+              "прошлое по соседству: **She said she could come**"
+            ],
+            [
+              "выдуманное условие с if",
+              "нереальная возможность: **If I had a car, I could drive you**"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шкала просьбы"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Can you wait?** → **Could you wait?** → **Do you think you could wait?** → **I was wondering if you could wait.**"
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Could you sending me the file?** ✗ → **Could you send me the file?** ✓ — после модального базовая форма",
+            "**Could you wait? — Yes, I could** ✗ → **Sure** ✓ · **Of course** ✓",
+            "Переводить каждый `could` словом «мог»: в просьбе никакого «мог» нет"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я отправил Вере адрес, чтобы она нашла кафе.",
+          "en": "I sent Vera the address so that she could find the café."
+        },
+        {
+          "ru": "Она сказала, что сможет прийти.",
+          "en": "She said she could come."
+        },
+        {
+          "ru": "Будь у меня больше времени, я бы тебе помог.",
+          "en": "If I had more time, I could help you."
+        },
+        {
+          "ru": "Вполне возможно, Меган уже дома.",
+          "en": "Megan could be at home by now."
+        },
+        {
+          "ru": "Мы закрыли окно, чтобы кот не сбежал.",
+          "en": "We closed the window so that the cat couldn't get out."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить could-просьбу от could-прошлого?",
+        "Почему в She said she could come стоит прошедшая форма?",
+        "Можно ли всегда говорить could вместо can, чтобы звучать вежливо?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1192,6 +1759,60 @@
       "exerciseType": "REVERSE_CHOICE",
       "exerciseId": 106,
       "orderInCard": 2
+    },
+    {
+      "cardId": 640,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 120,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 640,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 238,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 640,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 229,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 641,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 257,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 641,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 96,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 641,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 206,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 642,
+      "exerciseType": "MATCHING",
+      "exerciseId": 111,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 642,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 89,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 642,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 222,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1202,6 +1823,14 @@
       "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте в каждое нужную форму по подсказке в скобках.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card642_ex1",
+      "cardId": 642,
+      "title": "Попроси и предположи",
+      "userInstruction": "ИИ опишет по-русски одну ситуацию. Напишите по-английски фразу, которая в ней уместна.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -1227,6 +1856,14 @@
       "translation": "быть в состоянии, уметь, смочь",
       "transcription": "[biː ˈeɪbl tuː]",
       "microtopicId": 235,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 882,
+      "word": "could",
+      "translation": "мог, умел, мог бы (в просьбе)",
+      "transcription": "[kʊd]",
+      "microtopicId": 236,
       "categoryId": "useful_words"
     }
   ],
@@ -1286,9 +1923,60 @@
         }
       ],
       "explanation": "во втором предложении модальный получил чужое окончание — нужно He must leave. В четвёртом лишнее to: после can стоит голый глагол. В пятом предложении to на месте, потому что have — обычный глагол, а не модальный."
+    },
+    {
+      "id": 229,
+      "statements": [
+        {
+          "en": "Megan could swim well as a child.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It can snow here tomorrow night.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Summers can be very hot in Lisbon.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Tom cans speak Italian.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The train might be late today.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении речь про завтрашнюю ночь — один конкретный раз, нужен might. В четвёртом модальный получил чужое окончание: верно Tom can speak Italian. Остальные три собраны правильно."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 206,
+      "situationRu": "Ситуация: Игорь пишет коллеге, который сегодня завален работой, и просит проверить адрес.",
+      "correctSentence": "Do you think you could check the address?",
+      "words": [
+        "Do you think",
+        "you",
+        "could",
+        "check",
+        "the address"
+      ],
+      "distractors": [
+        "to check",
+        "checking",
+        "would",
+        "if"
+      ],
+      "explanation": "обёртка Do you think отодвигает просьбу ещё на шаг, а после could идёт голая базовая форма — ни to, ни -ing. Союз if тут лишний: он нужен в обороте I was wondering if you could, а после Do you think вторая половина идёт как обычное предложение."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 104,
@@ -1394,6 +2082,48 @@
         }
       ],
       "explanation": "was able to говорит о разовом достижении — справилась в этой конкретной ситуации. Про общее умение сказали бы could carry, а «могла бы» это уже could с оттенком возможности, а не факт."
+    },
+    {
+      "id": 238,
+      "choiceType": "CHOICE",
+      "prompt": "The sky is dark — it ___ rain before lunch.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "might",
+          "isCorrect": true
+        },
+        {
+          "text": "can",
+          "isCorrect": false
+        },
+        {
+          "text": "must",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "речь про ближайший час, то есть про один конкретный раз — здесь нужен might. Вариант can сообщал бы, какие тут вообще бывают дожди, а must прозвучал бы как уверенность, которой у говорящего нет."
+    },
+    {
+      "id": 257,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Ты просишь незнакомого человека в поезде поменяться с тобой местами.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Can you change seats with me?",
+          "isCorrect": false
+        },
+        {
+          "text": "Could you change seats with me?",
+          "isCorrect": true
+        },
+        {
+          "text": "You can change seats with me.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "с незнакомым человеком просьбу отодвигают на шаг — отсюда could. Прямое can прозвучало бы напористо, а третий вариант вообще не просьба: это разрешение, которое вы почему-то выдаёте сами."
     }
   ],
   "text_input_exercises": [
@@ -1421,6 +2151,31 @@
       ],
       "explanation": "частица not прилипает к самому модальному и обычно пишется кратко: can't, shouldn't, mustn't. Смысловой глагол при этом остаётся в базовой форме.",
       "taskDescription": "Впиши модальный глагол в отрицательной форме по подсказке в скобках."
+    },
+    {
+      "id": 120,
+      "items": [
+        {
+          "sentence": "Mountain roads ___ be very narrow here.",
+          "contextRu": "",
+          "answer": "can",
+          "alternatives": []
+        },
+        {
+          "sentence": "Take an umbrella — it ___ rain this evening.",
+          "contextRu": "",
+          "answer": "might",
+          "alternatives": []
+        },
+        {
+          "sentence": "Emma isn't answering — she ___ be at the gym.",
+          "contextRu": "",
+          "answer": "might",
+          "alternatives": []
+        }
+      ],
+      "explanation": "в первом предложении речь о свойстве здешних дорог — такие они тут вообще, поэтому can. Во втором и третьем говорящий предполагает про один конкретный момент, сегодняшний вечер и прямо сейчас, — там нужен might.",
+      "taskDescription": "Впиши в каждый пропуск can или might."
     }
   ],
   "dialog_restore_exercises": [
@@ -1455,6 +2210,38 @@
         }
       ],
       "explanation": "«не обязан» — это don't have to. Вариант с don't must собран неверно: помощник рядом с модальным не ставится. А No, you mustn't значило бы «нельзя», и продолжение про удостоверение к такому ответу не подошло бы."
+    },
+    {
+      "id": 96,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "___"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. Give me two minutes."
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks, I know you're busy."
+        }
+      ],
+      "options": [
+        {
+          "text": "You could send me the file.",
+          "isCorrect": false
+        },
+        {
+          "text": "Could you sending me the file?",
+          "isCorrect": false
+        },
+        {
+          "text": "Could you send me the file?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после could стоит голая базовая форма, поэтому вариант с sending собран неверно. А You could send… — не просьба, а мягкое предложение, и ответ «конечно, две минуты» к нему не подошёл бы."
     }
   ],
   "matching_exercises": [
@@ -1484,6 +2271,29 @@
         }
       ],
       "explanation": "действие во всех пяти фразах называет второй глагол, а первое слово добавляет к нему оценку — умение, обязанность, вероятность или вежливость."
+    },
+    {
+      "id": 111,
+      "taskDescription": "соедини предложение с тем, что в нём значит could.",
+      "pairs": [
+        {
+          "left": "Lucy could read at four",
+          "right": "прошлое умение"
+        },
+        {
+          "left": "Could you close the door?",
+          "right": "вежливая просьба"
+        },
+        {
+          "left": "Ben said he could help",
+          "right": "пересказ чужих слов"
+        },
+        {
+          "left": "If I had a car, I could drive you",
+          "right": "нереальная возможность"
+        }
+      ],
+      "explanation": "форма во всех четырёх одна и та же — роль подсказывают соседи: рассказ о детстве, обращение к человеку, глагол said рядом или выдуманное условие с if."
     }
   ],
   "error_correction_exercises": [
@@ -1505,6 +2315,25 @@
         }
       ],
       "explanation": "после модального стоит голая базовая форма — ни to, ни окончания. Частица to метит второй глагол в предложении, а must сам служебный, поэтому call здесь первый и единственный глагол."
+    },
+    {
+      "id": 222,
+      "wrongSentence": "When I was a child, I could to ride a horse.",
+      "options": [
+        {
+          "text": "When I was a child, I could rode a horse.",
+          "isCorrect": false
+        },
+        {
+          "text": "When I was a child, I could riding a horse.",
+          "isCorrect": false
+        },
+        {
+          "text": "When I was a child, I could ride a horse.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "could остаётся модальным и держит справа голую базовую форму — ни to, ни окончания, ни -ing. Прошедшее время здесь уже сообщает сам could."
     }
   ],
   "construction_meaning_exercises": [
@@ -1530,6 +2359,29 @@
         }
       ],
       "explanation": "should тоже работает на двух этажах, и справа здесь стоит be плюс место — значит, перед нами ожидание говорящего, а не совет и не обязанность. Совет выглядел бы как He should stay at home."
+    },
+    {
+      "id": 89,
+      "construction": "We left early so that we could catch the last bus.",
+      "options": [
+        {
+          "text": "Мы ушли пораньше, чтобы успеть на последний автобус.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мы ушли пораньше, но на последний автобус не успели.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мы могли бы уйти пораньше и успеть на последний автобус.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мы ушли пораньше, потому что успели на последний автобус.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "so that вводит цель, а could стоит в прошедшем просто вслед за главной частью с left. О том, получилось ли, фраза не сообщает, и никакого «могли бы» в ней нет."
     }
   ],
   "transformation_exercises": [
