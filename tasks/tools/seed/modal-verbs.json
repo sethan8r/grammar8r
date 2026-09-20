@@ -60,6 +60,13 @@
       "title": "Will / Would · Воля, обещание и вежливость",
       "order": 7,
       "searchKeywords": "won't значит отказ, will или would, would you mind что значит, будущее из прошлого, would или used to, дверь не открывается по-английски"
+    },
+    {
+      "id": 241,
+      "topicId": 37,
+      "title": "Certainty · Второй этаж: наверняка, вряд ли, может быть",
+      "order": 8,
+      "searchKeywords": "наверное по-английски, can't be или mustn't, might not или can't, must be sleeping, may not запрет или возможно, might as well что значит"
     }
   ],
   "grammar_cards": [
@@ -4149,6 +4156,765 @@
         "Чем would отличается от used to, если оба про прошлое?",
         "Почему would не работает без «когда я был маленьким»?"
       ]
+    },
+    {
+      "id": 655,
+      "microtopicId": 241,
+      "title": "Шкала уверенности: must, should, may, might, could, can't",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Этаж догадки мы открыли ещё в начале темы, но пользовались пока только его краями: **He must be tired** — уверен, **That can't be true** — уверен, что нет. Между этими краями лежит целая лестница, и русский обычно о ней даже не подозревает."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот она целиком. Ситуация одна: Ник не берёт трубку, и мы гадаем, где он."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "На что опирается говорящий"
+          ],
+          "rows": [
+            [
+              "He must be at work.",
+              "вижу улику и делаю вывод: его машины нет у дома"
+            ],
+            [
+              "He should be at work.",
+              "так заведено: у него смена с девяти"
+            ],
+            [
+              "He may be at work.",
+              "одна из возможностей, не настаиваю"
+            ],
+            [
+              "He might be at work.",
+              "то же самое, чуть осторожнее"
+            ],
+            [
+              "He could be at work.",
+              "то же самое, ещё один из вариантов"
+            ],
+            [
+              "He can't be at work.",
+              "считаю это невозможным: сегодня выходной"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Это не проценты уверенности"
+        },
+        {
+          "type": "paragraph",
+          "text": "Соблазн велик: расставить ступеньки как деления на линейке — девяносто процентов, семьдесят, пятьдесят. Так делать не стоит, и вот почему: носители и сами спорят, что увереннее — `may` или `might`, а `could` стоит рядом с обоими. Ступеньки различаются не силой, а **опорой**. `must` стоит на улике, которую говорящий видит своими глазами. `should` — на заведённом порядке. `may`, `might` и `could` ни на чём не настаивают и просто называют вариант. `can't` — вывод от обратного."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разницу `must` и `should` мы уже нащупали в карточке про ожидание: **Sara must be at the office** — её машина у входа; **Sara should be at the office** — рабочий день с девяти."
+        },
+        {
+          "type": "heading",
+          "text": "will тоже умеет гадать — и это не про будущее"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот роль, которую русский опознаёт хуже всего:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**That'll be the postman.** — в дверь позвонили: «это, наверное, почтальон»;",
+            "**Don't call him now, he'll be at work.** — «он сейчас наверняка на работе»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Будущего здесь нет ни грамма: говорящий уверен в том, что происходит прямо сейчас. Такое `will` звучит спокойно и уверенно, примерно как `must be`, и в бытовой речи его очень любят."
+        },
+        {
+          "type": "heading",
+          "text": "Русский прячет догадку в наречие, английский — в глагол"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот корень всех промахов на этом этаже. Мы говорим «наверное», «вряд ли», «точно», «может быть» — а глагол при этом оставляем обычным. Рука сама собирает то же самое по-английски:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Maybe he is at work** — понятно и не ошибка, но звучит по-ученически;",
+            "**He must be at work** — так скажет носитель."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Англичанин не приделывает к фразе наречие, а меняет сам глагол: догадка живёт внутри модального. Поэтому в английской речи так мало «наверное» — оно уже сидит в `must`, `might` и `should`."
+        },
+        {
+          "type": "heading",
+          "text": "Слова уверенности рядом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обычные слова с этой лестницы никуда не делись, просто работают они вместе с ней, а не вместо неё:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm certain he's at work.** — «я уверен»: говорящий ручается;",
+            "**It's likely he's at work.** — «скорее всего»; слово `likely` нам попадалось, когда мы сравнивали `will` и `going to`."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Гадаем вслух"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Lily",
+              "text": "Nick isn't answering. Where is he?"
+            },
+            {
+              "speaker": "Me",
+              "text": "His car isn't outside, so he must be at work."
+            },
+            {
+              "speaker": "Lily",
+              "text": "On a Saturday?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Then he might be at the gym. He can't be asleep at noon."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Лестницу собрали. Но у каждой её ступеньки есть отрицание, и вот там русского поджидают сразу три ловушки — этим займёмся в следующей карточке."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Догадка по-английски живёт не в наречии, а в самом модальном: не **Maybe he is at work**, а **He must be at work**."
+        },
+        {
+          "type": "heading",
+          "text": "Лестница"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must be at work** — вывод из улики, которую вижу",
+            "**He should be at work** — то, чего разумно ждать: расписание, норма, порядок вещей",
+            "**He may / might / could be at work** — одна из возможностей, без нажима",
+            "**He can't be at work** — считаю невозможным"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Это не проценты"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ступеньки различаются опорой, а не силой: `must` стоит на улике, `should` — на заведённом порядке",
+            "`may`, `might` и `could` в живой речи почти равны"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "will тоже гадает"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**That'll be the postman** · **He'll be at work now** — речь про сейчас, не про будущее"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must to be at work** ✗ → **He must be at work** ✓",
+            "**He must is at work** ✗ → **He must be at work** ✓ — после модального связка голая"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ник наверняка на работе — его машины нет у дома.",
+          "en": "Nick must be at work — his car isn't at home."
+        },
+        {
+          "ru": "Ник, по идее, на работе: у него смена с девяти.",
+          "en": "Nick should be at work: his shift starts at nine."
+        },
+        {
+          "ru": "Ник, возможно, на работе.",
+          "en": "Nick might be at work."
+        },
+        {
+          "ru": "Ника не может быть на работе — сегодня выходной.",
+          "en": "Nick can't be at work — it's a day off today."
+        },
+        {
+          "ru": "Это, наверное, почтальон.",
+          "en": "That'll be the postman."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем must be отличается от should be?",
+        "Почему Maybe he is at work звучит по-ученически?",
+        "Как понять, что will не про будущее?"
+      ]
+    },
+    {
+      "id": 656,
+      "microtopicId": 241,
+      "title": "Отрицание догадки: can't be, might not, shouldn't be — и при чём тут mustn't",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "На первом этаже отрицание собиралось просто: `must` давал `mustn't`, `can` давал `can't`. На этаже догадки всё устроено иначе, и здесь русского поджидают три ловушки подряд."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание к must be — это can't be"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая дорогая ошибка микротемы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must be tired.** — наверняка устал;",
+            "**He can't be tired.** ✓ — не может быть, чтобы он устал."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А фразу **He mustn't be tired** в этом смысле просто не говорят."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Mustn't` не сломан и не запрещён — он живёт этажом ниже. **You mustn't tell anyone** ✓ — это запрет, «нельзя говорить». **It can't be true** ✓ — это вывод, «не может быть правдой». Слово одно, этажа два, и отрицания у этажей разные: у поступка — `mustn't`, у догадки — `can't`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "might not и can't — отрицание попадает в разные места"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая ловушка тоньше и обиднее: по-русски обе фразы хочется сказать одинаково — «он не может прийти»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He might not come.** — возможно, не придёт: отрицание попало в само событие, а возможность цела;",
+            "**He can't come.** — прийти он не может: отрицание попало в возможность, и события не будет вовсе."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница в жизни огромная: в первом случае человека ещё ждут, во втором уже нет."
+        },
+        {
+          "type": "heading",
+          "text": "may not читается двумя способами"
+        },
+        {
+          "type": "paragraph",
+          "text": "Третья ловушка нам была обещана ещё в разрешении и запрете. `may not` — это и запрет, и догадка, а различает их обстановка:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Passengers may not smoke on board.** — табличка, правило: нельзя;",
+            "**He may not come tonight.** — разговор о человеке: возможно, не придёт."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило простое: в объявлении и в инструкции — запрет, в живом разговоре о ком-то — предположение."
+        },
+        {
+          "type": "heading",
+          "text": "Четвёртая ступенька: shouldn't be"
+        },
+        {
+          "type": "paragraph",
+          "text": "`should` на этаже догадки мы уже разбирали — это ожидание. Его отрицание ведёт себя так же:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The train shouldn't be late.** — по идее не должен опоздать;",
+            "**The train can't be late.** — опоздать он не может."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первое допускает осечку, второе — нет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Соберём весь этаж в одну таблицу:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Что сообщает"
+          ],
+          "rows": [
+            [
+              "can't be",
+              "считаю невозможным"
+            ],
+            [
+              "might not be / may not be",
+              "возможно, что нет"
+            ],
+            [
+              "shouldn't be",
+              "не ожидается, но случиться может"
+            ],
+            [
+              "mustn't",
+              "сюда не ходит вовсе: это запрет с первого этажа"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицания разложены. Дальше — как сказать догадку про то, что происходит прямо в эту минуту."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Отрицание к **He must be tired** — это **He can't be tired**. Формы **He mustn't be tired** в этом смысле нет."
+        },
+        {
+          "type": "heading",
+          "text": "Весь набор"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**can't be** — считаю невозможным",
+            "**might not be** / **may not be** — возможно, что нет",
+            "**shouldn't be** — не ожидается, но случиться может",
+            "**mustn't** — запрет с первого этажа, на этаже догадки не встречается"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He might not come** — возможно, не придёт (отрицание в событии) · **He can't come** — прийти не может (отрицание в самой возможности)",
+            "**Passengers may not smoke** — запрет на табличке · **He may not come tonight** — возможно, не придёт",
+            "**The train shouldn't be late** — по идее не должен · **The train can't be late** — опоздать не может"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He mustn't be tired** ✗ в значении «не может быть, что он устал» → **He can't be tired** ✓",
+            "**He doesn't can be right** ✗ → **He can't be right** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Не может быть, чтобы Ник устал — он спал весь день.",
+          "en": "Nick can't be tired — he slept all day."
+        },
+        {
+          "ru": "Эту дверь нельзя оставлять открытой.",
+          "en": "You mustn't leave this door open."
+        },
+        {
+          "ru": "Возможно, Оля сегодня не придёт.",
+          "en": "Olya might not come tonight."
+        },
+        {
+          "ru": "Пассажирам запрещено курить на борту.",
+          "en": "Passengers may not smoke on board."
+        },
+        {
+          "ru": "По идее, поезд не должен опоздать.",
+          "en": "The train shouldn't be late."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему отрицание к must be — это can't be?",
+        "Чем He might not come отличается от He can't come?",
+        "Как понять, что may not в предложении — запрет?"
+      ]
+    },
+    {
+      "id": 657,
+      "microtopicId": 241,
+      "title": "Догадка про «прямо сейчас»: модальный + be + -ing",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор наши догадки были про состояние: устал, дома, на работе. А как догадаться о том, что человек делает прямо в эту минуту?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ответ уже лежит в каркасе, который мы рисовали в карточке про форму: после модального всегда стоит базовая форма, и если это `be`, то за ним идёт обычный Continuous."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Модальный + be + глагол с -ing"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must be sleeping.** — наверняка спит: свет у него не горит;",
+            "**She might be working.** — может быть, работает;",
+            "**They can't be waiting outside.** — не может быть, чтобы они ждали на улице."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Новое здесь ровно одно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuous мы собирали десятки раз: **He is sleeping**, **She was working**. Рядом с модальным меняется единственная деталь — связка становится **голой**: не `is`, не `was`, а просто `be`. Всё остальное на месте."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He is sleeping** → **He must be sleeping**;",
+            "**She is working** → **She might be working**."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рядом — догадка о признаке"
+        },
+        {
+          "type": "paragraph",
+          "text": "Той же сборкой говорят не только о действии, но и о свойстве, состоянии или роли:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**That must be hard.** — тебе, наверное, тяжело;",
+            "**She can't be serious.** — да не может быть, чтобы она всерьёз;",
+            "**It might be a mistake.** — возможно, это ошибка."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Справа от `be` может стоять что угодно — прилагательное, существительное, место."
+        },
+        {
+          "type": "heading",
+          "text": "Почему русский сюда не доходит сам"
+        },
+        {
+          "type": "paragraph",
+          "text": "У нас «наверное, он спит» — это наречие плюс обычный глагол, и «прямо сейчас» уже сидит внутри русского «спит». По-английски ту же мысль приходится собрать из трёх частей: модальный берёт на себя догадку, `be` держит конструкцию, `-ing` сообщает, что действие идёт. Лишнего в этой сборке нет — просто она длиннее русской."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Обе половины обязаны стоять на месте. **He must sleeping** ✗ — потерялась связка; **He must be sleep** ✗ — потерялось окончание. Верно только **He must be sleeping** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Осталось разобраться с оттенками внутри «может быть» — этим займёмся в последней карточке."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Догадка о том, что идёт прямо сейчас, собирается по схеме `модальный + be + глагол с -ing`: **He must be sleeping** · **She might be working** · **They can't be waiting outside**."
+        },
+        {
+          "type": "heading",
+          "text": "Что меняется против обычного Continuous"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Личная связка уступает место голой: **He is sleeping** → **He must be sleeping**",
+            "Всё остальное остаётся как было"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Та же сборка с признаком"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**That must be hard** · **She can't be serious** · **It might be a mistake**",
+            "Справа от `be` может стоять прилагательное, существительное или место"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must sleeping** ✗ → **He must be sleeping** ✓ — потеряна связка",
+            "**He must be sleep** ✗ → **He must be sleeping** ✓ — потеряно окончание",
+            "**She must is cooking** ✗ → **She must be cooking** ✓ — связка после модального голая"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Он наверняка спит — свет не горит.",
+          "en": "He must be sleeping — the lights are off."
+        },
+        {
+          "ru": "Она, может быть, сейчас работает.",
+          "en": "She might be working now."
+        },
+        {
+          "ru": "Не может быть, чтобы они ждали на улице.",
+          "en": "They can't be waiting outside."
+        },
+        {
+          "ru": "Тебе, наверное, тяжело.",
+          "en": "That must be hard for you."
+        },
+        {
+          "ru": "Возможно, это ошибка.",
+          "en": "It might be a mistake."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после модального стоит be, а не is?",
+        "Чем He must be sleeping отличается от He must sleep?",
+        "Можно ли так сказать про то, что происходит не сейчас?"
+      ]
+    },
+    {
+      "id": 658,
+      "microtopicId": 241,
+      "title": "may, might, could — оттенки и застывшие обороты",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В шкале уверенности три слова стояли на одной ступеньке — `may`, `might` и `could`. Разберёмся, чем они всё-таки отличаются, и сразу скажем главное: почти ничем."
+        },
+        {
+          "type": "heading",
+          "text": "Честный ответ про may и might"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда-то `might` был прошедшей формой `may`, и в учебниках до сих пор пишут, что `might` менее уверен. В живой речи эта разница почти стёрлась: **He may be at home** и **He might be at home** значат практически одно. Ориентир такой: `might` звучит чуть осторожнее и чаще попадается в разговоре, `may` — суше и формальнее. Мучиться выбором между ними не стоит."
+        },
+        {
+          "type": "paragraph",
+          "text": "`could` в этом ряду — ещё один способ назвать возможность: **It could be true**. От `might` он отличается только оттенком «вполне может оказаться»."
+        },
+        {
+          "type": "heading",
+          "text": "Прогноз: знакомая шкала"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Погода» нам уже попадалось **It might rain** — тогда мы взяли его готовым. Теперь видно, куда оно встаёт:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's going to rain.** — вижу тучи, дело решённое;",
+            "**It'll rain.** — уверенно предсказываю;",
+            "**It might rain.** — может быть, а может и нет."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И напомним форму: после `might` идёт голый глагол, а по лицам модальный не меняется — **it might rain**, **they might come**, никаких лишних окончаний."
+        },
+        {
+          "type": "heading",
+          "text": "might as well — «да ладно, всё равно»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Готовый оборот, который часто слышно и который сам не соберёшь:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The bus isn't coming. We might as well walk.** — «автобуса нет, пойдём уж пешком»;",
+            "**We're already late, so we might as well have a coffee.** — «раз уж опоздали, выпьем кофе»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл такой: вариант не блестящий, но раз всё равно так вышло — почему нет. `may as well` значит то же самое, только чуть формальнее."
+        },
+        {
+          "type": "heading",
+          "text": "may в уступке"
+        },
+        {
+          "type": "paragraph",
+          "text": "Последнее, на узнавание: **He may be young, but he knows his job** — «пусть он и молод, но дело своё знает». Здесь `may` не гадает, а уступает собеседнику половину спора, чтобы тут же возразить. Самому так говорить не обязательно, а вот встретить придётся."
+        },
+        {
+          "type": "paragraph",
+          "text": "Весь этаж догадки про настоящее у нас в руках. Дальше — та же шкала, сдвинутая в прошлое: как сказать «наверное, забыл» и «не может быть, чтобы он такое сказал»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`may`, `might` и `could` стоят на одной ступеньке и называют возможность. `might` чуть осторожнее и разговорнее, `may` суше и формальнее, `could` — «вполне может оказаться»."
+        },
+        {
+          "type": "heading",
+          "text": "Лестница целиком"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must be at work** — вывод из улики · **He should be at work** — по порядку вещей",
+            "**He may / might / could be at work** — одна из возможностей · **He can't be at work** — невозможно"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Прогноз"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's going to rain** (вижу тучи) → **It'll rain** (уверен) → **It might rain** (может быть)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Готовые обороты"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We might as well walk** — «раз уж так, пойдём пешком»; `may as well` то же самое, формальнее",
+            "**He may be young, but he knows his job** — уступка: «пусть и молод, но»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It mights rain** ✗ → **It might rain** ✓ — окончаний по лицам у модального нет",
+            "**It might to rain** ✗ → **It might rain** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ключи вполне могут быть в твоей сумке.",
+          "en": "The keys could be in your bag."
+        },
+        {
+          "ru": "Вечером, может быть, пойдёт дождь.",
+          "en": "It might rain in the evening."
+        },
+        {
+          "ru": "Автобуса нет — пойдём уж пешком.",
+          "en": "The bus isn't coming. We might as well walk."
+        },
+        {
+          "ru": "Раз уж мы опоздали, выпьем кофе.",
+          "en": "We're already late, so we might as well have a coffee."
+        },
+        {
+          "ru": "Пусть он и молод, но дело своё знает.",
+          "en": "He may be young, but he knows his job."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем may отличается от might на самом деле?",
+        "Что значит We might as well walk?",
+        "Почему в He may be young, but… нет никакой догадки?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4541,6 +5307,78 @@
       "exerciseType": "TEXT_INPUT",
       "exerciseId": 122,
       "orderInCard": 2
+    },
+    {
+      "cardId": 655,
+      "exerciseType": "MATCHING",
+      "exerciseId": 114,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 655,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 263,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 655,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 94,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 656,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 109,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 656,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 226,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 656,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 48,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 657,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 211,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 657,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 234,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 657,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 104,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 658,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 241,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 658,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 101,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 658,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 125,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -4623,6 +5461,30 @@
       "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте подходящую по смыслу форму.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card655_ex1",
+      "cardId": 655,
+      "title": "Насколько он уверен",
+      "userInstruction": "ИИ пришлёт одно английское предложение. Напишите по-русски, что оно значит и насколько говорящий в этом уверен.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card656_ex1",
+      "cardId": 656,
+      "title": "Отрицай догадку",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте подходящую по смыслу форму.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card658_ex1",
+      "cardId": 658,
+      "title": "Сделай вывод по улике",
+      "userInstruction": "ИИ опишет по-русски ситуацию. Напишите по-английски свою догадку о том, что происходит.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -4737,6 +5599,22 @@
       "transcription": "[biː ˈwɪlɪŋ tuː]",
       "microtopicId": 240,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 893,
+      "word": "might",
+      "translation": "может быть, возможно",
+      "transcription": "[maɪt]",
+      "microtopicId": 241,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 894,
+      "word": "certain",
+      "translation": "уверенный, несомненный",
+      "transcription": "[ˈsɜːtn]",
+      "microtopicId": 241,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [
@@ -4808,6 +5686,29 @@
         }
       ],
       "explanation": "мягкость даёт одно и то же движение — шаг назад к прошедшей форме: **can** становится **could**, **will** становится **would**. Смысл просьбы не меняется, и речь по-прежнему идёт про сейчас."
+    },
+    {
+      "id": 48,
+      "taskDescription": "впиши отрицание для каждой догадки.",
+      "rows": [
+        {
+          "hint": "The keys must be in the car",
+          "answer": "The keys can't be in the car"
+        },
+        {
+          "hint": "It must be Sunday today",
+          "answer": "It can't be Sunday today"
+        },
+        {
+          "hint": "The shop should be open",
+          "answer": "The shop shouldn't be open"
+        },
+        {
+          "hint": "Lena may be asleep",
+          "answer": "Lena may not be asleep"
+        }
+      ],
+      "explanation": "у вывода отрицанием служит **can't**, а не **mustn't** — тот остался на этаже запрета. Ожидание и возможность отрицают себя сами: **shouldn't** и **may not**."
     }
   ],
   "true_false_exercises": [
@@ -4996,6 +5897,37 @@
         }
       ],
       "explanation": "во втором предложении **would** взялся за прошлое состояние, а он рассказывает только о повторявшихся действиях: верно **I used to have a bike**. В четвёртом первый глагол стоит в прошлом, значит, и будущее из той точки идёт через **would**: верно **the parcel would arrive**. Остальные три собраны правильно."
+    },
+    {
+      "id": 234,
+      "statements": [
+        {
+          "en": "Lena must be working late again.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The kids can't be sleeping already.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He might be sleep at this hour.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "This must be your first time here.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She must is cooking dinner.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "в третьем предложении потерялось окончание: верно **might be sleeping**. В пятом рядом с модальным появилась личная форма связки — верно **must be cooking**. Остальные три собраны правильно."
     }
   ],
   "word_arrangement_exercises": [
@@ -5091,6 +6023,25 @@
         "isn't"
       ],
       "explanation": "воля вещи уже сидит внутри **won't**, поэтому отдельное **doesn't want** здесь лишнее. После модального стоит голый глагол, а значит, и **to** перед ним не нужна."
+    },
+    {
+      "id": 211,
+      "situationRu": "Ситуация: Дениса нет на месте, а куртка висит на стуле — Соня предполагает, что он обедает.",
+      "correctSentence": "He must be having lunch.",
+      "words": [
+        "He",
+        "must",
+        "be",
+        "having",
+        "lunch"
+      ],
+      "distractors": [
+        "is",
+        "to be",
+        "have",
+        "been"
+      ],
+      "explanation": "после модального стоит голая связка **be**, а действие держит форма на **-ing**. Ни **is**, ни **to be** рядом с модальным не встают, а **have** и **been** собрали бы совсем другую конструкцию."
     }
   ],
   "multiple_choice_exercises": [
@@ -5429,6 +6380,69 @@
         }
       ],
       "explanation": "глагол **promised** уже отправил нас в прошлое, поэтому будущее из той точки передаёт **would**. Форма **will** осталась бы в настоящем, а после модального стоит голая базовая форма — **brought** сюда не встаёт."
+    },
+    {
+      "id": 263,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вы звоните Кате, а в трубке долгие гудки. Вы знаете, что по вторникам у неё до восьми бассейн, и говорите другу, где она сейчас.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "She should be at the pool.",
+          "isCorrect": true
+        },
+        {
+          "text": "She can't be at the pool.",
+          "isCorrect": false
+        },
+        {
+          "text": "She may not be at the pool.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "опора здесь — расписание, заведённый порядок, и держит его **should**. Вариант с **can't be** сказал бы, что в бассейне её точно нет, а **may not be** — что её там, возможно, нет."
+    },
+    {
+      "id": 109,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Sam might not finish the report today.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Сэму нельзя дописывать отчёт сегодня.",
+          "isCorrect": false
+        },
+        {
+          "text": "Возможно, Сэм сегодня не допишет отчёт.",
+          "isCorrect": true
+        },
+        {
+          "text": "Сэм никак не сможет дописать отчёт сегодня.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "отрицание здесь попало в само событие: возможность дописать цела, просто говорящий допускает, что Сэм не успеет. «Никак не сможет» прозвучало бы как **can't finish**, а запрета в предложении нет вовсе."
+    },
+    {
+      "id": 241,
+      "choiceType": "CHOICE",
+      "prompt": "The last train has gone. We ___ as well take a taxi.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "might",
+          "isCorrect": true
+        },
+        {
+          "text": "must",
+          "isCorrect": false
+        },
+        {
+          "text": "should",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "устойчивый оборот собирается только с **might** или **may**: «раз уж так вышло, возьмём такси». Ни **must**, ни **should** в него не встают."
     }
   ],
   "text_input_exercises": [
@@ -5735,6 +6749,38 @@
         }
       ],
       "explanation": "вопрос спрашивает о возражении, поэтому согласие звучит как отрицание: **Of course not**, **Not at all**, **No problem**. Ответ с **Yes** означал бы, что человек возражает, и благодарность к нему уже не подошла бы."
+    },
+    {
+      "id": 101,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Where's Megan? Her coat is still here."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Good idea, I'll check the meeting room."
+        }
+      ],
+      "options": [
+        {
+          "text": "She can't be in the building.",
+          "isCorrect": false
+        },
+        {
+          "text": "She might be talking to a client.",
+          "isCorrect": true
+        },
+        {
+          "text": "She must be at home by now.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "ответ A показывает, что Меган стоит поискать в здании, — значит, B назвал одну из возможностей. Первый вариант отрицал бы её присутствие, а третий отправлял бы её домой."
     }
   ],
   "matching_exercises": [
@@ -5841,6 +6887,33 @@
         }
       ],
       "explanation": "три первые строки — один и тот же **should** в разных формах: утверждение советует, вопрос просит совета, отрицательный вопрос мягко предлагает. **had better** обещает неприятности, если не послушаться, а **ought to** говорит то же, что **should**, только формальнее."
+    },
+    {
+      "id": 114,
+      "taskDescription": "соедини догадку с тем, на что опирается говорящий.",
+      "pairs": [
+        {
+          "left": "Tom must be at the gym",
+          "right": "вижу улику: его кроссовок нет"
+        },
+        {
+          "left": "Tom should be at the gym",
+          "right": "знаю его расписание"
+        },
+        {
+          "left": "Tom might be at the gym",
+          "right": "просто один из вариантов"
+        },
+        {
+          "left": "Tom can't be at the gym",
+          "right": "считаю это невозможным"
+        },
+        {
+          "left": "That'll be Tom at the door",
+          "right": "уверен, кто там прямо сейчас"
+        }
+      ],
+      "explanation": "ступеньки различаются не силой уверенности, а опорой: **must** стоит на улике, **should** — на заведённом порядке, **might** ни на чём не настаивает, **can't** отрицает саму возможность. А **will** в последней строке уверенно гадает о том, что происходит сию минуту."
     }
   ],
   "error_correction_exercises": [
@@ -5938,6 +7011,25 @@
         }
       ],
       "explanation": "у связки **be willing to** частица **to** на месте всегда, а собирается она через **to be** — помощник **do** ей не нужен."
+    },
+    {
+      "id": 226,
+      "wrongSentence": "She mustn't be at home — all the lights are off.",
+      "options": [
+        {
+          "text": "She doesn't can be at home — all the lights are off.",
+          "isCorrect": false
+        },
+        {
+          "text": "She can't to be at home — all the lights are off.",
+          "isCorrect": false
+        },
+        {
+          "text": "She can't be at home — all the lights are off.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "свет не горит — значит, говорящий делает вывод, а вывод «не может быть» передаёт **can't**. Форма **mustn't** запрещала бы ей быть дома. Помощник **do** рядом с модальным не ставится, а частица **to** после него не нужна."
     }
   ],
   "construction_meaning_exercises": [
@@ -6078,6 +7170,29 @@
         }
       ],
       "explanation": "**would** здесь не вежливость и не «бы»: глагол **knew** ставит нас в прошлое, а **would** держит то, что на тот момент ещё только предстояло. Задержка случилась позже, чем момент, о котором идёт речь."
+    },
+    {
+      "id": 94,
+      "construction": "Don't worry, she'll be at home by now.",
+      "options": [
+        {
+          "text": "Не волнуйся, она будет дома к этому времени.",
+          "isCorrect": false
+        },
+        {
+          "text": "Не волнуйся, она сейчас наверняка уже дома.",
+          "isCorrect": true
+        },
+        {
+          "text": "Не волнуйся, ей придётся пойти домой.",
+          "isCorrect": false
+        },
+        {
+          "text": "Не волнуйся, она может оказаться дома.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**will** здесь не про будущее: говорящий уверенно догадывается о том, что происходит прямо сейчас, — ровно как сказал бы **she must be at home**."
     }
   ],
   "transformation_exercises": [
@@ -6137,6 +7252,25 @@
         }
       ],
       "explanation": "назад уезжают оба глагола: первый получает прошедшую форму, а **will** превращается в **would**. Событие при этом остаётся впереди — на тот момент оно ещё не случилось."
+    },
+    {
+      "id": 104,
+      "taskDescription": "перепиши каждое предложение как уверенный вывод со словом must.",
+      "items": [
+        {
+          "original": "Oliver is waiting outside.",
+          "transformed": "Oliver must be waiting outside."
+        },
+        {
+          "original": "The kids are watching cartoons.",
+          "transformed": "The kids must be watching cartoons."
+        },
+        {
+          "original": "Sara is talking to her boss.",
+          "transformed": "Sara must be talking to her boss."
+        }
+      ],
+      "explanation": "уверенный вывод собирается тем же Continuous, только личная связка уступает место голой **be**: **is waiting** превращается в **must be waiting**. Лицо и число при этом перестают быть видны вовсе."
     }
   ],
   "categorization_exercises": [
@@ -6302,6 +7436,29 @@
         }
       ],
       "explanation": "в трёх предложениях **would** рассказывает о том, что повторялось раз за разом. В четвёртом речь о том, чего нет: это условие, и **would** держит в нём нереальное «взял бы»."
+    },
+    {
+      "id": 125,
+      "groupDescription": "Три предложения называют возможность, а одно выбивается",
+      "items": [
+        {
+          "text": "Nick might be stuck in traffic",
+          "isOdd": false
+        },
+        {
+          "text": "The letter could be in the top drawer",
+          "isOdd": false
+        },
+        {
+          "text": "You may not use your phone during the exam",
+          "isOdd": true
+        },
+        {
+          "text": "Ben may be working from home today",
+          "isOdd": false
+        }
+      ],
+      "explanation": "в трёх предложениях модальный называет одну из возможностей. В четвёртом речь о правиле экзамена: там **may not** значит запрет, а не догадку."
     }
   ]
 }
