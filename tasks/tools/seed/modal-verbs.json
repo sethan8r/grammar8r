@@ -53,6 +53,13 @@
       "title": "Should / Ought to · Совет — и ожидание",
       "order": 6,
       "searchKeywords": "как дать совет, should или must, ought to что значит, спросить совета по-английски, had better или should, should be что значит"
+    },
+    {
+      "id": 240,
+      "topicId": 37,
+      "title": "Will / Would · Воля, обещание и вежливость",
+      "order": 7,
+      "searchKeywords": "won't значит отказ, will или would, would you mind что значит, будущее из прошлого, would или used to, дверь не открывается по-английски"
     }
   ],
   "grammar_cards": [
@@ -3304,6 +3311,844 @@
         "Чем Sara must be at work отличается от Sara should be at work?",
         "Почему у ожидания так часто стоит be?"
       ]
+    },
+    {
+      "id": 651,
+      "microtopicId": 240,
+      "title": "will — это воля, а не только будущее",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В теме будущего `will` был для нас способом сказать о завтрашнем дне. Посмотрим на него как на модальный — и окажется, что будущее у него побочный эффект. Работа `will` — называть **волю**: желание, готовность, решимость. А раз человек решил, дело и правда случится позже, отсюда и будущее."
+        },
+        {
+          "type": "paragraph",
+          "text": "Знакомое **I'll help you** ровно про это: решение принято прямо сейчас, в момент речи. Мы называли такое спонтанным решением — вот его корень."
+        },
+        {
+          "type": "heading",
+          "text": "won't — это не «не будет», а «отказывается»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самая дорогая калька карточки. Русский видит `won't`, читает «не будет» и получает спокойное сообщение о будущем. Англичанин слышит упрямство:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He won't listen to anyone.** — никого не хочет слушать, упирается;",
+            "**She won't tell me what happened.** — не желает рассказывать, молчит;",
+            "**The kids won't go to bed.** — дети не идут спать, хоть плачь."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница совсем не тонкая. «Он не будет слушать» — это про завтра. **He won't listen** — это жалоба на то, что происходит прямо сейчас."
+        },
+        {
+          "type": "heading",
+          "text": "По-английски упрямятся и вещи"
+        },
+        {
+          "type": "paragraph",
+          "text": "А здесь у русского не просто другой оборот, а другой взгляд на мир. У нас техника «не работает» и «не открывается» — виноватого нет, всё происходит само собой. Английский отдаёт волю самой вещи:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The door won't open.** — дверь не поддаётся;",
+            "**The car won't start.** — машина не заводится;",
+            "**My laptop won't turn on.** — ноутбук не включается."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дословно это «дверь не желает открываться» — и в этом весь образ: вещь заупрямилась."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Корень темы звучал так — модальный называет отношение говорящего к действию. А дверь не говорящий, и поправку надо сделать честно: роль `will` — воля, а принадлежать она может тому, о ком речь, будь то человек или вещь. Корень при этом цел: модальный по-прежнему не называет действие, он называет отношение к нему — просто чужое."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Привычка, которая выводит из себя"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот же `will` в утверждении описывает характерное поведение — то, что человек делает «вечно»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He'll sit there for hours without saying a word.**",
+            "**She'll always ask the same question twice.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Будущего тут нет вовсе, речь про повадку. По-русски мы говорим «вечно он сидит там часами» — и раздражение слышно так же."
+        },
+        {
+          "type": "heading",
+          "text": "Will you…? — просьба, выросшая из воли"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если `will` спрашивает о воле, то вопрос **Will you close the door?** буквально значит «есть ли у тебя желание закрыть дверь». Отсюда и просьба — ничего нового учить не пришлось. Отрицательный вопрос **Won't you join us?** мы уже собирали: это то же самое, только теплее. Весь ряд вежливости соберём в следующей карточке."
+        },
+        {
+          "type": "heading",
+          "text": "Готовность обычными словами: be willing to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Там, где нужна та же воля, но в другом времени, язык берёт обычную связку `be willing to` — «готов»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She's willing to work weekends.** — готова выходить по выходным;",
+            "**They weren't willing to lower the price.** — не захотели сбавить цену."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Связка ведёт себя как все её родственники: держит `to` и живёт где угодно — ровно как `be able to` при `can`."
+        },
+        {
+          "type": "heading",
+          "text": "Как это звучит в разговоре"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Jack",
+              "text": "The printer won't work again."
+            },
+            {
+              "speaker": "Me",
+              "text": "It never does on Mondays. Will you call the service guy?"
+            },
+            {
+              "speaker": "Jack",
+              "text": "Sure. Are you willing to wait here until he comes?"
+            },
+            {
+              "speaker": "Me",
+              "text": "I'll wait. I have nothing else to do today."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Итак, `will` — про волю. Теперь отодвинем его на шаг назад, получим `would` — а вместе с ним всю английскую вежливость."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Работа `will` — называть волю: желание, готовность, решимость. Будущее у него побочный эффект: человек решил — значит, сделает."
+        },
+        {
+          "type": "heading",
+          "text": "won't — отказ, а не «не будет»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He won't listen** — отказывается слушать · **She won't tell me** — не хочет рассказывать",
+            "Вещи упрямятся наравне с людьми: **The door won't open** · **The car won't start**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Другие роли will"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Решение в момент речи: **I'll help you**",
+            "Характерная повадка: **He'll sit there for hours**",
+            "Просьба из вопроса о воле: **Will you close the door?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Готовность связкой"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She's willing to work weekends** · **They weren't willing to lower the price**",
+            "`be willing to` держит `to` и живёт во всех временах"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He won't listen** — отказывается слушать · **He won't be at home tomorrow** — просто про завтра"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The door doesn't want to open** ✗ → **The door won't open** ✓ — воля вещи уже внутри `won't`",
+            "**Is he willing help?** ✗ → **Is he willing to help?** ✓ — связка держит `to`"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Он никого не хочет слушать.",
+          "en": "He won't listen to anyone."
+        },
+        {
+          "ru": "Дверь не открывается.",
+          "en": "The door won't open."
+        },
+        {
+          "ru": "Я тебе помогу.",
+          "en": "I'll help you."
+        },
+        {
+          "ru": "Закроешь дверь?",
+          "en": "Will you close the door?"
+        },
+        {
+          "ru": "Она готова выходить по выходным.",
+          "en": "She's willing to work weekends."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему won't значит «отказывается», а не «не будет»?",
+        "Как понять, что will в предложении не про будущее?",
+        "Чем Will you help me? отличается от Are you going to help me?"
+      ]
+    },
+    {
+      "id": 652,
+      "microtopicId": 240,
+      "title": "would: вежливость и «мягкое я»",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Шаг назад мы уже делали: `can` превращался в `could`, и просьба становилась мягче, хотя речь по-прежнему шла про сейчас. `will` делает ровно тот же шаг — и получается `would`."
+        },
+        {
+          "type": "heading",
+          "text": "Ряд вежливости целиком"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь два корня темы встречаются, и картина видна насквозь:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Просьба",
+            "О чём спрашиваем",
+            "Насколько прямо"
+          ],
+          "rows": [
+            [
+              "Will you help me?",
+              "есть ли желание",
+              "прямо, почти требование"
+            ],
+            [
+              "Can you help me?",
+              "есть ли возможность",
+              "обычно, по-свойски"
+            ],
+            [
+              "Would you help me?",
+              "есть ли желание",
+              "вежливо"
+            ],
+            [
+              "Could you help me?",
+              "есть ли возможность",
+              "вежливо, самое ходовое"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сверху пара прямых форм, снизу — та же пара, отодвинутая на шаг назад. Отсюда главный вывод темы: вежливость по-английски не набор особых слов, которые надо зазубрить, а **шаг назад от любой прямой формы**. Знакомое **Could you tell me where the station is?** собрано ровно этим движением."
+        },
+        {
+          "type": "heading",
+          "text": "Would you mind…? — самая мягкая обёртка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эту фразу мы уже видели в косвенных вопросах и брали её готовой. Теперь понятно, из чего она сделана: `mind` значит «возражать», и вопрос буквально звучит «вы бы не возражали?» — говорящий даже не просит, а справляется, не помешает ли просьба:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Would you mind waiting a moment?** — дословно «вы бы не возражали подождать?», по-живому «вы не подождёте минутку?»;",
+            "**Would you mind moving your bag?** — «вы не могли бы убрать сумку?»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Форму после `mind` мы разбирали в «Герундии» — там стоит `-ing`, и пересказывать это не нужно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ответить на **Would you mind…?** русским «да» — значит отказать. Вопрос спрашивает о возражении, поэтому согласие по-английски выглядит как отрицание: **Not at all** · **Of course not** · **No problem**. А **Yes, I would** означает «да, возражаю» — вы только что отказались помочь."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Мягкое «я»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот же шаг назад смягчает не только просьбу, но и собственные слова — говорящий как будто отступает на шаг от своего утверждения:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'd say it's a good deal.** — «я бы сказал»: мнение подано осторожно;",
+            "**That would be great.** — «это было бы здорово»: согласие без нажима;",
+            "**I wouldn't do that.** — «я бы так не делал»: предостережение мягче прямого **Don't do that**."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Знакомое `would like` — из этой же семьи. **I want a coffee** в кафе звучит как требование, а **I'd like a coffee** — обычная вежливая просьба, и мягкость ей даёт тот самый `would`. Саму конструкцию с обязательным `to` (**I'd like to book a table**) и короткий ответ **I'd love to** мы разбирали в «Инфинитиве» и «Герундии»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Would you like…? и Do you like…?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Две фразы, которые русский путает, потому что по-русски обе про «нравится» и «хочешь»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Would you like a coffee?** — предлагаю прямо сейчас, «будешь кофе?»;",
+            "**Do you like coffee?** — спрашиваю о вкусах вообще, «ты вообще любишь кофе?»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «хочешь кофе?» тянет за собой **Do you want a coffee?** — это не ошибка, но в гостях и в кафе звучит прямовато."
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом с этой семьёй стоит и `would rather` — «я бы лучше»: **I'd rather stay home tonight**. Это уже не про вежливость, а про предпочтение, и разбирается оно в теме «Дополнительные конструкции»; здесь достаточно узнавать форму в чужой речи."
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Megan",
+              "text": "Would you mind if I sat here?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Not at all, go ahead."
+            },
+            {
+              "speaker": "Megan",
+              "text": "Thanks. Would you keep an eye on my bag for a second?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Sure, no problem."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть у `would` и совсем другая работа, к вежливости отношения не имеющая, — за неё возьмёмся в следующей карточке."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вежливость по-английски — шаг назад от прямой формы: `will` отходит в `would`, `can` — в `could`. Речь при этом про сейчас."
+        },
+        {
+          "type": "heading",
+          "text": "Ряд просьбы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will you help me?** (есть желание?) → **Can you help me?** (можешь?) → **Would you help me?** → **Could you help me?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Would you mind…?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Спрашивает о возражении, после `mind` стоит `-ing`: **Would you mind waiting a moment?**",
+            "Согласие выглядит отрицанием: **Not at all** · **Of course not** · **No problem**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Мягкое «я»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'd say it's a good deal** · **That would be great** · **I wouldn't do that**",
+            "Из той же семьи `would like`: **I'd like a coffee** вместо прямого **I want a coffee**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Would you like a coffee?** — предлагаю сейчас · **Do you like coffee?** — про вкусы вообще"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Would you mind to wait?** ✗ → **Would you mind waiting?** ✓",
+            "На **Would you mind…?** ответить **Yes** — значит отказать; согласие это **Not at all**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Вы не подождёте минутку?",
+          "en": "Would you mind waiting a moment?"
+        },
+        {
+          "ru": "Ты не мог бы подписать вот это?",
+          "en": "Would you sign this, please?"
+        },
+        {
+          "ru": "Я бы сказал, это выгодная сделка.",
+          "en": "I'd say it's a good deal."
+        },
+        {
+          "ru": "Я бы так не делал.",
+          "en": "I wouldn't do that."
+        },
+        {
+          "ru": "Будешь кофе?",
+          "en": "Would you like a coffee?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему Would you mind…? отвечают «нет», когда соглашаются?",
+        "Чем Would you like a coffee? отличается от Do you like coffee?",
+        "Почему прошедшая форма делает просьбу вежливой?"
+      ]
+    },
+    {
+      "id": 653,
+      "microtopicId": 240,
+      "title": "would как прошлое will: будущее, увиденное из прошлого",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У `would` есть вторая работа, и вежливость к ней отношения не имеет. Сравните две пары:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He says he will come.** → **He said he would come.**",
+            "**I think it will rain.** → **I thought it would rain.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Будущее, увиденное из прошлого"
+        },
+        {
+          "type": "paragraph",
+          "text": "Событие в обеих парах остаётся впереди: человек ещё не пришёл, дождь ещё не пошёл. Сдвинулась не новость, а точка, с которой на неё смотрят. В первой фразе мы стоим в настоящем, во второй отошли в прошлое — и `will` отъехал вместе с нами, превратившись в `would`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это тот же шаг назад, что в вежливости. Только там он сдвигал тон, а здесь — точку отсчёта."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I knew she would be late.** — знал заранее, что опоздает;",
+            "**We hoped the rain would stop.** — надеялись, что дождь кончится;",
+            "**Nobody thought the old café would close.** — никто не думал, что кафе закроют."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сам `would` о прошлом здесь ничего не сообщает. Прошлым заняты первые глаголы — **knew**, **hoped**, **thought**, — а `would` держит то, что на тот момент ещё только предстояло. Поэтому русское «знал, что опоздает» и получает в английском два разных глагола: один смотрит назад, второй вперёд."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда эта форма уже знакома"
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе фразы ниже нам попадались, просто без объяснения:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He said he would call back.** — так пересказывают чужие слова. Что при пересказе происходит со всеми остальными временами, разбирается в теме «Reported Speech»; здесь достаточно увидеть сам сдвиг `will` в `would`.",
+            "**If I had more money, I would buy a bigger flat.** — знакомая формула из условных. Теперь видно, из чего она сделана: та же отодвинутая форма, только отодвинули её не во времени, а от реальности — денег-то нет.",
+            "**I left a note so that Tom would know where I was.** — конструкция цели из «Linking Words». В плашке там было сказано, что `would` приходится `will` такой же прошедшей парой, как `could` глаголу `can`, — вот она в работе."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три роли одной формы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Соберём их вместе, иначе `would` будет читаться наугад:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "вежливость — **Would you wait a moment?** — речь про сейчас;",
+            "будущее из прошлого — **He said he would come** — про то, что предстояло тогда;",
+            "нереальное условие — **I would buy a bigger flat if I had the money** — про то, чего нет."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Различает их не форма, она одна на все три случая, а контекст. Ровно тот же вывод мы сделали про `could`."
+        },
+        {
+          "type": "paragraph",
+          "text": "Осталась последняя роль `would`, и она про самое настоящее прошлое — про то, что повторялось из раза в раз."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`He says he will come` → `He said he would come`. Событие по-прежнему впереди, назад отъехала точка отсчёта — и `will` отъехал вместе с ней."
+        },
+        {
+          "type": "heading",
+          "text": "Как это собирается"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Первый глагол берёт прошедшую форму, `will` становится `would`: **I knew she would be late** · **We hoped the rain would stop**",
+            "О прошлом говорит первый глагол, `would` держит то, что тогда предстояло"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три роли would"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Вежливость: **Would you wait a moment?** — про сейчас",
+            "Будущее из прошлого: **He said he would come** — про то, что предстояло тогда",
+            "Нереальное условие: **I would buy a bigger flat if I had the money** — про то, чего нет",
+            "Различает контекст, а не форма"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He said he will come** ✗ → **He said he would come** ✓ — первый глагол уже в прошлом",
+            "**He said he would came** ✗ → **He said he would come** ✓ — после модального голая базовая форма"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Он сказал, что придёт.",
+          "en": "He said he would come."
+        },
+        {
+          "ru": "Я знал, что она опоздает.",
+          "en": "I knew she would be late."
+        },
+        {
+          "ru": "Мы надеялись, что дождь кончится.",
+          "en": "We hoped the rain would stop."
+        },
+        {
+          "ru": "Никто не думал, что старое кафе закроют.",
+          "en": "Nobody thought the old café would close."
+        },
+        {
+          "ru": "Если бы у меня было больше денег, я бы купил квартиру побольше.",
+          "en": "If I had more money, I would buy a bigger flat."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после said нельзя оставить will?",
+        "Как отличить would-вежливость от would-прошлого?",
+        "Почему в If I had more money, I would buy… тоже стоит would?"
+      ]
+    },
+    {
+      "id": 654,
+      "microtopicId": 240,
+      "title": "would про прошлое: «раньше мы каждое лето ездили»",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Третья роль `would` — самая «прошлая» из всех. Так рассказывают о том, что повторялось раз за разом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We would go to the lake every summer.** — каждое лето ездили на озеро;",
+            "**Dad would always fall asleep in front of the TV.** — папа вечно засыпал перед телевизором;",
+            "**After school we would play football until dark.** — после школы играли в футбол до темноты."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл знакомый: `used to` мы разбирали в Past Simple, и он про то же самое — про прошлое, которого больше нет. Но подменить друг друга эти двое могут не везде."
+        },
+        {
+          "type": "heading",
+          "text": "Граница с used to: действия можно, состояния нельзя"
+        },
+        {
+          "type": "paragraph",
+          "text": "`would` рассказывает только о повторявшихся **действиях**. Состояние — «была машина», «знал», «жил» — он не берёт:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I used to have a car.** ✓ — раньше у меня была машина;",
+            "**I would have a car.** ✗ — в этом значении так не говорят;",
+            "**She used to know him well.** ✓ · **She would know him well.** ✗"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сама фраза **I would have a car** не сломана — она жива и вам знакома: **I would have a car if I lived in the city** ✓ из условных. Речь о другом: рассказывать о прошлом СОСТОЯНИИ `would` не умеет. То же с **I would know him** — это «я бы его знал», а вовсе не «раньше я его знал»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "would нужен разбег, used to обходится сам"
+        },
+        {
+          "type": "paragraph",
+          "text": "Второе отличие чисто практическое. `used to` самодостаточен, с него можно начать рассказ: **I used to play the guitar** понятно без всякой подготовки. А `would` повисает в воздухе, если прошлое не задано заранее:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We would go to the lake every summer** — брошенное без подготовки, читается скорее как «мы бы поехали»;",
+            "**When I was a kid, we would go to the lake every summer** ✓ — теперь всё на месте."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому в живом рассказе `used to` обычно идёт первым и открывает тему, а `would` подхватывает дальше."
+        },
+        {
+          "type": "heading",
+          "text": "Оттенок: тёплое воспоминание"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница между ними не грамматическая, а стилистическая, и правилом её делать не стоит. `would` — форма рассказа, поэтому она часто и звучит как тёплое воспоминание: человек не констатирует, а вспоминает. `used to` суше: было и прошло. Но считать, что `would` только про хорошее, не надо — **He would always come home late** говорят с досадой."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В таких рассказах рядом с `would` почти всегда стоит обстоятельство повторяемости — **every summer**, **on Sundays**, **after school**, **always**. Оно и задаёт ту повторяемость, ради которой форма взята."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сам `used to` со всеми его формами — отрицанием **didn't use to** и вопросом **Did you use to…?** — разобран в Past Simple, в микротеме «Раньше было, а теперь нет». Здесь мы его не переучиваем, а только проводим границу."
+        },
+        {
+          "type": "paragraph",
+          "text": "Три роли `would` собраны, и вместе с ними закрыта вся пара `will` и `would`. Дальше берёмся за второй этаж темы целиком: как по-английски гадают и насколько уверенно."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Третья роль `would` — рассказ о том, что повторялось в прошлом: **We would go to the lake every summer**. Рядом почти всегда стоит обстоятельство повторяемости — `every summer`, `on Sundays`, `always`."
+        },
+        {
+          "type": "heading",
+          "text": "Граница с used to"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Повторявшееся действие — можно обоими: **We would go** · **We used to go**",
+            "Прошлое состояние — только `used to`: **I used to have a car** ✓ · **I would have a car** ✗ в этом значении",
+            "`used to` самодостаточен, `would` нужен заданный контекст прошлого: **When I was a kid, we would go…**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Оттенок"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`would` звучит рассказом и часто тёплым воспоминанием, `used to` — сухой констатацией",
+            "Про неприятное им тоже говорят: **He would always come home late**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I would have a car** в рассказе о прошлом — нельзя · **I would have a car if I lived in the city** — можно, это условие"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I would live in Prague as a child** ✗ → **I used to live in Prague as a child** ✓ — «жил» это состояние",
+            "**We would to go to the lake** ✗ → **We would go to the lake** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Каждое лето мы ездили на озеро.",
+          "en": "We would go to the lake every summer."
+        },
+        {
+          "ru": "Папа вечно засыпал перед телевизором.",
+          "en": "Dad would always fall asleep in front of the TV."
+        },
+        {
+          "ru": "Раньше у меня была машина.",
+          "en": "I used to have a car."
+        },
+        {
+          "ru": "Когда я был маленьким, мы каждое лето ездили на озеро.",
+          "en": "When I was a kid, we would go to the lake every summer."
+        },
+        {
+          "ru": "Он вечно приходил домой поздно.",
+          "en": "He would always come home late."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I would have a car про прошлое?",
+        "Чем would отличается от used to, если оба про прошлое?",
+        "Почему would не работает без «когда я был маленьким»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3624,6 +4469,78 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 232,
       "orderInCard": 3
+    },
+    {
+      "cardId": 651,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 108,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 651,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 225,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 651,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 210,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 652,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 262,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 652,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 47,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 652,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 100,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 653,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 103,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 653,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 93,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 653,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 240,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 654,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 124,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 654,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 233,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 654,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 122,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -3679,6 +4596,30 @@
       "id": "modal_verbs_card650_ex1",
       "cardId": 650,
       "title": "Совет или ожидание",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте подходящую по смыслу форму.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card651_ex1",
+      "cardId": 651,
+      "title": "Что на самом деле сказано",
+      "userInstruction": "ИИ пришлёт одно английское предложение. Напишите по-русски, что оно на самом деле значит.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "modal_verbs_card652_ex1",
+      "cardId": 652,
+      "title": "Попроси вежливо",
+      "userInstruction": "ИИ опишет по-русски одну ситуацию и скажет, насколько мягко нужно прозвучать. Напишите подходящую английскую фразу.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card654_ex1",
+      "cardId": 654,
+      "title": "Раньше было так",
       "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте подходящую по смыслу форму.",
       "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
@@ -3780,6 +4721,22 @@
       "transcription": "[ˈɔːt tuː]",
       "microtopicId": 239,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 891,
+      "word": "would",
+      "translation": "бы (вежливо и условно), прошедшая форма will",
+      "transcription": "[wʊd]",
+      "microtopicId": 240,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 892,
+      "word": "be willing to",
+      "translation": "быть готовым, соглашаться (что-то сделать)",
+      "transcription": "[biː ˈwɪlɪŋ tuː]",
+      "microtopicId": 240,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [
@@ -3828,6 +4785,29 @@
         }
       ],
       "explanation": "время и лицо берёт на себя только первая половина конструкции: **has** для третьего лица, **had** для прошлого, **will have** для будущего, помощник **do** для вопроса. Частица **to** и глагол после неё не меняются никогда."
+    },
+    {
+      "id": 47,
+      "taskDescription": "впиши мягкую форму той же просьбы.",
+      "rows": [
+        {
+          "hint": "Can you wait here?",
+          "answer": "Could you wait here?"
+        },
+        {
+          "hint": "Will you call me back?",
+          "answer": "Would you call me back?"
+        },
+        {
+          "hint": "Can I borrow your pen?",
+          "answer": "Could I borrow your pen?"
+        },
+        {
+          "hint": "Will you pass me the salt?",
+          "answer": "Would you pass me the salt?"
+        }
+      ],
+      "explanation": "мягкость даёт одно и то же движение — шаг назад к прошедшей форме: **can** становится **could**, **will** становится **would**. Смысл просьбы не меняется, и речь по-прежнему идёт про сейчас."
     }
   ],
   "true_false_exercises": [
@@ -3985,6 +4965,37 @@
         }
       ],
       "explanation": "в третьем предложении к модальному прилипло окончание -s, которого у него не бывает: верно **The shop should open**. В пятом после модального появилась лишняя **to**: верно **should arrive**. Остальные три собраны правильно."
+    },
+    {
+      "id": 233,
+      "statements": [
+        {
+          "en": "When I was a student, I would walk to college every day.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I would have a bike when I was ten.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She said she would join us later.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We were sure the parcel will arrive on Monday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Would you mind waiting outside?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении **would** взялся за прошлое состояние, а он рассказывает только о повторявшихся действиях: верно **I used to have a bike**. В четвёртом первый глагол стоит в прошлом, значит, и будущее из той точки идёт через **would**: верно **the parcel would arrive**. Остальные три собраны правильно."
     }
   ],
   "word_arrangement_exercises": [
@@ -4063,6 +5074,23 @@
         "booking"
       ],
       "explanation": "мягкое предложение строят отрицательным вопросом: **not** выходит вперёд вместе с модальным и обычно пишется кратко. Помощник **do** рядом с модальным не ставится, а после него идёт голый глагол — ни **to book**, ни **booking** сюда не встают."
+    },
+    {
+      "id": 210,
+      "situationRu": "Ситуация: Оля жалуется, что окно в её кабинете заклинило и не поддаётся.",
+      "correctSentence": "The window in my office won't open.",
+      "words": [
+        "The window",
+        "in my office",
+        "won't",
+        "open"
+      ],
+      "distractors": [
+        "doesn't want",
+        "to open",
+        "isn't"
+      ],
+      "explanation": "воля вещи уже сидит внутри **won't**, поэтому отдельное **doesn't want** здесь лишнее. После модального стоит голый глагол, а значит, и **to** перед ним не нужна."
     }
   ],
   "multiple_choice_exercises": [
@@ -4338,6 +5366,69 @@
         }
       ],
       "explanation": "совета просят модальным **should** — «как мне лучше поступить». Вопрос с **do** спрашивает о привычке, а **must** — об обязанности, которую кто-то на вас возложил."
+    },
+    {
+      "id": 108,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The photocopier won't take my card.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Копировальный аппарат не примет мою карту завтра.",
+          "isCorrect": false
+        },
+        {
+          "text": "Копировальный аппарат не принимает мою карту.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мне нельзя вставлять карту в копировальный аппарат.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**won't** здесь не про будущее, а про упрямство вещи: аппарат не поддаётся прямо сейчас. Никакого запрета в предложении нет."
+    },
+    {
+      "id": 262,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вы на конференции не расслышали, что сказал незнакомый человек, и просите его повторить — хотите прозвучать как можно мягче.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Will you repeat that?",
+          "isCorrect": false
+        },
+        {
+          "text": "Do you mind to repeat that?",
+          "isCorrect": false
+        },
+        {
+          "text": "Would you mind repeating that?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "самая мягкая обёртка — **Would you mind** плюс форма на **-ing**: говорящий справляется, не помешает ли просьба. **Will you…?** звучит прямо, почти требованием, а после **mind** частицу **to** не ставят."
+    },
+    {
+      "id": 240,
+      "choiceType": "CHOICE",
+      "prompt": "Sara promised she ___ bring the photos.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "would",
+          "isCorrect": true
+        },
+        {
+          "text": "will",
+          "isCorrect": false
+        },
+        {
+          "text": "would brought",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "глагол **promised** уже отправил нас в прошлое, поэтому будущее из той точки передаёт **would**. Форма **will** осталась бы в настоящем, а после модального стоит голая базовая форма — **brought** сюда не встаёт."
     }
   ],
   "text_input_exercises": [
@@ -4419,6 +5510,36 @@
         "тебе стоит звонить",
         "не сообщить ли нам",
         "не стоит пить"
+      ]
+    },
+    {
+      "id": 122,
+      "items": [
+        {
+          "sentence": "On Fridays we ___ to the swimming pool after school.",
+          "contextRu": "",
+          "answer": "would go",
+          "alternatives": []
+        },
+        {
+          "sentence": "Tom said he ___ back later.",
+          "contextRu": "",
+          "answer": "would call",
+          "alternatives": []
+        },
+        {
+          "sentence": "I ___ a dog when I lived in the village.",
+          "contextRu": "",
+          "answer": "used to have",
+          "alternatives": []
+        }
+      ],
+      "explanation": "**would** рассказывает о повторявшихся действиях и держит будущее, увиденное из прошлого. А прошлое состояние он не берёт вовсе — там работает **used to**.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "была собака",
+        "ходили каждую пятницу",
+        "обещал перезвонить"
       ]
     }
   ],
@@ -4582,6 +5703,38 @@
         }
       ],
       "explanation": "речь о сроке, который известен из договорённости с магазином, — это ожидание, и в нём работает **should**. Вариант с **must** сообщил бы вывод из улики, а в третьем после модального появилась лишняя **to**."
+    },
+    {
+      "id": 100,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Would you mind closing the window? It's freezing."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks a lot."
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I would.",
+          "isCorrect": false
+        },
+        {
+          "text": "Of course not.",
+          "isCorrect": true
+        },
+        {
+          "text": "Yes, of course.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "вопрос спрашивает о возражении, поэтому согласие звучит как отрицание: **Of course not**, **Not at all**, **No problem**. Ответ с **Yes** означал бы, что человек возражает, и благодарность к нему уже не подошла бы."
     }
   ],
   "matching_exercises": [
@@ -4766,6 +5919,25 @@
         }
       ],
       "explanation": "отрицание у **have got to** практически не встречается — в отрицательной форме язык переходит на **don't have to**. Остальные два варианта собраны неверно: помощник **do** и **got** в одной фразе не уживаются."
+    },
+    {
+      "id": 225,
+      "wrongSentence": "My brother isn't willing help with the move.",
+      "options": [
+        {
+          "text": "My brother isn't willing to help with the move.",
+          "isCorrect": true
+        },
+        {
+          "text": "My brother isn't willing helping with the move.",
+          "isCorrect": false
+        },
+        {
+          "text": "My brother doesn't willing to help with the move.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "у связки **be willing to** частица **to** на месте всегда, а собирается она через **to be** — помощник **do** ей не нужен."
     }
   ],
   "construction_meaning_exercises": [
@@ -4883,6 +6055,29 @@
         }
       ],
       "explanation": "подлежащее здесь не человек, а отрезок времени, слушаться ему некого — значит, перед нами ожидание говорящего, а не совет. Полная уверенность прозвучала бы как **must be enough**, а **should** оставляет место осечке."
+    },
+    {
+      "id": 93,
+      "construction": "We knew the flight would be delayed.",
+      "options": [
+        {
+          "text": "Мы знали, что рейс задержали.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мы знали, что рейс задержат.",
+          "isCorrect": true
+        },
+        {
+          "text": "Мы бы знали, что рейс задержат.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мы знаем, что рейс задержат.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "**would** здесь не вежливость и не «бы»: глагол **knew** ставит нас в прошлое, а **would** держит то, что на тот момент ещё только предстояло. Задержка случилась позже, чем момент, о котором идёт речь."
     }
   ],
   "transformation_exercises": [
@@ -4923,6 +6118,25 @@
         }
       ],
       "explanation": "прошедшее время меняет только первую половину: **has to** и **have to** дают **had to**, а отрицание уходит к **didn't have to**. Глагол после **to** остаётся базовым."
+    },
+    {
+      "id": 103,
+      "taskDescription": "перепиши каждое предложение так, будто рассказываешь об этом позже, в прошлом.",
+      "items": [
+        {
+          "original": "Tom says he will send the file.",
+          "transformed": "Tom said he would send the file."
+        },
+        {
+          "original": "I think the meeting will start late.",
+          "transformed": "I thought the meeting would start late."
+        },
+        {
+          "original": "She hopes the weather will improve.",
+          "transformed": "She hoped the weather would improve."
+        }
+      ],
+      "explanation": "назад уезжают оба глагола: первый получает прошедшую форму, а **will** превращается в **would**. Событие при этом остаётся впереди — на тот момент оно ещё не случилось."
     }
   ],
   "categorization_exercises": [
@@ -5065,6 +6279,29 @@
         }
       ],
       "explanation": "**be supposed to** — единственная ступень лестницы, которая прямо допускает, что правило нарушат: «вообще-то полагается». Остальные три сообщают, что обязанность действует."
+    },
+    {
+      "id": 124,
+      "groupDescription": "Три предложения рассказывают о повторявшемся прошлом, а одно выбивается",
+      "items": [
+        {
+          "text": "We would meet at the same café every Friday",
+          "isOdd": false
+        },
+        {
+          "text": "Grandma would bake bread on Sundays",
+          "isOdd": false
+        },
+        {
+          "text": "I would take the job if they paid more",
+          "isOdd": true
+        },
+        {
+          "text": "After work he would walk home through the park",
+          "isOdd": false
+        }
+      ],
+      "explanation": "в трёх предложениях **would** рассказывает о том, что повторялось раз за разом. В четвёртом речь о том, чего нет: это условие, и **would** держит в нём нереальное «взял бы»."
     }
   ]
 }

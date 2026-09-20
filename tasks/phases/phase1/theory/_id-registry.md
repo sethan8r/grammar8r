@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 651 |
+| Card | 655 |
 | Categorization | 144 |
 | Category | 8 |
-| ConstructionMeaning | 93 |
-| DialogRestore | 100 |
-| ErrorCorrection | 225 |
-| FindTheOdd | 124 |
+| ConstructionMeaning | 94 |
+| DialogRestore | 101 |
+| ErrorCorrection | 226 |
+| FindTheOdd | 125 |
 | Matching | 114 |
-| Microtopic | 240 |
-| MultipleChoice·CHOICE | 240 |
-| MultipleChoice·FORWARD_CHOICE | 262 |
-| MultipleChoice·REVERSE_CHOICE | 108 |
-| TableFill | 47 |
-| TextInput | 122 |
+| Microtopic | 241 |
+| MultipleChoice·CHOICE | 241 |
+| MultipleChoice·FORWARD_CHOICE | 263 |
+| MultipleChoice·REVERSE_CHOICE | 109 |
+| TableFill | 48 |
+| TextInput | 123 |
 | Topic | 38 |
-| Transformation | 103 |
-| TrueFalse | 233 |
-| WordArrangement | 210 |
-| course_word | 891 |
+| Transformation | 104 |
+| TrueFalse | 234 |
+| WordArrangement | 211 |
+| course_word | 893 |
 
 ## Диапазоны по темам
 
@@ -598,24 +598,24 @@
 - course_word: 676–689 (14)
 
 ### modal-verbs
-- Card: 635–650 (16)
+- Card: 635–654 (20)
 - Categorization: 140–143 (4)
-- ConstructionMeaning: 88–92 (5)
-- DialogRestore: 95–99 (5)
-- ErrorCorrection: 221–224 (4)
-- FindTheOdd: 122–123 (2)
+- ConstructionMeaning: 88–93 (6)
+- DialogRestore: 95–100 (6)
+- ErrorCorrection: 221–225 (5)
+- FindTheOdd: 122–124 (3)
 - Matching: 110–113 (4)
-- Microtopic: 234–239 (6)
-- MultipleChoice·CHOICE: 237–239 (3)
-- MultipleChoice·FORWARD_CHOICE: 256–261 (6)
-- MultipleChoice·REVERSE_CHOICE: 104–107 (4)
-- TableFill: 45–46 (2)
-- TextInput: 119–121 (3)
+- Microtopic: 234–240 (7)
+- MultipleChoice·CHOICE: 237–240 (4)
+- MultipleChoice·FORWARD_CHOICE: 256–262 (7)
+- MultipleChoice·REVERSE_CHOICE: 104–108 (5)
+- TableFill: 45–47 (3)
+- TextInput: 119–122 (4)
 - Topic: 37–37 (1)
-- Transformation: 101–102 (2)
-- TrueFalse: 228–232 (5)
-- WordArrangement: 206–209 (4)
-- course_word: 881–890 (10)
+- Transformation: 101–103 (3)
+- TrueFalse: 228–233 (6)
+- WordArrangement: 206–210 (5)
+- course_word: 881–892 (12)
 
 ### passive-basics
 - Card: 271–279 (9)
