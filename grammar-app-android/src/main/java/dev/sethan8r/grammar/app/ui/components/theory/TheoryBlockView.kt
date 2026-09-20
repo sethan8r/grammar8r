@@ -520,6 +520,7 @@ private fun TableCapsule(cells: List<String>, widths: List<Dp>, isHeader: Boolea
             )
             // Полоса-разделитель тянется во всю высоту капсулы — значит высота Row известна до неё.
             .height(IntrinsicSize.Min),
+        verticalAlignment = Alignment.CenterVertically,
     ) {
         cells.forEachIndexed { index, cell ->
             MarkdownText(
