@@ -46,6 +46,13 @@
       "title": "Must / Have to · Надо, обязан, приходится",
       "order": 5,
       "searchKeywords": "mustn't, don't have to, не обязан, приходится по-английски, must или have to, be supposed to, needn't что значит, had to"
+    },
+    {
+      "id": 239,
+      "topicId": 37,
+      "title": "Should / Ought to · Совет — и ожидание",
+      "order": 6,
+      "searchKeywords": "как дать совет, should или must, ought to что значит, спросить совета по-английски, had better или should, should be что значит"
     }
   ],
   "grammar_cards": [
@@ -2927,6 +2934,376 @@
         "Чем be supposed to отличается от have to?",
         "Почему shall в договоре значит «обязан»?"
       ]
+    },
+    {
+      "id": 649,
+      "microtopicId": 239,
+      "title": "Совет: should, shouldn't и книжный ought to",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В лестнице обязанности `should` стоял нижней ступенькой, и мы сразу отметили: обязанности в нём нет вовсе. Теперь разберёмся, что же он делает. `should` не заставляет и не разрешает — он сообщает, что говорящий считает правильным. По-русски это «стоит», «следует», «тебе бы»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Действие при этом, как у всех модальных, остаётся голым, а формы собираются по уже знакомой схеме:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should take a break.** — говорящий советует;",
+            "**You shouldn't skip breakfast.** — советует не делать;",
+            "**Should I call her tonight?** — сам просит совета у собеседника."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему русского тянет к must"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «тебе следует отдохнуть» звучит суховато, почти по-учительски, и рука ищет слово поувесистее — «ты должен». Так в дружеском разговоре появляется **You must take a break**: грамматически безупречно, но для английского уха это приказ сверху, а вы всего лишь советовали. Бытовой совет по-английски — это `should`, и ничего слабого в нём нет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский вопрос-совет обходится без подлежащего — «Мне позвонить ему?», «Нам подождать?». По-английски так нельзя: **To call him?** ✗ — это вообще не предложение, а **Do I call him?** спрашивает о привычке, «я ему обычно звоню?». Совета просят модальным и обязательно с подлежащим: **Should I call him?** ✓ · **Should we wait?** ✓"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицательный вопрос здесь не упрёк, а мягкое предложение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Форму мы уже собирали: `not` уходит вперёд вместе с модальным. В запретах такой вопрос звучал колко — **Can't you read the sign?**. С `should` он, наоборот, самый мягкий способ что-то предложить: **Shouldn't we leave a bit earlier?** — «а не выехать ли нам пораньше?». Говорящий не настаивает, а зовёт подумать вместе."
+        },
+        {
+          "type": "heading",
+          "text": "ought to — тот же смысл, только суше"
+        },
+        {
+          "type": "paragraph",
+          "text": "`ought to` значит ровно то же, что `should`, но звучит формальнее и встречается заметно реже: **You ought to check the dates before you book.** Это тот самый единственный модальный, который носит `to` в себе, — мы обещали его в карточке про форму."
+        },
+        {
+          "type": "paragraph",
+          "text": "Пара при этом не равноправная, и делать вид, что слова свободно заменяют друг друга, было бы нечестно. В отрицании и вопросе `ought to` почти не живёт: `oughtn't` и **Ought I to tell her?** — книжный ярус, вы встретите их в романе или в статье, но так не говорят. Рабочее правило простое: производим `should`, а `ought to` узнаём в чужой речи."
+        },
+        {
+          "type": "heading",
+          "text": "Три соседа, которые говорят почти то же"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I were you, I'd talk to him.** — знакомая формула из условных: тот же совет, поданный через себя, а оттого самый мягкий;",
+            "**You could talk to him.** — не совет, а один из ходов, без нажима (мы отмечали это, когда разбирали `could`);",
+            "**You'd better talk to him.** — а это уже сильнее совета: «лучше сделай — иначе будет плохо»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Had better` — не прошедшее время, несмотря на `had`: речь идёт про сейчас и про дальше. Сравните: **You should leave now** (стоит выйти) ↔ **You'd better leave now** (выходи, а то опоздаешь). Саму конструкцию разберём в теме «Дополнительные конструкции», здесь достаточно узнавать её и не путать со `should`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как это звучит в разговоре"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Mia",
+              "text": "I've had a headache all morning."
+            },
+            {
+              "speaker": "Me",
+              "text": "You should drink some water and get away from the screen."
+            },
+            {
+              "speaker": "Mia",
+              "text": "Should I go home, then?"
+            },
+            {
+              "speaker": "Me",
+              "text": "I think you should. It won't get better at your desk."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Совет разобран. Но у `should` есть и вторая работа, к совету никакого отношения не имеющая, — ею займёмся в следующей карточке."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`should` не обязывает и не разрешает — он говорит, что говорящий считает правильным. Глагол после него стоит голым."
+        },
+        {
+          "type": "heading",
+          "text": "Три формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should take a break** — совет",
+            "**You shouldn't skip breakfast** — совет не делать",
+            "**Should I call her?** — просьба совета · **Shouldn't we leave earlier?** — осторожное предложение, не упрёк"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "ought to"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Тот же смысл, суше и реже: **You ought to check the dates**",
+            "Единственный модальный с `to` внутри; в отрицании и вопросе почти не встречается — узнаём, но сами не производим"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рядом работают"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I were you, I'd call him** — то же самое, мягче всех",
+            "**You could call him** — просто один из ходов, без нажима",
+            "**You'd better call him** — сильнее совета, обещает последствия; не прошедшее время"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**To call him?** ✗ → **Should I call him?** ✓ — подлежащее обязательно",
+            "**Do I call him?** — спрашивает о привычке, а не о совете",
+            "**You ought call her** ✗ → **You ought to call her** ✓ — `to` входит в само слово",
+            "**You must take a break** другу — не ошибка, но звучит приказом; совет — **You should take a break**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Тебе стоит сделать перерыв.",
+          "en": "You should take a break."
+        },
+        {
+          "ru": "Не стоит пропускать завтрак.",
+          "en": "You shouldn't skip breakfast."
+        },
+        {
+          "ru": "Мне позвонить ей сегодня вечером?",
+          "en": "Should I call her tonight?"
+        },
+        {
+          "ru": "А не выехать ли нам пораньше?",
+          "en": "Shouldn't we leave a bit earlier?"
+        },
+        {
+          "ru": "Тебе следует проверить даты, прежде чем бронировать.",
+          "en": "You ought to check the dates before you book."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему совет другу лучше давать через should, а не через must?",
+        "Чем Should I…? отличается от Do I…?",
+        "Когда уместно ought to, а когда это звучит слишком книжно?"
+      ]
+    },
+    {
+      "id": 650,
+      "microtopicId": 239,
+      "title": "should не только советует: «должно быть готово к пятнице»",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В начале темы мы разложили модальные на два этажа: одно и то же слово говорит либо о поступке, либо о догадке. У `should` этот второй этаж тоже есть, и встречается он ничуть не реже совета."
+        },
+        {
+          "type": "paragraph",
+          "text": "**The train should be here by six** — это не совет поезду. Говорящий не даёт ему указаний, он сообщает своё ожидание: по расписанию поезд приходит к шести, значит, должен прийти."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It should be ready on Friday.** — обещали к пятнице, жду;",
+            "**This key should open the garage.** — по идее открывает, за этим его и дали;",
+            "**Twenty minutes should be enough.** — должно хватить;",
+            "**There should be a pharmacy around the corner.** — где-то там она есть, я так помню;",
+            "**Sara should be at the office — she starts at nine.** — так заведено, значит, она там."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русское «должно» устроено так же — надо только заметить"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы говорим «ты должен ей позвонить» (обязанность) и «он должен быть уже дома» (ожидание) одним и тем же словом, и никого это не смущает. Английский делает со `should` ровно то же самое, поэтому здесь родной язык не мешает, а помогает: **You should call her** ↔ **He should be home by now**. Заметить это совпадение — и второй этаж перестаёт быть чем-то новым."
+        },
+        {
+          "type": "heading",
+          "text": "must be и should be — разная опора"
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба сообщают догадку, но стоят на разном:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Sara must be at the office — her car is outside.** — вижу улику, делаю вывод;",
+            "**Sara should be at the office — she starts at nine.** — знаю порядок вещей, жду именно этого."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Must be` и `should be` различаются не силой уверенности, а тем, на что опирается говорящий: у `must be` под ногами улика, у `should be` — заведённый порядок. Поэтому `should be` спокойно допускает осечку: сказав **The parcel should arrive today**, человек не удивится, если посылка не придёт. С **The parcel must be here somewhere** так уже не выйдет — там он уверен."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как отличить одно чтение от другого"
+        },
+        {
+          "type": "paragraph",
+          "text": "Признак не в форме, а в том, кому адресована фраза. Совет обращён к тому, кто может послушаться, — к человеку: **You should get some sleep**. Ожидание — про вещи, события и расписания, слушаться там некому: **The bus should be here in five minutes**. Если подлежащее всё-таки человек, смотрите на глагол: **Tom should call the bank** — совет, он может так сделать; **Tom should be at lunch now** — ожидание, обеденный перерыв у него по распорядку, а не по вашей рекомендации."
+        },
+        {
+          "type": "paragraph",
+          "text": "Подсказка, которая срабатывает чаще всего: у ожидания справа обычно стоит `be` — `should be ready`, `should be enough`, `should be here`. Но это именно подсказка, а не правило: **The parcel should arrive today** — тоже ожидание."
+        },
+        {
+          "type": "heading",
+          "text": "Ожидание бывает и отрицательным"
+        },
+        {
+          "type": "paragraph",
+          "text": "**The train shouldn't be late** — «по идее не должен опоздать». Это не то же самое, что **The train can't be late**, где опоздание считают невозможным. Весь набор отрицаний на этом этаже — `can't be`, `might not be`, `shouldn't be` — разберём в микротеме про уверенность; сейчас достаточно заметить, что `shouldn't` тоже умеет не советовать."
+        },
+        {
+          "type": "paragraph",
+          "text": "Итак, у `should` две работы: советовать человеку и ожидать от порядка вещей. Дальше берёмся за пару `will` и `would` — и окажется, что `will` вовсе не обязан говорить о будущем."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У `should` два чтения. Человеку — совет: **You should get some sleep**. Вещам, событиям и расписаниям — ожидание говорящего: **The bus should be here in five minutes**."
+        },
+        {
+          "type": "heading",
+          "text": "Ожидание — это «по идее»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It should be ready on Friday** · **Twenty minutes should be enough** · **This key should open the garage**",
+            "Справа у ожидания чаще всего стоит `be`, но не обязательно: **The parcel should arrive today**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Опора у догадок разная"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Sara must be at the office** — вывод из улики: её машина у входа",
+            "**Sara should be at the office** — из порядка вещей: рабочий день с девяти, и осечка допускается",
+            "**The train shouldn't be late** — «по идее не должен» ↔ **The train can't be late** — «опоздать не может»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как различить"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Подлежащее может послушаться → совет: **Tom should call the bank**",
+            "Слушаться некому или речь о распорядке → ожидание: **Tom should be at lunch now**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The train should here by six** ✗ → **The train should be here by six** ✓ — пропал глагол **be**",
+            "**It should to be ready** ✗ → **It should be ready** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Поезд должен быть здесь к шести.",
+          "en": "The train should be here by six."
+        },
+        {
+          "ru": "Это должно быть готово в пятницу.",
+          "en": "It should be ready on Friday."
+        },
+        {
+          "ru": "Двадцати минут должно хватить.",
+          "en": "Twenty minutes should be enough."
+        },
+        {
+          "ru": "Сара, по идее, в офисе — она начинает в девять.",
+          "en": "Sara should be at the office — she starts at nine."
+        },
+        {
+          "ru": "По идее, поезд не должен опоздать.",
+          "en": "The train shouldn't be late."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что should в предложении не советует?",
+        "Чем Sara must be at work отличается от Sara should be at work?",
+        "Почему у ожидания так часто стоит be?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3199,6 +3576,54 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 208,
       "orderInCard": 2
+    },
+    {
+      "cardId": 649,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 261,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 649,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 121,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 649,
+      "exerciseType": "MATCHING",
+      "exerciseId": 113,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 649,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 209,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 650,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 143,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 650,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 92,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 650,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 99,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 650,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 232,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -3241,6 +3666,22 @@
       "userInstruction": "ИИ даст одно русское предложение. Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card649_ex1",
+      "cardId": 649,
+      "title": "Посоветуй по-английски",
+      "userInstruction": "ИИ опишет по-русски одну ситуацию. Напишите по-английски фразу, которую вы сказали бы в ней.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "modal_verbs_card650_ex1",
+      "cardId": 650,
+      "title": "Совет или ожидание",
+      "userInstruction": "ИИ пришлёт несколько предложений с пропусками. Вставьте подходящую по смыслу форму.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -3322,6 +3763,22 @@
       "translation": "обязанность, долг",
       "transcription": "[ˈdjuːti]",
       "microtopicId": 238,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 889,
+      "word": "should",
+      "translation": "следует, стоит, надо бы",
+      "transcription": "[ʃʊd]",
+      "microtopicId": 239,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 890,
+      "word": "ought to",
+      "translation": "следует, следовало бы",
+      "transcription": "[ˈɔːt tuː]",
+      "microtopicId": 239,
       "categoryId": "useful_words"
     }
   ],
@@ -3497,6 +3954,37 @@
         }
       ],
       "explanation": "во втором предложении речь о вчерашнем дне, а прошедшей формы у **must** нет — нужно **had to drive**. В четвёртом после модального появилась лишняя **to**: верно **must finish**. Остальные три собраны правильно."
+    },
+    {
+      "id": 232,
+      "statements": [
+        {
+          "en": "Your passport should arrive within two weeks.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "You ought to tell Oliver the truth.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The shop shoulds open at nine.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Shouldn't we check the address first?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Your ticket should to arrive by email.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "в третьем предложении к модальному прилипло окончание -s, которого у него не бывает: верно **The shop should open**. В пятом после модального появилась лишняя **to**: верно **should arrive**. Остальные три собраны правильно."
     }
   ],
   "word_arrangement_exercises": [
@@ -3556,6 +4044,25 @@
         "being"
       ],
       "explanation": "речь о правиле, которое напоминают мягко, — это **be supposed to**. Связка держит частицу **to** и базовую форму после неё, поэтому ни **supposing**, ни **being** сюда не встают, а **must** и **should** сказали бы другое: приказ от самой Юли и просто совет."
+    },
+    {
+      "id": 209,
+      "situationRu": "Ситуация: Рома предлагает коллеге не тянуть и купить билеты уже сегодня, но мягко, не настаивая.",
+      "correctSentence": "Shouldn't we book the tickets today?",
+      "words": [
+        "Shouldn't",
+        "we",
+        "book",
+        "the tickets",
+        "today"
+      ],
+      "distractors": [
+        "Don't",
+        "should",
+        "to book",
+        "booking"
+      ],
+      "explanation": "мягкое предложение строят отрицательным вопросом: **not** выходит вперёд вместе с модальным и обычно пишется кратко. Помощник **do** рядом с модальным не ставится, а после него идёт голый глагол — ни **to book**, ни **booking** сюда не встают."
     }
   ],
   "multiple_choice_exercises": [
@@ -3810,6 +4317,27 @@
         }
       ],
       "explanation": "фраза из договора, а там обязательство сторон оформляют юридическим **shall**. Разговорное **has got to** в контракте немыслимо, а **needn't** сказало бы обратное — что забирать товар и не нужно."
+    },
+    {
+      "id": 261,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Вы не знаете, брать ли ноутбук на завтрашнюю встречу, и спрашиваете у Сони, как лучше.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Should I take my laptop to the meeting?",
+          "isCorrect": true
+        },
+        {
+          "text": "Do I take my laptop to the meeting?",
+          "isCorrect": false
+        },
+        {
+          "text": "Must I take my laptop to the meeting?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "совета просят модальным **should** — «как мне лучше поступить». Вопрос с **do** спрашивает о привычке, а **must** — об обязанности, которую кто-то на вас возложил."
     }
   ],
   "text_input_exercises": [
@@ -3862,6 +4390,36 @@
       ],
       "explanation": "в первом предложении речь о свойстве здешних дорог — такие они тут вообще, поэтому can. Во втором и третьем говорящий предполагает про один конкретный момент, сегодняшний вечер и прямо сейчас, — там нужен might.",
       "taskDescription": "Впиши в каждый пропуск can или might."
+    },
+    {
+      "id": 121,
+      "items": [
+        {
+          "sentence": "Sam ___ so much coffee before bed.",
+          "contextRu": "",
+          "answer": "shouldn't drink",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ we tell Gleb about the change?",
+          "contextRu": "",
+          "answer": "Shouldn't",
+          "alternatives": []
+        },
+        {
+          "sentence": "You ___ your parents more often.",
+          "contextRu": "",
+          "answer": "should call",
+          "alternatives": []
+        }
+      ],
+      "explanation": "банк задаёт смысл, а собирается всё одинаково: **should** или **shouldn't** плюс голый глагол. В мягком вопросе отрицание уходит вперёд вместе с модальным — **Shouldn't we…?",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "тебе стоит звонить",
+        "не сообщить ли нам",
+        "не стоит пить"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -3992,6 +4550,38 @@
         }
       ],
       "explanation": "ночь уже позади, значит, нужна прошедшая форма — **had to**. У **must** прошлого нет вовсе, а в третьем варианте после **to** стоит не базовая форма глагола."
+    },
+    {
+      "id": 99,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I ordered the sofa two weeks ago. Any news?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Good, I'll stay at home that day then."
+        }
+      ],
+      "options": [
+        {
+          "text": "It must arrive next Tuesday.",
+          "isCorrect": false
+        },
+        {
+          "text": "It should to arrive next Tuesday.",
+          "isCorrect": false
+        },
+        {
+          "text": "It should arrive next Tuesday.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "речь о сроке, который известен из договорённости с магазином, — это ожидание, и в нём работает **should**. Вариант с **must** сообщил бы вывод из улики, а в третьем после модального появилась лишняя **to**."
     }
   ],
   "matching_exercises": [
@@ -4071,6 +4661,33 @@
         }
       ],
       "explanation": "**mustn't** запрещает действие, а **don't have to** и **needn't** снимают обязанность. Две последние строки показывают обе сборки: у обычного глагола **need** есть помощник **do** и частица **to**, а у **dare** в предостережении ни того, ни другого нет — работает модальная сборка."
+    },
+    {
+      "id": 113,
+      "taskDescription": "соедини фразу с тем, что она делает.",
+      "pairs": [
+        {
+          "left": "You shouldn't eat so late",
+          "right": "советует не делать"
+        },
+        {
+          "left": "Should I book a table?",
+          "right": "просит совета"
+        },
+        {
+          "left": "Shouldn't we start now?",
+          "right": "осторожно предлагает"
+        },
+        {
+          "left": "You'd better take an umbrella",
+          "right": "предупреждает о последствиях"
+        },
+        {
+          "left": "You ought to thank Lily",
+          "right": "тот же совет, но суше"
+        }
+      ],
+      "explanation": "три первые строки — один и тот же **should** в разных формах: утверждение советует, вопрос просит совета, отрицательный вопрос мягко предлагает. **had better** обещает неприятности, если не послушаться, а **ought to** говорит то же, что **should**, только формальнее."
     }
   ],
   "error_correction_exercises": [
@@ -4243,6 +4860,29 @@
         }
       ],
       "explanation": "**needn't** снимает необходимость, а не разрешение: ноутбук просто не понадобится. Запрет прозвучал бы как **Kate mustn't bring her laptop**."
+    },
+    {
+      "id": 92,
+      "construction": "One hour should be enough for the test.",
+      "options": [
+        {
+          "text": "Тебе следует уложиться в час.",
+          "isCorrect": false
+        },
+        {
+          "text": "На тест, по идее, хватит часа.",
+          "isCorrect": true
+        },
+        {
+          "text": "Часа на тест точно хватит, я в этом уверен.",
+          "isCorrect": false
+        },
+        {
+          "text": "Час на тест — это слишком мало.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "подлежащее здесь не человек, а отрезок времени, слушаться ему некого — значит, перед нами ожидание говорящего, а не совет. Полная уверенность прозвучала бы как **must be enough**, а **should** оставляет место осечке."
     }
   ],
   "transformation_exercises": [
@@ -4354,6 +4994,29 @@
         }
       ],
       "explanation": "в левой колонке говорит не человек, а правило, поэтому там уместен **must**. В правой — обычные люди про свои обстоятельства, и **must** звучал бы там приказом сверху."
+    },
+    {
+      "id": 143,
+      "taskDescription": "распредели фразы по тому, что в них сообщает should.",
+      "categories": [
+        {
+          "title": "Совет человеку",
+          "items": [
+            "You should slow down a bit",
+            "You shouldn't sign it yet",
+            "Should I apologise to Jack?"
+          ]
+        },
+        {
+          "title": "Ожидание говорящего",
+          "items": [
+            "The plumber should get here by noon",
+            "The battery should last all day",
+            "This code should work now"
+          ]
+        }
+      ],
+      "explanation": "слева **should** обращён к человеку, который может послушаться, — это совет. Справа слушаться некому: говорящий просто сообщает, чего ждёт от сантехника, батареи и кода."
     }
   ],
   "find_the_odd_exercises": [
