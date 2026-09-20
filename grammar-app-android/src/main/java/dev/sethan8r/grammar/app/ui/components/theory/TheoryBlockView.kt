@@ -531,7 +531,7 @@ private fun TableCapsule(cells: List<String>, widths: List<Dp>, isHeader: Boolea
                 fontWeight = if (isHeader || index == 0) FontWeight.Medium else null,
                 fontSize = if (isHeader) 13.sp else 14.sp,
                 lineHeight = if (isHeader) 16.sp else 20.sp,
-                textAlign = if (isHeader) TextAlign.Center else TextAlign.Start,
+                textAlign = TextAlign.Center,
             )
             if (index < cells.lastIndex) {
                 Box(
