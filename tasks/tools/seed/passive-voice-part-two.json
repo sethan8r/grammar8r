@@ -32,6 +32,13 @@
       "title": "Being and Empty Cells · Процесс и пустые клетки",
       "order": 3,
       "searchKeywords": "is being built, дом строится или построен, два разных being, почему нельзя has been being"
+    },
+    {
+      "id": 247,
+      "topicId": 38,
+      "title": "Passive Without a Tense · Пассив, у которого нет своего времени",
+      "order": 4,
+      "searchKeywords": "must be done, it needs to be fixed, being told, формы без своего времени"
     }
   ],
   "grammar_cards": [
@@ -1428,6 +1435,682 @@
         "Как сказать по-английски, что над чем-то долго работают?",
         "Когда я смогу использовать will have been done?"
       ]
+    },
+    {
+      "id": 670,
+      "microtopicId": 247,
+      "title": "Модальный + be + V3: это надо сделать",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В теме «Модальные глаголы» была таблица «Что стоит после модального»: **must do** · **must be doing** · **must have done**. Две нижние строки в ней — **must be done** и **must have been done** — стояли с пометкой «разберём в Passive Voice», и рядом было сказано: учить их отдельной непонятной формулой не придётся. Пришло время это проверить — и обещание окажется правдой."
+        },
+        {
+          "type": "heading",
+          "text": "Почему здесь нечего учить"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сложим два факта, которые у вас уже есть. Первый: после модального глагола всегда стоит базовая форма — **must go**, **can swim**, **should call**. Второй: базовая форма страдательного залога — это `be + V3`. Ставим второе на место первого, и всё готово."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Модальный + be + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It must be done today.** — это надо сделать сегодня;",
+            "**The castle can be seen from the train.** — замок видно из поезда;",
+            "**The report should be finished by Friday.** — отчёт стоило бы закончить к пятнице;",
+            "**The concert might be cancelled.** — концерт могут отменить."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Приглядитесь к русским переводам: почти везде безличное «надо сделать», «видно», «могут отменить» — деятеля мы не называем. Именно поэтому конструкция такая ходовая: она описывает задачу, а не исполнителя."
+        },
+        {
+          "type": "heading",
+          "text": "Заменители модальных ведут себя как обычные глаголы"
+        },
+        {
+          "type": "paragraph",
+          "text": "`have to` и `be able to` — не модальные, а обычные конструкции, поэтому время берут на себя, а правая часть не меняется вовсе:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It has to be done today.** · **It had to be done yesterday.** · **It will have to be done sooner or later.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание, вопрос и краткий ответ"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This door mustn't be opened.** · **The form needn't be filled in.**",
+            "**Must it be done today?** → **Yes, it must.** / **No, it needn't.**",
+            "**Can it be seen from the road?** · **Shouldn't it be done first?**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**This door mustn't be opened** значит «открывать запрещено», а **The form needn't be filled in** — «заполнять не обязательно». Пару `mustn't` и `needn't` мы разбирали в «Модальных глаголах», но в страдательном залоге она особенно коварна: по-русски и там и там просится «не надо», а разница между запретом и свободой выбора огромная."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Условное would — тот же самый случай"
+        },
+        {
+          "type": "paragraph",
+          "text": "Условные предложения вы строите уверенно, и `would` ведёт себя в них как обычный модальный: справа от него базовая форма. Значит страдательный залог встаёт туда без всяких переделок: **If they found out, I would be fired.** А если речь о несбывшемся прошлом, добавляется знакомое `have`: **It would have been done yesterday if you had asked.** Сюда же вежливая формула деловой переписки — **It would be appreciated.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Осталась вторая подписанная клетка из таблицы модальных: догадка о том, что уже сделали."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После модального стоит базовая форма, а базовая форма страдательного залога — `be + V3`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Модальный + be + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ключевые формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It must be done today.** · **It can be seen from here.** · **It should be finished by Friday.**",
+            "`have to` берёт время на себя: **It had to be done yesterday.**",
+            "`would` работает так же: **If they found out, I would be fired.**",
+            "Вопрос и отрицание: **Must it be done?** → **Yes, it must.** / **No, it needn't.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This door mustn't be opened** (запрещено) ↔ **The form needn't be filled in** (не обязательно)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It must to be done** ✗ → **It must be done** ✓ — после модального `to` не ставится.",
+            "**It must be do today** ✗ → **It must be done today** ✓ — после `be` нужна третья форма."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Это надо сделать сегодня.",
+          "en": "It must be done today."
+        },
+        {
+          "ru": "Замок видно из поезда.",
+          "en": "The castle can be seen from the train."
+        },
+        {
+          "ru": "Анкету заполнять не обязательно.",
+          "en": "The form needn't be filled in."
+        },
+        {
+          "ru": "Эту дверь открывать нельзя.",
+          "en": "This door mustn't be opened."
+        },
+        {
+          "ru": "Если бы они узнали, меня бы уволили.",
+          "en": "If they found out, I would be fired."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после модального не нужно ставить to be?",
+        "Чем mustn't be done отличается от needn't be done?",
+        "Как сказать то же самое через have to?"
+      ]
+    },
+    {
+      "id": 671,
+      "microtopicId": 247,
+      "title": "Модальный + have been + V3: догадка о том, что уже сделали",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая клетка из таблицы модальных — и снова ничего нового. Догадку о прошлом вы уже строите: **She must have forgotten** («наверное, забыла»), **He could have called** («мог бы позвонить»). Остаётся добавить одно слово — `been`, — и догадка станет страдательной."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Модальный + have been + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Разберём фразу по кусочкам"
+        },
+        {
+          "type": "paragraph",
+          "text": "Длинная форма пугает, пока не разложишь её на роли. Возьмём **My bike must have been stolen**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`must` — это догадка, а не обязанность;",
+            "`have` — дело уже случилось;",
+            "`been` — наша связка;",
+            "`stolen` — само действие."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Четыре кусочка, и каждый вам знаком по отдельности. Вместе они значат «велосипед, похоже, украли»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should have been told about the change.** — вас должны были предупредить (а не предупредили);",
+            "**The flight could have been cancelled.** — рейс могли отменить;",
+            "**It can't have been finished so fast.** — не может быть, чтобы это закончили так быстро."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He must have taken it** значит «это он взял», а **It must have been taken** — «это кто-то взял». По-русски обе догадки звучат почти одинаково, и разница только в том, кто герой фразы: в первом случае человек, во втором — вещь, с которой что-то сделали."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание, вопрос и краткий ответ"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The letter shouldn't have been sent.** — письмо не стоило отправлять;",
+            "**Could it have been cancelled?** → **Yes, it could.** / **No, it couldn't.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где это живёт"
+        },
+        {
+          "type": "paragraph",
+          "text": "Везде, где человек обнаружил результат и строит версию: пропала вещь, отменился рейс, испортился файл, кто-то не получил письмо. Русский в таких случаях говорит «наверное, забрали», «видимо, отменили», «должно быть, стёрли» — и каждая такая фраза по-английски собирается нашей формулой."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Догадка о том, что действие уже совершили над подлежащим."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Модальный + have been + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как читается фраза"
+        },
+        {
+          "type": "paragraph",
+          "text": "**My bike must have been stolen.** — `must` догадка · `have` уже случилось · `been` связка · `stolen` действие."
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He must have taken it** (взял он) ↔ **It must have been taken** (взял кто-то)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The letter shouldn't have been sent.**",
+            "**Could it have been cancelled?** → **Yes, it could.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частая ошибка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It must have been stole** ✗ → **It must have been stolen** ✓ — после `been` работает только третья форма."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мой велосипед, похоже, украли.",
+          "en": "My bike must have been stolen."
+        },
+        {
+          "ru": "Вас должны были предупредить об изменении.",
+          "en": "You should have been told about the change."
+        },
+        {
+          "ru": "Рейс могли отменить.",
+          "en": "The flight could have been cancelled."
+        },
+        {
+          "ru": "Не может быть, чтобы это закончили так быстро.",
+          "en": "It can't have been finished so fast."
+        },
+        {
+          "ru": "Письмо не стоило отправлять.",
+          "en": "The letter shouldn't have been sent."
+        }
+      ],
+      "clarificationOptions": [
+        "Зачем в этой форме нужно слово been?",
+        "Чем It must have taken отличается от It must have been taken?",
+        "Как сказать, что чего-то точно не делали?"
+      ]
+    },
+    {
+      "id": 672,
+      "microtopicId": 247,
+      "title": "to be done — пассивный инфинитив",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Дальше начинаются формы, у которых нет своего времени вообще. Инфинитив — как раз такая: он называет действие, но ничего не сообщает о том, когда оно происходит; время задаёт глагол-хозяин слева. И если действие совершают не подлежащее, а над подлежащим, инфинитив становится страдательным."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "To be + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I want to be paid on Friday.** — хочу, чтобы мне заплатили в пятницу;",
+            "**He hopes to be invited.** — надеется, что его пригласят;",
+            "**The car needs to be fixed.** — машину надо починить;",
+            "**It's nice to be asked.** — приятно, когда спрашивают."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему без этой формы русский застревает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на переводы: в каждом стоит целое придаточное — «чтобы мне заплатили», «что его пригласят», «когда спрашивают». Русский язык иначе не умеет, и рука честно тянется построить то же самое по-английски: **I want that they pay me** ✗. Так не говорят. Английский сворачивает всю эту конструкцию в три слова — `to be paid`, — и подлежащее при этом остаётся тем же самым человеком, который хочет."
+        },
+        {
+          "type": "heading",
+          "text": "Две формы об одном и том же"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Герундий после глагола» мы разбирали пару **I need to clean my shoes** («мне надо почистить») и **My shoes need cleaning** («туфли требуют чистки»). Вот теперь видно, что было спрятано во второй фразе: смысл у неё страдательный — туфли не чистят сами себя, их чистят. Поэтому **My shoes need cleaning** и **My shoes need to be cleaned** значат одно и то же, просто первая звучит разговорнее. Так же устроено **The room requires painting.**"
+        },
+        {
+          "type": "heading",
+          "text": "Откуда в страдательном залоге берётся to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть красивая деталь, которую легко принять за ошибку. Некоторые глаголы в действительном залоге стоят с голым инфинитивом, без `to`, — мы это видели в теме «Смотреть, слушать и понимать» (**I saw him cross the street**) и у `make` из «Императива». А в страдательном залоге `to` внезапно появляется:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**They made him wait.** → **He was made to wait.**",
+            "**I saw him cross the street.** → **He was seen to cross the street.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Запоминать тут нечего, достаточно знать, что так и должно быть: без `to` эти фразы в страдательном залоге звучали бы оборванно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У глагола `let` страдательной пары нет вовсе — **He was let to go** ✗ не говорят. Вместо него берут знакомую конструкцию из «Модальных глаголов»: **He was allowed to go.**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: not перед всей формой"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He asked not to be disturbed.** — попросил, чтобы его не беспокоили;",
+            "**I'd rather not be told.** — я предпочёл бы, чтобы мне не говорили."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Частица `not` встаёт перед всей конструкцией целиком, а не внутрь неё. Якорь, который вы видели сотню раз, — табличка на двери отеля: **Do not disturb.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Осталась последняя форма без времени — та, что стоит после предлогов."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Действие называют без времени, и совершают его над подлежащим."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "To be + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ключевые примеры"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I want to be paid on Friday.** · **He hopes to be invited.** · **The car needs to be fixed.**",
+            "**My shoes need cleaning** = **My shoes need to be cleaned** — смысл страдательный в обеих.",
+            "Отрицание: `not` перед всей формой — **He asked not to be disturbed.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда берётся to"
+        },
+        {
+          "type": "paragraph",
+          "text": "**They made him wait** → **He was made to wait.** · **I saw him cross** → **He was seen to cross.** У `let` пары нет: говорят **He was allowed to go.**"
+        },
+        {
+          "type": "heading",
+          "text": "Частая ошибка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I want that they pay me** ✗ → **I want to be paid** ✓ — вместо придаточного короткая форма."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я хочу, чтобы мне заплатили в пятницу.",
+          "en": "I want to be paid on Friday."
+        },
+        {
+          "ru": "Он надеется, что его пригласят.",
+          "en": "He hopes to be invited."
+        },
+        {
+          "ru": "Машину надо починить.",
+          "en": "The car needs to be fixed."
+        },
+        {
+          "ru": "Он попросил, чтобы его не беспокоили.",
+          "en": "He asked not to be disturbed."
+        },
+        {
+          "ru": "Его заставили ждать.",
+          "en": "He was made to wait."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать I want that they pay me?",
+        "Чем need cleaning отличается от need to be cleaned?",
+        "Куда ставить not в этой форме?"
+      ]
+    },
+    {
+      "id": 673,
+      "microtopicId": 247,
+      "title": "being done — пассивный герундий",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последняя форма без своего времени — та, что стоит после предлогов и после глаголов вроде `hate`, `like`, `avoid`, `mind`, `enjoy`. В теме «Герундий после глагола» мы её мельком видели: там **I hate being told what to do** было дано на узнавание с пометкой «полный разбор — в теме про страдательный залог». Разбираем."
+        },
+        {
+          "type": "heading",
+          "text": "Где она стоит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Место то же самое, где по правилу герундия нужна «вещь»: после предлога и после глаголов списка. Просто внутрь этой вещи встал страдательный залог — действие совершают над подлежащим, а не оно само."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Being + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I hate being told what to do.** — терпеть не могу, когда мне указывают;",
+            "**He avoided being seen.** — старался, чтобы его не заметили;",
+            "**She's afraid of being misunderstood.** — боится, что её неправильно поймут;",
+            "**Nobody likes being interrupted.** — никому не нравится, когда его перебивают."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Зачем это русскому"
+        },
+        {
+          "type": "paragraph",
+          "text": "Снова посмотрите на переводы: по-русски на этом месте каждый раз стоит целая придаточная часть — «когда мне указывают», «чтобы его не заметили», «что её неправильно поймут». Своими силами человек её и построит: **I hate it when people tell me what to do** — такая фраза существует и ошибкой не является, но она длинная, и в письменной речи носитель почти всегда свернёт её в два слова. Вот ради этих двух слов карточка и написана: знаете форму — говорите коротко."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: not перед формой"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He was upset about not being invited.** — расстроился, что его не пригласили;",
+            "**Nobody likes not being told the truth.** — никому не нравится, когда правду скрывают."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило то же, что у обычного герундия (**Sorry for not calling**): `not` встаёт перед всей формой."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В книгах и официальной речи встречается ещё и **having been + V3** — **He admitted having been paid.** Это тот же герундий, только про действие, которое случилось раньше. Достаточно узнавать его в лицо: в разговоре так почти не говорят."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чем закончилась микротема"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы прошли три формы, у которых нет своего времени: после модального (**It must be done**), инфинитив (**to be done**) и герундий (**being done**). Ни одна из них не сообщает, когда всё происходит, — это делает хозяин слева. А сама начинка везде одна и та же: связка плюс третья форма."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Форма стоит после предлога и после глаголов вроде `hate`, `like`, `avoid`, `mind`: действие совершают над подлежащим."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Being + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ключевые примеры"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I hate being told what to do.** · **He avoided being seen.** · **She's afraid of being misunderstood.**",
+            "Отрицание: `not` перед формой — **He was upset about not being invited.**",
+            "Книжное **having been + V3** (**He admitted having been paid**) — только на узнавание."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частая ошибка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He avoided to be seen** ✗ → **He avoided being seen** ✓ — после `avoid` стоит форма на `-ing`, и в страдательном залоге тоже."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Терпеть не могу, когда мне указывают.",
+          "en": "I hate being told what to do."
+        },
+        {
+          "ru": "Он старался, чтобы его не заметили.",
+          "en": "He avoided being seen."
+        },
+        {
+          "ru": "Она боится, что её неправильно поймут.",
+          "en": "She's afraid of being misunderstood."
+        },
+        {
+          "ru": "Никому не нравится, когда его перебивают.",
+          "en": "Nobody likes being interrupted."
+        },
+        {
+          "ru": "Он расстроился, что его не пригласили.",
+          "en": "He was upset about not being invited."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после hate нельзя сказать to be told?",
+        "Чем being told отличается от to be told?",
+        "Как сказать то же самое, но с not?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1586,6 +2269,90 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 240,
       "orderInCard": 3
+    },
+    {
+      "cardId": 670,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 50,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 670,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 244,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 670,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 107,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 670,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 241,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 671,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 113,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 671,
+      "exerciseType": "MATCHING",
+      "exerciseId": 117,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 671,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 232,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 672,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 214,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 672,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 268,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 672,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 125,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 672,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 128,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 673,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 148,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 673,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 233,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 673,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 245,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1620,6 +2387,22 @@
       "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card670_ex1",
+      "cardId": 670,
+      "title": "Скажи через модальный",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card673_ex1",
+      "cardId": 673,
+      "title": "Сверни придаточное",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -1638,7 +2421,16 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 895,
+      "word": "to interrupt",
+      "translation": "перебивать, прерывать",
+      "transcription": "[ˌɪntəˈrʌpt]",
+      "microtopicId": 247,
+      "categoryId": "useful_words"
+    }
+  ],
   "table_fill_exercises": [
     {
       "id": 49,
@@ -1662,6 +2454,29 @@
         }
       ],
       "explanation": "во всех четырёх строках глагол остаётся третьей формой washed — меняется только связка слева от него: is, was, will be, has been. Она и сообщает время."
+    },
+    {
+      "id": 50,
+      "taskDescription": "впиши страдательную форму глагола to send с каждым модальным — подлежащее the letter.",
+      "rows": [
+        {
+          "hint": "must",
+          "answer": "must be sent"
+        },
+        {
+          "hint": "can",
+          "answer": "can be sent"
+        },
+        {
+          "hint": "should",
+          "answer": "should be sent"
+        },
+        {
+          "hint": "might",
+          "answer": "might be sent"
+        }
+      ],
+      "explanation": "модальный не меняется никогда, а справа от него стоит базовая форма — в страдательном залоге это be плюс третья форма. Поэтому во всех четырёх строках меняется только первое слово."
     }
   ],
   "true_false_exercises": [
@@ -1819,6 +2634,37 @@
         }
       ],
       "explanation": "второе и четвёртое предложения собраны по правилам, но таких форм в английском нет: связка идёт подряд в двух формах. Сказать это можно только действительным залогом — They'll be building the house next year и They've been cleaning the shop all morning."
+    },
+    {
+      "id": 241,
+      "statements": [
+        {
+          "en": "The documents must be signed today.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The old bridge can be seen from the hill.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The work must be do by Monday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Your ticket should is checked at the gate.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The meeting might be cancelled tomorrow.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "в третьем предложении после be стоит первая форма — нужна третья: must be done. В четвёртом после модального появилась личная форма связки, а должна быть базовая: should be checked."
     }
   ],
   "word_arrangement_exercises": [
@@ -1840,6 +2686,24 @@
         "books"
       ],
       "explanation": "после will связка стоит в базовой форме be, а за ней третья форма booked. Форма been работает только после have или has, is с will не сочетается вовсе, а books — это действие самого столика."
+    },
+    {
+      "id": 214,
+      "situationRu": "RU: Она надеется, что её возьмут на эту работу.",
+      "correctSentence": "She hopes to be offered the job.",
+      "words": [
+        "She hopes",
+        "to",
+        "be",
+        "offered",
+        "the job"
+      ],
+      "distractors": [
+        "being",
+        "is",
+        "that"
+      ],
+      "explanation": "после hopes идёт инфинитив, а страдательный инфинитив собирается как to be плюс третья форма. Форма being здесь не работает, а придаточное с that английский в этом месте не строит."
     }
   ],
   "multiple_choice_exercises": [
@@ -1989,6 +2853,90 @@
         }
       ],
       "explanation": "длительное действие в будущем страдательный залог выразить не может — эта клетка пустая. Смысл передают действительным залогом с безличным they."
+    },
+    {
+      "id": 244,
+      "choiceType": "CHOICE",
+      "prompt": "The form is optional, so it ___.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "mustn't be filled in",
+          "isCorrect": false
+        },
+        {
+          "text": "needn't be filled in",
+          "isCorrect": true
+        },
+        {
+          "text": "isn't filling in",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "анкета необязательная, значит речь о свободе выбора — needn't. Форма mustn't be filled in означала бы запрет: заполнять нельзя."
+    },
+    {
+      "id": 113,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The email might have been deleted.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Возможно, письмо удалили.",
+          "isCorrect": true
+        },
+        {
+          "text": "Возможно, письмо удалится само.",
+          "isCorrect": false
+        },
+        {
+          "text": "Письмо надо удалить.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "форма have been deleted сообщает, что действие уже совершили над письмом, а might добавляет неуверенность — это догадка. Обязанность звучала бы как must be deleted, а «удалится само» страдательным залогом вообще не передают."
+    },
+    {
+      "id": 268,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я хочу, чтобы мне перезвонили сегодня.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I want that they call me back today.",
+          "isCorrect": false
+        },
+        {
+          "text": "I want to be called back today.",
+          "isCorrect": true
+        },
+        {
+          "text": "I want to call back today.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "русское придаточное сворачивается в страдательный инфинитив: тот, кто хочет, и тот, кому перезвонят, — один человек. Третий вариант означал бы, что перезванивать собираюсь я сам."
+    },
+    {
+      "id": 245,
+      "choiceType": "CHOICE",
+      "prompt": "She was upset about ___ to the meeting.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "not being invited",
+          "isCorrect": true
+        },
+        {
+          "text": "being not invited",
+          "isCorrect": false
+        },
+        {
+          "text": "not being invite",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после предлога about стоит форма being плюс третья форма, а отрицание not встаёт перед всей формой целиком, а не внутрь неё."
     }
   ],
   "text_input_exercises": [
@@ -2021,6 +2969,36 @@
         "отменили",
         "уже отправили"
       ]
+    },
+    {
+      "id": 125,
+      "items": [
+        {
+          "sentence": "The workers want ___ in cash.",
+          "contextRu": "",
+          "answer": "to be paid",
+          "alternatives": []
+        },
+        {
+          "sentence": "He hopes ___ to the wedding.",
+          "contextRu": "",
+          "answer": "to be invited",
+          "alternatives": []
+        },
+        {
+          "sentence": "The boss asked not ___ before noon.",
+          "contextRu": "",
+          "answer": "to be disturbed",
+          "alternatives": []
+        }
+      ],
+      "explanation": "во всех трёх действие совершают над подлежащим, поэтому нужен страдательный инфинитив to be плюс третья форма. В третьем пункте отрицание стоит перед всей формой — not to be disturbed.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "чтобы его не беспокоили",
+        "чтобы им заплатили",
+        "что его пригласят"
+      ]
     }
   ],
   "dialog_restore_exercises": [],
@@ -2047,6 +3025,29 @@
         }
       ],
       "explanation": "короткая форма сообщает результат: забор покрашен, документы проверены. Форма с being сообщает, что работа идёт или шла в тот момент, а результата ещё нет."
+    },
+    {
+      "id": 117,
+      "taskDescription": "соедини английскую фразу с её смыслом.",
+      "pairs": [
+        {
+          "left": "It must have been repaired",
+          "right": "наверняка починили"
+        },
+        {
+          "left": "It can't have been repaired",
+          "right": "не может быть, что починили"
+        },
+        {
+          "left": "It should have been repaired",
+          "right": "должны были починить, но нет"
+        },
+        {
+          "left": "It might have been repaired",
+          "right": "может быть, починили"
+        }
+      ],
+      "explanation": "конструкция во всех четырёх одна и та же, меняется только модальный — а он и задаёт степень уверенности: от «наверняка» через «может быть» до «не может быть»."
     }
   ],
   "error_correction_exercises": [
@@ -2125,6 +3126,44 @@
         }
       ],
       "explanation": "формы has been being в английском нет. Когда страдательный залог начинает громоздиться, фразу разворачивают в действительный и называют деятеля — пусть даже безличного they."
+    },
+    {
+      "id": 232,
+      "wrongSentence": "The parcel must has been sent yesterday.",
+      "options": [
+        {
+          "text": "The parcel must been sent yesterday.",
+          "isCorrect": false
+        },
+        {
+          "text": "The parcel must have been send yesterday.",
+          "isCorrect": false
+        },
+        {
+          "text": "The parcel must have been sent yesterday.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после модального стоит базовая форма have, а не has — модальный не берёт окончаний и не меняет то, что идёт за ним. Дальше по формуле идут been и третья форма sent."
+    },
+    {
+      "id": 233,
+      "wrongSentence": "Nobody likes being interrupt in the middle of a sentence.",
+      "options": [
+        {
+          "text": "Nobody likes be interrupted in the middle of a sentence.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nobody likes to being interrupted in the middle of a sentence.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nobody likes being interrupted in the middle of a sentence.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после being всегда идёт третья форма — interrupted. В первом варианте связка пропала совсем, а сочетания to being в английском не бывает: перед формой на -ing частица to не ставится."
     }
   ],
   "construction_meaning_exercises": [],
@@ -2147,6 +3186,25 @@
         }
       ],
       "explanation": "в каждом предложении дополнение встало в начало, глагол ушёл в третью форму, а деятель исчез — он и так неважен. Связка взяла время исходного глагола: painted значит прошедшее was, has broken значит has been, will close значит will be."
+    },
+    {
+      "id": 107,
+      "taskDescription": "перепиши каждое предложение в страдательном залоге, сохранив модальный глагол.",
+      "items": [
+        {
+          "original": "They must clean the kitchen.",
+          "transformed": "The kitchen must be cleaned."
+        },
+        {
+          "original": "You can see the tower from here.",
+          "transformed": "The tower can be seen from here."
+        },
+        {
+          "original": "They should repair the lift.",
+          "transformed": "The lift should be repaired."
+        }
+      ],
+      "explanation": "дополнение уходит в начало, деятель исчезает, а модальный остаётся на месте — меняется только то, что стоит справа от него: вместо базовой формы глагола встаёт be плюс третья форма."
     }
   ],
   "categorization_exercises": [
@@ -2218,6 +3276,29 @@
         }
       ],
       "explanation": "смотрим, что стоит справа от being. Признак человека — rude, difficult, kind — значит речь о поведении в эту минуту. Третья форма глагола — painted, fixed, checked — значит действие совершают над подлежащим."
+    },
+    {
+      "id": 148,
+      "taskDescription": "распредели фразы по тому, что стоит слева от формы на -ing.",
+      "categories": [
+        {
+          "title": "Предлог",
+          "items": [
+            "tired of being ignored",
+            "afraid of being fired",
+            "upset about being left out"
+          ]
+        },
+        {
+          "title": "Глагол",
+          "items": [
+            "hates being watched",
+            "avoids being photographed",
+            "doesn't mind being asked"
+          ]
+        }
+      ],
+      "explanation": "форма being плюс третья форма встаёт в двух местах: после предлога (of, about) и после глаголов вроде hate, avoid, mind. Место то же, где по правилу герундия нужна вещь, — просто внутри неё страдательный залог."
     }
   ],
   "find_the_odd_exercises": [
@@ -2266,6 +3347,29 @@
         }
       ],
       "explanation": "третья фраза собрана по правилам, но связка в ней идёт подряд в двух формах — been being, и язык такого не терпит. Вместо неё берут действительный залог: They've been sending the letters."
+    },
+    {
+      "id": 128,
+      "groupDescription": "Три фразы значат, что действие совершают над подлежащим, а одна выбивается",
+      "items": [
+        {
+          "text": "She hopes to be promoted",
+          "isOdd": false
+        },
+        {
+          "text": "The roof needs to be repaired",
+          "isOdd": false
+        },
+        {
+          "text": "He promised to call the office",
+          "isOdd": true
+        },
+        {
+          "text": "Nobody wants to be woken up at five",
+          "isOdd": false
+        }
+      ],
+      "explanation": "в трёх фразах стоит страдательный инфинитив to be плюс третья форма: повысят её, починят крышу, разбудят человека. В фразе про звонок подлежащее действует само — он обещал позвонить."
     }
   ]
 }

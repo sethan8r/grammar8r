@@ -7340,9 +7340,9 @@ theory/
 │   │       Future Continuous пассива практически не имеет — так и говорим, отдельной строкой.
 │   │       ➡️ ДОЛГ ПРОСТАВЛЕН в «Future Perfect» и «Future Continuous» (20.09.2026).
 │   │
-│   ├── МТ · Passive Without a Tense · Пассив, у которого нет своего времени (4 карточки)
+│   ├── МТ247 · Passive Without a Tense · Пассив, у которого нет своего времени (4 карточки) ✅ (написана, ALL GREEN 21.09.26)
 │   │   🔤 Слив (1): to interrupt.
-│   │   ├── Card · Модальный + `be` + V3  ⬅️ ДОЛГ МОДАЛЬНЫХ (клетка в Card 637 уже подписана)
+│   │   ├── Card 670 · Модальный + `be` + V3  ⬅️ ДОЛГ МОДАЛЬНЫХ (клетка в Card 637 уже подписана)
 │   │   │   `It must be done` · `can be seen` · `should be finished` · `might be cancelled` ·
 │   │   │   `has to be done` · `will have to be done`. Ничего нового: после модального базовая форма,
 │   │   │   а базовая форма пассива — `be + V3`. Опора на каркас «что стоит после модального».
@@ -7352,12 +7352,12 @@ theory/
 │   │   │     `If they found out, I would be fired` · `It would have been done yesterday if you had
 │   │   │     asked` · вежливое `It would be appreciated`. Условные пройдены, второй и третий тип
 │   │   │     человек строит уверенно — и упирается ровно там, где справа нужен пассив. Механики
-│   │   │     новой нет: `would` — такой же модальный, после него `be + V3` и `have been + V3`.
-│   │   ├── Card · Модальный + `have been` + V3 — догадка о том, что уже сделали
+│   │   │     новой нет: `would` — такой же модальный, после него `be + V3` и `have been + V3`.+ AI (скажи через модальный, RU→EN).
+│   │   ├── Card 671 · Модальный + `have been` + V3 — догадка о том, что уже сделали
 │   │   │   `It must have been stolen` · `should have been told` · `could have been cancelled` ·
 │   │   │   `can't have been finished`. Это второй этаж модальных (опора, не разбор) в пассиве —
 │   │   │   вторая подписанная клетка Card 637.
-│   │   ├── Card · `to be done` — пассивный инфинитив
+│   │   ├── Card 672 · `to be done` — пассивный инфинитив
 │   │   │   `I want to be paid on Friday` · `It needs to be fixed` · `He hopes to be invited` ·
 │   │   │   `It's nice to be asked`.
 │   │   │   🆕 ДОЛГ ГЕРУНДИЯ (Card 625): `My shoes need cleaning` = `need to be cleaned` — активная
@@ -7369,7 +7369,7 @@ theory/
 │   │   │   🆕 ОТРИЦАНИЕ НЕЛИЧНОЙ ФОРМЫ (чек-лист форм §3 — для личных форм расписан, для этих был
 │   │   │     пропущен): `not` встаёт ПЕРЕД всей формой — `He asked not to be disturbed` ·
 │   │   │     `I'd rather not be told`. Узнаваемый якорь — табличка на двери `Do not disturb`.
-│   │   └── Card · `being done` — пассивный герундий  ⬅️ ДОЛГ ГЕРУНДИЯ (Card 629, Card 618)
+│   │   └── Card 673 · `being done` — пассивный герундий  ⬅️ ДОЛГ ГЕРУНДИЯ (Card 629, Card 618)
 │   │       `I hate being told what to do` · `He avoided being seen` · `She's afraid of being
 │   │       misunderstood` · `Nobody likes being interrupted`.
 │   │       Ось: место то же, где по правилу «Герундия» нужна вещь (после предлога и после глаголов
