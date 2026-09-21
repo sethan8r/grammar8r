@@ -1,0 +1,615 @@
+{
+  "grammar_topics": [
+    {
+      "id": 38,
+      "title": "Страдательный залог: все формы",
+      "order": 24,
+      "isPretopic": false,
+      "description": "Вторая половина страдательного залога: связка be встаёт в любую знакомую форму, а третья форма не меняется — от has been done и is being built до must be done, being told и It is said that",
+      "categoryId": null,
+      "searchKeywords": "пассив во всех временах, has been done, is being done, пассив с модальными, it is said that, безличные предложения, got fired"
+    }
+  ],
+  "grammar_topic_categories": [],
+  "grammar_microtopics": [
+    {
+      "id": 244,
+      "topicId": 38,
+      "title": "Passive: Part Two · Пассив: вторая половина",
+      "order": 1,
+      "searchKeywords": "третья форма не меняется, почему меняется только be, почему разбито на две части, сколько всего форм у пассива"
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 663,
+      "microtopicId": 244,
+      "title": "Половина пассива у вас уже есть",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Начнём с новости, которая сильно облегчает жизнь: это **вторая часть** темы, а первую мы уже прошли — она называется «Passive (Basic) · Страдательный залог: be + V3». Там мы разобрали сам залог, собрали формулу и научились строить её в двух временах. Так что на пустом месте вы не стоите — у вас на руках ровно половина."
+        },
+        {
+          "type": "heading",
+          "text": "Что уже на руках"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "что такое залог и чем действительный отличается от страдательного;",
+            "три русских способа сказать одно и то же: «билеты продали», «дом строится», «дом был построен»;",
+            "четыре причины, по которым деятеля не называют вовсе;",
+            "формула `be + V3` и переворот действительного залога в три шага;",
+            "отрицание, вопрос, отрицательный вопрос и краткий ответ — и всё это без помощника `did`;",
+            "три лица `was`: после него может стоять прилагательное, форма на `-ing` или третья форма;",
+            "ловушки **was wrote** ✗ и **was went** ✗ — на месте третьей формы должна быть именно третья;",
+            "готовые бытовые фразы: **I was told**, **I am called**, **I was born**, **Made in Italy**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Этого хватало ровно на два времени — настоящее простое и прошедшее простое. А пассив живёт во всех временах, и не только в них."
+        },
+        {
+          "type": "heading",
+          "text": "Что вы видите в текстах, но пока не собираете"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The tickets have been sold.** — билеты уже продали;",
+            "**The car is being repaired.** — машину чинят прямо сейчас;",
+            "**It must be done today.** — это надо сделать сегодня;",
+            "**I hate being told what to do.** — терпеть не могу, когда мне указывают;",
+            "**I was given a book.** — мне подарили книгу;",
+            "**The doctor was sent for.** — за доктором послали;",
+            "**It is said that he is rich.** — говорят, что он богат."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Семь разных фраз — и, кажется, семь новых конструкций, которые предстоит выучить. Приглядитесь ещё раз: во всех семи на своём месте стоит **третья форма** — **sold, repaired, done, told, given, sent, said**. Она нигде не изменилась. Меняется только то, что стоит **слева** от неё."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Нужная форма be + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот это и есть корень всей темы: смысловой глагол в пассиве **застывает** в третьей форме навсегда, а двигается одна связка. Значит новых конструкций впереди нет вообще — есть уже знакомые формы `be`, которые надо поставить перед неизменной третьей формой. Все они у вас есть: **will be, has been, had been, is being, must be, to be, being**."
+        },
+        {
+          "type": "heading",
+          "text": "Один глагол, шесть форм"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The room is cleaned every day.** — комнату убирают каждый день;",
+            "**The room was cleaned yesterday.** — убрали вчера;",
+            "**The room will be cleaned tomorrow.** — уберут завтра;",
+            "**The room has been cleaned already.** — уже убрали;",
+            "**The room is being cleaned right now.** — убирают прямо сейчас;",
+            "**The room must be cleaned before six.** — надо убрать до шести."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Шесть разных смыслов — и ни одной новой формы глагола: слово `cleaned` не поменялось ни разу. По-русски, кстати, менялось всё: «убирают», «убрали», «уберут», «надо убрать». Английскому для этого хватает связки."
+        },
+        {
+          "type": "heading",
+          "text": "Почему вторая часть только сейчас"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос законный: если формула одна и та же, почему не дали всё сразу? Ответ честный. Половина форм пассива стоит на том, чего в курсе на тот момент ещё не было: **has been done** требует перфекта, **is being done** — длительного времени, **must be done** — модальных глаголов, **being told** — герундия, **is going to be done** — конструкции с going to. Собирать их было попросту не из чего. Зато теперь всё пройдено — и пассив можно показать целиком, а не кусочками."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Тема большая — десять микротем и около двадцати пяти карточек, — и проходить её за один присест не нужно. Каждая микротема закрывает свой кусок и работает сама по себе. Размер здесь не равен трудности: конструкция всю дорогу одна и та же, мы просто ставим `be` в разные знакомые формы. А времени она стоит вот почему: пассивом написана половина всего, что вы читаете, — новости, инструкции, объявления, деловые письма, — и после этой темы мы к пассиву больше не возвращаемся."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Карта темы"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Микротема",
+            "Что даст",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Пассив в любом времени",
+              "be встаёт в форму нужного времени",
+              "The tickets have been sold"
+            ],
+            [
+              "Процесс и пустые клетки",
+              "«делают прямо сейчас» и чего язык не говорит",
+              "The house is being built"
+            ],
+            [
+              "Пассив без своего времени",
+              "после модального, инфинитив, герундий",
+              "It must be done"
+            ],
+            [
+              "Кто встаёт в начало",
+              "«мне дали», «за доктором послали»",
+              "I was given a book"
+            ],
+            [
+              "Кем, чем и из чего",
+              "by, with и be made of",
+              "It's made of wood"
+            ],
+            [
+              "Разговорный пассив",
+              "get вместо связки",
+              "He got fired"
+            ],
+            [
+              "Где пассива нет",
+              "где русское «-ся» — не пассив",
+              "The door opened"
+            ],
+            [
+              "Говорят, что…",
+              "безличное и выбор залога",
+              "It is said that…"
+            ],
+            [
+              "Живая практика",
+              "всё вместе на живых фразах",
+              "It's been sold"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В конце первой части стояла таблица-превью — **will be done**, **have been sold**, **is being built** — с честной пометкой «пока только узнавай». Вот мы и пришли: все три формы разберём в ближайших микротемах, и строить их вы будете сами."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Начнём, впрочем, не с форм. Сначала посмотрим, где именно русскому языку в этой теме неудобно — почти все ошибки растут оттуда, а не из сборки."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Третья форма не меняется никогда — двигается только связка, поэтому новых конструкций в теме нет."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Нужная форма be + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как узнать пассив"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "После связки стоит третья форма → действие идёт над подлежащим: **The keys were found.**",
+            "После связки прилагательное или форма на `-ing` → это не пассив: **The shop is open.** или **He is running.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The letter was wrote** ✗ → **The letter was written** ✓ — на этом месте третья форма, а не вторая.",
+            "**Did the bill was paid?** ✗ → **Was the bill paid?** ✓ — вопрос в пассиве строит сама связка, `did` не нужен."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Билеты уже продали.",
+          "en": "The tickets have been sold."
+        },
+        {
+          "ru": "Машину чинят прямо сейчас.",
+          "en": "The car is being repaired right now."
+        },
+        {
+          "ru": "Это надо сделать сегодня.",
+          "en": "It must be done today."
+        },
+        {
+          "ru": "Кате подарили книгу.",
+          "en": "Kate was given a book."
+        },
+        {
+          "ru": "Говорят, что мост построили в 1890 году.",
+          "en": "It is said that the bridge was built in 1890."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем эта часть темы отличается от первой?",
+        "Почему в пассиве меняется только связка, а сам глагол нет?",
+        "Обязательно ли проходить всю тему подряд?"
+      ]
+    },
+    {
+      "id": 664,
+      "microtopicId": 244,
+      "title": "Почему русскому здесь сложнее, чем кажется",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Со сборкой у вас проблем не будет: связка плюс третья форма — это вы уже умеете. Трудность в другом. Есть три места, где русский язык устроен принципиально иначе, и почти все ошибки темы растут именно оттуда. Разберём их сразу, чтобы дальше было видно, за чем следить."
+        },
+        {
+          "type": "heading",
+          "text": "Беда первая: русское «-ся» бывает и не пассивом"
+        },
+        {
+          "type": "paragraph",
+          "text": "В первой части мы говорили, что русское «-ся» часто и есть страдательный залог: «дом строится» — значит, дом строят. Но это работает не всегда. Сравните две русские фразы: «дом строится» и «дверь открылась». Окончание одно, а смысл разный — в первой кто-то строит, во второй дверь открылась сама, и никакого деятеля за ней нет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский эту разницу пишет прямо в предложении. Где деятель есть — пассив: **The door was opened by the wind.** Где действие произошло само — обычный действительный залог, без всякой связки: **The door opened.** Сюда же — «книга хорошо продаётся» (**The book sells well**) и «стакан разбился» (**The glass broke**)."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The accident was happened** ✗ → **The accident happened** ✓. Русское «случилось» выглядит возвратным, рука привычно дописывает связку — и получается фраза, в которой кто-то «случил» аварию. Подробно эту границу мы разберём в микротеме «Где пассива нет»; сейчас достаточно знать, что она есть."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Беда вторая: «говорят» и «считается»"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски безличная фраза строится одинаково и без усилий: «говорят, что он уехал», «считается, что это полезно», «сообщается, что дорогу закроют». Подлежащего в них нет вовсе, и нас это не смущает."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английскому предложению подлежащее нужно обязательно, поэтому на одну русскую форму у него приходится три разных выхода: **They say he has left.** (разговорный, с деятелем-пустышкой), **It is said that he has left.** (безличный пассив, язык новостей), **He is said to have left.** (формальный, где подлежащим встаёт сам человек). Русскому кажется, что это одно и то же предложение, — а выбирать приходится. Займёмся этим в микротеме «Говорят, что…»."
+        },
+        {
+          "type": "heading",
+          "text": "Беда третья: «мне дали» — где в английском стоит человек"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский прячет человека в дательный падеж: «мне дали анкету», «нам сказали подождать», «ему посоветовали приехать раньше». Кто главный герой фразы? Формально — никто: подлежащего в ней нет."
+        },
+        {
+          "type": "paragraph",
+          "text": "У английского падежей нет вообще, и выкручивается он иначе: человека ставят **подлежащим**. Отсюда **I was given a form.** — по устройству это «я был тем, кому дали анкету», а по-живому просто «мне дали анкету». Главным героем фразы стало `I`, хотя анкету дали мне, а не я кому-то. И отсюда же знакомое **We were told to wait.** Фразу **I was told** вы уже знаете как готовую формулу из первой части — теперь видно, откуда она взялась и почему собрана именно так."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**To me was given a form** ✗ и **Me was given a form** ✗ → **I was given a form** ✓. Рука ищет дательный падеж и ставит в начало «мне» — но в английском начало предложения занимает подлежащее, а подлежащее бывает только в именительном."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметьте, что общего у всех трёх бед: ни одна не про сборку. Собрать `be + V3` вы можете уже сейчас — трудность в том, **нужен ли здесь пассив вообще** и **кто встанет в начало**. Поэтому половина темы будет про форму, а половина — про границу. Начнём с формы: поставим связку во все времена, которые вы уже знаете."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Три места, где русский сбивает с толку."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«-ся» не всегда пассив: **The door was opened.** (кто-то открыл) ↔ **The door opened.** (само).",
+            "«говорят» — три разных выхода: **They say…** · **It is said that…** · **He is said to…**",
+            "«мне дали» — человек встаёт подлежащим: **I was given a form.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The accident was happened** ✗ → **The accident happened** ✓ — деятеля нет, пассив строить не из чего.",
+            "**To me was given a form** ✗ → **I was given a form** ✓ — дательного падежа в английском нет, в начале стоит подлежащее."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Это случилось вчера вечером.",
+          "en": "It happened yesterday evening."
+        },
+        {
+          "ru": "Дверь была открыта ветром.",
+          "en": "The door was opened by the wind."
+        },
+        {
+          "ru": "Говорят, что этот ресторан очень хороший.",
+          "en": "It is said that this restaurant is very good."
+        },
+        {
+          "ru": "Мне дали анкету на входе.",
+          "en": "I was given a form at the entrance."
+        },
+        {
+          "ru": "Нам сказали подождать снаружи.",
+          "en": "We were told to wait outside."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что русское слово на «-ся» переведётся действительным залогом?",
+        "Почему нельзя сказать To me was given?",
+        "Чем It is said that отличается от They say?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 663,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 145,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 663,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 111,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 663,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 236,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 664,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 265,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 664,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 228,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 664,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 126,
+      "orderInCard": 2
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "useful_words",
+      "nameRus": "Полезные слова",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "useful_words",
+      "nameRus": "Полезные слова",
+      "groupId": "useful_words",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 236,
+      "statements": [
+        {
+          "en": "The parcel was delivered on Monday.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My bike was stole last night.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Are the tickets checked at the door?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Did the bill was paid yesterday?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The report was written by Megan.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении стоит вторая форма вместо третьей — верно было бы was stolen. В четвёртом лишний помощник: в пассиве вопрос строит сама связка, поэтому Was the bill paid yesterday? Остальные три собраны правильно."
+    }
+  ],
+  "word_arrangement_exercises": [],
+  "multiple_choice_exercises": [
+    {
+      "id": 111,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The bread is baked every morning.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Хлеб пекут каждое утро.",
+          "isCorrect": true
+        },
+        {
+          "text": "Хлеб пёк каждое утро.",
+          "isCorrect": false
+        },
+        {
+          "text": "Хлеб испекли сегодня утром.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "связка в настоящем времени плюс третья форма baked значит, что хлеб пекут регулярно, а кто именно — фраза не сообщает. Второй вариант делает хлеб деятелем, третий переводит всё в прошедшее — тогда было бы was baked."
+    },
+    {
+      "id": 265,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мне дали ключи на ресепшене.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "To me was given the keys at the reception.",
+          "isCorrect": false
+        },
+        {
+          "text": "Me was given the keys at the reception.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was given the keys at the reception.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "дательного падежа в английском нет, поэтому человек, которому что-то дали, встаёт подлежащим — I. Формы To me и Me подлежащим быть не могут: начало предложения занимает именительный падеж."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 228,
+      "wrongSentence": "The letter was arrived this morning.",
+      "options": [
+        {
+          "text": "The letter is arrived this morning.",
+          "isCorrect": false
+        },
+        {
+          "text": "The letter arrived this morning.",
+          "isCorrect": true
+        },
+        {
+          "text": "The letter was arriving this morning.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "глагол arrive не берёт дополнения: письмо никто не «прибывал», оно прибыло само. Страдательный залог забирает в подлежащее дополнение — а здесь забирать нечего, поэтому нужен обычный глагол в прошедшем времени."
+    }
+  ],
+  "construction_meaning_exercises": [],
+  "transformation_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 145,
+      "taskDescription": "распредели предложения по тому, кто действует — подлежащее само или кто-то другой над ним.",
+      "categories": [
+        {
+          "title": "Подлежащее действует само",
+          "items": [
+            "Ben drives a taxi",
+            "Sonya sings in a choir",
+            "Tom lost his keys"
+          ]
+        },
+        {
+          "title": "С подлежащим что-то делают",
+          "items": [
+            "The offices are locked at night",
+            "The photos were taken in Prague",
+            "These shoes are made in Portugal"
+          ]
+        }
+      ],
+      "explanation": "в правой колонке после связки стоит третья форма — locked, taken, made: действие идёт над подлежащим, а кто его делает, предложение не сообщает. В левой колонке связки нет вовсе, и подлежащее действует само."
+    }
+  ],
+  "find_the_odd_exercises": [
+    {
+      "id": 126,
+      "groupDescription": "Три предложения сообщают, что с подлежащим что-то сделали, а одно выбивается",
+      "items": [
+        {
+          "text": "The window was broken during the storm",
+          "isOdd": false
+        },
+        {
+          "text": "The letters were sent on Friday",
+          "isOdd": false
+        },
+        {
+          "text": "Emma came back on Sunday",
+          "isOdd": true
+        },
+        {
+          "text": "The room was booked online",
+          "isOdd": false
+        }
+      ],
+      "explanation": "Эмма вернулась сама — над ней никто ничего не совершал, и связки в предложении нет. В трёх остальных после связки стоит третья форма: окно разбили, письма отправили, номер забронировали."
+    }
+  ]
+}
