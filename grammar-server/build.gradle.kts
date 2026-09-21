@@ -1,25 +1,29 @@
 plugins {
-    alias(libs.plugins.kotlin.jvm)
-    alias(libs.plugins.ktor)
+    java
+    alias(libs.plugins.spring.boot)
 }
 
 group = "dev.sethan8r"
 version = "0.0.1"
 
-application {
-    mainClass = "io.ktor.server.netty.EngineMain"
-}
-
-kotlin {
-    jvmToolchain(21)
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
 }
 
 dependencies {
-    implementation(libs.ktor.server.core.jvm)
-    implementation(libs.ktor.server.netty)
-    implementation(libs.logback.classic)
-    implementation(libs.ktor.server.core)
-    implementation(libs.ktor.server.config.yaml)
-    testImplementation(libs.ktor.server.test.host)
-    testImplementation(libs.kotlin.test.junit)
+    implementation(platform(libs.spring.boot.dependencies))
+    implementation(libs.spring.boot.starter.web)
+    implementation(libs.spring.boot.starter.actuator)
+
+    // DTO контракта API. Сериализуются ТОЛЬКО через kotlinx: Jackson игнорирует @SerialName
+    // и тихо разводит контракт с клиентом — см. phase4_server.md → «Шероховатости».
+    implementation(project(":grammar-shared"))
+
+    testImplementation(libs.spring.boot.starter.test)
+}
+
+tasks.test {
+    useJUnitPlatform()
 }

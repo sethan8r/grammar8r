@@ -1,6 +1,13 @@
-ktor:
+spring:
   application:
-    modules:
-      - dev.sethan8r.ApplicationKt.module
-  deployment:
-    port: 8080
+    name: grammar-server
+
+server:
+  port: 8080
+
+# Наружу открыт только health — остальные эндпоинты Actuator светят конфигом и бинами.
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health

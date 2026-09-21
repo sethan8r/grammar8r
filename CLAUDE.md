@@ -80,6 +80,7 @@
 - `tasks/phases/phase3/` — AI-упражнения, практика
 - `tasks/phases/phase3/ai_base_prompt.md` — базовый системный промт (составной, правила сборки по `basics_` prefix и `words[]`)
 - `tasks/phases/phase4/phase4_server.md` — сервер
+- `tasks/phases/phase4/phase4_infra_draft.md` — **ЧЕРНОВИК, ничего не согласовано**: словарный прокси и кэш переводов, TTL, Redis, число баз, железо, раскладка контейнеров, сайт с логином и оплатой, DDoS, мониторинг и Telegram-бот с алертами. Запись диалога 21.09.2026 — прочитать и переобсудить перед стартом Фазы 4, в решения не превращать молча
 - `tasks/words8r_plan.md` — интеграция с Words8r
 - `tasks/practice_plan.md` — подробный план вкладки Практика
 - `tasks/phases/phase3/practice_ai_ideas.md` — копилка сырых идей по самостоятельным AI-режимам Практики (не привязанным к теории), откуда они дозревают в `practice_plan.md`

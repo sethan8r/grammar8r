@@ -1,8 +1,7 @@
 [versions]
 agp = "9.1.1"
 kotlin = "2.4.20"
-ktor = "3.4.2"
-logback = "1.4.14"
+springBoot = "4.1.1"
 coreKtx = "1.18.0"
 lifecycleRuntimeKtx = "2.10.0"
 activityCompose = "1.13.0"
@@ -40,12 +39,10 @@ androidx-room-testing = { group = "androidx.room", name = "room-testing", versio
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
 javax-inject = { group = "javax.inject", name = "javax.inject", version.ref = "javaxInject" }
-ktor-server-core-jvm = { group = "io.ktor", name = "ktor-server-core-jvm", version.ref = "ktor" }
-ktor-server-netty = { group = "io.ktor", name = "ktor-server-netty", version.ref = "ktor" }
-ktor-server-core = { group = "io.ktor", name = "ktor-server-core", version.ref = "ktor" }
-ktor-server-config-yaml = { group = "io.ktor", name = "ktor-server-config-yaml", version.ref = "ktor" }
-ktor-server-test-host = { group = "io.ktor", name = "ktor-server-test-host", version.ref = "ktor" }
-logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
+spring-boot-dependencies = { group = "org.springframework.boot", name = "spring-boot-dependencies", version.ref = "springBoot" }
+spring-boot-starter-web = { group = "org.springframework.boot", name = "spring-boot-starter-web" }
+spring-boot-starter-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator" }
+spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test" }
 kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version.ref = "kotlin" }
 sqlite-jdbc = { group = "org.xerial", name = "sqlite-jdbc", version.ref = "sqliteJdbc" }
 
@@ -56,4 +53,4 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
-ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
+spring-boot = { id = "org.springframework.boot", version.ref = "springBoot" }
