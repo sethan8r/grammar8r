@@ -18,6 +18,13 @@
       "title": "Passive: Part Two · Пассив: вторая половина",
       "order": 1,
       "searchKeywords": "третья форма не меняется, почему меняется только be, почему разбито на две части, сколько всего форм у пассива"
+    },
+    {
+      "id": 245,
+      "topicId": 38,
+      "title": "Any Tense · Пассив в любом времени",
+      "order": 2,
+      "searchKeywords": "в каком времени ставить be, перевернуть в страдательный залог, has been done, will be done, has done или has been done"
     }
   ],
   "grammar_cards": [
@@ -399,6 +406,597 @@
         "Почему нельзя сказать To me was given?",
         "Чем It is said that отличается от They say?"
       ]
+    },
+    {
+      "id": 665,
+      "microtopicId": 245,
+      "title": "Ставим be в то время, где стоял глагол",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы договорились о главном: третья форма стоит намертво, двигается только связка. Значит при сборке пассива у нас остаётся ровно один вопрос — **в какой форме ставить `be`**. Ответ короткий, и работает он всегда: связка встаёт в то самое время, в котором в действительном залоге стоял смысловой глагол."
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на это как на дележ обязанностей. У обычного глагола две работы: назвать действие и сообщить время. В пассиве он их делит: время, лицо и число забирает себе `be`, а глагол только называет действие и застывает в третьей форме. Отсюда приятный вывод: сколько времён вы знаете — столько форм пассива вы уже умеете собрать."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Be в том же времени, что и глагол + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Четыре переворота на одном глаголе"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**They clean the office every day.** → **The office is cleaned every day.**",
+            "**They cleaned the office yesterday.** → **The office was cleaned yesterday.**",
+            "**They have cleaned the office.** → **The office has been cleaned.**",
+            "**They had cleaned the office before we came.** → **The office had been cleaned before we came.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проследите за словом `cleaned`: оно не изменилось ни разу. Всю работу со временем взяла на себя связка — is, was, has been, had been. И вот здесь английский оказывается даже удобнее русского: у нас на эти же четыре случая четыре разных слова — «убирают», «убрали», «убрано», «было убрано», — и каждое надо помнить отдельно."
+        },
+        {
+          "type": "heading",
+          "text": "Какую форму be взять"
+        },
+        {
+          "type": "paragraph",
+          "text": "По подлежащему и числу, как всегда: **the room is cleaned** ↔ **the rooms are cleaned**, **the room was cleaned** ↔ **the rooms were cleaned**. Ничего нового: это тот же выбор формы `to be`, который мы делаем с самых «Основ»."
+        },
+        {
+          "type": "heading",
+          "text": "Пассив во всех временах курса"
+        },
+        {
+          "type": "paragraph",
+          "text": "Времена идут в том же порядке, в каком мы проходили их в курсе:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Время",
+            "Действительный залог",
+            "Страдательный залог"
+          ],
+          "rows": [
+            [
+              "Present Simple",
+              "They send the parcel",
+              "The parcel is sent"
+            ],
+            [
+              "Present Continuous",
+              "They are sending the parcel",
+              "The parcel is being sent"
+            ],
+            [
+              "Past Simple",
+              "They sent the parcel",
+              "The parcel was sent"
+            ],
+            [
+              "Past Continuous",
+              "They were sending the parcel",
+              "The parcel was being sent"
+            ],
+            [
+              "Future (will)",
+              "They will send the parcel",
+              "The parcel will be sent"
+            ],
+            [
+              "Future (going to)",
+              "They are going to send it",
+              "It is going to be sent"
+            ],
+            [
+              "Present Perfect",
+              "They have sent the parcel",
+              "The parcel has been sent"
+            ],
+            [
+              "Past Perfect",
+              "They had sent the parcel",
+              "The parcel had been sent"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Восемь строк — и ни одной новой конструкции: слева от `sent` стоят формы `be`, которые вы уже собираете свободно. Две строки со словом `being` — про то, что делают прямо сейчас или делали в тот момент; у них своя микротема дальше, а пока достаточно увидеть, что место в таблице у них есть."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В таблице не хватает двух клеток, и это не случайность. Форму `will be being done` язык не говорит вовсе, а `will have been done` («это сделают до какого-то момента в будущем») существует, но стоит на времени Future Perfect, которого в курсе ещё не было. Обе разберём в микротеме «Процесс и пустые клетки»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сам переворот мы проходили в первой части, поэтому повторим одной строкой: дополнение уходит в начало, глагол — в третью форму, деятель либо исчезает, либо встаёт в хвост с `by`. Новое здесь ровно одно — время связки."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Время съезжает. **They built this house in 1970** → **This house is built in 1970** ✗ → **This house was built in 1970** ✓. Руку тянет к настоящему, потому что дом стоит и сейчас. Но мы сообщаем не о том, что дом существует, а о том, что его построили, — а построили в 1970-м, значит связка прошедшая."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Связка выпала совсем. **The office cleaned every day** ✗ → **The office is cleaned every day** ✓. По-русски «офис убирают» — это одно слово-глагол, и рука честно ставит одно. Без `be` английская фраза читается наоборот: получается, что офис сам кого-то убирал."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше пройдём по временам подробно: сначала будущее, где форм две, потом перфект, где связка выглядит непривычно длинно."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Третья форма не меняется, время несёт связка: она встаёт в то же время, в котором стоял смысловой глагол. Форма `be` выбирается по подлежащему: **the room is cleaned** ↔ **the rooms are cleaned**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Be в том же времени, что и глагол + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формы по временам"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Present Simple → **is / are sent**",
+            "Present Continuous → **is being sent**",
+            "Past Simple → **was / were sent**",
+            "Past Continuous → **was being sent**",
+            "Future → **will be sent** · **is going to be sent**",
+            "Present Perfect → **has / have been sent**",
+            "Past Perfect → **had been sent**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This house is built in 1970** ✗ → **This house was built in 1970** ✓ — связка копирует время исходного глагола.",
+            "**The office cleaned every day** ✗ → **The office is cleaned every day** ✓ — без связки фраза читается как «офис убирал»."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Багаж проверяют перед вылетом.",
+          "en": "The luggage is checked before the flight."
+        },
+        {
+          "ru": "Этот дом построили в 1970 году.",
+          "en": "This house was built in 1970."
+        },
+        {
+          "ru": "Стены покрасят на следующей неделе.",
+          "en": "The walls will be painted next week."
+        },
+        {
+          "ru": "Лифт починили.",
+          "en": "The lift has been repaired."
+        },
+        {
+          "ru": "Дорогу закрыли до того, как мы приехали.",
+          "en": "The road had been closed before we arrived."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, в каком времени ставить связку?",
+        "Что будет, если связку вообще не поставить?",
+        "Почему глагол в страдательном залоге никогда не меняется?"
+      ]
+    },
+    {
+      "id": 666,
+      "microtopicId": 245,
+      "title": "Будущее: will be done и is going to be done",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Будущее в страдательном залоге собирается ровно по тому же принципу, и учить новые слова не придётся. Форм будущего в английском две — с `will` и с `going to`, — и обе спокойно берут пассив: после них ставится связка `be`, а за ней третья форма."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will be + V3 · am/is/are going to be + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Your order will be delivered on Friday.** — заказ доставят в пятницу;",
+            "**The road is going to be closed for repairs.** — дорогу собираются закрыть на ремонт."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чем will отличается от going to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ровно тем же, чем и в действительном залоге, — мы разбирали это в теме «Future · Будущее время», и пассив на эту разницу никак не влияет. `will` — решение, обещание, прогноз: **Don't worry, the report will be sent today** (решаю прямо сейчас и обещаю). `going to` — план, который уже существует, или очевидное развитие событий: **The report is going to be sent today** (так и было задумано с утра)."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание, вопрос и краткий ответ"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "отрицание: **The parcel won't be delivered today.**",
+            "вопрос: **Will the parcel be delivered today?**",
+            "отрицательный вопрос: **Won't the parcel be delivered today?** — «разве его не доставят сегодня?», когда вы ожидали обратного;",
+            "краткий ответ: **Yes, it will.** / **No, it won't.**",
+            "с `going to` всё то же самое, только вперёд выходит связка: **It isn't going to be delivered.** · **Is it going to be delivered?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание: помощник `do/does/did` здесь не нужен — как и в первой части темы. Вопрос строит `will` или сама связка, они выходят вперёд подлежащего, и этого достаточно."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'll call you as soon as the car will be repaired** ✗ → **I'll call you as soon as the car is repaired** ✓. Это правило пришло не из пассива: после `when`, `as soon as`, `before`, `until` английский ставит настоящее время, хотя речь о будущем — мы проходили это в теме «Future Simple». В страдательном залоге оно работает точно так же: связка встаёт в настоящую форму, а смысл остаётся будущим."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где вы встретите эту форму чаще всего"
+        },
+        {
+          "type": "paragraph",
+          "text": "Три места, где будущий пассив живёт постоянно: сроки и доставка (**Your parcel will be delivered by six**), объявления (**The shop will be closed for two days**) и рабочая переписка (**The documents will be checked tomorrow**). Во всех трёх деятель не назван — и именно поэтому выбран страдательный залог: получателю неважно, кто именно повезёт посылку и проверит документы."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Будущее берёт связку в базовой форме. Разница между `will` и `going to` та же, что в действительном залоге: решение и обещание ↔ готовый план."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will be + V3 · am/is/are going to be + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The parcel won't be delivered today.**",
+            "**Will the parcel be delivered today?** → **Yes, it will.** / **No, it won't.**",
+            "**Won't the parcel be delivered today?** — разве не доставят?",
+            "**Is it going to be delivered?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**as soon as the car will be repaired** ✗ → **as soon as the car is repaired** ✓ — после `when`, `as soon as`, `before` ставится настоящая форма связки.",
+            "**The parcel will delivered tomorrow** ✗ → **The parcel will be delivered tomorrow** ✓ — после `will` связка обязательна."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Твой заказ доставят завтра до шести.",
+          "en": "Your order will be delivered by six tomorrow."
+        },
+        {
+          "ru": "Дорогу собираются закрыть на ремонт.",
+          "en": "The road is going to be closed for repairs."
+        },
+        {
+          "ru": "Документы завтра не проверят.",
+          "en": "The documents won't be checked tomorrow."
+        },
+        {
+          "ru": "Разве магазин не закроют на два дня?",
+          "en": "Won't the shop be closed for two days?"
+        },
+        {
+          "ru": "Я позвоню тебе, когда машину починят.",
+          "en": "I'll call you when the car is repaired."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после as soon as нельзя поставить will?",
+        "Чем will be done отличается от is going to be done?",
+        "Как задать вопрос в будущем страдательном залоге?"
+      ]
+    },
+    {
+      "id": 667,
+      "microtopicId": 245,
+      "title": "Перфект: has been done и had been done",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Перфект у вас уже на руках: `have/has + V3` — «уже сделал, и результат виден сейчас». Что произойдёт, если то же самое надо сказать в страдательном залоге? Ровно то, что всегда: между помощником и глаголом встанет связка. А поскольку после `have` связка обязана стоять в третьей форме, появляется `been`: **The report has been sent.**"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/has been + V3 · had been + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Три слова подряд поначалу пугают, но разбираются на части прозрачно: `has` сообщает, что дело уже сделано, `been` — это наша связка, `sent` — само действие. Разложите любую длинную фразу на эти три роли, и она перестанет быть загадкой."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Nick has cleaned the kitchen** (Ник убрал кухню) ↔ **The kitchen has been cleaned** (кухню убрали). Помощник `has` один и тот же, а герой разный: в первой фразе человек действует сам, во второй с кухней что-то сделали, и кто именно — не сказано. Вся разница — одно слово `been`, и именно его русское ухо пропускает."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Зачем носитель выбирает эту форму"
+        },
+        {
+          "type": "paragraph",
+          "text": "Затем же, зачем и обычный перфект: важен результат, который есть сейчас. **The email has been sent** — письмо отправлено, оно уже у получателя, и когда именно его отправили, неважно. Правило вы знаете из Present Perfect, здесь оно просто применено к подлежащему, которое не действует, а получает действие."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The shop is closed** ↔ **The shop has been closed since Monday**. По-русски обе фразы звучат одинаково — «магазин закрыт». Но первая описывает состояние прямо сейчас (`closed` здесь ведёт себя почти как прилагательное), а вторая сообщает, что его закрыли, и это тянется с понедельника. Ориентир простой: если рядом стоит `since` или `for` либо важно, что кто-то это сделал, — берите `has been`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Форма had been — прошлое раньше другого прошлого"
+        },
+        {
+          "type": "paragraph",
+          "text": "Логика Past Perfect не меняется: одно прошлое случилось раньше другого. В страдательном залоге добавилось только `been`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Dinner had been cooked before the guests arrived.** — ужин приготовили до того, как приехали гости;",
+            "**The tickets had already been sold when I called.** — билеты уже продали, когда я позвонил."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание, вопрос и краткий ответ"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The email hasn't been sent yet.**",
+            "**Has the email been sent?** → **Yes, it has.** / **No, it hasn't.**",
+            "**Hasn't the email been sent yet?** — «разве его ещё не отправили?»",
+            "в прошедшем: **The room hadn't been cleaned.** · **Had the room been cleaned?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сокращения — без них не разобрать на слух"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It's been sold.** = it has been sold;",
+            "**They've been told.** = they have been told;",
+            "**It'll be done.** = it will be done;",
+            "**It'd be done.** = it would be done."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**It's sold** ↔ **It's been sold**. Апостроф с `s` один и тот же, а стоит за ним разное: в первом случае это `is` (продано — состояние), во втором `has` (продали — результат действия). Отличить легко по `been`: оно бывает только после `have` или `has`, значит есть `been` — читайте `'s` как `has`. С самим сокращением вы уже знакомы по Present Perfect, здесь оно просто встретилось в пассиве."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Куда встаёт наречие"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The parcel has just been sent.** — посылку только что отправили;",
+            "**The room has already been cleaned.** — комнату уже убрали;",
+            "**The bill hasn't been paid yet.** — счёт ещё не оплатили."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Наречие `just`, `already`, `never` встаёт сразу после первого помощника, то есть внутрь конструкции, — а русская рука норовит унести его в конец фразы (**has been sent just** ✗). Правило то же, что было в Present Perfect; исключение одно и тоже знакомое: `yet` живёт в самом конце."
+        },
+        {
+          "type": "paragraph",
+          "text": "Остался последний кусок картины — форма для того, что делают прямо сейчас. Ею займёмся в следующей микротеме."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`have/has` сообщает, что дело сделано, `been` — связка, третья форма — действие. `had been` — прошлое раньше другого прошлого."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Have/has been + V3 · had been + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Nick has cleaned the kitchen** (убрал сам) ↔ **The kitchen has been cleaned** (кухню убрали).",
+            "**The shop is closed** (состояние сейчас) ↔ **The shop has been closed since Monday** (закрыли, и это тянется).",
+            "**It's sold** (`'s` = is) ↔ **It's been sold** (`'s` = has, видно по `been`)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The email hasn't been sent yet.**",
+            "**Has the email been sent?** → **Yes, it has.** / **No, it hasn't.**",
+            "**Hadn't the room been cleaned?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The parcel has been sent just** ✗ → **The parcel has just been sent** ✓ — наречие встаёт после первого помощника, и только `yet` уходит в конец.",
+            "**The room has cleaned** ✗ → **The room has been cleaned** ✓ — без `been` выходит, что комната убирала сама."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мою машину только что помыли.",
+          "en": "My car has just been washed."
+        },
+        {
+          "ru": "Счёт ещё не оплатили.",
+          "en": "The bill hasn't been paid yet."
+        },
+        {
+          "ru": "Ужин приготовили до того, как приехали гости.",
+          "en": "Dinner had been cooked before the guests arrived."
+        },
+        {
+          "ru": "Магазин закрыт с понедельника.",
+          "en": "The shop has been closed since Monday."
+        },
+        {
+          "ru": "Разве отчёт ещё не отправили?",
+          "en": "Hasn't the report been sent yet?"
+        }
+      ],
+      "clarificationOptions": [
+        "Зачем в этой форме нужно слово been?",
+        "Чем The shop is closed отличается от The shop has been closed?",
+        "Как понять, что в It's been sold апостроф означает has?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -437,9 +1035,106 @@
       "exerciseType": "FIND_THE_ODD",
       "exerciseId": 126,
       "orderInCard": 2
+    },
+    {
+      "cardId": 665,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 49,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 665,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 106,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 665,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 242,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 665,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 237,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 666,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 213,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 666,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 266,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 666,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 229,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 666,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 238,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 667,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 146,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 667,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 124,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 667,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 112,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 667,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 230,
+      "orderInCard": 3
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "passive_two_card665_ex1",
+      "cardId": 665,
+      "title": "Связка в нужном времени",
+      "userInstruction": "ИИ пришлёт предложения с пропусками и русской подсказкой смысла. Вставьте связку и третью форму.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "passive_two_card666_ex1",
+      "cardId": 666,
+      "title": "Переверни будущее в пассив",
+      "userInstruction": "ИИ пришлёт английское предложение о будущем в действительном залоге. Перепишите его в страдательном.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "passive_two_card667_ex1",
+      "cardId": 667,
+      "title": "Переверни перфект в пассив",
+      "userInstruction": "ИИ пришлёт английское предложение в перфекте. Перепишите его в страдательном залоге.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "useful_words",
@@ -457,7 +1152,31 @@
     }
   ],
   "course_words": [],
-  "table_fill_exercises": [],
+  "table_fill_exercises": [
+    {
+      "id": 49,
+      "taskDescription": "впиши страдательную форму глагола to wash для каждого времени — подлежащее the car.",
+      "rows": [
+        {
+          "hint": "Present Simple",
+          "answer": "is washed"
+        },
+        {
+          "hint": "Past Simple",
+          "answer": "was washed"
+        },
+        {
+          "hint": "Future (will)",
+          "answer": "will be washed"
+        },
+        {
+          "hint": "Present Perfect",
+          "answer": "has been washed"
+        }
+      ],
+      "explanation": "во всех четырёх строках глагол остаётся третьей формой washed — меняется только связка слева от него: is, was, will be, has been. Она и сообщает время."
+    }
+  ],
   "true_false_exercises": [
     {
       "id": 236,
@@ -489,9 +1208,91 @@
         }
       ],
       "explanation": "во втором предложении стоит вторая форма вместо третьей — верно было бы was stolen. В четвёртом лишний помощник: в пассиве вопрос строит сама связка, поэтому Was the bill paid yesterday? Остальные три собраны правильно."
+    },
+    {
+      "id": 237,
+      "statements": [
+        {
+          "en": "The road was closed yesterday.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The dishes are wash every evening.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The cake will be baked tomorrow.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "These photos are taken in 2019.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The windows were cleaned last Friday.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении после связки стоит первая форма — нужна третья: are washed. В четвёртом указан год, значит действие целиком в прошлом и связка должна быть прошедшей: were taken."
+    },
+    {
+      "id": 238,
+      "statements": [
+        {
+          "en": "The stadium will be opened next year.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The bikes are going to be repaired tomorrow.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The parcel will delivered tomorrow.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Will the hall be cleaned before the party?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I'll text you as soon as the room will be cleaned.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "в третьем предложении после will пропала связка: нужно will be delivered. В пятом после as soon as стоит будущее время, а должно стоять настоящее: as soon as the room is cleaned."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 213,
+      "situationRu": "RU: Столик забронируют на восемь.",
+      "correctSentence": "The table will be booked for eight.",
+      "words": [
+        "The table",
+        "will",
+        "be",
+        "booked",
+        "for eight"
+      ],
+      "distractors": [
+        "is",
+        "been",
+        "to be",
+        "books"
+      ],
+      "explanation": "после will связка стоит в базовой форме be, а за ней третья форма booked. Форма been работает только после have или has, is с will не сочетается вовсе, а books — это действие самого столика."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 111,
@@ -534,9 +1335,103 @@
         }
       ],
       "explanation": "дательного падежа в английском нет, поэтому человек, которому что-то дали, встаёт подлежащим — I. Формы To me и Me подлежащим быть не могут: начало предложения занимает именительный падеж."
+    },
+    {
+      "id": 242,
+      "choiceType": "CHOICE",
+      "prompt": "My phone ___ two days ago.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "is repaired",
+          "isCorrect": false
+        },
+        {
+          "text": "was repaired",
+          "isCorrect": true
+        },
+        {
+          "text": "has repaired",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "два дня назад — законченное прошлое, значит и связка прошедшая. Форма is repaired сказала бы, что телефон чинят вообще, а has repaired вовсе не страдательный залог: так говорят про того, кто сам что-то починил."
+    },
+    {
+      "id": 266,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я напишу тебе, как только билеты забронируют.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I'll text you as soon as the tickets are booked.",
+          "isCorrect": true
+        },
+        {
+          "text": "I'll text you as soon as the tickets will be booked.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'll text you as soon as the tickets booked.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после as soon as английский ставит настоящую форму связки, хотя речь о будущем — то же правило, что в действительном залоге. Во втором варианте лишнее will, в третьем связка потерялась совсем."
+    },
+    {
+      "id": 112,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "It's been repaired.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Это уже починили.",
+          "isCorrect": true
+        },
+        {
+          "text": "Это чинится прямо сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Это починят.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "апостроф с s здесь означает has, и видно это по слову been: has been repaired значит, что вещь починили и результат налицо. Процесс прямо сейчас потребовал бы другой формы, а «починят» — это будущее, которого в этой фразе нет."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 124,
+      "items": [
+        {
+          "sentence": "The invitations ___ to all the guests.",
+          "contextRu": "",
+          "answer": "have been sent",
+          "alternatives": []
+        },
+        {
+          "sentence": "The dishes ___ yet.",
+          "contextRu": "",
+          "answer": "haven't been washed",
+          "alternatives": []
+        },
+        {
+          "sentence": "The concert ___ because of the rain.",
+          "contextRu": "",
+          "answer": "has been cancelled",
+          "alternatives": []
+        }
+      ],
+      "explanation": "во всех трёх с подлежащим что-то сделали, поэтому между помощником и третьей формой нужна связка been. Помощник выбирается по подлежащему: invitations и dishes — множественное число, значит have, а concert — единственное, значит has.",
+      "taskDescription": "Впиши в каждое предложение подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "ещё не помыли",
+        "отменили",
+        "уже отправили"
+      ]
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [],
   "error_correction_exercises": [
@@ -558,10 +1453,68 @@
         }
       ],
       "explanation": "глагол arrive не берёт дополнения: письмо никто не «прибывал», оно прибыло само. Страдательный залог забирает в подлежащее дополнение — а здесь забирать нечего, поэтому нужен обычный глагол в прошедшем времени."
+    },
+    {
+      "id": 229,
+      "wrongSentence": "The meeting will be cancel tomorrow.",
+      "options": [
+        {
+          "text": "The meeting will cancelled tomorrow.",
+          "isCorrect": false
+        },
+        {
+          "text": "The meeting will be cancels tomorrow.",
+          "isCorrect": false
+        },
+        {
+          "text": "The meeting will be cancelled tomorrow.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после связки be всегда стоит третья форма — cancelled. В первом варианте выпала сама связка, во втором к глаголу добавилось окончание третьего лица, которого после be не бывает."
+    },
+    {
+      "id": 230,
+      "wrongSentence": "The email has been checked already.",
+      "options": [
+        {
+          "text": "The email already been checked.",
+          "isCorrect": false
+        },
+        {
+          "text": "The email has already been checked.",
+          "isCorrect": true
+        },
+        {
+          "text": "The email already has been checked.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "наречие already встаёт сразу после первого помощника, внутрь конструкции: has already been checked. В конце фразы ему не место, а в первом варианте предложение осталось вообще без помощника."
     }
   ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 106,
+      "taskDescription": "перепиши каждое предложение в страдательном залоге, не меняя времени.",
+      "items": [
+        {
+          "original": "They painted the fence last summer.",
+          "transformed": "The fence was painted last summer."
+        },
+        {
+          "original": "Somebody has broken the window.",
+          "transformed": "The window has been broken."
+        },
+        {
+          "original": "They will close the road on Monday.",
+          "transformed": "The road will be closed on Monday."
+        }
+      ],
+      "explanation": "в каждом предложении дополнение встало в начало, глагол ушёл в третью форму, а деятель исчез — он и так неважен. Связка взяла время исходного глагола: painted значит прошедшее was, has broken значит has been, will close значит will be."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 145,
@@ -585,6 +1538,29 @@
         }
       ],
       "explanation": "в правой колонке после связки стоит третья форма — locked, taken, made: действие идёт над подлежащим, а кто его делает, предложение не сообщает. В левой колонке связки нет вовсе, и подлежащее действует само."
+    },
+    {
+      "id": 146,
+      "taskDescription": "распредели предложения по тому, кто сделал дело — подлежащее само или кто-то другой.",
+      "categories": [
+        {
+          "title": "Подлежащее сделало само",
+          "items": [
+            "Jake has washed the car",
+            "We have finished the report",
+            "Emma has found her keys"
+          ]
+        },
+        {
+          "title": "С подлежащим что-то сделали",
+          "items": [
+            "The photos have been printed",
+            "The parcel hasn't been delivered",
+            "The floor has just been cleaned"
+          ]
+        }
+      ],
+      "explanation": "слева после has или have сразу идёт третья форма — действует сам человек. Справа между помощником и глаголом стоит been, и герой меняется: фотографии напечатали, посылку не доставили, пол помыли, а кто это сделал, не сказано."
     }
   ],
   "find_the_odd_exercises": [

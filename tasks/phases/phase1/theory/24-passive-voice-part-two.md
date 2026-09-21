@@ -274,26 +274,506 @@
 
 ---
 
+## Microtopic 245 — Any Tense · Пассив в любом времени
+
+**ID:** 245 | **Order:** 2
+**Теги:** в каком времени ставить be, перевернуть в страдательный залог, has been done, will be done, has done или has been done
+
+---
+
+### Card 665 · Ставим be в то время, где стоял глагол
+
+**ID:** 665 | **Order:** 1
+
+#### Theory
+
+Во вводной мы договорились о главном: третья форма стоит намертво, двигается только связка. Значит при сборке пассива у нас остаётся ровно один вопрос — **в какой форме ставить `be`**. Ответ короткий, и работает он всегда: связка встаёт в то самое время, в котором в действительном залоге стоял смысловой глагол.
+
+Посмотрите на это как на дележ обязанностей. У обычного глагола две работы: назвать действие и сообщить время. В пассиве он их делит: время, лицо и число забирает себе `be`, а глагол только называет действие и застывает в третьей форме. Отсюда приятный вывод: сколько времён вы знаете — столько форм пассива вы уже умеете собрать.
+
+**Формула:** be в том же времени, что и глагол + V3
+
+**Четыре переворота на одном глаголе**
+
+- **They clean the office every day.** → **The office is cleaned every day.**
+- **They cleaned the office yesterday.** → **The office was cleaned yesterday.**
+- **They have cleaned the office.** → **The office has been cleaned.**
+- **They had cleaned the office before we came.** → **The office had been cleaned before we came.**
+
+Проследите за словом `cleaned`: оно не изменилось ни разу. Всю работу со временем взяла на себя связка — is, was, has been, had been. И вот здесь английский оказывается даже удобнее русского: у нас на эти же четыре случая четыре разных слова — «убирают», «убрали», «убрано», «было убрано», — и каждое надо помнить отдельно.
+
+**Какую форму be взять**
+
+По подлежащему и числу, как всегда: **the room is cleaned** ↔ **the rooms are cleaned**, **the room was cleaned** ↔ **the rooms were cleaned**. Ничего нового: это тот же выбор формы `to be`, который мы делаем с самых «Основ».
+
+**Пассив во всех временах курса**
+
+Времена идут в том же порядке, в каком мы проходили их в курсе:
+
+| Время | Действительный залог | Страдательный залог |
+|-------|----------------------|---------------------|
+| Present Simple | They send the parcel | The parcel is sent |
+| Present Continuous | They are sending the parcel | The parcel is being sent |
+| Past Simple | They sent the parcel | The parcel was sent |
+| Past Continuous | They were sending the parcel | The parcel was being sent |
+| Future (will) | They will send the parcel | The parcel will be sent |
+| Future (going to) | They are going to send it | It is going to be sent |
+| Present Perfect | They have sent the parcel | The parcel has been sent |
+| Past Perfect | They had sent the parcel | The parcel had been sent |
+
+Восемь строк — и ни одной новой конструкции: слева от `sent` стоят формы `be`, которые вы уже собираете свободно. Две строки со словом `being` — про то, что делают прямо сейчас или делали в тот момент; у них своя микротема дальше, а пока достаточно увидеть, что место в таблице у них есть.
+
+**Кстати:** в таблице не хватает двух клеток, и это не случайность. Форму `will be being done` язык не говорит вовсе, а `will have been done` («это сделают до какого-то момента в будущем») существует, но стоит на времени Future Perfect, которого в курсе ещё не было. Обе разберём в микротеме «Процесс и пустые клетки».
+
+Сам переворот мы проходили в первой части, поэтому повторим одной строкой: дополнение уходит в начало, глагол — в третью форму, деятель либо исчезает, либо встаёт в хвост с `by`. Новое здесь ровно одно — время связки.
+
+**Ловушка:** время съезжает. **They built this house in 1970** → **This house is built in 1970** ✗ → **This house was built in 1970** ✓. Руку тянет к настоящему, потому что дом стоит и сейчас. Но мы сообщаем не о том, что дом существует, а о том, что его построили, — а построили в 1970-м, значит связка прошедшая.
+
+**Ловушка:** связка выпала совсем. **The office cleaned every day** ✗ → **The office is cleaned every day** ✓. По-русски «офис убирают» — это одно слово-глагол, и рука честно ставит одно. Без `be` английская фраза читается наоборот: получается, что офис сам кого-то убирал.
+
+Дальше пройдём по временам подробно: сначала будущее, где форм две, потом перфект, где связка выглядит непривычно длинно.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Третья форма не меняется, время несёт связка: она встаёт в то же время, в котором стоял смысловой глагол. Форма `be` выбирается по подлежащему: **the room is cleaned** ↔ **the rooms are cleaned**.
+
+**Формула:** be в том же времени, что и глагол + V3
+
+**Формы по временам**
+
+- Present Simple → **is / are sent**
+- Present Continuous → **is being sent**
+- Past Simple → **was / were sent**
+- Past Continuous → **was being sent**
+- Future → **will be sent** · **is going to be sent**
+- Present Perfect → **has / have been sent**
+- Past Perfect → **had been sent**
+
+**Частые ошибки**
+
+- **This house is built in 1970** ✗ → **This house was built in 1970** ✓ — связка копирует время исходного глагола.
+- **The office cleaned every day** ✗ → **The office is cleaned every day** ✓ — без связки фраза читается как «офис убирал».
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3042 | Багаж проверяют перед вылетом. | The luggage is checked before the flight. |
+| 3043 | Этот дом построили в 1970 году. | This house was built in 1970. |
+| 3044 | Стены покрасят на следующей неделе. | The walls will be painted next week. |
+| 3045 | Лифт починили. | The lift has been repaired. |
+| 3046 | Дорогу закрыли до того, как мы приехали. | The road had been closed before we arrived. |
+
+---
+
+#### Exercises
+
+**Ex 7 · TableFill** *(ID: 49)*
+
+Задание: впиши страдательную форму глагола to wash для каждого времени — подлежащее the car.
+
+| Время | Форма |
+|-------|-------|
+| Present Simple | is washed |
+| Past Simple | was washed |
+| Future (will) | will be washed |
+| Present Perfect | has been washed |
+
+*Explanation:* во всех четырёх строках глагол остаётся третьей формой washed — меняется только связка слева от него: is, was, will be, has been. Она и сообщает время.
+
+---
+
+**Ex 8 · Transformation** *(ID: 106)*
+
+Задание: перепиши каждое предложение в страдательном залоге, не меняя времени.
+
+1. "They painted the fence last summer." → **"The fence was painted last summer."**
+2. "Somebody has broken the window." → **"The window has been broken."**
+3. "They will close the road on Monday." → **"The road will be closed on Monday."**
+
+*Explanation:* в каждом предложении дополнение встало в начало, глагол ушёл в третью форму, а деятель исчез — он и так неважен. Связка взяла время исходного глагола: painted значит прошедшее was, has broken значит has been, will close значит will be.
+
+---
+
+**Ex 9 · MultipleChoice · CHOICE** *(ID: 242)*
+
+"My phone ___ two days ago."
+
+- is repaired
+- **was repaired** ✓
+- has repaired
+
+*Explanation:* два дня назад — законченное прошлое, значит и связка прошедшая. Форма is repaired сказала бы, что телефон чинят вообще, а has repaired вовсе не страдательный залог: так говорят про того, кто сам что-то починил.
+
+---
+
+**Ex 10 · TrueFalse** *(ID: 237)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | The road was closed yesterday. | ✓ |
+| 2 | The dishes are wash every evening. | ✗ |
+| 3 | The cake will be baked tomorrow. | ✓ |
+| 4 | These photos are taken in 2019. | ✗ |
+| 5 | The windows were cleaned last Friday. | ✓ |
+
+*Explanation:* во втором предложении после связки стоит первая форма — нужна третья: are washed. В четвёртом указан год, значит действие целиком в прошлом и связка должна быть прошедшей: were taken.
+
+---
+
+#### AI Exercise
+
+**ID:** passive_two_card665_ex1
+**Title:** "Связка в нужном времени"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт предложения с пропусками и русской подсказкой смысла. Вставьте связку и третью форму."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о том, что связка be встаёт в то же время, в котором стоял смысловой глагол, а сам глагол застывает в третьей форме. Он знает формулу be в нужном времени плюс третья форма и таблицу форм: is sent, is being sent, was sent, was being sent, will be sent, is going to be sent, has been sent, had been sent; форму be выбирают по подлежащему и числу (the room is cleaned, the rooms are cleaned); две ловушки карточки — время съезжает (This house is built in 1970 вместо was built) и связка выпадает совсем (The office cleaned every day вместо is cleaned). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, базовый пассив, инфинитив, косвенные вопросы, герундий, модальные глаголы. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous и Future Perfect — форм will be being done и will have been done не давай; модальный пассив (It must be done), Continuous-пассив (is being done), пассив с двумя дополнениями (I was given a book) и get-пассив (He got fired) идут в других микротемах — в заданиях их не используй. ЗАДАНИЕ: дай пользователю сразу несколько английских предложений с пропуском (всего три), пронумерованных 1, 2, 3; пропуск стоит на месте всей формы, а в конце предложения в скобках — русская подсказка смысла (убирают, построили, покрасят). Время обязано читаться из самого предложения: ставь обстоятельство (every evening, yesterday, in 1998, next week, already, before we arrived) — иначе задание не имеет однозначного ответа. Английский глагол в подсказке не называй и правило в условии не пересказывай. ДЕРЖИ ПРЕДЛОЖЕНИЯ ПРОСТЫМИ: 5-8 слов, одно подлежащее, одно действие, бытовая лексика, никаких придаточных. ЧЕРЕДУЙ ВРЕМЕНА от запуска к запуску, не повторяя набор дважды подряд, и в каждой тройке бери три разных: 1. Present Simple (The offices are cleaned every evening). 2. Past Simple (This bridge was built in 1998). 3. будущее с will (The walls will be painted next week). 4. going to (The road is going to be closed for repairs). 5. Present Perfect (The lift has been repaired already). 6. Past Perfect (The room had been cleaned before we arrived). Примерно в каждой тройке одно подлежащее давай во множественном числе, чтобы человек выбирал между is и are, was и were. Образцы дословно не повторяй, придумывай свои ситуации. ОЦЕНКА: верным считай ответ, где связка стоит в том времени, на которое указывает обстоятельство, согласована с подлежащим по числу, а смысловой глагол стоит в третьей форме. Если время съехало (This bridge is built in 1998) — скажи, что год в конце фразы требует прошедшей связки. Если связка пропала (The offices cleaned every evening) — объясни, что без be фраза читается наоборот: офисы сами кого-то убирали. Если вместо третьей формы стоит вторая (was wrote) — напомни, что в страдательном залоге работает только третья. Если связка не согласована с подлежащим (The letters is sent) — покажи форму по числу. Если вместо has been стоит has (The lift has repaired) — объясни, что без been получается, будто лифт сам что-то починил. При ошибке сначала скажи, что означала бы фраза пользователя, если она получилась осмысленной, и только потом дай верный вариант. Засчитывай сокращения (it's been, they've been) наравне с полными формами. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: '1. The offices [___] every evening. (убирают) 2. This bridge [___] in 1998. (построили) 3. The walls [___] next week. (покрасят)'
+
+#### Clarification Options
+
+- Как понять, в каком времени ставить связку?
+- Что будет, если связку вообще не поставить?
+- Почему глагол в страдательном залоге никогда не меняется?
+
+---
+
+### Card 666 · Будущее: will be done и is going to be done
+
+**ID:** 666 | **Order:** 2
+
+#### Theory
+
+Будущее в страдательном залоге собирается ровно по тому же принципу, и учить новые слова не придётся. Форм будущего в английском две — с `will` и с `going to`, — и обе спокойно берут пассив: после них ставится связка `be`, а за ней третья форма.
+
+**Формула:** will be + V3 · am/is/are going to be + V3
+
+- **Your order will be delivered on Friday.** — заказ доставят в пятницу;
+- **The road is going to be closed for repairs.** — дорогу собираются закрыть на ремонт.
+
+**Чем will отличается от going to**
+
+Ровно тем же, чем и в действительном залоге, — мы разбирали это в теме «Future · Будущее время», и пассив на эту разницу никак не влияет. `will` — решение, обещание, прогноз: **Don't worry, the report will be sent today** (решаю прямо сейчас и обещаю). `going to` — план, который уже существует, или очевидное развитие событий: **The report is going to be sent today** (так и было задумано с утра).
+
+**Отрицание, вопрос и краткий ответ**
+
+- отрицание: **The parcel won't be delivered today.**
+- вопрос: **Will the parcel be delivered today?**
+- отрицательный вопрос: **Won't the parcel be delivered today?** — «разве его не доставят сегодня?», когда вы ожидали обратного;
+- краткий ответ: **Yes, it will.** / **No, it won't.**
+- с `going to` всё то же самое, только вперёд выходит связка: **It isn't going to be delivered.** · **Is it going to be delivered?**
+
+Обратите внимание: помощник `do/does/did` здесь не нужен — как и в первой части темы. Вопрос строит `will` или сама связка, они выходят вперёд подлежащего, и этого достаточно.
+
+**Ловушка:** **I'll call you as soon as the car will be repaired** ✗ → **I'll call you as soon as the car is repaired** ✓. Это правило пришло не из пассива: после `when`, `as soon as`, `before`, `until` английский ставит настоящее время, хотя речь о будущем — мы проходили это в теме «Future Simple». В страдательном залоге оно работает точно так же: связка встаёт в настоящую форму, а смысл остаётся будущим.
+
+**Где вы встретите эту форму чаще всего**
+
+Три места, где будущий пассив живёт постоянно: сроки и доставка (**Your parcel will be delivered by six**), объявления (**The shop will be closed for two days**) и рабочая переписка (**The documents will be checked tomorrow**). Во всех трёх деятель не назван — и именно поэтому выбран страдательный залог: получателю неважно, кто именно повезёт посылку и проверит документы.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Будущее берёт связку в базовой форме. Разница между `will` и `going to` та же, что в действительном залоге: решение и обещание ↔ готовый план.
+
+**Формула:** will be + V3 · am/is/are going to be + V3
+
+**Формы**
+
+- **The parcel won't be delivered today.**
+- **Will the parcel be delivered today?** → **Yes, it will.** / **No, it won't.**
+- **Won't the parcel be delivered today?** — разве не доставят?
+- **Is it going to be delivered?**
+
+**Частые ошибки**
+
+- **as soon as the car will be repaired** ✗ → **as soon as the car is repaired** ✓ — после `when`, `as soon as`, `before` ставится настоящая форма связки.
+- **The parcel will delivered tomorrow** ✗ → **The parcel will be delivered tomorrow** ✓ — после `will` связка обязательна.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3047 | Твой заказ доставят завтра до шести. | Your order will be delivered by six tomorrow. |
+| 3048 | Дорогу собираются закрыть на ремонт. | The road is going to be closed for repairs. |
+| 3049 | Документы завтра не проверят. | The documents won't be checked tomorrow. |
+| 3050 | Разве магазин не закроют на два дня? | Won't the shop be closed for two days? |
+| 3051 | Я позвоню тебе, когда машину починят. | I'll call you when the car is repaired. |
+
+---
+
+#### Exercises
+
+**Ex 11 · WordArrangement** *(ID: 213)*
+
+RU: Столик забронируют на восемь.
+
+Правильное предложение: **The table will be booked for eight.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| The table | — |
+| will | — |
+| be | — |
+| booked | — |
+| for eight | — |
+| is | ✗ |
+| been | ✗ |
+| to be | ✗ |
+| books | ✗ |
+
+*Explanation:* после will связка стоит в базовой форме be, а за ней третья форма booked. Форма been работает только после have или has, is с will не сочетается вовсе, а books — это действие самого столика.
+
+---
+
+**Ex 12 · MultipleChoice · FORWARD_CHOICE** *(ID: 266)*
+
+"Я напишу тебе, как только билеты забронируют."
+
+- **I'll text you as soon as the tickets are booked.** ✓
+- I'll text you as soon as the tickets will be booked.
+- I'll text you as soon as the tickets booked.
+
+*Explanation:* после as soon as английский ставит настоящую форму связки, хотя речь о будущем — то же правило, что в действительном залоге. Во втором варианте лишнее will, в третьем связка потерялась совсем.
+
+---
+
+**Ex 13 · ErrorCorrection** *(ID: 229)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"The meeting will be cancel tomorrow."
+
+- The meeting will cancelled tomorrow.
+- The meeting will be cancels tomorrow.
+- **The meeting will be cancelled tomorrow.** ✓
+
+*Explanation:* после связки be всегда стоит третья форма — cancelled. В первом варианте выпала сама связка, во втором к глаголу добавилось окончание третьего лица, которого после be не бывает.
+
+---
+
+**Ex 14 · TrueFalse** *(ID: 238)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | The stadium will be opened next year. | ✓ |
+| 2 | The bikes are going to be repaired tomorrow. | ✓ |
+| 3 | The parcel will delivered tomorrow. | ✗ |
+| 4 | Will the hall be cleaned before the party? | ✓ |
+| 5 | I'll text you as soon as the room will be cleaned. | ✗ |
+
+*Explanation:* в третьем предложении после will пропала связка: нужно will be delivered. В пятом после as soon as стоит будущее время, а должно стоять настоящее: as soon as the room is cleaned.
+
+---
+
+#### AI Exercise
+
+**ID:** passive_two_card666_ex1
+**Title:** "Переверни будущее в пассив"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт английское предложение о будущем в действительном залоге. Перепишите его в страдательном."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о страдательном залоге в будущем времени. Он знает формулы will be плюс третья форма и am/is/are going to be плюс третья форма; что разница между will и going to та же, что в действительном залоге (will — решение, обещание, прогноз; going to — готовый план и очевидное развитие); формы The parcel won't be delivered today, Will the parcel be delivered today?, Won't the parcel be delivered today?, краткие ответы Yes, it will и No, it won't, а с going to вперёд выходит связка (Is it going to be delivered?); что помощник do, does, did в страдательном залоге не нужен; и ловушку придаточного времени — после when, as soon as, before, until связка стоит в настоящей форме (I'll call you as soon as the car is repaired, а не will be repaired). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, базовый пассив, инфинитив, косвенные вопросы, герундий, модальные глаголы. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous и Future Perfect — форм will be being done и will have been done не давай и не требуй; модальный пассив (It must be done), Continuous-пассив (is being done), пассив с двумя дополнениями (I was given a book) и get-пассив (He got fired) идут в других микротемах — в заданиях их не используй. ЗАДАНИЕ: дай пользователю ОДНО короткое английское предложение о будущем в действительном залоге и попроси переписать его в страдательном, сохранив оттенок будущего: было will — остаётся will, было going to — остаётся going to. ДЕРЖИ ФРАЗУ ПРОСТОЙ: 5-9 слов, одно подлежащее, одно действие, бытовая лексика, в дебри не уходи. Деятеля бери безличного — they, somebody, the workers, the cleaners, the company — чтобы в ответе его можно было опустить. В условии не подсказывай, как строится форма. ЧЕРЕДУЙ ТИП ФРАЗЫ от запуска к запуску, не повторяя один и тот же два раза подряд: 1. утверждение с will (They will close the road on Monday). 2. утверждение с going to (They are going to paint the walls next week). 3. отрицание (They won't deliver the parcel today). 4. вопрос (Will they check the documents tomorrow?). 5. придаточное времени, где вторая половина остаётся в настоящем (I'll call you as soon as they repair the car). Вопрос давай не реже чем каждый третий запуск, множественное подлежащее (the documents, the tickets) — примерно каждый третий. Образцы дословно не повторяй, придумывай свои ситуации. ОЦЕНКА: верным считай ответ, где бывшее дополнение стало подлежащим, после will или going to стоит связка be в базовой форме, а смысловой глагол стоит в третьей форме; деятеля можно опустить или поставить в хвост с by — оба варианта верны. Если связка пропала (The road will closed on Monday) — скажи, что после will всегда идёт be, а уже за ним третья форма. Если в придаточном времени появилось will (as soon as the car will be repaired) — напомни, что после as soon as, when, before английский ставит настоящую форму связки, хотя речь о будущем. Если в вопросе появился помощник do или does (Do the documents will be checked?) — объясни, что вопрос строит сам will, он выходит вперёд подлежащего. Если связка в going to не согласована с подлежащим (The walls is going to be painted) — покажи форму по числу. Если вместо третьей формы стоит первая или вторая (will be cancel, will be wrote) — напомни, что после be работает только третья. При ошибке сначала скажи, что означала бы фраза пользователя, если она получилась осмысленной, и только потом дай верный вариант. Засчитывай сокращения (won't, I'll) и другой порядок обстоятельств; если пользователь взял синоним, а грамматика верна, лексику не правь. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Перепишите в страдательном залоге: They are going to repair the lift next month.'
+
+#### Clarification Options
+
+- Почему после as soon as нельзя поставить will?
+- Чем will be done отличается от is going to be done?
+- Как задать вопрос в будущем страдательном залоге?
+
+---
+
+### Card 667 · Перфект: has been done и had been done
+
+**ID:** 667 | **Order:** 3
+
+#### Theory
+
+Перфект у вас уже на руках: `have/has + V3` — «уже сделал, и результат виден сейчас». Что произойдёт, если то же самое надо сказать в страдательном залоге? Ровно то, что всегда: между помощником и глаголом встанет связка. А поскольку после `have` связка обязана стоять в третьей форме, появляется `been`: **The report has been sent.**
+
+**Формула:** have/has been + V3 · had been + V3
+
+Три слова подряд поначалу пугают, но разбираются на части прозрачно: `has` сообщает, что дело уже сделано, `been` — это наша связка, `sent` — само действие. Разложите любую длинную фразу на эти три роли, и она перестанет быть загадкой.
+
+**Ловушка:** **Nick has cleaned the kitchen** (Ник убрал кухню) ↔ **The kitchen has been cleaned** (кухню убрали). Помощник `has` один и тот же, а герой разный: в первой фразе человек действует сам, во второй с кухней что-то сделали, и кто именно — не сказано. Вся разница — одно слово `been`, и именно его русское ухо пропускает.
+
+**Зачем носитель выбирает эту форму**
+
+Затем же, зачем и обычный перфект: важен результат, который есть сейчас. **The email has been sent** — письмо отправлено, оно уже у получателя, и когда именно его отправили, неважно. Правило вы знаете из Present Perfect, здесь оно просто применено к подлежащему, которое не действует, а получает действие.
+
+**Ловушка:** **The shop is closed** ↔ **The shop has been closed since Monday**. По-русски обе фразы звучат одинаково — «магазин закрыт». Но первая описывает состояние прямо сейчас (`closed` здесь ведёт себя почти как прилагательное), а вторая сообщает, что его закрыли, и это тянется с понедельника. Ориентир простой: если рядом стоит `since` или `for` либо важно, что кто-то это сделал, — берите `has been`.
+
+**Форма had been — прошлое раньше другого прошлого**
+
+Логика Past Perfect не меняется: одно прошлое случилось раньше другого. В страдательном залоге добавилось только `been`.
+
+- **Dinner had been cooked before the guests arrived.** — ужин приготовили до того, как приехали гости;
+- **The tickets had already been sold when I called.** — билеты уже продали, когда я позвонил.
+
+**Отрицание, вопрос и краткий ответ**
+
+- **The email hasn't been sent yet.**
+- **Has the email been sent?** → **Yes, it has.** / **No, it hasn't.**
+- **Hasn't the email been sent yet?** — «разве его ещё не отправили?»
+- в прошедшем: **The room hadn't been cleaned.** · **Had the room been cleaned?**
+
+**Сокращения — без них не разобрать на слух**
+
+- **It's been sold.** = it has been sold;
+- **They've been told.** = they have been told;
+- **It'll be done.** = it will be done;
+- **It'd be done.** = it would be done.
+
+**Ловушка:** **It's sold** ↔ **It's been sold**. Апостроф с `s` один и тот же, а стоит за ним разное: в первом случае это `is` (продано — состояние), во втором `has` (продали — результат действия). Отличить легко по `been`: оно бывает только после `have` или `has`, значит есть `been` — читайте `'s` как `has`. С самим сокращением вы уже знакомы по Present Perfect, здесь оно просто встретилось в пассиве.
+
+**Куда встаёт наречие**
+
+- **The parcel has just been sent.** — посылку только что отправили;
+- **The room has already been cleaned.** — комнату уже убрали;
+- **The bill hasn't been paid yet.** — счёт ещё не оплатили.
+
+Наречие `just`, `already`, `never` встаёт сразу после первого помощника, то есть внутрь конструкции, — а русская рука норовит унести его в конец фразы (**has been sent just** ✗). Правило то же, что было в Present Perfect; исключение одно и тоже знакомое: `yet` живёт в самом конце.
+
+Остался последний кусок картины — форма для того, что делают прямо сейчас. Ею займёмся в следующей микротеме.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`have/has` сообщает, что дело сделано, `been` — связка, третья форма — действие. `had been` — прошлое раньше другого прошлого.
+
+**Формула:** have/has been + V3 · had been + V3
+
+**Легко перепутать**
+
+- **Nick has cleaned the kitchen** (убрал сам) ↔ **The kitchen has been cleaned** (кухню убрали).
+- **The shop is closed** (состояние сейчас) ↔ **The shop has been closed since Monday** (закрыли, и это тянется).
+- **It's sold** (`'s` = is) ↔ **It's been sold** (`'s` = has, видно по `been`).
+
+**Формы**
+
+- **The email hasn't been sent yet.**
+- **Has the email been sent?** → **Yes, it has.** / **No, it hasn't.**
+- **Hadn't the room been cleaned?**
+
+**Частые ошибки**
+
+- **The parcel has been sent just** ✗ → **The parcel has just been sent** ✓ — наречие встаёт после первого помощника, и только `yet` уходит в конец.
+- **The room has cleaned** ✗ → **The room has been cleaned** ✓ — без `been` выходит, что комната убирала сама.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3052 | Мою машину только что помыли. | My car has just been washed. |
+| 3053 | Счёт ещё не оплатили. | The bill hasn't been paid yet. |
+| 3054 | Ужин приготовили до того, как приехали гости. | Dinner had been cooked before the guests arrived. |
+| 3055 | Магазин закрыт с понедельника. | The shop has been closed since Monday. |
+| 3056 | Разве отчёт ещё не отправили? | Hasn't the report been sent yet? |
+
+---
+
+#### Exercises
+
+**Ex 15 · Categorization** *(ID: 146)*
+
+Задание: распредели предложения по тому, кто сделал дело — подлежащее само или кто-то другой.
+
+| Подлежащее сделало само | С подлежащим что-то сделали |
+|-------------------------|-----------------------------|
+| Jake has washed the car | The photos have been printed |
+| We have finished the report | The parcel hasn't been delivered |
+| Emma has found her keys | The floor has just been cleaned |
+
+*Explanation:* слева после has или have сразу идёт третья форма — действует сам человек. Справа между помощником и глаголом стоит been, и герой меняется: фотографии напечатали, посылку не доставили, пол помыли, а кто это сделал, не сказано.
+
+---
+
+**Ex 16 · TextInput** *(ID: 124)*
+
+Впиши в каждое предложение подходящий по смыслу пункт из банка.
+Банк: ещё не помыли, отменили, уже отправили
+
+1. "The invitations ___ to all the guests."
+   Ответ: **have been sent**
+2. "The dishes ___ yet."
+   Ответ: **haven't been washed**
+3. "The concert ___ because of the rain."
+   Ответ: **has been cancelled**
+
+*Explanation:* во всех трёх с подлежащим что-то сделали, поэтому между помощником и третьей формой нужна связка been. Помощник выбирается по подлежащему: invitations и dishes — множественное число, значит have, а concert — единственное, значит has.
+
+---
+
+**Ex 17 · MultipleChoice · REVERSE_CHOICE** *(ID: 112)*
+
+"It's been repaired."
+
+- **Это уже починили.** ✓
+- Это чинится прямо сейчас.
+- Это починят.
+
+*Explanation:* апостроф с s здесь означает has, и видно это по слову been: has been repaired значит, что вещь починили и результат налицо. Процесс прямо сейчас потребовал бы другой формы, а «починят» — это будущее, которого в этой фразе нет.
+
+---
+
+**Ex 18 · ErrorCorrection** *(ID: 230)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"The email has been checked already."
+
+- The email already been checked.
+- **The email has already been checked.** ✓
+- The email already has been checked.
+
+*Explanation:* наречие already встаёт сразу после первого помощника, внутрь конструкции: has already been checked. В конце фразы ему не место, а в первом варианте предложение осталось вообще без помощника.
+
+---
+
+#### AI Exercise
+
+**ID:** passive_two_card667_ex1
+**Title:** "Переверни перфект в пассив"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт английское предложение в перфекте. Перепишите его в страдательном залоге."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о страдательном залоге в перфекте. Он знает формулы have/has been плюс третья форма и had been плюс третья форма; роли трёх слов (has сообщает, что дело сделано, been — связка, третья форма — действие); пару Nick has cleaned the kitchen (убрал сам) против The kitchen has been cleaned (кухню убрали); пару The shop is closed (состояние сейчас) против The shop has been closed since Monday (закрыли, и это тянется); что had been описывает прошлое раньше другого прошлого (Dinner had been cooked before the guests arrived); формы hasn't been sent, Has it been sent?, Hasn't it been sent yet?, краткие ответы Yes, it has и No, it hasn't; сокращения It's been sold, They've been told; что наречия just, already, never встают сразу после первого помощника (has just been sent), а yet уходит в конец. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, базовый пассив, инфинитив, косвенные вопросы, герундий, модальные глаголы. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous и Future Perfect — форм will be being done и will have been done не давай; модальный пассив (It must be done), Continuous-пассив (is being done), пассив с двумя дополнениями (I was given a book) и get-пассив (He got fired) идут в других микротемах — в заданиях их не используй. ЗАДАНИЕ: дай пользователю ОДНО короткое английское предложение в перфекте — в Present Perfect или в Past Perfect — в действительном залоге и попроси переписать его в страдательном, оставив то же время. ДЕРЖИ ФРАЗУ ПРОСТОЙ: 5-9 слов, одно подлежащее, одно действие, бытовая лексика, в дебри не уходи. Деятеля бери безличного — they, somebody, the workers, the cleaners, the company — чтобы в ответе его можно было опустить. В условии не подсказывай, как строится форма, и не называй время. ЧЕРЕДУЙ ТИП ФРАЗЫ от запуска к запуску, не повторяя один и тот же два раза подряд: 1. утверждение в Present Perfect (They have sold all the tickets). 2. отрицание со словом yet (They haven't paid the bill yet). 3. вопрос (Has somebody cleaned the room?). 4. Past Perfect — действие раньше другого прошлого (They had closed the road before we arrived). 5. фраза с наречием just или already внутри (They have just sent the parcel). Вопрос давай не реже чем каждый третий запуск, множественное подлежащее (the tickets, the documents) — примерно каждый третий, чтобы человек выбирал между has и have. Образцы дословно не повторяй, придумывай свои ситуации. ОЦЕНКА: верным считай ответ, где бывшее дополнение стало подлежащим, помощник согласован с новым подлежащим, между помощником и глаголом стоит связка been, а смысловой глагол стоит в третьей форме; деятеля можно опустить или поставить в хвост с by — оба варианта верны. Если пропало been (The room has cleaned) — объясни, что без него выходит, будто комната сама кого-то убирала. Если наречие уехало в конец (has been sent just) — покажи, что just, already и never встают сразу после первого помощника, а в конце живёт только yet. Если вместо третьей формы стоит вторая (has been wrote) — напомни, что после been работает только третья. Если помощник не согласован (The tickets has been sold) — покажи форму по числу. Если время съехало в простое прошедшее (The bill wasn't paid yet) — скажи, что слово yet требует перфекта, потому что важен результат сейчас. Если в вопросе появился помощник do или did (Did the room been cleaned?) — объясни, что вопрос строит сам has или have, он выходит вперёд подлежащего. При ошибке сначала скажи, что означала бы фраза пользователя, если она получилась осмысленной, и только потом дай верный вариант. Засчитывай сокращения (it's been, they've been) наравне с полными формами. Объясняй по-русски, коротко, без грамматических терминов. Не придирайся к знакам препинания и заглавным буквам — оценивай только грамматику."
+
+Пример вывода AI: 'Перепишите в страдательном залоге: Somebody had taken my umbrella before I came back.'
+
+#### Clarification Options
+
+- Зачем в этой форме нужно слово been?
+- Чем The shop is closed отличается от The shop has been closed?
+- Как понять, что в It's been sold апостроф означает has?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 38 | 39 |
-| Microtopic | 244 | 245 |
-| Card | 664 | 665 |
-| Example | 3041 | 3042 |
+| Microtopic | 245 | 246 |
+| Card | 667 | 668 |
+| Example | 3056 | 3057 |
 | Слова курса (course_word) | 894 | 895 |
-| MultipleChoice · CHOICE | 241 | 242 |
-| MultipleChoice · FORWARD_CHOICE | 265 | 266 |
-| MultipleChoice · REVERSE_CHOICE | 111 | 112 |
-| TrueFalse | 236 | 237 |
-| WordArrangement | 212 | 213 |
-| TextInput | 123 | 124 |
+| MultipleChoice · CHOICE | 242 | 243 |
+| MultipleChoice · FORWARD_CHOICE | 266 | 267 |
+| MultipleChoice · REVERSE_CHOICE | 112 | 113 |
+| TrueFalse | 238 | 239 |
+| WordArrangement | 213 | 214 |
+| TextInput | 124 | 125 |
 | Matching | 115 | 116 |
-| ErrorCorrection | 228 | 229 |
+| ErrorCorrection | 230 | 231 |
 | FindTheOdd | 126 | 127 |
-| Categorization | 145 | 146 |
-| TableFill | 48 | 49 |
-| Transformation | 105 | 106 |
+| Categorization | 146 | 147 |
+| TableFill | 49 | 50 |
+| Transformation | 106 | 107 |
 | ConstructionMeaning | 94 | 95 |
 | DialogRestore | 101 | 102 |
