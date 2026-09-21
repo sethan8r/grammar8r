@@ -25,6 +25,13 @@
       "title": "Any Tense · Пассив в любом времени",
       "order": 2,
       "searchKeywords": "в каком времени ставить be, перевернуть в страдательный залог, has been done, will be done, has done или has been done"
+    },
+    {
+      "id": 246,
+      "topicId": 38,
+      "title": "Being and Empty Cells · Процесс и пустые клетки",
+      "order": 3,
+      "searchKeywords": "is being built, дом строится или построен, два разных being, почему нельзя has been being"
     }
   ],
   "grammar_cards": [
@@ -997,6 +1004,430 @@
         "Чем The shop is closed отличается от The shop has been closed?",
         "Как понять, что в It's been sold апостроф означает has?"
       ]
+    },
+    {
+      "id": 668,
+      "microtopicId": 246,
+      "title": "is being done — делают прямо сейчас",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Начнём не с правила, а с ситуации, в которой вы наверняка бывали. Вы звоните в сервис и спрашиваете про машину. Если вам отвечают **The car is repaired** — всё готово, можно забирать. А если **The car is being repaired** — её как раз чинят, приезжать рано. Одно лишнее слово, а решение прямо противоположное: ехать или ждать."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда берётся эта форма"
+        },
+        {
+          "type": "paragraph",
+          "text": "Новой конструкции здесь нет, она собирается сама из того, что вы умеете. Длительное время требует, чтобы после `am/is/are` стояла форма на `-ing`. В страдательном залоге на месте смыслового глагола стоит связка — значит именно ей и надевать `-ing`. А `be` в форме на `-ing` — это `being`. Вот и вся загадка."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Am/is/are being + V3 · was/were being + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Переворот идёт как обычно. В действительном залоге: **They are repairing the car.** Дополнение `the car` уходит в начало, глагол `repairing` отдаёт своё место связке и сам становится третьей формой: **The car is being repaired.**"
+        },
+        {
+          "type": "heading",
+          "text": "Пара, ради которой написана карточка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The house is built.** — дом построен, стоит готовый;",
+            "**The house is being built.** — дом строится, стройка идёт прямо сейчас."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски разница держится на одном слове — «построен» и «строится», — и вы её отлично чувствуете. Беда начинается при переводе: «строится» ведь тоже страдательный залог, и рука тянется к короткой форме `is built`. А она сообщает про результат, а не про работу. То же самое в прошлом: **The room was cleaned** (убрали, и на этом всё) ↔ **The room was being cleaned when I came in** (как раз убирали, когда я вошёл)."
+        },
+        {
+          "type": "heading",
+          "text": "Как понять, что нужна именно эта форма"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«сейчас чинят», «как раз обсуждают» — действие идёт в этот самый момент;",
+            "«дом строится», «заказ обрабатывается» — процесс, а не готовый результат;",
+            "«за ней присматривали, пока мать была на работе» — действие тянулось в тот момент в прошлом."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Во всех трёх случаях сходятся два признака: подлежащее ничего не делает само, и действие идёт прямо сейчас (или шло прямо тогда). Совпали оба — берите `being`."
+        },
+        {
+          "type": "heading",
+          "text": "Два разных being — не перепутать"
+        },
+        {
+          "type": "table",
+          "header": [
+            "После being",
+            "О чём речь",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "прилагательное",
+              "человек так себя ведёт сейчас",
+              "You're being silly"
+            ],
+            [
+              "третья форма",
+              "с подлежащим это делают сейчас",
+              "The car is being repaired"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Глагол get — часть 1» мы оба случая уже встречали и обещали разобрать здесь. Разводятся они по тому, что стоит справа от `being`: признак человека (**silly**, **nice**, **rude**) — речь о поведении; третья форма глагола — страдательный залог. Оттуда же полезное напоминание: **I'm being tired** ✗ невозможно, потому что усталым себя не ведут — это ощущение, а не поступок; на этом месте работает **I'm getting tired**."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не каждый глагол идёт в длительную форму. Глаголы-состояния (`know`, `want`, `need`, `believe`) не ставятся в неё ни в действительном залоге, ни в страдательном: **This word is being known** ✗, говорят **This word is known** ✓. Это то же правило, которое мы разбирали в теме «Present Continuous»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание, вопрос и краткий ответ"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The car isn't being repaired today.**",
+            "**Is the car being repaired?** → **Yes, it is.** / **No, it isn't.**",
+            "**Isn't the car being repaired?** — «разве её не чинят?»",
+            "в прошлом: **The road was being repaired when we passed.** · **Was the road being repaired?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где вы это услышите"
+        },
+        {
+          "type": "paragraph",
+          "text": "В сервисе и доставке (**Your order is being processed**), на стройке и ремонте (**The runway is being repaired**), в рабочем разговоре (**The issue is being discussed right now**). Везде, где главное сообщение одно: работа идёт, результата пока нет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Осталась неприятная правда: в таблице форм есть клетки, которых английский не говорит вовсе. Ими и займёмся."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Длительная форма страдательного залога: действие идёт прямо сейчас, а подлежащее его получает."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Am/is/are being + V3 · was/were being + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The house is built** (готов, результат) ↔ **The house is being built** (строится сейчас).",
+            "После `being` прилагательное — про поведение (**He's being rude**); после `being` третья форма — страдательный залог (**The car is being repaired**)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The car isn't being repaired today.**",
+            "**Is the car being repaired?** → **Yes, it is.** / **No, it isn't.**",
+            "**The road was being repaired when we passed.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My car is been repaired** ✗ → **My car is being repaired** ✓ — в длительной форме работает только `being`.",
+            "**This word is being known** ✗ → **This word is known** ✓ — глаголы-состояния в длительную форму не идут."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мост сейчас красят.",
+          "en": "The bridge is being painted now."
+        },
+        {
+          "ru": "Ваш заказ обрабатывается.",
+          "en": "Your order is being processed."
+        },
+        {
+          "ru": "Когда я вошёл, комнату как раз убирали.",
+          "en": "When I came in, the room was being cleaned."
+        },
+        {
+          "ru": "Этот вопрос сейчас не обсуждают.",
+          "en": "This question isn't being discussed now."
+        },
+        {
+          "ru": "Машину ещё чинят?",
+          "en": "Is the car still being repaired?"
+        }
+      ],
+      "clarificationOptions": [
+        "Чем is built отличается от is being built?",
+        "Почему в этой форме появляется слово being?",
+        "Как отличить being в поведении от being в страдательном залоге?"
+      ]
+    },
+    {
+      "id": 669,
+      "microtopicId": 246,
+      "title": "Пустые клетки: чего английский не говорит",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Формула у нас надёжная, и от этого возникает соблазн: раз связка встаёт в любое время, значит страдательный залог можно собрать от чего угодно. Проверим на двух формах, которые напрашиваются сами собой: `will be being done` и `has been being done`. Обе собраны строго по правилам — и обеих в английском нет. Сказать об этом надо прямо, иначе вы соберёте их самостоятельно и будете уверены, что всё сделали верно."
+        },
+        {
+          "type": "heading",
+          "text": "Почему их нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причина человеческая: язык не терпит, когда связка идёт подряд в двух формах. В `will be being` и `has been being` она встречается дважды, фраза становится неповоротливой и тяжёлой на слух. В таких местах английский не изобретает конструкцию, а просто отступает — и берёт другой способ сказать то же самое."
+        },
+        {
+          "type": "heading",
+          "text": "Чем говорят вместо"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**They've been repairing it all week.** — вместо мёртвой формы разворачивают фразу в действительный залог;",
+            "**The house will be built next year.** — берут простое будущее, без длительности;",
+            "**They'll be building it all summer.** — если длительность важна, её несёт действительный залог."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Приём во всех трёх случаях один: как только страдательный залог начинает громоздиться, носитель переворачивает фразу обратно и называет деятеля — пусть даже безличного `they`."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это хороший ориентир и на будущее. Если английская конструкция получилась длинной и неуклюжей, скорее всего её просто не говорят. Пассив для английского — инструмент, а не самоцель: там, где он мешает, язык возвращается к действительному залогу."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Полная карта форм"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Живая?",
+            "Чем пользуемся"
+          ],
+          "rows": [
+            [
+              "is done",
+              "✓",
+              "The parcel is sent"
+            ],
+            [
+              "is being done",
+              "✓",
+              "The parcel is being sent"
+            ],
+            [
+              "was done",
+              "✓",
+              "The parcel was sent"
+            ],
+            [
+              "was being done",
+              "✓",
+              "The parcel was being sent"
+            ],
+            [
+              "will be done",
+              "✓",
+              "The parcel will be sent"
+            ],
+            [
+              "has been done",
+              "✓",
+              "The parcel has been sent"
+            ],
+            [
+              "had been done",
+              "✓",
+              "The parcel had been sent"
+            ],
+            [
+              "will be being done",
+              "✗",
+              "активом: They'll be sending it"
+            ],
+            [
+              "has been being done",
+              "✗",
+              "активом: They've been sending it"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Семь живых клеток и две пустые. Осталась одна форма, которой в этой таблице нет намеренно."
+        },
+        {
+          "type": "heading",
+          "text": "Форма will have been done — время ещё впереди"
+        },
+        {
+          "type": "paragraph",
+          "text": "**By June the bridge will have been built.** — «к июню мост уже построят». Форма живая, в текстах и объявлениях она встречается, и собрана она ровно по нашему правилу."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will have been + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Стоит она на времени Future Perfect, а его в курсе мы ещё не проходили — поэтому сейчас достаточно узнавать её в лицо, строить самому не нужно. Когда дойдём до темы «Future Perfect», эта строка встанет на готовое место, и учить там будет нечего."
+        },
+        {
+          "type": "paragraph",
+          "text": "И последнее, чтобы закрыть тему форм: у длительного будущего страдательного залога практически нет — это и есть пустая клетка `will be being done`. Если надо сказать, что над предметом будут долго работать, англичанин скажет действительным залогом."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дальше начинается самое интересное: формы страдательного залога, у которых нет своего времени вообще — после модального глагола, в инфинитиве и в герундии."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Две формы собираются по правилу, но английский их не говорит — связка не идёт подряд в двух формах."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**will be being done** ✗ → активом: **They'll be building it all summer.**",
+            "**has been being done** ✗ → активом: **They've been repairing it all week.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Форма на узнавание"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will have been + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**By June the bridge will have been built.** — время Future Perfect в курсе ещё не проходили, поэтому пока только узнаём её в лицо."
+        },
+        {
+          "type": "heading",
+          "text": "Ориентир"
+        },
+        {
+          "type": "paragraph",
+          "text": "Страдательный залог получился длинным и неуклюжим — значит его не говорят: разворачивайте фразу в действительный залог и называйте деятеля, хотя бы безличного `they`."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Они чинят её всю неделю.",
+          "en": "They've been repairing it all week."
+        },
+        {
+          "ru": "Дом построят в следующем году.",
+          "en": "The house will be built next year."
+        },
+        {
+          "ru": "К июню мост уже построят.",
+          "en": "By June the bridge will have been built."
+        },
+        {
+          "ru": "Комнату красят с самого утра.",
+          "en": "They've been painting the room since morning."
+        },
+        {
+          "ru": "Билеты продадут до пятницы.",
+          "en": "The tickets will be sold before Friday."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать has been being done?",
+        "Как сказать по-английски, что над чем-то долго работают?",
+        "Когда я смогу использовать will have been done?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1107,6 +1538,54 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 230,
       "orderInCard": 3
+    },
+    {
+      "cardId": 668,
+      "exerciseType": "MATCHING",
+      "exerciseId": 116,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 668,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 147,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 668,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 243,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 668,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 239,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 669,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 127,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 669,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 231,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 669,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 267,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 669,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 240,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1133,6 +1612,14 @@
       "userInstruction": "ИИ пришлёт английское предложение в перфекте. Перепишите его в страдательном залоге.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "passive_two_card668_ex1",
+      "cardId": 668,
+      "title": "Процесс или результат",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -1270,6 +1757,68 @@
         }
       ],
       "explanation": "в третьем предложении после will пропала связка: нужно will be delivered. В пятом после as soon as стоит будущее время, а должно стоять настоящее: as soon as the room is cleaned."
+    },
+    {
+      "id": 239,
+      "statements": [
+        {
+          "en": "The bridge is being painted this week.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My car is been repaired now.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Were the documents being checked when you arrived?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "This song is being known all over the world.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The rooms are being cleaned at the moment.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении вместо being стоит been — в длительной форме работает только being: is being repaired. В четвёртом know относится к глаголам состояния, в длительную форму он не идёт: правильно is known."
+    },
+    {
+      "id": 240,
+      "statements": [
+        {
+          "en": "The letters have been sent.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The house will be being built next year.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The parcels were being checked at the airport.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The shop has been being cleaned all morning.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The flat had been painted before we moved in.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "второе и четвёртое предложения собраны по правилам, но таких форм в английском нет: связка идёт подряд в двух формах. Сказать это можно только действительным залогом — They'll be building the house next year и They've been cleaning the shop all morning."
     }
   ],
   "word_arrangement_exercises": [
@@ -1398,6 +1947,48 @@
         }
       ],
       "explanation": "апостроф с s здесь означает has, и видно это по слову been: has been repaired значит, что вещь починили и результат налицо. Процесс прямо сейчас потребовал бы другой формы, а «починят» — это будущее, которого в этой фразе нет."
+    },
+    {
+      "id": 243,
+      "choiceType": "CHOICE",
+      "prompt": "Don't come at five — the office ___ at that time.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "is cleaned",
+          "isCorrect": false
+        },
+        {
+          "text": "is being cleaned",
+          "isCorrect": true
+        },
+        {
+          "text": "was cleaned",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "нас предупреждают, что в это время работа будет идти, — значит нужна длительная форма. Вариант is cleaned сообщил бы, что офис убирают вообще, а was cleaned унёс бы фразу в прошлое."
+    },
+    {
+      "id": 267,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Наш дом будут строить всё лето.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "They'll be building our house all summer.",
+          "isCorrect": true
+        },
+        {
+          "text": "Our house will be being built all summer.",
+          "isCorrect": false
+        },
+        {
+          "text": "Our house will been built all summer.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "длительное действие в будущем страдательный залог выразить не может — эта клетка пустая. Смысл передают действительным залогом с безличным they."
     }
   ],
   "text_input_exercises": [
@@ -1433,7 +2024,31 @@
     }
   ],
   "dialog_restore_exercises": [],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 116,
+      "taskDescription": "соедини русскую фразу с английской.",
+      "pairs": [
+        {
+          "left": "Забор покрашен",
+          "right": "The fence is painted"
+        },
+        {
+          "left": "Забор красят",
+          "right": "The fence is being painted"
+        },
+        {
+          "left": "Документы проверили",
+          "right": "The documents were checked"
+        },
+        {
+          "left": "Документы как раз проверяли",
+          "right": "The documents were being checked"
+        }
+      ],
+      "explanation": "короткая форма сообщает результат: забор покрашен, документы проверены. Форма с being сообщает, что работа идёт или шла в тот момент, а результата ещё нет."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 228,
@@ -1491,6 +2106,25 @@
         }
       ],
       "explanation": "наречие already встаёт сразу после первого помощника, внутрь конструкции: has already been checked. В конце фразы ему не место, а в первом варианте предложение осталось вообще без помощника."
+    },
+    {
+      "id": 231,
+      "wrongSentence": "The road has been being repaired since Monday.",
+      "options": [
+        {
+          "text": "The road has being repaired since Monday.",
+          "isCorrect": false
+        },
+        {
+          "text": "They have been repairing the road since Monday.",
+          "isCorrect": true
+        },
+        {
+          "text": "The road will be being repaired since Monday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "формы has been being в английском нет. Когда страдательный залог начинает громоздиться, фразу разворачивают в действительный и называют деятеля — пусть даже безличного they."
     }
   ],
   "construction_meaning_exercises": [],
@@ -1561,6 +2195,29 @@
         }
       ],
       "explanation": "слева после has или have сразу идёт третья форма — действует сам человек. Справа между помощником и глаголом стоит been, и герой меняется: фотографии напечатали, посылку не доставили, пол помыли, а кто это сделал, не сказано."
+    },
+    {
+      "id": 147,
+      "taskDescription": "распредели фразы по тому, о чём в них речь.",
+      "categories": [
+        {
+          "title": "Ведёт себя так сейчас",
+          "items": [
+            "He's being rude",
+            "She's being difficult",
+            "You're being kind today"
+          ]
+        },
+        {
+          "title": "С подлежащим это делают",
+          "items": [
+            "The room is being painted",
+            "My laptop is being fixed",
+            "The tickets are being checked"
+          ]
+        }
+      ],
+      "explanation": "смотрим, что стоит справа от being. Признак человека — rude, difficult, kind — значит речь о поведении в эту минуту. Третья форма глагола — painted, fixed, checked — значит действие совершают над подлежащим."
     }
   ],
   "find_the_odd_exercises": [
@@ -1586,6 +2243,29 @@
         }
       ],
       "explanation": "Эмма вернулась сама — над ней никто ничего не совершал, и связки в предложении нет. В трёх остальных после связки стоит третья форма: окно разбили, письма отправили, номер забронировали."
+    },
+    {
+      "id": 127,
+      "groupDescription": "Три формы английский говорит, а одну не говорит вовсе",
+      "items": [
+        {
+          "text": "The letters have been sent",
+          "isOdd": false
+        },
+        {
+          "text": "The letters are being sent",
+          "isOdd": false
+        },
+        {
+          "text": "The letters have been being sent",
+          "isOdd": true
+        },
+        {
+          "text": "The letters will be sent",
+          "isOdd": false
+        }
+      ],
+      "explanation": "третья фраза собрана по правилам, но связка в ней идёт подряд в двух формах — been being, и язык такого не терпит. Вместо неё берут действительный залог: They've been sending the letters."
     }
   ]
 }
