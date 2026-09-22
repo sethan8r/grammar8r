@@ -46,6 +46,13 @@
       "title": "Who Goes First · Кто встаёт в начало",
       "order": 5,
       "searchKeywords": "мне дали как сказать, i was given, i was explained ошибка, почему предлог в конце, was sent for, мне велели по-английски"
+    },
+    {
+      "id": 249,
+      "topicId": 38,
+      "title": "By, With and Made Of · Кем, чем и из чего",
+      "order": 6,
+      "searchKeywords": "когда ставить by, by или with, made of или made from, what is it made of, кем написана книга, covered with snow"
     }
   ],
   "grammar_cards": [
@@ -2724,6 +2731,643 @@
         "Чем The doctor was sent отличается от The doctor was sent for?",
         "Почему в looked after by стоят два предлога подряд?"
       ]
+    },
+    {
+      "id": 677,
+      "microtopicId": 249,
+      "title": "by: ставить или молчать",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Три прошлые карточки разбирали, кто встаёт в начало фразы. Теперь посмотрим в противоположный конец — в хвост, где живёт деятель."
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `by` вы уже знаете в лицо: в первой части темы оно было дано на узнавание — **War and Peace was written by Tolstoy**, **This photo was taken by my sister**. Тогда же мы честно сказали, что правило «когда его ставят, а когда молчат» разберём позже. Вот это «позже» и наступило."
+        },
+        {
+          "type": "heading",
+          "text": "Ставим, когда деятель — новость"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило одно, и оно про информацию, а не про грамматику: `by` появляется тогда, когда деятель сообщает что-то **новое и важное**. Четыре живых случая:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "автор: **The book was published by a small company in Dublin.** — кто издал, в том и содержание фразы;",
+            "изобретатель или создатель: **The telephone was invented by Bell.**",
+            "сила или стихия: **The old barn was destroyed by fire.** · **He was hit by a car.**",
+            "неожиданный виновник: **The window was broken by my own son.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Уберите `by` из любой — и фраза потеряет ровно то, ради чего её говорили."
+        },
+        {
+          "type": "heading",
+          "text": "Молчим — почти всегда"
+        },
+        {
+          "type": "paragraph",
+          "text": "Причины разобраны в первой части: деятель бывает неизвестен, не важен, очевиден или скрыт намеренно. Повторять их незачем, достаточно помнить итог: **молчание — норма, а `by` — исключение.** Русская рука делает наоборот: раз кто-то действовал, хочется его назвать. По-английски **The room was cleaned** ✓ — законченная нормальная фраза, дописывать в ней `by somebody` не надо."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**My bike was stolen by a thief** ✗ по смыслу. Грамматика цела, а фраза нелепа: кто ещё мог украсть велосипед, если не вор? Предлог `by` берёт на себя обещание «сейчас будет новость» — и не выполняет его. Правильно просто **My bike was stolen** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему by стоит именно в хвосте"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Как думает английский язык» мы говорили: английский не двигает слова ради выделения — зато конец фразы у него сильное место. Поэтому деятель, ради которого всё и затевалось, ставится последним: **This song was written by a fifteen-year-old girl.** Сначала язык сообщает, о чём речь, а самое интересное придерживает напоследок."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос к деятелю"
+        },
+        {
+          "type": "paragraph",
+          "text": "Спросить «кем?» просто: предлог остаётся в конце, ровно как в прошлой карточке с хвостами."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Who was it written by?** — кем это написано?",
+            "**Who was this house built by?** — кем построен этот дом?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Механика та же, что в **What are you looking at?** из темы «Смотреть, слушать и понимать»: вопросительное слово уходит в начало, а предлог остаётся там, где стоял."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть и книжный вариант — **By whom was it written?** Так пишут в учебниках и официальных текстах, в разговоре его не услышишь. Узнавать надо, говорить самому не обязательно."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит после by — пять разных ответов"
+        },
+        {
+          "type": "paragraph",
+          "text": "А теперь ловушка, о которой не догадываешься, пока в неё не попадёшь. `by` — один из самых занятых предлогов английского, и после пассива он запросто означает не «кем». Смотреть нужно не на сам `by`, а на то, что стоит сразу после него:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "После by стоит",
+            "Значит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "человек или сила",
+              "кем — это деятель",
+              "The letter was sent by my sister"
+            ],
+            [
+              "форма на -ing",
+              "как — это способ",
+              "The problem was solved by talking"
+            ],
+            [
+              "транспорт или канал",
+              "чем, каким путём",
+              "The parcel was sent by email"
+            ],
+            [
+              "момент времени",
+              "к какому сроку",
+              "The report was finished by Monday"
+            ],
+            [
+              "место",
+              "около, рядом",
+              "She was standing by the window"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Все эти роли вы встречали порознь: способ разбирали в «Герундии» — **He got the job by asking directly**; срок — в «Past Perfect» (**by the time we arrived**); место — в «Основах». Заново их не разбираем, здесь важно другое: **все пять стоят в одной и той же позиции**, и если не посмотреть на слово после `by`, фраза прочитается наоборот."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The report was finished by Monday** — это «отчёт закончили к понедельнику», а вовсе не «отчёт закончил Понедельник». Проверка простая: у деятеля должна быть воля. У понедельника её нет, у почты в **sent by email** тоже."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`by` ставят, только когда деятель — новая и важная информация: автор, изобретатель, сила, неожиданный виновник. В остальных случаях молчат, и это норма."
+        },
+        {
+          "type": "heading",
+          "text": "Когда by нужен"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The book was published by a small company.** · **The telephone was invented by Bell.** · **The barn was destroyed by fire.**",
+            "Место `by` — самый хвост фразы: что поставил в конец, то и выделил."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос к деятелю"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Who was it written by?** — предлог остаётся в конце. Книжный вариант **By whom was it written?** — только на узнавание."
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит после by"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "человек или сила → кем · форма на `-ing` → как · транспорт и канал → чем · момент времени → к какому сроку · место → около.",
+            "Проверка: у деятеля есть воля. У понедельника и у почты её нет."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My bike was stolen by a thief** ✗ → **My bike was stolen** ✓ — вор тут не новость, `by` обещает новое и не даёт.",
+            "**The report was finished by Monday** — не «закончил Понедельник», а «закончили к понедельнику»."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Книгу издало маленькое издательство в Дублине.",
+          "en": "The book was published by a small company in Dublin."
+        },
+        {
+          "ru": "Телефон изобрёл Белл.",
+          "en": "The telephone was invented by Bell."
+        },
+        {
+          "ru": "Старый сарай уничтожил пожар.",
+          "en": "The old barn was destroyed by fire."
+        },
+        {
+          "ru": "У меня украли велосипед.",
+          "en": "My bike was stolen."
+        },
+        {
+          "ru": "Кем построен этот дом?",
+          "en": "Who was this house built by?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать was stolen by a thief?",
+        "Как понять, деятель после by или срок?",
+        "Чем Who was it written by отличается от By whom was it written?"
+      ]
+    },
+    {
+      "id": 678,
+      "microtopicId": 249,
+      "title": "by и with: деятель и инструмент",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Второй предлог хвоста — `with`, и путают их постоянно. Причина простая: русский на оба случая ставит один творительный падеж."
+        },
+        {
+          "type": "paragraph",
+          "text": "Возьмите фразу, где оба стоят рядом: **He was killed by a robber with a knife.** По-русски это «убит грабителем ножом» — два слова в одной форме, и различить их нельзя никак. По-английски разница видна сразу: `by` — **кто** это сделал, `with` — **чем** он это сделал."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Проверка одной фразой:** у того, кто идёт после `by`, есть воля. У того, что идёт после `with`, воли нет — это вещь в руках."
+        },
+        {
+          "type": "paragraph",
+          "text": "Нож никого не убивает по собственному решению, его держал грабитель. Поэтому **He was killed with a robber** ✗ означало бы, что грабителя использовали как орудие, а **He was killed by a knife** звучит так, будто нож действовал сам."
+        },
+        {
+          "type": "heading",
+          "text": "Мы это уже начинали"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Основах» `with` давали как «с помощью чего-то»: **Write with a pen.** · **Cut it with scissors.** Там же, в вопросах к карточке, стоял ровно наш сегодняшний вопрос — чем `written with a pen` отличается от `written by Pushkin`. Теперь на него есть ответ: ручка — инструмент, Пушкин — деятель."
+        },
+        {
+          "type": "heading",
+          "text": "Семья с with: покрыт, наполнен, набит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть группа причастий, которые срослись с `with` намертво. Логика та же самая: `with` вводит не деятеля, а то, ЧЕМ вещь покрыта или наполнена."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The car was covered with snow.** — машину засыпало снегом;",
+            "**The glass was filled with cold water.** — стакан наполнили холодной водой;",
+            "**The square was crowded with tourists.** — площадь была забита туристами;",
+            "**My parents were pleased with the result.** — родители остались довольны результатом."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The car was covered by snow** ✗. По грамматике всё цело, а по смыслу сдвиг: выходит, что снег накрыл машину намеренно, как деятель. Русское «покрыт снегом» одинаково для обоих случаев, поэтому рука и тянется к `by`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "У каждого свой предлог"
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом живёт группа устойчивых пар, где предлог просто закреплён за словом и учится вместе с ним:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**be known for** — **The town is known for its cheese.**",
+            "**be involved in** — **He was involved in the project from the start.**",
+            "**be based on** — **The film is based on a true story.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Породу вы знаете по теме «Прилагательное + предлог»: там мы разбирали **afraid of**, **good at**, **interested in**, **married to** и вывели, что предлог держится за слово, а не за смысл. Здесь ровно то же самое, объяснять заново нечего. Новое тут одно — **be based on**: фраза ежедневная, а в курсе она до сих пор не встречалась ни разу."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`by` — кто сделал, `with` — чем сделал. Русский творительный падеж одинаков для обоих, английский их разводит."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка"
+        },
+        {
+          "type": "paragraph",
+          "text": "У того, кто после `by`, есть воля. У того, что после `with`, воли нет — это вещь в руках: **He was killed by a robber with a knife.**"
+        },
+        {
+          "type": "heading",
+          "text": "Семья с with"
+        },
+        {
+          "type": "paragraph",
+          "text": "**covered with snow** · **filled with water** · **crowded with tourists** · **pleased with the result**."
+        },
+        {
+          "type": "heading",
+          "text": "У каждого свой предлог"
+        },
+        {
+          "type": "paragraph",
+          "text": "**be known for** · **be involved in** · **be based on** — предлог держится за слово, как у **afraid of** и **good at**."
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The car was covered by snow** ✗ → **covered with snow** ✓ — снег не действует намеренно.",
+            "**He was killed by a knife** ✗ → **killed with a knife** ✓ — у ножа нет воли."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Его убил грабитель ножом.",
+          "en": "He was killed by a robber with a knife."
+        },
+        {
+          "ru": "Машину засыпало снегом.",
+          "en": "The car was covered with snow."
+        },
+        {
+          "ru": "Стакан наполнили холодной водой.",
+          "en": "The glass was filled with cold water."
+        },
+        {
+          "ru": "Городок известен своим сыром.",
+          "en": "The town is known for its cheese."
+        },
+        {
+          "ru": "Фильм основан на реальной истории.",
+          "en": "The film is based on a true story."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, by тут или with, если по-русски одно слово?",
+        "Почему нельзя сказать covered by snow?",
+        "Откуда знать, какой предлог у known и involved?"
+      ]
+    },
+    {
+      "id": 679,
+      "microtopicId": 249,
+      "title": "be made of, from, with, in, by",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последний кусок хвоста — и самый бытовой: как сказать, из чего сделана вещь. Фразу **The table is made of wood** вы уже видели в первой части темы, а надпись **Made in Italy** мы там же разбирали как вывеску. Теперь соберём всю семью целиком: предлогов пять, и каждый означает своё."
+        },
+        {
+          "type": "heading",
+          "text": "made of — материал видно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вещь сделана из материала, и материал никуда не делся: посмотрел — и понял, из чего."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The box is made of wood.** · **The bottle is made of glass.** · **These bags are made of leather.** · **This shirt is made of cotton.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "made from — сырьё изменилось до неузнаваемости"
+        },
+        {
+          "type": "paragraph",
+          "text": "Материал переработали, и в готовой вещи его уже не узнать:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Wine is made from grapes.** · **Paper is made from wood.** · **Cheese is made from milk.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Лучшая проверка — слово `wood` в обеих ролях сразу. Стол **made of wood**: доски видно, их можно пересчитать. Бумага **made from wood**: попробуй узнай дерево в белом листе."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The table is made from wood** ✗ и **Paper is made of wood** ✗ — обе фразы грамматичны, но сообщают не то. Вопрос всегда один: видно материал в готовой вещи или нет."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "made with — состав"
+        },
+        {
+          "type": "paragraph",
+          "text": "`with` вводит ингредиенты, из которых вещь состоит наряду с другими. Это то же самое `with`, что в **coffee with milk** из «Основ»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This soup is made with fresh milk.** · **The cake was made with love.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Made of** и **made with** легко перепутать, потому что по-русски в обоих случаях «из». Разница в том, единственный ли это материал. Стул целиком деревянный — **made of wood**. В суп добавили молоко вместе с овощами и специями — **made with milk**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "made in — место"
+        },
+        {
+          "type": "paragraph",
+          "text": "Знакомо по вывескам: **Made in Italy**, **These shoes are made in Portugal**. Здесь `in` — обычный предлог места, никакого особого правила нет."
+        },
+        {
+          "type": "heading",
+          "text": "made by — кто сделал"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот самый `by` деятеля из первой карточки: **This table was made by a small family workshop.** · **made by Samsung**. Сюда же относится **made by hand** — форму вы уже встречали в первой части темы, во фразе **These letters were written by hand**."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос: из чего это?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Спрашивают так же, как мы спрашивали о деятеле, — предлог остаётся в хвосте:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What is it made of?** — из чего это сделано?",
+            "**What's this bag made of?** — **It's made of leather.**",
+            "**What is paper made from?** — **It's made from wood.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопрос ходовой: в магазине, на рынке, при покупке одежды его задают каждый день, а собрать его самому без разбора трудно — рука ставит русское «из чего» в начало и теряет предлог."
+        },
+        {
+          "type": "heading",
+          "text": "Сводка одной таблицей"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Предлог",
+            "Что вводит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "of",
+              "материал, который видно",
+              "a box made of wood"
+            ],
+            [
+              "from",
+              "сырьё, изменённое до неузнаваемости",
+              "wine made from grapes"
+            ],
+            [
+              "with",
+              "состав, ингредиенты",
+              "soup made with milk"
+            ],
+            [
+              "in",
+              "место изготовления",
+              "shoes made in Portugal"
+            ],
+            [
+              "by",
+              "тот, кто сделал",
+              "a table made by hand"
+            ]
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Пять предлогов после `made`, и каждый отвечает на свой вопрос."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Предлог",
+            "Что вводит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "of",
+              "материал видно",
+              "a box made of wood"
+            ],
+            [
+              "from",
+              "сырьё изменилось",
+              "wine made from grapes"
+            ],
+            [
+              "with",
+              "состав",
+              "soup made with milk"
+            ],
+            [
+              "in",
+              "место",
+              "shoes made in Portugal"
+            ],
+            [
+              "by",
+              "кто сделал",
+              "a table made by hand"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверка of или from"
+        },
+        {
+          "type": "paragraph",
+          "text": "Видно материал в готовой вещи → `of`. Не узнать → `from`. Слово `wood` работает в обеих ролях: стол **made of wood**, бумага **made from wood**."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "**What is it made of?** — предлог остаётся в хвосте. Ответ: **It's made of leather.**"
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The table is made from wood** ✗ → **made of wood** ✓ — доски видно.",
+            "**Paper is made of wood** ✗ → **made from wood** ✓ — дерево в листе не узнать."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Коробка сделана из дерева.",
+          "en": "The box is made of wood."
+        },
+        {
+          "ru": "Вино делают из винограда.",
+          "en": "Wine is made from grapes."
+        },
+        {
+          "ru": "Этот суп сделан на свежем молоке.",
+          "en": "This soup is made with fresh milk."
+        },
+        {
+          "ru": "Из чего сделана эта сумка?",
+          "en": "What's this bag made of?"
+        },
+        {
+          "ru": "Этот стол сделан небольшой семейной мастерской.",
+          "en": "This table was made by a small family workshop."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить made of от made from?",
+        "Почему про суп говорят made with, а не made of?",
+        "Как спросить, из чего сделана вещь?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3044,6 +3688,78 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 216,
       "orderInCard": 3
+    },
+    {
+      "cardId": 677,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 246,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 677,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 109,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 677,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 95,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 677,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 243,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 678,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 150,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 678,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 235,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 678,
+      "exerciseType": "MATCHING",
+      "exerciseId": 119,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 678,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 128,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 679,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 130,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 679,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 129,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 679,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 103,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 679,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 217,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -3110,6 +3826,22 @@
       "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card677_ex1",
+      "cardId": 677,
+      "title": "Назвать деятеля или промолчать",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card679_ex1",
+      "cardId": 679,
+      "title": "Из чего это сделано",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -3143,6 +3875,94 @@
       "translation": "описывать, описать",
       "transcription": "[dɪˈskraɪb]",
       "microtopicId": 248,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 897,
+      "word": "to invent",
+      "translation": "изобретать, придумывать",
+      "transcription": "[ɪnˈvent]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 898,
+      "word": "to publish",
+      "translation": "издавать, публиковать",
+      "transcription": "[ˈpʌblɪʃ]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 899,
+      "word": "to destroy",
+      "translation": "разрушать, уничтожать",
+      "transcription": "[dɪˈstrɔɪ]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 900,
+      "word": "to cover",
+      "translation": "покрывать, накрывать",
+      "transcription": "[ˈkʌvə]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 901,
+      "word": "to fill",
+      "translation": "наполнять, заполнять",
+      "transcription": "[fɪl]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 902,
+      "word": "wood",
+      "translation": "дерево (материал), древесина",
+      "transcription": "[wʊd]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 903,
+      "word": "glass",
+      "translation": "стекло, стакан",
+      "transcription": "[glɑːs]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 904,
+      "word": "plastic",
+      "translation": "пластик, пластмасса",
+      "transcription": "[ˈplæstɪk]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 905,
+      "word": "metal",
+      "translation": "металл",
+      "transcription": "[ˈmetl]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 906,
+      "word": "leather",
+      "translation": "кожа (материал)",
+      "transcription": "[ˈleðə]",
+      "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 907,
+      "word": "cotton",
+      "translation": "хлопок, хлопковый",
+      "transcription": "[ˈkɒtn]",
+      "microtopicId": 249,
       "categoryId": "useful_words"
     }
   ],
@@ -3411,6 +4231,37 @@
         }
       ],
       "explanation": "во втором предложении начало занял дательный падеж — правильно We were shown the new flat. В четвёртом подлежащее стоит в форме дополнения: нужно I was lent a bike."
+    },
+    {
+      "id": 243,
+      "statements": [
+        {
+          "en": "The novel was published by a small company.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The old tree was destroyed from the storm.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Who was this photo taken by?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Who did this house build by?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The bridge was destroyed by fire in 1990.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении деятеля вводит by, а не from: destroyed by the storm. В четвёртом смешаны два залога сразу — раз дом построили, нужна связка и третья форма: Who was this house built by?"
     }
   ],
   "word_arrangement_exercises": [
@@ -3490,6 +4341,24 @@
         "for"
       ],
       "explanation": "подлежащее в единственном числе, поэтому связка was. После третьей формы идёт свой хвост глагола off, и только потом причина; by здесь не нужен — деятель не назван."
+    },
+    {
+      "id": 217,
+      "situationRu": "Ситуация: на экскурсии по заводу рассказывают, что бутылки делают из переработанного пластика.",
+      "correctSentence": "These bottles are made from old plastic.",
+      "words": [
+        "These bottles",
+        "are",
+        "made",
+        "from",
+        "old plastic"
+      ],
+      "distractors": [
+        "is",
+        "of",
+        "making"
+      ],
+      "explanation": "старый пластик переплавили, и в новой бутылке его не узнать — поэтому from, а не of. Подлежащее во множественном числе, значит связка are, и после неё стоит третья форма made."
     }
   ],
   "multiple_choice_exercises": [
@@ -3765,6 +4634,27 @@
         }
       ],
       "explanation": "хвост остаётся при своём глаголе, сразу за третьей формой: was turned down. Без него получается «наше предложение повернули», а в третьем варианте хвост встал перед третьей формой, чего в английском не бывает."
+    },
+    {
+      "id": 246,
+      "choiceType": "CHOICE",
+      "prompt": "Someone broke into our car last night. My laptop ___.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "was stolen by a thief",
+          "isCorrect": false
+        },
+        {
+          "text": "was stolen",
+          "isCorrect": true
+        },
+        {
+          "text": "was stolen by somebody",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "вор и есть тот, кто крадёт, — новой информации в нём нет, поэтому деятеля не называют вовсе. Вариант с somebody сообщает ещё меньше: он занимает место в хвосте, ничего туда не добавляя."
     }
   ],
   "text_input_exercises": [
@@ -3882,6 +4772,62 @@
       ],
       "explanation": "хвост — часть самого глагола, поэтому он остаётся при третьей форме и стоит перед by. Уберёте его — получится другой глагол с другим смыслом: looked, paid и called значат совсем не то же самое.",
       "taskDescription": "Впиши недостающий хвостик глагола."
+    },
+    {
+      "id": 128,
+      "items": [
+        {
+          "sentence": "Nobody had cleaned the flat for months, so the floor was covered ___ dust.",
+          "contextRu": "",
+          "answer": "with",
+          "alternatives": []
+        },
+        {
+          "sentence": "The song was written ___ a teenager from Dublin.",
+          "contextRu": "",
+          "answer": "by",
+          "alternatives": []
+        },
+        {
+          "sentence": "This model is known ___ its long battery life.",
+          "contextRu": "",
+          "answer": "for",
+          "alternatives": []
+        }
+      ],
+      "explanation": "пыль и снег ничего не решают сами — это то, чем покрыта вещь, поэтому with. Автор песни действовал, поэтому by. У known предлог свой, его учат вместе со словом.",
+      "taskDescription": "Впиши подходящий предлог."
+    },
+    {
+      "id": 129,
+      "items": [
+        {
+          "sentence": "This spoon is made ___ metal.",
+          "contextRu": "",
+          "answer": "of",
+          "alternatives": []
+        },
+        {
+          "sentence": "Orange juice is made ___ fresh oranges.",
+          "contextRu": "",
+          "answer": "from",
+          "alternatives": []
+        },
+        {
+          "sentence": "The jacket on the left is made ___ leather.",
+          "contextRu": "",
+          "answer": "of",
+          "alternatives": []
+        },
+        {
+          "sentence": "This paper bag is made ___ old newspapers.",
+          "contextRu": "",
+          "answer": "from",
+          "alternatives": []
+        }
+      ],
+      "explanation": "ложку и куртку можно осмотреть и сразу назвать материал — значит of. Апельсины в соке и газеты в бумажном пакете переработаны до неузнаваемости — значит from.",
+      "taskDescription": "Впиши подходящий предлог."
     }
   ],
   "dialog_restore_exercises": [
@@ -3912,6 +4858,34 @@
         }
       ],
       "explanation": "инфинитив при перевороте остаётся целым, вместе с to. Первый вариант его теряет, второй начинает предложение с дательного падежа, которого в английском нет."
+    },
+    {
+      "id": 103,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "That's a nice water bottle. What is it made of?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "It's made of metal.",
+          "isCorrect": true
+        },
+        {
+          "text": "It's made from metal.",
+          "isCorrect": false
+        },
+        {
+          "text": "It's made with metal.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "металл видно в готовой бутылке, поэтому of. Форма from сказала бы, что металл переработали во что-то неузнаваемое, а with назвала бы его одним из нескольких материалов."
     }
   ],
   "matching_exercises": [
@@ -3983,6 +4957,29 @@
         }
       ],
       "explanation": "в каждой паре дополнение уходит в начало и становится подлежащим, деятель исчезает, а хвост глагола остаётся в самом конце. Форма связки берётся по новому подлежащему: concert и ambulance — единственное число, поэтому was."
+    },
+    {
+      "id": 119,
+      "taskDescription": "соедини начало фразы с её продолжением.",
+      "pairs": [
+        {
+          "left": "The cake was made",
+          "right": "by my sister."
+        },
+        {
+          "left": "The cake was covered",
+          "right": "with dark chocolate."
+        },
+        {
+          "left": "The village is known",
+          "right": "for its hot springs."
+        },
+        {
+          "left": "My brother was involved",
+          "right": "in a car accident."
+        }
+      ],
+      "explanation": "by вводит того, кто действовал, with — то, чем покрыто или наполнено. У known и involved предлог закреплён за самим словом и запоминается вместе с ним."
     }
   ],
   "error_correction_exercises": [
@@ -4118,9 +5115,52 @@
         }
       ],
       "explanation": "глагол explain цепляет человека только через предлог, поэтому подлежащим встаёт вещь — правила. Первый вариант оставляет человека в начале, а третий теряет предлог перед ним."
+    },
+    {
+      "id": 235,
+      "wrongSentence": "The street was covered by leaves after the storm.",
+      "options": [
+        {
+          "text": "The street was covered from leaves after the storm.",
+          "isCorrect": false
+        },
+        {
+          "text": "The street was covered with leaves after the storm.",
+          "isCorrect": true
+        },
+        {
+          "text": "The street covered with leaves after the storm.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "листья не покрывали улицу намеренно, они не деятель, поэтому нужен with. Второй вариант теряет связку, и получается, что улица накрыла листья сама."
     }
   ],
-  "construction_meaning_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 95,
+      "construction": "The kitchen was painted by Friday.",
+      "options": [
+        {
+          "text": "Кухню покрасили в пятницу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кухня была покрашена пятницей.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кухню покрасили к пятнице.",
+          "isCorrect": true
+        },
+        {
+          "text": "Кухню красят по пятницам.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после by стоит момент времени, а не человек, поэтому предлог означает срок — «не позже пятницы». Второй вариант читает пятницу как деятеля, хотя воли у дня недели нет."
+    }
+  ],
   "transformation_exercises": [
     {
       "id": 106,
@@ -4178,6 +5218,25 @@
         }
       ],
       "explanation": "человек уходит в начало и становится подлежащим, деятель исчезает, а вещь остаётся справа от третьей формы. Чаще всего теряют именно её — но контракт, письмо и новости никуда не переезжают."
+    },
+    {
+      "id": 109,
+      "taskDescription": "задай вопрос к деятелю, сохранив время предложения.",
+      "items": [
+        {
+          "original": "This song was written by Lennon.",
+          "transformed": "Who was this song written by?"
+        },
+        {
+          "original": "The cake was made by Emma.",
+          "transformed": "Who was the cake made by?"
+        },
+        {
+          "original": "The photos were taken by a student.",
+          "transformed": "Who were the photos taken by?"
+        }
+      ],
+      "explanation": "вопросительное слово уходит в начало, связка встаёт перед подлежащим, а предлог остаётся в хвосте и никуда не переезжает. Связка согласуется с подлежащим: photos — множественное число, поэтому were."
     }
   ],
   "categorization_exercises": [
@@ -4297,6 +5356,31 @@
         }
       ],
       "explanation": "в левой колонке человек стоит вплотную к глаголу и потому является дополнением — его и забирает пассив. В правой он прицеплен через предлог to, дополнением не является, и подлежащим встаёт вещь."
+    },
+    {
+      "id": 150,
+      "taskDescription": "распредели хвосты фраз по тому, каким предлогом они вводятся.",
+      "categories": [
+        {
+          "title": "by",
+          "items": [
+            "a famous artist",
+            "the storm",
+            "my neighbour",
+            "the police"
+          ]
+        },
+        {
+          "title": "with",
+          "items": [
+            "a black pen",
+            "a sharp knife",
+            "a small brush",
+            "a heavy stone"
+          ]
+        }
+      ],
+      "explanation": "через by вводят того, у кого есть воля, — человека или стихию. Через with вводят вещь, которой воспользовались: она сама ничего не решает."
     }
   ],
   "find_the_odd_exercises": [
@@ -4391,6 +5475,29 @@
         }
       ],
       "explanation": "lend, send и offer берут человека вплотную, поэтому он спокойно встаёт подлежащим. А describe требует предлога — правильно The route was described to me."
+    },
+    {
+      "id": 130,
+      "groupDescription": "Три фразы собраны верно, а в одной предлог не тот",
+      "items": [
+        {
+          "text": "a coat made of leather",
+          "isOdd": false
+        },
+        {
+          "text": "a bottle made of plastic",
+          "isOdd": false
+        },
+        {
+          "text": "wine made of grapes",
+          "isOdd": true
+        },
+        {
+          "text": "a table made of metal",
+          "isOdd": false
+        }
+      ],
+      "explanation": "кожу, пластик и металл в готовой вещи видно, поэтому of. А виноград в вине узнать уже нельзя — правильно wine made from grapes."
     }
   ]
 }
