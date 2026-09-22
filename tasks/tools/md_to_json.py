@@ -588,7 +588,10 @@ def parse_words(body, microtopic_id, category_id, source, word_id_counter):
 
 # ---------- основной разбор ----------
 
-HDR_META = re.compile(r'\*\*ID:\*\*\s*([\w]+)\s*\|\s*\*\*Order:\*\*\s*(\d+)')
+# Порядок микротем и карточек конвертер считает сам, по позиции блока в файле (mt_seq / card_seq),
+# поэтому `**Order:**` в их шапке не нужен. У темы номер остаётся: её место в курсе из файла
+# не выводится. Хвост с Order опционален — файлы, где он ещё стоит, парсятся как обычно.
+HDR_META = re.compile(r'\*\*ID:\*\*\s*([\w]+)(?:\s*\|\s*\*\*Order:\*\*\s*(\d+))?')
 EX_HDR = re.compile(r'^\*\*Ex\s+\d+\s*·\s*(.+?)\*\*\s*\*\(ID:\s*(\d+)\)\*')
 WORDS_HDR = re.compile(r'^###\s+Words8r Sync\s*·\s*(.+?)(?:\s*\[category:\s*(\w+)\])?\s*$')
 MT_CAT = re.compile(r'\*\*Категория слов:\*\*\s*(\w+)')
@@ -666,6 +669,8 @@ def parse_file(path, only_mt=None, word_start=1):
     cur_mt = None
     cur_mt_cat = None
     cur_card = None
+    mt_seq = 0      # позиция микротемы в теме = её order
+    card_seq = 0    # позиция карточки в микротеме = её order, сбрасывается на каждой микротеме
 
     i = 0
     n = len(lines)
@@ -683,7 +688,7 @@ def parse_file(path, only_mt=None, word_start=1):
             head, i = collect_section(lines, i + 1)
             meta = HDR_META.search('\n'.join(head))
             topic_id = int(meta.group(1)) if meta else None
-            order = int(meta.group(2)) if meta else 1
+            order = int(meta.group(2)) if meta and meta.group(2) else 1
             is_pre = 'isPretopic:** true' in '\n'.join(head)
             desc = ''
             topic_category = None
@@ -740,7 +745,8 @@ def parse_file(path, only_mt=None, word_start=1):
             head, i = collect_section(lines, i + 1)
             meta = HDR_META.search('\n'.join(head))
             mt_id = int(meta.group(1)) if meta else None
-            mt_order = int(meta.group(2)) if meta else 1
+            mt_seq += 1
+            card_seq = 0
             catm = MT_CAT.search('\n'.join(head))
             cur_mt_cat = catm.group(1) if catm else (default_cat['id'] if default_cat else None)
             cur_mt = mt_id
@@ -751,7 +757,7 @@ def parse_file(path, only_mt=None, word_start=1):
                 content['grammar_microtopics'].append({
                     'id': mt_id, 'topicId': topic_id,
                     'title': full_title,
-                    'order': mt_order,
+                    'order': mt_seq,
                     'searchKeywords': parse_tags(head, full_title, f'микротема {mt_id}', warnings),
                 })
             continue
@@ -774,9 +780,9 @@ def parse_file(path, only_mt=None, word_start=1):
             head, i = collect_section(lines, i + 1)
             meta = HDR_META.search('\n'.join(head))
             card_id = int(meta.group(1)) if meta else None
-            card_order = int(meta.group(2)) if meta else 1
+            card_seq += 1
             cur_card = {'id': card_id, 'microtopicId': cur_mt, 'title': card_title,
-                        'order': card_order, 'theory': [], 'theorySummary': [],
+                        'order': card_seq, 'theory': [], 'theorySummary': [],
                         'examples': [], 'clarificationOptions': []}
             active = (only_mt is None or cur_mt == only_mt)
             order_in_card = [0]

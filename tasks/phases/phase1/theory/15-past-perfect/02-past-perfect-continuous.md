@@ -17,14 +17,14 @@
 
 ## Microtopic 175 — What Is Past Perfect Continuous · Что такое Past Perfect Continuous
 
-**ID:** 175 | **Order:** 1
+**ID:** 175
 **Теги:** зачем нужен had been, had been waiting, had been или was, сделал или делал по-английски, самое сложное время английского
 
 ---
 
 ### Card 459 · Флешбэк, который не обрывается
 
-**ID:** 459 | **Order:** 1
+**ID:** 459
 
 #### Theory
 
@@ -94,7 +94,7 @@ Past Perfect Continuous — это **длинный флешбэк, которы
 
 ### Card 460 · Не «что успел», а «чем занимался»
 
-**ID:** 460 | **Order:** 2
+**ID:** 460
 
 #### Theory
 
@@ -166,7 +166,7 @@ Past Perfect Continuous — это **длинный флешбэк, которы
 
 ### Card 461 · Почему русские ошибаются
 
-**ID:** 461 | **Order:** 3
+**ID:** 461
 
 #### Theory
 
@@ -233,14 +233,14 @@ Past Perfect Continuous — это **длинный флешбэк, которы
 
 ## Microtopic 176 — had been + -ing · Как собрать длительный перфект прошлого
 
-**ID:** 176 | **Order:** 2
+**ID:** 176
 **Теги:** had being или had been, d been это had или would, how long had you been, hadn't been отрицание, did you had been
 
 ---
 
 ### Card 462 · Формула had been + V-ing
 
-**ID:** 462 | **Order:** 1
+**ID:** 462
 
 #### Theory
 
@@ -374,7 +374,7 @@ Past Perfect Continuous — это **длинный флешбэк, которы
 
 ### Card 463 · Сокращения и слух: I'd been, he'd been
 
-**ID:** 463 | **Order:** 2
+**ID:** 463
 
 #### Theory
 
@@ -476,7 +476,7 @@ A: "Then no wonder he was so tired."
 
 ### Card 464 · Отрицание и вопрос
 
-**ID:** 464 | **Order:** 3
+**ID:** 464
 
 #### Theory
 
@@ -620,14 +620,14 @@ A: "Then no wonder he was so tired."
 
 ## Microtopic 177 — Until That Moment · Что тянулось до того момента
 
-**ID:** 177 | **Order:** 3
+**ID:** 177
 **Теги:** was waiting или had been waiting, had been waiting when he arrived, had been doing после because, длинная форма только у одного глагола, объяснить состояние в прошлом
 
 ---
 
 ### Card 465 · Тянулся и не кончился
 
-**ID:** 465 | **Order:** 1
+**ID:** 465
 
 #### Theory
 
@@ -785,7 +785,7 @@ RU: Мы гуляли по парку уже час, когда начался �
 
 ### Card 466 · Следы занятия в тот момент
 
-**ID:** 466 | **Order:** 2
+**ID:** 466
 
 #### Theory
 
@@ -964,14 +964,14 @@ RU: Мы гуляли по парку уже час, когда начался �
 
 ## Microtopic 178 — How Long Before · Сколько это длилось
 
-**ID:** 178 | **Order:** 4
+**ID:** 178
 **Теги:** how long had you been, for или since в прошлом, by the time опоздал, уже не работал там, no longer или anymore
 
 ---
 
 ### Card 467 · Сколько это длилось к тому моменту
 
-**ID:** 467 | **Order:** 1
+**ID:** 467
 
 #### Theory
 
@@ -1137,7 +1137,7 @@ A: "And they were in your coat all along."
 
 ### Card 468 · Слова, которые ставят границу
 
-**ID:** 468 | **Order:** 2
+**ID:** 468
 
 #### Theory
 
@@ -1295,14 +1295,14 @@ A: "And they were in your coat all along."
 
 ## Microtopic 179 — had done vs had been doing · Итог или занятие
 
-**ID:** 179 | **Order:** 6
+**ID:** 179
 **Теги:** had cooked или had been cooking, закончил дело или нет, had been finding нельзя, сколько или как долго, had lived или had been living
 
 ---
 
 ### Card 469 · Одна сцена — две камеры
 
-**ID:** 469 | **Order:** 1
+**ID:** 469
 
 #### Theory
 
@@ -1423,7 +1423,7 @@ A: "And they were in your coat all along."
 
 ### Card 470 · По чему видно: по вещи или по человеку
 
-**ID:** 470 | **Order:** 2
+**ID:** 470
 
 #### Theory
 
@@ -1527,7 +1527,7 @@ A: "No wonder she left early."
 
 ### Card 471 · Доведено или нет
 
-**ID:** 471 | **Order:** 3
+**ID:** 471
 
 #### Theory
 
@@ -1636,7 +1636,7 @@ A: "No wonder she left early."
 
 ### Card 472 · Сколько или как долго
 
-**ID:** 472 | **Order:** 4
+**ID:** 472
 
 #### Theory
 
@@ -1748,7 +1748,7 @@ A: "No wonder she left early."
 
 ### Card 473 · Глаголы, которые нельзя тянуть
 
-**ID:** 473 | **Order:** 5
+**ID:** 473
 
 #### Theory
 
@@ -1860,7 +1860,7 @@ A: "No wonder she left early."
 
 ### Card 474 · Компас: итог или занятие
 
-**ID:** 474 | **Order:** 6
+**ID:** 474
 
 #### Theory
 
@@ -1978,14 +1978,14 @@ A: "That's not too bad."
 
 ## Microtopic 180 — have been doing vs had been doing · Длительный перфект: сейчас или тогда
 
-**ID:** 180 | **Order:** 7
+**ID:** 180
 **Теги:** was waiting или have been waiting, до сейчас или до того момента, by now или by then, какой помощник ставить перед been, has been или had been
 
 ---
 
 ### Card 475 · Ось: этаж have или had
 
-**ID:** 475 | **Order:** 1
+**ID:** 475
 
 #### Theory
 
@@ -2128,7 +2128,7 @@ A: "That's not too bad."
 
 ### Card 476 · Одна сцена — три камеры
 
-**ID:** 476 | **Order:** 2
+**ID:** 476
 
 #### Theory
 
@@ -2273,14 +2273,14 @@ A: "No wonder — that's the whole day."
 
 ## Microtopic 181 — Live Practice · Past Perfect Continuous вживую с ИИ
 
-**ID:** 181 | **Order:** 8
+**ID:** 181
 **Теги:** практика had been doing с ии, скажи по-английски had been, найди ошибку had been, потренировать длительный перфект прошлого
 
 ---
 
 ### Card 477 · Живая практика: had been doing с ИИ
 
-**ID:** 477 | **Order:** 1
+**ID:** 477
 
 #### Theory
 

@@ -13,14 +13,14 @@
 
 ## Microtopic 215 — Weather Talk · Погода: зачем тема и как о ней говорят
 
-**ID:** 215 | **Order:** 1
+**ID:** 215
 **Теги:** зачем тут it, почему нельзя сказать is raining, предложение без подлежащего, о чём говорить с незнакомцем
 
 ---
 
 ### Card 580 · Разговор, который случается каждый день
 
-**ID:** 580 | **Order:** 1
+**ID:** 580
 
 #### Theory
 
@@ -147,7 +147,7 @@ A: "True. Let's take a taxi."
 
 ### Card 581 · Почему русскому здесь сложнее, чем кажется
 
-**ID:** 581 | **Order:** 2
+**ID:** 581
 
 #### Theory
 
@@ -265,14 +265,14 @@ A: "True. Let's take a taxi."
 
 ## Microtopic 216 — It's raining · Погода без подлежащего
 
-**ID:** 216 | **Order:** 2
+**ID:** 216
 **Теги:** it's или there's, it's fog или foggy, a weather или weather, спросить какая погода на улице, isn't it cold
 
 ---
 
 ### Card 582 · Пустое it — двигатель погоды
 
-**ID:** 582 | **Order:** 1
+**ID:** 582
 
 #### Theory
 
@@ -404,7 +404,7 @@ RU: На следующей неделе в Мадриде будет жарко
 
 ### Card 583 · Три упаковки одной погоды
 
-**ID:** 583 | **Order:** 2
+**ID:** 583
 
 #### Theory
 
@@ -531,7 +531,7 @@ RU: На следующей неделе в Мадриде будет жарко
 
 ### Card 584 · weather — вещество, а не штука
 
-**ID:** 584 | **Order:** 3
+**ID:** 584
 
 #### Theory
 
@@ -643,7 +643,7 @@ RU: На следующей неделе в Мадриде будет жарко
 
 ### Card 585 · Отрицание и вопрос погоды
 
-**ID:** 585 | **Order:** 4
+**ID:** 585
 
 #### Theory
 
@@ -784,7 +784,7 @@ A: "Good. Then we can eat outside."
 
 ### Card 586 · Спросить о погоде
 
-**ID:** 586 | **Order:** 5
+**ID:** 586
 
 #### Theory
 
@@ -923,14 +923,14 @@ A: "Good. Then we can eat outside."
 
 ## Microtopic 217 — Weather in Time · Погода во времени: сегодня, обычно, завтра, вчера
 
-**ID:** 217 | **Order:** 3
+**ID:** 217
 **Теги:** it's raining или it rains, it rained или it was raining, сказать что завтра будет дождь, дождь идёт с утра, it's supposed to rain, the forecast says
 
 ---
 
 ### Card 587 · Сейчас или вообще
 
-**ID:** 587 | **Order:** 1
+**ID:** 587
 
 #### Theory
 
@@ -1074,7 +1074,7 @@ A: "Good. Then we can eat outside."
 
 ### Card 588 · Завтра: два способа прогноза
 
-**ID:** 588 | **Order:** 2
+**ID:** 588
 
 #### Theory
 
@@ -1211,7 +1211,7 @@ A: "Good. Then we can eat outside."
 
 ### Card 589 · Вчера и до сих пор
 
-**ID:** 589 | **Order:** 3
+**ID:** 589
 
 #### Theory
 
@@ -1348,7 +1348,7 @@ A: "Good. Then we can eat outside."
 
 ### Card 590 · Язык прогноза
 
-**ID:** 590 | **Order:** 4
+**ID:** 590
 
 #### Theory
 
@@ -1491,14 +1491,14 @@ A: "Good. Then we can eat outside."
 
 ## Microtopic 218 — Weather Words · Словарь погоды: чем описывают любой день
 
-**ID:** 218 | **Order:** 4
+**ID:** 218
 **Теги:** существительное плюс y, чем дождь отличается от мороси, шкала холода по-английски, it looks like rain, сколько градусов по-английски, гром и молния
 
 ---
 
 ### Card 591 · Существительное + y = погода
 
-**ID:** 591 | **Order:** 1
+**ID:** 591
 
 #### Theory
 
@@ -1634,7 +1634,7 @@ A: "Good. Then we can eat outside."
 
 ### Card 592 · Осадки и небо
 
-**ID:** 592 | **Order:** 2
+**ID:** 592
 
 #### Theory
 
@@ -1760,7 +1760,7 @@ A: "Good. Then we can eat outside."
 
 ### Card 593 · Ветер, холод и небесные явления
 
-**ID:** 593 | **Order:** 3
+**ID:** 593
 
 #### Theory
 
@@ -1892,7 +1892,7 @@ A: "Good. Then we can eat outside."
 
 ### Card 594 · Похоже на дождь
 
-**ID:** 594 | **Order:** 4
+**ID:** 594
 
 #### Theory
 
@@ -2018,7 +2018,7 @@ A: "You're right, I'll leave it in the bathroom."
 
 ### Card 595 · Сколько градусов
 
-**ID:** 595 | **Order:** 5
+**ID:** 595
 
 #### Theory
 
@@ -2183,14 +2183,14 @@ A: "You're right, I'll leave it in the bathroom."
 
 ## Microtopic 219 — Weather Traps · Погодные ловушки и идиомы
 
-**ID:** 219 | **Order:** 5
+**ID:** 219
 **Теги:** мне холодно, я простыл, под дождём предлог, на улице или on the street, under the weather, take a rain check, lovely day isn't it
 
 ---
 
 ### Card 596 · Три холода: погода, человек, болезнь
 
-**ID:** 596 | **Order:** 1
+**ID:** 596
 
 #### Theory
 
@@ -2317,7 +2317,7 @@ A: "You're right, I'll leave it in the bathroom."
 
 ### Card 597 · Под дождём, на солнце, на улице
 
-**ID:** 597 | **Order:** 2
+**ID:** 597
 
 #### Theory
 
@@ -2448,7 +2448,7 @@ A: "You're right, I'll leave it in the bathroom."
 
 ### Card 598 · Когда погода вообще не про погоду
 
-**ID:** 598 | **Order:** 3
+**ID:** 598
 
 #### Theory
 
@@ -2569,7 +2569,7 @@ A: "Then go home and rest."
 
 ### Card 599 · Погода как повод заговорить
 
-**ID:** 599 | **Order:** 4
+**ID:** 599
 
 #### Theory
 
@@ -2711,14 +2711,14 @@ A: "Then go home and rest."
 
 ## Microtopic 220 — Live Practice · Разговор о погоде
 
-**ID:** 220 | **Order:** 6
+**ID:** 220
 **Теги:** поговорить о погоде с ии, собрать разговор целиком, потренировать всю тему, живая практика
 
 ---
 
 ### Card 600 · Живая практика: разговор о погоде
 
-**ID:** 600 | **Order:** 1
+**ID:** 600
 
 #### Theory
 

@@ -17,14 +17,14 @@
 
 ## Microtopic 151 — What Is Present Perfect Continuous · Что такое Present Perfect Continuous
 
-**ID:** 151 | **Order:** 1
+**ID:** 151
 **Теги:** am waiting или have been waiting, жду уже час по-английски, I am waiting for an hour, несовершенный вид ложный друг, видно чем человек занимался
 
 ---
 
 ### Card 400 · Дубль, который ещё не остановили
 
-**ID:** 400 | **Order:** 1
+**ID:** 400
 
 #### Theory
 
@@ -90,7 +90,7 @@ Present Perfect Continuous — это **дубль, который ещё не �
 
 ### Card 401 · Две половины одной линии
 
-**ID:** 401 | **Order:** 2
+**ID:** 401
 
 #### Theory
 
@@ -155,7 +155,7 @@ Present Perfect Continuous — это **дубль, который ещё не �
 
 ### Card 402 · Почему русские ошибаются
 
-**ID:** 402 | **Order:** 3
+**ID:** 402
 
 #### Theory
 
@@ -215,14 +215,14 @@ Present Perfect Continuous — не самое сложное время по ф
 
 ## Microtopic 152 — have been + -ing · Как собрать длительный перфект
 
-**ID:** 152 | **Order:** 2
+**ID:** 152
 **Теги:** have been или has been, откуда взялось been, he's been это has, haven't been sleeping, have you been waiting long
 
 ---
 
 ### Card 403 · Формула: have/has + been + V-ing
 
-**ID:** 403 | **Order:** 1
+**ID:** 403
 
 #### Theory
 
@@ -359,7 +359,7 @@ Present Perfect Continuous — не самое сложное время по ф
 
 ### Card 404 · Сокращения и слух: I've been, he's been
 
-**ID:** 404 | **Order:** 2
+**ID:** 404
 
 #### Theory
 
@@ -461,7 +461,7 @@ Present Perfect Continuous — не самое сложное время по ф
 
 ### Card 405 · Отрицание и вопрос
 
-**ID:** 405 | **Order:** 3
+**ID:** 405
 
 #### Theory
 
@@ -622,14 +622,14 @@ B: ___
 
 ## Microtopic 153 — How Long · Как долго идёт процесс
 
-**ID:** 153 | **Order:** 3
+**ID:** 153
 **Теги:** сколько уже длится процесс, have been waiting или have waited, срок с for и since, all morning без предлога, how long have you been
 
 ---
 
 ### Card 406 · Срок процесса: for, since и all morning
 
-**ID:** 406 | **Order:** 1
+**ID:** 406
 
 #### Theory
 
@@ -761,7 +761,7 @@ B: ___
 
 ### Card 407 · How long have you been…? — и что отвечать
 
-**ID:** 407 | **Order:** 2
+**ID:** 407
 
 #### Theory
 
@@ -909,14 +909,14 @@ B: ___
 
 ## Microtopic 154 — Just Stopped · Только что перестал: следы видны
 
-**ID:** 154 | **Order:** 4
+**ID:** 154
 **Теги:** have been без for и since, действие кончилось а форма длительная, have you been drinking упрёк, i've been thinking вместо think, свежий след недавнего занятия
 
 ---
 
 ### Card 408 · Следы на виду: вот чем я занимался
 
-**ID:** 408 | **Order:** 1
+**ID:** 408
 
 #### Theory
 
@@ -1061,7 +1061,7 @@ B: ___
 
 ### Card 409 · Интонация: подозрение, упрёк и забота
 
-**ID:** 409 | **Order:** 2
+**ID:** 409
 
 #### Theory
 
@@ -1167,14 +1167,14 @@ A: "You should take a break."
 
 ## Microtopic 155 — Repeated Lately · Полоса повторов в последнее время
 
-**ID:** 155 | **Order:** 5
+**ID:** 155
 **Теги:** сказать в последнее время, have been going или go, повторяется а не длится, every day с have been, привычка или последнее время
 
 ---
 
 ### Card 410 · Не один процесс, а серия повторов
 
-**ID:** 410 | **Order:** 1
+**ID:** 410
 
 #### Theory
 
@@ -1294,7 +1294,7 @@ A: "You should take a break."
 
 ### Card 411 · Полоса или привычка: чем это не Present Simple
 
-**ID:** 411 | **Order:** 2
+**ID:** 411
 
 #### Theory
 
@@ -1410,14 +1410,14 @@ A: "You should take a break."
 
 ## Microtopic 156 — have done vs have been doing · Результат или процесс
 
-**ID:** 156 | **Order:** 6
+**ID:** 156
 **Теги:** have read или have been reading, назвал количество какая форма, have been knowing нельзя, have lived или have been living, дочитал или ещё читаю
 
 ---
 
 ### Card 412 · Ось: что сделано ↔ чем занимался
 
-**ID:** 412 | **Order:** 1
+**ID:** 412
 
 #### Theory
 
@@ -1533,7 +1533,7 @@ A: "No wonder you look so tired."
 
 ### Card 413 · Количество убивает Continuous
 
-**ID:** 413 | **Order:** 2
+**ID:** 413
 
 #### Theory
 
@@ -1639,7 +1639,7 @@ A: "No wonder you look so tired."
 
 ### Card 414 · for и since работают с обеими
 
-**ID:** 414 | **Order:** 3
+**ID:** 414
 
 #### Theory
 
@@ -1729,7 +1729,7 @@ A: "No wonder you look so tired."
 
 ### Card 415 · Глаголы состояния в это время не идут
 
-**ID:** 415 | **Order:** 4
+**ID:** 415
 
 #### Theory
 
@@ -1825,7 +1825,7 @@ A: "No wonder you look so tired."
 
 ### Card 416 · Компас: где выбор есть, а где его нет
 
-**ID:** 416 | **Order:** 5
+**ID:** 416
 
 #### Theory
 
@@ -1941,14 +1941,14 @@ A: "No wonder you look so tired."
 
 ## Microtopic 157 — Live Practice · Present Perfect Continuous вживую с ИИ
 
-**ID:** 157 | **Order:** 7
+**ID:** 157
 **Теги:** практика have been doing с ии, живая тренировка с ии, скажи по-английски have been, найди ошибку have been
 
 ---
 
 ### Card 417 · Живая практика: have been doing с ИИ
 
-**ID:** 417 | **Order:** 1
+**ID:** 417
 
 #### Theory
 

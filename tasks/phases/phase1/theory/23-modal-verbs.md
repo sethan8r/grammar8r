@@ -13,14 +13,14 @@
 
 ## Microtopic 234 — Modal Verbs · Модальные: глагол, который оценивает
 
-**ID:** 234 | **Order:** 1
+**ID:** 234
 **Теги:** что такое модальный глагол, must это надо или наверняка, надо и должно быть разница, maybe или must, второй смысл у may и can
 
 ---
 
 ### Card 635 · Что это за глаголы, зачем они тебе и почему так поздно
 
-**ID:** 635 | **Order:** 1
+**ID:** 635
 
 #### Theory
 
@@ -160,7 +160,7 @@
 
 ### Card 636 · Два этажа: «надо» и «наверняка» — одно и то же слово
 
-**ID:** 636 | **Order:** 2
+**ID:** 636
 
 #### Theory
 
@@ -306,14 +306,14 @@
 
 ## Microtopic 235 — How Modals Work · Форма: без -s, без to, без своих времён
 
-**ID:** 235 | **Order:** 2
+**ID:** 235
 **Теги:** почему can без s, must to go ошибка, как задать вопрос с should, короткий ответ yes i can, will can или be able to, could или was able to
 
 ---
 
 ### Card 637 · Никакого -s и никакого to
 
-**ID:** 637 | **Order:** 1
+**ID:** 637
 
 #### Theory
 
@@ -444,7 +444,7 @@
 
 ### Card 638 · Отрицание, вопрос и короткий ответ
 
-**ID:** 638 | **Order:** 2
+**ID:** 638
 
 #### Theory
 
@@ -607,7 +607,7 @@ A: "Good, the ID card will be enough then."
 
 ### Card 639 · Двух модальных подряд не бывает: подпорки be able to и have to
 
-**ID:** 639 | **Order:** 3
+**ID:** 639
 
 #### Theory
 
@@ -744,14 +744,14 @@ A: "Good, the ID card will be enough then."
 
 ## Microtopic 236 — Can / Could · Умею, смогу — и почему could это вежливость
 
-**ID:** 236 | **Order:** 3
+**ID:** 236
 **Теги:** could или can, could you или can you, смягчить просьбу, умел в детстве, can про завтра, мог бы
 
 ---
 
 ### Card 640 · Умение и возможность: can, can't, could
 
-**ID:** 640 | **Order:** 1
+**ID:** 640
 
 #### Theory
 
@@ -874,7 +874,7 @@ A: "Good, the ID card will be enough then."
 
 ### Card 641 · Прошедшая форма = дистанция, а не прошлое
 
-**ID:** 641 | **Order:** 2
+**ID:** 641
 
 #### Theory
 
@@ -1018,7 +1018,7 @@ A: "Thanks, I know you're busy."
 
 ### Card 642 · А где could — это всё-таки прошлое
 
-**ID:** 642 | **Order:** 3
+**ID:** 642
 
 #### Theory
 
@@ -1172,14 +1172,14 @@ A: "Thanks, I know you're busy."
 
 ## Microtopic 237 — Permission · Можно? Нельзя! — разрешение и запрет
 
-**ID:** 237 | **Order:** 4
+**ID:** 237
 **Теги:** как спросить можно ли, may i или can i, нельзя или не обязан, запрещено по правилам, разрешили уйти пораньше, вежливый отказ
 
 ---
 
 ### Card 643 · Спросить и дать разрешение: can, could, may
 
-**ID:** 643 | **Order:** 1
+**ID:** 643
 
 #### Theory
 
@@ -1327,7 +1327,7 @@ A: "I see. Where's the nearest car park then?"
 
 ### Card 644 · Запрет: mustn't, can't, may not
 
-**ID:** 644 | **Order:** 2
+**ID:** 644
 
 #### Theory
 
@@ -1496,14 +1496,14 @@ A: "I see. Where's the nearest car park then?"
 
 ## Microtopic 238 — Must / Have to · Надо, обязан, приходится
 
-**ID:** 238 | **Order:** 5
+**ID:** 238
 **Теги:** mustn't, don't have to, не обязан, приходится по-английски, must или have to, be supposed to, needn't что значит, had to
 
 ---
 
 ### Card 645 · have to: приходится — и во всех временах
 
-**ID:** 645 | **Order:** 1
+**ID:** 645
 
 #### Theory
 
@@ -1637,7 +1637,7 @@ A: "No wonder. Take it easy today."
 
 ### Card 646 · must, have to, have got to — три «надо» в одной таблице
 
-**ID:** 646 | **Order:** 2
+**ID:** 646
 
 #### Theory
 
@@ -1765,7 +1765,7 @@ A: "No wonder. Take it easy today."
 
 ### Card 647 · Отрицания, которые русский путает: mustn't, don't have to, needn't
 
-**ID:** 647 | **Order:** 3
+**ID:** 647
 
 #### Theory
 
@@ -1905,7 +1905,7 @@ A: "No wonder. Take it easy today."
 
 ### Card 648 · Лестница обязанности: сила и регистр — две разные линейки
 
-**ID:** 648 | **Order:** 4
+**ID:** 648
 
 #### Theory
 
@@ -2100,14 +2100,14 @@ A: "No wonder. Take it easy today."
 
 ## Microtopic 239 — Should / Ought to · Совет — и ожидание
 
-**ID:** 239 | **Order:** 6
+**ID:** 239
 **Теги:** как дать совет, should или must, ought to что значит, спросить совета по-английски, had better или should, should be что значит
 
 ---
 
 ### Card 649 · Совет: should, shouldn't и книжный ought to
 
-**ID:** 649 | **Order:** 1
+**ID:** 649
 
 #### Theory
 
@@ -2282,7 +2282,7 @@ A: "No wonder. Take it easy today."
 
 ### Card 650 · should не только советует: «должно быть готово к пятнице»
 
-**ID:** 650 | **Order:** 2
+**ID:** 650
 
 #### Theory
 
@@ -2448,14 +2448,14 @@ A: "Good, I'll stay at home that day then."
 
 ## Microtopic 240 — Will / Would · Воля, обещание и вежливость
 
-**ID:** 240 | **Order:** 7
+**ID:** 240
 **Теги:** won't значит отказ, will или would, would you mind что значит, будущее из прошлого, would или used to, дверь не открывается по-английски
 
 ---
 
 ### Card 651 · will — это воля, а не только будущее
 
-**ID:** 651 | **Order:** 1
+**ID:** 651
 
 #### Theory
 
@@ -2627,7 +2627,7 @@ A: "Good, I'll stay at home that day then."
 
 ### Card 652 · would: вежливость и «мягкое я»
 
-**ID:** 652 | **Order:** 2
+**ID:** 652
 
 #### Theory
 
@@ -2789,7 +2789,7 @@ A: "Thanks a lot."
 
 ### Card 653 · would как прошлое will: будущее, увиденное из прошлого
 
-**ID:** 653 | **Order:** 3
+**ID:** 653
 
 #### Theory
 
@@ -2914,7 +2914,7 @@ A: "Thanks a lot."
 
 ### Card 654 · would про прошлое: «раньше мы каждое лето ездили»
 
-**ID:** 654 | **Order:** 4
+**ID:** 654
 
 #### Theory
 
@@ -3067,14 +3067,14 @@ A: "Thanks a lot."
 
 ## Microtopic 241 — Certainty · Второй этаж: наверняка, вряд ли, может быть
 
-**ID:** 241 | **Order:** 8
+**ID:** 241
 **Теги:** наверное по-английски, can't be или mustn't, might not или can't, must be sleeping, may not запрет или возможно, might as well что значит
 
 ---
 
 ### Card 655 · Шкала уверенности: must, should, may, might, could, can't
 
-**ID:** 655 | **Order:** 1
+**ID:** 655
 
 #### Theory
 
@@ -3235,7 +3235,7 @@ A: "Thanks a lot."
 
 ### Card 656 · Отрицание догадки: can't be, might not, shouldn't be — и при чём тут mustn't
 
-**ID:** 656 | **Order:** 2
+**ID:** 656
 
 #### Theory
 
@@ -3389,7 +3389,7 @@ A: "Thanks a lot."
 
 ### Card 657 · Догадка про «прямо сейчас»: модальный + be + -ing
 
-**ID:** 657 | **Order:** 3
+**ID:** 657
 
 #### Theory
 
@@ -3520,7 +3520,7 @@ Continuous мы собирали десятки раз: **He is sleeping**, **Sh
 
 ### Card 658 · may, might, could — оттенки и застывшие обороты
 
-**ID:** 658 | **Order:** 4
+**ID:** 658
 
 #### Theory
 
@@ -3664,14 +3664,14 @@ A: "Good idea, I'll check the meeting room."
 
 ## Microtopic 242 — Modal + have + V3 · Догадки и сожаления о прошлом
 
-**ID:** 242 | **Order:** 9
+**ID:** 242
 **Теги:** надо было сказать по-английски, could have три смысла, must have forgotten, should of ошибка, needn't have что значит, упрёк о прошлом
 
 ---
 
 ### Card 659 · Что там было: must have, can't have, might have
 
-**ID:** 659 | **Order:** 1
+**ID:** 659
 
 #### Theory
 
@@ -3817,7 +3817,7 @@ A: "Good idea, I'll check the meeting room."
 
 ### Card 660 · Упрёк и сожаление: should have, shouldn't have, could have
 
-**ID:** 660 | **Order:** 2
+**ID:** 660
 
 #### Theory
 
@@ -3969,7 +3969,7 @@ A: "Good idea, I'll check the meeting room."
 
 ### Card 661 · Форма и ловушки
 
-**ID:** 661 | **Order:** 3
+**ID:** 661
 
 #### Theory
 
@@ -4110,14 +4110,14 @@ A: "Good idea, I'll check the meeting room."
 
 ## Microtopic 243 — Live Practice · Модальные в деле
 
-**ID:** 243 | **Order:** 10
+**ID:** 243
 **Теги:** живая практика с ии, потренировать модальные разом, проверить себя без подсказок, найти ошибку с ии, сказать фразу с ии
 
 ---
 
 ### Card 662 · Живая практика: модальные в деле
 
-**ID:** 662 | **Order:** 1
+**ID:** 662
 
 #### Theory
 

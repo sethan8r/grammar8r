@@ -13,14 +13,14 @@
 
 ## Microtopic 227 — Gerund · Герундий: -ing вместо существительного
 
-**ID:** 227 | **Order:** 1
+**ID:** 227
 **Теги:** что значит reading, reading это continuous или нет, to это предлог или частица, русский инфинитив вместо английского
 
 ---
 
 ### Card 614 · Что это за зверь, зачем сейчас и что будет
 
-**ID:** 614 | **Order:** 1
+**ID:** 614
 
 #### Theory
 
@@ -181,7 +181,7 @@
 
 ### Card 615 · Почему русскому здесь сложнее, чем кажется
 
-**ID:** 615 | **Order:** 2
+**ID:** 615
 
 #### Theory
 
@@ -301,14 +301,14 @@
 
 ## Microtopic 228 — Verb + -ing · Глаголы только с -ing
 
-**ID:** 228 | **Order:** 2
+**ID:** 228
 **Теги:** enjoy finish avoid, suggested to go ошибка, какой глагол что требует, признался что сделал, do you mind как отвечать
 
 ---
 
 ### Card 616 · Два списка рядом: to или -ing
 
-**ID:** 616 | **Order:** 1
+**ID:** 616
 
 #### Theory
 
@@ -458,7 +458,7 @@
 
 ### Card 617 · Ядро списка: enjoy, finish, avoid, keep, practise
 
-**ID:** 617 | **Order:** 2
+**ID:** 617
 
 #### Theory
 
@@ -593,7 +593,7 @@
 
 ### Card 618 · Про то, что уже случилось: deny, admit, suggest, recommend
 
-**ID:** 618 | **Order:** 3
+**ID:** 618
 
 #### Theory
 
@@ -731,7 +731,7 @@
 
 ### Card 619 · Отрицание, вопрос и глагол mind
 
-**ID:** 619 | **Order:** 4
+**ID:** 619
 
 #### Theory
 
@@ -910,14 +910,14 @@ A: "Thanks, I'll be quick."
 
 ## Microtopic 229 — Like & Love · Два варианта с одним смыслом
 
-**ID:** 229 | **Order:** 3
+**ID:** 229
 **Теги:** like swimming или like to swim, would you like some tea, i'd love to ответ, started raining или to rain, terpet ne mogu по-английски
 
 ---
 
 ### Card 620 · like, love, hate, prefer — обе формы годятся
 
-**ID:** 620 | **Order:** 1
+**ID:** 620
 
 #### Theory
 
@@ -1054,7 +1054,7 @@ A: "Thanks, I'll be quick."
 
 ### Card 621 · start, begin, continue — и единственное ограничение
 
-**ID:** 621 | **Order:** 2
+**ID:** 621
 
 #### Theory
 
@@ -1180,7 +1180,7 @@ A: "Thanks, I'll be quick."
 
 ### Card 622 · Границы: would like только с to, can't stand только с -ing
 
-**ID:** 622 | **Order:** 3
+**ID:** 622
 
 #### Theory
 
@@ -1347,14 +1347,14 @@ A: "Great, I'll text you the address."
 
 ## Microtopic 230 — Stop & Remember · Смысл меняется от формы
 
-**ID:** 230 | **Order:** 4
+**ID:** 230
 **Теги:** stopped smoking или stopped to smoke, remember to call или calling, попробуй открыть окно, my shoes need cleaning, помешать кому-то сделать
 
 ---
 
 ### Card 623 · stop doing и stop to do — две разные вещи
 
-**ID:** 623 | **Order:** 1
+**ID:** 623
 
 #### Theory
 
@@ -1480,7 +1480,7 @@ A: "Great, I'll text you the address."
 
 ### Card 624 · remember и forget: to смотрит вперёд, -ing назад
 
-**ID:** 624 | **Order:** 2
+**ID:** 624
 
 #### Theory
 
@@ -1615,7 +1615,7 @@ A: "Great, I'll text you the address."
 
 ### Card 625 · try, mean, need и regret
 
-**ID:** 625 | **Order:** 3
+**ID:** 625
 
 #### Theory
 
@@ -1766,14 +1766,14 @@ A: "Great, I'll text you the address."
 
 ## Microtopic 231 — Preposition + -ing · Предлог требует -ing
 
-**ID:** 231 | **Order:** 5
+**ID:** 231
 **Теги:** good at swimming, looking forward to see you, почему после предлога ing, no smoking почему, how about meeting, sorry for being late
 
 ---
 
 ### Card 626 · После любого предлога — вещь, и никогда to + глагол
 
-**ID:** 626 | **Order:** 1
+**ID:** 626
 
 #### Theory
 
@@ -1939,7 +1939,7 @@ A: "Great, I'll text you the address."
 
 ### Card 627 · Главная ловушка темы: looking forward to seeing
 
-**ID:** 627 | **Order:** 2
+**ID:** 627
 
 #### Theory
 
@@ -2070,7 +2070,7 @@ A: "Great, I'll text you the address."
 
 ### Card 628 · Таблички и вежливые формулы
 
-**ID:** 628 | **Order:** 3
+**ID:** 628
 
 #### Theory
 
@@ -2208,7 +2208,7 @@ A: "Good idea, I'll get my phone."
 
 ### Card 629 · being — герундий от глагола to be
 
-**ID:** 629 | **Order:** 4
+**ID:** 629
 
 #### Theory
 
@@ -2339,14 +2339,14 @@ A: "Good idea, I'll get my phone."
 
 ## Microtopic 232 — -ing as noun · Герундий как существительное
 
-**ID:** 232 | **Order:** 6
+**ID:** 232
 **Теги:** swimming is good for you, go shopping почему ing, walking home i met kate, стоит ли оно того по-английски, сколько времени трачу на
 
 ---
 
 ### Card 630 · -ing в роли подлежащего
 
-**ID:** 630 | **Order:** 1
+**ID:** 630
 
 #### Theory
 
@@ -2490,7 +2490,7 @@ A: "Good idea, I'll get my phone."
 
 ### Card 631 · go + -ing — «сходить поплавать»
 
-**ID:** 631 | **Order:** 2
+**ID:** 631
 
 #### Theory
 
@@ -2628,7 +2628,7 @@ A: "Good idea, I'll get my phone."
 
 ### Card 632 · Тот же хвостик, но не вещь: -ing как признак
 
-**ID:** 632 | **Order:** 3
+**ID:** 632
 
 #### Theory
 
@@ -2759,7 +2759,7 @@ A: "Good idea, I'll get my phone."
 
 ### Card 633 · Обороты: сколько времени, чем занят и стоит ли оно того
 
-**ID:** 633 | **Order:** 4
+**ID:** 633
 
 #### Theory
 
@@ -2909,14 +2909,14 @@ A: "You're right, let's go tomorrow."
 
 ## Microtopic 233 — Live Practice · Герундий в деле
 
-**ID:** 233 | **Order:** 7
+**ID:** 233
 **Теги:** повторить всю тему, ing или to практика, проверить себя на герундии
 
 ---
 
 ### Card 634 · Живая практика: всё вместе
 
-**ID:** 634 | **Order:** 1
+**ID:** 634
 
 #### Theory
 

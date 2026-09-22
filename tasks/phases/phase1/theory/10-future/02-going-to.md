@@ -17,14 +17,14 @@
 
 ## Microtopic 116 — going to · Решение принято заранее
 
-**ID:** 116 | **Order:** 1
+**ID:** 116
 **Теги:** давно задумал, план уже есть, иду в магазин, ложный друг, почему не will
 
 ---
 
 ### Card 321 · Сценарий уже подписан
 
-**ID:** 321 | **Order:** 1
+**ID:** 321
 
 #### Theory
 
@@ -104,7 +104,7 @@
 
 ### Card 322 · Почему русский спотыкается на going to
 
-**ID:** 322 | **Order:** 2
+**ID:** 322
 
 #### Theory
 
@@ -185,14 +185,14 @@
 
 ## Microtopic 117 — Form · Форма: am/is/are going to + V1
 
-**ID:** 117 | **Order:** 2
+**ID:** 117
 **Теги:** gonna, забыл am is are, после to базовая форма, собираешься ли ты, разве ты не будешь, не нужен do
 
 ---
 
 ### Card 323 · Формула, лица и gonna
 
-**ID:** 323 | **Order:** 1
+**ID:** 323
 
 #### Theory
 
@@ -354,7 +354,7 @@
 
 ### Card 324 · Отрицание и вопрос: isn't going to и Are you going to…?
 
-**ID:** 324 | **Order:** 2
+**ID:** 324
 
 #### Theory
 
@@ -524,14 +524,14 @@ A: "Great, then I'll book the tickets today!"
 
 ## Microtopic 118 — Usage · Что говорят через going to
 
-**ID:** 118 | **Order:** 3
+**ID:** 118
 **Теги:** вижу по признакам, вот-вот случится, собирался но не вышло, оправдание, was going to
 
 ---
 
 ### Card 325 · Намерение, решённое заранее
 
-**ID:** 325 | **Order:** 1
+**ID:** 325
 
 #### Theory
 
@@ -662,7 +662,7 @@ A: "Great, then I'll book the tickets today!"
 
 ### Card 326 · Предсказание по признакам перед глазами
 
-**ID:** 326 | **Order:** 2
+**ID:** 326
 
 #### Theory
 
@@ -783,7 +783,7 @@ A: "Great, then I'll book the tickets today!"
 
 ### Card 327 · was going to: собирался, но не вышло
 
-**ID:** 327 | **Order:** 3
+**ID:** 327
 
 #### Theory
 
@@ -923,14 +923,14 @@ A: "No problem, we can meet on Sunday."
 
 ## Microtopic 119 — going to go · Двойное go
 
-**ID:** 119 | **Order:** 4
+**ID:** 119
 **Теги:** два go подряд, собираюсь пойти, иду в кино, лишнее go, go wrong
 
 ---
 
 ### Card 328 · Почему носитель не говорит going to go
 
-**ID:** 328 | **Order:** 1
+**ID:** 328
 
 #### Theory
 
@@ -1055,7 +1055,7 @@ A: "No problem, we can meet on Sunday."
 
 ### Card 329 · Когда двойное go убирать нельзя
 
-**ID:** 329 | **Order:** 2
+**ID:** 329
 
 #### Theory
 
@@ -1216,14 +1216,14 @@ A: "No problem, we can meet on Sunday."
 
 ## Microtopic 120 — Live Practice · Закрепление going to с ИИ
 
-**ID:** 120 | **Order:** 5
+**ID:** 120
 **Теги:** практика с ии, найди ошибку, живая тренировка, перевод предложений
 
 ---
 
 ### Card 330 · Живая практика с ИИ
 
-**ID:** 330 | **Order:** 1
+**ID:** 330
 
 #### Theory
 

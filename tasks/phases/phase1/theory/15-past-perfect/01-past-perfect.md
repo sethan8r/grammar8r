@@ -17,14 +17,14 @@
 
 ## Microtopic 168 — What Is Past Perfect · Что такое Past Perfect
 
-**ID:** 168 | **Order:** 1
+**ID:** 168
 **Теги:** зачем нужно had, had left или left, had без второго события, when i came he had left, had и did в одном предложении
 
 ---
 
 ### Card 441 · Ранее в этот день
 
-**ID:** 441 | **Order:** 1
+**ID:** 441
 
 #### Theory
 
@@ -100,7 +100,7 @@ Past Perfect — это **флешбэк с титром «ранее»**: ка�
 
 ### Card 442 · Не «давно», а «раньше другого»
 
-**ID:** 442 | **Order:** 2
+**ID:** 442
 
 #### Theory
 
@@ -170,7 +170,7 @@ Past Perfect — не «очень давнее прошлое», а **отно�
 
 ### Card 443 · Почему русские ошибаются
 
-**ID:** 443 | **Order:** 3
+**ID:** 443
 
 #### Theory
 
@@ -243,14 +243,14 @@ Past Perfect — не самое сложное время по форме: од
 
 ## Microtopic 169 — had + V3 · Как собрать Past Perfect
 
-**ID:** 169 | **Order:** 2
+**ID:** 169
 **Теги:** had went или had gone, d это had или would, как задать вопрос с had, did you had ошибка, had меняется по лицам
 
 ---
 
 ### Card 444 · Формула had + V3
 
-**ID:** 444 | **Order:** 1
+**ID:** 444
 
 #### Theory
 
@@ -386,7 +386,7 @@ Past Perfect собирается как `had + V3`: `had` — служебны�
 
 ### Card 445 · Сокращения и слух: I'd, he'd, we'd
 
-**ID:** 445 | **Order:** 2
+**ID:** 445
 
 #### Theory
 
@@ -491,7 +491,7 @@ Past Perfect собирается как `had + V3`: `had` — служебны�
 
 ### Card 446 · Отрицание и вопрос
 
-**ID:** 446 | **Order:** 3
+**ID:** 446
 
 #### Theory
 
@@ -633,14 +633,14 @@ A: "Yes, we missed the first goal."
 
 ## Microtopic 170 — Earlier Past · Что случилось раньше
 
-**ID:** 170 | **Order:** 3
+**ID:** 170
 **Теги:** какое событие было раньше, had после because, it was the first time, рассказать не по порядку, had never before
 
 ---
 
 ### Card 447 · Две точки: раннее одевается в had
 
-**ID:** 447 | **Order:** 1
+**ID:** 447
 
 #### Theory
 
@@ -783,7 +783,7 @@ A: "Yes, we missed the first goal."
 
 ### Card 448 · Порядок слов ≠ порядок событий
 
-**ID:** 448 | **Order:** 2
+**ID:** 448
 
 #### Theory
 
@@ -899,7 +899,7 @@ A: "Yes, we missed the first goal."
 
 ### Card 449 · Первый раз до того момента
 
-**ID:** 449 | **Order:** 3
+**ID:** 449
 
 #### Theory
 
@@ -1003,14 +1003,14 @@ A: "Yes, we missed the first goal."
 
 ## Microtopic 171 — Before & After · Слова, которые держат порядок
 
-**ID:** 171 | **Order:** 4
+**ID:** 171
 **Теги:** by the time, when или after, after i sent или had sent, had не нужен, until в отрицании
 
 ---
 
 ### Card 450 · before, after и when
 
-**ID:** 450 | **Order:** 1
+**ID:** 450
 
 #### Theory
 
@@ -1128,7 +1128,7 @@ A: "Oh, so you missed him completely."
 
 ### Card 451 · by the time и by + время
 
-**ID:** 451 | **Order:** 2
+**ID:** 451
 
 #### Theory
 
@@ -1253,7 +1253,7 @@ A: "Oh, so you missed him completely."
 
 ### Card 452 · Когда had не нужен
 
-**ID:** 452 | **Order:** 3
+**ID:** 452
 
 #### Theory
 
@@ -1376,14 +1376,14 @@ A: "Oh, so you missed him completely."
 
 ## Microtopic 172 — Already, Just, Never · Маркеры внутри флешбэка
 
-**ID:** 172 | **Order:** 5
+**ID:** 172
 **Теги:** had already left, куда ставить already, had just sat down, still hadn't, почему не yet
 
 ---
 
 ### Card 453 · already, just и never между had и V3
 
-**ID:** 453 | **Order:** 1
+**ID:** 453
 
 #### Theory
 
@@ -1495,7 +1495,7 @@ A: "Oh, so you missed him completely."
 
 ### Card 454 · Как это звучит в рассказе
 
-**ID:** 454 | **Order:** 2
+**ID:** 454
 
 #### Theory
 
@@ -1615,14 +1615,14 @@ A: "Oh, so you missed him completely."
 
 ## Microtopic 173 — have done vs had done · Present Perfect или Past Perfect
 
-**ID:** 173 | **Order:** 6
+**ID:** 173
 **Теги:** has gone или had gone, когда had а когда have, от какого момента считаю, путаю два перфекта, зачем говорить had если есть have
 
 ---
 
 ### Card 455 · От какого момента идёт счёт
 
-**ID:** 455 | **Order:** 1
+**ID:** 455
 
 #### Theory
 
@@ -1772,7 +1772,7 @@ A: "Oh, so you missed him completely."
 
 ### Card 456 · Одна ситуация — три камеры
 
-**ID:** 456 | **Order:** 2
+**ID:** 456
 
 #### Theory
 
@@ -1905,7 +1905,7 @@ A: "Oh, so you missed him completely."
 
 ### Card 457 · Есть ли вторая точка в прошлом
 
-**ID:** 457 | **Order:** 3
+**ID:** 457
 
 #### Theory
 
@@ -2046,14 +2046,14 @@ A: "Next time ask your flatmate for a phone."
 
 ## Microtopic 174 — Live Practice · Past Perfect вживую с ИИ
 
-**ID:** 174 | **Order:** 7
+**ID:** 174
 **Теги:** практика had done с ии, живая тренировка с ии, скажи по-английски had, найди ошибку had, объяснить порядок событий
 
 ---
 
 ### Card 458 · Живая практика: had done с ИИ
 
-**ID:** 458 | **Order:** 1
+**ID:** 458
 
 #### Theory
 
