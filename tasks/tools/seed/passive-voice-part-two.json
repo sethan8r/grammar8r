@@ -53,6 +53,13 @@
       "title": "By, With and Made Of · Кем, чем и из чего",
       "order": 6,
       "searchKeywords": "когда ставить by, by или with, made of или made from, what is it made of, кем написана книга, covered with snow"
+    },
+    {
+      "id": 250,
+      "topicId": 38,
+      "title": "Get Passive · Разговорный пассив",
+      "order": 7,
+      "searchKeywords": "got fired, got fired или was fired, did he get fired, уволили по-английски, получил повышение по-английски"
     }
   ],
   "grammar_cards": [
@@ -3368,6 +3375,419 @@
         "Почему про суп говорят made with, а не made of?",
         "Как спросить, из чего сделана вещь?"
       ]
+    },
+    {
+      "id": 680,
+      "microtopicId": 250,
+      "title": "get вместо связки",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Всё, что мы разбирали до сих пор, стояло на связке `be`. А в живой речи на её месте сплошь и рядом оказывается совсем другое слово — `get`. Вы его наверняка слышали: **He got fired**, **She got promoted**, **I got invited**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Get + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He got fired last month.** — его уволили;",
+            "**She got promoted after a year.** — её повысили;",
+            "**I got invited to their wedding.** — меня пригласили на свадьбу;",
+            "**My brother got hurt playing football.** — брат травмировался;",
+            "**We got stuck in traffic for an hour.** — мы застряли в пробке на час."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вы это уже говорите"
+        },
+        {
+          "type": "paragraph",
+          "text": "Новой конструкции здесь нет вообще. В теме «Глагол get — часть 1» вы строили **get married**, **get lost**, **get dressed** — и среди них стояла фраза **I get paid on Friday**, поданная просто как бытовая. Присмотритесь к ней теперь: справа от `get` стоит третья форма `paid`. Значит зарплату вам платят, вы её не платите — это и есть страдательный залог, только собранный без связки."
+        },
+        {
+          "type": "paragraph",
+          "text": "Приём один и тот же, меняется лишь то, что стоит справа: прилагательное — **I got hungry** (стал каким), третья форма — **I got fired** (со мной это сделали)."
+        },
+        {
+          "type": "heading",
+          "text": "Чем get отличается от be"
+        },
+        {
+          "type": "paragraph",
+          "text": "В части 1 у нас была ось: `be` — фотография, `get` — щелчок переключателя. Здесь она работает буквально:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He is fired** — он в положении уволенного, статус; так говорят редко;",
+            "**He got fired** — его уволили, вот это и случилось."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`get` добавляет к фразе три вещи сразу. Первая — **событие**, а не состояние: что-то произошло, был переход. Вторая — **внезапность**: не по плану, не так, как задумывали. Чаще всего это неприятность (**got hurt**, **got stuck**, **got caught**, **got fired**), но не обязательно: **got promoted**, **got invited**, **got married** — события приятные и такие же неожиданные."
+        },
+        {
+          "type": "paragraph",
+          "text": "Третья — **регистр**: `get` разговорный."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В новости, в объявлении, в документе и в законе всегда стоит `be`, а `get` звучал бы там развязно. Сравните: **Two workers were injured in the accident** (заголовок новости) ↔ **My mate got injured at work** (рассказ другу). Обе фразы верны, но поменяйте их местами — и каждая окажется не к месту."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "get — обычный глагол, поэтому время любое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самое частое заблуждение здесь — считать `got fired` застывшей фразой про прошлое. Ничего подобного: `get` ведёт себя как всякий глагол, и вы уже умеете ставить его в любое время."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I get paid on Fridays.** — мне платят по пятницам;",
+            "**He got fired last month.** — его уволили в прошлом месяце;",
+            "**She's getting promoted next month.** — её повышают в следующем месяце;",
+            "**You'll get caught.** — тебя поймают;",
+            "**You might get hurt.** — можешь пораниться;",
+            "**I don't want to get fired.** — не хочу, чтобы меня уволили."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В длительную форму `get` идёт свободно — это мы разбирали в части 1 на **It's getting late**. Поэтому **She's getting promoted** звучит естественно, а официальное **She's being promoted** уместнее в письме или в разговоре с начальством."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вместо связки `be` в разговорной речи ставят `get`. Конструкция не новая: справа по-прежнему третья форма."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Get + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что добавляет get"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Событие, а не состояние: **He is fired** (статус) ↔ **He got fired** (уволили, случилось).",
+            "Внезапность: чаще неприятность (**got hurt**, **got stuck**), но и **got promoted**, **got invited**.",
+            "Разговорный регистр: в новостях и документах — только `be`."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Время любое"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I get paid on Fridays.** · **He got fired last month.** · **She's getting promoted.** · **You might get hurt.**"
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит справа"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прилагательное → стал каким (**got hungry**). Третья форма → с ним это сделали (**got fired**)."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Его уволили в прошлом месяце.",
+          "en": "He got fired last month."
+        },
+        {
+          "ru": "Её повысили через год.",
+          "en": "She got promoted after a year."
+        },
+        {
+          "ru": "Меня пригласили к ним на свадьбу.",
+          "en": "I got invited to their wedding."
+        },
+        {
+          "ru": "Мы застряли в пробке на час.",
+          "en": "We got stuck in traffic for an hour."
+        },
+        {
+          "ru": "Можешь пораниться.",
+          "en": "You might get hurt."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем He got fired отличается от He was fired?",
+        "Почему I get paid — это страдательный залог?",
+        "Когда get звучит неуместно?"
+      ]
+    },
+    {
+      "id": 681,
+      "microtopicId": 250,
+      "title": "get ведёт себя как обычный глагол",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "А теперь самое важное в этой микротеме — и это прямая противоположность тому, что мы вбивали в первой части темы."
+        },
+        {
+          "type": "paragraph",
+          "text": "Там было правило, которое мы повторяли много раз: **в страдательном залоге помощник `did` не нужен**, потому что вопрос и отрицание строит сама связка. У get-пассива связки нет вообще — вместо неё стоит обычный глагол `get`. Место помощника свободно, и `did` немедленно возвращается."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Did he get fired?** — его уволили? — **Yes, he did.** / **No, he didn't.**",
+            "**He didn't get fired, he quit.** — его не уволили, он сам ушёл;",
+            "**Didn't she get promoted last year?** — разве её не повысили в прошлом году?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "И это тоже не новое"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Глагол get — часть 1» вы уже строили **Did you get lost?**, **I didn't get angry**, **Didn't you get tired?** Механика та же самая, просто справа стояло прилагательное, а теперь стоит третья форма. Правило здесь не учат — его узнают."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Was he got fired** ✗ → **Did he get fired?** ✓. Рука хватает связку из страдательного залога и помощника из обычного глагола одновременно, и в одной фразе оказываются оба. Так не бывает: либо связка, либо `did`. Дословно сломанный вариант значил бы «был ли он получен уволенным» — бессмыслица."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где get не идёт"
+        },
+        {
+          "type": "paragraph",
+          "text": "`get` означает переход, поэтому там, где перехода нет, он не работает."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**состояния:** **The place is known for its wine** ✓, а **got known** ✗ — известность не включается щелчком;",
+            "**принадлежность:** **The company is owned by a French group** ✓, а **got owned** ✗;",
+            "**официальный текст:** в законе, инструкции и новости всегда `be`, даже если событие внезапное."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Три похожие фразы значат совершенно разное."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He got fired.** — с ним это сделали, он тут пострадавшая сторона;",
+            "**He got his hair cut.** — он сам это организовал, сходил в парикмахерскую;",
+            "**He got his phone stolen.** — с ним случилась неприятность, телефон украли."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторую и третью мы разберём в теме «Глагол get — часть 2», здесь достаточно не спутать их с нашей конструкцией. Рядом живёт и вариант с `have`: **I had my bike stolen** — это тоже «у меня украли велосипед», а вовсе не «я украл»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He's got fired** — здесь `'s` это `has`, а не «у него есть». Про пару `got` и `have got` мы говорили в части 1: **I've got a bike** значит «у меня есть велосипед». Но как только справа встаёт третья форма другого глагола, перед нами перфект: **He's just got fired** — «его только что уволили». У американцев на этом месте `gotten`: **He's just gotten fired**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Приказ тоже бывает страдательным"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't get caught.** — не попадись;",
+            "**Don't be fooled.** — не дай себя обмануть;",
+            "**Be seated.** — присаживайтесь (формальное, с табличек и объявлений)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Опора знакомая: **Don't be afraid** и **Don't get angry** мы разбирали в теме «Императив» — там справа стояло прилагательное, здесь третья форма."
+        },
+        {
+          "type": "heading",
+          "text": "Четыре роли get в одной таблице"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Справа от get стоит",
+            "Значит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "вещь",
+              "получил, достал",
+              "I got an email"
+            ],
+            [
+              "прилагательное",
+              "стал таким",
+              "I got tired"
+            ],
+            [
+              "третья форма",
+              "с ним это сделали",
+              "I got fired"
+            ],
+            [
+              "кто-то и третья форма",
+              "мне это сделали",
+              "I got my hair cut"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первые три у вас теперь полностью на руках. Четвёртая ждёт в «Глаголе get — часть 2»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Связки в этой конструкции нет, поэтому вопрос и отрицание строит обычный помощник `did`."
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Did he get fired?** — **Yes, he did.** / **No, he didn't.**",
+            "**He didn't get fired, he quit.** · **Didn't she get promoted last year?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где get не идёт"
+        },
+        {
+          "type": "paragraph",
+          "text": "Состояния и принадлежность — перехода там нет: **is known** ✓ / **got known** ✗, **is owned by** ✓ / **got owned** ✗. В законах и новостях — только `be`."
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He got fired** — с ним это сделали · **He got his hair cut** — сам организовал · **He got his phone stolen** — неприятность. Вторая и третья — тема «Глагол get — часть 2».",
+            "**He's got fired** — здесь `'s` это `has`: «его уволили», а не «у него есть»."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Was he got fired** ✗ → **Did he get fired?** ✓ — либо связка, либо `did`, вместе не бывает.",
+            "**Did he got fired** ✗ → **Did he get fired?** ✓ — после `did` первая форма."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Его уволили?",
+          "en": "Did he get fired?"
+        },
+        {
+          "ru": "Его не уволили, он сам ушёл.",
+          "en": "He didn't get fired, he quit."
+        },
+        {
+          "ru": "Разве её не повысили в прошлом году?",
+          "en": "Didn't she get promoted last year?"
+        },
+        {
+          "ru": "Это место известно своим вином.",
+          "en": "The place is known for its wine."
+        },
+        {
+          "ru": "Не попадись.",
+          "en": "Don't get caught."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему тут вдруг понадобился did, если это страдательный залог?",
+        "Чем He got fired отличается от He got his phone stolen?",
+        "Почему нельзя сказать got known?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3760,6 +4180,54 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 217,
       "orderInCard": 3
+    },
+    {
+      "cardId": 680,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 271,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 680,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 114,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 680,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 151,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 680,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 244,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 681,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 110,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 681,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 236,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 681,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 104,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 681,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 218,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -3839,6 +4307,22 @@
       "id": "passive_two_card679_ex1",
       "cardId": 679,
       "title": "Из чего это сделано",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card680_ex1",
+      "cardId": 680,
+      "title": "Скажи через get",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card681_ex1",
+      "cardId": 681,
+      "title": "Спроси и отрицай через did",
       "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
@@ -3963,6 +4447,22 @@
       "translation": "хлопок, хлопковый",
       "transcription": "[ˈkɒtn]",
       "microtopicId": 249,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 908,
+      "word": "to fire",
+      "translation": "увольнять, уволить",
+      "transcription": "[ˈfaɪə]",
+      "microtopicId": 250,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 909,
+      "word": "to hire",
+      "translation": "нанимать, брать на работу",
+      "transcription": "[ˈhaɪə]",
+      "microtopicId": 250,
       "categoryId": "useful_words"
     }
   ],
@@ -4262,6 +4762,37 @@
         }
       ],
       "explanation": "во втором предложении деятеля вводит by, а не from: destroyed by the storm. В четвёртом смешаны два залога сразу — раз дом построили, нужна связка и третья форма: Who was this house built by?"
+    },
+    {
+      "id": 244,
+      "statements": [
+        {
+          "en": "I got invited to the party last night.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He got fire from his job in May.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My phone got stolen on the bus.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She is get promoted next month.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "My keys got lost somewhere in the house.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении после get стоит первая форма — нужна третья: got fired. В четвёртом связка и get столкнулись в одной фразе: правильно She's getting promoted или She's being promoted."
     }
   ],
   "word_arrangement_exercises": [
@@ -4359,6 +4890,25 @@
         "making"
       ],
       "explanation": "старый пластик переплавили, и в новой бутылке его не узнать — поэтому from, а не of. Подлежащее во множественном числе, значит связка are, и после неё стоит третья форма made."
+    },
+    {
+      "id": 218,
+      "situationRu": "Ситуация: коллеги думали, что Ника уволили, а он ушёл сам.",
+      "correctSentence": "Nick didn't get fired last month.",
+      "words": [
+        "Nick",
+        "didn't",
+        "get",
+        "fired",
+        "last month"
+      ],
+      "distractors": [
+        "wasn't",
+        "didn't got",
+        "was",
+        "fire"
+      ],
+      "explanation": "отрицание строит didn't, а после него глагол стоит в первой форме — get. Связка wasn't в этой конструкции не нужна: в предложении уже есть обычный глагол."
     }
   ],
   "multiple_choice_exercises": [
@@ -4655,6 +5205,48 @@
         }
       ],
       "explanation": "вор и есть тот, кто крадёт, — новой информации в нём нет, поэтому деятеля не называют вовсе. Вариант с somebody сообщает ещё меньше: он занимает место в хвосте, ничего туда не добавляя."
+    },
+    {
+      "id": 271,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мой брат остался без работы — его уволили в мае.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "My brother got fire in May.",
+          "isCorrect": false
+        },
+        {
+          "text": "My brother got fired in May.",
+          "isCorrect": true
+        },
+        {
+          "text": "My brother was got fired in May.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после get стоит третья форма — fired, а не первая. В третьем варианте сразу две связки: либо страдательный залог с was, либо разговорный с get, но не оба вместе."
+    },
+    {
+      "id": 114,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Kate got invited to the opening.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Кейт пригласили на открытие.",
+          "isCorrect": true
+        },
+        {
+          "text": "Кейт пригласила кого-то на открытие.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кейт приглашают на открытия.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после get стоит третья форма invited, значит действие совершили над Кейт, а не она сама. Форма got называет одно событие в прошлом, а не повторяющееся."
     }
   ],
   "text_input_exercises": [
@@ -4886,6 +5478,34 @@
         }
       ],
       "explanation": "металл видно в готовой бутылке, поэтому of. Форма from сказала бы, что металл переработали во что-то неузнаваемое, а with назвала бы его одним из нескольких материалов."
+    },
+    {
+      "id": 104,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why are you looking for a new job?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "I was got fired last week.",
+          "isCorrect": false
+        },
+        {
+          "text": "I got fired last week.",
+          "isCorrect": true
+        },
+        {
+          "text": "I got fire last week.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "конструкция собирается из get и третьей формы. Во втором варианте столкнулись связка и get, в третьем после get стоит первая форма вместо третьей."
     }
   ],
   "matching_exercises": [
@@ -5134,6 +5754,25 @@
         }
       ],
       "explanation": "листья не покрывали улицу намеренно, они не деятель, поэтому нужен with. Второй вариант теряет связку, и получается, что улица накрыла листья сама."
+    },
+    {
+      "id": 236,
+      "wrongSentence": "Was he got fired after the meeting?",
+      "options": [
+        {
+          "text": "Did he got fired after the meeting?",
+          "isCorrect": false
+        },
+        {
+          "text": "Was he get fired after the meeting?",
+          "isCorrect": false
+        },
+        {
+          "text": "Did he get fired after the meeting?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "связка и помощник did в одной фразе не работают: раз есть get, вопрос строит did. После did глагол возвращается в первую форму, поэтому get, а не got."
     }
   ],
   "construction_meaning_exercises": [
@@ -5237,6 +5876,25 @@
         }
       ],
       "explanation": "вопросительное слово уходит в начало, связка встаёт перед подлежащим, а предлог остаётся в хвосте и никуда не переезжает. Связка согласуется с подлежащим: photos — множественное число, поэтому were."
+    },
+    {
+      "id": 110,
+      "taskDescription": "сделай из каждого предложения вопрос.",
+      "items": [
+        {
+          "original": "Kate got promoted.",
+          "transformed": "Did Kate get promoted?"
+        },
+        {
+          "original": "They got invited.",
+          "transformed": "Did they get invited?"
+        },
+        {
+          "original": "Nick got hurt at work.",
+          "transformed": "Did Nick get hurt at work?"
+        }
+      ],
+      "explanation": "связки в этой конструкции нет, поэтому вопрос строит помощник did, а сам get возвращается в первую форму. Третья форма справа при этом не меняется."
     }
   ],
   "categorization_exercises": [
@@ -5381,6 +6039,31 @@
         }
       ],
       "explanation": "через by вводят того, у кого есть воля, — человека или стихию. Через with вводят вещь, которой воспользовались: она сама ничего не решает."
+    },
+    {
+      "id": 151,
+      "taskDescription": "распредели фразы по тому, что говорит про человека форма после get.",
+      "categories": [
+        {
+          "title": "Стал таким сам",
+          "items": [
+            "got hungry",
+            "got angry",
+            "got ready",
+            "got wet"
+          ]
+        },
+        {
+          "title": "С ним это сделали",
+          "items": [
+            "got invited",
+            "got caught",
+            "got paid",
+            "got arrested"
+          ]
+        }
+      ],
+      "explanation": "после get стоит либо прилагательное — и тогда человек сам перешёл в это состояние, либо третья форма глагола — и тогда действие совершили над ним. На вид формы похожи, поэтому смотреть надо на смысл слова."
     }
   ],
   "find_the_odd_exercises": [
