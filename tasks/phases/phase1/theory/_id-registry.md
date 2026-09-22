@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 685 |
-| Categorization | 153 |
+| Card | 688 |
+| Categorization | 154 |
 | Category | 8 |
 | ConstructionMeaning | 97 |
-| DialogRestore | 106 |
-| ErrorCorrection | 238 |
-| FindTheOdd | 132 |
-| Matching | 121 |
-| Microtopic | 252 |
-| MultipleChoice·CHOICE | 248 |
-| MultipleChoice·FORWARD_CHOICE | 273 |
-| MultipleChoice·REVERSE_CHOICE | 115 |
+| DialogRestore | 107 |
+| ErrorCorrection | 239 |
+| FindTheOdd | 133 |
+| Matching | 122 |
+| Microtopic | 253 |
+| MultipleChoice·CHOICE | 249 |
+| MultipleChoice·FORWARD_CHOICE | 274 |
+| MultipleChoice·REVERSE_CHOICE | 116 |
 | TableFill | 51 |
-| TextInput | 131 |
+| TextInput | 132 |
 | Topic | 39 |
-| Transformation | 112 |
-| TrueFalse | 246 |
-| WordArrangement | 220 |
-| course_word | 910 |
+| Transformation | 113 |
+| TrueFalse | 247 |
+| WordArrangement | 221 |
+| course_word | 912 |
 
 ## Диапазоны по темам
 
@@ -637,24 +637,24 @@
 - WordArrangement: 107–108 (2)
 
 ### passive-voice-part-two
-- Card: 663–684 (22)
-- Categorization: 145–152 (8)
+- Card: 663–687 (25)
+- Categorization: 145–153 (9)
 - ConstructionMeaning: 95–96 (2)
-- DialogRestore: 102–105 (4)
-- ErrorCorrection: 228–237 (10)
-- FindTheOdd: 126–131 (6)
-- Matching: 116–120 (5)
-- Microtopic: 244–251 (8)
-- MultipleChoice·CHOICE: 242–247 (6)
-- MultipleChoice·FORWARD_CHOICE: 265–272 (8)
-- MultipleChoice·REVERSE_CHOICE: 111–114 (4)
+- DialogRestore: 102–106 (5)
+- ErrorCorrection: 228–238 (11)
+- FindTheOdd: 126–132 (7)
+- Matching: 116–121 (6)
+- Microtopic: 244–252 (9)
+- MultipleChoice·CHOICE: 242–248 (7)
+- MultipleChoice·FORWARD_CHOICE: 265–273 (9)
+- MultipleChoice·REVERSE_CHOICE: 111–115 (5)
 - TableFill: 49–50 (2)
-- TextInput: 124–130 (7)
+- TextInput: 124–131 (8)
 - Topic: 38–38 (1)
-- Transformation: 106–111 (6)
-- TrueFalse: 236–245 (10)
-- WordArrangement: 213–219 (7)
-- course_word: 895–909 (15)
+- Transformation: 106–112 (7)
+- TrueFalse: 236–246 (11)
+- WordArrangement: 213–220 (8)
+- course_word: 895–911 (17)
 
 ### see-look-watch
 - Card: 555–579 (25)

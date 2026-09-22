@@ -67,6 +67,13 @@
       "title": "Where Passive Doesn't Live · Где пассива нет",
       "order": 8,
       "searchKeywords": "дверь открылась сама, was happened ошибка, магазин был закрыт два смысла, когда пассив не нужен, книга хорошо продаётся"
+    },
+    {
+      "id": 252,
+      "topicId": 38,
+      "title": "It Is Said · Говорят, что…",
+      "order": 9,
+      "searchKeywords": "говорят что по-английски, it is said that, he is said to be, считается что, когда пассив уместен"
     }
   ],
   "grammar_cards": [
@@ -2494,8 +2501,8 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "Берут человека вплотную: give · send · tell · show · offer · teach · pay · promise · lend · ask.",
-            "Требуют предлога: explain · describe · suggest · mention · say."
+            "Берут человека вплотную: **give · send · tell · show · offer · teach · pay · promise · lend · ask**.",
+            "Требуют предлога: **explain · describe · suggest · mention · say**."
           ]
         },
         {
@@ -4001,7 +4008,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Во вводной карточке мы называли это бедой первой и обещали разобрать здесь. Вот вся картина целиком:"
+          "text": "Во вводной карточке мы называли это первой бедой и обещали разобрать здесь. Вот вся картина целиком:"
         },
         {
           "type": "table",
@@ -4322,6 +4329,572 @@
         "Как понять, магазин закрыли или он был закрыт?",
         "Почему a broken window — без связки?",
         "Почему I'm done значит «я закончил», а не «меня закончили»?"
+      ]
+    },
+    {
+      "id": 685,
+      "microtopicId": 252,
+      "title": "It is said that… — язык новостей и слухов",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной карточке мы называли это второй бедой: русское безличное «говорят», «считается», «сообщается» подлежащего не имеет вовсе, а английскому предложению оно нужно всегда. Один выход вы знаете ещё из «Основ» — **They say that he is rich**: язык ставит формальное `they`, «те самые люди», хотя никого конкретного в виду не имеет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это разговорный выход. Есть ещё два книжных, и вот первый."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It + be + V3 + that + целая часть"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It is said that the new road will open in June.** — говорят, что новую дорогу откроют в июне;",
+            "**It is believed that the fire started in the kitchen.** — считается, что пожар начался на кухне;",
+            "**It was reported that two people were hurt.** — сообщалось, что двое пострадали;",
+            "**It has been announced that the museum will close for repairs.** — объявлено, что музей закроют на ремонт."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему в начале стоит it"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это правило мы разбирали в самом начале курса, в теме «Как думает английский язык»: английскому предложению подлежащее нужно обязательно, и фраза **Say that he is rich** ✗ разваливается именно поэтому. Но говорить приходится и о том, у чего исполнителя нет. Выход у языка один — поставить на место подлежащего пустышку."
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `it` здесь не значит ровно ничего, оно просто занимает место. Вы с ним уже работали: **It's cold** (кому холодно — неважно), **It got dark** (кто стемнил — некому). Здесь у него та же роль."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**It says that he is rich** ✗ в значении «говорят». Фраза **It says** существует, но означает совсем другое — «здесь написано»: **The letter says that the shop is closed** ✓. Разница в связке: `says` — активная форма, у неё есть исполнитель (письмо, табличка, статья), а `is said` — страдательная, и исполнителя у неё нет."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Семья глаголов"
+        },
+        {
+          "type": "paragraph",
+          "text": "Так работает целая группа глаголов речи и мысли: **say · believe · think · know · report · announce · expect · consider · claim**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It is thought that the painting is a fake.** — считается, что картина поддельная;",
+            "**It is expected that prices will rise again.** — ожидается, что цены снова вырастут;",
+            "**It is known that she worked here for years.** — известно, что она работала здесь много лет."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Слово `that` в живом тексте часто выбрасывают, и фраза от этого не ломается: **It is said he is very rich** ✓. Читая новости, вы встретите оба варианта."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание есть, вопроса почти нет"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It is not known who left the door open.** — неизвестно, кто оставил дверь открытой;",
+            "**It was not reported how the fire started.** — не сообщалось, как начался пожар."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот вопроса у этой конструкции практически не бывает. Форма книжная, и спрашивать «говорят ли, что…?» ею попросту не принято — для вопроса берут обычное **Do they say that…?**"
+        },
+        {
+          "type": "heading",
+          "text": "Время у связки любое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Меняется, как и везде в теме, только `be`: **It is said** — говорят сейчас, **It was reported** — сообщали тогда, **It has been announced** — только что объявили."
+        },
+        {
+          "type": "heading",
+          "text": "Где это живёт"
+        },
+        {
+          "type": "paragraph",
+          "text": "Новости, официальные сообщения, научные тексты и слухи — всё, где источник неизвестен или называть его не хотят. Именно поэтому конструкция так любима газетами: **It is believed that the driver fell asleep** говорит о причине, не обвиняя никого лично. Русский делает ровно то же самое своим безличным «считается»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское безличное «говорят / считается / сообщается» по-английски требует подлежащего, и его роль играет пустышка `it`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "It + be + V3 + that + целая часть"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ключевые примеры"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It is said that the new road will open in June.** · **It is believed that the fire started in the kitchen.** · **It was reported that two people were hurt.**",
+            "Семья: **say · believe · think · know · report · announce · expect · consider · claim**.",
+            "`that` можно выбросить: **It is said he is very rich.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и время"
+        },
+        {
+          "type": "paragraph",
+          "text": "**It is not known who left the door open.** Связка встаёт в любую форму: **is said** · **was reported** · **has been announced**. Вопроса у конструкции практически не бывает."
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "paragraph",
+          "text": "**It says that…** — «здесь написано», у фразы есть исполнитель (письмо, табличка). **It is said that…** — «говорят», исполнителя нет."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Говорят, новую дорогу откроют в июне.",
+          "en": "It is said that the new road will open in June."
+        },
+        {
+          "ru": "Считается, что пожар начался на кухне.",
+          "en": "It is believed that the fire started in the kitchen."
+        },
+        {
+          "ru": "Сообщалось, что двое пострадали.",
+          "en": "It was reported that two people were hurt."
+        },
+        {
+          "ru": "Объявлено, что музей закроют на ремонт.",
+          "en": "It has been announced that the museum will close for repairs."
+        },
+        {
+          "ru": "Неизвестно, кто оставил дверь открытой.",
+          "en": "It is not known who left the door open."
+        }
+      ],
+      "clarificationOptions": [
+        "Зачем в начале стоит it, если оно ничего не значит?",
+        "Чем It says отличается от It is said?",
+        "Когда лучше сказать They say, а когда It is said?"
+      ]
+    },
+    {
+      "id": 686,
+      "microtopicId": 252,
+      "title": "He is said to be rich — та же мысль, другой вход",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Второй книжный выход — та же самая мысль, только собранная с другого конца."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It is said that he is rich.** → **He is said to be rich.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл не изменился ни на волос: и там и там «говорят, что он богат». Изменилось устройство. Подлежащее из придаточной части (`he`) вышло вперёд и стало подлежащим всей фразы, а его глагол (`is`) превратился в инфинитив (`to be`). Пустышка `it` при этом исчезла — место занято настоящим подлежащим, заполнитель больше не нужен."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Подлежащее + be + V3 + to + инфинитив"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит после to — здесь вся соль"
+        },
+        {
+          "type": "paragraph",
+          "text": "Инфинитив в этой конструкции бывает двух видов, и разница между ними смысловая, а не украшательская."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He is said to be very rich.** — он богат **сейчас**: говорят и богат одновременно;",
+            "**She is thought to have left the country.** — она уехала **раньше**, чем об этом заговорили."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило короткое: `to be` — одновременно с «говорят», `to have + V3` — до того."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She is thought to have left the country** — это не «думают уехать», а «считают, что она уехала». Русский глаз цепляется за `think` и читает фразу как чей-то план, хотя речь о чужом мнении про уже случившееся."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё примеры обоих видов:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The company is believed to be in trouble.** — сейчас в беде;",
+            "**He is known to have worked here for years.** — работал раньше;",
+            "**The thieves are reported to have taken two paintings.** — унесли до того, как об этом сообщили."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Строкой на узнавание:** обе половины фразы могут оказаться страдательными сразу — **The house is said to have been built in 1800.** Разбирать тут нечего, но встретив такое в тексте, важно не растеряться."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Очень похожая конструкция `be supposed to` разобрана в теме «Модальные глаголы» и означает «вообще-то полагается»: **You're supposed to wear a helmet here.** Но у неё есть и второе чтение — **The film is supposed to be good** значит «говорят, фильм хороший». Собраны обе одинаково, а различить их можно только по смыслу: речь о правиле или о чужом мнении."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Насколько этим надо владеть"
+        },
+        {
+          "type": "paragraph",
+          "text": "Скажем честно: это формальный ярус. Так пишут газеты, отчёты и научные статьи, а в разговоре вы услышите **They say he's rich**. Задача здесь — уверенно узнавать конструкцию в тексте и понимать, о каком времени речь. Строить её самому необязательно: ту же мысль вы всегда соберёте через **It is said that…**, которое разобрали в прошлой карточке."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Подлежащее выходит вперёд, а глагол придаточной части становится инфинитивом."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Подлежащее + be + V3 + to + инфинитив"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**It is said that he is rich** → **He is said to be rich.**"
+        },
+        {
+          "type": "heading",
+          "text": "Что после to"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`to be` — одновременно с «говорят»: **He is said to be very rich.** · **The company is believed to be in trouble.**",
+            "`to have + V3` — раньше: **She is thought to have left the country.** · **He is known to have worked here for years.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She is thought to have left** — не «думают уехать», а «считают, что уехала».",
+            "**The film is supposed to be good** — «говорят, хороший»; **You're supposed to wear a helmet** — «полагается». Различает смысл."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Уровень"
+        },
+        {
+          "type": "paragraph",
+          "text": "Формальный ярус: узнавать нужно, строить самому необязательно — ту же мысль собирает **It is said that…**"
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Говорят, он очень богат.",
+          "en": "He is said to be very rich."
+        },
+        {
+          "ru": "Считают, что она уехала из страны.",
+          "en": "She is thought to have left the country."
+        },
+        {
+          "ru": "Считается, что у компании проблемы.",
+          "en": "The company is believed to be in trouble."
+        },
+        {
+          "ru": "Известно, что он много лет здесь работал.",
+          "en": "He is known to have worked here for years."
+        },
+        {
+          "ru": "Говорят, дом построили в 1800 году.",
+          "en": "The house is said to have been built in 1800."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем He is said to be отличается от It is said that he is?",
+        "Почему to have left значит «уехала», а не «уехать»?",
+        "Обязательно ли уметь строить такие фразы самому?"
+      ]
+    },
+    {
+      "id": 687,
+      "microtopicId": 252,
+      "title": "Не всё безличное — пассив",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последняя карточка темы — и она про тормоз."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разобрав страдательный залог вдоль и поперёк, легко начать видеть его там, где его нет. Особенно в безличных фразах: раз подлежащего не видно, рука тянется к связке. А между тем половина русских безличных предложений переводится обычным активом."
+        },
+        {
+          "type": "heading",
+          "text": "Где пассив не нужен"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«говорят» в разговоре — **They say** или **People say**, и это вы знаете с «Основ»;",
+            "«здесь не курят» — **No smoking** на табличке или **You can't smoke here** в разговоре;",
+            "«мне холодно» — **I'm cold**, а не «мне сделали холодно»;",
+            "«никогда не знаешь» — **You never know**, где `you` значит «любой человек вообще»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Общее правило: безличность русской фразы сама по себе ничего не решает. Решает другое — есть ли действие, которое над кем-то совершают."
+        },
+        {
+          "type": "heading",
+          "text": "Выбор залога, когда говорите сами"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь стоит сказать прямо. Страдательный залог — инструмент письменной и официальной речи: новости, инструкции, рецепты, объявления, деловые письма, научные статьи. В бытовом рассказе о себе он утяжеляет фразу."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните: **I was given a book by my sister** — грамматически безупречно, но звучит как протокол. Живой человек скажет **My sister gave me a book**."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Лайфхак",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ориентир в одну фразу — интересен предмет, ставьте пассив; интересен человек, ставьте актив. Рецепт говорит о еде (**the onions are fried**), а рассказ о вечере — о людях (**Kate fried the onions**)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Зачем пассив вообще нужен: он ставит акцент"
+        },
+        {
+          "type": "paragraph",
+          "text": "А теперь вернёмся к разговору, который мы начали в самом начале курса, в теме «Как думает английский язык». Там была неприятная новость: английскому нельзя двигать слова ради выделения — порядок жёсткий. Мы разбирали, что в устной речи акцент ставят голосом: **Igor** gave Olya the keys (именно Игорь) ↔ Igor gave **Olya** the keys (именно Оле). И там же было обещано, что у языка есть для этого и специальные конструкции, а одна из них — страдательный залог. Вот мы и пришли."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дело в том, что голосом можно нажать только вслух. На письме голоса нет, а выделить важное всё равно нужно — и тут в дело вступает залог."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский для акцента **переставляет слова**, английский **меняет залог**."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на русскую пару: «Дом построил мой дед» и «Дом был построен моим дедом». Слова те же, порядок разный, и акцент от этого смещается — в первой фразе важен дед, во второй дом. Английский так не умеет, поэтому у него на эти два случая два разных предложения: **My grandfather built the house** ↔ **The house was built by my grandfather**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда же и правило хвоста, которое мы выводили в микротеме про `by`: что поставил в конец — то и выделил."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Второй инструмент из того же обещания — конструкция **It was Tom who called** («это именно Том звонил»). Разбирать её будем в теме «Дополнительные конструкции», а пока просто знайте: обещанных инструментов было два, и оба у вас теперь названы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Заголовки новостей: связку выбрасывают"
+        },
+        {
+          "type": "paragraph",
+          "text": "Откройте любую новостную ленту, и увидите: **Man arrested in London** · **Three killed in crash** · **Museum closed for repairs**. Связки нет, и это не ошибка — в заголовках её выбрасывают ради краткости. Полностью было бы **A man was arrested in London**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот же приём вы видели на вывесках в первой части темы: **Made in Italy**, **No parking allowed**."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Это работает только в заголовках, на табличках и в подписях. В обычном предложении связку выбрасывать нельзя: **The museum closed for repairs** ✓ тоже существует, но означает, что музей закрылся сам, — а это уже другая история, которую мы разбирали в микротеме «Где пассива нет»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Безличность русской фразы не означает, что нужен страдательный залог."
+        },
+        {
+          "type": "heading",
+          "text": "Где пассив не нужен"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«говорят» в разговоре — **They say** · **People say**",
+            "«здесь не курят» — **No smoking** · **You can't smoke here**",
+            "«мне холодно» — **I'm cold** · «никогда не знаешь» — **You never know**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Выбор залога"
+        },
+        {
+          "type": "paragraph",
+          "text": "Интересен предмет → пассив. Интересен человек → актив. Пассив живёт в новостях, инструкциях, рецептах, объявлениях и деловых письмах; в рассказе о себе он утяжеляет речь."
+        },
+        {
+          "type": "heading",
+          "text": "Пассив как акцент"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский переставляет слова, английский меняет залог: **My grandfather built the house** (важен дед) ↔ **The house was built by my grandfather** (важен дом). Что поставил в конец — то и выделил."
+        },
+        {
+          "type": "heading",
+          "text": "Заголовки"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Man arrested in London** · **Three killed in crash** — связку выбрасывают только в заголовках и на табличках, в обычном предложении она обязательна."
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Говорят, завтра будет дождь.",
+          "en": "They say it will rain tomorrow."
+        },
+        {
+          "ru": "Здесь нельзя курить.",
+          "en": "You can't smoke here."
+        },
+        {
+          "ru": "Сестра подарила мне книгу.",
+          "en": "My sister gave me a book."
+        },
+        {
+          "ru": "Дом построил мой дед.",
+          "en": "My grandfather built the house."
+        },
+        {
+          "ru": "В Лондоне задержали мужчину.",
+          "en": "Man arrested in London."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что в этой фразе пассив будет лишним?",
+        "Почему пассив называют инструментом акцента?",
+        "Почему в заголовках новостей нет связки?"
       ]
     }
   ],
@@ -4835,6 +5408,78 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 219,
       "orderInCard": 3
+    },
+    {
+      "cardId": 685,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 248,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 685,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 131,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 685,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 220,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 685,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 246,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 686,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 112,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 686,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 115,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 686,
+      "exerciseType": "MATCHING",
+      "exerciseId": 121,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 686,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 238,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 687,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 153,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 687,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 273,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 687,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 132,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 687,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 106,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -4949,6 +5594,22 @@
       "userInstruction": "ИИ даст английское предложение. Напишите по-русски, что оно означает.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "passive_two_card685_ex1",
+      "cardId": 685,
+      "title": "Скажи безлично",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card687_ex1",
+      "cardId": 687,
+      "title": "Пассив тут нужен или нет",
+      "userInstruction": "ИИ даст русскую фразу и ситуацию. Напишите фразу по-английски так, как её сказали бы в этой ситуации.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -5086,6 +5747,22 @@
       "translation": "нанимать, брать на работу",
       "transcription": "[ˈhaɪə]",
       "microtopicId": 250,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 910,
+      "word": "to report",
+      "translation": "сообщать, докладывать",
+      "transcription": "[rɪˈpɔːt]",
+      "microtopicId": 252,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 911,
+      "word": "to announce",
+      "translation": "объявлять, оглашать",
+      "transcription": "[əˈnaʊns]",
+      "microtopicId": 252,
       "categoryId": "useful_words"
     }
   ],
@@ -5447,6 +6124,37 @@
         }
       ],
       "explanation": "во втором предложении у disappear нет дополнения — верно Her passport disappeared. В пятом та же беда с die: нужно My neighbour died last winter."
+    },
+    {
+      "id": 246,
+      "statements": [
+        {
+          "en": "It is said that the hotel is very old.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It is believe that the road is dangerous.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "It was announced that the flight is delayed.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Is said that he lives abroad now.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "It is not known who took the keys.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении после связки стоит первая форма — нужна третья: is believed. В четвёртом потеряно подлежащее: английская фраза без него не стоит, нужно It is said that."
     }
   ],
   "word_arrangement_exercises": [
@@ -5582,6 +6290,26 @@
         "by"
       ],
       "explanation": "в этом предложении третья форма стоит дважды и по-разному: stolen описывает машину и связки не требует, а found сообщает о действии и стоит при связке was. Подлежащее в единственном числе, поэтому were не подходит."
+    },
+    {
+      "id": 220,
+      "situationRu": "Ситуация: в районе ходят разговоры, что кафе на углу скоро закроется.",
+      "correctSentence": "It is said that the café will close soon.",
+      "words": [
+        "It",
+        "is",
+        "said",
+        "that",
+        "the café",
+        "will close soon"
+      ],
+      "distractors": [
+        "says",
+        "are",
+        "say",
+        "to say"
+      ],
+      "explanation": "подлежащее — пустышка it, поэтому связка стоит в единственном числе: is. После неё идёт третья форма said, а дальше целая часть со своим подлежащим и своим глаголом."
     }
   ],
   "multiple_choice_exercises": [
@@ -5962,6 +6690,69 @@
         }
       ],
       "explanation": "стакан разбился сам от падения, никто его не бил — значит нужен активный глагол broke. Первый вариант сообщал бы, что стакан кто-то разбил, а в третьем после связки стоит начальная форма."
+    },
+    {
+      "id": 248,
+      "choiceType": "CHOICE",
+      "prompt": "Nobody signed the note, but ___ that the meeting is cancelled.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "it says",
+          "isCorrect": false
+        },
+        {
+          "text": "it is said",
+          "isCorrect": true
+        },
+        {
+          "text": "they said it",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "записку никто не подписал, значит исполнителя нет — нужна страдательная форма. Вариант it says означал бы «здесь написано», то есть у фразы появился бы исполнитель — сама записка."
+    },
+    {
+      "id": 115,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The manager is thought to have left the company.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Считают, что начальник ушёл из компании.",
+          "isCorrect": true
+        },
+        {
+          "text": "Начальник думает уйти из компании.",
+          "isCorrect": false
+        },
+        {
+          "text": "Начальника попросили уйти из компании.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "форма to have плюс третья форма сообщает, что уход случился раньше, чем о нём заговорили. Второй вариант читает фразу как планы самого начальника, хотя речь о чужом мнении."
+    },
+    {
+      "id": 273,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Тут все говорят, что цены скоро вырастут.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Everyone says prices will go up soon.",
+          "isCorrect": true
+        },
+        {
+          "text": "It is said by everyone that prices will go up soon.",
+          "isCorrect": false
+        },
+        {
+          "text": "Everyone is said that prices will go up soon.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "деятель здесь назван прямо — «все», поэтому страдательный залог не нужен вовсе. Безличная конструкция годится ровно там, где источник неизвестен или его не называют."
     }
   ],
   "text_input_exercises": [
@@ -6165,6 +6956,36 @@
         "открылась",
         "открыли"
       ]
+    },
+    {
+      "id": 131,
+      "items": [
+        {
+          "sentence": "___ that the old bridge is unsafe.",
+          "contextRu": "",
+          "answer": "It is believed",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ that the storm damaged three houses.",
+          "contextRu": "",
+          "answer": "It was reported",
+          "alternatives": []
+        },
+        {
+          "sentence": "___ that the results will come on Monday.",
+          "contextRu": "",
+          "answer": "It is expected",
+          "alternatives": []
+        }
+      ],
+      "explanation": "все три фразы собираются по одной схеме: пустышка it, связка в нужном времени и третья форма глагола речи. Время берётся по смыслу: про бурю говорили тогда, поэтому was, а остальное про сейчас.",
+      "taskDescription": "Впиши пропущенную часть, выбрав подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "ожидается",
+        "считается",
+        "сообщалось"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -6279,6 +7100,34 @@
         }
       ],
       "explanation": "человек застал закрытую дверь — это состояние, и оно передаётся связкой с третьей формой. Во втором варианте после связки стоит начальная форма, а третий сообщал бы, что дверь заперлась сама."
+    },
+    {
+      "id": 106,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why is the museum closed today?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "It is said by them about repairs.",
+          "isCorrect": false
+        },
+        {
+          "text": "They say it's closed for repairs.",
+          "isCorrect": true
+        },
+        {
+          "text": "It says that closed for repairs.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "это обычный разговор, и в нём безличное «говорят» звучит как They say. Первый вариант тащит деятеля в страдательную конструкцию, а третий смешивает It says и пропускает подлежащее придаточной части."
     }
   ],
   "matching_exercises": [
@@ -6396,6 +7245,29 @@
         }
       ],
       "explanation": "точный момент и форма с get говорят о действии, слова вроде when I came — о состоянии, которое человек застал. Без связки третья форма просто описывает предмет."
+    },
+    {
+      "id": 121,
+      "taskDescription": "соедини английскую фразу с тем, что она сообщает.",
+      "pairs": [
+        {
+          "left": "He is said to be ill.",
+          "right": "болеет сейчас"
+        },
+        {
+          "left": "He is said to have been ill.",
+          "right": "болел раньше"
+        },
+        {
+          "left": "She is known to be a doctor.",
+          "right": "работает врачом"
+        },
+        {
+          "left": "She is known to have studied here.",
+          "right": "училась когда-то"
+        }
+      ],
+      "explanation": "инфинитив с to be относит действие к тому же времени, что и «говорят», а форма to have плюс третья форма отодвигает его назад, в прошлое."
     }
   ],
   "error_correction_exercises": [
@@ -6588,6 +7460,25 @@
         }
       ],
       "explanation": "у глагола happen нет дополнения, поэтому в страдательный залог он не идёт ни в каком времени. Правильная форма — обычное прошедшее: happened."
+    },
+    {
+      "id": 238,
+      "wrongSentence": "She is thought be a good teacher.",
+      "options": [
+        {
+          "text": "She thought to be a good teacher.",
+          "isCorrect": false
+        },
+        {
+          "text": "She is thought to being a good teacher.",
+          "isCorrect": false
+        },
+        {
+          "text": "She is thought to be a good teacher.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после третьей формы идёт инфинитив с частицей to, и потерять её нельзя. В первом варианте пропала связка, а в третьем на месте инфинитива стоит форма на -ing."
     }
   ],
   "construction_meaning_exercises": [
@@ -6752,6 +7643,25 @@
         }
       ],
       "explanation": "деятель исчезает, предмет встаёт подлежащим, а глагол остаётся активным и не меняет форму. Связка здесь не нужна: она сообщала бы, что действие кто-то совершил."
+    },
+    {
+      "id": 112,
+      "taskDescription": "перепиши каждое предложение так, чтобы оно начиналось с человека или предмета, о котором идёт речь.",
+      "items": [
+        {
+          "original": "It is said that the hotel is very old.",
+          "transformed": "The hotel is said to be very old."
+        },
+        {
+          "original": "It is believed that she speaks five languages.",
+          "transformed": "She is believed to speak five languages."
+        },
+        {
+          "original": "It is known that the house is empty.",
+          "transformed": "The house is known to be empty."
+        }
+      ],
+      "explanation": "подлежащее придаточной части встаёт в начало, пустышка it исчезает, а глагол превращается в инфинитив с to. Форма связки берётся по новому подлежащему."
     }
   ],
   "categorization_exercises": [
@@ -6946,6 +7856,31 @@
         }
       ],
       "explanation": "в левой колонке стоит обычный активный глагол: деятеля нет, предмет изменился сам. В правой — связка и третья форма, а значит действие над предметом кто-то совершил."
+    },
+    {
+      "id": 153,
+      "taskDescription": "распредели ситуации по тому, какой залог в них естественнее.",
+      "categories": [
+        {
+          "title": "Пассив",
+          "items": [
+            "инструкция к лекарству",
+            "заголовок новости",
+            "надпись на упаковке",
+            "научная статья"
+          ]
+        },
+        {
+          "title": "Актив",
+          "items": [
+            "рассказ другу о выходных",
+            "история про своего брата",
+            "разговор за ужином",
+            "сообщение в чате"
+          ]
+        }
+      ],
+      "explanation": "страдательный залог уместен там, где важен предмет или процесс, а исполнитель не нужен: документы, инструкции, новости, наука. В живом разговоре о людях он звучит тяжело — там работает актив."
     }
   ],
   "find_the_odd_exercises": [
@@ -7086,6 +8021,29 @@
         }
       ],
       "explanation": "письмо отправили, комнату убрали, билеты продали — у всех трёх глаголов есть дополнение, и оно ушло в подлежащее. А поезд никто не «приезжал»: у arrive дополнения нет, нужно The train arrived on time."
+    },
+    {
+      "id": 132,
+      "groupDescription": "В трёх фразах страдательный залог уместен, а в одной он звучит тяжело",
+      "items": [
+        {
+          "text": "The bridge was built in 1995.",
+          "isOdd": false
+        },
+        {
+          "text": "The letters are sent every morning.",
+          "isOdd": false
+        },
+        {
+          "text": "I was given a sandwich by my mum.",
+          "isOdd": true
+        },
+        {
+          "text": "The room is cleaned twice a week.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "в первых трёх фразах речь о предметах, а исполнитель не важен — это и есть родная территория пассива. В четвёртой речь о маме и завтраке, то есть о людях, и живой человек скажет My mum gave me a sandwich."
     }
   ]
 }
