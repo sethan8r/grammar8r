@@ -7,25 +7,25 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 674 |
-| Categorization | 149 |
+| Card | 677 |
+| Categorization | 150 |
 | Category | 8 |
 | ConstructionMeaning | 95 |
-| DialogRestore | 102 |
-| ErrorCorrection | 234 |
-| FindTheOdd | 129 |
-| Matching | 118 |
-| Microtopic | 248 |
+| DialogRestore | 103 |
+| ErrorCorrection | 235 |
+| FindTheOdd | 130 |
+| Matching | 119 |
+| Microtopic | 249 |
 | MultipleChoice·CHOICE | 246 |
-| MultipleChoice·FORWARD_CHOICE | 269 |
+| MultipleChoice·FORWARD_CHOICE | 271 |
 | MultipleChoice·REVERSE_CHOICE | 114 |
 | TableFill | 51 |
-| TextInput | 126 |
+| TextInput | 128 |
 | Topic | 39 |
-| Transformation | 108 |
-| TrueFalse | 242 |
-| WordArrangement | 215 |
-| course_word | 896 |
+| Transformation | 109 |
+| TrueFalse | 243 |
+| WordArrangement | 217 |
+| course_word | 897 |
 
 ## Диапазоны по темам
 
@@ -637,22 +637,23 @@
 - WordArrangement: 107–108 (2)
 
 ### passive-voice-part-two
-- Card: 663–673 (11)
-- Categorization: 145–148 (4)
-- ErrorCorrection: 228–233 (6)
-- FindTheOdd: 126–128 (3)
-- Matching: 116–117 (2)
-- Microtopic: 244–247 (4)
+- Card: 663–676 (14)
+- Categorization: 145–149 (5)
+- DialogRestore: 102–102 (1)
+- ErrorCorrection: 228–234 (7)
+- FindTheOdd: 126–129 (4)
+- Matching: 116–118 (3)
+- Microtopic: 244–248 (5)
 - MultipleChoice·CHOICE: 242–245 (4)
-- MultipleChoice·FORWARD_CHOICE: 265–268 (4)
+- MultipleChoice·FORWARD_CHOICE: 265–270 (6)
 - MultipleChoice·REVERSE_CHOICE: 111–113 (3)
 - TableFill: 49–50 (2)
-- TextInput: 124–125 (2)
+- TextInput: 124–127 (4)
 - Topic: 38–38 (1)
-- Transformation: 106–107 (2)
-- TrueFalse: 236–241 (6)
-- WordArrangement: 213–214 (2)
-- course_word: 895–895 (1)
+- Transformation: 106–108 (3)
+- TrueFalse: 236–242 (7)
+- WordArrangement: 213–216 (4)
+- course_word: 895–896 (2)
 
 ### see-look-watch
 - Card: 555–579 (25)

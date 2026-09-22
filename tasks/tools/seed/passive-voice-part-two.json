@@ -39,6 +39,13 @@
       "title": "Passive Without a Tense · Пассив, у которого нет своего времени",
       "order": 4,
       "searchKeywords": "must be done, it needs to be fixed, being told, формы без своего времени"
+    },
+    {
+      "id": 248,
+      "topicId": 38,
+      "title": "Who Goes First · Кто встаёт в начало",
+      "order": 5,
+      "searchKeywords": "мне дали как сказать, i was given, i was explained ошибка, почему предлог в конце, was sent for, мне велели по-английски"
     }
   ],
   "grammar_cards": [
@@ -2111,6 +2118,612 @@
         "Чем being told отличается от to be told?",
         "Как сказать то же самое, но с not?"
       ]
+    },
+    {
+      "id": 674,
+      "microtopicId": 248,
+      "title": "Два дополнения — два пассива",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной карточке мы назвали это третьей бедой: русский прячет человека в дательный падеж — «мне дали», «нам сказали», — а английский ставит его подлежащим. Пришло время разобрать, как это устроено изнутри."
+        },
+        {
+          "type": "paragraph",
+          "text": "Дело в том, что у целой группы глаголов дополнений **два**. Посмотрите на действительный залог: **They gave me a book.** Кому дали? Мне. Что дали? Книгу. Оба слова стоят справа от глагола, оба — дополнения, просто одно из них человек, а другое вещь."
+        },
+        {
+          "type": "paragraph",
+          "text": "А страдательный залог, как мы помним, забирает дополнение и делает его подлежащим. Дополнений два — значит и пассива получается два:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was given a book.** — мне подарили книгу;",
+            "**A book was given to me.** — книгу подарили мне."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба варианта законные, и по-русски оба звучат почти одинаково. Но в живой речи они не равны: **англичанин почти всегда начинает с человека.** Подлежащее — место главного героя, а героем интереснее человек, чем предмет. Вещь выходит вперёд только тогда, когда речь именно о ней: **The keys were given to the neighbour, not to me.**"
+        },
+        {
+          "type": "heading",
+          "text": "Куда делось второе дополнение"
+        },
+        {
+          "type": "paragraph",
+          "text": "Присмотритесь к **I was given a book** ещё раз. Подлежащее `I`, дальше связка и третья форма — всё как всегда. А за третьей формой осталась стоять книга. Для русского глаза это странно: мы привыкли, что в пассиве справа от глагола пусто — «дом построен», «билеты проданы». Здесь же одно дополнение ушло в подлежащие, а второе никуда не делось и спокойно сидит на своём месте. Так и должно быть: забрать пассив может только одно."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Человек + be + V3 + вещь"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда во втором варианте взялось to"
+        },
+        {
+          "type": "paragraph",
+          "text": "В **A book was given to me** перед человеком вдруг появился предлог, хотя в действительном залоге его не было. Загадки тут нет — это то же правило, что мы разбирали у глагола `get`. У человека в предложении ровно два места: вплотную за глаголом, и тогда предлог не нужен, либо в самом конце, и тогда перед ним предлог обязателен. **They gave me a book** = **They gave a book to me**. Пассив ничего не изобретает: он берёт готовую фразу и поднимает в подлежащие то, что стоит ближе к глаголу."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сам предлог зависит от глагола. У **give, send, show, tell, offer, lend** это `to` — **A message was sent to Emma.** А у **buy, get, make, cook** — `for`: **A ticket was bought for me.** Логика простая: `to` — действие дошло до адресата, `for` — сделано ради кого-то."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**To me was given a book** ✗ и **Me was given a book** ✗ → **I was given a book** ✓. Рука ищет дательный падеж и выносит «мне» в начало. Но начало английского предложения занято подлежащим, а подлежащее бывает только в именительной форме — `I`, а не `me`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Семья глаголов"
+        },
+        {
+          "type": "paragraph",
+          "text": "Так ведут себя глаголы, у которых есть и адресат, и предмет: **give, send, tell, show, offer, teach, pay, promise, lend, ask**. Все они вам знакомы — половина из колоды неправильных глаголов, половина из словаря курса. Учить ничего не нужно, нужно только помнить, что каждый из них умеет начать фразу с человека."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We were shown the new office.** — нам показали новый офис;",
+            "**She was offered a better job.** — ей предложили работу получше;",
+            "**The staff weren't paid last month.** — персоналу не заплатили в прошлом месяце."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Мне велели: когда справа стоит не вещь, а действие"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть второй случай, ещё более частый. Возьмите фразу **They told me to wait.** Справа от глагола снова двое: человек `me` и то, что ему велели, — `to wait`. Переворот работает ровно так же: человек встаёт в начало, а инфинитив остаётся на месте."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was told to wait.** — мне велели подождать;",
+            "**We were asked to leave.** — нас попросили уйти;",
+            "**She was invited to speak at the conference.** — её пригласили выступить на конференции;",
+            "**The guests were asked not to smoke inside.** — гостей попросили не курить внутри."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски все четыре фразы безличные: «мне велели», «нас попросили», «её пригласили» — деятеля нет ни в одной. Вот здесь рука и застревает: подлежащего не видно, а английскому оно нужно обязательно. Ответ всегда один — подлежащим встаёт тот, кому велели. Фразу **I was asked to wait** вы уже знаете: в первой части темы она была выдана готовой формулой, без разбора. Теперь видно, из чего она собрана."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В прошлой карточке `to` в страдательном залоге **появлялось** там, где в действительном его не было: **They made him wait** → **He was made to wait**. Здесь всё наоборот: `to` стояло на месте с самого начала (**They told me to wait**) и при перевороте просто никуда не делось. Один случай — `to` всплыло, другой — `to` и так было."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ничего нового: вопрос и отрицание строит связка, как во всём страдательном залоге."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I wasn't told about the change.** — мне не сказали про изменение;",
+            "**Were you given a receipt?** — вам дали чек? — **Yes, I was.** / **No, I wasn't.**",
+            "**Weren't you shown the report?** — разве вам не показали отчёт?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "И связка, разумеется, встаёт в любую форму из тех, что мы собирали в начале темы, — правило от этого не меняется: **Students are given a discount here** (настоящее), **We've been offered a better price** (перфект), **You will be told the results on Friday** (будущее), **Every visitor must be shown the exit** (после модального). Порядок участников остаётся тем же: сначала человек, потом связка с третьей формой, потом вещь."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У глаголов **give, send, tell, show, offer, teach, pay, promise, lend, ask** справа стоят двое — человек и вещь. В подлежащие можно забрать любого, но живая речь почти всегда начинает с человека."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Человек + be + V3 + вещь"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Два законных варианта"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was given a book.** — обычный порядок, начали с человека.",
+            "**A book was given to me.** — когда важна именно вещь; ушедший в конец человек требует предлога.",
+            "Предлог по глаголу: `to` у give, send, show, tell, offer, lend · `for` у buy, get, make, cook."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Мне велели"
+        },
+        {
+          "type": "paragraph",
+          "text": "**They told me to wait** → **I was told to wait.** Инфинитив остаётся на месте: **We were asked to leave**, **She was invited to speak**."
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**To me was given a book** ✗ · **Me was given a book** ✗ → **I was given a book** ✓ — в начале подлежащее, форма `I`, а не `me`.",
+            "**A book was given me** ✗ → **A book was given to me** ✓ — человек в конце без предлога не стоит.",
+            "**I was told wait** ✗ → **I was told to wait** ✓ — инфинитив переезжает целиком."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мне подарили книгу.",
+          "en": "I was given a book."
+        },
+        {
+          "ru": "Нам показали новый офис.",
+          "en": "We were shown the new office."
+        },
+        {
+          "ru": "Ей предложили работу получше.",
+          "en": "She was offered a better job."
+        },
+        {
+          "ru": "Мне велели подождать.",
+          "en": "I was told to wait."
+        },
+        {
+          "ru": "Вам дали чек?",
+          "en": "Were you given a receipt?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя начать предложение с To me?",
+        "Когда лучше начать с вещи, а не с человека?",
+        "Откуда берётся to в A book was given to me?"
+      ]
+    },
+    {
+      "id": 675,
+      "microtopicId": 248,
+      "title": "Глаголы, которые так не умеют: explain и его родня",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Правило прошлой карточки звучит соблазнительно просто: есть человек — ставь его в начало. Но работает оно не со всеми глаголами, и здесь русскоязычного ждёт одна из самых живучих ошибок темы."
+        },
+        {
+          "type": "paragraph",
+          "text": "**I was explained the rules** ✗ — так сказать нельзя, хотя по-русски «мне объяснили правила» ничем не отличается от «мне рассказали правила»."
+        },
+        {
+          "type": "heading",
+          "text": "Почему один глагол умеет, а другой нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разгадка лежит не в страдательном залоге, а в действительном. Посмотрите, как эти два глагола ведут себя там:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He told me the rules.** ✓ — `tell` берёт человека напрямую, вплотную;",
+            "**He explained me the rules.** ✗ → **He explained the rules to me.** ✓ — `explain` требует предлога."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот и вся разница. У `tell` человек — обычное дополнение, оно стоит сразу за глаголом, и пассив имеет полное право забрать его в подлежащие. У `explain` человек прицеплен через предлог — а значит, дополнением он вообще не является. Забирать нечего: страдательный залог умеет поднимать в подлежащие только дополнение."
+        },
+        {
+          "type": "paragraph",
+          "text": "Заметьте попутно, что **He explained me the rules** ✗ — ошибка и в действительном залоге тоже. Русская рука тянет `explain` в ту же схему, что `tell`, просто потому что по-русски «объяснил мне» и «рассказал мне» устроены одинаково. Тема «Глагол + предлог» уже показывала эту породу ошибок: английский сам решает, цепляет он дополнение напрямую или через предлог, и с русским не советуется."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка одной фразой"
+        },
+        {
+          "type": "paragraph",
+          "text": "Скажите предложение в действительном залоге и посмотрите, встаёт ли человек сразу после глагола без предлога."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**They showed me the flat** ✓ — значит **I was shown the flat** ✓ можно;",
+            "**They described me the flat** ✗ — значит **I was described** ✗ нельзя."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что говорить вместо"
+        },
+        {
+          "type": "paragraph",
+          "text": "Подлежащим встаёт вещь, а человек уходит в хвост вместе со своим предлогом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**It was explained to me twice.** — мне объяснили дважды;",
+            "**The new plan was described to the whole team.** — новый план описали всей команде;",
+            "**A later date was suggested to the client.** — клиенту предложили более позднюю дату."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "К этой же родне относятся `say` и `mention`: **The change was mentioned to us at the meeting.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I was said the news** ✗ → **I was told the news** ✓. Пара `say` и `tell` — самая частая на этом правиле: `tell` берёт человека вплотную, а `say` требует предлога, поэтому подлежащим человек при нём не встаёт. То же и в действительном залоге: **He said me the news** ✗ → **He told me the news** ✓ либо **He said the news to me** ✓. Чем эти два глагола различаются по смыслу, подробно разберём в теме «Reported Speech»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Связка согласуется с новым подлежащим — а им теперь стала вещь, поэтому число смотрим по ней: **The rules were explained to us** (правила, множественное) ↔ **The plan wasn't explained to us** (план, единственное). Вопрос и отрицание, как всегда, строит сама связка: **Was it explained to everyone?** Время — любое: **Everything is explained in the manual**, **The route has already been described to the driver**."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Подлежащим встаёт только то, что было дополнением. Если глагол цепляет человека через предлог, человек в начало не идёт."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Скажите фразу в действительном залоге: стоит ли человек сразу после глагола без предлога?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**They showed me the flat** ✓ → **I was shown the flat** ✓",
+            "**They described me the flat** ✗ → **I was described** ✗"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Две группы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Берут человека вплотную: give · send · tell · show · offer · teach · pay · promise · lend · ask.",
+            "Требуют предлога: explain · describe · suggest · mention · say."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что говорить вместо"
+        },
+        {
+          "type": "paragraph",
+          "text": "Подлежащим встаёт вещь, человек уходит в конец с предлогом: **It was explained to me twice.** · **The new plan was described to the whole team.**"
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I was explained the rules** ✗ → **It was explained to me** ✓ — человек при `explain` не дополнение.",
+            "**He explained me the rules** ✗ → **He explained the rules to me** ✓ — та же ошибка в действительном залоге.",
+            "**I was said the news** ✗ → **I was told the news** ✓ — `say` требует предлога, `tell` нет."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мне объяснили дважды.",
+          "en": "It was explained to me twice."
+        },
+        {
+          "ru": "Новый план описали всей команде.",
+          "en": "The new plan was described to the whole team."
+        },
+        {
+          "ru": "Более позднюю дату предложили клиенту.",
+          "en": "A later date was suggested to the client."
+        },
+        {
+          "ru": "Нам об изменении упомянули на встрече.",
+          "en": "The change was mentioned to us at the meeting."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему I was told можно, а I was explained нельзя?",
+        "Как проверить, умеет ли глагол начинать с человека?",
+        "Чем say отличается от tell в этой конструкции?"
+      ]
+    },
+    {
+      "id": 676,
+      "microtopicId": 248,
+      "title": "Предлог остаётся в хвосте: was sent for",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Остался последний случай — и для русского глаза он самый странный."
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть глаголы, которые цепляют дополнение не напрямую, а через хвост: **send for** *(послать за кем-то)*, **look after** *(присматривать за кем-то)*, **deal with** *(разбираться с чем-то)*, **pay for** *(платить за что-то)*. Прошлая карточка учила, что через предлог человек в подлежащие не попадает, — а здесь попадает. Разница вот в чём: `explain to me` — это глагол и отдельный предлог, а `send for` язык воспринимает как **одно слово-глагол**, не «послал за», а «послал-за». Раз это глагол целиком, у него есть своё дополнение — и пассив его спокойно забирает."
+        },
+        {
+          "type": "paragraph",
+          "text": "Забирает он только дополнение, а хвост остаётся там, где стоял:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The doctor was sent for.** — за доктором послали;",
+            "**The baby is well looked after.** — за малышом хорошо присматривают;",
+            "**This must be dealt with today.** — с этим надо разобраться сегодня;",
+            "**The bill hasn't been paid for yet.** — за счёт ещё не заплатили."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Присмотритесь к концу каждой фразы: предложение обрывается предлогом, и после него не стоит ничего. По-русски так не бывает вообще — предлог обязан за что-то держаться, и фраза «за послали» невозможна. Поэтому **was sent for** первое время читается как оборванная реплика, в которой потеряли последнее слово. Ничего не потеряли: хвост остался при своём глаголе."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Подлежащее + be + V3 + хвост"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Потерять хвост — не мелкая небрежность, а смена смысла. **The doctor was sent** ✓ значит, что доктора куда-то отправили — например, в другую больницу. **The doctor was sent for** ✓ значит, что за ним послали, его вызвали. Три буквы, а событие совершенно другое."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ещё одна ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рука норовит вынести предлог вперёд, как в родном языке: **For the doctor was sent** ✗. Начало английского предложения занято подлежащим, а хвост со своего места не уходит никогда."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частица ведёт себя так же"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ровно то же происходит с глаголами, у которых в хвосте не предлог, а частица: **call off** *(отменить)*, **bring up** *(растить, воспитывать)*, **turn down** *(отклонить)*, **put off** *(отложить)*."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The match was called off because of the rain.** — матч отменили из-за дождя;",
+            "**He was brought up by his grandmother.** — его воспитала бабушка;",
+            "**My request was turned down without any explanation.** — мою просьбу отклонили без объяснений."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Откуда у таких сочетаний берутся значения — почему `call off` это «отменить», а `bring up` «воспитывать» — разбираем не здесь, а в теме «Verb Particles · Хвостики глагола». Сейчас важно другое: что бы хвост ни значил, при перевороте он остаётся на месте."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда деятель всё-таки назван"
+        },
+        {
+          "type": "paragraph",
+          "text": "Взгляните ещё раз на **He was brought up by his grandmother.** Частица `up` стоит на своём месте, а сразу за ней начинается `by` с деятелем — и получаются два предлога подряд. Выглядит как опечатка, но это норма:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The dog was looked after by our neighbour.** — за собакой присматривал сосед;",
+            "**The bill was paid for by the company.** — счёт оплатила компания."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок жёсткий: сначала собственный хвост глагола, потом `by`. Подробно о том, когда деятеля вообще называют, — в микротеме «Кем, чем и из чего»."
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The meeting wasn't called off.** — встречу не отменили;",
+            "**Was the doctor sent for?** — за доктором послали? — **Yes, he was.**",
+            "**Hasn't the bill been paid for yet?** — разве за счёт ещё не заплатили?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Хвост не исчезает ни в вопросе, ни в отрицании: связка уходит вперёд, а третья форма и хвост остаются вместе."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Если глагол цепляет дополнение через хвост (**send for, look after, deal with, pay for, call off, bring up**), при перевороте дополнение уходит в подлежащие, а хвост остаётся в конце."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Подлежащее + be + V3 + хвост"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ключевые примеры"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The doctor was sent for.** · **The baby is well looked after.** · **This must be dealt with today.**",
+            "Деятель назван — хвост всё равно первый: **He was brought up by his grandmother.**",
+            "Формы: **The meeting wasn't called off.** · **Was the doctor sent for?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The doctor was sent** ✗ в значении «за доктором послали» → **The doctor was sent for** ✓ — без хвоста смысл другой.",
+            "**For the doctor was sent** ✗ → **The doctor was sent for** ✓ — хвост со своего места не уходит.",
+            "**He was brought by his grandmother up** ✗ → **He was brought up by his grandmother** ✓ — сначала свой хвост, потом `by`."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "За доктором послали.",
+          "en": "The doctor was sent for."
+        },
+        {
+          "ru": "За малышом хорошо присматривают.",
+          "en": "The baby is well looked after."
+        },
+        {
+          "ru": "С этим надо разобраться сегодня.",
+          "en": "This must be dealt with today."
+        },
+        {
+          "ru": "Матч отменили из-за дождя.",
+          "en": "The match was called off because of the rain."
+        },
+        {
+          "ru": "Его воспитала бабушка.",
+          "en": "He was brought up by his grandmother."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему предложение может заканчиваться предлогом?",
+        "Чем The doctor was sent отличается от The doctor was sent for?",
+        "Почему в looked after by стоят два предлога подряд?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2353,6 +2966,84 @@
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 245,
       "orderInCard": 2
+    },
+    {
+      "cardId": 674,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 269,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 674,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 108,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 674,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 215,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 674,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 102,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 674,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 242,
+      "orderInCard": 4
+    },
+    {
+      "cardId": 675,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 234,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 675,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 129,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 675,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 149,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 675,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 126,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 676,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 270,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 676,
+      "exerciseType": "MATCHING",
+      "exerciseId": 118,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 676,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 127,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 676,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 216,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2403,6 +3094,22 @@
       "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card674_ex1",
+      "cardId": 674,
+      "title": "Скажи, кому это сделали",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card676_ex1",
+      "cardId": 676,
+      "title": "Не потеряй хвостик",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -2428,6 +3135,14 @@
       "translation": "перебивать, прерывать",
       "transcription": "[ˌɪntəˈrʌpt]",
       "microtopicId": 247,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 896,
+      "word": "to describe",
+      "translation": "описывать, описать",
+      "transcription": "[dɪˈskraɪb]",
+      "microtopicId": 248,
       "categoryId": "useful_words"
     }
   ],
@@ -2665,6 +3380,37 @@
         }
       ],
       "explanation": "в третьем предложении после be стоит первая форма — нужна третья: must be done. В четвёртом после модального появилась личная форма связки, а должна быть базовая: should be checked."
+    },
+    {
+      "id": 242,
+      "statements": [
+        {
+          "en": "The students were given two hours for the test.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "To us was shown the new flat.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Nick was promised a pay rise last spring.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Me was lent a bike for the weekend.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The children were asked to sit quietly.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении начало занял дательный падеж — правильно We were shown the new flat. В четвёртом подлежащее стоит в форме дополнения: нужно I was lent a bike."
     }
   ],
   "word_arrangement_exercises": [
@@ -2704,6 +3450,46 @@
         "that"
       ],
       "explanation": "после hopes идёт инфинитив, а страдательный инфинитив собирается как to be плюс третья форма. Форма being здесь не работает, а придаточное с that английский в этом месте не строит."
+    },
+    {
+      "id": 215,
+      "situationRu": "Ситуация: на остановке экскурсовод не разрешил выходить из автобуса.",
+      "correctSentence": "The tourists were told to stay on the bus.",
+      "words": [
+        "The tourists",
+        "were",
+        "told",
+        "to stay",
+        "on the bus"
+      ],
+      "distractors": [
+        "was",
+        "them",
+        "telling",
+        "for staying"
+      ],
+      "explanation": "подлежащее во множественном числе, поэтому связка were. Форма them годится только для дополнения, а telling и for staying в страдательном залоге не работают: после связки идёт третья форма, а за ней инфинитив с to."
+    },
+    {
+      "id": 216,
+      "situationRu": "Ситуация: из-за снегопада экзамен перенесли на другой день.",
+      "correctSentence": "The exam was put off because of the snow.",
+      "words": [
+        "The exam",
+        "was",
+        "put",
+        "off",
+        "because of",
+        "the snow"
+      ],
+      "distractors": [
+        "were",
+        "putting",
+        "by",
+        "after",
+        "for"
+      ],
+      "explanation": "подлежащее в единственном числе, поэтому связка was. После третьей формы идёт свой хвост глагола off, и только потом причина; by здесь не нужен — деятель не назван."
     }
   ],
   "multiple_choice_exercises": [
@@ -2937,6 +3723,48 @@
         }
       ],
       "explanation": "после предлога about стоит форма being плюс третья форма, а отрицание not встаёт перед всей формой целиком, а не внутрь неё."
+    },
+    {
+      "id": 269,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мне прислали не тот заказ.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I was sent the wrong order.",
+          "isCorrect": true
+        },
+        {
+          "text": "To me was sent the wrong order.",
+          "isCorrect": false
+        },
+        {
+          "text": "Me was sent the wrong order.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "подлежащим встаёт человек в именительной форме — I. Вариант с To me переносит в английский дательный падеж, которого там нет, а Me годится только для дополнения, но не для начала предложения."
+    },
+    {
+      "id": 270,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Наше предложение отклонили.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Our offer was turned.",
+          "isCorrect": false
+        },
+        {
+          "text": "Our offer was turned down.",
+          "isCorrect": true
+        },
+        {
+          "text": "Our offer was down turned.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "хвост остаётся при своём глаголе, сразу за третьей формой: was turned down. Без него получается «наше предложение повернули», а в третьем варианте хвост встал перед третьей формой, чего в английском не бывает."
     }
   ],
   "text_input_exercises": [
@@ -2999,9 +3827,93 @@
         "чтобы им заплатили",
         "что его пригласят"
       ]
+    },
+    {
+      "id": 126,
+      "items": [
+        {
+          "sentence": "The first task ___ to us very slowly.",
+          "contextRu": "",
+          "answer": "was explained",
+          "alternatives": []
+        },
+        {
+          "sentence": "We ___ a shorter route by the driver.",
+          "contextRu": "",
+          "answer": "were shown",
+          "alternatives": []
+        },
+        {
+          "sentence": "A different time ___ to the guests.",
+          "contextRu": "",
+          "answer": "was suggested",
+          "alternatives": []
+        }
+      ],
+      "explanation": "связка согласуется с новым подлежащим: task и time — единственное число, поэтому was, а we — множественное, поэтому were. В первом и третьем пунктах подлежащим встала вещь, потому что explain и suggest человека вплотную не берут.",
+      "taskDescription": "Впиши пропущенную часть, выбрав подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "показали",
+        "предложили",
+        "объяснили"
+      ]
+    },
+    {
+      "id": 127,
+      "items": [
+        {
+          "sentence": "Grandma can't live alone, so she is looked ___ by her daughter.",
+          "contextRu": "",
+          "answer": "after",
+          "alternatives": []
+        },
+        {
+          "sentence": "I didn't spend a penny — the taxi was paid ___ by my boss.",
+          "contextRu": "",
+          "answer": "for",
+          "alternatives": []
+        },
+        {
+          "sentence": "The bride got sick, so the wedding was called ___.",
+          "contextRu": "",
+          "answer": "off",
+          "alternatives": []
+        }
+      ],
+      "explanation": "хвост — часть самого глагола, поэтому он остаётся при третьей форме и стоит перед by. Уберёте его — получится другой глагол с другим смыслом: looked, paid и called значат совсем не то же самое.",
+      "taskDescription": "Впиши недостающий хвостик глагола."
     }
   ],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 102,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why is the box still standing here?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "I was told leave it here.",
+          "isCorrect": false
+        },
+        {
+          "text": "To me was told to leave it here.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was told to leave it here.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "инфинитив при перевороте остаётся целым, вместе с to. Первый вариант его теряет, второй начинает предложение с дательного падежа, которого в английском нет."
+    }
+  ],
   "matching_exercises": [
     {
       "id": 116,
@@ -3048,6 +3960,29 @@
         }
       ],
       "explanation": "конструкция во всех четырёх одна и та же, меняется только модальный — а он и задаёт степень уверенности: от «наверняка» через «может быть» до «не может быть»."
+    },
+    {
+      "id": 118,
+      "taskDescription": "соедини предложение в действительном залоге с его страдательной парой.",
+      "pairs": [
+        {
+          "left": "They called off the concert.",
+          "right": "The concert was called off."
+        },
+        {
+          "left": "Someone looked after the cat.",
+          "right": "The cat was looked after."
+        },
+        {
+          "left": "We must deal with this problem.",
+          "right": "This problem must be dealt with."
+        },
+        {
+          "left": "They sent for an ambulance.",
+          "right": "An ambulance was sent for."
+        }
+      ],
+      "explanation": "в каждой паре дополнение уходит в начало и становится подлежащим, деятель исчезает, а хвост глагола остаётся в самом конце. Форма связки берётся по новому подлежащему: concert и ambulance — единственное число, поэтому was."
     }
   ],
   "error_correction_exercises": [
@@ -3164,6 +4099,25 @@
         }
       ],
       "explanation": "после being всегда идёт третья форма — interrupted. В первом варианте связка пропала совсем, а сочетания to being в английском не бывает: перед формой на -ing частица to не ставится."
+    },
+    {
+      "id": 234,
+      "wrongSentence": "I was explained the safety rules on my first day.",
+      "options": [
+        {
+          "text": "I was explained about the safety rules on my first day.",
+          "isCorrect": false
+        },
+        {
+          "text": "The safety rules were explained to me on my first day.",
+          "isCorrect": true
+        },
+        {
+          "text": "The safety rules were explained me on my first day.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "глагол explain цепляет человека только через предлог, поэтому подлежащим встаёт вещь — правила. Первый вариант оставляет человека в начале, а третий теряет предлог перед ним."
     }
   ],
   "construction_meaning_exercises": [],
@@ -3205,6 +4159,25 @@
         }
       ],
       "explanation": "дополнение уходит в начало, деятель исчезает, а модальный остаётся на месте — меняется только то, что стоит справа от него: вместо базовой формы глагола встаёт be плюс третья форма."
+    },
+    {
+      "id": 108,
+      "taskDescription": "перепиши каждое предложение в страдательном залоге, начав с того, кому адресовано действие.",
+      "items": [
+        {
+          "original": "They offered Kate a new contract.",
+          "transformed": "Kate was offered a new contract."
+        },
+        {
+          "original": "Someone sent Tom a strange letter.",
+          "transformed": "Tom was sent a strange letter."
+        },
+        {
+          "original": "The bank told us the bad news.",
+          "transformed": "We were told the bad news."
+        }
+      ],
+      "explanation": "человек уходит в начало и становится подлежащим, деятель исчезает, а вещь остаётся справа от третьей формы. Чаще всего теряют именно её — но контракт, письмо и новости никуда не переезжают."
     }
   ],
   "categorization_exercises": [
@@ -3299,6 +4272,31 @@
         }
       ],
       "explanation": "форма being плюс третья форма встаёт в двух местах: после предлога (of, about) и после глаголов вроде hate, avoid, mind. Место то же, где по правилу герундия нужна вещь, — просто внутри неё страдательный залог."
+    },
+    {
+      "id": 149,
+      "taskDescription": "распредели глаголы по тому, может ли человек встать подлежащим в страдательном залоге.",
+      "categories": [
+        {
+          "title": "Человек: I was …",
+          "items": [
+            "to lend",
+            "to offer",
+            "to teach",
+            "to pay"
+          ]
+        },
+        {
+          "title": "Только вещь: It was … to me",
+          "items": [
+            "to explain",
+            "to describe",
+            "to suggest",
+            "to mention"
+          ]
+        }
+      ],
+      "explanation": "в левой колонке человек стоит вплотную к глаголу и потому является дополнением — его и забирает пассив. В правой он прицеплен через предлог to, дополнением не является, и подлежащим встаёт вещь."
     }
   ],
   "find_the_odd_exercises": [
@@ -3370,6 +4368,29 @@
         }
       ],
       "explanation": "в трёх фразах стоит страдательный инфинитив to be плюс третья форма: повысят её, починят крышу, разбудят человека. В фразе про звонок подлежащее действует само — он обещал позвонить."
+    },
+    {
+      "id": 129,
+      "groupDescription": "Три предложения собраны правильно, а одно — нет",
+      "items": [
+        {
+          "text": "I was lent a car.",
+          "isOdd": false
+        },
+        {
+          "text": "I was sent a parcel.",
+          "isOdd": false
+        },
+        {
+          "text": "I was described the route.",
+          "isOdd": true
+        },
+        {
+          "text": "I was offered a lift.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "lend, send и offer берут человека вплотную, поэтому он спокойно встаёт подлежащим. А describe требует предлога — правильно The route was described to me."
     }
   ]
 }
