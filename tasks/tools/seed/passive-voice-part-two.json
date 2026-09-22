@@ -60,6 +60,13 @@
       "title": "Get Passive · Разговорный пассив",
       "order": 7,
       "searchKeywords": "got fired, got fired или was fired, did he get fired, уволили по-английски, получил повышение по-английски"
+    },
+    {
+      "id": 251,
+      "topicId": 38,
+      "title": "Where Passive Doesn't Live · Где пассива нет",
+      "order": 8,
+      "searchKeywords": "дверь открылась сама, was happened ошибка, магазин был закрыт два смысла, когда пассив не нужен, книга хорошо продаётся"
     }
   ],
   "grammar_cards": [
@@ -3788,6 +3795,534 @@
         "Чем He got fired отличается от He got his phone stolen?",
         "Почему нельзя сказать got known?"
       ]
+    },
+    {
+      "id": 682,
+      "microtopicId": 251,
+      "title": "Непереходному глаголу пассив строить не из чего",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор мы учились страдательный залог строить. Эта микротема — про то, где его строить нельзя, и она самая русская в теме: почти все ошибки здесь растут не из грамматики, а из родного языка."
+        },
+        {
+          "type": "paragraph",
+          "text": "Начнём с механики. Страдательный залог умеет ровно одно: взять **дополнение** и поставить его подлежащим. Мы проделывали это десятки раз: **They cleaned the room** → **The room was cleaned**. Дополнение ушло в начало — приём сработал."
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь попробуйте то же самое с фразой **The accident happened**. Что здесь ставить подлежащим? Дополнения в ней нет вовсе: авария ни с чем не произошла, она просто произошла. Забирать нечего — механизм не запускается."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The accident was happened** ✗ → **The accident happened** ✓. Дословно сломанный вариант значил бы, что аварию кто-то «случил», — а такого действия не бывает."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверка вопросом «кого? что?»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Инструмент у вас готовый, мы разбирали его в теме «Части речи»: задайте глаголу вопрос «кого? что?»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**to build** — построить (что?) дом. Ответ есть, значит дополнение есть → **The house was built** ✓;",
+            "**to arrive** — приехать (кого? что?). Вопрос бессмысленный, дополнения нет → пассива не будет."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот глаголы, на которых русскоязычный спотыкается чаще всего: **happen · arrive · come · go · die · fall · appear · disappear · last · seem · belong · cost · rise**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He was arrived late** ✗ → **He arrived late** ✓;",
+            "**My grandfather was died in 2010** ✗ → **My grandfather died in 2010** ✓;",
+            "**The film was lasted two hours** ✗ → **The film lasted two hours** ✓."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда берётся ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русские «случилось», «появился», «оказался», «поднялся» выглядят возвратными — у них то самое `-ся`, которое в первой части темы мы честно называли приметой страдательного залога. Рука видит знакомое окончание и по образцу «был построен» дописывает связку. Плюс такие глаголы часто стоят в рассказе о прошлом рядом с настоящими пассивами, и соседство сбивает окончательно."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Предлог тут ни при чём. В прошлой микротеме мы разбирали **The doctor was sent for** — страдательный залог, у которого хвост остался висеть. Отсюда легко решить, что `belong to` — тоже глагол с предлогом, значит и его можно перевернуть. Нельзя: **This bag is belonged to Kate** ✗ → **This bag belongs to Kate** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница не в предлоге, а в дополнении. У `send for` оно есть: за доктором послали, доктор — тот, на кого направлено действие. У `belong to` дополнения нет: сумка не «принадлежится», она просто чья-то. Глагол `belong` вам знаком из глаголов состояния в Present Continuous — состояние ни на что не переходит и в страдательный залог не идёт."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Страдательный залог забирает в подлежащее дополнение. Нет дополнения — нет и пассива."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Задайте глаголу вопрос «кого? что?». Ответ есть → пассив возможен (**to build** — построить что? дом). Ответа нет → пассива не будет (**to arrive** — приехать кого?)."
+        },
+        {
+          "type": "heading",
+          "text": "Где пассива не бывает"
+        },
+        {
+          "type": "paragraph",
+          "text": "**happen · arrive · come · go · die · fall · appear · disappear · last · seem · belong · cost · rise**."
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The accident was happened** ✗ → **The accident happened** ✓",
+            "**He was arrived late** ✗ → **He arrived late** ✓",
+            "**This bag is belonged to Kate** ✗ → **This bag belongs to Kate** ✓ — предлог не делает глагол переходным."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Авария произошла возле моста.",
+          "en": "The accident happened near the bridge."
+        },
+        {
+          "ru": "Он приехал поздно.",
+          "en": "He arrived late."
+        },
+        {
+          "ru": "Фильм длился два часа.",
+          "en": "The film lasted two hours."
+        },
+        {
+          "ru": "Эта сумка принадлежит Кейт.",
+          "en": "This bag belongs to Kate."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, что у глагола нет дополнения?",
+        "Почему was sent for можно, а is belonged to нельзя?",
+        "Почему русское «случилось» так тянет поставить связку?"
+      ]
+    },
+    {
+      "id": 683,
+      "microtopicId": 251,
+      "title": "Дверь открылась сама: где англичанин ставит актив",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Прошлая карточка разбирала глаголы, у которых дополнения нет никогда. Теперь случай хитрее: глагол дополнение брать умеет, но в конкретной фразе его нет — и страдательный залог всё равно не нужен."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот пара, ради которой написана вся микротема:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The door was opened.** — дверь открыли: кто-то подошёл и приложил руку;",
+            "**The door opened.** — дверь открылась сама: сквозняк, пружина, автоматика."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски эти две фразы почти неразличимы, обе можно сказать про одну и ту же дверь, и разницу на слух не поймать. По-английски это два разных предложения, и второе собрано вообще без связки."
+        },
+        {
+          "type": "heading",
+          "text": "Один глагол работает в обе стороны"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I opened the door** → **The door opened**;",
+            "**He broke the glass** → **The glass broke**;",
+            "**She stopped the car** → **The car stopped**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Семья таких глаголов небольшая и вся бытовая: **open · close · break · start · stop · change · move · grow · improve · increase · burn · boil**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание: форма глагола не меняется ни на букву. Английский просто убирает того, кто действовал, ставит подлежащим сам предмет — и глагол остаётся активным. Никакой связки, никакой третьей формы."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Лайфхак",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Добавьте к русской фразе слово «само». Смысл не сломался — ставьте актив: «дверь открылась (сама)» ✓ → **The door opened**. Получилась ерунда — значит действие совершил кто-то, и нужен страдательный залог: «дом строится (сам)» ✗ → **The house is being built**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "У русского «-ся» три разных выхода"
+        },
+        {
+          "type": "paragraph",
+          "text": "Во вводной карточке мы называли это бедой первой и обещали разобрать здесь. Вот вся картина целиком:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "По-русски",
+            "Что происходит на самом деле",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "дом строится",
+              "его строят другие",
+              "The house is being built"
+            ],
+            [
+              "дверь открылась",
+              "она сама",
+              "The door opened"
+            ],
+            [
+              "он порезался",
+              "сам себя",
+              "He cut himself"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Третья строка — пока только на узнавание: конструкция с `himself` разбирается в теме «Дополнительные конструкции». Знать про неё сейчас нужно ровно затем, чтобы не сказать **He was cut** про обычный порез — это значило бы, что человека порезал кто-то другой."
+        },
+        {
+          "type": "heading",
+          "text": "Книга хорошо продаётся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть ещё одна группа фраз, где форма активная, а смысл страдательный:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The book sells well.** — книга хорошо продаётся;",
+            "**This shirt washes easily.** — рубашка легко стирается;",
+            "**The car drives nicely.** — машина хорошо едет."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Книга себя не продаёт и рубашка себя не стирает — действие совершают люди. Но англичанин говорит об этом активной формой, потому что описывает не событие, а **свойство вещи**: какая она в обращении."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Так говорят ТОЛЬКО с оценкой. **The book sells** ✗ звучит оборванно — непонятно, что именно сообщили. Нужно наречие (**well**, **badly**, **easily**) либо отрицание: **This model doesn't sell**."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Рядом та же мысль в длительной форме: **Dinner is cooking** — ужин готовится, **The kettle is boiling** — чайник кипит."
+        },
+        {
+          "type": "heading",
+          "text": "Раз это актив, работает did"
+        },
+        {
+          "type": "paragraph",
+          "text": "Во всей теме вопрос и отрицание строила связка. Здесь связки нет — значит возвращается обычный помощник, как в любом активном предложении:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The door didn't open.** — дверь не открылась;",
+            "**Did the door open by itself?** — дверь сама открылась?",
+            "**Didn't the glass break?** — разве стакан не разбился?"
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Если действие произошло само, английский ставит обычный актив — без связки и без третьей формы."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Лайфхак",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Добавьте «само». Смысл цел → актив (**The door opened**). Получилась ерунда → пассив (**The house is being built**)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Один глагол в обе стороны"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I opened the door** → **The door opened** · **He broke the glass** → **The glass broke**. Семья: **open · close · break · start · stop · change · move · grow · burn · boil**."
+        },
+        {
+          "type": "heading",
+          "text": "Три выхода русского «-ся»"
+        },
+        {
+          "type": "table",
+          "header": [
+            "По-русски",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "дом строится (его строят)",
+              "The house is being built"
+            ],
+            [
+              "дверь открылась (сама)",
+              "The door opened"
+            ],
+            [
+              "он порезался (сам себя)",
+              "He cut himself"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Свойство вещи"
+        },
+        {
+          "type": "paragraph",
+          "text": "**The book sells well.** · **This shirt washes easily.** Только с оценкой: **The book sells** ✗ без наречия не говорят."
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это актив, поэтому помощник обычный: **The door didn't open.** · **Did the door open by itself?**"
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Дверь открылась сама.",
+          "en": "The door opened by itself."
+        },
+        {
+          "ru": "Стакан упал и разбился.",
+          "en": "The glass fell and broke."
+        },
+        {
+          "ru": "Книга хорошо продаётся.",
+          "en": "The book sells well."
+        },
+        {
+          "ru": "Ужин готовится.",
+          "en": "Dinner is cooking."
+        },
+        {
+          "ru": "Дверь не открылась.",
+          "en": "The door didn't open."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, дверь открыли или она открылась сама?",
+        "Почему The book sells well — активная форма?",
+        "Чем «он порезался» отличается от «его порезали»?"
+      ]
+    },
+    {
+      "id": 684,
+      "microtopicId": 251,
+      "title": "Состояние или действие: The shop was closed",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Остался последний случай — и это уже не ошибка, а двусмысленность, которую английский спокойно терпит."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop was closed at six.** — магазин закрыли в шесть: было действие, кто-то повернул ключ;",
+            "**The shop was closed when I got there.** — магазин был закрыт, когда я пришёл: описание того, что я застал."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма одна и та же — связка плюс третья форма. А смысла два: в первом случае это событие, во втором — состояние. По-русски мы разводим их разными словами («закрыли» ↔ «был закрыт»), английский же оставляет одну фразу и полагается на контекст."
+        },
+        {
+          "type": "heading",
+          "text": "Три способа показать, что речь о действии"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**назвать деятеля через by:** **The shop was closed by the manager** — раз есть тот, кто действовал, сомнений не остаётся;",
+            "**поставить точный момент:** **The shop was closed at six** · **The road was closed last night** — у состояния момента не бывает, оно длится;",
+            "**взять get:** **The shop got closed early** — эту форму мы разбирали в прошлой микротеме, и она всегда про событие."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратный признак тоже работает: слова вроде **when I got there**, **all day**, **already** склоняют фразу к состоянию."
+        },
+        {
+          "type": "heading",
+          "text": "Третья форма умеет стоять и без связки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Присмотритесь к обычным вещам вокруг: **a broken window**, **a stolen car**, **written permission**, **fried eggs**. Третья форма здесь работает как обычное прилагательное — описывает предмет, а не сообщает о действии. Никакой связки рядом нет и не нужно."
+        },
+        {
+          "type": "paragraph",
+          "text": "Строкой на узнавание: у такого описания бывает и хвост — **the letter sent yesterday** («письмо, отправленное вчера»). Это сокращённое придаточное, и разбирается оно в теме «Relative Clauses»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Некоторые слова язык уже считает обычными прилагательными — **be interested**, **be married**, **be tired**. Формально там третья форма, по смыслу описание состояния. В первой части темы мы уже говорили, что гадать не нужно: на перевод разница не влияет."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'm done** и **Are you finished?** выглядят как страдательный залог, а смысл у них активный — «я закончил» и «ты закончил?», а вовсе не «меня закончили». С подлежащим здесь ничего не делали. Разбирать эти фразы мы будем в других темах, а сейчас важно одно: не подводить их под правило страдательного залога и не переводить наоборот."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Одна и та же форма `be + V3` означает либо действие, либо состояние. Различает контекст."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop was closed at six.** — закрыли, было действие.",
+            "**The shop was closed when I got there.** — было закрыто, описание."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Признаки действия"
+        },
+        {
+          "type": "paragraph",
+          "text": "`by` + деятель (**closed by the manager**) · точный момент (**at six**, **last night**) · `get` (**got closed early**)."
+        },
+        {
+          "type": "heading",
+          "text": "Третья форма без связки"
+        },
+        {
+          "type": "paragraph",
+          "text": "**a broken window** · **a stolen car** · **written permission** — здесь это описание предмета. С хвостом — **the letter sent yesterday** (тема «Relative Clauses»)."
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**be interested** · **be married** · **be tired** — язык считает их прилагательными, гадать не нужно.",
+            "**I'm done** · **Are you finished?** — форма пассивная, смысл активный: «я закончил», а не «меня закончили»."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Магазин закрыли в шесть.",
+          "en": "The shop was closed at six."
+        },
+        {
+          "ru": "Магазин был закрыт, когда я пришёл.",
+          "en": "The shop was closed when I got there."
+        },
+        {
+          "ru": "Дорогу перекрыл дорожный патруль.",
+          "en": "The road was closed by the traffic police."
+        },
+        {
+          "ru": "В машине разбитое окно.",
+          "en": "There is a broken window in the car."
+        },
+        {
+          "ru": "Требуется письменное разрешение родителей.",
+          "en": "Written permission from parents is required."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, магазин закрыли или он был закрыт?",
+        "Почему a broken window — без связки?",
+        "Почему I'm done значит «я закончил», а не «меня закончили»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4228,6 +4763,78 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 218,
       "orderInCard": 3
+    },
+    {
+      "cardId": 682,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 237,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 682,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 131,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 682,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 247,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 682,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 245,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 683,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 152,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 683,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 272,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 683,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 130,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 683,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 111,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 684,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 96,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 684,
+      "exerciseType": "MATCHING",
+      "exerciseId": 120,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 684,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 105,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 684,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 219,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -4326,6 +4933,22 @@
       "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card683_ex1",
+      "cardId": 683,
+      "title": "Само или кто-то сделал",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card684_ex1",
+      "cardId": 684,
+      "title": "Действие или состояние",
+      "userInstruction": "ИИ даст английское предложение. Напишите по-русски, что оно означает.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -4793,6 +5416,37 @@
         }
       ],
       "explanation": "во втором предложении после get стоит первая форма — нужна третья: got fired. В четвёртом связка и get столкнулись в одной фразе: правильно She's getting promoted или She's being promoted."
+    },
+    {
+      "id": 245,
+      "statements": [
+        {
+          "en": "The old theatre was built in 1890.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Her passport was disappeared from the bag.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The meeting lasted three hours.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "These flats belong to the same family.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My neighbour was died last winter.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "во втором предложении у disappear нет дополнения — верно Her passport disappeared. В пятом та же беда с die: нужно My neighbour died last winter."
     }
   ],
   "word_arrangement_exercises": [
@@ -4909,6 +5563,25 @@
         "fire"
       ],
       "explanation": "отрицание строит didn't, а после него глагол стоит в первой форме — get. Связка wasn't в этой конструкции не нужна: в предложении уже есть обычный глагол."
+    },
+    {
+      "id": 219,
+      "situationRu": "Ситуация: угнанную машину нашли через два дня.",
+      "correctSentence": "The stolen car was found two days later.",
+      "words": [
+        "The stolen car",
+        "was",
+        "found",
+        "two days later"
+      ],
+      "distractors": [
+        "were",
+        "was stolen",
+        "stealing",
+        "finding",
+        "by"
+      ],
+      "explanation": "в этом предложении третья форма стоит дважды и по-разному: stolen описывает машину и связки не требует, а found сообщает о действии и стоит при связке was. Подлежащее в единственном числе, поэтому were не подходит."
     }
   ],
   "multiple_choice_exercises": [
@@ -5247,6 +5920,48 @@
         }
       ],
       "explanation": "после get стоит третья форма invited, значит действие совершили над Кейт, а не она сама. Форма got называет одно событие в прошлом, а не повторяющееся."
+    },
+    {
+      "id": 247,
+      "choiceType": "CHOICE",
+      "prompt": "Nobody knows what ___ to the second group.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "was happened",
+          "isCorrect": false
+        },
+        {
+          "text": "has been happened",
+          "isCorrect": false
+        },
+        {
+          "text": "happened",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "happen дополнения не берёт, поэтому связка перед ним невозможна ни в прошедшем, ни в перфекте. Нужна обычная активная форма."
+    },
+    {
+      "id": 272,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Стакан упал со стола и разбился.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The glass fell off the table and was broken.",
+          "isCorrect": false
+        },
+        {
+          "text": "The glass fell off the table and broke.",
+          "isCorrect": true
+        },
+        {
+          "text": "The glass fell off the table and was break.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "стакан разбился сам от падения, никто его не бил — значит нужен активный глагол broke. Первый вариант сообщал бы, что стакан кто-то разбил, а в третьем после связки стоит начальная форма."
     }
   ],
   "text_input_exercises": [
@@ -5420,6 +6135,36 @@
       ],
       "explanation": "ложку и куртку можно осмотреть и сразу назвать материал — значит of. Апельсины в соке и газеты в бумажном пакете переработаны до неузнаваемости — значит from.",
       "taskDescription": "Впиши подходящий предлог."
+    },
+    {
+      "id": 130,
+      "items": [
+        {
+          "sentence": "Nobody touched it — the door just ___.",
+          "contextRu": "",
+          "answer": "opened",
+          "alternatives": []
+        },
+        {
+          "sentence": "The shop ___ by the new owner last spring.",
+          "contextRu": "",
+          "answer": "was opened",
+          "alternatives": []
+        },
+        {
+          "sentence": "Be careful with these plates, this kind ___ very easily.",
+          "contextRu": "",
+          "answer": "breaks",
+          "alternatives": []
+        }
+      ],
+      "explanation": "в первом предложении сказано, что никто не трогал дверь, — значит она открылась сама, нужен актив. Во втором назван деятель, поэтому связка и третья форма. В третьем речь о свойстве посуды, а такие фразы строят активной формой с наречием.",
+      "taskDescription": "Впиши глагол в нужной форме, выбрав подходящий по смыслу пункт из банка.",
+      "wordBank": [
+        "бьётся",
+        "открылась",
+        "открыли"
+      ]
     }
   ],
   "dialog_restore_exercises": [
@@ -5506,6 +6251,34 @@
         }
       ],
       "explanation": "конструкция собирается из get и третьей формы. Во втором варианте столкнулись связка и get, в третьем после get стоит первая форма вместо третьей."
+    },
+    {
+      "id": 105,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Why are you standing outside?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "The door was locked when I arrived.",
+          "isCorrect": true
+        },
+        {
+          "text": "The door was lock when I arrived.",
+          "isCorrect": false
+        },
+        {
+          "text": "The door locked when I arrived.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "человек застал закрытую дверь — это состояние, и оно передаётся связкой с третьей формой. Во втором варианте после связки стоит начальная форма, а третий сообщал бы, что дверь заперлась сама."
     }
   ],
   "matching_exercises": [
@@ -5600,6 +6373,29 @@
         }
       ],
       "explanation": "by вводит того, кто действовал, with — то, чем покрыто или наполнено. У known и involved предлог закреплён за самим словом и запоминается вместе с ним."
+    },
+    {
+      "id": 120,
+      "taskDescription": "соедини английскую фразу с тем, что она сообщает.",
+      "pairs": [
+        {
+          "left": "The office was locked at seven.",
+          "right": "замок повернули в семь"
+        },
+        {
+          "left": "The office was locked when I came.",
+          "right": "я застал закрытую дверь"
+        },
+        {
+          "left": "The office got locked by mistake.",
+          "right": "заперли по ошибке"
+        },
+        {
+          "left": "a locked office",
+          "right": "описание двери"
+        }
+      ],
+      "explanation": "точный момент и форма с get говорят о действии, слова вроде when I came — о состоянии, которое человек застал. Без связки третья форма просто описывает предмет."
     }
   ],
   "error_correction_exercises": [
@@ -5773,6 +6569,25 @@
         }
       ],
       "explanation": "связка и помощник did в одной фразе не работают: раз есть get, вопрос строит did. После did глагол возвращается в первую форму, поэтому get, а не got."
+    },
+    {
+      "id": 237,
+      "wrongSentence": "The accident was happened near the bridge last night.",
+      "options": [
+        {
+          "text": "The accident was happen near the bridge last night.",
+          "isCorrect": false
+        },
+        {
+          "text": "The accident happened near the bridge last night.",
+          "isCorrect": true
+        },
+        {
+          "text": "The accident has been happened near the bridge last night.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "у глагола happen нет дополнения, поэтому в страдательный залог он не идёт ни в каком времени. Правильная форма — обычное прошедшее: happened."
     }
   ],
   "construction_meaning_exercises": [
@@ -5798,6 +6613,29 @@
         }
       ],
       "explanation": "после by стоит момент времени, а не человек, поэтому предлог означает срок — «не позже пятницы». Второй вариант читает пятницу как деятеля, хотя воли у дня недели нет."
+    },
+    {
+      "id": 96,
+      "construction": "The shop got closed early yesterday.",
+      "options": [
+        {
+          "text": "Магазин вчера закрыли раньше обычного.",
+          "isCorrect": true
+        },
+        {
+          "text": "Магазин вчера был закрыт с самого утра.",
+          "isCorrect": false
+        },
+        {
+          "text": "Магазин вчера закрылся сам.",
+          "isCorrect": false
+        },
+        {
+          "text": "Магазин закрывается рано.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "форма с get всегда сообщает о событии, а не о состоянии, поэтому речь о том, что магазин закрыли. Второй вариант описывал бы состояние, третий — действие без людей, четвёртый говорит о привычном расписании."
     }
   ],
   "transformation_exercises": [
@@ -5895,6 +6733,25 @@
         }
       ],
       "explanation": "связки в этой конструкции нет, поэтому вопрос строит помощник did, а сам get возвращается в первую форму. Третья форма справа при этом не меняется."
+    },
+    {
+      "id": 111,
+      "taskDescription": "перепиши каждое предложение так, будто всё произошло само, без участия человека.",
+      "items": [
+        {
+          "original": "Someone closed the window.",
+          "transformed": "The window closed."
+        },
+        {
+          "original": "The manager changed the plan.",
+          "transformed": "The plan changed."
+        },
+        {
+          "original": "Mum boiled the water.",
+          "transformed": "The water boiled."
+        }
+      ],
+      "explanation": "деятель исчезает, предмет встаёт подлежащим, а глагол остаётся активным и не меняет форму. Связка здесь не нужна: она сообщала бы, что действие кто-то совершил."
     }
   ],
   "categorization_exercises": [
@@ -6064,6 +6921,31 @@
         }
       ],
       "explanation": "после get стоит либо прилагательное — и тогда человек сам перешёл в это состояние, либо третья форма глагола — и тогда действие совершили над ним. На вид формы похожи, поэтому смотреть надо на смысл слова."
+    },
+    {
+      "id": 152,
+      "taskDescription": "распредели предложения по тому, действовал ли кто-то или всё случилось само.",
+      "categories": [
+        {
+          "title": "Случилось само",
+          "items": [
+            "The engine stopped.",
+            "The ice melted.",
+            "The lights went out.",
+            "The soup is cooking."
+          ]
+        },
+        {
+          "title": "Кто-то сделал",
+          "items": [
+            "The car was stopped.",
+            "The window was broken.",
+            "The letter was sent.",
+            "The floor was washed."
+          ]
+        }
+      ],
+      "explanation": "в левой колонке стоит обычный активный глагол: деятеля нет, предмет изменился сам. В правой — связка и третья форма, а значит действие над предметом кто-то совершил."
     }
   ],
   "find_the_odd_exercises": [
@@ -6181,6 +7063,29 @@
         }
       ],
       "explanation": "кожу, пластик и металл в готовой вещи видно, поэтому of. А виноград в вине узнать уже нельзя — правильно wine made from grapes."
+    },
+    {
+      "id": 131,
+      "groupDescription": "Три предложения собраны верно, а одно — нет",
+      "items": [
+        {
+          "text": "The letter was sent yesterday.",
+          "isOdd": false
+        },
+        {
+          "text": "The room was cleaned this morning.",
+          "isOdd": false
+        },
+        {
+          "text": "The train was arrived on time.",
+          "isOdd": true
+        },
+        {
+          "text": "The tickets were sold in an hour.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "письмо отправили, комнату убрали, билеты продали — у всех трёх глаголов есть дополнение, и оно ушло в подлежащее. А поезд никто не «приезжал»: у arrive дополнения нет, нужно The train arrived on time."
     }
   ]
 }
