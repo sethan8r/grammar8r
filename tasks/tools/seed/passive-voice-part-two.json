@@ -74,6 +74,13 @@
       "title": "It Is Said · Говорят, что…",
       "order": 9,
       "searchKeywords": "говорят что по-английски, it is said that, he is said to be, считается что, когда пассив уместен"
+    },
+    {
+      "id": 253,
+      "topicId": 38,
+      "title": "Live Practice · Пассив в деле",
+      "order": 10,
+      "searchKeywords": "повторить пассив, все формы пассива, практика страдательного залога, проверить себя на пассиве"
     }
   ],
   "grammar_cards": [
@@ -4896,6 +4903,367 @@
         "Почему пассив называют инструментом акцента?",
         "Почему в заголовках новостей нет связки?"
       ]
+    },
+    {
+      "id": 688,
+      "microtopicId": 253,
+      "title": "Живая практика: пассив в деле",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена целиком: девять микротем, двадцать пять карточек, все формы и все границы. Карточками добавить больше нечего — осталось то, чему учит только практика: узнавать формы в чужой речи и решать, нужен ли залог вообще."
+        },
+        {
+          "type": "heading",
+          "text": "Корень, из которого выведено всё"
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысловой глагол в страдательном залоге застывает в третьей форме навсегда. Двигается только связка. Поэтому новых конструкций в теме и не было — были знакомые формы `be`, поставленные перед неизменной третьей формой."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Нужная форма be + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Все формы в одной таблице"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Что сообщает",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "is / are done",
+              "обычно, всегда",
+              "The room is cleaned every day"
+            ],
+            [
+              "was / were done",
+              "случилось тогда",
+              "The room was cleaned yesterday"
+            ],
+            [
+              "will be done",
+              "случится",
+              "The room will be cleaned tomorrow"
+            ],
+            [
+              "is going to be done",
+              "собираются",
+              "It's going to be repaired"
+            ],
+            [
+              "has been done",
+              "уже, результат налицо",
+              "The tickets have been sold"
+            ],
+            [
+              "had been done",
+              "до другого прошлого",
+              "The room had been cleaned before we came"
+            ],
+            [
+              "is being done",
+              "делают прямо сейчас",
+              "The house is being built"
+            ],
+            [
+              "was being done",
+              "делали как раз тогда",
+              "The room was being cleaned when I came in"
+            ],
+            [
+              "must be done",
+              "после модального",
+              "It must be done today"
+            ],
+            [
+              "must have been done",
+              "догадка о сделанном",
+              "It must have been stolen"
+            ],
+            [
+              "to be done",
+              "без своего времени",
+              "I want to be paid on Friday"
+            ],
+            [
+              "being done",
+              "после предлога и глагола",
+              "I hate being told what to do"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Пустых клеток две: **will be being done** ✗ и **has been being done** ✗ — язык от них уклоняется и говорит активом (**They've been painting the house all week**)."
+        },
+        {
+          "type": "heading",
+          "text": "Кто встаёт в начало"
+        },
+        {
+          "type": "paragraph",
+          "text": "У глаголов **give · send · tell · show · offer · teach · pay · promise · lend · ask** справа стоят двое, поэтому пассива получается два, и живая речь почти всегда начинает с человека: **I was given a book** чаще, чем **A book was given to me**. Так же переворачивается «мне велели»: **They told me to wait** → **I was told to wait**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Но не каждый глагол так умеет: **explain · describe · suggest · mention · say** цепляют человека через предлог, значит подлежащим он не встаёт — **It was explained to me** ✓. А если хвост у глагола есть, он остаётся висеть в конце: **The doctor was sent for** · **The meeting was called off**."
+        },
+        {
+          "type": "heading",
+          "text": "Хвост: кем, чем, из чего"
+        },
+        {
+          "type": "paragraph",
+          "text": "`by` ставят, только когда деятель — новость: автор, изобретатель, стихия. В остальных случаях молчат. `by` — кто сделал, `with` — чем сделано: **He was killed by a robber with a knife**. Семья материалов: **made of wood** (видно) ↔ **made from grapes** (не узнать) ↔ **made with milk** (состав) ↔ **made in Italy** ↔ **made by hand**."
+        },
+        {
+          "type": "heading",
+          "text": "get вместо связки"
+        },
+        {
+          "type": "paragraph",
+          "text": "В разговоре связку заменяет `get`: **He got fired**, **She got promoted**. Оттенок — событие, внезапно, чаще неприятность; в новостях и документах остаётся `be`. И раз связки нет, возвращается обычный помощник: **Did he get fired?** · **He didn't get fired**."
+        },
+        {
+          "type": "heading",
+          "text": "Где пассива нет — отсюда половина ошибок"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "у непереходного глагола нет дополнения, забирать нечего: **The accident happened** ✓;",
+            "действие произошло само — английский ставит актив: **The door opened** ✓;",
+            "свойство вещи — тоже актив: **The book sells well**;",
+            "безличное по-русски ≠ пассив по-английски: **They say**, **No smoking**, **I'm cold**."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Безличное и акцент"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «говорят / считается» выходит тремя способами: **They say that…** (разговор), **It is said that…** (книжно), **He is said to be…** (формально). И главное, ради чего залог вообще нужен: русский для акцента переставляет слова, английский меняет залог — **My grandfather built the house** ↔ **The house was built by my grandfather**."
+        },
+        {
+          "type": "heading",
+          "text": "Техника, которую проверяют задания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**was wrote** ✗ → **was written** ✓ — на месте третьей формы именно третья;",
+            "**must to be done** ✗ → **must be done** ✓ — после модального частицы нет;",
+            "**has been being done** ✗ → активом **They've been doing it** ✓;",
+            "**I was explained** ✗ → **It was explained to me** ✓;",
+            "**The doctor was sent** ✗ → **The doctor was sent for** ✓ — хвост меняет смысл;",
+            "**Was he got fired** ✗ → **Did he get fired?** ✓ — связка и `did` вместе не живут;",
+            "**The accident was happened** ✗ → **The accident happened** ✓."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что вас ждёт в заданиях"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Прочитай.** Английское предложение — скажите по-русски, что оно означает. Здесь и вылезут ловушки чтения: **It's been sold**, **I was told**, **I'm done**.",
+            "**Собери форму.** Русское предложение, где действие совершают над подлежащим. Залог виден сразу, думать надо только над формой связки.",
+            "**Нужен ли тут пассив.** Русская фраза вместе с ситуацией. Подсказки не будет: решаете вы — пассив, актив или вовсе другая конструкция.",
+            "**Найди ошибку.** Три предложения, в одном ошибка: найдите его, перепишите правильно и своими словами скажите, что было не так."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чего в заданиях не будет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Того, что мы давали только на узнавание или отдали другим темам: **will have been done** и пассива в длительном будущем, книжных **having been paid** и **By whom was it written?**, конструкций **He got his hair cut** и **I had my bike stolen**, оборота **the letter sent yesterday**, фразы **It was Tom who called** и возвратного **He cut himself**. Строить их самому не потребуется — всё это ждёт своих тем: «Future Perfect», «Глагол get — часть 2», «Relative Clauses», «Дополнительные конструкции»."
+        },
+        {
+          "type": "heading",
+          "text": "ИИ — это тренажёр, а не экзамен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибиться здесь нормально и даже полезно. На каждую ошибку ИИ покажет верный вариант, назовёт причину и — это главное — скажет, что значила бы **ваша** фраза: она почти всегда настоящая английская, просто про другое. **The door was opened** — не мусор, а «дверь кто-то открыл». Уйти отсюда нужно не с оценкой, а с парой в голове."
+        },
+        {
+          "type": "heading",
+          "text": "Встретится то, чего мы не давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "ИИ говорит на живом английском, и в его фразах может проскочить конструкция из будущих тем. Пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод."
+        },
+        {
+          "type": "heading",
+          "text": "Как это устроено"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».",
+            "**Слова — ваши.** В заданиях на сборку и выбор залога подтягивается порция слов, которые вы уже знаете: трудность должна быть в конструкции, а не в незнакомой лексике.",
+            "**Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие."
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Третья форма не меняется никогда — двигается только связка."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Нужная форма be + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Все формы"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "is / was done",
+              "The room is cleaned every day"
+            ],
+            [
+              "will be done · is going to be done",
+              "It will be done tomorrow"
+            ],
+            [
+              "has been done · had been done",
+              "The tickets have been sold"
+            ],
+            [
+              "is being done · was being done",
+              "The house is being built"
+            ],
+            [
+              "must be done · must have been done",
+              "It must have been stolen"
+            ],
+            [
+              "to be done · being done",
+              "I hate being told what to do"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Пустые клетки: **will be being** ✗ · **has been being** ✗ — вместо них актив."
+        },
+        {
+          "type": "heading",
+          "text": "При чтении"
+        },
+        {
+          "type": "paragraph",
+          "text": "**It's been sold** — здесь `'s` это `has`. Наречие встаёт после первого помощника: **has just been sent**. В заголовках связку выбрасывают: **Three killed in crash**."
+        },
+        {
+          "type": "heading",
+          "text": "Кто встаёт в начало"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Берут человека вплотную: **give · send · tell · show · offer · teach · pay · promise · lend · ask** → **I was given a book** · **I was told to wait**.",
+            "Требуют предлога: **explain · describe · suggest · mention · say** → **It was explained to me** ✓.",
+            "Хвост остаётся в конце: **The doctor was sent for** · **The bill hasn't been paid for**."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Кем, чем, из чего"
+        },
+        {
+          "type": "paragraph",
+          "text": "`by` — только когда деятель новость (автор, изобретатель, стихия). `by` кто ↔ `with` чем. **made of** видно · **made from** не узнать · **made with** состав · **made in** место · **made by** кто."
+        },
+        {
+          "type": "heading",
+          "text": "get"
+        },
+        {
+          "type": "paragraph",
+          "text": "**He got fired** — событие, разговорный регистр. Связки нет, поэтому **Did he get fired?** и **He didn't get fired**."
+        },
+        {
+          "type": "heading",
+          "text": "Где пассива нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Непереходный (**The accident happened**) · само (**The door opened**) · свойство (**The book sells well**) · русское безличное (**They say** · **No smoking** · **I'm cold**). Форма пассивная, смысл активный: **I'm done** — «я закончил»."
+        },
+        {
+          "type": "heading",
+          "text": "Безличное"
+        },
+        {
+          "type": "paragraph",
+          "text": "**They say that…** разговор · **It is said that…** книжно · **He is said to be…** формально. После `to`: `to be` — сейчас, `to have + V3` — раньше."
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**was wrote** ✗ → **was written** ✓",
+            "**must to be done** ✗ → **must be done** ✓",
+            "**has been being done** ✗ → активом **They've been doing it** ✓",
+            "**I was explained** ✗ → **It was explained to me** ✓",
+            "**The doctor was sent** ✗ → **The doctor was sent for** ✓",
+            "**Was he got fired** ✗ → **Did he get fired?** ✓",
+            "**The accident was happened** ✗ → **The accident happened** ✓"
+          ]
+        }
+      ],
+      "examples": [],
+      "clarificationOptions": [
+        "Как быстро понять, нужен тут страдательный залог или нет?",
+        "Почему в одних фразах ставят by, а в других молчат?",
+        "Чем got fired отличается от was fired?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -5610,6 +5978,38 @@
       "userInstruction": "ИИ даст русскую фразу и ситуацию. Напишите фразу по-английски так, как её сказали бы в этой ситуации.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card688_ex1",
+      "cardId": 688,
+      "title": "Прочитай и скажи по-русски",
+      "userInstruction": "ИИ даст английское предложение. Напишите по-русски, что оно означает.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "passive_two_card688_ex2",
+      "cardId": 688,
+      "title": "Собери форму",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card688_ex3",
+      "cardId": 688,
+      "title": "Нужен ли тут пассив",
+      "userInstruction": "ИИ даст русскую фразу и ситуацию. Напишите фразу по-английски так, как её сказали бы в этой ситуации.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "passive_two_card688_ex4",
+      "cardId": 688,
+      "title": "Найди и исправь",
+      "userInstruction": "ИИ даст три предложения. Найдите то, в котором есть ошибка, напишите его правильно и своими словами объясните, что было не так.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
