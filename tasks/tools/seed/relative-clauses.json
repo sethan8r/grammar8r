@@ -18,6 +18,13 @@
       "title": "Relative Clauses · Придаточное с «который»",
       "order": 1,
       "searchKeywords": "что такое relative clause, who вопрос или связка, уточнение после существительного, почему нет падежей"
+    },
+    {
+      "id": 255,
+      "topicId": 39,
+      "title": "who / which / that · Человек или вещь",
+      "order": 2,
+      "searchKeywords": "which про людей, животные who или which, согласование после who, everything what, what или that"
     }
   ],
   "grammar_cards": [
@@ -452,6 +459,568 @@
         "Как понять, куда ставить предлог, если «который» стоит с предлогом?",
         "Почему запятая перед who меняет смысл предложения?"
       ]
+    },
+    {
+      "id": 691,
+      "microtopicId": 255,
+      "title": "who — люди, which — вещи, that — и то и другое",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русскому «который» всё равно, о ком речь: «девушка, **которая** поёт», «телефон, **который** сломался». Английскому — нет. Первое, что он выясняет, ещё до всяких ролей: перед нами человек или вещь?"
+        },
+        {
+          "type": "heading",
+          "text": "Подсказка из самого русского"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы сами делим мир надвое — на «кто» и «что». «**Кто** пришёл?» — про человека. «**Что** упало?» — про вещь. Про стол никто не спросит «кто упал?», а про друга — «что пришло?». Английский делит точно так же, только прямо внутри «который»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "про кого спросили бы «кто?» → **who**: **the girl who sings in a band**;",
+            "про что спросили бы «что?» → **which**: **the phone which broke**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это не совпадение: `who` и есть «кто», а `which` родом из «какой, который из». Поэтому вопрос «кто или что?» решает выбор почти всегда."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Человек + who · вещь + which · кто угодно + that"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The girl which sings** ✗ → **the girl who sings** ✓. Рука тянется к which, потому что в «Основах» оно переводилось как «который». Но which — «который» только для вещей. И наоборот: **the phone who broke** ✗ звучит так, будто телефон — живое существо."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Связка на все случаи"
+        },
+        {
+          "type": "paragraph",
+          "text": "`that` подходит и для людей, и для вещей: **the girl that sings**, **the phone that broke**. Это не новое слово, а то самое «что» после think и know, только в новой роли. По-русски так тоже говорят: «человек, **что** тебе звонил», «сумка, **что** стоит в углу». Вот это разговорное «что» и есть that."
+        },
+        {
+          "type": "paragraph",
+          "text": "В разговоре про вещи that звучит даже чаще, чем which. Про людей естественнее who, но и that — не ошибка."
+        },
+        {
+          "type": "heading",
+          "text": "Животные, компании, команды"
+        },
+        {
+          "type": "paragraph",
+          "text": "Одно место, где проверка «кто или что?» подводит, — животные. По-русски про собаку спрашивают «кто там лает?», а английский обычно видит в животном вещь: **a dog that barks all night**, **a spider which lives in the bathroom**. Who появляется, только когда животное — член семьи, со своей кличкой и характером: **We have a dog who thinks he's a person.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Компания, магазин, кафе — это вещь: **a company which makes games**, **a café that opens at seven**. Про команду или группу людей британцы охотно говорят и who: **the team who won the cup**. Ошибкой это не считается — они видят за командой людей."
+        },
+        {
+          "type": "heading",
+          "text": "Какую связку выбрать"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Связка",
+            "Про кого",
+            "Где звучит естественно"
+          ],
+          "rows": [
+            [
+              "who",
+              "люди, свой питомец",
+              "везде, нейтрально"
+            ],
+            [
+              "which",
+              "вещи, животные, компании",
+              "письмо, британская речь, чуть официальнее"
+            ],
+            [
+              "that",
+              "и люди, и вещи",
+              "разговор; про вещи — самый частый вариант"
+            ],
+            [
+              "без связки",
+              "когда её можно выбросить",
+              "живая речь — разберём в следующей микротеме"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В американском английском в таких уточнениях that почти вытеснил which. Американец скажет **the phone that broke**, а which оставит для письма."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Those who` — «те, кто». Это книжный вариант: в речи говорят **people who** (**People who work at night sleep in the day.**), а **those who** встречается в пословицах и цитатах: **Good things come to those who wait.** — хорошее приходит к тем, кто умеет ждать. Строить самому не нужно, достаточно узнавать."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Выбор связки решает вопрос «кто или что?»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Человек + who · вещь + which · кто угодно + that"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Человек → **who**: **the girl who sings**",
+            "Вещь, животное, компания → **which**: **a company which makes games**",
+            "**that** подходит и тем, и другим; про вещи в разговоре — самый частый вариант",
+            "Свой питомец с кличкой → **who**: **We have a dog who thinks he's a person.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the girl which sings** ✗ → **the girl who sings** ✓ — which только про вещи.",
+            "**the phone who broke** ✗ → **the phone that broke** ✓ — who только про живых."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Девушка, которая поёт в этой группе, — моя сестра.",
+          "en": "The girl who sings in this band is my sister."
+        },
+        {
+          "ru": "Где телефон, который лежал на столе?",
+          "en": "Where is the phone that was on the table?"
+        },
+        {
+          "ru": "У нас есть пёс, который думает, что он человек.",
+          "en": "We have a dog who thinks he's a person."
+        },
+        {
+          "ru": "Я работаю в компании, которая делает игры.",
+          "en": "I work for a company which makes games."
+        },
+        {
+          "ru": "Человек, который убирает офис, приходит в шесть.",
+          "en": "The person who cleans the office comes at six."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему про собаку по-русски говорят «кто», а по-английски which?",
+        "Когда лучше сказать that, а когда which?",
+        "Можно ли про человека сказать that?"
+      ]
+    },
+    {
+      "id": 692,
+      "microtopicId": 255,
+      "title": "Связка-подлежащее: глагол сразу за ней",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Теперь заглянем внутрь придаточного. Самый частый случай — когда связка работает подлежащим, то есть сама делает действие. Проверка из вводной микротемы: режем фразу на два предложения. **the man who fixed my car** → **The man fixed my car.** Существительное встало перед глаголом — значит, связка подлежащее, и глагол идёт сразу за ней."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + who / which / that + глагол + остальное"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз связка встала на место существительного, повторять его вторым словом не нужно: **a friend who he lives in Kazan** ✗ → **a friend who lives in Kazan** ✓. Место подлежащего внутри уже занято — связкой."
+        },
+        {
+          "type": "heading",
+          "text": "Глагол смотрит на слово перед связкой"
+        },
+        {
+          "type": "paragraph",
+          "text": "У русского «кто» есть привычка: оно всегда требует единственного числа. «**Кто** пришёл?» — даже если пришли десять человек. Эта привычка переезжает на who, и рука пишет **people who works** ✗."
+        },
+        {
+          "type": "paragraph",
+          "text": "Но в придаточном who — не «кто», а «который». А «который» по-русски меняется вслед за своим словом: «друг, который живёт» ↔ «друзья, которые живут». У who окончаний нет, поэтому число показывает глагол — и берёт он его у существительного перед связкой:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**a friend who lives in Kazan** (a friend = he → lives) ↔ **friends who live in Kazan** (friends = they → live)",
+            "**a shop which sells fish** (a shop = it → sells) ↔ **shops which sell fish** (shops = they → sell)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I know people who works at night** ✗ → **I know people who work at night** ✓. Глагол смотрит не на who, а на people. People — это «они», they, а после they глагол идёт без -s: **they work** → **people who work**. Не путайте два разных -s: у существительного оно значит «много» (**cats**), а у глагола — «один» (**he works**)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Внутри — любое время и любая форма"
+        },
+        {
+          "type": "paragraph",
+          "text": "Придаточное — полноценное предложение, поэтому внутри работает всё, что мы прошли:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the car which was stolen last week** — страдательный залог;",
+            "**people who have lived here for years** — перфект;",
+            "**someone who can speak Spanish** — модальный глагол;",
+            "**people who have to get up at five** — обязанность;",
+            "**a friend who is going to move to Rome** — планы;",
+            "**a colleague who doesn't drink coffee** · **a guest who wasn't invited** — отрицание."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание строится как в обычном предложении: помощник или связка be с not встаёт прямо после who. А весь порядок слов — порядок утверждения, даже если вокруг вопрос. Это знакомо по «Косвенным вопросам»: **the book which did you buy** ✗ → **the book which you bought** ✓. Внутри придаточного вопросов не задают."
+        },
+        {
+          "type": "paragraph",
+          "text": "Две рамки, в которых придаточное-подлежащее встречается постоянно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**There's a woman who wants to talk to you.** — там женщина, которая хочет с тобой поговорить;",
+            "**Do you know anyone who speaks Italian?** — ты знаешь кого-нибудь, кто говорит по-итальянски? По-русски тут стоит «кто», по-английски — всё тот же who."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Длинное подлежащее: глагол ищет главное слово"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда придаточное стоит в середине, главный глагол фразы уезжает далеко от своего подлежащего: **The woman who lives next to my parents is a doctor.** Прямо перед is стоит parents, и рука тянется к are. Но parents живут внутри придаточного, а подлежащее всей фразы — woman. Проверка простая: мысленно выброси придаточное, и останется скелет **The woman is a doctor.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The people who work in this office is very friendly** ✗ → **The people who work in this office are very friendly** ✓. Скелет фразы — **The people are very friendly**, поэтому are."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В обороте `one of those people who…` глагол согласуется с people, а не с one: **She's one of those people who are always late.** Придаточное описывает «тех людей», а «одна из» стоит снаружи. Носители и сами здесь часто говорят is, так что это не ошибка, которой стоит бояться, — просто знайте, как правильно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Связка-подлежащее сама делает действие, и глагол идёт сразу за ней."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + who / which / that + глагол + остальное"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Число глагола — по слову перед связкой: **a friend who lives** · **friends who live**",
+            "Внутри любое время и отрицание, порядок как в утверждении: **the car which was stolen**, **a colleague who doesn't drink coffee**",
+            "Главный глагол — по главному слову, придаточное мысленно выбрасываем: **The woman who lives next to my parents is a doctor.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**people who works** ✗ → **people who work** ✓ — people = they, после they глагол без -s.",
+            "**The people who work here is friendly** ✗ → **The people who work here are friendly** ✓ — подлежащее фразы people.",
+            "**a friend who he lives** ✗ → **a friend who lives** ✓ — место подлежащего уже заняла связка."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "У меня есть друзья, которые живут в Праге.",
+          "en": "I have friends who live in Prague."
+        },
+        {
+          "ru": "Это машина, которую украли на прошлой неделе.",
+          "en": "This is the car which was stolen last week."
+        },
+        {
+          "ru": "Ты знаешь кого-нибудь, кто говорит по-испански?",
+          "en": "Do you know anyone who speaks Spanish?"
+        },
+        {
+          "ru": "Люди, которые работают в этом офисе, очень дружелюбные.",
+          "en": "The people who work in this office are very friendly."
+        },
+        {
+          "ru": "Там женщина, которая хочет с тобой поговорить.",
+          "en": "There's a woman who wants to talk to you."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после who глагол бывает и lives, и live?",
+        "Как не запутаться с главным глаголом, если придаточное стоит в середине?",
+        "Можно ли внутри придаточного использовать любое время?"
+      ]
+    },
+    {
+      "id": 693,
+      "microtopicId": 255,
+      "title": "«Всё, что» и «то, что»: that ≠ what",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последняя ловушка этой микротемы растёт из русского слова «что». В разговоре мы легко ставим его вместо «который»: «книга, **что** я читал», и без него не обходятся «всё, **что**», «то, **что**». Английскому «что» кажется одно подходящее слово — what. Так и рождаются **the book what I read** ✗ и **everything what he said** ✗."
+        },
+        {
+          "type": "heading",
+          "text": "Внутри what уже сидит предмет"
+        },
+        {
+          "type": "paragraph",
+          "text": "`what` — это не «что» вообще, а «то, что». Внутри него уже сидит сам предмет: what = the thing that."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**That's what I need.** — дословно «это что мне нужно», по-живому «это то, что мне нужно».",
+            "**What she said was true.** — то, что она сказала, было правдой."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому what никогда не стоит после существительного: место предмета в нём уже занято. **everything what** ✗ по устройству выходит «всё то, что» — «то» лишнее, ведь предмет уже назван словом everything. Раз слово перед связкой есть, нужен that: **everything that he said** ✓."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть слово перед связкой → that · слова нет, нужно «то, что» → what"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The book what I read** ✗ → **the book that I read** ✓. Та самая «книга, что я читал» из разговорного русского. Русскому «что» в роли «который» соответствует that, а не what."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "После «всё», «ничего», «единственный» — that"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть слова, после которых носитель почти всегда ставит that, а не which:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**everything, something, anything, nothing, all**: **Is there anything that I can do?** · **Nothing that he says is true.**",
+            "**the only**: **the only thing that matters**",
+            "**the first, the last**: **the first thing that I saw**",
+            "превосходная степень: **the best film that I've ever seen**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему не which? Which — «который из», выбор из нескольких, как в вопросе **Which bag is yours?** А у «всего» и «единственного» выбирать не из чего. После этих слов which звучит неестественно — носитель скажет that. Это правило против which, а не против who: про людей после the only по-прежнему говорят who — **You're the only person who understands me.**"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У той же русской ошибки «что вместо который» есть ещё три знакомых лица:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "«Тот же, что» → **the same phone as mine**, **the same café where we met** — а не **the same what** ✗;",
+                "«Тот факт, что» → **the fact that**, **the idea that** — а не **the fact what** ✗;",
+                "`Such … as` — «такие … как», книжный оборот: **such people as him** — такие люди, как он. В речи почти не встречается, строить не нужно. Не путать с **such as** — «например»."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Whatever` — «что угодно, всё что угодно» — встретим в разделе «Сказать то же, но круче», а приём **What I need is a holiday.**, где what выносит главное в начало, разбирается в «Дополнительных конструкциях»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "what уже значит «то, что», поэтому после слова-предмета он не встаёт."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть слово перед связкой → that · слова нет, нужно «то, что» → what"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**what** = «то, что»: **That's what I need.** · **What she said was true.**",
+            "После everything, nothing, anything, all, the only, the first, превосходной степени — **that**, а не which: **the only thing that matters**",
+            "Про людей после the only — **who**: **the only person who understands me**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the book what I read** ✗ → **the book that I read** ✓ — what не значит «который».",
+            "**everything what he said** ✗ → **everything that he said** ✓ — what уже значит «то, что», а предмет назван словом everything."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Это единственное, что я помню.",
+          "en": "That's the only thing that I remember."
+        },
+        {
+          "ru": "То, что он сказал, — неправда.",
+          "en": "What he said isn't true."
+        },
+        {
+          "ru": "Это лучший фильм, который я видел.",
+          "en": "It's the best film that I've ever seen."
+        },
+        {
+          "ru": "Ты единственный человек, который меня понимает.",
+          "en": "You're the only person who understands me."
+        },
+        {
+          "ru": "Всё, что тебе нужно, есть в этой сумке.",
+          "en": "Everything that you need is in this bag."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать everything what?",
+        "Когда what, а когда that, если по-русски в обоих случаях «что»?",
+        "Почему после the only не ставят which?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -484,9 +1053,106 @@
       "exerciseType": "FORWARD_CHOICE",
       "exerciseId": 274,
       "orderInCard": 1
+    },
+    {
+      "cardId": 691,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 155,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 691,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 249,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 691,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 239,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 691,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 134,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 692,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 247,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 692,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 132,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 692,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 113,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 692,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 221,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 693,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 250,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 693,
+      "exerciseType": "MATCHING",
+      "exerciseId": 123,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 693,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 240,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 693,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 222,
+      "orderInCard": 3
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "relative_clauses_card691_ex1",
+      "cardId": 691,
+      "title": "Кто или что",
+      "userInstruction": "ИИ даст русское предложение со словом «который». Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card692_ex1",
+      "cardId": 692,
+      "title": "Склей два предложения",
+      "userInstruction": "ИИ даст два коротких предложения. Соедините их в одно со словом who, which или that.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "relative_clauses_card693_ex1",
+      "cardId": 693,
+      "title": "Всё, что и то, что",
+      "userInstruction": "ИИ даст русское предложение со словами «всё, что», «то, что» или похожими. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "useful_words",
@@ -503,10 +1169,109 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
+  "course_words": [
+    {
+      "id": 912,
+      "word": "person",
+      "translation": "человек, личность",
+      "transcription": "[ˈpɜːsn]",
+      "microtopicId": 255,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 913,
+      "word": "thing",
+      "translation": "вещь, штука, дело",
+      "transcription": "[θɪŋ]",
+      "microtopicId": 255,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 914,
+      "word": "only",
+      "translation": "единственный, только",
+      "transcription": "[ˈəʊnli]",
+      "microtopicId": 255,
+      "categoryId": "useful_words"
+    }
+  ],
   "table_fill_exercises": [],
-  "true_false_exercises": [],
-  "word_arrangement_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 247,
+      "statements": [
+        {
+          "en": "I have a neighbour who works as a pilot.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We need people who speaks French.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The flowers which grow in her garden are beautiful.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The man who lives above my parents are a dentist.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Is there a bus which goes to the centre?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении глагол должен смотреть на people — нужно speak. В четвёртом подлежащее всей фразы — man, а parents сидят внутри придаточного, поэтому is a dentist. Остальные три собраны верно."
+    }
+  ],
+  "word_arrangement_exercises": [
+    {
+      "id": 221,
+      "situationRu": "RU: Люди, которые живут над нами, очень шумные.",
+      "correctSentence": "The people who live above us are very loud.",
+      "words": [
+        "The",
+        "people",
+        "who",
+        "live",
+        "above",
+        "us",
+        "are",
+        "very",
+        "loud"
+      ],
+      "distractors": [
+        "lives",
+        "is",
+        "which",
+        "they"
+      ],
+      "explanation": "про людей — who; people — это they, поэтому live без -s, и главный глагол тоже согласуется с people — are. They не нужен: место подлежащего внутри придаточного уже заняла связка."
+    },
+    {
+      "id": 222,
+      "situationRu": "RU: Это не то, что я заказывал.",
+      "correctSentence": "This isn't what I ordered.",
+      "words": [
+        "This",
+        "isn't",
+        "what",
+        "I",
+        "ordered"
+      ],
+      "distractors": [
+        "that",
+        "which",
+        "did"
+      ],
+      "explanation": "«то, что» без слова перед связкой — это what. This isn't that I ordered — ошибка: that требует слова-предмета перед собой, а его здесь нет."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 116,
@@ -549,9 +1314,83 @@
         }
       ],
       "explanation": "«в котором» про место — это where. Связка that после предлога не ставится, а без предлога и без where место пропадает: выходит, будто купили сам магазин, а не куртку в нём."
+    },
+    {
+      "id": 249,
+      "choiceType": "CHOICE",
+      "prompt": "I've got a friend ___ can fix any bike.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "who",
+          "isCorrect": true
+        },
+        {
+          "text": "which",
+          "isCorrect": false
+        },
+        {
+          "text": "what",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "friend — человек, про него спрашивают «кто?», поэтому who. Which — «который» только для вещей, а what вообще не значит «который»."
+    },
+    {
+      "id": 250,
+      "choiceType": "CHOICE",
+      "prompt": "___ you told me yesterday was really funny.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "That",
+          "isCorrect": false
+        },
+        {
+          "text": "Which",
+          "isCorrect": false
+        },
+        {
+          "text": "What",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "перед пропуском нет никакого слова-предмета, а по смыслу нужно «то, что ты мне рассказал». Это и есть what. That и which требуют слова перед собой."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 132,
+      "items": [
+        {
+          "sentence": "My aunt has two sons who ___ in Berlin.",
+          "contextRu": "живут",
+          "answer": "live",
+          "alternatives": []
+        },
+        {
+          "sentence": "The shops which ___ near the station close at nine.",
+          "contextRu": "находятся",
+          "answer": "are",
+          "alternatives": []
+        },
+        {
+          "sentence": "The girl who ___ with us last night is Tom's sister.",
+          "contextRu": "танцевала",
+          "answer": "danced",
+          "alternatives": []
+        },
+        {
+          "sentence": "I need a charger that ___ fast.",
+          "contextRu": "работает",
+          "answer": "works",
+          "alternatives": []
+        }
+      ],
+      "explanation": "число глагола берём у слова перед связкой: sons и shops — это they, поэтому live и are; charger — это it, поэтому works. Время — своё у каждого придаточного: танцевала вчера — danced.",
+      "taskDescription": "Впиши глагол в нужной форме."
+    }
+  ],
   "dialog_restore_exercises": [],
   "matching_exercises": [
     {
@@ -576,11 +1415,97 @@
         }
       ],
       "explanation": "когда подруга сама действует («которая помогла»), ставим who. Когда действуют над ней («которой я помог»), связку выбрасывают: the friend I helped. «С которой» — предлог with уезжает в конец. «У которой» — это whose."
+    },
+    {
+      "id": 123,
+      "taskDescription": "соедини русское начало с английским.",
+      "pairs": [
+        {
+          "left": "всё, что",
+          "right": "everything that"
+        },
+        {
+          "left": "то, что",
+          "right": "what"
+        },
+        {
+          "left": "единственное, что",
+          "right": "the only thing that"
+        },
+        {
+          "left": "ничего, что",
+          "right": "nothing that"
+        },
+        {
+          "left": "первое, что",
+          "right": "the first thing that"
+        }
+      ],
+      "explanation": "«то, что» — единственный случай без слова перед связкой, поэтому what. Во всех остальных предмет назван — everything, nothing, thing, — и за ним идёт that."
     }
   ],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 239,
+      "wrongSentence": "The waiter which brought our soup was very kind.",
+      "options": [
+        {
+          "text": "The waiter what brought our soup was very kind.",
+          "isCorrect": false
+        },
+        {
+          "text": "The waiter which bring our soup was very kind.",
+          "isCorrect": false
+        },
+        {
+          "text": "The waiter who brought our soup was very kind.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "официант — человек, поэтому who, а не which. What на месте «который» не встаёт, а во втором варианте ещё и глагол потерял прошедшее время."
+    },
+    {
+      "id": 240,
+      "wrongSentence": "Nothing what you say will change my mind.",
+      "options": [
+        {
+          "text": "Nothing that do you say will change my mind.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nothing that you say will change my mind.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nothing what you said will change my mind.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "предмет уже назван словом nothing, поэтому дальше нужен that, а не what. В первом варианте внутрь пролез порядок вопроса, в третьем what так и остался."
+    }
+  ],
   "construction_meaning_exercises": [],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 113,
+      "taskDescription": "склей два предложения в одно через who или which.",
+      "items": [
+        {
+          "original": "I have a cousin. She lives in Rome.",
+          "transformed": "I have a cousin who lives in Rome."
+        },
+        {
+          "original": "We saw a film. It was very sad.",
+          "transformed": "We saw a film which was very sad."
+        },
+        {
+          "original": "I know a man. He can fix it.",
+          "transformed": "I know a man who can fix it."
+        }
+      ],
+      "explanation": "she, it и he во втором предложении — это то же слово, что в первом, поэтому их место занимает связка: про людей who, про фильм which. Второй раз she или he уже не пишем."
+    }
+  ],
   "categorization_exercises": [
     {
       "id": 154,
@@ -604,6 +1529,31 @@
         }
       ],
       "explanation": "в правой колонке прямо перед who стоит существительное — boy, friend, woman, — и who уточняет, какой именно это человек. В левой колонке существительного перед who нет: оно само спрашивает о человеке, прямо или внутри косвенного вопроса."
+    },
+    {
+      "id": 155,
+      "taskDescription": "распредели, какая связка нужна после каждого слова — who или which.",
+      "categories": [
+        {
+          "title": "who",
+          "items": [
+            "a nurse",
+            "my grandma",
+            "our dog Charlie",
+            "the new neighbour"
+          ]
+        },
+        {
+          "title": "which",
+          "items": [
+            "a train",
+            "the bakery",
+            "a big spider",
+            "the bank"
+          ]
+        }
+      ],
+      "explanation": "who — про людей и про своего питомца с кличкой, поэтому Charlie в левой колонке. Паук, поезд, пекарня и банк — «что», а не «кто»: для английского животное без клички и любая организация — вещь, им нужна which."
     }
   ],
   "find_the_odd_exercises": [
@@ -629,6 +1579,29 @@
         }
       ],
       "explanation": "в трёх фразах связка стоит сразу после существительного — café, shoes, teacher — и уточняет его. В четвёртой перед where существительного нет: это косвенный вопрос «где живёт Лена», а не «в котором»."
+    },
+    {
+      "id": 134,
+      "groupDescription": "В трёх фразах связка выбрана верно, а в одной — нет",
+      "items": [
+        {
+          "text": "a shop that sells old maps",
+          "isOdd": false
+        },
+        {
+          "text": "the man who fixed my car",
+          "isOdd": false
+        },
+        {
+          "text": "a key who opens the gate",
+          "isOdd": true
+        },
+        {
+          "text": "a teacher that everyone likes",
+          "isOdd": false
+        }
+      ],
+      "explanation": "ключ — вещь, про него спрашивают «что?», поэтому a key which opens the gate или a key that opens the gate. That в первой и последней фразах верен: он годится и для вещей, и для людей."
     }
   ]
 }
