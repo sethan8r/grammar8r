@@ -46,6 +46,13 @@
       "title": "Reduced Clauses · Причастие вместо «который»",
       "order": 5,
       "searchKeywords": "причастный оборот по-английски, причастие после существительного, -ing вместо who, the first to, a guy called"
+    },
+    {
+      "id": 259,
+      "topicId": 39,
+      "title": "Defining vs Non-defining · Запятая перед who и which",
+      "order": 6,
+      "searchKeywords": "запятая перед который, defining или non-defining, что странно по-английски, that после запятой, most of which"
     }
   ],
   "grammar_cards": [
@@ -2471,6 +2478,371 @@
         "Как выбрать между -ing и третьей формой?",
         "Чем the first to arrive лучше, чем the first who arrived?"
       ]
+    },
+    {
+      "id": 701,
+      "microtopicId": 259,
+      "title": "Запятая меняет смысл",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной микротеме мы договорились: запятую перед who и which пока не ставим, а почему — узнаем в конце темы. Вот он, конец."
+        },
+        {
+          "type": "heading",
+          "text": "В русском запятая — грамматика, в английском — смысл"
+        },
+        {
+          "type": "paragraph",
+          "text": "В русском запятая перед «который» стоит всегда. Это правило пунктуации, смысла она не несёт: «человек, который тебе звонил», «моя мама, которая работает врачом» — запятые одинаковые."
+        },
+        {
+          "type": "paragraph",
+          "text": "В английском запятая сообщает, какое это придаточное:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**без запятых** оно отвечает на вопрос «какой именно?» — без него непонятно, о ком речь;",
+            "**с запятыми** предмет и так понятен, а придаточное просто добавляет о нём что-то к слову."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одна фраза — два смысла"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My brother who lives in Rome is a chef.** — братьев у меня несколько, и повар — тот, что живёт в Риме.",
+            "**My brother, who lives in Rome, is a chef.** — брат у меня один. Он повар, а что живёт в Риме — это к слову."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски на письме обе фразы выглядят одинаково: «Мой брат, который живёт в Риме, — повар». Вслух мы бы сказали по-разному: «мой брат — тот, что в Риме, — повар» и «мой брат — он, кстати, живёт в Риме — повар». Английский эту разницу пишет запятой."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка: выкинь придаточное"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мысленно уберите придаточное и спросите себя: понятно, о ком речь?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My brother is a chef.** Если брат один — понятно. Значит, придаточное только добавка, и нужны запятые.",
+            "**The girl is an actress.** Какая girl? Непонятно. Значит, придаточное уточняет, и запятых нет: **The girl who sat next to me is an actress.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Короткая подсказка для русского: если предмет единственный сам по себе, почти всегда нужны запятые. Это имя, «моя мама», «мой муж», город, страна, **the Eiffel Tower**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**My mum, who works as a nurse, sends me photos every day.**",
+            "**We went to Vienna, where my aunt lives.** — с `where` и `whose` работает то же самое."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The man, who called you, is my boss** ✗ → **The man who called you is my boss** ✓. Русская рука ставит запятые по привычке. Но англичанин прочтёт: «мужчина — кстати, он тебе звонил — мой начальник», будто мужчина на свете один. Уточнение «какой именно» пишут без запятых. Большинство английских придаточных именно такие — поэтому всю тему мы и писали без запятых."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что меняется после запятой"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Придаточное с запятыми живёт по своим правилам:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "`That` после запятой не ставят: **My mum, that is a doctor, lives in Kazan** ✗ → **My mum, who is a doctor, lives in Kazan** ✓;",
+                "Связку не выбрасывают, даже если она дополнение: **my laptop, I bought last year,** ✗ → **my laptop, which I bought last year,** ✓;",
+                "Если придаточное стоит в середине фразы, запятых две — до и после: **My sister, who lives in Oslo, is a nurse.** Вторую запятую часто теряют."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как это звучит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Запятые слышно. Добавку с запятыми произносят после паузы и чуть ниже, как фразу в скобках. Уточнение без запятых читается одним дыханием, вместе со своим словом."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Всё это в основном про письмо. В чатах и сообщениях носители сами ставят запятые как придётся, и никто этого не заметит. По-настоящему бросается в глаза одна ошибка — `that` после запятой."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Без запятых придаточное отвечает «какой именно?», с запятыми — добавляет к слову про предмет, который и так понятен."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Проверка: выкинь придаточное. Понятно, о ком речь? Да — запятые, нет — без запятых.",
+            "Предмет единственный (имя, «моя мама», город) — запятые: **My mum, who works as a nurse, …**",
+            "После запятой нет that, связку не выбрасывают, в середине фразы запятых две."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The man, who called you, is my boss** ✗ → **The man who called you is my boss** ✓ — уточнение пишут без запятых.",
+            "**My mum, that is a doctor, …** ✗ → **My mum, who is a doctor, …** ✓ — после запятой that не ставят."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мой брат, который живёт в Риме, — повар.",
+          "en": "My brother, who lives in Rome, is a chef."
+        },
+        {
+          "ru": "Моя мама, которая работает медсестрой, каждый день присылает мне фото.",
+          "en": "My mum, who works as a nurse, sends me photos every day."
+        },
+        {
+          "ru": "Мы поехали в Вену, где живёт моя тётя.",
+          "en": "We went to Vienna, where my aunt lives."
+        },
+        {
+          "ru": "Девушка, которая сидела рядом со мной, — актриса.",
+          "en": "The girl who sat next to me is an actress."
+        },
+        {
+          "ru": "Мой ноутбук, который я купил в прошлом году, уже перестал работать.",
+          "en": "My laptop, which I bought last year, has already stopped working."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, нужна запятая перед who или нет?",
+        "Почему после запятой нельзя поставить that?",
+        "Почему The man, who called you, is my boss — ошибка?"
+      ]
+    },
+    {
+      "id": 702,
+      "microtopicId": 259,
+      "title": "which про всю фразу",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "«Он не позвонил, **что странно**». Странным назван не какой-то предмет, а всё событие целиком — то, что он не позвонил. По-русски это «что» после запятой. По-английски — `which`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He didn't call, which is strange.** — он не позвонил, что странно."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь `which` смотрит назад не на слово, а на всю фразу перед запятой. Русскому помогает подстановка: «что» = «и это». «Он не позвонил, **и это** странно»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Событие + запятая + which + продолжение"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Откуда берутся ошибки"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «что» даёт три ошибки:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**He didn't call, what is strange** ✗ — what значит «то, что» и сам начинает мысль, а к событию не цепляется. Это та же калька, что **everything what** из микротемы «Человек или вещь»;",
+                "**He didn't call, that is strange** ✗ — после запятой that не ставят, как в прошлой карточке;",
+                "**He didn't call, it is strange** ✗ — два предложения склеены одной запятой. Так можно только через точку: **He didn't call. It's strange.**"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Верный вариант один — **which**."
+        },
+        {
+          "type": "heading",
+          "text": "Что им сообщают"
+        },
+        {
+          "type": "paragraph",
+          "text": "Этим `which` оценивают событие или называют, к чему оно привело:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop was closed, which annoyed everyone.** — магазин был закрыт, что всех разозлило.",
+            "**She passed the exam, which surprised me.** — она сдала экзамен, что меня удивило.",
+            "**The train was late, which meant we missed the start of the film.** — поезд опоздал, из-за чего мы пропустили начало фильма.",
+            "**I was ill, which is why I didn't come.** — я болел, поэтому и не пришёл. `which is why` дословно «что и есть почему», по-живому «вот почему, поэтому и» — очень частый оборот."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Запятая перед таким `which` стоит всегда: это всегда добавка, а не уточнение."
+        },
+        {
+          "type": "heading",
+          "text": "Про слово или про всё событие"
+        },
+        {
+          "type": "paragraph",
+          "text": "`which` с запятой бывает и про слово, и про всю фразу. Различаем проверкой «и это»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She bought a new phone, which was very expensive.** — дорогим был телефон. `which` смотрит на phone.",
+            "**She quit her job, which surprised everyone.** — всех удивила не работа, а сам поступок: «уволилась, и это всех удивило»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Для грамматики разницы нет, форма одна. Но для понимания фразы её стоит видеть."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В книгах и новостях встречаются **most of which**, **some of which**, **both of whom**: **I have two brothers, both of whom live abroad.** — у меня два брата, оба из которых живут за границей. По-русски «оба из которых» тянет к **both of them live abroad** ✗ после запятой, а это снова два предложения на одной запятой. Строить такие обороты самому не нужно, достаточно узнавать."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "«Что странно» про всё событие — это which с запятой перед ним. Проверка: «что» = «и это»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Событие + запятая + which + продолжение"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop was closed, which annoyed everyone.** · **I was ill, which is why I didn't come.**",
+            "Перед таким which всегда запятая.",
+            "which с запятой бывает и про слово: **She bought a new phone, which was very expensive.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He didn't call, what is strange** ✗ → **He didn't call, which is strange** ✓ — what значит «то, что».",
+            "**He didn't call, that is strange** ✗ → **He didn't call, which is strange** ✓ — после запятой нет that.",
+            "**He didn't call, it is strange** ✗ → **He didn't call, which is strange** ✓ — два предложения на одной запятой."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Он не позвонил, что странно.",
+          "en": "He didn't call, which is strange."
+        },
+        {
+          "ru": "Магазин был закрыт, что всех разозлило.",
+          "en": "The shop was closed, which annoyed everyone."
+        },
+        {
+          "ru": "Она сдала экзамен, что меня удивило.",
+          "en": "She passed the exam, which surprised me."
+        },
+        {
+          "ru": "Поезд опоздал, что означало, что мы пропустили начало фильма.",
+          "en": "The train was late, which meant we missed the start of the film."
+        },
+        {
+          "ru": "У меня два брата, оба из которых живут за границей.",
+          "en": "I have two brothers, both of whom live abroad."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «, что странно» нельзя перевести через what?",
+        "Как понять, which про слово или про всё событие?",
+        "Можно ли сказать it is strange вместо which is strange?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2719,6 +3091,42 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 226,
       "orderInCard": 3
+    },
+    {
+      "cardId": 701,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 158,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 701,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 244,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 701,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 251,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 702,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 278,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 702,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 117,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 702,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 227,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2783,6 +3191,22 @@
       "cardId": 700,
       "title": "Живущий, звонивший, первый",
       "userInstruction": "ИИ даст русское предложение с причастием или словами «первый, кто». Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card701_ex1",
+      "cardId": 701,
+      "title": "Запятая или нет",
+      "userInstruction": "ИИ даст русское предложение со словом «который». Напишите его по-английски и решите, нужны ли запятые.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card702_ex1",
+      "cardId": 702,
+      "title": "Что странно",
+      "userInstruction": "ИИ даст русское предложение с оборотом вроде «, что странно» или «, что меня удивило». Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -2898,6 +3322,22 @@
       "translation": "ранить, травмировать",
       "transcription": "[ˈɪndʒə]",
       "microtopicId": 258,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 924,
+      "word": "to annoy",
+      "translation": "раздражать, злить",
+      "transcription": "[əˈnɔɪ]",
+      "microtopicId": 259,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 925,
+      "word": "to surprise",
+      "translation": "удивлять",
+      "transcription": "[səˈpraɪz]",
+      "microtopicId": 259,
       "categoryId": "useful_words"
     }
   ],
@@ -3026,6 +3466,37 @@
         }
       ],
       "explanation": "во втором предложении выбросили связку, но оставили was — нужно a wallet left on the bus или a wallet which was left on the bus. В четвёртом оборот с хвостом by her son стоит перед существительным, а ему место после: a picture painted by her son."
+    },
+    {
+      "id": 251,
+      "statements": [
+        {
+          "en": "My grandma, who is ninety, still drives.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The shoes, that I bought yesterday, are too small.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Is this the bag which you lost?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My husband, works in a bank, is from Boston.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We stayed in Porto, where my cousin lives.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении туфли уточняются — какие именно, — поэтому запятые не нужны: the shoes that I bought yesterday. В четвёртом выброшена связка после запятой, а с запятыми её не выбрасывают: my husband, who works in a bank."
     }
   ],
   "word_arrangement_exercises": [
@@ -3155,6 +3626,29 @@
         "for"
       ],
       "explanation": "после the first идёт to и глагол в первой форме — the first to arrive. Arrives и arrived после to не ставятся, а for перед глаголом в этом обороте не встаёт — только to."
+    },
+    {
+      "id": 227,
+      "situationRu": "RU: Он не пришёл на свадьбу, что всех удивило.",
+      "correctSentence": "He didn't come to the wedding, which surprised everyone.",
+      "words": [
+        "He",
+        "didn't",
+        "come",
+        "to",
+        "the",
+        "wedding",
+        "which",
+        "surprised",
+        "everyone"
+      ],
+      "distractors": [
+        "what",
+        "it",
+        "surprise",
+        "was"
+      ],
+      "explanation": "удивило всё событие, поэтому which: «не пришёл, и это всех удивило». What значит «то, что», а it склеило бы два предложения. Surprise — не та форма: событие уже в прошлом, нужно surprised. Was лишний: всех удивило событие, а не удивили его — which surprised, а не which was surprised."
     }
   ],
   "multiple_choice_exercises": [
@@ -3325,6 +3819,27 @@
         }
       ],
       "explanation": "у третьей формы есть хвост in 1970, поэтому весь оборот стоит после house — перед существительным встаёт только одно слово. В третьем варианте выброшена связка, но остался was, и вышло два сказуемых подряд."
+    },
+    {
+      "id": 278,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Лена опоздала на час, что меня очень разозлило.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Lena was an hour late, what annoyed me a lot.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena was an hour late, that annoyed me a lot.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lena was an hour late, which annoyed me a lot.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "разозлило всё событие — что Лена опоздала, — а такое «что» по-английски только which с запятой. What значит «то, что» и к событию не цепляется, а that после запятой не ставят."
     }
   ],
   "text_input_exercises": [
@@ -3663,6 +4178,25 @@
         }
       ],
       "explanation": "продала машину в прошлом году — разовое законченное действие, а прошедшего -ing в английском нет, поэтому нужно полное придаточное who sold. Без who выходит два сказуемых подряд, а who selling — вообще не форма."
+    },
+    {
+      "id": 244,
+      "wrongSentence": "Our teacher, that comes from Dublin, is very funny.",
+      "options": [
+        {
+          "text": "Our teacher that comes from Dublin, is very funny.",
+          "isCorrect": false
+        },
+        {
+          "text": "Our teacher, who comes from Dublin, is very funny.",
+          "isCorrect": true
+        },
+        {
+          "text": "Our teacher, comes from Dublin, is very funny.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "учитель у нас один, поэтому придаточное — добавка с запятыми, а после запятой that не ставят: нужен who. В первом варианте потерялась первая запятая, в третьем выброшена связка — после запятой так нельзя."
     }
   ],
   "construction_meaning_exercises": [],
@@ -3742,6 +4276,25 @@
         }
       ],
       "explanation": "из придаточного уходят сразу два слова — связка и was или were. Третья форма остаётся и сама говорит, что действие совершили над предметом: торт испекли, фото сделали, мальчика укусили."
+    },
+    {
+      "id": 117,
+      "taskDescription": "соедини два предложения в одно через which.",
+      "items": [
+        {
+          "original": "Tom forgot my name. It hurt.",
+          "transformed": "Tom forgot my name, which hurt."
+        },
+        {
+          "original": "The lift broke. It was annoying.",
+          "transformed": "The lift broke, which was annoying."
+        },
+        {
+          "original": "She said yes. It surprised me.",
+          "transformed": "She said yes, which surprised me."
+        }
+      ],
+      "explanation": "it во втором предложении указывает на всё событие из первого, поэтому его место занимает which, а перед which ставится запятая. Оставить it и склеить фразы запятой нельзя."
     }
   ],
   "categorization_exercises": [
@@ -3840,6 +4393,31 @@
         }
       ],
       "explanation": "в левой колонке встаёт «там»: we swam there, I work there, Denis sleeps there — значит where. В правой глаголу нужно «что», а не «где»: we loved it, I opened it, Denis painted it — место здесь дополнение, поэтому that или ничего."
+    },
+    {
+      "id": 158,
+      "taskDescription": "распредели слова — нужны ли после них запятые перед who или which.",
+      "categories": [
+        {
+          "title": "С запятыми",
+          "items": [
+            "my dad",
+            "Tokyo",
+            "the Moon",
+            "Emma"
+          ]
+        },
+        {
+          "title": "Без запятых",
+          "items": [
+            "a friend",
+            "a shop",
+            "people",
+            "a bus"
+          ]
+        }
+      ],
+      "explanation": "папа, Токио, Луна и Эмма — единственные сами по себе: придаточное про них только добавка, поэтому запятые. Какой-то друг, магазин, люди и автобус без уточнения непонятно какие — придаточное отвечает «какой именно?» и пишется без запятых."
     }
   ],
   "find_the_odd_exercises": [
