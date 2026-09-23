@@ -53,6 +53,13 @@
       "title": "Defining vs Non-defining · Запятая перед who и which",
       "order": 6,
       "searchKeywords": "запятая перед который, defining или non-defining, что странно по-английски, that после запятой, most of which"
+    },
+    {
+      "id": 260,
+      "topicId": 39,
+      "title": "Live Practice · «Который» в деле",
+      "order": 7,
+      "searchKeywords": "повторить относительные придаточные, все случаи который, проверить себя на who и which, упражнения на придаточные"
     }
   ],
   "grammar_cards": [
@@ -2843,6 +2850,313 @@
         "Как понять, which про слово или про всё событие?",
         "Можно ли сказать it is strange вместо which is strange?"
       ]
+    },
+    {
+      "id": 703,
+      "microtopicId": 260,
+      "title": "Живая практика: «который» в деле",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена целиком: шесть микротем и четырнадцать карточек. Осталось то, чему учит только практика: узнавать придаточные в чужой речи и самому выбирать, что поставить вместо «который»."
+        },
+        {
+          "type": "heading",
+          "text": "Корень, из которого выведено всё"
+        },
+        {
+          "type": "paragraph",
+          "text": "Придаточное — целое предложение, приклеенное к существительному. Связка стоит внутри него на месте этого существительного, и всё решает один вопрос: какую роль она там играет. Проверка всегда одна — разрезать фразу на два предложения и подставить существительное на место связки."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + связка + остаток своего предложения"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одно русское «который» — много английских решений"
+        },
+        {
+          "type": "table",
+          "header": [
+            "По-русски",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "который делает",
+              "who про людей, which про вещи, that про всех: the girl who sings"
+            ],
+            [
+              "которого, которое",
+              "that или ничего: the film we watched"
+            ],
+            [
+              "с которым, о котором",
+              "предлог в конце: the people I work with"
+            ],
+            [
+              "в котором про место",
+              "where, если встаёт «там»: the town where I grew up"
+            ],
+            [
+              "день, когда",
+              "when или ничего: the day we met"
+            ],
+            [
+              "причина, по которой",
+              "the reason или the reason why"
+            ],
+            [
+              "то, как",
+              "the way или how, но не оба"
+            ],
+            [
+              "у которого, чей",
+              "whose без артикля: the girl whose phone rang"
+            ],
+            [
+              "-нный с хвостом",
+              "третья форма после слова: the car stolen yesterday"
+            ],
+            [
+              "-щий",
+              "-ing: the people living upstairs"
+            ],
+            [
+              "первый, кто",
+              "the first to + V1"
+            ],
+            [
+              "всё, что · то, что",
+              "everything that · what"
+            ],
+            [
+              "что странно (про всё событие)",
+              "запятая + which: He didn't call, which is strange"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Четыре проверки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Подставь существительное.** **The man called you** — оно перед глаголом, связка подлежащее и остаётся. **We watched the film** — после глагола, связку можно выбросить.",
+            "**«Там».** **I grew up there** — встаёт, значит `where`. **I visited there** — не встаёт, значит `that` или ничего.",
+            "**«Тогда».** **We met then** — значит `when`. «Не забуду тогда» не звучит — значит **the day I'll never forget**.",
+            "**«И это».** «Он не позвонил, и это странно» — `which` смотрит на всё событие."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Запятая"
+        },
+        {
+          "type": "paragraph",
+          "text": "Без запятых придаточное отвечает «какой именно?». С запятыми оно добавляет что-то к слову, когда предмет и так понятен: имя, «моя мама», город. После запятой `that` не ставят и связку не выбрасывают."
+        },
+        {
+          "type": "heading",
+          "text": "Техника, которую проверяют задания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the girl which sings** ✗ → **the girl who sings** ✓",
+            "**people who works** ✗ → **people who work** ✓",
+            "**everything what he said** ✗ → **everything that he said** ✓",
+            "**The man called you is my boss** ✗ → **The man who called you is my boss** ✓",
+            "**the jacket I bought it** ✗ → **the jacket I bought** ✓",
+            "**the flat in that I live** ✗ → **the flat I live in** ✓",
+            "**the city where we visited** ✗ → **the city we visited** ✓",
+            "**the way how he talks** ✗ → **the way he talks** ✓",
+            "**the girl who her phone rang** ✗ → **the girl whose phone rang** ✓",
+            "**the stolen yesterday car** ✗ → **the car stolen yesterday** ✓",
+            "**the man calling you yesterday** ✗ → **the man who called you yesterday** ✓",
+            "**My mum, that is a doctor** ✗ → **My mum, who is a doctor** ✓",
+            "**He didn't call, what is strange** ✗ → **He didn't call, which is strange** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что вас ждёт в заданиях"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Прочитай.** Английское предложение — скажите по-русски, что оно означает. Здесь вылезут спрятанные связки и обороты, которые русский глаз поначалу читает не так.",
+            "**Скажи по-английски.** Русское предложение с «который», «где», «чей» или причастием. Подсказки не будет: какое решение взять — выбираете вы.",
+            "**Найди ошибку.** Три предложения, в одном ошибка: найдите его, перепишите правильно и своими словами скажите, что было не так."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чего в заданиях не будет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Того, что мы отдали другим темам: **It was Tom who called**, **What I need is a holiday**, оборота в начале фразы **Walking home, I met Kate**, формы **Having finished the report…**, слов **whatever** и **the one who**. Всё это ждёт своих тем — «Дополнительные конструкции» и «Сказать то же, но круче». Книжные **most of which** и **both of whom** могут встретиться в задании на чтение, строить их не придётся."
+        },
+        {
+          "type": "heading",
+          "text": "ИИ — это тренажёр, а не экзамен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибиться здесь нормально и даже полезно. На каждую ошибку ИИ покажет верный вариант, назовёт причину и — это главное — скажет, что значила бы **ваша** фраза. Она почти всегда настоящая английская, просто про другое: **the man calling you** — не мусор, а «человек, который тебе сейчас звонит». Уйти отсюда нужно не с оценкой, а с парой в голове."
+        },
+        {
+          "type": "heading",
+          "text": "Встретится то, чего мы не давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "ИИ говорит на живом английском, и в его фразах может проскочить конструкция из будущих тем. Пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод."
+        },
+        {
+          "type": "heading",
+          "text": "Как это устроено"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».",
+            "**Слова — ваши.** В задании на перевод с русского подтягивается порция слов, которые вы уже знаете: трудность должна быть в конструкции, а не в незнакомой лексике.",
+            "**Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие."
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Связка стоит на месте существительного. Режем фразу на два предложения и подставляем его — так видна роль связки."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + связка + остаток своего предложения"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что выбрать"
+        },
+        {
+          "type": "table",
+          "header": [
+            "По-русски",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "который делает",
+              "who · which · that"
+            ],
+            [
+              "которого",
+              "that или ничего"
+            ],
+            [
+              "с которым",
+              "предлог в конце"
+            ],
+            [
+              "в котором про место",
+              "where"
+            ],
+            [
+              "когда · по которой · то, как",
+              "when · why · the way без how"
+            ],
+            [
+              "у которого, чей",
+              "whose"
+            ],
+            [
+              "-нный · -щий",
+              "V3 · -ing после слова"
+            ],
+            [
+              "первый, кто",
+              "the first to + V1"
+            ],
+            [
+              "всё, что · то, что",
+              "everything that · what"
+            ],
+            [
+              "что странно (про событие)",
+              "which с запятой"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Проверки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "После связки другое подлежащее — её можно выбросить; сразу глагол — нельзя.",
+            "Глагол после связки смотрит на слово перед ней: **a friend who lives** · **friends who live**.",
+            "«Там» встаёт — where. «Тогда» встаёт — when. «И это» — which про всё событие.",
+            "Дальше во фразе второй глагол — значит первое -ed признак: **The man arrested last night was released.**",
+            "**who's** = who is, а **whose** = «чей»."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Запятая"
+        },
+        {
+          "type": "paragraph",
+          "text": "Без запятых — «какой именно?»; с запятыми — добавка к имени, «моей маме», городу. После запятой нет that."
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The man called you is my boss** ✗ → **The man who called you is my boss** ✓ — подлежащее не выбрасывают.",
+            "**the jacket I bought it** ✗ → **the jacket I bought** ✓ — место дополнения уже занято.",
+            "**the flat in that I live** ✗ → **the flat I live in** ✓ — предлог уходит в конец.",
+            "**the city where we visited** ✗ → **the city we visited** ✓ — «там» не встаёт.",
+            "**the girl who her phone rang** ✗ → **the girl whose phone rang** ✓ — «у которого» = «чей».",
+            "**the man calling you yesterday** ✗ → **the man who called you yesterday** ✓ — прошедшего -ing нет.",
+            "**He didn't call, what is strange** ✗ → **He didn't call, which is strange** ✓ — про событие только which."
+          ]
+        }
+      ],
+      "examples": [],
+      "clarificationOptions": [
+        "Как быстро понять, какое слово ставить вместо «который»?",
+        "Когда связку who или that можно выбросить?",
+        "Почему нельзя сказать the city where we visited?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3209,6 +3523,30 @@
       "userInstruction": "ИИ даст русское предложение с оборотом вроде «, что странно» или «, что меня удивило». Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card703_ex1",
+      "cardId": 703,
+      "title": "Прочитай и скажи по-русски",
+      "userInstruction": "ИИ даст английское предложение. Напишите по-русски, что оно означает.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "relative_clauses_card703_ex2",
+      "cardId": 703,
+      "title": "Скажи по-английски",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card703_ex3",
+      "cardId": 703,
+      "title": "Найди и исправь",
+      "userInstruction": "ИИ даст три предложения. Найдите то, в котором есть ошибка, напишите его правильно и своими словами объясните, что было не так.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
