@@ -7764,7 +7764,7 @@ theory/
 │   │       дополнением (`whose car we borrowed`). Про вещи: `a company whose office is in Lisbon`.
 │   │       `who's` ≠ `whose` (раскрой в who is). `of which` — Кстати на узнавание. AI: RU→EN.
 │   │
-│   ├── МТ · Reduced Clauses · Причастие вместо «который»  (2 карточки; слив: passenger · to arrest · to injure)
+│   ├── МТ258 · Reduced Clauses · Причастие вместо «который» (2 карточки; слив: passenger · to arrest · to injure) ✅ (написана, ALL GREEN 23.09.26)
 │   │   ⬅️ ДОЛГ ИЗ «Passive Voice», МТ251 Card 684 (написана 22.09.2026, проверено по факту): там
 │   │      показано, что V3 умеет стоять и без `be` — **a broken window** · **a stolen car** ·
 │   │      **written permission** · **fried eggs**, — а оборот `the letter sent yesterday` дан
@@ -7779,19 +7779,26 @@ theory/
 │   │      which was», и его дом здесь. Оборот в начале предложения (`Walking home, I met Kate`),
 │   │      `having + V3` и правило общего подлежащего → «Дополнительные конструкции», «Причастные
 │   │      обороты».
-│   │   ├── Card · the letter sent yesterday — выброшены два слова
+│   │   ├── Card 699 · the letter sent yesterday — выброшены два слова
 │   │   │   `The letter which was sent` → `the letter sent`. Пары на контрасте: `the man who was
 │   │   │   arrested last night` → `the man arrested last night` · `people who were injured in the
-│   │   │   crash` → `people injured in the crash`.
+│   │   │   crash` → `people injured in the crash`; время оборот не показывает. Так же сворачиваются:
+│   │   │   отрицание `emails not answered yet` · процесс `the bridge being built` · `who is` +
+│   │   │   прилагательное `anyone interested in the job`.
 │   │   │   ⭐ У русского здесь ПРЯМОЙ АНАЛОГ — причастный оборот «письмо, отправленное вчера».
-│   │   │   Ловушка: по-русски оборот можно поставить ПЕРЕД словом («отправленное вчера письмо») →
-│   │   │   `the sent yesterday letter` ✗. С хвостом — только после. Частое в жизни: `a guy called Tom`.
-│   │   └── Card · living upstairs и the first to arrive
-│   │       `-ing` = who is / who lives: `the people living upstairs`, `Passengers travelling to Rome…`.
-│   │       `-ing` — сам делает, V3 — с ним сделали. ГРАНИЦА: разовое прошлое действие не
-│   │       сворачивается — `the man calling you yesterday` ✗ → `the man who called you yesterday`.
-│   │       Третье сокращение — to: `the first / last / only (one) to + V1` (`She was the first to
-│   │       arrive`); напомнить знакомое `something to drink`, `a place to park`.
+│   │   │   Ловушки: `the stolen yesterday car` ✗ (одно слово — перед, с хвостом — после) · выброшено
+│   │   │   одно слово из двух (`The man was arrested last night is…` ✗ / `the man who arrested` ✗).
+│   │   │   Навык чтения: V2 = V3 у правильных, второй глагол дальше → первое -ed признак.
+│   │   │   Кстати: `a guy called Tom`. AI: RU→EN «-нный с хвостом», треть запусков — русский порядок.
+│   │   └── Card 700 · living upstairs и the first to arrive
+│   │       `-ing` = who is / who lives («-щий»): `the people living upstairs`, `Passengers travelling
+│   │       to Rome…`; отрицание `people not wearing helmets`. `-ing` — сам делает, V3 — с ним
+│   │       сделали (`painting` ↔ `painted`). ГРАНИЦА: русского «-вший» нет — разовое прошлое
+│   │       не сворачивается (`the man calling you yesterday` ✗ → `who called`), длившееся можно
+│   │       (`people living here a hundred years ago`). Кстати: state verbs в обороте можно
+│   │       (`anyone wanting to join`). Третье сокращение: `the first / the last / the only + to + V1`;
+│   │       опора — встречавшиеся в примерах `time to think`, `nothing to do`. AI: RU→EN, треть
+│   │       запусков — «-вший» (граница).
 │   │
 │   ├── МТ · Defining vs Non-defining · Запятая перед who и which  ← ХВОСТ ТЕМЫ, ставить последней перед Live Practice
 │   │   (2 карточки; слив: to annoy · to surprise)
@@ -10213,7 +10220,7 @@ theory/
 │   │      было, — форме `having + V3`, пассивному обороту в начале фразы и правилам пунктуации.
 │   │   ⚠️ ГРАНИЦА С «Relative Clauses» (решение 23.09.2026): признак ПОСЛЕ существительного
 │   │      (`the man standing there` = `who is standing`, `a film made in 1990` = `which was made`)
-│   │      целиком разобран там, в микротеме «Reduced Clauses», вместе с парой `-ing` ↔ V3 по
+│   │      целиком разобран там, в МТ258 «Reduced Clauses» (Card 699–700), вместе с парой `-ing` ↔ V3 по
 │   │      залогу — это «сброшенное who is / which was». Здесь — только строка-указатель туда, без
 │   │      разбора (Правило №0). Card 632 обещала «все три — здесь»: обещание закрывается вдвоём,
 │   │      текст Card 632 не переписываем.

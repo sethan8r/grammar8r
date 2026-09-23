@@ -39,6 +39,13 @@
       "title": "where / when / whose · Где, когда, чей",
       "order": 4,
       "searchKeywords": "where или which, в котором по-английски, the way how, the reason why, whose или who's, у которого по-английски"
+    },
+    {
+      "id": 258,
+      "topicId": 39,
+      "title": "Reduced Clauses · Причастие вместо «который»",
+      "order": 5,
+      "searchKeywords": "причастный оборот по-английски, причастие после существительного, -ing вместо who, the first to, a guy called"
     }
   ],
   "grammar_cards": [
@@ -2046,6 +2053,424 @@
         "Можно ли сказать whose про вещь, а не про человека?",
         "Как не перепутать whose и who's?"
       ]
+    },
+    {
+      "id": 699,
+      "microtopicId": 258,
+      "title": "the letter sent yesterday — выброшены два слова",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В этой микротеме русский язык — не помеха, а подсказка. У нас есть причастный оборот: «письмо, **отправленное вчера**», «мужчина, **арестованный ночью**». У английского — точно такой же:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the letter sent yesterday** — «письмо, отправленное вчера»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Порядок совпадает с русским слово в слово. Учить почти нечего — разберём, откуда оборот берётся и в каких двух местах русская привычка подводит."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда он берётся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Возьмём знакомое придаточное со страдательным залогом: **the letter which was sent yesterday**. Выбросим из него два слова — связку и `was`. Получится **the letter sent yesterday**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему их можно выбросить? Связка только указывает назад, на letter. А `was` показывает время и то, что действие совершили над письмом. Но третья форма `sent` и сама говорит «с ним это сделали». Без двух служебных слов смысл не теряется."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + V3 + остаток"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the man who was arrested last night** → **the man arrested last night** — мужчина, арестованный вчера вечером;",
+            "**people who were injured in the crash** → **people injured in the crash** — люди, пострадавшие в аварии;",
+            "**a film which was made in 1990** → **a film made in 1990** — этот оборот мы встречали в теме «Герундий после глагола»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Время оборот не показывает, как и русское «отправленное». **the letters sent every day** и **the letter sent yesterday** устроены одинаково — время видно из остальной фразы."
+        },
+        {
+          "type": "heading",
+          "text": "Что ещё сворачивается так же"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Отрицание — `not` перед третьей формой: **emails not answered yet** — письма, на которые ещё не ответили.",
+            "Процесс прямо сейчас: **which is being built** → **being built**. **the bridge being built near our house** — мост, который сейчас строят у нашего дома.",
+            "`who is` + прилагательное: **Anyone interested in the job can call me.** — все, кто заинтересован в этой работе, могут мне позвонить."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одно слово — перед, с хвостом — после"
+        },
+        {
+          "type": "paragraph",
+          "text": "Из темы «Страдательный залог: все формы» мы знаем, что третья форма стоит и перед существительным: **a broken window**, **a stolen car**. По-русски так же: «украденная машина». Но русский ставит перед словом и оборот с хвостом — «украденная **вчера** машина». Английский так не умеет."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The stolen yesterday car** ✗ → **the car stolen yesterday** ✓. Одно слово встаёт перед существительным. Как только у третьей формы появился хвост — когда, где, кем, — весь оборот уезжает за существительное."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Выбросить оба слова или ни одного"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если выбросить только одно слово из двух, фраза ломается:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**The man was arrested last night is my neighbour** ✗ — выбросили только связку, и вышло два сказуемых подряд: «мужчина был арестован» и «является моим соседом»;",
+                "**The man who arrested last night** ✗ — выбросили только was, и смысл перевернулся: теперь мужчина сам кого-то арестовал."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Верно либо **the man arrested last night**, либо полное **the man who was arrested last night**."
+        },
+        {
+          "type": "heading",
+          "text": "Как читать такие фразы"
+        },
+        {
+          "type": "paragraph",
+          "text": "У правильных глаголов вторая и третья формы совпадают: arrested, injured. Поэтому фразу **The man arrested last night was released this morning** русский сначала читает как «мужчина арестовал…» — и спотыкается. Признак простой: если дальше в предложении стоит ещё один глагол (**was released**), первое `-ed` — это признак, «арестованный». Проверка по-русски: вставьте мысленно «который был» — «мужчина, (который был) арестован вчера вечером, был отпущен утром»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Так пишут заголовки и новости: **Two people injured in the crash are still in hospital.**"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Самый частый в жизни оборот этой породы — **a guy called Tom**, «парень по имени Том». Сюда же **a café called Luna** — кафе под названием «Луна». Called здесь — та же третья форма: «названный»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Как русское «письмо, отправленное вчера»: связка и was / were выброшены, остаётся третья форма с хвостом."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + V3 + остаток"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the man who was arrested last night** → **the man arrested last night**",
+            "Одно слово — перед существительным: **a stolen car**; с хвостом — после: **a car stolen yesterday**",
+            "Второй глагол дальше во фразе — значит первое -ed признак: **The man arrested last night was released.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the stolen yesterday car** ✗ → **the car stolen yesterday** ✓ — с хвостом только после.",
+            "**The man was arrested last night is my neighbour** ✗ → **The man arrested last night is my neighbour** ✓ — выбрасываем оба слова."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Письмо, отправленное вчера, до сих пор не пришло.",
+          "en": "The letter sent yesterday still hasn't arrived."
+        },
+        {
+          "ru": "Мужчина, арестованный вчера вечером, был отпущен сегодня утром.",
+          "en": "The man arrested last night was released this morning."
+        },
+        {
+          "ru": "Люди, пострадавшие в аварии, всё ещё в больнице.",
+          "en": "People injured in the crash are still in hospital."
+        },
+        {
+          "ru": "Это машина, украденная на прошлой неделе.",
+          "en": "This is the car stolen last week."
+        },
+        {
+          "ru": "Я знаю парня по имени Том.",
+          "en": "I know a guy called Tom."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать the stolen yesterday car?",
+        "Как отличить arrested-признак от arrested-сказуемого?",
+        "Можно ли вместо оборота оставить who was?"
+      ]
+    },
+    {
+      "id": 700,
+      "microtopicId": 258,
+      "title": "living upstairs и the first to arrive",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У русского есть и второе причастие — на «-щий»: «люди, **живущие** наверху». И снова у английского прямой аналог:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the people living upstairs** — «люди, живущие наверху»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Механика та же, что в прошлой карточке: **the people who live upstairs** → связка уходит, а глагол получает `-ing`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + V-ing + остаток"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Passengers travelling to Rome, please go to gate 5.** — пассажиры, следующие в Рим, пройдите к выходу пять. Так звучат объявления в любом аэропорту;",
+            "**anyone living in this building** — любой, кто живёт в этом доме."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "С `-ing` в роли признака мы уже встречались в теме «Герундий после глагола»: **The man standing at the door is my boss.** Теперь понятно, откуда он там взялся: это сокращённое **who is standing**. Отрицание ставится перед формой, как и там: **people not wearing helmets** — люди без шлемов."
+        },
+        {
+          "type": "heading",
+          "text": "-ing или V3: кто делает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Один и тот же глагол даёт обе формы, и по-русски различие то же самое — «красящая» и «покрашенный»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**a woman painting the fence** — женщина, которая красит забор. Она сама делает, поэтому `-ing`;",
+            "**a fence painted last week** — забор, который покрасили на прошлой неделе. Над ним сделали, поэтому третья форма."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка — развернуть обратно в «который»: «который красит» → `-ing`, «который был покрашен» → третья форма."
+        },
+        {
+          "type": "heading",
+          "text": "Прошедшего -ing не бывает"
+        },
+        {
+          "type": "paragraph",
+          "text": "У русского есть прошедшее причастие: «**звонивший**», «**разбивший**». У английского отдельной формы для него нет. Оборот на `-ing` описывает то, что происходит сейчас или идёт какое-то время."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The man calling you yesterday** ✗ → **the man who called you yesterday** ✓. «Человек, звонивший вчера» — разовое законченное действие, и для него английский возвращается к полному придаточному."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните на одном человеке:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the girl sitting next to me** — девушка, которая сидит рядом со мной (сейчас);",
+            "**the girl who sat next to me at the concert** — девушка, которая сидела рядом со мной на концерте."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Если же в прошлом что-то длилось, `-ing` подходит: **people living here a hundred years ago** — люди, жившие здесь сто лет назад. Граница проходит не по времени, а по тому, разовое ли это действие."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В микротеме «Глаголы без Continuous» мы говорили, что want, know, contain не ставятся в длительную форму. В таком обороте они живут спокойно: **anyone wanting to join**, **a box containing old letters**. Здесь `-ing` — не длительное время, а признак, и запрет не действует."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Третье сокращение: the first to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Последний способ сократить «который» — через `to`. **She was the first to arrive.** Дословно «она была первой прийти», по-живому «она пришла первой»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The first / the last / the only + to + V1"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He was the only one to remember my birthday.** — он единственный вспомнил про мой день рождения;",
+            "**Who was the last to leave the office?** — кто ушёл из офиса последним?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски хочется сказать «первый, **кто** пришёл» → **the first who came**. Это понятно, но носитель в такой фразе скажет **the first to arrive**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Сама идея «существительное + `to` + V1» нам встречалась в примерах: **time to think**, **nothing to do**, **something to drink**. Там `to` тоже описывает существительное — «время подумать», «нечего делать»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Как русское «живущие наверху»: связка уходит, глагол получает -ing."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + V-ing + остаток"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the people who live upstairs** → **the people living upstairs**",
+            "-ing — сам делает: **a woman painting the fence**; V3 — над ним сделали: **a fence painted last week**",
+            "Разовое прошлое — только полное придаточное: **the man who called you yesterday**",
+            "**the first / the last / the only + to + V1**: **She was the first to arrive.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the man calling you yesterday** ✗ → **the man who called you yesterday** ✓ — прошедшего -ing нет."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Люди, живущие наверху, очень шумные.",
+          "en": "The people living upstairs are very loud."
+        },
+        {
+          "ru": "Пассажиры, следующие в Рим, пожалуйста, пройдите к выходу пять.",
+          "en": "Passengers travelling to Rome, please go to gate 5."
+        },
+        {
+          "ru": "Человек, который звонил тебе вчера, — мой брат.",
+          "en": "The man who called you yesterday is my brother."
+        },
+        {
+          "ru": "Кто последним ушёл из офиса?",
+          "en": "Who was the last to leave the office?"
+        },
+        {
+          "ru": "Она пришла первой.",
+          "en": "She was the first to arrive."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать the man calling you yesterday?",
+        "Как выбрать между -ing и третьей формой?",
+        "Чем the first to arrive лучше, чем the first who arrived?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2252,6 +2677,48 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 225,
       "orderInCard": 2
+    },
+    {
+      "cardId": 699,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 116,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 699,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 277,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 699,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 250,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 700,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 135,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 700,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 136,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 700,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 243,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 700,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 226,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2300,6 +2767,22 @@
       "cardId": 698,
       "title": "У которого",
       "userInstruction": "ИИ даст русское предложение со словами «у которого», «чей» или похожими. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card699_ex1",
+      "cardId": 699,
+      "title": "Причастный оборот",
+      "userInstruction": "ИИ даст русское предложение с причастным оборотом. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card700_ex1",
+      "cardId": 700,
+      "title": "Живущий, звонивший, первый",
+      "userInstruction": "ИИ даст русское предложение с причастием или словами «первый, кто». Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -2391,6 +2874,30 @@
       "translation": "владелец, хозяин",
       "transcription": "[ˈəʊnə]",
       "microtopicId": 257,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 921,
+      "word": "passenger",
+      "translation": "пассажир",
+      "transcription": "[ˈpæsɪndʒə]",
+      "microtopicId": 258,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 922,
+      "word": "to arrest",
+      "translation": "арестовать, задержать",
+      "transcription": "[əˈrest]",
+      "microtopicId": 258,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 923,
+      "word": "to injure",
+      "translation": "ранить, травмировать",
+      "transcription": "[ˈɪndʒə]",
+      "microtopicId": 258,
       "categoryId": "useful_words"
     }
   ],
@@ -2488,6 +2995,37 @@
         }
       ],
       "explanation": "во втором предложении way и how повторяют друг друга — нужно the way she always answers. В четвёртом момент — дополнение: не «забуду тогда», а «забуду что», поэтому a moment I will never forget, без when."
+    },
+    {
+      "id": 250,
+      "statements": [
+        {
+          "en": "The pizza delivered to our table was cold.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I found a wallet was left on the bus.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Most of the people invited to the party came.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She showed me a painted by her son picture.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The shirts made in this factory are cheap.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении выбросили связку, но оставили was — нужно a wallet left on the bus или a wallet which was left on the bus. В четвёртом оборот с хвостом by her son стоит перед существительным, а ему место после: a picture painted by her son."
     }
   ],
   "word_arrangement_exercises": [
@@ -2597,6 +3135,26 @@
         "which"
       ],
       "explanation": "«у которой» — это whose: Her bag was stolen → the woman whose bag was stolen. Who her bag — русский порядок, который по-английски не работает, who's значит who is, а which говорят про вещи."
+    },
+    {
+      "id": 226,
+      "situationRu": "Ситуация: ваш друг Саша на любую вечеринку приходит раньше всех.",
+      "correctSentence": "Sasha is always the first to arrive.",
+      "words": [
+        "Sasha",
+        "is",
+        "always",
+        "the",
+        "first",
+        "to",
+        "arrive"
+      ],
+      "distractors": [
+        "arrives",
+        "arrived",
+        "for"
+      ],
+      "explanation": "после the first идёт to и глагол в первой форме — the first to arrive. Arrives и arrived после to не ставятся, а for перед глаголом в этом обороте не встаёт — только to."
     }
   ],
   "multiple_choice_exercises": [
@@ -2746,6 +3304,27 @@
         }
       ],
       "explanation": "ноутбук принадлежит девушке — «у которой украли ноутбук», значит whose. Who's = who is, а who без whose оставляет laptop без хозяина."
+    },
+    {
+      "id": 277,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мы купили дом, построенный в 1970 году.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We bought a built in 1970 house.",
+          "isCorrect": false
+        },
+        {
+          "text": "We bought a house built in 1970.",
+          "isCorrect": true
+        },
+        {
+          "text": "We bought a house was built in 1970.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "у третьей формы есть хвост in 1970, поэтому весь оборот стоит после house — перед существительным встаёт только одно слово. В третьем варианте выброшена связка, но остался was, и вышло два сказуемых подряд."
     }
   ],
   "text_input_exercises": [
@@ -2847,6 +3426,66 @@
       ],
       "explanation": "проверь словом «там»: I train there и I can buy water there — значит where. А everyone loves Lisbon и they built the park — город и парк здесь дополнения, «там» не встаёт, поэтому that или which.",
       "taskDescription": "Впиши пропущенное слово."
+    },
+    {
+      "id": 135,
+      "items": [
+        {
+          "sentence": "Who is the man ___ his dog near our house?",
+          "contextRu": "",
+          "answer": "walking",
+          "alternatives": []
+        },
+        {
+          "sentence": "I found an old letter ___ by my grandfather.",
+          "contextRu": "",
+          "answer": "written",
+          "alternatives": []
+        },
+        {
+          "sentence": "The kids ___ in the yard are very loud.",
+          "contextRu": "",
+          "answer": "playing",
+          "alternatives": []
+        }
+      ],
+      "explanation": "мужчина сам выгуливает собаку и дети сами играют — это -ing: walking, playing. Письмо написал дедушка, над письмом совершили действие — нужна третья форма: written.",
+      "taskDescription": "Впиши глагол из банка в подходящее предложение в нужной форме.",
+      "wordBank": [
+        "написать",
+        "играть",
+        "выгуливать"
+      ]
+    },
+    {
+      "id": 136,
+      "items": [
+        {
+          "sentence": "I love eggs ___ in butter.",
+          "contextRu": "",
+          "answer": "fried",
+          "alternatives": []
+        },
+        {
+          "sentence": "Is this the bus ___ to the airport?",
+          "contextRu": "",
+          "answer": "going",
+          "alternatives": []
+        },
+        {
+          "sentence": "It's a phone ___ in China.",
+          "contextRu": "",
+          "answer": "made",
+          "alternatives": []
+        }
+      ],
+      "explanation": "яйца пожарили и телефон сделали — над ними совершили действие, поэтому третья форма: fried, made. Автобус едет сам — это -ing: going.",
+      "taskDescription": "Впиши глагол из банка в подходящее предложение в нужной форме.",
+      "wordBank": [
+        "сделать",
+        "пожарить",
+        "ехать"
+      ]
     }
   ],
   "dialog_restore_exercises": [],
@@ -3005,6 +3644,25 @@
         }
       ],
       "explanation": "деревню посетили — we visited it, а не «посетили там», поэтому where здесь не нужен: the village we visited или the village that we visited. Добавить it — значит поставить второе дополнение, а in where в английском не бывает вовсе."
+    },
+    {
+      "id": 243,
+      "wrongSentence": "The woman selling me this car last year has moved.",
+      "options": [
+        {
+          "text": "The woman who sold me this car last year has moved.",
+          "isCorrect": true
+        },
+        {
+          "text": "The woman sold me this car last year has moved.",
+          "isCorrect": false
+        },
+        {
+          "text": "The woman who selling me this car last year has moved.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "продала машину в прошлом году — разовое законченное действие, а прошедшего -ing в английском нет, поэтому нужно полное придаточное who sold. Без who выходит два сказуемых подряд, а who selling — вообще не форма."
     }
   ],
   "construction_meaning_exercises": [],
@@ -3065,6 +3723,25 @@
         }
       ],
       "explanation": "his, her и its во втором предложении указывают на то же слово, что в первом, поэтому их место занимает whose. Для магазина тоже whose — это слово работает и с вещами."
+    },
+    {
+      "id": 116,
+      "taskDescription": "сократи каждую фразу до причастного оборота.",
+      "items": [
+        {
+          "original": "the cake which was baked by Ira",
+          "transformed": "the cake baked by Ira"
+        },
+        {
+          "original": "the photos which were taken in Rome",
+          "transformed": "the photos taken in Rome"
+        },
+        {
+          "original": "a boy who was bitten by a dog",
+          "transformed": "a boy bitten by a dog"
+        }
+      ],
+      "explanation": "из придаточного уходят сразу два слова — связка и was или were. Третья форма остаётся и сама говорит, что действие совершили над предметом: торт испекли, фото сделали, мальчика укусили."
     }
   ],
   "categorization_exercises": [
