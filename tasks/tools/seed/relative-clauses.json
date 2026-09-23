@@ -32,6 +32,13 @@
       "title": "Leaving Out That · Пропуск «который» и предлог в конце",
       "order": 3,
       "searchKeywords": "можно ли убрать that, whom или who, предлог в конце предложения, in which, с которым по-английски"
+    },
+    {
+      "id": 257,
+      "topicId": 39,
+      "title": "where / when / whose · Где, когда, чей",
+      "order": 4,
+      "searchKeywords": "where или which, в котором по-английски, the way how, the reason why, whose или who's, у которого по-английски"
     }
   ],
   "grammar_cards": [
@@ -1481,6 +1488,564 @@
         "Чем the flat in which I live отличается от the flat I live in?",
         "Можно ли после предлога поставить that или who?"
       ]
+    },
+    {
+      "id": 696,
+      "microtopicId": 257,
+      "title": "where = «в котором»",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Здесь русскому повезло: у `where` есть прямой аналог слово в слово. Мы и сами говорим не только «город, **в котором** я вырос», но и «город, **где** я вырос». Вот это «где» и есть `where`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The town where I grew up is very small.** — дословно «город где я вырос очень маленький», по-живому «город, в котором я вырос, очень маленький»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Внутри `where` уже сидит предлог: оно значит «в котором», «на котором», «у которого» — любое «где» про место."
+        },
+        {
+          "type": "heading",
+          "text": "Три равных пути"
+        },
+        {
+          "type": "paragraph",
+          "text": "Про место английский может сказать одно и то же тремя способами, и два из них мы уже знаем по прошлой микротеме:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the café where we met** — самый частый вариант;",
+            "**the café we met in** или **the café that we met in** — предлог в конце;",
+            "**the café in which we met** — книжный вариант, для письма."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Смысл у всех трёх один: кафе, в котором мы познакомились."
+        },
+        {
+          "type": "heading",
+          "text": "Проверка «там»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Главная ловушка этой карточки — думать, что раз речь о месте, то всегда нужен `where`. Русский видит слово «город» или «музей» и сразу тянется к «где». Но «который» про место бывает и обычным «который»: «город, **который** мы посетили»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка короткая. Разрезаем фразу и ставим на место связки слово **there** — «там»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the town where I grew up** → **I grew up there.** «Там» встало на место — значит `where`.",
+            "**the museum we visited** → **I visited there** не звучит: посещают не «где», а «что», **I visited it**. Место здесь — дополнение, поэтому никакого `where`, а обычная связка или вообще ничего."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Место + where + подлежащее + глагол"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The city where we visited** ✗ → **the city we visited** ✓. Внутри придаточного глаголу visited нужно дополнение, а `where` его не даёт — оно отвечает на «где?», а не на «что?». Пары на контрасте:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the area where I grew up** (I grew up there) ↔ **the area I love** (I love it);",
+            "**the shop where I buy bread** (I buy bread there) ↔ **the shop they opened last week** (they opened it)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Бывает и третий случай: место само что-то делает. Тогда оно подлежащее, и нужна связка-подлежащее: **the city which is famous for its bridges**. Отсюда простой признак: после `where` всегда стоит подлежащее — `I`, `we`, `Olya`. Если сразу за ним глагол, **the city where is famous** ✗, значит `where` сюда не годится."
+        },
+        {
+          "type": "heading",
+          "text": "Лишний предлог после where"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The flat where I live in** ✗ → **the flat where I live** ✓ или **the flat I live in** ✓. Предлог уже спрятан внутри `where`, поэтому второй раз его не ставят. Либо «где», либо предлог в конце — одно из двух."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После слова **place** носители часто выбрасывают и `where`: **I know a place we can have lunch.** Это разговорная норма, а не ошибка."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "where = «где, в котором» про место. Берём его, только если внутри на его место встаёт there."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Место + where + подлежащее + глагол"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I grew up there** ✓ → **the town where I grew up**",
+            "**I visited there** не звучит, говорят **I visited it** → **the city (that) I visited**",
+            "Три равных пути: **the café where we met** · **the café we met in** · **the café in which we met**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the city where we visited** ✗ → **the city we visited** ✓ — место здесь дополнение.",
+            "**the city where is famous** ✗ → **the city which is famous** ✓ — после where нужно подлежащее.",
+            "**the flat where I live in** ✗ → **the flat where I live** ✓ — предлог уже внутри where."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Город, в котором я вырос, очень маленький.",
+          "en": "The town where I grew up is very small."
+        },
+        {
+          "ru": "Это кафе, где мы познакомились.",
+          "en": "This is the café where we met."
+        },
+        {
+          "ru": "Это музей, который мы посетили в прошлом году.",
+          "en": "This is the museum we visited last year."
+        },
+        {
+          "ru": "Я знаю место, где ты можешь припарковаться.",
+          "en": "I know a place where you can park."
+        },
+        {
+          "ru": "Район, в котором живёт Оля, очень тихий.",
+          "en": "The area where Olya lives is very quiet."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, нужен where или обычное which?",
+        "Чем the café where we met отличается от the café we met in?",
+        "Почему нельзя сказать the flat where I live in?"
+      ]
+    },
+    {
+      "id": 697,
+      "microtopicId": 257,
+      "title": "when, why и the way",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русское «который» прячется не только за местом. «День, **когда** мы познакомились», «причина, **по которой** я звоню», «то, **как** он говорит» — у всех трёх в английском своё короткое слово. И у всех трёх его часто выбрасывают."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Слово времени + when · reason + why · the way без how"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "when — «когда» про время"
+        },
+        {
+          "type": "paragraph",
+          "text": "Снова прямой аналог: «день, **когда** мы познакомились» → **the day when we met**. После слов времени — day, year, summer, moment, time — ставим `when`, а в речи чаще `that` или вообще ничего:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the day we met** — день, когда мы познакомились;",
+            "**the year when Sasha was born** — год, когда родился Саша."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка та же, что с `where`, только вместо «там» — «тогда». **We met then** — «тогда» встаёт, значит `when`. А во фразе **I'll never forget that day** день — дополнение: не «забуду тогда», а «забуду что»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The day when I'll never forget** ✗ → **the day I'll never forget** ✓. Русское «день, **который** я не забуду» — это обычное «который», как с **the city I visited** в прошлой карточке."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`When` после слова времени и `when` без него. **Call me when you land** — «позвони, когда приземлишься»: существительного перед `when` нет, это союз, и мы его знаем из «Частей речи». **the day when we met** — перед `when` стоит day, и `when` уточняет, какой именно день. Отличаем так же, как `who`-вопрос от `who`-связки во вводной микротеме."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "why — только после reason"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Причина, по которой» по-английски — **the reason why**: **the reason why I'm calling**. Русское «по которой» переводить словами не нужно: **the reason for which I'm calling** — это книжный вариант, в речи он звучит тяжело. А чаще всего `why` просто выбрасывают:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The reason I'm calling is simple.** — причина, по которой я звоню, простая."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "the way — «то, как»"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Мне нравится, **как** он говорит» — по-английски **I like the way he talks**. Дословно «мне нравится способ он говорит», по-живому «мне нравится, как он говорит»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Слово `way` здесь значит «способ, манера», но это лишь одно из его значений. `way` — одно из самых многозначных слов английского: путь, дорога, способ, «намного» и десяток устойчивых оборотов. Все значения по порядку мы разберём в теме «Многозначные слова»."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I like the way how he talks** ✗ → **I like the way he talks** ✓ или **I like how he talks** ✓. Русское «то, **как**» — два слова, и рука ставит оба. Но **the way** и **how** значат одно и то же — «то, как». Вместе они повторяют друг друга, поэтому берём одно из двух."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "when, why и the way тоже заменяют «который»; все три часто выбрасывают."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Слово времени + when · reason + why · the way без how"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the day (when) we met** — «тогда» встаёт: **We met then**.",
+            "**the reason (why) I'm calling** — «причина, по которой».",
+            "**I like the way he talks** = **I like how he talks** — «то, как»."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the day when I'll never forget** ✗ → **the day I'll never forget** ✓ — день здесь дополнение.",
+            "**the way how he talks** ✗ → **the way he talks** ✓ — the way и how значат одно и то же."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я помню день, когда мы переехали сюда.",
+          "en": "I remember the day we moved here."
+        },
+        {
+          "ru": "Это было лето, когда я жил в Риге.",
+          "en": "That was the summer when I lived in Riga."
+        },
+        {
+          "ru": "Причина, по которой я звоню, очень простая.",
+          "en": "The reason I'm calling is very simple."
+        },
+        {
+          "ru": "Мне не нравится, как он со мной разговаривает.",
+          "en": "I don't like the way he talks to me."
+        },
+        {
+          "ru": "Это день, который я никогда не забуду.",
+          "en": "It's a day I'll never forget."
+        }
+      ],
+      "clarificationOptions": [
+        "Когда when можно выбросить, а когда нельзя?",
+        "Почему нельзя сказать the way how?",
+        "Чем the reason why отличается от просто why?"
+      ]
+    },
+    {
+      "id": 698,
+      "microtopicId": 257,
+      "title": "whose — «чей» и «у которого»",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "«Девушка, **у которой** зазвонил телефон» — по-русски это конструкция с «у». Русская рука переводит её так, как слышит, и получает одну из двух ошибок: **the girl who her phone rang** ✗ или **the girl which phone rang** ✗. По-английски нужно одно слово — `whose`."
+        },
+        {
+          "type": "heading",
+          "text": "whose — это «чей»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово нам знакомо с «Основ»: **Whose bag is this?** — чья это сумка? В придаточном оно значит то же самое — «чей». По-русски так тоже можно сказать, хоть и книжно: «девушка, **чей** телефон зазвонил». Эта фраза и показывает устройство английской точь-в-точь:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the girl whose phone rang** — дословно «девушка чей телефон зазвонил», по-живому «девушка, у которой зазвонил телефон»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомните пару",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русское «у которого» по-английски всегда «чей»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "whose встаёт на место her и his"
+        },
+        {
+          "type": "paragraph",
+          "text": "Режем на два предложения, как всю тему: **Her phone rang.** Слово `her` и превращается в `whose` — **the girl whose phone rang**. То же с his, their и its:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**His sister is a pilot.** → **a friend whose sister is a pilot**;",
+            "**Their dog barks all night.** → **the neighbours whose dog barks all night**."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + whose + существительное + остаток"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда два следствия. После `whose` всегда стоит существительное — то, чьё оно. А артикля там нет, как нет его после her: **the man whose the car** ✗ → **the man whose car** ✓."
+        },
+        {
+          "type": "paragraph",
+          "text": "Существительное с `whose` может быть и подлежащим, и дополнением: **the man whose car we borrowed** — мужчина, чью машину мы взяли. Проверка: **We borrowed his car.**"
+        },
+        {
+          "type": "heading",
+          "text": "Про вещи тоже можно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскому «чей» кажется словом только про людей — «чья собака», «чья книга». Английский `whose` спокойно работает и с вещами, с компаниями, с домами:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**a company whose office is in Lisbon** — компания, офис которой в Лиссабоне;",
+            "**a café whose owner is from Italy** — кафе, владелец которого из Италии."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски здесь стоит «которого» в родительном падеже, а по-английски — всё тот же `whose`."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В книгах про вещи встречается и **of which**: **the house, the roof of which needs repair** — дом, крыша которого нуждается в ремонте. Это книжный вариант, строить его не нужно, достаточно узнавать."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Whose** и **who's** звучат одинаково — [[huːz]], — но это разные слова. `who's` — сокращение от **who is** или **who has**:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the man who's calling** — мужчина, который звонит;",
+            "**the man whose phone is ringing** — мужчина, у которого звонит телефон."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка: если можно раскрыть в **who is** — пишем **who's**. Если нельзя — нужен **whose**."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "whose = «чей», «у которого». Встаёт на место her, his, their, its."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + whose + существительное + остаток"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Her phone rang.** → **the girl whose phone rang**",
+            "После whose артикля нет: **whose car**.",
+            "Про вещи тоже: **a company whose office is in Lisbon**",
+            "**who's** = who is: **the man who's calling** ↔ **the man whose phone is ringing**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the girl who her phone rang** ✗ → **the girl whose phone rang** ✓ — «у которого» = whose.",
+            "**the man whose the car** ✗ → **the man whose car** ✓ — артикль не нужен, как после her."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "У меня есть друг, у которого сестра — пилот.",
+          "en": "I have a friend whose sister is a pilot."
+        },
+        {
+          "ru": "Это соседи, чья собака лает всю ночь.",
+          "en": "These are the neighbours whose dog barks all night."
+        },
+        {
+          "ru": "Мужчина, чью машину мы взяли, живёт наверху.",
+          "en": "The man whose car we borrowed lives upstairs."
+        },
+        {
+          "ru": "Я работаю в компании, офис которой в Лиссабоне.",
+          "en": "I work for a company whose office is in Lisbon."
+        },
+        {
+          "ru": "Кафе, владелец которого из Италии, закрылось.",
+          "en": "The café whose owner is from Italy has closed."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «у которого» переводится как whose?",
+        "Можно ли сказать whose про вещь, а не про человека?",
+        "Как не перепутать whose и who's?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1633,6 +2198,60 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 224,
       "orderInCard": 3
+    },
+    {
+      "cardId": 696,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 157,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 696,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 242,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 696,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 134,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 697,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 276,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 697,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 249,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 697,
+      "exerciseType": "MATCHING",
+      "exerciseId": 124,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 698,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 251,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 698,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 115,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 698,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 225,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1665,6 +2284,22 @@
       "cardId": 695,
       "title": "Предлог в конце",
       "userInstruction": "ИИ даст русское предложение со словами «с которым», «о котором» или похожими. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card696_ex1",
+      "cardId": 696,
+      "title": "Где или который",
+      "userInstruction": "ИИ даст русское предложение о каком-то месте. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card698_ex1",
+      "cardId": 698,
+      "title": "У которого",
+      "userInstruction": "ИИ даст русское предложение со словами «у которого», «чей» или похожими. Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -1733,6 +2368,30 @@
       "transcription": "[keə]",
       "microtopicId": 256,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 918,
+      "word": "place",
+      "translation": "место",
+      "transcription": "[pleɪs]",
+      "microtopicId": 257,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 919,
+      "word": "area",
+      "translation": "район, область, зона",
+      "transcription": "[ˈeəriə]",
+      "microtopicId": 257,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 920,
+      "word": "owner",
+      "translation": "владелец, хозяин",
+      "transcription": "[ˈəʊnə]",
+      "microtopicId": 257,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -1798,6 +2457,37 @@
         }
       ],
       "explanation": "во втором предложении выброшена связка-подлежащее: парень сам починил велосипед, нужно the guy who fixed my bike. В четвёртом лишний it — место дополнения при left уже занято связкой: the umbrella I left here. Whom в пятом стоит на месте дополнения, как и положено."
+    },
+    {
+      "id": 249,
+      "statements": [
+        {
+          "en": "Do you remember the year when we went to Prague?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "That's the way how she always answers.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Tell me the reason why you left.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "It was a moment when I will never forget.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Friday is the day I usually clean the flat.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении way и how повторяют друг друга — нужно the way she always answers. В четвёртом момент — дополнение: не «забуду тогда», а «забуду что», поэтому a moment I will never forget, без when."
     }
   ],
   "word_arrangement_exercises": [
@@ -1886,6 +2576,27 @@
         "who"
       ],
       "explanation": "about — хвост глагола talk, он уезжает в конец фразы, а it не нужен: проблема уже названа. После didn't глагол стоит в первой форме — talk, а не talked; who — только про людей, what не значит «который»."
+    },
+    {
+      "id": 225,
+      "situationRu": "RU: Это женщина, у которой украли сумку.",
+      "correctSentence": "That's the woman whose bag was stolen.",
+      "words": [
+        "That's",
+        "the",
+        "woman",
+        "whose",
+        "bag",
+        "was",
+        "stolen"
+      ],
+      "distractors": [
+        "who",
+        "her",
+        "who's",
+        "which"
+      ],
+      "explanation": "«у которой» — это whose: Her bag was stolen → the woman whose bag was stolen. Who her bag — русский порядок, который по-английски не работает, who's значит who is, а which говорят про вещи."
     }
   ],
   "multiple_choice_exercises": [
@@ -1993,6 +2704,48 @@
         }
       ],
       "explanation": "«рассказывать о ком-то» — tell somebody about, и about остаётся при глаголе в конце фразы. После предлога that не ставят, а без about выходит «человек, которого я тебе сказала»."
+    },
+    {
+      "id": 276,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мне нравится, как ты готовишь.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I like the way you cook.",
+          "isCorrect": true
+        },
+        {
+          "text": "I like the way how you cook.",
+          "isCorrect": false
+        },
+        {
+          "text": "I like the way what you cook.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«то, как» — это the way или how, но не оба сразу: они значат одно и то же и вместе повторяют друг друга. What значит «то, что», а не «как»."
+    },
+    {
+      "id": 251,
+      "choiceType": "CHOICE",
+      "prompt": "Do you know the girl ___ laptop was stolen?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "who's",
+          "isCorrect": false
+        },
+        {
+          "text": "whose",
+          "isCorrect": true
+        },
+        {
+          "text": "who",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "ноутбук принадлежит девушке — «у которой украли ноутбук», значит whose. Who's = who is, а who без whose оставляет laptop без хозяина."
     }
   ],
   "text_input_exercises": [
@@ -2059,6 +2812,41 @@
       ],
       "explanation": "предлог — хвост глагола или прилагательного, и он остаётся в конце фразы: look for, stay at или stay in, talk to, interested in. Разрежь фразу: You were looking for the key — предлог стоит там же, где стоял.",
       "taskDescription": "Впиши пропущенное слово."
+    },
+    {
+      "id": 134,
+      "items": [
+        {
+          "sentence": "This is the gym ___ I train three times a week.",
+          "contextRu": "",
+          "answer": "where",
+          "alternatives": []
+        },
+        {
+          "sentence": "Lisbon is a city ___ everyone loves.",
+          "contextRu": "",
+          "answer": "that",
+          "alternatives": [
+            "which"
+          ]
+        },
+        {
+          "sentence": "Is there a shop near here ___ I can buy water?",
+          "contextRu": "",
+          "answer": "where",
+          "alternatives": []
+        },
+        {
+          "sentence": "The park ___ they built last year is huge.",
+          "contextRu": "",
+          "answer": "that",
+          "alternatives": [
+            "which"
+          ]
+        }
+      ],
+      "explanation": "проверь словом «там»: I train there и I can buy water there — значит where. А everyone loves Lisbon и they built the park — город и парк здесь дополнения, «там» не встаёт, поэтому that или which.",
+      "taskDescription": "Впиши пропущенное слово."
     }
   ],
   "dialog_restore_exercises": [],
@@ -2112,6 +2900,33 @@
         }
       ],
       "explanation": "«то, что» — единственный случай без слова перед связкой, поэтому what. Во всех остальных предмет назван — everything, nothing, thing, — и за ним идёт that."
+    },
+    {
+      "id": 124,
+      "taskDescription": "соедини русское начало с английским.",
+      "pairs": [
+        {
+          "left": "день, когда",
+          "right": "the day when"
+        },
+        {
+          "left": "причина, по которой",
+          "right": "the reason why"
+        },
+        {
+          "left": "то, как",
+          "right": "the way"
+        },
+        {
+          "left": "место, где",
+          "right": "the place where"
+        },
+        {
+          "left": "то, что",
+          "right": "what"
+        }
+      ],
+      "explanation": "про время — when, про причину — why, про место — where. «То, как» — это the way, а «то, что» — what: предмета перед ним нет."
     }
   ],
   "error_correction_exercises": [
@@ -2171,6 +2986,25 @@
         }
       ],
       "explanation": "место дополнения при booked уже заняла спрятанная связка, поэтому it лишний. Во втором варианте связку вернули, но it так и остался. В третьем that уехал в конец и превратился в «то», а фраза сломалась."
+    },
+    {
+      "id": 242,
+      "wrongSentence": "The village where we visited was very beautiful.",
+      "options": [
+        {
+          "text": "The village where we visited it was very beautiful.",
+          "isCorrect": false
+        },
+        {
+          "text": "The village in where we visited was very beautiful.",
+          "isCorrect": false
+        },
+        {
+          "text": "The village we visited was very beautiful.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "деревню посетили — we visited it, а не «посетили там», поэтому where здесь не нужен: the village we visited или the village that we visited. Добавить it — значит поставить второе дополнение, а in where в английском не бывает вовсе."
     }
   ],
   "construction_meaning_exercises": [],
@@ -2212,6 +3046,25 @@
         }
       ],
       "explanation": "it во втором предложении — то же, что sofa, pan или cup, поэтому it уходит, а предлог остаётся при своём глаголе, в конце фразы. Потерять его нельзя: sleep on, cook in, drink from."
+    },
+    {
+      "id": 115,
+      "taskDescription": "соедини два предложения в одно через whose.",
+      "items": [
+        {
+          "original": "I have a cousin. His wife is a nurse.",
+          "transformed": "I have a cousin whose wife is a nurse."
+        },
+        {
+          "original": "Meet the girl. Her brother sings.",
+          "transformed": "Meet the girl whose brother sings."
+        },
+        {
+          "original": "I know a shop. Its prices are low.",
+          "transformed": "I know a shop whose prices are low."
+        }
+      ],
+      "explanation": "his, her и its во втором предложении указывают на то же слово, что в первом, поэтому их место занимает whose. Для магазина тоже whose — это слово работает и с вещами."
     }
   ],
   "categorization_exercises": [
@@ -2287,6 +3140,29 @@
         }
       ],
       "explanation": "в левой колонке сразу после связки стоит другое подлежащее — Ira, we, I, you, — значит связка дополнение: Ira baked the cake. В правой после связки сразу глагол: the cake fell, the boy helped me, — связка сама делает действие, без неё фраза развалится."
+    },
+    {
+      "id": 157,
+      "taskDescription": "распредели фразы — нужно ли на месте пропуска where.",
+      "categories": [
+        {
+          "title": "where",
+          "items": [
+            "the beach ___ we swam",
+            "the shop ___ I work",
+            "the room ___ Denis sleeps"
+          ]
+        },
+        {
+          "title": "that или ничего",
+          "items": [
+            "the beach ___ we loved",
+            "the shop ___ I opened",
+            "the room ___ Denis painted"
+          ]
+        }
+      ],
+      "explanation": "в левой колонке встаёт «там»: we swam there, I work there, Denis sleeps there — значит where. В правой глаголу нужно «что», а не «где»: we loved it, I opened it, Denis painted it — место здесь дополнение, поэтому that или ничего."
     }
   ],
   "find_the_odd_exercises": [

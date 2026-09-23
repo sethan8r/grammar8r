@@ -1131,26 +1131,445 @@ RU: Это проблема, о которой мы не говорили.
 
 ---
 
+## Microtopic 257 — where / when / whose · Где, когда, чей
+
+**ID:** 257
+**Теги:** where или which, в котором по-английски, the way how, the reason why, whose или who's, у которого по-английски
+
+---
+
+### Card 696 · where = «в котором»
+
+**ID:** 696
+
+#### Theory
+
+Здесь русскому повезло: у `where` есть прямой аналог слово в слово. Мы и сами говорим не только «город, **в котором** я вырос», но и «город, **где** я вырос». Вот это «где» и есть `where`:
+
+- **The town where I grew up is very small.** — дословно «город где я вырос очень маленький», по-живому «город, в котором я вырос, очень маленький».
+
+Внутри `where` уже сидит предлог: оно значит «в котором», «на котором», «у которого» — любое «где» про место.
+
+**Три равных пути**
+
+Про место английский может сказать одно и то же тремя способами, и два из них мы уже знаем по прошлой микротеме:
+
+- **the café where we met** — самый частый вариант;
+- **the café we met in** или **the café that we met in** — предлог в конце;
+- **the café in which we met** — книжный вариант, для письма.
+
+Смысл у всех трёх один: кафе, в котором мы познакомились.
+
+**Проверка «там»**
+
+Главная ловушка этой карточки — думать, что раз речь о месте, то всегда нужен `where`. Русский видит слово «город» или «музей» и сразу тянется к «где». Но «который» про место бывает и обычным «который»: «город, **который** мы посетили».
+
+Проверка короткая. Разрезаем фразу и ставим на место связки слово **there** — «там»:
+
+- **the town where I grew up** → **I grew up there.** «Там» встало на место — значит `where`.
+- **the museum we visited** → **I visited there** не звучит: посещают не «где», а «что», **I visited it**. Место здесь — дополнение, поэтому никакого `where`, а обычная связка или вообще ничего.
+
+**Формула:** место + where + подлежащее + глагол
+
+**Ловушка:** **the city where we visited** ✗ → **the city we visited** ✓. Внутри придаточного глаголу visited нужно дополнение, а `where` его не даёт — оно отвечает на «где?», а не на «что?». Пары на контрасте:
+
+- **the area where I grew up** (I grew up there) ↔ **the area I love** (I love it);
+- **the shop where I buy bread** (I buy bread there) ↔ **the shop they opened last week** (they opened it).
+
+Бывает и третий случай: место само что-то делает. Тогда оно подлежащее, и нужна связка-подлежащее: **the city which is famous for its bridges**. Отсюда простой признак: после `where` всегда стоит подлежащее — `I`, `we`, `Olya`. Если сразу за ним глагол, **the city where is famous** ✗, значит `where` сюда не годится.
+
+**Лишний предлог после where**
+
+**Ловушка:** **the flat where I live in** ✗ → **the flat where I live** ✓ или **the flat I live in** ✓. Предлог уже спрятан внутри `where`, поэтому второй раз его не ставят. Либо «где», либо предлог в конце — одно из двух.
+
+**Кстати:** после слова **place** носители часто выбрасывают и `where`: **I know a place we can have lunch.** Это разговорная норма, а не ошибка.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+where = «где, в котором» про место. Берём его, только если внутри на его место встаёт there.
+
+**Формула:** место + where + подлежащее + глагол
+
+- **I grew up there** ✓ → **the town where I grew up**
+- **I visited there** не звучит, говорят **I visited it** → **the city (that) I visited**
+- Три равных пути: **the café where we met** · **the café we met in** · **the café in which we met**
+
+**Частые ошибки**
+
+- **the city where we visited** ✗ → **the city we visited** ✓ — место здесь дополнение.
+- **the city where is famous** ✗ → **the city which is famous** ✓ — после where нужно подлежащее.
+- **the flat where I live in** ✗ → **the flat where I live** ✓ — предлог уже внутри where.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3190 | Город, в котором я вырос, очень маленький. | The town where I grew up is very small. |
+| 3191 | Это кафе, где мы познакомились. | This is the café where we met. |
+| 3192 | Это музей, который мы посетили в прошлом году. | This is the museum we visited last year. |
+| 3193 | Я знаю место, где ты можешь припарковаться. | I know a place where you can park. |
+| 3194 | Район, в котором живёт Оля, очень тихий. | The area where Olya lives is very quiet. |
+
+---
+
+#### Exercises
+
+**Ex 26 · Categorization** *(ID: 157)*
+
+Задание: распредели фразы — нужно ли на месте пропуска where.
+
+| where | that или ничего |
+|-------|-----------------|
+| the beach ___ we swam | the beach ___ we loved |
+| the shop ___ I work | the shop ___ I opened |
+| the room ___ Denis sleeps | the room ___ Denis painted |
+
+*Explanation:* в левой колонке встаёт «там»: we swam there, I work there, Denis sleeps there — значит where. В правой глаголу нужно «что», а не «где»: we loved it, I opened it, Denis painted it — место здесь дополнение, поэтому that или ничего.
+
+---
+
+**Ex 27 · ErrorCorrection** *(ID: 242)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"The village where we visited was very beautiful."
+
+- The village where we visited it was very beautiful.
+- The village in where we visited was very beautiful.
+- **The village we visited was very beautiful.** ✓
+
+*Explanation:* деревню посетили — we visited it, а не «посетили там», поэтому where здесь не нужен: the village we visited или the village that we visited. Добавить it — значит поставить второе дополнение, а in where в английском не бывает вовсе.
+
+---
+
+**Ex 28 · TextInput** *(ID: 134)*
+
+Впиши пропущенное слово.
+
+1. "This is the gym ___ I train three times a week."
+   Ответ: **where**
+2. "Lisbon is a city ___ everyone loves."
+   Ответ: **that** / **which**
+3. "Is there a shop near here ___ I can buy water?"
+   Ответ: **where**
+4. "The park ___ they built last year is huge."
+   Ответ: **that** / **which**
+
+*Explanation:* проверь словом «там»: I train there и I can buy water there — значит where. А everyone loves Lisbon и they built the park — город и парк здесь дополнения, «там» не встаёт, поэтому that или which.
+
+---
+
+#### AI Exercise
+
+**ID:** relative_clauses_card696_ex1
+**Title:** "Где или который"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст русское предложение о каком-то месте. Напишите его по-английски."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о where в придаточном с «который». Он знает: where — прямой аналог русского «где» во фразе «город, где я вырос» и значит «в котором, на котором» про место (The town where I grew up is very small); про место есть три равных пути: the café where we met, the café (that) we met in, the café in which we met (книжно); where берут, только если внутри придаточного на его место встаёт there — проверка «там»: I grew up there → the town where I grew up; I visited there не звучит, говорят I visited it, поэтому the city (that) I visited, а the city where we visited неверно; если место само делает действие, нужна связка-подлежащее: the city which is famous for its bridges, а the city where is famous неверно — после where всегда стоит подлежащее; предлог уже спрятан в where, второй не нужен: the flat where I live in неверно; после place where часто выбрасывают (I know a place we can have lunch). Из прошлых карточек темы он уже знает who, which, that, пропуск связки-дополнения и предлог в конце. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect, косвенную речь со сдвигом времён; внутри этой темы ещё не прошёл when, why, the way и whose в роли «который», сокращённые обороты (the letter sent yesterday) и запятые перед who и which — в задании их не используй; место бери нарицательное (кафе, город, район, пляж), а не имя собственное — иначе понадобится запятая. ЗАДАНИЕ: дай пользователю ОДНО русское предложение, где о месте говорит придаточное со словом «где», «в котором», «на котором» или «который», и попроси сказать его по-английски. В условии не подсказывай, нужен ли where. Бери только знакомые слова из присланного списка слов пользователя, чтобы трудность была в связке, а не в незнакомой лексике. ДЕРЖИ ФРАЗУ ПРОСТОЙ: 6-11 слов, одно придаточное, время чаще Present Simple и Past Simple, иногда Present Perfect или can; сложных сюжетов не выдумывай. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. «где» (Это кафе, где мы обедаем по пятницам). 2. «в котором» или «на котором» (Пляж, на котором мы загорали, был пустой). 3. ГРАНИЦА: место — дополнение («Город, который мы посетили, был очень старый») — where нельзя. 4. ГРАНИЦА: место само делает действие («Я живу в районе, который славится парками») — where нельзя. Пункты 3 и 4 вместе — примерно половина запусков. Образцы дословно не повторяй. ОЦЕНКА: верным считай where там, где проходит проверка «там», а там, где не проходит, — that, which или связку без слова; вариант с предлогом в конце (the café we met in) и книжный in which тоже засчитывай. Если where стоит вместо места-дополнения (the city where we visited) — скажи, что глаголу нужно «что», а не «где», покажи проверку «там» и вариант без where. Если сразу после where глагол (the area where is famous) — скажи, что после where должно стоять подлежащее, а здесь место само делает действие, нужен which или that. Если после where в конце ещё и предлог (where I live in) — скажи, что предлог уже внутри where. Если в варианте без where потерян предлог (the beach we lay) — напомни, что тогда предлог уезжает в конец (the beach we lay on). При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Скажите по-английски: Город, который мы посетили летом, был очень старый.'
+
+#### Clarification Options
+
+- Как понять, нужен where или обычное which?
+- Чем the café where we met отличается от the café we met in?
+- Почему нельзя сказать the flat where I live in?
+
+---
+
+### Card 697 · when, why и the way
+
+**ID:** 697
+
+#### Theory
+
+Русское «который» прячется не только за местом. «День, **когда** мы познакомились», «причина, **по которой** я звоню», «то, **как** он говорит» — у всех трёх в английском своё короткое слово. И у всех трёх его часто выбрасывают.
+
+**Формула:** слово времени + when · reason + why · the way без how
+
+**when — «когда» про время**
+
+Снова прямой аналог: «день, **когда** мы познакомились» → **the day when we met**. После слов времени — day, year, summer, moment, time — ставим `when`, а в речи чаще `that` или вообще ничего:
+
+- **the day we met** — день, когда мы познакомились;
+- **the year when Sasha was born** — год, когда родился Саша.
+
+Проверка та же, что с `where`, только вместо «там» — «тогда». **We met then** — «тогда» встаёт, значит `when`. А во фразе **I'll never forget that day** день — дополнение: не «забуду тогда», а «забуду что».
+
+**Ловушка:** **the day when I'll never forget** ✗ → **the day I'll never forget** ✓. Русское «день, **который** я не забуду» — это обычное «который», как с **the city I visited** в прошлой карточке.
+
+**Не путай:** `when` после слова времени и `when` без него. **Call me when you land** — «позвони, когда приземлишься»: существительного перед `when` нет, это союз, и мы его знаем из «Частей речи». **the day when we met** — перед `when` стоит day, и `when` уточняет, какой именно день. Отличаем так же, как `who`-вопрос от `who`-связки во вводной микротеме.
+
+**why — только после reason**
+
+«Причина, по которой» по-английски — **the reason why**: **the reason why I'm calling**. Русское «по которой» переводить словами не нужно: **the reason for which I'm calling** — это книжный вариант, в речи он звучит тяжело. А чаще всего `why` просто выбрасывают:
+
+- **The reason I'm calling is simple.** — причина, по которой я звоню, простая.
+
+**the way — «то, как»**
+
+«Мне нравится, **как** он говорит» — по-английски **I like the way he talks**. Дословно «мне нравится способ он говорит», по-живому «мне нравится, как он говорит».
+
+**Кстати:** слово `way` здесь значит «способ, манера», но это лишь одно из его значений. `way` — одно из самых многозначных слов английского: путь, дорога, способ, «намного» и десяток устойчивых оборотов. Все значения по порядку мы разберём в теме «Многозначные слова».
+
+**Ловушка:** **I like the way how he talks** ✗ → **I like the way he talks** ✓ или **I like how he talks** ✓. Русское «то, **как**» — два слова, и рука ставит оба. Но **the way** и **how** значат одно и то же — «то, как». Вместе они повторяют друг друга, поэтому берём одно из двух.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+when, why и the way тоже заменяют «который»; все три часто выбрасывают.
+
+**Формула:** слово времени + when · reason + why · the way без how
+
+- **the day (when) we met** — «тогда» встаёт: **We met then**.
+- **the reason (why) I'm calling** — «причина, по которой».
+- **I like the way he talks** = **I like how he talks** — «то, как».
+
+**Частые ошибки**
+
+- **the day when I'll never forget** ✗ → **the day I'll never forget** ✓ — день здесь дополнение.
+- **the way how he talks** ✗ → **the way he talks** ✓ — the way и how значат одно и то же.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3195 | Я помню день, когда мы переехали сюда. | I remember the day we moved here. |
+| 3196 | Это было лето, когда я жил в Риге. | That was the summer when I lived in Riga. |
+| 3197 | Причина, по которой я звоню, очень простая. | The reason I'm calling is very simple. |
+| 3198 | Мне не нравится, как он со мной разговаривает. | I don't like the way he talks to me. |
+| 3199 | Это день, который я никогда не забуду. | It's a day I'll never forget. |
+
+---
+
+#### Exercises
+
+**Ex 29 · MultipleChoice · FORWARD_CHOICE** *(ID: 276)*
+
+"Мне нравится, как ты готовишь."
+
+- **I like the way you cook.** ✓
+- I like the way how you cook.
+- I like the way what you cook.
+
+*Explanation:* «то, как» — это the way или how, но не оба сразу: они значат одно и то же и вместе повторяют друг друга. What значит «то, что», а не «как».
+
+---
+
+**Ex 30 · TrueFalse** *(ID: 249)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Do you remember the year when we went to Prague? | ✓ |
+| 2 | That's the way how she always answers. | ✗ |
+| 3 | Tell me the reason why you left. | ✓ |
+| 4 | It was a moment when I will never forget. | ✗ |
+| 5 | Friday is the day I usually clean the flat. | ✓ |
+
+*Explanation:* во втором предложении way и how повторяют друг друга — нужно the way she always answers. В четвёртом момент — дополнение: не «забуду тогда», а «забуду что», поэтому a moment I will never forget, без when.
+
+---
+
+**Ex 31 · Matching** *(ID: 124)*
+
+Задание: соедини русское начало с английским.
+
+| RU | EN |
+|----|----|
+| день, когда | the day when |
+| причина, по которой | the reason why |
+| то, как | the way |
+| место, где | the place where |
+| то, что | what |
+
+*Explanation:* про время — when, про причину — why, про место — where. «То, как» — это the way, а «то, что» — what: предмета перед ним нет.
+
+---
+
+#### Clarification Options
+
+- Когда when можно выбросить, а когда нельзя?
+- Почему нельзя сказать the way how?
+- Чем the reason why отличается от просто why?
+
+---
+
+### Card 698 · whose — «чей» и «у которого»
+
+**ID:** 698
+
+#### Theory
+
+«Девушка, **у которой** зазвонил телефон» — по-русски это конструкция с «у». Русская рука переводит её так, как слышит, и получает одну из двух ошибок: **the girl who her phone rang** ✗ или **the girl which phone rang** ✗. По-английски нужно одно слово — `whose`.
+
+**whose — это «чей»**
+
+Слово нам знакомо с «Основ»: **Whose bag is this?** — чья это сумка? В придаточном оно значит то же самое — «чей». По-русски так тоже можно сказать, хоть и книжно: «девушка, **чей** телефон зазвонил». Эта фраза и показывает устройство английской точь-в-точь:
+
+- **the girl whose phone rang** — дословно «девушка чей телефон зазвонил», по-живому «девушка, у которой зазвонил телефон».
+
+Запомните пару: русское «у которого» по-английски всегда «чей».
+
+**whose встаёт на место her и his**
+
+Режем на два предложения, как всю тему: **Her phone rang.** Слово `her` и превращается в `whose` — **the girl whose phone rang**. То же с his, their и its:
+
+- **His sister is a pilot.** → **a friend whose sister is a pilot**;
+- **Their dog barks all night.** → **the neighbours whose dog barks all night**.
+
+**Формула:** существительное + whose + существительное + остаток
+
+Отсюда два следствия. После `whose` всегда стоит существительное — то, чьё оно. А артикля там нет, как нет его после her: **the man whose the car** ✗ → **the man whose car** ✓.
+
+Существительное с `whose` может быть и подлежащим, и дополнением: **the man whose car we borrowed** — мужчина, чью машину мы взяли. Проверка: **We borrowed his car.**
+
+**Про вещи тоже можно**
+
+Русскому «чей» кажется словом только про людей — «чья собака», «чья книга». Английский `whose` спокойно работает и с вещами, с компаниями, с домами:
+
+- **a company whose office is in Lisbon** — компания, офис которой в Лиссабоне;
+- **a café whose owner is from Italy** — кафе, владелец которого из Италии.
+
+По-русски здесь стоит «которого» в родительном падеже, а по-английски — всё тот же `whose`.
+
+**Кстати:** в книгах про вещи встречается и **of which**: **the house, the roof of which needs repair** — дом, крыша которого нуждается в ремонте. Это книжный вариант, строить его не нужно, достаточно узнавать.
+
+**Ловушка:** **whose** и **who's** звучат одинаково — [[huːz]], — но это разные слова. `who's` — сокращение от **who is** или **who has**:
+
+- **the man who's calling** — мужчина, который звонит;
+- **the man whose phone is ringing** — мужчина, у которого звонит телефон.
+
+Проверка: если можно раскрыть в **who is** — пишем **who's**. Если нельзя — нужен **whose**.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+whose = «чей», «у которого». Встаёт на место her, his, their, its.
+
+**Формула:** существительное + whose + существительное + остаток
+
+- **Her phone rang.** → **the girl whose phone rang**
+- После whose артикля нет: **whose car**.
+- Про вещи тоже: **a company whose office is in Lisbon**
+- **who's** = who is: **the man who's calling** ↔ **the man whose phone is ringing**
+
+**Частые ошибки**
+
+- **the girl who her phone rang** ✗ → **the girl whose phone rang** ✓ — «у которого» = whose.
+- **the man whose the car** ✗ → **the man whose car** ✓ — артикль не нужен, как после her.
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3200 | У меня есть друг, у которого сестра — пилот. | I have a friend whose sister is a pilot. |
+| 3201 | Это соседи, чья собака лает всю ночь. | These are the neighbours whose dog barks all night. |
+| 3202 | Мужчина, чью машину мы взяли, живёт наверху. | The man whose car we borrowed lives upstairs. |
+| 3203 | Я работаю в компании, офис которой в Лиссабоне. | I work for a company whose office is in Lisbon. |
+| 3204 | Кафе, владелец которого из Италии, закрылось. | The café whose owner is from Italy has closed. |
+
+---
+
+#### Exercises
+
+**Ex 32 · MultipleChoice · CHOICE** *(ID: 251)*
+
+"Do you know the girl ___ laptop was stolen?"
+
+- who's
+- **whose** ✓
+- who
+
+*Explanation:* ноутбук принадлежит девушке — «у которой украли ноутбук», значит whose. Who's = who is, а who без whose оставляет laptop без хозяина.
+
+---
+
+**Ex 33 · Transformation** *(ID: 115)*
+
+Задание: соедини два предложения в одно через whose.
+
+1. "I have a cousin. His wife is a nurse." → **"I have a cousin whose wife is a nurse."**
+2. "Meet the girl. Her brother sings." → **"Meet the girl whose brother sings."**
+3. "I know a shop. Its prices are low." → **"I know a shop whose prices are low."**
+
+*Explanation:* his, her и its во втором предложении указывают на то же слово, что в первом, поэтому их место занимает whose. Для магазина тоже whose — это слово работает и с вещами.
+
+---
+
+**Ex 34 · WordArrangement** *(ID: 225)*
+
+RU: Это женщина, у которой украли сумку.
+
+Правильное предложение: **That's the woman whose bag was stolen.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| That's | — |
+| the | — |
+| woman | — |
+| whose | — |
+| bag | — |
+| was | — |
+| stolen | — |
+| who | ✗ |
+| her | ✗ |
+| who's | ✗ |
+| which | ✗ |
+
+*Explanation:* «у которой» — это whose: Her bag was stolen → the woman whose bag was stolen. Who her bag — русский порядок, который по-английски не работает, who's значит who is, а which говорят про вещи.
+
+---
+
+#### AI Exercise
+
+**ID:** relative_clauses_card698_ex1
+**Title:** "У которого"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст русское предложение со словами «у которого», «чей» или похожими. Напишите его по-английски."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о whose. Он знает: whose — это «чей» (Whose bag is this?), и русское «у которого, у которой» по-английски всегда whose (the girl whose phone rang — девушка, у которой зазвонил телефон); whose встаёт на место her, his, their, its: Her phone rang → the girl whose phone rang; после whose всегда существительное и артикля нет, как после her (the man whose the car неверно); существительное с whose бывает и дополнением: the man whose car we borrowed (We borrowed his car); whose работает и с вещами: a company whose office is in Lisbon, a café whose owner is from Italy; книжный of which он только узнаёт; ловушки: the girl who her phone rang неверно, the girl which phone rang неверно; who's — это who is или who has (the man who's calling — который звонит), а не whose. Из прошлых карточек темы он уже знает who, which, that, пропуск связки, предлог в конце, where, when, why и the way. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect, косвенную речь со сдвигом времён; внутри этой темы ещё не прошёл сокращённые обороты (the letter sent yesterday) и запятые перед who и which — в задании их не используй; поэтому главное слово всегда нарицательное (друг, сосед, компания), а не имя и не «моя сестра» — иначе понадобится запятая. ЗАДАНИЕ: дай пользователю ОДНО русское предложение с придаточным и попроси сказать его по-английски. В условии не подсказывай, какую связку брать. Бери только знакомые слова из присланного списка слов пользователя, чтобы трудность была в связке, а не в незнакомой лексике. ДЕРЖИ ФРАЗУ ПРОСТОЙ: 6-11 слов, одно придаточное, время чаще Present Simple и Past Simple, иногда Present Perfect или страдательный залог (украли, сломали); сложных сюжетов не выдумывай. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. «у которого» + что-то с ним случилось (Девушка, у которой сломался телефон, очень расстроена). 2. «у которого» + кто-то из родни или чья-то вещь (У меня есть сосед, у которого брат — повар). 3. вещь или компания в родительном падеже (Магазин, владелец которого живёт наверху, закрылся). 4. «чью» — существительное с whose как дополнение (Мужчина, чью машину мы взяли, — мой дядя). 5. ГРАНИЦА: обычное «который» без принадлежности (Девушка, которая мне звонила, — моя коллега) — здесь нужен who, а не whose. Пункт 5 бери примерно в каждом четвёртом запуске. Образцы дословно не повторяй. ОЦЕНКА: верным считай whose с существительным без артикля; в пункте 5 — who или that. Если «у которого есть» переведено через who has (a neighbour who has a brother) — засчитай, если смысл тот же, и одной строкой покажи вариант с whose. Если стоит who her или who his (the girl who her phone broke) — скажи, что по-английски «у которого» = «чей», и её место занимает whose. Если стоит which phone или who phone — скажи, что нужно whose. Если после whose стоит артикль (whose the phone) — напомни, что после whose, как после her, артикля нет. Если написано who's вместо whose — скажи, что who's = who is, и покажи, что тогда получилось бы. Если whose стоит там, где принадлежности нет (пункт 5) — скажи, что здесь девушка сама делает действие, нужен who. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Скажите по-английски: У меня есть сосед, у которого брат — повар.'
+
+#### Clarification Options
+
+- Почему «у которого» переводится как whose?
+- Можно ли сказать whose про вещь, а не про человека?
+- Как не перепутать whose и who's?
+
+---
+
+### Words8r Sync · Где, когда, чей
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|--------------|
+| place | место | [pleɪs] |
+| area | район, область, зона | [ˈeəriə] |
+| owner | владелец, хозяин | [ˈəʊnə] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 39 | 40 |
-| Microtopic | 256 | 257 |
-| Card | 695 | 696 |
-| Example | 3189 | 3190 |
-| Слова курса (course_word) | 917 | 918 |
-| MultipleChoice · CHOICE | 250 | 251 |
-| MultipleChoice · FORWARD_CHOICE | 275 | 276 |
+| Microtopic | 257 | 258 |
+| Card | 698 | 699 |
+| Example | 3204 | 3205 |
+| Слова курса (course_word) | 920 | 921 |
+| MultipleChoice · CHOICE | 251 | 252 |
+| MultipleChoice · FORWARD_CHOICE | 276 | 277 |
 | MultipleChoice · REVERSE_CHOICE | 116 | 117 |
-| TrueFalse | 248 | 249 |
-| WordArrangement | 224 | 225 |
-| TextInput | 133 | 134 |
-| Matching | 123 | 124 |
-| ErrorCorrection | 241 | 242 |
+| TrueFalse | 249 | 250 |
+| WordArrangement | 225 | 226 |
+| TextInput | 134 | 135 |
+| Matching | 124 | 125 |
+| ErrorCorrection | 242 | 243 |
 | FindTheOdd | 134 | 135 |
-| Categorization | 156 | 157 |
+| Categorization | 157 | 158 |
 | TableFill | 50 | 51 |
-| Transformation | 114 | 115 |
+| Transformation | 115 | 116 |
 | ConstructionMeaning | 96 | 97 |
 | DialogRestore | 106 | 107 |

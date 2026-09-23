@@ -7745,19 +7745,24 @@ theory/
 │   │       «не заканчивай предлогом». Опора: `who she works with` (Card 346). AI: RU→EN с «с
 │   │       которым / о котором», место («в котором» = where) исключено.
 │   │
-│   ├── МТ · where / when / whose · Где, когда, чей  (3 карточки; слив: place · area · owner)
-│   │   ├── Card · where = «в котором»
-│   │   │   ⭐ ПРОВЕРКА «ТАМ»: `I was born there` → `the city where I was born` ✓; `I visited there` ✗
-│   │   │     → `I visited it` → `the city (that) I visited` ✓. Ловушка `the city where I visited` ✗.
-│   │   │   Три равных варианта: `where I live` = `that I live in` = `in which I live`.
-│   │   ├── Card · when, why и the way
-│   │   │   `the day (when / that / ∅) we met` · `the reason (why) I'm calling` · `the way (that) he
-│   │   │   talks`. `the way how` ✗ ← калька «то, как»: либо the way, либо how. Одной строкой развести
-│   │   │   when-союз (Card 97) и when после слова времени.
-│   │   └── Card · whose — «чей» и «у которого»
-│   │       «Девушка, у которой зазвонил телефон» → `the girl whose phone rang` (не who's, не which).
-│   │       Бывает и про вещи: `a company whose office is in Lisbon`. `who's` ≠ `whose` — одной
-│   │       строкой. `of which` — на узнавание.
+│   ├── МТ257 · where / when / whose · Где, когда, чей (3 карточки; слив: place · area · owner) ✅ (написана, ALL GREEN 23.09.26)
+│   │   ├── Card 696 · where = «в котором»
+│   │   │   where = прямой аналог русского «где». ⭐ ПРОВЕРКА «ТАМ»: `I grew up there` → `the town
+│   │   │   where I grew up` ✓; `I visited there` ✗ → `I visited it` → `the city (that) I visited` ✓.
+│   │   │   Ловушки: `the city where we visited` ✗ · `the city where is famous` ✗ (после where всегда
+│   │   │   подлежащее; место-подлежащее → which) · `the flat where I live in` ✗ (предлог уже внутри).
+│   │   │   Три равных пути: `where we met` = `(that) we met in` = `in which we met`. Кстати: после
+│   │   │   place where выбрасывают. AI: RU→EN про место, половина запусков — границы.
+│   │   ├── Card 697 · when, why и the way
+│   │   │   `the day (when / that / ∅) we met`, проверка «тогда»: `the day I'll never forget` — when ✗.
+│   │   │   `the reason (why) I'm calling` (for which — книжно). `the way how` ✗ ← калька «то, как»:
+│   │   │   либо the way, либо how. Плашкой развести when-союз (тема «Части речи») и when после слова
+│   │   │   времени. Без AI.
+│   │   └── Card 698 · whose — «чей» и «у которого»
+│   │       «у которого» = «чей»: `Her phone rang` → `the girl whose phone rang`; `who her` ✗, `which
+│   │       phone` ✗, артикля после whose нет (`whose the car` ✗), whose-существительное бывает
+│   │       дополнением (`whose car we borrowed`). Про вещи: `a company whose office is in Lisbon`.
+│   │       `who's` ≠ `whose` (раскрой в who is). `of which` — Кстати на узнавание. AI: RU→EN.
 │   │
 │   ├── МТ · Reduced Clauses · Причастие вместо «который»  (2 карточки; слив: passenger · to arrest · to injure)
 │   │   ⬅️ ДОЛГ ИЗ «Passive Voice», МТ251 Card 684 (написана 22.09.2026, проверено по факту): там
@@ -8540,6 +8545,10 @@ theory/
 │       │   │   • ⭐ `That's the way!` — одобрение: «вот так! молодец!» (то же, что `Attaboy`).
 │       │   │   ⚠️ Опора без дубля: механика «связка + целая часть с подлежащим» разобрана в
 │       │   │     Linking Words (МТ98) — здесь строка-напоминание, не второй разбор.
+│       │   │   ⚠️ `the way` + часть = «то, как» УЖЕ введено в «Relative Clauses», Card 697 (`I like the
+│       │   │     way he talks`, ловушка `the way how` ✗, плашка-анонс сюда). Здесь — напомнить одной
+│       │   │     строкой по названию темы («мы уже встречали в теме «Относительные придаточные»»),
+│       │   │     ловушку `the way how` заново не разбирать; новое здесь — готовые обороты ниже.
 │       │   ├── Card · СПОСОБ И ВЗГЛЯД НА ВЕЩИ — «the best way to learn», «my way», «in a different
 │       │   │   way», «no other way», «ways of doing it». Плюс обороты рассуждения:
 │       │   │   • ⭐ `in a way` / `in some ways` = «в некотором смысле, отчасти» — смягчитель, которым
