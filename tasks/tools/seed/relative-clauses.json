@@ -25,6 +25,13 @@
       "title": "who / which / that · Человек или вещь",
       "order": 2,
       "searchKeywords": "which про людей, животные who или which, согласование после who, everything what, what или that"
+    },
+    {
+      "id": 256,
+      "topicId": 39,
+      "title": "Leaving Out That · Пропуск «который» и предлог в конце",
+      "order": 3,
+      "searchKeywords": "можно ли убрать that, whom или who, предлог в конце предложения, in which, с которым по-английски"
     }
   ],
   "grammar_cards": [
@@ -1021,6 +1028,459 @@
         "Когда what, а когда that, если по-русски в обоих случаях «что»?",
         "Почему после the only не ставят which?"
       ]
+    },
+    {
+      "id": 694,
+      "microtopicId": 256,
+      "title": "The man I saw — когда связку выбрасывают",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "По-русски «который» не выбросишь никогда. Попробуйте сказать «фильм, мы смотрели вчера, был скучный» — фраза разваливается. А английский выбрасывает связку постоянно, и в живой речи даже чаще, чем оставляет:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The film we watched yesterday was boring.** — дословно «фильм мы смотрели вчера был скучный», по-живому «фильм, который мы смотрели вчера, был скучным»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Связки нет вообще — ни `that`, ни `which`. Для носителя это самая обычная фраза, а русскому глазу в ней не хватает слова. Разберёмся, почему английскому так можно и когда именно."
+        },
+        {
+          "type": "heading",
+          "text": "Почему английскому можно, а русскому нельзя"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «который» держит на себе падеж: «фильм, **который** шёл», «фильм, **которого** не было», «фильм, **который** мы смотрели». Выброси это слово — и пропадёт единственное, что связывало две части фразы. Слову «фильм» больше не за что зацепиться."
+        },
+        {
+          "type": "paragraph",
+          "text": "Английский связь показывает не окончанием, а порядком слов, — это мы видим весь курс. Посмотрите, что стоит подряд в **the film we watched**. Сразу за существительным идёт новое подлежащее со своим глаголом. Для английского уха это однозначный сигнал: началось новое предложение, оно описывает film, а сам film в нём — то, что смотрели. Шов виден и без связки, поэтому связка здесь ничего не добавляет, и её спокойно выбрасывают."
+        },
+        {
+          "type": "heading",
+          "text": "Когда можно, а когда нельзя"
+        },
+        {
+          "type": "paragraph",
+          "text": "Выбросить можно только связку-дополнение. Проверка знакома по вводной микротеме: режем фразу на два предложения и ставим существительное на место связки."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the film that we watched** → **We watched the film.** Существительное встало после глагола — связка работает дополнением, её можно выбросить.",
+            "**the man who called you** → **The man called you.** Существительное встало перед глаголом — связка работает подлежащим, она остаётся."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + that или ничего + подлежащее + глагол"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть и быстрый способ, без разрезания. Посмотрите, что стоит сразу после связки. Там другое подлежащее — `we`, `I`, `Kate` — значит связка дополнение и её можно убрать. Там сразу глагол — значит связка сама делает действие и остаётся на месте."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The man called you is my boss** ✗ → **The man who called you is my boss** ✓. Без `who` слушатель читает **The man called you** как готовое предложение: «мужчина позвонил тебе». А хвост **is my boss** повисает, ему не к чему прицепиться. Связку-подлежащее не выбрасывают, на ней держится вся фраза."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Лишнее it в конце"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторая ошибка идёт с обратной стороны. По-русски мы видим «которую» и чувствуем: дополнение у глагола есть. В английской фразе без связки дополнения не видно, глагол будто висит без объекта — и рука дописывает его сама."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The jacket I bought it** ✗ → **the jacket I bought** ✓. Место дополнения уже заняла связка, пусть и невидимая. Добавить `it` — значит поставить второе дополнение туда, где уже есть одно. Это та же ошибка, что **a friend who he lives** из прошлой микротемы, только с другого конца."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как читать такие фразы"
+        },
+        {
+          "type": "paragraph",
+          "text": "В чужой речи связку выбрасывают так часто, что этот навык нужен больше, чем умение строить. Признак простой: существительное, а сразу за ним подлежащее с глаголом. Значит, между ними спрятано «который»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The keys I lost were in my bag.** — ключи, которые я потерял, были в сумке.",
+            "**Is this the coffee Kate makes?** — это кофе, который делает Кейт?",
+            "**Everything you need is here.** — всё, что тебе нужно, — здесь."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Последняя фраза — прямое продолжение прошлой микротемы. После everything, the only thing и превосходной степени that тоже выбрасывают, если он дополнение: **the best film I've ever seen**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Внутри спрятанного придаточного может стоять любое пройденное время и любая конструкция: **the series we've been watching**, **the things I have to do**, **someone you can trust**, **the email I didn't answer**. Споткнулись на двух подлежащих подряд — мысленно вставьте «который», и фраза сложится."
+        },
+        {
+          "type": "heading",
+          "text": "Опора из «Частей речи»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы уже видели, как выбрасывают `that`: **I think she's right** вместо **I think that she's right**. Приём тот же, но условие другое. После think `that` можно выбросить всегда. В придаточном с «который» — только когда связка работает дополнением."
+        },
+        {
+          "type": "heading",
+          "text": "whom — книжная форма who"
+        },
+        {
+          "type": "paragraph",
+          "text": "У `who` есть объектная форма `whom`, как у `he` есть `him`. Её ставят туда, где связка работает дополнением: **the woman whom we invited**. По-русски это ровно пара «который ↔ которого». Только русский падеж живёт в каждой фразе, а английский `whom` остался в основном на письме."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Вариант",
+            "Где звучит"
+          ],
+          "rows": [
+            [
+              "the woman whom we invited",
+              "книжно, официальное письмо"
+            ],
+            [
+              "the woman who / that we invited",
+              "нейтрально"
+            ],
+            [
+              "the woman we invited",
+              "живая речь, самый частый вариант"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Whom` встаёт только на место дополнения, то есть туда, где связку можно было бы выбросить. **the woman whom lives next door** ✗ — здесь связка сама делает действие, нужен **who**. Строить фразы с whom самому не обязательно, достаточно узнавать его в тексте."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Связку выбрасывают, только когда она дополнение: сразу после неё стоит другое подлежащее."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + that или ничего + подлежащее + глагол"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Проверка: **the film that we watched** → **We watched the film.** Существительное после глагола — связку можно выбросить.",
+            "После связки сразу глагол — она подлежащее и остаётся: **the man who called you**.",
+            "**whom** — книжная форма who на месте дополнения; в речи говорят **who** или ничего."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The man called you is my boss** ✗ → **The man who called you is my boss** ✓ — подлежащее не выбрасывают.",
+            "**the jacket I bought it** ✗ → **the jacket I bought** ✓ — место дополнения уже занято связкой."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ключи, которые я потерял, были в моей сумке.",
+          "en": "The keys I lost were in my bag."
+        },
+        {
+          "ru": "Это кофе, который делает Кейт?",
+          "en": "Is this the coffee Kate makes?"
+        },
+        {
+          "ru": "Человек, который тебе звонил, — мой сосед.",
+          "en": "The man who called you is my neighbour."
+        },
+        {
+          "ru": "Всё, что тебе нужно, — здесь.",
+          "en": "Everything you need is here."
+        },
+        {
+          "ru": "Женщина, которую мы пригласили, — известный врач.",
+          "en": "The woman whom we invited is a famous doctor."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, можно ли выбросить who или that?",
+        "Почему The man called you is my boss — ошибка?",
+        "Когда нужно whom, а когда хватит who?"
+      ]
+    },
+    {
+      "id": 695,
+      "microtopicId": 256,
+      "title": "Предлог уезжает в конец: the flat I live in",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "По-русски предлог стоит перед «который» и держится за него: «квартира, **в которой** я живу», «люди, **с которыми** я работаю». Русская рука переносит это в английский как есть — и получает одну из двух ошибок: либо тащит предлог вперёд вместе со связкой, либо теряет его по дороге. А английский предлог уезжает в самый конец фразы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the people I work with** — дословно «люди я работаю с», по-живому «люди, с которыми я работаю»."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Предлог держится за свой глагол"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Глагол/прилагательное + предлог» мы разбирали, что предлог в английском — хвост глагола: **work with**, **listen to**, **wait for**, **rely on**, **care about** учатся одним куском, как одно длинное слово. Этот хвост от глагола не отрывается."
+        },
+        {
+          "type": "paragraph",
+          "text": "Разрежем фразу на два предложения, как делали всю тему: **I work with the people.** Существительное people уходит вперёд — его описывают. А `with` остаётся там, где стоял, — при своём глаголе. Отсюда и конец фразы: **the people I work with**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + подлежащее + глагол + предлог"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Связку при этом можно выбросить или оставить — **the people who I work with**, **the people that I work with** тоже верно. Главное — предлог в конце. Так же работают и прилагательные со своим предлогом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You're the only person I can rely on.** — ты единственный, на кого я могу положиться.",
+            "**These are the things I really care about.** — это вещи, о которых я правда переживаю.",
+            "**The bus we were waiting for never came.** — автобус, которого мы ждали, так и не пришёл.",
+            "**Heights are the thing I'm most afraid of.** — высота — это то, чего я боюсь больше всего."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на третью строку. По-русски «автобус, **которого** мы ждали» — вообще без предлога, а по-английски **for** всё равно на месте: он принадлежит глаголу wait, а не русской фразе."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский предлог держится за «который», потому что у нас он управляет падежом этого слова: «в которой», «с которыми». Английский предлог держится за глагол. Механика знакома по «Косвенным вопросам»: **Who does she work with?** → **who she works with**. Английский вообще любит заканчивать фразу предлогом: **What are you looking at?**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский порядок даёт две ошибки:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**The flat in that I live** ✗ → **the flat I live in** ✓ — предлог утащили вперёд, как «в которой», а после предлога `that` не ставят;",
+                "**The person I rely** ✗ → **the person I rely on** ✓ — предлог потеряли. Rely без on не работает, как «полагаться» без «на»: хвост отрывать нельзя."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Книжный вариант: предлог впереди"
+        },
+        {
+          "type": "paragraph",
+          "text": "Поставить предлог впереди, как в русском, всё-таки можно — но только со связками `which` (про вещи) и `whom` (про людей):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the flat in which I live**",
+            "**the colleague with whom I work**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После предлога связка стоит в роли дополнения, поэтому нужна объектная форма — whom, как **with him**, а не **with he**. У which такая форма одна. А `that` после предлога не встаёт никогда: **in that** ✗, **with who** ✗."
+        },
+        {
+          "type": "heading",
+          "text": "Какой вариант выбрать"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Вариант",
+            "Где звучит"
+          ],
+          "rows": [
+            [
+              "the colleague I work with",
+              "живая речь, самый частый вариант"
+            ],
+            [
+              "the colleague who / that I work with",
+              "нейтрально"
+            ],
+            [
+              "the colleague with whom I work",
+              "книжно, официальное письмо"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русскому книжный вариант кажется самым правильным — он ведь похож на родной. Но в разговоре **with whom I work** звучит примерно как по-русски «коллега, совместно с коим я осуществляю трудовую деятельность». В письме — уместно, в чате — смешно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Правило «нельзя заканчивать предложение предлогом» — школьный миф, его когда-то перенесли в английский из латыни. Носители спокойно говорят **Who are you talking to?** и **That's not what I asked for.**"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Про место есть ещё третий путь — **the flat where I live**. Его разберём в следующей микротеме."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Предлог держится за свой глагол или прилагательное и уезжает в конец фразы."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Существительное + подлежащее + глагол + предлог"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Связку можно выбросить или оставить: **the people I work with** · **the people who I work with**",
+            "Предлог стоит даже там, где в русском его нет: **the bus we were waiting for** — «которого мы ждали»",
+            "Книжно — предлог впереди, и тогда только **which** или **whom**: **the flat in which I live**, **the colleague with whom I work**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the flat in that I live** ✗ → **the flat I live in** ✓ — после предлога that не ставят.",
+            "**the person I rely** ✗ → **the person I rely on** ✓ — предлог от глагола не отрывается."
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Люди, с которыми я работаю, очень весёлые.",
+          "en": "The people I work with are really funny."
+        },
+        {
+          "ru": "Ты единственный человек, на которого я могу положиться.",
+          "en": "You're the only person I can rely on."
+        },
+        {
+          "ru": "Это вещи, о которых я правда переживаю.",
+          "en": "These are the things I really care about."
+        },
+        {
+          "ru": "Автобус, которого мы ждали, так и не пришёл.",
+          "en": "The bus we were waiting for never came."
+        },
+        {
+          "ru": "Коллега, с которым я работаю, живёт в Варшаве.",
+          "en": "The colleague with whom I work lives in Warsaw."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему предлог стоит в самом конце фразы?",
+        "Чем the flat in which I live отличается от the flat I live in?",
+        "Можно ли после предлога поставить that или who?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1125,6 +1585,54 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 222,
       "orderInCard": 3
+    },
+    {
+      "cardId": 694,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 156,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 694,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 241,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 694,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 248,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 694,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 223,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 695,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 133,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 695,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 275,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 695,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 114,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 695,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 224,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1149,6 +1657,14 @@
       "cardId": 693,
       "title": "Всё, что и то, что",
       "userInstruction": "ИИ даст русское предложение со словами «всё, что», «то, что» или похожими. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "relative_clauses_card695_ex1",
+      "cardId": 695,
+      "title": "Предлог в конце",
+      "userInstruction": "ИИ даст русское предложение со словами «с которым», «о котором» или похожими. Напишите его по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -1193,6 +1709,30 @@
       "transcription": "[ˈəʊnli]",
       "microtopicId": 255,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 915,
+      "word": "whom",
+      "translation": "кого, кому (книжная форма who)",
+      "transcription": "[huːm]",
+      "microtopicId": 256,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 916,
+      "word": "to rely",
+      "translation": "полагаться, рассчитывать",
+      "transcription": "[rɪˈlaɪ]",
+      "microtopicId": 256,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 917,
+      "word": "to care",
+      "translation": "переживать, быть небезразличным",
+      "transcription": "[keə]",
+      "microtopicId": 256,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [],
@@ -1227,6 +1767,37 @@
         }
       ],
       "explanation": "во втором предложении глагол должен смотреть на people — нужно speak. В четвёртом подлежащее всей фразы — man, а parents сидят внутри придаточного, поэтому is a dentist. Остальные три собраны верно."
+    },
+    {
+      "id": 248,
+      "statements": [
+        {
+          "en": "The pizza we ordered was cold.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The guy fixed my bike is Lena's brother.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I can't find the charger you gave me.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Where is the umbrella I left it here?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The people whom we met in Dublin were very kind.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "во втором предложении выброшена связка-подлежащее: парень сам починил велосипед, нужно the guy who fixed my bike. В четвёртом лишний it — место дополнения при left уже занято связкой: the umbrella I left here. Whom в пятом стоит на месте дополнения, как и положено."
     }
   ],
   "word_arrangement_exercises": [
@@ -1270,6 +1841,51 @@
         "did"
       ],
       "explanation": "«то, что» без слова перед связкой — это what. This isn't that I ordered — ошибка: that требует слова-предмета перед собой, а его здесь нет."
+    },
+    {
+      "id": 223,
+      "situationRu": "Ситуация: вы показываете другу фото квартиры, которую сняли в Лиссабоне.",
+      "correctSentence": "This is the flat we rented in Lisbon.",
+      "words": [
+        "This",
+        "is",
+        "the",
+        "flat",
+        "we",
+        "rented",
+        "in",
+        "Lisbon"
+      ],
+      "distractors": [
+        "it",
+        "what",
+        "who",
+        "rent"
+      ],
+      "explanation": "связка здесь дополнение — we rented the flat, — поэтому её можно выбросить, а it не нужен: место дополнения уже занято. What не значит «который», who — только про людей, а rent — не прошедшее время."
+    },
+    {
+      "id": 224,
+      "situationRu": "RU: Это проблема, о которой мы не говорили.",
+      "correctSentence": "This is the problem we didn't talk about.",
+      "words": [
+        "This",
+        "is",
+        "the",
+        "problem",
+        "we",
+        "didn't",
+        "talk",
+        "about"
+      ],
+      "distractors": [
+        "it",
+        "what",
+        "talked",
+        "don't",
+        "who"
+      ],
+      "explanation": "about — хвост глагола talk, он уезжает в конец фразы, а it не нужен: проблема уже названа. После didn't глагол стоит в первой форме — talk, а не talked; who — только про людей, what не значит «который»."
     }
   ],
   "multiple_choice_exercises": [
@@ -1356,6 +1972,27 @@
         }
       ],
       "explanation": "перед пропуском нет никакого слова-предмета, а по смыслу нужно «то, что ты мне рассказал». Это и есть what. That и which требуют слова перед собой."
+    },
+    {
+      "id": 275,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Это человек, о котором я тебе рассказывала.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "This is the man about that I told you.",
+          "isCorrect": false
+        },
+        {
+          "text": "This is the man I told you.",
+          "isCorrect": false
+        },
+        {
+          "text": "This is the man I told you about.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«рассказывать о ком-то» — tell somebody about, и about остаётся при глаголе в конце фразы. После предлога that не ставят, а без about выходит «человек, которого я тебе сказала»."
     }
   ],
   "text_input_exercises": [
@@ -1389,6 +2026,39 @@
       ],
       "explanation": "число глагола берём у слова перед связкой: sons и shops — это they, поэтому live и are; charger — это it, поэтому works. Время — своё у каждого придаточного: танцевала вчера — danced.",
       "taskDescription": "Впиши глагол в нужной форме."
+    },
+    {
+      "id": 133,
+      "items": [
+        {
+          "sentence": "Is this the key you were looking ___?",
+          "contextRu": "искал",
+          "answer": "for",
+          "alternatives": []
+        },
+        {
+          "sentence": "The hotel we stayed ___ was near the sea.",
+          "contextRu": "",
+          "answer": "at",
+          "alternatives": [
+            "in"
+          ]
+        },
+        {
+          "sentence": "Who is the girl Denis is talking ___?",
+          "contextRu": "",
+          "answer": "to",
+          "alternatives": []
+        },
+        {
+          "sentence": "It's a topic Gleb is really interested ___.",
+          "contextRu": "",
+          "answer": "in",
+          "alternatives": []
+        }
+      ],
+      "explanation": "предлог — хвост глагола или прилагательного, и он остаётся в конце фразы: look for, stay at или stay in, talk to, interested in. Разрежь фразу: You were looking for the key — предлог стоит там же, где стоял.",
+      "taskDescription": "Впиши пропущенное слово."
     }
   ],
   "dialog_restore_exercises": [],
@@ -1482,6 +2152,25 @@
         }
       ],
       "explanation": "предмет уже назван словом nothing, поэтому дальше нужен that, а не what. В первом варианте внутрь пролез порядок вопроса, в третьем what так и остался."
+    },
+    {
+      "id": 241,
+      "wrongSentence": "The hotel we booked it was very cheap.",
+      "options": [
+        {
+          "text": "The hotel we booked was very cheap.",
+          "isCorrect": true
+        },
+        {
+          "text": "The hotel which we booked it was very cheap.",
+          "isCorrect": false
+        },
+        {
+          "text": "The hotel we booked that was very cheap.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "место дополнения при booked уже заняла спрятанная связка, поэтому it лишний. Во втором варианте связку вернули, но it так и остался. В третьем that уехал в конец и превратился в «то», а фраза сломалась."
     }
   ],
   "construction_meaning_exercises": [],
@@ -1504,6 +2193,25 @@
         }
       ],
       "explanation": "she, it и he во втором предложении — это то же слово, что в первом, поэтому их место занимает связка: про людей who, про фильм which. Второй раз she или he уже не пишем."
+    },
+    {
+      "id": 114,
+      "taskDescription": "соедини два предложения в одно без who, which и that.",
+      "items": [
+        {
+          "original": "This is the sofa. I sleep on it.",
+          "transformed": "This is the sofa I sleep on."
+        },
+        {
+          "original": "This is the pan. I cook pasta in it.",
+          "transformed": "This is the pan I cook pasta in."
+        },
+        {
+          "original": "Where is the cup? I drink tea from it.",
+          "transformed": "Where is the cup I drink tea from?"
+        }
+      ],
+      "explanation": "it во втором предложении — то же, что sofa, pan или cup, поэтому it уходит, а предлог остаётся при своём глаголе, в конце фразы. Потерять его нельзя: sleep on, cook in, drink from."
     }
   ],
   "categorization_exercises": [
@@ -1554,6 +2262,31 @@
         }
       ],
       "explanation": "who — про людей и про своего питомца с кличкой, поэтому Charlie в левой колонке. Паук, поезд, пекарня и банк — «что», а не «кто»: для английского животное без клички и любая организация — вещь, им нужна which."
+    },
+    {
+      "id": 156,
+      "taskDescription": "распредели фразы — можно ли в них выбросить связку.",
+      "categories": [
+        {
+          "title": "Можно выбросить",
+          "items": [
+            "the cake that Ira baked",
+            "the song which we heard",
+            "the boy who I helped",
+            "the bag that you bought"
+          ]
+        },
+        {
+          "title": "Нельзя выбросить",
+          "items": [
+            "the cake that fell on the floor",
+            "the song which made me cry",
+            "the boy who helped me",
+            "the dog that bit him"
+          ]
+        }
+      ],
+      "explanation": "в левой колонке сразу после связки стоит другое подлежащее — Ira, we, I, you, — значит связка дополнение: Ira baked the cake. В правой после связки сразу глагол: the cake fell, the boy helped me, — связка сама делает действие, без неё фраза развалится."
     }
   ],
   "find_the_odd_exercises": [
