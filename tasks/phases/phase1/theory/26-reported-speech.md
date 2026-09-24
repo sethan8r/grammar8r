@@ -2221,26 +2221,357 @@ RU: Нам надо поговорить о деньгах.
 
 ---
 
+## Microtopic 266 — Reported Questions · Пересказать вопрос
+
+**ID:** 266
+**Теги:** спросил ли по-английски, asked if или asked that, порядок слов после asked, короткие ответы в прошедшем, разговор своими словами
+
+---
+
+### Card 717 · asked + вопрос на шаг назад
+
+**ID:** 717
+
+#### Theory
+
+Утром у вас было собеседование:
+
+@Megan: Where do you live?
+@Me: In Riga.
+@Megan: Do you have a car?
+@Me: No, I don't.
+
+Вечером друг спрашивает, о чём вас спрашивали. Вы пересказываете:
+
+- **She asked me where I lived.**
+- **She asked if I had a car.**
+
+В этих двух фразах работают сразу два механизма, и оба нам уже знакомы.
+
+**Два знакомых механизма сразу**
+
+- **Вопрос становится частью предложения.** Порядок слов — как в утверждении, `do`, `does` и `did` выпадают, а если вопросительного слова нет, его место занимает `if` («ли»). Всё это мы разобрали в «Косвенных вопросах» — заново не объясняем.
+- **Время спускается на ступеньку.** Вопрос прозвучал утром, пересказываем вечером — значит, работает лестница из «Сдвига времён»: **do you live** → **I lived**, **do you have** → **I had**.
+
+Новое здесь одно: оба механизма работают в одной фразе одновременно.
+
+**Формула:** asked (кого) + if / вопросительное слово + кто + глагол на шаг назад
+
+**Разные вопросы на лестнице**
+
+| Вопрос | Пересказ |
+|--------|----------|
+| Where do you work? | asked where I worked |
+| Are you busy? | asked if I was busy |
+| Have you been to Rome? | asked if I had been to Rome |
+| Will you come? | asked if I would come |
+| Who called? | asked who had called |
+
+В последней строке вопросительное слово само работает подлежащим. Порядок у такого вопроса и так прямой — мы видели это в «Когда менять нечего», — а время всё равно спускается: **called** → **had called**.
+
+**Ловушка:** вернуть вопросительный порядок вместе со сдвигом. **He asked where did I live** ✗ и **He asked where was the station** ✗ → **He asked where I lived** ✓, **He asked where the station was** ✓. Внутри пересказа вопроса уже нет — есть рассказ о нём.
+
+**Что нового по сравнению с косвенными вопросами**
+
+- Человека можно назвать, а можно и нет: **She asked me where I lived** и **She asked where I lived** — оба верны.
+- Вместо **asked** часто говорят **wanted to know** — «хотел узнать»: **She wanted to know if the shop was open.** Или **wondered** — «интересовался про себя»: **I wondered where he was.**
+- Вопросительного знака в конце нет: знак ставит главная часть, а она здесь — утверждение. Мы разбирали это в «Знак в конце ставит главная часть».
+
+**Ловушка:** **She asked me that I was free** ✗ → **She asked me if I was free** ✓. Русское «спросила, свободен ли я» рука переводит через привычное `that`, но у вопроса `that` не бывает: его место занимают `if` или вопросительное слово.
+
+**Вопросы с модальными глаголами**
+
+- **Can I help?** → **He asked if he could help.**
+- **Shall I open the window?** → **She asked if she should open the window.** У `shall` в пересказе своя пара — `should`.
+- **What should I do?** → **He asked what to do.** Короче и естественнее, чем **asked what he should do**, — это знакомая сборка из «Wh + инфинитив».
+
+**Особые вопросы**
+
+- Отрицательный вопрос: **Don't you like it?** → **She asked if I didn't like it.** Так говорят, но чаще упрощают до **She asked if I liked it**.
+- Вопрос с выбором: **Tea or coffee?** → **He asked if I wanted tea or coffee.**
+- Слова времени меняются по тем же правилам: **Are you free tomorrow?**, а пересказываем через неделю → **She asked if I was free the next day.**
+
+**Кстати:** **I was wondering if you could…** — «я тут подумал, не могли бы вы…». Форма похожа на **wondered**, но это уже не пересказ, а очень вежливая просьба. Мы встречали её в Past Continuous и в «Модальных глаголах», а в работе разберём в теме «Социальное взаимодействие».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Пересказ вопроса — это косвенный вопрос плюс сдвиг на ступеньку: прямой порядок, без do/does/did, if вместо «ли», время вниз.
+
+**Формула:** asked (кого) + if / вопросительное слово + кто + глагол на шаг назад
+
+- **Where do you work?** → **asked where I worked**
+- **Are you busy?** → **asked if I was busy**
+- **Who called?** → **asked who had called**
+- **Can I…?** → **asked if he could…**, **Shall I…?** → **asked if he should…**
+- **What should I do?** → **asked what to do**
+- Вместо asked — **wanted to know**, **wondered**; знака «?» в конце нет
+
+**Частые ошибки**
+
+- **He asked where did I live** ✗ → **He asked where I lived** ✓
+- **She asked me that I was free** ✗ → **She asked me if I was free** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3290 | Они спросили, есть ли у меня машина. | They asked if I had a car. |
+| 3291 | Он спросил, где находится вокзал. | He asked where the station was. |
+| 3292 | Вера спросила, кто звонил. | Vera asked who had called. |
+| 3293 | Он спросил, может ли он помочь. | He asked if he could help. |
+| 3294 | Она хотела узнать, открыт ли магазин. | She wanted to know if the shop was open. |
+
+---
+
+#### Exercises
+
+**Ex 49 · Transformation** *(ID: 120)*
+
+Задание: перескажи вопросы Эммы — начни с She asked.
+
+1. "Where do you buy bread?" → **"She asked where I bought bread."**
+2. "What are you reading?" → **"She asked what I was reading."**
+3. "How old is your son?" → **"She asked how old my son was."**
+
+*Explanation:* внутри пересказа порядок как в утверждении, и do выпадает: where I bought. Время спускается на ступеньку: do you buy → I bought, are you reading → I was reading, is → was. Your становится my.
+
+---
+
+**Ex 50 · WordArrangement** *(ID: 234)*
+
+RU: Нина спросила, сколько стоит билет.
+
+Правильное предложение: **Nina asked how much the ticket was.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Nina | — |
+| asked | — |
+| how | — |
+| much | — |
+| the | — |
+| ticket | — |
+| was | — |
+| is | ✗ |
+| did | ✗ |
+| does | ✗ |
+| that | ✗ |
+
+*Explanation:* после asked порядок как в утверждении: сначала the ticket, потом was. Is спускается в was — вопрос прозвучал в прошлом. That у вопроса не бывает, а did и does внутри пересказа выпадают.
+
+---
+
+**Ex 51 · ErrorCorrection** *(ID: 249)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Oleg asked me that I liked jazz."
+
+- Oleg asked me did I like jazz.
+- **Oleg asked me if I liked jazz.** ✓
+- Oleg asked me that did I like jazz.
+
+*Explanation:* у пересказанного вопроса нет that — вместо «ли» стоит if. Did внутри пересказа выпадает, а время уже несёт сам глагол: liked.
+
+---
+
+**Ex 52 · MultipleChoice · CHOICE** *(ID: 255)*
+
+"Katya asked ___ the flowers."
+
+RU: Катя спросила: «Where should I put the flowers?»
+
+- where should she put
+- where she should to put
+- **where to put** ✓
+
+*Explanation:* вопрос «что мне делать, куда мне это деть» в пересказе коротко собирается через вопросительное слово + to: where to put. Where should she put — вопросительный порядок, а после should to не ставится.
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card717_ex1
+**Title:** "Перескажи вопрос"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Перескажите вопрос одним предложением, начав с имени человека и asked."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о пересказе вопросов. Он знает: пересказ вопроса — это косвенный вопрос плюс сдвиг времени на ступеньку; формула asked (кого) + if или вопросительное слово + кто + глагол на шаг назад; порядок как в утверждении, do, does и did выпадают, вместо «ли» ставится if (whether тоже верно); время спускается по лестнице: Where do you work? → asked where I worked, Are you busy? → asked if I was busy, Have you been to Rome? → asked if I had been, Will you come? → asked if I would come, Who called? → asked who had called (вопросительное слово-подлежащее, порядок и так прямой); asked me и asked без человека оба верны; вместо asked можно wanted to know или wondered; знака вопроса в конце нет; that у вопроса не бывает (She asked me that I was free неверно); Can I help? → asked if he could help, Shall I open the window? → asked if he should, What should I do? → asked what to do; отрицательный вопрос Don't you like it? → asked if I didn't like it или проще asked if I liked it; вопрос с выбором Tea or coffee? → asked if I wanted tea or coffee; слова времени меняются, если момент сменился (tomorrow → the next day). Главная ловушка: вернуть вопросительный порядок (He asked where did I live, He asked where was the station неверно). С прошлых микротем он знает лестницу сдвига, замену лиц (you → I) и то, что после глаголов в настоящем (asks) время не сдвигают. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect; внутри этой темы ещё не прошёл пересказ просьб и приказов (Could you…? → asked me to), глаголы вроде refuse и deny, пересказ коротких ответов — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю ОДИН вопрос: английское имя и его вопрос одним предложением, обращённый к пользователю, и скажи, что пересказ идёт вечером того же дня или позже. Попроси пересказать одним предложением через asked. Вопрос — настоящий вопрос за информацией, не вежливая просьба сделать что-то. В условии не подсказывай, if или вопросительное слово и какое время. ДЕРЖИ ПРОСТЫМ: вопрос 3-7 слов, бытовая лексика уровня A2, одно действие; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. вопрос с вопросительным словом и do/does (What do you do?). 2. вопрос с to be (Are you tired?). 3. вопрос в Past Simple (Where did you go?). 4. вопрос в Present Perfect (Have you seen my keys?). 5. вопрос с will или going to (Are you going to move?). 6. Can I…? или Can you…? как вопрос об умении (Can you drive?). 7. Shall I…? 8. What should I do? или Where should I go? 9. вопросительное слово-подлежащее (Who told you?). 10. отрицательный вопрос (Aren't you hungry?). 11. вопрос с выбором (Train or bus?). 12. ГРАНИЦА: вопрос со словом tomorrow, а пересказ через неделю. Образцы дословно не повторяй. ОЦЕНКА: верен пересказ с прямым порядком, без do/does/did, с if или вопросительным словом и со временем на ступеньку ниже. Если вернул вопросительный порядок (asked where did I go, asked what was I doing) — скажи, что внутри пересказа вопроса уже нет, порядок как в утверждении. Если поставил that вместо if — скажи, что у вопроса that не бывает, «ли» — это if. Если не сдвинул время — напомни, что вопрос прозвучал в прошлом и глагол спускается на ступеньку. Если в пункте 3 оставил Past Simple (asked where I went) — засчитай как допустимое в разговоре и одной строкой покажи had gone. Если в пункте 8 написал asked what he should do — засчитай и одной строкой покажи короче: asked what to do. Если в пункте 9 вставил did или развернул порядок (asked who did tell me) — скажи, что вопросительное слово само подлежащее, порядок остаётся, а время спускается. Если в пункте 10 упростил до утвердительного if — засчитай. Если в пункте 12 оставил tomorrow — скажи, что момент сменился и нужно the next day. Whether вместо if засчитывай. Если поставил знак вопроса в конце — одной строкой скажи, что он здесь не нужен, но ошибкой не считай. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Утром Лили спросила вас: «Where did you buy that jacket?» Вечером вы пересказываете это подруге. Перескажите вопрос Лили через asked.'
+
+#### Clarification Options
+
+- Почему после asked нельзя сохранить порядок вопроса?
+- Когда ставить if, а когда вопросительное слово?
+- Почему нельзя сказать asked me that?
+
+---
+
+### Card 718 · Пересказать разговор целиком
+
+**ID:** 718
+
+#### Theory
+
+Живой разговор — это не одни вопросы. Человек спросил, мы ответили, он ответил нам. Пересказывая, мы передаём и вопросы, и ответы — в том числе самые короткие.
+
+**Короткие ответы тоже спускаются**
+
+**Are you coming?** — **Yes, I am.** Короткий ответ повторяет помощник из вопроса: `am`. В пересказе этот помощник спускается на ступеньку, как и всё остальное: **She asked if I was coming, and I said I was.**
+
+Это то же правило первого слова, что в «Сдвиге времён», только от глагола остался один помощник:
+
+| Короткий ответ | В пересказе |
+|----------------|-------------|
+| Yes, I am. | I said I was. |
+| No, I can't. | I said I couldn't. |
+| Yes, I have. | I said I had. |
+| No, I won't. | I said I wouldn't. |
+| Yes, I do. | I said I did. |
+
+**Ловушка:** **She asked if I was coming, and I said I am** ✗ → **and I said I was** ✓. Ответ пересказывается вместе с вопросом — и спускается туда же.
+
+Можно и проще: **and I said yes** или **and I said no**. Это тоже верно — мы знаем это по **said yes** из «Три «сказал» и два «говорить»».
+
+**said so и thought so**
+
+Когда ответ — «кажется, да», «так и есть», английский ставит `so` на место целой фразы:
+
+- **Is it true?** — **I think so.** → **I said I thought so.**
+- **Is he angry?** — **He said so.** — «он сам так сказал»
+
+**Пересказ абзацем**
+
+Представим переписку с Томом:
+
+@Tom: Sorry, I'm running late. The bus hasn't come.
+@Me: No problem. When will you be here?
+@Tom: At eight. Have you ordered yet?
+@Me: Not yet.
+
+Пересказываем её друзьям за столом: **Tom texted me. He said he was running late because the bus hadn't come. I asked when he would be there, and he said at eight. Then he asked if we had ordered yet, and I said we hadn't.**
+
+Посмотрите, что происходит:
+
+- каждая реплика спустилась на ступеньку: **I'm running** → **he was running**, **hasn't come** → **hadn't come**, **will you be** → **he would be**;
+- рамка меняется по ходу: **said**, **asked**, снова **said**; `said that` не повторяем перед каждой фразой;
+- реплики сшиты связками из «Связной речи»: **because**, **and**, **then**.
+
+**Кстати:** по-русски мы тоже не говорим «он сказал, что опаздывает, он сказал, что автобус не пришёл, он сказал, что будет в восемь». Мы говорим «сказал, что опаздывает — автобус не пришёл, будет в восемь». Английский поступает так же: одна рамка на мысль, а сдвиг держится до конца абзаца сам.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Короткие ответы в пересказе спускаются вместе с вопросом: повторяем помощник, сдвинутый на ступеньку.
+
+- **Yes, I am** → **I said I was**, **No, I can't** → **I said I couldn't**
+- **Yes, I have** → **I said I had**, **Yes, I do** → **I said I did**
+- Проще тоже можно: **I said yes / no**
+- **I think so** → **I said I thought so**
+- Абзацем: рамки **said / asked** меняем по ходу, **said that** перед каждой фразой не повторяем
+
+**Частые ошибки**
+
+- **and I said I am** ✗ → **and I said I was** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3295 | Она спросила, приду ли я, и я сказал, что приду. | She asked if I was coming, and I said I was. |
+| 3296 | Он спросил, умею ли я водить, и я сказал, что нет. | He asked if I could drive, and I said I couldn't. |
+| 3297 | Я сказал, что, кажется, да. | I said I thought so. |
+| 3298 | Том сказал, что опаздывает, потому что автобус не пришёл. | Tom said he was running late because the bus hadn't come. |
+| 3299 | Потом он спросил, заказали ли мы уже. | Then he asked if we had ordered yet. |
+
+---
+
+#### Exercises
+
+**Ex 53 · Matching** *(ID: 128)*
+
+Задание: соедини короткий ответ с тем, как он звучит в пересказе.
+
+| Ответ | Пересказ |
+|-------|----------|
+| No, I'm not. | I said I wasn't. |
+| Yes, I can. | I said I could. |
+| No, I haven't. | I said I hadn't. |
+| Yes, I will. | I said I would. |
+| No, I don't. | I said I didn't. |
+
+*Explanation:* короткий ответ повторяет помощник из вопроса, и в пересказе этот помощник спускается на ступеньку: am → was, can → could, have → had, will → would, do → did.
+
+---
+
+**Ex 54 · DialogRestore** *(ID: 111)*
+
+A: "Did you ask Ben if he could help us?"
+B: ___
+
+- Yes, and he said he did.
+- **Yes, and he said he could.** ✓
+- Yes, and he said he was.
+
+*Explanation:* спрашивали, может ли Бен помочь, — could help, поэтому и короткий ответ держится за тот же помощник: he could. Did и was относятся к другим вопросам.
+
+---
+
+**Ex 55 · TrueFalse** *(ID: 256)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | He asked if I was tired, and I said I was. | ✓ |
+| 2 | Mum asked if I had eaten, and I said I have. | ✗ |
+| 3 | They asked if we could stay, and we said we could. | ✓ |
+| 4 | I asked if the shop was open, and she said it wasn't. | ✓ |
+| 5 | She asked if I liked it, and I said I do. | ✗ |
+
+*Explanation:* короткий ответ спускается вместе с вопросом: had eaten — I said I had, liked — I said I did. Остальные верны: was, could, wasn't держатся за тот же помощник, что в вопросе.
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card718_ex1
+**Title:** "Перескажи разговор"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Прочитайте короткий разговор и перескажите его двумя-тремя предложениями."
+**Prompt Template:** "Контекст: пользователь только что прошёл микротему о пересказе вопросов и разговора целиком. Он знает: пересказ вопроса — косвенный вопрос плюс сдвиг на ступеньку (Where do you work? → asked where I worked; Are you busy? → asked if I was busy; Who called? → asked who had called; What should I do? → asked what to do), that у вопроса не бывает, вопросительный порядок не возвращают; короткий ответ повторяет помощник, и в пересказе он спускается на ступеньку (Yes, I am → I said I was; No, I can't → I said I couldn't; Yes, I have → I said I had; No, I won't → I said I wouldn't; Yes, I do → I said I did), можно и проще — I said yes / no; I think so → I said I thought so; при пересказе абзацем рамки said, asked, told меняют по ходу, said that перед каждой фразой не повторяют, реплики сшивают связками because, and, then, so, а сдвиг держится до конца абзаца. Лестницу сдвига, замену лиц (I → he, you → I) и слов времени он знает с прошлых микротем. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect; внутри этой темы ещё не прошёл пересказ просьб и приказов (Could you…? → asked me to, Don't… → told me not to), глаголы вроде refuse и deny — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю ОДИН короткий разговор из трёх-четырёх реплик между английским именем и пользователем (Me), где есть хотя бы один вопрос и хотя бы один короткий ответ, и скажи, что пересказ идёт на следующий день. Попроси пересказать разговор двумя-тремя предложениями. В условии не подсказывай, какие формы брать. ДЕРЖИ ПРОСТЫМ: каждая реплика 2-7 слов, бытовая лексика уровня A2, без слов времени и места внутри реплик, без просьб и команд; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому сюжет и формы выбирай случайно прямо сейчас: 1. договорённость о встрече (Are you free on Saturday? — Yes, I am.). 2. опоздание и вопрос «когда будешь» (When will you be here? — At six.). 3. вопрос о сделанном (Have you called the doctor? — No, I haven't.). 4. вопрос об умении (Can you cook? — Yes, I can.). 5. вопрос с do (Do you like sushi? — No, I don't.). 6. ответ «кажется, да» (Is it far? — I think so.). 7. вопрос «что мне делать» (What should I bring?). Образцы дословно не повторяй. ОЦЕНКА: верен пересказ, где вопросы пересказаны с прямым порядком и if или вопросительным словом, реплики и короткие ответы спущены на ступеньку, лица заменены. Если короткий ответ оставил без сдвига (I said I am) — скажи, что ответ спускается вместе с вопросом. Если короткий ответ взял не тот помощник (Can you cook? → I said I did) — скажи, что ответ держится за помощник из вопроса. Если вернул вопросительный порядок — скажи, что внутри пересказа порядок как в утверждении. Если повторил said that перед каждой фразой — засчитай, но одной строкой покажи, как сшить абзац связками. Любую верную рамку (said, asked, told me, wanted to know) засчитывай; I said yes / no засчитывай. Past Simple без had там, где порядок событий ясен, засчитывай как допустимое в разговоре. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Вчера вы переписывались с Беном. Ben: Are you free on Saturday? Me: Yes, I am. Ben: Can you drive? Me: No, I can't. Перескажите разговор двумя-тремя предложениями.'
+
+#### Clarification Options
+
+- Почему короткий ответ I am в пересказе становится I was?
+- Можно ли просто сказать I said yes?
+- Как пересказать длинный разговор и не повторять he said на каждом шагу?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 40 | 41 |
-| Microtopic | 265 | 266 |
-| Card | 716 | 717 |
-| Example | 3289 | 3290 |
+| Microtopic | 266 | 267 |
+| Card | 718 | 719 |
+| Example | 3299 | 3300 |
 | Слова курса (course_word) | 933 | 934 |
-| MultipleChoice · CHOICE | 254 | 255 |
+| MultipleChoice · CHOICE | 255 | 256 |
 | MultipleChoice · FORWARD_CHOICE | 282 | 283 |
 | MultipleChoice · REVERSE_CHOICE | 121 | 122 |
-| TrueFalse | 255 | 256 |
-| WordArrangement | 233 | 234 |
+| TrueFalse | 256 | 257 |
+| WordArrangement | 234 | 235 |
 | TextInput | 136 | 137 |
-| Matching | 127 | 128 |
-| ErrorCorrection | 248 | 249 |
+| Matching | 128 | 129 |
+| ErrorCorrection | 249 | 250 |
 | FindTheOdd | 137 | 138 |
 | Categorization | 160 | 161 |
 | TableFill | 52 | 53 |
-| Transformation | 119 | 120 |
+| Transformation | 120 | 121 |
 | ConstructionMeaning | 102 | 103 |
-| DialogRestore | 110 | 111 |
+| DialogRestore | 111 | 112 |

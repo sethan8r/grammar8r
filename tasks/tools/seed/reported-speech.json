@@ -46,6 +46,13 @@
       "title": "say, tell, ask · Три «сказал» и два «говорить»",
       "order": 5,
       "searchKeywords": "say или tell, speak или talk, said me или told me, said about, спросил или попросил, told that"
+    },
+    {
+      "id": 266,
+      "topicId": 40,
+      "title": "Reported Questions · Пересказать вопрос",
+      "order": 6,
+      "searchKeywords": "спросил ли по-английски, asked if или asked that, порядок слов после asked, короткие ответы в прошедшем, разговор своими словами"
     }
   ],
   "grammar_cards": [
@@ -2947,6 +2954,455 @@
         "Чем asked me to help отличается от asked me if I could help?",
         "Когда после ask нужен for?"
       ]
+    },
+    {
+      "id": 717,
+      "microtopicId": 266,
+      "title": "asked + вопрос на шаг назад",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Утром у вас было собеседование:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Megan",
+              "text": "Where do you live?"
+            },
+            {
+              "speaker": "Me",
+              "text": "In Riga."
+            },
+            {
+              "speaker": "Megan",
+              "text": "Do you have a car?"
+            },
+            {
+              "speaker": "Me",
+              "text": "No, I don't."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вечером друг спрашивает, о чём вас спрашивали. Вы пересказываете:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She asked me where I lived.**",
+            "**She asked if I had a car.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В этих двух фразах работают сразу два механизма, и оба нам уже знакомы."
+        },
+        {
+          "type": "heading",
+          "text": "Два знакомых механизма сразу"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Вопрос становится частью предложения.** Порядок слов — как в утверждении, `do`, `does` и `did` выпадают, а если вопросительного слова нет, его место занимает `if` («ли»). Всё это мы разобрали в «Косвенных вопросах» — заново не объясняем.",
+            "**Время спускается на ступеньку.** Вопрос прозвучал утром, пересказываем вечером — значит, работает лестница из «Сдвига времён»: **do you live** → **I lived**, **do you have** → **I had**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Новое здесь одно: оба механизма работают в одной фразе одновременно."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Asked (кого) + if / вопросительное слово + кто + глагол на шаг назад"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Разные вопросы на лестнице"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Вопрос",
+            "Пересказ"
+          ],
+          "rows": [
+            [
+              "Where do you work?",
+              "asked where I worked"
+            ],
+            [
+              "Are you busy?",
+              "asked if I was busy"
+            ],
+            [
+              "Have you been to Rome?",
+              "asked if I had been to Rome"
+            ],
+            [
+              "Will you come?",
+              "asked if I would come"
+            ],
+            [
+              "Who called?",
+              "asked who had called"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В последней строке вопросительное слово само работает подлежащим. Порядок у такого вопроса и так прямой — мы видели это в «Когда менять нечего», — а время всё равно спускается: **called** → **had called**."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вернуть вопросительный порядок вместе со сдвигом. **He asked where did I live** ✗ и **He asked where was the station** ✗ → **He asked where I lived** ✓, **He asked where the station was** ✓. Внутри пересказа вопроса уже нет — есть рассказ о нём."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что нового по сравнению с косвенными вопросами"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Человека можно назвать, а можно и нет: **She asked me where I lived** и **She asked where I lived** — оба верны.",
+            "Вместо **asked** часто говорят **wanted to know** — «хотел узнать»: **She wanted to know if the shop was open.** Или **wondered** — «интересовался про себя»: **I wondered where he was.**",
+            "Вопросительного знака в конце нет: знак ставит главная часть, а она здесь — утверждение. Мы разбирали это в «Знак в конце ставит главная часть»."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She asked me that I was free** ✗ → **She asked me if I was free** ✓. Русское «спросила, свободен ли я» рука переводит через привычное `that`, но у вопроса `that` не бывает: его место занимают `if` или вопросительное слово."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопросы с модальными глаголами"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Can I help?** → **He asked if he could help.**",
+            "**Shall I open the window?** → **She asked if she should open the window.** У `shall` в пересказе своя пара — `should`.",
+            "**What should I do?** → **He asked what to do.** Короче и естественнее, чем **asked what he should do**, — это знакомая сборка из «Wh + инфинитив»."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Особые вопросы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Отрицательный вопрос: **Don't you like it?** → **She asked if I didn't like it.** Так говорят, но чаще упрощают до **She asked if I liked it**.",
+            "Вопрос с выбором: **Tea or coffee?** → **He asked if I wanted tea or coffee.**",
+            "Слова времени меняются по тем же правилам: **Are you free tomorrow?**, а пересказываем через неделю → **She asked if I was free the next day.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I was wondering if you could…** — «я тут подумал, не могли бы вы…». Форма похожа на **wondered**, но это уже не пересказ, а очень вежливая просьба. Мы встречали её в Past Continuous и в «Модальных глаголах», а в работе разберём в теме «Социальное взаимодействие»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Пересказ вопроса — это косвенный вопрос плюс сдвиг на ступеньку: прямой порядок, без do/does/did, if вместо «ли», время вниз."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Asked (кого) + if / вопросительное слово + кто + глагол на шаг назад"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Where do you work?** → **asked where I worked**",
+            "**Are you busy?** → **asked if I was busy**",
+            "**Who called?** → **asked who had called**",
+            "**Can I…?** → **asked if he could…**, **Shall I…?** → **asked if he should…**",
+            "**What should I do?** → **asked what to do**",
+            "Вместо asked — **wanted to know**, **wondered**; знака «?» в конце нет"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He asked where did I live** ✗ → **He asked where I lived** ✓",
+            "**She asked me that I was free** ✗ → **She asked me if I was free** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Они спросили, есть ли у меня машина.",
+          "en": "They asked if I had a car."
+        },
+        {
+          "ru": "Он спросил, где находится вокзал.",
+          "en": "He asked where the station was."
+        },
+        {
+          "ru": "Вера спросила, кто звонил.",
+          "en": "Vera asked who had called."
+        },
+        {
+          "ru": "Он спросил, может ли он помочь.",
+          "en": "He asked if he could help."
+        },
+        {
+          "ru": "Она хотела узнать, открыт ли магазин.",
+          "en": "She wanted to know if the shop was open."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после asked нельзя сохранить порядок вопроса?",
+        "Когда ставить if, а когда вопросительное слово?",
+        "Почему нельзя сказать asked me that?"
+      ]
+    },
+    {
+      "id": 718,
+      "microtopicId": 266,
+      "title": "Пересказать разговор целиком",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Живой разговор — это не одни вопросы. Человек спросил, мы ответили, он ответил нам. Пересказывая, мы передаём и вопросы, и ответы — в том числе самые короткие."
+        },
+        {
+          "type": "heading",
+          "text": "Короткие ответы тоже спускаются"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Are you coming?** — **Yes, I am.** Короткий ответ повторяет помощник из вопроса: `am`. В пересказе этот помощник спускается на ступеньку, как и всё остальное: **She asked if I was coming, and I said I was.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это то же правило первого слова, что в «Сдвиге времён», только от глагола остался один помощник:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Короткий ответ",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "Yes, I am.",
+              "I said I was."
+            ],
+            [
+              "No, I can't.",
+              "I said I couldn't."
+            ],
+            [
+              "Yes, I have.",
+              "I said I had."
+            ],
+            [
+              "No, I won't.",
+              "I said I wouldn't."
+            ],
+            [
+              "Yes, I do.",
+              "I said I did."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She asked if I was coming, and I said I am** ✗ → **and I said I was** ✓. Ответ пересказывается вместе с вопросом — и спускается туда же."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Можно и проще: **and I said yes** или **and I said no**. Это тоже верно — мы знаем это по **said yes** из «Три «сказал» и два «говорить»»."
+        },
+        {
+          "type": "heading",
+          "text": "said so и thought so"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда ответ — «кажется, да», «так и есть», английский ставит `so` на место целой фразы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Is it true?** — **I think so.** → **I said I thought so.**",
+            "**Is he angry?** — **He said so.** — «он сам так сказал»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Пересказ абзацем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Представим переписку с Томом:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Tom",
+              "text": "Sorry, I'm running late. The bus hasn't come."
+            },
+            {
+              "speaker": "Me",
+              "text": "No problem. When will you be here?"
+            },
+            {
+              "speaker": "Tom",
+              "text": "At eight. Have you ordered yet?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Not yet."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Пересказываем её друзьям за столом: **Tom texted me. He said he was running late because the bus hadn't come. I asked when he would be there, and he said at eight. Then he asked if we had ordered yet, and I said we hadn't.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите, что происходит:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "каждая реплика спустилась на ступеньку: **I'm running** → **he was running**, **hasn't come** → **hadn't come**, **will you be** → **he would be**;",
+            "рамка меняется по ходу: **said**, **asked**, снова **said**; `said that` не повторяем перед каждой фразой;",
+            "реплики сшиты связками из «Связной речи»: **because**, **and**, **then**."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "По-русски мы тоже не говорим «он сказал, что опаздывает, он сказал, что автобус не пришёл, он сказал, что будет в восемь». Мы говорим «сказал, что опаздывает — автобус не пришёл, будет в восемь». Английский поступает так же: одна рамка на мысль, а сдвиг держится до конца абзаца сам."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Короткие ответы в пересказе спускаются вместе с вопросом: повторяем помощник, сдвинутый на ступеньку."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Yes, I am** → **I said I was**, **No, I can't** → **I said I couldn't**",
+            "**Yes, I have** → **I said I had**, **Yes, I do** → **I said I did**",
+            "Проще тоже можно: **I said yes / no**",
+            "**I think so** → **I said I thought so**",
+            "Абзацем: рамки **said / asked** меняем по ходу, **said that** перед каждой фразой не повторяем"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**and I said I am** ✗ → **and I said I was** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Она спросила, приду ли я, и я сказал, что приду.",
+          "en": "She asked if I was coming, and I said I was."
+        },
+        {
+          "ru": "Он спросил, умею ли я водить, и я сказал, что нет.",
+          "en": "He asked if I could drive, and I said I couldn't."
+        },
+        {
+          "ru": "Я сказал, что, кажется, да.",
+          "en": "I said I thought so."
+        },
+        {
+          "ru": "Том сказал, что опаздывает, потому что автобус не пришёл.",
+          "en": "Tom said he was running late because the bus hadn't come."
+        },
+        {
+          "ru": "Потом он спросил, заказали ли мы уже.",
+          "en": "Then he asked if we had ordered yet."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему короткий ответ I am в пересказе становится I was?",
+        "Можно ли просто сказать I said yes?",
+        "Как пересказать длинный разговор и не повторять he said на каждом шагу?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3237,6 +3693,48 @@
       "exerciseType": "REVERSE_CHOICE",
       "exerciseId": 121,
       "orderInCard": 2
+    },
+    {
+      "cardId": 717,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 120,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 717,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 234,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 717,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 249,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 717,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 255,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 718,
+      "exerciseType": "MATCHING",
+      "exerciseId": 128,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 718,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 111,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 718,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 256,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -3310,6 +3808,22 @@
       "title": "say, tell, speak или talk",
       "userInstruction": "Впишите say, tell, speak или talk в нужной форме.",
       "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card717_ex1",
+      "cardId": 717,
+      "title": "Перескажи вопрос",
+      "userInstruction": "Перескажите вопрос одним предложением, начав с имени человека и asked.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card718_ex1",
+      "cardId": 718,
+      "title": "Перескажи разговор",
+      "userInstruction": "Прочитайте короткий разговор и перескажите его двумя-тремя предложениями.",
+      "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
   ],
@@ -3583,6 +4097,37 @@
         }
       ],
       "explanation": "say не берёт человека сразу — нужно told us или said to us. После did и didn't глагол голый: didn't tell. Остальные верны: tell you about, said yes и tell the difference — «различить»."
+    },
+    {
+      "id": 256,
+      "statements": [
+        {
+          "en": "He asked if I was tired, and I said I was.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Mum asked if I had eaten, and I said I have.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They asked if we could stay, and we said we could.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I asked if the shop was open, and she said it wasn't.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She asked if I liked it, and I said I do.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "короткий ответ спускается вместе с вопросом: had eaten — I said I had, liked — I said I did. Остальные верны: was, could, wasn't держатся за тот же помощник, что в вопросе."
     }
   ],
   "word_arrangement_exercises": [
@@ -3712,6 +4257,27 @@
         "with"
       ],
       "explanation": "«поговорить о чём-то» — это разговор, значит talk about. Say не берёт «о чём», tell требует человека, а после talk тема идёт через about, а не of."
+    },
+    {
+      "id": 234,
+      "situationRu": "RU: Нина спросила, сколько стоит билет.",
+      "correctSentence": "Nina asked how much the ticket was.",
+      "words": [
+        "Nina",
+        "asked",
+        "how",
+        "much",
+        "the",
+        "ticket",
+        "was"
+      ],
+      "distractors": [
+        "is",
+        "did",
+        "does",
+        "that"
+      ],
+      "explanation": "после asked порядок как в утверждении: сначала the ticket, потом was. Is спускается в was — вопрос прозвучал в прошлом. That у вопроса не бывает, а did и does внутри пересказа выпадают."
     }
   ],
   "multiple_choice_exercises": [
@@ -3966,6 +4532,27 @@
         }
       ],
       "explanation": "tell + человек + to + действие — это команда: «скажи, чтобы подождал». Сообщение «скажи, что я жду» собралось бы без to: Tell Oleg I'm waiting for him."
+    },
+    {
+      "id": 255,
+      "choiceType": "CHOICE",
+      "prompt": "Katya asked ___ the flowers.",
+      "contextRu": "Катя спросила: «Where should I put the flowers?»",
+      "options": [
+        {
+          "text": "where should she put",
+          "isCorrect": false
+        },
+        {
+          "text": "where she should to put",
+          "isCorrect": false
+        },
+        {
+          "text": "where to put",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вопрос «что мне делать, куда мне это деть» в пересказе коротко собирается через вопросительное слово + to: where to put. Where should she put — вопросительный порядок, а после should to не ставится."
     }
   ],
   "text_input_exercises": [],
@@ -4081,6 +4668,34 @@
         }
       ],
       "explanation": "с утра прошло несколько часов, и Сэм, скорее всего, уже не на вокзале — значит, оставлять is нельзя, нужен сдвиг: was. Says тоже не подходит: разговор был утром, это прошлое."
+    },
+    {
+      "id": 111,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Did you ask Ben if he could help us?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, and he said he did.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, and he said he could.",
+          "isCorrect": true
+        },
+        {
+          "text": "Yes, and he said he was.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "спрашивали, может ли Бен помочь, — could help, поэтому и короткий ответ держится за тот же помощник: he could. Did и was относятся к другим вопросам."
     }
   ],
   "matching_exercises": [
@@ -4160,6 +4775,33 @@
         }
       ],
       "explanation": "язык и официальная речь — speak, разговор с кем-то — talk to, короткая реплика — say, рассказать что-то — tell. Speak up — устойчивое «говорите громче»."
+    },
+    {
+      "id": 128,
+      "taskDescription": "соедини короткий ответ с тем, как он звучит в пересказе.",
+      "pairs": [
+        {
+          "left": "No, I'm not.",
+          "right": "I said I wasn't."
+        },
+        {
+          "left": "Yes, I can.",
+          "right": "I said I could."
+        },
+        {
+          "left": "No, I haven't.",
+          "right": "I said I hadn't."
+        },
+        {
+          "left": "Yes, I will.",
+          "right": "I said I would."
+        },
+        {
+          "left": "No, I don't.",
+          "right": "I said I didn't."
+        }
+      ],
+      "explanation": "короткий ответ повторяет помощник из вопроса, и в пересказе этот помощник спускается на ступеньку: am → was, can → could, have → had, will → would, do → did."
     }
   ],
   "error_correction_exercises": [
@@ -4238,6 +4880,25 @@
         }
       ],
       "explanation": "у tell человек обязателен и идёт сразу, без to: told me. Said me не бывает — say берёт человека только через to."
+    },
+    {
+      "id": 249,
+      "wrongSentence": "Oleg asked me that I liked jazz.",
+      "options": [
+        {
+          "text": "Oleg asked me did I like jazz.",
+          "isCorrect": false
+        },
+        {
+          "text": "Oleg asked me if I liked jazz.",
+          "isCorrect": true
+        },
+        {
+          "text": "Oleg asked me that did I like jazz.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "у пересказанного вопроса нет that — вместо «ли» стоит if. Did внутри пересказа выпадает, а время уже несёт сам глагол: liked."
     }
   ],
   "construction_meaning_exercises": [
@@ -4418,6 +5079,25 @@
         }
       ],
       "explanation": "модальный глагол — первое слово, он и спускается: can't → couldn't, have to → had to, may → might. Глагол после него остаётся голым."
+    },
+    {
+      "id": 120,
+      "taskDescription": "перескажи вопросы Эммы — начни с She asked.",
+      "items": [
+        {
+          "original": "Where do you buy bread?",
+          "transformed": "She asked where I bought bread."
+        },
+        {
+          "original": "What are you reading?",
+          "transformed": "She asked what I was reading."
+        },
+        {
+          "original": "How old is your son?",
+          "transformed": "She asked how old my son was."
+        }
+      ],
+      "explanation": "внутри пересказа порядок как в утверждении, и do выпадает: where I bought. Время спускается на ступеньку: do you buy → I bought, are you reading → I was reading, is → was. Your становится my."
     }
   ],
   "categorization_exercises": [

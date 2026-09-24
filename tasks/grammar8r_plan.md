@@ -8023,8 +8023,8 @@ theory/
 │   │       (команда — `tell her to call me`, уже видели в Conditionals, Card 491). Ловушка:
 │   │       `asked me to help` ≠ `asked me if I could help`. Мост к двум следующим микротемам.
 │   │
-│   ├── МТ · Reported Questions · Пересказать вопрос  (2 карточки, БЕЗ слива — как MT128)
-│   │   ├── Card · asked + вопрос шагом назад
+│   ├── МТ266 · Reported Questions · Пересказать вопрос  (2 карточки, БЕЗ слива — как MT128) ✅ (написана, ALL GREEN 24.09.26)
+│   │   ├── Card 717 · asked + вопрос на шаг назад
 │   │   │   ⬅️ ДОЛГ ИЗ «Косвенных вопросов» — ГРАНИЦА ТЕМ, жёстко: прямой порядок, выброс
 │   │   │      do/does/did, «will/can остаются», «вопросительное слово = подлежащее», if/whether,
 │   │   │      знак по главной части — УЖЕ ДАНЫ там целиком (MT127–133). Здесь ОДНОЙ строкой-опорой,
@@ -8033,7 +8033,7 @@ theory/
 │   │   │   know` / `wondered` · без «?» (опора Card 354) · `asked me that` ✗ · `Shall I…?` → `asked
 │   │   │   if he should` · `What should I do?` → `asked what to do` (опора Card 355) · `Can I…?` →
 │   │   │   `asked if he could`. AI.
-│   │   └── Card · Пересказать разговор целиком
+│   │   └── Card 718 · Пересказать разговор целиком
 │   │       Короткие ответы тоже сдвигаются: `She asked if I was coming, and I said I was` ·
 │   │       `said so` / `thought so`. Пересказ абзацем: сдвиг держится без повтора he said —
 │   │       русское «он сказал, что… он сказал, что…» звучит коряво. AI.
@@ -11344,6 +11344,11 @@ theory/
 │   │     Would you mind...? + -ing (ещё мягче: "Would you mind opening the window?")
 │   │     Do you think you could...? (очень мягко)
 │   │     I was wondering if you could... (максимально осторожно, формальный контекст)
+│   │     ⬅️ ОБЕЩАНО в «Reported Speech», Card 717 (плашка «Кстати»): там показано `wondered` как
+│   │        рамка пересказа вопроса и сказано, что `I was wondering if…` — уже не пересказ, а очень
+│   │        вежливая просьба, «её мы в работе разберём в «Социальном взаимодействии»». Закрыть здесь:
+│   │        одной строкой развести «пересказ: I wondered if he was free» ↔ «просьба: I was wondering
+│   │        if you could…» — форма похожа, работа разная.
 │   │   Правило: чем длиннее конструкция — тем вежливее звучит
 │   │   Как вежливо отказать на просьбу:
 │   │     I'm afraid I can't / I'd love to but... / Maybe some other time / Let me see what I can do
