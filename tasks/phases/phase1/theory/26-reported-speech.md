@@ -1763,26 +1763,484 @@ B: ___
 
 ---
 
+## Microtopic 265 — say, tell, ask · Три «сказал» и два «говорить»
+
+**ID:** 265
+**Теги:** say или tell, speak или talk, said me или told me, said about, спросил или попросил, told that
+
+---
+
+### Card 714 · say ↔ tell по смыслу
+
+**ID:** 714
+
+#### Theory
+
+У нас «сказать» — одно слово. Сказать можно что угодно, кому угодно, о чём угодно. У английского на это место два глагола, `say` и `tell`, и путают их постоянно. Эта карточка разводит их окончательно.
+
+@Emma: Did Jack say anything about the party?
+@Me: He told me he couldn't come. He said he was sorry.
+
+В одном ответе оба глагола — и каждый на своём месте. Разберёмся, почему.
+
+**Что мы уже знаем**
+
+Механику мы разобрали в «Страдательном залоге»: `tell` берёт человека сразу, без предлога, а `say` — только через `to`.
+
+- **He said me the news** ✗ → **He told me the news** ✓ / **He said the news to me** ✓
+- **I was said** ✗ → **I was told** ✓
+
+Теперь — о главном: чем они отличаются по смыслу.
+
+**say — про слова, tell — про человека**
+
+`Say` смотрит на сами слова: что прозвучало. Кому — неважно или не названо:
+
+- **She said she was tired.** — она сказала, что устала
+- **Say it again, please.** — скажи это ещё раз
+- **The sign says no parking.** — на табличке написано
+
+`Tell` смотрит на человека: мы передаём что-то кому-то — сообщаем, рассказываем, велим. Человек после `tell` стоит почти всегда:
+
+- **She told me she was tired.** — сказала мне
+- **He told us about his trip.** — рассказал нам о поездке
+- **Tell him to wait.** — скажи ему, чтобы подождал
+
+Проверка простая: если в русской фразе есть «кому» — «сказал **мне**», «рассказал **нам**», — это `tell`. Нет — `say`. Сказать `said to me` тоже можно, но в пересказе это звучит тяжелее, и носитель почти всегда выберет `told me`.
+
+**Ловушка:** **He told that he was tired** ✗ → **He told me that he was tired** ✓ или **He said that he was tired** ✓. У `tell` не хватает человека — фраза звучит оборванной, как «он сообщил, что устал» без «кому».
+
+**tell без человека — только в застывших сочетаниях**
+
+Есть несколько сочетаний, где `tell` обходится без человека. Их просто запоминаем:
+
+- **tell the truth** — сказать правду
+- **tell a lie** — соврать: **I never tell lies.**
+- **tell a story** — рассказать историю
+- **tell a joke** — рассказать анекдот
+- **tell the time** — определять время по часам
+
+**Кстати:** у `tell` есть ещё значение «понять по виду»: **I can tell you're tired** — по тебе видно, что ты устал. Отсюда **tell the difference** — отличить одно от другого: **I can't tell the difference.**
+
+**say в устойчивых сочетаниях**
+
+С `say` живут короткие реплики — мы называем сами слова, которые прозвучали:
+
+- **say hello**, **say goodbye** — поздороваться, попрощаться
+- **say sorry**, **say thank you** — извиниться, поблагодарить
+- **say yes**, **say no** — согласиться, отказать
+- **say so** — сказать это: **Why didn't you say so?**
+
+После **said** перед **yes** или **no** that не ставится: **She said yes** ✓, а не **She said that yes** ✗.
+
+**В письмах и объявлениях — inform**
+
+У `tell` есть официальный брат `inform` — тоже с человеком сразу после глагола. Он живёт в письмах, объявлениях и на работе: **The airline informed us that the flight was cancelled.** В разговоре так не говорят — там просто `told`.
+
+**Вопрос и отрицание**
+
+- **What did she say?** — что она сказала?
+- **Did he tell you?** — он тебе сказал?
+- **Didn't she tell you?** — разве она тебе не сказала?
+- **He didn't say.** — он не сказал, не уточнил
+- **She didn't tell anyone.** — она никому не сказала
+
+**Русское «говорил»**
+
+«Он говорил, что устал» — несовершенный вид, и рука тянется к длительному **He was saying that…** Но почти всегда это просто **He said** или **He told me**: нам важно, что было сказано, а не процесс. `Was saying` нужен, когда речь шла прямо в тот момент: «как раз рассказывал». Отсюда вопрос после паузы **What were you saying?** — «так что ты говорил?»; его мы разберём в теме «Социальное взаимодействие».
+
+**Кстати:** три фразы с `say` и `tell`, которые стоит узнавать в лицо. **Tell me about it!** — «и не говори!», сочувствие, а не просьба рассказать. **I told you so.** — «я же говорил». **You can say that again.** — «вот уж точно».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+`Say` — про сами слова, `tell` — про человека: сообщить, рассказать, велеть кому-то.
+
+- **She said she was tired** — **She told me she was tired**
+- **told me**, а не **said me**; **said to me** — можно, но реже
+- Без человека **tell** только в сочетаниях: **tell the truth, a lie, a story, a joke, the time**
+- **say hello, sorry, thank you, yes, no, so**; **She said yes** — без that
+- **inform** — официальный **tell**: **informed us that…**
+
+**Частые ошибки**
+
+- **He told that he was tired** ✗ → **He told me that he was tired** ✓ — у tell нет человека
+- **He said me** ✗ → **He told me** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3275 | Джек сказал мне, что не сможет прийти. | Jack told me he couldn't come. |
+| 3276 | Он сказал, что ему жаль. | He said he was sorry. |
+| 3277 | Скажи мне правду. | Tell me the truth. |
+| 3278 | Она никогда не извиняется. | She never says sorry. |
+| 3279 | Авиакомпания сообщила нам, что рейс отменили. | The airline informed us that the flight was cancelled. |
+
+---
+
+#### Exercises
+
+**Ex 39 · MultipleChoice · CHOICE** *(ID: 254)*
+
+"Nick ___ us a funny story about his dog."
+
+- said
+- **told** ✓
+- spoke
+
+*Explanation:* рассказать историю кому-то — это tell: tell a story, и человек идёт сразу — told us. Said не берёт человека без to, а spoke — про язык и официальную речь.
+
+---
+
+**Ex 40 · Categorization** *(ID: 160)*
+
+Задание: разложи слова по глаголам, с которыми они живут.
+
+| say | tell |
+|-----|------|
+| good night | a secret |
+| please | a fairy tale |
+| no | the truth |
+
+*Explanation:* с say стоят короткие реплики, которые прозвучали: good night, please, no. С tell — то, что рассказывают или сообщают: a secret, a fairy tale, the truth.
+
+---
+
+**Ex 41 · ErrorCorrection** *(ID: 248)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"My sister told that she was pregnant."
+
+- My sister said me that she was pregnant.
+- My sister told to me that she was pregnant.
+- **My sister told me that she was pregnant.** ✓
+
+*Explanation:* у tell человек обязателен и идёт сразу, без to: told me. Said me не бывает — say берёт человека только через to.
+
+---
+
+**Ex 42 · TrueFalse** *(ID: 255)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Did she tell you about the new job? | ✓ |
+| 2 | He said us that the shop was closed. | ✗ |
+| 3 | Kate said yes to the offer. | ✓ |
+| 4 | I can't tell the difference. | ✓ |
+| 5 | Why didn't you told me? | ✗ |
+
+*Explanation:* say не берёт человека сразу — нужно told us или said to us. После did и didn't глагол голый: didn't tell. Остальные верны: tell you about, said yes и tell the difference — «различить».
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card714_ex1
+**Title:** "said или told"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Скажите по-английски: кто-то что-то сказал, сказал кому-то или рассказал."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о разнице say и tell. Он знает: say — про сами слова, кому — не названо (She said she was tired; Say it again; The sign says no parking); tell — передать что-то человеку: сообщить, рассказать, велеть, и человек после tell стоит сразу, без предлога (She told me she was tired; He told us about his trip; Tell him to wait); проверка — есть ли в русской фразе «кому»; said to me возможно, но в пересказе почти всегда говорят told me; said me неверно, told to me неверно, I was said неверно — I was told; tell без человека только в сочетаниях tell the truth, tell a lie, tell a story, tell a joke, tell the time, а He told that he was tired неверно; с say живут короткие реплики: say hello, goodbye, sorry, thank you, yes, no, so, и She said yes без that; I can tell you're tired — «по тебе видно», tell the difference — «отличить»; inform — официальный tell (The airline informed us that…); вопрос и отрицание: What did she say? Did he tell you? Didn't she tell you? He didn't say; «он говорил, что…» — почти всегда He said или He told me, а не He was saying. Сдвиг времени после said и told ему известен: am/is → was, don't → didn't, Past Simple и Present Perfect → had + V3, will → would, can → could. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect; внутри этой темы ещё не прошёл speak и talk, said about, пересказ вопросов и просьб, глаголы вроде explain, refuse, deny вместо said — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю ОДНО русское предложение со словом «сказал», «сказал кому-то», «рассказал», «соврал», «сказал правду» или с короткой репликой («поздоровался», «извинился», «согласился»), и попроси сказать его по-английски. В условии не подсказывай, say или tell. Бери только знакомые слова из присланного списка пользователя, чтобы трудность была в грамматике, а не в незнакомой лексике. ДЕРЖИ ПРОСТЫМ: 4-9 слов, одна мысль, без слов времени и места во второй части; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. сказал, что… без «кому» (Лена сказала, что устала). 2. сказал кому-то, что… (Игорь сказал мне, что переезжает). 3. рассказал кому-то о чём-то (Вера рассказала нам о поездке). 4. сказал правду или соврал (Он никогда не врёт). 5. рассказал анекдот или историю (Дима рассказал смешную историю). 6. короткая реплика — извинился, поблагодарил, поздоровался, согласился (Она даже не сказала спасибо). 7. вопрос (Что он сказал? Он тебе сказал?). 8. отрицательный вопрос (Разве она тебе не сказала?). 9. отрицание (Никому не говори). 10. ГРАНИЦА: «по тебе видно» или «не вижу разницы» (По тебе видно, что ты не выспался). Образцы дословно не повторяй. ОЦЕНКА: верна фраза, где say стоит при самих словах, а tell — при человеке или в устойчивом сочетании. Если написал said me или told to me — скажи, что tell берёт человека сразу, а say — только через to. Если написал told that без человека — скажи, что у tell не хватает «кому», и покажи told me that или said that. Если «рассказал нам» перевёл через said us about — предложи told us about. Если «соврал» или «сказал правду» перевёл через say (said a lie, say the truth) — скажи, что это устойчивые сочетания с tell. Если «извинился» или «сказал спасибо» перевёл через tell (told sorry) — скажи, что короткие реплики идут с say. Если написал said that yes — скажи, что перед yes и no that не ставится. Если перевёл «говорил» через was saying без повода — засчитай, но скажи, что обычно это просто said. Если в пункте 10 написал I can see you're tired — засчитай, это тоже верно, и покажи I can tell. Said to me засчитывай, одной строкой отметь, что told me звучит естественнее. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Скажите по-английски: Оля рассказала нам о своей новой работе.'
+
+#### Clarification Options
+
+- Когда можно сказать said to me вместо told me?
+- Почему tell the truth, но say sorry?
+- Что значит I can tell you're tired?
+
+---
+
+### Card 715 · said about и speak ↔ talk
+
+**ID:** 715
+
+#### Theory
+
+«Он сказал о проблеме» — самая обычная русская фраза. Дословно выходит **He said about the problem** — и это ошибка, одна из самых частых в пересказе.
+
+**Почему said about не работает**
+
+`Say` смотрит на сами слова — поэтому после него стоят слова, которые прозвучали, а не тема разговора. «О чём» у `say` просто нет. Русское «сказал о…» по-английски раскладывается на три глагола, смотря что мы хотим сказать:
+
+- **He told me about the problem.** — рассказал мне: есть кому
+- **He talked about the problem.** — говорил об этом: был разговор
+- **He mentioned the problem.** — упомянул мимоходом
+
+**Ловушка:** **He said about the problem** ✗. И рядом её сестра: **He told about his trip** ✗ — у `tell` снова нет человека. Верно: **He told us about his trip** ✓.
+
+С `discuss` мы уже разбирались в «Глагол/прилагательное + предлог»: **discuss about** ✗ → **discuss the plan** ✓. «О чём» `discuss` несёт внутри себя.
+
+**speak и talk — два «говорить»**
+
+Оба переводятся «говорить, разговаривать», но работают в разных местах.
+
+`Speak` — про язык и про официальную, более формальную речь:
+
+- **She speaks three languages.** — говорит на трёх языках
+- **May I speak to Ms Brown?** — так просят позвать к телефону
+- **Could you speak up?** — говорите, пожалуйста, громче
+- **He spoke at the conference.** — выступал на конференции
+
+`Talk` — про разговор, обмен репликами:
+
+- **I talked to my boss about it.** — поговорил с начальником
+- **We talked for hours.** — проговорили несколько часов
+- **Can we talk later?** — давай поговорим попозже
+
+**Ловушка:** **I talk English** ✗ → **I speak English** ✓. Язык — всегда `speak`, как бы разговорно ни звучала фраза.
+
+**Кстати:** **We need to talk.** — «нам надо поговорить». Фраза простая, но носитель слышит в ней тревогу: так начинают неприятный разговор. Говорят и **talk to**, и **talk with** — второе чаще в Америке.
+
+**Четыре глагола на одном экране**
+
+| Глагол | После него | По-русски | Пример |
+|--------|------------|-----------|--------|
+| say | сами слова, реплика | сказать | say sorry |
+| tell | человек | сказать кому-то, рассказать | tell me the truth |
+| speak | язык, официальная речь | говорить, выступать | speak English |
+| talk | разговор: to, about | разговаривать, поговорить | talk about work |
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+«Сказал о чём-то» — не **said about**: **told me about**, **talked about** или **mentioned**.
+
+- **speak** — язык и официальная речь: **speak English**, **May I speak to…?**, **speak up**
+- **talk** — разговор: **talk to** кем-то, **talk about** чём-то, **We need to talk**
+
+**Частые ошибки**
+
+- **He said about the problem** ✗ → **He told me about the problem** ✓
+- **He told about his trip** ✗ → **He told us about his trip** ✓
+- **I talk English** ✗ → **I speak English** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3280 | Он рассказал мне о проблеме. | He told me about the problem. |
+| 3281 | Мы говорили о работе. | We talked about work. |
+| 3282 | Она говорит на трёх языках. | She speaks three languages. |
+| 3283 | Можно поговорить с Ниной? | May I speak to Nina? |
+| 3284 | Нам надо поговорить. | We need to talk. |
+
+---
+
+#### Exercises
+
+**Ex 43 · MultipleChoice · FORWARD_CHOICE** *(ID: 282)*
+
+"Кирилл рассказал нам о своём отпуске."
+
+- **Kirill told us about his holiday.** ✓
+- Kirill said us about his holiday.
+- Kirill told about his holiday.
+
+*Explanation:* рассказать кому-то о чём-то — told + человек + about. У say нет «о чём» и человека сразу после глагола, а told about без us остаётся без «кому».
+
+---
+
+**Ex 44 · Matching** *(ID: 127)*
+
+Задание: соедини русское с английским.
+
+| RU | EN |
+|----|----|
+| говорить по-испански | speak Spanish |
+| поговорить с соседом | talk to a neighbour |
+| сказать спасибо | say thank you |
+| рассказать анекдот | tell a joke |
+| говорите громче | speak up |
+
+*Explanation:* язык и официальная речь — speak, разговор с кем-то — talk to, короткая реплика — say, рассказать что-то — tell. Speak up — устойчивое «говорите громче».
+
+---
+
+**Ex 45 · WordArrangement** *(ID: 233)*
+
+RU: Нам надо поговорить о деньгах.
+
+Правильное предложение: **We need to talk about money.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| We | — |
+| need | — |
+| to | — |
+| talk | — |
+| about | — |
+| money | — |
+| say | ✗ |
+| tell | ✗ |
+| of | ✗ |
+| with | ✗ |
+
+*Explanation:* «поговорить о чём-то» — это разговор, значит talk about. Say не берёт «о чём», tell требует человека, а после talk тема идёт через about, а не of.
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card715_ex1
+**Title:** "say, tell, speak или talk"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Впишите say, tell, speak или talk в нужной форме."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о said about и о разнице speak и talk. Он знает: у say нет «о чём», поэтому «сказал о проблеме» — это told me about (есть кому), talked about (был разговор) или mentioned (упомянул), а He said about the problem неверно и He told about his trip неверно — told us about; discuss не берёт about; speak — язык и официальная речь (She speaks three languages; May I speak to Ms Brown?; speak up — громче; spoke at the conference), talk — разговор (talk to my boss, talk about work, We talked for hours, We need to talk — тревожное «надо поговорить»), I talk English неверно — I speak English; talk to и talk with оба верны. С прошлой карточки он знает: say — про сами слова (said she was tired, say sorry, say yes), tell — человек сразу после глагола (told me, tell the truth, tell a joke). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect; внутри этой темы ещё не прошёл пересказ вопросов и просьб, глаголы вроде explain, refuse, deny — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю сразу несколько предложений (всего 4), в каждом один пропуск на месте глагола say, tell, speak или talk в нужной форме. В каждом задании используй все четыре глагола или минимум три разных. В условии не подсказывай, какой глагол куда. ДЕРЖИ ПРОСТЫМ: каждое предложение 4-8 слов, бытовая лексика уровня A2, одно действие; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому для каждого пропуска выбирай случайно прямо сейчас: 1. язык (Does your son [___] French?). 2. просьба позвать к телефону или выступление (Could I [___] to the manager?). 3. разговор о чём-то (We [___] about the film all evening). 4. «рассказал кому-то о чём-то» (She [___] me about her new flat). 5. tell в устойчивом сочетании (He always [___] the truth). 6. say с короткой репликой (Don't forget to [___] thank you). 7. say с пересказом слов без «кому» (What did he [___]?). 8. ГРАНИЦА: speak up или We need to talk. Образцы дословно не повторяй. ОЦЕНКА: верен глагол, подходящий по тому, что стоит после него, в верной форме. Где подходят оба — talk и speak о разговоре с кем-то (talk to / speak to the manager, talked / spoke about the film) — засчитывай оба и одной строкой скажи, что speak звучит официальнее. Если в пункте про язык поставил talk — скажи, что язык всегда speak. Если в пункте 4 поставил said — скажи, что у say нет «о чём» и человека, нужен told. Если в пункте 5 поставил say — скажи, что правду и ложь «рассказывают» через tell. Если в пункте 6 поставил tell — скажи, что короткая реплика идёт с say. Если форма неверна (did he said, tells without person) — поправь форму и объясни одной фразой. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: '1. My grandmother [___] Polish and Russian. 2. Can I [___] to you for a minute? 3. He [___] us a scary story. 4. She left without [___] goodbye.'
+
+#### Clarification Options
+
+- Почему нельзя сказать He said about the problem?
+- Когда speak, а когда talk, если речь о разговоре?
+- Почему We need to talk звучит тревожно?
+
+---
+
+### Card 716 · ask: спросил или попросил
+
+**ID:** 716
+
+#### Theory
+
+У нас два разных слова: «спросить» — задать вопрос, «попросить» — сказать «сделай, пожалуйста» или «дай». У английского на оба одно слово — `ask`. Как носитель понимает, о чём речь? По тому, что стоит сразу после `ask`.
+
+**Три дорожки ask**
+
+**Формула:** ask + кого + if / where… · ask + кого + to + V1 · ask for + что
+
+- **She asked me where I lived.** — спросила, где я живу. После `ask` идёт вопрос: `if`, `where`, `what`, `when`. Как собирается сам вопрос внутри, мы знаем по «Косвенным вопросам».
+- **She asked me to help.** — попросила меня помочь. После человека — `to` и действие, как в «Инфинитиве».
+- **He asked for the bill.** — попросил счёт. Просим вещь — через `for`, это мы разбирали в «Глагол/прилагательное + предлог».
+
+Слово одно, а смысл решают соседи справа: вопросительное слово — «спросил», `to` — «попросил сделать», `for` — «попросил дать».
+
+**Ловушка:** **She asked me to help** ≠ **She asked me if I could help**. Первое — просьба: «попросила помочь». Второе — вопрос: «спросила, могу ли я помочь». Смысл близкий, но ответ разный: на просьбу соглашаются или отказываются, на вопрос отвечают «да» или «нет».
+
+**tell тоже бывает двух видов**
+
+С `tell` похожая развилка, и путают её вместе с `ask`:
+
+- **Tell her I'm here.** — передай ей, что я здесь: сообщение
+- **Tell her to call me.** — скажи ей, чтобы позвонила: команда
+
+Вторую мы видели ещё в «Условных предложениях»: **If you see Kate, tell her to call me.** Разницу снова делает `to`: есть `to` — велим что-то сделать, нет — сообщаем.
+
+**Что дальше**
+
+Эта карточка — мостик. Как пересказать вопрос целиком, со сдвигом времени и порядком слов, — в следующей микротеме. Как пересказать просьбу, совет и приказ — сразу за ней.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Одно ask — два смысла. Решает то, что стоит после него.
+
+**Формула:** ask + кого + if / where… · ask + кого + to + V1 · ask for + что
+
+- **asked me where I lived** — спросил
+- **asked me to help** — попросил сделать
+- **asked for the bill** — попросил дать
+- **Tell her I'm here** — сообщение, **Tell her to call me** — команда
+
+**Легко перепутать**
+
+- **asked me to help** — попросил помочь ↔ **asked me if I could help** — спросил, могу ли я помочь
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3285 | Она спросила меня, где я живу. | She asked me where I lived. |
+| 3286 | Она попросила меня помочь. | She asked me to help. |
+| 3287 | Он попросил счёт. | He asked for the bill. |
+| 3288 | Передай ей, что я здесь. | Tell her I'm here. |
+| 3289 | Скажи ей, чтобы она мне позвонила. | Tell her to call me. |
+
+---
+
+#### Exercises
+
+**Ex 46 · ConstructionMeaning** *(ID: 102)*
+
+Выбери правильный перевод:
+
+"Denis asked me if I could lend him some money."
+
+- Денис попросил меня одолжить ему денег.
+- Денис одолжил мне денег.
+- **Денис спросил меня, могу ли я одолжить ему денег.** ✓
+- Денис спросил, нужны ли мне деньги.
+
+*Explanation:* после asked me стоит if — значит, это вопрос: «спросил, могу ли я». Просьба «попросил одолжить» собралась бы через to: asked me to lend him some money.
+
+---
+
+**Ex 47 · FindTheOdd** *(ID: 137)*
+
+Три фразы — просьбы, одна — вопрос:
+
+- She asked me to close the window
+- **They asked me when I was free** ✓
+- He asked for a glass of water
+- Mum asked me to buy some milk
+
+*Explanation:* после asked me стоит when — это вопрос: «спросили, когда я свободен». В остальных просьба: to + действие — «попросила закрыть», «попросила купить», а for + вещь — «попросил стакан воды».
+
+---
+
+**Ex 48 · MultipleChoice · REVERSE_CHOICE** *(ID: 121)*
+
+"Tell Oleg to wait for me."
+
+- **Скажи Олегу, чтобы он меня подождал.** ✓
+- Скажи Олегу, что я его жду.
+- Олег сказал, что подождёт меня.
+
+*Explanation:* tell + человек + to + действие — это команда: «скажи, чтобы подождал». Сообщение «скажи, что я жду» собралось бы без to: Tell Oleg I'm waiting for him.
+
+---
+
+#### Clarification Options
+
+- Как по ask понять, спросили или попросили?
+- Чем asked me to help отличается от asked me if I could help?
+- Когда после ask нужен for?
+
+---
+
+### Words8r Sync · say, tell, ask
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|--------------|
+| lie | ложь | [laɪ] |
+| to inform | сообщать, информировать | [ɪnˈfɔːm] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 40 | 41 |
-| Microtopic | 264 | 265 |
-| Card | 713 | 714 |
-| Example | 3274 | 3275 |
-| Слова курса (course_word) | 931 | 932 |
-| MultipleChoice · CHOICE | 253 | 254 |
-| MultipleChoice · FORWARD_CHOICE | 281 | 282 |
-| MultipleChoice · REVERSE_CHOICE | 120 | 121 |
-| TrueFalse | 254 | 255 |
-| WordArrangement | 232 | 233 |
+| Microtopic | 265 | 266 |
+| Card | 716 | 717 |
+| Example | 3289 | 3290 |
+| Слова курса (course_word) | 933 | 934 |
+| MultipleChoice · CHOICE | 254 | 255 |
+| MultipleChoice · FORWARD_CHOICE | 282 | 283 |
+| MultipleChoice · REVERSE_CHOICE | 121 | 122 |
+| TrueFalse | 255 | 256 |
+| WordArrangement | 233 | 234 |
 | TextInput | 136 | 137 |
-| Matching | 126 | 127 |
-| ErrorCorrection | 247 | 248 |
-| FindTheOdd | 136 | 137 |
-| Categorization | 159 | 160 |
+| Matching | 127 | 128 |
+| ErrorCorrection | 248 | 249 |
+| FindTheOdd | 137 | 138 |
+| Categorization | 160 | 161 |
 | TableFill | 52 | 53 |
 | Transformation | 119 | 120 |
-| ConstructionMeaning | 101 | 102 |
+| ConstructionMeaning | 102 | 103 |
 | DialogRestore | 110 | 111 |

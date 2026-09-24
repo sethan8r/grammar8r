@@ -39,6 +39,13 @@
       "title": "Thoughts & No Shift · Мысли тоже сдвигаются — и когда сдвига нет",
       "order": 4,
       "searchKeywords": "я думал что по-английски, глаголы мысли при пересказе, когда время не сдвигают, says или said, mum says hi"
+    },
+    {
+      "id": 265,
+      "topicId": 40,
+      "title": "say, tell, ask · Три «сказал» и два «говорить»",
+      "order": 5,
+      "searchKeywords": "say или tell, speak или talk, said me или told me, said about, спросил или попросил, told that"
     }
   ],
   "grammar_cards": [
@@ -2358,6 +2365,588 @@
         "Почему Tom says hi, а не Tom said hi?",
         "Как понять, что сказанное всё ещё правда?"
       ]
+    },
+    {
+      "id": 714,
+      "microtopicId": 265,
+      "title": "say ↔ tell по смыслу",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У нас «сказать» — одно слово. Сказать можно что угодно, кому угодно, о чём угодно. У английского на это место два глагола, `say` и `tell`, и путают их постоянно. Эта карточка разводит их окончательно."
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "text": "Did Jack say anything about the party?"
+            },
+            {
+              "speaker": "Me",
+              "text": "He told me he couldn't come. He said he was sorry."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В одном ответе оба глагола — и каждый на своём месте. Разберёмся, почему."
+        },
+        {
+          "type": "heading",
+          "text": "Что мы уже знаем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Механику мы разобрали в «Страдательном залоге»: `tell` берёт человека сразу, без предлога, а `say` — только через `to`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He said me the news** ✗ → **He told me the news** ✓ / **He said the news to me** ✓",
+            "**I was said** ✗ → **I was told** ✓"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь — о главном: чем они отличаются по смыслу."
+        },
+        {
+          "type": "heading",
+          "text": "say — про слова, tell — про человека"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Say` смотрит на сами слова: что прозвучало. Кому — неважно или не названо:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She said she was tired.** — она сказала, что устала",
+            "**Say it again, please.** — скажи это ещё раз",
+            "**The sign says no parking.** — на табличке написано"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`Tell` смотрит на человека: мы передаём что-то кому-то — сообщаем, рассказываем, велим. Человек после `tell` стоит почти всегда:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She told me she was tired.** — сказала мне",
+            "**He told us about his trip.** — рассказал нам о поездке",
+            "**Tell him to wait.** — скажи ему, чтобы подождал"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка простая: если в русской фразе есть «кому» — «сказал **мне**», «рассказал **нам**», — это `tell`. Нет — `say`. Сказать `said to me` тоже можно, но в пересказе это звучит тяжелее, и носитель почти всегда выберет `told me`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He told that he was tired** ✗ → **He told me that he was tired** ✓ или **He said that he was tired** ✓. У `tell` не хватает человека — фраза звучит оборванной, как «он сообщил, что устал» без «кому»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "tell без человека — только в застывших сочетаниях"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть несколько сочетаний, где `tell` обходится без человека. Их просто запоминаем:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**tell the truth** — сказать правду",
+            "**tell a lie** — соврать: **I never tell lies.**",
+            "**tell a story** — рассказать историю",
+            "**tell a joke** — рассказать анекдот",
+            "**tell the time** — определять время по часам"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У `tell` есть ещё значение «понять по виду»: **I can tell you're tired** — по тебе видно, что ты устал. Отсюда **tell the difference** — отличить одно от другого: **I can't tell the difference.**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "say в устойчивых сочетаниях"
+        },
+        {
+          "type": "paragraph",
+          "text": "С `say` живут короткие реплики — мы называем сами слова, которые прозвучали:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**say hello**, **say goodbye** — поздороваться, попрощаться",
+            "**say sorry**, **say thank you** — извиниться, поблагодарить",
+            "**say yes**, **say no** — согласиться, отказать",
+            "**say so** — сказать это: **Why didn't you say so?**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После **said** перед **yes** или **no** that не ставится: **She said yes** ✓, а не **She said that yes** ✗."
+        },
+        {
+          "type": "heading",
+          "text": "В письмах и объявлениях — inform"
+        },
+        {
+          "type": "paragraph",
+          "text": "У `tell` есть официальный брат `inform` — тоже с человеком сразу после глагола. Он живёт в письмах, объявлениях и на работе: **The airline informed us that the flight was cancelled.** В разговоре так не говорят — там просто `told`."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос и отрицание"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What did she say?** — что она сказала?",
+            "**Did he tell you?** — он тебе сказал?",
+            "**Didn't she tell you?** — разве она тебе не сказала?",
+            "**He didn't say.** — он не сказал, не уточнил",
+            "**She didn't tell anyone.** — она никому не сказала"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русское «говорил»"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Он говорил, что устал» — несовершенный вид, и рука тянется к длительному **He was saying that…** Но почти всегда это просто **He said** или **He told me**: нам важно, что было сказано, а не процесс. `Was saying` нужен, когда речь шла прямо в тот момент: «как раз рассказывал». Отсюда вопрос после паузы **What were you saying?** — «так что ты говорил?»; его мы разберём в теме «Социальное взаимодействие»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Три фразы с `say` и `tell`, которые стоит узнавать в лицо. **Tell me about it!** — «и не говори!», сочувствие, а не просьба рассказать. **I told you so.** — «я же говорил». **You can say that again.** — «вот уж точно»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`Say` — про сами слова, `tell` — про человека: сообщить, рассказать, велеть кому-то."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She said she was tired** — **She told me she was tired**",
+            "**told me**, а не **said me**; **said to me** — можно, но реже",
+            "Без человека **tell** только в сочетаниях: **tell the truth, a lie, a story, a joke, the time**",
+            "**say hello, sorry, thank you, yes, no, so**; **She said yes** — без that",
+            "**inform** — официальный **tell**: **informed us that…**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He told that he was tired** ✗ → **He told me that he was tired** ✓ — у tell нет человека",
+            "**He said me** ✗ → **He told me** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Джек сказал мне, что не сможет прийти.",
+          "en": "Jack told me he couldn't come."
+        },
+        {
+          "ru": "Он сказал, что ему жаль.",
+          "en": "He said he was sorry."
+        },
+        {
+          "ru": "Скажи мне правду.",
+          "en": "Tell me the truth."
+        },
+        {
+          "ru": "Она никогда не извиняется.",
+          "en": "She never says sorry."
+        },
+        {
+          "ru": "Авиакомпания сообщила нам, что рейс отменили.",
+          "en": "The airline informed us that the flight was cancelled."
+        }
+      ],
+      "clarificationOptions": [
+        "Когда можно сказать said to me вместо told me?",
+        "Почему tell the truth, но say sorry?",
+        "Что значит I can tell you're tired?"
+      ]
+    },
+    {
+      "id": 715,
+      "microtopicId": 265,
+      "title": "said about и speak ↔ talk",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "«Он сказал о проблеме» — самая обычная русская фраза. Дословно выходит **He said about the problem** — и это ошибка, одна из самых частых в пересказе."
+        },
+        {
+          "type": "heading",
+          "text": "Почему said about не работает"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Say` смотрит на сами слова — поэтому после него стоят слова, которые прозвучали, а не тема разговора. «О чём» у `say` просто нет. Русское «сказал о…» по-английски раскладывается на три глагола, смотря что мы хотим сказать:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He told me about the problem.** — рассказал мне: есть кому",
+            "**He talked about the problem.** — говорил об этом: был разговор",
+            "**He mentioned the problem.** — упомянул мимоходом"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He said about the problem** ✗. И рядом её сестра: **He told about his trip** ✗ — у `tell` снова нет человека. Верно: **He told us about his trip** ✓."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "С `discuss` мы уже разбирались в «Глагол/прилагательное + предлог»: **discuss about** ✗ → **discuss the plan** ✓. «О чём» `discuss` несёт внутри себя."
+        },
+        {
+          "type": "heading",
+          "text": "speak и talk — два «говорить»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Оба переводятся «говорить, разговаривать», но работают в разных местах."
+        },
+        {
+          "type": "paragraph",
+          "text": "`Speak` — про язык и про официальную, более формальную речь:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She speaks three languages.** — говорит на трёх языках",
+            "**May I speak to Ms Brown?** — так просят позвать к телефону",
+            "**Could you speak up?** — говорите, пожалуйста, громче",
+            "**He spoke at the conference.** — выступал на конференции"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`Talk` — про разговор, обмен репликами:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I talked to my boss about it.** — поговорил с начальником",
+            "**We talked for hours.** — проговорили несколько часов",
+            "**Can we talk later?** — давай поговорим попозже"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I talk English** ✗ → **I speak English** ✓. Язык — всегда `speak`, как бы разговорно ни звучала фраза."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**We need to talk.** — «нам надо поговорить». Фраза простая, но носитель слышит в ней тревогу: так начинают неприятный разговор. Говорят и **talk to**, и **talk with** — второе чаще в Америке."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Четыре глагола на одном экране"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Глагол",
+            "После него",
+            "По-русски",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "say",
+              "сами слова, реплика",
+              "сказать",
+              "say sorry"
+            ],
+            [
+              "tell",
+              "человек",
+              "сказать кому-то, рассказать",
+              "tell me the truth"
+            ],
+            [
+              "speak",
+              "язык, официальная речь",
+              "говорить, выступать",
+              "speak English"
+            ],
+            [
+              "talk",
+              "разговор: to, about",
+              "разговаривать, поговорить",
+              "talk about work"
+            ]
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "«Сказал о чём-то» — не **said about**: **told me about**, **talked about** или **mentioned**."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**speak** — язык и официальная речь: **speak English**, **May I speak to…?**, **speak up**",
+            "**talk** — разговор: **talk to** кем-то, **talk about** чём-то, **We need to talk**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He said about the problem** ✗ → **He told me about the problem** ✓",
+            "**He told about his trip** ✗ → **He told us about his trip** ✓",
+            "**I talk English** ✗ → **I speak English** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Он рассказал мне о проблеме.",
+          "en": "He told me about the problem."
+        },
+        {
+          "ru": "Мы говорили о работе.",
+          "en": "We talked about work."
+        },
+        {
+          "ru": "Она говорит на трёх языках.",
+          "en": "She speaks three languages."
+        },
+        {
+          "ru": "Можно поговорить с Ниной?",
+          "en": "May I speak to Nina?"
+        },
+        {
+          "ru": "Нам надо поговорить.",
+          "en": "We need to talk."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать He said about the problem?",
+        "Когда speak, а когда talk, если речь о разговоре?",
+        "Почему We need to talk звучит тревожно?"
+      ]
+    },
+    {
+      "id": 716,
+      "microtopicId": 265,
+      "title": "ask: спросил или попросил",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У нас два разных слова: «спросить» — задать вопрос, «попросить» — сказать «сделай, пожалуйста» или «дай». У английского на оба одно слово — `ask`. Как носитель понимает, о чём речь? По тому, что стоит сразу после `ask`."
+        },
+        {
+          "type": "heading",
+          "text": "Три дорожки ask"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ask + кого + if / where… · ask + кого + to + V1 · ask for + что"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She asked me where I lived.** — спросила, где я живу. После `ask` идёт вопрос: `if`, `where`, `what`, `when`. Как собирается сам вопрос внутри, мы знаем по «Косвенным вопросам».",
+            "**She asked me to help.** — попросила меня помочь. После человека — `to` и действие, как в «Инфинитиве».",
+            "**He asked for the bill.** — попросил счёт. Просим вещь — через `for`, это мы разбирали в «Глагол/прилагательное + предлог»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово одно, а смысл решают соседи справа: вопросительное слово — «спросил», `to` — «попросил сделать», `for` — «попросил дать»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**She asked me to help** ≠ **She asked me if I could help**. Первое — просьба: «попросила помочь». Второе — вопрос: «спросила, могу ли я помочь». Смысл близкий, но ответ разный: на просьбу соглашаются или отказываются, на вопрос отвечают «да» или «нет»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "tell тоже бывает двух видов"
+        },
+        {
+          "type": "paragraph",
+          "text": "С `tell` похожая развилка, и путают её вместе с `ask`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Tell her I'm here.** — передай ей, что я здесь: сообщение",
+            "**Tell her to call me.** — скажи ей, чтобы позвонила: команда"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вторую мы видели ещё в «Условных предложениях»: **If you see Kate, tell her to call me.** Разницу снова делает `to`: есть `to` — велим что-то сделать, нет — сообщаем."
+        },
+        {
+          "type": "heading",
+          "text": "Что дальше"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эта карточка — мостик. Как пересказать вопрос целиком, со сдвигом времени и порядком слов, — в следующей микротеме. Как пересказать просьбу, совет и приказ — сразу за ней."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Одно ask — два смысла. Решает то, что стоит после него."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ask + кого + if / where… · ask + кого + to + V1 · ask for + что"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**asked me where I lived** — спросил",
+            "**asked me to help** — попросил сделать",
+            "**asked for the bill** — попросил дать",
+            "**Tell her I'm here** — сообщение, **Tell her to call me** — команда"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**asked me to help** — попросил помочь ↔ **asked me if I could help** — спросил, могу ли я помочь"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Она спросила меня, где я живу.",
+          "en": "She asked me where I lived."
+        },
+        {
+          "ru": "Она попросила меня помочь.",
+          "en": "She asked me to help."
+        },
+        {
+          "ru": "Он попросил счёт.",
+          "en": "He asked for the bill."
+        },
+        {
+          "ru": "Передай ей, что я здесь.",
+          "en": "Tell her I'm here."
+        },
+        {
+          "ru": "Скажи ей, чтобы она мне позвонила.",
+          "en": "Tell her to call me."
+        }
+      ],
+      "clarificationOptions": [
+        "Как по ask понять, спросили или попросили?",
+        "Чем asked me to help отличается от asked me if I could help?",
+        "Когда после ask нужен for?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2588,6 +3177,66 @@
       "exerciseType": "DIALOG_RESTORE",
       "exerciseId": 110,
       "orderInCard": 3
+    },
+    {
+      "cardId": 714,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 254,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 714,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 160,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 714,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 248,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 714,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 255,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 715,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 282,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 715,
+      "exerciseType": "MATCHING",
+      "exerciseId": 127,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 715,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 233,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 716,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 102,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 716,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 137,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 716,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 121,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2645,6 +3294,22 @@
       "title": "Сдвигать или нет",
       "userInstruction": "Прочитайте ситуацию и перескажите слова человека одним предложением.",
       "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card714_ex1",
+      "cardId": 714,
+      "title": "said или told",
+      "userInstruction": "Скажите по-английски: кто-то что-то сказал, сказал кому-то или рассказал.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "reported_speech_card715_ex1",
+      "cardId": 715,
+      "title": "say, tell, speak или talk",
+      "userInstruction": "Впишите say, tell, speak или talk в нужной форме.",
+      "inputMode": "FILL_BLANKS",
       "wordsSource": "NONE"
     }
   ],
@@ -2711,6 +3376,22 @@
       "translation": "притворяться, делать вид",
       "transcription": "[prɪˈtend]",
       "microtopicId": 264,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 932,
+      "word": "lie",
+      "translation": "ложь",
+      "transcription": "[laɪ]",
+      "microtopicId": 265,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 933,
+      "word": "to inform",
+      "translation": "сообщать, информировать",
+      "transcription": "[ɪnˈfɔːm]",
+      "microtopicId": 265,
       "categoryId": "useful_words"
     }
   ],
@@ -2871,6 +3552,37 @@
         }
       ],
       "explanation": "после was sure и had no idea часть спускается на ступеньку: I have turned off → I had turned off, are → were. Остальные верны: didn't know тянет had, pretended тянет wasn't, knew тянет would."
+    },
+    {
+      "id": 255,
+      "statements": [
+        {
+          "en": "Did she tell you about the new job?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He said us that the shop was closed.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Kate said yes to the offer.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I can't tell the difference.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Why didn't you told me?",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "say не берёт человека сразу — нужно told us или said to us. После did и didn't глагол голый: didn't tell. Остальные верны: tell you about, said yes и tell the difference — «различить»."
     }
   ],
   "word_arrangement_exercises": [
@@ -2980,6 +3692,26 @@
         "don't"
       ],
       "explanation": "didn't know стоит в прошлом, поэтому speak спускается в spoke — хотя по-русски «говоришь» в настоящем. После didn't глагол голый: know, а не knew."
+    },
+    {
+      "id": 233,
+      "situationRu": "RU: Нам надо поговорить о деньгах.",
+      "correctSentence": "We need to talk about money.",
+      "words": [
+        "We",
+        "need",
+        "to",
+        "talk",
+        "about",
+        "money"
+      ],
+      "distractors": [
+        "say",
+        "tell",
+        "of",
+        "with"
+      ],
+      "explanation": "«поговорить о чём-то» — это разговор, значит talk about. Say не берёт «о чём», tell требует человека, а после talk тема идёт через about, а не of."
     }
   ],
   "multiple_choice_exercises": [
@@ -3171,6 +3903,69 @@
         }
       ],
       "explanation": "works после told оставлено нарочно: так говорят, когда сказанное правда и сейчас, — рассказчик это подтверждает. Если бы она больше не работала в банке, время сдвинули бы: she worked или had worked."
+    },
+    {
+      "id": 254,
+      "choiceType": "CHOICE",
+      "prompt": "Nick ___ us a funny story about his dog.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "said",
+          "isCorrect": false
+        },
+        {
+          "text": "told",
+          "isCorrect": true
+        },
+        {
+          "text": "spoke",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "рассказать историю кому-то — это tell: tell a story, и человек идёт сразу — told us. Said не берёт человека без to, а spoke — про язык и официальную речь."
+    },
+    {
+      "id": 282,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Кирилл рассказал нам о своём отпуске.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Kirill told us about his holiday.",
+          "isCorrect": true
+        },
+        {
+          "text": "Kirill said us about his holiday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kirill told about his holiday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "рассказать кому-то о чём-то — told + человек + about. У say нет «о чём» и человека сразу после глагола, а told about без us остаётся без «кому»."
+    },
+    {
+      "id": 121,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Tell Oleg to wait for me.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Скажи Олегу, чтобы он меня подождал.",
+          "isCorrect": true
+        },
+        {
+          "text": "Скажи Олегу, что я его жду.",
+          "isCorrect": false
+        },
+        {
+          "text": "Олег сказал, что подождёт меня.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "tell + человек + to + действие — это команда: «скажи, чтобы подождал». Сообщение «скажи, что я жду» собралось бы без to: Tell Oleg I'm waiting for him."
     }
   ],
   "text_input_exercises": [],
@@ -3338,6 +4133,33 @@
         }
       ],
       "explanation": "Бен говорил о себе и своей семье, поэтому I → he, my → his, our → their. Вещи рядом с Беном для нас уже далеко: this → that, these → those."
+    },
+    {
+      "id": 127,
+      "taskDescription": "соедини русское с английским.",
+      "pairs": [
+        {
+          "left": "говорить по-испански",
+          "right": "speak Spanish"
+        },
+        {
+          "left": "поговорить с соседом",
+          "right": "talk to a neighbour"
+        },
+        {
+          "left": "сказать спасибо",
+          "right": "say thank you"
+        },
+        {
+          "left": "рассказать анекдот",
+          "right": "tell a joke"
+        },
+        {
+          "left": "говорите громче",
+          "right": "speak up"
+        }
+      ],
+      "explanation": "язык и официальная речь — speak, разговор с кем-то — talk to, короткая реплика — say, рассказать что-то — tell. Speak up — устойчивое «говорите громче»."
     }
   ],
   "error_correction_exercises": [
@@ -3397,6 +4219,25 @@
         }
       ],
       "explanation": "thought стоит в прошлом и тянет за собой всю часть после себя: is спускается в was. Were не подходит к одному музею, а was thinking не меняет дела — после него по-прежнему нужно was."
+    },
+    {
+      "id": 248,
+      "wrongSentence": "My sister told that she was pregnant.",
+      "options": [
+        {
+          "text": "My sister said me that she was pregnant.",
+          "isCorrect": false
+        },
+        {
+          "text": "My sister told to me that she was pregnant.",
+          "isCorrect": false
+        },
+        {
+          "text": "My sister told me that she was pregnant.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "у tell человек обязателен и идёт сразу, без to: told me. Said me не бывает — say берёт человека только через to."
     }
   ],
   "construction_meaning_exercises": [
@@ -3514,6 +4355,29 @@
         }
       ],
       "explanation": "says hello — устойчивый способ передать привет: «мама передаёт привет». Рамка says стоит в настоящем, потому что привет свежий, даже если мама сказала это час назад."
+    },
+    {
+      "id": 102,
+      "construction": "Denis asked me if I could lend him some money.",
+      "options": [
+        {
+          "text": "Денис попросил меня одолжить ему денег.",
+          "isCorrect": false
+        },
+        {
+          "text": "Денис одолжил мне денег.",
+          "isCorrect": false
+        },
+        {
+          "text": "Денис спросил меня, могу ли я одолжить ему денег.",
+          "isCorrect": true
+        },
+        {
+          "text": "Денис спросил, нужны ли мне деньги.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после asked me стоит if — значит, это вопрос: «спросил, могу ли я». Просьба «попросил одолжить» собралась бы через to: asked me to lend him some money."
     }
   ],
   "transformation_exercises": [
@@ -3579,6 +4443,29 @@
         }
       ],
       "explanation": "настоящее спускается на одну ступеньку — в was или were. Прошедшее и перфект уже стоят ниже, поэтому уходят ещё глубже — в had + V3: had lost, had finished, had met."
+    },
+    {
+      "id": 160,
+      "taskDescription": "разложи слова по глаголам, с которыми они живут.",
+      "categories": [
+        {
+          "title": "say",
+          "items": [
+            "good night",
+            "please",
+            "no"
+          ]
+        },
+        {
+          "title": "tell",
+          "items": [
+            "a secret",
+            "a fairy tale",
+            "the truth"
+          ]
+        }
+      ],
+      "explanation": "с say стоят короткие реплики, которые прозвучали: good night, please, no. С tell — то, что рассказывают или сообщают: a secret, a fairy tale, the truth."
     }
   ],
   "find_the_odd_exercises": [
@@ -3627,6 +4514,29 @@
         }
       ],
       "explanation": "could, should и might уже стоят внизу лестницы, спускаться им некуда. Can в пересказе спускается в could."
+    },
+    {
+      "id": 137,
+      "groupDescription": "Три фразы — просьбы, одна — вопрос",
+      "items": [
+        {
+          "text": "She asked me to close the window",
+          "isOdd": false
+        },
+        {
+          "text": "They asked me when I was free",
+          "isOdd": true
+        },
+        {
+          "text": "He asked for a glass of water",
+          "isOdd": false
+        },
+        {
+          "text": "Mum asked me to buy some milk",
+          "isOdd": false
+        }
+      ],
+      "explanation": "после asked me стоит when — это вопрос: «спросили, когда я свободен». В остальных просьба: to + действие — «попросила закрыть», «попросила купить», а for + вещь — «попросил стакан воды»."
     }
   ]
 }

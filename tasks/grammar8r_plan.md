@@ -7995,8 +7995,8 @@ theory/
 │   │       will остаётся, пока событие впереди; прошло или неясно → would (ошибкой никогда не
 │   │       будет). Card 653 НЕ переписываем. AI.
 │   │
-│   ├── МТ · say, tell, ask · Три «сказал» и два «говорить»  (3 карточки; слив: lie (ложь) · to inform)
-│   │   ├── Card · say ↔ tell по смыслу
+│   ├── МТ265 · say, tell, ask · Три «сказал» и два «говорить»  (3 карточки; слив: lie (ложь) · to inform) ✅ (написана, ALL GREEN 24.09.26)
+│   │   ├── Card 714 · say ↔ tell по смыслу
 │   │   │   ⬅️ ДОЛГ ИЗ «Passive Voice: часть вторая» (Card 675): механика уже дана — `tell` берёт
 │   │   │      человека вплотную, `say` требует предлога (`He said me the news` ✗ → `He told me` ✓ /
 │   │   │      `He said the news to me` ✓; `I was said` ✗ → `I was told` ✓) — строкой, не заново.
@@ -8011,12 +8011,12 @@ theory/
 │   │   │   (несов. вид) тянет в `He was saying that…` — а почти всегда это просто `He said` /
 │   │   │   `He told me`; `was saying` — только когда речь шла процессом («как раз рассказывал»). Кстати на узнавание: `Tell me about it` ·
 │   │   │   `I told you so` · `You can say that again`. AI.
-│   │   ├── Card · said about ✗ и speak ↔ talk
+│   │   ├── Card 715 · said about и speak ↔ talk
 │   │   │   «сказал о проблеме» → `told me about` / `talked about` / `mentioned`. speak — язык и
 │   │   │   официальное (`speak English`, `May I speak to…?`, `speak up`), talk — разговор (`talk to
 │   │   │   sb about sth`, `We need to talk`). `I talk English` ✗. Итоговая таблица четырёх глаголов
 │   │   │   (бриф требует say / tell / speak / talk). AI.
-│   │   └── Card · ask: спросил или попросил
+│   │   └── Card 716 · ask: спросил или попросил
 │   │       ask sb + if/wh (спросил) · ask sb to (попросил сделать, опора «Инфинитив») · ask for
 │   │       (попросил вещь, опора «Глагол + предлог»). Рядом, потому что путают именно их:
 │   │       `tell somebody (that) …` (передача мысли — `tell her I'm here`) ↔ `tell somebody to do`
@@ -11321,6 +11321,10 @@ theory/
 │   │       Moving on — идём дальше (деловой контекст)
 │   │       That reminds me — кстати, это мне напомнило
 │   │       Back to what I was saying — возвращаясь к тому что я говорил
+│   │       ⬅️ ОБЕЩАНО в «Reported Speech», Card 714 (блок «Русское «говорил»»): `What were you saying?` —
+│   │          «так что ты говорил?», вопрос после паузы, чтобы вернуть собеседника к мысли. Там сказано
+│   │          «разберём в теме «Социальное взаимодействие»» — закрыть здесь, рядом с Back to what I was
+│   │          saying (пара «вернуть к мысли себя ↔ вернуть собеседника»).
 │   │       ➕ ⭐ «КОРОЧЕ» (🆕 16.09.2026, запрос пользователя) — этого хода в курсе нет, а у нас он
 │   │         в каждом втором рассказе: `long story short` («короче говоря», сворачиваю рассказ) ·
 │   │         `to cut a long story short` (полная форма, брит.) · `in short` / `to sum up` (письменно
