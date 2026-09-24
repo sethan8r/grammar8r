@@ -67,6 +67,13 @@
       "title": "Reporting Verbs · Пересказать смысл, а не слова",
       "order": 8,
       "searchKeywords": "accused me of, thanked me for, explained me, deny или refuse, refuse или reject, отказался или отрицал"
+    },
+    {
+      "id": 269,
+      "topicId": 40,
+      "title": "Real Talk · Пересказ в живой речи",
+      "order": 9,
+      "searchKeywords": "apparently значит очевидно, якобы по-английски, говорят что по-английски, he goes и i'm like, be like в разговоре"
     }
   ],
   "grammar_cards": [
@@ -4217,6 +4224,385 @@
         "Чем refused the offer отличается от rejected the offer?",
         "Почему нельзя сказать rejected to help?"
       ]
+    },
+    {
+      "id": 723,
+      "microtopicId": 269,
+      "title": "Источник и слухи",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "До сих пор мы пересказывали, кто что сказал: Кейт сказала, Бен спросил. Но в жизни мы куда чаще передаём то, что просто где-то услышали: «говорят», «вроде бы», «якобы». Подруга пишет:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "text": "Apparently, the new café on our street is closing."
+            },
+            {
+              "speaker": "Me",
+              "text": "Really? Who told you?"
+            },
+            {
+              "speaker": "Emma",
+              "text": "I heard it from Kate."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Кто первым это сказал — неважно или неизвестно. Мы говорим от себя и прямо сейчас, поэтому сдвига времени здесь нет: **is closing** остаётся настоящим."
+        },
+        {
+          "type": "heading",
+          "text": "apparently — «судя по всему»"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Apparently** — это не «очевидно». Это «судя по всему», «говорят», «вроде бы»: сведения из вторых рук. **Apparently, he quit his job.** — говорят, он уволился. «Очевидно» по-английски — **obviously** или **clearly**. Путают из-за прилагательного **apparent** — «очевидный»: наречие от него ушло в другую сторону."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "supposedly — «якобы»"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Supposedly` тоже передаёт чужие слова, но с сомнением: **This restaurant is supposedly the best in town.** — этот ресторан якобы лучший в городе, а мы не очень верим. Та же нотка, что у `claimed` из «Сдвига времён»."
+        },
+        {
+          "type": "heading",
+          "text": "Что мы уже знаем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Остальные способы сослаться на источник нам знакомы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I heard you've got a new car.** / **I hear you're moving.** — я слышал, что… — из «See, Look, Watch»",
+            "**according to the doctor** — по словам врача; но **according to me** ✗ — из «Составных предлогов»",
+            "**They say it's a good school.** / **It is said that…** — говорят — из «Страдательного залога»",
+            "**The café is supposed to be very good.** — говорят, что хорошее — из «Модальных глаголов»",
+            "**I'm told the meeting was cancelled.** — мне сказали — тоже страдательный залог"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Нужен ли здесь сдвиг"
+        },
+        {
+          "type": "paragraph",
+          "text": "После **apparently**, **they say**, **I hear** рамка стоит в настоящем — сдвигать нечего. После **I heard** рамка в прошлом, и работает правило из «Когда время не сдвигаем»: если это всё ещё правда, верны оба варианта — **I heard he was ill** и **I heard he's ill**."
+        },
+        {
+          "type": "heading",
+          "text": "Говорят, якобы, по словам"
+        },
+        {
+          "type": "table",
+          "header": [
+            "По-русски",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "говорят, что…",
+              "they say / apparently"
+            ],
+            [
+              "вроде бы, судя по всему",
+              "apparently"
+            ],
+            [
+              "якобы",
+              "supposedly"
+            ],
+            [
+              "по словам…",
+              "according to"
+            ],
+            [
+              "я слышал, что…",
+              "I heard"
+            ],
+            [
+              "мне сказали",
+              "I'm told / I was told"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где что звучит"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Где звучит",
+            "Оттенок"
+          ],
+          "rows": [
+            [
+              "apparently",
+              "везде",
+              "нейтрально"
+            ],
+            [
+              "supposedly",
+              "разговор",
+              "с сомнением"
+            ],
+            [
+              "I heard",
+              "разговор",
+              "нейтрально"
+            ],
+            [
+              "according to",
+              "новости, работа",
+              "точная ссылка на источник"
+            ],
+            [
+              "It is said",
+              "книги, статьи",
+              "официально"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Rumour has it…** — «ходят слухи, что…». Звучит чуть шутливо и заговорщицки: **Rumour has it they're getting married.** Слово `rumour` мы уже знаем по «See, Look, Watch»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Слухи и чужие сведения передают от себя и сейчас — сдвига времени нет."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**apparently** — судя по всему, говорят; не «очевидно» (это **obviously**)",
+            "**supposedly** — якобы, с сомнением",
+            "**I heard / I hear** — я слышал; **according to** — по словам; **I'm told** — мне сказали",
+            "**They say**, **It is said**, **is supposed to be** — говорят, что…",
+            "После **I heard** — оба варианта: **he was ill** или **he's ill**, если это всё ещё правда"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**according to me** ✗ → **in my opinion** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Говорят, новое кафе закрывается.",
+          "en": "Apparently, the new café is closing."
+        },
+        {
+          "ru": "Этот ресторан якобы лучший в городе.",
+          "en": "This restaurant is supposedly the best in town."
+        },
+        {
+          "ru": "Я слышал, у тебя новая машина.",
+          "en": "I heard you've got a new car."
+        },
+        {
+          "ru": "По словам врача, всё в порядке.",
+          "en": "According to the doctor, everything is fine."
+        },
+        {
+          "ru": "Мне сказали, что встречу отменили.",
+          "en": "I was told the meeting was cancelled."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему apparently не значит «очевидно»?",
+        "Чем apparently отличается от supposedly?",
+        "Нужно ли сдвигать время после I heard?"
+      ]
+    },
+    {
+      "id": 724,
+      "microtopicId": 269,
+      "title": "Устный рассказ: носитель цитирует",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Когда мы рассказываем другу историю вживую, мы почти не пересказываем — мы изображаем: «и тут он мне говорит…», «а я такой…». Английский делает то же самое, и у него для этого есть свои словечки:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Me",
+              "text": "So Ben calls me at midnight. He goes, \"Are you awake?\" And I'm like, \"Well, I am now!\""
+            },
+            {
+              "speaker": "Lucy",
+              "text": "Haha! What did he want?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь нет ни said, ни сдвига времени — и это нормальная живая речь."
+        },
+        {
+          "type": "heading",
+          "text": "goes — «говорит» в рассказе"
+        },
+        {
+          "type": "paragraph",
+          "text": "В устной истории **he goes** значит «он говорит», «он такой». Дословно «он идёт», но в рассказе это просто способ вставить чужую реплику: **So she goes, \"Where have you been?\"**"
+        },
+        {
+          "type": "heading",
+          "text": "be like — «а я такой»"
+        },
+        {
+          "type": "paragraph",
+          "text": "**I'm like** или **I was like** вводит реплику — а часто и реакцию, интонацию, выражение лица: **I was like, \"Wow!\"** — «а я такой: «Ого!»». Это не обязательно были слова, это мог быть и взгляд."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He's like, \"No way!\"** — это не «он похож». В рассказе `be like` с репликой значит «сказал, отреагировал». А «похож на кого-то» — это **He looks like his dad**, как мы разбирали в «See, Look, Watch». Различаем по тому, что стоит после: реплика — «он такой», человек или вещь — «похож»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Настоящее время про прошлое"
+        },
+        {
+          "type": "paragraph",
+          "text": "История была вчера, а рассказываем её в настоящем: **Ben calls me**, **he goes**, **I'm like**. Так рассказ звучит живее, будто всё происходит прямо сейчас. Русский делает ровно то же: «звонит мне вчера Бен в полночь и говорит…». Здесь языки совпадают — и это можно смело использовать."
+        },
+        {
+          "type": "paragraph",
+          "text": "Реплики внутри такого рассказа идут как есть, без сдвига: это прямая речь, а не пересказ."
+        },
+        {
+          "type": "heading",
+          "text": "Где это уместно"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**goes** и **be like** — только устная речь среди своих: друзья, семья, чат.",
+            "Начальник, письмо, экзамен, незнакомые люди — только **said**.",
+            "**I'm like** через каждые пять слов звучит по-подростковому. Пара раз за историю — нормально."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сейчас мы учимся **goes** и **be like** узнавать. В словарь они придут позже — в теме «Разговорный английский», вместе с другими такими же словечками живой речи."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "В книгах — на узнавание"
+        },
+        {
+          "type": "paragraph",
+          "text": "В книгах реплику часто пишут так: **\"I'm tired,\" said Tom.** Глагол встаёт перед именем — это книжный порядок, в разговоре так не говорят. Как ставить кавычки и запятые вокруг прямой речи, разберём в теме «Пунктуация и орфография»."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "В устном рассказе реплики изображают, а не пересказывают — без said и без сдвига."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**he goes** — он говорит, он такой",
+            "**I'm like / I was like** — а я такой: слова или реакция",
+            "Рассказ о прошлом часто ведут в настоящем: **Ben calls me, he goes…**",
+            "Только устная речь среди своих; на письме и с начальником — **said**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He's like, \"No way!\"** — он такой: «Да ладно!» ↔ **He looks like his dad** — он похож на папу"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "И тут он говорит: «Ты где был?»",
+          "en": "So he goes, \"Where were you?\""
+        },
+        {
+          "ru": "А я такой: «Нигде!»",
+          "en": "And I'm like, \"Nowhere!\""
+        },
+        {
+          "ru": "Она такая: «Серьёзно?»",
+          "en": "She was like, \"Seriously?\""
+        },
+        {
+          "ru": "Он похож на своего папу.",
+          "en": "He looks like his dad."
+        },
+        {
+          "ru": "«Я устал», — сказал Том.",
+          "en": "\"I'm tired,\" said Tom."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему he goes значит «он говорит»?",
+        "Как отличить he's like от he looks like?",
+        "Можно ли писать goes и like в письме?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4645,6 +5031,48 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 236,
       "orderInCard": 3
+    },
+    {
+      "cardId": 723,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 285,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 723,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 104,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 723,
+      "exerciseType": "MATCHING",
+      "exerciseId": 131,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 723,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 252,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 724,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 105,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 724,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 258,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 724,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 122,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -4765,6 +5193,14 @@
       "cardId": 722,
       "title": "Отрицал, отказался или отклонил",
       "userInstruction": "Скажите по-английски: кто-то отрицал, отказался, отклонил или признал что-то.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "reported_speech_card723_ex1",
+      "cardId": 723,
+      "title": "Говорят, якобы, по словам",
+      "userInstruction": "Скажите по-английски: что-то, что вы слышали от других.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -4920,6 +5356,22 @@
       "translation": "благодарить",
       "transcription": "[θæŋk]",
       "microtopicId": 268,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 943,
+      "word": "apparently",
+      "translation": "судя по всему, по-видимому",
+      "transcription": "[əˈpærəntli]",
+      "microtopicId": 269,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 944,
+      "word": "supposedly",
+      "translation": "якобы, предположительно",
+      "transcription": "[səˈpəʊzɪdli]",
+      "microtopicId": 269,
       "categoryId": "useful_words"
     }
   ],
@@ -5755,6 +6207,69 @@
         }
       ],
       "explanation": "«разбил или не разбил» — это про то, что уже было, значит deny: denied breaking. Refused значило бы «отказался разбивать», а rejected берёт только вещь."
+    },
+    {
+      "id": 285,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Говорят, новый музей очень хороший.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Obviously, the new museum is very good.",
+          "isCorrect": false
+        },
+        {
+          "text": "Apparently, the new museum is very good.",
+          "isCorrect": true
+        },
+        {
+          "text": "Apparently, the new museum was very good.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«говорят» — сведения из вторых рук, это apparently. Obviously значит «очевидно», это другой смысл. Сдвиг в was не нужен: мы говорим от себя и сейчас."
+    },
+    {
+      "id": 258,
+      "choiceType": "CHOICE",
+      "prompt": "The client ___ that the order was late.",
+      "contextRu": "Ты пишешь письмо начальнику.",
+      "options": [
+        {
+          "text": "was like",
+          "isCorrect": false
+        },
+        {
+          "text": "goes",
+          "isCorrect": false
+        },
+        {
+          "text": "said",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "goes и was like живут только в устных историях среди своих. В письме начальнику чужие слова передают через said."
+    },
+    {
+      "id": 122,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "So I go, 'Sorry, I'm late,' and she's like, 'Again?'",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Я ухожу со словами «Извини, опоздал», а она похожа на «опять».",
+          "isCorrect": false
+        },
+        {
+          "text": "Я иду и извиняюсь, а она опять опаздывает.",
+          "isCorrect": false
+        },
+        {
+          "text": "И я такой: «Извини, опоздал», а она: «Опять?»",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "go и be like в рассказе вводят реплики: «я такой», «а она». Настоящее время здесь рассказывает о прошлом — так история звучит живее."
     }
   ],
   "text_input_exercises": [],
@@ -6082,6 +6597,33 @@
         }
       ],
       "explanation": "deny — «не было» про прошлое, refuse — «не буду» про действие, reject — «нет» предложенной вещи, admit — «да, было»."
+    },
+    {
+      "id": 131,
+      "taskDescription": "соедини русское с английским.",
+      "pairs": [
+        {
+          "left": "ходят слухи",
+          "right": "rumour has it"
+        },
+        {
+          "left": "якобы",
+          "right": "supposedly"
+        },
+        {
+          "left": "судя по всему",
+          "right": "apparently"
+        },
+        {
+          "left": "по словам врача",
+          "right": "according to the doctor"
+        },
+        {
+          "left": "мне сказали",
+          "right": "I was told"
+        }
+      ],
+      "explanation": "apparently — «судя по всему», supposedly — «якобы», с сомнением. According to ссылается на источник, I was told — «мне сказали», а rumour has it — шутливое «ходят слухи»."
     }
   ],
   "error_correction_exercises": [
@@ -6217,6 +6759,25 @@
         }
       ],
       "explanation": "у accuse нет that — сначала человек, потом of и действие с -ing: accused me of taking. For здесь не подходит: for берут thank и blame."
+    },
+    {
+      "id": 252,
+      "wrongSentence": "According to me, the film is boring.",
+      "options": [
+        {
+          "text": "In my opinion, the film is boring.",
+          "isCorrect": true
+        },
+        {
+          "text": "According to my opinion, the film is boring.",
+          "isCorrect": false
+        },
+        {
+          "text": "According to I, the film is boring.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "according to ссылается на чужой источник — врача, новости, Кейт. Своё мнение так не называют: для него есть in my opinion."
     }
   ],
   "construction_meaning_exercises": [
@@ -6380,6 +6941,52 @@
         }
       ],
       "explanation": "didn't ask me to stay — «не просила остаться», то есть такой просьбы вообще не было. Запрет «попросила не оставаться» звучал бы иначе: asked me not to stay."
+    },
+    {
+      "id": 104,
+      "construction": "Supposedly, he's a great cook.",
+      "options": [
+        {
+          "text": "Очевидно, он отлично готовит.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он раньше отлично готовил.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ему нужно хорошо готовить.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он якобы отлично готовит.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "supposedly — «якобы»: мы передаём чужие слова и сами в них сомневаемся. «Очевидно» — obviously, а «нужно готовить» — have to cook."
+    },
+    {
+      "id": 105,
+      "construction": "And then she was like, 'Are you serious?'",
+      "options": [
+        {
+          "text": "И тогда она была похожа на серьёзную.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ей нравилось быть серьёзной.",
+          "isCorrect": false
+        },
+        {
+          "text": "А она такая: «Ты серьёзно?»",
+          "isCorrect": true
+        },
+        {
+          "text": "Она спросила, серьёзный ли я человек.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "was like с репликой — это «а она такая», способ вставить чужие слова в рассказ. «Была похожа» сказали бы через looked like, а «нравилось» — через liked."
     }
   ],
   "transformation_exercises": [
