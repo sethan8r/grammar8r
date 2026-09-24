@@ -1,0 +1,715 @@
+{
+  "grammar_topics": [
+    {
+      "id": 40,
+      "title": "Косвенная речь",
+      "order": 26,
+      "isPretopic": false,
+      "description": "Как пересказать, что сказал, спросил или велел другой человек: почему время отступает на шаг назад, said или told и когда сдвига нет",
+      "categoryId": null,
+      "searchKeywords": "пересказать чужие слова, согласование времён, сдвиг времён, said или told, indirect speech"
+    }
+  ],
+  "grammar_topic_categories": [],
+  "grammar_microtopics": [
+    {
+      "id": 261,
+      "topicId": 40,
+      "title": "Reported Speech · Пересказ чужих слов",
+      "order": 1,
+      "searchKeywords": "прямая речь, цитата в кавычках, цитата или пересказ, чем отличается от русского пересказа"
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 704,
+      "microtopicId": 261,
+      "title": "Прямая речь и пересказ: что это и что уже на руках",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Утром коллега Кейт заглядывает к вам и говорит:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Kate",
+              "text": "I'm so tired. I'll go home early."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вечером о ней спрашивает Том, и вы пересказываете её слова:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Tom",
+              "text": "Where's Kate?"
+            },
+            {
+              "speaker": "Me",
+              "text": "She said she was tired and would go home early."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните две фразы — Кейт и вашу. В пересказе поменялись три вещи:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "звучат уже не слова самой Кейт, а наш рассказ о них — через **said**;",
+            "**I** стало **she** — это русскому привычно, мы тоже говорим «она сказала, что…»;",
+            "**am** стало **was**, а **will** стало **would** — время отъехало на шаг назад. Вот этого в обычном русском «сказал, что…» не происходит."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Третья перемена и есть главная трудность темы."
+        },
+        {
+          "type": "heading",
+          "text": "Что это такое — в двух словах"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прямая речь — это чужие слова в точности, как их произнесли: в книге они стоят в кавычках, в чате — отдельным сообщением. Косвенная речь — это пересказ тех же слов нашими словами, через «сказал, что…», «спросил, где…», «попросил…». По-английски такой пересказ называют `reported speech` — буквально «доложенная речь»: мы докладываем, что сказал другой человек."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "label": "Примечание",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Как оформлять прямую речь на письме (кавычки, запятые, **said Tom** в книгах) — это разговор о знаках препинания, он живёт в теме «Пунктуация и орфография»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что мы уже знаем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Пересказывать мы начали ещё в прошлых темах, просто не называли это так:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He told me to wait.** / **She asked him to help.** — приказ и просьба через `to`, из «Инфинитива»; без `to` после **told me** идёт уже не приказ, а сообщение",
+            "**Do you know where he lives?** — порядок слов во встроенном вопросе и **if / whether**, из «Косвенных вопросов»",
+            "**I think you're right.** — `that` после think и say можно опустить, из «Частей речи»",
+            "**He said he would call back.** — `will` в пересказе становится `would`, а глагол после него остаётся голым, из «Модальных глаголов»",
+            "**She said she could come.** — `can` становится `could`, оттуда же",
+            "**had + V3** и **had been + -ing** — «раньше того прошлого», из Past Perfect и Past Perfect Continuous",
+            "**I was told to wait.** / **It is said that…** — из «Страдательного залога: все формы»",
+            "**He denied taking the money.** — deny, admit, suggest с `-ing`, из «Герундия после глагола»",
+            "**according to the news** / **I heard you got a new job** — откуда новость, из «Составных предлогов» и «See, Look, Watch»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Строить заново ничего не придётся. Тема соберёт эти кусочки в одну систему и добавит главное, чего пока не хватает: правило, по которому время отступает назад."
+        },
+        {
+          "type": "heading",
+          "text": "Почему тема стоит здесь"
+        },
+        {
+          "type": "paragraph",
+          "text": "Пересказ трогает каждое время, которое есть в языке: **am → was**, **works → worked**, **has done → had done**, **will → would**, **can → could**. Пока мы не прошли сами времена, сдвигать было нечего: невозможно объяснить, куда отъезжает Present Perfect, если Present Perfect ещё не знаком. Поэтому тема стоит после всех времён."
+        },
+        {
+          "type": "paragraph",
+          "text": "Кроме двух: Future Continuous и Future Perfect идут в курсе сразу после этой темы. Их пересказ мы расскажем в их собственных темах — тем же ходом, который разберём здесь."
+        },
+        {
+          "type": "heading",
+          "text": "Главная мысль темы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Пересказ смотрит на чужие слова из сегодняшнего дня. Для Кейт её усталость была «сейчас», а для нас, когда мы вечером рассказываем Тому, это уже «тогда». Английский честно отражает эту разницу: время отступает на шаг назад — ровно так же, как «я» Кейт превращается в наше «она»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Этот шаг назад мы уже встречали дважды. В «Модальных глаголах» `could` и `would` оказались прошедшими парами `can` и `will`. В «Условных предложениях» тот же ход отодвигал фразу от реальности: **If I had a car, I would drive you** — машины-то нет. В пересказе у шага назад третья работа: он отодвигает чужие слова во времени, из «сейчас» говорившего в наше «тогда»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Лицо в пересказе меняется так же, как в русском, а время — отступает на шаг назад. Каждая карточка темы будет возвращаться к этой мысли."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Обещания, которые мы давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "В нескольких темах мы останавливались на полуслове и говорили: «разберём в косвенной речи». Вот эти вопросы — ответы на них ждут в своих микротемах:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "В «Модальных глаголах» мы увидели **She said she could come** и обещали разобрать сдвиг целиком. Какие ещё формы так отъезжают назад?",
+            "В Past Perfect и Past Perfect Continuous мы сказали, что в пересказе прошлое уходит ещё глубже, в `had`. Когда именно?",
+            "В «Условных предложениях» ужин готовили зря, потому что **you weren't coming**. Почему не **you didn't come**?",
+            "В «Герундии после глагола» мы дали форму deny, admit, refuse. Чем они отличаются по смыслу — и при чём тут reject?",
+            "В «Страдательном залоге» выяснили, что **He said me the news** ✗. А в чём смысловая разница между say и tell?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Карта темы"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Микротема",
+            "Что даст",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Сдвиг времён",
+              "как время отступает назад",
+              "I'm tired → she was tired"
+            ],
+            [
+              "Лица, место и время",
+              "я → он, завтра → на следующий день",
+              "tomorrow → the next day"
+            ],
+            [
+              "Мысли и когда сдвига нет",
+              "думал, знал; где время остаётся",
+              "I thought you were busy"
+            ],
+            [
+              "Три «сказал»",
+              "say, tell, speak, talk, ask",
+              "told me, said to me"
+            ],
+            [
+              "Пересказать вопрос",
+              "«спросил, где…», «спросил, придёт ли…»",
+              "asked where I lived"
+            ],
+            [
+              "Пересказать просьбу",
+              "попросил, велел, посоветовал",
+              "told me not to worry"
+            ],
+            [
+              "Глагол вместо said",
+              "пересказать смысл, а не слова",
+              "refused to help"
+            ],
+            [
+              "Живая речь",
+              "слухи и устный рассказ",
+              "apparently / he goes"
+            ],
+            [
+              "Пересказ в деле",
+              "всё вместе с ИИ",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Пересказ смотрит на чужие слова из сегодняшнего дня: лицо меняется, как в русском, а время отступает на шаг назад."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Слова Кейт **I'm tired** → пересказ **Kate said she was tired**",
+            "Прямая речь — слова как есть, косвенная — пересказ через said, told, asked"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что уже знаем"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**told me to wait**, **asked him to help** — приказ и просьба: кого + to + действие",
+            "**told me he was hungry** — без to это уже не приказ, а сообщение",
+            "**said he would call**, **said she could come** — will → would, can → could, дальше глагол без to",
+            "**He said me** ✗ → **He told me** ✓ — said не берёт человека вплотную"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Кейт сказала, что устала.",
+          "en": "Kate said she was tired."
+        },
+        {
+          "ru": "Бен сказал, что перезвонит.",
+          "en": "Ben said he would call back."
+        },
+        {
+          "ru": "Мама попросила меня купить хлеб.",
+          "en": "Mum asked me to buy some bread."
+        },
+        {
+          "ru": "Тренер велел нам подождать снаружи.",
+          "en": "The coach told us to wait outside."
+        },
+        {
+          "ru": "Эмма сказала, что может помочь.",
+          "en": "Emma said she could help."
+        }
+      ],
+      "clarificationOptions": [
+        "Зачем менять время, если и так понятно, что это чужие слова?",
+        "Прямую речь в кавычках в английском тоже используют или только пересказ?",
+        "Почему would и could здесь те же самые, что в условных предложениях?"
+      ]
+    },
+    {
+      "id": 705,
+      "microtopicId": 261,
+      "title": "Почему русскому пересказ даётся сложнее, чем кажется",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Русский пересказ устроен очень просто. Кейт говорит: «Я устала». Мы передаём: «Кейт сказала, что устала». Поменялось одно лицо — «я» стало «она». Всё остальное, включая время глагола, осталось таким, каким было у Кейт."
+        },
+        {
+          "type": "heading",
+          "text": "Русский держит время говорившего"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на три пересказа подряд. По-русски время в каждом своё — и в каждом ровно то, которое звучало у самой Кейт:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кейт сказала…",
+            "Её слова",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "что устала",
+              "I'm tired",
+              "Kate said she was tired"
+            ],
+            [
+              "что работает в Праге",
+              "I work in Prague",
+              "Kate said she worked in Prague"
+            ],
+            [
+              "что позвонит мне",
+              "I'll call you",
+              "Kate said she would call me"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский пересказывает глазами Кейт: для неё «работаю» было настоящим, «позвоню» — будущим, и мы так и оставляем. Английский пересказывает глазами рассказчика: раз Кейт говорила это в прошлом, её слова целиком уходят туда же — настоящее становится прошедшим, `will` становится `would`."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда берётся ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русская рука переводит пересказ слово в слово. «Сказала, что устала» — значит, в английском тоже хочется оставить время Кейт, и после `said` появляется `is`. Английское ухо слышит в этом сбой: `said` уже увело рассказ в прошлое, а `is` тянет его обратно в «сейчас»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Утром Кейт сказала **I'm tired**, вечером вы пересказываете. **She said she is tired** ✗ → **She said she was tired** ✓. Время после said отступает назад вслед за самим said."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Бывают случаи, когда время всё-таки оставляют, — у них свои причины, и мы разберём их в микротеме «Мысли тоже сдвигаются — и когда сдвига нет». Но исходная точка для английского одна: сначала сдвигаем."
+        },
+        {
+          "type": "heading",
+          "text": "Вы это уже видели"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Косвенных вопросах» нам встретилась фраза **I didn't know that you lived in Warsaw**. Человек живёт в Варшаве до сих пор, по-русски мы скажем «не знал, что ты живёшь», — а в английском стоит `lived`. Тогда мы не останавливались на этом, а это был тот самый шаг назад: `didn't know` стоит в прошлом и тянет за собой всё, что к нему прицеплено."
+        },
+        {
+          "type": "heading",
+          "text": "Русское «был» — одно на два случая"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё одна вещь, которую русский просто не различает. «Он сказал, что был занят» — занят в тот момент, когда говорил? Или был занят ещё раньше? По-русски форма одна, и понятно всё из обстановки. Английскому придётся выбрать между **was busy** и **had been busy** — и мы увидим, как это сделать, в следующей микротеме."
+        },
+        {
+          "type": "heading",
+          "text": "Что у нас уже есть для «сказал»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Одно русское «сказал» по-английски расходится на несколько слов, и часть этой развилки мы уже прошли в «Инфинитиве» и «Страдательном залоге»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**told me** — «сказал мне»: человек стоит сразу после told, без предлога — **told to me** ✗",
+            "**asked me to** — «попросил меня», **told me to** — «велел мне»",
+            "**said** человека вплотную не берёт — **He said me** ✗ → **He told me** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где ещё споткнёмся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сдвиг времени — главная, но не единственная трудность. Вот вопросы, на которые ответит тема. Попробуйте прямо сейчас угадать, что не так с каждой английской фразой:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Я думал, ты занят» — почему **I thought you are busy** ✗?",
+            "«Он сказал, что не придёт» — почему **He said he didn't come** ✗ значит совсем другое?",
+            "С said и told мы уже разобрались — но почему не работают **told that** ✗ и **explained me** ✗?",
+            "«Спросил» и «попросил» по-английски — одно `ask`. Чем тогда **asked me to help** отличается от **asked me if I could help**?",
+            "«Велел не опаздывать» — почему не **told me don't be late** ✗?",
+            "«Сказал, чтобы я пришёл» — русский сам ставит здесь прошедшее «пришёл». Почему **He said that I came** ✗ значит другое?",
+            "«Отказал», «отрицал», «отклонил» — у английского на них три разных глагола. Какие?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский в пересказе меняет только лицо, английский — и лицо, и время. С того, как именно время отступает назад, и начнётся следующая микротема."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русский в пересказе меняет только лицо и держит время говорившего. Английский меняет и лицо, и время."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«сказала, что устала / работает / позвонит» → **was tired / worked / would call**",
+            "**I didn't know you lived in Warsaw** — живёт до сих пор, а форма прошедшая: её тянет за собой **didn't know**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что уже знаем"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**told me** — сказал мне, **asked me to** — попросил, **told me to** — велел"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She said she is tired** ✗ → **She said she was tired** ✓ — после said время отступает назад",
+            "**He said me** ✗ → **He told me** ✓ — said не берёт человека вплотную",
+            "**told to me** ✗ → **told me** ✓ — человек сразу после told, без предлога"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Люси сказала, что опаздывает.",
+          "en": "Lucy said she was running late."
+        },
+        {
+          "ru": "Я не знал, что Игорь женат.",
+          "en": "I didn't know Igor was married."
+        },
+        {
+          "ru": "Я не знал, что ты живёшь в Лиссабоне.",
+          "en": "I didn't know you lived in Lisbon."
+        },
+        {
+          "ru": "Ник сказал, что будет в офисе.",
+          "en": "Nick said he would be at the office."
+        },
+        {
+          "ru": "Вера сказала, что у неё есть собака.",
+          "en": "Vera said she had a dog."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему русскому хватает одного времени говорившего, а английскому нет?",
+        "Значит, is после said — это всегда ошибка?",
+        "Почему в I didn't know you lived in Warsaw стоит lived, если человек живёт там до сих пор?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 704,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 97,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 704,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 107,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 704,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 135,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 705,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 252,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 705,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 117,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 705,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 245,
+      "orderInCard": 2
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "useful_words",
+      "nameRus": "Полезные слова",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "useful_words",
+      "nameRus": "Полезные слова",
+      "groupId": "useful_words",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 252,
+      "statements": [
+        {
+          "en": "I didn't know you worked here.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Olga said me her new address.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Sonya asked me to wait outside.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My boss told to me to stay late.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Tom said he could fix it.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "say не берёт человека вплотную, поэтому адрес сообщают через tell: Olga told me her new address. У told человек тоже идёт сразу, без to: My boss told me to stay late. Остальные три фразы верны: worked тянет за собой didn't know, asked me to wait — просьба, could — пересказанное can."
+    }
+  ],
+  "word_arrangement_exercises": [],
+  "multiple_choice_exercises": [
+    {
+      "id": 117,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "I didn't know you lived here!",
+      "contextRu": "Сосед встретил тебя у подъезда.",
+      "options": [
+        {
+          "text": "Я не знал, что ты здесь жил!",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не знаю, где ты живёшь!",
+          "isCorrect": false
+        },
+        {
+          "text": "Я не знал, что ты здесь живёшь!",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "сосед видит тебя у подъезда — ты живёшь здесь сейчас. lived стоит не потому, что ты тут больше не живёшь, а потому, что его тянет за собой didn't know: английский отодвигает всю фразу в прошлое. По-русски время остаётся настоящим — «живёшь»."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 107,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Where's Ben? The meeting starts at ten."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "He said he would be late.",
+          "isCorrect": true
+        },
+        {
+          "text": "He said me he would be late.",
+          "isCorrect": false
+        },
+        {
+          "text": "He said he would to be late.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после said человек не ставится — said me не бывает, для этого есть told me. После would, как после любого модального, идёт голая форма глагола, без to: would be."
+    }
+  ],
+  "matching_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 245,
+      "wrongSentence": "The teacher said us to open our books.",
+      "options": [
+        {
+          "text": "The teacher told us to open our books.",
+          "isCorrect": true
+        },
+        {
+          "text": "The teacher told to us to open our books.",
+          "isCorrect": false
+        },
+        {
+          "text": "The teacher said us open our books.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "said не берёт человека вплотную — велеть что-то сделать можно через told: told us to open. После told человек идёт сразу, без to перед ним, а to стоит уже перед самим действием."
+    }
+  ],
+  "construction_meaning_exercises": [
+    {
+      "id": 97,
+      "construction": "Lena asked me to call her back.",
+      "options": [
+        {
+          "text": "Лена спросила, перезвоню ли я ей.",
+          "isCorrect": false
+        },
+        {
+          "text": "Лена попросила меня ей перезвонить.",
+          "isCorrect": true
+        },
+        {
+          "text": "Лена сказала, что перезвонит мне.",
+          "isCorrect": false
+        },
+        {
+          "text": "Я попросил Лену мне перезвонить.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "asked + кого + to + действие — это просьба сделать что-то: «попросила меня перезвонить». Вопрос «перезвоню ли я» собрался бы через if, а «сказала, что перезвонит» — через said she would."
+    }
+  ],
+  "transformation_exercises": [],
+  "categorization_exercises": [],
+  "find_the_odd_exercises": [
+    {
+      "id": 135,
+      "groupDescription": "Три фразы передают просьбу или приказ, одна — нет",
+      "items": [
+        {
+          "text": "Kate told us to sit down",
+          "isOdd": false
+        },
+        {
+          "text": "Nick asked me to wait",
+          "isOdd": false
+        },
+        {
+          "text": "Ben told me he was hungry",
+          "isOdd": true
+        },
+        {
+          "text": "Mum told me to call her",
+          "isOdd": false
+        }
+      ],
+      "explanation": "просьба и приказ собираются так: told или asked + кого + to + действие — «велела сесть», «попросил подождать», «велела позвонить». Во фразе про Бена после told me нет to: Бен не велел ничего делать, а сообщил, что голоден."
+    }
+  ]
+}

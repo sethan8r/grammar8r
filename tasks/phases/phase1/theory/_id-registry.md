@@ -7,23 +7,23 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 704 |
+| Card | 706 |
 | Categorization | 159 |
 | Category | 8 |
-| ConstructionMeaning | 97 |
-| DialogRestore | 107 |
-| ErrorCorrection | 245 |
-| FindTheOdd | 135 |
+| ConstructionMeaning | 98 |
+| DialogRestore | 108 |
+| ErrorCorrection | 246 |
+| FindTheOdd | 136 |
 | Matching | 125 |
-| Microtopic | 261 |
+| Microtopic | 262 |
 | MultipleChoice·CHOICE | 252 |
 | MultipleChoice·FORWARD_CHOICE | 279 |
-| MultipleChoice·REVERSE_CHOICE | 117 |
+| MultipleChoice·REVERSE_CHOICE | 118 |
 | TableFill | 51 |
 | TextInput | 137 |
-| Topic | 40 |
+| Topic | 41 |
 | Transformation | 118 |
-| TrueFalse | 252 |
+| TrueFalse | 253 |
 | WordArrangement | 228 |
 | course_word | 926 |
 
@@ -672,6 +672,17 @@
 - TrueFalse: 247–251 (5)
 - WordArrangement: 221–227 (7)
 - course_word: 912–925 (14)
+
+### reported-speech
+- Card: 704–705 (2)
+- ConstructionMeaning: 97–97 (1)
+- DialogRestore: 107–107 (1)
+- ErrorCorrection: 245–245 (1)
+- FindTheOdd: 135–135 (1)
+- Microtopic: 261–261 (1)
+- MultipleChoice·REVERSE_CHOICE: 117–117 (1)
+- Topic: 40–40 (1)
+- TrueFalse: 252–252 (1)
 
 ### see-look-watch
 - Card: 555–579 (25)
