@@ -2552,26 +2552,381 @@ B: ___
 
 ---
 
+## Microtopic 267 — Reported Commands · Пересказать просьбу, совет, приказ
+
+**ID:** 267
+**Теги:** told me not to, told me don't, сказал чтобы по-английски, попросил не делать, advise или advice, suggested me to
+
+---
+
+### Card 719 · told / asked + кого + (not) to
+
+**ID:** 719
+
+#### Theory
+
+Командам и просьбам мы научились в «Императиве»: **Wait!**, **Don't be late!**, **Could you help me?** Теперь научимся их пересказывать. Начальница пишет вам:
+
+@Megan: Please send me the report. And don't forget the numbers!
+
+Коллега спрашивает, что она хотела. Вы пересказываете: **She asked me to send her the report and told me not to forget the numbers.**
+
+Посмотрите, чего здесь нет. Нет `that`, нет сдвига времени, пропало `please`. Вместо всего этого работает сборка, знакомая по «Инфинитиву»: глагол + кого + `to` + действие.
+
+**Формула:** told / asked + кого + (not) to + V1
+
+**Вежливость переехала в глагол**
+
+`Please` в пересказе исчезает, но тон никуда не девается — его несёт сам глагол:
+
+- была просьба, с «пожалуйста» или «не могли бы вы» → **asked**: **She asked me to send the report.**
+- было указание, команда → **told**: **She told me not to forget the numbers.**
+
+Русский делает то же самое: «попросила прислать» и «велела не забыть». Выбираем глагол по тону — и полдела сделано.
+
+**Как пересказать каждую команду**
+
+| Сказали | В пересказе |
+|---------|-------------|
+| Wait here. | told me to wait there |
+| Please call me back. | asked me to call him back |
+| Could you help me? | asked me to help her |
+| Don't be late! | told me not to be late |
+| Let me know. | asked me to let him know |
+
+Просьбу **Could you help me?** можно пересказать и как **asked me if I could help** — ошибкой не будет, но так она звучит как вопрос, а не как просьба. Мы разводили эти два смысла в микротеме «Три «сказал» и два «говорить»».
+
+**not — прямо перед to**
+
+Запрет пересказываем так же, только перед `to` встаёт `not`: **Don't be late!** → **She told me not to be late.**
+
+**Ловушка:** **He told me don't go** ✗ → **He told me not to go** ✓. Русское «сказал: не ходи» тянет команду в пересказ целиком, вместе с `don't`. Но внутри пересказа команды уже нет — есть `not to`.
+
+**«Не велел» и «велел не»**
+
+Одно слово переставили — и смысл другой:
+
+- **She didn't tell me to stay.** — не велела оставаться: вообще ничего такого не говорила
+- **She told me not to stay.** — велела не оставаться: прямо запретила
+
+**«Сказал, чтобы…»**
+
+Русский пересказывает просьбу через «чтобы», и глагол после него стоит в прошедшем: «сказал, чтобы я **пришёл**».
+
+**Ловушка:** **He said that I came** ✗ → **He told me to come** ✓ или **He said I should come** ✓. Английское **I came** после that — это «сказал, что я пришёл»: сообщение о том, что уже случилось. Русское «чтобы» с прошедшим по-английски превращается в `to`.
+
+**Как ещё говорят**
+
+- **He said to call him back.** — в разговоре так пересказывают, не называя человека. Но **He said me to** ✗ — человека после said нет.
+- **I was told to wait.** / **We were asked to leave.** — то же самое через страдательный залог, мы знаем его по «Страдательному залогу».
+- Вопрос: **What did she tell you to do?** — что она велела сделать? **Did he ask you to call?** — он просил тебя позвонить?
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Просьбу и команду пересказываем без that и без сдвига: глагол + кого + to + действие.
+
+**Формула:** told / asked + кого + (not) to + V1
+
+- Просьба → **asked me to…**, указание → **told me to…**
+- Запрет → **told me not to…**
+- **didn't tell me to stay** — не велела ↔ **told me not to stay** — велела не
+- «Сказал, чтобы я пришёл» → **told me to come** / **said I should come**
+- **I was told to wait** — то же через пассив
+
+**Частые ошибки**
+
+- **He told me don't go** ✗ → **He told me not to go** ✓
+- **He said that I came** ✗ → **He told me to come** ✓ — для «сказал, чтобы я пришёл»
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3300 | Начальница попросила меня прислать ей отчёт. | My boss asked me to send her the report. |
+| 3301 | Врач велел мне не есть сладкое. | The doctor told me not to eat sweets. |
+| 3302 | Мама сказала, чтобы я позвонил ей вечером. | Mum told me to call her in the evening. |
+| 3303 | Меня попросили подождать. | I was asked to wait. |
+| 3304 | Он сказал перезвонить ему. | He said to call him back. |
+
+---
+
+#### Exercises
+
+**Ex 56 · Transformation** *(ID: 121)*
+
+Задание: перескажи слова Олега — начни с Oleg told me.
+
+1. "Close the door." → **"Oleg told me to close the door."**
+2. "Don't touch it." → **"Oleg told me not to touch it."**
+3. "Call me after lunch." → **"Oleg told me to call him after lunch."**
+
+*Explanation:* команда в пересказе — told me + to + действие, запрет — told me not to. Me в словах Олега становится him: звонить надо ему.
+
+---
+
+**Ex 57 · ErrorCorrection** *(ID: 250)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"My coach told me don't eat after eight."
+
+- **My coach told me not to eat after eight.** ✓
+- My coach told to me not to eat after eight.
+- My coach told me not eat after eight.
+
+*Explanation:* запрет пересказываем через not to: told me not to eat. После told человек идёт сразу, без to, а перед самим действием to нужен.
+
+---
+
+**Ex 58 · ConstructionMeaning** *(ID: 103)*
+
+Выбери правильный перевод:
+
+"Sonya didn't ask me to stay."
+
+- Соня попросила меня не оставаться.
+- Соня сказала, что не останется.
+- **Соня не просила меня остаться.** ✓
+- Соня не осталась со мной.
+
+*Explanation:* didn't ask me to stay — «не просила остаться», то есть такой просьбы вообще не было. Запрет «попросила не оставаться» звучал бы иначе: asked me not to stay.
+
+---
+
+**Ex 59 · MultipleChoice · FORWARD_CHOICE** *(ID: 283)*
+
+"Папа сказал, чтобы я вернулся до десяти."
+
+- Dad said that I came back by ten.
+- **Dad told me to be back by ten.** ✓
+- Dad told me that I came back by ten.
+
+*Explanation:* «сказал, чтобы я вернулся» — это указание, значит told me to + действие. That I came back — это «сказал, что я вернулся»: сообщение о том, что уже случилось.
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card719_ex1
+**Title:** "Попросил, велел, сказал чтобы"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Скажите по-английски: кто-то попросил, велел или запретил что-то сделать."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о пересказе просьб и команд. Он знает: просьбу и команду пересказывают без that и без сдвига времени, через сборку глагол + кого + to + действие (формула told / asked + кого + (not) to + V1); please пропадает, а тон несёт глагол — просьба (please, Could you…?) → asked me to, указание → told me to; запрет → told me not to, not стоит прямо перед to (Don't be late! → She told me not to be late); He told me don't go неверно; didn't tell me to stay — «не велела», а told me not to stay — «велела не»; «сказал, чтобы я пришёл» — He told me to come или He said I should come, а He said that I came значит «сказал, что я пришёл»; в разговоре можно He said to call him back, но He said me to неверно; пассив I was told to wait, We were asked to leave; вопросы What did she tell you to do? Did he ask you to call?; Could you help me? можно передать и как asked me if I could help, но так это звучит как вопрос. С прошлых микротем он знает замену лиц (me → him) и что told берёт человека сразу, без to. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect; внутри этой темы ещё не прошёл advise, suggest, offer, invite, beg, persuade, encourage как глаголы пересказа, а также refuse, promise, deny — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю ОДНО русское предложение, где кто-то попросил, велел, сказал, чтобы…, или запретил что-то сделать, и попроси сказать его по-английски. В условии не подсказывай, asked или told и где ставить not. Бери только знакомые слова из присланного списка пользователя, чтобы трудность была в грамматике, а не в незнакомой лексике. ДЕРЖИ ПРОСТЫМ: 4-9 слов, одно действие, без слов времени и места; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. попросил сделать (Лена попросила меня закрыть окно). 2. велел сделать (Тренер велел нам бегать быстрее). 3. «сказал, чтобы…» с прошедшим после «чтобы» (Мама сказала, чтобы я купил хлеб). 4. попросил не делать (Игорь попросил меня не опаздывать). 5. велел не делать (Врач велел ему не пить кофе). 6. ГРАНИЦА: «не просил» — просьбы не было (Он не просил меня помогать). 7. вопрос (Что она тебе велела сделать?). 8. пассив (Нас попросили подождать). Образцы дословно не повторяй. ОЦЕНКА: верна фраза с asked или told + человек + to (или not to) + голая форма. Если написал told me don't или asked me don't — скажи, что внутри пересказа команды уже нет, запрет — это not to. Если написал said that I came или said that I bought для «сказал, чтобы» — скажи, что так вышло «сказал, что я купил», сообщение о факте, и покажи told me to buy или said I should buy. Если пропустил to (asked me close) или поставил to перед человеком (told to me) — поправь одной фразой. Если в пункте 6 написал asked me not to — скажи, что это «попросил не делать», а просьбы вообще не было: didn't ask me to. Если для просьбы взял told, а для приказа asked — засчитай, но одной строкой скажи, что asked звучит как просьба, а told — как указание. Said I should засчитывай. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Скажите по-английски: Вера попросила меня не говорить никому.'
+
+#### Clarification Options
+
+- Почему в пересказе команды нет that и сдвига времени?
+- Чем didn't tell me to отличается от told me not to?
+- Как перевести «сказал, чтобы я пришёл»?
+
+---
+
+### Card 720 · Совет, предложение, помощь
+
+**ID:** 720
+
+#### Theory
+
+Не каждую реплику пересказывают через told или asked. Совет, «давай…», «я помогу», мольба и уговоры — у каждого свой глагол, и он сразу передаёт тон разговора. По-русски мы тоже не говорим про всё «сказал»: «посоветовал», «предложил», «умолял», «уговорил».
+
+**Реплика и её глагол**
+
+| Сказали | В пересказе |
+|---------|-------------|
+| You should see a doctor. | advised me to see a doctor |
+| Let's take a taxi. | suggested taking a taxi |
+| Shall I help? / I'll help. | offered to help |
+| Would you like to come? | invited me to come |
+| Please, please, stay! | begged me to stay |
+| Go on, apply! | encouraged me to apply |
+
+**«Тебе стоит…»: advise**
+
+**You should see a doctor.** → **She advised me to see a doctor.** Можно и проще — **She said I should see a doctor**: ошибкой не будет, просто `advised` короче и точнее.
+
+**Ловушка:** **advise** и **advice** — разные слова. **Advice** — существительное «совет», несчётное, мы знаем его по «Основам»; на конце звук [[s]]. **Advise** — глагол «советовать»; на конце звук [[z]]. **He gave me some advice** ✓ ↔ **He advised me to rest** ✓, а **some good advise** ✗.
+
+**«Давай…»: suggest**
+
+**Let's take a taxi.** и **Why don't we take a taxi?** → **She suggested taking a taxi** или **She suggested that we take a taxi**. После `suggest` нет человека и нет `to` — мы разбирали это в «Герундии после глагола»: **suggested me to go** ✗, **suggested to go** ✗.
+
+**«Я помогу»: offer**
+
+**Shall I carry it?** или **I'll carry it.** → **He offered to carry it.** — сам вызвался. У `offer` есть и второй путь — предложить вещь: **He offered me a coffee.** Человек здесь стоит, потому что после него идёт вещь, а не действие с `to`.
+
+**Приглашение, мольба, уговоры**
+
+- **Would you like to come to dinner?** → **They invited me to come to dinner.** — пригласили
+- **Please, please, stay!** → **She begged me to stay.** — умоляла
+- **Go on, apply!** → **My friends encouraged me to apply.** — подбадривали, подталкивали
+- Уговаривали весь вечер, и я согласился → **They persuaded me to stay.** — уговорили
+
+**persuade и encourage — оба «уговаривал»**
+
+По-русски и то и другое бывает «уговаривал», но в английском разница важная. **Persuaded** — уговорил, и человек согласился: дело сделано. **Encouraged** — подбадривал, подталкивал, а чем кончилось — неизвестно. **She encouraged me to call him** — советовала позвонить. **She persuaded me to call him** — и я позвонил.
+
+**Ряд «кого + to»**
+
+Все эти глаголы собираются одинаково — как `told` и `asked`: глагол + кого + `to` + действие. К ним же относятся два уже знакомых слова:
+
+- **She warned me not to touch the dog.** — предупредила не трогать
+- **He reminded me to buy some milk.** — напомнил купить
+
+Ряд целиком: **warn · remind · advise · persuade · encourage · invite · beg**. Запрет у всех одинаковый — `not` перед `to`: **He advised me not to wait.**
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+У совета, предложения и мольбы свои глаголы. Почти все собираются как told: глагол + кого + to + действие.
+
+- **You should…** → **advised me to…**
+- **Let's…** → **suggested going** / **suggested that we go** — без человека и без to
+- **I'll help** → **offered to help**; вещь → **offered me a coffee**
+- **Would you like to…?** → **invited me to…**, **Please, please!** → **begged me to…**
+- **persuaded** — уговорил, и я согласился ↔ **encouraged** — подталкивал
+- Ряд: **warn · remind · advise · persuade · encourage · invite · beg**; запрет — **not to**
+
+**Частые ошибки**
+
+- **suggested me to go** ✗ → **suggested going** ✓
+- **some good advise** ✗ → **some good advice** ✓ — advice существительное, advise глагол
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3305 | Врач посоветовал мне больше спать. | The doctor advised me to sleep more. |
+| 3306 | Лена предложила взять такси. | Lena suggested taking a taxi. |
+| 3307 | Сосед предложил помочь с сумками. | Our neighbour offered to help with the bags. |
+| 3308 | Она умоляла меня остаться. | She begged me to stay. |
+| 3309 | Друзья уговорили меня пойти на концерт. | My friends persuaded me to go to the concert. |
+
+---
+
+#### Exercises
+
+**Ex 60 · Matching** *(ID: 129)*
+
+Задание: соедини реплику с глаголом, которым её перескажут.
+
+| Реплика | Глагол |
+|---------|--------|
+| You should rest. | advised |
+| Let's go out. | suggested |
+| I'll carry it. | offered |
+| Please, please help! | begged |
+| Come to my party! | invited |
+
+*Explanation:* совет — advised, «давай» — suggested, «я сделаю» — offered, мольба — begged, приглашение — invited.
+
+---
+
+**Ex 61 · MultipleChoice · CHOICE** *(ID: 256)*
+
+"Nina ___ going to the beach."
+
+- offered
+- **suggested** ✓
+- asked
+
+*Explanation:* «давай сходим на пляж» пересказывают через suggested + -ing: suggested going. Offered и asked после себя -ing не берут: offered to go, asked me to go.
+
+---
+
+**Ex 62 · WordArrangement** *(ID: 235)*
+
+RU: Друзья уговорили меня остаться ещё на один день.
+
+Правильное предложение: **My friends persuaded me to stay one more day.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| My | — |
+| friends | — |
+| persuaded | — |
+| me | — |
+| to | — |
+| stay | — |
+| one | — |
+| more | — |
+| day | — |
+| staying | ✗ |
+| that | ✗ |
+| did | ✗ |
+| advice | ✗ |
+
+*Explanation:* persuade собирается как told: persuaded + кого + to + действие — persuaded me to stay. -ing и that здесь не нужны, а advice — существительное «совет», не глагол.
+
+---
+
+**Ex 63 · TrueFalse** *(ID: 257)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | She advised me to take a taxi. | ✓ |
+| 2 | He suggested me to wait outside. | ✗ |
+| 3 | They offered to drive us home. | ✓ |
+| 4 | My friend gave me some good advise. | ✗ |
+| 5 | Mum reminded me to water the plants. | ✓ |
+
+*Explanation:* suggest не берёт человека и to — верно suggested waiting outside. Совет-существительное — advice, advise — это глагол. Остальные верны: advised me to, offered to, reminded me to.
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card720_ex1
+**Title:** "Перескажи одним глаголом"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Перескажите реплику одним предложением, подобрав подходящий глагол вместо said."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о пересказе совета, предложения и мольбы. Он знает: у каждой такой реплики свой глагол, и почти все собираются как told — глагол + кого + to + действие: You should see a doctor → advised me to see a doctor (или проще said I should see a doctor — не ошибка); Let's take a taxi и Why don't we take a taxi? → suggested taking a taxi или suggested that we take a taxi, после suggest нет человека и нет to (suggested me to go, suggested to go неверно); Shall I carry it? или I'll carry it → offered to carry it, а вещь — offered me a coffee; Would you like to come? → invited me to come; Please, please, stay! → begged me to stay; Go on, apply! → encouraged me to apply (подталкивал, чем кончилось — неизвестно), а уговорил и я согласился → persuaded me to stay; ряд warn, remind, advise, persuade, encourage, invite, beg — все с кого + to, запрет у всех через not to (warned me not to touch it); advice — существительное «совет», advise — глагол. С прошлой карточки он знает told / asked + кого + (not) to и что please в пересказе пропадает. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect; внутри этой темы ещё не прошёл refuse, promise, agree, deny, admit, apologise, thank, accuse как глаголы пересказа — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю ОДНУ реплику: английское имя и его слова одним предложением, обращённые к пользователю, и попроси пересказать их одним предложением, подобрав глагол вместо said. Если нужен persuaded, опиши словами, что человек долго уговаривал и пользователь согласился. В условии не подсказывай, какой глагол брать. ДЕРЖИ ПРОСТЫМ: реплика 3-7 слов, бытовая лексика уровня A2, одно действие; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. совет с should (You should drink more water). 2. «давай» с Let's или Why don't we (Let's order pizza). 3. «я сделаю» с Shall I или I'll (I'll carry your bag). 4. предложение вещи (Would you like some tea?). 5. приглашение (Would you like to come to my party?). 6. мольба (Please, please, don't go!). 7. подбадривание (Go on, try it!). 8. уговоры, которые сработали. 9. предупреждение с запретом (Don't swim here, it's dangerous). 10. напоминание (Don't forget to call your mum). Образцы дословно не повторяй. ОЦЕНКА: верен пересказ с подходящим глаголом и верной сборкой после него. Если после suggest поставил человека или to (suggested me to, suggested to order) — скажи, что после suggest идёт -ing или that we, и покажи оба варианта. Если в пункте 4 написал offered me to have — покажи offered me some tea. Если написал advice как глагол — скажи, что глагол пишется advise. Если в пункте 7 взял persuaded — скажи, что persuaded значит «уговорил, и я согласился», а здесь только подталкивали — encouraged. Если в пункте 8 взял encouraged — засчитай и одной строкой покажи persuaded как точнее. Если для запрета написал warned me don't — покажи warned me not to. Если пересказал через said I should, said we should или told me to — засчитай и одной строкой покажи точный глагол. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Бен говорит вам: «You should take an umbrella». Перескажите его слова одним предложением, подобрав глагол вместо said.'
+
+#### Clarification Options
+
+- Почему после suggest нельзя поставить человека и to?
+- Чем persuaded отличается от encouraged?
+- Как не спутать advice и advise?
+
+---
+
+### Words8r Sync · Просьбы и советы
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|--------------|
+| to advise | советовать | [ədˈvaɪz] |
+| to persuade | уговорить, убедить | [pəˈsweɪd] |
+| to encourage | поощрять, подбадривать | [ɪnˈkʌrɪdʒ] |
+| to beg | умолять, просить | [beɡ] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 40 | 41 |
-| Microtopic | 266 | 267 |
-| Card | 718 | 719 |
-| Example | 3299 | 3300 |
-| Слова курса (course_word) | 933 | 934 |
-| MultipleChoice · CHOICE | 255 | 256 |
-| MultipleChoice · FORWARD_CHOICE | 282 | 283 |
+| Microtopic | 267 | 268 |
+| Card | 720 | 721 |
+| Example | 3309 | 3310 |
+| Слова курса (course_word) | 937 | 938 |
+| MultipleChoice · CHOICE | 256 | 257 |
+| MultipleChoice · FORWARD_CHOICE | 283 | 284 |
 | MultipleChoice · REVERSE_CHOICE | 121 | 122 |
-| TrueFalse | 256 | 257 |
-| WordArrangement | 234 | 235 |
+| TrueFalse | 257 | 258 |
+| WordArrangement | 235 | 236 |
 | TextInput | 136 | 137 |
-| Matching | 128 | 129 |
-| ErrorCorrection | 249 | 250 |
+| Matching | 129 | 130 |
+| ErrorCorrection | 250 | 251 |
 | FindTheOdd | 137 | 138 |
 | Categorization | 160 | 161 |
 | TableFill | 52 | 53 |
-| Transformation | 120 | 121 |
-| ConstructionMeaning | 102 | 103 |
+| Transformation | 121 | 122 |
+| ConstructionMeaning | 103 | 104 |
 | DialogRestore | 111 | 112 |

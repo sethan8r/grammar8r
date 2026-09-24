@@ -53,6 +53,13 @@
       "title": "Reported Questions · Пересказать вопрос",
       "order": 6,
       "searchKeywords": "спросил ли по-английски, asked if или asked that, порядок слов после asked, короткие ответы в прошедшем, разговор своими словами"
+    },
+    {
+      "id": 267,
+      "topicId": 40,
+      "title": "Reported Commands · Пересказать просьбу, совет, приказ",
+      "order": 7,
+      "searchKeywords": "told me not to, told me don't, сказал чтобы по-английски, попросил не делать, advise или advice, suggested me to"
     }
   ],
   "grammar_cards": [
@@ -3403,6 +3410,420 @@
         "Можно ли просто сказать I said yes?",
         "Как пересказать длинный разговор и не повторять he said на каждом шагу?"
       ]
+    },
+    {
+      "id": 719,
+      "microtopicId": 267,
+      "title": "told / asked + кого + (not) to",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Командам и просьбам мы научились в «Императиве»: **Wait!**, **Don't be late!**, **Could you help me?** Теперь научимся их пересказывать. Начальница пишет вам:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Megan",
+              "text": "Please send me the report. And don't forget the numbers!"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Коллега спрашивает, что она хотела. Вы пересказываете: **She asked me to send her the report and told me not to forget the numbers.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите, чего здесь нет. Нет `that`, нет сдвига времени, пропало `please`. Вместо всего этого работает сборка, знакомая по «Инфинитиву»: глагол + кого + `to` + действие."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Told / asked + кого + (not) to + V1"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вежливость переехала в глагол"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Please` в пересказе исчезает, но тон никуда не девается — его несёт сам глагол:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "была просьба, с «пожалуйста» или «не могли бы вы» → **asked**: **She asked me to send the report.**",
+            "было указание, команда → **told**: **She told me not to forget the numbers.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский делает то же самое: «попросила прислать» и «велела не забыть». Выбираем глагол по тону — и полдела сделано."
+        },
+        {
+          "type": "heading",
+          "text": "Как пересказать каждую команду"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Сказали",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "Wait here.",
+              "told me to wait there"
+            ],
+            [
+              "Please call me back.",
+              "asked me to call him back"
+            ],
+            [
+              "Could you help me?",
+              "asked me to help her"
+            ],
+            [
+              "Don't be late!",
+              "told me not to be late"
+            ],
+            [
+              "Let me know.",
+              "asked me to let him know"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Просьбу **Could you help me?** можно пересказать и как **asked me if I could help** — ошибкой не будет, но так она звучит как вопрос, а не как просьба. Мы разводили эти два смысла в микротеме «Три «сказал» и два «говорить»»."
+        },
+        {
+          "type": "heading",
+          "text": "not — прямо перед to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Запрет пересказываем так же, только перед `to` встаёт `not`: **Don't be late!** → **She told me not to be late.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He told me don't go** ✗ → **He told me not to go** ✓. Русское «сказал: не ходи» тянет команду в пересказ целиком, вместе с `don't`. Но внутри пересказа команды уже нет — есть `not to`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Не велел» и «велел не»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Одно слово переставили — и смысл другой:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She didn't tell me to stay.** — не велела оставаться: вообще ничего такого не говорила",
+            "**She told me not to stay.** — велела не оставаться: прямо запретила"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Сказал, чтобы…»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский пересказывает просьбу через «чтобы», и глагол после него стоит в прошедшем: «сказал, чтобы я **пришёл**»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He said that I came** ✗ → **He told me to come** ✓ или **He said I should come** ✓. Английское **I came** после that — это «сказал, что я пришёл»: сообщение о том, что уже случилось. Русское «чтобы» с прошедшим по-английски превращается в `to`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как ещё говорят"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He said to call him back.** — в разговоре так пересказывают, не называя человека. Но **He said me to** ✗ — человека после said нет.",
+            "**I was told to wait.** / **We were asked to leave.** — то же самое через страдательный залог, мы знаем его по «Страдательному залогу».",
+            "Вопрос: **What did she tell you to do?** — что она велела сделать? **Did he ask you to call?** — он просил тебя позвонить?"
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Просьбу и команду пересказываем без that и без сдвига: глагол + кого + to + действие."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Told / asked + кого + (not) to + V1"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Просьба → **asked me to…**, указание → **told me to…**",
+            "Запрет → **told me not to…**",
+            "**didn't tell me to stay** — не велела ↔ **told me not to stay** — велела не",
+            "«Сказал, чтобы я пришёл» → **told me to come** / **said I should come**",
+            "**I was told to wait** — то же через пассив"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He told me don't go** ✗ → **He told me not to go** ✓",
+            "**He said that I came** ✗ → **He told me to come** ✓ — для «сказал, чтобы я пришёл»"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Начальница попросила меня прислать ей отчёт.",
+          "en": "My boss asked me to send her the report."
+        },
+        {
+          "ru": "Врач велел мне не есть сладкое.",
+          "en": "The doctor told me not to eat sweets."
+        },
+        {
+          "ru": "Мама сказала, чтобы я позвонил ей вечером.",
+          "en": "Mum told me to call her in the evening."
+        },
+        {
+          "ru": "Меня попросили подождать.",
+          "en": "I was asked to wait."
+        },
+        {
+          "ru": "Он сказал перезвонить ему.",
+          "en": "He said to call him back."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в пересказе команды нет that и сдвига времени?",
+        "Чем didn't tell me to отличается от told me not to?",
+        "Как перевести «сказал, чтобы я пришёл»?"
+      ]
+    },
+    {
+      "id": 720,
+      "microtopicId": 267,
+      "title": "Совет, предложение, помощь",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Не каждую реплику пересказывают через told или asked. Совет, «давай…», «я помогу», мольба и уговоры — у каждого свой глагол, и он сразу передаёт тон разговора. По-русски мы тоже не говорим про всё «сказал»: «посоветовал», «предложил», «умолял», «уговорил»."
+        },
+        {
+          "type": "heading",
+          "text": "Реплика и её глагол"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Сказали",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "You should see a doctor.",
+              "advised me to see a doctor"
+            ],
+            [
+              "Let's take a taxi.",
+              "suggested taking a taxi"
+            ],
+            [
+              "Shall I help? / I'll help.",
+              "offered to help"
+            ],
+            [
+              "Would you like to come?",
+              "invited me to come"
+            ],
+            [
+              "Please, please, stay!",
+              "begged me to stay"
+            ],
+            [
+              "Go on, apply!",
+              "encouraged me to apply"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Тебе стоит…»: advise"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You should see a doctor.** → **She advised me to see a doctor.** Можно и проще — **She said I should see a doctor**: ошибкой не будет, просто `advised` короче и точнее."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Advise** и **advice** — разные слова. **Advice** — существительное «совет», несчётное, мы знаем его по «Основам»; на конце звук [[s]]. **Advise** — глагол «советовать»; на конце звук [[z]]. **He gave me some advice** ✓ ↔ **He advised me to rest** ✓, а **some good advise** ✗."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Давай…»: suggest"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Let's take a taxi.** и **Why don't we take a taxi?** → **She suggested taking a taxi** или **She suggested that we take a taxi**. После `suggest` нет человека и нет `to` — мы разбирали это в «Герундии после глагола»: **suggested me to go** ✗, **suggested to go** ✗."
+        },
+        {
+          "type": "heading",
+          "text": "«Я помогу»: offer"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Shall I carry it?** или **I'll carry it.** → **He offered to carry it.** — сам вызвался. У `offer` есть и второй путь — предложить вещь: **He offered me a coffee.** Человек здесь стоит, потому что после него идёт вещь, а не действие с `to`."
+        },
+        {
+          "type": "heading",
+          "text": "Приглашение, мольба, уговоры"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Would you like to come to dinner?** → **They invited me to come to dinner.** — пригласили",
+            "**Please, please, stay!** → **She begged me to stay.** — умоляла",
+            "**Go on, apply!** → **My friends encouraged me to apply.** — подбадривали, подталкивали",
+            "Уговаривали весь вечер, и я согласился → **They persuaded me to stay.** — уговорили"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "persuade и encourage — оба «уговаривал»"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски и то и другое бывает «уговаривал», но в английском разница важная. **Persuaded** — уговорил, и человек согласился: дело сделано. **Encouraged** — подбадривал, подталкивал, а чем кончилось — неизвестно. **She encouraged me to call him** — советовала позвонить. **She persuaded me to call him** — и я позвонил."
+        },
+        {
+          "type": "heading",
+          "text": "Ряд «кого + to»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Все эти глаголы собираются одинаково — как `told` и `asked`: глагол + кого + `to` + действие. К ним же относятся два уже знакомых слова:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She warned me not to touch the dog.** — предупредила не трогать",
+            "**He reminded me to buy some milk.** — напомнил купить"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ряд целиком: **warn · remind · advise · persuade · encourage · invite · beg**. Запрет у всех одинаковый — `not` перед `to`: **He advised me not to wait.**"
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "У совета, предложения и мольбы свои глаголы. Почти все собираются как told: глагол + кого + to + действие."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should…** → **advised me to…**",
+            "**Let's…** → **suggested going** / **suggested that we go** — без человека и без to",
+            "**I'll help** → **offered to help**; вещь → **offered me a coffee**",
+            "**Would you like to…?** → **invited me to…**, **Please, please!** → **begged me to…**",
+            "**persuaded** — уговорил, и я согласился ↔ **encouraged** — подталкивал",
+            "Ряд: **warn · remind · advise · persuade · encourage · invite · beg**; запрет — **not to**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**suggested me to go** ✗ → **suggested going** ✓",
+            "**some good advise** ✗ → **some good advice** ✓ — advice существительное, advise глагол"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Врач посоветовал мне больше спать.",
+          "en": "The doctor advised me to sleep more."
+        },
+        {
+          "ru": "Лена предложила взять такси.",
+          "en": "Lena suggested taking a taxi."
+        },
+        {
+          "ru": "Сосед предложил помочь с сумками.",
+          "en": "Our neighbour offered to help with the bags."
+        },
+        {
+          "ru": "Она умоляла меня остаться.",
+          "en": "She begged me to stay."
+        },
+        {
+          "ru": "Друзья уговорили меня пойти на концерт.",
+          "en": "My friends persuaded me to go to the concert."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после suggest нельзя поставить человека и to?",
+        "Чем persuaded отличается от encouraged?",
+        "Как не спутать advice и advise?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3735,6 +4156,54 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 256,
       "orderInCard": 2
+    },
+    {
+      "cardId": 719,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 121,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 719,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 250,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 719,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 103,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 719,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 283,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 720,
+      "exerciseType": "MATCHING",
+      "exerciseId": 129,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 720,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 256,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 720,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 235,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 720,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 257,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -3825,6 +4294,22 @@
       "userInstruction": "Прочитайте короткий разговор и перескажите его двумя-тремя предложениями.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card719_ex1",
+      "cardId": 719,
+      "title": "Попросил, велел, сказал чтобы",
+      "userInstruction": "Скажите по-английски: кто-то попросил, велел или запретил что-то сделать.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "reported_speech_card720_ex1",
+      "cardId": 720,
+      "title": "Перескажи одним глаголом",
+      "userInstruction": "Перескажите реплику одним предложением, подобрав подходящий глагол вместо said.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [
@@ -3906,6 +4391,38 @@
       "translation": "сообщать, информировать",
       "transcription": "[ɪnˈfɔːm]",
       "microtopicId": 265,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 934,
+      "word": "to advise",
+      "translation": "советовать",
+      "transcription": "[ədˈvaɪz]",
+      "microtopicId": 267,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 935,
+      "word": "to persuade",
+      "translation": "уговорить, убедить",
+      "transcription": "[pəˈsweɪd]",
+      "microtopicId": 267,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 936,
+      "word": "to encourage",
+      "translation": "поощрять, подбадривать",
+      "transcription": "[ɪnˈkʌrɪdʒ]",
+      "microtopicId": 267,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 937,
+      "word": "to beg",
+      "translation": "умолять, просить",
+      "transcription": "[beɡ]",
+      "microtopicId": 267,
       "categoryId": "useful_words"
     }
   ],
@@ -4128,6 +4645,37 @@
         }
       ],
       "explanation": "короткий ответ спускается вместе с вопросом: had eaten — I said I had, liked — I said I did. Остальные верны: was, could, wasn't держатся за тот же помощник, что в вопросе."
+    },
+    {
+      "id": 257,
+      "statements": [
+        {
+          "en": "She advised me to take a taxi.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He suggested me to wait outside.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "They offered to drive us home.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "My friend gave me some good advise.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Mum reminded me to water the plants.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "suggest не берёт человека и to — верно suggested waiting outside. Совет-существительное — advice, advise — это глагол. Остальные верны: advised me to, offered to, reminded me to."
     }
   ],
   "word_arrangement_exercises": [
@@ -4278,6 +4826,29 @@
         "that"
       ],
       "explanation": "после asked порядок как в утверждении: сначала the ticket, потом was. Is спускается в was — вопрос прозвучал в прошлом. That у вопроса не бывает, а did и does внутри пересказа выпадают."
+    },
+    {
+      "id": 235,
+      "situationRu": "RU: Друзья уговорили меня остаться ещё на один день.",
+      "correctSentence": "My friends persuaded me to stay one more day.",
+      "words": [
+        "My",
+        "friends",
+        "persuaded",
+        "me",
+        "to",
+        "stay",
+        "one",
+        "more",
+        "day"
+      ],
+      "distractors": [
+        "staying",
+        "that",
+        "did",
+        "advice"
+      ],
+      "explanation": "persuade собирается как told: persuaded + кого + to + действие — persuaded me to stay. -ing и that здесь не нужны, а advice — существительное «совет», не глагол."
     }
   ],
   "multiple_choice_exercises": [
@@ -4553,6 +5124,48 @@
         }
       ],
       "explanation": "вопрос «что мне делать, куда мне это деть» в пересказе коротко собирается через вопросительное слово + to: where to put. Where should she put — вопросительный порядок, а после should to не ставится."
+    },
+    {
+      "id": 283,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Папа сказал, чтобы я вернулся до десяти.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Dad said that I came back by ten.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dad told me to be back by ten.",
+          "isCorrect": true
+        },
+        {
+          "text": "Dad told me that I came back by ten.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«сказал, чтобы я вернулся» — это указание, значит told me to + действие. That I came back — это «сказал, что я вернулся»: сообщение о том, что уже случилось."
+    },
+    {
+      "id": 256,
+      "choiceType": "CHOICE",
+      "prompt": "Nina ___ going to the beach.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "offered",
+          "isCorrect": false
+        },
+        {
+          "text": "suggested",
+          "isCorrect": true
+        },
+        {
+          "text": "asked",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«давай сходим на пляж» пересказывают через suggested + -ing: suggested going. Offered и asked после себя -ing не берут: offered to go, asked me to go."
     }
   ],
   "text_input_exercises": [],
@@ -4802,6 +5415,33 @@
         }
       ],
       "explanation": "короткий ответ повторяет помощник из вопроса, и в пересказе этот помощник спускается на ступеньку: am → was, can → could, have → had, will → would, do → did."
+    },
+    {
+      "id": 129,
+      "taskDescription": "соедини реплику с глаголом, которым её перескажут.",
+      "pairs": [
+        {
+          "left": "You should rest.",
+          "right": "advised"
+        },
+        {
+          "left": "Let's go out.",
+          "right": "suggested"
+        },
+        {
+          "left": "I'll carry it.",
+          "right": "offered"
+        },
+        {
+          "left": "Please, please help!",
+          "right": "begged"
+        },
+        {
+          "left": "Come to my party!",
+          "right": "invited"
+        }
+      ],
+      "explanation": "совет — advised, «давай» — suggested, «я сделаю» — offered, мольба — begged, приглашение — invited."
     }
   ],
   "error_correction_exercises": [
@@ -4899,6 +5539,25 @@
         }
       ],
       "explanation": "у пересказанного вопроса нет that — вместо «ли» стоит if. Did внутри пересказа выпадает, а время уже несёт сам глагол: liked."
+    },
+    {
+      "id": 250,
+      "wrongSentence": "My coach told me don't eat after eight.",
+      "options": [
+        {
+          "text": "My coach told me not to eat after eight.",
+          "isCorrect": true
+        },
+        {
+          "text": "My coach told to me not to eat after eight.",
+          "isCorrect": false
+        },
+        {
+          "text": "My coach told me not eat after eight.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "запрет пересказываем через not to: told me not to eat. После told человек идёт сразу, без to, а перед самим действием to нужен."
     }
   ],
   "construction_meaning_exercises": [
@@ -5039,6 +5698,29 @@
         }
       ],
       "explanation": "после asked me стоит if — значит, это вопрос: «спросил, могу ли я». Просьба «попросил одолжить» собралась бы через to: asked me to lend him some money."
+    },
+    {
+      "id": 103,
+      "construction": "Sonya didn't ask me to stay.",
+      "options": [
+        {
+          "text": "Соня попросила меня не оставаться.",
+          "isCorrect": false
+        },
+        {
+          "text": "Соня сказала, что не останется.",
+          "isCorrect": false
+        },
+        {
+          "text": "Соня не просила меня остаться.",
+          "isCorrect": true
+        },
+        {
+          "text": "Соня не осталась со мной.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "didn't ask me to stay — «не просила остаться», то есть такой просьбы вообще не было. Запрет «попросила не оставаться» звучал бы иначе: asked me not to stay."
     }
   ],
   "transformation_exercises": [
@@ -5098,6 +5780,25 @@
         }
       ],
       "explanation": "внутри пересказа порядок как в утверждении, и do выпадает: where I bought. Время спускается на ступеньку: do you buy → I bought, are you reading → I was reading, is → was. Your становится my."
+    },
+    {
+      "id": 121,
+      "taskDescription": "перескажи слова Олега — начни с Oleg told me.",
+      "items": [
+        {
+          "original": "Close the door.",
+          "transformed": "Oleg told me to close the door."
+        },
+        {
+          "original": "Don't touch it.",
+          "transformed": "Oleg told me not to touch it."
+        },
+        {
+          "original": "Call me after lunch.",
+          "transformed": "Oleg told me to call him after lunch."
+        }
+      ],
+      "explanation": "команда в пересказе — told me + to + действие, запрет — told me not to. Me в словах Олега становится him: звонить надо ему."
     }
   ],
   "categorization_exercises": [

@@ -8038,8 +8038,8 @@ theory/
 │   │       `said so` / `thought so`. Пересказ абзацем: сдвиг держится без повтора he said —
 │   │       русское «он сказал, что… он сказал, что…» звучит коряво. AI.
 │   │
-│   ├── МТ · Reported Commands · Пересказать просьбу, совет, приказ  (2 карточки; слив: to advise · to persuade · to encourage · to beg)
-│   │   ├── Card · told / asked + кого + (not) to
+│   ├── МТ267 · Reported Commands · Пересказать просьбу, совет, приказ  (2 карточки; слив: to advise · to persuade · to encourage · to beg) ✅ (написана, ALL GREEN 24.09.26)
+│   │   ├── Card 719 · told / asked + кого + (not) to
 │   │   │   Формула и ловушки `asked me wait` ✗ / `told to me` ✗ — строкой-опорой на «Инфинитив».
 │   │   │   ⬅️ Опора «Императив: приказ или забота»: сама команда (`Wait!` · `Don't be late!` ·
 │   │   │      `Let me know` · `Could you…?`) — здесь только пересказ.
@@ -8048,7 +8048,7 @@ theory/
 │   │   │   ⭐ Калька №7 из шапки: «сказал, чтобы я пришёл» — русское «чтобы» + прошедшее тянет в
 │   │   │   `He said that I came` ✗ (это «сказал, что я пришёл» — факт). Верно: `told me to come` /
 │   │   │   `said I should come`. AI.
-│   │   └── Card · Совет, предложение, помощь
+│   │   └── Card 720 · Совет, предложение, помощь
 │   │       `You should…` → `advised me to` / `said I should` · `Let's…` → `suggested going` ·
 │   │       `suggested that we go / we should go / we went` (без -s; `suggested me to` ✗ строкой,
 │   │       опора «Герундий», Card 618) · `Shall I…?` / `I'll help` → `offered to` · `Would you
