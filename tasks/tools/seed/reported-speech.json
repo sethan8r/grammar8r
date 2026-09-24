@@ -25,6 +25,13 @@
       "title": "Backshift · Сдвиг времён на шаг назад",
       "order": 2,
       "searchKeywords": "was или is после said, had вместо was, will или would после said, can или could после said, условные предложения после said"
+    },
+    {
+      "id": 263,
+      "topicId": 40,
+      "title": "Who, Where, When · Лица, место и время",
+      "order": 3,
+      "searchKeywords": "tomorrow или the next day, here или there, накануне по-английски, ago или before, местоимения при пересказе"
     }
   ],
   "grammar_cards": [
@@ -73,7 +80,7 @@
           "ordered": false,
           "items": [
             "звучат уже не слова самой Кейт, а наш рассказ о них — через **said**;",
-            "**I** стало **she** — это русскому привычно, мы тоже говорим «она сказала, что…»;",
+            "**I** стало **she** — это нам привычно, мы тоже говорим «она сказала, что…»;",
             "**am** стало **was**, а **will** стало **would** — время отъехало на шаг назад. Вот этого в обычном русском «сказал, что…» не происходит."
           ]
         },
@@ -300,7 +307,7 @@
     {
       "id": 705,
       "microtopicId": 261,
-      "title": "Почему русскому пересказ даётся сложнее, чем кажется",
+      "title": "Почему пересказ по-английски сложнее, чем кажется",
       "order": 2,
       "theory": [
         {
@@ -350,7 +357,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Русская рука переводит пересказ слово в слово. «Сказала, что устала» — значит, в английском тоже хочется оставить время Кейт, и после `said` появляется `is`. Английское ухо слышит в этом сбой: `said` уже увело рассказ в прошлое, а `is` тянет его обратно в «сейчас»."
+          "text": "Рука привычно переводит пересказ слово в слово. «Сказала, что устала» — значит, в английском тоже хочется оставить время Кейт, и после `said` появляется `is`. Английское ухо слышит в этом сбой: `said` уже увело рассказ в прошлое, а `is` тянет его обратно в «сейчас»."
         },
         {
           "type": "callout",
@@ -494,7 +501,7 @@
         }
       ],
       "clarificationOptions": [
-        "Почему русскому хватает одного времени говорившего, а английскому нет?",
+        "Почему в русском хватает времени говорившего, а в английском нет?",
         "Значит, is после said — это всегда ошибка?",
         "Почему в I didn't know you lived in Warsaw стоит lived, если человек живёт там до сих пор?"
       ]
@@ -666,7 +673,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Русская рука переводит пересказ слово в слово: «сказал, что торопится» — и после said появляется is. Для англичанина это сбой: said уже увело рассказ в прошлое, а is тянет его обратно в «сейчас»."
+          "text": "Рука привычно переводит пересказ слово в слово: «сказал, что торопится» — и после said появляется is. Для англичанина это сбой: said уже увело рассказ в прошлое, а is тянет его обратно в «сейчас»."
         },
         {
           "type": "callout",
@@ -1471,6 +1478,455 @@
         "Как отличить пересказанный первый тип условных от второго?",
         "Какие модальные глаголы в пересказе не меняются и почему?"
       ]
+    },
+    {
+      "id": 710,
+      "microtopicId": 263,
+      "title": "Лица и указатели",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Начнём с хорошей новости: половину этой микротемы мы уже знаем — русский язык строит её точно так же, как английский. Кейт говорит: «Я устала». Мы пересказываем: «Кейт сказала, что **она** устала». «Я» само превратилось в «она» — никто нас этому не учил. Английский делает то же самое: **I'm tired** → **Kate said she was tired**."
+        },
+        {
+          "type": "heading",
+          "text": "Главная мысль микротемы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Время глагола после said, как мы уже знаем, по общему правилу отступает на шаг назад. А вот слова «я», «здесь», «этот», «завтра» живут по другому закону. Они привязаны к тому, **кто**, **где** и **когда** говорил. Меняем их только тогда, когда у рассказчика сменился человек, место или момент. Не сменился — слово остаётся. В этой карточке разберём «кто» и «где», во второй — «когда»."
+        },
+        {
+          "type": "heading",
+          "text": "Лица: смотрим, кто кому пересказывает"
+        },
+        {
+          "type": "paragraph",
+          "text": "Кейт пишет в чат:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Kate",
+              "text": "I'll call you after work."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Кому она это пообещала и кому мы пересказываем — от этого зависит, что станет с `you`:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Кто кому пересказывает",
+            "Пересказ"
+          ],
+          "rows": [
+            [
+              "Кейт писала мне, я рассказываю другу",
+              "Kate said she would call me after work."
+            ],
+            [
+              "Кейт писала Тому, я напоминаю Тому",
+              "Kate said she would call you after work."
+            ],
+            [
+              "Кейт писала Тому, я рассказываю другу",
+              "Kate said she would call him after work."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Одна фраза — три пересказа. И это ровно то, что делает русский: «сказала, что позвонит **мне** / **тебе** / **ему**». Нужно одно — не переносить `you` из чужих слов механически, а спросить себя, о ком оно."
+        },
+        {
+          "type": "paragraph",
+          "text": "Работает и в обратную сторону — «он» тоже может стать «я». Кейт говорит Тому про нас: **He's really nice.** Том передаёт нам: **Kate said you were really nice.** А мы вечером рассказываем маме: **Kate said I was really nice.**"
+        },
+        {
+          "type": "heading",
+          "text": "Все замены лиц"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I → he / she**, **me → him / her**, **my → his / her**",
+            "**we → they**, **our → their** — если рассказчик в эту группу не входит",
+            "**you → me, you, him / her** — смотря кому говорили и кому пересказываем"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "we — был ли я в этой группе"
+        },
+        {
+          "type": "paragraph",
+          "text": "С `we` задаём себе тот же вопрос: входим ли мы в это «мы»?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Том шёл с нами на поезд и сказал **We're late!** Пересказ: **Tom said we were late** — мы там были, «мы» остаётся.",
+            "Том рассказывал про свою семью: **We're going to Spain.** Пересказ: **Tom said they were going to Spain** — нас в его семье нет."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Указатели: где мы сейчас"
+        },
+        {
+          "type": "paragraph",
+          "text": "`This` и `here` показывают на то, что рядом с говорящим. Когда мы пересказываем уже в другом месте, «этот» становится «тем», а «здесь» — «там»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Лена в магазине: **I love this dress.** На следующий день мы рассказываем: **Lena said she loved that dress** или просто **Lena said she loved the dress**.",
+            "**these → those**: **I bought these shoes in Rome** → **She said she had bought those shoes in Rome.**",
+            "Олег звонит из Праги: **It's really cold here.** Мы дома: **Oleg said it was really cold there.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Но если мы с Олегом в одной Праге и пересказываем его слова другу, который только что подошёл, «здесь» никуда не делось: **Oleg said it was really cold here.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Менять `here` на `there` и `this` на `that` по привычке, как в таблице из учебника. Это не правило замены, а вопрос «где я стою сейчас». Место то же — слово то же."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "По тому же закону живут глаголы движения. `Come` и `bring` смотрят в сторону того, кто говорит, `go` и `take` — от него. Марк сказал про вечеринку **I'll come.** Если мы сейчас на этой вечеринке, пересказываем **Mark said he would come**, а если мы дома — чаще **Mark said he would go to the party**."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Когда непонятно, мужчина это или женщина, английский ставит `they` даже про одного человека: **Someone called — they said they'd call back.** Рука тянется к «он» и пишет he, но носитель скажет they."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Лица меняются как в русском — смотря кто кому пересказывает. «Этот» и «здесь» меняем, только если мы уже не там."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I → he / she**, **me → him / her**, **my → his / her**",
+            "**we → they**, **our → their** — если мы не в этой группе; были там — **we** остаётся",
+            "**you → me, you, him / her** — смотря о ком речь",
+            "**this → that / the**, **these → those**, **here → there** — если место сменилось"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Кейт обещала позвонить тебе, рассказываешь другу: **she would call you** ✗ → **she would call me** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Кейт сказала, что позвонит мне после работы.",
+          "en": "Kate said she would call me after work."
+        },
+        {
+          "ru": "Том сказал, что мы опаздываем.",
+          "en": "Tom said we were late."
+        },
+        {
+          "ru": "Лена сказала, что ей очень нравится то платье.",
+          "en": "Lena said she loved that dress."
+        },
+        {
+          "ru": "Олег сказал, что там очень холодно.",
+          "en": "Oleg said it was really cold there."
+        },
+        {
+          "ru": "Кто-то звонил и сказал, что перезвонит.",
+          "en": "Someone called and said they would call back."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, во что превратится you в пересказе?",
+        "Когда here остаётся here, а когда становится there?",
+        "Почему про одного человека можно сказать they?"
+      ]
+    },
+    {
+      "id": 711,
+      "microtopicId": 263,
+      "title": "Слова времени",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В понедельник Бен пообещал:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Ben",
+              "text": "I'll fix your bike tomorrow."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Прошла неделя, велосипед стоит сломанный, и мы жалуемся другу: **Ben said he would fix my bike the next day.** Почему не `tomorrow`? Потому что «завтра» Бена — это вторник, и он давно прошёл. Скажи мы сейчас `tomorrow`, друг решит, что Бен обещал починить велосипед завтра от сегодняшнего дня, — а речь совсем о другом дне."
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский здесь поступает точно так же: «обещал починить **на следующий день**». Поэтому сама идея нам знакома — нужно выучить английские слова для неё."
+        },
+        {
+          "type": "heading",
+          "text": "Слова времени в пересказе"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда момент рассказа сменился, слово времени отсчитывают уже не от «сегодня» говорившего, а от того дня, когда он это сказал:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Человек сказал",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "today, tonight",
+              "that day, that night"
+            ],
+            [
+              "this week",
+              "that week"
+            ],
+            [
+              "yesterday",
+              "the day before / the previous day"
+            ],
+            [
+              "tomorrow",
+              "the next day / the following day"
+            ],
+            [
+              "last week",
+              "the week before / the previous week"
+            ],
+            [
+              "next week",
+              "the week after / the following week"
+            ],
+            [
+              "two years ago",
+              "two years before / two years earlier"
+            ],
+            [
+              "now",
+              "then"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`Ago` отсчитывает время от настоящего момента, поэтому в пересказе ему нужна другая опора — `before` или `earlier`, «до того»: **I moved to Riga two years ago** → **She said she had moved to Riga two years before.**"
+        },
+        {
+          "type": "heading",
+          "text": "Меняем, только если сменился момент"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это главное правило карточки. Утром Юля говорит **I'll call you tomorrow**, а вечером того же дня мы пересказываем её слова. Завтра ещё не наступило, «завтра» Юли и наше — один и тот же день. Поэтому: **Yulia said she would call me tomorrow.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на эту фразу внимательно: время глагола сдвинулось — `would`, а `tomorrow` осталось. Сдвиг времени и замена слов — две разные ручки: время подчиняется said, а слово — календарю."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если в этом случае сказать **the next day**, фраза не станет ошибкой, но прозвучит странно — как будто Юля говорила это давно. Замена слов нужна, чтобы слушатель понял день правильно, а не ради правила."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Накануне и позавчера"
+        },
+        {
+          "type": "paragraph",
+          "text": "Игорь в пятницу сказал **I met Kolya yesterday.** Через неделю мы пересказываем: **Igor said he had met Kolya the day before** — то есть в четверг, накануне того разговора."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The day before** — «накануне», а **the day before yesterday** — «позавчера». Одно лишнее слово, а день другой. В пересказе почти всегда нужно первое."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Какое слово выбрать"
+        },
+        {
+          "type": "paragraph",
+          "text": "У многих строк таблицы два варианта. Смысл у них один, разница — в том, где они звучат:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слово",
+            "Где звучит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "the next day",
+              "разговор",
+              "He said he'd call the next day."
+            ],
+            [
+              "the following day",
+              "рассказ, письмо",
+              "The hotel confirmed the room would be ready the following day."
+            ],
+            [
+              "the day before",
+              "разговор",
+              "She said she'd seen him the day before."
+            ],
+            [
+              "the previous day",
+              "письмо, новости",
+              "He said he had arrived the previous day."
+            ],
+            [
+              "earlier",
+              "разговор и письмо",
+              "two years earlier"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В живой речи берите `the next day` и `the day before` — не ошибётесь. `Previous` и `following` вы встретите в книгах, письмах и новостях."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "«Я», «здесь» и «завтра» привязаны к тому, кто, где и когда говорил. Меняем их, только если сменился человек, место или момент."
+        },
+        {
+          "type": "heading",
+          "text": "Лица и место"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I → he / she**, **my → his / her**, **we → they** или **we**, **you → me / you / him**",
+            "**this → that / the**, **these → those**, **here → there** — если мы уже не там",
+            "Про одного человека неизвестного пола — **they**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Время"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**today → that day**, **yesterday → the day before**, **tomorrow → the next day**",
+            "**last week → the week before**, **next week → the week after**",
+            "**two years ago → two years before / earlier**, **now → then**",
+            "Тот же день — **tomorrow** остаётся, но глагол всё равно сдвигается: **she would call me tomorrow**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**the day before** — накануне ↔ **the day before yesterday** — позавчера"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Бен сказал, что починит мой велосипед на следующий день.",
+          "en": "Ben said he would fix my bike the next day."
+        },
+        {
+          "ru": "Игорь сказал, что встретил Колю накануне.",
+          "en": "Igor said he had met Kolya the day before."
+        },
+        {
+          "ru": "Она сказала, что переехала в Ригу за два года до этого.",
+          "en": "She said she had moved to Riga two years before."
+        },
+        {
+          "ru": "Отель подтвердил, что номер будет готов на следующий день.",
+          "en": "The hotel confirmed that the room would be ready the following day."
+        },
+        {
+          "ru": "Он сказал, что за неделю до этого болел.",
+          "en": "He said he had been ill the previous week."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя просто оставить tomorrow в пересказе?",
+        "Когда в пересказе the next day, а когда the following day?",
+        "Как не спутать the day before и the day before yesterday?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1605,6 +2061,54 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 229,
       "orderInCard": 3
+    },
+    {
+      "cardId": 710,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 280,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 710,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 109,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 710,
+      "exerciseType": "MATCHING",
+      "exerciseId": 126,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 710,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 119,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 711,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 52,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 711,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 253,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 711,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 99,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 711,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 231,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -1637,6 +2141,14 @@
       "cardId": 709,
       "title": "Перескажи целиком",
       "userInstruction": "Перескажите слова человека одним предложением, начав с его имени и said.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card711_ex1",
+      "cardId": 711,
+      "title": "Перескажи: кто, где и когда",
+      "userInstruction": "Прочитайте ситуацию и перескажите слова человека одним предложением через said.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -1673,6 +2185,22 @@
       "transcription": "[kənˈfɜːm]",
       "microtopicId": 262,
       "categoryId": "useful_words"
+    },
+    {
+      "id": 928,
+      "word": "previous",
+      "translation": "предыдущий, прошлый",
+      "transcription": "[ˈpriːviəs]",
+      "microtopicId": 263,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 929,
+      "word": "following",
+      "translation": "следующий",
+      "transcription": "[ˈfɒləʊɪŋ]",
+      "microtopicId": 263,
+      "categoryId": "useful_words"
     }
   ],
   "table_fill_exercises": [
@@ -1706,6 +2234,37 @@
         }
       ],
       "explanation": "каждая форма спускается на одну ступеньку: am → was, aren't → weren't, doesn't → didn't. В is raining спускается только первое слово, raining остаётся. Обычный глагол просто уходит в прошедшее: wants → wanted."
+    },
+    {
+      "id": 52,
+      "taskDescription": "разговор был месяц назад. Впиши, как слово времени прозвучит в пересказе — разговорным вариантом.",
+      "rows": [
+        {
+          "hint": "today",
+          "answer": "that day"
+        },
+        {
+          "hint": "tonight",
+          "answer": "that night"
+        },
+        {
+          "hint": "yesterday",
+          "answer": "the day before"
+        },
+        {
+          "hint": "tomorrow",
+          "answer": "the next day"
+        },
+        {
+          "hint": "last week",
+          "answer": "the week before"
+        },
+        {
+          "hint": "now",
+          "answer": "then"
+        }
+      ],
+      "explanation": "с тех пор прошёл месяц, поэтому слова отсчитываются от дня того разговора: today → that day, yesterday → the day before, tomorrow → the next day. В письме вместо the day before и the next day часто пишут the previous day и the following day."
     }
   ],
   "true_false_exercises": [
@@ -1834,6 +2393,31 @@
         "am"
       ],
       "explanation": "must здесь — догадка «наверное, голоден», а догадку в пересказе не сдвигают. Had to значило бы «был обязан быть голодным». You в пересказе от себя становится I."
+    },
+    {
+      "id": 231,
+      "situationRu": "Ситуация: месяц назад Рома сказал тебе: «I'll send you the money tomorrow». Денег до сих пор нет, и ты жалуешься другу.",
+      "correctSentence": "Roma said he would send me the money the next day.",
+      "words": [
+        "Roma",
+        "said",
+        "he",
+        "would",
+        "send",
+        "me",
+        "the",
+        "money",
+        "the",
+        "next",
+        "day"
+      ],
+      "distractors": [
+        "tomorrow",
+        "will",
+        "you",
+        "yesterday"
+      ],
+      "explanation": "прошёл месяц, поэтому «завтра» Ромы давно в прошлом: tomorrow → the next day. Will спускается в would, а you становится me — деньги Рома обещал тебе."
     }
   ],
   "multiple_choice_exercises": [
@@ -1920,6 +2504,69 @@
         }
       ],
       "explanation": "Таня сказала If I find the keys, I'll call you — это реальный план, первый тип. В пересказе обе половины спустились на ступеньку, и фраза стала похожа на второй тип, но смысл тот же: «если найдёт — позвонит», без всякого «бы»."
+    },
+    {
+      "id": 280,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Нина сказала, что пришлёт мне фотографии.",
+      "contextRu": "Нина пообещала это тебе, а ты рассказываешь подруге.",
+      "options": [
+        {
+          "text": "Nina said she would send you the photos.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nina said she would send me the photos.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nina said I would send her the photos.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Нина обещала прислать фото тебе, а ты пересказываешь от себя — значит, её you в твоём пересказе становится me. Send you значило бы, что фото получит подруга, а I would send her — что отправлять будешь ты."
+    },
+    {
+      "id": 119,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Mia said the coffee here was great.",
+      "contextRu": "Вы с Мией сидите в одном кафе, и ты пересказываешь её слова Тому, который только что пришёл.",
+      "options": [
+        {
+          "text": "Мия сказала, что кофе там был отличный.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мия сказала, что здесь будет отличный кофе.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мия сказала, что кофе здесь отличный.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вы всё ещё в том же кафе, поэтому here остаётся: место не сменилось. По-русски время тоже остаётся настоящим — «кофе здесь отличный». Was здесь — обычный сдвиг после said, а не «был»."
+    },
+    {
+      "id": 253,
+      "choiceType": "CHOICE",
+      "prompt": "Vera said she had seen the film ___.",
+      "contextRu": "В мае Вера сказала: «I saw it yesterday». Сейчас июнь, и ты пересказываешь её слова.",
+      "options": [
+        {
+          "text": "the day before",
+          "isCorrect": true
+        },
+        {
+          "text": "the day before yesterday",
+          "isCorrect": false
+        },
+        {
+          "text": "yesterday",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Вера говорила в мае, а ты пересказываешь в июне, поэтому её yesterday отсчитывается от дня того разговора — the day before, «накануне». The day before yesterday — это «позавчера», другой день, а yesterday перенесло бы просмотр в июнь."
     }
   ],
   "text_input_exercises": [],
@@ -1979,6 +2626,34 @@
         }
       ],
       "explanation": "Том сказал I've already made plans, и в пересказе have спускается в had, а made остаётся третьей формой: had already made. Was made — это страдательный залог, «его сделали», и с plans такая фраза не собирается. После had голая форма make не ставится."
+    },
+    {
+      "id": 109,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What did Tom say about us?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "He said they were his best friends.",
+          "isCorrect": false
+        },
+        {
+          "text": "He said we were my best friends.",
+          "isCorrect": false
+        },
+        {
+          "text": "He said we were his best friends.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Том говорил о нас самих, и мы в этой группе, поэтому we остаётся. А его друзья — это his friends: my в пересказе меняется на his, как в русском «мои» → «его»."
     }
   ],
   "matching_exercises": [
@@ -2004,6 +2679,33 @@
         }
       ],
       "explanation": "спускается только первое слово: will → would, won't → wouldn't, am going → was going, am not going → wasn't going. Хвост text остаётся на месте."
+    },
+    {
+      "id": 126,
+      "taskDescription": "Бен говорил о себе, а ты пересказываешь это на следующий день в другом месте. Соедини его слова с пересказом.",
+      "pairs": [
+        {
+          "left": "I'm tired",
+          "right": "he was tired"
+        },
+        {
+          "left": "my bike",
+          "right": "his bike"
+        },
+        {
+          "left": "our flat",
+          "right": "their flat"
+        },
+        {
+          "left": "this jacket",
+          "right": "that jacket"
+        },
+        {
+          "left": "these keys",
+          "right": "those keys"
+        }
+      ],
+      "explanation": "Бен говорил о себе и своей семье, поэтому I → he, my → his, our → their. Вещи рядом с Беном для нас уже далеко: this → that, these → those."
     }
   ],
   "error_correction_exercises": [
@@ -2092,6 +2794,29 @@
         }
       ],
       "explanation": "wasn't coming — это пересказанный план I'm not coming, «я не приду». Факт «не пришла» был бы didn't come или hadn't come, а «не пришла бы» — wouldn't have come."
+    },
+    {
+      "id": 99,
+      "construction": "Sonya said she would start her new job the following week.",
+      "options": [
+        {
+          "text": "Соня сказала, что начала работу неделю назад.",
+          "isCorrect": false
+        },
+        {
+          "text": "Соня сказала, что начнёт работу через месяц.",
+          "isCorrect": false
+        },
+        {
+          "text": "Соня сказала, что уже работает на новом месте неделю.",
+          "isCorrect": false
+        },
+        {
+          "text": "Соня сказала, что выйдет на новую работу на следующей неделе.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "the following week — «на следующей неделе» от того дня, когда Соня это говорила. Would start — пересказанное will start, то есть план, а не то, что уже случилось."
     }
   ],
   "transformation_exercises": [

@@ -7907,7 +7907,7 @@ theory/
 │   │   │      Past Perfect, Card 458 («пересказ, где Past Simple сдвигается в `had + V3`, — тема
 │   │   │      «Косвенная речь»») · Модальные, Card 642 — САМОЕ СИЛЬНОЕ: «сдвиг can → could обещаем
 │   │   │      разобрать целиком, вместе со всеми остальными сдвигами». Оба — в callback.
-│   │   └── Card 705 · Почему русскому пересказ даётся сложнее, чем кажется
+│   │   └── Card 705 · Почему пересказ по-английски сложнее, чем кажется
 │   │       Русский меняет лицо, но не время: «сказал, что устал / устаёт / устанет» — время
 │   │       глазами говорившего. ⭐ «Вы это уже видели: `I didn't know that you lived in Warsaw` —
 │   │       lived, хотя живёт до сих пор». Кальки из шапки — вопросом, без ответа. Мост к ядру.
@@ -7963,13 +7963,13 @@ theory/
 │   │       if it rained, they would stay home` — это план, а не фантазия. Второй и третий тип не
 │   │       меняются. `I wish I were…` → меняется только первый глагол. AI.
 │   │
-│   ├── МТ · Who, Where, When · Лица, место и время  (2 карточки; слив: previous · following)
-│   │   ├── Card · Лица и указатели
+│   ├── МТ263 · Who, Where, When · Лица, место и время  (2 карточки; слив: previous · following) ✅ (написана, ALL GREEN 24.09.26)
+│   │   ├── Card 710 · Лица и указатели
 │   │   │   я → он — как в русском (облегчение), но решает, КТО пересказывает КОМУ: Kate: `"I'll
 │   │   │   call you"` → `Kate said she'd call me`. my → his · this → that · here → there ·
 │   │   │   come → go · bring → take. `they` при неизвестном поле: `Someone called — they said
 │   │   │   they'd call back` (русская рука ставит he).
-│   │   └── Card · Слова времени
+│   │   └── Card 711 · Слова времени
 │   │       today → that day · yesterday → the day before / the previous day · tomorrow → the next
 │   │       day / the following day · ago → before · now → then. ⭐ Меняем, только если сменился
 │   │       момент: утром сказал, вечером пересказываю — tomorrow и this morning остаются. Русский
