@@ -7975,13 +7975,13 @@ theory/
 │   │       момент: утром сказал, вечером пересказываю — tomorrow и this morning остаются. Русский
 │   │       делает так же («на следующий день»); ловушка — механическая замена. AI.
 │   │
-│   ├── МТ · Thoughts & No Shift · Мысли тоже сдвигаются — и когда сдвига нет  (2 карточки; слив: to doubt · to pretend)
-│   │   ├── Card · Не только «сказал»
+│   ├── МТ264 · Thoughts & No Shift · Мысли тоже сдвигаются — и когда сдвига нет  (2 карточки; слив: to doubt · to pretend) ✅ (написана, ALL GREEN 24.09.26)
+│   │   ├── Card 712 · Не только «сказал»
 │   │   │   thought / knew / didn't know / was sure / hoped / forgot / realised / had no idea → тот
 │   │   │   же сдвиг. ⭐ «Я думал, ты занят» = `I thought you were busy` (`are` ✗). Вежливые:
 │   │   │   `I didn't know you were here` · `I thought you might like it`. Тексты тоже: `The email
 │   │   │   said the meeting was moved`. Опора `I knew she would be late` (Card 653). AI.
-│   │   └── Card · Когда время не сдвигаем
+│   │   └── Card 713 · Когда время не сдвигаем
 │   │       Глагол пересказа в настоящем, перфекте, будущем: `She says she's running late` ·
 │   │       `I'll tell him you called` · `The sign says No parking` / `What does the message say?`
 │   │       (опора `It says` ↔ `It is said` из Passive-2) · упрёк `He keeps saying he's going to

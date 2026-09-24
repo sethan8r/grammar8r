@@ -32,6 +32,13 @@
       "title": "Who, Where, When · Лица, место и время",
       "order": 3,
       "searchKeywords": "tomorrow или the next day, here или there, накануне по-английски, ago или before, местоимения при пересказе"
+    },
+    {
+      "id": 264,
+      "topicId": 40,
+      "title": "Thoughts & No Shift · Мысли тоже сдвигаются — и когда сдвига нет",
+      "order": 4,
+      "searchKeywords": "я думал что по-английски, глаголы мысли при пересказе, когда время не сдвигают, says или said, mum says hi"
     }
   ],
   "grammar_cards": [
@@ -1927,6 +1934,430 @@
         "Когда в пересказе the next day, а когда the following day?",
         "Как не спутать the day before и the day before yesterday?"
       ]
+    },
+    {
+      "id": 712,
+      "microtopicId": 264,
+      "title": "Не только «сказал»",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вы вчера не стали звонить другу, решили, что он на работе и ему не до вас. Сегодня он пишет:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Ben",
+              "text": "Hey! Why didn't you call me yesterday?"
+            },
+            {
+              "speaker": "Me",
+              "text": "Sorry, I thought you were busy."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы ответили бы «я думал, ты **занят**» — в настоящем. А по-английски стоит **were**. Почему? Потому что это тот же пересказ, только пересказываем мы не чужие слова, а собственную мысль. Мысль была вчера, и «занят» для неё было «сейчас». Сегодня это уже «тогда» — и `are` спускается в `were` так же, как после said."
+        },
+        {
+          "type": "heading",
+          "text": "Главная мысль карточки"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сдвиг включает не само слово said, а прошлое. Любой глагол в прошедшем — сказал, подумал, знал, забыл — тянет за собой всё, что к нему прицеплено, на ступеньку вниз. Лестница та же, что в «Сдвиге времён», меняется только глагол-рамка."
+        },
+        {
+          "type": "heading",
+          "text": "Мысли, знания, надежды"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I thought you were at work.** — думал, что ты на работе",
+            "**I didn't know you had a sister.** — не знал, что у тебя есть сестра",
+            "**I had no idea it was so expensive.** — понятия не имел, что это так дорого",
+            "**I was sure I had locked the door.** — был уверен, что запер дверь: **I locked** спускается в **had locked**",
+            "**I hoped you would come.** — надеялся, что ты придёшь: **will** спускается в **would**",
+            "**I forgot you were vegetarian.** — забыл, что ты вегетарианец",
+            "**I didn't realise it was so late.** — не заметил, что уже так поздно",
+            "**I knew you would say that.** — так и знал, что ты это скажешь; `would` здесь тот самый, из «Модальных глаголов»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сюда же — два глагола, которые мы берём в словарь. Оба про то, что происходит в голове, и оба тянут сдвиг:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She doubted the plan would work.** — сомневалась, что план сработает",
+            "**He pretended he didn't know me.** — сделал вид, что не знает меня"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I thought you are busy** ✗ → **I thought you were busy** ✓. Самая частая калька всей темы: русское «думал, что занят» держит настоящее, а английское thought уводит всю фразу в прошлое."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Даже если это всё ещё правда"
+        },
+        {
+          "type": "paragraph",
+          "text": "Друг до сих пор врач, а мы говорим **I didn't know you were a doctor**. Время сдвинулось, хотя факт не изменился. После глаголов мысли так говорят почти всегда: сдвиг относится не к факту, а к моменту, когда мы о нём не знали."
+        },
+        {
+          "type": "paragraph",
+          "text": "Мы это уже видели в «Косвенных вопросах»: **I didn't know that you lived in Warsaw** — человек живёт там до сих пор. Теперь понятно, откуда там `lived`."
+        },
+        {
+          "type": "heading",
+          "text": "Вежливое прошедшее"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прошедшее в мыслях звучит мягче, и носители этим пользуются:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I didn't know you were here!** — удивление без упрёка",
+            "**I thought you might like it.** — дарим подарок: **may** спустилось в **might**, и предложение стало совсем осторожным"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос в прошедшем — тоже рамка"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Did you know she was married?** — «ты знал, что она замужем?» Рамка `Did you know` стоит в прошлом, значит, и часть после неё сдвигается. С отрицанием то же: **Didn't you know he was ill?**"
+        },
+        {
+          "type": "heading",
+          "text": "Тексты тоже «говорят»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Письмо, записка, табличка пересказываются так же, как слова человека:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The email said the meeting had been moved.**",
+            "**The note said he would be back at five.**"
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Сдвиг включает прошлое рамки, а не само слово said. После любого глагола в прошедшем — думал, знал, забыл — часть после него спускается на ступеньку."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I thought you were busy**, **I didn't know you had a sister**",
+            "**I was sure I had locked**, **I hoped you would come**",
+            "**She doubted it would work**, **He pretended he didn't know me**",
+            "Сдвигаем, даже если факт до сих пор правда: **I didn't know you were a doctor**",
+            "Вопрос в прошлом — тоже рамка: **Did you know she was married?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I thought you are busy** ✗ → **I thought you were busy** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я думал, ты занят.",
+          "en": "I thought you were busy."
+        },
+        {
+          "ru": "Я не знал, что ты врач.",
+          "en": "I didn't know you were a doctor."
+        },
+        {
+          "ru": "Я был уверен, что запер дверь.",
+          "en": "I was sure I had locked the door."
+        },
+        {
+          "ru": "Она сомневалась, что план сработает.",
+          "en": "She doubted the plan would work."
+        },
+        {
+          "ru": "Он сделал вид, что не знает меня.",
+          "en": "He pretended he didn't know me."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после I thought стоит were, если человек занят и сейчас?",
+        "Какие ещё глаголы, кроме said, запускают сдвиг?",
+        "Можно ли сказать I didn't know you are a doctor?"
+      ]
+    },
+    {
+      "id": 713,
+      "microtopicId": 264,
+      "title": "Когда время не сдвигаем",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В «Сдвиге времён» мы договорились: после said слова спускаются на ступеньку, а время мы оставляем лишь в особых случаях. Пора честно разобрать эти случаи. Но сначала — правило, которое снимает страх ошибиться."
+        },
+        {
+          "type": "heading",
+          "text": "Сдвиг — никогда не ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сдвинуть время после прошедшего said можно всегда: это безопасный вариант, с ним вы не ошибётесь. Оставить время — это разрешение, а не обязанность. Им пользуются в пяти случаях, и все пять выводятся из одной мысли: сдвиг нужен, когда между словами человека и нашим пересказом легло прошлое. Нет прошлого — нечему и сдвигаться."
+        },
+        {
+          "type": "heading",
+          "text": "Случай 1. Рамка в настоящем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если мы говорим не said, а says, прошлого в рамке нет, и тянуть за собой нечего:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She says she's running late.** — подруга читает вслух сообщение, которое только что пришло",
+            "**What does the message say?** — «что там пишут?»",
+            "**The forecast says it'll rain.** — прогноз обещает дождь, мы знаем это по «Погоде»",
+            "**The sign says no parking.** — так же говорят о табличках и инструкциях, мы видели это в «Страдательном залоге»"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Tom says hi!** — самое частое пересказанное сообщение в английском. Дословно «Том говорит «привет»», а по-живому — «Том передаёт тебе привет». Сказал Том это, может, час назад, но says остаётся: привет свежий."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Случай 2. Рамка в будущем или в перфекте"
+        },
+        {
+          "type": "paragraph",
+          "text": "Будущее и перфект — не прошлое, поэтому и после них время остаётся:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll tell him you called.** — передам ему, что ты звонил",
+            "**She's told me you're leaving.** — она мне сказала, что ты уезжаешь"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Случай 3. Говорит и говорит"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда человек повторяет одно и то же до сих пор, его слова для нас не в прошлом, а в «сейчас». Отсюда упрёк:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He keeps saying he's going to quit.** — всё твердит, что уволится",
+            "**She's always telling me I work too much.** — вечно говорит мне, что я слишком много работаю"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Случай 4. Всё ещё правда"
+        },
+        {
+          "type": "paragraph",
+          "text": "Олег полгода назад сказал **I live in Rome** — и живёт там до сих пор. Пересказать можно двумя способами, и оба верны:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Oleg told me he lives in Rome.**",
+            "**Oleg told me he lived in Rome.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница — в том, что мы добавляем от себя. Оставленное время звучит как «и это правда, я подтверждаю». Сдвинутое — нейтрально: «так он сказал». Поэтому сомнение и сдвиг ходят парой: **He said he's a doctor** — верим, **He claimed he was a doctor** — сомневаемся."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это разрешение — для said и told, то есть для пересказа чужих слов. После глаголов мысли, как мы видели в прошлой карточке, сдвиг держится и тогда, когда факт правда: **I didn't know you were a doctor**. Там мы говорим не о факте, а о том, что тогда о нём не знали."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В «Модальных глаголах» мы записали **He said he will come** в ошибки. Это было правило попроще, и оно по-прежнему надёжно: `would` не бывает ошибкой никогда. Теперь уточним: если событие ещё впереди, `will` тоже можно оставить — **He said he'll call tomorrow**, а завтра ещё не наступило. Событие прошло или непонятно, наступило ли, — только `would`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Случай 5. Вечные истины и пересказ сразу же"
+        },
+        {
+          "type": "paragraph",
+          "text": "То, что правда всегда, в пересказе обычно не сдвигают: **Our teacher said the Earth goes round the Sun.** Сдвинутое **went** ошибкой не будет, но звучит странно, будто Земля с тех пор остановилась."
+        },
+        {
+          "type": "paragraph",
+          "text": "И пересказ в ту же минуту: друг говорит с кем-то по телефону, вы спрашиваете «что он сказал?» — **He says he's coming** или **He said he's coming**. Между его словами и вашим вопросом прошли секунды, прошлому неоткуда взяться."
+        },
+        {
+          "type": "heading",
+          "text": "Где оставлять нельзя"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Утром Сэм написал **I'm at the station**. Вечером вы пересказываете: **He said he is at the station** ✗ → **He said he was at the station** ✓. Он давно не на вокзале — оставленное время соврёт за вас."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка одним вопросом: **это правда прямо сейчас?** Нет — только сдвиг. Да — можно и так, и так."
+        },
+        {
+          "type": "heading",
+          "text": "Итог на одном экране"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Можно оставить время",
+            "Только сдвиг"
+          ],
+          "rows": [
+            [
+              "рамка says, will tell, has told",
+              "сказанное уже неправда"
+            ],
+            [
+              "повторяет до сих пор",
+              "событие прошло"
+            ],
+            [
+              "всё ещё правда",
+              "не уверены, правда ли"
+            ],
+            [
+              "вечная истина",
+              "—"
+            ],
+            [
+              "пересказ сразу же",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Сдвиг после said никогда не ошибка. Оставить время можно, только если прошлое между словами и пересказом не легло."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Рамка в настоящем: **She says she's running late**, **Tom says hi!**",
+            "Рамка в будущем или перфекте: **I'll tell him you called**, **She's told me you're leaving**",
+            "Повторяет до сих пор: **He keeps saying he's going to quit**",
+            "Всё ещё правда: **He told me he lives / lived in Rome** — оба верны",
+            "Событие впереди: **He said he'll call tomorrow** или **would call**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Проверка:** это правда прямо сейчас? Нет — только сдвиг."
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He said he is at the station** ✗ → **He said he was at the station** ✓ — он уже не там"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Она пишет, что опаздывает.",
+          "en": "She says she's running late."
+        },
+        {
+          "ru": "В прогнозе говорят, что пойдёт дождь.",
+          "en": "The forecast says it'll rain."
+        },
+        {
+          "ru": "Я передам ему, что ты звонил.",
+          "en": "I'll tell him you called."
+        },
+        {
+          "ru": "Олег сказал мне, что живёт в Риме.",
+          "en": "Oleg told me he lives in Rome."
+        },
+        {
+          "ru": "Он всё твердит, что уволится.",
+          "en": "He keeps saying he's going to quit."
+        }
+      ],
+      "clarificationOptions": [
+        "Если время можно оставить, зачем вообще сдвигать?",
+        "Почему Tom says hi, а не Tom said hi?",
+        "Как понять, что сказанное всё ещё правда?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2109,6 +2540,54 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 231,
       "orderInCard": 3
+    },
+    {
+      "cardId": 712,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 247,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 712,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 254,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 712,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 232,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 712,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 100,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 713,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 101,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 713,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 281,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 713,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 120,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 713,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 110,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -2149,6 +2628,22 @@
       "cardId": 711,
       "title": "Перескажи: кто, где и когда",
       "userInstruction": "Прочитайте ситуацию и перескажите слова человека одним предложением через said.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card712_ex1",
+      "cardId": 712,
+      "title": "Я думал, что…",
+      "userInstruction": "Скажите по-английски: что кто-то думал, знал, не знал или забыл.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "reported_speech_card713_ex1",
+      "cardId": 713,
+      "title": "Сдвигать или нет",
+      "userInstruction": "Прочитайте ситуацию и перескажите слова человека одним предложением.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
     }
@@ -2200,6 +2695,22 @@
       "translation": "следующий",
       "transcription": "[ˈfɒləʊɪŋ]",
       "microtopicId": 263,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 930,
+      "word": "to doubt",
+      "translation": "сомневаться",
+      "transcription": "[daʊt]",
+      "microtopicId": 264,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 931,
+      "word": "to pretend",
+      "translation": "притворяться, делать вид",
+      "transcription": "[prɪˈtend]",
+      "microtopicId": 264,
       "categoryId": "useful_words"
     }
   ],
@@ -2329,6 +2840,37 @@
         }
       ],
       "explanation": "после would и после going to глагол остаётся голым: would call back, wasn't going to come. To после would не ставится — это модальный глагол: would drive."
+    },
+    {
+      "id": 254,
+      "statements": [
+        {
+          "en": "I didn't know you had a car.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I was sure I have turned off the oven.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She pretended she wasn't hungry.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "I had no idea the tickets are so expensive.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I knew you would love this song.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "после was sure и had no idea часть спускается на ступеньку: I have turned off → I had turned off, are → were. Остальные верны: didn't know тянет had, pretended тянет wasn't, knew тянет would."
     }
   ],
   "word_arrangement_exercises": [
@@ -2418,6 +2960,26 @@
         "yesterday"
       ],
       "explanation": "прошёл месяц, поэтому «завтра» Ромы давно в прошлом: tomorrow → the next day. Will спускается в would, а you становится me — деньги Рома обещал тебе."
+    },
+    {
+      "id": 232,
+      "situationRu": "RU: Я не знал, что ты говоришь по-французски.",
+      "correctSentence": "I didn't know you spoke French.",
+      "words": [
+        "I",
+        "didn't",
+        "know",
+        "you",
+        "spoke",
+        "French"
+      ],
+      "distractors": [
+        "speak",
+        "speaks",
+        "knew",
+        "don't"
+      ],
+      "explanation": "didn't know стоит в прошлом, поэтому speak спускается в spoke — хотя по-русски «говоришь» в настоящем. После didn't глагол голый: know, а не knew."
     }
   ],
   "multiple_choice_exercises": [
@@ -2567,6 +3129,48 @@
         }
       ],
       "explanation": "Вера говорила в мае, а ты пересказываешь в июне, поэтому её yesterday отсчитывается от дня того разговора — the day before, «накануне». The day before yesterday — это «позавчера», другой день, а yesterday перенесло бы просмотр в июнь."
+    },
+    {
+      "id": 281,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Я скажу Лене, что ты уже в пути.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I'll tell Lena you're on your way.",
+          "isCorrect": true
+        },
+        {
+          "text": "I told Lena you would be on your way.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'll tell Lena you were on your way.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "I'll tell — рамка в будущем, прошлого в ней нет, поэтому часть после неё остаётся как есть: you're on your way. Were появилось бы только после прошедшего told."
+    },
+    {
+      "id": 120,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "She told me she works at a bank.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Она сказала, что работала в банке, но теперь там не работает.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она сказала, что работает в банке, — и работает там до сих пор.",
+          "isCorrect": true
+        },
+        {
+          "text": "Она скажет мне, что работает в банке.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "works после told оставлено нарочно: так говорят, когда сказанное правда и сейчас, — рассказчик это подтверждает. Если бы она больше не работала в банке, время сдвинули бы: she worked или had worked."
     }
   ],
   "text_input_exercises": [],
@@ -2654,6 +3258,34 @@
         }
       ],
       "explanation": "Том говорил о нас самих, и мы в этой группе, поэтому we остаётся. А его друзья — это his friends: my в пересказе меняется на his, как в русском «мои» → «его»."
+    },
+    {
+      "id": 110,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Where's Sam? You talked to him this morning."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "He said he is at the station, but that was hours ago.",
+          "isCorrect": false
+        },
+        {
+          "text": "He says he was at the station, but that was hours ago.",
+          "isCorrect": false
+        },
+        {
+          "text": "He said he was at the station, but that was hours ago.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "с утра прошло несколько часов, и Сэм, скорее всего, уже не на вокзале — значит, оставлять is нельзя, нужен сдвиг: was. Says тоже не подходит: разговор был утром, это прошлое."
     }
   ],
   "matching_exercises": [
@@ -2746,6 +3378,25 @@
         }
       ],
       "explanation": "в пересказе doesn't спускается в didn't, а глагол после did остаётся голым: didn't know. Прошлое уже несёт did, второй раз его не показывают."
+    },
+    {
+      "id": 247,
+      "wrongSentence": "I thought the museum is closed on Mondays.",
+      "options": [
+        {
+          "text": "I thought the museum was closed on Mondays.",
+          "isCorrect": true
+        },
+        {
+          "text": "I thought the museum were closed on Mondays.",
+          "isCorrect": false
+        },
+        {
+          "text": "I was thinking the museum is closed on Mondays.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "thought стоит в прошлом и тянет за собой всю часть после себя: is спускается в was. Were не подходит к одному музею, а was thinking не меняет дела — после него по-прежнему нужно was."
     }
   ],
   "construction_meaning_exercises": [
@@ -2817,6 +3468,52 @@
         }
       ],
       "explanation": "the following week — «на следующей неделе» от того дня, когда Соня это говорила. Would start — пересказанное will start, то есть план, а не то, что уже случилось."
+    },
+    {
+      "id": 100,
+      "construction": "He pretended he was asleep.",
+      "options": [
+        {
+          "text": "Он надеялся, что уснёт.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он притворился, что спит.",
+          "isCorrect": true
+        },
+        {
+          "text": "Он сказал, что уже спал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Он сделал вид, что спал накануне.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "pretended — «притворился, сделал вид». Was asleep — пересказанное I'm asleep: по-русски это настоящее «спит», а по-английски оно спустилось за pretended в прошедшее."
+    },
+    {
+      "id": 101,
+      "construction": "Mum says hello.",
+      "options": [
+        {
+          "text": "Мама всегда здоровается.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мама сказала «пока».",
+          "isCorrect": false
+        },
+        {
+          "text": "Мама просит, чтобы ты поздоровался.",
+          "isCorrect": false
+        },
+        {
+          "text": "Мама передаёт тебе привет.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "says hello — устойчивый способ передать привет: «мама передаёт привет». Рамка says стоит в настоящем, потому что привет свежий, даже если мама сказала это час назад."
     }
   ],
   "transformation_exercises": [
