@@ -74,6 +74,13 @@
       "title": "Real Talk · Пересказ в живой речи",
       "order": 9,
       "searchKeywords": "apparently значит очевидно, якобы по-английски, говорят что по-английски, he goes и i'm like, be like в разговоре"
+    },
+    {
+      "id": 270,
+      "topicId": 40,
+      "title": "Live Practice · Пересказ в деле",
+      "order": 10,
+      "searchKeywords": "повторить косвенную речь, упражнения на пересказ, проверить себя на said и told, все случаи сдвига времён"
     }
   ],
   "grammar_cards": [
@@ -4603,6 +4610,401 @@
         "Как отличить he's like от he looks like?",
         "Можно ли писать goes и like в письме?"
       ]
+    },
+    {
+      "id": 725,
+      "microtopicId": 270,
+      "title": "Живая практика: пересказ в деле",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена целиком: девять микротем и двадцать одна карточка. Осталось то, чему учит только практика: услышать чужие слова и передать их так, как это сделал бы носитель, — не задумываясь над каждой ступенькой."
+        },
+        {
+          "type": "heading",
+          "text": "Корень всей темы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Пересказ смотрит на чужие слова из сегодняшнего дня. Для говорившего было «сейчас», для нас это уже «тогда». Поэтому лицо меняется, как в русском, а время отступает на одну ступеньку. Спускается только первое слово глагола, хвост остаётся на месте."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Said (that) + кто + глагол на шаг назад"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Лестница"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Человек сказал",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "am, is, works, is working",
+              "was, worked, was working"
+            ],
+            [
+              "worked, has worked",
+              "had worked"
+            ],
+            [
+              "had worked",
+              "had worked: ниже ступеньки нет"
+            ],
+            [
+              "will, is going to",
+              "would, was going to"
+            ],
+            [
+              "can, may, have to, must",
+              "could, might, had to"
+            ],
+            [
+              "could, would, should, might, used to",
+              "не меняются"
+            ],
+            [
+              "If it rains, we'll stay",
+              "if it rained, they would stay: всё ещё план"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Кто, где и когда"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Я», «здесь» и «завтра» привязаны к тому, кто, где и когда говорил. Меняем их, только если сменился человек, место или момент: **tomorrow** → **the next day**, **yesterday** → **the day before**, **two years ago** → **two years before**, **here** → **there**. В тот же вечер **tomorrow** остаётся, а глагол всё равно сдвигается: **She said she would call me tomorrow.**"
+        },
+        {
+          "type": "heading",
+          "text": "Когда время остаётся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сдвиг после said никогда не ошибка. Оставить время можно, если рамка стоит в настоящем или будущем (**Tom says hi**, **I'll tell him you called**), если сказанное всё ещё правда (**He told me he lives in Rome**) или это вечная истина. Проверка одна: это правда прямо сейчас? Нет — только сдвиг. После глаголов мысли сдвигаем всегда: **I thought you were busy**, **I didn't know you had a car**."
+        },
+        {
+          "type": "heading",
+          "text": "Какой глагол взять"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что пересказываем",
+            "Как"
+          ],
+          "rows": [
+            [
+              "слова",
+              "said, told me"
+            ],
+            [
+              "о чём говорили",
+              "told me about, talked about"
+            ],
+            [
+              "вопрос",
+              "asked if / where + прямой порядок"
+            ],
+            [
+              "короткий ответ",
+              "I said I was, I said I couldn't"
+            ],
+            [
+              "просьбу",
+              "asked me to"
+            ],
+            [
+              "указание, запрет",
+              "told me to, told me not to"
+            ],
+            [
+              "«сказал, чтобы»",
+              "told me to, said I should"
+            ],
+            [
+              "совет, «давай», «я помогу»",
+              "advised me to, suggested going, offered to"
+            ],
+            [
+              "мольбу, приглашение, уговоры",
+              "begged me to, invited me to, persuaded me to"
+            ],
+            [
+              "поступок",
+              "apologised for, thanked for, accused of, promised to, refused to, admitted"
+            ],
+            [
+              "слух",
+              "apparently, supposedly, I heard"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "deny, refuse, reject, admit"
+        },
+        {
+          "type": "paragraph",
+          "text": "Все четыре про «да» или «нет», но смотрят в разные стороны. **deny** — «не было», про прошлое: **denied taking**. **refuse** — «не буду», про действие впереди: **refused to pay**. **reject** — «нет» предложенной вещи: **rejected the plan**. **admit** — «да, было»: **admitted lying**."
+        },
+        {
+          "type": "heading",
+          "text": "Слухи и живой рассказ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слух передаём от себя и сейчас, поэтому без сдвига: **Apparently, the café is closing.** **apparently** — «судя по всему», а не «очевидно». В устной истории носитель не пересказывает, а изображает: **So he goes, \"Are you awake?\" and I'm like, \"Well, I am now!\"** Это мы узнаём, но в заданиях строить не будем."
+        },
+        {
+          "type": "heading",
+          "text": "Техника, которую проверяют задания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He said me the news** ✗ → **He told me the news** ✓",
+            "**He told that he was tired** ✗ → **He told me that he was tired** ✓",
+            "**He said about the problem** ✗ → **He told me about the problem** ✓",
+            "**He said he didn't knew** ✗ → **He said he didn't know** ✓",
+            "**She said she would came** ✗ → **She said she would come** ✓",
+            "**He said if it will rain, they would stay** ✗ → **He said if it rained, they would stay** ✓",
+            "**I thought you are busy** ✗ → **I thought you were busy** ✓",
+            "**He asked where did I live** ✗ → **He asked where I lived** ✓",
+            "**She asked me that I was free** ✗ → **She asked me if I was free** ✓",
+            "**He told me don't go** ✗ → **He told me not to go** ✓",
+            "**He suggested me to wait** ✗ → **He suggested waiting** ✓",
+            "**She accused me that I lied** ✗ → **She accused me of lying** ✓",
+            "**He explained me the rules** ✗ → **He explained the rules to me** ✓",
+            "**They rejected to help** ✗ → **They refused to help** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что вас ждёт в заданиях"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Перескажи.** Ситуация и чужие слова по-английски — передайте их одним предложением так, как рассказали бы другу потом.",
+            "**Скажи по-английски.** Русское предложение с «сказал», «спросил», «попросил», «думал», «говорят». Подсказки не будет: какое решение взять — выбираете вы.",
+            "**Одним глаголом.** Реплика — перескажите её глаголом, который передаёт поступок: извинился, пригрозил, отказался.",
+            "**Найди ошибку.** Три предложения, в одном ошибка: найдите его, перепишите правильно и своими словами скажите, что было не так."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чего в заданиях не будет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Пересказа двух времён, которые идут в курсе сразу после этой темы, — Future Continuous и Future Perfect. Их пересказ мы разберём в их собственных темах. Строить устный рассказ с **goes** и **be like** тоже не придётся: его мы только узнаём."
+        },
+        {
+          "type": "heading",
+          "text": "ИИ — это тренажёр, а не экзамен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибиться здесь нормально и даже полезно. На каждую ошибку ИИ покажет верный вариант, назовёт причину и — это главное — скажет, что значила бы **ваша** фраза. Она почти всегда настоящая английская, просто про другое: **He said he didn't come** — не мусор, а «сказал, что не пришёл», хотя вы хотели «не придёт». Уйти отсюда нужно не с оценкой, а с парой в голове."
+        },
+        {
+          "type": "heading",
+          "text": "Встретится то, чего мы не давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "ИИ говорит на живом английском, и в его фразах может проскочить конструкция из будущих тем. Пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод."
+        },
+        {
+          "type": "heading",
+          "text": "Как это устроено"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».",
+            "**Слова — ваши.** В задании на перевод с русского подтягивается порция слов, которые вы уже знаете: трудность должна быть в пересказе, а не в незнакомой лексике.",
+            "**Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие."
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Пересказ смотрит из сегодняшнего дня: лицо меняется как в русском, первое слово глагола спускается на одну ступеньку, хвост остаётся."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Said (that) + кто + глагол на шаг назад"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Лестница"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**am / is → was**, **works → worked**, **don't → didn't**, **is working → was working**",
+            "**worked / has worked → had worked**; had остаётся",
+            "**will → would**, **is going to → was going to**",
+            "**can → could**, **may → might**, **have to / must → had to**; must-догадка не меняется",
+            "**could, would, should, might, used to** — не меняются",
+            "**If it rains, we'll…** → **if it rained, they would…** — всё ещё план",
+            "После **did**, **would**, **could** глагол голый: **didn't know**, **would come**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Кто, где, когда"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**tomorrow → the next day**, **yesterday → the day before**, **ago → before**, **here → there** — если момент или место сменились",
+            "**you** → **me**, **you** или **him** — смотря кому говорили"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Можно не сдвигать"
+        },
+        {
+          "type": "paragraph",
+          "text": "Рамка **says** / **will tell**, всё ещё правда, вечная истина. Проверка: правда прямо сейчас? После **thought, knew, didn't know** — сдвиг всегда."
+        },
+        {
+          "type": "heading",
+          "text": "Какой глагол"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что",
+            "Как"
+          ],
+          "rows": [
+            [
+              "кому сказали",
+              "told me; said, explained, apologised — через to"
+            ],
+            [
+              "о чём",
+              "told me about, talked about — не said about"
+            ],
+            [
+              "вопрос",
+              "asked if / where + прямой порядок, без do и that"
+            ],
+            [
+              "просьба, указание, запрет",
+              "asked me to, told me to, told me not to"
+            ],
+            [
+              "«сказал, чтобы»",
+              "told me to, said I should"
+            ],
+            [
+              "обещание, угроза, отказ",
+              "promised to, threatened to, refused to"
+            ],
+            [
+              "совет, «давай», помощь",
+              "advised me to, suggested going, offered to"
+            ],
+            [
+              "мольба, приглашение, напоминание",
+              "begged, invited, reminded, warned + me to"
+            ],
+            [
+              "уговорил · подталкивал",
+              "persuaded me to · encouraged me to"
+            ],
+            [
+              "извинение, благодарность, обвинение",
+              "apologised for, thanked me for, accused me of + -ing"
+            ],
+            [
+              "настаивал, жаловался",
+              "insisted on paying, complained that"
+            ],
+            [
+              "было или не было",
+              "admitted -ing, denied -ing"
+            ],
+            [
+              "отклонил вещь",
+              "rejected + вещь"
+            ],
+            [
+              "слух",
+              "apparently, supposedly; according to — чужой источник"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He said he didn't come** — не пришёл ↔ **He said he wasn't coming** — не придёт",
+            "**asked me to help** — попросил ↔ **asked me if I could help** — спросил",
+            "**refused to** — не буду ↔ **denied -ing** — не было",
+            "**advice** — совет ↔ **advise** — советовать"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I thought you are busy** ✗ → **I thought you were busy** ✓",
+            "**He asked where did I live** ✗ → **He asked where I lived** ✓",
+            "**He told me don't go** ✗ → **He told me not to go** ✓",
+            "**He told that he was tired** ✗ → **He told me that he was tired** ✓",
+            "**She accused me that I lied** ✗ → **She accused me of lying** ✓",
+            "**He said if it will rain** ✗ → **He said if it rained** ✓"
+          ]
+        }
+      ],
+      "examples": [],
+      "clarificationOptions": [
+        "Как быстро понять, что сдвигать при пересказе, а что нет?",
+        "Когда время после said можно оставить?",
+        "Как выбрать между said, told, asked и глаголом вроде refused?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -5203,6 +5605,38 @@
       "userInstruction": "Скажите по-английски: что-то, что вы слышали от других.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "reported_speech_card725_ex1",
+      "cardId": 725,
+      "title": "Перескажи",
+      "userInstruction": "Прочитайте ситуацию и перескажите слова человека одним предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card725_ex2",
+      "cardId": 725,
+      "title": "Скажи по-английски",
+      "userInstruction": "ИИ даст русское предложение. Напишите его по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "reported_speech_card725_ex3",
+      "cardId": 725,
+      "title": "Одним глаголом",
+      "userInstruction": "Перескажите реплику одним предложением, подобрав глагол вместо said.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card725_ex4",
+      "cardId": 725,
+      "title": "Найди и исправь",
+      "userInstruction": "ИИ даст три предложения. Найдите то, в котором есть ошибка, напишите его правильно и своими словами объясните, что было не так.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [

@@ -3539,13 +3539,236 @@ RU: Ты пишешь письмо начальнику.
 
 ---
 
+## Microtopic 270 — Live Practice · Пересказ в деле
+
+**ID:** 270
+**Теги:** повторить косвенную речь, упражнения на пересказ, проверить себя на said и told, все случаи сдвига времён
+
+---
+
+### Card 725 · Живая практика: пересказ в деле
+
+**ID:** 725
+
+#### Theory
+
+Тема пройдена целиком: девять микротем и двадцать одна карточка. Осталось то, чему учит только практика: услышать чужие слова и передать их так, как это сделал бы носитель, — не задумываясь над каждой ступенькой.
+
+**Корень всей темы**
+
+Пересказ смотрит на чужие слова из сегодняшнего дня. Для говорившего было «сейчас», для нас это уже «тогда». Поэтому лицо меняется, как в русском, а время отступает на одну ступеньку. Спускается только первое слово глагола, хвост остаётся на месте.
+
+**Формула:** said (that) + кто + глагол на шаг назад
+
+**Лестница**
+
+| Человек сказал | В пересказе |
+|----------------|-------------|
+| am, is, works, is working | was, worked, was working |
+| worked, has worked | had worked |
+| had worked | had worked: ниже ступеньки нет |
+| will, is going to | would, was going to |
+| can, may, have to, must | could, might, had to |
+| could, would, should, might, used to | не меняются |
+| If it rains, we'll stay | if it rained, they would stay: всё ещё план |
+
+**Кто, где и когда**
+
+«Я», «здесь» и «завтра» привязаны к тому, кто, где и когда говорил. Меняем их, только если сменился человек, место или момент: **tomorrow** → **the next day**, **yesterday** → **the day before**, **two years ago** → **two years before**, **here** → **there**. В тот же вечер **tomorrow** остаётся, а глагол всё равно сдвигается: **She said she would call me tomorrow.**
+
+**Когда время остаётся**
+
+Сдвиг после said никогда не ошибка. Оставить время можно, если рамка стоит в настоящем или будущем (**Tom says hi**, **I'll tell him you called**), если сказанное всё ещё правда (**He told me he lives in Rome**) или это вечная истина. Проверка одна: это правда прямо сейчас? Нет — только сдвиг. После глаголов мысли сдвигаем всегда: **I thought you were busy**, **I didn't know you had a car**.
+
+**Какой глагол взять**
+
+| Что пересказываем | Как |
+|-------------------|-----|
+| слова | said, told me |
+| о чём говорили | told me about, talked about |
+| вопрос | asked if / where + прямой порядок |
+| короткий ответ | I said I was, I said I couldn't |
+| просьбу | asked me to |
+| указание, запрет | told me to, told me not to |
+| «сказал, чтобы» | told me to, said I should |
+| совет, «давай», «я помогу» | advised me to, suggested going, offered to |
+| мольбу, приглашение, уговоры | begged me to, invited me to, persuaded me to |
+| поступок | apologised for, thanked for, accused of, promised to, refused to, admitted |
+| слух | apparently, supposedly, I heard |
+
+**deny, refuse, reject, admit**
+
+Все четыре про «да» или «нет», но смотрят в разные стороны. **deny** — «не было», про прошлое: **denied taking**. **refuse** — «не буду», про действие впереди: **refused to pay**. **reject** — «нет» предложенной вещи: **rejected the plan**. **admit** — «да, было»: **admitted lying**.
+
+**Слухи и живой рассказ**
+
+Слух передаём от себя и сейчас, поэтому без сдвига: **Apparently, the café is closing.** **apparently** — «судя по всему», а не «очевидно». В устной истории носитель не пересказывает, а изображает: **So he goes, "Are you awake?" and I'm like, "Well, I am now!"** Это мы узнаём, но в заданиях строить не будем.
+
+**Техника, которую проверяют задания**
+
+- **He said me the news** ✗ → **He told me the news** ✓
+- **He told that he was tired** ✗ → **He told me that he was tired** ✓
+- **He said about the problem** ✗ → **He told me about the problem** ✓
+- **He said he didn't knew** ✗ → **He said he didn't know** ✓
+- **She said she would came** ✗ → **She said she would come** ✓
+- **He said if it will rain, they would stay** ✗ → **He said if it rained, they would stay** ✓
+- **I thought you are busy** ✗ → **I thought you were busy** ✓
+- **He asked where did I live** ✗ → **He asked where I lived** ✓
+- **She asked me that I was free** ✗ → **She asked me if I was free** ✓
+- **He told me don't go** ✗ → **He told me not to go** ✓
+- **He suggested me to wait** ✗ → **He suggested waiting** ✓
+- **She accused me that I lied** ✗ → **She accused me of lying** ✓
+- **He explained me the rules** ✗ → **He explained the rules to me** ✓
+- **They rejected to help** ✗ → **They refused to help** ✓
+
+**Что вас ждёт в заданиях**
+
+- **Перескажи.** Ситуация и чужие слова по-английски — передайте их одним предложением так, как рассказали бы другу потом.
+- **Скажи по-английски.** Русское предложение с «сказал», «спросил», «попросил», «думал», «говорят». Подсказки не будет: какое решение взять — выбираете вы.
+- **Одним глаголом.** Реплика — перескажите её глаголом, который передаёт поступок: извинился, пригрозил, отказался.
+- **Найди ошибку.** Три предложения, в одном ошибка: найдите его, перепишите правильно и своими словами скажите, что было не так.
+
+**Чего в заданиях не будет**
+
+Пересказа двух времён, которые идут в курсе сразу после этой темы, — Future Continuous и Future Perfect. Их пересказ мы разберём в их собственных темах. Строить устный рассказ с **goes** и **be like** тоже не придётся: его мы только узнаём.
+
+**ИИ — это тренажёр, а не экзамен**
+
+Ошибиться здесь нормально и даже полезно. На каждую ошибку ИИ покажет верный вариант, назовёт причину и — это главное — скажет, что значила бы **ваша** фраза. Она почти всегда настоящая английская, просто про другое: **He said he didn't come** — не мусор, а «сказал, что не пришёл», хотя вы хотели «не придёт». Уйти отсюда нужно не с оценкой, а с парой в голове.
+
+**Встретится то, чего мы не давали**
+
+ИИ говорит на живом английском, и в его фразах может проскочить конструкция из будущих тем. Пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод.
+
+**Как это устроено**
+
+- **Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».
+- **Слова — ваши.** В задании на перевод с русского подтягивается порция слов, которые вы уже знаете: трудность должна быть в пересказе, а не в незнакомой лексике.
+- **Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Пересказ смотрит из сегодняшнего дня: лицо меняется как в русском, первое слово глагола спускается на одну ступеньку, хвост остаётся.
+
+**Формула:** said (that) + кто + глагол на шаг назад
+
+**Лестница**
+
+- **am / is → was**, **works → worked**, **don't → didn't**, **is working → was working**
+- **worked / has worked → had worked**; had остаётся
+- **will → would**, **is going to → was going to**
+- **can → could**, **may → might**, **have to / must → had to**; must-догадка не меняется
+- **could, would, should, might, used to** — не меняются
+- **If it rains, we'll…** → **if it rained, they would…** — всё ещё план
+- После **did**, **would**, **could** глагол голый: **didn't know**, **would come**
+
+**Кто, где, когда**
+
+- **tomorrow → the next day**, **yesterday → the day before**, **ago → before**, **here → there** — если момент или место сменились
+- **you** → **me**, **you** или **him** — смотря кому говорили
+
+**Можно не сдвигать**
+
+Рамка **says** / **will tell**, всё ещё правда, вечная истина. Проверка: правда прямо сейчас? После **thought, knew, didn't know** — сдвиг всегда.
+
+**Какой глагол**
+
+| Что | Как |
+|-----|-----|
+| кому сказали | told me; said, explained, apologised — через to |
+| о чём | told me about, talked about — не said about |
+| вопрос | asked if / where + прямой порядок, без do и that |
+| просьба, указание, запрет | asked me to, told me to, told me not to |
+| «сказал, чтобы» | told me to, said I should |
+| обещание, угроза, отказ | promised to, threatened to, refused to |
+| совет, «давай», помощь | advised me to, suggested going, offered to |
+| мольба, приглашение, напоминание | begged, invited, reminded, warned + me to |
+| уговорил · подталкивал | persuaded me to · encouraged me to |
+| извинение, благодарность, обвинение | apologised for, thanked me for, accused me of + -ing |
+| настаивал, жаловался | insisted on paying, complained that |
+| было или не было | admitted -ing, denied -ing |
+| отклонил вещь | rejected + вещь |
+| слух | apparently, supposedly; according to — чужой источник |
+
+**Легко перепутать**
+
+- **He said he didn't come** — не пришёл ↔ **He said he wasn't coming** — не придёт
+- **asked me to help** — попросил ↔ **asked me if I could help** — спросил
+- **refused to** — не буду ↔ **denied -ing** — не было
+- **advice** — совет ↔ **advise** — советовать
+
+**Частые ошибки**
+
+- **I thought you are busy** ✗ → **I thought you were busy** ✓
+- **He asked where did I live** ✗ → **He asked where I lived** ✓
+- **He told me don't go** ✗ → **He told me not to go** ✓
+- **He told that he was tired** ✗ → **He told me that he was tired** ✓
+- **She accused me that I lied** ✗ → **She accused me of lying** ✓
+- **He said if it will rain** ✗ → **He said if it rained** ✓
+
+#### AI Exercise
+
+**ID:** reported_speech_card725_ex1
+**Title:** "Перескажи"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Прочитайте ситуацию и перескажите слова человека одним предложением."
+**Prompt Template:** "Контекст: пользователь прошёл тему о косвенной речи целиком. Он знает корень: пересказ смотрит на чужие слова из сегодняшнего дня, поэтому лицо меняется, как в русском, а время отступает на одну ступеньку; спускается только первое слово глагола, хвост на месте; формула said (that) + кто + глагол на шаг назад. Лестница: am/is → was, are → were, works → worked, don't/doesn't → didn't + голая форма, is working → was working, there is → there was, I've got → he had; Past Simple и Present Perfect → had + V3, Past Perfect остаётся; длительные → had been + -ing, а прошедшее длительное часто оставляют; в пассиве спускается be (are made → were made, was stolen → had been stolen); will → would, won't → wouldn't, am going to → was going to, договорённость are leaving → were leaving; can → could, may → might, have to → had to, must-обязанность → had to или остаётся must, must-догадка не меняется никогда (You must be tired → she said I must be tired); could, would, should, might, ought to, used to, had better не меняются; первый тип условных спускается в обеих половинах и остаётся планом (If it rains, we'll stay → he said if it rained, they would stay), второй и третий тип не меняются. Лица меняются по тому, кто кому пересказывает (you → me, you или him; we остаётся, если рассказчик в группе); this → that или the, here → there и слова времени (today → that day, tomorrow → the next day, yesterday → the day before, last week → the week before, next week → the week after, ago → before или earlier, now → then) меняются, только если сменились место или момент; в тот же вечер tomorrow остаётся, а глагол всё равно сдвигается. Сдвиг после said никогда не ошибка; время можно оставить, если сказанное всё ещё правда (He told me he lives in Rome), если событие ещё впереди (He said he'll call tomorrow), для вечной истины и при пересказе в ту же минуту; если сказанное уже неправда — только сдвиг; после thought, knew, didn't know сдвиг держится всегда. Вопрос пересказывают через asked + if или вопросительное слово + прямой порядок без do, does, did (Where do you live? → asked where I lived; Who called? → asked who had called; What should I do? → asked what to do), that у вопроса не бывает; просьбу — asked me to, указание — told me to, запрет — told me not to (Could you help me? → asked me to help); told берёт человека сразу, said — только через to. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that и всю тему о косвенной речи. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous и Future Perfect — их пересказ (would be doing, would have done как будущее из прошлого) в задании не используй; устный рассказ с goes и be like он только узнаёт — не требуй его. ЗАДАНИЕ: дай пользователю ОДНУ ситуацию по-русски в две-три короткие строки: кто, где и когда сказал, сами его слова по-английски одним предложением, и когда, где и кому пользователь их пересказывает. Попроси пересказать одним предложением. В условии не подсказывай, что сдвигать, что менять и какой глагол брать. ДЕРЖИ ПРОСТЫМ: слова человека 3-8 слов, одно действие, у условных — две короткие половины, бытовая лексика уровня A2, английские имена; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. настоящее с to be или отрицанием (I'm not hungry). 2. Present Continuous (We're painting the kitchen). 3. Past Simple или Present Perfect (I've lost my keys). 4. пассив (The concert was cancelled). 5. will или going to (I'm going to sell my car). 6. can, may или have to (I can't come). 7. ГРАНИЦА: must-догадка, обращённая к пользователю (You must be cold). 8. первый тип условных (If the shop is open, I'll buy bread). 9. вопрос с вопросительным словом (Where did you buy it?). 10. вопрос да или нет (Are you free on Friday?). 11. указание или запрет (Don't be late). 12. вежливая просьба (Could you send me the photos?). 13. слово tomorrow или yesterday, а пересказ через неделю. 14. слово here, а пересказ из другого места. 15. ГРАНИЦА: обещание на завтра, а пересказ вечером того же дня. 16. ГРАНИЦА: сказано давно, но правда и сейчас (I work at the hospital). Образцы дословно не повторяй. ОЦЕНКА: верен пересказ, где глагол спущен по лестнице, лица, место и слова времени заменены ровно там, где сменились человек, место или момент, а вопрос и просьба собраны своими конструкциями. Если не сдвинул время там, где сказанное уже неправда, — скажи, что said увёл рассказ в прошлое и оставленное время соврёт за говорившего. Если в пунктах 15 и 16 оставил время — засчитай и одной строкой скажи, что сдвинутый вариант тоже верен и звучит нейтральнее. Если после did, would, could или had to поставил не голую форму (didn't knew, would came) — напомни, что после них глагол голый. Если на месте Present Perfect оставил has или have там, где это уже неправда, — покажи had. Если в пункте 7 написал had to — скажи, что это «был обязан», догадку не сдвигают. Если в пункте 8 оставил настоящее в части с if или will — скажи, что спускаются обе половины. Если в вопросе вернул вопросительный порядок или поставил that — скажи, что внутри пересказа порядок как в утверждении, а «ли» — это if. Если запрет пересказал через told me don't — покажи told me not to. Если в пункте 12 написал asked me if I could — засчитай и одной строкой скажи, что как просьба привычнее asked me to. Если в пункте 13 оставил tomorrow или yesterday — скажи, что день считается от разговора говорившего. Если в пункте 14 оставил here — скажи, что место сменилось и нужно there. Если перенёс you или I из чужих слов без замены — спроси, кому говорили, и покажи верное местоимение. Если написал said me или told to me — скажи, что told берёт человека сразу, said — через to. Past Simple без had там, где порядок событий ясен, засчитывай как допустимое в разговоре; said to me засчитывай. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Когда ответ верный и рядом есть форма, которую легко спутать, добавь ОДНУ строку о том, что означала бы она; соседнюю форму не выдумывай — часто короткого «верно» достаточно. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'В понедельник Джек сказал вам в офисе: «I'll send you the file tomorrow». Сейчас пятница, файла нет, и вы рассказываете об этом начальнику. Перескажите слова Джека одним предложением.'
+
+#### AI Exercise
+
+**ID:** reported_speech_card725_ex2
+**Title:** "Скажи по-английски"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст русское предложение. Напишите его по-английски."
+**Prompt Template:** "Контекст: пользователь прошёл тему о косвенной речи целиком. Он знает корень: пересказ смотрит из сегодняшнего дня, лицо меняется как в русском, а первое слово глагола спускается на ступеньку (am → was, works → worked, has done и did → had done, will → would, is going to → was going to, can → could, may → might, have to → had to; could, should, might, used to не меняются). Русский держит время говорившего («сказал, что устал / работает / позвонит»), английский — время рассказчика (said he was tired / worked / would call). Он знает: после глаголов мысли сдвиг держится всегда («я думал, ты занят» → I thought you were busy; «я не знал, что у тебя есть собака» → I didn't know you had a dog); «сказал, что не пришёл» — didn't come или hadn't come, а «сказал, что не придёт» — wasn't coming или wouldn't come; say — про сами слова, tell — человек сразу после глагола (told me; said me неверно, told that без человека неверно); «рассказал о» — told me about или talked about, said about неверно; «спросил, где / ли» — asked where / if + прямой порядок без do, that у вопроса не бывает; «попросил сделать» — asked me to, «попросил не» — asked me not to, «велел» — told me to, «сказал, чтобы я пришёл» — told me to come или said I should come (He said that I came значит «сказал, что я пришёл»); «посоветовал» — advised me to, «предложил пойти» — suggested going, «предложил помочь» — offered to help, «уговорил» — persuaded me to; «извинился за» — apologised for + -ing, «поблагодарил за» — thanked me for, «обвинил в» — accused me of + -ing; «отрицал» — denied + -ing, «отказался» — refused to, «отклонил» — rejected + вещь, «признал» — admitted; «говорят» и «судя по всему» — apparently или they say, «якобы» — supposedly, «по словам» — according to, «мне сказали» — I was told. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that и всю тему о косвенной речи. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous и Future Perfect — их пересказ (would be doing, would have done) в задании не используй и не требуй; устный рассказ с goes и be like он только узнаёт — не требуй его. ЗАДАНИЕ: дай пользователю ОДНО русское предложение, где кто-то что-то сказал, спросил, попросил, подумал, отказался, извинился или где передаётся слух, и попроси сказать его по-английски. В условии не подсказывай, какой глагол, конструкцию и время брать — выбрать их и есть задача. Бери только знакомые слова из присланного списка слов пользователя, чтобы трудность была в пересказе, а не в незнакомой лексике. ДЕРЖИ ПРОСТЫМ: 5-10 слов, одна мысль, одно действие во второй части, без слов времени и места, если пункт не про них; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. «сказал, что» + настоящее (Лена сказала, что устала). 2. «сказал, что» + прошлое (Игорь сказал, что потерял телефон). 3. «сказал, что придёт / позвонит» (Вера сказала, что позвонит вечером). 4. ГРАНИЦА: «сказал, что не придёт» (Дима сказал, что не придёт на ужин). 5. «я думал, что…» или «я не знал, что…» (Я думал, ты в отпуске). 6. «сказал мне» или «рассказал нам о…» (Соня рассказала нам о поездке). 7. «спросил, где / когда…» (Он спросил, где я работаю). 8. «спросил, … ли» (Мама спросила, голоден ли я). 9. «попросил сделать» или «попросил не…» (Олег попросил меня не опаздывать). 10. «сказал, чтобы…» с прошедшим после «чтобы» (Папа сказал, чтобы я купил хлеб). 11. «посоветовал», «предложил» или «уговорил» (Врач посоветовал мне больше гулять). 12. «извинился за» или «поблагодарил за» (Катя поблагодарила меня за помощь). 13. «отрицал», «отказался», «отклонил» или «признал» (Он отрицал, что взял ключи). 14. «говорят», «якобы», «по словам…» или «мне сказали» (Говорят, этот фильм очень смешной). Образцы дословно не повторяй. ОЦЕНКА: засчитывай любой законный вариант: said that и said без that; said I should вместо told me to; told me about и talked about; They say и apparently для «говорят»; Past Simple без had там, где порядок событий ясен; оставленное время, если сказанное всё ещё правда и русская фраза это позволяет. Разбирай по одной строке: не сдвинул время там, где сказанное уже неправда, — said увёл рассказ в прошлое; после thought оставил настоящее — после глаголов мысли сдвиг держится всегда; в пункте 4 написал didn't come — так вышло «не пришёл», факт вместо плана; после would поставил не голую форму (would called) — после would глагол голый; написал said me, told to me или told that без человека — told берёт человека сразу, said — через to; said about — у say нет «о чём»; в вопросе вернул вопросительный порядок или поставил that — внутри пересказа порядок как в утверждении, «ли» — это if; told me don't — запрет это not to; в пункте 10 написал said that I bought — так вышло «сказал, что я купил»; suggested me to — после suggest идёт -ing или that we; accused me that или thanked me that — сначала человек, потом предлог и -ing; refused для факта в прошлом — это denied, rejected to — reject только с вещью; «говорят» через obviously — obviously значит «очевидно». При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Когда ответ верный и рядом есть форма, которую легко спутать, добавь ОДНУ строку о том, что означала бы она; соседнюю форму не выдумывай — часто короткого «верно» достаточно. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Скажите по-английски: Я не знал, что твоя сестра живёт в Риге.'
+
+#### AI Exercise
+
+**ID:** reported_speech_card725_ex3
+**Title:** "Одним глаголом"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Перескажите реплику одним предложением, подобрав глагол вместо said."
+**Prompt Template:** "Контекст: пользователь прошёл тему о косвенной речи целиком. Он знает: said передаёт только слова, а глагол-рамка передаёт ещё и поступок, и решает то, что стоит после глагола: to + V1 — agree, refuse, promise, offer, threaten (He threatened to call the police); -ing — deny, admit, suggest (She admitted breaking the vase; He suggested going by train, suggested me to неверно); кого + to + V1 — tell, ask, advise, persuade, encourage, invite, beg, warn, remind, запрет через not to (She warned me not to touch it); кого + предлог + -ing — accuse of, thank for, а apologise for и insist on без человека (They accused him of lying; She thanked me for helping; He apologised for being late; He insisted on paying), that после accuse и thank неверно; that + сдвиг времени — complain (He complained that the room was cold); человек сразу — tell, remind, warn, advise, через to — say, explain, apologise (explained me неверно — explained to me; apologised me неверно — apologised to me); реплики без содержания — Thanks! → thanked, Sorry! → apologised, Congratulations! → congratulated me on; offer делать — offered to carry, offer вещь — offered me a coffee; persuaded — уговорил, и человек согласился, encouraged — подталкивал; deny — «не было» про прошлое, refuse — «не буду» про действие, reject — «нет» предложенной вещи, admit — «да, было»; advise — глагол, advice — существительное; в разговоре said sorry, said thanks, said I should тоже нормальны. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that и всю тему о косвенной речи. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous и Future Perfect — такие формы в задании не используй. ЗАДАНИЕ: дай пользователю ОДНУ реплику: английское имя и его слова одним-двумя короткими предложениями, обращённые к пользователю, и попроси пересказать одним предложением, подобрав глагол вместо said. В условии не подсказывай, какой глагол брать. ДЕРЖИ ПРОСТЫМ: реплика 2-8 слов, бытовая лексика уровня A2; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. извинение (Sorry I'm late again). 2. обещание (I'll never do it again, I promise). 3. угроза (If you're late again, I'll tell your boss). 4. отказ (No, I won't sign it). 5. отрицание вины (I didn't take your money). 6. признание (OK, I broke the cup). 7. предложение помощи (Shall I carry your bag?). 8. «давай» (Let's order a pizza). 9. совет (You should see a doctor). 10. приглашение (Would you like to come to dinner?). 11. мольба (Please, please, don't go!). 12. благодарность или поздравление (Thanks for the flowers! / Congratulations on your new job!). 13. обвинение (You ate my cake!). 14. напоминание (Don't forget to call your mum). 15. предупреждение (Don't touch the dog, it bites). 16. настойчивость (No, I'll pay — I insist!). 17. жалоба (The room is too cold!). 18. подбадривание (Go on, try it!) или уговоры, которые сработали — тогда опиши словами, что человек долго уговаривал и пользователь согласился. 19. ГРАНИЦА: простое сообщение без поступка (The train leaves at six) — здесь достаточно said или told. Образцы дословно не повторяй. ОЦЕНКА: верен пересказ с подходящим глаголом и верной сборкой после него. Если в пункте 18 перепутал encouraged и persuaded — скажи, что persuaded значит «уговорил, и человек согласился», а encouraged — «подталкивал», чем кончилось — неизвестно. Если после accuse или thank поставил that — скажи, что у них сначала человек, потом предлог и -ing. Если взял не тот предлог (accused me for, thanked me of, insisted to pay) — поправь одной фразой. Если написал explained me, apologised me или suggested me to — скажи, как этот глагол берёт человека. Если для факта в прошлом взял refused (refused taking) — скажи, что refuse смотрит вперёд, а «не брал» — denied taking. Если для действия взял denied или rejected (rejected to sign) — покажи refused to sign. Если в пункте 7 написал offered me to carry — покажи offered to carry. Если в пункте 11 написал persuaded — скажи, что мольба — begged. Если после complained that не сдвинул время — напомни про лестницу. Если в пункте 19 искал особый глагол — скажи, что для простого сообщения said и told в самый раз. Если пересказал через said sorry, said thanks, said I should или told me to — засчитай и одной строкой покажи точный глагол. Если написал advice как глагол — скажи, что глагол пишется advise. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Когда ответ верный и рядом есть глагол, который легко спутать, добавь ОДНУ строку о том, что означал бы он; соседний глагол не выдумывай — часто короткого «верно» достаточно. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Эмма говорит вам: «Sorry, I forgot your birthday». Перескажите её слова одним предложением, подобрав глагол вместо said.'
+
+#### AI Exercise
+
+**ID:** reported_speech_card725_ex4
+**Title:** "Найди и исправь"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст три предложения. Найдите то, в котором есть ошибка, напишите его правильно и своими словами объясните, что было не так."
+**Prompt Template:** "Контекст: пользователь прошёл тему о косвенной речи целиком. Он знает: после said первое слово глагола спускается на ступеньку, хвост на месте, после did, would, could глагол голый; первый тип условных спускается в обеих половинах (he said if it rained, they would stay); после thought, knew, didn't know сдвиг держится всегда (I thought you were busy); сдвиг после said никогда не ошибка, а оставить время можно, если сказанное всё ещё правда (He told me he lives in Rome), если рамка says (Tom says hi), для вечной истины; told берёт человека сразу, said — через to, у tell человек обязателен; у say нет «о чём» (told me about); вопрос пересказывают через asked + if или вопросительное слово + прямой порядок, that у вопроса не бывает; запрет — told me not to; suggest — -ing или that we, без me to; accuse of, thank for — без that; explain и apologise берут человека через to; reject — только с вещью, для действия refused to; according to — про чужой источник, своё мнение — in my opinion; advice — существительное, advise — глагол. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that и всю тему о косвенной речи. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous и Future Perfect — таких форм в предложениях не используй; goes и be like в предложения не ставь. ЗАДАНИЕ: дай пользователю ТРИ коротких английских предложения списком, в каждом — пересказ чужих слов или мыслей. РОВНО В ОДНОМ из них должна быть грамматическая ошибка, два других — полностью правильные. Попроси найти сломанное, переписать его верно и своими словами сказать, что было не так. Номер сломанного предложения выбирай случайно. Оба верных предложения бери из списка ВЕРНЫХ ОБРАЗЦОВ ниже — это конструкции, которые русскому глазу кажутся подозрительными, чтобы ошибку приходилось находить по правилу, а не по непривычности. НЕ ставь ошибкой несдвинутое время после said: оно бывает законным, и задание станет спорным. ДЕРЖИ ПРЕДЛОЖЕНИЯ ПРОСТЫМИ: 5-10 слов каждое, бытовая лексика, английские имена. Запятые во всех трёх расставь верно — ошибка должна быть только грамматической, не в знаках препинания. ВЕРНЫЕ ОБРАЗЦЫ, выбирай два случайно: а) I didn't know you lived here. б) She asked me where I worked. в) Tom says hi. г) He told me he lives in Rome. д) She suggested taking a taxi. е) He denied taking the money. ж) Apparently, the shop is closed. з) They asked if I had been to Prague. и) She told me not to wait. к) He said he'd call the next day. Образцы дословно не повторяй — меняй имена, предметы и места, сохраняя конструкцию. ВЫБОР ОШИБКИ: памяти о прошлых запусках у тебя нет, поэтому ошибку выбирай случайно из списка прямо сейчас: 1. голая форма после did: He said he didn't knew the answer. 2. вторая форма после would: She said she would came later. 3. will в условной половине: He said if it will rain, they would stay home. 4. настоящее после thought: I thought you are on holiday. 5. said с человеком: Mark said me the news. 6. tell без человека: She told that she was tired. 7. said about: He said about his new job. 8. вопросительный порядок: He asked where did I live. 9. that у вопроса: She asked me that I was free. 10. don't в пересказе запрета: My boss told me don't be late. 11. suggest с me to: Kate suggested me to wait outside. 12. accuse с that: She accused me that I took her phone. 13. explain без to: He explained me the rules. 14. reject с действием: They rejected to help us. 15. according to me: According to me, the film was boring. 16. advise вместо advice: My friend gave me some good advise. ОЦЕНКА: засчитывай, если пользователь верно указал сломанное предложение и переписал его правильно. Объяснение оценивай ПО СУТИ, а не по формулировке: грамматических терминов от него не жди, «после would глагол без изменений» и «tell нужен человек» — достаточно. Причину называй теми же словами, какими её объясняли в карточках: после did и would глагол голый, прошлое уже несёт did или would; в пересказе условия спускаются обе половины; после thought сдвиг держится всегда; tell берёт человека сразу, say — только через to; у say нет «о чём»; внутри пересказа вопроса порядок как в утверждении, «ли» — это if; запрет — not to; после suggest идёт -ing или that we; у accuse сначала человек, потом of и -ing; explain берёт человека через to; reject — только с вещью, для действия refused to; according to — про чужой источник; advice — существительное, advise — глагол. ЗАСЧИТЫВАЙ: исправление, сделанное иначе, чем ты задумывал, если результат грамматически верен и смысл сохранён (He told me the news вместо He said the news to me; suggested that we wait вместо suggested waiting; asked me if I was free или whether I was free; refused to help us или didn't want to help us); верное исправление при кривом или отсутствующем объяснении — тогда причину коротко назови сам. Если пользователь указал на верное предложение с несдвинутым временем (He told me he lives in Rome, Tom says hi) — скажи, что это не ошибка: сказанное всё ещё правда или рамка в настоящем, — и покажи, какое предложение было сломано на самом деле. Если указал на другое верное предложение — объясни, почему оно верное, и не ругай: такие конструкции часто выглядят подозрительно именно потому, что они непривычные. Если нашёл сломанное, но исправил с новой ошибкой — похвали находку и почини вторую часть. УЧИ, А НЕ ЭКЗАМЕНУЙ: сначала скажи, что означала бы сломанная фраза, если прочитать её буквально, если у неё есть смысл, и только потом дай верную. После разбора одной строкой подтверди, что два других предложения были верными, и назови, какая конструкция в них стояла. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: '1. I didn't know you lived in this street. 2. My boss told me don't be late. 3. She suggested taking the train.'
+
+#### Clarification Options
+
+- Как быстро понять, что сдвигать при пересказе, а что нет?
+- Когда время после said можно оставить?
+- Как выбрать между said, told, asked и глаголом вроде refused?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 40 | 41 |
-| Microtopic | 269 | 270 |
-| Card | 724 | 725 |
+| Microtopic | 270 | 271 |
+| Card | 725 | 726 |
 | Example | 3329 | 3330 |
 | Слова курса (course_word) | 944 | 945 |
 | MultipleChoice · CHOICE | 258 | 259 |
