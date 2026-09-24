@@ -317,26 +317,754 @@ RU: Сосед встретил тебя у подъезда.
 
 ---
 
+## Microtopic 262 — Backshift · Сдвиг времён на шаг назад
+
+**ID:** 262
+**Теги:** was или is после said, had вместо was, will или would после said, can или could после said, условные предложения после said
+
+---
+
+### Card 706 · Настоящее → прошедшее
+
+**ID:** 706
+
+#### Theory
+
+Во вводной мы договорились о главном: пересказ смотрит на чужие слова из сегодняшнего дня, поэтому время отступает на шаг назад. Теперь разберём, как именно оно отступает. Начнём с самого частого случая — человек говорил о своём настоящем.
+
+**Лестница времён**
+
+Удобно представить времена лестницей. Пересказ спускает каждую форму ровно на одну ступеньку вниз:
+
+| Человек сказал | В пересказе |
+|----------------|-------------|
+| настоящее: am, is, works | прошедшее: was, worked |
+| прошедшее и перфект: worked, has worked | had worked |
+| had worked | остаётся: ниже ступеньки нет |
+| will, can | would, could |
+
+В этой карточке — первая ступенька. Остальные разберём дальше по микротеме, по одной на карточку.
+
+**Формула:** said (that) + кто + глагол на шаг назад
+
+**Как это звучит в жизни**
+
+Утром сосед Марк заскочил в лифт и выпалил:
+
+@Mark: Sorry, I'm in a hurry. I don't have time for coffee. Our cat is sick. I'm taking her to the vet.
+
+Вечером мы пересказываем его слова:
+
+- **Mark said he was in a hurry.**
+- **He said he didn't have time for coffee.**
+- **He said their cat was sick.**
+- **He said he was taking her to the vet.**
+
+По-русски мы сказали бы «Марк сказал, что торопится, что у него нет времени, что кошка болеет, что везёт её к ветеринару» — всё в настоящем, глазами Марка. Английский каждую фразу спускает на ступеньку: **am → was**, **don't → didn't**, **is → was**, **am taking → was taking**. Лицо меняется так же, как в русском: **I → he**, **our → their**.
+
+**Что происходит с каждой формой**
+
+| Слова человека | В пересказе |
+|----------------|-------------|
+| I am / she is | he was / she was |
+| we are | they were |
+| I work / she works | he worked / she worked |
+| I don't know / she doesn't know | he didn't know / she didn't know |
+| it isn't / they aren't | it wasn't / they weren't |
+| I'm working | he was working |
+| there is / there are | there was / there were |
+| I've got a cold | he had a cold |
+
+**Спускается одно слово — первое**
+
+Посмотрите на таблицу внимательно: в каждой строке меняется ровно одно слово — первое в глаголе. В `is working` спустилось `is`, а `working` остался на месте. В `doesn't know` спустился помощник, а `know` остался голым — как после любого `did`. Это правило пригодится во всей микротеме: что бы ни стояло в глаголе, сдвигается только первое слово, а хвост не трогаем.
+
+**Ловушка:** **He said he didn't knew** ✗ → **He said he didn't know** ✓. Прошлое уже несёт did, второй раз его не показывают — ровно как в обычном отрицании Past Simple.
+
+С `have got` чуть иначе: **I've got a cold** в пересказе становится просто **he had a cold**. Вариант **he had got a cold** тоже встречается, но звучит по-книжному.
+
+**Откуда тянет ошибка**
+
+Русская рука переводит пересказ слово в слово: «сказал, что торопится» — и после said появляется is. Для англичанина это сбой: said уже увело рассказ в прошлое, а is тянет его обратно в «сейчас».
+
+**Ловушка:** **Mark said he is in a hurry** ✗ → **Mark said he was in a hurry** ✓. Марк торопился утром, когда говорил, — вечером это уже «тогда».
+
+Бывают случаи, когда время всё-таки оставляют, — их мы разберём в микротеме «Мысли тоже сдвигаются — и когда сдвига нет». Пока правило одно: после said шагаем на ступеньку вниз.
+
+**that — по желанию**
+
+После said можно поставить `that`, а можно не ставить: **Mark said that he was in a hurry** и **Mark said he was in a hurry** значат одно и то же. Мы уже знаем это по think и say из «Частей речи». В разговоре `that` чаще опускают. Запятой перед `that` нет, в отличие от русского «сказал, что», — подробнее о знаках в «Пунктуации и орфографии».
+
+**Кстати:** если пересказываем две вещи подряд, перед второй `that` обычно повторяют: **He said that their cat was sick and that he was taking her to the vet.** Без второго `that` часть про ветеринара звучит как наши собственные слова, а не слова Марка.
+
+**Не только said**
+
+Тот же сдвиг работает после любого глагола, которым передают чужие слова. Два из них нам пригодятся:
+
+- **The hotel confirmed that our room was ready.** — подтвердил: сказал, что это точно правда
+- **Nick claimed that he was the best cook in the family.** — заявил, что это правда, а рассказчик в этом не уверен
+
+Как пересказывать вопросы и просьбы, разберём в своих микротемах — у них своя сборка.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+После said слова человека спускаются на одну ступеньку: настоящее становится прошедшим.
+
+**Формула:** said (that) + кто + глагол на шаг назад
+
+- **am/is → was**, **are → were**, **work/works → worked**
+- **don't/doesn't → didn't** + голая форма, **isn't → wasn't**, **aren't → weren't**
+- **is working → was working** — сдвигается только первое слово
+- **there is → there was**, **I've got → he had**
+
+**Частые ошибки**
+
+- **Mark said he is in a hurry** ✗ → **Mark said he was in a hurry** ✓
+- **didn't knew** ✗ → **didn't know** ✓ — после did голая форма
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3235 | Марк сказал, что торопится. | Mark said he was in a hurry. |
+| 3236 | Лена сказала, что не любит суши. | Lena said she didn't like sushi. |
+| 3237 | Отель подтвердил, что наш номер готов. | The hotel confirmed that our room was ready. |
+| 3238 | Они сказали, что ищут квартиру. | They said they were looking for a flat. |
+| 3239 | Ник заявил, что он лучший повар в семье. | Nick claimed that he was the best cook in the family. |
+
+---
+
+#### Exercises
+
+**Ex 7 · TableFill** *(ID: 51)*
+
+Задание: впиши, какой станет форма в пересказе после said.
+
+| Слова человека | Пересказ |
+|----------------|----------|
+| am | was |
+| aren't | weren't |
+| doesn't | didn't |
+| is raining | was raining |
+| wants | wanted |
+| there are | there were |
+
+*Explanation:* каждая форма спускается на одну ступеньку: am → was, aren't → weren't, doesn't → didn't. В is raining спускается только первое слово, raining остаётся. Обычный глагол просто уходит в прошедшее: wants → wanted.
+
+---
+
+**Ex 8 · ErrorCorrection** *(ID: 246)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Vera said she didn't knew the address."
+
+- Vera said she doesn't knew the address.
+- **Vera said she didn't know the address.** ✓
+- Vera said she not knew the address.
+
+*Explanation:* в пересказе doesn't спускается в didn't, а глагол после did остаётся голым: didn't know. Прошлое уже несёт did, второй раз его не показывают.
+
+---
+
+**Ex 9 · Transformation** *(ID: 118)*
+
+Задание: перескажи слова Бена — начни с Ben said, без that.
+
+1. "I'm cold." → **"Ben said he was cold."**
+2. "I don't like jazz." → **"Ben said he didn't like jazz."**
+3. "I'm looking for a taxi." → **"Ben said he was looking for a taxi."**
+
+*Explanation:* I становится he, а глагол спускается на ступеньку: am → was, don't → didn't. В am looking спускается только первое слово, looking остаётся на месте.
+
+---
+
+**Ex 10 · WordArrangement** *(ID: 228)*
+
+RU: Соня сказала, что её брат не ест рыбу.
+
+Правильное предложение: **Sonya said her brother didn't eat fish.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Sonya | — |
+| said | — |
+| her | — |
+| brother | — |
+| didn't | — |
+| eat | — |
+| fish | — |
+| don't | ✗ |
+| ate | ✗ |
+| says | ✗ |
+| not | ✗ |
+
+*Explanation:* said уже в прошлом, поэтому помощник спускается: doesn't → didn't. После didn't глагол голый — eat, а не ate. Don't не подходит ни по времени, ни по лицу.
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card706_ex1
+**Title:** "Перескажи: настоящее"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Впишите в пересказ глагол так, как его передают после said."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о пересказе слов, сказанных в настоящем времени. Он знает: пересказ смотрит на чужие слова из сегодняшнего дня, поэтому после said время отступает на одну ступеньку вниз; формула said (that) + кто + глагол на шаг назад; сдвигается только первое слово глагола, хвост не трогаем: am/is → was, are → were, work/works → worked, don't/doesn't → didn't + голая форма (didn't like, а не didn't liked), isn't → wasn't, aren't → weren't, am working → was working (-ing на месте), there is/are → there was/were, I've got a cold → he had a cold; лицо меняется как в русском (I → he/she, my → his/her, we → they, our → their); that после said можно опустить; confirmed и claimed работают так же, как said. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect; внутри этой темы ещё не прошёл сдвиг прошедших и перфектных форм в had, сдвиг will, going to и модальных, замену слов времени и места (today, tomorrow, now, here, this), случаи, когда время не сдвигают, развилку say и tell, пересказ вопросов и просьб — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю сразу несколько пунктов (всего 3). В каждом пункте — английское имя и слова этого человека в настоящем времени, а под ними пересказ через said с одним пропуском на месте всей глагольной формы вместе с not, если оно есть (Mark said he [___] hungry). Слова человека — только в Present Simple, Present Continuous, с am/is/are, there is/are или have got; без слов времени и места, без вопросов и команд. В условии не подсказывай, какую форму вписать. ДЕРЖИ ПРОСТЫМ: слова человека 3-6 слов, одно действие, бытовая лексика уровня A2; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому для каждого пункта выбирай случайно прямо сейчас одну форму, три пункта — три разные формы: 1. am/is + прилагательное (I'm tired). 2. are во множественном числе (We're late → they were). 3. Present Simple утверждение, в том числе с -s (She loves jazz). 4. отрицание don't или doesn't (I don't eat meat). 5. isn't или aren't (The shop isn't open). 6. Present Continuous (I'm cooking). 7. there is или there are. 8. have got (I've got a cold). Образцы дословно не повторяй. ОЦЕНКА: верна форма, отступившая на одну ступеньку и согласованная с новым подлежащим. Если вписал настоящее (is, works, doesn't) — скажи, что said уже увёл рассказ в прошлое и слова человека отступают за ним на ступеньку; о случаях, когда время оставляют, пользователь узнает позже, здесь их нет. Если написал did или didn't со второй формой (didn't liked) — напомни, что прошлое уже несёт did, глагол после него голый. Если сдвинул хвост длительной формы (was cooked, was cook) — скажи, что спускается только первое слово, -ing остаётся. Если после they или we поставил was — напомни, что для них were. Если на месте have got написал had got — засчитай, но скажи, что в разговоре привычнее просто had. Если ушёл на две ступеньки (had been, had cooked) — скажи, что слова были в настоящем, поэтому хватает одной ступеньки. При ошибке сначала скажи, что означала бы форма пользователя, если она осмысленна, потом дай верный пересказ целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: '1. Lucy: I'm hungry. → Lucy said she [___] hungry. 2. Tom: We don't have a car. → Tom said they [___] a car. 3. Emma: I'm painting the kitchen. → Emma said she [___] the kitchen.'
+
+#### Clarification Options
+
+- Почему в пересказе пишут didn't know, а не didn't knew?
+- Что делать, если слова человека до сих пор правда?
+- Когда that после said лучше оставить?
+
+---
+
+### Card 707 · Прошлое → ещё глубже: had
+
+**ID:** 707
+
+#### Theory
+
+Вчера вечером соседка Люси написала в общий чат:
+
+@Lucy: I lost my keys again! I've called the landlord, but he hasn't answered.
+
+Сегодня мы пересказываем это другому соседу:
+
+- **Lucy said she had lost her keys again.**
+- **She said she had called the landlord, but he hadn't answered.**
+
+По-русски снова всё просто: Люси написала «потеряла» — и мы говорим «сказала, что потеряла». Английскому так нельзя: `lost` уже прошедшее, а после said слова обязаны спуститься ещё на ступеньку. Ниже Past Simple есть одна ступенька — `had + V3`. Мы знаем эту форму по Past Perfect: «раньше того прошлого». Здесь то же самое: Люси потеряла ключи раньше, чем написала об этом.
+
+**Формула:** said + кто + had + V3
+
+**Две ступеньки сливаются в одну**
+
+И Past Simple (`I lost`), и Present Perfect (`I've lost`) в пересказе дают одно и то же — `had lost`. Почему разница пропадает? В словах самой Люси она была: «потеряла вчера» — это про момент, «потеряла, и ключей нет» — про итог сейчас. Но её «сейчас» для нас уже в прошлом, и от двух смыслов остаётся один: это случилось раньше её слов.
+
+| Слова человека | В пересказе |
+|----------------|-------------|
+| I lost / I've lost | she had lost |
+| I didn't call / I haven't called | he hadn't called |
+| I've never been to Rome | she had never been to Rome |
+| I had already eaten | he had already eaten |
+
+Правило первого слова работает и здесь: в `have called` спускается само `have` — **have called → had called**. А у Past Simple помощника нет, поэтому `had` приходит сам, а глагол встаёт в третью форму: **lost → had lost**, **didn't call → hadn't called**.
+
+Последняя строка — Past Perfect. Он уже стоит на нижней ступеньке, спускаться некуда, и в пересказе он остаётся как был.
+
+**Длительные — тоже в had**
+
+В Past Perfect Continuous мы обещали: `had been` с `-ing` встретится в пересказе чужих слов. Вот он:
+
+- **I've been waiting for an hour.** → **He said he had been waiting for an hour.**
+- **I was sleeping.** → **She said she had been sleeping.** Или, что в разговоре даже чаще, **she said she was sleeping**: прошедшее длительное часто оставляют как есть.
+
+**Пассив спускается так же**
+
+В страдательном залоге первое слово — это форма `be`, она и спускается. V3 застыло и не двигается:
+
+- **The cakes are made by hand.** → **She said the cakes were made by hand.**
+- **My bike was stolen.** → **He said his bike had been stolen.**
+- **The house has been sold.** → **They said the house had been sold.**
+
+**Русское «был» — одно на два случая**
+
+Во вводной мы оставили вопрос: «он сказал, что был занят» — это `was busy` или `had been busy`? Всё зависит от того, что человек сказал на самом деле:
+
+- **I'm busy.** — занят прямо тогда, когда говорил → **He said he was busy.**
+- **I was busy.** — был занят ещё раньше → **He said he had been busy.**
+
+Русский сливает обе фразы в одно «был занят», английский их различает. Переводя, спросите себя: занят в момент разговора или до него?
+
+**Как читать 'd**
+
+В пересказе постоянно попадается `he'd`, и за этим сокращением прячутся два разных слова:
+
+- **he'd call** — это would: после него голая форма
+- **he'd called**, **he'd been** — это had: после него третья форма
+
+**Важно:** отличаем по слову, которое идёт после `'d`, а не по самому `'d`.
+
+**Честно о живой речи**
+
+Когда порядок событий и так понятен — особенно если названа точная дата, — Past Simple в пересказе часто оставляют: **She said she moved to Lisbon in 2019.** Это не ошибка. `had` нужен там, где без него непонятно, что было раньше, и в аккуратной письменной речи. С Present Perfect такой свободы нет: **I've lost** в пересказе — всегда **had lost**.
+
+И пример с глаголом, который мы берём в словарь: **Igor claimed he had never met her.** — Игорь заявил, что ни разу её не встречал, а мы в этом сомневаемся.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Прошлое и перфект в пересказе спускаются в had + V3. Past Perfect остаётся — ниже ступеньки нет.
+
+**Формула:** said + кто + had + V3
+
+- **lost / have lost → had lost**, **didn't call / haven't called → hadn't called**
+- **have been waiting → had been waiting**, **was sleeping → had been sleeping** или остаётся
+- Пассив: **are made → were made**, **was stolen → had been stolen**
+- **I'm busy → was busy**, **I was busy → had been busy**
+- **'d + голая форма** = would, **'d + V3** = had
+- С точной датой Past Simple можно оставить, Present Perfect — всегда в had
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3240 | Люси сказала, что потеряла ключи. | Lucy said she had lost her keys. |
+| 3241 | Он сказал, что никогда не был в Риме. | He said he had never been to Rome. |
+| 3242 | Она сказала, что ждёт уже час. | She said she had been waiting for an hour. |
+| 3243 | Они сказали, что дом продан. | They said the house had been sold. |
+| 3244 | Игорь заявил, что ни разу её не встречал. | Igor claimed he had never met her. |
+
+---
+
+#### Exercises
+
+**Ex 11 · Categorization** *(ID: 159)*
+
+Задание: разложи слова людей — чем станет глагол в пересказе после said.
+
+| Станет was или were | Станет had + V3 |
+|---------------------|-----------------|
+| I'm late | I lost my phone |
+| We're ready | I've finished |
+| It's broken | We've met before |
+
+*Explanation:* настоящее спускается на одну ступеньку — в was или were. Прошедшее и перфект уже стоят ниже, поэтому уходят ещё глубже — в had + V3: had lost, had finished, had met.
+
+---
+
+**Ex 12 · MultipleChoice · CHOICE** *(ID: 252)*
+
+"Emma said she ___ never been to Spain."
+
+- have
+- was
+- **had** ✓
+
+*Explanation:* never been — это третья форма, значит перед ней стоит have или had. Эмма сказала I've never been, а в пересказе have спускается в had: had never been. Have не подходит к she, а was never been не собирается вовсе.
+
+---
+
+**Ex 13 · WordArrangement** *(ID: 230)*
+
+Ситуация: Ник сказал тебе: «I've lost my wallet». Перескажи это другу.
+
+Правильное предложение: **Nick said he had lost his wallet.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Nick | — |
+| said | — |
+| he | — |
+| had | — |
+| lost | — |
+| his | — |
+| wallet | — |
+| have | ✗ |
+| lose | ✗ |
+| loses | ✗ |
+| was | ✗ |
+| him | ✗ |
+
+*Explanation:* Ник сказал I've lost — это Present Perfect, а в пересказе have спускается в had. Третья форма lost остаётся на месте: had lost. My превращается в his, как в русском «мой» → «его».
+
+---
+
+**Ex 14 · DialogRestore** *(ID: 108)*
+
+A: "Is Tom coming to the party?"
+B: ___
+
+- **No, he said he had already made plans.** ✓
+- No, he said he was already made plans.
+- No, he said he had already make plans.
+
+*Explanation:* Том сказал I've already made plans, и в пересказе have спускается в had, а made остаётся третьей формой: had already made. Was made — это страдательный залог, «его сделали», и с plans такая фраза не собирается. После had голая форма make не ставится.
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card707_ex1
+**Title:** "Перескажи: прошлое и перфект"
+**Input Mode:** FILL_BLANKS
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Впишите в пересказ глагол так, как его передают после said."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о пересказе слов, сказанных в прошедшем времени или в перфекте. Он знает: после said слова спускаются на одну ступеньку, а ниже прошедшего есть только had + V3; Past Simple и Present Perfect в пересказе сливаются в одно had + V3 (I lost / I've lost → she had lost), отрицания didn't call и haven't called → hadn't called; Past Perfect остаётся как был — ниже ступеньки нет (I had already eaten → he had already eaten); длительные уходят в had been + -ing (I've been waiting → he had been waiting), а прошедшее длительное часто оставляют (I was sleeping → she had been sleeping или she was sleeping); в пассиве спускается форма be, V3 не двигается (are made → were made, was stolen → had been stolen, has been sold → had been sold); I'm busy → he was busy, а I was busy → he had been busy; 'd с голой формой — would, 'd с третьей формой — had; с точной датой Past Simple в разговоре можно оставить (She said she moved to Lisbon in 2019), Present Perfect — всегда had. С прошлого урока он знает сдвиг настоящего: am/is → was, works → worked, don't → didn't, is working → was working. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect; внутри этой темы ещё не прошёл сдвиг will, going to и модальных, замену слов времени и места (yesterday, ago, today, here, this), случаи, когда время не сдвигают, развилку say и tell, пересказ вопросов и просьб — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю сразу несколько пунктов (всего 3). В каждом пункте — английское имя и слова этого человека в прошедшем времени или в перфекте, а под ними пересказ через said с одним пропуском на месте всей глагольной формы вместе с not и never, если они есть (Mark said he [___] his phone). Без слов времени и места, без вопросов и команд, без точных дат. В условии не подсказывай, какую форму вписать. ДЕРЖИ ПРОСТЫМ: слова человека 3-6 слов, одно действие, бытовая лексика уровня A2; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому для каждого пункта выбирай случайно прямо сейчас одну форму, три пункта — три разные формы: 1. Past Simple утверждение (I broke a cup). 2. Past Simple отрицание (I didn't call him). 3. Present Perfect (I've finished the report). 4. Present Perfect с never или already (I've never tried sushi). 5. Present Perfect Continuous (I've been working hard). 6. пассив в Past Simple или Present Perfect (My car was stolen, The tickets have been sold). 7. Past Perfect, который остаётся (I had already left). 8. ГРАНИЦА: настоящее, которому хватает одной ступеньки (I'm busy → was busy), рядом с пунктом из прошлого. Образцы дословно не повторяй. ОЦЕНКА: верна форма на ступеньку ниже сказанной. Если на месте Present Perfect оставил has или have — скажи, что has тянет рассказ обратно в «сейчас», а после said он спускается в had. Если на месте Past Simple оставил Past Simple — засчитай как допустимое в разговоре и одной строкой покажи вариант с had. Если поставил had с голой или второй формой (had break, had broke) — напомни, что после had идёт третья форма. Если сдвинул Past Perfect ещё куда-то — скажи, что ниже had ступеньки нет, форма остаётся. Если в пассиве потерял be (had stolen вместо had been stolen) — скажи, что это значило бы «он сам украл», а в пассиве V3 стоит после формы be. Если в пункте 8 ушёл в had — скажи, что слова были в настоящем, одной ступеньки хватает. На месте прошедшего длительного засчитывай и had been + -ing, и was + -ing. При ошибке сначала скажи, что означала бы форма пользователя, если она осмысленна, потом дай верный пересказ целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: '1. Ben: I've broken my glasses. → Ben said he [___] his glasses. 2. Sara: I didn't lock the door. → Sara said she [___] the door. 3. Jack: The flat was sold. → Jack said the flat [___].'
+
+#### Clarification Options
+
+- Почему и lost, и have lost в пересказе становятся одним had lost?
+- Когда можно оставить Past Simple и не ставить had?
+- Как отличить he'd call от he'd called?
+
+---
+
+### Card 708 · Будущее, увиденное из прошлого
+
+**ID:** 708
+
+#### Theory
+
+Будущее мы уже пересказывали — в «Модальных глаголах»: **He said he would call back.** Там мы увидели, что в пересказе `will` становится `would`, своей прошедшей парой: это будущее, увиденное из прошлого. Разбирать это заново не будем — достроим картину для всех способов говорить о будущем.
+
+**Спускается только will**
+
+Здесь работает то же правило первого слова. В `will come` первое слово — `will`, оно и спускается в `would`. Хвост `come` остаётся голым, как после любого модального глагола.
+
+**Ловушка:** **He said he would came** ✗ → **He said he would come** ✓. Прошлое уже показывает would, глагол после него не меняется.
+
+**Все три способа говорить о будущем**
+
+О будущем мы говорим тремя способами: `will`, `going to` и Present Continuous для договорённостей. В пересказе каждый спускается по своей ступеньке — и в каждом, как обычно, спускается только первое слово:
+
+| Слова человека | В пересказе |
+|----------------|-------------|
+| I'll call you | he would call me |
+| I won't be late | she wouldn't be late |
+| I'm going to buy a car | he was going to buy a car |
+| I'm not going to tell him | she wasn't going to tell him |
+| We're leaving at six | they were leaving at six |
+
+По-русски снова всё глазами говорившего: «сказал, что позвонит», «сказала, что не опоздает», «сказали, что уезжают в шесть». Английский все три формы опускает на ступеньку: **will → would**, **am going → was going**, **are leaving → were leaving**.
+
+**«Не пришёл» или «не придёт»**
+
+В «Условных предложениях» ужин приготовили зря, потому что **you weren't coming**. Теперь видно, почему там не `didn't come`:
+
+- **He said he didn't come.** — «сказал, что не пришёл»: это факт, всё уже случилось.
+- **He said he wasn't coming.** / **He said he wouldn't come.** — «сказал, что не придёт»: это план.
+
+**Ловушка:** «Вера сказала, что не придёт» → **Vera said she didn't come** ✗ → **Vera said she wasn't coming** ✓. Русское «не придёт» — будущее, а didn't come превращает его в прошлое: выходит, что Вера уже не пришла.
+
+Отсюда и фраза из условных: **If I'd known you were coming, I would have cooked more.** `You were coming` — это пересказанный план гостя, тот самый шаг назад от `you're coming`.
+
+**Не путай:** два разных `would`. **He said he would help** — пересказ слов «помогу»: будущее, увиденное из прошлого. **He would help** — «он бы помог»: шаг от реальности, как в условных. Форма одна, работы разные. Подсказку даёт said: есть said — это пересказ.
+
+**Кстати:** впереди в курсе ещё два времени будущего — Future Continuous и Future Perfect. Их пересказ мы разберём в их собственных темах, и работать он будет тем же ходом: `will` спускается в `would`, хвост остаётся на месте.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+В пересказе будущего спускается только первое слово: will → would, am going → was going, are leaving → were leaving.
+
+- **I'll call → he would call**, **I won't → he wouldn't**
+- **I'm going to → he was going to**, **We're leaving → they were leaving**
+
+**Легко перепутать**
+
+- **didn't come** — не пришёл, факт ↔ **wasn't coming / wouldn't come** — не придёт, план
+- **He said he would help** — пересказ «помогу» ↔ **He would help** — «помог бы»
+
+**Частые ошибки**
+
+- **would came** ✗ → **would come** ✓ — после would голая форма
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3245 | Юля сказала, что позвонит вечером. | Yulia said she would call in the evening. |
+| 3246 | Он сказал, что не опоздает. | He said he wouldn't be late. |
+| 3247 | Они сказали, что собираются продать машину. | They said they were going to sell the car. |
+| 3248 | Вера сказала, что не придёт. | Vera said she wasn't coming. |
+| 3249 | Паша сказал, что поможет нам с переездом. | Pasha said he would help us with the move. |
+
+---
+
+#### Exercises
+
+**Ex 15 · ConstructionMeaning** *(ID: 98)*
+
+Выбери правильный перевод:
+
+"Kate said she wasn't coming."
+
+- Кейт сказала, что не пришла.
+- Кейт сказала, что не приходила.
+- **Кейт сказала, что не придёт.** ✓
+- Кейт сказала, что не пришла бы.
+
+*Explanation:* wasn't coming — это пересказанный план I'm not coming, «я не приду». Факт «не пришла» был бы didn't come или hadn't come, а «не пришла бы» — wouldn't have come.
+
+---
+
+**Ex 16 · MultipleChoice · FORWARD_CHOICE** *(ID: 279)*
+
+"Соня сказала, что купит торт."
+
+- **Sonya said she would buy a cake.** ✓
+- Sonya said she would bought a cake.
+- Sonya said she bought a cake.
+
+*Explanation:* «купит» — будущее, а will в пересказе спускается в would. После would глагол остаётся голым: would buy. Bought без would значит, что торт уже куплен.
+
+---
+
+**Ex 17 · Matching** *(ID: 125)*
+
+Задание: соедини слова Бена с пересказом.
+
+| Слова Бена | Пересказ |
+|------------|----------|
+| I'll text you | he would text me |
+| I won't text you | he wouldn't text me |
+| I'm going to text you | he was going to text me |
+| I'm not going to text | he wasn't going to text |
+
+*Explanation:* спускается только первое слово: will → would, won't → wouldn't, am going → was going, am not going → wasn't going. Хвост text остаётся на месте.
+
+---
+
+**Ex 18 · TrueFalse** *(ID: 253)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | He said he would come later. | ✓ |
+| 2 | She said she would called back. | ✗ |
+| 3 | Sam said he was going to learn Spanish. | ✓ |
+| 4 | Lucy said she wasn't going to came. | ✗ |
+| 5 | Igor said he would to drive us. | ✗ |
+
+*Explanation:* после would и после going to глагол остаётся голым: would call back, wasn't going to come. To после would не ставится — это модальный глагол: would drive.
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card708_ex1
+**Title:** "Сказал, что сделает"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Скажите по-английски: кто-то сказал, что сделает или не сделает что-то."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о пересказе будущего. Он знает: после said будущее спускается на ступеньку, и спускается только первое слово: will → would, won't → wouldn't, am going to → was going to, am not going to → wasn't going to, договорённость в Present Continuous тоже спускается (We're leaving at six → they were leaving at six); хвост остаётся голым (would come, а не would came); «сказал, что не пришёл» — факт, didn't come, а «сказал, что не придёт» — план, wasn't coming или wouldn't come; He said he would help — пересказ слов «помогу», а He would help без said — «он бы помог». С прошлых уроков он знает: настоящее после said спускается в прошедшее (am → was, don't → didn't), прошедшее и перфект — в had + V3. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect (would be doing и would have done не используй); внутри этой темы ещё не прошёл сдвиг can, may, must, have to и условных, замену слов времени и места (завтра, сегодня, здесь, сейчас), случаи, когда время не сдвигают, развилку say и tell, пересказ вопросов и просьб, глаголы вроде promise и refuse вместо said — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю ОДНО русское предложение вида «Имя сказал(а), что…», где вторая часть — будущее, и попроси сказать его по-английски. Имена бери русские, разные. В условии не подсказывай, какую форму брать. Бери только знакомые слова из присланного списка пользователя, чтобы трудность была в грамматике, а не в незнакомой лексике. ДЕРЖИ ПРОСТЫМ: 5-9 слов в русском предложении, одно действие во второй части, без слов времени и места, без придаточных внутри; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. обещание будущего (Лена сказала, что поможет с ужином). 2. отрицание будущего (Игорь сказал, что не опоздает). 3. намерение «собирается» (Вика сказала, что собирается продать велосипед). 4. договорённость (Денис сказал, что уезжает в шесть). 5. отказ «не придёт» (Катя сказала, что не придёт на вечеринку). 6. ГРАНИЦА-ФАКТ: «сказал, что не пришёл / не позвонил» — это прошлое, не будущее (Рома сказал, что не позвонил маме). Образцы дословно не повторяй. ОЦЕНКА: для будущего верны would + голая форма, was/were going to + голая форма, was/were + -ing для договорённости; для «не придёт» засчитывай и wasn't coming, и wouldn't come. Если после would поставил вторую форму или to (would called, would to call) — скажи, что после would глагол голый. Если оставил will или won't — скажи, что после said по общему правилу will спускается в would и would здесь верен всегда. Если для «не придёт» написал didn't come — скажи, что так вышло «не пришёл»: факт вместо плана. Если в пункте 6 написал wasn't coming или wouldn't come — скажи, что это «не придёт», а по-русски речь о том, что уже не случилось: didn't call или hadn't called. Если написал «собирается» через would — засчитай смысл, но покажи, что «собирается» точнее передаёт was going to. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Скажите по-английски: Оля сказала, что не опоздает на ужин.'
+
+#### Clarification Options
+
+- Почему после would глагол не меняется, если время прошедшее?
+- Чем wasn't coming отличается от wouldn't come?
+- Как понять, что would — это пересказ, а не «бы»?
+
+---
+
+### Card 709 · Модальные и условные в пересказе
+
+**ID:** 709
+
+#### Theory
+
+В «Модальных глаголах» мы встретили **She said she could come** и пообещали разобрать сдвиг модальных целиком. Выполняем. Модальный глагол — всегда первое слово в глаголе, значит, по нашему правилу спускается именно он.
+
+**Модальные на лестнице**
+
+| Слова человека | В пересказе |
+|----------------|-------------|
+| I can swim | he could swim |
+| I can't come | she couldn't come |
+| it may rain | it might rain |
+| I have to work | she had to work |
+| I must go | he had to go |
+
+- **can → could**, **may → might** — прошедшие пары, ровно как **will → would**.
+- **have to → had to** — это обычный глагол `have`, и он спускается как любой другой.
+- У `must` своей прошедшей формы нет — `musted` не бывает, поэтому обязанность берёт `had to`: **I must go** → **He said he had to go.** Можно оставить и `must`: **He said he must go** тоже верно и звучит строже.
+
+**Ловушка:** `must` как догадка не сдвигается никогда. Лена смотрит на вас и говорит **You must be tired** — «ты, наверное, устал». Пересказ: **Lena said I must be tired** ✓, а не **Lena said I had to be tired** ✗. Had to значит «был обязан»: выйдет, что вам велели устать.
+
+**Уже отодвинутые**
+
+Часть модальных и так стоит внизу лестницы: `could`, `would`, `should`, `might`, `ought to`, `used to`, `had better`. Спускаться им некуда, поэтому в пересказе они не меняются:
+
+- **You should see a doctor.** → **She said I should see a doctor.**
+- **I used to live in Riga.** → **He said he used to live in Riga.**
+- **We could meet at the café.** → **They said we could meet at the café.**
+
+**Условные предложения в пересказе**
+
+Первый тип условных — реальный план — спускается целиком, в обеих половинах: настоящее в части с `if` уходит в прошедшее, `will` — в `would`.
+
+- **If it rains, we'll stay at home.** → **He said if it rained, they would stay at home.**
+
+**Важно:** получилась фраза, которая выглядит как второй тип — `if` с прошедшим и `would`. Но смысл не поменялся: это по-прежнему реальный план, а не фантазия. По-русски так и переводим, без всякого «бы»: «сказал, что если пойдёт дождь, они останутся дома».
+
+Второй и третий типы уже отодвинуты от реальности, и в пересказе они не меняются:
+
+- **If I had more time, I would learn Spanish.** → **She said if she had more time, she would learn Spanish.**
+- **If I had known, I would have called.** → **He said if he had known, he would have called.**
+
+С `wish` то же самое: спускается только сам `wish`, а часть после него уже отодвинута: **I wish I were taller.** → **He said he wished he were taller.**
+
+**Вся лестница целиком**
+
+| Человек сказал | В пересказе |
+|----------------|-------------|
+| is, works, is working | was, worked, was working |
+| worked, has worked | had worked |
+| had worked | had worked |
+| will, is going to | would, was going to |
+| can, may, have to, must | could, might, had to |
+| could, would, should, might | не меняются |
+
+**Запомни главное:** после said спускается одно слово — первое в глаголе — и ровно на одну ступеньку. Всё, что уже стоит внизу, остаётся на месте.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+После said первое слово глагола спускается на одну ступеньку. То, что уже внизу, остаётся.
+
+**Формула:** said (that) + кто + глагол на шаг назад
+
+**Лестница**
+
+- **am/is → was**, **works → worked**, **don't → didn't**, **is working → was working**
+- **worked / has worked → had worked**, Past Perfect остаётся
+- **will → would**, **is going to → was going to**
+- **can → could**, **may → might**, **have to / must → had to**
+- **could, would, should, might, used to** — не меняются
+
+**Условные**
+
+- **If it rains, we'll stay** → **if it rained, they would stay** — всё ещё план
+- Второй и третий тип не меняются; в **I wish I were…** спускается только **wish → wished**
+
+**Частые ошибки**
+
+- **Mark said he is in a hurry** ✗ → **Mark said he was in a hurry** ✓
+- **would came** ✗ → **would come** ✓
+- **Lena said I had to be tired** ✗ → **Lena said I must be tired** ✓ — догадку не сдвигают
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3250 | Ира сказала, что не может прийти. | Ira said she couldn't come. |
+| 3251 | Он сказал, что может пойти дождь. | He said it might rain. |
+| 3252 | Врач сказал, что мне надо больше спать. | The doctor said I had to sleep more. |
+| 3253 | Коля сказал, что если пойдёт дождь, они останутся дома. | Kolya said if it rained, they would stay at home. |
+| 3254 | Он сказал, что раньше жил в Риге. | He said he used to live in Riga. |
+
+---
+
+#### Exercises
+
+**Ex 19 · FindTheOdd** *(ID: 136)*
+
+Три формы в пересказе не меняются, одна меняется:
+
+- could
+- **can** ✓
+- should
+- might
+
+*Explanation:* could, should и might уже стоят внизу лестницы, спускаться им некуда. Can в пересказе спускается в could.
+
+---
+
+**Ex 20 · Transformation** *(ID: 119)*
+
+Задание: перескажи слова Ольги — начни с Olga said, без that.
+
+1. "I can't swim." → **"Olga said she couldn't swim."**
+2. "I have to get up at six." → **"Olga said she had to get up at six."**
+3. "It may snow." → **"Olga said it might snow."**
+
+*Explanation:* модальный глагол — первое слово, он и спускается: can't → couldn't, have to → had to, may → might. Глагол после него остаётся голым.
+
+---
+
+**Ex 21 · MultipleChoice · REVERSE_CHOICE** *(ID: 118)*
+
+"She said if she found the keys, she would call me."
+
+RU: Утром Таня искала ключи и сказала: «If I find the keys, I'll call you».
+
+- Она сказала, что если бы нашла ключи, позвонила бы мне.
+- Она сказала, что нашла ключи и позвонила мне.
+- **Она сказала, что если найдёт ключи, то позвонит мне.** ✓
+
+*Explanation:* Таня сказала If I find the keys, I'll call you — это реальный план, первый тип. В пересказе обе половины спустились на ступеньку, и фраза стала похожа на второй тип, но смысл тот же: «если найдёт — позвонит», без всякого «бы».
+
+---
+
+**Ex 22 · WordArrangement** *(ID: 229)*
+
+Ситуация: мама посмотрела на тебя и сказала: «You must be hungry». Перескажи это другу.
+
+Правильное предложение: **Mum said I must be hungry.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| Mum | — |
+| said | — |
+| I | — |
+| must | — |
+| be | — |
+| hungry | — |
+| had | ✗ |
+| to | ✗ |
+| am | ✗ |
+
+*Explanation:* must здесь — догадка «наверное, голоден», а догадку в пересказе не сдвигают. Had to значило бы «был обязан быть голодным». You в пересказе от себя становится I.
+
+---
+
+#### AI Exercise
+
+**ID:** reported_speech_card709_ex1
+**Title:** "Перескажи целиком"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "Перескажите слова человека одним предложением, начав с его имени и said."
+**Prompt Template:** "Контекст: пользователь только что прошёл микротему о сдвиге времён в пересказе. Он знает: после said первое слово глагола спускается на одну ступеньку, хвост не трогаем, лицо меняется как в русском (I → he/she, you → I, если слова были обращены к пользователю); лестница: am/is → was, are → were, works → worked, don't/doesn't → didn't + голая форма, is working → was working, there is → there was, I've got → he had; Past Simple и Present Perfect → had + V3 (I lost / I've lost → had lost), Past Perfect остаётся; длительные → had been + -ing; в пассиве спускается be (are made → were made, was stolen → had been stolen); will → would, won't → wouldn't, am going to → was going to, договорённость are leaving → were leaving; can → could, may → might, have to → had to, must-обязанность → had to или остаётся must; must-догадка не меняется никогда (You must be tired → she said I must be tired); could, would, should, might, ought to, used to, had better не меняются; первый тип условных спускается в обеих половинах и выглядит как второй, но остаётся планом (If it rains, we'll stay at home → he said if it rained, they would stay at home); второй и третий тип не меняются; в I wish I were… спускается только wish. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех формах курса, косвенные вопросы, придаточные с who, which, that. ЕЩЁ НЕ ПРОШЁЛ: Future Continuous, Future Perfect (would be doing и would have done как пересказ будущего не используй); внутри этой темы ещё не прошёл замену слов времени и места (today, tomorrow, yesterday, now, here, this), случаи, когда время не сдвигают, развилку say и tell, пересказ вопросов и просьб — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю ОДНУ реплику: английское имя и слова этого человека одним предложением, и попроси пересказать их одним предложением через said. Без слов времени и места, без вопросов и команд. Если в реплике есть you, прямо укажи, что человек говорил это пользователю. В условии не подсказывай, какую форму брать. ДЕРЖИ ПРОСТЫМ: реплика 3-8 слов, бытовая лексика уровня A2, одно действие, у условных — две короткие половины; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. настоящее с am/is/are или отрицанием don't (I don't eat fish). 2. Present Continuous (We're painting the flat). 3. Past Simple или Present Perfect (I've lost my ticket). 4. пассив (The concert was cancelled). 5. will или won't (I won't tell anyone). 6. going to (I'm going to learn Italian). 7. can или can't (I can't drive). 8. may (It may snow). 9. have to или must-обязанность (I have to leave early). 10. ГРАНИЦА: must-догадка обращена к пользователю (You must be cold). 11. ГРАНИЦА: форма, которая не меняется — should, could или used to (You should rest). 12. первый тип условных (If the shop is open, I'll buy milk). 13. ГРАНИЦА: второй тип, который не меняется (If I had a car, I would drive). Образцы дословно не повторяй. ОЦЕНКА: верен пересказ, где первое слово глагола спустилось ровно на одну ступеньку, а то, что уже внизу, осталось. Если оставил настоящее или will после said — скажи, что said уже увёл рассказ в прошлое и первое слово спускается на ступеньку. Если после did, would, could или had to поставил не голую форму (didn't went, would came) — напомни, что после них глагол голый. Если на месте Present Perfect оставил has или have — скажи, что он спускается в had. Если в пункте 10 написал had to — скажи, что это «был обязан»: догадку не сдвигают, остаётся must. Если в пункте 11 сдвинул should, could или used to (should have, had used to) — скажи, что эти формы уже внизу лестницы и не меняются. Если в пункте 12 оставил настоящее в части с if или will — скажи, что спускаются обе половины. Если в пункте 13 ушёл в would have или had had — скажи, что второй тип уже отодвинут и не меняется. Если в пункте 9 оставил must для обязанности — засчитай, но скажи, что в разговоре обычнее had to. Прошедшее длительное без сдвига и Past Simple без had засчитывай как допустимые в разговоре, одной строкой покажи вариант со сдвигом. При ошибке сначала скажи, что означала бы фраза пользователя, если она осмысленна, потом дай верный пересказ целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Перескажите через said: Mark: I can't find my phone.'
+
+#### Clarification Options
+
+- Почему must как догадку нельзя пересказать через had to?
+- Как отличить пересказанный первый тип условных от второго?
+- Какие модальные глаголы в пересказе не меняются и почему?
+
+---
+
+### Words8r Sync · Сдвиг времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|--------------|
+| to claim | утверждать, заявлять | [kleɪm] |
+| to confirm | подтверждать | [kənˈfɜːm] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 40 | 41 |
-| Microtopic | 261 | 262 |
-| Card | 705 | 706 |
-| Example | 3234 | 3235 |
-| Слова курса (course_word) | 925 | 926 |
-| MultipleChoice · CHOICE | 251 | 252 |
-| MultipleChoice · FORWARD_CHOICE | 278 | 279 |
-| MultipleChoice · REVERSE_CHOICE | 117 | 118 |
-| TrueFalse | 252 | 253 |
-| WordArrangement | 227 | 228 |
+| Microtopic | 262 | 263 |
+| Card | 709 | 710 |
+| Example | 3254 | 3255 |
+| Слова курса (course_word) | 927 | 928 |
+| MultipleChoice · CHOICE | 252 | 253 |
+| MultipleChoice · FORWARD_CHOICE | 279 | 280 |
+| MultipleChoice · REVERSE_CHOICE | 118 | 119 |
+| TrueFalse | 253 | 254 |
+| WordArrangement | 230 | 231 |
 | TextInput | 136 | 137 |
-| Matching | 124 | 125 |
-| ErrorCorrection | 245 | 246 |
-| FindTheOdd | 135 | 136 |
-| Categorization | 158 | 159 |
-| TableFill | 50 | 51 |
-| Transformation | 117 | 118 |
-| ConstructionMeaning | 97 | 98 |
-| DialogRestore | 107 | 108 |
+| Matching | 125 | 126 |
+| ErrorCorrection | 246 | 247 |
+| FindTheOdd | 136 | 137 |
+| Categorization | 159 | 160 |
+| TableFill | 51 | 52 |
+| Transformation | 119 | 120 |
+| ConstructionMeaning | 98 | 99 |
+| DialogRestore | 108 | 109 |

@@ -18,6 +18,13 @@
       "title": "Reported Speech · Пересказ чужих слов",
       "order": 1,
       "searchKeywords": "прямая речь, цитата в кавычках, цитата или пересказ, чем отличается от русского пересказа"
+    },
+    {
+      "id": 262,
+      "topicId": 40,
+      "title": "Backshift · Сдвиг времён на шаг назад",
+      "order": 2,
+      "searchKeywords": "was или is после said, had вместо was, will или would после said, can или could после said, условные предложения после said"
     }
   ],
   "grammar_cards": [
@@ -491,6 +498,979 @@
         "Значит, is после said — это всегда ошибка?",
         "Почему в I didn't know you lived in Warsaw стоит lived, если человек живёт там до сих пор?"
       ]
+    },
+    {
+      "id": 706,
+      "microtopicId": 262,
+      "title": "Настоящее → прошедшее",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы договорились о главном: пересказ смотрит на чужие слова из сегодняшнего дня, поэтому время отступает на шаг назад. Теперь разберём, как именно оно отступает. Начнём с самого частого случая — человек говорил о своём настоящем."
+        },
+        {
+          "type": "heading",
+          "text": "Лестница времён"
+        },
+        {
+          "type": "paragraph",
+          "text": "Удобно представить времена лестницей. Пересказ спускает каждую форму ровно на одну ступеньку вниз:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Человек сказал",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "настоящее: am, is, works",
+              "прошедшее: was, worked"
+            ],
+            [
+              "прошедшее и перфект: worked, has worked",
+              "had worked"
+            ],
+            [
+              "had worked",
+              "остаётся: ниже ступеньки нет"
+            ],
+            [
+              "will, can",
+              "would, could"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В этой карточке — первая ступенька. Остальные разберём дальше по микротеме, по одной на карточку."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Said (that) + кто + глагол на шаг назад"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как это звучит в жизни"
+        },
+        {
+          "type": "paragraph",
+          "text": "Утром сосед Марк заскочил в лифт и выпалил:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Mark",
+              "text": "Sorry, I'm in a hurry. I don't have time for coffee. Our cat is sick. I'm taking her to the vet."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вечером мы пересказываем его слова:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Mark said he was in a hurry.**",
+            "**He said he didn't have time for coffee.**",
+            "**He said their cat was sick.**",
+            "**He said he was taking her to the vet.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски мы сказали бы «Марк сказал, что торопится, что у него нет времени, что кошка болеет, что везёт её к ветеринару» — всё в настоящем, глазами Марка. Английский каждую фразу спускает на ступеньку: **am → was**, **don't → didn't**, **is → was**, **am taking → was taking**. Лицо меняется так же, как в русском: **I → he**, **our → their**."
+        },
+        {
+          "type": "heading",
+          "text": "Что происходит с каждой формой"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слова человека",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "I am / she is",
+              "he was / she was"
+            ],
+            [
+              "we are",
+              "they were"
+            ],
+            [
+              "I work / she works",
+              "he worked / she worked"
+            ],
+            [
+              "I don't know / she doesn't know",
+              "he didn't know / she didn't know"
+            ],
+            [
+              "it isn't / they aren't",
+              "it wasn't / they weren't"
+            ],
+            [
+              "I'm working",
+              "he was working"
+            ],
+            [
+              "there is / there are",
+              "there was / there were"
+            ],
+            [
+              "I've got a cold",
+              "he had a cold"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Спускается одно слово — первое"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите на таблицу внимательно: в каждой строке меняется ровно одно слово — первое в глаголе. В `is working` спустилось `is`, а `working` остался на месте. В `doesn't know` спустился помощник, а `know` остался голым — как после любого `did`. Это правило пригодится во всей микротеме: что бы ни стояло в глаголе, сдвигается только первое слово, а хвост не трогаем."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He said he didn't knew** ✗ → **He said he didn't know** ✓. Прошлое уже несёт did, второй раз его не показывают — ровно как в обычном отрицании Past Simple."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "С `have got` чуть иначе: **I've got a cold** в пересказе становится просто **he had a cold**. Вариант **he had got a cold** тоже встречается, но звучит по-книжному."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда тянет ошибка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русская рука переводит пересказ слово в слово: «сказал, что торопится» — и после said появляется is. Для англичанина это сбой: said уже увело рассказ в прошлое, а is тянет его обратно в «сейчас»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Mark said he is in a hurry** ✗ → **Mark said he was in a hurry** ✓. Марк торопился утром, когда говорил, — вечером это уже «тогда»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Бывают случаи, когда время всё-таки оставляют, — их мы разберём в микротеме «Мысли тоже сдвигаются — и когда сдвига нет». Пока правило одно: после said шагаем на ступеньку вниз."
+        },
+        {
+          "type": "heading",
+          "text": "that — по желанию"
+        },
+        {
+          "type": "paragraph",
+          "text": "После said можно поставить `that`, а можно не ставить: **Mark said that he was in a hurry** и **Mark said he was in a hurry** значат одно и то же. Мы уже знаем это по think и say из «Частей речи». В разговоре `that` чаще опускают. Запятой перед `that` нет, в отличие от русского «сказал, что», — подробнее о знаках в «Пунктуации и орфографии»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если пересказываем две вещи подряд, перед второй `that` обычно повторяют: **He said that their cat was sick and that he was taking her to the vet.** Без второго `that` часть про ветеринара звучит как наши собственные слова, а не слова Марка."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Не только said"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот же сдвиг работает после любого глагола, которым передают чужие слова. Два из них нам пригодятся:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The hotel confirmed that our room was ready.** — подтвердил: сказал, что это точно правда",
+            "**Nick claimed that he was the best cook in the family.** — заявил, что это правда, а рассказчик в этом не уверен"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Как пересказывать вопросы и просьбы, разберём в своих микротемах — у них своя сборка."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После said слова человека спускаются на одну ступеньку: настоящее становится прошедшим."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Said (that) + кто + глагол на шаг назад"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**am/is → was**, **are → were**, **work/works → worked**",
+            "**don't/doesn't → didn't** + голая форма, **isn't → wasn't**, **aren't → weren't**",
+            "**is working → was working** — сдвигается только первое слово",
+            "**there is → there was**, **I've got → he had**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Mark said he is in a hurry** ✗ → **Mark said he was in a hurry** ✓",
+            "**didn't knew** ✗ → **didn't know** ✓ — после did голая форма"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Марк сказал, что торопится.",
+          "en": "Mark said he was in a hurry."
+        },
+        {
+          "ru": "Лена сказала, что не любит суши.",
+          "en": "Lena said she didn't like sushi."
+        },
+        {
+          "ru": "Отель подтвердил, что наш номер готов.",
+          "en": "The hotel confirmed that our room was ready."
+        },
+        {
+          "ru": "Они сказали, что ищут квартиру.",
+          "en": "They said they were looking for a flat."
+        },
+        {
+          "ru": "Ник заявил, что он лучший повар в семье.",
+          "en": "Nick claimed that he was the best cook in the family."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в пересказе пишут didn't know, а не didn't knew?",
+        "Что делать, если слова человека до сих пор правда?",
+        "Когда that после said лучше оставить?"
+      ]
+    },
+    {
+      "id": 707,
+      "microtopicId": 262,
+      "title": "Прошлое → ещё глубже: had",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вчера вечером соседка Люси написала в общий чат:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Lucy",
+              "text": "I lost my keys again! I've called the landlord, but he hasn't answered."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сегодня мы пересказываем это другому соседу:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Lucy said she had lost her keys again.**",
+            "**She said she had called the landlord, but he hadn't answered.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски снова всё просто: Люси написала «потеряла» — и мы говорим «сказала, что потеряла». Английскому так нельзя: `lost` уже прошедшее, а после said слова обязаны спуститься ещё на ступеньку. Ниже Past Simple есть одна ступенька — `had + V3`. Мы знаем эту форму по Past Perfect: «раньше того прошлого». Здесь то же самое: Люси потеряла ключи раньше, чем написала об этом."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Said + кто + had + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Две ступеньки сливаются в одну"
+        },
+        {
+          "type": "paragraph",
+          "text": "И Past Simple (`I lost`), и Present Perfect (`I've lost`) в пересказе дают одно и то же — `had lost`. Почему разница пропадает? В словах самой Люси она была: «потеряла вчера» — это про момент, «потеряла, и ключей нет» — про итог сейчас. Но её «сейчас» для нас уже в прошлом, и от двух смыслов остаётся один: это случилось раньше её слов."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слова человека",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "I lost / I've lost",
+              "she had lost"
+            ],
+            [
+              "I didn't call / I haven't called",
+              "he hadn't called"
+            ],
+            [
+              "I've never been to Rome",
+              "she had never been to Rome"
+            ],
+            [
+              "I had already eaten",
+              "he had already eaten"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило первого слова работает и здесь: в `have called` спускается само `have` — **have called → had called**. А у Past Simple помощника нет, поэтому `had` приходит сам, а глагол встаёт в третью форму: **lost → had lost**, **didn't call → hadn't called**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Последняя строка — Past Perfect. Он уже стоит на нижней ступеньке, спускаться некуда, и в пересказе он остаётся как был."
+        },
+        {
+          "type": "heading",
+          "text": "Длительные — тоже в had"
+        },
+        {
+          "type": "paragraph",
+          "text": "В Past Perfect Continuous мы обещали: `had been` с `-ing` встретится в пересказе чужих слов. Вот он:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've been waiting for an hour.** → **He said he had been waiting for an hour.**",
+            "**I was sleeping.** → **She said she had been sleeping.** Или, что в разговоре даже чаще, **she said she was sleeping**: прошедшее длительное часто оставляют как есть."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Пассив спускается так же"
+        },
+        {
+          "type": "paragraph",
+          "text": "В страдательном залоге первое слово — это форма `be`, она и спускается. V3 застыло и не двигается:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The cakes are made by hand.** → **She said the cakes were made by hand.**",
+            "**My bike was stolen.** → **He said his bike had been stolen.**",
+            "**The house has been sold.** → **They said the house had been sold.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русское «был» — одно на два случая"
+        },
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы оставили вопрос: «он сказал, что был занят» — это `was busy` или `had been busy`? Всё зависит от того, что человек сказал на самом деле:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm busy.** — занят прямо тогда, когда говорил → **He said he was busy.**",
+            "**I was busy.** — был занят ещё раньше → **He said he had been busy.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский сливает обе фразы в одно «был занят», английский их различает. Переводя, спросите себя: занят в момент разговора или до него?"
+        },
+        {
+          "type": "heading",
+          "text": "Как читать 'd"
+        },
+        {
+          "type": "paragraph",
+          "text": "В пересказе постоянно попадается `he'd`, и за этим сокращением прячутся два разных слова:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**he'd call** — это would: после него голая форма",
+            "**he'd called**, **he'd been** — это had: после него третья форма"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Отличаем по слову, которое идёт после `'d`, а не по самому `'d`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Честно о живой речи"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда порядок событий и так понятен — особенно если названа точная дата, — Past Simple в пересказе часто оставляют: **She said she moved to Lisbon in 2019.** Это не ошибка. `had` нужен там, где без него непонятно, что было раньше, и в аккуратной письменной речи. С Present Perfect такой свободы нет: **I've lost** в пересказе — всегда **had lost**."
+        },
+        {
+          "type": "paragraph",
+          "text": "И пример с глаголом, который мы берём в словарь: **Igor claimed he had never met her.** — Игорь заявил, что ни разу её не встречал, а мы в этом сомневаемся."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Прошлое и перфект в пересказе спускаются в had + V3. Past Perfect остаётся — ниже ступеньки нет."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Said + кто + had + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**lost / have lost → had lost**, **didn't call / haven't called → hadn't called**",
+            "**have been waiting → had been waiting**, **was sleeping → had been sleeping** или остаётся",
+            "Пассив: **are made → were made**, **was stolen → had been stolen**",
+            "**I'm busy → was busy**, **I was busy → had been busy**",
+            "**'d + голая форма** = would, **'d + V3** = had",
+            "С точной датой Past Simple можно оставить, Present Perfect — всегда в had"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Люси сказала, что потеряла ключи.",
+          "en": "Lucy said she had lost her keys."
+        },
+        {
+          "ru": "Он сказал, что никогда не был в Риме.",
+          "en": "He said he had never been to Rome."
+        },
+        {
+          "ru": "Она сказала, что ждёт уже час.",
+          "en": "She said she had been waiting for an hour."
+        },
+        {
+          "ru": "Они сказали, что дом продан.",
+          "en": "They said the house had been sold."
+        },
+        {
+          "ru": "Игорь заявил, что ни разу её не встречал.",
+          "en": "Igor claimed he had never met her."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему и lost, и have lost в пересказе становятся одним had lost?",
+        "Когда можно оставить Past Simple и не ставить had?",
+        "Как отличить he'd call от he'd called?"
+      ]
+    },
+    {
+      "id": 708,
+      "microtopicId": 262,
+      "title": "Будущее, увиденное из прошлого",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Будущее мы уже пересказывали — в «Модальных глаголах»: **He said he would call back.** Там мы увидели, что в пересказе `will` становится `would`, своей прошедшей парой: это будущее, увиденное из прошлого. Разбирать это заново не будем — достроим картину для всех способов говорить о будущем."
+        },
+        {
+          "type": "heading",
+          "text": "Спускается только will"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь работает то же правило первого слова. В `will come` первое слово — `will`, оно и спускается в `would`. Хвост `come` остаётся голым, как после любого модального глагола."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He said he would came** ✗ → **He said he would come** ✓. Прошлое уже показывает would, глагол после него не меняется."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Все три способа говорить о будущем"
+        },
+        {
+          "type": "paragraph",
+          "text": "О будущем мы говорим тремя способами: `will`, `going to` и Present Continuous для договорённостей. В пересказе каждый спускается по своей ступеньке — и в каждом, как обычно, спускается только первое слово:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слова человека",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "I'll call you",
+              "he would call me"
+            ],
+            [
+              "I won't be late",
+              "she wouldn't be late"
+            ],
+            [
+              "I'm going to buy a car",
+              "he was going to buy a car"
+            ],
+            [
+              "I'm not going to tell him",
+              "she wasn't going to tell him"
+            ],
+            [
+              "We're leaving at six",
+              "they were leaving at six"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски снова всё глазами говорившего: «сказал, что позвонит», «сказала, что не опоздает», «сказали, что уезжают в шесть». Английский все три формы опускает на ступеньку: **will → would**, **am going → was going**, **are leaving → were leaving**."
+        },
+        {
+          "type": "heading",
+          "text": "«Не пришёл» или «не придёт»"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Условных предложениях» ужин приготовили зря, потому что **you weren't coming**. Теперь видно, почему там не `didn't come`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He said he didn't come.** — «сказал, что не пришёл»: это факт, всё уже случилось.",
+            "**He said he wasn't coming.** / **He said he wouldn't come.** — «сказал, что не придёт»: это план."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Вера сказала, что не придёт» → **Vera said she didn't come** ✗ → **Vera said she wasn't coming** ✓. Русское «не придёт» — будущее, а didn't come превращает его в прошлое: выходит, что Вера уже не пришла."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда и фраза из условных: **If I'd known you were coming, I would have cooked more.** `You were coming` — это пересказанный план гостя, тот самый шаг назад от `you're coming`."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Не путай",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Два разных `would`. **He said he would help** — пересказ слов «помогу»: будущее, увиденное из прошлого. **He would help** — «он бы помог»: шаг от реальности, как в условных. Форма одна, работы разные. Подсказку даёт said: есть said — это пересказ."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Впереди в курсе ещё два времени будущего — Future Continuous и Future Perfect. Их пересказ мы разберём в их собственных темах, и работать он будет тем же ходом: `will` спускается в `would`, хвост остаётся на месте."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "В пересказе будущего спускается только первое слово: will → would, am going → was going, are leaving → were leaving."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll call → he would call**, **I won't → he wouldn't**",
+            "**I'm going to → he was going to**, **We're leaving → they were leaving**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**didn't come** — не пришёл, факт ↔ **wasn't coming / wouldn't come** — не придёт, план",
+            "**He said he would help** — пересказ «помогу» ↔ **He would help** — «помог бы»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**would came** ✗ → **would come** ✓ — после would голая форма"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Юля сказала, что позвонит вечером.",
+          "en": "Yulia said she would call in the evening."
+        },
+        {
+          "ru": "Он сказал, что не опоздает.",
+          "en": "He said he wouldn't be late."
+        },
+        {
+          "ru": "Они сказали, что собираются продать машину.",
+          "en": "They said they were going to sell the car."
+        },
+        {
+          "ru": "Вера сказала, что не придёт.",
+          "en": "Vera said she wasn't coming."
+        },
+        {
+          "ru": "Паша сказал, что поможет нам с переездом.",
+          "en": "Pasha said he would help us with the move."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после would глагол не меняется, если время прошедшее?",
+        "Чем wasn't coming отличается от wouldn't come?",
+        "Как понять, что would — это пересказ, а не «бы»?"
+      ]
+    },
+    {
+      "id": 709,
+      "microtopicId": 262,
+      "title": "Модальные и условные в пересказе",
+      "order": 4,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В «Модальных глаголах» мы встретили **She said she could come** и пообещали разобрать сдвиг модальных целиком. Выполняем. Модальный глагол — всегда первое слово в глаголе, значит, по нашему правилу спускается именно он."
+        },
+        {
+          "type": "heading",
+          "text": "Модальные на лестнице"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Слова человека",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "I can swim",
+              "he could swim"
+            ],
+            [
+              "I can't come",
+              "she couldn't come"
+            ],
+            [
+              "it may rain",
+              "it might rain"
+            ],
+            [
+              "I have to work",
+              "she had to work"
+            ],
+            [
+              "I must go",
+              "he had to go"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**can → could**, **may → might** — прошедшие пары, ровно как **will → would**.",
+            "**have to → had to** — это обычный глагол `have`, и он спускается как любой другой.",
+            "У `must` своей прошедшей формы нет — `musted` не бывает, поэтому обязанность берёт `had to`: **I must go** → **He said he had to go.** Можно оставить и `must`: **He said he must go** тоже верно и звучит строже."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Must` как догадка не сдвигается никогда. Лена смотрит на вас и говорит **You must be tired** — «ты, наверное, устал». Пересказ: **Lena said I must be tired** ✓, а не **Lena said I had to be tired** ✗. Had to значит «был обязан»: выйдет, что вам велели устать."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Уже отодвинутые"
+        },
+        {
+          "type": "paragraph",
+          "text": "Часть модальных и так стоит внизу лестницы: `could`, `would`, `should`, `might`, `ought to`, `used to`, `had better`. Спускаться им некуда, поэтому в пересказе они не меняются:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should see a doctor.** → **She said I should see a doctor.**",
+            "**I used to live in Riga.** → **He said he used to live in Riga.**",
+            "**We could meet at the café.** → **They said we could meet at the café.**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Условные предложения в пересказе"
+        },
+        {
+          "type": "paragraph",
+          "text": "Первый тип условных — реальный план — спускается целиком, в обеих половинах: настоящее в части с `if` уходит в прошедшее, `will` — в `would`."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If it rains, we'll stay at home.** → **He said if it rained, they would stay at home.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Получилась фраза, которая выглядит как второй тип — `if` с прошедшим и `would`. Но смысл не поменялся: это по-прежнему реальный план, а не фантазия. По-русски так и переводим, без всякого «бы»: «сказал, что если пойдёт дождь, они останутся дома»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Второй и третий типы уже отодвинуты от реальности, и в пересказе они не меняются:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If I had more time, I would learn Spanish.** → **She said if she had more time, she would learn Spanish.**",
+            "**If I had known, I would have called.** → **He said if he had known, he would have called.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "С `wish` то же самое: спускается только сам `wish`, а часть после него уже отодвинута: **I wish I were taller.** → **He said he wished he were taller.**"
+        },
+        {
+          "type": "heading",
+          "text": "Вся лестница целиком"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Человек сказал",
+            "В пересказе"
+          ],
+          "rows": [
+            [
+              "is, works, is working",
+              "was, worked, was working"
+            ],
+            [
+              "worked, has worked",
+              "had worked"
+            ],
+            [
+              "had worked",
+              "had worked"
+            ],
+            [
+              "will, is going to",
+              "would, was going to"
+            ],
+            [
+              "can, may, have to, must",
+              "could, might, had to"
+            ],
+            [
+              "could, would, should, might",
+              "не меняются"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После said спускается одно слово — первое в глаголе — и ровно на одну ступеньку. Всё, что уже стоит внизу, остаётся на месте."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После said первое слово глагола спускается на одну ступеньку. То, что уже внизу, остаётся."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Said (that) + кто + глагол на шаг назад"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Лестница"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**am/is → was**, **works → worked**, **don't → didn't**, **is working → was working**",
+            "**worked / has worked → had worked**, Past Perfect остаётся",
+            "**will → would**, **is going to → was going to**",
+            "**can → could**, **may → might**, **have to / must → had to**",
+            "**could, would, should, might, used to** — не меняются"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Условные"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**If it rains, we'll stay** → **if it rained, they would stay** — всё ещё план",
+            "Второй и третий тип не меняются; в **I wish I were…** спускается только **wish → wished**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Mark said he is in a hurry** ✗ → **Mark said he was in a hurry** ✓",
+            "**would came** ✗ → **would come** ✓",
+            "**Lena said I had to be tired** ✗ → **Lena said I must be tired** ✓ — догадку не сдвигают"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ира сказала, что не может прийти.",
+          "en": "Ira said she couldn't come."
+        },
+        {
+          "ru": "Он сказал, что может пойти дождь.",
+          "en": "He said it might rain."
+        },
+        {
+          "ru": "Врач сказал, что мне надо больше спать.",
+          "en": "The doctor said I had to sleep more."
+        },
+        {
+          "ru": "Коля сказал, что если пойдёт дождь, они останутся дома.",
+          "en": "Kolya said if it rained, they would stay at home."
+        },
+        {
+          "ru": "Он сказал, что раньше жил в Риге.",
+          "en": "He said he used to live in Riga."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему must как догадку нельзя пересказать через had to?",
+        "Как отличить пересказанный первый тип условных от второго?",
+        "Какие модальные глаголы в пересказе не меняются и почему?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -529,9 +1509,138 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 245,
       "orderInCard": 2
+    },
+    {
+      "cardId": 706,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 51,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 706,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 246,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 706,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 118,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 706,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 228,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 707,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 159,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 707,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 252,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 707,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 230,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 707,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 108,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 708,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 98,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 708,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 279,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 708,
+      "exerciseType": "MATCHING",
+      "exerciseId": 125,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 708,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 253,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 709,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 136,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 709,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 119,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 709,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 118,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 709,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 229,
+      "orderInCard": 3
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "reported_speech_card706_ex1",
+      "cardId": 706,
+      "title": "Перескажи: настоящее",
+      "userInstruction": "Впишите в пересказ глагол так, как его передают после said.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card707_ex1",
+      "cardId": 707,
+      "title": "Перескажи: прошлое и перфект",
+      "userInstruction": "Впишите в пересказ глагол так, как его передают после said.",
+      "inputMode": "FILL_BLANKS",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card708_ex1",
+      "cardId": 708,
+      "title": "Сказал, что сделает",
+      "userInstruction": "Скажите по-английски: кто-то сказал, что сделает или не сделает что-то.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "reported_speech_card709_ex1",
+      "cardId": 709,
+      "title": "Перескажи целиком",
+      "userInstruction": "Перескажите слова человека одним предложением, начав с его имени и said.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "useful_words",
@@ -548,8 +1657,57 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
-  "table_fill_exercises": [],
+  "course_words": [
+    {
+      "id": 926,
+      "word": "to claim",
+      "translation": "утверждать, заявлять",
+      "transcription": "[kleɪm]",
+      "microtopicId": 262,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 927,
+      "word": "to confirm",
+      "translation": "подтверждать",
+      "transcription": "[kənˈfɜːm]",
+      "microtopicId": 262,
+      "categoryId": "useful_words"
+    }
+  ],
+  "table_fill_exercises": [
+    {
+      "id": 51,
+      "taskDescription": "впиши, какой станет форма в пересказе после said.",
+      "rows": [
+        {
+          "hint": "am",
+          "answer": "was"
+        },
+        {
+          "hint": "aren't",
+          "answer": "weren't"
+        },
+        {
+          "hint": "doesn't",
+          "answer": "didn't"
+        },
+        {
+          "hint": "is raining",
+          "answer": "was raining"
+        },
+        {
+          "hint": "wants",
+          "answer": "wanted"
+        },
+        {
+          "hint": "there are",
+          "answer": "there were"
+        }
+      ],
+      "explanation": "каждая форма спускается на одну ступеньку: am → was, aren't → weren't, doesn't → didn't. В is raining спускается только первое слово, raining остаётся. Обычный глагол просто уходит в прошедшее: wants → wanted."
+    }
+  ],
   "true_false_exercises": [
     {
       "id": 252,
@@ -581,9 +1739,103 @@
         }
       ],
       "explanation": "say не берёт человека вплотную, поэтому адрес сообщают через tell: Olga told me her new address. У told человек тоже идёт сразу, без to: My boss told me to stay late. Остальные три фразы верны: worked тянет за собой didn't know, asked me to wait — просьба, could — пересказанное can."
+    },
+    {
+      "id": 253,
+      "statements": [
+        {
+          "en": "He said he would come later.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "She said she would called back.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Sam said he was going to learn Spanish.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Lucy said she wasn't going to came.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Igor said he would to drive us.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "после would и после going to глагол остаётся голым: would call back, wasn't going to come. To после would не ставится — это модальный глагол: would drive."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 228,
+      "situationRu": "RU: Соня сказала, что её брат не ест рыбу.",
+      "correctSentence": "Sonya said her brother didn't eat fish.",
+      "words": [
+        "Sonya",
+        "said",
+        "her",
+        "brother",
+        "didn't",
+        "eat",
+        "fish"
+      ],
+      "distractors": [
+        "don't",
+        "ate",
+        "says",
+        "not"
+      ],
+      "explanation": "said уже в прошлом, поэтому помощник спускается: doesn't → didn't. После didn't глагол голый — eat, а не ate. Don't не подходит ни по времени, ни по лицу."
+    },
+    {
+      "id": 230,
+      "situationRu": "Ситуация: Ник сказал тебе: «I've lost my wallet». Перескажи это другу.",
+      "correctSentence": "Nick said he had lost his wallet.",
+      "words": [
+        "Nick",
+        "said",
+        "he",
+        "had",
+        "lost",
+        "his",
+        "wallet"
+      ],
+      "distractors": [
+        "have",
+        "lose",
+        "loses",
+        "was",
+        "him"
+      ],
+      "explanation": "Ник сказал I've lost — это Present Perfect, а в пересказе have спускается в had. Третья форма lost остаётся на месте: had lost. My превращается в his, как в русском «мой» → «его»."
+    },
+    {
+      "id": 229,
+      "situationRu": "Ситуация: мама посмотрела на тебя и сказала: «You must be hungry». Перескажи это другу.",
+      "correctSentence": "Mum said I must be hungry.",
+      "words": [
+        "Mum",
+        "said",
+        "I",
+        "must",
+        "be",
+        "hungry"
+      ],
+      "distractors": [
+        "had",
+        "to",
+        "am"
+      ],
+      "explanation": "must здесь — догадка «наверное, голоден», а догадку в пересказе не сдвигают. Had to значило бы «был обязан быть голодным». You в пересказе от себя становится I."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 117,
@@ -605,6 +1857,69 @@
         }
       ],
       "explanation": "сосед видит тебя у подъезда — ты живёшь здесь сейчас. lived стоит не потому, что ты тут больше не живёшь, а потому, что его тянет за собой didn't know: английский отодвигает всю фразу в прошлое. По-русски время остаётся настоящим — «живёшь»."
+    },
+    {
+      "id": 252,
+      "choiceType": "CHOICE",
+      "prompt": "Emma said she ___ never been to Spain.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "have",
+          "isCorrect": false
+        },
+        {
+          "text": "was",
+          "isCorrect": false
+        },
+        {
+          "text": "had",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "never been — это третья форма, значит перед ней стоит have или had. Эмма сказала I've never been, а в пересказе have спускается в had: had never been. Have не подходит к she, а was never been не собирается вовсе."
+    },
+    {
+      "id": 279,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Соня сказала, что купит торт.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Sonya said she would buy a cake.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sonya said she would bought a cake.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sonya said she bought a cake.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«купит» — будущее, а will в пересказе спускается в would. После would глагол остаётся голым: would buy. Bought без would значит, что торт уже куплен."
+    },
+    {
+      "id": 118,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "She said if she found the keys, she would call me.",
+      "contextRu": "Утром Таня искала ключи и сказала: «If I find the keys, I'll call you».",
+      "options": [
+        {
+          "text": "Она сказала, что если бы нашла ключи, позвонила бы мне.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она сказала, что нашла ключи и позвонила мне.",
+          "isCorrect": false
+        },
+        {
+          "text": "Она сказала, что если найдёт ключи, то позвонит мне.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Таня сказала If I find the keys, I'll call you — это реальный план, первый тип. В пересказе обе половины спустились на ступеньку, и фраза стала похожа на второй тип, но смысл тот же: «если найдёт — позвонит», без всякого «бы»."
     }
   ],
   "text_input_exercises": [],
@@ -636,9 +1951,61 @@
         }
       ],
       "explanation": "после said человек не ставится — said me не бывает, для этого есть told me. После would, как после любого модального, идёт голая форма глагола, без to: would be."
+    },
+    {
+      "id": 108,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Is Tom coming to the party?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "No, he said he had already made plans.",
+          "isCorrect": true
+        },
+        {
+          "text": "No, he said he was already made plans.",
+          "isCorrect": false
+        },
+        {
+          "text": "No, he said he had already make plans.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Том сказал I've already made plans, и в пересказе have спускается в had, а made остаётся третьей формой: had already made. Was made — это страдательный залог, «его сделали», и с plans такая фраза не собирается. После had голая форма make не ставится."
     }
   ],
-  "matching_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 125,
+      "taskDescription": "соедини слова Бена с пересказом.",
+      "pairs": [
+        {
+          "left": "I'll text you",
+          "right": "he would text me"
+        },
+        {
+          "left": "I won't text you",
+          "right": "he wouldn't text me"
+        },
+        {
+          "left": "I'm going to text you",
+          "right": "he was going to text me"
+        },
+        {
+          "left": "I'm not going to text",
+          "right": "he wasn't going to text"
+        }
+      ],
+      "explanation": "спускается только первое слово: will → would, won't → wouldn't, am going → was going, am not going → wasn't going. Хвост text остаётся на месте."
+    }
+  ],
   "error_correction_exercises": [
     {
       "id": 245,
@@ -658,6 +2025,25 @@
         }
       ],
       "explanation": "said не берёт человека вплотную — велеть что-то сделать можно через told: told us to open. После told человек идёт сразу, без to перед ним, а to стоит уже перед самим действием."
+    },
+    {
+      "id": 246,
+      "wrongSentence": "Vera said she didn't knew the address.",
+      "options": [
+        {
+          "text": "Vera said she doesn't knew the address.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vera said she didn't know the address.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vera said she not knew the address.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в пересказе doesn't спускается в didn't, а глагол после did остаётся голым: didn't know. Прошлое уже несёт did, второй раз его не показывают."
     }
   ],
   "construction_meaning_exercises": [
@@ -683,10 +2069,96 @@
         }
       ],
       "explanation": "asked + кого + to + действие — это просьба сделать что-то: «попросила меня перезвонить». Вопрос «перезвоню ли я» собрался бы через if, а «сказала, что перезвонит» — через said she would."
+    },
+    {
+      "id": 98,
+      "construction": "Kate said she wasn't coming.",
+      "options": [
+        {
+          "text": "Кейт сказала, что не пришла.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кейт сказала, что не приходила.",
+          "isCorrect": false
+        },
+        {
+          "text": "Кейт сказала, что не придёт.",
+          "isCorrect": true
+        },
+        {
+          "text": "Кейт сказала, что не пришла бы.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "wasn't coming — это пересказанный план I'm not coming, «я не приду». Факт «не пришла» был бы didn't come или hadn't come, а «не пришла бы» — wouldn't have come."
     }
   ],
-  "transformation_exercises": [],
-  "categorization_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 118,
+      "taskDescription": "перескажи слова Бена — начни с Ben said, без that.",
+      "items": [
+        {
+          "original": "I'm cold.",
+          "transformed": "Ben said he was cold."
+        },
+        {
+          "original": "I don't like jazz.",
+          "transformed": "Ben said he didn't like jazz."
+        },
+        {
+          "original": "I'm looking for a taxi.",
+          "transformed": "Ben said he was looking for a taxi."
+        }
+      ],
+      "explanation": "I становится he, а глагол спускается на ступеньку: am → was, don't → didn't. В am looking спускается только первое слово, looking остаётся на месте."
+    },
+    {
+      "id": 119,
+      "taskDescription": "перескажи слова Ольги — начни с Olga said, без that.",
+      "items": [
+        {
+          "original": "I can't swim.",
+          "transformed": "Olga said she couldn't swim."
+        },
+        {
+          "original": "I have to get up at six.",
+          "transformed": "Olga said she had to get up at six."
+        },
+        {
+          "original": "It may snow.",
+          "transformed": "Olga said it might snow."
+        }
+      ],
+      "explanation": "модальный глагол — первое слово, он и спускается: can't → couldn't, have to → had to, may → might. Глагол после него остаётся голым."
+    }
+  ],
+  "categorization_exercises": [
+    {
+      "id": 159,
+      "taskDescription": "разложи слова людей — чем станет глагол в пересказе после said.",
+      "categories": [
+        {
+          "title": "Станет was или were",
+          "items": [
+            "I'm late",
+            "We're ready",
+            "It's broken"
+          ]
+        },
+        {
+          "title": "Станет had + V3",
+          "items": [
+            "I lost my phone",
+            "I've finished",
+            "We've met before"
+          ]
+        }
+      ],
+      "explanation": "настоящее спускается на одну ступеньку — в was или were. Прошедшее и перфект уже стоят ниже, поэтому уходят ещё глубже — в had + V3: had lost, had finished, had met."
+    }
+  ],
   "find_the_odd_exercises": [
     {
       "id": 135,
@@ -710,6 +2182,29 @@
         }
       ],
       "explanation": "просьба и приказ собираются так: told или asked + кого + to + действие — «велела сесть», «попросил подождать», «велела позвонить». Во фразе про Бена после told me нет to: Бен не велел ничего делать, а сообщил, что голоден."
+    },
+    {
+      "id": 136,
+      "groupDescription": "Три формы в пересказе не меняются, одна меняется",
+      "items": [
+        {
+          "text": "could",
+          "isOdd": false
+        },
+        {
+          "text": "can",
+          "isOdd": true
+        },
+        {
+          "text": "should",
+          "isOdd": false
+        },
+        {
+          "text": "might",
+          "isOdd": false
+        }
+      ],
+      "explanation": "could, should и might уже стоят внизу лестницы, спускаться им некуда. Can в пересказе спускается в could."
     }
   ]
 }
