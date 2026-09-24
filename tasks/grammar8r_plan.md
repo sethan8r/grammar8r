@@ -8055,8 +8055,8 @@ theory/
 │   │       like…?` → `offered` / `invited` · `Please, please!` → `begged me to`. Ряд obj + to:
 │   │       warn · remind · advise · persuade · encourage · invite · beg. AI.
 │   │
-│   ├── МТ · Reporting Verbs · Пересказать смысл, а не слова  (2 карточки; слив: to reject · to accuse · to blame · to threaten · to thank)
-│   │   ├── Card · Глагол вместо said
+│   ├── МТ268 · Reporting Verbs · Пересказать смысл, а не слова  (2 карточки; слив: to reject · to accuse · to blame · to threaten · to thank) ✅ (написана, ALL GREEN 24.09.26)
+│   │   ├── Card 721 · Глагол вместо said
 │   │   │   Глагол несёт отношение говорящего. Таблица по формам (все знакомы): to + V1 (agree,
 │   │   │   refuse, promise, offer, threaten) · -ing (deny, admit, suggest) · предлог + -ing
 │   │   │   (apologise for, thank for, insist on, accuse sb of, blame sb for) · that (explain,
@@ -8064,7 +8064,7 @@ theory/
 │   │   │   advise, assure) или через to (say, explain, describe, mention, suggest): `explained me` ✗
 │   │   │   (опора Card 675). Реплики, которые said не перескажешь: `Thanks!` → thanked ·
 │   │   │   `Sorry!` → apologised · `Congratulations!` → congratulated. AI.
-│   │   └── Card · deny ↔ refuse ↔ reject ↔ admit
+│   │   └── Card 722 · deny ↔ refuse ↔ reject ↔ admit
 │   │       ⬅️ ДОЛГ ИЗ «Герундия после глагола» (Card 618): там дана только ФОРМА (deny / admit +
 │   │          -ing, refuse + to) и обещано разведение ПО СМЫСЛУ здесь. Форму — строкой.
 │   │       `deny` — отрицал, что было (факт, взгляд назад) · `refuse` — отказался делать (взгляд

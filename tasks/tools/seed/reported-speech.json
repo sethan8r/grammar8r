@@ -60,6 +60,13 @@
       "title": "Reported Commands · Пересказать просьбу, совет, приказ",
       "order": 7,
       "searchKeywords": "told me not to, told me don't, сказал чтобы по-английски, попросил не делать, advise или advice, suggested me to"
+    },
+    {
+      "id": 268,
+      "topicId": 40,
+      "title": "Reporting Verbs · Пересказать смысл, а не слова",
+      "order": 8,
+      "searchKeywords": "accused me of, thanked me for, explained me, deny или refuse, refuse или reject, отказался или отрицал"
     }
   ],
   "grammar_cards": [
@@ -3824,6 +3831,392 @@
         "Чем persuaded отличается от encouraged?",
         "Как не спутать advice и advise?"
       ]
+    },
+    {
+      "id": 721,
+      "microtopicId": 268,
+      "title": "Глагол вместо said",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Бен опоздал на встречу и с порога говорит:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Ben",
+              "text": "I'm so sorry I'm late. I promise it won't happen again."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Пересказать можно через said: **He said he was sorry he was late and that it wouldn't happen again.** Верно, но длинно. А можно одним глаголом на каждую мысль: **He apologised for being late and promised not to be late again.**"
+        },
+        {
+          "type": "heading",
+          "text": "Глагол несёт отношение"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Said` передаёт только слова. Глагол-рамка передаёт ещё и то, **как** человек их сказал: извинился, пообещал, пригрозил, обвинил, признался. Русский делает то же самое — мы тоже не говорим «он сказал «извини»», а говорим «он извинился». Сами конструкции почти все нам знакомы. Новое только одно: какой глагол что за собой тянет."
+        },
+        {
+          "type": "heading",
+          "text": "Что стоит после глагола"
+        },
+        {
+          "type": "table",
+          "header": [
+            "После глагола",
+            "Глаголы",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "to + V1",
+              "agree, refuse, promise, offer, threaten",
+              "He threatened to call the police."
+            ],
+            [
+              "-ing",
+              "deny, admit, suggest",
+              "She admitted breaking the vase."
+            ],
+            [
+              "предлог + -ing",
+              "apologise for, thank for, insist on, accuse of, blame for",
+              "They accused him of lying."
+            ],
+            [
+              "that + сдвиг",
+              "explain, complain, mention, claim",
+              "He complained that the room was cold."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Первые три строки мы собирали в «Инфинитиве», «Герундии после глагола» и «Глагол/прилагательное + предлог». После `to` и после `-ing` сдвиг времени не нужен: там вообще нет времени. После `that` работает вся лестница из «Сдвига времён»: **The room is cold** → **He complained that the room was cold.**"
+        },
+        {
+          "type": "heading",
+          "text": "Кого обвинили, за что благодарят"
+        },
+        {
+          "type": "paragraph",
+          "text": "У `accuse`, `thank`, `blame` сначала стоит человек, потом предлог и действие. Русское «в том, что…» и «за то, что…» тянет руку к `that`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He accused me that I lied** ✗ → **He accused me of lying** ✓. **She thanked me that I helped** ✗ → **She thanked me for helping** ✓. У этих глаголов нет `that` — только предлог и `-ing`."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "У `blame` два пути, смысл один: **She blamed me for the mess.** — обвинила меня в беспорядке. **She blamed the mess on me.** — свалила беспорядок на меня."
+        },
+        {
+          "type": "paragraph",
+          "text": "`Threaten` тоже умеет двумя способами: **He threatened to leave.** — пригрозил уйти. **He threatened us with the police.** — пригрозил нам полицией."
+        },
+        {
+          "type": "heading",
+          "text": "Человек сразу или через to"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эту развилку мы видели на `tell` и `say`: одни глаголы берут человека сразу, другие — только через `to`. Остальные глаголы пересказа делятся так же."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Человек сразу: **tell, inform, remind, warn, advise, assure**. **He assured me it was safe.** — заверил меня.",
+            "Человек через to: **say, explain, describe, mention, suggest, apologise**. **He explained to me why he was late.** — объяснил мне."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**He explained me the rules** ✗ → **He explained the rules to me** ✓ — мы разбирали это в «Страдательном залоге». Та же порода: **She apologised me** ✗ → **She apologised to me** ✓."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Реплики, которые said не перескажешь"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть реплики, у которых нет «содержания» — только сам поступок. Их пересказывают глаголом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Thanks!** → **She thanked me.**",
+            "**Sorry!** → **He apologised.**",
+            "**Congratulations!** → **They congratulated me on my new job.**",
+            "**Good morning!** → **He greeted us.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В разговоре можно сказать и **He said thanks** или **She said sorry** — это нормальная живая речь. Глаголы `thanked` и `apologised` звучат полнее, в рассказе и на письме они привычнее."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Отрицания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She promised not to tell anyone.** — `not` прямо перед `to`, как в «Пересказать просьбу, совет, приказ»",
+            "**He didn't agree to help.** — «не согласился» ↔ **He refused to help.** — «наотрез отказался». Второе резче."
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Глагол-рамка передаёт не только слова, но и поступок: извинился, обещал, обвинил. Решает то, что стоит после него."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "to + V1: **agree, refuse, promise, offer, threaten**",
+            "-ing: **deny, admit, suggest**",
+            "предлог + -ing: **apologise for, thank for, insist on, accuse of, blame for**",
+            "that + сдвиг: **explain, complain, mention, claim**",
+            "Человек сразу: **tell, inform, remind, warn, advise, assure**; через to: **say, explain, describe, mention, apologise**",
+            "**Thanks!** → **thanked**, **Sorry!** → **apologised**, **Congratulations!** → **congratulated**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He accused me that I lied** ✗ → **He accused me of lying** ✓",
+            "**She thanked me that I helped** ✗ → **She thanked me for helping** ✓",
+            "**He explained me** ✗ → **He explained to me** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Бен извинился за опоздание.",
+          "en": "Ben apologised for being late."
+        },
+        {
+          "ru": "Он пригрозил вызвать полицию.",
+          "en": "He threatened to call the police."
+        },
+        {
+          "ru": "Они обвинили его во лжи.",
+          "en": "They accused him of lying."
+        },
+        {
+          "ru": "Она поблагодарила меня за помощь.",
+          "en": "She thanked me for my help."
+        },
+        {
+          "ru": "Он объяснил мне, почему опоздал.",
+          "en": "He explained to me why he was late."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать He accused me that I lied?",
+        "Как понять, берёт глагол человека сразу или через to?",
+        "Когда лучше said sorry, а когда apologised?"
+      ]
+    },
+    {
+      "id": 722,
+      "microtopicId": 268,
+      "title": "deny ↔ refuse ↔ reject ↔ admit",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В «Герундии после глагола» мы разобрали форму: **deny** и **admit** берут `-ing`, **refuse** — `to`. Там же пообещали развести их по смыслу — делаем это здесь."
+        },
+        {
+          "type": "heading",
+          "text": "Куда смотрит «нет»"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «отрицал», «отказался», «отклонил» легко путаются: все три про «нет». Английский разводит их по тому, **на что** это «нет» направлено:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Глагол",
+            "Смысл",
+            "Куда смотрит",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "deny",
+              "отрицал, что это было",
+              "назад, на факт",
+              "He denied taking the money."
+            ],
+            [
+              "refuse",
+              "отказался делать",
+              "вперёд, на действие",
+              "She refused to pay."
+            ],
+            [
+              "reject",
+              "отклонил предложенное",
+              "на вещь: план, идею, заявку",
+              "They rejected my plan."
+            ],
+            [
+              "admit",
+              "признал, что это было",
+              "назад, на факт",
+              "He admitted lying."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`Admit` — пара к `deny`: оба смотрят на то, что уже случилось. Один говорит «не было», другой — «было»."
+        },
+        {
+          "type": "heading",
+          "text": "Пары, которые путают"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He denied breaking the window.** — «не я разбил», это про прошлое. **He refused to fix the window.** — «не буду чинить», это про будущее.",
+            "**She refused to sign.** — отказалась делать действие. **She rejected the contract.** — отклонила вещь, которую ей предложили."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Он отказывался, что брал деньги» — рука тянется к **refused taking the money** ✗. Но речь о факте в прошлом, а не о действии впереди: **He denied taking the money** ✓. Проверка одним вопросом: «нет» сказано про то, что было, или про то, что надо сделать?"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вещь после refuse и reject"
+        },
+        {
+          "type": "paragraph",
+          "text": "`Reject` берёт только вещь: **rejected the idea** ✓, **rejected to help** ✗. `Refuse` берёт и действие с `to`, и вещь — и здесь пересекается с `reject`: **She refused the offer** и **She rejected the offer** — оба верны. Разница в оттенке: `reject` звучит официальнее, как решение по заявке."
+        },
+        {
+          "type": "paragraph",
+          "text": "С человеком у них появляется ещё одно значение — «отказать кому-то в чём-то»: **They refused him entry.** — его не пустили. **They denied him access.** — ему закрыли доступ. Эти две фразы нужно просто узнавать в тексте."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Когда отказываются вежливо — от приглашения, предложения, — английский берёт **decline**: **She declined the invitation.** В разговоре то же самое скажут **turned down**: **She turned down the job.**"
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Все четыре про «да» или «нет», но смотрят в разные стороны."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**deny** + -ing — отрицал, что было: **denied taking**",
+            "**admit** + -ing — признал, что было: **admitted lying**",
+            "**refuse** + to — отказался делать: **refused to pay**",
+            "**reject** + вещь — отклонил предложенное: **rejected the plan**",
+            "**refused / rejected the offer** — оба верны",
+            "Вежливо отказаться от приглашения — **declined**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He refused taking the money** ✗ → **He denied taking the money** ✓ — про факт в прошлом",
+            "**They rejected to help** ✗ → **They refused to help** ✓ — reject только с вещью"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Он отрицал, что взял деньги.",
+          "en": "He denied taking the money."
+        },
+        {
+          "ru": "Она отказалась платить.",
+          "en": "She refused to pay."
+        },
+        {
+          "ru": "Они отклонили мой план.",
+          "en": "They rejected my plan."
+        },
+        {
+          "ru": "Он признался, что соврал.",
+          "en": "He admitted lying."
+        },
+        {
+          "ru": "Она отказалась от приглашения.",
+          "en": "She declined the invitation."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро понять, deny это или refuse?",
+        "Чем refused the offer отличается от rejected the offer?",
+        "Почему нельзя сказать rejected to help?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4204,6 +4597,54 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 257,
       "orderInCard": 3
+    },
+    {
+      "cardId": 721,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 161,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 721,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 251,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 721,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 284,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 721,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 112,
+      "orderInCard": 3
+    },
+    {
+      "cardId": 722,
+      "exerciseType": "MATCHING",
+      "exerciseId": 130,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 722,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 257,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 722,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 258,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 722,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 236,
+      "orderInCard": 3
     }
   ],
   "ai_exercises": [
@@ -4310,6 +4751,22 @@
       "userInstruction": "Перескажите реплику одним предложением, подобрав подходящий глагол вместо said.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card721_ex1",
+      "cardId": 721,
+      "title": "Глагол вместо said",
+      "userInstruction": "Перескажите реплику одним предложением, подобрав глагол вместо said.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "reported_speech_card722_ex1",
+      "cardId": 722,
+      "title": "Отрицал, отказался или отклонил",
+      "userInstruction": "Скажите по-английски: кто-то отрицал, отказался, отклонил или признал что-то.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -4423,6 +4880,46 @@
       "translation": "умолять, просить",
       "transcription": "[beɡ]",
       "microtopicId": 267,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 938,
+      "word": "to reject",
+      "translation": "отклонять, отвергать",
+      "transcription": "[rɪˈdʒekt]",
+      "microtopicId": 268,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 939,
+      "word": "to accuse",
+      "translation": "обвинять",
+      "transcription": "[əˈkjuːz]",
+      "microtopicId": 268,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 940,
+      "word": "to blame",
+      "translation": "винить, обвинять",
+      "transcription": "[bleɪm]",
+      "microtopicId": 268,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 941,
+      "word": "to threaten",
+      "translation": "угрожать, грозить",
+      "transcription": "[ˈθretn]",
+      "microtopicId": 268,
+      "categoryId": "useful_words"
+    },
+    {
+      "id": 942,
+      "word": "to thank",
+      "translation": "благодарить",
+      "transcription": "[θæŋk]",
+      "microtopicId": 268,
       "categoryId": "useful_words"
     }
   ],
@@ -4676,6 +5173,37 @@
         }
       ],
       "explanation": "suggest не берёт человека и to — верно suggested waiting outside. Совет-существительное — advice, advise — это глагол. Остальные верны: advised me to, offered to, reminded me to."
+    },
+    {
+      "id": 258,
+      "statements": [
+        {
+          "en": "She refused to answer my question.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They rejected to help us.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "He denied that he had seen her.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He refused taking the money.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The bank rejected my application.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "reject берёт только вещь — верно refused to help us. Refuse смотрит на действие впереди и берёт to, а «не брал денег» — это факт: denied taking the money. Остальные верны: refused to answer, denied that…, rejected my application."
     }
   ],
   "word_arrangement_exercises": [
@@ -4849,6 +5377,25 @@
         "advice"
       ],
       "explanation": "persuade собирается как told: persuaded + кого + to + действие — persuaded me to stay. -ing и that здесь не нужны, а advice — существительное «совет», не глагол."
+    },
+    {
+      "id": 236,
+      "situationRu": "RU: Он признался, что разбил вазу.",
+      "correctSentence": "He admitted breaking the vase.",
+      "words": [
+        "He",
+        "admitted",
+        "breaking",
+        "the",
+        "vase"
+      ],
+      "distractors": [
+        "to",
+        "break",
+        "refused",
+        "of"
+      ],
+      "explanation": "admit смотрит на то, что уже случилось, и берёт -ing: admitted breaking. To и голая форма break сюда не подходят, а refused значило бы «отказался»."
     }
   ],
   "multiple_choice_exercises": [
@@ -5166,6 +5713,48 @@
         }
       ],
       "explanation": "«давай сходим на пляж» пересказывают через suggested + -ing: suggested going. Offered и asked после себя -ing не берут: offered to go, asked me to go."
+    },
+    {
+      "id": 284,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Кирилл извинился передо мной за опоздание.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Kirill apologised me for being late.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kirill apologised to me for be late.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kirill apologised to me for being late.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "apologise берёт человека только через to: apologised to me. После for действие стоит с -ing: for being late."
+    },
+    {
+      "id": 257,
+      "choiceType": "CHOICE",
+      "prompt": "He ___ breaking the window, but we saw him do it.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "refused",
+          "isCorrect": false
+        },
+        {
+          "text": "rejected",
+          "isCorrect": false
+        },
+        {
+          "text": "denied",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«разбил или не разбил» — это про то, что уже было, значит deny: denied breaking. Refused значило бы «отказался разбивать», а rejected берёт только вещь."
     }
   ],
   "text_input_exercises": [],
@@ -5309,6 +5898,34 @@
         }
       ],
       "explanation": "спрашивали, может ли Бен помочь, — could help, поэтому и короткий ответ держится за тот же помощник: he could. Did и was относятся к другим вопросам."
+    },
+    {
+      "id": 112,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What did Tom say when you fixed his bike?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "He thanked me for helping.",
+          "isCorrect": true
+        },
+        {
+          "text": "He thanked me that I helped.",
+          "isCorrect": false
+        },
+        {
+          "text": "He thanked to me for helping.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "thank берёт человека сразу, без to, а за что благодарят — через for и -ing: thanked me for helping. That после thank не ставится."
     }
   ],
   "matching_exercises": [
@@ -5442,6 +6059,29 @@
         }
       ],
       "explanation": "совет — advised, «давай» — suggested, «я сделаю» — offered, мольба — begged, приглашение — invited."
+    },
+    {
+      "id": 130,
+      "taskDescription": "соедини русское с английским.",
+      "pairs": [
+        {
+          "left": "отрицал, что взял",
+          "right": "denied taking"
+        },
+        {
+          "left": "отказался помогать",
+          "right": "refused to help"
+        },
+        {
+          "left": "отклонил идею",
+          "right": "rejected the idea"
+        },
+        {
+          "left": "признал ошибку",
+          "right": "admitted the mistake"
+        }
+      ],
+      "explanation": "deny — «не было» про прошлое, refuse — «не буду» про действие, reject — «нет» предложенной вещи, admit — «да, было»."
     }
   ],
   "error_correction_exercises": [
@@ -5558,6 +6198,25 @@
         }
       ],
       "explanation": "запрет пересказываем через not to: told me not to eat. После told человек идёт сразу, без to, а перед самим действием to нужен."
+    },
+    {
+      "id": 251,
+      "wrongSentence": "She accused me that I took her phone.",
+      "options": [
+        {
+          "text": "She accused me for taking her phone.",
+          "isCorrect": false
+        },
+        {
+          "text": "She accused me of taking her phone.",
+          "isCorrect": true
+        },
+        {
+          "text": "She accused me to take her phone.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "у accuse нет that — сначала человек, потом of и действие с -ing: accused me of taking. For здесь не подходит: for берут thank и blame."
     }
   ],
   "construction_meaning_exercises": [
@@ -5847,6 +6506,31 @@
         }
       ],
       "explanation": "с say стоят короткие реплики, которые прозвучали: good night, please, no. С tell — то, что рассказывают или сообщают: a secret, a fairy tale, the truth."
+    },
+    {
+      "id": 161,
+      "taskDescription": "разложи глаголы по тому, что стоит после них.",
+      "categories": [
+        {
+          "title": "+ to + действие",
+          "items": [
+            "promise",
+            "refuse",
+            "decide",
+            "hope"
+          ]
+        },
+        {
+          "title": "+ -ing",
+          "items": [
+            "deny",
+            "admit",
+            "avoid",
+            "mention"
+          ]
+        }
+      ],
+      "explanation": "promise, refuse, decide и hope смотрят вперёд, на действие, и берут to: promised to call, decided to stay. Deny, admit, avoid и mention смотрят на действие как на факт и берут -ing: denied taking, avoided talking, mentioned seeing."
     }
   ],
   "find_the_odd_exercises": [
