@@ -7,23 +7,23 @@
 
 | Трек | Next free |
 |------|-----------|
-| Card | 726 |
-| Categorization | 162 |
-| Category | 8 |
-| ConstructionMeaning | 106 |
+| Card | 728 |
+| Categorization | 163 |
+| Category | 9 |
+| ConstructionMeaning | 107 |
 | DialogRestore | 113 |
-| ErrorCorrection | 253 |
+| ErrorCorrection | 254 |
 | FindTheOdd | 138 |
 | Matching | 132 |
-| Microtopic | 271 |
+| Microtopic | 272 |
 | MultipleChoice·CHOICE | 259 |
-| MultipleChoice·FORWARD_CHOICE | 286 |
-| MultipleChoice·REVERSE_CHOICE | 123 |
+| MultipleChoice·FORWARD_CHOICE | 287 |
+| MultipleChoice·REVERSE_CHOICE | 124 |
 | TableFill | 53 |
 | TextInput | 137 |
-| Topic | 41 |
+| Topic | 42 |
 | Transformation | 122 |
-| TrueFalse | 259 |
+| TrueFalse | 260 |
 | WordArrangement | 237 |
 | course_word | 945 |
 
@@ -423,6 +423,18 @@
 - Topic: 29–29 (1)
 - Transformation: 77–77 (1)
 - TrueFalse: 185–185 (1)
+
+### future-continuous
+- Card: 726–727 (2)
+- Categorization: 162–162 (1)
+- Category: 8–8 (1)
+- ConstructionMeaning: 106–106 (1)
+- ErrorCorrection: 253–253 (1)
+- Microtopic: 271–271 (1)
+- MultipleChoice·FORWARD_CHOICE: 286–286 (1)
+- MultipleChoice·REVERSE_CHOICE: 123–123 (1)
+- Topic: 41–41 (1)
+- TrueFalse: 259–259 (1)
 
 ### basics
 - Card: 1–70 (70)

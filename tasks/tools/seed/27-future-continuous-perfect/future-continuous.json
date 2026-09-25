@@ -1,0 +1,821 @@
+{
+  "grammar_topics": [
+    {
+      "id": 41,
+      "title": "Future Continuous",
+      "order": 1,
+      "isPretopic": false,
+      "description": "Что будет идти в нужный момент будущего: will be + -ing — процесс в точке, ход дел «само собой», вежливый вопрос о планах и чем это время отличается от will",
+      "categoryId": 8,
+      "searchKeywords": "будущее длительное, будущее продолженное, will be doing, will или will be -ing, буду делать по-английски"
+    }
+  ],
+  "grammar_topic_categories": [
+    {
+      "id": 8,
+      "title": "Future: Continuous и Perfect",
+      "description": "Последние времена будущего: что будет идти в нужный момент, что к нему уже будет сделано и что к нему будет тянуться",
+      "order": 27
+    }
+  ],
+  "grammar_microtopics": [
+    {
+      "id": 271,
+      "topicId": 41,
+      "title": "What Is Future Continuous · Что такое Future Continuous",
+      "order": 1,
+      "searchKeywords": "буду делать или сделаю, часто ли говорят носители, можно ли обойтись без него, почему так поздно в курсе"
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 726,
+      "microtopicId": 271,
+      "title": "Будущее, которое уже идёт",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Эту фразу мы уже встречали — в теме «Служебные глаголы», когда смотрели, как служебные слова складываются друг с другом: **This time tomorrow I'll be flying to Madrid.** Завтра в это время я буду лететь в Мадрид."
+        },
+        {
+          "type": "paragraph",
+          "text": "Тогда это было превью на одну карточку. Теперь у фразы своя тема. Future Continuous — будущее время, которое показывает не событие, а **процесс**: что будет идти в нужный момент."
+        },
+        {
+          "type": "heading",
+          "text": "Событие целиком или процесс в разгаре"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравним две фразы про один и тот же полёт:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll fly to Madrid tomorrow.** — событие целиком: завтра полечу. В какую минуту я буду в воздухе, неважно — важно, что это случится.",
+            "**This time tomorrow I'll be flying to Madrid.** — процесс: завтра в эту минуту полёт будет идти, и я буду внутри него."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "У нового времени есть и вторая сторона. Оно говорит ещё о том, что **уже идёт своим ходом**: стоит в планах, и прямо сейчас никто ничего не решает. **I'll be passing the shop anyway** — я всё равно буду проходить мимо магазина, так уж выходит по дороге."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + be + -ing"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Одна форма на все лица: **I'll be flying**, **she'll be flying**, **they'll be flying**. После `will` всегда стоит базовая форма, поэтому связка здесь голая `be`, а не is или are, — это мы видели ещё в превью. И все три части обязательны: **She'll be working** ✓, а **She'll working** ✗ и **She'll be work** ✗ не скажет никто."
+        },
+        {
+          "type": "paragraph",
+          "text": "Подробно собирать форму будем в следующей микротеме — сейчас важнее понять, зачем она вообще нужна."
+        },
+        {
+          "type": "heading",
+          "text": "Одиннадцатый образ: эфир по сетке вещания"
+        },
+        {
+          "type": "paragraph",
+          "text": "У каждого времени в курсе свой образ — где стоит камера и что она снимает. Вот весь ряд, и в конце новый:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Present Simple — **анкета**: кто ты вообще и что у тебя по жизни.",
+            "Present Continuous — **прямой эфир**: камера включена, действие идёт прямо сейчас.",
+            "Past Simple — **фотография в альбоме**: момент случился, снят и лежит в прошлом.",
+            "Past Continuous — **видеозапись на паузе**: плёнку отмотали в точку прошлого и остановили посреди действия.",
+            "Future Simple с will — **кадр, которого ещё не сняли**: он существует только в словах говорящего.",
+            "Future с going to — **сценарий уже подписан**: съёмка стоит в графике, всё готово заранее.",
+            "Present Perfect — **след в сегодняшнем кадре**: камера снимает «сейчас», но по кадру видно, что случилось раньше.",
+            "Present Perfect Continuous — **дубль, который ещё не остановили**: камера пишет с прошлого момента и до этой секунды.",
+            "Past Perfect — **флешбэк с титром «ранее»**: камера стоит в прошлом, и оттуда нам показывают вставку ещё раньше.",
+            "Past Perfect Continuous — **длинный флешбэк, который доигрывает до сцены**: вставку показали целиком, и она тянется вплотную к кадру.",
+            "Future Continuous — **эфир по сетке вещания**: передача уже стоит в программе на завтра, включишь в назначенный час — она идёт."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Present Continuous был прямым эфиром. Future Continuous — тот же эфир, только завтрашний. Передачу заранее поставили в программу на восемь вечера, и в восемь она пойдёт, что бы мы ни решали сегодня."
+        },
+        {
+          "type": "paragraph",
+          "text": "В этом образе видны обе стороны нового времени. Включишь телевизор в нужную минуту — застанешь передачу в разгаре: это процесс в точке. А в программу её поставили заранее, и она выйдет сама, по графику: это ход дел, который уже заведён."
+        },
+        {
+          "type": "heading",
+          "text": "Разве полка времён не закрыта?"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Условных предложениях» мы сказали, что полка времён закрыта, а в микротеме «Карта будущего» — что всё, чем английский говорит о будущем на том уровне, уже разобрано. Оба раза это было правдой: основные времена пройдены, и о будущем уже можно сказать почти всё."
+        },
+        {
+          "type": "paragraph",
+          "text": "Последние три времени курса — не новая полка, а второй слой поверх знакомого. Берём `will` и надеваем на него то, что уже знаем по настоящему и прошлому: у Future Continuous это `be + -ing`, у двух следующих тем раздела — `have + V3` и `have been + -ing`. Камера новая, а детали у неё все старые."
+        },
+        {
+          "type": "heading",
+          "text": "Что мы уже знаем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Почти всё, из чего собрано новое время, нам знакомо:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**This time tomorrow I'll be flying to Madrid.** — превью этого времени, из «Служебных глаголов»",
+            "**I'm working**, **I was working**, **I've been working** — связка и `-ing`, сердце всех Continuous",
+            "**I'll call**, **I won't call** — будущее с will и его сокращения, из Future Simple",
+            "**I'll be busy**, **I'll be at home** — `will be` с признаком и местом, из микротемы «Будущее с to be»",
+            "**I was cooking when you called** — процесс-фон и событие на его фоне, из Past Continuous",
+            "**He must be sleeping** — модальный, связка и `-ing`, из «Модальных глаголов»; там же мы видели, что для **will be doing** в общей схеме уже есть готовое место"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Честно о частоте"
+        },
+        {
+          "type": "paragraph",
+          "text": "Future Continuous заметно реже, чем will, going to и Present Continuous о планах. Почти любую мысль о будущем можно сказать и без него — носитель поймёт. Но есть места, где носитель берёт именно это время:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "процесс в конкретную минуту — **At nine I'll be driving to work.**",
+            "вежливые вопросы и речь сервиса — **Will you be paying by card?**",
+            "объявления и деловые письма — **We'll be landing in twenty minutes.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому учим его не ради редкой красоты, а чтобы понимать официанта, стюардессу и деловое письмо — и чтобы самим сказать про нужную минуту так, как скажет носитель."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В разговорном американском английском вместо этого времени часто звучит `going to be + -ing`: **I'm going to be working all weekend.** Смысл тот же."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему тема стоит так поздно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ни одной базовой фразе о будущем это время не нужно: «позвоню», «собираюсь купить», «встречаюсь в шесть» мы говорили без него. А держится оно сразу на многом — на will, на Continuous, на правиле «после when — настоящее», на модальных догадках, на страдательном залоге и на пересказе. В каждом из этих мест у него есть своя роль, поэтому и встаёт оно после всех них."
+        },
+        {
+          "type": "heading",
+          "text": "Обещания, которые мы давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "По ходу курса мы несколько раз останавливались и говорили: «разберём в теме Future Continuous». Вот эти вопросы — ответы ждут в микротемах этой темы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "В «Служебных глаголах» остался вопрос: чем **I will travel** отличается от **I will be travelling**?",
+            "В Present Continuous договорённость звучала так: **I'm meeting Ben at six.** А что тогда значит **I'll be meeting Ben at six**?",
+            "В «Страдательном залоге: все формы» осталась пустая клетка **will be being done**. Почему язык её почти не говорит — и как сказать «дом будет строиться всё лето»?",
+            "В «Косвенной речи» мы обещали пересказ этого времени. Во что превратится **I'll be waiting** в устах другого человека?",
+            "В «Условных предложениях» мелькнула форма **we wouldn't be arguing about it now**. Что это за `would be + -ing`?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Карта темы"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Микротема",
+            "Что даст",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Как собрать",
+              "формула, отрицание, вопрос",
+              "Will you be working?"
+            ],
+            [
+              "Процесс в точке",
+              "что будет идти в нужную минуту",
+              "At 8 I'll be having dinner"
+            ],
+            [
+              "Само собой и вежливо",
+              "ход дел, объявления, вопрос о планах",
+              "Will you be using the car?"
+            ],
+            [
+              "Русское «буду»",
+              "куда его девать, если не сюда",
+              "I'll try"
+            ],
+            [
+              "Догадки",
+              "что человек делает сейчас",
+              "She'll be sleeping now"
+            ],
+            [
+              "Пересказ и условные",
+              "would be + -ing",
+              "I thought you'd be sleeping"
+            ],
+            [
+              "Пассив",
+              "будет закрыт или закрывается",
+              "will be closed ↔ will be closing"
+            ],
+            [
+              "Событие или процесс",
+              "will или will be + -ing",
+              "I'll call ↔ I'll be calling"
+            ],
+            [
+              "Живая практика",
+              "всё вместе с ИИ",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Will + глагол` — событие целиком, `will be + -ing` — процесс в разгаре или ход дел, который уже заведён. К этой паре будет возвращаться каждая микротема."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Future Continuous показывает не событие, а процесс: что будет идти в нужный момент. Образ — эфир по сетке вещания: передача уже стоит в программе, включишь в назначенный час — она идёт."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + be + -ing"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три части — все обязательны"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Связка после will голая: **He will be working** ✓, **He will is working** ✗",
+            "**She'll working** ✗ и **She'll be work** ✗ → **She'll be working** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Событие или процесс"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll fly to Madrid tomorrow.** — событие целиком: полечу",
+            "**This time tomorrow I'll be flying to Madrid.** — процесс: буду в полёте"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где носитель берёт это время"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Процесс в конкретную минуту",
+            "Вежливые вопросы и речь сервиса",
+            "Объявления и деловые письма"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Завтра в это время я буду лететь в Мадрид.",
+          "en": "This time tomorrow I'll be flying to Madrid."
+        },
+        {
+          "ru": "Завтра я полечу в Мадрид.",
+          "en": "I'll fly to Madrid tomorrow."
+        },
+        {
+          "ru": "В девять я буду ехать на работу.",
+          "en": "At nine I'll be driving to work."
+        },
+        {
+          "ru": "Вы будете платить картой?",
+          "en": "Will you be paying by card?"
+        },
+        {
+          "ru": "Через двадцать минут мы будем приземляться.",
+          "en": "We'll be landing in twenty minutes."
+        },
+        {
+          "ru": "Я буду работать все выходные.",
+          "en": "I'm going to be working all weekend."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем «буду лететь» отличается от «полечу»?",
+        "Если без этого времени можно обойтись, зачем его учить?",
+        "Почему здесь be, если will уже делает фразу будущей?"
+      ]
+    },
+    {
+      "id": 727,
+      "microtopicId": 271,
+      "title": "Почему «буду делать» подводит",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Главный источник путаницы с этим временем — не сам английский, а русское слово «буду». Кажется, что правило простое: видишь «буду делать» — ставишь will be + `-ing`. Такое правило будет подводить постоянно, и вот почему."
+        },
+        {
+          "type": "heading",
+          "text": "Одно «буду» — три смысла"
+        },
+        {
+          "type": "paragraph",
+          "text": "Прочитайте три фразы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«В восемь я буду ужинать — позвони попозже.»",
+            "«Решено: буду учить английский.»",
+            "«Буду звонить тебе каждый день, обещаю.»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма везде одна: «буду» плюс глагол. А сказано три разных вещи:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Русская фраза",
+            "Что сказано на самом деле",
+            "По-английски"
+          ],
+          "rows": [
+            [
+              "В восемь буду ужинать",
+              "в ту минуту буду за столом",
+              "At eight I'll be having dinner"
+            ],
+            [
+              "Буду учить английский",
+              "у меня такое намерение",
+              "I'm going to learn English"
+            ],
+            [
+              "Буду звонить каждый день",
+              "обещаю, так будет всегда",
+              "I'll call you every day"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Future Continuous забирает себе только первый смысл — процесс, который будет идти в конкретную минуту. Намерение английский говорит через going to, обещание и привычку — через will. Оба способа мы уже знаем по темам о будущем."
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему русскому языку хватает одной формы? Будущее от глаголов вроде «делать», «звонить», «ужинать» в русском собирается всегда одинаково — «буду» плюс глагол, а смысл достраивает обстановка: «в восемь» подсказывает минуту, «решено» — намерение, «каждый день» — повтор. В английском у каждого смысла своя форма, и выбирает её говорящий."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сказать **I'll be learning English** или **I'll be calling you every day** — не грамматическая ошибка. Просто английское ухо услышит другое сообщение: не решение и не обещание, а спокойный рассказ о том, как пойдут дела. Где проходит эта граница, разберём в микротеме «Процесс в будущей точке»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Противоречия нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "В микротеме «Будущее с to be» мы разбирали ловушку **I will be call you tomorrow** ✗ → **I will call you tomorrow** ✓. Русское «буду» перед глаголом — не слово «быть», а кусочек будущего времени, и `will` его уже вмещает. А теперь появилась форма, где после `will` всё-таки стоит `be`. Правило сломалось?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Нет — оно стало полнее. Там же мы оставили заметку: у «буду работать» бывает второй смысл, «в какой-то момент буду в процессе работы». Вот два смысла рядом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Ладно, буду работать быстрее, обещаю» — обещание, событие целиком: **OK, I'll work faster, I promise.**",
+            "«Не звони в три — буду работать» — процесс в ту минуту: **Don't call at three — I'll be working.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После `will` связка `be` встаёт только в двух случаях, третьего нет:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "справа признак, место или роль — **I'll be busy**, **I'll be at home**; это мы знаем;",
+            "справа форма на `-ing` — **I'll be working**; это новое."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Голый глагол после will be не встаёт никогда. **I'll be work late** ✗ → **I'll work late** ✓ или **I'll be working late** ✓ — смотря что хотим сказать: событие или процесс."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему be возвращается вместе с -ing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Посмотрите, как такую фразу можно перевести дословно:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll be flying.** — дословно «я буду в полёте», по-живому «я буду лететь».",
+            "**I'll be driving.** — дословно «я буду за рулём», по-живому «я буду ехать»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма на `-ing` после связки описывает процесс, в котором человек находится, — так же, как «дома» или «занят» описывают место и состояние. Поэтому `be` и возвращается: не ради русского «буду», а ради того, что стоит справа. С этой точки зрения **I'll be working** устроено точно так же, как **I'll be busy**, которое мы уже умеем говорить."
+        },
+        {
+          "type": "heading",
+          "text": "Где ещё споткнёмся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «буду» встречается и там, где английский не зовёт ни это время, ни will с глаголом. Прикиньте, как бы вы сказали:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Будешь чай?» — почему **Will you be tea?** ✗ не скажет никто?",
+            "«Буду благодарен за ответ» — в письме носитель чаще скажет не через `I'll be`. А как?",
+            "«Не буду!» — упрямое «не хочу и не стану». Какое тут будущее?",
+            "А бывает и наоборот. «Вы надолго к нам?» — никакого «буду» во фразе нет, а на паспортном контроле спросят именно этим временем. Каким вопросом?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ответы — в микротеме про русское «буду». А начнём с формы: в следующей микротеме соберём `will be + -ing` по деталям — утверждение, отрицание и вопрос."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Из трёх смыслов русского «буду делать» это время берёт только один — процесс в конкретную минуту. После `will` связка `be` стоит только перед признаком, местом или формой на `-ing`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «буду + глагол» — три смысла в одной форме. Future Continuous берёт только первый."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "В ту минуту буду за делом → **At eight I'll be having dinner**",
+            "Намерение → **I'm going to learn English**",
+            "Обещание, привычка → **I'll call you every day**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда после will стоит be"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Признак, место, роль: **I'll be busy**, **I'll be at home**",
+            "Форма на -ing: **I'll be working**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll be work late** ✗ → **I'll work late** ✓ или **I'll be working late** ✓ — голого глагола после will be нет"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "В восемь я буду ужинать.",
+          "en": "At eight I'll be having dinner."
+        },
+        {
+          "ru": "Я буду учить английский.",
+          "en": "I'm going to learn English."
+        },
+        {
+          "ru": "Я буду звонить тебе каждый день.",
+          "en": "I'll call you every day."
+        },
+        {
+          "ru": "Ладно, я буду работать быстрее.",
+          "en": "OK, I'll work faster."
+        },
+        {
+          "ru": "Не звони в три — я буду работать.",
+          "en": "Don't call at three — I'll be working."
+        },
+        {
+          "ru": "После обеда я буду дома.",
+          "en": "I'll be at home after lunch."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, какое «буду» у меня во фразе?",
+        "Почему «буду занят» — с be, а «буду звонить» — без?",
+        "Что услышит англичанин, если сказать I'll be calling you every day?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 726,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 106,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 726,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 123,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 726,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 259,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 727,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 162,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 727,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 286,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 727,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 253,
+      "orderInCard": 2
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "tenses",
+      "nameRus": "Времена",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "tenses",
+      "nameRus": "Слова из времён",
+      "groupId": "tenses",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 259,
+      "statements": [
+        {
+          "en": "At noon Kate will be having lunch.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He will is working at midnight.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "We'll be sitting in the garden at five.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They'll flying to Rome at noon.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Dad will be cook dinner at seven.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "после will всегда стоит базовая форма, поэтому связка здесь только be, а не is: He will be working. И все три части обязательны: без be не обойтись — They'll be flying, а глагол после be получает -ing — Dad will be cooking."
+    }
+  ],
+  "word_arrangement_exercises": [],
+  "multiple_choice_exercises": [
+    {
+      "id": 123,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Don't call me after ten — I'll be sleeping.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Не звони мне после десяти — я засну.",
+          "isCorrect": false
+        },
+        {
+          "text": "Не звони мне после десяти — я спал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Не звони мне после десяти — я уже буду спать.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "I'll be sleeping — после десяти сон будет идти, человек будет в процессе, поэтому и просит не звонить. «Я засну» — событие, оно случилось бы один раз, а не шло бы весь вечер. «Я спал» — прошедшее."
+    },
+    {
+      "id": 286,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Не приходи в семь — я буду мыть машину.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Don't come at seven — I'll wash the car.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't come at seven — I'll be washing the car.",
+          "isCorrect": true
+        },
+        {
+          "text": "Don't come at seven — I'll be wash the car.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в семь мытьё будет идти, поэтому человек и просит не приходить: I'll be washing. I'll wash — событие целиком, «в семь помою». После will be голый глагол не встаёт — нужна форма на -ing."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 253,
+      "wrongSentence": "Kate will be help us on Saturday.",
+      "options": [
+        {
+          "text": "Kate will help us on Saturday.",
+          "isCorrect": true
+        },
+        {
+          "text": "Kate will be helps us on Saturday.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kate will helping us on Saturday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после will be голый глагол не встаёт: либо событие — Kate will help, либо процесс — Kate will be helping. В остальных вариантах связка стоит перед глаголом с -s, а форме на -ing не хватает be."
+    }
+  ],
+  "construction_meaning_exercises": [
+    {
+      "id": 106,
+      "construction": "At six Lena will be baking a cake.",
+      "options": [
+        {
+          "text": "В шесть Лена испечёт торт.",
+          "isCorrect": false
+        },
+        {
+          "text": "В шесть Лена уже будет печь торт.",
+          "isCorrect": true
+        },
+        {
+          "text": "В шесть Лена начнёт печь торт.",
+          "isCorrect": false
+        },
+        {
+          "text": "В шесть Лена пекла торт.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "will be baking — процесс: в шесть Лена уже будет стоять у духовки и печь, дело будет в разгаре. «Начнёт печь» и «испечёт» — это событие, его английский сказал бы через will bake. «Пекла» — прошедшее, а здесь речь о будущем."
+    }
+  ],
+  "transformation_exercises": [],
+  "categorization_exercises": [
+    {
+      "id": 162,
+      "taskDescription": "разложи фразы по смыслу слова «буду»",
+      "categories": [
+        {
+          "title": "Процесс в ту минуту",
+          "items": [
+            "в полночь уже буду спать",
+            "в десять буду ещё ехать",
+            "не звони: буду смотреть матч",
+            "в два буду сидеть на совещании"
+          ]
+        },
+        {
+          "title": "Намерение, обещание, привычка",
+          "items": [
+            "буду бегать по утрам",
+            "с осени буду ходить в бассейн",
+            "каждый вечер буду гулять с собакой",
+            "обещаю, буду помогать"
+          ]
+        }
+      ],
+      "explanation": "процесс в ту минуту — к названному часу человек уже будет за делом: спать, ехать, смотреть, сидеть на совещании; по-английски это will be + -ing. Намерение говорят через going to, обещание и привычку — через will."
+    }
+  ],
+  "find_the_odd_exercises": []
+}
