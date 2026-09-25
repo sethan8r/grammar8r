@@ -8200,20 +8200,21 @@ theory/
 │   │   │       have «ест/проводит» ✓ / «иметь» ✗ · It'll be raining · мгновенный глагол меняет смысл:
 │   │   │       At 8 the train will be arriving (подъезжает / по графику).
 │   │   │
-│   │   ├── МТ · At That Moment · Процесс в будущей точке  (3 карточки; слив 5) ← СЕРДЦЕ ТЕМЫ
-│   │   │   ├── Card · Точка во времени
-│   │   │   │   this time tomorrow · at 8 tomorrow · in an hour. Зеркало Past Continuous, проверка
+│   │   ├── МТ273 · At That Moment · Процесс в будущей точке  (3 карточки; слив 5) ✅ (написана, ALL GREEN 25.09.26) ← СЕРДЦЕ ТЕМЫ
+│   │   │   ├── Card 732 · Точка во времени
+│   │   │   │   this time tomorrow · at 8 tomorrow · in an hour (after an hour ✗). Зеркало Past Continuous, проверка
 │   │   │   │   «войду в эту минуту — застану за делом?». ⭐ Пара, медленно: At 8 I'll have dinner (в 8
-│   │   │   │   начну) ↔ At 8 I'll be having dinner (в 8 уже за столом) + банк 4–5 русских
+│   │   │   │   начну) ↔ At 8 I'll be having dinner (в 8 уже за столом) + банк 4 русских
 │   │   │   │   двусмысленностей («в 8 я буду ужинать»). «Уже буду спать» → I'll be asleep.
-│   │   │   │   ⭐ How long will you be staying? (отель, граница). AI (момент → что будет идти, GENERAL).
-│   │   │   ├── Card · Фон для будущего события
+│   │   │   │   AI (момент → что будет идти, GENERAL).
+│   │   │   ├── Card 733 · Фон для будущего события
 │   │   │   │   I'll be cooking when you arrive ↔ When you arrive, I'll make dinner (начну после).
 │   │   │   │   В придаточном — настоящее: «пока ты будешь спать» → while you're sleeping ✓ ·
 │   │   │   │   when you will be arriving ✗. Строкой: в косвенном вопросе will остаётся (I don't know
 │   │   │   │   when he'll be arriving). AI (две русские фразы → одно английское с when, GENERAL).
-│   │   │   └── Card · Будущий отрезок и временная серия
-│   │   │       all day tomorrow · from 9 to 5 · два процесса параллельно. Временная серия в рамке:
+│   │   │   └── Card 734 · Будущий отрезок и временная серия
+│   │   │       all day tomorrow · from 9 to 5 · два процесса параллельно. ⭐ How long will you be staying?
+│   │   │       (отель, граница — вопрос про отрезок). Временная серия в рамке:
 │   │   │       I'll be working nights next month ↔ привычка, зарок, обещание → will (I'll call you every
 │   │   │       day). ⚠️ Граница — «само идёт в этот период» ↔ «обещаю/решил», а НЕ «повтор ↔ процесс».
 │   │   │
