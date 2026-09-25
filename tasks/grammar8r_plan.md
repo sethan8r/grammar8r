@@ -8265,14 +8265,16 @@ theory/
 │   │   │       we'll be sitting in traffic · If I were rich, I'd be lying on a beach now · смешанный тип —
 │   │   │       возврат к Card 501 (там форма стояла без объяснения).
 │   │   │
-│   │   ├── МТ · Passive · Будущее и страдательный залог  (2 карточки; слив 5) ← ОБЕЩАНО В PASSIVE-2
-│   │   │   ├── Card · Три хвоста после will be
+│   │   ├── МТ278 · Passive · Будущее и страдательный залог  (2 карточки; слив 5) ✅ (написана, ALL GREEN 25.09.26) ← ОБЕЩАНО В PASSIVE-2
+│   │   │   ├── Card 744 · Три хвоста после will be
 │   │   │   │   The shop will be closing (процесс) / will be closed (состояние, пассив) / will close
 │   │   │   │   (событие) — флажок чтения. get-пассив строкой: He'll be getting paid.
-│   │   │   └── Card · «Будет строиться всё лето»
+│   │   │   └── Card 745 · «Будет строиться всё лето»
 │   │   │       Русское -ся + несов. тянет в `will be being built`. Форма редкая, сами её не строим →
 │   │   │       They'll be building it all summer · It'll be under construction · closed for repairs.
 │   │   │       Каркас модальных закрыт: must be doing ↔ will be doing — одна клетка, обещанная строка встала.
+│   │   │       AI «Будет строиться — по-живому» (русская фраза с «-ся» → they'll be -ing / under construction /
+│   │   │       will be + V3, GENERAL).
 │   │   │
 │   │   ├── МТ · will do or will be doing · Событие или процесс  (3 карточки; слив 5) ← предпоследняя
 │   │   │   ├── Card · Одна сцена — две картинки

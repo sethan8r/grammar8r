@@ -67,6 +67,13 @@
       "title": "would be doing · Пересказ, мысли и условные",
       "order": 7,
       "searchKeywords": "he said he'd be waiting, 'd be или 'd been, пересказ будущего процесса, i thought you'd be sleeping, что значит would be doing"
+    },
+    {
+      "id": 278,
+      "topicId": 41,
+      "title": "Passive · Будущее и страдательный залог",
+      "order": 8,
+      "searchKeywords": "will be closed или closing, будет строиться по-английски, will be being done, under construction, пассив в будущем"
     }
   ],
   "grammar_cards": [
@@ -3810,6 +3817,330 @@
         "Чем I'd live by the sea отличается от I'd be lying on a beach?",
         "Как понять, когда в условном нужен процесс?"
       ]
+    },
+    {
+      "id": 744,
+      "microtopicId": 278,
+      "title": "Три хвоста после will be",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Эта микротема закрывает два старых долга. Но сначала — ловушка, в которую легко попасть, когда в теме столько `will be`."
+        },
+        {
+          "type": "heading",
+          "text": "Одна табличка — три сообщения"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop will be closing at nine.** — в девять магазин будет закрываться: покупателей выпроваживают, идёт закрытие",
+            "**The shop will be closed on Sunday.** — в воскресенье магазин будет закрыт",
+            "**The shop will close at nine.** — магазин закроется в девять"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Начало почти одинаковое, а сказано разное. Разницу держит одно место — то, что стоит сразу после `be`."
+        },
+        {
+          "type": "heading",
+          "text": "Смотрим, что стоит после be"
+        },
+        {
+          "type": "table",
+          "header": [
+            "После will be",
+            "Что сообщает",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "форма на -ing",
+              "процесс или ход дел — наше время",
+              "will be closing"
+            ],
+            [
+              "V3",
+              "над ним сделают или он будет в таком состоянии — пассив",
+              "will be closed"
+            ],
+            [
+              "be нет вовсе",
+              "событие целиком",
+              "will close"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Эту проверку мы уже делали в микротеме «Как собрать Future Continuous», когда отличали наше время от двойников вроде **I'll be back**. Здесь к ней добавляется ещё одна полка — V3. Это знакомый пассив из «Страдательного залога: все формы»."
+        },
+        {
+          "type": "heading",
+          "text": "Кто делает и что сделают"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Workers will be installing the new lift all week.** — всю неделю рабочие будут монтировать новый лифт",
+            "**The new lift will be installed next week.** — новый лифт будет установлен на следующей неделе"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В первой фразе на сцене рабочие и процесс, во второй — лифт и результат. Русский здесь подсказывает сам: «будут монтировать» — процесс, «будет установлен» — итог."
+        },
+        {
+          "type": "paragraph",
+          "text": "В том же доме висит объявление: **Parking will be free on Sunday** — в воскресенье парковка будет бесплатной. После `be` стоит признак, ни `-ing`, ни V3 — значит, это просто будущее от to be."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Голый глагол после `be` не встаёт. **The shop will be close at nine** ✗ → **The shop will close at nine** ✓ или **The shop will be closing at nine** ✓. И наоборот, пассиву нужна связка: **The lift will installed** ✗ → **The lift will be installed** ✓."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рядом живёт get-пассив, и с ним длительная форма звучит нормально: **He'll be getting paid next week** — на следующей неделе ему заплатят. Двух `be` подряд здесь нет — вторую работу делает `get`, как в теме «Глагол get — часть 1»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После `will be` решает то, что стоит дальше."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**-ing** → процесс: **The shop will be closing at nine**",
+            "**V3** → пассив или состояние: **The shop will be closed on Sunday**",
+            "Без **be** → событие: **The shop will close at nine**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The shop will be close** ✗ → **will close** ✓ или **will be closing** ✓",
+            "**The lift will installed** ✗ → **The lift will be installed** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "В девять магазин будет закрываться.",
+          "en": "The shop will be closing at nine."
+        },
+        {
+          "ru": "В воскресенье магазин будет закрыт.",
+          "en": "The shop will be closed on Sunday."
+        },
+        {
+          "ru": "Магазин закроется в девять.",
+          "en": "The shop will close at nine."
+        },
+        {
+          "ru": "Всю неделю рабочие будут монтировать новый лифт.",
+          "en": "Workers will be installing the new lift all week."
+        },
+        {
+          "ru": "Новый лифт будет установлен на следующей неделе.",
+          "en": "The new lift will be installed next week."
+        },
+        {
+          "ru": "В воскресенье парковка будет бесплатной.",
+          "en": "Parking will be free on Sunday."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить will be closing от will be closed?",
+        "Почему The shop will be close — ошибка?",
+        "Чем He'll be getting paid отличается от обычного пассива?"
+      ]
+    },
+    {
+      "id": 745,
+      "microtopicId": 278,
+      "title": "«Будет строиться всё лето»",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Вторая половина долга — фраза, которую русский человек строит очень охотно, а английский почти не говорит."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда тянет"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Дом будет строиться всё лето», «станция будет ремонтироваться до мая». Рука собирает английскую фразу по кусочкам: «будет» — это `will`, «-ся» — пассив `be` + V3, а длительность — ещё одно `being`. Выходит **The house will be being built all summer.**"
+        },
+        {
+          "type": "heading",
+          "text": "Пустая клетка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эту форму мы уже встречали в «Страдательном залоге: все формы» — как пустую клетку в таблице. Собрана она по правилам, но английский её почти не говорит: связка стоит два раза подряд, `be being`, и фраза тяжелеет. Тогда мы обещали вернуться к ней в этой теме — вот и вернулись. Сами такую форму не строим."
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему русскому языку проще? В русском «-ся» делает пассив одним словом, а длительность сидит внутри того же глагола: «строиться» уже значит «находиться в процессе постройки». В английском длительность и пассив — два отдельных слоя, `be + -ing` и `be + V3`. Надевать их оба сразу язык не любит — и выбирает один."
+        },
+        {
+          "type": "heading",
+          "text": "Как говорят вместо"
+        },
+        {
+          "type": "paragraph",
+          "text": "Носитель выбирает один из трёх способов:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Длительность важна — актив с безличным they.** **They'll be building the house all summer** — дом будут строить всё лето; **They'll be renovating the station until May** — станцию будут ремонтировать до мая. `they` здесь — безличные «они», как в русском «строят», «ремонтируют» без подлежащего.",
+            "**Нужно состояние — существительное вместо глагола.** **The house will be under construction all summer** — всё лето дом будет строиться. `under construction` — дословно «под строительством», по-живому «идёт стройка». Так же: **The road will be closed for repairs** — дорога будет закрыта на ремонт.",
+            "**Длительность неважна — простой пассив.** **The old windows will be replaced next month** — старые окна будут заменены в следующем месяце."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The station will be being renovated until May** ✗ → **They'll be renovating the station until May** ✓. Форма собрана по правилам, но так почти не говорят: две связки подряд."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Каркас модальных закрыт"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Модальных глаголах» мы собирали каркас: `must do`, `must be doing`, `must have done` — и обещали, что `will be doing` встанет в него на готовое место. Встало:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Модальный",
+            "will"
+          ],
+          "rows": [
+            [
+              "must do",
+              "will do"
+            ],
+            [
+              "must be doing",
+              "will be doing"
+            ],
+            [
+              "must be done",
+              "will be done"
+            ],
+            [
+              "must have done",
+              "will have done"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Три строки уже наши. Последняя, `will have done`, ждёт в теме «Future Perfect». Сборка одна на все случаи: после первого слова — всегда базовая форма."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "«Будет строиться» по-английски — не **will be being built**: две связки подряд, так почти не говорят. Берём одно из трёх:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Длительность важна → актив: **They'll be building it all summer**",
+            "Состояние → существительное: **It'll be under construction**, **closed for repairs**",
+            "Длительность неважна → пассив: **The windows will be replaced next month**",
+            "Деятель назван → обычный процесс: **Workers will be installing the lift all week**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Каркас"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**must be doing** ↔ **will be doing** — одна сборка"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**will be being renovated** ✗ → **They'll be renovating it** ✓ — так почти не говорят"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Дом будут строить всё лето.",
+          "en": "They'll be building the house all summer."
+        },
+        {
+          "ru": "Станцию будут ремонтировать до мая.",
+          "en": "They'll be renovating the station until May."
+        },
+        {
+          "ru": "Всё лето дом будет строиться.",
+          "en": "The house will be under construction all summer."
+        },
+        {
+          "ru": "Дорога будет закрыта на ремонт.",
+          "en": "The road will be closed for repairs."
+        },
+        {
+          "ru": "Старые окна будут заменены в следующем месяце.",
+          "en": "The old windows will be replaced next month."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему нельзя сказать will be being built?",
+        "Что значит under construction?",
+        "Как понять, когда нужен актив с they, а когда пассив?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4154,6 +4485,42 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 264,
       "orderInCard": 2
+    },
+    {
+      "cardId": 744,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 167,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 744,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 115,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 744,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 260,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 745,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 292,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 745,
+      "exerciseType": "MATCHING",
+      "exerciseId": 134,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 745,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 265,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -4212,6 +4579,14 @@
       "userInstruction": "ИИ пришлёт реплику человека. Перескажите её одним предложением через said или asked.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "future_continuous_card745_ex1",
+      "cardId": 745,
+      "title": "Будет строиться — по-живому",
+      "userInstruction": "ИИ даст русскую фразу про стройку, ремонт или замену. Скажите её по-английски так, как сказал бы носитель.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -4470,6 +4845,46 @@
       "transcription": "[dɪˈleɪ]",
       "microtopicId": 277,
       "categoryId": "tenses"
+    },
+    {
+      "id": 975,
+      "word": "to install",
+      "translation": "устанавливать, монтировать",
+      "transcription": "[tuː ɪnˈstɔːl]",
+      "microtopicId": 278,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 976,
+      "word": "to renovate",
+      "translation": "ремонтировать, обновлять",
+      "transcription": "[tuː ˈrenəveɪt]",
+      "microtopicId": 278,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 977,
+      "word": "to replace",
+      "translation": "заменять",
+      "transcription": "[tuː rɪˈpleɪs]",
+      "microtopicId": 278,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 978,
+      "word": "construction",
+      "translation": "строительство, стройка",
+      "transcription": "[kənˈstrʌkʃən]",
+      "microtopicId": 278,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 979,
+      "word": "parking",
+      "translation": "парковка, стоянка",
+      "transcription": "[ˈpɑːkɪŋ]",
+      "microtopicId": 278,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -4691,6 +5106,37 @@
         }
       ],
       "explanation": "после would be нужна форма на -ing: I'd be watching the match. А после if would не ставят: If I had a car, I'd be driving now."
+    },
+    {
+      "id": 265,
+      "statements": [
+        {
+          "en": "They'll be painting the kitchen all day.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The kitchen will be being painted all day.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The new park will be opened in June.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The hotel will be under construction until spring.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "The flat will renovated next year.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "will be being painted собрано по правилам, но так почти не говорят — носитель скажет They'll be painting the kitchen all day. Пассиву нужна связка be: The flat will be renovated next year."
     }
   ],
   "word_arrangement_exercises": [
@@ -5130,6 +5576,27 @@
         }
       ],
       "explanation": "мысль в прошлом сдвигает будущее так же, как said: will → would, хвост be + -ing на месте. После 'd стоит голая be, а без неё форма разваливается."
+    },
+    {
+      "id": 292,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мост будет ремонтироваться всю осень.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "The bridge will be being repaired all autumn.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bridge will repairing all autumn.",
+          "isCorrect": false
+        },
+        {
+          "text": "They'll be repairing the bridge all autumn.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "длительность важна — носитель скажет активом с безличным they: они будут ремонтировать. Форма will be being repaired собрана по правилам, но две связки подряд английский почти не говорит. Will repairing без be разваливается."
     }
   ],
   "text_input_exercises": [],
@@ -5297,6 +5764,29 @@
         }
       ],
       "explanation": "каждая фраза передаёт смысл, а не слова: вопрос официанта — «Суп будете?», объявление — «закрываемся», ход дел — «скоро уходим», вечер за работой — «задержусь». Дословное «будем закрывать» или «буду работать поздно» по-русски звучит неловко."
+    },
+    {
+      "id": 134,
+      "taskDescription": "соедини русскую фразу с тем, как её скажет носитель.",
+      "pairs": [
+        {
+          "left": "школа будет строиться",
+          "right": "the school will be under construction"
+        },
+        {
+          "left": "будут ремонтировать всё лето",
+          "right": "they'll be repairing it all summer"
+        },
+        {
+          "left": "окна заменят завтра",
+          "right": "the windows will be replaced tomorrow"
+        },
+        {
+          "left": "кафе будет закрыто",
+          "right": "the café will be closed"
+        }
+      ],
+      "explanation": "«будет строиться» как состояние — under construction; процесс на всё лето — актив they'll be repairing; итог без длительности — пассив will be replaced; «будет закрыто» — будущее от to be с признаком."
     }
   ],
   "error_correction_exercises": [
@@ -5432,6 +5922,25 @@
         }
       ],
       "explanation": "в пересказе вопроса порядок слов прямой: сначала подлежащее, потом would — what I would be doing. Хвост be + -ing при этом остаётся целым."
+    },
+    {
+      "id": 260,
+      "wrongSentence": "The old sofa will taken away on Friday.",
+      "options": [
+        {
+          "text": "The old sofa will be taken away on Friday.",
+          "isCorrect": true
+        },
+        {
+          "text": "The old sofa will be take away on Friday.",
+          "isCorrect": false
+        },
+        {
+          "text": "The old sofa will being taken away on Friday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "диван ничего не делает сам — его увезут, это пассив: will be + V3, will be taken away. Без be пассив разваливается, голое take после be не встаёт, а being после will не ставится."
     }
   ],
   "construction_meaning_exercises": [
@@ -5641,6 +6150,29 @@
         }
       ],
       "explanation": "would be driving — процесс, который шёл бы прямо сейчас: «я бы сейчас ехал». Would drive без be и -ing значило бы «ездил бы вообще». «Когда будет — поеду» — реальное будущее, а «была и ехал» — прошлое без всякого «бы»."
+    },
+    {
+      "id": 115,
+      "construction": "The pool will be closed all weekend.",
+      "options": [
+        {
+          "text": "Бассейн будут закрывать все выходные.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бассейн закроется на выходных.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бассейн закрыли на все выходные.",
+          "isCorrect": false
+        },
+        {
+          "text": "Бассейн будет закрыт все выходные.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после be стоит V3 — значит, это состояние: все выходные бассейн будет в закрытом виде. «Будут закрывать» — процесс, это will be closing; «закроется» — событие, will close; «закрыли» — прошедшее."
     }
   ],
   "transformation_exercises": [
@@ -5791,6 +6323,37 @@
         }
       ],
       "explanation": "согласие и обещание прямо сейчас — will + глагол. Решение, принятое заранее, — going to. Дело, которое в названную минуту или весь отрезок будет идти, — will be + -ing."
+    },
+    {
+      "id": 167,
+      "taskDescription": "разложи фразы по тому, какую английскую форму они просят.",
+      "categories": [
+        {
+          "title": "will be + -ing",
+          "items": [
+            "весь день мастер будет чинить кран",
+            "всё утро рабочие будут красить стены",
+            "в десять кафе будет закрываться"
+          ]
+        },
+        {
+          "title": "will be + V3",
+          "items": [
+            "кран починят завтра",
+            "стены покрасят в пятницу",
+            "кафе будет закрыто на ремонт"
+          ]
+        },
+        {
+          "title": "will + глагол",
+          "items": [
+            "мастер придёт в девять",
+            "рабочие уйдут в пять",
+            "кафе закроется в десять"
+          ]
+        }
+      ],
+      "explanation": "процесс, который будет идти, — will be + -ing: будет чинить, будут красить, будет закрываться. Над предметом сделают или он будет в таком состоянии — пассив will be + V3: починят, покрасят, будет закрыто. Событие целиком — will + глагол: придёт, уйдут, закроется."
     }
   ],
   "find_the_odd_exercises": [

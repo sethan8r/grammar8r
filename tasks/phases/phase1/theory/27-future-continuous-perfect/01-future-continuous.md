@@ -2743,26 +2743,296 @@ B: ___
 
 ---
 
+## Microtopic 278 — Passive · Будущее и страдательный залог
+
+**ID:** 278
+**Теги:** will be closed или closing, будет строиться по-английски, will be being done, under construction, пассив в будущем
+
+---
+
+### Card 744 · Три хвоста после will be
+
+**ID:** 744
+
+#### Theory
+
+Эта микротема закрывает два старых долга. Но сначала — ловушка, в которую легко попасть, когда в теме столько `will be`.
+
+**Одна табличка — три сообщения**
+
+- **The shop will be closing at nine.** — в девять магазин будет закрываться: покупателей выпроваживают, идёт закрытие
+- **The shop will be closed on Sunday.** — в воскресенье магазин будет закрыт
+- **The shop will close at nine.** — магазин закроется в девять
+
+Начало почти одинаковое, а сказано разное. Разницу держит одно место — то, что стоит сразу после `be`.
+
+**Смотрим, что стоит после be**
+
+| После will be | Что сообщает | Пример |
+|---------------|--------------|--------|
+| форма на -ing | процесс или ход дел — наше время | will be closing |
+| V3 | над ним сделают или он будет в таком состоянии — пассив | will be closed |
+| be нет вовсе | событие целиком | will close |
+
+Эту проверку мы уже делали в микротеме «Как собрать Future Continuous», когда отличали наше время от двойников вроде **I'll be back**. Здесь к ней добавляется ещё одна полка — V3. Это знакомый пассив из «Страдательного залога: все формы».
+
+**Кто делает и что сделают**
+
+- **Workers will be installing the new lift all week.** — всю неделю рабочие будут монтировать новый лифт
+- **The new lift will be installed next week.** — новый лифт будет установлен на следующей неделе
+
+В первой фразе на сцене рабочие и процесс, во второй — лифт и результат. Русский здесь подсказывает сам: «будут монтировать» — процесс, «будет установлен» — итог.
+
+В том же доме висит объявление: **Parking will be free on Sunday** — в воскресенье парковка будет бесплатной. После `be` стоит признак, ни `-ing`, ни V3 — значит, это просто будущее от to be.
+
+**Ловушка:** голый глагол после `be` не встаёт. **The shop will be close at nine** ✗ → **The shop will close at nine** ✓ или **The shop will be closing at nine** ✓. И наоборот, пассиву нужна связка: **The lift will installed** ✗ → **The lift will be installed** ✓.
+
+**Кстати:** рядом живёт get-пассив, и с ним длительная форма звучит нормально: **He'll be getting paid next week** — на следующей неделе ему заплатят. Двух `be` подряд здесь нет — вторую работу делает `get`, как в теме «Глагол get — часть 1».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+После `will be` решает то, что стоит дальше.
+
+- **-ing** → процесс: **The shop will be closing at nine**
+- **V3** → пассив или состояние: **The shop will be closed on Sunday**
+- Без **be** → событие: **The shop will close at nine**
+
+**Частые ошибки**
+
+- **The shop will be close** ✗ → **will close** ✓ или **will be closing** ✓
+- **The lift will installed** ✗ → **The lift will be installed** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3438 | В девять магазин будет закрываться. | The shop will be closing at nine. |
+| 3439 | В воскресенье магазин будет закрыт. | The shop will be closed on Sunday. |
+| 3440 | Магазин закроется в девять. | The shop will close at nine. |
+| 3441 | Всю неделю рабочие будут монтировать новый лифт. | Workers will be installing the new lift all week. |
+| 3442 | Новый лифт будет установлен на следующей неделе. | The new lift will be installed next week. |
+| 3443 | В воскресенье парковка будет бесплатной. | Parking will be free on Sunday. |
+
+---
+
+#### Exercises
+
+**Ex 58 · Categorization** *(ID: 167)*
+
+Задание: разложи фразы по тому, какую английскую форму они просят.
+
+| will be + -ing | will be + V3 | will + глагол |
+|----------------|--------------|---------------|
+| весь день мастер будет чинить кран | кран починят завтра | мастер придёт в девять |
+| всё утро рабочие будут красить стены | стены покрасят в пятницу | рабочие уйдут в пять |
+| в десять кафе будет закрываться | кафе будет закрыто на ремонт | кафе закроется в десять |
+
+*Explanation:* процесс, который будет идти, — will be + -ing: будет чинить, будут красить, будет закрываться. Над предметом сделают или он будет в таком состоянии — пассив will be + V3: починят, покрасят, будет закрыто. Событие целиком — will + глагол: придёт, уйдут, закроется.
+
+---
+
+**Ex 59 · ConstructionMeaning** *(ID: 115)*
+
+Выбери правильный перевод:
+
+"The pool will be closed all weekend."
+
+- Бассейн будут закрывать все выходные.
+- Бассейн закроется на выходных.
+- Бассейн закрыли на все выходные.
+- **Бассейн будет закрыт все выходные.** ✓
+
+*Explanation:* после be стоит V3 — значит, это состояние: все выходные бассейн будет в закрытом виде. «Будут закрывать» — процесс, это will be closing; «закроется» — событие, will close; «закрыли» — прошедшее.
+
+---
+
+**Ex 60 · ErrorCorrection** *(ID: 260)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"The old sofa will taken away on Friday."
+
+- **The old sofa will be taken away on Friday.** ✓
+- The old sofa will be take away on Friday.
+- The old sofa will being taken away on Friday.
+
+*Explanation:* диван ничего не делает сам — его увезут, это пассив: will be + V3, will be taken away. Без be пассив разваливается, голое take после be не встаёт, а being после will не ставится.
+
+---
+
+#### Clarification Options
+
+- Как отличить will be closing от will be closed?
+- Почему The shop will be close — ошибка?
+- Чем He'll be getting paid отличается от обычного пассива?
+
+---
+
+### Card 745 · «Будет строиться всё лето»
+
+**ID:** 745
+
+#### Theory
+
+Вторая половина долга — фраза, которую русский человек строит очень охотно, а английский почти не говорит.
+
+**Откуда тянет**
+
+«Дом будет строиться всё лето», «станция будет ремонтироваться до мая». Рука собирает английскую фразу по кусочкам: «будет» — это `will`, «-ся» — пассив `be` + V3, а длительность — ещё одно `being`. Выходит **The house will be being built all summer.**
+
+**Пустая клетка**
+
+Эту форму мы уже встречали в «Страдательном залоге: все формы» — как пустую клетку в таблице. Собрана она по правилам, но английский её почти не говорит: связка стоит два раза подряд, `be being`, и фраза тяжелеет. Тогда мы обещали вернуться к ней в этой теме — вот и вернулись. Сами такую форму не строим.
+
+Почему русскому языку проще? В русском «-ся» делает пассив одним словом, а длительность сидит внутри того же глагола: «строиться» уже значит «находиться в процессе постройки». В английском длительность и пассив — два отдельных слоя, `be + -ing` и `be + V3`. Надевать их оба сразу язык не любит — и выбирает один.
+
+**Как говорят вместо**
+
+Носитель выбирает один из трёх способов:
+
+1. **Длительность важна — актив с безличным they.** **They'll be building the house all summer** — дом будут строить всё лето; **They'll be renovating the station until May** — станцию будут ремонтировать до мая. `they` здесь — безличные «они», как в русском «строят», «ремонтируют» без подлежащего.
+2. **Нужно состояние — существительное вместо глагола.** **The house will be under construction all summer** — всё лето дом будет строиться. `under construction` — дословно «под строительством», по-живому «идёт стройка». Так же: **The road will be closed for repairs** — дорога будет закрыта на ремонт.
+3. **Длительность неважна — простой пассив.** **The old windows will be replaced next month** — старые окна будут заменены в следующем месяце.
+
+**Ловушка:** **The station will be being renovated until May** ✗ → **They'll be renovating the station until May** ✓. Форма собрана по правилам, но так почти не говорят: две связки подряд.
+
+**Каркас модальных закрыт**
+
+В «Модальных глаголах» мы собирали каркас: `must do`, `must be doing`, `must have done` — и обещали, что `will be doing` встанет в него на готовое место. Встало:
+
+| Модальный | will |
+|-----------|------|
+| must do | will do |
+| must be doing | will be doing |
+| must be done | will be done |
+| must have done | will have done |
+
+Три строки уже наши. Последняя, `will have done`, ждёт в теме «Future Perfect». Сборка одна на все случаи: после первого слова — всегда базовая форма.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+«Будет строиться» по-английски — не **will be being built**: две связки подряд, так почти не говорят. Берём одно из трёх:
+
+- Длительность важна → актив: **They'll be building it all summer**
+- Состояние → существительное: **It'll be under construction**, **closed for repairs**
+- Длительность неважна → пассив: **The windows will be replaced next month**
+- Деятель назван → обычный процесс: **Workers will be installing the lift all week**
+
+**Каркас**
+
+- **must be doing** ↔ **will be doing** — одна сборка
+
+**Частые ошибки**
+
+- **will be being renovated** ✗ → **They'll be renovating it** ✓ — так почти не говорят
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3444 | Дом будут строить всё лето. | They'll be building the house all summer. |
+| 3445 | Станцию будут ремонтировать до мая. | They'll be renovating the station until May. |
+| 3446 | Всё лето дом будет строиться. | The house will be under construction all summer. |
+| 3447 | Дорога будет закрыта на ремонт. | The road will be closed for repairs. |
+| 3448 | Старые окна будут заменены в следующем месяце. | The old windows will be replaced next month. |
+
+---
+
+#### Exercises
+
+**Ex 61 · MultipleChoice · FORWARD_CHOICE** *(ID: 292)*
+
+"Мост будет ремонтироваться всю осень."
+
+- The bridge will be being repaired all autumn.
+- The bridge will repairing all autumn.
+- **They'll be repairing the bridge all autumn.** ✓
+
+*Explanation:* длительность важна — носитель скажет активом с безличным they: они будут ремонтировать. Форма will be being repaired собрана по правилам, но две связки подряд английский почти не говорит. Will repairing без be разваливается.
+
+---
+
+**Ex 62 · Matching** *(ID: 134)*
+
+Задание: соедини русскую фразу с тем, как её скажет носитель.
+
+| Русская фраза | По-английски |
+|---------------|--------------|
+| школа будет строиться | the school will be under construction |
+| будут ремонтировать всё лето | they'll be repairing it all summer |
+| окна заменят завтра | the windows will be replaced tomorrow |
+| кафе будет закрыто | the café will be closed |
+
+*Explanation:* «будет строиться» как состояние — under construction; процесс на всё лето — актив they'll be repairing; итог без длительности — пассив will be replaced; «будет закрыто» — будущее от to be с признаком.
+
+---
+
+**Ex 63 · TrueFalse** *(ID: 265)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | They'll be painting the kitchen all day. | ✓ |
+| 2 | The kitchen will be being painted all day. | ✗ |
+| 3 | The new park will be opened in June. | ✓ |
+| 4 | The hotel will be under construction until spring. | ✓ |
+| 5 | The flat will renovated next year. | ✗ |
+
+*Explanation:* will be being painted собрано по правилам, но так почти не говорят — носитель скажет They'll be painting the kitchen all day. Пассиву нужна связка be: The flat will be renovated next year.
+
+---
+
+#### AI Exercise
+
+**ID:** future_continuous_card745_ex1
+**Title:** "Будет строиться — по-живому"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст русскую фразу про стройку, ремонт или замену. Скажите её по-английски так, как сказал бы носитель."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о том, как по-английски сказать «будет строиться», «будет ремонтироваться». Он знает: русское «-ся» вместе с длительностью тянет к форме will be being built — она собрана по правилам, но английский её почти не говорит, потому что связка стоит два раза подряд; вместо неё носитель выбирает один из трёх способов: 1) длительность важна — актив с безличным they и will be + -ing (They'll be building the house all summer, They'll be renovating the station until May); 2) нужно состояние — существительное вместо глагола (The house will be under construction all summer, The road will be closed for repairs); 3) длительность неважна, важен итог — простой пассив will be + V3 (The old windows will be replaced next month). Из прошлой карточки он знает, что после will be решает следующее слово: -ing — процесс (Workers will be installing the new lift all week), V3 — пассив или состояние (The new lift will be installed next week), без be — событие; голый глагол после be не встаёт (will be close), а пассиву нужна связка (will installed ✗). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех живых формах (is done, was done, will be done, has been done), косвенные вопросы, придаточные с who, which, that, косвенная речь, а в этой теме — Future Continuous во всех ролях: сборка, процесс в точке и на отрезке, фон для события, ход дел и вежливость, догадки, пересказ и условные. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect и Future Perfect Continuous, в том числе will have been done, — не используй. ЗАДАНИЕ: дай пользователю ОДНУ русскую фразу про стройку, ремонт, замену, установку или закрытие чего-то и попроси сказать её по-английски так, как сказал бы носитель. В условии не подсказывай, какой способ выбрать. Бери только знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе способа, а не в незнакомой лексике. ДЕРЖИ ФРАЗУ ПРОСТОЙ: 4-9 слов, одно действие, без придаточных; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. «-ся» + длительность, деятель не назван (Бассейн будет ремонтироваться всё лето.) 2. «будут + делать» без подлежащего (Всю неделю будут красить подъезд.) 3. состояние стройки (Новая школа будет строиться до осени.) 4. закрыто на ремонт (Музей будет закрыт на ремонт весь май.) 5. итог без длительности (Окна заменят в пятницу.) 6. деятель назван (Рабочие будут устанавливать лифт всю неделю.) Образцы дословно не повторяй. ОЦЕНКА: в пунктах 1 и 2 верно They'll be + -ing; under construction или closed for repairs засчитывай, если подходят по смыслу. В пункте 3 верно will be under construction или They'll be building…; в пункте 4 — will be closed for repairs; в пункте 5 — will be + V3 (The windows will be replaced on Friday), They'll replace the windows on Friday тоже засчитывай; в пункте 6 — Workers will be installing the lift all week. Если написал will be being + V3 — засчитай грамматику, но объясни, что так английский почти не говорит: две связки подряд, и дай живой вариант с they или under construction. Если на длительность поставил простой пассив will be + V3 (The pool will be repaired all summer) — скажи, что длительность потерялась: будет звучать как «отремонтируют», а не «будут ремонтировать», и покажи They'll be repairing the pool all summer. Если после be оставил голый глагол (will be repair) или потерял be в пассиве (will replaced) — покажи собранную форму. Если сказал активом с конкретным деятелем там, где деятеля нет (The workers will…), засчитай и одной строкой скажи, что безличное they звучит естественнее. При ошибке сначала скажи, что значила бы фраза пользователя, если она осмысленна, потом дай верный вариант. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Скажите по-английски: Спортзал будет ремонтироваться весь август.'
+
+#### Clarification Options
+
+- Почему нельзя сказать will be being built?
+- Что значит under construction?
+- Как понять, когда нужен актив с they, а когда пассив?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| to install | устанавливать, монтировать | [tuː ɪnˈstɔːl] |
+| to renovate | ремонтировать, обновлять | [tuː ˈrenəveɪt] |
+| to replace | заменять | [tuː rɪˈpleɪs] |
+| construction | строительство, стройка | [kənˈstrʌkʃən] |
+| parking | парковка, стоянка | [ˈpɑːkɪŋ] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 41 | 42 |
-| Microtopic | 277 | 278 |
-| Card | 743 | 744 |
-| Example | 3437 | 3438 |
-| Слова курса (course_word) | 974 | 975 |
+| Microtopic | 278 | 279 |
+| Card | 745 | 746 |
+| Example | 3448 | 3449 |
+| Слова курса (course_word) | 979 | 980 |
 | MultipleChoice · CHOICE | 261 | 262 |
-| MultipleChoice · FORWARD_CHOICE | 291 | 292 |
+| MultipleChoice · FORWARD_CHOICE | 292 | 293 |
 | MultipleChoice · REVERSE_CHOICE | 129 | 130 |
-| TrueFalse | 264 | 265 |
+| TrueFalse | 265 | 266 |
 | WordArrangement | 241 | 242 |
 | TextInput | 136 | 137 |
-| Matching | 133 | 134 |
-| ErrorCorrection | 259 | 260 |
+| Matching | 134 | 135 |
+| ErrorCorrection | 260 | 261 |
 | FindTheOdd | 138 | 139 |
-| Categorization | 166 | 167 |
+| Categorization | 167 | 168 |
 | TableFill | 53 | 54 |
 | Transformation | 122 | 123 |
-| ConstructionMeaning | 114 | 115 |
+| ConstructionMeaning | 115 | 116 |
 | DialogRestore | 116 | 117 |
