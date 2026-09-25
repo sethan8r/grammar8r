@@ -8162,7 +8162,7 @@ theory/
 │   │      Догадки — to snore · to vacuum · sightseeing · exhibition · jam (пробка)
 │   │      would be doing — conference · to attend · presentation · client · delay
 │   │      Пассив — to install · to renovate · to replace · construction · parking
-│   │      Событие или процесс — to host · ceremony · to perform · audience · booking
+│   │      Событие или процесс — to host · ceremony · to perform · audience · stage
 │   │
 │   │   ├── МТ271 · What Is Future Continuous · Что такое Future Continuous  ⭐ ВВОДНАЯ, 2 карточки, БЕЗ AI, слов НЕ сливает ✅ (написана, ALL GREEN 25.09.26)
 │   │   │   ├── Card 726 · Будущее, которое уже идёт
@@ -8276,19 +8276,19 @@ theory/
 │   │   │       AI «Будет строиться — по-живому» (русская фраза с «-ся» → they'll be -ing / under construction /
 │   │   │       will be + V3, GENERAL).
 │   │   │
-│   │   ├── МТ · will do or will be doing · Событие или процесс  (3 карточки; слив 5) ← предпоследняя
-│   │   │   ├── Card · Одна сцена — две картинки
+│   │   ├── МТ279 · will do or will be doing · Событие или процесс  (3 карточки; слив 5) ✅ (написана, ALL GREEN 25.09.26) ← предпоследняя
+│   │   │   ├── Card 746 · Одна сцена — две картинки
 │   │   │   │   Приём «что я увижу в ту секунду?» на парах will call ↔ will be calling. Переключатели:
 │   │   │   │   названо количество/результат → will (will be writing three emails ✗) · решение или
 │   │   │   │   обещание сейчас → will (I'll be getting it ✗). Отвечает на вопрос Card 118.
-│   │   │   ├── Card · Пятый способ на карте будущего
+│   │   │   ├── Card 747 · Пятый способ на карте будущего
 │   │   │   │   Одна встреча в пяти упаковках (I'm meeting · I'm going to meet · I'll meet · I'll be meeting
 │   │   │   │   anyway · At 6 I'll be meeting) + короткий текст «Один день из завтра»: это время ставит
 │   │   │   │   фон, will ведёт события. Анонс Future Perfect: «к шести уже сделаю» — следующая тема.
-│   │   │   └── Card · Тормоз и компас
+│   │   │   └── Card 748 · Тормоз и компас
 │   │   │       Где разницы почти нет (с Present Continuous о планах). Компас выбора одним экраном.
 │   │   │       Ловушка перебора: весь рассказ о будущем через will be -ing ✗ — звучит как диктор.
-│   │   │       AI «Какое будущее и почему» (ситуация → форма + причина, FREE_WRITE, NONE).
+│   │   │       AI «Какое будущее и почему» (ситуация → форма + причина, FREE_WRITE, GENERAL).
 │   │   │
 │   │   └── МТ · Live Practice · Future Continuous вживую с ИИ — финальная AI-микротема (1 карточка, 3 AI; канон «ФИНАЛЬНАЯ AI-МИКРОТЕМА» выше)
 │   │       ex1 «Скажи по-английски» (GENERAL) — русская ситуация обязана нести признак: точка, отрезок,

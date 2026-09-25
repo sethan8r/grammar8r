@@ -74,6 +74,13 @@
       "title": "Passive · Будущее и страдательный залог",
       "order": 8,
       "searchKeywords": "will be closed или closing, будет строиться по-английски, will be being done, under construction, пассив в будущем"
+    },
+    {
+      "id": 279,
+      "topicId": 41,
+      "title": "will do or will be doing · Событие или процесс",
+      "order": 9,
+      "searchKeywords": "will или will be doing, какое будущее выбрать, i'll be getting it, пять способов про будущее, когда не нужен will be"
     }
   ],
   "grammar_cards": [
@@ -4141,6 +4148,461 @@
         "Что значит under construction?",
         "Как понять, когда нужен актив с they, а когда пассив?"
       ]
+    },
+    {
+      "id": 746,
+      "microtopicId": 279,
+      "title": "Одна сцена — две картинки",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В «Служебных глаголах» остался вопрос: чем **I will travel** отличается от **I will be travelling**? Теперь на него можно ответить целиком — и заодно собрать всё, что мы узнали за тему, в один выбор."
+        },
+        {
+          "type": "heading",
+          "text": "Ответ на старый вопрос"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll travel to Spain in May.** — в мае поеду в Испанию: событие, решение",
+            "**In May I'll be travelling around Spain.** — весь май я буду путешествовать по Испании: процесс, я буду в пути"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разница не во времени — обе фразы про май. Разница в картинке: в первой поездка — точка в календаре, во второй — отрезок, внутри которого я нахожусь."
+        },
+        {
+          "type": "heading",
+          "text": "Приём: войду — застану?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Тот же вопрос из «Процесса в будущей точке» решает любую пару:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Emma will host the party on Saturday.** — в субботу Эмма устроит вечеринку: событие, она так решила",
+            "**Emma will be hosting the party all evening, so she won't be free to talk.** — весь вечер Эмма будет принимать гостей, поговорить не получится: процесс",
+            "**The ceremony will start at noon.** — церемония начнётся в полдень: событие",
+            "**At noon we'll be sitting at the ceremony.** — в полдень мы будем сидеть на церемонии: процесс",
+            "**When we arrive, the audience will be taking their seats.** — когда мы приедем, зрители будут рассаживаться: процесс, на фоне которого случится наш приезд"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда нужен именно will"
+        },
+        {
+          "type": "paragraph",
+          "text": "Есть три переключателя, при которых хочется сказать с `-ing`, а носитель берёт `will`:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Посчитан результат.** **The band will perform three songs** — выступление посчитано, это итог целиком. А **At nine the band will be performing** — процесс в точке, считать нечего. Форма с `-ing` и количеством звучит странно: процесс штуками не считают. Та же логика, что в длительном перфекте настоящего: количество тянет к форме-итогу.",
+            "**Решение прямо сейчас.** Звонят в дверь — **I'll get it!**, «я открою!». Это решение, принятое в эту секунду.",
+            "**Глагол состояния.** **I'll know the results tomorrow** — без `-ing`, как мы разбирали в карточке о глаголах, которые встают в эту форму."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Звонок в дверь — **I'll be getting it** ✗ → **I'll get it** ✓. Форма собрана верно, но в этой ситуации говорит не то: не «открою», а «так выйдет, что открою»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Выбор между `will` и `will be + -ing` решает вопрос «войду — застану?»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Событие, решение → **I'll travel to Spain in May**",
+            "Процесс, я внутри → **In May I'll be travelling around Spain**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда нужен will"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Посчитан результат → **The band will perform three songs**",
+            "Решение прямо сейчас → **I'll get it!**",
+            "Глагол состояния → **I'll know the results tomorrow**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll be getting it** ✗ → **I'll get it** ✓ — реакция в эту секунду"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "В мае я поеду в Испанию.",
+          "en": "I'll travel to Spain in May."
+        },
+        {
+          "ru": "Весь май я буду путешествовать по Испании.",
+          "en": "In May I'll be travelling around Spain."
+        },
+        {
+          "ru": "В субботу Эмма устроит вечеринку.",
+          "en": "Emma will host the party on Saturday."
+        },
+        {
+          "ru": "Церемония начнётся в полдень.",
+          "en": "The ceremony will start at noon."
+        },
+        {
+          "ru": "Группа исполнит три песни.",
+          "en": "The band will perform three songs."
+        },
+        {
+          "ru": "Когда мы приедем, зрители будут рассаживаться.",
+          "en": "When we arrive, the audience will be taking their seats."
+        },
+        {
+          "ru": "Я открою!",
+          "en": "I'll get it!"
+        }
+      ],
+      "clarificationOptions": [
+        "Чем I will travel отличается от I will be travelling?",
+        "Почему с количеством лучше will?",
+        "Почему на звонок в дверь нельзя ответить I'll be getting it?"
+      ]
+    },
+    {
+      "id": 747,
+      "microtopicId": 279,
+      "title": "Пятый способ на карте будущего",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В «Карте будущего» мы собрали четыре способа говорить о будущем и сказали, что на том уровне всё разобрано. Теперь в карте появляется пятый — и полезно увидеть, где именно он встаёт."
+        },
+        {
+          "type": "heading",
+          "text": "Одна встреча — пять способов"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "Что сообщает"
+          ],
+          "rows": [
+            [
+              "The meeting starts at six.",
+              "по расписанию — Present Simple"
+            ],
+            [
+              "I'm meeting Ben at six.",
+              "договорились — Present Continuous"
+            ],
+            [
+              "I'm going to meet Ben.",
+              "решил заранее — going to"
+            ],
+            [
+              "I'll meet Ben at six.",
+              "решаю или обещаю сейчас — will"
+            ],
+            [
+              "I'll be meeting Ben anyway.",
+              "так и так выйдет — Future Continuous"
+            ],
+            [
+              "At six I'll be meeting Ben.",
+              "в шесть буду на встрече, не звони — Future Continuous"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Пятый способ даёт сразу две строки — две стороны, о которых мы говорили всю тему: ход дел «само собой» и процесс в точке."
+        },
+        {
+          "type": "heading",
+          "text": "Декорации и сюжет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Лучше всего роль этого времени видна в рассказе. Завтра у Кейт свадьба, и вы рассказываете другу, как пройдёт день:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**At ten I'll be driving to the city.** — фон: в десять я буду в дороге",
+            "**The ceremony will start at noon.** — событие: в полдень начнётся церемония",
+            "**While the couple are saying their vows, I'll be filming everything.** — фон: пока молодые будут произносить клятвы, я буду всё снимать",
+            "**After that the band will come on stage.** — событие: потом на сцену выйдет группа",
+            "**At midnight we'll still be dancing.** — фон: в полночь мы всё ещё будем танцевать"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это время ставит декорации — что идёт в ту или иную минуту. Сюжет, то есть что случится и в каком порядке, ведёт `will`. Вместе они и дают живой рассказ о завтрашнем дне. Обратите внимание: после `while` — настоящее время, как мы разбирали в «Фоне для будущего события»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть и третья картинка — «к шести я уже закончу»: к названной минуте дело будет сделано. У неё своё время, Future Perfect, — это следующая тема раздела."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Пятый способ на карте будущего даёт две строки: «так и так выйдет» и «в эту минуту буду в разгаре»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The meeting starts at six** — расписание",
+            "**I'm meeting Ben at six** — договорились",
+            "**I'm going to meet Ben** — решил заранее",
+            "**I'll meet Ben at six** — решаю, обещаю сейчас",
+            "**I'll be meeting Ben anyway** · **At six I'll be meeting Ben** — ход дел, процесс в точке"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "В рассказе"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Фон → `will be + -ing`: **At ten I'll be driving to the city**",
+            "События → `will`: **The ceremony will start at noon**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Встреча начинается в шесть.",
+          "en": "The meeting starts at six."
+        },
+        {
+          "ru": "Я встречаюсь с Беном в шесть.",
+          "en": "I'm meeting Ben at six."
+        },
+        {
+          "ru": "В шесть я буду на встрече с Беном.",
+          "en": "At six I'll be meeting Ben."
+        },
+        {
+          "ru": "В десять я буду ехать в город.",
+          "en": "At ten I'll be driving to the city."
+        },
+        {
+          "ru": "Потом на сцену выйдет группа.",
+          "en": "After that the band will come on stage."
+        },
+        {
+          "ru": "В полночь мы всё ещё будем танцевать.",
+          "en": "At midnight we'll still be dancing."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем I'm meeting Ben отличается от I'll be meeting Ben?",
+        "Почему в рассказе о завтрашнем дне события ведёт will?",
+        "Где на карте будущего стоит это время?"
+      ]
+    },
+    {
+      "id": 748,
+      "microtopicId": 279,
+      "title": "Тормоз и компас",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена, и последний вопрос — практический: как выбирать на лету и не застревать посреди фразы."
+        },
+        {
+          "type": "heading",
+          "text": "Тормоз: где разницы почти нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сначала хорошая новость. Во многих фразах носитель сам колеблется и говорит то так, то так:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What are you doing tonight?** ↔ **What will you be doing tonight?** — обе нормальны, вторая чуть мягче",
+            "**I'm meeting Ben at six** ↔ **I'll be meeting Ben at six** — часто взаимозаменяемы",
+            "**We're going to be rehearsing all evening** — то же, что **We'll be rehearsing all evening**, только разговорнее"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Колеблетесь между такими — берите любую, ошибкой не будет."
+        },
+        {
+          "type": "heading",
+          "text": "Компас одним экраном"
+        },
+        {
+          "type": "paragraph",
+          "text": "Когда выбор всё-таки нужен, работает один порядок. Сначала — вопрос к этому времени:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "нужна картинка процесса в минуту или на отрезке? фон для события? «так и так выйдет»? вежливый вопрос о планах? догадка о том, что идёт сейчас? → `will be + -ing`"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Если нет — четыре вопроса из «Карты будущего», по порядку:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "записано в расписании → Present Simple",
+            "договорились с человеком → Present Continuous",
+            "решил заранее или вижу признак → `going to`",
+            "ничего из этого — решаю сейчас, обещаю, предсказываю → `will`"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Если подходят сразу и первый вопрос, и договорённость, — это как раз зона тормоза: годится любая форма."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Разобравшись с этим временем, легко начать говорить им весь рассказ о будущем: **Tomorrow I'll be getting up at seven, I'll be having breakfast, I'll be driving to work.** Так звучит диктор, зачитывающий сводку, а не человек. Сюжет ведёт `will`, а `will be + -ing` — одна-две точки фона: **Tomorrow I'll get up at seven, have breakfast and drive to work. At nine I'll already be sitting in a meeting.**"
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Выбор будущего: сначала вопрос к этому времени, потом компас «Карты будущего»."
+        },
+        {
+          "type": "heading",
+          "text": "Сначала"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Процесс в минуту или на отрезке, фон, «так и так выйдет», вежливый вопрос, догадка о «сейчас» → **will be + -ing**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Потом по порядку"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Расписание → **The meeting starts at six**",
+            "Договорились → **I'm meeting Ben at six**",
+            "Решил заранее, вижу признак → **I'm going to meet Ben**",
+            "Решаю сейчас, обещаю → **I'll get it!**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда нужен will, даже если тянет к -ing"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Посчитан результат: **The band will perform three songs**",
+            "Реакция в эту секунду: **I'll get it!**",
+            "Глагол состояния: **I'll know the results tomorrow**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Разницы почти нет"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**What are you doing tonight?** ↔ **What will you be doing tonight?**",
+            "**going to be + -ing** = **will be + -ing**, только разговорнее"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Что ты будешь делать сегодня вечером?",
+          "en": "What will you be doing tonight?"
+        },
+        {
+          "ru": "Что ты делаешь сегодня вечером?",
+          "en": "What are you doing tonight?"
+        },
+        {
+          "ru": "Весь вечер мы будем репетировать.",
+          "en": "We're going to be rehearsing all evening."
+        },
+        {
+          "ru": "Завтра я встану в семь, позавтракаю и поеду на работу.",
+          "en": "Tomorrow I'll get up at seven, have breakfast and drive to work."
+        },
+        {
+          "ru": "В девять я уже буду сидеть на совещании.",
+          "en": "At nine I'll already be sitting in a meeting."
+        }
+      ],
+      "clarificationOptions": [
+        "Как быстро выбрать форму будущего?",
+        "Когда разница между I'm meeting и I'll be meeting не важна?",
+        "Почему нельзя весь рассказ о будущем строить на will be + -ing?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4521,6 +4983,54 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 265,
       "orderInCard": 2
+    },
+    {
+      "cardId": 746,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 116,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 746,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 117,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 746,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 168,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 747,
+      "exerciseType": "MATCHING",
+      "exerciseId": 135,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 747,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 266,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 747,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 242,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 748,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 293,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 748,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 262,
+      "orderInCard": 1
     }
   ],
   "ai_exercises": [
@@ -4585,6 +5095,14 @@
       "cardId": 745,
       "title": "Будет строиться — по-живому",
       "userInstruction": "ИИ даст русскую фразу про стройку, ремонт или замену. Скажите её по-английски так, как сказал бы носитель.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_continuous_card748_ex1",
+      "cardId": 748,
+      "title": "Какое будущее и почему",
+      "userInstruction": "ИИ опишет ситуацию и даст русскую фразу. Скажите её по-английски и одной строкой объясните, почему выбрали эту форму.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -4885,6 +5403,46 @@
       "transcription": "[ˈpɑːkɪŋ]",
       "microtopicId": 278,
       "categoryId": "tenses"
+    },
+    {
+      "id": 980,
+      "word": "to host",
+      "translation": "принимать гостей, проводить (мероприятие)",
+      "transcription": "[tuː həʊst]",
+      "microtopicId": 279,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 981,
+      "word": "ceremony",
+      "translation": "церемония",
+      "transcription": "[ˈserəməni]",
+      "microtopicId": 279,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 982,
+      "word": "to perform",
+      "translation": "выступать, исполнять",
+      "transcription": "[tuː pəˈfɔːm]",
+      "microtopicId": 279,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 983,
+      "word": "audience",
+      "translation": "зрители, публика",
+      "transcription": "[ˈɔːdiəns]",
+      "microtopicId": 279,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 984,
+      "word": "stage",
+      "translation": "сцена, этап",
+      "transcription": "[steɪdʒ]",
+      "microtopicId": 279,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -5137,6 +5695,37 @@
         }
       ],
       "explanation": "will be being painted собрано по правилам, но так почти не говорят — носитель скажет They'll be painting the kitchen all day. Пассиву нужна связка be: The flat will be renovated next year."
+    },
+    {
+      "id": 266,
+      "statements": [
+        {
+          "en": "The concert starts at seven.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "At seven I'll be sit in the hall.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The singer will perform two songs.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "We're going to be visiting Grandma on Sunday.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "While we will be eating, the band will play.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "после be нужна форма на -ing: At seven I'll be sitting in the hall. А после while будущее не ставят: While we're eating, the band will play."
     }
   ],
   "word_arrangement_exercises": [
@@ -5238,6 +5827,25 @@
         "trained"
       ],
       "explanation": "знаю распорядок и уверен — will be training: догадка о том, что идёт прямо сейчас. being после will не встаёт, am не подходит к she, а trained — прошедшая форма, после be нужна форма на -ing."
+    },
+    {
+      "id": 242,
+      "situationRu": "RU: В восемь зрители будут сидеть в зале.",
+      "correctSentence": "At eight the audience will be sitting in the hall.",
+      "words": [
+        "At eight",
+        "the audience",
+        "will",
+        "be",
+        "sitting",
+        "in the hall"
+      ],
+      "distractors": [
+        "been",
+        "being",
+        "to"
+      ],
+      "explanation": "процесс в названную минуту — will be sitting. been и being после will не ставятся, to здесь лишнее."
     }
   ],
   "multiple_choice_exercises": [
@@ -5597,6 +6205,48 @@
         }
       ],
       "explanation": "длительность важна — носитель скажет активом с безличным they: они будут ремонтировать. Форма will be being repaired собрана по правилам, но две связки подряд английский почти не говорит. Will repairing без be разваливается."
+    },
+    {
+      "id": 293,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Ладно, я закажу пиццу.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "OK, I'll be ordering a pizza.",
+          "isCorrect": false
+        },
+        {
+          "text": "OK, I'll order a pizza.",
+          "isCorrect": true
+        },
+        {
+          "text": "OK, I order a pizza.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "решение в эту секунду — will + глагол: I'll order. I'll be ordering звучит как рассказ о ходе дел, а не согласие прямо сейчас, а I order без will — «я вообще заказываю»."
+    },
+    {
+      "id": 262,
+      "choiceType": "CHOICE",
+      "prompt": "Tomorrow at this time we ___ to Rome.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will be flying",
+          "isCorrect": true
+        },
+        {
+          "text": "flies",
+          "isCorrect": false
+        },
+        {
+          "text": "will flying",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "названа минута — «завтра в это время», и в эту минуту полёт будет идти: will be flying. Flies не подходит к we, а will flying без be разваливается."
     }
   ],
   "text_input_exercises": [],
@@ -5716,6 +6366,34 @@
         }
       ],
       "explanation": "соглашаемся прямо сейчас — will + глагол: I'll wait. Голый глагол после be не встаёт, а I wait без will звучит как «я вообще жду», а не как ответ на эту ситуацию."
+    },
+    {
+      "id": 117,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Someone's at the door!"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "I get it!",
+          "isCorrect": false
+        },
+        {
+          "text": "I'm get it!",
+          "isCorrect": false
+        },
+        {
+          "text": "I'll get it!",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "решение в эту секунду — will + глагол: I'll get it, «я открою!». I get it значит совсем другое — «понял», а I'm get it собрано неверно: после am нужна форма на -ing."
     }
   ],
   "matching_exercises": [
@@ -5787,6 +6465,37 @@
         }
       ],
       "explanation": "«будет строиться» как состояние — under construction; процесс на всё лето — актив they'll be repairing; итог без длительности — пассив will be replaced; «будет закрыто» — будущее от to be с признаком."
+    },
+    {
+      "id": 135,
+      "taskDescription": "соедини фразу с тем, что она сообщает.",
+      "pairs": [
+        {
+          "left": "The bus leaves at eight.",
+          "right": "по расписанию"
+        },
+        {
+          "left": "We're having lunch with Nina.",
+          "right": "договорились"
+        },
+        {
+          "left": "I'm going to learn to swim.",
+          "right": "решил заранее"
+        },
+        {
+          "left": "OK, I'll wait here.",
+          "right": "решаю сейчас"
+        },
+        {
+          "left": "I'll be passing the bank anyway.",
+          "right": "так и так выйдет"
+        },
+        {
+          "left": "At noon I'll be sitting in class.",
+          "right": "буду в разгаре дела"
+        }
+      ],
+      "explanation": "расписание говорят Present Simple, договорённость — Present Continuous, заранее принятое решение — going to, решение в эту секунду — will. Future Continuous даёт две последние строки: ход дел «так и так выйдет» и процесс в названную минуту."
     }
   ],
   "error_correction_exercises": [
@@ -6173,6 +6882,29 @@
         }
       ],
       "explanation": "после be стоит V3 — значит, это состояние: все выходные бассейн будет в закрытом виде. «Будут закрывать» — процесс, это will be closing; «закроется» — событие, will close; «закрыли» — прошедшее."
+    },
+    {
+      "id": 116,
+      "construction": "In June I'll be working at a summer camp.",
+      "options": [
+        {
+          "text": "В июне я устроюсь в летний лагерь.",
+          "isCorrect": false
+        },
+        {
+          "text": "В июне я буду работать в летнем лагере.",
+          "isCorrect": true
+        },
+        {
+          "text": "В июне я работал в летнем лагере.",
+          "isCorrect": false
+        },
+        {
+          "text": "В июне я один день поработаю в летнем лагере.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "will be working + июнь — процесс на весь отрезок: весь июнь я буду там работать. «Устроюсь» — событие в одну минуту, это will get a job; «один день поработаю» — посчитанный итог, а не отрезок; «работал» — прошедшее."
     }
   ],
   "transformation_exercises": [
@@ -6354,6 +7086,29 @@
         }
       ],
       "explanation": "процесс, который будет идти, — will be + -ing: будет чинить, будут красить, будет закрываться. Над предметом сделают или он будет в таком состоянии — пассив will be + V3: починят, покрасят, будет закрыто. Событие целиком — will + глагол: придёт, уйдут, закроется."
+    },
+    {
+      "id": 168,
+      "taskDescription": "разложи фразы по тому, какую форму они просят.",
+      "categories": [
+        {
+          "title": "will + глагол",
+          "items": [
+            "обещаю, найду тебе билет",
+            "группа исполнит пять песен",
+            "ладно, я куплю билеты"
+          ]
+        },
+        {
+          "title": "will be + -ing",
+          "items": [
+            "весь концерт я буду снимать",
+            "в девять группа будет выступать",
+            "в антракте мы будем пить кофе"
+          ]
+        }
+      ],
+      "explanation": "обещание, посчитанный итог или решение прямо сейчас — will + глагол: найду, исполнит пять песен, куплю. Процесс в названную минуту или на отрезке — will be + -ing: буду снимать, будет выступать, будем пить кофе."
     }
   ],
   "find_the_odd_exercises": [
