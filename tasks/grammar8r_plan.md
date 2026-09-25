@@ -8218,18 +8218,18 @@ theory/
 │   │   │       I'll be working nights next month ↔ привычка, зарок, обещание → will (I'll call you every
 │   │   │       day). ⚠️ Граница — «само идёт в этот период» ↔ «обещаю/решил», а НЕ «повтор ↔ процесс».
 │   │   │
-│   │   ├── МТ · As Things Go · Само собой и вежливо  (3 карточки; слив 5)
-│   │   │   ├── Card · По ходу дел и объявления
+│   │   ├── МТ274 · As Things Go · Само собой и вежливо  (3 карточки; слив 5) ✅ (написана, ALL GREEN 25.09.26)
+│   │   │   ├── Card 735 · По ходу дел и объявления
 │   │   │   │   I'll be seeing Tom anyway — I'll tell him · I'll be passing the shop · I'll be leaving on
 │   │   │   │   Monday (callback Card 188: договорённость ↔ «так выходит»). Объявления и письма: We'll be
 │   │   │   │   landing shortly · Doors will be closing · I'll be sending you the details. Как это звучит
 │   │   │   │   по-русски: «скоро совершим посадку», а не «будем приземляться».
-│   │   │   ├── Card · Вежливый вопрос о планах и речь сервиса
+│   │   │   ├── Card 736 · Вежливый вопрос о планах и речь сервиса
 │   │   │   │   Will you be using the car tonight? ↔ Will you use…? (читается как просьба). Сервис: Will
 │   │   │   │   you be paying by card? · having dessert? · How many will be joining us? ⭐ Граница: это не
 │   │   │   │   просьба (Will you help me?) и не предложение — «Будешь чай?» → Would you like some tea?
 │   │   │   │   (Will you be tea? ✗). Таблица регистра. AI (ситуация → вежливый вопрос, GENERAL).
-│   │   │   └── Card · «Не приду» без обиды
+│   │   │   └── Card 737 · «Не приду» без обиды
 │   │   │       won't + V1 может прочитаться как отказ (I won't come) ↔ won't be -ing нейтрально (I won't
 │   │   │       be coming in tomorrow · We won't be staying long). «Не буду!» → I won't!
 │   │   │

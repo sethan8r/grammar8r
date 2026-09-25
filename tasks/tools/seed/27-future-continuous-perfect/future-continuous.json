@@ -39,6 +39,13 @@
       "title": "At That Moment · Процесс в будущей точке",
       "order": 3,
       "searchKeywords": "в восемь буду ужинать, застать за делом, this time tomorrow, in или after an hour, will после when, временный график"
+    },
+    {
+      "id": 274,
+      "topicId": 41,
+      "title": "As Things Go · Само собой и вежливо",
+      "order": 4,
+      "searchKeywords": "will you be using, вежливо спросить о планах, будешь чай по-английски, i won't be coming, отказ без грубости, объявления в самолёте"
     }
   ],
   "grammar_cards": [
@@ -534,7 +541,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Ответы — в микротеме про русское «буду». А начнём с формы: в следующей микротеме соберём `will be + -ing` по деталям — утверждение, отрицание и вопрос."
+          "text": "Ответы на все четыре вопроса — дальше в этой теме. А начнём с формы: в следующей микротеме соберём `will be + -ing` по деталям — утверждение, отрицание и вопрос."
         },
         {
           "type": "callout",
@@ -2124,6 +2131,521 @@
         "Чем How long will you be staying отличается от How long will you stay?",
         "Как понять, обещание это или рассказ о ходе дел?"
       ]
+    },
+    {
+      "id": 735,
+      "microtopicId": 274,
+      "title": "По ходу дел и объявления",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой микротеме мы спрашивали: «войду в эту минуту — застану за делом?». Но у этого времени есть и вторая сторона, о которой мы говорили во вводной: ход дел, который уже заведён. Здесь главный вопрос другой — **кто это решает?**"
+        },
+        {
+          "type": "heading",
+          "text": "Три будущих — три ответа"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Форма",
+            "Кто решает",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "will + глагол",
+              "я, прямо сейчас",
+              "I'll meet Ben at six"
+            ],
+            [
+              "Present Continuous",
+              "мы, заранее договорились",
+              "I'm meeting Ben at six"
+            ],
+            [
+              "will be + -ing",
+              "никто — так идут дела",
+              "I'll be meeting Ben at six"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот и ответ на вопрос из вводной. **I'll meet Ben at six** — решаю или обещаю прямо сейчас. **I'm meeting Ben at six** — встреча договорена, стоит в календаре. **I'll be meeting Ben at six** — так сложится мой день: я не объявляю решение и не хвастаюсь договорённостью, а спокойно рассказываю, как пойдут дела. Как передача в сетке вещания — она выйдет сама."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Разница между второй и третьей фразой тонкая, и носители часто говорят то так, то так. Где разницы почти нет, разберём в микротеме «Событие или процесс»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Заодно, по пути"
+        },
+        {
+          "type": "paragraph",
+          "text": "Раз эта форма не звучит как решение, ею удобно предлагать помощь, которая вам ничего не стоит:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll be seeing Tom anyway — I'll tell him.** — я и так увижусь с Томом, заодно передам",
+            "**I'll be passing the supermarket — shall I get you anything?** — я всё равно буду проходить мимо супермаркета, тебе что-нибудь купить?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравните с **I'll see Tom and tell him** — это решение: «схожу к Тому и передам». Форма с `-ing` говорит другое: встреча и так стоит в моём дне, ради вас я ничего не затеваю. Поэтому такое предложение не обязывает собеседника — ему не нужно чувствовать, что вы из-за него что-то устраиваете."
+        },
+        {
+          "type": "paragraph",
+          "text": "Так же нейтрально сообщают о своих планах: **I'll be leaving on Monday** — в понедельник я уезжаю, без драмы решения."
+        },
+        {
+          "type": "heading",
+          "text": "Объявления и деловые письма"
+        },
+        {
+          "type": "paragraph",
+          "text": "Это время очень любят в объявлениях: самолёт, вокзал, отель, рабочая почта — везде, где сообщают график."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We'll be landing shortly.** — стюардесса перед посадкой",
+            "**We'll be serving dinner in twenty minutes.** — в самолёте, про ужин",
+            "**Did you hear the announcement? We'll be boarding in ten minutes.** — в аэропорту",
+            "**I'll be sending you the details tomorrow.** — деловое письмо"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему именно это время? Объявление ничего не обещает лично и никому не приказывает — оно сообщает, как пойдут дела по графику. Будущее с will звучало бы как решение, принятое у микрофона, а эта форма звучит спокойно и официально."
+        },
+        {
+          "type": "heading",
+          "text": "Как это звучит по-русски"
+        },
+        {
+          "type": "paragraph",
+          "text": "Переводить такие фразы через «будем + глагол» почти всегда неловко. Русский в объявлениях берёт совершенный вид или настоящее время:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We'll be landing shortly.** — дословно «мы будем приземляться вскоре», по-живому «скоро совершим посадку»",
+            "**The next train will be arriving shortly.** — дословно «следующий поезд будет прибывать вскоре», по-живому «следующий поезд скоро прибудет»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ещё одно подтверждение мысли из вводной: русское «буду» и это время — не пара, совпадают они реже, чем кажется."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Эта форма не решает и не обещает — она сообщает, как пойдут дела. Отсюда и мягкость, и спокойный тон объявлений."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вторая сторона времени — ход дел, который уже заведён: никто сейчас ничего не решает."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Решаю, обещаю → **I'll meet Ben at six**",
+            "Договорились → **I'm meeting Ben at six**",
+            "Так идут дела → **I'll be meeting Ben at six**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где это слышно"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Заодно, без хлопот: **I'll be seeing Tom anyway — I'll tell him**",
+            "Объявления: **We'll be landing shortly** — скоро совершим посадку",
+            "Деловые письма: **I'll be sending you the details** — пришлю детали"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я и так увижусь с Томом — передам ему.",
+          "en": "I'll be seeing Tom anyway — I'll tell him."
+        },
+        {
+          "ru": "Я буду проходить мимо супермаркета — купить тебе что-нибудь?",
+          "en": "I'll be passing the supermarket — shall I get you anything?"
+        },
+        {
+          "ru": "Скоро мы совершим посадку.",
+          "en": "We'll be landing shortly."
+        },
+        {
+          "ru": "Следующий поезд скоро прибудет.",
+          "en": "The next train will be arriving shortly."
+        },
+        {
+          "ru": "Ты слышал объявление? Через десять минут посадка.",
+          "en": "Did you hear the announcement? We'll be boarding in ten minutes."
+        },
+        {
+          "ru": "Я пришлю вам детали завтра.",
+          "en": "I'll be sending you the details tomorrow."
+        },
+        {
+          "ru": "В понедельник я уезжаю.",
+          "en": "I'll be leaving on Monday."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем I'll be meeting Ben отличается от I'm meeting Ben?",
+        "Почему в объявлениях говорят именно так, а не через will?",
+        "Почему I'll be seeing Tom anyway звучит как услуга без хлопот?"
+      ]
+    },
+    {
+      "id": 736,
+      "microtopicId": 274,
+      "title": "Вежливый вопрос о планах и речь сервиса",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Из того, что эта форма ничего не решает и ни о чём не просит, вырастает её самое полезное умение — вежливый вопрос."
+        },
+        {
+          "type": "heading",
+          "text": "Просьба или вопрос о планах"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Модальных глаголах» мы видели: вопрос с will спрашивает о воле, и поэтому **Will you close the door?** звучит как просьба — «закрой, пожалуйста». Значит, и **Will you use the car tonight?** может прозвучать как «возьми сегодня машину» или как нажим: «ну что, решил, берёшь?»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Если же спросить этим временем, воли в вопросе нет: **Will you be using the car tonight?** — я просто узнаю, как пойдут твои дела. Ни о чём не прошу, ничего не требую, и собеседнику легко ответить честно. Классическая сцена:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Me",
+              "text": "Will you be using the car tonight?"
+            },
+            {
+              "speaker": "Lucy",
+              "text": "No, I'll be at home all evening."
+            },
+            {
+              "speaker": "Me",
+              "text": "Great! Can I borrow it?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сначала узнаём планы, потом просим — и никто не чувствует давления."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Вопрос",
+            "Как звучит"
+          ],
+          "rows": [
+            [
+              "Will you use the car tonight?",
+              "может прозвучать как просьба или нажим"
+            ],
+            [
+              "Are you using the car tonight?",
+              "разговорно и нормально: есть ли такие планы"
+            ],
+            [
+              "Will you be using the car tonight?",
+              "мягче всего: просто как пойдут твои дела"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Речь сервиса"
+        },
+        {
+          "type": "paragraph",
+          "text": "Официанты, администраторы и продавцы говорят этим временем постоянно: так вопрос звучит как забота о вашем визите, а не как допрос."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will you be paying by card?** — картой?",
+            "**Will you be having dessert?** — десерт будете?",
+            "**How many will be joining us?** — сколько вас будет?",
+            "**Will you be needing a receipt?** — чек нужен?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обратите внимание на переводы: по-русски в таких вопросах часто нет никакого «будете» — «Картой?», «Чек нужен?». Ещё одно место, где русское «буду» и это время расходятся."
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь и обещанное объяснение **needing**. need — глагол состояния, но в речи сервиса форма с `-ing` смягчает вопрос, и носители говорят так постоянно. Послушайте любую кассу: **The cashier asks every customer: Will you be paying by card?**"
+        },
+        {
+          "type": "heading",
+          "text": "Не просьба и не угощение"
+        },
+        {
+          "type": "paragraph",
+          "text": "У этого вопроса два соседа, которых легко спутать с ним:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "попросить о помощи — **Could you help me?** или **Will you help me?**: тут нужна воля собеседника, поэтому will с обычным глаголом",
+            "предложить угощение — «Будешь чай?» → **Would you like some tea?**: готовая вежливая формула, мы её уже знаем"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**Will you be tea?** ✗ → **Would you like some tea?** ✓. Русское «будешь» + существительное тянет за собой will be, но после will be стоит признак, место или форма на `-ing` — вышло бы «ты будешь чаем?». Угощают другой формулой. А **Will you be having tea?** звучит как вопрос официанта о заказе, а не как дружеское «чаю?»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Вопрос этим временем узнаёт планы, ни о чём не прося: в нём нет воли, поэтому он звучит мягко."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will you use the car tonight?** — может прозвучать как просьба",
+            "**Will you be using the car tonight?** — просто узнаю планы",
+            "**Are you using the car tonight?** — разговорный вариант"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Речь сервиса"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will you be paying by card?** · **Will you be having dessert?** · **Will you be needing a receipt?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Соседние фразы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Просьба → **Could you help me?**",
+            "Угощение → **Would you like some tea?**",
+            "**Will you be tea?** ✗ → **Would you like some tea?** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ты будешь брать машину сегодня вечером?",
+          "en": "Will you be using the car tonight?"
+        },
+        {
+          "ru": "Кассир спрашивает каждого покупателя: будете платить картой?",
+          "en": "The cashier asks every customer: Will you be paying by card?"
+        },
+        {
+          "ru": "Вы будете заказывать десерт?",
+          "en": "Will you be having dessert?"
+        },
+        {
+          "ru": "Сколько человек к нам присоединится?",
+          "en": "How many will be joining us?"
+        },
+        {
+          "ru": "Вам понадобится чек?",
+          "en": "Will you be needing a receipt?"
+        },
+        {
+          "ru": "Хочешь чаю?",
+          "en": "Would you like some tea?"
+        }
+      ],
+      "clarificationOptions": [
+        "Почему Will you use the car звучит как просьба?",
+        "Зачем официант говорит Will you be paying, если можно проще?",
+        "Как по-английски предложить гостю чай?"
+      ]
+    },
+    {
+      "id": 737,
+      "microtopicId": 274,
+      "title": "«Не приду» без обиды",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Последняя грань вежливости этого времени — отрицание. Здесь та же мысль, что и в вопросе: убираем волю — уходит нажим."
+        },
+        {
+          "type": "heading",
+          "text": "won't умеет упрямиться"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Модальных глаголах» мы видели, что won't — это не только «не буду», но и воля, точнее её отсутствие: **He won't listen to anyone** — не желает никого слушать, **The car won't start** — машина не заводится, упёрлась. Поэтому **I won't come tomorrow** может прозвучать двояко: и «завтра меня не будет», и «не приду, даже не уговаривайте»."
+        },
+        {
+          "type": "heading",
+          "text": "Та же новость без упрямства"
+        },
+        {
+          "type": "paragraph",
+          "text": "Форма с `-ing` снимает волю совсем: **I won't be coming in tomorrow** — завтра меня не будет, так складываются дела. Никакого «не хочу» — просто сообщение о ходе событий. Здесь `come in` — «приходить на работу, в офис»."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I won't be coming in today — I'm ill.** — сегодня меня не будет на работе, я заболел",
+            "**We won't be staying long.** — мы ненадолго: в гостях это звучит мягко, хозяевам не обидно",
+            "**I'm afraid I won't be joining you for dinner.** — боюсь, я не присоединюсь к вам за ужином"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Такие фразы — готовые формулы для письма начальнику и для вежливого «нет»."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Won't с обычным глаголом сам по себе не грубость. **I won't forget** — обещание, звучит тепло. Двояко он читается, когда вы отказываетесь от того, чего от вас ждут: прийти, остаться, помочь."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Не буду!»"
+        },
+        {
+          "type": "paragraph",
+          "text": "А когда отказ и есть смысл, форма с `-ing` не нужна. Упрямое детское «Не буду!» — чистая воля, и английский говорит его голым won't:"
+        },
+        {
+          "type": "dialog",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "text": "Eat your soup, Jack!"
+            },
+            {
+              "speaker": "Jack",
+              "text": "I won't!"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Выбор простой: хотите отказать — **I won't**. Хотите просто сообщить, что вас не будет, — **I won't be** + `-ing`."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "won't + глагол может прозвучать как отказ, won't be + -ing — просто сообщение о ходе дел."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I won't come tomorrow** — может прозвучать как «не приду, и всё»",
+            "**I won't be coming in tomorrow** — завтра меня не будет, так сложилось",
+            "**We won't be staying long** — мы ненадолго"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда нужен именно отказ"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Не буду!» → **I won't!**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Завтра я не приду на работу.",
+          "en": "I won't be coming in tomorrow."
+        },
+        {
+          "ru": "Мы не будем долго задерживаться.",
+          "en": "We won't be staying long."
+        },
+        {
+          "ru": "Боюсь, я не присоединюсь к вам за ужином.",
+          "en": "I'm afraid I won't be joining you for dinner."
+        },
+        {
+          "ru": "Не буду!",
+          "en": "I won't!"
+        },
+        {
+          "ru": "Машина не заводится.",
+          "en": "The car won't start."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему I won't come может прозвучать как отказ?",
+        "Что значит come in в I won't be coming in?",
+        "Когда всё-таки нужен голый won't?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2306,6 +2828,60 @@
       "exerciseType": "TRUE_FALSE",
       "exerciseId": 261,
       "orderInCard": 2
+    },
+    {
+      "cardId": 735,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 126,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 735,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 115,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 735,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 111,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 736,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 260,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 736,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 288,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 736,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 262,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 737,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 165,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 737,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 240,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 737,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 257,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2330,6 +2906,14 @@
       "cardId": 733,
       "title": "Застанешь за делом: when",
       "userInstruction": "ИИ даст две короткие русские фразы. Соедините их в одно английское предложение с when или while.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_continuous_card736_ex1",
+      "cardId": 736,
+      "title": "Вежливо узнай планы",
+      "userInstruction": "ИИ опишет ситуацию. Задайте по-английски вежливый вопрос, который в ней уместен.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -2429,6 +3013,46 @@
       "translation": "ездить на работу и обратно",
       "transcription": "[tuː kəˈmjuːt]",
       "microtopicId": 273,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 955,
+      "word": "shortly",
+      "translation": "скоро, вскоре",
+      "transcription": "[ˈʃɔːtli]",
+      "microtopicId": 274,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 956,
+      "word": "announcement",
+      "translation": "объявление",
+      "transcription": "[əˈnaʊnsmənt]",
+      "microtopicId": 274,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 957,
+      "word": "customer",
+      "translation": "покупатель, клиент",
+      "transcription": "[ˈkʌstəmə]",
+      "microtopicId": 274,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 958,
+      "word": "dessert",
+      "translation": "десерт",
+      "transcription": "[dɪˈzɜːt]",
+      "microtopicId": 274,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 959,
+      "word": "receipt",
+      "translation": "чек, квитанция",
+      "transcription": "[rɪˈsiːt]",
+      "microtopicId": 274,
       "categoryId": "tenses"
     }
   ],
@@ -2558,6 +3182,37 @@
         }
       ],
       "explanation": "после be нужна форма на -ing: How long will you be staying in Rome? А в части с when будущее не ставят: I'll be sleeping when you come home."
+    },
+    {
+      "id": 262,
+      "statements": [
+        {
+          "en": "Will you be staying for dinner?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Will you be tea or juice?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "How many will be coming to the party?",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Will you be pay in cash?",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Are you using the laptop tonight?",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "будешь чай или сок — угощение, для него есть Would you like some tea or juice? После will be нужна форма на -ing: Will you be paying in cash?"
     }
   ],
   "word_arrangement_exercises": [
@@ -2576,10 +3231,10 @@
       "distractors": [
         "being",
         "are",
-        "sit",
+        "sits",
         "was"
       ],
-      "explanation": "после will идёт голая be, а за ней глагол с -ing: will be sitting. being и are после will не встают, голое sit теряет процесс, was — прошедшее."
+      "explanation": "после will идёт голая be, а за ней глагол с -ing: will be sitting. being и are после will не встают, sits — форма настоящего времени, was — прошедшее."
     },
     {
       "id": 238,
@@ -2599,9 +3254,9 @@
         "being",
         "want",
         "to",
-        "drive"
+        "drives"
       ],
-      "explanation": "наречие встаёт сразу после will, перед be: will probably be driving. Want to значило бы «хотим», а голое drive или being после will не подходят."
+      "explanation": "наречие встаёт сразу после will, перед be: will probably be driving. Want to значило бы «хотим», drives — форма настоящего времени, а being после will не встаёт."
     },
     {
       "id": 239,
@@ -2616,11 +3271,31 @@
         "football"
       ],
       "distractors": [
-        "play",
+        "plays",
         "am",
         "being"
       ],
-      "explanation": "в семь игра будет идти, созвониться не получится — will be playing. Голое play после be не встаёт, am после will не ставится, а being вместо be ломает сборку."
+      "explanation": "в семь игра будет идти, созвониться не получится — will be playing. plays — форма настоящего времени, am после will не ставится, а being вместо be ломает сборку."
+    },
+    {
+      "id": 240,
+      "situationRu": "Ситуация: вы пишете коллеге, что в пятницу вас не будет на встрече.",
+      "correctSentence": "I won't be coming to the meeting on Friday.",
+      "words": [
+        "I",
+        "won't",
+        "be",
+        "coming",
+        "to the meeting",
+        "on Friday"
+      ],
+      "distractors": [
+        "comes",
+        "being",
+        "don't",
+        "am"
+      ],
+      "explanation": "спокойное сообщение о ходе дел — won't be coming: так «меня не будет» не звучит как отказ. comes — форма настоящего времени, being вместо be ломает сборку, а don't и am тут чужие помощники."
     }
   ],
   "multiple_choice_exercises": [
@@ -2749,6 +3424,69 @@
         }
       ],
       "explanation": "will still be decorating — процесс, который к приезду гостей не закончится: гости застанут нас за украшением. «Начнём украшать» — сначала приедут, потом начнём, это will decorate. «Приехали» и «украшали» — прошедшее."
+    },
+    {
+      "id": 126,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Ladies and gentlemen, we'll be landing shortly.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Дамы и господа, мы решили скоро приземлиться.",
+          "isCorrect": false
+        },
+        {
+          "text": "Дамы и господа, скоро мы совершим посадку.",
+          "isCorrect": true
+        },
+        {
+          "text": "Дамы и господа, мы уже приземлились.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в объявлении эта форма сообщает график: посадка идёт своим ходом, никто её сейчас не решает. По-русски так и говорят — «скоро совершим посадку». «Решили» добавляет решение, которого во фразе нет, а «приземлились» — прошедшее."
+    },
+    {
+      "id": 260,
+      "choiceType": "CHOICE",
+      "prompt": "— ___ the printer this afternoon? — No, go ahead.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Will you be use",
+          "isCorrect": false
+        },
+        {
+          "text": "Will you using",
+          "isCorrect": false
+        },
+        {
+          "text": "Will you be using",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "сначала узнаём планы, потом просим — вопрос будущего процесса: will, подлежащее, be и глагол с -ing. Без be или без -ing форма разваливается."
+    },
+    {
+      "id": 288,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Будешь кофе?",
+      "contextRu": "к вам в гости пришла подруга",
+      "options": [
+        {
+          "text": "Will you be coffee?",
+          "isCorrect": false
+        },
+        {
+          "text": "Would you like some coffee?",
+          "isCorrect": true
+        },
+        {
+          "text": "Will you like some coffee?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "угощение — это готовая формула Would you like…? Will you be coffee — калька русского «будешь»: после will be кофе не встаёт. Will you like звучит как «понравится ли тебе» и для угощения не подходит."
     }
   ],
   "text_input_exercises": [],
@@ -2812,6 +3550,34 @@
         }
       ],
       "explanation": "придёшь и застанешь меня у плиты — процесс will be cooking. В части с when стоит настоящее — when you come, а голое cook после be не встаёт."
+    },
+    {
+      "id": 115,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Oh no, I forgot to give Sam his keys!"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "Don't worry, I'll be see him anyway — I'll give them to him.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't worry, I'll being seeing him anyway — I'll give them to him.",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't worry, I'll be seeing him anyway — I'll give them to him.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "встреча с Сэмом и так стоит в дне, поэтому помочь ничего не стоит — I'll be seeing him anyway. После will be нужна форма на -ing, а связка после will голая: be, не being."
     }
   ],
   "matching_exercises": [
@@ -2915,6 +3681,25 @@
         }
       ],
       "explanation": "в части с when будущее не повторяют — там настоящее: when we land. Будущее уже сказано в главной части, и там оно процесс: Марк будет ждать к моменту посадки — will be waiting."
+    },
+    {
+      "id": 257,
+      "wrongSentence": "The kids won't being sleeping at home on Saturday.",
+      "options": [
+        {
+          "text": "The kids won't be sleeping at home on Saturday.",
+          "isCorrect": true
+        },
+        {
+          "text": "The kids won't be sleep at home on Saturday.",
+          "isCorrect": false
+        },
+        {
+          "text": "The kids don't be sleeping at home on Saturday.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после won't связка голая — be, а глагол получает -ing: won't be sleeping. Don't сюда не подходит: помощник здесь will, в отрицании он превращается в won't."
     }
   ],
   "construction_meaning_exercises": [
@@ -3032,6 +3817,29 @@
         }
       ],
       "explanation": "will be working + рамка until the end of the year — временный график: так будут идти дела до конца года. «Начну» — старт в одну минуту, «обещаю» — решение, это will work; «работал» — прошедшее."
+    },
+    {
+      "id": 111,
+      "construction": "I'll be sending you the report on Friday.",
+      "options": [
+        {
+          "text": "Я пришлю вам отчёт в пятницу.",
+          "isCorrect": true
+        },
+        {
+          "text": "Я присылал вам отчёт в пятницу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Вы пришлёте мне отчёт в пятницу.",
+          "isCorrect": false
+        },
+        {
+          "text": "В пятницу я буду весь день писать отчёт.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "в деловом письме эта форма сообщает, как пойдут дела: отчёт придёт в пятницу. По-русски так и звучит — «пришлю», а не «буду присылать». «Присылал» — прошедшее, «вы пришлёте» меняет того, кто отправляет, а «писать» — совсем другое действие."
     }
   ],
   "transformation_exercises": [
@@ -3128,6 +3936,29 @@
         }
       ],
       "explanation": "сяду, лягу, включу — дело в эту минуту только начнётся, это will + глагол. Ещё сижу за уроками, уже сплю, в середине сериала — застанешь за делом, это will be + -ing."
+    },
+    {
+      "id": 165,
+      "taskDescription": "разложи фразы по тому, какую форму они просят.",
+      "categories": [
+        {
+          "title": "won't + глагол",
+          "items": [
+            "не буду я это есть!",
+            "не извинюсь, и всё",
+            "не пойду, не проси"
+          ]
+        },
+        {
+          "title": "won't be + -ing",
+          "items": [
+            "завтра меня не будет на занятии",
+            "мы не останемся на ужин, простите",
+            "в пятницу меня не будет в офисе"
+          ]
+        }
+      ],
+      "explanation": "упрямый отказ — чистая воля, его говорят голым won't. Спокойное «меня не будет», «не останемся» — сообщение о ходе дел без нажима, это won't be + -ing."
     }
   ],
   "find_the_odd_exercises": [
