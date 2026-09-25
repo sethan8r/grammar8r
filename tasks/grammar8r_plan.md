@@ -8254,13 +8254,13 @@ theory/
 │   │   │       I might be working late tomorrow · We should be arriving around six · going to be -ing
 │   │   │       (I'm going to be working all weekend) — полноценная разговорная замена, особенно в AmE.
 │   │   │
-│   │   ├── МТ · would be doing · Пересказ, мысли и условные  (2 карточки; слив 5) ← ОБЕЩАНО В REPORTED SPEECH
-│   │   │   ├── Card · Пересказ: will be → would be
+│   │   ├── МТ277 · would be doing · Пересказ, мысли и условные  (2 карточки; слив 5) ✅ (написана, ALL GREEN 25.09.26) ← ОБЕЩАНО В REPORTED SPEECH
+│   │   │   ├── Card 742 · Пересказ: will be → would be
 │   │   │   │   I'll be waiting → He said he'd be waiting · вопрос She asked if I'd be using the car
 │   │   │   │   (прямой порядок) · this time tomorrow → at that time the next day. Ключ чтения 'd:
 │   │   │   │   'd be + -ing = would · 'd been + -ing = had (callback Card 463). Когда не сдвигаем: He
 │   │   │   │   said he'll be waiting (а завтра ещё не наступило). AI «Перескажи» (FREE_WRITE, NONE).
-│   │   │   └── Card · Мысли и условные
+│   │   │   └── Card 743 · Мысли и условные
 │   │   │       I knew she'd be waiting · I thought you'd be sleeping. В условных: If we leave late,
 │   │   │       we'll be sitting in traffic · If I were rich, I'd be lying on a beach now · смешанный тип —
 │   │   │       возврат к Card 501 (там форма стояла без объяснения).
