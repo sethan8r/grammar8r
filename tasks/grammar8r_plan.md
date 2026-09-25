@@ -8244,13 +8244,13 @@ theory/
 │   │   │       Не всегда «буду делать»: Будете платить картой? · скоро совершим посадку · наверное,
 │   │   │       спит · вот-вот приедут (any minute) · Что-нибудь ещё? · Ещё увидимся (I'll be seeing you).
 │   │   │
-│   │   ├── МТ · Guesses · Догадки: she'll be sleeping  (2 карточки; слив 5)
-│   │   │   ├── Card · Догадка о том, что идёт СЕЙЧАС
+│   │   ├── МТ276 · Guesses · Догадки: she'll be sleeping  (2 карточки; слив 5) ✅ (написана, ALL GREEN 25.09.26)
+│   │   │   ├── Card 740 · Догадка о том, что идёт СЕЙЧАС
 │   │   │   │   Don't call Lena now — she'll be sleeping · It's 3 a.m. in Tokyo — Ken will be sleeping.
 │   │   │   │   Шкала: must be sleeping (вывод по улике) · will be sleeping (уверен, знаю распорядок) ·
 │   │   │   │   might be sleeping. Ловушка: русская рука ищет будущее, а его здесь нет. AI (ситуация →
 │   │   │   │   догадка, GENERAL).
-│   │   │   └── Card · С оговоркой: модальный или going to вместо will
+│   │   │   └── Card 741 · С оговоркой: модальный или going to вместо will
 │   │   │       I might be working late tomorrow · We should be arriving around six · going to be -ing
 │   │   │       (I'm going to be working all weekend) — полноценная разговорная замена, особенно в AmE.
 │   │   │

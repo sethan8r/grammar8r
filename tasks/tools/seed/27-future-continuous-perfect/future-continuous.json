@@ -53,6 +53,13 @@
       "title": "Which Future · Русское «буду»: куда его девать",
       "order": 5,
       "searchKeywords": "буду благодарен по-английски, буду на связи, буду стараться, буду рад по-английски, i'll be seeing you, any minute"
+    },
+    {
+      "id": 276,
+      "topicId": 41,
+      "title": "Guesses · Догадки: she'll be sleeping",
+      "order": 6,
+      "searchKeywords": "she'll be sleeping, наверное спит по-английски, will без будущего, might be working, should be arriving, going to be doing"
     }
   ],
   "grammar_cards": [
@@ -2989,6 +2996,422 @@
         "Что значит any minute?",
         "Когда I'll be seeing you уместно, а когда нет?"
       ]
+    },
+    {
+      "id": 740,
+      "microtopicId": 276,
+      "title": "Догадка о том, что идёт сейчас",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "У этого времени есть роль-сюрприз: форма та же, что мы собирали всю тему, а будущего в ней нет ни капли."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't call Lena now — she'll be sleeping.** — не звони Лене сейчас, она наверняка спит",
+            "**It's 3 a.m. in Tokyo — Ken will be sleeping.** — в Токио сейчас три часа ночи, Кен, конечно, спит"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе фразы — про эту самую минуту. Говорящий не видит ни Лену, ни Кена, но уверен, чем они заняты."
+        },
+        {
+          "type": "heading",
+          "text": "Откуда это взялось"
+        },
+        {
+          "type": "paragraph",
+          "text": "Новой грамматики здесь нет — есть две детали, которые мы уже знаем из «Модальных глаголов»:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`will` там умел гадать о настоящем: **That'll be the postman** — это, наверное, почтальон; **He'll be at work** — он наверняка на работе",
+            "догадка о процессе там собиралась так: **He must be sleeping** — наверняка спит"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ставим will на место must — и получаем **He'll be sleeping**. Сборка та же, просто will здесь работает не как метка будущего, а как модальный, который гадает."
+        },
+        {
+          "type": "heading",
+          "text": "Звуки за стеной"
+        },
+        {
+          "type": "paragraph",
+          "text": "Такие догадки особенно часто звучат, когда человека не видно, но слышно или известно, что происходит:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Listen to that! Dad will be snoring again.** — слышишь? папа, небось, опять храпит",
+            "**What's that noise? Mum will be vacuuming the living room.** — что за шум? мама, наверное, пылесосит гостиную",
+            "**Tom's late — he'll be sitting in a traffic jam.** — Том опаздывает: наверняка стоит в пробке"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Jam — это и «варенье, джем», и «затор». В `traffic jam` второе: дословно «затор движения», по-живому «пробка»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "На что опирается догадка"
+        },
+        {
+          "type": "paragraph",
+          "text": "Лестницу уверенности мы уже строили в «Модальных глаголах». С `-ing` она выглядит так:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Фраза",
+            "На что опирается говорящий"
+          ],
+          "rows": [
+            [
+              "He must be sleeping.",
+              "улика: свет у него не горит"
+            ],
+            [
+              "He'll be sleeping.",
+              "знаю его распорядок, спокойно уверен"
+            ],
+            [
+              "He should be sleeping.",
+              "по идее так заведено: уже поздно"
+            ],
+            [
+              "He might be sleeping.",
+              "просто один из вариантов"
+            ],
+            [
+              "He can't be sleeping.",
+              "невозможно: я слышу его голос"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это не проценты уверенности: must и will по силе почти равны. Различаются они опорой. must делает вывод из того, что видно или слышно сейчас. will опирается на знание: я знаю этого человека, знаю, как устроен его день, — и спокойно говорю, чем он занят."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Увидели will — и рука переводит «будет спать». **She'll be sleeping now** — не «она будет спать», а «она сейчас, наверное, спит». Подсказывает обстановка: now, «в Токио три ночи», «не берёт трубку», «что за шум?». Есть такое «сейчас» — перед нами догадка, а не будущее."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "По-ученически и по-английски"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Maybe she is sleeping** — понятно и не ошибка, но звучит по-ученически. Носитель скорее скажет **She'll be sleeping** или **She must be sleeping**. Как мы видели в «Модальных глаголах», русский прячет «наверное» в наречие, а английский — в сам глагол."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и догадка о месте"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**He won't be working now — it's Sunday.** — вряд ли он сейчас работает: воскресенье",
+            "**She'll be at home by now.** — она уже наверняка дома; это догадка о месте, без `-ing`, из «Модальных глаголов»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где ломается сборка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She will sleep** — это уже будущее «будет спать» или «уснёт», а не догадка о том, что идёт сейчас",
+            "**She'll be sleep** ✗ → **She'll be sleeping** ✓",
+            "**She must sleeping** ✗ → **She must be sleeping** ✓"
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Форма will be + -ing бывает и без будущего: уверенная догадка о том, что человек делает прямо сейчас. **Don't call Lena now — she'll be sleeping** — наверняка спит."
+        },
+        {
+          "type": "heading",
+          "text": "Шкала догадки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**must be sleeping** — улика: свет не горит",
+            "**will be sleeping** — знаю его распорядок",
+            "**should be sleeping** — по идее так заведено",
+            "**might be sleeping** — просто вариант",
+            "**can't be sleeping** — невозможно"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как узнать догадку"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Рядом «сейчас»: now, «не берёт трубку», «что за шум» — значит, это не будущее",
+            "**Maybe she is sleeping** — понятно, но носитель скажет **She'll be sleeping**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She'll be sleep** ✗ → **She'll be sleeping** ✓",
+            "**She must sleeping** ✗ → **She must be sleeping** ✓",
+            "**She will sleep** — это будущее «уснёт», для догадки нужны be и -ing"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Не звони Лене сейчас — она наверняка спит.",
+          "en": "Don't call Lena now — she'll be sleeping."
+        },
+        {
+          "ru": "В Токио три часа ночи — Кен, конечно, спит.",
+          "en": "It's 3 a.m. in Tokyo — Ken will be sleeping."
+        },
+        {
+          "ru": "Слышишь? Папа, наверное, опять храпит.",
+          "en": "Listen to that! Dad will be snoring again."
+        },
+        {
+          "ru": "Мама, наверное, пылесосит гостиную.",
+          "en": "Mum will be vacuuming the living room."
+        },
+        {
+          "ru": "Том наверняка стоит в пробке.",
+          "en": "Tom will be sitting in a traffic jam."
+        },
+        {
+          "ru": "Вряд ли он сейчас работает — воскресенье.",
+          "en": "He won't be working now — it's Sunday."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, что will здесь про сейчас, а не про будущее?",
+        "Чем she'll be sleeping отличается от she must be sleeping?",
+        "Можно ли просто сказать maybe she is sleeping?"
+      ]
+    },
+    {
+      "id": 741,
+      "microtopicId": 276,
+      "title": "С оговоркой: модальный или going to вместо will",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "В прошлой карточке модальный гадал о настоящем. Та же сборка работает и про будущее: берём `will be + -ing` и меняем will на другой модальный, когда хотим оговориться."
+        },
+        {
+          "type": "heading",
+          "text": "Уверенно или с оговоркой"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll be working late tomorrow.** — завтра задержусь на работе: так и будет",
+            "**I might be working late tomorrow.** — возможно, завтра задержусь: не уверен",
+            "**We should be arriving around six.** — если всё пойдёт как надо, приедем около шести"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Модальный + be + -ing"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сборка знакомая: модальный, голая be и глагол с `-ing`. Меняется только первое слово — а вместе с ним уверенность:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**might**, **may**, **could** — возможно, так выйдет",
+            "**should** — по плану так и будет, если ничего не помешает"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`should` здесь — ожидание, как в микротеме «Should / Ought to · Совет — и ожидание»: так должно быть по графику, но жизнь может вмешаться. **We should be landing at seven** — по расписанию сядем в семь, если погода позволит."
+        },
+        {
+          "type": "heading",
+          "text": "С отрицанием"
+        },
+        {
+          "type": "paragraph",
+          "text": "not встаёт после модального: **I might not be coming tonight** — возможно, сегодня я не приду. Это ещё и мягкий способ предупредить: ничего не обещаю, но и не отказываюсь."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I might be not coming** ✗ → **I might not be coming** ✓. not цепляется к первому служебному слову, как и в **won't be coming**."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Выходные с оговоркой"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We might be doing some sightseeing on Saturday.** — в субботу мы, может, походим по достопримечательностям",
+            "**The kids could be sleeping at a friend's on Friday.** — в пятницу дети, возможно, заночуют у друга"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "going to be + -ing — та же мысль, разговорнее"
+        },
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы коротко упоминали, что в разговоре, особенно американском, вместо `will be + -ing` часто говорят `going to be + -ing`. Это полноправная замена, смысл тот же:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm going to be working all weekend.** — все выходные я буду работать",
+            "**On Sunday we're going to be visiting an exhibition.** — в воскресенье мы пойдём на выставку"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибкой такой вариант не бывает — это просто более разговорный выбор."
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Хочешь оговориться — ставишь на место will другой модальный, а be + -ing остаются."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Модальный + be + -ing"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I might be working late tomorrow** — возможно, задержусь",
+            "**We should be arriving around six** — по плану, если ничего не помешает",
+            "**I might not be coming tonight** — возможно, не приду"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рядом работает going to"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'm going to be working all weekend** — та же мысль, разговорнее"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I might be not coming** ✗ → **I might not be coming** ✓ — not после модального"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Возможно, завтра я задержусь на работе.",
+          "en": "I might be working late tomorrow."
+        },
+        {
+          "ru": "Мы должны приехать около шести.",
+          "en": "We should be arriving around six."
+        },
+        {
+          "ru": "Возможно, сегодня вечером я не приду.",
+          "en": "I might not be coming tonight."
+        },
+        {
+          "ru": "В субботу мы, может, походим по достопримечательностям.",
+          "en": "We might be doing some sightseeing on Saturday."
+        },
+        {
+          "ru": "Все выходные я буду работать.",
+          "en": "I'm going to be working all weekend."
+        },
+        {
+          "ru": "В воскресенье мы пойдём на выставку.",
+          "en": "On Sunday we're going to be visiting an exhibition."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем might be working отличается от will be working?",
+        "Что значит should в We should be arriving?",
+        "Можно ли вместо will be working сказать going to be working?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3261,6 +3684,42 @@
       "exerciseType": "CONSTRUCTION_MEANING",
       "exerciseId": 112,
       "orderInCard": 2
+    },
+    {
+      "cardId": 740,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 128,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 740,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 263,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 740,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 241,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 741,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 113,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 741,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 290,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 741,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 258,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -3301,6 +3760,14 @@
       "cardId": 738,
       "title": "Куда девать «буду»",
       "userInstruction": "ИИ даст русскую фразу со словом «буду». Скажите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_continuous_card740_ex1",
+      "cardId": 740,
+      "title": "Угадай, чем он занят",
+      "userInstruction": "ИИ опишет ситуацию. Скажите по-английски, чем, скорее всего, человек занят прямо сейчас.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -3481,6 +3948,46 @@
       "transcription": "[tuː ˈaɪən]",
       "microtopicId": 275,
       "categoryId": "tenses"
+    },
+    {
+      "id": 965,
+      "word": "to snore",
+      "translation": "храпеть",
+      "transcription": "[tuː snɔː]",
+      "microtopicId": 276,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 966,
+      "word": "to vacuum",
+      "translation": "пылесосить",
+      "transcription": "[tuː ˈvækjuːm]",
+      "microtopicId": 276,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 967,
+      "word": "sightseeing",
+      "translation": "осмотр достопримечательностей",
+      "transcription": "[ˈsaɪtsiːɪŋ]",
+      "microtopicId": 276,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 968,
+      "word": "exhibition",
+      "translation": "выставка",
+      "transcription": "[ˌeksɪˈbɪʃən]",
+      "microtopicId": 276,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 969,
+      "word": "jam",
+      "translation": "пробка (на дороге), затор, джем",
+      "transcription": "[dʒæm]",
+      "microtopicId": 276,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -3640,6 +4147,37 @@
         }
       ],
       "explanation": "будешь чай или сок — угощение, для него есть Would you like some tea or juice? После will be нужна форма на -ing: Will you be paying in cash?"
+    },
+    {
+      "id": 263,
+      "statements": [
+        {
+          "en": "It's midnight — Anya will be sleeping.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Don't call now, she'll be work.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The kids are quiet — they must be watching cartoons.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "Maybe he is cooking dinner.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "He must cooking — I can smell onions.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "догадке о процессе нужны все три части: she'll be working, he must be cooking. Maybe he is cooking — не ошибка, просто по-ученически: носитель скажет he'll be cooking или he must be cooking."
     }
   ],
   "word_arrangement_exercises": [
@@ -3723,6 +4261,24 @@
         "am"
       ],
       "explanation": "спокойное сообщение о ходе дел — won't be coming: так «меня не будет» не звучит как отказ. comes — форма настоящего времени, being вместо be ломает сборку, а don't и am тут чужие помощники."
+    },
+    {
+      "id": 241,
+      "situationRu": "Ситуация: подруга не отвечает на звонки. Вы знаете, что по средам вечером у неё тренировка, и уверенно предполагаете, чем она сейчас занята.",
+      "correctSentence": "She will be training right now.",
+      "words": [
+        "She",
+        "will",
+        "be",
+        "training",
+        "right now"
+      ],
+      "distractors": [
+        "being",
+        "am",
+        "trained"
+      ],
+      "explanation": "знаю распорядок и уверен — will be training: догадка о том, что идёт прямо сейчас. being после will не встаёт, am не подходит к she, а trained — прошедшая форма, после be нужна форма на -ing."
     }
   ],
   "multiple_choice_exercises": [
@@ -3956,6 +4512,48 @@
         }
       ],
       "explanation": "any minute — «с минуты на минуту»: приезд уже идёт своим ходом, осталось совсем чуть-чуть. По-русски так и говорят — «вот-вот приедет». «Будет ехать минуту» — дословный перевод, который меняет смысл, а «приехало» — прошедшее."
+    },
+    {
+      "id": 128,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Don't phone Grandma now — she'll be watching her favourite show.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Не звони бабушке сейчас — она будет смотреть свою любимую передачу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Не звони бабушке сейчас — она смотрела свою любимую передачу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Не звони бабушке сейчас — она наверняка смотрит свою любимую передачу.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "now показывает, что речь об этой минуте: will be watching здесь — уверенная догадка, а не будущее. Говорящий знает бабушкин распорядок и уверен, чем она занята. «Будет смотреть» — ошибка чтения, «смотрела» — прошедшее."
+    },
+    {
+      "id": 290,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Возможно, я завтра не приду на тренировку.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I might not be coming to training tomorrow.",
+          "isCorrect": true
+        },
+        {
+          "text": "I might be not coming to training tomorrow.",
+          "isCorrect": false
+        },
+        {
+          "text": "I might not coming to training tomorrow.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "not встаёт сразу после модального, а дальше идут be и глагол с -ing: might not be coming. Без be форма разваливается."
     }
   ],
   "text_input_exercises": [],
@@ -4220,6 +4818,25 @@
         }
       ],
       "explanation": "после won't связка голая — be, а глагол получает -ing: won't be sleeping. Don't сюда не подходит: помощник здесь will, в отрицании он превращается в won't."
+    },
+    {
+      "id": 258,
+      "wrongSentence": "We're going to being working all weekend.",
+      "options": [
+        {
+          "text": "We're going to be work all weekend.",
+          "isCorrect": false
+        },
+        {
+          "text": "We going to be working all weekend.",
+          "isCorrect": false
+        },
+        {
+          "text": "We're going to be working all weekend.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "после going to идёт голая be, а за ней глагол с -ing: going to be working. Без are выпадает сама конструкция going to, а голое work после be не встаёт."
     }
   ],
   "construction_meaning_exercises": [
@@ -4383,6 +5000,29 @@
         }
       ],
       "explanation": "staying — «пребывание, гостить»: вопрос о том, сколько продлится ваш визит. По-русски его задают коротко — «Вы надолго?». «Стоять» — ошибка перевода stay, «оставались» — прошедшее, «навсегда» — другой смысл."
+    },
+    {
+      "id": 113,
+      "construction": "Our train should be arriving at ten.",
+      "options": [
+        {
+          "text": "Наш поезд обязан прибыть в десять.",
+          "isCorrect": false
+        },
+        {
+          "text": "Наш поезд по расписанию прибывает в десять.",
+          "isCorrect": true
+        },
+        {
+          "text": "Наш поезд, наверное, сейчас прибывает.",
+          "isCorrect": false
+        },
+        {
+          "text": "Наш поезд прибыл в десять.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "should be arriving — ожидание по графику: так должно быть, если ничего не помешает. «Обязан» — слишком жёстко, это не приказ; «наверное, сейчас» — догадка о настоящем, а здесь названо время в будущем; «прибыл» — прошедшее."
     }
   ],
   "transformation_exercises": [
