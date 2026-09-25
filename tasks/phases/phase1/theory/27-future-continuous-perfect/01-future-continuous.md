@@ -3395,13 +3395,242 @@ RU: В восемь зрители будут сидеть в зале.
 
 ---
 
+## Microtopic 280 — Live Practice · Future Continuous вживую с ИИ
+
+**ID:** 280
+**Теги:** потренировать will be doing, живая практика с ии, проверить себя will или will be, найди ошибку will be doing
+
+---
+
+### Card 749 · Живая практика: Future Continuous в деле
+
+**ID:** 749
+
+#### Theory
+
+Тема пройдена целиком: девять микротем — от сборки формы до пассива и выбора между пятью способами говорить о будущем. Осталось то, чему учит только практика: выбирать форму на лету и не ставить `will be + -ing` туда, где его не ждут.
+
+**Корень всей темы**
+
+`will` + глагол — событие целиком: факт, решение, обещание, прогноз. `will be + -ing` — процесс в разгаре или ход дел, который уже заведён. Образ — эфир по сетке вещания: передача стоит в программе, включишь в назначенный час — она идёт.
+
+**Формула:** will + be + -ing
+
+**Сборка**
+
+- Одна форма на все лица, связка после `will` голая: **She'll be working** — не `will is`, не `will being`, и голого глагола после `be` тоже нет.
+- Отрицание — `won't be` + `-ing`: **I won't be working tomorrow**. `not` цепляется к `will`, а не к `be`.
+- Вопрос — вперёд выходит только `will`: **Will you be working?**, **What will you be doing at six?** К подлежащему — без перестановки: **Who'll be driving?**
+- Краткие ответы — **Yes, I will** / **No, I won't**. «Разве не…?» — **Won't you be joining us?**
+- Наречие встаёт между `will` и `be`: **I'll still be working**. В отрицании — перед `won't`: **I probably won't be there**.
+- На слух `'ll` почти пропадает, а `won't` [[wəʊnt]] легко спутать с `want` [[wɒnt]]: после `want` стоит `to`.
+- Глаголы состояния в форму не встают: **I'll know the answer tomorrow**. Живые исключения — **I'll be seeing Tom** (встречаться), **Will you be needing anything else?** (сервис), **I'll be having lunch** (есть).
+
+**Где живёт это время**
+
+| Роль | Признак | Пример |
+|------|---------|--------|
+| процесс в точке | this time tomorrow, at eight, in an hour | This time tomorrow I'll be flying to Porto |
+| фон для события | when + настоящее | I'll be cooking when you arrive |
+| отрезок, временный график | all day, next month | I'll be working nights next month |
+| так и так выйдет, объявления | anyway, shortly | I'll be passing the shop anyway |
+| вежливый вопрос, сервис | Will you be…? | Will you be using the car tonight? |
+| нейтральное «не приду» | won't be + -ing | I won't be coming in tomorrow |
+| догадка о «сейчас» | now, не берёт трубку | She'll be sleeping now |
+| с оговоркой | might, should, going to | I might be working late |
+| пересказ и мысли | said, thought | He said he'd be waiting |
+| условные | if, now | I'd be lying on a beach now |
+
+Для точки работает одна проверка — «войду в эту минуту — застану за делом?». Застану — `will be + -ing`: **At eight I'll be having dinner**. Дело только начнётся — `will` + глагол: **At eight I'll have dinner**. «Через час» от сейчас — `in an hour`, а не `after an hour`. «Уже буду спать» — **I'll be asleep**.
+
+**Пассив рядом**
+
+После `will be` решает следующее слово: `-ing` — процесс (**The shop will be closing at nine**), V3 — над предметом сделают или он будет в таком состоянии (**The shop will be closed on Sunday**), `be` нет вовсе — событие (**The shop will close at nine**).
+
+«Будет строиться всё лето» по-английски — не **will be being built**: две связки подряд, так почти не говорят. Длительность важна — **They'll be building it all summer**, нужно состояние — **It'll be under construction**, важен итог — **The windows will be replaced next month**.
+
+**Когда нужен will**
+
+Даже если тянет к `-ing`, носитель берёт `will`, когда:
+
+- посчитан результат — **The band will perform three songs**
+- решение прямо сейчас — звонят в дверь: **I'll get it!**
+- обещание — **I'll call you every day, I promise**
+- глагол состояния — **I'll know the results tomorrow**
+
+**Русское «буду»**
+
+На место одного «буду» английский ставит разные формы. Четыре вопроса по порядку:
+
+1. после «буду» нет глагола → `will be` + признак или место: **I'll be at home**
+2. обещаю или соглашаюсь прямо сейчас → `will`: **OK, I'll wait**
+3. намерение, решил заранее → `going to`: **I'm going to learn Spanish**
+4. в ту минуту или весь отрезок буду за делом → `will be + -ing`
+
+Готовые фразы: «буду благодарен» → **I'd be grateful if you could…**, «буду на связи» → **I'll be available**, «буду ждать ответа» → **I look forward to hearing from you**, «буду ждать тебя» → **I'll be waiting for you**, «будешь чай?» → **Would you like some tea?**, упрямое «не буду!» → **I won't!**
+
+А в обратную сторону это время часто звучит по-русски вовсе без «буду»: **Will you be paying by card?** — «Картой?», **We'll be landing shortly** — «Скоро совершим посадку».
+
+**Компас**
+
+Сначала вопрос к этому времени: процесс в минуту или на отрезке, фон, «так и так выйдет», вежливый вопрос, догадка о «сейчас»? → `will be + -ing`. Нет — четыре вопроса «Карты будущего»: расписание → Present Simple, договорились → Present Continuous, решил заранее или вижу признак → `going to`, иначе → `will`.
+
+Разницы почти нет между **What are you doing tonight?** и **What will you be doing tonight?**, между **I'm meeting Ben at six** и **I'll be meeting Ben at six**. `going to be + -ing` — разговорный двойник этого времени. А рассказ целиком на `will be + -ing` звучит как диктор: сюжет ведёт `will`, это время — фон.
+
+**Техника, которую проверяют задания**
+
+- **I'll be work late** ✗ → **I'll be working late** ✓
+- **He will being waiting** ✗ → **He will be waiting** ✓
+- **I will be not working** ✗ → **I won't be working** ✓
+- **Will be you flying?** ✗ → **Will you be flying?** ✓
+- **I won't probably be there** ✗ → **I probably won't be there** ✓
+- **I'll be knowing the answer tomorrow** ✗ → **I'll know the answer tomorrow** ✓
+- **After an hour we'll be landing** ✗ → **In an hour we'll be landing** ✓
+- **I'll be sleeping when you will come** ✗ → **I'll be sleeping when you come** ✓
+- **Will you be tea?** ✗ → **Would you like some tea?** ✓
+- **She must sleeping** ✗ → **She must be sleeping** ✓
+- **Ben asked what would I be doing** ✗ → **Ben asked what I would be doing** ✓
+- **If I would be rich, I'd be travelling** ✗ → **If I were rich, I'd be travelling** ✓
+- **The house will be being built all summer** ✗ → **They'll be building the house all summer** ✓
+- **The lift will installed** ✗ → **The lift will be installed** ✓
+
+**Что вас ждёт в заданиях**
+
+- **Скажи по-английски.** Русская фраза о будущем с подсказкой в самой ситуации: точное время, весь вечер, «когда ты придёшь», вежливый вопрос, «меня не будет», «будет ремонтироваться». Какую форму взять — решаете вы.
+- **Что на самом деле сказано.** Две английские фразы, которые различаются одной формой. Объясните своими словами, что сообщает каждая.
+- **Найди и исправь.** Три предложения, в одном ошибка: найдите его, перепишите правильно и своими словами скажите, что было не так.
+
+**Чего в заданиях не будет**
+
+Третьей картинки — «к шести я уже закончу». Это Future Perfect, следующая тема раздела.
+
+**ИИ — это тренажёр, а не экзамен**
+
+Ошибиться здесь нормально и даже полезно. На каждую ошибку ИИ покажет верный вариант, назовёт причину и — это главное — скажет, что значила бы **ваша** фраза. Она почти всегда настоящая английская, просто про другое: **I won't come tomorrow** — не мусор, а «не приду, и не уговаривайте», хотя вы хотели просто сказать, что вас не будет. Уйти отсюда нужно не с оценкой, а с парой в голове.
+
+**Встретится то, чего мы не давали**
+
+ИИ говорит на живом английском, и в его фразах может проскочить конструкция из будущих тем. Пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод.
+
+**Как это устроено**
+
+- **Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».
+- **Слова — ваши.** В задании «Скажи по-английски» подтягивается порция слов, которые вы уже знаете: трудность должна быть в выборе формы, а не в незнакомой лексике.
+- **Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Событие целиком — `will` + глагол. Процесс в разгаре или ход дел, который уже заведён, — `will be + -ing`.
+
+**Формула:** will + be + -ing
+
+**Сборка**
+
+- После `will` голая `be`, после `be` форма на `-ing`: **will be working**
+- Отрицание **won't be working**, вопрос **Will you be working?** — вперёд только `will`
+- Наречие между `will` и `be`: **I'll still be working**, но **I probably won't be**
+- Глагол состояния — через `will`: **I'll know**; но **I'll be seeing Tom** (встречаться), **Will you be needing anything else?** (сервис)
+
+**Когда will be + -ing**
+
+- Точка, застану за делом: **At eight I'll be having dinner**; «через час» — **in an hour**; «уже буду спать» — **I'll be asleep**
+- Фон: **I'll be cooking when you arrive** — после `when` и `while` настоящее
+- Отрезок, временный график: **I'll be working nights next month**
+- Так и так выйдет, объявления: **I'll be passing the shop anyway**, **We'll be landing shortly**
+- Вежливый вопрос, сервис: **Will you be using the car tonight?**, **Will you be paying by card?**
+- Нейтральное «не приду»: **I won't be coming in tomorrow**
+- Догадка о «сейчас»: **She'll be sleeping now**, по улике — **She must be sleeping**
+- С оговоркой: **I might be working late**, **We should be arriving around six**
+- Пересказ и условные: **He said he'd be waiting**, **I'd be lying on a beach now**
+
+**Когда will**
+
+- Начнётся в эту минуту: **At eight I'll have dinner**
+- Решение сейчас, обещание: **I'll get it!**, **I'll call you every day**
+- Посчитан результат: **The band will perform three songs**
+
+**Пассив**
+
+- **will be closing** — процесс · **will be closed** — состояние · **will close** — событие
+- Итог — пассив с `be`: **The windows will be replaced on Friday**
+- «Будет строиться» → **They'll be building it** или **It'll be under construction**
+
+**Русское «буду»**
+
+- Благодарен → **I'd be grateful**, будешь чай → **Would you like some tea?**, не буду! → **I won't!**
+
+**Легко перепутать**
+
+- **Will you come?** — похоже на просьбу ↔ **Will you be coming?** — узнаю планы
+- **I won't come** — может прозвучать как отказ ↔ **I won't be coming** — просто меня не будет
+- **When you arrive, I'll make dinner** — начну потом ↔ **I'll be making dinner** — застанешь у плиты
+- **I'll see Tom** — схожу специально ↔ **I'll be seeing Tom anyway** — так и так увижусь
+- **The baby will sleep soon** — уснёт ↔ **The baby will be sleeping now** — наверное, спит
+- **I'll call you every day** — обещание ↔ **I'll be calling you every day** — так пойдут дела
+- **I'd live by the sea** — вообще ↔ **I'd be lying on a beach now** — прямо сейчас
+- **I'll travel to Spain in May** — поездка точкой ↔ **In May I'll be travelling around Spain** — весь май в пути
+
+**Частые ошибки**
+
+- **Will be you flying?** ✗ → **Will you be flying?** ✓
+- **I will be not working** ✗ → **I won't be working** ✓
+- **I won't probably be** ✗ → **I probably won't be** ✓
+- **when you will come** ✗ → **when you come** ✓
+- **I'll be knowing** ✗ → **I'll know** ✓
+- **asked what would I be doing** ✗ → **asked what I would be doing** ✓
+- **If I would be rich** ✗ → **If I were rich** ✓
+
+#### AI Exercise
+
+**ID:** future_continuous_card749_ex1
+**Title:** "Скажи по-английски"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст русскую фразу о будущем. Скажите её по-английски."
+**Prompt Template:** "Контекст: пользователь прошёл тему Future Continuous целиком и выполняет финальное задание. Он знает корень: will + глагол — событие целиком (факт, решение, обещание, прогноз), will be + глагол с -ing — процесс в разгаре или уже заведённый ход дел. Сборка: одна форма на все лица, после will голая be, после be форма на -ing (will be work, will being, will is неверно); отрицание won't be + -ing (not цепляется к will: will be not неверно); вопрос Will you be + -ing? — вперёд выходит только will (Will be you неверно); наречие между will и be (I'll still be working), в отрицании перед won't (I probably won't be there); глаголы состояния в форму не встают (I'll know, не I'll be knowing), кроме see в смысле «встречаться», need в речи сервиса и have в смысле «есть». Роли: процесс в точке — проверка «войду в эту минуту — застану за делом?» (At eight I'll be having dinner — уже за столом, At eight I'll have dinner — в восемь сяду ужинать), «через час» от сейчас — in an hour, не after an hour, «уже буду спать» — I'll be asleep или I'll be sleeping; фон для события — после when и while настоящее (I'll be cooking when you arrive; While you're sleeping, I'll be packing); отрезок и временный график (I'll be working nights next month); ход дел «так и так выйдет» и объявления (I'll be passing the shop anyway; We'll be landing shortly); вежливый вопрос о планах и речь сервиса (Will you be using the car tonight? мягче, чем Will you use…, которое похоже на просьбу; Will you be paying by card?); нейтральное «меня не будет» (I won't be coming in tomorrow, а I won't come может прозвучать как отказ); догадка о том, что идёт сейчас (She'll be sleeping now — знаю распорядок; She must be sleeping — по улике); с оговоркой (I might be working late; We should be arriving around six; going to be + -ing — разговорный двойник). Пассив: после will be решает следующее слово — -ing процесс (will be closing), V3 сделают или состояние (will be closed), без be событие (will close); пассиву нужна be (will be installed); «будет строиться всё лето» — не will be being built, так почти не говорят, а They'll be building it all summer, It'll be under construction, а если важен итог — will be + V3 (The windows will be replaced next month). will нужен, даже когда тянет к -ing: посчитан результат (The band will perform three songs), решение в эту секунду (I'll get it!), обещание (I'll call you every day, I promise), глагол состояния. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to и выбор между ними, условные предложения, модальные глаголы, герундий, страдательный залог во всех живых формах, косвенные вопросы, придаточные с who, which, that, косвенная речь и всю тему Future Continuous. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect и Future Perfect Continuous (will have done, will have been doing, will have been done) — фраз со смыслом «к шести уже сделаю» не давай. ЗАДАНИЕ: дай пользователю ОДНО русское предложение о будущем и попроси сказать его по-английски. Фраза обязана нести признак, по которому выбирается форма: точное время, «через час», отрезок, «когда ты придёшь», вежливый вопрос о планах, нейтральное «меня не будет», «заодно», догадку о «сейчас», оговорку, стройку или ремонт — либо признак границы, где нужен will. В условии не подсказывай форму. Бери только знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе формы, а не в незнакомой лексике. ДЕРЖИ ФРАЗУ ПРОСТОЙ: 4-10 слов, одно подлежащее, одно действие; придаточное — только в пунктах про «когда» и «пока»; бытовая лексика уровня A2; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. точка времени (Завтра в это время я буду сидеть на пляже.) 2. через час (Через час мы будем садиться в самолёт.) 3. отрезок (Весь вечер Оля будет готовиться к экзамену.) 4. временный график (В следующем месяце я буду ездить на работу на автобусе.) 5. фон для события с «когда» (Когда ты позвонишь, я буду мыть посуду.) 6. два процесса одновременно (Пока ты будешь спать, я буду собирать вещи.) 7. вежливый вопрос о планах (Ты будешь сегодня пользоваться принтером?) 8. вопрос сервиса (Вы будете оплачивать картой?) 9. нейтральное «меня не будет» (Завтра меня не будет на работе.) 10. «заодно, по пути» (Я всё равно буду проходить мимо почты.) 11. объявление (Через десять минут мы будем приземляться.) 12. догадка о «сейчас» (Не звони Игорю — он сейчас наверняка спит.) 13. с оговоркой (Возможно, завтра я задержусь на работе.) 14. стройка или ремонт на отрезке (Бассейн будет ремонтироваться всё лето.) 15. пассив-итог (Старые окна заменят в пятницу.) 16. пассив-состояние (В воскресенье магазин будет закрыт.) 17. граница: решение в эту секунду (Звонят в дверь: «Я открою!») 18. граница: дело начнётся в эту минуту (В восемь я сяду ужинать.) 19. граница: посчитанный результат (Сегодня я напишу три письма.) 20. граница: глагол состояния (Завтра я буду знать ответ.) Образцы дословно не повторяй. ОЦЕНКА: верна форма, которую требует признак фразы; полная форма и сокращения равноценны. Засчитывай законные варианты: Present Continuous для договорённости; going to be + -ing там, где подходит will be + -ing; must be + -ing в догадке; asleep и sleeping в «уже буду спать»; They'll replace the windows в пункте 15; It'll be closed for repairs в пункте 14. Разбирай по одной строке: для процесса поставил will + глагол — скажи, что тогда дело в эту минуту только начнётся, а по смыслу его застанут в разгаре; в пунктах 17-20 поставил will be + -ing — скажи, что форма собрана верно, но говорит о ходе дел, а здесь решение, начало, посчитанный итог или состояние, и дай will; после when или while поставил will — будущее уже сказано в главной части, после союза настоящее; «через час» передал как after an hour — after значит «спустя час после чего-то», от сейчас — in an hour; в пункте 7 написал Will you use — засчитай и скажи, что так вопрос похож на просьбу, мягче Will you be using; в пункте 9 написал I won't come — засчитай и скажи, что это может прозвучать как отказ, нейтрально — I won't be coming; в пункте 12 написал Maybe he is sleeping — засчитай и покажи, как сказал бы носитель: He'll be sleeping; в пункте 14 написал will be being + V3 — засчитай грамматику, но скажи, что так почти не говорят, и дай They'll be repairing it all summer или It'll be closed for repairs; на длительность поставил простой пассив (The pool will be repaired all summer) — скажи, что пропал процесс: «отремонтируют» вместо «будут ремонтировать»; в пунктах 15 и 16 потерял be (will replaced) — покажи will be replaced; в пункте 20 написал I'll be knowing — у знания нет разгара; поломки сборки (will be work, will being, will be not, Will be you, won't probably) — покажи собранную форму. При ошибке сначала скажи, что значила бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Когда ответ верный и рядом есть форма, которую легко спутать, добавь ОДНУ строку о том, что означала бы она; соседнюю форму не выдумывай — часто короткого «верно» достаточно. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Скажите по-английски: Когда ты придёшь, я буду гладить рубашки.'
+
+#### AI Exercise
+
+**ID:** future_continuous_card749_ex2
+**Title:** "Что на самом деле сказано"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст две английские фразы, которые различаются одной формой. Объясните своими словами, что сообщает каждая."
+**Prompt Template:** "Контекст: пользователь прошёл тему Future Continuous целиком и выполняет финальное задание. Он знает корень: will + глагол — событие целиком (факт, решение, обещание, прогноз), will be + глагол с -ing — процесс в разгаре или уже заведённый ход дел; проверка «войду в эту минуту — застану за делом?»; все пары из списка ниже разобраны в карточках темы. Он знает, что по-русски эта форма часто звучит без «буду»: Will you be paying by card? — «Картой?», We'll be landing shortly — «Скоро совершим посадку». ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to и выбор между ними, условные предложения, модальные глаголы, герундий, страдательный залог во всех живых формах, косвенные вопросы, придаточные с who, which, that, косвенная речь и всю тему Future Continuous. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect и Future Perfect Continuous — такие формы в фразы не ставь. ЗАДАНИЕ: опиши по-русски ОДНУ короткую ситуацию и дай две английские фразы, которые в ней можно сказать и которые различаются только формой глагола (в паре с магазином — три фразы); попроси пользователя своими словами объяснить, что каждая сообщает слушателю. Все фразы должны быть грамматически верными. В условии не подсказывай, в чём разница, и не переводи фразы. ДЕРЖИ ПРОСТЫМ: ситуация — одно короткое предложение, каждая фраза — 4-10 слов, бытовая лексика уровня A2, английские имена; в дебри не уходи. ВЫБОР ПАРЫ: памяти о прошлых запусках у тебя нет, поэтому пару выбирай случайно прямо сейчас, и порядок фраз внутри пары тоже выбирай случайно; в скобках — что сообщает каждая: 1. Will you come? ↔ Will you be coming? (похоже на просьбу или нажим ↔ просто узнаю планы). 2. I won't come ↔ I won't be coming (может прозвучать как отказ ↔ нейтрально «меня не будет»). 3. At eight I'll have dinner ↔ At eight I'll be having dinner (в восемь сяду ужинать ↔ в восемь застанешь за ужином). 4. When you arrive, I'll make dinner ↔ When you arrive, I'll be making dinner (начну после твоего прихода ↔ застанешь у плиты). 5. I'll see Tom and tell him ↔ I'll be seeing Tom anyway (схожу специально ↔ так и так увижусь, услуга без хлопот). 6. The shop will close at nine ↔ will be closing at nine ↔ will be closed at nine (закроется ↔ будет идти закрытие ↔ будет уже в закрытом состоянии). 7. The baby will sleep soon ↔ The baby will be sleeping now (скоро уснёт ↔ наверняка спит сейчас, догадка, а не будущее). 8. I'll call you every day, I promise ↔ I'll be calling you every day while you're away (обещание ↔ так будут идти дела). 9. If I were rich, I'd live by the sea ↔ I'd be lying on a beach now (вообще, как образ жизни ↔ прямо в эту минуту). 10. The band will perform three songs ↔ At nine the band will be performing (посчитанный итог ↔ процесс в точке). 11. I'll travel to Spain in May ↔ In May I'll be travelling around Spain (поездка точкой в календаре ↔ весь май в пути). 12. The windows will be replaced next week ↔ They'll be replacing the windows all next week (итог, над окнами сделают ↔ процесс на всю неделю). Образцы дословно не повторяй — меняй людей, предметы и места, сохраняя различие. ОЦЕНКА: оценивай объяснение ПО СУТИ, а не по формулировке: грамматических терминов от пользователя не жди, «первая — решение, вторая — он уже будет этим занят» — достаточно. Засчитывай, если пользователь уловил главное различие пары: событие или решение целиком ↔ процесс или ход дел, начнётся ↔ застанешь в разгаре, просьба ↔ вопрос о планах, отказ ↔ нейтральное «не будет», догадка о сейчас ↔ будущее, итог ↔ процесс. Если уловил только одну половину — засчитай и одной строкой допиши вторую. Если перепутал фразы местами — мягко покажи, какая что значит, и опиши картинку для каждой: что увидит тот, кто войдёт в эту минуту. Если сказал, что разницы нет, — в парах 5 и 8 признай, что оттенок небольшой, но назови его; в остальных покажи разницу на самой ситуации. Если пользователь перевёл слово в слово («будешь приходить», «буду ужинающим») — скажи, что по-русски так не говорят, и дай живой перевод. После разбора дай для каждой фразы короткий живой русский перевод. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Ситуация: подруга зовёт вас в гости в субботу. Что сообщает каждая фраза? 1. I won't come on Saturday. 2. I won't be coming on Saturday.'
+
+#### AI Exercise
+
+**ID:** future_continuous_card749_ex3
+**Title:** "Найди и исправь"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст три предложения. Найдите то, в котором есть ошибка, напишите его правильно и своими словами объясните, что было не так."
+**Prompt Template:** "Контекст: пользователь прошёл тему Future Continuous целиком. Он знает: форма собирается из will, голой be и глагола с -ing, одна на все лица; после will нет is, are и being, после be нет голого глагола и нет -s; отрицание — won't be + -ing, not цепляется к will; в вопросе вперёд выходит только will, be остаётся с -ing; наречие между will и be, а probably в отрицании — перед won't; глаголы состояния (know, want, understand) в форму не встают, будущее у них через will; после when и while настоящее время, будущее сказано в главной части; догадке нужны все части: must be + -ing, will be + -ing; в пересказе вопроса порядок прямой (asked what I would be doing), после would голая be и -ing; после if would не ставят (If I were rich); пассиву нужна be (will be installed); «будешь чай?» — Would you like some tea?, а не Will you be tea. Он знает и формы, которые выглядят непривычно, но верны: I'll be seeing Tom (see — встречаться), Will you be needing anything else? (сервис), She'll be sleeping now (догадка о настоящем), I might not be coming (оговорка, not после модального), They'll be building it all summer (актив вместо двух связок подряд), When you arrive, I'll be cooking (после when настоящее), I'll be asleep (состояние сна), He said he'd be waiting (пересказ). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог во всех живых формах, косвенные вопросы, придаточные с who, which, that, косвенная речь и всю тему Future Continuous. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect и Future Perfect Continuous — таких форм в предложениях не используй. ЗАДАНИЕ: дай пользователю ТРИ коротких английских предложения списком, каждое — о будущем или с этой формой. РОВНО В ОДНОМ из них должна быть грамматическая ошибка, два других — полностью правильные. Попроси найти сломанное, переписать его верно и своими словами сказать, что было не так. Номер сломанного предложения выбирай случайно. Оба верных предложения бери из списка ВЕРНЫХ ОБРАЗЦОВ ниже — это конструкции, которые кажутся подозрительными, чтобы ошибку приходилось находить по правилу, а не по непривычности. Спорных случаев ошибкой не делай: не ставь ошибкой выбор между will и will be + -ing (I'll be getting it), after an hour и форму will be being built — они собраны по правилам, и задание станет спорным. ДЕРЖИ ПРЕДЛОЖЕНИЯ ПРОСТЫМИ: 4-9 слов каждое, бытовая лексика, английские имена. Запятые во всех трёх расставь верно — ошибка должна быть только грамматической, не в знаках препинания. ВЕРНЫЕ ОБРАЗЦЫ, выбирай два случайно: а) I'll be seeing Tom anyway. б) Will you be needing anything else? в) She'll be sleeping now. г) I might not be coming tonight. д) They'll be building it all summer. е) When you arrive, I'll be cooking. ж) I probably won't be there. з) He said he'd be waiting. и) I'll be asleep by midnight. к) The shop will be closed on Sunday. Образцы дословно не повторяй — меняй имена, предметы и места, сохраняя конструкцию. ВЫБОР ОШИБКИ: памяти о прошлых запусках у тебя нет, поэтому ошибку выбирай случайно из списка прямо сейчас: 1. голый глагол после be: I'll be work late tomorrow. 2. being после will: Kate will being waiting outside. 3. -s после be: He'll be works at home tomorrow. 4. not после be: I will be not driving tonight. 5. be перед подлежащим в вопросе: Will be you using the car? 6. probably после won't: Tom won't probably be coming. 7. глагол состояния: I'll be knowing the results tomorrow. 8. will после when: I'll be cooking when you will arrive. 9. калька «будешь чай»: Will you be coffee? 10. догадка без be: She must sleeping now. 11. вопросительный порядок в пересказе: He asked what would I be doing. 12. голый глагол после 'd be: She said she'd be wait for us. 13. would после if: If I would be free, I'd be helping you. 14. пассив без be: The new lift will installed next week. ОЦЕНКА: засчитывай, если пользователь верно указал сломанное предложение и переписал его правильно. Объяснение оценивай ПО СУТИ, а не по формулировке: грамматических терминов от него не жди, «после be нужно -ing» и «вперёд выходит только will» — достаточно. Причину называй теми же словами, какими её объясняли в карточках: после will голая be, после be форма на -ing; not цепляется к will; в вопросе вперёд выходит только will; probably в отрицании встаёт перед won't; у знания нет разгара, поэтому I'll know; после when будущее не повторяют; «будешь чай?» — это угощение, для него Would you like some…?; догадке нужны be и -ing; внутри пересказа вопроса порядок как в утверждении; после if would не ставят; пассиву нужна be. ЗАСЧИТЫВАЙ: исправление, сделанное иначе, чем ты задумывал, если результат грамматически верен и смысл сохранён (I'll work late tomorrow вместо I'll be working late tomorrow; I won't be driving или I will not be driving; She must be sleeping или She'll be sleeping; If I were free, I'd help you); верное исправление при кривом или отсутствующем объяснении — тогда причину коротко назови сам. Если пользователь указал на верное предложение — объясни, почему оно верное, назови конструкцию (see — встречаться, needing в сервисе, догадка о сейчас, not после модального, актив вместо двух связок, после when настоящее) и не ругай: такие конструкции часто выглядят подозрительно именно потому, что они непривычные; потом покажи, какое предложение было сломано на самом деле. Если нашёл сломанное, но исправил с новой ошибкой — похвали находку и почини вторую часть. УЧИ, А НЕ ЭКЗАМЕНУЙ: сначала скажи, что означала бы сломанная фраза, если у неё есть смысл, и только потом дай верную. После разбора одной строкой подтверди, что два других предложения были верными, и назови, какая конструкция в них стояла. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: '1. I'll be seeing Kate anyway. 2. Will be you using the laptop tonight? 3. They'll be building the bridge all spring.'
+
+#### Clarification Options
+
+- Как быстро понять, нужен will или will be + -ing?
+- Почему Will you be coming звучит мягче, чем Will you come?
+- Когда разница между формами почти не важна?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 41 | 42 |
-| Microtopic | 279 | 280 |
-| Card | 748 | 749 |
+| Microtopic | 280 | 281 |
+| Card | 749 | 750 |
 | Example | 3466 | 3467 |
 | Слова курса (course_word) | 984 | 985 |
 | MultipleChoice · CHOICE | 262 | 263 |
