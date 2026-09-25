@@ -8179,22 +8179,22 @@ theory/
 │   │   │       ⚠️ Снять противоречие с Card 311: там «буду работать» → `will work` — это «работать» как
 │   │   │       решение и факт; `be` возвращается ТОЛЬКО вместе с -ing. Мост к форме.
 │   │   │
-│   │   ├── МТ · will be + -ing · Как собрать Future Continuous  (4 карточки; слив 5)
-│   │   │   ├── Card · Формула и три этажа
+│   │   ├── МТ272 · will be + -ing · Как собрать Future Continuous  (4 карточки; слив 5) ✅ (написана, ALL GREEN 25.09.26)
+│   │   │   ├── Card 728 · Формула и три этажа
 │   │   │   │   will (будущее) + be (опора для -ing) + -ing (процесс), одна форма на все лица, брифовая
 │   │   │   │   таблица порядка слов. Развязка с «Будущее с to be»: после will be — прилагательное /
 │   │   │   │   место ИЛИ -ing, голого V1 нет (`will be call` ✗ → `will be calling` ✓).
 │   │   │   │   ⭐ Двойники, это НЕ наше время: I'll be back / there / at work / out of office · I'll be glad.
 │   │   │   │   Ловушки: will being ✗ · I'll be work ✗ · he'll be works ✗ · he will is working ✗.
-│   │   │   ├── Card · Отрицание и вопросы
+│   │   │   ├── Card 729 · Отрицание и вопросы
 │   │   │   │   won't be · Will you be…? · What will you be doing? · Who'll be driving? (к подлежащему) ·
 │   │   │   │   краткие Yes, I will / No, I won't · отрицательный вопрос Won't you be joining us? ·
 │   │   │   │   хвостик строкой на узнавание (You'll be coming, won't you?). Ловушки: Will be you…? ✗ ·
 │   │   │   │   I will be not working ✗. AI «Вопрос и отрицание» (FREE_WRITE, NONE).
-│   │   │   ├── Card · На слух и куда встают наречия
+│   │   │   ├── Card 730 · На слух и куда встают наречия
 │   │   │   │   'll be почти пропадает · it'll be · won't be ↔ want to be. Наречие между will и be:
 │   │   │   │   I'll still be working · I'll probably be sleeping, но I probably won't be.
-│   │   │   └── Card · Какой глагол встаёт в эту форму
+│   │   │   └── Card 731 · Какой глагол встаёт в эту форму
 │   │   │       Глаголы состояния ✗ (плашка «Важно:» + ссылка) и живые исключения строкой: I'll be
 │   │   │       seeing Tom (встречаться) · I'll be thinking of you · Will you be needing anything else?
 │   │   │       have «ест/проводит» ✓ / «иметь» ✗ · It'll be raining · мгновенный глагол меняет смысл:

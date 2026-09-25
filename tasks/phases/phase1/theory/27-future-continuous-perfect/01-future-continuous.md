@@ -361,26 +361,655 @@ Future Continuous забирает себе только первый смысл
 
 ---
 
+## Microtopic 272 — will be + -ing · Как собрать Future Continuous
+
+**ID:** 272
+**Теги:** will being, куда ставить not, где ставить probably, won't или want, i'll be knowing, will be back это какое время
+
+---
+
+### Card 728 · Формула и три этажа
+
+**ID:** 728
+
+#### Theory
+
+Во вводной мы договорились, что у этого времени три части. Теперь разберём каждую: у каждой своя работа, и лишней среди них нет.
+
+**Формула:** will + be + -ing
+
+**Три этажа — три работы**
+
+- **will** — метка будущего. Он сообщает одно: «это впереди». Лица он не различает, форма у него одна.
+- **be** — опора. Форма на `-ing` сама сказуемым быть не может: **I working** ✗ — это как «я работающий» без всякого глагола. Ей нужна связка. Во всех Continuous мы её ставили: am/is/are в настоящем, was/were в прошедшем. После `will` связка стоит в базовой форме — голая `be`.
+- **-ing** — сам процесс, дело в разгаре.
+
+Эту сборку мы уже видели в «Модальных глаголах»: **She must be working**. Меняется только первый этаж — на место must встаёт will: **She will be working**.
+
+**Одна форма на все лица**
+
+| Кто | Форма |
+|-----|-------|
+| I | will be waiting |
+| you | will be waiting |
+| he / she / it | will be waiting |
+| we | will be waiting |
+| they | will be waiting |
+
+Ни am/is/are, ни was/were — развилки по лицам нет. По-русски форма меняется: «буду ждать», «будешь ждать», «будет ждать», «будем ждать». А английская метка `will` лица не различает, и связка за ней тоже остаётся одной и той же.
+
+**Как стоят слова в предложении**
+
+| I | will | be | waiting | at the gate |
+|---|------|----|---------|-------------|
+| Subject | Auxiliary | Auxiliary | Verb (-ing) | Place |
+| Подлежащее | Вспом. глагол | Связка | Глагол | Место |
+| Я | (будет) | быть | ждущим | у выхода |
+
+По-русски дословно: «Я (будет) быть ждущим у выхода». Звучит криво, зато видна вся механика: `will` только ставит метку будущего, `be` держит форму на `-ing`, и порядок этих трёх частей не меняется никогда.
+
+| They | will | be | boarding | in ten minutes |
+|------|------|----|----------|----------------|
+| Subject | Auxiliary | Auxiliary | Verb (-ing) | Time |
+| Подлежащее | Вспом. глагол | Связка | Глагол | Время |
+| Они | (будет) | быть | садящимися | через десять минут |
+
+По-русски дословно: «Они (будет) быть садящимися через десять минут», а по-живому — «через десять минут они будут садиться в самолёт».
+
+Правописание `-ing` здесь то же, что в Present Continuous: **drive → driving**, **sit → sitting**, **lie → lying**. Подробно — в микротеме «Форма -ing».
+
+**Что стоит после will be**
+
+Связка `be` после `will` нам знакома по микротеме «Будущее с to be». Теперь за ней может стоять одно из двух — третьего не бывает:
+
+| После will be | Пример | Что это |
+|---------------|--------|---------|
+| признак, место, роль | I'll be busy · I'll be at the gate | будущее от to be |
+| форма на -ing | I'll be waiting at the gate | новое время |
+
+Голый глагол сюда не встаёт никогда: **I'll be wait** ✗. Проверка одна — смотрим, что стоит после `be`. Есть `-ing` — перед нами Future Continuous. Нет — это обычное будущее от to be.
+
+**Двойники: will be есть, а времени нет**
+
+`will be` в начале фразы ещё не значит, что перед нами это время. Эти фразы вы будете встречать постоянно, и все они — будущее от to be, без всякого процесса:
+
+- **I'll be back in five minutes.** — вернусь через пять минут
+- **I'll be there at six.** — буду там в шесть
+- **I'll be out of the office until Monday.** — до понедельника меня не будет в офисе; так пишут в автоответе на письма
+- **I'll be glad to help.** — буду рад помочь
+
+Прогоните каждую через проверку: после `be` стоит место или признак, формы на `-ing` нет. Значит, это будущее от to be.
+
+**Ловушки:**
+- **I will being waiting** ✗ → **I will be waiting** ✓ — хвост `-ing` повесили на связку, а после will связка всегда голая
+- **I'll be work** ✗ → **I'll be working** ✓ или **I'll work** ✓ — русское «буду работать» разложили на два английских слова
+- **He'll be works** ✗ → **He'll be working** ✓ — окончание -s пришло из Present Simple, а здесь лицо ничем не отмечается
+- **He will is working** ✗ → **He will be working** ✓ — is пришло из Present Continuous, а после will связка голая
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Три части, все обязательны: метка будущего will, голая связка be и глагол с -ing. Форма одна на все лица, правописание -ing как в Present Continuous: **drive → driving**, **sit → sitting**.
+
+**Формула:** will + be + -ing
+
+**После will be — одно из двух**
+
+- Признак, место, роль → будущее от to be: **I'll be busy**, **I'll be back**
+- Форма на -ing → это время: **I'll be waiting**
+
+**Частые ошибки**
+
+- **I will being waiting** ✗ → **I will be waiting** ✓ — связка голая
+- **He will is working** ✗ → **He will be working** ✓
+- **I'll be work** ✗ → **I'll be working** ✓ — голого глагола после will be нет
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3342 | Я буду ждать тебя у выхода на посадку. | I'll be waiting for you at the gate. |
+| 3343 | Через десять минут они будут садиться в самолёт. | They'll be boarding in ten minutes. |
+| 3344 | В шесть Вера будет гулять с собакой. | At six Vera will be walking the dog. |
+| 3345 | На границе они будут проверять паспорта. | They'll be checking passports at the border. |
+| 3346 | Я вернусь через пять минут. | I'll be back in five minutes. |
+| 3347 | До понедельника я буду вне офиса. | I'll be out of the office until Monday. |
+
+---
+
+#### Exercises
+
+**Ex 7 · TableFill** *(ID: 53)*
+
+Задание: собери форму будущего процесса из подлежащего и глагола.
+
+| Подлежащее и глагол | Форма |
+|---------------------|-------|
+| Emma + to cook | will be cooking |
+| we + to swim | will be swimming |
+| the kids + to sleep | will be sleeping |
+| it + to snow | will be snowing |
+| I + to drive | will be driving |
+| my dad + to fix | will be fixing |
+
+*Explanation:* форма одна на все лица: will, голая be и глагол с -ing. Никаких is или are после will и никакого -s у глагола. Правописание -ing обычное: swim → swimming, drive → driving.
+
+---
+
+**Ex 8 · WordArrangement** *(ID: 237)*
+
+RU: В полдень мы будем сидеть в кафе.
+
+Правильное предложение: **At noon we will be sitting in the café.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| At noon | — |
+| we | — |
+| will | — |
+| be | — |
+| sitting | — |
+| in the café | — |
+| being | ✗ |
+| are | ✗ |
+| sit | ✗ |
+| was | ✗ |
+
+*Explanation:* после will идёт голая be, а за ней глагол с -ing: will be sitting. being и are после will не встают, голое sit теряет процесс, was — прошедшее.
+
+---
+
+**Ex 9 · ErrorCorrection** *(ID: 254)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"My parents will being travelling in July."
+
+- My parents will be travel in July.
+- **My parents will be travelling in July.** ✓
+- My parents are will travelling in July.
+
+*Explanation:* после will связка всегда голая — be, а -ing получает сам глагол: will be travelling. Без -ing форма разваливается, а are перед will лишнее: помощник здесь один.
+
+---
+
+**Ex 10 · ConstructionMeaning** *(ID: 107)*
+
+Выбери правильный перевод:
+
+"Nick will be in Rome next week."
+
+- На следующей неделе Ник будет ехать в Рим.
+- На следующей неделе Ник поедет в Рим.
+- **На следующей неделе Ник будет в Риме.** ✓
+- На прошлой неделе Ник был в Риме.
+
+*Explanation:* после will be стоит место — in Rome, формы на -ing нет. Значит, это не процесс, а будущее от to be: Ник будет в Риме. «Будет ехать» сказали бы через will be travelling, «поедет» — через will go.
+
+---
+
+#### Clarification Options
+
+- Зачем be в середине, если will уже показывает будущее?
+- Как отличить I'll be back от настоящего Future Continuous?
+- Почему после will нельзя сказать is или are?
+
+---
+
+### Card 729 · Отрицание и вопросы
+
+**ID:** 729
+
+#### Theory
+
+Отрицание и вопрос строятся по закону, который работает во всех временах: всё делает первое служебное слово. Здесь это `will` — он и берёт not, и выходит вперёд. А `be` и форма на `-ing` остаются склеенными и не двигаются.
+
+**Отрицание: not встаёт сразу за will**
+
+**Формула:** won't + be + -ing
+
+`won't` — это will not, сжатое в одно слово. В разговоре почти всегда звучит оно, полное will not встречается на письме или когда нужен нажим.
+
+| Tom | won't | be | working | tomorrow |
+|-----|-------|----|---------|----------|
+| Subject | Auxiliary + not | Auxiliary | Verb (-ing) | Time |
+| Подлежащее | Вспом. глагол + не | Связка | Глагол | Время |
+| Том | (не будет) | быть | работающим | завтра |
+
+По-русски дословно: «Том (не будет) быть работающим завтра». Видно главное: not прицепилось к will, а пара be + -ing стоит нетронутой.
+
+- **I won't be driving tomorrow — Pasha will.** — завтра за рулём не я, поведёт Паша
+- **The kids won't be sleeping at ten — it's New Year's Eve.** — в десять дети спать не будут: Новый год же
+
+**Ловушка:** **I will be not working** ✗ → **I won't be working** ✓. Рука помнит, что в Continuous not стоит после связки — **I'm not working**, **I wasn't working** — и ставит его после be. Но здесь первое служебное слово — will, и not цепляется к нему. Русский тут как раз подсказывает правильно: «**не** буду работать» — «не» стоит перед «буду», как not перед be.
+
+**Вопрос: вперёд выходит только will**
+
+**Формула:** Will + кто + be + -ing?
+
+| Will | you | be | flying | on Monday? |
+|------|-----|----|--------|------------|
+| Auxiliary | Subject | Auxiliary | Verb (-ing) | Time |
+| Вспом. глагол | Подлежащее | Связка | Глагол | Время |
+| (будет) | ты | быть | летящим | в понедельник? |
+
+По-русски дословно: «(будет) ты быть летящим в понедельник?» Вперёд ушла только метка будущего, всё остальное стоит на своих местах.
+
+**Ловушка:** **Will be you flying?** ✗ → **Will you be flying?** ✓. `be` и `-ing` — одна пара: связка держит форму на `-ing`, и без неё сказуемого нет. Поэтому вперёд уходит одно `will`. Так во всех временах — наружу выходит только первое слово: **Are you working?**, **Have you been waiting?**
+
+**Вопрос с вопросительным словом**
+
+Вопросительное слово встаёт в самое начало, а дальше тот же порядок — will, кто, be, глагол с `-ing`:
+
+- **What will you be doing at eight?**
+- **Where will you be staying?**
+- **When will they be landing?**
+
+**Вопрос к подлежащему**
+
+Если спрашиваем «кто?», перестановки нет: вопросительное слово само встаёт на место подлежащего, и порядок остаётся как в утверждении.
+
+- **Who will be meeting you on arrival?** — кто будет встречать тебя по прилёте?
+- **Who'll be driving?** — кто будет за рулём?
+
+**Краткие ответы**
+
+Отвечаем тем же первым словом, как во всех временах, — be и глагол повторять не нужно:
+
+- **Will you be working on Saturday?** — **Yes, I will.** / **No, I won't.**
+
+В речи можно услышать и **Yes, I will be** — так тоже говорят, но стандарт — короткое **Yes, I will**.
+
+**Разве не…?**
+
+Отрицательный вопрос задают, когда ожидали «да» и удивлены, — или чтобы мягко позвать. Вперёд выходит won't целиком:
+
+- **Won't you be joining us for dinner?** — разве ты не присоединишься к нам за ужином?
+
+**Кстати:** иногда вопрос прячут в хвостик: **You'll be coming, won't you?** — ты же придёшь? Хвостик повторяет первое служебное слово с обратным знаком: утверждение с will — в хвосте won't.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Всё делает первое служебное слово — will: оно берёт not и выходит вперёд. Пара be + -ing не двигается.
+
+**Формула:** will + be + -ing
+
+**Три формы**
+
+- Утверждение: **Tom will be working**
+- Отрицание: **Tom won't be working** — won't = will not
+- Вопрос: **Will Tom be working?** → **Yes, he will.** / **No, he won't.**
+- С вопросительным словом: **What will you be doing?**
+- Вопрос к подлежащему без перестановки: **Who will be driving?**
+- Разве не…?: **Won't you be joining us?**
+
+**Частые ошибки**
+
+- **I will be not working** ✗ → **I won't be working** ✓ — not цепляется к will
+- **Will be you flying?** ✗ → **Will you be flying?** ✓ — вперёд выходит только will
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3348 | Завтра Том не будет работать. | Tom won't be working tomorrow. |
+| 3349 | Ты будешь работать в субботу? | Will you be working on Saturday? |
+| 3350 | Что ты будешь делать в восемь? | What will you be doing at eight? |
+| 3351 | Кто будет встречать тебя по прилёте? | Who will be meeting you on arrival? |
+| 3352 | Разве ты не присоединишься к нам за ужином? | Won't you be joining us for dinner? |
+| 3353 | Завтра я не буду вести машину — поведёт Паша. | I won't be driving tomorrow — Pasha will. |
+
+---
+
+#### Exercises
+
+**Ex 11 · Transformation** *(ID: 122)*
+
+Задание: сделай каждое предложение отрицательным.
+
+1. "Nick will be driving tonight." → **"Nick won't be driving tonight."**
+2. "We'll be staying at a hotel." → **"We won't be staying at a hotel."**
+3. "Olga will be cooking on Sunday." → **"Olga won't be cooking on Sunday."**
+
+*Explanation:* not приклеивается к will: will not = won't. Пара be + -ing остаётся нетронутой: ни be not, ни not being.
+
+---
+
+**Ex 12 · DialogRestore** *(ID: 113)*
+
+A: "Will you be using your laptop this evening?"
+B: ___
+A: "Great, can I borrow it then?"
+
+- No, I don't.
+- No, I won't be use.
+- **No, I won't.** ✓
+
+*Explanation:* краткий ответ строится на том же первом слове, что в вопросе: вопрос начинается с will — отвечаем No, I won't. Do здесь чужое слово, а be и глагол в кратком ответе не повторяют.
+
+---
+
+**Ex 13 · MultipleChoice · FORWARD_CHOICE** *(ID: 287)*
+
+"Во сколько вы будете садиться в самолёт?"
+
+- **What time will you be boarding?** ✓
+- What time will be you boarding?
+- What time you will be boarding?
+
+*Explanation:* после вопросительных слов вперёд выходит только will, а be остаётся рядом с формой на -ing: will you be boarding. Если will не вынести вперёд, вопроса не получится.
+
+---
+
+#### AI Exercise
+
+**ID:** future_continuous_card729_ex1
+**Title:** "Вопрос и отрицание"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт английское утверждение. Перепишите его два раза: вопросом и отрицанием."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку об отрицании и вопросе в Future Continuous. Он знает: форма собирается из трёх частей will + be + глагол с -ing, одна на все лица (She will be working); всё делает первое служебное слово will — в отрицании к нему цепляется not (won't be working, полное will not be working), в вопросе оно одно выходит вперёд, а пара be + -ing остаётся на месте (Will you be working?); с вопросительным словом тот же порядок (What will you be doing?); в вопросе к подлежащему перестановки нет (Who will be driving?); краткие ответы Yes, I will / No, I won't; отрицательный вопрос Won't you be joining us?. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог, косвенные вопросы, придаточные с who, which, that, косвенная речь. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect и Future Perfect Continuous; внутри этой темы ещё не прошёл вежливые вопросы о планах, речь сервиса, догадки о настоящем (she'll be sleeping now), would be + -ing и форму will be being done — ничего из этого в задании не используй. ЗАДАНИЕ: дай пользователю ОДНО утвердительное английское предложение в Future Continuous и попроси переписать его дважды: сначала общим вопросом, потом отрицанием. В условии не подсказывай, как строить вопрос и отрицание. ДЕРЖИ ФРАЗУ ПРОСТОЙ: 5-9 слов, одно подлежащее, одно действие, обязательно точка или отрезок времени (at eight, at noon tomorrow, this time next week, all day on Sunday), без придаточных и перечислений, бытовая лексика уровня A2, глаголов состояния (know, want, like, need, believe, understand) не бери; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому прямо сейчас выбирай случайно подлежащее: 1. I. 2. he или she. 3. we. 4. they. 5. английское имя (Kate, Ben, Lucy, Jack). 6. существительное (my parents, the kids, our neighbours). И так же случайно ситуацию: 1. аэропорт и поездка (They will be boarding at noon). 2. работа (She will be working all day on Sunday). 3. дом и быт (We will be painting the kitchen at ten). 4. спорт и отдых (Jack will be playing tennis at six). 5. учёба (The kids will be studying at eight). Образцы дословно не повторяй. ОЦЕНКА: верен вопрос, где will стоит перед подлежащим, а be и глагол с -ing после него; верно отрицание won't be + -ing или will not be + -ing. Если написал Will be you working? — объясни, что вперёд выходит только will, а be держится за форму на -ing. Если позвал do или вынес вперёд связку (Do you will be…, Are you will be…) — скажи, что помощник здесь уже есть, это will, второй не нужен. Если в отрицании поставил not после be (will be not working) — скажи, что not цепляется к первому служебному слову will, как в русском «не буду». Если написал won't being или will being — напомни, что после will связка голая, be. Если глагол потерял -ing (Will you be work?) — скажи, что после be нужна форма на -ing. Если сделал вопрос с вопросительным словом вместо общего и форма верна — засчитай и одной строкой покажи общий вопрос. Если ответил кратким ответом вместо переделки или сделал только одну из двух — засчитай сделанное и попроси дописать недостающее. При ошибке сначала скажи, что значила бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Перепишите это предложение вопросом, а потом отрицанием: My parents will be working in the garden all day on Saturday.'
+
+#### Clarification Options
+
+- Почему not ставится после will, а не после be?
+- Почему в вопросе вперёд выходит только will?
+- Как коротко ответить на такой вопрос?
+
+---
+
+### Card 730 · На слух и куда встают наречия
+
+**ID:** 730
+
+#### Theory
+
+Форма собрана. Осталось две вещи, которые на бумаге выглядят мелочью, а в живой речи решают многое: как это время звучит и куда в нём встают слова вроде «наверное» и «всё ещё».
+
+**'ll почти не слышно**
+
+В разговоре `will` почти всегда сжимается до `'ll`, а на скорости от него остаётся еле слышное [[l]]: **I'll be waiting** звучит как [[aɪl bi ˈweɪtɪŋ]], а часто и как [[əl bi]]. То же с **it'll be** [[ˈɪtəl bi]].
+
+Отсюда подсказка для слуха: слышите be и глагол на `-ing`, а перед ними никакого am/is/are — значит, там проглочено `'ll`. После имени оно тоже сжимается: в речи звучит **Kate'll be waiting**, на письме обычно пишут полностью — **Kate will be waiting**.
+
+**won't и want — не перепутать**
+
+`won't` [[wəʊnt]] и `want` [[wɒnt]] различаются одним гласным: в первом — [[əʊ]], во втором — короткое [[ɒ]]. А смысл у них противоположный:
+
+- **I won't be there.** — меня там не будет
+- **I want to be there.** — я хочу там быть
+
+Второй ключ — слово после них: за want идёт to, за won't — никогда. Услышали to — это желание, нет to и сразу be — это отказ.
+
+**Куда встают наречия**
+
+Слова вроде still, probably, definitely, always встают сразу после первого служебного слова — то есть между will и be:
+
+- **I'll still be working at midnight.** — в полночь я всё ещё буду работать
+- **We'll probably be boarding by then.** — к тому времени мы, наверное, уже будем садиться в самолёт
+- **She'll definitely be waiting for you.** — она точно будет тебя ждать
+
+Это то же правило, что и в других временах: **I'm still working**, **I've just finished** — наречие идёт после первого служебного слова. По-русски «всё ещё» стоит перед «буду», а по-английски still прячется внутрь, между will и be. Вариант **I'll be still working** тоже встречается, но звучит неуклюже — надёжнее ставить наречие сразу после will.
+
+**Ловушка:** **I won't probably be there** ✗ → **I probably won't be there** ✓. В отрицании probably встаёт перед won't: not уже сидит внутри won't, и втиснуть между ними ничего нельзя. Так же с definitely: **I definitely won't be there** ✓.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Наречие встаёт после will, перед be. В отрицании — перед won't.
+
+- **I'll still be working** · **We'll probably be boarding**
+- **I won't probably be there** ✗ → **I probably won't be there** ✓
+
+**На слух**
+
+- **'ll** почти пропадает: be + -ing без am/is/are — значит, там 'll
+- **won't** [[wəʊnt]] — отказ, **want** [[wɒnt]] — желание; после want стоит to
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3354 | Меня там не будет. | I won't be there. |
+| 3355 | Я хочу там быть. | I want to be there. |
+| 3356 | В полночь я всё ещё буду работать. | I'll still be working at midnight. |
+| 3357 | Она точно будет тебя ждать. | She'll definitely be waiting for you. |
+| 3358 | Я, наверное, не буду на ужине. | I probably won't be at dinner. |
+
+---
+
+#### Exercises
+
+**Ex 14 · WordArrangement** *(ID: 238)*
+
+RU: Мы, наверное, будем ехать домой в десять.
+
+Правильное предложение: **We will probably be driving home at ten.**
+
+| Слово | Лишнее? |
+|-------|---------|
+| We | — |
+| will | — |
+| probably | — |
+| be | — |
+| driving | — |
+| home | — |
+| at ten | — |
+| are | ✗ |
+| being | ✗ |
+| want | ✗ |
+| to | ✗ |
+| drive | ✗ |
+
+*Explanation:* наречие встаёт сразу после will, перед be: will probably be driving. Want to значило бы «хотим», а голое drive или being после will не подходят.
+
+---
+
+**Ex 15 · MultipleChoice · REVERSE_CHOICE** *(ID: 124)*
+
+"Sorry, I won't be at the meeting tomorrow."
+
+- Извините, я хочу завтра быть на совещании.
+- **Извините, меня завтра не будет на совещании.** ✓
+- Извините, я не хотел быть на совещании.
+
+*Explanation:* won't — это will not, отказ: «меня не будет». Желание сказали бы через want to be, а won't и want легко спутать только на слух: на письме у них разные буквы, и после want стоит to.
+
+---
+
+**Ex 16 · TrueFalse** *(ID: 260)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | I'll still be sleeping at ten. | ✓ |
+| 2 | He won't probably be coming today. | ✗ |
+| 3 | We'll definitely be flying on Friday. | ✓ |
+| 4 | I'll be not staying long. | ✗ |
+| 5 | It'll probably be raining in the morning. | ✓ |
+
+*Explanation:* в отрицании probably встаёт перед won't, а не после: He probably won't be coming today. not цепляется к will, а не к be: I won't be staying long.
+
+---
+
+#### Clarification Options
+
+- Как на слух отличить won't от want?
+- Почему probably в отрицании стоит перед won't?
+- Можно ли поставить still после be?
+
+---
+
+### Card 731 · Какой глагол встаёт в эту форму
+
+**ID:** 731
+
+#### Theory
+
+Формула одна, но в неё встаёт не каждый глагол. Правило здесь то же, что во всех Continuous, и исключения те же, живые.
+
+**Глаголы состояния сюда не встают**
+
+**Важно:** глаголы, которые описывают состояние, а не действие, — know, want, like, need, believe, understand, belong — в Continuous не ставятся, и в будущем тоже. Подробный разбор — в микротеме «Глаголы без Continuous».
+
+- **I'll be knowing the answer tomorrow** ✗ → **I'll know the answer tomorrow** ✓
+- **You'll be understanding everything soon** ✗ → **You'll understand everything soon** ✓
+
+Откуда ошибка: по-русски «буду знать» и «буду работать» собраны одинаково, и рука переносит форму. Но `-ing` показывает дело в разгаре, а у знания разгара нет — его нельзя застать «на середине». Поэтому «завтра буду знать» английский говорит через will: **I'll know**.
+
+**Живые исключения**
+
+Некоторые из этих глаголов меняют смысл — и тогда спокойно встают в Continuous:
+
+- **I'll be seeing Tom tomorrow.** — see здесь не «видеть», а «встречаться»
+- **I'll be thinking of you.** — думать о ком-то как занятие, а не «считать, полагать»
+- **Will you be needing anything else?** — так спрашивают в сервисе, мягче обычного need; подробнее в микротеме «Само собой и вежливо»
+
+**have: смотря в каком смысле**
+
+- **We'll be having a party on Saturday.** ✓ — have = устраивать, проводить
+- **I'll be having lunch at one.** ✓ — have = есть
+- **I'll be having enough money** ✗ → **I'll have enough money** ✓ — have = иметь, это состояние
+
+**Погода**
+
+**It'll be snowing in the mountains.** ✓ — снег идёт, это процесс, и он спокойно встаёт в форму.
+
+**Глагол-мгновение растягивается**
+
+Есть глаголы-вспышки: arrive, land, leave, start. Они случаются в одно мгновение. Поставишь такой глагол в эту форму — и мгновение растянется в процесс: **At nine the train will be arriving at platform 2** — в девять поезд будет подъезжать ко второй платформе.
+
+Или форма поставит событие в график, как передачу в сетку вещания: **Our flight will be leaving from gate 12** — наш рейс вылетает с двенадцатого выхода, так по расписанию. Это не ошибка, а другой оттенок, и к нему мы ещё вернёмся в микротеме «Процесс в будущей точке».
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Глаголы состояния в эту форму не встают, их будущее — will + глагол.
+
+- **I'll be knowing** ✗ → **I'll know** ✓
+- Не встают: know, want, like, need, believe, understand, belong
+
+**Встают в особом смысле**
+
+- **see** = встречаться: **I'll be seeing Tom**
+- **have** = есть, проводить: **I'll be having lunch** ✓, но **I'll be having enough money** ✗ → **I'll have enough money** ✓
+- Погода: **It'll be snowing**
+
+**Глагол-мгновение**
+
+- **The train will be arriving** — будет подъезжать или прибывает по графику
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3359 | Завтра я буду знать ответ. | I'll know the answer tomorrow. |
+| 3360 | Я буду думать о тебе. | I'll be thinking of you. |
+| 3361 | В субботу мы будем устраивать вечеринку. | We'll be having a party on Saturday. |
+| 3362 | В горах будет идти снег. | It'll be snowing in the mountains. |
+| 3363 | В девять поезд будет подъезжать ко второй платформе. | At nine the train will be arriving at platform 2. |
+| 3364 | Мы будем регистрироваться за два часа до вылета. | We'll be checking in two hours before departure. |
+
+---
+
+#### Exercises
+
+**Ex 17 · Categorization** *(ID: 163)*
+
+Задание: разложи глаголы по колонкам.
+
+| Встаёт в will be + -ing | Не встаёт |
+|-------------------------|-----------|
+| to cook | to know |
+| to swim | to remember |
+| to carry | to prefer |
+| to paint | to belong |
+
+*Explanation:* в форму встают действия, которые можно застать в разгаре: готовить, плавать, нести, красить. Знать, помнить, предпочитать, принадлежать — состояния, у них нет разгара, поэтому в будущем они идут через will + глагол.
+
+---
+
+**Ex 18 · FindTheOdd** *(ID: 138)*
+
+Три фразы звучат естественно, одна — нет:
+
+- I'll be having lunch at one.
+- It'll be raining all evening.
+- **I'll be having two cars.** ✓
+- I'll be thinking about it.
+
+*Explanation:* have в смысле «иметь» — состояние, в Continuous не встаёт: I'll have two cars. have в смысле «есть», дождь и «думать о чём-то» — процессы, им форма подходит.
+
+---
+
+**Ex 19 · ErrorCorrection** *(ID: 255)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Next week you'll be knowing all the new rules."
+
+- **Next week you'll know all the new rules.** ✓
+- Next week you'll be know all the new rules.
+- Next week you're knowing all the new rules.
+
+*Explanation:* know — глагол состояния, у знания нет разгара, поэтому -ing к нему не ставится: you'll know. Голое know после be тоже невозможно, а you're knowing ломает то же правило в настоящем.
+
+---
+
+**Ex 20 · ConstructionMeaning** *(ID: 108)*
+
+Выбери правильный перевод:
+
+"The guests will be arriving at six."
+
+- В шесть гости уже уедут.
+- В шесть гости приехали.
+- В шесть гостей не будет.
+- **В шесть гости будут подъезжать.** ✓
+
+*Explanation:* arrive — глагол-мгновение, и в этой форме он растягивается в процесс: гости будут подъезжать, собираться. «Приехали» — прошедшее, «уедут» и «не будет» говорят о другом.
+
+---
+
+#### Clarification Options
+
+- Как понять, что глагол — это состояние?
+- Почему I'll be seeing можно, если see — глагол состояния?
+- Что меняется, когда arrive ставят в эту форму?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| passport | паспорт, загранпаспорт | [ˈpɑːspɔːt] |
+| gate | ворота, калитка, выход на посадку | [ɡeɪt] |
+| to board | садиться (в самолёт, поезд), подниматься на борт | [tuː bɔːd] |
+| departure | отправление, вылет, отъезд | [dɪˈpɑːtʃə] |
+| arrival | прибытие, прилёт, приезд | [əˈraɪvəl] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 41 | 42 |
-| Microtopic | 271 | 272 |
-| Card | 727 | 728 |
-| Example | 3341 | 3342 |
-| Слова курса (course_word) | 944 | 945 |
+| Microtopic | 272 | 273 |
+| Card | 731 | 732 |
+| Example | 3364 | 3365 |
+| Слова курса (course_word) | 949 | 950 |
 | MultipleChoice · CHOICE | 258 | 259 |
-| MultipleChoice · FORWARD_CHOICE | 286 | 287 |
-| MultipleChoice · REVERSE_CHOICE | 123 | 124 |
-| TrueFalse | 259 | 260 |
-| WordArrangement | 236 | 237 |
+| MultipleChoice · FORWARD_CHOICE | 287 | 288 |
+| MultipleChoice · REVERSE_CHOICE | 124 | 125 |
+| TrueFalse | 260 | 261 |
+| WordArrangement | 238 | 239 |
 | TextInput | 136 | 137 |
 | Matching | 131 | 132 |
-| ErrorCorrection | 253 | 254 |
-| FindTheOdd | 137 | 138 |
-| Categorization | 162 | 163 |
-| TableFill | 52 | 53 |
-| Transformation | 121 | 122 |
-| ConstructionMeaning | 106 | 107 |
-| DialogRestore | 112 | 113 |
+| ErrorCorrection | 255 | 256 |
+| FindTheOdd | 138 | 139 |
+| Categorization | 163 | 164 |
+| TableFill | 53 | 54 |
+| Transformation | 122 | 123 |
+| ConstructionMeaning | 108 | 109 |
+| DialogRestore | 113 | 114 |
