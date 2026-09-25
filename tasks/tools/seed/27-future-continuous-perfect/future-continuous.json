@@ -46,6 +46,13 @@
       "title": "As Things Go · Само собой и вежливо",
       "order": 4,
       "searchKeywords": "will you be using, вежливо спросить о планах, будешь чай по-английски, i won't be coming, отказ без грубости, объявления в самолёте"
+    },
+    {
+      "id": 275,
+      "topicId": 41,
+      "title": "Which Future · Русское «буду»: куда его девать",
+      "order": 5,
+      "searchKeywords": "буду благодарен по-английски, буду на связи, буду стараться, буду рад по-английски, i'll be seeing you, any minute"
     }
   ],
   "grammar_cards": [
@@ -2646,6 +2653,342 @@
         "Что значит come in в I won't be coming in?",
         "Когда всё-таки нужен голый won't?"
       ]
+    },
+    {
+      "id": 738,
+      "microtopicId": 275,
+      "title": "«Буду» без этого времени",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы увидели, что русское «буду» несёт три смысла, и оставили вопрос открытым: куда его девать, если не в это время? Здесь — полный ответ."
+        },
+        {
+          "type": "heading",
+          "text": "Одно «буду» — много английских форм"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «буду» — универсальный ключ к будущему: им мы говорим и о решениях, и о планах, и о состояниях, и о процессах. Английский на это место ставит разные формы, и `will be + -ing` — лишь одна из них, причём не самая частая. Если на каждое «буду» ставить эту форму, английский выйдет странным — как у диктора, который рассказывает о своей жизни по сетке вещания."
+        },
+        {
+          "type": "heading",
+          "text": "Четыре вопроса к «буду»"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**После «буду» нет глагола** — «буду рад», «буду дома», «буду в сети»? Это будущее от to be: **I'll be glad**, **I'll be at home after six**.",
+            "**Обещаю или соглашаюсь прямо сейчас?** Тогда will + глагол: «Ладно, буду ждать» → **OK, I'll wait**; «Буду стараться» → **I'll try**.",
+            "**Решил заранее, это моё намерение?** Тогда going to: «С понедельника буду бегать по утрам» → **I'm going to start running in the mornings.**",
+            "**В ту минуту или весь отрезок буду за делом, так пойдут дела?** Только тогда `will be + -ing`: **I'll be tidying the flat all morning.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопросы идут по порядку: четвёртый задаём, только если три первых не подошли."
+        },
+        {
+          "type": "paragraph",
+          "text": "Вот как одно и то же русское «буду» уходит в разные формы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«В субботу буду убираться» как намерение → **On Saturday I'm going to tidy the flat.**",
+            "«Не звони до обеда — буду гладить» как процесс → **Don't call before lunch — I'll be ironing.**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Буду стараться» — это обещание, поэтому **I'll try** или **I'll do my best**. Форма **I'll be trying** не ошибка, но прозвучит как рассказ о том, чем вы будете заняты, а не как слово, которое вы даёте."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Готовые фразы"
+        },
+        {
+          "type": "paragraph",
+          "text": "У некоторых русских фраз с «буду» в английском есть своя готовая формула. Их проще выучить целиком."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Буду благодарен.** У этой формулы есть прямой русский аналог слово в слово — «был бы благодарен». Вежливая просьба по-английски звучит как предположение, соседняя ветка из «Условных предложений»: «если сможете — я был бы благодарен». Поэтому would:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'd be grateful if you could send the file.** — дословно «я был бы благодарен, если бы вы могли прислать файл», по-живому «буду благодарен, если пришлёте файл»"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'll be grateful** — не ошибка, но звучит так, будто человек уже уверен, что ему помогут. В письме безопаснее **I'd be grateful**."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Буду на связи.** По-английски это три разные мысли:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll be available all day.** — весь день я на связи, можно звонить",
+            "**I'll be online after six.** — после шести буду в сети",
+            "**I'll be in touch.** — дословно «буду в контакте», по-живому «я сам с вами свяжусь»"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Буду ждать ответа.** В письме это **I look forward to hearing from you** — «жду вашего ответа». Эту концовку мы разбирали в «Герундии после глагола»: to там — предлог, поэтому дальше форма на `-ing`."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Буду ждать тебя.** А вот здесь как раз это время: **I'll be waiting for you.** Звучит тепло, как обещание: придёшь — а я буду ждать. Это картинка из «Процесса в будущей точке»: войдёшь в эту минуту — застанешь меня ждущим. Сравните с «Ладно, буду ждать» из второго вопроса: там вы просто соглашаетесь, и хватает **OK, I'll wait**. Обе фразы верны — разница в том, что вы рисуете: согласие или картину ожидания."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Буду рад помочь.** **I'll be glad to help** или вежливее **I'd be happy to help** — «с радостью помогу»."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Сначала спросите себя, что вы хотите сказать этим «буду», и только потом выбирайте форму. `will be + -ing` — лишь один из ответов."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русское «буду» уходит в разные формы — решает смысл."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "После «буду» нет глагола → **I'll be glad**, **I'll be at home**",
+            "Обещаю, соглашаюсь сейчас → **OK, I'll wait**, **I'll try**",
+            "Намерение → **I'm going to tidy the flat**",
+            "В ту минуту или весь отрезок за делом → **I'll be ironing**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Готовые фразы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Буду благодарен → **I'd be grateful if you could…**",
+            "Буду на связи → **I'll be available** · в сети → **I'll be online** · свяжусь → **I'll be in touch**",
+            "Буду ждать ответа → **I look forward to hearing from you**",
+            "Буду ждать тебя → **I'll be waiting for you**",
+            "Буду рад помочь → **I'd be happy to help**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ладно, я подожду.",
+          "en": "OK, I'll wait."
+        },
+        {
+          "ru": "Я постараюсь.",
+          "en": "I'll try."
+        },
+        {
+          "ru": "В субботу я собираюсь убраться в квартире.",
+          "en": "On Saturday I'm going to tidy the flat."
+        },
+        {
+          "ru": "Не звони до обеда — я буду гладить.",
+          "en": "Don't call before lunch — I'll be ironing."
+        },
+        {
+          "ru": "Я был бы благодарен, если бы вы прислали файл.",
+          "en": "I'd be grateful if you could send the file."
+        },
+        {
+          "ru": "Весь день я буду на связи.",
+          "en": "I'll be available all day."
+        },
+        {
+          "ru": "Я буду ждать тебя.",
+          "en": "I'll be waiting for you."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, какой вопрос к моему «буду» подходит?",
+        "Почему «буду благодарен» — через would?",
+        "Чем I'll be available отличается от I'll be in touch?"
+      ]
+    },
+    {
+      "id": 739,
+      "microtopicId": 275,
+      "title": "Обратная сторона: как это время звучит по-русски",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Теперь посмотрим с другой стороны. Вы читаете или слушаете английский и встречаете `will be + -ing`. Рука тянется перевести «буду + глагол»: «будете платить», «будем приземляться». Иногда это работает, но чаще звучит не по-русски."
+        },
+        {
+          "type": "heading",
+          "text": "Сначала смысл, потом слова"
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило чтения простое: сначала поймите, что сказано — процесс в минуту, ход дел по графику или вежливый вопрос. А потом скажите это так, как сказал бы русский человек в той же ситуации."
+        },
+        {
+          "type": "table",
+          "header": [
+            "По-английски",
+            "По-русски"
+          ],
+          "rows": [
+            [
+              "Will you be paying by card?",
+              "Картой?"
+            ],
+            [
+              "We'll be landing shortly.",
+              "Скоро совершим посадку."
+            ],
+            [
+              "They'll be arriving any minute.",
+              "Вот-вот приедут."
+            ],
+            [
+              "Will you be needing anything else?",
+              "Что-нибудь ещё?"
+            ],
+            [
+              "I'll be seeing you!",
+              "Ещё увидимся!"
+            ],
+            [
+              "I'll be ironing all evening.",
+              "Весь вечер буду гладить."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Последняя строка — честное напоминание, что совпадения тоже бывают. Когда по-русски речь и правда о процессе на отрезке, «буду + глагол» звучит нормально."
+        },
+        {
+          "type": "heading",
+          "text": "Два новых оборота"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**any minute** — дословно «в любую минуту», по-живому «с минуты на минуту». **They'll be arriving any minute** — приезд уже идёт своим ходом, осталось совсем чуть-чуть.",
+            "**I'll be seeing you!** — дословно «я буду тебя видеть», по-живому «ещё увидимся!». Неформальное прощание с приятелем, с которым вы точно пересечётесь. see здесь значит «встречаться», поэтому форма с `-ing` законна — как в **I'll be seeing Tom** из карточки о глаголах, которые встают в эту форму."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Почему переводы такие разные"
+        },
+        {
+          "type": "paragraph",
+          "text": "У английского одна форма и на процесс, и на ход дел, и на вежливость. Русский раскладывает то же самое по разным инструментам: совершенный вид («совершим посадку», «пришлю»), настоящее время («прибывает», «уезжаю»), а в вопросах сервиса — вообще без глагола («Картой?»). Поэтому прямой перевод «буду + глагол» подходит только там, где по-русски и правда говорят о процессе."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В следующей микротеме эта форма встретится ещё в одной роли: **She'll be sleeping now** — «наверное, она сейчас спит». Будущего тут нет вовсе — это догадка о настоящем. Разберём её там."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Встретили `will be + -ing` — переводите смысл, а не слова: «Картой?», «скоро совершим посадку», «вот-вот приедут»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Встретили will be + -ing — сначала поймите смысл, потом скажите так, как сказал бы русский."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will you be paying by card?** → Картой?",
+            "**We'll be landing shortly** → Скоро совершим посадку",
+            "**They'll be arriving any minute** → Вот-вот приедут",
+            "**I'll be seeing you!** → Ещё увидимся!",
+            "**I'll be ironing all evening** → Весь вечер буду гладить — здесь «буду» подходит"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Будете платить наличными?",
+          "en": "Will you be paying in cash?"
+        },
+        {
+          "ru": "Гости вот-вот приедут.",
+          "en": "The guests will be arriving any minute."
+        },
+        {
+          "ru": "Ещё увидимся!",
+          "en": "I'll be seeing you!"
+        },
+        {
+          "ru": "Вам понадобится что-нибудь ещё?",
+          "en": "Will you be needing anything else?"
+        },
+        {
+          "ru": "Весь вечер я буду гладить.",
+          "en": "I'll be ironing all evening."
+        }
+      ],
+      "clarificationOptions": [
+        "Можно ли переводить Will you be paying как «будете платить»?",
+        "Что значит any minute?",
+        "Когда I'll be seeing you уместно, а когда нет?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2882,6 +3225,42 @@
       "exerciseType": "ERROR_CORRECTION",
       "exerciseId": 257,
       "orderInCard": 2
+    },
+    {
+      "cardId": 738,
+      "exerciseType": "CATEGORIZATION",
+      "exerciseId": 166,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 738,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 289,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 738,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 116,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 739,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 127,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 739,
+      "exerciseType": "MATCHING",
+      "exerciseId": 133,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 739,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 112,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2914,6 +3293,14 @@
       "cardId": 736,
       "title": "Вежливо узнай планы",
       "userInstruction": "ИИ опишет ситуацию. Задайте по-английски вежливый вопрос, который в ней уместен.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_continuous_card738_ex1",
+      "cardId": 738,
+      "title": "Куда девать «буду»",
+      "userInstruction": "ИИ даст русскую фразу со словом «буду». Скажите её по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -3053,6 +3440,46 @@
       "translation": "чек, квитанция",
       "transcription": "[rɪˈsiːt]",
       "microtopicId": 274,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 960,
+      "word": "grateful",
+      "translation": "благодарный",
+      "transcription": "[ˈɡreɪtfəl]",
+      "microtopicId": 275,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 961,
+      "word": "available",
+      "translation": "доступный, свободный, на связи",
+      "transcription": "[əˈveɪləbəl]",
+      "microtopicId": 275,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 962,
+      "word": "online",
+      "translation": "в сети, онлайн",
+      "transcription": "[ˌɒnˈlaɪn]",
+      "microtopicId": 275,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 963,
+      "word": "to tidy",
+      "translation": "убирать, наводить порядок",
+      "transcription": "[tuː ˈtaɪdi]",
+      "microtopicId": 275,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 964,
+      "word": "to iron",
+      "translation": "гладить (утюгом)",
+      "transcription": "[tuː ˈaɪən]",
+      "microtopicId": 275,
       "categoryId": "tenses"
     }
   ],
@@ -3487,6 +3914,48 @@
         }
       ],
       "explanation": "угощение — это готовая формула Would you like…? Will you be coffee — калька русского «будешь»: после will be кофе не встаёт. Will you like звучит как «понравится ли тебе» и для угощения не подходит."
+    },
+    {
+      "id": 289,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Буду благодарен, если вы мне перезвоните.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "I'll be grateful if you will call me back.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'd be grateful if you will be calling me back.",
+          "isCorrect": false
+        },
+        {
+          "text": "I'd be grateful if you could call me back.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "вежливая просьба звучит как предположение — «был бы благодарен, если бы вы могли»: I'd be grateful if you could… После if будущее не ставят, поэтому will в этой части лишнее."
+    },
+    {
+      "id": 127,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Hurry up! The taxi will be arriving any minute.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Быстрее! Такси будет ехать минуту.",
+          "isCorrect": false
+        },
+        {
+          "text": "Быстрее! Такси вот-вот приедет.",
+          "isCorrect": true
+        },
+        {
+          "text": "Быстрее! Такси приехало минуту назад.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "any minute — «с минуты на минуту»: приезд уже идёт своим ходом, осталось совсем чуть-чуть. По-русски так и говорят — «вот-вот приедет». «Будет ехать минуту» — дословный перевод, который меняет смысл, а «приехало» — прошедшее."
     }
   ],
   "text_input_exercises": [],
@@ -3578,6 +4047,34 @@
         }
       ],
       "explanation": "встреча с Сэмом и так стоит в дне, поэтому помочь ничего не стоит — I'll be seeing him anyway. После will be нужна форма на -ing, а связка после will голая: be, не being."
+    },
+    {
+      "id": 116,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Sorry, I'm stuck in traffic. I'll be twenty minutes late."
+        },
+        {
+          "speaker": "B",
+          "text": null
+        }
+      ],
+      "options": [
+        {
+          "text": "No problem, I'll wait.",
+          "isCorrect": true
+        },
+        {
+          "text": "No problem, I'll be wait.",
+          "isCorrect": false
+        },
+        {
+          "text": "No problem, I wait.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "соглашаемся прямо сейчас — will + глагол: I'll wait. Голый глагол после be не встаёт, а I wait без will звучит как «я вообще жду», а не как ответ на эту ситуацию."
     }
   ],
   "matching_exercises": [
@@ -3603,6 +4100,29 @@
         }
       ],
       "explanation": "will + глагол — решение или событие в эту минуту: обещаю писать, в полдень выйду. will be + -ing — ход дел или процесс в разгаре: так пойдёт неделя, в полдень застанешь меня в офисе."
+    },
+    {
+      "id": 133,
+      "taskDescription": "соедини фразу с тем, как её скажут по-русски.",
+      "pairs": [
+        {
+          "left": "Will you be having the soup?",
+          "right": "Суп будете?"
+        },
+        {
+          "left": "We'll be closing in ten minutes.",
+          "right": "Через десять минут закрываемся."
+        },
+        {
+          "left": "We'll be leaving soon.",
+          "right": "Мы скоро уходим."
+        },
+        {
+          "left": "I'll be working late tonight.",
+          "right": "Сегодня задержусь на работе."
+        }
+      ],
+      "explanation": "каждая фраза передаёт смысл, а не слова: вопрос официанта — «Суп будете?», объявление — «закрываемся», ход дел — «скоро уходим», вечер за работой — «задержусь». Дословное «будем закрывать» или «буду работать поздно» по-русски звучит неловко."
     }
   ],
   "error_correction_exercises": [
@@ -3840,6 +4360,29 @@
         }
       ],
       "explanation": "в деловом письме эта форма сообщает, как пойдут дела: отчёт придёт в пятницу. По-русски так и звучит — «пришлю», а не «буду присылать». «Присылал» — прошедшее, «вы пришлёте» меняет того, кто отправляет, а «писать» — совсем другое действие."
+    },
+    {
+      "id": 112,
+      "construction": "Will you be staying long?",
+      "options": [
+        {
+          "text": "Вы будете долго стоять?",
+          "isCorrect": false
+        },
+        {
+          "text": "Вы долго оставались?",
+          "isCorrect": false
+        },
+        {
+          "text": "Вы останетесь навсегда?",
+          "isCorrect": false
+        },
+        {
+          "text": "Вы надолго?",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "staying — «пребывание, гостить»: вопрос о том, сколько продлится ваш визит. По-русски его задают коротко — «Вы надолго?». «Стоять» — ошибка перевода stay, «оставались» — прошедшее, «навсегда» — другой смысл."
     }
   ],
   "transformation_exercises": [
@@ -3959,6 +4502,37 @@
         }
       ],
       "explanation": "упрямый отказ — чистая воля, его говорят голым won't. Спокойное «меня не будет», «не останемся» — сообщение о ходе дел без нажима, это won't be + -ing."
+    },
+    {
+      "id": 166,
+      "taskDescription": "разложи фразы по тому, куда уходит «буду».",
+      "categories": [
+        {
+          "title": "will + глагол",
+          "items": [
+            "ладно, буду молчать",
+            "обещаю, буду писать",
+            "хорошо, буду звонить реже"
+          ]
+        },
+        {
+          "title": "going to",
+          "items": [
+            "решено: буду копить на машину",
+            "с осени буду ходить на йогу",
+            "решил: буду вставать в шесть"
+          ]
+        },
+        {
+          "title": "will be + -ing",
+          "items": [
+            "в семь буду ещё гладить",
+            "всё утро буду убираться",
+            "до ночи буду красить стены"
+          ]
+        }
+      ],
+      "explanation": "согласие и обещание прямо сейчас — will + глагол. Решение, принятое заранее, — going to. Дело, которое в названную минуту или весь отрезок будет идти, — will be + -ing."
     }
   ],
   "find_the_odd_exercises": [
