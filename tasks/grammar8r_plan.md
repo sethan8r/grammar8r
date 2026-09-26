@@ -8301,7 +8301,7 @@ theory/
 │   │         will be being built, after an hour и I'll be getting it в ex3 НЕ ставятся: собраны по
 │   │         правилам, задание стало бы спорным (разбираются в ex1 и в Theory).
 │   │
-│   ├── Future Perfect  ← тема 2 раздела (Topic 42, order=2)
+│   ├── Future Perfect  ← тема 2 раздела (Topic 42, order=2) ✅ ТЕМА НАПИСАНА
 │   │   📋 ДЕРЕВО СОБРАНО 26.09.2026 прогоном ИНВЕНТАРЯ РОЛЕЙ (гайд §3, 39 ролей формы), охотой за
 │   │      долгами по всей теории и независимой проверкой. 9 микротем / 21 карточка.
 │   │   ⚠️⚠️ МАСШТАБ (как у Future Continuous): всё, чтобы понимать и говорить; закоулки — строкой на
@@ -8496,7 +8496,10 @@ theory/
 │   │   │       настоящее / have + V3; зона тормоза плашкой; «Кстати» → Future Perfect Continuous.
 │   │   │       AI future_perfect_card768_ex1 «Какое будущее: весь набор» (FREE_WRITE, GENERAL).
 │   │   │
-│   │   └── МТ · Live Practice · Future Perfect вживую с ИИ — финальная AI-микротема (1 карточка, 3 AI; канон «ФИНАЛЬНАЯ AI-МИКРОТЕМА» выше)
+│   │   └── МТ289 · Live Practice · Future Perfect вживую с ИИ — финальная AI-микротема (1 карточка, 3 AI; канон «ФИНАЛЬНАЯ AI-МИКРОТЕМА» выше) ✅ (написана, ALL GREEN 26.09.26)
+│   │       Card 769 · Живая практика: Future Perfect в деле — Theory-сводка всей темы (корень, сборка, таблица
+│   │         ролей, точка и срок, русские сигналы, когда хватит will, компас, техника ✗ → ✓ = инвентарь ex3),
+│   │         Summary-конспект под все три задания. AI future_perfect_card769_ex1 / _ex2 / _ex3.
 │   │       ex1 «Скажи по-английски» (GENERAL) — у ситуации обязателен признак: срок, две точки с when, итог,
 │   │         годовщина, «успеешь?», догадка, прогноз с пассивом или граница, где хватит will + by.
 │   │         ⚠️ ОБЯЗАТЕЛЬНО пунктом инвентаря: вопрос о сроке — By when…? (К какому числу тебе нужен отчёт?)
@@ -8504,11 +8507,15 @@ theory/
 │   │         в словаре) — закрепляем повторением здесь; разбор — Card 755.
 │   │       ex2 «Что на самом деле сказано» (NONE) — пары: When you arrive, I'll leave ↔ I'll have left ·
 │   │         I'll finish at 6 ↔ I'll be finishing at 6 ↔ I'll have finished by 6 · He'd have finished
-│   │         (пересказ ↔ «закончил бы») · I should have finished (упрёк ↔ расчёт к сроку).
-│   │       ex3 «Найди и исправь» (NONE) — ровно одна ошибка на три предложения, из списка: will have went ·
-│   │         until Friday (в значении by) · by the time you will come · when I will have finished · Will
-│   │         have you… · he'd had finished · In June will be 10 years… · Until when do you need it? (в значении
-│   │         «к какому сроку» → By when).
+│   │         (пересказ ↔ «закончил бы») · I should have finished (упрёк ↔ расчёт к сроку) · You'll hear ↔
+│   │         You'll have heard · план ↔ итог к дате · When I read ↔ When I've read · must have ↔ will have by
+│   │         now · until ↔ by · By when ↔ Until when. После разбора — живой русский перевод каждой (Card 762).
+│   │       ex3 «Найди и исправь» (NONE) — ровно одна ошибка на три предложения, только ГРАММАТИЧЕСКАЯ, из
+│   │         списка: will have went · will has · will have finish · Will have you… · until со сроком при will
+│   │         have · by the time you will come · when I will have finished · he'd had / would had · In June
+│   │         will be 10 years… · been knowing · By Friday I've finished · will have built (потерян been).
+│   │         ⚠️ Спорное в ex3 НЕ ставить: Until when (верная фраза с другим смыслом — она в ex2), will have …
+│   │         tomorrow без точки, I'll already leave, will + by вместо will have — это разбирает ОЦЕНКА ex1.
 │   │
 │   └── Future Perfect Continuous  ← тема 3 раздела (Topic 43, order=3) — ДЕРЕВО ВПЕРЕДИ (собрать инвентарём ролей)
 │       `will have been + -ing` — «к моменту в будущем это будет тянуться уже столько-то»

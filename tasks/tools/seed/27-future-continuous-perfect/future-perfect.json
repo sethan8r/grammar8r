@@ -74,6 +74,13 @@
       "title": "will or will have done · Когда без Future Perfect не обойтись",
       "order": 8,
       "searchKeywords": "will или will have, когда нужен will have, i've finished by friday, will have tomorrow, какое будущее выбрать"
+    },
+    {
+      "id": 289,
+      "topicId": 42,
+      "title": "Live Practice · Future Perfect вживую с ИИ",
+      "order": 9,
+      "searchKeywords": "потренировать will have done, проверить себя future perfect, найди ошибку will have, задания с ии на future perfect"
     }
   ],
   "grammar_cards": [
@@ -4100,6 +4107,371 @@
         "Когда разница между I'll finish by Friday и I'll have finished by Friday не важна?",
         "Чем will be doing отличается от will have done на одной и той же точке?"
       ]
+    },
+    {
+      "id": 769,
+      "microtopicId": 289,
+      "title": "Живая практика: Future Perfect в деле",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Тема пройдена целиком: восемь микротем — от сборки формы до пересказа и выбора между будущими. Осталось то, чему учит только практика: видеть точку в будущем и выбирать форму на лету — не ставить `will have` туда, где хватит `will`, и не терять его там, где без него ломается смысл."
+        },
+        {
+          "type": "heading",
+          "text": "Корень всей темы"
+        },
+        {
+          "type": "paragraph",
+          "text": "`will have + V3` — взгляд назад из точки в будущем: к ней дело уже позади, а когда именно его делали, неважно. Нет точки — нет и этого времени. Если точка — «сейчас», получается уверенная догадка о том, что уже случилось. Образ — копия, сданная к эфиру: к часу эфира всё смонтировано, а когда монтировали, зрителю всё равно."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сборка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Одна форма на все лица: после `will` голое `have`, после него третья форма — **She'll have left**. Не `will has`, не `will had`, не `will have went`.",
+            "Отрицание — `won't have` + V3, по-живому «не успею»: **I won't have finished by six**.",
+            "Вопрос — вперёд выходит только `will`: **Will you have finished by six?**, **How many pages will you have written?** К подлежащему — без перестановки: **Who will have finished first?** Краткие ответы — **Yes, I will** / **No, I won't**.",
+            "Наречие встаёт после `will`: **She'll probably have left**. В отрицании — перед `won't`: **I probably won't have finished**.",
+            "На слух `'ll have` сжимается до [[əv]], но пишется всё равно `have`: **I'll of finished** ✗.",
+            "В слот встаёт всё, что умеет стоять после `have`: **will have been able to**, **will have had to**, **there will have been**, **will have had**.",
+            "Смотрим на слово сразу после `have`. Третья форма — наше время; `to` или вещь — другое: **I'll have to go**, **I'll have the soup**. После `been`: третья форма — страдательный залог, признак — `to be`, `to` — «побываю»."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где живёт это время"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Роль",
+            "Признак",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "срок",
+              "by, by then, in",
+              "By Friday I'll have paid the rent"
+            ],
+            [
+              "две точки",
+              "when, by the time",
+              "When Tom calls, I'll have left"
+            ],
+            [
+              "итог к дате",
+              "by + число",
+              "By May we'll have saved 2,000 euros"
+            ],
+            [
+              "длительность к дате",
+              "for",
+              "By June I'll have known Nick for ten years"
+            ],
+            [
+              "прогноз, новости",
+              "by 2040, пассив",
+              "By 2040 the old port will have been rebuilt"
+            ],
+            [
+              "уверенная догадка",
+              "by now",
+              "You'll have heard the news"
+            ],
+            [
+              "с оговоркой",
+              "should, might, may",
+              "The parcel should have arrived by Monday"
+            ],
+            [
+              "пересказ и мысли",
+              "said, thought",
+              "I thought you'd have finished by now"
+            ],
+            [
+              "реальное условие",
+              "if + настоящее",
+              "If we leave now, we'll have arrived by dark"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "После `when`, `by the time`, `as soon as`, `once`, `until` будущего нет — там настоящее, а «уже позади» даёт `have + V3`: **I'll call you as soon as I've landed**."
+        },
+        {
+          "type": "heading",
+          "text": "Точка и срок"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Одна точка — три картинки: **At eight I'll have dinner** — сяду ужинать; **At eight I'll be having dinner** — уже за столом; **By eight I'll have had dinner** — уже поем.",
+            "«До пятницы» — срок или отрезок. Срок, «не позже» — `by`; всё время вплоть до — `until`: **I'll be on holiday until Friday**. «Только в пятницу, не раньше» — **I won't finish until Friday**.",
+            "«Через два года» от сейчас — **in two years**, а не `after`.",
+            "«К какому сроку?» — **By when do you need it?** А **Until when…?** спрашивает «до каких пор».",
+            "Русское «пока ты доедешь, я уже…» — это `by the time`: **By the time you get here, I'll have cooked everything**. А «пока ты будешь спать» — `while`."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русские сигналы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Успеть» по смыслу: дело позади к сроку — **I'll have finished by six**; добраться — **Will you make it by six?**; хватит времени — **Will I have time for a coffee?**; не опоздать — **We'll get there in time**.",
+            "«Уже» перед сделанным делом — это форма, а не `already`: **I'll have left**, а не **I'll already leave**. «Уже» перед местом или состоянием — `will be`: **I'll already be home**.",
+            "«В июне будет десять лет, как…» — нужно подлежащее `it`: **In June it'll be ten years since we met**.",
+            "В обратную сторону `will have` звучит по-русски как «успею», «уже», «к тому времени», «меня уже не будет», «наверняка уже». При `when` без срока «уже» в переводе нужно вернуть, иначе порядок перевернётся."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда хватит will"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Срок задан словом `by`, и порядок ничем не рискует: **I'll finish it by Friday**, **I'll be done by Friday** и **I'll have finished it by Friday** одинаково верны.",
+            "Нет точки-черты: **I'll finish it tomorrow**, а не **I'll have finished it tomorrow**.",
+            "Цель без черты — это план: **I'm going to read twenty books this year**.",
+            "Весь рассказ на `will have` звучит как отчёт. Сюжет ведёт `will`, фон ставит `will be + -ing`, итог подводит `will have`."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Компас"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "К точке дело уже позади, и без этого сломается порядок, итог, прогноз или догадка? → `will have + V3`",
+            "В эту минуту дело будет идти? → `will be + -ing`",
+            "Записано в расписании? → Present Simple",
+            "Договорились с человеком? → Present Continuous",
+            "Решил заранее или вижу признак? → `going to`",
+            "Ничего из этого — решаю сейчас, обещаю, предсказываю? → `will`"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Техника, которую проверяют задания"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She'll have went** ✗ → **She'll have gone** ✓",
+            "**She will has finished** ✗ → **She will have finished** ✓",
+            "**They will have repair the road** ✗ → **They will have repaired the road** ✓",
+            "**Will have you finished?** ✗ → **Will you have finished?** ✓",
+            "**I'll have paid the rent until Friday** ✗ → **by Friday** ✓",
+            "**by the time you will get back** ✗ → **by the time you get back** ✓",
+            "**when I will have finished** ✗ → **when I've finished** ✓",
+            "**By Friday I've finished the report** ✗ → **By Friday I'll have finished the report** ✓",
+            "**I'll have been knowing Sam for ten years** ✗ → **I'll have known Sam for ten years** ✓",
+            "**In June will be ten years since we met** ✗ → **In June it'll be ten years since we met** ✓",
+            "**A new line will have built by 2035** ✗ → **A new line will have been built by 2035** ✓",
+            "**He said he would had left** ✗ → **He said he would have left** ✓",
+            "**Ben asked when would I have finished** ✗ → **Ben asked when I would have finished** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что вас ждёт в заданиях"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Скажи по-английски.** Русская фраза с признаком в самой ситуации: срок, «когда ты приедешь», «успеешь?», итог к дате, «будет N лет, как», прогноз, догадка, пересказ — или граница, где это время не нужно. Какую форму взять — решаете вы.",
+            "**Что на самом деле сказано.** Похожие английские фразы, которые различаются одной деталью — формой, словом или окружением. Объясните своими словами, что сообщает каждая.",
+            "**Найди и исправь.** Три предложения, в одном ошибка: найдите его, перепишите правильно и своими словами скажите, что было не так."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Чего в заданиях не будет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Процесса, который тянется к точке, — «к шести он будет ждать уже час». Это Future Perfect Continuous, следующая тема раздела."
+        },
+        {
+          "type": "heading",
+          "text": "ИИ — это тренажёр, а не экзамен"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ошибиться здесь нормально и даже полезно. На каждую ошибку ИИ покажет верный вариант, назовёт причину и — это главное — скажет, что значила бы **ваша** фраза. Она почти всегда настоящая английская, просто про другое: **You'll hear the news** — не мусор, а «ты услышишь новость», хотя вы хотели сказать «ты наверняка уже слышал». Уйти отсюда нужно не с оценкой, а с парой в голове."
+        },
+        {
+          "type": "heading",
+          "text": "Встретится то, чего мы не давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "ИИ говорит на живом английском, и в его фразах может проскочить конструкция из будущих тем. Пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод."
+        },
+        {
+          "type": "heading",
+          "text": "Как это устроено"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».",
+            "**Слова — ваши.** В задании «Скажи по-английски» подтягивается порция слов, которые вы уже знаете: трудность должна быть в выборе формы, а не в незнакомой лексике.",
+            "**Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие."
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Взгляд назад из точки в будущем: к ней дело уже позади. Нет точки — нет и этого времени. Точка «сейчас» — уверенная догадка."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сборка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She'll have left** — после `will` голое `have`, дальше третья форма",
+            "**I won't have finished by six** — «не успею»",
+            "**Will you have finished?** — вперёд только `will`; **Who will have finished first?**",
+            "**She'll probably have left**, но **I probably won't have finished**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда will have"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Срок: **By Friday I'll have paid the rent**",
+            "Две точки: **When Tom calls, I'll have left** — меня уже нет",
+            "Итог и длительность: **By May we'll have saved 2,000 euros** · **I'll have known Nick for ten years**",
+            "Прогноз, пассив: **By 2040 the old port will have been rebuilt**",
+            "Догадка: **You'll have heard the news** — наверняка уже слышал",
+            "С оговоркой: **The parcel should have arrived by Monday** · **I might have finished by six**",
+            "Пересказ и мысли: **He said he'd have finished by Friday** · **I thought you'd have finished by now**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда другое"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "После союза настоящее: **I'll call you as soon as I've landed** · **by the time you get back**",
+            "«Пока ты доедешь, я уже…» → **By the time you get here, I'll have cooked everything**",
+            "Срок `by`, порядок не рискует — хватит и **I'll finish it by Friday**",
+            "Нет черты: **I'll finish it tomorrow**",
+            "Цель без черты: **I'm going to read twenty books this year**",
+            "«Уже» + место: **I'll already be home**",
+            "Идёт в эту минуту: **At eight I'll be having dinner**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Срок и «успеть»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Срок — **by Friday**, отрезок — **until Friday**, «только в» — **I won't finish until Friday**",
+            "«Через» — **in two years** · «К какому сроку?» — **By when do you need it?**",
+            "«Успеть»: **will have finished** · **make it** · **have time** · **in time**",
+            "«Будет N лет, как» — **In June it'll be ten years since we met**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Легко перепутать"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When you arrive, I'll leave** — после тебя ↔ **I'll have left** — меня уже нет",
+            "**At six I'll finish** — в шесть ↔ **At six I'll be finishing** — как раз заканчиваю ↔ **By six I'll have finished** — к шести уже",
+            "**You'll hear the news** — услышишь ↔ **You'll have heard** — наверняка уже слышал",
+            "**I'm going to read twenty books** — цель ↔ **By December I'll have read twenty books** — итог",
+            "**When I read the book** — по ходу ↔ **When I've read the book** — сначала дочитаю",
+            "**She must have left** — вижу улику ↔ **She'll have left by now** — знаю по опыту",
+            "**He said he'd have finished** — пересказ ↔ **He'd have finished if you'd helped** — закончил бы",
+            "**You should have called me** — упрёк ↔ **He should have landed by now** — расчёт",
+            "**By when?** — к какому сроку ↔ **Until when?** — до каких пор"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**will have went** ✗ → **will have gone** ✓",
+            "**Will have you finished?** ✗ → **Will you have finished?** ✓",
+            "**by the time you will get back** ✗ → **by the time you get back** ✓",
+            "**By Friday I've finished** ✗ → **By Friday I'll have finished** ✓",
+            "**I'll have been knowing** ✗ → **I'll have known** ✓",
+            "**In June will be ten years** ✗ → **In June it'll be ten years** ✓",
+            "**A new line will have built** ✗ → **will have been built** ✓",
+            "**asked when would I have finished** ✗ → **asked when I would have finished** ✓"
+          ]
+        }
+      ],
+      "examples": [],
+      "clarificationOptions": [
+        "Как быстро понять, нужен will или will have?",
+        "Почему You'll have heard — это не будущее?",
+        "Когда разница между I'll finish by Friday и I'll have finished by Friday не важна?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -4520,6 +4892,30 @@
       "userInstruction": "ИИ опишет ситуацию и даст русскую фразу. Скажите её по-английски и одной строкой объясните, почему выбрали эту форму.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_perfect_card769_ex1",
+      "cardId": 769,
+      "title": "Скажи по-английски",
+      "userInstruction": "ИИ даст русскую фразу о будущем. Скажите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_perfect_card769_ex2",
+      "cardId": 769,
+      "title": "Что на самом деле сказано",
+      "userInstruction": "ИИ даст похожие английские фразы, которые различаются одной деталью. Объясните своими словами, что сообщает каждая.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    },
+    {
+      "id": "future_perfect_card769_ex3",
+      "cardId": 769,
+      "title": "Найди и исправь",
+      "userInstruction": "ИИ даст три предложения. Найдите то, в котором есть ошибка, напишите его правильно и своими словами объясните, что было не так.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
     }
   ],
   "course_word_groups": [

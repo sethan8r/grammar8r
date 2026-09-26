@@ -2863,13 +2863,238 @@ RU: Когда Ира вернётся из отпуска, мы уже пере
 
 ---
 
+## Microtopic 289 — Live Practice · Future Perfect вживую с ИИ
+
+**ID:** 289
+**Теги:** потренировать will have done, проверить себя future perfect, найди ошибку will have, задания с ии на future perfect
+
+---
+
+### Card 769 · Живая практика: Future Perfect в деле
+
+**ID:** 769
+
+#### Theory
+
+Тема пройдена целиком: восемь микротем — от сборки формы до пересказа и выбора между будущими. Осталось то, чему учит только практика: видеть точку в будущем и выбирать форму на лету — не ставить `will have` туда, где хватит `will`, и не терять его там, где без него ломается смысл.
+
+**Корень всей темы**
+
+`will have + V3` — взгляд назад из точки в будущем: к ней дело уже позади, а когда именно его делали, неважно. Нет точки — нет и этого времени. Если точка — «сейчас», получается уверенная догадка о том, что уже случилось. Образ — копия, сданная к эфиру: к часу эфира всё смонтировано, а когда монтировали, зрителю всё равно.
+
+**Формула:** will + have + V3
+
+**Сборка**
+
+- Одна форма на все лица: после `will` голое `have`, после него третья форма — **She'll have left**. Не `will has`, не `will had`, не `will have went`.
+- Отрицание — `won't have` + V3, по-живому «не успею»: **I won't have finished by six**.
+- Вопрос — вперёд выходит только `will`: **Will you have finished by six?**, **How many pages will you have written?** К подлежащему — без перестановки: **Who will have finished first?** Краткие ответы — **Yes, I will** / **No, I won't**.
+- Наречие встаёт после `will`: **She'll probably have left**. В отрицании — перед `won't`: **I probably won't have finished**.
+- На слух `'ll have` сжимается до [[əv]], но пишется всё равно `have`: **I'll of finished** ✗.
+- В слот встаёт всё, что умеет стоять после `have`: **will have been able to**, **will have had to**, **there will have been**, **will have had**.
+- Смотрим на слово сразу после `have`. Третья форма — наше время; `to` или вещь — другое: **I'll have to go**, **I'll have the soup**. После `been`: третья форма — страдательный залог, признак — `to be`, `to` — «побываю».
+
+**Где живёт это время**
+
+| Роль | Признак | Пример |
+|------|---------|--------|
+| срок | by, by then, in | By Friday I'll have paid the rent |
+| две точки | when, by the time | When Tom calls, I'll have left |
+| итог к дате | by + число | By May we'll have saved 2,000 euros |
+| длительность к дате | for | By June I'll have known Nick for ten years |
+| прогноз, новости | by 2040, пассив | By 2040 the old port will have been rebuilt |
+| уверенная догадка | by now | You'll have heard the news |
+| с оговоркой | should, might, may | The parcel should have arrived by Monday |
+| пересказ и мысли | said, thought | I thought you'd have finished by now |
+| реальное условие | if + настоящее | If we leave now, we'll have arrived by dark |
+
+После `when`, `by the time`, `as soon as`, `once`, `until` будущего нет — там настоящее, а «уже позади» даёт `have + V3`: **I'll call you as soon as I've landed**.
+
+**Точка и срок**
+
+- Одна точка — три картинки: **At eight I'll have dinner** — сяду ужинать; **At eight I'll be having dinner** — уже за столом; **By eight I'll have had dinner** — уже поем.
+- «До пятницы» — срок или отрезок. Срок, «не позже» — `by`; всё время вплоть до — `until`: **I'll be on holiday until Friday**. «Только в пятницу, не раньше» — **I won't finish until Friday**.
+- «Через два года» от сейчас — **in two years**, а не `after`.
+- «К какому сроку?» — **By when do you need it?** А **Until when…?** спрашивает «до каких пор».
+- Русское «пока ты доедешь, я уже…» — это `by the time`: **By the time you get here, I'll have cooked everything**. А «пока ты будешь спать» — `while`.
+
+**Русские сигналы**
+
+- «Успеть» по смыслу: дело позади к сроку — **I'll have finished by six**; добраться — **Will you make it by six?**; хватит времени — **Will I have time for a coffee?**; не опоздать — **We'll get there in time**.
+- «Уже» перед сделанным делом — это форма, а не `already`: **I'll have left**, а не **I'll already leave**. «Уже» перед местом или состоянием — `will be`: **I'll already be home**.
+- «В июне будет десять лет, как…» — нужно подлежащее `it`: **In June it'll be ten years since we met**.
+- В обратную сторону `will have` звучит по-русски как «успею», «уже», «к тому времени», «меня уже не будет», «наверняка уже». При `when` без срока «уже» в переводе нужно вернуть, иначе порядок перевернётся.
+
+**Когда хватит will**
+
+- Срок задан словом `by`, и порядок ничем не рискует: **I'll finish it by Friday**, **I'll be done by Friday** и **I'll have finished it by Friday** одинаково верны.
+- Нет точки-черты: **I'll finish it tomorrow**, а не **I'll have finished it tomorrow**.
+- Цель без черты — это план: **I'm going to read twenty books this year**.
+- Весь рассказ на `will have` звучит как отчёт. Сюжет ведёт `will`, фон ставит `will be + -ing`, итог подводит `will have`.
+
+**Компас**
+
+1. К точке дело уже позади, и без этого сломается порядок, итог, прогноз или догадка? → `will have + V3`
+2. В эту минуту дело будет идти? → `will be + -ing`
+3. Записано в расписании? → Present Simple
+4. Договорились с человеком? → Present Continuous
+5. Решил заранее или вижу признак? → `going to`
+6. Ничего из этого — решаю сейчас, обещаю, предсказываю? → `will`
+
+**Техника, которую проверяют задания**
+
+- **She'll have went** ✗ → **She'll have gone** ✓
+- **She will has finished** ✗ → **She will have finished** ✓
+- **They will have repair the road** ✗ → **They will have repaired the road** ✓
+- **Will have you finished?** ✗ → **Will you have finished?** ✓
+- **I'll have paid the rent until Friday** ✗ → **by Friday** ✓
+- **by the time you will get back** ✗ → **by the time you get back** ✓
+- **when I will have finished** ✗ → **when I've finished** ✓
+- **By Friday I've finished the report** ✗ → **By Friday I'll have finished the report** ✓
+- **I'll have been knowing Sam for ten years** ✗ → **I'll have known Sam for ten years** ✓
+- **In June will be ten years since we met** ✗ → **In June it'll be ten years since we met** ✓
+- **A new line will have built by 2035** ✗ → **A new line will have been built by 2035** ✓
+- **He said he would had left** ✗ → **He said he would have left** ✓
+- **Ben asked when would I have finished** ✗ → **Ben asked when I would have finished** ✓
+
+**Что вас ждёт в заданиях**
+
+- **Скажи по-английски.** Русская фраза с признаком в самой ситуации: срок, «когда ты приедешь», «успеешь?», итог к дате, «будет N лет, как», прогноз, догадка, пересказ — или граница, где это время не нужно. Какую форму взять — решаете вы.
+- **Что на самом деле сказано.** Похожие английские фразы, которые различаются одной деталью — формой, словом или окружением. Объясните своими словами, что сообщает каждая.
+- **Найди и исправь.** Три предложения, в одном ошибка: найдите его, перепишите правильно и своими словами скажите, что было не так.
+
+**Чего в заданиях не будет**
+
+Процесса, который тянется к точке, — «к шести он будет ждать уже час». Это Future Perfect Continuous, следующая тема раздела.
+
+**ИИ — это тренажёр, а не экзамен**
+
+Ошибиться здесь нормально и даже полезно. На каждую ошибку ИИ покажет верный вариант, назовёт причину и — это главное — скажет, что значила бы **ваша** фраза. Она почти всегда настоящая английская, просто про другое: **You'll hear the news** — не мусор, а «ты услышишь новость», хотя вы хотели сказать «ты наверняка уже слышал». Уйти отсюда нужно не с оценкой, а с парой в голове.
+
+**Встретится то, чего мы не давали**
+
+ИИ говорит на живом английском, и в его фразах может проскочить конструкция из будущих тем. Пугаться не нужно: сначала знакомитесь с формой в контексте, потом получаете разбор. Незнакомое слово всегда можно зажать и посмотреть перевод.
+
+**Как это устроено**
+
+- **Памяти здесь нет.** Каждый запуск начинается с чистого листа — ИИ не помнит ваши прошлые ответы. Режимы с памятью живут во вкладке «Практика».
+- **Слова — ваши.** В задании «Скажи по-английски» подтягивается порция слов, которые вы уже знаете: трудность должна быть в выборе формы, а не в незнакомой лексике.
+- **Каждое сообщение ИИ — одна единица дневного лимита.** Имейте это в виду, когда планируете занятие.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Взгляд назад из точки в будущем: к ней дело уже позади. Нет точки — нет и этого времени. Точка «сейчас» — уверенная догадка.
+
+**Формула:** will + have + V3
+
+**Сборка**
+
+- **She'll have left** — после `will` голое `have`, дальше третья форма
+- **I won't have finished by six** — «не успею»
+- **Will you have finished?** — вперёд только `will`; **Who will have finished first?**
+- **She'll probably have left**, но **I probably won't have finished**
+
+**Когда will have**
+
+- Срок: **By Friday I'll have paid the rent**
+- Две точки: **When Tom calls, I'll have left** — меня уже нет
+- Итог и длительность: **By May we'll have saved 2,000 euros** · **I'll have known Nick for ten years**
+- Прогноз, пассив: **By 2040 the old port will have been rebuilt**
+- Догадка: **You'll have heard the news** — наверняка уже слышал
+- С оговоркой: **The parcel should have arrived by Monday** · **I might have finished by six**
+- Пересказ и мысли: **He said he'd have finished by Friday** · **I thought you'd have finished by now**
+
+**Когда другое**
+
+- После союза настоящее: **I'll call you as soon as I've landed** · **by the time you get back**
+- «Пока ты доедешь, я уже…» → **By the time you get here, I'll have cooked everything**
+- Срок `by`, порядок не рискует — хватит и **I'll finish it by Friday**
+- Нет черты: **I'll finish it tomorrow**
+- Цель без черты: **I'm going to read twenty books this year**
+- «Уже» + место: **I'll already be home**
+- Идёт в эту минуту: **At eight I'll be having dinner**
+
+**Срок и «успеть»**
+
+- Срок — **by Friday**, отрезок — **until Friday**, «только в» — **I won't finish until Friday**
+- «Через» — **in two years** · «К какому сроку?» — **By when do you need it?**
+- «Успеть»: **will have finished** · **make it** · **have time** · **in time**
+- «Будет N лет, как» — **In June it'll be ten years since we met**
+
+**Легко перепутать**
+
+- **When you arrive, I'll leave** — после тебя ↔ **I'll have left** — меня уже нет
+- **At six I'll finish** — в шесть ↔ **At six I'll be finishing** — как раз заканчиваю ↔ **By six I'll have finished** — к шести уже
+- **You'll hear the news** — услышишь ↔ **You'll have heard** — наверняка уже слышал
+- **I'm going to read twenty books** — цель ↔ **By December I'll have read twenty books** — итог
+- **When I read the book** — по ходу ↔ **When I've read the book** — сначала дочитаю
+- **She must have left** — вижу улику ↔ **She'll have left by now** — знаю по опыту
+- **He said he'd have finished** — пересказ ↔ **He'd have finished if you'd helped** — закончил бы
+- **You should have called me** — упрёк ↔ **He should have landed by now** — расчёт
+- **By when?** — к какому сроку ↔ **Until when?** — до каких пор
+
+**Частые ошибки**
+
+- **will have went** ✗ → **will have gone** ✓
+- **Will have you finished?** ✗ → **Will you have finished?** ✓
+- **by the time you will get back** ✗ → **by the time you get back** ✓
+- **By Friday I've finished** ✗ → **By Friday I'll have finished** ✓
+- **I'll have been knowing** ✗ → **I'll have known** ✓
+- **In June will be ten years** ✗ → **In June it'll be ten years** ✓
+- **A new line will have built** ✗ → **will have been built** ✓
+- **asked when would I have finished** ✗ → **asked when I would have finished** ✓
+
+#### AI Exercise
+
+**ID:** future_perfect_card769_ex1
+**Title:** "Скажи по-английски"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст русскую фразу о будущем. Скажите её по-английски."
+**Prompt Template:** "Контекст: пользователь прошёл тему Future Perfect целиком и выполняет финальное задание. Он знает корень: will have + третья форма — взгляд назад из точки в будущем, к ней дело уже позади; нет точки — нет и этого времени; точка «сейчас» — уверенная догадка. Сборка: одна форма на все лица, после will голое have, после него третья форма (will has, will had, will have went, will have finish неверно); отрицание won't have + третья форма, по-живому «не успею»; вопрос — вперёд выходит только will (Will you have finished by six?, How many pages will you have written?), к подлежащему без перестановки (Who will have finished first?); наречие после will, в отрицании перед won't (I probably won't have finished). Роли: срок by, by then или «через» in (By Friday I'll have paid the rent, In two years I'll have finished university; after two years — «спустя», не «через»); две точки с when или by the time (When Tom calls, I'll have left — меня уже нет; When Tom calls, I'll leave — уйду после); русское «пока ты доедешь, я уже…» — by the time, а «пока ты будешь спать» — while; после when, by the time, as soon as, once, until будущего нет: настоящее, а «уже позади» — have + третья форма (I'll call you as soon as I've landed); итог к дате (By May we'll have saved 2,000 euros), с названным количеством форма на -ing не встаёт; длительность к дате (By June I'll have known Nick for ten years), глаголы состояния без -ing; «в июне будет десять лет, как…» — In June it'll be ten years since we met; прогноз и пассив (By 2040 the old port will have been rebuilt), если предмет сам ничего не делает — нужен been; уверенная догадка (You'll have heard the news — наверняка уже слышал); с оговоркой should, might, may have; пересказ и мысли — would have (He said he'd have finished by Friday, I thought you'd have finished by now); реальное условие — if + настоящее (If we leave now, we'll have arrived by dark). Срок и отрезок: «до пятницы» как срок — by, как отрезок — until (I'll be on holiday until Friday); «только в пятницу» — I won't finish until Friday; «к какому сроку?» — By when…?, а Until when…? — «до каких пор». «Успеть» по смыслу: дело к сроку — will have + третья форма или be done by, добраться — make it, хватит времени — have time, не опоздать — in time. «Уже» перед сделанным делом — форма have + третья форма, а не слово already; «уже» перед местом или состоянием — will be (I'll already be home). Когда хватит will: срок задан by и порядок не рискует (I'll finish it by Friday = I'll have finished it by Friday = I'll be done by Friday); нет точки-черты (I'll finish it tomorrow); цель без черты (I'm going to read twenty books this year). Одна точка — три картинки: At eight I'll have dinner — сяду, At eight I'll be having dinner — уже за столом, By eight I'll have had dinner — уже поем. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to и выбор между ними, настоящее время после when, if, as soon as, until, условные предложения всех типов, модальные глаголы со шкалой уверенности, герундий, страдательный залог, косвенные вопросы, придаточные с who, which, that, косвенная речь, вся тема Future Continuous и вся тема Future Perfect. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect Continuous (will have been + -ing) — фраз со смыслом «к шести будет ждать уже час» не давай. ЗАДАНИЕ: дай пользователю ОДНО русское предложение о будущем и попроси сказать его по-английски. Фраза обязана нести признак, по которому выбирается форма, — из списка ниже. В условии не подсказывай форму. Бери только знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе формы, а не в незнакомой лексике. ДЕРЖИ ФРАЗУ ПРОСТОЙ: 4-10 слов, одно подлежащее, одно действие; вторая часть — только в пунктах с «когда», «пока», «как только» и в пересказе; бытовая лексика уровня A2; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. срок (К пятнице я уже заплачу за квартиру.) 2. через (Через год Саша уже закончит университет.) 3. не успею (К шести я не успею доделать отчёт.) 4. успеешь к сроку (Ты успеешь закончить к восьми?) 5. вопрос о сроке (К какому числу тебе нужен перевод?) 6. две точки с «когда» (Когда ты проснёшься, мы уже уедем.) 7. «пока» в смысле «к моменту» (Пока ты доедешь, я уже всё приготовлю.) 8. после союза (Позвоню, как только приземлюсь.) 9. итог к дате (К лету я прочитаю десять книг.) 10. длительность к дате (В мае будет пять лет, как я знаю Олю.) 11. прогноз с пассивом (К 2040 году старый порт перестроят.) 12. уверенная догадка (Все наверняка уже слышали новость.) 13. с оговоркой (Посылка, по идее, придёт к понедельнику.) 14. пересказ (Паша сказал, что закончит к пятнице.) 15. ожидание не сбылось (Я думал, к этому времени ты уже закончишь.) 16. граница: хватит will (Я закончу отчёт к пятнице.) 17. граница: нет черты (Я закончу отчёт завтра.) 18. граница: «уже» перед местом (Когда ты позвонишь, я уже буду дома.) 19. граница: процесс в минуту (В восемь я как раз буду ужинать.) 20. граница: отрезок «до» (Я буду в отпуске до пятницы.) 21. граница: «только в» (Я закончу только в пятницу.) 22. граница: цель без черты (В этом году я пробегу марафон.) Образцы дословно не повторяй. ОЦЕНКА: верна форма, которую требует признак фразы; полная форма и сокращения равноценны. Засчитывай законные варианты: will + by и be done by в пунктах 1, 3, 4 и 16, will + глагол с in в пункте 2 (одной строкой скажи, что will have подчёркивает «к сроку уже позади»); should arrive by Monday в пункте 13; make it в пункте 4, если речь о том, чтобы добраться; It'll be five years since I met Olya и By May I'll have known Olya for five years в пункте 10; must have и You've probably heard в пункте 12; They'll have rebuilt the old port в пункте 11; he'd finish by Friday в пункте 14 и несдвинутое he'll have, если пятница ещё впереди; I'm going to или I'll в пункте 22. Разбирай по одной строке: в пункте 6 или 7 поставил will + глагол — скажи, что так дело случится после, а по смыслу к этому моменту оно уже позади; после when, by the time, as soon as поставил will или will have — будущее уже сказано во второй части, после союза настоящее или have + третья форма; в пункте 7 взял while — while о том, что идёт параллельно, а «доехать» — точка, нужно by the time; для срока поставил until — until меряет длину «всё время до», нужен by; в пункте 20 поставил by — тут всё время вплоть до пятницы, нужен until; в пункте 21 написал will have finished until — «только в пятницу» — это won't … until; «через» передал через after — от сейчас in; «к» передал через to — by; в пункте 5 начал с Until when — это «до каких пор», про срок — By when; в пункте 9 поставил will read без черты или will have been reading — количество считают готовым, нужно will have read; в пункте 10 написал In May will be five years — английскому нужно подлежащее it; с глаголом состояния поставил -ing — у знания нет процесса; в пункте 11 потерял been — порт сам себя не перестраивает; в пункте 12 поставил будущее (Everyone will hear) — так выйдет «услышат», а речь о том, что уже случилось; в пункте 15 оставил will после I thought — мысль в прошлом сдвигает will have в would have; в пункте 17 написал will have finished tomorrow — без черты «к …» это время не работает; в пункте 18 написал will have been at home — «быть дома» — место, а не сделанное дело, нужен will be; в пункте 19 поставил will have had dinner — так выйдет «уже поем», а по смыслу застанут за ужином; в пункте 22 поставил will have run — черты «к …» нет, это цель, а не итог; Present Perfect с будущей чертой (By Friday I've paid) — have done считает до сейчас, черта в будущем требует will; «уже» передал словом already при простом will (we'll already leave) — «уже» здесь несёт форма have + третья форма; написал of вместо have (I'll of finished) — на слух похоже, но пишется have; поломки сборки (will has, will have went, Will have you) — покажи собранную форму. При ошибке сначала скажи, что значила бы фраза пользователя, если она осмысленна, потом дай верный вариант целиком. Когда ответ верный и рядом есть форма, которую легко спутать, добавь ОДНУ строку о том, что означала бы она; соседнюю форму не выдумывай — часто короткого «верно» достаточно. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Скажите по-английски: Когда ты вернёшься из магазина, я уже уберу кухню.'
+
+#### AI Exercise
+
+**ID:** future_perfect_card769_ex2
+**Title:** "Что на самом деле сказано"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст похожие английские фразы, которые различаются одной деталью. Объясните своими словами, что сообщает каждая."
+**Prompt Template:** "Контекст: пользователь прошёл тему Future Perfect целиком и выполняет финальное задание. Он знает корень: will have + третья форма — взгляд назад из точки в будущем, к ней дело уже позади; точка «сейчас» — уверенная догадка; все пары из списка ниже разобраны в карточках темы. Он знает, что по-русски эта форма звучит не как «буду иметь сделанным», а как «успею», «уже», «к тому времени», «меня уже не будет», «наверняка уже», и что при when без срока «уже» в переводе нужно вернуть. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения всех типов, модальные глаголы со шкалой уверенности, герундий, страдательный залог, косвенные вопросы, придаточные с who, which, that, косвенная речь, вся тема Future Continuous и вся тема Future Perfect. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect Continuous — такие формы в фразы не ставь. ЗАДАНИЕ: опиши по-русски ОДНУ короткую ситуацию и дай две английские фразы, которые в ней можно сказать и которые различаются одной деталью — формой, словом или окружением (в паре 2 — три фразы); попроси пользователя своими словами объяснить, что каждая сообщает слушателю. Все фразы должны быть грамматически верными. В условии не подсказывай, в чём разница, и не переводи фразы. ДЕРЖИ ПРОСТЫМ: ситуация — одно короткое предложение, каждая фраза — 4-10 слов, бытовая лексика уровня A2, английские имена; в дебри не уходи. ВЫБОР ПАРЫ: памяти о прошлых запусках у тебя нет, поэтому пару выбирай случайно прямо сейчас, и порядок фраз внутри пары тоже выбирай случайно; в скобках — что сообщает каждая: 1. When you arrive, I'll leave ↔ When you arrive, I'll have left (уйду после твоего приезда, встретимся ↔ к твоему приезду меня уже нет). 2. At six I'll finish ↔ At six I'll be finishing ↔ By six I'll have finished (в шесть закончу ↔ в шесть как раз буду заканчивать ↔ к шести уже закончу). 3. You'll hear the news ↔ You'll have heard the news (услышишь потом ↔ наверняка уже слышал, будущего нет). 4. I'm going to read twenty books this year ↔ By December I'll have read twenty books (цель на год ↔ итог к черте). 5. When I read the book, I'll make notes ↔ When I've read the book, I'll make notes (по ходу чтения ↔ сначала дочитаю, потом заметки). 6. She must have left ↔ She'll have left by now (вижу улику ↔ знаю, как обычно бывает). 7. He said he'd have finished by Friday ↔ He'd have finished by Friday if you'd helped (пересказ: сказал, что успеет ↔ закончил бы, но не закончил). 8. You should have called me yesterday ↔ He should have landed by now (упрёк: надо было ↔ расчёт: по идее, уже). 9. I'll work until Friday ↔ I'll have finished the work by Friday (всё время вплоть до пятницы ↔ не позже пятницы дело позади). 10. By when do you need it? ↔ Until when do you need it? (к какому сроку ↔ до каких пор, как долго). 11. I won't finish until Friday ↔ I won't have finished by Friday (закончу только в пятницу ↔ к пятнице ещё не закончу). Образцы дословно не повторяй — меняй людей, предметы и места, сохраняя различие. ОЦЕНКА: оценивай объяснение ПО СУТИ, а не по формулировке: грамматических терминов от пользователя не жди, «в первой он уйдёт при тебе, во второй его уже не будет» — достаточно. Засчитывай, если пользователь уловил главное различие пары: после ↔ до, будущее ↔ догадка, цель ↔ итог, по ходу ↔ после, улика ↔ опыт, пересказ ↔ несбывшееся, упрёк ↔ расчёт, отрезок ↔ срок, к сроку ↔ как долго. Если уловил только одну половину — засчитай и одной строкой допиши вторую. Если перепутал фразы местами — мягко покажи, какая что значит, и опиши картинку для каждой: что увидит человек в эту минуту. Если сказал, что разницы нет, — в паре 11 признай, что оттенок небольшой, и назови его (момент окончания ↔ положение дел к пятнице); в остальных покажи разницу на самой ситуации. Если перевёл слово в слово («буду иметь ушедшим») — скажи, что по-русски так не говорят. После разбора дай для каждой фразы короткий живой русский перевод, и если в нём по-русски нужно «уже» — поставь его. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Ситуация: вы с Беном договариваетесь о встрече вечером. Что сообщает каждая фраза? 1. When Ben comes, I'll have left. 2. When Ben comes, I'll leave.'
+
+#### AI Exercise
+
+**ID:** future_perfect_card769_ex3
+**Title:** "Найди и исправь"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ даст три предложения. Найдите то, в котором есть ошибка, напишите его правильно и своими словами объясните, что было не так."
+**Prompt Template:** "Контекст: пользователь прошёл тему Future Perfect целиком. Он знает: форма собирается из will, голого have и третьей формы, одна на все лица; после will нет has и had, после have нет второй и базовой формы; в вопросе вперёд выходит только will, have остаётся с третьей формой; срок — by, а until — отрезок «всё время до», поэтому с will have until для срока не встаёт; после when, by the time, as soon as будущего нет — там настоящее или have + третья форма; черта в будущем требует will, Present Perfect считает только до сейчас; глаголы состояния (know, have в значении «иметь») в форму на -ing не встают; «в июне будет десять лет, как…» — нужно подлежащее it; если предмет сам ничего не делает, нужен been (will have been built); в пересказе после would голое have, а в пересказе вопроса порядок прямой. Он знает и формы, которые выглядят непривычно, но верны: You'll have heard the news (догадка, будущего нет), I'll be done by six (be done — «закончу»), Once you've paid, you'll get a receipt (после союза have + третья форма), In June it'll be ten years since we met, I'll have got the tickets by Friday (got — «достану»), He should have landed by now (расчёт), The bridge will have been built by May (страдательный залог), I'll have to leave early (have to — «придётся»), By the time you get home, I'll have cooked dinner, I thought you'd have finished by now (мысль сдвинута), I won't finish until Friday («только в пятницу»). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, условные предложения, модальные глаголы, герундий, страдательный залог, косвенные вопросы, придаточные с who, which, that, косвенная речь, вся тема Future Continuous и вся тема Future Perfect. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect Continuous — таких форм в предложениях не используй. ЗАДАНИЕ: дай пользователю ТРИ коротких английских предложения списком, каждое — с этим временем или рядом с ним. РОВНО В ОДНОМ из них должна быть грамматическая ошибка, два других — полностью правильные. Попроси найти сломанное, переписать его верно и своими словами сказать, что было не так. Номер сломанного предложения выбирай случайно. Оба верных предложения бери из списка ВЕРНЫХ ОБРАЗЦОВ ниже — это конструкции, которые кажутся подозрительными, чтобы ошибку приходилось находить по правилу, а не по непривычности. Спорных случаев ошибкой не делай: не ставь ошибкой will + глагол вместо will have (I'll finish by Friday), will have с tomorrow без by, I'll already leave и Until when…? — они либо верны, либо спорны, и задание станет спорным. ДЕРЖИ ПРЕДЛОЖЕНИЯ ПРОСТЫМИ: 4-10 слов каждое, бытовая лексика, английские имена. Запятые во всех трёх расставь верно — ошибка должна быть только грамматической, не в знаках препинания. ВЕРНЫЕ ОБРАЗЦЫ, выбирай два случайно: а) You'll have heard the news. б) I'll be done by six. в) Once you've paid, you'll get a receipt. г) In June it'll be ten years since we met. д) I'll have got the tickets by Friday. е) He should have landed by now. ж) The bridge will have been built by May. з) I'll have to leave early. и) By the time you get home, I'll have cooked dinner. к) I thought you'd have finished by now. л) I won't finish until Friday. Образцы дословно не повторяй — меняй имена, предметы и места, сохраняя конструкцию. ВЫБОР ОШИБКИ: памяти о прошлых запусках у тебя нет, поэтому ошибку выбирай случайно из списка прямо сейчас: 1. вторая форма после have: By noon Kate will have went home. 2. has после will: The guests will has arrived by eight. 3. базовая форма после have: They will have repair the road by May. 4. have перед подлежащим в вопросе: Will have you finished by six? 5. until для срока: I'll have paid the rent until Friday. 6. will после by the time: By the time you will get back, I'll have left. 7. will have после when: I'll call you when I will have finished. 8. Present Perfect с будущей чертой: By next week I've finished the course. 9. глагол состояния с -ing: By May I'll have been knowing Tom for years. 10. нет подлежащего: In June will be ten years since we met. 11. потерян been: The new school will have built by 2030. 12. had после would: He said he would had finished by Friday. 13. вопросительный порядок в пересказе: She asked when would I have finished. Образцы ошибок дословно не повторяй. ОЦЕНКА: засчитывай, если пользователь верно указал сломанное предложение и переписал его правильно. Объяснение оценивай ПО СУТИ, а не по формулировке: грамматических терминов от него не жди, «после have нужна третья форма» и «вперёд выходит только will» — достаточно. Причину называй теми же словами, какими её объясняли в карточках: после will голое have, после have третья форма; в вопросе вперёд выходит только will; until меряет длину, а срок — by; после союза будущее не повторяют; have done считает до сейчас, а черта в будущем требует will; у знания нет процесса; английскому нужно подлежащее it; школа сама себя не строит — нужен been; после would голое have; в пересказе вопроса порядок как в утверждении. ЗАСЧИТЫВАЙ: исправление, сделанное иначе, чем ты задумывал, если результат грамматически верен и смысл сохранён (I'll call you when I finish вместо when I've finished; I'll have known Tom for years или I've known Tom for years там, где подходит; They'll have built the new school by 2030; By the time you get back, I'll be gone); верное исправление при кривом или отсутствующем объяснении — тогда причину коротко назови сам. Если пользователь указал на верное предложение — объясни, почему оно верное, назови конструкцию (догадка, be done, после союза have + третья форма, it + since, got — «достану», should — расчёт, страдательный залог, have to, сдвинутая мысль, «только в пятницу») и не ругай: такие конструкции часто выглядят подозрительно именно потому, что они непривычные; потом покажи, какое предложение было сломано на самом деле. Если нашёл сломанное, но исправил с новой ошибкой — похвали находку и почини вторую часть. УЧИ, А НЕ ЭКЗАМЕНУЙ: сначала скажи, что означала бы сломанная фраза, если у неё есть смысл, и только потом дай верную. После разбора одной строкой подтверди, что два других предложения были верными, и назови, какая конструкция в них стояла. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: '1. You'll have heard about the new rules. 2. By the time Emma will get here, we'll have eaten. 3. I'll have to call Nick tonight.'
+
+#### Clarification Options
+
+- Как быстро понять, нужен will или will have?
+- Почему You'll have heard — это не будущее?
+- Когда разница между I'll finish by Friday и I'll have finished by Friday не важна?
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 42 | 43 |
-| Microtopic | 288 | 289 |
-| Card | 768 | 769 |
+| Microtopic | 289 | 290 |
+| Card | 769 | 770 |
 | Example | 3588 | 3589 |
 | Слова курса (course_word) | 1019 | 1020 |
 | MultipleChoice · CHOICE | 267 | 268 |
