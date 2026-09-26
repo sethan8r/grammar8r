@@ -1,0 +1,783 @@
+{
+  "grammar_topics": [
+    {
+      "id": 42,
+      "title": "Future Perfect",
+      "order": 2,
+      "isPretopic": false,
+      "description": "Что к нужному моменту будущего уже будет сделано: will have + V3 — срок, две точки с when, итоги к дате, прогнозы, догадки и чем это время отличается от will",
+      "categoryId": 8,
+      "searchKeywords": "будущее совершенное, will have done, к тому времени уже сделаю, will или will have"
+    }
+  ],
+  "grammar_topic_categories": [
+    {
+      "id": 8,
+      "title": "Future: Continuous и Perfect",
+      "description": "Последние времена будущего: что будет идти в нужный момент, что к нему уже будет сделано и что к нему будет тянуться",
+      "order": 27
+    }
+  ],
+  "grammar_microtopics": [
+    {
+      "id": 281,
+      "topicId": 42,
+      "title": "What Is Future Perfect · Что такое Future Perfect",
+      "order": 1,
+      "searchKeywords": "уже сделаю по-английски, обойтись простым will, закончу к сроку, редкое время"
+    }
+  ],
+  "grammar_cards": [
+    {
+      "id": 750,
+      "microtopicId": 281,
+      "title": "Будущее, которое уже позади",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Представьте записку на двери: **By the time you get here, I'll have left.** — «к тому времени, как ты доберёшься, я уже уйду». Автор записки мысленно стоит в будущей минуте, когда вы подойдёте к двери, и оглядывается назад: к этой минуте он уже ушёл. Когда именно — в пять или в полшестого, — неважно. Важно, что к вашему приходу его уже нет."
+        },
+        {
+          "type": "paragraph",
+          "text": "Это и есть Future Perfect — будущее, которое смотрит назад. Встаём в точку в будущем и видим: дело к ней уже позади."
+        },
+        {
+          "type": "paragraph",
+          "text": "Превью этого времени мы видели в «Служебных глаголах»: **By 6 pm, Roma will have finished his homework.** Тогда это была одна карточка, теперь у времени своя тема."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Одна форма на все лица: **I'll have finished**, **she'll have finished**, **they'll have finished**. Как и в превью, после `will` всегда стоит голое `have`, а после `have` — третья форма: **She'll have finished** ✓, а **She'll has finished** ✗ и **She'll have finish** ✗ не скажет никто."
+        },
+        {
+          "type": "paragraph",
+          "text": "Переведём дважды, чтобы увидеть устройство: **I'll have finished.** — дословно «у меня будет закончено», по-живому «я уже закончу», «успею закончить». `have` здесь не «иметь» в прямом смысле: вместе с третьей формой оно говорит «к этой точке уже сделано» — ровно как в Present Perfect."
+        },
+        {
+          "type": "heading",
+          "text": "Событие или взгляд назад"
+        },
+        {
+          "type": "paragraph",
+          "text": "Сравним две фразы про один и тот же уход:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll leave at six.** — событие: в шесть уйду, ровно в эту минуту.",
+            "**By six I'll have left.** — взгляд из шести назад: к шести меня уже не будет, а ушёл я в пять или в полшестого — неважно."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Отсюда главное свойство времени: у него всегда есть точка отсчёта в будущем. Нет точки — не из чего оглядываться, и Future Perfect не нужен."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Точка — не обязательно слово `by`. Её задаёт и событие — **When you get this message, I'll have left.** — и просто дата: **Next month I'll have worked here for five years.** — «в следующем месяце будет пять лет, как я здесь работаю»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Двенадцатый образ: копия, сданная к эфиру"
+        },
+        {
+          "type": "paragraph",
+          "text": "У каждого времени в курсе свой образ — где стоит камера и что она снимает. Вот весь ряд, и в конце новый:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Present Simple — **анкета**: кто ты вообще и что у тебя по жизни.",
+            "Present Continuous — **прямой эфир**: камера включена, действие идёт прямо сейчас.",
+            "Past Simple — **фотография в альбоме**: момент случился, снят и лежит в прошлом.",
+            "Past Continuous — **видеозапись на паузе**: плёнку отмотали в точку прошлого и остановили посреди действия.",
+            "Future Simple с will — **кадр, которого ещё не сняли**: он существует только в словах говорящего.",
+            "Future с going to — **сценарий уже подписан**: съёмка стоит в графике, всё готово заранее.",
+            "Present Perfect — **след в сегодняшнем кадре**: камера снимает «сейчас», но по кадру видно, что случилось раньше.",
+            "Present Perfect Continuous — **дубль, который ещё не остановили**: камера пишет с прошлого момента и до этой секунды.",
+            "Past Perfect — **флешбэк с титром «ранее»**: камера стоит в прошлом, и оттуда нам показывают вставку ещё раньше.",
+            "Past Perfect Continuous — **длинный флешбэк, который доигрывает до сцены**: вставку показали целиком, и она тянется вплотную к кадру.",
+            "Future Continuous — **эфир по сетке вещания**: передача уже стоит в программе на завтра, включишь в назначенный час — она идёт.",
+            "Future Perfect — **копия, сданная к эфиру**: к часу эфира передача уже смонтирована и сдана."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Эфир в восемь вечера. К восьми копия уже лежит у выпускающего редактора. Когда её монтировали — ночью или утром, — зрителю всё равно: ему важно, что к эфиру всё готово. А если эфира нет, сдавать не к чему. Так и у этого времени: без точки в будущем оно теряет смысл."
+        },
+        {
+          "type": "heading",
+          "text": "Третий этаж перфекта"
+        },
+        {
+          "type": "paragraph",
+          "text": "В теме «Perfect Tenses» мы сказали, что сложнее перфектов ничего не будет. Так и осталось: Future Perfect — не новое устройство, а третий этаж знакомого. Перфект везде говорит одно и то же — «к точке уже сделано». Меняется только, где стоит точка:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I have finished.** — к сейчас",
+            "**I had finished by then.** — к точке в прошлом",
+            "**I'll have finished by then.** — к точке в будущем"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`have`, `had` и `will have` — это просто указатель, где стоит точка. Всё остальное мы уже умеем."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "У перфектов есть и длительная пара — **has been waiting**, **had been waiting**. Её будущая ступень, «к шести он будет ждать уже час», живёт в следующей теме раздела — Future Perfect Continuous."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Что мы уже знаем"
+        },
+        {
+          "type": "paragraph",
+          "text": "Почти всё, из чего собрано новое время, нам знакомо:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By 6 pm, Roma will have finished his homework.** — превью этого времени, из «Служебных глаголов»",
+            "**I've lost my keys**, **They had eaten everything by the time I arrived** — `have + V3` и `had + V3`, из Present Perfect и Past Perfect",
+            "**He must have forgotten** — модальный, `have` и третья форма, из «Модальных глаголов»",
+            "**by Friday**, **by the time** — «к», «к тому времени, как», из Past Perfect",
+            "**I'll be working** — `will be + -ing`, из Future Continuous"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Честно о частоте"
+        },
+        {
+          "type": "paragraph",
+          "text": "Future Perfect звучит намного реже, чем `will`. Почему так — разберём в следующей карточке. Но есть четыре места, где носитель без него не обходится:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "две точки в будущем, и порядок решает форма — **When you arrive, I'll have left.**",
+            "итог к дате — **By December I'll have read thirty books.**",
+            "прогнозы и отчёты — **By 2030 prices will have gone up a lot.**",
+            "уверенная догадка о том, что уже случилось — **You'll have heard the news.** Будущего здесь нет вовсе: «ты наверняка уже слышал»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Поэтому учим его не ради редкой красоты, а чтобы понимать новости, письма и отчёты — и чтобы самим точно сказать «к тому времени уже»."
+        },
+        {
+          "type": "heading",
+          "text": "Почему тема стоит так поздно"
+        },
+        {
+          "type": "paragraph",
+          "text": "Время редкое: в обычной речи без него почти всегда обходятся. А держится оно сразу на многом — на перфекте, на `will`, на слове `by`, на правиле «после when — настоящее», на модальных догадках и на пересказе. Поэтому и встаёт после всех них."
+        },
+        {
+          "type": "heading",
+          "text": "Обещания, которые мы давали"
+        },
+        {
+          "type": "paragraph",
+          "text": "По ходу курса мы несколько раз говорили: «это — в теме Future Perfect». Вот эти вопросы, ответы ждут в микротемах этой темы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "В Future Continuous осталась третья картинка: «к восьми я уже поужинаю». Как её сказать?",
+            "В «Модальных глаголах» в общей схеме осталась пустая клетка **will have done** — и мы обещали, что там её хватит одной строкой. Так ли это?",
+            "В «Страдательном залоге: все формы» мы узнавали в лицо **By June the bridge will have been built**. Когда такую форму можно строить самому?",
+            "В «Косвенной речи» мы обещали пересказ этого времени. Во что превратится **I'll have finished by Friday** в устах другого человека?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Карта темы"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Микротема",
+            "Что даст",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "Как собрать",
+              "формула, отрицание, вопрос",
+              "Will you have finished?"
+            ],
+            [
+              "К сроку",
+              "by, by the time, when",
+              "By six I'll have left"
+            ],
+            [
+              "Итоги и прогнозы",
+              "сколько сделано к дате",
+              "By May I'll have read ten books"
+            ],
+            [
+              "«Уже» и «успеть»",
+              "куда девать эти слова",
+              "Will you be done by six?"
+            ],
+            [
+              "Догадки",
+              "что уже наверняка случилось",
+              "You'll have heard"
+            ],
+            [
+              "Пересказ",
+              "would have + V3",
+              "He said he'd have finished"
+            ],
+            [
+              "Когда без него никак",
+              "will или will have",
+              "I'll finish ↔ I'll have finished"
+            ],
+            [
+              "Живая практика",
+              "всё вместе с ИИ",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Will have + V3` — взгляд назад из точки в будущем: к ней дело уже позади, а когда его делали, неважно. Нет точки — нет и этого времени."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Future Perfect — взгляд назад из точки в будущем: к ней дело уже позади, а когда его делали, неважно. Нет точки в будущем — нет и этого времени."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Сборка"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "После `will` — голое `have`, после него третья форма: **She'll has finished** ✗ и **She'll have finish** ✗ → **She'll have finished** ✓"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Событие или взгляд назад"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll leave at six** — в шесть уйду",
+            "**By six I'll have left** — к шести меня уже не будет"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ряд перфектов"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**have done** — к сейчас · **had done** — к точке в прошлом · **will have done** — к точке в будущем"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "К тому времени, как ты доберёшься, я уже уйду.",
+          "en": "By the time you get here, I'll have left."
+        },
+        {
+          "ru": "Я уйду в шесть.",
+          "en": "I'll leave at six."
+        },
+        {
+          "ru": "К шести я уже уйду.",
+          "en": "By six I'll have left."
+        },
+        {
+          "ru": "К декабрю я прочитаю тридцать книг.",
+          "en": "By December I'll have read thirty books."
+        },
+        {
+          "ru": "К 2030 году цены сильно вырастут.",
+          "en": "By 2030 prices will have gone up a lot."
+        },
+        {
+          "ru": "Ты наверняка уже слышал новость.",
+          "en": "You'll have heard the news."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем I'll leave at six отличается от By six I'll have left?",
+        "Почему это время не работает без точки в будущем?",
+        "Зачем учить время, которое носители говорят так редко?"
+      ]
+    },
+    {
+      "id": 751,
+      "microtopicId": 281,
+      "title": "Почему «закончу к пятнице» обходится без него",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Раз Future Perfect значит «к тому времени уже сделаю», кажется, что его надо ставить всякий раз, когда по-русски звучит «сделаю к пятнице», «закончу к шести». Но носитель в таких фразах берёт его редко. Разгадка — в том, как устроен русский глагол."
+        },
+        {
+          "type": "heading",
+          "text": "Русский глагол сам знает, закончено ли дело"
+        },
+        {
+          "type": "paragraph",
+          "text": "У русских глаголов есть пары: «делать — сделать», «писать — написать», «убирать — убрать». Вторая форма пары сама говорит: дело будет доведено до конца. Поэтому во фразе «закончу отчёт к пятнице» всё уже на месте: завершённость сидит в глаголе «закончу», а срок задаёт «к пятнице»."
+        },
+        {
+          "type": "paragraph",
+          "text": "У английского глагола таких пар нет: одно `write` и на «писать», и на «написать». Завершённость английский показывает другими средствами — самим смыслом глагола (`finish` уже значит «довести до конца»), словом-сроком `by` или формой `have + V3`. И когда смысл глагола и `by` уже всё сказали, форма не нужна:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll finish the report by Friday.** — «закончу отчёт к пятнице»: конец — в самом глаголе, срок — в `by`.",
+            "**I'll be done by six.** — «к шести закончу, освобожусь».",
+            "**I'll be asleep by midnight.** — «к полуночи уже буду спать»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это нормальная живая речь, и Future Perfect здесь ничего не добавляет. Сказать **I'll have finished the report by Friday** тоже верно, просто это звучит чуть официальнее — как строчка из отчёта о сроках."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'll be done** — не страдательный залог. Эту форму мы встречали в «Страдательном залоге: все формы» — **I'm done**: выглядит пассивной, а значит «я закончил». В будущем то же самое: **I'll be done by six** — «к шести я закончу», а вовсе не «к шести меня сделают»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где «уже» меняет порядок событий"
+        },
+        {
+          "type": "paragraph",
+          "text": "Теперь сравните две русские фразы:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Когда ты приедешь, я уйду» — сначала приедешь ты, потом уйду я. Мы встретимся.",
+            "«Когда ты приедешь, я уже уйду» — ты приедешь, а меня уже нет. Не встретимся."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Глагол один и тот же — «уйду». Порядок событий по-русски переворачивает одно маленькое «уже». В английском слова «уже» для этого нет — порядок показывает форма:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When you arrive, I'll leave.** — сначала ты, потом я.",
+            "**When you arrive, I'll have left.** — к твоему приезду меня уже нет."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Почему здесь не хватает `will` с глаголом? Слово `by` само значит «не позже», а `when` — «в тот момент». Поэтому **I'll leave when you arrive** говорит, что уйду я в момент твоего приезда или сразу после. Чтобы сказать «к этому моменту уже позади», нужен перфект. Вот первое из четырёх мест, где без Future Perfect не обойтись."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Перевести «я уже уйду» как **I'll leave**, потеряв «уже». Грамматически фраза верная, но смысл выйдет обратный: гость приедет, и вы уйдёте у него на глазах."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос из «Служебных глаголов»"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Служебных глаголах» было задание «К пятнице Оля уже закончит проект», и правильным там стоял **Olya will have finished the project by Friday**. Там же мы оговорились, что **Olya will finish the project by Friday** — тоже верно. Теперь видно почему: срок задан словом `by`, конец — глаголом `finish`, и обе фразы говорят почти одно и то же. Future Perfect лишь добавляет взгляд из пятницы назад: к ней проект уже готов. В разговоре чаще скажут проще."
+        },
+        {
+          "type": "heading",
+          "text": "Где ещё споткнёмся"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русские фразы про срок тянут за собой несколько привычных ошибок. Прикиньте, как бы вы сказали:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Сделаю до пятницы» — почему `until Friday` здесь, скорее всего, скажет не то, что вы имели в виду?",
+            "«К пятнице» — почему не `to Friday`?",
+            "«Ты успеешь к шести?» — где в английском слово «успеть»?",
+            "**I'll have to go** и **I'll have gone** — почему это совсем разные вещи, хотя начало одинаковое?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ответы — дальше в этой теме. А начнём с формы: в следующей микротеме соберём `will have + V3` по деталям — утверждение, отрицание и вопрос."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Русский глагол сам говорит «доведу до конца», поэтому «закончу к пятнице» по-английски чаще всего просто **I'll finish by Friday**. Future Perfect нужен там, где без него ломается смысл, — например, «когда ты приедешь, я уже уйду»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Русский глагол сам говорит «доведу до конца». Когда срок задан словом `by`, английскому обычно хватает `will`: **I'll finish the report by Friday**, **I'll be done by six**."
+        },
+        {
+          "type": "heading",
+          "text": "Когда нужен will have"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Две точки и `when` — порядок решает форма",
+            "**When you arrive, I'll leave** — сначала ты, потом я",
+            "**When you arrive, I'll have left** — к твоему приезду меня уже нет"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Фраза be done"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll be done by six** — «к шести я закончу», а не «меня сделают»"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я закончу отчёт к пятнице.",
+          "en": "I'll finish the report by Friday."
+        },
+        {
+          "ru": "К шести я закончу.",
+          "en": "I'll be done by six."
+        },
+        {
+          "ru": "К полуночи я уже буду спать.",
+          "en": "I'll be asleep by midnight."
+        },
+        {
+          "ru": "Когда ты приедешь, я уйду.",
+          "en": "When you arrive, I'll leave."
+        },
+        {
+          "ru": "Когда ты приедешь, я уже уйду.",
+          "en": "When you arrive, I'll have left."
+        },
+        {
+          "ru": "Когда вы проснётесь, мы уже уедем в аэропорт.",
+          "en": "When you wake up, we'll have left for the airport."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему «закончу к пятнице» можно сказать без Future Perfect?",
+        "Как понять, что «уже» во фразе меняет порядок событий?",
+        "Почему I'll be done — это не страдательный залог?"
+      ]
+    }
+  ],
+  "card_exercise_index": [
+    {
+      "cardId": 750,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 117,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 750,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 130,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 750,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 267,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 751,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 131,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 751,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 294,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 751,
+      "exerciseType": "MATCHING",
+      "exerciseId": 136,
+      "orderInCard": 2
+    }
+  ],
+  "ai_exercises": [],
+  "course_word_groups": [
+    {
+      "id": "tenses",
+      "nameRus": "Времена",
+      "order": 1
+    }
+  ],
+  "course_categories": [
+    {
+      "id": "tenses",
+      "nameRus": "Слова из времён",
+      "groupId": "tenses",
+      "order": 1,
+      "source": "course_words"
+    }
+  ],
+  "course_words": [],
+  "table_fill_exercises": [],
+  "true_false_exercises": [
+    {
+      "id": 267,
+      "statements": [
+        {
+          "en": "By Sunday we will have painted the kitchen.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "By noon the guests will has arrived.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "Megan will have wrote the report by Monday.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "By the end of the day I will have answered all the emails.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "They will have repair the road by May.",
+          "ru": "",
+          "isTrue": false
+        }
+      ],
+      "explanation": "2: после will всегда голое have, а не has — the guests will have arrived. 3: после have нужна третья форма, а wrote — вторая: Megan will have written. 5: после have нужна третья форма, а не базовая: They will have repaired the road."
+    }
+  ],
+  "word_arrangement_exercises": [],
+  "multiple_choice_exercises": [
+    {
+      "id": 130,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "Call Ira at nine — by then she'll have finished work.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Позвони Ире в девять — тогда она будет заканчивать работу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Позвони Ире в девять — после этого она закончит работу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Позвони Ире в девять — к этому времени она уже закончит работу.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "by then — «к тому времени», а will have finished показывает, что к девяти работа у Иры уже позади, поэтому и можно звонить. «Будет заканчивать» — процесс в ту минуту, «после этого закончит» — событие позже девяти: оба смысла английский сказал бы другими формами."
+    },
+    {
+      "id": 131,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "When Nick gets to the station, the train will have left.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Когда Ник доберётся до вокзала, поезд уже уйдёт.",
+          "isCorrect": true
+        },
+        {
+          "text": "Когда Ник доберётся до вокзала, поезд отправится.",
+          "isCorrect": false
+        },
+        {
+          "text": "Когда Ник доберётся до вокзала, поезд будет отходить.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "will have left — к приезду Ника поезд уже позади, Ник на него опоздает. «Отправится» — событие после приезда Ника, так сказали бы через will leave. «Будет отходить» — процесс в ту минуту, это will be leaving."
+    },
+    {
+      "id": 294,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Когда мама вернётся, мы уже уберём квартиру.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "When Mum comes back, we'll clean the flat.",
+          "isCorrect": false
+        },
+        {
+          "text": "When Mum comes back, we'll have cleaned the flat.",
+          "isCorrect": true
+        },
+        {
+          "text": "When Mum comes back, we'll be cleaning the flat.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«уже уберём» — к возвращению мамы уборка позади, поэтому we'll have cleaned. We'll clean — уберём после её прихода, «уже» потерялось. We'll be cleaning — мама застанет нас за уборкой."
+    }
+  ],
+  "text_input_exercises": [],
+  "dialog_restore_exercises": [],
+  "matching_exercises": [
+    {
+      "id": 136,
+      "taskDescription": "соедини английскую фразу с тем, что она сообщает",
+      "pairs": [
+        {
+          "left": "When Tom calls, I'll leave.",
+          "right": "уйду после его звонка"
+        },
+        {
+          "left": "When Tom calls, I'll have left.",
+          "right": "к его звонку меня уже нет"
+        },
+        {
+          "left": "When Lily comes, we'll eat.",
+          "right": "поедим, когда она придёт"
+        },
+        {
+          "left": "When Lily comes, we'll have eaten.",
+          "right": "к её приходу уже поедим"
+        }
+      ],
+      "explanation": "will плюс глагол после when — событие случится в этот момент или сразу после: уйду после звонка, поедим, когда Лили придёт. will have плюс третья форма — к этому моменту дело уже позади: меня уже нет, мы уже поели."
+    }
+  ],
+  "error_correction_exercises": [],
+  "construction_meaning_exercises": [
+    {
+      "id": 117,
+      "construction": "By the time the film starts, Pasha will have bought the popcorn.",
+      "options": [
+        {
+          "text": "Когда начнётся фильм, Паша пойдёт за попкорном.",
+          "isCorrect": false
+        },
+        {
+          "text": "К началу фильма Паша уже купит попкорн.",
+          "isCorrect": true
+        },
+        {
+          "text": "К началу фильма Паша будет покупать попкорн.",
+          "isCorrect": false
+        },
+        {
+          "text": "К началу фильма Паша купил попкорн.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "will have bought — взгляд назад из точки «фильм начинается»: к этой минуте попкорн уже куплен. «Пойдёт за попкорном» — событие после начала, его сказали бы через will buy. «Будет покупать» — процесс в ту минуту, это will be buying. «Купил» — прошедшее, а речь о будущем."
+    }
+  ],
+  "transformation_exercises": [],
+  "categorization_exercises": [],
+  "find_the_odd_exercises": []
+}

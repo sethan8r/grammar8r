@@ -8373,21 +8373,22 @@ theory/
 │   │      Заняты, не брать: deadline · to manage · in time · on time · to finish · to arrive · to land ·
 │   │      to celebrate · to graduate · to install · to replace · schedule · contract · finally.
 │   │
-│   │   ├── МТ · What Is Future Perfect · Что такое Future Perfect  ⭐ ВВОДНАЯ, 2 карточки, БЕЗ AI, слов НЕ сливает
-│   │   │   ├── Card · Будущее, которое уже позади
-│   │   │   │   Что это (2–3 строки): `By the time you get here, I'll have left`. Образ + весь ряд образов
-│   │   │   │   курса. Что уже знаем (строкой): превью Card 119 · has / had done · must have done ·
-│   │   │   │   `by the time` · will be + -ing · I'm done. Честно о частоте + четыре места, где без него
-│   │   │   │   никак. Почему в конце курса — одной фразой, без разбора: время редкое, в обычной жизни без
-│   │   │   │   него обходятся, поэтому оно и стоит так далеко. Тон Card 484 — третий этаж знакомой оси.
-│   │   │   │   ⭐ КАРТА ТЕМЫ таблицей. Callback обещаний — вопросом.
-│   │   │   └── Card · Почему «закончу к пятнице» обходится без него
-│   │   │       Русский совершенный вид сам говорит «доведу до конца» → `I'll finish by Friday` ·
-│   │   │       `I'll be done by six` · `I'll be asleep by midnight` — нормальная речь. Где русское «уже»
-│   │   │       реально меняет смысл: «когда ты приедешь, я уже уйду». Снять вопрос Card 120 (там
-│   │   │       единственный ответ — Future Perfect). Кальки — вопросом, без ответа: «до пятницы» → until? ·
-│   │   │       «к пятнице» → to? · by the time you will come? · will have finish? · will have to ↔ will
-│   │   │       have done? Мост к форме.
+│   │   ├── МТ281 · What Is Future Perfect · Что такое Future Perfect  ⭐ ВВОДНАЯ, 2 карточки, БЕЗ AI, слов НЕ сливает ✅ (написана, ALL GREEN 26.09.26)
+│   │   │   ├── Card 750 · Будущее, которое уже позади
+│   │   │   │   Записка `By the time you get here, I'll have left` → корень «взгляд назад из точки в будущем».
+│   │   │   │   Формула + двойной перевод («у меня будет закончено» / «уже закончу, успею»). Пара I'll leave
+│   │   │   │   at six ↔ By six I'll have left; плашка «точка ≠ обязательно by». Двенадцатый образ «копия,
+│   │   │   │   сданная к эфиру» + весь ряд. Третий этаж перфекта (have / had / will have) + «Кстати» про
+│   │   │   │   Future Perfect Continuous. Что уже знаем · честно о частоте + четыре места · почему поздно ·
+│   │   │   │   четыре обещания вопросами (FC-картинка, клетка модальных, will have been built, пересказ) ·
+│   │   │   │   карта темы.
+│   │   │   └── Card 751 · Почему «закончу к пятнице» обходится без него
+│   │   │       Русский вид («сделать») сам говорит «доведу до конца», у английского глагола пар нет →
+│   │   │       I'll finish by Friday · I'll be done by six · I'll be asleep by midnight. Плашка: I'll be
+│   │   │       done — не пассив (callback I'm done из Passive-2). «Когда ты приедешь, я (уже) уйду» ↔
+│   │   │       will leave / will have left: by = «не позже», when = «в тот момент». Снят вопрос Card 120.
+│   │   │       Кальки вопросом: until Friday · to Friday · «успеешь к шести?» · will have to ↔ will have gone.
+│   │   │       ⚠️ by the time + will в кальки НЕ ставили: уже разобран в Future Simple Card 316.
 │   │   │
 │   │   ├── МТ · will have + V3 · Как собрать Future Perfect  (2 карточки; слив 5)
 │   │   │   ├── Card · Формула, знакомый ряд и три will have been
