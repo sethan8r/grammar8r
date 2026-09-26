@@ -2024,26 +2024,297 @@ RU: Когда Ира вернётся из отпуска, мы уже пере
 
 ---
 
+## Microtopic 286 — Guesses · Догадки: you'll have heard
+
+**ID:** 286
+**Теги:** you'll have heard, наверняка уже по-английски, must have или will have, should have два смысла, might have done by then
+
+---
+
+### Card 763 · Уверенная догадка о том, что уже случилось
+
+**ID:** 763
+
+#### Theory
+
+Во вводной мы обещали: если точкой отсчёта служит «сейчас», а `will` значит уверенность, выходит догадка. Вот она:
+
+- **You'll have heard the news.** — ты наверняка уже слышал новость
+- **It's eight — most people will have voted by now.** — восемь вечера: большинство, наверное, уже проголосовало
+
+Будущего здесь нет вовсе. Точка — эта минута, из неё смотрим назад: дело уже позади. А `will` добавляет «я уверен». Дословно «ты будешь иметь услышанным», по-живому — «ты наверняка уже слышал».
+
+**Формула:** will have + V3 = «наверняка уже»
+
+**Как в Future Continuous, только о сделанном**
+
+Такую догадку мы уже видели в Future Continuous, в карточке «Догадка о том, что идёт сейчас». Там хвост показывал процесс, здесь — сделанное дело:
+
+- **Don't call Lena now — she'll be sleeping.** — наверняка спит, это идёт сейчас
+- **Don't call Lena now — she'll have gone to bed.** — наверняка уже легла, это позади
+
+`will` в обоих случаях значит одно — «уверен». А что именно я угадываю, идёт дело или уже случилось, решает то, что стоит после.
+
+**Новая ступенька на знакомой шкале**
+
+В «Модальных глаголах» мы строили шкалу уверенности: **must have** — наверняка, **might have** — возможно, **can't have** — не может быть. `will have` встаёт рядом с `must have`, но уверенность у них из разных источников:
+
+- **Her coat's gone — she must have left.** — вижу улику: пальто нет, значит, ушла
+- **It's past five — she'll have left by now.** — улики нет, но я знаю её распорядок: в пять она всегда уходит
+
+`must have` — вывод из того, что вижу. `will have` — «знаю, как это обычно бывает».
+
+**Отрицание и деловые письма**
+
+- **They won't have got my message yet.** — наверняка ещё не получили моё сообщение
+- **As you will have noticed, the prices have changed.** — как вы, наверное, заметили, цены изменились
+- **I assume you'll have seen the report.** — полагаю, вы уже видели отчёт
+
+**Кстати:** такая догадка — в основном британская и немного книжная. В американской речи ту же мысль чаще скажут через Present Perfect и наречие: **You've probably heard the news.**
+
+**Ловушка:** перевести **You'll have heard the news** как «ты услышишь новость». Будущего здесь нет — речь о том, что к этой минуте уже должно было случиться. Подсказки: `by now`, «уже», а по смыслу — событие, которое успело произойти до разговора.
+
+**Запомни главное:** `will have + V3` с точкой «сейчас» — это «наверняка уже». `must have` — вывод по улике, `will have` — уверенность по опыту.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Точка — «сейчас», `will` — уверенность: **You'll have heard the news** — ты наверняка уже слышал. Будущего здесь нет.
+
+**Формула:** will have + V3 = «наверняка уже»
+
+**Шкала**
+
+- **must have** — вижу улику: **Her coat's gone — she must have left**
+- **will have** — знаю, как обычно бывает: **It's past five — she'll have left by now**
+- **might have** — возможно · **can't have** — не может быть
+
+**Рядом**
+
+- Идёт сейчас → **she'll be sleeping** · уже позади → **she'll have gone to bed**
+- Отрицание: **They won't have got my message yet**
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3550 | Ты наверняка уже слышал про выборы. | You'll have heard about the election. |
+| 3551 | Уже восемь — большинство, наверное, уже проголосовало. | It's eight — most people will have voted by now. |
+| 3552 | Не звони Лене сейчас — она наверняка уже легла. | Don't call Lena now — she'll have gone to bed. |
+| 3553 | Пальто нет — она, должно быть, ушла. | Her coat's gone — she must have left. |
+| 3554 | Уже шестой час — она наверняка уже ушла. | It's past five — she'll have left by now. |
+| 3555 | Они наверняка ещё не получили моё сообщение. | They won't have got my message yet. |
+| 3556 | Полагаю, вы уже видели отчёт. | I assume you'll have seen the report. |
+
+---
+
+#### Exercises
+
+**Ex 40 · ConstructionMeaning** *(ID: 122)*
+
+Выбери правильный перевод:
+
+"Oliver will have posted the photos by now."
+
+- Оливер скоро выложит фотографии.
+- **Оливер наверняка уже выложил фотографии.** ✓
+- Оливер должен выложить фотографии сейчас.
+- Оливер выкладывал фотографии.
+
+*Explanation:* by now — точка «сейчас», will have posted — к этой минуте дело позади, а will добавляет уверенность: «наверняка уже выложил». Будущего здесь нет, поэтому «скоро выложит» — мимо. «Должен выложить» — обязанность, а «выкладывал» — просто прошлое без догадки.
+
+---
+
+**Ex 41 · MultipleChoice · FORWARD_CHOICE** *(ID: 301)*
+
+"Кейт наверняка уже встала."
+
+- Kate will get up by now.
+- Kate will be got up by now.
+- **Kate will have got up by now.** ✓
+
+*Explanation:* «наверняка уже встала» — уверенная догадка о том, что уже позади: will have + третья форма. will get up — «встанет», это будущее. will be got up — такой формы нет: после be здесь нужна форма на -ing или признак.
+
+---
+
+**Ex 42 · TrueFalse** *(ID: 269)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | You'll have heard about the new rules. | ✓ |
+| 2 | By now they'll have arrive at the hotel. | ✗ |
+| 3 | She'll have went to bed by now. | ✗ |
+| 4 | The kids won't have finished dinner yet. | ✓ |
+| 5 | As you will have noticed, the office is closed. | ✓ |
+
+*Explanation:* 2: после have нужна третья форма — they'll have arrived. 3: went — вторая форма, а нужна третья: she'll have gone to bed.
+
+---
+
+#### AI Exercise
+
+**ID:** future_perfect_card763_ex1
+**Title:** "Скажи догадку"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ опишет короткую ситуацию. Скажите по-английски свою догадку о ней."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку об уверенной догадке через Future Perfect. Он знает: will have + третья форма с точкой «сейчас» значит «наверняка уже», будущего в этом нет (You'll have heard the news, It's eight — most people will have voted by now); это зеркало догадки о том, что идёт сейчас: she'll be sleeping — наверняка спит, she'll have gone to bed — наверняка уже легла; на шкале из модальных глаголов will have стоит рядом с must have, но must have — вывод из улики (Her coat's gone — she must have left), а will have — уверенность по опыту и распорядку (It's past five — she'll have left by now); might have — возможно, can't have — не может быть; отрицание — They won't have got my message yet; в письмах — As you will have noticed, I assume you'll have seen the report; в американской речи то же часто говорят You've probably heard. ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, Future Continuous с догадкой she'll be sleeping, условные предложения, модальные глаголы со шкалой уверенности и догадками о прошлом (must have, might have, can't have), герундий, страдательный залог, косвенные вопросы, придаточные с who, which, that, косвенная речь, а в этой теме — Future Perfect со сроками, событиями, итогами и прогнозами. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect Continuous; внутри этой темы ещё не прошёл should have и might have с будущим сроком и пересказ с would have — такие задания не давай. ЗАДАНИЕ: опиши пользователю по-русски ОДНУ короткую ситуацию и попроси сказать по-английски догадку о ней одним предложением. В условии не подсказывай, какой глагол-догадку и какую форму брать, и не пиши за него «наверняка» или «должно быть» — степень уверенности он выбирает сам по ситуации. Бери только знакомые слова из присланного списка слов пользователя, чтобы трудность была в форме догадки, а не в незнакомой лексике. ДЕРЖИ ПРОСТЫМ: ситуация — одно-два коротких предложения, 8-20 слов, бытовая; ответ пользователя — одно предложение; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. по распорядку уже случилось (Игорь всегда обедает в час, а сейчас два. Что он, скорее всего, уже сделал?). 2. новость, которую все уже слышали (Об этом писали все утренние газеты. Что можно сказать другу?). 3. ещё не случилось (Письмо отправили полчаса назад, а почта идёт три дня. Что с письмом?). 4. граница: есть улика (Дверь открыта, в прихожей мокрый зонт. Кто-то пришёл?). 5. граница: не уверен (Может, Оля уже уехала, а может, и нет. Скажи осторожно.) 6. граница: идёт сейчас (В Токио три часа ночи. Что делает Кен?). Образцы дословно не повторяй. ОЦЕНКА: в пунктах 1-3 верно will have + третья форма (He'll have had lunch by now, You'll have heard, It won't have arrived yet); must have в пунктах 1-2 и You've probably heard тоже засчитывай и одной строкой скажи, что will have — уверенность по опыту, а must have — вывод из улики. В пункте 4 верно must have (Someone must have come in); will have тоже засчитай и одной строкой скажи, что при улике естественнее must have. В пункте 5 верно might have, may have или could have. В пункте 6 верно he'll be sleeping или he'll be asleep; will have gone to bed тоже засчитывай. Если пользователь сказал догадку будущим временем (He will have lunch) — объясни, что так выйдет «пообедает», а речь о том, что уже позади к этой минуте. Если поставил вторую форму вместо третьей (will have went) — дай третью. Если написал mustn't have — скажи, что отрицательная догадка — can't have или won't have. При ошибке сначала скажи, что значила бы фраза пользователя, если она осмысленна, потом дай верный вариант. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Паша всегда приходит с работы в семь, а сейчас девять. Скажите по-английски, что он, скорее всего, уже сделал.'
+
+#### Clarification Options
+
+- Почему здесь стоит will, если речь не о будущем?
+- Чем She must have left отличается от She'll have left by now?
+- Как сказать то же самое по-американски?
+
+---
+
+### Card 764 · С оговоркой: should, might, may have done by then
+
+**ID:** 764
+
+#### Theory
+
+Не уверены на все сто — `will` меняем на другой модальный, всё остальное остаётся на месте. Так же мы поступали в Future Continuous: **I might be working late** вместо **I'll be working late**.
+
+**Формула:** should / might / may + have + V3
+
+- **The parcel is due on Thursday, so it should have arrived by Friday.** — посылку ждут в четверг, так что к пятнице она, по идее, придёт
+- **I might have finished by six.** — может быть, к шести я закончу
+- **They may have left by then.** — к тому времени они, возможно, уже уйдут
+
+Лестница уверенности та же, что в «Модальных глаголах», только про срок: **will have** — уверен, **should have** — по расчёту, если всё пойдёт как надо, **may have** и **might have** — может быть.
+
+**Два should have**
+
+Здесь нас ждёт двойник. В «Модальных глаголах» `should have` был упрёком: «надо было». А в карточке «should не только советует» `should` значил «должно быть по ожиданию». Оба смысла живут и в этой форме:
+
+- **You should have called me yesterday.** — надо было мне вчера позвонить. Результат уже известен, и он плохой: это упрёк
+- **He should have landed by now.** — по расчёту он уже приземлился. Результат ещё проверяем: это расчёт
+- **I should have finished by six.** — к шести, по идее, закончу. Срок впереди: тоже расчёт
+
+Различает их точка. Точка в прошлом, и всё уже ясно — упрёк или сожаление. Точка впереди или «сейчас», и результат ещё проверяем — расчёт.
+
+**Ловушка:** увидеть `should have` и сразу переводить «надо было». **The report should have been sent by Monday, so check your inbox on Tuesday** — это не упрёк, а расчёт: к понедельнику отчёт, по идее, уже отправят. Без контекста фраза двузначна — смотрите, где точка.
+
+**Кстати:** рядом с этим временем часто стоят слова, которые сами несут оценку: **I hope you'll have finished by then.** — надеюсь, к тому времени ты уже закончишь. Так же с **I expect** и **I'm sure**: **I'm sure she'll have told him by now.** — уверен, она ему уже сказала. А в разговоре встречается и **going to have done**: **We're going to have spent all our money by August.** — к августу мы потратим все деньги.
+
+**Запомни главное:** не уверены — `will` меняем на `should`, `might` или `may`. `should have` о прошлом — упрёк, о сроке впереди — расчёт.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Не уверены на все сто — вместо `will` другой модальный, остальное на месте.
+
+**Формула:** should / might / may + have + V3
+
+**Лестница**
+
+- **will have** — уверен → **should have** — по расчёту → **may / might have** — может быть
+
+**Два should have**
+
+- Точка в прошлом, всё ясно → упрёк: **You should have called me yesterday**
+- Срок впереди или «сейчас» → расчёт: **He should have landed by now** · **I should have finished by six**
+
+**Рядом**
+
+- **I hope you'll have finished by then** · **I'm sure she'll have told him by now**
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3557 | Посылку ждут в четверг, так что к пятнице она, по идее, придёт. | The parcel is due on Thursday, so it should have arrived by Friday. |
+| 3558 | Может быть, к шести я закончу. | I might have finished by six. |
+| 3559 | К тому времени они, возможно, уже уйдут. | They may have left by then. |
+| 3560 | Надо было мне вчера позвонить. | You should have called me yesterday. |
+| 3561 | По расчёту он уже приземлился. | He should have landed by now. |
+| 3562 | Надеюсь, к тому времени ты уже закончишь. | I hope you'll have finished by then. |
+
+---
+
+#### Exercises
+
+**Ex 43 · Matching** *(ID: 139)*
+
+Задание: соедини фразу с тем, что она значит
+
+| Фраза | Что значит |
+|-------|------------|
+| You should have told me. | надо было сказать мне |
+| It should have arrived by now. | по расчёту уже пришло |
+| She might have left by then. | к тому времени, может, уйдёт |
+| She'll have left by now. | наверняка уже ушла |
+
+*Explanation:* should have о прошлом, когда всё уже ясно, — упрёк: «надо было». should have с by now — расчёт: «по идее, уже». might have — «может быть». will have с by now — уверенная догадка: «наверняка уже».
+
+---
+
+**Ex 44 · MultipleChoice · REVERSE_CHOICE** *(ID: 136)*
+
+"The train is due at ten, so Jake should have arrived by eleven."
+
+- Поезд приходит в десять, так что Джейк должен был приехать к одиннадцати, но не приехал.
+- **Поезд приходит в десять, так что к одиннадцати Джейк, по идее, уже приедет.** ✓
+- Поезд приходит в десять, так что Джейк приедет ровно в одиннадцать.
+
+*Explanation:* is due — поезд ещё впереди, значит should have здесь не упрёк, а расчёт: «по идее, к одиннадцати уже приедет». Упрёк «должен был, но не приехал» был бы, если бы всё уже случилось. «Ровно в одиннадцать» — это at eleven, а by eleven — «к одиннадцати».
+
+---
+
+**Ex 45 · MultipleChoice · CHOICE** *(ID: 266)*
+
+"I'm not sure, but I ___ the report by Monday."
+
+- **might have finished** ✓
+- will have finished
+- must have finished
+
+*Explanation:* «не уверен» — значит нужна нижняя ступенька: might have finished, «может, закончу». will have — полная уверенность, она спорит с I'm not sure. must have — вывод о том, что уже случилось, к сроку впереди он не подходит.
+
+---
+
+#### Clarification Options
+
+- Как понять, should have — это упрёк или расчёт?
+- Чем should have отличается от might have по уверенности?
+- Можно ли сказать I hope you will finish вместо I hope you'll have finished?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| election | выборы | [ɪˈlekʃən] |
+| to vote | голосовать | [tuː vəʊt] |
+| to post | отправлять (по почте), публиковать (в сети) | [tuː pəʊst] |
+| due | ожидаемый (по графику), должен (прибыть, быть сделан) | [djuː] |
+| to assume | предполагать, считать | [tuː əˈsjuːm] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 42 | 43 |
-| Microtopic | 285 | 286 |
-| Card | 762 | 763 |
-| Example | 3549 | 3550 |
-| Слова курса (course_word) | 1004 | 1005 |
-| MultipleChoice · CHOICE | 265 | 266 |
-| MultipleChoice · FORWARD_CHOICE | 300 | 301 |
-| MultipleChoice · REVERSE_CHOICE | 135 | 136 |
-| TrueFalse | 268 | 269 |
+| Microtopic | 286 | 287 |
+| Card | 764 | 765 |
+| Example | 3562 | 3563 |
+| Слова курса (course_word) | 1009 | 1010 |
+| MultipleChoice · CHOICE | 266 | 267 |
+| MultipleChoice · FORWARD_CHOICE | 301 | 302 |
+| MultipleChoice · REVERSE_CHOICE | 136 | 137 |
+| TrueFalse | 269 | 270 |
 | WordArrangement | 246 | 247 |
 | TextInput | 137 | 138 |
-| Matching | 138 | 139 |
+| Matching | 139 | 140 |
 | ErrorCorrection | 263 | 264 |
 | FindTheOdd | 139 | 140 |
 | Categorization | 168 | 169 |
 | TableFill | 54 | 55 |
 | Transformation | 124 | 125 |
-| ConstructionMeaning | 121 | 122 |
+| ConstructionMeaning | 122 | 123 |
 | DialogRestore | 118 | 119 |

@@ -53,6 +53,13 @@
       "title": "Which Future · Русское «уже» и «успеть»",
       "order": 5,
       "searchKeywords": "успеть по-английски, не успею, make it или have time, уже или already, как перевести will have"
+    },
+    {
+      "id": 286,
+      "topicId": 42,
+      "title": "Guesses · Догадки: you'll have heard",
+      "order": 6,
+      "searchKeywords": "you'll have heard, наверняка уже по-английски, must have или will have, should have два смысла, might have done by then"
     }
   ],
   "grammar_cards": [
@@ -2921,6 +2928,376 @@
         "Когда в переводе обязательно нужно «уже»?",
         "Почему «будет N лет, как» — тоже перевод этой формы?"
       ]
+    },
+    {
+      "id": 763,
+      "microtopicId": 286,
+      "title": "Уверенная догадка о том, что уже случилось",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы обещали: если точкой отсчёта служит «сейчас», а `will` значит уверенность, выходит догадка. Вот она:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You'll have heard the news.** — ты наверняка уже слышал новость",
+            "**It's eight — most people will have voted by now.** — восемь вечера: большинство, наверное, уже проголосовало"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Будущего здесь нет вовсе. Точка — эта минута, из неё смотрим назад: дело уже позади. А `will` добавляет «я уверен». Дословно «ты будешь иметь услышанным», по-живому — «ты наверняка уже слышал»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will have + V3 = «наверняка уже»"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как в Future Continuous, только о сделанном"
+        },
+        {
+          "type": "paragraph",
+          "text": "Такую догадку мы уже видели в Future Continuous, в карточке «Догадка о том, что идёт сейчас». Там хвост показывал процесс, здесь — сделанное дело:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Don't call Lena now — she'll be sleeping.** — наверняка спит, это идёт сейчас",
+            "**Don't call Lena now — she'll have gone to bed.** — наверняка уже легла, это позади"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`will` в обоих случаях значит одно — «уверен». А что именно я угадываю, идёт дело или уже случилось, решает то, что стоит после."
+        },
+        {
+          "type": "heading",
+          "text": "Новая ступенька на знакомой шкале"
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Модальных глаголах» мы строили шкалу уверенности: **must have** — наверняка, **might have** — возможно, **can't have** — не может быть. `will have` встаёт рядом с `must have`, но уверенность у них из разных источников:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Her coat's gone — she must have left.** — вижу улику: пальто нет, значит, ушла",
+            "**It's past five — she'll have left by now.** — улики нет, но я знаю её распорядок: в пять она всегда уходит"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`must have` — вывод из того, что вижу. `will have` — «знаю, как это обычно бывает»."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание и деловые письма"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**They won't have got my message yet.** — наверняка ещё не получили моё сообщение",
+            "**As you will have noticed, the prices have changed.** — как вы, наверное, заметили, цены изменились",
+            "**I assume you'll have seen the report.** — полагаю, вы уже видели отчёт"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Такая догадка — в основном британская и немного книжная. В американской речи ту же мысль чаще скажут через Present Perfect и наречие: **You've probably heard the news.**"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Перевести **You'll have heard the news** как «ты услышишь новость». Будущего здесь нет — речь о том, что к этой минуте уже должно было случиться. Подсказки: `by now`, «уже», а по смыслу — событие, которое успело произойти до разговора."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Will have + V3` с точкой «сейчас» — это «наверняка уже». `must have` — вывод по улике, `will have` — уверенность по опыту."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Точка — «сейчас», `will` — уверенность: **You'll have heard the news** — ты наверняка уже слышал. Будущего здесь нет."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will have + V3 = «наверняка уже»"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Шкала"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**must have** — вижу улику: **Her coat's gone — she must have left**",
+            "**will have** — знаю, как обычно бывает: **It's past five — she'll have left by now**",
+            "**might have** — возможно · **can't have** — не может быть"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рядом"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Идёт сейчас → **she'll be sleeping** · уже позади → **she'll have gone to bed**",
+            "Отрицание: **They won't have got my message yet**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Ты наверняка уже слышал про выборы.",
+          "en": "You'll have heard about the election."
+        },
+        {
+          "ru": "Уже восемь — большинство, наверное, уже проголосовало.",
+          "en": "It's eight — most people will have voted by now."
+        },
+        {
+          "ru": "Не звони Лене сейчас — она наверняка уже легла.",
+          "en": "Don't call Lena now — she'll have gone to bed."
+        },
+        {
+          "ru": "Пальто нет — она, должно быть, ушла.",
+          "en": "Her coat's gone — she must have left."
+        },
+        {
+          "ru": "Уже шестой час — она наверняка уже ушла.",
+          "en": "It's past five — she'll have left by now."
+        },
+        {
+          "ru": "Они наверняка ещё не получили моё сообщение.",
+          "en": "They won't have got my message yet."
+        },
+        {
+          "ru": "Полагаю, вы уже видели отчёт.",
+          "en": "I assume you'll have seen the report."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему здесь стоит will, если речь не о будущем?",
+        "Чем She must have left отличается от She'll have left by now?",
+        "Как сказать то же самое по-американски?"
+      ]
+    },
+    {
+      "id": 764,
+      "microtopicId": 286,
+      "title": "С оговоркой: should, might, may have done by then",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Не уверены на все сто — `will` меняем на другой модальный, всё остальное остаётся на месте. Так же мы поступали в Future Continuous: **I might be working late** вместо **I'll be working late**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Should / might / may + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**The parcel is due on Thursday, so it should have arrived by Friday.** — посылку ждут в четверг, так что к пятнице она, по идее, придёт",
+            "**I might have finished by six.** — может быть, к шести я закончу",
+            "**They may have left by then.** — к тому времени они, возможно, уже уйдут"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Лестница уверенности та же, что в «Модальных глаголах», только про срок: **will have** — уверен, **should have** — по расчёту, если всё пойдёт как надо, **may have** и **might have** — может быть."
+        },
+        {
+          "type": "heading",
+          "text": "Два should have"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь нас ждёт двойник. В «Модальных глаголах» `should have` был упрёком: «надо было». А в карточке «should не только советует» `should` значил «должно быть по ожиданию». Оба смысла живут и в этой форме:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**You should have called me yesterday.** — надо было мне вчера позвонить. Результат уже известен, и он плохой: это упрёк",
+            "**He should have landed by now.** — по расчёту он уже приземлился. Результат ещё проверяем: это расчёт",
+            "**I should have finished by six.** — к шести, по идее, закончу. Срок впереди: тоже расчёт"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Различает их точка. Точка в прошлом, и всё уже ясно — упрёк или сожаление. Точка впереди или «сейчас», и результат ещё проверяем — расчёт."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Увидеть `should have` и сразу переводить «надо было». **The report should have been sent by Monday, so check your inbox on Tuesday** — это не упрёк, а расчёт: к понедельнику отчёт, по идее, уже отправят. Без контекста фраза двузначна — смотрите, где точка."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Рядом с этим временем часто стоят слова, которые сами несут оценку: **I hope you'll have finished by then.** — надеюсь, к тому времени ты уже закончишь. Так же с **I expect** и **I'm sure**: **I'm sure she'll have told him by now.** — уверен, она ему уже сказала. А в разговоре встречается и **going to have done**: **We're going to have spent all our money by August.** — к августу мы потратим все деньги."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Не уверены — `will` меняем на `should`, `might` или `may`. `should have` о прошлом — упрёк, о сроке впереди — расчёт."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Не уверены на все сто — вместо `will` другой модальный, остальное на месте."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Should / might / may + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Лестница"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**will have** — уверен → **should have** — по расчёту → **may / might have** — может быть"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Два should have"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Точка в прошлом, всё ясно → упрёк: **You should have called me yesterday**",
+            "Срок впереди или «сейчас» → расчёт: **He should have landed by now** · **I should have finished by six**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Рядом"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I hope you'll have finished by then** · **I'm sure she'll have told him by now**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Посылку ждут в четверг, так что к пятнице она, по идее, придёт.",
+          "en": "The parcel is due on Thursday, so it should have arrived by Friday."
+        },
+        {
+          "ru": "Может быть, к шести я закончу.",
+          "en": "I might have finished by six."
+        },
+        {
+          "ru": "К тому времени они, возможно, уже уйдут.",
+          "en": "They may have left by then."
+        },
+        {
+          "ru": "Надо было мне вчера позвонить.",
+          "en": "You should have called me yesterday."
+        },
+        {
+          "ru": "По расчёту он уже приземлился.",
+          "en": "He should have landed by now."
+        },
+        {
+          "ru": "Надеюсь, к тому времени ты уже закончишь.",
+          "en": "I hope you'll have finished by then."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, should have — это упрёк или расчёт?",
+        "Чем should have отличается от might have по уверенности?",
+        "Можно ли сказать I hope you will finish вместо I hope you'll have finished?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -3157,6 +3534,42 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 246,
       "orderInCard": 2
+    },
+    {
+      "cardId": 763,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 122,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 763,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 301,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 763,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 269,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 764,
+      "exerciseType": "MATCHING",
+      "exerciseId": 139,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 764,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 136,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 764,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 266,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -3213,6 +3626,14 @@
       "cardId": 761,
       "title": "Успею и уже",
       "userInstruction": "ИИ даст русскую фразу со словом «успеть» или «уже». Скажите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_perfect_card763_ex1",
+      "cardId": 763,
+      "title": "Скажи догадку",
+      "userInstruction": "ИИ опишет короткую ситуацию. Скажите по-английски свою догадку о ней.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -3393,6 +3814,46 @@
       "transcription": "[ˈɜːdʒənt]",
       "microtopicId": 285,
       "categoryId": "tenses"
+    },
+    {
+      "id": 1005,
+      "word": "election",
+      "translation": "выборы",
+      "transcription": "[ɪˈlekʃən]",
+      "microtopicId": 286,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 1006,
+      "word": "to vote",
+      "translation": "голосовать",
+      "transcription": "[tuː vəʊt]",
+      "microtopicId": 286,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 1007,
+      "word": "to post",
+      "translation": "отправлять (по почте), публиковать (в сети)",
+      "transcription": "[tuː pəʊst]",
+      "microtopicId": 286,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 1008,
+      "word": "due",
+      "translation": "ожидаемый (по графику), должен (прибыть, быть сделан)",
+      "transcription": "[djuː]",
+      "microtopicId": 286,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 1009,
+      "word": "to assume",
+      "translation": "предполагать, считать",
+      "transcription": "[tuː əˈsjuːm]",
+      "microtopicId": 286,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -3490,6 +3951,37 @@
         }
       ],
       "explanation": "2: названо количество — три комнаты считают убранными, форма на -ing сюда не встаёт: I'll have cleaned three rooms. 3: после will только голое have: Nick will have written."
+    },
+    {
+      "id": 269,
+      "statements": [
+        {
+          "en": "You'll have heard about the new rules.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "By now they'll have arrive at the hotel.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "She'll have went to bed by now.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "The kids won't have finished dinner yet.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "As you will have noticed, the office is closed.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2: после have нужна третья форма — they'll have arrived. 3: went — вторая форма, а нужна третья: she'll have gone to bed."
     }
   ],
   "word_arrangement_exercises": [
@@ -3909,6 +4401,69 @@
         }
       ],
       "explanation": "by the time и will have baked — к приходу гостей торт уже готов. «Когда придут гости, Оля испечёт торт» без «уже» звучит так, будто печь она начнёт при них. «Будет печь» — процесс в ту минуту."
+    },
+    {
+      "id": 301,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Кейт наверняка уже встала.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Kate will get up by now.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kate will be got up by now.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kate will have got up by now.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«наверняка уже встала» — уверенная догадка о том, что уже позади: will have + третья форма. will get up — «встанет», это будущее. will be got up — такой формы нет: после be здесь нужна форма на -ing или признак."
+    },
+    {
+      "id": 136,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "The train is due at ten, so Jake should have arrived by eleven.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Поезд приходит в десять, так что Джейк должен был приехать к одиннадцати, но не приехал.",
+          "isCorrect": false
+        },
+        {
+          "text": "Поезд приходит в десять, так что к одиннадцати Джейк, по идее, уже приедет.",
+          "isCorrect": true
+        },
+        {
+          "text": "Поезд приходит в десять, так что Джейк приедет ровно в одиннадцать.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "is due — поезд ещё впереди, значит should have здесь не упрёк, а расчёт: «по идее, к одиннадцати уже приедет». Упрёк «должен был, но не приехал» был бы, если бы всё уже случилось. «Ровно в одиннадцать» — это at eleven, а by eleven — «к одиннадцати»."
+    },
+    {
+      "id": 266,
+      "choiceType": "CHOICE",
+      "prompt": "I'm not sure, but I ___ the report by Monday.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "might have finished",
+          "isCorrect": true
+        },
+        {
+          "text": "will have finished",
+          "isCorrect": false
+        },
+        {
+          "text": "must have finished",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«не уверен» — значит нужна нижняя ступенька: might have finished, «может, закончу». will have — полная уверенность, она спорит с I'm not sure. must have — вывод о том, что уже случилось, к сроку впереди он не подходит."
     }
   ],
   "text_input_exercises": [
@@ -4055,6 +4610,29 @@
         }
       ],
       "explanation": "«успеть» переводим по смыслу. Хватит ли времени — have time. Добраться вовремя — make it. Дело позади к сроку — will have + третья форма. Не опоздать к началу — in time. «Еле успел» в прошлом — managed to."
+    },
+    {
+      "id": 139,
+      "taskDescription": "соедини фразу с тем, что она значит",
+      "pairs": [
+        {
+          "left": "You should have told me.",
+          "right": "надо было сказать мне"
+        },
+        {
+          "left": "It should have arrived by now.",
+          "right": "по расчёту уже пришло"
+        },
+        {
+          "left": "She might have left by then.",
+          "right": "к тому времени, может, уйдёт"
+        },
+        {
+          "left": "She'll have left by now.",
+          "right": "наверняка уже ушла"
+        }
+      ],
+      "explanation": "should have о прошлом, когда всё уже ясно, — упрёк: «надо было». should have с by now — расчёт: «по идее, уже». might have — «может быть». will have с by now — уверенная догадка: «наверняка уже»."
     }
   ],
   "error_correction_exercises": [
@@ -4231,6 +4809,29 @@
         }
       ],
       "explanation": "by Friday — «к пятнице», will have submitted — к этой черте анкеты уже поданы. «Будет подавать» — процесс в сам день, «попросят подать» — другой смысл, а «подавал» — прошедшее."
+    },
+    {
+      "id": 122,
+      "construction": "Oliver will have posted the photos by now.",
+      "options": [
+        {
+          "text": "Оливер скоро выложит фотографии.",
+          "isCorrect": false
+        },
+        {
+          "text": "Оливер наверняка уже выложил фотографии.",
+          "isCorrect": true
+        },
+        {
+          "text": "Оливер должен выложить фотографии сейчас.",
+          "isCorrect": false
+        },
+        {
+          "text": "Оливер выкладывал фотографии.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "by now — точка «сейчас», will have posted — к этой минуте дело позади, а will добавляет уверенность: «наверняка уже выложил». Будущего здесь нет, поэтому «скоро выложит» — мимо. «Должен выложить» — обязанность, а «выкладывал» — просто прошлое без догадки."
     }
   ],
   "transformation_exercises": [

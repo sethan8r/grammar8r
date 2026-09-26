@@ -8458,19 +8458,18 @@ theory/
 │   │   │       «уже» вернуть обязательно (when без срока — иначе порядок перевернётся), где можно опустить
 │   │   │       (срок через «к»). «наверняка уже» — строкой к «Догадкам». Без AI.
 │   │   │
-│   │   ├── МТ · Guesses · Догадки: you'll have heard  (2 карточки; слив 5) ← ОТЛОЖЕНО СЮДА ИЗ «МОДАЛЬНЫХ»
-│   │   │   ├── Card · Уверенная догадка о том, что уже случилось
-│   │   │   │   You'll have heard the news · He'll have landed by now · They won't have got my message yet ·
-│   │   │   │   As you will have noticed (деловые письма). Шкала: must have (вижу улику) · will have (знаю,
-│   │   │   │   как обычно бывает) · might have. Зеркало Card 740 (she'll be sleeping). ⚠️ В основном
-│   │   │   │   британское; в американском — You've probably heard. Ловушка: будущего здесь нет, хотя стоит
-│   │   │   │   will. AI «Скажи догадку» (ситуация → EN, GENERAL).
-│   │   │   └── Card · С оговоркой: should, might, may have done by then
-│   │   │       Не уверен на все сто — will меняется на модальный, остальное на месте: The parcel should have
-│   │   │       arrived by Friday (по идее, придёт) · I might have finished by six · They may have left by then.
-│   │   │       ⭐ Ловушка двух should have: прошлое → упрёк (You should have called me yesterday, Card 660) ↔
-│   │   │       будущий срок → расчёт (I should have finished by six); различает точка. Зеркало Card 741.
-│   │   │       Строкой на узнавание: going to have done · I expect / I hope + will have. Без AI.
+│   │   ├── МТ286 · Guesses · Догадки: you'll have heard  (2 карточки; слив 5 — election · to vote · to post · due · to assume) ✅ (написана, ALL GREEN 26.09.26) ← ОТЛОЖЕНО СЮДА ИЗ «МОДАЛЬНЫХ»
+│   │   │   ├── Card 763 · Уверенная догадка о том, что уже случилось
+│   │   │   │   Точка «сейчас» + will = уверенность → «наверняка уже» (You'll have heard, most people will have
+│   │   │   │   voted by now). Зеркало Card 740: she'll be sleeping ↔ she'll have gone to bed. Шкала (Card 655 /
+│   │   │   │   659, без пересказа): must have — улика ↔ will have — по опыту, пара на одной сцене (добавлено).
+│   │   │   │   won't have … yet · As you will have noticed · I assume you'll have seen. «Кстати» BrE ↔ You've
+│   │   │   │   probably heard. Ловушка: переводить будущим. AI future_perfect_card763_ex1 «Скажи догадку» (GENERAL).
+│   │   │   └── Card 764 · С оговоркой: should, might, may have done by then
+│   │   │       will → should / might / may, остальное на месте (зеркало Card 741); лестница will → should → may /
+│   │   │       might. ⭐ Два should have — грань уточнена: не «прошлое ↔ будущее», а «результат уже ясен (упрёк,
+│   │   │       Card 660) ↔ ещё проверяем, срок впереди или by now (расчёт, Card 650)». «Кстати»: I hope / I expect
+│   │   │       / I'm sure + will have, going to have done. Без AI.
 │   │   │
 │   │   ├── МТ · would have done · Пересказ Future Perfect  (2 карточки; слив 5) ← ОБЕЩАНО В REPORTED SPEECH
 │   │   │   ├── Card · Пересказ: will have → would have
