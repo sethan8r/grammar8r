@@ -8301,30 +8301,213 @@ theory/
 │   │         will be being built, after an hour и I'll be getting it в ex3 НЕ ставятся: собраны по
 │   │         правилам, задание стало бы спорным (разбираются в ex1 и в Theory).
 │   │
-│   ├── Future Perfect  ← тема 2 раздела (Topic 42, order=2) — ДЕРЕВО ПЕРЕСОБРАТЬ ПЕРЕД НАПИСАНИЕМ (инвентарь ролей)
-│   │   ⚠️ РЕДКОЕ ВРЕМЯ (носители используют редко): в ПЕРВОЙ карточке честно сказать это —
-│   │   объяснить, почему оно нечастое и какие альтернативы носители предпочитают (Future Simple
-│   │   + by / by then: "I'll finish by 10pm"; Present Simple в придаточных времени). Чтобы юзер
-│   │   понимал конструкцию, но не думал, что обязан так говорить.
-│   │   ⭐ ОПОРА НА МОДАЛЬНЫЕ (уже пройдены): `will have + V3` — та же сборка, что `must have forgotten` /
-│   │   `could have called` из карточки «Модальные + have + V3». Не вводить конструкцию с нуля: показать
-│   │   её как ещё одну строку в знакомом ряду, где на месте модальника стоит `will`.
-│   │   ├── Ощущение времени: что это для носителя
-│   │   │   К определённому моменту в будущем действие уже будет завершено.
-│   │   │   "By 10pm I'll have finished" — к 10 вечера работа уже будет сделана.
-│   │   ├── Карточки: will have + V3, употребление, by + время
-│   │   │   ⬅️ КОСВЕННАЯ РЕЧЬ ЭТОГО ВРЕМЕНИ РАССКАЗЫВАЕТСЯ ЗДЕСЬ (решение 23.09.2026): в «Reported Speech»
-│   │   │      этой формы нет — время там ещё не пройдено, дан только принцип «will → would, хвост после
-│   │   │      него не трогаем» и обещание, что он сработает здесь. Дать пересказ Future Perfect:
-│   │   │      `I'll have finished by then` → `He said he would have finished by then` — как знакомый
-│   │   │      механизм, без разбора.
-│   │   │   ⬅️ ДОЛГ ИЗ «Passive Voice» (20.09.2026): там формула `will have been done` выдана НА
-│   │   │      УЗНАВАНИЕ (`By June the bridge will have been built`) с прямым обещанием — «само время
-│   │   │      разберём в Future Perfect, там эта строка встанет на готовое место». Здесь закрыть
-│   │   │      строкой в карточке формы: `will have` + `been` + V3, то есть ровно наша сборка, куда
-│   │   │      вместо активного глагола поставили пассивный. Встаёт в тот же ряд, что и опора на
-│   │   │      «Модальные» (`must have + V3`) — ничего нового, третья знакомая деталь на знакомом месте.
-│   │   └── 🆕 Live Practice · Закрепление Future Perfect с ИИ — финальная AI-микротема (структура как Present Simple MT56; см. ⚠️-канон «ФИНАЛЬНАЯ AI-МИКРОТЕМА» выше)
+│   ├── Future Perfect  ← тема 2 раздела (Topic 42, order=2)
+│   │   📋 ДЕРЕВО СОБРАНО 26.09.2026 прогоном ИНВЕНТАРЯ РОЛЕЙ (гайд §3, 39 ролей формы), охотой за
+│   │      долгами по всей теории и независимой проверкой. 9 микротем / 21 карточка.
+│   │   ⚠️⚠️ МАСШТАБ (как у Future Continuous): всё, чтобы понимать и говорить; закоулки — строкой на
+│   │      узнавание, без отдельных карточек.
+│   │   ⭐⭐ ПРИНЦИП-КОРЕНЬ: `will have + V3` — взгляд НАЗАД из точки в будущем: к ней дело уже позади
+│   │      (сделано / накоплено / прожито), а когда именно делали — неважно. Следствия: нет точки
+│   │      отсчёта (срок, событие, «к тому времени») — нет и времени; точка = «сейчас», а will =
+│   │      уверенность → догадка о случившемся (`You'll have heard`).
+│   │      ⚠️ Точка ≠ обязательно `by`: `Tomorrow we'll have been married for 20 years` ·
+│   │      `When you get this, I'll have left`. Не учить ложному «без by нельзя».
+│   │   🎬 ОБРАЗ ряда курса: «КОПИЯ, СДАННАЯ К ЭФИРУ». Прямой эфир (Present Continuous) → эфир по сетке
+│   │      (Future Continuous) → к часу эфира копия уже смонтирована и сдана: когда монтировали,
+│   │      зрителю неважно, важно, что к эфиру готово. Нет эфира — не к чему сдавать (= нет точки).
+│   │   ⭐ ОПОРА — В СБОРКЕ НИЧЕГО НОВОГО: `had done by then` (Past Perfect) → `will have done by then`;
+│   │      ряд `has done` · `had done` · `must have done` → `will have done`. Конструкцию дважды:
+│   │      дословно «буду иметь сделанным», по-живому «к тому времени уже сделаю / успею».
+│   │   ⚠️ ЧЕСТНО О ЧАСТОТЕ: в сотни раз реже will (точную цифру НЕ даём — без источника). Русское
+│   │      «закончу» уже значит «доведу до конца» → английскому почти всегда хватает `will + by` /
+│   │      `be done by` / `when I've finished`. Без Future Perfect не обойтись в ЧЕТЫРЁХ местах: две
+│   │      точки в будущем, где порядок решает форма · итог или длительность к дате · прогнозы и
+│   │      отчёты · уверенная догадка.
+│   │   ⛔ НЕ ПЕРЕСКАЗЫВАТЬ (строкой, ссылка по НАЗВАНИЮ): V3 и колода id 1–118 · will / 'll / won't ·
+│   │      «when / if · После союза — настоящее» · `by` из Past Perfect (Card 451) · must have (МТ242) ·
+│   │      will → would (Card 653 / Card 708) · третий тип условных (Card 497 / Card 499) · `I'm done`
+│   │      («Passive Voice: часть вторая») · `make it` = «успеть» («Make vs Do»).
+│   │   ⬅️ ДОЛГИ, КОТОРЫЕ ЗАКРЫВАЮТСЯ ЗДЕСЬ:
+│   │      • «Служебные глаголы» Card 119 — превью «полный разбор — отдельная тема впереди» + три вопроса
+│   │        «Не совсем понял» (когда разберём · will + V1 ↔ will have + V3 · почему have, а не has/had)
+│   │        → вводная, «К сроку» (точка), формула (почему have);
+│   │      • «Служебные глаголы» Card 120 — таблица сигналов + Ex 54 → вводная (вторая карточка);
+│   │      • Future Continuous Card 726 (ряд образов, «у следующих тем have + V3») и Card 747
+│   │        («к шести уже закончу — следующая тема») → вводная;
+│   │      • Future Continuous Card 732 («третья картинка — к восьми уже поужинаю») → «К сроку»;
+│   │      • Future Continuous Card 745 и «Модальные» Card 635 / Card 637 — пустая клетка
+│   │        `will have done` в каркасе («хватит одной строкой») → формула: каркас закрыт;
+│   │      • «Модальные», план стр. 7070 — `will have done` как догадка отложена сюда → «Догадки»;
+│   │      • «Passive Voice: часть вторая» Card 665 / Card 669 / Card 688 — `will have been done` на
+│   │        узнавание + вопрос «Когда я смогу использовать will have been done?» → строкой в формуле
+│   │        (опора Card 671 `must have been stolen`) + употребление в «Итогах»;
+│   │      • «Reported Speech» Card 704 / Card 708 / Card 725 — пересказ этого времени, «will спускается
+│   │        в would, хвост на месте» → «Пересказ»;
+│   │      • Future Continuous Card 749 и «Модальные» Card 662 — «в заданиях этой формы не будет» →
+│   │        Live Practice;
+│   │      • «Перфекты» Card 484 — «сложнее перфектов вас уже ничего не ждёт» → тон вводной.
+│   │      Скрытые долги (формы стояли без разбора): `by the time` + настоящее (Card 119, пример 533) ·
+│   │      Present Perfect после союза времени (`when I've finished` — в курсе нет НИГДЕ) · два
+│   │      `would have done` (пересказ ↔ третий тип, Card 708 / Card 498) · `by` ↔ `until` (Card 451 /
+│   │      Card 316) · ось перфектов «до какой точки считаю» (Card 475 / Card 482).
+│   │   🛠️ ПРАВКИ СТАРЫХ КАРТОЧЕК (сделаны 26.09.2026, со ссылкой на эту тему):
+│   │      • Present Perfect Card 383 — `I'll have got` ✗ только в значении «у меня будет»; `By Friday
+│   │        I'll have got the tickets` — другое время, «Future Perfect»;
+│   │      • «Служебные глаголы» Card 120, Ex 54 — из объяснения убрано «Present Simple не подходит для
+│   │        будущего» (спорило с расписанием); добавлено, что `will finish by Friday` тоже верно;
+│   │      • Future Simple Card 316 — «вся компания, больше запоминать нечего» → «главная компания»;
+│   │        плашка «Кстати» про `by the time` + настоящее.
+│   │   ↔️ ГРАНИЦА С «Future Perfect Continuous»: здесь — итог, количество, state verbs и `work` /
+│   │      `live` + for (`I'll have worked here ten years` ✓ — как `I've lived here for five years`);
+│   │      там — только «тянется» у чистых процессов (`waiting`, `driving`), где простая форма
+│   │      звучит странно. Продублировано в шапке следующей темы.
+│   │   🔤 СЛИВ (по 5, все 35 сверены по сидам 26.09.2026 и свободны; в каждой пятёрке — прилагательное
+│   │      или наречие; заменять можно, но на популярное и встающее в примеры):
+│   │      Как собрать — project · to complete · to print · to update · final
+│   │      К сроку — sunset · to expire · valid · to approve · hopefully
+│   │      Итоги и прогнозы — anniversary · to retire · to double · decade · annual
+│   │      Русское «уже» и «успеть» — to submit · to register · to sign · form · urgent
+│   │      Догадки — election · to vote · to post · due · to assume
+│   │      Пересказ — to calculate · budget · savings · to predict · confident
+│   │      Когда без него не обойтись — goal · to achieve · to train · marathon · eventually
+│   │      Заняты, не брать: deadline · to manage · in time · on time · to finish · to arrive · to land ·
+│   │      to celebrate · to graduate · to install · to replace · schedule · contract · finally.
+│   │
+│   │   ├── МТ · What Is Future Perfect · Что такое Future Perfect  ⭐ ВВОДНАЯ, 2 карточки, БЕЗ AI, слов НЕ сливает
+│   │   │   ├── Card · Будущее, которое уже позади
+│   │   │   │   Что это (2–3 строки): `By the time you get here, I'll have left`. Образ + весь ряд образов
+│   │   │   │   курса. Что уже знаем (строкой): превью Card 119 · has / had done · must have done ·
+│   │   │   │   `by the time` · will be + -ing · I'm done. Честно о частоте + четыре места, где без него
+│   │   │   │   никак. Почему так поздно: стоит на перфектах, придаточных, модальных, пассиве. Тон Card 484 —
+│   │   │   │   третий этаж знакомой оси. ⭐ КАРТА ТЕМЫ таблицей. Callback обещаний — вопросом.
+│   │   │   └── Card · Почему «закончу к пятнице» обходится без него
+│   │   │       Русский совершенный вид сам говорит «доведу до конца» → `I'll finish by Friday` ·
+│   │   │       `I'll be done by six` · `I'll be asleep by midnight` — нормальная речь. Где русское «уже»
+│   │   │       реально меняет смысл: «когда ты приедешь, я уже уйду». Снять вопрос Card 120 (там
+│   │   │       единственный ответ — Future Perfect). Кальки — вопросом, без ответа: «до пятницы» → until? ·
+│   │   │       «к пятнице» → to? · by the time you will come? · will have finish? · will have to ↔ will
+│   │   │       have done? Мост к форме.
+│   │   │
+│   │   ├── МТ · will have + V3 · Как собрать Future Perfect  (2 карточки; слив 5)
+│   │   │   ├── Card · Формула, знакомый ряд и три will have been
+│   │   │   │   will + have (всегда have — ответ Card 119) + V3, одна форма на все лица; брифовая таблица
+│   │   │   │   порядка слов ([буду иметь] + глагол). ⭐ Каркас модальных закрыт: must have done ↔ will have
+│   │   │   │   done. ⭐ Три `will have been` — читать по тому, что после: + V3 = пассив (`will have been
+│   │   │   │   built` — строка Passive-2 встала) · + прилагательное / место = to be (`will have been
+│   │   │   │   married`, `at work`) · + to = побываю (`will have been to 30 countries`). «Кстати» — слот:
+│   │   │   │   can → will have been able to · have to → will have had to · there will have been · will have
+│   │   │   │   had (два have подряд — норма). Ловушки: will have went ✗ · will have finish ✗ · will has ✗ ·
+│   │   │   │   will had finished ✗.
+│   │   │   └── Card · Отрицание, вопросы, наречия и на слух
+│   │   │       won't have = «не успеет» (`I won't have finished by six` · `…yet`) · Will you have…? · What /
+│   │   │       How many will you have…? · Yes, I will (брит. I will have) · отрицательный вопрос `Won't they
+│   │   │       have landed by now?`. Наречия: I'll have already left ≈ I'll already have left · I'll probably
+│   │   │       have, но I probably won't have. На слух: 'll have → [[əv]] · won't have · will of ✗ (как should
+│   │   │       of). Ловушки: Will have you…? ✗ · I will not has ✗. ⭐ ДВОЙНИКИ «will have» (правило чтения:
+│   │   │       что сразу после have): I'll have to go · I'll have the soup · You'll have a great time · I'll
+│   │   │       have it ready by five (каузатив на узнавание → «Глагол get — часть 2») · I'll have got the
+│   │   │       tickets by Friday (а это наше время) · I'll have you know (идиома). Если блок не влезет в
+│   │   │       экран — вынести двойников третьей карточкой. AI «Вопрос и отрицание» (FREE_WRITE, NONE).
+│   │   │
+│   │   ├── МТ · by then · К сроку: by, by the time, when  (3 карточки; слив 5) ← СЕРДЦЕ ТЕМЫ
+│   │   │   ├── Card · Точка-срок и взгляд назад
+│   │   │   │   by six · by then · by the end of the month · by this time next year · in / within two years
+│   │   │   │   (after two years — «спустя», про другое). ⭐ Тройка на одной точке, медленно (закрывает FC
+│   │   │   │   Card 732): At 8 I'll have dinner (сяду) ↔ At 8 I'll be having dinner (уже за столом) ↔ By 8
+│   │   │   │   I'll have had dinner (уже поем). by ↔ until (опора Card 451): «до пятницы сделаю» → by, until ✗
+│   │   │   │   · I'll work until Friday · I won't finish until Friday. «к пятнице» → to Friday ✗. Точка без
+│   │   │   │   by (Tomorrow we'll have been married…). Ось перфектов (Card 475 / Card 482): has — до сейчас,
+│   │   │   │   had — до прошлой точки, will have — до будущей. AI «К сроку» (ситуация с дедлайном → EN, GENERAL).
+│   │   │   ├── Card · «Когда ты приедешь, я уже уйду»
+│   │   │   │   ⭐ Пара, медленно (зеркало Card 450): When you arrive, I'll leave (после тебя) ↔ I'll have left
+│   │   │   │   (до) ↔ I'll be leaving (как раз). Банк 4–5 русских двусмысленностей. by the time / before +
+│   │   │   │   настоящее: by the time you will come ✗. Письма: By the time you read this, I'll have gone;
+│   │   │   │   разговорная замена I'll be gone. AI «Две точки в будущем» (две русские фразы → одно
+│   │   │   │   английское предложение, GENERAL).
+│   │   │   └── Card · «Когда закончу, позвоню» — перфект после союза
+│   │   │       when / after / as soon as / once / until + have done: Once you've paid, you'll get a receipt ·
+│   │   │       You can't leave until you've signed. Суть: will выпадает (правило союзов), have остаётся —
+│   │   │       «уже» сохраняется. Где when I finish ≈ when I've finished (с after разницы нет — как Card 450),
+│   │   │       а где перфект держит порядок. Ловушки: when I will have finished ✗ · when I will finish ✗.
+│   │   │       Строкой: в «ли»-вопросе will остаётся (I don't know if I'll have finished). Без AI.
+│   │   │
+│   │   ├── МТ · by next year · Итоги, годовщины и прогнозы  (3 карточки; слив 5)
+│   │   │   ├── Card · Сколько будет сделано к дате
+│   │   │   │   By December I'll have read 30 books · By 40 I'll have visited 30 countries · been to.
+│   │   │   │   ⭐ Граница: «прочитаю 30 книг» — план → will read; итог к дате → will have read. Названо
+│   │   │   │   количество — никакого Continuous (связь с FC Card 746). AI «Подведи итог к дате» (GENERAL).
+│   │   │   ├── Card · Сколько уже будет длиться
+│   │   │   │   I'll have known him for ten years · we'll have been married for 20 years (married —
+│   │   │   │   прилагательное, не пассив) · I'll have had this car for 15 years · I'll have worked here ten
+│   │   │   │   years. ⭐ state verbs здесь как раз к месту, Continuous с ними нельзя: I'll have been knowing ✗
+│   │   │   │   (callback «State Verbs»). Калька «в июне будет 10 лет, как…» → In June will be 10 years ✗ →
+│   │   │   │   It'll be ten years in June since… / we'll have known each other… Строкой: чистый процесс
+│   │   │   │   («будет ждать уже час») → «Future Perfect Continuous». AI «Годовщины» (GENERAL).
+│   │   │   └── Card · Прогнозы, новости и пассив
+│   │   │       By 2030 prices will have doubled · there will have been three elections by then. Регистр:
+│   │   │       новости, отчёты, планы; в разговоре — will + by. `will have been + V3` в деле: By June the
+│   │   │       bridge will have been built; замена It'll be done / ready by Monday. Ловушки: will have be
+│   │   │       built ✗ · will been built ✗ · will have built (перепутан залог) ✗. AI «Скажи как в новостях»
+│   │   │       (GENERAL).
+│   │   │
+│   │   ├── МТ · Which Future · Русское «уже» и «успеть»  (2 карточки; слив 5)
+│   │   │   ├── Card · «Успею», «уже», «к», «будет лет»: куда их девать
+│   │   │   │   ⭐ «успеть» — одного слова нет, берём по смыслу: «Ты успеешь к шести?» → Will you have finished
+│   │   │   │   by six? / Will you be done by six? · «успеть добраться» → make it (callback «Make vs Do») ·
+│   │   │   │   «еле успел» → managed to · «успеть вовремя» → in time (on time — «по графику»). «к пятнице
+│   │   │   │   закончу» → will finish by · «уже уйду» → will have left · «будет 10 лет, как» → It'll be ten
+│   │   │   │   years since · «наверняка уже слышал» → you'll have heard. AI «Русская фраза с «успею» / «уже»
+│   │   │   │   → английская» (GENERAL).
+│   │   │   └── Card · Обратная сторона: как Future Perfect звучит по-русски
+│   │   │       Не «буду иметь сделанным», а «успею», «уже закончу», «к тому времени», «наверняка уже»,
+│   │   │       «будет N лет, как». Пары перевода; где русский разницу I'll leave / I'll have left вообще не
+│   │   │       выражает и решает контекст.
+│   │   │
+│   │   ├── МТ · Guesses · Догадки: you'll have heard  (2 карточки; слив 5) ← ОТЛОЖЕНО СЮДА ИЗ «МОДАЛЬНЫХ»
+│   │   │   ├── Card · Уверенная догадка о том, что уже случилось
+│   │   │   │   You'll have heard the news · He'll have landed by now · They won't have got my message yet ·
+│   │   │   │   As you will have noticed (деловые письма). Шкала: must have (вижу улику) · will have (знаю,
+│   │   │   │   как обычно бывает) · might have. Зеркало Card 740 (she'll be sleeping). ⚠️ В основном
+│   │   │   │   британское; в американском — You've probably heard. Ловушка: будущего здесь нет, хотя стоит
+│   │   │   │   will. AI «Скажи догадку» (ситуация → EN, GENERAL).
+│   │   │   └── Card · С оговоркой: should, might, may have done by then
+│   │   │       Не уверен на все сто — will меняется на модальный, остальное на месте: The parcel should have
+│   │   │       arrived by Friday (по идее, придёт) · I might have finished by six · They may have left by then.
+│   │   │       ⭐ Ловушка двух should have: прошлое → упрёк (You should have called me yesterday, Card 660) ↔
+│   │   │       будущий срок → расчёт (I should have finished by six); различает точка. Зеркало Card 741.
+│   │   │       Строкой на узнавание: going to have done · I expect / I hope + will have. Без AI.
+│   │   │
+│   │   ├── МТ · would have done · Пересказ Future Perfect  (2 карточки; слив 5) ← ОБЕЩАНО В REPORTED SPEECH
+│   │   │   ├── Card · Пересказ: will have → would have
+│   │   │   │   He said he'd have finished by Friday · She asked if I'd have finished by then (прямой порядок).
+│   │   │   │   by tomorrow → by the next day. Ключ чтения: 'd have + V3 — всегда would, had have не бывает.
+│   │   │   │   Не сдвигаем, пока срок впереди. ⭐ Двусмысленность: пересказ плана («успеет») ↔ третий тип
+│   │   │   │   («закончил бы») — различает контекст. AI «Перескажи» (FREE_WRITE, NONE).
+│   │   │   └── Card · Мысли и условные
+│   │   │       I thought you'd have finished by now (ожидание не сбылось) · I knew he'd have left by then.
+│   │   │       If we leave now, we'll have arrived by dark. Строкой на узнавание: книжное By 1990 he would
+│   │   │       have lost everything. Без AI.
+│   │   │
+│   │   ├── МТ · will or will have done · Когда без Future Perfect не обойтись  (2 карточки; слив 5) ← предпоследняя
+│   │   │   ├── Card · Тормоз: где хватит will и be done
+│   │   │   │   Одна мысль в трёх упаковках: I'll finish by 10 · I'll be done by 10 · I'll have finished by 10
+│   │   │   │   — разницы почти нет. Где она есть — четыре места (корень темы). Нет точки → звучит странно:
+│   │   │   │   I'll have finished it tomorrow → by tomorrow. Перебор: весь рассказ через will have — звучит
+│   │   │   │   как отчёт.
+│   │   │   └── Card · Компас: три будущих на одной точке
+│   │   │       Продолжение Card 747 «Один день из завтра»: will ведёт события, will be -ing ставит фон, will
+│   │   │       have подводит итог к точке. Компас выбора одним экраном. AI «Какое будущее и почему»
+│   │   │       (ситуация → форма + причина, FREE_WRITE, GENERAL).
+│   │   │
+│   │   └── МТ · Live Practice · Future Perfect вживую с ИИ — финальная AI-микротема (1 карточка, 3 AI; канон «ФИНАЛЬНАЯ AI-МИКРОТЕМА» выше)
+│   │       ex1 «Скажи по-английски» (GENERAL) — у ситуации обязателен признак: срок, две точки с when, итог,
+│   │         годовщина, «успеешь?», догадка, прогноз с пассивом или граница, где хватит will + by.
+│   │       ex2 «Что на самом деле сказано» (NONE) — пары: When you arrive, I'll leave ↔ I'll have left ·
+│   │         I'll finish at 6 ↔ I'll be finishing at 6 ↔ I'll have finished by 6 · He'd have finished
+│   │         (пересказ ↔ «закончил бы») · I should have finished (упрёк ↔ расчёт к сроку).
+│   │       ex3 «Найди и исправь» (NONE) — ровно одна ошибка на три предложения, из списка: will have went ·
+│   │         until Friday (в значении by) · by the time you will come · when I will have finished · Will
+│   │         have you… · he'd had finished · In June will be 10 years….
 │   │
 │   └── Future Perfect Continuous  ← тема 3 раздела (Topic 43, order=3) — ДЕРЕВО ВПЕРЕДИ (собрать инвентарём ролей)
 │       `will have been + -ing` — «к моменту в будущем это будет тянуться уже столько-то»
@@ -8332,6 +8515,10 @@ theory/
 │       ⬅️ ДОЛГ ИЗ «Служебных глаголов» (Card 120): форма названа с пометкой «мы не будем разбирать это
 │          сейчас», плюс вопрос «Что такое Future Perfect Continuous и зачем он нужен?» в «Не совсем понял».
 │       ⚠️ САМОЕ РЕДКОЕ ВРЕМЯ КУРСА — сказать честно в первой карточке (альтернативы, где встречается).
+│       ↔️ ГРАНИЦА С «Future Perfect» (решение 26.09.2026): итог, количество, state verbs и `work` /
+│          `live` + for уже разобраны там (`I'll have worked here ten years` ✓). Этой теме — «тянется»
+│          у чистых процессов (`waiting`, `driving`), где простая форма звучит странно, и оттенок
+│          процесса у work / live. Не учить, что `will have worked … for` — ошибка.
 │       🌉 Последней микротемой темы — МОСТ В ПРАКТИКУ «третий круг времён пройден» (см. шапку раздела).
 │
 ├── 📁 Одно слово — много значений  ← перед "Разговорным английским" — РАЗДЕЛ (GrammarTopicCategory)

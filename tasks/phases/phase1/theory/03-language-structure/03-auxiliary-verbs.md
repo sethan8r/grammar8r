@@ -1741,7 +1741,7 @@ do/does/did, be, have/has/had, will — служебные глаголы, си�
 - Olya has finished the project by Friday.
 - **Olya will have finished the project by Friday.** ✓
 
-*Explanation:* «к пятнице уже закончит» = действие завершится К будущему моменту → will + have + V3 (Future Perfect). «finishes» — Present Simple, не подходит для будущего. «has finished» — Present Perfect, не указывает на будущий момент «к пятнице».
+*Explanation:* «к пятнице уже закончит» = действие завершится К будущему моменту → will + have + V3 (Future Perfect). «finishes» — Present Simple: о будущем он говорит только про расписание, а «уже закончит» не передаёт. В живой речи сказали бы и проще — «Olya will finish the project by Friday», это тоже верно; will have finished добавляет «к пятнице уже будет готово» (подробно — в теме «Future Perfect»). «has finished» — Present Perfect, не указывает на будущий момент «к пятнице».
 
 ---
 
