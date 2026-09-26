@@ -8408,27 +8408,24 @@ theory/
 │   │   │       Три will have been: + V3 пассив (строка Passive-2 встала) · признак (married) · been to.
 │   │   │       + -ing → Future Perfect Continuous.
 │   │   │
-│   │   ├── МТ · by then · К сроку: by, by the time, when  (3 карточки; слив 5) ← СЕРДЦЕ ТЕМЫ
-│   │   │   ├── Card · Точка-срок и взгляд назад
-│   │   │   │   by six · by then · by the end of the month · by this time next year · in / within two years
-│   │   │   │   (after two years — «спустя», про другое). ⭐ Тройка на одной точке, медленно (закрывает FC
-│   │   │   │   Card 732): At 8 I'll have dinner (сяду) ↔ At 8 I'll be having dinner (уже за столом) ↔ By 8
-│   │   │   │   I'll have had dinner (уже поем). by ↔ until (опора Card 451): «до пятницы сделаю» → by, until ✗
-│   │   │   │   · I'll work until Friday · I won't finish until Friday. «к пятнице» → to Friday ✗. Точка без
-│   │   │   │   by (Tomorrow we'll have been married…). Ось перфектов (Card 475 / Card 482): has — до сейчас,
-│   │   │   │   had — до прошлой точки, will have — до будущей. AI «К сроку» (ситуация с дедлайном → EN, GENERAL).
-│   │   │   ├── Card · «Когда ты приедешь, я уже уйду»
-│   │   │   │   ⭐ Пара, медленно (зеркало Card 450): When you arrive, I'll leave (после тебя) ↔ I'll have left
-│   │   │   │   (до) ↔ I'll be leaving (как раз). Банк 4–5 русских двусмысленностей. by the time / before +
-│   │   │   │   настоящее: by the time you will come ✗. Письма: By the time you read this, I'll have gone;
-│   │   │   │   разговорная замена I'll be gone. AI «Две точки в будущем» (две русские фразы → одно
-│   │   │   │   английское предложение, GENERAL).
-│   │   │   └── Card · «Когда закончу, позвоню» — перфект после союза
-│   │   │       when / after / as soon as / once / until + have done: Once you've paid, you'll get a receipt ·
-│   │   │       You can't leave until you've signed. Суть: will выпадает (правило союзов), have остаётся —
-│   │   │       «уже» сохраняется. Где when I finish ≈ when I've finished (с after разницы нет — как Card 450),
-│   │   │       а где перфект держит порядок. Ловушки: when I will have finished ✗ · when I will finish ✗.
-│   │   │       Строкой: в «ли»-вопросе will остаётся (I don't know if I'll have finished). Без AI.
+│   │   ├── МТ283 · by then · К сроку: by, by the time, when  (3 карточки; слив 5 — sunset · to expire · valid · to approve · hopefully) ✅ (написана, ALL GREEN 26.09.26) ← СЕРДЦЕ ТЕМЫ
+│   │   │   ├── Card 755 · Срок: by, until и by when
+│   │   │   │   by = «не позже» (опора Card 451, коротко) · набор сроков · «через» — in (after — «спустя»,
+│   │   │   │   within — «в течение») · тройка на одной точке At 8 have / be having / By 8 have had (долг FC
+│   │   │   │   Card 732 закрыт) · «до» = by (срок) или until (отрезок), проверка «подставь к» · not until =
+│   │   │   │   «только в» · to Friday ✗ · By when…? ↔ Until when…? (добавлено против дерева). Точку без by и
+│   │   │   │   ось перфектов НЕ повторяли — они во вводной (Card 750). AI future_perfect_card755_ex1 «К сроку»
+│   │   │   │   (FREE_WRITE, GENERAL).
+│   │   │   ├── Card 756 · «Пока ты доедешь, я уже…»: by the time и when
+│   │   │   │   Пара из Card 751 — одной строкой; новое: третья картинка I'll be leaving, характеры союзов
+│   │   │   │   (before/after называют порядок, when — молчун, by the time тянет will have; опора Card 450),
+│   │   │   │   формула by the time + настоящее, русское «пока» = while ↔ by the time (добавлено), где «уже»
+│   │   │   │   опущено (концерт: займём места ↔ выключим телефоны), записки I'll have gone / I'll be gone.
+│   │   │   │   AI future_perfect_card756_ex1 «Две точки в будущем» (FREE_WRITE, GENERAL).
+│   │   │   └── Card 757 · «Когда закончу, позвоню»: перфект после союза
+│   │   │       will выпадает, have остаётся · when / after / as soon as / once / until + have + V3 · once =
+│   │   │       «как только» (второе значение, глоссом) · с after разницы нет, с when есть (читать по ходу ↔
+│   │   │       дочитать) · ловушки will have / will после союза · «ли»-вопрос с will. Без AI.
 │   │   │
 │   │   ├── МТ · by next year · Итоги, годовщины и прогнозы  (3 карточки; слив 5)
 │   │   │   ├── Card · Сколько будет сделано к дате
@@ -8501,12 +8498,16 @@ theory/
 │   │   └── МТ · Live Practice · Future Perfect вживую с ИИ — финальная AI-микротема (1 карточка, 3 AI; канон «ФИНАЛЬНАЯ AI-МИКРОТЕМА» выше)
 │   │       ex1 «Скажи по-английски» (GENERAL) — у ситуации обязателен признак: срок, две точки с when, итог,
 │   │         годовщина, «успеешь?», догадка, прогноз с пассивом или граница, где хватит will + by.
+│   │         ⚠️ ОБЯЗАТЕЛЬНО пунктом инвентаря: вопрос о сроке — By when…? (К какому числу тебе нужен отчёт?)
+│   │         и граница Until when…? (До какого числа ты в Риме?). Пару отдельно НЕ сливаем (by и until уже
+│   │         в словаре) — закрепляем повторением здесь; разбор — Card 755.
 │   │       ex2 «Что на самом деле сказано» (NONE) — пары: When you arrive, I'll leave ↔ I'll have left ·
 │   │         I'll finish at 6 ↔ I'll be finishing at 6 ↔ I'll have finished by 6 · He'd have finished
 │   │         (пересказ ↔ «закончил бы») · I should have finished (упрёк ↔ расчёт к сроку).
 │   │       ex3 «Найди и исправь» (NONE) — ровно одна ошибка на три предложения, из списка: will have went ·
 │   │         until Friday (в значении by) · by the time you will come · when I will have finished · Will
-│   │         have you… · he'd had finished · In June will be 10 years….
+│   │         have you… · he'd had finished · In June will be 10 years… · Until when do you need it? (в значении
+│   │         «к какому сроку» → By when).
 │   │
 │   └── Future Perfect Continuous  ← тема 3 раздела (Topic 43, order=3) — ДЕРЕВО ВПЕРЕДИ (собрать инвентарём ролей)
 │       `will have been + -ing` — «к моменту в будущем это будет тянуться уже столько-то»

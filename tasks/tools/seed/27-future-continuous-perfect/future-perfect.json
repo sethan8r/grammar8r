@@ -32,6 +32,13 @@
       "title": "will have + V3 · Как собрать Future Perfect",
       "order": 2,
       "searchKeywords": "will have went, will has или will have, won't have, вопрос с will have, will of, will have to или have done"
+    },
+    {
+      "id": 283,
+      "topicId": 42,
+      "title": "by then · К сроку: by, by the time, when",
+      "order": 3,
+      "searchKeywords": "by или until, к какому сроку, by when, not until, by the time, when i've finished"
     }
   ],
   "grammar_cards": [
@@ -1260,6 +1267,664 @@
         "Почему will have been married — не страдательный залог?",
         "Что значит I'll have it ready by five?"
       ]
+    },
+    {
+      "id": 755,
+      "microtopicId": 283,
+      "title": "Срок: by, until и by when",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы договорились: у этого времени всегда есть точка в будущем, из которой смотрим назад. В этой микротеме учимся эту точку ставить. Способ первый и самый частый — срок."
+        },
+        {
+          "type": "heading",
+          "text": "by — «не позже»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `by` мы разбирали в Past Perfect, в карточке «by the time и by + время»: как «у окна» — вплотную, не дальше, так и «к пятнице» — не позже пятницы. В будущем оно работает точно так же, только черта проведена впереди:"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "By + срок · will have + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By sunset we'll have reached the camp.** — к закату мы уже доберёмся до лагеря",
+            "**By Monday the manager will have approved the plan.** — к понедельнику начальник уже утвердит план",
+            "**My passport is still valid, but by July it'll have expired.** — паспорт пока действителен, но к июлю он уже истечёт"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Сроком может быть что угодно, лишь бы это был момент: **by six**, **by Monday**, **by then** — «к тому времени», **by the end of the month** — «к концу месяца», **by this time next year** — «к этому времени в следующем году»."
+        },
+        {
+          "type": "heading",
+          "text": "«Через два года» — in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если срок отсчитываем от сегодняшнего дня, «через» по-английски — `in`: **In two years I'll have finished university.** — через два года я уже закончу университет."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`After two years` значит «спустя два года после чего-то», а не «через два года от сейчас». Эту пару мы видели в Future Continuous: **in an hour** ✓, а не **after an hour** ✗. Есть и третий вариант — **within a week**: «в течение недели», то есть не позже чем через неделю."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одна точка — три картинки"
+        },
+        {
+          "type": "paragraph",
+          "text": "В Future Continuous мы обещали третью картинку — «к восьми я уже поужинаю». Вот все три на одной точке:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**At eight I'll have dinner.** — в восемь сяду ужинать",
+            "**At eight I'll be having dinner.** — в восемь уже буду за столом",
+            "**By eight I'll have had dinner.** — к восьми уже поем"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`at` — ровно эта минута: что в ней начнётся или будет идти. `by` — взгляд из этой минуты назад: ужин уже позади."
+        },
+        {
+          "type": "heading",
+          "text": "«До пятницы» — by или until"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «до» прячет два разных смысла, и английский их разводит:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Сдам отчёт до пятницы» — не позже пятницы, это срок: **I'll have handed in the report by Friday.**",
+            "«Буду в отпуске до пятницы» — всё время вплоть до пятницы, это отрезок: **I'll be on holiday until Friday.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка простая — подставьте «к». «Сдам отчёт к пятнице» звучит нормально — значит `by`. «Буду в отпуске к пятнице» — бессмыслица — значит `until`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**I'll have finished the report until Friday** ✗ → **I'll have finished the report by Friday** ✓ — `until` меряет длину, «всё время до», а у «закончить» длины нет: дело либо сделано к сроку, либо нет",
+                "**To Friday** ✗ → **by Friday** ✓ — русское «к» по-английски здесь только `by`"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Закончу только в пятницу, не раньше» — это `until` с отрицанием: **I won't finish the report until Friday.** Перфекта здесь нет, потому что мысль не «к пятнице уже позади», а «до пятницы не закончу»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "By when? — к какому сроку?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Спросить о сроке помогает то же `by`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By when will you have finished the design?** — к какому сроку ты закончишь дизайн?",
+            "**By when do you need it?** — к какому числу тебе это нужно?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`Until when…?` тоже бывает, но спрашивает о другом — «до каких пор»: **Until when will you be in Rome?** — до какого числа ты будешь в Риме?"
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`by` — «не позже, к»: к этой точке дело уже позади. «Через» от сейчас — `in`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "By + срок · will have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одна точка — три картинки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**At eight I'll have dinner** — сяду",
+            "**At eight I'll be having dinner** — уже за столом",
+            "**By eight I'll have had dinner** — уже поем"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "by или until"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Срок, «к» подставляется: **by Friday**",
+            "Отрезок, «всё время до»: **I'll be on holiday until Friday**",
+            "«Только в пятницу»: **I won't finish until Friday**",
+            "Вопрос о сроке: **By when do you need it?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**finished until Friday** ✗ → **finished by Friday** ✓",
+            "**to Friday** ✗ → **by Friday** ✓",
+            "**after two years** ✗ → **in two years** ✓ — «через» от сейчас"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "К закату мы уже доберёмся до лагеря.",
+          "en": "By sunset we'll have reached the camp."
+        },
+        {
+          "ru": "К понедельнику начальник уже утвердит план.",
+          "en": "By Monday the manager will have approved the plan."
+        },
+        {
+          "ru": "Паспорт пока действителен, но к июлю он уже истечёт.",
+          "en": "My passport is still valid, but by July it'll have expired."
+        },
+        {
+          "ru": "Через два года я уже закончу университет.",
+          "en": "In two years I'll have finished university."
+        },
+        {
+          "ru": "К восьми я уже поужинаю.",
+          "en": "By eight I'll have had dinner."
+        },
+        {
+          "ru": "Я буду в отпуске до пятницы.",
+          "en": "I'll be on holiday until Friday."
+        },
+        {
+          "ru": "Я закончу отчёт только в пятницу.",
+          "en": "I won't finish the report until Friday."
+        },
+        {
+          "ru": "К какому числу тебе это нужно?",
+          "en": "By when do you need it?"
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, «до пятницы» — это by или until?",
+        "Чем By eight I'll have had dinner отличается от At eight I'll have dinner?",
+        "Как спросить, к какому сроку нужно что-то сделать?"
+      ]
+    },
+    {
+      "id": 756,
+      "microtopicId": 283,
+      "title": "«Пока ты доедешь, я уже…»: by the time и when",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Срок бывает не только датой. Часто точкой служит другое событие: «когда ты приедешь», «пока ты доедешь», «к тому времени, как начнётся фильм». Во вводной мы уже видели пару **When you arrive, I'll leave** — сначала ты, потом я, и **When you arrive, I'll have left** — к твоему приезду меня уже нет. Теперь добавим к ней третью картинку и разберём слова, которые ставят такую точку."
+        },
+        {
+          "type": "heading",
+          "text": "Одна сцена — три картинки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When Oliver arrives, I'll leave.** — Оливер приедет, и я уйду следом",
+            "**When Oliver arrives, I'll be leaving.** — Оливер приедет, а я как раз в дверях",
+            "**When Oliver arrives, I'll have left.** — Оливер приедет, а меня уже нет"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это зеркало пары из Past Perfect: **When Vera came in, Nick left** ↔ **When Vera came in, Nick had left**. Там точка стояла в прошлом, здесь — в будущем, а работает всё так же."
+        },
+        {
+          "type": "heading",
+          "text": "Три слова — три характера"
+        },
+        {
+          "type": "paragraph",
+          "text": "В Past Perfect мы видели: одни союзы порядок называют сами, другие молчат. В будущем то же самое:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "`before` и `after` порядок называют сами, поэтому перфект не обязателен: **I'll leave before Oliver arrives.** — я уйду до его приезда, слово `before` уже всё сказало.",
+            "`when` — молчун: порядок решает только форма глагола, отсюда три картинки выше.",
+            "`by the time` — «к тому моменту, как». Оно само смотрит назад из точки, поэтому почти всегда тянет за собой `will have`."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "By the time + настоящее · will have + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By the time the film starts, we'll have bought the popcorn.** — к началу фильма мы уже купим попкорн",
+            "**By the time you get back, I'll have tidied the flat.** — к твоему возвращению я уже уберу квартиру"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В части с `by the time` будущего нет, там настоящее — так же, как после `when`, `before` и `until`. Это мы разбирали в Future Simple: **by the time you will get back** ✗ → **by the time you get back** ✓. Будущее уже сказано во второй половине фразы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русское «пока» — двуликое"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Пока» по-русски бывает про два разных смысла:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Пока ты будешь спать, я соберу вещи» — всё время, пока идёт твой сон: **While you're sleeping, I'll pack.**",
+            "«Пока ты доедешь, я уже всё приготовлю» — к моменту, когда доедешь: **By the time you get here, I'll have cooked everything.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка: замените «пока» на «к тому времени, как». Смысл не изменился — значит `by the time`. Изменился — значит `while`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**While you get here, I'll cook everything** ✗ → **By the time you get here, I'll have cooked everything** ✓. `while` рассказывает о том, что идёт параллельно, а «доехать» — это точка, у неё нет «всё время, пока»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда по-русски «уже» нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский часто опускает «уже» и оставляет порядок на контекст. Английскому так нельзя — форму выбирать придётся:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Когда начнётся концерт, мы займём места» — займём до начала, чтобы успеть: **When the concert starts, we'll have taken our seats.**",
+            "«Когда начнётся концерт, мы выключим телефоны» — выключим, как только начнётся: **When the concert starts, we'll turn off our phones.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Спросите себя: можно ли вставить «уже» и смысл не поменяется? Можно — нужен `will have`."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В записках и письмах эта форма звучит особенно естественно: **By the time you read this, I'll have gone.** — когда ты это прочитаешь, меня уже не будет. В разговоре то же часто говорят проще: **I'll be gone** — «меня уже не будет», `gone` здесь описывает состояние, как «ушедший»."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Точкой может быть событие. `when` порядок не называет — решает форма; `by the time` смотрит назад и тянет `will have`; `before` и `after` порядок называют сами."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "By the time + настоящее · will have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Одна сцена — три картинки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When Oliver arrives, I'll leave** — следом за ним",
+            "**When Oliver arrives, I'll be leaving** — как раз в дверях",
+            "**When Oliver arrives, I'll have left** — меня уже нет"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Русское «пока»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«Всё время, пока» → **while**: **While you're sleeping, I'll pack**",
+            "«К моменту, когда» → **by the time**: **By the time you get here, I'll have cooked everything**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**by the time you will get back** ✗ → **by the time you get back** ✓",
+            "**While you get here, I'll cook everything** ✗ → **By the time you get here, I'll have cooked everything** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Когда Оливер приедет, я как раз буду уходить.",
+          "en": "When Oliver arrives, I'll be leaving."
+        },
+        {
+          "ru": "Я уйду до того, как Оливер приедет.",
+          "en": "I'll leave before Oliver arrives."
+        },
+        {
+          "ru": "К твоему возвращению я уже уберу квартиру.",
+          "en": "By the time you get back, I'll have tidied the flat."
+        },
+        {
+          "ru": "Пока ты доедешь, я уже всё приготовлю.",
+          "en": "By the time you get here, I'll have cooked everything."
+        },
+        {
+          "ru": "Пока ты будешь спать, я соберу вещи.",
+          "en": "While you're sleeping, I'll pack."
+        },
+        {
+          "ru": "Когда начнётся концерт, мы уже займём места.",
+          "en": "When the concert starts, we'll have taken our seats."
+        },
+        {
+          "ru": "Когда ты это прочитаешь, меня уже не будет.",
+          "en": "By the time you read this, I'll have gone."
+        }
+      ],
+      "clarificationOptions": [
+        "Чем by the time отличается от when?",
+        "Как понять, какое у меня «пока» — while или by the time?",
+        "Зачем здесь will have, если по-русски я не говорю «уже»?"
+      ]
+    },
+    {
+      "id": 757,
+      "microtopicId": 283,
+      "title": "«Когда закончу, позвоню»: перфект после союза",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "«Позвоню, когда закончу» — по-английски мы уже умеем: после союза будущего нет, поэтому **I'll call you when I finish** ✓. Но в живой речи вы постоянно будете слышать и другую версию: **I'll call you when I've finished.** Откуда здесь перфект, если речь о будущем?"
+        },
+        {
+          "type": "heading",
+          "text": "Will выпадает, have остаётся"
+        },
+        {
+          "type": "paragraph",
+          "text": "По смыслу в этой фразе сидит наше время: «позвоню, когда уже закончу», то есть `will have finished`. Но в части с союзом будущее не ставится, и `will` выпадает по тому же правилу, что в Future Simple. А `have` остаётся — и вместе с ним остаётся «уже позади». Получается форма, похожая на Present Perfect, хотя речь о будущем."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "When / after / as soon as / once / until + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll call you as soon as I've finished.** — позвоню, как только закончу",
+            "**Once you've paid, you'll get a receipt.** — как только оплатите, получите чек",
+            "**We can't start until the manager has approved the plan.** — начать не можем, пока начальник не утвердит план"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Слово `once` мы знаем как «однажды, один раз». Здесь у него второе значение — «как только, после того как»: **once you've paid** — «как только оплатите»."
+        },
+        {
+          "type": "heading",
+          "text": "Где разницы нет, а где она есть"
+        },
+        {
+          "type": "paragraph",
+          "text": "С `after` и `as soon as` порядок назван самим словом, поэтому обе версии звучат одинаково: **after I finish** = **after I've finished**. Так же было в Past Perfect: с `after` форма с `had` — усиление, а не обязанность."
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот с `when` перфект кое-что меняет:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When I read the book, I'll make notes.** — пока буду читать, по ходу буду делать заметки",
+            "**When I've read the book, I'll give it to you.** — сначала дочитаю, потом отдам"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Без перфекта `when` может значить «в то же время, по ходу». С перфектом — только «после того, как дело уже позади»."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**I'll call you when I will have finished** ✗ → **I'll call you when I've finished** ✓ — после союза `will` выпадает",
+                "**I'll call you when I will finish** ✗ → **I'll call you when I finish** ✓ — то же правило, без перфекта"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если `if` вводит вопрос «ли», а не условие, `will` остаётся на месте: **I don't know if I'll have finished by then.** — не знаю, успею ли к тому времени. Это мы видели в Future Simple: подставьте «ли» — и правило про настоящее не действует."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После `when`, `after`, `as soon as`, `once`, `until` — `have + V3` вместо `will have + V3`: будущее выпадает, «уже» остаётся."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "После союза времени `will` выпадает, а `have` остаётся вместе с «уже позади»."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "When / after / as soon as / once / until + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll call you as soon as I've finished**",
+            "**Once you've paid, you'll get a receipt** — `once` = «как только»"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где разница есть"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "После `after` и `as soon as` — одинаково: **after I finish** = **after I've finished**",
+            "**When I read the book, I'll make notes** — по ходу",
+            "**When I've read the book, I'll give it to you** — сначала дочитаю"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**when I will have finished** ✗ → **when I've finished** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Я позвоню тебе, как только закончу.",
+          "en": "I'll call you as soon as I've finished."
+        },
+        {
+          "ru": "Как только вы оплатите, вы получите чек.",
+          "en": "Once you've paid, you'll get a receipt."
+        },
+        {
+          "ru": "Мы не можем начать, пока начальник не утвердит план.",
+          "en": "We can't start until the manager has approved the plan."
+        },
+        {
+          "ru": "Когда я буду читать книгу, я буду делать заметки.",
+          "en": "When I read the book, I'll make notes."
+        },
+        {
+          "ru": "Когда я дочитаю книгу, я отдам её тебе.",
+          "en": "When I've read the book, I'll give it to you."
+        },
+        {
+          "ru": "Надеюсь, к понедельнику я уже найду квартиру.",
+          "en": "Hopefully, by Monday I'll have found a flat."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после when стоит have, если речь о будущем?",
+        "Есть ли разница между when I finish и when I've finished?",
+        "Что значит once в начале предложения?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -1352,6 +2017,60 @@
       "exerciseType": "CONSTRUCTION_MEANING",
       "exerciseId": 118,
       "orderInCard": 2
+    },
+    {
+      "cardId": 755,
+      "exerciseType": "TEXT_INPUT",
+      "exerciseId": 137,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 755,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 296,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 755,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 119,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 756,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 132,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 756,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 262,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 756,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 297,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 757,
+      "exerciseType": "FIND_THE_ODD",
+      "exerciseId": 139,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 757,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 133,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 757,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 244,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -1362,6 +2081,22 @@
       "userInstruction": "ИИ пришлёт английское утверждение. Перепишите его два раза: вопросом и отрицанием.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "NONE"
+    },
+    {
+      "id": "future_perfect_card755_ex1",
+      "cardId": 755,
+      "title": "К сроку",
+      "userInstruction": "ИИ даст русскую фразу о будущем со сроком. Скажите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_perfect_card756_ex1",
+      "cardId": 756,
+      "title": "Две точки в будущем",
+      "userInstruction": "ИИ даст русскую ситуацию про два события в будущем. Скажите её одним английским предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
     }
   ],
   "course_word_groups": [
@@ -1419,6 +2154,46 @@
       "translation": "последний, окончательный, финальный",
       "transcription": "[ˈfaɪnəl]",
       "microtopicId": 282,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 990,
+      "word": "sunset",
+      "translation": "закат",
+      "transcription": "[ˈsʌnset]",
+      "microtopicId": 283,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 991,
+      "word": "to expire",
+      "translation": "истекать (о сроке), заканчиваться (о действии документа)",
+      "transcription": "[tuː ɪkˈspaɪə]",
+      "microtopicId": 283,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 992,
+      "word": "valid",
+      "translation": "действительный, действующий (о документе, билете)",
+      "transcription": "[ˈvælɪd]",
+      "microtopicId": 283,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 993,
+      "word": "to approve",
+      "translation": "одобрять, утверждать",
+      "transcription": "[tuː əˈpruːv]",
+      "microtopicId": 283,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 994,
+      "word": "hopefully",
+      "translation": "надеюсь, будем надеяться",
+      "transcription": "[ˈhəʊpfəli]",
+      "microtopicId": 283,
       "categoryId": "tenses"
     }
   ],
@@ -1508,6 +2283,24 @@
         "updating"
       ],
       "explanation": "после will стоит голое have, а за ним третья форма: will have updated. has и had после will не встают, update — базовая форма, а после have нужна третья, updating — форма на -ing, она из Continuous."
+    },
+    {
+      "id": 244,
+      "situationRu": "RU: Как только мы соберём вещи, мы поедем в аэропорт.",
+      "correctSentence": "As soon as we've packed, we'll leave for the airport.",
+      "words": [
+        "As soon as",
+        "we've",
+        "packed",
+        "we'll",
+        "leave for the airport"
+      ],
+      "distractors": [
+        "will have",
+        "packing",
+        "had"
+      ],
+      "explanation": "после as soon as will не ставится, поэтому will have не нужно — остаётся we've packed: «как только уже соберём». packing — форма на -ing, она про процесс, а had — прошлое, а не будущее."
     }
   ],
   "multiple_choice_exercises": [
@@ -1615,9 +2408,125 @@
         }
       ],
       "explanation": "школу строят другие люди, поэтому нужен страдательный залог: will have been built. will have built значит, что школа сама что-то построит. will have be — после have нужна третья форма been."
+    },
+    {
+      "id": 296,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Мы переедем только в августе.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "We'll have moved until August.",
+          "isCorrect": false
+        },
+        {
+          "text": "We won't move until August.",
+          "isCorrect": true
+        },
+        {
+          "text": "We'll move by August.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«только в августе, не раньше» — это won't + глагол + until: до августа не переедем. We'll move by August — «переедем к августу», может, и раньше. until со сроком для «переехать» не встаёт: у этого действия нет длины."
+    },
+    {
+      "id": 132,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "By the time Megan gets to the airport, the plane will have landed.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Когда Меган доберётся до аэропорта, самолёт будет садиться.",
+          "isCorrect": false
+        },
+        {
+          "text": "Когда Меган доберётся до аэропорта, самолёт уже приземлится.",
+          "isCorrect": true
+        },
+        {
+          "text": "Меган доберётся до аэропорта, и после этого самолёт приземлится.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "by the time — «к тому моменту, как», а will have landed — посадка к этой минуте уже позади. «Будет садиться» — процесс в ту минуту, will be landing. «После этого приземлится» — событие позже её приезда, так сказали бы when she gets there, the plane will land."
+    },
+    {
+      "id": 297,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Пока вы доедете до дачи, дождь уже закончится.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "By the time you get to the country house, the rain will have stopped.",
+          "isCorrect": true
+        },
+        {
+          "text": "While you get to the country house, the rain will have stopped.",
+          "isCorrect": false
+        },
+        {
+          "text": "By the time you will get to the country house, the rain will have stopped.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«пока доедете» здесь значит «к тому моменту, как доедете» — это by the time, а while говорит о том, что идёт параллельно. После by the time — настоящее: you get, а не you will get."
+    },
+    {
+      "id": 133,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "When Yulia has read the contract, she'll call the lawyer.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Пока Юля будет читать договор, она позвонит юристу.",
+          "isCorrect": false
+        },
+        {
+          "text": "Юля позвонит юристу, а потом прочитает договор.",
+          "isCorrect": false
+        },
+        {
+          "text": "Когда Юля прочитает договор, она позвонит юристу.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "has read после when — чтение уже позади, и только потом звонок. «Пока будет читать» — по ходу чтения, так сказали бы when she reads. Во втором варианте порядок перевёрнут: сначала звонок, потом договор."
     }
   ],
-  "text_input_exercises": [],
+  "text_input_exercises": [
+    {
+      "id": 137,
+      "items": [
+        {
+          "sentence": "Hopefully the parcel will have arrived ___ Monday.",
+          "contextRu": "",
+          "answer": "by",
+          "alternatives": []
+        },
+        {
+          "sentence": "We'll stay at the hotel ___ Sunday.",
+          "contextRu": "",
+          "answer": "until",
+          "alternatives": []
+        },
+        {
+          "sentence": "I'll have paid the rent ___ the end of the week.",
+          "contextRu": "",
+          "answer": "by",
+          "alternatives": []
+        },
+        {
+          "sentence": "The museum is open ___ six.",
+          "contextRu": "",
+          "answer": "until",
+          "alternatives": []
+        }
+      ],
+      "explanation": "by — срок, «к», не позже: посылка придёт к понедельнику, аренда будет оплачена к концу недели. until — отрезок, «всё время до»: живём в отеле вплоть до воскресенья, музей открыт вплоть до шести.",
+      "taskDescription": "Впиши в пропуск by или until."
+    }
+  ],
   "dialog_restore_exercises": [
     {
       "id": 118,
@@ -1723,6 +2632,25 @@
         }
       ],
       "explanation": "took — вторая форма, а после have нужна третья: taken. has после will не ставится, а без have пропадает метка «уже к сроку»."
+    },
+    {
+      "id": 262,
+      "wrongSentence": "By the time you will come back, we'll have painted the fence.",
+      "options": [
+        {
+          "text": "By the time you will come back, we'll painted the fence.",
+          "isCorrect": false
+        },
+        {
+          "text": "By the time you came back, we'll have painted the fence.",
+          "isCorrect": false
+        },
+        {
+          "text": "By the time you come back, we'll have painted the fence.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "в части с by the time будущего нет — там настоящее: you come back. Будущее уже сказано во второй половине: we'll have painted. Прошедшее came сюда тоже не подходит, а без have пропадает «к моменту уже»."
     }
   ],
   "construction_meaning_exercises": [
@@ -1771,6 +2699,29 @@
         }
       ],
       "explanation": "после been стоит to и место — это «побывать»: съездить и вернуться, как been to в Present Perfect. «Отправят» — страдательный залог, для него после been нужна третья форма. «Поедет» — событие, will go. «Будет в Японии» — will be in Japan."
+    },
+    {
+      "id": 119,
+      "construction": "By ten the kids will have gone to bed.",
+      "options": [
+        {
+          "text": "К десяти дети уже лягут спать.",
+          "isCorrect": true
+        },
+        {
+          "text": "В десять дети пойдут спать.",
+          "isCorrect": false
+        },
+        {
+          "text": "До десяти дети будут в кровати.",
+          "isCorrect": false
+        },
+        {
+          "text": "В десять дети будут ложиться спать.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "by ten — «к десяти», а will have gone — к этой минуте дело уже позади: дети уже в кроватях. «Пойдут спать в десять» — это at ten they'll go to bed, «будут ложиться» — they'll be going to bed. «До десяти будут в кровати» — отрезок, его сказали бы через until."
     }
   ],
   "transformation_exercises": [
@@ -1795,5 +2746,29 @@
     }
   ],
   "categorization_exercises": [],
-  "find_the_odd_exercises": []
+  "find_the_odd_exercises": [
+    {
+      "id": 139,
+      "groupDescription": "В трёх предложениях часть с союзом собрана правильно, в одном — нет. Найди его",
+      "items": [
+        {
+          "text": "Denis will text you when he's landed.",
+          "isOdd": false
+        },
+        {
+          "text": "Once the kids have eaten, we'll go for a walk.",
+          "isOdd": false
+        },
+        {
+          "text": "We'll start after Yulia will have arrived.",
+          "isOdd": true
+        },
+        {
+          "text": "You can't take the car until you've passed the test.",
+          "isOdd": false
+        }
+      ],
+      "explanation": "в части с союзом will не ставится: будущее уже сказано в другой половине. Правильно — after Yulia has arrived или after Yulia arrives. В остальных трёх предложениях после when, once и until стоит have + третья форма, и это верно."
+    }
+  ]
 }
