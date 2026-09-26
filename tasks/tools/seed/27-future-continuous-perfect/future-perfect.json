@@ -46,6 +46,13 @@
       "title": "by next year · Итоги, годовщины и прогнозы",
       "order": 4,
       "searchKeywords": "план или итог, сколько сделаю к дате, будет десять лет как, how long will you have, been knowing, прогноз в новостях"
+    },
+    {
+      "id": 285,
+      "topicId": 42,
+      "title": "Which Future · Русское «уже» и «успеть»",
+      "order": 5,
+      "searchKeywords": "успеть по-английски, не успею, make it или have time, уже или already, как перевести will have"
     }
   ],
   "grammar_cards": [
@@ -2507,6 +2514,413 @@
         "Можно ли в разговоре сказать то же самое проще?",
         "Почему by иногда значит «к», а иногда «на»?"
       ]
+    },
+    {
+      "id": 761,
+      "microtopicId": 285,
+      "title": "«Успею», «уже», «к»: куда их девать",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Форму мы собрали, сроки и точки расставили. Осталось научиться слышать русские слова, которые подсказывают это время, — и не попасться на те, что уводят в сторону. Главное из них — «успеть»."
+        },
+        {
+          "type": "heading",
+          "text": "«Успеть» — одного слова нет"
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски «успеть» — одно слово на всё: успеть доделать, успеть доехать, успеть поесть, успеть к началу. В английском такого глагола нет, и под каждый смысл берётся своё:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Что значит «успеть»",
+            "По-английски",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "дело позади к сроку",
+              "will have + V3",
+              "I'll have finished by six"
+            ],
+            [
+              "добраться вовремя",
+              "make it",
+              "Will you make it by six?"
+            ],
+            [
+              "хватит времени",
+              "have time",
+              "Do I have time for a coffee?"
+            ],
+            [
+              "не опоздать к началу",
+              "in time",
+              "We'll get there in time"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll have finished the report by six.** — к шести успею доделать отчёт. Можно и проще: **I'll be done by six**.",
+            "**Will you make it to the station by six?** — успеешь на вокзал к шести? `make it` мы разбирали в «Make vs Do»: «успеть, добраться».",
+            "**Will I have time for a coffee before the meeting?** — успею выпить кофе до встречи? Здесь речь не о сроке, а о том, хватит ли времени.",
+            "**We'll get there in time for the film.** — успеем к началу фильма. Пару `in time` — «успеть, не опоздать» и `on time` — «по расписанию» мы знаем из «Основ»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка простая — спросите себя, что именно «успеваем»: закончить дело, добраться, уложиться по времени или не опоздать к началу. От ответа зависит английское слово."
+        },
+        {
+          "type": "heading",
+          "text": "«Не успею»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицание идёт теми же путями:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I won't have finished by six.** — к шести не закончу",
+            "**I won't make it by six.** — к шести не доберусь",
+            "**I won't have time to eat.** — не успею поесть"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "О прошлом «успел, всё-таки успел» говорят через **managed to** — из «Модальных глаголов», где мы разбирали разовое «получилось»: **I managed to catch the last bus.** — успел на последний автобус. А радостное «успели!» — **We made it!**"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Уже» — не всегда already"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русское «уже» во фразе «когда ты приедешь, я уже уйду» — не просто наречие, а сигнал «к этому моменту дело позади». Рука переводит его словом `already` — и получается фраза, которую носитель не скажет: `already` рядом с простым `will` не переносит уход раньше точки."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**When you arrive, I'll already leave** ✗ → **When you arrive, I'll have left** ✓. «Уже позади» по-английски несёт форма `have + V3`. Слово `already` можно добавить поверх — **I'll have already left**, — но без формы оно не работает."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "label": "Важно",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если «уже» стоит перед состоянием, а не перед сделанным делом, это другое время. «Когда ты позвонишь, я уже буду дома» → **When you call, I'll already be home.** «В полночь я уже буду спать» → **I'll be asleep** — это мы видели в Future Continuous. Правило: «уже» + сделанное дело → `will have + V3`; «уже» + где я или в каком состоянии → `will be`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Остальные сигналы — коротко"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«к пятнице» → **by Friday**, не `to` — микротема «К сроку»",
+            "«до пятницы» — срок → **by**, отрезок → **until**",
+            "«закончу к пятнице» → часто хватает **I'll finish by Friday** — вводная микротема",
+            "«в июне будет десять лет, как…» → **In June it'll be ten years since…** — микротема «Итоги, годовщины и прогнозы»",
+            "«ты наверняка уже слышал» → **You'll have heard** — это догадка, её разберём в следующей микротеме"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "«Успеть» переводим по смыслу — `will have + V3`, `make it`, `have time` или `in time`. «Уже» перед сделанным делом — это форма `will have`, а не слово `already`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "«Успеть» переводим по смыслу, а «уже» перед сделанным делом — формой `will have + V3`."
+        },
+        {
+          "type": "heading",
+          "text": "«Успеть»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Дело позади к сроку → **I'll have finished by six** · **I'll be done by six**",
+            "Добраться вовремя → **Will you make it by six?**",
+            "Хватит времени → **Do I have time for a coffee?**",
+            "Не опоздать к началу → **We'll get there in time**",
+            "«Не успею» → **I won't have finished** · **I won't make it** · **I won't have time**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Уже»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Перед сделанным делом → **I'll have left**",
+            "Перед местом или состоянием → **I'll already be home** · **I'll be asleep**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll already leave** ✗ → **I'll have left** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "К шести я успею доделать отчёт.",
+          "en": "I'll have finished the report by six."
+        },
+        {
+          "ru": "Ты успеешь на вокзал к шести?",
+          "en": "Will you make it to the station by six?"
+        },
+        {
+          "ru": "Я успею выпить кофе до встречи?",
+          "en": "Will I have time for a coffee before the meeting?"
+        },
+        {
+          "ru": "Мы успеем к началу фильма.",
+          "en": "We'll get there in time for the film."
+        },
+        {
+          "ru": "Я не успею поесть.",
+          "en": "I won't have time to eat."
+        },
+        {
+          "ru": "Когда Витя позвонит, я уже подпишу договор.",
+          "en": "When Vitya calls, I'll have signed the contract."
+        },
+        {
+          "ru": "Когда ты позвонишь, я уже буду дома.",
+          "en": "When you call, I'll already be home."
+        },
+        {
+          "ru": "К пятнице я уже подам анкету.",
+          "en": "I'll have submitted the form by Friday."
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, какое английское слово взять вместо «успеть»?",
+        "Почему нельзя сказать I'll already leave?",
+        "Чем in time отличается от on time?"
+      ]
+    },
+    {
+      "id": 762,
+      "microtopicId": 285,
+      "title": "Обратная сторона: как Future Perfect звучит по-русски",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Весь раздел мы переводили с русского на английский. Теперь наоборот: встретили фразу с `will have` — как сказать её по-русски, чтобы звучало живо."
+        },
+        {
+          "type": "heading",
+          "text": "Не «буду иметь сделанным»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Дословный перевод — «у меня будет сделано», «буду иметь сделанным» — хорош, чтобы увидеть устройство, но так по-русски не говорят. Живые варианты зависят от ситуации:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Английская фраза",
+            "По-русски"
+          ],
+          "rows": [
+            [
+              "By six I'll have finished",
+              "к шести закончу, успею закончить"
+            ],
+            [
+              "When Kate arrives, I'll have left",
+              "когда Кейт приедет, меня уже не будет"
+            ],
+            [
+              "By then we'll have registered",
+              "к тому времени мы уже запишемся"
+            ],
+            [
+              "By May I'll have known Sam for ten years",
+              "в мае будет десять лет, как я знаю Сэма"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Одна английская форма — несколько русских способов: «успею», «уже», «к тому времени», «меня не будет», «будет N лет, как». Выбирать надо тот, что звучит естественно в этой ситуации, а не тот, что ближе к словам."
+        },
+        {
+          "type": "heading",
+          "text": "Где «уже» надо вернуть"
+        },
+        {
+          "type": "paragraph",
+          "text": "Русский часто обходится без «уже», если порядок понятен по смыслу. Но при переводе с английского его иногда нужно вернуть — иначе порядок перевернётся:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**When Ben calls, we'll have eaten.** — когда Бен позвонит, мы **уже** поедим"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Перевести **When Ben calls, we'll have eaten** как «когда Бен позвонит, мы поедим». По-русски это звучит так, будто есть сядем после звонка, а в английском ужин к звонку уже позади. «Уже» здесь несёт весь смысл формы — терять его нельзя."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Где «уже» можно не писать"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если срок назван словом «к», порядок и так ясен, и «уже» становится необязательным:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By May I'll have read ten books.** — к маю прочитаю десять книг",
+            "**By six I'll have finished.** — к шести закончу"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "«Уже» здесь не ошибка, просто без него фраза звучит так же ясно."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Есть у этой формы и перевод «наверняка уже»: **You'll have heard the news.** — ты наверняка уже слышал новость. Это догадка, будущего в ней нет, — разберём в следующей микротеме."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "`Will have` по-русски — «успею», «уже», «к тому времени», «меня не будет». Если во фразе есть `when` без срока, «уже» в переводе обязательно."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "`will have` по-русски — не «буду иметь сделанным», а «успею», «уже», «к тому времени», «меня уже не будет»."
+        },
+        {
+          "type": "heading",
+          "text": "Когда «уже» нужно"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "При `when` без срока: **When Ben calls, we'll have eaten** — мы уже поедим"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Когда «уже» можно опустить"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Срок назван через «к»: **By May I'll have read ten books** — к маю прочитаю десять книг"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "К шести я успею закончить.",
+          "en": "By six I'll have finished."
+        },
+        {
+          "ru": "Когда Кейт приедет, меня уже не будет.",
+          "en": "When Kate arrives, I'll have left."
+        },
+        {
+          "ru": "К тому времени мы уже запишемся на курс.",
+          "en": "By then we'll have registered for the course."
+        },
+        {
+          "ru": "Когда Бен позвонит, мы уже поедим.",
+          "en": "When Ben calls, we'll have eaten."
+        },
+        {
+          "ru": "К маю я прочитаю десять книг.",
+          "en": "By May I'll have read ten books."
+        },
+        {
+          "ru": "Это срочно: ты успеешь подписать бумаги к полудню?",
+          "en": "It's urgent: will you have signed the papers by noon?"
+        }
+      ],
+      "clarificationOptions": [
+        "Как перевести will have на живой русский?",
+        "Когда в переводе обязательно нужно «уже»?",
+        "Почему «будет N лет, как» — тоже перевод этой формы?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2707,6 +3121,42 @@
       "exerciseType": "MULTIPLE_CHOICE",
       "exerciseId": 264,
       "orderInCard": 2
+    },
+    {
+      "cardId": 761,
+      "exerciseType": "MATCHING",
+      "exerciseId": 138,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 761,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 300,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 761,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 265,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 762,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 135,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 762,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 121,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 762,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 246,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2755,6 +3205,14 @@
       "cardId": 760,
       "title": "Скажи как в новостях",
       "userInstruction": "ИИ даст русский прогноз к какой-то дате. Скажите его по-английски, как в новостях.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_perfect_card761_ex1",
+      "cardId": 761,
+      "title": "Успею и уже",
+      "userInstruction": "ИИ даст русскую фразу со словом «успеть» или «уже». Скажите её по-английски.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -2894,6 +3352,46 @@
       "translation": "ежегодный, годовой",
       "transcription": "[ˈænjuəl]",
       "microtopicId": 284,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 1000,
+      "word": "to submit",
+      "translation": "подавать (документы, заявку), сдавать (работу)",
+      "transcription": "[tuː səbˈmɪt]",
+      "microtopicId": 285,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 1001,
+      "word": "to register",
+      "translation": "регистрироваться, записываться",
+      "transcription": "[tuː ˈredʒɪstə]",
+      "microtopicId": 285,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 1002,
+      "word": "to sign",
+      "translation": "подписывать",
+      "transcription": "[tuː saɪn]",
+      "microtopicId": 285,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 1003,
+      "word": "form",
+      "translation": "анкета, бланк",
+      "transcription": "[fɔːm]",
+      "microtopicId": 285,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 1004,
+      "word": "urgent",
+      "translation": "срочный",
+      "transcription": "[ˈɜːdʒənt]",
+      "microtopicId": 285,
       "categoryId": "tenses"
     }
   ],
@@ -3053,6 +3551,26 @@
         "lives"
       ],
       "explanation": "длительность к дате — will have + третья форма + for + срок: will have lived for two years. since называет момент старта, а не срок, has после will не ставится, а living и lives — не третья форма."
+    },
+    {
+      "id": 246,
+      "situationRu": "RU: Когда Ира вернётся из отпуска, мы уже переедем.",
+      "correctSentence": "When Ira gets back from holiday, we'll have moved.",
+      "words": [
+        "When Ira",
+        "gets back",
+        "from holiday",
+        "we'll",
+        "have",
+        "moved"
+      ],
+      "distractors": [
+        "will get back",
+        "moves",
+        "had",
+        "move"
+      ],
+      "explanation": "«уже переедем» к возвращению Иры — это we'll have moved. После when будущего нет, поэтому gets back, а не will get back. had — прошлое, а после have нужна третья форма moved, не move и не moves."
     }
   ],
   "multiple_choice_exercises": [
@@ -3328,6 +3846,69 @@
         }
       ],
       "explanation": "деревья сами ничего не сажают — их сажают, поэтому нужен страдательный залог: will have been planted. will have planted значит, что деревья кого-то посадят, а will been — потеряно have."
+    },
+    {
+      "id": 300,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Когда начнётся урок, Лена уже сдаст работу.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "When the lesson starts, Lena will already hand in her work.",
+          "isCorrect": false
+        },
+        {
+          "text": "When the lesson starts, Lena will have handed in her work.",
+          "isCorrect": true
+        },
+        {
+          "text": "When the lesson starts, Lena already hands in her work.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "«уже сдаст» — к началу урока дело позади, это форма will have handed in. Слово already рядом с простым will или с настоящим временем этот смысл не передаёт — «уже» по-английски несёт сама форма."
+    },
+    {
+      "id": 265,
+      "choiceType": "CHOICE",
+      "prompt": "Hurry up, or we won't ___ to the station by eight.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "have time",
+          "isCorrect": false
+        },
+        {
+          "text": "be in time",
+          "isCorrect": false
+        },
+        {
+          "text": "make it",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "«не успеем на вокзал» — не доберёмся вовремя, а это make it: we won't make it to the station. have time — «хватит ли времени на что-то», а in time требует for: in time for the train."
+    },
+    {
+      "id": 135,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "By the time the guests come, Olya will have baked the cake.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "Когда придут гости, Оля будет печь торт.",
+          "isCorrect": false
+        },
+        {
+          "text": "Когда придут гости, Оля испечёт торт.",
+          "isCorrect": false
+        },
+        {
+          "text": "К приходу гостей Оля уже испечёт торт.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "by the time и will have baked — к приходу гостей торт уже готов. «Когда придут гости, Оля испечёт торт» без «уже» звучит так, будто печь она начнёт при них. «Будет печь» — процесс в ту минуту."
     }
   ],
   "text_input_exercises": [
@@ -3447,6 +4028,33 @@
         }
       ],
       "explanation": "смотрим на слово после have. to — придётся. Вещь — возьму. Третья форма called — наше время, «уже позвоню». been + третья форма repaired — «уже отремонтируют». been + признак friends — «будем друзьями»."
+    },
+    {
+      "id": 138,
+      "taskDescription": "соедини русскую фразу с английской",
+      "pairs": [
+        {
+          "left": "успеем поужинать?",
+          "right": "Will we have time for dinner?"
+        },
+        {
+          "left": "успеешь в аэропорт к девяти?",
+          "right": "Will you make it to the airport by nine?"
+        },
+        {
+          "left": "к девяти успею собрать вещи",
+          "right": "I'll have packed by nine"
+        },
+        {
+          "left": "успеем к началу концерта",
+          "right": "We'll be in time for the concert"
+        },
+        {
+          "left": "еле успел на автобус",
+          "right": "I managed to catch the bus"
+        }
+      ],
+      "explanation": "«успеть» переводим по смыслу. Хватит ли времени — have time. Добраться вовремя — make it. Дело позади к сроку — will have + третья форма. Не опоздать к началу — in time. «Еле успел» в прошлом — managed to."
     }
   ],
   "error_correction_exercises": [
@@ -3600,6 +4208,29 @@
         }
       ],
       "explanation": "by Sunday — «к воскресенью», will have fixed — к этой черте дело уже позади, а only — «только»: итог меньше, чем хотелось бы. «Будет чинить» — процесс, «в воскресенье починит» — событие в сам день, «чинил» — прошедшее."
+    },
+    {
+      "id": 121,
+      "construction": "By Friday Oleg will have submitted all the forms.",
+      "options": [
+        {
+          "text": "К пятнице Олег уже подаст все анкеты.",
+          "isCorrect": true
+        },
+        {
+          "text": "В пятницу Олег будет подавать все анкеты.",
+          "isCorrect": false
+        },
+        {
+          "text": "К пятнице Олега попросят подать все анкеты.",
+          "isCorrect": false
+        },
+        {
+          "text": "До пятницы Олег подавал все анкеты.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "by Friday — «к пятнице», will have submitted — к этой черте анкеты уже поданы. «Будет подавать» — процесс в сам день, «попросят подать» — другой смысл, а «подавал» — прошедшее."
     }
   ],
   "transformation_exercises": [
