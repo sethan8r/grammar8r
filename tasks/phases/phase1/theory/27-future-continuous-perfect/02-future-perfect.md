@@ -2295,26 +2295,325 @@ RU: Когда Ира вернётся из отпуска, мы уже пере
 
 ---
 
+## Microtopic 287 — would have done · Пересказ Future Perfect
+
+**ID:** 287
+**Теги:** will have в косвенной речи, he said he'd have, 'd have или 'd, i thought you'd have, пересказ или третий тип
+
+---
+
+### Card 765 · Пересказ: will have → would have
+
+**ID:** 765
+
+#### Theory
+
+В «Косвенной речи» мы обещали: пересказ этого времени разберём в его собственной теме, и работать он будет тем же ходом, что пересказ Future Continuous, — `will` спускается в `would`, а хвост остаётся на месте. Проверяем.
+
+**Спускается только первое слово**
+
+- **I'll have finished the budget by Friday.** → **Pasha said he'd have finished the budget by Friday.** — Паша сказал, что закончит бюджет к пятнице
+
+Будущее увидено из прошлого: `will` стало `would`, а хвост `have finished` мы не тронули.
+
+**Формула:** said + кто + would have + V3
+
+- **Prices will have doubled by 2030.** → **Our analyst predicted that prices would have doubled by 2030.** — наш аналитик предсказал, что к 2030 году цены вырастут вдвое
+
+**Отрицание**
+
+- **I won't have finished by then.** → **Megan said she wouldn't have finished by then.** — Меган сказала, что к тому времени не закончит
+
+**Вопросы**
+
+Как в микротеме «Пересказать вопрос»: порядок прямой, подлежащее встаёт перед `would`, а если вопросительного слова нет, появляется `if`:
+
+- **Will you have finished by six?** → **Liza asked if I'd have finished by six.** — Лиза спросила, закончу ли я к шести
+- **When will you have finished?** → **Ben asked when I'd have finished.** — Бен спросил, когда я закончу
+
+**Ловушка:** **Ben asked when would I have finished** ✗ → **Ben asked when I would have finished** ✓. В пересказе это уже не вопрос, а рассказ о вопросе, и порядок слов прямой.
+
+**Слова времени**
+
+Меняются по календарю, как в микротеме «Лица, место и время». Если момент сменился, **by tomorrow** становится **by the next day**, а **by now** — **by then**: **He said he'd have finished by the next day.** Если срок ещё впереди, слова остаются как были.
+
+**Как читать 'd**
+
+В Future Continuous мы различали **'d be** и **'d been**. Здесь пара та же по смыслу — смотрим на слово сразу после `'d`:
+
+- **She said she'd have finished.** — после `'d` стоит `have`, значит это `would`: «закончит»
+- **She'd finished before we came.** — после `'d` сразу третья форма, значит это `had`: «уже закончила»
+
+`had have` не бывает вовсе. Увидели после `'d` слово `have` — это всегда `would`.
+
+**Когда сдвига нет**
+
+Сдвиг никогда не ошибка. Но если срок ещё впереди и всё в силе, `will` можно оставить: **Pasha said he'll have finished by Friday.** — Паша сказал, что к пятнице закончит, и пятница ещё не наступила. Оставленное время звучит как «и это правда», сдвинутое — нейтрально: «так он сказал».
+
+**Кстати:** если в исходной фразе вместо `will` стоит `might` или `should`, в пересказе он так и остаётся — дальше сдвигать некуда: **I might have finished by six** → **She said she might have finished by six.**
+
+**Пересказ или третий тип**
+
+`would have` + третья форма мы уже встречали — в «Условных предложениях», в третьем типе. Форма одна, а смыслы разные:
+
+- **He said he'd have finished by Friday.** — пересказ плана: сказал, что успеет к пятнице
+- **He'd have finished by Friday if you'd helped him.** — третий тип: закончил бы, если бы ты помог, но ты не помог
+
+Различает окружение. Рядом `said`, `asked`, `thought` — это пересказ. Рядом `if` с `had` и третьей формой — это несбывшееся прошлое.
+
+**Запомни главное:** пересказ этого времени — `would have + V3`: `will` спускается, хвост остаётся. После `'d` стоит `have` — значит `would`.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Пересказ этого времени: `will` спускается в `would`, хвост `have + V3` остаётся на месте.
+
+**Формула:** said + кто + would have + V3
+
+**Формы**
+
+- **Pasha said he'd have finished the budget by Friday**
+- Отрицание: **Megan said she wouldn't have finished by then**
+- Вопрос, порядок прямой: **Liza asked if I'd have finished by six** · **Ben asked when I'd have finished**
+- Время: **by tomorrow** → **by the next day**, **by now** → **by then**
+
+**Как читать 'd**
+
+- **'d have** + третья форма → would: «закончит»
+- **'d** + третья форма → had: «уже закончила»
+
+**Частые ошибки**
+
+- **asked when would I have finished** ✗ → **asked when I would have finished** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3563 | Паша сказал, что закончит бюджет к пятнице. | Pasha said he'd have finished the budget by Friday. |
+| 3564 | Наш аналитик предсказал, что к 2030 году цены вырастут вдвое. | Our analyst predicted that prices would have doubled by 2030. |
+| 3565 | Меган сказала, что к тому времени не закончит. | Megan said she wouldn't have finished by then. |
+| 3566 | Лиза спросила, закончу ли я к шести. | Liza asked if I'd have finished by six. |
+| 3567 | Бен спросил, когда я закончу. | Ben asked when I'd have finished. |
+| 3568 | Она сказала, что, может быть, закончит к шести. | She said she might have finished by six. |
+| 3569 | Он бы закончил к пятнице, если бы ты ему помог. | He'd have finished by Friday if you'd helped him. |
+
+---
+
+#### Exercises
+
+**Ex 46 · Transformation** *(ID: 125)*
+
+Задание: перескажи каждую фразу, начав с Tom said.
+
+1. "I'll have paid by Monday." → **"Tom said he'd have paid by Monday."**
+2. "I won't have left by six." → **"Tom said he wouldn't have left by six."**
+3. "We'll have moved by May." → **"Tom said they'd have moved by May."**
+
+*Explanation:* will спускается в would, won't — в wouldn't, а have с третьей формой остаются на месте. Лицо меняется, как в русском: I становится he, we — they.
+
+---
+
+**Ex 47 · ConstructionMeaning** *(ID: 123)*
+
+Выбери правильный перевод:
+
+"Ksyusha said she'd have sent the budget by Friday."
+
+- Ксюша сказала, что уже отправила бюджет к пятнице.
+- **Ксюша сказала, что отправит бюджет к пятнице.** ✓
+- Ксюша сказала, что отправила бы бюджет, если бы могла.
+- Ксюша сказала, что отправляет бюджет в пятницу.
+
+*Explanation:* после 'd стоит have — значит это would: пересказ будущего, «отправит к пятнице». «Уже отправила» было бы she'd sent, без have. «Отправила бы, если бы могла» — условие, а его здесь нет, рядом стоит said. «Отправляет в пятницу» — настоящее время.
+
+---
+
+**Ex 48 · TrueFalse** *(ID: 270)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | Oliver said he'd have finished the report by Monday. | ✓ |
+| 2 | She asked when would I have finished. | ✗ |
+| 3 | He said he would had left by then. | ✗ |
+| 4 | They said they wouldn't have moved by May. | ✓ |
+| 5 | Megan asked if I'd have got the tickets by Friday. | ✓ |
+
+*Explanation:* 2: в пересказе вопроса порядок прямой — she asked when I would have finished. 3: после would стоит голое have, а не had: he would have left.
+
+---
+
+#### AI Exercise
+
+**ID:** future_perfect_card765_ex1
+**Title:** "Перескажи сроки"
+**Input Mode:** FREE_WRITE
+**Words Source:** NONE
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ пришлёт реплику человека. Перескажите её одним предложением через said или asked."
+**Prompt Template:** "Контекст: пользователь только что прошёл карточку о пересказе Future Perfect. Он знает: пересказ идёт тем же ходом, что любой пересказ будущего — will спускается в would, а хвост have + третья форма остаётся нетронутым (I'll have finished the budget by Friday → Pasha said he'd have finished the budget by Friday); отрицание won't have → wouldn't have (Megan said she wouldn't have finished by then); в пересказе вопроса порядок прямой, а без вопросительного слова появляется if (Will you have finished by six? → Liza asked if I'd have finished by six; When will you have finished? → Ben asked when I'd have finished); слова времени меняются, только если момент сменился (by tomorrow → by the next day, by now → by then), а если срок ещё впереди, остаются; 'd have + третья форма — это would, 'd + третья форма без have — это had, had have не бывает; сдвиг никогда не ошибка, но если срок впереди и в силе, will можно оставить (Pasha said he'll have finished by Friday); might и should в пересказе остаются (She said she might have finished by six); would have + третья форма бывает и третьим типом условных (He'd have finished if you'd helped) — различает окружение; лицо меняется как в русском (I → he или she, we → they). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to, Future Continuous с его пересказом, условные предложения всех типов, модальные глаголы, герундий, страдательный залог, косвенные вопросы, придаточные с who, which, that, косвенная речь, а в этой теме — Future Perfect со сроками, событиями, итогами, прогнозами и догадками. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect Continuous — не используй. ЗАДАНИЕ: дай пользователю ОДНУ короткую реплику человека с английским именем в Future Perfect и попроси пересказать её одним предложением через said или asked. Реплику пиши как прямую речь после имени и двоеточия (Lucy: I'll have finished by six.). В условии не подсказывай, как строить пересказ. ДЕРЖИ ПРОСТЫМ: реплика 4-9 слов, одно действие, обязательно срок (by six, by Friday, by then, by the end of the month), бытовая лексика уровня A2, без придаточных; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. утверждение (Jack: I'll have paid the bills by Monday.) 2. отрицание (Emma: I won't have finished the essay by Friday.) 3. общий вопрос к пользователю (Tom: Will you have packed by eight?) 4. вопрос с вопросительным словом (Kate: When will you have finished the report?) 5. реплика со словами by tomorrow и пометка, что пересказываем через неделю (Ben: I'll have fixed the car by tomorrow. Перескажите через неделю.) 6. реплика про группу людей (Lily: We'll have moved by May.) 7. реплика с might (Sam: I might have finished by six.) Образцы дословно не повторяй. ОЦЕНКА: верен пересказ, где will стало would, а have и третья форма остались; 'd и полная форма равноценны, that после said можно опустить. Оставленный will засчитай и одной строкой скажи, что после said безопаснее would. Если написал would had или 'd had — скажи, что после would стоит голое have. Если потерял have (he'd finished by Monday) — скажи, что так выйдет had finished, «уже закончил тогда», а человек говорил о будущем сроке. Если поставил вторую форму вместо третьей (would have went) — дай третью. Если в пересказе вопроса оставил вопросительный порядок (asked when would I have finished, asked would I have packed) — объясни, что в пересказе вопроса порядок прямой, а без вопросительного слова нужен if. Если в пункте 5 оставил tomorrow — скажи, что через неделю «завтра» того человека уже прошло, нужно by the next day. Если в пункте 7 сдвинул might куда-то дальше или заменил на would — скажи, что might в пересказе остаётся как есть. Если не поменял лицо (Jack said I would have paid) — напомни, что I говорившего в пересказе становится he или she. При ошибке сначала скажи, что значила бы фраза пользователя, если она осмысленна, потом дай верный вариант. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Перескажите через said: Mia: I'll have sent the photos by Sunday.'
+
+#### Clarification Options
+
+- Почему в пересказе хвост have finished не меняется?
+- Как отличить 'd have от 'd в she'd finished?
+- Чем пересказ с would have отличается от третьего типа условных?
+
+---
+
+### Card 766 · Мысли и условные
+
+**ID:** 766
+
+#### Theory
+
+`would have` + третья форма живёт не только в пересказе чужих слов. Тем же ходом сдвигаются мысли, и само наше время встречается в условных предложениях.
+
+**Мысли тоже сдвигаются**
+
+В микротеме «Мысли тоже сдвигаются — и когда сдвига нет» мы видели: `think`, `know`, `hope` в прошлом тянут за собой сдвиг так же, как `said`.
+
+- **I knew he'd have left by then.** — я знал, что к тому времени он уже уйдёт
+- **I thought you'd have finished by now.** — я думал, ты уже закончил
+
+Вторая фраза — самая живая в микротеме. Я ждал, что к этой минуте дело будет позади, а оно не позади: это удивление, иногда лёгкий упрёк — «как, ты ещё не закончил?». По-русски время в ней прошедшее или настоящее, а по-английски — шаг назад от `will have`.
+
+**Догадка, увиденная из прошлого**
+
+Так же сдвигается уверенная догадка из микротемы «Догадки»: **You'll have heard** — «наверняка уже слышал».
+
+- **I was sure you'd have heard.** — я был уверен, что ты уже слышал
+- **I was confident we'd have saved enough by then.** — я был уверен, что к тому времени мы накопим достаточно
+- **I calculated that by June our savings would have run out.** — я подсчитал, что к июню наши сбережения закончатся
+
+**Реальное условие**
+
+В первом типе условных справа стоит будущее — и оно может быть нашим временем. Слева, после `if`, как всегда настоящее:
+
+- **If we leave now, we'll have arrived by dark.** — если выйдем сейчас, к темноте уже доберёмся
+- **If you don't hurry, the shop will have closed by the time we get there.** — если не поторопишься, к нашему приходу магазин уже закроется
+
+**Ловушка:** **If we will leave now, we'll have arrived by dark** ✗ → **If we leave now, we'll have arrived by dark** ✓. После `if` будущее не ставят — оно уже сказано во второй половине, как мы разбирали в «Условных предложениях».
+
+**Не путай:** **If we'd left earlier, we would have arrived by now** — это не наше время, а несбывшееся прошлое: «если бы мы вышли раньше, уже были бы на месте». Слева `had` и третья форма, справа `would have` — третий тип из «Условных предложений».
+
+**Кстати:** в романах и биографиях встречается и книжное **By 1990 he would have lost everything.** — к 1990 году он потеряет всё. Это будущее, увиденное из прошлого: рассказчик стоит в прошлом и забегает вперёд. Строить такое самим не нужно, достаточно узнавать.
+
+**Запомни главное:** мысли и догадки в прошлом сдвигаются так же, как пересказ: `would have + V3`. В первом типе условных после `if` — настоящее, а справа может стоять `will have + V3`.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Мысли и догадки в прошлом сдвигаются так же, как пересказ: `would have + V3`.
+
+**Мысли и догадки**
+
+- **I knew he'd have left by then** — знал, что уйдёт
+- **I thought you'd have finished by now** — думал, ты уже закончил
+- **I was sure you'd have heard** — был уверен, что ты уже слышал
+
+**Условные**
+
+- Реальное: **If we leave now, we'll have arrived by dark** — после `if` настоящее
+- Несбывшееся: **If we'd left earlier, we would have arrived by now** — третий тип
+
+**Частые ошибки**
+
+- **If we will leave now** ✗ → **If we leave now** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3570 | Я знал, что к тому времени он уже уйдёт. | I knew he'd have left by then. |
+| 3571 | Я думал, к этому времени ты уже закончишь. | I thought you'd have finished by now. |
+| 3572 | Я был уверен, что ты уже слышал. | I was sure you'd have heard. |
+| 3573 | Я был уверен, что к тому времени мы накопим достаточно. | I was confident we'd have saved enough by then. |
+| 3574 | Я подсчитал, что к июню наши сбережения закончатся. | I calculated that by June our savings would have run out. |
+| 3575 | Если выйдем сейчас, к темноте уже доберёмся. | If we leave now, we'll have arrived by dark. |
+
+---
+
+#### Exercises
+
+**Ex 49 · MultipleChoice · FORWARD_CHOICE** *(ID: 302)*
+
+"Я думал, что к восьми ты уже закончишь."
+
+- I thought you would finished by eight.
+- I thought you'd finished by eight.
+- **I thought you'd have finished by eight.** ✓
+
+*Explanation:* мысль в прошлом сдвигает will have в would have: I thought you'd have finished. would finished потеряло have — после would третья форма сама не встаёт. you'd finished без have — это had finished, «уже закончил тогда», а не «закончишь».
+
+---
+
+**Ex 50 · MultipleChoice · REVERSE_CHOICE** *(ID: 137)*
+
+"If you leave now, you'll have got home by nine."
+
+- **Если уйдёшь сейчас, к девяти уже будешь дома.** ✓
+- Если бы ты ушёл тогда, к девяти был бы дома.
+- Когда уйдёшь, придёшь домой ровно в девять.
+
+*Explanation:* после if стоит настоящее — это реальное условие: «если уйдёшь сейчас», а you'll have got home — к девяти дело уже позади. «Если бы ты ушёл тогда» — третий тип, для него нужны had left и would have. «Ровно в девять» — это at nine, а by nine — «к девяти».
+
+---
+
+**Ex 51 · ErrorCorrection** *(ID: 264)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"If we will start now, we'll have finished by lunch."
+
+- If we started now, we'll have finished by lunch.
+- **If we start now, we'll have finished by lunch.** ✓
+- If we start now, we'll finished by lunch.
+
+*Explanation:* после if будущее не ставят — там настоящее: if we start. Прошедшее started сюда не подходит: речь о реальном «сейчас», а без have пропадает «к обеду уже позади».
+
+---
+
+#### Clarification Options
+
+- Почему в I thought you'd have finished стоит would, если я говорю о прошлом?
+- Как по-английски сказать «я думал, ты уже закончил»?
+- Чем If we leave now отличается от If we'd left earlier?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| to calculate | подсчитывать, рассчитывать | [tuː ˈkælkjəleɪt] |
+| budget | бюджет | [ˈbʌdʒɪt] |
+| savings | сбережения | [ˈseɪvɪŋz] |
+| to predict | предсказывать, прогнозировать | [tuː prɪˈdɪkt] |
+| confident | уверенный | [ˈkɒnfɪdənt] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 42 | 43 |
-| Microtopic | 286 | 287 |
-| Card | 764 | 765 |
-| Example | 3562 | 3563 |
-| Слова курса (course_word) | 1009 | 1010 |
+| Microtopic | 287 | 288 |
+| Card | 766 | 767 |
+| Example | 3575 | 3576 |
+| Слова курса (course_word) | 1014 | 1015 |
 | MultipleChoice · CHOICE | 266 | 267 |
-| MultipleChoice · FORWARD_CHOICE | 301 | 302 |
-| MultipleChoice · REVERSE_CHOICE | 136 | 137 |
-| TrueFalse | 269 | 270 |
+| MultipleChoice · FORWARD_CHOICE | 302 | 303 |
+| MultipleChoice · REVERSE_CHOICE | 137 | 138 |
+| TrueFalse | 270 | 271 |
 | WordArrangement | 246 | 247 |
 | TextInput | 137 | 138 |
 | Matching | 139 | 140 |
-| ErrorCorrection | 263 | 264 |
+| ErrorCorrection | 264 | 265 |
 | FindTheOdd | 139 | 140 |
 | Categorization | 168 | 169 |
 | TableFill | 54 | 55 |
-| Transformation | 124 | 125 |
-| ConstructionMeaning | 122 | 123 |
+| Transformation | 125 | 126 |
+| ConstructionMeaning | 123 | 124 |
 | DialogRestore | 118 | 119 |

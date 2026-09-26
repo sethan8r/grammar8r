@@ -8471,16 +8471,18 @@ theory/
 │   │   │       Card 660) ↔ ещё проверяем, срок впереди или by now (расчёт, Card 650)». «Кстати»: I hope / I expect
 │   │   │       / I'm sure + will have, going to have done. Без AI.
 │   │   │
-│   │   ├── МТ · would have done · Пересказ Future Perfect  (2 карточки; слив 5) ← ОБЕЩАНО В REPORTED SPEECH
-│   │   │   ├── Card · Пересказ: will have → would have
-│   │   │   │   He said he'd have finished by Friday · She asked if I'd have finished by then (прямой порядок).
-│   │   │   │   by tomorrow → by the next day. Ключ чтения: 'd have + V3 — всегда would, had have не бывает.
-│   │   │   │   Не сдвигаем, пока срок впереди. ⭐ Двусмысленность: пересказ плана («успеет») ↔ третий тип
-│   │   │   │   («закончил бы») — различает контекст. AI «Перескажи» (FREE_WRITE, NONE).
-│   │   │   └── Card · Мысли и условные
-│   │   │       I thought you'd have finished by now (ожидание не сбылось) · I knew he'd have left by then.
-│   │   │       If we leave now, we'll have arrived by dark. Строкой на узнавание: книжное By 1990 he would
-│   │   │       have lost everything. Без AI.
+│   │   ├── МТ287 · would have done · Пересказ Future Perfect  (2 карточки; слив 5 — to calculate · budget · savings · to predict · confident) ✅ (написана, ALL GREEN 26.09.26) ← ОБЕЩАНО В REPORTED SPEECH
+│   │   │   ├── Card 765 · Пересказ: will have → would have
+│   │   │   │   Зеркало FC Card 742: formula said + кто + would have + V3 · отрицание · вопросы прямым порядком
+│   │   │   │   (+ вопрос с вопросительным словом — добавлено) · by tomorrow → by the next day, by now → by then ·
+│   │   │   │   ключ 'd: 'd have = would, 'd + V3 = had (третья пара после be / been) · когда сдвига нет ·
+│   │   │   │   might / should остаются (добавлено) · пересказ ↔ третий тип. AI future_perfect_card765_ex1
+│   │   │   │   «Перескажи сроки» (FREE_WRITE, NONE).
+│   │   │   └── Card 766 · Мысли и условные
+│   │   │       Зеркало FC Card 743: I knew he'd have left · I thought you'd have finished by now (ожидание не
+│   │   │       сбылось) · сдвинутая догадка I was sure you'd have heard (добавлено) · первый тип If we leave now,
+│   │   │       we'll have arrived by dark · «Не путай» с третьим типом · книжное By 1990 he would have lost
+│   │   │       everything — на узнавание. Без AI.
 │   │   │
 │   │   ├── МТ · will or will have done · Когда без Future Perfect не обойтись  (2 карточки; слив 5) ← предпоследняя
 │   │   │   ├── Card · Тормоз: где хватит will и be done
