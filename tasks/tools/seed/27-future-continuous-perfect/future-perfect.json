@@ -25,6 +25,13 @@
       "title": "What Is Future Perfect · Что такое Future Perfect",
       "order": 1,
       "searchKeywords": "уже сделаю по-английски, обойтись простым will, закончу к сроку, редкое время"
+    },
+    {
+      "id": 282,
+      "topicId": 42,
+      "title": "will have + V3 · Как собрать Future Perfect",
+      "order": 2,
+      "searchKeywords": "will have went, will has или will have, won't have, вопрос с will have, will of, will have to или have done"
     }
   ],
   "grammar_cards": [
@@ -566,6 +573,693 @@
         "Как понять, что «уже» во фразе меняет порядок событий?",
         "Почему I'll be done — это не страдательный залог?"
       ]
+    },
+    {
+      "id": 752,
+      "microtopicId": 282,
+      "title": "Формула и знакомый ряд",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Во вводной мы собрали это время из трёх частей. Теперь разберём каждую: у каждой своя работа, и лишней среди них нет."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три детали — три работы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**will** — метка будущего: «это впереди». Лица он не различает, форма у него одна.",
+            "**have** — метка «к точке уже сделано», та же, что в Present Perfect. После `will` глагол всегда стоит в базовой форме, поэтому здесь только голое `have` — ни `has`, ни `had`. Ровно так же в Future Continuous после `will` стояла голая `be`.",
+            "**V3** — само дело, третья форма глагола. У правильных она совпадает со второй: **finish → finished**, **update → updated**. У неправильных она своя: **go → gone**, **write → written**."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Одна форма на все лица: **I'll have finished**, **he'll have finished**, **they'll have finished**. По-русски глагол меняется по лицам — «закончу», «закончит», «закончат», — а английский не меняет ничего."
+        },
+        {
+          "type": "heading",
+          "text": "Как стоят слова в предложении"
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём по словам **We will have finished the project by Friday**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**We** — подлежащее: мы",
+            "**will** — метка будущего",
+            "**have** — метка «уже к точке»",
+            "**finished** — сам глагол в третьей форме",
+            "**the project** — дополнение: проект",
+            "**by Friday** — срок: к пятнице"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "По-русски дословно: «мы будем иметь законченным проект к пятнице». Звучит криво, зато видна механика: `will` ставит метку будущего, `have` — метку «уже», а третья форма несёт само дело. По-живому — «к пятнице мы закончим проект»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Так же собрано **By nine I'll have printed the tickets** — «к девяти я уже распечатаю билеты»: срок встал в начало, а порядок `will` → `have` → третья форма не изменился."
+        },
+        {
+          "type": "heading",
+          "text": "Знакомый ряд: меняется только первое слово"
+        },
+        {
+          "type": "paragraph",
+          "text": "Эту сборку мы видели много раз. Меняется первое слово, а `have` с третьей формой стоят нетронутыми:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She has finished.** — она уже закончила",
+            "**She had finished.** — она уже закончила к тому моменту в прошлом",
+            "**She must have finished.** — она, должно быть, уже закончила",
+            "**She will have finished.** — она уже закончит"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "В «Модальных глаголах» в общей схеме оставалась пустая клетка **will have done**, и мы обещали, что хватит одной строки. Так и вышло: на место `must` встаёт `will`, всё остальное уже стоит."
+        },
+        {
+          "type": "heading",
+          "text": "Третья форма — главное место ошибок"
+        },
+        {
+          "type": "paragraph",
+          "text": "Формулу запомнить легко, а спотыкаются почти всегда на третьей форме неправильных глаголов. Рука тянется ко второй — она привычнее, её мы говорим в каждом рассказе о прошлом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**go → went → gone** — нужно **will have gone**",
+            "**write → wrote → written** — нужно **will have written**",
+            "**take → took → taken** — нужно **will have taken**",
+            "**do → did → done** — нужно **will have done**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Правило то же, что в Present Perfect: после `have` — только третья форма, в любом времени."
+        },
+        {
+          "type": "heading",
+          "text": "Что ещё встаёт в это время"
+        },
+        {
+          "type": "paragraph",
+          "text": "Не только обычные глаголы. Всё, что умеет стоять после `have` в Present Perfect, встаёт и сюда:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "у `can` третьей формы нет, поэтому берём `be able to`: **By then she'll have been able to save some money.** — к тому времени она уже сможет накопить немного денег",
+            "`have to` → **will have had to**: **By the end of the trip we'll have had to change three trains.** — к концу поездки нам придётся сменить три поезда",
+            "`there is` → **there will have been**: **By Sunday there will have been five matches.** — к воскресенью пройдёт пять матчей",
+            "`have` в значении «выпить, съесть, провести» → **will have had**: **By noon I'll have had three coffees.** — к полудню я уже выпью три кофе"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Два `have` подряд — не опечатка. В **I'll have had three coffees** первое `have` — метка «уже», второе — сам глагол в третьей форме: **have → had → had**. Так же в Present Perfect мы говорим **I've had lunch**."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А что делать с `will have been` — у него три разных смысла, — разберём в последней карточке микротемы."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**She will have went** ✗ → **She will have gone** ✓ — после `have` нужна третья форма, а не вторая",
+                "**She will have finish** ✗ → **She will have finished** ✓ — `have` без третьей формы ничего не значит",
+                "**She will has finished** ✗ → **She will have finished** ✓ — `has` пришло из Present Perfect, а после `will` только голое `have`",
+                "**She will had finished** ✗ → **She will have finished** ✓ — кажется, что будущее от Past Perfect — это `will had`. Но после `will` любой глагол стоит в базовой форме, поэтому снова `have`"
+              ]
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Три детали, все обязательны: метка будущего `will`, голое `have` и третья форма глагола. Форма одна на все лица."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Третья форма, а не вторая"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**go → gone**, **write → written**, **take → taken**, **do → done**; у правильных — `-ed`: **update → updated**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**will have went** ✗ → **will have gone** ✓",
+            "**will has finished** ✗ и **will had finished** ✗ → **will have finished** ✓",
+            "**will have finish** ✗ → **will have finished** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "К пятнице мы закончим проект.",
+          "en": "We'll have finished the project by Friday."
+        },
+        {
+          "ru": "К девяти я уже распечатаю билеты.",
+          "en": "By nine I'll have printed the tickets."
+        },
+        {
+          "ru": "К маю строители завершат крышу.",
+          "en": "The builders will have completed the roof by May."
+        },
+        {
+          "ru": "К вечеру Эмма уже уедет.",
+          "en": "By the evening Emma will have gone."
+        },
+        {
+          "ru": "К полудню я уже выпью три кофе.",
+          "en": "By noon I'll have had three coffees."
+        },
+        {
+          "ru": "К концу поездки нам придётся сменить три поезда.",
+          "en": "By the end of the trip we'll have had to change three trains."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему после will стоит have, а не has?",
+        "Как не перепутать вторую и третью форму глагола?",
+        "Зачем в I'll have had два have подряд?"
+      ]
+    },
+    {
+      "id": 753,
+      "microtopicId": 282,
+      "title": "Отрицание, вопросы и наречия",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Отрицание и вопрос строятся по закону, который работает во всех временах: всё делает первое служебное слово. Здесь это `will` — он берёт `not` и выходит вперёд. А `have` с третьей формой держатся вместе и не двигаются."
+        },
+        {
+          "type": "heading",
+          "text": "Отрицание: «не успею»"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Won't + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём по словам **I won't have finished by six**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I** — подлежащее: я",
+            "**won't** — метка будущего вместе с «не»: `will not`",
+            "**have** — метка «уже к точке»",
+            "**finished** — сам глагол в третьей форме",
+            "**by six** — срок: к шести"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`not` прицепилось к `will`, а пара `have` + третья форма стоит нетронутой. По-живому это чаще всего «не успею»: к шести дело ещё не будет позади."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I won't have finished by six — call me at seven.** — к шести я не закончу, звони в семь",
+            "**The paint won't have dried by tomorrow.** — к завтрашнему дню краска ещё не высохнет"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "`won't` — это `will not`, сжатое в одно слово. Полное **will not have** встречается на письме или когда нужен нажим."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос: вперёд выходит только will"
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + кто + have + V3?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Разберём по словам вопрос «ты успеешь закончить отчёт к пятнице» — **Will you have finished the report by Friday?**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will** — метка будущего, вышла вперёд",
+            "**you** — подлежащее: ты",
+            "**have** — метка «уже к точке», осталась на месте",
+            "**finished** — сам глагол в третьей форме",
+            "**the report** — дополнение: отчёт",
+            "**by Friday** — срок: к пятнице"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Вперёд ушла только метка будущего, всё остальное стоит на своих местах."
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос с вопросительным словом"
+        },
+        {
+          "type": "paragraph",
+          "text": "Вопросительное слово встаёт в начало, дальше тот же порядок:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**How many pages will you have written by Friday?** — сколько страниц ты напишешь к пятнице?",
+            "**What will you have done by then?** — что ты успеешь сделать к тому времени?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Вопрос к подлежащему"
+        },
+        {
+          "type": "paragraph",
+          "text": "Если спрашиваем «кто?», перестановки нет: вопросительное слово встаёт на место подлежащего."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Who will have finished first?** — кто закончит первым?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Краткие ответы"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отвечаем тем же первым словом, как во всех временах: **Yes, I will.** / **No, I won't.** В британской речи можно услышать и **Yes, I will have** — это тоже правильно."
+        },
+        {
+          "type": "heading",
+          "text": "Разве не…?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Отрицательный вопрос задают, когда ожидали «да» и удивлены. Вперёд выходит `won't` целиком: **Won't you have finished by then?** — разве ты к тому времени не закончишь?"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Вопрос можно спрятать в хвостик: **You'll have finished by six, won't you?** — ты же закончишь к шести? Утверждение с `will` — в хвосте `won't`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Куда встают наречия"
+        },
+        {
+          "type": "paragraph",
+          "text": "Слова вроде **already**, **probably**, **definitely** встают после первого служебного слова — сразу за `will`:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**She'll probably have left by then.** — к тому времени она, наверное, уже уйдёт",
+            "**I'll definitely have finished by Monday.** — к понедельнику я точно закончу"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "С `already` оба места звучат нормально: **I'll already have left** и **I'll have already left**."
+        },
+        {
+          "type": "paragraph",
+          "text": "В отрицании `probably` и `definitely` встают перед `won't`: `not` уже сидит внутри `won't`, и втиснуться между ними нельзя. **I probably won't have finished** ✓, а не **I won't probably have finished** ✗."
+        },
+        {
+          "type": "heading",
+          "text": "На слух: will of — это will have"
+        },
+        {
+          "type": "paragraph",
+          "text": "В беглой речи `will have` сжимается: **I'll have finished** звучит как [[aɪl əv ˈfɪnɪʃt]], `have` превращается в короткое [[əv]]. На слух это не отличить от предлога `of` — отсюда письменная ошибка **I'll of finished** ✗. Мы встречали её в «Условных предложениях» как **would of** ✗: там `of` так же неоткуда взяться. Правильно — только `have`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Will have you finished?** ✗ → **Will you have finished?** ✓ — вперёд выходит одно `will`, `have` остаётся со своей третьей формой",
+                "**I will not has finished** ✗ → **I won't have finished** ✓ — после `will` и `won't` только голое `have`",
+                "**I won't finished by six** ✗ → **I won't have finished by six** ✓ — без `have` пропадает «уже к сроку», а третья форма сама сказуемым быть не может"
+              ]
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Всё делает первое служебное слово — `will`: оно берёт `not` и выходит вперёд. Пара `have + V3` не двигается."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will + have + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Утверждение: **She'll have finished by six**",
+            "Отрицание: **She won't have finished by six** — «не успеет»",
+            "Вопрос: **Will she have finished by six?** → **Yes, she will.** / **No, she won't.**",
+            "С вопросительным словом: **How many pages will you have written?**",
+            "Вопрос к подлежащему без перестановки: **Who will have finished first?**",
+            "Разве не…?: **Won't you have finished by then?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Наречия"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "После `will`: **She'll probably have left**",
+            "В отрицании перед `won't`: **I probably won't have finished**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Will have you finished?** ✗ → **Will you have finished?** ✓",
+            "**I won't finished** ✗ → **I won't have finished** ✓",
+            "**will have went** ✗ → **will have gone** ✓ — после `have` третья форма"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "К шести я не закончу.",
+          "en": "I won't have finished by six."
+        },
+        {
+          "ru": "Ты отправишь окончательную версию к пятнице?",
+          "en": "Will you have sent the final version by Friday?"
+        },
+        {
+          "ru": "Сколько страниц ты напишешь к пятнице?",
+          "en": "How many pages will you have written by Friday?"
+        },
+        {
+          "ru": "Кто закончит первым?",
+          "en": "Who will have finished first?"
+        },
+        {
+          "ru": "Разве ты не закончишь к тому времени?",
+          "en": "Won't you have finished by then?"
+        },
+        {
+          "ru": "Я, наверное, не обновлю сайт к понедельнику.",
+          "en": "I probably won't have updated the website by Monday."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему в вопросе вперёд выходит только will, а have остаётся?",
+        "Как по-английски сказать «не успею к шести»?",
+        "Почему люди иногда пишут will of вместо will have?"
+      ]
+    },
+    {
+      "id": 754,
+      "microtopicId": 282,
+      "title": "Двойники: как читать will have",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Увидели в начале фразы `will have` — это ещё не значит, что перед нами Future Perfect. У этих двух слов много соседей, и все они встречаются в жизни куда чаще. Правило чтения одно: **смотрим, что стоит сразу после have.** Третья форма — наше время. Всё остальное — что-то другое."
+        },
+        {
+          "type": "heading",
+          "text": "Когда после have нет третьей формы"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll have to go.** — после `have` стоит `to`: «мне придётся уйти». Это обязанность в будущем, `have to`.",
+            "**I'll have the soup, please.** — после `have` стоит вещь: «я возьму суп». Так заказывают в кафе.",
+            "**You'll have a great time.** — «ты отлично проведёшь время». `have` здесь — обычный глагол «проводить, получать».",
+            "**I'll have it ready by five.** — после `have` стоит «что» и признак: «у меня всё будет готово к пяти». Эту конструкцию подробно разберём в теме «Глагол get — часть 2», сейчас её достаточно узнавать.",
+            "**I'll have you know…** — застывшая фраза «да будет вам известно», с вызовом. Её тоже только узнаём."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "А вот **By Friday I'll have got the tickets** — наше время: после `have` стоит `got`, третья форма от `get`. «К пятнице я уже достану билеты». В Present Perfect мы оговорились, что **I'll have got** не значит «у меня будет», — вот что оно значит на самом деле."
+        },
+        {
+          "type": "heading",
+          "text": "Три will have been"
+        },
+        {
+          "type": "paragraph",
+          "text": "Самый хитрый двойник — `will have been`. Здесь третья форма стоит, это `been`, и время наше. Но смысл зависит от того, что идёт после `been`:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "После been",
+            "Пример",
+            "Что значит"
+          ],
+          "rows": [
+            [
+              "V3",
+              "will have been built",
+              "«уже построят» — страдательный залог"
+            ],
+            [
+              "признак, место",
+              "will have been married",
+              "«будут женаты» — от to be"
+            ],
+            [
+              "to + место",
+              "will have been to Rome",
+              "«побываю» — been to"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By June the bridge will have been built.** — к июню мост уже построят. Эту фразу мы узнавали в «Страдательном залоге: все формы». Теперь понятно, как она собрана: `will have` + `been built`. Строка встала на своё место.",
+            "**By May we'll have been married for ten years.** — к маю мы будем женаты уже десять лет. `married` здесь не страдательный залог, а признак, как в **We are married**.",
+            "**By forty I'll have been to thirty countries.** — к сорока я побываю в тридцати странах. `been to` — это «съездить и вернуться», как в Present Perfect."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**The bridge will have be built** ✗ и **The bridge will been built** ✗ → **The bridge will have been built** ✓. Нужны все детали: `will`, голое `have`, третья форма `been` и третья форма смыслового глагола."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Если после `been` стоит форма на `-ing` — **will have been waiting** — это уже следующее время раздела, Future Perfect Continuous."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "После `will have` смотрим на следующее слово. Третья форма — Future Perfect, `to`, вещь или «что + признак» — другие конструкции."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Смотрим, что стоит сразу после `have`. Третья форма — Future Perfect, иначе — другая конструкция."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll have to go** — придётся",
+            "**I'll have the soup** — возьму",
+            "**I'll have got the tickets by Friday** — уже достану, наше время"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Три will have been"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Третья форма → страдательный залог: **will have been built**",
+            "Признак, место → будущее от to be: **will have been married**",
+            "`to` и место → побывать: **will have been to Rome**"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "Мне придётся уйти.",
+          "en": "I'll have to go."
+        },
+        {
+          "ru": "Я возьму суп.",
+          "en": "I'll have the soup."
+        },
+        {
+          "ru": "К пятнице я уже достану билеты.",
+          "en": "By Friday I'll have got the tickets."
+        },
+        {
+          "ru": "К июню мост уже построят.",
+          "en": "By June the bridge will have been built."
+        },
+        {
+          "ru": "К маю мы будем женаты уже десять лет.",
+          "en": "By May we'll have been married for ten years."
+        },
+        {
+          "ru": "К сорока я побываю в тридцати странах.",
+          "en": "By forty I'll have been to thirty countries."
+        }
+      ],
+      "clarificationOptions": [
+        "Как отличить I'll have to go от Future Perfect?",
+        "Почему will have been married — не страдательный залог?",
+        "Что значит I'll have it ready by five?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -604,9 +1298,72 @@
       "exerciseType": "MATCHING",
       "exerciseId": 136,
       "orderInCard": 2
+    },
+    {
+      "cardId": 752,
+      "exerciseType": "TABLE_FILL",
+      "exerciseId": 54,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 752,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 243,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 752,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 261,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 753,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 123,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 753,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 295,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 753,
+      "exerciseType": "DIALOG_RESTORE",
+      "exerciseId": 118,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 754,
+      "exerciseType": "MATCHING",
+      "exerciseId": 137,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 754,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 263,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 754,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 118,
+      "orderInCard": 2
     }
   ],
-  "ai_exercises": [],
+  "ai_exercises": [
+    {
+      "id": "future_perfect_card753_ex1",
+      "cardId": 753,
+      "title": "Вопрос и отрицание",
+      "userInstruction": "ИИ пришлёт английское утверждение. Перепишите его два раза: вопросом и отрицанием.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "NONE"
+    }
+  ],
   "course_word_groups": [
     {
       "id": "tenses",
@@ -623,8 +1380,81 @@
       "source": "course_words"
     }
   ],
-  "course_words": [],
-  "table_fill_exercises": [],
+  "course_words": [
+    {
+      "id": 985,
+      "word": "project",
+      "translation": "проект",
+      "transcription": "[ˈprɒdʒekt]",
+      "microtopicId": 282,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 986,
+      "word": "to complete",
+      "translation": "завершать, выполнять, заполнять (анкету)",
+      "transcription": "[tuː kəmˈpliːt]",
+      "microtopicId": 282,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 987,
+      "word": "to print",
+      "translation": "печатать, распечатывать",
+      "transcription": "[tuː prɪnt]",
+      "microtopicId": 282,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 988,
+      "word": "to update",
+      "translation": "обновлять",
+      "transcription": "[tuː ʌpˈdeɪt]",
+      "microtopicId": 282,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 989,
+      "word": "final",
+      "translation": "последний, окончательный, финальный",
+      "transcription": "[ˈfaɪnəl]",
+      "microtopicId": 282,
+      "categoryId": "tenses"
+    }
+  ],
+  "table_fill_exercises": [
+    {
+      "id": 54,
+      "taskDescription": "собери будущую форму «уже сделаю» из подлежащего и глагола.",
+      "rows": [
+        {
+          "hint": "Jack + to leave",
+          "answer": "will have left"
+        },
+        {
+          "hint": "we + to eat",
+          "answer": "will have eaten"
+        },
+        {
+          "hint": "the kids + to write",
+          "answer": "will have written"
+        },
+        {
+          "hint": "I + to buy",
+          "answer": "will have bought"
+        },
+        {
+          "hint": "my sister + to complete",
+          "answer": "will have completed"
+        },
+        {
+          "hint": "they + to see",
+          "answer": "will have seen"
+        }
+      ],
+      "explanation": "форма одна на все лица: will, голое have и третья форма. Никакого has после will. У неправильных глаголов третья форма своя: leave → left, eat → eaten, write → written, buy → bought, see → seen; у правильных — с -ed: completed."
+    }
+  ],
   "true_false_exercises": [
     {
       "id": 267,
@@ -658,7 +1488,28 @@
       "explanation": "2: после will всегда голое have, а не has — the guests will have arrived. 3: после have нужна третья форма, а wrote — вторая: Megan will have written. 5: после have нужна третья форма, а не базовая: They will have repaired the road."
     }
   ],
-  "word_arrangement_exercises": [],
+  "word_arrangement_exercises": [
+    {
+      "id": 243,
+      "situationRu": "RU: К вечеру Гриша обновит приложение.",
+      "correctSentence": "By the evening Grisha will have updated the app.",
+      "words": [
+        "By the evening",
+        "Grisha",
+        "will",
+        "have",
+        "updated",
+        "the app"
+      ],
+      "distractors": [
+        "has",
+        "had",
+        "update",
+        "updating"
+      ],
+      "explanation": "после will стоит голое have, а за ним третья форма: will have updated. has и had после will не встают, update — базовая форма, а после have нужна третья, updating — форма на -ing, она из Continuous."
+    }
+  ],
   "multiple_choice_exercises": [
     {
       "id": 130,
@@ -722,10 +1573,85 @@
         }
       ],
       "explanation": "«уже уберём» — к возвращению мамы уборка позади, поэтому we'll have cleaned. We'll clean — уберём после её прихода, «уже» потерялось. We'll be cleaning — мама застанет нас за уборкой."
+    },
+    {
+      "id": 295,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "Сколько книг ты прочитаешь к лету?",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "How many books will you have read by the summer?",
+          "isCorrect": true
+        },
+        {
+          "text": "How many books will have you read by the summer?",
+          "isCorrect": false
+        },
+        {
+          "text": "How many books you will have read by the summer?",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после вопросительного слова вперёд выходит только will, а have остаётся рядом с третьей формой: will you have read. Без will впереди вопроса не получится."
+    },
+    {
+      "id": 263,
+      "choiceType": "CHOICE",
+      "prompt": "By next spring the new school ___ .",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will have built",
+          "isCorrect": false
+        },
+        {
+          "text": "will have been built",
+          "isCorrect": true
+        },
+        {
+          "text": "will have be built",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "школу строят другие люди, поэтому нужен страдательный залог: will have been built. will have built значит, что школа сама что-то построит. will have be — после have нужна третья форма been."
     }
   ],
   "text_input_exercises": [],
-  "dialog_restore_exercises": [],
+  "dialog_restore_exercises": [
+    {
+      "id": 118,
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Will you have fixed the car by Saturday?"
+        },
+        {
+          "speaker": "B",
+          "text": null
+        },
+        {
+          "speaker": "A",
+          "text": "Great, then we can drive to the lake."
+        }
+      ],
+      "options": [
+        {
+          "text": "Yes, I have.",
+          "isCorrect": false
+        },
+        {
+          "text": "Yes, I will.",
+          "isCorrect": true
+        },
+        {
+          "text": "Yes, I will fixed.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "краткий ответ строится на первом слове вопроса: вопрос начинается с will — отвечаем Yes, I will. I have — ответ на вопрос в Present Perfect, а глагол в кратком ответе не повторяют."
+    }
+  ],
   "matching_exercises": [
     {
       "id": 136,
@@ -749,9 +1675,56 @@
         }
       ],
       "explanation": "will плюс глагол после when — событие случится в этот момент или сразу после: уйду после звонка, поедим, когда Лили придёт. will have плюс третья форма — к этому моменту дело уже позади: меня уже нет, мы уже поели."
+    },
+    {
+      "id": 137,
+      "taskDescription": "соедини фразу с тем, что она значит",
+      "pairs": [
+        {
+          "left": "I'll have to call Kate.",
+          "right": "придётся позвонить Кейт"
+        },
+        {
+          "left": "I'll have called Kate by noon.",
+          "right": "к полудню уже позвоню Кейт"
+        },
+        {
+          "left": "I'll have the fish.",
+          "right": "я возьму рыбу"
+        },
+        {
+          "left": "The road will have been repaired.",
+          "right": "дорогу уже отремонтируют"
+        },
+        {
+          "left": "We'll have been friends for years.",
+          "right": "будем дружить уже много лет"
+        }
+      ],
+      "explanation": "смотрим на слово после have. to — придётся. Вещь — возьму. Третья форма called — наше время, «уже позвоню». been + третья форма repaired — «уже отремонтируют». been + признак friends — «будем друзьями»."
     }
   ],
-  "error_correction_exercises": [],
+  "error_correction_exercises": [
+    {
+      "id": 261,
+      "wrongSentence": "By Monday Sonya will have took the exam.",
+      "options": [
+        {
+          "text": "By Monday Sonya will has taken the exam.",
+          "isCorrect": false
+        },
+        {
+          "text": "By Monday Sonya will taken the exam.",
+          "isCorrect": false
+        },
+        {
+          "text": "By Monday Sonya will have taken the exam.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "took — вторая форма, а после have нужна третья: taken. has после will не ставится, а без have пропадает метка «уже к сроку»."
+    }
+  ],
   "construction_meaning_exercises": [
     {
       "id": 117,
@@ -775,9 +1748,52 @@
         }
       ],
       "explanation": "will have bought — взгляд назад из точки «фильм начинается»: к этой минуте попкорн уже куплен. «Пойдёт за попкорном» — событие после начала, его сказали бы через will buy. «Будет покупать» — процесс в ту минуту, это will be buying. «Купил» — прошедшее, а речь о будущем."
+    },
+    {
+      "id": 118,
+      "construction": "By July Nastya will have been to Japan twice.",
+      "options": [
+        {
+          "text": "К июлю Настя будет в Японии дважды.",
+          "isCorrect": false
+        },
+        {
+          "text": "К июлю Настю дважды отправят в Японию.",
+          "isCorrect": false
+        },
+        {
+          "text": "К июлю Настя уже дважды побывает в Японии.",
+          "isCorrect": true
+        },
+        {
+          "text": "К июлю Настя дважды поедет в Японию.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "после been стоит to и место — это «побывать»: съездить и вернуться, как been to в Present Perfect. «Отправят» — страдательный залог, для него после been нужна третья форма. «Поедет» — событие, will go. «Будет в Японии» — will be in Japan."
     }
   ],
-  "transformation_exercises": [],
+  "transformation_exercises": [
+    {
+      "id": 123,
+      "taskDescription": "сделай каждое предложение отрицательным.",
+      "items": [
+        {
+          "original": "Vitya will have left by noon.",
+          "transformed": "Vitya won't have left by noon."
+        },
+        {
+          "original": "We'll have printed it by Friday.",
+          "transformed": "We won't have printed it by Friday."
+        },
+        {
+          "original": "The kids will have eaten by six.",
+          "transformed": "The kids won't have eaten by six."
+        }
+      ],
+      "explanation": "not приклеивается к will: will not = won't. Пара have + третья форма остаётся нетронутой: ни has, ни потерянного have."
+    }
+  ],
   "categorization_exercises": [],
   "find_the_odd_exercises": []
 }

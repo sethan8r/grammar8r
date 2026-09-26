@@ -8390,26 +8390,23 @@ theory/
 │   │   │       Кальки вопросом: until Friday · to Friday · «успеешь к шести?» · will have to ↔ will have gone.
 │   │   │       ⚠️ by the time + will в кальки НЕ ставили: уже разобран в Future Simple Card 316.
 │   │   │
-│   │   ├── МТ · will have + V3 · Как собрать Future Perfect  (2 карточки; слив 5)
-│   │   │   ├── Card · Формула, знакомый ряд и три will have been
-│   │   │   │   will + have (всегда have — ответ Card 119) + V3, одна форма на все лица; брифовая таблица
-│   │   │   │   порядка слов ([буду иметь] + глагол). ⭐ Каркас модальных закрыт: must have done ↔ will have
-│   │   │   │   done. ⭐ Три `will have been` — читать по тому, что после: + V3 = пассив (`will have been
-│   │   │   │   built` — строка Passive-2 встала) · + прилагательное / место = to be (`will have been
-│   │   │   │   married`, `at work`) · + to = побываю (`will have been to 30 countries`). «Кстати» — слот:
-│   │   │   │   can → will have been able to · have to → will have had to · there will have been · will have
-│   │   │   │   had (два have подряд — норма). Ловушки: will have went ✗ · will have finish ✗ · will has ✗ ·
-│   │   │   │   will had finished ✗.
-│   │   │   └── Card · Отрицание, вопросы, наречия и на слух
-│   │   │       won't have = «не успеет» (`I won't have finished by six` · `…yet`) · Will you have…? · What /
-│   │   │       How many will you have…? · Yes, I will (брит. I will have) · отрицательный вопрос `Won't they
-│   │   │       have landed by now?`. Наречия: I'll have already left ≈ I'll already have left · I'll probably
-│   │   │       have, но I probably won't have. На слух: 'll have → [[əv]] · won't have · will of ✗ (как should
-│   │   │       of). Ловушки: Will have you…? ✗ · I will not has ✗. ⭐ ДВОЙНИКИ «will have» (правило чтения:
-│   │   │       что сразу после have): I'll have to go · I'll have the soup · You'll have a great time · I'll
-│   │   │       have it ready by five (каузатив на узнавание → «Глагол get — часть 2») · I'll have got the
-│   │   │       tickets by Friday (а это наше время) · I'll have you know (идиома). Если блок не влезет в
-│   │   │       экран — вынести двойников третьей карточкой. AI «Вопрос и отрицание» (FREE_WRITE, NONE).
+│   │   ├── МТ282 · will have + V3 · Как собрать Future Perfect  (3 карточки; слив 5 — project · to complete · to print · to update · final) ✅ (написана, ALL GREEN 26.09.26)
+│   │   │   ├── Card 752 · Формула и знакомый ряд
+│   │   │   │   Три детали (will · голое have — ответ Card 119 · V3), таблицы порядка слов. Ряд has / had /
+│   │   │   │   must / will have — клетка модальных закрыта одной строкой. V3 неправильных — главное место
+│   │   │   │   ошибок. Слот: will have been able to · will have had to · there will have been · will have
+│   │   │   │   had (два have подряд). Ловушки: will have went · will have finish · will has · will had.
+│   │   │   ├── Card 753 · Отрицание, вопросы и наречия
+│   │   │   │   won't have = «не успею» · Will you have…? · What / How many… · к подлежащему (Who will have
+│   │   │   │   finished first? — в дереве не было, добавлено) · Yes, I will (брит. Yes, I will have) ·
+│   │   │   │   Won't you have finished by then? (пример-догадка из дерева оставлен «Догадкам») · хвостик на
+│   │   │   │   узнавание · наречия после will / перед won't · will of на слух (callback would of из
+│   │   │   │   «Условных»). AI future_perfect_card753_ex1 «Вопрос и отрицание» (FREE_WRITE, NONE).
+│   │   │   └── Card 754 · Двойники: как читать will have
+│   │   │       Правило: что сразу после have. have to · the soup · a great time · it ready by five (→ «Глагол
+│   │   │       get — часть 2») · I'll have you know; I'll have got the tickets — наше время (долг Card 383).
+│   │   │       Три will have been: + V3 пассив (строка Passive-2 встала) · признак (married) · been to.
+│   │   │       + -ing → Future Perfect Continuous.
 │   │   │
 │   │   ├── МТ · by then · К сроку: by, by the time, when  (3 карточки; слив 5) ← СЕРДЦЕ ТЕМЫ
 │   │   │   ├── Card · Точка-срок и взгляд назад
