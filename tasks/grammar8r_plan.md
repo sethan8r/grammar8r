@@ -8427,24 +8427,22 @@ theory/
 │   │   │       «как только» (второе значение, глоссом) · с after разницы нет, с when есть (читать по ходу ↔
 │   │   │       дочитать) · ловушки will have / will после союза · «ли»-вопрос с will. Без AI.
 │   │   │
-│   │   ├── МТ · by next year · Итоги, годовщины и прогнозы  (3 карточки; слив 5)
-│   │   │   ├── Card · Сколько будет сделано к дате
-│   │   │   │   By December I'll have read 30 books · By 40 I'll have visited 30 countries · been to.
-│   │   │   │   ⭐ Граница: «прочитаю 30 книг» — план → will read; итог к дате → will have read. Названо
-│   │   │   │   количество — никакого Continuous (связь с FC Card 746). AI «Подведи итог к дате» (GENERAL).
-│   │   │   ├── Card · Сколько уже будет длиться
-│   │   │   │   I'll have known him for ten years · we'll have been married for 20 years (married —
-│   │   │   │   прилагательное, не пассив) · I'll have had this car for 15 years · I'll have worked here ten
-│   │   │   │   years. ⭐ state verbs здесь как раз к месту, Continuous с ними нельзя: I'll have been knowing ✗
-│   │   │   │   (callback «State Verbs»). Калька «в июне будет 10 лет, как…» → In June will be 10 years ✗ →
-│   │   │   │   It'll be ten years in June since… / we'll have known each other… Строкой: чистый процесс
-│   │   │   │   («будет ждать уже час») → «Future Perfect Continuous». AI «Годовщины» (GENERAL).
-│   │   │   └── Card · Прогнозы, новости и пассив
-│   │   │       By 2030 prices will have doubled · there will have been three elections by then. Регистр:
-│   │   │       новости, отчёты, планы; в разговоре — will + by. `will have been + V3` в деле: By June the
-│   │   │       bridge will have been built; замена It'll be done / ready by Monday. Ловушки: will have be
-│   │   │       built ✗ · will been built ✗ · will have built (перепутан залог) ✗. AI «Скажи как в новостях»
-│   │   │       (GENERAL).
+│   │   ├── МТ284 · by next year · Итоги, годовщины и прогнозы  (3 карточки; слив 5 — anniversary · to retire · to double · decade · annual) ✅ (написана, ALL GREEN 26.09.26)
+│   │   │   ⚠️ Примеры дерева (30 книг, 30 стран, been married, мост) уже заняты Card 750 / 754 — взяты новые;
+│   │   │   разбор чтения will have been не повторяли (Card 754), здесь — выбор залога и регистр.
+│   │   │   ├── Card 758 · Итог к дате
+│   │   │   │   by + дата · will have + V3 + сколько; веха (my dad will have retired). ⭐ План ↔ итог: есть черта
+│   │   │   │   «к …» — will have, нет — going to / will. Количество — без -ing (callback FC «Событие или
+│   │   │   │   процесс»). Недобор only / won't have … enough; How many…? AI future_perfect_card758_ex1 (GENERAL).
+│   │   │   ├── Card 759 · Сколько уже будет длиться
+│   │   │   │   will have + V3 + for; ряд с Present Perfect (I've known → I'll have known). State verbs — только
+│   │   │   │   эта форма (been knowing ✗). work / live — строкой к Future Perfect Continuous. How long…? (добавлено).
+│   │   │   │   Калька In June will be ✗ → In June it'll be ten years since we met (it + since + прошедшее,
+│   │   │   │   callback «Сколько это длится»); It'll be our tenth anniversary. AI future_perfect_card759_ex1 (GENERAL).
+│   │   │   └── Card 760 · Прогнозы, новости и отчёты
+│   │   │       Прогноз к дате (decade, annual report) · by = «на» перед числом (добавлено) · новости ↔ разговор
+│   │   │       (will be ready by) · залог по вопросу «кто делает» + формула will have been + V3 · there will
+│   │   │       have been (election не брали — слив «Догадок»). AI future_perfect_card760_ex1 (GENERAL).
 │   │   │
 │   │   ├── МТ · Which Future · Русское «уже» и «успеть»  (2 карточки; слив 5)
 │   │   │   ├── Card · «Успею», «уже», «к», «будет лет»: куда их девать

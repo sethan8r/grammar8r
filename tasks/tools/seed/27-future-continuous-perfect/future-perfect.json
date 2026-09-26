@@ -39,6 +39,13 @@
       "title": "by then · К сроку: by, by the time, when",
       "order": 3,
       "searchKeywords": "by или until, к какому сроку, by when, not until, by the time, when i've finished"
+    },
+    {
+      "id": 284,
+      "topicId": 42,
+      "title": "by next year · Итоги, годовщины и прогнозы",
+      "order": 4,
+      "searchKeywords": "план или итог, сколько сделаю к дате, будет десять лет как, how long will you have, been knowing, прогноз в новостях"
     }
   ],
   "grammar_cards": [
@@ -1925,6 +1932,581 @@
         "Есть ли разница между when I finish и when I've finished?",
         "Что значит once в начале предложения?"
       ]
+    },
+    {
+      "id": 758,
+      "microtopicId": 284,
+      "title": "Итог к дате",
+      "order": 1,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Самое частое место этого времени в жизни — итог. К какой-то дате мы подводим черту и считаем: сколько будет сделано, накоплено, пройдено."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "By + дата · will have + V3 + сколько"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By the end of the year I'll have run three marathons.** — к концу года я пробегу три марафона",
+            "**By June we'll have saved three thousand euros.** — к июню мы накопим три тысячи евро"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Итог — не обязательно число. Бывает и веха: к дате жизнь уже перешла в новое состояние. **By 2040 my dad will have retired.** — к 2040 году папа уже выйдет на пенсию."
+        },
+        {
+          "type": "heading",
+          "text": "План или итог"
+        },
+        {
+          "type": "paragraph",
+          "text": "Здесь русский снова прячет два смысла в одну фразу. «Пробегу три марафона» может быть и планом, и итогом:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "«В этом году я пробегу три марафона» — решение, цель на год: **I'm going to run three marathons this year.**",
+            "«К концу года я пробегу уже три марафона» — черта проведена, считаем, сколько будет за ней: **By the end of the year I'll have run three marathons.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Проверка простая: есть ли черта, к которой подводим итог, — «к концу года», «к лету», «к пенсии»? Есть — нужен `will have`. Нет, просто цель — `going to` или `will`."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**By the end of the year I'll have been running three marathons** ✗ → **I'll have run three marathons** ✓. Когда названо количество, считают готовое, а процесс штуками не считают. Эту логику мы видели в Future Continuous, в микротеме «Событие или процесс»: посчитан результат — форма-итог, а не форма на `-ing`."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Недобор и вопрос"
+        },
+        {
+          "type": "paragraph",
+          "text": "Итог бывает и неполным:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By Friday I'll only have read half of the book.** — к пятнице я прочитаю только половину книги",
+            "**We won't have saved enough by the summer.** — к лету мы не накопим достаточно"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Спросить об итоге — **How many…?** с той же формой: **How many kilometres will you have walked by the end of the trip?** — сколько километров ты пройдёшь к концу поездки?"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Черта в будущем + число = `will have + V3`. Нет черты — это план, и хватает `going to` или `will`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "К дате подводим черту и считаем, сколько будет сделано. Итог бывает и вехой: **By 2040 my dad will have retired**."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "By + дата · will have + V3 + сколько"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "План или итог"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Черта «к концу года, к лету» → **By the end of the year I'll have run three marathons**",
+            "Черты нет, просто цель → **I'm going to run three marathons this year**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Недобор и вопрос"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By Friday I'll only have read half** · **We won't have saved enough by the summer**",
+            "**How many kilometres will you have walked by the end of the trip?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll have been running three marathons** ✗ → **I'll have run three marathons** ✓ — количество считают готовым"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "К концу года я пробегу три марафона.",
+          "en": "By the end of the year I'll have run three marathons."
+        },
+        {
+          "ru": "В этом году я собираюсь пробежать три марафона.",
+          "en": "I'm going to run three marathons this year."
+        },
+        {
+          "ru": "К июню мы накопим три тысячи евро.",
+          "en": "By June we'll have saved three thousand euros."
+        },
+        {
+          "ru": "К 2040 году мой папа уже выйдет на пенсию.",
+          "en": "By 2040 my dad will have retired."
+        },
+        {
+          "ru": "К пятнице я прочитаю только половину книги.",
+          "en": "By Friday I'll only have read half of the book."
+        },
+        {
+          "ru": "Сколько километров ты пройдёшь к концу поездки?",
+          "en": "How many kilometres will you have walked by the end of the trip?"
+        }
+      ],
+      "clarificationOptions": [
+        "Как понять, «пробегу три марафона» — это план или итог?",
+        "Почему с количеством нельзя сказать will have been running?",
+        "Как спросить, сколько будет сделано к какому-то сроку?"
+      ]
+    },
+    {
+      "id": 759,
+      "microtopicId": 284,
+      "title": "Сколько уже будет длиться",
+      "order": 2,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Второй вид итога — не сколько сделано, а сколько времени что-то уже длится. В микротеме «Сколько это длится» мы говорили так о сегодняшнем дне: **I've known Sam for nine years.** Теперь та же мысль, только из точки в будущем:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I've known Sam for nine years.** — знаю Сэма девять лет, считаем до сейчас",
+            "**By May I'll have known Sam for ten years.** — к маю будет уже десять, считаем до мая"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "By + дата · will have + V3 + for + срок"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Next year I'll have had this car for fifteen years.** — в следующем году эта машина будет у меня уже пятнадцать лет",
+            "**By the time Grisha retires, he'll have worked at the factory for forty years.** — к пенсии Гриша проработает на заводе сорок лет"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Глаголы состояния здесь как раз к месту"
+        },
+        {
+          "type": "paragraph",
+          "text": "`know`, `have` в значении «иметь», `like`, `be` — глаголы состояния. В Continuous они не встают (это микротема «State Verbs · Глаголы без Continuous»), поэтому «сколько лет знаем друг друга» по-английски говорится только этим временем."
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**I'll have been knowing Sam for ten years** ✗ → **I'll have known Sam for ten years** ✓. Знание — не процесс, у него нет «разгара», и форма на `-ing` к нему не прикрепляется."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "С `work` и `live` годится и простая форма — **I'll have worked here for ten years**, — и длительная, которую мы разберём в следующей теме раздела, Future Perfect Continuous. А для чистого процесса, вроде «к шести я буду ждать уже час», простая форма звучит странно — это тоже следующая тема."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как спросить: How long…?"
+        },
+        {
+          "type": "paragraph",
+          "text": "**How long will you have lived in Lisbon by next summer?** — сколько ты уже проживёшь в Лиссабоне к следующему лету? Порядок тот же, что в любом вопросе этого времени: вперёд выходит только `will`."
+        },
+        {
+          "type": "heading",
+          "text": "«В июне будет десять лет, как…»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Так по-русски чаще всего и говорят о годовщинах. И рука пишет дословно: **In June will be ten years since we met** ✗. Беда в том, что во фразе нет подлежащего: русское «будет десять лет» обходится без него, а английскому предложению подлежащее нужно всегда. Его место занимает пустое `it`, как в **It's cold** или **It's late**:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**In June it'll be ten years since we met.** — в июне будет десять лет, как мы познакомились"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Это будущий двойник оборота из «Сколько это длится»: **It's been a long time since we met.** После `since` — прошедшее время, потому что оно называет момент старта: **since we met**, **since I moved here**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ту же мысль можно сказать и через наше время: **By June we'll have known each other for ten years.** А если хочется одним словом — **It'll be our tenth anniversary in June.**"
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушки",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**In June will be ten years since we met** ✗ → **In June it'll be ten years since we met** ✓ — нужно подлежащее `it`",
+                "**In June it'll be ten years since we will meet** ✗ → **since we met** ✓ — после `since` момент старта, он в прошлом"
+              ]
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Длительность к дате: сколько времени что-то уже будет длиться. Глаголы состояния — только в этой форме, без `-ing`."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "By + дата · will have + V3 + for + срок"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By May I'll have known Sam for ten years**",
+            "**Next year I'll have had this car for fifteen years**",
+            "Вопрос: **How long will you have lived in Lisbon by next summer?**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "«Будет N лет, как…»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**In June it'll be ten years since we met** — подлежащее `it`, после `since` прошедшее",
+            "**It'll be our tenth anniversary in June**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I'll have been knowing** ✗ → **I'll have known** ✓",
+            "**In June will be ten years** ✗ → **In June it'll be ten years** ✓"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "К маю я буду знать Сэма уже десять лет.",
+          "en": "By May I'll have known Sam for ten years."
+        },
+        {
+          "ru": "В следующем году эта машина будет у меня уже пятнадцать лет.",
+          "en": "Next year I'll have had this car for fifteen years."
+        },
+        {
+          "ru": "К тому времени, как Гриша выйдет на пенсию, он проработает на заводе сорок лет.",
+          "en": "By the time Grisha retires, he'll have worked at the factory for forty years."
+        },
+        {
+          "ru": "Сколько ты уже проживёшь в Лиссабоне к следующему лету?",
+          "en": "How long will you have lived in Lisbon by next summer?"
+        },
+        {
+          "ru": "В июне будет десять лет, как мы познакомились.",
+          "en": "In June it'll be ten years since we met."
+        },
+        {
+          "ru": "В июне у нас будет десятая годовщина.",
+          "en": "It'll be our tenth anniversary in June."
+        }
+      ],
+      "clarificationOptions": [
+        "Почему с know нельзя сказать will have been knowing?",
+        "Как по-английски сказать «в июне будет десять лет, как…»?",
+        "Почему после since стоит прошедшее, если речь о будущем?"
+      ]
+    },
+    {
+      "id": 760,
+      "microtopicId": 284,
+      "title": "Прогнозы, новости и отчёты",
+      "order": 3,
+      "theory": [
+        {
+          "type": "paragraph",
+          "text": "Третье место, где это время звучит постоянно, — прогнозы, новости и отчёты. Там о будущем говорят сухо и по датам: что изменится к концу года, к 2030-му, к концу десятилетия."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By the end of the decade the population will have doubled.** — к концу десятилетия население удвоится",
+            "**According to the annual report, the company will have opened ten new shops by 2030.** — по годовому отчёту, к 2030 году компания откроет десять новых магазинов"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Кстати",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "В новостях `by` встречается и в другом значении — «на сколько»: **By the end of the year prices will have risen by ten percent.** — к концу года цены вырастут **на** десять процентов. Черта-срок и разница в числах — разные роли одного слова: смотрите, что после `by`. Дата — это «к», число с процентами — «на»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Новости и разговор"
+        },
+        {
+          "type": "paragraph",
+          "text": "В новостях и отчётах эта форма звучит естественно. В разговоре ту же мысль обычно говорят проще:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "в новостях: **By Monday the road will have been repaired.**",
+            "в разговоре: **The road will be ready by Monday.** или **They'll fix it by Monday.**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Обе версии верные, разница в стиле. Сказать другу **The road will have been repaired by Monday** — не ошибка, просто прозвучит как диктор."
+        },
+        {
+          "type": "heading",
+          "text": "Действительный или страдательный"
+        },
+        {
+          "type": "paragraph",
+          "text": "Чтение `will have been` мы разобрали в карточке «Двойники: как читать will have». Здесь — выбор, какую форму брать. Спросите себя: важно, кто делает?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Важно — действительный залог: **The city will have built a new metro line by 2035.** — город построит",
+            "Неважно, как любят писать в новостях, — страдательный: **A new metro line will have been built by 2035.** — линию построят"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will have been + V3"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trap",
+          "label": "Ловушка",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "**A new metro line will have built by 2035** ✗ → **will have been built** ✓. Линия сама ничего не строит — её строят, поэтому нужен `been`. Проверка: может ли подлежащее само это сделать? Не может — страдательный залог."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "То же умеет и безличное «будет»: **By the end of the summer there will have been five storms.** — к концу лета пройдёт уже пять гроз."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "label": "Запомни главное",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Прогноз к дате — `will have + V3`, а если деятель неважен — `will have been + V3`. В разговоре чаще проще: `will` + `by` или `will be ready by`."
+            }
+          ]
+        }
+      ],
+      "theorySummary": [
+        {
+          "type": "paragraph",
+          "text": "Прогнозы, новости и отчёты к дате — родная среда этого времени. В разговоре то же говорят проще."
+        },
+        {
+          "type": "callout",
+          "variant": "formula",
+          "label": "Формула",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Will have been + V3"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Кто делает"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Деятель важен: **The city will have built a new metro line by 2035**",
+            "Деятель неважен: **A new metro line will have been built by 2035**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Новости и разговор"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By Monday the road will have been repaired** — стиль новостей",
+            "**The road will be ready by Monday** — разговор"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "by — «к» или «на»"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Дата: **by 2030** — к 2030 году",
+            "Число: **risen by ten percent** — вырастут на десять процентов"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Частые ошибки"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**A new line will have built** ✗ → **will have been built** ✓ — линию строят"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "ru": "К концу десятилетия население удвоится.",
+          "en": "By the end of the decade the population will have doubled."
+        },
+        {
+          "ru": "По годовому отчёту, к 2030 году компания откроет десять новых магазинов.",
+          "en": "According to the annual report, the company will have opened ten new shops by 2030."
+        },
+        {
+          "ru": "К понедельнику дорогу отремонтируют.",
+          "en": "By Monday the road will have been repaired."
+        },
+        {
+          "ru": "Дорога будет готова к понедельнику.",
+          "en": "The road will be ready by Monday."
+        },
+        {
+          "ru": "К 2035 году построят новую линию метро.",
+          "en": "A new metro line will have been built by 2035."
+        },
+        {
+          "ru": "К концу года цены вырастут на десять процентов.",
+          "en": "By the end of the year prices will have risen by ten percent."
+        }
+      ],
+      "clarificationOptions": [
+        "Когда в прогнозе нужен will have been, а когда просто will have?",
+        "Можно ли в разговоре сказать то же самое проще?",
+        "Почему by иногда значит «к», а иногда «на»?"
+      ]
     }
   ],
   "card_exercise_index": [
@@ -2071,6 +2653,60 @@
       "exerciseType": "WORD_ARRANGEMENT",
       "exerciseId": 244,
       "orderInCard": 2
+    },
+    {
+      "cardId": 758,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 298,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 758,
+      "exerciseType": "CONSTRUCTION_MEANING",
+      "exerciseId": 120,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 758,
+      "exerciseType": "TRUE_FALSE",
+      "exerciseId": 268,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 759,
+      "exerciseType": "ERROR_CORRECTION",
+      "exerciseId": 263,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 759,
+      "exerciseType": "FORWARD_CHOICE",
+      "exerciseId": 299,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 759,
+      "exerciseType": "WORD_ARRANGEMENT",
+      "exerciseId": 245,
+      "orderInCard": 2
+    },
+    {
+      "cardId": 760,
+      "exerciseType": "REVERSE_CHOICE",
+      "exerciseId": 134,
+      "orderInCard": 0
+    },
+    {
+      "cardId": 760,
+      "exerciseType": "TRANSFORMATION",
+      "exerciseId": 124,
+      "orderInCard": 1
+    },
+    {
+      "cardId": 760,
+      "exerciseType": "MULTIPLE_CHOICE",
+      "exerciseId": 264,
+      "orderInCard": 2
     }
   ],
   "ai_exercises": [
@@ -2095,6 +2731,30 @@
       "cardId": 756,
       "title": "Две точки в будущем",
       "userInstruction": "ИИ даст русскую ситуацию про два события в будущем. Скажите её одним английским предложением.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_perfect_card758_ex1",
+      "cardId": 758,
+      "title": "Подведи итог к дате",
+      "userInstruction": "ИИ даст русскую фразу про итог или план. Скажите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_perfect_card759_ex1",
+      "cardId": 759,
+      "title": "Годовщины",
+      "userInstruction": "ИИ даст русскую фразу о том, сколько что-то будет длиться. Скажите её по-английски.",
+      "inputMode": "FREE_WRITE",
+      "wordsSource": "GENERAL"
+    },
+    {
+      "id": "future_perfect_card760_ex1",
+      "cardId": 760,
+      "title": "Скажи как в новостях",
+      "userInstruction": "ИИ даст русский прогноз к какой-то дате. Скажите его по-английски, как в новостях.",
       "inputMode": "FREE_WRITE",
       "wordsSource": "GENERAL"
     }
@@ -2195,6 +2855,46 @@
       "transcription": "[ˈhəʊpfəli]",
       "microtopicId": 283,
       "categoryId": "tenses"
+    },
+    {
+      "id": 995,
+      "word": "anniversary",
+      "translation": "годовщина",
+      "transcription": "[ˌænɪˈvɜːsəri]",
+      "microtopicId": 284,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 996,
+      "word": "to retire",
+      "translation": "уходить на пенсию, выходить в отставку",
+      "transcription": "[tuː rɪˈtaɪə]",
+      "microtopicId": 284,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 997,
+      "word": "to double",
+      "translation": "удваивать, вырасти вдвое",
+      "transcription": "[tuː ˈdʌbəl]",
+      "microtopicId": 284,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 998,
+      "word": "decade",
+      "translation": "десятилетие",
+      "transcription": "[ˈdekeɪd]",
+      "microtopicId": 284,
+      "categoryId": "tenses"
+    },
+    {
+      "id": 999,
+      "word": "annual",
+      "translation": "ежегодный, годовой",
+      "transcription": "[ˈænjuəl]",
+      "microtopicId": 284,
+      "categoryId": "tenses"
     }
   ],
   "table_fill_exercises": [
@@ -2261,6 +2961,37 @@
         }
       ],
       "explanation": "2: после will всегда голое have, а не has — the guests will have arrived. 3: после have нужна третья форма, а wrote — вторая: Megan will have written. 5: после have нужна третья форма, а не базовая: They will have repaired the road."
+    },
+    {
+      "id": 268,
+      "statements": [
+        {
+          "en": "By May we will have visited five cities.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "By noon I'll have been cleaning three rooms.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "By the end of the course Nick will has written ten essays.",
+          "ru": "",
+          "isTrue": false
+        },
+        {
+          "en": "I won't have finished the book by Monday.",
+          "ru": "",
+          "isTrue": true
+        },
+        {
+          "en": "By Christmas she will have saved enough money.",
+          "ru": "",
+          "isTrue": true
+        }
+      ],
+      "explanation": "2: названо количество — три комнаты считают убранными, форма на -ing сюда не встаёт: I'll have cleaned three rooms. 3: после will только голое have: Nick will have written."
     }
   ],
   "word_arrangement_exercises": [
@@ -2301,6 +3032,27 @@
         "had"
       ],
       "explanation": "после as soon as will не ставится, поэтому will have не нужно — остаётся we've packed: «как только уже соберём». packing — форма на -ing, она про процесс, а had — прошлое, а не будущее."
+    },
+    {
+      "id": 245,
+      "situationRu": "RU: К лету Денис проживёт в Праге уже два года.",
+      "correctSentence": "By the summer Denis will have lived in Prague for two years.",
+      "words": [
+        "By the summer",
+        "Denis",
+        "will",
+        "have",
+        "lived",
+        "in Prague",
+        "for two years"
+      ],
+      "distractors": [
+        "since",
+        "has",
+        "living",
+        "lives"
+      ],
+      "explanation": "длительность к дате — will have + третья форма + for + срок: will have lived for two years. since называет момент старта, а не срок, has после will не ставится, а living и lives — не третья форма."
     }
   ],
   "multiple_choice_exercises": [
@@ -2492,6 +3244,90 @@
         }
       ],
       "explanation": "has read после when — чтение уже позади, и только потом звонок. «Пока будет читать» — по ходу чтения, так сказали бы when she reads. Во втором варианте порядок перевёрнут: сначала звонок, потом договор."
+    },
+    {
+      "id": 298,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "К концу месяца Жанна продаст двадцать картин.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "By the end of the month Zhanna will have been selling twenty paintings.",
+          "isCorrect": false
+        },
+        {
+          "text": "By the end of the month Zhanna will have sold twenty paintings.",
+          "isCorrect": true
+        },
+        {
+          "text": "By the end of the month Zhanna has sold twenty paintings.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "черта «к концу месяца» и число — это итог: will have sold. Форма на -ing с количеством не встаёт: картины считают проданными, а не «продающимися». has sold — Present Perfect, он считает до сегодняшнего дня, а не до конца месяца."
+    },
+    {
+      "id": 299,
+      "choiceType": "FORWARD_CHOICE",
+      "prompt": "В субботу будет три года, как мы переехали.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "On Saturday will be three years since we moved.",
+          "isCorrect": false
+        },
+        {
+          "text": "On Saturday it'll be three years since we will move.",
+          "isCorrect": false
+        },
+        {
+          "text": "On Saturday it'll be three years since we moved.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "английскому предложению нужно подлежащее — его место занимает it: On Saturday it'll be three years. После since называют момент старта, а он в прошлом: since we moved, а не since we will move."
+    },
+    {
+      "id": 134,
+      "choiceType": "REVERSE_CHOICE",
+      "prompt": "By the spring prices will have gone up by five percent.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "К весне цены вырастут на пять процентов.",
+          "isCorrect": true
+        },
+        {
+          "text": "К весне цены вырастут до пяти процентов.",
+          "isCorrect": false
+        },
+        {
+          "text": "До весны цены будут расти пять процентов.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "первое by — срок, «к весне», второе by — разница в числах, «на пять процентов». «До пяти процентов» сказали бы to five percent, а «будут расти до весны» — это процесс, will be going up until the spring."
+    },
+    {
+      "id": 264,
+      "choiceType": "CHOICE",
+      "prompt": "By 2030 thousands of new trees ___ in the city.",
+      "contextRu": "",
+      "options": [
+        {
+          "text": "will have planted",
+          "isCorrect": false
+        },
+        {
+          "text": "will been planted",
+          "isCorrect": false
+        },
+        {
+          "text": "will have been planted",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "деревья сами ничего не сажают — их сажают, поэтому нужен страдательный залог: will have been planted. will have planted значит, что деревья кого-то посадят, а will been — потеряно have."
     }
   ],
   "text_input_exercises": [
@@ -2651,6 +3487,25 @@
         }
       ],
       "explanation": "в части с by the time будущего нет — там настоящее: you come back. Будущее уже сказано во второй половине: we'll have painted. Прошедшее came сюда тоже не подходит, а без have пропадает «к моменту уже»."
+    },
+    {
+      "id": 263,
+      "wrongSentence": "By October Sonya will have been knowing her boss for five years.",
+      "options": [
+        {
+          "text": "By October Sonya will have known her boss for five years.",
+          "isCorrect": true
+        },
+        {
+          "text": "By October Sonya will know her boss for five years.",
+          "isCorrect": false
+        },
+        {
+          "text": "By October Sonya will has known her boss for five years.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "know — глагол состояния, у знания нет процесса, поэтому формы на -ing нет: will have known. will know потеряло «уже к октябрю», а has после will не ставится."
     }
   ],
   "construction_meaning_exercises": [
@@ -2722,6 +3577,29 @@
         }
       ],
       "explanation": "by ten — «к десяти», а will have gone — к этой минуте дело уже позади: дети уже в кроватях. «Пойдут спать в десять» — это at ten they'll go to bed, «будут ложиться» — they'll be going to bed. «До десяти будут в кровати» — отрезок, его сказали бы через until."
+    },
+    {
+      "id": 120,
+      "construction": "By Sunday Jake will only have fixed two chairs.",
+      "options": [
+        {
+          "text": "К воскресенью Джейк будет чинить два стула.",
+          "isCorrect": false
+        },
+        {
+          "text": "В воскресенье Джейк починит два стула.",
+          "isCorrect": false
+        },
+        {
+          "text": "К воскресенью Джейк починит только два стула.",
+          "isCorrect": true
+        },
+        {
+          "text": "До воскресенья Джейк чинил только два стула.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "by Sunday — «к воскресенью», will have fixed — к этой черте дело уже позади, а only — «только»: итог меньше, чем хотелось бы. «Будет чинить» — процесс, «в воскресенье починит» — событие в сам день, «чинил» — прошедшее."
     }
   ],
   "transformation_exercises": [
@@ -2743,6 +3621,25 @@
         }
       ],
       "explanation": "not приклеивается к will: will not = won't. Пара have + третья форма остаётся нетронутой: ни has, ни потерянного have."
+    },
+    {
+      "id": 124,
+      "taskDescription": "перепиши каждое предложение в страдательном залоге, начав с предмета.",
+      "items": [
+        {
+          "original": "They'll have fixed the road by May.",
+          "transformed": "The road will have been fixed by May."
+        },
+        {
+          "original": "They'll have sold the tickets by six.",
+          "transformed": "The tickets will have been sold by six."
+        },
+        {
+          "original": "They'll have cleaned the pool by June.",
+          "transformed": "The pool will have been cleaned by June."
+        }
+      ],
+      "explanation": "предмет встаёт на место подлежащего, а к will have добавляется been перед третьей формой: will have been fixed. Кто это сделает, уже не называем — в новостях так и пишут."
     }
   ],
   "categorization_exercises": [],
