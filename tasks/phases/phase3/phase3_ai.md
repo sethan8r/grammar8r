@@ -21,9 +21,9 @@ AI-упражнения — главная причина платить под�
 
 ## Модель и маршрутизация
 
-- **Модель:** `gpt-5-nano` ($0.05/1M input, $0.40/1M output)
+- **Модель:** DeepSeek `deepseek-flash` (V4.1-Flash): пик — $0.30/1M вход, $0.006/1M вход из кэша, $1.20/1M выход; вне пика вдвое дешевле. Расчёт расходов — `subscription.md` → «Расчёт расходов»
 - **Все запросы идут через сервер** — API-ключ никогда не хранится в APK
-- **Android → сервер (Spring Boot, Java) → OpenAI API → сервер → Android**
+- **Android → сервер (Spring Boot, Java) → DeepSeek API → сервер → Android**
 - Авторизация: JWT (залогинен) или X-Device-Id (анонимно, Free принудительно)
 
 ---
@@ -131,9 +131,9 @@ USER_ANSWER: {{ userAnswer }}
 ```
 
 **Параметры запроса:**
-- `response_format`: Structured Outputs strict: true
+- `response_format`: Structured Outputs strict: true — ⚠️ у DeepSeek `strict`-схемы нет (см. ниже «Structured Outputs»)
 - `temperature`: 0
-- `max_tokens`: 200
+- `max_tokens`: ~800 (решено 26.09.2026 — разбор ошибки в 200 не влезает; точную цифру подобрать на тестах)
 
 ### Уточнение ("Не совсем понял")
 
@@ -194,13 +194,17 @@ USER_QUESTION: {{ userQuestion }}
 На стороне приложения:
 - Поле ввода: максимум 500 символов (UI-ограничение)
 - Кнопка "Проверить" недоступна если поле пустое
-- После получения ответа — показывать только валидированные поля (`score`, `feedback`, `correctedAnswer`), не сырой JSON
+- После получения ответа — показывать только валидированные поля (`isCorrect`, `feedback`, `correctedAnswer`), не сырой JSON
 - Если сервер вернул `error: "ai_error"` → показать "Что-то пошло не так, попробуй ещё раз"
 - Если `error: "limit_exceeded"` → показать экран исчерпания лимита с таймером до сброса
 
 ---
 
 ## Structured Outputs — JSON-схема
+
+> ⚠️ **Модель — DeepSeek (решено 26.09.2026).** `strict`-схема ниже — фича OpenAI; у DeepSeek есть JSON-режим,
+> но без гарантии схемы. Серверная валидация и один ретрай при кривом JSON — обязательны. Перепроектировать
+> при старте ИИ-части (`phases/phase4/phase4_infra_draft.md` п. 12, `ai_evaluation_draft.md`).
 
 Для упражнений:
 ```json

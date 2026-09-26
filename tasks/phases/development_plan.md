@@ -76,7 +76,7 @@
 Зависит от Фазы 2 (нужны слова).
 
 > Детальный план AI-реализации: [phase3/phase3_ai.md](phase3/phase3_ai.md)
-> Модель: gpt-5-nano через сервер-прокси (не напрямую из приложения)
+> Модель: DeepSeek `deepseek-flash` (V4.1-Flash) через сервер-прокси (не напрямую из приложения); расчёт расходов — `subscription.md`
 
 **AI-упражнения в теории:**
 - [ ] AI-упражнение в конце каждой карточки (простое и открытое)
@@ -107,12 +107,12 @@
 - [ ] Показ текущего лимита AI-запросов (из ответа сервера)
 - [ ] Блокировка микротем при исчерпании дневного лимита (Free)
 
-**Сервер (Spring Boot на Java, Hetzner):**
+**Сервер (Spring Boot на Java, Beget VPS в РФ):**
 - [ ] Заменить Ktor-шаблон в `grammar-server` на Spring Boot, подключить `grammar-shared`
 - [ ] Эндпоинты реализуют DTO-контракт из модуля `grammar-shared` (не дублировать модели на сервере)
 - [ ] Авторизация: email+пароль + Яндекс OAuth → JWT
 - [ ] GET /subscription, POST /webhook/yookassa
-- [ ] POST /ai/exercise + /ai/clarification (AI-прокси через OpenAI gpt-5-nano)
+- [ ] POST /ai/exercise + /ai/clarification (AI-прокси через DeepSeek deepseek-flash)
 - [ ] POST /limits/microtopic (трекинг микротем Free)
 - [ ] Стрик и milestone-бонусы
 - [ ] Ручная выдача подписки через консоль
