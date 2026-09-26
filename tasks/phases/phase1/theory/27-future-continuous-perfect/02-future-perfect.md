@@ -2594,23 +2594,292 @@ RU: Когда Ира вернётся из отпуска, мы уже пере
 
 ---
 
+## Microtopic 288 — will or will have done · Когда без Future Perfect не обойтись
+
+**ID:** 288
+**Теги:** will или will have, когда нужен will have, i've finished by friday, will have tomorrow, какое будущее выбрать
+
+---
+
+### Card 767 · Тормоз: где хватит will и be done
+
+**ID:** 767
+
+#### Theory
+
+Тема почти пройдена, и перед финальной практикой остался главный практический вопрос: когда это время брать, а когда оно лишнее. Начнём с тормоза.
+
+**Одна мысль — три упаковки**
+
+- **I'll finish the design by ten.**
+- **I'll be done by ten.**
+- **I'll have finished the design by ten.**
+
+Все три — «к десяти закончу дизайн». Когда срок задан словом `by`, разницы почти нет: русский глагол «закончу» сам говорит «доведу до конца», и английскому хватает `will` — это мы видели ещё во вводной. В разговоре чаще звучат первые две фразы, третья — чуть официальнее.
+
+**Где без него не обойтись**
+
+Мы прошли эти места по одному, вот они вместе:
+
+- две точки, и порядок решает форма — **When Megan gets here, I'll have left.** — микротема «К сроку»
+- итог к дате — **By June we'll have achieved our goal.** — микротема «Итоги, годовщины и прогнозы»
+- прогноз или отчёт — **By 2030 the city will have built a new stadium.** — там же
+- уверенная догадка — **Jake will have landed by now.** — микротема «Догадки»
+
+Во всех четырёх простое `will` сломало бы смысл: поменяло бы порядок, превратило итог в план, а догадку — в будущее.
+
+**Нет точки — нет времени**
+
+Это время всегда смотрит назад из точки. Если точки нет, оглядываться не из чего. **I'll have finished the report tomorrow** звучит странно: `tomorrow` — не черта, а сам день, в который дело случится.
+
+Проверка — подставьте «к». «Закончу к завтрашнему дню» — черта есть: **I'll have finished it by tomorrow**. «Закончу завтра» — черты нет, это просто событие: **I'll finish it tomorrow**.
+
+**Ловушки:**
+- **I'll have finished it tomorrow** ✗ → **I'll finish it tomorrow** ✓ или **I'll have finished it by tomorrow** ✓ — без точки-черты это время не работает
+- **By Friday I've finished the report** ✗ → **By Friday I'll have finished the report** ✓ — `have done` считает до сейчас, а черта в будущем требует `will`
+
+**Не перебарщивать**
+
+Разобравшись с этим временем, легко начать строить на нём весь рассказ: **By Monday I'll have booked the tickets, by Tuesday I'll have packed, by Wednesday I'll have left.** Так звучит отчёт о сроках, а не человек. Обычно хватает одной такой фразы — там, где итог или порядок и правда важны: **On Monday I'll book the tickets and pack. By Wednesday I'll have left.**
+
+**Кстати:** `eventually` — это «в итоге, в конце концов», а вовсе не «возможно», как подсказывает похожее русское «эвентуально»: **Eventually we'll achieve our goal.** — в конце концов мы добьёмся своей цели. Для «возможно» есть `maybe` и `possibly`.
+
+**Запомни главное:** со сроком `by` часто хватает `will` или `be done`. Без `will have` не обойтись там, где без него сломается порядок, итог, прогноз или догадка. Нет точки — нет и этого времени.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Со сроком `by` часто хватает `will` или `be done`: **I'll finish the design by ten** · **I'll be done by ten**.
+
+**Без will have не обойтись**
+
+- Две точки с `when`: **When Megan gets here, I'll have left**
+- Итог к дате: **By June we'll have achieved our goal**
+- Прогноз: **By 2030 the city will have built a new stadium**
+- Догадка: **Jake will have landed by now**
+
+**Частые ошибки**
+
+- **I'll have finished it tomorrow** ✗ → **I'll finish it tomorrow** ✓ — нет точки-черты
+- **By Friday I've finished** ✗ → **By Friday I'll have finished** ✓ — черта в будущем
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3576 | К десяти я закончу дизайн. | I'll finish the design by ten. |
+| 3577 | К десяти я уже закончу дизайн. | I'll have finished the design by ten. |
+| 3578 | Когда Меган доберётся, я уже уйду. | When Megan gets here, I'll have left. |
+| 3579 | К июню мы уже достигнем своей цели. | By June we'll have achieved our goal. |
+| 3580 | Джейк наверняка уже приземлился. | Jake will have landed by now. |
+| 3581 | Я закончу отчёт завтра. | I'll finish the report tomorrow. |
+| 3582 | В конце концов мы добьёмся своей цели. | Eventually we'll achieve our goal. |
+
+---
+
+#### Exercises
+
+**Ex 52 · ErrorCorrection** *(ID: 265)*
+
+В предложении есть ошибка. Выбери правильный вариант:
+
+"Denis will have repaired the bike tomorrow."
+
+- **Denis will have repaired the bike by tomorrow.** ✓
+- Denis has repaired the bike by tomorrow.
+- Denis will has repaired the bike tomorrow.
+
+*Explanation:* это время смотрит назад из точки-черты, а tomorrow — не черта, а сам день. С by tomorrow черта появляется: «к завтрашнему дню уже починит». has repaired считает до сейчас, а не до завтра, а после will стоит голое have.
+
+---
+
+**Ex 53 · TrueFalse** *(ID: 271)*
+
+| # | EN | Верно? |
+|---|----|--------|
+| 1 | By next week I've finished the course. | ✗ |
+| 2 | I'll finish the essay by Monday. | ✓ |
+| 3 | When the guests arrive, we'll have cleaned the flat. | ✓ |
+| 4 | She'll have cooked dinner tomorrow. | ✗ |
+| 5 | By Friday Olya will have sent the forms. | ✓ |
+
+*Explanation:* 1: черта в будущем — by next week, поэтому нужно will: I'll have finished the course. 4: tomorrow — не черта, а сам день; либо She'll cook dinner tomorrow, либо She'll have cooked dinner by tomorrow.
+
+---
+
+**Ex 54 · MultipleChoice · FORWARD_CHOICE** *(ID: 303)*
+
+"Когда ты вернёшься, Соня уже заснёт."
+
+- When you get back, Sonya will fall asleep.
+- When you get back, Sonya has fallen asleep.
+- **When you get back, Sonya will have fallen asleep.** ✓
+
+*Explanation:* две точки с when, и порядок решает форма: «уже заснёт» к твоему возвращению — will have fallen asleep. will fall asleep значит «заснёт, когда ты вернёшься», после тебя. has fallen asleep считает до сейчас, а точка — в будущем.
+
+---
+
+#### Clarification Options
+
+- Если I'll finish by ten и так верно, зачем вообще will have?
+- Почему нельзя сказать I'll have finished it tomorrow?
+- Что значит eventually?
+
+---
+
+### Card 768 · Компас: три будущих на одной точке
+
+**ID:** 768
+
+#### Theory
+
+В Future Continuous мы рассказывали, как пройдёт свадьба Кейт: в десять — в дороге, в полдень начнётся церемония, а в полночь мы всё ещё будем танцевать. Сюжет вёл `will`, декорации ставил `will be + -ing`. И мы обещали третью картинку — «к шести уже закончу». Теперь она есть, и рассказ становится полным:
+
+- **While the guests are having dinner, I'll be editing the video.** — пока гости будут ужинать, я буду монтировать видео: фон
+- **After dinner the couple will cut the cake.** — после ужина молодые разрежут торт: событие
+- **By the time the band comes on, I'll have filmed the whole ceremony.** — к выходу группы я уже сниму всю церемонию: итог
+- **By midnight I'll have sent the video to Kate.** — к полуночи я уже отправлю видео Кейт: итог
+
+У каждого будущего своя работа:
+
+| Форма | Что делает в рассказе |
+|-------|-----------------------|
+| will | сюжет: что случится и в каком порядке |
+| will be + -ing | декорации: что идёт в эту минуту |
+| will have + V3 | итог: что к этой точке уже позади |
+
+**Компас одним экраном**
+
+В Future Continuous мы собрали компас из вопросов. Теперь в его начале встаёт ещё один — к нашему времени. Спрашиваем по порядку:
+
+1. К названной точке дело уже будет позади, и без этого сломается порядок, итог, прогноз или догадка? → `will have + V3`
+2. В эту минуту дело будет идти? → `will be + -ing`
+3. Записано в расписании? → Present Simple
+4. Договорились с человеком? → Present Continuous
+5. Решил заранее или вижу признак? → `going to`
+6. Ничего из этого — решаю сейчас, обещаю, предсказываю? → `will`
+
+И отдельно: после `when`, `by the time`, `as soon as` будущего нет — там настоящее, а «уже позади» даёт `have + V3`: **I'll text you when I've arrived.**
+
+**Важно:** если срок задан словом `by` и порядок ничем не рискует, первый вопрос можно пропустить: **I'll finish it by Friday** и **I'll have finished it by Friday** одинаково верны. Это зона тормоза — берите любую форму.
+
+**Кстати:** «к шести он будет ждать уже час» — это процесс, который тянется к точке. У него своё время, Future Perfect Continuous, — следующая тема раздела.
+
+**Запомни главное:** `will` ведёт сюжет, `will be + -ing` ставит декорации, `will have + V3` подводит итог к точке.
+
+#### Summary *(кнопка «?» в упражнениях)*
+
+Три будущих на одной точке: `will` — сюжет, `will be + -ing` — декорации, `will have + V3` — итог к точке.
+
+**Компас по порядку**
+
+- К точке уже позади, и без этого сломается смысл → **By midnight I'll have sent the video**
+- В эту минуту идёт → **I'll be editing the video**
+- Расписание → **The ceremony starts at noon**
+- Договорились → **I'm training with Sam tomorrow**
+- Решил заранее → **I'm going to run a marathon**
+- Решаю сейчас, обещаю → **I'll help you**
+
+**После союза**
+
+- **I'll text you when I've arrived** — настоящее, «уже» даёт `have + V3`
+
+**Частые ошибки**
+
+- **I'll have finished it tomorrow** ✗ → **by tomorrow** ✓ — нужна точка-черта
+- **By Friday I've finished** ✗ → **I'll have finished** ✓
+- **when I will have finished** ✗ → **when I've finished** ✓
+
+#### Examples
+
+| # | RU | EN |
+|---|----|----|
+| 3583 | Пока гости будут ужинать, я буду монтировать видео. | While the guests are having dinner, I'll be editing the video. |
+| 3584 | К выходу группы я уже сниму всю церемонию. | By the time the band comes on, I'll have filmed the whole ceremony. |
+| 3585 | К полуночи я уже отправлю видео Кейт. | By midnight I'll have sent the video to Kate. |
+| 3586 | Я напишу тебе, когда доеду. | I'll text you when I've arrived. |
+| 3587 | Завтра я тренируюсь с Сэмом. | I'm training with Sam tomorrow. |
+| 3588 | В следующем году я собираюсь пробежать марафон. | I'm going to run a marathon next year. |
+
+---
+
+#### Exercises
+
+**Ex 55 · Matching** *(ID: 140)*
+
+Задание: соедини фразу с тем, что она делает в рассказе
+
+| Фраза | Что делает |
+|-------|------------|
+| The guests will arrive at five. | событие по порядку |
+| At six we'll be eating. | фон в эту минуту |
+| By seven I'll have given my speech. | итог к точке |
+| Jake will have heard the news by now. | догадка о сделанном |
+
+*Explanation:* will плюс глагол ведёт события по порядку. will be + -ing показывает, что идёт в названную минуту. will have + третья форма с точкой в будущем подводит итог, а с by now — уверенно гадает о том, что уже случилось.
+
+---
+
+**Ex 56 · MultipleChoice · CHOICE** *(ID: 267)*
+
+"Don't come at eight — by then I ___ ."
+
+- will leave
+- **will have left** ✓
+- have left
+
+*Explanation:* by then — черта в будущем, и к ней уход уже позади, поэтому и просят не приходить: will have left. will leave — «уйду», без «уже к восьми». have left считает до сейчас, а точка — восемь вечера.
+
+---
+
+#### AI Exercise
+
+**ID:** future_perfect_card768_ex1
+**Title:** "Какое будущее: весь набор"
+**Input Mode:** FREE_WRITE
+**Words Source:** GENERAL
+**AI Config Profile:** EXERCISE_LIGHT
+**User Instruction:** "ИИ опишет ситуацию и даст русскую фразу. Скажите её по-английски и одной строкой объясните, почему выбрали эту форму."
+**Prompt Template:** "Контекст: пользователь проходит последнюю карточку перед финальной практикой темы Future Perfect и учится выбирать между всеми способами говорить о будущем. Он знает компас по порядку: 1) к названной точке дело уже будет позади, и без этого сломается порядок, итог, прогноз или догадка → will have + третья форма (When Megan gets here, I'll have left; By June we'll have achieved our goal; By 2030 the city will have built a new stadium; Jake will have landed by now); 2) в эту минуту дело будет идти → will be + -ing (While the guests are having dinner, I'll be editing the video); 3) записано в расписании → Present Simple (The ceremony starts at noon); 4) договорились с человеком → Present Continuous (I'm training with Sam tomorrow); 5) решил заранее или вижу признак → going to (I'm going to run a marathon next year); 6) решаю сейчас, обещаю, предсказываю → will (I'll help you). После when, by the time, as soon as будущего нет: там настоящее, а «уже позади» — have + третья форма (I'll text you when I've arrived). Зона тормоза: если срок задан словом by и порядок ничем не рискует, I'll finish it by Friday, I'll be done by Friday и I'll have finished it by Friday одинаково верны. Без точки-черты это время не работает (I'll have finished it tomorrow — ошибка, верно I'll finish it tomorrow или by tomorrow); Present Perfect с будущей чертой — ошибка (By Friday I've finished — верно By Friday I'll have finished). ГРАММАТИЧЕСКИЙ ФОН — что он уже прошёл по курсу: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect, Present Perfect Continuous, Past Perfect, Past Perfect Continuous, будущее через will и going to и выбор между ними, вся тема Future Continuous, условные предложения, модальные глаголы, герундий, страдательный залог, косвенные вопросы, придаточные с who, which, that, косвенная речь и вся тема Future Perfect: срок с by и until, by the time и when, перфект после союза, итоги и прогнозы, «успеть» и «уже», догадки, пересказ. ЕЩЁ НЕ ПРОШЁЛ: Future Perfect Continuous — ситуаций «к шести будет ждать уже час» не давай. ЗАДАНИЕ: опиши пользователю по-русски ОДНУ короткую ситуацию о будущем и дай русскую фразу, которую в ней нужно сказать; попроси сказать её по-английски и одной строкой объяснить, почему выбрана эта форма. В условии не подсказывай форму. Бери только знакомые слова из присланного списка слов пользователя, чтобы трудность была в выборе формы, а не в незнакомой лексике. ДЕРЖИ ПРОСТЫМ: ситуация — одно короткое предложение, фраза — 4-10 слов, одно действие или две части с «когда»; в дебри не уходи. ВЫБОР ПОВОДА: памяти о прошлых запусках у тебя нет, поэтому пункт выбирай случайно прямо сейчас: 1. две точки с «когда» (Друг приедет в девять, а ты уходишь в восемь: «Когда ты приедешь, меня уже не будет».) 2. итог к дате («К концу года я прочитаю двадцать книг».) 3. уверенная догадка (Рейс по расписанию сел час назад: «Лена наверняка уже приземлилась».) 4. процесс в минуту (Друг звонит в семь, а у тебя тренировка: «В семь я буду тренироваться».) 5. расписание (На табло: «Автобус уходит в 6:40».) 6. договорённость (Вы договорились с Ником: «В субботу я встречаюсь с Ником».) 7. решение сейчас (Звонят в дверь: «Я открою!») 8. перфект после союза («Позвоню, как только закончу».) 9. зона тормоза («Я закончу отчёт к пятнице».) 10. граница: без точки («Я закончу отчёт завтра».) Образцы дословно не повторяй. ОЦЕНКА: верна форма, которую даёт компас. В пункте 9 засчитывай и will + by, и be done by, и will have + by, одной строкой скажи, что здесь разницы почти нет. В пункте 3 засчитай и must have, одной строкой скажи, что will have — уверенность по опыту. В пункте 10 верно will + глагол (I'll finish the report tomorrow); если написал will have finished tomorrow — скажи, что без черты «к …» это время не работает. В пункте 1 на when you arrive, I'll leave скажи, что так выйдет «уйду после тебя», а по смыслу меня уже не будет. В пункте 2 на will read скажи, что так звучит план, а «к концу года» — итог. В пункте 8 на when I will finish или when I will have finished скажи, что после when будущего нет. Если поставил Present Perfect с будущей чертой (By Friday I've finished) — скажи, что have done считает до сейчас, а черта в будущем требует will. В пунктах 5-7 оценивай по компасу «Карты будущего»: will для табло и договорённости засчитай грамматику, но скажи, что естественнее Present Simple и Present Continuous. Объяснение пользователя оценивай по сути, а не по терминам; если форма верна, а объяснения нет или оно неточное — засчитай форму и одной строкой назови причину сам. Если сломана сборка (will have went, will has) — покажи собранную форму. При ошибке сначала скажи, что значила бы фраза пользователя, если она осмысленна, потом дай верный вариант. Объясняй по-русски, коротко, без грамматических терминов."
+
+Пример вывода AI: 'Ситуация: друг обещал заехать в девять, а у тебя поезд в восемь. Скажите по-английски «Когда ты заедешь, меня уже не будет» и одной строкой объясните выбор формы.'
+
+#### Clarification Options
+
+- Как быстро выбрать форму будущего?
+- Когда разница между I'll finish by Friday и I'll have finished by Friday не важна?
+- Чем will be doing отличается от will have done на одной и той же точке?
+
+---
+
+### Words8r Sync · Слова из времён
+
+| Слово | Переводы | Транскрипция |
+|-------|----------|-------------|
+| goal | цель | [ɡəʊl] |
+| to achieve | достигать, добиваться | [tuː əˈtʃiːv] |
+| to train | тренироваться, обучать | [tuː treɪn] |
+| marathon | марафон | [ˈmærəθən] |
+| eventually | в итоге, в конце концов | [ɪˈventʃuəli] |
+
+---
+
 ## Счётчики IDs для продолжения
 
 | Тип | Последний использованный | Следующий |
 |-----|--------------------------|-----------|
 | Topic | 42 | 43 |
-| Microtopic | 287 | 288 |
-| Card | 766 | 767 |
-| Example | 3575 | 3576 |
-| Слова курса (course_word) | 1014 | 1015 |
-| MultipleChoice · CHOICE | 266 | 267 |
-| MultipleChoice · FORWARD_CHOICE | 302 | 303 |
+| Microtopic | 288 | 289 |
+| Card | 768 | 769 |
+| Example | 3588 | 3589 |
+| Слова курса (course_word) | 1019 | 1020 |
+| MultipleChoice · CHOICE | 267 | 268 |
+| MultipleChoice · FORWARD_CHOICE | 303 | 304 |
 | MultipleChoice · REVERSE_CHOICE | 137 | 138 |
-| TrueFalse | 270 | 271 |
+| TrueFalse | 271 | 272 |
 | WordArrangement | 246 | 247 |
 | TextInput | 137 | 138 |
-| Matching | 139 | 140 |
-| ErrorCorrection | 264 | 265 |
+| Matching | 140 | 141 |
+| ErrorCorrection | 265 | 266 |
 | FindTheOdd | 139 | 140 |
 | Categorization | 168 | 169 |
 | TableFill | 54 | 55 |
